@@ -1,0 +1,572 @@
+{
+  "datum": "2026-10-24",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-24",
+        "themaTitel": "Geschäfts- oder Firmenwert",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "klausurtechnik",
+        "themaId": "erbst-modul-erbst-548",
+        "themaTitel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-modul-kst-10",
+        "themaTitel": "Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:18",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-1"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:18",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-1"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:11",
+        "art": "norm",
+        "themaId": "bilanz-glossar-15"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:31",
+        "art": "fehler",
+        "themaId": "ao-modul-ao-367"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:42",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-390"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:29",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-349"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-24",
+      "slug": "2026-10-24-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Geschäfts- oder Firmenwert",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "derivativen und originären Firmenwert unterscheiden",
+            "den Firmenwert als Residualgröße berechnen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Entgeltlicher Erwerb eines Betriebs oder Teilbetriebs?"
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Zeitwerte der einzelnen Vermögensgegenstände und Schulden ermitteln."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Geschäfts- oder Firmenwert: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Geschäfts- oder Firmenwert: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Geschäfts- oder Firmenwert",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 246 Abs. 1 S. 4 HGB",
+        "§ 248 Abs. 2 S. 1 HGB",
+        "§ 253 Abs. 3 S. 3, 4 HGB",
+        "§ 285 Nr. 13 HGB",
+        "§ 5 Abs. 2 EStG",
+        "§ 6 Abs. 1 Nr. 1 EStG",
+        "§ 7 Abs. 1 S. 3 EStG",
+        "§ 274 Abs. 1 HGB",
+        "Themenpool: bilanz-modul-k3-24"
+      ],
+      "coverRegie": {
+        "thema": "Geschäfts- oder Firmenwert",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-24-b1-bilanz-modul-k3-24-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "klausurtechnik",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-548",
+      "slug": "2026-10-24-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Boden- und Gebäudewert trennen",
+            "Rohertrag/Bewirtschaftungskosten/Reinertrag korrekt staffeln"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Bodenwert: § 179 / § 184 Abs. 2."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Rohertrag nach § 186 ermitteln."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert +…",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 184 BewG",
+        "§ 185 BewG",
+        "§ 186 BewG",
+        "§ 187 BewG",
+        "§ 188 BewG",
+        "Themenpool: erbst-modul-erbst-548"
+      ],
+      "coverRegie": {
+        "thema": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-24-b2-erbst-modul-erbst-548-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-10",
+      "slug": "2026-10-24-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust",
+          "unter": "Körperschaftsteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 8c Abs. 1 S. 1, 3 KStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Quote und Fünfjahreszeitraum untersuchen"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Mehr als 50 % unmittelbarer oder mittelbarer Erwerb innerhalb von fünf Jahren?",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Mehr als 50 % unmittelbarer oder mittelbarer Erwerb. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Mehr als 50 % unmittelbarer oder"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Zeitpunkt des Übergangs des wirtschaftlichen Eigentums bestimmen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Zeitpunkt des Übergangs des wirtschaftlichen Eigentums. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Zeitpunkt des Übergangs des"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 8c Abs. 1 S. 1, 3 KStG",
+        "§ 8c Abs. 1 S. 4 KStG",
+        "§ 8c Abs. 1 S. 5–8 KStG",
+        "§ 8c Abs. 1a KStG",
+        "§ 8d Abs. 1 KStG",
+        "§ 8d Abs. 2 KStG",
+        "§ 10a S. 10, 11 GewStG",
+        "§ 8c KStG",
+        "§ 8d KStG",
+        "Themenpool: kst-modul-kst-10"
+      ],
+      "coverRegie": {
+        "thema": "Schädlicher Beteiligungserwerb und fortführungsgebundener Verlust",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-24-b3-kst-modul-kst-10-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-1",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Welche Norm regelt das wirtschaftliche Eigentum?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-1",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: § 39 AO. § 39 Abs. 2 Nr. 1 AO ist die zentrale Zurechnungsnorm."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-15",
+      "quellen": [
+        "BMF-Schreiben zu Ehegattengrundstücken",
+        "Themenpool: bilanz-glossar-15"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "BMF-Schreiben zu Ehegattengrundstücken",
+      "titel": "Aufwandsverteilungsposten",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "fehler",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-367",
+      "quellen": [
+        "§ 249 Abs. 1 AO",
+        "§ 251 Abs. 1 AO",
+        "§ 361 AO",
+        "§ 254 Abs. 1 AO",
+        "§ 220 AO",
+        "§ 259 AO",
+        "§ 281 Abs. 1 AO",
+        "§ 286 AO",
+        "§ 263 AO",
+        "§ 295 AO",
+        "VollstrA Abschn. 19",
+        "Themenpool: ao-modul-ao-367"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Vollstreckung: allgemeine Voraussetzungen und konkrete Vollstreckungsmaßnahme",
+      "falsch": "Einzelne Vollstreckungsmaßnahme untersuchen, ohne zuvor die allgemeinen Voraussetzungen abzuarbeiten.",
+      "richtigText": "Vollstreckbarkeit und Voraussetzungen des Vollstreckungsbeginns getrennt untersuchen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-390",
+      "quellen": [
+        "§ 69 AO",
+        "§ 34 AO",
+        "§ 37 AO",
+        "§ 191 AO",
+        "§ 219 AO",
+        "§§ 34, 35 AO",
+        "Themenpool: ao-modul-ao-390"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Haftung des Vertreters nach § 69 AO: Geschäftsführer, Pflichtverletzung und Schaden",
+      "text": "Person nach §§ 34 oder 35 AO feststellen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-349",
+      "quellen": [
+        "§ 165 Abs. 2 S. 1 AO",
+        "§ 165 Abs. 2 S. 2 AO",
+        "§ 171 Abs. 8 S. 1 AO",
+        "§ 171 Abs. 8 S. 2 AO",
+        "§ 120 AO",
+        "§ 165 Abs. 2 S. 1 und 2 AO",
+        "§ 171 Abs. 8 S. 1 und 2 AO",
+        "Themenpool: ao-modul-ao-349"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "§ 165 AO: Fortbestand, Änderungsbescheid und Ablaufhemmung § 171 Abs. 8",
+      "text": "1. Vermerk im Ausgangsbescheid aufnehmen."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

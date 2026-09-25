@@ -1,0 +1,556 @@
+{
+  "datum": "2026-10-03",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-18",
+        "themaTitel": "Verdeckte Einlage",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "klausurtechnik",
+        "themaId": "ao-modul-ao-329",
+        "themaTitel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr2-07",
+        "themaTitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "kst-karte-kst-6"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:07",
+        "art": "antwort",
+        "themaId": "kst-karte-kst-6"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "ao-modul-ao-315"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "countdown",
+        "tageBisExamen": 3
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr2-04"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "istr-modul-istr-istr1-10"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-18",
+      "slug": "2026-10-03-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Verdeckte Einlage",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "einlagefähigen Vermögensvorteil erkennen",
+            "Veranlassung durch Gesellschaftsverhältnis untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Vorteil und Zuwendenden bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Ist der Vorteil einlagefähig/bilanzierbar?"
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Verdeckte Einlage: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Verdeckte Einlage: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Verdeckte Einlage",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 8 Abs. 3 S. 3 KStG",
+        "§ 8 Abs. 3 S. 4–6 KStG",
+        "§ 4 Abs. 1 S. 8 EStG",
+        "§ 6 Abs. 6 S. 2 EStG",
+        "§ 27 Abs. 1 S. 1 KStG",
+        "§ 17 Abs. 2a EStG",
+        "§ 8 Abs. 3 Satz 3 KStG",
+        "§ 27 KStG",
+        "Themenpool: bilanz-modul-k3-18"
+      ],
+      "coverRegie": {
+        "thema": "Verdeckte Einlage",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-03-b1-bilanz-modul-k3-18-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "klausurtechnik",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-329",
+      "slug": "2026-10-03-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Beginn der Festsetzungsfrist bestimmen",
+            "Erklärungspflicht als Weichenstellung erkennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Steueranspruch/Steuerentstehung bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "untersuchen, ob eine Steuererklärung einzureichen ist."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Festsetzungsfrist: Beginn nach § 170 AO und…",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 170 AO",
+        "§ 38 AO",
+        "§ 149 AO",
+        "§ 25 Abs. 3 EStG",
+        "§ 56 EStDV",
+        "§ 18 UStG",
+        "Themenpool: ao-modul-ao-329"
+      ],
+      "coverRegie": {
+        "thema": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-03-b2-ao-modul-ao-329-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-07",
+      "slug": "2026-10-03-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "Art. 15 DBA",
+          "icon": null,
+          "sprecher": "Heute geht es um Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Tätigkeitsstaat als Ausgangspunkt des Art."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Ansässigkeitsstaat und Tätigkeitsstaat bestimmen. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Ansässigkeitsstaat und Tätigkeitsstaat"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Art. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Art."
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "Art. 15 DBA",
+        "Art. 23 DBA",
+        "§ 32b EStG",
+        "Themenpool: istr-modul-istr-istr2-07"
+      ],
+      "coverRegie": {
+        "thema": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-03-b3-istr-modul-istr-istr2-07-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-6",
+      "quellen": [
+        "Themenpool: kst-karte-kst-6"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "§ 27 KStG"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-6",
+      "quellen": [
+        "Themenpool: kst-karte-kst-6"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Außerbilanzielle Nebenrechnung. Leistung zuerst aus ausschüttbarem Gewinn; Einlagekonto niemals negativ."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-315",
+      "quellen": [
+        "§ 124 AO",
+        "§ 125 AO",
+        "§ 126 AO",
+        "§ 127 AO",
+        "§ 91 AO",
+        "§ 121 AO",
+        "§§ 17 ff. AO",
+        "§ 157 Abs. 1 S. 3 AO",
+        "Themenpool: ao-modul-ao-315"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 124 AO",
+      "titel": "Wirksam trotz Fehler: Rechtswidrigkeit, Nichtigkeit und die Tortenstückfehlerlehre",
+      "text": "Wirksamkeit und Rechtmäßigkeit nicht vermischen Nichtigkeit als Ausnahmebereich erkennen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "3",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-04",
+      "quellen": [
+        "Art. 1 DBA",
+        "Art. 2 DBA",
+        "Art. 4 Abs. 1 DBA",
+        "Art. 4 Abs. 2 DBA",
+        "Art. 1, 2 und 4 DBA",
+        "AAVV",
+        "Themenpool: istr-modul-istr-istr2-04"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "DBA Anwendbarkeit und Ansässigkeit",
+      "text": "A – Anwendbarkeit: Art. 1 persönlich und Art. 2 sachlich."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-10",
+      "quellen": [
+        "§ 50a Abs. 1 EStG",
+        "§ 50a Abs. 2 EStG",
+        "§ 50a Abs. 5 EStG",
+        "§ 50c EStG",
+        "§ 50a EStG",
+        "Themenpool: istr-modul-istr-istr1-10"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
+      "text": "§ 50a ist Erhebung, nicht Einkunftsqualifikation: erst E und I, dann S."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

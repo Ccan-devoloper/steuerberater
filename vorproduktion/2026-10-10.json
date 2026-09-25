@@ -1,0 +1,573 @@
+{
+  "datum": "2026-10-10",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-21",
+        "themaTitel": "Gewinnrealisierung und schwebende Geschäfte",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "klausurtechnik",
+        "themaId": "ao-modul-ao-332",
+        "themaTitel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr3-04",
+        "themaTitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:08",
+        "art": "frage",
+        "themaId": "kst-quiz-kst-7"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:08",
+        "art": "antwort",
+        "themaId": "kst-quiz-kst-7"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "ao-modul-ao-313"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:18",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-362"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:40",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-9"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:23",
+        "art": "fehler",
+        "themaId": "ao-modul-ao-369"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-21",
+      "slug": "2026-10-10-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Gewinnrealisierung und schwebende Geschäfte",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "den Realisationszeitpunkt an Gefahrübergang bzw. Abnahme knüpfen",
+            "schwebende Geschäfte vom Bilanzansatz ausnehmen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Vertragstyp bestimmen: Kauf, Werkvertrag oder Dauerschuldverhältnis."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Zeitpunkt der wesentlichen Leistungserbringung feststellen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Gewinnrealisierung und schwebende Geschäfte: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Gewinnrealisierung und schwebende Geschäfte: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Gewinnrealisierung und schwebende Geschäfte",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 252 Abs. 1 Nr. 4 Hs. 2 HGB",
+        "§ 252 Abs. 1 Nr. 5 HGB",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "R 5.7 Abs. 7 EStR",
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 266 Abs. 3 C. 3 HGB",
+        "§ 252 Abs. 1 Nr. 4 HGB",
+        "Themenpool: bilanz-modul-k3-21"
+      ],
+      "coverRegie": {
+        "thema": "Gewinnrealisierung und schwebende Geschäfte",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-10-b1-bilanz-modul-k3-21-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "klausurtechnik",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-332",
+      "slug": "2026-10-10-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Korrekturvorschrift und passende Ablaufhemmung paarweise zuweisen",
+            "Schreib-/Rechenfehler, Antrag und Einspruch als unterschiedliche Hemmungsauslöser unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Reguläre Festsetzungsfrist lückenlos berechnen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Ist sie abgelaufen: Anlass/Fehler bestimmen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Korrekturpärchen nach Ablauf der regulären…",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 171 Abs. 2 S. 1 AO",
+        "§ 129 AO",
+        "§ 171 Abs. 2 S. 2 AO",
+        "§ 173a AO",
+        "§ 171 Abs. 3 AO",
+        "§ 164 Abs. 2 AO",
+        "§ 173 AO",
+        "§ 171 Abs. 3a AO",
+        "§ 350 AO",
+        "Themenpool: ao-modul-ao-332"
+      ],
+      "coverRegie": {
+        "thema": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-10-b2-ao-modul-ao-332-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-04",
+      "slug": "2026-10-10-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 18 Abs. 1 Nr. 3 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Aufsichtsratsvergütung als selbständige"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Einkunftsart: § 18 Abs. 1 Nr. 3 EStG. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Inlandsanknüpfung: § 49 Abs. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Inlandsanknüpfung: § 49 Abs."
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 18 Abs. 1 Nr. 3 EStG",
+        "§ 49 Abs. 1 Nr. 3 EStG",
+        "§ 50a Abs. 1 Nr. 4 EStG",
+        "§ 50a Abs. 2 EStG",
+        "§ 50a Abs. 3 EStG",
+        "Art. 16 DBA",
+        "§ 50a Abs. 1 Nr. 4, Abs. 2, 3 EStG",
+        "Themenpool: istr-modul-istr-istr3-04"
+      ],
+      "coverRegie": {
+        "thema": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-10-b3-istr-modul-istr-istr3-04-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-7",
+      "quellen": [
+        "Themenpool: kst-quiz-kst-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-7",
+      "quellen": [
+        "Themenpool: kst-quiz-kst-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: 5 %. 5 % gelten im Grundfall als nichtabziehbare Betriebsausgaben."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-313",
+      "quellen": [
+        "§ 122 Abs. 2 Nr. 1 AO",
+        "§ 108 Abs. 3 AO",
+        "§ 122 Abs. 2a AO",
+        "§ 122 Abs. 5 AO",
+        "§ 8 VwZG",
+        "§§ 177–182 ZPO",
+        "§ 122a AO",
+        "§ 122a Abs. 1–5 AO",
+        "Art. 97 § 28 Abs. 2 EGAO",
+        "Themenpool: ao-modul-ao-313"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 122 Abs. 2 Nr. 1 AO",
+      "titel": "Zeitpunkt der Bekanntgabe: einfacher Brief, E-Mail, förmliche Zustellung und § 122a AO",
+      "text": "Drei-/Vier-Tages-Fiktion nach Jahr unterscheiden Postaufgabe statt Bescheiddatum verwenden"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-362",
+      "quellen": [
+        "§ 175 Abs. 1 Nr. 2 AO",
+        "§ 175 Abs. 1 S. 2 AO",
+        "§ 175 Abs. 2 AO",
+        "§ 171 Abs. 10a AO",
+        "§ 175b Abs. 1 AO",
+        "§ 175b Abs. 2 AO",
+        "§ 175 Abs. 1 Nr. 2 und S. 2 AO",
+        "§ 175b Abs. 1 und 2 AO",
+        "Themenpool: ao-modul-ao-362"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis, punktuelle Frist und eDaten-Pärchen",
+      "text": "Ereignis nach Bescheid + steuerliche Rückwirkung = § 175 Abs. 1 Nr. 2; für dieses Ereignis Fristbeginn nach § 175 Abs. 1 S. 2 separat untersuchen."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "begriff",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-9",
+      "quellen": [
+        "BMF vom 19.4.1971",
+        "Themenpool: bilanz-glossar-9"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Vollamortisation",
+      "text": "Die Leasingraten der Grundmietzeit decken die Anschaffungskosten und Nebenkosten des Leasinggebers lückenlos ab.",
+      "norm": "BMF vom 19.4.1971"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-369",
+      "quellen": [
+        "§ 351 Abs. 1 AO",
+        "§ 177 Abs. 1 AO",
+        "§ 177 Abs. 2 AO",
+        "§ 177 AO",
+        "Korrekturformel",
+        "Themenpool: ao-modul-ao-369"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+      "falsch": "§ 351 Abs. 1 AO auch ohne Änderungsbescheid anwenden.",
+      "richtigText": "Anwendungsbereich des § 351 Abs. 1 AO erkennen"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

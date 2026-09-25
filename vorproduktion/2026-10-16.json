@@ -1,0 +1,570 @@
+{
+  "datum": "2026-10-16",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-11",
+        "themaTitel": "Sondervergütungen",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "erbst-modul-erbst-539",
+        "themaTitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr3-07",
+        "themaTitel": "§ 2 AStG: erweiterte beschränkte Steuerpflicht",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:16",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-28"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:16",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-28"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:55",
+        "art": "norm",
+        "themaId": "kst-modul-kst-5"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:27",
+        "art": "merksatz",
+        "themaId": "istr-modul-istr-istr4-08"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:56",
+        "art": "tipp",
+        "themaId": "kst-modul-kst-4"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:29",
+        "art": "fehler",
+        "themaId": "kst-modul-kst-3"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-11",
+      "slug": "2026-10-16-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Sondervergütungen",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Tätigkeits-, Darlehens- und Überlassungsvergütungen erkennen",
+            "Gesamthand und Sonderbereich spiegelbildlich buchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Zahlung an Mitunternehmer identifizieren."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Beruht sie auf Dienst, Darlehen oder Überlassung?"
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Sondervergütungen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Sondervergütungen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Sondervergütungen",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 Hs. 2 EStG",
+        "§ 4 Abs. 4 EStG",
+        "R 4.2 Abs. 2 EStR",
+        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
+        "Themenpool: bilanz-modul-k3-11"
+      ],
+      "coverRegie": {
+        "thema": "Sondervergütungen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-16-b1-bilanz-modul-k3-11-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-539",
+      "slug": "2026-10-16-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "immerwährende von unbestimmter Dauer trennen",
+            "Grabpflege in den Nutzungs-/Leistungsblock einordnen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Jahreswert der Leistung bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Immerwährende Dauer → Jahreswert × 18,6."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei § 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer;…",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 13 Abs. 2 BewG",
+        "§ 15 BewG",
+        "§ 16 BewG",
+        "Themenpool: erbst-modul-erbst-539"
+      ],
+      "coverRegie": {
+        "thema": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-16-b2-erbst-modul-erbst-539-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-07",
+      "slug": "2026-10-16-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "§ 2 AStG: erweiterte beschränkte Steuerpflicht",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 2 Abs. 1 AStG",
+          "icon": null,
+          "sprecher": "Heute geht es um § 2 AStG: erweiterte beschränkte Steuerpflicht. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "deutsche Staatsangehörigkeit und"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Natürliche Person und deutsche Staatsangehörigkeit feststellen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Natürliche Person und deutsche Staatsangehörigkeit. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Natürliche Person und deutsche"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "untersuchen, ob in den letzten zehn Jahren vor Ende der unbeschränkten Steuerpflicht insgesamt mindestens fünf",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: untersuchen, ob in den letzten zehn Jahren vor Ende der. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "untersuchen, ob in den letzten zehn Jahren"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei § 2 AStG: erweiterte beschränkte Steuerpflicht: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "§ 2 AStG: erweiterte beschränkte Steuerpflicht: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "§ 2 AStG: erweiterte beschränkte Steuerpflicht",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 2 Abs. 1 AStG",
+        "§ 2 Abs. 2 AStG",
+        "§ 2 AStG",
+        "§ 2 Abs. 1–5 AStG",
+        "Themenpool: istr-modul-istr-istr3-07"
+      ],
+      "coverRegie": {
+        "thema": "§ 2 AStG: erweiterte beschränkte Steuerpflicht",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-16-b3-istr-modul-istr-istr3-07-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-28",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-28"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Ist die Buchwertfortführung bei der Realteilung ein Wahlrecht?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-28",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-28"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: nein, sie ist zwingend. § 16 Abs. 3 S. 2 EStG ordnet die Buchwertfortführung zwingend an."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-modul-kst-5",
+      "quellen": [
+        "R 8.9 Abs. 1 KStR",
+        "H 8.9 Behandlung beim Gesellschafter KStH",
+        "H 8.9 Nutzungsvorteile KStH",
+        "§ 6 Abs. 1 Nr. 5 EStG",
+        "§ 6 Abs. 6 S. 2 EStG",
+        "§ 8 Abs. 3 S. 3–5 KStG",
+        "§ 27 Abs. 1 S. 1 KStG",
+        "§ 8 Abs. 3 S. 3 KStG",
+        "R 8.9 KStR",
+        "Themenpool: kst-modul-kst-5"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "R 8.9 Abs. 1 KStR",
+      "titel": "Verdeckte Einlage – Grundschema",
+      "text": "einlagefähigen Vermögensvorteil erkennen Bewertung bei der Gesellschaft bestimmen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "merksatz",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr4-08",
+      "quellen": [
+        "§ 12 Abs. 1 AStG",
+        "§ 12 Abs. 2 AStG",
+        "§ 12 Abs. 3 AStG",
+        "§ 34c Abs. 1 EStG",
+        "§ 26 Abs. 1 KStG",
+        "§ 11 Abs. 1 AStG",
+        "§ 11 Abs. 2 AStG",
+        "§ 20 Abs. 1 Nr. 1 EStG",
+        "§ 11 AStG",
+        "§ 12 Abs. 1, 2, 3 AStG",
+        "Themenpool: istr-modul-istr-istr4-08"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "§ 11 Kürzungsbetrag und § 12 Steueranrechnung",
+      "text": "§ 12 entlastet sofort über die Anrechnung der Auslandssteuer, § 11 später über den Kürzungsbetrag bei der Ausschüttung."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-modul-kst-4",
+      "quellen": [
+        "R 8.5 Abs. 1 KStR",
+        "§ 8 Abs. 3 S. 2 KStG",
+        "H 8.6 Hingabe von Wirtschaftsgütern KStH",
+        "H 8.6 Nutzungsüberlassungen KStH",
+        "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+        "§ 8b Abs. 1 KStG",
+        "§ 27 Abs. 1 S. 3 KStG",
+        "R 8.5 KStR",
+        "Themenpool: kst-modul-kst-4"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Verdeckte Gewinnausschüttung – Grundschema",
+      "text": "Vermögensminderung oder verhinderte Vermögensmehrung feststellen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-modul-kst-3",
+      "quellen": [
+        "§ 8 Abs. 1 KStG",
+        "§ 10 Nr. 2 KStG",
+        "§ 4 Abs. 5 EStG",
+        "§ 4 Abs. 6 EStG",
+        "§ 4 Abs. 7 EStG",
+        "§ 10 KStG",
+        "§ 4 Abs. 5–7 EStG",
+        "Themenpool: kst-modul-kst-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Nichtabziehbare Aufwendungen und Spenden",
+      "falsch": "Bruttobetrag und Nettobetrag vermischen",
+      "richtigText": "typische nichtabziehbare Aufwendungen erkennen"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

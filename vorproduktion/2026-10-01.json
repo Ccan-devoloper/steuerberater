@@ -1,0 +1,555 @@
+{
+  "datum": "2026-10-01",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-10",
+        "themaTitel": "Sonderbetriebsvermögen I und II",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "ao-modul-ao-336",
+        "themaTitel": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr3-08",
+        "themaTitel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:10",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-3"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:10",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-3"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:59",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr2-01"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:22",
+        "art": "countdown",
+        "tageBisExamen": 5
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:58",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr1-04"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:07",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr2-05"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-10",
+      "slug": "2026-10-01-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Sonderbetriebsvermögen I und II",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "SBV I und SBV II unterscheiden",
+            "notwendiges und gewillkürtes SBV unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Eigentümer des Wirtschaftsguts bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Dient es direkt dem Betrieb der Gesellschaft? → SBV I."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Sonderbetriebsvermögen I und II: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Sonderbetriebsvermögen I und II: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Sonderbetriebsvermögen I und II",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "R 4.2 Abs. 2 S. 1, 2 EStR",
+        "H 4.2 Abs. 2 EStH",
+        "§ 6 Abs. 5 S. 2, 3 EStG",
+        "R 4.2 Abs. 2 EStR",
+        "§ 15 EStG",
+        "Themenpool: bilanz-modul-k3-10"
+      ],
+      "coverRegie": {
+        "thema": "Sonderbetriebsvermögen I und II",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Die Figuren tragen getrennte Kisten aus Gemeinschafts- und Privatbereich zu einem gemeinsamen Ergebnis, ohne sie vorher zu vermischen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-01-b1-bilanz-modul-k3-10-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-336",
+      "slug": "2026-10-01-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO",
+          "coverBadge": "Klausurschema",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "ernsthaften Prüfungsbeginn von bloßer Vorbereitung oder Scheinbeginn unterscheiden",
+            "schädliche Anfangsunterbrechung nach § 171 Abs. 4 S. 2 mit allen Voraussetzungen untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Wirksame Prüfungsanordnung und ernsthaften Prüfungsbeginn vor Ablauf der Festsetzungsfrist feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "untersuchen, ob die Außenprüfung direkt nach ihrem Beginn unterbrochen wurde; Gewicht und verwertbare Ergebnisse der bisherigen Prüfungshandlungen würdigen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer…",
+      "coverBadge": "Klausurschema",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 171 Abs. 4 S. 2 AO",
+        "AEAO zu § 171 Nr. 3.2.5",
+        "§ 171 Abs. 4 S. 1–7 AO",
+        "AEAO zu § 171 Nr. 3.2.5–3.2.10",
+        "BFH 24.04.2003 – VII R 3/02",
+        "BFH 26.04.2017 – I R 76/15",
+        "Themenpool: ao-modul-ao-336"
+      ],
+      "coverRegie": {
+        "thema": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-01-b2-ao-modul-ao-336-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-08",
+      "slug": "2026-10-01-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 17 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Tatbestände des § 6 Abs."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Anteil i.S.d. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Anteil i.S.d."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "§ 6 Abs.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: § 6 Abs. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "§ 6 Abs."
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 17 EStG",
+        "§ 6 Abs. 1 AStG",
+        "§ 6 Abs. 2 AStG",
+        "§ 6 Abs. 3 AStG",
+        "§ 6 AStG",
+        "§ 6 Abs. 1–5 AStG",
+        "§ 17 Abs. 1 EStG",
+        "Themenpool: istr-modul-istr-istr3-08"
+      ],
+      "coverRegie": {
+        "thema": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-01-b3-istr-modul-istr-istr3-08-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-3",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wo wird Sonderbetriebsvermögen abgebildet?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-3",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: Sonderbilanz. Sonderbetriebsvermögen gehört in die Sonderbilanz des Mitunternehmers."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-01",
+      "quellen": [
+        "§ 1 Abs. 1 EStG",
+        "§ 1 Abs. 3 EStG",
+        "§ 49 EStG",
+        "§ 1 Abs. 4 EStG",
+        "§ 50 Abs. 1 EStG",
+        "§ 1 Abs. 1, 3, 4 EStG",
+        "Themenpool: istr-modul-istr-istr2-01"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 1 Abs. 1 EStG",
+      "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
+      "text": "§ 1 Abs. 1, 3 und 4 EStG sauber voneinander unterscheiden. Die 90-%-/Grundfreibetragsprüfung des § 1 Abs. 3 EStG in den Klausuraufbau einordnen."
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "5",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-04",
+      "quellen": [
+        "§ 1a EStG",
+        "§ 10 Abs. 1a EStG",
+        "§ 26 EStG",
+        "§ 26b EStG",
+        "§ 10 EStG",
+        "Themenpool: istr-modul-istr-istr1-04"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "§ 1a EStG: EU-/EWR-Familienbezug und personenbezogene Vergünstigungen",
+      "text": "1. Ausgangs-Steuerpflicht nach § 1 Abs. 1 oder 3 EStG bestimmen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-05",
+      "quellen": [
+        "§ 49 EStG",
+        "Art. 6 DBA",
+        "Art. 13 DBA",
+        "Art. 23 DBA",
+        "Art. 6 und Art. 13 DBA",
+        "Themenpool: istr-modul-istr-istr2-05"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
+      "text": "1. Nationale Einkunftsart und § 49-Anknüpfung bestimmen."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

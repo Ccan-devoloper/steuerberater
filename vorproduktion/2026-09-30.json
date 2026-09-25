@@ -1,0 +1,555 @@
+{
+  "datum": "2026-09-30",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-5",
+        "themaTitel": "Teilwertabschreibung und Zuschreibung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "klausurtechnik",
+        "themaId": "ao-modul-ao-306",
+        "themaTitel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr2-08",
+        "themaTitel": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:23",
+        "art": "frage",
+        "themaId": "persg-quiz-persg-2"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:23",
+        "art": "antwort",
+        "themaId": "persg-quiz-persg-2"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:57",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr1-06"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:35",
+        "art": "countdown",
+        "tageBisExamen": 6
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:01",
+        "art": "fehler",
+        "themaId": "istr-modul-istr-istr3-06"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:27",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr1-07"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-5",
+      "slug": "2026-09-30-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Teilwertabschreibung und Zuschreibung",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "dauernde und vorübergehende Wertminderung unterscheiden",
+            "Anlage- und Umlaufvermögen unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Buchwert und niedrigeren Stichtagswert bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Handelsrechtliche Abschreibungspflicht/-wahlrecht untersuchen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Teilwertabschreibung und Zuschreibung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Teilwertabschreibung und Zuschreibung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Teilwertabschreibung und Zuschreibung",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 253 Abs. 3 S. 5, 6 HGB",
+        "§ 253 Abs. 4 S. 1, 2 HGB",
+        "§ 253 Abs. 5 S. 1 HGB",
+        "§ 6 Abs. 1 Nr. 1 S. 2, 4 EStG",
+        "§ 6 Abs. 1 Nr. 2 S. 2, 3 EStG",
+        "§ 252 Abs. 1 Nr. 4 HGB",
+        "§ 6 Abs. 1 Nr. 1 und 2 EStG",
+        "§ 253 HGB",
+        "Themenpool: bilanz-modul-k3-5"
+      ],
+      "coverRegie": {
+        "thema": "Teilwertabschreibung und Zuschreibung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-09-30-b1-bilanz-modul-k3-5-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "klausurtechnik",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-306",
+      "slug": "2026-09-30-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Wirksamkeit nach § 124 AO von inhaltlicher Richtigkeit trennen",
+            "Nichtigkeit als Ausnahme erkennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "untersuchen, ob der VA nach § 124 AO wirksam geworden ist."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "§ 125 Abs. 1 AO nur bei besonders schwerwiegendem und offenkundigem Fehler untersuchen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Wirksamkeit und Nichtigkeit von Verwaltungsakten: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Wirksamkeit und Nichtigkeit von Verwaltungsakten: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 124 AO",
+        "§ 125 AO",
+        "§ 119 AO",
+        "§ 157 AO",
+        "§ 196 AO",
+        "§ 191 AO",
+        "§ 45 AO",
+        "Themenpool: ao-modul-ao-306"
+      ],
+      "coverRegie": {
+        "thema": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-09-30-b2-ao-modul-ao-306-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-08",
+      "slug": "2026-09-30-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "Art. 23 DBA",
+          "icon": null,
+          "sprecher": "Heute geht es um Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Methodenartikel nur aus Sicht des"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Ergebnis der Verteilungsnorm festhalten.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Ergebnis der Verteilungsnorm festhalten. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Ergebnis der Verteilungsnorm festhalten."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Methodenartikel des Ansässigkeitsstaats: Freistellung oder Anrechnung.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Methodenartikel des Ansässigkeitsstaats. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Methodenartikel des Ansässigkeitsstaats"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "Art. 23 DBA",
+        "§ 32b Abs. 1 S. 1 Nr. 3 EStG",
+        "§ 32b Abs. 1 S. 2 EStG",
+        "§ 32b EStG",
+        "Themenpool: istr-modul-istr-istr2-08"
+      ],
+      "coverRegie": {
+        "thema": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-09-30-b3-istr-modul-istr-istr2-08-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-persg-2",
+      "quellen": [
+        "Themenpool: persg-quiz-persg-2"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu berücksichtigen?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-persg-2",
+      "quellen": [
+        "Themenpool: persg-quiz-persg-2"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: Ergänzungs- und Sonderbereich der Gesellschafter. Stufe II ist die Gesellschafterebene."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-06",
+      "quellen": [
+        "§ 2 Abs. 7 S. 3 EStG",
+        "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 6 AStG",
+        "§ 49 EStG",
+        "§§ 2, 6 AStG",
+        "§ 19 Abs. 3 InvStG",
+        "Themenpool: istr-modul-istr-istr1-06"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 2 Abs. 7 S. 3 EStG",
+      "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht",
+      "text": "Unterjährigen Wechsel der persönlichen Steuerpflicht zeitlich sauber aufnehmen. Auslandseinkünfte des übrigen Jahres und Progressionsvorbehalt nur nach einschlägiger Norm einbeziehen."
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "6",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "fehler",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-06",
+      "quellen": [
+        "§ 1 EStG",
+        "§ 2 Abs. 7 S. 3 EStG",
+        "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 49 EStG",
+        "§ 50a EStG",
+        "§§ 2, 6 AStG",
+        "§ 49 / § 50a EStG",
+        "Themenpool: istr-modul-istr-istr3-06"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
+      "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
+      "richtigText": "Wegzugsdatum und Zeiträume vor/nach Wegzug zuerst auf einer Zeitachse festhalten."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-07",
+      "quellen": [
+        "§ 2 Nr. 1 KStG",
+        "§ 49 EStG",
+        "Themenpool: istr-modul-istr-istr1-07"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Beschränkte Körperschaftsteuerpflicht mit Inlandseinkünften",
+      "text": "1. Körperschaft/vergleichbarer Rechtsträger; Sitz und Geschäftsleitung im Ausland."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

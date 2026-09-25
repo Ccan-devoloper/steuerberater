@@ -1,0 +1,562 @@
+{
+  "datum": "2026-10-14",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-17",
+        "themaTitel": "Verdeckte Gewinnausschüttung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "erbst-modul-erbst-515",
+        "themaTitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr4-02",
+        "themaTitel": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:20",
+        "art": "frage",
+        "themaId": "kst-karte-kst-1"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:20",
+        "art": "antwort",
+        "themaId": "kst-karte-kst-1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:08",
+        "art": "norm",
+        "themaId": "erbst-modul-erbst-504"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:25",
+        "art": "tipp",
+        "themaId": "erbst-modul-erbst-503"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:49",
+        "art": "tipp",
+        "themaId": "persg-modul-persg-2"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:22",
+        "art": "merksatz",
+        "themaId": "istr-modul-istr-istr4-05"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-17",
+      "slug": "2026-10-14-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Verdeckte Gewinnausschüttung",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Tatbestandsmerkmale der vGA auswendig anwenden",
+            "Fremdvergleich und beherrschenden Gesellschafter untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Vermögensminderung/verhinderte Mehrung feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Auswirkung auf steuerlichen Gewinn?"
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Verdeckte Gewinnausschüttung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Verdeckte Gewinnausschüttung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Verdeckte Gewinnausschüttung",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 8 Abs. 3 S. 2 KStG",
+        "R 8.5 Abs. 1 KStR",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+        "§ 3 Nr. 40 Buchst. d) EStG",
+        "§ 32a KStG",
+        "§ 8 Abs. 3 Satz 2 KStG",
+        "Themenpool: bilanz-modul-k3-17"
+      ],
+      "coverRegie": {
+        "thema": "Verdeckte Gewinnausschüttung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-14-b1-bilanz-modul-k3-17-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-515",
+      "slug": "2026-10-14-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "§ 10 Abs. 6, 6a und 6b nach ihrer aktuellen Funktion auseinanderhalten",
+            "wirtschaftlich direkt mit steuerbefreitem Vermögen zusammenhängende Schulden nach § 10 Abs. 6a kürzen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Zuerst feststellen, ob der Fall unbeschränkte oder beschränkte Steuerpflicht bzw. ein beschränktes deutsches Besteuerungsrecht betrifft."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bei wirtschaftlichem Zusammenhang mit lückenlos oder teilweise steuerbefreitem Vermögen die Kürzung nach § 10 Abs. 6a ErbStG bestimmen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6…",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 10 Abs. 6a ErbStG",
+        "R E 10.10 Abs. 2 S. 2",
+        "§ 10 Abs. 6 ErbStG",
+        "§ 10 Abs. 6b ErbStG",
+        "Themenpool: erbst-modul-erbst-515"
+      ],
+      "coverRegie": {
+        "thema": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-14-b2-erbst-modul-erbst-515-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr4-02",
+      "slug": "2026-10-14-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 7 Abs. 1 S. 1 AStG",
+          "icon": null,
+          "sprecher": "Heute geht es um § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Die Beherrschung nach § 7 Abs."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Unbeschränkt Steuerpflichtiger nach § 1 Abs. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Unbeschränkt Steuerpflichtiger nach § 1"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Ausländische Gesellschaft: Körperschaft/Personenvereinigung/Vermögensmasse i.S.d.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Ausländische Gesellschaft. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Ausländische Gesellschaft"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 7 Abs. 1 S. 1 AStG",
+        "§ 7 Abs. 1 S. 2 AStG",
+        "§ 7 Abs. 2 AStG",
+        "§ 7 Abs. 3 AStG",
+        "§ 7 Abs. 4 AStG",
+        "§ 7 Abs. 5 AStG",
+        "§ 1 Abs. 2 AStG",
+        "§ 3 Abs. 1 KStG",
+        "§ 7 Abs. 3, 4 AStG",
+        "Themenpool: istr-modul-istr-istr4-02"
+      ],
+      "coverRegie": {
+        "thema": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-14-b3-istr-modul-istr-istr4-02-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-1",
+      "quellen": [
+        "Themenpool: kst-karte-kst-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "vGA – Vorprüfung"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-1",
+      "quellen": [
+        "Themenpool: kst-karte-kst-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Wer hat den Vorteil? Gesellschafter/nahestehende Person → R 8.5 KStR und § 8 Abs. 3 S. 2 KStG."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-504",
+      "quellen": [
+        "§ 12 ErbStG",
+        "BewG",
+        "§§ 13–13d ErbStG",
+        "§ 10 Abs. 5 Nr. 1–2 ErbStG",
+        "R E 7.4 Abs. 1 S. 2",
+        "§ 10 Abs. 6/6a ErbStG",
+        "§ 10 Abs. 6, 6a ErbStG",
+        "Themenpool: erbst-modul-erbst-504"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 12 ErbStG",
+      "titel": "Steuerpflichtiger Erwerb: Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
+      "text": "für jedes Wirtschaftsgut Bewertung und sachliche Steuerbefreiung getrennt untersuchen § 12 ErbStG als Sprungnorm in das BewG verwenden"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-503",
+      "quellen": [
+        "§ 10 Abs. 1 S. 1–2 ErbStG",
+        "R E 7.4 Abs. 1 S. 1–2",
+        "§ 12 ErbStG",
+        "§ 10 Abs. 6 ErbStG",
+        "Themenpool: erbst-modul-erbst-503"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Bereicherung, gemischte Schenkung und Schenkung unter Auflage",
+      "text": "§ 10 Abs. 1 S. 1 ErbStG: steuerpflichtiger Erwerb = Bereicherung des Erwerbers, soweit nicht steuerfrei."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-modul-persg-2",
+      "quellen": [
+        "§ 15 Abs. 3 Nr. 1 EStG",
+        "§ 15 Abs. 3 Nr. 2 EStG",
+        "§ 15 Abs. 3 Nr. 1, Nr. 2 EStG",
+        "Themenpool: persg-modul-persg-2"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Abfärbung und gewerblich geprägte Personengesellschaft",
+      "text": "zuerst klären: Eine Gesellschaft mit zwei Tätigkeiten oder Ober-/Untergesellschaft?"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr4-05",
+      "quellen": [
+        "§ 8 Abs. 2 AStG",
+        "§ 8 Abs. 3 AStG",
+        "§ 8 Abs. 4 AStG",
+        "§ 1 AStG",
+        "Themenpool: istr-modul-istr-istr4-05"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "§ 8 Abs. 2 bis 4 AStG: Motivtest nur für EU-/EWR-Gesellschaften",
+      "text": "Der Motivtest rettet nur EU-/EWR-Gesellschaften: § 8 Abs. 3 AStG schließt jede Drittstaatengesellschaft aus – auch eine substanzstarke."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

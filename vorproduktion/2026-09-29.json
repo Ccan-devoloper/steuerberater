@@ -1,0 +1,553 @@
+{
+  "datum": "2026-09-29",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "persg-modul-persg-6",
+        "themaTitel": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
+        "fach": "persg",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-337",
+        "themaTitel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr1-01",
+        "themaTitel": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:04",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-31"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:04",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-31"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:04",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr3-10"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:25",
+        "art": "countdown",
+        "tageBisExamen": 7
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:02",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-5"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:07",
+        "art": "fehler",
+        "themaId": "istr-modul-istr-istr3-05"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-modul-persg-6",
+      "slug": "2026-09-29-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Gesamthandsvermögen, Sonderbetriebsvermögen und Privatvermögen räumlich trennen",
+            "zivilrechtliche Zurechnung und steuerliche Zuordnung auseinanderhalten"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Zivilrechtliches Eigentum und Gesamthandszugehörigkeit bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Steuerlich untersuchen, ob das Wirtschaftsgut betrieblichen Zwecken der Gesellschaft oder eines Mitunternehmers dient."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Thema für die nächste Wiederholung speichern"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "buch"
+          ]
+        }
+      ],
+      "caption": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ],
+      "kurztitel": "Betriebsvermögen der Mitunternehmerschaft und…",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 246 Abs. 1 HGB",
+        "§ 247 Abs. 2 HGB",
+        "§ 253 Abs. 1 HGB",
+        "§ 39 Abs. 1 AO",
+        "H 4.2 Abs. 11 EStH",
+        "§ 5 Abs. 1 EStG",
+        "Themenpool: persg-modul-persg-6"
+      ],
+      "coverRegie": {
+        "thema": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Die Figuren tragen getrennte Kisten aus Gemeinschafts- und Privatbereich zu einem gemeinsamen Ergebnis, ohne sie vorher zu vermischen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-09-29-b1-persg-modul-persg-6-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-337",
+      "slug": "2026-09-29-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "SteuFa/StraBuSt und Steuerhinterziehung in der Fristlogik einordnen",
+            "§ 171 Abs. 9 AO ('Beichte') mit § 173 Abs. 1 AO verbinden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Schreib-/Rechenfehler: § 171 Abs. 2 S. 1/S. 2 AO mit § 129 AO bzw. § 173a AO verbinden."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Antrag vor Ablauf der FF: § 171 Abs."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und…",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 171 Abs. 2 AO",
+        "§ 129 AO",
+        "§ 173a AO",
+        "§ 171 Abs. 3 AO",
+        "§ 171 Abs. 3a AO",
+        "§ 367 Abs. 2 S. 1 AO",
+        "§ 171 Abs. 4 AO",
+        "§ 171 Abs. 5 AO",
+        "§ 169 Abs. 2 S. 2 AO",
+        "§ 171 Abs. 9 AO",
+        "Themenpool: ao-modul-ao-337"
+      ],
+      "coverRegie": {
+        "thema": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-09-29-b2-ao-modul-ao-337-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr1-01",
+      "slug": "2026-09-29-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 1 Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Grundschema: persönlicher Steuerzugriff und Wohnsitz. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "§ 1 Abs."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Natürliche Person?",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Natürliche Person? Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Natürliche Person?"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Aufenthalt (§ 9 AO)?",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Wohnsitz im Inland (§ 8 AO) oder"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Grundschema: persönlicher Steuerzugriff und Wohnsitz: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Grundschema: persönlicher Steuerzugriff und Wohnsitz: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 1 EStG",
+        "§ 8 AO",
+        "§ 9 AO",
+        "§ 2 Abs. 1 EStG",
+        "§§ 8, 9 AO",
+        "Themenpool: istr-modul-istr-istr1-01"
+      ],
+      "coverRegie": {
+        "thema": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-09-29-b3-istr-modul-istr-istr1-01-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-31",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-31"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-31",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-31"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: Buchwert, Zwischenwert oder gemeiner Wert. Der Buchwertansatz verlangt einen Antrag voraus; der gemeine Wert ist der gesetzliche Regelfall."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-10",
+      "quellen": [
+        "§ 2 Nr. 1 KStG",
+        "§ 49 EStG",
+        "§ 21 EStG",
+        "§ 7 EStG",
+        "Themenpool: istr-modul-istr-istr3-10"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 2 Nr. 1 KStG",
+      "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA",
+      "text": "Deutschen Grundstücksbezug über § 49 und die zugrunde liegende Einkunftsart feststellen. Zurechnungs-/Nutzungszeitraum aus dem Sachverhalt ableiten."
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "7",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "begriff",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-5",
+      "quellen": [
+        "R 5.7 Abs. 7 EStR",
+        "Themenpool: bilanz-glossar-5"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Schwebendes Geschäft",
+      "text": "Beiderseits noch nicht erfüllter Vertrag; im Grundfall nicht zu bilanzieren, bis der Schwebezustand gestört ist.",
+      "norm": "R 5.7 Abs. 7 EStR"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-05",
+      "quellen": [
+        "§ 50 Abs. 1 EStG",
+        "§ 50 Abs. 2 S. 1 EStG",
+        "§ 50 Abs. 2 S. 2 Nr. 5 EStG",
+        "§ 50a EStG",
+        "§ 50 Abs. 1 und 2 EStG",
+        "Themenpool: istr-modul-istr-istr3-05"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
+      "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
+      "richtigText": "§ 50 Abs. 1 erst nach Ermittlung der beschränkt steuerpflichtigen Einkünfte anwenden."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

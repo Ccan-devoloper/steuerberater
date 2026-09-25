@@ -1,0 +1,561 @@
+{
+  "datum": "2026-10-28",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-13",
+        "themaTitel": "Übertragungen nach § 6 Abs. 5 EStG",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "erbst-modul-erbst-545",
+        "themaTitel": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-schema-6",
+        "themaTitel": "Vereinsbesteuerung",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:16",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-30"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:16",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-30"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:59",
+        "art": "norm",
+        "themaId": "bilanz-glossar-4"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:39",
+        "art": "merksatz",
+        "themaId": "ust-modul-ust-213"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:55",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-45"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:13",
+        "art": "fehler",
+        "themaId": "ust-modul-ust-244"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-13",
+      "slug": "2026-10-28-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Übertragungen nach § 6 Abs. 5 EStG",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Übertragungsrichtungen des Absatzes 5 zuweisen",
+            "Entgeltlichkeit und Gewährung von Gesellschaftsrechten untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Ausgangs- und Zielbetriebsvermögen bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Welcher Tatbestand des § 6 Abs. 5 Satz 1, 2 oder 3?"
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Übertragungen nach § 6 Abs. 5 EStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Übertragungen nach § 6 Abs. 5 EStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Übertragungen nach § 6 Abs. 5 EStG",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 6 Abs. 5 S. 1 EStG",
+        "§ 6 Abs. 5 S. 2 EStG",
+        "§ 6 Abs. 5 S. 3 Nr. 1–3 EStG",
+        "§ 6 Abs. 5 S. 4 EStG",
+        "§ 6 Abs. 5 S. 5, 6 EStG",
+        "§ 6 Abs. 3 EStG",
+        "§ 6 Abs. 5 EStG",
+        "Themenpool: bilanz-modul-k3-13"
+      ],
+      "coverRegie": {
+        "thema": "Übertragungen nach § 6 Abs. 5 EStG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-28-b1-bilanz-modul-k3-13-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-545",
+      "slug": "2026-10-28-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Grundstücksart vor Bewertungsverfahren bestimmen",
+            "§181-Kategorien unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Bebautes Grundstück feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Grundstücksart nach § 181 BewG bestimmen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Bebaute Grundstücke: Grundstücksart nach § 181 vor…",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 181 BewG",
+        "§ 182 BewG",
+        "§ 180 BewG",
+        "§ 181 Abs. 1–9 BewG",
+        "Themenpool: erbst-modul-erbst-545"
+      ],
+      "coverRegie": {
+        "thema": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-28-b2-erbst-modul-erbst-545-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-schema-6",
+      "slug": "2026-10-28-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Vereinsbesteuerung",
+          "unter": "Körperschaftsteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 5 Abs. 1 Nr. 9",
+          "icon": null,
+          "sprecher": "Heute geht es um Vereinsbesteuerung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Verein als Körperschaftsteuersubjekt"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Steuerpflicht nach § 1 Abs."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Steuerbefreiung nach § 5 Abs. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Steuerbefreiung nach § 5 Abs."
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Vereinsbesteuerung: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Vereinsbesteuerung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Vereinsbesteuerung",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 5 Abs. 1 Nr. 9",
+        "§ 24 KStG",
+        "AO",
+        "§ 64 Abs. 3 AO",
+        "Themenpool: kst-schema-6"
+      ],
+      "coverRegie": {
+        "thema": "Vereinsbesteuerung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-28-b3-kst-schema-6-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-30",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-30"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-30",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-30"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: laufender Gewinn. Insoweit liegt eine Veräußerung vor; § 34 EStG ist nicht anwendbar."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-4",
+      "quellen": [
+        "§ 6 Abs. 1 Nr. 1 S. 3 EStG",
+        "Themenpool: bilanz-glossar-4"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 6 Abs. 1 Nr. 1 S. 3 EStG",
+      "titel": "Teilwert",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "merksatz",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-213",
+      "quellen": [
+        "§ 10 Abs. 5 UStG",
+        "§ 10 Abs. 4 UStG",
+        "Themenpool: ust-modul-ust-213"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Mindestbemessungsgrundlage nach § 10 Abs. 5",
+      "text": "Näheverhältnis + verbilligtes Entgelt = § 10 Abs. 5 als Pflichtprüfung."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-45",
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 15a Abs. 1 S. 1 EStG",
+        "§ 15a Abs. 1 S. 2 EStG",
+        "§ 15a Abs. 1 S. 3 EStG",
+        "§ 15a Abs. 2 S. 1 EStG",
+        "§ 15a Abs. 3 S. 1 EStG",
+        "§ 15a Abs. 4 S. 1 EStG",
+        "§ 15a Abs. 5 EStG",
+        "H 15a „Kapitalkonto\" EStH",
+        "H 15a „Sonderbetriebsvermögen\" EStH",
+        "Themenpool: bilanz-modul-k3-45"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Verlustausgleichsbeschränkung nach § 15a EStG",
+      "text": "Gesellschafterstellung untersuchen: § 15a EStG gilt für Kommanditisten und wirtschaftlich vergleichbar beschränkt Haftende."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-244",
+      "quellen": [
+        "§ 19 Abs. 1 UStG",
+        "§ 19 Abs. 2 UStG",
+        "A 19.1 Abs. 3 UStAE",
+        "A 19.2 UStAE",
+        "A 19.7 Abs. 1 UStAE",
+        "§ 15a UStG",
+        "§ 19 UStG",
+        "A 19.1, A 19.2, A 19.7 UStAE",
+        "Themenpool: ust-modul-ust-244"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Kleinunternehmer seit 2025: 25.000 €, 100.000 € und Besonderheit im Gründungsjahr",
+      "falsch": "Im Gründungsjahr automatisch mit 100.000 € arbeiten.",
+      "richtigText": "25.000-€-Vorjahresgrenze kennen"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

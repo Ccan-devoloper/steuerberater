@@ -1,0 +1,562 @@
+{
+  "datum": "2026-10-02",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "bilanz-modul-k3-25",
+        "themaTitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-308",
+        "themaTitel": "Bekanntgabe an Steuerberater und Ehegatten",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr4-01",
+        "themaTitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:03",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-32"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:03",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-32"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:01",
+        "art": "norm",
+        "themaId": "ao-modul-ao-316"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:31",
+        "art": "countdown",
+        "tageBisExamen": 4
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:49",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr3-11"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:26",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr1-09"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-25",
+      "slug": "2026-10-02-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Verbrauchsfolgeverfahren handels- und steuerrechtlich einordnen",
+            "das strenge Niederstwertprinzip anwenden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Zuordnung zum Umlaufvermögen begründen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "AK/HK je Zugang ermitteln."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Vorräte, Bewertungsvereinfachung und Niederstwert: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Vorräte, Bewertungsvereinfachung und Niederstwert: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 240 Abs. 3 HGB",
+        "§ 240 Abs. 4 HGB",
+        "§ 256 S. 1 HGB",
+        "§ 256 S. 2 i. V. m. § 252 Abs. 2 HGB",
+        "§ 253 Abs. 1 S. 1 HGB",
+        "§ 253 Abs. 4 S. 1, 2 HGB",
+        "§ 253 Abs. 5 S. 1 HGB",
+        "§ 6 Abs. 1 Nr. 2 S. 1–3 EStG",
+        "§ 6 Abs. 1 Nr. 2a EStG",
+        "R 6.8, R 6.9 EStR",
+        "Themenpool: bilanz-modul-k3-25"
+      ],
+      "coverRegie": {
+        "thema": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-02-b1-bilanz-modul-k3-25-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-308",
+      "slug": "2026-10-02-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Bekanntgabe an Steuerberater und Ehegatten",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "allgemeine Vertretungsvollmacht und Empfangsvollmacht unterscheiden",
+            "Vermutung der ordnungsgemäßen Bevollmächtigung nach § 80 Abs. 2 AO nicht mit einer Empfangsvollmacht gleichsetzen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Feststellen, ob und in welchem Umfang ein Bevollmächtigter nach § 80 AO bestellt ist."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "separat untersuchen, ob der Bevollmächtigte zum Empfang von Verwaltungsakten ermächtigt ist; bloße Mitwirkung an der Steuererklärung genügt nicht."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Bekanntgabe an Steuerberater und Ehegatten: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Bekanntgabe an Steuerberater und Ehegatten: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Bekanntgabe an Steuerberater und Ehegatten",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 80 Abs. 1 AO",
+        "§ 80 Abs. 2 AO",
+        "§ 80 Abs. 4 AO",
+        "§ 80 Abs. 5 AO",
+        "§ 122 AO",
+        "§ 365 Abs. 1 AO",
+        "§ 44 AO",
+        "§ 155 Abs. 3 AO",
+        "§ 80 AO",
+        "§ 365 AO",
+        "§ 80 Abs. 2 und 5 AO",
+        "§ 122 Abs. 1 S. 3 und 4 AO",
+        "AEAO zu § 122 Nr. 1.7",
+        "Themenpool: ao-modul-ao-308"
+      ],
+      "coverRegie": {
+        "thema": "Bekanntgabe an Steuerberater und Ehegatten",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-02-b2-ao-modul-ao-308-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr4-01",
+      "slug": "2026-10-02-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 1 Abs. 1 S. 1 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "Die Hinzurechnungsbesteuerung erst"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "§ 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: § 1 Abs. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "§ 1 Abs."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Rechtsfolge: Welteinkommensprinzip nach §"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 1 S. 1 EStG",
+        "§ 8 AO",
+        "§ 2 Abs. 1 EStG",
+        "§ 7 AStG",
+        "§ 34c EStG",
+        "§ 32d Abs. 5 EStG",
+        "§ 2a EStG",
+        "§ 1a EStG",
+        "Themenpool: istr-modul-istr-istr4-01"
+      ],
+      "coverRegie": {
+        "thema": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-02-b3-istr-modul-istr-istr4-01-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-32",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-32"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Warum sind bei der Aufnahme eines Gesellschafters Ergänzungsbilanzen nötig?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-32",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-32"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: um die Kapitalkonten der Altgesellschafter unverändert zu lassen. Positive und negative Ergänzungsbilanzen sind immer spiegelbildlich."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-316",
+      "quellen": [
+        "§§ 347 ff. AO",
+        "§§ 172 ff. AO",
+        "Themenpool: ao-modul-ao-316"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§§ 347 ff. AO",
+      "titel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
+      "text": "Rechtsbehelf und Korrekturverfahren in der richtigen Reihenfolge untersuchen Erfolgsaussichten nur nach bestehendem/noch möglichem Einspruch untersuchen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "4",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-11",
+      "quellen": [
+        "§ 49 Abs. 1 Nr. 2 Buchst. e EStG",
+        "§ 8b Abs. 2 KStG",
+        "§ 8b Abs. 3 S. 1 KStG",
+        "BFH I R 37/15",
+        "§ 8b Abs. 2, 3 KStG",
+        "Themenpool: istr-modul-istr-istr3-11"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Anteilsveräußerung durch ausländische Körperschaft: § 49 und § 8b KStG",
+      "text": "1. Veräußerungsgewinn aus Beteiligung berechnen: Erlös./. AK./. zurechenbare Veräußerungskosten."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-09",
+      "quellen": [
+        "§ 49 Abs. 1 Nr. 1–9 EStG",
+        "R 49.3 EStR",
+        "§§ 12, 13 AO",
+        "§ 49 Abs. 1 EStG",
+        "Themenpool: istr-modul-istr-istr1-09"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "§ 49 EStG: Katalog der inländischen Einkünfte",
+      "text": "1. Einkunftsart materiell bestimmen."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

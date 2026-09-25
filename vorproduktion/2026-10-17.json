@@ -1,0 +1,575 @@
+{
+  "datum": "2026-10-17",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-41",
+        "themaTitel": "Einlagen und Entnahmen",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "klausurtechnik",
+        "themaId": "ao-modul-ao-346",
+        "themaTitel": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-modul-kst-1",
+        "themaTitel": "Steuerpflicht und Beginn der Körperschaft",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:12",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-29"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:12",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-29"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:12",
+        "art": "norm",
+        "themaId": "ao-modul-ao-363"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:36",
+        "art": "tipp",
+        "themaId": "erbst-modul-erbst-513"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:03",
+        "art": "fehler",
+        "themaId": "kst-modul-kst-9"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:09",
+        "art": "tipp",
+        "themaId": "erbst-modul-erbst-544"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-41",
+      "slug": "2026-10-17-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Einlagen und Entnahmen",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Teilwertgrundsatz und Dreijahresdeckel des § 6 Abs. 1 Nr. 5 EStG unterscheiden",
+            "bei Grundstückseinlagen zusätzlich die Zehnjahresfrist des § 23 EStG untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Teilwert im Zeitpunkt der Einlage bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "untersuchen, ob Anschaffung oder Herstellung innerhalb der letzten drei Jahre lag; falls ja, Einlagewert nach § 6 Abs. 1 Nr. 5 begrenzen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Einlagen und Entnahmen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Einlagen und Entnahmen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Einlagen und Entnahmen",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 4 Abs. 1 S. 1 EStG",
+        "§ 4 Abs. 1 S. 2 EStG",
+        "§ 4 Abs. 1 S. 8 EStG",
+        "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+        "§ 6 Abs. 1 Nr. 4 S. 2, 3 EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 1 Hs. 1 EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 1 Hs. 2 Buchst. a EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 2, 3 EStG",
+        "§ 7 Abs. 1 S. 5 EStG",
+        "R 4.3 EStR",
+        "§ 6 Abs. 1 Nr. 5 EStG",
+        "§ 23 Abs. 1 S. 1 Nr. 1 und S. 5 Nr. 1 EStG",
+        "§ 23 Abs. 3 S. 2 und 6 EStG",
+        "Themenpool: bilanz-modul-k3-41"
+      ],
+      "coverRegie": {
+        "thema": "Einlagen und Entnahmen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-17-b1-bilanz-modul-k3-41-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "klausurtechnik",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-346",
+      "slug": "2026-10-17-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "VdN als Generalschlüssel einordnen",
+            "Wirkung eines wirksamen VdN nach § 164 Abs. 2 AO anwenden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "1. Wirksamen Steuerbescheid unter VdN feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "2. Bestand des VdN zum Änderungszeitpunkt untersuchen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Vorbehalt der Nachprüfung (§ 164 AO):…",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 164 Abs. 1 AO",
+        "§ 164 Abs. 2 AO",
+        "§ 162 AO",
+        "AEAO zu § 193 Nr. 1",
+        "§ 164 Abs. 1 und 2 AO",
+        "Themenpool: ao-modul-ao-346"
+      ],
+      "coverRegie": {
+        "thema": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-17-b2-ao-modul-ao-346-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-1",
+      "slug": "2026-10-17-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Steuerpflicht und Beginn der Körperschaft",
+          "unter": "Körperschaftsteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 1 Abs. 1 Nr. 1 KStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Steuerpflicht und Beginn der Körperschaft. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "marken": [
+            "unbeschränkte und beschränkte"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Vorgründungsphase bis zur notariellen Beurkundung unterscheiden.",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 1: Vorgründungsphase bis zur notariellen Beurkundung. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Vorgründungsphase bis zur notariellen"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Ab notarieller Beurkundung untersuchen",
+          "text": null,
+          "norm": null,
+          "icon": null,
+          "sprecher": "Schritt 2: Ab notarieller Beurkundung untersuchen. Danach folgt der nächste Prüfpunkt.",
+          "marken": [
+            "Ab notarieller Beurkundung untersuchen"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Bei Steuerpflicht und Beginn der Körperschaft: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Steuerpflicht und Beginn der Körperschaft: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Steuerpflicht und Beginn der Körperschaft",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 1 Nr. 1 KStG",
+        "§ 1 Abs. 1 Nr. 4 KStG",
+        "§ 1 Abs. 2 KStG",
+        "§ 2 KStG",
+        "§ 8 Abs. 2 KStG",
+        "H 1.1 Beginn der Steuerpflicht KStH",
+        "H 1.1 Vorgründungsgesellschaft KStH",
+        "§ 1 KStG",
+        "H 1.1 KStH",
+        "Themenpool: kst-modul-kst-1"
+      ],
+      "coverRegie": {
+        "thema": "Steuerpflicht und Beginn der Körperschaft",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-17-b3-kst-modul-kst-1-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-29",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-29"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wie lange läuft die Sperrfrist des § 16 Abs. 3 S. 3 EStG?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-29",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-29"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: drei Jahre ab Abgabe der Feststellungserklärung. Der Fristbeginn hängt an der Feststellungserklärung, nicht am Realteilungsstichtag."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-363",
+      "quellen": [
+        "§ 177 Abs. 1 AO",
+        "§ 177 Abs. 2 AO",
+        "§ 177 Abs. 3 AO",
+        "AEAO zu § 177 Nr. 2",
+        "AEAO zu § 177 Nr. 3",
+        "AEAO zu § 177 Nr. 4",
+        "§ 177 Abs. 1 bis 3 AO",
+        "AEAO zu § 177 Nr. 2 bis 4",
+        "§ 177 Abs. 1–4 AO",
+        "Themenpool: ao-modul-ao-363"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 177 Abs. 1 AO",
+      "titel": "§ 177 AO: Plan C – Saldierung, materieller Fehler und Ober-/Untergrenze",
+      "text": "anderweitige Änderungsbefugnis als Türöffner für § 177 AO erkennen materiellen Fehler nach der Legaldefinition des § 177 Abs. 3 AO bestimmen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-513",
+      "quellen": [
+        "§ 13d Abs. 1 ErbStG",
+        "§ 13d Abs. 3 ErbStG",
+        "R E 13d Abs. 6 S. 4",
+        "§ 13d Abs. 1–4 ErbStG",
+        "§ 13d Abs. 3 Nr. 1–3 ErbStG",
+        "R E 13d Abs. 2, 6 ErbStR",
+        "Themenpool: erbst-modul-erbst-513"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+      "text": "Begünstigtes bebautes Grundstück/Grundstücksteil bestimmen."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "fehler",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-modul-kst-9",
+      "quellen": [
+        "§ 27 Abs. 1 S. 1–3 KStG",
+        "§ 27 Abs. 1 S. 4–5 KStG",
+        "§ 27 Abs. 2 KStG",
+        "§ 20 Abs. 1 Nr. 1 S. 3 EStG",
+        "§ 27 KStG",
+        "Themenpool: kst-modul-kst-9"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Steuerliches Einlagekonto und Leistungen",
+      "falsch": "Kapitalrücklage und steuerliches Einlagekonto gleichsetzen",
+      "richtigText": "steuerliches Einlagekonto von handelsrechtlichen Eigenkapitalposten trennen"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-544",
+      "quellen": [
+        "§ 178 BewG",
+        "§ 179 BewG",
+        "H B 179.2",
+        "Themenpool: erbst-modul-erbst-544"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+      "text": "Unbebaut i.S.d. § 178 BewG?"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}
