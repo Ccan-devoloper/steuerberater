@@ -515,15 +515,22 @@ function recap(datum, slot) {
     coverBildAuslassen: true,
   }];
 
+  const wiederholungsanker = {
+    1: "K1-Anker: Tatbestand, Verfahren und Umsatzsteuerfolge getrennt prüfen.",
+    2: "K2-Anker: Einkunftsart, Normkette und Rechenweg in der richtigen Reihenfolge sichern.",
+    3: "K3-Anker: Bilanzansatz, Bewertung und gesellschafterbezogene Ebenen sichtbar trennen.",
+  };
   for (const nr of [1, 2, 3]) {
     const punkte = gruppen[nr].slice(0, 4).map((t) => {
       const k = kern(t);
-      return cut(t.titel, 58) + ": " + cut(k.lern[0] || k.schritte[0] || "Kernfrage wiederholen", 125);
+      return anzeigeKurz(t.titel, 58) + ": " + anzeigeKurz(k.lern[0] || k.schritte[0] || "Kernfrage wiederholen", 118);
     });
+    if (!punkte.length) punkte.push("Im Review-Zeitraum noch kein Feedthema dieser Klausur.");
+    if (punkte.length === 1) punkte.push(wiederholungsanker[nr]);
     slides.push({
       art: "text",
       titel: KLAUSUREN[nr].label,
-      punkte: punkte.length ? punkte : ["Im Review-Zeitraum noch kein Thema dieser Klausur."],
+      punkte,
     });
   }
   slides.push({
