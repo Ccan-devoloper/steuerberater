@@ -30,7 +30,7 @@ const { ZUORDNUNG } = await import("../src/icons.mjs");
 const tage = process.argv.slice(2).filter((x) => /^\d{4}-\d{2}-\d{2}$/.test(x));
 if (!tage.length) throw new Error("Mindestens ein Datum YYYY-MM-DD ist erforderlich.");
 
-const hosting = new Hosting({ pushen: true }).vorbereiten();
+const hosting = new Hosting({ pushen: process.env.IG_NO_PUSH !== "true" }).vorbereiten();
 const temp = fs.mkdtempSync(path.join(os.tmpdir(), "examenscampus-vorproduktion-"));
 const manifest = {
   version: 1,

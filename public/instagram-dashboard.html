@@ -208,6 +208,8 @@
     .ig-post-user span{display:block;color:var(--muted);font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
     .ig-more{font-size:20px;letter-spacing:2px;line-height:1;color:var(--muted)}
     .ig-media{position:relative;width:100%;aspect-ratio:4/5;background:#050505;overflow:hidden;display:grid;place-items:center}
+    .preprod-text-preview{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:9%;background:linear-gradient(145deg,#102f38,#213d59);color:#fff;text-align:center}
+    .preprod-text-preview strong{font-size:clamp(22px,3vw,38px);line-height:1.16}.preprod-text-preview span{font-size:12px;color:#cbdce4}
     .ig-media img,.ig-media video{width:100%;height:100%;display:block;object-fit:contain;background:#050505}
     .ig-carousel-btn{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border:0;border-radius:50%;display:grid;place-items:center;background:rgba(20,20,20,.62);color:#fff;font-size:25px;line-height:1;z-index:3;backdrop-filter:blur(5px)}
     .ig-carousel-btn.prev{left:9px}.ig-carousel-btn.next{right:9px}
@@ -234,6 +236,7 @@
     .story-media img{width:100%;height:100%;object-fit:cover;display:block}
     .story-media.missing img{display:none}
     .story-media.missing:after{content:"Bild noch nicht gerendert";position:absolute;inset:0;display:grid;place-items:center;color:#8a93a8;font-size:10px;padding:12px;text-align:center}
+    .story-draft{aspect-ratio:9/16;background:linear-gradient(145deg,#102f38,#213d59);color:#fff;display:flex;flex-direction:column;justify-content:center;gap:10px;padding:14px;text-align:center}.story-draft strong{font-size:14px;line-height:1.3}.story-draft span{font-size:10px;color:#cbdce4}
     .story-time{position:absolute;top:7px;left:7px;z-index:2;border-radius:999px;padding:3px 7px;background:rgba(12,12,12,.66);color:#fff;font-size:10px;font-weight:800;backdrop-filter:blur(4px)}
     button.story-time{border:0;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:4px}
     button.story-time:hover{background:rgba(12,12,12,.88)}
@@ -1431,6 +1434,10 @@
   }
   function preproductionMedia(day,date,slot,content){
     var isReel=content&&((content.format==="reel")||Array.isArray(content.szenen));
+    if(day&&day.renderVorschau&&day.renderVorschau.status!=="fertig"){
+      var hook=(content&&content.folien&&content.folien[0]&&content.folien[0].titel)||(content&&content.szenen&&content.szenen[0]&&content.szenen[0].titel)||"Entwurf";
+      return '<div class="ig-media"><div class="preprod-text-preview"><span>'+(isReel?'REEL':'KARUSSELL')+' · TEXTENTWURF</span><strong>'+esc(hook)+'</strong><span>Medienrendering ausstehend · keine Veröffentlichung</span></div></div>';
+    }
     if(isReel){
       var coverRel=preproductionReelCoverRel(date,slot);
       return '<div class="ig-media"><video controls playsinline preload="metadata" data-asset-poster="'+esc(coverRel)+'" poster="'+esc(preproductionAssetUrl(coverRel))+'"><source src="'+esc(preproductionAssetUrl(preproductionReelRel(date,slot)))+'" type="video/mp4"></video><span class="ig-reel-chip">REEL</span>'+
@@ -1450,7 +1457,7 @@
     var title=content.kurztitel||(content.folien&&content.folien[0]&&content.folien[0].titel)||(content.szenen&&content.szenen[0]&&content.szenen[0].titel)||planItem.themaTitel||slot;
     var type=(content.format==="reel"||Array.isArray(content.szenen))?"Reel":"Carousel";
     var slides=content.folien||[],thumbs="";
-    if(type==="Carousel"&&slides.length>1){
+    if(type==="Carousel"&&slides.length>1&&day.renderVorschau&&day.renderVorschau.status==="fertig"){
       thumbs='<div class="slide-thumbs">'+slides.map(function(_,i){
         var rel=preproductionSlideRel(date,slot,i+1);
         return '<img data-asset="'+esc(rel)+'" src="'+esc(preproductionAssetUrl(rel))+'" data-slide-to="'+(i+1)+'" class="'+(i===0?"active":"")+'" alt="Folie '+(i+1)+'" title="Folie '+(i+1)+'" loading="lazy">';
@@ -1472,6 +1479,9 @@
       var rel=storyAssetRel(date,s),content=day.inhalte&&day.inhalte[s.slot]||{};
       var label=STORY_ART_LABEL[s.art]||s.art||"Story";
       var sub=s.art==="teaser"?("zu "+(s.beitragSlot||"?")):(content.titel||content.ueberzeile||s.themaId||"");
+      if(day.renderVorschau&&day.renderVorschau.status!=="fertig"){
+        return '<div class="story-card"><div class="story-draft"><span>'+esc(label)+' · TEXTENTWURF · '+esc(s.zeit||"–")+'</span><strong>'+esc(content.titel||content.ueberzeile||sub||"Story geplant")+'</strong><span>Bild noch nicht gerendert</span></div><div class="story-info"><b>'+esc(label)+'</b><span>'+esc(s.slot)+'</span></div></div>';
+      }
       return '<div class="story-card'+(s.art==="teaser"?" teaser":"")+'" data-story-index="'+i+'">'+
         '<div class="story-media"><img data-asset="'+esc(rel)+'" src="'+esc(preproductionAssetUrl(rel))+'" alt="'+esc(label+" "+s.slot)+'" loading="lazy" onerror="this.parentNode.classList.add(\'missing\')">'+
         '<button type="button" class="story-time" data-zeit-edit="story:'+esc(s.slot)+'" title="Veröffentlichungszeit ändern">'+esc(s.zeit||"–")+'<span class="zeit-stift">✎</span></button>'+
@@ -1656,6 +1666,7 @@
       '<span class="preprod-chip"><b>'+stories.length+'</b> Stories'+(teaser?' · davon '+teaser+' Teaser':'')+'</span>'];
     if(times.length)chips.push('<span class="preprod-chip">Zeitfenster <b>'+esc(times[0])+' – '+esc(times[times.length-1])+'</b></span>');
     if(meta&&meta.bilderStatus)chips.push('<span class="preprod-chip">Bilder: <b>'+esc(meta.bilderStatus)+'</b></span>');
+    if(day.renderVorschau&&day.renderVorschau.status!=="fertig")chips.push('<span class="preprod-chip">Medien: <b>Render ausstehend</b></span>');
     box.innerHTML=chips.join("");
   }
   function renderPreproduction(data){

@@ -1,0 +1,82 @@
+name: Examenscampus · Reviewmedien rendern
+
+on:
+  push:
+    branches:
+      - codex/examenscampus-render-2026
+  workflow_dispatch:
+    inputs:
+      dates:
+        description: "Review-Tage als Leerzeichenliste (YYYY-MM-DD)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: examenscampus-review-render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      IG_ASSET_DIR: .instagram-assets
+      IG_REEL_ZUSAETZLICH: "true"
+      IG_VORPRODUKTION_DREI_KLAUSUREN: "true"
+      IG_STIL: bunt
+      IG_FARBE_JE_KLAUSUR: "true"
+      IG_BILDER: "false"
+      IG_BILD_KI: "false"
+      IG_CHARAKTERE: "false"
+      IG_CHARAKTER_QA: "false"
+      IG_STIMME: piper
+      IG_REEL_LAYOUT: erklaer
+      PIPER_VOICES_DIR: /home/runner/.cache/piper-voices
+      OPENAI_API_KEY: ""
+      ANTHROPIC_API_KEY: ""
+      ELEVENLABS_API_KEY: ""
+      PEXELS_API_KEY: ""
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+      - name: Abhängigkeiten und Browser
+        working-directory: social
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Sprache offline
+        run: |
+          pip install --quiet piper-tts
+          mkdir -p "$PIPER_VOICES_DIR"
+          python3 -m piper.download_voices --data-dir "$PIPER_VOICES_DIR" de_DE-thorsten-high
+      - name: Medien rendern und im Asset-Zweig sichern
+        working-directory: social
+        env:
+          DISPATCH_DATES: ${{ inputs.dates }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: |
+          if [ -n "$DISPATCH_DATES" ]; then
+            read -r -a DATES <<< "$DISPATCH_DATES"
+          else
+            # Ein Push mit [render:2026-09-29,2026-09-30] rendert nur diese Tage.
+            if [[ ! "$COMMIT_MESSAGE" =~ \[render:([0-9,-]+)\] ]]; then
+              echo "Kein [render:...]-Marker; Review-Workflow bleibt inaktiv."
+              exit 0
+            fi
+            IFS=',' read -r -a DATES <<< "${BASH_REMATCH[1]}"
+          fi
+          for DATE in "${DATES[@]}"; do
+            [[ "$DATE" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "Ungültiges Datum: $DATE"; exit 1; }
+          done
+          node bin/vorproduktion-ohne-coverbilder-rendern.mjs "${DATES[@]}"
