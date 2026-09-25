@@ -490,6 +490,7 @@ const KLAUSUR_KURZ = { 1: "Klausur 1 · Tag 1", 2: "Klausur 2 · Tag 2", 3: "Kla
 /* Rechts in der Fusszeile: der Prüfungstag - und bei allem, was zu keinem
    Tag gehört (Mindset), dessen eigenes Etikett. */
 export function fussRechts(ctx) {
+  if (ctx?.footerLabel) return ctx.footerLabel;
   if (ctx?.fach === "mindset") return "Kopfsache";
   if (ctx?.klausur === 0) return "Klausurtechnik";
   return KLAUSUR_KURZ[ctx?.klausur] || "";
