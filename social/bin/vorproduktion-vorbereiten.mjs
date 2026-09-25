@@ -73,7 +73,11 @@ if (fs.existsSync(vp)) {
     if (day?.datum) days.set(day.datum, day);
   }
 }
-const historischeIds = new Set([...days].filter(([d]) => !targetSet.has(d)).flatMap(([, day]) => [
+const ersteDatum = dates[0];
+const historischeIds = new Set([...days].filter(([d]) =>
+  !targetSet.has(d) && d <= ersteDatum
+  && (Date.parse(ersteDatum + "T12:00:00Z") - Date.parse(d + "T12:00:00Z")) / 86400000 < CONFIG.plan.themenSperreTage
+).flatMap(([, day]) => [
   ...(day.plan?.beitraege || []).map((b) => b.themaId),
   ...(day.plan?.stories || []).filter((s) => s.art !== "antwort" && s.art !== "teaser").map((s) =>
     s.themaId || day.inhalte?.[s.slot]?.pairId
@@ -277,10 +281,14 @@ function coverRegie(t, datum, slot) {
   const i = crypto.createHash("sha256").update(datum + slot + t.id).digest()[0] % FIGUREN.length;
   const motiv = COVER_HANDLUNGEN.find(([m]) => m.test(t.titel))?.[1]
     || "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.";
+  const erneut = ledger.veroeffentlicht.some((e) => e.art === "beitrag" && e.thema === t.id && e.datum < datum);
   return {
     thema: t.titel,
     goldenReferences: FIGUREN[i].map((f) => "assets/referenzen/charaktere/" + f),
-    szene: motiv,
+    szene: erneut
+      ? "Neue Bilddramaturgie für das wiederkehrende Thema: Das falsche Ergebnis steht sichtbar am Anfang. Die Figuren verfolgen den Weg rückwärts, entdecken den entscheidenden Abzweig und korrigieren ihn. " + motiv
+      : motiv,
+    verpackung: erneut ? "Rückwärts erzählte Fehlersuche" : "Handlung in Prüfungsreihenfolge",
     gestaltung: "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
     bilddatei: `${datum}-${slot}-${t.id.replace(/[^a-z0-9-]/gi, "-")}-cover.png`,
     status: "Bild ausstehend",
