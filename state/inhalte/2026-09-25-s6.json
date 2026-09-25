@@ -1,0 +1,23 @@
+{
+  "slot": "s6",
+  "art": "countdown",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Steuerberaterexamen",
+  "ueberzeile": "Noch",
+  "zahl": "11",
+  "titel": "Tage bis zum Examen",
+  "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+  "fortschritt": 0,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "manuellGeprueft": true,
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

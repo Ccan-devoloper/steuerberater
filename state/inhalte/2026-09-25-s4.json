@@ -1,0 +1,26 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-k3-25",
+  "quellen": [
+    "Themenpool: persg-quiz-k3-25"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "Kern der Antwort",
+  "text": "Der verrechenbare Verlust wird gesondert festgestellt und kann nach § 15a Abs. 2 EStG nur mit künftigen Gewinnen aus derselben Beteiligung verrechnet werden.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

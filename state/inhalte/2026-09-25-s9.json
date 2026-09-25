@@ -1,0 +1,28 @@
+{
+  "slot": "s9",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-formel-afa-zeitanteilig",
+  "quellen": [
+    "§ 7 Abs. 1 S. 1, 2, 4 EStG",
+    "Themenpool: bilanz-formel-afa-zeitanteilig"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Rechenweg",
+  "titel": "Lineare AfA pro rata temporis",
+  "formel": "Jahres-AfA × Nutzungsmonate / 12",
+  "text": "Im Anschaffungsjahr wird zeitanteilig abgeschrieben; der Anschaffungsmonat zählt voll (§ 7 Abs. 1 S. 4 EStG).",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

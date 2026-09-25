@@ -1,0 +1,36 @@
+{
+  "slot": "s5",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-modul-k3-6",
+  "quellen": [
+    "§ 249 Abs. 1 S. 1 HGB",
+    "§ 249 Abs. 1 S. 2 Nr. 1 HGB",
+    "§ 249 Abs. 2 S. 1 HGB",
+    "R 5.7 Abs. 2 Nr. 1–4 EStR",
+    "§ 5 Abs. 4a S. 1 EStG",
+    "§ 5 Abs. 4b EStG",
+    "§ 6 Abs. 1 Nr. 3a EStG",
+    "§ 249 HGB",
+    "§ 5 Abs. 4a–4b EStG",
+    "Themenpool: bilanz-modul-k3-6"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 249 Abs. 1 S. 1 HGB",
+  "titel": "Rückstellungen",
+  "text": "Zuerst Ansatzvoraussetzungen prüfen und dabei Innen- und Außenverpflichtungen sauber voneinander trennen.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

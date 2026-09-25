@@ -1,0 +1,124 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr2-02",
+  "slug": "2026-09-25-b2",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "§ 49 EStG: inländische Einkünfte bei beschränkter Steuerpflicht",
+      "unter": "Internationales Steuerrecht",
+      "text": "Erst nationalen Steuerzugriff prüfen, dann ein DBA.",
+      "norm": "§ 1 Abs. 4, § 49 EStG",
+      "icon": "globus",
+      "sprecher": "Bei beschränkter Steuerpflicht prüfst du zuerst den deutschen Steuerzugriff nach Paragraf 1 Absatz 4 und Paragraf 49 EStG. Ein DBA kommt erst danach.",
+      "marken": [
+        "Nationales Recht zuerst",
+        "DBA anschließend"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Einkunftsart bestimmen",
+      "text": "Die Einkünfte zunächst nach den allgemeinen Vorschriften einordnen.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 1: Bestimme die Einkunftsart nach den allgemeinen Vorschriften.",
+      "marken": [
+        "Einkunftsart bestimmen"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "§ 49 EStG prüfen",
+      "text": "Den passenden inländischen Anknüpfungspunkt des § 49 Abs. 1 EStG feststellen.",
+      "norm": "§ 49 Abs. 1 EStG",
+      "icon": null,
+      "sprecher": "Schritt 2: Prüfe den passenden inländischen Anknüpfungspunkt nach Paragraf 49 Absatz 1 EStG.",
+      "marken": [
+        "Inlandsanknüpfung prüfen"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Erhebungsweg klären",
+      "text": "Veranlagung, Steuerabzug und Sonderregeln getrennt bestimmen.",
+      "norm": "§ 50 EStG",
+      "icon": null,
+      "sprecher": "Schritt 3: Kläre anschließend Veranlagung, Steuerabzug und die Sonderregeln des Paragrafen 50 EStG.",
+      "marken": [
+        "Erhebungsweg klären"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "DBA erst danach anwenden",
+      "text": "Ein DBA kann einen bestehenden deutschen Steuerzugriff begrenzen, aber nicht erweitern.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 4: Wende ein DBA erst danach an. Es kann den deutschen Steuerzugriff begrenzen, aber nicht erweitern.",
+      "marken": [
+        "DBA begrenzt nur"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Merksatz",
+      "text": "§ 49 EStG liefert den inländischen Anknüpfungspunkt; das DBA wird erst auf den danach verbleibenden Steuerzugriff angewandt.",
+      "sprecher": "Merke dir: Paragraf 49 EStG liefert den inländischen Anknüpfungspunkt. Das DBA prüfst du erst danach.",
+      "marken": [
+        "National vor DBA"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfungsreihenfolge festigen",
+      "text": "Einkunftsart, Inlandsanknüpfung, Erhebungsweg und DBA in dieser Reihenfolge wiederholen.",
+      "sprecher": "Wiederhole die Reihenfolge einmal ohne Unterlagen: Einkunftsart, Inlandsanknüpfung, Erhebungsweg, DBA.",
+      "marken": [
+        "Reihenfolge sichern"
+      ]
+    }
+  ],
+  "caption": "Bei beschränkter Steuerpflicht genügt die Einordnung in eine Einkunftsart nicht. Nach § 1 Abs. 4 EStG muss zusätzlich ein inländischer Anknüpfungstatbestand des § 49 EStG vorliegen. Erst danach folgen Erhebungsweg und eine mögliche Begrenzung durch ein DBA.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "kurztitel": "§ 49 EStG bei beschränkter Steuerpflicht",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": false,
+  "quellen": [
+    "§ 49 Abs. 1 EStG",
+    "§ 20 EStG",
+    "§ 17 EStG",
+    "§ 21 EStG",
+    "§ 15 EStG",
+    "Themenpool: istr-modul-istr-istr2-02"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "icon": "globus"
+}

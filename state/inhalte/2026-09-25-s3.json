@@ -1,0 +1,25 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-k3-25",
+  "quellen": [
+    "Themenpool: persg-quiz-k3-25"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Prüfungsfrage",
+  "titel": "Was geschieht mit einem verrechenbaren Verlust nach § 15a Abs. 2 EStG?",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

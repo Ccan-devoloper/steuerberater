@@ -1,0 +1,31 @@
+{
+  "slot": "s8",
+  "art": "zahl",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "pairId": "ao-modul-ao-351",
+  "quellen": [
+    "§ 181 Abs. 5 AO",
+    "§ 182 Abs. 1 S. 1 AO",
+    "§ 171 Abs. 10 S. 1 AO",
+    "§ 182 Abs. 1 AO",
+    "Themenpool: ao-modul-ao-351"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "2 Prüfungen",
+  "zahl": "2",
+  "titel": "Feststellungsbescheid",
+  "text": "Zuerst die Bindungswirkung nach § 182 Abs. 1 AO prüfen; § 181 Abs. 5 AO ist nur der Sonderfall bei bereits abgelaufener Feststellungsfrist.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

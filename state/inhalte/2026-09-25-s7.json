@@ -1,0 +1,29 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "pairId": "ao-modul-ao-326",
+  "quellen": [
+    "§ 367 Abs. 1 AO",
+    "§ 367 Abs. 2 S. 3 AO",
+    "§ 366 AO",
+    "Themenpool: ao-modul-ao-326"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": false,
+  "vorproduktionStatus": "review",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Klausurtipp",
+  "titel": "Erledigung des Einspruchs: Abhilfebescheid, teilweise Abhilfe, Zurückweisung und Verböserung",
+  "text": "Bei vollständiger Begründetheit hilft die Finanzbehörde dem Einspruch ab; bei nur teilweiser Abhilfe bleibt über den Rest zu entscheiden.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}

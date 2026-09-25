@@ -1,0 +1,123 @@
+{
+  "format": "klausurtechnik",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-164",
+  "slug": "2026-09-25-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer",
+      "coverBadge": null,
+      "coverBildAuslassen": false,
+      "titelZeilen": [
+        "Vorsteuerabzug",
+        "§ 14c: gesetzliche",
+        "Steuer statt bloß",
+        "ausgewiesener Steuer"
+      ],
+      "icon": "quittung"
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Vorsteuerabzug setzt eine Leistung eines anderen Unternehmers für das Unternehmen voraus.",
+        "Abziehbar ist nur die gesetzlich geschuldete Umsatzsteuer; ein bloßer §-14c-Ausweis genügt nicht.",
+        "§ 14c Abs. 1 und Abs. 2 getrennt prüfen, weil sie unterschiedliche Fehler beim Steuerausweis erfassen.",
+        "Bei § 14c Abs. 1 die aktuelle Rechtsprechung zur Endverbraucher-Konstellation mitdenken."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Leistung und Unternehmensbezug nach § 15 Abs. 1 S. 1 Nr. 1 UStG prüfen."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Ermitteln, welche Umsatzsteuer für die konkrete Leistung materiell geschuldet wird."
+        },
+        {
+          "titel": "3. Schritt",
+          "text": "Rechnung nach §§ 14, 14a UStG und den Besitz der Rechnung prüfen."
+        },
+        {
+          "titel": "4. Schritt",
+          "text": "Bei Vorauszahlungen zusätzlich feststellen, ob die Zahlung vor Leistungsausführung erfolgt ist."
+        },
+        {
+          "titel": "5. Schritt",
+          "text": "Einen nur nach § 14c geschuldeten Mehrbetrag nicht als abziehbare Vorsteuer behandeln."
+        }
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Typischer Fehler",
+      "punkte": [
+        "Den ausgewiesenen Rechnungsbetrag ungeprüft mit der gesetzlich geschuldeten Steuer gleichsetzen.",
+        "Unrichtigen und unberechtigten Steuerausweis nach § 14c Abs. 1 und 2 vermischen.",
+        "Bei Anzahlungen die tatsächliche Zahlung als zusätzliche Voraussetzung übersehen."
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Für den Vorsteuerabzug zählt die materielle Steuerschuld. § 14c kann eine Zahlungspflicht auslösen, schafft aber für sich keinen Vorsteuerabzug."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Beim Vorsteuerabzug zählt die gesetzlich geschuldete Umsatzsteuer. Ein Betrag, der nur wegen § 14c UStG geschuldet wird, eröffnet keinen Vorsteuerabzug. In der Klausur deshalb zuerst Leistung und Unternehmensbezug, dann die materielle Steuerschuld und erst danach Rechnung und § 14c prüfen.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "kurztitel": "Vorsteuerabzug: § 14c richtig abgrenzen",
+  "coverBadge": null,
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 15 Abs. 1 Nr. 1 UStG",
+    "§ 14 UStG",
+    "§ 14a UStG",
+    "§ 14c Abs. 1 UStG",
+    "§ 14c Abs. 2 UStG",
+    "A 14c.1 UStAE",
+    "§§ 14, 14a, 14c UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 1 UStG",
+    "§ 14c Abs. 1 und 2 UStG",
+    "EuGH 01.08.2025 – C-794/23",
+    "BFH 26.03.2026 – V R 46/25",
+    "Themenpool: ust-modul-ust-164"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  }
+}
