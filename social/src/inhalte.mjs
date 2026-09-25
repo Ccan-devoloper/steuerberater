@@ -149,6 +149,7 @@ function kuerzelTilgen(wert, kuerzel) {
 function neutralisiereDozentenstruktur(t) {
   if (t?.id !== "istr-modul-istr-istr3-01") return t;
   t.titel = "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA";
+  t.normen = (t.normen || []).filter((n) => !/\b(?:EIS|AAVV|ABBA|WSV|NNAS)\b/.test(String(n)));
   t.kern = {
     ...t.kern,
     lernziele: [
