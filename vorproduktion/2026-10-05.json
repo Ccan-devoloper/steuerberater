@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Investitionsabzugsbetrag und Sonder-AfA",
+          "titel": "IAB gebildet: Welche Grenze gilt wirklich?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Investitionsabzugsbetrag und Sonder-AfA: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Investitionsabzugsbetrag und Sonder-AfA: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "IAB gebildet: Welche Grenze gilt wirklich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Investitionsabzugsbetrag und Sonder-AfA",
+      "kurztitel": "IAB gebildet: Welche Grenze gilt wirklich?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
+          "titel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Frist versäumt: Wann hilft Wiedereinsetzung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung…",
+      "kurztitel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -308,14 +298,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+          "titel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
           "norm": "§ 1 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "§ 1 Abs."
+            "Kein deutscher Wohnsitz: Trotzdem unbeschränkt"
           ]
         },
         {
@@ -325,9 +315,9 @@
           "text": null,
           "norm": "§ 1 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
+          "sprecher": "Schritt 1: 1. Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
           "marken": [
-            "Prüfpunkt 1"
+            "Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland."
           ]
         },
         {
@@ -337,17 +327,17 @@
           "text": null,
           "norm": "§ 49 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
+          "sprecher": "Schritt 2: 2. Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
           "marken": [
-            "Prüfpunkt 2"
+            "Inländische Einkünfte i.S.d. § 49 EStG vorhanden"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -365,14 +355,14 @@
           ]
         }
       ],
-      "caption": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+      "kurztitel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

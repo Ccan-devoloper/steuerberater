@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Betriebsveräußerung, Betriebsaufgabe und § 34 EStG",
+          "titel": "Betrieb verkauft: Welcher Gewinn ist begünstigt?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Betriebsveräußerung, Betriebsaufgabe und § 34 EStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Betriebsveräußerung, Betriebsaufgabe und § 34 EStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Betrieb verkauft: Welcher Gewinn ist begünstigt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Betriebsveräußerung, Betriebsaufgabe und § 34 EStG",
+      "kurztitel": "Betrieb verkauft: Welcher Gewinn ist begünstigt?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -216,7 +211,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Umfang des Grundvermögens nach § 176 BewG",
+          "titel": "Grundstückswert: Was gehört zum Grundvermögen?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -243,11 +238,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Umfang des Grundvermögens nach § 176 BewG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -262,14 +252,14 @@
           ]
         }
       ],
-      "caption": "Umfang des Grundvermögens nach § 176 BewG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Grundstückswert: Was gehört zum Grundvermögen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Umfang des Grundvermögens nach § 176 BewG",
+      "kurztitel": "Grundstückswert: Was gehört zum Grundvermögen?",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
@@ -312,46 +302,46 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG",
+          "titel": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
           "norm": "§ 4 Abs. 1 S. 3 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wirtschaftsgut ins Ausland: Wird es entstrickt? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Entstrickung eines Wirtschaftsguts von der"
+            "Wirtschaftsgut ins Ausland: Wird es entstrickt"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Betriebsvermögens-Wirtschaftsgut und bisherige Zuordnung zur deutschen Besteuerung feststellen.",
+          "titel": "Welches Gut verlässt den deutschen Steuerzugriff?",
           "text": null,
           "norm": "§ 4 Abs. 1 S. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 4 Abs. 1 S. 3 EStG im Zusammenhang mit Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG.",
+          "sprecher": "Identifiziere das betriebliche Wirtschaftsgut und seine bisherige Zuordnung zum deutschen Besteuerungsrecht.",
           "marken": [
-            "Prüfpunkt 1"
+            "Welches Gut verlässt den deutschen Steuerzugriff?"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 6 Abs. 1 Nr. 4 EStG",
+          "titel": "Verliert Deutschland sein Besteuerungsrecht?",
           "text": null,
           "norm": "§ 6 Abs. 1 Nr. 4 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 6 Abs. 1 Nr. 4 EStG im Zusammenhang mit Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG.",
+          "sprecher": "Bei einer Zuordnung zur ausländischen Betriebsstätte kläre, ob Deutschland den späteren Veräußerungsgewinn noch besteuern darf.",
           "marken": [
-            "Prüfpunkt 2"
+            "Verliert Deutschland sein Besteuerungsrecht?"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -369,14 +359,14 @@
           ]
         }
       ],
-      "caption": "Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wirtschaftsgut ins Ausland: Wird es entstrickt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG",
+      "kurztitel": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

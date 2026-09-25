@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Verdeckte Gewinnausschüttung",
+          "titel": "Gesellschaftervorteil: Ist das schon eine vGA?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Verdeckte Gewinnausschüttung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Verdeckte Gewinnausschüttung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gesellschaftervorteil: Ist das schon eine vGA? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Verdeckte Gewinnausschüttung",
+      "kurztitel": "Gesellschaftervorteil: Ist das schon eine vGA?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -211,7 +206,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+          "titel": "Schulden beim Erbe: Was darfst du abziehen?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -238,11 +233,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -257,14 +247,14 @@
           ]
         }
       ],
-      "caption": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Schulden beim Erbe: Was darfst du abziehen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6…",
+      "kurztitel": "Schulden beim Erbe: Was darfst du abziehen?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -306,14 +296,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+          "titel": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
           "norm": "§ 7 Abs. 1 S. 1 AStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Auslandsgesellschaft: Wer beherrscht sie wirklich? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Die Beherrschung nach § 7 Abs."
+            "Auslandsgesellschaft: Wer beherrscht sie wirklich"
           ]
         },
         {
@@ -323,29 +313,29 @@
           "text": null,
           "norm": "§ 7 Abs. 1 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 7 Abs. 1 S. 1 AStG im Zusammenhang mit § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft.",
+          "sprecher": "Schritt 1: 1. Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 E"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 7 Abs. 1 S. 2 AStG",
+          "titel": "Sitz und Leitung im Ausland?",
           "text": null,
           "norm": "§ 7 Abs. 1 S. 2 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 7 Abs. 1 S. 2 AStG im Zusammenhang mit § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft.",
+          "sprecher": "Bestimme die Gesellschaftsform und kläre, ob weder Sitz noch Geschäftsleitung in Deutschland liegen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Sitz und Leitung im Ausland?"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -363,14 +353,14 @@
           ]
         }
       ],
-      "caption": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Auslandsgesellschaft: Wer beherrscht sie wirklich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+      "kurztitel": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

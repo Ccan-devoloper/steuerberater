@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Eigene Anteile",
+          "titel": "Eigene Anteile: Wo steht der Nennbetrag?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Eigene Anteile: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Eigene Anteile: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Eigene Anteile: Wo steht der Nennbetrag? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Eigene Anteile",
+      "kurztitel": "Eigene Anteile: Wo steht der Nennbetrag?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -209,7 +204,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO",
+          "titel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -236,11 +231,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -255,14 +245,14 @@
           ]
         }
       ],
-      "caption": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Sonstiger VA falsch: Rücknahme oder Widerruf? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme…",
+      "kurztitel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -304,14 +294,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Veräußerungsgewinne, Teilwertabschreibungen und Verluste",
+          "titel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
           "norm": "§ 8b Abs. 2 S. 1–3 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Veräußerungsgewinne, Teilwertabschreibungen und Verluste. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Anteil mit Verlust verkauft: Was korrigiert § 8b? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Veräußerungsgewinn und Dividende"
+            "Anteil mit Verlust verkauft: Was korrigiert § 8b"
           ]
         },
         {
@@ -323,7 +313,7 @@
           "icon": null,
           "sprecher": "Schritt 1: Veräußerungspreis, Buchwert und Veräußerungskosten bestimmen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Veräußerungspreis, Buchwert und Veräußerungskost"
           ]
         },
         {
@@ -335,15 +325,15 @@
           "icon": null,
           "sprecher": "Schritt 2: Gesellschaftliche Veranlassung des Preises untersuchen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Gesellschaftliche Veranlassung des Preises unter"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Veräußerungsgewinne, Teilwertabschreibungen und Verluste: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -361,14 +351,14 @@
           ]
         }
       ],
-      "caption": "Veräußerungsgewinne, Teilwertabschreibungen und Verluste: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Anteil mit Verlust verkauft: Was korrigiert § 8b? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Veräußerungsgewinne, Teilwertabschreibungen und Verluste",
+      "kurztitel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

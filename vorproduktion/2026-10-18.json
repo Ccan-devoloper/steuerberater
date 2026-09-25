@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
+          "titel": "Sanierung nach Hauskauf: AK oder Sofortabzug?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Sanierung nach Hauskauf: AK oder Sofortabzug? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
+      "kurztitel": "Sanierung nach Hauskauf: AK oder Sofortabzug?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -217,7 +212,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+          "titel": "Zahlendreher im Amt: Wann greift § 129 AO?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -244,11 +239,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei § 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -263,14 +253,14 @@
           ]
         }
       ],
-      "caption": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Zahlendreher im Amt: Wann greift § 129 AO? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "§ 129 AO: offenbare Unrichtigkeit –…",
+      "kurztitel": "Zahlendreher im Amt: Wann greift § 129 AO?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -313,14 +303,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "§ 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG",
+          "titel": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
           "norm": "§ 10 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Den Hinzurechnungsbetrag als eigene"
+            "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren"
           ]
         },
         {
@@ -330,9 +320,9 @@
           "text": null,
           "norm": "§ 10 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 10 Abs. 1 AStG im Zusammenhang mit § 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG.",
+          "sprecher": "Schritt 1: 1. § 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steuerpflichtigen Einkünfte sind der Hinzurechnungsbetrag.",
           "marken": [
-            "Prüfpunkt 1"
+            "§ 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steue"
           ]
         },
         {
@@ -342,17 +332,17 @@
           "text": null,
           "norm": "§ 10 Abs. 2 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 10 Abs. 2 S. 1 AStG im Zusammenhang mit § 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG.",
+          "sprecher": "Schritt 2: 2. § 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag gehört zu den Einkünften i.S.d. § 20 Abs. 1 Nr. 1 EStG.",
           "marken": [
-            "Prüfpunkt 2"
+            "§ 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag "
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -370,14 +360,14 @@
           ]
         }
       ],
-      "caption": "§ 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "§ 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG",
+      "kurztitel": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

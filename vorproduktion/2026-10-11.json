@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Rücklage für Ersatzbeschaffung",
+          "titel": "Zerstörte Maschine: Wann ist eine Ersatzrücklage möglich?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Rücklage für Ersatzbeschaffung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Rücklage für Ersatzbeschaffung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Zerstörte Maschine: Wann ist eine Ersatzrücklage möglich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Rücklage für Ersatzbeschaffung",
+      "kurztitel": "Zerstörte Maschine: Wann ist eine Ersatzrücklage möglich?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
+          "titel": "Änderungsantrag oder Einspruch: Was wurde erklärt?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei § 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Änderungsantrag oder Einspruch: Was wurde erklärt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "§ 172 AO: Zustimmung, schlichte Änderung,…",
+      "kurztitel": "Änderungsantrag oder Einspruch: Was wurde erklärt?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -315,14 +305,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA",
+          "titel": "Dividende ins Ausland: Wer behält Steuer ein?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Dividende ins Ausland: Wer behält Steuer ein?",
           "norm": "§ 20 Abs. 1 Nr. 1 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Dividende ins Ausland: Wer behält Steuer ein? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Dividende über § 20 und § 49 Abs."
+            "Dividende ins Ausland: Wer behält Steuer ein"
           ]
         },
         {
@@ -332,9 +322,9 @@
           "text": null,
           "norm": "§ 20 Abs. 1 Nr. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: § 20 EStG: Dividende qualifizieren.",
+          "sprecher": "Schritt 1: 1. § 20 EStG: Dividende qualifizieren.",
           "marken": [
-            "Prüfpunkt 1"
+            "§ 20 EStG: Dividende qualifizieren."
           ]
         },
         {
@@ -344,17 +334,17 @@
           "text": null,
           "norm": "§ 49 Abs. 1 Nr. 5 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 49 Abs. 1 Nr. 5 EStG im Zusammenhang mit Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA.",
+          "sprecher": "Schritt 2: 2. § 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/Gesellschaft als Inlandsanknüpfung.",
           "marken": [
-            "Prüfpunkt 2"
+            "§ 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/G"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -372,14 +362,14 @@
           ]
         }
       ],
-      "caption": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Dividende ins Ausland: Wer behält Steuer ein? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA",
+      "kurztitel": "Dividende ins Ausland: Wer behält Steuer ein?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

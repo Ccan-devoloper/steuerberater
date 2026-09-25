@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Passive Rechnungsabgrenzung und Abgrenzungsfallen",
+          "titel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Passive Rechnungsabgrenzung und Abgrenzungsfallen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Passive Rechnungsabgrenzung und Abgrenzungsfallen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Geld schon erhalten: Muss ein PRAP in die Bilanz? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Passive Rechnungsabgrenzung und Abgrenzungsfallen",
+      "kurztitel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -210,7 +205,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE",
+          "titel": "Betrieb übertragen: Liegt eine GiG vor?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -237,11 +232,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -256,14 +246,14 @@
           ]
         }
       ],
-      "caption": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Betrieb übertragen: Liegt eine GiG vor? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
       ],
-      "kurztitel": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs.…",
+      "kurztitel": "Betrieb übertragen: Liegt eine GiG vor?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -304,14 +294,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Vereinsbesteuerung",
+          "titel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Verein mit Umsatz: Greift die Steuerbefreiung?",
           "norm": "§ 1 Abs. 1 Nr. 4 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Vereinsbesteuerung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Verein mit Umsatz: Greift die Steuerbefreiung? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Verein als Körperschaftsteuersubjekt"
+            "Verein mit Umsatz: Greift die Steuerbefreiung"
           ]
         },
         {
@@ -323,7 +313,7 @@
           "icon": null,
           "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG festste"
           ]
         },
         {
@@ -333,17 +323,17 @@
           "text": null,
           "norm": "§ 5 Abs. 1 Nr. 9 S. 2 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 5 Abs. 1 Nr. 9 S. 2 KStG im Zusammenhang mit Vereinsbesteuerung.",
+          "sprecher": "Schritt 2: Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und R"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Vereinsbesteuerung: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -361,14 +351,14 @@
           ]
         }
       ],
-      "caption": "Vereinsbesteuerung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Verein mit Umsatz: Greift die Steuerbefreiung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Vereinsbesteuerung",
+      "kurztitel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

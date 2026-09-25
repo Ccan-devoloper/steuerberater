@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Sonderbetriebsvermögen I und II",
+          "titel": "Gesellschaft oder Gesellschafter: Wem dient das Gut?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Sonderbetriebsvermögen I und II: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Sonderbetriebsvermögen I und II: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gesellschaft oder Gesellschafter: Wem dient das Gut? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Sonderbetriebsvermögen I und II",
+      "kurztitel": "Gesellschaft oder Gesellschafter: Wem dient das Gut?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -210,7 +205,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO",
+          "titel": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -237,11 +232,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -256,14 +246,14 @@
           ]
         }
       ],
-      "caption": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer…",
+      "kurztitel": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter?",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
@@ -307,14 +297,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+          "titel": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
           "norm": "§ 17 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Tatbestände des § 6 Abs."
+            "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert"
           ]
         },
         {
@@ -324,29 +314,29 @@
           "text": null,
           "norm": "§ 17 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 17 EStG im Zusammenhang mit § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen.",
+          "sprecher": "Schritt 1: Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlic"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 6 Abs. 1 AStG",
+          "titel": "§ 6 Abs. 2 untersuchen",
           "text": null,
           "norm": "§ 6 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 6 Abs. 1 AStG im Zusammenhang mit § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen.",
+          "sprecher": "Schritt 2: § 6 Abs. 2 untersuchen: innerhalb der letzten zwölf Jahre insgesamt mindestens sieben Jahre unbeschränkt steuerpflichtig; bei unentgeltlichem Erwerb Rechtsvorgängerregeln beachten.",
           "marken": [
-            "Prüfpunkt 2"
+            "§ 6 Abs. 2 untersuchen"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -364,14 +354,14 @@
           ]
         }
       ],
-      "caption": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+      "kurztitel": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

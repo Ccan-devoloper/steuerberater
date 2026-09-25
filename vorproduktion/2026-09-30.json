@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Teilwertabschreibung und Zuschreibung",
+          "titel": "Wertverlust: Abschreiben oder abwarten?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Teilwertabschreibung und Zuschreibung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Teilwertabschreibung und Zuschreibung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Wertverlust: Abschreiben oder abwarten? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Teilwertabschreibung und Zuschreibung",
+      "kurztitel": "Wertverlust: Abschreiben oder abwarten?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+          "titel": "Falscher Bescheid: Unwirksam oder nur rechtswidrig?",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Wirksamkeit und Nichtigkeit von Verwaltungsakten: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "Wirksamkeit und Nichtigkeit von Verwaltungsakten: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Falscher Bescheid: Unwirksam oder nur rechtswidrig? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+      "kurztitel": "Falscher Bescheid: Unwirksam oder nur rechtswidrig?",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
@@ -310,14 +300,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt",
+          "titel": "Freistellen oder anrechnen: Wer entscheidet?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Freistellen oder anrechnen: Wer entscheidet?",
           "norm": "Art. 23 DBA",
           "icon": null,
-          "sprecher": "Heute geht es um Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Freistellen oder anrechnen: Wer entscheidet? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Methodenartikel nur aus Sicht des"
+            "Freistellen oder anrechnen: Wer entscheidet"
           ]
         },
         {
@@ -327,9 +317,9 @@
           "text": null,
           "norm": "Art. 23 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: Ergebnis der Verteilungsnorm festhalten.",
+          "sprecher": "Schritt 1: 1. Ergebnis der Verteilungsnorm festhalten.",
           "marken": [
-            "Prüfpunkt 1"
+            "Ergebnis der Verteilungsnorm festhalten."
           ]
         },
         {
@@ -339,17 +329,17 @@
           "text": null,
           "norm": "§ 32b Abs. 1 S. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 32b Abs. 1 S. 1 Nr. 3 EStG im Zusammenhang mit Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt.",
+          "sprecher": "Schritt 2: 2. Methodenartikel des Ansässigkeitsstaats: Freistellung oder Anrechnung.",
           "marken": [
-            "Prüfpunkt 2"
+            "Methodenartikel des Ansässigkeitsstaats: Freiste"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -367,14 +357,14 @@
           ]
         }
       ],
-      "caption": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Freistellen oder anrechnen: Wer entscheidet? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Doppelbesteuerung vermeiden: Art. 23 DBA und Progressionsvorbehalt",
+      "kurztitel": "Freistellen oder anrechnen: Wer entscheidet?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

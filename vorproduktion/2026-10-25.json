@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Eigenkapitalgliederung",
+          "titel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Eigenkapitalgliederung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Eigenkapitalgliederung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Agio erhalten: Gezeichnetes Kapital oder Rücklage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Eigenkapitalgliederung",
+      "kurztitel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG",
+          "titel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Unbebaut oder bebaut: Welches Verfahren gilt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und…",
+      "kurztitel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -312,14 +302,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Ertragsteuerliche Organschaft",
+          "titel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Organschaft: Trägt der Gewinnabführungsvertrag?",
           "norm": "§ 14 Abs. 1 S. 1 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Ertragsteuerliche Organschaft. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Organschaft: Trägt der Gewinnabführungsvertrag? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "OG und OT qualifizieren"
+            "Organschaft: Trägt der Gewinnabführungsvertrag"
           ]
         },
         {
@@ -329,9 +319,9 @@
           "text": null,
           "norm": "§ 14 Abs. 1 S. 1 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 14 Abs. 1 S. 1 KStG im Zusammenhang mit Ertragsteuerliche Organschaft.",
+          "sprecher": "Schritt 1: Taugliche Organgesellschaft nach § 14 Abs. 1 S. 1 KStG feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Taugliche Organgesellschaft nach § 14 Abs. 1 S. "
           ]
         },
         {
@@ -343,15 +333,15 @@
           "icon": null,
           "sprecher": "Schritt 2: Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Tauglichen Organträger und gewerbliche Tätigkeit"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Ertragsteuerliche Organschaft: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -369,14 +359,14 @@
           ]
         }
       ],
-      "caption": "Ertragsteuerliche Organschaft: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Organschaft: Trägt der Gewinnabführungsvertrag? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Ertragsteuerliche Organschaft",
+      "kurztitel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

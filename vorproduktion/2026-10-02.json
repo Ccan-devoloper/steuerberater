@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+          "titel": "Vorräte am Stichtag: Welcher Wert bleibt?",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Vorräte, Bewertungsvereinfachung und Niederstwert: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Vorräte, Bewertungsvereinfachung und Niederstwert: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Vorräte am Stichtag: Welcher Wert bleibt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+      "kurztitel": "Vorräte am Stichtag: Welcher Wert bleibt?",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
@@ -214,7 +209,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Bekanntgabe an Steuerberater und Ehegatten",
+          "titel": "An Berater zugestellt: Läuft die Einspruchsfrist?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -241,11 +236,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Bekanntgabe an Steuerberater und Ehegatten: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -260,14 +250,14 @@
           ]
         }
       ],
-      "caption": "Bekanntgabe an Steuerberater und Ehegatten: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "An Berater zugestellt: Läuft die Einspruchsfrist? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Bekanntgabe an Steuerberater und Ehegatten",
+      "kurztitel": "An Berater zugestellt: Läuft die Einspruchsfrist?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -318,26 +308,26 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+          "titel": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
           "norm": "§ 1 Abs. 1 S. 1 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Die Hinzurechnungsbesteuerung erst"
+            "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "§ 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland.",
+          "titel": "§ 1 Abs. 1 S. 1 EStG",
           "text": null,
           "norm": "§ 1 Abs. 1 S. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 1 Abs. 1 S. 1 EStG im Zusammenhang mit Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht.",
+          "sprecher": "Schritt 1: 1. § 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland.",
           "marken": [
-            "Prüfpunkt 1"
+            "§ 1 Abs. 1 S. 1 EStG"
           ]
         },
         {
@@ -347,17 +337,17 @@
           "text": null,
           "norm": "§ 8 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 8 AO im Zusammenhang mit Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht.",
+          "sprecher": "Schritt 2: 2. Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA.",
           "marken": [
-            "Prüfpunkt 2"
+            "Rechtsfolge: Welteinkommensprinzip nach § 2 Abs."
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -375,14 +365,14 @@
           ]
         }
       ],
-      "caption": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+      "kurztitel": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

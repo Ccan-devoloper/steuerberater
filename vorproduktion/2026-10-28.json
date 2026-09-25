@@ -37,8 +37,8 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-schema-6",
-        "themaTitel": "Vereinsbesteuerung",
+        "themaId": "kst-modul-kst-3",
+        "themaTitel": "Nichtabziehbare Aufwendungen und Spenden",
         "fach": "kst",
         "klausur": 2,
         "lang": false
@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Übertragungen nach § 6 Abs. 5 EStG",
+          "titel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Übertragungen nach § 6 Abs. 5 EStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Übertragungen nach § 6 Abs. 5 EStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gut zwischen Betrieben: Buchwert oder Entnahme? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Übertragungen nach § 6 Abs. 5 EStG",
+      "kurztitel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -211,7 +206,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182",
+          "titel": "Bebautes Grundstück: Welche Art zuerst?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -238,11 +233,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -257,14 +247,14 @@
           ]
         }
       ],
-      "caption": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Bebautes Grundstück: Welche Art zuerst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Bebaute Grundstücke: Grundstücksart nach § 181 vor…",
+      "kurztitel": "Bebautes Grundstück: Welche Art zuerst?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -300,52 +290,52 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-schema-6",
+      "themaId": "kst-modul-kst-3",
       "slug": "2026-10-28-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Vereinsbesteuerung",
+          "titel": "Aufwand verbucht: Muss er zum zvE hinzu?",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 5 Abs. 1 Nr. 9",
+          "text": "Aufwand verbucht: Muss er zum zvE hinzu?",
+          "norm": "§ 8 Abs. 1 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Vereinsbesteuerung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Aufwand verbucht: Muss er zum zvE hinzu? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Verein als Körperschaftsteuersubjekt"
+            "Aufwand verbucht: Muss er zum zvE hinzu"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "titel": "Aufwandsbuchung und Gewinnminderung feststellen.",
           "text": null,
-          "norm": "§ 5 Abs. 1 Nr. 9",
+          "norm": "§ 8 Abs. 1 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "sprecher": "Schritt 1: Aufwandsbuchung und Gewinnminderung feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Aufwandsbuchung und Gewinnminderung feststellen."
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
+          "titel": "Spezialnorm des KStG untersuchen, insbesondere § 10 KStG.",
           "text": null,
-          "norm": "§ 24 KStG",
+          "norm": "§ 10 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 24 KStG im Zusammenhang mit Vereinsbesteuerung.",
+          "sprecher": "Schritt 2: Spezialnorm des KStG untersuchen, insbesondere § 10 KStG.",
           "marken": [
-            "Prüfpunkt 2"
+            "Spezialnorm des KStG untersuchen, insbesondere §"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Vereinsbesteuerung: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -363,33 +353,36 @@
           ]
         }
       ],
-      "caption": "Vereinsbesteuerung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Aufwand verbucht: Muss er zum zvE hinzu? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Vereinsbesteuerung",
+      "kurztitel": "Aufwand verbucht: Muss er zum zvE hinzu?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 5 Abs. 1 Nr. 9",
-        "§ 24 KStG",
-        "AO",
-        "§ 64 Abs. 3 AO",
-        "Themenpool: kst-schema-6"
+        "§ 8 Abs. 1 KStG",
+        "§ 10 Nr. 2 KStG",
+        "§ 4 Abs. 5 EStG",
+        "§ 4 Abs. 6 EStG",
+        "§ 4 Abs. 7 EStG",
+        "§ 10 KStG",
+        "§ 4 Abs. 5–7 EStG",
+        "Themenpool: kst-modul-kst-3"
       ],
       "coverRegie": {
-        "thema": "Vereinsbesteuerung",
+        "thema": "Nichtabziehbare Aufwendungen und Spenden",
         "goldenReferences": [
           "assets/referenzen/charaktere/02-vera-kranz.jpg",
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Eine Figur sortiert Aufwandsbelege; die andere hält nur bereits verbuchte Beträge vor einer Schranke an.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b3-kst-schema-6-cover.png",
+        "bilddatei": "2026-10-28-b3-kst-modul-kst-3-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,

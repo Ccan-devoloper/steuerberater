@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag",
+          "titel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag",
+      "kurztitel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -208,7 +203,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198",
+          "titel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -235,11 +230,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -254,14 +244,14 @@
           ]
         }
       ],
-      "caption": "Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gutachten unter Grundbesitzwert: Welcher Wert zählt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Bewertungsmaßstab § 177 BewG und Nachweis des…",
+      "kurztitel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
@@ -304,14 +294,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+          "titel": "Drittstaatenverlust: Wo greift § 2a EStG?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Drittstaatenverlust: Wo greift § 2a EStG?",
           "norm": "§ 2a Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Drittstaatenverlust: Wo greift § 2a EStG? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "§ 2a nur bei negativen Einkünften mit"
+            "Drittstaatenverlust: Wo greift § 2a EStG"
           ]
         },
         {
@@ -321,9 +311,9 @@
           "text": null,
           "norm": "§ 2a Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Drittstaatenbezug und negative Einkünfte feststellen.",
+          "sprecher": "Schritt 1: 1. Drittstaatenbezug und negative Einkünfte feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Drittstaatenbezug und negative Einkünfte festste"
           ]
         },
         {
@@ -333,17 +323,17 @@
           "text": null,
           "norm": "§ 2a Abs. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
+          "sprecher": "Schritt 2: 2. Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG best"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -361,14 +351,14 @@
           ]
         }
       ],
-      "caption": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Drittstaatenverlust: Wo greift § 2a EStG? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+      "kurztitel": "Drittstaatenverlust: Wo greift § 2a EStG?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

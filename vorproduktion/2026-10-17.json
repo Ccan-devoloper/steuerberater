@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Einlagen und Entnahmen",
+          "titel": "Einlage zum Teilwert: Greift die Dreijahresgrenze?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Einlagen und Entnahmen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Einlagen und Entnahmen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Einlage zum Teilwert: Greift die Dreijahresgrenze? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Einlagen und Entnahmen",
+      "kurztitel": "Einlage zum Teilwert: Greift die Dreijahresgrenze?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -217,7 +212,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung",
+          "titel": "Vorbehalt der Nachprüfung: Was darf das Amt ändern?",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -244,11 +239,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -263,14 +253,14 @@
           ]
         }
       ],
-      "caption": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Vorbehalt der Nachprüfung: Was darf das Amt ändern? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Vorbehalt der Nachprüfung (§ 164 AO):…",
+      "kurztitel": "Vorbehalt der Nachprüfung: Was darf das Amt ändern?",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
@@ -313,14 +303,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Steuerpflicht und Beginn der Körperschaft",
+          "titel": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
           "norm": "§ 1 Abs. 1 Nr. 1 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Steuerpflicht und Beginn der Körperschaft. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Vorgründung oder GmbH: Wer ist steuerpflichtig? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "unbeschränkte und beschränkte"
+            "Vorgründung oder GmbH: Wer ist steuerpflichtig"
           ]
         },
         {
@@ -332,27 +322,27 @@
           "icon": null,
           "sprecher": "Schritt 1: Vorgründungsphase bis zur notariellen Beurkundung unterscheiden.",
           "marken": [
-            "Prüfpunkt 1"
+            "Vorgründungsphase bis zur notariellen Beurkundun"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 1 Abs. 1 Nr. 4 KStG",
+          "titel": "Ab notarieller Beurkundung untersuchen, ob eine echte Vorgesellschaft mit fortbestehender Eintragungsa",
           "text": null,
           "norm": "§ 1 Abs. 1 Nr. 4 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 1 Abs. 1 Nr. 4 KStG im Zusammenhang mit Steuerpflicht und Beginn der Körperschaft.",
+          "sprecher": "Schritt 2: Ab notarieller Beurkundung untersuchen, ob eine echte Vorgesellschaft mit fortbestehender Eintragungsabsicht vorliegt.",
           "marken": [
-            "Prüfpunkt 2"
+            "Ab notarieller Beurkundung untersuchen, ob eine "
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Steuerpflicht und Beginn der Körperschaft: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -370,14 +360,14 @@
           ]
         }
       ],
-      "caption": "Steuerpflicht und Beginn der Körperschaft: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Vorgründung oder GmbH: Wer ist steuerpflichtig? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Steuerpflicht und Beginn der Körperschaft",
+      "kurztitel": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

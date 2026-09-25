@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Tausch, Inzahlungnahme und Investitionszuschuss",
+          "titel": "Alt gegen neu getauscht: Welche AK entstehen?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Tausch, Inzahlungnahme und Investitionszuschuss: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Tausch, Inzahlungnahme und Investitionszuschuss: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Alt gegen neu getauscht: Welche AK entstehen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Tausch, Inzahlungnahme und Investitionszuschuss",
+      "kurztitel": "Alt gegen neu getauscht: Welche AK entstehen?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -214,7 +209,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit",
+          "titel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -241,11 +236,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -260,14 +250,14 @@
           ]
         }
       ],
-      "caption": "Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Auskunft von Dritten: Wen fragt das Amt zuerst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Auskunfts- und Vorlageersuchen: Reihenfolge,…",
+      "kurztitel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -318,14 +308,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Dreiecksfälle und materielle Korrespondenz",
+          "titel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
           "norm": "§ 8 Abs. 3 S. 2 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Dreiecksfälle und materielle Korrespondenz. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Dreiecksvorteil: vGA oder verdeckte Einlage? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Vorteilsweg im Dreieck zeichnen"
+            "Dreiecksvorteil: vGA oder verdeckte Einlage"
           ]
         },
         {
@@ -337,7 +327,7 @@
           "icon": null,
           "sprecher": "Schritt 1: Leistende, begünstigte und beteiligte Person identifizieren.",
           "marken": [
-            "Prüfpunkt 1"
+            "Leistende, begünstigte und beteiligte Person ide"
           ]
         },
         {
@@ -349,15 +339,15 @@
           "icon": null,
           "sprecher": "Schritt 2: Erste Vorteilsbewegung als vGA oder vE untersuchen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Erste Vorteilsbewegung als vGA oder vE untersuch"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Dreiecksfälle und materielle Korrespondenz: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -375,14 +365,14 @@
           ]
         }
       ],
-      "caption": "Dreiecksfälle und materielle Korrespondenz: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Dreiecksvorteil: vGA oder verdeckte Einlage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Dreiecksfälle und materielle Korrespondenz",
+      "kurztitel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

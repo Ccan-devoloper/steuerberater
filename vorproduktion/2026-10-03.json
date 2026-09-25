@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Verdeckte Einlage",
+          "titel": "Vorteil ohne Geld: Ist das eine Einlage?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Verdeckte Einlage: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Verdeckte Einlage: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Vorteil ohne Geld: Ist das eine Einlage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Verdeckte Einlage",
+      "kurztitel": "Vorteil ohne Geld: Ist das eine Einlage?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+          "titel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Festsetzungsfrist: Welcher Tag startet die Uhr? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Festsetzungsfrist: Beginn nach § 170 AO und…",
+      "kurztitel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
@@ -309,14 +299,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+          "titel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
           "norm": "Art. 15 DBA",
           "icon": null,
-          "sprecher": "Heute geht es um Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "183 Tage: Darf der Tätigkeitsstaat besteuern? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Tätigkeitsstaat als Ausgangspunkt des Art."
+            "183 Tage: Darf der Tätigkeitsstaat besteuern"
           ]
         },
         {
@@ -326,9 +316,9 @@
           "text": null,
           "norm": "Art. 15 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
+          "sprecher": "Schritt 1: 1. Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Ansässigkeitsstaat und Tätigkeitsstaat bestimmen"
           ]
         },
         {
@@ -338,17 +328,17 @@
           "text": null,
           "norm": "Art. 23 DBA",
           "icon": null,
-          "sprecher": "Schritt 2: Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
+          "sprecher": "Schritt 2: 2. Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
           "marken": [
-            "Prüfpunkt 2"
+            "Art. 15 Grundsatz: Besteuerungsrecht des Tätigke"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -366,14 +356,14 @@
           ]
         }
       ],
-      "caption": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "183 Tage: Darf der Tätigkeitsstaat besteuern? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+      "kurztitel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

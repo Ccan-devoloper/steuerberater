@@ -79,7 +79,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
+          "titel": "Beteiligung verkauft: Wo greift § 8b KStG?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -106,11 +106,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Beteiligungen der Kapitalgesellschaft und § 8b KStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -125,14 +120,14 @@
           ]
         }
       ],
-      "caption": "Beteiligungen der Kapitalgesellschaft und § 8b KStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Beteiligung verkauft: Wo greift § 8b KStG? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
+      "kurztitel": "Beteiligung verkauft: Wo greift § 8b KStG?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -179,7 +174,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+          "titel": "Bescheid erhalten: Wollte das Amt ihn bekanntgeben?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -206,11 +201,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -225,14 +215,14 @@
           ]
         }
       ],
-      "caption": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Bescheid erhalten: Wollte das Amt ihn bekanntgeben? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Wirksamkeitsformel II: Bekanntgabewille und…",
+      "kurztitel": "Bescheid erhalten: Wollte das Amt ihn bekanntgeben?",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
@@ -274,14 +264,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
+          "titel": "Quellensteuer einbehalten: Wie kommt die Entlastung?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Quellensteuer einbehalten: Wie kommt die Entlastung?",
           "norm": "§ 50b EStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Quellensteuer einbehalten: Wie kommt die Entlastung? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Erkennen, wann der Quellensteuerabzug"
+            "Quellensteuer einbehalten: Wie kommt die Entlastung"
           ]
         },
         {
@@ -291,29 +281,29 @@
           "text": null,
           "norm": "§ 50b EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a).",
+          "sprecher": "Schritt 1: 1. Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a).",
           "marken": [
-            "Prüfpunkt 1"
+            "Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "untersuchen, ob DBA, § 43b, § 50g oder eine andere Entlastungsnorm den deutschen Anspruch reduziert.",
+          "titel": "Welche Norm mindert den Steuerabzug?",
           "text": null,
           "norm": "§ 50c EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 50c EStG im Zusammenhang mit § 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug.",
+          "sprecher": "Vergleiche den innerstaatlichen Abzug mit dem DBA und den Entlastungsregeln in § 43b oder § 50g EStG.",
           "marken": [
-            "Prüfpunkt 2"
+            "Welche Norm mindert den Steuerabzug?"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -331,14 +321,14 @@
           ]
         }
       ],
-      "caption": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Quellensteuer einbehalten: Wie kommt die Entlastung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
+      "kurztitel": "Quellensteuer einbehalten: Wie kommt die Entlastung?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

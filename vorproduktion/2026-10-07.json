@@ -79,7 +79,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Buchungssatz und Gewinnauswirkung",
+          "titel": "Falscher Buchungssatz: Wie wirkt die Korrektur?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -106,11 +106,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Buchungssatz und Gewinnauswirkung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -125,14 +120,14 @@
           ]
         }
       ],
-      "caption": "Buchungssatz und Gewinnauswirkung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Falscher Buchungssatz: Wie wirkt die Korrektur? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Buchungssatz und Gewinnauswirkung",
+      "kurztitel": "Falscher Buchungssatz: Wie wirkt die Korrektur?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -175,7 +170,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen",
+          "titel": "Zahlendreher in der Erklärung: § 173a oder § 129?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -202,11 +197,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei § 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -221,14 +211,14 @@
           ]
         }
       ],
-      "caption": "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Zahlendreher in der Erklärung: § 173a oder § 129? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen",
+      "kurztitel": "Zahlendreher in der Erklärung: § 173a oder § 129?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -271,14 +261,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c",
+          "titel": "Auslandssteuer: DBA oder § 34c EStG?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Auslandssteuer: DBA oder § 34c EStG?",
           "norm": "§ 34c Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Auslandssteuer: DBA oder § 34c EStG? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "DBA-Fall und Nicht-DBA-Fall bereits zu"
+            "Auslandssteuer: DBA oder § 34c EStG"
           ]
         },
         {
@@ -288,29 +278,29 @@
           "text": null,
           "norm": "§ 34c Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 34c Abs. 1 EStG im Zusammenhang mit Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c.",
+          "sprecher": "Schritt 1: 1. Unbeschränkte Steuerpflicht und ausländische Einkünfte feststellen.",
           "marken": [
-            "Prüfpunkt 1"
+            "Unbeschränkte Steuerpflicht und ausländische Ein"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "DBA vorhanden? Wenn ja: Methodenartikel des DBA; wenn nein: § 34c EStG.",
+          "titel": "DBA vorhanden?",
           "text": null,
           "norm": "§ 34c Abs. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 34c Abs. 2 EStG im Zusammenhang mit Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c.",
+          "sprecher": "Besteht ein DBA, lies dessen Methodenartikel. Ohne DBA führt der Weg zur Steueranrechnung nach § 34c EStG.",
           "marken": [
-            "Prüfpunkt 2"
+            "DBA vorhanden?"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -328,14 +318,14 @@
           ]
         }
       ],
-      "caption": "Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Auslandssteuer: DBA oder § 34c EStG? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c",
+      "kurztitel": "Auslandssteuer: DBA oder § 34c EStG?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Gewinnrealisierung und schwebende Geschäfte",
+          "titel": "Ware geliefert: Ist der Gewinn schon realisiert?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Gewinnrealisierung und schwebende Geschäfte: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Gewinnrealisierung und schwebende Geschäfte: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Ware geliefert: Ist der Gewinn schon realisiert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Gewinnrealisierung und schwebende Geschäfte",
+      "kurztitel": "Ware geliefert: Ist der Gewinn schon realisiert?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+          "titel": "Frist vorbei: Welche Korrektur bleibt offen?",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Frist vorbei: Welche Korrektur bleibt offen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Korrekturpärchen nach Ablauf der regulären…",
+      "kurztitel": "Frist vorbei: Welche Korrektur bleibt offen?",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
@@ -312,14 +302,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+          "titel": "Aufsichtsrat im Inland: Wo wird besteuert?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Aufsichtsrat im Inland: Wo wird besteuert?",
           "norm": "§ 18 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Aufsichtsrat im Inland: Wo wird besteuert? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Aufsichtsratsvergütung als selbständige"
+            "Aufsichtsrat im Inland: Wo wird besteuert"
           ]
         },
         {
@@ -329,9 +319,9 @@
           "text": null,
           "norm": "§ 18 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
+          "sprecher": "Schritt 1: 1. Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
           "marken": [
-            "Prüfpunkt 1"
+            "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG."
           ]
         },
         {
@@ -341,17 +331,17 @@
           "text": null,
           "norm": "§ 49 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 49 Abs. 1 Nr. 3 EStG im Zusammenhang mit Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA.",
+          "sprecher": "Schritt 2: 2. Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
           "marken": [
-            "Prüfpunkt 2"
+            "Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tä"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -369,14 +359,14 @@
           ]
         }
       ],
-      "caption": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Aufsichtsrat im Inland: Wo wird besteuert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+      "kurztitel": "Aufsichtsrat im Inland: Wo wird besteuert?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

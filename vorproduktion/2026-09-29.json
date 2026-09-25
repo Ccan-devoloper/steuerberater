@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
+          "titel": "Drei Vermögen: Wo landet die Maschine?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Drei Vermögen: Wo landet die Maschine? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
       ],
-      "kurztitel": "Betriebsvermögen der Mitunternehmerschaft und…",
+      "kurztitel": "Drei Vermögen: Wo landet die Maschine?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -210,7 +205,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
+          "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -232,14 +227,9 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Antrag vor Ablauf der FF: § 171 Abs."
+              "text": "Antrag vor Fristablauf: § 171 Abs. 3 AO und die Änderungsvorschrift getrennt prüfen."
             }
           ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -256,14 +246,14 @@
           ]
         }
       ],
-      "caption": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Frist abgelaufen: Ist der Bescheid noch änderbar? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und…",
+      "kurztitel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -311,14 +301,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+          "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Wohnsitz im Ausland: Wer darf besteuern?",
           "norm": "§ 1 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Grundschema: persönlicher Steuerzugriff und Wohnsitz. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wohnsitz im Ausland: Wer darf besteuern? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "§ 1 Abs."
+            "Wohnsitz im Ausland: Wer darf besteuern"
           ]
         },
         {
@@ -328,9 +318,9 @@
           "text": null,
           "norm": "§ 1 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Natürliche Person?",
+          "sprecher": "Schritt 1: 1. Natürliche Person?",
           "marken": [
-            "Prüfpunkt 1"
+            "Natürliche Person?"
           ]
         },
         {
@@ -340,17 +330,17 @@
           "text": null,
           "norm": "§ 8 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 8 AO im Zusammenhang mit Grundschema: persönlicher Steuerzugriff und Wohnsitz.",
+          "sprecher": "Schritt 2: 2. Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Aufenthalt (§ 9 AO)?",
           "marken": [
-            "Prüfpunkt 2"
+            "Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Au"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Grundschema: persönlicher Steuerzugriff und Wohnsitz: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -368,14 +358,14 @@
           ]
         }
       ],
-      "caption": "Grundschema: persönlicher Steuerzugriff und Wohnsitz: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wohnsitz im Ausland: Wer darf besteuern? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+      "kurztitel": "Wohnsitz im Ausland: Wer darf besteuern?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -445,7 +435,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Richtig: Buchwert, Zwischenwert oder gemeiner Wert. Der Buchwertansatz verlangt einen Antrag voraus; der gemeine Wert ist der gesetzliche Regelfall."
+      "text": "Die Wahl reicht vom Buchwert über den Zwischenwert bis zum gemeinen Wert. Für den Buchwert ist ein Antrag nötig; ohne Wahl bleibt es beim gemeinen Wert."
     },
     "s6": {
       "slot": "s6",

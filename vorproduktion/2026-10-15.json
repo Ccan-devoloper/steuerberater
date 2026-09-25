@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Ausschüttungen und steuerliches Einlagekonto",
+          "titel": "Ausschüttung: Gewinn oder Einlagekonto?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Ausschüttungen und steuerliches Einlagekonto: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Ausschüttungen und steuerliches Einlagekonto: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Ausschüttung: Gewinn oder Einlagekonto? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Ausschüttungen und steuerliches Einlagekonto",
+      "kurztitel": "Ausschüttung: Gewinn oder Einlagekonto?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -212,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+          "titel": "Erbschaftsteuer: Welche Tarifstufe gilt?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -239,11 +234,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Steuerberechnung: § 19 ErbStG und Härteausgleich: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -258,14 +248,14 @@
           ]
         }
       ],
-      "caption": "Steuerberechnung: § 19 ErbStG und Härteausgleich: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Erbschaftsteuer: Welche Tarifstufe gilt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+      "kurztitel": "Erbschaftsteuer: Welche Tarifstufe gilt?",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
@@ -305,14 +295,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "§ 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %",
+          "titel": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
           "norm": "§ 8 Abs. 5 S. 1 AStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Die 15-%-Grenze auf die nach deutschem"
+            "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor"
           ]
         },
         {
@@ -322,9 +312,9 @@
           "text": null,
           "norm": "§ 8 Abs. 5 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 8 Abs. 5 S. 1 AStG im Zusammenhang mit § 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %.",
+          "sprecher": "Schritt 1: 1. Einkünfte der ausländischen Gesellschaft nach § 10 Abs. 3 AStG nach deutschem Steuerrecht ermitteln.",
           "marken": [
-            "Prüfpunkt 1"
+            "Einkünfte der ausländischen Gesellschaft nach § "
           ]
         },
         {
@@ -334,17 +324,17 @@
           "text": null,
           "norm": "§ 8 Abs. 5 S. 2 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
+          "sprecher": "Schritt 2: 2. Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Tatsächliche Ertragsteuerbelastung dieser Einkün"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -362,14 +352,14 @@
           ]
         }
       ],
-      "caption": "§ 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "§ 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %",
+      "kurztitel": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [

@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Ergänzungsbilanz",
+          "titel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -142,11 +142,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Ergänzungsbilanz: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -161,14 +156,14 @@
           ]
         }
       ],
-      "caption": "Ergänzungsbilanz: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Anteil teurer gekauft: Wohin mit dem Mehrwert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Ergänzungsbilanz",
+      "kurztitel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -210,7 +205,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
+          "titel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -237,11 +232,6 @@
           ]
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -256,14 +246,14 @@
           ]
         }
       ],
-      "caption": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Feststellungsbescheid: Wer darf Einspruch einlegen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und…",
+      "kurztitel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -306,14 +296,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA",
+          "titel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
           "norm": "Art. 5 DBA",
           "icon": null,
-          "sprecher": "Heute geht es um Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Auslandsgewinn: Gibt es eine Betriebsstätte? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
-            "Art."
+            "Auslandsgewinn: Gibt es eine Betriebsstätte"
           ]
         },
         {
@@ -323,9 +313,9 @@
           "text": null,
           "norm": "Art. 5 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe Art. 5 DBA im Zusammenhang mit Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA.",
+          "sprecher": "Schritt 1: 1. Unternehmensgewinn – Art. 7 DBA als Verteilungsnorm identifizieren.",
           "marken": [
-            "Prüfpunkt 1"
+            "Unternehmensgewinn – Art. 7 DBA als Verteilungsn"
           ]
         },
         {
@@ -335,17 +325,17 @@
           "text": null,
           "norm": "Art. 7 DBA",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe Art. 7 DBA im Zusammenhang mit Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA.",
+          "sprecher": "Schritt 2: 2. Betriebsstätte nach Art. 5 untersuchen: feste Geschäftseinrichtung + Beispielsfälle.",
           "marken": [
-            "Prüfpunkt 2"
+            "Betriebsstätte nach Art. 5 untersuchen: feste Ge"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
           "marken": [
             "Merksatz"
           ]
@@ -363,14 +353,14 @@
           ]
         }
       ],
-      "caption": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Auslandsgewinn: Gibt es eine Betriebsstätte? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA",
+      "kurztitel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
