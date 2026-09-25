@@ -389,17 +389,23 @@ function reel(datum, slot, t) {
 
   basis.forEach((roh, i) => {
     const x = ohneNummer(roh);
+    const norm = t.normen?.[i] || t.normen?.[0] || null;
+    const sceneTitel = dreiKlausuren && x.length > 110
+      ? `Prüfpunkt ${i + 1}${norm ? ": " + norm : ""}`
+      : anzeigeKurz(x, dreiKlausuren ? 110 : 72);
     szenen.push({
       art: "schritt",
       nummer: i + 1,
-      titel: anzeigeKurz(x, dreiKlausuren ? 110 : 72),
+      titel: sceneTitel,
       text: dreiKlausuren ? null : k.lern[i] && k.lern[i] !== roh ? anzeigeKurz(k.lern[i], 92) : null,
-      norm: null,
+      norm: dreiKlausuren ? norm : null,
       icon: null,
       sprecher: dreiKlausuren
-        ? `Schritt ${i + 1}: ${satz(anzeigeKurz(x, 55))} Danach folgt der nächste Prüfpunkt.`
+        ? x.length <= 65
+          ? `Schritt ${i + 1}: ${satz(x)}`
+          : `Schritt ${i + 1}: Prüfe ${norm || "die gezeigte Voraussetzung"} im Zusammenhang mit ${satz(t.titel)}`
         : "Schritt " + String(i + 1) + ": " + satz(x),
-      marken: [anzeigeKurz(x, 42)],
+      marken: [dreiKlausuren ? `Prüfpunkt ${i + 1}` : anzeigeKurz(x, 42)],
     });
   });
 
