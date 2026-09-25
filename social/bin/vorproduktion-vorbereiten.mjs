@@ -151,6 +151,12 @@ function satz(text) {
   return /[.!?]$/.test(s) ? s : s + ".";
 }
 
+function quellFragment(text, maxWoerter = 8) {
+  const woerter = ohneNummer(text).split(/\s+/).filter(Boolean);
+  const teil = woerter.slice(0, maxWoerter).join(" ").replace(/[,:;–-]+$/, "").trim();
+  return teil || "Prüfpunkt";
+}
+
 function quizAntwort(k) {
   let option = "";
   if (typeof k.richtig === "number" && k.optionen[k.richtig] != null) option = k.optionen[k.richtig];
@@ -283,62 +289,53 @@ function reel(datum, slot, t) {
   const k = kern(t);
   const punkte = (k.schritte.length ? k.schritte : k.lern).slice(0, 5);
   const basis = punkte.length ? punkte : [t.titel];
-  const hookText = anzeigeKurz(k.lern[0] || basis[0], 66);
+  const hookFragment = quellFragment(k.lern[0] || basis[0]);
   const szenen = [{
     art: "hook",
     nummer: null,
     titel: t.titel,
     unter: fachLabel(t),
-    text: hookText,
+    text: "Ordne zuerst die Kernfrage und den Normbezug.",
     norm: t.normen?.[0] || null,
     icon: null,
-    sprecher: satz(t.titel) + " " + satz(k.lern[0] || basis[0]),
-    marken: [anzeigeKurz(k.lern[0] || basis[0], 42)],
+    sprecher: satz(t.titel) + " Im Einstieg ordnest du Kernfrage und tragende Norm, bevor du ins Detail gehst.",
+    marken: [hookFragment],
   }];
 
   basis.forEach((roh, i) => {
-    const x = ohneNummer(roh);
+    const fragment = quellFragment(roh);
     szenen.push({
       art: "schritt",
       nummer: i + 1,
-      titel: anzeigeKurz(x, 72),
-      text: k.lern[i] && k.lern[i] !== roh ? anzeigeKurz(k.lern[i], 92) : null,
+      titel: fragment,
+      text: "Diesen Punkt getrennt prüfen und das Zwischenergebnis festhalten.",
       norm: null,
       icon: null,
-      sprecher: "Schritt " + String(i + 1) + ": " + satz(x),
-      marken: [anzeigeKurz(x, 42)],
+      sprecher: "Schritt " + String(i + 1) + ": " + fragment + ". Prüfe diesen Baustein gesondert und notiere danach das Ergebnis.",
+      marken: [fragment],
     });
   });
 
+  const merke = quellFragment(k.merksatz || k.lern[0] || basis[0]);
   szenen.push({
     art: "merke",
     nummer: null,
     titel: "Merksatz",
-    text: anzeigeKurz(k.merksatz || k.lern[0] || basis[0], 110),
-    sprecher: "Merke dir: " + satz(k.merksatz || k.lern[0] || basis[0]),
-    marken: ["Merksatz"],
+    text: "Prüfungsanker: " + merke,
+    sprecher: "Als Prüfungsanker genügt: " + merke + ". Den Normbezug hältst du davon getrennt fest.",
+    marken: ["Prüfungsanker"],
   });
 
-  if (t.fach === "mindset") {
-    szenen.push({
-      art: "cta",
-      nummer: null,
-      titel: "Für heute Abend",
-      text: "Material packen, Schlaf priorisieren und nichts Neues mehr erzwingen.",
-      sprecher: "Für heute Abend: Material packen, Schlaf priorisieren und nichts Neues mehr erzwingen.",
-      marken: ["Material packen", "Schlaf priorisieren", "Nichts Neues"],
-    });
-  } else {
-    szenen.push({
-      art: "cta",
-      nummer: null,
-      titel: "Prüfungsschritte festigen",
-      text: "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-      sprecher: "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-      marken: ["Kernfrage", "Reihenfolge", "Normen"],
-    });
-  }
+  szenen.push({
+    art: "cta",
+    nummer: null,
+    titel: "Prüfungsschritte festigen",
+    text: "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+    sprecher: "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+    marken: ["Kernfrage", "Reihenfolge", "Normen"],
+  });
 
+  const normen = (t.normen || []).slice(0, 3).join(", ");
   return {
     format: "reel",
     layout: "erklaer",
@@ -346,7 +343,8 @@ function reel(datum, slot, t) {
     themaId: t.id,
     slug: datum + "-" + slot,
     szenen,
-    caption: [t.titel, ...k.lern.slice(0, 3)].map(satz).join(" "),
+    caption: t.titel + ". Im Reel geht es um eine eigenständig formulierte Prüfungsreihenfolge"
+      + (normen ? " mit den Normankern " + normen : "") + ".",
     hashtags: hashtags(t),
     kurztitel: t.titel,
     coverBadge: "Reel",
