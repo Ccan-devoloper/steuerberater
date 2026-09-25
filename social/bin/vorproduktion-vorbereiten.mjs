@@ -694,42 +694,68 @@ function feedInhaltBauen(datum, b) {
 
 function feedInhaltSicherBauen(datum, b, used) {
   if (!b.thema) throw new Error(datum + " " + b.slot + ": Pflichtbeitrag ohne Thema.");
-  let inhalt = feedInhaltBauen(datum, b);
-  let check = pruefeBeitrag(inhalt);
-  if (check.ok) return inhalt;
 
-  /* Providerfrei gibt es kein Modell, das einen zu quellennahen Entwurf
-     umformulieren kann. Statt die Veröffentlichungsprüfung zu lockern, wird
-     deshalb ein anderes Thema derselben Klausur und desselben Formats gewählt.
-     So bleibt die 0-$-Vorproduktion fail-closed und übernimmt niemals 1:1. */
+  const ursprungsFormat = b.format;
+  const formate = ursprungsFormat === "reel"
+    ? ["reel"]
+    : [...new Set([
+        ursprungsFormat,
+        "rechenweg",
+        "vergleich",
+        "pruefungsfrage",
+        "schema",
+        "spickzettel",
+        "fehlerfalle",
+        "minifall",
+        "klausurtechnik",
+      ])];
+
   const gesperrt = new Set(used);
   gesperrt.add(b.thema.id);
-  const ursprung = b.thema.id;
-  for (let versuch = 1; versuch <= 24; versuch++) {
-    let ersatz;
-    try {
-      ersatz = pick(datum, {
-        klausur: b.klausur,
-        types: FORMAT_QUELLEN[b.format],
-        used: gesperrt,
-        seed: "publikationssicher-" + b.slot + "-" + versuch,
-      });
-    } catch {
-      break;
-    }
-    gesperrt.add(ersatz.id);
-    b.thema = ersatz;
-    inhalt = feedInhaltBauen(datum, b);
-    check = pruefeBeitrag(inhalt);
-    if (check.ok) {
-      used.add(ersatz.id);
-      console.warn("  ! " + datum + " " + b.slot + ": quellennahes Thema " + ursprung + " durch " + ersatz.id + " ersetzt.");
-      return inhalt;
+  let letzterCheck = null;
+  let ersterVersuch = true;
+
+  for (const format of formate) {
+    b.format = format;
+    for (let versuch = 0; versuch <= 24; versuch++) {
+      let thema;
+      if (ersterVersuch) {
+        thema = b.thema;
+        ersterVersuch = false;
+      } else {
+        try {
+          thema = pick(datum, {
+            klausur: b.klausur,
+            types: FORMAT_QUELLEN[format],
+            used: gesperrt,
+            seed: "publikationssicher-" + b.slot + "-" + format + "-" + versuch,
+          });
+        } catch {
+          break;
+        }
+      }
+
+      if (!thema) continue;
+      gesperrt.add(thema.id);
+      b.thema = thema;
+      const inhalt = feedInhaltBauen(datum, b);
+      letzterCheck = pruefeBeitrag(inhalt);
+      if (letzterCheck.ok) {
+        used.add(thema.id);
+        if (format !== ursprungsFormat || versuch > 0) {
+          console.warn(
+            "  ! " + datum + " " + b.slot + ": providerfrei auf "
+            + format + "/" + thema.id + " ausgewichen, damit keine 1:1-Übernahme entsteht."
+          );
+        }
+        return inhalt;
+      }
     }
   }
+
   throw new Error(
     datum + " " + b.slot + ": kein providerfrei publikationssicheres Thema für K"
-    + b.klausur + "/" + b.format + ". Letzter Befund: " + check.fehler.join(" | ")
+    + b.klausur + ". Letzter Befund: " + (letzterCheck?.fehler || ["unbekannt"]).join(" | ")
   );
 }
 
