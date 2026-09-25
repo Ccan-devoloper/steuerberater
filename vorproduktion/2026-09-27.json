@@ -347,7 +347,14 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "optionen": [
+        "Brutto vom Gesamtkaufpreis",
+        "Netto von den Gebäude-AK",
+        "Brutto von den Gebäude-AK",
+        "Netto vom Gesamtkaufpreis"
+      ],
+      "richtig": 1
     },
     "s4": {
       "slot": "s4",
@@ -367,13 +374,20 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "Netto, nur Gebäude-AK, drei Jahre kumuliert",
       "text": "Die 15-%-Grenze wird netto auf die Anschaffungskosten des Gebäudes bezogen und über drei Jahre kumuliert (§ 6 Abs. 1 Nr. 1a EStG).",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "optionen": [
+        "Brutto vom Gesamtkaufpreis",
+        "Netto von den Gebäude-AK",
+        "Brutto von den Gebäude-AK",
+        "Netto vom Gesamtkaufpreis"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -576,7 +590,16 @@
     "freigabeBetreiber": false,
     "wartetLive": [],
     "visuellGeprueft": true,
-    "visuellGeprueftAm": "2026-09-25"
+    "visuellGeprueftAm": "2026-09-25",
+    "quizPatch": {
+      "stand": "2026-09-25T11:23:22.927Z",
+      "quelle": "redaktion",
+      "slots": [
+        "s3",
+        "s4"
+      ],
+      "providerKostenUsd": 0
+    }
   },
   "liveRegel": {
     "veroeffentlichen": true,

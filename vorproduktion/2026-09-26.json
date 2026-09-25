@@ -340,12 +340,18 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG)",
+      "titel": "Verbilligte Leistung an Nahestehende oder Personal: Welche Bemessungsgrundlage gilt?",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "optionen": [
+        "Immer nur das tatsächlich vereinbarte Entgelt",
+        "Mindestens der Wert nach § 10 Abs. 4 UStG, höchstens das marktübliche Entgelt",
+        "Stets das marktübliche Entgelt – auch wenn mehr gezahlt wird"
+      ],
+      "richtig": 1
     },
     "s4": {
       "slot": "s4",
@@ -365,13 +371,19 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "Mindestens § 10 Abs. 4, höchstens marktüblich",
       "text": "Bei verbilligten Leistungen an nahestehende Personen oder Personal gilt grundsätzlich mindestens die Bemessungsgrundlage des § 10 Abs. 4 UStG; nach oben begrenzt das marktübliche Entgelt.",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "optionen": [
+        "Immer nur das tatsächlich vereinbarte Entgelt",
+        "Mindestens der Wert nach § 10 Abs. 4 UStG, höchstens das marktübliche Entgelt",
+        "Stets das marktübliche Entgelt – auch wenn mehr gezahlt wird"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -577,7 +589,16 @@
     "freigabeBetreiber": false,
     "wartetLive": [],
     "visuellGeprueft": true,
-    "visuellGeprueftAm": "2026-09-25"
+    "visuellGeprueftAm": "2026-09-25",
+    "quizPatch": {
+      "stand": "2026-09-25T11:23:22.543Z",
+      "quelle": "redaktion",
+      "slots": [
+        "s3",
+        "s4"
+      ],
+      "providerKostenUsd": 0
+    }
   },
   "liveRegel": {
     "veroeffentlichen": true,
