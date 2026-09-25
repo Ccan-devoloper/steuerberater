@@ -33,12 +33,7 @@ jobs:
             if [ -f "$mp4" ]; then
               dur=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$mp4")
               for n in 1 2 3; do
-                t=$(python3 - <<PY
-d=float("$dur")
-n=$n
-print(max(0.1,d*n/4))
-PY
-)
+                t=$(awk -v d="$dur" -v n="$n" 'BEGIN { t=d*n/4; if (t<0.1) t=0.1; print t }')
                 ffmpeg -loglevel error -y -ss "$t" -i "$mp4" -frames:v 1 "qa/reel-frames/$d-reel-$n.jpg"
               done
             fi
