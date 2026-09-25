@@ -386,6 +386,74 @@ function pick(datum, { art = "beitrag", klausur = null, types = null, filter = n
   return kandidaten.sort((a, b) => score(b) - score(a))[0];
 }
 
+const VORPROD_CAROUSEL_FORMATE = ["pruefungsfrage", "schema", "spickzettel", "fehlerfalle", "klausurtechnik", "vergleich", "rechenweg", "minifall"];
+
+function vorproduktionsFeedNormalisieren(datum, p) {
+  const bestehend = p.beitraege || [];
+  const gebraucht = new Set();
+  const istFachslot = (b) => [1, 2, 3].includes(Number(b?.klausur))
+    && b?.thema && Number(b.thema.klausur) === Number(b.klausur);
+
+  /* Ein bereits fachlich passendes Reel bleibt erhalten. Wochenend-Mindset,
+     Wochenrückblick, Anlass und andere fachübergreifende Feed-Slots werden in
+     der Vorproduktion nicht als einer der drei Pflichtbeiträge gezählt. */
+  const vorhandenesReel = bestehend.find((b) => b.format === "reel" && istFachslot(b));
+  const tagesZahl = Math.floor(Date.parse(datum + "T12:00:00Z") / 86400000);
+  const reelKlausur = vorhandenesReel
+    ? Number(vorhandenesReel.klausur)
+    : ((tagesZahl % 3) + 3) % 3 + 1;
+
+  const neu = [];
+  const zeiten = ["08:30", "12:00", "17:30"];
+
+  for (const klausur of [1, 2, 3]) {
+    const sollReel = klausur === reelKlausur;
+    let alt = bestehend.find((b) =>
+      !gebraucht.has(b)
+      && istFachslot(b)
+      && Number(b.klausur) === klausur
+      && (b.format === "reel") === sollReel
+    );
+
+    let format = sollReel ? "reel" : alt?.format;
+    if (!format || !VORPROD_CAROUSEL_FORMATE.includes(format)) {
+      format = sollReel ? "reel" : VORPROD_CAROUSEL_FORMATE[(tagesZahl + klausur) % VORPROD_CAROUSEL_FORMATE.length];
+    }
+
+    let thema = alt?.thema || null;
+    if (!thema) {
+      thema = pick(datum, {
+        klausur,
+        types: FORMAT_QUELLEN[format],
+        used: new Set([...neu.map((b) => b.thema?.id).filter(Boolean)]),
+        seed: "vorproduktion-feed-k" + klausur + "-" + format,
+      });
+    }
+    if (alt) gebraucht.add(alt);
+
+    neu.push({
+      slot: "b" + klausur,
+      zeit: zeiten[klausur - 1],
+      format,
+      thema,
+      klausur,
+      lang: sollReel ? Boolean(alt?.lang) : undefined,
+    });
+  }
+
+  /* Genau ein Teaser je Feedbeitrag; die Gesamtzahl der Stories bleibt beim
+     bestehenden Tageslimit. Deshalb werden bei drei Teasern höchstens sechs
+     eigenständige Stories übernommen. */
+  const eigenstaendig = (p.stories || []).filter((s) => !s.beitragSlot);
+  const teaser = neu.map((b) => ({ art: "teaser", beitragSlot: b.slot, zeit: b.zeit }));
+  const ziel = Math.max(3, Number(CONFIG.plan.storiesProTag || 9));
+  const stories = [...teaser, ...eigenstaendig.slice(0, Math.max(0, ziel - teaser.length))]
+    .sort((a, b) => String(a.zeit || "").localeCompare(String(b.zeit || "")));
+  stories.forEach((s, i) => { s.slot = "s" + (i + 1); });
+
+  return { ...p, beitraege: neu, stories };
+}
+
 function story(datum, planStory, t, used) {
   const art = planStory.art;
   if (art === "countdown") {
@@ -648,7 +716,7 @@ function addLedger(datum, p, inhalte) {
 }
 
 for (const datum of dates) {
-  const p = tagesplan(datum, ledger, pool, strategy);
+  const p = vorproduktionsFeedNormalisieren(datum, tagesplan(datum, ledger, pool, strategy));
   const used = new Set(p.beitraege.map((b) => b.thema?.id).filter(Boolean));
 
   /* "Aktuell" braucht im Live-Betrieb Webrecherche. Im providerfreien Review
