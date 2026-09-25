@@ -26,6 +26,71 @@ export const VORPRODUKTION_LAYOUT = Object.freeze({
   farbenAusSchwesterkanalUebernehmen: false,
 });
 
+const COVER_ICON_FACH = Object.freeze({
+  ust: "quittung",
+  istr: "globus",
+  bilanz: "hauptbuch",
+  persg: "personen",
+  ao: "dokument",
+  kst: "gebaeude",
+  gewst: "fabrik",
+  erbst: "haus",
+  est: "rechner",
+  umwst: "kreislauf",
+  mindset: "zielscheibe",
+  wochenrueckblick: "kalender",
+});
+
+const COVER_ICON_REGELN = Object.freeze([
+  [/innergemeinschaft|reihengesch[aä]ft|lieferung|warenverkehr/i, "lkw"],
+  [/vorsteuer|rechnung|§\\s*14c|umsatzsteuer|ustg/i, "quittung"],
+  [/dba|ausland|international|beschr[aä]nkte steuerpflicht|§\\s*49/i, "globus"],
+  [/mitunternehmer|gesellschafter|personengesellschaft|gesamthand/i, "personen"],
+  [/bilanz|buchwert|r[uü]ckstellung|abschreibung|afa/i, "hauptbuch"],
+  [/einspruch|bescheid|abgabenordnung|\\bao\\b/i, "dokument"],
+  [/erbschaft|schenkung|familienheim/i, "haus"],
+  [/umwandlung|einbringung|realteilung/i, "kreislauf"],
+  [/pr[uü]fungsangst|mindset|blackout|lern/i, "zielscheibe"],
+  [/wochenr[uü]ckblick|woche/i, "kalender"],
+]);
+
+/** Kostenloses, lokales Cover-Icon aus dem bereits installierten Iconify-Satz. */
+export function passendesCoverIcon(inhalt = {}) {
+  const titel = [
+    inhalt.themaTitel,
+    inhalt.kurztitel,
+    ...(inhalt.folien || []).filter((f) => f?.art === "titel").map((f) => f.titel),
+    ...(inhalt.szenen || []).slice(0, 2).flatMap((x) => [x?.titel, x?.text]),
+  ].filter(Boolean).join(" · ");
+  for (const [muster, icon] of COVER_ICON_REGELN) if (muster.test(titel)) return icon;
+  if (inhalt.format === "wochenrueckblick") return "kalender";
+  if (inhalt.format === "klausurtechnik") return "zielscheibe";
+  if (inhalt.format === "rechenweg") return "rechner";
+  return COVER_ICON_FACH[inhalt.fach] || "paragraf";
+}
+
+/**
+ * Ersetzt bei bildlosen Feed-/Reel-Covern das bewusste Leerfeld durch ein
+ * thematisch passendes lokales Icon. Echte vorhandene Bilder bleiben unberührt.
+ */
+export function coverIconEinsetzen(inhalt = {}) {
+  const icon = passendesCoverIcon(inhalt);
+  const titel = (inhalt.folien || []).find((f) => f?.art === "titel");
+  if (titel && !titel.bild) {
+    titel.icon = icon;
+    titel.coverBildAuslassen = false;
+    delete titel.bildQuelle;
+  }
+  if (Array.isArray(inhalt.szenen) && !inhalt.bild) {
+    const erste = inhalt.szenen.find(Boolean);
+    if (erste) erste.icon = icon;
+    inhalt.icon = icon;
+    inhalt.coverBildAuslassen = false;
+    delete inhalt.bildQuelle;
+  }
+  return icon;
+}
+
 export function fachMeta(eintrag = {}) {
   const fach = eintrag.fach || eintrag.thema?.fach || null;
   const info = fach ? fachInfo(fach) : null;
