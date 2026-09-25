@@ -55,6 +55,40 @@ const reelKorrekturen = {
     2: ["Verliert Deutschland sein Besteuerungsrecht?", "Bei einer Zuordnung zur ausländischen Betriebsstätte kläre, ob Deutschland den späteren Veräußerungsgewinn noch besteuern darf."],
   },
 };
+// Die Schlussfolgerung beantwortet die Frage aus dem Einstieg. Ohne sie
+// würden mehrere Clips nach bloßen Vorfragen abbrechen.
+const reelAntworten = {
+  "2026-09-29": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland lösen die unbeschränkte Einkommensteuerpflicht aus. Prüfe für Auslandseinkünfte anschließend das DBA.",
+  "2026-09-30": "Der Methodenartikel des Ansässigkeitsstaats bestimmt, ob er die ausländischen Einkünfte freistellt oder die ausländische Steuer anrechnet.",
+  "2026-10-01": "§ 6 AStG behandelt die Anteile im Sinne des § 17 EStG bei einem Wegzugstatbestand grundsätzlich wie zum gemeinen Wert veräußert.",
+  "2026-10-02": "§ 7 AStG betrifft die Beteiligung an einer beherrschten ausländischen Gesellschaft. Auslandseinkünfte allein lösen die Hinzurechnung nicht aus; prüfe auch § 8 AStG.",
+  "2026-10-03": "Die 183 Tage allein entscheiden nicht: Prüfe auch Ansässigkeit des Arbeitgebers und ob eine Betriebsstätte im Tätigkeitsstaat die Vergütung trägt.",
+  "2026-10-04": "Das nationale Recht begründet den Steueranspruch. Erst danach begrenzt ein anwendbares DBA gegebenenfalls das deutsche Besteuerungsrecht.",
+  "2026-10-05": "Auch ohne deutschen Wohnsitz kommt § 1 Abs. 3 EStG auf Antrag in Betracht: 90 Prozent deutsche Besteuerung oder begrenzte Auslandseinkünfte prüfen.",
+  "2026-10-06": "Bei beschränkter Steuerpflicht gilt der Steuerabzug nach § 50 Abs. 2 EStG im Grundsatz als Abgeltung. Prüfe Ausnahmen und eine DBA-Entlastung.",
+  "2026-10-07": "Ein DBA kann die Freistellung oder Anrechnung vorgeben. Ohne DBA prüfe die Anrechnung der ausländischen Steuer nach § 34c EStG.",
+  "2026-10-08": "Die Entlastung erfolgt je nach Fall durch Freistellung vom Abzug oder Erstattung. Das Verfahren steht in § 50c EStG.",
+  "2026-10-09": "Bei einer Betriebsstätte nach Art. 5 DBA darf der Betriebsstättenstaat nach Art. 7 DBA den ihr zurechenbaren Gewinn besteuern.",
+  "2026-10-10": "Aufsichtsratsvergütungen können nach § 49 Abs. 1 Nr. 3 EStG inländische Einkünfte sein. Ein DBA kann das Recht gesondert zuweisen.",
+  "2026-10-11": "Der Steuerabzug auf Dividenden richtet sich nach § 43 EStG; wer einzubehalten und abzuführen hat, ergibt sich aus § 44 EStG.",
+  "2026-10-12": "Bei beschränkter Steuerpflicht bleiben insbesondere Aufwendungen mit wirtschaftlichem Zusammenhang zu inländischen Einkünften nach § 50 Abs. 1 EStG zu prüfen.",
+  "2026-10-13": "Erst wenn die Einkunftsart und das konkrete Inlandsmerkmal in § 49 EStG passen, sind die Einkünfte inländisch im Sinne der beschränkten Steuerpflicht.",
+  "2026-10-14": "Beherrschung nach § 7 AStG verlangt die maßgebliche Beteiligungsmehrheit; rechne unmittelbare und mittelbare Beteiligungen sowie nahestehende Personen ein.",
+  "2026-10-15": "Eine tatsächliche Ertragsteuerbelastung von 14,9 Prozent liegt unter der Schwelle von 15 Prozent in § 8 Abs. 5 AStG.",
+  "2026-10-16": "Bei § 2 AStG prüfe zusätzlich Niedrigbesteuerung und wesentliche wirtschaftliche Inlandsinteressen. Die erweiterte beschränkte Steuerpflicht reicht höchstens zehn Jahre.",
+  "2026-10-17": "Vor der Beurkundung besteht eine Vorgründungsgesellschaft. Die GmbH in Gründung ist davon zu trennen; die spätere Eintragung entscheidet über ihre Fortsetzung.",
+  "2026-10-18": "§ 10 Abs. 2 AStG schließt für den Hinzurechnungsbetrag die Begünstigung nach § 3 Nr. 40 EStG aus. Die Einordnung als Kapitaleinkünfte allein genügt nicht.",
+  "2026-10-19": "Verluste aus den Katalogfällen des § 2a EStG dürfen nur mit entsprechenden positiven Einkünften aus demselben Staat ausgeglichen werden.",
+  "2026-10-20": "Bei einem Dreiecksvorteil prüfe die Vorteilsbewegung über den Gesellschafter: bei der leistenden Gesellschaft vGA, beim Empfänger gegebenenfalls verdeckte Einlage.",
+  "2026-10-21": "Die Freigrenze des § 9 AStG verlangt beides: höchstens ein Drittel der gesamten Einkünfte und insgesamt höchstens 100.000 Euro.",
+  "2026-10-22": "Nur Aufwendungen, die den Gewinn gemindert haben, werden außerhalb der Bilanz hinzugerechnet, wenn ein Abzugsverbot wie § 10 KStG greift.",
+  "2026-10-23": "Die Gewinnminderung aus einem erfassten Anteil bleibt nach § 8b Abs. 3 KStG grundsätzlich außer Ansatz; prüfe die Sonderfälle der Norm.",
+  "2026-10-24": "Bei einem schädlichen Erwerb von mehr als 50 Prozent entfallen nicht genutzte Verluste nach § 8c KStG grundsätzlich; Ausnahmen gesondert prüfen.",
+  "2026-10-25": "Für die Organschaft muss ein wirksamer Gewinnabführungsvertrag mindestens fünf Jahre laufen und tatsächlich durchgeführt werden; prüfe auch die finanzielle Eingliederung.",
+  "2026-10-26": "Verliert Deutschland das Besteuerungsrecht am Gewinn aus der Veräußerung des Wirtschaftsguts, fingiert § 4 Abs. 1 Satz 3 EStG eine Entnahme.",
+  "2026-10-27": "Die Steuerbefreiung eines gemeinnützigen Vereins nach § 5 Abs. 1 Nr. 9 KStG erfasst einen steuerpflichtigen wirtschaftlichen Geschäftsbetrieb grundsätzlich nicht.",
+  "2026-10-28": "Ein Abzugsverbot wie § 10 KStG führt bei bereits gewinnminderndem Aufwand zur außerbilanziellen Hinzurechnung; dieselbe Position nicht doppelt korrigieren.",
+};
 const neuSatz = (s) => /[.!?]$/.test(s) ? s : s + ".";
 const sauber = (s) => String(s || "").replace(/\s+/g, " ").trim();
 const eigeneWorte = (s) => sauber(s)
@@ -124,7 +158,7 @@ for (const [datum, titel] of Object.entries(hooks)) {
         const ohneNummer = schritt.replace(/^\d+\.\s*/, "");
         szene.titel = ohneNummer.length > 105
           ? ohneNummer.split(/[;:] /)[0].slice(0, 102) : ohneNummer;
-        szene.sprecher = `Schritt ${n + 1}: ${neuSatz(schritt)}`;
+        szene.sprecher = `Schritt ${n + 1}: ${neuSatz(ohneNummer)}`;
         szene.marken = [sauber(szene.titel).slice(0, 48)];
       }
       for (const [nummer, [kurz, gesprochen]] of Object.entries(reelKorrekturen[datum] || {})) {
@@ -136,8 +170,10 @@ for (const [datum, titel] of Object.entries(hooks)) {
       // Generische Abschlussfolie durch die konkrete zweite Weiche ersetzen.
       const merke = s.find((x) => x.art === "merke");
       if (merke) {
-        merke.text = "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.";
-        merke.sprecher = "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.";
+        merke.titel = "Die Antwort";
+        merke.text = reelAntworten[datum];
+        merke.sprecher = reelAntworten[datum];
+        merke.marken = ["Die Antwort"];
       }
     }
     beitrag.manuellGeprueft = false;
