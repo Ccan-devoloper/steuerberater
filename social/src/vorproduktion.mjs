@@ -76,17 +76,23 @@ export function passendesCoverIcon(inhalt = {}) {
 export function coverIconEinsetzen(inhalt = {}) {
   const icon = passendesCoverIcon(inhalt);
   const titel = (inhalt.folien || []).find((f) => f?.art === "titel");
-  if (titel && !titel.bild) {
-    titel.icon = icon;
+  if (titel) {
+    if (!titel.bild) {
+      titel.icon = icon;
+      delete titel.bildQuelle;
+    }
+    /* Ein vorhandenes Bild darf nicht durch den alten Review-Schalter
+       unsichtbar bleiben; ohne Bild zeigt derselbe Schalter jetzt das Icon. */
     titel.coverBildAuslassen = false;
-    delete titel.bildQuelle;
   }
-  if (Array.isArray(inhalt.szenen) && !inhalt.bild) {
-    const erste = inhalt.szenen.find(Boolean);
-    if (erste) erste.icon = icon;
-    inhalt.icon = icon;
+  if (Array.isArray(inhalt.szenen)) {
+    if (!inhalt.bild) {
+      const erste = inhalt.szenen.find(Boolean);
+      if (erste) erste.icon = icon;
+      inhalt.icon = icon;
+      delete inhalt.bildQuelle;
+    }
     inhalt.coverBildAuslassen = false;
-    delete inhalt.bildQuelle;
   }
   return icon;
 }
