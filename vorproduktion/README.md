@@ -60,16 +60,18 @@ Die Mengen werden **nicht** aus Herrjurist kopiert. Es gilt immer der aktuelle E
 
 Lösungsskizzen am Prüfungsabend sind absichtlich nicht vorproduzierbar. Sie hängen von den tatsächlich berichteten Klausurthemen ab. Solche Slots werden als `wartet-auf-live-recherche` markiert und weder erfunden noch mit Platzhalter-Fachinhalt gerendert.
 
-## Live-Vorrang ab 25.09.2026
+## Live-Vorrang ab 26.09.2026
 
-Im stündlichen Instagram-Lauf gilt ein ausdrückliches Tages-Gate: Eine Review-Datei im Asset-Zweig allein reicht **nicht** für die Veröffentlichung und blockiert den Normalbetrieb nicht. Erst wenn der betreffende Tag mit `freigabeBetreiber: true` freigegeben ist und `liveRegel.veroeffentlichen` nicht auf `false` steht, übernimmt ausschließlich die Vorproduktion dieses Datums. Ohne diese Tagesfreigabe läuft die bisherige Normalpipeline weiter.
+Im stündlichen Instagram-Lauf gilt ein harter Kosten-Gate: **Existiert für das Datum eine Datei `vorproduktion/YYYY-MM-DD.json`, hat diese Vorproduktion immer Vorrang und der normale kostenpflichtige Content-Lauf wird vollständig übersprungen.** Das gilt auch für ältere Dateien, deren historische Review-Metadaten noch `freigabeBetreiber: false` oder `liveRegel.veroeffentlichen: false` enthalten.
+
+Nur wenn für den betreffenden Kalendertag **gar keine Vorproduktionsdatei** existiert, fällt der Lauf auf die normale Pipeline zurück. Ist eine vorhandene Vorproduktion noch nicht fertig gerendert, bleibt der Normalbetrieb ebenfalls pausiert; dadurch entstehen keine ersatzweisen API-Kosten.
 
 Live verwendet dabei nur die bereits vorproduzierten Texte, Stories und Reel-Videos. Fehlende Coverbilder werden lokal durch passende Icons ersetzt; vorhandene Bilder bleiben erhalten. Es werden keine Text-KI-, Faktencheck-, Bild-, Pexels- oder ElevenLabs-Aufrufe gestartet. Notwendig bleibt ausschließlich die Instagram Graph API zum eigentlichen Veröffentlichen; dafür fallen keine Providerkosten an.
 
 ## Kosten- und Freigaberegel
 
-Der Review-Lauf verweigert OpenAI-, Anthropic-, ElevenLabs- und Pexels-Secrets, deaktiviert Bild-KI/Charaktere und nutzt für Reels ausschließlich Piper offline. Neue Review-Tage starten weiterhin als Review. Eine fertige Vorproduktionsdatei ist deshalb nur **reviewbereit**, nicht automatisch live-freigegeben; die Freigabe muss ausdrücklich pro Tag gesetzt werden.
+Der Vorproduktionslauf verweigert OpenAI-, Anthropic-, ElevenLabs- und Pexels-Secrets, deaktiviert Bild-KI/Charaktere und nutzt für Reels ausschließlich Piper offline. Seit dem 26.09.2026 gilt: **Das Vorhandensein der Tagesdatei ist zugleich die Live-Vorrangentscheidung.** Neue Vorproduktionstage werden deshalb als `live-freigegeben` markiert; ein zusätzlicher Freigabeschalter ist für den Lauf nicht erforderlich.
 
 ## Stand der 30-Tage-Serie · 26.09.2026
 
-Der Zeitraum **29.09.–28.10.2026** ist vollständig vorbereitet und gerendert: 30 Tage, 90 Feed-Inhalte (60 Karussells + 30 Reels), 90 abgeleitete Feed-Teaser und 162 eigenständige Story-Slots. Die Prüfungstage 06.–08.10. enthalten planmäßig keine zusätzlichen eigenständigen Stories. Alle Renderings sind providerfrei erstellt und bleiben bis zur ausdrücklichen Betreiberfreigabe im Review-Status.
+Der Zeitraum **29.09.–28.10.2026** ist vollständig vorbereitet und gerendert: 30 Tage, 90 Feed-Inhalte (60 Karussells + 30 Reels), 90 abgeleitete Feed-Teaser und 162 eigenständige Story-Slots. Die Prüfungstage 06.–08.10. enthalten planmäßig keine zusätzlichen eigenständigen Stories. Alle Renderings sind providerfrei erstellt. Ab dem 26.09.2026 werden sie an ihrem jeweiligen Kalendertag automatisch bevorzugt veröffentlicht; der normale Lauf greift nur an Tagen ohne Vorproduktionsdatei.
