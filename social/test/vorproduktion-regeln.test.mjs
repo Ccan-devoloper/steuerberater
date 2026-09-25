@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 
 import { feedKategorie, FEED_KATEGORIEN } from "../src/feedfarben.mjs";
 import { fachInfo, themenpool } from "../src/inhalte.mjs";
-import { folieHtml, coverHtml, titelZeilen, MASSE } from "../src/vorlagen.mjs";
+import { folieHtml, coverHtml, titelZeilen, MASSE, fussRechts } from "../src/vorlagen.mjs";
 import { kontext } from "../src/render.mjs";
 import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen } from "../src/vorproduktion.mjs";
 
@@ -136,4 +136,24 @@ test("Reel-Cover nutzt die aktuelle HerrJurist-Safe-Area ohne Farbübernahme", (
   assert.match(html, /padding-top:150px;padding-bottom:130px/);
   assert.match(html, /margin:auto auto 0;width:460px;height:460px/);
   assert.equal(VORPRODUKTION_LAYOUT.farbenAusSchwesterkanalUebernehmen, false);
+});
+
+
+test("K0-Footer unterscheidet Kopfsache, Examensphase und Klausurtechnik", () => {
+  const mindset = kontext({ stil: "bunt", fach: "mindset", klausur: 0, fachLabel: "Kopfsache" });
+  assert.equal(mindset.fach, "mindset");
+  assert.equal(fussRechts(mindset), "Kopfsache");
+
+  const countdown = kontext({
+    stil: "bunt",
+    fach: null,
+    klausur: 0,
+    fachLabel: "Steuerberaterexamen",
+    footerLabel: "Examensphase",
+  });
+  assert.equal(countdown.footerLabel, "Examensphase");
+  assert.equal(fussRechts(countdown), "Examensphase");
+
+  const allgemein = kontext({ stil: "bunt", fach: null, klausur: 0, fachLabel: "Steuerberaterexamen" });
+  assert.equal(fussRechts(allgemein), "Klausurtechnik");
 });
