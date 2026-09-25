@@ -1,0 +1,88 @@
+name: QA · Finaler Pixelcheck 25–28 Sep 2026
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/tmp-final-pixel-qa.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instagram-Assets auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: instagram-assets
+          path: assets
+
+      - name: Pillow und ffmpeg
+        run: |
+          python3 -m pip install --quiet pillow
+          sudo apt-get update -qq >/dev/null
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+
+      - name: Kontaktbögen und Reel-Frames erzeugen
+        run: |
+          mkdir -p qa/reel-frames
+          for d in 2026-09-25 2026-09-26 2026-09-27 2026-09-28; do
+            mp4="assets/vorproduktion/$d/fertig/b2/$d-b2.mp4"
+            if [ -f "$mp4" ]; then
+              dur=$(ffprobe -v error -show_entries format=duration -of default=nw=1:nk=1 "$mp4")
+              for n in 1 2 3; do
+                t=$(python3 - <<PY
+d=float("$dur")
+n=$n
+print(max(0.1,d*n/4))
+PY
+)
+                ffmpeg -loglevel error -y -ss "$t" -i "$mp4" -frames:v 1 "qa/reel-frames/$d-reel-$n.jpg"
+              done
+            fi
+          done
+          python3 - <<'PY'
+from PIL import Image, ImageOps, ImageDraw
+from pathlib import Path
+
+OUT=Path("qa")
+OUT.mkdir(exist_ok=True)
+DATES=["2026-09-25","2026-09-26","2026-09-27","2026-09-28"]
+
+def fit(path, size=(270,420)):
+    im=Image.open(path).convert("RGB")
+    return ImageOps.contain(im,size)
+
+def sheet(paths, out, cols=4, thumb=(270,420)):
+    rows=(len(paths)+cols-1)//cols
+    canvas=Image.new("RGB",(cols*thumb[0],rows*(thumb[1]+36)),"white")
+    draw=ImageDraw.Draw(canvas)
+    for i,p in enumerate(paths):
+        im=fit(p,thumb)
+        x=(i%cols)*thumb[0] + (thumb[0]-im.width)//2
+        y=(i//cols)*(thumb[1]+36) + (thumb[1]-im.height)//2
+        canvas.paste(im,(x,y))
+        draw.text(((i%cols)*thumb[0]+6,(i//cols)*(thumb[1]+36)+thumb[1]+5),Path(p).name,fill="black")
+    canvas.save(out,quality=88)
+
+for d in DATES:
+    base=Path("assets/vorproduktion")/d/"fertig"
+    stills=[]
+    for sub in ["b1","b2","stories"]:
+        if not (base/sub).exists(): continue
+        stills += sorted((base/sub).glob("*.jpg"))
+    sheet(stills,OUT/f"{d}-all.jpg")
+    reel=sorted((OUT/"reel-frames").glob(f"{d}-reel-*.jpg"))
+    if reel:
+        sheet(reel,OUT/f"{d}-reel.jpg",cols=3,thumb=(360,640))
+PY
+
+      - name: QA-Bilder hochladen
+        uses: actions/upload-artifact@v4
+        with:
+          name: examenscampus-final-pixel-qa
+          path: qa/*.jpg
+          if-no-files-found: error
+          retention-days: 1
