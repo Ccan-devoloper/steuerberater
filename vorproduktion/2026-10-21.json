@@ -137,9 +137,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob die übertragenen Wirtschaftsgüter beim Realteiler zumindest teilweise in einem Betriebsvermögen fortgeführt werden."
+              "text": "Untersuchen, ob die übertragenen Wirtschaftsgüter beim Realteiler zumindest teilweise in einem Betriebsvermögen fortgeführt werden."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Realteilung kann auch beim Ausscheiden eines Partners vorliegen, wenn Wirtschaftsgüter in einem Betriebsvermögen fortgeführt werden."
         },
         {
           "art": "cta",
@@ -237,6 +242,11 @@
               "text": "Sachliche Steuerbefreiung nach § 13 ErbStG untersuchen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Hausrat und andere bewegliche Gegenstände getrennt erfassen; die Freibeträge des § 13 Abs. 1 Nr. 1 ErbStG hängen von der Steuerklasse ab."
         },
         {
           "art": "cta",
@@ -341,11 +351,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Die Freigrenze des § 9 AStG verlangt beides: höchstens ein Drittel der gesamten Einkünfte und insgesamt höchstens 100.000 Euro.",
+          "sprecher": "Die Freigrenze des § 9 AStG verlangt beides: höchstens ein Drittel der gesamten Einkünfte und insgesamt höchstens 100.000 Euro.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

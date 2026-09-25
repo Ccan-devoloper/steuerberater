@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Eine Ersatzbeschaffung muss am Bilanzstichtag ernstlich geplant und zu erwarten sein; Ursache des Ausscheidens und Frist gesondert prüfen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -225,13 +230,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob eine Erklärung als Einspruch oder als Antrag auf schlichte Änderung auszulegen ist; bei Unklarheit Reichweite und Rechtsschutzinteresse würdigen."
+              "text": "Untersuchen, ob eine Erklärung als Einspruch oder als Antrag auf schlichte Änderung auszulegen ist; bei Unklarheit Reichweite und Rechtsschutzinteresse würdigen."
             },
             {
               "titel": "2. Schritt",
               "text": "Beim schlichten Änderungsantrag Formfreiheit beachten; auch mündliche oder telefonische Anträge sind möglich und aktenkundig zu machen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Der Antrag auf schlichte Änderung richtet sich auf konkrete Punkte und kann formfrei gestellt werden. Beim Einspruch wird der Bescheid breiter überprüft."
         },
         {
           "art": "cta",
@@ -322,7 +332,7 @@
           "text": null,
           "norm": "§ 20 Abs. 1 Nr. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. § 20 EStG: Dividende qualifizieren.",
+          "sprecher": "Schritt 1: § 20 EStG: Dividende qualifizieren.",
           "marken": [
             "§ 20 EStG: Dividende qualifizieren."
           ]
@@ -334,7 +344,7 @@
           "text": null,
           "norm": "§ 49 Abs. 1 Nr. 5 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. § 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/Gesellschaft als Inlandsanknüpfung.",
+          "sprecher": "Schritt 2: § 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/Gesellschaft als Inlandsanknüpfung.",
           "marken": [
             "§ 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/G"
           ]
@@ -342,11 +352,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Der Steuerabzug auf Dividenden richtet sich nach § 43 EStG; wer einzubehalten und abzuführen hat, ergibt sich aus § 44 EStG.",
+          "sprecher": "Der Steuerabzug auf Dividenden richtet sich nach § 43 EStG; wer einzubehalten und abzuführen hat, ergibt sich aus § 44 EStG.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

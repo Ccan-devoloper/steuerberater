@@ -148,6 +148,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Für den Investitionsabzugsbetrag zählt die steuerliche Gewinngrenze von 200.000 Euro ohne den Abzug; Handelsbilanz und Sonderabschreibung getrennt halten."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -240,6 +245,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Wiedereinsetzung nach § 110 AO verlangt unverschuldete Fristversäumung, rechtzeitigen Antrag und die nachgeholte Handlung."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -321,7 +331,7 @@
           "text": null,
           "norm": "§ 1 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
+          "sprecher": "Schritt 1: Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
           "marken": [
             "Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland."
           ]
@@ -333,7 +343,7 @@
           "text": null,
           "norm": "§ 49 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
+          "sprecher": "Schritt 2: Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
           "marken": [
             "Inländische Einkünfte i.S.d. § 49 EStG vorhanden"
           ]
@@ -341,11 +351,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Auch ohne deutschen Wohnsitz kommt § 1 Abs. 3 EStG auf Antrag in Betracht: 90 Prozent deutsche Besteuerung oder begrenzte Auslandseinkünfte prüfen.",
+          "sprecher": "Auch ohne deutschen Wohnsitz kommt § 1 Abs. 3 EStG auf Antrag in Betracht: 90 Prozent deutsche Besteuerung oder begrenzte Auslandseinkünfte prüfen.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -585,7 +595,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:56:36.989Z",
     "pfad": "vorproduktion/2026-10-05/fertig",
     "providerKostenUsd": 0,

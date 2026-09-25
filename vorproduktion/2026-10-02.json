@@ -148,6 +148,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Handelsrechtlich ist beim Umlaufvermögen der niedrigere Stichtagswert maßgeblich. Steuerlich setzt der niedrigere Teilwert eine dauernde Wertminderung voraus."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -237,9 +242,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "separat untersuchen, ob der Bevollmächtigte zum Empfang von Verwaltungsakten ermächtigt ist; bloße Mitwirkung an der Steuererklärung genügt nicht."
+              "text": "Separat untersuchen, ob der Bevollmächtigte zum Empfang von Verwaltungsakten ermächtigt ist; bloße Mitwirkung an der Steuererklärung genügt nicht."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ob der Zugang beim Berater die Frist auslöst, hängt insbesondere von dessen Empfangsvollmacht und der Bekanntgabe nach § 122 AO ab."
         },
         {
           "art": "cta",
@@ -331,7 +341,7 @@
           "text": null,
           "norm": "§ 1 Abs. 1 S. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. § 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland.",
+          "sprecher": "Schritt 1: § 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland.",
           "marken": [
             "§ 1 Abs. 1 S. 1 EStG"
           ]
@@ -343,7 +353,7 @@
           "text": null,
           "norm": "§ 8 AO",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA.",
+          "sprecher": "Schritt 2: Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA.",
           "marken": [
             "Rechtsfolge: Welteinkommensprinzip nach § 2 Abs."
           ]
@@ -351,11 +361,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "§ 7 AStG betrifft die Beteiligung an einer beherrschten ausländischen Gesellschaft. Auslandseinkünfte allein lösen die Hinzurechnung nicht aus; prüfe auch § 8 AStG.",
+          "sprecher": "§ 7 AStG betrifft die Beteiligung an einer beherrschten ausländischen Gesellschaft. Auslandseinkünfte allein lösen die Hinzurechnung nicht aus; prüfe auch § 8 AStG.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -598,7 +608,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:53:59.828Z",
     "pfad": "vorproduktion/2026-10-02/fertig",
     "providerKostenUsd": 0,

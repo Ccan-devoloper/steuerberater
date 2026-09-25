@@ -137,9 +137,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob Anschaffung oder Herstellung innerhalb der letzten drei Jahre lag; falls ja, Einlagewert nach § 6 Abs. 1 Nr. 5 begrenzen."
+              "text": "Untersuchen, ob Anschaffung oder Herstellung innerhalb der letzten drei Jahre lag; falls ja, Einlagewert nach § 6 Abs. 1 Nr. 5 begrenzen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Einlagen sind grundsätzlich mit dem Teilwert zu bewerten. Bei Anschaffung innerhalb der letzten drei Jahre begrenzt § 6 Abs. 1 Nr. 5 EStG den Ansatz."
         },
         {
           "art": "cta",
@@ -230,13 +235,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "1. Wirksamen Steuerbescheid unter VdN feststellen."
+              "text": "Wirksamen Steuerbescheid unter VdN feststellen."
             },
             {
               "titel": "2. Schritt",
-              "text": "2. Bestand des VdN zum Änderungszeitpunkt untersuchen."
+              "text": "Bestand des VdN zum Änderungszeitpunkt untersuchen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Solange der Vorbehalt wirksam ist, kann der Bescheid nach § 164 Abs. 2 AO ohne besondere neue Tatsache geändert werden; Fristen bleiben zu prüfen."
         },
         {
           "art": "cta",
@@ -340,11 +350,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Vor der Beurkundung besteht eine Vorgründungsgesellschaft. Die GmbH in Gründung ist davon zu trennen; die spätere Eintragung entscheidet über ihre Fortsetzung.",
+          "sprecher": "Vor der Beurkundung besteht eine Vorgründungsgesellschaft. Die GmbH in Gründung ist davon zu trennen; die spätere Eintragung entscheidet über ihre Fortsetzung.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

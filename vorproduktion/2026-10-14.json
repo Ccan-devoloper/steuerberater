@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Eine gesellschaftlich veranlasste Vermögensminderung kann eine vGA sein. Soweit sie den Gewinn gesenkt hat, wird sie außerbilanziell korrigiert."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -233,6 +238,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Bei Nachlassschulden sind der Bezug zu steuerbefreitem Vermögen und die Kürzung nach § 10 Abs. 6a ErbStG gesondert zu prüfen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -313,7 +323,7 @@
           "text": null,
           "norm": "§ 7 Abs. 1 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
+          "sprecher": "Schritt 1: Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
           "marken": [
             "Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 E"
           ]
@@ -333,11 +343,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Beherrschung nach § 7 AStG verlangt die maßgebliche Beteiligungsmehrheit; rechne unmittelbare und mittelbare Beteiligungen sowie nahestehende Personen ein.",
+          "sprecher": "Beherrschung nach § 7 AStG verlangt die maßgebliche Beteiligungsmehrheit; rechne unmittelbare und mittelbare Beteiligungen sowie nahestehende Personen ein.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

@@ -148,6 +148,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Dient das Wirtschaftsgut dem Betrieb, kommt Sonderbetriebsvermögen I in Betracht; stärkt es die Beteiligung, prüfe Sonderbetriebsvermögen II."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -233,9 +238,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob die Außenprüfung direkt nach ihrem Beginn unterbrochen wurde; Gewicht und verwertbare Ergebnisse der bisherigen Prüfungshandlungen würdigen."
+              "text": "Untersuchen, ob die Außenprüfung direkt nach ihrem Beginn unterbrochen wurde; Gewicht und verwertbare Ergebnisse der bisherigen Prüfungshandlungen würdigen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Eine bloß angekündigte Prüfung hemmt die Frist nicht. Nach tatsächlichem Beginn kann eine sofortige längere Unterbrechung die Hemmung entfallen lassen."
         },
         {
           "art": "cta",
@@ -340,11 +350,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "§ 6 AStG behandelt die Anteile im Sinne des § 17 EStG bei einem Wegzugstatbestand grundsätzlich wie zum gemeinen Wert veräußert.",
+          "sprecher": "§ 6 AStG behandelt die Anteile im Sinne des § 17 EStG bei einem Wegzugstatbestand grundsätzlich wie zum gemeinen Wert veräußert.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -591,7 +601,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:52:52.262Z",
     "pfad": "vorproduktion/2026-10-01/fertig",
     "providerKostenUsd": 0,

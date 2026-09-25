@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "In der Bilanzklausur zuerst Zurechnung, dann Ansatz und Bewertung klären. Jede Buchung dem richtigen Buchungskreis zuweisen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -234,6 +239,11 @@
               "text": "① Jahreswert nach § 15 BewG ermitteln."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Bestimme den Jahreswert der Nutzung oder Leistung. Der passende Vervielfältiger richtet sich anschließend nach ihrer Dauer."
         },
         {
           "art": "cta",
@@ -340,11 +350,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Erst wenn die Einkunftsart und das konkrete Inlandsmerkmal in § 49 EStG passen, sind die Einkünfte inländisch im Sinne der beschränkten Steuerpflicht.",
+          "sprecher": "Erst wenn die Einkunftsart und das konkrete Inlandsmerkmal in § 49 EStG passen, sind die Einkünfte inländisch im Sinne der beschränkten Steuerpflicht.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

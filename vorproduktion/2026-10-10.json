@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Der Gewinn entsteht bei erfüllter Leistung und Übergang der wesentlichen Risiken, nicht erst mit Ausstellung der Rechnung."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -234,6 +239,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Nach Ablauf der regulären Frist braucht eine Änderung sowohl eine Ablaufhemmung (§ 171 AO) als auch eine Korrekturvorschrift."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -319,7 +329,7 @@
           "text": null,
           "norm": "§ 18 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
+          "sprecher": "Schritt 1: Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
           "marken": [
             "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG."
           ]
@@ -331,7 +341,7 @@
           "text": null,
           "norm": "§ 49 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
+          "sprecher": "Schritt 2: Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
           "marken": [
             "Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tä"
           ]
@@ -339,11 +349,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Aufsichtsratsvergütungen können nach § 49 Abs. 1 Nr. 3 EStG inländische Einkünfte sein. Ein DBA kann das Recht gesondert zuweisen.",
+          "sprecher": "Aufsichtsratsvergütungen können nach § 49 Abs. 1 Nr. 3 EStG inländische Einkünfte sein. Ein DBA kann das Recht gesondert zuweisen.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

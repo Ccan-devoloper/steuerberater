@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Erworbene eigene Anteile werden nach § 272 Abs. 1a HGB mit ihrem Nennbetrag offen vom gezeichneten Kapital abgesetzt."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -229,6 +234,11 @@
               "text": "Ist der VA rechtswidrig: § 130 AO (Rücknahme)."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "War der sonstige Verwaltungsakt schon bei Erlass rechtswidrig, prüfe § 130 AO. Für den rechtmäßigen Akt ist § 131 AO einschlägig."
         },
         {
           "art": "cta",
@@ -331,11 +341,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Die Gewinnminderung aus einem erfassten Anteil bleibt nach § 8b Abs. 3 KStG grundsätzlich außer Ansatz; prüfe die Sonderfälle der Norm.",
+          "sprecher": "Die Gewinnminderung aus einem erfassten Anteil bleibt nach § 8b Abs. 3 KStG grundsätzlich außer Ansatz; prüfe die Sonderfälle der Norm.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

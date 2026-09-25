@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Übersteigen Instandsetzungs- und Modernisierungskosten binnen drei Jahren 15 Prozent der Gebäude-AK, greift regelmäßig § 6 Abs. 1 Nr. 1a EStG."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -234,9 +239,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob ein Rechts- oder Tatsachenwürdigungsfehler ernstlich ausgeschlossen ist."
+              "text": "Untersuchen, ob ein Rechts- oder Tatsachenwürdigungsfehler ernstlich ausgeschlossen ist."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "§ 129 AO erfasst offenbare mechanische Versehen der Behörde, keine nachträgliche Neubewertung von Tatsachen oder Recht."
         },
         {
           "art": "cta",
@@ -320,7 +330,7 @@
           "text": null,
           "norm": "§ 10 Abs. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. § 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steuerpflichtigen Einkünfte sind der Hinzurechnungsbetrag.",
+          "sprecher": "Schritt 1: § 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steuerpflichtigen Einkünfte sind der Hinzurechnungsbetrag.",
           "marken": [
             "§ 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steue"
           ]
@@ -332,7 +342,7 @@
           "text": null,
           "norm": "§ 10 Abs. 2 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. § 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag gehört zu den Einkünften i.S.d. § 20 Abs. 1 Nr. 1 EStG.",
+          "sprecher": "Schritt 2: § 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag gehört zu den Einkünften i.S.d. § 20 Abs. 1 Nr. 1 EStG.",
           "marken": [
             "§ 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag "
           ]
@@ -340,11 +350,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "§ 10 Abs. 2 AStG schließt für den Hinzurechnungsbetrag die Begünstigung nach § 3 Nr. 40 EStG aus. Die Einordnung als Kapitaleinkünfte allein genügt nicht.",
+          "sprecher": "§ 10 Abs. 2 AStG schließt für den Hinzurechnungsbetrag die Begünstigung nach § 3 Nr. 40 EStG aus. Die Einordnung als Kapitaleinkünfte allein genügt nicht.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

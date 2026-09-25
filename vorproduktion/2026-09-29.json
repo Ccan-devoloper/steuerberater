@@ -148,6 +148,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Prüfe die betriebliche Nutzung der Maschine: Gesamthandseigentum allein macht sie noch nicht zum Betriebsvermögen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -238,6 +243,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Zuerst klären, welche Ablaufhemmung die Festsetzungsfrist offen hält. Erst danach die passende Korrekturvorschrift prüfen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -324,7 +334,7 @@
           "text": null,
           "norm": "§ 1 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Natürliche Person?",
+          "sprecher": "Schritt 1: Natürliche Person?",
           "marken": [
             "Natürliche Person?"
           ]
@@ -336,7 +346,7 @@
           "text": null,
           "norm": "§ 8 AO",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Aufenthalt (§ 9 AO)?",
+          "sprecher": "Schritt 2: Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Aufenthalt (§ 9 AO)?",
           "marken": [
             "Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Au"
           ]
@@ -344,11 +354,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland lösen die unbeschränkte Einkommensteuerpflicht aus. Prüfe für Auslandseinkünfte anschließend das DBA.",
+          "sprecher": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland lösen die unbeschränkte Einkommensteuerpflicht aus. Prüfe für Auslandseinkünfte anschließend das DBA.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -589,7 +599,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:48:45.446Z",
     "pfad": "vorproduktion/2026-09-29/fertig",
     "providerKostenUsd": 0,

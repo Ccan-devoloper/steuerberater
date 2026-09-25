@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ist ein Übertragungstatbestand des § 6 Abs. 5 EStG erfüllt, ordnet die Norm grundsätzlich die Fortführung des Buchwerts an."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -231,6 +236,11 @@
               "text": "Grundstücksart nach § 181 BewG bestimmen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Bei einem bebauten Grundstück bestimmt die Grundstücksart nach § 181 BewG, welche Methode nach § 182 BewG greift."
         },
         {
           "art": "cta",
@@ -333,11 +343,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Ein Abzugsverbot wie § 10 KStG führt bei bereits gewinnminderndem Aufwand zur außerbilanziellen Hinzurechnung; dieselbe Position nicht doppelt korrigieren.",
+          "sprecher": "Ein Abzugsverbot wie § 10 KStG führt bei bereits gewinnminderndem Aufwand zur außerbilanziellen Hinzurechnung; dieselbe Position nicht doppelt korrigieren.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

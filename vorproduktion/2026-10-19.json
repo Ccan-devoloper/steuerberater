@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Bei Fahrten zwischen Wohnung und Betriebsstätte die 0,03-Prozent-Berechnung und den Abzug der Entfernungspauschale getrennt ermitteln."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -230,6 +235,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ein niedrigerer gemeiner Wert verdrängt den Regelwert nur, wenn er nach § 198 BewG nachgewiesen ist."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -311,7 +321,7 @@
           "text": null,
           "norm": "§ 2a Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Drittstaatenbezug und negative Einkünfte feststellen.",
+          "sprecher": "Schritt 1: Drittstaatenbezug und negative Einkünfte feststellen.",
           "marken": [
             "Drittstaatenbezug und negative Einkünfte festste"
           ]
@@ -323,7 +333,7 @@
           "text": null,
           "norm": "§ 2a Abs. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
+          "sprecher": "Schritt 2: Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
           "marken": [
             "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG best"
           ]
@@ -331,11 +341,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Verluste aus § 2a EStG dürfen grundsätzlich nur mit Einkünften derselben Art aus demselben Staat verrechnet werden; beachte die Ausnahmen der Norm.",
+          "sprecher": "Verluste aus § 2a EStG dürfen grundsätzlich nur mit Einkünften derselben Art aus demselben Staat verrechnet werden; beachte die Ausnahmen der Norm.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

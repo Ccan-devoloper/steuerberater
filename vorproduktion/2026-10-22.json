@@ -137,9 +137,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "AK/HK netto ermitteln – die Vorsteuer bleibt nach § 9b Abs. 1 EStG außen vor."
+              "text": "AK/HK ermitteln: Nur abziehbare Vorsteuer nach § 9b Abs. 1 EStG herausrechnen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Sofortabzug und Sammelposten folgen verschiedenen Wertgrenzen. Für den Sammelposten gilt das Wahlrecht einheitlich im Wirtschaftsjahr."
         },
         {
           "art": "cta",
@@ -233,6 +238,11 @@
               "text": "§ 12 Abs. 3 ErbStG anwenden."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Der Grundbesitzwert wird nach §§ 151, 157 BewG gesondert festgestellt und nach § 12 Abs. 3 ErbStG für die Erbschaftsteuer übernommen."
         },
         {
           "art": "cta",
@@ -337,11 +347,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Nur Aufwendungen, die den Gewinn gemindert haben, werden außerhalb der Bilanz hinzugerechnet, wenn ein Abzugsverbot wie § 10 KStG greift.",
+          "sprecher": "Nur Aufwendungen, die den Gewinn gemindert haben, werden außerhalb der Bilanz hinzugerechnet, wenn ein Abzugsverbot wie § 10 KStG greift.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

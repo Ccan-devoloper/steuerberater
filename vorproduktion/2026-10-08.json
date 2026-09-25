@@ -112,6 +112,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Beim Anteilsverkauf einer Körperschaft prüfe § 8b Abs. 2 und 3 KStG; die 10-Prozent-Grenze betrifft dagegen Dividenden nach Abs. 4."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -207,6 +212,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ein Verwaltungsakt braucht Bekanntgabewillen und wirksame Bekanntgabe. Die bloße Kenntnisnahme ersetzt die Prüfung des Adressaten nicht."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -287,7 +297,7 @@
           "text": null,
           "norm": "§ 50b EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a).",
+          "sprecher": "Schritt 1: Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a).",
           "marken": [
             "Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff"
           ]
@@ -307,11 +317,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Die Entlastung erfolgt je nach Fall durch Freistellung vom Abzug oder Erstattung. Das Verfahren steht in § 50c EStG.",
+          "sprecher": "Die Entlastung erfolgt je nach Fall durch Freistellung vom Abzug oder Erstattung. Das Verfahren steht in § 50c EStG.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -419,7 +429,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:59:24.791Z",
     "pfad": "vorproduktion/2026-10-08/fertig",
     "providerKostenUsd": 0,

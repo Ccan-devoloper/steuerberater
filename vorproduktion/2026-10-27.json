@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ein PRAP entsteht bei Einnahmen vor dem Stichtag, soweit sie Ertrag für eine bestimmte Zeit danach sind (§ 250 Abs. 2 HGB)."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -230,6 +235,11 @@
               "text": "Wesentliche Grundlagen vorhanden?"
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Eine Geschäftsveräußerung im Ganzen setzt einen übertragbaren Betrieb oder Teilbetrieb voraus, den der Erwerber fortführt (§ 1 Abs. 1a UStG)."
         },
         {
           "art": "cta",
@@ -331,11 +341,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Die Steuerbefreiung eines gemeinnützigen Vereins nach § 5 Abs. 1 Nr. 9 KStG erfasst einen steuerpflichtigen wirtschaftlichen Geschäftsbetrieb grundsätzlich nicht.",
+          "sprecher": "Die Steuerbefreiung eines gemeinnützigen Vereins nach § 5 Abs. 1 Nr. 9 KStG erfasst einen steuerpflichtigen wirtschaftlichen Geschäftsbetrieb grundsätzlich nicht.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

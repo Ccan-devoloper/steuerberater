@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Der Nennbetrag erhöht das gezeichnete Kapital; ein darüber gezahltes Agio gehört in die Kapitalrücklage (§ 272 Abs. 2 Nr. 1 HGB)."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -232,6 +237,11 @@
               "text": "Bebaut? → Grundstücksart nach § 181 bestimmen und § 182 Methodenwahl anwenden."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Zuerst Grundstücksart nach § 181 BewG bestimmen. Danach weist § 182 BewG das Bewertungsverfahren zu."
         },
         {
           "art": "cta",
@@ -339,11 +349,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Für die Organschaft muss ein wirksamer Gewinnabführungsvertrag mindestens fünf Jahre laufen und tatsächlich durchgeführt werden; prüfe auch die finanzielle Eingliederung.",
+          "sprecher": "Für die Organschaft muss ein wirksamer Gewinnabführungsvertrag mindestens fünf Jahre laufen und tatsächlich durchgeführt werden; prüfe auch die finanzielle Eingliederung.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

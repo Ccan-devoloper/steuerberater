@@ -148,6 +148,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Eine verdeckte Einlage braucht einen bilanzierbaren Vermögensvorteil. Eine bloße Nutzung ohne Entgelt reicht dafür nicht."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -235,9 +240,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob eine Steuererklärung einzureichen ist."
+              "text": "Untersuchen, ob eine Steuererklärung einzureichen ist."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ermittle Steuerentstehung und Anlaufhemmung nach § 170 AO, dann Dauer und Endtag der Frist; zuletzt mögliche Ablaufhemmungen."
         },
         {
           "art": "cta",
@@ -322,7 +332,7 @@
           "text": null,
           "norm": "Art. 15 DBA",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
+          "sprecher": "Schritt 1: Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
           "marken": [
             "Ansässigkeitsstaat und Tätigkeitsstaat bestimmen"
           ]
@@ -334,7 +344,7 @@
           "text": null,
           "norm": "Art. 23 DBA",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
+          "sprecher": "Schritt 2: Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
           "marken": [
             "Art. 15 Grundsatz: Besteuerungsrecht des Tätigke"
           ]
@@ -342,11 +352,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Die 183 Tage allein entscheiden nicht: Prüfe auch Ansässigkeit des Arbeitgebers und ob eine Betriebsstätte im Tätigkeitsstaat die Vergütung trägt.",
+          "sprecher": "Die 183 Tage allein entscheiden nicht: Prüfe auch Ansässigkeit des Arbeitgebers und ob eine Betriebsstätte im Tätigkeitsstaat die Vergütung trägt.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -592,7 +602,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:54:53.713Z",
     "pfad": "vorproduktion/2026-10-03/fertig",
     "providerKostenUsd": 0,

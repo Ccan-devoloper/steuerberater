@@ -112,6 +112,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Beim Erwerb gegen Rente ist deren Barwert Teil der Anschaffungskosten. Den Bodenanteil getrennt behandeln, weil er nicht abgeschrieben wird."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -206,6 +211,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Fällt das berechnete Fristende auf einen Sonntag, verschiebt § 108 Abs. 3 AO es regelmäßig auf den nächsten Werktag."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -287,7 +297,7 @@
           "text": null,
           "norm": "§ 20 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. § 20 EStG – Kapitalertrag qualifizieren.",
+          "sprecher": "Schritt 1: § 20 EStG – Kapitalertrag qualifizieren.",
           "marken": [
             "§ 20 EStG – Kapitalertrag qualifizieren."
           ]
@@ -299,7 +309,7 @@
           "text": null,
           "norm": "§ 49 Abs. 1 Nr. 5 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. § 49 Abs. 1 Nr. 5 EStG – Inlandsbezug untersuchen.",
+          "sprecher": "Schritt 2: § 49 Abs. 1 Nr. 5 EStG – Inlandsbezug untersuchen.",
           "marken": [
             "§ 49 Abs. 1 Nr. 5 EStG – Inlandsbezug untersuche"
           ]
@@ -307,11 +317,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Bei beschränkter Steuerpflicht gilt der Steuerabzug nach § 50 Abs. 2 EStG im Grundsatz als Abgeltung. Prüfe Ausnahmen und eine DBA-Entlastung.",
+          "sprecher": "Bei beschränkter Steuerpflicht gilt der Steuerabzug nach § 50 Abs. 2 EStG im Grundsatz als Abgeltung. Prüfe Ausnahmen und eine DBA-Entlastung.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -421,7 +431,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:57:30.527Z",
     "pfad": "vorproduktion/2026-10-06/fertig",
     "providerKostenUsd": 0,

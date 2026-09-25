@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "§ 16 Abs. 4 EStG setzt für den Freibetrag unter anderem Alter oder dauernde Berufsunfähigkeit voraus. Die Fünftelregelung gesondert prüfen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -236,6 +241,11 @@
               "text": "Sonstige Bestandteile und Zubehör einbeziehen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Grund und Boden, Gebäude und weitere Bestandteile gehören zum Grundvermögen; Ausnahmen des § 176 BewG vor der Bewertung ausscheiden."
         },
         {
           "art": "cta",
@@ -339,11 +349,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Verliert Deutschland das Besteuerungsrecht am Gewinn aus der Veräußerung des Wirtschaftsguts, fingiert § 4 Abs. 1 Satz 3 EStG eine Entnahme.",
+          "sprecher": "Verliert Deutschland das Besteuerungsrecht am Gewinn aus der Veräußerung des Wirtschaftsguts, fingiert § 4 Abs. 1 Satz 3 EStG eine Entnahme.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

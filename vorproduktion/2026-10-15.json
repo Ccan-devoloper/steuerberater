@@ -142,6 +142,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Leistungen an Anteilseigner mindern zunächst den ausschüttbaren Gewinn. Erst der darüber hinausgehende Betrag kann das steuerliche Einlagekonto nutzen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -234,6 +239,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Nach Steuerklasse und Höhe des Erwerbs gilt die Tarifstufe des § 19 Abs. 1 ErbStG. An der Grenze den Härteausgleich des Absatzes 3 prüfen."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -312,7 +322,7 @@
           "text": null,
           "norm": "§ 8 Abs. 5 S. 1 AStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Einkünfte der ausländischen Gesellschaft nach § 10 Abs. 3 AStG nach deutschem Steuerrecht ermitteln.",
+          "sprecher": "Schritt 1: Einkünfte der ausländischen Gesellschaft nach § 10 Abs. 3 AStG nach deutschem Steuerrecht ermitteln.",
           "marken": [
             "Einkünfte der ausländischen Gesellschaft nach § "
           ]
@@ -324,7 +334,7 @@
           "text": null,
           "norm": "§ 8 Abs. 5 S. 2 AStG",
           "icon": null,
-          "sprecher": "Schritt 2: 2. Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
+          "sprecher": "Schritt 2: Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
           "marken": [
             "Tatsächliche Ertragsteuerbelastung dieser Einkün"
           ]
@@ -332,11 +342,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Eine tatsächliche Ertragsteuerbelastung von 14,9 Prozent liegt unter der Schwelle von 15 Prozent in § 8 Abs. 5 AStG.",
+          "sprecher": "Eine tatsächliche Ertragsteuerbelastung von 14,9 Prozent liegt unter der Schwelle von 15 Prozent in § 8 Abs. 5 AStG.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

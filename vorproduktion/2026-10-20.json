@@ -137,9 +137,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Bruttotauschwert durch 1,19 teilen."
+              "text": "Bei 19 % Umsatzsteuer Bruttotauschwert durch 1,19 teilen; den zutreffenden Steuersatz im Fall prüfen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Beim Tausch zählt auch der Wert des hingegebenen Gegenstands zur Gegenleistung. Die Umsatzsteuer und einen Zuschuss getrennt behandeln."
         },
         {
           "art": "cta",
@@ -227,13 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob ein hinreichend bestimmtes Auskunftsersuchen nach § 93 AO vorliegt und welche Person in Anspruch genommen wird."
+              "text": "Untersuchen, ob ein hinreichend bestimmtes Auskunftsersuchen nach § 93 AO vorliegt und welche Person in Anspruch genommen wird."
             },
             {
               "titel": "2. Schritt",
               "text": "Bei einem Dritten § 93 Abs. 1 S. 3 AO untersuchen; bei Sammelauskunftsersuchen § 93 Abs. 1a separat anwenden."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Vor einem Auskunftsersuchen an Dritte ist grundsätzlich zu prüfen, ob die Befragung des Steuerpflichtigen genügt (§ 93 Abs. 1 Satz 3 AO)."
         },
         {
           "art": "cta",
@@ -345,11 +355,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Bei einem Dreiecksvorteil prüfe die Vorteilsbewegung über den Gesellschafter: bei der leistenden Gesellschaft vGA, beim Empfänger gegebenenfalls verdeckte Einlage.",
+          "sprecher": "Bei einem Dreiecksvorteil prüfe die Vorteilsbewegung über den Gesellschafter: bei der leistenden Gesellschaft vGA, beim Empfänger gegebenenfalls verdeckte Einlage.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

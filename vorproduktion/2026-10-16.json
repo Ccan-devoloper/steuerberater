@@ -115,7 +115,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Grabpflege: Welcher Vervielfältiger passt?",
+          "titel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -137,9 +137,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Beruht sie auf Dienst, Darlehen oder Überlassung?"
+              "text": "Miete als Sonderbetriebseinnahme des Mitunternehmers und Aufwand der Gesamthand erfassen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Die Miete ist beim Mitunternehmer Sonderbetriebseinnahme und bei der Gesellschaft Aufwand. Gesamthand und Sonderbereich sind abzustimmen."
         },
         {
           "art": "cta",
@@ -156,14 +161,14 @@
           ]
         }
       ],
-      "caption": "Grabpflege: Welcher Vervielfältiger passt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Mitunternehmer erhält Miete: Wo wird sie erfasst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Grabpflege: Welcher Vervielfältiger passt?",
+      "kurztitel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -203,7 +208,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
+          "titel": "Grabpflege: Welcher Vervielfältiger passt?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -225,9 +230,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Immerwährende Dauer → Jahreswert × 18,6."
+              "text": "Immerwährende Dauer: Jahreswert × 18,6; unbestimmte Dauer: Jahreswert × 9,3 (§ 13 Abs. 2 BewG)."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Bei immerwährenden Leistungen gilt das 18,6fache des Jahreswerts, bei unbestimmter Dauer grundsätzlich das 9,3fache (§ 13 Abs. 2 BewG)."
         },
         {
           "art": "cta",
@@ -244,14 +254,14 @@
           ]
         }
       ],
-      "caption": "Mitunternehmer erhält Miete: Wo wird sie erfasst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Grabpflege: Welcher Vervielfältiger passt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
+      "kurztitel": "Grabpflege: Welcher Vervielfältiger passt?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -329,11 +339,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Bei § 2 AStG prüfe zusätzlich Niedrigbesteuerung und wesentliche wirtschaftliche Inlandsinteressen. Die erweiterte beschränkte Steuerpflicht reicht höchstens zehn Jahre.",
+          "sprecher": "Bei § 2 AStG prüfe zusätzlich Niedrigbesteuerung und wesentliche wirtschaftliche Inlandsinteressen. Die erweiterte beschränkte Steuerpflicht reicht höchstens zehn Jahre.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {

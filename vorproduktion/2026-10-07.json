@@ -112,6 +112,11 @@
           ]
         },
         {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Stelle tatsächliche und richtige Buchung gegenüber. Die Differenz bestimmt die Korrekturbuchung und ihre Gewinnauswirkung."
+        },
+        {
           "art": "cta",
           "titel": "Für die nächste Klausur",
           "punkte": [
@@ -194,13 +199,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "1. Schreib-/Rechenfehler des Stpfl./Beraters."
+              "text": "Schreib-/Rechenfehler des Stpfl./Beraters."
             },
             {
               "titel": "2. Schritt",
-              "text": "2. bei Erstellung der StErkl., inkl. Excel-Tabellen."
+              "text": "Bei Erstellung der StErkl., inkl. Excel-Tabellen."
             }
           ]
+        },
+        {
+          "art": "merke",
+          "titel": "Die Antwort",
+          "text": "Ein mechanischer Fehler des Steuerpflichtigen bei der Erklärung führt zu § 173a AO; bei einem Versehen des Amts prüfe § 129 AO."
         },
         {
           "art": "cta",
@@ -284,7 +294,7 @@
           "text": null,
           "norm": "§ 34c Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: 1. Unbeschränkte Steuerpflicht und ausländische Einkünfte feststellen.",
+          "sprecher": "Schritt 1: Unbeschränkte Steuerpflicht und ausländische Einkünfte feststellen.",
           "marken": [
             "Unbeschränkte Steuerpflicht und ausländische Ein"
           ]
@@ -304,11 +314,11 @@
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
-          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "titel": "Die Antwort",
+          "text": "Ein DBA kann die Freistellung oder Anrechnung vorgeben. Ohne DBA prüfe die Anrechnung der ausländischen Steuer nach § 34c EStG.",
+          "sprecher": "Ein DBA kann die Freistellung oder Anrechnung vorgeben. Ohne DBA prüfe die Anrechnung der ausländischen Steuer nach § 34c EStG.",
           "marken": [
-            "Merksatz"
+            "Die Antwort"
           ]
         },
         {
@@ -415,7 +425,7 @@
     }
   },
   "renderVorschau": {
-    "status": "fertig",
+    "status": "ausstehend",
     "erzeugtAm": "2026-09-25T21:58:27.433Z",
     "pfad": "vorproduktion/2026-10-07/fertig",
     "providerKostenUsd": 0,
