@@ -117,10 +117,10 @@ function dreiFeedTag() {
       stories: [],
     },
     inhalte: {
-      b1: { format: "spickzettel", fach: "bilanz", klausur: 3, folien: [{ art: "titel", titel: "Bilanz" }] },
-      b2: { format: "schema", fach: "ao", klausur: 1, folien: [{ art: "titel", titel: "AO" }] },
+      b1: { format: "spickzettel", fach: "bilanz", klausur: 3, rendern: false, folien: [{ art: "titel", titel: "Bilanz" }] },
+      b2: { format: "schema", fach: "ao", klausur: 1, rendern: false, folien: [{ art: "titel", titel: "AO" }] },
       b3: {
-        format: "reel", fach: "istr", klausur: 2,
+        format: "reel", fach: "istr", klausur: 2, rendern: false,
         szenen: [{ art: "hook", titel: "IStR", text: "Normbezug klären.", sprecher: "Normbezug klären." }],
       },
     },
@@ -138,7 +138,7 @@ test("Drei-Feed-Vorproduktion erzwingt K3 → K1 → K2, zwei Karussells und ein
   const zweiReels = structuredClone(dreiFeedTag());
   zweiReels.plan.beitraege[1].format = "reel";
   zweiReels.inhalte.b2 = {
-    format: "reel", fach: "ao", klausur: 1,
+    format: "reel", fach: "ao", klausur: 1, rendern: false,
     szenen: [{ art: "hook", titel: "AO", text: "Frist prüfen.", sprecher: "Frist prüfen." }],
   };
   assert.throws(() => examenscampusRegelnPruefen(zweiReels), /genau 1 Reel/);
