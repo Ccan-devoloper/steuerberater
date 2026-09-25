@@ -107,7 +107,13 @@
           "art": "titel",
           "titel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer",
           "coverBadge": "Klausurtechnik",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": true,
+          "titelZeilen": [
+            "Vorsteuerabzug",
+            "§ 14c: gesetzliche",
+            "Steuer statt bloß",
+            "ausgewiesener Steuer"
+          ]
         },
         {
           "art": "text",
@@ -364,7 +370,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": ""
+      "text": "Der verrechenbare Verlust wird gesondert festgestellt und kann nach § 15a Abs. 2 EStG nur mit künftigen Gewinnen aus derselben Beteiligung verrechnet werden."
     },
     "s5": {
       "slot": "s5",
@@ -484,8 +490,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Rechenweg",
       "titel": "Lineare AfA pro rata temporis",
-      "formel": "Lineare AfA pro rata temporis",
-      "text": ""
+      "formel": "Jahres-AfA × Nutzungsmonate / 12",
+      "text": "Im Anschaffungsjahr wird zeitanteilig abgeschrieben; der Anschaffungsmonat zählt voll (§ 7 Abs. 1 S. 4 EStG)."
     }
   },
   "renderVorschau": {
