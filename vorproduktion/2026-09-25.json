@@ -1,0 +1,503 @@
+{
+  "datum": "2026-09-25",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "ust-modul-ust-164",
+        "themaTitel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "12:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr2-02",
+        "themaTitel": "Inländische Einkünfte nach § 49 EStG",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s3",
+        "zeit": "07:15",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-25"
+      },
+      {
+        "slot": "s4",
+        "zeit": "07:15",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-25"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s5",
+        "zeit": "11:15",
+        "art": "norm",
+        "themaId": "bilanz-modul-k3-6"
+      },
+      {
+        "slot": "s2",
+        "zeit": "12:00",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "13:18",
+        "art": "countdown",
+        "tageBisExamen": 11
+      },
+      {
+        "slot": "s7",
+        "zeit": "15:31",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-326"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:26",
+        "art": "zahl",
+        "themaId": "ao-modul-ao-351"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:46",
+        "art": "formel",
+        "themaId": "bilanz-formel-afa-zeitanteilig"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-164",
+      "slug": "2026-09-25-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer",
+          "coverBadge": "Klausurtechnik",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Voraussetzungen des Vorsteuerabzugs nach § 15 Abs. 1 S. 1 Nr. 1 UStG prüfen",
+            "gesetzlich geschuldete Umsatzsteuer von einer bloßen §-14c-Steuerschuld unterscheiden",
+            "unrichtigen und unberechtigten Steuerausweis nach § 14c Abs. 1 und 2 abgrenzen",
+            "Endverbraucher-Ausnahme des § 14c Abs. 1 nach EuGH C-794/23 und BFH V R 46/25 berücksichtigen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Leistung eines anderen Unternehmers für das Unternehmen feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Gesetzlich geschuldete Steuer für die konkrete Lieferung oder sonstige Leistung bestimmen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Rechnung nach §§ 14, 14a UStG und Besitz der Rechnung prüfen."
+            },
+            {
+              "titel": "4. Schritt",
+              "text": "Bei Vorauszahlungen zusätzlich Zahlung vor Leistungsausführung prüfen."
+            },
+            {
+              "titel": "5. Schritt",
+              "text": "Bei problematischem Steuerausweis § 14c gesondert prüfen. Ein nur nach § 14c geschuldeter Betrag ist keine abziehbare Vorsteuer."
+            }
+          ]
+        },
+        {
+          "art": "text",
+          "titel": "Typischer Fehler",
+          "punkte": [
+            "Jeden gesondert ausgewiesenen Steuerbetrag ungeprüft als Vorsteuer abziehen.",
+            "§ 14c Abs. 1 und Abs. 2 vertauschen.",
+            "Bei Vorauszahlungen nur auf die Rechnung schauen und die Zahlung übersehen."
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Vorsteuer verlangt gesetzlich geschuldete Steuer. § 14c schafft keinen Vorsteuerabzug; bei § 14c Abs. 1 ist seit BFH V R 46/25 zusätzlich die Endverbraucher-Ausnahme zu beachten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer Voraussetzungen des Vorsteuerabzugs nach § 15 Abs. 1 S. 1 Nr. 1 UStG prüfen gesetzlich geschuldete Umsatzsteuer von einer bloßen §-14c-Steuerschuld unterscheiden unrichtigen und unberechtigten Steuerausweis nach § 14c Abs. 1 und 2 abgrenzen Leistung eines anderen Unternehmers für das Unternehmen feststellen.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "kurztitel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete…",
+      "coverBadge": "Klausurtechnik",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 Nr. 1 UStG",
+        "§ 14 UStG",
+        "§ 14a UStG",
+        "§ 14c Abs. 1 UStG",
+        "§ 14c Abs. 2 UStG",
+        "A 14c.1 UStAE",
+        "§§ 14, 14a, 14c UStG",
+        "§ 15 Abs. 1 S. 1 Nr. 1 UStG",
+        "§ 14c Abs. 1 und 2 UStG",
+        "EuGH 01.08.2025 – C-794/23",
+        "BFH 26.03.2026 – V R 46/25",
+        "Themenpool: ust-modul-ust-164"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-02",
+      "slug": "2026-09-25-b2",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Inländische Einkünfte nach § 49 EStG",
+          "unter": "Internationales Steuerrecht",
+          "text": "Bei § 1 Abs. 4 EStG nie bei der Einkunftsart stehen bleiben, sondern den passenden Inlandsanknüpfungstatbestand des §…",
+          "norm": "§ 49 Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Inländische Einkünfte nach § 49 EStG. Bei § 1 Abs. 4 EStG nie bei der Einkunftsart stehen bleiben, sondern den passenden Inlandsanknüpfungstatbestand des § 49 EStG prüfen.",
+          "marken": [
+            "Bei § 1 Abs. 4 EStG nie bei der Einkunftsart…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "1. Einkunftsart nach §§ 13–24 EStG bestimmen.",
+          "text": "Bei § 1 Abs. 4 EStG nie bei der Einkunftsart stehen bleiben, sondern den passenden Inlandsanknüpfungstatbestand des §…",
+          "norm": "§ 49 Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Einkunftsart nach §§ 13–24 EStG bestimmen..",
+          "marken": [
+            "1. Einkunftsart nach §§ 13–24 EStG…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "2. Passende Nummer des § 49 Abs. 1 EStG suchen und deren…",
+          "text": "Kapitalvermögen, Gewerbebetrieb, Veräußerungsgewinne und Vermietung den in der Einheit behandelten…",
+          "norm": "§ 20 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. Passende Nummer des § 49 Abs. 1 EStG suchen und deren Inlandsmerkmal prüfen..",
+          "marken": [
+            "2. Passende Nummer des § 49 Abs. 1 EStG…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 3,
+          "titel": "3. Erst danach Erhebungsform (§ 50 / Quellensteuer /…",
+          "text": "Die nationalen Tatbestände von der anschließenden DBA-Beschränkung trennen.",
+          "norm": "§ 17 EStG",
+          "icon": null,
+          "sprecher": "Schritt 3: 3. Erst danach Erhebungsform (§ 50 / Quellensteuer / Veranlagung) klären..",
+          "marken": [
+            "3. Erst danach Erhebungsform (§ 50 /…"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 4,
+          "titel": "4. DBA als zweite Ebene prüfen: Das DBA erweitert den…",
+          "text": "§ 49 EStG ist das Bindeglied zwischen beschränkter Steuerpflicht und der konkreten deutschen Einkunftsquelle.",
+          "norm": "§ 21 EStG",
+          "icon": null,
+          "sprecher": "Schritt 4: 4. DBA als zweite Ebene prüfen: Das DBA erweitert den deutschen Besteuerungsanspruch nicht, sondern verteilt/beschränkt ihn..",
+          "marken": [
+            "4. DBA als zweite Ebene prüfen: Das DBA…"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "§ 49 EStG beantwortet nicht, ob die Einkünfte existieren, sondern ob Deutschland bei beschränkter Steuerpflicht einen…",
+          "sprecher": "Merke dir: § 49 EStG beantwortet nicht, ob die Einkünfte existieren, sondern ob Deutschland bei beschränkter Steuerpflicht einen Inlandsanknüpfungspunkt hat.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "In der Klausur sauber trennen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
+          "sprecher": "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Inländische Einkünfte nach § 49 EStG Bei § 1 Abs. 4 EStG nie bei der Einkunftsart stehen bleiben, sondern den passenden Inlandsanknüpfungstatbestand des § 49 EStG prüfen. Kapitalvermögen, Gewerbebetrieb, Veräußerungsgewinne und Vermietung den in der Einheit behandelten Anknüpfungsmerkmalen zuordnen. Die nationalen Tatbestände von der anschließenden DBA-Beschränkung trennen.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Inländische Einkünfte nach § 49 EStG",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 49 Abs. 1 EStG",
+        "§ 20 EStG",
+        "§ 17 EStG",
+        "§ 21 EStG",
+        "§ 15 EStG",
+        "Themenpool: istr-modul-istr-istr2-02"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-25",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-25"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Was geschieht mit einem verrechenbaren Verlust nach § 15a Abs. 2 EStG?"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-25",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-25"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": ""
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-6",
+      "quellen": [
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 249 Abs. 1 S. 2 Nr. 1 HGB",
+        "§ 249 Abs. 2 S. 1 HGB",
+        "R 5.7 Abs. 2 Nr. 1–4 EStR",
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 5 Abs. 4b EStG",
+        "§ 6 Abs. 1 Nr. 3a EStG",
+        "§ 249 HGB",
+        "§ 5 Abs. 4a–4b EStG",
+        "Themenpool: bilanz-modul-k3-6"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 249 Abs. 1 S. 1 HGB",
+      "titel": "Rückstellungen",
+      "text": "Ansatzvoraussetzungen in fester Reihenfolge prüfen Innen- und Außenverpflichtung unterscheiden"
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "11",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-326",
+      "quellen": [
+        "§ 367 Abs. 1 AO",
+        "§ 367 Abs. 2 S. 3 AO",
+        "§ 366 AO",
+        "Themenpool: ao-modul-ao-326"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Erledigung des Einspruchs: Abhilfebescheid, teilweise Abhilfe, Zurückweisung und Verböserung",
+      "text": "Ist der Einspruch zu 100 % begründet: Abhilfebescheid."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "zahl",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-351",
+      "quellen": [
+        "§ 181 Abs. 5 AO",
+        "§ 182 Abs. 1 S. 1 AO",
+        "§ 171 Abs. 10 S. 1 AO",
+        "§ 182 Abs. 1 AO",
+        "Themenpool: ao-modul-ao-351"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "5 Punkte",
+      "zahl": "5",
+      "titel": "Feststellungsbescheid: Bindungswirkung und Sonderfall § 181 Abs. 5 AO",
+      "text": "Diese Punkte tragen die sichtbare Prüfungsstruktur."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "formel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-formel-afa-zeitanteilig",
+      "quellen": [
+        "§ 7 Abs. 1 S. 1, 2, 4 EStG",
+        "Themenpool: bilanz-formel-afa-zeitanteilig"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Rechenweg",
+      "titel": "Lineare AfA pro rata temporis",
+      "formel": "Lineare AfA pro rata temporis",
+      "text": ""
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}
