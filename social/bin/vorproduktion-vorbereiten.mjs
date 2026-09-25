@@ -687,6 +687,81 @@ function livePlatzhalter(datum, slot, b) {
   };
 }
 
+const STORY_TYPEN = Object.freeze({
+  frage: ["quiz", "karteikarte"],
+  antwort: ["quiz", "karteikarte"],
+  norm: ["modul", "begriff"],
+  merksatz: ["modul"],
+  formel: ["formel"],
+  begriff: ["begriff", "karteikarte"],
+  fehler: ["modul"],
+  tipp: ["modul"],
+  zahl: ["formel", "modul"],
+});
+
+function storyPublikationssicher(datum, planStory, thema, used, ersatzNachOriginal) {
+  if (planStory.art === "countdown") return story(datum, planStory, null, new Set(used));
+  const originalId = thema?.id || planStory.thema?.id || null;
+  if (originalId && ersatzNachOriginal.has(originalId)) {
+    thema = byId.get(ersatzNachOriginal.get(originalId)) || thema;
+  }
+
+  const typen = STORY_TYPEN[planStory.art] || null;
+  const gesperrt = new Set(used);
+  if (thema?.id) gesperrt.add(thema.id);
+  let letzterCheck = null;
+
+  for (let versuch = 0; versuch <= 24; versuch++) {
+    let kandidat = versuch === 0 ? thema : null;
+    if (!kandidat) {
+      try {
+        kandidat = pick(datum, {
+          art: "story",
+          types: typen,
+          used: gesperrt,
+          seed: "story-publikationssicher-" + planStory.slot + "-" + versuch,
+        });
+      } catch {
+        break;
+      }
+    }
+    if (!kandidat) continue;
+    gesperrt.add(kandidat.id);
+
+    const testUsed = new Set(used);
+    const probePlan = { ...planStory };
+    const inhalt = story(datum, probePlan, kandidat, testUsed);
+    letzterCheck = pruefeBeitrag({ stories: [inhalt] });
+
+    /* Bei Quiz wird das Paar gemeinsam freigegeben. Sonst könnte eine sichere
+       Frage später mit einer quellennahen Auflösung desselben Themas enden. */
+    if (letzterCheck.ok && planStory.art === "frage") {
+      const antwort = story(datum, { ...planStory, art: "antwort" }, kandidat, new Set(used));
+      const antwortCheck = pruefeBeitrag({ stories: [antwort] });
+      if (!antwortCheck.ok) letzterCheck = antwortCheck;
+    }
+
+    if (letzterCheck.ok) {
+      used.add(kandidat.id);
+      planStory.thema = kandidat;
+      planStory.art = probePlan.art;
+      if (originalId) ersatzNachOriginal.set(originalId, kandidat.id);
+      if (versuch > 0) {
+        console.warn(
+          "  ! " + datum + " " + planStory.slot + ": quellennahes Story-Thema "
+          + (originalId || "ohne-id") + " durch " + kandidat.id + " ersetzt."
+        );
+      }
+      return inhalt;
+    }
+  }
+
+  throw new Error(
+    datum + " " + planStory.slot + ": keine providerfrei publikationssichere Story. Letzter Befund: "
+    + (letzterCheck?.fehler || ["unbekannt"]).join(" | ")
+  );
+}
+
 function feedInhaltBauen(datum, b) {
   if (b.format === "reel") return reel(datum, b.slot, b.thema);
   return carousel(datum, b.slot, b.format, b.thema);
@@ -813,13 +888,14 @@ for (const datum of dates) {
   }
 
   const storyUsed = new Set(used);
+  const storyErsatz = new Map();
   for (const s of p.stories || []) {
     if (s.beitragSlot) continue;
     let thema = s.thema || null;
     if (!thema && s.art !== "countdown") {
-      thema = pick(datum, { art: "story", used: storyUsed, seed: s.slot });
+      thema = pick(datum, { art: "story", types: STORY_TYPEN[s.art] || null, used: storyUsed, seed: s.slot });
     }
-    inhalte[s.slot] = story(datum, s, thema, storyUsed);
+    inhalte[s.slot] = storyPublikationssicher(datum, s, thema, storyUsed, storyErsatz);
   }
 
   const plan = {
