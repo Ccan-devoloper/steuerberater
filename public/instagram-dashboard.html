@@ -215,6 +215,11 @@
     .story-media.missing img{display:none}
     .story-media.missing:after{content:"Bild noch nicht gerendert";position:absolute;inset:0;display:grid;place-items:center;color:#8a93a8;font-size:10px;padding:12px;text-align:center}
     .story-time{position:absolute;top:7px;left:7px;z-index:2;border-radius:999px;padding:3px 7px;background:rgba(12,12,12,.66);color:#fff;font-size:10px;font-weight:800;backdrop-filter:blur(4px)}
+    button.story-time{border:0;cursor:pointer;font-family:inherit;display:inline-flex;align-items:center;gap:4px}
+    button.story-time:hover{background:rgba(12,12,12,.88)}
+    .zeit-stift{font-size:9px;opacity:.75}
+    .zeit-btn{border:0;background:none;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer;text-decoration:underline dotted;text-underline-offset:2px}
+    .zeit-btn:hover{color:var(--text)}
     .story-info{padding:7px 9px 9px}
     .story-info b{display:block;font-size:11px}
     .story-info span{display:block;color:var(--muted);font-size:9px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top:1px}
@@ -748,6 +753,21 @@
         </footer>
       </main>
     </div>
+  </div>
+  <div class="token-backdrop" id="zeitModal" hidden>
+    <form class="auth-card" id="zeitForm">
+      <div class="eyebrow">Vorproduktion · Veröffentlichungszeit</div>
+      <h2 style="font-size:21px" id="zeitTitel">Uhrzeit ändern</h2>
+      <p style="font-size:12px" id="zeitHinweis"></p>
+      <div class="auth-row">
+        <input class="auth-input" id="zeitInput" type="time" required aria-label="Uhrzeit (Europe/Berlin)" />
+        <button class="btn" type="submit" id="zeitSubmit">Übernehmen</button>
+      </div>
+      <div class="auth-error" id="zeitError" aria-live="polite"></div>
+      <div class="inline-actions" style="margin-top:8px">
+        <button class="btn" type="button" id="zeitCancel">Abbrechen</button>
+      </div>
+    </form>
   </div>
   <div class="token-backdrop" id="tokenModal" hidden>
     <form class="auth-card" id="tokenForm">
@@ -1373,7 +1393,7 @@
       }).join("")+'</div>';
     }
     return '<article class="ig-post">'+
-      '<div class="ig-post-head"><div class="ig-avatar">'+esc(a.avatar||"IG")+'</div><div class="ig-post-user"><b>'+esc(a.igUser||a.sub||a.name||"Instagram")+'</b><span>Vorproduktion · '+esc(preproductionDayLabel(date))+' · '+esc(planItem.zeit||"ohne Zeit")+' · '+esc(content.fachLabel||planItem.fach||"")+'</span></div><div class="ig-more">•••</div></div>'+
+      '<div class="ig-post-head"><div class="ig-avatar">'+esc(a.avatar||"IG")+'</div><div class="ig-post-user"><b>'+esc(a.igUser||a.sub||a.name||"Instagram")+'</b><span>Vorproduktion · '+esc(preproductionDayLabel(date))+' · <button type="button" class="zeit-btn" data-zeit-edit="beitrag:'+esc(slot)+'" title="Veröffentlichungszeit ändern">'+esc(planItem.zeit||"Zeit setzen")+' ✎</button> · '+esc(content.fachLabel||planItem.fach||"")+'</span></div><div class="ig-more">•••</div></div>'+
       preproductionMedia(day,date,slot,content)+
       thumbs+
       '<div class="ig-actions" aria-hidden="true"><span>♡</span><span>○</span><span>⌁</span><span class="save">♧</span></div>'+
@@ -1390,7 +1410,7 @@
       var sub=s.art==="teaser"?("zu "+(s.beitragSlot||"?")):(content.titel||content.ueberzeile||s.themaId||"");
       return '<div class="story-card'+(s.art==="teaser"?" teaser":"")+'" data-story-index="'+i+'">'+
         '<div class="story-media"><img data-asset="'+esc(rel)+'" src="'+esc(preproductionAssetUrl(rel))+'" alt="'+esc(label+" "+s.slot)+'" loading="lazy" onerror="this.parentNode.classList.add(\'missing\')">'+
-        '<span class="story-time">'+esc(s.zeit||"–")+'</span>'+
+        '<button type="button" class="story-time" data-zeit-edit="story:'+esc(s.slot)+'" title="Veröffentlichungszeit ändern">'+esc(s.zeit||"–")+'<span class="zeit-stift">✎</span></button>'+
         '<button type="button" class="edit-fab" data-edit="direct" data-rel="'+esc(rel)+'" data-date="'+esc(date)+'" data-slot="'+esc(s.slot)+'" data-kind="story" data-label="'+esc(date+" · Story "+s.slot+" ("+label+")")+'" title="Story bearbeiten">✎</button></div>'+
         '<div class="story-info"><b>'+esc(label)+'</b><span title="'+esc(sub)+'">'+esc(s.slot)+(sub?" · "+esc(sub):"")+'</span></div>'+
         '</div>';
@@ -1455,8 +1475,11 @@
       feed.innerHTML='<div class="empty">'+esc(data._preproductionError||"Dieser Review-Tag konnte noch nicht geladen werden.")+'</div>';
       return;
     }
-    var posts=day.plan&&day.plan.beitraege||[],stories=sortedStories(day);
-    var html='<div class="preprod-section-head"><h3>Stories · '+stories.length+' geplant</h3><span class="small">chronologisch · Klick = Großansicht · ✎ = bearbeiten</span></div>'+
+    var posts=(day.plan&&day.plan.beitraege||[]).slice().sort(function(a,b){
+      var ka=zeitMin(a.zeit),kb=zeitMin(b.zeit);
+      return (isNaN(ka)?1e9:ka)-(isNaN(kb)?1e9:kb);
+    }),stories=sortedStories(day);
+    var html='<div class="preprod-section-head"><h3>Stories · '+stories.length+' geplant</h3><span class="small">chronologisch · Klick = Großansicht · Uhrzeit = Zeit ändern · ✎ = bearbeiten</span></div>'+
       preproductionStoryCards(day,date);
     html+=posts.length
       ?'<div class="preprod-section-head"><h3>Feed-Beiträge · '+posts.length+' geplant</h3><span class="small">Reihenfolge nach geplantem Veröffentlichungszeitpunkt</span></div><div class="ig-feed-preview">'+posts.map(function(p){return preproductionPost(day,date,p);}).join("")+'</div><div class="ig-review-note">Medien direkt aus der Vorproduktion · Editor-Änderungen landen als Commit im Asset-Zweig</div>'
@@ -1538,6 +1561,91 @@
     $("#tokenRepoName").textContent=preproductionAccount().repo;
     $("#tokenModal").hidden=false;$("#tokenError").textContent="";
     $("#tokenInput").value=ghToken();$("#tokenInput").focus();
+  }
+
+  /* ---------- Veröffentlichungszeiten direkt in der Review ändern --------
+     Klick auf eine Uhrzeit (Story-Badge oder Feed-Kopf) öffnet ein kleines
+     Formular; Übernehmen lädt die Tagesdatei FRISCH von der GitHub-API,
+     ändert nur die Zeit-Felder und committet sie in den Asset-Zweig des
+     aktiven Kontos. Der Bot baut seinen Tagesplan bei jedem Lauf neu aus
+     dieser Datei, die neue Zeit greift also mit dem nächsten Lauf. */
+  var zeitEdit=null;
+  function zeitMin(z){var m=/^(\d{1,2}):(\d{2})$/.exec(String(z||""));return m?Number(m[1])*60+Number(m[2]):NaN;}
+  function planItemFuer(day,art,slot){
+    var liste=art==="beitrag"?(day.plan&&day.plan.beitraege||[]):(day.plan&&day.plan.stories||[]);
+    for(var i=0;i<liste.length;i++)if(liste[i].slot===slot)return liste[i];
+    return null;
+  }
+  function openZeitModal(date,art,slot){
+    var konto=store.account,data=store.data[konto],day=data&&data.vorproduktion&&data.vorproduktion[date];
+    var item=day&&planItemFuer(day,art,slot);
+    if(!item)return;
+    zeitEdit={konto:konto,date:date,art:art,slot:slot};
+    $("#zeitTitel").textContent=(art==="beitrag"?"Feed-Beitrag ":"Story ")+slot+" · "+preproductionDayLabel(date);
+    var hin="Uhrzeit Europe/Berlin. Der Bot übernimmt den neuen Zeitplan mit seinem nächsten stündlichen Lauf; bereits veröffentlichte Slots ändern sich nicht mehr.";
+    if(art==="beitrag"){
+      var teaser=(day.plan.stories||[]).filter(function(s){return s.art==="teaser"&&s.beitragSlot===slot&&(s.zeit===item.zeit||!s.zeit);});
+      if(teaser.length)hin+=" Teaser-Story "+teaser.map(function(s){return s.slot;}).join(", ")+" wird automatisch mitverschoben.";
+    }else if(item.art==="teaser"&&item.beitragSlot){
+      hin+=" Teaser erscheinen erst, nachdem Beitrag "+item.beitragSlot+" veröffentlicht wurde.";
+    }
+    $("#zeitHinweis").textContent=hin;
+    $("#zeitInput").value=/^\d{2}:\d{2}$/.test(item.zeit||"")?item.zeit:"";
+    $("#zeitError").textContent="";
+    $("#zeitSubmit").disabled=false;
+    $("#zeitModal").hidden=false;
+    $("#zeitInput").focus();
+  }
+  function closeZeitModal(){$("#zeitModal").hidden=true;zeitEdit=null;}
+  async function zeitSpeichern(){
+    if(!zeitEdit)return;
+    var neu=String($("#zeitInput").value||"").trim();
+    var m=/^(\d{1,2}):(\d{2})$/.exec(neu);
+    if(!m||Number(m[1])>23||Number(m[2])>59){$("#zeitError").textContent="Bitte eine Uhrzeit im Format HH:MM wählen.";return;}
+    neu=String(Number(m[1])).padStart(2,"0")+":"+m[2];
+    if(!ghToken()){openTokenModal(function(){if(zeitEdit)zeitSpeichern();});return;}
+    var ze=zeitEdit;
+    $("#zeitSubmit").disabled=true;$("#zeitError").textContent="";
+    try{
+      /* ghContentsUrl/ghCommitFiles zielen auf das aktive Konto - das muss
+         noch dasselbe sein wie beim Öffnen des Formulars. */
+      if(preproductionAccountKey()!==ze.konto)throw new Error("Konto hat gewechselt – bitte erneut öffnen.");
+      /* Frischer Stand direkt von der API (kein CDN-Cache): parallel
+         committete Reparaturen der Tagesdatei bleiben so unberührt. */
+      var r=await ghFetch(ghContentsUrl(ze.date+".json")+"?ref=instagram-assets",{headers:{Accept:"application/vnd.github.raw"}});
+      if(r.status===401||r.status===403)throw new Error("Token ungültig oder ohne Zugriff ("+r.status+")");
+      if(!r.ok)throw new Error("Tagesdatei nicht ladbar (GitHub "+r.status+")");
+      var tag=JSON.parse(await r.text());
+      var liste=ze.art==="beitrag"?(tag.plan&&tag.plan.beitraege||[]):(tag.plan&&tag.plan.stories||[]);
+      var item=null;
+      for(var i=0;i<liste.length;i++)if(liste[i].slot===ze.slot)item=liste[i];
+      if(!item)throw new Error("Slot "+ze.slot+" steht nicht in der Tagesdatei");
+      var alt=item.zeit||"";
+      if(alt===neu){closeZeitModal();return;}
+      item.zeit=neu;
+      var mitverschoben=[];
+      if(ze.art==="beitrag"){
+        (tag.plan.stories||[]).forEach(function(s){
+          if(s.art==="teaser"&&s.beitragSlot===ze.slot&&(s.zeit===alt||!s.zeit)){s.zeit=neu;mitverschoben.push(s.slot);}
+        });
+      }
+      var beschr=(ze.art==="beitrag"?"Beitrag ":"Story ")+ze.slot+" "+(alt||"–")+" → "+neu+(mitverschoben.length?" · Teaser "+mitverschoben.join(", ")+" mitverschoben":"");
+      await ghCommitFiles([{path:repoPathFor(ze.date+".json"),text:JSON.stringify(tag,null,2)+"\n"}],
+        "Vorproduktion: Zeitplan "+ze.date+" im Dashboard geändert · "+beschr);
+      /* Lokale Ansicht sofort nachziehen, ohne kompletten Reload. */
+      var data=store.data[ze.konto],day=data&&data.vorproduktion&&data.vorproduktion[ze.date];
+      if(day&&day.plan){
+        var it2=planItemFuer(day,ze.art,ze.slot);
+        if(it2)it2.zeit=neu;
+        (day.plan.stories||[]).forEach(function(s){if(mitverschoben.indexOf(s.slot)>=0)s.zeit=neu;});
+      }
+      closeZeitModal();
+      if(data)renderPreproduction(data);
+      setStatus("Zeitplan "+ze.date+": "+beschr+" · greift mit dem nächsten Bot-Lauf","ok");
+    }catch(e){
+      $("#zeitError").textContent=String(e&&e.message||e);
+      $("#zeitSubmit").disabled=false;
+    }
   }
 
   /* ==================== Slide-Editor (Canva-Prinzip) ====================
@@ -3660,6 +3768,12 @@
   $("#preproductionDate").addEventListener("change",function(e){if(e.target.value)loadPreproductionDay(e.target.value);});
   $("#preproductionFeed").addEventListener("click",function(e){
     var data=store.data[store.account],date=store.reviewDate,day=data&&data.vorproduktion&&data.vorproduktion[date];
+    var zb=e.target.closest("[data-zeit-edit]");
+    if(zb){
+      var tz=zb.dataset.zeitEdit.split(":");
+      openZeitModal(date,tz[0],tz[1]);
+      return;
+    }
     var edit=e.target.closest("[data-edit]");
     if(edit){
       if(edit.dataset.edit==="slide"){
@@ -3932,6 +4046,9 @@
   $("#edPopover").addEventListener("input",function(e){edPropChange(e,false);});
   $("#edPopover").addEventListener("change",function(e){edPropChange(e,true);});
   $("#edPopover").addEventListener("click",edActionClick);
+  $("#zeitForm").addEventListener("submit",function(e){e.preventDefault();zeitSpeichern();});
+  $("#zeitCancel").addEventListener("click",closeZeitModal);
+  $("#zeitModal").addEventListener("click",function(e){if(e.target.id==="zeitModal")closeZeitModal();});
   $("#tokenForm").addEventListener("submit",function(e){
     e.preventDefault();
     var v=$("#tokenInput").value.trim();
@@ -3949,6 +4066,10 @@
   document.addEventListener("keydown",function(e){
     if(!$("#tokenModal").hidden){
       if(e.key==="Escape"){tokenModalThen=null;$("#tokenModal").hidden=true;}
+      return;
+    }
+    if(!$("#zeitModal").hidden){
+      if(e.key==="Escape")closeZeitModal();
       return;
     }
     if(!$("#slideEditor").hidden){edKeydown(e);return;}
