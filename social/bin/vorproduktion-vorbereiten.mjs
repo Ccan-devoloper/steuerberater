@@ -30,7 +30,7 @@ const dates = process.argv.slice(2).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d))
 if (!dates.length) throw new Error("Mindestens ein Datum YYYY-MM-DD ist erforderlich.");
 const targetSet = new Set(dates);
 
-const hosting = new Hosting({ pushen: true }).vorbereiten();
+const hosting = new Hosting().vorbereiten();
 const vp = path.join(hosting.dir, "vorproduktion");
 fs.mkdirSync(vp, { recursive: true });
 
