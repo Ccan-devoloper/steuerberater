@@ -4922,6 +4922,18 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-09-25",
+      "slot": "s2",
+      "medienId": "18133081333711652",
+      "veroeffentlicht": "2026-09-25T10:34:13.032Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": "§ 49 EStG bei beschränkter Steuerpflicht"
     }
   ],
   "fachZaehler": {
