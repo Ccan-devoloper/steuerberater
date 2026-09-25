@@ -30,6 +30,30 @@ IG_STIMME=piper IG_BILD_KI=false IG_CHARAKTERE=false \
 
 Bequemer ist der manuelle GitHub-Workflow **„Vorproduktion · Examenscampus Review“**. Er verlangt die gewünschten Datumswerte ausdrücklich; ein Merge startet daher nicht automatisch eine Vorproduktion.
 
+### Monatsserie mit drei Klausuren pro Tag
+
+Für den Review vom 29.09. bis 28.10.2026 setzt der Vorbereiter mit
+`IG_REEL_ZUSAETZLICH=true IG_VORPRODUKTION_DREI_KLAUSUREN=true` täglich
+zwei Karussells und ein Reel an. Die Slots folgen K3 → K1 → K2 zu 08:30,
+13:30 und 19:00 Uhr (Europe/Berlin). Diese Reihenfolge setzt die vorhandene
+Feedfolge vom 28.09. ohne doppelte Klausurfarbe fort. Prüfungstage behalten
+die drei Fachslots; aus tatsächlich noch unbekannten Klausurthemen werden
+keine Lösungsskizzen erfunden.
+
+Der Monatslauf verwendet die Themen der vorherigen Review-Tage und sperrt
+jedes Thema für 60 Tage. Er bricht ab, wenn kein unverbrauchtes und formal
+geeignetes Thema gefunden wird. Nach Auswahl aller Feedthemen ordnet er
+eigenständige Stories neu zu: Sie wiederholen weder ein Feedthema des Monats
+noch ein anderes Storythema oder ein Thema der vorherigen Review-Tage.
+Quizfrage und unmittelbare Auflösung bilden weiterhin ein Paar.
+
+Die JSON-Dateien enthalten für jeden Feed-Slot eine `coverRegie` mit zwei
+Golden-Reference-Pfaden, Handlung und eindeutigem Bilddateinamen. Diese
+Regie ist ein Bildauftrag, kein gerendertes Cover. Ohne Renderlauf bleibt
+`renderVorschau.status` auf `ausstehend` und `freigabeBetreiber` auf `false`.
+`IG_NO_PUSH=true` erlaubt, den Review-Lauf lokal vorzubereiten, ohne den
+Asset-Zweig zu verändern.
+
 ## Prüfungstage
 
 Die Mengen werden **nicht** aus Herrjurist kopiert. Es gilt immer der aktuelle Examenscampus-Tagesplan. Das ist besonders an den drei schriftlichen Prüfungstagen wichtig: Der Planer reduziert dort eigenständige Stories bewusst.
