@@ -1,9 +1,9 @@
 {
   "datum": "2026-09-26",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -113,7 +113,8 @@
           "art": "titel",
           "titel": "Gesamthandsvermögen und Mitunternehmerbilanz",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "personen"
         },
         {
           "art": "text",
@@ -202,8 +203,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -229,7 +230,7 @@
           "unter": "Kopfsache",
           "text": "Jetzt zählt Vorbereitung statt neuer Stoff.",
           "norm": null,
-          "icon": null,
+          "icon": "zielscheibe",
           "sprecher": "Am Abend vor Tag 1 zählt Vorbereitung statt neuer Stoff.",
           "marken": [
             "Vorbereitung statt neuer Stoff"
@@ -303,14 +304,14 @@
       ],
       "kurztitel": "Prüfungsangst am Abend vor Tag 1",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "Themenpool: mindset-1"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -318,7 +319,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "icon": "zielscheibe"
     },
     "s3": {
       "slot": "s3",
@@ -578,8 +580,10 @@
     "visuellGeprueftAm": "2026-09-25"
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+    "providerKostenUsd": 0
   },
   "qa": {
     "inhalt": "manuell-validiert",
@@ -592,5 +596,10 @@
       "reels": "Cover plus drei Szenenframes je Reel geprüft; Safe-Area gegen HerrJurist-Logik verifiziert",
       "geprueftAm": "2026-09-25"
     }
+  },
+  "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+  "coverPolicy": {
+    "modus": "lokales-icon-wenn-bildlos",
+    "providerKostenUsd": 0
   }
 }
