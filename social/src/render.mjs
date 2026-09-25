@@ -34,8 +34,10 @@ export function kontext(opt = {}) {
     stil: stilLaden(stilName),
     farbeJeKlausur: CONFIG.marke.farbeJeKlausur,
     handle: opt.handle ?? CONFIG.marke.handle,
+    fach: opt.fach || null,
     fachLabel: opt.fachLabel || (opt.fach ? fachInfo(opt.fach)?.label : "Steuerberaterexamen") || "Steuerberaterexamen",
     formatLabel: opt.formatLabel || null,
+    footerLabel: opt.footerLabel || null,
     /* ?? statt ||: Klausurtag 0 ist ein gültiger Wert (Mindset, Kopfsache)
        und darf nicht zu 3 werden - sonst erscheint ein Mindset-Beitrag in der
        Farbe und mit dem Etikett des dritten Prüfungstags. */
@@ -598,7 +600,7 @@ export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
   const formatLabel = beitrag.format === "klausurtechnik" && [1, 2, 3].includes(Number(klausur))
     ? "Klausurtechnik"
     : null;
-  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur, fachLabel: beitrag.fachLabel, formatLabel, variante: opt.variante ?? beitrag.variante });
+  const ctx = kontext({ ...opt, fach: beitrag.fach, klausur, fachLabel: beitrag.fachLabel, formatLabel, footerLabel: beitrag.footerLabel, variante: opt.variante ?? beitrag.variante });
   const pfade = [];
   const n = beitrag.folien.length;
   for (let i = 0; i < n; i++) {
@@ -610,7 +612,7 @@ export async function beitragRendern(beitrag, zielVerzeichnis, opt = {}) {
 }
 
 export async function storyRendern(story, zielPfad, opt = {}) {
-  const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel, variante: opt.variante ?? story.variante });
+  const ctx = kontext({ ...opt, fach: story.fach, klausur: story.klausur, fachLabel: story.fachLabel, footerLabel: story.footerLabel, variante: opt.variante ?? story.variante });
   return htmlZuJpeg(storyHtml(story, ctx), MASSE.story, zielPfad);
 }
 
@@ -629,6 +631,6 @@ export async function storyRendernInteraktiv(story, zielPfad, opt = {}) {
 
 /* Cover eines Reels (Standbild für Feed und Profilraster). */
 export async function coverRendern(daten, zielPfad, opt = {}) {
-  const ctx = kontext({ ...opt, fach: daten.fach, klausur: daten.klausur, fachLabel: daten.fachLabel });
+  const ctx = kontext({ ...opt, fach: daten.fach, klausur: daten.klausur, fachLabel: daten.fachLabel, footerLabel: daten.footerLabel });
   return htmlZuJpeg(coverHtml(daten, ctx), MASSE.story, zielPfad);
 }
