@@ -13,13 +13,24 @@ jobs:
   paket:
     runs-on: ubuntu-latest
     steps:
-      - name: Instagram-Assets auschecken
+      - name: Examenscampus main
+        uses: actions/checkout@v4
+        with:
+          path: exam
+
+      - name: Instagram-Assets
         uses: actions/checkout@v4
         with:
           ref: instagram-assets
           path: assets
 
-      - name: Renderdateien für QA packen
+      - name: HerrJurist main
+        uses: actions/checkout@v4
+        with:
+          repository: Ccan-devoloper/herrjurist
+          path: herr
+
+      - name: Visuals packen
         uses: actions/upload-artifact@v4
         with:
           name: examenscampus-vorproduktion-visual-qa
@@ -28,5 +39,20 @@ jobs:
             assets/vorproduktion/2026-09-26/fertig
             assets/vorproduktion/2026-09-27/fertig
             assets/vorproduktion/2026-09-28/fertig
+          if-no-files-found: error
+          retention-days: 1
+
+      - name: Quellen für Diff packen
+        uses: actions/upload-artifact@v4
+        with:
+          name: examenscampus-vorproduktion-source-qa
+          path: |
+            exam/social/src
+            exam/social/bin/vorproduktion-ohne-coverbilder-rendern.mjs
+            exam/src/data
+            herr/src/render.mjs
+            herr/src/vorlagen.mjs
+            herr/src/reel.mjs
+            herr/src/stile.mjs
           if-no-files-found: error
           retention-days: 1
