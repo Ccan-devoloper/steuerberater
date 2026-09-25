@@ -125,9 +125,9 @@
     .newsletter-key input{max-width:100%;font-size:12px}
     .newsletter-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}
     .newsletter-frame-wrap{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#f5f7fa}
-    .newsletter-frame{display:block;width:100%;height:min(78vh,1100px);min-height:520px;border:0;background:#fff}
+    .newsletter-document{display:block;width:100%;height:min(78vh,1100px);min-height:520px;overflow:auto;background:#fff}
     .newsletter-frame-note{color:var(--muted);font-size:11px;margin-top:10px}
-    @media(max-width:590px){.newsletter-teaser{align-items:flex-start;flex-direction:column}.newsletter-teaser-logo{max-width:190px}.newsletter-issue{width:100%}.newsletter-frame{min-height:450px;height:75vh}}
+    @media(max-width:590px){.newsletter-teaser{align-items:flex-start;flex-direction:column}.newsletter-teaser-logo{max-width:190px}.newsletter-issue{width:100%}.newsletter-document{min-height:450px;height:75vh}}
     .profile-brief{margin-bottom:12px;overflow:hidden;position:relative}
     .profile-brief:before{content:"";position:absolute;inset:0 auto 0 0;width:3px;background:linear-gradient(var(--accent),var(--accent2))}
     .profile-brief-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:11px}
@@ -664,7 +664,7 @@
           </div>
         </div>
         <div class="newsletter-frame-wrap" id="newsletterFrameWrap" hidden>
-          <iframe class="newsletter-frame" id="newsletterFrame" title="Newsletter-Vorschau" sandbox="" referrerpolicy="no-referrer"></iframe>
+          <div class="newsletter-document" id="newsletterDocument" role="region" aria-label="Newsletter-Vorschau" tabindex="0"></div>
         </div>
         <div class="newsletter-frame-note">Die E-Mail wird erst nach dem Entschlüsseln auf diesem Gerät angezeigt. Änderungen in Kit erscheinen nach dem erneuten verschlüsselten Vorproduktionsabgleich.</div>
       </article>
@@ -1576,12 +1576,53 @@
     $("#newsletterStatus").textContent=n.loading?"Verschlüsselte Voransichten werden geladen …":n.error?n.error:(selected?"Entwurf · "+newsletterDate(selected.issue_date)+" · kein Versand":"Wähle deinen privaten Schlüssel, um die Vorschau zu sehen.");
     $("#newsletterFrameWrap").hidden=!selected||!n.html||!!n.error;
   }
+  /* Die E-Mail bleibt innerhalb eines Shadow DOM. Nur die benötigten E-Mail-
+     Elemente und sichere Attribute werden übernommen; Skripte, Event-Handler,
+     Formulare und fremde Bildquellen gelangen nicht in die Dashboard-Seite. */
+  function renderNewsletterDocument(html){
+    var host=$("#newsletterDocument"),root=host.shadowRoot||host.attachShadow({mode:"open"});
+    root.replaceChildren();
+    if(!html)return;
+    var sheet=document.createElement("style");
+    sheet.textContent=":host{display:block;color:#101827;background:#fff;font:14px/1.5 Inter,Arial,Helvetica,sans-serif}*,*::before,*::after{box-sizing:border-box}table{max-width:100%}img{max-width:100%;height:auto}.mail{margin:0 auto;max-width:700px}";
+    var mail=document.createElement("div");mail.className="mail";
+    var parsed=new DOMParser().parseFromString(html,"text/html");
+    var allowed=new Set(["TABLE","TBODY","THEAD","TFOOT","TR","TD","TH","DIV","P","H1","H2","H3","SPAN","STRONG","B","I","EM","BR","IMG","A"]);
+    var blocked=new Set(["STYLE","SCRIPT","IFRAME","OBJECT","EMBED","FORM","INPUT","BUTTON","SVG","META","LINK"]);
+    function cloneSafe(node){
+      if(node.nodeType===Node.TEXT_NODE)return document.createTextNode(node.textContent);
+      if(node.nodeType!==Node.ELEMENT_NODE||blocked.has(node.tagName))return null;
+      if(!allowed.has(node.tagName)){
+        var group=document.createDocumentFragment();
+        node.childNodes.forEach(function(child){var safe=cloneSafe(child);if(safe)group.appendChild(safe);});
+        return group;
+      }
+      var out=document.createElement(node.tagName.toLowerCase());
+      var inline=node.getAttribute("style");
+      if(inline&&!/url\s*\(|@import|expression\s*\(/i.test(inline))out.setAttribute("style",inline);
+      ["role","width","height","cellpadding","cellspacing","border","valign","align","alt"].forEach(function(name){
+        if(node.hasAttribute(name))out.setAttribute(name,node.getAttribute(name));
+      });
+      if(node.tagName==="A"){
+        try{var href=new URL(node.getAttribute("href"),location.href);if(href.protocol==="https:"){out.href=href.href;out.target="_blank";out.rel="noopener noreferrer";}}
+        catch(e){/* fehlerhafte Links weglassen */}
+      }
+      if(node.tagName==="IMG"){
+        try{var src=new URL(node.getAttribute("src"),location.href);if(src.protocol==="https:"&&src.hostname==="raw.githubusercontent.com"&&src.pathname.startsWith("/Ccan-devoloper/herrjurist/"))out.src=src.href;}
+        catch(e){/* fehlerhafte Bilder weglassen */}
+      }
+      node.childNodes.forEach(function(child){var safe=cloneSafe(child);if(safe)out.appendChild(safe);});
+      return out;
+    }
+    parsed.body.childNodes.forEach(function(child){var safe=cloneSafe(child);if(safe)mail.appendChild(safe);});
+    root.append(sheet,mail);
+  }
   function loadNewsletterPreview(issue){
     var n=store.newsletter;
     n.selected=issue?String(issue.kit_id):"";
     n.html=issue?issue.html:"";
-    $("#newsletterFrame").srcdoc=n.html;
     renderNewsletter();
+    renderNewsletterDocument(n.html);
   }
   async function loadNewsletters(){
     var n=store.newsletter;
@@ -1599,7 +1640,7 @@
       var selected=n.issues.find(function(x){return String(x.kit_id)===n.selected;})||n.issues[0];
       n.error="";loadNewsletterPreview(selected);
     }catch(e){
-      n.issues=[];n.html="";$("#newsletterFrame").srcdoc="";
+      n.issues=[];n.html="";renderNewsletterDocument("");
       n.error=e&&e.name==="OperationError"?"Der private Schlüssel passt nicht zu diesen Entwürfen.":"Voransichten konnten nicht geladen werden: "+(e&&e.message||"Fehler");
     }finally{n.loading=false;renderNewsletter();}
   }
