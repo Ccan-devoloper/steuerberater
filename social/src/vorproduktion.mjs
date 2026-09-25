@@ -132,6 +132,23 @@ function storySemantikPruefen(story, label) {
 export function examenscampusRegelnPruefen(tag) {
   if (!tag?.plan || !tag?.inhalte) throw new Error("Vorproduktion: Plan oder Inhalte fehlen.");
 
+  const feed = tag.plan.beitraege || [];
+  if (feed.length !== 3) {
+    throw new Error(tag.datum + ": Vorproduktion verlangt genau 3 Feed-Beiträge.");
+  }
+  const reels = feed.filter((b) => b.format === "reel");
+  if (reels.length !== 1) {
+    throw new Error(tag.datum + ": Vorproduktion verlangt genau 1 Reel.");
+  }
+  const klausuren = feed.map((b) => Number(b.klausur)).sort();
+  if (JSON.stringify(klausuren) !== JSON.stringify([1, 2, 3])) {
+    throw new Error(tag.datum + ": Vorproduktion muss K1, K2 und K3 je genau einmal abdecken.");
+  }
+  const karussells = feed.filter((b) => b.format !== "reel");
+  if (karussells.length !== 2 || karussells.some((b) => !Array.isArray(tag.inhalte[b.slot]?.folien))) {
+    throw new Error(tag.datum + ": Vorproduktion verlangt genau 2 gerenderte Karussells.");
+  }
+
   let vorher = null;
   for (const b of tag.plan.beitraege || []) {
     const inhalt = tag.inhalte[b.slot];
