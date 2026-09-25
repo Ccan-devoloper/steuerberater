@@ -54,6 +54,7 @@ import { kandidatenSuchen, stimmeUebernehmen, stimmeWaehlen, gewinner, stimmenSt
 import { titelbild } from "./bilder.mjs";
 import { wochentag } from "./zeit.mjs";
 import { heuteIso, lokaleMinuten, minutenVon } from "./zeit.mjs";
+import { vorproduktionLiveAusfuehren } from "./vorproduktion-live.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 const args = new Map(process.argv.slice(2).map((a) => { const [k, v] = a.replace(/^--/, "").split("="); return [k, v ?? true]; }));
@@ -188,6 +189,15 @@ async function main() {
      gegen eine Kopie des Zustands. Ein Trockenlauf am 13.09. hatte sonst
      Beispieltexte für den Folgetag in den echten Zweig geschoben. */
   const hosting = new Hosting({ pushen: (vorplanen || !nurPlanen) && process.env.IG_NO_PUSH !== "true" }).vorbereiten();
+
+  /* Vorproduktion ist ein harter Tages-Gate VOR allen kostenpflichtigen
+     Inhalts-, Recherche-, Bild- und Stimm-Schritten. Existiert fuer dieses
+     Datum eine Vorproduktionsdatei, wird ausschliesslich sie abgearbeitet.
+     Am ersten Datum ohne Vorproduktion faellt der Lauf automatisch auf die
+     bestehende Normalpipeline zurueck. */
+  const vorproduktion = await vorproduktionLiveAusfuehren({ hosting, datum, trocken, alles, nurPlanen, log });
+  if (vorproduktion.aktiv) return;
+
   motivArchivDir = path.join(hosting.stateDir, "motive");
   /* Bezahlte Entwürfe überleben den Lauf, in dem sie entstanden sind - siehe
      autor.mjs. Aufgeräumt wird gleich zu Beginn, damit der Zweig nicht wächst. */
