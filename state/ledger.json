@@ -4900,6 +4900,28 @@
       "thema": "bilanz-modul-k3-6",
       "fach": "bilanz",
       "titel": "Rückstellungen"
+    },
+    {
+      "datum": "2026-09-25",
+      "slot": "b2",
+      "medienId": "17901249651597227",
+      "veroeffentlicht": "2026-09-25T10:34:00.153Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "12:00",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr2-02",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "§ 49 EStG bei beschränkter Steuerpflicht",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -4908,7 +4930,7 @@
     "kst": 7,
     "ao": 13,
     "bilanz": 16,
-    "istr": 11,
+    "istr": 12,
     "erbst": 3,
     "mindset": 1
   },
