@@ -143,6 +143,34 @@ function kuerzelTilgen(wert, kuerzel) {
   return wert;
 }
 
+/* Die IStR-Unterlagen verwenden an dieser Stelle eine dozenteneigene
+   Buchstaben-/Merkstruktur. Für Social wird ausschließlich der fachliche
+   Prüfungsablauf übernommen und in neutrale Fachsprache übersetzt. */
+function neutralisiereDozentenstruktur(t) {
+  if (t?.id !== "istr-modul-istr-istr3-01") return t;
+  t.titel = "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA";
+  t.kern = {
+    ...t.kern,
+    lernziele: [
+      "Zuerst den deutschen Steuerzugriff nach § 1 Abs. 4 und § 49 EStG prüfen",
+      "Erhebungsweg und mögliche Steuerabzugsregeln anschließend bestimmen",
+      "Ein DBA erst danach als Begrenzung oder Verteilung des Besteuerungsrechts anwenden",
+    ],
+    pruefschritte: [
+      "Persönliche Steuerpflicht nach § 1 Abs. 4 EStG prüfen.",
+      "Einkunftsart nach §§ 13–24 EStG bestimmen.",
+      "Den passenden inländischen Anknüpfungspunkt nach § 49 Abs. 1 EStG prüfen.",
+      "Erhebungsweg nach § 50 EStG beziehungsweise einen einschlägigen Steuerabzug bestimmen.",
+      "Erst danach das DBA prüfen: Anwendbarkeit, Ansässigkeit, Verteilungsnorm und Begrenzung oder Vermeidung der Doppelbesteuerung.",
+    ],
+    merksatz: "Das nationale Recht begründet den deutschen Steuerzugriff; ein DBA kann ihn anschließend begrenzen, aber nicht erweitern.",
+    einordnung: [
+      "Bei beschränkter Steuerpflicht steht das nationale Recht vor der DBA-Prüfung.",
+    ],
+  };
+  return t;
+}
+
 function modulThema(fach, m, quelle) {
   return {
     id: `${fach}-modul-${quelle}-${m.id}`,
