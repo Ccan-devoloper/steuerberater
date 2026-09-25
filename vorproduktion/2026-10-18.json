@@ -1,0 +1,567 @@
+{
+  "datum": "2026-10-18",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-23",
+        "themaTitel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-352",
+        "themaTitel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr4-07",
+        "themaTitel": "§ 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": true
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-7"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:07",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-7"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:53",
+        "art": "norm",
+        "themaId": "ust-modul-ust-178"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:21",
+        "art": "fehler",
+        "themaId": "kst-modul-kst-7"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:52",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-162"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:24",
+        "art": "tipp",
+        "themaId": "erbst-modul-erbst-512"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-23",
+      "slug": "2026-10-18-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Sanierung nach Hauskauf: AK oder Sofortabzug?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Dreijahreszeitraum und 15-%-Grenze netto auf die Gebäude-Anschaffungskosten beziehen",
+            "Erweiterungen aus der 15-%-Berechnung herausnehmen, aber als originäre Herstellungskosten aktivieren"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Anschaffungszeitpunkt und Dreijahreszeitraum bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Gebäude-Anschaffungskosten als Bezugsgröße und 15-%-Grenze ohne Umsatzsteuer berechnen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Sanierung nach Hauskauf: AK oder Sofortabzug? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Sanierung nach Hauskauf: AK oder Sofortabzug?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 253 Abs. 1 S. 1 HGB",
+        "§ 255 Abs. 1 S. 1 HGB",
+        "§ 6 Abs. 1 Nr. 1 EStG",
+        "§ 6 Abs. 1 Nr. 1a S. 1 EStG",
+        "§ 6 Abs. 1 Nr. 1a S. 2 EStG",
+        "§ 7 Abs. 4 S. 1 Nr. 1, 2 EStG",
+        "§ 7 Abs. 4 S. 2 EStG",
+        "§ 7 Abs. 5a EStG",
+        "R 21.1 EStR",
+        "§ 7 Abs. 4, 5a EStG",
+        "§ 6 Abs. 1 Nr. 1a EStG",
+        "§ 255 Abs. 2 HGB",
+        "BMF 26.01.2026 – IV C 1 - S 2253/00082/001/064",
+        "Themenpool: bilanz-modul-k3-23"
+      ],
+      "coverRegie": {
+        "thema": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-18-b1-bilanz-modul-k3-23-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-352",
+      "slug": "2026-10-18-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Zahlendreher im Amt: Wann greift § 129 AO?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "mechanische offenbare Unrichtigkeit von Rechts- und Denkfehlern unterscheiden",
+            "Eigenfehler und übernommene mechanische Fehler einordnen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Schreib-, Rechen- oder vergleichbaren mechanischen Fehler feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "untersuchen, ob ein Rechts- oder Tatsachenwürdigungsfehler ernstlich ausgeschlossen ist."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Zahlendreher im Amt: Wann greift § 129 AO? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Zahlendreher im Amt: Wann greift § 129 AO?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 129 S. 1 AO",
+        "§ 129 S. 2 AO",
+        "§ 171 Abs. 2 S. 1 AO",
+        "§ 129 S. 1 und 2 AO",
+        "§ 129 S. 1–3 AO",
+        "Themenpool: ao-modul-ao-352"
+      ],
+      "coverRegie": {
+        "thema": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-18-b2-ao-modul-ao-352-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr4-07",
+      "slug": "2026-10-18-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
+          "norm": "§ 10 Abs. 1 AStG",
+          "icon": null,
+          "sprecher": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "§ 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steuerpflichtigen Einkünfte sind der Hinzurechnungsbetrag.",
+          "text": null,
+          "norm": "§ 10 Abs. 1 AStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. § 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steuerpflichtigen Einkünfte sind der Hinzurechnungsbetrag.",
+          "marken": [
+            "§ 10 Abs. 1 AStG: Die nach § 7 Abs. 1 AStG steue"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "§ 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag gehört zu den Einkünften i.S.d. § 20 Abs. 1 Nr. 1 EStG.",
+          "text": null,
+          "norm": "§ 10 Abs. 2 S. 1 AStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. § 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag gehört zu den Einkünften i.S.d. § 20 Abs. 1 Nr. 1 EStG.",
+          "marken": [
+            "§ 10 Abs. 2 S. 1 AStG: Der Hinzurechnungsbetrag "
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 10 Abs. 1 AStG",
+        "§ 10 Abs. 2 S. 1 AStG",
+        "§ 10 Abs. 2 S. 2 AStG",
+        "§ 10 Abs. 2 S. 4 AStG",
+        "§ 10 Abs. 3 AStG",
+        "§ 20 Abs. 1 Nr. 1 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 32d EStG",
+        "§ 10 Abs. 1, 2 AStG",
+        "Themenpool: istr-modul-istr-istr4-07"
+      ],
+      "coverRegie": {
+        "thema": "§ 10 AStG: Hinzurechnungsbetrag ohne Teileinkünfteverfahren und ohne § 32d EStG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-18-b3-istr-modul-istr-istr4-07-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-7",
+      "quellen": [
+        "Themenpool: ust-quiz-ust-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wer schuldet die Steuer bei einer Bauleistung unter § 13b UStG?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-7",
+      "quellen": [
+        "Themenpool: ust-quiz-ust-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: der Leistungsempfänger, wenn er selbst nachhaltig Bauleistungen erbringt. Reverse-Charge: § 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG verlagert die Steuerschuld auf den bauleistenden Leistungsempfänger."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-178",
+      "quellen": [
+        "§ 3 Abs. 6a S. 1–6 UStG",
+        "§ 3 Abs. 6 UStG",
+        "§ 3 Abs. 7 S. 2 Nr. 1 UStG",
+        "§ 3 Abs. 7 S. 2 Nr. 2 UStG",
+        "§ 3 Abs. 6a UStG",
+        "§ 3 Abs. 6, Abs. 7 UStG",
+        "Themenpool: ust-modul-ust-178"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 3 Abs. 6a S. 1–6 UStG",
+      "titel": "Reihengeschäft nach § 3 Abs. 6a: bewegte und ruhende Lieferung",
+      "text": "Tatbestand und Rechtsfolge des § 3 Abs. 6a trennen Transport durch ersten Lieferer, letzten Abnehmer und Zwischenhändler unterscheiden"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "fehler",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-modul-kst-7",
+      "quellen": [
+        "§ 8b Abs. 1 S. 1 KStG",
+        "§ 8b Abs. 1 S. 2, 5 KStG",
+        "§ 8b Abs. 4 S. 1, 6 KStG",
+        "§ 8b Abs. 5 S. 1 KStG",
+        "§ 8b Abs. 1, 4, 5 KStG",
+        "§ 8b Abs. 4 S. 6 KStG",
+        "Themenpool: kst-modul-kst-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Beteiligungserträge und Streubesitzdividenden",
+      "falsch": "5 % vom Beteiligungsbuchwert statt vom steuerfreien Ertrag berechnen",
+      "richtigText": "Beteiligungshöhe zum richtigen Stichtag untersuchen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-162",
+      "quellen": [
+        "§ 10 Abs. 1 S. 1, 2 UStG",
+        "§ 10 Abs. 1 S. 4 UStG",
+        "§ 3 Abs. 12 UStG",
+        "§ 10 Abs. 2 UStG",
+        "A 10.5 UStAE",
+        "§ 10 Abs. 1, Abs. 2 UStG",
+        "Themenpool: ust-modul-ust-162"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Bemessungsgrundlage: Entgelt, durchlaufende Posten, Tausch und tauschähnlicher Umsatz",
+      "text": "Gesamte Gegenleistung des Leistungsempfängers aufnehmen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-512",
+      "quellen": [
+        "§ 13 Abs. 1 Nr. 4a ErbStG",
+        "§ 13 Abs. 1 Nr. 4b ErbStG",
+        "§ 13 Abs. 1 Nr. 4c ErbStG",
+        "§ 13 Abs. 1 Nr. 4a–4c ErbStG",
+        "Themenpool: erbst-modul-erbst-512"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Familienheim: § 13 Abs. 1 Nr. 4a, 4b und 4c ErbStG",
+      "text": "Lebzeitige Zuwendung? → § 13 Abs. 1 Nr."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

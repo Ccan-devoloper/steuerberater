@@ -1,0 +1,372 @@
+{
+  "datum": "2026-10-07",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-19",
+        "themaTitel": "Buchungssatz und Gewinnauswirkung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-353",
+        "themaTitel": "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr1-02",
+        "themaTitel": "Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-19",
+      "slug": "2026-10-07-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Falscher Buchungssatz: Wie wirkt die Korrektur?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Bestands- und Erfolgskonten sicher unterscheiden",
+            "Korrektur statt vollständiger Neubuchung formulieren"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Ist-Buchung des Sachverhalts notieren."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Soll-Buchung nach richtiger Würdigung bestimmen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Falscher Buchungssatz: Wie wirkt die Korrektur? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Falscher Buchungssatz: Wie wirkt die Korrektur?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 238 Abs. 1 HGB",
+        "§ 246 Abs. 1 S. 1 HGB",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "§ 60 Abs. 2 EStDV",
+        "Soll an Haben",
+        "HB/StB-Korrektur",
+        "Themenpool: bilanz-modul-k3-19"
+      ],
+      "coverRegie": {
+        "thema": "Buchungssatz und Gewinnauswirkung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-07-b1-bilanz-modul-k3-19-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-353",
+      "slug": "2026-10-07-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Zahlendreher in der Erklärung: § 173a oder § 129?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "§ 173a von § 129 und § 173 unterscheiden",
+            "mit-/nicht mitgereichte Aufstellung als Weiche nutzen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "1. Schreib-/Rechenfehler des Stpfl./Beraters."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "2. bei Erstellung der StErkl., inkl. Excel-Tabellen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Zahlendreher in der Erklärung: § 173a oder § 129? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Zahlendreher in der Erklärung: § 173a oder § 129?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 173a AO",
+        "§ 129 AO",
+        "§ 173 Abs. 1 AO",
+        "§ 171 Abs. 2 S. 2 AO",
+        "§ 173 AO",
+        "Themenpool: ao-modul-ao-353"
+      ],
+      "coverRegie": {
+        "thema": "§ 173a AO: Schreib-/Rechenfehler des Steuerpflichtigen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-07-b2-ao-modul-ao-353-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr1-02",
+      "slug": "2026-10-07-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Auslandssteuer: DBA oder § 34c EStG?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Auslandssteuer: DBA oder § 34c EStG?",
+          "norm": "§ 34c Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Auslandssteuer: DBA oder § 34c EStG? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Auslandssteuer: DBA oder § 34c EStG"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Unbeschränkte Steuerpflicht und ausländische Einkünfte feststellen.",
+          "text": null,
+          "norm": "§ 34c Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Unbeschränkte Steuerpflicht und ausländische Einkünfte feststellen.",
+          "marken": [
+            "Unbeschränkte Steuerpflicht und ausländische Ein"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "DBA vorhanden?",
+          "text": null,
+          "norm": "§ 34c Abs. 2 EStG",
+          "icon": null,
+          "sprecher": "Besteht ein DBA, lies dessen Methodenartikel. Ohne DBA führt der Weg zur Steueranrechnung nach § 34c EStG.",
+          "marken": [
+            "DBA vorhanden?"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Auslandssteuer: DBA oder § 34c EStG? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Auslandssteuer: DBA oder § 34c EStG?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 34c Abs. 1 EStG",
+        "§ 34c Abs. 2 EStG",
+        "§ 32d Abs. 5 EStG",
+        "§ 34c EStG",
+        "DBA",
+        "Themenpool: istr-modul-istr-istr1-02"
+      ],
+      "coverRegie": {
+        "thema": "Auslandseinkünfte bei unbeschränkter Steuerpflicht: DBA oder § 34c",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-07-b3-istr-modul-istr-istr1-02-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "datum": "2026-10-21",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-48",
+        "themaTitel": "Realteilung und Sachwertabfindung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "erbst-modul-erbst-509",
+        "themaTitel": "Sachliche Steuerbefreiungen im Hausrat und andere bewegliche körperliche Gegenstände",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr4-06",
+        "themaTitel": "§ 9 AStG: relative und absolute Freigrenze",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:11",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-35"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:11",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-35"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:53",
+        "art": "norm",
+        "themaId": "bilanz-modul-k3-46"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:31",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-1"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:41",
+        "art": "merksatz",
+        "themaId": "ust-modul-ust-210"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:13",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-7"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-48",
+      "slug": "2026-10-21-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Sachwert statt Geld: Ist das Realteilung?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "echte und unechte Realteilung unterscheiden",
+            "reine Barabfindung und Überführung lückenlos ins Privatvermögen von der Realteilung unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Zuerst klären, ob eine echte Realteilung (Beendigung der Mitunternehmerschaft) oder eine unechte Realteilung (Ausscheiden eines Mitunternehmers bei Fortbestand der Mitunternehmerschaft) vorliegt."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "untersuchen, ob die übertragenen Wirtschaftsgüter beim Realteiler zumindest teilweise in einem Betriebsvermögen fortgeführt werden."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Sachwert statt Geld: Ist das Realteilung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Sachwert statt Geld: Ist das Realteilung?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 16 Abs. 3 S. 1 EStG",
+        "§ 16 Abs. 3 S. 2 EStG",
+        "§ 16 Abs. 3 S. 3 EStG",
+        "§ 16 Abs. 3 S. 4 EStG",
+        "§ 16 Abs. 3 S. 8 EStG",
+        "§ 6 Abs. 5 S. 3 EStG",
+        "§ 6 Abs. 5 S. 4 EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 34 Abs. 2 Nr. 1 EStG",
+        "§ 182 Abs. 1 AO",
+        "§ 16 Abs. 3 S. 2–5 EStG",
+        "§ 16 Abs. 5 EStG",
+        "§ 6 Abs. 5 S. 7 EStG",
+        "Themenpool: bilanz-modul-k3-48"
+      ],
+      "coverRegie": {
+        "thema": "Realteilung und Sachwertabfindung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-21-b1-bilanz-modul-k3-48-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-509",
+      "slug": "2026-10-21-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Hausrat geerbt: Welche Befreiung greift?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "und sachliche Steuerbefreiung in der Quellenreihenfolge trennen",
+            "Hausrat von anderen beweglichen körperlichen Gegenständen unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Je Wirtschaftsgut Wert nach § 12 ErbStG i.V.m. BewG ermitteln."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Sachliche Steuerbefreiung nach § 13 ErbStG untersuchen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Hausrat geerbt: Welche Befreiung greift? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Hausrat geerbt: Welche Befreiung greift?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 12 ErbStG",
+        "§ 13 Abs. 1 Nr. 1a ErbStG",
+        "§ 13 Abs. 1 Nr. 1b ErbStG",
+        "§ 13 Abs. 1 Nr. 1c ErbStG",
+        "R E 10.10 Abs. 2 S. 2",
+        "§ 13 Abs. 1 Nr. 1 Buchst. a–c ErbStG",
+        "Themenpool: erbst-modul-erbst-509"
+      ],
+      "coverRegie": {
+        "thema": "Sachliche Steuerbefreiungen im Hausrat und andere bewegliche körperliche Gegenstände",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-21-b2-erbst-modul-erbst-509-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr4-06",
+      "slug": "2026-10-21-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Passive Einkünfte: Greift die Freigrenze?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Passive Einkünfte: Greift die Freigrenze?",
+          "norm": "§ 9 AStG",
+          "icon": null,
+          "sprecher": "Passive Einkünfte: Greift die Freigrenze? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Passive Einkünfte: Greift die Freigrenze"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
+          "text": null,
+          "norm": "§ 9 AStG",
+          "icon": null,
+          "sprecher": "Schritt 1: Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
+          "marken": [
+            "Gesamte Einkünfte der ausländischen Gesellschaft"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Zwischeneinkünfte, für die die Gesellschaft Zwischengesellschaft ist, ins Verhältnis zu den gesamten E",
+          "text": null,
+          "norm": "§ 7 AStG",
+          "icon": null,
+          "sprecher": "Schritt 2: Zwischeneinkünfte, für die die Gesellschaft Zwischengesellschaft ist, ins Verhältnis zu den gesamten Einkünften setzen.",
+          "marken": [
+            "Zwischeneinkünfte, für die die Gesellschaft Zwis"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Passive Einkünfte: Greift die Freigrenze? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Passive Einkünfte: Greift die Freigrenze?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 9 AStG",
+        "§ 7 AStG",
+        "§ 8 AStG",
+        "Themenpool: istr-modul-istr-istr4-06"
+      ],
+      "coverRegie": {
+        "thema": "§ 9 AStG: relative und absolute Freigrenze",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-21-b3-istr-modul-istr-istr4-06-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-35",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-35"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Lösen § 8b-Korrekturen latente Steuern aus?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-35",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-35"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: nein, permanente Differenz. Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-46",
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 24 Abs. 1 UmwStG",
+        "§ 24 Abs. 2 S. 1, 2 UmwStG",
+        "§ 24 Abs. 3 UmwStG",
+        "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 16 Abs. 1 S. 2 EStG",
+        "§ 16 Abs. 2 S. 1 EStG",
+        "§ 6 Abs. 3 S. 1 EStG",
+        "§ 6 Abs. 5 S. 3 EStG",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "Themenpool: bilanz-modul-k3-46"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+      "titel": "Eintritt und Ausscheiden eines Mitunternehmers",
+      "text": "Eintritt gegen Einlage von der Anteilsveräußerung unterscheiden das Bewertungswahlrecht des § 24 Abs. 2 UmwStG ausüben und begründen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-1",
+      "quellen": [
+        "§ 238 Abs. 1 HGB",
+        "§ 242 Abs. 1 HGB",
+        "§ 140 AO",
+        "§ 141 AO",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
+        "§ 60 Abs. 2 EStDV",
+        "§ 5 Abs. 1 EStG",
+        "§§ 238, 242, 246 HGB",
+        "Themenpool: bilanz-modul-k3-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Maßgeblichkeit und Bilanzierungspflicht",
+      "text": "WER bilanziert? Kaufmann, Gesellschaft oder Steuerpflichtiger?"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "merksatz",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-210",
+      "quellen": [
+        "§ 17 Abs. 1 UStG",
+        "§ 17 Abs. 2 Nr. 1 UStG",
+        "§ 17 Abs. 2 Nr. 3 UStG",
+        "§ 17 Abs. 1, Abs. 2 UStG",
+        "Themenpool: ust-modul-ust-210"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "§ 17 UStG: Änderung der Bemessungsgrundlage, Uneinbringlichkeit und Rückgängigmachung",
+      "text": "§ 17 ist eine Nachlaufprüfung: erst ursprünglichen Umsatz lösen, dann die spätere Änderung."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-7",
+      "quellen": [
+        "§ 6b Abs. 1 EStG",
+        "§ 6b Abs. 3 EStG",
+        "§ 6b Abs. 4 S. 1 Nr. 1–5 EStG",
+        "§ 6b Abs. 7 EStG",
+        "§ 6b Abs. 10 EStG",
+        "R 6b.2 EStR",
+        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
+        "§ 6b EStG",
+        "Themenpool: bilanz-modul-k3-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Reinvestitionsrücklage nach § 6b EStG",
+      "text": "Veräußerungsgewinn isoliert ermitteln."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

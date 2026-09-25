@@ -1,0 +1,378 @@
+{
+  "datum": "2026-10-06",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-38",
+        "themaTitel": "Erwerb auf Rentenbasis und Herstellung eines Betriebsgebäudes",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-314",
+        "themaTitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr2-03",
+        "themaTitel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-38",
+      "slug": "2026-10-06-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rentenpreis für ein Gebäude: Was sind die AK?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Barzahlung und Rentenbarwert zusammenführen",
+            "Grund und Boden und Gebäude getrennt bewerten"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Übergang von Nutzen und Lasten feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Grund und Boden als nicht abnutzbares Anlagevermögen aufnehmen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Rentenpreis für ein Gebäude: Was sind die AK? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Rentenpreis für ein Gebäude: Was sind die AK?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 246 Abs. 1 S. 2 Hs. 2 HGB",
+        "§ 39 Abs. 2 Nr. 1 AO",
+        "§ 255 Abs. 1 S. 1 HGB",
+        "R 6.2 S. 1 EStR",
+        "H 6.10 'Rentenverpflichtung' EStH",
+        "§ 255 Abs. 2 S. 1 HGB",
+        "H 6.4 'Entschädigung' EStH",
+        "§ 9b Abs. 1 EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 1 UStG",
+        "§ 7 Abs. 4 S. 1 Nr. 1 EStG",
+        "Themenpool: bilanz-modul-k3-38"
+      ],
+      "coverRegie": {
+        "thema": "Erwerb auf Rentenbasis und Herstellung eines Betriebsgebäudes",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-06-b1-bilanz-modul-k3-38-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-314",
+      "slug": "2026-10-06-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Fristende am Sonntag: Was passiert am Montag?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Ereignisfrist erkennen",
+            "Fristbeginn nach § 187 BGB bestimmen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Fristauslösendes Ereignis feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Beginn nach § 187 BGB bestimmen; bei Ereignisfrist beginnt die Frist nach dem Ereignistag."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Thema für die nächste Wiederholung speichern"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "buch"
+          ]
+        }
+      ],
+      "caption": "Fristende am Sonntag: Was passiert am Montag? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Fristende am Sonntag: Was passiert am Montag?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 108 Abs. 1 AO",
+        "§ 187 BGB",
+        "§ 188 BGB",
+        "§ 108 Abs. 3 AO",
+        "§§ 187, 188 BGB",
+        "Themenpool: ao-modul-ao-314"
+      ],
+      "coverRegie": {
+        "thema": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-06-b2-ao-modul-ao-314-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-03",
+      "slug": "2026-10-06-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Kapitalertrag aus Deutschland: Ist der Abzug final?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Kapitalertrag aus Deutschland: Ist der Abzug final?",
+          "norm": "§ 20 EStG",
+          "icon": null,
+          "sprecher": "Kapitalertrag aus Deutschland: Ist der Abzug final? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Kapitalertrag aus Deutschland: Ist der Abzug final"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "§ 20 EStG – Kapitalertrag qualifizieren.",
+          "text": null,
+          "norm": "§ 20 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. § 20 EStG – Kapitalertrag qualifizieren.",
+          "marken": [
+            "§ 20 EStG – Kapitalertrag qualifizieren."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "§ 49 Abs. 1 Nr. 5 EStG – Inlandsbezug untersuchen.",
+          "text": null,
+          "norm": "§ 49 Abs. 1 Nr. 5 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. § 49 Abs. 1 Nr. 5 EStG – Inlandsbezug untersuchen.",
+          "marken": [
+            "§ 49 Abs. 1 Nr. 5 EStG – Inlandsbezug untersuche"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Kapitalertrag aus Deutschland: Ist der Abzug final? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Kapitalertrag aus Deutschland: Ist der Abzug final?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 20 EStG",
+        "§ 49 Abs. 1 Nr. 5 EStG",
+        "§ 43 EStG",
+        "§ 43a EStG",
+        "§ 44 EStG",
+        "§ 50 Abs. 2 EStG",
+        "§ 32d EStG",
+        "§§ 43 ff. EStG",
+        "Themenpool: istr-modul-istr-istr2-03"
+      ],
+      "coverRegie": {
+        "thema": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-06-b3-istr-modul-istr-istr2-03-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "datum": "2026-10-19",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-36",
+        "themaTitel": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "erbst-modul-erbst-542",
+        "themaTitel": "Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr1-03",
+        "themaTitel": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-karte-ust-3"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:07",
+        "art": "antwort",
+        "themaId": "ust-karte-ust-3"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:51",
+        "art": "norm",
+        "themaId": "ust-modul-ust-160"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:37",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-27"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:05",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-226"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:13",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-20"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-36",
+      "slug": "2026-10-19-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "den 0,03-%-Wert berechnen",
+            "die Entfernungspauschale mit dem für das Veranlagungsjahr geltenden Kilometersatz ermitteln"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Begünstigten Bruttolistenpreis und einfache Entfernung feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "0,03 % × einfache Entfernung × Monate berechnen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 4 Abs. 5 S. 1 Nr. 6 S. 3 EStG",
+        "§ 6 Abs. 1 Nr. 4 S. 2 EStG",
+        "§ 9 Abs. 1 S. 3 Nr. 4 EStG",
+        "§ 4 Abs. 5 S. 1 Nr. 6 EStG",
+        "Themenpool: bilanz-modul-k3-36"
+      ],
+      "coverRegie": {
+        "thema": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-19-b1-bilanz-modul-k3-36-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-542",
+      "slug": "2026-10-19-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
+          "coverBadge": "Klausurschema",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Regelwert und Öffnungsklausel trennen",
+            "Kaufpreisnachweis und Gutachtennachweis unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Regel: Wert nach dem einschlägigen Bewertungsverfahren; Maßstab § 177 i.V.m. § 9 BewG."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Ist ein niedrigerer gemeiner Wert nachweisbar? → § 198 untersuchen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Gutachten unter Grundbesitzwert: Welcher Wert zählt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
+      "coverBadge": "Klausurschema",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 177 BewG",
+        "§ 9 BewG",
+        "§ 198 Abs. 2 BewG",
+        "§ 198 Abs. 3 BewG",
+        "§ 198 Abs. 1–3 BewG",
+        "Themenpool: erbst-modul-erbst-542"
+      ],
+      "coverRegie": {
+        "thema": "Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-19-b2-erbst-modul-erbst-542-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr1-03",
+      "slug": "2026-10-19-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Drittstaatenverlust: Wo greift § 2a EStG?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Drittstaatenverlust: Wo greift § 2a EStG?",
+          "norm": "§ 2a Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Drittstaatenverlust: Wo greift § 2a EStG? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Drittstaatenverlust: Wo greift § 2a EStG"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Drittstaatenbezug und negative Einkünfte feststellen.",
+          "text": null,
+          "norm": "§ 2a Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Drittstaatenbezug und negative Einkünfte feststellen.",
+          "marken": [
+            "Drittstaatenbezug und negative Einkünfte festste"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
+          "text": null,
+          "norm": "§ 2a Abs. 2 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
+          "marken": [
+            "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG best"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Drittstaatenverlust: Wo greift § 2a EStG? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Drittstaatenverlust: Wo greift § 2a EStG?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 2a Abs. 1 EStG",
+        "§ 2a Abs. 2 EStG",
+        "§ 7 AStG",
+        "§ 2a EStG",
+        "§§ 7 ff. AStG",
+        "Themenpool: istr-modul-istr-istr1-03"
+      ],
+      "coverRegie": {
+        "thema": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-19-b3-istr-modul-istr-istr1-03-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-karte-ust-3",
+      "quellen": [
+        "Themenpool: ust-karte-ust-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Sonstige Leistung (§ 3 Abs. 9 UStG)"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-karte-ust-3",
+      "quellen": [
+        "Themenpool: ust-karte-ust-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Jede Leistung, die keine Lieferung ist – auch Dulden und Unterlassen."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-160",
+      "quellen": [
+        "§ 4 Nr. 9 Buchst. a UStG",
+        "§ 4 Nr. 12 S. 1 Buchst. a UStG",
+        "§ 4 Nr. 12 S. 2 UStG",
+        "§ 9 Abs. 1 UStG",
+        "§ 9 Abs. 2 UStG",
+        "§ 9 Abs. 3 UStG",
+        "A 9.2 Abs. 3 S. 2 UStAE",
+        "§ 4 Nr. 12 UStG",
+        "§ 9 UStG",
+        "Themenpool: ust-modul-ust-160"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 4 Nr. 9 Buchst. a UStG",
+      "titel": "Grundstücksumsätze: § 4 Nr. 9, § 4 Nr. 12 und Option nach § 9 UStG",
+      "text": "§ 4 Nr. 9 Buchst. a und § 4 Nr. 12 UStG voneinander unterscheiden die ausdrücklich nicht befreiten Vermietungsumsätze des § 4 Nr. 12 S. 2 erkennen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-27",
+      "quellen": [
+        "§ 246 Abs. 1 S. 1, S. 3 HGB",
+        "H 4.2 Abs. 15 'Betriebsschuld' EStH",
+        "§ 253 Abs. 1 S. 2 HGB",
+        "§ 256a S. 1, S. 2 HGB",
+        "§ 252 Abs. 1 Nr. 4 HGB",
+        "§ 6 Abs. 1 Nr. 3 EStG",
+        "§ 6 Abs. 1 Nr. 2 S. 1, S. 2 EStG",
+        "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
+        "§ 253 Abs. 1 S. 2",
+        "§ 256a HGB",
+        "Themenpool: bilanz-modul-k3-27"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Verbindlichkeiten, Fremdwährung und Abzinsung",
+      "text": "Ansatz als Verbindlichkeit über § 246 Abs. 1 S. 1, S. 3 HGB."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-226",
+      "quellen": [
+        "§ 15a Abs. 1–9 UStG",
+        "§ 44 Abs. 1–4 UStDV",
+        "§ 45 UStDV",
+        "§ 15a UStG",
+        "§§ 44, 45 UStDV",
+        "Themenpool: ust-modul-ust-226"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Vorsteuerberichtigung nach § 15a: Berichtigungsobjekt, Zeitraum und UStDV-Grenzen",
+      "text": "Ursprünglichen Vorsteuerabzug bestimmen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-20",
+      "quellen": [
+        "§ 60 Abs. 2 S. 1, 2 EStDV",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "§ 8 Abs. 1, 3 KStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 3c Abs. 2 EStG",
+        "§ 4 Abs. 5 EStG",
+        "§ 10 KStG",
+        "§ 60 Abs. 2 EStDV",
+        "§ 8 Abs. 3 KStG",
+        "Themenpool: bilanz-modul-k3-20"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Mehr-/Weniger-Rechnung und Überleitung",
+      "text": "Handelsbilanzgewinn als Ausgangspunkt festlegen."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

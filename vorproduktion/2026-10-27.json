@@ -1,0 +1,562 @@
+{
+  "datum": "2026-10-27",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-30",
+        "themaTitel": "Passive Rechnungsabgrenzung und Abgrenzungsfallen",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ust-modul-ust-233",
+        "themaTitel": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-modul-kst-12",
+        "themaTitel": "Vereinsbesteuerung",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:08",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-4"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:08",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-4"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:52",
+        "art": "norm",
+        "themaId": "bilanz-glossar-19"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:35",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-392"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:58",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-388"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:20",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-28"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-30",
+      "slug": "2026-10-27-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "die vier Merkmale des PRAP untersuchen",
+            "PRAP von erhaltener Anzahlung und Verbindlichkeit unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Einnahme vor dem Abschlussstichtag feststellen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Ertrag für eine Zeit nach dem Stichtag?"
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Geld schon erhalten: Muss ein PRAP in die Bilanz? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 250 Abs. 2 HGB",
+        "§ 5 Abs. 5 S. 1 Nr. 2 EStG",
+        "§ 266 Abs. 3 D. HGB",
+        "§ 246 Abs. 1 S. 1 HGB",
+        "R 6.5 EStR",
+        "§ 252 Abs. 1 Nr. 5 HGB",
+        "Themenpool: bilanz-modul-k3-30"
+      ],
+      "coverRegie": {
+        "thema": "Passive Rechnungsabgrenzung und Abgrenzungsfallen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-27-b1-bilanz-modul-k3-30-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-modul-ust-233",
+      "slug": "2026-10-27-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Betrieb übertragen: Liegt eine GiG vor?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Gesamtvermögen/Teilvermögen unterscheiden",
+            "Fortführung durch einen Erwerber untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Übertragung auf einen Erwerber?"
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Wesentliche Grundlagen vorhanden?"
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Betrieb übertragen: Liegt eine GiG vor? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "kurztitel": "Betrieb übertragen: Liegt eine GiG vor?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 1a S. 1–3 UStG",
+        "A 1.5 UStAE",
+        "§ 1 Abs. 1a UStG",
+        "Themenpool: ust-modul-ust-233"
+      ],
+      "coverRegie": {
+        "thema": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-27-b2-ust-modul-ust-233-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-12",
+      "slug": "2026-10-27-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
+          "unter": "Körperschaftsteuer",
+          "text": "Verein mit Umsatz: Greift die Steuerbefreiung?",
+          "norm": "§ 1 Abs. 1 Nr. 4 KStG",
+          "icon": null,
+          "sprecher": "Verein mit Umsatz: Greift die Steuerbefreiung? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Verein mit Umsatz: Greift die Steuerbefreiung"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "text": null,
+          "norm": "§ 1 Abs. 1 Nr. 4 KStG",
+          "icon": null,
+          "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "marken": [
+            "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG festste"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
+          "text": null,
+          "norm": "§ 5 Abs. 1 Nr. 9 S. 2 KStG",
+          "icon": null,
+          "sprecher": "Schritt 2: Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
+          "marken": [
+            "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und R"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Verein mit Umsatz: Greift die Steuerbefreiung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 1 Nr. 4 KStG",
+        "§ 5 Abs. 1 Nr. 9 S. 2 KStG",
+        "§ 14 S. 1, 3 AO",
+        "§ 64 Abs. 1, 3 AO",
+        "§ 67a AO",
+        "§ 68 Nr. 7 AO",
+        "§ 24 S. 1 KStG",
+        "§ 1 Abs. 1 Nr. 4",
+        "§ 5 Abs. 1 Nr. 9",
+        "§ 24 KStG",
+        "§ 64 Abs. 3 AO",
+        "Themenpool: kst-modul-kst-12"
+      ],
+      "coverRegie": {
+        "thema": "Vereinsbesteuerung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-27-b3-kst-modul-kst-12-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-4",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-4"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-4",
+      "quellen": [
+        "Themenpool: persg-quiz-k3-4"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: § 6b EStG. Die Übertragung stiller Reserven ist in § 6b EStG geregelt; R 6.6 EStR betrifft dagegen den unfreiwilligen Verlust."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-19",
+      "quellen": [
+        "§ 8b Abs. 4 KStG",
+        "§ 8b Abs. 4 S. 6 KStG",
+        "Themenpool: bilanz-glossar-19"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 8b Abs. 4 KStG",
+      "titel": "Streubesitzdividende",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-392",
+      "quellen": [
+        "§ 71 AO",
+        "§ 370 AO",
+        "§ 191 AO",
+        "§ 219 AO",
+        "§ 374 AO",
+        "Themenpool: ao-modul-ao-392"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Haftung des Steuerhinterziehers nach § 71 AO",
+      "text": "Steuerhinterziehung oder Steuerhehlerei einschließlich vorsätzlicher Tatbeteiligung feststellen."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-388",
+      "quellen": [
+        "§ 371 Abs. 1 AO",
+        "§ 371 Abs. 2 AO",
+        "§ 371 Abs. 3 AO",
+        "§ 378 Abs. 3 AO",
+        "§ 398a AO",
+        "§ 371 AO",
+        "§ 153 AO",
+        "§ 371 Abs. 1–3 AO",
+        "Themenpool: ao-modul-ao-388"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Selbstanzeige bei Steuerhinterziehung: § 371 AO und Sperrgründe",
+      "text": "Selbstanzeige: lückenlos je Steuerart – alle unverjährten Taten, mindestens die letzten zehn Kalenderjahre. Die 25.000-€-Grenze sperrt § 371, kann aber § 398a eröffnen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-28",
+      "quellen": [
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 253 Abs. 1 S. 2 HGB",
+        "§ 253 Abs. 2 S. 1, 2 HGB",
+        "§ 253 Abs. 6 HGB",
+        "§ 6a Abs. 1 Nr. 1–3 EStG",
+        "§ 6a Abs. 2 EStG",
+        "§ 6a Abs. 3 S. 1, 2 EStG",
+        "§ 6a Abs. 4 EStG",
+        "§ 5 Abs. 6 EStG",
+        "§ 6a EStG",
+        "Themenpool: bilanz-modul-k3-28"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Pensionsrückstellung",
+      "text": "Rechtsanspruch auf laufende Leistungen und Schriftform untersuchen (§ 6a Abs. 1 Nr. 1, 3 EStG)."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

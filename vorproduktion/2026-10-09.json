@@ -1,0 +1,547 @@
+{
+  "datum": "2026-10-09",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-12",
+        "themaTitel": "Ergänzungsbilanz",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-376",
+        "themaTitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr2-06",
+        "themaTitel": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:19",
+        "art": "frage",
+        "themaId": "kst-quiz-kst-2"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:19",
+        "art": "antwort",
+        "themaId": "kst-quiz-kst-2"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:56",
+        "art": "norm",
+        "themaId": "ao-modul-ao-359"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:38",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-333"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:47",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-304"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:10",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-0"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-12",
+      "slug": "2026-10-09-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Kaufpreis und anteiliges Buchkapital abstimmen",
+            "Mehr-/Minderwerte Wirtschaftsgütern zuweisen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Kaufpreis des Mitunternehmeranteils bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Übernommenes steuerliches Kapitalkonto abziehen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Anteil teurer gekauft: Wohin mit dem Mehrwert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 6 Abs. 1 Nr. 1, 2 EStG",
+        "§ 7 Abs. 1 EStG",
+        "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 15 EStG",
+        "§ 6 EStG",
+        "Themenpool: bilanz-modul-k3-12"
+      ],
+      "coverRegie": {
+        "thema": "Ergänzungsbilanz",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-09-b1-bilanz-modul-k3-12-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-376",
+      "slug": "2026-10-09-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "rechtsfähige Personenvereinigung selbst als Einspruchsbefugte nach § 352 Abs. 1 Nr. 1 AO erkennen",
+            "Vertreterhandeln nicht mit einem eigenen Einspruchsrecht des Vertreters verwechseln"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Rechtsfähigkeit der Personenvereinigung bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bestehende rechtsfähige Personenvereinigung: im Grundfall Einspruch durch die Personenvereinigung nach § 352 Abs. 1 Nr. 1 Buchst. a AO, vertreten durch ihren gesetzlichen Vertreter."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Feststellungsbescheid: Wer darf Einspruch einlegen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 352 AO",
+        "§ 34 AO",
+        "§ 183a AO",
+        "§ 352 Abs. 1 und 2 AO",
+        "Art. 97 § 39 Abs. 4 EGAO",
+        "Themenpool: ao-modul-ao-376"
+      ],
+      "coverRegie": {
+        "thema": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-09-b2-ao-modul-ao-376-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-06",
+      "slug": "2026-10-09-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
+          "norm": "Art. 5 DBA",
+          "icon": null,
+          "sprecher": "Auslandsgewinn: Gibt es eine Betriebsstätte? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Auslandsgewinn: Gibt es eine Betriebsstätte"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Unternehmensgewinn – Art. 7 DBA als Verteilungsnorm identifizieren.",
+          "text": null,
+          "norm": "Art. 5 DBA",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Unternehmensgewinn – Art. 7 DBA als Verteilungsnorm identifizieren.",
+          "marken": [
+            "Unternehmensgewinn – Art. 7 DBA als Verteilungsn"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Betriebsstätte nach Art. 5 untersuchen: feste Geschäftseinrichtung + Beispielsfälle.",
+          "text": null,
+          "norm": "Art. 7 DBA",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. Betriebsstätte nach Art. 5 untersuchen: feste Geschäftseinrichtung + Beispielsfälle.",
+          "marken": [
+            "Betriebsstätte nach Art. 5 untersuchen: feste Ge"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Auslandsgewinn: Gibt es eine Betriebsstätte? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "Art. 5 DBA",
+        "Art. 7 DBA",
+        "Art. 23 DBA",
+        "Art. 5 und Art. 7 DBA",
+        "Themenpool: istr-modul-istr-istr2-06"
+      ],
+      "coverRegie": {
+        "thema": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-09-b3-istr-modul-istr-istr2-06-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-2",
+      "quellen": [
+        "Themenpool: kst-quiz-kst-2"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-2",
+      "quellen": [
+        "Themenpool: kst-quiz-kst-2"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: der Gesellschafter oder eine nahestehende Person. Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-359",
+      "quellen": [
+        "AEAO zu § 173 Nr. 3",
+        "§ 165 Abs. 1 S. 2 Nr. 4 AO",
+        "§ 363 Abs. 2 AO",
+        "§ 173 Abs. 2 AO",
+        "§ 173 Abs. 1 und Abs. 2 AO",
+        "Themenpool: ao-modul-ao-359"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "AEAO zu § 173 Nr. 3",
+      "titel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
+      "text": "Rechtserheblichkeit einer neuen Tatsache von einer späteren Rechtsänderung oder Rechtsprechungsänderung trennen § 173 Abs. 2 nach Außenprüfung oder Mitteilung nach § 202 Abs. 1 S. 3 untersuchen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-333",
+      "quellen": [
+        "§ 171 Abs. 3a AO",
+        "§ 171 Abs. 4 AO",
+        "§ 196 AO",
+        "AEAO zu § 171 Nr. 2.2.1",
+        "Themenpool: ao-modul-ao-333"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
+      "text": "§ 171 Abs. 3a AO: zulässigen Einspruch feststellen; Reichweite der Quellenregel bestimmen."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-304",
+      "quellen": [
+        "§ 118 AO",
+        "§ 155 AO",
+        "§ 93 AO",
+        "§ 109 AO",
+        "Themenpool: ao-modul-ao-304"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Verwaltungsakt: Liegt überhaupt ein VA vor?",
+      "text": "Ohne VA keine VA-Korrektur und kein statthafter Einspruch gegen einen VA."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "begriff",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-0",
+      "quellen": [
+        "§ 39 Abs. 2 Nr. 1 AO",
+        "Themenpool: bilanz-glossar-0"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Wirtschaftliches Eigentum",
+      "text": "Tatsächliche Herrschaft, die den zivilrechtlichen Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt.",
+      "norm": "§ 39 Abs. 2 Nr. 1 AO"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

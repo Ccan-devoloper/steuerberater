@@ -1,0 +1,542 @@
+{
+  "datum": "2026-10-05",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-8",
+        "themaTitel": "Investitionsabzugsbetrag und Sonder-AfA",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-373",
+        "themaTitel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr1-05",
+        "themaTitel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:22",
+        "art": "frage",
+        "themaId": "kst-quiz-kst-8"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:22",
+        "art": "antwort",
+        "themaId": "kst-quiz-kst-8"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "ao-modul-ao-322"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:35",
+        "art": "countdown",
+        "tageBisExamen": 1
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:02",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-2"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:14",
+        "art": "fehler",
+        "themaId": "ao-modul-ao-324"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-8",
+      "slug": "2026-10-05-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "IAB gebildet: Welche Grenze gilt wirklich?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "IAB, Hinzurechnung, AK/HK-Minderung und Sonder-AfA trennen",
+            "Gewinngrenze und Höchstbetrag untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Begünstigtes bewegliches abnutzbares Anlagegut?"
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Gewinn ohne IAB höchstens 200.000 €?"
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "IAB gebildet: Welche Grenze gilt wirklich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "IAB gebildet: Welche Grenze gilt wirklich?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 7g Abs. 1 S. 1, 2 EStG",
+        "§ 7g Abs. 2 S. 1, 2 EStG",
+        "§ 7g Abs. 3 EStG",
+        "§ 7g Abs. 4 EStG",
+        "§ 7g Abs. 5 EStG",
+        "§ 7g Abs. 6 Nr. 1, 2 EStG",
+        "§ 7a Abs. 9 EStG",
+        "§ 7g EStG",
+        "Themenpool: bilanz-modul-k3-8"
+      ],
+      "coverRegie": {
+        "thema": "Investitionsabzugsbetrag und Sonder-AfA",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-05-b1-bilanz-modul-k3-8-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-373",
+      "slug": "2026-10-05-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Monatsfrist des § 110 Abs. 2 AO nach Wegfall des Hindernisses berechnen",
+            "Tatsachen zur Begründung glaubhaft machen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Für eine AO-Frist: Wegfall des Hindernisses feststellen und Monatsfrist des § 110 Abs. 2 AO berechnen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Tatsachen zur Begründung des fehlenden Verschuldens bei Antragstellung oder im Verfahren glaubhaft machen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Frist versäumt: Wann hilft Wiedereinsetzung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 110 Abs. 2 AO",
+        "§ 110 Abs. 3 AO",
+        "§ 110 Abs. 2 und 3 AO",
+        "§ 110 AO",
+        "§ 56 FGO",
+        "Themenpool: ao-modul-ao-373"
+      ],
+      "coverRegie": {
+        "thema": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-05-b2-ao-modul-ao-373-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr1-05",
+      "slug": "2026-10-05-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
+          "norm": "§ 1 Abs. 3 EStG",
+          "icon": null,
+          "sprecher": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Kein deutscher Wohnsitz: Trotzdem unbeschränkt"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
+          "text": null,
+          "norm": "§ 1 Abs. 3 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
+          "marken": [
+            "Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
+          "text": null,
+          "norm": "§ 49 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
+          "marken": [
+            "Inländische Einkünfte i.S.d. § 49 EStG vorhanden"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 3 EStG",
+        "§ 49 EStG",
+        "§ 32a Abs. 1 EStG",
+        "§ 50 Abs. 1 EStG",
+        "Themenpool: istr-modul-istr-istr1-05"
+      ],
+      "coverRegie": {
+        "thema": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-05-b3-istr-modul-istr-istr1-05-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-8",
+      "quellen": [
+        "Themenpool: kst-quiz-kst-8"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Gilt die 10-%-Streubesitzgrenze auch für Veräußerungsgewinne nach § 8b Abs. 2 KStG?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-8",
+      "quellen": [
+        "Themenpool: kst-quiz-kst-8"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: nein. Die in den Unterlagen behandelte Mindestquote betrifft Dividenden, nicht Veräußerungsgewinne."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-322",
+      "quellen": [
+        "§ 357 Abs. 2 AO",
+        "§ 110 AO",
+        "AEAO zu § 110 Nr. 2",
+        "Themenpool: ao-modul-ao-322"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 357 Abs. 2 AO",
+      "titel": "Einspruch beim falschen Finanzamt: Eingang, Weiterleitung und Wiedereinsetzung",
+      "text": "Anbringungs-Finanzamt und tatsächlich empfangendes Finanzamt auseinanderhalten Weiterleitungsfälle sauber in § 110 AO einordnen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "1",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "begriff",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-2",
+      "quellen": [
+        "§ 5 Abs. 6 EStG",
+        "Themenpool: bilanz-glossar-2"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Bewertungsvorbehalt",
+      "text": "Steuerliche Bewertungsvorschriften gehen der Maßgeblichkeit vor.",
+      "norm": "§ 5 Abs. 6 EStG"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-324",
+      "quellen": [
+        "§ 351 Abs. 1 AO",
+        "§ 367 Abs. 2 AO",
+        "§§ 17 ff. AO",
+        "§ 91 AO",
+        "§ 121 AO",
+        "§ 157 Abs. 1 S. 3 AO",
+        "Themenpool: ao-modul-ao-324"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Begründetheit des Einspruchs: Rechtmäßigkeit, Rechtsverletzung, § 351 und Gesamtaufrollung",
+      "falsch": "Fehlende Rechtsbehelfsbelehrung automatisch als Rechtswidrigkeit des Verwaltungsakts behandeln.",
+      "richtigText": "die Vier-Punkte-Begründetheitsformel lückenlos anwenden"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

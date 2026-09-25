@@ -1,0 +1,551 @@
+{
+  "datum": "2026-10-26",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-47",
+        "themaTitel": "Betriebsveräußerung, Betriebsaufgabe und § 34 EStG",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "erbst-modul-erbst-541",
+        "themaTitel": "Umfang des Grundvermögens nach § 176 BewG",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr3-13",
+        "themaTitel": "Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:18",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-11"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:18",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-11"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:13",
+        "art": "norm",
+        "themaId": "bilanz-glossar-6"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:38",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-243"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:51",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-383"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:18",
+        "art": "merksatz",
+        "themaId": "ust-modul-ust-234"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-47",
+      "slug": "2026-10-26-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Betrieb verkauft: Welcher Gewinn ist begünstigt?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Veräußerungsgewinn nach § 16 Abs. 2 EStG ermitteln",
+            "laufenden Gewinn vom begünstigten Veräußerungs- oder Aufgabegewinn unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Begünstigten Veräußerungs- oder Aufgabegewinn nach § 16 EStG bestimmen und laufende Gewinne unterscheiden."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Freibetrag nach § 16 Abs. 4 EStG nur auf Antrag und bei Vollendung des 55. Lebensjahrs oder dauernder Berufsunfähigkeit untersuchen; Abschmelzung beachten."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Betrieb verkauft: Welcher Gewinn ist begünstigt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Betrieb verkauft: Welcher Gewinn ist begünstigt?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 16 Abs. 1 S. 1 Nr. 1, 2 EStG",
+        "§ 16 Abs. 1 S. 2 EStG",
+        "§ 16 Abs. 2 S. 1, 2 EStG",
+        "§ 16 Abs. 3 S. 1 EStG",
+        "§ 16 Abs. 3 S. 7 EStG",
+        "§ 16 Abs. 4 S. 1, 3 EStG",
+        "§ 34 Abs. 1 S. 1 EStG",
+        "§ 34 Abs. 2 Nr. 1 EStG",
+        "§ 34 Abs. 3 S. 1, 2, 4 EStG",
+        "R 16 Abs. 1 EStR",
+        "§ 16 Abs. 4 EStG",
+        "§ 34 Abs. 1–3 EStG",
+        "Themenpool: bilanz-modul-k3-47"
+      ],
+      "coverRegie": {
+        "thema": "Betriebsveräußerung, Betriebsaufgabe und § 34 EStG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-26-b1-bilanz-modul-k3-47-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-541",
+      "slug": "2026-10-26-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Grundstückswert: Was gehört zum Grundvermögen?",
+          "coverBadge": "Klausurschema",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Bestandteile/Zubehör dem Grundvermögen zuweisen",
+            "Erbbaurecht erkennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "§ 176 Abs. 1: Grund und Boden + Gebäude aufnehmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Sonstige Bestandteile und Zubehör einbeziehen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Grundstückswert: Was gehört zum Grundvermögen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Grundstückswert: Was gehört zum Grundvermögen?",
+      "coverBadge": "Klausurschema",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 176 BewG",
+        "§ 193 BewG",
+        "§ 9 BewG",
+        "§ 176 Abs. 1 und 2 BewG",
+        "§ 97 BGB",
+        "Themenpool: erbst-modul-erbst-541"
+      ],
+      "coverRegie": {
+        "thema": "Umfang des Grundvermögens nach § 176 BewG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-26-b2-erbst-modul-erbst-541-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-13",
+      "slug": "2026-10-26-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
+          "norm": "§ 4 Abs. 1 S. 3 EStG",
+          "icon": null,
+          "sprecher": "Wirtschaftsgut ins Ausland: Wird es entstrickt? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Wirtschaftsgut ins Ausland: Wird es entstrickt"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Welches Gut verlässt den deutschen Steuerzugriff?",
+          "text": null,
+          "norm": "§ 4 Abs. 1 S. 3 EStG",
+          "icon": null,
+          "sprecher": "Identifiziere das betriebliche Wirtschaftsgut und seine bisherige Zuordnung zum deutschen Besteuerungsrecht.",
+          "marken": [
+            "Welches Gut verlässt den deutschen Steuerzugriff?"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Verliert Deutschland sein Besteuerungsrecht?",
+          "text": null,
+          "norm": "§ 6 Abs. 1 Nr. 4 EStG",
+          "icon": null,
+          "sprecher": "Bei einer Zuordnung zur ausländischen Betriebsstätte kläre, ob Deutschland den späteren Veräußerungsgewinn noch besteuern darf.",
+          "marken": [
+            "Verliert Deutschland sein Besteuerungsrecht?"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Wirtschaftsgut ins Ausland: Wird es entstrickt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 4 Abs. 1 S. 3 EStG",
+        "§ 6 Abs. 1 Nr. 4 EStG",
+        "§ 4g EStG",
+        "Themenpool: istr-modul-istr-istr3-13"
+      ],
+      "coverRegie": {
+        "thema": "Entstrickung beim Einzelunternehmer: § 4 Abs. 1 S. 3, § 6 und § 4g EStG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-26-b3-istr-modul-istr-istr3-13-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-11",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-11"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-11",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-11"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: mit Vereinnahmung. § 13 Abs. 1 Nr. 1 a) S. 4 UStG: bereits mit Vereinnahmung der Anzahlung."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-6",
+      "quellen": [
+        "§ 252 Abs. 1 Nr. 4 HGB",
+        "Themenpool: bilanz-glossar-6"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 252 Abs. 1 Nr. 4 HGB",
+      "titel": "Wertaufhellung",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-243",
+      "quellen": [
+        "A 1.6 Abs. 2 UStAE",
+        "A 2.3 Abs. 2 UStAE",
+        "§ 2 Abs. 1 UStG",
+        "§ 1 Abs. 1 Nr. 1 UStG",
+        "Themenpool: ust-modul-ust-243"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Gesellschafter und Gesellschaft: Beteiligung, Leistungsaustausch und Sonderentgelt",
+      "text": "Ebene der Gesellschaft: Aufnahme eines Gesellschafters nach A 1.6 Abs. 2 UStAE als solche nicht steuerbar."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-383",
+      "quellen": [
+        "§ 370 Abs. 1 AO",
+        "§ 153 AO",
+        "§ 150 AO",
+        "§ 370 AO",
+        "Themenpool: ao-modul-ao-383"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Steuerhinterziehung: Prüfschema des § 370 AO",
+      "text": "1. Objektiver Tatbestand."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-234",
+      "quellen": [
+        "§ 2 Abs. 2 Nr. 2 UStG",
+        "A 2.8 UStAE",
+        "BFH 18.01.2023 – XI R 29/22",
+        "BFH 29.08.2024 – V R 14/24",
+        "BMF 01.04.2026 – III C 2 - S 7105/00035/008/056",
+        "Themenpool: ust-modul-ust-234"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Organschaft: finanzielle, wirtschaftliche und organisatorische Eingliederung",
+      "text": "Organschaft: Stimmenmehrheit ist die Grundregel, aber 50 % können bei Kapitalmehrheit plus Alleingeschäftsführung genügen. Innenleistungen bleiben auch bei Verwendung für nichtwirtschaftliche Tätigkeiten i. e. S. nicht steuerbar."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

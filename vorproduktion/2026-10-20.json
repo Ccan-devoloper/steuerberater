@@ -1,0 +1,571 @@
+{
+  "datum": "2026-10-20",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-37",
+        "themaTitel": "Tausch, Inzahlungnahme und Investitionszuschuss",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-303",
+        "themaTitel": "Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-modul-kst-6",
+        "themaTitel": "Dreiecksfälle und materielle Korrespondenz",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:20",
+        "art": "frage",
+        "themaId": "bilanz-karte-k3-13"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:20",
+        "art": "antwort",
+        "themaId": "bilanz-karte-k3-13"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:09",
+        "art": "norm",
+        "themaId": "bilanz-glossar-21"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:24",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-161"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:44",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-4"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:19",
+        "art": "merksatz",
+        "themaId": "ust-modul-ust-218"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-37",
+      "slug": "2026-10-20-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Alt gegen neu getauscht: Welche AK entstehen?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Tausch und Inzahlungnahme als entgeltlichen Erwerb behandeln",
+            "den Tauschwert netto ermitteln"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Barzuzahlung und Wert des hingegebenen Wirtschaftsguts addieren."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bruttotauschwert durch 1,19 teilen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Alt gegen neu getauscht: Welche AK entstehen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Alt gegen neu getauscht: Welche AK entstehen?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 6 Abs. 6 S. 1 EStG",
+        "§ 3 Abs. 12 S. 1 UStG",
+        "§ 10 Abs. 2 S. 2, 3 UStG",
+        "§ 255 Abs. 1 S. 1 HGB",
+        "R 6.5 Abs. 1 EStR",
+        "R 6.5 Abs. 2 S. 2, 3 EStR",
+        "§ 250 Abs. 2 HGB",
+        "§ 5 Abs. 5 S. 1 Nr. 2 EStG",
+        "§ 7g Abs. 5, Abs. 6 Nr. 1, 2 EStG",
+        "§ 6 Abs. 6 EStG",
+        "Themenpool: bilanz-modul-k3-37"
+      ],
+      "coverRegie": {
+        "thema": "Tausch, Inzahlungnahme und Investitionszuschuss",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-20-b1-bilanz-modul-k3-37-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-303",
+      "slug": "2026-10-20-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Auskunftsersuchen nach § 93 AO als Verwaltungsakte einordnen",
+            "Formfreiheit nach § 119 Abs. 2 und Schriftform auf Verlangen nach § 93 Abs. 2 S. 2 unterscheiden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "untersuchen, ob ein hinreichend bestimmtes Auskunftsersuchen nach § 93 AO vorliegt und welche Person in Anspruch genommen wird."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bei einem Dritten § 93 Abs. 1 S. 3 AO untersuchen; bei Sammelauskunftsersuchen § 93 Abs. 1a separat anwenden."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Auskunft von Dritten: Wen fragt das Amt zuerst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 93 Abs. 1 AO",
+        "§ 97 AO",
+        "§ 101 AO",
+        "§ 102 AO",
+        "§ 104 AO",
+        "§ 15 AO",
+        "§ 80 AO",
+        "§ 119 Abs. 2 AO",
+        "§ 93 AO",
+        "§§ 101–104 AO",
+        "§ 93 Abs. 1–6 AO",
+        "§ 356 AO",
+        "AEAO zu § 93 Nr. 1.1",
+        "Themenpool: ao-modul-ao-303"
+      ],
+      "coverRegie": {
+        "thema": "Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-20-b2-ao-modul-ao-303-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-6",
+      "slug": "2026-10-20-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+          "unter": "Körperschaftsteuer",
+          "text": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+          "norm": "§ 8 Abs. 3 S. 2 KStG",
+          "icon": null,
+          "sprecher": "Dreiecksvorteil: vGA oder verdeckte Einlage? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Dreiecksvorteil: vGA oder verdeckte Einlage"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Leistende, begünstigte und beteiligte Person identifizieren.",
+          "text": null,
+          "norm": "§ 8 Abs. 3 S. 2 KStG",
+          "icon": null,
+          "sprecher": "Schritt 1: Leistende, begünstigte und beteiligte Person identifizieren.",
+          "marken": [
+            "Leistende, begünstigte und beteiligte Person ide"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Erste Vorteilsbewegung als vGA oder vE untersuchen.",
+          "text": null,
+          "norm": "§ 8 Abs. 3 S. 3–5 KStG",
+          "icon": null,
+          "sprecher": "Schritt 2: Erste Vorteilsbewegung als vGA oder vE untersuchen.",
+          "marken": [
+            "Erste Vorteilsbewegung als vGA oder vE untersuch"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Dreiecksvorteil: vGA oder verdeckte Einlage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 8 Abs. 3 S. 2 KStG",
+        "§ 8 Abs. 3 S. 3–5 KStG",
+        "§ 8b Abs. 1 S. 1, 2, 5 KStG",
+        "§ 3 Nr. 40 Buchst. d EStG",
+        "§ 8 Abs. 3 S. 4, 5 KStG",
+        "§ 8b Abs. 1 S. 2, 5 KStG",
+        "Themenpool: kst-modul-kst-6"
+      ],
+      "coverRegie": {
+        "thema": "Dreiecksfälle und materielle Korrespondenz",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-20-b3-kst-modul-kst-6-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-karte-k3-13",
+      "quellen": [
+        "Themenpool: bilanz-karte-k3-13"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-karte-k3-13",
+      "quellen": [
+        "Themenpool: bilanz-karte-k3-13"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Bereits mit der Vereinnahmung – § 13 Abs. 1 Nr. 1 a) S. 4 UStG. Die Verbindlichkeit 'erhaltene Anzahlungen' ist deshalb netto auszuweisen (§ 266 Abs. 3 C. 3 HGB)."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-21",
+      "quellen": [
+        "§ 4 Abs. 1 S. 1 EStG",
+        "Themenpool: bilanz-glossar-21"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 4 Abs. 1 S. 1 EStG",
+      "titel": "Kapitalanpassungsbuchung",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-161",
+      "quellen": [
+        "§ 12 Abs. 1 UStG",
+        "§ 12 Abs. 2 UStG",
+        "§ 12 Abs. 2 Nr. 10 UStG",
+        "§ 12 Abs. 2 Nr. 11 UStG",
+        "§ 12 Abs. 2 Nr. 15 UStG",
+        "§ 12 Abs. 3 UStG",
+        "Anlage 2 UStG",
+        "§ 12 Abs. 1–3 UStG",
+        "§ 12 Abs. 3 Nr. 1 UStG",
+        "A 12.18 Abs. 5 UStAE",
+        "Themenpool: ust-modul-ust-161"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Steuersätze: 19 %, 7 % und 0 % nach § 12 UStG",
+      "text": "Zuerst untersuchen, ob § 12 Abs. 3 UStG mit 0 % einschlägig ist."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-4",
+      "quellen": [
+        "§ 253 Abs. 3 S. 1, 2 HGB",
+        "§ 7 Abs. 1 S. 1, 2 EStG",
+        "§ 7 Abs. 1 S. 4 EStG",
+        "§ 7 Abs. 2 EStG",
+        "§ 7 Abs. 4, 5a EStG",
+        "§ 7a Abs. 9 EStG",
+        "§ 7 EStG",
+        "§ 253 Abs. 3 HGB",
+        "Themenpool: bilanz-modul-k3-4"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Absetzung für Abnutzung",
+      "text": "Abnutzbarkeit und Zugehörigkeit zum Anlagevermögen untersuchen."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-218",
+      "quellen": [
+        "§ 15 Abs. 1 UStG",
+        "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+        "§ 15 Abs. 2 S. 1 Nr. 2 UStG",
+        "§ 15 Abs. 3 UStG",
+        "§ 15 Abs. 4 UStG",
+        "§ 15 Abs. 2, Abs. 3, Abs. 4 UStG",
+        "Themenpool: ust-modul-ust-218"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Vorsteuerausschluss und Aufteilung: § 15 Abs. 2 bis 4",
+      "text": "Direkt zuweisen vor aufteilen; Abs. 3 erst nach einem Ausschluss nach Abs. 2 untersuchen."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

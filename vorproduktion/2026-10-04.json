@@ -1,0 +1,548 @@
+{
+  "datum": "2026-10-04",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-31",
+        "themaTitel": "Bilanzberichtigung und Bilanzänderung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-318",
+        "themaTitel": "Zulässigkeit des Einspruchs I: Statthaftigkeit und Form",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr2-09",
+        "themaTitel": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": true
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:09",
+        "art": "frage",
+        "themaId": "kst-karte-kst-3"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "kst-karte-kst-3"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:03",
+        "art": "norm",
+        "themaId": "ao-modul-ao-340"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:32",
+        "art": "countdown",
+        "tageBisExamen": 2
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:51",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-317"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:18",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-1"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-31",
+      "slug": "2026-10-04-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Falsche Bilanz: Berichtigung oder Änderung?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Berichtigung und Änderung sauber trennen",
+            "die gesetzlichen Voraussetzungen der Bilanzänderung nach § 4 Abs. 2 S. 2 EStG erkennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Ist der Bilanzansatz objektiv unrichtig?"
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Ja: Berichtigung nach § 4 Abs. 2 S. 1 EStG, solange die Veranlagung änderbar ist."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Falsche Bilanz: Berichtigung oder Änderung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Falsche Bilanz: Berichtigung oder Änderung?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 4 Abs. 2 S. 1 EStG",
+        "§ 4 Abs. 2 S. 2 EStG",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "§ 60 Abs. 2 EStDV",
+        "R 4.4 EStR",
+        "§ 172 ff. AO",
+        "§ 4 Abs. 2 EStG",
+        "§ 4 Abs. 2 S. 1, 2 EStG",
+        "Themenpool: bilanz-modul-k3-31"
+      ],
+      "coverRegie": {
+        "thema": "Bilanzberichtigung und Bilanzänderung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-04-b1-bilanz-modul-k3-31-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-318",
+      "slug": "2026-10-04-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Statthaftigkeit nach §§ 347, 348 AO untersuchen",
+            "auch unwirksame VA im statthaften Rechtsbehelfsweg einordnen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Statthaftigkeit nach § 347 AO untersuchen; Ausschlüsse des § 348 AO beachten."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Sonderfall Untätigkeit entsprechend der Quellenübersicht untersuchen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Thema für die nächste Wiederholung speichern"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "buch"
+          ]
+        }
+      ],
+      "caption": "Einspruch: Ist dieser Verwaltungsakt anfechtbar? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 347 AO",
+        "§ 348 AO",
+        "§ 357 Abs. 1 AO",
+        "§ 357 Abs. 3 AO",
+        "Themenpool: ao-modul-ao-318"
+      ],
+      "coverRegie": {
+        "thema": "Zulässigkeit des Einspruchs I: Statthaftigkeit und Form",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-04-b2-ao-modul-ao-318-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-09",
+      "slug": "2026-10-04-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Erst nationales Recht, dann DBA: Warum?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Erst nationales Recht, dann DBA: Warum?",
+          "norm": "§ 1 EStG",
+          "icon": null,
+          "sprecher": "Erst nationales Recht, dann DBA: Warum? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Erst nationales Recht, dann DBA: Warum"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Steuerpflicht nach § 1 EStG.",
+          "text": null,
+          "norm": "§ 1 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. Steuerpflicht nach § 1 EStG.",
+          "marken": [
+            "Steuerpflicht nach § 1 EStG."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG.",
+          "text": null,
+          "norm": "§ 49 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG.",
+          "marken": [
+            "Einkunftsart und bei beschränkter Steuerpflicht "
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Erst nationales Recht, dann DBA: Warum? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Erst nationales Recht, dann DBA: Warum?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 EStG",
+        "§ 49 EStG",
+        "§ 50 EStG",
+        "Art. 1–23 DBA",
+        "§ 32b EStG",
+        "DBA AAVV",
+        "§ 50 / § 32b EStG",
+        "Themenpool: istr-modul-istr-istr2-09"
+      ],
+      "coverRegie": {
+        "thema": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-04-b3-istr-modul-istr-istr2-09-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-3",
+      "quellen": [
+        "Themenpool: kst-karte-kst-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Nutzungsvorteil"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-3",
+      "quellen": [
+        "Themenpool: kst-karte-kst-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Reine Arbeits- oder Nutzungsüberlassung ist regelmäßig kein einlagefähiger Vermögensvorteil."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-340",
+      "quellen": [
+        "§ 181 Abs. 1 S. 1 AO",
+        "§ 181 Abs. 5 S. 1 AO",
+        "§ 181 Abs. 5 S. 2 AO",
+        "§ 169 Abs. 1 S. 1 AO",
+        "§ 182 Abs. 1 S. 1 AO",
+        "AEAO zu § 179 Nr. 2",
+        "§ 181 Abs. 5 S. 1 und S. 2 AO",
+        "§ 181 Abs. 5 S. 1 und 2 AO",
+        "AEAO zu § 181 Nr. 1.1 und 1.2",
+        "BFH 15.07.2021 – II R 38/19",
+        "BFH 24.04.2024 – IV R 19/21",
+        "Themenpool: ao-modul-ao-340"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 181 Abs. 1 S. 1 AO",
+      "titel": "§ 181 Abs. 5 AO: Feststellungsbescheid nach Ablauf der Feststellungsfrist und einschränkender Wirksamkeitsvermerk",
+      "text": "abgelaufene Feststellungsfrist von offener Festsetzungsfrist des Folgebescheids trennen § 171 Abs. 10 bei der Voraussetzung des § 181 Abs. 5 S. 1 außer Betracht lassen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "countdown",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Steuerberaterexamen",
+      "ueberzeile": "Noch",
+      "zahl": "2",
+      "titel": "Tage bis zum Examen",
+      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+      "fortschritt": 0,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-317",
+      "quellen": [
+        "§§ 347 ff. AO",
+        "§ 367 Abs. 2 AO",
+        "§ 361 AO",
+        "Themenpool: ao-modul-ao-317"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Einspruchsverfahren: Reichweite, Auslegung und Erfolgsformel",
+      "text": "Einspruch immer zweistufig: erst Zulässigkeit, dann Begründetheit."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "begriff",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-1",
+      "quellen": [
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "Themenpool: bilanz-glossar-1"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Begriff des Tages",
+      "titel": "Maßgeblichkeit",
+      "text": "Übernahme der handelsrechtlichen GoB in die Steuerbilanz, soweit keine steuerliche Sonderregelung besteht.",
+      "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

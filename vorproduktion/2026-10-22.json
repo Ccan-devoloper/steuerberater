@@ -1,0 +1,566 @@
+{
+  "datum": "2026-10-22",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-22",
+        "themaTitel": "Geringwertige Wirtschaftsgüter und Sammelposten",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "erbst-modul-erbst-540",
+        "themaTitel": "Grundstücksbewertung: § 12 Abs. 3 ErbStG → gesonderter Grundbesitzwert nach §§ 151, 157 BewG",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-modul-kst-2",
+        "themaTitel": "Vom Steuerbilanzgewinn zum zu versteuernden Einkommen",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": false
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:17",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-3"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:17",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-3"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "bilanz-glossar-3"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:33",
+        "art": "merksatz",
+        "themaId": "ust-modul-ust-225"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:01",
+        "art": "tipp",
+        "themaId": "bilanz-modul-k3-51"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:05",
+        "art": "fehler",
+        "themaId": "bilanz-modul-k3-33"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-22",
+      "slug": "2026-10-22-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Geringwertiges Gut: Sofortabzug oder Sammelposten?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "selbständige Nutzbarkeit untersuchen",
+            "die drei Wertgrenzen zutreffend anwenden"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Beweglich, abnutzbar, Anlagevermögen und selbständig nutzbar?"
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "AK/HK netto ermitteln – die Vorsteuer bleibt nach § 9b Abs. 1 EStG außen vor."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Geringwertiges Gut: Sofortabzug oder Sammelposten? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Geringwertiges Gut: Sofortabzug oder Sammelposten?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 6 Abs. 2 S. 1 EStG",
+        "§ 6 Abs. 2 S. 2, 3 EStG",
+        "§ 6 Abs. 2 S. 4, 5 EStG",
+        "§ 6 Abs. 2a S. 1–4 EStG",
+        "R 6.13 Abs. 1–5 EStR",
+        "§ 9b Abs. 1 EStG",
+        "§ 253 Abs. 3 S. 1, 2 HGB",
+        "§ 6 Abs. 2 und 2a EStG",
+        "R 6.13 EStR",
+        "Themenpool: bilanz-modul-k3-22"
+      ],
+      "coverRegie": {
+        "thema": "Geringwertige Wirtschaftsgüter und Sammelposten",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-22-b1-bilanz-modul-k3-22-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-540",
+      "slug": "2026-10-22-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Grundstück im Nachlass: Wer stellt den Wert fest?",
+          "coverBadge": "Klausurschema",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "§12 Abs.3 ErbStG als Grundstücks-Türöffner beherrschen",
+            "separate Feststellung von eigener Bewertung im ErbSt-Bescheid trennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Erworbenes Wirtschaftsgut als inländischen Grundbesitz identifizieren."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "§ 12 Abs. 3 ErbStG anwenden."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Grundstück im Nachlass: Wer stellt den Wert fest? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Grundstück im Nachlass: Wer stellt den Wert fest?",
+      "coverBadge": "Klausurschema",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 12 Abs. 3 ErbStG",
+        "§ 151 Abs. 1 BewG",
+        "§ 157 Abs. 1 BewG",
+        "§ 157 Abs. 3 BewG",
+        "§§ 176–198 BewG",
+        "§ 157 Abs. 1 und 3 BewG",
+        "Themenpool: erbst-modul-erbst-540"
+      ],
+      "coverRegie": {
+        "thema": "Grundstücksbewertung: § 12 Abs. 3 ErbStG → gesonderter Grundbesitzwert nach §§ 151, 157 BewG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-22-b2-erbst-modul-erbst-540-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-2",
+      "slug": "2026-10-22-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu?",
+          "unter": "Körperschaftsteuer",
+          "text": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu?",
+          "norm": "§ 8 Abs. 1 KStG",
+          "icon": null,
+          "sprecher": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Steuerbilanzgewinn als Ausgangspunkt",
+          "text": null,
+          "norm": "§ 8 Abs. 1 KStG",
+          "icon": null,
+          "sprecher": "Beginne mit dem steuerlichen Ergebnis des Körperschaftsteuerjahres, bevor du Korrekturen vornimmst.",
+          "marken": [
+            "Steuerbilanzgewinn als Ausgangspunkt"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Fehler der Bilanz oder Gewinnermittlung innerbilanziell korrigieren.",
+          "text": null,
+          "norm": "§ 8 Abs. 2 KStG",
+          "icon": null,
+          "sprecher": "Schritt 2: Fehler der Bilanz oder Gewinnermittlung innerbilanziell korrigieren.",
+          "marken": [
+            "Fehler der Bilanz oder Gewinnermittlung innerbil"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 8 Abs. 1 KStG",
+        "§ 8 Abs. 2 KStG",
+        "§ 4 Abs. 1 EStG",
+        "§ 5 Abs. 1 EStG",
+        "§ 7 Abs. 1 KStG",
+        "§ 23 Abs. 1 KStG",
+        "§ 3 Abs. 1 SolzG",
+        "§ 8 Abs. 1, 2 KStG",
+        "EStG",
+        "ADB",
+        "Themenpool: kst-modul-kst-2"
+      ],
+      "coverRegie": {
+        "thema": "Vom Steuerbilanzgewinn zum zu versteuernden Einkommen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-22-b3-kst-modul-kst-2-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-3",
+      "quellen": [
+        "Themenpool: ust-quiz-ust-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Wie lang ist der Berichtigungszeitraum des § 15a UStG bei Grundstücken?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-3",
+      "quellen": [
+        "Themenpool: ust-quiz-ust-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: 10 Jahre. § 15a Abs. 1 S. 2 UStG: zehn Jahre bei Grundstücken einschließlich ihrer wesentlichen Bestandteile, sonst fünf Jahre."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-3",
+      "quellen": [
+        "§ 253 Abs. 1 S. 2 HGB",
+        "Themenpool: bilanz-glossar-3"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 253 Abs. 1 S. 2 HGB",
+      "titel": "Erfüllungsbetrag",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "merksatz",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-225",
+      "quellen": [
+        "§ 3 Abs. 9a Nr. 1 UStG",
+        "§ 3 Abs. 12 S. 2 UStG",
+        "§ 10 UStG",
+        "A 15.23 UStAE",
+        "§ 3a Abs. 1 UStG",
+        "§ 3a Abs. 3 Nr. 2 S. 3 UStG",
+        "BFH 30.06.2022 – V R 25/21",
+        "BMF 03.03.2026 – III C 3 - S 7117-e/00003/005/058",
+        "Themenpool: ust-modul-ust-225"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Merksatz",
+      "titel": "Pkw-Überlassung: Unternehmerentnahme oder entgeltliche Arbeitnehmerüberlassung",
+      "text": "Dienstwagen 2026: Arbeitnehmerüberlassung ist nicht wegen des Arbeitsverhältnisses automatisch entgeltlich. Zusammenhang mit der Arbeitsleistung untersuchen; entgeltlich langfristig im Grundfall Arbeitnehmer-Wohnsitz, ausnahmsweise unentgeltlich § 3a Abs. 1."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-51",
+      "quellen": [
+        "§ 7 Abs. 2 S. 1, S. 2 EStG",
+        "§ 7 Abs. 2a EStG",
+        "§ 7 Abs. 3 EStG",
+        "§ 7 Abs. 1 S. 4 EStG",
+        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
+        "§ 253 Abs. 3 S. 1, S. 2 HGB",
+        "§ 7g Abs. 5 EStG",
+        "§ 7 Abs. 2, 2a EStG",
+        "§ 253 Abs. 3 HGB",
+        "Themenpool: bilanz-modul-k3-51"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Degressive AfA 2025–2027 und E-Fahrzeug-AfA",
+      "text": "Bewegliches Wirtschaftsgut des Anlagevermögens? Anschaffung nach dem 30.6.2025 und vor dem 1.1.2028?"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "fehler",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-modul-k3-33",
+      "quellen": [
+        "§ 37 Abs. 3 StBerG",
+        "DVStB",
+        "Prüfungshinweise der Aufgabenstellung",
+        "6 Stunden",
+        "100 Punkte",
+        "Themenpool: bilanz-modul-k3-33"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Zeit- und Punktemanagement in der Klausur",
+      "falsch": "Den ersten Sachverhalt perfektionieren und die letzten beiden nicht mehr erreichen.",
+      "richtigText": "das Zeitbudget je Aufgabenteil vorab festlegen"
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

@@ -1,0 +1,557 @@
+{
+  "datum": "2026-10-25",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-14",
+        "themaTitel": "Eigenkapitalgliederung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "erbst-modul-erbst-543",
+        "themaTitel": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "kst-modul-kst-11",
+        "themaTitel": "Ertragsteuerliche Organschaft",
+        "fach": "kst",
+        "klausur": 2,
+        "lang": true
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:23",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-10"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:23",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-10"
+      },
+      {
+        "slot": "s6",
+        "zeit": "11:50",
+        "art": "norm",
+        "themaId": "bilanz-glossar-7"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:34",
+        "art": "tipp",
+        "themaId": "ust-modul-ust-211"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:45",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-348"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:10",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-386"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-14",
+      "slug": "2026-10-25-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Eigenkapitalposten nach § 266 HGB benennen",
+            "Agio und andere Zuzahlungen der Kapitalrücklage zuweisen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Rechtsgrund des Mittelzuflusses bestimmen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Nennbetrag dem gezeichneten Kapital zuweisen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Agio erhalten: Gezeichnetes Kapital oder Rücklage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 266 Abs. 3 A. HGB",
+        "§ 272 Abs. 1 HGB",
+        "§ 272 Abs. 2 Nr. 1–4 HGB",
+        "§ 272 Abs. 3 HGB",
+        "§ 268 Abs. 1 HGB",
+        "§ 27 Abs. 1 KStG",
+        "§§ 266, 272 HGB",
+        "GmbHG/AktG",
+        "Themenpool: bilanz-modul-k3-14"
+      ],
+      "coverRegie": {
+        "thema": "Eigenkapitalgliederung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-25-b1-bilanz-modul-k3-14-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-543",
+      "slug": "2026-10-25-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "unbebaut/bebaut unterscheiden",
+            "drei Bewertungsverfahren sicher benennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Unbebaut? → § 179 BewG."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bebaut? → Grundstücksart nach § 181 bestimmen und § 182 Methodenwahl anwenden."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Unbebaut oder bebaut: Welches Verfahren gilt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "kurztitel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 179 BewG",
+        "§ 181 BewG",
+        "§ 182 BewG",
+        "§ 183 BewG",
+        "§§ 184–188 BewG",
+        "§§ 189–191 BewG",
+        "§§ 192–197 BewG",
+        "§§ 178–198 BewG",
+        "§§ 183–191 BewG",
+        "Themenpool: erbst-modul-erbst-543"
+      ],
+      "coverRegie": {
+        "thema": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-25-b2-erbst-modul-erbst-543-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-modul-kst-11",
+      "slug": "2026-10-25-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
+          "unter": "Körperschaftsteuer",
+          "text": "Organschaft: Trägt der Gewinnabführungsvertrag?",
+          "norm": "§ 14 Abs. 1 S. 1 KStG",
+          "icon": null,
+          "sprecher": "Organschaft: Trägt der Gewinnabführungsvertrag? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Organschaft: Trägt der Gewinnabführungsvertrag"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "Taugliche Organgesellschaft nach § 14 Abs. 1 S. 1 KStG feststellen.",
+          "text": null,
+          "norm": "§ 14 Abs. 1 S. 1 KStG",
+          "icon": null,
+          "sprecher": "Schritt 1: Taugliche Organgesellschaft nach § 14 Abs. 1 S. 1 KStG feststellen.",
+          "marken": [
+            "Taugliche Organgesellschaft nach § 14 Abs. 1 S. "
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
+          "text": null,
+          "norm": "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+          "icon": null,
+          "sprecher": "Schritt 2: Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
+          "marken": [
+            "Tauglichen Organträger und gewerbliche Tätigkeit"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Organschaft: Trägt der Gewinnabführungsvertrag? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "kurztitel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 14 Abs. 1 S. 1 KStG",
+        "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+        "§ 14 Abs. 1 S. 1 Nr. 3 KStG",
+        "§ 14 Abs. 1 S. 2 KStG",
+        "§ 15 S. 1 KStG",
+        "§ 16 KStG",
+        "§ 17 KStG",
+        "§§ 14–17 KStG",
+        "Themenpool: kst-modul-kst-11"
+      ],
+      "coverRegie": {
+        "thema": "Ertragsteuerliche Organschaft",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-25-b3-kst-modul-kst-11-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-10",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-10"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-10",
+      "quellen": [
+        "Themenpool: bilanz-quiz-k3-10"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "Richtig: Nettobestand ohne Umsatzsteuer. Für die Umsatzsteuer besteht kein Ausfallrisiko (UStAE 17.1 Abs. 5 S. 9)."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-glossar-7",
+      "quellen": [
+        "§ 4 Abs. 1 EStG",
+        "Themenpool: bilanz-glossar-7"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 4 Abs. 1 EStG",
+      "titel": "Formeller Bilanzenzusammenhang",
+      "text": ""
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-modul-ust-211",
+      "quellen": [
+        "§ 3 Abs. 1b S. 1 Nr. 1–3 UStG",
+        "§ 3 Abs. 1b S. 2 UStG",
+        "§ 10 Abs. 4 S. 1 Nr. 1 UStG",
+        "§ 3 Abs. 1b UStG",
+        "Themenpool: ust-modul-ust-211"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Unentgeltliche Wertabgaben – Lieferungen nach § 3 Abs. 1b",
+      "text": "Unentgeltliche Zuwendung einer Lieferung zuweisen."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-348",
+      "quellen": [
+        "§ 165 Abs. 1 S. 1 AO",
+        "§ 165 Abs. 1 S. 2 AO",
+        "§ 165 Abs. 2 AO",
+        "§ 165 Abs. 1 S. 1 und S. 2 AO",
+        "Themenpool: ao-modul-ao-348"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Vorläufige Festsetzung (§ 165 AO): Skalpell, Umfang und Fallgruppen",
+      "text": "1. Konkrete Ungewissheit identifizieren."
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-386",
+      "quellen": [
+        "§ 369 Abs. 2 AO",
+        "§ 15 StGB",
+        "§ 378 Abs. 1 AO",
+        "AEAO zu § 153 Nr. 2.6",
+        "§ 378 Abs. 1–3 AO",
+        "§ 370 Abs. 1, Abs. 4–7 AO",
+        "Themenpool: ao-modul-ao-386"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Steuerhinterziehung: subjektiver Tatbestand, Vorsatz und Leichtfertigkeit",
+      "text": "Tathandlung nach § 370 Abs. 1 Nr. 1 bis 3 AO und den steuerlichen Verkürzungs-/Vorteilserfolg untersuchen; § 370 Abs. 4 bis 7 gilt entsprechend."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}

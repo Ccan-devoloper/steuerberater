@@ -1,0 +1,565 @@
+{
+  "datum": "2026-10-11",
+  "status": "vorproduziert",
+  "freigabeBetreiber": false,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "review",
+  "layoutQuelle": "herrjurist",
+  "semantikQuelle": "examenscampus",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "piperOffline": true,
+    "coverbilder": false
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "spickzettel",
+        "themaId": "bilanz-modul-k3-26",
+        "themaTitel": "Rücklage für Ersatzbeschaffung",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "spickzettel",
+        "themaId": "ao-modul-ao-360",
+        "themaTitel": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
+        "fach": "ao",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "istr-modul-istr-istr3-02",
+        "themaTitel": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA",
+        "fach": "istr",
+        "klausur": 2,
+        "lang": true
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:15",
+        "art": "frage",
+        "themaId": "kst-karte-kst-11"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:15",
+        "art": "antwort",
+        "themaId": "kst-karte-kst-11"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:13",
+        "art": "norm",
+        "themaId": "ao-modul-ao-361"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:23",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-335"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2",
+        "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s8",
+        "zeit": "16:47",
+        "art": "fehler",
+        "themaId": "ao-modul-ao-323"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:09",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-341"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3",
+        "status": "aus-beitrag-ableitbar"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-26",
+      "slug": "2026-10-11-b1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Zerstörte Maschine: Wann ist eine Ersatzrücklage möglich?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Voraussetzungen der Rücklage für Ersatzbeschaffung von § 6b EStG unterscheiden",
+            "ernsthafte Ersatzbeschaffungsabsicht bereits bei Rücklagenbildung untersuchen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Ausscheiden durch höhere Gewalt oder behördlichen Eingriff und Aufdeckung stiller Reserven untersuchen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Am Schluss des Ausscheidensjahres ernstlich geplante und zu erwartende funktionsgleiche Ersatzbeschaffung feststellen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Zerstörte Maschine: Wann ist eine Ersatzrücklage möglich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Zerstörte Maschine: Wann ist eine Ersatzrücklage möglich?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "R 6.6 Abs. 1 EStR",
+        "R 6.6 Abs. 3 EStR",
+        "R 6.6 Abs. 4 EStR",
+        "R 6.6 Abs. 5 EStR",
+        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
+        "§ 6b EStG",
+        "R 6.6 EStR",
+        "BFH 12.01.2012 – IV R 4/09",
+        "Themenpool: bilanz-modul-k3-26"
+      ],
+      "coverRegie": {
+        "thema": "Rücklage für Ersatzbeschaffung",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-11-b1-bilanz-modul-k3-26-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-360",
+      "slug": "2026-10-11-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Änderungsantrag oder Einspruch: Was wurde erklärt?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "schlichten Änderungsantrag und Einspruch rechtlich trennen",
+            "Formfreiheit des Änderungsantrags kennen"
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "untersuchen, ob eine Erklärung als Einspruch oder als Antrag auf schlichte Änderung auszulegen ist; bei Unklarheit Reichweite und Rechtsschutzinteresse würdigen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Beim schlichten Änderungsantrag Formfreiheit beachten; auch mündliche oder telefonische Anträge sind möglich und aktenkundig zu machen."
+            }
+          ]
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Änderungsantrag oder Einspruch: Was wurde erklärt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Änderungsantrag oder Einspruch: Was wurde erklärt?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 172 Abs. 1 Nr. 2 Buchst. a AO",
+        "§ 356 AO",
+        "§ 357 AO",
+        "§ 110 AO",
+        "§ 172 Abs. 1 Nr. 2 Buchst. c AO",
+        "§ 370 Abs. 4 S. 3 AO",
+        "§ 172 Abs. 1 Nr. 2 Buchst. a und c AO",
+        "§§ 356, 357 und 110 AO",
+        "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+        "AEAO zu § 172 Nr. 2",
+        "BFH 20.12.2006 – X R 30/05",
+        "BFH 22.05.2019 – XI R 17/18",
+        "Themenpool: ao-modul-ao-360"
+      ],
+      "coverRegie": {
+        "thema": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-11-b2-ao-modul-ao-360-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "reel",
+      "layout": "erklaer",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-02",
+      "slug": "2026-10-11-b3",
+      "szenen": [
+        {
+          "art": "hook",
+          "nummer": null,
+          "titel": "Dividende ins Ausland: Wer behält Steuer ein?",
+          "unter": "Internationales Steuerrecht",
+          "text": "Dividende ins Ausland: Wer behält Steuer ein?",
+          "norm": "§ 20 Abs. 1 Nr. 1 EStG",
+          "icon": null,
+          "sprecher": "Dividende ins Ausland: Wer behält Steuer ein? Hier sind die zwei entscheidenden Prüfschritte.",
+          "marken": [
+            "Dividende ins Ausland: Wer behält Steuer ein"
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 1,
+          "titel": "§ 20 EStG: Dividende qualifizieren.",
+          "text": null,
+          "norm": "§ 20 Abs. 1 Nr. 1 EStG",
+          "icon": null,
+          "sprecher": "Schritt 1: 1. § 20 EStG: Dividende qualifizieren.",
+          "marken": [
+            "§ 20 EStG: Dividende qualifizieren."
+          ]
+        },
+        {
+          "art": "schritt",
+          "nummer": 2,
+          "titel": "§ 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/Gesellschaft als Inlandsanknüpfung.",
+          "text": null,
+          "norm": "§ 49 Abs. 1 Nr. 5 EStG",
+          "icon": null,
+          "sprecher": "Schritt 2: 2. § 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/Gesellschaft als Inlandsanknüpfung.",
+          "marken": [
+            "§ 49 Abs. 1 Nr. 5 EStG: inländischer Schuldner/G"
+          ]
+        },
+        {
+          "art": "merke",
+          "nummer": null,
+          "titel": "Merksatz",
+          "text": "Jetzt die Rechtsfolge des zweiten Prüfschritts im Gesetz nachlesen.",
+          "sprecher": "Kontrolliere zum Schluss die Rechtsfolge der zweiten Weiche anhand der genannten Norm.",
+          "marken": [
+            "Merksatz"
+          ]
+        },
+        {
+          "art": "cta",
+          "nummer": null,
+          "titel": "Prüfungsschritte festigen",
+          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "marken": [
+            "Kernfrage",
+            "Reihenfolge",
+            "Normen"
+          ]
+        }
+      ],
+      "caption": "Dividende ins Ausland: Wer behält Steuer ein? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Dividende ins Ausland: Wer behält Steuer ein?",
+      "coverBadge": "Reel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 20 Abs. 1 Nr. 1 EStG",
+        "§ 49 Abs. 1 Nr. 5 EStG",
+        "§ 43 EStG",
+        "§ 43a EStG",
+        "§ 50 Abs. 2 EStG",
+        "Art. 10 DBA",
+        "§ 50c EStG",
+        "§ 20 EStG",
+        "§§ 43–44 EStG",
+        "Art. 10 DBA Österreich",
+        "Themenpool: istr-modul-istr-istr3-02"
+      ],
+      "coverRegie": {
+        "thema": "Dividenden an beschränkt Steuerpflichtige: § 49, Kapitalertragsteuer und Art. 10 DBA",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-11-b3-istr-modul-istr-istr3-02-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-11",
+      "quellen": [
+        "Themenpool: kst-karte-kst-11"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Prüfungsfrage",
+      "titel": "CS-GmbH Ergebnis"
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-karte-kst-11",
+      "quellen": [
+        "Themenpool: kst-karte-kst-11"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Auflösung",
+      "titel": "Kern der Antwort",
+      "text": "zvE 2025 nach der hochgeladenen Lösung: 5.150 €."
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-361",
+      "quellen": [
+        "§ 175 Abs. 1 Nr. 1 AO",
+        "§ 182 Abs. 1 S. 1 AO",
+        "§ 171 Abs. 10 S. 1 AO",
+        "§ 129 AO",
+        "§ 171 Abs. 2 S. 1 AO",
+        "Themenpool: ao-modul-ao-361"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Norm des Tages",
+      "norm": "§ 175 Abs. 1 Nr. 1 AO",
+      "titel": "§ 175 Abs. 1 Nr. 1 AO: Anpassung an Grundlagen-/Feststellungsbescheide",
+      "text": "Erlass/Aufhebung/Änderung eines Grundlagenbescheids als Auslöser erkennen Bindungswirkung nach § 182 Abs. 1 S. 1 AO und Wirksamkeitsformel untersuchen"
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-335",
+      "quellen": [
+        "§ 171 Abs. 4 S. 1 AO",
+        "§ 196 AO",
+        "AEAO zu § 171 Nr. 3.2",
+        "§ 171 Abs. 4 S. 1–8 AO",
+        "Art. 97 § 37 Abs. 2 EGAO",
+        "Themenpool: ao-modul-ao-335"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Außenprüfung: Ablaufhemmung nach § 171 Abs. 4 AO – Beginn, Ende und Reichweite",
+      "text": "1. Entstehungszeitpunkt der Steuer bestimmen: nach dem 31.12.2024 → § 171 Abs. 4 n. F.; davor → altes Recht."
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "fehler",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-323",
+      "quellen": [
+        "§ 350 AO",
+        "§ 358 AO",
+        "§ 351 Abs. 1 AO",
+        "§ 80 AO",
+        "§ 182 Abs. 1 S. 1 AO",
+        "Themenpool: ao-modul-ao-323"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Typischer Fehler",
+      "titel": "Einspruchsbefugnis und Beschwer: § 350 AO",
+      "falsch": "Beschwer erst in der Begründetheit untersuchen.",
+      "richtigText": "Beschwer nach § 350 AO untersuchen"
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "tipp",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-341",
+      "quellen": [
+        "§ 179 Abs. 3 AO",
+        "§ 181 Abs. 5 AO",
+        "Themenpool: ao-modul-ao-341"
+      ],
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen",
+      "ueberzeile": "Klausurtipp",
+      "titel": "Ergänzungsbescheid als eigenes Korrekturthema: Quellenhinweis und Abgrenzung",
+      "text": "Trenne diese Frage vom Wirkhinweis nach § 181 Abs. 5 AO."
+    }
+  },
+  "renderVorschau": {
+    "status": "ausstehend",
+    "coverbilder": false,
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
+  },
+  "liveRegel": {
+    "veroeffentlichen": false,
+    "freigabeErforderlich": true
+  }
+}
