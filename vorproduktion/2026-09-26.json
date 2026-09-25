@@ -35,7 +35,7 @@
         "zeit": "12:00",
         "format": "reel",
         "themaId": "mindset-1",
-        "themaTitel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+        "themaTitel": "Prüfungsangst am Abend vor Tag 1: was jetzt hilft",
         "fach": "mindset",
         "klausur": 0,
         "lang": false
@@ -119,10 +119,10 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Bestandteile der Gesamtsteuerbilanz benennen",
-            "Gesamthand, Sonderbereich und Ergänzungsbereich zuordnen",
-            "Gesamtgewinn und Gewinnanteile abstimmen",
-            "Spiegelbildmethode bei Beteiligungen verstehen"
+            "Gesamthandsbilanz, Ergänzungsbilanzen und Sonderbilanzen als getrennte Bereiche erfassen.",
+            "Gesellschafterbezogene Mehr- oder Minderwerte nicht in der Gesamthand verstecken.",
+            "Sonderbetriebsvermögen und Sonderbetriebsergebnis dem jeweiligen Mitunternehmer zuordnen.",
+            "Die Teilergebnisse erst zum Schluss zum steuerlichen Gesamtgewinn zusammenführen."
           ]
         },
         {
@@ -131,23 +131,23 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Rechtsträger und zivilrechtliches Eigentum feststellen."
+              "text": "Gesellschaftsvermögen und die Bilanz der Gesamthand erfassen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Wirtschaftsgüter der Gesellschaft in der Gesamthandsbilanz erfassen."
+              "text": "Für jeden Gesellschafter prüfen, ob eine Ergänzungsbilanz erforderlich ist."
             },
             {
               "titel": "3. Schritt",
-              "text": "Gesellschaftereigene Wirtschaftsgüter auf SBV prüfen."
+              "text": "Sonderbetriebsvermögen sowie Sonderbetriebseinnahmen und -ausgaben zuordnen."
             },
             {
               "titel": "4. Schritt",
-              "text": "Gesellschafterbezogene Mehr-/Minderwerte in Ergänzungsbilanzen erfassen."
+              "text": "Gesellschafterbezogene Korrekturen der richtigen Ebene zuweisen."
             },
             {
               "titel": "5. Schritt",
-              "text": "Teilergebnisse zum Gesamtgewinn zusammenführen."
+              "text": "Alle Ebenen zum steuerlichen Gesamtgewinn und zu den Gewinnanteilen abstimmen."
             }
           ]
         },
@@ -155,15 +155,15 @@
           "art": "text",
           "titel": "Typischer Fehler",
           "punkte": [
-            "Nur die Handelsbilanz der Gesellschaft auswerten.",
-            "Sonderbetriebsausgaben als Privatbereich ignorieren.",
-            "Gesamtsteuerbilanz mit einer einzigen Bilanz gleichsetzen."
+            "Nur die Bilanz der Gesellschaft betrachten und gesellschafterbezogene Ebenen ausblenden.",
+            "Sonderbetriebsausgaben wie private Vorgänge behandeln.",
+            "Gesamthandsbilanz und steuerliche Gesamtbilanz begrifflich gleichsetzen."
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Die Mitunternehmerschaft hat drei Bilanzen. Wer nur die Gesamthandsbilanz auswertet, löst höchstens ein Drittel des Falls."
+          "text": "Die steuerliche Gesamtbilanz der Mitunternehmerschaft setzt sich aus Gesamthandsbilanz, Ergänzungsbilanzen und Sonderbilanzen zusammen."
         },
         {
           "art": "cta",
@@ -180,7 +180,7 @@
           ]
         }
       ],
-      "caption": "Gesamthandsvermögen und Mitunternehmerbilanz Bestandteile der Gesamtsteuerbilanz benennen Gesamthand, Sonderbereich und Ergänzungsbereich zuordnen Gesamtgewinn und Gewinnanteile abstimmen Rechtsträger und zivilrechtliches Eigentum feststellen.",
+      "caption": "Bei Mitunternehmerschaften reicht die Gesamthandsbilanz allein nicht. Für den steuerlichen Gesamtgewinn sind auch Ergänzungs- und Sonderbilanzen einzubeziehen. In der Klausur deshalb Gesellschaftsvermögen, gesellschafterbezogene Mehr- oder Minderwerte und Sonderbetriebsbereich getrennt erfassen und erst am Ende zusammenführen.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -201,12 +201,17 @@
         "Themenpool: bilanz-modul-k3-9"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "b2": {
       "format": "reel",
@@ -220,107 +225,100 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+          "titel": "Prüfungsangst am Abend vor Tag 1: was jetzt hilft",
           "unter": "Kopfsache",
-          "text": "ein konkretes Abendritual",
+          "text": "Jetzt zählt Vorbereitung statt neuer Stoff.",
           "norm": null,
           "icon": null,
-          "sprecher": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft. ein konkretes Abendritual",
+          "sprecher": "Am Abend vor Tag 1 zählt Vorbereitung statt neuer Stoff.",
           "marken": [
-            "ein konkretes Abendritual"
+            "Vorbereitung statt neuer Stoff"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "ein konkretes Abendritual",
-          "text": null,
+          "titel": "Material und Anreise festziehen",
+          "text": "Alles Nötige bereitlegen und den Morgen organisatorisch entlasten.",
           "norm": null,
           "icon": null,
-          "sprecher": "Schritt 1: ein konkretes Abendritual.",
+          "sprecher": "Schritt 1: Lege Material, Unterlagen und den Ablauf für den Morgen bereit.",
           "marken": [
-            "ein konkretes Abendritual"
+            "Material vorbereiten"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Schlaf vor Wiederholung",
-          "text": null,
+          "titel": "Einen klaren Lernschluss setzen",
+          "text": "Keine neuen Themen mehr eröffnen.",
           "norm": null,
           "icon": null,
-          "sprecher": "Schritt 2: Schlaf vor Wiederholung.",
+          "sprecher": "Schritt 2: Setze einen klaren Lernschluss und eröffne kein neues Thema mehr.",
           "marken": [
-            "Schlaf vor Wiederholung"
+            "Lernschluss setzen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 3,
-          "titel": "Materialien am Vorabend packen",
-          "text": null,
+          "titel": "Schlaf priorisieren",
+          "text": "Erholung ist jetzt wichtiger als eine weitere Wiederholungsrunde.",
           "norm": null,
           "icon": null,
-          "sprecher": "Schritt 3: Materialien am Vorabend packen.",
+          "sprecher": "Schritt 3: Priorisiere Schlaf statt einer weiteren langen Wiederholungsrunde.",
           "marken": [
-            "Materialien am Vorabend packen"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 4,
-          "titel": "Angst ist normal und sogar nützlich – solange sie nicht das…",
-          "text": null,
-          "norm": null,
-          "icon": null,
-          "sprecher": "Schritt 4: Angst ist normal und sogar nützlich – solange sie nicht das Denken blockiert..",
-          "marken": [
-            "Angst ist normal und sogar nützlich –…"
+            "Schlaf priorisieren"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Nichts Neues mehr lernen, nur noch Ruhe organisieren.",
-          "sprecher": "Merke dir: Nichts Neues mehr lernen, nur noch Ruhe organisieren.",
+          "text": "Nichts Neues mehr anfangen. Ruhe ist jetzt Teil der Prüfungsvorbereitung.",
+          "sprecher": "Merke dir: Nichts Neues mehr anfangen. Ruhe ist jetzt Teil der Prüfungsvorbereitung.",
           "marken": [
-            "Merksatz"
+            "Ruhe organisieren"
           ]
         },
         {
           "art": "cta",
           "nummer": null,
-          "titel": "In der Klausur sauber trennen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen getrennt wiederholen.",
-          "sprecher": "Prüfe Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+          "titel": "Für heute Abend",
+          "text": "Material packen, Lernschluss setzen und rechtzeitig schlafen.",
+          "sprecher": "Für heute Abend: Material packen, Lernschluss setzen und rechtzeitig schlafen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Material",
+            "Lernschluss",
+            "Schlaf"
           ]
         }
       ],
-      "caption": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft ein konkretes Abendritual Schlaf vor Wiederholung Materialien am Vorabend packen",
+      "caption": "Am Abend vor dem ersten Prüfungstag bringt zusätzliche Stoffmenge meist weniger als ein klarer Abschluss. Material und Anreise vorbereiten, einen Lernschluss setzen und Schlaf priorisieren. Das Ziel ist nicht mehr Wissen, sondern ein ruhiger Start.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#kopfsache"
       ],
-      "kurztitel": "Prüfungsangst: Was am Abend vor Tag 1 wirklich hilft",
+      "kurztitel": "Prüfungsangst am Abend vor Tag 1",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
         "Themenpool: mindset-1"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s3": {
       "slot": "s3",
@@ -333,14 +331,19 @@
         "Themenpool: ust-karte-ust-6"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG)"
+      "titel": "Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG)",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s4": {
       "slot": "s4",
@@ -353,7 +356,7 @@
         "Themenpool: ust-karte-ust-6"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -361,7 +364,12 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Bei verbilligten Leistungen an nahestehende Personen oder Personal gilt grundsätzlich mindestens die Bemessungsgrundlage des § 10 Abs. 4 UStG; nach oben begrenzt das marktübliche Entgelt."
+      "text": "Bei verbilligten Leistungen an nahestehende Personen oder Personal gilt grundsätzlich mindestens die Bemessungsgrundlage des § 10 Abs. 4 UStG; nach oben begrenzt das marktübliche Entgelt.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s5": {
       "slot": "s5",
@@ -382,7 +390,7 @@
         "Themenpool: ust-modul-ust-224"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -391,7 +399,12 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 15 Abs. 1 S. 2 UStG",
       "titel": "Gemischte Nutzung und Zuordnung zum Unternehmen: Aufteilungsgebot oder Zuordnungswahlrecht",
-      "text": "unternehmensfremde/private Nutzung und nichtwirtschaftliche Tätigkeit i. e. S. auseinanderhalten Zuordnungswahlrecht nur für die dafür vorgesehenen gemischt privat/unternehmerisch genutzten einheitlichen Gegenstände anwenden"
+      "text": "Private beziehungsweise unternehmensfremde Nutzung und nichtwirtschaftliche Tätigkeit im engeren Sinn zuerst unterscheiden; erst danach Zuordnung und Vorsteueraufteilung prüfen.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s6": {
       "slot": "s6",
@@ -408,7 +421,13 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "manuellGeprueft": true,
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s7": {
       "slot": "s7",
@@ -431,16 +450,21 @@
         "Themenpool: ao-modul-ao-375"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "6 Punkte",
-      "zahl": "6",
-      "titel": "Bekanntgabe von GuE-Bescheiden: rechtsfähige und nicht rechtsfähige Personenvereinigungen",
-      "text": "Diese Punkte tragen die sichtbare Prüfungsstruktur."
+      "ueberzeile": "2 Bekanntgabewege",
+      "zahl": "2",
+      "titel": "GuE-Bescheide 2026",
+      "text": "Rechtsfähige Personenvereinigungen: grundsätzlich § 183 AO. Nicht rechtsfähige Personenvereinigungen: § 183a AO mit Empfangsbevollmächtigtem.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s8": {
       "slot": "s8",
@@ -454,7 +478,7 @@
         "Themenpool: bilanz-formel-sonder-afa"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -462,8 +486,13 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Rechenweg",
       "titel": "Sonderabschreibung nach § 7g Abs. 5 EStG",
-      "formel": "Sonderabschreibung nach § 7g Abs. 5 EStG",
-      "text": ""
+      "formel": "Sonder-AfA = AK/HK × bis zu 40 %",
+      "text": "Die Voraussetzungen des § 7g Abs. 5 und 6 EStG müssen zusätzlich erfüllt sein.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s9": {
       "slot": "s9",
@@ -481,7 +510,7 @@
         "Themenpool: ao-modul-ao-302"
       ],
       "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "manuellGeprueft": true,
       "freigabeBetreiber": false,
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
@@ -489,7 +518,12 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Ermittlungsverfahren: Untersuchungsgrundsatz, Mitwirkung und Beweismittel",
-      "text": "Untersuchungsgrundsatz bedeutet nicht, dass das Finanzamt ohne Mitwirkung des Steuerpflichtigen ermitteln muss."
+      "text": "Untersuchungsgrundsatz bedeutet nicht, dass das Finanzamt ohne Mitwirkung des Steuerpflichtigen ermitteln muss.",
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s1": {
       "slot": "s1",
@@ -506,7 +540,13 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "manuellGeprueft": true,
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     },
     "s2": {
       "slot": "s2",
@@ -523,7 +563,13 @@
       "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "manuellGeprueft": true,
+      "qa": {
+        "inhalt": "geprueft",
+        "publikationsregeln": "geprueft",
+        "stand": "2026-09-25"
+      }
     }
   },
   "renderVorschau": {
@@ -544,5 +590,11 @@
   "liveRegel": {
     "veroeffentlichen": false,
     "freigabeErforderlich": true
+  },
+  "qa": {
+    "inhalt": "manuell-validiert",
+    "visuell": "Neurender erforderlich",
+    "publikationsregeln": "validiert",
+    "stand": "2026-09-25"
   }
 }
