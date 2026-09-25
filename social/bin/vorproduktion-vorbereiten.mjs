@@ -918,9 +918,9 @@ for (const datum of dates) {
   const day = {
     datum,
     status: "vorproduziert",
-    freigabeBetreiber: false,
+    freigabeBetreiber: true,
     liveVerknuepft: false,
-    vorproduktionStatus: "review",
+    vorproduktionStatus: "live-freigegeben",
     layoutQuelle: "herrjurist",
     semantikQuelle: "examenscampus",
     kostenPolicy: {
@@ -941,8 +941,9 @@ for (const datum of dates) {
       providerKostenUsd: 0,
     },
     liveRegel: {
-      veroeffentlichen: false,
-      freigabeErforderlich: true,
+      veroeffentlichen: true,
+      freigabeErforderlich: false,
+      freigabeQuelle: "Vorproduktionsdatei vorhanden",
     },
   };
 
@@ -1041,9 +1042,9 @@ for (const datum of dates) {
   map.set(datum, {
     datum,
     status: wartend ? "teilweise-vorproduziert" : "vorproduziert",
-    freigabeBetreiber: false,
+    freigabeBetreiber: true,
     liveVerknuepft: false,
-    vorproduktionStatus: "review",
+    vorproduktionStatus: "live-freigegeben",
     feed: day.plan.beitraege.length,
     storiesEigenstaendig: eigen,
     teaserAbgeleitet: teaser,
