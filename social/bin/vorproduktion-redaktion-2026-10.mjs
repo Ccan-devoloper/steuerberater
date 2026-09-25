@@ -319,7 +319,36 @@ for (const [datum, titel] of Object.entries(hooks)) {
       text: "Nein. § 6 Abs. 1 Nr. 3 EStG verweist für Verbindlichkeiten auf Nr. 2. Die Abzinsung zu 5,5 % betrifft nach Nr. 3a Buchst. e weiterhin bestimmte Rückstellungen.",
     });
   }
+  if (datum === "2026-10-11") {
+    const id = "bilanz-quiz-k3-7";
+    storyNeu("s4", id, {
+      titel: "Drohverlust: Rückstellung in welcher Bilanz?",
+      quellen: ["§ 249 Abs. 1 HGB", "§ 5 Abs. 4a EStG", `Themenpool: ${id}`],
+    });
+    storyNeu("s5", id, {
+      titel: "Die Antwort",
+      text: "Handelsbilanz: Rückstellung nach § 249 Abs. 1 HGB. Steuerbilanz: Ansatzverbot nach § 5 Abs. 4a EStG; Bewertungseinheiten getrennt prüfen.",
+      quellen: ["§ 249 Abs. 1 HGB", "§ 5 Abs. 4a EStG", `Themenpool: ${id}`],
+    });
+  }
+  if (datum === "2026-10-12") {
+    const id = "ust-quiz-ust-2", extra = {
+      fachLabel: "Umsatzsteuer",
+      quellen: ["§ 1a Abs. 3 und 5 UStG", `Themenpool: ${id}`],
+    };
+    storyNeu("s4", id, { ...extra, titel: "Wann greift die 12.500-Euro-Schwelle?" });
+    storyNeu("s5", id, {
+      ...extra, titel: "Die Antwort",
+      text: "Für die in § 1a Abs. 3 UStG genannten Erwerber gilt die Schwelle von 12.500 Euro im Vorjahr und im laufenden Jahr. Neue Fahrzeuge und verbrauchsteuerpflichtige Waren sind ausgenommen.",
+    });
+  }
+  if (datum === "2026-10-18") {
+    const s9 = tag.inhalte.s9;
+    s9.titel = "Familienheim: Welche Nummer greift?";
+    s9.text = "Lebzeitige Übertragung zwischen Ehegatten oder Lebenspartnern: § 13 Abs. 1 Nr. 4a ErbStG. Beim Erbfall: Nr. 4b für sie, Nr. 4c für Kinder; Selbstnutzung jeweils prüfen.";
+  }
   for (const [slot, hook] of Object.entries(storyHooks[datum] || {})) {
+    if ((datum === "2026-10-12" && slot === "s4")) continue;
     if (!tag.inhalte[slot]) throw new Error(datum + " " + slot + ": Story fehlt");
     tag.inhalte[slot].titel = hook;
   }
