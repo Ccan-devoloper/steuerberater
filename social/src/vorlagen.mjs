@@ -204,12 +204,13 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .story .balken{margin-top:110px;margin-bottom:auto;height:16px;border-radius:999px;background:var(--linie);overflow:hidden}
 .story .balken i{display:block;height:100%;background:var(--akzent)}
 .story .pfeil{margin-top:auto;text-align:center;font-size:34px;color:var(--text-weich);letter-spacing:.12em;text-transform:uppercase}
-/* Reel-Cover: das Standbild, das im Feed und im Profilraster für das Reel steht.
-   Alles Wichtige liegt im mittleren 4:5-Bereich (y 285–1635), den Instagram
-   dort zeigt. */
+/* Reel-Cover bleibt eine echte 9:16-Komposition. Die 4:5-Feed-Safe-Area
+   schützt nur kritischen Text; Fachband und Reelmarke dürfen die echten
+   Außenkanten des Covers nutzen. Synchron zur aktuellen HerrJurist-Logik. */
+.story.cover{padding-top:150px;padding-bottom:130px}
 .story.cover .reelmarke{position:absolute;right:84px;top:40px;font-family:var(--text);font-weight:700;font-size:28px;letter-spacing:.16em;text-transform:uppercase;background:var(--pille);color:var(--pille-text);padding:12px 26px;border-radius:40px}
 .story.cover .dauer{margin-top:30px;font-size:36px;color:var(--text-weich)}
-.story.cover .buehne{margin:auto auto 150px;width:460px;height:460px;display:flex;align-items:center;justify-content:center;position:relative}
+.story.cover .buehne{margin:auto auto 0;width:460px;height:460px;display:flex;align-items:center;justify-content:center;position:relative}
 .story.cover .buehne::before{content:"";position:absolute;inset:0;border-radius:50%;background:var(--flaeche);opacity:.6}
 .story.cover .buehne .icon{position:relative;width:250px;height:250px;color:var(--akzent)}
 `;
