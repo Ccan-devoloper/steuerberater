@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-09-25T22:34:32.427Z",
+  "erzeugtAm": "2026-09-25T22:51:07.869Z",
   "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
@@ -11,6 +11,1233 @@
   "coverbilder": false,
   "coverIcons": true,
   "tage": [
+    {
+      "datum": "2026-09-29",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Drei Vermögen: Wo landet die Maschine?",
+          "klausur": 3,
+          "fach": "persg",
+          "coverBild": false,
+          "coverIcon": "personen",
+          "dateien": [
+            "2026-09-29-b1-01.jpg",
+            "2026-09-29-b1-02.jpg",
+            "2026-09-29-b1-03.jpg",
+            "2026-09-29-b1-04.jpg",
+            "2026-09-29-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-09-29-b2-01.jpg",
+            "2026-09-29-b2-02.jpg",
+            "2026-09-29-b2-03.jpg",
+            "2026-09-29-b2-04.jpg",
+            "2026-09-29-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-09-29-b3-cover.jpg",
+            "2026-09-29-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 30.46,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "begriff",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s8-begriff.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "fehler",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-09-29/fertig"
+    },
+    {
+      "datum": "2026-09-30",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Wertverlust: Abschreiben oder abwarten?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-09-30-b1-01.jpg",
+            "2026-09-30-b1-02.jpg",
+            "2026-09-30-b1-03.jpg",
+            "2026-09-30-b1-04.jpg",
+            "2026-09-30-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "klausurtechnik",
+          "titel": "Falscher Bescheid: Unwirksam oder nur rechtswidrig?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-09-30-b2-01.jpg",
+            "2026-09-30-b2-02.jpg",
+            "2026-09-30-b2-03.jpg",
+            "2026-09-30-b2-04.jpg",
+            "2026-09-30-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Freistellen oder anrechnen: Wer entscheidet?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-09-30-b3-cover.jpg",
+            "2026-09-30-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 30.869999999999997,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "fehler",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s8-fehler.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-09-30/fertig"
+    },
+    {
+      "datum": "2026-10-01",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Gesellschaft oder Gesellschafter: Wem dient das Gut?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "personen",
+          "dateien": [
+            "2026-10-01-b1-01.jpg",
+            "2026-10-01-b1-02.jpg",
+            "2026-10-01-b1-03.jpg",
+            "2026-10-01-b1-04.jpg",
+            "2026-10-01-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "schema",
+          "titel": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-01-b2-01.jpg",
+            "2026-10-01-b2-02.jpg",
+            "2026-10-01-b2-03.jpg",
+            "2026-10-01-b2-04.jpg",
+            "2026-10-01-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-01-b3-cover.jpg",
+            "2026-10-01-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 44.25000000000001,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-01/fertig"
+    },
+    {
+      "datum": "2026-10-02",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "klausurtechnik",
+          "titel": "Vorräte am Stichtag: Welcher Wert bleibt?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "zielscheibe",
+          "dateien": [
+            "2026-10-02-b1-01.jpg",
+            "2026-10-02-b1-02.jpg",
+            "2026-10-02-b1-03.jpg",
+            "2026-10-02-b1-04.jpg",
+            "2026-10-02-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "An Berater zugestellt: Läuft die Einspruchsfrist?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-02-b2-01.jpg",
+            "2026-10-02-b2-02.jpg",
+            "2026-10-02-b2-03.jpg",
+            "2026-10-02-b2-04.jpg",
+            "2026-10-02-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-02-b3-cover.jpg",
+            "2026-10-02-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 44.92,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-02/fertig"
+    },
+    {
+      "datum": "2026-10-03",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Vorteil ohne Geld: Ist das eine Einlage?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-03-b1-01.jpg",
+            "2026-10-03-b1-02.jpg",
+            "2026-10-03-b1-03.jpg",
+            "2026-10-03-b1-04.jpg",
+            "2026-10-03-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "klausurtechnik",
+          "titel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "zielscheibe",
+          "dateien": [
+            "2026-10-03-b2-01.jpg",
+            "2026-10-03-b2-02.jpg",
+            "2026-10-03-b2-03.jpg",
+            "2026-10-03-b2-04.jpg",
+            "2026-10-03-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-03-b3-cover.jpg",
+            "2026-10-03-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 34.07,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "merksatz",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s9-merksatz.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-03/fertig"
+    },
+    {
+      "datum": "2026-10-04",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Falsche Bilanz: Berichtigung oder Änderung?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-04-b1-01.jpg",
+            "2026-10-04-b1-02.jpg",
+            "2026-10-04-b1-03.jpg",
+            "2026-10-04-b1-04.jpg",
+            "2026-10-04-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-04-b2-01.jpg",
+            "2026-10-04-b2-02.jpg",
+            "2026-10-04-b2-03.jpg",
+            "2026-10-04-b2-04.jpg",
+            "2026-10-04-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Erst nationales Recht, dann DBA: Warum?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-04-b3-cover.jpg",
+            "2026-10-04-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 32.82,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-merksatz.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "begriff",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s9-begriff.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-04/fertig"
+    },
+    {
+      "datum": "2026-10-05",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "IAB gebildet: Welche Grenze gilt wirklich?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-05-b1-01.jpg",
+            "2026-10-05-b1-02.jpg",
+            "2026-10-05-b1-03.jpg",
+            "2026-10-05-b1-04.jpg",
+            "2026-10-05-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-05-b2-01.jpg",
+            "2026-10-05-b2-02.jpg",
+            "2026-10-05-b2-03.jpg",
+            "2026-10-05-b2-04.jpg",
+            "2026-10-05-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-05-b3-cover.jpg",
+            "2026-10-05-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 35.28,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "countdown",
+          "klausur": 0,
+          "fach": null,
+          "datei": "s7-countdown.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "begriff",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s8-begriff.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "fehler",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-05/fertig"
+    },
+    {
+      "datum": "2026-10-06",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Rentenpreis für ein Gebäude: Was sind die AK?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-06-b1-01.jpg",
+            "2026-10-06-b1-02.jpg",
+            "2026-10-06-b1-03.jpg",
+            "2026-10-06-b1-04.jpg",
+            "2026-10-06-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Fristende am Sonntag: Was passiert am Montag?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-06-b2-01.jpg",
+            "2026-10-06-b2-02.jpg",
+            "2026-10-06-b2-03.jpg",
+            "2026-10-06-b2-04.jpg",
+            "2026-10-06-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Kapitalertrag aus Deutschland: Ist der Abzug final?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-06-b3-cover.jpg",
+            "2026-10-06-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 37.24,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-06/fertig"
+    },
+    {
+      "datum": "2026-10-07",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Falscher Buchungssatz: Wie wirkt die Korrektur?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-07-b1-01.jpg",
+            "2026-10-07-b1-02.jpg",
+            "2026-10-07-b1-03.jpg",
+            "2026-10-07-b1-04.jpg",
+            "2026-10-07-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Zahlendreher in der Erklärung: § 173a oder § 129?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-07-b2-01.jpg",
+            "2026-10-07-b2-02.jpg",
+            "2026-10-07-b2-03.jpg",
+            "2026-10-07-b2-04.jpg",
+            "2026-10-07-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Auslandssteuer: DBA oder § 34c EStG?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-07-b3-cover.jpg",
+            "2026-10-07-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 41.17000000000001,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-07/fertig"
+    },
+    {
+      "datum": "2026-10-08",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Beteiligung verkauft: Wo greift § 8b KStG?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-08-b1-01.jpg",
+            "2026-10-08-b1-02.jpg",
+            "2026-10-08-b1-03.jpg",
+            "2026-10-08-b1-04.jpg",
+            "2026-10-08-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "schema",
+          "titel": "Bescheid erhalten: Wollte das Amt ihn bekanntgeben?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-08-b2-01.jpg",
+            "2026-10-08-b2-02.jpg",
+            "2026-10-08-b2-03.jpg",
+            "2026-10-08-b2-04.jpg",
+            "2026-10-08-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Quellensteuer einbehalten: Wie kommt die Entlastung?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-08-b3-cover.jpg",
+            "2026-10-08-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 39.59,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-08/fertig"
+    },
+    {
+      "datum": "2026-10-09",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-09-b1-01.jpg",
+            "2026-10-09-b1-02.jpg",
+            "2026-10-09-b1-03.jpg",
+            "2026-10-09-b1-04.jpg",
+            "2026-10-09-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-09-b2-01.jpg",
+            "2026-10-09-b2-02.jpg",
+            "2026-10-09-b2-03.jpg",
+            "2026-10-09-b2-04.jpg",
+            "2026-10-09-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-09-b3-cover.jpg",
+            "2026-10-09-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 34.33,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-merksatz.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "begriff",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s9-begriff.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-09/fertig"
+    },
     {
       "datum": "2026-10-10",
       "feed": [
@@ -1240,6 +2467,1113 @@
       ],
       "wartetLive": [],
       "pfad": "vorproduktion/2026-10-19/fertig"
+    },
+    {
+      "datum": "2026-10-20",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Alt gegen neu getauscht: Welche AK entstehen?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-20-b1-01.jpg",
+            "2026-10-20-b1-02.jpg",
+            "2026-10-20-b1-03.jpg",
+            "2026-10-20-b1-04.jpg",
+            "2026-10-20-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-20-b2-01.jpg",
+            "2026-10-20-b2-02.jpg",
+            "2026-10-20-b2-03.jpg",
+            "2026-10-20-b2-04.jpg",
+            "2026-10-20-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "gebaeude",
+          "dateien": [
+            "2026-10-20-b3-cover.jpg",
+            "2026-10-20-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 33.46,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s9-merksatz.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-20/fertig"
+    },
+    {
+      "datum": "2026-10-21",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Sachwert statt Geld: Ist das Realteilung?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "kreislauf",
+          "dateien": [
+            "2026-10-21-b1-01.jpg",
+            "2026-10-21-b1-02.jpg",
+            "2026-10-21-b1-03.jpg",
+            "2026-10-21-b1-04.jpg",
+            "2026-10-21-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Hausrat geerbt: Welche Befreiung greift?",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "haus",
+          "dateien": [
+            "2026-10-21-b2-01.jpg",
+            "2026-10-21-b2-02.jpg",
+            "2026-10-21-b2-03.jpg",
+            "2026-10-21-b2-04.jpg",
+            "2026-10-21-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Passive Einkünfte: Greift die Freigrenze?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-21-b3-cover.jpg",
+            "2026-10-21-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 34.589999999999996,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s8-merksatz.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-21/fertig"
+    },
+    {
+      "datum": "2026-10-22",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Geringwertiges Gut: Sofortabzug oder Sammelposten?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-22-b1-01.jpg",
+            "2026-10-22-b1-02.jpg",
+            "2026-10-22-b1-03.jpg",
+            "2026-10-22-b1-04.jpg",
+            "2026-10-22-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "schema",
+          "titel": "Grundstück im Nachlass: Wer stellt den Wert fest?",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "haus",
+          "dateien": [
+            "2026-10-22-b2-01.jpg",
+            "2026-10-22-b2-02.jpg",
+            "2026-10-22-b2-03.jpg",
+            "2026-10-22-b2-04.jpg",
+            "2026-10-22-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-22-b3-cover.jpg",
+            "2026-10-22-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 33.75,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s7-merksatz.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "fehler",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-22/fertig"
+    },
+    {
+      "datum": "2026-10-23",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Eigene Anteile: Wo steht der Nennbetrag?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-23-b1-01.jpg",
+            "2026-10-23-b1-02.jpg",
+            "2026-10-23-b1-03.jpg",
+            "2026-10-23-b1-04.jpg",
+            "2026-10-23-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-23-b2-01.jpg",
+            "2026-10-23-b2-02.jpg",
+            "2026-10-23-b2-03.jpg",
+            "2026-10-23-b2-04.jpg",
+            "2026-10-23-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-23-b3-cover.jpg",
+            "2026-10-23-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 33.22,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "fehler",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-fehler.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-23/fertig"
+    },
+    {
+      "datum": "2026-10-24",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Firmenwert gekauft: Was bleibt als Restgröße?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-24-b1-01.jpg",
+            "2026-10-24-b1-02.jpg",
+            "2026-10-24-b1-03.jpg",
+            "2026-10-24-b1-04.jpg",
+            "2026-10-24-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "klausurtechnik",
+          "titel": "Mietshaus bewerten: Boden plus welcher Ertrag?",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "zielscheibe",
+          "dateien": [
+            "2026-10-24-b2-01.jpg",
+            "2026-10-24-b2-02.jpg",
+            "2026-10-24-b2-03.jpg",
+            "2026-10-24-b2-04.jpg",
+            "2026-10-24-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Mehr als 50 Prozent verkauft: Was wird aus Verlusten?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "gebaeude",
+          "dateien": [
+            "2026-10-24-b3-cover.jpg",
+            "2026-10-24-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 37.99,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "fehler",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s7-fehler.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-24/fertig"
+    },
+    {
+      "datum": "2026-10-25",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-25-b1-01.jpg",
+            "2026-10-25-b1-02.jpg",
+            "2026-10-25-b1-03.jpg",
+            "2026-10-25-b1-04.jpg",
+            "2026-10-25-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "haus",
+          "dateien": [
+            "2026-10-25-b2-01.jpg",
+            "2026-10-25-b2-02.jpg",
+            "2026-10-25-b2-03.jpg",
+            "2026-10-25-b2-04.jpg",
+            "2026-10-25-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "gebaeude",
+          "dateien": [
+            "2026-10-25-b3-cover.jpg",
+            "2026-10-25-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 35.050000000000004,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-25/fertig"
+    },
+    {
+      "datum": "2026-10-26",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Betrieb verkauft: Welcher Gewinn ist begünstigt?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-26-b1-01.jpg",
+            "2026-10-26-b1-02.jpg",
+            "2026-10-26-b1-03.jpg",
+            "2026-10-26-b1-04.jpg",
+            "2026-10-26-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "schema",
+          "titel": "Grundstückswert: Was gehört zum Grundvermögen?",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "haus",
+          "dateien": [
+            "2026-10-26-b2-01.jpg",
+            "2026-10-26-b2-02.jpg",
+            "2026-10-26-b2-03.jpg",
+            "2026-10-26-b2-04.jpg",
+            "2026-10-26-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Wirtschaftsgut ins Ausland: Wird es entstrickt?",
+          "klausur": 2,
+          "fach": "istr",
+          "coverBild": false,
+          "coverIcon": "globus",
+          "dateien": [
+            "2026-10-26-b3-cover.jpg",
+            "2026-10-26-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 38.339999999999996,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s9-merksatz.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-26/fertig"
+    },
+    {
+      "datum": "2026-10-27",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-27-b1-01.jpg",
+            "2026-10-27-b1-02.jpg",
+            "2026-10-27-b1-03.jpg",
+            "2026-10-27-b1-04.jpg",
+            "2026-10-27-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Betrieb übertragen: Liegt eine GiG vor?",
+          "klausur": 1,
+          "fach": "ust",
+          "coverBild": false,
+          "coverIcon": "quittung",
+          "dateien": [
+            "2026-10-27-b2-01.jpg",
+            "2026-10-27-b2-02.jpg",
+            "2026-10-27-b2-03.jpg",
+            "2026-10-27-b2-04.jpg",
+            "2026-10-27-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "gebaeude",
+          "dateien": [
+            "2026-10-27-b3-cover.jpg",
+            "2026-10-27-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 38.120000000000005,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-merksatz.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-27/fertig"
+    },
+    {
+      "datum": "2026-10-28",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-28-b1-01.jpg",
+            "2026-10-28-b1-02.jpg",
+            "2026-10-28-b1-03.jpg",
+            "2026-10-28-b1-04.jpg",
+            "2026-10-28-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Bebautes Grundstück: Welche Art zuerst?",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "haus",
+          "dateien": [
+            "2026-10-28-b2-01.jpg",
+            "2026-10-28-b2-02.jpg",
+            "2026-10-28-b2-03.jpg",
+            "2026-10-28-b2-04.jpg",
+            "2026-10-28-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Aufwand verbucht: Muss er zum zvE hinzu?",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "gebaeude",
+          "dateien": [
+            "2026-10-28-b3-cover.jpg",
+            "2026-10-28-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 35.22,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s7-merksatz.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "fehler",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-28/fertig"
     }
   ]
 }
