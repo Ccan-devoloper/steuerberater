@@ -851,7 +851,7 @@
   "use strict";
 
   var ACCOUNTS={
-    herr:{name:"HerrJurist",summaryName:"HerrJurist",sub:"@herrjurist",repo:"Ccan-devoloper/herrjurist",accent:"#8f9cff",preproduction:true,igUser:"herrjurist",avatar:"HJ",fontPath:"fonts/"},
+    herr:{name:"HerrJurist",summaryName:"HerrJurist",sub:"@herrjurist",repo:"Ccan-devoloper/herrjurist",accent:"#8f9cff",preproduction:true,newsletter:true,igUser:"herrjurist",avatar:"HJ",fontPath:"fonts/"},
     steuer:{name:"Steuerberater",summaryName:"Examenscampus",sub:"Examenscampus",repo:"Ccan-devoloper/steuerberater",accent:"#48c78e",preproduction:true,igUser:"examenscampus",avatar:"EC",fontPath:"social/fonts/"}
   };
   var REQUIRED_FILES=["ledger.json","follower.json","strategie.json","lernschleife.json","fehler.json","kosten.json"];
@@ -1069,8 +1069,8 @@
   }
   function renderViews(){
     var preTab=$('[data-view="preproduction"]'),newsTab=$('[data-view="newsletter"]'),a=ACCOUNTS[store.account];
-    if(newsTab)newsTab.hidden=store.account!=="herr";
-    if(store.account!=="herr"&&store.view==="newsletter"){store.view="overview";localStorage.setItem("igDashView",store.view);}
+    if(newsTab)newsTab.hidden=!(a&&a.newsletter);
+    if(!(a&&a.newsletter)&&store.view==="newsletter"){store.view="overview";localStorage.setItem("igDashView",store.view);}
     var canPre=!!(a&&a.preproduction);
     if(preTab)preTab.hidden=!canPre;
     if(!canPre&&store.view==="preproduction"){
@@ -1557,7 +1557,7 @@
     });
   }
   function renderNewsletter(){
-    var n=store.newsletter,visible=store.account==="herr",teaser=$("#newsletterTeaser");
+    var n=store.newsletter,visible=!!ACCOUNTS[store.account].newsletter,teaser=$("#newsletterTeaser");
     teaser.hidden=!visible;
     if(!visible)return;
     var selected=n.issues.find(function(x){return String(x.kit_id)===n.selected;})||n.issues[0];
