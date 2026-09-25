@@ -27,7 +27,7 @@ const hooks = {
   "2026-10-13": ["Bilanzklausur: In welcher Reihenfolge korrigieren?", "Wohnrecht oder Rente: Was ist der Jahreswert?", "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch?"],
   "2026-10-14": ["Gesellschaftervorteil: Ist das schon eine vGA?", "Schulden beim Erbe: Was darfst du abziehen?", "Auslandsgesellschaft: Wer beherrscht sie wirklich?"],
   "2026-10-15": ["Ausschüttung: Gewinn oder Einlagekonto?", "Erbschaftsteuer: Welche Tarifstufe gilt?", "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?"],
-  "2026-10-16": ["Grabpflege: Welcher Vervielfältiger passt?", "Mitunternehmer erhält Miete: Wo wird sie erfasst?", "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff?"],
+  "2026-10-16": ["Mitunternehmer erhält Miete: Wo wird sie erfasst?", "Grabpflege: Welcher Vervielfältiger passt?", "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff?"],
   "2026-10-17": ["Einlage zum Teilwert: Greift die Dreijahresgrenze?", "Vorbehalt der Nachprüfung: Was darf das Amt ändern?", "Vorgründung oder GmbH: Wer ist steuerpflichtig?"],
   "2026-10-18": ["Sanierung nach Hauskauf: AK oder Sofortabzug?", "Zahlendreher im Amt: Wann greift § 129 AO?", "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?"],
   "2026-10-19": ["Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?", "Gutachten unter Grundbesitzwert: Welcher Wert zählt?", "Drittstaatenverlust: Wo greift § 2a EStG?"],
@@ -78,7 +78,7 @@ const reelAntworten = {
   "2026-10-16": "Bei § 2 AStG prüfe zusätzlich Niedrigbesteuerung und wesentliche wirtschaftliche Inlandsinteressen. Die erweiterte beschränkte Steuerpflicht reicht höchstens zehn Jahre.",
   "2026-10-17": "Vor der Beurkundung besteht eine Vorgründungsgesellschaft. Die GmbH in Gründung ist davon zu trennen; die spätere Eintragung entscheidet über ihre Fortsetzung.",
   "2026-10-18": "§ 10 Abs. 2 AStG schließt für den Hinzurechnungsbetrag die Begünstigung nach § 3 Nr. 40 EStG aus. Die Einordnung als Kapitaleinkünfte allein genügt nicht.",
-  "2026-10-19": "Verluste aus den Katalogfällen des § 2a EStG dürfen nur mit entsprechenden positiven Einkünften aus demselben Staat ausgeglichen werden.",
+  "2026-10-19": "Verluste aus § 2a EStG dürfen grundsätzlich nur mit Einkünften derselben Art aus demselben Staat verrechnet werden; beachte die Ausnahmen der Norm.",
   "2026-10-20": "Bei einem Dreiecksvorteil prüfe die Vorteilsbewegung über den Gesellschafter: bei der leistenden Gesellschaft vGA, beim Empfänger gegebenenfalls verdeckte Einlage.",
   "2026-10-21": "Die Freigrenze des § 9 AStG verlangt beides: höchstens ein Drittel der gesamten Einkünfte und insgesamt höchstens 100.000 Euro.",
   "2026-10-22": "Nur Aufwendungen, die den Gewinn gemindert haben, werden außerhalb der Bilanz hinzugerechnet, wenn ein Abzugsverbot wie § 10 KStG greift.",
@@ -142,6 +142,20 @@ for (const [datum, titel] of Object.entries(hooks)) {
       const schritt = beitrag.folien.find((f) => f.art === "schritte");
       if (t.id === "ao-modul-ao-337" && schritt) {
         schritt.schritte[1].text = "Antrag vor Fristablauf: § 171 Abs. 3 AO und die Änderungsvorschrift getrennt prüfen.";
+      }
+      if (datum === "2026-10-16" && schritt) {
+        schritt.schritte[1].text = slot === "b1"
+          ? "Miete als Sonderbetriebseinnahme des Mitunternehmers und Aufwand der Gesamthand erfassen."
+          : "Immerwährende Dauer: Jahreswert × 18,6; unbestimmte Dauer: Jahreswert × 9,3 (§ 13 Abs. 2 BewG).";
+      }
+      if (datum === "2026-10-20" && slot === "b1" && schritt) {
+        schritt.schritte[1].text = "Bei 19 % Umsatzsteuer Bruttotauschwert durch 1,19 teilen; den zutreffenden Steuersatz im Fall prüfen.";
+      }
+      if (datum === "2026-10-22" && slot === "b1" && schritt) {
+        schritt.schritte[1].text = "AK/HK ermitteln: Nur abziehbare Vorsteuer nach § 9b Abs. 1 EStG herausrechnen.";
+      }
+      for (const punkt of schritt?.schritte || []) {
+        punkt.text = punkt.text.replace(/^\d+\.\s*/, "").replace(/^./, (c) => c.toUpperCase());
       }
       // Der pauschale Merksatz wiederholt bei allen Themen dieselbe Floskel.
       beitrag.folien = beitrag.folien.filter((f) => f.art !== "merke" && f.titel !== "Typischer Fehler");
