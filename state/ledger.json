@@ -4934,6 +4934,28 @@
       "thema": null,
       "fach": "istr",
       "titel": "§ 49 EStG bei beschränkter Steuerpflicht"
+    },
+    {
+      "datum": "2026-09-26",
+      "slot": "b1",
+      "medienId": "18094214276141204",
+      "veroeffentlicht": "2026-09-26T06:45:08.072Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "bilanz-modul-k3-9",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -4941,7 +4963,7 @@
     "ust": 7,
     "kst": 7,
     "ao": 13,
-    "bilanz": 16,
+    "bilanz": 17,
     "istr": 12,
     "erbst": 3,
     "mindset": 1
