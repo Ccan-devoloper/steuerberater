@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -219,7 +220,8 @@
           "art": "titel",
           "titel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -318,7 +320,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
           "norm": "Art. 5 DBA",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Auslandsgewinn: Gibt es eine Betriebsstätte? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Auslandsgewinn: Gibt es eine Betriebsstätte"
@@ -380,7 +382,7 @@
       ],
       "kurztitel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "Art. 5 DBA",
         "Art. 7 DBA",
@@ -407,7 +409,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -429,7 +432,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
       "frage": "Wer hat bei einer vGA typischerweise den Vorteil?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "die Gesellschaft",
+        "der Gesellschafter oder eine nahestehende Person",
+        "das Finanzamt"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -449,9 +458,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "der Gesellschafter oder eine nahestehende Person",
       "text": "Richtig: der Gesellschafter oder eine nahestehende Person. Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "die Gesellschaft",
+        "der Gesellschafter oder eine nahestehende Person",
+        "das Finanzamt"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -638,7 +653,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:23.294Z",
+    "erzeugtAm": "2026-09-26T02:15:19.987Z",
     "pfad": "vorproduktion/2026-10-09/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -653,7 +668,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
