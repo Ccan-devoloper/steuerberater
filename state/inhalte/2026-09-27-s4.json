@@ -1,0 +1,33 @@
+{
+  "slot": "s4",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-quiz-k3-19",
+  "quellen": [
+    "Themenpool: bilanz-quiz-k3-19"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "netto von den Gebäude-AK",
+  "text": "Die 15-%-Grenze wird netto auf die Anschaffungskosten des Gebäudes bezogen und über drei Jahre kumuliert (§ 6 Abs. 1 Nr. 1a EStG).",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true,
+  "optionen": [
+    "brutto vom Gesamtkaufpreis",
+    "netto von den Gebäude-AK",
+    "brutto von den Gebäude-AK"
+  ],
+  "richtig": 1
+}

@@ -1,0 +1,29 @@
+{
+  "slot": "s9",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-glossar-18",
+  "quellen": [
+    "§ 274 Abs. 1 HGB",
+    "Themenpool: bilanz-glossar-18"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Begriff des Tages",
+  "titel": "Permanente Differenz",
+  "text": "Eine permanente Differenz zwischen Handels- und Steuerrecht gleicht sich später nicht wieder aus. Sie führt deshalb nicht zu latenten Steuern nach § 274 HGB.",
+  "norm": "§ 274 Abs. 1 HGB",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

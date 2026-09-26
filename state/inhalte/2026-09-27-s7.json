@@ -1,0 +1,30 @@
+{
+  "slot": "s7",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-formel-bewg-vervielfaeltiger",
+  "quellen": [
+    "§ 12 Abs. 3 BewG",
+    "§ 6 Abs. 1 Nr. 3 EStG",
+    "Themenpool: bilanz-formel-bewg-vervielfaeltiger"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Rechenweg",
+  "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
+  "formel": "Barwert = Nennbetrag × Vervielfältiger",
+  "text": "Den Vervielfältiger für unverzinsliche Forderungen oder Schulden mit bestimmter Laufzeit aus Anlage 2 zu § 12 Abs. 3 BewG entnehmen; bei Zwischenlaufzeiten interpolieren.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

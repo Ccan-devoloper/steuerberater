@@ -1,0 +1,33 @@
+{
+  "slot": "s3",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-quiz-k3-19",
+  "quellen": [
+    "Themenpool: bilanz-quiz-k3-19"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Prüfungsfrage",
+  "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "frage": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
+  "liveVorrangAktiv": true,
+  "optionen": [
+    "brutto vom Gesamtkaufpreis",
+    "netto von den Gebäude-AK",
+    "brutto von den Gebäude-AK"
+  ],
+  "richtig": 1
+}

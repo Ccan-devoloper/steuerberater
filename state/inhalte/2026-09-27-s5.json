@@ -1,0 +1,39 @@
+{
+  "slot": "s5",
+  "art": "norm",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-modul-k3-29",
+  "quellen": [
+    "§ 249 Abs. 1 S. 1 HGB",
+    "§ 249 Abs. 1 S. 2 Nr. 1 HGB",
+    "§ 249 Abs. 2 S. 1 HGB",
+    "§ 5 Abs. 3 EStG",
+    "§ 5 Abs. 4 EStG",
+    "§ 5 Abs. 4a S. 1 EStG",
+    "§ 5 Abs. 4b EStG",
+    "§ 6 Abs. 1 Nr. 3a Buchst. a–f EStG",
+    "R 5.7 Abs. 2–13 EStR",
+    "§ 249 HGB",
+    "§ 249 Abs. 1 S. 2 Nr. 1, 2 HGB",
+    "Themenpool: bilanz-modul-k3-29"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 249 Abs. 1 S. 1 HGB",
+  "titel": "Rückstellungskatalog für die Klausur",
+  "text": "Zuerst prüfen, ob handelsrechtlich eine Rückstellung anzusetzen ist; anschließend steuerliche Ansatzverbote und Sonderregeln getrennt prüfen.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

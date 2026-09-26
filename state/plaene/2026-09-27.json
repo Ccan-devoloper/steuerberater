@@ -1,0 +1,94 @@
+{
+  "datum": "2026-09-27",
+  "erzeugt": "2026-09-26T22:12:08.302Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "wochenrueckblick",
+      "themaId": null,
+      "themaTitel": null,
+      "fach": "wochenrueckblick",
+      "klausur": 4,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:00",
+      "format": "reel",
+      "themaId": "persg-modul-persg-4",
+      "themaTitel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
+      "fach": "persg",
+      "klausur": 3,
+      "lang": true,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:22",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-19",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:22",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-19",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:16",
+      "art": "norm",
+      "themaId": "bilanz-modul-k3-29",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:00",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:13",
+      "art": "countdown",
+      "tageBisExamen": 9,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:39",
+      "art": "formel",
+      "themaId": "bilanz-formel-bewg-vervielfaeltiger",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:46",
+      "art": "merksatz",
+      "themaId": "istr-modul-istr-istr3-09",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:46",
+      "art": "begriff",
+      "themaId": "bilanz-glossar-18",
+      "status": "geplant"
+    }
+  ]
+}

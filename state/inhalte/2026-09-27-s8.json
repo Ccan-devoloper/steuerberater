@@ -1,0 +1,34 @@
+{
+  "slot": "s8",
+  "art": "merksatz",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-modul-istr-istr3-09",
+  "quellen": [
+    "§ 2 Nr. 1 KStG",
+    "§ 7 KStG",
+    "§ 8 KStG",
+    "§ 49 EStG",
+    "§ 8b KStG",
+    "§ 32 KStG",
+    "§§ 7, 8 KStG",
+    "Themenpool: istr-modul-istr-istr3-09"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Merksatz",
+  "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
+  "text": "Bei beschränkter Körperschaftsteuerpflicht zuerst den inländischen Anknüpfungstatbestand des § 49 EStG prüfen; erst danach folgt die weitere steuerliche Behandlung.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

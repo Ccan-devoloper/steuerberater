@@ -1,0 +1,87 @@
+{
+  "format": "wochenrueckblick",
+  "fach": "wochenrueckblick",
+  "klausur": 4,
+  "fachLabel": "Wochenrückblick",
+  "themaId": null,
+  "slug": "2026-09-27-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wochenrückblick: K1 · K2 · K3",
+      "coverBadge": "Wochenrückblick",
+      "coverBildAuslassen": false,
+      "icon": "kalender"
+    },
+    {
+      "art": "text",
+      "titel": "Klausur 1 · Verfahrensrecht, USt, ErbSt",
+      "punkte": [
+        "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer von bloß ausgewiesener Steuer trennen.",
+        "K1-Anker: Tatbestand, Verfahren und Umsatzsteuerfolge getrennt prüfen."
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Klausur 2 · Ertragsteuern",
+      "punkte": [
+        "§ 49 EStG: bei beschränkter Steuerpflicht den inländischen Anknüpfungspunkt vor einem DBA prüfen.",
+        "K2-Anker: Einkunftsart, Normkette und Erhebungsweg in der richtigen Reihenfolge sichern."
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Klausur 3 · Bilanzen",
+      "punkte": [
+        "Mitunternehmerschaft: Gesamthands-, Ergänzungs- und Sonderbilanzen getrennt erfassen und zusammenführen.",
+        "K3-Anker: Bilanzansatz, Bewertung und gesellschafterbezogene Ebenen sichtbar trennen."
+      ]
+    },
+    {
+      "art": "cta",
+      "titel": "Drei Klausuren, eine Wiederholung",
+      "punkte": [
+        "K1: Verfahrensrecht, Umsatzsteuer und Erbschaftsteuer bündeln",
+        "K2: Ertragsteuern mit Norm und Rechenweg wiederholen",
+        "K3: Bilanzposten und Personengesellschaften sauber trennen"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "buch"
+      ]
+    }
+  ],
+  "caption": "Wochenrückblick der bereits vorproduzierten Feedthemen: K1 mit Vorsteuerabzug und § 14c, K2 mit § 49 EStG bei beschränkter Steuerpflicht und K3 mit der steuerlichen Gesamtbilanz einer Mitunternehmerschaft.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#examensvorbereitung",
+    "#wochenrückblick"
+  ],
+  "kurztitel": "Wochenrückblick K1 · K2 · K3",
+  "coverBadge": "Wochenrückblick",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+    "§ 4 Abs. 1 S. 1 EStG",
+    "R 4.2 Abs. 2 EStR",
+    "§ 180 Abs. 1 S. 1 Nr. 2 a) AO",
+    "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
+    "§ 5 EStG",
+    "Themenpool: bilanz-modul-k3-9"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}
