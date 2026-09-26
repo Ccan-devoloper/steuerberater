@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Sachwert statt Geld: Ist das Realteilung?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "kreislauf"
         },
         {
           "art": "text",
@@ -226,7 +227,8 @@
           "art": "titel",
           "titel": "Hausrat geerbt: Welche Befreiung greift?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "haus"
         },
         {
           "art": "text",
@@ -326,7 +328,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Passive Einkünfte: Greift die Freigrenze?",
           "norm": "§ 9 AStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Passive Einkünfte: Greift die Freigrenze? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Passive Einkünfte: Greift die Freigrenze"
@@ -388,7 +390,7 @@
       ],
       "kurztitel": "Passive Einkünfte: Greift die Freigrenze?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 9 AStG",
         "§ 7 AStG",
@@ -414,7 +416,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -436,7 +439,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Lösen § 8b-Korrekturen latente Steuern aus?",
       "frage": "Lösen § 8b-Korrekturen latente Steuern aus?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "ja, aktive",
+        "ja, passive",
+        "nein, permanente Differenz"
+      ],
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -456,9 +465,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "nein, permanente Differenz",
       "text": "Richtig: nein, permanente Differenz. Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "ja, aktive",
+        "ja, passive",
+        "nein, permanente Differenz"
+      ],
+      "richtig": 2
     },
     "s6": {
       "slot": "s6",
@@ -661,7 +676,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:57.033Z",
+    "erzeugtAm": "2026-09-26T02:21:46.479Z",
     "pfad": "vorproduktion/2026-10-21/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -676,7 +691,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
