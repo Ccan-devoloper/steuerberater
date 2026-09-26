@@ -87,7 +87,8 @@
           "art": "titel",
           "titel": "Beteiligung verkauft: Wo greift § 8b KStG?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -188,7 +189,8 @@
           "art": "titel",
           "titel": "Bescheid erhalten: Wollte das Amt ihn bekanntgeben?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -286,7 +288,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Quellensteuer einbehalten: Wie kommt die Entlastung?",
           "norm": "§ 50b EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Quellensteuer einbehalten: Wie kommt die Entlastung? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Quellensteuer einbehalten: Wie kommt die Entlastung"
@@ -348,7 +350,7 @@
       ],
       "kurztitel": "Quellensteuer einbehalten: Wie kommt die Entlastung?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 50b EStG",
         "§ 50c EStG",
@@ -377,7 +379,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s1": {
       "slot": "s1",
@@ -460,7 +463,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:20.645Z",
+    "erzeugtAm": "2026-09-26T02:15:15.330Z",
     "pfad": "vorproduktion/2026-10-08/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -475,7 +478,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
