@@ -462,17 +462,40 @@ function klangbettFilter(dauer) {
    ein zusätzlicher KI-Aufruf ist dafür nicht nötig. */
 export function coverDaten(reel, plan) {
   const sekunden = Math.round(plan?.gesamt || 0);
+  const charakterMotiv = reel.bildTyp === "charakter" && !!reel.bild;
   return {
     /* Auf dem Cover steht der Kurztitel: Er fasst das ganze Reel zusammen und
        darf deshalb vom ersten gesprochenen Satz abweichen. Der Aufhaenger
        stellt eine Frage, das Cover soll das Thema benennen. */
     titel: reel.kurztitel || reel.szenen?.[0]?.titel || "Reel",
-    ueberzeile: sekunden ? `Reel · ${sekunden} Sekunden` : "Reel",
-    dauerText: sekunden ? `In ${sekunden} Sekunden erklärt` : "",
+    titelZeilen: reel.titelZeilen || null,
+    coverBadge: reel.coverBadge || (sekunden ? `Reel · ${sekunden} Sekunden` : "Reel"),
+    /* Cover-v2 no-arrow: der redaktionelle Aha-Hinweis ersetzt die alte
+       automatisch erzeugte Dauer-Handschrift samt Pfeil. */
+    coverText: reel.coverText || null,
+    coverHinweisPlan: reel.coverHinweisPlan || null,
     icon: reel.szenen?.find((s) => s.icon)?.icon || "paragraf",
     /* Freigestelltes Motiv (bilder.mjs) statt Icon-Bühne, wenn eines da ist. */
     bild: reel.bild || null, bildFrei: reel.bildFrei !== false, bildQuelle: reel.bildQuelle || null,
     bildBreite: reel.bildBreite || null, bildHoehe: reel.bildHoehe || null,
+    bildTyp: reel.bildTyp || null,
+    /* Manuelle Cover-Renderprofile muessen bis in die Covervorlage
+       durchgereicht werden. Sonst stehen scale/x zwar im Manifest, aendern
+       das Reel-Cover aber nicht. */
+    coverBildScale: reel.coverBildScale ?? null,
+    coverBildBreite: reel.coverBildBreite ?? null,
+    coverBildX: reel.coverBildX ?? null,
+    coverBildY: reel.coverBildY ?? null,
+    /* Charakter-Reel-Cover sind standardmäßig eine vollbreite untere Bühne.
+       "width" skaliert den Freisteller auf Canvasbreite ohne Cropping. Ein
+       explizites Profil kann diese Defaults weiterhin überschreiben. */
+    coverBildFit: reel.coverBildFit ?? (charakterMotiv ? "width" : null),
+    coverBildTop: reel.coverBildTop ?? (charakterMotiv ? 620 : null),
+    coverBildBottom: reel.coverBildBottom ?? (charakterMotiv ? 0 : null),
+    coverBildBleed: reel.coverBildBleed ?? (charakterMotiv ? 0 : null),
+    coverBildEdgeToEdge: charakterMotiv ? reel.coverBildEdgeToEdge !== false : reel.coverBildEdgeToEdge === true,
+    coverBildAuslassen: reel.coverBildAuslassen === true,
+    coverText: reel.coverText || null,
     fach: reel.fach,
     klausur: reel.klausur,
     fachLabel: FAECHER[reel.fach]?.label,
