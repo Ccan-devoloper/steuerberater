@@ -177,6 +177,12 @@ function publikationsregelnPruefen(inhalt, label) {
 
 function storySemantikPruefen(story, label) {
   publikationsregelnPruefen({ stories: [story] }, label);
+  if (story.art === "frage") {
+    const frage = String(story.frage || story.titel || "").trim();
+    if (!frage || !/\?$/.test(frage)) {
+      throw new Error(label + ": Prüfungsfrage braucht einen sichtbaren Fragesatz mit Fragezeichen.");
+    }
+  }
   if (story.art === "antwort" && !String(story.text || "").trim()) {
     throw new Error(label + ": Auflösung ohne Antworttext.");
   }

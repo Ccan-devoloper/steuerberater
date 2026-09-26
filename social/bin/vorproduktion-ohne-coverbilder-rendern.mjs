@@ -26,6 +26,7 @@ const { beitragRendern, storyRendern, browserBeenden } = await import("../src/re
 const { reelBauen } = await import("../src/reel.mjs");
 const { ICONS } = await import("../src/stile.mjs");
 const { ZUORDNUNG } = await import("../src/icons.mjs");
+const { themenpool } = await import("../src/inhalte.mjs");
 
 const tage = process.argv.slice(2).filter((x) => /^\d{4}-\d{2}-\d{2}$/.test(x));
 if (!tage.length) throw new Error("Mindestens ein Datum YYYY-MM-DD ist erforderlich.");
@@ -47,6 +48,32 @@ const manifest = {
   tage: [],
 };
 
+const themenById = new Map(themenpool().map((t) => [t.id, t]));
+
+function quizFrageText(kern = {}, fallbackTitel = "") {
+  const explizit = String(kern.frage || "").replace(/\s+/g, " ").trim();
+  if (explizit) return /\?$/.test(explizit) ? explizit : explizit.replace(/[.!]+$/, "") + "?";
+  const basis = String(fallbackTitel || "").replace(/\s+/g, " ").trim().replace(/[.!]+$/, "");
+  if (!basis) throw new Error("Quiz braucht eine sichtbare Frage.");
+  if (/\?$/.test(basis)) return basis;
+  return `Was gilt bei „${basis}“?`;
+}
+
+function quizStoriesNormalisieren(tag) {
+  for (const p of tag.plan?.stories || []) {
+    if (p.art !== "frage") continue;
+    const story = tag.inhalte?.[p.slot];
+    if (!story) continue;
+    const thema = themenById.get(story.pairId || p.themaId);
+    const kern = thema?.kern || {};
+    const frage = quizFrageText(kern, story.frage || story.titel || thema?.titel);
+    story.frage = frage;
+    story.titel = frage;
+    if (Array.isArray(kern.optionen) && kern.optionen.length) story.optionen = kern.optionen;
+    if (kern.richtig != null) story.richtig = kern.richtig;
+  }
+}
+
 function titelVon(beitrag = {}) {
   return beitrag.kurztitel
     || beitrag.folien?.find((f) => f.art === "titel")?.titel
@@ -55,22 +82,34 @@ function titelVon(beitrag = {}) {
 }
 
 function teaserFuer(slot, beitrag, beitragSlot) {
+  const titelFolie = beitrag.folien?.[0] || beitrag.szenen?.[0] || {};
+  const motiv = beitrag.bild ? beitrag : titelFolie;
+  const teaserTitel = beitrag.kurztitel || titelFolie.titel || "Neuer Beitrag";
   return {
     slot,
     art: "teaser",
     fach: beitrag.fach || null,
     klausur: beitrag.klausur ?? 0,
     fachLabel: beitrag.fachLabel || "Steuerberaterexamen",
-    titel: titelVon(beitrag),
-    text: "Der vollständige Beitrag ist jetzt im Feed.",
+    ueberzeile: "Neuer Beitrag",
+    titel: teaserTitel,
+    text: titelFolie.titel && titelFolie.titel !== teaserTitel ? titelFolie.titel : "",
+    icon: titelFolie.icon || beitrag.szenen?.find((s) => s.icon)?.icon || "paragraf",
+    bild: motiv.bild || null,
+    bildFrei: motiv.bildFrei !== false,
+    bildQuelle: motiv.bildQuelle || null,
+    bildBreite: motiv.bildBreite || null,
+    bildHoehe: motiv.bildHoehe || null,
+    bildTyp: motiv.bildTyp || null,
+    bildCharaktere: motiv.bildCharaktere || null,
     pille: "Jetzt im Feed",
     beitragSlot,
     abgeleitet: true,
-    freigabeBetreiber: false,
-    vorproduktionStatus: "review",
+    freigabeBetreiber: beitrag.freigabeBetreiber === true,
+    vorproduktionStatus: beitrag.vorproduktionStatus || "review",
     textProviderKostenUsd: 0,
     faktencheckProviderKostenUsd: 0,
-    bildStatus: "bewusst-ausgelassen",
+    bildStatus: motiv.bild ? "vorhanden" : "icon-statt-bild",
   };
 }
 
@@ -111,6 +150,7 @@ for (const datum of tage) {
   const tagPfad = path.join(hosting.dir, "vorproduktion", datum + ".json");
   if (!fs.existsSync(tagPfad)) throw new Error("Vorproduktion fehlt: " + datum);
   const tag = JSON.parse(fs.readFileSync(tagPfad, "utf8"));
+  quizStoriesNormalisieren(tag);
   examenscampusRegelnPruefen(tag);
   expliziteIconKeysPruefen(tag.inhalte, datum + ".inhalte");
 }
