@@ -1,0 +1,51 @@
+name: Examenscampus · Dashboard-Backfill final
+
+on:
+  push:
+    branches:
+      - codex/examenscampus-static-backfill-final
+
+permissions:
+  contents: write
+
+concurrency:
+  group: examenscampus-static-dashboard-backfill-final
+  cancel-in-progress: true
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      IG_ASSET_DIR: .instagram-assets
+      IG_STIL: bunt
+      IG_FARBE_JE_KLAUSUR: "true"
+      IG_BILDER: "false"
+      IG_BILD_KI: "false"
+      IG_CHARAKTERE: "false"
+      IG_CHARAKTER_QA: "false"
+      IG_STIMME: piper
+      OPENAI_API_KEY: ""
+      ANTHROPIC_API_KEY: ""
+      ELEVENLABS_API_KEY: ""
+      PEXELS_API_KEY: ""
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+      - name: Abhängigkeiten und Browser
+        working-directory: social
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Letzte Dashboard-Tage reparieren
+        working-directory: social
+        run: |
+          node bin/vorproduktion-dashboard-backfill.mjs 2026-10-25 2026-10-26 2026-10-27 2026-10-28
