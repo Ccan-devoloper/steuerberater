@@ -5004,6 +5004,28 @@
       "thema": "ust-modul-ust-224",
       "fach": "ust",
       "titel": "Gemischte Nutzung und Zuordnung zum Unternehmen: Aufteilungsgebot oder Zuordnungswahlrecht"
+    },
+    {
+      "datum": "2026-09-26",
+      "slot": "b2",
+      "medienId": "18035337683835111",
+      "veroeffentlicht": "2026-09-26T10:14:46.870Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "12:00",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "mindset-1",
+      "fach": "mindset",
+      "klausur": 0,
+      "titel": "Prüfungsangst am Abend vor Tag 1",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#kopfsache"
+      ]
     }
   ],
   "fachZaehler": {
@@ -5014,7 +5036,7 @@
     "bilanz": 17,
     "istr": 12,
     "erbst": 3,
-    "mindset": 1
+    "mindset": 2
   },
   "nachrichten": [],
   "postfach": [],
