@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -220,7 +221,8 @@
           "art": "titel",
           "titel": "Bebautes Grundstück: Welche Art zuerst?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "haus"
         },
         {
           "art": "text",
@@ -318,7 +320,7 @@
           "unter": "Körperschaftsteuer",
           "text": "Aufwand verbucht: Muss er zum zvE hinzu?",
           "norm": "§ 8 Abs. 1 KStG",
-          "icon": null,
+          "icon": "gebaeude",
           "sprecher": "Aufwand verbucht: Muss er zum zvE hinzu? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Aufwand verbucht: Muss er zum zvE hinzu"
@@ -380,7 +382,7 @@
       ],
       "kurztitel": "Aufwand verbucht: Muss er zum zvE hinzu?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 8 Abs. 1 KStG",
         "§ 10 Nr. 2 KStG",
@@ -410,7 +412,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "gebaeude"
     },
     "s4": {
       "slot": "s4",
@@ -432,7 +435,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
       "frage": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "begünstigt nach § 34 EStG",
+        "laufender Gewinn",
+        "steuerfrei"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -452,9 +461,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "laufender Gewinn",
       "text": "Richtig: laufender Gewinn. Insoweit liegt eine Veräußerung vor; § 34 EStG ist nicht anwendbar.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "begünstigt nach § 34 EStG",
+        "laufender Gewinn",
+        "steuerfrei"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -648,7 +663,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:41:02.657Z",
+    "erzeugtAm": "2026-09-26T02:22:20.390Z",
     "pfad": "vorproduktion/2026-10-28/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -663,7 +678,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
