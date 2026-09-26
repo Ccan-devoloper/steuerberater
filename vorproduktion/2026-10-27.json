@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -219,7 +220,8 @@
           "art": "titel",
           "titel": "Betrieb übertragen: Liegt eine GiG vor?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "quittung"
         },
         {
           "art": "text",
@@ -316,7 +318,7 @@
           "unter": "Körperschaftsteuer",
           "text": "Verein mit Umsatz: Greift die Steuerbefreiung?",
           "norm": "§ 1 Abs. 1 Nr. 4 KStG",
-          "icon": null,
+          "icon": "gebaeude",
           "sprecher": "Verein mit Umsatz: Greift die Steuerbefreiung? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Verein mit Umsatz: Greift die Steuerbefreiung"
@@ -378,7 +380,7 @@
       ],
       "kurztitel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 1 Abs. 1 Nr. 4 KStG",
         "§ 5 Abs. 1 Nr. 9 S. 2 KStG",
@@ -412,7 +414,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "gebaeude"
     },
     "s4": {
       "slot": "s4",
@@ -434,7 +437,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
       "frage": "Welche Norm betrifft die Reinvestitionsrücklage?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "§ 6b EStG",
+        "§ 8 KStG",
+        "§ 15a EStG"
+      ],
+      "richtig": 0
     },
     "s5": {
       "slot": "s5",
@@ -454,9 +463,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "§ 6b EStG",
       "text": "Richtig: § 6b EStG. Die Übertragung stiller Reserven ist in § 6b EStG geregelt; R 6.6 EStR betrifft dagegen den unfreiwilligen Verlust.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "§ 6b EStG",
+        "§ 8 KStG",
+        "§ 15a EStG"
+      ],
+      "richtig": 0
     },
     "s6": {
       "slot": "s6",
@@ -653,7 +668,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:40:59.371Z",
+    "erzeugtAm": "2026-09-26T02:22:15.601Z",
     "pfad": "vorproduktion/2026-10-27/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -668,7 +683,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
