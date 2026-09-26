@@ -4992,6 +4992,18 @@
       "thema": null,
       "fach": "bilanz",
       "titel": "Gesamthandsvermögen und Mitunternehmerbilanz"
+    },
+    {
+      "datum": "2026-09-26",
+      "slot": "s5",
+      "medienId": "18171170581460071",
+      "veroeffentlicht": "2026-09-26T09:43:52.640Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "ust-modul-ust-224",
+      "fach": "ust",
+      "titel": "Gemischte Nutzung und Zuordnung zum Unternehmen: Aufteilungsgebot oder Zuordnungswahlrecht"
     }
   ],
   "fachZaehler": {
