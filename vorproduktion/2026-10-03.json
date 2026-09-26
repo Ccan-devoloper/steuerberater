@@ -55,13 +55,13 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "kst-karte-kst-6"
+        "themaId": "kst-quiz-kst-12"
       },
       {
         "slot": "s5",
         "zeit": "07:07",
         "art": "antwort",
-        "themaId": "kst-karte-kst-6"
+        "themaId": "kst-quiz-kst-12"
       },
       {
         "slot": "s1",
@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Vorteil ohne Geld: Ist das eine Einlage?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -221,7 +222,8 @@
           "art": "titel",
           "titel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
           "coverBadge": null,
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "zielscheibe"
         },
         {
           "art": "text",
@@ -321,7 +323,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
           "norm": "Art. 15 DBA",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "183 Tage: Darf der Tätigkeitsstaat besteuern? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "183 Tage: Darf der Tätigkeitsstaat besteuern"
@@ -383,7 +385,7 @@
       ],
       "kurztitel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "Art. 15 DBA",
         "Art. 23 DBA",
@@ -409,7 +411,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -417,9 +420,10 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-karte-kst-6",
+      "pairId": "kst-quiz-kst-12",
       "quellen": [
-        "Themenpool: kst-karte-kst-6"
+        "§ 64 Abs. 3 AO",
+        "Themenpool: kst-quiz-kst-12"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -429,9 +433,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was gilt bei „§ 27 KStG“?",
-      "frage": "Was gilt bei „§ 27 KStG“?",
-      "liveVorrangAktiv": true
+      "titel": "Welcher Vereinsbereich ist nach dem hochgeladenen Schema steuerpflichtig?",
+      "frage": "Welcher Vereinsbereich ist nach dem hochgeladenen Schema steuerpflichtig?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Vermögensverwaltung",
+        "Zweckbetrieb",
+        "wirtschaftlicher Geschäftsbetrieb"
+      ],
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -439,9 +449,10 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-karte-kst-6",
+      "pairId": "kst-quiz-kst-12",
       "quellen": [
-        "Themenpool: kst-karte-kst-6"
+        "§ 64 Abs. 3 AO",
+        "Themenpool: kst-quiz-kst-12"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -451,9 +462,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Außerbilanzielle Nebenrechnung. Leistung zuerst aus ausschüttbarem Gewinn; Einlagekonto niemals negativ.",
-      "liveVorrangAktiv": true
+      "titel": "wirtschaftlicher Geschäftsbetrieb",
+      "text": "Richtig ist: wirtschaftlicher Geschäftsbetrieb.",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Vermögensverwaltung",
+        "Zweckbetrieb",
+        "wirtschaftlicher Geschäftsbetrieb"
+      ],
+      "richtig": 2
     },
     "s6": {
       "slot": "s6",
@@ -640,7 +657,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:07.445Z",
+    "erzeugtAm": "2026-09-26T02:14:55.339Z",
     "pfad": "vorproduktion/2026-10-03/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -655,7 +672,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
