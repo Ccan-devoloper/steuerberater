@@ -192,6 +192,15 @@ function satz(text) {
   return /[.!?]$/.test(s) ? s : s + ".";
 }
 
+function quizFrage(k, fallbackTitel) {
+  const explizit = clean(k?.frage);
+  if (explizit) return /\?$/.test(explizit) ? explizit : explizit.replace(/[.!]+$/, "") + "?";
+  const basis = clean(fallbackTitel).replace(/[.!]+$/, "");
+  if (!basis) throw new Error("Quiz braucht eine sichtbare Frage.");
+  if (/\?$/.test(basis)) return basis;
+  return `Was gilt bei „${basis}“?`;
+}
+
 function quizAntwort(k) {
   let option = "";
   if (typeof k.richtig === "number" && k.optionen[k.richtig] != null) option = k.optionen[k.richtig];
@@ -530,7 +539,15 @@ function story(datum, planStory, t, used) {
   };
 
   if (art === "frage") {
-    return { ...basis, ueberzeile: "Prüfungsfrage", titel: t.titel };
+    const frage = quizFrage(k, t.titel);
+    return {
+      ...basis,
+      ueberzeile: "Prüfungsfrage",
+      frage,
+      titel: frage,
+      ...(k.optionen.length ? { optionen: k.optionen } : {}),
+      ...(k.richtig != null ? { richtig: k.richtig } : {}),
+    };
   }
   if (art === "antwort") {
     return {
