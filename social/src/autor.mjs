@@ -1261,16 +1261,21 @@ export async function bildregieSicher(reel) {
 }
 
 export function teaserAusBeitrag(beitrag, slot) {
+  const titelFolie = beitrag.folien?.[0] || beitrag.szenen?.[0] || {};
+  /* Bei Karussells sitzt der Freisteller auf der Titelfolie, bei Reels auf
+     dem Beitragsobjekt selbst. Ein finales Cover-JPG wird hier bewusst nie
+     verwendet: Im Teaser soll nur das freigestellte Motiv erscheinen. */
+  const motiv = beitrag.bild ? beitrag : titelFolie;
+  const teaserTitel = beitrag.kurztitel || titelFolie.titel || "Neuer Beitrag";
   return {
     slot, art: "teaser", fach: beitrag.fach, klausur: beitrag.klausur, fachLabel: beitrag.fachLabel,
     ueberzeile: "Neuer Beitrag",
-    titel: beitrag.kurztitel || beitrag.folien[0].titel,
-    text: beitrag.folien[0].titel !== beitrag.kurztitel ? beitrag.folien[0].titel : "",
-    icon: beitrag.folien[0].icon || "paragraf",
-    /* Das Motiv der Titelfolie wandert mit - so kündigt die Story den Beitrag
-       mit demselben Bild an. */
-    bild: beitrag.folien[0].bild || null, bildFrei: beitrag.folien[0].bildFrei !== false, bildQuelle: beitrag.folien[0].bildQuelle || null,
-    bildBreite: beitrag.folien[0].bildBreite || null, bildHoehe: beitrag.folien[0].bildHoehe || null,
+    titel: teaserTitel,
+    text: titelFolie.titel && titelFolie.titel !== teaserTitel ? titelFolie.titel : "",
+    icon: titelFolie.icon || "paragraf",
+    bild: motiv.bild || null, bildFrei: motiv.bildFrei !== false, bildQuelle: motiv.bildQuelle || null,
+    bildBreite: motiv.bildBreite || null, bildHoehe: motiv.bildHoehe || null,
+    bildTyp: motiv.bildTyp || null, bildCharaktere: motiv.bildCharaktere || null,
     pille: "Jetzt im Feed",
   };
 }
