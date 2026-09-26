@@ -34,7 +34,8 @@
       "zeit": "07:05",
       "art": "frage",
       "themaId": "ust-quiz-ust-4",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-26T06:45:10.896Z"
     },
     {
       "slot": "s4",
