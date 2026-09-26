@@ -87,7 +87,8 @@
           "art": "titel",
           "titel": "Falscher Buchungssatz: Wie wirkt die Korrektur?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -184,7 +185,8 @@
           "art": "titel",
           "titel": "Zahlendreher in der Erklärung: § 173a oder § 129?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -283,7 +285,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Auslandssteuer: DBA oder § 34c EStG?",
           "norm": "§ 34c Abs. 1 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Auslandssteuer: DBA oder § 34c EStG? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Auslandssteuer: DBA oder § 34c EStG"
@@ -345,7 +347,7 @@
       ],
       "kurztitel": "Auslandssteuer: DBA oder § 34c EStG?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 34c Abs. 1 EStG",
         "§ 34c Abs. 2 EStG",
@@ -373,7 +375,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s1": {
       "slot": "s1",
@@ -456,7 +459,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:18.270Z",
+    "erzeugtAm": "2026-09-26T02:15:11.773Z",
     "pfad": "vorproduktion/2026-10-07/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -471,7 +474,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
