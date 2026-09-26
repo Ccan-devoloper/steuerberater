@@ -387,7 +387,13 @@
         "stand": "2026-09-25"
       },
       "frage": "Welche Verbrauchsfolge ist steuerlich unzulässig?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Lifo",
+        "Fifo",
+        "Durchschnitt"
+      ],
+      "richtig": 1
     },
     "s4": {
       "slot": "s4",
@@ -407,14 +413,20 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "Fifo",
       "text": "FIFO ist steuerlich als Verbrauchsfolgeverfahren unzulässig. Steuerlich ist nach § 6 Abs. 1 Nr. 2a EStG LIFO zulässig; die Durchschnittsbewertung ist als Gruppenbewertung gesondert zu prüfen.",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
       },
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Lifo",
+        "Fifo",
+        "Durchschnitt"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -629,7 +641,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:36:53.050Z",
+    "erzeugtAm": "2026-09-26T02:14:31.010Z",
     "pfad": "vorproduktion/2026-09-28/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -646,7 +658,9 @@
     "coverIcons": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
