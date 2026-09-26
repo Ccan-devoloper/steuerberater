@@ -55,13 +55,13 @@
         "slot": "s4",
         "zeit": "07:09",
         "art": "frage",
-        "themaId": "kst-karte-kst-3"
+        "themaId": "kst-quiz-kst-3"
       },
       {
         "slot": "s5",
         "zeit": "07:09",
         "art": "antwort",
-        "themaId": "kst-karte-kst-3"
+        "themaId": "kst-quiz-kst-3"
       },
       {
         "slot": "s6",
@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Falsche Bilanz: Berichtigung oder Änderung?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -221,7 +222,8 @@
           "art": "titel",
           "titel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -319,7 +321,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Erst nationales Recht, dann DBA: Warum?",
           "norm": "§ 1 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Erst nationales Recht, dann DBA: Warum? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Erst nationales Recht, dann DBA: Warum"
@@ -381,7 +383,7 @@
       ],
       "kurztitel": "Erst nationales Recht, dann DBA: Warum?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 1 EStG",
         "§ 49 EStG",
@@ -411,7 +413,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -419,9 +422,9 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-karte-kst-3",
+      "pairId": "kst-quiz-kst-3",
       "quellen": [
-        "Themenpool: kst-karte-kst-3"
+        "Themenpool: kst-quiz-kst-3"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -431,9 +434,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was gilt bei „Nutzungsvorteil“?",
-      "frage": "Was gilt bei „Nutzungsvorteil“?",
-      "liveVorrangAktiv": true
+      "titel": "Welche Aussage zur vGA ist richtig?",
+      "frage": "Welche Aussage zur vGA ist richtig?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Sie wird immer als Eigenkapitalbuchung erfasst",
+        "Sie wird außerbilanziell hinzugerechnet",
+        "Sie setzt stets eine Barzahlung voraus"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -441,9 +450,9 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-karte-kst-3",
+      "pairId": "kst-quiz-kst-3",
       "quellen": [
-        "Themenpool: kst-karte-kst-3"
+        "Themenpool: kst-quiz-kst-3"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -453,9 +462,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Reine Arbeits- oder Nutzungsüberlassung ist regelmäßig kein einlagefähiger Vermögensvorteil.",
-      "liveVorrangAktiv": true
+      "titel": "Sie wird außerbilanziell hinzugerechnet",
+      "text": "Richtig ist: Sie wird außerbilanziell hinzugerechnet.",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Sie wird immer als Eigenkapitalbuchung erfasst",
+        "Sie wird außerbilanziell hinzugerechnet",
+        "Sie setzt stets eine Barzahlung voraus"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -639,7 +654,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:10.095Z",
+    "erzeugtAm": "2026-09-26T02:15:00.005Z",
     "pfad": "vorproduktion/2026-10-04/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -654,7 +669,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
