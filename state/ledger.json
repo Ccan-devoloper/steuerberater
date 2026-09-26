@@ -4956,6 +4956,18 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-09-26",
+      "slot": "s3",
+      "medienId": "18372027292240764",
+      "veroeffentlicht": "2026-09-26T06:45:20.730Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "ust-quiz-ust-4",
+      "fach": "ust",
+      "titel": "Was gilt seit 2025 für Umsätze eines Kleinunternehmers (§ 19 UStG n. F.)?"
     }
   ],
   "fachZaehler": {

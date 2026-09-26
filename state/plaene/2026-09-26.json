@@ -34,8 +34,9 @@
       "zeit": "07:05",
       "art": "frage",
       "themaId": "ust-quiz-ust-4",
-      "status": "sendet",
-      "sendeversuch": "2026-09-26T06:45:10.896Z"
+      "status": "veroeffentlicht",
+      "medienId": "18372027292240764",
+      "veroeffentlicht": "2026-09-26T06:45:20.730Z"
     },
     {
       "slot": "s4",
