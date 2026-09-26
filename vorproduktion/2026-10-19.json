@@ -1,9 +1,9 @@
 {
   "datum": "2026-10-19",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -198,11 +198,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "schema",
@@ -292,11 +293,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -399,11 +401,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -417,13 +420,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Sonstige Leistung (§ 3 Abs. 9 UStG)"
+      "titel": "Was gilt bei „Sonstige Leistung (§ 3 Abs. 9 UStG)“?",
+      "frage": "Was gilt bei „Sonstige Leistung (§ 3 Abs. 9 UStG)“?",
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -437,14 +442,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Jede Leistung, die keine Lieferung ist – auch Dulden und Unterlassen."
+      "text": "Jede Leistung, die keine Lieferung ist – auch Dulden und Unterlassen.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -467,15 +473,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 4 Nr. 9 Buchst. a UStG",
       "titel": "Grundstück: Befreiung oder Option?",
-      "text": "§ 4 Nr. 9 Buchst. a und § 4 Nr. 12 UStG voneinander unterscheiden die ausdrücklich nicht befreiten Vermietungsumsätze des § 4 Nr. 12 S. 2 erkennen"
+      "text": "§ 4 Nr. 9 Buchst. a und § 4 Nr. 12 UStG voneinander unterscheiden die ausdrücklich nicht befreiten Vermietungsumsätze des § 4 Nr. 12 S. 2 erkennen",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -499,14 +506,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Verbindlichkeiten, Fremdwährung und Abzinsung",
-      "text": "Ansatz als Verbindlichkeit über § 246 Abs. 1 S. 1, S. 3 HGB."
+      "text": "Ansatz als Verbindlichkeit über § 246 Abs. 1 S. 1, S. 3 HGB.",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -525,14 +533,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 15a UStG: Wann berichtigen?",
-      "text": "Ursprünglichen Vorsteuerabzug bestimmen."
+      "text": "Ursprünglichen Vorsteuerabzug bestimmen.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -555,14 +564,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Mehr-/Weniger-Rechnung und Überleitung",
-      "text": "Handelsbilanzgewinn als Ausgangspunkt festlegen."
+      "text": "Handelsbilanzgewinn als Ausgangspunkt festlegen.",
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -570,16 +580,25 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -587,16 +606,25 @@
       "fach": "erbst",
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer / Bewertung",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s3": {
       "slot": "s3",
@@ -604,21 +632,30 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Drittstaatenverlust: Wo greift § 2a EStG?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b3",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T22:47:39.766Z",
+    "erzeugtAm": "2026-09-26T01:37:51.595Z",
     "pfad": "vorproduktion/2026-10-19/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -629,11 +666,17 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
-    "wartetLive": []
+    "freigabeBetreiber": true,
+    "wartetLive": [],
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
-  }
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden"
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
