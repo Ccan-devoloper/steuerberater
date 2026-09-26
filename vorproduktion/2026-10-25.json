@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -221,7 +222,8 @@
           "art": "titel",
           "titel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "haus"
         },
         {
           "art": "text",
@@ -324,7 +326,7 @@
           "unter": "Körperschaftsteuer",
           "text": "Organschaft: Trägt der Gewinnabführungsvertrag?",
           "norm": "§ 14 Abs. 1 S. 1 KStG",
-          "icon": null,
+          "icon": "gebaeude",
           "sprecher": "Organschaft: Trägt der Gewinnabführungsvertrag? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Organschaft: Trägt der Gewinnabführungsvertrag"
@@ -386,7 +388,7 @@
       ],
       "kurztitel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 14 Abs. 1 S. 1 KStG",
         "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
@@ -417,7 +419,9 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "gebaeude",
+      "coverTitel": "Organschaft: Ist der Vertrag wirksam?"
     },
     "s4": {
       "slot": "s4",
@@ -439,7 +443,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
       "frage": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Bruttobestand",
+        "Nettobestand ohne Umsatzsteuer",
+        "Bestand inklusive EWB-Forderungen"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -459,9 +469,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "Nettobestand ohne Umsatzsteuer",
       "text": "Richtig: Nettobestand ohne Umsatzsteuer. Für die Umsatzsteuer besteht kein Ausfallrisiko (UStAE 17.1 Abs. 5 S. 9).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Bruttobestand",
+        "Nettobestand ohne Umsatzsteuer",
+        "Bestand inklusive EWB-Forderungen"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -648,7 +664,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:40:52.643Z",
+    "erzeugtAm": "2026-09-26T02:22:06.147Z",
     "pfad": "vorproduktion/2026-10-25/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -663,7 +679,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
