@@ -1,0 +1,29 @@
+{
+  "slot": "s8",
+  "art": "formel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-formel-sonder-afa",
+  "quellen": [
+    "§ 7g Abs. 5, Abs. 6 Nr. 1, 2 EStG",
+    "Themenpool: bilanz-formel-sonder-afa"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Rechenweg",
+  "titel": "Sonderabschreibung nach § 7g Abs. 5 EStG",
+  "formel": "Sonder-AfA = AK/HK × bis zu 40 %",
+  "text": "Die Voraussetzungen des § 7g Abs. 5 und 6 EStG müssen zusätzlich erfüllt sein.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

@@ -1,0 +1,109 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "mindset",
+  "klausur": 0,
+  "fachLabel": "Kopfsache",
+  "themaId": "mindset-1",
+  "slug": "2026-09-26-b2",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Prüfungsangst am Abend vor Tag 1: was jetzt hilft",
+      "unter": "Kopfsache",
+      "text": "Jetzt zählt Vorbereitung statt neuer Stoff.",
+      "norm": null,
+      "icon": "zielscheibe",
+      "sprecher": "Am Abend vor Tag 1 zählt Vorbereitung statt neuer Stoff.",
+      "marken": [
+        "Vorbereitung statt neuer Stoff"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Material und Anreise festziehen",
+      "text": "Alles Nötige bereitlegen und den Morgen organisatorisch entlasten.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 1: Lege Material, Unterlagen und den Ablauf für den Morgen bereit.",
+      "marken": [
+        "Material vorbereiten"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Einen klaren Lernschluss setzen",
+      "text": "Keine neuen Themen mehr eröffnen.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 2: Setze einen klaren Lernschluss und eröffne kein neues Thema mehr.",
+      "marken": [
+        "Lernschluss setzen"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Schlaf priorisieren",
+      "text": "Erholung ist jetzt wichtiger als eine weitere Wiederholungsrunde.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 3: Priorisiere Schlaf statt einer weiteren langen Wiederholungsrunde.",
+      "marken": [
+        "Schlaf priorisieren"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Merksatz",
+      "text": "Nichts Neues mehr anfangen. Ruhe ist jetzt Teil der Prüfungsvorbereitung.",
+      "sprecher": "Merke dir: Nichts Neues mehr anfangen. Ruhe ist jetzt Teil der Prüfungsvorbereitung.",
+      "marken": [
+        "Ruhe organisieren"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Für heute Abend",
+      "text": "Material packen, Lernschluss setzen und rechtzeitig schlafen.",
+      "sprecher": "Für heute Abend: Material packen, Lernschluss setzen und rechtzeitig schlafen.",
+      "marken": [
+        "Material",
+        "Lernschluss",
+        "Schlaf"
+      ]
+    }
+  ],
+  "caption": "Am Abend vor dem ersten Prüfungstag bringt zusätzliche Stoffmenge meist weniger als ein klarer Abschluss. Material und Anreise vorbereiten, einen Lernschluss setzen und Schlaf priorisieren. Das Ziel ist nicht mehr Wissen, sondern ein ruhiger Start.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#kopfsache"
+  ],
+  "kurztitel": "Prüfungsangst am Abend vor Tag 1",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": false,
+  "quellen": [
+    "Themenpool: mindset-1"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "icon": "zielscheibe",
+  "liveVorrangAktiv": true
+}

@@ -1,0 +1,94 @@
+{
+  "datum": "2026-09-26",
+  "erzeugt": "2026-09-26T06:44:12.473Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "spickzettel",
+      "themaId": "bilanz-modul-k3-9",
+      "themaTitel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:00",
+      "format": "reel",
+      "themaId": "mindset-1",
+      "themaTitel": "Prüfungsangst am Abend vor Tag 1: was jetzt hilft",
+      "fach": "mindset",
+      "klausur": 0,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:05",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-4",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:05",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-4",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:28",
+      "art": "norm",
+      "themaId": "ust-modul-ust-224",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:00",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:22",
+      "art": "countdown",
+      "tageBisExamen": 10,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:23",
+      "art": "zahl",
+      "themaId": "ao-modul-ao-375",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:40",
+      "art": "formel",
+      "themaId": "bilanz-formel-sonder-afa",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:38",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-302",
+      "status": "geplant"
+    }
+  ]
+}

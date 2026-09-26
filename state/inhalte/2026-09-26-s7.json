@@ -1,0 +1,38 @@
+{
+  "slot": "s7",
+  "art": "zahl",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "pairId": "ao-modul-ao-375",
+  "quellen": [
+    "§ 179 Abs. 2 S. 1 AO",
+    "§ 14a Abs. 2 Nr. 2 AO",
+    "§ 14a Abs. 3 Nr. 3 AO",
+    "§ 183 AO",
+    "§ 183a AO",
+    "§ 125 Abs. 4 AO",
+    "§§ 179, 183 und 183a AO",
+    "§ 14a Abs. 2 Nr. 2 und Abs. 3 Nr. 3 AO",
+    "§ 14a Abs. 2–4 AO",
+    "Art. 97 § 39 Abs. 3 EGAO",
+    "Themenpool: ao-modul-ao-375"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "2 Bekanntgabewege",
+  "zahl": "2",
+  "titel": "GuE-Bescheide 2026",
+  "text": "Rechtsfähige Personenvereinigungen: grundsätzlich § 183 AO. Nicht rechtsfähige Personenvereinigungen: § 183a AO mit Empfangsbevollmächtigtem.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

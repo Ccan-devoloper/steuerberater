@@ -1,0 +1,114 @@
+{
+  "format": "spickzettel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-modul-k3-9",
+  "slug": "2026-09-26-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": false,
+      "icon": "personen"
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Gesamthandsbilanz, Ergänzungsbilanzen und Sonderbilanzen als getrennte Bereiche erfassen.",
+        "Gesellschafterbezogene Mehr- oder Minderwerte nicht in der Gesamthand verstecken.",
+        "Sonderbetriebsvermögen und Sonderbetriebsergebnis dem jeweiligen Mitunternehmer zuordnen.",
+        "Die Teilergebnisse erst zum Schluss zum steuerlichen Gesamtgewinn zusammenführen."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Gesellschaftsvermögen und die Bilanz der Gesamthand erfassen."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Für jeden Gesellschafter prüfen, ob eine Ergänzungsbilanz erforderlich ist."
+        },
+        {
+          "titel": "3. Schritt",
+          "text": "Sonderbetriebsvermögen sowie Sonderbetriebseinnahmen und -ausgaben zuordnen."
+        },
+        {
+          "titel": "4. Schritt",
+          "text": "Gesellschafterbezogene Korrekturen der richtigen Ebene zuweisen."
+        },
+        {
+          "titel": "5. Schritt",
+          "text": "Alle Ebenen zum steuerlichen Gesamtgewinn und zu den Gewinnanteilen abstimmen."
+        }
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Typischer Fehler",
+      "punkte": [
+        "Nur die Bilanz der Gesellschaft betrachten und gesellschafterbezogene Ebenen ausblenden.",
+        "Sonderbetriebsausgaben wie private Vorgänge behandeln.",
+        "Gesamthandsbilanz und steuerliche Gesamtbilanz begrifflich gleichsetzen."
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Die steuerliche Gesamtbilanz der Mitunternehmerschaft setzt sich aus Gesamthandsbilanz, Ergänzungsbilanzen und Sonderbilanzen zusammen."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Bei Mitunternehmerschaften reicht die Gesamthandsbilanz allein nicht. Für den steuerlichen Gesamtgewinn sind auch Ergänzungs- und Sonderbilanzen einzubeziehen. In der Klausur deshalb Gesellschaftsvermögen, gesellschafterbezogene Mehr- oder Minderwerte und Sonderbetriebsbereich getrennt erfassen und erst am Ende zusammenführen.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "Gesamthandsvermögen und Mitunternehmerbilanz",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+    "§ 4 Abs. 1 S. 1 EStG",
+    "R 4.2 Abs. 2 EStR",
+    "§ 180 Abs. 1 S. 1 Nr. 2 a) AO",
+    "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
+    "§ 5 EStG",
+    "Themenpool: bilanz-modul-k3-9"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

@@ -1,0 +1,36 @@
+{
+  "slot": "s5",
+  "art": "norm",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "pairId": "ust-modul-ust-224",
+  "quellen": [
+    "§ 15 Abs. 1 S. 2 UStG",
+    "§ 15 Abs. 1b UStG",
+    "A 15.2c UStAE",
+    "§ 27 Abs. 16 UStG",
+    "§ 15 Abs. 1 S. 2, Abs. 1b UStG",
+    "A 15.2b/15.2c UStAE",
+    "§ 15a UStG",
+    "BMF 01.04.2026 – III C 2 - S 7316/00022/007/023",
+    "Themenpool: ust-modul-ust-224"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 15 Abs. 1 S. 2 UStG",
+  "titel": "Gemischte Nutzung und Zuordnung zum Unternehmen: Aufteilungsgebot oder Zuordnungswahlrecht",
+  "text": "Private beziehungsweise unternehmensfremde Nutzung und nichtwirtschaftliche Tätigkeit im engeren Sinn zuerst unterscheiden; erst danach Zuordnung und Vorsteueraufteilung prüfen.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

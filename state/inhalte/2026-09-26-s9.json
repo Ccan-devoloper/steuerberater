@@ -1,0 +1,32 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "pairId": "ao-modul-ao-302",
+  "quellen": [
+    "§ 88 AO",
+    "§ 92 AO",
+    "§ 93 AO",
+    "§ 97 AO",
+    "§§ 85 ff. AO",
+    "Themenpool: ao-modul-ao-302"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Merksatz",
+  "titel": "Ermittlungsverfahren: Untersuchungsgrundsatz, Mitwirkung und Beweismittel",
+  "text": "Untersuchungsgrundsatz bedeutet nicht, dass das Finanzamt ohne Mitwirkung des Steuerpflichtigen ermitteln muss.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}
