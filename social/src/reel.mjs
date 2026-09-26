@@ -469,6 +469,8 @@ export function coverDaten(reel, plan) {
        stellt eine Frage, das Cover soll das Thema benennen. */
     titel: reel.kurztitel || reel.szenen?.[0]?.titel || "Reel",
     titelZeilen: reel.titelZeilen || null,
+    ueberzeile: sekunden ? `Reel · ${sekunden} Sekunden` : "Reel",
+    dauerText: sekunden ? `In ${sekunden} Sekunden erklärt` : "",
     coverBadge: reel.coverBadge || (sekunden ? `Reel · ${sekunden} Sekunden` : "Reel"),
     /* Cover-v2 no-arrow: der redaktionelle Aha-Hinweis ersetzt die alte
        automatisch erzeugte Dauer-Handschrift samt Pfeil. */
