@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Geringwertiges Gut: Sofortabzug oder Sammelposten?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -222,7 +223,8 @@
           "art": "titel",
           "titel": "Grundstück im Nachlass: Wer stellt den Wert fest?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "haus"
         },
         {
           "art": "text",
@@ -322,7 +324,7 @@
           "unter": "Körperschaftsteuer",
           "text": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu?",
           "norm": "§ 8 Abs. 1 KStG",
-          "icon": null,
+          "icon": "hauptbuch",
           "sprecher": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu"
@@ -384,7 +386,7 @@
       ],
       "kurztitel": "Steuerbilanzgewinn: Was kommt außerbilanziell hinzu?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 8 Abs. 1 KStG",
         "§ 8 Abs. 2 KStG",
@@ -417,7 +419,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "hauptbuch"
     },
     "s4": {
       "slot": "s4",
@@ -439,7 +442,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Wie lang ist der Berichtigungszeitraum des § 15a UStG bei Grundstücken?",
       "frage": "Wie lang ist der Berichtigungszeitraum des § 15a UStG bei Grundstücken?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "5 Jahre",
+        "10 Jahre",
+        "15 Jahre"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -459,9 +468,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "10 Jahre",
       "text": "Richtig: 10 Jahre. § 15a Abs. 1 S. 2 UStG: zehn Jahre bei Grundstücken einschließlich ihrer wesentlichen Bestandteile, sonst fünf Jahre.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "5 Jahre",
+        "10 Jahre",
+        "15 Jahre"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -657,7 +672,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:38:00.018Z",
+    "erzeugtAm": "2026-09-26T02:21:51.181Z",
     "pfad": "vorproduktion/2026-10-22/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -672,7 +687,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
