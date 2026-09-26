@@ -653,5 +653,6 @@
     "providerKostenUsd": 0
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "icon-statt-bild"
 }
