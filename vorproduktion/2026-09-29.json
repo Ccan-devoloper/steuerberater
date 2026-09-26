@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Drei Vermögen: Wo landet die Maschine?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "personen"
         },
         {
           "art": "text",
@@ -219,7 +220,8 @@
           "art": "titel",
           "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -323,7 +325,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Wohnsitz im Ausland: Wer darf besteuern?",
           "norm": "§ 1 Abs. 1 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Wohnsitz im Ausland: Wer darf besteuern? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Wohnsitz im Ausland: Wer darf besteuern"
@@ -385,7 +387,7 @@
       ],
       "kurztitel": "Wohnsitz im Ausland: Wer darf besteuern?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 1 Abs. 1 EStG",
         "§ 8 AO",
@@ -413,7 +415,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -435,7 +438,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
       "frage": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "nur Buchwert",
+        "nur gemeiner Wert",
+        "Buchwert, Zwischenwert oder gemeiner Wert"
+      ],
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -455,9 +464,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "Buchwert, Zwischenwert oder gemeiner Wert",
       "text": "Die Wahl reicht vom Buchwert über den Zwischenwert bis zum gemeinen Wert. Für den Buchwert ist ein Antrag nötig; ohne Wahl bleibt es beim gemeinen Wert.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "nur Buchwert",
+        "nur gemeiner Wert",
+        "Buchwert, Zwischenwert oder gemeiner Wert"
+      ],
+      "richtig": 2
     },
     "s6": {
       "slot": "s6",
@@ -637,7 +652,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:36:56.242Z",
+    "erzeugtAm": "2026-09-26T02:14:35.854Z",
     "pfad": "vorproduktion/2026-09-29/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -652,7 +667,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
