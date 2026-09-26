@@ -1044,7 +1044,7 @@
           store.reviewDate=reviewDate;
           localStorage.setItem("igDashReviewDate",reviewDate);
           try{out.vorproduktion[reviewDate]=await fetchJson(preBase+"/"+reviewDate+".json");}
-          catch(dayErr){out._preproductionError="Review-Tag "+reviewDate+": "+(dayErr&&dayErr.message||"Fehler");}
+          catch(dayErr){out._preproductionError="Vorproduktionstag "+reviewDate+": "+(dayErr&&dayErr.message||"Fehler");}
         }
       }catch(preErr){
         out.vorproduktionIndex={tage:[]};
@@ -1386,8 +1386,6 @@
     var days=entries.map(function(x){return x.datum;});
     if(requested&&days.indexOf(requested)>=0)return requested;
     var now=new Date(),today=[now.getFullYear(),String(now.getMonth()+1).padStart(2,"0"),String(now.getDate()).padStart(2,"0")].join("-");
-    var nextReview=entries.find(function(x){return x.datum>=today&&x.vorproduktionStatus==="review";});
-    if(nextReview)return nextReview.datum;
     return days.find(function(d){return d>=today;})||days[days.length-1]||"";
   }
   function preproductionAccountKey(){
@@ -1409,8 +1407,12 @@
   function storyAssetRel(date,s){return date+"/fertig/stories/"+s.slot+"-"+s.art+".jpg";}
   function preproductionAssetVersionKey(rel){return preproductionAccountKey()+":"+rel;}
   function preproductionAssetUrl(rel){
-    var v=store.assetVersions[preproductionAssetVersionKey(rel)];
-    return preproductionBase()+"/"+rel.split("/").map(encodeURIComponent).join("/")+(v?"?r="+v:"");
+    var key=preproductionAssetVersionKey(rel),v=store.assetVersions[key];
+    var data=store.data[preproductionAccountKey()]||{},date=String(rel||"").slice(0,10);
+    var day=data.vorproduktion&&data.vorproduktion[date],renderStamp=Date.parse(day&&day.renderVorschau&&day.renderVorschau.erzeugtAm||"");
+    var loadedStamp=data._loadedAt instanceof Date?data._loadedAt.getTime():Date.parse(data._loadedAt||"");
+    var version=v||(Number.isFinite(renderStamp)?renderStamp:(Number.isFinite(loadedStamp)?loadedStamp:0));
+    return preproductionBase()+"/"+rel.split("/").map(encodeURIComponent).join("/")+(version?"?r="+version:"");
   }
   /* Nach einem Editor-Commit: Cache von raw.githubusercontent.com umgehen,
      damit die bearbeitete Folie sofort in allen Vorschauen erscheint. */
@@ -1434,6 +1436,12 @@
   }
   function preproductionMeta(data,date){
     return (data.vorproduktionIndex&&data.vorproduktionIndex.tage||[]).find(function(x){return x.datum===date;})||{};
+  }
+  function preproductionLivePriority(data,date){
+    var index=data&&data.vorproduktionIndex||{},entries=index.tage||[];
+    var vorhanden=entries.some(function(x){return x&&x.datum===date;});
+    var ab=String(index.liveVorrangAb||"2026-09-26");
+    return vorhanden&&String(date||"")>=ab;
   }
   function preproductionMedia(day,date,slot,content){
     var isReel=content&&((content.format==="reel")||Array.isArray(content.szenen));
@@ -1657,7 +1665,7 @@
       n.error=e&&e.name==="OperationError"?"Der private Schlüssel passt nicht zu diesen Entwürfen.":"Voransichten konnten nicht geladen werden: "+(e&&e.message||"Fehler");
     }finally{n.loading=false;renderNewsletter();}
   }
-  function renderPreproductionSummary(day,meta){
+  function renderPreproductionSummary(day,meta,livePriority){
     var box=$("#preproductionSummary");
     if(!box)return;
     if(!day){box.innerHTML="";return;}
@@ -1669,7 +1677,9 @@
       '<span class="preprod-chip"><b>'+stories.length+'</b> Stories'+(teaser?' · davon '+teaser+' Teaser':'')+'</span>'];
     if(times.length)chips.push('<span class="preprod-chip">Zeitfenster <b>'+esc(times[0])+' – '+esc(times[times.length-1])+'</b></span>');
     if(meta&&meta.bilderStatus)chips.push('<span class="preprod-chip">Bilder: <b>'+esc(meta.bilderStatus)+'</b></span>');
+    if(livePriority)chips.push('<span class="preprod-chip">Pipeline: <b>Vorproduktion · Normalbetrieb gesperrt</b></span>');
     if(day.renderVorschau&&day.renderVorschau.status!=="fertig")chips.push('<span class="preprod-chip">Medien: <b>Render ausstehend</b></span>');
+    else if(day.renderVorschau&&day.renderVorschau.status==="fertig")chips.push('<span class="preprod-chip">Medien: <b>aktuell gerendert</b></span>');
     box.innerHTML=chips.join("");
   }
   function renderPreproduction(data){
@@ -1678,33 +1688,34 @@
     if(!a||!a.preproduction){panel.hidden=true;return;}
     panel.hidden=false;
     var accountNote=$("#preproductionAccountNote");
-    if(accountNote)accountNote.textContent=(a.summaryName||a.name)+" · Original-Renderings aus "+a.repo+"/instagram-assets/vorproduktion";
+    if(accountNote)accountNote.textContent=(a.summaryName||a.name)+" · Original-Renderings aus "+a.repo+"/instagram-assets/vorproduktion · Live-Vorrang ab "+((data.vorproduktionIndex&&data.vorproduktionIndex.liveVorrangAb)||"26.09.2026");
     var index=data.vorproduktionIndex||{tage:[]},days=index.tage||[],select=$("#preproductionDate"),status=$("#preproductionStatus"),feed=$("#preproductionFeed");
     if(!days.length){
       select.innerHTML="";
       status.innerHTML='<span class="review-badge open">keine Vorproduktionsdaten</span>';
-      renderPreproductionSummary(null);
+      renderPreproductionSummary(null,null,false);
       feed.innerHTML='<div class="empty">'+esc(data._preproductionError||"Der Vorproduktions-Index ist derzeit nicht verfügbar.")+'</div>';
       return;
     }
     var date=resolvePreproductionDate(index,store.reviewDate);
     store.reviewDate=date;
     select.innerHTML=days.map(function(x){
-      var suffix=x.freigabeBetreiber?" · Tagesfreigabe":" · Review";
+      var suffix=preproductionLivePriority(data,x.datum)?" · Live-Vorrang":" · Vorproduktion";
       return '<option value="'+esc(x.datum)+'">'+esc(preproductionDayLabel(x.datum)+suffix)+'</option>';
     }).join("");
     select.value=date;
-    var meta=preproductionMeta(data,date);
-    status.innerHTML='<span class="review-badge '+(meta.freigabeBetreiber?"ready":"open")+'">'+(meta.freigabeBetreiber?"Tagesfreigabe gesetzt":"Review offen")+'</span>'+
-      '<span class="review-badge '+(meta.liveVerknuepft?"ready":"open")+'">'+(meta.liveVerknuepft?"Live-Verknüpfung aktiv":"noch nicht live verknüpft")+'</span>';
+    var meta=preproductionMeta(data,date),livePriority=preproductionLivePriority(data,date);
+    status.innerHTML=livePriority
+      ? '<span class="review-badge ready">Live-Vorrang aktiv</span><span class="review-badge ready">Normalbetrieb gesperrt</span>'
+      : '<span class="review-badge open">Vorproduktion ohne Live-Vorrang</span>';
     var day=data.vorproduktion&&data.vorproduktion[date];
-    renderPreproductionSummary(day,meta);
+    renderPreproductionSummary(day,meta,livePriority);
     if(store.preproductionLoading){
       feed.innerHTML='<div class="empty loading">Vorproduktion wird geladen</div>';
       return;
     }
     if(!day){
-      feed.innerHTML='<div class="empty">'+esc(data._preproductionError||"Dieser Review-Tag konnte noch nicht geladen werden.")+'</div>';
+      feed.innerHTML='<div class="empty">'+esc(data._preproductionError||"Dieser Vorproduktionstag konnte noch nicht geladen werden.")+'</div>';
       return;
     }
     var posts=(day.plan&&day.plan.beitraege||[]).slice().sort(function(a,b){
@@ -1730,7 +1741,7 @@
       if(!data.vorproduktion)data.vorproduktion={};
       data.vorproduktion[date]=await fetchJson(preproductionBase()+"/"+date+".json");
     }catch(e){
-      data._preproductionError="Review-Tag "+date+": "+(e&&e.message||"Fehler");
+      data._preproductionError="Vorproduktionstag "+date+": "+(e&&e.message||"Fehler");
     }finally{
       store.preproductionLoading=false;renderPreproduction(data);
     }
@@ -3809,7 +3820,7 @@
   }
   function edPanelSourceHtml(){
     var items=edSourceTexts();
-    if(items===null)return '<h4>Folientexte</h4><div class="panel-note2">Für diese Datei sind keine Renderdaten verknüpft (oder der Review-Tag ist nicht geladen). Öffne den Editor über die Vorproduktions-Ansicht.</div>';
+    if(items===null)return '<h4>Folientexte</h4><div class="panel-note2">Für diese Datei sind keine Renderdaten verknüpft (oder der Vorproduktionstag ist nicht geladen). Öffne den Editor über die Vorproduktions-Ansicht.</div>';
     if(!items.length)return '<h4>Folientexte</h4><div class="panel-note2">Für diese Folie wurden keine Textbausteine gefunden.</div>';
     return '<h4>Folientexte</h4><div class="panel-note2">Die Original-Texte dieser Folie aus den Renderdaten. „ersetzen“ legt automatisch eine Abdeckfläche (Pipettenfarbe) plus editierbares Textfeld an.</div>'
     +items.map(function(it,i){
