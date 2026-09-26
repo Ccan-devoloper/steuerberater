@@ -1,9 +1,9 @@
 {
   "datum": "2026-10-03",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -202,11 +202,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "klausurtechnik",
@@ -297,11 +298,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -402,11 +404,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -420,13 +423,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "§ 27 KStG"
+      "titel": "Was gilt bei „§ 27 KStG“?",
+      "frage": "Was gilt bei „§ 27 KStG“?",
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -440,14 +445,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Außerbilanzielle Nebenrechnung. Leistung zuerst aus ausschüttbarem Gewinn; Einlagekonto niemals negativ."
+      "text": "Außerbilanzielle Nebenrechnung. Leistung zuerst aus ausschüttbarem Gewinn; Einlagekonto niemals negativ.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -469,15 +475,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 124 AO",
       "titel": "Wirksam trotz Fehler: Rechtswidrigkeit, Nichtigkeit und die Tortenstückfehlerlehre",
-      "text": "Wirksamkeit und Rechtmäßigkeit nicht vermischen Nichtigkeit als Ausnahmebereich erkennen"
+      "text": "Wirksamkeit und Rechtmäßigkeit nicht vermischen Nichtigkeit als Ausnahmebereich erkennen",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -490,11 +497,12 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -514,14 +522,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "DBA Anwendbarkeit und Ansässigkeit",
-      "text": "A – Anwendbarkeit: Art. 1 persönlich und Art. 2 sachlich."
+      "text": "A – Anwendbarkeit: Art. 1 persönlich und Art. 2 sachlich.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -540,14 +549,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
-      "text": "§ 50a ist Erhebung, nicht Einkunftsqualifikation: erst E und I, dann S."
+      "text": "§ 50a ist Erhebung, nicht Einkunftsqualifikation: erst E und I, dann S.",
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -555,16 +565,25 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Vorteil ohne Geld: Ist das eine Einlage?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -572,16 +591,25 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s3": {
       "slot": "s3",
@@ -589,21 +617,30 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b3",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T22:09:01.812Z",
+    "erzeugtAm": "2026-09-26T01:37:07.445Z",
     "pfad": "vorproduktion/2026-10-03/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -614,11 +651,17 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
-    "wartetLive": []
+    "freigabeBetreiber": true,
+    "wartetLive": [],
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
-  }
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden"
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
