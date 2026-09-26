@@ -46,13 +46,13 @@
         "slot": "s3",
         "zeit": "07:05",
         "art": "frage",
-        "themaId": "ust-karte-ust-6"
+        "themaId": "ust-quiz-ust-4"
       },
       {
         "slot": "s4",
         "zeit": "07:05",
         "art": "antwort",
-        "themaId": "ust-karte-ust-6"
+        "themaId": "ust-quiz-ust-4"
       },
       {
         "slot": "s1",
@@ -330,9 +330,11 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-karte-ust-6",
+      "pairId": "ust-quiz-ust-4",
       "quellen": [
-        "Themenpool: ust-karte-ust-6"
+        "§ 19 Abs. 1–3 UStG",
+        "UStAE 19.1 Abs. 3",
+        "Themenpool: ust-quiz-ust-4"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
@@ -342,14 +344,20 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was gilt bei „Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG)“?",
+      "titel": "Was gilt seit 2025 für Umsätze eines Kleinunternehmers (§ 19 UStG n. F.)?",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
       },
-      "frage": "Was gilt bei „Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG)“?",
-      "liveVorrangAktiv": true
+      "frage": "Was gilt seit 2025 für Umsätze eines Kleinunternehmers (§ 19 UStG n. F.)?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Die Steuer wird nicht erhoben, entsteht aber",
+        "Die Umsätze sind steuerfrei gestellt",
+        "Es gilt automatisch der ermäßigte Steuersatz"
+      ],
+      "richtig": 1
     },
     "s4": {
       "slot": "s4",
@@ -357,9 +365,11 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-karte-ust-6",
+      "pairId": "ust-quiz-ust-4",
       "quellen": [
-        "Themenpool: ust-karte-ust-6"
+        "§ 19 Abs. 1–3 UStG",
+        "UStAE 19.1 Abs. 3",
+        "Themenpool: ust-quiz-ust-4"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
@@ -369,14 +379,20 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Bei verbilligten Leistungen an nahestehende Personen oder Personal gilt grundsätzlich mindestens die Bemessungsgrundlage des § 10 Abs. 4 UStG; nach oben begrenzt das marktübliche Entgelt.",
+      "titel": "Die Umsätze sind steuerfrei gestellt",
+      "text": "Richtig ist: Die Umsätze sind steuerfrei gestellt.",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
       },
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Die Steuer wird nicht erhoben, entsteht aber",
+        "Die Umsätze sind steuerfrei gestellt",
+        "Es gilt automatisch der ermäßigte Steuersatz"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -592,7 +608,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:36:47.599Z",
+    "erzeugtAm": "2026-09-26T02:14:22.713Z",
     "pfad": "vorproduktion/2026-09-26/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -609,7 +625,9 @@
     "coverIcons": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,

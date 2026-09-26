@@ -31,9 +31,10 @@
       "liveVorrangAktiv": true,
       "normalbetriebGesperrt": true,
       "renderStatus": "fertig",
-      "renderErzeugtAm": "2026-09-26T01:36:47.599Z",
+      "renderErzeugtAm": "2026-09-26T02:14:22.713Z",
       "coverIcons": true,
-      "bilderStatus": "icon-statt-providerbild"
+      "bilderStatus": "icon-statt-providerbild",
+      "layoutQuelle": "herrjurist"
     },
     {
       "datum": "2026-09-27",
