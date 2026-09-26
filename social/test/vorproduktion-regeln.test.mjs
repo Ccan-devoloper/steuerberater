@@ -1,4 +1,5 @@
 import test from "node:test";
+import fs from "node:fs";
 import assert from "node:assert/strict";
 
 import { feedKategorie, FEED_KATEGORIEN } from "../src/feedfarben.mjs";
@@ -299,4 +300,25 @@ test("Norm- und Zahl-Stories nutzen die aktuellen Spiegel-Layouts", () => {
   assert.match(norm, /norm-liste/);
   const zahl = storyHtml({ slot: "s2", art: "zahl", fach: "ao", klausur: 1, zahl: "100.000", titel: "Grenzbetrag", text: "Grenze sauber einordnen." }, ctx);
   assert.match(zahl, /font-size:180px/);
+});
+
+
+test("Providerfreier Re-Render normalisiert Quizfragen auch im echten Renderdurchlauf", () => {
+  const quelle = fs.readFileSync(new URL("../bin/vorproduktion-ohne-coverbilder-rendern.mjs", import.meta.url), "utf8");
+  assert.equal((quelle.match(/quizStoriesNormalisieren\(tag\);/g) || []).length, 2,
+    "Quiz-Normalisierung muss sowohl im Vorab-Check als auch nach dem erneuten Einlesen vor dem Rendern laufen");
+  assert.equal((quelle.match(/liveMetadatenSetzen\(tag\);/g) || []).length, 2,
+    "Live-Vorrang-Metadaten müssen in Vorab-Check und Renderdurchlauf synchronisiert werden");
+  assert.match(quelle, /renderErzeugtAm:/);
+  assert.match(quelle, /normalbetriebGesperrt: true/);
+});
+
+test("Performance-Dashboard zeigt Live-Vorrang und bricht den Asset-Cache nach Re-Render", () => {
+  const dashboard = fs.readFileSync(new URL("../../public/instagram-dashboard.html", import.meta.url), "utf8");
+  assert.match(dashboard, /Live-Vorrang aktiv/);
+  assert.match(dashboard, /Normalbetrieb gesperrt/);
+  assert.doesNotMatch(dashboard, /Review offen/);
+  assert.doesNotMatch(dashboard, /noch nicht live verknüpft/);
+  assert.match(dashboard, /renderStamp=Date\.parse/);
+  assert.match(dashboard, /Medien: <b>aktuell gerendert<\/b>/);
 });
