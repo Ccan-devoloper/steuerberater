@@ -1,9 +1,9 @@
 {
   "datum": "2026-10-18",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -207,11 +207,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "spickzettel",
@@ -301,11 +302,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -412,11 +414,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -430,13 +433,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Bauleistung: Wer schuldet die USt?"
+      "titel": "Bauleistung: Wer schuldet die USt?",
+      "frage": "Bauleistung: Wer schuldet die USt?",
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -450,14 +455,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Richtig: der Leistungsempfänger, wenn er selbst nachhaltig Bauleistungen erbringt. Reverse-Charge: § 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG verlagert die Steuerschuld auf den bauleistenden Leistungsempfänger."
+      "text": "Richtig: der Leistungsempfänger, wenn er selbst nachhaltig Bauleistungen erbringt. Reverse-Charge: § 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG verlagert die Steuerschuld auf den bauleistenden Leistungsempfänger.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -477,15 +483,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 3 Abs. 6a S. 1–6 UStG",
       "titel": "Reihengeschäft: Welche Lieferung bewegt?",
-      "text": "Tatbestand und Rechtsfolge des § 3 Abs. 6a trennen Transport durch ersten Lieferer, letzten Abnehmer und Zwischenhändler unterscheiden"
+      "text": "Tatbestand und Rechtsfolge des § 3 Abs. 6a trennen Transport durch ersten Lieferer, letzten Abnehmer und Zwischenhändler unterscheiden",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -505,15 +512,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "Beteiligungserträge und Streubesitzdividenden",
       "falsch": "5 % vom Beteiligungsbuchwert statt vom steuerfreien Ertrag berechnen",
-      "richtigText": "Beteiligungshöhe zum richtigen Stichtag untersuchen"
+      "richtigText": "Beteiligungshöhe zum richtigen Stichtag untersuchen",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -533,14 +541,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Tausch: Was zählt zum Entgelt?",
-      "text": "Gesamte Gegenleistung des Leistungsempfängers aufnehmen."
+      "text": "Gesamte Gegenleistung des Leistungsempfängers aufnehmen.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -558,14 +567,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Familienheim: Welche Nummer greift?",
-      "text": "Lebzeitige Übertragung zwischen Ehegatten oder Lebenspartnern: § 13 Abs. 1 Nr. 4a ErbStG. Beim Erbfall: Nr. 4b für sie, Nr. 4c für Kinder; Selbstnutzung jeweils prüfen."
+      "text": "Lebzeitige Übertragung zwischen Ehegatten oder Lebenspartnern: § 13 Abs. 1 Nr. 4a ErbStG. Beim Erbfall: Nr. 4b für sie, Nr. 4c für Kinder; Selbstnutzung jeweils prüfen.",
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -573,16 +583,25 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Sanierung nach Hauskauf: AK oder Sofortabzug?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -590,16 +609,25 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Zahlendreher im Amt: Wann greift § 129 AO?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s3": {
       "slot": "s3",
@@ -607,21 +635,30 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b3",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T23:00:46.246Z",
+    "erzeugtAm": "2026-09-26T01:37:48.923Z",
     "pfad": "vorproduktion/2026-10-18/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -632,11 +669,17 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
-    "wartetLive": []
+    "freigabeBetreiber": true,
+    "wartetLive": [],
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
-  }
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden"
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
