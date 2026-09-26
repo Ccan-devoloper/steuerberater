@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - codex/examenscampus-render-2026
+      - codex/examenscampus-rerender-current-2026
   workflow_dispatch:
     inputs:
       dates:
