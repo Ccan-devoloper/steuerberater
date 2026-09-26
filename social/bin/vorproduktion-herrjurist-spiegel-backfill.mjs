@@ -13,6 +13,7 @@ import {
   coverIconEinsetzen,
   examenscampusRegelnPruefen,
   providerfreieVorproduktionPruefen,
+  quizFrageSichtbar,
 } from "../src/vorproduktion.mjs";
 
 providerfreieVorproduktionPruefen();
@@ -48,7 +49,7 @@ function quizTauglich(thema) {
 function quizVorschau(thema) {
   if (!quizTauglich(thema)) return null;
   const quiz = dreiOptionen(thema);
-  const frageText = String(thema.kern?.frage || thema.titel || "").trim();
+  const frageText = quizFrageSichtbar(thema.kern?.frage, thema.titel);
   const korrekt = quiz.optionen[quiz.richtig];
   /* Der Eignungscheck darf nicht die lange Original-Erklärung aus dem
      Lernkorpus zurück in die Social-Prüfung tragen. Frage + A/B/C sind die
@@ -146,7 +147,7 @@ function quizPaarAktualisieren(datum, tag) {
     const thema = quizFuer(datum, fragePlan.slot, frage, fragePlan);
     const quiz = dreiOptionen(thema);
     const korrekt = quiz.optionen[quiz.richtig];
-    const frageText = String(thema.kern?.frage || thema.titel || "").trim();
+    const frageText = quizFrageSichtbar(thema.kern?.frage, thema.titel);
     const gleichesThema = (frage.pairId || fragePlan.themaId) === thema.id;
     const bestehendeErklaerung = gleichesThema ? String(antwort.text || "").trim() : "";
     const sichereErklaerung = "Richtig ist: " + korrekt + ".";
