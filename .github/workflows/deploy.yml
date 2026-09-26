@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 20
       - run: npm ci || npm install
+      - run: node --check dashboard-api/worker.mjs
       - run: npm run check:k1-ao-einheit-1
       - run: npm run check:k1-ao-einheit-2
       - run: npm run check:k1-ao-einheit-3
