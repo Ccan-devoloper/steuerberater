@@ -1443,9 +1443,19 @@
     var ab=String(index.liveVorrangAb||"2026-09-26");
     return vorhanden&&String(date||"")>=ab;
   }
+  /* Ein erneuter Renderauftrag macht den bereits erzeugten Medienstand
+     nicht unsichtbar. Nur die Vorschau wird freigeschaltet; Status,
+     Veröffentlichungsfreigaben und Asset-Dateien bleiben unverändert. */
+  function preproductionCanPreviewMedia(day){
+    var render=day&&day.renderVorschau;
+    if(!render||render.status==="fertig")return true;
+    return render.status==="erneut-zu-rendern"&&
+      typeof render.pfad==="string"&&render.pfad.trim()!==""&&
+      Number.isFinite(Date.parse(render.erzeugtAm||""));
+  }
   function preproductionMedia(day,date,slot,content){
     var isReel=content&&((content.format==="reel")||Array.isArray(content.szenen));
-    if(day&&day.renderVorschau&&day.renderVorschau.status!=="fertig"){
+    if(!preproductionCanPreviewMedia(day)){
       var hook=(content&&content.folien&&content.folien[0]&&content.folien[0].titel)||(content&&content.szenen&&content.szenen[0]&&content.szenen[0].titel)||"Entwurf";
       return '<div class="ig-media"><div class="preprod-text-preview"><span>'+(isReel?'REEL':'KARUSSELL')+' · TEXTENTWURF</span><strong>'+esc(hook)+'</strong><span>Medienrendering ausstehend · keine Veröffentlichung</span></div></div>';
     }
@@ -1468,7 +1478,7 @@
     var title=content.kurztitel||(content.folien&&content.folien[0]&&content.folien[0].titel)||(content.szenen&&content.szenen[0]&&content.szenen[0].titel)||planItem.themaTitel||slot;
     var type=(content.format==="reel"||Array.isArray(content.szenen))?"Reel":"Carousel";
     var slides=content.folien||[],thumbs="";
-    if(type==="Carousel"&&slides.length>1&&day.renderVorschau&&day.renderVorschau.status==="fertig"){
+    if(type==="Carousel"&&slides.length>1&&preproductionCanPreviewMedia(day)){
       thumbs='<div class="slide-thumbs">'+slides.map(function(_,i){
         var rel=preproductionSlideRel(date,slot,i+1);
         return '<img data-asset="'+esc(rel)+'" src="'+esc(preproductionAssetUrl(rel))+'" data-slide-to="'+(i+1)+'" class="'+(i===0?"active":"")+'" alt="Folie '+(i+1)+'" title="Folie '+(i+1)+'" loading="lazy">';
@@ -1490,7 +1500,7 @@
       var rel=storyAssetRel(date,s),content=day.inhalte&&day.inhalte[s.slot]||{};
       var label=STORY_ART_LABEL[s.art]||s.art||"Story";
       var sub=s.art==="teaser"?("zu "+(s.beitragSlot||"?")):(content.titel||content.ueberzeile||s.themaId||"");
-      if(day.renderVorschau&&day.renderVorschau.status!=="fertig"){
+      if(!preproductionCanPreviewMedia(day)){
         return '<div class="story-card"><div class="story-draft"><span>'+esc(label)+' · TEXTENTWURF · '+esc(s.zeit||"–")+'</span><strong>'+esc(content.titel||content.ueberzeile||sub||"Story geplant")+'</strong><span>Bild noch nicht gerendert</span></div><div class="story-info"><b>'+esc(label)+'</b><span>'+esc(s.slot)+'</span></div></div>';
       }
       return '<div class="story-card'+(s.art==="teaser"?" teaser":"")+'" data-story-index="'+i+'">'+
@@ -1678,7 +1688,7 @@
     if(times.length)chips.push('<span class="preprod-chip">Zeitfenster <b>'+esc(times[0])+' – '+esc(times[times.length-1])+'</b></span>');
     if(meta&&meta.bilderStatus)chips.push('<span class="preprod-chip">Bilder: <b>'+esc(meta.bilderStatus)+'</b></span>');
     if(livePriority)chips.push('<span class="preprod-chip">Pipeline: <b>Vorproduktion · Normalbetrieb gesperrt</b></span>');
-    if(day.renderVorschau&&day.renderVorschau.status!=="fertig")chips.push('<span class="preprod-chip">Medien: <b>Render ausstehend</b></span>');
+    if(day.renderVorschau&&day.renderVorschau.status!=="fertig")chips.push('<span class="preprod-chip">Medien: <b>'+(preproductionCanPreviewMedia(day)?'Vorhandener Render · Aktualisierung ausstehend':'Render ausstehend')+'</b></span>');
     else if(day.renderVorschau&&day.renderVorschau.status==="fertig")chips.push('<span class="preprod-chip">Medien: <b>aktuell gerendert</b></span>');
     box.innerHTML=chips.join("");
   }
