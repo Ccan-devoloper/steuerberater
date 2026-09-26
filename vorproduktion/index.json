@@ -67,7 +67,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-09-28/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-26T01:36:53.050Z",
+      "coverIcons": true,
+      "bilderStatus": "icon-statt-providerbild"
     },
     {
       "datum": "2026-09-29",
