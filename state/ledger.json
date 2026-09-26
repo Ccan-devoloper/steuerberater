@@ -5050,6 +5050,18 @@
       "thema": null,
       "fach": null,
       "titel": "Tage bis zum Examen"
+    },
+    {
+      "datum": "2026-09-26",
+      "slot": "s7",
+      "medienId": "18187775497410466",
+      "veroeffentlicht": "2026-09-26T13:44:01.608Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "zahl",
+      "thema": "ao-modul-ao-375",
+      "fach": "ao",
+      "titel": "GuE-Bescheide 2026"
     }
   ],
   "fachZaehler": {
