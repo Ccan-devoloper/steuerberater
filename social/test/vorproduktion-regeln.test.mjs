@@ -366,5 +366,7 @@ test("Herrjurist-Quiz-Backfill lässt Ersatzfragen vor der Auswahl durch den Ver
   assert.match(quelle, /import \{ pruefeBeitrag \} from "\.\.\/src\/pruefung\.mjs"/);
   assert.match(quelle, /function quizVeroeffentlichbar\(thema\)/);
   assert.match(quelle, /pruefeBeitrag\(\{ stories: \[v\.frage, v\.antwort\] \}\)\.ok/);
+  assert.match(quelle, /const erklaerung = "Richtig ist: " \+ korrekt \+ "\."/);
+  assert.doesNotMatch(quelle, /const erklaerung = String\(thema\.kern\?\.erklaerung/);
   assert.match(quelle, /quizVeroeffentlichbar\(t\)/);
 });

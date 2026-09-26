@@ -50,7 +50,12 @@ function quizVorschau(thema) {
   const quiz = dreiOptionen(thema);
   const frageText = String(thema.kern?.frage || thema.titel || "").trim();
   const korrekt = quiz.optionen[quiz.richtig];
-  const erklaerung = String(thema.kern?.erklaerung || "").trim() || ("Richtig ist: " + korrekt + ".");
+  /* Der Eignungscheck darf nicht die lange Original-Erklärung aus dem
+     Lernkorpus zurück in die Social-Prüfung tragen. Frage + A/B/C sind die
+     eigentliche Quizsemantik; für die Vorschau genügt eine kurze, neu gebaute
+     Auflösung. Bei bereits gespeicherten Quizpaaren bleibt der redaktionell
+     formulierte Antworttext später erhalten. */
+  const erklaerung = "Richtig ist: " + korrekt + ".";
   const basis = {
     fach: thema.fach,
     klausur: thema.klausur,
@@ -142,9 +147,9 @@ function quizPaarAktualisieren(datum, tag) {
     const quiz = dreiOptionen(thema);
     const korrekt = quiz.optionen[quiz.richtig];
     const frageText = String(thema.kern?.frage || thema.titel || "").trim();
-    const erklaerung = String(thema.kern?.erklaerung || "").trim();
     const gleichesThema = (frage.pairId || fragePlan.themaId) === thema.id;
     const bestehendeErklaerung = gleichesThema ? String(antwort.text || "").trim() : "";
+    const sichereErklaerung = "Richtig ist: " + korrekt + ".";
 
     fragePlan.themaId = thema.id;
     antwortPlan.themaId = thema.id;
@@ -173,7 +178,7 @@ function quizPaarAktualisieren(datum, tag) {
       titel: korrekt,
       optionen: quiz.optionen,
       richtig: quiz.richtig,
-      text: bestehendeErklaerung || erklaerung || ("Richtig ist: " + korrekt + "."),
+      text: bestehendeErklaerung || sichereErklaerung,
       quellen: [...new Set([...(thema.normen || []), "Themenpool: " + thema.id])],
     });
     paare++;
