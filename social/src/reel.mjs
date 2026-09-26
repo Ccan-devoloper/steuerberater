@@ -471,7 +471,7 @@ export function coverDaten(reel, plan) {
     titelZeilen: reel.titelZeilen || null,
     ueberzeile: sekunden ? `Reel · ${sekunden} Sekunden` : "Reel",
     dauerText: sekunden ? `In ${sekunden} Sekunden erklärt` : "",
-    coverBadge: reel.coverBadge || (sekunden ? `Reel · ${sekunden} Sekunden` : "Reel"),
+    coverBadge: reel.coverBadge || "Reel",
     /* Cover-v2 no-arrow: der redaktionelle Aha-Hinweis ersetzt die alte
        automatisch erzeugte Dauer-Handschrift samt Pfeil. */
     coverText: reel.coverText || null,
