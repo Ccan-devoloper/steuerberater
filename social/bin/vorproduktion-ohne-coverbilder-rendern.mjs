@@ -26,7 +26,6 @@ const { beitragRendern, storyRendern, browserBeenden } = await import("../src/re
 const { reelBauen } = await import("../src/reel.mjs");
 const { ICONS } = await import("../src/stile.mjs");
 const { ZUORDNUNG } = await import("../src/icons.mjs");
-const { themenpool } = await import("../src/inhalte.mjs");
 
 const tage = process.argv.slice(2).filter((x) => /^\d{4}-\d{2}-\d{2}$/.test(x));
 if (!tage.length) throw new Error("Mindestens ein Datum YYYY-MM-DD ist erforderlich.");
@@ -48,11 +47,7 @@ const manifest = {
   tage: [],
 };
 
-const themenById = new Map(themenpool().map((t) => [t.id, t]));
-
-function quizFrageText(kern = {}, fallbackTitel = "") {
-  const explizit = String(kern.frage || "").replace(/\s+/g, " ").trim();
-  if (explizit) return /\?$/.test(explizit) ? explizit : explizit.replace(/[.!]+$/, "") + "?";
+function quizFrageText(fallbackTitel = "") {
   const basis = String(fallbackTitel || "").replace(/\s+/g, " ").trim().replace(/[.!]+$/, "");
   if (!basis) throw new Error("Quiz braucht eine sichtbare Frage.");
   if (/\?$/.test(basis)) return basis;
@@ -64,13 +59,14 @@ function quizStoriesNormalisieren(tag) {
     if (p.art !== "frage") continue;
     const story = tag.inhalte?.[p.slot];
     if (!story) continue;
-    const thema = themenById.get(story.pairId || p.themaId);
-    const kern = thema?.kern || {};
-    const frage = quizFrageText(kern, story.frage || story.titel || thema?.titel);
+    /* Backfill alter Reviewtage nur aus dem bereits gespeicherten,
+       redaktionell geprüften Storytext ableiten. Niemals rohe Frage- oder
+       Antwortoptionen aus dem Themenpool zurückkopieren: Sie können
+       Quellenformulierungen enthalten, die bewusst nicht veröffentlicht
+       werden dürfen. */
+    const frage = quizFrageText(story.frage || story.titel);
     story.frage = frage;
     story.titel = frage;
-    if (Array.isArray(kern.optionen) && kern.optionen.length) story.optionen = kern.optionen;
-    if (kern.richtig != null) story.richtig = kern.richtig;
   }
 }
 
