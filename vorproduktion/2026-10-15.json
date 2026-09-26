@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Ausschüttung: Gewinn oder Einlagekonto?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -221,7 +222,8 @@
           "art": "titel",
           "titel": "Erbschaftsteuer: Welche Tarifstufe gilt?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "haus"
         },
         {
           "art": "text",
@@ -317,7 +319,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
           "norm": "§ 8 Abs. 5 S. 1 AStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor"
@@ -379,7 +381,7 @@
       ],
       "kurztitel": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 8 Abs. 5 S. 1 AStG",
         "§ 8 Abs. 5 S. 2 AStG",
@@ -407,7 +409,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -427,9 +430,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Vorgründung: Wer trägt den Aufwand?",
-      "frage": "Vorgründung: Wer trägt den Aufwand?",
-      "liveVorrangAktiv": true
+      "titel": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
+      "frage": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Vorgesellschaft",
+        "eingetragene GmbH",
+        "Vorgründungsgesellschaft"
+      ],
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -449,9 +458,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "Vorgründungsgesellschaft",
       "text": "Richtig: Vorgründungsgesellschaft. Die Vorgründungsgesellschaft ist weder mit der Vorgesellschaft noch mit der GmbH identisch.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Vorgesellschaft",
+        "eingetragene GmbH",
+        "Vorgründungsgesellschaft"
+      ],
+      "richtig": 2
     },
     "s6": {
       "slot": "s6",
@@ -646,7 +661,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:40.226Z",
+    "erzeugtAm": "2026-09-26T02:15:48.478Z",
     "pfad": "vorproduktion/2026-10-15/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -661,7 +676,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
