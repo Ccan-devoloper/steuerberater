@@ -5,6 +5,7 @@ dist
 .env
 
 # Instagram-Bot: Asset-Zweig-Checkout und Ausgaben
+/.instagram-assets/
 /assets/
 social/out/
 social/beispiele/out/
