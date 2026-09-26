@@ -5026,6 +5026,18 @@
         "#examensvorbereitung",
         "#kopfsache"
       ]
+    },
+    {
+      "datum": "2026-09-26",
+      "slot": "s2",
+      "medienId": "18434178787181645",
+      "veroeffentlicht": "2026-09-26T10:14:59.190Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "mindset",
+      "titel": "Prüfungsangst am Abend vor Tag 1"
     }
   ],
   "fachZaehler": {
