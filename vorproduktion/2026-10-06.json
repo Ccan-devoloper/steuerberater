@@ -87,7 +87,8 @@
           "art": "titel",
           "titel": "Rentenpreis für ein Gebäude: Was sind die AK?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -187,7 +188,8 @@
           "art": "titel",
           "titel": "Fristende am Sonntag: Was passiert am Montag?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -286,7 +288,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Kapitalertrag aus Deutschland: Ist der Abzug final?",
           "norm": "§ 20 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Kapitalertrag aus Deutschland: Ist der Abzug final? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Kapitalertrag aus Deutschland: Ist der Abzug final"
@@ -348,7 +350,7 @@
       ],
       "kurztitel": "Kapitalertrag aus Deutschland: Ist der Abzug final?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 20 EStG",
         "§ 49 Abs. 1 Nr. 5 EStG",
@@ -379,7 +381,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s1": {
       "slot": "s1",
@@ -462,7 +465,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:15.728Z",
+    "erzeugtAm": "2026-09-26T02:15:08.303Z",
     "pfad": "vorproduktion/2026-10-06/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -477,7 +480,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
