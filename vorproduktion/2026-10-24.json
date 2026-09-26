@@ -1,9 +1,9 @@
 {
   "datum": "2026-10-24",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -202,11 +202,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "klausurtechnik",
@@ -296,11 +297,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -407,11 +409,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -425,13 +428,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welche Norm regelt das wirtschaftliche Eigentum?"
+      "titel": "Welche Norm regelt das wirtschaftliche Eigentum?",
+      "frage": "Welche Norm regelt das wirtschaftliche Eigentum?",
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -445,14 +450,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Richtig: § 39 AO. § 39 Abs. 2 Nr. 1 AO ist die zentrale Zurechnungsnorm."
+      "text": "Richtig: § 39 AO. § 39 Abs. 2 Nr. 1 AO ist die zentrale Zurechnungsnorm.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -467,15 +473,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "BMF-Schreiben zu Ehegattengrundstücken",
       "titel": "Aufwandsverteilungsposten",
-      "text": ""
+      "text": "",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -500,15 +507,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "Vollstreckung: allgemeine Voraussetzungen und konkrete Vollstreckungsmaßnahme",
       "falsch": "Einzelne Vollstreckungsmaßnahme untersuchen, ohne zuvor die allgemeinen Voraussetzungen abzuarbeiten.",
-      "richtigText": "Vollstreckbarkeit und Voraussetzungen des Vollstreckungsbeginns getrennt untersuchen"
+      "richtigText": "Vollstreckbarkeit und Voraussetzungen des Vollstreckungsbeginns getrennt untersuchen",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -528,14 +536,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Haftung des Vertreters nach § 69 AO: Geschäftsführer, Pflichtverletzung und Schaden",
-      "text": "Person nach §§ 34 oder 35 AO feststellen."
+      "text": "Person nach §§ 34 oder 35 AO feststellen.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -556,14 +565,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 165 AO: Fortbestand, Änderungsbescheid und Ablaufhemmung § 171 Abs. 8",
-      "text": "1. Vermerk im Ausgangsbescheid aufnehmen."
+      "text": "1. Vermerk im Ausgangsbescheid aufnehmen.",
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -571,16 +581,25 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Firmenwert gekauft: Was bleibt als Restgröße?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -588,16 +607,25 @@
       "fach": "erbst",
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer / Bewertung",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Mietshaus bewerten: Boden plus welcher Ertrag?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s3": {
       "slot": "s3",
@@ -605,21 +633,30 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Mehr als 50 Prozent verkauft: Was wird aus Verlusten?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b3",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T22:27:28.989Z",
+    "erzeugtAm": "2026-09-26T01:38:05.897Z",
     "pfad": "vorproduktion/2026-10-24/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -630,11 +667,17 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
-    "wartetLive": []
+    "freigabeBetreiber": true,
+    "wartetLive": [],
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
-  }
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden"
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
