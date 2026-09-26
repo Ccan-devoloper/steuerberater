@@ -8,7 +8,7 @@
 
 import { CONFIG } from "./config.mjs";
 import { fachInfo, KLAUSUREN, FEED_KATEGORIEN, feedKategorie } from "./inhalte.mjs";
-import { pruefeBeitrag } from "./pruefung.mjs";
+import { pruefeBeitrag, quizBefunde, paarSchluessel } from "./pruefung.mjs";
 
 export const VORPRODUKTION_LAYOUT = Object.freeze({
   feed: Object.freeze({ breite: 1080, hoehe: 1350, verhaeltnis: "4:5" }),
@@ -255,11 +255,23 @@ export function examenscampusRegelnPruefen(tag) {
     vorher = kategorie;
   }
 
+  const quizStories = [];
   for (const s of tag.plan.stories || []) {
     if (s.art === "teaser") continue;
     const story = tag.inhalte[s.slot];
     if (!story) throw new Error(tag.datum + " " + s.slot + ": Story-Inhalt fehlt.");
     storySemantikPruefen(story, tag.datum + " " + s.slot);
+    if (story.art === "frage" || story.art === "antwort") quizStories.push(story);
+  }
+
+  const quizFehler = quizBefunde(quizStories);
+  if (quizFehler.length) {
+    throw new Error(tag.datum + ": Quiz-Regel verletzt: " + quizFehler.join(" | "));
+  }
+  for (const frage of quizStories.filter((x) => x.art === "frage")) {
+    const key = paarSchluessel(frage);
+    const antwort = quizStories.find((x) => x.art === "antwort" && paarSchluessel(x) === key);
+    if (!antwort) throw new Error(tag.datum + " " + frage.slot + ": Quiz-Frage ohne passende Auflösung.");
   }
 
   return true;

@@ -225,18 +225,36 @@ test("Quiz-Story zeigt eine echte Frage und die Vorproduktion erzwingt sie", () 
     klausur: 1,
     titel: "Festsetzungsverjährung",
     frage: "Wann beginnt die Festsetzungsfrist?",
-    optionen: ["Mit Ablauf des Kalenderjahres", "Mit Bekanntgabe des Bescheids"],
+    optionen: ["Mit Ablauf des Kalenderjahres", "Mit Bekanntgabe des Bescheids", "Mit Eingang der Steuererklärung"],
+    richtig: 0,
   }, kontext({ stil: "bunt", fach: "ao", klausur: 1, fachLabel: "Abgabenordnung" }));
   assert.match(html, /Wann beginnt die Festsetzungsfrist\?/);
+  assert.match(html, />A<\/b>/);
+  assert.match(html, />B<\/b>/);
+  assert.match(html, />C<\/b>/);
   assert.doesNotMatch(html, /<h1 class="klein">Festsetzungsverjährung<\/h1>/);
 
   const tag = {
     datum: "2026-09-29",
-    plan: { beitraege: [], stories: [{ slot: "s1", art: "frage" }] },
-    inhalte: { s1: { slot: "s1", art: "frage", fach: "ao", klausur: 1, titel: "Festsetzungsverjährung" } },
+    plan: {
+      beitraege: [],
+      stories: [
+        { slot: "s1", art: "frage" },
+        { slot: "s2", art: "antwort" },
+      ],
+    },
+    inhalte: {
+      s1: { slot: "s1", art: "frage", fach: "ao", klausur: 1, pairId: "quiz-1", titel: "Festsetzungsverjährung" },
+      s2: { slot: "s2", art: "antwort", fach: "ao", klausur: 1, pairId: "quiz-1", titel: "Antwort", text: "Erklärung" },
+    },
   };
   assert.throws(() => examenscampusRegelnPruefen(tag), /Fragesatz mit Fragezeichen/);
   tag.inhalte.s1.frage = "Wann beginnt die Festsetzungsfrist?";
+  assert.throws(() => examenscampusRegelnPruefen(tag), /genau 3 Optionen/);
+  tag.inhalte.s1.optionen = ["A", "B", "C"];
+  tag.inhalte.s1.richtig = 1;
+  tag.inhalte.s2.optionen = ["A", "B", "C"];
+  tag.inhalte.s2.richtig = 1;
   assert.equal(examenscampusRegelnPruefen(tag), true);
 });
 
@@ -321,4 +339,23 @@ test("Performance-Dashboard zeigt Live-Vorrang und bricht den Asset-Cache nach R
   assert.doesNotMatch(dashboard, /noch nicht live verknüpft/);
   assert.match(dashboard, /renderStamp=Date\.parse/);
   assert.match(dashboard, /Medien: <b>aktuell gerendert<\/b>/);
+});
+
+
+test("Herrjurist-Spiegelung: CTA und Karussell-Innenfolien bleiben auf demselben Layoutvertrag", () => {
+  const ctx = kontext({ stil: "bunt", fach: "bilanz", klausur: 3, fachLabel: "Bilanzsteuerrecht" });
+  const cta = folieHtml({
+    art: "cta",
+    titel: "Für die nächste Klausur",
+    punkte: ["Norm markieren", "Prüfungsschritte wiederholen", "Fehler kontrollieren"],
+    icons: ["dokument", "lupe", "warnung"],
+  }, ctx, 6, 6);
+  assert.match(cta, /class="cta"/);
+  assert.match(cta, /class="liste"/);
+  assert.match(cta, /Tragende|Norm markieren/);
+
+  const text = folieHtml({ art: "text", titel: "Kern der Prüfung", punkte: ["Punkt eins", "Punkt zwei"] }, ctx, 2, 6);
+  assert.match(text, /class="punkte"/);
+  const schritte = folieHtml({ art: "schritte", titel: "So gehst du vor", schritte: [{ titel: "Erstens", text: "Prüfen." }, { titel: "Zweitens", text: "Einordnen." }] }, ctx, 3, 6);
+  assert.match(schritte, /class="schritte"/);
 });
