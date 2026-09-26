@@ -467,7 +467,7 @@ export function coverDaten(reel, plan) {
     /* Auf dem Cover steht der Kurztitel: Er fasst das ganze Reel zusammen und
        darf deshalb vom ersten gesprochenen Satz abweichen. Der Aufhaenger
        stellt eine Frage, das Cover soll das Thema benennen. */
-    titel: reel.kurztitel || reel.szenen?.[0]?.titel || "Reel",
+    titel: reel.coverTitel || reel.kurztitel || reel.szenen?.[0]?.titel || "Reel",
     titelZeilen: reel.titelZeilen || null,
     ueberzeile: sekunden ? `Reel · ${sekunden} Sekunden` : "Reel",
     dauerText: sekunden ? `In ${sekunden} Sekunden erklärt` : "",
