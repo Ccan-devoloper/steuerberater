@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Einlage zum Teilwert: Greift die Dreijahresgrenze?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -226,7 +227,8 @@
           "art": "titel",
           "titel": "Vorbehalt der Nachprüfung: Was darf das Amt ändern?",
           "coverBadge": null,
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "zielscheibe"
         },
         {
           "art": "text",
@@ -325,7 +327,7 @@
           "unter": "Körperschaftsteuer",
           "text": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
           "norm": "§ 1 Abs. 1 Nr. 1 KStG",
-          "icon": null,
+          "icon": "gebaeude",
           "sprecher": "Vorgründung oder GmbH: Wer ist steuerpflichtig? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Vorgründung oder GmbH: Wer ist steuerpflichtig"
@@ -387,7 +389,7 @@
       ],
       "kurztitel": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 1 Abs. 1 Nr. 1 KStG",
         "§ 1 Abs. 1 Nr. 4 KStG",
@@ -419,7 +421,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "gebaeude"
     },
     "s4": {
       "slot": "s4",
@@ -439,9 +442,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "§ 16 EStG: Wie lang ist die Sperrfrist?",
-      "frage": "§ 16 EStG: Wie lang ist die Sperrfrist?",
-      "liveVorrangAktiv": true
+      "titel": "Wie lange läuft die Sperrfrist des § 16 Abs. 3 S. 3 EStG?",
+      "frage": "Wie lange läuft die Sperrfrist des § 16 Abs. 3 S. 3 EStG?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "ein Jahr ab Realteilung",
+        "drei Jahre ab Realteilung",
+        "drei Jahre ab Abgabe der Feststellungserklärung"
+      ],
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -461,9 +470,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "drei Jahre ab Abgabe der Feststellungserklärung",
       "text": "Richtig: drei Jahre ab Abgabe der Feststellungserklärung. Der Fristbeginn hängt an der Feststellungserklärung, nicht am Realteilungsstichtag.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "ein Jahr ab Realteilung",
+        "drei Jahre ab Realteilung",
+        "drei Jahre ab Abgabe der Feststellungserklärung"
+      ],
+      "richtig": 2
     },
     "s6": {
       "slot": "s6",
@@ -659,7 +674,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:46.041Z",
+    "erzeugtAm": "2026-09-26T02:15:57.908Z",
     "pfad": "vorproduktion/2026-10-17/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -674,7 +689,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
