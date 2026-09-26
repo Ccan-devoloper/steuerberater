@@ -799,7 +799,7 @@ function ctaIconAusText(text) {
   if (/abwäg|verhältnis|angemessen|interessen|gewicht|würdig|vergleich|unterscheid/.test(t)) return "waage";
   if (/speicher|wiederhol|lern|merk|festig/.test(t)) return "buch";
   if (/lerngruppe|teilen|schick|person|beteilig|partei/.test(t)) return "personen";
-  if (/frage|kommentar|unklar|erklär/.test(t)) return "frage";
+  if (/frage|kommentar|kommentier|unklar|erklär/.test(t)) return "frage";
   if (/frist|zeitpunkt|dauer|uhr/.test(t)) return "uhr";
   if (/fehler|falsch|warn|vermeid/.test(t)) return "warnung";
   if (/ergebnis|rechtsfolge|fertig|abschließ/.test(t)) return "haken";
