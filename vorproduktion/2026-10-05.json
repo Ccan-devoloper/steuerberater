@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "IAB gebildet: Welche Grenze gilt wirklich?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -221,7 +222,8 @@
           "art": "titel",
           "titel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -320,7 +322,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
           "norm": "§ 1 Abs. 3 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Kein deutscher Wohnsitz: Trotzdem unbeschränkt"
@@ -382,7 +384,7 @@
       ],
       "kurztitel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 1 Abs. 3 EStG",
         "§ 49 EStG",
@@ -409,7 +411,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -431,7 +434,13 @@
       "ueberzeile": "Prüfungsfrage",
       "titel": "Gilt die 10-%-Streubesitzgrenze auch für Veräußerungsgewinne nach § 8b Abs. 2 KStG?",
       "frage": "Gilt die 10-%-Streubesitzgrenze auch für Veräußerungsgewinne nach § 8b Abs. 2 KStG?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "ja, immer",
+        "nur bei GmbHs",
+        "nein"
+      ],
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -451,9 +460,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "nein",
       "text": "Richtig: nein. Die in den Unterlagen behandelte Mindestquote betrifft Dividenden, nicht Veräußerungsgewinne.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "ja, immer",
+        "nur bei GmbHs",
+        "nein"
+      ],
+      "richtig": 2
     },
     "s6": {
       "slot": "s6",
@@ -633,7 +648,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:12.975Z",
+    "erzeugtAm": "2026-09-26T02:15:04.738Z",
     "pfad": "vorproduktion/2026-10-05/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -648,7 +663,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
