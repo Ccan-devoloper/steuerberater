@@ -55,13 +55,13 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "ust-karte-ust-3"
+        "themaId": "ust-quiz-ust-14"
       },
       {
         "slot": "s5",
         "zeit": "07:07",
         "art": "antwort",
-        "themaId": "ust-karte-ust-3"
+        "themaId": "ust-quiz-ust-14"
       },
       {
         "slot": "s6",
@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -217,7 +218,8 @@
           "art": "titel",
           "titel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "haus"
         },
         {
           "art": "text",
@@ -316,7 +318,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Drittstaatenverlust: Wo greift § 2a EStG?",
           "norm": "§ 2a Abs. 1 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Drittstaatenverlust: Wo greift § 2a EStG? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Drittstaatenverlust: Wo greift § 2a EStG"
@@ -378,7 +380,7 @@
       ],
       "kurztitel": "Drittstaatenverlust: Wo greift § 2a EStG?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 2a Abs. 1 EStG",
         "§ 2a Abs. 2 EStG",
@@ -406,7 +408,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -414,9 +417,9 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-karte-ust-3",
+      "pairId": "ust-quiz-ust-14",
       "quellen": [
-        "Themenpool: ust-karte-ust-3"
+        "Themenpool: ust-quiz-ust-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -426,9 +429,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was gilt bei „Sonstige Leistung (§ 3 Abs. 9 UStG)“?",
-      "frage": "Was gilt bei „Sonstige Leistung (§ 3 Abs. 9 UStG)“?",
-      "liveVorrangAktiv": true
+      "titel": "Was liegt vor?",
+      "frage": "Was liegt vor?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Werkleistung",
+        "Werklieferung (§ 3 Abs. 4 UStG)",
+        "Dienstleistungskommission"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -436,9 +445,9 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-karte-ust-3",
+      "pairId": "ust-quiz-ust-14",
       "quellen": [
-        "Themenpool: ust-karte-ust-3"
+        "Themenpool: ust-quiz-ust-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -448,9 +457,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Jede Leistung, die keine Lieferung ist – auch Dulden und Unterlassen.",
-      "liveVorrangAktiv": true
+      "titel": "Werklieferung (§ 3 Abs. 4 UStG)",
+      "text": "Richtig ist: Werklieferung (§ 3 Abs. 4 UStG).",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "Werkleistung",
+        "Werklieferung (§ 3 Abs. 4 UStG)",
+        "Dienstleistungskommission"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -655,7 +670,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:51.595Z",
+    "erzeugtAm": "2026-09-26T02:21:36.769Z",
     "pfad": "vorproduktion/2026-10-19/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -670,7 +685,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
