@@ -147,9 +147,9 @@ function quizPaarAktualisieren(datum, tag) {
     const quiz = dreiOptionen(thema);
     const korrekt = quiz.optionen[quiz.richtig];
     const frageText = String(thema.kern?.frage || thema.titel || "").trim();
-    const erklaerung = String(thema.kern?.erklaerung || "").trim();
     const gleichesThema = (frage.pairId || fragePlan.themaId) === thema.id;
     const bestehendeErklaerung = gleichesThema ? String(antwort.text || "").trim() : "";
+    const sichereErklaerung = "Richtig ist: " + korrekt + ".";
 
     fragePlan.themaId = thema.id;
     antwortPlan.themaId = thema.id;
@@ -178,7 +178,7 @@ function quizPaarAktualisieren(datum, tag) {
       titel: korrekt,
       optionen: quiz.optionen,
       richtig: quiz.richtig,
-      text: bestehendeErklaerung || erklaerung || ("Richtig ist: " + korrekt + "."),
+      text: bestehendeErklaerung || sichereErklaerung,
       quellen: [...new Set([...(thema.normen || []), "Themenpool: " + thema.id])],
     });
     paare++;
