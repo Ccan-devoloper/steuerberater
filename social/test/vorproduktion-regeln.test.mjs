@@ -8,7 +8,7 @@ import { folieHtml, storyHtml, coverHtml, titelZeilen, MASSE } from "../src/vorl
 import { kontext } from "../src/render.mjs";
 import { teaserAusBeitrag } from "../src/autor.mjs";
 import { coverDaten } from "../src/reel.mjs";
-import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen, passendesCoverIcon, coverIconEinsetzen } from "../src/vorproduktion.mjs";
+import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen, passendesCoverIcon, coverIconEinsetzen, quizFrageSichtbar } from "../src/vorproduktion.mjs";
 
 test("Vorproduktion behält die Examenscampus-Klausurzuordnung", () => {
   for (const fach of ["ao", "ust", "erbst"]) {
@@ -369,4 +369,14 @@ test("Herrjurist-Quiz-Backfill lässt Ersatzfragen vor der Auswahl durch den Ver
   assert.match(quelle, /const erklaerung = "Richtig ist: " \+ korrekt \+ "\."/);
   assert.doesNotMatch(quelle, /const erklaerung = String\(thema\.kern\?\.erklaerung/);
   assert.match(quelle, /quizVeroeffentlichbar\(t\)/);
+});
+
+
+test("Lange Quiz-Fallschilderung wird auf den abschließenden Fragesatz für die Story verdichtet", () => {
+  const lang = "Ein Unternehmer befördert oder versendet Ware aus Deutschland in einen anderen EU-Mitgliedstaat an einen dort umsatzsteuerlich erfassten Unternehmer. Der Abnehmer erwirbt für sein Unternehmen, der Erwerb unterliegt dort der Erwerbsbesteuerung und er verwendet eine gültige USt-IdNr. des anderen Mitgliedstaats. Wie ist die Lieferung bei erfüllten Nachweispflichten zu behandeln?";
+  assert.equal(
+    quizFrageSichtbar(lang, "Innergemeinschaftliche Lieferung"),
+    "Wie ist die Lieferung bei erfüllten Nachweispflichten zu behandeln?",
+  );
+  assert.ok(quizFrageSichtbar(lang, "Innergemeinschaftliche Lieferung").length <= 96);
 });
