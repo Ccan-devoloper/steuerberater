@@ -3,8 +3,10 @@ import assert from "node:assert/strict";
 
 import { feedKategorie, FEED_KATEGORIEN } from "../src/feedfarben.mjs";
 import { fachInfo, themenpool } from "../src/inhalte.mjs";
-import { folieHtml, coverHtml, titelZeilen, MASSE } from "../src/vorlagen.mjs";
+import { folieHtml, storyHtml, coverHtml, titelZeilen, MASSE } from "../src/vorlagen.mjs";
 import { kontext } from "../src/render.mjs";
+import { teaserAusBeitrag } from "../src/autor.mjs";
+import { coverDaten } from "../src/reel.mjs";
 import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen, passendesCoverIcon, coverIconEinsetzen } from "../src/vorproduktion.mjs";
 
 test("Vorproduktion behält die Examenscampus-Klausurzuordnung", () => {
@@ -211,4 +213,90 @@ test("Reel-Cover nutzt die aktuelle HerrJurist-Safe-Area ohne Farbübernahme", (
   assert.match(html, /padding-top:150px;padding-bottom:130px/);
   assert.match(html, /margin:auto auto 0;width:460px;height:460px/);
   assert.equal(VORPRODUKTION_LAYOUT.farbenAusSchwesterkanalUebernehmen, false);
+});
+
+
+test("Quiz-Story zeigt eine echte Frage und die Vorproduktion erzwingt sie", () => {
+  const html = storyHtml({
+    slot: "s1",
+    art: "frage",
+    fach: "ao",
+    klausur: 1,
+    titel: "Festsetzungsverjährung",
+    frage: "Wann beginnt die Festsetzungsfrist?",
+    optionen: ["Mit Ablauf des Kalenderjahres", "Mit Bekanntgabe des Bescheids"],
+  }, kontext({ stil: "bunt", fach: "ao", klausur: 1, fachLabel: "Abgabenordnung" }));
+  assert.match(html, /Wann beginnt die Festsetzungsfrist\?/);
+  assert.doesNotMatch(html, /<h1 class="klein">Festsetzungsverjährung<\/h1>/);
+
+  const tag = {
+    datum: "2026-09-29",
+    plan: { beitraege: [], stories: [{ slot: "s1", art: "frage" }] },
+    inhalte: { s1: { slot: "s1", art: "frage", fach: "ao", klausur: 1, titel: "Festsetzungsverjährung" } },
+  };
+  assert.throws(() => examenscampusRegelnPruefen(tag), /Fragesatz mit Fragezeichen/);
+  tag.inhalte.s1.frage = "Wann beginnt die Festsetzungsfrist?";
+  assert.equal(examenscampusRegelnPruefen(tag), true);
+});
+
+test("CTA nutzt die je Beitrag hinterlegten semantischen Icons", () => {
+  const ctx = kontext({ stil: "bunt", fach: "bilanz", klausur: 3, fachLabel: "Bilanzsteuerrecht" });
+  assert.doesNotThrow(() => folieHtml({
+    art: "cta",
+    titel: "Für die nächste Klausur",
+    punkte: ["Norm markieren", "Prüfschritt kontrollieren", "Fehler vermeiden"],
+    icons: ["dokument", "lupe", "warnung"],
+  }, ctx, 5, 5));
+  assert.throws(() => folieHtml({
+    art: "cta",
+    titel: "Für die nächste Klausur",
+    punkte: ["Norm markieren"],
+    icons: ["nicht-vorhanden"],
+  }, ctx, 5, 5), /Unbekannter CTA-Icon-Key/);
+});
+
+test("Story-Teaser übernimmt Freisteller und erzwingt Kante-an-Kante", () => {
+  const teaser = teaserAusBeitrag({
+    fach: "bilanz",
+    klausur: 3,
+    fachLabel: "Bilanzsteuerrecht",
+    kurztitel: "Bilanz richtig aufbauen",
+    folien: [{
+      art: "titel", titel: "Bilanz richtig aufbauen", icon: "hauptbuch",
+      bild: "/tmp/motiv.png", bildFrei: true, bildTyp: "charakter",
+      coverBildTop: 700, coverBildBottom: 180, coverBildX: 0.2,
+    }],
+  }, "s1");
+  const html = storyHtml(teaser, kontext({ stil: "bunt", fach: "bilanz", klausur: 3, fachLabel: "Bilanzsteuerrecht" }));
+  assert.match(html, /class="frei charakter edge-to-edge fit-width"/);
+  assert.match(html, /left:0;right:0;top:auto;bottom:0/);
+  assert.doesNotMatch(html, /bottom:180px/);
+});
+
+test("Reel-Cover übernimmt Herrjurist-Titel- und Motivprofil", () => {
+  const d = coverDaten({
+    fach: "istr", klausur: 2,
+    kurztitel: "Wohnsitz im Ausland: Wer darf besteuern?",
+    titelZeilen: ["Wohnsitz im Ausland:", "Wer darf besteuern?"],
+    coverBadge: "Reel",
+    coverText: "Wohnsitz zuerst prüfen",
+    coverHinweisPlan: { noteX: 0.2, noteY: 0.3 },
+    bild: "/tmp/motiv.png",
+    bildTyp: "charakter",
+    bildFrei: true,
+    szenen: [{ art: "hook", titel: "Wer darf besteuern?", icon: "globus" }],
+  }, { gesamt: 31 });
+  assert.deepEqual(d.titelZeilen, ["Wohnsitz im Ausland:", "Wer darf besteuern?"]);
+  assert.equal(d.coverText, "Wohnsitz zuerst prüfen");
+  assert.equal(d.coverBildFit, "width");
+  assert.equal(d.coverBildBottom, 0);
+  assert.equal(d.coverBildEdgeToEdge, true);
+});
+
+test("Norm- und Zahl-Stories nutzen die aktuellen Spiegel-Layouts", () => {
+  const ctx = kontext({ stil: "bunt", fach: "ao", klausur: 1, fachLabel: "Abgabenordnung" });
+  const norm = storyHtml({ slot: "s1", art: "norm", fach: "ao", klausur: 1, norm: "§ 169 AO · § 170 AO", titel: "Festsetzungsfrist" }, ctx);
+  assert.match(norm, /norm-liste/);
+  const zahl = storyHtml({ slot: "s2", art: "zahl", fach: "ao", klausur: 1, zahl: "100.000", titel: "Grenzbetrag", text: "Grenze sauber einordnen." }, ctx);
+  assert.match(zahl, /font-size:180px/);
 });
