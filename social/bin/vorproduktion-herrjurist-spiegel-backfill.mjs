@@ -8,6 +8,7 @@ import { beitragRendern, browserBeenden, coverRendern, storyRendern } from "../s
 import { coverDaten } from "../src/reel.mjs";
 import { teaserAusBeitrag } from "../src/autor.mjs";
 import { fachInfo, themenpool } from "../src/inhalte.mjs";
+import { pruefeBeitrag } from "../src/pruefung.mjs";
 import {
   coverIconEinsetzen,
   examenscampusRegelnPruefen,
@@ -44,6 +45,31 @@ function quizTauglich(thema) {
   return thema?.typ === "quiz" && Boolean(dreiOptionen(thema));
 }
 
+function quizVorschau(thema) {
+  if (!quizTauglich(thema)) return null;
+  const quiz = dreiOptionen(thema);
+  const frageText = String(thema.kern?.frage || thema.titel || "").trim();
+  const korrekt = quiz.optionen[quiz.richtig];
+  const erklaerung = String(thema.kern?.erklaerung || "").trim() || ("Richtig ist: " + korrekt + ".");
+  const basis = {
+    fach: thema.fach,
+    klausur: thema.klausur,
+    pairId: thema.id,
+    optionen: quiz.optionen,
+    richtig: quiz.richtig,
+  };
+  return {
+    frage: { ...basis, slot: "q", art: "frage", titel: frageText, frage: frageText },
+    antwort: { ...basis, slot: "a", art: "antwort", titel: korrekt, text: erklaerung },
+  };
+}
+
+function quizVeroeffentlichbar(thema) {
+  const v = quizVorschau(thema);
+  if (!v) return false;
+  return pruefeBeitrag({ stories: [v.frage, v.antwort] }).ok;
+}
+
 function quizScore(datum, slot, thema) {
   const prio = { hoch: 3, mittel: 2, selten: 1 };
   const hash = crypto.createHash("sha256").update(datum + ":" + slot + ":" + thema.id).digest().readUInt32BE(0);
@@ -78,15 +104,15 @@ for (const { tag } of tageDaten) {
     if (p.art !== "frage") continue;
     const story = tag.inhalte?.[p.slot];
     const id = story?.pairId || p.themaId;
-    if (quizTauglich(byId.get(id))) verwendet.add(id);
+    if (quizVeroeffentlichbar(byId.get(id))) verwendet.add(id);
   }
 }
 
 function quizFuer(datum, slot, story, plan) {
   const bisher = byId.get(story?.pairId || plan?.themaId);
-  if (quizTauglich(bisher)) return bisher;
+  if (quizVeroeffentlichbar(bisher)) return bisher;
   const kandidaten = pool.filter((t) =>
-    quizTauglich(t)
+    quizVeroeffentlichbar(t)
     && t.fach === story.fach
     && Number(t.klausur) === Number(story.klausur)
     && !verwendet.has(t.id)

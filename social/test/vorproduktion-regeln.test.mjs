@@ -359,3 +359,12 @@ test("Herrjurist-Spiegelung: CTA und Karussell-Innenfolien bleiben auf demselben
   const schritte = folieHtml({ art: "schritte", titel: "So gehst du vor", schritte: [{ titel: "Erstens", text: "Prüfen." }, { titel: "Zweitens", text: "Einordnen." }] }, ctx, 3, 6);
   assert.match(schritte, /class="schritte"/);
 });
+
+
+test("Herrjurist-Quiz-Backfill lässt Ersatzfragen vor der Auswahl durch den Veröffentlichungscheck", () => {
+  const quelle = fs.readFileSync(new URL("../bin/vorproduktion-herrjurist-spiegel-backfill.mjs", import.meta.url), "utf8");
+  assert.match(quelle, /import \{ pruefeBeitrag \} from "\.\.\/src\/pruefung\.mjs"/);
+  assert.match(quelle, /function quizVeroeffentlichbar\(thema\)/);
+  assert.match(quelle, /pruefeBeitrag\(\{ stories: \[v\.frage, v\.antwort\] \}\)\.ok/);
+  assert.match(quelle, /quizVeroeffentlichbar\(t\)/);
+});
