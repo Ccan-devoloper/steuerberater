@@ -185,7 +185,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "reel",
@@ -322,7 +323,8 @@
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
       },
-      "icon": "personen"
+      "icon": "personen",
+      "liveVorrangAktiv": true
     },
     "s3": {
       "slot": "s3",
@@ -336,8 +338,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -347,7 +349,9 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "frage": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -361,8 +365,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -373,7 +377,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -398,8 +403,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -411,7 +416,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -424,8 +430,8 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -434,7 +440,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -450,8 +457,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -463,7 +470,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -484,8 +492,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -496,7 +504,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -511,8 +520,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -524,7 +533,8 @@
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
-      }
+      },
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -532,16 +542,25 @@
       "fach": "wochenrueckblick",
       "klausur": 4,
       "fachLabel": "Wochenrückblick",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Wochenrückblick K1 · K2 · K3",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "Wochenrückblick: K1 · K2 · K3",
+      "icon": "kalender",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -549,21 +568,30 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "personen",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T01:00:29.283Z",
+    "erzeugtAm": "2026-09-26T01:36:50.471Z",
     "pfad": "vorproduktion/2026-09-27/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -573,15 +601,19 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
+    "freigabeBetreiber": true,
     "wartetLive": [],
     "visuellGeprueft": true,
-    "visuellGeprueftAm": "2026-09-25"
+    "visuellGeprueftAm": "2026-09-25",
+    "coverIcons": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
-    "freigabeQuelle": "Betreiberauftrag Chat 2026-09-25",
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden",
     "providerKostenUsd": 0
   },
   "qa": {
@@ -600,5 +632,7 @@
   "coverPolicy": {
     "modus": "lokales-icon-wenn-bildlos",
     "providerKostenUsd": 0
-  }
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
