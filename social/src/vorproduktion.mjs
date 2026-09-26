@@ -26,6 +26,29 @@ export const VORPRODUKTION_LAYOUT = Object.freeze({
   farbenAusSchwesterkanalUebernehmen: false,
 });
 
+export function quizFrageSichtbar(frage, themaTitel = "") {
+  const sauber = (wert) => String(wert || "").replace(/\s+/g, " ").trim();
+  const roh = sauber(frage || themaTitel);
+  if (!roh) throw new Error("Quiz braucht eine sichtbare Frage.");
+
+  /* Lange Fallschilderungen gehören nicht komplett in die Story-Pille.
+     Wenn der Autor am Ende eine eigenständige Frage stellt, ist genau dieser
+     letzte Fragesatz die sichtbare Quizfrage; Fall und Optionen bleiben
+     fachlich unverändert in ihrem Datenkontext. */
+  const saetze = roh.match(/[^.!?]+[.!?]?/g)?.map((x) => x.trim()).filter(Boolean) || [];
+  const letzteFrage = [...saetze].reverse().find((x) => /\?$/.test(x));
+  if (letzteFrage && letzteFrage.length <= 96) return letzteFrage;
+
+  if (roh.length <= 96) return /\?$/.test(roh) ? roh : roh.replace(/[.!]+$/, "") + "?";
+
+  const titel = sauber(themaTitel).replace(/[.!?]+$/, "");
+  if (titel && titel.length <= 70) return `Was gilt bei „${titel}“?`;
+
+  const kern = titel.split(/\s+/).filter(Boolean).slice(0, 6).join(" ");
+  if (kern) return `Welche Aussage zu ${kern} trifft zu?`;
+  return "Welche Aussage trifft zu?";
+}
+
 const COVER_ICON_FACH = Object.freeze({
   ust: "quittung",
   istr: "globus",

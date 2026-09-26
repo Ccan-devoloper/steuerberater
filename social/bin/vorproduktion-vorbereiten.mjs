@@ -21,6 +21,7 @@ import {
   examenscampusRegelnPruefen,
   fachMeta,
   providerfreieVorproduktionPruefen,
+  quizFrageSichtbar,
   reviewStatus,
 } from "../src/vorproduktion.mjs";
 
@@ -193,12 +194,7 @@ function satz(text) {
 }
 
 function quizFrage(k, fallbackTitel) {
-  const explizit = clean(k?.frage);
-  if (explizit) return /\?$/.test(explizit) ? explizit : explizit.replace(/[.!]+$/, "") + "?";
-  const basis = clean(fallbackTitel).replace(/[.!]+$/, "");
-  if (!basis) throw new Error("Quiz braucht eine sichtbare Frage.");
-  if (/\?$/.test(basis)) return basis;
-  return `Was gilt bei „${basis}“?`;
+  return quizFrageSichtbar(k?.frage, fallbackTitel);
 }
 
 function quizDreiOptionen(k) {
