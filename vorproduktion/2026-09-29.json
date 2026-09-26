@@ -1,9 +1,9 @@
 {
   "datum": "2026-09-29",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -200,11 +200,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "spickzettel",
@@ -299,11 +300,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -406,11 +408,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -424,13 +427,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?"
+      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
+      "frage": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -444,14 +449,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Die Wahl reicht vom Buchwert über den Zwischenwert bis zum gemeinen Wert. Für den Buchwert ist ein Antrag nötig; ohne Wahl bleibt es beim gemeinen Wert."
+      "text": "Die Wahl reicht vom Buchwert über den Zwischenwert bis zum gemeinen Wert. Für den Buchwert ist ein Antrag nötig; ohne Wahl bleibt es beim gemeinen Wert.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -469,15 +475,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 2 Nr. 1 KStG",
       "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA",
-      "text": "Deutschen Grundstücksbezug über § 49 und die zugrunde liegende Einkunftsart feststellen. Zurechnungs-/Nutzungszeitraum aus dem Sachverhalt ableiten."
+      "text": "Deutschen Grundstücksbezug über § 49 und die zugrunde liegende Einkunftsart feststellen. Zurechnungs-/Nutzungszeitraum aus dem Sachverhalt ableiten.",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -490,11 +497,12 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -509,15 +517,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Schwebendes Geschäft",
       "text": "Beiderseits noch nicht erfüllter Vertrag; im Grundfall nicht zu bilanzieren, bis der Schwebezustand gestört ist.",
-      "norm": "R 5.7 Abs. 7 EStR"
+      "norm": "R 5.7 Abs. 7 EStR",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -536,15 +545,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
       "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
-      "richtigText": "§ 50 Abs. 1 erst nach Ermittlung der beschränkt steuerpflichtigen Einkünfte anwenden."
+      "richtigText": "§ 50 Abs. 1 erst nach Ermittlung der beschränkt steuerpflichtigen Einkünfte anwenden.",
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -552,16 +562,25 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Drei Vermögen: Wo landet die Maschine?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -569,16 +588,25 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s3": {
       "slot": "s3",
@@ -586,21 +614,30 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b3",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T22:03:50.306Z",
+    "erzeugtAm": "2026-09-26T01:36:56.242Z",
     "pfad": "vorproduktion/2026-09-29/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -611,11 +648,17 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
-    "wartetLive": []
+    "freigabeBetreiber": true,
+    "wartetLive": [],
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
-  }
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden"
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }

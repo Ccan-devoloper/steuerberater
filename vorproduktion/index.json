@@ -90,7 +90,10 @@
       "providerKostenUsd": 0,
       "bilderStatus": "icon-statt-providerbild",
       "renderStatus": "fertig",
-      "coverIcons": true
+      "coverIcons": true,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "renderErzeugtAm": "2026-09-26T01:36:56.242Z"
     },
     {
       "datum": "2026-09-30",
