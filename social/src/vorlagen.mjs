@@ -6,7 +6,7 @@
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { iconSvg, ICONS } from "./stile.mjs";
-import { farbIcon } from "./icons.mjs";
+import { farbIcon, ZUORDNUNG } from "./icons.mjs";
 import { normKurz } from "./normen.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
@@ -163,9 +163,13 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .story .ueberzeile{margin-top:70px;font-size:34px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-weich);font-weight:700}
 .story .etikett{font-size:30px}
 .story h1{font-size:120px;margin-top:34px}
+.story:not(.cover) h1{text-wrap:wrap;width:max-content;max-width:100%}
 .story h1.klein{font-size:96px}
 .story .text{font-size:48px;line-height:1.4;margin-top:44px}
 .story .norm{margin-top:60px;font-family:var(--mono);font-size:64px;line-height:1.2;color:var(--akzent);text-wrap:balance}
+.story .norm.norm-liste{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;text-wrap:initial}
+.story .norm .norm-einheit{display:inline-block;white-space:nowrap}
+.story .norm .norm-einheit:not(:last-child)::after{content:" ·"}
 .stil-klausurbogen .story .norm{color:var(--rot)}
 .story .optionen{margin-top:60px;display:flex;flex-direction:column;gap:24px}
 .story .optionen div{padding:30px 36px;border:3px solid var(--linie);border-radius:var(--ecken);font-size:42px;line-height:1.3;background:var(--flaeche);display:flex;gap:24px}
@@ -204,6 +208,7 @@ code{font-family:var(--mono);font-size:.92em;white-space:nowrap}
 .story .balken{margin-top:110px;margin-bottom:auto;height:16px;border-radius:999px;background:var(--linie);overflow:hidden}
 .story .balken i{display:block;height:100%;background:var(--akzent)}
 .story .pfeil{margin-top:auto;text-align:center;font-size:34px;color:var(--text-weich);letter-spacing:.12em;text-transform:uppercase}
+.story .umfrageplatz{margin-top:auto;height:300px;flex:none}
 /* Reel-Cover bleibt eine echte 9:16-Komposition. Die 4:5-Feed-Safe-Area
    schützt nur kritischen Text; Fachband und Reelmarke dürfen die echten
    Außenkanten des Covers nutzen. Synchron zur aktuellen HerrJurist-Logik. */
@@ -328,8 +333,10 @@ h1 em{color:${p.akzent2}}
 /* Problematische Action-Freisteller werden mit leichtem Bleed von links nach
    rechts aufgespannt. Die exakte Breite kommt inline aus dem Renderprofil;
    overflow bleibt bewusst sichtbar, damit keine "Sticker"-Innenkante entsteht. */
-.frei.charakter.edge-to-edge{max-width:none;overflow:hidden}
-.frei.charakter.edge-to-edge img{object-fit:var(--edge-fit,cover);object-position:var(--edge-x,50%) var(--edge-y,50%)}
+.frei.edge-to-edge{max-width:none;overflow:hidden}
+.frei.edge-to-edge img{object-fit:var(--edge-fit,cover);object-position:var(--edge-x,50%) var(--edge-y,50%)}
+.frei.edge-to-edge.fit-width{overflow:visible}
+.frei.edge-to-edge.fit-width img{position:absolute;left:0;bottom:0;width:100%;height:auto;object-fit:contain;object-position:center bottom}
 .art-titel h1,.art-titel .prio{position:relative;z-index:3}
 .art-titel .kopf{z-index:3}
 /* Fusszeile traegt das Rechtsgebiet - sie bleibt ueber dem Motiv lesbar. */
@@ -525,8 +532,43 @@ function fotoBuehne(folie, ziel = BUEHNE_BEITRAG) {
   /* Freigestellt: Das Motiv laeuft unten rechts aus der Kachel, ohne Rahmen.
      Nicht freigestellt (Notfall): als abgerundete Karte. */
   const istCharakter = folie.bildTyp === "charakter";
-  const edgeToEdge = istCharakter && folie.coverBildEdgeToEdge === true;
-  const klasse = folie.bildFrei === false ? "foto" : `frei${istCharakter ? " charakter" : ""}${edgeToEdge ? " edge-to-edge" : ""}`;
+  /* Story-Teaser sind eine feste Ausnahme von der normalen Sticker-Buehne:
+     Der Freisteller muss links, rechts und unten bis an die Storykante reichen.
+     Das gilt unabhaengig vom einzelnen Cover-/Renderprofil. */
+  const teaserKanteAnKante = folie.art === "teaser" && folie.bildFrei !== false;
+  const edgeToEdge = teaserKanteAnKante || (istCharakter && folie.coverBildEdgeToEdge === true);
+  /* Number(null) === 0 war hier ein versteckter Layoutfehler: fehlende
+     Profilwerte wurden dadurch als scale=.65 und x=.05 interpretiert. Genau
+     deshalb klebten neue Reel-Motive klein und links angeschnitten am Rand.
+     Nur wirklich gesetzte Werte dürfen als Profil gelten. */
+  const zahlOderNull = (wert) => {
+    if (wert === null || wert === undefined || wert === "") return null;
+    const n = Number(wert);
+    return Number.isFinite(n) ? n : null;
+  };
+  const scaleRaw = zahlOderNull(folie.coverBildScale);
+  const breiteRaw = zahlOderNull(folie.coverBildBreite);
+  const xRaw = zahlOderNull(folie.coverBildX);
+  const yRaw = zahlOderNull(folie.coverBildY);
+  const topRaw = zahlOderNull(folie.coverBildTop);
+  const bottomRaw = zahlOderNull(folie.coverBildBottom);
+  const bleedRaw = zahlOderNull(folie.coverBildBleed);
+  const fitRaw = String(folie.coverBildFit || "").toLowerCase();
+  /* Teaser behalten den ganzen Freisteller und skalieren ihn auf volle
+     Storybreite. So beruehrt das Motiv beide Seitenkanten, ohne Figuren durch
+     object-fit:cover horizontal abzuschneiden. */
+  const fit = teaserKanteAnKante
+    ? "width"
+    : fitRaw === "contain" ? "contain" : fitRaw === "width" ? "width" : "cover";
+  const hatProfil = edgeToEdge
+    || [scaleRaw, breiteRaw, xRaw, yRaw, topRaw, bottomRaw, bleedRaw].some((x) => x !== null)
+    || ["contain", "cover", "width"].includes(fitRaw);
+  /* Ohne manuelles Profil entscheidet bei Karussells die Browser-QA nach dem
+     finalen Titelumbruch über Größe und Position des Motivs. */
+  const autoLayout = istCharakter && !hatProfil;
+  const klasse = folie.bildFrei === false
+    ? "foto"
+    : `frei${istCharakter ? " charakter" : ""}${edgeToEdge ? " edge-to-edge" : ""}${edgeToEdge && fit === "width" ? " fit-width" : ""}${autoLayout ? " auto-layout" : ""}`;
   /* Charakter-Szenen sind selbst das Markenzeichen. Neben zwei handelnden
      Figuren noch ein grosses Themen-Icon zu setzen wuerde die Cover wieder
      ueberladen; Stock-/Fallbackmotive behalten das Icon wie bisher. */
@@ -534,19 +576,10 @@ function fotoBuehne(folie, ziel = BUEHNE_BEITRAG) {
   const zeichen = istCharakter ? "" : farbIcon(icon, klasse.startsWith("frei") ? 240 : 180);
   const charakterZiel = istCharakter ? BUEHNE_CHARAKTER : ziel;
   const box = folie.bildFrei !== false ? motivBuehne(folie.bildBreite, folie.bildHoehe, charakterZiel) : null;
-  const scaleRaw = Number(folie.coverBildScale);
-  const scale = istCharakter && Number.isFinite(scaleRaw) ? Math.max(0.65, Math.min(1.35, scaleRaw)) : 1;
-  const breiteRaw = Number(folie.coverBildBreite);
-  const festeBreite = istCharakter && Number.isFinite(breiteRaw) ? Math.max(720, Math.min(1500, breiteRaw)) : null;
-  const xRaw = Number(folie.coverBildX);
-  const x = istCharakter && Number.isFinite(xRaw) ? Math.max(0.05, Math.min(0.95, xRaw)) : null;
-  const yRaw = Number(folie.coverBildY);
-  const y = istCharakter && Number.isFinite(yRaw) ? Math.max(0.05, Math.min(0.95, yRaw)) : 0.5;
-  const fitRaw = String(folie.coverBildFit || "").toLowerCase();
-  const fit = fitRaw === "contain" ? "contain" : "cover";
-  const topRaw = Number(folie.coverBildTop);
-  const bottomRaw = Number(folie.coverBildBottom);
-  const bleedRaw = Number(folie.coverBildBleed);
+  const scale = istCharakter && scaleRaw !== null ? Math.max(0.65, Math.min(1.35, scaleRaw)) : 1;
+  const festeBreite = istCharakter && breiteRaw !== null ? Math.max(720, Math.min(1500, breiteRaw)) : null;
+  const x = istCharakter && xRaw !== null ? Math.max(0.05, Math.min(0.95, xRaw)) : null;
+  const y = istCharakter && yRaw !== null ? Math.max(0.05, Math.min(0.95, yRaw)) : 0.5;
   const style = [];
 
   if (edgeToEdge) {
@@ -554,11 +587,15 @@ function fotoBuehne(folie, ziel = BUEHNE_BEITRAG) {
        definiert. Das Bild selbst fuellt diese Flaeche per object-fit:cover.
        Damit gibt es keine Sticker-Luft mehr und trotzdem keinen Wildwuchs
        ueber den Titelblock. */
-    const bleed = Number.isFinite(bleedRaw) ? Math.max(0, Math.min(80, bleedRaw)) : 0;
-    style.push(`left:-${Math.round(bleed)}px`);
-    style.push(`right:-${Math.round(bleed)}px`);
-    style.push(Number.isFinite(topRaw) ? `top:${Math.round(topRaw)}px` : "top:auto");
-    style.push(Number.isFinite(bottomRaw) ? `bottom:${Math.round(bottomRaw)}px` : "bottom:0");
+    const bleed = teaserKanteAnKante ? 0 : (bleedRaw !== null ? Math.max(0, Math.min(80, bleedRaw)) : 0);
+    const rand = bleed > 0 ? `-${Math.round(bleed)}px` : "0";
+    style.push(`left:${rand}`);
+    style.push(`right:${rand}`);
+    /* Teaser sind dauerhaft datumslos kante-an-kante. Selbst falls ein
+       künftiges Cover Positionswerte mitliefert, dürfen die den Story-Teaser
+       nicht von der Außenkante wegschieben. */
+    style.push(teaserKanteAnKante ? "top:auto" : (topRaw !== null ? `top:${Math.round(topRaw)}px` : "top:auto"));
+    style.push(teaserKanteAnKante ? "bottom:0" : (bottomRaw !== null ? `bottom:${Math.round(bottomRaw)}px` : "bottom:0"));
     style.push("width:auto");
     style.push("height:auto");
     style.push("transform:none");
@@ -753,6 +790,29 @@ function titelBlock(titel, zeilen, ctx) {
   return `<h1 class="${klasse}"><span class="z">${markierenTitel(titel)}</span></h1>`;
 }
 
+function ctaIconAusText(text) {
+  const t = String(text || "").toLowerCase();
+  if (/zustell|brief|post|mitteil|bescheid/.test(t)) return "umschlag";
+  if (/vollstreck|gericht|entscheidung|urteil|tenor/.test(t)) return "hammer";
+  if (/titel|anspruch|norm|gesetz|paragraph|schema|obersatz|dokument|antrag|akte|sachverhalt|fall/.test(t)) return "dokument";
+  if (/klausel|ausnahme|prüf|kontroll|subsum|merkmal|abgrenz|voraussetz|aufbau|schritt|reihenfolg/.test(t)) return "lupe";
+  if (/abwäg|verhältnis|angemessen|interessen|gewicht|würdig|vergleich|unterscheid/.test(t)) return "waage";
+  if (/speicher|wiederhol|lern|merk|festig/.test(t)) return "buch";
+  if (/lerngruppe|teilen|schick|person|beteilig|partei/.test(t)) return "personen";
+  if (/frage|kommentar|unklar|erklär/.test(t)) return "frage";
+  if (/frist|zeitpunkt|dauer|uhr/.test(t)) return "uhr";
+  if (/fehler|falsch|warn|vermeid/.test(t)) return "warnung";
+  if (/ergebnis|rechtsfolge|fertig|abschließ/.test(t)) return "haken";
+  return null;
+}
+
+function ctaIconSchluessel(folie, text, index) {
+  const key = folie.icons?.[index] || ctaIconAusText(text);
+  if (!key) throw new Error(`CTA-Punkt braucht einen semantischen Icon-Key: ${String(text || "").trim()}`);
+  if (!(key in ICONS) && !(key in ZUORDNUNG)) throw new Error(`Unbekannter CTA-Icon-Key: ${key}`);
+  return key;
+}
+
 const FOLIEN = {
   titel: (f, ctx, i, n) => {
     const bunt = (ctx.stil.familie || ctx.stil.id) === "bunt";
@@ -814,7 +874,7 @@ const FOLIEN = {
     <div class="cta">
       <h2>${markieren(f.titel || "Folgen für mehr.")}</h2>
       <div class="liste">
-        ${(f.punkte || ["Folgen für tägliche Prüfungsfragen", "Speichern für die Wiederholung", "Fragen? Ab in die Kommentare"]).map((p, k) => `<div>${iconSvg(["haken", "buch", "personen"][k % 3], 56)}<span>${markieren(p)}</span></div>`).join("")}
+        ${(f.punkte || ["Folgen für tägliche Prüfungsfragen", "Speichern für die Wiederholung", "Fragen? Ab in die Kommentare"]).map((p, k) => `<div>${iconSvg(ctaIconSchluessel(f, p, k), 56)}<span>${markieren(p)}</span></div>`).join("")}
       </div>
     </div>
     ${fuss(ctx)}`,
@@ -835,6 +895,32 @@ function ueberzeile(art, text) {
   return `<div class="ueberzeile">${zeichen ? `<span class="uz-icon">${zeichen}</span>` : ""}<span>${esc(text)}</span></div>`;
 }
 
+function storyZahlGroesse(wert) {
+  const laenge = String(wert ?? "").trim().length;
+  if (laenge <= 3) return 300;
+  if (laenge <= 5) return 230;
+  return 180;
+}
+
+function normListeHtml(wert, extraKlasse = "") {
+  const teile = String(wert || "").split(/\s*·\s*/).map((x) => x.trim()).filter(Boolean);
+  const klasse = `norm${extraKlasse ? ` ${extraKlasse}` : ""}`;
+  if (teile.length <= 1) return `<div class="${klasse}">${esc(wert)}</div>`;
+  return `<div class="${klasse} norm-liste">${teile.map((teil) => `<span class="norm-einheit">${esc(teil)}</span>`).join("")}</div>`;
+}
+
+function storySemantikPruefen(story = {}) {
+  if (story.art === "frage") {
+    const frage = String(story.frage || story.titel || "").trim();
+    if (!frage || !/\?$/.test(frage)) throw new Error("Frage-Story braucht eine sichtbare Frage mit Fragezeichen.");
+  }
+  if (story.art === "fehler") {
+    if (!String(story.falsch || story.titel || "").trim()) throw new Error("Fehler-Story braucht eine falsche Aussage in falsch oder titel.");
+    if (!String(story.richtigText || story.text || "").trim()) throw new Error("Fehler-Story braucht eine richtige Aufloesung in richtigText oder text.");
+  }
+  if (story.art === "norm" && !String(story.norm || "").trim()) throw new Error("Norm-Story braucht mindestens eine Norm.");
+}
+
 const STORIES = {
   teaser: (s, ctx) => `
     ${sk(ctx)}
@@ -845,13 +931,16 @@ const STORIES = {
     <div class="hinweis">Oben auf den Namen tippen – der Beitrag ist der neueste im Profil.</div>
     ${bildOderIllu(ctx, s)}
     ${fuss(ctx)}`,
-  frage: (s, ctx) => `
+  frage: (s, ctx) => {
+    const frage = String(s.frage || s.titel || "").trim();
+    return `
     ${sk(ctx)}
     ${ueberzeile("frage", s.ueberzeile || "Prüfungsfrage")}
-    <h1 class="klein">${markierenTitel(s.titel)}</h1>
+    <h1 class="klein">${markierenTitel(frage)}</h1>
     ${s.optionen?.length ? `<div class="optionen">${s.optionen.map((o, k) => `<div><b>${"ABCD"[k]}</b><span>${markieren(o)}</span></div>`).join("")}</div>` : ""}
-    <div class="pfeil">Antwort in der nächsten Story →</div>
-    ${fuss(ctx)}`,
+    ${s.interaktiv ? `<div class="umfrageplatz"></div>` : `<div class="pfeil">Antwort in der nächsten Story →</div>`}
+    ${fuss(ctx)}`;
+  },
   antwort: (s, ctx) => `
     ${sk(ctx)}
     ${ueberzeile("haken", s.ueberzeile || "Richtig ist")}
@@ -862,11 +951,14 @@ const STORIES = {
   norm: (s, ctx) => `
     ${sk(ctx)}
     ${ueberzeile("norm", s.ueberzeile || "Norm des Tages")}
-    <div class="norm">${esc(s.norm)}</div>
+    ${normListeHtml(s.norm)}
     <h1 class="klein">${markierenTitel(s.titel)}</h1>
     ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
     <div class="geist">§</div>
     ${fuss(ctx)}`,
+  /* Der Meinungsstreit - das, was eine Jura-Klausur von jedem anderen Fach
+     unterscheidet. Zwei Ansichten nebeneinander, darunter der Streitentscheid:
+     genau die Reihenfolge, in der er in der Klausur geschrieben wird. */
   merksatz: (s, ctx) => `
     ${sk(ctx)}
     ${ueberzeile("merke", s.ueberzeile || "Merksatz")}
@@ -898,9 +990,9 @@ const STORIES = {
   zahl: (s, ctx) => `
     ${sk(ctx)}
     ${ueberzeile("zahl", s.ueberzeile || "Zahl des Tages")}
-    <div class="zahl" style="font-size:300px">${esc(s.zahl)}</div>
+    <div class="zahl" style="font-size:${storyZahlGroesse(s.zahl)}px;white-space:nowrap;max-width:100%">${esc(s.zahl)}</div>
     <div class="zahl-unter">${markierenTitel(s.titel)}</div>
-    ${s.text ? `<div class="text">${markieren(s.text)}</div>` : ""}
+    ${s.punkte?.length ? `<div class="zahl-punkte">${s.punkte.map((p, i) => `<div class="zp"><b>${i + 1}</b><span>${markieren(p)}</span></div>`).join("")}</div>` : (s.text ? `<div class="text">${markieren(s.text)}</div>` : "")}
     ${fuss(ctx)}`,
   tipp: (s, ctx) => `
     ${sk(ctx)}
@@ -909,16 +1001,21 @@ const STORIES = {
     <div class="text">${markieren(s.text)}</div>
     ${bildOderIllu(ctx, s)}
     ${fuss(ctx)}`,
-  fehler: (s, ctx) => `
+  fehler: (s, ctx) => {
+    const falsch = String(s.falsch || s.titel || "").trim();
+    const richtig = String(s.richtigText || s.text || "").trim();
+    return `
     ${sk(ctx)}
     ${ueberzeile("fehler", s.ueberzeile || "Typischer Fehler")}
-    <h1 class="klein">${markierenTitel(s.titel)}</h1>
-    <div class="karte"><div class="t" style="color:var(--rot)">Falsch</div><div class="u">${markieren(s.falsch)}</div></div>
-    <div class="karte"><div class="t" style="color:var(--ok)">Richtig</div><div class="u">${markieren(s.richtigText || s.text)}</div></div>
-    ${fuss(ctx)}`,
+    ${s.falsch && s.titel ? `<h1 class="klein">${markierenTitel(s.titel)}</h1>` : ""}
+    <div class="karte"><div class="t" style="color:var(--rot)">Falsch</div><div class="u">${markieren(falsch)}</div></div>
+    <div class="karte"><div class="t" style="color:var(--ok)">Richtig</div><div class="u">${markieren(richtig)}</div></div>
+    ${fuss(ctx)}`;
+  },
 };
 
 export function storyHtml(story, ctx) {
+  storySemantikPruefen(story);
   const render = STORIES[story.art] || STORIES.tipp;
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>${css(ctx.stil, "story")}${klausurCss(ctx)}${buntCss(ctx)}</style></head>
 <body class="stil-${ctx.stil.id} familie-${ctx.stil.familie || ctx.stil.id}"><div class="story">${render(story, ctx)}</div></body></html>`;
