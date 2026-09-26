@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Ware geliefert: Ist der Gewinn schon realisiert?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -221,7 +222,8 @@
           "art": "titel",
           "titel": "Frist vorbei: Welche Korrektur bleibt offen?",
           "coverBadge": null,
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "zielscheibe"
         },
         {
           "art": "text",
@@ -324,7 +326,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Aufsichtsrat im Inland: Wo wird besteuert?",
           "norm": "§ 18 Abs. 1 Nr. 3 EStG",
-          "icon": null,
+          "icon": "globus",
           "sprecher": "Aufsichtsrat im Inland: Wo wird besteuert? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Aufsichtsrat im Inland: Wo wird besteuert"
@@ -386,7 +388,7 @@
       ],
       "kurztitel": "Aufsichtsrat im Inland: Wo wird besteuert?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 18 Abs. 1 Nr. 3 EStG",
         "§ 49 Abs. 1 Nr. 3 EStG",
@@ -416,7 +418,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "globus"
     },
     "s4": {
       "slot": "s4",
@@ -436,9 +439,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "§ 8b KStG: Welche 5 % kommen hinzu?",
-      "frage": "§ 8b KStG: Welche 5 % kommen hinzu?",
-      "liveVorrangAktiv": true
+      "titel": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
+      "frage": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "1 %",
+        "5 %",
+        "10 %"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -458,9 +467,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "5 %",
       "text": "Richtig: 5 %. 5 % gelten im Grundfall als nichtabziehbare Betriebsausgaben.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "1 %",
+        "5 %",
+        "10 %"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -657,7 +672,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:26.332Z",
+    "erzeugtAm": "2026-09-26T02:15:24.758Z",
     "pfad": "vorproduktion/2026-10-10/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -672,7 +687,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
