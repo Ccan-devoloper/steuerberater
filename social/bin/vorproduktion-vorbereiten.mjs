@@ -201,6 +201,22 @@ function quizFrage(k, fallbackTitel) {
   return `Was gilt bei „${basis}“?`;
 }
 
+function quizDreiOptionen(k) {
+  const optionen = (k?.optionen || []).map((x) => String(x || "").trim()).filter(Boolean);
+  const richtig = Number(k?.richtig);
+  if (!Number.isInteger(richtig) || richtig < 0 || richtig >= optionen.length || optionen.length < 3) return null;
+  if (optionen.length === 3) return { optionen, richtig };
+  /* Herrjurist zeigt genau A/B/C. Bei Quellen mit vier Antworten bleiben die
+     richtige und die ersten zwei falschen Optionen in ihrer ursprünglichen
+     Reihenfolge erhalten; dadurch bleibt die Aussage deterministisch. */
+  const indices = [richtig, ...optionen.map((_, i) => i).filter((i) => i !== richtig).slice(0, 2)]
+    .sort((a, b) => a - b);
+  return {
+    optionen: indices.map((i) => optionen[i]),
+    richtig: indices.indexOf(richtig),
+  };
+}
+
 function quizAntwort(k) {
   let option = "";
   if (typeof k.richtig === "number" && k.optionen[k.richtig] != null) option = k.optionen[k.richtig];
@@ -540,21 +556,24 @@ function story(datum, planStory, t, used) {
 
   if (art === "frage") {
     const frage = quizFrage(k, t.titel);
+    const quiz = quizDreiOptionen(k);
     return {
       ...basis,
       ueberzeile: "Prüfungsfrage",
       frage,
       titel: frage,
-      ...(k.optionen.length ? { optionen: k.optionen } : {}),
-      ...(k.richtig != null ? { richtig: k.richtig } : {}),
+      ...(quiz || {}),
     };
   }
   if (art === "antwort") {
+    const quiz = quizDreiOptionen(k);
+    const richtigeOption = quiz ? quiz.optionen[quiz.richtig] : "";
     return {
       ...basis,
       ueberzeile: "Auflösung",
-      titel: "Kern der Antwort",
-      text: quizAntwort(k) || k.antwort || (k.lern.length ? k.lern : k.schritte).slice(0, 3).map(satz).join(" "),
+      titel: richtigeOption || "Kern der Antwort",
+      ...(quiz || {}),
+      text: k.erklaerung || k.antwort || (richtigeOption ? "Richtig: " + satz(richtigeOption) : "") || (k.lern.length ? k.lern : k.schritte).slice(0, 3).map(satz).join(" "),
     };
   }
   if (art === "norm") {
@@ -826,7 +845,7 @@ for (const datum of dates) {
     const storyThemen = new Set(benutzt);
     let frageThema = null;
     const storyTypen = {
-      frage: ["quiz", "karteikarte"], norm: ["modul", "begriff"],
+      frage: ["quiz"], norm: ["modul", "begriff"],
       merksatz: ["modul"], begriff: ["begriff", "karteikarte"],
       fehler: ["modul"], tipp: ["modul"], zahl: ["formel", "modul"],
       formel: ["formel"],
@@ -852,8 +871,10 @@ for (const datum of dates) {
           if (s.art === "fehler" && (!vorschau.falsch || !vorschau.richtigText)) return false;
           if (!pruefeBeitrag({ stories: [vorschau] }).ok) return false;
           if (s.art === "frage") {
+            if (!quizDreiOptionen(kern(t))) return false;
             const antwort = story(datum, { ...s, art: "antwort" }, t, new Set());
-            return Boolean(antwort.text) && pruefeBeitrag({ stories: [antwort] }).ok;
+            return Boolean(antwort.text) && Array.isArray(antwort.optionen) && antwort.optionen.length === 3
+              && pruefeBeitrag({ stories: [antwort] }).ok;
           }
           return true;
         },
@@ -986,7 +1007,7 @@ if (dreiKlausuren) {
   );
   const storyIds = new Set();
   const typen = {
-    frage: ["quiz", "karteikarte"], norm: ["modul", "begriff"],
+    frage: ["quiz"], norm: ["modul", "begriff"],
     merksatz: ["modul"], begriff: ["begriff", "karteikarte"],
     fehler: ["modul"], tipp: ["modul"], zahl: ["formel", "modul"],
     formel: ["formel"],
@@ -1010,8 +1031,10 @@ if (dreiKlausuren) {
         if (s.art === "fehler" && (!v.falsch || !v.richtigText)) return false;
         if (!pruefeBeitrag({ stories: [v] }).ok) return false;
         if (s.art !== "frage") return true;
+        if (!quizDreiOptionen(kern(t))) return false;
         const a = story(datum, { ...s, art: "antwort" }, t, new Set());
-        return Boolean(a.text) && pruefeBeitrag({ stories: [a] }).ok;
+        return Boolean(a.text) && Array.isArray(a.optionen) && a.optionen.length === 3
+          && pruefeBeitrag({ stories: [a] }).ok;
       };
       const alt = byId.get(s.themaId);
       let t = alt && !historischeIds.has(alt.id) && !feedIds.has(alt.id) && !storyIds.has(alt.id)
