@@ -47,6 +47,14 @@ const manifest = {
   tage: [],
 };
 
+const indexPfad = path.join(hosting.dir, "vorproduktion", "index.json");
+const index = fs.existsSync(indexPfad)
+  ? JSON.parse(fs.readFileSync(indexPfad, "utf8"))
+  : { version: 1, tage: [] };
+if (!Array.isArray(index.tage)) index.tage = [];
+index.liveVorrangAb = "2026-09-26";
+index.liveVorrangRegel = "Vorproduktionsdatei vorhanden = Normalbetrieb gesperrt; Fallback nur ohne Tagesdatei";
+
 function quizFrageText(fallbackTitel = "") {
   const basis = String(fallbackTitel || "").replace(/\s+/g, " ").trim().replace(/[.!]+$/, "");
   if (!basis) throw new Error("Quiz braucht eine sichtbare Frage.");
@@ -56,9 +64,11 @@ function quizFrageText(fallbackTitel = "") {
 
 function quizStoriesNormalisieren(tag) {
   for (const p of tag.plan?.stories || []) {
-    if (p.art !== "frage") continue;
     const story = tag.inhalte?.[p.slot];
     if (!story) continue;
+    if (p.art !== "frage" && story.art !== "frage") continue;
+    p.art = "frage";
+    story.art = "frage";
     /* Backfill alter Reviewtage nur aus dem bereits gespeicherten,
        redaktionell geprüften Storytext ableiten. Niemals rohe Frage- oder
        Antwortoptionen aus dem Themenpool zurückkopieren: Sie können
@@ -67,6 +77,25 @@ function quizStoriesNormalisieren(tag) {
     const frage = quizFrageText(story.frage || story.titel);
     story.frage = frage;
     story.titel = frage;
+  }
+}
+
+function liveMetadatenSetzen(tag) {
+  tag.freigabeBetreiber = true;
+  tag.vorproduktionStatus = "live-freigegeben";
+  tag.liveVorrangAktiv = true;
+  tag.normalbetriebGesperrt = true;
+  tag.liveRegel = {
+    ...(tag.liveRegel || {}),
+    veroeffentlichen: true,
+    freigabeErforderlich: false,
+    freigabeQuelle: "Vorproduktionsdatei vorhanden",
+  };
+  for (const inhalt of Object.values(tag.inhalte || {})) {
+    if (!inhalt || typeof inhalt !== "object") continue;
+    inhalt.freigabeBetreiber = true;
+    inhalt.vorproduktionStatus = "live-freigegeben";
+    inhalt.liveVorrangAktiv = true;
   }
 }
 
@@ -101,8 +130,9 @@ function teaserFuer(slot, beitrag, beitragSlot) {
     pille: "Jetzt im Feed",
     beitragSlot,
     abgeleitet: true,
-    freigabeBetreiber: beitrag.freigabeBetreiber === true,
-    vorproduktionStatus: beitrag.vorproduktionStatus || "review",
+    freigabeBetreiber: true,
+    vorproduktionStatus: "live-freigegeben",
+    liveVorrangAktiv: true,
     textProviderKostenUsd: 0,
     faktencheckProviderKostenUsd: 0,
     bildStatus: motiv.bild ? "vorhanden" : "icon-statt-bild",
@@ -147,6 +177,7 @@ for (const datum of tage) {
   if (!fs.existsSync(tagPfad)) throw new Error("Vorproduktion fehlt: " + datum);
   const tag = JSON.parse(fs.readFileSync(tagPfad, "utf8"));
   quizStoriesNormalisieren(tag);
+  liveMetadatenSetzen(tag);
   examenscampusRegelnPruefen(tag);
   expliziteIconKeysPruefen(tag.inhalte, datum + ".inhalte");
 }
@@ -155,6 +186,9 @@ try {
   for (const datum of tage) {
     const tagPfad = path.join(hosting.dir, "vorproduktion", datum + ".json");
     const tag = JSON.parse(fs.readFileSync(tagPfad, "utf8"));
+    quizStoriesNormalisieren(tag);
+    liveMetadatenSetzen(tag);
+    examenscampusRegelnPruefen(tag);
     const out = path.join(temp, datum);
     fs.mkdirSync(out, { recursive: true });
 
@@ -290,7 +324,9 @@ try {
       reelStimme: "piper-offline",
       layoutQuelle: "herrjurist",
       semantikQuelle: "examenscampus",
-      freigabeBetreiber: false,
+      freigabeBetreiber: true,
+      liveVorrangAktiv: true,
+      normalbetriebGesperrt: true,
       wartetLive: mTag.wartetLive,
     };
     tag.kostenPolicy = {
@@ -310,9 +346,29 @@ try {
     fs.cpSync(out, ziel, { recursive: true });
     fs.writeFileSync(tagPfad, JSON.stringify(tag, null, 2) + "\n");
 
+    const indexTag = index.tage.find((x) => x && x.datum === datum);
+    if (indexTag) {
+      Object.assign(indexTag, {
+        status: "vorproduziert",
+        freigabeBetreiber: true,
+        vorproduktionStatus: "live-freigegeben",
+        liveVorrangAktiv: true,
+        normalbetriebGesperrt: true,
+        providerKostenUsd: 0,
+        bilderStatus: "icon-statt-providerbild",
+        renderStatus: tag.renderVorschau.status,
+        renderErzeugtAm: tag.renderVorschau.erzeugtAm,
+        coverbilder: false,
+        coverIcons: true,
+        reviewPfad: "vorproduktion/" + datum + "/fertig",
+      });
+    }
+
     mTag.pfad = dateiRelativ(ziel);
     manifest.tage.push(mTag);
   }
+
+  fs.writeFileSync(indexPfad, JSON.stringify(index, null, 2) + "\n");
 
   fs.writeFileSync(
     path.join(hosting.dir, "vorproduktion", "render-ohne-coverbilder-manifest.json"),
