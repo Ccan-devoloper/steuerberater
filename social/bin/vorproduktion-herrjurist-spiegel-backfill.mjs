@@ -50,7 +50,12 @@ function quizVorschau(thema) {
   const quiz = dreiOptionen(thema);
   const frageText = String(thema.kern?.frage || thema.titel || "").trim();
   const korrekt = quiz.optionen[quiz.richtig];
-  const erklaerung = String(thema.kern?.erklaerung || "").trim() || ("Richtig ist: " + korrekt + ".");
+  /* Der Eignungscheck darf nicht die lange Original-Erklärung aus dem
+     Lernkorpus zurück in die Social-Prüfung tragen. Frage + A/B/C sind die
+     eigentliche Quizsemantik; für die Vorschau genügt eine kurze, neu gebaute
+     Auflösung. Bei bereits gespeicherten Quizpaaren bleibt der redaktionell
+     formulierte Antworttext später erhalten. */
+  const erklaerung = "Richtig ist: " + korrekt + ".";
   const basis = {
     fach: thema.fach,
     klausur: thema.klausur,
