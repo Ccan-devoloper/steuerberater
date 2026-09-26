@@ -55,13 +55,13 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "ust-quiz-ust-7"
+        "themaId": "ust-quiz-ust-15"
       },
       {
         "slot": "s5",
         "zeit": "07:07",
         "art": "antwort",
-        "themaId": "ust-quiz-ust-7"
+        "themaId": "ust-quiz-ust-15"
       },
       {
         "slot": "s6",
@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Sanierung nach Hauskauf: AK oder Sofortabzug?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -226,7 +227,8 @@
           "art": "titel",
           "titel": "Zahlendreher im Amt: Wann greift § 129 AO?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -325,7 +327,7 @@
           "unter": "Internationales Steuerrecht",
           "text": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
           "norm": "§ 10 Abs. 1 AStG",
-          "icon": null,
+          "icon": "quittung",
           "sprecher": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren"
@@ -387,7 +389,7 @@
       ],
       "kurztitel": "Hinzurechnungsbetrag: Warum kein Teileinkünfteverfahren?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 10 Abs. 1 AStG",
         "§ 10 Abs. 2 S. 1 AStG",
@@ -419,7 +421,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "quittung"
     },
     "s4": {
       "slot": "s4",
@@ -427,9 +430,9 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-7",
+      "pairId": "ust-quiz-ust-15",
       "quellen": [
-        "Themenpool: ust-quiz-ust-7"
+        "Themenpool: ust-quiz-ust-15"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -439,9 +442,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Bauleistung: Wer schuldet die USt?",
-      "frage": "Bauleistung: Wer schuldet die USt?",
-      "liveVorrangAktiv": true
+      "titel": "Welche Aussage zu Wo ist eine sonstige Leistung an trifft zu?",
+      "frage": "Welche Aussage zu Wo ist eine sonstige Leistung an trifft zu?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "am Sitz des Leistenden",
+        "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
+        "immer im Inland"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -449,9 +458,9 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-7",
+      "pairId": "ust-quiz-ust-15",
       "quellen": [
-        "Themenpool: ust-quiz-ust-7"
+        "Themenpool: ust-quiz-ust-15"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -461,9 +470,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Richtig: der Leistungsempfänger, wenn er selbst nachhaltig Bauleistungen erbringt. Reverse-Charge: § 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG verlagert die Steuerschuld auf den bauleistenden Leistungsempfänger.",
-      "liveVorrangAktiv": true
+      "titel": "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
+      "text": "Richtig ist: am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG).",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "am Sitz des Leistenden",
+        "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
+        "immer im Inland"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -658,7 +673,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:37:48.923Z",
+    "erzeugtAm": "2026-09-26T02:21:31.031Z",
     "pfad": "vorproduktion/2026-10-18/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -673,7 +688,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
