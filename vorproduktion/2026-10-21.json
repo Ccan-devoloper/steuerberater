@@ -1,9 +1,9 @@
 {
   "datum": "2026-10-21",
   "status": "vorproduziert",
-  "freigabeBetreiber": false,
+  "freigabeBetreiber": true,
   "liveVerknuepft": false,
-  "vorproduktionStatus": "review",
+  "vorproduktionStatus": "live-freigegeben",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
@@ -207,11 +207,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "spickzettel",
@@ -302,11 +303,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -407,11 +409,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -425,13 +428,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Lösen § 8b-Korrekturen latente Steuern aus?"
+      "titel": "Lösen § 8b-Korrekturen latente Steuern aus?",
+      "frage": "Lösen § 8b-Korrekturen latente Steuern aus?",
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -445,14 +450,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Kern der Antwort",
-      "text": "Richtig: nein, permanente Differenz. Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus."
+      "text": "Richtig: nein, permanente Differenz. Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -476,15 +482,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
       "titel": "Eintritt und Ausscheiden eines Mitunternehmers",
-      "text": "Eintritt gegen Einlage von der Anteilsveräußerung unterscheiden das Bewertungswahlrecht des § 24 Abs. 2 UmwStG ausüben und begründen"
+      "text": "Eintritt gegen Einlage von der Anteilsveräußerung unterscheiden das Bewertungswahlrecht des § 24 Abs. 2 UmwStG ausüben und begründen",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -507,14 +514,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Maßgeblichkeit und Bilanzierungspflicht",
-      "text": "WER bilanziert? Kaufmann, Gesellschaft oder Steuerpflichtiger?"
+      "text": "WER bilanziert? Kaufmann, Gesellschaft oder Steuerpflichtiger?",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -532,14 +540,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "§ 17 UStG: Änderung der Bemessungsgrundlage, Uneinbringlichkeit und Rückgängigmachung",
-      "text": "§ 17 ist eine Nachlaufprüfung: erst ursprünglichen Umsatz lösen, dann die spätere Änderung."
+      "text": "§ 17 ist eine Nachlaufprüfung: erst ursprünglichen Umsatz lösen, dann die spätere Änderung.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -561,14 +570,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Reinvestitionsrücklage nach § 6b EStG",
-      "text": "Veräußerungsgewinn isoliert ermitteln."
+      "text": "Veräußerungsgewinn isoliert ermitteln.",
+      "liveVorrangAktiv": true
     },
     "s1": {
       "slot": "s1",
@@ -576,16 +586,25 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Sachwert statt Geld: Ist das Realteilung?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b1",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s2": {
       "slot": "s2",
@@ -593,16 +612,25 @@
       "fach": "erbst",
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer / Bewertung",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Hausrat geerbt: Welche Befreiung greift?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b2",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     },
     "s3": {
       "slot": "s3",
@@ -610,21 +638,30 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
+      "ueberzeile": "Neuer Beitrag",
       "titel": "Passive Einkünfte: Greift die Freigrenze?",
-      "text": "Der vollständige Beitrag ist jetzt im Feed.",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
       "pille": "Jetzt im Feed",
       "beitragSlot": "b3",
       "abgeleitet": true,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "faktencheckProviderKostenUsd": 0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-25T22:23:52.913Z",
+    "erzeugtAm": "2026-09-26T01:37:57.033Z",
     "pfad": "vorproduktion/2026-10-21/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -635,11 +672,17 @@
     "reelStimme": "piper-offline",
     "layoutQuelle": "herrjurist",
     "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": false,
-    "wartetLive": []
+    "freigabeBetreiber": true,
+    "wartetLive": [],
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "statischerLayoutBackfill": true
   },
   "liveRegel": {
-    "veroeffentlichen": false,
-    "freigabeErforderlich": true
-  }
+    "veroeffentlichen": true,
+    "freigabeErforderlich": false,
+    "freigabeQuelle": "Vorproduktionsdatei vorhanden"
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
