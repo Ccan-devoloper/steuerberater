@@ -1,0 +1,53 @@
+name: Examenscampus · Herrjurist-Spiegel 18-28
+
+on:
+  push:
+    branches:
+      - codex/examenscampus-herrjurist-final-18-28
+
+permissions:
+  contents: write
+
+concurrency:
+  group: examenscampus-herrjurist-final-18-28
+  cancel-in-progress: true
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    env:
+      GITHUB_TOKEN: ${{ github.token }}
+      IG_ASSET_DIR: .instagram-assets
+      IG_STIL: bunt
+      IG_FARBE_JE_KLAUSUR: "true"
+      IG_BILDER: "false"
+      IG_BILD_KI: "false"
+      IG_CHARAKTERE: "false"
+      IG_CHARAKTER_QA: "false"
+      OPENAI_API_KEY: ""
+      ANTHROPIC_API_KEY: ""
+      ELEVENLABS_API_KEY: ""
+      PEXELS_API_KEY: ""
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+      - name: Abhängigkeiten und Browser
+        working-directory: social
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+      - name: Restliche Dashboard-Medien nach Herrjurist spiegeln
+        working-directory: social
+        run: |
+          node bin/vorproduktion-herrjurist-spiegel-backfill.mjs \
+            2026-10-18 2026-10-19 2026-10-20 2026-10-21 2026-10-22 \
+            2026-10-23 2026-10-24 2026-10-25 2026-10-26 2026-10-27 \
+            2026-10-28
