@@ -1,0 +1,13 @@
+name = "performance-dashboard-api"
+main = "worker.mjs"
+compatibility_date = "2026-09-27"
+
+[vars]
+# GitHub Pages origin. Paths do not belong in an Origin value.
+ALLOWED_ORIGIN = "https://ccan-devoloper.github.io"
+
+# The GitHub App must be installed only on repositories that need dashboard writes.
+ALLOWED_REPOS = "Ccan-devoloper/herrjurist,Ccan-devoloper/steuerberater"
+
+# Hard stop: this Worker never writes to main.
+GITHUB_BRANCH = "instagram-assets"
