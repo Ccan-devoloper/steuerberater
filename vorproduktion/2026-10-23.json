@@ -55,13 +55,13 @@
         "slot": "s4",
         "zeit": "07:04",
         "art": "frage",
-        "themaId": "ust-karte-ust-2"
+        "themaId": "ust-quiz-ust-2"
       },
       {
         "slot": "s5",
         "zeit": "07:04",
         "art": "antwort",
-        "themaId": "ust-karte-ust-2"
+        "themaId": "ust-quiz-ust-2"
       },
       {
         "slot": "s6",
@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Eigene Anteile: Wo steht der Nennbetrag?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "hauptbuch"
         },
         {
           "art": "text",
@@ -218,7 +219,8 @@
           "art": "titel",
           "titel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
@@ -316,7 +318,7 @@
           "unter": "Körperschaftsteuer",
           "text": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
           "norm": "§ 8b Abs. 2 S. 1–3 KStG",
-          "icon": null,
+          "icon": "hauptbuch",
           "sprecher": "Anteil mit Verlust verkauft: Was korrigiert § 8b? Hier sind die zwei entscheidenden Prüfschritte.",
           "marken": [
             "Anteil mit Verlust verkauft: Was korrigiert § 8b"
@@ -378,7 +380,7 @@
       ],
       "kurztitel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 8b Abs. 2 S. 1–3 KStG",
         "§ 8b Abs. 3 S. 1, 3–7 KStG",
@@ -405,7 +407,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "hauptbuch"
     },
     "s4": {
       "slot": "s4",
@@ -413,9 +416,9 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-karte-ust-2",
+      "pairId": "ust-quiz-ust-2",
       "quellen": [
-        "Themenpool: ust-karte-ust-2"
+        "Themenpool: ust-quiz-ust-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -425,9 +428,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was gilt bei „Lieferung (§ 3 Abs. 1 UStG)“?",
-      "frage": "Was gilt bei „Lieferung (§ 3 Abs. 1 UStG)“?",
-      "liveVorrangAktiv": true
+      "titel": "3 UStG?",
+      "frage": "3 UStG?",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "10.000 €",
+        "12.500 €",
+        "17.500 €"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -435,9 +444,9 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-karte-ust-2",
+      "pairId": "ust-quiz-ust-2",
       "quellen": [
-        "Themenpool: ust-karte-ust-2"
+        "Themenpool: ust-quiz-ust-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -447,9 +456,15 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
-      "text": "Verschaffung der Verfügungsmacht an einem Gegenstand: Substanz, Wert und Ertrag gehen über.",
-      "liveVorrangAktiv": true
+      "titel": "12.500 €",
+      "text": "Richtig ist: 12.500 €.",
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "10.000 €",
+        "12.500 €",
+        "17.500 €"
+      ],
+      "richtig": 1
     },
     "s6": {
       "slot": "s6",
@@ -646,7 +661,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:38:03.039Z",
+    "erzeugtAm": "2026-09-26T02:21:55.955Z",
     "pfad": "vorproduktion/2026-10-23/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -661,7 +676,9 @@
     "wartetLive": [],
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
