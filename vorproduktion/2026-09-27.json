@@ -351,7 +351,13 @@
         "stand": "2026-09-25"
       },
       "frage": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "brutto vom Gesamtkaufpreis",
+        "netto von den Gebäude-AK",
+        "brutto von den Gebäude-AK"
+      ],
+      "richtig": 1
     },
     "s4": {
       "slot": "s4",
@@ -371,14 +377,20 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Kern der Antwort",
+      "titel": "netto von den Gebäude-AK",
       "text": "Die 15-%-Grenze wird netto auf die Anschaffungskosten des Gebäudes bezogen und über drei Jahre kumuliert (§ 6 Abs. 1 Nr. 1a EStG).",
       "qa": {
         "inhalt": "geprueft",
         "publikationsregeln": "geprueft",
         "stand": "2026-09-25"
       },
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "optionen": [
+        "brutto vom Gesamtkaufpreis",
+        "netto von den Gebäude-AK",
+        "brutto von den Gebäude-AK"
+      ],
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -591,7 +603,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-26T01:36:50.471Z",
+    "erzeugtAm": "2026-09-26T02:14:26.830Z",
     "pfad": "vorproduktion/2026-09-27/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
@@ -608,7 +620,9 @@
     "coverIcons": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true
+    "statischerLayoutBackfill": true,
+    "herrjuristSpiegelBackfill": true,
+    "quizPaareMitAuswahl": 1
   },
   "liveRegel": {
     "veroeffentlichen": true,
