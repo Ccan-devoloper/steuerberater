@@ -90,7 +90,8 @@
       "zeit": "15:23",
       "art": "zahl",
       "themaId": "ao-modul-ao-375",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-26T13:43:51.600Z"
     },
     {
       "slot": "s8",
