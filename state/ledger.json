@@ -5177,6 +5177,18 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-09-27",
+      "slot": "s2",
+      "medienId": "18089357759677441",
+      "veroeffentlicht": "2026-09-27T10:46:02.610Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln"
     }
   ],
   "fachZaehler": {
