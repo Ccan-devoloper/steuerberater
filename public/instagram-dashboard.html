@@ -1813,6 +1813,9 @@
   var lightbox={items:[],index:0};
   function openLightbox(items,index){
     if(!items||!items.length)return;
+    /* Wichtig bei Reels: Der Klick auf das eingebettete <video> kann sonst
+       dessen native Wiedergabe starten, während parallel die Lightbox läuft. */
+    document.querySelectorAll(".ig-media video").forEach(function(v){try{v.pause();}catch(e){}});
     lightbox.items=items;lightbox.index=Math.max(0,Math.min(index||0,items.length-1));
     $("#lightbox").hidden=false;renderLightbox();
   }
@@ -4084,6 +4087,12 @@
     }
     var reelVideo=e.target.closest("video[data-reel-preview]");
     if(reelVideo&&day){
+      e.preventDefault();
+      e.stopPropagation();
+      try{reelVideo.pause();}catch(err){}
+      /* Manche Browser führen die native Play/Pause-Aktion erst nach dem
+         Click-Handler aus. Deshalb einmal im nächsten Task erneut pausieren. */
+      setTimeout(function(){try{reelVideo.pause();}catch(err){}},0);
       var reelDate=reelVideo.dataset.date||date,reelSlot=reelVideo.dataset.slot;
       var reelContent=day.inhalte&&day.inhalte[reelSlot]||{};
       var reelLabel=reelContent.kurztitel||(reelContent.folien&&reelContent.folien[0]&&reelContent.folien[0].titel)||reelContent.themaTitel||"Reel";
