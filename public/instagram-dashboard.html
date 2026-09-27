@@ -788,7 +788,6 @@
       <span class="editor-status" id="editorStatus"></span>
       <div class="top-spacer"></div>
       <div class="cnv-title"><b id="editorLabel">Slide</b><span id="editorPath"></span></div>
-      <button class="cnv-topbtn" id="edTokenBtn" title="GitHub-Token verwalten"><svg class="cv-icon" viewBox="0 0 24 24"><circle cx="8" cy="14" r="4"/><path d="m11 11 8-8m-3 3 2.5 2.5M15 7l2 2"/></svg></button>
       <button class="cnv-topbtn frame" id="edDownload"><svg class="cv-icon" viewBox="0 0 24 24"><path d="M12 4v11m-4-4 4 4 4-4M5 20h14"/></svg>JPG</button>
       <button class="cnv-topbtn share" id="edSave">Speichern</button>
     </header>
@@ -835,22 +834,6 @@
       </div>
     </form>
   </div>
-  <div class="token-backdrop" id="tokenModal" hidden>
-    <form class="auth-card" id="tokenForm">
-      <div class="eyebrow">Slide-Editor · Schreibzugriff</div>
-      <h2 style="font-size:21px">GitHub-Token</h2>
-      <p style="font-size:12px">Fine-grained Personal Access Token für <b id="tokenRepoName">das aktive Konto</b> mit Berechtigung <b>Contents: Read &amp; Write</b>. Das Token bleibt ausschließlich in diesem Browser (localStorage) und wird nur an api.github.com gesendet.</p>
-      <div class="auth-row">
-        <input class="auth-input" id="tokenInput" type="password" autocomplete="off" placeholder="github_pat_…" aria-label="GitHub-Token" />
-        <button class="btn" type="submit">Speichern</button>
-      </div>
-      <div class="auth-error" id="tokenError" aria-live="polite"></div>
-      <div class="inline-actions" style="margin-top:8px">
-        <button class="btn" type="button" id="tokenCancel">Abbrechen</button>
-        <button class="btn" type="button" id="tokenRemove">Token löschen</button>
-      </div>
-    </form>
-  </div>
 
 <script>
 (function(){
@@ -893,9 +876,9 @@
   var nf=new Intl.NumberFormat("de-DE");
   var money=new Intl.NumberFormat("de-DE",{style:"currency",currency:"USD",minimumFractionDigits:2,maximumFractionDigits:2});
   var df=new Intl.DateTimeFormat("de-DE",{day:"2-digit",month:"2-digit",year:"2-digit"});
-  var AUTH_SALT="026cb97c56f2588e217a30690339d45f";
-  var AUTH_HASH="120474a24d239b287534250d73d838b64f59332815d773fd0dde404280c0b3b9";
-  var AUTH_KEY="igDashUnlockedUntil";
+  var DASHBOARD_API="https://performance-dashboard-api.examenscampus.workers.dev";
+  var SESSION_KEY="igDashSession";
+  var SESSION_EXP_KEY="igDashSessionExpiresAt";
 
   function esc(v){return String(v==null?"":v).replace(/[&<>"']/g,function(m){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m];});}
   function num(v){var n=Number(v);return Number.isFinite(n)?n:0;}
@@ -1013,15 +996,47 @@
     var buf=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(text));
     return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,"0");}).join("");
   }
+  function dashboardSession(){try{return localStorage.getItem(SESSION_KEY)||"";}catch(e){return "";}}
+  function dashboardSessionExpiry(){try{return Number(localStorage.getItem(SESSION_EXP_KEY)||0);}catch(e){return 0;}}
+  function clearDashboardSession(){
+    try{localStorage.removeItem(SESSION_KEY);localStorage.removeItem(SESSION_EXP_KEY);localStorage.removeItem("igDashGhToken");localStorage.removeItem("igDashUnlockedUntil");}catch(e){/* Browser-Speicher optional */}
+  }
+  async function dashboardApi(path,opt){
+    opt=opt||{};
+    var headers=Object.assign({},opt.headers||{});
+    var token=dashboardSession();if(token)headers.Authorization="Bearer "+token;
+    return fetch(DASHBOARD_API+path,Object.assign({},opt,{headers:headers,cache:"no-store"}));
+  }
+  async function dashboardApiError(r,fallback){
+    var msg="";try{msg=(await r.json()).error||"";}catch(e){/* Text ist optional */}
+    if(r.status===401){clearDashboardSession();return "Dashboard-Sitzung abgelaufen – bitte neu anmelden.";}
+    return msg||fallback||("Dashboard-API "+r.status);
+  }
   function unlockDashboard(){$("#authGate").hidden=true;$("#dashboardApp").hidden=false;loadAll();}
-  function lockDashboard(){localStorage.removeItem(AUTH_KEY);$("#dashboardApp").hidden=true;$("#authGate").hidden=false;$("#authPassword").value="";$("#authError").textContent="";$("#authPassword").focus();}
+  function lockDashboard(){clearDashboardSession();$("#dashboardApp").hidden=true;$("#authGate").hidden=false;$("#authPassword").value="";$("#authError").textContent="";$("#authPassword").focus();}
   $("#authForm").addEventListener("submit",async function(e){
-    e.preventDefault();var input=$("#authPassword"),hash=await sha256Hex(AUTH_SALT+input.value);
-    if(hash!==AUTH_HASH){$("#authError").textContent="Passwort nicht korrekt.";input.select();return;}
-    try{localStorage.setItem(AUTH_KEY,String(Date.now()+12*60*60*1000));}catch(err){/* Quota voll: Freigabe gilt für diese Sitzung */}
-    $("#authError").textContent="";unlockDashboard();
+    e.preventDefault();
+    var input=$("#authPassword"),button=$("#authForm button[type=submit]");
+    $("#authError").textContent="";if(button)button.disabled=true;
+    try{
+      var r=await dashboardApi("/session",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({password:input.value})});
+      if(!r.ok){$("#authError").textContent=await dashboardApiError(r,"Anmeldung fehlgeschlagen.");input.select();return;}
+      var j=await r.json();
+      try{localStorage.setItem(SESSION_KEY,j.token);localStorage.setItem(SESSION_EXP_KEY,String(j.expiresAt||0));localStorage.removeItem("igDashGhToken");localStorage.removeItem("igDashUnlockedUntil");}
+      catch(err){$("#authError").textContent="Sitzung konnte im Browser nicht gespeichert werden.";return;}
+      input.value="";unlockDashboard();
+    }catch(err){$("#authError").textContent="Dashboard-API nicht erreichbar.";}
+    finally{if(button)button.disabled=false;}
   });
   $("#lockBtn").addEventListener("click",lockDashboard);
+  async function restoreDashboardSession(){
+    if(!dashboardSession()||dashboardSessionExpiry()<=Date.now()){clearDashboardSession();$("#authPassword").focus();return;}
+    try{
+      var r=await dashboardApi("/session",{method:"GET"});
+      if(r.ok){unlockDashboard();return;}
+    }catch(e){/* unten wieder Anmeldung zeigen */}
+    clearDashboardSession();$("#authPassword").focus();
+  }
 
   async function fetchJson(url){
     var r=await fetch(url+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status+" "+r.statusText);return r.json();
@@ -1792,33 +1807,17 @@
   function stepLightbox(d){var n=lightbox.items.length;if(!n)return;lightbox.index=(lightbox.index+d+n)%n;renderLightbox();}
   function closeLightbox(){$("#lightbox").hidden=true;}
 
-  /* ================== GitHub-Zugriff für den Slide-Editor ==================
-     Commits laufen über die Contents-API direkt in den Zweig instagram-assets
-     des Bot-Repos. Das Token bleibt im localStorage dieses Browsers. */
-  var GH_TOKEN_KEY="igDashGhToken";
-  function ghToken(){return localStorage.getItem(GH_TOKEN_KEY)||"";}
+  /* ========== Serverseitiger GitHub-Zugriff für Review und Slide-Editor ==========
+     Das Dashboard besitzt keinen GitHub-Schlüssel mehr. Schreibzugriffe laufen
+     über den Dashboard-Worker; dort authentifiziert eine GitHub App mit
+     kurzlebigen Installation-Tokens. */
   function repoPathFor(rel){return "vorproduktion/"+rel;}
-  function ghContentsUrl(rel){
-    return "https://api.github.com/repos/"+preproductionAccount().repo+"/contents/"+repoPathFor(rel).split("/").map(encodeURIComponent).join("/");
-  }
-  function ghFetch(url,opt){
-    opt=opt||{};
-    opt.headers=Object.assign({Authorization:"Bearer "+ghToken(),Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"},opt.headers||{});
-    return fetch(url,opt);
-  }
-  async function ghSha(rel){
-    var r=await ghFetch(ghContentsUrl(rel)+"?ref=instagram-assets");
-    if(r.status===404)return null;
-    if(r.status===401||r.status===403)throw new Error("Token ungültig oder ohne Zugriff ("+r.status+")");
-    if(!r.ok)throw new Error("GitHub "+r.status);
-    var j=await r.json();return j.sha||null;
-  }
-  var tokenModalThen=null;
-  function openTokenModal(then){
-    tokenModalThen=then||null;
-    $("#tokenRepoName").textContent=preproductionAccount().repo;
-    $("#tokenModal").hidden=false;$("#tokenError").textContent="";
-    $("#tokenInput").value=ghToken();$("#tokenInput").focus();
+  async function dashboardReadFile(rel){
+    var r=await dashboardApi("/github/read",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({
+      repo:preproductionAccount().repo,path:repoPathFor(rel),ref:"instagram-assets"
+    })});
+    if(!r.ok)throw new Error(await dashboardApiError(r,"Datei nicht ladbar."));
+    return r.text();
   }
 
   /* ---------- Veröffentlichungszeiten direkt in der Review ändern --------
@@ -1861,19 +1860,15 @@
     var m=/^(\d{1,2}):(\d{2})$/.exec(neu);
     if(!m||Number(m[1])>23||Number(m[2])>59){$("#zeitError").textContent="Bitte eine Uhrzeit im Format HH:MM wählen.";return;}
     neu=String(Number(m[1])).padStart(2,"0")+":"+m[2];
-    if(!ghToken()){openTokenModal(function(){if(zeitEdit)zeitSpeichern();});return;}
     var ze=zeitEdit;
     $("#zeitSubmit").disabled=true;$("#zeitError").textContent="";
     try{
-      /* ghContentsUrl/ghCommitFiles zielen auf das aktive Konto - das muss
+      /* Worker/ghCommitFiles zielen auf das aktive Konto - das muss
          noch dasselbe sein wie beim Öffnen des Formulars. */
       if(preproductionAccountKey()!==ze.konto)throw new Error("Konto hat gewechselt – bitte erneut öffnen.");
       /* Frischer Stand direkt von der API (kein CDN-Cache): parallel
          committete Reparaturen der Tagesdatei bleiben so unberührt. */
-      var r=await ghFetch(ghContentsUrl(ze.date+".json")+"?ref=instagram-assets",{headers:{Accept:"application/vnd.github.raw"}});
-      if(r.status===401||r.status===403)throw new Error("Token ungültig oder ohne Zugriff ("+r.status+")");
-      if(!r.ok)throw new Error("Tagesdatei nicht ladbar (GitHub "+r.status+")");
-      var tag=JSON.parse(await r.text());
+      var tag=JSON.parse(await dashboardReadFile(ze.date+".json"));
       var liste=ze.art==="beitrag"?(tag.plan&&tag.plan.beitraege||[]):(tag.plan&&tag.plan.stories||[]);
       var item=null;
       for(var i=0;i<liste.length;i++)if(liste[i].slot===ze.slot)item=liste[i];
@@ -3271,44 +3266,17 @@
       a.click();
     }catch(err){edSetStatus((err&&err.message)||"Export fehlgeschlagen","err");}
   }
-  async function ghGitJson(url,opt){
-    var r=await ghFetch(url,opt);
-    if(r.status===401||r.status===403)throw new Error("Token ungültig oder ohne Schreibrecht ("+r.status+")");
-    if(!r.ok){
-      var msg="";try{msg=(await r.json()).message||"";}catch(e){/* egal */}
-      var err=new Error("GitHub "+r.status+(msg?" · "+msg:""));
-      err.status=r.status;throw err;
-    }
-    return r.json();
-  }
-  /* Mehrere Dateien in EINEM Commit auf instagram-assets schreiben
-     (Git-Data-API: Blobs → Tree → Commit → Ref). */
+  /* Mehrere Dateien in EINEM Commit auf instagram-assets schreiben.
+     Der Worker beschränkt Repo, Zweig und Pfade serverseitig. */
   async function ghCommitFiles(files,message){
-    var repo="https://api.github.com/repos/"+preproductionAccount().repo;
-    var blobs=await Promise.all(files.map(function(f){
-      return ghGitJson(repo+"/git/blobs",{method:"POST",body:JSON.stringify(f.b64!=null?{content:f.b64,encoding:"base64"}:{content:f.text,encoding:"utf-8"})});
-    }));
-    for(var attempt=1;attempt<=2;attempt++){
-      try{
-        var ref=await ghGitJson(repo+"/git/ref/heads/instagram-assets");
-        var baseSha=ref.object.sha;
-        var baseCommit=await ghGitJson(repo+"/git/commits/"+baseSha);
-        var tree=await ghGitJson(repo+"/git/trees",{method:"POST",body:JSON.stringify({
-          base_tree:baseCommit.tree.sha,
-          tree:files.map(function(f,i){return {path:f.path,mode:"100644",type:"blob",sha:blobs[i].sha};})
-        })});
-        var commit=await ghGitJson(repo+"/git/commits",{method:"POST",body:JSON.stringify({message:message,tree:tree.sha,parents:[baseSha]})});
-        await ghGitJson(repo+"/git/refs/heads/instagram-assets",{method:"PATCH",body:JSON.stringify({sha:commit.sha})});
-        return commit;
-      }catch(err){
-        /* 409/422: Zweig hat sich zwischenzeitlich bewegt → einmal neu aufsetzen */
-        if(attempt===2||(err.status!==409&&err.status!==422))throw err;
-      }
-    }
+    var r=await dashboardApi("/github/commit",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({
+      repo:preproductionAccount().repo,branch:"instagram-assets",files:files,message:message
+    })});
+    if(!r.ok)throw new Error(await dashboardApiError(r,"Speichern fehlgeschlagen."));
+    return r.json();
   }
   async function edSave(){
     if(!ed.img||ed.saving)return;
-    if(!ghToken()){openTokenModal(function(){edSave();});return;}
     /* Gespeichert werden alle Seiten mit ungesicherten Aenderungen in EINEM
        Commit; ist nichts geaendert, die aktive Seite (wie bisher). */
     var jobs=[],irgendwoDirty=edAnyDirty();
@@ -3752,8 +3720,7 @@
     /* 2) Falls für den Tag Rohbilder committet sind, ebenfalls anbieten */
     try{
       var date=ed.rel.split("/")[0];
-      var headers=ghToken()?{Authorization:"Bearer "+ghToken()}:{};
-      var r2=await fetch("https://api.github.com/repos/"+preproductionAccount().repo+"/contents/vorproduktion/"+encodeURIComponent(date)+"/rohbilder?ref=instagram-assets",{headers:headers});
+      var r2=await fetch("https://api.github.com/repos/"+preproductionAccount().repo+"/contents/vorproduktion/"+encodeURIComponent(date)+"/rohbilder?ref=instagram-assets");
       if(r2.ok){
         var list=await r2.json();
         (Array.isArray(list)?list:[]).filter(function(f){return /\.(png|jpe?g|webp)$/i.test(f.name);})
@@ -4201,7 +4168,6 @@
     if(e.target.dataset&&e.target.dataset.cropf){edCropField(e);return;}
     if(e.target.dataset&&e.target.dataset.prop)edPropChange(e,false);
   });
-  $("#edTokenBtn").addEventListener("click",function(){openTokenModal(null);});
   $("#edStage").addEventListener("pointerdown",edPointerDown);
   $("#edStageWrap").addEventListener("click",function(e){
     var pg=e.target.closest(".ed-page");
@@ -4331,25 +4297,10 @@
   $("#zeitForm").addEventListener("submit",function(e){e.preventDefault();zeitSpeichern();});
   $("#zeitCancel").addEventListener("click",closeZeitModal);
   $("#zeitModal").addEventListener("click",function(e){if(e.target.id==="zeitModal")closeZeitModal();});
-  $("#tokenForm").addEventListener("submit",function(e){
-    e.preventDefault();
-    var v=$("#tokenInput").value.trim();
-    if(!v){$("#tokenError").textContent="Bitte Token eingeben oder abbrechen.";return;}
-    try{localStorage.setItem(GH_TOKEN_KEY,v);}catch(err){$("#tokenError").textContent="Token konnte nicht gespeichert werden.";return;}
-    $("#tokenModal").hidden=true;
-    var then=tokenModalThen;tokenModalThen=null;
-    if(then)then();
-  });
-  $("#tokenCancel").addEventListener("click",function(){tokenModalThen=null;$("#tokenModal").hidden=true;});
-  $("#tokenRemove").addEventListener("click",function(){localStorage.removeItem(GH_TOKEN_KEY);$("#tokenInput").value="";$("#tokenError").textContent="Token entfernt.";});
   window.addEventListener("resize",function(){if(ed.open&&ed.img&&ed.fit){ed.scale=edFitScale();edRender();}});
   window.addEventListener("beforeunload",function(e){if(ed.open&&edAnyDirty()){e.preventDefault();e.returnValue="";}});
   $("#drawerBackdrop").addEventListener("click",closeDrawer);
   document.addEventListener("keydown",function(e){
-    if(!$("#tokenModal").hidden){
-      if(e.key==="Escape"){tokenModalThen=null;$("#tokenModal").hidden=true;}
-      return;
-    }
     if(!$("#zeitModal").hidden){
       if(e.key==="Escape")closeZeitModal();
       return;
@@ -4372,7 +4323,7 @@
   if(/^\d{4}-\d{2}-\d{2}$/.test(qs.get("review")||""))store.reviewDate=qs.get("review");
   if(["overview","content","preproduction","newsletter","learnings","stories","audience","system"].indexOf(qs.get("view"))>=0)store.view=qs.get("view");
   renderTabs();renderViews();
-  if(Number(localStorage.getItem(AUTH_KEY)||0)>Date.now())unlockDashboard();else $("#authPassword").focus();
+  restoreDashboardSession();
   setInterval(function(){if(!$("#dashboardApp").hidden)loadAll();},5*60*1000);
 })();
 </script>
