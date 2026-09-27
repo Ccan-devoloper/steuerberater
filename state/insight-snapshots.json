@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-27T19:43:42.518Z",
+  "stand": "2026-09-27T19:53:04.043Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -5609,6 +5609,31 @@
           "ig_reels_avg_watch_time": 9589,
           "ig_reels_video_view_total_time": 287672,
           "reels_skip_rate": 58.6
+        }
+      ]
+    },
+    "18095949575437816": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Permanente Differenz",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T18:44:07.165Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T19:53:04.043Z",
+          "alterStunden": 1.1,
+          "reach": 0,
+          "views": 8,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 0
         }
       ]
     }

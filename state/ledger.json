@@ -5442,7 +5442,20 @@
       "storyArt": "begriff",
       "thema": "bilanz-glossar-18",
       "fach": "bilanz",
-      "titel": "Permanente Differenz"
+      "titel": "Permanente Differenz",
+      "insights": {
+        "reach": 0,
+        "views": 8,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 0
+      },
+      "insightsStand": "2026-09-27T19:53:04.043Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
