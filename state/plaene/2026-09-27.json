@@ -81,8 +81,9 @@
       "zeit": "13:13",
       "art": "countdown",
       "tageBisExamen": 9,
-      "status": "sendet",
-      "sendeversuch": "2026-09-27T11:44:21.839Z"
+      "status": "veroeffentlicht",
+      "medienId": "18097534712558390",
+      "veroeffentlicht": "2026-09-27T11:44:33.126Z"
     },
     {
       "slot": "s7",
