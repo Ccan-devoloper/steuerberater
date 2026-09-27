@@ -68,6 +68,29 @@ const AUSGABE = path.resolve(hier, "../out", datum);
 
 function log(...t) { console.log(new Date().toISOString().slice(11, 19), ...t); }
 
+async function insightSnapshotsSichern(hosting, ig, ledger, ledgerPfad) {
+  /* Insights sind Wartungsarbeit des Stundenlaufs und duerfen nicht davon
+     abhaengen, ob Inhalte aus der Normalpipeline oder der Vorproduktion
+     veroeffentlicht werden. Sonst friert das Dashboard ein, sobald fuer einen
+     Tag Vorproduktion aktiv ist. */
+  try {
+    const snapshots = hosting.jsonLesen("insight-snapshots.json", { version: 1, stand: null, medien: {}, konto: [] });
+    const story = await storyInsightsAktualisieren(ig, ledger, { log, snapshots });
+    const medien = await medienSnapshotsAktualisieren(ig, ledger, snapshots, { log });
+    const konto = await kontoSnapshotAktualisieren(ig, snapshots, { log });
+    if (story.gemessen || medien.gemessen || konto.gemessen) {
+      hosting.jsonSchreiben("insight-snapshots.json", snapshots);
+      ledgerSpeichern(ledgerPfad, ledger);
+      hosting.commit(`Insight-Snapshots ${datum}`);
+      await hosting.push();
+    }
+    return { story, medien, konto };
+  } catch (e) {
+    console.error(`  ✗ Insight-Snapshots: ${e.message}`);
+    return null;
+  }
+}
+
 /* Schwarz/Weiß-Wechsel: Beiträge alternieren fortlaufend über alle Tage
    (Schachbrett im Profil), Stories alternieren innerhalb des Tages. */
 const tagIndex = Math.floor(new Date(`${datum}T12:00:00Z`).getTime() / 86400000);
@@ -196,7 +219,19 @@ async function main() {
      Am ersten Datum ohne Vorproduktion faellt der Lauf automatisch auf die
      bestehende Normalpipeline zurueck. */
   const vorproduktion = await vorproduktionLiveAusfuehren({ hosting, datum, trocken, alles, nurPlanen, log });
-  if (vorproduktion.aktiv) return;
+  if (vorproduktion.aktiv) {
+    /* Vorproduktion ersetzt nur die Inhaltserzeugung/-veroeffentlichung. Die
+       Messschleife muss trotzdem weiterlaufen, damit neue und bestehende Posts,
+       Reels, Stories und der Kontostand ihre Zeitreihe behalten. */
+    if (!trocken && !nurPlanen) {
+      const ledgerPfad = path.join(hosting.stateDir, "ledger.json");
+      const ledger = ledgerLaden(ledgerPfad);
+      const ig = new Instagram({ trockenlauf: false, tresorDatei: path.join(hosting.stateDir, "token.enc") });
+      ig.tresorLaden();
+      await insightSnapshotsSichern(hosting, ig, ledger, ledgerPfad);
+    }
+    return;
+  }
 
   motivArchivDir = path.join(hosting.stateDir, "motive");
   /* Bezahlte Entwürfe überleben den Lauf, in dem sie entstanden sind - siehe
@@ -652,23 +687,10 @@ async function main() {
     } catch (e) {
       console.error(`  ✗ Nachrichten: ${e.message}`);
     }
-    /* Dashboard-Snapshots: Stories, Feed/Reels und der Followerstand werden
-       im Stundenlauf als Zeitreihe gesichert. Der Ledger behaelt weiterhin
-       jeweils den neuesten Stand; insight-snapshots.json bewahrt den Verlauf. */
-    try {
-      const snapshots = hosting.jsonLesen("insight-snapshots.json", { version: 1, stand: null, medien: {}, konto: [] });
-      const story = await storyInsightsAktualisieren(ig, ledger, { log, snapshots });
-      const medien = await medienSnapshotsAktualisieren(ig, ledger, snapshots, { log });
-      const konto = await kontoSnapshotAktualisieren(ig, snapshots, { log });
-      if (story.gemessen || medien.gemessen || konto.gemessen) {
-        hosting.jsonSchreiben("insight-snapshots.json", snapshots);
-        ledgerSpeichern(ledgerPfad, ledger);
-        hosting.commit(`Insight-Snapshots ${datum}`);
-        await hosting.push();
-      }
-    } catch (e) {
-      console.error(`  ✗ Insight-Snapshots: ${e.message}`);
-    }
+    /* Dashboard-Snapshots: derselbe Wartungsschritt wie im
+       Vorproduktionspfad, damit beide Betriebsarten identische Messdaten
+       schreiben. */
+    await insightSnapshotsSichern(hosting, ig, ledger, ledgerPfad);
 
     /* Lernschleife: einmal am Tag beim ersten Lauf (Insights, Strategie, Follower). */
     const wochenStand = hosting.jsonLesen("lernschleife.json", { datum: null });
