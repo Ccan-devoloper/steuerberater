@@ -5155,10 +5155,32 @@
       "thema": "bilanz-modul-k3-29",
       "fach": "bilanz",
       "titel": "Rückstellungskatalog für die Klausur"
+    },
+    {
+      "datum": "2026-09-27",
+      "slot": "b2",
+      "medienId": "18139125913614182",
+      "veroeffentlicht": "2026-09-27T10:45:47.462Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "12:00",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "persg-modul-persg-4",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 6,
+    "persg": 7,
     "ust": 7,
     "kst": 7,
     "ao": 13,
