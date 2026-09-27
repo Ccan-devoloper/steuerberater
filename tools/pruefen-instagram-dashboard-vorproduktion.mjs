@@ -21,7 +21,7 @@ assert.match(html, /function preproductionBase\(\)\{[\s\S]*preproductionAccount\
   "Vorproduktionsassets müssen aus dem aktiven Konto geladen werden.");
 assert.match(html, /function dashboardReadFile\(rel\)\{[\s\S]*preproductionAccount\(\)\.repo/,
   "Frische Vorproduktionsdaten müssen über den Dashboard-Worker aus dem aktiven Konto gelesen werden.");
-assert.match(html, /function ghCommitFiles\(files,message\)\{[\s\S]*preproductionAccount\(\)\.repo[\s\S]*\/github\/commit/,
+assert.match(html, /function ghCommitFiles\(files,message\)\{[\s\S]*\/github\/commit[\s\S]*preproductionAccount\(\)\.repo/,
   "Editor-Commits müssen über den Dashboard-Worker ins aktive Konto geschrieben werden.");
 assert.match(html, /function preproductionDayContent\(date,slot\)\{[\s\S]*store\.data\[ed\.account\|\|store\.account\]/,
   "Der Editor muss Renderdaten des beim Öffnen aktiven Kontos verwenden.");
