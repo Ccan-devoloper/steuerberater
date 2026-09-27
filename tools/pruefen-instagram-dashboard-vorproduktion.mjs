@@ -19,14 +19,20 @@ assert.doesNotMatch(html, /ACCOUNTS\.herr\.repo/,
 
 assert.match(html, /function preproductionBase\(\)\{[\s\S]*preproductionAccount\(\)\.repo/,
   "Vorproduktionsassets müssen aus dem aktiven Konto geladen werden.");
-assert.match(html, /function ghContentsUrl\(rel\)\{[\s\S]*preproductionAccount\(\)\.repo/,
-  "Editor-Commits müssen ins aktive Konto geschrieben werden.");
+assert.match(html, /function dashboardReadFile\(rel\)\{[\s\S]*preproductionAccount\(\)\.repo/,
+  "Frische Vorproduktionsdaten müssen über den Dashboard-Worker aus dem aktiven Konto gelesen werden.");
+assert.match(html, /function ghCommitFiles\(files,message\)\{[\s\S]*preproductionAccount\(\)\.repo[\s\S]*\/github\/commit/,
+  "Editor-Commits müssen über den Dashboard-Worker ins aktive Konto geschrieben werden.");
 assert.match(html, /function preproductionDayContent\(date,slot\)\{[\s\S]*store\.data\[ed\.account\|\|store\.account\]/,
   "Der Editor muss Renderdaten des beim Öffnen aktiven Kontos verwenden.");
 assert.match(html, /function edDraftKey\(rel\)\{return "igDashDraft:"\+\(ed\.account\|\|store\.account\)\+":"\+rel;\}/,
   "Lokale Editorentwürfe müssen je Konto getrennt sein.");
-assert.match(html, /id="tokenRepoName"/,
-  "Der Token-Dialog muss das aktive Ziel-Repo ausweisen.");
+assert.match(html, /DASHBOARD_API="https:\/\/performance-dashboard-api\.examenscampus\.workers\.dev"/,
+  "Das Dashboard muss den serverseitigen Schreib-Worker verwenden.");
+assert.doesNotMatch(html, /github_pat_|igDashGhToken|id="tokenModal"|id="edTokenBtn"/,
+  "Persönliche GitHub-Tokens dürfen im Dashboard nicht mehr vorkommen.");
+assert.doesNotMatch(html, /AUTH_HASH|AUTH_SALT|igDashUnlockedUntil"\s*;/,
+  "Die Passwortprüfung darf nicht mehr clientseitig im ausgelieferten HTML liegen.");
 assert.match(html, /fontPath:"social\/fonts\/"/,
   "Examenscampus muss seine eigenen Renderer-Schriften verwenden.");
 
