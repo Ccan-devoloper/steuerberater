@@ -5160,7 +5160,7 @@
         "#wochenrückblick"
       ],
       "insights": {
-        "reach": 20,
+        "reach": 22,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5169,8 +5169,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-27T19:43:39.274Z",
-      "insightsAlterStunden": 14
+      "insightsStand": "2026-09-27T23:23:56.169Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-09-27",
@@ -5184,22 +5184,22 @@
       "fach": "bilanz",
       "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
       "insights": {
-        "reach": 17,
-        "views": 20,
+        "reach": 22,
+        "views": 25,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
+        "navigation": 21,
         "navigation_tap_exit": 1,
-        "navigation_tap_forward": 13,
-        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 16,
+        "navigation_swipe_forward": 3,
         "navigation_tap_back": 1
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 13
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-09-27",
@@ -5213,20 +5213,21 @@
       "fach": "bilanz",
       "titel": "netto von den Gebäude-AK",
       "insights": {
-        "reach": 18,
-        "views": 21,
+        "reach": 22,
+        "views": 28,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
+        "navigation": 23,
+        "navigation_tap_exit": 1,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 16
+        "navigation_tap_forward": 21
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 13
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 17.6
     },
     {
       "datum": "2026-09-27",
@@ -5240,22 +5241,22 @@
       "fach": "wochenrueckblick",
       "titel": "Wochenrückblick K1 · K2 · K3",
       "insights": {
-        "reach": 17,
-        "views": 24,
+        "reach": 21,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 20,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 12,
+        "navigation": 27,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 16,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 13
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 17.6
     },
     {
       "datum": "2026-09-27",
@@ -5269,21 +5270,22 @@
       "fach": "bilanz",
       "titel": "Rückstellungskatalog für die Klausur",
       "insights": {
-        "reach": 17,
-        "views": 21,
+        "reach": 20,
+        "views": 26,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 19,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 12,
-        "navigation_swipe_forward": 2
+        "navigation": 24,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 13.7
     },
     {
       "datum": "2026-09-27",
@@ -5307,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 26,
+        "reach": 28,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 41,
-        "ig_reels_avg_watch_time": 9589,
-        "ig_reels_video_view_total_time": 287672,
-        "reels_skip_rate": 58.6
+        "views": 43,
+        "ig_reels_avg_watch_time": 9528,
+        "ig_reels_video_view_total_time": 304902,
+        "reels_skip_rate": 58.1
       },
-      "insightsStand": "2026-09-27T19:43:39.274Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-09-27T23:23:56.169Z",
+      "insightsAlterStunden": 12.6
     },
     {
       "datum": "2026-09-27",
@@ -5333,21 +5335,22 @@
       "fach": "persg",
       "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
       "insights": {
-        "reach": 14,
-        "views": 16,
+        "reach": 18,
+        "views": 19,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
+        "navigation": 19,
+        "navigation_tap_back": 1,
         "navigation_swipe_forward": 1,
         "navigation_tap_exit": 5,
-        "navigation_tap_forward": 9
+        "navigation_tap_forward": 12
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 8
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 12.6
     },
     {
       "datum": "2026-09-27",
@@ -5361,21 +5364,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 11,
-        "views": 14,
+        "reach": 14,
+        "views": 16,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
+        "navigation": 15,
         "navigation_swipe_forward": 1,
         "navigation_tap_exit": 3,
-        "navigation_tap_forward": 9
+        "navigation_tap_forward": 11
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 7
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 11.7
     },
     {
       "datum": "2026-09-27",
@@ -5389,20 +5392,20 @@
       "fach": "bilanz",
       "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
       "insights": {
-        "reach": 12,
-        "views": 15,
+        "reach": 15,
+        "views": 17,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 8
+        "navigation": 16,
+        "navigation_tap_forward": 11,
+        "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 9.7
     },
     {
       "datum": "2026-09-27",
@@ -5416,21 +5419,21 @@
       "fach": "istr",
       "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
       "insights": {
-        "reach": 8,
-        "views": 13,
+        "reach": 11,
+        "views": 16,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 6,
-        "navigation_swipe_forward": 2
+        "navigation": 13,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-27T18:44:08.514Z",
-      "insightsAlterStunden": 2.9
+      "insightsStand": "2026-09-27T23:23:44.292Z",
+      "insightsAlterStunden": 7.6
     },
     {
       "datum": "2026-09-27",
