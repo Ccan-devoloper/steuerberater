@@ -5107,6 +5107,18 @@
         "#examensvorbereitung",
         "#wochenrückblick"
       ]
+    },
+    {
+      "datum": "2026-09-27",
+      "slot": "s3",
+      "medienId": "18481606864128687",
+      "veroeffentlicht": "2026-09-27T05:44:43.848Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-19",
+      "fach": "bilanz",
+      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?"
     }
   ],
   "fachZaehler": {
