@@ -5143,6 +5143,18 @@
       "thema": null,
       "fach": "wochenrueckblick",
       "titel": "Wochenrückblick K1 · K2 · K3"
+    },
+    {
+      "datum": "2026-09-27",
+      "slot": "s5",
+      "medienId": "18041093237831080",
+      "veroeffentlicht": "2026-09-27T09:44:08.372Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "bilanz-modul-k3-29",
+      "fach": "bilanz",
+      "titel": "Rückstellungskatalog für die Klausur"
     }
   ],
   "fachZaehler": {
