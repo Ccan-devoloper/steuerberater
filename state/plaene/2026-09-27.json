@@ -12,7 +12,8 @@
       "themaTitel": null,
       "fach": "wochenrueckblick",
       "klausur": 4,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-27T05:43:50.976Z"
     },
     {
       "slot": "b2",
