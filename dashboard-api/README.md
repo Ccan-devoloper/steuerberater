@@ -52,10 +52,10 @@ npx wrangler login
 npx wrangler deploy
 ```
 
-Danach die vier Secrets setzen:
+Die App-ID ist nicht geheim und bereits in `wrangler.toml` konfiguriert.
+Danach diese drei Secrets setzen:
 
 ```bash
-npx wrangler secret put GITHUB_APP_ID
 npx wrangler secret put GITHUB_APP_PRIVATE_KEY
 npx wrangler secret put DASHBOARD_PASSWORD
 npx wrangler secret put SESSION_SECRET
