@@ -211,6 +211,7 @@
     .preprod-text-preview{width:100%;height:100%;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:9%;background:linear-gradient(145deg,#102f38,#213d59);color:#fff;text-align:center}
     .preprod-text-preview strong{font-size:clamp(22px,3vw,38px);line-height:1.16}.preprod-text-preview span{font-size:12px;color:#cbdce4}
     .ig-media img,.ig-media video{width:100%;height:100%;display:block;object-fit:contain;background:#050505}
+    .ig-media video[data-reel-preview]{cursor:zoom-in}
     .ig-carousel-btn{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border:0;border-radius:50%;display:grid;place-items:center;background:rgba(20,20,20,.62);color:#fff;font-size:25px;line-height:1;z-index:3;backdrop-filter:blur(5px)}
     .ig-carousel-btn.prev{left:9px}.ig-carousel-btn.next{right:9px}
     .ig-carousel-count,.ig-reel-chip{position:absolute;top:10px;right:10px;z-index:3;border-radius:999px;padding:4px 7px;background:rgba(15,15,15,.68);color:#fff;font-size:10px;font-weight:800;backdrop-filter:blur(5px)}
@@ -261,11 +262,11 @@
        war im flex/grid-Kontext nicht zuverlässig und ließ Hochformat-Storys
        teilweise in Originalgröße über den unteren Bildschirmrand laufen. */
     .lightbox-stage{flex:1;display:grid;place-items:center;min-height:0;padding:48px 78px 16px;overflow:hidden}
-    .lightbox-stage img{
+    .lightbox-stage img,.lightbox-stage video{
       display:block;width:auto;height:auto;
       max-width:82vw;max-height:78vh;
       max-width:min(82vw,960px);max-height:min(78dvh,900px);
-      object-fit:contain;border-radius:8px;box-shadow:0 24px 80px rgba(0,0,0,.5)
+      object-fit:contain;border-radius:8px;background:#050505;box-shadow:0 24px 80px rgba(0,0,0,.5)
     }
     .lightbox-bar{flex:none;display:flex;align-items:center;justify-content:center;gap:12px;padding:0 16px 16px;color:#dfe4f2;font-size:12px;flex-wrap:wrap}
     .lightbox-nav{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border:0;border-radius:50%;background:rgba(255,255,255,.14);color:#fff;font-size:26px;display:grid;place-items:center}
@@ -500,7 +501,7 @@
     @media(max-width:860px){.topbar{flex-direction:column}.overview-main,.audience-grid,.rank-grid,.three,.profile-brief-grid,.help-grid{grid-template-columns:1fr}.rank-grid>:last-child,.three>:last-child{grid-column:auto}.story-step{grid-template-columns:90px 1fr}.story-nav{grid-column:2;text-align:left}.heatmap{grid-template-columns:80px repeat(4,minmax(58px,1fr));overflow:auto}.top-actions{justify-content:flex-start}}
     @media(max-width:590px){
       .lightbox-stage{padding:50px 46px 10px}
-      .lightbox-stage img{
+      .lightbox-stage img,.lightbox-stage video{
         max-width:92vw;max-height:74vh;
         max-width:min(92vw,680px);max-height:74dvh
       }
@@ -791,7 +792,7 @@
     <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Schließen">×</button>
     <button class="lightbox-nav prev" id="lightboxPrev" type="button" aria-label="Vorheriges Bild">‹</button>
     <button class="lightbox-nav next" id="lightboxNext" type="button" aria-label="Nächstes Bild">›</button>
-    <div class="lightbox-stage"><img id="lightboxImg" alt="" /></div>
+    <div class="lightbox-stage"><img id="lightboxImg" alt="" /><video id="lightboxVideo" controls playsinline preload="metadata" hidden></video></div>
     <div class="lightbox-bar"><span id="lightboxTitle"></span><button class="btn" id="lightboxEdit" type="button">✎ Bearbeiten</button></div>
   </div>
 
@@ -1497,7 +1498,7 @@
     }
     if(isReel){
       var coverRel=preproductionReelCoverRel(date,slot);
-      return '<div class="ig-media"><video controls playsinline preload="metadata" data-asset-poster="'+esc(coverRel)+'" poster="'+esc(preproductionAssetUrl(coverRel))+'"><source src="'+esc(preproductionAssetUrl(preproductionReelRel(date,slot)))+'" type="video/mp4"></video><span class="ig-reel-chip">REEL</span>'+
+      return '<div class="ig-media"><video controls playsinline preload="metadata" data-reel-preview="1" data-date="'+esc(date)+'" data-slot="'+esc(slot)+'" data-asset-poster="'+esc(coverRel)+'" poster="'+esc(preproductionAssetUrl(coverRel))+'"><source src="'+esc(preproductionAssetUrl(preproductionReelRel(date,slot)))+'" type="video/mp4"></video><span class="ig-reel-chip">REEL</span>'+
         '<button type="button" class="edit-fab" data-edit="direct" data-rel="'+esc(coverRel)+'" data-date="'+esc(date)+'" data-slot="'+esc(slot)+'" data-kind="cover" data-label="'+esc(date+" · "+slot+" · Reel-Cover")+'" title="Reel-Cover bearbeiten">✎</button></div>';
     }
     var count=Math.max(1,(content&&content.folien||[]).length);
@@ -1817,13 +1818,36 @@
   }
   function renderLightbox(){
     var it=lightbox.items[lightbox.index];if(!it)return;
-    $("#lightboxImg").src=preproductionAssetUrl(it.rel);
+    var img=$("#lightboxImg"),video=$("#lightboxVideo"),isVideo=it.media==="video";
+    if(isVideo){
+      img.hidden=true;img.removeAttribute("src");
+      video.hidden=false;
+      var src=preproductionAssetUrl(it.rel);
+      if(video.dataset.rel!==it.rel){
+        video.pause();
+        video.dataset.rel=it.rel;
+        video.src=src;
+        video.poster=it.posterRel?preproductionAssetUrl(it.posterRel):"";
+        video.load();
+      }
+    }else{
+      if(!video.hidden){video.pause();video.removeAttribute("src");video.removeAttribute("poster");video.dataset.rel="";video.load();}
+      video.hidden=true;
+      img.hidden=false;img.src=preproductionAssetUrl(it.rel);
+    }
     $("#lightboxTitle").textContent=it.label+(lightbox.items.length>1?" · "+(lightbox.index+1)+" / "+lightbox.items.length:"");
     $("#lightboxPrev").hidden=lightbox.items.length<2;
     $("#lightboxNext").hidden=lightbox.items.length<2;
+    $("#lightboxEdit").hidden=isVideo;
   }
-  function stepLightbox(d){var n=lightbox.items.length;if(!n)return;lightbox.index=(lightbox.index+d+n)%n;renderLightbox();}
-  function closeLightbox(){$("#lightbox").hidden=true;}
+  function stepLightbox(d){var n=lightbox.items.length;if(!n)return;var video=$("#lightboxVideo");if(video&&!video.hidden)video.pause();lightbox.index=(lightbox.index+d+n)%n;renderLightbox();}
+  function closeLightbox(){
+    var video=$("#lightboxVideo");
+    if(video){video.pause();video.removeAttribute("src");video.removeAttribute("poster");video.dataset.rel="";video.load();video.hidden=true;}
+    $("#lightboxImg").hidden=false;
+    $("#lightboxEdit").hidden=false;
+    $("#lightbox").hidden=true;
+  }
 
   /* ========== Serverseitiger GitHub-Zugriff für Review und Slide-Editor ==========
      Das Dashboard besitzt keinen GitHub-Schlüssel mehr. Schreibzugriffe laufen
@@ -4056,6 +4080,20 @@
     if(thumb){
       var post=thumb.closest(".ig-post"),tf=post&&post.querySelector("[data-carousel]");
       if(tf)setPreproductionSlide(tf,Number(thumb.dataset.slideTo||1));
+      return;
+    }
+    var reelVideo=e.target.closest("video[data-reel-preview]");
+    if(reelVideo&&day){
+      var reelDate=reelVideo.dataset.date||date,reelSlot=reelVideo.dataset.slot;
+      var reelContent=day.inhalte&&day.inhalte[reelSlot]||{};
+      var reelLabel=reelContent.kurztitel||(reelContent.folien&&reelContent.folien[0]&&reelContent.folien[0].titel)||reelContent.themaTitel||"Reel";
+      openLightbox([{
+        rel:preproductionReelRel(reelDate,reelSlot),
+        posterRel:preproductionReelCoverRel(reelDate,reelSlot),
+        media:"video",
+        label:reelDate+" · "+reelSlot+" · "+reelLabel,
+        ctx:{date:reelDate,slot:reelSlot,kind:"reel"}
+      }],0);
       return;
     }
     var storyMedia=e.target.closest(".story-media");
