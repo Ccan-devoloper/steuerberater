@@ -10,4 +10,4 @@ ALLOWED_ORIGIN = "https://ccan-devoloper.github.io"
 ALLOWED_REPOS = "Ccan-devoloper/herrjurist,Ccan-devoloper/steuerberater"
 
 # Hard stop: this Worker never writes to main.
-GITHUB_BRANCH = "instagram-assets"
+GITHUB_BRANCH = "instagram-assets"\n\n# Öffentliche Kennung der GitHub App (kein Secret).\nGITHUB_APP_ID = "5095304"
