@@ -1,0 +1,138 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr3-01",
+  "slug": "2026-09-28-b2",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
+      "unter": "Internationales Steuerrecht",
+      "text": "Zuerst nationalen Steuerzugriff feststellen, dann das DBA prüfen.",
+      "norm": "§ 1 Abs. 4, § 49 EStG",
+      "icon": "globus",
+      "sprecher": "Bei beschränkter Steuerpflicht stellst du zuerst den deutschen Steuerzugriff nach Paragraf 1 Absatz 4 und Paragraf 49 EStG fest. Erst danach prüfst du ein DBA.",
+      "marken": [
+        "Nationales Recht zuerst",
+        "DBA danach"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Persönliche Steuerpflicht prüfen",
+      "text": "Fehlen Wohnsitz und gewöhnlicher Aufenthalt im Inland, kommt § 1 Abs. 4 EStG in Betracht.",
+      "norm": "§ 1 Abs. 4 EStG",
+      "icon": null,
+      "sprecher": "Schritt 1: Prüfe die persönliche Steuerpflicht nach Paragraf 1 Absatz 4 EStG.",
+      "marken": [
+        "Persönliche Steuerpflicht"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Einkunftsart bestimmen",
+      "text": "Die Einkünfte nach den allgemeinen Vorschriften der §§ 13 bis 24 EStG einordnen.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 2: Bestimme die Einkunftsart nach den allgemeinen Vorschriften.",
+      "marken": [
+        "Einkunftsart bestimmen"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 3,
+      "titel": "Inlandsanknüpfung prüfen",
+      "text": "Den passenden Tatbestand des § 49 Abs. 1 EStG und sein Inlandsmerkmal feststellen.",
+      "norm": "§ 49 Abs. 1 EStG",
+      "icon": null,
+      "sprecher": "Schritt 3: Prüfe den passenden Tatbestand des Paragrafen 49 Absatz 1 EStG und sein Inlandsmerkmal.",
+      "marken": [
+        "§ 49 EStG prüfen"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 4,
+      "titel": "Erhebungsweg bestimmen",
+      "text": "Veranlagung, Steuerabzug und Sonderregeln des § 50 EStG getrennt zuordnen.",
+      "norm": "§ 50 EStG",
+      "icon": null,
+      "sprecher": "Schritt 4: Bestimme Veranlagung, Steuerabzug und die einschlägigen Sonderregeln.",
+      "marken": [
+        "Erhebungsweg bestimmen"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 5,
+      "titel": "DBA erst anschließend anwenden",
+      "text": "Anwendbarkeit, Ansässigkeit, Verteilungsnorm und die vorgesehene Begrenzung oder Vermeidung der Doppelbesteuerung prüfen.",
+      "norm": null,
+      "icon": null,
+      "sprecher": "Schritt 5: Prüfe erst anschließend Anwendbarkeit, Ansässigkeit und die einschlägige Verteilungsnorm des DBA.",
+      "marken": [
+        "DBA anschließend prüfen"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Merksatz",
+      "text": "Das nationale Recht begründet den deutschen Steuerzugriff; ein DBA kann ihn anschließend begrenzen, aber nicht erweitern.",
+      "sprecher": "Merke dir: Das nationale Recht begründet den deutschen Steuerzugriff. Ein DBA kann ihn begrenzen, aber nicht erweitern.",
+      "marken": [
+        "DBA begrenzt, erweitert nicht"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfungsreihenfolge festigen",
+      "text": "Steuerpflicht, Einkunftsart, Inlandsanknüpfung, Erhebungsweg und DBA in dieser Reihenfolge wiederholen.",
+      "sprecher": "Wiederhole die Reihenfolge einmal ohne Unterlagen: Steuerpflicht, Einkunftsart, Inlandsanknüpfung, Erhebungsweg, DBA.",
+      "marken": [
+        "Reihenfolge sichern"
+      ]
+    }
+  ],
+  "caption": "Bei beschränkter Steuerpflicht zuerst den deutschen Steuerzugriff nach § 1 Abs. 4 und § 49 EStG feststellen. Danach den Erhebungsweg bestimmen. Erst auf dieser Grundlage ein DBA prüfen: Es kann einen bestehenden deutschen Besteuerungsanspruch verteilen oder begrenzen, aber nicht erweitern.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "kurztitel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": false,
+  "quellen": [
+    "§ 1 Abs. 4 EStG",
+    "§ 49 EStG",
+    "§ 50 EStG",
+    "Art. 1, 2, 4 DBA",
+    "Art. 10/16 DBA",
+    "§ 50c EStG",
+    "Themenpool: istr-modul-istr-istr3-01"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "icon": "globus",
+  "liveVorrangAktiv": true
+}

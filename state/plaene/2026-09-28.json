@@ -1,0 +1,94 @@
+{
+  "datum": "2026-09-28",
+  "erzeugt": "2026-09-27T23:23:42.179Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "klausurtechnik",
+      "themaId": "ust-modul-ust-192",
+      "themaTitel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+      "fach": "ust",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:00",
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr3-01",
+      "themaTitel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
+      "fach": "istr",
+      "klausur": 2,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s3",
+      "zeit": "07:06",
+      "art": "frage",
+      "themaId": "bilanz-quiz-k3-17",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "07:06",
+      "art": "antwort",
+      "themaId": "bilanz-quiz-k3-17",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "11:29",
+      "art": "norm",
+      "themaId": "kst-modul-kst-14",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:00",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "13:31",
+      "art": "countdown",
+      "tageBisExamen": 8,
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "15:36",
+      "art": "merksatz",
+      "themaId": "persg-modul-persg-8",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:23",
+      "art": "begriff",
+      "themaId": "persg-karte-k3-19",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:35",
+      "art": "fehler",
+      "themaId": "ust-modul-ust-177",
+      "status": "geplant"
+    }
+  ]
+}

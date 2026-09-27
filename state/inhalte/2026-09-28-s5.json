@@ -1,0 +1,37 @@
+{
+  "slot": "s5",
+  "art": "norm",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "pairId": "kst-modul-kst-14",
+  "quellen": [
+    "R 8.5 Abs. 1 KStR",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "H 8.9 Nutzungsvorteile KStH",
+    "§ 8b Abs. 1 KStG",
+    "§ 8b Abs. 4 KStG",
+    "§ 8b Abs. 5 KStG",
+    "§ 8 Abs. 3 KStG",
+    "§ 8b KStG",
+    "§ 8b Abs. 4 S. 6 KStG",
+    "Themenpool: kst-modul-kst-14"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "R 8.5 Abs. 1 KStR",
+  "titel": "Gesellschafterdarlehen und Zinsvorteile",
+  "text": "Zinsvorteil und begünstigte Ebene bestimmen; eine verhinderte Vermögensmehrung kann auf Ebene der Körperschaft als verdeckte Gewinnausschüttung zu würdigen sein.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

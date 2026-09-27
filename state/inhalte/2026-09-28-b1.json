@@ -1,0 +1,123 @@
+{
+  "format": "klausurtechnik",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-modul-ust-192",
+  "slug": "2026-09-28-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+      "coverBadge": null,
+      "coverBildAuslassen": false,
+      "titelZeilen": [
+        "Innergemeinschaftlicher",
+        "Erwerb",
+        "Erwerbsteuer",
+        "Vorsteuer"
+      ],
+      "icon": "lkw"
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Tatbestand des innergemeinschaftlichen Erwerbs nach § 1a UStG vollständig prüfen.",
+        "Erwerbsort nach § 3d S. 1 UStG bestimmen und einen möglichen Sicherungstatbestand des Satzes 2 gesondert beachten.",
+        "Bemessungsgrundlage, Steuersatz, Steuerentstehung und Steuerschuld nacheinander prüfen.",
+        "Vorsteuer aus der Erwerbsteuer nach § 15 Abs. 1 S. 1 Nr. 3 UStG als eigenen Schritt behandeln."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Warenbewegung zwischen Mitgliedstaaten sowie Erwerber- und Liefererstatus nach § 1a UStG prüfen."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Ort des Erwerbs grundsätzlich am Ende der Beförderung oder Versendung nach § 3d S. 1 UStG bestimmen."
+        },
+        {
+          "titel": "3. Schritt",
+          "text": "Bei Verwendung einer USt-IdNr. eines anderen Mitgliedstaats den zusätzlichen Tatbestand des § 3d S. 2 UStG prüfen."
+        },
+        {
+          "titel": "4. Schritt",
+          "text": "Bemessungsgrundlage und Steuersatz für den steuerpflichtigen Erwerb bestimmen."
+        },
+        {
+          "titel": "5. Schritt",
+          "text": "Steuerentstehung, Steuerschuld und anschließend den möglichen Vorsteuerabzug getrennt ausweisen."
+        }
+      ]
+    },
+    {
+      "art": "text",
+      "titel": "Typischer Fehler",
+      "punkte": [
+        "Den Erwerbsort pauschal nach dem Sitz des Erwerbers bestimmen.",
+        "Erwerbsteuer und Vorsteuer saldieren, ohne beide Tatbestände getrennt zu prüfen."
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Lieferung und innergemeinschaftlicher Erwerb sind zwei getrennte Umsatzsteuertatbestände; beim Erwerber sind Erwerbsteuer und Vorsteuer jeweils eigenständig zu prüfen."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Beim innergemeinschaftlichen Erwerb zuerst den Tatbestand des § 1a UStG prüfen, danach den Erwerbsort nach § 3d UStG. Anschließend folgen Bemessungsgrundlage, Steuerentstehung und Steuerschuld. Den möglichen Vorsteuerabzug aus der Erwerbsteuer als eigenen Prüfungspunkt ausweisen.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "kurztitel": "Innergemeinschaftlicher Erwerb: § 1a und § 3d",
+  "coverBadge": null,
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 1a Abs. 1 UStG",
+    "§ 3d S. 1, 2 UStG",
+    "§ 1 Abs. 1 Nr. 5 UStG",
+    "§ 10 Abs. 1 UStG",
+    "§ 12 UStG",
+    "§ 13 Abs. 1 Nr. 6 UStG",
+    "§ 13a Abs. 1 Nr. 2 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 3 UStG",
+    "§ 15 Abs. 2, 3 UStG",
+    "§ 1a UStG",
+    "Themenpool: ust-modul-ust-192"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "kostenPolicy": {},
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

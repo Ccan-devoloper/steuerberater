@@ -1,0 +1,32 @@
+{
+  "slot": "s7",
+  "art": "merksatz",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-modul-persg-8",
+  "quellen": [
+    "R 4.2 EStR",
+    "H 4.2 EStH",
+    "§ 39 Abs. 2 Nr. 2 S. 1 AO",
+    "§ 15 EStG",
+    "§ 39 Abs. 2 Nr. 2 AO",
+    "Themenpool: persg-modul-persg-8"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Merksatz",
+  "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen",
+  "text": "Bei einer Bilanzierungskonkurrenz ist zuerst zu klären, welchem betrieblichen Bereich das Wirtschaftsgut steuerlich zuzuordnen ist; notwendiges Sonderbetriebsvermögen kann eine andere Zuordnung verdrängen.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

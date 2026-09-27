@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "begriff",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-karte-k3-19",
+  "quellen": [
+    "Themenpool: persg-karte-k3-19"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Begriff des Tages",
+  "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?",
+  "text": "Zur steuerlichen Gesamtbilanz der Mitunternehmerschaft gehören Gesamthandsbilanz, Ergänzungsbilanzen und Sonderbilanzen. Erst ihre Zusammenführung ergibt den steuerlichen Gesamtgewinn.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}

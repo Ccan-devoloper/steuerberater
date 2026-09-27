@@ -1,0 +1,38 @@
+{
+  "slot": "s9",
+  "art": "fehler",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "pairId": "ust-modul-ust-177",
+  "quellen": [
+    "§ 13b Abs. 1 UStG",
+    "§ 13b Abs. 2 Nr. 1 UStG",
+    "§ 13b Abs. 2 Nr. 3 UStG",
+    "§ 13b Abs. 2 Nr. 4 UStG",
+    "§ 13b Abs. 2 Nr. 7 UStG",
+    "§ 13b Abs. 2 Nr. 10 UStG",
+    "§ 13b Abs. 2 Nr. 11 UStG",
+    "§ 13b Abs. 5 UStG",
+    "Anlage 3 UStG",
+    "Anlage 4 UStG",
+    "Themenpool: ust-modul-ust-177"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": true,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Typischer Fehler",
+  "titel": "Reverse Charge nach § 13b: Tatbestände, Steuerschuldner und Steuerentstehung",
+  "falsch": "Bei § 13b direkt mit dem Steuerschuldner beginnen und Leistungsort/Steuerbarkeit überspringen.",
+  "richtigText": "Zuerst Leistungsort und Steuerbarkeit prüfen; erst danach den einschlägigen §-13b-Tatbestand und den Steuerschuldner bestimmen.",
+  "qa": {
+    "inhalt": "geprueft",
+    "publikationsregeln": "geprueft",
+    "stand": "2026-09-25"
+  },
+  "liveVorrangAktiv": true
+}
