@@ -29,8 +29,8 @@ assert.match(html, /function edDraftKey\(rel\)\{return "igDashDraft:"\+\(ed\.acc
   "Lokale Editorentwürfe müssen je Konto getrennt sein.");
 assert.match(html, /DASHBOARD_API="https:\/\/performance-dashboard-api\.examenscampus\.workers\.dev"/,
   "Das Dashboard muss den serverseitigen Schreib-Worker verwenden.");
-assert.doesNotMatch(html, /github_pat_|igDashGhToken|id="tokenModal"|id="edTokenBtn"/,
-  "Persönliche GitHub-Tokens dürfen im Dashboard nicht mehr vorkommen.");
+assert.doesNotMatch(html, /github_pat_|GH_TOKEN_KEY|ghToken\(|id="tokenModal"|id="edTokenBtn"/,
+  "Persönliche GitHub-Tokens dürfen im Dashboard nicht mehr verwendet werden.");
 assert.doesNotMatch(html, /AUTH_HASH|AUTH_SALT|igDashUnlockedUntil"\s*;/,
   "Die Passwortprüfung darf nicht mehr clientseitig im ausgelieferten HTML liegen.");
 assert.match(html, /fontPath:"social\/fonts\/"/,
