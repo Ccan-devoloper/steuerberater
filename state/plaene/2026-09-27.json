@@ -25,7 +25,8 @@
       "fach": "persg",
       "klausur": 3,
       "lang": true,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-27T10:44:33.057Z"
     }
   ],
   "stories": [
