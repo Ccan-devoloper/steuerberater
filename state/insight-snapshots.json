@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-24T20:44:14.612Z",
+  "stand": "2026-09-27T18:44:21.369Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -2199,6 +2199,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 151.6,
+          "reach": 35,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -2749,6 +2761,20 @@
           "ig_reels_avg_watch_time": 7688,
           "ig_reels_video_view_total_time": 468969,
           "reels_skip_rate": 77.8
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 143.9,
+          "reach": 60,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 86,
+          "ig_reels_avg_watch_time": 9020,
+          "ig_reels_video_view_total_time": 622437,
+          "reels_skip_rate": 72.6
         }
       ]
     },
@@ -3118,6 +3144,18 @@
           "likes": 1,
           "comments": 0,
           "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 129,
+          "reach": 31,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
         }
@@ -3893,6 +3931,20 @@
           "ig_reels_avg_watch_time": 14614,
           "ig_reels_video_view_total_time": 716100,
           "reels_skip_rate": 59.5
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 119.5,
+          "reach": 46,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 69,
+          "ig_reels_avg_watch_time": 13946,
+          "ig_reels_video_view_total_time": 794924,
+          "reels_skip_rate": 61.2
         }
       ]
     },
@@ -4110,6 +4162,18 @@
           "likes": 1,
           "comments": 0,
           "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 105,
+          "reach": 30,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
           "follows": 0,
           "profile_visits": 1
         }
@@ -4675,6 +4739,20 @@
           "ig_reels_avg_watch_time": 8735,
           "ig_reels_video_view_total_time": 794964,
           "reels_skip_rate": 79.1
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 95.4,
+          "reach": 85,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 122,
+          "ig_reels_avg_watch_time": 9006,
+          "ig_reels_video_view_total_time": 936714,
+          "reels_skip_rate": 77.7
         }
       ]
     },
@@ -4899,6 +4977,18 @@
           "likes": 0,
           "comments": 0,
           "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 84,
+          "reach": 33,
+          "saved": 4,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 4,
           "follows": 0,
           "profile_visits": 1
         }
@@ -5145,6 +5235,254 @@
           "navigation_tap_exit": 4,
           "navigation_swipe_forward": 1,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18481606864128687": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T05:44:43.848Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 13,
+          "reach": 17,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 13,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18020012024875831": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "netto von den Gebäude-AK",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T05:45:02.885Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 13,
+          "reach": 18,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 16
+        }
+      ]
+    },
+    "18104792480243398": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Wochenrückblick K1 · K2 · K3",
+      "format": null,
+      "fach": "wochenrueckblick",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T05:45:16.053Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 13,
+          "reach": 17,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 12,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18041093237831080": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Rückstellungskatalog für die Klausur",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T09:44:08.372Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 9,
+          "reach": 17,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 12,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18089357759677441": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T10:46:02.610Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 8,
+          "reach": 14,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 9
+        }
+      ]
+    },
+    "18097534712558390": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Tage bis zum Examen",
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T11:44:33.126Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 7,
+          "reach": 11,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 9
+        }
+      ]
+    },
+    "17959978577998997": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T13:44:02.855Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 5,
+          "reach": 12,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "17908075656477347": {
+      "art": "story",
+      "datum": "2026-09-27",
+      "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-27T15:48:40.740Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:08.514Z",
+          "alterStunden": 2.9,
+          "reach": 8,
+          "views": 13,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 6,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18078653189376669": {
+      "art": "beitrag",
+      "datum": "2026-09-25",
+      "titel": "Vorsteuerabzug und § 14c: gesetzlich geschuldete Steuer statt bloß ausgewiesener Steuer",
+      "format": "klausurtechnik",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-25T06:45:19.139Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-27T18:44:17.334Z",
+          "alterStunden": 60,
+          "reach": 27,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -5459,6 +5797,11 @@
       "stand": "2026-09-24T20:44:14.612Z",
       "follower": 74,
       "medien": 60
+    },
+    {
+      "stand": "2026-09-27T18:44:21.369Z",
+      "follower": 75,
+      "medien": 66
     }
   ]
 }

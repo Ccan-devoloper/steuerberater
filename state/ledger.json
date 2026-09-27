@@ -3711,7 +3711,7 @@
       "veroeffentlicht": "2026-09-21T11:06:08.864Z",
       "karteUrl": null,
       "insights": {
-        "reach": 28,
+        "reach": 35,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -3720,8 +3720,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-24T05:43:59.135Z",
-      "insightsAlterStunden": 66.6
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 151.6
     },
     {
       "datum": "2026-09-21",
@@ -3922,19 +3922,19 @@
       "dauer": 63.1,
       "veroeffentlicht": "2026-09-21T18:49:04.109Z",
       "insights": {
-        "reach": 54,
+        "reach": 60,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 76,
-        "ig_reels_avg_watch_time": 7688,
-        "ig_reels_video_view_total_time": 468969,
-        "reels_skip_rate": 77.8
+        "views": 86,
+        "ig_reels_avg_watch_time": 9020,
+        "ig_reels_video_view_total_time": 622437,
+        "reels_skip_rate": 72.6
       },
-      "insightsStand": "2026-09-24T13:43:48.682Z",
-      "insightsAlterStunden": 66.9
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 143.9
     },
     {
       "datum": "2026-09-21",
@@ -4052,17 +4052,17 @@
       "veroeffentlicht": "2026-09-22T09:45:51.201Z",
       "karteUrl": null,
       "insights": {
-        "reach": 28,
-        "saved": 0,
+        "reach": 31,
+        "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-24T13:43:48.682Z",
-      "insightsAlterStunden": 52
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 129
     },
     {
       "datum": "2026-09-22",
@@ -4264,19 +4264,19 @@
       "dauer": 72.1,
       "veroeffentlicht": "2026-09-22T19:11:22.569Z",
       "insights": {
-        "reach": 41,
+        "reach": 46,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 61,
-        "ig_reels_avg_watch_time": 14614,
-        "ig_reels_video_view_total_time": 716100,
-        "reels_skip_rate": 59.5
+        "views": 69,
+        "ig_reels_avg_watch_time": 13946,
+        "ig_reels_video_view_total_time": 794924,
+        "reels_skip_rate": 61.2
       },
-      "insightsStand": "2026-09-24T13:43:48.682Z",
-      "insightsAlterStunden": 42.5
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 119.5
     },
     {
       "datum": "2026-09-22",
@@ -4395,17 +4395,17 @@
       "veroeffentlicht": "2026-09-23T09:45:29.448Z",
       "karteUrl": null,
       "insights": {
-        "reach": 23,
-        "saved": 0,
+        "reach": 30,
+        "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-24T16:44:09.835Z",
-      "insightsAlterStunden": 31
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 105
     },
     {
       "datum": "2026-09-23",
@@ -4551,19 +4551,19 @@
       "dauer": 88.3,
       "veroeffentlicht": "2026-09-23T19:18:53.016Z",
       "insights": {
-        "reach": 80,
+        "reach": 85,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 108,
-        "ig_reels_avg_watch_time": 8735,
-        "ig_reels_video_view_total_time": 794964,
-        "reels_skip_rate": 79.1
+        "views": 122,
+        "ig_reels_avg_watch_time": 9006,
+        "ig_reels_video_view_total_time": 936714,
+        "reels_skip_rate": 77.7
       },
-      "insightsStand": "2026-09-24T16:44:09.835Z",
-      "insightsAlterStunden": 21.4
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 95.4
     },
     {
       "datum": "2026-09-23",
@@ -4681,17 +4681,17 @@
       "veroeffentlicht": "2026-09-24T06:46:38.255Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg",
       "insights": {
-        "reach": 22,
-        "saved": 2,
+        "reach": 33,
+        "saved": 4,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-24T18:43:44.666Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 84
     },
     {
       "datum": "2026-09-24",
@@ -4875,7 +4875,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-27T18:44:17.334Z",
+      "insightsAlterStunden": 60
     },
     {
       "datum": "2026-09-25",
@@ -5118,7 +5130,24 @@
       "storyArt": "frage",
       "thema": "bilanz-quiz-k3-19",
       "fach": "bilanz",
-      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?"
+      "titel": "Wie hoch ist die 15-%-Grenze des anschaffungsnahen Aufwands zu berechnen?",
+      "insights": {
+        "reach": 17,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 13
     },
     {
       "datum": "2026-09-27",
@@ -5130,7 +5159,22 @@
       "storyArt": "antwort",
       "thema": "bilanz-quiz-k3-19",
       "fach": "bilanz",
-      "titel": "netto von den Gebäude-AK"
+      "titel": "netto von den Gebäude-AK",
+      "insights": {
+        "reach": 18,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 16
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 13
     },
     {
       "datum": "2026-09-27",
@@ -5142,7 +5186,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "wochenrueckblick",
-      "titel": "Wochenrückblick K1 · K2 · K3"
+      "titel": "Wochenrückblick K1 · K2 · K3",
+      "insights": {
+        "reach": 17,
+        "views": 24,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 20,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 12,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 13
     },
     {
       "datum": "2026-09-27",
@@ -5154,7 +5215,23 @@
       "storyArt": "norm",
       "thema": "bilanz-modul-k3-29",
       "fach": "bilanz",
-      "titel": "Rückstellungskatalog für die Klausur"
+      "titel": "Rückstellungskatalog für die Klausur",
+      "insights": {
+        "reach": 17,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 12,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 9
     },
     {
       "datum": "2026-09-27",
@@ -5188,7 +5265,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "persg",
-      "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln"
+      "titel": "Mitunternehmerschaft: Gewinn in zwei Ebenen ermitteln",
+      "insights": {
+        "reach": 14,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-09-27",
@@ -5200,7 +5293,23 @@
       "storyArt": "countdown",
       "thema": null,
       "fach": null,
-      "titel": "Tage bis zum Examen"
+      "titel": "Tage bis zum Examen",
+      "insights": {
+        "reach": 11,
+        "views": 14,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 7
     },
     {
       "datum": "2026-09-27",
@@ -5212,7 +5321,22 @@
       "storyArt": "formel",
       "thema": "bilanz-formel-bewg-vervielfaeltiger",
       "fach": "bilanz",
-      "titel": "Vervielfältiger nach § 12 Abs. 3 BewG"
+      "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
+      "insights": {
+        "reach": 12,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 8
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-27",
@@ -5224,7 +5348,23 @@
       "storyArt": "merksatz",
       "thema": "istr-modul-istr-istr3-09",
       "fach": "istr",
-      "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG"
+      "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
+      "insights": {
+        "reach": 8,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 6,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-09-27T18:44:08.514Z",
+      "insightsAlterStunden": 2.9
     },
     {
       "datum": "2026-09-27",
