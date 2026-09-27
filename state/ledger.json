@@ -5131,6 +5131,18 @@
       "thema": "bilanz-quiz-k3-19",
       "fach": "bilanz",
       "titel": "netto von den Gebäude-AK"
+    },
+    {
+      "datum": "2026-09-27",
+      "slot": "s1",
+      "medienId": "18104792480243398",
+      "veroeffentlicht": "2026-09-27T05:45:16.053Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "wochenrueckblick",
+      "titel": "Wochenrückblick K1 · K2 · K3"
     }
   ],
   "fachZaehler": {
