@@ -5201,6 +5201,18 @@
       "thema": null,
       "fach": null,
       "titel": "Tage bis zum Examen"
+    },
+    {
+      "datum": "2026-09-27",
+      "slot": "s7",
+      "medienId": "17959978577998997",
+      "veroeffentlicht": "2026-09-27T13:44:02.855Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "formel",
+      "thema": "bilanz-formel-bewg-vervielfaeltiger",
+      "fach": "bilanz",
+      "titel": "Vervielfältiger nach § 12 Abs. 3 BewG"
     }
   ],
   "fachZaehler": {
