@@ -224,6 +224,9 @@
     .ig-caption b{font-weight:820;margin-right:5px}
     .ig-caption .hashtags{color:color-mix(in srgb,var(--accent2) 75%,var(--text))}
     .ig-meta{padding:0 12px 12px;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.055em}
+    .preprod-info{margin:0 12px 12px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);font-size:11px;line-height:1.5}
+    .preprod-info summary{cursor:pointer;font-weight:700;color:var(--accent)}
+    .preprod-info-body{white-space:pre-wrap;overflow-wrap:anywhere;margin-top:10px;color:var(--muted);max-height:38rem;overflow:auto}
     .ig-review-note{margin-top:10px;color:var(--muted);font-size:10px;text-align:center}
     .preprod-summary{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
     .preprod-chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line);border-radius:999px;padding:4px 9px;font-size:10px;color:var(--muted);background:var(--panel2)}
@@ -1477,6 +1480,7 @@
     var slot=planItem.slot,content=day&&day.inhalte&&day.inhalte[slot]||{},caption=content.caption||"",hashtags=(content.hashtags||[]).join(" "),a=ACCOUNTS[store.account]||{};
     var title=content.kurztitel||(content.folien&&content.folien[0]&&content.folien[0].titel)||(content.szenen&&content.szenen[0]&&content.szenen[0].titel)||planItem.themaTitel||slot;
     var type=(content.format==="reel"||Array.isArray(content.szenen))?"Reel":"Carousel";
+    var productionInfo=type==="Reel"&&content.infoVorproduktion?'<details class="preprod-info"><summary>Infos zur Vorproduktion</summary><div class="preprod-info-body">'+esc(content.infoVorproduktion)+'</div></details>':"";
     var slides=content.folien||[],thumbs="";
     if(type==="Carousel"&&slides.length>1&&preproductionCanPreviewMedia(day)){
       thumbs='<div class="slide-thumbs">'+slides.map(function(_,i){
@@ -1490,6 +1494,7 @@
       thumbs+
       '<div class="ig-actions" aria-hidden="true"><span>♡</span><span>○</span><span>⌁</span><span class="save">♧</span></div>'+
       '<div class="ig-caption"><b>'+esc(a.igUser||a.sub||a.name||"Instagram")+'</b>'+esc(caption)+(hashtags?'\n<span class="hashtags">'+esc(hashtags)+'</span>':"")+'</div>'+
+      productionInfo+
       '<div class="ig-meta">'+esc(type)+' · geplant '+esc(preproductionDayLabel(date))+' '+esc(planItem.zeit||"")+' · '+esc(title)+'</div>'+
       '</article>';
   }
