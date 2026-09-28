@@ -1,0 +1,632 @@
+[
+  {
+    "quelle": "bil-melzer-12-05",
+    "titel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+    "einordnung": [
+      "Gewährleistungspflichten aus bereits erbrachten Leistungen sind ungewisse Verbindlichkeiten und in Handels- und Steuerbilanz zu passivieren. In der Klausur werden vor allem Pauschalierung, Bewertung als Sachleistung und Abzinsung abgefragt."
+    ],
+    "lernziele": [
+      "Garantie- und Gewährleistungspflichten führen nach § 249 Abs. 1 Satz 1 HGB zu einer Rückstellung für ungewisse Verbindlichkeiten, die über § 5 Abs. 1 Satz 1 EStG auch steuerlich anzusetzen ist.",
+      "Nach R 5.7 Abs. 5 EStR sind Einzelrückstellungen für bis zur Bilanzaufstellung bekannte Fälle und Pauschalrückstellungen auf Grundlage betrieblicher oder branchentypischer Erfahrungswerte möglich.",
+      "Steuerlich ist die Pflicht als Sachleistung mit Einzelkosten und angemessenen notwendigen Gemeinkosten zu bewerten, ohne künftige Preis- und Kostensteigerungen.",
+      "Einzelrückstellungen mit mindestens zwölf Monaten Laufzeit sind steuerlich mit 5,5 % abzuzinsen; bei Pauschalrückstellungen darf die Abzinsung aus Vereinfachungsgründen unterbleiben."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob vor dem Stichtag Leistungen erbracht wurden, für die eine rechtliche oder faktische Einstandspflicht besteht.",
+      "Bekannte Einzelfälle getrennt erfassen und für den übrigen Bestand eine Pauschale anhand der eigenen Erfahrungen der Vergangenheit schätzen.",
+      "Bei der Pauschale berücksichtigen, dass für im Laufe des Jahres ausgeführte Leistungen ein Teil der Garantiezeit schon verstrichen ist.",
+      "Steuerlich mit Einzel- und notwendigen Gemeinkosten nach Stichtagsverhältnissen bewerten, handelsrechtlich mit dem künftigen Erfüllungsbetrag.",
+      "Die Abzinsung prüfen und den Steuerbilanzwert auf den handelsrechtlichen Ansatz begrenzen."
+    ],
+    "fehler": [
+      "Einen branchenüblichen Pauschsatz übernehmen, obwohl die eigenen Erfahrungen des Betriebs deutlich abweichen.",
+      "Die steuerliche Rückstellung um erwartete Kostensteigerungen erhöhen."
+    ],
+    "merksatz": "Garantie ist Sachleistung: steuerlich zu Stichtagskosten mit Gemeinkostenanteil, Einzelfälle abzinsen, Pauschale nicht, und nie höher als in der Handelsbilanz."
+  },
+  {
+    "quelle": "bil-melzer-4-01",
+    "titel": "Was gehört zu den Anschaffungskosten und was nicht?",
+    "einordnung": [
+      "Die Zugangsbewertung mit Anschaffungskosten nach § 255 Abs. 1 HGB gilt über H 6.2 EStH auch steuerlich. Klausuren testen bei nahezu jedem Zugang die Abgrenzung von Nebenkosten, Finanzierungskosten und Vorsteuer."
+    ],
+    "lernziele": [
+      "Anschaffungskosten umfassen den Kaufpreis, einzeln zurechenbare Nebenkosten und die Kosten, um den Gegenstand betriebsbereit zu machen, abzüglich zuordenbarer Preisminderungen wie Rabatte oder Skonti.",
+      "Abziehbare Vorsteuer gehört nach § 9b Abs. 1 EStG nicht zu den Anschaffungskosten; nicht abziehbare Vorsteuer erhöht sie.",
+      "Kosten der Finanzierung wie Zinsen oder Grundschuldbestellung sind keine Anschaffungskosten, Grunderwerbsteuer sowie Notar- und Grundbuchkosten für den Eigentumsübergang dagegen schon.",
+      "Bei unverzinslicher Stundung über mehr als ein Jahr ist der Barwert maßgeblich; beim Tausch bemessen sich die Anschaffungskosten nach § 6 Abs. 6 Satz 1 EStG am gemeinen Wert des hingegebenen Wirtschaftsguts."
+    ],
+    "pruefschritte": [
+      "Den vereinbarten Preis ermitteln und abziehbare Vorsteuer herausrechnen.",
+      "Einzeln zurechenbare Preisminderungen wie Rabatte und genutzte Skonti abziehen.",
+      "Einzelkosten des Erwerbs und der Herstellung der Betriebsbereitschaft hinzurechnen, Gemeinkosten dagegen als Aufwand behandeln.",
+      "Finanzierungsbezogene Aufwendungen aussondern und als Aufwand oder gegebenenfalls über eine Rechnungsabgrenzung erfassen.",
+      "Bei langfristig unverzinslicher Zahlung den Barwert der Zahlungen als Anschaffungskosten ansetzen."
+    ],
+    "fehler": [
+      "Notarkosten für die Grundschuld dem Grundstück zuschlagen.",
+      "Gemeinkosten wie anteilige Personalkosten der Einkaufsabteilung aktivieren.",
+      "Ein in Anspruch genommenes Skonto als Ertrag buchen, statt die Anschaffungskosten zu mindern."
+    ],
+    "merksatz": "Anschaffungskosten sind alle Einzelkosten bis zur Betriebsbereitschaft abzüglich Preisminderungen, ohne Finanzierung, abziehbare Vorsteuer und Gemeinkosten."
+  },
+  {
+    "quelle": "bil-melzer-5-01",
+    "titel": "GWG oder Sammelposten: Welche Wertgrenzen gelten?",
+    "einordnung": [
+      "Für bewegliche Anlagegüter mit geringen Kosten erlaubt das Steuerrecht Sofortabzug oder eine pauschale Poolabschreibung. Die Wahlrechte sind unterschiedlich gebunden und werden in Klausuren gern kombiniert abgefragt."
+    ],
+    "lernziele": [
+      "Begünstigt sind nur abnutzbare bewegliche Wirtschaftsgüter des Anlagevermögens, die selbständig nutzbar sind; maßgeblich ist stets der Nettobetrag ohne Vorsteuer, selbst wenn diese nicht abziehbar ist.",
+      "Kosten bis 250 € können für jedes Wirtschaftsgut einzeln sofort abgezogen werden, ohne besondere Aufzeichnungen.",
+      "Bis 800 € ist nach § 6 Abs. 2 EStG ein Sofortabzug möglich, wenn das Wirtschaftsgut in einem Verzeichnis oder erkennbar in der Buchführung erfasst ist.",
+      "Wird für ein Wirtschaftsjahr der Sammelposten nach § 6 Abs. 2a EStG gewählt, gehören alle Zugänge über 250 € bis 1.000 € dieses Jahres hinein; er wird über fünf Jahre gleichmäßig aufgelöst."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob ein abnutzbares, bewegliches und selbständig nutzbares Wirtschaftsgut des Anlagevermögens vorliegt.",
+      "Die Kosten netto ermitteln und um übertragene Rücklagen oder kostenmindernd erfasste Zuschüsse kürzen.",
+      "Klären, ob für das Wirtschaftsjahr ein Sammelposten gebildet wird, weil dies den Sofortabzug für Güter über 250 € ausschließt.",
+      "Ohne Sammelposten zwischen Sofortabzug bis 800 € und regulärer AfA wählen; darüber stets planmäßig abschreiben.",
+      "Einen Sammelposten jährlich mit einem Fünftel auflösen, auch wenn einzelne Güter vorher ausscheiden."
+    ],
+    "fehler": [
+      "Die Wertgrenze mit dem Bruttobetrag prüfen, weil die Vorsteuer nicht abziehbar war.",
+      "Ein Gerät, das nur im technisch abgestimmten Verbund mit anderen Geräten nutzbar ist, als geringwertiges Wirtschaftsgut sofort abziehen.",
+      "Ausgeschiedene Güter aus dem Sammelposten herausbuchen."
+    ],
+    "merksatz": "Netto zählt: bis 250 € frei wählbar, bis 800 € Sofortabzug, über 250 bis 1.000 € wahlweise Sammelposten für das ganze Jahr mit fünfjähriger Auflösung."
+  },
+  {
+    "quelle": "bil-melzer-4-03",
+    "titel": "Privatnutzung des Betriebs-Pkw beim Unternehmer bewerten",
+    "einordnung": [
+      "Nutzt ein Unternehmer ein Fahrzeug seines Betriebsvermögens auch privat, liegt eine Nutzungsentnahme vor. Zuordnung, Bewertungsmethode und die Kosten der Fahrten zur Betriebsstätte gehören zum Standardstoff von Klausur 3."
+    ],
+    "lernziele": [
+      "Ein Fahrzeug ist bei mehr als 50 % betrieblicher Nutzung notwendiges Betriebsvermögen, bei 10 % bis 50 % kann es gewillkürtes Betriebsvermögen sein, darunter ist es Privatvermögen.",
+      "Die pauschale Bewertung mit monatlich 1 % des Bruttolistenpreises ist nach § 6 Abs. 1 Nr. 4 Satz 2 EStG nur bei mehr als hälftiger betrieblicher Nutzung zulässig.",
+      "Wege zwischen Wohnung und Betriebsstätte zählen zur betrieblichen Nutzung, ihr Abzug ist aber nach § 4 Abs. 5 Satz 1 Nr. 6 EStG auf die Entfernungspauschale begrenzt.",
+      "Für begünstigte Elektrofahrzeuge und extern aufladbare Hybridfahrzeuge wird der Listenpreis unter den Voraussetzungen des § 6 Abs. 1 Nr. 4 Satz 2 EStG nur zu einem Viertel oder zur Hälfte angesetzt."
+    ],
+    "pruefschritte": [
+      "Den betrieblichen Nutzungsanteil einschließlich der Wege zur Betriebsstätte bestimmen und das Fahrzeug zuordnen.",
+      "Anschaffungskosten samt Nebenkosten aktivieren und die AfA nach § 7 EStG vornehmen.",
+      "Bei mehr als 50 % betrieblicher Nutzung zwischen 1-%-Methode und Fahrtenbuch mit Belegnachweis wählen.",
+      "Die nicht abziehbaren Kosten der Wege zur Betriebsstätte als Unterschied zwischen pauschalem oder tatsächlichem Wert und Entfernungspauschale ermitteln.",
+      "Die umsatzsteuerliche Behandlung der Privatnutzung nach § 3 Abs. 9a UStG gesondert beurteilen."
+    ],
+    "fehler": [
+      "Die 1-%-Methode bei einem Fahrzeug anwenden, das nur zu 40 % betrieblich genutzt wird.",
+      "Wege zwischen Wohnung und Betriebsstätte als Privatfahrten behandeln."
+    ],
+    "merksatz": "Über 50 % betrieblich: 1 % vom Bruttolistenpreis oder Fahrtenbuch. Wege zur Betriebsstätte sind betrieblich, aber nur bis zur Entfernungspauschale abziehbar."
+  },
+  {
+    "quelle": "bil-melzer-4-04",
+    "titel": "Wann ist eine Teilwertabschreibung steuerlich zulässig?",
+    "einordnung": [
+      "Handelsrechtlich besteht bei dauernder Wertminderung eine Abschreibungspflicht, steuerlich nur ein Wahlrecht. Die Klausur verlangt, die Dauerhaftigkeit je nach Art des Wirtschaftsguts zu begründen und an die Wertaufholung zu denken."
+    ],
+    "lernziele": [
+      "Nach § 6 Abs. 1 Nr. 1 Satz 2 und Nr. 2 Satz 2 EStG darf der niedrigere Teilwert nur bei voraussichtlich dauernder Wertminderung angesetzt werden; das Wahlrecht ist nach § 5 Abs. 1 Satz 1 Halbsatz 2 EStG unabhängig von der Handelsbilanz ausübbar.",
+      "Beim abnutzbaren Anlagevermögen gilt eine Minderung als dauerhaft, wenn der Wert am Stichtag voraussichtlich für mindestens die Hälfte der verbleibenden Nutzungsdauer niedriger bleibt als der Buchwert nach planmäßiger AfA.",
+      "Allgemeine Schwankungen der Immobilienpreise, die bloße Unverzinslichkeit einer Forderung des Anlagevermögens und Kursrückgänge festverzinslicher Papiere unter den Nennwert rechtfertigen regelmäßig keine Teilwertabschreibung.",
+      "Entfällt der Grund, gilt steuerlich ein striktes Wertaufholungsgebot bis höchstens zu den fortgeführten Anschaffungs- oder Herstellungskosten."
+    ],
+    "pruefschritte": [
+      "Das Wirtschaftsgut als abnutzbares oder nicht abnutzbares Anlagevermögen oder als Umlaufvermögen einordnen.",
+      "Den Teilwert zum Stichtag ermitteln und werterhellende Erkenntnisse bis zur Bilanzaufstellung einbeziehen.",
+      "Die Dauerhaftigkeit nach den Kriterien prüfen, die für die jeweilige Vermögensart gelten.",
+      "Handels- und Steuerbilanz getrennt entscheiden: Pflicht in der einen, Wahlrecht in der anderen.",
+      "In den Folgejahren die Wertaufholung prüfen und bei Anteilen die Folgen von § 3c Abs. 2 EStG oder § 8b KStG beachten."
+    ],
+    "fehler": [
+      "Einen nur vorübergehenden Kursrückgang zum Anlass für eine steuerliche Teilwertabschreibung nehmen.",
+      "Die Wertaufholung in späteren Jahren übersehen."
+    ],
+    "merksatz": "Steuerlich darf nur dauerhaft abgewertet werden, dann aber unabhängig von der Handelsbilanz; fällt der Grund weg, muss zugeschrieben werden."
+  },
+  {
+    "quelle": "bil-melzer-3-02",
+    "titel": "Wer bilanziert das Leasinggut: Leasinggeber oder -nehmer?",
+    "einordnung": [
+      "Die bilanzielle Zurechnung folgt dem wirtschaftlichen Eigentum nach § 39 Abs. 2 Nr. 1 AO und § 246 Abs. 1 Satz 2 HGB. Bei Finanzierungsleasing entscheiden Grundmietzeit und Optionen, wer das Wirtschaftsgut aktiviert."
+    ],
+    "lernziele": [
+      "Wirtschaftlicher Eigentümer ist, wer den zivilrechtlichen Eigentümer für die gewöhnliche Nutzungsdauer faktisch von der Einwirkung ausschließen kann.",
+      "Bei Vollamortisationsverträgen über bewegliche Güter wird das Leasinggut dem Leasingnehmer zugerechnet, wenn die unkündbare Grundmietzeit weniger als 40 % oder mehr als 90 % der betriebsgewöhnlichen Nutzungsdauer ausmacht.",
+      "Liegt die Grundmietzeit dazwischen, entscheiden die Optionen: Ein Kaufpreis unter dem linearen Restbuchwert oder eine Anschlussmiete unter dem Wertverzehr führt zur Zurechnung beim Leasingnehmer.",
+      "Bleibt das Gut beim Leasinggeber, sind die Raten beim Nehmer Betriebsausgaben und eine Sonderzahlung wird über einen aktiven Rechnungsabgrenzungsposten linear verteilt."
+    ],
+    "pruefschritte": [
+      "Den Vertragstyp bestimmen: Miete, Kauf nach Miete, Mietkauf oder Finanzierungsleasing.",
+      "Das Verhältnis der Grundmietzeit zur betriebsgewöhnlichen Nutzungsdauer berechnen.",
+      "Liegt die Quote zwischen 40 % und 90 %, einen vereinbarten Kaufpreis dem linearen Restbuchwert und eine Anschlussmiete dem Wertverzehr gegenüberstellen.",
+      "Wird das Gut dem Nehmer zugerechnet, es mit den Anschaffungskosten aktivieren und eine Verbindlichkeit gegenüber dem Leasinggeber passivieren.",
+      "Bleibt es beim Geber, die Raten als Aufwand buchen und eine Sonderzahlung zeitanteilig abgrenzen."
+    ],
+    "fehler": [
+      "Eine Leasingsonderzahlung vollständig im Jahr der Zahlung als Aufwand erfassen.",
+      "Die Zurechnung allein nach dem zivilrechtlichen Eigentum beurteilen."
+    ],
+    "merksatz": "Macht die Grundmietzeit weniger als 40 % oder mehr als 90 % der Nutzungsdauer aus, bilanziert der Leasingnehmer; dazwischen entscheiden die Optionen."
+  },
+  {
+    "quelle": "bil-melzer-8-03",
+    "titel": "Wie werden zweifelhafte und normale Forderungen bewertet?",
+    "einordnung": [
+      "Forderungen gehen mit dem Nennwert zu, ihr Wert hängt aber von der Einbringlichkeit ab. In der Klausur werden Einzel- und Pauschalwertberichtigung regelmäßig mit den Folgen für die Umsatzsteuer verknüpft."
+    ],
+    "lernziele": [
+      "Uneinbringliche Forderungen sind voll abzuschreiben; zugleich ist die Umsatzsteuer nach § 17 Abs. 2 Nr. 1 UStG zu berichtigen.",
+      "Zweifelhafte Forderungen werden einzeln auf den wahrscheinlich eingehenden Betrag berichtigt, bezogen auf den Nettobetrag; eine Umsatzsteuerkorrektur ist erst bei Uneinbringlichkeit zulässig.",
+      "Für das allgemeine Ausfallrisiko des übrigen Bestands kann eine Pauschalwertberichtigung gebildet werden; Zinsverluste und Einziehungskosten gehören grundsätzlich nicht hinein.",
+      "Unverzinsliche Forderungen sind in der Steuerbilanz mit dem Nennwert anzusetzen, weil ihr Wert bis zur Fälligkeit wieder steigt und keine dauernde Wertminderung vorliegt."
+    ],
+    "pruefschritte": [
+      "Jede Forderung nach dem Grad der Einbringlichkeit einordnen: uneinbringlich, zweifelhaft oder normal.",
+      "Sicherheiten wie Bürgschaften oder eine Kreditversicherung in die Wertermittlung einbeziehen.",
+      "Uneinbringliche Forderungen ausbuchen und die Umsatzsteuer korrigieren.",
+      "Für zweifelhafte Forderungen den erwarteten Ausfall vom Nettobetrag schätzen und einzeln berichtigen.",
+      "Den Restbestand netto um die einzeln berichtigten Forderungen kürzen und darauf die Pauschalwertberichtigung berechnen."
+    ],
+    "fehler": [
+      "Die Wertberichtigung vom Bruttobetrag einschließlich Umsatzsteuer berechnen.",
+      "Bei bloßem Zahlungsverzug bereits die Umsatzsteuer berichtigen.",
+      "Eine Forderung abwerten, obwohl ein zahlungsfähiger Bürge einsteht."
+    ],
+    "merksatz": "Ausfälle werden netto geschätzt: uneinbringlich ausbuchen samt Umsatzsteuer, zweifelhaft einzeln berichtigen, den Rest pauschal ohne Zins- und Mahnkosten."
+  },
+  {
+    "quelle": "bil-melzer-7-06",
+    "titel": "Lifo, Durchschnitt oder Festwert: Was erlaubt die Steuerbilanz?",
+    "einordnung": [
+      "Vorräte sind grundsätzlich einzeln zu bewerten, doch Handels- und Steuerrecht lassen Vereinfachungen zu. Die Klausur fragt, welches Verfahren steuerlich zulässig ist und unter welchen Bedingungen."
+    ],
+    "lernziele": [
+      "Grundsatz ist die Einzelbewertung nach § 252 Abs. 1 Nr. 3 HGB; als Vereinfachung sind Durchschnittsbewertung, Festwert und Verbrauchsfolgeverfahren zugelassen.",
+      "Handelsrechtlich erlaubt § 256 Satz 1 HGB Lifo und Fifo, steuerlich lässt § 6 Abs. 1 Nr. 2a EStG nur Lifo zu und setzt eine Gewinnermittlung nach § 5 EStG voraus.",
+      "Für Lifo sind gleichartige Vorräte, eine vollständige mengenmäßige Erfassung und eine echte Bewertungsvereinfachung erforderlich; die unterstellte Folge muss der tatsächlichen nicht entsprechen.",
+      "Gleichartige oder annähernd gleichwertige Gegenstände dürfen nach § 240 Abs. 4 HGB zu Gruppen zusammengefasst und mit dem gewogenen Durchschnitt bewertet werden."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob Vorräte vorliegen und ob eine Einzelbewertung praktisch möglich und zumutbar ist.",
+      "Gleichartigkeit nach Warengattung oder Funktion feststellen und Bewertungsgruppen bilden.",
+      "Für die Steuerbilanz das zulässige Verfahren wählen: Einzelbewertung, gewogener Durchschnitt, Festwert oder Lifo.",
+      "Bei Lifo die Gewinnermittlung nach § 5 EStG und die Übereinstimmung mit den Grundsätzen ordnungsmäßiger Buchführung sicherstellen.",
+      "Den so ermittelten Wert mit einem niedrigeren Teilwert am Stichtag abgleichen."
+    ],
+    "fehler": [
+      "Fifo in der Steuerbilanz anwenden, weil es in der Handelsbilanz gewählt wurde.",
+      "Lifo ablehnen, nur weil die tatsächliche Abgangsfolge eine andere ist."
+    ],
+    "merksatz": "Als steuerliche Verbrauchsfolge ist allein Lifo zulässig: für gleichartige Vorräte, bei Bilanzierung nach § 5 EStG und nur, wenn es wirklich vereinfacht."
+  },
+  {
+    "quelle": "bil-melzer-6-01",
+    "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+    "einordnung": [
+      "Beteiligungen an Personen- und an Kapitalgesellschaften werden in der Steuerbilanz grundverschieden behandelt. Daraus folgen Unterschiede bei Gewinnanteilen, Ausschüttungen und Abschreibungen."
+    ],
+    "lernziele": [
+      "Handelsrechtlich ist die Beteiligung an einer Personengesellschaft ein Vermögensgegenstand mit Anschaffungskosten; steuerlich ist sie kein eigenständiges Wirtschaftsgut.",
+      "Steuerlich wird der Anteil an einer Personengesellschaft in Höhe des Kapitals in der Gesellschaft fortgeführt; Gewinnanteile, Verluste, Einlagen und Entnahmen verändern ihn, eine Teilwertabschreibung scheidet aus.",
+      "Der Gewinnanteil an einer Personengesellschaft entsteht nach § 4a Abs. 2 Nr. 2 EStG mit Ablauf ihres Wirtschaftsjahres, eine Ausschüttung einer Kapitalgesellschaft erst mit dem Gewinnverwendungsbeschluss.",
+      "Ausschüttungen und Veräußerungsgewinne aus Kapitalgesellschaftsanteilen werden im Einzelunternehmen außerbilanziell nach § 3 Nr. 40 EStG zu 40 % gekürzt, zugehörige Aufwendungen nach § 3c Abs. 2 EStG zu 40 % hinzugerechnet."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob Anteile an einer Personen- oder an einer Kapitalgesellschaft gehalten werden.",
+      "Bei Personengesellschaften das Beteiligungskonto in der Steuerbilanz an das Kapital in der Gesellschaft anpassen.",
+      "Bei Kapitalgesellschaften den Zeitpunkt des Ausschüttungsbeschlusses prüfen und den Ertrag in voller Höhe buchen.",
+      "Die einbehaltene Kapitalertragsteuer beim Einzelunternehmer als Privatentnahme erfassen.",
+      "Außerbilanziell die Kürzung nach § 3 Nr. 40 EStG und die Hinzurechnung nach § 3c Abs. 2 EStG vornehmen, bei Körperschaften § 8b KStG anwenden."
+    ],
+    "fehler": [
+      "Einen Gewinnanspruch gegen eine GmbH schon zum Stichtag des Geschäftsjahres aktivieren, für das später ausgeschüttet wird.",
+      "Auf eine KG-Beteiligung in der Steuerbilanz eine Teilwertabschreibung vornehmen."
+    ],
+    "merksatz": "Der KG-Anteil folgt steuerlich dem Kapitalkonto, der GmbH-Anteil ist echtes Wirtschaftsgut; Ausschüttungen zählen erst ab Beschluss und im Einzelunternehmen zu 60 %."
+  },
+  {
+    "quelle": "bil-melzer-11-03",
+    "titel": "Stille Reserven übertragen: Voraussetzungen der § 6b-Rücklage",
+    "einordnung": [
+      "§ 6b EStG erlaubt, Gewinne aus dem Verkauf bestimmter Anlagegüter auf Reinvestitionen zu übertragen und so die Besteuerung aufzuschieben. Für Klausur 3 sind begünstigte Wirtschaftsgüter, Fristen und Gewinnzuschlag zentral."
+    ],
+    "lernziele": [
+      "Begünstigt sind Gewinne aus dem Verkauf von Grund und Boden, land- und forstwirtschaftlichem Aufwuchs mit zugehörigem Boden und Gebäuden; Gewinn ist der Erlös nach Kosten abzüglich des Buchwerts im Verkaufszeitpunkt.",
+      "Gewinne aus Grund und Boden dürfen auf Grund und Boden, Aufwuchs und Gebäude übertragen werden, Gewinne aus Gebäuden nur auf Gebäude.",
+      "Das verkaufte Wirtschaftsgut muss nach § 6b Abs. 4 EStG seit wenigstens sechs Jahren ohne Unterbrechung Anlagevermögen einer inländischen Betriebsstätte gewesen sein.",
+      "Eine nicht übertragene Rücklage ist nach vier Jahren, bei rechtzeitig begonnenem Gebäudeneubau nach sechs Jahren, aufzulösen und nach § 6b Abs. 7 EStG um 6 % je Wirtschaftsjahr außerbilanziell zu erhöhen."
+    ],
+    "pruefschritte": [
+      "Den Veräußerungsgewinn ermitteln und dabei die AfA bis zum Verkaufszeitpunkt berücksichtigen.",
+      "Sechsjährige Zugehörigkeit zum inländischen Anlagevermögen und Gewinnermittlung durch Betriebsvermögensvergleich prüfen.",
+      "Die Übertragungsmöglichkeit nach Art des Reinvestitionsguts wählen: Vorjahr, laufendes Jahr oder Folgejahre über eine Rücklage.",
+      "Bei Übertragung die Kosten des neuen Wirtschaftsguts kürzen und die AfA vom geminderten Betrag berechnen.",
+      "Die Aufnahme in das besondere Verzeichnis nach § 5 Abs. 1 Satz 2 EStG sicherstellen."
+    ],
+    "fehler": [
+      "Einen Gebäudegewinn auf Grund und Boden übertragen.",
+      "Bei Auflösung ohne Reinvestition den Gewinnzuschlag vergessen.",
+      "Die AfA des Reinvestitionsguts von den ungekürzten Kosten berechnen."
+    ],
+    "merksatz": "Sechs Jahre Anlagevermögen, begünstigtes Objekt, vier Jahre Reinvestitionsfrist, sonst Auflösung mit 6 % Zuschlag je Wirtschaftsjahr."
+  },
+  {
+    "quelle": "bil-melzer-5-02",
+    "titel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+    "einordnung": [
+      "Mit § 7g EStG können kleinere Betriebe Abschreibungsvolumen in die Zeit vor der Investition vorziehen. In der Klausur geht es um Voraussetzungen, Hinzurechnung im Investitionsjahr und Rückgängigmachung."
+    ],
+    "lernziele": [
+      "Bis zu 50 % der voraussichtlichen Kosten eines abnutzbaren beweglichen Anlageguts, das nicht neu sein muss, können vorab außerbilanziell abgezogen werden, wenn der Gewinn des Abzugsjahres ohne diese Beträge 200.000 € nicht übersteigt.",
+      "Je Betrieb dürfen im Abzugsjahr und den drei Vorjahren zusammen höchstens 200.000 € abgezogen sein; der Abzug darf auch einen Verlust entstehen lassen.",
+      "Im Investitionsjahr wird der Abzugsbetrag bis zu 50 % der Kosten hinzugerechnet; zugleich dürfen die Anschaffungskosten um diesen Betrag gekürzt werden, was die AfA-Bemessungsgrundlage mindert.",
+      "Unterbleibt die Investition binnen drei Jahren oder wird das Gut nicht bis zum Ende des Folgejahres zu mindestens 90 % betrieblich im Inland genutzt, wird der Abzug im Abzugsjahr rückgängig gemacht."
+    ],
+    "pruefschritte": [
+      "Gewinnermittlungsart und Gewinngrenze von 200.000 € im Abzugsjahr prüfen.",
+      "Den Abzug auf 50 % der voraussichtlichen Kosten und den betrieblichen Höchstbetrag begrenzen und elektronisch übermitteln.",
+      "Im Investitionsjahr den Betrag hinzurechnen und die Anschaffungskosten wahlweise gewinnmindernd herabsetzen.",
+      "AfA, Sonderabschreibung nach § 7g Abs. 5 EStG oder GWG-Grenzen von der geminderten Bemessungsgrundlage aus berechnen.",
+      "Bei ausbleibender Investition oder schädlicher Nutzung den Bescheid des Abzugsjahres ändern und die Verzinsung nach § 233a AO beachten."
+    ],
+    "fehler": [
+      "Den Investitionsabzugsbetrag in der Bilanz als Rücklage passivieren, statt ihn außerbilanziell abzuziehen.",
+      "Die Rückgängigmachung im Jahr des Fristablaufs statt im Abzugsjahr vornehmen.",
+      "Mehr hinzurechnen, als tatsächlich abgezogen worden ist."
+    ],
+    "merksatz": "Bis 50 % vorab abziehen, bei Investition hinzurechnen und Kosten kürzen, sonst rückwirkend im Abzugsjahr streichen."
+  },
+  {
+    "quelle": "bil-melzer-6-02",
+    "titel": "Kapitalerhöhung bei der AG: Folgen für die Aktien im Betrieb",
+    "einordnung": [
+      "Hält ein Unternehmen Aktien im Betriebsvermögen, wirken sich Kapitalmaßnahmen der AG auf deren Buchwert aus. Klausuren fragen besonders nach Gratisaktien und der Behandlung von Bezugsrechten."
+    ],
+    "lernziele": [
+      "Wertpapiere werden mit ihren Anschaffungskosten einschließlich Nebenkosten wie Provisionen und Spesen aktiviert.",
+      "Gratisaktien aus einer Kapitalerhöhung aus Gesellschaftsmitteln sind nach § 1 KapErhStG keine Einkünfte; die ursprünglichen Anschaffungskosten werden nach § 3 KapErhStG im Verhältnis der Nennbeträge auf alte und neue Anteile aufgeteilt.",
+      "Erhöht die AG ihr Kapital gegen Einlagen, erhält das Bezugsrecht einen Teil des Buchwerts der Altaktien, bemessen nach dem Verhältnis seines Kurses zum Kurs der Altaktie vor der Erhöhung.",
+      "Wird das Bezugsrecht verkauft, entsteht ein Gewinn aus Erlös abzüglich abgespaltenem Buchwert; wird es ausgeübt, gehen dieser Buchwert und der Ausgabepreis in die Anschaffungskosten der jungen Aktien ein."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob die Aktien notwendiges oder gewillkürtes Betriebsvermögen sind.",
+      "Die Art der Kapitalerhöhung bestimmen: aus Gesellschaftsmitteln oder gegen Einlagen.",
+      "Bei Gratisaktien die unveränderten Gesamtanschaffungskosten auf die erhöhte Zahl der Anteile verteilen.",
+      "Bei Bezugsrechten den anteiligen Buchwert nach dem Kursverhältnis von den Altaktien abspalten.",
+      "Verkauf oder Ausübung des Bezugsrechts buchen und außerbilanzielle Korrekturen nach § 3 Nr. 40 EStG oder § 8b KStG vornehmen."
+    ],
+    "fehler": [
+      "Gratisaktien als Ertrag erfassen.",
+      "Beim Verkauf eines Bezugsrechts den gesamten Erlös als Gewinn buchen, ohne den abgespaltenen Buchwert abzuziehen."
+    ],
+    "merksatz": "Gratisaktien verteilen nur die alten Anschaffungskosten neu; ein Bezugsrecht nimmt einen Teil des Altaktienbuchwerts mit."
+  },
+  {
+    "quelle": "bil-melzer-12-04",
+    "titel": "Welche Sonderregeln gelten für Rückstellungen in der Steuerbilanz?",
+    "einordnung": [
+      "§ 6 Abs. 1 Nr. 3a EStG enthält eigene Bewertungsregeln, die den handelsrechtlichen Erfüllungsbetrag oft unterschreiten. Die Klausur verlangt Bewertung, Abzinsung und Begrenzung auf den Handelsbilanzwert."
+    ],
+    "lernziele": [
+      "Maßgeblich sind die Wertverhältnisse am Bilanzstichtag; künftige Preis- und Kostensteigerungen bleiben nach § 6 Abs. 1 Nr. 3a Buchst. f EStG außer Betracht.",
+      "Sachleistungspflichten sind mit Einzelkosten und angemessenen Teilen der notwendigen Gemeinkosten zu bewerten; voraussichtliche künftige Vorteile sind gegenzurechnen.",
+      "Wird der Aufwand wirtschaftlich über mehrere Jahre verursacht, ist die Rückstellung zeitanteilig in gleichen Raten anzusammeln.",
+      "Unverzinsliche Verpflichtungen mit einer Laufzeit von mindestens zwölf Monaten sind mit 5,5 % abzuzinsen; bei Sachleistungen zählt die Zeit bis zum Beginn der Erfüllung."
+    ],
+    "pruefschritte": [
+      "Die Rückstellung zunächst nach den Wertverhältnissen am Stichtag ohne Kostensteigerungen bewerten.",
+      "Bei Sachleistungen Einzel- und Gemeinkosten einbeziehen und erwartete Vorteile wie Erlöse aus der Erfüllung abziehen.",
+      "Prüfen, ob eine Ansammlung über die Jahre bis zur Erfüllung vorzunehmen ist.",
+      "Die Restlaufzeit schätzen und bei mindestens zwölf Monaten und fehlender Verzinsung abzinsen.",
+      "Das Ergebnis mit dem Handelsbilanzansatz vergleichen und steuerlich höchstens diesen ansetzen."
+    ],
+    "fehler": [
+      "Steuerlich den handelsrechtlichen Erfüllungsbetrag samt Preissteigerungen übernehmen.",
+      "Steuerrückstellungen abzinsen, obwohl die Steuer nach § 233a AO verzinst wird."
+    ],
+    "merksatz": "Stichtagspreise, Einzel- plus Gemeinkosten, Vorteile gegenrechnen, ab zwölf Monaten mit 5,5 % abzinsen, und nie über dem Handelsbilanzwert."
+  },
+  {
+    "quelle": "bil-melzer-11-02",
+    "titel": "Rücklage für Ersatzbeschaffung: Wann greift R 6.6 EStR?",
+    "einordnung": [
+      "Scheidet ein Wirtschaftsgut unfreiwillig gegen Entschädigung aus, müssen die dabei aufgedeckten stillen Reserven nicht sofort versteuert werden. Die Klausur prüft Voraussetzungen, Fristen und die Kürzung bei Mehrentschädigung."
+    ],
+    "lernziele": [
+      "Voraussetzung ist, dass ein Wirtschaftsgut des Anlage- oder Umlaufvermögens durch höhere Gewalt oder einen behördlichen Eingriff gegen eine Entschädigung über dem Buchwert ausscheidet.",
+      "Höhere Gewalt sind etwa Brand, Sturm, Diebstahl oder ein unverschuldeter Unfall; ein Verkauf aus wirtschaftlicher Not oder eine Entnahme genügen nicht.",
+      "Das Ersatzwirtschaftsgut muss funktionsgleich sein; die Übertragung mindert dessen Anschaffungs- oder Herstellungskosten.",
+      "Ist die Ersatzbeschaffung am Jahresende ernstlich geplant, kann eine Rücklage gebildet werden, die bei beweglichen Gütern nach einem Jahr, bei Grundstücken und Gebäuden nach vier Jahren aufzulösen ist, wenn bis dahin nichts angeschafft oder bestellt wurde."
+    ],
+    "pruefschritte": [
+      "Den Grund des Ausscheidens prüfen: höhere Gewalt oder behördlicher Eingriff.",
+      "Feststellen, ob die Entschädigung für das Wirtschaftsgut selbst gezahlt wird und nicht für Folgeschäden.",
+      "Die aufgedeckten stillen Reserven als Unterschied zwischen Entschädigung und Buchwert ermitteln.",
+      "Wird die Entschädigung nicht vollständig reinvestiert, nur den entsprechenden Anteil der Reserven übertragen.",
+      "Fehlt die Ersatzbeschaffung zum Stichtag, die Rücklage bilden und ihre Auflösungsfristen überwachen."
+    ],
+    "fehler": [
+      "Entschädigungen für Betriebsunterbrechung in die übertragbare stille Reserve einbeziehen.",
+      "Eine Rücklage bilden, obwohl keine Ersatzbeschaffung beabsichtigt ist."
+    ],
+    "merksatz": "Unfreiwilliges Ausscheiden, Entschädigung, funktionsgleicher Ersatz: Nur dann wandern die stillen Reserven auf das neue Wirtschaftsgut."
+  },
+  {
+    "quelle": "bil-melzer-4-02",
+    "titel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+    "einordnung": [
+      "Einlagen und Entnahmen verändern das Betriebsvermögen, ohne Gewinn zu sein, und müssen deshalb korrekt bewertet werden. Die Bewertung nach § 6 Abs. 1 Nr. 4 und 5 EStG gehört zum Pflichtprogramm jeder Bilanzklausur."
+    ],
+    "lernziele": [
+      "Entnahmen sind nach § 4 Abs. 1 Satz 2 EStG alle Wirtschaftsgüter, Nutzungen und Leistungen, die der Inhaber für betriebsfremde Zwecke entnimmt; entnommene Wirtschaftsgüter sind regelmäßig mit dem Teilwert anzusetzen.",
+      "Nutzungsentnahmen werden mit den anteiligen Selbstkosten angesetzt, soweit diese Aufwand darstellen.",
+      "Einlagen sind grundsätzlich mit dem Teilwert anzusetzen, höchstens aber mit den fortgeführten Anschaffungs- oder Herstellungskosten, wenn das Wirtschaftsgut in den drei Jahren vor der Einlage angeschafft oder hergestellt wurde.",
+      "Beteiligungen im Sinne des § 17 EStG und Wirtschaftsgüter im Sinne des § 20 Abs. 2 EStG sind höchstens mit den Anschaffungskosten einzulegen."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob eine Überführung zwischen Betriebs- und Privatvermögen durch Handlung oder schlüssiges Verhalten stattgefunden hat.",
+      "Bei Entnahmen den Teilwert zum Entnahmezeitpunkt ermitteln und die stillen Reserven als Gewinn erfassen.",
+      "Bei Einlagen prüfen, ob die Anschaffung oder Herstellung weniger als drei Jahre zurückliegt oder ein Anteil im Sinne des § 17 EStG vorliegt.",
+      "Bei abnutzbaren Wirtschaftsgütern die zwischenzeitliche AfA von den Anschaffungskosten abziehen.",
+      "Die umsatzsteuerlichen Folgen nach § 3 Abs. 1b oder Abs. 9a UStG gesondert prüfen."
+    ],
+    "fehler": [
+      "Ein kürzlich privat erworbenes Wirtschaftsgut mit einem höheren Teilwert statt mit den fortgeführten Anschaffungskosten einlegen.",
+      "Eine Nutzungsentnahme mit dem Marktpreis statt mit den Selbstkosten bewerten."
+    ],
+    "merksatz": "Entnahme zum Teilwert, Nutzung zu Selbstkosten; Einlage zum Teilwert, gedeckelt auf fortgeführte Kosten bei Erwerb innerhalb von drei Jahren."
+  },
+  {
+    "quelle": "bil-melzer-10-03",
+    "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+    "einordnung": [
+      "Verbindlichkeiten in fremder Währung werden in Handels- und Steuerbilanz unterschiedlich fortgeführt. Die Klausur prüft, wann ein Kursanstieg zu einem höheren Ansatz führt und ob ein Kursrückgang berücksichtigt werden darf."
+    ],
+    "lernziele": [
+      "Handelsrechtlich ist nach § 256a HGB zum Devisenkassamittelkurs am Stichtag umzurechnen; bei einer Restlaufzeit von höchstens einem Jahr gelten Anschaffungskosten- und Realisationsprinzip nicht.",
+      "Steuerlich darf eine Verbindlichkeit wegen § 6 Abs. 1 Nr. 3 in Verbindung mit Nr. 2 EStG nie unter ihrem Zugangswert angesetzt werden.",
+      "Ein höherer Ansatz ist steuerlich nur bei voraussichtlich dauernder Kurserhöhung zulässig und als Wahlrecht unabhängig von der Handelsbilanz ausübbar.",
+      "Übliche Wechselkursschwankungen reichen dafür nicht; bei Verbindlichkeiten des laufenden Geschäftsverkehrs gilt eine bis zur Tilgung oder Bilanzaufstellung anhaltende Erhöhung als dauerhaft."
+    ],
+    "pruefschritte": [
+      "Die Verbindlichkeit bei Zugang mit dem Kurs im Entstehungszeitpunkt umrechnen.",
+      "Handelsrechtlich die Restlaufzeit prüfen und danach zum Stichtagskurs oder unter Beachtung des Imparitätsprinzips bewerten.",
+      "Steuerlich prüfen, ob der Stichtagskurs über dem Zugangskurs liegt und die Erhöhung voraussichtlich dauerhaft ist.",
+      "Klären, ob eine Verbindlichkeit des laufenden Geschäftsverkehrs vorliegt, die nicht der Finanzierung von Anlagevermögen dient und in üblicher Frist getilgt wird.",
+      "Einen gesunkenen Kurs steuerlich nie unter den Zugangswert durchschlagen lassen."
+    ],
+    "fehler": [
+      "In der Steuerbilanz einen Kursgewinn durch Abwertung der Verbindlichkeit unter den Zugangswert ausweisen.",
+      "Jede kurzfristige Kursschwankung als dauerhafte Werterhöhung behandeln."
+    ],
+    "merksatz": "Steuerlich gilt: nie unter dem Zugangswert, darüber nur bei dauerhaftem Kursanstieg; bei laufendem Geschäftsverkehr zählt die Lage bis zur Tilgung."
+  },
+  {
+    "quelle": "bil-melzer-ue-24",
+    "titel": "Fehlerhafte Bilanzansätze: Wo und wie wird berichtigt?",
+    "einordnung": [
+      "Ein objektiv falscher Bilanzansatz ist nach § 4 Abs. 2 Satz 1 EStG zu berichtigen. Die Klausur fragt, in welchem Jahr die Korrektur erfolgt und ob sie den Gewinn berührt."
+    ],
+    "lernziele": [
+      "Fehlerhaft ist ein Ansatz, der zwingendem Einkommensteuer- oder Handelsrecht oder den Grundsätzen ordnungsmäßiger Buchführung widerspricht.",
+      "Grundsätzlich wird an der Fehlerquelle berichtigt; ist die Veranlagung dieses Jahres nicht mehr änderbar, wird der Fehler erfolgswirksam in der Schlussbilanz des ersten noch änderbaren Jahres korrigiert.",
+      "Nicht erfasste Einlagen oder Entnahmen, nicht bilanziertes notwendiges Betriebsvermögen und zu Unrecht bilanziertes Privatvermögen werden erfolgsneutral richtiggestellt.",
+      "Wegen des Bilanzenzusammenhangs wirkt jede Änderung eines Schlussbilanzpostens im Folgejahr mit umgekehrtem Vorzeichen weiter."
+    ],
+    "pruefschritte": [
+      "Den fehlerhaften Posten und das Jahr seines Entstehens bestimmen.",
+      "Prüfen, ob die Veranlagung dieses Jahres nach Änderungsvorschriften wie § 164 oder § 173 AO noch geändert werden kann.",
+      "Die Gewinnauswirkung aus der Veränderung der Posten ableiten: mehr Aktiva erhöhen, mehr Passiva mindern den Gewinn.",
+      "Für jedes Folgejahr die gegenläufige Wirkung über den Anfangsbestand berücksichtigen.",
+      "Bei Einlagen, Entnahmen und Privatvermögen die Korrektur gewinnneutral über das Kapital vornehmen."
+    ],
+    "fehler": [
+      "Einen Fehler in einem bestandskräftigen Jahr korrigieren, obwohl keine Änderungsvorschrift greift.",
+      "Die gegenläufige Wirkung im Folgejahr vergessen."
+    ],
+    "merksatz": "Berichtigt wird an der Fehlerquelle, sonst im ersten änderbaren Jahr, und jede Korrektur kehrt im Folgejahr mit umgekehrtem Vorzeichen zurück."
+  },
+  {
+    "quelle": "bil-melzer-10-02",
+    "titel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
+    "einordnung": [
+      "Verbindlichkeiten werden mit dem Betrag angesetzt, der zur Tilgung aufzuwenden ist. Seit der Gesetzesänderung für Wirtschaftsjahre ab 2023 ist die steuerliche Abzinsung entfallen, was in Klausuren gern geprüft wird."
+    ],
+    "lernziele": [
+      "Handelsrechtlich sind Verbindlichkeiten nach § 253 Abs. 1 Satz 2 HGB mit dem Erfüllungsbetrag anzusetzen; abgezinst wird grundsätzlich nicht.",
+      "Steuerlich gilt über § 5 Abs. 6 EStG die Bewertung nach § 6 Abs. 1 Nr. 3 EStG; als Anschaffungskosten der Verbindlichkeit gilt der Rückzahlungsbetrag.",
+      "Für Wirtschaftsjahre, die nach dem 31.12.2022 enden, entfällt die frühere Abzinsung unverzinslicher Verbindlichkeiten mit 5,5 %; auf Antrag gilt das auch für frühere Wirtschaftsjahre.",
+      "Ein höherer Teilwert darf nach § 6 Abs. 1 Nr. 3 in Verbindung mit Nr. 2 EStG nur bei voraussichtlich dauernder Erhöhung angesetzt werden."
+    ],
+    "pruefschritte": [
+      "Den Rückzahlungs- oder Erfüllungsbetrag der Verbindlichkeit zum Stichtag ermitteln.",
+      "Prüfen, ob in einer unverzinslichen Schuld ein verdeckter Zinsanteil steckt, der handelsrechtlich herauszurechnen ist.",
+      "Steuerlich keine Abzinsung mehr vornehmen und den Rückzahlungsbetrag ansetzen.",
+      "Ein Disagio als Unterschied zwischen Auszahlungs- und Rückzahlungsbetrag gesondert abgrenzen.",
+      "Bei Anhaltspunkten für eine dauerhafte Werterhöhung den höheren Teilwert als Wahlrecht prüfen."
+    ],
+    "fehler": [
+      "In aktuellen Wirtschaftsjahren unverzinsliche Darlehen steuerlich noch mit 5,5 % abzinsen.",
+      "Eine Verbindlichkeit mit dem niedrigeren Auszahlungsbetrag statt dem Rückzahlungsbetrag passivieren."
+    ],
+    "merksatz": "Verbindlichkeiten stehen mit dem Rückzahlungsbetrag in der Bilanz; die steuerliche Abzinsung entfällt für Wirtschaftsjahre, die nach dem 31.12.2022 enden."
+  },
+  {
+    "quelle": "bil-melzer-ue-07",
+    "titel": "Herstellungskosten: Pflicht, Wahlrecht und Verbot im Überblick",
+    "einordnung": [
+      "Welche Kosten in die Herstellungskosten selbst erstellter Erzeugnisse oder Anlagen einfließen, regeln § 255 Abs. 2 und 3 HGB sowie § 6 Abs. 1 Nr. 1b EStG. Die Klausur verlangt eine saubere Zuordnung jeder Kostenart."
+    ],
+    "lernziele": [
+      "Pflichtbestandteile sind Material- und Fertigungseinzelkosten, Sonderkosten der Fertigung, angemessene Material- und Fertigungsgemeinkosten sowie der fertigungsbezogene Wertverzehr des Anlagevermögens.",
+      "Allgemeine Verwaltungskosten, Aufwendungen für soziale Einrichtungen, freiwillige soziale Leistungen und betriebliche Altersversorgung dürfen einbezogen werden; steuerlich ist dieses Wahlrecht nach § 6 Abs. 1 Nr. 1b EStG übereinstimmend mit der Handelsbilanz auszuüben.",
+      "Fremdkapitalzinsen für die Finanzierung der Herstellung sind handelsrechtlich wahlweise einzubeziehen, steuerlich nur, wenn dies auch in der Handelsbilanz geschieht.",
+      "Forschungs- und Vertriebskosten, Ertragsteuern, Gewerbesteuer und kalkulatorische Kosten wie ein Unternehmerlohn gehören nicht dazu."
+    ],
+    "pruefschritte": [
+      "Alle angefallenen Kosten nach Kostenarten und Kostenstellen erfassen.",
+      "Einzelkosten und Sonderkosten der Fertigung als Pflichtbestandteile ansetzen.",
+      "Material- und Fertigungsgemeinkosten einschließlich fertigungsbezogener Abschreibungen über Zuschlagssätze zurechnen.",
+      "Über Verwaltungskosten und Zinsen einheitlich für Handels- und Steuerbilanz entscheiden.",
+      "Vertriebs- und Forschungskosten sowie nicht abziehbare Steuern ausscheiden und die Stückkosten ermitteln."
+    ],
+    "fehler": [
+      "Vertriebskosten oder Umsatzsteuer in die Herstellungskosten einrechnen.",
+      "Einen kalkulatorischen Unternehmerlohn aktivieren."
+    ],
+    "merksatz": "Einzelkosten und fertigungsnahe Gemeinkosten sind Pflicht, Verwaltung und Zinsen Wahl, Vertrieb und Forschung verboten."
+  },
+  {
+    "quelle": "bil-melzer-12-02",
+    "titel": "Welche Rückstellungen sind in der Steuerbilanz verboten?",
+    "einordnung": [
+      "Rückstellungen folgen im Grundsatz der Handelsbilanz, doch das Steuerrecht durchbricht die Maßgeblichkeit mit mehreren Sonderregeln. In der Klausur ist für jede Rückstellung zu prüfen, ob einer dieser Vorbehalte greift."
+    ],
+    "lernziele": [
+      "Handelsrechtlich sind nach § 249 Abs. 1 HGB Rückstellungen für ungewisse Verbindlichkeiten, für Verluste, die aus schwebenden Geschäften drohen, sowie bestimmte unterlassene Instandhaltung und Kulanzgewährleistungen zu bilden; andere verbietet § 249 Abs. 2 HGB.",
+      "Steuerlich verbietet § 5 Abs. 4a EStG Drohverlustrückstellungen ausdrücklich.",
+      "Verpflichtungen, die nur aus künftigen Einnahmen oder Gewinnen zu erfüllen sind, werden nach § 5 Abs. 2a EStG erst passiviert, wenn diese angefallen sind.",
+      "Für künftige Anschaffungs- oder Herstellungskosten sind Rückstellungen nach § 5 Abs. 4b EStG unzulässig; Sonderregeln gelten zudem für Schutzrechtsverletzungen, Jubiläumszuwendungen und Pensionen."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob handelsrechtlich ein Passivierungsgebot nach § 249 Abs. 1 HGB besteht.",
+      "Für die Steuerbilanz nacheinander die Vorbehalte des § 5 Abs. 2a bis 4b EStG und des § 6a EStG durchgehen.",
+      "Eine handelsrechtliche Drohverlustrückstellung nicht in die Steuerbilanz übernehmen.",
+      "Bei Jubiläumszuwendungen die engen Voraussetzungen des § 5 Abs. 4 EStG prüfen.",
+      "Nur die verbleibenden Rückstellungen nach § 6 Abs. 1 Nr. 3a EStG bewerten."
+    ],
+    "fehler": [
+      "Eine Drohverlustrückstellung ungeprüft in die Steuerbilanz übernehmen.",
+      "Eine Rückstellung für Aufwand bilden, der später als Anschaffungs- oder Herstellungskosten zu aktivieren ist."
+    ],
+    "merksatz": "Ein handelsrechtliches Gebot führt steuerlich zur Passivierung, außer einer der Vorbehalte in § 5 Abs. 2a bis 4b oder § 6a EStG greift."
+  },
+  {
+    "quelle": "bil-melzer-9-01",
+    "titel": "Wann ist ein aktiver Rechnungsabgrenzungsposten zu bilden?",
+    "einordnung": [
+      "Vorauszahlungen für Leistungen des nächsten Jahres dürfen den laufenden Gewinn nicht mindern. § 250 Abs. 1 HGB und § 5 Abs. 5 EStG verlangen dafür einen Abgrenzungsposten mit engen Voraussetzungen."
+    ],
+    "lernziele": [
+      "Aktiv abzugrenzen sind Ausgaben vor dem Stichtag, soweit sie Aufwand für eine bestimmte Zeit danach darstellen, etwa vorausbezahlte Miete, Versicherungsprämien oder Kfz-Steuer.",
+      "Eine bestimmte Zeit liegt nur vor, wenn Anfang und Ende feststehen oder sich ein Mindestzeitraum berechnen lässt; eine bloß geschätzte Dauer genügt nicht.",
+      "Rechnungsabgrenzungsposten sind keine Wirtschaftsgüter; sie werden weder abgezinst noch auf einen niedrigeren Teilwert abgeschrieben.",
+      "Ein Disagio darf handelsrechtlich nach § 250 Abs. 3 HGB abgegrenzt werden, steuerlich muss es aktiviert und über die Laufzeit aufgelöst werden."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob die Zahlung vor dem Bilanzstichtag geleistet wurde.",
+      "Klären, ob die Gegenleistung zeitraumbezogen ist und in das nächste Wirtschaftsjahr hineinreicht.",
+      "Den Zeitraum bestimmen und prüfen, ob er kalendermäßig feststeht oder rechnerisch festgelegt werden kann.",
+      "Den auf die Zeit nach dem Stichtag entfallenden Anteil abgrenzen.",
+      "Den Posten in den Folgejahren nach dem Zeitablauf aufwandswirksam auflösen."
+    ],
+    "fehler": [
+      "Eine Maklerprovision für den Abschluss eines Mietvertrags aktiv abgrenzen.",
+      "Erst später zu zahlenden Aufwand des alten Jahres als Rechnungsabgrenzung statt als Verbindlichkeit erfassen."
+    ],
+    "merksatz": "Aktiv abgegrenzt wird nur eine Zahlung vor dem Stichtag für eine bestimmte Zeit danach; das Disagio ist steuerlich immer abzugrenzen."
+  },
+  {
+    "quelle": "bil-melzer-ue-18",
+    "titel": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?",
+    "einordnung": [
+      "Wird ein Gebäude abgerissen, hängt die Behandlung von Restbuchwert und Abbruchkosten davon ab, wie und mit welcher Absicht es in den Betrieb gelangt ist. H 6.4 EStH bildet dafür feste Fallgruppen."
+    ],
+    "lernziele": [
+      "Wurde das Gebäude selbst errichtet oder ohne Abbruchabsicht erworben, sind Restbuchwert und Abbruchkosten sofort abziehbare Betriebsausgaben.",
+      "Bei Erwerb in Abbruchabsicht gehören beide zu den Herstellungskosten des neuen Wirtschaftsguts, wenn das Gebäude noch nicht verbraucht war und ein enger Zusammenhang mit der Neuherstellung besteht; fehlt dieser Zusammenhang, erhöhen sie die Anschaffungskosten des Bodens.",
+      "Wird innerhalb von drei Jahren nach Abschluss des Kaufvertrags abgerissen, spricht das für eine von Anfang an bestehende Abrissabsicht.",
+      "War das Gebäude beim Erwerb objektiv wertlos, entfällt der gesamte Kaufpreis auf den Grund und Boden."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob das Gebäude selbst errichtet, erworben oder eingelegt wurde.",
+      "Bei Erwerb prüfen, ob eine Abbruchabsicht bestand, und dabei die Dreijahresfrist als Indiz nutzen.",
+      "Klären, ob das Gebäude beim Erwerb technisch oder wirtschaftlich verbraucht war.",
+      "Restbuchwert und Abbruchkosten dem Neubau, dem Grund und Boden oder dem laufenden Aufwand zuordnen.",
+      "Erlöse aus verkauftem Abbruchmaterial mit den Abbruchkosten verrechnen und wiederverwendetes Material dem Neubau zuschlagen."
+    ],
+    "fehler": [
+      "Abbruchkosten nach Erwerb in Abbruchabsicht sofort als Aufwand abziehen.",
+      "Den Wert eines mit Abbruchabsicht eingelegten Gebäudes als Aufwand statt als Herstellungskosten des Neubaus behandeln."
+    ],
+    "merksatz": "Ohne Abbruchabsicht ist der Abriss Aufwand; mit Abbruchabsicht landen Restwert und Kosten beim Neubau oder beim Grund und Boden."
+  },
+  {
+    "quelle": "bil-melzer-ue-16",
+    "titel": "Bauen auf fremdem Grundstück: Was wird bilanziert?",
+    "einordnung": [
+      "Wer auf fremdem Grund baut, ist zivilrechtlich meist nicht Eigentümer des Gebäudes. Für die Bilanz ist deshalb zu klären, ob ein Scheinbestandteil, wirtschaftliches Eigentum oder nur ein zu verteilender Aufwand vorliegt."
+    ],
+    "lernziele": [
+      "Nach §§ 94, 946 BGB wird ein fest verbundenes Gebäude grundsätzlich Eigentum des Grundstückseigentümers.",
+      "Dient die Verbindung nur einem zeitlich begrenzten Zweck oder beruht der Bau auf einem dinglichen Recht wie Erbbaurecht oder Nießbrauch, bleibt das Gebäude nach § 95 BGB Eigentum des Erbauers und wird bei ihm aktiviert.",
+      "Wirtschaftliches Eigentum des Erbauers liegt vor, wenn die Nutzungsdauer die vereinbarte Nutzungszeit nicht übersteigt oder ihm bei Beendigung ein Ersatzanspruch in Höhe des Zeitwerts zusteht; bei Ehegatten reicht der gesetzliche Anspruch allein nicht.",
+      "Fehlt beides, werden die selbst getragenen Baukosten wie ein materielles Wirtschaftsgut nach den Gebäude-AfA-Sätzen verteilt; eine Übertragung nach § 6b EStG scheidet dann aus."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob das Gebäude Scheinbestandteil ist oder auf Grund eines dinglichen Rechts errichtet wurde.",
+      "Andernfalls klären, ob Nutzungsdauer, Vertragsgestaltung oder ein Entschädigungsanspruch wirtschaftliches Eigentum begründen.",
+      "Bei zivil- oder wirtschaftlichem Eigentum das Gebäude aktivieren und nach § 7 Abs. 4 EStG abschreiben.",
+      "Ist die tatsächliche Nutzungsdauer kürzer, etwa wegen Abrisspflicht zum Vertragsende, diese nach § 7 Abs. 4 Satz 2 EStG zugrunde legen.",
+      "Liegt keines von beiden vor, den eigenen Aufwand gesondert erfassen und über die Gebäudenutzungsdauer verteilen."
+    ],
+    "fehler": [
+      "Das Gebäude ohne Prüfung des wirtschaftlichen Eigentums als eigenes Wirtschaftsgut behandeln und § 6b EStG anwenden.",
+      "Die kürzere Miet- oder Pachtdauer bei bestehender Abrisspflicht für die AfA übersehen."
+    ],
+    "merksatz": "Erst Scheinbestandteil und dingliches Recht, dann wirtschaftliches Eigentum prüfen; greift nichts, wird der Aufwand trotzdem wie ein Gebäude abgeschrieben."
+  },
+  {
+    "quelle": "bil-melzer-3-03",
+    "titel": "Betriebsvermögen oder Privatvermögen: die Nutzungsgrenzen",
+    "einordnung": [
+      "Ob ein Wirtschaftsgut in die Steuerbilanz gehört, entscheidet über AfA, Entnahmegewinne und die Steuerverstrickung stiller Reserven. Die Klausur verlangt die Einordnung als notwendiges oder gewillkürtes Betriebsvermögen oder als Privatvermögen."
+    ],
+    "lernziele": [
+      "Bewegliche Wirtschaftsgüter, die zu mehr als 50 % eigenbetrieblich genutzt werden, sind nach R 4.2 Abs. 1 EStR notwendiges Betriebsvermögen, auch wenn sie nicht gebucht sind.",
+      "Bei weniger als 10 % betrieblicher Nutzung liegt notwendiges Privatvermögen vor, das nicht bilanziert werden darf.",
+      "Dazwischen kann das Wirtschaftsgut als gewillkürtes Betriebsvermögen behandelt werden, wenn die Zuordnung zeitnah und eindeutig in den Büchern dokumentiert wird.",
+      "Grundstücke bestehen steuerlich aus mehreren Wirtschaftsgütern, nämlich dem Boden, dem Gebäude und den Außenanlagen; Gebäudeteile mit eigenem Nutzungs- und Funktionszusammenhang sind selbständige Wirtschaftsgüter."
+    ],
+    "pruefschritte": [
+      "Zwischen Grundstücken und anderen Wirtschaftsgütern unterscheiden.",
+      "Den Anteil der eigenbetrieblichen Nutzung anhand von Aufzeichnungen oder Schätzung bestimmen.",
+      "Bei über 50 % notwendiges Betriebsvermögen annehmen und eine unterlassene Einbuchung korrigieren.",
+      "Bei einer Nutzung von mindestens 10 % bis 50 % prüfen, ob eine zeitnahe Widmung in den Büchern erfolgt ist.",
+      "Bei Grundstücken jeden Gebäudeteil nach seiner Nutzung gesondert zuordnen."
+    ],
+    "fehler": [
+      "Ein überwiegend eigenbetrieblich genutztes Wirtschaftsgut als Privatvermögen behandeln, nur weil es nicht gebucht wurde.",
+      "Ein Fahrzeug mit weniger als 10 % betrieblicher Nutzung als gewillkürtes Betriebsvermögen bilanzieren."
+    ],
+    "merksatz": "Über 50 % betrieblich: notwendig. Unter 10 %: privat. Dazwischen gewillkürt, wenn die Zuordnung zeitnah dokumentiert ist."
+  },
+  {
+    "quelle": "bil-melzer-3-01",
+    "titel": "Selbst geschaffene immaterielle Werte: Aktivieren oder nicht?",
+    "einordnung": [
+      "Bei immateriellen Werten weichen Handels- und Steuerbilanz besonders deutlich voneinander ab. Das betrifft vor allem selbst geschaffene Rechte und den Geschäfts- oder Firmenwert."
+    ],
+    "lernziele": [
+      "Handelsrechtlich dürfen selbst geschaffene immaterielle Anlagegüter nach § 248 Abs. 2 Satz 1 HGB aktiviert werden, allerdings nur mit Entwicklungs-, nicht mit Forschungskosten.",
+      "Selbst geschaffene Marken, Drucktitel, Verlagsrechte und Kundenlisten dürfen nach § 248 Abs. 2 Satz 2 HGB nicht aktiviert werden.",
+      "Steuerlich verbietet § 5 Abs. 2 EStG den Ansatz nicht entgeltlich erworbener immaterieller Wirtschaftsgüter des Anlagevermögens und durchbricht insoweit die Maßgeblichkeit.",
+      "Ein entgeltlich erworbener Firmenwert ist in beiden Bilanzen anzusetzen; steuerlich wird er nach § 7 Abs. 1 Satz 3 EStG über 15 Jahre abgeschrieben."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob der immaterielle Wert die Merkmale eines Wirtschaftsguts erfüllt.",
+      "Klären, ob er entgeltlich erworben oder selbst geschaffen wurde und ob er zum Anlage- oder Umlaufvermögen gehört.",
+      "Handelsrechtlich Wahlrecht und Ausnahmen des § 248 Abs. 2 HGB anwenden und Forschung von Entwicklung trennen.",
+      "Steuerlich selbst geschaffene immaterielle Anlagegüter nicht ansetzen.",
+      "Einen erworbenen Firmenwert aktivieren und steuerlich linear über die gesetzliche Nutzungsdauer abschreiben."
+    ],
+    "fehler": [
+      "Handelsrechtlich aktivierte Entwicklungskosten in die Steuerbilanz übernehmen.",
+      "Einen selbst geschaffenen Firmenwert aktivieren."
+    ],
+    "merksatz": "Selbst geschaffen und Anlagevermögen: handelsrechtlich Wahlrecht mit Ausnahmen, steuerlich Verbot. Gekauft: überall aktivieren, steuerlich 15 Jahre AfA."
+  }
+]

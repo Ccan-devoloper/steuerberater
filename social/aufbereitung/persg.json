@@ -1,0 +1,605 @@
+[
+  {
+    "quelle": "persg-melzer-1-2",
+    "titel": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
+    "einordnung": [
+      "Bei Personengesellschaften setzt sich das steuerliche Betriebsvermögen aus zwei Bereichen zusammen: dem Gesellschaftsvermögen und dem Sonderbetriebsvermögen der einzelnen Mitunternehmer. Wer die Zuordnung sauber trennt, legt das Fundament für jede Bilanzkorrektur in Klausur 3."
+    ],
+    "lernziele": [
+      "Nach § 39 Abs. 2 Nr. 2 AO gilt das Vermögen einer rechtsfähigen Personengesellschaft für die Ertragsteuern als Gesamthandsvermögen und wird den Gesellschaftern anteilig zugerechnet, soweit die Besteuerung das verlangt.",
+      "Was der Gesellschaft zivilrechtlich oder wirtschaftlich gehört, ist handelsrechtlich zu bilanzieren und über die Maßgeblichkeit grundsätzlich auch in der Steuerbilanz zu zeigen.",
+      "Eine Kategorie gewillkürtes Betriebsvermögen kennt das Gesellschaftsvermögen nicht; ein teils privat genutztes Wirtschaftsgut der Gesellschaft ist deshalb regelmäßig notwendiges Betriebsvermögen.",
+      "Ausnahmsweise bleibt Gesellschaftsvermögen steuerlich Privatvermögen, etwa bei betrieblicher Nutzung unter 10 %, bei dauerhaft privater Verwendung durch einen Gesellschafter oder bei Wirtschaftsgütern ohne betriebliche Veranlassung."
+    ],
+    "pruefschritte": [
+      "Stelle fest, ob das Wirtschaftsgut der Gesellschaft selbst gehört oder einem, mehreren oder allen Gesellschaftern.",
+      "Gehört es der Gesellschaft, bejahe grundsätzlich Betriebsvermögen und suche nur noch nach Gründen für gesamthänderisch gebundenes Privatvermögen.",
+      "Prüfe bei gemischter Nutzung den betrieblichen Anteil: Liegt er unter 10 %, scheidet Betriebsvermögen nach R 4.2 Abs. 1 EStR aus.",
+      "Gehört das Wirtschaftsgut einem Gesellschafter, wechsle zur Prüfung von Sonderbetriebsvermögen I oder II."
+    ],
+    "fehler": [
+      "Für einen gemischt genutzten Pkw der Gesellschaft wird ein Wahlrecht wie beim Einzelunternehmer angenommen.",
+      "Verlustbringende oder rein privat veranlasste Wirtschaftsgüter werden nur deshalb als Betriebsvermögen behandelt, weil sie zivilrechtlich der Gesellschaft gehören."
+    ],
+    "merksatz": "Gesellschaftsvermögen ist im Regelfall notwendiges Betriebsvermögen; ein Wahlrecht wie beim Einzelunternehmer gibt es dort nicht."
+  },
+  {
+    "quelle": "persg-melzer-1-3",
+    "titel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+    "einordnung": [
+      "Überlässt ein Mitunternehmer der Gesellschaft eigene Wirtschaftsgüter, gehören diese steuerlich zu seinem Sonderbetriebsvermögen I. Die Folgen reichen von der Einlagebewertung bis zur Sonder-GuV und tauchen in fast jeder Klausur auf."
+    ],
+    "lernziele": [
+      "Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist notwendiges Sonderbetriebsvermögen I; auf Entgeltlichkeit, Vertragsform oder Beteiligungshöhe kommt es nicht an.",
+      "Die Miete ist beim Gesellschafter Sondervergütung nach § 15 Abs. 1 Satz 1 Nr. 2 EStG, seine eigenen Grundstückskosten sind Sonderbetriebsausgaben.",
+      "Wird ein bisher vermietetes Privatgrundstück mit dem Eintritt Sonderbetriebsvermögen, liegt eine Einlage nach § 4 Abs. 1 Satz 8 EStG vor, bewertet nach § 6 Abs. 1 Nr. 5 EStG; die AfA-Bemessungsgrundlage ergibt sich dann aus § 7 Abs. 1 Satz 5 EStG.",
+      "Eine Darlehensforderung des Gesellschafters gegen die Gesellschaft ist Sonderbetriebsvermögen I; eine Wertberichtigung kommt erst bei Beendigung der Mitunternehmerstellung in Betracht."
+    ],
+    "pruefschritte": [
+      "Klären, wem das Wirtschaftsgut gehört und ob der Eigentümer im betreffenden Zeitraum Mitunternehmer ist.",
+      "Prüfen, ob das Wirtschaftsgut dem Betrieb der Gesellschaft unmittelbar dient; bei Miteigentum nur den Anteil des Mitunternehmers erfassen.",
+      "Bei Zugang aus dem Privatvermögen Einlagezeitpunkt und Einlagewert bestimmen und die Dreijahresgrenze des § 6 Abs. 1 Nr. 5 Satz 1 EStG prüfen.",
+      "Sonderbilanz und Sonder-GuV aufstellen: Mietzahlungen als Entnahmen, selbst getragene Kosten als Einlagen, Miete als Ertrag und Kosten samt AfA als Aufwand.",
+      "Vorsteuer zu den Grundstückskosten nur ansetzen, wenn die Vermietung umsatzsteuerpflichtig ist."
+    ],
+    "fehler": [
+      "Der Anteil eines Ehegatten, der nicht Gesellschafter ist, wird mit ins Sonderbetriebsvermögen gezogen, obwohl er Privatvermögen bleibt.",
+      "Nach der Einlage eines zuvor vermieteten Gebäudes wird die AfA vom vollen Einlagewert berechnet, ohne die bis dahin abgezogene AfA nach § 7 Abs. 1 Satz 5 EStG zu kürzen."
+    ],
+    "merksatz": "Was ein Mitunternehmer der Gesellschaft zur Nutzung gibt, wird bei ihm Sonderbetriebsvermögen I, gleich ob gegen Miete, unentgeltlich oder ohne schriftlichen Vertrag."
+  },
+  {
+    "quelle": "persg-melzer-1-4",
+    "titel": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?",
+    "einordnung": [
+      "Sonderbetriebsvermögen II betrifft Wirtschaftsgüter, die nicht dem Betrieb, sondern der Beteiligung des Mitunternehmers dienen. Typisch sind Finanzierungsdarlehen und Anteile an Kapitalgesellschaften."
+    ],
+    "lernziele": [
+      "Notwendiges Sonderbetriebsvermögen II liegt vor, wenn ein Wirtschaftsgut des Mitunternehmers eingesetzt wird, um seine Beteiligung zu erwerben oder seine Position in der Gesellschaft zu stärken.",
+      "Ein Kredit, mit dem der Gesellschafter seine Einlage oder den Anteilskauf finanziert, ist passives Sonderbetriebsvermögen II; die Zinsen sind Sonderbetriebsausgaben.",
+      "Anteile an einer Kapitalgesellschaft gehören dazu, wenn diese wirtschaftlich eng mit der Personengesellschaft verflochten ist und keinen nennenswerten eigenen Geschäftsbetrieb hat, insbesondere bei der Betriebs-GmbH einer Betriebsaufspaltung (H 4.2 Abs. 2 EStH).",
+      "Auch ein Grundstück, das der Gesellschafter einem Dritten überlässt, damit dieser es an die Gesellschaft weitervermietet, kann Sonderbetriebsvermögen sein (H 4.2 Abs. 12 EStH)."
+    ],
+    "pruefschritte": [
+      "Zuerst klären, ob das Wirtschaftsgut dem Betrieb der Gesellschaft unmittelbar dient; dann ist es bereits Sonderbetriebsvermögen I.",
+      "Andernfalls prüfen, ob es die Beteiligung begründet, finanziert oder den Einfluss des Gesellschafters in der Gesellschaft erhöht.",
+      "Bei Kapitalgesellschaftsanteilen Verflechtung, Beherrschung und eigenen Geschäftsbetrieb der Kapitalgesellschaft untersuchen.",
+      "Fehlt notwendiges Sonderbetriebsvermögen, gewillkürtes Sonderbetriebsvermögen II erwägen, etwa für als Kreditsicherheit verpfändete Wertpapiere."
+    ],
+    "fehler": [
+      "Das Darlehen zur Finanzierung der Einlage wird im Privatbereich gelassen, sodass die Zinsen als Sonderbetriebsausgaben fehlen.",
+      "Anteile an einer Kapitalgesellschaft mit umfangreichem eigenen Geschäft werden allein wegen der Geschäftsbeziehung zur Personengesellschaft als Sonderbetriebsvermögen II behandelt."
+    ],
+    "merksatz": "Sonderbetriebsvermögen II dient nicht dem Betrieb, sondern der Beteiligung: Es finanziert sie oder verschafft dem Gesellschafter mehr Einfluss."
+  },
+  {
+    "quelle": "persg-melzer-1-5",
+    "titel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
+    "einordnung": [
+      "Ein Wirtschaftsgut kann nach mehreren Regeln zugleich Betriebsvermögen sein. Die Klausur verlangt dann eine klare Rangfolge, vor allem bei Vermietungen zwischen Schwester-Personengesellschaften."
+    ],
+    "lernziele": [
+      "Kommen Sonderbetriebsvermögen I und II zusammen in Betracht, geht die Zuordnung als Sonderbetriebsvermögen I vor.",
+      "Im Steuerrecht geht Sonderbetriebsvermögen dem eigenen Betriebsvermögen des Gesellschafters vor, selbst wenn das Wirtschaftsgut handelsrechtlich in seinem Einzelunternehmen oder seiner GmbH bilanziert bleibt; der Wechsel erfolgt nach § 6 Abs. 5 Satz 2 EStG zum Buchwert.",
+      "Überlässt eine gewerbliche Personengesellschaft ein Wirtschaftsgut an eine Schwestergesellschaft mit zumindest teilweise denselben Gesellschaftern, verdrängt die mitunternehmerische Betriebsaufspaltung den § 15 Abs. 1 Satz 1 Nr. 2 EStG; das Wirtschaftsgut bleibt bei der überlassenden Gesellschaft Betriebsvermögen.",
+      "Keine mitunternehmerische Betriebsaufspaltung entsteht bei unentgeltlicher Überlassung, bei fehlender Gewinnerzielungsabsicht der Besitzgesellschaft oder wenn die nutzende Gesellschaft freiberuflich tätig ist."
+    ],
+    "pruefschritte": [
+      "Alle denkbaren Zuordnungen des Wirtschaftsguts sammeln: eigenes Betriebsvermögen, Sonderbetriebsvermögen I oder II, Vermögen einer Besitzgesellschaft.",
+      "Bei Vermietung zwischen Personengesellschaften prüfen, ob die Nutzende einen Gewerbebetrieb unterhält und die Überlassung entgeltlich mit Gewinnerzielungsabsicht erfolgt.",
+      "Sachliche Verflechtung über eine wesentliche Betriebsgrundlage prüfen, für die personelle die Stimmrechtsregeln beider Gesellschaftsverträge auswerten.",
+      "Nach der Rangfolge zuordnen und Folgen ziehen, etwa Gewerblichkeit eines nur an der Besitzgesellschaft Beteiligten oder Abfärbung nach § 15 Abs. 3 Nr. 1 EStG."
+    ],
+    "fehler": [
+      "Ein an die Schwestergesellschaft überlassenes Grundstück landet als Sonderbetriebsvermögen bei der nutzenden Gesellschaft, obwohl eine mitunternehmerische Betriebsaufspaltung vorliegt.",
+      "Die personelle Verflechtung wird bejaht, obwohl der Gesellschaftsvertrag der Besitzgesellschaft einstimmige Beschlüsse verlangt und ein Nur-Besitz-Gesellschafter mitstimmt."
+    ],
+    "merksatz": "Rangfolge: Betriebsaufspaltung zwischen Schwestern vor Sonderbetriebsvermögen, Sonderbetriebsvermögen vor eigenem Betriebsvermögen, SBV I vor SBV II."
+  },
+  {
+    "quelle": "persg-melzer-1-6",
+    "titel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
+    "einordnung": [
+      "Ergänzungsbilanzen korrigieren die Werte der Gesamthandsbilanz für einzelne Gesellschafter. Sie sind das Werkzeug, mit dem stille Reserven der richtigen Person zugeordnet bleiben."
+    ],
+    "lernziele": [
+      "Eine Ergänzungsbilanz enthält keine eigenen Wirtschaftsgüter, sondern nur Mehr- oder Minderwerte zu den in der Gesamthandsbilanz ausgewiesenen Wirtschaftsgütern.",
+      "Der steuerlich zutreffende Wert eines Wirtschaftsguts ergibt sich erst aus Gesamthandsbilanz und Ergänzungsbilanz zusammen.",
+      "Bringt ein Gesellschafter ein Wirtschaftsgut aus seinem Betriebsvermögen gegen Gesellschaftsrechte ein, sind nach § 6 Abs. 5 Satz 3 Nr. 1 EStG zwingend die Buchwerte fortzuführen; § 6 Abs. 6 Satz 4 EStG lässt dieser Regel den Vorrang vor dem Tausch.",
+      "Setzt die Gesellschaft das eingebrachte Wirtschaftsgut mit dem höheren Zeitwert an, neutralisiert eine negative Ergänzungsbilanz des Einbringenden den aufgedeckten Betrag."
+    ],
+    "pruefschritte": [
+      "Den Vorgang einordnen, etwa Einbringung, Anteilserwerb oder personenbezogene Steuervergünstigung, und den steuerlich maßgebenden Wert für den Gesellschafter bestimmen.",
+      "Den Ansatz in der Gesamthandsbilanz ermitteln, der sich meist nach dem Handelsrecht oder dem Gesellschaftsvertrag richtet.",
+      "Die Differenz zwischen steuerlich maßgebendem Wert und anteiligem Gesamthandsansatz in die Ergänzungsbilanz des betroffenen Gesellschafters stellen.",
+      "Die Ergänzungsbilanz in den Folgejahren parallel zum Wirtschaftsgut fortentwickeln und ihr Ergebnis dem Gewinnanteil des Gesellschafters zurechnen."
+    ],
+    "fehler": [
+      "In der Ergänzungsbilanz werden Wirtschaftsgüter aktiviert, die dem Gesellschafter persönlich gehören; diese gehören in die Sonderbilanz.",
+      "Bei der Einbringung aus einem Betriebsvermögen wird nach § 6 Abs. 6 Satz 1 EStG ein gewinnrealisierender Tausch angenommen."
+    ],
+    "merksatz": "Sonderbilanz zeigt eigene Wirtschaftsgüter des Gesellschafters, Ergänzungsbilanz nur Wertkorrekturen zu Wirtschaftsgütern der Gesellschaft."
+  },
+  {
+    "quelle": "persg-melzer-1-7",
+    "titel": "Wie ermittelt man den Gewinn eines Mitunternehmers?",
+    "einordnung": [
+      "Verträge zwischen Gesellschaft und Gesellschafter werden handelsrechtlich anerkannt, steuerlich aber über § 15 Abs. 1 Satz 1 Nr. 2 EStG dem Gewinnanteil zugeschlagen. Daraus folgt die zweistufige Gewinnermittlung, die jede Klausurlösung am Ende braucht."
+    ],
+    "lernziele": [
+      "Vergütungen für Tätigkeit, Darlehen oder Nutzungsüberlassung, die die Gesellschaft an einen Gesellschafter zahlt, mindern den Gewinn der Gesellschaft und werden beim Empfänger als Sonderbetriebseinnahmen erfasst.",
+      "Aufwendungen, die dem Gesellschafter im Zusammenhang mit seiner Beteiligung oder seinen Sondervergütungen entstehen, sind Sonderbetriebsausgaben und gehören in seine Sonder-GuV.",
+      "Auf der ersten Stufe stehen der Anteil am Ergebnis der Gesellschaftsbilanz und das Ergebnis der Ergänzungsbilanz, auf der zweiten Stufe folgt das Ergebnis aus Sonderbilanz und Sonder-GuV."
+    ],
+    "pruefschritte": [
+      "Den Gewinn laut Gesellschaftsbilanz nach allen Korrekturen feststellen und nach dem Gewinnverteilungsschlüssel aufteilen.",
+      "Für jeden Gesellschafter das Ergebnis seiner Ergänzungsbilanz dem Anteil hinzurechnen oder abziehen.",
+      "Sondervergütungen und sonstige Sonderbetriebseinnahmen erfassen und die zugehörigen Sonderbetriebsausgaben abziehen.",
+      "Die Summe je Gesellschafter bilden und prüfen, ob der Gesamtgewinn der Mitunternehmerschaft rechnerisch aufgeht."
+    ],
+    "fehler": [
+      "Die Geschäftsführervergütung wird bei der Gesellschaft nicht als Aufwand gebucht und zusätzlich beim Gesellschafter als Sonderbetriebseinnahme erfasst, sodass sie doppelt versteuert wird.",
+      "Die Ergänzungsbilanz wird innerhalb derselben Lösung einmal der ersten und einmal der zweiten Stufe zugeordnet."
+    ],
+    "merksatz": "Was die Gesellschaft dem Gesellschafter vertraglich zahlt, mindert ihren Gewinn und kommt über die Sonder-GuV beim Gesellschafter wieder hinzu."
+  },
+  {
+    "quelle": "persg-melzer-2-1",
+    "titel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
+    "einordnung": [
+      "Hält ein bilanzierender Unternehmer einen Anteil an einer Personengesellschaft, weichen Handels- und Steuerbilanz deutlich voneinander ab. Die Spiegelbildmethode ist dafür Pflichtwissen."
+    ],
+    "lernziele": [
+      "Handelsrechtlich ist der Anteil ein Vermögensgegenstand, der mit den Anschaffungskosten zugeht und bei voraussichtlich dauernder Wertminderung außerplanmäßig abzuschreiben ist (§ 253 Abs. 3 Satz 5 HGB).",
+      "Steuerbilanziell stellt der Anteil kein eigenständiges Wirtschaftsgut dar, sodass auch keine Teilwertabschreibung auf ihn möglich ist.",
+      "Steuerlich wird die Beteiligung spiegelbildlich zum Kapital des Gesellschafters bei der Gesellschaft ausgewiesen, einschließlich der Kapitalkonten aus Ergänzungs- und Sonderbilanzen.",
+      "Der Gewinnanteil entsteht mit Ablauf des Wirtschaftsjahres der Personengesellschaft in Höhe des festgestellten Anteils, ohne dass es auf Beschluss oder Auszahlung ankommt."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob die Beteiligung zu einem Betriebsvermögen des Gesellschafters gehört und welche Bilanz gefragt ist.",
+      "In der Handelsbilanz Anschaffungskosten, Gewinnforderungen und eine mögliche außerplanmäßige Abschreibung beurteilen.",
+      "In der Steuerbilanz den Beteiligungsansatz aus den Kapitalkonten des Gesellschafters bei der Gesellschaft ableiten.",
+      "Gewinnanteile, Verlustanteile, Einlagen und Entnahmen der Gesellschaft spiegelbildlich im Beteiligungskonto nachbuchen."
+    ],
+    "fehler": [
+      "In der Steuerbilanz wird eine Teilwertabschreibung auf die Beteiligung an der Personengesellschaft vorgenommen.",
+      "Der Gewinnanteil wird erst bei Auszahlung als Ertrag erfasst."
+    ],
+    "merksatz": "Steuerlich spiegelt die Beteiligung nur das Kapital des Gesellschafters bei der Gesellschaft; einen eigenen Teilwert hat sie nicht."
+  },
+  {
+    "quelle": "persg-melzer-2-2",
+    "titel": "Überführung oder Übertragung nach § 6 Abs. 5 EStG?",
+    "einordnung": [
+      "§ 6 Abs. 5 EStG erlaubt Buchwertverlagerungen einzelner Wirtschaftsgüter zwischen Betriebsvermögen von Mitunternehmern und Mitunternehmerschaften. Entscheidend ist, ob der Rechtsträger wechselt und welche Gegenleistung fließt."
+    ],
+    "lernziele": [
+      "Bei einer Überführung nach § 6 Abs. 5 Satz 1 oder 2 EStG bleibt das Wirtschaftsgut beim selben Steuerpflichtigen, sodass keine stillen Reserven auf andere Personen übergehen; der Buchwert ist zwingend, wenn die spätere Besteuerung gesichert ist.",
+      "Eine Übertragung nach § 6 Abs. 5 Satz 3 Nr. 1 bis 3 EStG ist mit einem Wechsel des Rechtsträgers verbunden und nur begünstigt, wenn sie ohne Entgelt oder im Austausch gegen neue oder wegfallende Gesellschaftsrechte geschieht; Nr. 3 erfasst nur unentgeltliche Vorgänge.",
+      "Übernimmt die Gesellschaft zugleich eine Verbindlichkeit, liegt eine teilentgeltliche Übertragung vor; die Verwaltung teilt nach dem Verhältnis von Entgelt zu Verkehrswert in einen Veräußerungs- und einen Buchwertteil auf.",
+      "Sind die Voraussetzungen des § 6 Abs. 3 EStG oder des § 24 UmwStG erfüllt, gehen diese Vorschriften vor."
+    ],
+    "pruefschritte": [
+      "Abgebendes und aufnehmendes Vermögen bestimmen: eigenes Betriebsvermögen, Sonderbetriebsvermögen oder Gesellschaftsvermögen welcher Mitunternehmerschaft.",
+      "Feststellen, ob der Rechtsträger wechselt, und danach Satz 1 und 2 oder Satz 3 des § 6 Abs. 5 EStG anwenden.",
+      "Die Gegenleistung analysieren: Buchung auf einem Gesellschaftsrechte vermittelnden Kapitalkonto, Übernahme von Schulden oder gar keine Gegenleistung.",
+      "Bei Teilentgelt den entgeltlichen Anteil ermitteln, dort die stillen Reserven aufdecken und für den Rest den Buchwert fortführen.",
+      "Sicherstellen, dass die stillen Reserven steuerverstrickt bleiben, und Sperrfrist sowie Körperschaftsteuerklausel vormerken."
+    ],
+    "fehler": [
+      "Eine Schuldübernahme durch die Gesellschaft wird übersehen und der Vorgang als voll unentgeltlich zum Buchwert behandelt.",
+      "Die Sonderbetriebsvermögens-Übertragung auf einen anderen Mitunternehmer nach Nr. 3 wird auch gegen Gesellschaftsrechte als begünstigt angesehen."
+    ],
+    "merksatz": "§ 6 Abs. 5 EStG: Überführung ohne Rechtsträgerwechsel, Übertragung mit Rechtsträgerwechsel; begünstigt nur unentgeltlich oder gegen Gesellschaftsrechte."
+  },
+  {
+    "quelle": "persg-melzer-2-3",
+    "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+    "einordnung": [
+      "Die unmittelbare Übertragung zwischen den Gesellschaftsvermögen zweier Personengesellschaften war lange nicht zum Buchwert möglich. Nach dem Beschluss des BVerfG vom 28.11.2023 und dem JStG 2024 ist die Lage differenziert zu prüfen."
+    ],
+    "lernziele": [
+      "§ 6 Abs. 5 Satz 3 Nr. 2 EStG erfasst nur den Weg zwischen Sonderbetriebsvermögen und Gesellschaftsvermögen, nicht den direkten Transfer zwischen zwei Gesellschaftsvermögen.",
+      "Das BVerfG hat den Buchwertausschluss für beteiligungsidentische Schwester-Personengesellschaften als Verstoß gegen Art. 3 Abs. 1 GG beanstandet.",
+      "Der mit dem JStG 2024 eingefügte § 6 Abs. 5 Satz 3 Nr. 4 EStG erlaubt die unentgeltliche Buchwertübertragung zwischen Gesellschaftsvermögen von Mitunternehmerschaften, an denen dieselben Personen im selben Verhältnis beteiligt sind.",
+      "Bei unterschiedlichen Beteiligungsquoten bleibt der Weg über Verkauf und Übertragung des Gewinns nach §§ 6b, 6c EStG; begünstigt ist dieser nur, soweit Gewinn und neues Wirtschaftsgut demselben Mitunternehmer zuzurechnen sind (vgl. R 6b.2 EStR)."
+    ],
+    "pruefschritte": [
+      "Klären, ob das Wirtschaftsgut direkt von Gesellschaftsvermögen zu Gesellschaftsvermögen wechselt oder über Sonderbetriebsvermögen läuft.",
+      "Beteiligungsidentität prüfen: dieselben Mitunternehmer mit denselben Quoten an beiden Gesellschaften.",
+      "Bei Identität und Unentgeltlichkeit § 6 Abs. 5 Satz 3 Nr. 4 EStG mit Buchwert anwenden, sonst Veräußerung mit Gewinnrealisierung annehmen.",
+      "Bei begünstigten Wirtschaftsgütern mit sechsjähriger Zugehörigkeit prüfen, inwieweit der Gewinn nach § 6b EStG auf die erwerbende Gesellschaft übertragen werden kann."
+    ],
+    "fehler": [
+      "§ 6 Abs. 5 Satz 1 EStG wird für den Transfer zwischen Schwestergesellschaften herangezogen, obwohl ein Rechtsträgerwechsel vorliegt.",
+      "Die neue Nr. 4 wird auch bei abweichenden Beteiligungsquoten oder gegen Entgelt angewendet."
+    ],
+    "merksatz": "Direkter Buchwerttransfer zwischen Schwester-PersG nur unentgeltlich und bei identischer Beteiligung; sonst bleibt meist nur der Weg über § 6b EStG."
+  },
+  {
+    "quelle": "persg-melzer-2-4",
+    "titel": "Wann kippt die Buchwertübertragung wegen der Sperrfrist?",
+    "einordnung": [
+      "Die Buchwertübertragung nach § 6 Abs. 5 Satz 3 EStG steht unter dem Vorbehalt einer dreijährigen Sperrfrist. In Klausuren wird gern ein späterer Verkauf durch die Gesellschaft eingebaut."
+    ],
+    "lernziele": [
+      "Veräußert oder entnimmt der Übernehmer das Wirtschaftsgut innerhalb der Sperrfrist, ist rückwirkend auf den Übertragungszeitpunkt der Teilwert anzusetzen (§ 6 Abs. 5 Satz 4 EStG).",
+      "Die Frist läuft bis drei Jahre nach Abgabe der Steuer- oder Feststellungserklärung des Übertragenden für den Zeitraum der Übertragung.",
+      "Die Rückwirkung unterbleibt, wenn eine Ergänzungsbilanz dem Übertragenden die vor dem Transfer gebildeten stillen Reserven zuweist.",
+      "Als schädliche Veräußerung gilt auch eine Einbringung oder Umwandlung nach dem UmwStG, gleich mit welchem Wert; die Änderung erfolgt verfahrensrechtlich über § 175 Abs. 1 Satz 1 Nr. 2 AO."
+    ],
+    "pruefschritte": [
+      "Übertragungszeitpunkt und Abgabedatum der Erklärung des Übertragenden für diesen Zeitraum feststellen und das Fristende berechnen.",
+      "Prüfen, ob innerhalb der Frist eine Veräußerung, Entnahme oder gleichgestellte Umwandlung beim Übernehmer stattfand.",
+      "Klären, ob eine Ergänzungsbilanz die stillen Reserven dem Übertragenden zugewiesen hat; dann bleibt es beim Buchwert.",
+      "Andernfalls rückwirkend den Teilwert ansetzen, den Gewinn beim Übertragenden erfassen und beim Übernehmer die höhere AfA-Basis berücksichtigen."
+    ],
+    "fehler": [
+      "Die Sperrfrist wird ab dem Übertragungstag mit starren drei Jahren gerechnet statt ab Abgabe der Erklärung.",
+      "Der Gewinn aus dem rückwirkenden Teilwertansatz wird der aufnehmenden Gesellschaft statt dem Übertragenden zugerechnet."
+    ],
+    "merksatz": "Verkauf innerhalb der Sperrfrist heißt rückwirkend Teilwert, es sei denn, eine Ergänzungsbilanz hat die stillen Reserven beim Übertragenden gehalten."
+  },
+  {
+    "quelle": "persg-melzer-2-4",
+    "variante": "b",
+    "titel": "Wann greift die Körperschaftsteuerklausel des § 6 Abs. 5 EStG?",
+    "einordnung": [
+      "Stille Reserven sollen nicht per Buchwertübertragung zu einer Körperschaft wandern und dort später nach § 8b KStG begünstigt werden. Dagegen richten sich § 6 Abs. 5 Sätze 5 bis 7 EStG."
+    ],
+    "lernziele": [
+      "Soweit durch die Übertragung ein vermögensmäßiger Anteil einer Körperschaft am Wirtschaftsgut unmittelbar oder mittelbar entsteht oder wächst, ist der Teilwert anzusetzen; eine Ergänzungsbilanz ändert daran nichts.",
+      "Ist die Komplementär-GmbH nicht am Vermögen der KG beteiligt, bleibt die Buchwertübertragung eines Kommanditisten unberührt, weil kein Körperschaftsanteil entsteht.",
+      "Nach § 6 Abs. 5 Satz 6 EStG wird der Buchwert rückwirkend versagt, wenn ein solcher Körperschaftsanteil innerhalb von sieben Jahren nach der Übertragung entsteht oder steigt, etwa durch eine Einbringung nach § 20 UmwStG oder einen Formwechsel nach § 25 UmwStG.",
+      "Seit dem JStG 2024 stellt § 6 Abs. 5 Satz 7 EStG klar, dass die Klausel auch greift, wenn der neue Körperschaftsanteil an die Stelle des Anteils einer anderen Körperschaft tritt."
+    ],
+    "pruefschritte": [
+      "Die vermögensmäßige Beteiligung aller Körperschaften an der aufnehmenden Mitunternehmerschaft vor und nach der Übertragung feststellen.",
+      "Die Quote ermitteln, zu der eine Körperschaft erstmals oder stärker am Wirtschaftsgut beteiligt wird, und insoweit den Teilwert ansetzen.",
+      "Für den übrigen Teil den Buchwert fortführen und den anteiligen Gewinn beim Übertragenden berechnen.",
+      "Für die folgenden sieben Jahre Umwandlungen und Anteilsverschiebungen zugunsten von Körperschaften überwachen."
+    ],
+    "fehler": [
+      "Die Klausel wird angewendet, obwohl die Komplementär-GmbH am Vermögen der KG gar nicht beteiligt ist.",
+      "Der Teilwert wird auf das ganze Wirtschaftsgut angesetzt statt nur auf die Quote, die der Körperschaft neu zuwächst."
+    ],
+    "merksatz": "Teilwert nur, soweit eine Körperschaft am übertragenen Wirtschaftsgut neu oder stärker beteiligt wird; die Siebenjahresfrist wacht über spätere Umwandlungen."
+  },
+  {
+    "quelle": "persg-melzer-2-5",
+    "titel": "Tausch oder verdeckte Einlage bei Einbringung aus dem Privatvermögen?",
+    "einordnung": [
+      "Bringt ein Gesellschafter ein Wirtschaftsgut aus seinem Privatvermögen in die Gesellschaft ein, entscheidet das bebuchte Gesellschafterkonto über Entgeltlichkeit. Davon hängen § 17 und § 23 EStG beim Gesellschafter ab."
+    ],
+    "lernziele": [
+      "Wird der Wert ganz oder teilweise dem festen Kapitalkonto I gutgeschrieben, erhält der Einbringende Gesellschaftsrechte; es liegt ein insgesamt entgeltlicher, tauschähnlicher Vorgang vor, auch wenn der Rest in eine gesamthänderische Rücklage fließt.",
+      "Erfolgt die Gutschrift ausschließlich auf einem variablen Kapitalkonto II oder einer gesamthänderisch gebundenen Rücklage, handelt es sich nach dem BFH-Urteil IV R 15/14 mangels Entgelt um eine verdeckte Einlage, die nach § 6 Abs. 1 Nr. 5 EStG zu bewerten ist.",
+      "Beim Tausch kann ein privates Veräußerungsgeschäft nach § 23 Abs. 1 Satz 1 Nr. 1 EStG oder eine Veräußerung nach § 17 EStG entstehen; bei der verdeckten Einlage droht § 23 Abs. 1 Satz 5 Nr. 1 EStG, wenn die Gesellschaft innerhalb der Frist veräußert.",
+      "Wird bewusst ein zu niedriger Einbringungswert vereinbart, zerlegt man den Vorgang nach dem Anteil, den der Wert der neuen Gesellschaftsrechte am gemeinen Wert ausmacht: insoweit Veräußerung, im Übrigen Einlage."
+    ],
+    "pruefschritte": [
+      "Feststellen, auf welchen Konten der Wert des eingebrachten Wirtschaftsguts gebucht wurde und welche Rechte diese Konten nach dem Gesellschaftsvertrag vermitteln.",
+      "Bei Buchung auf dem Kapitalkonto I einen Tausch annehmen, bei reinem Darlehenskonto eine entgeltliche Veräußerung gegen Forderung.",
+      "Bei ausschließlicher Buchung auf Kapitalkonto II oder Rücklage eine verdeckte Einlage annehmen und nach Einlagegrundsätzen bewerten.",
+      "Beim Gesellschafter die Folgen nach § 17 oder § 23 EStG prüfen und bei der Gesellschaft Anschaffungskosten oder Einlagewert ansetzen."
+    ],
+    "fehler": [
+      "Eine Buchung nur auf dem Kapitalkonto II wird nach der überholten Verwaltungsauffassung als Gewährung von Gesellschaftsrechten gewertet.",
+      "Bei Teilbuchung auf Kapitalkonto I und gesamthänderischer Rücklage wird der Vorgang anteilig in Veräußerung und Einlage aufgespalten."
+    ],
+    "merksatz": "Kapitalkonto I bebucht, ganz oder teilweise: Tausch. Nur Kapitalkonto II oder Rücklage: verdeckte Einlage."
+  },
+  {
+    "quelle": "persg-melzer-2-6",
+    "titel": "Wie lässt sich eine § 6b-Rücklage bei Mitunternehmern übertragen?",
+    "einordnung": [
+      "§ 6b EStG ist personenbezogen. Bei Personengesellschaften muss deshalb geklärt werden, welcher Mitunternehmer den begünstigten Gewinn erzielt hat und welchem Mitunternehmer das Reinvestitionsobjekt zuzurechnen ist."
+    ],
+    "lernziele": [
+      "Die Richtlinien zu § 6b EStG erlauben es, einen im Einzelunternehmen entstandenen Gewinn auch bei Wirtschaftsgütern einer Personengesellschaft abzuziehen, allerdings nur mit dem Anteil, der dem Unternehmer als Mitunternehmer zusteht; gebucht wird in seiner Ergänzungsbilanz.",
+      "Ein Gewinn aus dem Sonderbetriebsvermögen lässt sich auf eigenes Sonderbetriebsvermögen, auf den eigenen Anteil am Gesellschaftsvermögen oder auf ein Einzelunternehmen übertragen.",
+      "Veräußert die Gesellschaft selbst, darf jeder Mitunternehmer nur seine Gewinnquote auf eigenes Sonderbetriebsvermögen, ein eigenes Einzelunternehmen oder seinen Anteil an einer anderen Gesellschaft übertragen.",
+      "Nicht übertragbare Gewinnteile können als Rücklage nach § 6b Abs. 3 EStG gebildet werden; bei Gewinnen eines Gewerbebetriebs ist die Einschränkung des § 6b Abs. 4 Satz 2 EStG zu beachten."
+    ],
+    "pruefschritte": [
+      "Begünstigtes Wirtschaftsgut, sechsjährige Zugehörigkeit nach § 6b Abs. 4 Satz 1 Nr. 2 EStG und Höhe des Veräußerungsgewinns prüfen.",
+      "Bestimmen, in welchem Vermögensbereich der Gewinn entstanden ist und welchen Mitunternehmern er anteilig zusteht.",
+      "Das Reinvestitionsobjekt zuordnen und den Teil ermitteln, der dem jeweiligen Mitunternehmer zuzurechnen ist.",
+      "Den übertragbaren Betrag in Ergänzungsbilanz, Sonderbilanz oder Einzelunternehmen abziehen und für den Rest eine Rücklage bilden."
+    ],
+    "fehler": [
+      "Der Gewinn aus dem Einzelunternehmen wird voll von den Anschaffungskosten eines Grundstücks der Gesellschaft abgezogen, obwohl der Gesellschafter nur anteilig beteiligt ist.",
+      "Der Abzug wird in der Gesamthandsbilanz statt in der Ergänzungsbilanz des begünstigten Gesellschafters gebucht."
+    ],
+    "merksatz": "§ 6b folgt dem Mitunternehmer: übertragbar ist nur, was ihm am Gewinn und am neuen Wirtschaftsgut jeweils anteilig zuzurechnen ist."
+  },
+  {
+    "quelle": "persg-melzer-2-7",
+    "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+    "einordnung": [
+      "Die unentgeltliche Übertragung eines Mitunternehmeranteils ist nach § 6 Abs. 3 EStG zum Buchwert möglich. Streit entsteht fast immer über das funktional wesentliche Sonderbetriebsvermögen."
+    ],
+    "lernziele": [
+      "Zum Mitunternehmeranteil gehören der Anteil am Gesellschaftsvermögen und das Sonderbetriebsvermögen; für § 6 Abs. 3 EStG zählt nur die funktionale Wesentlichkeit.",
+      "Wird funktional wesentliches Sonderbetriebsvermögen zeitgleich zurückbehalten und ins Privatvermögen überführt, ist der Buchwert ausgeschlossen; es liegt eine begünstigte Aufgabe des gesamten Anteils nach § 16 Abs. 3 EStG vor.",
+      "Eine zeitlich vorgelagerte Veräußerung oder Entnahme ist unschädlich, ebenso eine gleichzeitige Auslagerung nach § 6 Abs. 5 EStG, wenn der verbleibende Anteil eine funktionsfähige Einheit bildet.",
+      "Bei der Schenkung eines Teilanteils an eine natürliche Person gilt: quotal oder überquotal mitübertragenes Sonderbetriebsvermögen fällt unter § 6 Abs. 3 Satz 1 EStG, unterquotales unter Satz 2 mit fünfjähriger Behaltefrist."
+    ],
+    "pruefschritte": [
+      "Den Umfang des Mitunternehmeranteils feststellen und das funktional wesentliche Sonderbetriebsvermögen identifizieren.",
+      "Prüfen, was mit diesem Sonderbetriebsvermögen zeitgleich, vorher oder gar nicht geschieht.",
+      "Bei Teilanteilen die übertragene Quote des Gesellschaftsanteils mit der Quote des übertragenen Sonderbetriebsvermögens wertmäßig vergleichen.",
+      "Bei unterquotaler Übertragung die Behaltefrist des Erwerbers überwachen; ein Verstoß führt rückwirkend zum Teilwert und zu laufendem Gewinn."
+    ],
+    "fehler": [
+      "Das vermietete Betriebsgrundstück bleibt beim Schenker im Privatvermögen, und trotzdem wird der Anteil zum Buchwert übertragen.",
+      "Für überquotal übertragenes Sonderbetriebsvermögen wird eine zusätzliche Sperrfrist nach § 6 Abs. 5 Satz 4 EStG angenommen."
+    ],
+    "merksatz": "Ohne das funktional wesentliche Sonderbetriebsvermögen kein Buchwert nach § 6 Abs. 3 EStG, es sei denn, es ist vorher oder per § 6 Abs. 5 sauber ausgelagert."
+  },
+  {
+    "quelle": "persg-melzer-3-1",
+    "titel": "Was ändert der Verkauf eines Anteils steuerlich für beide Seiten?",
+    "einordnung": [
+      "Beim Gesellschafterwechsel bleibt die Handelsbilanz nahezu unverändert, steuerlich entstehen aber ein Veräußerungsgewinn beim Verkäufer und Anschaffungskosten beim Käufer."
+    ],
+    "lernziele": [
+      "Handelsrechtlich wird nur das Kapitalkonto auf den neuen Gesellschafter umbenannt; ein Mehrpreis gegenüber dem Buchkapital wird in der Gesellschaftsbilanz nicht aktiviert.",
+      "Der Verkäufer veräußert seinen Mitunternehmeranteil nach § 16 Abs. 1 Satz 1 Nr. 2 EStG; der Gewinn ist Kaufpreis abzüglich Kapitalkonto und Veräußerungskosten und kann nach § 16 Abs. 4 und § 34 EStG begünstigt sein.",
+      "Der Käufer erwirbt anteilig die einzelnen Wirtschaftsgüter; den Mehrpreis weist er in einer positiven Ergänzungsbilanz bei den Wirtschaftsgütern mit stillen Reserven aus.",
+      "Ein nach Verteilung auf die stillen Reserven verbleibender Betrag ist als anteilig erworbener Firmenwert nach § 5 Abs. 2 EStG zu aktivieren."
+    ],
+    "pruefschritte": [
+      "Kaufpreis, Kapitalkonto des Verkäufers und Veräußerungskosten ermitteln und den Gewinn nach § 16 Abs. 2 EStG berechnen.",
+      "Voraussetzungen für Freibetrag und Tarifermäßigung beim Verkäufer prüfen.",
+      "Beim Erwerber den Mehrpreis auf die anteiligen stillen Reserven der Wirtschaftsgüter verteilen und den Rest als Firmenwert erfassen.",
+      "Die positive Ergänzungsbilanz auf den Erwerbsstichtag aufstellen und ihre Fortentwicklung vorbereiten."
+    ],
+    "fehler": [
+      "Der vom Erwerber gezahlte Mehrpreis wird in der Gesamthandsbilanz aktiviert.",
+      "Der Gesellschafterwechsel wird als Einbringung nach § 24 UmwStG behandelt."
+    ],
+    "merksatz": "Beim Anteilskauf zahlt der Erwerber für anteilige stille Reserven: Sie gehören in seine positive Ergänzungsbilanz, der Rest ist Firmenwert."
+  },
+  {
+    "quelle": "persg-melzer-3-2",
+    "titel": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab?",
+    "einordnung": [
+      "Nach dem BFH-Urteil IV R 1/11 und dem BMF-Schreiben vom 19.12.2016 wird der Anteilserwerber für die AfA wie ein Einzelunternehmer behandelt, der die Wirtschaftsgüter im Erwerbszeitpunkt angeschafft hat."
+    ],
+    "lernziele": [
+      "Bemessungsgrundlage der AfA des Erwerbers sind seine gesamten Anschaffungskosten für das anteilige Wirtschaftsgut, also anteiliger Buchwert in der Gesamthandsbilanz plus Mehrwert in der Ergänzungsbilanz.",
+      "Abzuschreiben ist auf die im Erwerbszeitpunkt verbleibende Restnutzungsdauer; dem Erwerber stehen die zu diesem Zeitpunkt geltenden AfA-Methoden und Sätze zu.",
+      "Die Gesamthandsbilanz schreibt unverändert weiter ab; die Ergänzungsbilanz nimmt nur den Unterschied zwischen der AfA des Erwerbers und dem auf ihn entfallenden Teil der Gesamthands-AfA auf.",
+      "Ein in der Ergänzungsbilanz aktivierter Firmenwert wird nach § 7 Abs. 1 Satz 3 EStG über 15 Jahre abgeschrieben."
+    ],
+    "pruefschritte": [
+      "Die Gesamthands-AfA wie bisher berechnen und den Anteil ermitteln, der auf den Erwerber entfällt.",
+      "Die AfA des Erwerbers aus seinen vollen Anschaffungskosten, der Restnutzungsdauer und den im Erwerbszeitpunkt geltenden Regeln berechnen.",
+      "Die Differenz als Mehr-AfA oder Minder-AfA in der Ergänzungsbilanz buchen.",
+      "Firmenwert und nicht abnutzbare Mehrwerte gesondert fortentwickeln."
+    ],
+    "fehler": [
+      "Der Mehrwert in der Ergänzungsbilanz wird isoliert über die Restnutzungsdauer abgeschrieben, ohne den Anteil an der Gesamthands-AfA zu berücksichtigen.",
+      "Bei Gebäuden wird übersehen, dass die Ergänzungsbilanz eine Minder-AfA ausweisen kann, wenn die AfA des Erwerbers niedriger ist als sein Anteil an der Gesamthands-AfA."
+    ],
+    "merksatz": "Der Erwerber schreibt ab wie ein Käufer im Erwerbszeitpunkt; die Ergänzungsbilanz fängt nur die Differenz zur Gesamthands-AfA auf."
+  },
+  {
+    "quelle": "persg-melzer-3-4",
+    "titel": "Ausscheiden zum Buchwert: Veräußerung oder Schenkung?",
+    "einordnung": [
+      "Scheidet ein Gesellschafter aus, wächst sein Anteil den übrigen an, und er erhält einen Abfindungsanspruch. Entspricht die Abfindung genau dem Buchwert, hängt die Lösung am Grund dafür."
+    ],
+    "lernziele": [
+      "Steuerlich ist die zivilrechtliche Anwachsung ein entgeltlicher Übertragungsvorgang: Der Ausscheidende veräußert seinen Mitunternehmeranteil nach § 16 Abs. 1 Satz 1 Nr. 2 EStG, die Verbleibenden haben Anschaffungskosten.",
+      "Wird der Mehrwert den Verbleibenden aus privaten Gründen zugewendet, ist der Vorgang wie eine unentgeltliche Übertragung nach § 6 Abs. 3 EStG zu behandeln; die Verbleibenden führen Buchwerte und AfA fort.",
+      "Beruht die Buchwertabfindung auf betrieblichen Gründen, etwa einer Buchwertklausel oder fehlenden stillen Reserven, entsteht ein Veräußerungsgewinn von null, und die Verbleibenden erwerben den Anteil entgeltlich.",
+      "Beim entgeltlichen Erwerb laufen zwei AfA-Reihen: die alte für den bisherigen eigenen Anteil, eine neue nach den Regeln im Erwerbszeitpunkt für den hinzuerworbenen Anteil."
+    ],
+    "pruefschritte": [
+      "Ausscheidensgrund, Anwachsung und Abfindungsanspruch zivilrechtlich feststellen.",
+      "Abfindung und Kapitalkonto vergleichen und die Motivation für eine Abfindung zum Buchwert ermitteln.",
+      "Bei privater Veranlassung unentgeltlich nach § 6 Abs. 3 EStG lösen, bei betrieblicher Veranlassung als Veräußerung zum Buchwert.",
+      "Bei entgeltlichem Erwerb die AfA für fortgeführten und neu erworbenen Anteil getrennt berechnen."
+    ],
+    "fehler": [
+      "Die Buchwertabfindung wird stets als unentgeltlich behandelt, obwohl eine Buchwertklausel im Gesellschaftsvertrag betrieblichen Charakter hat.",
+      "Für den hinzuerworbenen Gebäudeanteil wird der alte AfA-Satz weitergeführt."
+    ],
+    "merksatz": "Abfindung zum Buchwert: privat motiviert heißt Fortführung nach § 6 Abs. 3 EStG, betrieblich motiviert heißt Veräußerung mit zwei AfA-Reihen."
+  },
+  {
+    "quelle": "persg-melzer-3-5",
+    "titel": "Was aktivieren die Verbleibenden bei einer hohen Abfindung?",
+    "einordnung": [
+      "Zahlen die verbleibenden Gesellschafter mehr als das Kapitalkonto, kaufen sie steuerlich anteilige stille Reserven und Firmenwert. Ein darüber hinausgehender Betrag braucht eine eigene Begründung."
+    ],
+    "lernziele": [
+      "Die Abfindung ist für den Ausscheidenden Veräußerungspreis nach § 16 Abs. 2 EStG, begünstigt nach § 16 Abs. 4 und § 34 EStG, und für die Verbleibenden Anschaffungskosten.",
+      "Der Mehrbetrag über dem Kapitalkonto wird zunächst auf die anteiligen stillen Reserven der Wirtschaftsgüter verteilt; ein Rest ist als anteilig erworbener Firmenwert zu aktivieren, handelsrechtlich nach § 246 Abs. 1 Satz 4 HGB, steuerlich nach § 5 Abs. 2 EStG.",
+      "Wird ein lästiger Gesellschafter mit einem Aufschlag über dem wirklichen Anteilswert abgefunden, ist dieser Aufschlag bei den Verbleibenden sofort abziehbarer Aufwand.",
+      "Ein privat motivierter Zusatzbetrag ist Entnahme der Verbleibenden im Zeitpunkt der Zahlung und gehört nicht in die Abfindungsverbindlichkeit."
+    ],
+    "pruefschritte": [
+      "Abfindung, Kapitalkonto und stille Reserven der einzelnen Wirtschaftsgüter gegenüberstellen.",
+      "Den auf den Ausscheidenden entfallenden Anteil der stillen Reserven aufstocken und einen Restbetrag als Firmenwert ansetzen.",
+      "Einen Betrag über dem vollen Anteilswert nach betrieblicher oder privater Veranlassung einordnen.",
+      "Firmenwert und aufgestockte Wirtschaftsgüter handelsrechtlich und steuerrechtlich jeweils nach eigenen Bewertungsregeln fortentwickeln."
+    ],
+    "fehler": [
+      "Der Firmenwert wird steuerlich wie handelsrechtlich über zehn Jahre abgeschrieben statt über 15 Jahre nach § 7 Abs. 1 Satz 3 EStG.",
+      "Ein aus privaten Gründen gezahlter Zusatzbetrag wird in die passivierte Abfindungsschuld aufgenommen."
+    ],
+    "merksatz": "Mehrabfindung: erst stille Reserven, dann Firmenwert; was darüber liegt, ist Aufwand bei Lästigkeit oder Entnahme bei privatem Anlass."
+  },
+  {
+    "quelle": "persg-melzer-3-6",
+    "titel": "Wie löst man das Ausscheiden gegen Sachwertabfindung?",
+    "einordnung": [
+      "Erhält der Ausscheidende statt Geld ein Wirtschaftsgut der Gesellschaft, kommt es darauf an, ob es bei ihm Privat- oder Betriebsvermögen wird. Beide Varianten sind klausurbeliebt."
+    ],
+    "lernziele": [
+      "Geht das Wirtschaftsgut ins Privatvermögen, wird der Vorgang nach H 16 Abs. 9 EStH in zwei Akte zerlegt: Veräußerung des Anteils gegen einen Abfindungsanspruch und anschließende Hingabe des Wirtschaftsguts an Erfüllungs statt.",
+      "Bei den Verbleibenden entsteht aus der Hingabe des Wirtschaftsguts laufender Gewinn in Höhe der Differenz zwischen Wert und aufgestocktem Buchwert; bei Grundstücken kann dafür eine Rücklage nach § 6b EStG in Betracht kommen.",
+      "Wird das Wirtschaftsgut beim Ausscheidenden zumindest teilweise Betriebsvermögen und besteht die Gesellschaft fort, liegt nach dem BMF-Schreiben vom 19.12.2018 eine unechte Realteilung vor.",
+      "Für die unechte Realteilung gelten die Buchwertregeln des § 16 Abs. 3 Satz 2 EStG, auch wenn nur Einzelwirtschaftsgüter übertragen werden."
+    ],
+    "pruefschritte": [
+      "Feststellen, in welches Vermögen des Ausscheidenden das Wirtschaftsgut gelangt.",
+      "Bei Privatvermögen zuerst das Ausscheiden gegen Abfindungsanspruch mit Aufstockung und Firmenwert abbilden.",
+      "Danach die Hingabe des Wirtschaftsguts als Veräußerung der Gesellschaft behandeln und Gewinn, Zuzahlungen und § 6b EStG prüfen.",
+      "Bei Betriebsvermögen die Voraussetzungen der unechten Realteilung prüfen und die Buchwerte fortführen."
+    ],
+    "fehler": [
+      "Die Sachwertabfindung ins Betriebsvermögen wird nach § 6 Abs. 5 Satz 3 Nr. 1 EStG gelöst statt als unechte Realteilung.",
+      "Bei der Abfindung ins Privatvermögen wird der Gewinn aus der Hingabe des Wirtschaftsguts dem Ausscheidenden zugerechnet."
+    ],
+    "merksatz": "Sachwert ins Privatvermögen: Anteilsveräußerung plus Veräußerung durch die Gesellschaft. Sachwert ins Betriebsvermögen: unechte Realteilung zum Buchwert."
+  },
+  {
+    "quelle": "persg-melzer-4-1",
+    "titel": "Echte oder unechte Realteilung: Worauf kommt es an?",
+    "einordnung": [
+      "Die Realteilung nach § 16 Abs. 3 Satz 2 EStG ermöglicht die Aufteilung von Gesellschaftsvermögen ohne Gewinnrealisierung. Seit dem BFH-Urteil IV R 31/14 aus dem Jahr 2017 unterscheidet man zwei Formen."
+    ],
+    "lernziele": [
+      "Die Realteilung geht als Spezialregel § 6 Abs. 3 und § 6 Abs. 5 EStG vor.",
+      "Eine echte Realteilung liegt vor, wenn die Mitunternehmerschaft aufgelöst und ihr Vermögen verteilt wird; das gilt auch, wenn ein Realteiler den Betrieb als Einzelunternehmen weiterführt.",
+      "Eine unechte Realteilung liegt vor, wenn ein Mitunternehmer mit Vermögen der Gesellschaft ausscheidet, das bei ihm Betriebsvermögen wird, und die übrigen die Gesellschaft fortführen.",
+      "Buchwertfortführung setzt voraus, dass die Wirtschaftsgüter in ein Betriebsvermögen eines Realteilers gelangen, die Besteuerung der stillen Reserven gesichert ist und kein Fall des § 16 Abs. 3 Satz 4 EStG vorliegt."
+    ],
+    "pruefschritte": [
+      "Klären, ob die Mitunternehmerschaft endet oder von den übrigen Gesellschaftern fortgesetzt wird.",
+      "Prüfen, ob die übernommenen Wirtschaftsgüter beim Übernehmer Betriebsvermögen werden oder ganz ins Privatvermögen gehen.",
+      "Sicherung der stillen Reserven und Beteiligung von Körperschaften im Hinblick auf § 16 Abs. 3 Satz 4 EStG prüfen.",
+      "Bei Erfüllung aller Merkmale Buchwerte ansetzen, die Kapitalkonten anpassen und die Sperrfristen vormerken."
+    ],
+    "fehler": [
+      "Die Fortführung durch einen Realteiler als Einzelunternehmer wird als Hindernis für eine echte Realteilung angesehen.",
+      "Ein Ausscheiden gegen reine Geldabfindung wird als unechte Realteilung eingeordnet."
+    ],
+    "merksatz": "Gesellschaft endet: echte Realteilung. Gesellschaft läuft weiter, einer geht mit Betriebsvermögen: unechte Realteilung. Geldabfindung ist keine Realteilung."
+  },
+  {
+    "quelle": "persg-melzer-4-4",
+    "titel": "Welche Sperrfristen hängen an einer Realteilung?",
+    "einordnung": [
+      "Nach einer Realteilung mit Einzelwirtschaftsgütern darf der Realteiler bestimmte Wirtschaftsgüter nicht sofort verkaufen oder entnehmen. Bei Teilbetrieben gilt eine eigene Sieben-Jahres-Regel."
+    ],
+    "lernziele": [
+      "Gelangen Grundstücke, Gebäude oder sonstige wesentliche Betriebsgrundlagen als einzelne Wirtschaftsgüter zu einem Realteiler und verkauft oder entnimmt er sie vor Fristablauf, wird für sie rückwirkend auf den Teilungszeitpunkt der gemeine Wert angesetzt (§ 16 Abs. 3 Satz 3 EStG).",
+      "Maßgeblich ist die Feststellungserklärung der Gesellschaft für das Jahr der Realteilung: Drei Jahre nach ihrer Abgabe läuft die Frist ab. Auch Einbringungen nach §§ 20, 24 UmwStG und Formwechsel gelten als Veräußerung.",
+      "Die nachträgliche Aufdeckung betrifft nur die schädlich behandelten Wirtschaftsgüter, führt zu laufendem Gewinn ohne §§ 16, 34 EStG und unterliegt nach § 7 Satz 2 GewStG der Gewerbesteuer, soweit er unmittelbar beteiligten Kapitalgesellschaften und nicht natürlichen Personen zuzurechnen ist.",
+      "Gehen bei einer Realteilung mit Teilbetrieben Kapitalgesellschaftsanteile von einer natürlichen Person auf eine nach § 8b Abs. 2 KStG begünstigte Körperschaft über, droht bei Veräußerung binnen sieben Jahren der rückwirkende gemeine Wert (§ 16 Abs. 5 EStG)."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob bei der Realteilung Einzelwirtschaftsgüter oder Betriebe, Teilbetriebe und Mitunternehmeranteile übertragen wurden.",
+      "Bei Einzelwirtschaftsgütern das Fristende aus dem Abgabedatum der Gewinnfeststellungserklärung ableiten und schädliche Vorgänge des Realteilers suchen.",
+      "Bei einem Verstoß den gemeinen Wert rückwirkend nur für das betroffene Wirtschaftsgut ansetzen und den Gewinn zurechnen.",
+      "Bei Teilbetrieben mit Anteilen an Körperschaften die Siebenjahresfrist des § 16 Abs. 5 EStG prüfen."
+    ],
+    "fehler": [
+      "Nach einem Sperrfristverstoß werden sämtliche stillen Reserven aus der Realteilung nachträglich aufgedeckt.",
+      "Der Gewinn aus der rückwirkenden Aufdeckung wird als begünstigter Aufgabegewinn behandelt."
+    ],
+    "merksatz": "Realteilung mit Einzelwirtschaftsgütern: drei Jahre ab Feststellungserklärung Finger weg von Grundstücken und wesentlichen Betriebsgrundlagen."
+  },
+  {
+    "quelle": "persg-melzer-4-5",
+    "titel": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
+    "einordnung": [
+      "In einer GmbH & Co. KG hält der Kommanditist oft zugleich Anteile an der Komplementär-GmbH. Ihre Zuordnung zum Sonderbetriebsvermögen II entscheidet über die Besteuerung von Ausschüttungen und späteren Veräußerungen."
+    ],
+    "lernziele": [
+      "Die Komplementär-GmbH ist Mitunternehmerin, auch wenn sie keine Einlage leistet und nur eine Haftungsvergütung erhält.",
+      "Vermietet die Komplementär-GmbH der KG ein eigenes Grundstück, wird es steuerlich ihr Sonderbetriebsvermögen I und wechselt nach § 6 Abs. 5 Satz 2 EStG zum Buchwert dorthin.",
+      "Hält ein Kommanditist Anteile an der Komplementär-GmbH, zählen diese zum Sonderbetriebsvermögen II, sofern er über sie die Geschäftsführung der Gesellschaft mitsteuern kann; bei weniger als 10 % verneint das der BFH (IV R 1/12) regelmäßig, sofern die Satzung einfache Mehrheiten genügen lässt.",
+      "Betreibt die Komplementär-GmbH zusätzlich ein eigenes Geschäft, das nicht bloß untergeordnet ist, scheidet notwendiges Sonderbetriebsvermögen II nach dem BFH-Urteil IV R 15/19 in der Regel aus."
+    ],
+    "pruefschritte": [
+      "Die Erscheinungsform der GmbH & Co. KG und die Beteiligungsquoten an KG und GmbH erfassen.",
+      "Prüfen, ob die GmbH außer der Geschäftsführung für die KG einen eigenen nennenswerten Geschäftsbetrieb unterhält.",
+      "Die Höhe der Beteiligung an der GmbH und die Stimmrechtsregeln der Satzung auswerten; Einstimmigkeit kann auch einer Minderheit Einfluss sichern.",
+      "Vermitteln die Anteile Einfluss, notwendiges Sonderbetriebsvermögen II annehmen, sonst Privatvermögen oder gewillkürtes Sonderbetriebsvermögen prüfen."
+    ],
+    "fehler": [
+      "Eine Beteiligung von 5 % an der Komplementär-GmbH wird ohne Blick auf die Satzung als notwendiges Sonderbetriebsvermögen II behandelt.",
+      "Die GmbH wird mangels Kapitalbeteiligung nicht als Mitunternehmerin angesehen."
+    ],
+    "merksatz": "GmbH-Anteile des Kommanditisten sind SBV II, wenn sie ihm Mitsprache bei der Führung der KG sichern und die GmbH kein eigenes gewichtiges Geschäft betreibt."
+  },
+  {
+    "quelle": "persg-melzer-4-6",
+    "titel": "Wie werden Ausschüttungen der Komplementär-GmbH besteuert?",
+    "einordnung": [
+      "Gehören die Anteile an der Komplementär-GmbH zum Sonderbetriebsvermögen, verändern sich Einkunftsart und Gewinnfeststellung. Zudem stellt sich bei Umstrukturierungen die Frage, ob die Anteile funktional wesentlich sind."
+    ],
+    "lernziele": [
+      "Liegen die Anteile im Sonderbetriebsvermögen II, sind Ausschüttungen nach § 20 Abs. 8 EStG gewerbliche Sonderbetriebseinnahmen und fließen in die Gewinnfeststellung der KG ein; das Teileinkünfteverfahren nach § 3 Nr. 40 Satz 1 Buchst. d EStG wird außerbilanziell berücksichtigt.",
+      "Die einbehaltene Kapitalertragsteuer ist Personensteuer und darf den Gewinnanteil nicht mindern (§ 12 Nr. 3 EStG).",
+      "Zinsen auf Gesellschafterdarlehen sind Sondervergütungen und fallen nicht unter das Teileinkünfteverfahren (BFH, IV R 5/18).",
+      "Erhält ein Kommanditist, dessen GmbH-Anteile Sonderbetriebsvermögen sind, von der Komplementär-GmbH Bezüge für die Geschäftsführung der KG, sind diese bei ihm Sonderbetriebseinnahmen (H 15.8 Abs. 3 EStH)."
+    ],
+    "pruefschritte": [
+      "Zunächst klären, ob die Anteile an der GmbH beim Gesellschafter Sonderbetriebs- oder Privatvermögen sind.",
+      "Bei Privatvermögen Einkünfte aus Kapitalvermögen annehmen, bei Sonderbetriebsvermögen Sonderbetriebseinnahmen mit Teileinkünfteverfahren.",
+      "Geschäftsführerbezüge und Pensionszusagen der GmbH auf ihren Bezug zur Tätigkeit für die KG prüfen.",
+      "Bei Übertragung oder Einbringung des Kommanditanteils prüfen, ob die GmbH-Anteile funktional wesentlich sind und mitübergehen müssen."
+    ],
+    "fehler": [
+      "Die Kapitalertragsteuer auf die Ausschüttung wird als Sonderbetriebsausgabe abgezogen.",
+      "Auf Darlehenszinsen im Sonderbereich wird das Teileinkünfteverfahren angewendet."
+    ],
+    "merksatz": "Ausschüttungen auf GmbH-Anteile im Sonderbetriebsvermögen sind gewerblich, im Teileinkünfteverfahren und Teil der Gewinnfeststellung der KG."
+  },
+  {
+    "quelle": "persg-melzer-5-3",
+    "titel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
+    "einordnung": [
+      "Wer einen ganzen Betrieb in eine Personengesellschaft einbringt, verwirklicht zunächst eine Veräußerung. Steuerneutral wird das nur über § 24 UmwStG, nicht über § 6 Abs. 5 EStG."
+    ],
+    "lernziele": [
+      "§ 6 Abs. 5 Satz 3 Nr. 1 EStG erfasst nur Einzelwirtschaftsgüter; für Sachgesamtheiten wie Betrieb, Teilbetrieb oder Mitunternehmeranteil ist § 24 UmwStG einschlägig.",
+      "Begünstigt sind nach § 1 Abs. 3 UmwStG Verschmelzung und Spaltung von Personengesellschaften, Ausgliederung sowie Einbringung durch Einzelrechtsnachfolge; Anforderungen an die Ansässigkeit bestehen nach § 1 Abs. 4 Satz 2 UmwStG nicht.",
+      "Der Einbringende muss Mitunternehmer werden; die Gegenleistung ist durch Buchung auf einem Kapitalkonto zu erbringen.",
+      "Alle funktional wesentlichen Betriebsgrundlagen müssen übergehen, wobei wirtschaftliches Eigentum genügt; ein Teil darf auch ins Sonderbetriebsvermögen gelangen, nicht aber sämtliche wesentlichen Wirtschaftsgüter."
+    ],
+    "pruefschritte": [
+      "Den Einbringungsgegenstand bestimmen: Betrieb, Teilbetrieb, Mitunternehmeranteil oder nur Einzelwirtschaftsgüter.",
+      "Den zivilrechtlichen Vorgang einer Fallgruppe des § 1 Abs. 3 UmwStG zuordnen.",
+      "Prüfen, ob der Einbringende Mitunternehmer der aufnehmenden Gesellschaft wird und Gesellschaftsrechte über ein Kapitalkonto erhält.",
+      "Sicherstellen, dass sämtliche funktional wesentlichen Betriebsgrundlagen mitübertragen werden, und dann zum Bewertungswahlrecht übergehen."
+    ],
+    "fehler": [
+      "Die Einbringung eines ganzen Einzelunternehmens wird über § 6 Abs. 5 Satz 3 Nr. 1 EStG zum Buchwert gelöst.",
+      "Die Aufnahme eines neuen Gesellschafters in eine bestehende Personengesellschaft wird nicht als Einbringung der Altgesellschafter nach § 24 UmwStG erkannt."
+    ],
+    "merksatz": "Sachgesamtheit in eine PersG gegen Mitunternehmerstellung: Das ist § 24 UmwStG, nicht § 6 Abs. 5 EStG."
+  },
+  {
+    "quelle": "persg-melzer-5-4",
+    "titel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+    "einordnung": [
+      "§ 24 Abs. 2 UmwStG lässt statt des gemeinen Werts auf Antrag Buch- oder Zwischenwerte zu. Weil die Kapitalkonten meist die Beteiligungsquoten abbilden sollen, braucht die Lösung Ergänzungsbilanzen."
+    ],
+    "lernziele": [
+      "Regelwert ist der gemeine Wert; Buch- oder Zwischenwert setzt voraus, dass das deutsche Besteuerungsrecht nicht eingeschränkt wird und eine sonstige Gegenleistung höchstens 25 % des Buchwerts oder 500.000 € erreicht, jedoch nie mehr als den Buchwert.",
+      "Der Wert, den die Gesellschaft einschließlich der Ergänzungsbilanzen ansetzt, gilt nach § 24 Abs. 3 UmwStG als Veräußerungspreis des Einbringenden; §§ 16 Abs. 4 und 34 EStG gibt es nur beim Ansatz des gemeinen Werts.",
+      "Bruttomethode: Gesamthandsbilanz mit gemeinen Werten, negative Ergänzungsbilanz des Einbringenden. Nettomethode: Gesamthandsbilanz mit Buchwerten, Kapitalanpassung über eine negative Ergänzungsbilanz des Einbringenden und eine positive des Mitgesellschafters.",
+      "Beim Buchwertansatz übernimmt die Gesellschaft nach § 24 Abs. 4 i. V. m. § 23 Abs. 1 UmwStG die steuerliche Position des Einbringenden, etwa bei AfA und Besitzzeiten."
+    ],
+    "pruefschritte": [
+      "Den Antrag auf Buch- oder Zwischenwert und die Grenzen für sonstige Gegenleistungen prüfen.",
+      "Die gewünschten Kapitalkonten laut Gesellschaftsvertrag feststellen und entscheiden, ob brutto oder netto gearbeitet wird.",
+      "Die Ergänzungsbilanzen so aufstellen, dass Gesamthandswert und Ergänzungswerte zusammen den gewählten Ansatz ergeben.",
+      "Den Veräußerungsgewinn des Einbringenden über die Wertverknüpfung berechnen und Begünstigungen prüfen.",
+      "Die Ergänzungsbilanzen in den Folgejahren korrespondierend auflösen und die Auflösung als laufenden Gewinn erfassen."
+    ],
+    "fehler": [
+      "Aus dem Ansatz gemeiner Werte in der Gesamthandsbilanz wird eine Gewinnrealisierung abgeleitet, obwohl eine negative Ergänzungsbilanz den Buchwert herstellt.",
+      "Bei Ansatz des gemeinen Werts wird die Tarifbegünstigung auch für den Teil gewährt, an dem der Einbringende selbst beteiligt bleibt."
+    ],
+    "merksatz": "Bei § 24 UmwStG zählt der Gesamtwert aus Gesamthandsbilanz und Ergänzungsbilanzen; er ist zugleich Veräußerungspreis des Einbringenden."
+  }
+]

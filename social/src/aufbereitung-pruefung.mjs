@@ -18,6 +18,9 @@ export const NAEHE_WOERTER = 6;
 const FORMAL = /^(?:Folie|Folienzahl|Caption|Zu viele Hashtags|Story|Nur eine CTA|Die CTA)/;
 
 const ohneNormen = (s) => String(s || "")
+  /* Verwaltungsanweisungen und Randziffern: R 8.5 Abs. 2 KStR, H 6.1 EStH, Rz. 12, Tz. 3. */
+  .replace(/\b[RH]\s?\d+[a-z]?(?:\.\d+[a-z]?)*(?:\s+Abs\.\s*\d+)?(?:\s+Satz\s*\d+)?\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöü]*(?:R|H|AE)\b/g, " ")
+  .replace(/\b(?:Rz|Tz|Rn)\.\s*\d+/g, " ")
   .replace(/(?:§§?|Art\.)\s*[\d\w]+(?:\s+(?:Abs\.|Satz|S\.|Nr\.|Buchst\.|lit\.)\s*[\d\w]+)*(?:\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöü]*(?:G|V|StG|DV|R|AE|O))?/g, " ");
 
 const worte = (s) => ohneNormen(s).toLowerCase().replace(/[^a-zäöüß0-9]+/g, " ").trim().split(" ").filter(Boolean);

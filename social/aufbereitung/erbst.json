@@ -1,0 +1,371 @@
+[
+  {
+    "quelle": "erbst-v-27",
+    "titel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
+    "einordnung": [
+      "Die Steuerklasse nach § 15 ErbStG steuert Freibetrag und Steuersatz und ist deshalb in jeder ErbSt-Klausur zuerst festzulegen. Bei Erwerben von Todes wegen kommt der Versorgungsfreibetrag hinzu."
+    ],
+    "lernziele": [
+      "Zur Klasse I gehören Ehegatten, Lebenspartner, Kinder, Stiefkinder und deren Abkömmlinge sowie Eltern und Voreltern nur beim Erwerb von Todes wegen; Geschwister, Nichten und Neffen, Stief- und Schwiegereltern, Schwiegerkinder und der geschiedene Ehegatte fallen in Klasse II.",
+      "Bei unbeschränkter Steuerpflicht betragen die Freibeträge 500.000 € für Ehegatten und Lebenspartner, 400.000 € für Kinder und Kinder verstorbener Kinder, 200.000 € für übrige Enkel, 100.000 € für die restliche Klasse I und 20.000 € in den Klassen II und III.",
+      "Bei beschränkter Steuerpflicht wird der Freibetrag nach § 16 Abs. 2 ErbStG im Verhältnis des nicht erfassten Vermögens, einschließlich der Vorerwerbe aus zehn Jahren, zum Gesamtvermögen gekürzt.",
+      "Der Versorgungsfreibetrag nach § 17 ErbStG beträgt für den überlebenden Ehegatten 256.000 € und für Kinder je nach Alter zwischen 52.000 € und 10.300 €; er sinkt um den Kapitalwert steuerfreier Versorgungsbezüge."
+    ],
+    "pruefschritte": [
+      "Verwandtschaftsverhältnis zum Erblasser oder Schenker nach bürgerlichem Recht im Zeitpunkt der Steuerentstehung feststellen.",
+      "Steuerklasse nach § 15 ErbStG bestimmen und dabei zwischen Erwerb von Todes wegen und Schenkung unterscheiden, etwa bei Eltern.",
+      "Persönlichen Freibetrag nach § 16 ErbStG ansetzen und bei beschränkter Steuerpflicht anteilig kürzen.",
+      "Bei Erwerben von Todes wegen durch Ehegatten oder Kinder den Versorgungsfreibetrag prüfen und um den Kapitalwert steuerfreier Versorgungsbezüge mindern."
+    ],
+    "fehler": [
+      "Eltern werden auch bei einer Schenkung in Steuerklasse I eingeordnet.",
+      "Der Versorgungsfreibetrag wird ungekürzt angesetzt, obwohl der Hinterbliebene erbschaftsteuerfreie Pensionsansprüche erhält."
+    ],
+    "merksatz": "Erst die Steuerklasse, dann der Freibetrag: Beide hängen am Verwandtschaftsgrad – bei Eltern zusätzlich an der Art des Erwerbs."
+  },
+  {
+    "quelle": "erbst-t1-4",
+    "titel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+    "einordnung": [
+      "§ 7 Abs. 1 Nr. 1 ErbStG reicht weiter als die Schenkung des Zivilrechts. Klausuren verlangen die Prüfung von Bereicherung und Bereicherungswille sowie die richtige Behandlung von Gegenleistungen und Auflagen."
+    ],
+    "lernziele": [
+      "Objektiv muss der Empfänger auf Kosten des Zuwendenden bereichert sein, etwa durch Vermögensmehrung oder Befreiung von einer Schuld.",
+      "Subjektiv genügt der Wille des Zuwendenden zur unentgeltlichen Bereicherung; eine Einigung über die Unentgeltlichkeit wie bei § 516 BGB ist nicht nötig.",
+      "Zuwendungen aus geschäftlichem Interesse, bei denen der Geber eine Gegenleistung erwartet, sind regelmäßig keine freigebigen Zuwendungen.",
+      "Bei gemischter Schenkung und Leistungsauflage wird die Bereicherung ermittelt, indem vom Steuerwert die Gegenleistung abgezogen wird; ein Nutzungsrecht, das schon den Grundbesitzwert gemindert hat, ist nach § 10 Abs. 6 ErbStG nicht nochmals abziehbar."
+    ],
+    "pruefschritte": [
+      "Vermögensverschiebung vom Zuwendenden zum Empfänger und dessen Bereicherung feststellen.",
+      "Bereicherungswillen des Zuwendenden anhand seiner Motive prüfen, insbesondere private gegenüber geschäftlichen Beweggründen.",
+      "Gegenleistungen und übernommene Lasten erfassen und als Entgelt, Leistungsauflage oder Nutzungs- bzw. Duldungsauflage einordnen.",
+      "Bereicherung ermitteln: Steuerwert der Zuwendung abzüglich Gegenleistungen und abziehbarer Auflagen."
+    ],
+    "fehler": [
+      "Die Schenkung wird verneint, weil der Empfänger die Unentgeltlichkeit nicht kannte.",
+      "Ein vorbehaltenes Wohnrecht wird zusätzlich abgezogen, obwohl es den Grundbesitzwert bereits gemindert hat."
+    ],
+    "merksatz": "Schenkungsteuerlich zählt der Wille des Gebers: Wer bewusst ohne Gegenleistung bereichert, schenkt – soweit keine Gegenleistung fließt."
+  },
+  {
+    "quelle": "erbst-t1-7",
+    "titel": "Was mindert die Bereicherung? Nachlassverbindlichkeiten nach § 10",
+    "einordnung": [
+      "Beim Erwerb von Todes wegen ist der Vermögensanfall um die Nachlassverbindlichkeiten zu kürzen. Die Abgrenzung abziehbarer und nicht abziehbarer Schulden ist ein Dauerbrenner der Klausur."
+    ],
+    "lernziele": [
+      "Abziehbar sind Erblasserschulden, Lasten aus Vermächtnissen und Auflagen, geltend gemachte Pflichtteile sowie Kosten der Bestattung, des Grabdenkmals, der üblichen Grabpflege und der Nachlassabwicklung.",
+      "Für diese Kosten kann ohne Einzelnachweis ein Pauschbetrag von 15.000 € je Erbfall abgezogen werden, sofern solche Kosten dem Grunde nach angefallen sind; Kosten der Nachlassverwaltung sind nicht abziehbar.",
+      "Schulden gegenüber dem Erben gelten nach § 10 Abs. 3 ErbStG trotz zivilrechtlicher Konfusion als fortbestehend.",
+      "Schulden, die mit steuerfreiem Vermögen wie einem befreiten Familienheim zusammenhängen, sind nach § 10 Abs. 6 Satz 1 ErbStG nicht abziehbar."
+    ],
+    "pruefschritte": [
+      "Vermögensanfall mit Steuerwerten erfassen und die Steuerbefreiungen der §§ 13 ff. ErbStG berücksichtigen.",
+      "Erblasserschulden und erbfallbedingte Schulden sammeln und prüfen, ob sie schon im Wert einer wirtschaftlichen Einheit enthalten sind.",
+      "Kosten nach § 10 Abs. 5 Nr. 3 ErbStG einzeln ansetzen oder den Pauschbetrag wählen; Grabpflege mit dem 9,3-fachen Jahreswert.",
+      "Abzugsverbote prüfen, insbesondere den Zusammenhang mit steuerfreiem Vermögen und bei beschränkter Steuerpflicht die anteilige Kürzung.",
+      "Steuerpflichtigen Erwerb nach Abzug der Freibeträge auf volle 100 € abrunden."
+    ],
+    "fehler": [
+      "Der Pauschbetrag von 15.000 € wird jedem Miterben gesondert gewährt.",
+      "Das Darlehen für ein steuerbefreites Familienheim wird als Nachlassverbindlichkeit abgezogen."
+    ],
+    "merksatz": "Abgezogen wird, was den Erben wirklich belastet – aber nichts, was an steuerfreiem Vermögen hängt."
+  },
+  {
+    "quelle": "erbst-v-2",
+    "titel": "Familienheim steuerfrei: Die drei Wege des § 13 Abs. 1 Nr. 4a–4c",
+    "einordnung": [
+      "Das selbst genutzte Familienheim kann unter Ehegatten zu Lebzeiten, an den überlebenden Ehegatten und an Kinder steuerfrei übergehen. Die Varianten unterscheiden sich bei Behaltensfrist und Flächengrenze deutlich."
+    ],
+    "lernziele": [
+      "Nr. 4a befreit lebzeitige Zuwendungen eines selbst bewohnten Familienheims zwischen Ehegatten oder Lebenspartnern ohne Wertgrenze und ohne Behaltensfrist.",
+      "Nr. 4b befreit den Erwerb von Todes wegen durch Ehegatten oder Lebenspartner, wenn diese die Wohnung unverzüglich selbst beziehen und zehn Jahre lang bewohnen.",
+      "Nr. 4c gilt für Kinder und Kinder verstorbener Kinder unter denselben Voraussetzungen, aber nur bis zu einer Wohnfläche von 200 qm, bezogen auf die gesamte Wohnung.",
+      "Gibt der Erwerber die Selbstnutzung innerhalb von zehn Jahren ohne zwingende Gründe auf oder muss er die Immobilie an Dritte oder Miterben weitergeben, entfällt die Befreiung."
+    ],
+    "pruefschritte": [
+      "Erwerbsart und Erwerber bestimmen: Zuwendung unter Lebenden an den Ehegatten, Erbfall an den Ehegatten oder Erbfall an ein Kind.",
+      "Prüfen, ob die Wohnung den Mittelpunkt des familiären Lebens bildete und nicht bloß Ferien- oder Zweitwohnung war.",
+      "Bei Erwerben von Todes wegen die unverzügliche Selbstnutzung durch den Erwerber und eine etwaige Weitergabeverpflichtung prüfen.",
+      "Bei Kindern die Wohnfläche mit der Grenze von 200 qm abgleichen und den befreiten Anteil verhältnismäßig ermitteln.",
+      "Zehnjährige Nutzungsfrist überwachen und bei Aufgabe prüfen, ob zwingende Gründe wie Tod oder Pflegebedürftigkeit vorliegen."
+    ],
+    "fehler": [
+      "Die 200-qm-Grenze wird jedem Kind gesondert gewährt statt einmal auf die Wohnung bezogen.",
+      "Eine berufliche Versetzung wird als zwingender Grund für die Aufgabe der Selbstnutzung anerkannt."
+    ],
+    "merksatz": "Zu Lebzeiten unter Ehegatten ohne Haken, im Erbfall nur mit zehn Jahren Selbstnutzung – und für Kinder nur bis 200 qm."
+  },
+  {
+    "quelle": "erbst-v-31",
+    "titel": "Zehn-Jahres-Zusammenrechnung nach § 14 ErbStG sicher rechnen",
+    "einordnung": [
+      "§ 14 ErbStG fasst alle Erwerbe von derselben Person innerhalb von zehn Jahren zusammen, damit Freibetrag und Progression nur einmal wirken. Die Rechentechnik mit fiktiver Abzugsteuer ist klausurtypisch."
+    ],
+    "lernziele": [
+      "Frühere Erwerbe werden mit ihrem damaligen Wert dem letzten Erwerb hinzugerechnet; der Zehnjahreszeitraum bemisst sich nach den Zeitpunkten der Steuerentstehung.",
+      "Abzuziehen ist die Steuer, die auf die Vorerwerbe entfiele, wenn man die persönlichen Verhältnisse und das Recht im Zeitpunkt des letzten Erwerbs zugrunde legt.",
+      "War die tatsächlich gezahlte Steuer höher, wird nach § 14 Abs. 1 Satz 3 ErbStG diese abgezogen.",
+      "Die Steuer für den letzten Erwerb allein bildet nach § 14 Abs. 1 Satz 4 ErbStG die Untergrenze der festzusetzenden Steuer."
+    ],
+    "pruefschritte": [
+      "Alle Erwerbe von derselben Person innerhalb von zehn Jahren vor dem letzten Erwerb ermitteln.",
+      "Alle Erwerbe addieren, den aktuellen Freibetrag abziehen und die Steuer nach den derzeit geltenden Sätzen berechnen.",
+      "Fiktive Steuer auf die Vorerwerbe nach heutigen Verhältnissen ermitteln, wobei nur der damals tatsächlich verbrauchte Freibetrag angesetzt wird.",
+      "Fiktive mit tatsächlich gezahlter Steuer vergleichen und den höheren Betrag abziehen.",
+      "Ergebnis mit der Steuer für den Letzterwerb ohne Zusammenrechnung vergleichen und mindestens diese festsetzen."
+    ],
+    "fehler": [
+      "Frühere Zuwendungen fließen mit ihrem heutigen Wert statt mit dem Wert im Zeitpunkt ihres Erwerbs in die Rechnung ein.",
+      "Die Mindeststeuer nach § 14 Abs. 1 Satz 4 ErbStG wird übersehen, sodass sich eine Steuer von null ergibt."
+    ],
+    "merksatz": "Zusammenrechnen, heutige Steuer auf alles, frühere Steuer abziehen – aber nie weniger, als der letzte Erwerb allein kosten würde."
+  },
+  {
+    "quelle": "erbst-v-3",
+    "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+    "einordnung": [
+      "Das Verschonungsrecht in § 13a, § 13b, § 13c und § 28a ErbStG begünstigt den Erwerb von Betrieben, land- und forstwirtschaftlichem Vermögen und bestimmten Kapitalgesellschaftsanteilen. Den Einstieg bilden die Wahl zwischen Regel- und Optionsverschonung und die Grenze von 26 Mio. €."
+    ],
+    "lernziele": [
+      "Die Regelverschonung stellt 85 % des begünstigten Vermögens frei (§ 13a Abs. 1 ErbStG); auf den Rest wirkt ein gleitender Abzugsbetrag von höchstens 150.000 € nach § 13a Abs. 2 ErbStG.",
+      "Auf Antrag kann nach § 13a Abs. 10 ErbStG stattdessen eine vollständige Verschonung gewählt werden.",
+      "Verschont wird nur das begünstigte Vermögen; nicht begünstigtes Verwaltungsvermögen bleibt ohne Abschlag steuerpflichtig.",
+      "Übersteigt das begünstigte Vermögen 26 Mio. €, wählt der Erwerber zwischen abschmelzendem Abschlag nach § 13c ErbStG und Verschonungsbedarfsprüfung nach § 28a ErbStG."
+    ],
+    "pruefschritte": [
+      "Begünstigungsfähiges Vermögen nach § 13b Abs. 1 ErbStG feststellen.",
+      "Begünstigtes Vermögen nach § 13b Abs. 2 ErbStG ermitteln, indem der um den unschädlichen Teil gekürzte Nettowert des Verwaltungsvermögens abgezogen wird.",
+      "Prüfen, ob die Grenze von 26 Mio. € überschritten ist, und gegebenenfalls die Sonderwege der §§ 13c, 28a ErbStG einbeziehen.",
+      "Bei Regelverschonung 85 % abziehen und auf den Rest den gleitenden Abzugsbetrag anwenden; bei Option vollständig befreien.",
+      "Nicht begünstigtes Vermögen und den verbleibenden Rest zum steuerpflichtigen Betriebsvermögen zusammenfassen."
+    ],
+    "fehler": [
+      "Der Abschlag von 85 % wird auf den gesamten Betriebswert einschließlich schädlichen Verwaltungsvermögens angewendet.",
+      "Der Abzugsbetrag wird vor dem Verschonungsabschlag statt auf den verbleibenden Teil angewendet."
+    ],
+    "merksatz": "Erst das begünstigte Vermögen herausrechnen, dann zu 85 % oder 100 % verschonen – Schädliches bleibt immer voll steuerpflichtig."
+  },
+  {
+    "quelle": "erbst-v-20",
+    "titel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
+    "einordnung": [
+      "Die Verschonung nach § 13a ErbStG setzt voraus, dass der Erwerber das Vermögen über die Behaltensfrist im Betrieb hält. Verstöße gegen § 13a Abs. 6 ErbStG lassen Abschlag und Abzugsbetrag rückwirkend entfallen."
+    ],
+    "lernziele": [
+      "Schädlich sind bei Betriebsvermögen der Verkauf oder die Aufgabe des Betriebs, Teilbetriebs oder Mitunternehmeranteils sowie Verkauf oder Entnahme wesentlicher Betriebsgrundlagen.",
+      "Überentnahmen liegen vor, wenn die Entnahmen bis zum Ende des letzten Wirtschaftsjahres der Frist Einlagen und Gewinne um mehr als 150.000 € übersteigen; Verluste bleiben dabei unberücksichtigt.",
+      "Bei Kapitalgesellschaftsanteilen schaden insbesondere Verkauf, Auflösung der Gesellschaft und die Aufhebung einer Poolvereinbarung, die die Begünstigung erst ermöglicht hat.",
+      "Bei der Regelverschonung beträgt die Behaltensfrist fünf Jahre ab dem Erwerb."
+    ],
+    "pruefschritte": [
+      "Behaltensfrist ab Erwerb bestimmen und alle Vorgänge innerhalb der Frist sammeln.",
+      "Jeden Vorgang einem Tatbestand des § 13a Abs. 6 Nr. 1 bis 5 ErbStG zuordnen.",
+      "Entnahmen, Einlagen und Gewinne für jeden begünstigten Betrieb getrennt gegenüberstellen und die Grenze von 150.000 € prüfen.",
+      "Umfang des Wegfalls bestimmen und den Bescheid rückwirkend ändern."
+    ],
+    "fehler": [
+      "Verluste werden bei der Prüfung der Überentnahmen gegen die Entnahmen gerechnet.",
+      "Entnahmen aus mehreren begünstigten Betrieben werden zusammengefasst statt je Betrieb geprüft."
+    ],
+    "merksatz": "Fünf Jahre Treue zum Betrieb: Verkauf, Aufgabe oder zu hohe Entnahmen lassen die Verschonung rückwirkend entfallen."
+  },
+  {
+    "quelle": "erbst-v-19",
+    "titel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
+    "einordnung": [
+      "Die Verschonung setzt voraus, dass der Erwerber die Beschäftigung im Betrieb weitgehend hält. Unterschreitet die Lohnsumme die Mindestgröße, wird der Abschlag anteilig gekürzt."
+    ],
+    "lernziele": [
+      "Bei Regelverschonung müssen die Lohnsummen der fünf Jahre nach dem Erwerb zusammen mindestens 400 % der Ausgangslohnsumme erreichen.",
+      "Ausgangslohnsumme ist der Durchschnitt der letzten fünf vor der Steuerentstehung endenden Wirtschaftsjahre.",
+      "Betriebe mit höchstens fünf Beschäftigten sind befreit; bei mehr als fünf bis zehn Beschäftigten gelten 250 %, bei mehr als zehn bis fünfzehn 300 %.",
+      "Wird die Mindestlohnsumme verfehlt, sinkt der Verschonungsabschlag rückwirkend im selben Verhältnis; der Bescheid wird nach § 175 Abs. 1 Satz 1 Nr. 2 AO geändert."
+    ],
+    "pruefschritte": [
+      "Anzahl der Beschäftigten ermitteln und die maßgebliche Mindestlohnsumme festlegen.",
+      "Ausgangslohnsumme berechnen und Auszubildende, Saison- und Leiharbeiter herausnehmen.",
+      "Lohnsummen der Frist aufaddieren, einschließlich anteiliger Lohnsummen aus Beteiligungen von mehr als 25 %.",
+      "Unterschreitung prozentual zur Mindestlohnsumme ausdrücken und den Abschlag entsprechend kürzen."
+    ],
+    "fehler": [
+      "Die Kürzung wird in Prozentpunkten statt im Verhältnis zur Mindestlohnsumme berechnet.",
+      "Vergütungen an Auszubildende werden in die Lohnsumme eingerechnet."
+    ],
+    "merksatz": "Die Kürzung des Abschlags folgt genau dem Anteil, um den die Mindestlohnsumme verfehlt wird – rückwirkend."
+  },
+  {
+    "quelle": "erbst-v-5",
+    "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
+    "einordnung": [
+      "Nur das begünstigte Vermögen erhält die Verschonung; es wird aus dem begünstigungsfähigen Vermögen durch Abzug des schädlichen Verwaltungsvermögens gewonnen. Besteht ein Betrieb fast nur aus Verwaltungsvermögen, entfällt die Verschonung ganz."
+    ],
+    "lernziele": [
+      "Begünstigt ist der gemeine Wert des begünstigungsfähigen Vermögens, soweit er den Nettowert des Verwaltungsvermögens nach Kürzung um den unschädlichen Teil übersteigt.",
+      "Unschädlich sind nach § 13b Abs. 7 ErbStG 10 % des Betriebswerts, der zuvor um den Nettowert des Verwaltungsvermögens vermindert wurde.",
+      "Macht das Verwaltungsvermögen mindestens 90 % des begünstigungsfähigen Vermögens aus, ist nach § 13b Abs. 2 Satz 2 ErbStG nichts begünstigt.",
+      "Für diesen Test gilt ein Bruttowert ohne quotale Schuldenverrechnung und ohne unschädlichen Anteil; nach BFH und Ländererlassen werden bei Betrieben mit gewerblicher, freiberuflicher oder land- und forstwirtschaftlicher Haupttätigkeit betriebliche Schulden von den Finanzmitteln abgezogen, der Sockel von 15 % jedoch nicht."
+    ],
+    "pruefschritte": [
+      "Gemeinen Wert des begünstigungsfähigen Vermögens nach § 13b Abs. 1 ErbStG feststellen.",
+      "Verwaltungsvermögen nach § 13b Abs. 4 ErbStG bestimmen und für den 90-%-Test den maßgeblichen Bruttowert bilden.",
+      "Liegt die Quote bei 90 % oder mehr, die Verschonung insgesamt versagen.",
+      "Andernfalls den Nettowert des Verwaltungsvermögens nach § 13b Abs. 6 ErbStG ermitteln und um den unschädlichen Anteil kürzen.",
+      "Den gekürzten Nettowert vom gemeinen Wert abziehen; das Ergebnis ist das begünstigte Vermögen."
+    ],
+    "fehler": [
+      "Die 10 % unschädliches Verwaltungsvermögen werden vom ungekürzten Betriebswert berechnet.",
+      "Beim 90-%-Test wird der Sockelbetrag von 15 % für Finanzmittel abgezogen."
+    ],
+    "merksatz": "Erst prüfen, ob 90 % Verwaltungsvermögen erreicht sind; nur wenn nicht, wird das begünstigte Vermögen netto herausgerechnet."
+  },
+  {
+    "quelle": "erbst-bew1-8",
+    "titel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
+    "einordnung": [
+      "Laufende Bezüge wie Nießbrauch, Wohnrecht oder Rente gehen mit ihrem Kapitalwert in die Bewertung ein, also Jahreswert mal Vervielfältiger. Der Jahreswert von Nutzungsrechten ist dabei durch § 16 BewG begrenzt."
+    ],
+    "lernziele": [
+      "Nutzungen wie Nießbrauch oder Wohnrecht fließen aus einem fremden Wirtschaftsgut zu, Leistungen wie Renten beruhen auf einem Schuldverhältnis; der Unterschied zählt wegen § 16 BewG.",
+      "Der Jahreswert entspricht bei Geldbezügen den jährlichen Zahlungen, bei Sachvorteilen dem üblichen Mittelpreis am Verbrauchsort und bei schwankenden Erträgen einem geschätzten Durchschnitt aus der Vergangenheit.",
+      "Nach § 16 BewG darf der Jahreswert einer Nutzung höchstens den durch 18,6 geteilten Steuerwert des genutzten Wirtschaftsguts betragen.",
+      "Rechte auf bestimmte Zeit werden mit dem Vervielfältiger der Anlage 9a bewertet; hängt die Dauer zusätzlich vom Leben einer Person ab, bildet der Wert nach § 14 BewG die Obergrenze."
+    ],
+    "pruefschritte": [
+      "Einordnen, ob eine Nutzung oder eine Leistung vorliegt und welche zeitliche Dauer sie hat.",
+      "Jahreswert nach § 15 BewG ermitteln, bei schwankenden Erträgen aus dem Durchschnitt der Vorjahre.",
+      "Bei Nutzungen den Jahreswert mit der Grenze aus Steuerwert geteilt durch 18,6 vergleichen.",
+      "Vervielfältiger aus Anlage 9a, bei gebrochener Laufzeit interpoliert, oder aus der Tabelle zu § 14 BewG bestimmen.",
+      "Bei Höchstzeitrenten den niedrigeren, bei Mindestzeitrenten den höheren der beiden Kapitalwerte ansetzen."
+    ],
+    "fehler": [
+      "Die Begrenzung des § 16 BewG wird auf eine Rentenzahlung angewendet.",
+      "Bei einer lebenslänglichen, aber zeitlich begrenzten Rente wird der Zeitrentenwert angesetzt, obwohl der Wert nach § 14 BewG niedriger ist."
+    ],
+    "merksatz": "Kapitalwert gleich Jahreswert mal Vervielfältiger – und bei Nutzungsrechten kann er nie über dem Wert der Sache liegen."
+  },
+  {
+    "quelle": "erbst-bew1-9",
+    "titel": "Lebenslange Rente oder unbestimmte Dauer: Welcher Vervielfältiger?",
+    "einordnung": [
+      "Neben Rechten auf bestimmte Zeit kennt das BewG immerwährende, unbestimmt lange und lebenslängliche Nutzungen und Leistungen. Jede Art hat einen eigenen Vervielfältiger, der in der Klausur sicher zuzuordnen ist."
+    ],
+    "lernziele": [
+      "Nach § 13 Abs. 2 BewG gilt für zeitlich unbegrenzte Rechte der Vervielfältiger 18,6 und für Rechte, deren Ende gewiss, aber zeitlich offen ist, der Vervielfältiger 9,3.",
+      "Lebenslängliche Rechte werden nach § 14 Abs. 1 BewG mit einem Vervielfältiger nach vollendetem Lebensjahr und Geschlecht bewertet; für Stichtage ab 2025 ist die im Dezember 2024 vom BMF veröffentlichte Tabelle maßgeblich.",
+      "Hängt ein Recht vom Leben mehrerer Personen ab, gilt beim Erlöschen mit dem Tod des Letztversterbenden der höchste und beim Tod des Erstversterbenden der niedrigste Vervielfältiger (§ 14 Abs. 3 BewG).",
+      "Eine Rente, die dem Ehegatten erst im Fall des Überlebens zusteht, ist aufschiebend bedingt und nach § 4 BewG zunächst nicht anzusetzen."
+    ],
+    "pruefschritte": [
+      "Zeitliche Art des Rechts bestimmen: immerwährend, unbestimmte Dauer, lebenslänglich oder bestimmte Zeit.",
+      "Person ermitteln, mit deren Tod das Recht endet, und deren Alter und Geschlecht am Stichtag festhalten.",
+      "Passenden Vervielfältiger wählen und bei mehreren Berechtigten § 14 Abs. 3 BewG anwenden.",
+      "Bedingungen würdigen: aufschiebend bedingte Rechte zunächst weglassen, auflösende Bedingungen erst bei ihrem Eintritt berücksichtigen.",
+      "Kapitalwert berechnen und prüfen, ob ein nachgewiesener abweichender gemeiner Wert anzusetzen ist."
+    ],
+    "fehler": [
+      "Der Vervielfältiger wird nach einer Person gewählt, deren Tod das Recht gar nicht beendet.",
+      "Die Rente des überlebenden Ehegatten wird bereits als gegenwärtiger Anspruch mitbewertet."
+    ],
+    "merksatz": "18,6 für immer, 9,3 für ungewiss lange, Sterbetafel für ein Leben – entscheidend ist, wessen Tod das Recht beendet."
+  },
+  {
+    "quelle": "erbst-bew2-5",
+    "titel": "Vergleichs-, Ertrags- oder Sachwert: Welches Verfahren gilt?",
+    "einordnung": [
+      "Für bebaute Grundstücke schreibt § 182 BewG je nach Grundstücksart ein bestimmtes Bewertungsverfahren vor. Die richtige Zuordnung ist Voraussetzung für jede weitere Grundbesitzbewertung."
+    ],
+    "lernziele": [
+      "Für Eigentumswohnungen, Teileigentum und Ein- oder Zweifamilienhäuser ist vorrangig das Vergleichswertverfahren nach § 183 BewG vorgesehen.",
+      "Mietwohngrundstücke sowie Geschäfts- und gemischt genutzte Grundstücke mit ermittelbarer üblicher Miete fallen unter das Ertragswertverfahren der §§ 184 bis 188 BewG.",
+      "Das Sachwertverfahren der §§ 189 bis 191 BewG greift, wenn kein Vergleichswert vorliegt, sich keine übliche Miete ermitteln lässt oder ein sonstiges bebautes Grundstück vorliegt.",
+      "Im Ertrags- und im Sachwertverfahren wird der Bodenwert gesondert nach § 179 BewG wie bei einem unbebauten Grundstück ermittelt."
+    ],
+    "pruefschritte": [
+      "Grundstücksart nach § 181 BewG bestimmen.",
+      "Bei Wohnungseigentum, Teileigentum und Ein- oder Zweifamilienhäusern prüfen, ob Vergleichspreise oder Vergleichsfaktoren vorliegen.",
+      "Bei Miet-, Geschäfts- und gemischt genutzten Grundstücken klären, ob sich am Markt eine übliche Miete feststellen lässt.",
+      "Stehen in einer wirtschaftlichen Einheit neben ertragswertfähigen auch andere Gebäude, einheitlich das Sachwertverfahren anwenden."
+    ],
+    "fehler": [
+      "Ein Einfamilienhaus wird im Ertragswertverfahren bewertet, nur weil es vermietet ist.",
+      "Für ein Geschäftsgrundstück ohne ermittelbare übliche Miete wird das Ertragswertverfahren gewählt."
+    ],
+    "merksatz": "Vergleichbar? Vergleichswert. Renditeobjekt mit Marktmiete? Ertragswert. Alles andere: Sachwert."
+  },
+  {
+    "quelle": "erbst-v-25",
+    "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
+    "einordnung": [
+      "§ 13d ErbStG setzt zu Wohnzwecken vermietete Grundstücke nur mit 90 % ihres Werts an. Klausurrelevant sind der Kreis der begünstigten Grundstücke und das Verhältnis zur Betriebsvermögensverschonung."
+    ],
+    "lernziele": [
+      "Begünstigt sind bebaute Grundstücke oder Grundstücksteile, die zu Wohnzwecken vermietet werden, etwa Mietwohngrundstücke, Wohnungseigentum oder Wohnteile gemischt genutzter Grundstücke.",
+      "Seit dem Jahressteuergesetz 2024 gilt der Abschlag für Grundstücke in einem Drittstaat nur, wenn dieser Deutschland bei der Erbschaftsteuer zur Amtshilfe verpflichtet ist.",
+      "Gehört das Grundstück zum begünstigten Vermögen nach § 13a ErbStG, gibt es keinen zusätzlichen Abschlag, auch nicht für den nach der Verschonung steuerpflichtigen Rest.",
+      "Als Verwaltungsvermögen ist das Grundstück grundsätzlich ausgeschlossen; anders bei jungem Verwaltungsvermögen und wenn die Verschonung wegen des 90-%-Tests insgesamt entfällt."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob ein bebautes Grundstück oder ein Grundstücksteil zu Wohnzwecken vermietet ist.",
+      "Belegenheit klären: Inland, Mitgliedstaat der EU oder des EWR oder Drittstaat mit Amtshilfeverpflichtung.",
+      "Feststellen, ob das Grundstück zu begünstigtem Betriebsvermögen gehört oder als Verwaltungsvermögen einzustufen ist.",
+      "Liegen die Voraussetzungen vor, den Wert des Grundstücks mit 90 % ansetzen."
+    ],
+    "fehler": [
+      "Der Abschlag wird zusätzlich auf den nach Verschonung verbleibenden Teil eines begünstigten Betriebsgrundstücks gewährt.",
+      "Ein Grundstück in einem Drittstaat ohne Amtshilfeverpflichtung wird begünstigt."
+    ],
+    "merksatz": "Vermieteter Wohnraum zählt nur zu 90 % – aber nie doppelt neben der Verschonung des Betriebsvermögens."
+  },
+  {
+    "quelle": "erbst-t1-2",
+    "titel": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG?",
+    "einordnung": [
+      "Bei Auslandsbezug entscheidet § 2 ErbStG, ob der gesamte Vermögensanfall oder nur Inlandsvermögen besteuert wird. Die Frage steht am Anfang jeder ErbSt-Lösung mit Auslandsberührung."
+    ],
+    "lernziele": [
+      "Unbeschränkte Steuerpflicht besteht, wenn der Erblasser oder Schenker oder der Erwerber zum maßgeblichen Zeitpunkt Inländer ist; ein Beteiligter genügt.",
+      "Als Inländer gelten vor allem Menschen, die in Deutschland wohnen oder sich hier gewöhnlich aufhalten, und Körperschaften, deren Sitz oder Geschäftsleitung in Deutschland liegt.",
+      "Bei unbeschränkter Steuerpflicht wird der weltweite Vermögensanfall erfasst; eine Doppelbesteuerung vermeiden DBA oder die Anrechnung nach § 21 ErbStG.",
+      "Ist kein Beteiligter Inländer, wird nur Inlandsvermögen im Sinne des abschließenden Katalogs des § 121 BewG besteuert; Bankguthaben, Hausrat oder ungesicherte Forderungen gehören nicht dazu."
+    ],
+    "pruefschritte": [
+      "Maßgeblichen Zeitpunkt bestimmen: Tod des Erblassers oder Ausführung der Schenkung.",
+      "Für Erblasser bzw. Schenker und Erwerber jeweils die Inländereigenschaft prüfen.",
+      "Bei unbeschränkter Steuerpflicht den weltweiten Erwerb erfassen und vorrangige DBA oder die Anrechnung nach § 21 ErbStG prüfen.",
+      "Bei beschränkter Steuerpflicht jeden Vermögensgegenstand gegen den Katalog des § 121 BewG prüfen.",
+      "Folgen für Freibetrag und Schuldenabzug bei beschränkter Steuerpflicht beachten."
+    ],
+    "fehler": [
+      "Beschränkte Steuerpflicht wird angenommen, weil der Erblasser im Ausland lebte, obwohl der Erbe Inländer ist.",
+      "Ein inländisches Bankguthaben wird der beschränkten Steuerpflicht unterworfen."
+    ],
+    "merksatz": "Ein Inländer genügt für die volle Steuerpflicht; ohne Inländer zählt nur, was § 121 BewG als Inlandsvermögen aufzählt."
+  },
+  {
+    "quelle": "erbst-v-28",
+    "titel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
+    "einordnung": [
+      "Die Erbschaftsteuer folgt einem Stufentarif, bei dem der ganze Erwerb mit dem Satz seiner Wertstufe belastet wird. Der Härteausgleich des § 19 Abs. 3 ErbStG dämpft die Sprünge knapp oberhalb einer Wertgrenze."
+    ],
+    "lernziele": [
+      "Der Satz richtet sich nach Steuerklasse und Höhe des auf volle 100 € abgerundeten Erwerbs; in Klasse I reicht er von 7 % bis 30 %, in Klasse II von 15 % bis 43 %, in Klasse III beträgt er 30 % oder 50 %.",
+      "Die Wertgrenzen liegen bei 75.000 €, 300.000 €, 600.000 €, 6 Mio. €, 13 Mio. € und 26 Mio. €.",
+      "Beim Härteausgleich wird die Mehrsteuer gegenüber der Steuer an der vorherigen Wertgrenze nur erhoben, soweit sie bei Sätzen bis 30 % aus der Hälfte und bei höheren Sätzen aus drei Vierteln des übersteigenden Betrags gedeckt werden kann.",
+      "Die amtlichen Hinweise zu den Erbschaftsteuer-Richtlinien enthalten eine Tabelle, bis zu welchem Erwerb der Härteausgleich jeweils wirkt."
+    ],
+    "pruefschritte": [
+      "Steuerpflichtigen Erwerb auf volle 100 € abrunden.",
+      "Steuerklasse und passende Wertstufe bestimmen und die Steuer auf den gesamten Erwerb berechnen.",
+      "Vergleichssteuer auf die zuletzt überschrittene Wertgrenze mit deren Satz ermitteln.",
+      "Den übersteigenden Betrag zur Hälfte oder zu drei Vierteln ansetzen und zur Vergleichssteuer addieren.",
+      "Den niedrigeren Betrag aus regulär berechneter und begrenzter Steuer festsetzen."
+    ],
+    "fehler": [
+      "Der Stufentarif wird wie ein Staffeltarif behandelt, bei dem nur der übersteigende Teil höher belastet wird.",
+      "Der Härteausgleich wird mit drei Vierteln berechnet, obwohl der neue Steuersatz 30 % nicht übersteigt."
+    ],
+    "merksatz": "Stufentarif heißt: ein Satz für den ganzen Erwerb – der Härteausgleich fängt nur den Sprung direkt über der Grenze ab."
+  }
+]

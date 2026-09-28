@@ -1,0 +1,698 @@
+[
+  {
+    "quelle": "kst-ks-5-11",
+    "titel": "Pensionszusage an den Gesellschafter-Geschäftsführer: zwei Ebenen",
+    "einordnung": ["Pensionsrückstellungen für beteiligte Geschäftsführer werden zuerst bilanziell nach § 6a EStG und erst danach außerbilanziell auf eine vGA hin untersucht. Die Reihenfolge entscheidet, ob in der Steuerbilanz oder außerhalb korrigiert wird."],
+    "lernziele": [
+      "Eine Pensionsrückstellung ist in der Steuerbilanz nur zulässig, wenn § 6a Abs. 1 EStG erfüllt ist, insbesondere eine schriftliche Zusage ohne schädlichen Widerrufsvorbehalt vorliegt.",
+      "Übersteigt die zugesagte Versorgung 75 % der aktuellen Aktivbezüge, liegt eine Überversorgung vor; eine reine Pensionszusage ohne laufendes Gehalt ist insgesamt Überversorgung.",
+      "Nur der nach § 6a EStG zulässig gebuchte Aufwand wird danach auf gesellschaftsrechtliche Veranlassung untersucht, und zwar anhand von Angemessenheit, Ernsthaftigkeit, Finanzierbarkeit und Erdienbarkeit.",
+      "Beim beherrschenden Gesellschafter-Geschäftsführer ist die Pension nur erdienbar, wenn zwischen Zusage und vorgesehenem Ruhestand mindestens zehn Jahre liegen; wer bei Zusage bereits 60 Jahre alt ist, kann sie regelmäßig nicht mehr erdienen."
+    ],
+    "pruefschritte": [
+      "Bilanziell prüfen, ob § 6a EStG dem Grunde nach erfüllt ist und ob eine Überversorgung die Höhe der Rückstellung begrenzt.",
+      "Fehlerhafte Rückstellungen aus Vorjahren in der ersten noch offenen Bilanz gewinnerhöhend berichtigen.",
+      "Für den verbleibenden Aufwand die Veranlassung untersuchen: Probezeit, Wartezeit bei Neugründung, vereinbartes Pensionsalter und Erdienenszeitraum.",
+      "Bei beherrschender Stellung zusätzlich das Rückwirkungsverbot beachten, etwa bei einer nicht vorab vereinbarten Kapitalabfindung.",
+      "Soweit gesellschaftsrechtlich veranlasst, den Zuführungsaufwand als vGA nach § 8 Abs. 3 Satz 2 KStG außerbilanziell hinzurechnen."
+    ],
+    "fehler": [
+      "Die vGA-Prüfung wird vor § 6a EStG durchgeführt, sodass unzulässige Rückstellungen außerbilanziell statt in der Bilanz korrigiert werden.",
+      "Pension und ungekürztes Gehalt nach Erreichen der Altersgrenze werden nebeneinander anerkannt, obwohl das Gehalt anzurechnen wäre.",
+      "Eine bei der Zusage fehlende Probe- oder Wartezeit gilt als später geheilt, obwohl auch spätere Zuführungen vGA bleiben."
+    ],
+    "merksatz": "Erst die Steuerbilanz nach § 6a EStG, dann die vGA: Nur zulässig gebuchter Pensionsaufwand kann überhaupt außerbilanziell hinzugerechnet werden."
+  },
+  {
+    "quelle": "kst-ks-5-10",
+    "titel": "Beherrschender Gesellschafter: Warum Vorabvereinbarungen zählen",
+    "einordnung": ["Gegenüber beherrschenden Gesellschaftern reicht ein angemessenes Entgelt allein nicht aus, um eine vGA zu vermeiden. Formale Anforderungen an Vereinbarung und Durchführung sind deshalb ein fester Klausurbaustein."],
+    "lernziele": [
+      "Beherrschung liegt regelmäßig bei einer Mehrheit der Stimmrechte vor; Minderheitsgesellschafter mit gleichgerichteten Interessen werden zusammengerechnet, die bloße Ehe genügt dafür nicht.",
+      "Vergütungen an beherrschende Gesellschafter müssen zivilrechtlich wirksam, im Voraus, klar und eindeutig vereinbart und tatsächlich wie vereinbart durchgeführt werden.",
+      "Klar ist eine Abrede nur, wenn sich die Vergütung ohne jeden Entscheidungsspielraum allein rechnerisch aus der Vereinbarung ableiten lässt.",
+      "Die Sonderregeln gelten ebenso für Personen, die einem beherrschenden Gesellschafter nahestehen."
+    ],
+    "pruefschritte": [
+      "Beteiligungsverhältnisse und Stimmrechte feststellen; eigene Anteile der Gesellschaft bleiben bei der Stimmrechtsquote außer Betracht.",
+      "Zivilrechtliche Wirksamkeit prüfen: Gesellschafterbeschluss, Befreiung von § 181 BGB und Art einer vereinbarten Schriftformklausel.",
+      "Zeitpunkt der Abrede mit dem Zeitraum der vergüteten Leistung vergleichen; Zahlungen für bereits verstrichene Zeiträume sind vGA.",
+      "Bemessungsgrundlage auf Bestimmtheit prüfen; Spielräume, die erst später durch Beschluss ausgefüllt werden, führen insoweit zur vGA.",
+      "Durchführung kontrollieren: pünktliche Zahlung laufender Vergütungen und zeitnahe Auszahlung von Tantiemen nach Feststellung des Jahresabschlusses."
+    ],
+    "fehler": [
+      "Eine hälftige Beteiligung zweier Ehegatten wird ohne weitere Anhaltspunkte als Beherrschung gewertet.",
+      "Die nachträgliche Genehmigung eines In-sich-Geschäfts wird steuerlich verworfen, obwohl sie zivilrechtlich zurückwirkt und bei klarer Ursprungsabrede anzuerkennen ist.",
+      "Ein unterjährig beschlossenes Urlaubs- oder Weihnachtsgeld wird voll anerkannt, obwohl der auf die Zeit vor dem Beschluss entfallende Anteil vGA ist."
+    ],
+    "merksatz": "Beim beherrschenden Gesellschafter zählt nicht nur die Höhe, sondern auch Zeitpunkt, Klarheit und tatsächliche Durchführung der Vereinbarung."
+  },
+  {
+    "quelle": "kst-ks-3-03",
+    "titel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+    "einordnung": ["Der Verzicht eines Gesellschafters auf eine Forderung gegen seine Kapitalgesellschaft wirkt auf beiden Ebenen unterschiedlich. Entscheidend ist, welcher Teil der Forderung im Verzichtszeitpunkt noch werthaltig war."],
+    "lernziele": [
+      "Bei der Gesellschaft entsteht durch das Ausbuchen der Verbindlichkeit ein Ertrag, der nur in Höhe des Teilwerts der Forderung als verdeckte Einlage nach § 8 Abs. 3 Satz 3 KStG außerbilanziell gekürzt wird.",
+      "Der auf den wertlosen Teil entfallende Ertrag bleibt steuerpflichtig und ist bei gesellschaftsrechtlich veranlasstem Verzicht nicht als Sanierungsertrag nach § 3a EStG begünstigt.",
+      "Beim Gesellschafter erhöht nur der werthaltige Betrag die Anschaffungskosten bzw. den Beteiligungsbuchwert; ist Gläubigerin eine Kapitalgesellschaft, kann der Aufwand für den Rest unter § 8b Abs. 3 Satz 4 ff. KStG fallen.",
+      "Beim Verzicht auf eine Pensionsanwartschaft bemisst sich die Einlage nach dem Anwartschaftsbarwert, und in dieser Höhe wird ein Lohnzufluss nach § 19 EStG angenommen."
+    ],
+    "pruefschritte": [
+      "Gesellschaftsrechtliche Veranlassung des Verzichts feststellen, typischerweise weil fremde Gläubiger nicht in gleicher Weise verzichten.",
+      "Teilwert der Forderung im Verzichtszeitpunkt bestimmen und die Verbindlichkeit bei der Gesellschaft in voller Höhe erfolgswirksam ausbuchen.",
+      "Den werthaltigen Betrag außerbilanziell abziehen und dem steuerlichen Einlagekonto nach § 27 KStG zuführen.",
+      "Beim Gesellschafter nach Vermögenssphäre unterscheiden: Privatvermögen mit § 17 Abs. 2a und § 20 Abs. 2 EStG oder Betriebsvermögen mit § 6 Abs. 6 Satz 2 EStG.",
+      "Bei Zinsforderungen im Privatvermögen den Zufluss des werthaltigen Teils als Kapitalertrag berücksichtigen."
+    ],
+    "fehler": [
+      "Der gesamte Nennbetrag der Forderung wird als verdeckte Einlage behandelt.",
+      "Der steuerpflichtige Ausbuchungsertrag wird als Sanierungsertrag nach § 3a EStG freigestellt.",
+      "Beim Pensionsverzicht wird der Rückstellungswert nach § 6a EStG statt des Anwartschaftsbarwerts als Einlagewert angesetzt."
+    ],
+    "merksatz": "Ein Verzicht ist Einlage nur, soweit die Forderung noch etwas wert war; der Rest ist bei der Gesellschaft steuerpflichtiger Ertrag."
+  },
+  {
+    "quelle": "kst-ks-4-08",
+    "titel": "Anteilsverkauf durch eine GmbH: steuerfrei, aber nicht ganz",
+    "einordnung": ["Veräußert eine Körperschaft Anteile an einer anderen Kapitalgesellschaft, greift § 8b Abs. 2 KStG ohne Mindestbeteiligung. Die pauschale 5-%-Hinzurechnung und die Behandlung der Veräußerungskosten gehören in jede Lösung."],
+    "lernziele": [
+      "Gewinne aus der Veräußerung von Kapitalgesellschaftsanteilen und aus Wertaufholungen sind nach § 8b Abs. 2 KStG steuerfrei, auch bei Beteiligungen unter 10 %, weil § 8b Abs. 4 KStG nur Bezüge erfasst.",
+      "Nach § 8b Abs. 3 Satz 1 KStG gelten 5 % des begünstigten Gewinns als nicht abziehbare Betriebsausgaben; laufende Beteiligungskosten bleiben abziehbar, weil § 3c Abs. 1 EStG ausgeschlossen ist.",
+      "Veräußerungskosten mindern den nach § 8b Abs. 2 Satz 2 KStG ermittelten Gewinn und wirken sich damit im Ergebnis nicht aus, auch wenn sie in einem anderen Jahr gebucht wurden.",
+      "Auch verdeckt eingelegte Anteile, vGA bei Anteilsverkäufen an Gesellschafter und Ausschüttungen aus dem Einlagekonto über den Buchwert hinaus fallen unter die Befreiung."
+    ],
+    "pruefschritte": [
+      "Veräußerungsgewinn nach § 8b Abs. 2 Satz 2 KStG ermitteln: Preis abzüglich Veräußerungskosten abzüglich Buchwert im Veräußerungszeitpunkt.",
+      "Den so ermittelten Gewinn außerbilanziell abziehen und 5 % davon als nicht abziehbare Betriebsausgaben wieder hinzurechnen.",
+      "Veräußerungskosten anderer Jahre dort neutralisieren und im Veräußerungsjahr in die Gewinnermittlung einbeziehen.",
+      "Spätere Kaufpreisänderungen oder Ausfälle über § 175 Abs. 1 Satz 1 Nr. 2 AO im Veräußerungsjahr erfassen und im Buchungsjahr außerbilanziell korrigieren.",
+      "Bei Beteiligung über eine Mitunternehmerschaft § 8b Abs. 6 Satz 1 KStG anwenden und den anteiligen Gewinn wie einen eigenen behandeln."
+    ],
+    "fehler": [
+      "Bei Streubesitz wird die Steuerfreiheit des Veräußerungsgewinns versagt, weil § 8b Abs. 4 KStG fälschlich auf Veräußerungen erstreckt wird.",
+      "Die 5-%-Hinzurechnung wird vom Gewinn vor Abzug der Veräußerungskosten berechnet.",
+      "Vergebliche Kosten eines gescheiterten Verkaufs werden dem Abzugsverbot unterworfen, obwohl sie voll abziehbar sind."
+    ],
+    "merksatz": "Veräußerungsgewinn nach § 8b Abs. 2 KStG: netto nach Kosten steuerfrei, davon 5 % zurück – die Beteiligungshöhe spielt keine Rolle."
+  },
+  {
+    "quelle": "kst-ks-2-06",
+    "titel": "Welche Aufwendungen muss die GmbH außerbilanziell zurückholen?",
+    "einordnung": ["Nach dem Bilanzergebnis werden bei der Einkommensermittlung Aufwendungen korrigiert, die gebucht, steuerlich aber gesperrt sind. Die Hinzurechnungen stammen aus EStG, AO und KStG und müssen vollständig erkannt werden."],
+    "lernziele": [
+      "Über § 8 Abs. 1 KStG gelten die Abzugsverbote des EStG, etwa § 4 Abs. 5 EStG, die Zinsschranke nach § 4h EStG und das Verbot, die Gewerbesteuer abzuziehen, nach § 4 Abs. 5b EStG.",
+      "§ 10 Nr. 2 KStG sperrt Körperschaftsteuer, Solidaritätszuschlag, Kapitalertragsteuer und die zugehörigen Nebenleistungen; Umsatzsteuer auf eine vGA wird nicht gesondert hinzugerechnet, wenn die vGA bereits brutto angesetzt ist.",
+      "§ 10 Nr. 3 KStG erfasst Geldstrafen und ähnliche vermögensrechtliche Sanktionen, § 10 Nr. 4 KStG die Hälfte der Vergütungen an Aufsichtsratsmitglieder.",
+      "Hinzu kommen Gewinnminderungen aus Anteilen nach § 8b Abs. 3 Satz 3 KStG und aus Gesellschafterdarlehen nach § 8b Abs. 3 Satz 4 ff. KStG."
+    ],
+    "pruefschritte": [
+      "Gebuchten Steueraufwand durchgehen und Körperschaftsteuer, Solidaritätszuschlag und Kapitalertragsteuer samt Zinsen nach § 10 Nr. 2 KStG hinzurechnen.",
+      "Gewerbesteuer einschließlich Nebenleistungen nach § 4 Abs. 5b EStG außerbilanziell zurückrechnen.",
+      "Betriebsausgaben auf § 4 Abs. 5 EStG prüfen, etwa Geschenke über der Freigrenze und 30 % der Bewirtungsaufwendungen, ebenso § 160 AO.",
+      "Strafen und Aufsichtsratsvergütungen nach § 10 Nr. 3 und Nr. 4 KStG korrigieren; bei Aufsichtsratsvergütungen zählt nur die Hälfte.",
+      "Abschließend Anteilsverluste und Darlehensausfälle bei Beteiligungen auf § 8b Abs. 3 KStG hin untersuchen."
+    ],
+    "fehler": [
+      "Umsatzsteuer auf eine mit dem Bruttowert bewertete vGA wird zusätzlich nach § 10 Nr. 2 KStG hinzugerechnet und damit doppelt erfasst.",
+      "Die Aufsichtsratsvergütung wird vollständig statt nur zur Hälfte hinzugerechnet.",
+      "Nachzahlungszinsen zur Körperschaftsteuer werden als abziehbar behandelt, obwohl sie als Nebenleistung ebenfalls gesperrt sind."
+    ],
+    "merksatz": "Erst den Bilanzgewinn übernehmen, dann jede gesperrte Ausgabe aus EStG, AO und KStG außerbilanziell zurückholen."
+  },
+  {
+    "quelle": "kst-ks-5-08",
+    "titel": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?",
+    "einordnung": ["Wendet eine Gesellschaft einer Schwestergesellschaft einen Vorteil zu, ist die vGA dem gemeinsamen Gesellschafter zuzurechnen. Die weiteren Folgen hängen davon ab, ob der Vorteil einlagefähig ist."],
+    "lernziele": [
+      "Die vGA fließt dem gemeinsamen Gesellschafter zu und ist bei ihm als Bezug nach § 20 Abs. 1 Nr. 1 Satz 2 EStG bzw. bei einer Körperschaft nach § 8b Abs. 1 KStG zu erfassen.",
+      "Ist der Vorteil ein einlagefähiges Wirtschaftsgut, folgt gedanklich eine verdeckte Einlage in die begünstigte Schwester, die dort das Einlagekonto und beim Gesellschafter den Ansatz dieser Beteiligung erhöht.",
+      "Nutzungsvorteile wie ein zinsloses Darlehen sind nicht einlagefähig; sie gelten beim Gesellschafter als verbraucht, und das Ergebnis der begünstigten Schwester bleibt unverändert.",
+      "Wurde die vGA beim Gesellschafter nicht besteuert, erhöht die darauf beruhende Einlage nach § 8 Abs. 3 Satz 5 KStG das Einkommen der Schwester, es sei denn, die vGA wurde bei der Leistenden hinzugerechnet; die Anschaffungskosten steigen dann nach Satz 6 nicht."
+    ],
+    "pruefschritte": [
+      "Bei der leistenden Gesellschaft die vGA nach § 8 Abs. 3 Satz 2 KStG mit dem Fremdvergleichswert hinzurechnen.",
+      "Zufluss beim gemeinsamen Gesellschafter erfassen und nach Rechtsform und Vermögenssphäre besteuern.",
+      "Klären, ob der Vorteil ein Wirtschaftsgut oder nur eine Nutzungsmöglichkeit ist; Mischfälle entsprechend aufteilen.",
+      "Bei Einlagefähigkeit die verdeckte Einlage in die Schwester mit dem Teilwert ansetzen sowie Einlagekonto und Beteiligungsansatz erhöhen.",
+      "Prüfen, ob die vGA beim Gesellschafter tatsächlich erfasst wurde und § 8 Abs. 3 Satz 5 KStG die Neutralität der Einlage aufhebt."
+    ],
+    "fehler": [
+      "Die vGA wird unmittelbar der begünstigten Schwester statt dem gemeinsamen Gesellschafter zugerechnet.",
+      "Beim zinslosen Darlehen wird eine verdeckte Einlage in die Schwester angenommen und deren Zinsaufwand fiktiv erhöht."
+    ],
+    "merksatz": "Im Dreieck läuft der Vorteil gedanklich über den Gesellschafter: Wirtschaftsgüter landen als Einlage bei der Schwester, Nutzungen verpuffen beim Gesellschafter."
+  },
+  {
+    "quelle": "kst-ks-1-03",
+    "titel": "Wann ist eine Körperschaft nur beschränkt steuerpflichtig?",
+    "einordnung": ["Körperschaften ohne Sitz und Geschäftsleitung im Inland werden nur mit inländischen Einkünften erfasst. Daneben regelt § 2 Nr. 2 KStG eine eigene Form der beschränkten Pflicht für bestimmte inländische Körperschaften."],
+    "lernziele": [
+      "Nach § 2 Nr. 1 KStG sind Körperschaften, Personenvereinigungen und Vermögensmassen beschränkt steuerpflichtig, denen im Inland sowohl Sitz als auch Geschäftsleitung fehlen; ob ein ausländisches Gebilde als Körperschaft gilt, klärt ein Typenvergleich.",
+      "Welche Einkünfte inländische sind, ergibt sich über § 8 Abs. 1 KStG aus § 49 EStG; erst danach wird gefragt, ob ein DBA das deutsche Besteuerungsrecht einschränkt.",
+      "Nach § 49 Abs. 2 EStG werden ausländische Umstände ausgeblendet, wenn sie sonst der Annahme inländischer Einkünfte entgegenstünden.",
+      "§ 2 Nr. 2 KStG erfasst inländische Körperschaften, die nicht unbeschränkt steuerpflichtig sind, etwa juristische Personen des öffentlichen Rechts, mit Einkünften, die einem Steuerabzug unterliegen."
+    ],
+    "pruefschritte": [
+      "Sitz und Ort der Geschäftsleitung bestimmen; liegt eines davon im Inland, geht die unbeschränkte Pflicht nach § 1 KStG vor.",
+      "Bei ausländischen Rechtsträgern im Typenvergleich klären, ob sie einer deutschen Körperschaft entsprechen.",
+      "Einkünfte den Tatbeständen des § 49 Abs. 1 EStG zuordnen und dabei die isolierende Betrachtung nach § 49 Abs. 2 EStG anwenden.",
+      "Prüfen, ob die Steuer durch den Steuerabzug nach § 32 Abs. 1 Nr. 2 KStG abgegolten ist oder eine Veranlagung stattfindet.",
+      "Zum Schluss ein einschlägiges DBA auf Zuteilung des Besteuerungsrechts und Begrenzung von Abzugsteuern untersuchen."
+    ],
+    "fehler": [
+      "Das DBA wird vor § 49 EStG geprüft, obwohl ein Abkommen nur ein nach nationalem Recht bestehendes Besteuerungsrecht beschränken kann.",
+      "Kapitalerträge einer juristischen Person des öffentlichen Rechts außerhalb eines Betriebs gewerblicher Art werden als nicht steuerbar behandelt, obwohl § 2 Nr. 2 KStG eingreift."
+    ],
+    "merksatz": "Erst nationales Recht, dann Abkommen: Ohne Tatbestand des § 49 EStG gibt es nichts, was ein DBA noch beschränken müsste."
+  },
+  {
+    "quelle": "kst-ks-6-02",
+    "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+    "einordnung": ["§ 8c KStG knüpft den Verlustabzug an einen stabilen Gesellschafterkreis. Wer schädliche Quote, Erwerberkreis und gleichgestellte Vorgänge sicher prüft, löst die meisten Klausurfälle."],
+    "lernziele": [
+      "Gehen innerhalb von fünf Jahren mittelbar oder unmittelbar mehr als 50 % der Anteile oder Stimmrechte auf einen Erwerber oder ihm nahestehende Personen über, entfallen die bis dahin ungenutzten Verluste vollständig (§ 8c Abs. 1 Satz 1 KStG).",
+      "Als ein Erwerber gilt auch eine Gruppe mit gleichgerichteten Interessen; erfasst werden auch mittelbare Übertragungen über zwischengeschaltete Gesellschaften.",
+      "Einem Anteilserwerb gleichgestellt sind insbesondere Kapitalerhöhungen und Umwandlungen, soweit sie die Beteiligungsquoten verschieben.",
+      "Über § 10a Satz 10 GewStG wirkt der Verlustuntergang auch für gewerbesteuerliche Fehlbeträge."
+    ],
+    "pruefschritte": [
+      "Alle Übertragungen der letzten fünf Jahre auf denselben Erwerber bzw. Erwerberkreis zusammenrechnen und mit der 50-%-Grenze vergleichen.",
+      "Mittelbare Erwerbe über übergeordnete Gesellschaften sowie Kapitalerhöhungen und Umwandlungen als gleichgestellte Vorgänge einbeziehen.",
+      "Ausnahmen prüfen: Konzernklausel nach § 8c Abs. 1 Satz 4 KStG, stille Reserven nach § 8c Abs. 1 Satz 5 ff. KStG und gegebenenfalls § 8d KStG.",
+      "Bei unterjährigem Erwerb das Ergebnis bis zum Erwerbszeitpunkt ermitteln; ein bis dahin erzielter Gewinn darf mit Altverlusten verrechnet werden.",
+      "Den Untergang getrennt für Körperschaftsteuer und Gewerbesteuer in den Verlustfeststellungen abbilden."
+    ],
+    "fehler": [
+      "Übertragungen an mehrere nicht verbundene Erwerber werden addiert, obwohl die Quote je Erwerber bzw. Erwerbergruppe zu bestimmen ist.",
+      "Die frühere anteilige Kürzung bei Übertragungen zwischen 25 % und 50 % wird noch angewendet, obwohl sie entfallen ist.",
+      "Der im laufenden Jahr bis zum Erwerb entstandene Verlust wird als unberührt behandelt."
+    ],
+    "merksatz": "Schädlich ist erst mehr als die Hälfte an einen Erwerber oder Erwerberkreis binnen fünf Jahren – dann aber fällt der ganze Verlust weg."
+  },
+  {
+    "quelle": "kst-ks-3-07",
+    "titel": "Wie wird das steuerliche Einlagekonto fortgeschrieben?",
+    "einordnung": ["Das Einlagekonto trennt zurückgezahlte Einlagen von steuerpflichtigen Gewinnausschüttungen. Fehler bei Zugang, Verwendung oder Bescheinigung wirken unmittelbar beim Anteilseigner."],
+    "lernziele": [
+      "Nach § 27 Abs. 1 KStG werden nicht in das Nennkapital geleistete Einlagen, auch verdeckte, auf dem Einlagekonto erfasst und jährlich gesondert festgestellt.",
+      "Leistungen der Gesellschaft mindern das Einlagekonto nur, soweit sie den ausschüttbaren Gewinn zum Schluss des vorangegangenen Wirtschaftsjahres übersteigen.",
+      "Ein Zugang setzt voraus, dass die Einlage tatsächlich erbracht ist; eine bloße Forderung auf die Einlage genügt nicht.",
+      "Die bescheinigte Verwendung ist nach § 27 Abs. 5 KStG festgeschrieben; wurde zu viel bescheinigt, haftet die Gesellschaft für die zu wenig einbehaltene Kapitalertragsteuer."
+    ],
+    "pruefschritte": [
+      "Anfangsbestand aus der Feststellung zum Ende des Vorjahres übernehmen.",
+      "Zugänge des Jahres aus offenen und verdeckten Einlagen mit dem tatsächlich zugeflossenen Wert erfassen.",
+      "Ausschüttbaren Gewinn aus Vorjahreswerten ermitteln und mit der Summe der Leistungen des Jahres vergleichen.",
+      "Die Verwendung mit der Steuerbescheinigung nach § 27 Abs. 3 KStG abgleichen und bei Abweichungen § 27 Abs. 5 KStG anwenden.",
+      "Beim Anteilseigner die bescheinigte Einlagenrückgewähr von den Anschaffungskosten abziehen und keinen Kapitalertrag ansetzen."
+    ],
+    "fehler": [
+      "Eine Ausschüttung wird aus dem Einlagekonto gespeist, nur weil dort Bestand vorhanden ist, obwohl der ausschüttbare Gewinn vorgeht.",
+      "Eine zu niedrige Bescheinigung wird nachträglich berichtigt, obwohl die Verwendung festgeschrieben ist."
+    ],
+    "merksatz": "Einlagekonto erst, wenn der ausschüttbare Gewinn des Vorjahres ausgeschöpft ist – und nur so weit, wie es bescheinigt wurde."
+  },
+  {
+    "quelle": "kst-t3-7",
+    "titel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
+    "einordnung": ["Ob eine Leistung als Einlagenrückgewähr gilt, entscheidet allein eine Rechnung nach § 27 Abs. 1 Satz 3 KStG. Bezeichnung und Anlass der Zahlung spielen dafür keine Rolle."],
+    "lernziele": [
+      "Der ausschüttbare Gewinn ist das Eigenkapital der Steuerbilanz zum Vorjahresende abzüglich gezeichnetem Kapital und Bestand des Einlagekontos; ein rechnerisch negativer Wert wird mit null angesetzt.",
+      "In die Rechnung gehen alle im Wirtschaftsjahr abgeflossenen Leistungen gemeinsam ein, etwa offene und verdeckte Ausschüttungen, Vorabausschüttungen und Liquidationsraten.",
+      "Zugänge zum Einlagekonto im laufenden Jahr können eine Leistung desselben Jahres nicht decken, weil nur Vorjahreswerte zählen.",
+      "Übersteigt die Summe den ausschüttbaren Gewinn, wird der Mehrbetrag verhältnismäßig auf alle Leistungen verteilt; eine Zuordnung zu einzelnen Zahlungen scheidet aus."
+    ],
+    "pruefschritte": [
+      "Alle Leistungen feststellen, die im Wirtschaftsjahr tatsächlich abgeflossen sind; eine nur passivierte vGA zählt noch nicht mit.",
+      "Aus der Steuerbilanz des Vorjahres das Eigenkapital entnehmen und Nennkapital sowie festgestellten Einlagekontobestand abziehen.",
+      "Summe der Leistungen dem ausschüttbaren Gewinn gegenüberstellen; nur der darüber hinausgehende Betrag mindert das Einlagekonto, höchstens bis auf null.",
+      "Den verwendeten Betrag verhältnismäßig auf die einzelnen Leistungen verteilen und dem Anteilseigner bescheinigen."
+    ],
+    "fehler": [
+      "Eine als Rückzahlung der Kapitalrücklage bezeichnete Zahlung wird ohne Rechnung als Einlagenrückgewähr behandelt.",
+      "Eine im selben Jahr geleistete verdeckte Einlage wird schon in die Rechnung für dieses Jahr einbezogen."
+    ],
+    "merksatz": "Maßstab ist allein das Vorjahr: Was an Leistungen den damals ausschüttbaren Gewinn übersteigt, stammt aus dem Einlagekonto."
+  },
+  {
+    "quelle": "kst-t3-20",
+    "titel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
+    "einordnung": ["Kauft eine Kapitalgesellschaft Anteile von einem Gesellschafter zurück, wird derselbe Vorgang auf beiden Ebenen verschieden beurteilt. Gerade diese Spaltung ist ein beliebtes Prüfungsthema."],
+    "lernziele": [
+      "Handelsrechtlich wird der Nennbetrag erworbener eigener Anteile offen vom gezeichneten Kapital abgesetzt (§ 272 Abs. 1a HGB); steuerlich folgt daraus eine Behandlung wie eine Kapitalherabsetzung nach § 28 Abs. 2 KStG.",
+      "Der auf den Nennbetrag entfallende Kaufpreis führt zu Zugang und sofortigem Abgang im Einlagekonto; ein angemessener Mehrbetrag wird wie eine Leistung in die Rechnung des § 27 Abs. 1 Satz 3 KStG einbezogen.",
+      "Ein überhöhter Kaufpreis ist insoweit vGA und führt beim Anteilseigner zu Bezügen nach § 20 Abs. 1 Nr. 1 Satz 2 EStG.",
+      "Für den veräußernden Gesellschafter liegt eine gewöhnliche Anteilsveräußerung vor, im Anwendungsbereich des § 17 EStG mit Teileinkünfteverfahren."
+    ],
+    "pruefschritte": [
+      "Kaufpreis in Nennbetrag, angemessenen Mehrbetrag und etwaigen überhöhten Anteil zerlegen.",
+      "Den Nennbetragsanteil als Kapitalherabsetzung erfassen und das Einlagekonto nach § 28 Abs. 2 KStG entsprechend fortschreiben.",
+      "Den angemessenen Mehrbetrag in die Verwendungsrechnung aufnehmen; Kapitalertragsteuer fällt darauf nicht an.",
+      "Den überhöhten Teil als vGA hinzurechnen und davon Kapitalertragsteuer einbehalten.",
+      "Beim Anteilseigner den Veräußerungsgewinn aus angemessenem Preis und Anschaffungskosten berechnen und den Überpreis gesondert als Bezug erfassen."
+    ],
+    "fehler": [
+      "Die Gesellschaft aktiviert die eigenen Anteile als Wirtschaftsgut mit ihren Anschaffungskosten.",
+      "Der gesamte Kaufpreis wird beim Anteilseigner als Kapitalertrag statt als Veräußerungspreis behandelt."
+    ],
+    "merksatz": "Rückkauf eigener Anteile: bei der Gesellschaft Kapitalherabsetzung, beim Gesellschafter normale Veräußerung – nur ein Überpreis ist vGA."
+  },
+  {
+    "quelle": "kst-t3-19",
+    "titel": "Kapitalherabsetzung mit Auszahlung: der Sonderausweis geht vor",
+    "einordnung": ["Wird Nennkapital herabgesetzt und ausgezahlt, bestimmt § 28 Abs. 2 KStG, welcher Teil beim Gesellschafter steuerpflichtig ist. Maßgeblich ist, ob im Nennkapital umgewandelte Gewinnrücklagen stecken."],
+    "lernziele": [
+      "Die Herabsetzung verringert zunächst einen bestehenden Sonderausweis nach § 28 Abs. 1 Satz 3 KStG; nur der übersteigende Betrag wird dem Einlagekonto gutgeschrieben, soweit die Einlage geleistet war.",
+      "Soweit die Auszahlung auf den Sonderausweis entfällt, erzielt der Anteilseigner Bezüge nach § 20 Abs. 1 Nr. 2 EStG, und die Gesellschaft muss Kapitalertragsteuer einbehalten.",
+      "Der aus dem Einlagekonto stammende Teil der Auszahlung wird nach § 28 Abs. 2 Satz 3 KStG unmittelbar vom Einlagekonto abgezogen, ohne die allgemeine Verwendungsrechnung zu durchlaufen.",
+      "Beim Anteilseigner mindert diese Einlagenrückgewähr die Anschaffungskosten der Anteile."
+    ],
+    "pruefschritte": [
+      "Wirksamkeit bestimmen: maßgeblich ist das Wirtschaftsjahr, in dem die Herabsetzung im Handelsregister eingetragen wird.",
+      "Herabsetzungsbetrag mit dem Sonderausweis verrechnen und den Rest dem Einlagekonto zuführen.",
+      "Auszahlung zuerst dem Sonderausweis, dann dem Einlagekonto zuordnen; einen verbleibenden Betrag als Bezug nach § 28 Abs. 2 Satz 4 KStG behandeln.",
+      "Kapitalertragsteuer für die auf den Sonderausweis entfallenden Bezüge einbehalten.",
+      "Beim Gesellschafter Bezüge und Minderung der Anschaffungskosten getrennt erfassen."
+    ],
+    "fehler": [
+      "Die gesamte Rückzahlung wird als steuerfreie Einlagenrückgewähr behandelt, obwohl umgewandelte Gewinnrücklagen im Nennkapital stecken.",
+      "Die Minderung des Einlagekontos wird über den ausschüttbaren Gewinn nach § 27 Abs. 1 Satz 3 KStG berechnet."
+    ],
+    "merksatz": "Herabgesetztes Kapital gilt zuerst als ausgeschütteter Gewinn aus dem Sonderausweis; erst danach kommen zurückgezahlte Einlagen."
+  },
+  {
+    "quelle": "kst-t1-26",
+    "titel": "Führt ein Rangrücktritt zur Ausbuchung in der Steuerbilanz?",
+    "einordnung": ["Ein Rangrücktritt ändert nur die Reihenfolge, in der Gläubiger bedient werden; die Schuld bleibt bestehen. Steuerlich wird es erst kritisch, wenn § 5 Abs. 2a EStG ihre Passivierung verbietet."],
+    "lernziele": [
+      "Nach § 5 Abs. 2a EStG sind Verbindlichkeiten, die nur aus künftigen Einnahmen oder Gewinnen zu erfüllen sind, erst anzusetzen, wenn diese angefallen sind.",
+      "Erlaubt die Tilgungsabrede auch eine Begleichung aus sonstigem freiem Vermögen, greift das Passivierungsverbot nicht und die Verbindlichkeit bleibt in der Steuerbilanz.",
+      "Greift das Verbot und ist der Rücktritt gesellschaftsrechtlich veranlasst, nimmt der BFH eine verdeckte Einlage an, deren Wert sich nach dem noch werthaltigen Forderungsbetrag richtet; der übrige Ausbuchungsertrag ist steuerpflichtig.",
+      "Zinsen, die vor Eintritt der Besserung auf eine so ausgebuchte Verbindlichkeit gezahlt werden, sind als vGA zu beurteilen."
+    ],
+    "pruefschritte": [
+      "Wortlaut der Rangrücktrittsvereinbarung auswerten, insbesondere aus welchen Mitteln getilgt werden darf.",
+      "Prüfen, ob die Tilgung allein an künftige Gewinne oder einen Liquidationsüberschuss geknüpft ist und damit § 5 Abs. 2a EStG eingreift.",
+      "Bei Anwendung die Verbindlichkeit in der Steuerbilanz erfolgswirksam ausbuchen, obwohl sie handelsrechtlich bestehen bleibt.",
+      "Den werthaltigen Teil als verdeckte Einlage außerbilanziell abziehen und dem Einlagekonto zuführen.",
+      "Zins- und Tilgungszahlungen bis zum Besserungsfall auf eine vGA hin untersuchen."
+    ],
+    "fehler": [
+      "Jeder Rangrücktritt wird wie ein Forderungsverzicht mit Ausbuchung behandelt.",
+      "Mit dem Hinweis auf die Maßgeblichkeit der Handelsbilanz wird die Passivierung trotz § 5 Abs. 2a EStG beibehalten.",
+      "Auf einen qualifizierten Rangrücktritt mit Bezug auf freies Vermögen wird das Passivierungsverbot angewendet."
+    ],
+    "merksatz": "Entscheidend ist die Tilgungsabrede: Nur wer ausschließlich aus künftigen Gewinnen zahlen muss, verliert die Verbindlichkeit in der Steuerbilanz."
+  },
+  {
+    "quelle": "kst-t1-18",
+    "titel": "Mit welchem Wert ist eine verdeckte Einlage anzusetzen?",
+    "einordnung": ["Der Einlagewert bestimmt die Kürzung nach § 8 Abs. 3 Satz 3 KStG, den Zugang zum Einlagekonto und künftige Abschreibungen. Ausnahmen vom Teilwert sind eng begrenzt."],
+    "lernziele": [
+      "Verdeckte Einlagen werden nach § 8 Abs. 1 KStG in Verbindung mit § 6 Abs. 1 Nr. 5 EStG grundsätzlich mit dem Teilwert bewertet.",
+      "Wurde ein Wirtschaftsgut des Privatvermögens innerhalb von drei Jahren vor der Einlage angeschafft oder hergestellt, sind höchstens die fortgeführten Anschaffungs- oder Herstellungskosten anzusetzen, gekürzt auch um bisher steuerlich nicht genutzte Abschreibungen.",
+      "Diese Begrenzung entfällt, wenn die verdeckte Einlage beim Gesellschafter bereits als Veräußerung nach § 23 Abs. 1 Satz 5 Nr. 2 EStG erfasst wird, etwa bei einem steuerverstrickten Grundstück.",
+      "Bei Einlagen aus einem Betriebsvermögen des Gesellschafters gilt stets der Teilwert; der Gesellschafter realisiert die stillen Reserven nach § 6 Abs. 6 Satz 2 EStG."
+    ],
+    "pruefschritte": [
+      "Herkunft des eingelegten Wirtschaftsguts klären: Privatvermögen oder Betriebsvermögen des Gesellschafters.",
+      "Bei Privatvermögen den Anschaffungs- oder Herstellungszeitpunkt ermitteln und die Dreijahresfrist bis zur Einlage berechnen.",
+      "Prüfen, ob die Einlage beim Gesellschafter ein privates Veräußerungsgeschäft nach § 23 EStG auslöst und deshalb der Teilwert maßgeblich bleibt.",
+      "Innerhalb der Frist die Kosten um die zwischenzeitliche Abschreibung mindern, auch wenn sie bisher steuerlich nicht geltend gemacht wurde.",
+      "Den ermittelten Wert außerbilanziell nach § 8 Abs. 3 Satz 3 KStG abziehen und im Einlagekonto erfassen."
+    ],
+    "fehler": [
+      "Die Dreijahresregel wird auch bei Einlagen aus dem Betriebsvermögen angewendet.",
+      "Bei einem binnen zehn Jahren nach Erwerb verdeckt eingelegten vermieteten Grundstück werden die fortgeführten Kosten statt des Teilwerts angesetzt."
+    ],
+    "merksatz": "Teilwert ist die Regel; die Kostenbegrenzung gilt nur für Privatvermögen binnen drei Jahren und nicht, wenn § 23 EStG schon zugreift."
+  },
+  {
+    "quelle": "kst-t1-03",
+    "titel": "Ab wann zahlt eine neu gegründete GmbH Körperschaftsteuer?",
+    "einordnung": ["Bei der Gründung sind drei Phasen steuerlich zu trennen, von denen nur zwei der Körperschaftsteuer unterliegen. Das Ende der Steuerpflicht setzt mehr voraus als die bloße Auflösung."],
+    "lernziele": [
+      "Bis zur notariellen Beurkundung des Gesellschaftsvertrags besteht eine Vorgründungsgesellschaft, regelmäßig eine Personengesellschaft; ihre Einkünfte werden den Gründern über eine gesonderte und einheitliche Feststellung zugerechnet.",
+      "Mit dem notariellen Vertrag entsteht die Vorgesellschaft, die bereits körperschaftsteuerpflichtig ist, sofern die Eintragung ins Handelsregister später tatsächlich erfolgt.",
+      "Die Eintragung begründet die Steuerpflicht nicht, sondern bestätigt die schon bestehende; bei einer nach § 1a KStG optierenden Gesellschaft beginnt sie mit dem ersten Wirtschaftsjahr der Option.",
+      "Die Steuerpflicht endet erst, wenn die Tätigkeit tatsächlich eingestellt, das Vermögen nach Ablauf des Sperrjahres verteilt und alle steuerlichen Pflichten erfüllt sind."
+    ],
+    "pruefschritte": [
+      "Tag der notariellen Beurkundung feststellen und die Zeit davor der Vorgründungsgesellschaft zuordnen.",
+      "Ergebnisse der Vorgründungsphase den Gründern über eine gesonderte und einheitliche Feststellung zurechnen.",
+      "Prüfen, ob die Eintragung tatsächlich erfolgt ist; nur dann gehört die Vorgesellschaft zur körperschaftsteuerpflichtigen Phase.",
+      "Für die Gewerbesteuer gesondert prüfen, ob die Vorgesellschaft schon nach außen tätig war; sonst ist grundsätzlich die Eintragung maßgeblich.",
+      "Bei Beendigung Löschung, Vermögensverteilung und Erledigung aller steuerlichen Pflichten kontrollieren."
+    ],
+    "fehler": [
+      "Die Körperschaftsteuerpflicht wird erst ab der Handelsregistereintragung angenommen.",
+      "Die Vorgründungsgesellschaft wird als Vorstufe der GmbH bereits körperschaftsteuerlich erfasst."
+    ],
+    "merksatz": "Der Notartermin ist die Zäsur: davor Personengesellschaft der Gründer, danach Körperschaft – vorausgesetzt, die Eintragung folgt tatsächlich."
+  },
+  {
+    "quelle": "kst-t2-07",
+    "titel": "Streubesitz: Welche Anteile zählen für die 10-%-Grenze?",
+    "einordnung": ["Dividenden sind bei Körperschaften nur steuerfrei, wenn zu Beginn des Kalenderjahres mindestens 10 % unmittelbar gehalten werden. Die Ermittlung dieser Quote ist in Klausuren oft der eigentliche Knackpunkt."],
+    "lernziele": [
+      "§ 8b Abs. 4 Satz 1 KStG stellt auf die unmittelbare Beteiligung am Grund- oder Stammkapital ab; Stimmrechte sind dafür unerheblich.",
+      "Mittelbare Beteiligungen über eine zwischengeschaltete Kapitalgesellschaft werden nicht hinzugerechnet.",
+      "Anteile, die über eine Mitunternehmerschaft gehalten werden, gelten nach § 8b Abs. 4 Satz 4 und 5 KStG anteilig als unmittelbare Beteiligung des Mitunternehmers.",
+      "Im Rahmen einer Wertpapierleihe überlassene Anteile werden nach § 8b Abs. 4 Satz 3 KStG dem Verleiher und nicht dem Entleiher zugerechnet."
+    ],
+    "pruefschritte": [
+      "Stichtag bestimmen: maßgeblich ist die Beteiligung zu Beginn des Kalenderjahres, vorbehaltlich § 8b Abs. 4 Satz 6 KStG.",
+      "Eigene unmittelbare Beteiligung am Nennkapital der ausschüttenden Gesellschaft ermitteln.",
+      "Über Personengesellschaften gehaltene Anteile quotal durchrechnen und hinzuzählen, über Kapitalgesellschaften gehaltene weglassen.",
+      "Entliehene Anteile herausnehmen und das Ergebnis mit der Schwelle von 10 % vergleichen.",
+      "Unterhalb der Schwelle den Bezug voll besteuern; für Veräußerungsgewinne spielt die Grenze keine Rolle."
+    ],
+    "fehler": [
+      "Eine Stimmrechtsmehrheit wird herangezogen, um eine Kapitalbeteiligung unter 10 % aufzuwerten.",
+      "Die über eine Tochter-GmbH mittelbar gehaltenen Anteile werden zur eigenen Quote addiert."
+    ],
+    "merksatz": "Für die 10 % zählt nur, was unmittelbar oder über eine Personengesellschaft gehalten wird – nicht Stimmrechte, nicht Tochter-GmbHs, nicht Leihanteile."
+  },
+  {
+    "quelle": "kst-t2-38",
+    "titel": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
+    "einordnung": ["Hält eine Kapitalgesellschaft Beteiligungen über eine gewerbliche Personengesellschaft, stellt § 8b Abs. 6 KStG sie so, als hätte sie die Erträge selbst bezogen. Offen ist dann vor allem, auf welcher Ebene die Freistellung wirkt."],
+    "lernziele": [
+      "Ausschüttungen, Veräußerungsgewinne und Gewinnminderungen, die über einen Mitunternehmeranteil zugerechnet werden, sind nach § 8b Abs. 6 Satz 1 KStG wie unmittelbar bezogene zu behandeln, gleich ob die Anteile im Gesamthands- oder Sonderbetriebsvermögen liegen.",
+      "Die Personengesellschaft stellt die Einkünfte regelmäßig ohne die Wirkungen des § 8b KStG fest; die begünstigten Beträge werden gesondert ausgewiesen und erst beim Mitunternehmer berücksichtigt.",
+      "Bei einer rein vermögensverwaltenden Personengesellschaft gilt § 8b Abs. 6 KStG nicht, weil die Anteile nach § 39 Abs. 2 Nr. 2 AO ohnehin anteilig den Gesellschaftern zugerechnet werden.",
+      "In der Steuerbilanz der Kapitalgesellschaft folgt der Ansatz des Mitunternehmeranteils ihrem steuerlichen Kapitalkonto einschließlich Sonderbetriebsvermögen."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob die Personengesellschaft gewerblich tätig oder geprägt ist oder nur Vermögen verwaltet.",
+      "Die im festgestellten Gewinnanteil enthaltenen Beteiligungserträge, Veräußerungsgewinne und Anteilsverluste herausfiltern.",
+      "Bei der Kapitalgesellschaft § 8b Abs. 1 bis 5 KStG so anwenden, als hätte sie die Beträge selbst erzielt, einschließlich der 5-%-Hinzurechnung.",
+      "Den Beteiligungsansatz in der Steuerbilanz an das steuerliche Kapitalkonto bei der Personengesellschaft angleichen."
+    ],
+    "fehler": [
+      "Die Freistellung wird schon auf Ebene der Personengesellschaft vorgenommen und bei der Kapitalgesellschaft ein zweites Mal abgezogen.",
+      "Sonderbetriebseinnahmen und -ausgaben werden bei der Fortentwicklung des Beteiligungsansatzes übersehen."
+    ],
+    "merksatz": "Durch die gewerbliche Personengesellschaft wird hindurchgeschaut: § 8b KStG wirkt bei der Kapitalgesellschaft, als hielte sie die Anteile selbst."
+  },
+  {
+    "quelle": "kst-t4-56",
+    "titel": "Überversorgung: Wo liegt die 75-%-Grenze und was folgt daraus?",
+    "einordnung": ["Eine zu großzügige Pensionszusage kann die Rückstellung kürzen oder eine vGA auslösen. Welche Folge eintritt, hängt von der Ausgestaltung der Zusage ab."],
+    "lernziele": [
+      "Überversorgung liegt vor, wenn die zugesagte Versorgung zusammen mit Ansprüchen aus der gesetzlichen Rente und einer Direktversicherung 75 % der letzten tatsächlichen Aktivbezüge übersteigt; maßgeblich ist der jeweilige Bilanzstichtag.",
+      "Bei einer Zusage über einen festen Betrag wird die Rückstellung nach § 6a Abs. 3 Satz 2 Nr. 1 Satz 4 EStG auf das Niveau von 75 % begrenzt; eine vGA droht erst bei Auszahlung überhöhter Beträge.",
+      "Bei einer Zusage in Prozent des Endgehalts bleibt die Rückstellung bilanziell unberührt; die Zuführungen sind vGA, soweit sie auf der Überschreitung beruhen.",
+      "Eine Pensionszusage ohne daneben gezahltes laufendes Gehalt ist in vollem Umfang Überversorgung; die Rückstellung ist aufzulösen."
+    ],
+    "pruefschritte": [
+      "Art der Zusage feststellen: fester Betrag, Prozentsatz des Endgehalts oder Pension ohne laufendes Gehalt.",
+      "Zugesagte Leistungen einschließlich gesetzlicher Rente und Direktversicherung am Stichtag ins Verhältnis zu den tatsächlichen Aktivbezügen setzen.",
+      "Bei Festbetragszusagen die Rückstellung in der Steuerbilanz auf das zulässige Niveau zurückführen.",
+      "Bei gehaltsabhängiger Zusage den auf die Überschreitung entfallenden Zuführungsbetrag außerbilanziell als vGA hinzurechnen.",
+      "Die Zusage mit ihrer fiktiven Jahresnettoprämie in die Angemessenheitsprüfung der Gesamtbezüge einbeziehen."
+    ],
+    "fehler": [
+      "Die fiktive Jahresnettoprämie wird den Aktivbezügen zugeschlagen und erhöht so die Bezugsgröße für die 75 %.",
+      "Bei einer Pension ohne laufendes Gehalt wird nur ein Teil der Rückstellung aufgelöst."
+    ],
+    "merksatz": "Mehr als 75 % der Aktivbezüge ist Überversorgung – bei Festbeträgen wird die Rückstellung gekürzt, ohne laufendes Gehalt fällt sie ganz weg."
+  },
+  {
+    "quelle": "kst-t4-15",
+    "titel": "Kann ein Gegengeschäft eine vGA neutralisieren?",
+    "einordnung": ["Ein Nachteil der Gesellschaft kann durch einen Vorteil ausgeglichen werden, den ihr der Gesellschafter gewährt. Die Anforderungen an diesen Ausgleich sind allerdings streng."],
+    "lernziele": [
+      "Ein Vorteilsausgleich schließt eine vGA aus, wenn Leistung der Gesellschaft und Gegenleistung des Gesellschafters rechtlich verknüpft und im Voraus vereinbart sind.",
+      "Die Gegenleistung muss den Nachteil der Gesellschaft wertmäßig mindestens aufwiegen und der Höhe nach gesichert sein, sodass sich ein ordentlicher Geschäftsleiter darauf eingelassen hätte.",
+      "Bleibt der Ausgleich hinter dem Nachteil zurück, liegt in Höhe der Differenz eine vGA vor.",
+      "Ein nur zeitliches Zusammentreffen zweier Geschäfte genügt nicht; sie sind dann getrennt zu würdigen."
+    ],
+    "pruefschritte": [
+      "Nachteil der Gesellschaft aus dem ersten Geschäft beziffern, etwa entgangene Zinsen.",
+      "Gegenleistung des Gesellschafters ermitteln und auf Gleichwertigkeit und Sicherheit prüfen.",
+      "Prüfen, ob beide Geschäfte vorab vereinbart wurden und sich gegenseitig bedingen.",
+      "Bei beherrschenden Gesellschaftern zusätzlich eine klare Vereinbarung vor Leistungserbringung verlangen.",
+      "Einen verbleibenden Nachteil als vGA nach § 8 Abs. 3 Satz 2 KStG hinzurechnen."
+    ],
+    "fehler": [
+      "Ein später zufällig gewährter Vorteil des Gesellschafters wird mit einer früheren vGA verrechnet.",
+      "Bei nur teilweisem Ausgleich wird die vGA vollständig verneint."
+    ],
+    "merksatz": "Ausgleich nur bei vorab vereinbartem, mindestens gleichwertigem Gegengeschäft – was fehlt, bleibt vGA."
+  },
+  {
+    "quelle": "kst-t5-9",
+    "titel": "Konzernklausel des § 8c KStG: auf-, ab- und seitwärts",
+    "einordnung": ["Umstrukturierungen innerhalb eines Konzerns sollen Verlustvorträge nicht vernichten. § 8c Abs. 1 Satz 4 KStG nimmt deshalb drei Konstellationen vom Verlustuntergang aus."],
+    "lernziele": [
+      "Nach Nr. 1 bleibt die Übertragung folgenlos, wenn der Erwerbende direkt oder über Zwischenstufen sämtliche Anteile am Übertragenden hält; die Kette wird dadurch kürzer.",
+      "Nr. 2 betrifft die Gegenrichtung: Der Übertragende hält sämtliche Anteile am Erwerbenden, etwa wenn Anteile in die eigene Kapitalgesellschaft eingebracht werden.",
+      "Nach Nr. 3 ist eine Übertragung zwischen Rechtsträgern unschädlich, an denen dieselbe Person jeweils zu 100 % beteiligt ist.",
+      "Maßgebliche Personen können natürliche oder juristische Personen oder Personenhandelsgesellschaften sein; die Beteiligung an der Verlustgesellschaft selbst darf unter 100 % liegen."
+    ],
+    "pruefschritte": [
+      "Zunächst feststellen, dass ein schädlicher Erwerb von mehr als 50 % nach § 8c Abs. 1 Satz 1 KStG vorliegt.",
+      "Richtung der Übertragung bestimmen: auf eine übergeordnete, eine nachgeordnete oder eine gleichrangige Einheit im Konzern.",
+      "Die jeweils geforderte 100-%-Beteiligung, unmittelbar oder mittelbar, zwischen den maßgeblichen Rechtsträgern nachweisen.",
+      "Rechtsform der maßgeblichen Person prüfen; eine bloße Personengruppe oder eine GbR genügt nicht.",
+      "Greift keine Fallgruppe, die Stille-Reserven-Klausel oder § 8d KStG als weitere Auswege prüfen."
+    ],
+    "fehler": [
+      "Es wird eine 100-%-Beteiligung an der Verlustgesellschaft selbst verlangt.",
+      "Mehrere Gesellschafter, die gemeinsam alle Anteile halten, werden als dieselbe Person im Sinne der Nr. 3 behandelt."
+    ],
+    "merksatz": "Unschädlich ist die Übertragung, wenn Veräußerer und Erwerber über 100-%-Beteiligungen verbunden sind oder beide vollständig derselben Person gehören."
+  },
+  {
+    "quelle": "kst-t5-43",
+    "titel": "Atypisch still an einer GmbH beteiligt: Verlust nur verrechenbar",
+    "einordnung": ["Beteiligt sich eine Kapitalgesellschaft still an einer anderen Kapitalgesellschaft, kann sie Verluste daraus nur eingeschränkt nutzen. Die Regel verhindert, dass die abgeschaffte Mehrmütterorganschaft auf diesem Weg nachgebaut wird."],
+    "lernziele": [
+      "Erleidet eine Kapitalgesellschaft als atypisch stille Gesellschafterin einer anderen Kapitalgesellschaft Verluste, dürfen diese nach § 15 Abs. 4 Satz 6 EStG weder mit anderen Einkünften ausgeglichen noch allgemein nach § 10d EStG abgezogen werden.",
+      "Nach § 15 Abs. 4 Satz 7 EStG lassen sie sich nur gegen Gewinne rechnen, die dieselbe stille Beteiligung im Vorjahr oder später erbringt, jeweils nach Maßgabe des § 10d EStG.",
+      "Über § 20 Abs. 1 Nr. 4 Satz 2 EStG gilt die Beschränkung entsprechend für typisch stille Beteiligungen.",
+      "Der verbleibende Betrag wird gesondert festgestellt und kann bei einem schädlichen Anteilserwerb nach § 8c KStG untergehen."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob eine Kapitalgesellschaft still an einer anderen Kapitalgesellschaft beteiligt ist und ob die Beteiligung typisch oder atypisch ist.",
+      "Den zugewiesenen Verlustanteil außerbilanziell aus dem Einkommen des laufenden Jahres herausnehmen.",
+      "Prüfen, ob der Verlust nach § 15 Abs. 4 Satz 8 EStG auf eine natürliche Person entfällt und die Beschränkung deshalb nicht gilt.",
+      "Ausschließlich mit früheren oder späteren Gewinnen dieser stillen Beteiligung verrechnen und dabei die Grenzen des § 10d Abs. 2 EStG einhalten.",
+      "Den verbleibenden Verlust zum Jahresende gesondert feststellen."
+    ],
+    "fehler": [
+      "Der Verlust aus der stillen Beteiligung wird mit dem Gewinn aus dem eigenen Geschäftsbetrieb verrechnet.",
+      "Die Beschränkung wird bei typisch stiller Beteiligung verneint, obwohl § 20 Abs. 1 Nr. 4 Satz 2 EStG auf sie verweist."
+    ],
+    "merksatz": "Verluste einer GmbH aus stiller Beteiligung an einer GmbH bleiben im eigenen Topf – verrechenbar nur mit früheren oder späteren Gewinnen daraus."
+  },
+  {
+    "quelle": "kst-t5-37",
+    "titel": "Was passiert mit Zinsen, die die Zinsschranke blockiert?",
+    "einordnung": ["Die Zinsschranke vernichtet Zinsaufwand nicht endgültig, sondern verschiebt ihn. Der Vortrag muss in Folgejahren richtig einbezogen und verfahrensrechtlich festgestellt werden."],
+    "lernziele": [
+      "Soweit der Zinssaldo das verrechenbare EBITDA von 30 % übersteigt, ist er nicht abziehbar und wird nach § 4h Abs. 1 Satz 5 EStG in die folgenden Wirtschaftsjahre vorgetragen.",
+      "Der Zinsvortrag erhöht in den Folgejahren die Zinsaufwendungen, nicht aber das maßgebliche EBITDA.",
+      "Der Vortrag ist nach § 4h Abs. 4 EStG gesondert festzustellen.",
+      "Mindert ein vorgetragener Zins später den Gewinn, ist er in diesem Jahr auch bei der gewerbesteuerlichen Hinzurechnung nach § 8 Nr. 1a GewStG zu berücksichtigen."
+    ],
+    "pruefschritte": [
+      "Nettozinsaufwand des Jahres ermitteln und den festgestellten Zinsvortrag des Vorjahres hinzuzählen.",
+      "Freigrenze von 3 Mio. Euro sowie Konzern- und Eigenkapitalausnahmen prüfen, bevor die Beschränkung angewendet wird.",
+      "Verrechenbares EBITDA mit 30 % des steuerlichen EBITDA berechnen, ohne den Vortrag einzubeziehen.",
+      "Den Teil des Zinssaldos über dem verrechenbaren EBITDA außerbilanziell hinzurechnen und als neuen Vortrag feststellen.",
+      "Für die Gewerbesteuer den im Jahr tatsächlich abgezogenen Zinsaufwand der Hinzurechnung zugrunde legen."
+    ],
+    "fehler": [
+      "Der Zinsvortrag wird bei der EBITDA-Berechnung des Folgejahres als Aufwand zurückgerechnet und vergrößert so das Abzugsvolumen.",
+      "Der gesperrte Zins wird im Entstehungsjahr gewerbesteuerlich hinzugerechnet, obwohl er den Gewinn dort nicht gemindert hat."
+    ],
+    "merksatz": "Gesperrte Zinsen wandern in den Zinsvortrag und gelten später als Zinsaufwand – das EBITDA bleibt davon unberührt."
+  },
+  {
+    "quelle": "kst-t6-22",
+    "titel": "Dividenden der Organgesellschaft: Wer wendet § 8b KStG an?",
+    "einordnung": ["Bezieht eine Organgesellschaft Beteiligungserträge, darf sie selbst keine Steuerbefreiung vornehmen. Über die Freistellung entscheidet die Rechtsform des Organträgers."],
+    "lernziele": [
+      "Nach § 15 Satz 1 Nr. 2 Satz 1 KStG ist § 8b KStG bei der Ermittlung des Einkommens der Organgesellschaft nicht anzuwenden; die Erträge gehen brutto in das zuzurechnende Einkommen ein.",
+      "Erst beim Organträger wird nach § 15 Satz 1 Nr. 2 Satz 2 KStG entschieden, ob § 8b KStG oder bei natürlichen Personen § 3 Nr. 40 und § 3c Abs. 2 EStG gelten.",
+      "Für die 10-%-Grenze des § 8b Abs. 4 KStG werden Organträger und Organgesellschaft getrennt betrachtet; ihre Beteiligungen werden nicht zusammengerechnet.",
+      "Die auf Ausschüttungen an die Organgesellschaft einbehaltene Kapitalertragsteuer wird nach § 19 Abs. 5 KStG beim Organträger angerechnet."
+    ],
+    "pruefschritte": [
+      "Einkommen der Organgesellschaft ohne § 8b KStG ermitteln und Beteiligungserträge sowie zugehörige Ausgaben gesondert festhalten.",
+      "Prüfen, ob die eigene Beteiligung der Organgesellschaft an der ausschüttenden Tochter die Streubesitzgrenze erreicht.",
+      "Beim Organträger das zugerechnete Einkommen übernehmen und die Befreiung nach seiner Rechtsform vornehmen.",
+      "Bei einer Kapitalgesellschaft als Organträger die Beteiligungserträge abziehen und 5 % nach § 8b Abs. 5 KStG hinzurechnen.",
+      "Die Kapitalertragsteuer auf Ebene des Organträgers anrechnen."
+    ],
+    "fehler": [
+      "Die Organgesellschaft kürzt die Dividende bereits selbst nach § 8b Abs. 1 KStG, sodass beim Organträger doppelt freigestellt wird.",
+      "Die Quoten von Organträger und Organgesellschaft an derselben Gesellschaft werden für die Streubesitzgrenze addiert."
+    ],
+    "merksatz": "Im Organkreis wird brutto zugerechnet und erst beim Organträger freigestellt – die 10-%-Quote prüft man bei der Gesellschaft, die die Anteile hält."
+  },
+  {
+    "quelle": "kst-t6-5",
+    "titel": "Organschaft: Stimmrechte und inländische Betriebsstätte",
+    "einordnung": ["Ein Organträger muss die Organgesellschaft über die Stimmrechtsmehrheit beherrschen, und das Organeinkommen muss in Deutschland besteuert werden können. Beides wird bei grenzüberschreitenden Strukturen leicht übersehen."],
+    "lernziele": [
+      "Die finanzielle Eingliederung nach § 14 Abs. 1 Satz 1 Nr. 1 KStG verlangt die Mehrheit der Stimmrechte vom Beginn des Wirtschaftsjahres der Organgesellschaft an; die bloße Kapitalquote ist nicht entscheidend.",
+      "Stimmrechte zählen nur aus Anteilen, die dem Organträger wenigstens wirtschaftlich gehören; mittelbare Beteiligungen werden berücksichtigt, wenn jede vermittelnde Beteiligung ihrerseits die Stimmrechtsmehrheit gewährt.",
+      "Nach § 14 Abs. 1 Satz 1 Nr. 2 Satz 4 KStG muss die Beteiligung während der gesamten Organschaft einer inländischen Betriebsstätte des Organträgers zuzuordnen sein.",
+      "Ist der Organträger im Ausland ansässig, müssen die dieser Betriebsstätte zuzurechnenden Einkünfte auch nach dem einschlägigen DBA in Deutschland besteuert werden können."
+    ],
+    "pruefschritte": [
+      "Stimmrechtsanteil des Organträgers an der Organgesellschaft zu Beginn ihres Wirtschaftsjahres feststellen.",
+      "Mittelbare Beteiligungen nur einbeziehen, wenn jede vermittelnde Gesellschaft ihrerseits mehrheitlich beherrscht wird.",
+      "Zuordnung der Beteiligung zu einer inländischen Betriebsstätte des Organträgers prüfen, in reinen Inlandsfällen nur kurz feststellen.",
+      "Bei ausländischem Organträger untersuchen, ob das DBA Deutschland das Besteuerungsrecht an den Betriebsstätteneinkünften belässt."
+    ],
+    "fehler": [
+      "Eine Kapitalbeteiligung von über 50 % wird als ausreichend angesehen, obwohl stimmrechtslose Anteile oder Stimmrechtsbeschränkungen die Mehrheit verhindern.",
+      "Die finanzielle Eingliederung wird nur zum Bilanzstichtag statt ab Beginn des Wirtschaftsjahres geprüft."
+    ],
+    "merksatz": "Für die Organschaft zählen Stimmen, nicht Kapital – und die Beteiligung muss durchgehend einer deutschen Betriebsstätte zugeordnet sein."
+  },
+  {
+    "quelle": "kst-t7-9",
+    "titel": "Liquidation: Wie lang ist der Besteuerungszeitraum?",
+    "einordnung": ["In der Abwicklung ersetzt ein mehrjähriger Besteuerungszeitraum die jährliche Veranlagung. Das beeinflusst Verlustverrechnung, Steuererklärungen und die Wahl eines Rumpfwirtschaftsjahres."],
+    "lernziele": [
+      "Nach § 11 Abs. 1 KStG wird der Gewinn für den gesamten Abwicklungszeitraum einheitlich ermittelt; dieser Zeitraum soll drei Jahre nicht übersteigen.",
+      "Dauert die Abwicklung länger, entstehen mehrere Besteuerungszeiträume; Verluste zwischen ihnen werden nach § 10d EStG einschließlich der Mindestbesteuerung verrechnet.",
+      "Fällt die Auflösung in ein laufendes Wirtschaftsjahr, darf ein Rumpfwirtschaftsjahr gebildet werden, das nicht zum Abwicklungszeitraum gehört (R 11 Abs. 1 KStR).",
+      "Im Insolvenzverfahren beginnt nach § 155 Abs. 2 Satz 1 InsO zwingend ein neues Geschäftsjahr, sodass kein Wahlrecht besteht."
+    ],
+    "pruefschritte": [
+      "Auflösungszeitpunkt bestimmen und prüfen, ob er in ein laufendes Wirtschaftsjahr fällt.",
+      "Über die Bildung eines Rumpfwirtschaftsjahres entscheiden; in Verlustfällen kann der Verzicht vorteilhaft sein.",
+      "Abwicklungszeitraum festlegen und bei mehr als drei Jahren in mehrere Besteuerungszeiträume aufteilen.",
+      "Innerhalb eines Besteuerungszeitraums alle Ergebnisse saldieren und zwischen den Zeiträumen die Verlustabzugsregeln anwenden.",
+      "Abwicklungsanfangs- und Abwicklungsendvermögen gegenüberstellen und so den Abwicklungsgewinn ermitteln."
+    ],
+    "fehler": [
+      "Für jedes Kalenderjahr der Abwicklung wird eine eigene Veranlagung durchgeführt.",
+      "Ein gebildetes Rumpfwirtschaftsjahr vor der Auflösung wird in die Dreijahresfrist eingerechnet."
+    ],
+    "merksatz": "Abwicklung heißt: ein Besteuerungszeitraum von regelmäßig höchstens drei Jahren; längere Liquidationen werden gestückelt."
+  },
+  {
+    "quelle": "kst-schema-vga",
+    "titel": "vGA vollständig lösen: Gesellschaft und Gesellschafter",
+    "einordnung": ["Eine vGA hat Folgen auf zwei Ebenen, die in der Klausur getrennt und vollständig darzustellen sind. Vergessene Folgeschritte kosten regelmäßig Punkte."],
+    "lernziele": [
+      "Bei der Gesellschaft wird die vGA nach § 8 Abs. 3 Satz 2 KStG außerbilanziell mit dem gemeinen Wert der Leistung einschließlich Umsatzsteuer abzüglich einer erhaltenen Gegenleistung hinzugerechnet.",
+      "Die vGA ist zugleich eine Leistung im Sinne des § 27 Abs. 1 Satz 3 KStG und kann umsatzsteuerlich eine unentgeltliche Wertabgabe oder eine verbilligte Leistung mit Mindestbemessungsgrundlage auslösen.",
+      "Beim Gesellschafter liegen Einnahmen nach § 20 Abs. 1 Nr. 1 Satz 2 EStG vor; unterstellt wird, dass er eine offene Ausschüttung erhalten und davon ein angemessenes Entgelt gezahlt hat.",
+      "Die Begünstigungen nach § 8b Abs. 1 KStG, das Teileinkünfteverfahren und der Abgeltungsteuersatz entfallen, soweit die vGA das Einkommen der Gesellschaft gemindert hat."
+    ],
+    "pruefschritte": [
+      "Tatbestand nach R 8.5 KStR prüfen: Vermögensminderung oder verhinderte Mehrung, Veranlassung im Gesellschaftsverhältnis, Gewinnauswirkung, keine offene Ausschüttung.",
+      "Mit dem gemeinen Wert einschließlich Umsatzsteuer abzüglich Gegenleistung bewerten und außerbilanziell hinzurechnen, ohne die Umsatzsteuer nochmals zu korrigieren.",
+      "Umsatzsteuerliche Folgen der Vorteilsgewährung ermitteln und innerhalb der Bilanz als Aufwand erfassen.",
+      "Beim Gesellschafter nach Rechtsform und Privat- oder Betriebsvermögen unterscheiden und die passende Besteuerung wählen.",
+      "Korrespondenz prüfen: Wurde die vGA bei der Gesellschaft nicht hinzugerechnet, entfallen beim Empfänger die Begünstigungen."
+    ],
+    "fehler": [
+      "Die vGA wird bei der Gesellschaft netto angesetzt und die Umsatzsteuer entweder vergessen oder zusätzlich nach § 10 Nr. 2 KStG hinzugerechnet.",
+      "Beim Gesellschafter wird übersehen, dass er den als Ausschüttung behandelten Vorteil als Aufwand geltend machen kann, wenn er ihn zur Einkünfteerzielung nutzt."
+    ],
+    "merksatz": "Gesellschaft: gemeinen Wert samt Umsatzsteuer hinzurechnen. Gesellschafter: gedachte Ausschüttung plus gedachte Zahlung – und stets die Korrespondenz prüfen."
+  },
+  {
+    "quelle": "kst-schema-organschaft",
+    "titel": "Wann rechnet der Organträger das Einkommen der Tochter zu?",
+    "einordnung": ["Die Organschaft bündelt die Einkommen von Mutter und Tochter bei der Mutter. Klausuren verlangen zuerst die Voraussetzungen und dann typische Folgefragen der Einkommensermittlung."],
+    "lernziele": [
+      "Als Organgesellschaft kommt eine Kapitalgesellschaft in Betracht, deren Geschäftsleitung in Deutschland liegt und deren Sitz sich in der EU oder im EWR befindet; Organträger eine gewerbliche natürliche Person, eine Körperschaft oder eine originär gewerblich tätige Personengesellschaft.",
+      "Erforderlich sind die finanzielle Eingliederung ab Beginn des Wirtschaftsjahres und ein Gewinnabführungsvertrag, der auf mindestens fünf Jahre geschlossen und tatsächlich durchgeführt wird.",
+      "Die Zurechnung beginnt mit dem Kalenderjahr, in welchem das erste Wirtschaftsjahr der Tochter mit wirksamem Vertrag abschließt (§ 14 Abs. 1 Satz 2 KStG).",
+      "Ausgleichszahlungen an außenstehende Gesellschafter versteuert die Organgesellschaft selbst in Höhe von 20/17 der Zahlungen (§ 16 KStG); beim Zahlenden sind sie nicht abziehbar."
+    ],
+    "pruefschritte": [
+      "Taugliche Organgesellschaft und tauglichen Organträger einschließlich des deutschen Besteuerungsrechts am Organeinkommen feststellen.",
+      "Stimmrechtsmehrheit ab Beginn des Wirtschaftsjahres sowie Laufzeit, Wirksamkeit und Durchführung des Vertrags prüfen, bei einer GmbH mit Verweis auf § 302 AktG.",
+      "Beim Organträger die handelsrechtliche Gewinnabführung neutralisieren und stattdessen das steuerliche Einkommen der Organgesellschaft ansetzen.",
+      "Minderabführungen aus organschaftlicher Zeit als Einlage, Mehrabführungen als Einlagenrückgewähr beim Beteiligungsansatz erfassen (§ 14 Abs. 4 KStG).",
+      "Bei der Organgesellschaft weder Verlustabzug noch § 8b KStG anwenden (§ 15 Satz 1 Nr. 1 und 2 KStG)."
+    ],
+    "fehler": [
+      "Die Gewinnabführung bleibt beim Organträger als Ertrag stehen, und das Organeinkommen wird zusätzlich zugerechnet.",
+      "Für die Gewerbesteuer wird § 8b KStG bei der Organgesellschaft nicht angewendet, obwohl § 7a GewStG dies vorsieht.",
+      "Ausgleichszahlungen werden als Betriebsausgaben abgezogen, obwohl § 4 Abs. 5 Satz 1 Nr. 9 EStG dies verbietet."
+    ],
+    "merksatz": "Erst die Voraussetzungen, dann die Zurechnung: Abführung heraus, Organeinkommen hinein – Verlustabzug und § 8b KStG gibt es bei der Tochter nicht."
+  },
+  {
+    "quelle": "kst-ks-4-10",
+    "titel": "Darlehen an die Tochter fällt aus: Ist der Verlust abziehbar?",
+    "einordnung": ["Gewinnminderungen aus Gesellschafterdarlehen und Sicherheiten sind bei wesentlich beteiligten Körperschaften grundsätzlich gesperrt. Als Ausweg bleibt im Wesentlichen der Fremdvergleich."],
+    "lernziele": [
+      "Nach § 8b Abs. 3 Satz 4 KStG sind Gewinnminderungen aus einer Darlehensforderung oder der Inanspruchnahme aus einer Sicherheit nicht abziehbar, wenn der Gläubiger zu mehr als einem Viertel beteiligt ist oder war.",
+      "Das Verbot reicht auf Darlehen von Personen, die dem Gesellschafter nach § 1 Abs. 2 AStG nahestehen, sowie auf Forderungen, die wirtschaftlich wie ein Darlehen wirken, etwa lange gestundete Mieten.",
+      "Der Gegenbeweis nach § 8b Abs. 3 Satz 7 KStG gelingt nur, wenn ein fremder Dritter das Darlehen unter sonst gleichen Umständen gegeben und nicht zurückgefordert hätte, wobei allein die Sicherheiten der Schuldnerin zählen.",
+      "Eine spätere Wertaufholung ist steuerfrei, soweit die frühere Abschreibung gesperrt war; für natürliche Personen gilt über § 3c Abs. 2 Satz 2 ff. EStG ein Abzugsverbot von 40 %."
+    ],
+    "pruefschritte": [
+      "Beteiligungsquote des Gläubigers prüfen: mehr als ein Viertel, direkt oder über andere Gesellschaften, zu irgendeinem Zeitpunkt der Darlehensbeziehung.",
+      "Art der Gewinnminderung bestimmen: Teilwertabschreibung, Verzicht auf den wertlosen Teil oder Inanspruchnahme aus einer Bürgschaft.",
+      "Auch Darlehen verbundener Personen sowie wirtschaftlich vergleichbare Forderungen, zum Beispiel stehen gelassene Mieten, einbeziehen.",
+      "Fremdüblichkeit von Zins, Sicherheiten und Rückforderungsverhalten untersuchen; gelingt der Nachweis nicht, den Aufwand außerbilanziell hinzurechnen.",
+      "Spätere Zuschreibungen auf die Forderung bis zur Höhe der früher gesperrten Abschreibung außerbilanziell kürzen."
+    ],
+    "fehler": [
+      "Der Aufwand aus einer Bürgschaftsinanspruchnahme wird als abziehbar behandelt, weil ursprünglich keine Darlehensforderung der Mutter bestand.",
+      "Die Zuschreibung einer früher gesperrt abgeschriebenen Forderung wird als steuerpflichtiger Ertrag erfasst.",
+      "Ein unverzinstes, unbesichertes Darlehen wird im Fremdvergleich als fremdüblich anerkannt."
+    ],
+    "merksatz": "Wer zu mehr als einem Viertel beteiligt ist, kann Darlehensverluste gegenüber seiner Gesellschaft grundsätzlich nicht abziehen – außer der Fremdvergleich gelingt."
+  },
+  {
+    "quelle": "kst-ks-3-05",
+    "titel": "Zinsloses Darlehen an die GmbH: Warum keine verdeckte Einlage?",
+    "einordnung": ["Überlässt ein Gesellschafter seiner Gesellschaft Geld oder Sachen unentgeltlich zur Nutzung, fehlt ein einlagefähiges Wirtschaftsgut. Korrekturen können sich dennoch beim Gesellschafter und in grenzüberschreitenden Fällen ergeben."],
+    "lernziele": [
+      "Nutzungs- und Gebrauchsvorteile sind nach ständiger Rechtsprechung kein einlagefähiges Wirtschaftsgut; ihre unentgeltliche oder verbilligte Überlassung führt bei der Gesellschaft weder zu einer Einlage noch zu fiktivem Aufwand.",
+      "Ist der Gesellschafter zu mehr als 25 % beteiligt und überlässt er aus gesellschaftlichen Gründen unentgeltlich, sind seine damit zusammenhängenden Aufwendungen nach § 3c Abs. 2 Satz 6 EStG zu 40 % nicht abziehbar.",
+      "Bei unentgeltlicher Nutzungsüberlassung an eine ausländische Tochtergesellschaft kann § 1 AStG eine Korrektur der Einkünfte des inländischen Gesellschafters auslösen.",
+      "Nutzt eine eigene ausländische Betriebsstätte ein Wirtschaftsgut und wird dadurch das deutsche Besteuerungsrecht beschränkt, gilt nach § 12 Abs. 1 KStG eine Überlassung zum fremdüblichen Wert als erfolgt."
+    ],
+    "pruefschritte": [
+      "Gegenstand der Zuwendung bestimmen: Übertragung eines Wirtschaftsguts oder nur Überlassung zur Nutzung bzw. Dienstleistung.",
+      "Bei bloßer Nutzungsüberlassung keine Einlage buchen und den Aufwand der Gesellschaft nicht fiktiv erhöhen.",
+      "Beim Gesellschafter prüfen, ob die Beteiligungsgrenze von 25 % überschritten ist und § 3c Abs. 2 Satz 6 EStG seine Aufwendungen kürzt.",
+      "Bei ausländischer Tochtergesellschaft den Fremdvergleich nach § 1 AStG durchführen und die Einkünfte des Gesellschafters berichtigen.",
+      "Bei Überlassung an eine eigene ausländische Betriebsstätte die Entstrickungsfolgen nach § 12 Abs. 1 KStG erfassen."
+    ],
+    "fehler": [
+      "Für ein zinsloses Gesellschafterdarlehen wird bei der Gesellschaft eine Einlage in Höhe der ersparten Zinsen angesetzt.",
+      "Das Teilabzugsverbot beim Gesellschafter wird auch bei Beteiligungen von höchstens 25 % angewendet."
+    ],
+    "merksatz": "Nutzungen kann man nicht einlegen: Die Gesellschaft spart schlicht Aufwand; Korrekturen treffen allenfalls den Gesellschafter oder Fälle über die Grenze."
+  },
+  {
+    "quelle": "kst-ks-4-06",
+    "titel": "vGA beim Empfänger steuerfrei? Nur mit Korrespondenz",
+    "einordnung": ["Die Begünstigungen für Ausschüttungen setzen voraus, dass die vGA das Einkommen der leistenden Gesellschaft nicht gemindert hat. Verfahrensrechtlich sichert § 32a KStG die Abstimmung beider Ebenen."],
+    "lernziele": [
+      "§ 8b Abs. 1 Satz 2 KStG gewährt die Freistellung einer vGA beim körperschaftlichen Anteilseigner nur, soweit sie das Einkommen der leistenden Gesellschaft nicht gemindert hat; das gilt auch, wenn ein DBA die Dividende freistellen würde.",
+      "Bei natürlichen Personen entfallen unter derselben Voraussetzung das Teileinkünfteverfahren nach § 3 Nr. 40 Buchst. d EStG und der Abgeltungsteuersatz nach § 32d Abs. 2 Nr. 4 EStG.",
+      "Ausgenommen sind Fälle, in denen eine nahestehende Person wegen der vGA ein höheres Einkommen versteuert hat und ihre Veranlagung nicht über § 32a KStG geändert werden kann.",
+      "§ 32a KStG erlaubt die Änderung des Bescheids beim Gesellschafter, wenn bei der Gesellschaft eine vGA nachträglich berücksichtigt wird; die Festsetzungsfrist endet frühestens ein Jahr nach Unanfechtbarkeit des Körperschaftsteuerbescheids."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob die vGA bei der leistenden Gesellschaft außerbilanziell hinzugerechnet wurde oder dies noch möglich ist.",
+      "Bei körperschaftlichem Empfänger zunächst § 8b Abs. 4 KStG und danach die Korrespondenzbedingung des § 8b Abs. 1 Satz 2 KStG prüfen.",
+      "Bei natürlichen Personen je nach Vermögenssphäre Teileinkünfteverfahren oder Abgeltungsteuer nur bei korrespondierender Hinzurechnung gewähren.",
+      "In Dreieckskonstellationen die Ausnahme für nahestehende Personen und die Anwendbarkeit von § 32a KStG untersuchen.",
+      "Wird der Körperschaftsteuerbescheid der Gesellschaft wegen einer vGA geändert, den Bescheid des Empfängers nach § 32a Abs. 1 KStG anpassen."
+    ],
+    "fehler": [
+      "Die Korrespondenz wird auch bei der Gewerbesteuer angewendet und die Kürzung nach § 9 Nr. 2a GewStG versagt.",
+      "Eine Änderung beim Gesellschafter wird abgelehnt, weil dessen Bescheid nach der AO bereits bestandskräftig ist."
+    ],
+    "merksatz": "Steuerfrei beim Empfänger ist nur, was bei der Gesellschaft nicht abgezogen blieb – und § 32a KStG sorgt dafür, dass beide Bescheide zusammenpassen."
+  }
+]
