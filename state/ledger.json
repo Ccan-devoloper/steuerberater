@@ -5678,6 +5678,18 @@
       "thema": null,
       "fach": null,
       "titel": "Tage bis zum Examen"
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "s7",
+      "medienId": "17973438723133347",
+      "veroeffentlicht": "2026-09-28T13:44:11.313Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "persg-modul-persg-8",
+      "fach": "persg",
+      "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen"
     }
   ],
   "fachZaehler": {
