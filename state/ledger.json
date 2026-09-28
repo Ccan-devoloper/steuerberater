@@ -4983,7 +4983,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 31,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -4992,8 +4992,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-28T05:44:33.138Z",
-      "insightsAlterStunden": 47
+      "insightsStand": "2026-09-28T14:46:21.618Z",
+      "insightsAlterStunden": 56
     },
     {
       "datum": "2026-09-26",
@@ -5065,19 +5065,19 @@
         "#kopfsache"
       ],
       "insights": {
-        "reach": 33,
+        "reach": 36,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 50,
-        "ig_reels_avg_watch_time": 13550,
-        "ig_reels_video_view_total_time": 514916,
-        "reels_skip_rate": 48.5
+        "views": 54,
+        "ig_reels_avg_watch_time": 12914,
+        "ig_reels_video_view_total_time": 542395,
+        "reels_skip_rate": 51.4
       },
-      "insightsStand": "2026-09-28T05:44:33.138Z",
-      "insightsAlterStunden": 43.5
+      "insightsStand": "2026-09-28T14:46:21.618Z",
+      "insightsAlterStunden": 52.5
     },
     {
       "datum": "2026-09-26",
@@ -5448,21 +5448,22 @@
       "fach": "bilanz",
       "titel": "Permanente Differenz",
       "insights": {
-        "reach": 14,
-        "views": 17,
+        "reach": 17,
+        "views": 24,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 11,
-        "navigation_tap_exit": 2
+        "navigation": 20,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-09-28T10:45:48.649Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-09-28T14:46:15.307Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-28",
@@ -5476,20 +5477,21 @@
       "fach": "bilanz",
       "titel": "Welche Verbrauchsfolge ist steuerlich unzulässig?",
       "insights": {
-        "reach": 12,
-        "views": 16,
+        "reach": 15,
+        "views": 22,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_forward": 14,
-        "navigation_tap_back": 1
+        "navigation": 21,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 17,
+        "navigation_tap_exit": 1
       },
-      "insightsStand": "2026-09-28T10:45:48.649Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-28T14:46:15.307Z",
+      "insightsAlterStunden": 9
     },
     {
       "datum": "2026-09-28",
@@ -5503,22 +5505,22 @@
       "fach": "bilanz",
       "titel": "Fifo",
       "insights": {
-        "reach": 11,
-        "views": 16,
+        "reach": 14,
+        "views": 20,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 7,
+        "navigation": 16,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 9,
         "navigation_tap_exit": 2,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-28T10:45:48.649Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-28T14:46:15.307Z",
+      "insightsAlterStunden": 9
     },
     {
       "datum": "2026-09-28",
@@ -5542,7 +5544,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 26,
+        "reach": 29,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5551,8 +5553,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-28T11:44:37.122Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-28T14:46:21.618Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-09-28",
@@ -5593,18 +5595,21 @@
       "fach": "kst",
       "titel": "Gesellschafterdarlehen und Zinsvorteile",
       "insights": {
-        "reach": 0,
-        "views": 5,
+        "reach": 13,
+        "views": 14,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 0
+        "navigation": 13,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 2
       },
-      "insightsStand": "2026-09-28T10:45:48.649Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-28T14:46:15.307Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-28",
@@ -5706,7 +5711,23 @@
       "storyArt": "merksatz",
       "thema": "persg-modul-persg-8",
       "fach": "persg",
-      "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen"
+      "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen",
+      "insights": {
+        "reach": 7,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 4
+      },
+      "insightsStand": "2026-09-28T14:46:15.307Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {
