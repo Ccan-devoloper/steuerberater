@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 31,
+        "reach": 38,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 45,
-        "ig_reels_avg_watch_time": 10056,
-        "ig_reels_video_view_total_time": 341930,
-        "reels_skip_rate": 57.6
+        "views": 56,
+        "ig_reels_avg_watch_time": 9817,
+        "ig_reels_video_view_total_time": 402521,
+        "reels_skip_rate": 60
       },
-      "insightsStand": "2026-09-28T05:44:33.138Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-09-28T09:43:57.343Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-27",
@@ -5541,7 +5541,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 9,
+        "reach": 16,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5550,8 +5550,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-28T07:43:47.457Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-28T09:43:57.343Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-09-28",
