@@ -5508,6 +5508,18 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "s1",
+      "medienId": "17905979433586534",
+      "veroeffentlicht": "2026-09-28T06:44:33.771Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": "Innergemeinschaftlicher Erwerb: § 1a und § 3d"
     }
   ],
   "fachZaehler": {
