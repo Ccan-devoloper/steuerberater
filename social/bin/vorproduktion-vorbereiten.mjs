@@ -259,6 +259,7 @@ function hashtags(t) {
     istr: "#internationalessteuerrecht",
     bilanz: "#bilanzsteuerrecht",
     persg: "#personengesellschaften",
+    umwst: "#umwandlungssteuerrecht",
     mindset: "#kopfsache",
   };
   if (map[t?.fach]) tags.push(map[t.fach]);

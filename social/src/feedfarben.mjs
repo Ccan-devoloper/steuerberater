@@ -17,6 +17,7 @@ const FACH_KATEGORIE = Object.freeze({
   istr: 2,
   bilanz: 3,
   persg: 3,
+  umwst: 3,
 });
 
 export const FEED_KATEGORIEN = Object.freeze({
