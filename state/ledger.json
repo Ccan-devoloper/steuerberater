@@ -4886,8 +4886,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-27T18:44:17.334Z",
-      "insightsAlterStunden": 60
+      "insightsStand": "2026-09-28T05:44:33.138Z",
+      "insightsAlterStunden": 71
     },
     {
       "datum": "2026-09-25",
@@ -4946,8 +4946,8 @@
         "ig_reels_video_view_total_time": 880137,
         "reels_skip_rate": 70.3
       },
-      "insightsStand": "2026-09-27T19:43:39.274Z",
-      "insightsAlterStunden": 57.2
+      "insightsStand": "2026-09-28T05:44:33.138Z",
+      "insightsAlterStunden": 67.2
     },
     {
       "datum": "2026-09-25",
@@ -4992,8 +4992,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-27T19:43:39.274Z",
-      "insightsAlterStunden": 37
+      "insightsStand": "2026-09-28T05:44:33.138Z",
+      "insightsAlterStunden": 47
     },
     {
       "datum": "2026-09-26",
@@ -5065,19 +5065,19 @@
         "#kopfsache"
       ],
       "insights": {
-        "reach": 32,
+        "reach": 33,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 49,
-        "ig_reels_avg_watch_time": 13660,
-        "ig_reels_video_view_total_time": 505450,
-        "reels_skip_rate": 50
+        "views": 50,
+        "ig_reels_avg_watch_time": 13550,
+        "ig_reels_video_view_total_time": 514916,
+        "reels_skip_rate": 48.5
       },
-      "insightsStand": "2026-09-27T19:43:39.274Z",
-      "insightsAlterStunden": 33.5
+      "insightsStand": "2026-09-28T05:44:33.138Z",
+      "insightsAlterStunden": 43.5
     },
     {
       "datum": "2026-09-26",
@@ -5284,8 +5284,8 @@
         "navigation_tap_forward": 15,
         "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-09-27T23:23:44.292Z",
-      "insightsAlterStunden": 13.7
+      "insightsStand": "2026-09-28T05:44:25.973Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-27",
@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 28,
-        "saved": 0,
+        "reach": 31,
+        "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 43,
-        "ig_reels_avg_watch_time": 9528,
-        "ig_reels_video_view_total_time": 304902,
-        "reels_skip_rate": 58.1
+        "total_interactions": 2,
+        "views": 45,
+        "ig_reels_avg_watch_time": 10056,
+        "ig_reels_video_view_total_time": 341930,
+        "reels_skip_rate": 57.6
       },
-      "insightsStand": "2026-09-27T23:23:56.169Z",
-      "insightsAlterStunden": 12.6
+      "insightsStand": "2026-09-28T05:44:33.138Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-27",
@@ -5349,8 +5349,8 @@
         "navigation_tap_exit": 5,
         "navigation_tap_forward": 12
       },
-      "insightsStand": "2026-09-27T23:23:44.292Z",
-      "insightsAlterStunden": 12.6
+      "insightsStand": "2026-09-28T05:44:25.973Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-27",
@@ -5377,8 +5377,8 @@
         "navigation_tap_exit": 3,
         "navigation_tap_forward": 11
       },
-      "insightsStand": "2026-09-27T23:23:44.292Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-09-28T05:44:25.973Z",
+      "insightsAlterStunden": 18
     },
     {
       "datum": "2026-09-27",
@@ -5404,8 +5404,8 @@
         "navigation_tap_forward": 11,
         "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-27T23:23:44.292Z",
-      "insightsAlterStunden": 9.7
+      "insightsStand": "2026-09-28T05:44:25.973Z",
+      "insightsAlterStunden": 16
     },
     {
       "datum": "2026-09-27",
@@ -5432,8 +5432,8 @@
         "navigation_tap_forward": 8,
         "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-27T23:23:44.292Z",
-      "insightsAlterStunden": 7.6
+      "insightsStand": "2026-09-28T05:44:25.973Z",
+      "insightsAlterStunden": 13.9
     },
     {
       "datum": "2026-09-27",
@@ -5447,18 +5447,21 @@
       "fach": "bilanz",
       "titel": "Permanente Differenz",
       "insights": {
-        "reach": 0,
-        "views": 8,
+        "reach": 10,
+        "views": 12,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 0
+        "navigation": 10,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 6,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-09-27T19:53:04.043Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-09-28T05:44:25.973Z",
+      "insightsAlterStunden": 11
     },
     {
       "datum": "2026-09-28",
