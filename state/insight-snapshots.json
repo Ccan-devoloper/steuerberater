@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-28T09:43:58.487Z",
+  "stand": "2026-09-28T10:45:57.829Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -5604,6 +5604,22 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 12
+        },
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 23,
+          "reach": 17,
+          "views": 19,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 4,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -5660,6 +5676,22 @@
           "profile_activity": 0,
           "navigation": 16,
           "navigation_tap_forward": 11,
+          "navigation_tap_exit": 5
+        },
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 21,
+          "reach": 17,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 12,
           "navigation_tap_exit": 5
         }
       ]
@@ -5720,6 +5752,22 @@
           "navigation": 13,
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 8,
+          "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 19,
+          "reach": 14,
+          "views": 19,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 10,
           "navigation_tap_exit": 3
         }
       ]
@@ -6030,6 +6078,22 @@
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 6,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 16,
+          "reach": 14,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 11,
+          "navigation_tap_exit": 2
         }
       ]
     },
@@ -6057,6 +6121,21 @@
           "navigation": 7,
           "navigation_tap_back": 1,
           "navigation_tap_forward": 6
+        },
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 5,
+          "reach": 12,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_forward": 14,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -6086,6 +6165,23 @@
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 2,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 5,
+          "reach": 11,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 7,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -6149,6 +6245,31 @@
           "navigation": 5,
           "navigation_tap_forward": 3,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18107809229612793": {
+      "art": "story",
+      "datum": "2026-09-28",
+      "titel": "Gesellschafterdarlehen und Zinsvorteile",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-28T09:43:55.927Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-28T10:45:48.649Z",
+          "alterStunden": 1,
+          "reach": 0,
+          "views": 5,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 0
         }
       ]
     }
@@ -6508,6 +6629,11 @@
       "stand": "2026-09-28T09:43:58.487Z",
       "follower": 78,
       "medien": 67
+    },
+    {
+      "stand": "2026-09-28T10:45:57.829Z",
+      "follower": 78,
+      "medien": 68
     }
   ]
 }

@@ -5364,21 +5364,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 16,
-        "views": 18,
+        "reach": 17,
+        "views": 19,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_swipe_forward": 1,
+        "navigation": 18,
+        "navigation_tap_forward": 13,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 12
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-28T08:44:00.283Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-27",
@@ -5392,20 +5392,21 @@
       "fach": "bilanz",
       "titel": "Vervielfältiger nach § 12 Abs. 3 BewG",
       "insights": {
-        "reach": 15,
-        "views": 17,
+        "reach": 17,
+        "views": 20,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_forward": 11,
+        "navigation": 18,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 12,
         "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-28T05:44:25.973Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-27",
@@ -5419,21 +5420,21 @@
       "fach": "istr",
       "titel": "Beschränkte Körperschaftsteuerpflicht: § 2 Nr. 1 KStG und § 49 EStG",
       "insights": {
-        "reach": 11,
-        "views": 16,
+        "reach": 14,
+        "views": 19,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
+        "navigation": 15,
         "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 8,
+        "navigation_tap_forward": 10,
         "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-28T05:44:25.973Z",
-      "insightsAlterStunden": 13.9
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-27",
@@ -5447,21 +5448,21 @@
       "fach": "bilanz",
       "titel": "Permanente Differenz",
       "insights": {
-        "reach": 10,
-        "views": 12,
+        "reach": 14,
+        "views": 17,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 6,
-        "navigation_swipe_forward": 2
+        "navigation": 15,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 11,
+        "navigation_tap_exit": 2
       },
-      "insightsStand": "2026-09-28T05:44:25.973Z",
-      "insightsAlterStunden": 11
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 16
     },
     {
       "datum": "2026-09-28",
@@ -5475,20 +5476,20 @@
       "fach": "bilanz",
       "titel": "Welche Verbrauchsfolge ist steuerlich unzulässig?",
       "insights": {
-        "reach": 5,
-        "views": 9,
+        "reach": 12,
+        "views": 16,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 7,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 6
+        "navigation": 15,
+        "navigation_tap_forward": 14,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-09-28T06:44:34.982Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-28",
@@ -5502,22 +5503,22 @@
       "fach": "bilanz",
       "titel": "Fifo",
       "insights": {
-        "reach": 5,
-        "views": 10,
+        "reach": 11,
+        "views": 16,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 6,
-        "navigation_swipe_forward": 1,
+        "navigation": 13,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 7,
         "navigation_tap_exit": 2,
-        "navigation_tap_forward": 2,
-        "navigation_tap_back": 1
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-28T06:44:34.982Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-28",
@@ -5590,7 +5591,20 @@
       "storyArt": "norm",
       "thema": "kst-modul-kst-14",
       "fach": "kst",
-      "titel": "Gesellschafterdarlehen und Zinsvorteile"
+      "titel": "Gesellschafterdarlehen und Zinsvorteile",
+      "insights": {
+        "reach": 0,
+        "views": 5,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 0
+      },
+      "insightsStand": "2026-09-28T10:45:48.649Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-28",
