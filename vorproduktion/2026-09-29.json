@@ -32,7 +32,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "13:30",
+        "zeit": "10:30",
         "format": "spickzettel",
         "themaId": "ao-modul-ao-337",
         "themaTitel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
@@ -90,7 +90,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "13:30",
+        "zeit": "10:30",
         "art": "teaser",
         "beitragSlot": "b2",
         "status": "aus-beitrag-ableitbar"
