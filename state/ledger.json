@@ -5591,6 +5591,28 @@
       "thema": "kst-modul-kst-14",
       "fach": "kst",
       "titel": "Gesellschafterdarlehen und Zinsvorteile"
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "b2",
+      "medienId": "18117201769971095",
+      "veroeffentlicht": "2026-09-28T10:45:34.680Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "12:00",
+      "stunde": 12,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr3-01",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -5599,7 +5621,7 @@
     "kst": 7,
     "ao": 13,
     "bilanz": 17,
-    "istr": 12,
+    "istr": 13,
     "erbst": 3,
     "mindset": 2
   },
