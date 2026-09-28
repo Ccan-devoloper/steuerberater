@@ -72,7 +72,7 @@ export function dreiKlausurenFolge(datum) {
 }
 
 /* Innerhalb einer Klausur wechseln die Fächer reihum (K1: AO, ErbSt, USt;
-   K2: IStR, KSt; K3: Bilanz, PersG). Ohne diese Rotation entscheidet das
+   K2: ESt, GewSt, IStR, KSt; K3: Bilanz, PersG, UmwSt). Ohne diese Rotation entscheidet das
    gelernte fachGewicht über die ganze Klausur, und ein stark gewichtetes
    Fach (am 28.09.: IStR 1,47 gegenüber KSt 0,85) belegt den Slot, bis sein
    Themenvorrat erschöpft ist. Die Gewichtung wirkt danach nur noch

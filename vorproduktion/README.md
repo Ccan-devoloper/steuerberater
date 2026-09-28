@@ -40,13 +40,18 @@ täglich: K3 → K1 → K2, dann K1 → K2 → K3, dann K2 → K3 → K1. So bel
 Klausur binnen drei Tagen jeden Slot und das Reel in b3, und an keiner
 Tagesgrenze doppelt sich die Klausurfarbe; der 29.09. setzt die Feedfolge vom
 28.09. (Ende K2) mit K3 fort. Innerhalb einer Klausur wechseln die Fächer
-reihum (K1: AO, ErbSt, USt; K2: IStR, KSt; K3: Bilanz, PersG), getrennt für
+reihum (K1: AO, ErbSt, USt; K2: ESt, GewSt, IStR, KSt; K3: Bilanz, PersG,
+UmwSt), getrennt für
 Reel und Karussell. Das gelernte `fachGewicht` entscheidet nur noch innerhalb
 eines Fachs; vorher setzte es sich über die Klausur durch, sodass z. B. das
 K2-Reel so lange IStR blieb, bis der IStR-Vorrat erschöpft war. Fehlt einem
 Fach ein unverbrauchtes Thema, springt die Rotation zum nächsten Fach. Fehlt
 einer ganzen Klausur ein Karussellthema, übernimmt ihr Slot das Reel des
-Tages; die Klausurfolge bleibt dabei unverändert. Prüfungstage behalten
+Tages; die Klausurfolge bleibt dabei unverändert.
+
+Die importierten Skripte kommen nur über die redaktionelle Aufbereitung in
+`social/aufbereitung/*.json` in den Themenpool. Maßgeblich dafür sind die
+verbindlichen Regeln in `social/QUELLENREGELN.md`. Prüfungstage behalten
 die drei Fachslots; aus tatsächlich noch unbekannten Klausurthemen werden
 keine Lösungsskizzen erfunden.
 
