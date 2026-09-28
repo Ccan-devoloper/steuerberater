@@ -4052,7 +4052,7 @@
       "veroeffentlicht": "2026-09-22T09:45:51.201Z",
       "karteUrl": null,
       "insights": {
-        "reach": 31,
+        "reach": 36,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -4061,8 +4061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-27T18:44:17.334Z",
-      "insightsAlterStunden": 129
+      "insightsStand": "2026-09-28T19:44:24.083Z",
+      "insightsAlterStunden": 154
     },
     {
       "datum": "2026-09-22",
@@ -4264,19 +4264,19 @@
       "dauer": 72.1,
       "veroeffentlicht": "2026-09-22T19:11:22.569Z",
       "insights": {
-        "reach": 46,
+        "reach": 49,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 69,
-        "ig_reels_avg_watch_time": 13946,
-        "ig_reels_video_view_total_time": 794924,
-        "reels_skip_rate": 61.2
+        "views": 72,
+        "ig_reels_avg_watch_time": 14851,
+        "ig_reels_video_view_total_time": 891081,
+        "reels_skip_rate": 58.8
       },
-      "insightsStand": "2026-09-27T18:44:17.334Z",
-      "insightsAlterStunden": 119.5
+      "insightsStand": "2026-09-28T19:44:24.083Z",
+      "insightsAlterStunden": 144.6
     },
     {
       "datum": "2026-09-22",
@@ -4395,7 +4395,7 @@
       "veroeffentlicht": "2026-09-23T09:45:29.448Z",
       "karteUrl": null,
       "insights": {
-        "reach": 30,
+        "reach": 35,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -4404,8 +4404,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-27T18:44:17.334Z",
-      "insightsAlterStunden": 105
+      "insightsStand": "2026-09-28T19:44:24.083Z",
+      "insightsAlterStunden": 130
     },
     {
       "datum": "2026-09-23",
@@ -4551,19 +4551,19 @@
       "dauer": 88.3,
       "veroeffentlicht": "2026-09-23T19:18:53.016Z",
       "insights": {
-        "reach": 85,
+        "reach": 92,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 122,
-        "ig_reels_avg_watch_time": 9006,
-        "ig_reels_video_view_total_time": 936714,
-        "reels_skip_rate": 77.7
+        "views": 128,
+        "ig_reels_avg_watch_time": 9366,
+        "ig_reels_video_view_total_time": 1039725,
+        "reels_skip_rate": 76
       },
-      "insightsStand": "2026-09-27T18:44:17.334Z",
-      "insightsAlterStunden": 95.4
+      "insightsStand": "2026-09-28T19:44:24.083Z",
+      "insightsAlterStunden": 120.4
     },
     {
       "datum": "2026-09-23",
@@ -4681,7 +4681,7 @@
       "veroeffentlicht": "2026-09-24T06:46:38.255Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg",
       "insights": {
-        "reach": 33,
+        "reach": 39,
         "saved": 4,
         "shares": 0,
         "likes": 0,
@@ -4690,8 +4690,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-27T18:44:17.334Z",
-      "insightsAlterStunden": 84
+      "insightsStand": "2026-09-28T19:44:24.083Z",
+      "insightsAlterStunden": 109
     },
     {
       "datum": "2026-09-24",
@@ -5477,21 +5477,22 @@
       "fach": "bilanz",
       "titel": "Welche Verbrauchsfolge ist steuerlich unzulässig?",
       "insights": {
-        "reach": 15,
-        "views": 22,
+        "reach": 21,
+        "views": 33,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 17,
-        "navigation_tap_exit": 1
+        "navigation": 30,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 25,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-28T14:46:15.307Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-09-28T19:44:16.505Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-09-28",
@@ -5505,22 +5506,22 @@
       "fach": "bilanz",
       "titel": "Fifo",
       "insights": {
-        "reach": 14,
-        "views": 20,
+        "reach": 22,
+        "views": 32,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 9,
+        "navigation": 25,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 13,
         "navigation_tap_exit": 2,
-        "navigation_swipe_forward": 1
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-09-28T14:46:15.307Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-09-28T19:44:16.505Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-09-28",
@@ -5595,21 +5596,21 @@
       "fach": "kst",
       "titel": "Gesellschafterdarlehen und Zinsvorteile",
       "insights": {
-        "reach": 13,
-        "views": 14,
+        "reach": 20,
+        "views": 23,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 10,
+        "navigation": 21,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 17,
         "navigation_tap_exit": 2
       },
-      "insightsStand": "2026-09-28T14:46:15.307Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-28T19:44:16.505Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-28",
@@ -5633,19 +5634,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 19,
-        "saved": 0,
-        "shares": 0,
-        "likes": 0,
+        "reach": 30,
+        "saved": 2,
+        "shares": 1,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 33,
-        "ig_reels_avg_watch_time": 12622,
-        "ig_reels_video_view_total_time": 265072,
-        "reels_skip_rate": 63.2
+        "total_interactions": 4,
+        "views": 49,
+        "ig_reels_avg_watch_time": 14320,
+        "ig_reels_video_view_total_time": 501214,
+        "reels_skip_rate": 53.3
       },
-      "insightsStand": "2026-09-28T15:44:26.166Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-28T19:44:24.083Z",
+      "insightsAlterStunden": 9
     },
     {
       "datum": "2026-09-28",
@@ -5716,21 +5717,21 @@
       "fach": "persg",
       "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen",
       "insights": {
-        "reach": 7,
-        "views": 10,
+        "reach": 17,
+        "views": 23,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 9,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 4
+        "navigation": 19,
+        "navigation_tap_forward": 12,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-28T14:46:15.307Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-28T19:44:16.505Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-28",
@@ -5770,7 +5771,24 @@
       "storyArt": "fehler",
       "thema": "ust-modul-ust-177",
       "fach": "ust",
-      "titel": "Reverse Charge nach § 13b: Tatbestände, Steuerschuldner und Steuerentstehung"
+      "titel": "Reverse Charge nach § 13b: Tatbestände, Steuerschuldner und Steuerentstehung",
+      "insights": {
+        "reach": 10,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 7,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-09-28T19:44:16.505Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
