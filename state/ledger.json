@@ -5459,6 +5459,18 @@
       },
       "insightsStand": "2026-09-27T19:53:04.043Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "s3",
+      "medienId": "17876217111568207",
+      "veroeffentlicht": "2026-09-28T05:44:10.252Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-17",
+      "fach": "bilanz",
+      "titel": "Welche Verbrauchsfolge ist steuerlich unzulässig?"
     }
   ],
   "fachZaehler": {
