@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-28T16:44:19.438Z",
+  "stand": "2026-09-28T17:44:07.076Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6091,6 +6091,20 @@
           "ig_reels_avg_watch_time": 9817,
           "ig_reels_video_view_total_time": 402521,
           "reels_skip_rate": 60
+        },
+        {
+          "stand": "2026-09-28T17:44:05.876Z",
+          "alterStunden": 31,
+          "reach": 41,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 61,
+          "ig_reels_avg_watch_time": 10644,
+          "ig_reels_video_view_total_time": 500272,
+          "reels_skip_rate": 56.8
         }
       ]
     },
@@ -6164,6 +6178,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 13,
+          "navigation_swipe_forward": 3
+        },
+        {
+          "stand": "2026-09-28T17:44:03.273Z",
+          "alterStunden": 23,
+          "reach": 20,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 14,
           "navigation_swipe_forward": 3
         }
       ]
@@ -6598,6 +6629,34 @@
           "navigation_tap_forward": 4
         }
       ]
+    },
+    "17987499414117015": {
+      "art": "story",
+      "datum": "2026-09-28",
+      "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-28T15:44:24.667Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-28T17:44:03.273Z",
+          "alterStunden": 2,
+          "reach": 7,
+          "views": 8,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 7,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 3,
+          "navigation_swipe_forward": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -6988,6 +7047,11 @@
     },
     {
       "stand": "2026-09-28T16:44:19.438Z",
+      "follower": 79,
+      "medien": 68
+    },
+    {
+      "stand": "2026-09-28T17:44:07.076Z",
       "follower": 79,
       "medien": 68
     }

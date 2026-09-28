@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 38,
+        "reach": 41,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 56,
-        "ig_reels_avg_watch_time": 9817,
-        "ig_reels_video_view_total_time": 402521,
-        "reels_skip_rate": 60
+        "views": 61,
+        "ig_reels_avg_watch_time": 10644,
+        "ig_reels_video_view_total_time": 500272,
+        "reels_skip_rate": 56.8
       },
-      "insightsStand": "2026-09-28T09:43:57.343Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-09-28T17:44:05.876Z",
+      "insightsAlterStunden": 31
     },
     {
       "datum": "2026-09-27",
@@ -5448,22 +5448,22 @@
       "fach": "bilanz",
       "titel": "Permanente Differenz",
       "insights": {
-        "reach": 17,
-        "views": 24,
+        "reach": 20,
+        "views": 28,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 20,
+        "navigation": 24,
         "navigation_tap_back": 1,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 14,
         "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-09-28T14:46:15.307Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-09-28T17:44:03.273Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-28",
@@ -5742,7 +5742,23 @@
       "storyArt": "begriff",
       "thema": "persg-karte-k3-19",
       "fach": "persg",
-      "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?"
+      "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?",
+      "insights": {
+        "reach": 7,
+        "views": 8,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 7,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 3,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-28T17:44:03.273Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-09-28",
