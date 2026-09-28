@@ -5728,6 +5728,18 @@
       },
       "insightsStand": "2026-09-28T14:46:15.307Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "s8",
+      "medienId": "17987499414117015",
+      "veroeffentlicht": "2026-09-28T15:44:24.667Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "begriff",
+      "thema": "persg-karte-k3-19",
+      "fach": "persg",
+      "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?"
     }
   ],
   "fachZaehler": {
