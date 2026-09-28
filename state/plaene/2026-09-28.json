@@ -108,7 +108,8 @@
       "zeit": "19:35",
       "art": "fehler",
       "themaId": "ust-modul-ust-177",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-28T17:43:53.623Z"
     }
   ]
 }
