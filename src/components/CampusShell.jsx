@@ -11,6 +11,7 @@ const AOQuerverweiseEnhancer = lazy(() => import("./AOQuerverweiseEnhancer"));
 const AOFall311Tabelle = lazy(() => import("./AOFall311Tabelle"));
 const AOEinheit2RandseitenEnhancer = lazy(() => import("./AOEinheit2RandseitenEnhancer"));
 const K1ErbStCampus = lazy(() => import("./K1ErbStCampus"));
+const K1GrEStCampus = lazy(() => import("./K1GrEStCampus"));
 const K1FachleisteEnhancer = lazy(() => import("./K1FachleisteEnhancer"));
 const K1ThemenEnhancer = lazy(() => import("./K1ThemenEnhancer"));
 const K1FallsammlungEnhancer = lazy(() => import("./K1FallsammlungEnhancer"));
@@ -20,6 +21,8 @@ const K1MeurerKurzskriptEnhancer = lazy(() => import("./K1MeurerKurzskriptEnhanc
 const KstCampus = lazy(() => import("./KstCampus"));
 const KstOriginalSchemataEnhancer = lazy(() => import("./KstOriginalSchemataEnhancer"));
 const K2PlatzhalterCampus = lazy(() => import("./K2PlatzhalterCampus"));
+const K2EStCampus = lazy(() => import("./K2EStCampus"));
+const K2GewStCampus = lazy(() => import("./K2GewStCampus"));
 const K2IStRCampus = lazy(() => import("./K2IStRCampus"));
 const K3PersGCampus = lazy(() => import("./K3PersGCampus"));
 const K3UmwStRCampus = lazy(() => import("./K3UmwStRCampus"));
@@ -68,6 +71,9 @@ export default function CampusShell() {
     if (k1Fach === "erbst") {
       return <Suspense fallback={<Laden />}><K1ErbStCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} /></Suspense>;
     }
+    if (k1Fach === "grest") {
+      return <Suspense fallback={<Laden />}><K1GrEStCampus onKlausurwechsel={wechseln} onFachwechsel={k1FachWechseln} /></Suspense>;
+    }
     return (
       <Suspense fallback={<Laden />}>
         <K1Campus onKlausurwechsel={wechseln} />
@@ -84,8 +90,11 @@ export default function CampusShell() {
     if (k2Fach === "istr") {
       return <Suspense fallback={<Laden />}><K2IStRCampus onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
     }
-    if (k2Fach === "est" || k2Fach === "gewst") {
-      return <Suspense fallback={<Laden />}><K2PlatzhalterCampus fach={k2Fach} onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
+    if (k2Fach === "est") {
+      return <Suspense fallback={<Laden />}><K2EStCampus onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
+    }
+    if (k2Fach === "gewst") {
+      return <Suspense fallback={<Laden />}><K2GewStCampus onKlausurwechsel={wechseln} onFachwechsel={k2FachWechseln} /></Suspense>;
     }
     return (
       <Suspense fallback={<Laden />}>

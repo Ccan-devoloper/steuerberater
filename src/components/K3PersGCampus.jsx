@@ -8,6 +8,10 @@ import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
 import { IconCockpit, IconModule, IconFaelle, IconSchema, IconTraining, IconPlan } from "./Icons";
 import K3Lernpfad from "./K3Lernpfad";
+import K3PersGHausaufgaben from "./K3PersGHausaufgaben";
+import K3PersGFallsammlung from "./K3PersGFallsammlung";
+import KurzskriptBloecke from "./KurzskriptBloecke";
+import { persgSkriptMelzer, persgSkriptMelzerQuelle } from "../data/k3-persg-skript-melzer.js";
 import { persgLernpfad, persgLernpfadKapitel, persgLernpfadGesamtminuten } from "../data/k3-lernpfad-persg";
 import { IconKlausur } from "./Klausurmodus";
 import K3PersGVisuals from "./K3PersGVisuals";
@@ -26,6 +30,7 @@ const nav = [
   ["cockpit", "Cockpit", IconCockpit], ["lernpfad", "Schritt für Schritt", IconPlan], ["module", "Personengesellschaften", IconModule],
   ["faelle", "Originalfälle", IconFaelle], ["klausur", "Klausurmodus", IconKlausur],
   ["schema", "Prüfschema", IconSchema], ["training", "Training", IconTraining],
+  ["skript", "Skript (Melzer)", IconModule],
   ["fallsammlung", "Fallsammlung", IconFaelle], ["hausaufgaben", "Hausaufgaben PersG", IconModule],
 ];
 const modulIds = new Set(persgModule.map((m)=>m.id));
@@ -51,6 +56,7 @@ export default function K3PersGCampus({onKlausurwechsel,onFachwechsel}){
      aus der Modulseite an der Modulliste vorbei direkt ins Cockpit. */
   const ansichtOeffnen=(id)=>verlauf.oeffnen({ansicht:id,modulId:null}); const modulOeffnen=(id)=>verlauf.oeffnen({ansicht:"module",modulId:id}); const modullisteOeffnen=()=>verlauf.oeffnen({ansicht:"module",modulId:null}); const lernpfadOeffnen=(id)=>verlauf.oeffnen({ansicht:"lernpfad",modulId:null,lektionId:id??null});
   const fallOeffnen=(id)=>{verlauf.oeffnen({ansicht:"faelle",modulId:null});setTimeout(()=>document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"}),80);};
+  const hausaufgabeOeffnen=(id)=>{verlauf.oeffnen({ansicht:"hausaufgaben",modulId:null});setTimeout(()=>document.getElementById(id)?.scrollIntoView({behavior:"smooth",block:"start"}),80);};
   const schemaOeffnen=(id)=>{verlauf.oeffnen({ansicht:"schema",modulId:null});setTimeout(()=>document.getElementById(`persg-schema-${id}`)?.scrollIntoView({behavior:"smooth",block:"start"}),80);};
   const lernpfadVerweise={modul:{label:(id)=>`Modul ${id} · ${persgModule.find((m)=>m.id===id)?.title??""}`,oeffnen:modulOeffnen},schema:{label:(id)=>`Prüfschema · ${persgSchemata.find((s)=>s.id===id)?.title??id}`,oeffnen:schemaOeffnen},fall:{label:(id)=>{const f=persgFaelle.find((x)=>x.id===id);return f?`Fall ${f.nr} · ${f.title}`:id;},oeffnen:fallOeffnen},umwstr:onFachwechsel?()=>onFachwechsel("umwstr"):undefined,klausur:()=>ansichtOeffnen("klausur"),klausurLabel:"Klausurmodus starten"};
   return <div className="kst-campus persg-campus">
@@ -63,8 +69,21 @@ export default function K3PersGCampus({onKlausurwechsel,onFachwechsel}){
       {verlauf.ansicht==="module"&&!modul&&<Modulliste liste={gefiltert} bereich={bereich} setBereich={setBereich} prio={prio} setPrio={setPrio} suche={suche} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen}/>} 
       {verlauf.ansicht==="module"&&modul&&<Modulseite modul={modul} erledigt={erledigt} umschalten={fortschritt.umschalten} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} lernpfadOeffnen={lernpfadOeffnen} zurueck={modullisteOeffnen}/>} 
       {verlauf.ansicht==="faelle"&&<Fallseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="klausur"&&<KlausurmodusPersG fallOeffnen={fallOeffnen}/>} {verlauf.ansicht==="schema"&&<Schemaseite modulOeffnen={modulOeffnen}/>} {verlauf.ansicht==="training"&&<Training/>}
-      {verlauf.ansicht==="fallsammlung"&&<Platzhalter titel="Fallsammlung Personengesellschaften" text="Die eigenständige PersG-Fallsammlung wird ergänzt, sobald weitere Fallunterlagen vorliegen. Die Unterrichtsfälle aus Tag 1 bis 5 sind bereits unter „Originalfälle“ querverschaltet."/>}
-      {verlauf.ansicht==="hausaufgaben"&&<Platzhalter titel="Hausaufgaben Personengesellschaften" text="Hausaufgaben werden als eigener Reiter mit aufklappbaren Lösungen ergänzt, sobald die Unterlagen vorliegen."/>}
+      {verlauf.ansicht==="skript"&&<KurzskriptBloecke
+        kicker="Klausur 3 · Personengesellschaften · Skript"
+        titel="PersG-Skript (Melzer)"
+        lead="Das Lehrgangsskript von Karsten Melzer, Rechtsanwalt und Steuerberater in Köln (April 2026, Rechtsstand 2025), im Wortlaut. Teil I legt die Zuordnung der Wirtschaftsgüter (Gesamthandsvermögen, Sonderbetriebsvermögen I und II, Bilanzierungskonkurrenzen, mitunternehmerische Betriebsaufspaltung, Ergänzungsbilanzen) und die zweistufige Gewinnermittlung; Teil II die Überführung und Übertragung einzelner Wirtschaftsgüter nach § 6 Abs. 5 EStG samt Sperrfristen und Körperschaftsteuerklausel, die Einbringung aus dem Privatvermögen, die Übertragungswege des § 6b EStG und die unentgeltliche Übertragung von Mitunternehmeranteilen nach § 6 Abs. 3 EStG. Teil III den Gesellschafterwechsel und das Ausscheiden eines Gesellschafters – Fortentwicklung der Ergänzungsbilanz nach dem BMF-Schreiben vom 19.12.2016, Abfindung zum, unter und über dem Buchwert, lästiger Gesellschafter, Sachwertabfindung in das Privat- und in das Betriebsvermögen (unechte Realteilung) sowie negatives Kapitalkonto und § 6b-Rücklage. Teil IV die Realteilung (echte und unechte, Spitzenausgleich, Kapitalkontenanpassung, Sperrfristen) und die GmbH &amp; Co. KG (Sonderbetriebsvermögen I und II, Anteile an der Komplementär-GmbH als funktional wesentliche Betriebsgrundlage, Gewinnausschüttungen und Tätigkeitsvergütung). Teil V die Gründung einer Personengesellschaft und das Umwandlungssteuerrecht – Einbringung von Privat- und Betriebsvermögen, die Voraussetzungen des § 24 UmwStG, das Bewertungswahlrecht mit Brutto- und Nettomethode, Zwischenwertansatz und Ansatz des gemeinen Wertes sowie der Eintritt in eine bestehende Personengesellschaft. Das Skript ist damit vollständig; Beispiele, Bilanzen und Musterlösungen stehen im Wortlaut."
+        quelle={persgSkriptMelzerQuelle}
+        kapitel={persgSkriptMelzer}
+        karteKicker={(k)=>`${k.teilLabel} · Kapitel ${k.kapitel}`}
+        gruppeVon={(k)=>k.teil}
+        gruppeLabel={(k)=>k.teilLabel}
+        gruppeAria="Teile"
+        gruppeAlle="Alle Teile"
+        suchePlatzhalter="Norm, Stichwort oder Betrag"
+      />}
+      {verlauf.ansicht==="fallsammlung"&&<K3PersGFallsammlung oeffnen={{modul:modulOeffnen,schema:schemaOeffnen,fall:fallOeffnen,hausaufgabe:hausaufgabeOeffnen}}/>}
+      {verlauf.ansicht==="hausaufgaben"&&<K3PersGHausaufgaben onModulOeffnen={modulOeffnen}/>}
     </main>
   </div>;
 }
@@ -91,4 +110,3 @@ function Fallseite({modulOeffnen}){return <><div className="pagehead"><div><span
 function KlausurmodusPersG({fallOeffnen}){const [sekunden,setSekunden]=useState(60*60),[laeuft,setLaeuft]=useState(false);useEffect(()=>{if(!laeuft||sekunden<=0)return;const t=setInterval(()=>setSekunden((s)=>Math.max(0,s-1)),1000);return()=>clearInterval(t);},[laeuft,sekunden]);const mm=String(Math.floor(sekunden/60)).padStart(2,"0"),ss=String(sekunden%60).padStart(2,"0");return <><div className="pagehead"><div><span className="kicker">Klausurmodus · Personengesellschaften</span><h1>Originalfall unter Zeitdruck</h1><p className="lead">Wähle einen Unterrichtsfall und bearbeite ihn zunächst ohne geöffnete Lösung.</p></div></div><section className="panel"><span className="kicker">Timer</span><h2>{mm}:{ss}</h2><div className="these__aktionen"><button className="btn" onClick={()=>setLaeuft((v)=>!v)}>{laeuft?"Pause":"Start"}</button><button className="btn btn--linie" onClick={()=>{setLaeuft(false);setSekunden(60*60);}}>Reset</button></div><div className="persg-chiprow">{persgFaelle.map((f)=><button className="btn btn--linie" key={f.id} onClick={()=>fallOeffnen(f.id)}>Fall {f.nr} · {f.title}</button>)}</div></section></>;}
 function Schemaseite({modulOeffnen}){return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>Prüfschemata</h1><p className="lead">Schemata aus fünf Unterrichtstagen – digital nachgebaut und direkt mit den Lernmodulen verknüpft.</p></div><span className="kicker">{persgSchemata.length} Schemata</span></div><div className="persg-schema-grid">{persgSchemata.map((s)=><section key={s.id} id={`persg-schema-${s.id}`} className="persg-schema-card"><div className="persg-schema-head"><div><span className="kicker">{s.law}</span><h2>{s.title}</h2><PrioBadge fach="persg" inhalt={s} typ="schema" id={s.id} mitThema/></div><div>{s.moduleIds.map((id)=><button key={id} onClick={()=>modulOeffnen(id)}>Modul {id} ↗</button>)}</div></div><PersGVisual type={s.visual}/></section>)}</div></>;}
 function Training(){const [antworten,setAntworten]=useState({});return <><div className="pagehead"><div><span className="kicker">Training · Tag 1 bis 5</span><h1>PersG-Schnellcheck</h1><p className="lead">Fragen aus {persgQuelle.pages} Kernseiten und den Quellenclustern der Begleitfassungen.</p></div></div><div className="persg-training">{persgQuizfragen.map((q,i)=>{const chosen=antworten[i];if(q.options)return <article className="persg-quiz" key={`${i}-${q.q}`}><span className="kicker">Frage {i+1}</span><h3>{q.q}</h3><div className="persg-options">{q.options.map((o,oi)=>{const status=chosen==null?"":oi===q.answer?"good":oi===chosen?"bad":"";return <button className={status} key={o} onClick={()=>setAntworten((a)=>({...a,[i]:oi}))}>{o}</button>;})}</div>{chosen!=null&&<p className="persg-explanation"><b>{chosen===q.answer?"Richtig.":"Noch nicht."}</b> {q.explanation}</p>}</article>;return <article className="persg-quiz" key={`${i}-${q.q}`}><span className="kicker">Frage {i+1}</span><h3>{q.q}</h3><button className="btn btn--linie" onClick={()=>setAntworten((a)=>({...a,[i]:!a[i]}))}>{chosen?"Antwort ausblenden":"Antwort anzeigen"}</button>{chosen&&<p className="persg-explanation"><b>Antwort:</b> {q.a}</p>}</article>;})}</div></>;}
-function Platzhalter({titel,text}){return <><div className="pagehead"><div><span className="kicker">Klausur 3 · Personengesellschaften</span><h1>{titel}</h1></div></div><section className="panel"><p>{text}</p></section></>;}
