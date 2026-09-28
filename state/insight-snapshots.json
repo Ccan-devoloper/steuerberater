@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-28T12:44:05.597Z",
+  "stand": "2026-09-28T13:44:16.852Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -5769,6 +5769,22 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-09-28T13:44:12.874Z",
+          "alterStunden": 21.9,
+          "reach": 15,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 11,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -6323,6 +6339,20 @@
           "ig_reels_avg_watch_time": 11684,
           "ig_reels_video_view_total_time": 116847,
           "reels_skip_rate": 54.5
+        },
+        {
+          "stand": "2026-09-28T13:44:15.547Z",
+          "alterStunden": 3,
+          "reach": 16,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 27,
+          "ig_reels_avg_watch_time": 10131,
+          "ig_reels_video_view_total_time": 182365,
+          "reels_skip_rate": 68.8
         }
       ]
     },
@@ -6348,6 +6378,35 @@
           "profile_visits": 0,
           "profile_activity": 0,
           "navigation": 0
+        }
+      ]
+    },
+    "18384763366230826": {
+      "art": "story",
+      "datum": "2026-09-28",
+      "titel": "Tage bis zum Examen",
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-28T11:44:35.617Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-28T13:44:12.874Z",
+          "alterStunden": 2,
+          "reach": 7,
+          "views": 9,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 4,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 3
         }
       ]
     }
@@ -6721,6 +6780,11 @@
     {
       "stand": "2026-09-28T12:44:05.597Z",
       "follower": 79,
+      "medien": 68
+    },
+    {
+      "stand": "2026-09-28T13:44:16.852Z",
+      "follower": 78,
       "medien": 68
     }
   ]
