@@ -23,7 +23,7 @@
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "08:30",
+        "zeit": "06:30",
         "format": "spickzettel",
         "themaId": "persg-modul-persg-6",
         "themaTitel": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
@@ -71,7 +71,7 @@
       },
       {
         "slot": "s1",
-        "zeit": "08:30",
+        "zeit": "06:30",
         "art": "teaser",
         "beitragSlot": "b1",
         "status": "aus-beitrag-ableitbar"
