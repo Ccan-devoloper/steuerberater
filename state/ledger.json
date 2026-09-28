@@ -5568,20 +5568,20 @@
       "fach": "ust",
       "titel": "Innergemeinschaftlicher Erwerb: § 1a und § 3d",
       "insights": {
-        "reach": 10,
-        "views": 11,
+        "reach": 14,
+        "views": 15,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 8,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 6
+        "navigation": 12,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 9
       },
-      "insightsStand": "2026-09-28T12:44:04.422Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-28T16:44:15.813Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-28",
@@ -5659,18 +5659,21 @@
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
       "insights": {
-        "reach": 0,
-        "views": 4,
+        "reach": 13,
+        "views": 17,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 0
+        "navigation": 15,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 11
       },
-      "insightsStand": "2026-09-28T11:59:39.325Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-09-28T16:44:15.813Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-28",
