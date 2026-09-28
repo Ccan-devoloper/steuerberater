@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-28T11:44:38.607Z",
+  "stand": "2026-09-28T11:59:39.325Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6308,6 +6308,31 @@
           "ig_reels_avg_watch_time": 11684,
           "ig_reels_video_view_total_time": 116847,
           "reels_skip_rate": 54.5
+        }
+      ]
+    },
+    "18103230089005287": {
+      "art": "story",
+      "datum": "2026-09-28",
+      "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-28T10:45:47.473Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-28T11:59:39.325Z",
+          "alterStunden": 1.2,
+          "reach": 0,
+          "views": 4,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 0
         }
       ]
     }

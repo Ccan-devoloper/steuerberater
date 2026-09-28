@@ -5652,7 +5652,20 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "istr",
-      "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA"
+      "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
+      "insights": {
+        "reach": 0,
+        "views": 4,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 0
+      },
+      "insightsStand": "2026-09-28T11:59:39.325Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-09-28",
