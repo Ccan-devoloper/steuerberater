@@ -5579,6 +5579,18 @@
       },
       "insightsStand": "2026-09-28T08:44:00.283Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "s5",
+      "medienId": "18107809229612793",
+      "veroeffentlicht": "2026-09-28T09:43:55.927Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "kst-modul-kst-14",
+      "fach": "kst",
+      "titel": "Gesellschafterdarlehen und Zinsvorteile"
     }
   ],
   "fachZaehler": {
