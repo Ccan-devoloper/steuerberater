@@ -1,0 +1,190 @@
+[
+  {
+    "quelle": "gewst-ks-02",
+    "titel": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
+    "einordnung": ["Gegenstand der Gewerbesteuer ist nach § 2 GewStG jeder stehende Gewerbebetrieb mit inländischer Betriebsstätte. Für die Klausur zählen Abgrenzung und zeitliche Grenzen, weil Anlaufkosten und Ergebnisse nach der Einstellung davon abhängen."],
+    "lernziele": [
+      "Du unterscheidest Gewerbebetriebe kraft Tätigkeit nach § 2 Abs. 1 GewStG in Verbindung mit § 15 Abs. 2 und 3 EStG von solchen kraft Rechtsform nach § 2 Abs. 2 GewStG.",
+      "Du weißt, dass bei Einzelunternehmen und Personengesellschaften erst die werbende Tätigkeit die Steuerpflicht auslöst und ihre endgültige Einstellung sie beendet.",
+      "Du weißt, dass Kapitalgesellschaften spätestens ab Eintragung ins Handelsregister und bis zum Abschluss der Abwicklung steuerpflichtig sind.",
+      "Du kennst Sonderfälle: Die Verpachtung eines ganzen Betriebs ist grundsätzlich nicht gewerbesteuerpflichtig, eine Betriebsaufspaltung dagegen schon."
+    ],
+    "pruefschritte": [
+      "Prüfe, ob ein Gewerbebetrieb kraft Tätigkeit, kraft Abfärbung oder Prägung oder kraft Rechtsform vorliegt.",
+      "Kläre, ob der Betrieb über eine Betriebsstätte in Deutschland verfügt.",
+      "Bestimme den Beginn: bei Personenunternehmen Aufnahme der werbenden Tätigkeit, bloße Vorbereitungshandlungen genügen nicht.",
+      "Bestimme das Ende: tatsächliche Einstellung bei Personenunternehmen, Ende jeglicher Tätigkeit bei Kapitalgesellschaften.",
+      "Klammere Aufwendungen vor Beginn und Ergebnisse nach dem Ende der Steuerpflicht aus dem Gewerbeertrag aus."
+    ],
+    "fehler": [
+      "Anlaufkosten vor Geschäftseröffnung beim Einzelunternehmer gewerbesteuerlich abziehen.",
+      "Eine vorübergehende Saisonpause als Ende der Steuerpflicht werten, obwohl sie nach § 2 Abs. 4 GewStG fortbesteht.",
+      "Bei einem Inhaberwechsel den Betrieb als fortgeführt behandeln, obwohl § 2 Abs. 5 GewStG Einstellung und Neugründung fingiert."
+    ],
+    "merksatz": "Bei Personenunternehmen zählt allein die werbende Tätigkeit: Was davor vorbereitet und nach der endgültigen Einstellung abgewickelt wird, bleibt gewerbesteuerlich außen vor."
+  },
+  {
+    "quelle": "gewst-ks-03",
+    "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+    "einordnung": ["Ausgangsgröße der Gewerbesteuer ist der nach EStG oder KStG ermittelte Gewinn, § 7 Satz 1 GewStG. Weil die Gewerbesteuer nur den laufenden Betrieb erfassen soll, sind bestimmte Veräußerungs- und Aufgabegewinne auszuscheiden."],
+    "lernziele": [
+      "Du weißt, dass die Gewerbesteuer als nicht abziehbare Betriebsausgabe nach § 4 Abs. 5b EStG dem Gewinn wieder zuzurechnen ist.",
+      "Du weißt, dass bei Kapitalgesellschaften vom Einkommen vor Verlustabzug auszugehen ist, weil § 10a GewStG einen eigenen Verlustabzug vorsieht.",
+      "Du kennst § 7 Satz 4 GewStG: Teileinkünfteverfahren und § 8b KStG sind bei Mitunternehmerschaften nach der Person des jeweiligen Mitunternehmers anzuwenden.",
+      "Du weißt, dass Gewinne aus Veräußerung oder Aufgabe eines ganzen Betriebs oder Mitunternehmeranteils nur bei unmittelbar beteiligten natürlichen Personen gewerbesteuerfrei sind."
+    ],
+    "pruefschritte": [
+      "Übernimm den steuerlichen Gewinn einschließlich außerbilanzieller Korrekturen wie der Gewerbesteuer nach § 4 Abs. 5b EStG.",
+      "Setze bei Kapitalgesellschaften das Einkommen vor Abzug eines körperschaftsteuerlichen Verlustvortrags an.",
+      "Scheide Veräußerungs- und Aufgabegewinne nach § 16 EStG aus, soweit sie auf natürliche Personen als unmittelbare Mitunternehmer entfallen.",
+      "Erfasse dennoch Teilanteilsveräußerungen, die Veräußerung einer 100%-Beteiligung und Fälle des § 18 Abs. 3 UmwStG.",
+      "Setze bei Kommanditisten den vollen Verlustanteil an, da § 15a EStG gewerbesteuerlich nicht gilt."
+    ],
+    "fehler": [
+      "Den Gewinn aus der Veräußerung eines Mitunternehmeranteils durch eine GmbH gewerbesteuerfrei lassen.",
+      "Private Veräußerungsgewinne nach § 17 EStG der Gewerbesteuer unterwerfen."
+    ],
+    "merksatz": "Gewerbesteuer erfasst den laufenden Betrieb: Betriebsveräußerung und -aufgabe durch natürliche Personen bleiben frei, Kapitalgesellschaften zahlen auch darauf."
+  },
+  {
+    "quelle": "gewst-ks-04",
+    "titel": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?",
+    "einordnung": ["Die Gewerbesteuer soll den objektiven Ertrag des Betriebs unabhängig von seiner Finanzierung erfassen. Deshalb werden Finanzierungsaufwendungen und bestimmte Beteiligungsergebnisse dem Gewinn teilweise wieder hinzugerechnet."],
+    "lernziele": [
+      "Du kennst die Anteile nach § 8 Nr. 1 GewStG: Schuldentgelte, Renten und dauernde Lasten sowie Gewinnanteile stiller Gesellschafter voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Rechteüberlassungen zu einem Viertel.",
+      "Du weißt, dass von der Summe ein Freibetrag von 200.000 € abgezogen und der Rest zu 25 % hinzugerechnet wird.",
+      "Du weißt, dass § 8 Nr. 5 GewStG steuerfreie Streubesitzdividenden abzüglich nicht abziehbarer Ausgaben wieder erfasst, wenn § 9 Nr. 2a GewStG nicht greift.",
+      "Du kennst § 8 Nr. 8 GewStG: Verlustanteile an Mitunternehmerschaften werden hinzugerechnet, weil der Verlust schon bei der Gesellschaft wirkt."
+    ],
+    "pruefschritte": [
+      "Sammle alle Finanzierungsaufwendungen, die den Gewinn tatsächlich gemindert haben; Sondervergütungen an Mitunternehmer scheiden aus.",
+      "Teile gemischte Verträge auf und gewichte Miet-, Pacht- und Lizenzanteile mit den gesetzlichen Bruchteilen.",
+      "Ziehe von der Summe den Freibetrag von 200.000 € ab und rechne ein Viertel des verbleibenden Betrags hinzu.",
+      "Prüfe bei Dividenden, ob die Beteiligung zu Beginn des Erhebungszeitraums mindestens 15 % betrug; sonst greift § 8 Nr. 5 GewStG.",
+      "Rechne Verlustanteile aus Beteiligungen an Personengesellschaften nach § 8 Nr. 8 GewStG hinzu."
+    ],
+    "fehler": [
+      "Den Freibetrag erst nach Anwendung der 25 % abziehen.",
+      "Zinsen an einen Mitunternehmer hinzurechnen, obwohl sie als Sonderbetriebseinnahme den Gewinn im Ergebnis nicht gemindert haben.",
+      "Bei einer Kapitalgesellschaft mit weniger als 10 % Beteiligung nach § 8 Nr. 5 GewStG hinzurechnen, obwohl die Dividende dann ohnehin voll im Gewinn steckt."
+    ],
+    "merksatz": "Bei § 8 Nr. 1 GewStG gilt: erst gewichten, dann den Freibetrag von 200.000 € abziehen, vom Rest ein Viertel hinzurechnen."
+  },
+  {
+    "quelle": "gewst-ks-05",
+    "titel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
+    "einordnung": ["Die Kürzungen des § 9 GewStG vermeiden Doppelbelastungen, etwa mit Grundsteuer oder auf Ebene einer Beteiligungsgesellschaft. Besonders prüfungsträchtig ist die erweiterte Kürzung für Unternehmen, die nur eigenen Grundbesitz verwalten."],
+    "lernziele": [
+      "Du weißt, dass die erweiterte Kürzung nach § 9 Nr. 1 Satz 2 GewStG auf Antrag an die Stelle der einfachen Grundstückskürzung tritt.",
+      "Du kennst das Ausschließlichkeitsgebot und seine abschließenden Ausnahmen, etwa die Verwaltung eigenen Kapitalvermögens oder Stromlieferungen aus erneuerbaren Energien.",
+      "Du weißt, dass das Besitzunternehmen einer Betriebsaufspaltung und Grundbesitz, der dem Gewerbebetrieb eines Gesellschafters dient, die erweiterte Kürzung ausschließen.",
+      "Du kennst weitere Kürzungen: Gewinnanteile an Personengesellschaften nach § 9 Nr. 2 GewStG und Schachteldividenden ab 15 % zu Beginn des Erhebungszeitraums nach § 9 Nr. 2a GewStG."
+    ],
+    "pruefschritte": [
+      "Prüfe, ob das Unternehmen ausschließlich eigenen Grundbesitz verwaltet und nutzt oder daneben nur zugelassene Tätigkeiten ausübt.",
+      "Schließe schädliche Fälle aus: Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters, nicht geringfügige Mitvermietung von Betriebsvorrichtungen.",
+      "Beachte, dass Nebeneinnahmen unschädlich bleiben, solange sie 5 % der Mieteinnahmen aus dem Grundbesitz nicht übersteigen.",
+      "Kürze nur den Ertragsanteil, der aus dem Vermieten und Nutzen des eigenen Grundbesitzes stammt; Zins- und Wertpapiererträge bleiben steuerpflichtig.",
+      "Greift die erweiterte Kürzung nicht, gewähre die einfache Kürzung für den zu Beginn des Kalenderjahres gehaltenen Betriebsgrundbesitz."
+    ],
+    "fehler": [
+      "Die erweiterte Kürzung einem Besitzunternehmen im Rahmen einer Betriebsaufspaltung gewähren.",
+      "Zinserträge aus Kapitalvermögen in den Kürzungsbetrag einbeziehen, nur weil die Tätigkeit unschädlich ist."
+    ],
+    "merksatz": "Unschädlich heißt nicht begünstigt: Gekürzt wird nur der Ertrag aus dem eigenen Grundbesitz."
+  },
+  {
+    "quelle": "gewst-ks-06",
+    "titel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
+    "einordnung": ["§ 10a GewStG kennt nur einen Verlustvortrag, keinen Rücktrag. Bei Personenunternehmen hängt der Abzug zusätzlich an der Identität von Unternehmen und Unternehmer, was bei Gesellschafterwechseln regelmäßig geprüft wird."],
+    "lernziele": [
+      "Du kennst die Mindestbesteuerung: Bis 1 Mio. € wird der Gewerbeertrag unbeschränkt gekürzt, darüber hinaus nur zu 60 %.",
+      "Du weißt, dass der Abzug ohne Antrag erfolgt und der verbleibende Fehlbetrag gesondert festgestellt wird.",
+      "Du verstehst Unternehmensidentität als Fortführung derselben gewerblichen Betätigung und Unternehmeridentität als Erfordernis, dass der Nutzende den Verlust selbst getragen hat.",
+      "Du weißt, dass bei Körperschaften § 8c und § 8d KStG auch für den Gewerbeverlust gelten."
+    ],
+    "pruefschritte": [
+      "Ermittle den maßgebenden Gewerbeertrag vor Verlustabzug; ein negativer Betrag wird festgestellt und nicht zurückgetragen.",
+      "Prüfe bei Personenunternehmen, ob der Betrieb in wirtschaftlicher Hinsicht derselbe geblieben ist.",
+      "Kläre beim Gesellschafterwechsel, welcher Verlustanteil auf Ausgeschiedene entfällt; er geht nach dem allgemeinen Gewinnverteilungsschlüssel unter.",
+      "Verrechne Altverluste nach Eintritt eines Gesellschafters nur mit dem Gewerbeertrag, der auf die bisherigen Gesellschafter entfällt.",
+      "Wende auf den verbleibenden Betrag die Grenze von 1 Mio. € und darüber die 60-%-Grenze an."
+    ],
+    "fehler": [
+      "Einen Gewerbeverlust in das Vorjahr zurücktragen, weil das bei der Einkommensteuer möglich ist.",
+      "Sondervergütungen oder Vorabgewinne bei der Aufteilung des Verlusts auf die Gesellschafter berücksichtigen.",
+      "Nach dem Verkauf eines Einzelunternehmens den Verlust beim Erwerber weiter abziehen."
+    ],
+    "merksatz": "Gewerbeverluste wandern nur vorwärts und nur mit dem, der sie erlitten hat, im selben Betrieb."
+  },
+  {
+    "quelle": "gewst-ks-07",
+    "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer",
+    "einordnung": ["Am Ende jeder Gewerbesteuerklausur steht die Berechnung der Steuer und der Rückstellung. Wer Rundung, Freibetrag und Messzahl in falscher Reihenfolge anwendet, verschenkt sichere Punkte."],
+    "lernziele": [
+      "Du weißt, dass Erhebungszeitraum das Kalenderjahr ist und bei abweichendem Wirtschaftsjahr der Gewinn im Jahr seines Endes erfasst wird.",
+      "Du kannst die Reihenfolge anwenden: Gewerbeertrag nach Verlustabzug auf volle 100 € abrunden, Freibetrag abziehen, mit 3,5 % multiplizieren.",
+      "Du weißt, dass der Freibetrag von 24.500 € nur natürlichen Personen und Personengesellschaften zusteht und kein negatives Ergebnis erzeugen darf.",
+      "Du weißt, dass die Gemeinde den Messbetrag mit ihrem Hebesatz multipliziert, der mindestens 200 % betragen muss."
+    ],
+    "pruefschritte": [
+      "Ermittle den maßgebenden Gewerbeertrag aus Gewinn, Hinzurechnungen und Kürzungen und ziehe den Gewerbeverlust ab.",
+      "Runde das Ergebnis auf volle 100 € ab und ziehe bei Personenunternehmen den Freibetrag von 24.500 € ab.",
+      "Wende auf den verbleibenden Betrag die Messzahl von 3,5 % an und halte den Messbetrag als Inhalt des Messbescheids fest.",
+      "Wende den Hebesatz der Gemeinde an und ziehe die geleisteten Vorauszahlungen ab.",
+      "Bilde in der Steuerbilanz Rückstellung oder Forderung und korrigiere den Aufwand außerbilanziell nach § 4 Abs. 5b EStG."
+    ],
+    "fehler": [
+      "Einer GmbH den Freibetrag von 24.500 € gewähren.",
+      "Den Freibetrag vor der Abrundung abziehen oder einen Verlust durch ihn vergrößern."
+    ],
+    "merksatz": "Abrunden, Freibetrag, 3,5 %, Hebesatz – in dieser Reihenfolge, und den Freibetrag gibt es nur für Personenunternehmen."
+  },
+  {
+    "quelle": "gewst-ks-08",
+    "titel": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+    "einordnung": ["Unterhält ein Unternehmen Betriebsstätten in mehreren Gemeinden, darf jede nur ihren Anteil besteuern. Das Finanzamt zerlegt deshalb den Messbetrag nach §§ 28 ff. GewStG in einem eigenen Bescheid."],
+    "lernziele": [
+      "Du weißt, dass jede Gemeinde hebeberechtigt ist, in der eine Betriebsstätte unterhalten wird, und dass der Messbetrag dann nach § 28 GewStG zerlegt wird.",
+      "Du kennst den Regelmaßstab des § 29 GewStG: das Verhältnis der in den Gemeinden gezahlten Arbeitslöhne, jeweils auf volle 1.000 € abgerundet.",
+      "Du weißt, dass bei Einzelunternehmen und Personengesellschaften für die tätigen Unternehmer insgesamt 25.000 € als Arbeitslohn anzusetzen sind.",
+      "Du verstehst die Bescheidkette: Der Zerlegungsbescheid folgt dem Messbescheid und ist seinerseits Grundlage für den Gewerbesteuerbescheid jeder Gemeinde."
+    ],
+    "pruefschritte": [
+      "Stelle fest, in welchen Gemeinden Betriebsstätten im Sinne des § 12 AO bestehen.",
+      "Summiere die Arbeitslöhne je Gemeinde und rechne den Unternehmerlohn der Gemeinde zu, in der der Unternehmer tätig ist.",
+      "Runde die Lohnsumme jeder Gemeinde auf volle 1.000 € ab.",
+      "Verteile den Messbetrag im Verhältnis der gerundeten Lohnsummen auf die Gemeinden.",
+      "Wende auf jeden Zerlegungsanteil den Hebesatz der jeweiligen Gemeinde an."
+    ],
+    "fehler": [
+      "Die Gewerbesteuer statt des Messbetrags zerlegen und dabei einen einheitlichen Hebesatz verwenden.",
+      "Den Unternehmerlohn von 25.000 € auch bei einer Kapitalgesellschaft ansetzen."
+    ],
+    "merksatz": "Zerlegt wird der Messbetrag nach Lohnsummen, besteuert wird jeder Anteil mit dem Hebesatz seiner Gemeinde."
+  },
+  {
+    "quelle": "gewst-ks-10",
+    "titel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+    "einordnung": ["§ 35 EStG entlastet Einzelunternehmer und Mitunternehmer, indem ein Vielfaches des Messbetrags von der Einkommensteuer abgezogen wird. Klausurrelevant sind die Obergrenzen und die Aufteilung bei Personengesellschaften."],
+    "lernziele": [
+      "Du weißt, dass die Ermäßigung das Vierfache des festgesetzten Messbetrags beträgt, höchstens aber die tatsächlich zu zahlende Gewerbesteuer.",
+      "Du kennst den Ermäßigungshöchstbetrag: den Anteil der tariflichen Einkommensteuer, der auf die gewerblichen Einkünfte entfällt.",
+      "Du weißt, dass nicht gewerbesteuerpflichtige Gewinne, etwa nach §§ 16 und 17 EStG, bei der Höchstbetragsberechnung nicht als gewerbliche Einkünfte zählen.",
+      "Du weißt, dass Kapitalgesellschaften keine Ermäßigung erhalten und ihr Anteil am Anrechnungsvolumen einer Personengesellschaft verloren geht."
+    ],
+    "pruefschritte": [
+      "Ermittle den festgesetzten Messbetrag oder bei Mitunternehmern den anteiligen Messbetrag nach dem allgemeinen Gewinnverteilungsschlüssel.",
+      "Multipliziere mit vier und begrenze das Ergebnis auf die tatsächlich zu zahlende Gewerbesteuer.",
+      "Berechne den Höchstbetrag aus der tariflichen Einkommensteuer im Verhältnis der positiven gewerblichen Einkünfte zur Summe aller positiven Einkünfte.",
+      "Saldiere dabei nur innerhalb derselben Einkunftsart und lass gewerbesteuerfreie Veräußerungsgewinne außen vor.",
+      "Ziehe den niedrigsten Betrag von der tariflichen Einkommensteuer ab, ohne dass diese negativ werden kann."
+    ],
+    "fehler": [
+      "Vorabvergütungen oder Ergebnisse aus Sonder- und Ergänzungsbilanzen bei der Aufteilung des Messbetrags berücksichtigen.",
+      "Das Vierfache des Messbetrags ansetzen, obwohl wegen eines niedrigen Hebesatzes weniger Gewerbesteuer anfällt.",
+      "Ungenutztes Ermäßigungspotenzial eines Gesellschafters auf einen anderen übertragen."
+    ],
+    "merksatz": "Viermal Messbetrag, gedeckelt durch die zu zahlende Gewerbesteuer und durch die anteilige Einkommensteuer auf Gewerbeeinkünfte."
+  }
+]

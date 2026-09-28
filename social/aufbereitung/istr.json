@@ -1,0 +1,503 @@
+[
+  {
+    "quelle": "istr-gh-3-04",
+    "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?",
+    "einordnung": ["Der Wohnsitz ist der häufigste Anknüpfungspunkt der unbeschränkten Einkommensteuerpflicht. In internationalen Klausuren entscheidet er, ob Deutschland das Welteinkommen erfasst."],
+    "lernziele": [
+      "Du erkennst, dass § 8 AO allein auf objektive Merkmale abstellt: eine Wohnung, deren Innehaben und äußere Umstände, die auf Beibehaltung und Nutzung hindeuten.",
+      "Als Wohnung genügt jede zum Wohnen geeignete Bleibe, etwa auch ein auf Dauer gemietetes Hotelzimmer oder ein fest abgestellter Wohnwagen.",
+      "Du weißt, dass eine Person zugleich mehrere Wohnsitze im In- und Ausland haben kann."
+    ],
+    "pruefschritte": [
+      "Stelle fest, ob im Inland eine zum Wohnen geeignete Unterkunft vorhanden ist; Größe und Komfort spielen keine Rolle.",
+      "Prüfe das Innehaben: Kann die Person tatsächlich über die Räume verfügen und Dritte dauerhaft von ihnen fernhalten?",
+      "Würdige die äußeren Umstände: Eingerichtete, jederzeit bewohnbare Räume und wiederkehrende Aufenthalte sprechen für Beibehaltung.",
+      "Beurteile die Beibehaltung vorausschauend und ziehe mangels eigener Frist hilfsweise den Sechsmonatszeitraum des § 9 AO heran.",
+      "Folgere bei Bejahung die unbeschränkte Steuerpflicht nach § 1 Abs. 1 EStG und prüfe erst danach ein etwaiges DBA."
+    ],
+    "fehler": [
+      "Auf die tatsächliche Nutzung abstellen: Auch eine leer stehende, aber jederzeit bewohnbare Wohnung kann den Wohnsitz erhalten.",
+      "Eine fremdvermietete Wohnung oder einen Besuch bei Angehörigen als Innehaben werten.",
+      "Aus einem neuen Wohnsitz im Ausland automatisch den Wegfall des inländischen Wohnsitzes ableiten."
+    ],
+    "merksatz": "Wohnsitz heißt: eigene Verfügungsmacht über bewohnbare Räume, die nach Lage der Dinge weiter genutzt werden sollen – ob sie gerade genutzt werden, ist egal."
+  },
+  {
+    "quelle": "istr-gh-3-05",
+    "titel": "Gewöhnlicher Aufenthalt: Wann reicht die bloße Anwesenheit?",
+    "einordnung": ["Wer im Inland keine Wohnung innehat, kann über den gewöhnlichen Aufenthalt nach § 9 AO trotzdem unbeschränkt steuerpflichtig werden. Klausurrelevant sind vor allem Fristberechnung und kurze Unterbrechungen."],
+    "lernziele": [
+      "Du weißt, dass § 9 AO nur an das äußere Verweilen anknüpft, sodass auch ein unfreiwilliger Aufenthalt etwa in einer Klinik genügen kann.",
+      "Du kennst die Regel des § 9 Satz 2 AO: Ein zusammenhängender Inlandsaufenthalt von mehr als sechs Monaten begründet stets einen gewöhnlichen Aufenthalt, und zwar von Beginn an.",
+      "Du kennst die Ausnahme des § 9 Satz 3 AO für Aufenthalte ausschließlich zu Besuchs-, Erholungs-, Kur- oder ähnlichen privaten Zwecken, die bis zu einem Jahr unschädlich sind."
+    ],
+    "pruefschritte": [
+      "Kläre zuerst, ob schon ein Wohnsitz nach § 8 AO vorliegt; § 9 AO ist nur ergänzend zu prüfen.",
+      "Ermittle die Dauer des Inlandsaufenthalts; kurze Heimreisen oder Urlaube unterbrechen den Zeitraum nicht.",
+      "Liegt die Dauer über sechs Monaten, bejahe den gewöhnlichen Aufenthalt ab dem ersten Tag, auch über den Jahreswechsel hinweg.",
+      "Prüfe bei kürzerer Dauer, ob ein von vornherein längerer Verbleib geplant war und nachgewiesen werden kann.",
+      "Wende bei rein privat veranlassten Aufenthalten die verlängerte Grenze von einem Jahr nach § 9 Satz 3 AO an."
+    ],
+    "fehler": [
+      "Die Sechsmonatsfrist für jedes Kalenderjahr gesondert anwenden, obwohl ein jahresübergreifender Aufenthalt zusammenzurechnen ist.",
+      "Einen Aufenthalt unter sechs Monaten ohne weitere Prüfung der Absichten als unschädlich abtun."
+    ],
+    "merksatz": "Mehr als sechs Monate im Inland, kurze Abwesenheiten eingerechnet, begründen den gewöhnlichen Aufenthalt – rückwirkend ab dem ersten Tag."
+  },
+  {
+    "quelle": "istr-gh-3-06",
+    "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+    "einordnung": ["§ 1 Abs. 3 EStG erlaubt Personen ohne Wohnsitz und gewöhnlichen Aufenthalt im Inland, sich auf Antrag wie unbeschränkt Steuerpflichtige behandeln zu lassen. Hintergrund ist die EuGH-Rechtsprechung zur Gleichbehandlung Gebietsfremder, die ihr Einkommen fast ganz in Deutschland erzielen."],
+    "lernziele": [
+      "Du kennst die Einkommensgrenzen: Mindestens 90 % der Einkünfte unterliegen der deutschen Einkommensteuer, oder die übrigen Einkünfte übersteigen den Grundfreibetrag nicht.",
+      "Du weißt, dass Einkünfte, für die Deutschland nach einem DBA nur eine begrenzte Quellensteuer erheben darf, für die Quote als nicht der deutschen Steuer unterliegend gelten.",
+      "Du verstehst, dass die Option nur die inländischen Einkünfte der deutschen Steuer unterwirft und keine Welteinkommensbesteuerung auslöst.",
+      "Du weißt, dass der Grundfreibetrag nach der Ländergruppeneinteilung gekürzt werden kann und eine Bescheinigung der ausländischen Steuerbehörde erforderlich ist."
+    ],
+    "pruefschritte": [
+      "Stelle fest, dass im Inland weder Wohnsitz noch gewöhnlicher Aufenthalt besteht, aber inländische Einkünfte nach § 49 EStG vorliegen.",
+      "Kläre vorab, ob Deutschland nach dem einschlägigen DBA für diese Einkünfte überhaupt besteuern darf, etwa bei Grenzgängerregeln.",
+      "Berechne die Relation: deutscher Anteil mindestens 90 % oder Auslandseinkünfte höchstens in Höhe des gegebenenfalls gekürzten Grundfreibetrags.",
+      "Lass steuerfreie Einnahmen und pauschal besteuerten Arbeitslohn außen vor und prüfe die Grenzen für jeden Ehegatten einzeln.",
+      "Verlange den Nachweis der Auslandseinkünfte per Bescheinigung und rechne bereits einbehaltene Abzugsteuern nach § 50a EStG an."
+    ],
+    "fehler": [
+      "Das Splitting allein aus § 1 Abs. 3 EStG ableiten; für den Ehegatten braucht es eine eigene Grundlage, etwa § 1a EStG bei EU/EWR-Staatsangehörigen.",
+      "Dividenden, auf die Deutschland nur eine begrenzte Quellensteuer erheben darf, in die 90-%-Quote als deutsche Einkünfte einrechnen.",
+      "Den Steuerabzug nach § 50a EStG wegen des Antrags für entbehrlich halten."
+    ],
+    "merksatz": "§ 1 Abs. 3 EStG ist ein Antragsrecht für Gebietsfremde mit fast ausschließlich deutschem Einkommen: Vergünstigungen ja, Besteuerung des Welteinkommens nein."
+  },
+  {
+    "quelle": "istr-gh-3-09",
+    "titel": "Beschränkte Steuerpflicht: Wen trifft sie, wann beginnt sie?",
+    "einordnung": ["Die beschränkte Steuerpflicht nach § 1 Abs. 4 EStG erfasst Gebietsfremde nur mit ihren inländischen Einkünften. Sie ist die letzte Stufe, nachdem unbeschränkte und fiktiv unbeschränkte Steuerpflicht verneint wurden."],
+    "lernziele": [
+      "Du kannst die Voraussetzungen benennen: kein inländischer Wohnsitz, kein gewöhnlicher Aufenthalt, keine Steuerpflicht nach § 1 Abs. 2 oder 3 EStG und inländische Einkünfte nach § 49 EStG.",
+      "Du weißt, dass ohne inländische Einkünfte überhaupt keine deutsche Einkommensteuerpflicht besteht.",
+      "Du kannst Beginn und Ende bestimmen: erster Bezug inländischer Einkünfte oder Wegzug mit fortbestehender Inlandsquelle, Ende durch Tod, Wegfall der inländischen Einkünfte, Zuzug oder Antrag nach § 1 Abs. 3 EStG."
+    ],
+    "pruefschritte": [
+      "Verneine zuerst Wohnsitz und gewöhnlichen Aufenthalt im Inland nach §§ 8 und 9 AO.",
+      "Schließe die erweiterte unbeschränkte Steuerpflicht nach § 1 Abs. 2 EStG und die Antragsoption nach § 1 Abs. 3 EStG aus.",
+      "Ordne jede Einkunftsquelle einem Tatbestand des § 49 EStG zu; nicht erfasste Einkünfte bleiben in Deutschland unbesteuert.",
+      "Bestimme den Zeitraum der beschränkten Steuerpflicht, insbesondere bei Wegzug, Zuzug oder Wegfall der Inlandseinkünfte.",
+      "Prüfe danach die Abgeltung durch Steuerabzug oder die Veranlagung nach § 50 EStG sowie ein etwaiges DBA."
+    ],
+    "fehler": [
+      "Auslandseinkünfte eines beschränkt Steuerpflichtigen mitbesteuern, obwohl nur Einkünfte nach § 49 EStG erfasst werden.",
+      "Die beschränkte Steuerpflicht prüfen, bevor die vorrangigen Formen der unbeschränkten Steuerpflicht ausgeschlossen sind."
+    ],
+    "merksatz": "Ohne Wohnsitz und gewöhnlichen Aufenthalt besteuert Deutschland nur, was § 49 EStG als inländisch einordnet – alles andere bleibt außen vor."
+  },
+  {
+    "quelle": "istr-gh-3-10",
+    "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+    "einordnung": ["Wechselt jemand im Kalenderjahr zwischen unbeschränkter und beschränkter Steuerpflicht, bestimmt § 2 Abs. 7 Satz 3 EStG, wie veranlagt wird. Das ist typischer Klausurstoff in Wegzugs- und Zuzugsfällen."],
+    "lernziele": [
+      "Du weißt, dass die während der beschränkten Steuerpflicht erzielten inländischen Einkünfte in die Veranlagung zur unbeschränkten Steuerpflicht einbezogen werden.",
+      "Du erkennst, dass Einkünfte, die im Jahr nicht der deutschen Einkommensteuer unterliegen, über § 32b Abs. 1 Satz 1 Nr. 2 EStG den Steuersatz erhöhen.",
+      "Du weißt, dass ein Steuerabzug in diesen Fällen nach § 50 Abs. 2 Satz 2 Nr. 3 EStG keine abgeltende Wirkung hat."
+    ],
+    "pruefschritte": [
+      "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr.",
+      "Ermittle für die Phase ohne Wohnsitz, ob inländische Einkünfte nach § 49 EStG vorliegen; nur dann greift § 2 Abs. 7 Satz 3 EStG.",
+      "Fasse alle inländischen Einkünfte beider Phasen in einer einzigen Veranlagung als unbeschränkt Steuerpflichtiger zusammen.",
+      "Erfasse die ausländischen Einkünfte aus der Zeit ohne deutsche Steuerpflicht im Progressionsvorbehalt.",
+      "Rechne einbehaltene Abzugsteuern auf die Jahressteuer an, statt ihnen abgeltende Wirkung beizumessen."
+    ],
+    "fehler": [
+      "Zwei getrennte Veranlagungen durchführen und dadurch den Grundfreibetrag doppelt gewähren.",
+      "Den Progressionsvorbehalt für die Auslandseinkünfte nach dem Wegzug vergessen."
+    ],
+    "merksatz": "Ein Jahr, eine Veranlagung: Inlandseinkünfte beider Phasen werden zusammengefasst, Auslandseinkünfte wirken nur auf den Steuersatz."
+  },
+  {
+    "quelle": "istr-gh-3-11",
+    "titel": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
+    "einordnung": ["§ 49 EStG legt fest, welche Einkünfte beschränkt Steuerpflichtiger in Deutschland erfasst werden. Ohne passenden Inlandsbezug entsteht keine deutsche Steuer, deshalb ist die Norm der Kern jeder Klausur zu § 1 Abs. 4 EStG."],
+    "lernziele": [
+      "Du verstehst, dass § 49 EStG an die Einkunftsarten des § 2 Abs. 1 EStG anknüpft und jeweils ein zusätzliches Inlandsmerkmal verlangt.",
+      "Du kennst die wichtigsten Anknüpfungen bei gewerblichen Einkünften: inländische Betriebsstätte oder ständiger Vertreter, Darbietungen im Inland, Anteilsveräußerungen nach § 17 EStG sowie Vermietung oder Veräußerung inländischen Grundbesitzes.",
+      "Du weißt, dass Darbietungseinkünfte nach § 49 Abs. 1 Nr. 2 Buchst. d EStG auch ohne Betriebsstätte erfasst werden, gleich wem die Vergütung zufließt.",
+      "Du weißt, dass Einkünfte einer ausländischen Kapitalgesellschaft aus inländischem Grundbesitz stets als gewerblich gelten."
+    ],
+    "pruefschritte": [
+      "Bestimme zunächst die Einkunftsart nach den allgemeinen Regeln des Einkommensteuergesetzes.",
+      "Suche in § 49 Abs. 1 EStG die zur Einkunftsart gehörende Nummer und prüfe deren konkreten Inlandsbezug.",
+      "Fehlt der Inlandsbezug, wende die isolierende Betrachtungsweise des § 49 Abs. 2 EStG an und prüfe andere Nummern.",
+      "Ermittle die Einkünfte nach deutschem Recht und kläre, ob ein Steuerabzug abgeltend wirkt oder veranlagt wird.",
+      "Prüfe abschließend, ob ein DBA das deutsche Besteuerungsrecht einschränkt."
+    ],
+    "fehler": [
+      "Gewerbliche Einkünfte ohne Betriebsstätte vorschnell als nicht erfasst abtun, obwohl Sondertatbestände wie Buchst. d, e oder f greifen können.",
+      "Den weiten nationalen Betriebsstättenbegriff des § 12 AO mit dem engeren DBA-Begriff verwechseln."
+    ],
+    "merksatz": "Inländisch ist eine Einkunft nur, wenn zur Einkunftsart das in § 49 EStG verlangte Inlandsmerkmal hinzukommt."
+  },
+  {
+    "quelle": "istr-gh-3-12",
+    "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
+    "einordnung": ["Nach § 49 Abs. 2 EStG bleiben im Ausland verwirklichte Merkmale unbeachtet, wenn sie sonst eine inländische Einkunft verhindern würden. So wird die Besteuerung auch dort gesichert, wo Subsidiaritätsregeln sie vereiteln würden."],
+    "lernziele": [
+      "Du verstehst, dass die Einkunftsart eines Gebietsfremden nach den im Inland verwirklichten Merkmalen bestimmt wird.",
+      "Du erkennst, dass etwa die Zugehörigkeit zu einem ausländischen Betriebsvermögen ausgeblendet wird, wenn eine inländische Betriebsstätte fehlt.",
+      "Du weißt, dass dadurch Subsidiaritätsregeln wie § 20 Abs. 8 oder § 21 Abs. 3 EStG im Rahmen des § 49 EStG leerlaufen."
+    ],
+    "pruefschritte": [
+      "Prüfe zunächst die Einkunftsart bei ganzheitlicher Betrachtung einschließlich der Auslandsmerkmale.",
+      "Stelle fest, ob unter dieser Einkunftsart ein Tatbestand des § 49 Abs. 1 EStG erfüllt ist, etwa eine inländische Betriebsstätte.",
+      "Scheitert das, blende die im Ausland liegenden Merkmale aus und bestimme die Einkunftsart allein nach dem inländischen Geschehen.",
+      "Prüfe mit der so gefundenen Einkunftsart erneut § 49 Abs. 1 EStG, beispielsweise Nr. 2 Buchst. e, Nr. 5 oder Nr. 6."
+    ],
+    "fehler": [
+      "Die isolierende Betrachtung auch dann anwenden, wenn bereits ein inländischer Tatbestand der tatsächlichen Einkunftsart erfüllt ist.",
+      "Ausländisches Betriebsvermögen als Grund ansehen, eine Anteilsveräußerung im Sinne des § 17 EStG nicht zu erfassen."
+    ],
+    "merksatz": "Was im Ausland liegt und die Inlandsbesteuerung verhindern würde, zählt bei § 49 EStG nicht – maßgeblich ist allein das inländische Geschehen."
+  },
+  {
+    "quelle": "istr-gh-3-13",
+    "titel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+    "einordnung": ["Werden beschränkt Steuerpflichtige veranlagt, fallen viele persönliche Entlastungen weg. § 50 EStG regelt außerdem, wann ein Steuerabzug die Steuer abgilt und welcher Tarif gilt."],
+    "lernziele": [
+      "Du weißt, dass Betriebsausgaben und Werbungskosten nur abziehbar sind, soweit sie wirtschaftlich mit inländischen Einkünften zusammenhängen.",
+      "Du kennst die ausgeschlossenen Vorschriften, darunter die meisten Sonderausgaben (Spenden nach § 10b EStG bleiben abziehbar), § 16 Abs. 4, § 24b, §§ 33 bis 33b und § 35a EStG sowie alle kinder- und ehegattenbezogenen Regeln.",
+      "Du weißt, dass Einkünfte, die einem Steuerabzug unterlegen haben, grundsätzlich abgegolten sind und nur in den Fällen des § 50 Abs. 2 Satz 2 EStG veranlagt werden.",
+      "Du kennst den Tarif: Grundtabelle, wobei das zu versteuernde Einkommen grundsätzlich um den Grundfreibetrag erhöht wird."
+    ],
+    "pruefschritte": [
+      "Grenze die inländischen Einkünfte nach § 49 EStG ab und ordne Aufwendungen nur zu, soweit ein Inlandsbezug besteht.",
+      "Scheide Einkünfte mit abgeltendem Steuerabzug aus, es sei denn, eine Ausnahme wie inländischer Betrieb oder Antragsveranlagung greift.",
+      "Streiche alle nach § 50 Abs. 1 EStG nicht anwendbaren Abzüge und Freibeträge; beachte die Sonderregeln für Arbeitnehmereinkünfte.",
+      "Wende die Grundtabelle an und erhöhe das zu versteuernde Einkommen grundsätzlich um den Grundfreibetrag.",
+      "Rechne ausländische Steuern nur nach § 50 Abs. 3 EStG an, also bei Gewinneinkünften und nicht aus dem Wohnsitzstaat."
+    ],
+    "fehler": [
+      "Beschränkt Steuerpflichtigen den Splittingtarif oder Kinderfreibeträge gewähren.",
+      "Lohnsteuer oder Kapitalertragsteuer anrechnen und die Einkünfte veranlagen, obwohl der Abzug abgeltend war."
+    ],
+    "merksatz": "Beschränkt steuerpflichtig heißt: Grundtabelle ohne Entlastung durch den Grundfreibetrag, kaum persönliche Abzüge, und Abzugsteuern gelten die Steuer meist ab."
+  },
+  {
+    "quelle": "istr-gh-3-14",
+    "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
+    "einordnung": ["Bei Gebietsfremden ohne greifbares Inlandsvermögen sichert der Steuerabzug nach § 50a EStG den deutschen Steueranspruch. Klausurthemen sind Darbietungen, Rechteüberlassungen, Aufsichtsratsvergütungen und die Haftung des Zahlenden."],
+    "lernziele": [
+      "Du kennst die Sätze: 15 % der Einnahmen für Darbietungen, deren Verwertung und Rechteüberlassungen, 30 % für Aufsichtsratsvergütungen.",
+      "Du weißt, dass bei Darbietungen mit Einnahmen von höchstens 250 € je Darbietung kein Abzug vorgenommen wird.",
+      "Du weißt, dass der Abzug auch dann in voller Höhe vorzunehmen ist, wenn ein DBA das deutsche Besteuerungsrecht ausschließt, und die Entlastung über das Bundeszentralamt für Steuern läuft.",
+      "Du kennst die Nettovariante: EU/EWR-Ansässige können unmittelbar zusammenhängende Ausgaben berücksichtigen lassen, natürliche Personen zahlen dann aber 30 %."
+    ],
+    "pruefschritte": [
+      "Prüfe, ob beschränkt steuerpflichtige Einkünfte unter § 50a Abs. 1 EStG fallen und nicht vorrangig Lohnsteuer einzubehalten ist.",
+      "Ermittle die Bemessungsgrundlage aus den vollen Einnahmen; erstattete Reisekosten zählen nur, soweit sie die Pauschalen übersteigen.",
+      "Wende den Satz an und prüfe die Freigrenze für kleine Darbietungen sowie einen Antrag auf Berücksichtigung von Ausgaben.",
+      "Halte fest, dass der Vergütungsschuldner einbehält, abführt und für die Steuer haftet.",
+      "Verweise für die DBA-Entlastung auf Freistellung oder Erstattung beim Bundeszentralamt für Steuern nach § 50c EStG."
+    ],
+    "fehler": [
+      "Den Abzug unterlassen, weil ein DBA Deutschland kein Besteuerungsrecht gibt; ohne Freistellungsbescheinigung bleibt die Pflicht bestehen.",
+      "Dem Sicherungseinbehalt nach § 50a Abs. 7 EStG Abgeltungswirkung beimessen, obwohl er nur wie eine Vorauszahlung wirkt."
+    ],
+    "merksatz": "Bei § 50a EStG haftet, wer zahlt: Er behält ein, auch wenn ein DBA später entlastet."
+  },
+  {
+    "quelle": "istr-gh-4-04",
+    "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
+    "einordnung": ["DBA gelten innerstaatlich nur über ihr Zustimmungsgesetz und haben damit den Rang eines einfachen Bundesgesetzes. Spätere Regeln wie § 50d Abs. 8 und 9 EStG können sie deshalb verdrängen, was in Freistellungsfällen zu prüfen ist."],
+    "lernziele": [
+      "Du weißt, dass ein DBA ein völkerrechtlicher Vertrag ist, der erst durch das Zustimmungsgesetz im Inland anwendbar wird.",
+      "Du kennst die Entscheidung des BVerfG von 2015, nach der ein Treaty Override verfassungsrechtlich zulässig ist.",
+      "Du verstehst, dass § 50d Abs. 8 EStG die Freistellung von Arbeitslohn vom Nachweis der ausländischen Besteuerung oder eines Besteuerungsverzichts abhängig macht.",
+      "Du erkennst, dass § 50d Abs. 9 EStG die Freistellung versagt, wenn Qualifikationskonflikte sonst dazu führen würden, dass keiner der Staaten besteuert."
+    ],
+    "pruefschritte": [
+      "Ermittle nach dem DBA, ob Deutschland als Ansässigkeitsstaat die Einkünfte freistellen müsste.",
+      "Prüfe bei Arbeitslohn, ob die ausländische Besteuerung oder ein Verzicht des anderen Staates nachgewiesen ist.",
+      "Kläre, ob der andere Staat die Einkünfte wegen abweichender Auslegung oder Sachverhaltswürdigung freistellt oder nur begrenzt besteuert.",
+      "Versage in diesen Fällen die Freistellung nach § 50d Abs. 9 EStG und unterwirf die Einkünfte der deutschen Besteuerung."
+    ],
+    "fehler": [
+      "Annehmen, ein DBA gehe als Völkerrecht jedem späteren Bundesgesetz vor.",
+      "Die Freistellung von Auslandsarbeitslohn gewähren, ohne den Nachweis nach § 50d Abs. 8 EStG zu prüfen."
+    ],
+    "merksatz": "Ein DBA ist innerstaatlich einfaches Gesetz: Spätere Spezialregeln wie § 50d Abs. 8 und 9 EStG können die Freistellung einschränken."
+  },
+  {
+    "quelle": "istr-gh-4-10",
+    "titel": "Doppelwohnsitz: Wie bestimmt Art. 4 OECD-MA die Ansässigkeit?",
+    "einordnung": ["Die Verteilungsnormen der DBA unterscheiden zwischen Ansässigkeits- und Quellenstaat. Wer in beiden Staaten unbeschränkt steuerpflichtig ist, braucht daher eine eindeutige Zuordnung über die Kollisionsregel des Art. 4 Abs. 2 OECD-MA."],
+    "lernziele": [
+      "Du weißt, dass Art. 4 Abs. 1 OECD-MA an die unbeschränkte Steuerpflicht nach innerstaatlichem Recht anknüpft.",
+      "Du kannst die Rangfolge der Kollisionsregel anwenden: ständige Wohnstätte, Mittelpunkt der Lebensinteressen, gewöhnlicher Aufenthalt, Staatsangehörigkeit, Verständigung.",
+      "Du verstehst, dass die abkommensrechtliche Ansässigkeit die unbeschränkte Steuerpflicht nach § 1 Abs. 1 EStG unberührt lässt.",
+      "Du weißt, dass bei Gesellschaften viele deutsche DBA auf den Ort der tatsächlichen Geschäftsleitung abstellen, das OECD-MA 2017 dagegen eine Verständigung der Behörden vorsieht."
+    ],
+    "pruefschritte": [
+      "Prüfe nach dem nationalen Recht beider Staaten, ob die Person dort jeweils unbeschränkt steuerpflichtig ist.",
+      "Frage bei Doppelansässigkeit zuerst, in welchem Staat eine ständige Wohnstätte zur Verfügung steht.",
+      "Entscheide bei Wohnstätten in beiden Staaten nach den engeren persönlichen und wirtschaftlichen Bindungen.",
+      "Hilft das nicht weiter, stelle nacheinander auf den gewöhnlichen Aufenthalt und die Staatsangehörigkeit ab.",
+      "Bleibt die Frage offen, verweise auf die Verständigung der zuständigen Behörden beider Staaten."
+    ],
+    "fehler": [
+      "Aus der Ansässigkeit im anderen Staat schließen, die deutsche unbeschränkte Steuerpflicht entfalle.",
+      "Die Stufen überspringen und sofort auf die Staatsangehörigkeit abstellen."
+    ],
+    "merksatz": "Art. 4 OECD-MA verteilt nur die Rollen im Abkommen; ob jemand nach § 1 EStG steuerpflichtig ist, bleibt davon unberührt."
+  },
+  {
+    "quelle": "istr-gh-4-11",
+    "titel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
+    "einordnung": ["Ob ein Staat Unternehmensgewinne besteuern darf, hängt nach Art. 7 OECD-MA an einer Betriebsstätte im Abkommenssinn. Weil der nationale Begriff weiter reicht, führt eine Verwechslung regelmäßig zu falschen Ergebnissen."],
+    "lernziele": [
+      "Du weißt, dass Art. 5 Abs. 1 OECD-MA eine feste Geschäftseinrichtung verlangt, über die das Unternehmen seine Tätigkeit ganz oder teilweise ausübt.",
+      "Du kennst die Ausnahmen des Art. 5 Abs. 4 OECD-MA für Einrichtungen, die nur vorbereitenden oder unterstützenden Zwecken wie Lagerung oder Auslieferung dienen.",
+      "Du kennst die Zeitgrenzen: Bauausführungen und Montagen sind nach § 12 Satz 2 Nr. 8 AO ab mehr als sechs Monaten, nach Art. 5 Abs. 3 OECD-MA erst ab mehr als zwölf Monaten Betriebsstätten.",
+      "Du weißt, dass die Beteiligung an einer gewerblichen Personengesellschaft aus deutscher Sicht eine Betriebsstätte vermittelt."
+    ],
+    "pruefschritte": [
+      "Prüfe für § 49 EStG, den Lohnsteuerabzug oder die Gewerbesteuer den nationalen Begriff des § 12 AO.",
+      "Wende für die Verteilung der Besteuerungsrechte ausschließlich Art. 5 des jeweiligen DBA an.",
+      "Prüfe, ob eine feste Einrichtung besteht, über die das Unternehmen nicht nur vorübergehend verfügen kann.",
+      "Schließe Einrichtungen mit bloßen Hilfs- oder Vorbereitungsfunktionen aus und beachte die Zwölfmonatsgrenze für Bauausführungen."
+    ],
+    "fehler": [
+      "Ein reines Auslieferungslager als DBA-Betriebsstätte behandeln, nur weil es nach § 12 AO eine ist.",
+      "Die Sechsmonatsgrenze des § 12 AO auf Bau- und Montagestellen im Abkommensrecht übertragen."
+    ],
+    "merksatz": "Mit § 12 AO prüfst du, ob § 49 EStG greift; mit Art. 5 OECD-MA, ob der Staat die Gewinne auch besteuern darf."
+  },
+  {
+    "quelle": "istr-gh-4-14",
+    "titel": "Wirtschaftsgut in die Auslandsbetriebsstätte: Entstrickung prüfen",
+    "einordnung": ["Unternehmensgewinne darf nach Art. 7 OECD-MA grundsätzlich nur der Ansässigkeitsstaat besteuern, der andere Staat nur, soweit sie einer dortigen Betriebsstätte zuzurechnen sind. Wandern Wirtschaftsgüter dorthin, droht Deutschland der Verlust stiller Reserven, worauf § 4 Abs. 1 Satz 3 EStG reagiert."],
+    "lernziele": [
+      "Du weißt, dass Spezialartikel wie Art. 6, 10 oder 11 OECD-MA dem Art. 7 vorgehen, Dividenden und Zinsen aber bei tatsächlicher Zugehörigkeit zur Betriebsstätte wieder unter Art. 7 fallen.",
+      "Du verstehst, dass der Betriebsstättengewinn nach dem Fremdvergleichsgrundsatz so ermittelt wird, als wäre die Betriebsstätte ein selbständiges Unternehmen.",
+      "Du erkennst, dass Ausschluss oder Beschränkung des deutschen Besteuerungsrechts einer Entnahme gleichsteht, die mit dem gemeinen Wert anzusetzen ist.",
+      "Du kennst den Ausgleichsposten nach § 4g EStG bei Zuordnung zu einer Betriebsstätte in der EU oder im EWR und seine Auflösung über fünf Jahre."
+    ],
+    "pruefschritte": [
+      "Prüfe, ob im anderen Staat eine Betriebsstätte im Sinne des Art. 5 OECD-MA besteht, der die Gewinne zuzurechnen sind.",
+      "Ordne Einkünfte vorrangig den Spezialartikeln zu und prüfe den Rückverweis bei tatsächlicher Zugehörigkeit zur Betriebsstätte.",
+      "Stelle bei Überführung eines Wirtschaftsguts fest, ob Deutschland das Besteuerungsrecht verliert (Freistellung) oder nur beschränkt wird (Anrechnung).",
+      "Setze in beiden Fällen eine Entnahme zum gemeinen Wert an und prüfe auf Antrag den Ausgleichsposten nach § 4g EStG.",
+      "Denke umgekehrt bei Begründung des deutschen Besteuerungsrechts an die Verstrickung als Einlage zum gemeinen Wert."
+    ],
+    "fehler": [
+      "Die Anrechnungsmethode für unschädlich halten; schon die Beschränkung des Besteuerungsrechts löst die Entstrickung aus.",
+      "Für die DBA-Zuordnung den Betriebsstättenbegriff des § 12 AO verwenden."
+    ],
+    "merksatz": "Verliert oder beschränkt Deutschland den Zugriff auf stille Reserven, gilt das Wirtschaftsgut als zum gemeinen Wert entnommen."
+  },
+  {
+    "quelle": "istr-gh-4-17",
+    "titel": "Auslandsdividenden: Wer darf besteuern, was wird angerechnet?",
+    "einordnung": ["Bei Dividenden teilt Art. 10 OECD-MA das Besteuerungsrecht: Der Ansässigkeitsstaat des Empfängers besteuert, der Quellenstaat darf eine begrenzte Quellensteuer erheben. Danach ist die innerstaatliche Behandlung je nach Empfänger und Vermögenszugehörigkeit zu lösen."],
+    "lernziele": [
+      "Du weißt, dass das OECD-MA die Quellensteuer bei Streubesitz auf 15 % begrenzt und nur die abkommensgemäße Steuer angerechnet werden kann.",
+      "Du weißt, dass eine darüber hinaus einbehaltene Quellensteuer im Quellenstaat zurückgefordert werden muss.",
+      "Du kannst den Betriebsstättenvorbehalt des Art. 10 Abs. 4 OECD-MA anwenden, wenn die Beteiligung funktional zu einer Betriebsstätte im Quellenstaat gehört.",
+      "Du unterscheidest die Folgen: Privatvermögen mit Abgeltungsteuer und Anrechnung nach § 32d Abs. 5 EStG, Betriebsvermögen mit Teileinkünfteverfahren, Kapitalgesellschaft mit § 8b KStG ab 10 % Beteiligung."
+    ],
+    "pruefschritte": [
+      "Bestimme die Ansässigkeit des Empfängers und ordne die Erträge als Dividenden im Sinne des Art. 10 OECD-MA ein.",
+      "Prüfe, ob die Beteiligung tatsächlich einer Betriebsstätte im Quellenstaat zuzurechnen ist; dann gilt Art. 7 OECD-MA.",
+      "Ermittle den höchstzulässigen Quellensteuersatz nach dem konkreten DBA und daraus den anrechenbaren Betrag.",
+      "Behandle die Dividende innerstaatlich nach dem Empfänger: § 32d EStG, § 3 Nr. 40 EStG oder § 8b KStG unter Beachtung von § 8b Abs. 4 KStG.",
+      "Rechne die abkommensgemäße Quellensteuer an; bei Privatvermögen je Kapitalertrag und höchstens bis zur Abgeltungsteuer."
+    ],
+    "fehler": [
+      "Die tatsächlich einbehaltene statt der abkommensrechtlich zulässigen Quellensteuer anrechnen.",
+      "Bei einer Kapitalgesellschaft Quellensteuer anrechnen, obwohl die Dividende nach § 8b Abs. 1 KStG außer Ansatz bleibt.",
+      "Beim Teileinkünfteverfahren auch die ausländische Steuer nur zu 60 % anrechnen."
+    ],
+    "merksatz": "Bei Auslandsdividenden rechnet Deutschland nur die Quellensteuer an, die das DBA erlaubt – den Rest holt man sich im Quellenstaat zurück."
+  },
+  {
+    "quelle": "istr-gh-4-22",
+    "titel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+    "einordnung": ["Art. 15 OECD-MA weist das Besteuerungsrecht für Arbeitslohn grundsätzlich dem Staat zu, in dem gearbeitet wird. Die 183-Tage-Regel holt es unter engen Voraussetzungen in den Ansässigkeitsstaat zurück, was in Entsendungsfällen stets zu prüfen ist."],
+    "lernziele": [
+      "Du weißt, dass der Ansässigkeitsstaat besteuert, solange die Tätigkeit nicht im anderen Staat ausgeübt wird.",
+      "Du kannst die drei kumulativen Voraussetzungen des Art. 15 Abs. 2 OECD-MA prüfen: höchstens 183 Tage Aufenthalt im maßgeblichen Zeitraum, kein Arbeitgeber im Tätigkeitsstaat, keine Kostentragung durch eine dortige Betriebsstätte.",
+      "Du weißt, dass manche DBA Grenzgängerregeln enthalten, die dem Wohnsitzstaat das Besteuerungsrecht zuweisen.",
+      "Du kennst die Folge in Deutschland: Freistellung mit Progressionsvorbehalt, aber nur bei Nachweis nach § 50d Abs. 8 EStG."
+    ],
+    "pruefschritte": [
+      "Bestimme den Ansässigkeitsstaat nach Art. 4 des DBA, insbesondere bei Wohnsitzen in beiden Staaten.",
+      "Stelle den Ort der physischen Arbeitsausübung fest; nur Tätigkeiten im anderen Staat können dort besteuert werden.",
+      "Zähle die Aufenthaltstage im Tätigkeitsstaat für den im DBA genannten Zeitraum, etwa zwölf Monate oder Kalenderjahr.",
+      "Prüfe, wer den Lohn wirtschaftlich trägt: Ein Arbeitgeber oder eine Betriebsstätte im Tätigkeitsstaat schließt die Rückausnahme aus.",
+      "Stelle bei Besteuerungsrecht des Tätigkeitsstaats frei, beachte den Progressionsvorbehalt und fordere den Nachweis nach § 50d Abs. 8 EStG."
+    ],
+    "fehler": [
+      "Nur die Tage zählen und übersehen, dass die Lohnkostentragung durch eine Betriebsstätte im Tätigkeitsstaat die Rückausnahme verhindert.",
+      "Die Freistellung ohne Nachweis der ausländischen Besteuerung gewähren."
+    ],
+    "merksatz": "Arbeitslohn folgt dem Arbeitsort – zurück in den Wohnsitzstaat nur, wenn Aufenthaltsdauer, Arbeitgeber und Kostenträger alle drei passen."
+  },
+  {
+    "quelle": "istr-gh-4-30",
+    "titel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
+    "einordnung": ["Die Verteilungsartikel sagen nur, welcher Staat besteuern darf. Wie der Ansässigkeitsstaat eine verbleibende Doppelbesteuerung beseitigt, regelt erst der Methodenartikel, der deshalb am Ende jeder DBA-Prüfung steht."],
+    "lernziele": [
+      "Du weißt, dass allein der Ansässigkeitsstaat die Doppelbesteuerung über den Methodenartikel vermeidet.",
+      "Du kannst die Freistellungsmethode nach Art. 23 A OECD-MA von der Anrechnungsmethode nach Art. 23 B OECD-MA unterscheiden.",
+      "Du weißt, dass deutsche DBA bei Freistellung regelmäßig einen Progressionsvorbehalt vorsehen, der über § 32b Abs. 1 Satz 1 Nr. 3 EStG umgesetzt wird.",
+      "Du weißt, dass Deutschland überwiegend freistellt und vor allem bei Streubesitzdividenden und Zinsen mit Quellensteuer anrechnet."
+    ],
+    "pruefschritte": [
+      "Kläre anhand der Verteilungsartikel, ob der andere Staat überhaupt besteuern darf und ob Deutschland Ansässigkeitsstaat ist.",
+      "Lies im konkreten DBA nach, welche Methode für die jeweilige Einkunftsart gilt; das Musterabkommen allein genügt nicht.",
+      "Nimm bei Freistellung die Einkünfte aus der Bemessungsgrundlage und berücksichtige sie beim Steuersatz.",
+      "Besteuere bei Anrechnung die Einkünfte voll und rechne die abkommensgemäß erhobene Auslandssteuer nach § 34c Abs. 6 EStG an.",
+      "Prüfe ergänzend Rückfall- und Umschaltklauseln des DBA sowie § 50d Abs. 8 und 9 EStG."
+    ],
+    "fehler": [
+      "Den Methodenartikel auslassen und schon aus der Verteilungsnorm die Steuerfreiheit ableiten.",
+      "Bei der Anrechnungsmethode die Einkünfte aus der deutschen Bemessungsgrundlage herausnehmen."
+    ],
+    "merksatz": "Erst verteilen, dann vermeiden: Die Verteilungsnorm vergibt das Recht, der Methodenartikel bestimmt, wie Deutschland die Doppelbesteuerung beseitigt."
+  },
+  {
+    "quelle": "istr-gh-4-31",
+    "titel": "Steuerfrei nach DBA und trotzdem teurer: der Progressionsvorbehalt",
+    "einordnung": ["Nach DBA freigestellte Einkünfte fließen über § 32b EStG in den Steuersatz ein. Ob positive oder negative Auslandseinkünfte den Satz verändern dürfen, ist eine Standardfrage der Klausur."],
+    "lernziele": [
+      "Du weißt, dass die Freistellung auch dann gilt, wenn der andere Staat tatsächlich nicht besteuert, sofern keine Rückfallklausel eingreift.",
+      "Du kannst den besonderen Steuersatz ermitteln: Das zu versteuernde Einkommen wird um die freigestellten Einkünfte erhöht oder vermindert und der so gewonnene Durchschnittssatz auf das eigentliche Einkommen angewendet.",
+      "Du weißt, dass die freigestellten Einkünfte nach deutschem Recht ermittelt werden, sodass zugehörige Aufwendungen dort und nicht bei den Inlandseinkünften abzuziehen sind.",
+      "Du kennst den Ausschluss nach § 32b Abs. 1 Satz 2 EStG für bestimmte Einkünfte aus EU/EWR-Staaten, etwa aus Land- und Forstwirtschaft, passiven gewerblichen Betriebsstätten oder Vermietung unbeweglichen Vermögens."
+    ],
+    "pruefschritte": [
+      "Stelle fest, dass das DBA die Einkünfte freistellt und die Berücksichtigung beim Steuersatz erlaubt.",
+      "Ermittle die freigestellten Einkünfte nach deutschen Vorschriften einschließlich der mit ihnen zusammenhängenden Aufwendungen.",
+      "Prüfe, ob § 32b Abs. 1 Satz 2 EStG die Einbeziehung für die konkreten Einkünfte aus dem EU/EWR-Staat ausschließt.",
+      "Berechne den Durchschnittssteuersatz aus dem erweiterten oder verminderten Einkommen; außerordentliche Einkünfte fließen nur zu einem Fünftel ein.",
+      "Wende diesen Satz sodann nur auf das in Deutschland steuerpflichtige Einkommen an."
+    ],
+    "fehler": [
+      "Werbungskosten für die Auslandstätigkeit bei den inländischen Einkünften abziehen.",
+      "Verluste aus einer vermieteten Immobilie in einem EU-Staat in den negativen Progressionsvorbehalt einbeziehen."
+    ],
+    "merksatz": "Freigestellt heißt nicht wirkungslos: Die Auslandseinkünfte bestimmen über § 32b EStG den Steuersatz auf das übrige Einkommen mit."
+  },
+  {
+    "quelle": "istr-gh-4-44",
+    "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
+    "einordnung": ["Ohne DBA oder bei abkommensrechtlicher Anrechnungsmethode wird ausländische Steuer nach § 34c EStG auf die deutsche Einkommensteuer angerechnet. Punkte bringen die Voraussetzungen und die länderbezogene Höchstbetragsberechnung."],
+    "lernziele": [
+      "Du kannst die Voraussetzungen nennen: unbeschränkte Steuerpflicht, ausländische Einkünfte nach § 34d EStG, Besteuerung im Herkunftsstaat und eine Steuer, die der deutschen Einkommensteuer vergleichbar ist.",
+      "Du weißt, dass nur Steuer angerechnet wird, die festgesetzt und bezahlt ist und keinem Erstattungsanspruch mehr unterliegt.",
+      "Du kannst den Höchstbetrag berechnen: durchschnittlicher deutscher Steuersatz mal ausländische Einkünfte, gesondert für jeden Staat.",
+      "Du weißt, dass die Anrechnung ohne deutsche Steuer ins Leere geht und der Katalog des § 34d EStG abschließend ist."
+    ],
+    "pruefschritte": [
+      "Prüfe die unbeschränkte Steuerpflicht oder den Ausnahmefall des § 50 Abs. 3 EStG für Gewinneinkünfte beschränkt Steuerpflichtiger.",
+      "Ordne die Einkünfte einem Tatbestand des § 34d EStG zu; Kapitalerträge unter § 32d EStG laufen über § 32d Abs. 5 EStG.",
+      "Prüfe, ob die Steuer im Herkunftsstaat der Einkünfte erhoben wurde und der deutschen Einkommensteuer entspricht.",
+      "Ermittle die anrechenbare Steuer nach Abzug von Erstattungs- oder Ermäßigungsansprüchen, etwa nach einem DBA.",
+      "Berechne je Staat den Höchstbetrag und rechne den niedrigeren Betrag auf die deutsche Einkommensteuer an."
+    ],
+    "fehler": [
+      "Steuern eines Drittstaats anrechnen, obwohl die Einkünfte aus einem anderen Staat stammen.",
+      "Den Höchstbetrag für alle Auslandseinkünfte zusammen statt je Staat berechnen."
+    ],
+    "merksatz": "Angerechnet wird höchstens, was an deutscher Steuer auf die Einkünfte aus genau diesem Staat entfällt."
+  },
+  {
+    "quelle": "istr-gh-4-45",
+    "titel": "Abzug statt Anrechnung: Wann lohnt § 34c Abs. 2 EStG?",
+    "einordnung": ["Statt die Auslandssteuer anzurechnen, kann sie nach § 34c Abs. 2 EStG bei der Ermittlung der Einkünfte abgezogen werden. § 34c Abs. 3 EStG schreibt den Abzug vor, wenn die Voraussetzungen der Anrechnung fehlen."],
+    "lernziele": [
+      "Du weißt, dass der Abzug nach § 34c Abs. 2 EStG ein Antragswahlrecht ist, das die Voraussetzungen der Anrechnung voraussetzt.",
+      "Du erkennst, dass der Abzug vor allem bei Verlusten sinnvoll ist, weil er den Verlustvortrag erhöht, während die Anrechnung ohne deutsche Steuer verpufft.",
+      "Du weißt, dass bei teilweise steuerfreien Einkünften, etwa im Teileinkünfteverfahren, auch nur der entsprechende Teil der Auslandssteuer abziehbar ist.",
+      "Du kennst den Pflichtabzug nach § 34c Abs. 3 EStG für Steuern, die nicht der Einkommensteuer entsprechen, aus einem anderen Staat stammen oder Einkünfte außerhalb des § 34d EStG betreffen."
+    ],
+    "pruefschritte": [
+      "Prüfe zuerst die Voraussetzungen des § 34c Abs. 1 EStG; fehlen sie, ist § 34c Abs. 3 EStG einschlägig.",
+      "Vergleiche bei erfüllten Voraussetzungen die Wirkung von Anrechnung und Abzug, insbesondere bei negativem Gesamtbetrag der Einkünfte.",
+      "Kürze die abziehbare Steuer anteilig, soweit die zugehörigen Einkünfte steuerfrei sind.",
+      "Schließe den Abzug für Kapitalerträge mit gesondertem Steuertarif aus; dort gilt allein § 32d Abs. 5 EStG."
+    ],
+    "fehler": [
+      "Für Kapitalerträge unter der Abgeltungsteuer den Abzug wählen, obwohl dort nur angerechnet werden kann.",
+      "Bei Dividenden im Betriebsvermögen die volle Auslandssteuer abziehen statt nur 60 %."
+    ],
+    "merksatz": "Anrechnung wirkt auf die Steuer, Abzug auf die Einkünfte – bei Verlusten ist der Abzug oft die einzige Entlastung."
+  },
+  {
+    "quelle": "istr-gh-5-05",
+    "titel": "Wegzug mit GmbH-Anteilen: Was löst § 6 AStG aus?",
+    "einordnung": ["Zieht ein Anteilseigner ins Ausland, verliert Deutschland nach DBA meist das Recht, spätere Veräußerungsgewinne zu besteuern. § 6 AStG fingiert deshalb beim Wegzug eine Veräußerung und besteuert die bis dahin entstandenen stillen Reserven."],
+    "lernziele": [
+      "Du kennst die Voraussetzungen: natürliche Person, mindestens sieben Jahre unbeschränkte Steuerpflicht innerhalb der letzten zwölf Jahre, Anteile im Sinne des § 17 EStG und Ende der unbeschränkten Steuerpflicht.",
+      "Du weißt, dass Ersatztatbestände die unentgeltliche Übertragung auf nicht unbeschränkt Steuerpflichtige und jede sonstige Beschränkung des deutschen Besteuerungsrechts erfassen.",
+      "Du kannst die Rechtsfolge anwenden: Gewinn wie bei § 17 EStG mit dem gemeinen Wert als Preis, im Teileinkünfteverfahren und ohne Realisierung von Verlusten.",
+      "Du kennst die Entlastungen: Wegfall der Steuer bei Rückkehr innerhalb von sieben Jahren (verlängerbar) und auf Antrag Zahlung in Jahresraten nach § 6 Abs. 4 AStG."
+    ],
+    "pruefschritte": [
+      "Prüfe, ob die Person in den letzten zwölf Jahren insgesamt mindestens sieben Jahre unbeschränkt steuerpflichtig war.",
+      "Stelle fest, ob in den letzten fünf Jahren eine Beteiligung von mindestens 1 % im Sinne des § 17 EStG bestand, gleich ob an in- oder ausländischer Gesellschaft.",
+      "Bestimme den Auslöser: Wohnsitzaufgabe, unentgeltliche Übertragung ins Ausland oder sonstiger Verlust bzw. Beschränkung des Besteuerungsrechts.",
+      "Setze den gemeinen Wert als fiktiven Veräußerungspreis an und wende § 3 Nr. 40 Buchst. c und § 3c Abs. 2 EStG an.",
+      "Prüfe Rückkehr und Ratenzahlung sowie bei späterer Veräußerung den gemeinen Wert als maßgebliche Anschaffungskosten."
+    ],
+    "fehler": [
+      "Nach dem Zielstaat unterscheiden, obwohl § 6 AStG unabhängig davon gilt, ob in ein Niedrigsteuerland, einen DBA- oder einen Nicht-DBA-Staat verzogen wird.",
+      "Anteile im inländischen Betriebsvermögen einbeziehen, obwohl hier die betrieblichen Entstrickungsregeln gelten.",
+      "Aus einem fiktiven Verlust eine Steuerminderung ableiten."
+    ],
+    "merksatz": "Wer mit wesentlichen Anteilen Deutschland verlässt, versteuert die stillen Reserven so, als hätte er am Tag des Wegzugs zum gemeinen Wert verkauft."
+  },
+  {
+    "quelle": "istr-gh-6-02",
+    "titel": "Wann greift die Hinzurechnungsbesteuerung nach §§ 7 ff. AStG?",
+    "einordnung": ["Mit einer niedrig besteuerten ausländischen Gesellschaft lassen sich Gewinne vom Inland abschirmen. Die Hinzurechnungsbesteuerung durchbricht diese Abschirmung und erfasst passive Einkünfte unmittelbar beim inländischen Gesellschafter."],
+    "lernziele": [
+      "Du weißt, dass seit 2022 eine Beherrschung vorliegen muss: Ein unbeschränkt Steuerpflichtiger hält, gegebenenfalls zusammen mit ihm nahestehenden Personen, mehr als die Hälfte der Beteiligung.",
+      "Du verstehst die Technik des § 8 Abs. 1 AStG: Aktive Einkünfte sind abschließend aufgezählt, alles andere ist passiv.",
+      "Du kennst die Grenze der Niedrigbesteuerung nach § 8 Abs. 5 AStG: eine Ertragsteuerbelastung von weniger als 15 % (bis 2023: 25 %).",
+      "Du weißt, dass auf den Hinzurechnungsbetrag weder Teileinkünfteverfahren noch Abgeltungsteuer noch § 8b KStG angewendet werden."
+    ],
+    "pruefschritte": [
+      "Prüfe vorrangig, ob die Auslandsgesellschaft wegen Gestaltungsmissbrauchs nach § 42 AO steuerlich gar nicht anzuerkennen ist.",
+      "Stelle fest, ob eine Körperschaft ohne Sitz und Geschäftsleitung im Inland vorliegt, die ein Inländer beherrscht.",
+      "Ordne die Einkünfte anhand des Aktivkatalogs zu und prüfe für die passiven Einkünfte eine Belastung unter 15 %.",
+      "Prüfe bei Sitz oder Geschäftsleitung in der EU oder im EWR den Nachweis einer tatsächlichen wirtschaftlichen Tätigkeit nach § 8 Abs. 2 AStG.",
+      "Ermittle den Hinzurechnungsbetrag, erfasse ihn beim Gesellschafter und rechne die ausländischen Steuern nach § 12 AStG an."
+    ],
+    "fehler": [
+      "Noch mit der früheren Inländermehrheit prüfen statt mit der Beherrschung durch einen Inländer samt nahestehenden Personen.",
+      "Auf den Hinzurechnungsbetrag § 8b KStG oder das Teileinkünfteverfahren anwenden."
+    ],
+    "merksatz": "Beherrscht, passiv, niedrig besteuert: Dann rechnet das AStG die Auslandsgewinne dem Inländer zu, auch ohne Ausschüttung."
+  },
+  {
+    "quelle": "istr-gh-5-01",
+    "titel": "Drittstaatenverluste: Warum § 2a EStG den Ausgleich sperrt",
+    "einordnung": ["Unbeschränkt Steuerpflichtige könnten Auslandsverluste grundsätzlich mit inländischen Gewinnen verrechnen. § 2a EStG begrenzt das für bestimmte Verluste aus Staaten außerhalb von EU und EWR, um Steuersparmodelle zu verhindern."],
+    "lernziele": [
+      "Du weißt, dass § 2a Abs. 1 EStG seit der Neufassung nur noch Drittstaaten erfasst, also Staaten außerhalb von EU und EWR.",
+      "Du kennst wichtige Tatbestände: land- und forstwirtschaftliche Betriebsstätten, passive gewerbliche Betriebsstätten, Anteilsverluste bei passiven Gesellschaften, stille Beteiligungen und Vermietung im Drittstaat.",
+      "Du verstehst die Rechtsfolge: Die Verluste lassen sich nur mit Gewinnen gleicher Art aus dem gleichen Staat ausgleichen, auch in späteren Jahren.",
+      "Du kennst die Aktivitätsklausel des § 2a Abs. 2 EStG, die gewerbliche Betriebsstätten mit ausschließlich oder fast ausschließlich aktiver Tätigkeit ausnimmt."
+    ],
+    "pruefschritte": [
+      "Stelle fest, ob die negativen Einkünfte aus einem Drittstaat stammen; bei Beteiligungen entscheiden Sitz und Geschäftsleitung der Gesellschaft.",
+      "Ordne den Verlust einem Tatbestand des § 2a Abs. 1 Satz 1 EStG zu.",
+      "Prüfe bei gewerblichen Betriebsstätten und Beteiligungen die Ausnahme für aktive Tätigkeiten nach § 2a Abs. 2 EStG.",
+      "Verrechne den Verlust ausschließlich mit Gewinnen gleicher Art aus dem gleichen Staat und stelle den Rest gesondert fest.",
+      "Bedenke bei DBA-Freistellung, dass § 2a EStG auch den negativen Progressionsvorbehalt sperrt."
+    ],
+    "fehler": [
+      "§ 2a EStG auf Verluste aus einer Betriebsstätte in einem EU-Staat anwenden.",
+      "Einen Drittstaatenverlust mit positiven Einkünften einer anderen Art aus demselben Staat verrechnen."
+    ],
+    "merksatz": "Passive Verluste aus Drittstaaten bleiben im eigenen Topf: gleiche Art, gleicher Staat, sonst kein Ausgleich."
+  }
+]
