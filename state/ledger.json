@@ -5486,11 +5486,33 @@
       "thema": "bilanz-quiz-k3-17",
       "fach": "bilanz",
       "titel": "Fifo"
+    },
+    {
+      "datum": "2026-09-28",
+      "slot": "b1",
+      "medienId": "18079388588375906",
+      "veroeffentlicht": "2026-09-28T06:44:22.225Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": "ust-modul-ust-192",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 7,
-    "ust": 7,
+    "ust": 8,
     "kst": 7,
     "ao": 13,
     "bilanz": 17,
