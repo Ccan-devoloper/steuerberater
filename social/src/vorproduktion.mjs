@@ -26,6 +26,26 @@ export const VORPRODUKTION_LAYOUT = Object.freeze({
   farbenAusSchwesterkanalUebernehmen: false,
 });
 
+/* Drei Feed-Slots pro Tag decken immer K1, K2 und K3 ab. Die Reihenfolge
+   rotiert täglich um eine Stelle innerhalb des Zyklus K3 → K1 → K2, sodass
+   jede Klausur binnen drei Tagen jeden Slot (und damit auch das Reel in b3)
+   einmal belegt. Weil alle Folgen Ausschnitte desselben Zyklus sind, doppelt
+   sich an keiner Tagesgrenze die Klausurfarbe (… K2 | K1 …, … K3 | K2 …,
+   … K1 | K3 …). Anker: Der 29.09.2026 beginnt mit K3 und setzt so die
+   Feedfolge vom 28.09. (Ende K2) fort. */
+export const DREI_KLAUSUREN_FOLGEN = Object.freeze([
+  Object.freeze([3, 1, 2]),
+  Object.freeze([1, 2, 3]),
+  Object.freeze([2, 3, 1]),
+]);
+const DREI_KLAUSUREN_ANKER = Date.UTC(2026, 8, 29);
+
+export function dreiKlausurenFolge(datum) {
+  const tag = Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10));
+  const versatz = Math.round((tag - DREI_KLAUSUREN_ANKER) / 86400000);
+  return [...DREI_KLAUSUREN_FOLGEN[((versatz % 3) + 3) % 3]];
+}
+
 export function quizFrageSichtbar(frage, themaTitel = "") {
   const sauber = (wert) => String(wert || "").replace(/\s+/g, " ").trim();
   const roh = sauber(frage || themaTitel);
@@ -233,13 +253,17 @@ export function examenscampusRegelnPruefen(tag) {
   if (!tag?.plan || !tag?.inhalte) throw new Error("Vorproduktion: Plan oder Inhalte fehlen.");
 
   /* Die Monats-Vorproduktion nutzt drei Feed-Slots. Sobald ein Review-Tag
-     dieses Schema verwendet, sind K3 → K1 → K2 sowie genau zwei Karussells
-     und ein Reel verbindlich. Ältere Zwei-Feed-Reviewtage bleiben gültig. */
+     dieses Schema verwendet, sind K1, K2 und K3 in einer Rotation des Zyklus
+     K3 → K1 → K2 sowie genau zwei Karussells und ein Reel verbindlich.
+     Ältere Zwei-Feed-Reviewtage bleiben gültig. */
   const feed = tag.plan.beitraege || [];
   if (feed.length === 3) {
-    const klausurfolge = feed.map((b) => Number(b.klausur));
-    if (klausurfolge.join(",") !== "3,1,2") {
-      throw new Error(tag.datum + ": Drei-Feed-Vorproduktion verlangt die Klausurfolge K3 → K1 → K2.");
+    const klausurfolge = feed.map((b) => Number(b.klausur)).join(",");
+    if (!DREI_KLAUSUREN_FOLGEN.some((f) => f.join(",") === klausurfolge)) {
+      throw new Error(
+        tag.datum + ": Drei-Feed-Vorproduktion verlangt je einen Beitrag aus K1, K2 und K3 "
+        + "in einer Rotation der Klausurfolge K3 → K1 → K2."
+      );
     }
     const reels = feed.filter((b) => b.format === "reel");
     if (reels.length !== 1) {

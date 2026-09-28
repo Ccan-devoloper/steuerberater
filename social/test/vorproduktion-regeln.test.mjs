@@ -8,7 +8,7 @@ import { folieHtml, storyHtml, coverHtml, titelZeilen, MASSE } from "../src/vorl
 import { kontext } from "../src/render.mjs";
 import { teaserAusBeitrag } from "../src/autor.mjs";
 import { coverDaten } from "../src/reel.mjs";
-import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen, passendesCoverIcon, coverIconEinsetzen, quizFrageSichtbar } from "../src/vorproduktion.mjs";
+import { VORPRODUKTION_LAYOUT, layoutVertrag, examenscampusRegelnPruefen, passendesCoverIcon, coverIconEinsetzen, quizFrageSichtbar, dreiKlausurenFolge } from "../src/vorproduktion.mjs";
 
 test("Vorproduktion behält die Examenscampus-Klausurzuordnung", () => {
   for (const fach of ["ao", "ust", "erbst"]) {
@@ -130,8 +130,41 @@ function dreiFeedTag() {
   };
 }
 
-test("Drei-Feed-Vorproduktion erzwingt K3 → K1 → K2, zwei Karussells und ein Reel", () => {
+test("Drei-Feed-Vorproduktion rotiert die Klausurfolge täglich ohne Farbduplikat", () => {
+  const tage = Array.from({ length: 12 }, (_, i) => {
+    const d = new Date(Date.UTC(2026, 8, 29 + i));
+    return d.toISOString().slice(0, 10);
+  });
+  const folgen = tage.map(dreiKlausurenFolge);
+  assert.deepEqual(folgen.slice(0, 3), [[3, 1, 2], [1, 2, 3], [2, 3, 1]]);
+  // Der 28.09. endete mit K2; der erste Drei-Feed-Tag setzt ohne K2 fort.
+  assert.notEqual(folgen[0][0], 2);
+  for (const [i, folge] of folgen.entries()) {
+    assert.deepEqual([...folge].sort(), [1, 2, 3], tage[i] + ": K1, K2 und K3 je einmal");
+    if (i > 0) assert.notEqual(folgen[i - 1].at(-1), folge[0], tage[i] + ": Farbduplikat an der Tagesgrenze");
+  }
+  // Binnen drei Tagen belegt jede Klausur jeden Slot, also auch b3.
+  for (const slot of [0, 1, 2]) {
+    assert.deepEqual(folgen.slice(0, 3).map((f) => f[slot]).sort(), [1, 2, 3], "Slot b" + (slot + 1));
+  }
+  // Datumsrechnung auch vor dem Anker und über Monatsgrenzen stabil.
+  assert.deepEqual(dreiKlausurenFolge("2026-09-28"), [2, 3, 1]);
+  assert.deepEqual(dreiKlausurenFolge("2026-11-01"), dreiKlausurenFolge("2026-10-29"));
+});
+
+test("Drei-Feed-Vorproduktion erzwingt eine K3 → K1 → K2-Rotation, zwei Karussells und ein Reel", () => {
   assert.equal(examenscampusRegelnPruefen(dreiFeedTag()), true);
+
+  for (const folge of [[1, 2, 3], [2, 3, 1]]) {
+    const rotiert = structuredClone(dreiFeedTag());
+    rotiert.plan.beitraege.forEach((b, i) => { b.klausur = folge[i]; });
+    const faecher = { 1: "ao", 2: "kst", 3: "bilanz" };
+    for (const [i, slot] of ["b1", "b2", "b3"].entries()) {
+      rotiert.plan.beitraege[i].fach = faecher[folge[i]];
+      Object.assign(rotiert.inhalte[slot], { klausur: folge[i], fach: faecher[folge[i]] });
+    }
+    assert.equal(examenscampusRegelnPruefen(rotiert), true, folge.join(","));
+  }
 
   const falscheFolge = structuredClone(dreiFeedTag());
   [falscheFolge.plan.beitraege[0], falscheFolge.plan.beitraege[1]] =
