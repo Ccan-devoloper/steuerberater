@@ -41,7 +41,7 @@ import ust6 from "../../src/data/module-vertiefung-s.js";
 import ust7 from "../../src/data/module-vertiefung-t.js";
 import ust8 from "../../src/data/module-vertiefung-u.js";
 import { prioritaetFuer } from "../../src/data/examensprioritaet.js";
-import { aufbereiteteThemen } from "./skripte.mjs";
+import { aufbereiteteThemen, KURS_TITEL } from "./skripte.mjs";
 
 export const FAECHER = {
   /* Kein Prüfungsfach, sondern alles rund um Kopf und Vorbereitung: Mindset,
@@ -279,6 +279,11 @@ function faecherAusUst(m) {
   return istModul(m) ? m : null;
 }
 
+/* Titel, die nach Kursorganisation statt nach Fachstoff klingen, kommen
+   nicht in den Pool (KURS_TITEL steht in skripte.mjs, damit auch
+   aufbereitungBefunde sie schon beim Schreiben meldet). */
+export { KURS_TITEL };
+
 export function themenpool() {
   const pool = [];
 
@@ -321,7 +326,7 @@ export function themenpool() {
   for (const t of pool) neutralisiereDozentenstruktur(t);
   /* Themen ohne Substanz aussortieren (z. B. reine Arbeitsmittel-Einführungen). */
   return pool.filter((t) => {
-    if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !/Arbeitsmittel|Kurslogik|Lernlogik|Einführung|Überblick|Recap|Einheit\s*\d|Seitenplan|Fahrtroute|Handbuch|Reiter|Markierung|Lineal|Farbcode|Navigation|Beck-Text|Gesetzessammlung/i.test(t.titel) && t.titel.length > 8;
+    if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !KURS_TITEL.test(t.titel) && t.titel.length > 8;
     return true;
   });
 }

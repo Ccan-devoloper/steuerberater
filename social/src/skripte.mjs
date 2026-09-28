@@ -70,6 +70,9 @@ export const SKRIPT_QUELLEN = Object.freeze({
   umwst: [umwstKurzskript, umwstrSkript],
 });
 
+/* Titel, die nach Kursorganisation statt nach Fachstoff klingen. */
+export const KURS_TITEL = /Arbeitsmittel|Kurslogik|Lernlogik|Einführung|Überblick|Recap|Einheit\s*\d|Seitenplan|Fahrtroute|Handbuch|Reiter|Markierung|Lineal|Farbcode|Navigation|Beck-Text|Gesetzessammlung/i;
+
 /* examensprioritaet.js führt das Umwandlungssteuerrecht als „umwstg“. */
 const PRIORITAET_FACH = { umwst: "umwstg" };
 
@@ -109,6 +112,7 @@ export function aufbereitungBefunde(e) {
   if (!quelle) fehler.push(`Quellabschnitt „${e.quelle}“ unbekannt`);
   else if (quelle.fach !== e.fach) fehler.push(`Quellabschnitt „${e.quelle}“ gehört zu ${quelle.fach}, nicht zu ${e.fach}`);
   if (!String(e.titel || "").trim() || String(e.titel).length > 90) fehler.push("Titel fehlt oder ist länger als 90 Zeichen");
+  if (KURS_TITEL.test(String(e.titel || ""))) fehler.push(`Titel klingt nach Kursorganisation (${String(e.titel).match(KURS_TITEL)[0]}); fachlich formulieren`);
   const schritte = saetze(e.pruefschritte, 6);
   if (schritte.length < 2) fehler.push("mindestens zwei Prüfschritte");
   if (schritte.some((s) => s.length < 22)) fehler.push("Prüfschritte brauchen je mindestens 22 Zeichen");

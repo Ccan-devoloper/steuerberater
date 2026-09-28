@@ -18,6 +18,7 @@ import { pruefeBeitrag } from "../src/pruefung.mjs";
 import { tagesplan, FORMAT_QUELLEN, faecherInRotation } from "../src/planer.mjs";
 import { themenpool, fachInfo, KLAUSUREN, FEED_KATEGORIEN } from "../src/inhalte.mjs";
 import {
+  QUELLENSPRACHE,
   dreiKlausurenFolge,
   examenscampusRegelnPruefen,
   fachMeta,
@@ -848,7 +849,7 @@ for (const datum of dates) {
             ? reel(datum, b.slot, t)
             : carousel(datum, b.slot, b.format, t);
           return pruefeBeitrag(entwurf).ok
-            && !/Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs/i.test(JSON.stringify(entwurf))
+            && !QUELLENSPRACHE.test(JSON.stringify(entwurf))
             && (b.format !== "reel" || !JSON.stringify(entwurf.szenen).includes("…"));
         };
         // Reels nehmen zuerst Themen, die als Karussell ohnehin nicht taugen –
@@ -922,6 +923,8 @@ for (const datum of dates) {
         seed: "story-" + s.slot,
         filter: (t) => {
           const vorschau = story(datum, { ...s }, t, new Set());
+          // Dieselbe Kurssprachen-Sperre wie examenscampusRegelnPruefen.
+          if (QUELLENSPRACHE.test(JSON.stringify(vorschau))) return false;
           const text = String(vorschau.text || "").trim();
           if (s.art === "begriff" && (!kern(t).definition || text === t.titel)) return false;
           if (s.art === "formel" && (!kern(t).ausdruck || vorschau.formel === vorschau.titel)) return false;
@@ -1082,7 +1085,7 @@ if (dreiKlausuren) {
       }
       const erlaubt = (t) => {
         const v = story(datum, { ...s }, t, new Set());
-        if (/Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs/i.test(JSON.stringify(v))) return false;
+        if (QUELLENSPRACHE.test(JSON.stringify(v))) return false;
         if (s.art === "begriff" && (!kern(t).definition || v.text === t.titel)) return false;
         if (s.art === "formel" && (!kern(t).ausdruck || v.formel === v.titel)) return false;
         if (s.art === "fehler" && (!v.falsch || !v.richtigText)) return false;

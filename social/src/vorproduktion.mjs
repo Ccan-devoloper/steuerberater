@@ -180,7 +180,7 @@ function sichtbareKategorie(planEintrag, inhalt) {
   });
 }
 
-const QUELLENSPRACHE = /\b(?:Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs)\b/i;
+export const QUELLENSPRACHE = /\b(?:Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs)\b/i;
 const GENERISCHE_ZAHL = /Diese Punkte tragen die sichtbare Prüfungsstruktur/i;
 
 function publikationsregelnPruefen(inhalt, label) {
