@@ -5169,8 +5169,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-28T07:43:47.457Z",
-      "insightsAlterStunden": 26
+      "insightsStand": "2026-09-28T15:44:26.166Z",
+      "insightsAlterStunden": 34
     },
     {
       "datum": "2026-09-27",
@@ -5633,19 +5633,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 16,
+        "reach": 19,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 27,
-        "ig_reels_avg_watch_time": 10131,
-        "ig_reels_video_view_total_time": 182365,
-        "reels_skip_rate": 68.8
+        "views": 33,
+        "ig_reels_avg_watch_time": 12622,
+        "ig_reels_video_view_total_time": 265072,
+        "reels_skip_rate": 63.2
       },
-      "insightsStand": "2026-09-28T13:44:15.547Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-09-28T15:44:26.166Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-28",

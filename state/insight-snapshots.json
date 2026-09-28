@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-28T14:46:24.147Z",
+  "stand": "2026-09-28T15:44:27.912Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6011,6 +6011,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-28T15:44:26.166Z",
+          "alterStunden": 34,
+          "reach": 25,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -6457,6 +6469,20 @@
           "ig_reels_avg_watch_time": 10131,
           "ig_reels_video_view_total_time": 182365,
           "reels_skip_rate": 68.8
+        },
+        {
+          "stand": "2026-09-28T15:44:26.166Z",
+          "alterStunden": 5,
+          "reach": 19,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 33,
+          "ig_reels_avg_watch_time": 12622,
+          "ig_reels_video_view_total_time": 265072,
+          "reels_skip_rate": 63.2
         }
       ]
     },
@@ -6922,6 +6948,11 @@
     {
       "stand": "2026-09-28T14:46:24.147Z",
       "follower": 78,
+      "medien": 68
+    },
+    {
+      "stand": "2026-09-28T15:44:27.912Z",
+      "follower": 79,
       "medien": 68
     }
   ]
