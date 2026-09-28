@@ -5566,20 +5566,20 @@
       "fach": "ust",
       "titel": "Innergemeinschaftlicher Erwerb: § 1a und § 3d",
       "insights": {
-        "reach": 6,
-        "views": 7,
+        "reach": 10,
+        "views": 11,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 5,
-        "navigation_tap_forward": 3,
-        "navigation_tap_exit": 2
+        "navigation": 8,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 6
       },
-      "insightsStand": "2026-09-28T08:44:00.283Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-28T12:44:04.422Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-28",
