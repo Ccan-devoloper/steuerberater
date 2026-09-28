@@ -5160,7 +5160,7 @@
         "#wochenrückblick"
       ],
       "insights": {
-        "reach": 22,
+        "reach": 25,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5169,8 +5169,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-27T23:23:56.169Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-09-28T07:43:47.457Z",
+      "insightsAlterStunden": 26
     },
     {
       "datum": "2026-09-27",
@@ -5539,7 +5539,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 9,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-28T07:43:47.457Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-28",

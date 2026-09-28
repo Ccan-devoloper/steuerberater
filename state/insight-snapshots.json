@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-28T06:44:37.107Z",
+  "stand": "2026-09-28T07:43:48.807Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -5859,6 +5859,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-28T07:43:47.457Z",
+          "alterStunden": 26,
+          "reach": 25,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -6010,6 +6022,30 @@
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 2,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18079388588375906": {
+      "art": "beitrag",
+      "datum": "2026-09-28",
+      "titel": "Innergemeinschaftlicher Erwerb: § 1a, § 3d, Erwerbsteuer und Vorsteuer",
+      "format": "klausurtechnik",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-28T06:44:22.225Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-28T07:43:47.457Z",
+          "alterStunden": 1,
+          "reach": 9,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -6353,6 +6389,11 @@
     {
       "stand": "2026-09-28T06:44:37.107Z",
       "follower": 76,
+      "medien": 67
+    },
+    {
+      "stand": "2026-09-28T07:43:48.807Z",
+      "follower": 78,
       "medien": 67
     }
   ]
