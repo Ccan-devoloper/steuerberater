@@ -32,7 +32,8 @@
       "zeit": "07:06",
       "art": "frage",
       "themaId": "bilanz-quiz-k3-17",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-28T05:44:00.433Z"
     },
     {
       "slot": "s4",
