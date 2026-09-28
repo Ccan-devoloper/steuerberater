@@ -5542,7 +5542,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 16,
+        "reach": 26,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5551,8 +5551,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-28T09:43:57.343Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-09-28T11:44:37.122Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-28",
@@ -5626,7 +5626,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 10,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 20,
+        "ig_reels_avg_watch_time": 11684,
+        "ig_reels_video_view_total_time": 116847,
+        "reels_skip_rate": 54.5
+      },
+      "insightsStand": "2026-09-28T11:44:37.122Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-28",
