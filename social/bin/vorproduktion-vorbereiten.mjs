@@ -15,7 +15,7 @@ import path from "node:path";
 import { Hosting } from "../src/hosting.mjs";
 import { CONFIG } from "../src/config.mjs";
 import { pruefeBeitrag } from "../src/pruefung.mjs";
-import { tagesplan, FORMAT_QUELLEN } from "../src/planer.mjs";
+import { tagesplan, FORMAT_QUELLEN, faecherInRotation } from "../src/planer.mjs";
 import { themenpool, fachInfo, KLAUSUREN, FEED_KATEGORIEN } from "../src/inhalte.mjs";
 import {
   dreiKlausurenFolge,
@@ -528,33 +528,12 @@ function karussellTauglich(k) {
   );
 }
 
-/* Innerhalb einer Klausur wechseln die Fächer reihum (K1: AO, ErbSt, USt;
-   K2: IStR, KSt; K3: Bilanz, PersG). Ohne diese Rotation entscheidet allein
-   das gelernte fachGewicht, und ein stark gewichtetes Fach (z. B. IStR vor
-   KSt) belegt den Slot so lange, bis sein Themenvorrat erschöpft ist.
-   Zuerst kommt das Fach, das am längsten nicht in dieser Beitragsart (Reel
-   bzw. Karussell) lief. Die getrennte Zählung verhindert, dass bei drei
-   Fächern und dreitägiger Slotrotation ein Fach dauerhaft am Reel klebt. */
-function faecherInRotation(klausur, istReel) {
-  const faecher = [...new Set(pool
+// Fachrotation je Klausur (siehe planer.mjs), getrennt nach Reel/Karussell.
+function faecherDerKlausur(klausur, istReel) {
+  const faecher = pool
     .filter((t) => Number(t.klausur) === Number(klausur) && fachInfo(t.fach))
-    .map((t) => t.fach))].sort();
-  const zuletztArt = new Map();
-  const zuletzt = new Map();
-  const anzahl = new Map();
-  const spaeter = (m, k, d) => { if (!m.has(k) || d > m.get(k)) m.set(k, d); };
-  for (const e of ledger.veroeffentlicht) {
-    if (e.art !== "beitrag" || !faecher.includes(e.fach)) continue;
-    spaeter(zuletzt, e.fach, e.datum);
-    if ((e.format === "reel") === istReel) spaeter(zuletztArt, e.fach, e.datum);
-    anzahl.set(e.fach, (anzahl.get(e.fach) || 0) + 1);
-  }
-  return faecher.sort((a, b) =>
-    (zuletztArt.get(a) || "").localeCompare(zuletztArt.get(b) || "")
-    || (zuletzt.get(a) || "").localeCompare(zuletzt.get(b) || "")
-    || (anzahl.get(a) || 0) - (anzahl.get(b) || 0)
-    || a.localeCompare(b)
-  );
+    .map((t) => t.fach);
+  return faecherInRotation(faecher, ledger.veroeffentlicht, istReel);
 }
 
 function story(datum, planStory, t, used) {
@@ -878,7 +857,7 @@ for (const datum of dates) {
         const filterStufen = b.format === "reel"
           ? [(t) => !karussellTauglich(kern(t)) && themaFilter(t), themaFilter]
           : [themaFilter];
-        const faecher = faecherInRotation(b.klausur, b.format === "reel");
+        const faecher = faecherDerKlausur(b.klausur, b.format === "reel");
         let fehler = null;
         b.thema = null;
         suche: for (const filter of filterStufen) {

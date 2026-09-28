@@ -9,6 +9,7 @@
 import { CONFIG } from "./config.mjs";
 import { fachInfo, KLAUSUREN, FEED_KATEGORIEN, feedKategorie } from "./inhalte.mjs";
 import { pruefeBeitrag, quizBefunde, paarSchluessel } from "./pruefung.mjs";
+import { DREI_KLAUSUREN_FOLGEN, dreiKlausurenFolge } from "./planer.mjs";
 
 export const VORPRODUKTION_LAYOUT = Object.freeze({
   feed: Object.freeze({ breite: 1080, hoehe: 1350, verhaeltnis: "4:5" }),
@@ -26,25 +27,9 @@ export const VORPRODUKTION_LAYOUT = Object.freeze({
   farbenAusSchwesterkanalUebernehmen: false,
 });
 
-/* Drei Feed-Slots pro Tag decken immer K1, K2 und K3 ab. Die Reihenfolge
-   rotiert täglich um eine Stelle innerhalb des Zyklus K3 → K1 → K2, sodass
-   jede Klausur binnen drei Tagen jeden Slot (und damit auch das Reel in b3)
-   einmal belegt. Weil alle Folgen Ausschnitte desselben Zyklus sind, doppelt
-   sich an keiner Tagesgrenze die Klausurfarbe (… K2 | K1 …, … K3 | K2 …,
-   … K1 | K3 …). Anker: Der 29.09.2026 beginnt mit K3 und setzt so die
-   Feedfolge vom 28.09. (Ende K2) fort. */
-export const DREI_KLAUSUREN_FOLGEN = Object.freeze([
-  Object.freeze([3, 1, 2]),
-  Object.freeze([1, 2, 3]),
-  Object.freeze([2, 3, 1]),
-]);
-const DREI_KLAUSUREN_ANKER = Date.UTC(2026, 8, 29);
-
-export function dreiKlausurenFolge(datum) {
-  const tag = Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10));
-  const versatz = Math.round((tag - DREI_KLAUSUREN_ANKER) / 86400000);
-  return [...DREI_KLAUSUREN_FOLGEN[((versatz % 3) + 3) % 3]];
-}
+/* Die Drei-Slot-Klausurfolge lebt im Planer, damit Live-Plan und
+   Vorproduktion dieselbe Rotation verwenden. */
+export { DREI_KLAUSUREN_FOLGEN, dreiKlausurenFolge };
 
 export function quizFrageSichtbar(frage, themaTitel = "") {
   const sauber = (wert) => String(wert || "").replace(/\s+/g, " ").trim();
