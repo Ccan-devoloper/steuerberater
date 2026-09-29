@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-29T13:44:26.323Z",
+  "stand": "2026-09-29T14:43:56.898Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6273,6 +6273,20 @@
           "ig_reels_avg_watch_time": 10898,
           "ig_reels_video_view_total_time": 588520,
           "reels_skip_rate": 58
+        },
+        {
+          "stand": "2026-09-29T14:43:54.605Z",
+          "alterStunden": 52,
+          "reach": 51,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 76,
+          "ig_reels_avg_watch_time": 11447,
+          "ig_reels_video_view_total_time": 686853,
+          "reels_skip_rate": 55.4
         }
       ]
     },
@@ -6642,6 +6656,18 @@
           "stand": "2026-09-29T05:45:35.275Z",
           "alterStunden": 23,
           "reach": 36,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-29T14:43:54.605Z",
+          "alterStunden": 32,
+          "reach": 41,
           "saved": 0,
           "shares": 0,
           "likes": 0,
@@ -7742,6 +7768,33 @@
           "navigation_tap_forward": 7
         }
       ]
+    },
+    "18110616155269907": {
+      "art": "story",
+      "datum": "2026-09-29",
+      "titel": "Tage bis zum Examen",
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T12:44:46.981Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T14:43:52.562Z",
+          "alterStunden": 2,
+          "reach": 9,
+          "views": 11,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_tap_forward": 6,
+          "navigation_tap_exit": 3
+        }
+      ]
     }
   },
   "konto": [
@@ -8202,6 +8255,11 @@
     },
     {
       "stand": "2026-09-29T13:44:26.323Z",
+      "follower": 85,
+      "medien": 70
+    },
+    {
+      "stand": "2026-09-29T14:43:56.898Z",
       "follower": 85,
       "medien": 70
     }

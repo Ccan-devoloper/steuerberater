@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 46,
+        "reach": 51,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 70,
-        "ig_reels_avg_watch_time": 10898,
-        "ig_reels_video_view_total_time": 588520,
-        "reels_skip_rate": 58
+        "views": 76,
+        "ig_reels_avg_watch_time": 11447,
+        "ig_reels_video_view_total_time": 686853,
+        "reels_skip_rate": 55.4
       },
-      "insightsStand": "2026-09-29T05:45:35.275Z",
-      "insightsAlterStunden": 43
+      "insightsStand": "2026-09-29T14:43:54.605Z",
+      "insightsAlterStunden": 52
     },
     {
       "datum": "2026-09-27",
@@ -5545,7 +5545,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 36,
+        "reach": 41,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5554,8 +5554,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T05:45:35.275Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-09-29T14:43:54.605Z",
+      "insightsAlterStunden": 32
     },
     {
       "datum": "2026-09-28",
@@ -6012,7 +6012,22 @@
       "storyArt": "countdown",
       "thema": null,
       "fach": null,
-      "titel": "Tage bis zum Examen"
+      "titel": "Tage bis zum Examen",
+      "insights": {
+        "reach": 9,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_tap_forward": 6,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-09-29T14:43:52.562Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
