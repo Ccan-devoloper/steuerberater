@@ -191,7 +191,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-04/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T02:47:41.771Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-05",
@@ -565,7 +571,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-23/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T02:49:07.683Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-24",
