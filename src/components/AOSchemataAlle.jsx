@@ -11,6 +11,7 @@ import AO5NeueTatsachenSchema from "./AO5NeueTatsachenSchema";
 import AOTortenstueckSchema from "./AOTortenstueckSchema";
 import AO3FestsetzungsfristBeginn from "./AO3FestsetzungsfristBeginn";
 import AO3AblaufhemmungenSchema from "./AO3AblaufhemmungenSchema";
+import EndrissFGOFahrtroute from "./EndrissFGOFahrtroute";
 import "./AOShortSkript2025Auto";
 
 export default function AOSchema({ id }) {
@@ -18,6 +19,8 @@ export default function AOSchema({ id }) {
   if (id === "ao3-ff-beginn") return <AO3FestsetzungsfristBeginn />;
   if (id === "ao3-ablaufhemmungen") return <AO3AblaufhemmungenSchema />;
   if (id === "ao5-173") return <AO5NeueTatsachenSchema />;
+  // Die ergänzende Handschrift belegt auch die zuvor abgeschnittenen Stationen 11/12.
+  if (id === "ao6-fgo-fahrtroute") return <EndrissFGOFahrtroute />;
   const Einheit8 = AO8_SCHEMATA[id];
   if (Einheit8) return <Einheit8 />;
   const Einheit7 = AO7_SCHEMATA[id];
