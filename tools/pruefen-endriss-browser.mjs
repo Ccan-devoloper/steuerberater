@@ -22,7 +22,9 @@ const report = {
   contentCompletenessCertification: false,
   checks: [],
 };
-const sourceIds = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1'];
+// New native sources must receive the same real-browser checks automatically.
+const sourceIds = endrissNativeQuellen.map(source => source.id);
+assert.ok(sourceIds.includes('persg-folien-2'), 'Verified second Horst source must remain registered');
 const browser = await chromium.launch({ headless: true });
 
 async function snapshot(page, name) {
@@ -116,6 +118,13 @@ try {
       assert.equal(await page.locator('button.endriss-quellenkarte[data-endriss-source="lst-mitschrift"]').count(), 1);
       await page.keyboard.press('Escape');
       await page.getByRole('button', { name: 'Unterlagen-Nachträge', exact: true }).waitFor({ state: 'visible' });
+      // EndrissRahmen restores focus in requestAnimationFrame after the trigger
+      // becomes visible. Await that observable outcome, not an arbitrary sleep.
+      // A genuinely missing focus restoration still fails after five seconds.
+      await page.waitForFunction(() => {
+        const trigger = document.querySelector('button.endriss-start');
+        return !!trigger && document.activeElement === trigger;
+      }, null, { timeout: 5000 });
       assert.equal(await page.getByRole('button', { name: 'Unterlagen-Nachträge', exact: true }).evaluate(el => el === document.activeElement), true);
       assert.deepEqual(errors, [], 'Uncaught JavaScript errors');
       report.checks.push({ id: 'search-and-keyboard-return', viewport: viewport.width, status: 'passed' });
