@@ -1,0 +1,57 @@
+name: Endriss Originalbestand und Quellenansicht
+on:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29]
+    paths:
+      - .github/workflows/endriss-publish-sources.yml
+      - tools/endriss/publish_sources.py
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: endriss-publish-sources
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/endriss-restbestaende-2026-09-29
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: pip install PyMuPDF==1.26.7 Pillow==12.3.0
+      - name: Recover previously prepared source pages
+        uses: actions/download-artifact@v4
+        with:
+          run-id: 36589072803
+          pattern: endriss-review-*
+          github-token: ${{ github.token }}
+          path: /tmp/endriss-prepared
+      - name: Publish checked page files and source inventory
+        run: python tools/endriss/publish_sources.py --input /tmp/endriss-prepared
+      - run: npm ci
+      - run: npm run build
+      - run: node tools/pruefen-endriss-nachtrag.mjs
+      - name: Preserve report even if the commit is rejected
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-publish-report
+          path: docs/endriss-originalbestand.json
+          retention-days: 7
+      - name: Commit generated page assets without overwriting concurrent edits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/endriss/quellen docs/endriss-originalbestand.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'feat: publish complete original-page inventory with separate transcription status'
+          git push origin HEAD:codex/endriss-restbestaende-2026-09-29
