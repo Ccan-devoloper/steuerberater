@@ -5748,22 +5748,22 @@
       "fach": "persg",
       "titel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?",
       "insights": {
-        "reach": 16,
-        "views": 23,
+        "reach": 22,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_back": 2,
+        "navigation": 31,
+        "navigation_tap_back": 4,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 14,
-        "navigation_tap_exit": 5
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-09-29T05:45:27.285Z",
-      "insightsAlterStunden": 14
+      "insightsStand": "2026-09-29T10:44:12.587Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-28",
@@ -5777,22 +5777,22 @@
       "fach": "ust",
       "titel": "Reverse Charge nach § 13b: Tatbestände, Steuerschuldner und Steuerentstehung",
       "insights": {
-        "reach": 16,
-        "views": 23,
+        "reach": 22,
+        "views": 32,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 20,
+        "navigation": 27,
         "navigation_swipe_forward": 1,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 9,
+        "navigation_tap_forward": 16,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-29T05:45:27.285Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-09-29T10:44:12.587Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-09-29",
@@ -5816,7 +5816,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 21,
+        "reach": 24,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5825,8 +5825,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T08:45:00.357Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-09-29T10:44:15.775Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-29",
@@ -5954,7 +5954,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ao",
-      "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?"
+      "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+      "insights": {
+        "reach": 8,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 5
+      },
+      "insightsStand": "2026-09-29T10:44:12.587Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-09-29",
