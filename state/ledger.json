@@ -5777,22 +5777,22 @@
       "fach": "ust",
       "titel": "Reverse Charge nach § 13b: Tatbestände, Steuerschuldner und Steuerentstehung",
       "insights": {
-        "reach": 22,
-        "views": 32,
+        "reach": 25,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 16,
-        "navigation_tap_back": 3
+        "navigation": 30,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 18,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-29T10:44:12.587Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-09-29T13:44:22.124Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-29",
@@ -5816,17 +5816,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 24,
+        "reach": 28,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-09-29T10:44:15.775Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-29T13:44:24.359Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-09-29",
@@ -5934,7 +5934,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 23,
+        "reach": 29,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5943,8 +5943,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T11:34:16.744Z",
-      "insightsAlterStunden": 2.8
+      "insightsStand": "2026-09-29T13:44:24.359Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-09-29",
