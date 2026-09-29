@@ -1,5 +1,7 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-29T20:46:37Z",
+  "timestampBasis": "Observation after reading successful .github/deploy-last.json, not an invented deployment completion timestamp.",
   "package": "fgo-fahrtroute-seite1",
   "sourceId": "ao-fgo",
   "driveId": "1g6C6ngjpPqb2vYjuwyTux3wVSpEC2cjj",
@@ -12,23 +14,52 @@
   "sourceComplete": false,
   "legalReview": false,
   "originalImagesChanged": false,
-  "lease": {
-    "owner": "interactive-fgo-page1-20260929",
-    "expiresAt": "2026-09-29T20:55:00Z",
-    "scope": "Endriss FGO source data, component, isolated FGO tests/workflow and this per-source checkpoint. Does not take over the Horst/native-register lease."
-  },
+  "lease": null,
   "implementation": {
-    "commit": "6002e5b16e12c4b88c9e8d6d7155930ee5bf16be",
-    "files": ["src/data/endriss-fgo-fahrtroute.js", "src/components/EndrissFGOFahrtroute.jsx", "src/components/AOSchemataAlle.jsx"],
+    "state": "page-1-merged-and-deployed; remaining-source-open",
+    "canonicalData": "src/data/endriss-fgo-fahrtroute.js",
+    "sourceAdapter": "src/data/endriss-fgo-arbeitsstand.js",
+    "files": ["src/data/endriss-fgo-fahrtroute.js", "src/data/endriss-fgo-arbeitsstand.js", "src/components/EndrissFGOFahrtroute.jsx", "src/components/AOSchemataAlle.jsx", "tools/pruefen-endriss-fgo.mjs", ".github/workflows/endriss-fgo.yml"],
     "uiEntry": "Klausur 1 → Abgabenordnung → Prüfschema → ao-schema-fgo; existing ao6-fgo-fahrtroute ID preserved for module/Norm links",
-    "content": "All 12 numbered source stations, including 64/65 FGO and 52d FGO, with source notes, 54 FGO → 222 ZPO → 187/188 BGB and 56 FGO comparison. No invented rule updates or solutions.",
-    "tests": "pending",
-    "merged": false,
-    "deployment": "pending"
+    "content": "All 12 numbered source stations, including 64/65 FGO and 52d FGO, with source notes, 54 FGO → 222 ZPO → 187/188 BGB, 56 FGO comparison and source-colour explanation. No rule updates or own solutions.",
+    "duplicateHandling": "Earlier first-page table draft is now generated from the same canonical station data used by the UI; no independently maintained duplicate transcript.",
+    "tests": {
+      "testedHead": "c0116445f71f700f816da6ea65ded6488b554894",
+      "endrissValidationRun": 36627754504,
+      "endrissValidationConclusion": "success",
+      "fgoRun": 36627754397,
+      "fgoJob": 109609001079,
+      "fgoConclusion": "success",
+      "pullRequestValidationRun": 36628120458,
+      "pullRequestValidationConclusion": "success",
+      "pullRequestFgoRun": 36628120495,
+      "pullRequestFgoConclusion": "success",
+      "checks": ["production build", "AO-Einheit-6 regression", "existing ESt/Mirbach/Native/Horst2 checks", "source identity and first-image SHA-256", "all twelve ordered stations and marginal notes", "actual React rendering", "real AO schema navigation in Chromium desktop 1280 and mobile 390", "component width containment", "no browser JavaScript errors"],
+      "artifact": "endriss-fgo-evidence",
+      "screenshotsVisuallyInspected": false,
+      "wholeSourceCompletenessCertified": false
+    },
+    "pullRequest": 258,
+    "merged": true,
+    "mergedAt": "2026-09-29T20:43:39Z",
+    "mergeCommit": "d32019df630fe070cddd0740ab222dd8720b5103",
+    "deployment": {
+      "status": "success",
+      "deployedCommit": "d32019df630fe070cddd0740ab222dd8720b5103",
+      "statusFile": ".github/deploy-last.json",
+      "statusFileReadBack": true,
+      "readBackAt": "2026-09-29T20:46:37Z",
+      "pageUrl": "https://ccan-devoloper.github.io/steuerberater/"
+    }
   },
   "remaining": {
     "pages": "2–37",
-    "nextWork": "Visually review the statutory-extract markings and record exact source-page/marked-passage mappings before declaring FGO complete. Pages 2–4 viewed for context only, not yet natively mapped."
+    "nextNativePage": 2,
+    "nextNotYetOpenedVisualPage": 5,
+    "nextWork": "Visually review the statutory-extract markings and record exact source-page/marked-passage mappings and native contents before declaring FGO complete. Pages 2–4 were viewed for context, not yet natively mapped. Do not redo the already deployed first-page route.",
+    "page2Observation": "Printed statute page 1/36, source amendment date 10.03.2023; pink X legend '(nur) für die Mündliche!'.",
+    "page3Observation": "Pink X at sections 5, 6, 10 and 11. Source-text contents still to be transferred/mapped.",
+    "page4Observation": "Continuation of section 11, followed by sections 12–18."
   },
-  "checklistEffect": "B2 stays OPEN/PARTIAL. This one-page fix must not be counted as a sixth completed group. The five completed groups after the Horst-2 deployment are A1, A6, A7, A8 and B4 out of twelve original A/B groups."
+  "checklistEffect": "B2 stays OPEN/PARTIAL. This page-1 release must not be counted as a sixth completed group. Five completed and deployed groups A1, A6, A7, A8 and B4 out of twelve original A/B groups = 41.6667 percent. This is not whole-campus, page-weighted or workload completion."
 }
