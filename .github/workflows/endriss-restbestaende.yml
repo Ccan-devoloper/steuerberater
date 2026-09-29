@@ -27,6 +27,8 @@ jobs:
           path: /tmp/endriss-source.zip
           retention-days: 7
       - run: npm ci
+      - name: Native registry and rendered source content
+        run: node tools/pruefen-endriss-native.mjs
       - name: Local validation dependencies
         run: tar -czf /tmp/endriss-node.tar.gz node_modules
       - uses: actions/upload-artifact@v4
@@ -36,7 +38,14 @@ jobs:
           retention-days: 1
       - run: npm run build
       - name: Source import checks
-        run: |
-          if test -f tools/pruefen-endriss-nachtrag.mjs; then
-            node tools/pruefen-endriss-nachtrag.mjs
-          fi
+        run: node tools/pruefen-endriss-nachtrag.mjs
+      - name: Preserve resume checkpoint
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-resume-checkpoint
+          path: |
+            docs/endriss-fortschritt.json
+            docs/endriss-fortsetzung.md
+          retention-days: 7
+          if-no-files-found: error
