@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T21:21:15Z",
+  "updatedAt": "2026-09-29T21:14:00Z",
   "package": "ao-notfallbuch",
   "sourceId": "ao-notfallbuch",
   "driveId": "1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy",
@@ -13,12 +13,6 @@
   "reviewedPages": [
     1
   ],
-  "nativeData": "src/data/endriss-ao-notfallbuch.js",
-  "nativeDataCommit": "85953f16ccba0b6686f09cefeb03d026189e610d",
-  "registrationCommit": "e6c0a16f2197e6d96393539e44caa716bf8ccc23",
-  "genericRegressionCommit": "392fe211af5a6a6ff79a42fa4fc7007c5afc47e3",
-  "dedicatedTestCommit": "8459b3b999c6601503f201ab53a9d5d400969bd6",
-  "workflowCommit": "8466b4f2e92e2764d76a7a6d3dc39c6a4ceed041",
   "mappedCampusTargets": [
     "ao-schema-handbuch",
     "ao-schema-vollstreckung",
@@ -29,56 +23,49 @@
     "ao-schema-74"
   ],
   "duplicateHandling": "Existing AO/FGO schemas remain canonical learning content; the source view records the Notfallbuch's readable markers and exact ordering instead of duplicating independent legal explanations.",
-  "originalImages": "Existing source manifest retained; images alone are not counted as native completion.",
-  "ui": "Native registry source with fach=ao; generic Endriss overview/document renderer and browser acceptance cover source card, native chapter, lazy original-page load and return navigation.",
+  "files": [
+    "src/data/endriss-ao-notfallbuch.js",
+    "src/data/endriss-native-register.js",
+    "tools/pruefen-endriss-native.mjs",
+    "tools/pruefen-endriss-notfallbuch.mjs",
+    ".github/workflows/endriss-restbestaende.yml"
+  ],
+  "testedWorkBranchHead": "8360470d985fa048bbae7cb2025a7f0932d8497c",
   "tests": {
-    "state": "passed",
     "initialFailure": {
       "run": 36631593534,
       "job": 109621909577,
       "cause": "Dedicated test used an over-escaped table regex and counted 0 instead of 3 rendered tables.",
-      "fixedBy": "8360470d985fa048bbae7cb2025a7f0932d8497c"
+      "fixed": true
     },
     "restbestaende": {
       "run": 36631728076,
       "conclusion": "success",
-      "testedHead": "8360470d985fa048bbae7cb2025a7f0932d8497c"
+      "checks": [
+        "source access probe",
+        "native registry/rendering",
+        "Horst2 regression",
+        "dedicated AO/FGO Notfallbuch mapping",
+        "production build",
+        "source import checks"
+      ]
     },
     "browser": {
       "run": 36631593569,
       "conclusion": "success",
-      "testedHead": "e3d66f82a578d64fedeaee126eea1da0b1261b7d"
-    },
-    "releaseContentIdentity": "All five implementation/test/workflow blobs on isolated release branch matched the tested work-branch blobs exactly.",
-    "pullRequestValidation": {
-      "run": 36632099357,
-      "websiteJob": "success",
-      "productionBuild": "success",
-      "note": "The independent social/bot job was not required for this source package at merge time; no website/package check was skipped."
-    },
-    "mainValidation": {
-      "run": 36632325134,
-      "statusFile": ".github/validation-last.json",
-      "validatedSha": "422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e",
-      "readBack": true
+      "checks": [
+        "production build/source checks",
+        "Chromium desktop/mobile navigation",
+        "native content",
+        "lazy original image load",
+        "viewport containment",
+        "return navigation"
+      ]
     }
   },
-  "merged": true,
-  "deployed": true,
-  "complete": true,
-  "blocker": null,
-  "next": "Treat B3 as completed-and-deployed. Do not recreate this source mapping. Continue the next non-conflicting open source group after checking current leases and the latest global/FGO checkpoints.",
-  "release": {
-    "pullRequest": 259,
-    "releaseBranch": "codex/endriss-notfallbuch-2026-09-29",
-    "mergeCommit": "422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e",
-    "mergedAt": "2026-09-29T21:17:55Z",
-    "deploymentRun": 36632325227,
-    "deploymentConclusion": "success",
-    "deployedCommit": "422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e",
-    "deploymentStatusFile": ".github/deploy-last.json",
-    "deploymentReadBack": true,
-    "pageUrl": "https://ccan-devoloper.github.io/steuerberater/"
-  },
-  "openScope": "No remaining work inside B3/ao-notfallbuch. Other Restgruppen remain separate, including leased FGO pages 2–37, KSt, ErbSt 4/5, Bilanz/PersG Fact Sheets, and notes/marking archives."
+  "isolation": "Release branch created fresh from main; active leased FGO pages 2–37 work from the shared branch is intentionally excluded.",
+  "merged": false,
+  "deployed": false,
+  "complete": false,
+  "next": "Open bounded pull request to main. Merge only after PR validation succeeds; then verify main SHA and GitHub Pages deployment readback before marking B3 complete."
 }
