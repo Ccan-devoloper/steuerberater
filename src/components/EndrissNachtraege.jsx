@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { Block } from './HausaufgabenBloecke';
+import Block from './EndrissQuellenBlock';
 import { combineEndrissSources, nativeFor } from '../data/endriss-native-register.js';
 
 const BASE = `${import.meta.env.BASE_URL}endriss/quellen/`;
@@ -72,12 +72,20 @@ export function EndrissDokument({ quelle, zurueck }) {
   const native = nativeFor(quelle.id);
   const sourcePages = sourcePageCount(quelle);
   const imagePages = imagePageCount(quelle);
+  const jumpToChapter = event => {
+    const chapter = document.getElementById(event.target.value);
+    if (!chapter) return;
+    chapter.open = true;
+    chapter.scrollIntoView({ block: 'start' });
+    chapter.querySelector('summary')?.focus({ preventScroll: true });
+  };
   return <article data-endriss-source={quelle.id}>
     <button type="button" onClick={zurueck}>← Zur Quellenübersicht</button>
     <header className="pagehead"><div><span className="kicker">{FAECHER[quelle.fach] || quelle.fach}</span><h1>{quelle.title}</h1><p>{sourcePages === null ? 'Quellenumfang siehe Originaldatei' : `${sourcePages} PDF-Seiten in der Quelle`} · {native.length} aufbereitete Textabschnitte{imagePages === null ? ' · Bildbestand nicht bestätigt' : ` · ${imagePages} Abbildungen im Quellenverzeichnis`}</p></div></header>
     <p className="endriss-quellenhinweis">Quellenstand unverändert übernommen. Keine Rechtsstandsprüfung. Eine Originalabbildung ist nicht automatisch eine vollständig transkribierte oder fachlich abgeglichene Lernseite.</p>
     <p><a href={`https://drive.google.com/file/d/${encodeURIComponent(quelle.driveId)}/view`} target="_blank" rel="noreferrer">Originalquelle in Google Drive öffnen</a></p>
-    {native.length > 0 ? <section aria-label="Übertragene Inhalte">{native.map(kapitel => <details className="panel endriss-kapitel" key={kapitel.id} open><summary>{kapitel.title}</summary><div><p className="endriss-quellenhinweis">Quellenseiten: {kapitel.pages.join(', ')}</p><div className="tags">{(kapitel.normen || []).map(norm => <span className="norm" key={norm}>{norm}</span>)}</div>{kapitel.bloecke.map((element,i) => <Block key={i} element={element} />)}</div></details>)}</section> : <p className="panel">Für diese Quelle ist noch keine native Textübernahme registriert. Ein gegebenenfalls vorhandener Bildbestand lässt sich unten öffnen; der Abgleich mit den Lernmodulen bleibt gesondert zu dokumentieren.</p>}
+    {native.length > 30 && <nav className="endriss-seitennavigation" aria-label="Textabschnitte"><label>Zu einem Textabschnitt springen<select aria-label="Zu einem Textabschnitt springen" defaultValue="" onChange={jumpToChapter} style={{ maxWidth: '100%' }}><option value="" disabled>Abschnitt auswählen</option>{native.map(chapter => <option key={chapter.id} value={chapter.id}>PDF-S. {chapter.pages.join(', ')} · {chapter.title}</option>)}</select></label></nav>}
+    {native.length > 0 ? <section aria-label="Übertragene Inhalte">{native.map(kapitel => <details className="panel endriss-kapitel" id={kapitel.id} key={kapitel.id} open><summary>{kapitel.title}</summary><div><p className="endriss-quellenhinweis">Quellenseiten: {kapitel.pages.join(', ')}</p><div className="tags">{(kapitel.normen || []).map(norm => <span className="norm" key={norm}>{norm}</span>)}</div>{kapitel.bloecke.map((element,i) => <Block key={i} element={element} />)}</div></details>)}</section> : <p className="panel">Für diese Quelle ist noch keine native Textübernahme registriert. Ein gegebenenfalls vorhandener Bildbestand lässt sich unten öffnen; der Abgleich mit den Lernmodulen bleibt gesondert zu dokumentieren.</p>}
     <OriginalQuellen key={quelle.id} quelle={quelle} />
   </article>;
 }
