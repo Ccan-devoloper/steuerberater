@@ -37,7 +37,8 @@
       "fach": "istr",
       "klausur": 2,
       "lang": false,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-29T17:01:55.408Z"
     }
   ],
   "stories": [
