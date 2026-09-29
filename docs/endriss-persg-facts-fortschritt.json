@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T21:38:00Z",
+  "sourceId": "persg-facts",
+  "sourceTitle": "B-S25-PersG-fact sheets-(Horst)-0425.pdf",
+  "driveId": "179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
+  "sourceBytes": 17436897,
+  "sourceSha256": "28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67",
+  "physicalPages": 24,
+  "legalReview": false,
+  "sourceComplete": false,
+  "lease": {
+    "owner": "interactive-persg-facts-20260929-2138",
+    "expiresAt": "2026-09-29T22:30:00Z",
+    "scope": "PersG Fact Sheets PDF pages 1-4; source data and dedicated test; explicit partial-source UI/registry coverage. Do not begin competing edits to the shared Endriss source view/register without rereading this checkpoint. Other source work remains independent."
+  },
+  "packagePages": [1, 2, 3, 4],
+  "visuallyReviewedPages": [1, 2],
+  "nativePages": [],
+  "implementation": "not yet committed; no native completion asserted",
+  "sourceAcquisition": "Original Drive raw download succeeded. Local PyMuPDF counted 24 pages and confirmed the exact source SHA-256. Only pages explicitly listed as reviewed were actually viewed; generating all renders is not a visual review.",
+  "next": "Visually read pages 3/4, compare existing PersG learning material, transcribe cover/index and sheets 1-6 including tables/schemas. Expose exactly pages 1-4 as a PARTIAL 24-page source, test rendering and browser navigation; pages 5-24 stay open.",
+  "merged": false,
+  "deployed": false
+}
