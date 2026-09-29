@@ -1,141 +1,121 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-09-29T20:08:20Z",
-  "timestampBasis": "Latest confirmed deployment completion; the checkpoint commit records its save time.",
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-29T20:20:43Z",
+  "timestampBasis": "Latest observed implementation commit; the checkpoint commit records its own save time.",
   "repository": "Ccan-devoloper/steuerberater",
   "workingBranch": "codex/endriss-restbestaende-2026-09-29",
-  "lastObservedWorkCommit": "12741a0b81a68eaf7f0df546777cd287deffbe06",
-  "lastObservedMainCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
+  "lastObservedWorkCommit": "224ce0431e114bc0a50b8a9e8eacb8266b0e333f",
+  "lastObservedMainCommit": "bc8e3a48bceee6e431328c77337b2a50e4388377",
   "legalReview": false,
   "complete": false,
   "completionPercentage": null,
   "inventory": "tools/endriss/quellen.tsv",
-  "scopeNote": "The inventory is the working list of formerly open sources, not a newly certified exhaustive inventory of both Drive trees. Full completion must include checking the source scope.",
+  "scopeNote": "Working list of formerly open sources, not a newly certified exhaustive inventory of both Drive trees. A whole-campus completion percentage is not established.",
+  "historicalCheckpoints": [
+    {"commit":"5a8a911a17552e5115ea248f515f79ac5a5cd18e", "path":"docs/endriss-fortschritt.json", "blobSha":"07c8398871b09fc48a1c7b11dee795bc88b3f7d3", "contents":"Immutable full detail of packages 1/2, their earlier failed and successful tests, source publisher, browser acceptance, PR validation, merge and deployment read-backs. Preserve and consult rather than erasing this evidence."}
+  ],
   "userDecision": {
-    "date": "2026-09-29",
-    "originalText": "originalbestand kann bleiben, dass wird separat überarbeiten, kannst daher mergen",
-    "effect": "Merge the tested second package INCLUDING the existing original-page inventory and images. Their separate revision is deferred and is not a blocker for this merge or further native content work.",
-    "implementedByPullRequest": 256,
-    "scope": "Existing original assets in this package; no claim of rights verification, legal review, native completeness, or permission to disclose unrelated new private material."
+    "date":"2026-09-29",
+    "originalText":"originalbestand kann bleiben, dass wird separat überarbeiten, kannst daher mergen",
+    "implementedByPullRequest":256,
+    "effect":"Keep the already included original-page inventory and images. Their separate revision is deferred and is not a blocker for native content work or the authorized partial merges.",
+    "scope":"Existing original assets; no permission to disclose unrelated new private material or access credentials."
   },
   "resume": {
-    "mechanism": "hourly-scheduled-chat-task",
-    "enabled": true,
-    "intervalMinutes": 60,
-    "immediateChatFailureTriggerAvailable": false,
-    "requested15MinuteChatIntervalSupported": false,
-    "lastObservedScheduledRun": null,
-    "nextSteps": [
-      "Read current refs and this checkpoint. PR 256 is already merged and successfully deployed at 72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd. Do not redo its UI wiring, recreate its PR, or redeploy the same package unnecessarily.",
-      "Deployment run 36623930257 finished successfully, including status commit. .github/deploy-last.json was read back with deployed_sha 72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd and status success. Both the build and deploy jobs passed.",
-      "The user expressly approved retaining the existing original inventory and deferring its separate revision. Do not turn that deferred work into a new blocker or delete/separate these assets without a later instruction.",
-      "Restore and commit a page-specific comparison for persg-folien-2 against persg-folien-1; prior chat claims were not committed. Retrieve sources or preserved evidence and verify before registering equivalence. Different prepared hashes alone prove neither semantic identity nor difference.",
-      "Complete native registration, tests and UI evidence for the next bounded source package, then proceed with AO/FGO, Fact Sheets, ErbSt 4/5, KSt mappings and remaining notes/archives. Preserve the exact last reviewed page and uncertain text. Do not substitute more metadata work for content implementation.",
-      "Preserve all concurrent changes, use current file SHAs, verify tests and PR head before future merges, and confirm each deployment. Existing images do not imply complete native transcription."
+    "mechanism":"hourly-scheduled-chat-task",
+    "enabled":true,
+    "intervalMinutes":60,
+    "immediateChatFailureTriggerAvailable":false,
+    "requested15MinuteChatIntervalSupported":false,
+    "lastObservedScheduledRun":null,
+    "nextSteps":[
+      "Read current refs and respect an unexpired lease before writing. PRs 255 and 256 are already merged/deployed; do not repeat their implementation or source publisher.",
+      "Horst Fassung 2 has now been visually reviewed again on all 16 actual pages and IS implemented in src/data/endriss-persg-horst-fassung2.js and the native register. Do not redo or lose this work. Its mapping is to existing native learning chapters, not a claim of byte-identical PDFs or new unique subject matter.",
+      "Check Browser-Abnahme run 36625594934 for a1d7fd838f66f0d8e0f4fe239178534a2c06937d and the latest Endriss Restbestaende successor. A source-bound mapping test was added after the browser commit; no runtime code changed after it. Confirm successful tests before merging package 3.",
+      "Complete an accurately described partial PR, check its exact head and relevant checks, merge and verify deployment. Keep the existing original assets per explicit user approval.",
+      "Next content: FGO (2).pdf, Drive 1g6C6ngjpPqb2vYjuwyTux3wVSpEC2cjj, actually contains 37 PDF pages, not a single sheet. Pages 1 and 2 were visually opened in this run: handwritten 12-step admissibility chain, then FGO statutory extract with a handwritten oral-exam mark. Next visual page: 3. The FGO source is NOT yet natively registered and is NOT complete.",
+      "Continue bounded AO/FGO, Fact Sheet, ErbSt 4/5, KSt source-to-existing-content and notes/archive work; do not substitute metadata or raw images for native completion. Preserve exact page progress and uncertainties."
     ],
-    "ifInterrupted": "Read the latest refs, this checkpoint and relevant files again; do not replay old full-file replacements over concurrent changes. Reclaim an expired lease only after checking running work."
+    "ifInterrupted":"Synchronize refs and read the latest checkpoint; do not replay old complete file replacements over concurrent changes. Reclaim expired leases only after checking actual ongoing work."
   },
-  "lease": null,
+  "lease": {
+    "owner":"interactive-horst2-20260929",
+    "package":"horst-fassung2",
+    "expiresAt":"2026-09-29T20:45:00Z",
+    "scope":"Native register, Horst-2 mapping/test, browser acceptance, package-3 PR and this checkpoint"
+  },
   "packages": [
     {
-      "id": "est-and-mirbach",
-      "state": "merged-and-deployed",
-      "pullRequest": 255,
-      "mergeCommit": "ea8b66630c19b864a77b1c606549b4132fe1dd30",
-      "deploymentRun": 36610480928,
-      "scope": "ESt printed pages 80-162 (83 pages; 35 new chapters and Gewerbe continuation), Mirbach solutions 9, 14 and 28 variant 2 (6 PDF pages).",
-      "remaining": "No assertion of a new exhaustive whole-campus source audit."
+      "id":"est-and-mirbach", "state":"merged-and-deployed", "pullRequest":255,
+      "mergeCommit":"ea8b66630c19b864a77b1c606549b4132fe1dd30", "deploymentRun":36610480928,
+      "scope":"ESt printed pages 80-162 (83 pages; 35 chapters plus Gewerbe continuation) and Mirbach solutions 9, 14, 28 variant 2 (6 pages)."
     },
     {
-      "id": "native-handwritten-and-horst-ui",
-      "state": "merged-and-deployed",
-      "nativeData": ["src/data/endriss-handschriften.js", "src/data/endriss-persg-horst-folien.js", "src/data/endriss-native-register.js"],
-      "sourceIds": ["istr-hinzurechnung", "lst-mitschrift", "lst-korrektur", "persg-folien-1"],
-      "scope": "IStR 4 pages; Lohnsteuer 24 pages plus 1 correction page; Horst Folien Fassung 1 has 16 physical PDF pages. Total 45 source pages, not a whole-campus completion measure.",
-      "uiIntegrationCommit": "83a34fde6a8fead24faf0f20982e9b3534c466a6",
-      "knownGapResolved": "EndrissNachtraege uses endriss-native-register. Native sources remain listed when the image inventory is missing, empty or partial. Source and published image counts are distinct; images load on explicit expansion only.",
-      "testFile": "tools/pruefen-endriss-native.mjs",
-      "validatedCommit": "60b23516bffb28d9588f4cd303ccb92ccebc56f1",
-      "validationRun": 36621102653,
-      "validationConclusion": "success",
-      "previousValidation": {"commit": "452de47e3215e80ef19e5dc45f78f62f572bd9a3", "run": 36618522788, "job": 109577764822, "conclusion": "success"},
-      "passedChecks": ["native source registration", "source page reference coverage", "recorded visual review page coverage", "unique chapter IDs", "table column shapes", "native inventory fallback", "actual React server rendering of overview and detail content", "production build", "existing ESt/Mirbach source import checks", "resume checkpoint artifact"],
-      "additionalBuildEvidence": {"commit": "7644d8cb1fbfde9807123fdb5ee1a0b291748d48", "run": 36620664115, "job": 109584926870, "step": "Production build and source checks", "conclusion": "success", "note": "This success excludes the later failing browser step."},
-      "browserAcceptance": {
-        "test": "tools/pruefen-endriss-browser.mjs",
-        "workflow": ".github/workflows/endriss-browser.yml",
-        "firstRun": 36620664115,
-        "firstJob": 109584926870,
-        "firstConclusion": "failure",
-        "failure": "getByLabel('Fach', { exact: true }) timeout",
-        "fixCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38",
-        "fix": "Explicit aria-label values on subject and page select elements",
-        "successfulRun": 36621003284,
-        "successfulJob": 109586091024,
-        "testedCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38",
-        "rerunConclusion": "success",
-        "screenshotsVisuallyInspected": false,
-        "headDifference": "Only docs/endriss-fortschritt.json changed between tested commit and PR head. No runtime code or image changes."
-      },
-      "pullRequestValidation": {"run": 36623661522, "conclusion": "success", "head": "60b23516bffb28d9588f4cd303ccb92ccebc56f1"},
-      "merged": true,
-      "pullRequest": 256,
-      "mergedAt": "2026-09-29T20:05:59Z",
-      "mergeCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
-      "mergeMethod": "merge",
-      "expectedHeadVerified": "60b23516bffb28d9588f4cd303ccb92ccebc56f1",
-      "mergeComparison": "GitHub's merge preview differs from the validated head only in .github/deploy-last.json and .github/validation-last.json, preserving main's existing status history.",
-      "originalAssetsIncluded": true,
-      "originalAssetRevision": "deferred-by-explicit-user-instruction",
-      "deployment": {
-        "run": 36623930257,
-        "buildJob": 109595959250,
-        "buildConclusion": "success",
-        "deployJob": 109596438568,
-        "deployJobConclusion": "success",
-        "deployJobCompletedAt": "2026-09-29T20:08:20Z",
-        "pagesStep": "actions/deploy-pages@v4",
-        "pagesStepConclusion": "success",
-        "pagesStepCompletedAt": "2026-09-29T20:07:42Z",
-        "pending": null,
-        "deployedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
-        "statusFile": ".github/deploy-last.json",
-        "statusFileReadBack": {"deployed_sha": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd", "status": "success", "page_url": "https://ccan-devoloper.github.io/steuerberater/", "blobSha": "471f4860d0e1a6823900973252e38d3db810ed8e"},
-        "liveBrowserVisitInThisMergeRun": false
-      },
-      "mainValidation": {"run": 36623930276, "statusFile": ".github/validation-last.json", "validatedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd", "recordedBuildAndContentChecks": "success", "wholeWorkflowConclusion": "not-separately-refetched"}
+      "id":"native-handwritten-and-horst-ui", "state":"merged-and-deployed", "pullRequest":256,
+      "sourceIds":["istr-hinzurechnung","lst-mitschrift","lst-korrektur","persg-folien-1"],
+      "sourcePages":45,
+      "nativeData":["src/data/endriss-handschriften.js","src/data/endriss-persg-horst-folien.js","src/data/endriss-native-register.js"],
+      "validationRun":36621102653, "validationConclusion":"success",
+      "browserAcceptance":{"run":36621003284,"job":109586091024,"conclusion":"success","testedCommit":"6384b65ae3d5dca44622ab767dc75b28196cfc38","screenshotsVisuallyInspected":false},
+      "pullRequestValidation":{"run":36623661522,"conclusion":"success","head":"60b23516bffb28d9588f4cd303ccb92ccebc56f1"},
+      "merged":true, "mergedAt":"2026-09-29T20:05:59Z", "mergeCommit":"72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
+      "originalAssetsIncluded":true, "originalAssetRevision":"deferred-by-explicit-user-instruction",
+      "deployment":{"run":36623930257,"buildJob":109595959250,"deployJob":109596438568,"conclusion":"success","completedAt":"2026-09-29T20:08:20Z","deployedCommit":"72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd","statusFile":".github/deploy-last.json","statusFileReadBack":true},
+      "historicalFullEvidence":"historicalCheckpoints[0]"
+    },
+    {
+      "id":"horst-fassung2", "state":"implemented-in-working-branch; tests-in-progress; not-merged",
+      "sourceId":"persg-folien-2", "driveId":"1UKzwT0Pu7slpR8XpzKQN_d0waycqELOn", "sourceBytes":10197674,
+      "reviewedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+      "nativeImplementationCommit":"904154fe0a2c3cb9176c2dad070ffeb1aa840df2",
+      "files":["src/data/endriss-persg-horst-fassung2.js","src/data/endriss-native-register.js","tools/pruefen-endriss-horst2.mjs","tools/pruefen-endriss-browser.mjs",".github/workflows/endriss-restbestaende.yml"],
+      "method":"All version-2 pages directly visually compared with the native chapter content; independent Drive source identity preserved. Shared substantive blocks avoid a second editable copy. Printed slides, numbers, internal discrepancies and absence of original solutions preserved.",
+      "canonicalSourceId":"persg-folien-1", "additionalSourcePagesCovered":16, "additionalUniqueLearningPages":0,
+      "tests":{"browserRun":36625594934,"browserTestedCommit":"a1d7fd838f66f0d8e0f4fe239178534a2c06937d","mappingTest":"tools/pruefen-endriss-horst2.mjs","validationRun":36625691591,"conclusion":"pending"},
+      "merged":false, "deployment":"pending"
     }
   ],
-  "technicalJobs": [
-    {"runId": 36616059906, "jobId": 109572010195, "type": "original-page-publisher", "lastObservedState": "completed", "conclusion": "success", "confirmedSteps": ["source image publication", "Horst version comparison", "production build", "ESt/Mirbach checks", "safe commit/rebase and validation"], "report": "docs/endriss-originalbestand.json", "note": "Outputs included in PR 256; this is not a native-completeness assertion."},
-    {"runId": 36620664115, "jobId": 109584926870, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "failure", "artifactId": 11058003475, "note": "Historical failure retained; superseded by successful corrected run 36621003284."},
-    {"runId": 36621003284, "jobId": 109586091024, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "success"},
-    {"runId": 36623661522, "type": "pull-request-validation", "lastObservedState": "completed", "conclusion": "success"},
-    {"runId": 36623930257, "jobId": 109596438568, "type": "pages-deployment", "lastObservedState": "completed", "conclusion": "success", "note": "Build, actual Pages deployment and final repository status commit succeeded; matching deployed SHA read back."}
-  ],
+  "progressMetric": {
+    "name":"Originally open source groups in supplied Claude PDF, sections A and B",
+    "denominator":12,
+    "basis":"Eight groups in section A and four in section B. Equal group weights ONLY; not pages, unique content, workload or whole-campus completion.",
+    "excluded":"Four absent original solution groups (C), the resolved scope-only question (D), and the informational source-without-solution entries (E).",
+    "beforeCurrentPackage":{"completedAndDeployedGroups":4,"percentage":33.3333333333},
+    "afterPackage3IfMergedAndDeployed":{"completedAndDeployedGroups":5,"percentage":41.6666666667},
+    "groups":[
+      {"id":"A1","title":"ESt Kurzskript I pages 80-162","state":"merged-and-deployed","pr":255},
+      {"id":"A2","title":"KSt seven units","state":"source-to-existing-content-audit-open"},
+      {"id":"A3","title":"ErbSt units 4/5, four PDFs","state":"native-integration-open"},
+      {"id":"A4","title":"Bilanz Fact Sheets","state":"open"},
+      {"id":"A5","title":"PersG Fact Sheets","state":"open"},
+      {"id":"A6","title":"Lohnsteuer transcript and correction","state":"merged-and-deployed","pr":256},
+      {"id":"A7","title":"IStR Hinzurechnungsbeispiel","state":"merged-and-deployed","pr":256},
+      {"id":"A8","title":"Both Horst PersG slide versions","state":"version1-deployed; version2-implemented-pending-release"},
+      {"id":"B1","title":"Mitschriften/Markierungen including archives","state":"open"},
+      {"id":"B2","title":"FGO (2).pdf","state":"open; full source has 37 pages"},
+      {"id":"B3","title":"Notfallbuch AO/FGO","state":"open"},
+      {"id":"B4","title":"Mirbach handwritten solutions 9/14/28 variant2","state":"merged-and-deployed","pr":255}
+    ],
+    "wholeCampusPercentage":null,
+    "warning":"A grouped-checklist quota must not be advertised as the percentage of all campus content. The large KSt/ErbSt/notes groups remain open and are not equivalent in size to the short completed documents."
+  },
   "remainingSourceGroups": [
-    {"ids": ["kst-e1", "kst-e2", "kst-e3", "kst-e4", "kst-e5", "kst-e6", "kst-e7"], "state": "source-to-existing-content-audit-open", "note": "Existing KSt learning modules must be checked before assuming all seven sources are absent."},
-    {"ids": ["erbst-e4-1", "erbst-e4-2", "erbst-e5-1", "erbst-e5-2"], "state": "native-transcription-and-integration-open"},
-    {"ids": ["bil-facts", "persg-facts", "persg-folien-2", "ao-fgo", "ao-notfallbuch"], "state": "native-transcription-or-deduplication-open", "note": "Prior chat reports of Horst version-2 and AO/FGO visual work are not yet represented by committed evidence/native registration. Recover evidence or recheck before counting them as done."},
-    {"inventorySelection": "all remaining notiz-, mark-, bmf- and other source rows", "state": "pagewise-review-and-integration-open"},
-    {"ids": ["bil-aufgaben-3"], "state": "scope-question-resolved-documentation-to-check", "note": "The retrieved original has three PDF pages ending with Sachverhalt 2; do not invent further cases."}
+    {"ids":["kst-e1","kst-e2","kst-e3","kst-e4","kst-e5","kst-e6","kst-e7"],"state":"source-to-existing-content-audit-open"},
+    {"ids":["erbst-e4-1","erbst-e4-2","erbst-e5-1","erbst-e5-2"],"state":"native-transcription-and-integration-open"},
+    {"ids":["bil-facts","persg-facts","ao-fgo","ao-notfallbuch"],"state":"native-transcription-or-mapping-open"},
+    {"inventorySelection":"remaining notiz-, mark-, bmf- and other rows","state":"pagewise-review-and-integration-open"},
+    {"ids":["bil-aufgaben-3"],"state":"scope-question-resolved-documentation-to-check","note":"Three actual PDF pages ending after Sachverhalt 2; do not invent further cases."}
   ],
   "acceptance": {
-    "requiresSourceEvidence": true,
-    "requiresNativeContentOrExplicitVerifiedMapping": true,
-    "requiresUIReachability": true,
-    "requiresRelevantTests": true,
-    "requiresMergeAndDeploymentVerification": true,
-    "originalImagesAloneAreCompletion": false,
-    "inventOriginalSolutions": false,
-    "unreadableText": "mark-uncertain-never-guess",
-    "removePersonalWatermarksFromPublicAssets": true,
-    "existingOriginalAssetRevisionRequiredBeforeThisMerge": false,
-    "existingOriginalAssetRevisionDisposition": "Separate deferred follow-up, not a blocker, per userDecision. Do not claim that assets were redacted or comprehensively reviewed."
+    "requiresSourceEvidence":true,"requiresNativeContentOrExplicitVerifiedMapping":true,"requiresUIReachability":true,
+    "requiresRelevantTests":true,"requiresMergeAndDeploymentVerification":true,"originalImagesAloneAreCompletion":false,
+    "inventOriginalSolutions":false,"unreadableText":"mark-uncertain-never-guess",
+    "existingOriginalAssetRevisionRequiredBeforeThisMerge":false,
+    "existingOriginalAssetRevisionDisposition":"Separate deferred follow-up per explicit userDecision, not a blocker."
   },
   "environment": {
-    "observedLocalExecutionError": "container.exec again returned ClientError in this interactive merge run.",
-    "connectedWrites": "PR creation, PR merge, non-force working-branch fast-forward and documentation updates succeeded in this run. Prior scheduled write failures do not establish a current general write outage.",
-    "fallback": "Use connected GitHub file actions and actual GitHub Actions results; do not assert unexecuted local tests."
+    "observedLocalExecutionError":"container.exec and python.exec returned ClientError in this run. No successful local execution or local PDF processing claimed.",
+    "connectedWrites":"GitHub create_file/update_file worked in this run. Google Drive raw downloads and files.read page images worked.",
+    "fallback":"Connected GitHub writes and actual GitHub Actions checks; no bypass of failed permission checks."
   }
 }
