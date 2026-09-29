@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,17 +19,17 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-41",
-        "themaTitel": "Einlagen und Entnahmen",
-        "fach": "bilanz",
+        "themaId": "persg-aufb-persg-melzer-1-2",
+        "themaTitel": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
+        "fach": "persg",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "klausurtechnik",
-        "themaId": "ao-modul-ao-346",
-        "themaTitel": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung",
+        "themaId": "ao-modul-ao-360",
+        "themaTitel": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
         "fach": "ao",
         "klausur": 1
       },
@@ -43,9 +37,9 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-modul-kst-1",
-        "themaTitel": "Steuerpflicht und Beginn der Körperschaft",
-        "fach": "kst",
+        "themaId": "est-aufb-est-ks2-17-05",
+        "themaTitel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
+        "fach": "est",
         "klausur": 2,
         "lang": false
       }
@@ -55,13 +49,13 @@
         "slot": "s4",
         "zeit": "07:12",
         "art": "frage",
-        "themaId": "persg-quiz-k3-29"
+        "themaId": "bilanz-quiz-k3-40"
       },
       {
         "slot": "s5",
         "zeit": "07:12",
         "art": "antwort",
-        "themaId": "persg-quiz-k3-29"
+        "themaId": "bilanz-quiz-k3-40"
       },
       {
         "slot": "s1",
@@ -74,13 +68,13 @@
         "slot": "s6",
         "zeit": "12:12",
         "art": "norm",
-        "themaId": "ao-modul-ao-363"
+        "themaId": "ao-modul-ao-335"
       },
       {
         "slot": "s7",
         "zeit": "14:36",
         "art": "tipp",
-        "themaId": "erbst-modul-erbst-513"
+        "themaId": "ao-aufb-ao-jacobs-8-14"
       },
       {
         "slot": "s2",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "17:03",
         "art": "fehler",
-        "themaId": "kst-modul-kst-9"
+        "themaId": "ao-modul-ao-312"
       },
       {
         "slot": "s9",
         "zeit": "19:09",
         "art": "tipp",
-        "themaId": "erbst-modul-erbst-544"
+        "themaId": "ao-modul-ao-362"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-41",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-1-2",
       "slug": "2026-10-17-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Einlage zum Teilwert: Greift die Dreijahresgrenze?",
+          "titel": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Teilwertgrundsatz und Dreijahresdeckel des § 6 Abs. 1 Nr. 5 EStG unterscheiden",
-            "bei Grundstückseinlagen zusätzlich die Zehnjahresfrist des § 23 EStG untersuchen"
+            "Nach § 39 Abs. 2 Nr. 2 AO gilt das Vermögen einer rechtsfähigen Personengesellschaft für die Ertragsteuern als Gesamthandsvermögen und wird den Gesellschaftern anteilig zugerechnet, soweit die Besteuerung das verlangt.",
+            "Was der Gesellschaft zivilrechtlich oder wirtschaftlich gehört, ist handelsrechtlich zu bilanzieren und über die Maßgeblichkeit im Grundfall auch in der Steuerbilanz zu zeigen."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Teilwert im Zeitpunkt der Einlage bestimmen."
+              "text": "Stelle fest, ob das Wirtschaftsgut der Gesellschaft selbst gehört oder einem, mehreren oder allen Gesellschaftern."
             },
             {
               "titel": "2. Schritt",
-              "text": "Untersuchen, ob Anschaffung oder Herstellung innerhalb der letzten drei Jahre lag; falls ja, Einlagewert nach § 6 Abs. 1 Nr. 5 begrenzen."
+              "text": "Gehört es der Gesellschaft, bejahe im Grundfall Betriebsvermögen und suche nur noch nach Gründen für gesamthänderisch gebundenes Privatvermögen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Einlagen sind grundsätzlich mit dem Teilwert zu bewerten. Bei Anschaffung innerhalb der letzten drei Jahre begrenzt § 6 Abs. 1 Nr. 5 EStG den Ansatz."
+          "titel": "Merksatz",
+          "text": "Bei Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,74 +161,66 @@
           ]
         }
       ],
-      "caption": "Einlage zum Teilwert: Greift die Dreijahresgrenze? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Einlage zum Teilwert: Greift die Dreijahresgrenze?",
+      "kurztitel": "Ist alles Gesellschaftsvermögen einer PersG…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 4 Abs. 1 S. 1 EStG",
-        "§ 4 Abs. 1 S. 2 EStG",
-        "§ 4 Abs. 1 S. 8 EStG",
-        "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
-        "§ 6 Abs. 1 Nr. 4 S. 2, 3 EStG",
-        "§ 6 Abs. 1 Nr. 5 S. 1 Hs. 1 EStG",
-        "§ 6 Abs. 1 Nr. 5 S. 1 Hs. 2 Buchst. a EStG",
-        "§ 6 Abs. 1 Nr. 5 S. 2, 3 EStG",
-        "§ 7 Abs. 1 S. 5 EStG",
-        "R 4.3 EStR",
-        "§ 6 Abs. 1 Nr. 5 EStG",
-        "§ 23 Abs. 1 S. 1 Nr. 1 und S. 5 Nr. 1 EStG",
-        "§ 23 Abs. 3 S. 2 und 6 EStG",
-        "Themenpool: bilanz-modul-k3-41"
+        "R 4.2 Abs. 1 und 2 EStR",
+        "H 4.2 Abs. 1, 11 EStH",
+        "§ 39 Abs. 2 Nr. 1 und Nr. 2 AO",
+        "§ 713 BGB",
+        "§ 105 Abs. 3 HGB",
+        "§ 161 Abs. 2 HGB",
+        "§ 60 Abs. 2 Satz 1 EStDV",
+        "Themenpool: persg-aufb-persg-melzer-1-2"
       ],
       "coverRegie": {
-        "thema": "Einlagen und Entnahmen",
+        "thema": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b1-bilanz-modul-k3-41-cover.png",
+        "bilddatei": "2026-10-17-b1-persg-aufb-persg-melzer-1-2-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "klausurtechnik",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-346",
+      "themaId": "ao-modul-ao-360",
       "slug": "2026-10-17-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Vorbehalt der Nachprüfung: Was darf das Amt ändern?",
+          "titel": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
           "coverBadge": null,
-          "coverBildAuslassen": false,
-          "icon": "zielscheibe"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "VdN als Generalschlüssel einordnen",
-            "Wirkung eines wirksamen VdN nach § 164 Abs. 2 AO anwenden"
+            "schlichten Änderungsantrag und Einspruch rechtlich trennen",
+            "Formfreiheit des Änderungsantrags kennen"
           ]
         },
         {
@@ -244,18 +229,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Wirksamen Steuerbescheid unter VdN feststellen."
+              "text": "untersuchen, ob eine Erklärung als Einspruch oder als Antrag auf schlichte Änderung auszulegen ist; bei Unklarheit Reichweite und Rechtsschutzinteresse würdigen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bestand des VdN zum Änderungszeitpunkt untersuchen."
+              "text": "Beim schlichten Änderungsantrag Formfreiheit beachten; auch mündliche oder telefonische Anträge sind möglich und aktenkundig zu machen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Solange der Vorbehalt wirksam ist, kann der Bescheid nach § 164 Abs. 2 AO ohne besondere neue Tatsache geändert werden; Fristen bleiben zu prüfen."
+          "titel": "Merksatz",
+          "text": "Bei § 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -272,99 +257,105 @@
           ]
         }
       ],
-      "caption": "Vorbehalt der Nachprüfung: Was darf das Amt ändern? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Vorbehalt der Nachprüfung: Was darf das Amt ändern?",
+      "kurztitel": "§ 172 AO: Zustimmung, schlichte Änderung,…",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 164 Abs. 1 AO",
-        "§ 164 Abs. 2 AO",
-        "§ 162 AO",
-        "AEAO zu § 193 Nr. 1",
-        "§ 164 Abs. 1 und 2 AO",
-        "Themenpool: ao-modul-ao-346"
+        "§ 172 Abs. 1 Nr. 2 Buchst. a AO",
+        "§ 356 AO",
+        "§ 357 AO",
+        "§ 110 AO",
+        "§ 172 Abs. 1 Nr. 2 Buchst. c AO",
+        "§ 370 Abs. 4 S. 3 AO",
+        "§ 172 Abs. 1 Nr. 2 Buchst. a und c AO",
+        "§§ 356, 357 und 110 AO",
+        "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+        "AEAO zu § 172 Nr. 2",
+        "BFH 20.12.2006 – X R 30/05",
+        "BFH 22.05.2019 – XI R 17/18",
+        "Themenpool: ao-modul-ao-360"
       ],
       "coverRegie": {
-        "thema": "Vorbehalt der Nachprüfung (§ 164 AO): Generalschlüssel, Zweck und Wirkung",
+        "thema": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b2-ao-modul-ao-346-cover.png",
+        "bilddatei": "2026-10-17-b2-ao-modul-ao-360-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "kst",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-modul-kst-1",
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-17-05",
       "slug": "2026-10-17-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
-          "unter": "Körperschaftsteuer",
-          "text": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
-          "norm": "§ 1 Abs. 1 Nr. 1 KStG",
-          "icon": "gebaeude",
-          "sprecher": "Vorgründung oder GmbH: Wer ist steuerpflichtig? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
+          "unter": "Einkommensteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 17 Abs. 2 Satz 6 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Vorgründung oder GmbH: Wer ist steuerpflichtig"
+            "Das Teileinkünfteverfahren gilt auch bei"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Vorgründungsphase bis zur notariellen Beurkundung unterscheiden.",
+          "titel": "Den Verlust zum Veräußerungszeitpunkt ermitteln und Preis, Kosten und Anschaffungskosten nur zu 60 % ansetzen.",
           "text": null,
-          "norm": "§ 1 Abs. 1 Nr. 1 KStG",
+          "norm": "§ 17 Abs. 2 Satz 6 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Vorgründungsphase bis zur notariellen Beurkundung unterscheiden.",
+          "sprecher": "Schritt 1: Prüfe § 17 Abs. 2 Satz 6 EStG im Zusammenhang mit Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
           "marken": [
-            "Vorgründungsphase bis zur notariellen Beurkundun"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Ab notarieller Beurkundung untersuchen, ob eine echte Vorgesellschaft mit fortbestehender Eintragungsa",
+          "titel": "Prüfpunkt 2: § 17 Abs. 3 EStG",
           "text": null,
-          "norm": "§ 1 Abs. 1 Nr. 4 KStG",
+          "norm": "§ 17 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Ab notarieller Beurkundung untersuchen, ob eine echte Vorgesellschaft mit fortbestehender Eintragungsabsicht vorliegt.",
+          "sprecher": "Schritt 2: Prüfe § 17 Abs. 3 EStG im Zusammenhang mit Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
           "marken": [
-            "Ab notarieller Beurkundung untersuchen, ob eine "
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Vor der Beurkundung besteht eine Vorgründungsgesellschaft. Die GmbH in Gründung ist davon zu trennen; die spätere Eintragung entscheidet über ihre Fortsetzung.",
-          "sprecher": "Vor der Beurkundung besteht eine Vorgründungsgesellschaft. Die GmbH in Gründung ist davon zu trennen; die spätere Eintragung entscheidet über ihre Fortsetzung.",
+          "titel": "Merksatz",
+          "text": "Bei Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -380,105 +371,102 @@
           ]
         }
       ],
-      "caption": "Vorgründung oder GmbH: Wer ist steuerpflichtig? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
+      "kurztitel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 1 Nr. 1 KStG",
-        "§ 1 Abs. 1 Nr. 4 KStG",
-        "§ 1 Abs. 2 KStG",
-        "§ 2 KStG",
-        "§ 8 Abs. 2 KStG",
-        "H 1.1 Beginn der Steuerpflicht KStH",
-        "H 1.1 Vorgründungsgesellschaft KStH",
-        "§ 1 KStG",
-        "H 1.1 KStH",
-        "Themenpool: kst-modul-kst-1"
+        "§ 17 Abs. 2 Satz 6 EStG",
+        "§ 17 Abs. 3 EStG",
+        "§ 3 Nr. 40 c) EStG",
+        "§ 3c Abs. 2 Satz 1 EStG",
+        "§ 3c Abs. 2 Satz 7 EStG",
+        "§ 34 Abs. 2 Nr. 1 EStG",
+        "§ 35 Abs. 1 Satz 3 EStG",
+        "§ 175 Abs. 1 Nr. 2 AO",
+        "R 17 Abs. 9 EStR",
+        "H 17 Abs. 7 EStH",
+        "Themenpool: est-aufb-est-ks2-17-05"
       ],
       "coverRegie": {
-        "thema": "Steuerpflicht und Beginn der Körperschaft",
+        "thema": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b3-kst-modul-kst-1-cover.png",
+        "bilddatei": "2026-10-17-b3-est-aufb-est-ks2-17-05-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "gebaeude"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-29",
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-40",
       "quellen": [
-        "Themenpool: persg-quiz-k3-29"
+        "Themenpool: bilanz-quiz-k3-40"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie lange läuft die Sperrfrist des § 16 Abs. 3 S. 3 EStG?",
-      "frage": "Wie lange läuft die Sperrfrist des § 16 Abs. 3 S. 3 EStG?",
-      "liveVorrangAktiv": true,
+      "frage": "Wohin gehören Abbruchkosten beim Erwerb mit Abbruchabsicht?",
+      "titel": "Wohin gehören Abbruchkosten beim Erwerb mit Abbruchabsicht?",
       "optionen": [
-        "ein Jahr ab Realteilung",
-        "drei Jahre ab Realteilung",
-        "drei Jahre ab Abgabe der Feststellungserklärung"
+        "laufender Aufwand",
+        "Grund und Boden",
+        "Herstellungskosten des Neubaus"
       ],
       "richtig": 2
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-29",
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-40",
       "quellen": [
-        "Themenpool: persg-quiz-k3-29"
+        "Themenpool: bilanz-quiz-k3-40"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "drei Jahre ab Abgabe der Feststellungserklärung",
-      "text": "Richtig: drei Jahre ab Abgabe der Feststellungserklärung. Der Fristbeginn hängt an der Feststellungserklärung, nicht am Realteilungsstichtag.",
-      "liveVorrangAktiv": true,
+      "titel": "Herstellungskosten des Neubaus",
       "optionen": [
-        "ein Jahr ab Realteilung",
-        "drei Jahre ab Realteilung",
-        "drei Jahre ab Abgabe der Feststellungserklärung"
+        "laufender Aufwand",
+        "Grund und Boden",
+        "Herstellungskosten des Neubaus"
       ],
-      "richtig": 2
+      "richtig": 2,
+      "text": "Ohne Abbruchabsicht bleiben sie dagegen laufender Aufwand."
     },
     "s6": {
       "slot": "s6",
@@ -486,218 +474,125 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-363",
+      "pairId": "ao-modul-ao-335",
       "quellen": [
-        "§ 177 Abs. 1 AO",
-        "§ 177 Abs. 2 AO",
-        "§ 177 Abs. 3 AO",
-        "AEAO zu § 177 Nr. 2",
-        "AEAO zu § 177 Nr. 3",
-        "AEAO zu § 177 Nr. 4",
-        "§ 177 Abs. 1 bis 3 AO",
-        "AEAO zu § 177 Nr. 2 bis 4",
-        "§ 177 Abs. 1–4 AO",
-        "Themenpool: ao-modul-ao-363"
+        "§ 171 Abs. 4 S. 1 AO",
+        "§ 196 AO",
+        "AEAO zu § 171 Nr. 3.2",
+        "§ 171 Abs. 4 S. 1–8 AO",
+        "Art. 97 § 37 Abs. 2 EGAO",
+        "Themenpool: ao-modul-ao-335"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 177 Abs. 1 AO",
-      "titel": "§ 177 AO: Wie weit darf saldiert werden?",
-      "text": "anderweitige Änderungsbefugnis als Türöffner für § 177 AO erkennen materiellen Fehler nach der Legaldefinition des § 177 Abs. 3 AO bestimmen",
-      "liveVorrangAktiv": true
+      "norm": "§ 171 Abs. 4 S. 1 AO",
+      "titel": "Außenprüfung: Ablaufhemmung nach § 171 Abs. 4 AO – Beginn, Ende und Reichweite",
+      "text": "Anwendungsbereich altes/neues §-171-Abs.-4-Recht anhand des Steuerentstehungszeitpunkts trennen wirksame Prüfungsanordnung und tatsächlichen Prüfungsbeginn bzw. beantragten Aufschub untersuchen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-513",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-8-14",
       "quellen": [
-        "§ 13d Abs. 1 ErbStG",
-        "§ 13d Abs. 3 ErbStG",
-        "R E 13d Abs. 6 S. 4",
-        "§ 13d Abs. 1–4 ErbStG",
-        "§ 13d Abs. 3 Nr. 1–3 ErbStG",
-        "R E 13d Abs. 2, 6 ErbStR",
-        "Themenpool: erbst-modul-erbst-513"
+        "§ 367 Abs. 2 Sätze 1 und 2 AO",
+        "§ 351 Abs. 1 Halbsätze 1 und 2 AO",
+        "§ 362 Abs. 1 Sätze 1 und 2 AO",
+        "§ 357 Abs. 1 Satz 1 AO",
+        "§ 366 AO",
+        "§ 177 Abs. 1 AO",
+        "§ 129 AO",
+        "§§ 172ff AO",
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
+        "§ 173a AO",
+        "Themenpool: ao-aufb-ao-jacobs-8-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Vermietetes Haus: 10 % frei?",
-      "text": "Begünstigtes bebautes Grundstück/Grundstücksteil bestimmen.",
-      "liveVorrangAktiv": true
+      "titel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
+      "text": "Klären, ob der angefochtene Bescheid einen noch anfechtbaren oder einen bereits bestandskräftigen Bescheid ändert."
     },
     "s8": {
       "slot": "s8",
       "art": "fehler",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-modul-kst-9",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-312",
       "quellen": [
-        "§ 27 Abs. 1 S. 1–3 KStG",
-        "§ 27 Abs. 1 S. 4–5 KStG",
-        "§ 27 Abs. 2 KStG",
-        "§ 20 Abs. 1 Nr. 1 S. 3 EStG",
-        "§ 27 KStG",
-        "Themenpool: kst-modul-kst-9"
+        "§ 124 Abs. 1 AO",
+        "AEAO zu § 124 Nr. 4–6",
+        "§ 79 Abs. 1 AO",
+        "§ 122 AO",
+        "Themenpool: ao-modul-ao-312"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Steuerliches Einlagekonto und Leistungen",
-      "falsch": "Kapitalrücklage und steuerliches Einlagekonto gleichsetzen",
-      "richtigText": "steuerliches Einlagekonto von handelsrechtlichen Eigenkapitalposten trennen",
-      "liveVorrangAktiv": true
+      "titel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+      "falsch": "Bekanntgabewille mit tatsächlichem Zugang verwechseln.",
+      "richtigText": "Bekanntgabewille als eigenen Wirksamkeitspunkt untersuchen"
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-544",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-362",
       "quellen": [
-        "§ 178 BewG",
-        "§ 179 BewG",
-        "H B 179.2",
-        "Themenpool: erbst-modul-erbst-544"
+        "§ 175 Abs. 1 Nr. 2 AO",
+        "§ 175 Abs. 1 S. 2 AO",
+        "§ 175 Abs. 2 AO",
+        "§ 171 Abs. 10a AO",
+        "§ 175b Abs. 1 AO",
+        "§ 175b Abs. 2 AO",
+        "§ 175 Abs. 1 Nr. 2 und S. 2 AO",
+        "§ 175b Abs. 1 und 2 AO",
+        "Themenpool: ao-modul-ao-362"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Unbebaut: Welcher Bodenrichtwert?",
-      "text": "Unbebaut i.S.d. § 178 BewG?",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Einlage zum Teilwert: Greift die Dreijahresgrenze?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Vorbehalt der Nachprüfung: Was darf das Amt ändern?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Vorgründung oder GmbH: Wer ist steuerpflichtig?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis, punktuelle Frist und eDaten-Pärchen",
+      "text": "Ereignis nach Erlass des zu ändernden Bescheids feststellen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:57.908Z",
-    "pfad": "vorproduktion/2026-10-17/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

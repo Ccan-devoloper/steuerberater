@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-2",
-        "themaTitel": "Wirtschaftliches Eigentum und Zurechnung",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "ao-aufb-ao-jacobs-7-9",
+        "themaTitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+        "fach": "ao",
+        "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "ao-modul-ao-354",
-        "themaTitel": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden",
-        "fach": "ao",
-        "klausur": 1
+        "themaId": "gewst-aufb-gewst-ks-08",
+        "themaTitel": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+        "fach": "gewst",
+        "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr1-11",
-        "themaTitel": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "umwst-aufb-umw-2-70",
+        "themaTitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+        "fach": "umwst",
+        "klausur": 3,
         "lang": false
       }
     ],
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:19",
         "art": "frage",
-        "themaId": "ust-quiz-ust-2"
+        "themaId": "persg-quiz-k3-29"
       },
       {
         "slot": "s5",
         "zeit": "07:19",
         "art": "antwort",
-        "themaId": "ust-quiz-ust-2"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:05",
-        "art": "norm",
-        "themaId": "ao-modul-ao-328"
+        "themaId": "persg-quiz-k3-29"
       },
       {
         "slot": "s1",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "12:05",
+        "art": "norm",
+        "themaId": "istr-aufb-istr-gh-4-17"
+      },
+      {
         "slot": "s7",
         "zeit": "14:40",
         "art": "fehler",
-        "themaId": "ao-modul-ao-358"
-      },
-      {
-        "slot": "s8",
-        "zeit": "17:02",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-338"
+        "themaId": "istr-modul-istr-istr3-11"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "17:02",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr2-04"
+      },
+      {
         "slot": "s9",
         "zeit": "19:20",
         "art": "tipp",
-        "themaId": "ao-modul-ao-307"
+        "themaId": "ao-modul-ao-322"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-2",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-7-9",
       "slug": "2026-10-12-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Im Grundbuch steht A: Wem gehört das Gut steuerlich?",
+          "titel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "zivilrechtliches Eigentum als Ausgangspunkt von wirtschaftlichem Eigentum trennen",
-            "§ 39 Abs. 2 Nr. 1 AO anhand tatsächlicher Herrschaft und wirtschaftlichen Ausschlusses untersuchen"
+            "Grobes Verschulden umfasst Vorsatz und grobe Fahrlässigkeit, also eine ungewöhnliche, nicht entschuldbare Verletzung der persönlich zumutbaren Sorgfalt; ein Verschulden des Beraters wird zugerechnet.",
+            "Einfache Versehen, Rechenfehler oder die Rechtsunkenntnis eines Laien sind regelmäßig nicht grob; das Übergehen klarer Hinweise im Erklärungsvordruck dagegen schon."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zivilrechtlichen Eigentümer feststellen (§ 39 Abs. 1 AO)."
+              "text": "Für die steuermindernde Tatsache das Verschulden des Steuerpflichtigen und seines Beraters würdigen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Tatsächliche Herrschaft des Nutzenden über das Wirtschaftsgut feststellen."
+              "text": "Bei grobem Verschulden untersuchen, ob zugleich eine steuererhöhende neue Tatsache in unmittelbarem oder mittelbarem sachlichem Zusammenhang steht."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Das Grundbuch begründet die zivilrechtliche Zuordnung. Für § 39 Abs. 2 AO kann aber entscheidend sein, wer den Eigentümer wirtschaftlich ausschließt."
+          "titel": "Merksatz",
+          "text": "Bei Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,205 +161,200 @@
           ]
         }
       ],
-      "caption": "Im Grundbuch steht A: Wem gehört das Gut steuerlich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#bilanzsteuerrecht"
-      ],
-      "kurztitel": "Im Grundbuch steht A: Wem gehört das Gut steuerlich?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 246 Abs. 1 S. 2 Hs. 1 HGB",
-        "§ 246 Abs. 1 S. 2 Hs. 2 HGB",
-        "§ 39 Abs. 1 AO",
-        "§ 39 Abs. 2 Nr. 1 AO",
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "§ 39 AO",
-        "§ 246 HGB",
-        "§ 39 Abs. 1 und Abs. 2 Nr. 1 AO",
-        "AEAO zu § 39 Nr. 1",
-        "BFH 02.06.2016 – IV R 23/13",
-        "BFH 13.10.2016 – IV R 33/13",
-        "Themenpool: bilanz-modul-k3-2"
-      ],
-      "coverRegie": {
-        "thema": "Wirtschaftliches Eigentum und Zurechnung",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b1-bilanz-modul-k3-2-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "schema",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-354",
-      "slug": "2026-10-12-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Neue Tatsache: Wann darf der Bescheid noch geändert werden?",
-          "coverBadge": "Klausurschema",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Tatsache oder Beweismittel von bloßer rechtlicher Würdigung unterscheiden",
-            "nachträgliches Bekanntwerden und Rechtserheblichkeit untersuchen"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Tatsache oder Beweismittel identifizieren; bloße rechtliche Neubewertung reicht nicht."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Untersuchen, ob die Tatsache bereits bei Erlass des zu ändernden Bescheids vorhanden war; ein späteres rückwirkendes Ereignis gehört im Grundfall zu § 175 Abs. 1 S. 1 Nr. 2 AO."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Eine neue Tatsache im Sinne des § 173 AO muss schon bei Erlass des Bescheids bestanden haben und dem Finanzamt erst später bekannt werden."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Neue Tatsache: Wann darf der Bescheid noch geändert werden? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Neue Tatsache: Wann darf der Bescheid noch geändert werden?",
-      "coverBadge": "Klausurschema",
+      "kurztitel": "Grobes Verschulden bei § 173 AO und die Sperre nach…",
+      "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 173 Abs. 1 Nr. 1 AO",
-        "§ 173 Abs. 1 Nr. 2 AO",
-        "§ 173 Abs. 2 AO",
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "AEAO zu § 173 Nr. 1.3",
-        "AEAO zu § 173 Nr. 1.4",
-        "AEAO zu § 173 Nr. 4",
-        "§ 173 Abs. 1 Nr. 1 und 2 AO",
-        "AEAO zu § 173 Nr. 1.3, 1.4 und 4",
-        "Themenpool: ao-modul-ao-354"
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
+        "§ 164 Abs. 2 AO",
+        "§ 177 AO",
+        "§ 181 Abs. 1 Satz 1 AO",
+        "§ 180 Abs. 1 Nr. 2a AO",
+        "§ 129 AO",
+        "§ 172 Abs. 1 Nr. 2c AO",
+        "§ 174 AO",
+        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 370 AO",
+        "Themenpool: ao-aufb-ao-jacobs-7-9"
       ],
       "coverRegie": {
-        "thema": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden",
+        "thema": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b2-ao-modul-ao-354-cover.png",
+        "bilddatei": "2026-10-12-b1-ao-aufb-ao-jacobs-7-9-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-08",
+      "slug": "2026-10-12-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+          "coverBadge": "Klausurschema",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Du weißt, dass jede Gemeinde hebeberechtigt ist, in der eine Betriebsstätte unterhalten wird, und dass der Messbetrag dann nach § 28 GewStG zerlegt wird.",
+            "Du kennst den Regelmaßstab des § 29 GewStG: das Verhältnis der in den Gemeinden gezahlten Arbeitslöhne, für jeden Fall auf volle 1.000 € abgerundet."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Stelle fest, in welchen Gemeinden Betriebsstätten im Sinne des § 12 AO bestehen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Summiere die Arbeitslöhne je Gemeinde und rechne den Unternehmerlohn der Gemeinde zu, in der der Unternehmer tätig ist."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ],
+      "kurztitel": "Mehrere Betriebsstättengemeinden: Wie wird der…",
+      "coverBadge": "Klausurschema",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 2 Abs. 1 GewStG",
+        "§ 28 Abs. 1 GewStG",
+        "§ 29 Abs. 1 Nr. 1 GewStG",
+        "§ 29 Abs. 2 GewStG",
+        "§ 29 Abs. 3 GewStG",
+        "§ 31 Abs. 5 GewStG",
+        "§ 184 AO",
+        "§ 175 Abs. 1 Nr. 1 AO",
+        "Themenpool: gewst-aufb-gewst-ks-08"
+      ],
+      "coverRegie": {
+        "thema": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-12-b2-gewst-aufb-gewst-ks-08-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr1-11",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-70",
       "slug": "2026-10-12-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Beschränkt steuerpflichtig: Welche Abzüge bleiben?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Beschränkt steuerpflichtig: Welche Abzüge bleiben?",
-          "norm": "§ 50 Abs. 1 EStG",
-          "icon": "globus",
-          "sprecher": "Beschränkt steuerpflichtig: Welche Abzüge bleiben? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+          "unter": "Umwandlungssteuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 23 Abs. 2 UmwStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Beschränkt steuerpflichtig: Welche Abzüge bleiben"
+            "Die Aufstockung erfolgt auf Antrag"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Inländische Einkünfte und Erhebungsweg festlegen.",
+          "titel": "Prüfpunkt 1: § 23 Abs. 2 UmwStG",
           "text": null,
-          "norm": "§ 50 Abs. 1 EStG",
+          "norm": "§ 23 Abs. 2 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Inländische Einkünfte und Erhebungsweg festlegen.",
+          "sprecher": "Schritt 1: Prüfe § 23 Abs. 2 UmwStG im Zusammenhang mit Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
           "marken": [
-            "Inländische Einkünfte und Erhebungsweg festlegen"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "§ 50 Abs. 1: abweichende persönliche Abzüge/Tarifregeln untersuchen.",
+          "titel": "Prüfpunkt 2: § 23 Abs. 3 UmwStG",
           "text": null,
-          "norm": "§ 50 Abs. 2 EStG",
+          "norm": "§ 23 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: § 50 Abs. 1: abweichende persönliche Abzüge/Tarifregeln untersuchen.",
+          "sprecher": "Schritt 2: Prüfe § 23 Abs. 3 UmwStG im Zusammenhang mit Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
           "marken": [
-            "§ 50 Abs. 1: abweichende persönliche Abzüge/Tari"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Bei beschränkter Steuerpflicht bleiben insbesondere Aufwendungen mit wirtschaftlichem Zusammenhang zu inländischen Einkünften nach § 50 Abs. 1 EStG zu prüfen.",
-          "sprecher": "Bei beschränkter Steuerpflicht bleiben insbesondere Aufwendungen mit wirtschaftlichem Zusammenhang zu inländischen Einkünften nach § 50 Abs. 1 EStG zu prüfen.",
+          "titel": "Merksatz",
+          "text": "Bei Wie stockt die GmbH nach einem Einbringungsgewinn I auf?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -382,180 +370,182 @@
           ]
         }
       ],
-      "caption": "Beschränkt steuerpflichtig: Welche Abzüge bleiben? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Beschränkt steuerpflichtig: Welche Abzüge bleiben?",
+      "kurztitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 50 Abs. 1 EStG",
-        "§ 50 Abs. 2 EStG",
-        "§ 32a EStG",
-        "§ 50 EStG",
-        "Themenpool: istr-modul-istr-istr1-11"
+        "§ 23 Abs. 2 UmwStG",
+        "§ 23 Abs. 3 UmwStG",
+        "§ 5 Abs. 7 EStG",
+        "§ 27 KStG",
+        "Themenpool: umwst-aufb-umw-2-70"
       ],
       "coverRegie": {
-        "thema": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger",
+        "thema": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b3-istr-modul-istr-istr1-11-cover.png",
+        "bilddatei": "2026-10-12-b3-umwst-aufb-umw-2-70-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-2",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-29",
       "quellen": [
-        "Themenpool: ust-quiz-ust-2"
+        "Themenpool: persg-quiz-k3-29"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie hoch ist die Erwerbsschwelle für Halbunternehmer nach § 1a Abs. 3 UStG?",
-      "frage": "Wie hoch ist die Erwerbsschwelle für Halbunternehmer nach § 1a Abs. 3 UStG?",
-      "liveVorrangAktiv": true,
+      "frage": "3 EStG?",
+      "titel": "3 EStG?",
       "optionen": [
-        "10.000 €",
-        "12.500 €",
-        "17.500 €"
+        "ein Jahr ab Realteilung",
+        "drei Jahre ab Realteilung",
+        "drei Jahre ab Abgabe der Feststellungserklärung"
       ],
-      "richtig": 1
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-2",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-29",
       "quellen": [
-        "Themenpool: ust-quiz-ust-2"
+        "Themenpool: persg-quiz-k3-29"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "12.500 €",
-      "text": "Für die in § 1a Abs. 3 UStG genannten Erwerber gilt die Schwelle von 12.500 Euro im Vorjahr und im laufenden Jahr. Neue Fahrzeuge und verbrauchsteuerpflichtige Waren sind ausgenommen.",
-      "liveVorrangAktiv": true,
+      "titel": "drei Jahre ab Abgabe der Feststellungserklärung",
       "optionen": [
-        "10.000 €",
-        "12.500 €",
-        "17.500 €"
+        "ein Jahr ab Realteilung",
+        "drei Jahre ab Realteilung",
+        "drei Jahre ab Abgabe der Feststellungserklärung"
       ],
-      "richtig": 1
+      "richtig": 2,
+      "text": "Der Fristbeginn hängt an der Feststellungserklärung, nicht am Realteilungsstichtag."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-328",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-4-17",
       "quellen": [
-        "§§ 169–171 AO",
-        "§§ 172–177 AO",
-        "Themenpool: ao-modul-ao-328"
+        "Art. 10 OECD-MA",
+        "§ 8b Abs. 4 KStG",
+        "§ 32d Abs. 1 EStG",
+        "§ 32d EStG",
+        "§ 8b Abs. 1 KStG",
+        "§ 3c Abs. 2 EStG",
+        "§ 20 Abs. 8 EStG",
+        "§ 20 Abs. 1 EStG",
+        "§ 32d Abs. 5 EStG",
+        "§ 32d Abs. 2 EStG",
+        "Themenpool: istr-aufb-istr-gh-4-17"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§§ 169–171 AO",
-      "titel": "Fehler im Bescheid: Welcher Plan B?",
-      "text": "Fehler und passende Korrekturvorschrift paarweise zuweisen Festsetzungsfrist als zusätzliche Grenze untersuchen",
-      "liveVorrangAktiv": true
+      "norm": "Art. 10 OECD-MA",
+      "titel": "Auslandsdividenden: Wer darf besteuern, was wird angerechnet?",
+      "text": "Du weißt, dass das OECD-MA die Quellensteuer bei Streubesitz auf 15 % begrenzt und nur die abkommensgemäße Steuer angerechnet werden kann. Du weißt, dass eine darüber hinaus einbehaltene Quellensteuer im Quellenstaat zurückgefordert werden muss."
     },
     "s7": {
       "slot": "s7",
       "art": "fehler",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-358",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-11",
       "quellen": [
-        "§ 173 Abs. 1 Nr. 1 AO",
-        "AEAO zu § 173 Nr. 4",
-        "§ 173 Abs. 1 Nr. 2 AO",
-        "AEAO zu § 173 Nr. 5",
-        "§ 173 Abs. 1 Nr. 2 S. 2 AO",
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
-        "AEAO zu § 173 Nr. 4 und Nr. 5",
-        "Themenpool: ao-modul-ao-358"
+        "§ 49 Abs. 1 Nr. 2 Buchst. e EStG",
+        "§ 8b Abs. 2 KStG",
+        "§ 8b Abs. 3 S. 1 KStG",
+        "BFH I R 37/15",
+        "§ 8b Abs. 2, 3 KStG",
+        "Themenpool: istr-modul-istr-istr3-11"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "§ 173 AO: Neue Tatsache oder Fehler?",
-      "falsch": "Jedes Vergessen automatisch als grobes Verschulden behandeln.",
-      "richtigText": "den Ermittlungsfehler des Finanzamts nach der Quellenformel untersuchen",
-      "liveVorrangAktiv": true
+      "titel": "Anteilsveräußerung durch ausländische Körperschaft: § 49 und § 8b KStG",
+      "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
+      "richtigText": "Inlandsanknüpfung der Anteilsveräußerung nach § 49 vor § 8b untersuchen."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-338",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-04",
       "quellen": [
-        "§ 171 Abs. 10 S. 1 AO",
-        "§ 182 Abs. 1 S. 1 AO",
-        "§ 175 Abs. 1 Nr. 1 AO",
-        "Themenpool: ao-modul-ao-338"
+        "Art. 1 DBA",
+        "Art. 2 DBA",
+        "Art. 4 Abs. 1 DBA",
+        "Art. 4 Abs. 2 DBA",
+        "Art. 1, 2 und 4 DBA",
+        "AAVV",
+        "Themenpool: istr-modul-istr-istr2-04"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Grundlagenbescheid: Hemmt § 171 AO?",
-      "text": "1. Erlass, Aufhebung oder Änderung eines Grundlagenbescheids feststellen.",
-      "liveVorrangAktiv": true
+      "titel": "DBA Anwendbarkeit und Ansässigkeit",
+      "text": "A – Anwendbarkeit: Art. 1 persönlich und Art. 2 sachlich."
     },
     "s9": {
       "slot": "s9",
@@ -563,135 +553,36 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-307",
+      "pairId": "ao-modul-ao-322",
       "quellen": [
-        "§ 122 Abs. 1 AO",
-        "§ 122 Abs. 7 AO",
-        "§ 122a AO",
-        "§ 80 AO",
-        "§ 183 AO",
-        "§ 183a AO",
-        "§ 8 VwZG",
-        "§ 122 AO",
-        "Themenpool: ao-modul-ao-307"
+        "§ 357 Abs. 2 AO",
+        "§ 110 AO",
+        "AEAO zu § 110 Nr. 2",
+        "Themenpool: ao-modul-ao-322"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Bescheid im Machtbereich: Zugegangen?",
-      "text": "Ordnungsgemäße Bekanntgabe nach § 122 Abs. 1 AO untersuchen.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Im Grundbuch steht A: Wem gehört das Gut steuerlich?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Neue Tatsache: Wann darf der Bescheid noch geändert werden?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Beschränkt steuerpflichtig: Welche Abzüge bleiben?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Einspruch beim falschen Finanzamt: Eingang, Weiterleitung und Wiedereinsetzung",
+      "text": "Bestimme das nach § 357 Abs. 2 AO zulässige Anbringungs-Finanzamt."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:34.179Z",
-    "pfad": "vorproduktion/2026-10-12/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

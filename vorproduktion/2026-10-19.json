@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-36",
-        "themaTitel": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "istr-aufb-istr-gh-4-04",
+        "themaTitel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
+        "fach": "istr",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "erbst-modul-erbst-542",
-        "themaTitel": "Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-ks-4-02",
+        "themaTitel": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr1-03",
-        "themaTitel": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "erbst-modul-erbst-531",
+        "themaTitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
+        "fach": "erbst",
+        "klausur": 1,
         "lang": false
       }
     ],
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "ust-quiz-ust-14"
+        "themaId": "bilanz-quiz-k3-37"
       },
       {
         "slot": "s5",
         "zeit": "07:07",
         "art": "antwort",
-        "themaId": "ust-quiz-ust-14"
-      },
-      {
-        "slot": "s6",
-        "zeit": "11:51",
-        "art": "norm",
-        "themaId": "ust-modul-ust-160"
+        "themaId": "bilanz-quiz-k3-37"
       },
       {
         "slot": "s1",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:51",
+        "art": "norm",
+        "themaId": "ao-modul-ao-358"
+      },
+      {
         "slot": "s7",
         "zeit": "14:37",
         "art": "tipp",
-        "themaId": "bilanz-modul-k3-27"
-      },
-      {
-        "slot": "s8",
-        "zeit": "17:05",
-        "art": "tipp",
-        "themaId": "ust-modul-ust-226"
+        "themaId": "ao-aufb-ao-jacobs-12-1"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "17:05",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-301"
+      },
+      {
         "slot": "s9",
         "zeit": "19:13",
         "art": "tipp",
-        "themaId": "bilanz-modul-k3-20"
+        "themaId": "ao-aufb-ao-jacobs-6-9"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-36",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-04",
       "slug": "2026-10-19-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
+          "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "den 0,03-%-Wert berechnen",
-            "die Entfernungspauschale mit dem für das Veranlagungsjahr geltenden Kilometersatz ermitteln"
+            "Du weißt, dass ein DBA ein völkerrechtlicher Vertrag ist, der erst durch das Zustimmungsgesetz im Inland anwendbar wird.",
+            "Du kennst die Entscheidung des BVerfG von 2015, nach der ein Treaty Override verfassungsrechtlich zulässig ist."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Begünstigten Bruttolistenpreis und einfache Entfernung feststellen."
+              "text": "Ermittle nach dem DBA, ob Deutschland als Ansässigkeitsstaat die Einkünfte freistellen müsste."
             },
             {
               "titel": "2. Schritt",
-              "text": "0,03 % × einfache Entfernung × Monate berechnen."
+              "text": "Prüfe bei Arbeitslohn, ob die ausländische Besteuerung oder ein Verzicht des anderen Staates nachgewiesen ist."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Bei Fahrten zwischen Wohnung und Betriebsstätte die 0,03-Prozent-Berechnung und den Abzug der Entfernungspauschale getrennt ermitteln."
+          "titel": "Merksatz",
+          "text": "Bei Darf der Gesetzgeber ein DBA einseitig überspielen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,65 +161,62 @@
           ]
         }
       ],
-      "caption": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Darf der Gesetzgeber ein DBA einseitig überspielen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
+      "kurztitel": "Darf der Gesetzgeber ein DBA einseitig überspielen",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 4 Abs. 5 S. 1 Nr. 6 S. 3 EStG",
-        "§ 6 Abs. 1 Nr. 4 S. 2 EStG",
-        "§ 9 Abs. 1 S. 3 Nr. 4 EStG",
-        "§ 4 Abs. 5 S. 1 Nr. 6 EStG",
-        "Themenpool: bilanz-modul-k3-36"
+        "§ 50d Abs. 9 EStG",
+        "§ 50d EStG",
+        "§ 50d Abs. 8 EStG",
+        "Themenpool: istr-aufb-istr-gh-4-04"
       ],
       "coverRegie": {
-        "thema": "Fahrten Wohnung–Betriebsstätte und Unterschiedsbetrag",
+        "thema": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-19-b1-bilanz-modul-k3-36-cover.png",
+        "bilddatei": "2026-10-19-b1-istr-aufb-istr-gh-4-04-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "schema",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-542",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-4-02",
       "slug": "2026-10-19-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
+          "titel": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": false,
-          "icon": "haus"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Regelwert und Öffnungsklausel trennen",
-            "Kaufpreisnachweis und Gutachtennachweis unterscheiden"
+            "im Grundfall sind die übergehenden Wirtschaftsgüter mit dem gemeinen Wert anzusetzen, einschließlich nicht entgeltlich erworbener immaterieller Wirtschaftsgüter; Pensionsrückstellungen bleiben beim Wert nach § 6a EStG.",
+            "Auf Antrag sind Buch- oder Zwischenwerte zulässig, wenn die spätere Besteuerung mit Körperschaftsteuer gesichert ist, das deutsche Besteuerungsrecht nicht verloren geht und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 UmwStG)."
           ]
         },
         {
@@ -235,18 +225,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Regel: Wert nach dem einschlägigen Bewertungsverfahren; Maßstab § 177 i.V.m. § 9 BewG."
+              "text": "Die Verschmelzungsrichtung bestimmen: aufwärts, abwärts oder seitwärts."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ist ein niedrigerer gemeiner Wert nachweisbar? → § 198 untersuchen."
+              "text": "Für jedes Wirtschaftsgut untersuchen, ob Deutschland nach der Verschmelzung weiterhin besteuern darf."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Ein niedrigerer gemeiner Wert verdrängt den Regelwert nur, wenn er nach § 198 BewG nachgewiesen ist."
+          "titel": "Merksatz",
+          "text": "Bei Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -263,99 +253,103 @@
           ]
         }
       ],
-      "caption": "Gutachten unter Grundbesitzwert: Welcher Wert zählt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
+      "kurztitel": "Wann darf die übertragende GmbH bei Verschmelzung…",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 177 BewG",
-        "§ 9 BewG",
-        "§ 198 Abs. 2 BewG",
-        "§ 198 Abs. 3 BewG",
-        "§ 198 Abs. 1–3 BewG",
-        "Themenpool: erbst-modul-erbst-542"
+        "§ 8b Abs. 2 KStG",
+        "§ 2 KStG",
+        "§ 8b Abs. 3 KStG",
+        "§ 17 Abs. 2 UmwG",
+        "§ 5 Abs. 1 EStG",
+        "§ 11 Abs. 1 UmwStG",
+        "§ 6a EStG",
+        "§ 8b KStG",
+        "§ 19 Abs. 1 UmwStG",
+        "§ 49 Abs. 1 EStG",
+        "Themenpool: umwst-aufb-umw-ks-4-02"
       ],
       "coverRegie": {
-        "thema": "Bewertungsmaßstab § 177 BewG und Nachweis des niedrigeren gemeinen Werts nach § 198",
+        "thema": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-19-b2-erbst-modul-erbst-542-cover.png",
+        "bilddatei": "2026-10-19-b2-umwst-aufb-umw-ks-4-02-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr1-03",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-531",
       "slug": "2026-10-19-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Drittstaatenverlust: Wo greift § 2a EStG?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Drittstaatenverlust: Wo greift § 2a EStG?",
-          "norm": "§ 2a Abs. 1 EStG",
-          "icon": "globus",
-          "sprecher": "Drittstaatenverlust: Wo greift § 2a EStG? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
+          "unter": "Erbschaftsteuer / Bewertung",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 15 Abs. 1 BewG",
+          "icon": null,
+          "sprecher": "Heute geht es um Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Drittstaatenverlust: Wo greift § 2a EStG"
+            "Nutzung/Leistung als eigenen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Drittstaatenbezug und negative Einkünfte feststellen.",
+          "titel": "Recht/Leistung bestimmen: z.B. Wohnrecht, Nießbrauch, Rente, Pflege/Rasenmähen.",
           "text": null,
-          "norm": "§ 2a Abs. 1 EStG",
+          "norm": "§ 15 Abs. 1 BewG",
           "icon": null,
-          "sprecher": "Schritt 1: Drittstaatenbezug und negative Einkünfte feststellen.",
+          "sprecher": "Schritt 1: Prüfe § 15 Abs. 1 BewG im Zusammenhang mit Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen.",
           "marken": [
-            "Drittstaatenbezug und negative Einkünfte festste"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
+          "titel": "① Jahreswert nach § 15 BewG ermitteln.",
           "text": null,
-          "norm": "§ 2a Abs. 2 EStG",
+          "norm": "§ 15 Abs. 2 BewG",
           "icon": null,
-          "sprecher": "Schritt 2: Katalogtatbestand des § 2a Abs. 1 S. 1 EStG bestimmen.",
+          "sprecher": "Schritt 2: ① Jahreswert nach § 15 BewG ermitteln.",
           "marken": [
-            "Katalogtatbestand des § 2a Abs. 1 S. 1 EStG best"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Verluste aus § 2a EStG dürfen grundsätzlich nur mit Einkünften derselben Art aus demselben Staat verrechnet werden; beachte die Ausnahmen der Norm.",
-          "sprecher": "Verluste aus § 2a EStG dürfen grundsätzlich nur mit Einkünften derselben Art aus demselben Staat verrechnet werden; beachte die Ausnahmen der Norm.",
+          "titel": "Merksatz",
+          "text": "Bei Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -371,329 +365,234 @@
           ]
         }
       ],
-      "caption": "Drittstaatenverlust: Wo greift § 2a EStG? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Drittstaatenverlust: Wo greift § 2a EStG?",
+      "kurztitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 2a Abs. 1 EStG",
-        "§ 2a Abs. 2 EStG",
-        "§ 7 AStG",
-        "§ 2a EStG",
-        "§§ 7 ff. AStG",
-        "Themenpool: istr-modul-istr-istr1-03"
+        "§ 15 Abs. 1 BewG",
+        "§ 15 Abs. 2 BewG",
+        "§ 15 Abs. 3 BewG",
+        "§ 16 BewG",
+        "§ 13 BewG",
+        "§ 14 BewG",
+        "§§ 13–16 BewG",
+        "§ 15 Abs. 1–3 BewG",
+        "Themenpool: erbst-modul-erbst-531"
       ],
       "coverRegie": {
-        "thema": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+        "thema": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-19-b3-istr-modul-istr-istr1-03-cover.png",
+        "bilddatei": "2026-10-19-b3-erbst-modul-erbst-531-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-14",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-37",
       "quellen": [
-        "Themenpool: ust-quiz-ust-14"
+        "Themenpool: bilanz-quiz-k3-37"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was liegt vor?",
-      "frage": "Was liegt vor?",
-      "liveVorrangAktiv": true,
+      "frage": "5 KStG berechnet?",
+      "titel": "5 KStG berechnet?",
       "optionen": [
-        "Werkleistung",
-        "Werklieferung (§ 3 Abs. 4 UStG)",
-        "Dienstleistungskommission"
+        "auf den Beteiligungsbuchwert",
+        "auf den steuerfreien Ertrag",
+        "auf das Einkommen"
       ],
       "richtig": 1
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-14",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-37",
       "quellen": [
-        "Themenpool: ust-quiz-ust-14"
+        "Themenpool: bilanz-quiz-k3-37"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Werklieferung (§ 3 Abs. 4 UStG)",
-      "text": "Richtig ist: Werklieferung (§ 3 Abs. 4 UStG).",
-      "liveVorrangAktiv": true,
+      "titel": "auf den steuerfreien Ertrag",
       "optionen": [
-        "Werkleistung",
-        "Werklieferung (§ 3 Abs. 4 UStG)",
-        "Dienstleistungskommission"
+        "auf den Beteiligungsbuchwert",
+        "auf den steuerfreien Ertrag",
+        "auf das Einkommen"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "text": "Die tatsächlichen Beteiligungsaufwendungen sind unerheblich; die Pauschale ist fiktiv."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-160",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-358",
       "quellen": [
-        "§ 4 Nr. 9 Buchst. a UStG",
-        "§ 4 Nr. 12 S. 1 Buchst. a UStG",
-        "§ 4 Nr. 12 S. 2 UStG",
-        "§ 9 Abs. 1 UStG",
-        "§ 9 Abs. 2 UStG",
-        "§ 9 Abs. 3 UStG",
-        "A 9.2 Abs. 3 S. 2 UStAE",
-        "§ 4 Nr. 12 UStG",
-        "§ 9 UStG",
-        "Themenpool: ust-modul-ust-160"
+        "§ 173 Abs. 1 Nr. 1 AO",
+        "AEAO zu § 173 Nr. 4",
+        "§ 173 Abs. 1 Nr. 2 AO",
+        "AEAO zu § 173 Nr. 5",
+        "§ 173 Abs. 1 Nr. 2 S. 2 AO",
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
+        "AEAO zu § 173 Nr. 4 und Nr. 5",
+        "Themenpool: ao-modul-ao-358"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 4 Nr. 9 Buchst. a UStG",
-      "titel": "Grundstück: Befreiung oder Option?",
-      "text": "§ 4 Nr. 9 Buchst. a und § 4 Nr. 12 UStG voneinander unterscheiden die ausdrücklich nicht befreiten Vermietungsumsätze des § 4 Nr. 12 S. 2 erkennen",
-      "liveVorrangAktiv": true
+      "norm": "§ 173 Abs. 1 Nr. 1 AO",
+      "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
+      "text": "den Ermittlungsfehler des Finanzamts nach der Quellenformel untersuchen leichtes und grobes Verschulden anhand der Quellenbeispiele unterscheiden"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-27",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-12-1",
       "quellen": [
-        "§ 246 Abs. 1 S. 1, S. 3 HGB",
-        "H 4.2 Abs. 15 'Betriebsschuld' EStH",
-        "§ 253 Abs. 1 S. 2 HGB",
-        "§ 256a S. 1, S. 2 HGB",
-        "§ 252 Abs. 1 Nr. 4 HGB",
-        "§ 6 Abs. 1 Nr. 3 EStG",
-        "§ 6 Abs. 1 Nr. 2 S. 1, S. 2 EStG",
-        "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
-        "§ 253 Abs. 1 S. 2",
-        "§ 256a HGB",
-        "Themenpool: bilanz-modul-k3-27"
+        "§§ 193 bis 207 AO",
+        "§ 193 Abs. 1 AO",
+        "§ 193 Abs. 2 Nr. 1 AO",
+        "§ 193 Abs. 2 Nr. 2 AO",
+        "§ 193 Abs. 2 Nr. 3 AO",
+        "§ 147a AO",
+        "§§ 85ff AO",
+        "§ 90 Abs. 2 Satz 3 AO",
+        "§ 146b AO",
+        "§ 171 Abs. 4 AO",
+        "Themenpool: ao-aufb-ao-jacobs-12-1"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Verbindlichkeiten, Fremdwährung und Abzinsung",
-      "text": "Ansatz als Verbindlichkeit über § 246 Abs. 1 S. 1, S. 3 HGB.",
-      "liveVorrangAktiv": true
+      "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+      "text": "Einordnen, ob eine förmliche Außenprüfung oder eine andere Ermittlungsmaßnahme wie Nachschau oder Steuerfahndung vorliegt."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-226",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-301",
       "quellen": [
-        "§ 15a Abs. 1–9 UStG",
-        "§ 44 Abs. 1–4 UStDV",
-        "§ 45 UStDV",
-        "§ 15a UStG",
-        "§§ 44, 45 UStDV",
-        "Themenpool: ust-modul-ust-226"
+        "§ 38 AO",
+        "§§ 85 ff. AO",
+        "§ 93 AO",
+        "§ 97 AO",
+        "§ 153 AO",
+        "§§ 118 ff. AO",
+        "§§ 155 ff. AO",
+        "§§ 122–127 AO",
+        "§§ 169–171 AO",
+        "Themenpool: ao-modul-ao-301"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 15a UStG: Wann berichtigen?",
-      "text": "Ursprünglichen Vorsteuerabzug bestimmen.",
-      "liveVorrangAktiv": true
+      "titel": "Ablauf des Besteuerungsverfahrens: von der Steuerentstehung bis zur Festsetzungsverjährung",
+      "text": "Steuerentstehung nach § 38 AO i.V.m. dem Einzelsteuergesetz bestimmen."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-20",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-6-9",
       "quellen": [
-        "§ 60 Abs. 2 S. 1, 2 EStDV",
-        "§ 5 Abs. 1 S. 1 EStG",
-        "§ 8 Abs. 1, 3 KStG",
-        "§ 3 Nr. 40 EStG",
-        "§ 3c Abs. 2 EStG",
-        "§ 4 Abs. 5 EStG",
-        "§ 10 KStG",
-        "§ 60 Abs. 2 EStDV",
-        "§ 8 Abs. 3 KStG",
-        "Themenpool: bilanz-modul-k3-20"
+        "§ 171 Abs. 3 und Abs. 3a Sätze 1 und 2 AO",
+        "§ 169 Abs. 1 Satz 1 und Abs. 2 Satz 1 Nr. 2 AO",
+        "§ 170 Abs. 1 und Abs. 2 Satz 1 Nr. 1 AO",
+        "§ 164 Abs. 2 und Abs. 4 Satz 2 AO",
+        "§ 172 Abs. 1 Satz 1 Nr. 2a AO",
+        "§§ 367 Abs. 2 Sätze 1 bis 3, 132 AO",
+        "§ 362 AO",
+        "§ 358 AO",
+        "§ 155 Abs. 1 Satz 3 AO",
+        "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
+        "Themenpool: ao-aufb-ao-jacobs-6-9"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Mehr-/Weniger-Rechnung und Überleitung",
-      "text": "Handelsbilanzgewinn als Ausgangspunkt festlegen.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Dienstwagen zur Betriebsstätte: Wie hoch ist die Kürzung?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gutachten unter Grundbesitzwert: Welcher Wert zählt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Drittstaatenverlust: Wo greift § 2a EStG?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
+      "text": "Reguläre Festsetzungsfrist nach §§ 169, 170 AO berechnen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:21:36.769Z",
-    "pfad": "vorproduktion/2026-10-19/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

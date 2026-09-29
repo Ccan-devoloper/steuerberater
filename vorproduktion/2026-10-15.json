@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-16",
-        "themaTitel": "Ausschüttungen und steuerliches Einlagekonto",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "ao-aufb-ao-jacobs-13-5",
+        "themaTitel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
+        "fach": "ao",
+        "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "erbst-modul-erbst-507",
-        "themaTitel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "est-aufb-est-ks1-gew-01",
+        "themaTitel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
+        "fach": "est",
+        "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr4-03",
-        "themaTitel": "§ 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "bilanz-modul-k3-19",
+        "themaTitel": "Buchungssatz und Gewinnauswirkung",
+        "fach": "bilanz",
+        "klausur": 3,
         "lang": false
       }
     ],
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:11",
         "art": "frage",
-        "themaId": "kst-quiz-kst-1"
+        "themaId": "ust-quiz-ust-15"
       },
       {
         "slot": "s5",
         "zeit": "07:11",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-1"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:08",
-        "art": "norm",
-        "themaId": "persg-modul-persg-1"
+        "themaId": "ust-quiz-ust-15"
       },
       {
         "slot": "s1",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "12:08",
+        "art": "norm",
+        "themaId": "ao-modul-ao-341"
+      },
+      {
         "slot": "s7",
         "zeit": "14:40",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr4-04"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:47",
-        "art": "merksatz",
-        "themaId": "persg-modul-persg-7"
+        "themaId": "istr-modul-istr-istr1-09"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:47",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-369"
+      },
+      {
         "slot": "s9",
         "zeit": "19:26",
         "art": "tipp",
-        "themaId": "persg-modul-persg-3"
+        "themaId": "ao-aufb-ao-jacobs-8-5"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-16",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-13-5",
       "slug": "2026-10-15-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Ausschüttung: Gewinn oder Einlagekonto?",
+          "titel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "ausschüttbaren Gewinn und Einlagekonto trennen",
-            "Verwendungsreihenfolge des § 27 KStG anwenden"
+            "Nach § 69 Satz 1 AO genügt leichte Fahrlässigkeit nicht; erforderlich sind Vorsatz oder grobe Fahrlässigkeit gerade des in Anspruch genommenen Vertreters.",
+            "Wer fällige Steuern bewusst nicht zahlt, um den Betrieb oder Arbeitsplätze zu erhalten, handelt schuldhaft; auch mangelnde Überwachung beauftragter Personen begründet Verschulden."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Handelsrechtlichen Ausschüttungsbeschluss und Verbindlichkeit buchen."
+              "text": "Haftenden Personenkreis nach §§ 34, 35 AO bestimmen, etwa den gesetzlichen Vertreter einer GmbH."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ausschüttbaren Gewinn nach § 27 KStG ermitteln."
+              "text": "Pflichtverletzung feststellen, etwa verspätete Anmeldung oder Nichtzahlung fälliger Steuern trotz vorhandener Mittel."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Leistungen an Anteilseigner mindern zunächst den ausschüttbaren Gewinn. Erst der darüber hinausgehende Betrag kann das steuerliche Einlagekonto nutzen."
+          "titel": "Merksatz",
+          "text": "Bei Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,69 +161,67 @@
           ]
         }
       ],
-      "caption": "Ausschüttung: Gewinn oder Einlagekonto? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Ausschüttung: Gewinn oder Einlagekonto?",
+      "kurztitel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 27 Abs. 1 S. 1–3 KStG",
-        "§ 27 Abs. 1 S. 5 KStG",
-        "§ 27 Abs. 2 KStG",
-        "§ 27 Abs. 3, 5 KStG",
-        "§ 20 Abs. 1 Nr. 1 S. 3 EStG",
-        "§ 43 Abs. 1 S. 1 Nr. 1 EStG",
-        "§ 27 KStG",
-        "§ 20 EStG",
-        "Themenpool: bilanz-modul-k3-16"
+        "§ 69 Sätze 1 und 2 AO",
+        "§ 34 Abs. 1 Sätze 1 und 2 AO",
+        "§ 35 GmbHG",
+        "§ 43 GmbHG",
+        "§ 15 StGB",
+        "§§ 249, 254 AO",
+        "§§ 370, 378 AO",
+        "AEAO zu § 173 AO, Tz. 5",
+        "Themenpool: ao-aufb-ao-jacobs-13-5"
       ],
       "coverRegie": {
-        "thema": "Ausschüttungen und steuerliches Einlagekonto",
+        "thema": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b1-bilanz-modul-k3-16-cover.png",
+        "bilddatei": "2026-10-15-b1-ao-aufb-ao-jacobs-13-5-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "schema",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-507",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks1-gew-01",
       "slug": "2026-10-15-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Erbschaftsteuer: Welche Tarifstufe gilt?",
+          "titel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": false,
-          "icon": "haus"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "den §-19-Tarif nach Wertstufe und Steuerklasse sicher lesen",
-            "Tarifgrenzen und Prozentwerte nicht miteinander verwechseln"
+            "Positiv verlangt § 15 Abs. 2 EStG eine selbständige, nachhaltige Betätigung mit Gewinnerzielungsabsicht und Teilnahme am allgemeinen Wirtschaftsverkehr.",
+            "Selbständig handelt, wer Unternehmerrisiko trägt und Unternehmerinitiative entfaltet; nachhaltig ist eine Tätigkeit schon, wenn sie mit Wiederholungsabsicht aufgenommen wird."
           ]
         },
         {
@@ -239,18 +230,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Abgerundeten steuerpflichtigen Erwerb aus § 10 ErbStG übernehmen."
+              "text": "Selbständigkeit anhand von Unternehmerrisiko und Unternehmerinitiative untersuchen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Steuerklasse aus in den Vorfragen (§ 15 ErbStG) übernehmen."
+              "text": "Nachhaltigkeit und Teilnahme am Markt feststellen; auch ein einziger Abnehmer schließt die Marktteilnahme nicht aus."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Nach Steuerklasse und Höhe des Erwerbs gilt die Tarifstufe des § 19 Abs. 1 ErbStG. An der Grenze den Härteausgleich des Absatzes 3 prüfen."
+          "titel": "Merksatz",
+          "text": "Bei Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -267,96 +258,102 @@
           ]
         }
       ],
-      "caption": "Erbschaftsteuer: Welche Tarifstufe gilt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Erbschaftsteuer: Welche Tarifstufe gilt?",
+      "kurztitel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15…",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 19 Abs. 1 ErbStG",
-        "§ 19 Abs. 3 ErbStG",
-        "Themenpool: erbst-modul-erbst-507"
+        "§ 15 Abs. 1 Satz 1 Nr. 1 EStG",
+        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
+        "§ 15 Abs. 1 Satz 1 Nr. 3 EStG",
+        "§ 15 Abs. 2 EStG",
+        "§§ 13 ff. EStG",
+        "§ 18 EStG",
+        "§§ 20, 21 EStG",
+        "R 15.1 bis R 15.7 EStR",
+        "H 15.1 bis H 15.7 EStH",
+        "Themenpool: est-aufb-est-ks1-gew-01"
       ],
       "coverRegie": {
-        "thema": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+        "thema": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b2-erbst-modul-erbst-507-cover.png",
+        "bilddatei": "2026-10-15-b2-est-aufb-est-ks1-gew-01-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr4-03",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-19",
       "slug": "2026-10-15-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
-          "unter": "Internationales Steuerrecht",
-          "text": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
-          "norm": "§ 8 Abs. 5 S. 1 AStG",
-          "icon": "globus",
-          "sprecher": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Buchungssatz und Gewinnauswirkung",
+          "unter": "Bilanzsteuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 238 Abs. 1 HGB",
+          "icon": null,
+          "sprecher": "Heute geht es um Buchungssatz und Gewinnauswirkung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor"
+            "Bestands- und Erfolgskonten sicher"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Einkünfte der ausländischen Gesellschaft nach § 10 Abs. 3 AStG nach deutschem Steuerrecht ermitteln.",
+          "titel": "Ist-Buchung des Sachverhalts notieren.",
           "text": null,
-          "norm": "§ 8 Abs. 5 S. 1 AStG",
+          "norm": "§ 238 Abs. 1 HGB",
           "icon": null,
-          "sprecher": "Schritt 1: Einkünfte der ausländischen Gesellschaft nach § 10 Abs. 3 AStG nach deutschem Steuerrecht ermitteln.",
+          "sprecher": "Schritt 1: Ist-Buchung des Sachverhalts notieren.",
           "marken": [
-            "Einkünfte der ausländischen Gesellschaft nach § "
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
+          "titel": "Soll-Buchung nach richtiger Würdigung bestimmen.",
           "text": null,
-          "norm": "§ 8 Abs. 5 S. 2 AStG",
+          "norm": "§ 246 Abs. 1 S. 1 HGB",
           "icon": null,
-          "sprecher": "Schritt 2: Tatsächliche Ertragsteuerbelastung dieser Einkünfte bestimmen.",
+          "sprecher": "Schritt 2: Soll-Buchung nach richtiger Würdigung bestimmen.",
           "marken": [
-            "Tatsächliche Ertragsteuerbelastung dieser Einkün"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Eine tatsächliche Ertragsteuerbelastung von 14,9 Prozent liegt unter der Schwelle von 15 Prozent in § 8 Abs. 5 AStG.",
-          "sprecher": "Eine tatsächliche Ertragsteuerbelastung von 14,9 Prozent liegt unter der Schwelle von 15 Prozent in § 8 Abs. 5 AStG.",
+          "titel": "Merksatz",
+          "text": "Bei Buchungssatz und Gewinnauswirkung: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -372,129 +369,123 @@
           ]
         }
       ],
-      "caption": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Buchungssatz und Gewinnauswirkung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
+      "kurztitel": "Buchungssatz und Gewinnauswirkung",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Abs. 5 S. 1 AStG",
-        "§ 8 Abs. 5 S. 2 AStG",
-        "§ 8 Abs. 5 S. 3 AStG",
-        "§ 10 Abs. 3 AStG",
-        "§ 8 Abs. 5 AStG",
-        "Themenpool: istr-modul-istr-istr4-03"
+        "§ 238 Abs. 1 HGB",
+        "§ 246 Abs. 1 S. 1 HGB",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "§ 60 Abs. 2 EStDV",
+        "Soll an Haben",
+        "HB/StB-Korrektur",
+        "Themenpool: bilanz-modul-k3-19"
       ],
       "coverRegie": {
-        "thema": "§ 8 Abs. 5 AStG: niedrige Besteuerung unter 15 %",
+        "thema": "Buchungssatz und Gewinnauswirkung",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b3-istr-modul-istr-istr4-03-cover.png",
+        "bilddatei": "2026-10-15-b3-bilanz-modul-k3-19-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-1",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-15",
       "quellen": [
-        "Themenpool: kst-quiz-kst-1"
+        "Themenpool: ust-quiz-ust-15"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
-      "frage": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
-      "liveVorrangAktiv": true,
+      "frage": "Welche Aussage zu Wo ist eine sonstige Leistung an trifft zu?",
+      "titel": "Welche Aussage zu Wo ist eine sonstige Leistung an trifft zu?",
       "optionen": [
-        "Vorgesellschaft",
-        "eingetragene GmbH",
-        "Vorgründungsgesellschaft"
+        "am Sitz des Leistenden",
+        "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
+        "immer im Inland"
       ],
-      "richtig": 2
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-1",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "pairId": "ust-quiz-ust-15",
       "quellen": [
-        "Themenpool: kst-quiz-kst-1"
+        "Themenpool: ust-quiz-ust-15"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Vorgründungsgesellschaft",
-      "text": "Richtig: Vorgründungsgesellschaft. Die Vorgründungsgesellschaft ist weder mit der Vorgesellschaft noch mit der GmbH identisch.",
-      "liveVorrangAktiv": true,
+      "titel": "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
       "optionen": [
-        "Vorgesellschaft",
-        "eingetragene GmbH",
-        "Vorgründungsgesellschaft"
+        "am Sitz des Leistenden",
+        "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
+        "immer im Inland"
       ],
-      "richtig": 2
+      "richtig": 1,
+      "text": "B2B-Grundregel Empfängerort; B2C nach § 3a Abs. 1 UStG Sitz des Leistenden – die Sonderorte (§ 3a Abs. 3, § 3b UStG) gehen vor."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-1",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-341",
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 15 Abs. 3 Nr. 1 EStG",
-        "§ 15 Abs. 3 Nr. 2 EStG",
-        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
-        "§ 15 Abs. 3 EStG",
-        "Themenpool: persg-modul-persg-1"
+        "§ 179 Abs. 3 AO",
+        "§ 181 Abs. 5 AO",
+        "Themenpool: ao-modul-ao-341"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-      "titel": "Mitunternehmer: § 15 EStG?",
-      "text": "den Tatbestand des § 15 Abs. 1 S. 1 Nr. 2 EStG in drei Schritten aufbauen OHG und KG als klausurtypische Personengesellschaften erkennen",
-      "liveVorrangAktiv": true
+      "norm": "§ 179 Abs. 3 AO",
+      "titel": "Ergänzungsbescheid als eigenes Korrekturthema: Quellenhinweis und Abgrenzung",
+      "text": "Ergänzungsbescheid als eigenständigen Feststellungsbescheid-Baustein erkennen ihn nicht mit dem Nachholen des Wirksamkeitsvermerks verwechseln"
     },
     "s7": {
       "slot": "s7",
@@ -502,189 +493,94 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr4-04",
+      "pairId": "istr-modul-istr-istr1-09",
       "quellen": [
-        "§ 8 Abs. 1 AStG",
-        "§ 8 Abs. 1 Nr. 4 AStG",
-        "§ 8 Abs. 1 Nr. 5 AStG",
-        "§ 8 Abs. 1 Nr. 6 Buchst. a AStG",
-        "§ 8 Abs. 1 Nr. 6 Buchst. b AStG",
-        "§ 8 Abs. 1 Nr. 6 Buchst. c AStG",
-        "§ 8 Abs. 1 Nr. 6 Buchst. a–c AStG",
-        "Themenpool: istr-modul-istr-istr4-04"
+        "§ 49 Abs. 1 Nr. 1–9 EStG",
+        "R 49.3 EStR",
+        "§§ 12, 13 AO",
+        "§ 49 Abs. 1 EStG",
+        "Themenpool: istr-modul-istr-istr1-09"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "AStG: Ist Vermietung aktiv?",
-      "text": "1. Einkünfte der ausländischen Gesellschaft der Art nach bestimmen.",
-      "liveVorrangAktiv": true
+      "titel": "§ 49 EStG: Katalog der inländischen Einkünfte",
+      "text": "1. Einkunftsart materiell bestimmen."
     },
     "s8": {
       "slot": "s8",
       "art": "merksatz",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-7",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-369",
       "quellen": [
-        "R 4.2 Abs. 2 EStR",
-        "H 4.2 Abs. 2 EStH",
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "H 4.2 EStH – Sonderbetriebsvermögen",
-        "BFH 16.04.2015 – IV R 1/12",
-        "BFH 25.09.2025 – IV R 12/23",
-        "Themenpool: persg-modul-persg-7"
+        "§ 351 Abs. 1 AO",
+        "§ 177 Abs. 1 AO",
+        "§ 177 Abs. 2 AO",
+        "§ 177 AO",
+        "Korrekturformel",
+        "Themenpool: ao-modul-ao-369"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "SBV I oder II: Wohin mit dem Gut?",
-      "text": "Komplementär-GmbH-Anteile sind nicht ab 10 % automatisch SBV II. Entscheidend sind Funktion, Einfluss und Veranlassung; unter 10 % greift im gesetzlichen Mehrheitsregelfall regelmäßig die BFH-Negativregel.",
-      "liveVorrangAktiv": true
+      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+      "text": "Bei § 351 Abs. 1 AO immer erst Korrekturformel je Fehler, dann Ober-/Untergrenze."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-3",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-8-5",
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "H 15.8 EStH",
-        "§ 19 EStG",
-        "§ 20 EStG",
-        "§ 21 EStG",
-        "Themenpool: persg-modul-persg-3"
+        "§ 355 Abs. 1 Sätze 1 und 2 AO",
+        "§ 356 Abs. 1 und 2 AO",
+        "§ 357 Abs. 2 Sätze 1, 2 und 4 AO",
+        "§ 108 Abs. 1 und 3 AO",
+        "§ 122 Abs. 2 Nr. 1 und Abs. 5 AO",
+        "§ 122a AO",
+        "§ 124 Abs. 1 AO",
+        "§ 180 Abs. 1 Satz 1 Nr. 2b AO",
+        "§ 110 AO",
+        "§§ 187, 188 BGB",
+        "Themenpool: ao-aufb-ao-jacobs-8-5"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Mitunternehmerstellung: Risiko und Initiative",
-      "text": "Mitunternehmerrisiko: Gewinn/Verlust, stille Reserven, Haftung.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Ausschüttung: Gewinn oder Einlagekonto?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Erbschaftsteuer: Welche Tarifstufe gilt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "14,9 Prozent Steuer: Liegt niedrige Besteuerung vor?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
+      "text": "Bekanntgabetag bestimmen: Fiktion nach § 122 Abs. 2 AO, späterer tatsächlicher Zugang oder Zustellung nach dem VwZG."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:48.478Z",
-    "pfad": "vorproduktion/2026-10-15/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-21",
-        "themaTitel": "Gewinnrealisierung und schwebende Geschäfte",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "kst-aufb-kst-t2-38",
+        "themaTitel": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
+        "fach": "kst",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "klausurtechnik",
-        "themaId": "ao-modul-ao-332",
-        "themaTitel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-        "fach": "ao",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-ks-6-c-15",
+        "themaTitel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr3-04",
-        "themaTitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "erbst-modul-erbst-544",
+        "themaTitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+        "fach": "erbst",
+        "klausur": 1,
         "lang": false
       }
     ],
@@ -74,13 +68,13 @@
         "slot": "s6",
         "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-313"
+        "themaId": "istr-modul-istr-istr1-10"
       },
       {
         "slot": "s7",
         "zeit": "14:18",
         "art": "merksatz",
-        "themaId": "ao-modul-ao-362"
+        "themaId": "istr-aufb-istr-gh-5-05"
       },
       {
         "slot": "s2",
@@ -99,7 +93,7 @@
         "slot": "s9",
         "zeit": "19:23",
         "art": "fehler",
-        "themaId": "ao-modul-ao-369"
+        "themaId": "istr-aufb-istr-gh-4-22"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-21",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t2-38",
       "slug": "2026-10-10-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Ware geliefert: Ist der Gewinn schon realisiert?",
+          "titel": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "den Realisationszeitpunkt an Gefahrübergang bzw. Abnahme knüpfen",
-            "schwebende Geschäfte vom Bilanzansatz ausnehmen"
+            "Ausschüttungen, Veräußerungsgewinne und Gewinnminderungen, die über einen Mitunternehmeranteil zugerechnet werden, sind nach § 8b Abs. 6 Satz 1 KStG wie direkt bezogene zu behandeln, gleich ob die Anteile im Gesamthands- oder Sonderbetriebsvermögen liegen.",
+            "Die Personengesellschaft stellt die Einkünfte regelmäßig ohne die Wirkungen des § 8b KStG fest; die begünstigten Beträge werden separat ausgewiesen und erst beim Mitunternehmer berücksichtigt."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Vertragstyp bestimmen: Kauf, Werkvertrag oder Dauerschuldverhältnis."
+              "text": "Feststellen, ob die Personengesellschaft gewerblich tätig oder geprägt ist oder nur Vermögen verwaltet."
             },
             {
               "titel": "2. Schritt",
-              "text": "Zeitpunkt der wesentlichen Leistungserbringung feststellen."
+              "text": "Die im festgestellten Gewinnanteil enthaltenen Beteiligungserträge, Veräußerungsgewinne und Anteilsverluste herausfiltern."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Der Gewinn entsteht bei erfüllter Leistung und Übergang der wesentlichen Risiken, nicht erst mit Ausstellung der Rechnung."
+          "titel": "Merksatz",
+          "text": "Bei Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,69 +161,69 @@
           ]
         }
       ],
-      "caption": "Ware geliefert: Ist der Gewinn schon realisiert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Ware geliefert: Ist der Gewinn schon realisiert?",
+      "kurztitel": "Dividende über die KG: Gilt § 8b KStG auch für…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 252 Abs. 1 Nr. 4 Hs. 2 HGB",
-        "§ 252 Abs. 1 Nr. 5 HGB",
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "R 5.7 Abs. 7 EStR",
-        "§ 249 Abs. 1 S. 1 HGB",
-        "§ 5 Abs. 4a S. 1 EStG",
-        "§ 266 Abs. 3 C. 3 HGB",
-        "§ 252 Abs. 1 Nr. 4 HGB",
-        "Themenpool: bilanz-modul-k3-21"
+        "§ 8b Abs. 6 KStG",
+        "§ 8b Abs. 1 bis 5 KStG",
+        "§ 8b Abs. 3 Sätze 3 bis 8 KStG",
+        "§ 39 Abs. 2 Nr. 2 AO",
+        "§ 180 AO",
+        "§ 182 Abs. 1 Satz 1 AO",
+        "§ 3 Nr. 40 EStG, § 3c Abs. 2 EStG",
+        "§ 7 Satz 4 GewStG",
+        "BFH vom 23.07.1975, BStBl. II 1976, 73",
+        "BFH vom 18.07.2012, BStBl. II 2013, 444",
+        "Themenpool: kst-aufb-kst-t2-38"
       ],
       "coverRegie": {
-        "thema": "Gewinnrealisierung und schwebende Geschäfte",
+        "thema": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b1-bilanz-modul-k3-21-cover.png",
+        "bilddatei": "2026-10-10-b1-kst-aufb-kst-t2-38-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "klausurtechnik",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-332",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-6-c-15",
       "slug": "2026-10-10-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Frist vorbei: Welche Korrektur bleibt offen?",
+          "titel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
           "coverBadge": null,
-          "coverBildAuslassen": false,
-          "icon": "zielscheibe"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Korrekturvorschrift und passende Ablaufhemmung paarweise zuweisen",
-            "Schreib-/Rechenfehler, Antrag und Einspruch als unterschiedliche Hemmungsauslöser unterscheiden"
+            "§ 21 UmwStG erfasst den Fall, dass jemand Kapitalgesellschaftsanteile auf eine Kapitalgesellschaft überträgt und dafür neue Anteile erhält; die eingebrachten Anteile können aus Betriebs- oder Privatvermögen stammen.",
+            "Gibt die Übernehmerin keine neuen Anteile aus und bucht den Zugang nur in die Kapitalrücklage oder als Ertrag, handelt es sich um eine verdeckte Einlage."
           ]
         },
         {
@@ -239,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Reguläre Festsetzungsfrist lückenlos berechnen."
+              "text": "untersuchen, ob Gegenstand der Übertragung Anteile an einer Kapitalgesellschaft sind und nicht ein Betrieb, zu dem sie gehören."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ist sie abgelaufen: Anlass/Fehler bestimmen."
+              "text": "Feststellen, ob die Übernehmerin ihr Nennkapital erhöht und dem Einbringenden neue Anteile gewährt."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Nach Ablauf der regulären Frist braucht eine Änderung sowohl eine Ablaufhemmung (§ 171 AO) als auch eine Korrekturvorschrift."
+          "titel": "Merksatz",
+          "text": "Bei Anteilstausch oder verdeckte Einlage: Worauf kommt es an?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -267,103 +260,99 @@
           ]
         }
       ],
-      "caption": "Frist vorbei: Welche Korrektur bleibt offen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Frist vorbei: Welche Korrektur bleibt offen?",
+      "kurztitel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 171 Abs. 2 S. 1 AO",
-        "§ 129 AO",
-        "§ 171 Abs. 2 S. 2 AO",
-        "§ 173a AO",
-        "§ 171 Abs. 3 AO",
-        "§ 164 Abs. 2 AO",
-        "§ 173 AO",
-        "§ 171 Abs. 3a AO",
-        "§ 350 AO",
-        "Themenpool: ao-modul-ao-332"
+        "§ 21 UmwStG",
+        "§ 20 UmwStG",
+        "§ 21 Abs. 2 UmwStG",
+        "§ 20 Abs. 2 EStG",
+        "§ 8 Abs. 3 KStG",
+        "§ 27 KStG",
+        "Themenpool: umwst-aufb-umw-ks-6-c-15"
       ],
       "coverRegie": {
-        "thema": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+        "thema": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b2-ao-modul-ao-332-cover.png",
+        "bilddatei": "2026-10-10-b2-umwst-aufb-umw-ks-6-c-15-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr3-04",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-544",
       "slug": "2026-10-10-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Aufsichtsrat im Inland: Wo wird besteuert?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Aufsichtsrat im Inland: Wo wird besteuert?",
-          "norm": "§ 18 Abs. 1 Nr. 3 EStG",
-          "icon": "globus",
-          "sprecher": "Aufsichtsrat im Inland: Wo wird besteuert? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+          "unter": "Erbschaftsteuer / Bewertung",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 178 BewG",
+          "icon": null,
+          "sprecher": "Heute geht es um Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Aufsichtsrat im Inland: Wo wird besteuert"
+            "unbebautes Grundstück nach §178 erkennen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
+          "titel": "Unbebaut i.S.d. § 178 BewG?",
           "text": null,
-          "norm": "§ 18 Abs. 1 Nr. 3 EStG",
+          "norm": "§ 178 BewG",
           "icon": null,
-          "sprecher": "Schritt 1: Einkunftsart: § 18 Abs. 1 Nr. 3 EStG.",
+          "sprecher": "Schritt 1: Unbebaut i.S.d. § 178 BewG?",
           "marken": [
-            "Einkunftsart: § 18 Abs. 1 Nr. 3 EStG."
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
+          "titel": "Bodenrichtwert nach § 179 ermitteln; Quellenhinweis: letzter BRW vor dem Stichtag.",
           "text": null,
-          "norm": "§ 49 Abs. 1 Nr. 3 EStG",
+          "norm": "§ 179 BewG",
           "icon": null,
-          "sprecher": "Schritt 2: Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tätigkeit/Vergütung aus deutschem Aufsichtsrat.",
+          "sprecher": "Schritt 2: Prüfe § 179 BewG im Zusammenhang mit Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale.",
           "marken": [
-            "Inlandsanknüpfung: § 49 Abs. 1 Nr. 3 EStG bei Tä"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Aufsichtsratsvergütungen können nach § 49 Abs. 1 Nr. 3 EStG inländische Einkünfte sein. Ein DBA kann das Recht gesondert zuweisen.",
-          "sprecher": "Aufsichtsratsvergütungen können nach § 49 Abs. 1 Nr. 3 EStG inländische Einkünfte sein. Ein DBA kann das Recht gesondert zuweisen.",
+          "titel": "Merksatz",
+          "text": "Bei Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -379,47 +368,41 @@
           ]
         }
       ],
-      "caption": "Aufsichtsrat im Inland: Wo wird besteuert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Aufsichtsrat im Inland: Wo wird besteuert?",
+      "kurztitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 18 Abs. 1 Nr. 3 EStG",
-        "§ 49 Abs. 1 Nr. 3 EStG",
-        "§ 50a Abs. 1 Nr. 4 EStG",
-        "§ 50a Abs. 2 EStG",
-        "§ 50a Abs. 3 EStG",
-        "Art. 16 DBA",
-        "§ 50a Abs. 1 Nr. 4, Abs. 2, 3 EStG",
-        "Themenpool: istr-modul-istr-istr3-04"
+        "§ 178 BewG",
+        "§ 179 BewG",
+        "H B 179.2",
+        "Themenpool: erbst-modul-erbst-544"
       ],
       "coverRegie": {
-        "thema": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+        "thema": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
         "goldenReferences": [
           "assets/referenzen/charaktere/05-fritz-kranz.jpg",
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b3-istr-modul-istr-istr3-04-cover.png",
+        "bilddatei": "2026-10-10-b3-erbst-modul-erbst-544-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -433,15 +416,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
       "frage": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
-      "liveVorrangAktiv": true,
+      "titel": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
       "optionen": [
         "1 %",
         "5 %",
@@ -461,83 +443,78 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "5 %",
-      "text": "Richtig: 5 %. 5 % gelten im Grundfall als nichtabziehbare Betriebsausgaben.",
-      "liveVorrangAktiv": true,
       "optionen": [
         "1 %",
         "5 %",
         "10 %"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "text": "5 % gelten im Grundfall als nichtabziehbare Betriebsausgaben."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-313",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-10",
       "quellen": [
-        "§ 122 Abs. 2 Nr. 1 AO",
-        "§ 108 Abs. 3 AO",
-        "§ 122 Abs. 2a AO",
-        "§ 122 Abs. 5 AO",
-        "§ 8 VwZG",
-        "§§ 177–182 ZPO",
-        "§ 122a AO",
-        "§ 122a Abs. 1–5 AO",
-        "Art. 97 § 28 Abs. 2 EGAO",
-        "Themenpool: ao-modul-ao-313"
+        "§ 50a Abs. 1 EStG",
+        "§ 50a Abs. 2 EStG",
+        "§ 50a Abs. 5 EStG",
+        "§ 50c EStG",
+        "§ 50a EStG",
+        "Themenpool: istr-modul-istr-istr1-10"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 122 Abs. 2 Nr. 1 AO",
-      "titel": "Wann ist der Bescheid bekanntgegeben?",
-      "text": "Drei-/Vier-Tages-Fiktion nach Jahr unterscheiden Postaufgabe statt Bescheiddatum verwenden",
-      "liveVorrangAktiv": true
+      "norm": "§ 50a Abs. 1 EStG",
+      "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
+      "text": "§ 50a nur nach vorheriger persönlicher Steuerpflicht und §-49-Inlandsanknüpfung untersuchen. Tatbestände des Steuerabzugs und Bemessungsgrundlage/Steuersatz sauber bestimmen."
     },
     "s7": {
       "slot": "s7",
       "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-362",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-5-05",
       "quellen": [
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "§ 175 Abs. 1 S. 2 AO",
-        "§ 175 Abs. 2 AO",
-        "§ 171 Abs. 10a AO",
-        "§ 175b Abs. 1 AO",
-        "§ 175b Abs. 2 AO",
-        "§ 175 Abs. 1 Nr. 2 und S. 2 AO",
-        "§ 175b Abs. 1 und 2 AO",
-        "Themenpool: ao-modul-ao-362"
+        "§ 6 AStG",
+        "§ 17 EStG",
+        "§ 6 Abs. 1 AStG",
+        "§ 6 Abs. 3 AStG",
+        "§ 241 AO",
+        "§ 3c Abs. 2 EStG",
+        "§ 8 AO",
+        "§ 9 AO",
+        "§ 16 EStG",
+        "§ 165 AO",
+        "Themenpool: istr-aufb-istr-gh-5-05"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "§ 175 AO: Rückwirkendes Ereignis?",
-      "text": "Ereignis nach Bescheid + steuerliche Rückwirkung = § 175 Abs. 1 Nr. 2; für dieses Ereignis Fristbeginn nach § 175 Abs. 1 S. 2 separat untersuchen.",
-      "liveVorrangAktiv": true
+      "titel": "Wegzug mit GmbH-Anteilen: Was löst § 6 AStG aus?",
+      "text": "Wer mit wesentlichen Anteilen Deutschland verlässt, versteuert die stillen Reserven so, als hätte er am Tag des Wegzugs zum gemeinen Wert verkauft."
     },
     "s8": {
       "slot": "s8",
@@ -552,150 +529,53 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Vollamortisation",
       "text": "Die Leasingraten der Grundmietzeit decken die Anschaffungskosten und Nebenkosten des Leasinggebers lückenlos ab.",
-      "norm": "BMF vom 19.4.1971",
-      "liveVorrangAktiv": true
+      "norm": "BMF vom 19.4.1971"
     },
     "s9": {
       "slot": "s9",
       "art": "fehler",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-369",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-4-22",
       "quellen": [
-        "§ 351 Abs. 1 AO",
-        "§ 177 Abs. 1 AO",
-        "§ 177 Abs. 2 AO",
-        "§ 177 AO",
-        "Korrekturformel",
-        "Themenpool: ao-modul-ao-369"
+        "Art. 15 OECD-MA",
+        "§ 50d Abs. 8 EStG",
+        "§ 8 AO",
+        "Themenpool: istr-aufb-istr-gh-4-22"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "§ 351 AO: Einspruch noch möglich?",
-      "falsch": "§ 351 Abs. 1 AO auch ohne Änderungsbescheid anwenden.",
-      "richtigText": "Anwendungsbereich des § 351 Abs. 1 AO erkennen",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Ware geliefert: Ist der Gewinn schon realisiert?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Frist vorbei: Welche Korrektur bleibt offen?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Aufsichtsrat im Inland: Wo wird besteuert?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+      "falsch": "Nur die Tage zählen und übersehen, dass die Lohnkostentragung durch eine Betriebsstätte im Tätigkeitsstaat die Rückausnahme verhindert.",
+      "richtigText": "Du weißt, dass der Ansässigkeitsstaat besteuert, solange die Tätigkeit nicht im anderen Staat ausgeübt wird."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:24.758Z",
-    "pfad": "vorproduktion/2026-10-10/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

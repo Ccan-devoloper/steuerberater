@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-32",
-        "themaTitel": "Aufbau der Lösung: und Buchungskreise",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "istr-modul-istr-istr2-07",
+        "themaTitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+        "fach": "istr",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-531",
-        "themaTitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-2-45",
+        "themaTitel": "Wie berechnet man den Einbringungsgewinn I?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr1-08",
-        "themaTitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "ao-modul-ao-391",
+        "themaTitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
+        "fach": "ao",
+        "klausur": 1,
         "lang": false
       }
     ],
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:06",
         "art": "frage",
-        "themaId": "kst-quiz-kst-4"
+        "themaId": "bilanz-quiz-k3-12"
       },
       {
         "slot": "s5",
         "zeit": "07:06",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-4"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:12",
-        "art": "norm",
-        "themaId": "erbst-modul-erbst-532"
+        "themaId": "bilanz-quiz-k3-12"
       },
       {
         "slot": "s1",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "12:12",
+        "art": "norm",
+        "themaId": "ao-modul-ao-315"
+      },
+      {
         "slot": "s7",
         "zeit": "14:37",
         "art": "tipp",
-        "themaId": "ao-modul-ao-301"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:57",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-305"
+        "themaId": "istr-modul-istr-istr2-01"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:57",
+        "art": "tipp",
+        "themaId": "istr-aufb-istr-gh-4-45"
+      },
+      {
         "slot": "s9",
         "zeit": "19:17",
         "art": "tipp",
-        "themaId": "erbst-modul-erbst-502"
+        "themaId": "ao-modul-ao-359"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-32",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-07",
       "slug": "2026-10-13-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Bilanzklausur: In welcher Reihenfolge korrigieren?",
+          "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "die sechs Prüfungsschritte auswendig abrufen",
-            "jeden Schritt mit Norm und Ergebnissatz abschließen"
+            "Tätigkeitsstaat als Ausgangspunkt des Art. 15 bestimmen.",
+            "Die drei Voraussetzungen der 183-Tage-Ausnahme kumulativ untersuchen."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Ansatz I – Zurechnung: Wem gehört es (§ 39 AO)?"
+              "text": "1. Ansässigkeitsstaat und Tätigkeitsstaat bestimmen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ansatz II – Zuordnung: Was ist es (AV/UV, abnutzbar, notwendig oder gewillkürt)?"
+              "text": "2. Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "In der Bilanzklausur zuerst Zurechnung, dann Ansatz und Bewertung klären. Jede Buchung dem richtigen Buchungskreis zuweisen."
+          "titel": "Merksatz",
+          "text": "Bei Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -159,80 +152,71 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Thema für die nächste Wiederholung speichern"
           ],
           "icons": [
             "dokument",
             "lupe",
-            "warnung"
+            "buch"
           ]
         }
       ],
-      "caption": "Bilanzklausur: In welcher Reihenfolge korrigieren? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Bilanzklausur: In welcher Reihenfolge korrigieren?",
+      "kurztitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 246 Abs. 1 S. 2 HGB",
-        "§ 39 AO",
-        "§ 247 Abs. 2 HGB",
-        "§ 253 HGB",
-        "§ 255 HGB",
-        "§ 5 Abs. 1 S. 1 EStG",
-        "§ 6 EStG",
-        "§ 7 EStG",
-        "Klausurtechnik",
-        "Aufbauschema",
-        "Themenpool: bilanz-modul-k3-32"
+        "Art. 15 DBA",
+        "Art. 23 DBA",
+        "§ 32b EStG",
+        "Themenpool: istr-modul-istr-istr2-07"
       ],
       "coverRegie": {
-        "thema": "Aufbau der Lösung: und Buchungskreise",
+        "thema": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-13-b1-bilanz-modul-k3-32-cover.png",
+        "bilddatei": "2026-10-13-b1-istr-modul-istr-istr2-07-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-531",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-45",
       "slug": "2026-10-13-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Wohnrecht oder Rente: Was ist der Jahreswert?",
+          "titel": "Wie berechnet man den Einbringungsgewinn I?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "haus"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Nutzung/Leistung als eigenen Bewertungsblock erkennen",
-            "Jahreswert und Vervielfältiger strikt trennen"
+            "Veräußert der Einbringende die erhaltenen Anteile innerhalb von sieben Jahren nach dem Übertragungsstichtag, ist rückwirkend im Jahr der Einbringung der Einbringungsgewinn I als Gewinn nach § 16 EStG zu versteuern (§ 22 Abs. 1 UmwStG); §§ 16 Abs. 4 und 34 EStG sind nicht anzuwenden.",
+            "Der Einbringungsgewinn I ist der gemeine Wert des eingebrachten Betriebsvermögens am Stichtag abzüglich Kosten des Vermögensübergangs und abzüglich des Wertansatzes der Kapitalgesellschaft; spätere Wertänderungen bleiben außer Betracht."
           ]
         },
         {
@@ -241,18 +225,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Recht/Leistung bestimmen: z.B. Wohnrecht, Nießbrauch, Rente, Pflege/Rasenmähen."
+              "text": "untersuchen, ob die Einbringung unter dem gemeinen Wert erfolgte und ob innerhalb der sieben Jahre eine schädliche Veräußerung oder ein gleichgestellter Vorgang vorliegt."
             },
             {
               "titel": "2. Schritt",
-              "text": "① Jahreswert nach § 15 BewG ermitteln."
+              "text": "Gemeinen Wert am Stichtag, Wertansatz der Gesellschaft und Einbringungskosten zusammenstellen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Bestimme den Jahreswert der Nutzung oder Leistung. Der passende Vervielfältiger richtet sich anschließend nach ihrer Dauer."
+          "titel": "Merksatz",
+          "text": "Bei Wie berechnet man den Einbringungsgewinn I?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -269,102 +253,101 @@
           ]
         }
       ],
-      "caption": "Wohnrecht oder Rente: Was ist der Jahreswert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wie berechnet man den Einbringungsgewinn I?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Wohnrecht oder Rente: Was ist der Jahreswert?",
+      "kurztitel": "Wie berechnet man den Einbringungsgewinn I",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 15 Abs. 1 BewG",
-        "§ 15 Abs. 2 BewG",
-        "§ 15 Abs. 3 BewG",
-        "§ 16 BewG",
-        "§ 13 BewG",
-        "§ 14 BewG",
-        "§§ 13–16 BewG",
-        "§ 15 Abs. 1–3 BewG",
-        "Themenpool: erbst-modul-erbst-531"
+        "§ 22 Abs. 1 UmwStG",
+        "§ 16 EStG",
+        "§ 20 Abs. 2 UmwStG",
+        "§ 16 Abs. 2 EStG",
+        "§ 20 Abs. 3 UmwStG",
+        "§ 20 UmwStG",
+        "§ 4 Abs. 5b EStG",
+        "§ 15 EStG",
+        "Themenpool: umwst-aufb-umw-2-45"
       ],
       "coverRegie": {
-        "thema": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
+        "thema": "Wie berechnet man den Einbringungsgewinn I?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-13-b2-erbst-modul-erbst-531-cover.png",
+        "bilddatei": "2026-10-13-b2-umwst-aufb-umw-2-45-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr1-08",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-391",
       "slug": "2026-10-13-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch?",
-          "norm": "§ 1 Abs. 4 EStG",
-          "icon": "globus",
-          "sprecher": "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
+          "unter": "Abgabenordnung",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 69 AO",
+          "icon": null,
+          "sprecher": "Heute geht es um Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch"
+            "Grundsatz der Gesamtverantwortung nennen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "E – Einkunftsart nach §§ 13–24 EStG bestimmen.",
+          "titel": "Grundsatz: Gesamtverantwortung aller GF.",
           "text": null,
-          "norm": "§ 1 Abs. 4 EStG",
+          "norm": "§ 69 AO",
           "icon": null,
-          "sprecher": "Schritt 1: E – Einkunftsart nach §§ 13–24 EStG bestimmen.",
+          "sprecher": "Schritt 1: Grundsatz: Gesamtverantwortung aller GF.",
           "marken": [
-            "E – Einkunftsart nach §§ 13–24 EStG bestimmen."
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "I – inländische Einkünfte: passende Nummer des § 49 Abs. 1 EStG und deren Inlandsmerkmal untersuchen.",
+          "titel": "",
           "text": null,
-          "norm": "§ 49 Abs. 1 EStG",
+          "norm": "§ 34 AO",
           "icon": null,
-          "sprecher": "Schritt 2: I – inländische Einkünfte: passende Nummer des § 49 Abs. 1 EStG und deren Inlandsmerkmal untersuchen.",
+          "sprecher": "Schritt 2: .",
           "marken": [
-            "I – inländische Einkünfte: passende Nummer des §"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Erst wenn die Einkunftsart und das konkrete Inlandsmerkmal in § 49 EStG passen, sind die Einkünfte inländisch im Sinne der beschränkten Steuerpflicht.",
-          "sprecher": "Erst wenn die Einkunftsart und das konkrete Inlandsmerkmal in § 49 EStG passen, sind die Einkünfte inländisch im Sinne der beschränkten Steuerpflicht.",
+          "titel": "Merksatz",
+          "text": "Bei Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -380,331 +363,217 @@
           ]
         }
       ],
-      "caption": "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch?",
+      "kurztitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 4 EStG",
-        "§ 49 Abs. 1 EStG",
-        "§ 50 EStG",
-        "§ 50a EStG",
-        "§ 49 EStG",
-        "Themenpool: istr-modul-istr-istr1-08"
+        "§ 69 AO",
+        "§ 34 AO",
+        "Themenpool: ao-modul-ao-391"
       ],
       "coverRegie": {
-        "thema": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
+        "thema": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-13-b3-istr-modul-istr-istr1-08-cover.png",
+        "bilddatei": "2026-10-13-b3-ao-modul-ao-391-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-4",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-12",
       "quellen": [
-        "Themenpool: kst-quiz-kst-4"
+        "Themenpool: bilanz-quiz-k3-12"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Was ist regelmäßig kein einlagefähiger Vermögensvorteil?",
-      "frage": "Was ist regelmäßig kein einlagefähiger Vermögensvorteil?",
-      "liveVorrangAktiv": true,
+      "frage": "Welche Norm schließt die Abgeltungswirkung im Betriebsvermögen aus?",
+      "titel": "Welche Norm schließt die Abgeltungswirkung im Betriebsvermögen aus?",
       "optionen": [
-        "Maschine",
-        "Forderung",
-        "unentgeltliche Arbeits- oder Nutzungsleistung"
+        "§ 43 Abs. 5 S. 2 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 20 Abs. 8 EStG"
       ],
-      "richtig": 2
+      "richtig": 0
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-4",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-12",
       "quellen": [
-        "Themenpool: kst-quiz-kst-4"
+        "Themenpool: bilanz-quiz-k3-12"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "unentgeltliche Arbeits- oder Nutzungsleistung",
-      "text": "Richtig ist: unentgeltliche Arbeits- oder Nutzungsleistung.",
-      "liveVorrangAktiv": true,
+      "titel": "§ 43 Abs. 5 S. 2 EStG",
       "optionen": [
-        "Maschine",
-        "Forderung",
-        "unentgeltliche Arbeits- oder Nutzungsleistung"
+        "§ 43 Abs. 5 S. 2 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 20 Abs. 8 EStG"
       ],
-      "richtig": 2
+      "richtig": 0,
+      "text": "§ 43 Abs. 5 S. 2 EStG: keine Abgeltung bei Einkünften aus dem Betriebsvermögen."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-532",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-315",
       "quellen": [
-        "§ 13 Abs. 1 BewG",
-        "§ 14 BewG",
-        "Anlage 9a BewG",
-        "§ 13 Abs. 1–3 BewG",
-        "§ 14 Abs. 1 BewG",
-        "BMF 21.10.2025 – IV D 4 - S 3104/00002/013/003",
-        "BMF 09.12.2024 – IV D 4 - S 3104/19/10001 :010",
-        "Themenpool: erbst-modul-erbst-532"
+        "§ 124 AO",
+        "§ 125 AO",
+        "§ 126 AO",
+        "§ 127 AO",
+        "§ 91 AO",
+        "§ 121 AO",
+        "§§ 17 ff. AO",
+        "§ 157 Abs. 1 S. 3 AO",
+        "Themenpool: ao-modul-ao-315"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 13 Abs. 1 BewG",
-      "titel": "BewG: Welcher Vervielfältiger?",
-      "text": "bestimmte Dauer nach § 13 von lebenslänglicher Dauer nach § 14 BewG trennen für § 14 die zum Bewertungsstichtag geltende BMF-Tabelle verwenden",
-      "liveVorrangAktiv": true
+      "norm": "§ 124 AO",
+      "titel": "Wirksam trotz Fehler: Rechtswidrigkeit, Nichtigkeit und die Tortenstückfehlerlehre",
+      "text": "Wirksamkeit und Rechtmäßigkeit nicht vermischen Nichtigkeit als Ausnahmebereich erkennen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-301",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-01",
       "quellen": [
-        "§ 38 AO",
-        "§§ 85 ff. AO",
-        "§ 93 AO",
-        "§ 97 AO",
-        "§ 153 AO",
-        "§§ 118 ff. AO",
-        "§§ 155 ff. AO",
-        "§§ 122–127 AO",
-        "§§ 169–171 AO",
-        "Themenpool: ao-modul-ao-301"
+        "§ 1 Abs. 1 EStG",
+        "§ 1 Abs. 3 EStG",
+        "§ 49 EStG",
+        "§ 1 Abs. 4 EStG",
+        "§ 50 Abs. 1 EStG",
+        "§ 1 Abs. 1, 3, 4 EStG",
+        "Themenpool: istr-modul-istr-istr2-01"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Steuerverfahren: Welche Stufe zuerst?",
-      "text": "Steuerentstehung nach § 38 AO i.V.m. dem Einzelsteuergesetz bestimmen.",
-      "liveVorrangAktiv": true
+      "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
+      "text": "1. § 1 Abs. 1 EStG: Wohnsitz/gewöhnlicher Aufenthalt?"
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-305",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-4-45",
       "quellen": [
-        "§ 118 AO",
-        "§ 155 AO",
-        "§§ 167, 168 AO",
-        "§ 179 AO",
-        "§ 239 AO",
-        "§ 164 AO",
-        "§ 165 AO",
-        "§§ 172–177 AO",
-        "§ 130 AO",
-        "§ 131 AO",
-        "Themenpool: ao-modul-ao-305"
+        "§ 34c Abs. 2 EStG",
+        "§ 34c Abs. 1 EStG",
+        "§ 34c Abs. 3 EStG",
+        "§ 32d EStG",
+        "§ 32d Abs. 5 EStG",
+        "§ 34d EStG",
+        "Themenpool: istr-aufb-istr-gh-4-45"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Steuerbescheid oder sonstiger VA?",
-      "text": "Nach § 118 AO zuerst VA bejahen.",
-      "liveVorrangAktiv": true
+      "titel": "Abzug statt Anrechnung: Wann lohnt § 34c Abs. 2 EStG?",
+      "text": "Prüfe zuerst die Voraussetzungen des § 34c Abs. 1 EStG; fehlen sie, ist § 34c Abs. 3 EStG einschlägig."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-502",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-359",
       "quellen": [
-        "§ 1 ErbStG",
-        "§ 3 ErbStG / § 7 ErbStG",
-        "§ 2 ErbStG",
-        "§ 20 ErbStG",
-        "§ 15 ErbStG",
-        "§ 9 ErbStG",
-        "§ 11 ErbStG",
-        "§ 3 ErbStG",
-        "§ 7 ErbStG",
-        "Themenpool: erbst-modul-erbst-502"
+        "AEAO zu § 173 Nr. 3",
+        "§ 165 Abs. 1 S. 2 Nr. 4 AO",
+        "§ 363 Abs. 2 AO",
+        "§ 173 Abs. 2 AO",
+        "§ 173 Abs. 1 und Abs. 2 AO",
+        "Themenpool: ao-modul-ao-359"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Erbschaftsteuer: Erst die Vorfragen!",
-      "text": "1. § 7 ErbStG (Schenkung unter Lebenden; markiert ist insbesondere § 7 Abs. 1 Nr. 1) verzweigt.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Bilanzklausur: In welcher Reihenfolge korrigieren?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wohnrecht oder Rente: Was ist der Jahreswert?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Beschränkte Steuerpflicht: Welche Einkünfte sind inländisch?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
+      "text": "Neue Tatsache oder neues Beweismittel und Rechtserheblichkeit nach § 173 Abs. 1 untersuchen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:38.901Z",
-    "pfad": "vorproduktion/2026-10-13/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

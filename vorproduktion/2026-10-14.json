@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-17",
-        "themaTitel": "Verdeckte Gewinnausschüttung",
-        "fach": "bilanz",
+        "themaId": "persg-aufb-persg-melzer-5-4",
+        "themaTitel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+        "fach": "persg",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-515",
-        "themaTitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
-        "fach": "erbst",
+        "themaId": "ao-aufb-ao-jacobs-7-7",
+        "themaTitel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+        "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr4-02",
-        "themaTitel": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
-        "fach": "istr",
+        "themaId": "gewst-aufb-gewst-ks-10",
+        "themaTitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+        "fach": "gewst",
         "klausur": 2,
         "lang": false
       }
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:20",
         "art": "frage",
-        "themaId": "kst-quiz-kst-0"
+        "themaId": "bilanz-quiz-k3-14"
       },
       {
         "slot": "s5",
         "zeit": "07:20",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-0"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:08",
-        "art": "norm",
-        "themaId": "erbst-modul-erbst-504"
+        "themaId": "bilanz-quiz-k3-14"
       },
       {
         "slot": "s1",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "12:08",
+        "art": "norm",
+        "themaId": "ao-modul-ao-305"
+      },
+      {
         "slot": "s7",
         "zeit": "14:25",
         "art": "tipp",
-        "themaId": "erbst-modul-erbst-503"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:49",
-        "art": "tipp",
-        "themaId": "persg-modul-persg-2"
+        "themaId": "istr-aufb-istr-gh-3-05"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:49",
+        "art": "tipp",
+        "themaId": "ao-aufb-ao-jacobs-3-11"
+      },
+      {
         "slot": "s9",
         "zeit": "19:22",
         "art": "merksatz",
-        "themaId": "istr-modul-istr-istr4-05"
+        "themaId": "istr-modul-istr-istr3-04"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-17",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-5-4",
       "slug": "2026-10-14-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Gesellschaftervorteil: Ist das schon eine vGA?",
+          "titel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "personen"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Tatbestandsmerkmale der vGA auswendig anwenden",
-            "Fremdvergleich und beherrschenden Gesellschafter untersuchen"
+            "Regelwert ist der gemeine Wert; Buch- oder Zwischenwert setzt voraus, dass das deutsche Besteuerungsrecht nicht eingeschränkt wird und eine sonstige Gegenleistung höchstens 25 % des Buchwerts oder 500.000 € erreicht, jedoch nie mehr als den Buchwert.",
+            "Der Wert, den die Gesellschaft einschließlich der Ergänzungsbilanzen ansetzt, gilt nach § 24 Abs. 3 UmwStG als Veräußerungspreis des Einbringenden; §§ 16 Abs. 4 und 34 EStG gibt es nur beim Ansatz des gemeinen Werts."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Vermögensminderung/verhinderte Mehrung feststellen."
+              "text": "Den Antrag auf Buch- oder Zwischenwert und die Grenzen für sonstige Gegenleistungen untersuchen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Auswirkung auf steuerlichen Gewinn?"
+              "text": "Die gewünschten Kapitalkonten laut Gesellschaftsvertrag feststellen und entscheiden, ob brutto oder netto gearbeitet wird."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Eine gesellschaftlich veranlasste Vermögensminderung kann eine vGA sein. Soweit sie den Gewinn gesenkt hat, wird sie außerbilanziell korrigiert."
+          "titel": "Merksatz",
+          "text": "Bei Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,123 +161,31 @@
           ]
         }
       ],
-      "caption": "Gesellschaftervorteil: Ist das schon eine vGA? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Gesellschaftervorteil: Ist das schon eine vGA?",
+      "kurztitel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Abs. 3 S. 2 KStG",
-        "R 8.5 Abs. 1 KStR",
-        "§ 4 Abs. 1 S. 1 EStG",
-        "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
-        "§ 3 Nr. 40 Buchst. d) EStG",
-        "§ 32a KStG",
-        "§ 8 Abs. 3 Satz 2 KStG",
-        "Themenpool: bilanz-modul-k3-17"
+        "§ 24 Abs. 2 Sätze 1 bis 4 UmwStG",
+        "§ 24 Abs. 3 UmwStG",
+        "§ 24 Abs. 4 UmwStG",
+        "§ 23 Abs. 1 UmwStG",
+        "§ 4 Abs. 2 Satz 3 UmwStG",
+        "§ 12 Abs. 3 UmwStG",
+        "§ 6b Abs. 4 Nr. 2 EStG",
+        "§ 16 Abs. 2 und Abs. 4 EStG",
+        "§ 34 EStG",
+        "UmwStE vom 02.01.2025, Rn. 24.04, 24.14, 24.15 f.",
+        "Themenpool: persg-aufb-persg-melzer-5-4"
       ],
       "coverRegie": {
-        "thema": "Verdeckte Gewinnausschüttung",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b1-bilanz-modul-k3-17-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-515",
-      "slug": "2026-10-14-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Schulden beim Erbe: Was darfst du abziehen?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "haus"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "§ 10 Abs. 6, 6a und 6b nach ihrer aktuellen Funktion auseinanderhalten",
-            "wirtschaftlich direkt mit steuerbefreitem Vermögen zusammenhängende Schulden nach § 10 Abs. 6a kürzen"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Zuerst feststellen, ob der Fall unbeschränkte oder beschränkte Steuerpflicht bzw. ein beschränktes deutsches Besteuerungsrecht betrifft."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Bei wirtschaftlichem Zusammenhang mit lückenlos oder teilweise steuerbefreitem Vermögen die Kürzung nach § 10 Abs. 6a ErbStG bestimmen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Bei Nachlassschulden sind der Bezug zu steuerbefreitem Vermögen und die Kürzung nach § 10 Abs. 6a ErbStG gesondert zu prüfen."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Schulden beim Erbe: Was darfst du abziehen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#erbschaftsteuer"
-      ],
-      "kurztitel": "Schulden beim Erbe: Was darfst du abziehen?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 10 Abs. 6a ErbStG",
-        "R E 10.10 Abs. 2 S. 2",
-        "§ 10 Abs. 6 ErbStG",
-        "§ 10 Abs. 6b ErbStG",
-        "Themenpool: erbst-modul-erbst-515"
-      ],
-      "coverRegie": {
-        "thema": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+        "thema": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
         "goldenReferences": [
           "assets/referenzen/charaktere/02-vera-kranz.jpg",
           "assets/referenzen/charaktere/07-dario-costa.jpg"
@@ -292,72 +193,169 @@
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b2-erbst-modul-erbst-515-cover.png",
+        "bilddatei": "2026-10-14-b1-persg-aufb-persg-melzer-5-4-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-7-7",
+      "slug": "2026-10-14-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Tatsache ist jeder Lebenssachverhalt, der Merkmal eines Steuertatbestands sein kann; rechtliche Schlussfolgerungen und Bewertungen gehören nicht dazu.",
+            "Maßgeblich ist das Wissen der für die Festsetzung zuständigen Dienststelle bei abschließender Zeichnung, wobei der gesamte Akteninhalt als bekannt gilt."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Jeden Lebenssachverhalt separat betrachten und nach Steuererhöhung (Nr. 1) oder Steuerminderung (Nr. 2) trennen; saldiert wird hier nicht."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "untersuchen, ob eine Tatsache oder ein Beweismittel vorliegt und nicht bloß eine abweichende rechtliche Würdigung."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Neue Tatsache nach § 173 AO: Wessen Wissen zählt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ],
+      "kurztitel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
+        "§ 177 AO",
+        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 165 Abs. 1 Satz 2 Nr. 3 AO",
+        "§ 92 AO",
+        "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 10d EStG",
+        "§ 16 EStG",
+        "AEAO zu § 173 AO, Tz. 1, 2, 2.4 und 3",
+        "Themenpool: ao-aufb-ao-jacobs-7-7"
+      ],
+      "coverRegie": {
+        "thema": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-14-b2-ao-aufb-ao-jacobs-7-7-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr4-02",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-10",
       "slug": "2026-10-14-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
-          "norm": "§ 7 Abs. 1 S. 1 AStG",
-          "icon": "globus",
-          "sprecher": "Auslandsgesellschaft: Wer beherrscht sie wirklich? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+          "unter": "Gewerbesteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 35 Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Auslandsgesellschaft: Wer beherrscht sie wirklich"
+            "Du weißt, dass die Ermäßigung das"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
+          "titel": "Prüfpunkt 1: § 35 Abs. 1 EStG",
           "text": null,
-          "norm": "§ 7 Abs. 1 S. 1 AStG",
+          "norm": "§ 35 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 EStG bzw. § 1 KStG feststellen.",
+          "sprecher": "Schritt 1: Prüfe § 35 Abs. 1 EStG im Zusammenhang mit Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
           "marken": [
-            "Unbeschränkt Steuerpflichtiger nach § 1 Abs. 1 E"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Sitz und Leitung im Ausland?",
+          "titel": "Multipliziere mit vier und begrenze das Ergebnis auf die tatsächlich zu zahlende Gewerbesteuer.",
           "text": null,
-          "norm": "§ 7 Abs. 1 S. 2 AStG",
+          "norm": "§ 35 Abs. 2 EStG",
           "icon": null,
-          "sprecher": "Bestimme die Gesellschaftsform und kläre, ob weder Sitz noch Geschäftsleitung in Deutschland liegen.",
+          "sprecher": "Schritt 2: Prüfe § 35 Abs. 2 EStG im Zusammenhang mit Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
           "marken": [
-            "Sitz und Leitung im Ausland?"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Beherrschung nach § 7 AStG verlangt die maßgebliche Beteiligungsmehrheit; rechne unmittelbare und mittelbare Beteiligungen sowie nahestehende Personen ein.",
-          "sprecher": "Beherrschung nach § 7 AStG verlangt die maßgebliche Beteiligungsmehrheit; rechne unmittelbare und mittelbare Beteiligungen sowie nahestehende Personen ein.",
+          "titel": "Merksatz",
+          "text": "Bei Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -373,190 +371,181 @@
           ]
         }
       ],
-      "caption": "Auslandsgesellschaft: Wer beherrscht sie wirklich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
+      "kurztitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 7 Abs. 1 S. 1 AStG",
-        "§ 7 Abs. 1 S. 2 AStG",
-        "§ 7 Abs. 2 AStG",
-        "§ 7 Abs. 3 AStG",
-        "§ 7 Abs. 4 AStG",
-        "§ 7 Abs. 5 AStG",
-        "§ 1 Abs. 2 AStG",
-        "§ 3 Abs. 1 KStG",
-        "§ 7 Abs. 3, 4 AStG",
-        "Themenpool: istr-modul-istr-istr4-02"
+        "§ 35 Abs. 1 EStG",
+        "§ 35 Abs. 2 EStG",
+        "§ 16 EStG",
+        "§ 17 EStG",
+        "Themenpool: gewst-aufb-gewst-ks-10"
       ],
       "coverRegie": {
-        "thema": "§ 7 AStG: Beherrschung einer ausländischen Zwischengesellschaft",
+        "thema": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b3-istr-modul-istr-istr4-02-cover.png",
+        "bilddatei": "2026-10-14-b3-gewst-aufb-gewst-ks-10-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-0",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-14",
       "quellen": [
-        "§ 1 Abs. 1 Nr. 1 KStG",
-        "H 1.1 KStH",
-        "Themenpool: kst-quiz-kst-0"
+        "Themenpool: bilanz-quiz-k3-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wann beginnt bei einer GmbH, die später tatsächlich in das Handelsregister eingetragen wird, die Körperschaftsteuerpflicht?",
-      "frage": "Wann beginnt bei einer GmbH, die später tatsächlich in das Handelsregister eingetragen wird, die Körperschaftsteuerpflicht?",
-      "liveVorrangAktiv": true,
+      "frage": "Wie wird ein Disagio beim Fälligkeitsdarlehen aufgelöst?",
+      "titel": "Wie wird ein Disagio beim Fälligkeitsdarlehen aufgelöst?",
       "optionen": [
-        "Mit dem ersten Gründungsbeschluss",
-        "Mit der notariellen Beurkundung",
-        "Mit der Handelsregistereintragung"
+        "Zinsstaffel",
+        "linear",
+        "sofort"
       ],
       "richtig": 1
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-0",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-14",
       "quellen": [
-        "§ 1 Abs. 1 Nr. 1 KStG",
-        "H 1.1 KStH",
-        "Themenpool: kst-quiz-kst-0"
+        "Themenpool: bilanz-quiz-k3-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Mit der notariellen Beurkundung",
-      "text": "Richtig ist: Mit der notariellen Beurkundung.",
-      "liveVorrangAktiv": true,
+      "titel": "linear",
       "optionen": [
-        "Mit dem ersten Gründungsbeschluss",
-        "Mit der notariellen Beurkundung",
-        "Mit der Handelsregistereintragung"
+        "Zinsstaffel",
+        "linear",
+        "sofort"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "text": "Das überlassene Kapital bleibt konstant, daher lineare Auflösung."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-504",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-305",
       "quellen": [
-        "§ 12 ErbStG",
-        "BewG",
-        "§§ 13–13d ErbStG",
-        "§ 10 Abs. 5 Nr. 1–2 ErbStG",
-        "R E 7.4 Abs. 1 S. 2",
-        "§ 10 Abs. 6/6a ErbStG",
-        "§ 10 Abs. 6, 6a ErbStG",
-        "Themenpool: erbst-modul-erbst-504"
+        "§ 118 AO",
+        "§ 155 AO",
+        "§§ 167, 168 AO",
+        "§ 179 AO",
+        "§ 239 AO",
+        "§ 164 AO",
+        "§ 165 AO",
+        "§§ 172–177 AO",
+        "§ 130 AO",
+        "§ 131 AO",
+        "Themenpool: ao-modul-ao-305"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 12 ErbStG",
-      "titel": "Erwerb: Welche Lasten kürzen?",
-      "text": "für jedes Wirtschaftsgut Bewertung und sachliche Steuerbefreiung getrennt untersuchen § 12 ErbStG als Sprungnorm in das BewG verwenden",
-      "liveVorrangAktiv": true
+      "norm": "§ 118 AO",
+      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+      "text": "Steuerbescheid/gleichgestellten VA von sonstigem VA trennen Korrekturvorschriften abhängig von der VA-Art auswählen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-503",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-3-05",
       "quellen": [
-        "§ 10 Abs. 1 S. 1–2 ErbStG",
-        "R E 7.4 Abs. 1 S. 1–2",
-        "§ 12 ErbStG",
-        "§ 10 Abs. 6 ErbStG",
-        "Themenpool: erbst-modul-erbst-503"
+        "§ 9 AO",
+        "Themenpool: istr-aufb-istr-gh-3-05"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Gemischte Schenkung oder Auflage?",
-      "text": "§ 10 Abs. 1 S. 1 ErbStG: steuerpflichtiger Erwerb = Bereicherung des Erwerbers, soweit nicht steuerfrei.",
-      "liveVorrangAktiv": true
+      "titel": "Gewöhnlicher Aufenthalt: Wann reicht die bloße Anwesenheit?",
+      "text": "Kläre zuerst, ob schon ein Wohnsitz nach § 8 AO vorliegt; § 9 AO ist nur ergänzend zu untersuchen."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-2",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-3-11",
       "quellen": [
-        "§ 15 Abs. 3 Nr. 1 EStG",
-        "§ 15 Abs. 3 Nr. 2 EStG",
-        "§ 15 Abs. 3 Nr. 1, Nr. 2 EStG",
-        "Themenpool: persg-modul-persg-2"
+        "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
+        "§ 122 Abs. 2a AO",
+        "§ 122a AO",
+        "§ 124 Abs. 1 AO",
+        "§ 108 Abs. 1 und Abs. 3 AO",
+        "§ 187 Abs. 1 BGB",
+        "§ 188 Abs. 1 und Abs. 2 BGB",
+        "§ 355 Abs. 1 Satz 1 AO",
+        "§ 357 Abs. 2 Satz 1 AO",
+        "§ 8 VwZG",
+        "Themenpool: ao-aufb-ao-jacobs-3-11"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Personengesellschaft: Abfärbung?",
-      "text": "zuerst klären: Eine Gesellschaft mit zwei Tätigkeiten oder Ober-/Untergesellschaft?",
-      "liveVorrangAktiv": true
+      "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+      "text": "Übermittlungsweg klären: einfacher Brief, elektronische Übermittlung, Datenabruf oder förmliche Zustellung."
     },
     "s9": {
       "slot": "s9",
@@ -564,131 +553,40 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr4-05",
+      "pairId": "istr-modul-istr-istr3-04",
       "quellen": [
-        "§ 8 Abs. 2 AStG",
-        "§ 8 Abs. 3 AStG",
-        "§ 8 Abs. 4 AStG",
-        "§ 1 AStG",
-        "Themenpool: istr-modul-istr-istr4-05"
+        "§ 18 Abs. 1 Nr. 3 EStG",
+        "§ 49 Abs. 1 Nr. 3 EStG",
+        "§ 50a Abs. 1 Nr. 4 EStG",
+        "§ 50a Abs. 2 EStG",
+        "§ 50a Abs. 3 EStG",
+        "Art. 16 DBA",
+        "§ 50a Abs. 1 Nr. 4, Abs. 2, 3 EStG",
+        "Themenpool: istr-modul-istr-istr3-04"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "AStG-Motivtest: Nur EU/EWR?",
-      "text": "Der Motivtest rettet nur EU-/EWR-Gesellschaften: § 8 Abs. 3 AStG schließt jede Drittstaatengesellschaft aus – auch eine substanzstarke.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gesellschaftervorteil: Ist das schon eine vGA?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Schulden beim Erbe: Was darfst du abziehen?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Auslandsgesellschaft: Wer beherrscht sie wirklich?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+      "text": "Aufsichtsratsvergütung: § 18 → § 49 Nr. 3 → § 50a Nr. 4 → 30 % → ggf. EU/EWR-Aufwendungen → Art. 16 DBA."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:43.652Z",
-    "pfad": "vorproduktion/2026-10-14/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

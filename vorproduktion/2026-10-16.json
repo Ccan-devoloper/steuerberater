@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-11",
-        "themaTitel": "Sondervergütungen",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "kst-aufb-kst-t3-7",
+        "themaTitel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
+        "fach": "kst",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-539",
-        "themaTitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-ks-4-04",
+        "themaTitel": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr3-07",
-        "themaTitel": "§ 2 AStG: erweiterte beschränkte Steuerpflicht",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "ust-aufb-ust-m-b06-17",
+        "themaTitel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+        "fach": "ust",
+        "klausur": 1,
         "lang": false
       }
     ],
@@ -64,12 +58,6 @@
         "themaId": "persg-quiz-k3-28"
       },
       {
-        "slot": "s6",
-        "zeit": "11:55",
-        "art": "norm",
-        "themaId": "kst-modul-kst-5"
-      },
-      {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
@@ -77,10 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:55",
+        "art": "norm",
+        "themaId": "ao-modul-ao-323"
+      },
+      {
         "slot": "s7",
         "zeit": "14:27",
         "art": "merksatz",
-        "themaId": "istr-modul-istr-istr4-08"
+        "themaId": "ao-modul-ao-316"
       },
       {
         "slot": "s2",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "16:56",
         "art": "tipp",
-        "themaId": "kst-modul-kst-4"
+        "themaId": "istr-aufb-istr-gh-3-10"
       },
       {
         "slot": "s9",
         "zeit": "19:29",
         "art": "fehler",
-        "themaId": "bilanz-modul-k3-44"
+        "themaId": "ao-modul-ao-340"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-11",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t3-7",
       "slug": "2026-10-16-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
+          "titel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "personen"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Tätigkeits-, Darlehens- und Überlassungsvergütungen erkennen",
-            "Gesamthand und Sonderbereich spiegelbildlich buchen"
+            "Der ausschüttbare Gewinn ist das Eigenkapital der Steuerbilanz zum Vorjahresende abzüglich gezeichnetem Kapital und Bestand des Einlagekontos; ein rechnerisch negativer Wert wird mit null angesetzt.",
+            "In die Rechnung gehen alle im Wirtschaftsjahr abgeflossenen Leistungen gemeinsam ein, etwa offene und verdeckte Ausschüttungen, Vorabausschüttungen und Liquidationsraten."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zahlung an Mitunternehmer identifizieren."
+              "text": "Alle Leistungen feststellen, die im Wirtschaftsjahr tatsächlich abgeflossen sind; eine nur passivierte vGA zählt noch nicht mit."
             },
             {
               "titel": "2. Schritt",
-              "text": "Miete als Sonderbetriebseinnahme des Mitunternehmers und Aufwand der Gesamthand erfassen."
+              "text": "Aus der Steuerbilanz des Vorjahres das Eigenkapital entnehmen und Nennkapital sowie festgestellten Einlagekontobestand abziehen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Die Miete ist beim Mitunternehmer Sonderbetriebseinnahme und bei der Gesellschaft Aufwand. Gesamthand und Sonderbereich sind abzustimmen."
+          "titel": "Merksatz",
+          "text": "Bei Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,192 +161,197 @@
           ]
         }
       ],
-      "caption": "Mitunternehmer erhält Miete: Wo wird sie erfasst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
+      "kurztitel": "Kommt die Ausschüttung aus dem Einlagekonto? Die…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 Hs. 2 EStG",
-        "§ 4 Abs. 4 EStG",
-        "R 4.2 Abs. 2 EStR",
-        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
-        "Themenpool: bilanz-modul-k3-11"
+        "§ 27 Abs. 1 Sätze 3, 4 und 5 KStG",
+        "§ 27 Abs. 3 KStG",
+        "§ 27 Abs. 6 KStG",
+        "§ 28 Abs. 2 KStG",
+        "§ 16 KStG",
+        "§ 14 Abs. 3 Satz 3 KStG",
+        "§ 20 Abs. 1 Nr. 1 EStG, § 20 Abs. 1 Nr. 1 Satz 3 EStG",
+        "§ 17 Abs. 4 EStG",
+        "§ 8b Abs. 2 KStG",
+        "BFH vom 08.06.2011, I R 69/10",
+        "Themenpool: kst-aufb-kst-t3-7"
       ],
       "coverRegie": {
-        "thema": "Sondervergütungen",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b1-bilanz-modul-k3-11-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-539",
-      "slug": "2026-10-16-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Grabpflege: Welcher Vervielfältiger passt?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "haus"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "immerwährende von unbestimmter Dauer trennen",
-            "Grabpflege in den Nutzungs-/Leistungsblock einordnen"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Jahreswert der Leistung bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Immerwährende Dauer: Jahreswert × 18,6; unbestimmte Dauer: Jahreswert × 9,3 (§ 13 Abs. 2 BewG)."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Bei immerwährenden Leistungen gilt das 18,6fache des Jahreswerts, bei unbestimmter Dauer grundsätzlich das 9,3fache (§ 13 Abs. 2 BewG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Grabpflege: Welcher Vervielfältiger passt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#erbschaftsteuer"
-      ],
-      "kurztitel": "Grabpflege: Welcher Vervielfältiger passt?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 13 Abs. 2 BewG",
-        "§ 15 BewG",
-        "§ 16 BewG",
-        "Themenpool: erbst-modul-erbst-539"
-      ],
-      "coverRegie": {
-        "thema": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+        "thema": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b2-erbst-modul-erbst-539-cover.png",
+        "bilddatei": "2026-10-16-b1-kst-aufb-kst-t3-7-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-4-04",
+      "slug": "2026-10-16-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "§ 13 Abs. 1 UmwStG fingiert einen Verkauf der alten Anteile zum gemeinen Wert und eine Anschaffung der neuen zu demselben Wert.",
+            "Auf Antrag setzt der Gesellschafter die neuen Anteile nach § 13 Abs. 2 UmwStG mit dem Buchwert oder den Anschaffungskosten der alten an, wenn das deutsche Besteuerungsrecht an den neuen Anteilen nicht eingeschränkt wird oder die Fusionsrichtlinie greift."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Feststellen, ob der Gesellschafter seine Anteile im Betriebsvermögen, als § 17-Beteiligung oder als Kleinbeteiligung im Privatvermögen hält."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bei Kleinbeteiligungen § 20 Abs. 4a EStG anwenden und keine Gewinnrealisierung annehmen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ],
+      "kurztitel": "Verschmelzung: Was geschieht mit den Anteilen der…",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 13 Abs. 2 UmwStG",
+        "§ 17 EStG",
+        "§ 13 Abs. 1 UmwStG",
+        "§ 20 Abs. 2 EStG",
+        "§ 20 Abs. 4a EStG",
+        "Themenpool: umwst-aufb-umw-ks-4-04"
+      ],
+      "coverRegie": {
+        "thema": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+        ],
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-16-b2-umwst-aufb-umw-ks-4-04-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr3-07",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b06-17",
       "slug": "2026-10-16-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff?",
-          "norm": "§ 2 Abs. 1 AStG",
-          "icon": "globus",
-          "sprecher": "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+          "unter": "Umsatzsteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 1 Abs. 1 Nr. 1 UStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff"
+            "Erfasst ist die Übertragung oder"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Natürliche Person und deutsche Staatsangehörigkeit feststellen.",
+          "titel": "Feststellen, ob ein Unternehmen oder Teilbetrieb an einen Unternehmer für dessen Unternehmen übertragen wird.",
           "text": null,
-          "norm": "§ 2 Abs. 1 AStG",
+          "norm": "§ 1 Abs. 1 Nr. 1 UStG",
           "icon": null,
-          "sprecher": "Schritt 1: Natürliche Person und deutsche Staatsangehörigkeit feststellen.",
+          "sprecher": "Schritt 1: Prüfe § 1 Abs. 1 Nr. 1 UStG im Zusammenhang mit Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt.",
           "marken": [
-            "Natürliche Person und deutsche Staatsangehörigke"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Fünf von zehn Jahren in Deutschland?",
+          "titel": "Prüfpunkt 2: § 1 Abs. 1a UStG",
           "text": null,
-          "norm": "§ 2 Abs. 2 AStG",
+          "norm": "§ 1 Abs. 1a UStG",
           "icon": null,
-          "sprecher": "Zähle die Jahre unbeschränkter Einkommensteuerpflicht im Zehnjahresfenster vor dessen Ende; nötig sind mindestens fünf.",
+          "sprecher": "Schritt 2: Prüfe § 1 Abs. 1a UStG im Zusammenhang mit Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt.",
           "marken": [
-            "Fünf von zehn Jahren in Deutschland?"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Bei § 2 AStG prüfe zusätzlich Niedrigbesteuerung und wesentliche wirtschaftliche Inlandsinteressen. Die erweiterte beschränkte Steuerpflicht reicht höchstens zehn Jahre.",
-          "sprecher": "Bei § 2 AStG prüfe zusätzlich Niedrigbesteuerung und wesentliche wirtschaftliche Inlandsinteressen. Die erweiterte beschränkte Steuerpflicht reicht höchstens zehn Jahre.",
+          "titel": "Merksatz",
+          "text": "Bei Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -369,44 +367,46 @@
           ]
         }
       ],
-      "caption": "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff?",
+      "kurztitel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 2 Abs. 1 AStG",
-        "§ 2 Abs. 2 AStG",
-        "§ 2 AStG",
-        "§ 2 Abs. 1–5 AStG",
-        "Themenpool: istr-modul-istr-istr3-07"
+        "§ 1 Abs. 1 Nr. 1 UStG",
+        "§ 1 Abs. 1a UStG",
+        "§ 3 Abs. 1b Nr. 1 UStG",
+        "§ 9 UStG",
+        "Abschn. 1.5 Abs. 4 UStAE",
+        "BFH, 04.07.2002, V R 10/01",
+        "EuGH, 27.11.2003, C-497/01, Zita Modes",
+        "BFH, 29.08.2018, XI R 37/17",
+        "Themenpool: ust-aufb-ust-m-b06-17"
       ],
       "coverRegie": {
-        "thema": "§ 2 AStG: erweiterte beschränkte Steuerpflicht",
+        "thema": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
         "goldenReferences": [
           "assets/referenzen/charaktere/02-vera-kranz.jpg",
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b3-istr-modul-istr-istr3-07-cover.png",
+        "bilddatei": "2026-10-16-b3-ust-aufb-ust-m-b06-17-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -420,15 +420,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Ist die Buchwertfortführung bei der Realteilung ein Wahlrecht?",
       "frage": "Ist die Buchwertfortführung bei der Realteilung ein Wahlrecht?",
-      "liveVorrangAktiv": true,
+      "titel": "Ist die Buchwertfortführung bei der Realteilung ein Wahlrecht?",
       "optionen": [
         "ja, mit Antrag",
         "ja, formlos",
@@ -448,254 +447,141 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "nein, sie ist zwingend",
-      "text": "Richtig: nein, sie ist zwingend. § 16 Abs. 3 S. 2 EStG ordnet die Buchwertfortführung zwingend an.",
-      "liveVorrangAktiv": true,
       "optionen": [
         "ja, mit Antrag",
         "ja, formlos",
         "nein, sie ist zwingend"
       ],
-      "richtig": 2
+      "richtig": 2,
+      "text": "§ 16 Abs. 3 S. 2 EStG ordnet die Buchwertfortführung zwingend an."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-modul-kst-5",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-323",
       "quellen": [
-        "R 8.9 Abs. 1 KStR",
-        "H 8.9 Behandlung beim Gesellschafter KStH",
-        "H 8.9 Nutzungsvorteile KStH",
-        "§ 6 Abs. 1 Nr. 5 EStG",
-        "§ 6 Abs. 6 S. 2 EStG",
-        "§ 8 Abs. 3 S. 3–5 KStG",
-        "§ 27 Abs. 1 S. 1 KStG",
-        "§ 8 Abs. 3 S. 3 KStG",
-        "R 8.9 KStR",
-        "Themenpool: kst-modul-kst-5"
+        "§ 350 AO",
+        "§ 358 AO",
+        "§ 351 Abs. 1 AO",
+        "§ 80 AO",
+        "§ 182 Abs. 1 S. 1 AO",
+        "Themenpool: ao-modul-ao-323"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "R 8.9 Abs. 1 KStR",
-      "titel": "Verdeckte Einlage – Grundschema",
-      "text": "einlagefähigen Vermögensvorteil erkennen Bewertung bei der Gesellschaft bestimmen",
-      "liveVorrangAktiv": true
+      "norm": "§ 350 AO",
+      "titel": "Einspruchsbefugnis und Beschwer: § 350 AO",
+      "text": "Beschwer nach § 350 AO untersuchen bei fehlender Zulässigkeitsvoraussetzung die Verwerfung als unzulässig erkennen"
     },
     "s7": {
       "slot": "s7",
       "art": "merksatz",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr4-08",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-316",
       "quellen": [
-        "§ 12 Abs. 1 AStG",
-        "§ 12 Abs. 2 AStG",
-        "§ 12 Abs. 3 AStG",
-        "§ 34c Abs. 1 EStG",
-        "§ 26 Abs. 1 KStG",
-        "§ 11 Abs. 1 AStG",
-        "§ 11 Abs. 2 AStG",
-        "§ 20 Abs. 1 Nr. 1 EStG",
-        "§ 11 AStG",
-        "§ 12 Abs. 1, 2, 3 AStG",
-        "Themenpool: istr-modul-istr-istr4-08"
+        "§§ 347 ff. AO",
+        "§§ 172 ff. AO",
+        "Themenpool: ao-modul-ao-316"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "§ 11 Kürzungsbetrag und § 12 Steueranrechnung",
-      "text": "§ 12 entlastet sofort über die Anrechnung der Auslandssteuer, § 11 später über den Kürzungsbetrag bei der Ausschüttung.",
-      "liveVorrangAktiv": true
+      "titel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
+      "text": "Fehlerhafter VA: zuerst Einspruchsmöglichkeit, erst danach Korrekturvorschrift."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "kst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-modul-kst-4",
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-3-10",
       "quellen": [
-        "R 8.5 Abs. 1 KStR",
-        "§ 8 Abs. 3 S. 2 KStG",
-        "H 8.6 Hingabe von Wirtschaftsgütern KStH",
-        "H 8.6 Nutzungsüberlassungen KStH",
-        "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
-        "§ 8b Abs. 1 KStG",
-        "§ 27 Abs. 1 S. 3 KStG",
-        "R 8.5 KStR",
-        "Themenpool: kst-modul-kst-4"
+        "§ 2 Abs. 7 EStG",
+        "§ 32b Abs. 1 EStG",
+        "§ 50 Abs. 2 EStG",
+        "§ 1 EStG",
+        "Themenpool: istr-aufb-istr-gh-3-10"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Verdeckte Gewinnausschüttung – Grundschema",
-      "text": "Vermögensminderung oder verhinderte Vermögensmehrung feststellen.",
-      "liveVorrangAktiv": true
+      "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+      "text": "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr."
     },
     "s9": {
       "slot": "s9",
       "art": "fehler",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-44",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-340",
       "quellen": [
-        "§ 254 S. 1 HGB",
-        "§ 254 S. 2 HGB",
-        "§ 249 Abs. 1 S. 1 HGB",
-        "§ 252 Abs. 1 Nr. 3 HGB",
-        "§ 252 Abs. 1 Nr. 4 HGB",
-        "§ 253 Abs. 1 S. 1 HGB",
-        "§ 285 Nr. 23 HGB",
-        "§ 5 Abs. 1a S. 2 EStG",
-        "§ 5 Abs. 4a S. 1 EStG",
-        "§ 254 HGB",
-        "Themenpool: bilanz-modul-k3-44"
+        "§ 181 Abs. 1 S. 1 AO",
+        "§ 181 Abs. 5 S. 1 AO",
+        "§ 181 Abs. 5 S. 2 AO",
+        "§ 169 Abs. 1 S. 1 AO",
+        "§ 182 Abs. 1 S. 1 AO",
+        "AEAO zu § 179 Nr. 2",
+        "§ 181 Abs. 5 S. 1 und S. 2 AO",
+        "§ 181 Abs. 5 S. 1 und 2 AO",
+        "AEAO zu § 181 Nr. 1.1 und 1.2",
+        "BFH 15.07.2021 – II R 38/19",
+        "BFH 24.04.2024 – IV R 19/21",
+        "Themenpool: ao-modul-ao-340"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Bewertungseinheit ohne Wirksamkeitsnachweis?",
-      "falsch": "Grundgeschäft und Sicherungsinstrument allein wegen gegenläufiger Werte zusammenfassen.",
-      "richtigText": "Nur der wirksame Risikoausgleich fällt unter § 254 HGB; Sicherungszusammenhang und Wirksamkeit nachweisen.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Mitunternehmer erhält Miete: Wo wird sie erfasst?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Grabpflege: Welcher Vervielfältiger passt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wegzug in die Niedrigsteuer: Bleibt deutscher Zugriff?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "§ 181 Abs. 5 AO: Feststellungsbescheid nach Ablauf der Feststellungsfrist und einschränkender Wirksamkeitsvermerk",
+      "falsch": "§ 181 Abs. 5 AO als eigenständige Korrekturvorschrift behandeln.",
+      "richtigText": "abgelaufene Feststellungsfrist von offener Festsetzungsfrist des Folgebescheids trennen"
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:53.251Z",
-    "pfad": "vorproduktion/2026-10-16/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }
