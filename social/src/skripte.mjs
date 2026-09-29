@@ -112,6 +112,10 @@ export function aufbereitungBefunde(e) {
   if (!quelle) fehler.push(`Quellabschnitt „${e.quelle}“ unbekannt`);
   else if (quelle.fach !== e.fach) fehler.push(`Quellabschnitt „${e.quelle}“ gehört zu ${quelle.fach}, nicht zu ${e.fach}`);
   if (!String(e.titel || "").trim() || String(e.titel).length > 90) fehler.push("Titel fehlt oder ist länger als 90 Zeichen");
+  /* Die Cover-Pille bricht nur an Leerzeichen um; ab 25 Zeichen passt ein
+     einzelnes Wort nicht mehr hinein (Renderabbruch am 29.09.). */
+  const langesWort = String(e.titel || "").split(/\s+/).find((w) => w.length > 24);
+  if (langesWort) fehler.push(`Titelwort „${langesWort}“ ist zu lang für das Cover (max. 24 Zeichen)`);
   if (KURS_TITEL.test(String(e.titel || ""))) fehler.push(`Titel klingt nach Kursorganisation (${String(e.titel).match(KURS_TITEL)[0]}); fachlich formulieren`);
   const schritte = saetze(e.pruefschritte, 6);
   if (schritte.length < 2) fehler.push("mindestens zwei Prüfschritte");
