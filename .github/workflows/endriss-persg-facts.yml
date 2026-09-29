@@ -65,6 +65,7 @@ jobs:
           done
           curl -fsS http://127.0.0.1:4173/ >/dev/null
           node tools/pruefen-endriss-persg-facts.mjs --source-assets --browser
+          node tools/pruefen-endriss-persg-viewport.mjs
           node tools/pruefen-endriss-browser.mjs
       - name: Preserve evidence including failures
         if: always()
