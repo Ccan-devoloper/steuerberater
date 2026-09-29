@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,29 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-8",
-        "themaTitel": "Investitionsabzugsbetrag und Sonder-AfA",
-        "fach": "bilanz",
+        "themaId": "persg-aufb-persg-melzer-1-6",
+        "themaTitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
+        "fach": "persg",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-373",
-        "themaTitel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
+        "themaId": "ao-aufb-ao-jacobs-6-10",
+        "themaTitel": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
         "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
-        "format": "reel",
-        "themaId": "istr-modul-istr-istr1-05",
-        "themaTitel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
-        "fach": "istr",
-        "klausur": 2,
-        "lang": false
+        "format": "anlass",
+        "themaId": null,
+        "themaTitel": null,
+        "fach": "mindset",
+        "klausur": 0
       }
     ],
     "stories": [
@@ -55,19 +48,13 @@
         "slot": "s4",
         "zeit": "07:22",
         "art": "frage",
-        "themaId": "kst-quiz-kst-8"
+        "themaId": "kst-quiz-kst-13"
       },
       {
         "slot": "s5",
         "zeit": "07:22",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-8"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:14",
-        "art": "norm",
-        "themaId": "ao-modul-ao-322"
+        "themaId": "kst-quiz-kst-13"
       },
       {
         "slot": "s1",
@@ -77,16 +64,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr1-07"
+      },
+      {
         "slot": "s7",
         "zeit": "14:35",
         "art": "countdown",
         "tageBisExamen": 1
-      },
-      {
-        "slot": "s8",
-        "zeit": "17:02",
-        "art": "begriff",
-        "themaId": "bilanz-glossar-2"
       },
       {
         "slot": "s2",
@@ -96,10 +83,10 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
-        "slot": "s9",
-        "zeit": "19:14",
-        "art": "fehler",
-        "themaId": "ao-modul-ao-324"
+        "slot": "s8",
+        "zeit": "17:02",
+        "art": "begriff",
+        "themaId": "bilanz-glossar-2"
       },
       {
         "slot": "s3",
@@ -113,25 +100,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-8",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-1-6",
       "slug": "2026-10-05-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "IAB gebildet: Welche Grenze gilt wirklich?",
+          "titel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "IAB, Hinzurechnung, AK/HK-Minderung und Sonder-AfA trennen",
-            "Gewinngrenze und Höchstbetrag untersuchen"
+            "Eine Ergänzungsbilanz enthält keine eigenen Wirtschaftsgüter, sondern nur Mehr- oder Minderwerte zu den in der Gesamthandsbilanz ausgewiesenen Wirtschaftsgütern.",
+            "Der steuerlich zutreffende Wert eines Wirtschaftsguts ergibt sich erst aus Gesamthandsbilanz und Ergänzungsbilanz zusammen."
           ]
         },
         {
@@ -140,18 +126,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Begünstigtes bewegliches abnutzbares Anlagegut?"
+              "text": "Den Vorgang einordnen, etwa Einbringung, Anteilserwerb oder personenbezogene Steuervergünstigung, und den steuerlich maßgebenden Wert für den Gesellschafter bestimmen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Gewinn ohne IAB höchstens 200.000 €?"
+              "text": "Den Ansatz in der Gesamthandsbilanz ermitteln, der sich meist nach dem Handelsrecht oder dem Gesellschaftsvertrag richtet."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Für den Investitionsabzugsbetrag zählt die steuerliche Gewinngrenze von 200.000 Euro ohne den Abzug; Handelsbilanz und Sonderabschreibung getrennt halten."
+          "titel": "Merksatz",
+          "text": "Bei Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,69 +154,65 @@
           ]
         }
       ],
-      "caption": "IAB gebildet: Welche Grenze gilt wirklich? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "IAB gebildet: Welche Grenze gilt wirklich?",
+      "kurztitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 7g Abs. 1 S. 1, 2 EStG",
-        "§ 7g Abs. 2 S. 1, 2 EStG",
-        "§ 7g Abs. 3 EStG",
-        "§ 7g Abs. 4 EStG",
-        "§ 7g Abs. 5 EStG",
-        "§ 7g Abs. 6 Nr. 1, 2 EStG",
-        "§ 7a Abs. 9 EStG",
-        "§ 7g EStG",
-        "Themenpool: bilanz-modul-k3-8"
+        "§ 6 Abs. 5 Satz 3 Nr. 1 EStG",
+        "§ 6 Abs. 6 Satz 1 und Satz 4 EStG",
+        "§ 246 Abs. 1 Satz 1 HGB",
+        "§ 247 Abs. 2 HGB",
+        "§ 253 Abs. 1 Satz 1 HGB",
+        "§ 255 Abs. 1 HGB",
+        "Themenpool: persg-aufb-persg-melzer-1-6"
       ],
       "coverRegie": {
-        "thema": "Investitionsabzugsbetrag und Sonder-AfA",
+        "thema": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-05-b1-bilanz-modul-k3-8-cover.png",
+        "bilddatei": "2026-10-05-b1-persg-aufb-persg-melzer-1-6-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-373",
+      "themaId": "ao-aufb-ao-jacobs-6-10",
       "slug": "2026-10-05-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
+          "titel": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Monatsfrist des § 110 Abs. 2 AO nach Wegfall des Hindernisses berechnen",
-            "Tatsachen zur Begründung glaubhaft machen"
+            "Erforderlich sind eine wirksame Prüfungsanordnung und ernsthafte Prüfungshandlungen vor Fristablauf; Aktenstudium im Amt oder die bloße Übergabe der Anordnung genügen nicht.",
+            "Einem Beginn steht ein vor Fristablauf gestellter Antrag des Steuerpflichtigen auf Verschiebung gleich; auch ein Aussetzungsantrag gegen die Prüfungsanordnung kann so wirken."
           ]
         },
         {
@@ -239,18 +221,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Für eine AO-Frist: Wegfall des Hindernisses feststellen und Monatsfrist des § 110 Abs. 2 AO berechnen."
+              "text": "Reguläre Festsetzungsfrist berechnen und mit dem tatsächlichen Beginn der Prüfungshandlungen gegenüberstellen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Tatsachen zur Begründung des fehlenden Verschuldens bei Antragstellung oder im Verfahren glaubhaft machen."
+              "text": "Reichweite der Hemmung danach bestimmen, welche Steuern und Jahre die Anordnung erfasst."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Wiedereinsetzung nach § 110 AO verlangt unverschuldete Fristversäumung, rechtzeitigen Antrag und die nachgeholte Handlung."
+          "titel": "Merksatz",
+          "text": "Bei Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -267,152 +249,114 @@
           ]
         }
       ],
-      "caption": "Frist versäumt: Wann hilft Wiedereinsetzung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
+      "kurztitel": "Außenprüfung hemmt die Verjährung – aber nur bei…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 110 Abs. 2 AO",
-        "§ 110 Abs. 3 AO",
-        "§ 110 Abs. 2 und 3 AO",
-        "§ 110 AO",
-        "§ 56 FGO",
-        "Themenpool: ao-modul-ao-373"
+        "§ 171 Abs. 4 Sätze 1 bis 3 AO",
+        "§ 171 Abs. 3, Abs. 3a und Abs. 10 Satz 4 AO",
+        "§§ 196, 197 AO",
+        "§ 194 Abs. 1 AO",
+        "§ 199 Abs. 1 AO",
+        "§ 201 AO",
+        "§ 202 Abs. 1 Satz 3 AO",
+        "§ 193 AO",
+        "§ 124 Abs. 1 AO",
+        "§ 164 Abs. 1, Abs. 2, Abs. 4 Sätze 1 und 2 AO",
+        "Themenpool: ao-aufb-ao-jacobs-6-10"
       ],
       "coverRegie": {
-        "thema": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-05-b2-ao-modul-ao-373-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b3": {
-      "format": "reel",
-      "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr1-05",
-      "slug": "2026-10-05-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
-          "norm": "§ 1 Abs. 3 EStG",
-          "icon": "globus",
-          "sprecher": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Hier sind die zwei entscheidenden Prüfschritte.",
-          "marken": [
-            "Kein deutscher Wohnsitz: Trotzdem unbeschränkt"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
-          "text": null,
-          "norm": "§ 1 Abs. 3 EStG",
-          "icon": null,
-          "sprecher": "Schritt 1: Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland.",
-          "marken": [
-            "Kein Wohnsitz/gewöhnlicher Aufenthalt im Inland."
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
-          "text": null,
-          "norm": "§ 49 EStG",
-          "icon": null,
-          "sprecher": "Schritt 2: Inländische Einkünfte i.S.d. § 49 EStG vorhanden.",
-          "marken": [
-            "Inländische Einkünfte i.S.d. § 49 EStG vorhanden"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Auch ohne deutschen Wohnsitz kommt § 1 Abs. 3 EStG auf Antrag in Betracht: 90 Prozent deutsche Besteuerung oder begrenzte Auslandseinkünfte prüfen.",
-          "sprecher": "Auch ohne deutschen Wohnsitz kommt § 1 Abs. 3 EStG auf Antrag in Betracht: 90 Prozent deutsche Besteuerung oder begrenzte Auslandseinkünfte prüfen.",
-          "marken": [
-            "Die Antwort"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#internationalessteuerrecht"
-      ],
-      "kurztitel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": false,
-      "quellen": [
-        "§ 1 Abs. 3 EStG",
-        "§ 49 EStG",
-        "§ 32a Abs. 1 EStG",
-        "§ 50 Abs. 1 EStG",
-        "Themenpool: istr-modul-istr-istr1-05"
-      ],
-      "coverRegie": {
-        "thema": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+        "thema": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-05-b3-istr-modul-istr-istr1-05-cover.png",
+        "bilddatei": "2026-10-05-b2-ao-aufb-ao-jacobs-6-10-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b3": {
+      "format": "anlass",
+      "fach": "mindset",
+      "klausur": 0,
+      "fachLabel": "Kopfsache",
+      "themaId": null,
+      "pruefungsphase": true,
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Morgen geht es los – und du bist bereit",
+          "coverBadge": "Vorabend",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Für heute",
+          "text": "Heute Abend zählt nicht mehr, was du noch lernen könntest. Es zählt, dass du ausgeruht und ruhig in den Prüfungsraum gehst.",
+          "punkte": [
+            "Tasche packen: Ausweis, Einladung, zugelassene Gesetzestexte, Stifte",
+            "Nichts Neues mehr aufschlagen – höchstens ein Schema überfliegen",
+            "Früh ins Bett, Wecker doppelt stellen, Anfahrt einplanen"
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Seneca",
+          "text": "„Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.“"
+        },
+        {
+          "art": "cta",
+          "titel": "Wir drücken dir die Daumen",
+          "punkte": [
+            "Schick das deiner Lerngruppe",
+            "Leg das Handy heute früh weg",
+            "Morgen früh: frühstücken, durchatmen, loslegen"
+          ],
+          "icons": [
+            "haken",
+            "uhr",
+            "buch"
+          ]
+        }
+      ],
+      "caption": "Morgen beginnt die schriftliche Prüfung. Heute Abend nichts mehr lernen, sondern Kraft sammeln. Du hast monatelang vorbereitet – das trägt dich durch die drei Tage. 💪",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#kopfsache"
+      ],
+      "kurztitel": "Morgen geht es los – und du bist bereit",
+      "coverBadge": "Vorabend",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "Examenskalender"
+      ],
+      "slug": "2026-10-05-b3",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -420,25 +364,24 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-8",
+      "pairId": "kst-quiz-kst-13",
       "quellen": [
-        "Themenpool: kst-quiz-kst-8"
+        "Themenpool: kst-quiz-kst-13"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Gilt die 10-%-Streubesitzgrenze auch für Veräußerungsgewinne nach § 8b Abs. 2 KStG?",
-      "frage": "Gilt die 10-%-Streubesitzgrenze auch für Veräußerungsgewinne nach § 8b Abs. 2 KStG?",
-      "liveVorrangAktiv": true,
+      "frage": "Wie hoch ist das zvE der CS-GmbH in der hochgeladenen Lösung?",
+      "titel": "Wie hoch ist das zvE der CS-GmbH in der hochgeladenen Lösung?",
       "optionen": [
-        "ja, immer",
-        "nur bei GmbHs",
-        "nein"
+        "0 €",
+        "5.000 €",
+        "5.150 €"
       ],
       "richtig": 2
     },
@@ -448,53 +391,50 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-8",
+      "pairId": "kst-quiz-kst-13",
       "quellen": [
-        "Themenpool: kst-quiz-kst-8"
+        "Themenpool: kst-quiz-kst-13"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "nein",
-      "text": "Richtig: nein. Die in den Unterlagen behandelte Mindestquote betrifft Dividenden, nicht Veräußerungsgewinne.",
-      "liveVorrangAktiv": true,
+      "titel": "5.150 €",
       "optionen": [
-        "ja, immer",
-        "nur bei GmbHs",
-        "nein"
+        "0 €",
+        "5.000 €",
+        "5.150 €"
       ],
-      "richtig": 2
+      "richtig": 2,
+      "text": "Die Schlussrechnung der Lösung endet bei 5.150 €."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-322",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-07",
       "quellen": [
-        "§ 357 Abs. 2 AO",
-        "§ 110 AO",
-        "AEAO zu § 110 Nr. 2",
-        "Themenpool: ao-modul-ao-322"
+        "§ 2 Nr. 1 KStG",
+        "§ 49 EStG",
+        "Themenpool: istr-modul-istr-istr1-07"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 357 Abs. 2 AO",
-      "titel": "Einspruch beim falschen Finanzamt: Eingang, Weiterleitung und Wiedereinsetzung",
-      "text": "Anbringungs-Finanzamt und tatsächlich empfangendes Finanzamt auseinanderhalten Weiterleitungsfälle sauber in § 110 AO einordnen",
-      "liveVorrangAktiv": true
+      "norm": "§ 2 Nr. 1 KStG",
+      "titel": "Beschränkte Körperschaftsteuerpflicht mit Inlandseinkünften",
+      "text": "Persönliche KSt-Pflicht der ausländischen Gesellschaft von der sachlichen Inlandseinkunftsprüfung trennen. Bei Immobilien, Beteiligungen und Veräußerungen die für jeden Fall einschlägige §-49-Nummer untersuchen."
     },
     "s7": {
       "slot": "s7",
@@ -507,12 +447,11 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s8": {
       "slot": "s8",
@@ -527,151 +466,28 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Bewertungsvorbehalt",
       "text": "Steuerliche Bewertungsvorschriften gehen der Maßgeblichkeit vor.",
-      "norm": "§ 5 Abs. 6 EStG",
-      "liveVorrangAktiv": true
-    },
-    "s9": {
-      "slot": "s9",
-      "art": "fehler",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-324",
-      "quellen": [
-        "§ 351 Abs. 1 AO",
-        "§ 367 Abs. 2 AO",
-        "§§ 17 ff. AO",
-        "§ 91 AO",
-        "§ 121 AO",
-        "§ 157 Abs. 1 S. 3 AO",
-        "Themenpool: ao-modul-ao-324"
-      ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Begründetheit des Einspruchs: Rechtmäßigkeit, Rechtsverletzung, § 351 und Gesamtaufrollung",
-      "falsch": "Fehlende Rechtsbehelfsbelehrung automatisch als Rechtswidrigkeit des Verwaltungsakts behandeln.",
-      "richtigText": "die Vier-Punkte-Begründetheitsformel lückenlos anwenden",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "IAB gebildet: Welche Grenze gilt wirklich?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Frist versäumt: Wann hilft Wiedereinsetzung?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Kein deutscher Wohnsitz: Trotzdem unbeschränkt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "norm": "§ 5 Abs. 6 EStG"
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:04.738Z",
-    "pfad": "vorproduktion/2026-10-05/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

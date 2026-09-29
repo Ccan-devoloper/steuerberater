@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,17 +19,17 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "klausurtechnik",
-        "themaId": "bilanz-modul-k3-25",
-        "themaTitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
-        "fach": "bilanz",
+        "themaId": "persg-aufb-persg-melzer-2-3",
+        "themaTitel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+        "fach": "persg",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-308",
-        "themaTitel": "Bekanntgabe an Steuerberater und Ehegatten",
+        "themaId": "ao-aufb-ao-jacobs-8-6",
+        "themaTitel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
         "fach": "ao",
         "klausur": 1
       },
@@ -43,9 +37,9 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr4-01",
-        "themaTitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
-        "fach": "istr",
+        "themaId": "gewst-aufb-gewst-ks-03",
+        "themaTitel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+        "fach": "gewst",
         "klausur": 2,
         "lang": false
       }
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:03",
         "art": "frage",
-        "themaId": "persg-quiz-persg-0"
+        "themaId": "kst-quiz-kst-8"
       },
       {
         "slot": "s5",
         "zeit": "07:03",
         "art": "antwort",
-        "themaId": "persg-quiz-persg-0"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:01",
-        "art": "norm",
-        "themaId": "ao-modul-ao-316"
+        "themaId": "kst-quiz-kst-8"
       },
       {
         "slot": "s1",
@@ -75,6 +63,12 @@
         "art": "teaser",
         "beitragSlot": "b1",
         "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:01",
+        "art": "norm",
+        "themaId": "istr-aufb-istr-gh-3-14"
       },
       {
         "slot": "s7",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "16:49",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr3-11"
+        "themaId": "istr-aufb-istr-gh-3-06"
       },
       {
         "slot": "s9",
         "zeit": "19:26",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr1-09"
+        "themaId": "istr-modul-istr-istr1-11"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "klausurtechnik",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-25",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-2-3",
       "slug": "2026-10-02-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Vorräte am Stichtag: Welcher Wert bleibt?",
+          "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
           "coverBadge": null,
-          "coverBildAuslassen": false,
-          "icon": "zielscheibe"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Verbrauchsfolgeverfahren handels- und steuerrechtlich einordnen",
-            "das strenge Niederstwertprinzip anwenden"
+            "§ 6 Abs. 5 Satz 3 Nr. 2 EStG erfasst nur den Weg zwischen Sonderbetriebsvermögen und Gesellschaftsvermögen, nicht den direkten Transfer zwischen zwei Gesellschaftsvermögen.",
+            "Das BVerfG hat den Buchwertausschluss für beteiligungsidentische Schwester-Personengesellschaften als Verstoß gegen Art. 3 Abs. 1 GG beanstandet."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zuordnung zum Umlaufvermögen begründen."
+              "text": "Klären, ob das Wirtschaftsgut direkt von Gesellschaftsvermögen zu Gesellschaftsvermögen wechselt oder über Sonderbetriebsvermögen läuft."
             },
             {
               "titel": "2. Schritt",
-              "text": "AK/HK je Zugang ermitteln."
+              "text": "Beteiligungsidentität untersuchen: dieselben Mitunternehmer mit denselben Quoten an beiden Gesellschaften."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Handelsrechtlich ist beim Umlaufvermögen der niedrigere Stichtagswert maßgeblich. Steuerlich setzt der niedrigere Teilwert eine dauernde Wertminderung voraus."
+          "titel": "Merksatz",
+          "text": "Bei Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,71 +161,69 @@
           ]
         }
       ],
-      "caption": "Vorräte am Stichtag: Welcher Wert bleibt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Vorräte am Stichtag: Welcher Wert bleibt?",
+      "kurztitel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 240 Abs. 3 HGB",
-        "§ 240 Abs. 4 HGB",
-        "§ 256 S. 1 HGB",
-        "§ 256 S. 2 i. V. m. § 252 Abs. 2 HGB",
-        "§ 253 Abs. 1 S. 1 HGB",
-        "§ 253 Abs. 4 S. 1, 2 HGB",
-        "§ 253 Abs. 5 S. 1 HGB",
-        "§ 6 Abs. 1 Nr. 2 S. 1–3 EStG",
-        "§ 6 Abs. 1 Nr. 2a EStG",
-        "R 6.8, R 6.9 EStR",
-        "Themenpool: bilanz-modul-k3-25"
+        "§ 6 Abs. 5 Satz 1 und Satz 3 Nr. 2 und Nr. 4 EStG",
+        "§ 52 Abs. 12 Nr. 14 EStG",
+        "§ 6b, § 6c EStG",
+        "§ 6b Abs. 4 Satz 1 Nr. 2 EStG",
+        "R 6b.2 Abs. 7 EStR",
+        "§ 42 AO",
+        "Art. 3 Abs. 1 GG",
+        "BVerfG vom 28.11.2023 – 2 BvL 8/13",
+        "BMF vom 08.12.2011",
+        "BMF vom 20.11.2019",
+        "Themenpool: persg-aufb-persg-melzer-2-3"
       ],
       "coverRegie": {
-        "thema": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+        "thema": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
         "goldenReferences": [
           "assets/referenzen/charaktere/06-kalle.jpg",
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-02-b1-bilanz-modul-k3-25-cover.png",
+        "bilddatei": "2026-10-02-b1-persg-aufb-persg-melzer-2-3-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-308",
+      "themaId": "ao-aufb-ao-jacobs-8-6",
       "slug": "2026-10-02-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "An Berater zugestellt: Läuft die Einspruchsfrist?",
+          "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "allgemeine Vertretungsvollmacht und Empfangsvollmacht unterscheiden",
-            "Vermutung der ordnungsgemäßen Bevollmächtigung nach § 80 Abs. 2 AO nicht mit einer Empfangsvollmacht gleichsetzen"
+            "Schon leichte Fahrlässigkeit schließt die Wiedereinsetzung aus; das Verschulden eines Vertreters wird nach § 110 Abs. 1 Satz 2 AO zugerechnet.",
+            "Fehler sonst zuverlässiger Büroangestellter sind dem Berater nicht anzulasten, wenn er eine ordnungsgemäße Fristenkontrolle organisiert hat."
           ]
         },
         {
@@ -241,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Feststellen, ob und in welchem Umfang ein Bevollmächtigter nach § 80 AO bestellt ist."
+              "text": "zuerst sicher feststellen, dass die Einspruchsfrist tatsächlich versäumt ist; sonst stellt sich die Frage nicht."
             },
             {
               "titel": "2. Schritt",
-              "text": "Separat untersuchen, ob der Bevollmächtigte zum Empfang von Verwaltungsakten ermächtigt ist; bloße Mitwirkung an der Steuererklärung genügt nicht."
+              "text": "Den Hinderungsgrund würdigen, etwa unerwartet lange Postlaufzeit, kurzen Urlaub oder plötzliche schwere Krankheit, im Gegensatz zu Arbeitsüberlastung."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Ob der Zugang beim Berater die Frist auslöst, hängt insbesondere von dessen Empfangsvollmacht und der Bekanntgabe nach § 122 AO ab."
+          "titel": "Merksatz",
+          "text": "Bei Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -269,107 +260,103 @@
           ]
         }
       ],
-      "caption": "An Berater zugestellt: Läuft die Einspruchsfrist? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "An Berater zugestellt: Läuft die Einspruchsfrist?",
+      "kurztitel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 80 Abs. 1 AO",
-        "§ 80 Abs. 2 AO",
-        "§ 80 Abs. 4 AO",
-        "§ 80 Abs. 5 AO",
-        "§ 122 AO",
-        "§ 365 Abs. 1 AO",
-        "§ 44 AO",
-        "§ 155 Abs. 3 AO",
-        "§ 80 AO",
-        "§ 365 AO",
-        "§ 80 Abs. 2 und 5 AO",
-        "§ 122 Abs. 1 S. 3 und 4 AO",
-        "AEAO zu § 122 Nr. 1.7",
-        "Themenpool: ao-modul-ao-308"
+        "§ 110 Abs. 1 Sätze 1 und 2, Abs. 2 Sätze 1 bis 3 und Abs. 3 AO",
+        "§ 358 AO",
+        "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 350 AO",
+        "§ 355 Abs. 1 Satz 1 AO",
+        "§ 357 Abs. 1 Satz 1 und Abs. 2 Satz 1 AO",
+        "§ 366 AO",
+        "§ 367 Abs. 1 und 2 Sätze 1 bis 3 AO",
+        "§ 132 AO",
+        "§ 172 Abs. 1 Satz 1 Nr. 2a AO",
+        "Themenpool: ao-aufb-ao-jacobs-8-6"
       ],
       "coverRegie": {
-        "thema": "Bekanntgabe an Steuerberater und Ehegatten",
+        "thema": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-02-b2-ao-modul-ao-308-cover.png",
+        "bilddatei": "2026-10-02-b2-ao-aufb-ao-jacobs-8-6-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr4-01",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-03",
       "slug": "2026-10-02-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
-          "norm": "§ 1 Abs. 1 S. 1 EStG",
-          "icon": "globus",
-          "sprecher": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+          "unter": "Gewerbesteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 6 GewStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel"
+            "Du weißt, dass die Gewerbesteuer als nicht"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "§ 1 Abs. 1 S. 1 EStG",
+          "titel": "Prüfpunkt 1: § 6 GewStG",
           "text": null,
-          "norm": "§ 1 Abs. 1 S. 1 EStG",
+          "norm": "§ 6 GewStG",
           "icon": null,
-          "sprecher": "Schritt 1: § 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland.",
+          "sprecher": "Schritt 1: Prüfe § 6 GewStG im Zusammenhang mit Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
           "marken": [
-            "§ 1 Abs. 1 S. 1 EStG"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA.",
+          "titel": "Setze bei Kapitalgesellschaften das Einkommen vor Abzug eines körperschaftsteuerlichen Verlustvortrags an.",
           "text": null,
-          "norm": "§ 8 AO",
+          "norm": "§ 7 Satz 1 GewStG",
           "icon": null,
-          "sprecher": "Schritt 2: Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA.",
+          "sprecher": "Schritt 2: Prüfe § 7 Satz 1 GewStG im Zusammenhang mit Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
           "marken": [
-            "Rechtsfolge: Welteinkommensprinzip nach § 2 Abs."
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "§ 7 AStG betrifft die Beteiligung an einer beherrschten ausländischen Gesellschaft. Auslandseinkünfte allein lösen die Hinzurechnung nicht aus; prüfe auch § 8 AStG.",
-          "sprecher": "§ 7 AStG betrifft die Beteiligung an einer beherrschten ausländischen Gesellschaft. Auslandseinkünfte allein lösen die Hinzurechnung nicht aus; prüfe auch § 8 AStG.",
+          "titel": "Merksatz",
+          "text": "Bei Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -385,129 +372,134 @@
           ]
         }
       ],
-      "caption": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
+      "kurztitel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 1 S. 1 EStG",
-        "§ 8 AO",
-        "§ 2 Abs. 1 EStG",
-        "§ 7 AStG",
-        "§ 34c EStG",
-        "§ 32d Abs. 5 EStG",
-        "§ 2a EStG",
-        "§ 1a EStG",
-        "Themenpool: istr-modul-istr-istr4-01"
+        "§ 6 GewStG",
+        "§ 7 Satz 1 GewStG",
+        "§ 7 Satz 2 GewStG",
+        "§ 7 Satz 4 GewStG",
+        "R 7.1 GewStR",
+        "§ 16 EStG",
+        "§ 17 EStG",
+        "§ 15a EStG",
+        "§ 18 Abs. 3 UmwStG",
+        "§ 3 Nr. 40 EStG",
+        "Themenpool: gewst-aufb-gewst-ks-03"
       ],
       "coverRegie": {
-        "thema": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+        "thema": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-02-b3-istr-modul-istr-istr4-01-cover.png",
+        "bilddatei": "2026-10-02-b3-gewst-aufb-gewst-ks-03-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-persg-0",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-8",
       "quellen": [
-        "Themenpool: persg-quiz-persg-0"
+        "Themenpool: kst-quiz-kst-8"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welche zwei Merkmalsgruppen bestimmen die Mitunternehmerstellung?",
-      "frage": "Welche zwei Merkmalsgruppen bestimmen die Mitunternehmerstellung?",
-      "liveVorrangAktiv": true,
+      "frage": "2 KStG?",
+      "titel": "2 KStG?",
       "optionen": [
-        "Risiko und Initiative",
-        "Haftung und Umsatz",
-        "Kapital und Gewerbesteuer"
+        "ja, immer",
+        "nur bei GmbHs",
+        "nein"
       ],
-      "richtig": 0
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-persg-0",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "pairId": "kst-quiz-kst-8",
       "quellen": [
-        "Themenpool: persg-quiz-persg-0"
+        "Themenpool: kst-quiz-kst-8"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Risiko und Initiative",
-      "text": "Richtig ist: Risiko und Initiative.",
-      "liveVorrangAktiv": true,
+      "titel": "nein",
       "optionen": [
-        "Risiko und Initiative",
-        "Haftung und Umsatz",
-        "Kapital und Gewerbesteuer"
+        "ja, immer",
+        "nur bei GmbHs",
+        "nein"
       ],
-      "richtig": 0
+      "richtig": 2,
+      "text": "Die in den Unterlagen behandelte Mindestquote betrifft Dividenden, nicht Veräußerungsgewinne."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-316",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-3-14",
       "quellen": [
-        "§§ 347 ff. AO",
-        "§§ 172 ff. AO",
-        "Themenpool: ao-modul-ao-316"
+        "§ 50a EStG",
+        "§ 50a Abs. 2 EStG",
+        "§ 50a Abs. 7 EStG",
+        "§ 50a Abs. 5 EStG",
+        "§ 50a Abs. 1 EStG",
+        "§ 50c Abs. 1 EStG",
+        "§ 13b UStG",
+        "§ 50 Abs. 2 EStG",
+        "§ 49 Abs. 2 EStG",
+        "§ 8 AO",
+        "Themenpool: istr-aufb-istr-gh-3-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§§ 347 ff. AO",
-      "titel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
-      "text": "Rechtsbehelf und Korrekturverfahren in der richtigen Reihenfolge untersuchen Erfolgsaussichten nur nach bestehendem/noch möglichem Einspruch untersuchen",
-      "liveVorrangAktiv": true
+      "norm": "§ 50a EStG",
+      "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
+      "text": "Du kennst die Sätze: 15 % der Einnahmen für Darbietungen, deren Verwertung und Rechteüberlassungen, 30 % für Aufsichtsratsvergütungen. Du weißt, dass bei Darbietungen mit Einnahmen von höchstens 250 € je Darbietung kein Abzug vorgenommen wird."
     },
     "s7": {
       "slot": "s7",
@@ -520,12 +512,11 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s8": {
       "slot": "s8",
@@ -533,26 +524,25 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr3-11",
+      "pairId": "istr-aufb-istr-gh-3-06",
       "quellen": [
-        "§ 49 Abs. 1 Nr. 2 Buchst. e EStG",
-        "§ 8b Abs. 2 KStG",
-        "§ 8b Abs. 3 S. 1 KStG",
-        "BFH I R 37/15",
-        "§ 8b Abs. 2, 3 KStG",
-        "Themenpool: istr-modul-istr-istr3-11"
+        "§ 1 Abs. 3 EStG",
+        "§ 49 EStG",
+        "§ 32a Abs. 1 EStG",
+        "§ 50a EStG",
+        "§ 26 Abs. 1 EStG",
+        "Themenpool: istr-aufb-istr-gh-3-06"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Anteilsveräußerung durch ausländische Körperschaft: § 49 und § 8b KStG",
-      "text": "1. Veräußerungsgewinn aus Beteiligung berechnen: Erlös./. AK./. zurechenbare Veräußerungskosten.",
-      "liveVorrangAktiv": true
+      "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+      "text": "Stelle fest, dass im Inland weder Wohnsitz noch gewöhnlicher Aufenthalt besteht, aber inländische Einkünfte nach § 49 EStG vorliegen."
     },
     "s9": {
       "slot": "s9",
@@ -560,131 +550,37 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-09",
+      "pairId": "istr-modul-istr-istr1-11",
       "quellen": [
-        "§ 49 Abs. 1 Nr. 1–9 EStG",
-        "R 49.3 EStR",
-        "§§ 12, 13 AO",
-        "§ 49 Abs. 1 EStG",
-        "Themenpool: istr-modul-istr-istr1-09"
+        "§ 50 Abs. 1 EStG",
+        "§ 50 Abs. 2 EStG",
+        "§ 32a EStG",
+        "§ 50 EStG",
+        "Themenpool: istr-modul-istr-istr1-11"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 49 EStG: Katalog der inländischen Einkünfte",
-      "text": "1. Einkunftsart materiell bestimmen.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Vorräte am Stichtag: Welcher Wert bleibt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "An Berater zugestellt: Läuft die Einspruchsfrist?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Auslandseinkünfte: Wo kommt § 7 AStG ins Spiel?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger",
+      "text": "1. Inländische Einkünfte und Erhebungsweg festlegen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:14:50.406Z",
-    "pfad": "vorproduktion/2026-10-02/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

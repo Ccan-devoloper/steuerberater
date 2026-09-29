@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-10",
-        "themaTitel": "Sonderbetriebsvermögen I und II",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "kst-aufb-kst-ks-6-02",
+        "themaTitel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+        "fach": "kst",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "ao-modul-ao-336",
-        "themaTitel": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO",
-        "fach": "ao",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-2-52",
+        "themaTitel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr3-08",
-        "themaTitel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "erbst-modul-erbst-513",
+        "themaTitel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+        "fach": "erbst",
+        "klausur": 1,
         "lang": false
       }
     ],
@@ -64,12 +58,6 @@
         "themaId": "persg-quiz-k3-3"
       },
       {
-        "slot": "s6",
-        "zeit": "11:59",
-        "art": "norm",
-        "themaId": "istr-modul-istr-istr2-01"
-      },
-      {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:59",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr1-05"
+      },
+      {
         "slot": "s7",
         "zeit": "14:22",
         "art": "countdown",
         "tageBisExamen": 5
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:58",
-        "art": "tipp",
-        "themaId": "istr-modul-istr-istr1-04"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:58",
+        "art": "tipp",
+        "themaId": "istr-aufb-istr-gh-3-04"
+      },
+      {
         "slot": "s9",
         "zeit": "19:07",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr2-05"
+        "themaId": "istr-aufb-istr-gh-3-12"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-10",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-ks-6-02",
       "slug": "2026-10-01-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Gesellschaft oder Gesellschafter: Wem dient das Gut?",
+          "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "personen"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "SBV I und SBV II unterscheiden",
-            "notwendiges und gewillkürtes SBV unterscheiden"
+            "Gehen innerhalb von fünf Jahren mittelbar oder direkt mehr als 50 % der Anteile oder Stimmrechte auf einen Erwerber oder ihm nahestehende Personen über, entfallen die bis dahin ungenutzten Verluste lückenlos (§ 8c Abs. 1 Satz 1 KStG).",
+            "Als ein Erwerber gilt auch eine Gruppe mit gleichgerichteten Interessen; erfasst werden auch mittelbare Übertragungen über zwischengeschaltete Gesellschaften."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Eigentümer des Wirtschaftsguts bestimmen."
+              "text": "Alle Übertragungen der letzten fünf Jahre auf denselben Erwerber bzw. Erwerberkreis zusammenrechnen und mit der 50-%-Grenze gegenüberstellen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Dient es direkt dem Betrieb der Gesellschaft? → SBV I."
+              "text": "Mittelbare Erwerbe über übergeordnete Gesellschaften sowie Kapitalerhöhungen und Umwandlungen als gleichgestellte Vorgänge einbeziehen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Dient das Wirtschaftsgut dem Betrieb, kommt Sonderbetriebsvermögen I in Betracht; stärkt es die Beteiligung, prüfe Sonderbetriebsvermögen II."
+          "titel": "Merksatz",
+          "text": "Bei Mehr als die Hälfte übertragen: Wann gehen Verluste unter?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,67 +161,68 @@
           ]
         }
       ],
-      "caption": "Gesellschaft oder Gesellschafter: Wem dient das Gut? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Gesellschaft oder Gesellschafter: Wem dient das Gut?",
+      "kurztitel": "Mehr als die Hälfte übertragen: Wann gehen Verluste…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "R 4.2 Abs. 2 S. 1, 2 EStR",
-        "H 4.2 Abs. 2 EStH",
-        "§ 6 Abs. 5 S. 2, 3 EStG",
-        "R 4.2 Abs. 2 EStR",
-        "§ 15 EStG",
-        "Themenpool: bilanz-modul-k3-10"
+        "§ 8c Abs. 1 S. 1 bis 4 KStG",
+        "§ 8d KStG",
+        "§ 8 Abs. 1 KStG",
+        "§ 10d Abs. 2 und 4 EStG",
+        "§ 10a S. 6 und 10 GewStG",
+        "§ 21 UmwStG",
+        "R 10a.1 GewStR",
+        "H 10a.3 GewStR",
+        "BMF vom 28.11.2017 (DStR 2017, 2670)",
+        "Themenpool: kst-aufb-kst-ks-6-02"
       ],
       "coverRegie": {
-        "thema": "Sonderbetriebsvermögen I und II",
+        "thema": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Die Figuren tragen getrennte Kisten aus Gemeinschafts- und Privatbereich zu einem gemeinsamen Ergebnis, ohne sie vorher zu vermischen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-01-b1-bilanz-modul-k3-10-cover.png",
+        "bilddatei": "2026-10-01-b1-kst-aufb-kst-ks-6-02-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "schema",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-336",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-52",
       "slug": "2026-10-01-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter?",
+          "titel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "ernsthaften Prüfungsbeginn von bloßer Vorbereitung oder Scheinbeginn unterscheiden",
-            "schädliche Anfangsunterbrechung nach § 171 Abs. 4 S. 2 mit allen Voraussetzungen untersuchen"
+            "Betroffen sind Einbringende, bei denen ein Gewinn aus den eingebrachten Anteilen im Zeitpunkt der Einbringung nicht nach § 8b Abs. 2 KStG steuerfrei gewesen wäre, typischerweise natürliche Personen; gleichgültig ist, ob die Anteile nach § 21 oder mit einem Betrieb nach § 20 UmwStG eingebracht wurden.",
+            "Veräußert die übernehmende Gesellschaft die eingebrachten Anteile innerhalb von sieben Jahren, wird beim Einbringenden rückwirkend der Einbringungsgewinn II versteuert."
           ]
         },
         {
@@ -237,18 +231,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Wirksame Prüfungsanordnung und ernsthaften Prüfungsbeginn vor Ablauf der Festsetzungsfrist feststellen."
+              "text": "Klären, ob Anteile unter dem gemeinen Wert eingebracht wurden und ob der Einbringende nicht nach § 8b Abs. 2 KStG begünstigt ist."
             },
             {
               "titel": "2. Schritt",
-              "text": "Untersuchen, ob die Außenprüfung direkt nach ihrem Beginn unterbrochen wurde; Gewicht und verwertbare Ergebnisse der bisherigen Prüfungshandlungen würdigen."
+              "text": "Eine Veräußerung oder einen gleichgestellten Vorgang durch die übernehmende Gesellschaft innerhalb von sieben Jahren feststellen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Eine bloß angekündigte Prüfung hemmt die Frist nicht. Nach tatsächlichem Beginn kann eine sofortige längere Unterbrechung die Hemmung entfallen lassen."
+          "titel": "Merksatz",
+          "text": "Bei Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -265,100 +259,102 @@
           ]
         }
       ],
-      "caption": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter?",
+      "kurztitel": "Wann entsteht beim Anteilstausch ein…",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 171 Abs. 4 S. 2 AO",
-        "AEAO zu § 171 Nr. 3.2.5",
-        "§ 171 Abs. 4 S. 1–7 AO",
-        "AEAO zu § 171 Nr. 3.2.5–3.2.10",
-        "BFH 24.04.2003 – VII R 3/02",
-        "BFH 26.04.2017 – I R 76/15",
-        "Themenpool: ao-modul-ao-336"
+        "§ 22 Abs. 2 UmwStG",
+        "§ 8b Abs. 2 KStG",
+        "§ 21 Abs. 2 UmwStG",
+        "§ 22 Abs. 1 UmwStG",
+        "§ 21 Abs. 1 UmwStG",
+        "§ 21 UmwStG",
+        "§ 20 Abs. 1 UmwStG",
+        "§ 17 EStG",
+        "§ 16 EStG",
+        "Themenpool: umwst-aufb-umw-2-52"
       ],
       "coverRegie": {
-        "thema": "Außenprüfung unterbrochen: der Pro-forma-Beginn-Killer des § 171 Abs. 4 S. 2 AO",
+        "thema": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-01-b2-ao-modul-ao-336-cover.png",
+        "bilddatei": "2026-10-01-b2-umwst-aufb-umw-2-52-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr3-08",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-513",
       "slug": "2026-10-01-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
-          "norm": "§ 17 EStG",
-          "icon": "globus",
-          "sprecher": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+          "unter": "Erbschaftsteuer / Bewertung",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 13d Abs. 1 ErbStG",
+          "icon": null,
+          "sprecher": "Heute geht es um § 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert"
+            "§ 13d Abs."
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
+          "titel": "Begünstigtes bebautes Grundstück/Grundstücksteil bestimmen.",
           "text": null,
-          "norm": "§ 17 EStG",
+          "norm": "§ 13d Abs. 1 ErbStG",
           "icon": null,
-          "sprecher": "Schritt 1: Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
+          "sprecher": "Schritt 1: Begünstigtes bebautes Grundstück/Grundstücksteil bestimmen.",
           "marken": [
-            "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlic"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "§ 6 Abs. 2 untersuchen",
+          "titel": "Zu Wohnzwecken vermietet? Unentgeltliche Überlassung nach Quellenhinweis nicht begünstigt.",
           "text": null,
-          "norm": "§ 6 Abs. 1 AStG",
+          "norm": "§ 13d Abs. 3 ErbStG",
           "icon": null,
-          "sprecher": "Schritt 2: § 6 Abs. 2 untersuchen: innerhalb der letzten zwölf Jahre insgesamt mindestens sieben Jahre unbeschränkt steuerpflichtig; bei unentgeltlichem Erwerb Rechtsvorgängerregeln beachten.",
+          "sprecher": "Schritt 2: Prüfe § 13d Abs. 3 ErbStG im Zusammenhang mit § 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke.",
           "marken": [
-            "§ 6 Abs. 2 untersuchen"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "§ 6 AStG behandelt die Anteile im Sinne des § 17 EStG bei einem Wegzugstatbestand grundsätzlich wie zum gemeinen Wert veräußert.",
-          "sprecher": "§ 6 AStG behandelt die Anteile im Sinne des § 17 EStG bei einem Wegzugstatbestand grundsätzlich wie zum gemeinen Wert veräußert.",
+          "titel": "Merksatz",
+          "text": "Bei § 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -374,47 +370,44 @@
           ]
         }
       ],
-      "caption": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
+      "kurztitel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 17 EStG",
-        "§ 6 Abs. 1 AStG",
-        "§ 6 Abs. 2 AStG",
-        "§ 6 Abs. 3 AStG",
-        "§ 6 AStG",
-        "§ 6 Abs. 1–5 AStG",
-        "§ 17 Abs. 1 EStG",
-        "Themenpool: istr-modul-istr-istr3-08"
+        "§ 13d Abs. 1 ErbStG",
+        "§ 13d Abs. 3 ErbStG",
+        "R E 13d Abs. 6 S. 4",
+        "§ 13d Abs. 1–4 ErbStG",
+        "§ 13d Abs. 3 Nr. 1–3 ErbStG",
+        "R E 13d Abs. 2, 6 ErbStR",
+        "Themenpool: erbst-modul-erbst-513"
       ],
       "coverRegie": {
-        "thema": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+        "thema": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-01-b3-istr-modul-istr-istr3-08-cover.png",
+        "bilddatei": "2026-10-01-b3-erbst-modul-erbst-513-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -428,15 +421,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wo wird Sonderbetriebsvermögen abgebildet?",
       "frage": "Wo wird Sonderbetriebsvermögen abgebildet?",
-      "liveVorrangAktiv": true,
+      "titel": "Wo wird Sonderbetriebsvermögen abgebildet?",
       "optionen": [
         "Gesamthandsbilanz",
         "Sonderbilanz",
@@ -456,21 +448,20 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Sonderbilanz",
-      "text": "Richtig: Sonderbilanz. Sonderbetriebsvermögen gehört in die Sonderbilanz des Mitunternehmers.",
-      "liveVorrangAktiv": true,
       "optionen": [
         "Gesamthandsbilanz",
         "Sonderbilanz",
         "nur außerbilanziell"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "text": "Sonderbetriebsvermögen gehört in die Sonderbilanz des Mitunternehmers."
     },
     "s6": {
       "slot": "s6",
@@ -478,28 +469,25 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-01",
+      "pairId": "istr-modul-istr-istr1-05",
       "quellen": [
-        "§ 1 Abs. 1 EStG",
         "§ 1 Abs. 3 EStG",
         "§ 49 EStG",
-        "§ 1 Abs. 4 EStG",
+        "§ 32a Abs. 1 EStG",
         "§ 50 Abs. 1 EStG",
-        "§ 1 Abs. 1, 3, 4 EStG",
-        "Themenpool: istr-modul-istr-istr2-01"
+        "Themenpool: istr-modul-istr-istr1-05"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 1 Abs. 1 EStG",
-      "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
-      "text": "§ 1 Abs. 1, 3 und 4 EStG sauber voneinander unterscheiden. Die 90-%-/Grundfreibetragsprüfung des § 1 Abs. 3 EStG in den Klausuraufbau einordnen.",
-      "liveVorrangAktiv": true
+      "norm": "§ 1 Abs. 3 EStG",
+      "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+      "text": "§ 1 Abs. 3 EStG vor § 1 Abs. 4 untersuchen, wenn der Sachverhalt einen Antrag ermöglicht. 90-%-Test und alternative Grundfreibetragsgrenze rechnerisch sauber trennen."
     },
     "s7": {
       "slot": "s7",
@@ -512,12 +500,11 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s8": {
       "slot": "s8",
@@ -525,26 +512,22 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-04",
+      "pairId": "istr-aufb-istr-gh-3-04",
       "quellen": [
-        "§ 1a EStG",
-        "§ 10 Abs. 1a EStG",
-        "§ 26 EStG",
-        "§ 26b EStG",
-        "§ 10 EStG",
-        "Themenpool: istr-modul-istr-istr1-04"
+        "§ 8 AO",
+        "§ 9 AO",
+        "Themenpool: istr-aufb-istr-gh-3-04"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 1a EStG: EU-/EWR-Familienbezug und personenbezogene Vergünstigungen",
-      "text": "1. Ausgangs-Steuerpflicht nach § 1 Abs. 1 oder 3 EStG bestimmen.",
-      "liveVorrangAktiv": true
+      "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?",
+      "text": "Stelle fest, ob im Inland eine zum Wohnen geeignete Unterkunft vorhanden ist; Größe und Komfort spielen keine Rolle."
     },
     "s9": {
       "slot": "s9",
@@ -552,132 +535,36 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-05",
+      "pairId": "istr-aufb-istr-gh-3-12",
       "quellen": [
+        "§ 49 Abs. 2 EStG",
+        "§ 17 EStG",
         "§ 49 EStG",
-        "Art. 6 DBA",
-        "Art. 13 DBA",
-        "Art. 23 DBA",
-        "Art. 6 und Art. 13 DBA",
-        "Themenpool: istr-modul-istr-istr2-05"
+        "Themenpool: istr-aufb-istr-gh-3-12"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
-      "text": "1. Nationale Einkunftsart und § 49-Anknüpfung bestimmen.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gesellschaft oder Gesellschafter: Wem dient das Gut?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Prüfungsbeginn nur auf Papier: Läuft die Frist weiter?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wegzug mit GmbH-Anteilen: Was wird fiktiv veräußert?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
+      "text": "Prüfe zuerst die Einkunftsart bei ganzheitlicher Betrachtung einschließlich der Auslandsmerkmale."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:14:45.265Z",
-    "pfad": "vorproduktion/2026-10-01/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

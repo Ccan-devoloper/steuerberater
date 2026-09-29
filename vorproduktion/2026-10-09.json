@@ -11,70 +11,52 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-12",
-        "themaTitel": "Ergänzungsbilanz",
-        "fach": "bilanz",
-        "klausur": 3
+        "zeit": "09:00",
+        "format": "anlass",
+        "themaId": null,
+        "themaTitel": null,
+        "fach": "mindset",
+        "klausur": 0
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-376",
-        "themaTitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
-        "fach": "ao",
-        "klausur": 1
+        "themaId": "est-aufb-est-ks2-19-03",
+        "themaTitel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
+        "fach": "est",
+        "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr2-06",
-        "themaTitel": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "persg-aufb-persg-melzer-5-3",
+        "themaTitel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
+        "fach": "persg",
+        "klausur": 3,
         "lang": false
       }
     ],
     "stories": [
       {
-        "slot": "s4",
-        "zeit": "07:19",
-        "art": "frage",
-        "themaId": "kst-quiz-kst-2"
-      },
-      {
-        "slot": "s5",
-        "zeit": "07:19",
-        "art": "antwort",
-        "themaId": "kst-quiz-kst-2"
+        "slot": "s1",
+        "zeit": "09:00",
+        "art": "teaser",
+        "beitragSlot": "b1",
+        "status": "aus-beitrag-ableitbar"
       },
       {
         "slot": "s6",
         "zeit": "11:56",
         "art": "norm",
-        "themaId": "ao-modul-ao-359"
-      },
-      {
-        "slot": "s1",
-        "zeit": "08:30",
-        "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "themaId": "istr-modul-istr-istr1-04"
       },
       {
         "slot": "s3",
@@ -87,7 +69,7 @@
         "slot": "s7",
         "zeit": "14:38",
         "art": "tipp",
-        "themaId": "ao-modul-ao-333"
+        "themaId": "istr-aufb-istr-gh-4-11"
       },
       {
         "slot": "s2",
@@ -100,135 +82,104 @@
         "slot": "s8",
         "zeit": "16:47",
         "art": "merksatz",
-        "themaId": "ao-modul-ao-304"
+        "themaId": "istr-aufb-istr-gh-4-30"
       },
       {
         "slot": "s9",
         "zeit": "19:10",
         "art": "begriff",
         "themaId": "bilanz-glossar-0"
+      },
+      {
+        "slot": "s10",
+        "zeit": "09:15",
+        "art": "merksatz",
+        "status": "pruefungsphase"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-12",
-      "slug": "2026-10-09-b1",
+      "format": "anlass",
+      "fach": "mindset",
+      "klausur": 0,
+      "fachLabel": "Kopfsache",
+      "themaId": null,
+      "pruefungsphase": true,
       "folien": [
         {
           "art": "titel",
-          "titel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "titel": "Ihr habt es geschafft!",
+          "coverBadge": "Geschafft",
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
+          "titel": "Für heute",
+          "text": "Drei Tage, drei Klausuren. Ganz egal, wie es sich angefühlt hat: Ihr dürft richtig stolz auf euch sein.",
           "punkte": [
-            "Kaufpreis und anteiliges Buchkapital abstimmen",
-            "Mehr-/Minderwerte Wirtschaftsgütern zuweisen"
+            "Durchatmen und ausschlafen",
+            "Lösungen erst vergleichen, wenn du wirklich bereit bist",
+            "Feiern – der Mut, angetreten zu sein, zählt heute"
           ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Kaufpreis des Mitunternehmeranteils bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Übernommenes steuerliches Kapitalkonto abziehen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Der Kaufpreis über dem übernommenen Kapitalkonto wird für den Erwerber in einer Ergänzungsbilanz den Wirtschaftsgütern zugeordnet."
         },
         {
           "art": "cta",
-          "titel": "Für die nächste Klausur",
+          "titel": "Erzähl uns, wie es dir geht",
           "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Schreib es in die Kommentare",
+            "Schick das deiner Lerngruppe",
+            "Gönn dir eine Pause"
           ],
           "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
+            "haken",
+            "uhr",
+            "buch"
           ]
         }
       ],
-      "caption": "Anteil teurer gekauft: Wohin mit dem Mehrwert? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Die schriftliche Prüfung ist vorbei. Monate der Vorbereitung, drei harte Tage – das ist eine riesige Leistung. Ihr dürft stolz sein! 🎉",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#kopfsache"
       ],
-      "kurztitel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
-      "coverBadge": "Spickzettel",
+      "kurztitel": "Ihr habt es geschafft!",
+      "coverBadge": "Geschafft",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 6 Abs. 1 Nr. 1, 2 EStG",
-        "§ 7 Abs. 1 EStG",
-        "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 15 EStG",
-        "§ 6 EStG",
-        "Themenpool: bilanz-modul-k3-12"
+        "Examenskalender"
       ],
-      "coverRegie": {
-        "thema": "Ergänzungsbilanz",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-09-b1-bilanz-modul-k3-12-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-09-b1",
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-376",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-19-03",
       "slug": "2026-10-09-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
+          "titel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "rechtsfähige Personenvereinigung selbst als Einspruchsbefugte nach § 352 Abs. 1 Nr. 1 AO erkennen",
-            "Vertreterhandeln nicht mit einem eigenen Einspruchsrecht des Vertreters verwechseln"
+            "Ein häusliches Arbeitszimmer ist ein in die Wohnsphäre eingebundener, büromäßig eingerichteter Raum, der nahezu ausschließlich beruflich genutzt wird; eine Arbeitsecke im Wohnzimmer genügt nicht.",
+            "Kosten eines Arbeitszimmers sind nach § 4 Abs. 5 Satz 1 Nr. 6b EStG nur abziehbar, wenn dort der Schwerpunkt der gesamten beruflichen und betrieblichen Tätigkeit liegt; statt der tatsächlichen Kosten kann eine Jahrespauschale von 1.260 € angesetzt werden."
           ]
         },
         {
@@ -237,18 +188,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Rechtsfähigkeit der Personenvereinigung bestimmen."
+              "text": "untersuchen, ob ein eigener, nahezu ausschließlich beruflich genutzter Raum vorliegt oder nur ein Arbeitsplatz in einem privat genutzten Zimmer."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bestehende rechtsfähige Personenvereinigung: im Grundfall Einspruch durch die Personenvereinigung nach § 352 Abs. 1 Nr. 1 Buchst. a AO, vertreten durch ihren gesetzlichen Vertreter."
+              "text": "Bei einem Arbeitszimmer klären, ob dort der Schwerpunkt der gesamten Tätigkeit liegt; nur dann sind Kosten oder Jahrespauschale abziehbar."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Bei einer rechtsfähigen Personengesellschaft führt grundsätzlich sie selbst den Einspruch gegen ihren Feststellungsbescheid; die Vertretung handelt für sie."
+          "titel": "Merksatz",
+          "text": "Bei Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -265,99 +216,103 @@
           ]
         }
       ],
-      "caption": "Feststellungsbescheid: Wer darf Einspruch einlegen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
+      "kurztitel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 352 AO",
-        "§ 34 AO",
-        "§ 183a AO",
-        "§ 352 Abs. 1 und 2 AO",
-        "Art. 97 § 39 Abs. 4 EGAO",
-        "Themenpool: ao-modul-ao-376"
+        "§ 9 Abs. 1 Satz 3 Nr. 4 EStG",
+        "§ 9 Abs. 4 EStG",
+        "§ 9 Abs. 1 Satz 3 Nr. 5 EStG",
+        "§ 9 Abs. 4a EStG",
+        "§ 9 Abs. 1 Satz 3 Nr. 6 EStG",
+        "§ 9 Abs. 5 EStG",
+        "§ 4 Abs. 5 Nr. 6b EStG",
+        "§ 4 Abs. 5 Nr. 6c EStG",
+        "§ 6 Abs. 2 EStG",
+        "R 9.11 LStR",
+        "Themenpool: est-aufb-est-ks2-19-03"
       ],
       "coverRegie": {
-        "thema": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
+        "thema": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-09-b2-ao-modul-ao-376-cover.png",
+        "bilddatei": "2026-10-09-b2-est-aufb-est-ks2-19-03-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr2-06",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-5-3",
       "slug": "2026-10-09-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
-          "norm": "Art. 5 DBA",
-          "icon": "globus",
-          "sprecher": "Auslandsgewinn: Gibt es eine Betriebsstätte? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
+          "unter": "Personengesellschaften",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 16 Abs. 1 Satz 1 Nr. 1 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Auslandsgewinn: Gibt es eine Betriebsstätte"
+            "§ 6 Abs."
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Unternehmensgewinn – Art. 7 DBA als Verteilungsnorm identifizieren.",
+          "titel": "Prüfpunkt 1: § 16 Abs. 1 Satz 1 Nr. 1 EStG",
           "text": null,
-          "norm": "Art. 5 DBA",
+          "norm": "§ 16 Abs. 1 Satz 1 Nr. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Unternehmensgewinn – Art. 7 DBA als Verteilungsnorm identifizieren.",
+          "sprecher": "Schritt 1: Prüfe § 16 Abs. 1 Satz 1 Nr. 1 EStG im Zusammenhang mit Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
           "marken": [
-            "Unternehmensgewinn – Art. 7 DBA als Verteilungsn"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Betriebsstätte nach Art. 5 untersuchen: feste Geschäftseinrichtung + Beispielsfälle.",
+          "titel": "Den zivilrechtlichen Vorgang einer Fallgruppe des § 1 Abs. 3 UmwStG zuweisen.",
           "text": null,
-          "norm": "Art. 7 DBA",
+          "norm": "§ 6 Abs. 5 Satz 3 Nr. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Betriebsstätte nach Art. 5 untersuchen: feste Geschäftseinrichtung + Beispielsfälle.",
+          "sprecher": "Schritt 2: Prüfe § 6 Abs. 5 Satz 3 Nr. 1 EStG im Zusammenhang mit Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
           "marken": [
-            "Betriebsstätte nach Art. 5 untersuchen: feste Ge"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Bei einer Betriebsstätte nach Art. 5 DBA darf der Betriebsstättenstaat nach Art. 7 DBA den ihr zurechenbaren Gewinn besteuern.",
-          "sprecher": "Bei einer Betriebsstätte nach Art. 5 DBA darf der Betriebsstättenstaat nach Art. 7 DBA den ihr zurechenbaren Gewinn besteuern.",
+          "titel": "Merksatz",
+          "text": "Bei Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -373,180 +328,118 @@
           ]
         }
       ],
-      "caption": "Auslandsgewinn: Gibt es eine Betriebsstätte? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
+      "kurztitel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "Art. 5 DBA",
-        "Art. 7 DBA",
-        "Art. 23 DBA",
-        "Art. 5 und Art. 7 DBA",
-        "Themenpool: istr-modul-istr-istr2-06"
+        "§ 16 Abs. 1 Satz 1 Nr. 1 EStG",
+        "§ 6 Abs. 5 Satz 3 Nr. 1 EStG",
+        "§ 1 Abs. 3 Nr. 1, 2 und 4 UmwStG",
+        "§ 1 Abs. 4 Satz 2 UmwStG",
+        "§ 24 Abs. 1 UmwStG",
+        "§§ 2, 123 UmwG",
+        "UmwStE vom 02.01.2025, Rn. 24.02 ff.",
+        "Themenpool: persg-aufb-persg-melzer-5-3"
       ],
       "coverRegie": {
-        "thema": "Unternehmensgewinne und Betriebsstätte: Art. 7 i.V.m. Art. 5 DBA",
+        "thema": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-09-b3-istr-modul-istr-istr2-06-cover.png",
+        "bilddatei": "2026-10-09-b3-persg-aufb-persg-melzer-5-3-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
-    },
-    "s4": {
-      "slot": "s4",
-      "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-2",
-      "quellen": [
-        "Themenpool: kst-quiz-kst-2"
-      ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
-      "frage": "Wer hat bei einer vGA typischerweise den Vorteil?",
-      "liveVorrangAktiv": true,
-      "optionen": [
-        "die Gesellschaft",
-        "der Gesellschafter oder eine nahestehende Person",
-        "das Finanzamt"
-      ],
-      "richtig": 1
-    },
-    "s5": {
-      "slot": "s5",
-      "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-2",
-      "quellen": [
-        "Themenpool: kst-quiz-kst-2"
-      ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "der Gesellschafter oder eine nahestehende Person",
-      "text": "Richtig: der Gesellschafter oder eine nahestehende Person. Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA.",
-      "liveVorrangAktiv": true,
-      "optionen": [
-        "die Gesellschaft",
-        "der Gesellschafter oder eine nahestehende Person",
-        "das Finanzamt"
-      ],
-      "richtig": 1
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-359",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr1-04",
       "quellen": [
-        "AEAO zu § 173 Nr. 3",
-        "§ 165 Abs. 1 S. 2 Nr. 4 AO",
-        "§ 363 Abs. 2 AO",
-        "§ 173 Abs. 2 AO",
-        "§ 173 Abs. 1 und Abs. 2 AO",
-        "Themenpool: ao-modul-ao-359"
+        "§ 1a EStG",
+        "§ 10 Abs. 1a EStG",
+        "§ 26 EStG",
+        "§ 26b EStG",
+        "§ 10 EStG",
+        "Themenpool: istr-modul-istr-istr1-04"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "AEAO zu § 173 Nr. 3",
-      "titel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
-      "text": "Rechtserheblichkeit einer neuen Tatsache von einer späteren Rechtsänderung oder Rechtsprechungsänderung trennen § 173 Abs. 2 nach Außenprüfung oder Mitteilung nach § 202 Abs. 1 S. 3 untersuchen",
-      "liveVorrangAktiv": true
+      "norm": "§ 1a EStG",
+      "titel": "§ 1a EStG: EU-/EWR-Familienbezug und personenbezogene Vergünstigungen",
+      "text": "Tatbestand des § 1a EStG vor der gewünschten Rechtsfolge lückenlos untersuchen. Ehegatten-/Unterhaltsleistungen und Zusammenveranlagung systematisch mit § 10 bzw. § 26 verbinden."
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-333",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-4-11",
       "quellen": [
-        "§ 171 Abs. 3a AO",
-        "§ 171 Abs. 4 AO",
-        "§ 196 AO",
-        "AEAO zu § 171 Nr. 2.2.1",
-        "Themenpool: ao-modul-ao-333"
+        "Art. 5 OECD-MA",
+        "§ 12 AO",
+        "Themenpool: istr-aufb-istr-gh-4-11"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
-      "text": "§ 171 Abs. 3a AO: zulässigen Einspruch feststellen; Reichweite der Quellenregel bestimmen.",
-      "liveVorrangAktiv": true
+      "titel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
+      "text": "Prüfe für § 49 EStG, den Lohnsteuerabzug oder die Gewerbesteuer den nationalen Begriff des § 12 AO."
     },
     "s8": {
       "slot": "s8",
       "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-304",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-4-30",
       "quellen": [
-        "§ 118 AO",
-        "§ 155 AO",
-        "§ 93 AO",
-        "§ 109 AO",
-        "Themenpool: ao-modul-ao-304"
+        "Art. 23 OECD-MA",
+        "§ 32b Abs. 1 EStG",
+        "Themenpool: istr-aufb-istr-gh-4-30"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Verwaltungsakt: Liegt überhaupt ein VA vor?",
-      "text": "Ohne VA keine VA-Korrektur und kein statthafter Einspruch gegen einen VA.",
-      "liveVorrangAktiv": true
+      "titel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
+      "text": "Erst verteilen, dann vermeiden: Die Verteilungsnorm vergibt das Recht, der Methodenartikel bestimmt, wie Deutschland die Doppelbesteuerung beseitigt."
     },
     "s9": {
       "slot": "s9",
@@ -561,122 +454,46 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Wirtschaftliches Eigentum",
       "text": "Tatsächliche Herrschaft, die den zivilrechtlichen Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt.",
-      "norm": "§ 39 Abs. 2 Nr. 1 AO",
-      "liveVorrangAktiv": true
+      "norm": "§ 39 Abs. 2 Nr. 1 AO"
     },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Anteil teurer gekauft: Wohin mit dem Mehrwert?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
+    "s10": {
+      "slot": "s10",
+      "art": "merksatz",
+      "fach": "mindset",
+      "klausur": 0,
+      "fachLabel": "Kopfsache",
+      "ueberzeile": "Geschafft",
+      "titel": "Ihr dürft stolz sein",
+      "text": "Das Ergebnis kommt später. Heute zählt, was ihr geleistet habt: Monate der Vorbereitung und drei Tage volle Konzentration.",
+      "pruefungsphase": true,
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Auslandsgewinn: Gibt es eine Betriebsstätte?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Feststellungsbescheid: Wer darf Einspruch einlegen?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:19.987Z",
-    "pfad": "vorproduktion/2026-10-09/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

@@ -111,14 +111,7 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-09-30/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:14:40.548Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-01",
@@ -132,14 +125,7 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-01/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:14:45.265Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-02",
@@ -153,14 +139,7 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-02/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:14:50.406Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-03",
@@ -174,14 +153,7 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-03/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:14:55.339Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-04",
@@ -195,14 +167,7 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-04/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:15:00.005Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-05",
@@ -211,19 +176,12 @@
       "liveVerknuepft": false,
       "vorproduktionStatus": "live-freigegeben",
       "feed": 3,
-      "storiesEigenstaendig": 6,
+      "storiesEigenstaendig": 5,
       "teaserAbgeleitet": 3,
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-05/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:15:04.738Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-06",
@@ -231,20 +189,13 @@
       "freigabeBetreiber": true,
       "liveVerknuepft": false,
       "vorproduktionStatus": "live-freigegeben",
-      "feed": 3,
-      "storiesEigenstaendig": 0,
-      "teaserAbgeleitet": 3,
+      "feed": 1,
+      "storiesEigenstaendig": 2,
+      "teaserAbgeleitet": 1,
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-06/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:15:08.303Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-07",
@@ -252,20 +203,13 @@
       "freigabeBetreiber": true,
       "liveVerknuepft": false,
       "vorproduktionStatus": "live-freigegeben",
-      "feed": 3,
-      "storiesEigenstaendig": 0,
-      "teaserAbgeleitet": 3,
+      "feed": 1,
+      "storiesEigenstaendig": 2,
+      "teaserAbgeleitet": 1,
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-07/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:15:11.773Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-08",
@@ -273,20 +217,13 @@
       "freigabeBetreiber": true,
       "liveVerknuepft": false,
       "vorproduktionStatus": "live-freigegeben",
-      "feed": 3,
-      "storiesEigenstaendig": 0,
-      "teaserAbgeleitet": 3,
+      "feed": 1,
+      "storiesEigenstaendig": 2,
+      "teaserAbgeleitet": 1,
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-08/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:15:15.330Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-09",
@@ -295,19 +232,12 @@
       "liveVerknuepft": false,
       "vorproduktionStatus": "live-freigegeben",
       "feed": 3,
-      "storiesEigenstaendig": 6,
+      "storiesEigenstaendig": 5,
       "teaserAbgeleitet": 3,
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-09/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0,
-      "bilderStatus": "icon-statt-providerbild",
-      "renderStatus": "fertig",
-      "coverIcons": true,
-      "liveVorrangAktiv": true,
-      "normalbetriebGesperrt": true,
-      "renderErzeugtAm": "2026-09-26T02:15:19.987Z",
-      "layoutQuelle": "herrjurist"
+      "providerKostenUsd": 0
     },
     {
       "datum": "2026-10-10",
@@ -709,7 +639,7 @@
       "layoutQuelle": "herrjurist"
     }
   ],
-  "stand": "2026-10-28",
+  "stand": "2026-10-09",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {

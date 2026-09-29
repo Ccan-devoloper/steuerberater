@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-31",
-        "themaTitel": "Bilanzberichtigung und Bilanzänderung",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "istr-aufb-istr-gh-3-11",
+        "themaTitel": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
+        "fach": "istr",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-318",
-        "themaTitel": "Zulässigkeit des Einspruchs I: Statthaftigkeit und Form",
-        "fach": "ao",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-2-13",
+        "themaTitel": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr2-09",
-        "themaTitel": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "ao-modul-ao-339",
+        "themaTitel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
+        "fach": "ao",
+        "klausur": 1,
         "lang": true
       }
     ],
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:09",
         "art": "frage",
-        "themaId": "kst-quiz-kst-3"
+        "themaId": "persg-quiz-k3-27"
       },
       {
         "slot": "s5",
         "zeit": "07:09",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-3"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:03",
-        "art": "norm",
-        "themaId": "ao-modul-ao-340"
+        "themaId": "persg-quiz-k3-27"
       },
       {
         "slot": "s1",
@@ -75,6 +63,12 @@
         "art": "teaser",
         "beitragSlot": "b1",
         "status": "aus-beitrag-ableitbar"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:03",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr2-05"
       },
       {
         "slot": "s7",
@@ -93,7 +87,7 @@
         "slot": "s8",
         "zeit": "16:51",
         "art": "merksatz",
-        "themaId": "ao-modul-ao-317"
+        "themaId": "istr-aufb-istr-gh-3-13"
       },
       {
         "slot": "s9",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-31",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-3-11",
       "slug": "2026-10-04-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Falsche Bilanz: Berichtigung oder Änderung?",
+          "titel": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Berichtigung und Änderung sauber trennen",
-            "die gesetzlichen Voraussetzungen der Bilanzänderung nach § 4 Abs. 2 S. 2 EStG erkennen"
+            "Du verstehst, dass § 49 EStG an die Einkunftsarten des § 2 Abs. 1 EStG anknüpft und für jeden Fall ein zusätzliches Inlandsmerkmal verlangt.",
+            "Du kennst die wichtigsten Anknüpfungen bei gewerblichen Einkünften: inländische Betriebsstätte oder ständiger Vertreter, Darbietungen im Inland, Anteilsveräußerungen nach § 17 EStG sowie Vermietung oder Veräußerung inländischen Grundbesitzes."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Ist der Bilanzansatz objektiv unrichtig?"
+              "text": "Bestimme zuerst die Einkunftsart nach den allgemeinen Regeln des Einkommensteuergesetzes."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ja: Berichtigung nach § 4 Abs. 2 S. 1 EStG, solange die Veranlagung änderbar ist."
+              "text": "Suche in § 49 Abs. 1 EStG die zur Einkunftsart gehörende Nummer und prüfe deren konkreten Inlandsbezug."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Ein objektiv falscher Ansatz wird berichtigt. Für den Wechsel zwischen zwei zulässigen Ansätzen gelten die engeren Voraussetzungen des § 4 Abs. 2 EStG."
+          "titel": "Merksatz",
+          "text": "Bei Was macht Einkünfte eines Gebietsfremden zu inländischen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,69 +161,69 @@
           ]
         }
       ],
-      "caption": "Falsche Bilanz: Berichtigung oder Änderung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Was macht Einkünfte eines Gebietsfremden zu inländischen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Falsche Bilanz: Berichtigung oder Änderung?",
+      "kurztitel": "Was macht Einkünfte eines Gebietsfremden zu inländischen",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 4 Abs. 2 S. 1 EStG",
-        "§ 4 Abs. 2 S. 2 EStG",
-        "§ 5 Abs. 1 S. 1 EStG",
-        "§ 60 Abs. 2 EStDV",
-        "R 4.4 EStR",
-        "§ 172 ff. AO",
-        "§ 4 Abs. 2 EStG",
-        "§ 4 Abs. 2 S. 1, 2 EStG",
-        "Themenpool: bilanz-modul-k3-31"
+        "§ 49 Abs. 1 EStG",
+        "§ 22 EStG",
+        "§ 49 EStG",
+        "§ 12 AO",
+        "§ 140 AO",
+        "§ 17 EStG",
+        "§ 49 Abs. 2 EStG",
+        "§ 20 Abs. 1 EStG",
+        "§ 1 Abs. 4 EStG",
+        "§ 13 AO",
+        "Themenpool: istr-aufb-istr-gh-3-11"
       ],
       "coverRegie": {
-        "thema": "Bilanzberichtigung und Bilanzänderung",
+        "thema": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b1-bilanz-modul-k3-31-cover.png",
+        "bilddatei": "2026-10-04-b1-istr-aufb-istr-gh-3-11-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-318",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-13",
       "slug": "2026-10-04-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
+          "titel": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Statthaftigkeit nach §§ 347, 348 AO untersuchen",
-            "auch unwirksame VA im statthaften Rechtsbehelfsweg einordnen"
+            "Neue Anteile entstehen nur bei Sachgründung oder Sachkapitalerhöhung; sie müssen gerade für die Einbringung ausgegeben werden.",
+            "Nach dem BFH genügt es, wenn der Betrieb im Zusammenhang mit einer Barkapitalerhöhung als vertraglich vereinbartes Aufgeld eingebracht und in der Kapitalrücklage gezeigt wird."
           ]
         },
         {
@@ -239,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Statthaftigkeit nach § 347 AO untersuchen; Ausschlüsse des § 348 AO beachten."
+              "text": "Den gesellschaftsrechtlichen Weg feststellen: Sachgründung, Sachkapitalerhöhung, Aufgeld bei Barerhöhung oder bloße Einlage."
             },
             {
               "titel": "2. Schritt",
-              "text": "Sonderfall Untätigkeit entsprechend der Quellenübersicht untersuchen."
+              "text": "untersuchen, ob die Anteilsgewährung direkt auf der Einbringung beruht."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Prüfe erst, ob der Einspruch gegen diesen Verwaltungsakt eröffnet ist. Die Bezeichnung des Schreibens ist weniger wichtig als sein erkennbares Begehren."
+          "titel": "Merksatz",
+          "text": "Bei Müssen für die Einbringung immer neue Anteile ausgegeben werden?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -258,107 +251,111 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Thema für die nächste Wiederholung speichern"
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
           ],
           "icons": [
             "dokument",
             "lupe",
-            "buch"
+            "warnung"
           ]
         }
       ],
-      "caption": "Einspruch: Ist dieser Verwaltungsakt anfechtbar? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
+      "kurztitel": "Müssen für die Einbringung immer neue Anteile…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 347 AO",
-        "§ 348 AO",
-        "§ 357 Abs. 1 AO",
-        "§ 357 Abs. 3 AO",
-        "Themenpool: ao-modul-ao-318"
+        "§ 20 UmwStG",
+        "§ 20 Abs. 3 UmwStG",
+        "§ 27 KStG",
+        "§ 20 Abs. 2 UmwStG",
+        "§ 27 Abs. 2 KStG",
+        "§ 20 Abs. 5 UmwStG",
+        "§ 16 EStG",
+        "§ 54 Abs. 4 UmwG",
+        "§§ 5 Abs. 4 GmbHG",
+        "Themenpool: umwst-aufb-umw-2-13"
       ],
       "coverRegie": {
-        "thema": "Zulässigkeit des Einspruchs I: Statthaftigkeit und Form",
+        "thema": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b2-ao-modul-ao-318-cover.png",
+        "bilddatei": "2026-10-04-b2-umwst-aufb-umw-2-13-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr2-09",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-339",
       "slug": "2026-10-04-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Erst nationales Recht, dann DBA: Warum?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Erst nationales Recht, dann DBA: Warum?",
-          "norm": "§ 1 EStG",
-          "icon": "globus",
-          "sprecher": "Erst nationales Recht, dann DBA: Warum? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
+          "unter": "Abgabenordnung",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 171 Abs. 10 S. 1 AO",
+          "icon": null,
+          "sprecher": "Heute geht es um Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Erst nationales Recht, dann DBA: Warum"
+            "die Zwei-Jahres-Logik nach Bekanntgabe des"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Steuerpflicht nach § 1 EStG.",
+          "titel": "Bestimme Bekanntgabe bzw. maßgeblichen Zeitpunkt des Feststellungsbescheids.",
           "text": null,
-          "norm": "§ 1 EStG",
+          "norm": "§ 171 Abs. 10 S. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Steuerpflicht nach § 1 EStG.",
+          "sprecher": "Schritt 1: Prüfe § 171 Abs. 10 S. 1 AO im Zusammenhang mit Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung.",
           "marken": [
-            "Steuerpflicht nach § 1 EStG."
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG.",
+          "titel": "10 S. 1 AO an.",
           "text": null,
-          "norm": "§ 49 EStG",
+          "norm": "§ 181 Abs. 1 S. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG.",
+          "sprecher": "Schritt 2: 10 S. 1 AO an.",
           "marken": [
-            "Einkunftsart und bei beschränkter Steuerpflicht "
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Das nationale Recht begründet den Steueranspruch. Erst danach begrenzt ein anwendbares DBA gegebenenfalls das deutsche Besteuerungsrecht.",
-          "sprecher": "Das nationale Recht begründet den Steueranspruch. Erst danach begrenzt ein anwendbares DBA gegebenenfalls das deutsche Besteuerungsrecht.",
+          "titel": "Merksatz",
+          "text": "Bei Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -374,137 +371,123 @@
           ]
         }
       ],
-      "caption": "Erst nationales Recht, dann DBA: Warum? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Erst nationales Recht, dann DBA: Warum?",
+      "kurztitel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 EStG",
-        "§ 49 EStG",
-        "§ 50 EStG",
-        "Art. 1–23 DBA",
-        "§ 32b EStG",
-        "DBA AAVV",
-        "§ 50 / § 32b EStG",
-        "Themenpool: istr-modul-istr-istr2-09"
+        "§ 171 Abs. 10 S. 1 AO",
+        "§ 181 Abs. 1 S. 1 AO",
+        "§ 171 Abs. 3a AO",
+        "§ 361 Abs. 3 AO",
+        "Themenpool: ao-modul-ao-339"
       ],
       "coverRegie": {
-        "thema": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
+        "thema": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b3-istr-modul-istr-istr2-09-cover.png",
+        "bilddatei": "2026-10-04-b3-ao-modul-ao-339-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-3",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-27",
       "quellen": [
-        "Themenpool: kst-quiz-kst-3"
+        "Themenpool: persg-quiz-k3-27"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welche Aussage zur vGA ist richtig?",
-      "frage": "Welche Aussage zur vGA ist richtig?",
-      "liveVorrangAktiv": true,
+      "frage": "Wie wird ein Wirtschaftsgut bewertet, das bei der Betriebsaufgabe ins Privatvermögen wandert?",
+      "titel": "Wie wird ein Wirtschaftsgut bewertet, das bei der Betriebsaufgabe ins Privatvermögen wandert?",
       "optionen": [
-        "Sie wird immer als Eigenkapitalbuchung erfasst",
-        "Sie wird außerbilanziell hinzugerechnet",
-        "Sie setzt stets eine Barzahlung voraus"
+        "Buchwert",
+        "Teilwert",
+        "gemeiner Wert"
       ],
-      "richtig": 1
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-3",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-quiz-k3-27",
       "quellen": [
-        "Themenpool: kst-quiz-kst-3"
+        "Themenpool: persg-quiz-k3-27"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "Sie wird außerbilanziell hinzugerechnet",
-      "text": "Richtig ist: Sie wird außerbilanziell hinzugerechnet.",
-      "liveVorrangAktiv": true,
+      "titel": "gemeiner Wert",
       "optionen": [
-        "Sie wird immer als Eigenkapitalbuchung erfasst",
-        "Sie wird außerbilanziell hinzugerechnet",
-        "Sie setzt stets eine Barzahlung voraus"
+        "Buchwert",
+        "Teilwert",
+        "gemeiner Wert"
       ],
-      "richtig": 1
+      "richtig": 2,
+      "text": "§ 16 Abs. 3 S. 7 EStG verlangt den gemeinen Wert, nicht den Teilwert."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-340",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-05",
       "quellen": [
-        "§ 181 Abs. 1 S. 1 AO",
-        "§ 181 Abs. 5 S. 1 AO",
-        "§ 181 Abs. 5 S. 2 AO",
-        "§ 169 Abs. 1 S. 1 AO",
-        "§ 182 Abs. 1 S. 1 AO",
-        "AEAO zu § 179 Nr. 2",
-        "§ 181 Abs. 5 S. 1 und S. 2 AO",
-        "§ 181 Abs. 5 S. 1 und 2 AO",
-        "AEAO zu § 181 Nr. 1.1 und 1.2",
-        "BFH 15.07.2021 – II R 38/19",
-        "BFH 24.04.2024 – IV R 19/21",
-        "Themenpool: ao-modul-ao-340"
+        "§ 49 EStG",
+        "Art. 6 DBA",
+        "Art. 13 DBA",
+        "Art. 23 DBA",
+        "Art. 6 und Art. 13 DBA",
+        "Themenpool: istr-modul-istr-istr2-05"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 181 Abs. 1 S. 1 AO",
-      "titel": "§ 181 Abs. 5 AO: Feststellungsbescheid nach Ablauf der Feststellungsfrist und einschränkender Wirksamkeitsvermerk",
-      "text": "abgelaufene Feststellungsfrist von offener Festsetzungsfrist des Folgebescheids trennen § 171 Abs. 10 bei der Voraussetzung des § 181 Abs. 5 S. 1 außer Betracht lassen",
-      "liveVorrangAktiv": true
+      "norm": "§ 49 EStG",
+      "titel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
+      "text": "Bei laufender Grundstücksnutzung Art. 6 DBA von Unternehmensgewinnen unterscheiden. Bei Veräußerungen Art. 13 DBA anhand des veräußerten Vermögensgegenstands auswählen."
     },
     "s7": {
       "slot": "s7",
@@ -517,37 +500,42 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s8": {
       "slot": "s8",
       "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-317",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-3-13",
       "quellen": [
-        "§§ 347 ff. AO",
-        "§ 367 Abs. 2 AO",
-        "§ 361 AO",
-        "Themenpool: ao-modul-ao-317"
+        "§ 50 EStG",
+        "§ 10c EStG",
+        "§ 49 Abs. 1 EStG",
+        "§ 1 Abs. 4 EStG",
+        "§ 10b EStG",
+        "§ 10a Abs. 1a EStG",
+        "§ 16 Abs. 4 EStG",
+        "§ 24b EStG",
+        "§ 32 EStG",
+        "§ 35a EStG",
+        "Themenpool: istr-aufb-istr-gh-3-13"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Einspruchsverfahren: Reichweite, Auslegung und Erfolgsformel",
-      "text": "Einspruch immer zweistufig: erst Zulässigkeit, dann Begründetheit.",
-      "liveVorrangAktiv": true
+      "titel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+      "text": "Beschränkt steuerpflichtig heißt: Grundtabelle ohne Entlastung durch den Grundfreibetrag, kaum persönliche Abzüge, und Abzugsteuern gelten die Steuer meist ab."
     },
     "s9": {
       "slot": "s9",
@@ -562,122 +550,28 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Maßgeblichkeit",
       "text": "Übernahme der handelsrechtlichen GoB in die Steuerbilanz, soweit keine steuerliche Sonderregelung besteht.",
-      "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Falsche Bilanz: Berichtigung oder Änderung?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Einspruch: Ist dieser Verwaltungsakt anfechtbar?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Erst nationales Recht, dann DBA: Warum?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG"
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:15:00.005Z",
-    "pfad": "vorproduktion/2026-10-04/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

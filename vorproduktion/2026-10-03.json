@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-18",
-        "themaTitel": "Verdeckte Einlage",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "ao-modul-ao-314",
+        "themaTitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+        "fach": "ao",
+        "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "klausurtechnik",
-        "themaId": "ao-modul-ao-329",
-        "themaTitel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
-        "fach": "ao",
-        "klausur": 1
+        "themaId": "gewst-aufb-gewst-ks-07",
+        "themaTitel": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer",
+        "fach": "gewst",
+        "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr2-07",
-        "themaTitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "bilanz-aufb-bil-melzer-10-03",
+        "themaTitel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+        "fach": "bilanz",
+        "klausur": 3,
         "lang": false
       }
     ],
@@ -55,13 +49,13 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "kst-quiz-kst-12"
+        "themaId": "kst-quiz-kst-2"
       },
       {
         "slot": "s5",
         "zeit": "07:07",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-12"
+        "themaId": "kst-quiz-kst-2"
       },
       {
         "slot": "s1",
@@ -74,7 +68,7 @@
         "slot": "s6",
         "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-315"
+        "themaId": "istr-modul-istr-istr3-06"
       },
       {
         "slot": "s7",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "17:04",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr2-04"
+        "themaId": "istr-modul-istr-istr3-08"
       },
       {
         "slot": "s9",
         "zeit": "19:12",
         "art": "merksatz",
-        "themaId": "istr-modul-istr-istr1-10"
+        "themaId": "istr-aufb-istr-gh-4-44"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-18",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-314",
       "slug": "2026-10-03-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Vorteil ohne Geld: Ist das eine Einlage?",
+          "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "einlagefähigen Vermögensvorteil erkennen",
-            "Veranlassung durch Gesellschaftsverhältnis untersuchen"
+            "Ereignisfrist erkennen",
+            "Fristbeginn nach § 187 BGB bestimmen"
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Vorteil und Zuwendenden bestimmen."
+              "text": "Fristauslösendes Ereignis feststellen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ist der Vorteil einlagefähig/bilanzierbar?"
+              "text": "Beginn nach § 187 BGB bestimmen; bei Ereignisfrist beginnt die Frist nach dem Ereignistag."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Eine verdeckte Einlage braucht einen bilanzierbaren Vermögensvorteil. Eine bloße Nutzung ohne Entgelt reicht dafür nicht."
+          "titel": "Merksatz",
+          "text": "Bei Fristenberechnung nach § 108 AO und §§ 187, 188 BGB: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -159,208 +152,204 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Thema für die nächste Wiederholung speichern"
           ],
           "icons": [
             "dokument",
             "lupe",
-            "warnung"
+            "buch"
           ]
         }
       ],
-      "caption": "Vorteil ohne Geld: Ist das eine Einlage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#bilanzsteuerrecht"
-      ],
-      "kurztitel": "Vorteil ohne Geld: Ist das eine Einlage?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 8 Abs. 3 S. 3 KStG",
-        "§ 8 Abs. 3 S. 4–6 KStG",
-        "§ 4 Abs. 1 S. 8 EStG",
-        "§ 6 Abs. 6 S. 2 EStG",
-        "§ 27 Abs. 1 S. 1 KStG",
-        "§ 17 Abs. 2a EStG",
-        "§ 8 Abs. 3 Satz 3 KStG",
-        "§ 27 KStG",
-        "Themenpool: bilanz-modul-k3-18"
-      ],
-      "coverRegie": {
-        "thema": "Verdeckte Einlage",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-03-b1-bilanz-modul-k3-18-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "klausurtechnik",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-329",
-      "slug": "2026-10-03-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
-          "coverBadge": null,
-          "coverBildAuslassen": false,
-          "icon": "zielscheibe"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Beginn der Festsetzungsfrist bestimmen",
-            "Erklärungspflicht als Weichenstellung erkennen"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Steueranspruch/Steuerentstehung bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Untersuchen, ob eine Steuererklärung einzureichen ist."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Ermittle Steuerentstehung und Anlaufhemmung nach § 170 AO, dann Dauer und Endtag der Frist; zuletzt mögliche Ablaufhemmungen."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Festsetzungsfrist: Welcher Tag startet die Uhr? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
-      "coverBadge": null,
+      "kurztitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+      "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 170 AO",
-        "§ 38 AO",
-        "§ 149 AO",
-        "§ 25 Abs. 3 EStG",
-        "§ 56 EStDV",
-        "§ 18 UStG",
-        "Themenpool: ao-modul-ao-329"
+        "§ 108 Abs. 1 AO",
+        "§ 187 BGB",
+        "§ 188 BGB",
+        "§ 108 Abs. 3 AO",
+        "§§ 187, 188 BGB",
+        "Themenpool: ao-modul-ao-314"
       ],
       "coverRegie": {
-        "thema": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+        "thema": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-03-b2-ao-modul-ao-329-cover.png",
+        "bilddatei": "2026-10-03-b1-ao-modul-ao-314-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "klausurtechnik",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-07",
+      "slug": "2026-10-03-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer",
+          "coverBadge": null,
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Du weißt, dass Erhebungszeitraum das Kalenderjahr ist und bei abweichendem Wirtschaftsjahr der Gewinn im Jahr seines Endes erfasst wird.",
+            "Du kannst die Reihenfolge anwenden: Gewerbeertrag nach Verlustabzug auf volle 100 € abrunden, Freibetrag abziehen, mit 3,5 % multiplizieren."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Ermittle den maßgebenden Gewerbeertrag aus Gewinn, Hinzurechnungen und Kürzungen und ziehe den Gewerbeverlust ab."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Runde das Ergebnis auf volle 100 € ab und ziehe bei Personenunternehmen den Freibetrag von 24.500 € ab."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ],
+      "kurztitel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
+      "coverBadge": null,
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 10 GewStG",
+        "§ 11 GewStG",
+        "§ 14 GewStG",
+        "§ 16 Abs. 1 GewStG",
+        "§ 20 Abs. 1 GewStG",
+        "§ 10a GewStG",
+        "§ 4 Abs. 5b EStG",
+        "R 7.1 GewStR",
+        "Themenpool: gewst-aufb-gewst-ks-07"
+      ],
+      "coverRegie": {
+        "thema": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+        ],
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-03-b2-gewst-aufb-gewst-ks-07-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr2-07",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-10-03",
       "slug": "2026-10-03-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
-          "unter": "Internationales Steuerrecht",
-          "text": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
-          "norm": "Art. 15 DBA",
-          "icon": "globus",
-          "sprecher": "183 Tage: Darf der Tätigkeitsstaat besteuern? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+          "unter": "Bilanzsteuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 6 Abs. 1 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Fremdwährungsschulden am Bilanzstichtag richtig umrechnen. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "183 Tage: Darf der Tätigkeitsstaat besteuern"
+            "Handelsrechtlich ist nach § 256a HGB zum"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
+          "titel": "Die Verbindlichkeit bei Zugang mit dem Kurs im Entstehungszeitpunkt umrechnen.",
           "text": null,
-          "norm": "Art. 15 DBA",
+          "norm": "§ 6 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Ansässigkeitsstaat und Tätigkeitsstaat bestimmen.",
+          "sprecher": "Schritt 1: Prüfe § 6 Abs. 1 EStG im Zusammenhang mit Fremdwährungsschulden am Bilanzstichtag richtig umrechnen.",
           "marken": [
-            "Ansässigkeitsstaat und Tätigkeitsstaat bestimmen"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
+          "titel": "Prüfpunkt 2: § 253 Abs. 1 HGB",
           "text": null,
-          "norm": "Art. 23 DBA",
+          "norm": "§ 253 Abs. 1 HGB",
           "icon": null,
-          "sprecher": "Schritt 2: Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats.",
+          "sprecher": "Schritt 2: Prüfe § 253 Abs. 1 HGB im Zusammenhang mit Fremdwährungsschulden am Bilanzstichtag richtig umrechnen.",
           "marken": [
-            "Art. 15 Grundsatz: Besteuerungsrecht des Tätigke"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Die 183 Tage allein entscheiden nicht: Prüfe auch Ansässigkeit des Arbeitgebers und ob eine Betriebsstätte im Tätigkeitsstaat die Vergütung trägt.",
-          "sprecher": "Die 183 Tage allein entscheiden nicht: Prüfe auch Ansässigkeit des Arbeitgebers und ob eine Betriebsstätte im Tätigkeitsstaat die Vergütung trägt.",
+          "titel": "Merksatz",
+          "text": "Bei Fremdwährungsschulden am Bilanzstichtag richtig umrechnen: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -376,43 +365,41 @@
           ]
         }
       ],
-      "caption": "183 Tage: Darf der Tätigkeitsstaat besteuern? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
+      "kurztitel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "Art. 15 DBA",
-        "Art. 23 DBA",
-        "§ 32b EStG",
-        "Themenpool: istr-modul-istr-istr2-07"
+        "§ 6 Abs. 1 EStG",
+        "§ 253 Abs. 1 HGB",
+        "§ 5 Abs. 6 EStG",
+        "Themenpool: bilanz-aufb-bil-melzer-10-03"
       ],
       "coverRegie": {
-        "thema": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+        "thema": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-03-b3-istr-modul-istr-istr2-07-cover.png",
+        "bilddatei": "2026-10-03-b3-bilanz-aufb-bil-melzer-10-03-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -420,28 +407,26 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-12",
+      "pairId": "kst-quiz-kst-2",
       "quellen": [
-        "§ 64 Abs. 3 AO",
-        "Themenpool: kst-quiz-kst-12"
+        "Themenpool: kst-quiz-kst-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welcher Vereinsbereich ist nach dem hochgeladenen Schema steuerpflichtig?",
-      "frage": "Welcher Vereinsbereich ist nach dem hochgeladenen Schema steuerpflichtig?",
-      "liveVorrangAktiv": true,
+      "frage": "Wer hat bei einer vGA typischerweise den Vorteil?",
+      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
       "optionen": [
-        "Vermögensverwaltung",
-        "Zweckbetrieb",
-        "wirtschaftlicher Geschäftsbetrieb"
+        "die Gesellschaft",
+        "der Gesellschafter oder eine nahestehende Person",
+        "das Finanzamt"
       ],
-      "richtig": 2
+      "richtig": 1
     },
     "s5": {
       "slot": "s5",
@@ -449,59 +434,55 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-12",
+      "pairId": "kst-quiz-kst-2",
       "quellen": [
-        "§ 64 Abs. 3 AO",
-        "Themenpool: kst-quiz-kst-12"
+        "Themenpool: kst-quiz-kst-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "wirtschaftlicher Geschäftsbetrieb",
-      "text": "Richtig ist: wirtschaftlicher Geschäftsbetrieb.",
-      "liveVorrangAktiv": true,
+      "titel": "der Gesellschafter oder eine nahestehende Person",
       "optionen": [
-        "Vermögensverwaltung",
-        "Zweckbetrieb",
-        "wirtschaftlicher Geschäftsbetrieb"
+        "die Gesellschaft",
+        "der Gesellschafter oder eine nahestehende Person",
+        "das Finanzamt"
       ],
-      "richtig": 2
+      "richtig": 1,
+      "text": "Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-315",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr3-06",
       "quellen": [
-        "§ 124 AO",
-        "§ 125 AO",
-        "§ 126 AO",
-        "§ 127 AO",
-        "§ 91 AO",
-        "§ 121 AO",
-        "§§ 17 ff. AO",
-        "§ 157 Abs. 1 S. 3 AO",
-        "Themenpool: ao-modul-ao-315"
+        "§ 1 EStG",
+        "§ 2 Abs. 7 S. 3 EStG",
+        "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 49 EStG",
+        "§ 50a EStG",
+        "§§ 2, 6 AStG",
+        "§ 49 / § 50a EStG",
+        "Themenpool: istr-modul-istr-istr3-06"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 124 AO",
-      "titel": "Wirksam trotz Fehler: Rechtswidrigkeit, Nichtigkeit und die Tortenstückfehlerlehre",
-      "text": "Wirksamkeit und Rechtmäßigkeit nicht vermischen Nichtigkeit als Ausnahmebereich erkennen",
-      "liveVorrangAktiv": true
+      "norm": "§ 1 EStG",
+      "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
+      "text": "Wegzugsdatum und Zeiträume vor/nach Wegzug zuerst auf einer Zeitachse festhalten. Auslandseinkünfte während der nicht unbeschränkten Phase für § 32b untersuchen."
     },
     "s7": {
       "slot": "s7",
@@ -514,12 +495,11 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s8": {
       "slot": "s8",
@@ -527,27 +507,27 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-04",
+      "pairId": "istr-modul-istr-istr3-08",
       "quellen": [
-        "Art. 1 DBA",
-        "Art. 2 DBA",
-        "Art. 4 Abs. 1 DBA",
-        "Art. 4 Abs. 2 DBA",
-        "Art. 1, 2 und 4 DBA",
-        "AAVV",
-        "Themenpool: istr-modul-istr-istr2-04"
+        "§ 17 EStG",
+        "§ 6 Abs. 1 AStG",
+        "§ 6 Abs. 2 AStG",
+        "§ 6 Abs. 3 AStG",
+        "§ 6 AStG",
+        "§ 6 Abs. 1–5 AStG",
+        "§ 17 Abs. 1 EStG",
+        "Themenpool: istr-modul-istr-istr3-08"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "DBA Anwendbarkeit und Ansässigkeit",
-      "text": "A – Anwendbarkeit: Art. 1 persönlich und Art. 2 sachlich.",
-      "liveVorrangAktiv": true
+      "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
+      "text": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen."
     },
     "s9": {
       "slot": "s9",
@@ -555,132 +535,41 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-10",
+      "pairId": "istr-aufb-istr-gh-4-44",
       "quellen": [
-        "§ 50a Abs. 1 EStG",
-        "§ 50a Abs. 2 EStG",
-        "§ 50a Abs. 5 EStG",
-        "§ 50c EStG",
-        "§ 50a EStG",
-        "Themenpool: istr-modul-istr-istr1-10"
+        "§ 34d EStG",
+        "§ 34c EStG",
+        "§ 50 Abs. 3 EStG",
+        "§ 32d EStG",
+        "§ 22 EStG",
+        "§ 49 Abs. 1 EStG",
+        "§ 49 EStG",
+        "§ 34c Abs. 6 EStG",
+        "Themenpool: istr-aufb-istr-gh-4-44"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
-      "text": "§ 50a ist Erhebung, nicht Einkunftsqualifikation: erst E und I, dann S.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Vorteil ohne Geld: Ist das eine Einlage?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Festsetzungsfrist: Welcher Tag startet die Uhr?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "183 Tage: Darf der Tätigkeitsstaat besteuern?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
+      "text": "Angerechnet wird höchstens, was an deutscher Steuer auf die Einkünfte aus genau diesem Staat entfällt."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:14:55.339Z",
-    "pfad": "vorproduktion/2026-10-03/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }
