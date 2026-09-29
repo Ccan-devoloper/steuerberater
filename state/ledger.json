@@ -5840,20 +5840,21 @@
       "fach": "persg",
       "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
       "insights": {
-        "reach": 12,
-        "views": 16,
+        "reach": 20,
+        "views": 24,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 14,
+        "navigation": 23,
+        "navigation_tap_exit": 2,
         "navigation_tap_back": 1,
-        "navigation_tap_forward": 13
+        "navigation_tap_forward": 20
       },
-      "insightsStand": "2026-09-29T07:44:29.578Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-29T11:44:50.316Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-29",
@@ -5867,20 +5868,21 @@
       "fach": "persg",
       "titel": "Buchwert, Zwischenwert oder gemeiner Wert",
       "insights": {
-        "reach": 12,
-        "views": 15,
+        "reach": 19,
+        "views": 22,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
+        "navigation": 22,
+        "navigation_tap_exit": 1,
         "navigation_tap_back": 2,
-        "navigation_tap_forward": 12
+        "navigation_tap_forward": 19
       },
-      "insightsStand": "2026-09-29T07:44:29.578Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-29T11:44:50.316Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-29",
@@ -5894,21 +5896,21 @@
       "fach": "persg",
       "titel": "Drei Vermögen: Wo landet die Maschine?",
       "insights": {
-        "reach": 12,
-        "views": 13,
+        "reach": 19,
+        "views": 19,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 12,
+        "navigation": 19,
         "navigation_tap_back": 1,
-        "navigation_tap_forward": 10,
-        "navigation_tap_exit": 1
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-29T07:44:29.578Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-29T11:44:50.316Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-29",
@@ -5982,7 +5984,23 @@
       "storyArt": "norm",
       "thema": "istr-modul-istr-istr3-10",
       "fach": "istr",
-      "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA"
+      "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA",
+      "insights": {
+        "reach": 9,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 7
+      },
+      "insightsStand": "2026-09-29T11:44:50.316Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {
