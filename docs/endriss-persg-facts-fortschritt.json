@@ -1,6 +1,6 @@
 {
   "schemaVersion": 5,
-  "updatedAt": "2026-09-29T23:35:00Z",
+  "updatedAt": "2026-09-29T23:44:00Z",
   "sourceId": "persg-facts",
   "sourceTitle": "B-S25-PersG-fact sheets-(Horst)-0425.pdf",
   "driveId": "179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
@@ -9,18 +9,34 @@
   "physicalPages": 24,
   "legalReview": false,
   "sourceComplete": false,
-  "historicalCheckpoints": [{"commit":"5d3b29828d83652931c6c0225985f39e5185b089","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"02b47f1d3081b111640c92d9557d22cd07ebf5a9","contents":"Complete source and pagewise PR261/262 evidence, local failures, manual browser findings and fixes, exact merge/deployment read-backs. Retained unchanged."}],
+  "historicalCheckpoints": [{"commit":"5d3b29828d83652931c6c0225985f39e5185b089","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"02b47f1d3081b111640c92d9557d22cd07ebf5a9","contents":"Complete source and pagewise PR261/262 evidence, local failures, manual browser findings and fixes, exact merge/deployment read-backs. Retained unchanged."},{"commit":"ca009ee4e19f1b1e8815ff3d377afddece67e971","path":"docs/endriss-persg-facts-fortschritt.json","contents":"Fresh source/ref checks and bounded PDF7-8 lease before implementation."}],
   "releasedPackages": [
     {"pages":[1,2,3,4],"printedSheets":[1,2,3,4,5,6],"pullRequest":261,"mergeCommit":"d35c7485c74aecbc9061dcef6e06252c3ab24a7f","deployed":true},
     {"pages":[5,6],"printedSheets":[7,8,9,10],"pullRequest":262,"mergeCommit":"c37b58ab98915402c32a7dd93ea71530e8069717","deployed":true}
   ],
-  "nativePages": [1,2,3,4,5,6],
+  "nativePages": [1,2,3,4,5,6,7,8],
   "releasedPages": [1,2,3,4,5,6],
-  "visuallyReviewedPages": [1,2,3,4,5,6],
-  "remainingPages": [7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+  "visuallyReviewedPages": [1,2,3,4,5,6,7,8],
+  "remainingNativePages": [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
   "lease": {"owner":"interactive-persg-pages7-8-20260929-2335","expiresAt":"2026-09-30T00:35:00Z","scope":"PersG Fact Sheets original PDF7-8, native continuation data/audit, source/browser tests, derived partial coverage and checkpoint. Preserve shared renderer/register and all previous source content. No parallel edits to these inputs."},
-  "currentPackage": {"pages":[7,8],"state":"resumed; original page7 opened, not yet certified or transcribed; page8 not reviewed","nativePages":[],"merged":false,"deployed":false,"sourceVerification":"Fresh connected Drive metadata; original local bytes, SHA256 and24page count match repository provenance. Snapshot5d3b298 downloaded through GitHub artifact11067871144; archive digest verified. No old chat transcription assumed."},
-  "initialSync": {"main":"27ff5c7414d507c1e7a25ca15c396f7ceb324e27","work":"5d3b29828d83652931c6c0225985f39e5185b089","previousDeploymentReadBack":"c37b58ab98915402c32a7dd93ea71530e8069717","workRun":36644232198,"workRunConclusion":"success","otherSourceLeases":null},
+  "currentPackage": {
+    "pages":[7,8],"printedSheets":[11,12,13,14],"state":"native integration and local SSR passed; complete-checkout CI/browser/release pending",
+    "dataCommit":"9d58b8d56ca23723ffafa3ac4bc0b3f9231a0f41",
+    "additionalChapters":4,"additionalTables":14,"totalSourceChapters":15,"totalSourceTables":32,
+    "sourceVerification":"Fresh connected Drive metadata and authenticated original local bytes/SHA256/24page count match repository provenance. Snapshot5d3b298 downloaded through GitHub artifact11067871144; archive digest verified.",
+    "pageEvidence":[
+      {"page":7,"printedSheets":[11,12],"chapters":["persg-facts-11","persg-facts-12"],"method":"Direct original full-page image and both enlarged sheets read twice against transcript, no OCR.","scope":"All GF ownership/role edges, remuneration variants and seven-row original vGA solution. Sticky-note reference visibly ends at a paragraph sign and is explicitly marked incomplete, not filled with another norm. Six double-tier edges, exact facts and eight-by-seven original solution. Blank and dash cells remain distinct."},
+      {"page":8,"printedSheets":[13,14],"chapters":["persg-facts-13","persg-facts-14"],"method":"Direct original full-page image and both enlarged sheets read twice against transcript, no OCR.","scope":"HR/StR comparison, mirror arrows, four original ledgers,750/11750corrections and annual1000rent. No ownership percentage is written; none inferred. Complete PV transfer graph and three alternative lists including repeated citations, accounts and sticky note. Source numbering deviations retained."}
+    ],
+    "existingModuleTargets":[4,7,10,11,12,13,14,20],
+    "allSourceModuleTargets":[1,2,3,4,6,7,8,9,10,11,12,13,14,20],
+    "duplicateHandling":"Existing modules10/12/13/14/20 were read and remain unchanged. Source page8 says annual1000rent and no percentage, unlike the other example in module14; differences explicit. Full previous PDF1-6 native chapter hash ca75da4ad169153f59756358b27b156cf4fbd7bdab002562351995d3b2aac6ae enforced. Previous root source moved byte-for-byte to basis module (Git blob cd0703473fdbc8845be7d83b22fdad6dd3e803c0), stable root wrapper appends new chapters and cumulative audit without a second editable transcript.",
+    "files":["src/data/endriss-persg-facts-11-14.js","src/data/endriss-persg-facts-basis.js","src/data/endriss-persg-facts.js","tools/endriss/assert-persg-facts-11-14.mjs","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs"],
+    "ui":"Existing two entry points and renderer retained. Derived8/24 partial notice with16open pages;14existing module targets. No original image, shared CSS, learner-progress or unrelated module edits.",
+    "tests":{"localSourceSSR":"passed: exact new source fixtures, every rendered cell, old content hashes,8/24boundary and14module targets","localNativeSSR":"passed:8sources,107native source pages,95chapters,125tables across all native sources","localNotfallbuch":"passed","localViteBundle":"passed with pre-existing large-chunk warnings; not full production acceptance","localProductionBuild":"not run in source-only snapshot lacking public assets; full-checkout CI production build required","localBrowser":"not run; actual Chromium1280/390 and all new-table viewport/keyboard checks pending in existing CI workflow","sourceAssets":"full-checkout eight-image-hash checks pending"},
+    "merged":false,"deployed":false
+  },
+  "initialSync":{"main":"27ff5c7414d507c1e7a25ca15c396f7ceb324e27","work":"5d3b29828d83652931c6c0225985f39e5185b089","previousDeploymentReadBack":"c37b58ab98915402c32a7dd93ea71530e8069717","workRun":36644232198,"workRunConclusion":"success","otherSourceLeases":null},
   "blockers": [],
-  "next": "Read original PDF7-8 directly, compare with existing PersG modules, transfer exact source tables and notes without legal review or invented solutions. Save source-bound data early. Require full production/source/import/desktop-mobile checks and manually inspect new native tables before bounded merge; verify deployment. Remaining source pages9-24 are outside this package."
+  "next":"Read full-checkout CI and actual failures if any. Require production/source/import/desktop-mobile checks and inspect new native-table screenshots before bounded merge; verify exact deployment and release own lease. Afterwards resume at original PDF9. Source pages9-24 remain outside this package; A5 stays partial and strict whole-group metric6/12 stays50percent."
 }
