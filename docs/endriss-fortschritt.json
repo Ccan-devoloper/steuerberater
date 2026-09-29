@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T19:22:07Z",
+  "updatedAt": "2026-09-29T19:41:28Z",
   "repository": "Ccan-devoloper/steuerberater",
   "workingBranch": "codex/endriss-restbestaende-2026-09-29",
-  "lastObservedWorkCommit": "452de47e3215e80ef19e5dc45f78f62f572bd9a3",
+  "lastObservedWorkCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38",
   "lastObservedMainCommit": "f796c01d3cc99f3b5277a461e4b1c49ab96b37b1",
   "legalReview": false,
   "complete": false,
@@ -16,12 +16,15 @@
     "intervalMinutes": 60,
     "immediateChatFailureTriggerAvailable": false,
     "requested15MinuteChatIntervalSupported": false,
+    "lastObservedScheduledRun": null,
     "nextSteps": [
-      "Do not redo the native UI wiring: it is implemented and tested at 452de47. Inspect current refs first.",
-      "Check original-page publisher run 36616059906 and any successor. At the last read its source publication, version comparison, build and ESt/Mirbach check passed, but the final commit/rebase step was still in progress.",
-      "Inspect the Horst version comparison report if committed; exact source/page identity can support deduplication, but similarity alone cannot establish semantic equivalence.",
-      "Complete remaining UI/browser and source-asset review, merge only a tested accurately described partial package, and verify deployment. Recheck every PR head SHA before merging; do not accidentally include unchecked concurrent image assets.",
-      "Continue page-specific native transcription or verified existing-module mapping for the next open source; preserve evidence and checkpoint partial progress."
+      "Read current refs and this checkpoint first. Native UI wiring is implemented; do not redo it.",
+      "Inspect Endriss Browser-Abnahme for commit 6384b65ae3d5dca44622ab767dc75b28196cfc38 or its relevant successor. First browser run 36620664115 failed at the exact accessible subject selector. Commit 6384b65 explicitly names subject and page selects. The full browser rerun, not merely a build, must pass.",
+      "Browser test and screenshots are in tools/pruefen-endriss-browser.mjs and workflow .github/workflows/endriss-browser.yml. Download endriss-browser-evidence for actual screenshots/report; do not claim visual screenshot inspection from a successful automated test alone.",
+      "Original-page publisher 36616059906 succeeded, including safe rebase/commit, build and source checks. Its outputs exist in the working branch. Do not run the multi-gigabyte preparation/publisher again without a specific need.",
+      "The committed Horst comparison docs/endriss-horst-versionsvergleich.json reports 16 versus 16 pages but different file bytes and different prepared image hashes for every pair. No duplicate/native-equivalence conclusion follows: review the second version visually before registering it as covered.",
+      "After browser acceptance and source-asset review, merge only a tested accurately described partial package and verify deployment. Recheck PR head and all concurrent changes before merging. Large original-page assets do not imply completed transcription.",
+      "Continue a bounded page-specific native transcription or verified existing-module mapping for the next open source; preserve actual evidence and the exact next page in this checkpoint."
     ],
     "ifInterrupted": "Read the latest refs, this checkpoint and relevant files again; do not replay old full-file replacements over concurrent changes. Reclaim an expired lease only after checking running work."
   },
@@ -38,25 +41,27 @@
     },
     {
       "id": "native-handwritten-and-horst-ui",
-      "state": "native-ui-integrated-and-ci-tested; not-merged",
+      "state": "native-ui-integrated-and-build-tested; browser-acceptance-in-progress; not-merged",
       "nativeData": ["src/data/endriss-handschriften.js", "src/data/endriss-persg-horst-folien.js", "src/data/endriss-native-register.js"],
       "sourceIds": ["istr-hinzurechnung", "lst-mitschrift", "lst-korrektur", "persg-folien-1"],
       "scope": "IStR 4 pages; Lohnsteuer 24 pages plus 1 correction page; Horst Folien Fassung 1 has 16 physical PDF pages. Total 45 source pages, not a whole-campus completion measure.",
       "uiIntegrationCommit": "83a34fde6a8fead24faf0f20982e9b3534c466a6",
-      "knownGapResolved": "EndrissNachtraege now uses endriss-native-register. Native sources remain listed when the image inventory is missing, empty or partial. Source and published image counts are distinct; images load on explicit expansion only.",
+      "knownGapResolved": "EndrissNachtraege uses endriss-native-register. Native sources remain listed when the image inventory is missing, empty or partial. Source and published image counts are distinct; images load on explicit expansion only.",
       "testFile": "tools/pruefen-endriss-native.mjs",
       "validatedCommit": "452de47e3215e80ef19e5dc45f78f62f572bd9a3",
       "validationRun": 36618522788,
       "validationJob": 109577764822,
       "validationConclusion": "success",
       "passedChecks": ["native source registration", "source page reference coverage", "recorded visual review page coverage", "unique chapter IDs", "table column shapes", "native inventory fallback", "actual React server rendering of overview and detail content", "production build", "existing ESt/Mirbach source import checks", "resume checkpoint artifact"],
-      "browserAcceptance": "not-yet-confirmed; server rendering is not browser testing",
+      "additionalBuildEvidence": {"commit": "7644d8cb1fbfde9807123fdb5ee1a0b291748d48", "run": 36620664115, "job": 109584926870, "step": "Production build and source checks", "conclusion": "success", "note": "This success excludes the later failing browser step."},
+      "browserAcceptance": {"test": "tools/pruefen-endriss-browser.mjs", "workflow": ".github/workflows/endriss-browser.yml", "firstRun": 36620664115, "firstJob": 109584926870, "firstConclusion": "failure", "failure": "getByLabel('Fach', { exact: true }) timeout", "fixCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38", "fix": "Explicit aria-label values on subject and page select elements", "rerunConclusion": "not-yet-confirmed", "screenshotsVisuallyInspected": false},
       "merged": false,
       "deployment": "not-yet-confirmed-for-this-package"
     }
   ],
   "technicalJobs": [
-    {"runId": 36616059906, "jobId": 109572010195, "type": "original-page-publisher", "lastObservedState": "in_progress", "pendingStep": "Commit generated assets, rebase and validate without force pushing", "note": "Re-read before acting; no completion or publication claim from this checkpoint alone."}
+    {"runId": 36616059906, "jobId": 109572010195, "type": "original-page-publisher", "lastObservedState": "completed", "conclusion": "success", "confirmedSteps": ["source image publication", "Horst version comparison", "production build", "ESt/Mirbach checks", "safe commit/rebase and validation"], "report": "docs/endriss-originalbestand.json", "note": "Outputs committed in work branch; not merged/deployed as a second package, not a native-completeness assertion."},
+    {"runId": 36620664115, "jobId": 109584926870, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "failure", "artifactId": 11058003475, "note": "Selector naming fixed in 6384b65; inspect rerun, do not convert this failed run to success."}
   ],
   "remainingSourceGroups": [
     {"ids": ["kst-e1", "kst-e2", "kst-e3", "kst-e4", "kst-e5", "kst-e6", "kst-e7"], "state": "source-to-existing-content-audit-open", "note": "Existing KSt learning modules must be checked before assuming all seven sources are absent."},
@@ -77,7 +82,7 @@
     "removePersonalWatermarksFromPublicAssets": true
   },
   "environment": {
-    "observedLocalExecutionError": "container.exec ClientError in the current interactive run; remote GitHub read/write actions and GitHub Actions validation succeeded.",
-    "fallback": "Use connected GitHub file actions and verified GitHub Actions runs; do not claim local tests that did not execute."
+    "observedLocalExecutionError": "Both container.exec and python.exec returned ClientError again in this interactive run; connected GitHub reads/writes and remote build/browser execution succeeded.",
+    "fallback": "Use connected GitHub file actions and actual GitHub Actions results; do not assert unexecuted local tests."
   }
 }
