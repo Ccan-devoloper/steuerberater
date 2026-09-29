@@ -279,6 +279,21 @@ function coverTitelEinpassen() {
     groesse = Math.max(mindest, groesse * 0.94);
     titel.style.fontSize = `${groesse}px`;
   }
+  /* Notfall nur für ein einzelnes überlanges Kompositum (29.09.:
+     „Bewertungsvereinfachung“ brach den ganzen Renderlauf ab). Ist jede
+     überlaufende Zeile ein einziges Wort, darf der Titelblock weiter
+     schrumpfen – bis 60/64 px. Mehrwortzeilen bleiben bei der Mindestgröße
+     und scheitern weiterhin hart an der Geometrieprüfung. */
+  const zuBreit = () => [...titel.querySelectorAll(".titel-zeile")].filter((zeile) => {
+    const box = zeile.getBoundingClientRect();
+    return zeile.scrollWidth > zeile.clientWidth + 1 || box.left < links - 1 || box.right > rechts + 1;
+  });
+  const einzelwort = (zeilen) => zeilen.length > 0 && zeilen.every((z) => String(z.textContent || "").trim().split(/\s+/).length === 1);
+  const notfall = wurzel.matches(".story.cover") ? 60 : 64;
+  while (!passt() && einzelwort(zuBreit()) && groesse > notfall + 0.5 && n++ < 32) {
+    groesse = Math.max(notfall, groesse * 0.96);
+    titel.style.fontSize = `${groesse}px`;
+  }
   titel.dataset.autoFitPx = String(Math.round(groesse * 10) / 10);
 }
 
