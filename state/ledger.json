@@ -5814,6 +5814,18 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "s4",
+      "medienId": "18130395649802024",
+      "veroeffentlicht": "2026-09-29T05:45:02.890Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-k3-31",
+      "fach": "persg",
+      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?"
     }
   ],
   "fachZaehler": {
