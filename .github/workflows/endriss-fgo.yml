@@ -3,14 +3,14 @@ on:
   push:
     branches: [codex/endriss-restbestaende-2026-09-29, main]
     paths:
-      - src/data/endriss-fgo-fahrtroute.js
+      - src/data/endriss-fgo-*.js
       - src/components/EndrissFGOFahrtroute.jsx
       - src/components/AOSchemataAlle.jsx
       - tools/pruefen-endriss-fgo.mjs
       - .github/workflows/endriss-fgo.yml
   pull_request:
     paths:
-      - src/data/endriss-fgo-fahrtroute.js
+      - src/data/endriss-fgo-*.js
       - src/components/EndrissFGOFahrtroute.jsx
       - src/components/AOSchemataAlle.jsx
       - tools/pruefen-endriss-fgo.mjs
