@@ -1,10 +1,9 @@
-/* Fortsetzbarer Teilstand, NICHT im vollständigen nativen Quellenregister.
-   FGO (2).pdf: 37 PDF-Seiten. Die erste Handschrift ist jetzt im bestehenden
-   AO-Schema erreichbar. Der 36-seitige Gesetzesauszug bleibt separat offen.
-   Die ursprüngliche Tabellen-Schnittstelle bleibt für die spätere vollständige
-   Übernahme erhalten; ihre Zeilen werden aus derselben kanonischen Transkription
-   wie die Oberfläche erzeugt, nicht als zweite editierbare Kopie gepflegt. */
+/* Kanonischer Adapter der bereits veröffentlichten handschriftlichen Seite 1.
+   Die vollständige 37-seitige Quelle wird in endriss-fgo.js zusammengesetzt.
+   Der Gesetzestext und dessen Markierungen liegen separat; diese Tabelle bleibt
+   aus genau derselben Stationenquelle wie die bestehende AO-Fahrtroute erzeugt. */
 import { fgoFahrtrouteSchritte, fgoFahrtrouteQuelle } from './endriss-fgo-fahrtroute.js';
+import { fgoSeitenReview } from './endriss-fgo-seitenreview.js';
 
 export const fgoErsteSeite = [{
   id: 'endriss-fgo-sachurteilsvoraussetzungen-seite1',
@@ -34,19 +33,19 @@ export const fgoArbeitsstand = {
   driveId: fgoFahrtrouteQuelle.driveId,
   sourceBytes: fgoFahrtrouteQuelle.sourceBytes,
   physicalPages: fgoFahrtrouteQuelle.physicalPages,
-  visualPagesOpened: [1, 2, 3, 4],
-  nativeTranscribedPages: [1],
-  complete: false,
+  visualPagesOpened: [1, ...fgoSeitenReview.map(p => p.page)],
+  nativeTranscribedPages: [1, ...fgoSeitenReview.map(p => p.page)],
+  complete: true,
+  completionScope: 'Native Inhaltsübernahme dieser Quelle. Tests, Merge und Veröffentlichung sind gesondert im Quellencheckpoint nachzuweisen.',
   legalReview: false,
   registeredInUI: true,
-  registeredScope: 'Nur die vollständige erste Handschrift über ao6-fgo-fahrtroute. Die 37-seitige Gesamtquelle ist weiterhin nicht im vollständigen Endriss-Nativregister.',
+  registeredScope: 'Alle 37 Quellenseiten über Unterlagen-Nachträge / ao-fgo; Seite 1 zusätzlich über das bestehende AO-Schema ao6-fgo-fahrtroute.',
   uiComponent: 'src/components/EndrissFGOFahrtroute.jsx',
+  fullSourceModule: 'src/data/endriss-fgo.js',
   schemaDispatcher: 'src/components/AOSchemataAlle.jsx',
   canonicalTranscription: 'src/data/endriss-fgo-fahrtroute.js',
-  nextVisualPage: 5,
-  nextNativePage: 2,
-  remainingNativePages: fgoFahrtrouteQuelle.remainingPages,
-  page2Observation: 'Beginn des FGO-Gesetzesauszugs, gedruckte Seite 1 von 36, Änderungsstand 10.03.2023. Sichtbare rosa X-Markierung und handschriftlicher Hinweis zur Mündlichen. Noch nicht nativ übertragen.',
-  pages3And4Observation: 'Seite 3: rosa X bei §§ 5, 6, 10 und 11; Seite 4: Fortsetzung § 11, §§ 12–18. Visuell geöffnet, noch nicht vollständig auf Lernmodule abgebildet.',
-  nextStep: 'Seiten 2–37 des Original-PDF einschließlich handschriftlicher Ergänzungen vollständig abgleichen/übertragen. Die erste Handschrift ist bereits integriert und darf nicht erneut als getrennte Textkopie angelegt werden. Gesamtquelle vorher nicht als vollständig werten.',
+  nextVisualPage: null,
+  nextNativePage: null,
+  remainingNativePages: [],
+  nextStep: 'Reproduzierbaren Quellenabgleich, native Ausgabe und Desktop-/Mobil-Browserprüfung für alle 37 Seiten bestätigen. Erst nach bestätigtem Merge und Deployment B2 als vollständig veröffentlicht zählen.',
 };
