@@ -4,20 +4,54 @@ on:
     branches: [codex/endriss-restbestaende-2026-09-29]
     paths:
       - tools/endriss/vorbereiten-fgo-gesetz.mjs
+      - src/data/endriss-fgo-seitenreview.js
       - .github/workflows/endriss-fgo-gesetz.yml
 permissions:
-  contents: read
+  contents: write
 concurrency:
   group: endriss-fgo-gesetz-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  inspect:
+  prepare:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Existing source text for visual comparison; not native completion
-        run: node tools/endriss/vorbereiten-fgo-gesetz.mjs
+      - name: Source-bound printed text and separate annotation audit
+        run: |
+          node tools/endriss/vorbereiten-fgo-gesetz.mjs
+          node tools/endriss/vorbereiten-fgo-gesetz.mjs --check
+          node --check src/data/endriss-fgo-gesetz.generated.js
+      - name: Persist this one generated file only; no force and no main write
+        env:
+          EXPECTED_HEAD: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          branch=codex/endriss-restbestaende-2026-09-29
+          test "$GITHUB_REF" = "refs/heads/$branch"
+          git add -- src/data/endriss-fgo-gesetz.generated.js
+          if git diff --cached --quiet; then exit 0; fi
+          test "$(git diff --cached --name-only)" = "src/data/endriss-fgo-gesetz.generated.js"
+          git fetch origin "$branch"
+          if test "$(git rev-parse FETCH_HEAD)" != "$EXPECTED_HEAD"; then
+            echo 'Working branch advanced. Refusing a stale publisher commit; rerun from a newly reviewed head.' >&2
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'content: persist 36 source-checked FGO statute pages [skip ci]'
+          git push origin "HEAD:refs/heads/$branch"
+      - name: Preserve page hashes and exact text-layer repairs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-fgo-statute-transfer
+          path: |
+            test-results/endriss-fgo-gesetz
+            src/data/endriss-fgo-gesetz.generated.js
+          retention-days: 7
