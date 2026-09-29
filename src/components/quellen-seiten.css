@@ -1,0 +1,13 @@
+.quellen-seiten { margin:1.1rem 0; border:1px solid var(--line,#d7dce3); border-radius:.7rem; overflow:hidden; }
+.quellen-seiten>summary { padding:.85rem 1rem; cursor:pointer; font-weight:650; }
+.quellen-seiten__inhalt { padding:0 1rem 1rem; }
+.quellen-seiten__steuerung { display:flex; align-items:end; flex-wrap:wrap; gap:.7rem; margin:.3rem 0; }
+.quellen-seiten__steuerung label { display:grid; gap:.25rem; flex:1; min-width:11rem; }
+.quellen-seiten__steuerung select { padding:.55rem; max-width:100%; border:1px solid var(--line,#d7dce3); border-radius:.4rem; background:var(--paper,#fff); color:inherit; }
+.quellen-seiten__steuerung button { padding:.65rem .8rem; border:1px solid var(--line,#d7dce3); border-radius:.4rem; cursor:pointer; }
+.quellen-seiten__steuerung button:disabled { opacity:.5; cursor:default; }
+.quellen-seiten__stand, .quellen-seiten figcaption { font-size:.85rem; line-height:1.5; }
+.quellen-seiten figure { margin:.8rem 0 0; }
+.quellen-seiten img { display:block; max-width:100%; height:auto; max-height:85vh; object-fit:contain; margin:auto; background:white; }
+.quellen-seiten a:focus-visible { outline:3px solid currentColor; outline-offset:3px; }
+@media(max-width:600px) { .quellen-seiten__inhalt { padding:0 .5rem .6rem; } .quellen-seiten__steuerung label { order:-1; flex-basis:100%; } }

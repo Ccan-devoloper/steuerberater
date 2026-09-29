@@ -1,0 +1,65 @@
+name: Endriss native Quellenübernahme
+on:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29]
+    paths:
+      - tools/endriss/generate_est.py
+      - tools/endriss/est_abbildungen.py
+      - tools/endriss/est_tabellen.py
+      - tools/endriss/apply_est.py
+      - tools/endriss/apply_mirbach.py
+      - .github/workflows/endriss-native-import.yml
+permissions:
+  contents: write
+concurrency:
+  group: endriss-native-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: codex/endriss-restbestaende-2026-09-29
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: python -m pip install PyMuPDF==1.26.7 Pillow==12.3.0
+      - name: Verified source and native import
+        run: |
+          python tools/endriss-source-access.py
+          test -f /tmp/endriss-est-source.pdf
+          python tools/endriss/generate_est.py /tmp/endriss-est-source.pdf
+          python tools/endriss/apply_mirbach.py
+          python tools/endriss/apply_est.py
+          python tools/endriss/apply_mirbach.py
+          python tools/endriss/apply_est.py
+      - run: npm ci
+      - name: Data and source checks
+        run: |
+          npm run check:est-kurzskript-1
+          npm run check:k1-erbst-fallsammlung-mirbach
+          node tools/pruefen-endriss-nachtrag.mjs
+          npm run build
+      - name: Commit only tested generated changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/est-kurzskript-1.js src/data/est-kurzskript-1-nachtrag.js src/data/k1-erbst-fallsammlung-mirbach.js src/components/KurzskriptBloecke.jsx src/components/K2EStCampus.jsx public/endriss/est-ks1
+          if ! git diff --cached --quiet; then
+            git commit -m 'feat: integrate verified ESt tail and handwritten Mirbach solutions'
+            git push origin HEAD:codex/endriss-restbestaende-2026-09-29
+          fi
+      - name: Tested source snapshot
+        run: git archive --format=zip HEAD src tools docs .github package.json package-lock.json vite.config.js index.html > /tmp/endriss-native-source.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: endriss-native-source
+          path: /tmp/endriss-native-source.zip
+          retention-days: 7

@@ -11,6 +11,7 @@
    gruppeLabel). Die Suche greift auf den Volltext des Kapitels. */
 import React, { useMemo, useState } from "react";
 import { Block } from "./HausaufgabenBloecke";
+import QuellenSeiten from "./QuellenSeiten";
 import { mitHervorhebung } from "../lib/hervorhebung";
 import "./istr-fallsammlung.css";
 import "./istr-hausaufgaben.css";
@@ -23,7 +24,7 @@ const volltext = (kapitel) => {
     if (Array.isArray(x)) { x.forEach(sammeln); return; }
     if (typeof x === "object") Object.values(x).forEach(sammeln);
   };
-  sammeln([kapitel.title, kapitel.thema, kapitel.normen, kapitel.themen, kapitel.bloecke]);
+  sammeln([kapitel.title, kapitel.thema, kapitel.normen, kapitel.themen, kapitel.bloecke, kapitel.loesungen]);
   return teile.join(" ").toLowerCase();
 };
 
@@ -56,6 +57,18 @@ function Kapitelkarte({ kapitel, kicker }) {
         {kapitel.bloecke.map((element, i) => <Block key={i} element={element} />)}
         <small>Quelle: {kapitel.quelle}</small>
       </section>
+      <QuellenSeiten seiten={kapitel.quellenseiten || []} />
+      {(kapitel.loesungen || []).map((loesung) => (
+        <details className="istr-fs-details" key={loesung.id} id={loesung.id}>
+          <summary>{loesung.title} · Quellenlösung anzeigen</summary>
+          <section className="istr-fs-loesung" aria-label={loesung.title}>
+            <h4>{loesung.title}</h4>
+            <p className="istr-ha-thema">{loesung.rechtsstand}</p>
+            {loesung.bloecke.map((element, i) => <Block key={i} element={element} />)}
+            <small>Quelle: {loesung.quelle} · PDF-Seiten {loesung.sourcePages.join(", ")}</small>
+          </section>
+        </details>
+      ))}
     </article>
   );
 }

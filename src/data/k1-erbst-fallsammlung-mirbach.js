@@ -5,15 +5,11 @@
    das Steuerberaterexamen 2026/2027: 31 Fälle, dazu die Abwandlungen zu den
    Fällen 10, 12 und 28.
 
-   WICHTIG: Die Quelle enthält KEINE Lösungen. Sie ist eine Arbeitsunterlage
-   für den Unterricht; hinter jedem Fall steht nur die Frage, eingeleitet durch
-   das Zeichen ▷. Im selben Drive-Ordner liegen zwar zwei Lösungsblätter zu den
-   Hausaufgabenfällen 9 und 14 sowie zur Abwandlung 2 des Falls 28 – beide sind
-   jedoch Handschrift, deren Texterkennung für eine wortlautgetreue Übernahme
-   unbrauchbar ist (siehe docs/offene-quellen.md, Abschnitt A). Es wird hier
-   bewusst keine Lösung erfunden; stattdessen verweist jedes Kapitel auf die
-   Stellen im Campus, an denen dieselbe Rechtsfrage mit vollständiger
-   Musterlösung steht.
+   Das Aufgaben-PDF enthält keine Lösungen. Die zwei zusätzlichen handschriftlichen
+   Lösungsblätter zu Fall 9, Fall 14 und Fall 28/Abwandlung 2 sind jetzt separat
+   und nach visueller Prüfung aller sechs PDF-Seiten übernommen. Sie stehen als
+   aufklappbare Quellenlösungen beim passenden Fallbereich. Für die anderen Fälle
+   wird weiterhin keine Original-Lösung vorgetäuscht. Keine Rechtsstandsprüfung.
 
    Zwei Tabellen der Quelle (Fall 29 und Fall 30) kommen aus der Textextraktion
    spaltenweise ineinander geschoben. Sie sind in ihre Spaltenordnung
@@ -26,12 +22,14 @@
 
    Personenbezogene Wasserzeichen des Quell-PDFs sind nicht übernommen. */
 
+import { mirbachLoesungen } from "./k1-erbst-mirbach-loesungen.js";
+
 export const erbstFallsammlungMirbachQuelle = {
   reihe: "Vorbereitung auf das Steuerberaterexamen 2026/2027 · Unterrichtsbegleitende Fallsammlung Erbschaftsteuer/Bewertungsrecht · Dr. Christian Mirbach",
   stand: "Version 1.1",
   verfasser: "Dr. Christian Mirbach",
   didaktik: [
-    "Diese Sammlung ist bewusst knapp gehalten: Jeder Fall besteht aus drei bis zehn Zeilen Sachverhalt und einer einzigen Frage. Das macht sie zum idealen Trainingsmaterial für den Einstieg – man kann in einer Stunde zwanzig Fälle durchdenken, ohne sich in Sachverhaltsarbeit zu verlieren. Die Quelle gibt die Lösungen nicht mit; wer sie braucht, findet dieselben Rechtsfragen in der Fallsammlung Schäfer, in den Hausaufgaben und in den Originalklausuren desselben Campus vollständig durchgerechnet.",
+    "Diese Sammlung ist bewusst knapp gehalten: Jeder Fall besteht aus drei bis zehn Zeilen Sachverhalt und einer einzigen Frage. Das macht sie zum idealen Trainingsmaterial für den Einstieg – man kann in einer Stunde zwanzig Fälle durchdenken, ohne sich in Sachverhaltsarbeit zu verlieren. Das Aufgaben-PDF gibt die Lösungen nicht mit. Die zusätzlichen Handschriften zu Fall 9, Fall 14 und Fall 28/Abwandlung 2 sind hier beim jeweiligen Fallbereich aufklappbar. Zu den übrigen Fällen findet man dieselben Rechtsfragen in der Fallsammlung Schäfer, in den Hausaufgaben und in den Originalklausuren desselben Campus vollständig durchgerechnet.",
     "Der Aufbau folgt dem Prüfungsschema des ErbStG: zuerst der steuerpflichtige Vorgang (Fälle 1 bis 4), dann die persönliche Steuerpflicht mit den Erweiterungen für Wegzügler und dem Inlandsvermögenskatalog (Fälle 5 bis 7), dann Steuerübernahme, Vorerbschaft und Vorschenkungen, dann die Ermittlung des steuerpflichtigen Erwerbs, und erst danach das Bewertungsrecht – Kapitalforderungen, Renten, Grundbesitz, Anteile.",
     "Auffällig ist die Dichte der Bewertungsfälle: Allein zehn Fälle behandeln Kapitalforderungen und Renten (16 bis 25), drei den Grundbesitz (26 bis 28, letzterer mit drei Abwandlungen zum Erbbaurecht) und drei die Anteilsbewertung (29 bis 31). Genau diese Reihenfolge – Substanzwert, vereinfachtes Ertragswertverfahren, Zwischenabschluss – ist die, in der die Prüfung sie abfragt.",
   ],
@@ -41,7 +39,7 @@ const VERFASSER = "Dr. Christian Mirbach";
 const RECHTSSTAND = "Version 1.1, Examen 2026/2027";
 const OHNE_LOESUNG = "Die Quelle ist eine Arbeitsunterlage und enthält zu diesen Fällen keine Lösung – hinter jedem Fall steht nur die Frage. Es wird hier bewusst keine erfunden.";
 
-export const erbstFallsammlungMirbach = [
+const erbstFallsammlungMirbachRoh = [
   {
     id: "erbst-fs-m-01",
     kapitel: "1",
@@ -127,7 +125,7 @@ export const erbstFallsammlungMirbach = [
       { text: "– Ferrari F430, gemeiner Wert 200.000,00 €" },
       { text: "– Spielschulden i. H. v. 9.000,00 €" },
       { text: "Für die Bestattung zahlt T 10.000,00 €. Für die Grabpflege zahlt sie 476,00 € p. a. ▷ Festzusetzende Steuer?" },
-      { text: OHNE_LOESUNG + " Zu den Fällen 9 und 14 liegen im Drive-Ordner handschriftliche Lösungsblätter, deren Texterkennung für eine Übernahme unbrauchbar ist; sie stehen in docs/offene-quellen.md, Abschnitt A. Im Campus selbst sind dieselben Fragen vollständig durchgerechnet: die Nacherbfolge nach § 6 Abs. 2 ErbStG und die Vorschenkung nach § 14 ErbStG in den Originalklausuren und der Fallsammlung (Schäfer), das Familienheim und § 13d ErbStG in der Verschonungsstrecke, die Nachlassverbindlichkeiten samt Grabpflege-Kapitalisierung in den Hausaufgaben ErbSt." },
+      { text: OHNE_LOESUNG + " Die zusätzlich bereitgestellten handschriftlichen Lösungsblätter zu Fall 9 und Fall 14 sind visuell übertragen und nachstehend einzeln aufklappbar. Sie gehören nicht zum Aufgaben-PDF; die anderen Fälle dieses Bereichs bleiben ohne Original-Lösung. Im Campus selbst sind dieselben Fragen vollständig durchgerechnet: die Nacherbfolge nach § 6 Abs. 2 ErbStG und die Vorschenkung nach § 14 ErbStG in den Originalklausuren und der Fallsammlung (Schäfer), das Familienheim und § 13d ErbStG in der Verschonungsstrecke, die Nachlassverbindlichkeiten samt Grabpflege-Kapitalisierung in den Hausaufgaben ErbSt." },
     ],
   },
   {
@@ -208,7 +206,7 @@ export const erbstFallsammlungMirbach = [
       { text: "Das Einfamilienhaus wurde durch den Erblasser im Erbbaurecht erbaut. Das Erbbaurecht wurde zum 01.01.1963 begründet. Bei Ablauf des Erbbaurechts zum 31.12.2060 ist eine volle Entschädigung des Gebäudewerts vorgesehen. Der jährlich zu zahlende Erbbauzins beträgt 4.000,00 €. Vom Gutachterausschuss wurde lediglich ein Erbbaurechtsfaktor von 1,10 ermittelt. Der zugrunde gelegte Erbbauzinssatz beträgt 3,00 %." },
       { text: "Var. a) Der Erbbaurechtskoeffizient wurde mit 0,9 festgestellt." },
       { text: "Var. b) Weitere Gutachterinfos sind nicht vorhanden." },
-      { text: OHNE_LOESUNG + " Zur Abwandlung 2 liegt im Drive-Ordner ein handschriftliches Lösungsblatt, dessen Texterkennung für eine Übernahme unbrauchbar ist (docs/offene-quellen.md, Abschnitt A). Im Campus stehen dieselben Bewertungswege vollständig: das Ertragswertverfahren mit der Abgrenzung der üblichen Miete, das Sachwertverfahren und die Erbbaurechtsbewertung nach §§ 192 ff. BewG in der Bewertungsstrecke (Schäfer), dort auch die große Bewertungsklausur mit drei Grundbesitzwertermittlungen." },
+      { text: OHNE_LOESUNG + " Das zusätzliche vierseitige handschriftliche Lösungsblatt zu Fall 28, Abwandlung 2, ist visuell übertragen und nachstehend aufklappbar. Es enthält beide Varianten und die Herleitung des Werts des unbelasteten Grundstücks. Im Campus stehen dieselben Bewertungswege vollständig: das Ertragswertverfahren mit der Abgrenzung der üblichen Miete, das Sachwertverfahren und die Erbbaurechtsbewertung nach §§ 192 ff. BewG in der Bewertungsstrecke (Schäfer), dort auch die große Bewertungsklausur mit drei Grundbesitzwertermittlungen." },
     ],
   },
   {
@@ -280,5 +278,10 @@ export const erbstFallsammlungMirbach = [
     ],
   },
 ];
+
+export const erbstFallsammlungMirbach = erbstFallsammlungMirbachRoh.map((kapitel) => ({
+  ...kapitel,
+  loesungen: mirbachLoesungen[kapitel.id] || [],
+}));
 
 export default erbstFallsammlungMirbach;

@@ -1,0 +1,749 @@
+[
+  {
+    "druckseite": 80,
+    "pdfSeite": 81,
+    "src": "endriss/est-ks1/p-080.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 80",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "69e3c3f6c55e4c2be36ee293a8c8510503d063940feb481a90ec32f925a75d57"
+  },
+  {
+    "druckseite": 81,
+    "pdfSeite": 82,
+    "src": "endriss/est-ks1/p-081.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 81",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "a4262dc35d3f8829d73198af62e68c832389ea1332c140bfa4606e7c3fbf9ee0"
+  },
+  {
+    "druckseite": 82,
+    "pdfSeite": 83,
+    "src": "endriss/est-ks1/p-082.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 82",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "f01860f01b368789047fc39ab7c5a515bfadc5ad7cd8c71b3c50d9e14a67d3d8"
+  },
+  {
+    "druckseite": 83,
+    "pdfSeite": 84,
+    "src": "endriss/est-ks1/p-083.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 83",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "d2ac8c550869a7c3366a1e3f6d216b4c29de21e154ddde36914106ff9019af8b"
+  },
+  {
+    "druckseite": 84,
+    "pdfSeite": 85,
+    "src": "endriss/est-ks1/p-084.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 84",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "dde535442316501eb5018612c6b4dfad28f14bc34d943540a6e17c37218268e6"
+  },
+  {
+    "druckseite": 85,
+    "pdfSeite": 86,
+    "src": "endriss/est-ks1/p-085.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 85",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "a05fbe915f2603df1ab2593c0019d34c59ec91a29cdf175602d16dcb5325162a"
+  },
+  {
+    "druckseite": 86,
+    "pdfSeite": 87,
+    "src": "endriss/est-ks1/p-086.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 86",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "3f1f6b8379e35d49619df2b360798a217fa183542351f5afc6d76e1285762504"
+  },
+  {
+    "druckseite": 87,
+    "pdfSeite": 88,
+    "src": "endriss/est-ks1/p-087.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 87",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "67fb5a3b3d8bde72cd4067328024bc37569a51c64fe1b95f2888b79d94109ea9"
+  },
+  {
+    "druckseite": 88,
+    "pdfSeite": 89,
+    "src": "endriss/est-ks1/p-088.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 88",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "e3f1bee3fd6bf267d06f90debf7d21be7759fa3183a9e52656ad5fa9540656f6"
+  },
+  {
+    "druckseite": 89,
+    "pdfSeite": 90,
+    "src": "endriss/est-ks1/p-089.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 89",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "833af9da7d80323148656c4caee0e9966300d2997321f3791b9f6d9086f1b93c"
+  },
+  {
+    "druckseite": 90,
+    "pdfSeite": 91,
+    "src": "endriss/est-ks1/p-090.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 90",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "a1c6b144a9c8c853a1e4eb20fdde46b917d055d347b7ee9fa556540b3a867ca6"
+  },
+  {
+    "druckseite": 91,
+    "pdfSeite": 92,
+    "src": "endriss/est-ks1/p-091.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 91",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "c15bc9d10c5bdfa3d01bd6deea98f4c1234a74da43b1803aa23e0e33b30c5502"
+  },
+  {
+    "druckseite": 92,
+    "pdfSeite": 93,
+    "src": "endriss/est-ks1/p-092.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 92",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "f7a247639370b995ad8fa560450354d4f326813e68702cae31ca7867e6ae702d"
+  },
+  {
+    "druckseite": 93,
+    "pdfSeite": 94,
+    "src": "endriss/est-ks1/p-093.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 93",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "5ceac291a5df47c22fddf000993c0fdc5c33167cd8cb284b4104d69ddb35c918"
+  },
+  {
+    "druckseite": 94,
+    "pdfSeite": 95,
+    "src": "endriss/est-ks1/p-094.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 94",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "31df944dff3d5ebd38809228991cb9d98d2cbeab5c67433120d012afa09c7f6c"
+  },
+  {
+    "druckseite": 95,
+    "pdfSeite": 96,
+    "src": "endriss/est-ks1/p-095.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 95",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "c99bdc88a91d5748e1f06fc7457d0dfebfc43020565dd529a9f901a6d851d615"
+  },
+  {
+    "druckseite": 96,
+    "pdfSeite": 97,
+    "src": "endriss/est-ks1/p-096.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 96",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "b96f74ad56d4fc088bfc4130364983a1062ed007a7059231bbc1ce81904cb2ff"
+  },
+  {
+    "druckseite": 97,
+    "pdfSeite": 98,
+    "src": "endriss/est-ks1/p-097.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 97",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "f7e7cd156781a31f42388263d08ca82d597ed70b67df130b5e60f9eecc988774"
+  },
+  {
+    "druckseite": 98,
+    "pdfSeite": 99,
+    "src": "endriss/est-ks1/p-098.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 98",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "21e8d259aee31910321f9047a2b6915048c540325f942dbc2301e5a18bb15bff"
+  },
+  {
+    "druckseite": 99,
+    "pdfSeite": 100,
+    "src": "endriss/est-ks1/p-099.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 99",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "cf3a81724e079e8915d7f807537d171c3195607648ad78f33daae7d910f5d2cb"
+  },
+  {
+    "druckseite": 100,
+    "pdfSeite": 101,
+    "src": "endriss/est-ks1/p-100.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 100",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "07a47cf0e9da89ab7310b09e2d9982536891d775fce9806cc39e6d4e7bd704cb"
+  },
+  {
+    "druckseite": 101,
+    "pdfSeite": 102,
+    "src": "endriss/est-ks1/p-101.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 101",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "efee9f7c00d67ce9175d3f56ad576638a6ef1c330297bd00a07767fceaafef71"
+  },
+  {
+    "druckseite": 102,
+    "pdfSeite": 103,
+    "src": "endriss/est-ks1/p-102.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 102",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "5f86e281ef4330623b75e86395053cb7d7e1014a4da5cb3aaae235b30f94f196"
+  },
+  {
+    "druckseite": 103,
+    "pdfSeite": 104,
+    "src": "endriss/est-ks1/p-103.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 103",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "28271cb2eb6403571b4c1f4704cc85f1b4f227c27892150ca62a7653f8e739e8"
+  },
+  {
+    "druckseite": 104,
+    "pdfSeite": 105,
+    "src": "endriss/est-ks1/p-104.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 104",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "8ffa4486b59278f7fd984c1239ddb14960ffd662d5fc79446eb3f012877ff788"
+  },
+  {
+    "druckseite": 105,
+    "pdfSeite": 106,
+    "src": "endriss/est-ks1/p-105.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 105",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "e8b34afed87ae3d997aaef28db8540f6a78a0fe55af7a47dd11367effb1d845c"
+  },
+  {
+    "druckseite": 106,
+    "pdfSeite": 107,
+    "src": "endriss/est-ks1/p-106.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 106",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "6d742591233cb802ccf19ae217412b1b18f9cb142e09ebf7365fffe4fc49817e"
+  },
+  {
+    "druckseite": 107,
+    "pdfSeite": 108,
+    "src": "endriss/est-ks1/p-107.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 107",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "c00948eaa2d1e0ae650dc279a276a6be810d6d682b9ea4688c7068a2b1895832"
+  },
+  {
+    "druckseite": 108,
+    "pdfSeite": 109,
+    "src": "endriss/est-ks1/p-108.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 108",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "8f00bf4c000c18c92c82d575e157a6afced98af52331a1e5cb4d379c0a3ded8a"
+  },
+  {
+    "druckseite": 109,
+    "pdfSeite": 110,
+    "src": "endriss/est-ks1/p-109.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 109",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "faab4d875236d2dfea58bb6445318d1f2517bf74fabb40a3916377f1c117d712"
+  },
+  {
+    "druckseite": 110,
+    "pdfSeite": 111,
+    "src": "endriss/est-ks1/p-110.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 110",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "fa5e6825625362ebf3f39427152beee36fc8d9a5ec9691af181c602b3e189d30"
+  },
+  {
+    "druckseite": 111,
+    "pdfSeite": 112,
+    "src": "endriss/est-ks1/p-111.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 111",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "422805489618eb4ebe01efca63e37c98fc7e92f3685832ab46df0bf58e07fd8f"
+  },
+  {
+    "druckseite": 112,
+    "pdfSeite": 113,
+    "src": "endriss/est-ks1/p-112.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 112",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "8679e38f8235064270d494adbebed1d462a02f022e2175d61db015b496e54cb8"
+  },
+  {
+    "druckseite": 113,
+    "pdfSeite": 114,
+    "src": "endriss/est-ks1/p-113.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 113",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "09eeb4c8d4d0cc3ec57b5cba13da0e508f32c85319647eb11385d42096a5c0b3"
+  },
+  {
+    "druckseite": 114,
+    "pdfSeite": 115,
+    "src": "endriss/est-ks1/p-114.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 114",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "e7c9534a3c5f46285dbbc6dc30137298b06d990ccb625f9ba2ecc474e5c05547"
+  },
+  {
+    "druckseite": 115,
+    "pdfSeite": 116,
+    "src": "endriss/est-ks1/p-115.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 115",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "a55debb6679dcff90145782526da443ebbf115d77c52fd611ae5c2b4d9e77708"
+  },
+  {
+    "druckseite": 116,
+    "pdfSeite": 117,
+    "src": "endriss/est-ks1/p-116.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 116",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "8ea955f621ee51069aca8448a5bb25dd9f6b27d609d158943ce1c9952b6ec97e"
+  },
+  {
+    "druckseite": 117,
+    "pdfSeite": 118,
+    "src": "endriss/est-ks1/p-117.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 117",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "478262c6d3a58fc06868e8f0824fc94e781b3743c19eb63f04583f970ec779c7"
+  },
+  {
+    "druckseite": 118,
+    "pdfSeite": 119,
+    "src": "endriss/est-ks1/p-118.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 118",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "93e81e52e236dcc2d1036f50479c3fb962acc92a147f8b3577afa8c6a5389af0"
+  },
+  {
+    "druckseite": 119,
+    "pdfSeite": 120,
+    "src": "endriss/est-ks1/p-119.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 119",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "8f9e2d275b2a8fe880302491721788c779285e1be5f6a47072373deee1fff516"
+  },
+  {
+    "druckseite": 120,
+    "pdfSeite": 121,
+    "src": "endriss/est-ks1/p-120.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 120",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "7c22e804f9cea38f55e0e12f1ea1779459882c1c5d78c788a3f624c190fe9d23"
+  },
+  {
+    "druckseite": 121,
+    "pdfSeite": 122,
+    "src": "endriss/est-ks1/p-121.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 121",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "bf91e345ec2776219a48525ddab12193fd0b555cdd6e7d11a147c42de2ba197a"
+  },
+  {
+    "druckseite": 122,
+    "pdfSeite": 123,
+    "src": "endriss/est-ks1/p-122.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 122",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "95759802569b0fda92c0e60c682e1ab6866bc5f327222aad6df26cb6aeed2d2f"
+  },
+  {
+    "druckseite": 123,
+    "pdfSeite": 124,
+    "src": "endriss/est-ks1/p-123.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 123",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "0d2250833ca8fff6558bfb4ad88470dfd57eb923cd75c865a0627e0ea6a9d33e"
+  },
+  {
+    "druckseite": 124,
+    "pdfSeite": 125,
+    "src": "endriss/est-ks1/p-124.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 124",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "156a30a32505d0eaaf168f076c212ed74fc25bb16a2e1ff89cb68f7fa702187f"
+  },
+  {
+    "druckseite": 125,
+    "pdfSeite": 126,
+    "src": "endriss/est-ks1/p-125.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 125",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "3b08cf523f7f0a3bc2815f4312d82a66090edd1c5cb03af9f6a5150f6ef5e6e7"
+  },
+  {
+    "druckseite": 126,
+    "pdfSeite": 127,
+    "src": "endriss/est-ks1/p-126.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 126",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "42a4788ba339b300cd6db6cab364c576a4e76ebc030c81d3e225698061fa6e8c"
+  },
+  {
+    "druckseite": 127,
+    "pdfSeite": 128,
+    "src": "endriss/est-ks1/p-127.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 127",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "6be681087bb38667827a12b8de63ea2781f52d2ee76116204691e37933216295"
+  },
+  {
+    "druckseite": 128,
+    "pdfSeite": 129,
+    "src": "endriss/est-ks1/p-128.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 128",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "feb05c99d86c476302c68aec24045c7ae007f8670189d4df38fa13912b4f34ed"
+  },
+  {
+    "druckseite": 129,
+    "pdfSeite": 130,
+    "src": "endriss/est-ks1/p-129.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 129",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "5b4b1ee0c74766ff1b14cfc9dd1fce6b82786fcdbc1fe0e7b2aa6c5b0c575c6e"
+  },
+  {
+    "druckseite": 130,
+    "pdfSeite": 131,
+    "src": "endriss/est-ks1/p-130.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 130",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "d9625b16eddc2541206918882402c2ae85c317ad143bc779367ab8e4292623f7"
+  },
+  {
+    "druckseite": 131,
+    "pdfSeite": 132,
+    "src": "endriss/est-ks1/p-131.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 131",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "a23f1dbc9d0768c289a769f61f3cd77d9b3bc31c471a50eda62a4c8702905f4d"
+  },
+  {
+    "druckseite": 132,
+    "pdfSeite": 133,
+    "src": "endriss/est-ks1/p-132.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 132",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "67d0e1528957c1dc8828124624cf81e11cf3faf179d83ee886f6507f3d60643a"
+  },
+  {
+    "druckseite": 133,
+    "pdfSeite": 134,
+    "src": "endriss/est-ks1/p-133.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 133",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "1fc4d5761c181b0079fdb771dc9046448d590e3e36d675df0e59f370229fad01"
+  },
+  {
+    "druckseite": 134,
+    "pdfSeite": 135,
+    "src": "endriss/est-ks1/p-134.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 134",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "3112255007d4dbffac3bb4226ace80430489851e69dc1b65266399592cae6d76"
+  },
+  {
+    "druckseite": 135,
+    "pdfSeite": 136,
+    "src": "endriss/est-ks1/p-135.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 135",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "18c44a1d64d82692d9ca558977e453e6cf7087424c72b00236fd15522a08b592"
+  },
+  {
+    "druckseite": 136,
+    "pdfSeite": 137,
+    "src": "endriss/est-ks1/p-136.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 136",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "4c808d8837038203a51ca0be8d346983fe389bbd3cbdb7f781750c6bf8b48406"
+  },
+  {
+    "druckseite": 137,
+    "pdfSeite": 138,
+    "src": "endriss/est-ks1/p-137.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 137",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "214f763b395c49075050d068d93db2d5c63cfb763878e84f8b3fe64486fe4ea9"
+  },
+  {
+    "druckseite": 138,
+    "pdfSeite": 139,
+    "src": "endriss/est-ks1/p-138.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 138",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "ea2d71b7d3e875898e27458d823313606d9081c5bbe41c143b94a63092f8ef41"
+  },
+  {
+    "druckseite": 139,
+    "pdfSeite": 140,
+    "src": "endriss/est-ks1/p-139.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 139",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "4ee571df62e8510ecc0aba717de9fed445d6c1a8e38b7e78704fe07f9a1febcb"
+  },
+  {
+    "druckseite": 140,
+    "pdfSeite": 141,
+    "src": "endriss/est-ks1/p-140.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 140",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "0f8e32e526076fa45b434c9cfe071e9068a72524d0eb5858acde1809e8fa0519"
+  },
+  {
+    "druckseite": 141,
+    "pdfSeite": 142,
+    "src": "endriss/est-ks1/p-141.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 141",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "3654759549dfcb6a4b8c3feed90a34eaf2bb38da274c063178f4a0f040c8d97d"
+  },
+  {
+    "druckseite": 142,
+    "pdfSeite": 143,
+    "src": "endriss/est-ks1/p-142.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 142",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "4aa6edd05bc760981035f95fae13df52a1bfe7c9e844901379bf1df79f658d99"
+  },
+  {
+    "druckseite": 143,
+    "pdfSeite": 144,
+    "src": "endriss/est-ks1/p-143.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 143",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "b62997e66256165ac909557f0a0385e67e3acc183870971e1caae253fff1ac34"
+  },
+  {
+    "druckseite": 144,
+    "pdfSeite": 145,
+    "src": "endriss/est-ks1/p-144.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 144",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "27a54dda90c6242b23a504bc8fce0d6ff03dd062c281d21d3a2a1da364ee3e70"
+  },
+  {
+    "druckseite": 145,
+    "pdfSeite": 146,
+    "src": "endriss/est-ks1/p-145.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 145",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "cd11af14a1af70a4b8073a1a3735d6ae347da09d93440d62bbb70b3e00a54291"
+  },
+  {
+    "druckseite": 146,
+    "pdfSeite": 147,
+    "src": "endriss/est-ks1/p-146.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 146",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "45f5feea103497674fc3d71537e8d5c792410c24fb8764d11bd997232b454dc1"
+  },
+  {
+    "druckseite": 147,
+    "pdfSeite": 148,
+    "src": "endriss/est-ks1/p-147.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 147",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "556874e729cfab5b427bd4a07671a0676f624bbc5ff3c1b8a2b44c6d4a528c62"
+  },
+  {
+    "druckseite": 148,
+    "pdfSeite": 149,
+    "src": "endriss/est-ks1/p-148.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 148",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "36e87066e247f3d6268924bbc6af98fb33f56cc5548129b5a46c071bf631fa81"
+  },
+  {
+    "druckseite": 149,
+    "pdfSeite": 150,
+    "src": "endriss/est-ks1/p-149.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 149",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "519e9d5dd3d67e59523df5705f109e406d6bfe3530504800c7567a6cadd33101"
+  },
+  {
+    "druckseite": 150,
+    "pdfSeite": 151,
+    "src": "endriss/est-ks1/p-150.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 150",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "4369a629c3107a25e1a22192e3ccbe7b1f655f12ea8be4ec4c6fa2b8397d54a4"
+  },
+  {
+    "druckseite": 151,
+    "pdfSeite": 152,
+    "src": "endriss/est-ks1/p-151.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 151",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "86d640da5de7d8c00f78b0c4317c04617021b1638904ecfcf75fb5c7f4bca75b"
+  },
+  {
+    "druckseite": 152,
+    "pdfSeite": 153,
+    "src": "endriss/est-ks1/p-152.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 152",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "dfca565f0c2ff36ca196585f2774bfc2fdd8be99c84c3863d8f2b20d10a4baa6"
+  },
+  {
+    "druckseite": 153,
+    "pdfSeite": 154,
+    "src": "endriss/est-ks1/p-153.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 153",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "87f620a45d11a76323bb3df29ed858e86c853cc73f2bb96276341c4cbe5a0db6"
+  },
+  {
+    "druckseite": 154,
+    "pdfSeite": 155,
+    "src": "endriss/est-ks1/p-154.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 154",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "196c3445f4efd790d5884f51a1887df2a2cfd8822db3f229465338c24a4b54e5"
+  },
+  {
+    "druckseite": 155,
+    "pdfSeite": 156,
+    "src": "endriss/est-ks1/p-155.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 155",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "12ebb537eb63df3dd8a1bcd40d9a60292d300a3c340d8366ec2f4bd4a37d1437"
+  },
+  {
+    "druckseite": 156,
+    "pdfSeite": 157,
+    "src": "endriss/est-ks1/p-156.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 156",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "b6a034b7b383221111f2e9c974c833230d5593a9958c949e003d6fa6154cd2fb"
+  },
+  {
+    "druckseite": 157,
+    "pdfSeite": 158,
+    "src": "endriss/est-ks1/p-157.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 157",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "cdbaa153d03ec0253a9a10549699b2408f37b36dce5e162136411729cea7addd"
+  },
+  {
+    "druckseite": 158,
+    "pdfSeite": 159,
+    "src": "endriss/est-ks1/p-158.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 158",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "84fb234753c3728e5b6f992b77b15afa5409d0bf9d9b8ace32b910a956bb90b7"
+  },
+  {
+    "druckseite": 159,
+    "pdfSeite": 160,
+    "src": "endriss/est-ks1/p-159.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 159",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "8a6def926e743b3f05a37fb760468be9a5fe0d01d4211f3616316c5f5e765bd9"
+  },
+  {
+    "druckseite": 160,
+    "pdfSeite": 161,
+    "src": "endriss/est-ks1/p-160.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 160",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "5b4464d2365b61125d01dfb6b978670d360848086827d6bced28be0818d421ef"
+  },
+  {
+    "druckseite": 161,
+    "pdfSeite": 162,
+    "src": "endriss/est-ks1/p-161.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 161",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "ec2d01cadd9e0bbcf846fc430613cc8fe02896e426626d92507468e0d4cef3dc"
+  },
+  {
+    "druckseite": 162,
+    "pdfSeite": 163,
+    "src": "endriss/est-ks1/p-162.webp",
+    "alt": "ESt-Kurzskript I · Original-Skriptseite 162",
+    "width": 1191,
+    "height": 1685,
+    "sha256": "3410ca58fa23abceac86db1903bbe5665f5f925a651139adc67419f8698bc91a"
+  }
+]
