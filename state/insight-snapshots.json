@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-29T18:43:37.824Z",
+  "stand": "2026-09-29T19:44:03.357Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -7942,6 +7942,22 @@
           "navigation": 9,
           "navigation_tap_forward": 6,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-09-29T19:43:59.495Z",
+          "alterStunden": 7,
+          "reach": 30,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 1,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 38,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 28,
+          "navigation_tap_back": 3
         }
       ]
     },
@@ -8025,6 +8041,34 @@
           "ig_reels_avg_watch_time": 11226,
           "ig_reels_video_view_total_time": 291878,
           "reels_skip_rate": 64
+        }
+      ]
+    },
+    "18355347622218174": {
+      "art": "story",
+      "datum": "2026-09-29",
+      "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T17:44:10.021Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T19:43:59.495Z",
+          "alterStunden": 2,
+          "reach": 20,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 16,
+          "navigation_tap_back": 1
         }
       ]
     }
@@ -8512,6 +8556,11 @@
     },
     {
       "stand": "2026-09-29T18:43:37.824Z",
+      "follower": 88,
+      "medien": 71
+    },
+    {
+      "stand": "2026-09-29T19:44:03.357Z",
       "follower": 88,
       "medien": 71
     }

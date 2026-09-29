@@ -6016,20 +6016,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 9,
-        "views": 11,
+        "reach": 30,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
-        "follows": 0,
+        "follows": 1,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 9,
-        "navigation_tap_forward": 6,
-        "navigation_tap_exit": 3
+        "navigation": 38,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 28,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-29T14:43:52.562Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-29T19:43:59.495Z",
+      "insightsAlterStunden": 7
     },
     {
       "datum": "2026-09-29",
@@ -6134,7 +6135,23 @@
       "storyArt": "fehler",
       "thema": "istr-modul-istr-istr3-05",
       "fach": "istr",
-      "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption"
+      "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
+      "insights": {
+        "reach": 20,
+        "views": 24,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 23,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 16,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-09-29T19:43:59.495Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
