@@ -5792,10 +5792,32 @@
       },
       "insightsStand": "2026-09-29T00:32:23.430Z",
       "insightsAlterStunden": 6.8
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "b1",
+      "medienId": "18400813921205293",
+      "veroeffentlicht": "2026-09-29T05:44:49.744Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "06:30",
+      "stunde": 7,
+      "format": "spickzettel",
+      "thema": "persg-modul-persg-6",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Drei Vermögen: Wo landet die Maschine?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 7,
+    "persg": 8,
     "ust": 8,
     "kst": 7,
     "ao": 13,
