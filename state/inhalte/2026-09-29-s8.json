@@ -1,0 +1,24 @@
+{
+  "slot": "s8",
+  "art": "begriff",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "pairId": "bilanz-glossar-5",
+  "quellen": [
+    "R 5.7 Abs. 7 EStR",
+    "Themenpool: bilanz-glossar-5"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Begriff des Tages",
+  "titel": "Schwebendes Geschäft",
+  "text": "Beiderseits noch nicht erfüllter Vertrag; im Grundfall nicht zu bilanzieren, bis der Schwebezustand gestört ist.",
+  "norm": "R 5.7 Abs. 7 EStR",
+  "liveVorrangAktiv": true
+}

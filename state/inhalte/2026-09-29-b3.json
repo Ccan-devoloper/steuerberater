@@ -1,0 +1,109 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-modul-istr-istr1-01",
+  "slug": "2026-09-29-b3",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+      "unter": "Internationales Steuerrecht",
+      "text": "Wohnsitz im Ausland: Wer darf besteuern?",
+      "norm": "§ 1 Abs. 1 EStG",
+      "icon": "globus",
+      "sprecher": "Wohnsitz im Ausland: Wer darf besteuern? Hier sind die zwei entscheidenden Prüfschritte.",
+      "marken": [
+        "Wohnsitz im Ausland: Wer darf besteuern"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Natürliche Person?",
+      "text": null,
+      "norm": "§ 1 Abs. 1 EStG",
+      "icon": null,
+      "sprecher": "Schritt 1: Natürliche Person?",
+      "marken": [
+        "Natürliche Person?"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Aufenthalt (§ 9 AO)?",
+      "text": null,
+      "norm": "§ 8 AO",
+      "icon": null,
+      "sprecher": "Schritt 2: Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Aufenthalt (§ 9 AO)?",
+      "marken": [
+        "Wohnsitz im Inland (§ 8 AO) oder gewöhnlicher Au"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Die Antwort",
+      "text": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland lösen die unbeschränkte Einkommensteuerpflicht aus. Prüfe für Auslandseinkünfte anschließend das DBA.",
+      "sprecher": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland lösen die unbeschränkte Einkommensteuerpflicht aus. Prüfe für Auslandseinkünfte anschließend das DBA.",
+      "marken": [
+        "Die Antwort"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfungsschritte festigen",
+      "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+      "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+      "marken": [
+        "Kernfrage",
+        "Reihenfolge",
+        "Normen"
+      ]
+    }
+  ],
+  "caption": "Wohnsitz im Ausland: Wer darf besteuern? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "kurztitel": "Wohnsitz im Ausland: Wer darf besteuern?",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": false,
+  "quellen": [
+    "§ 1 Abs. 1 EStG",
+    "§ 8 AO",
+    "§ 9 AO",
+    "§ 2 Abs. 1 EStG",
+    "§§ 8, 9 AO",
+    "Themenpool: istr-modul-istr-istr1-01"
+  ],
+  "coverRegie": {
+    "thema": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/06-kalle.jpg",
+      "assets/referenzen/charaktere/01-holger-kranz.jpg"
+    ],
+    "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-09-29-b3-istr-modul-istr-istr1-01-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true,
+  "icon": "globus"
+}

@@ -1,0 +1,97 @@
+{
+  "format": "spickzettel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-modul-persg-6",
+  "slug": "2026-09-29-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Drei Vermögen: Wo landet die Maschine?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": false,
+      "icon": "personen"
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Gesamthandsvermögen, Sonderbetriebsvermögen und Privatvermögen räumlich trennen",
+        "zivilrechtliche Zurechnung und steuerliche Zuordnung auseinanderhalten"
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Zivilrechtliches Eigentum und Gesamthandszugehörigkeit bestimmen."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Steuerlich untersuchen, ob das Wirtschaftsgut betrieblichen Zwecken der Gesellschaft oder eines Mitunternehmers dient."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Die Antwort",
+      "text": "Prüfe die betriebliche Nutzung der Maschine: Gesamthandseigentum allein macht sie noch nicht zum Betriebsvermögen."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Thema für die nächste Wiederholung speichern"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "buch"
+      ]
+    }
+  ],
+  "caption": "Drei Vermögen: Wo landet die Maschine? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "kurztitel": "Drei Vermögen: Wo landet die Maschine?",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 246 Abs. 1 HGB",
+    "§ 247 Abs. 2 HGB",
+    "§ 253 Abs. 1 HGB",
+    "§ 39 Abs. 1 AO",
+    "H 4.2 Abs. 11 EStH",
+    "§ 5 Abs. 1 EStG",
+    "Themenpool: persg-modul-persg-6"
+  ],
+  "coverRegie": {
+    "thema": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/01-holger-kranz.jpg",
+      "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+    ],
+    "szene": "Die Figuren tragen getrennte Kisten aus Gemeinschafts- und Privatbereich zu einem gemeinsamen Ergebnis, ohne sie vorher zu vermischen.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-09-29-b1-persg-modul-persg-6-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

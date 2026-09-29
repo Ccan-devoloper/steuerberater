@@ -1,0 +1,28 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-k3-31",
+  "quellen": [
+    "Themenpool: persg-quiz-k3-31"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "Buchwert, Zwischenwert oder gemeiner Wert",
+  "text": "Die Wahl reicht vom Buchwert über den Zwischenwert bis zum gemeinen Wert. Für den Buchwert ist ein Antrag nötig; ohne Wahl bleibt es beim gemeinen Wert.",
+  "liveVorrangAktiv": true,
+  "optionen": [
+    "nur Buchwert",
+    "nur gemeiner Wert",
+    "Buchwert, Zwischenwert oder gemeiner Wert"
+  ],
+  "richtig": 2
+}

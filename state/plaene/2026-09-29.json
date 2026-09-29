@@ -1,0 +1,104 @@
+{
+  "datum": "2026-09-29",
+  "erzeugt": "2026-09-29T00:32:21.715Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "06:30",
+      "format": "spickzettel",
+      "themaId": "persg-modul-persg-6",
+      "themaTitel": "Betriebsvermögen der Mitunternehmerschaft und gesamthänderisches Privatvermögen",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "10:30",
+      "format": "spickzettel",
+      "themaId": "ao-modul-ao-337",
+      "themaTitel": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "istr-modul-istr-istr1-01",
+      "themaTitel": "Grundschema: persönlicher Steuerzugriff und Wohnsitz",
+      "fach": "istr",
+      "klausur": 2,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:04",
+      "art": "frage",
+      "themaId": "persg-quiz-k3-31",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:04",
+      "art": "antwort",
+      "themaId": "persg-quiz-k3-31",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:04",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr3-10",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "06:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:25",
+      "art": "countdown",
+      "tageBisExamen": 7,
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:02",
+      "art": "begriff",
+      "themaId": "bilanz-glossar-5",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "10:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:07",
+      "art": "fehler",
+      "themaId": "istr-modul-istr-istr3-05",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "slot": "s9",
+  "art": "fehler",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-modul-istr-istr3-05",
+  "quellen": [
+    "§ 50 Abs. 1 EStG",
+    "§ 50 Abs. 2 S. 1 EStG",
+    "§ 50 Abs. 2 S. 2 Nr. 5 EStG",
+    "§ 50a EStG",
+    "§ 50 Abs. 1 und 2 EStG",
+    "Themenpool: istr-modul-istr-istr3-05"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Typischer Fehler",
+  "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
+  "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
+  "richtigText": "§ 50 Abs. 1 erst nach Ermittlung der beschränkt steuerpflichtigen Einkünfte anwenden.",
+  "liveVorrangAktiv": true
+}

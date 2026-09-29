@@ -1,0 +1,101 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-337",
+  "slug": "2026-09-29-b2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": false,
+      "icon": "dokument"
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "SteuFa/StraBuSt und Steuerhinterziehung in der Fristlogik einordnen",
+        "§ 171 Abs. 9 AO ('Beichte') mit § 173 Abs. 1 AO verbinden"
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Schreib-/Rechenfehler: § 171 Abs. 2 S. 1/S. 2 AO mit § 129 AO bzw. § 173a AO verbinden."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Antrag vor Fristablauf: § 171 Abs. 3 AO und die Änderungsvorschrift getrennt prüfen."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Die Antwort",
+      "text": "Zuerst klären, welche Ablaufhemmung die Festsetzungsfrist offen hält. Erst danach die passende Korrekturvorschrift prüfen."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Frist abgelaufen: Ist der Bescheid noch änderbar? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "kurztitel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 171 Abs. 2 AO",
+    "§ 129 AO",
+    "§ 173a AO",
+    "§ 171 Abs. 3 AO",
+    "§ 171 Abs. 3a AO",
+    "§ 367 Abs. 2 S. 1 AO",
+    "§ 171 Abs. 4 AO",
+    "§ 171 Abs. 5 AO",
+    "§ 169 Abs. 2 S. 2 AO",
+    "§ 171 Abs. 9 AO",
+    "Themenpool: ao-modul-ao-337"
+  ],
+  "coverRegie": {
+    "thema": "Ablaufhemmungs-Pärchen: Ereignis, Hemmungsnorm und Korrekturvorschrift",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/01-holger-kranz.jpg",
+      "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+    ],
+    "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-09-29-b2-ao-modul-ao-337-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

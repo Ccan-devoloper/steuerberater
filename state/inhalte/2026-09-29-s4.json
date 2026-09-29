@@ -1,0 +1,28 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-k3-31",
+  "quellen": [
+    "Themenpool: persg-quiz-k3-31"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Prüfungsfrage",
+  "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
+  "frage": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
+  "liveVorrangAktiv": true,
+  "optionen": [
+    "nur Buchwert",
+    "nur gemeiner Wert",
+    "Buchwert, Zwischenwert oder gemeiner Wert"
+  ],
+  "richtig": 2
+}
