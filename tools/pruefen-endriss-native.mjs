@@ -8,7 +8,7 @@ import { build } from 'esbuild';
 import { endrissNative, endrissNativeAudit, endrissNativeQuellen, nativeFor, combineEndrissSources } from '../src/data/endriss-native-register.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const required = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1'];
+const required = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1', 'ao-fgo'];
 const ids = new Set();
 let chapters = 0;
 let tables = 0;
@@ -62,6 +62,10 @@ assert.deepEqual(Object.keys(endrissNative).sort(), [...ids].sort());
 assert.equal(endrissNativeAudit.legalReview, false);
 assert.equal(endrissNativeAudit['persg-folien-1'].legalReview, false);
 assert.equal(endrissNativeAudit['persg-folien-1'].ownSolutionsAdded, false);
+assert.equal(endrissNativeAudit['ao-fgo'].legalReview, false);
+assert.equal(endrissNativeAudit['ao-fgo'].nativeTranscription, 'study-annotations-complete');
+assert.equal(endrissNativeAudit['ao-fgo'].printedStatuteReproduced, false);
+assert.ok(endrissNativeAudit['ao-fgo'].mappedExistingContent.includes('ao6-fgo-fahrtroute'));
 assert.deepEqual(nativeFor('not-a-source'), []);
 for (const input of [undefined, null, [], {}]) {
   const combined = combineEndrissSources(input);
