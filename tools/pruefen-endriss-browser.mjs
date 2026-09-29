@@ -22,7 +22,9 @@ const report = {
   contentCompletenessCertification: false,
   checks: [],
 };
-const sourceIds = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1'];
+// New native sources must receive the same real-browser checks automatically.
+const sourceIds = endrissNativeQuellen.map(source => source.id);
+assert.ok(sourceIds.includes('persg-folien-2'), 'Verified second Horst source must remain registered');
 const browser = await chromium.launch({ headless: true });
 
 async function snapshot(page, name) {
