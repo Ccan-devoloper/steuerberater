@@ -6064,6 +6064,18 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "s3",
+      "medienId": "18118153123757990",
+      "veroeffentlicht": "2026-09-29T17:02:47.447Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": "Wohnsitz im Ausland: Wer darf besteuern?"
     }
   ],
   "fachZaehler": {
