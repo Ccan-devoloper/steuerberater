@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-14",
-        "themaTitel": "Eigenkapitalgliederung",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "istr-modul-istr-istr4-01",
+        "themaTitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+        "fach": "istr",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-543",
-        "themaTitel": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "bilanz-aufb-bil-melzer-4-02",
+        "themaTitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+        "fach": "bilanz",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-modul-kst-11",
-        "themaTitel": "Ertragsteuerliche Organschaft",
-        "fach": "kst",
-        "klausur": 2,
+        "themaId": "ust-aufb-ust-m-b12-8",
+        "themaTitel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
+        "fach": "ust",
+        "klausur": 1,
         "lang": true
       }
     ],
@@ -64,12 +58,6 @@
         "themaId": "bilanz-quiz-k3-10"
       },
       {
-        "slot": "s6",
-        "zeit": "11:50",
-        "art": "norm",
-        "themaId": "bilanz-glossar-7"
-      },
-      {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
@@ -77,10 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:50",
+        "art": "norm",
+        "themaId": "persg-modul-persg-3"
+      },
+      {
         "slot": "s7",
         "zeit": "14:34",
         "art": "tipp",
-        "themaId": "ust-modul-ust-211"
+        "themaId": "erbst-modul-erbst-502"
       },
       {
         "slot": "s2",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "16:45",
         "art": "tipp",
-        "themaId": "ao-modul-ao-348"
+        "themaId": "persg-aufb-persg-melzer-4-6"
       },
       {
         "slot": "s9",
         "zeit": "19:10",
         "art": "tipp",
-        "themaId": "ao-modul-ao-386"
+        "themaId": "persg-modul-persg-7"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-14",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr4-01",
       "slug": "2026-10-25-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
+          "titel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Eigenkapitalposten nach § 266 HGB benennen",
-            "Agio und andere Zuzahlungen der Kapitalrücklage zuweisen"
+            "Die Hinzurechnungsbesteuerung erst untersuchen, nachdem § 1 Abs. 1 S. 1 EStG und das Welteinkommensprinzip des § 2 Abs. 1 EStG festgestellt sind.",
+            "§ 7 AStG als Nebenprüfpunkt des Grundschemas einordnen und von DBA, § 34c und § 2a trennen."
           ]
         },
         {
@@ -140,18 +133,115 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Rechtsgrund des Mittelzuflusses bestimmen."
+              "text": "1. § 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland."
             },
             {
               "titel": "2. Schritt",
-              "text": "Nennbetrag dem gezeichneten Kapital zuweisen."
+              "text": "2. Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Der Nennbetrag erhöht das gezeichnete Kapital; ein darüber gezahltes Agio gehört in die Kapitalrücklage (§ 272 Abs. 2 Nr. 1 HGB)."
+          "titel": "Merksatz",
+          "text": "Bei Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Thema für die nächste Wiederholung speichern"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "buch"
+          ]
+        }
+      ],
+      "caption": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "kurztitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 1 Abs. 1 S. 1 EStG",
+        "§ 8 AO",
+        "§ 2 Abs. 1 EStG",
+        "§ 7 AStG",
+        "§ 34c EStG",
+        "§ 32d Abs. 5 EStG",
+        "§ 2a EStG",
+        "§ 1a EStG",
+        "Themenpool: istr-modul-istr-istr4-01"
+      ],
+      "coverRegie": {
+        "thema": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-25-b1-istr-modul-istr-istr4-01-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-4-02",
+      "slug": "2026-10-25-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Entnahmen sind nach § 4 Abs. 1 Satz 2 EStG alle Wirtschaftsgüter, Nutzungen und Leistungen, die der Inhaber für betriebsfremde Zwecke entnimmt; entnommene Wirtschaftsgüter sind regelmäßig mit dem Teilwert anzusetzen.",
+            "Nutzungsentnahmen werden mit den anteiligen Selbstkosten angesetzt, soweit diese Aufwand darstellen."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Feststellen, ob eine Überführung zwischen Betriebs- und Privatvermögen durch Handlung oder schlüssiges Verhalten stattgefunden hat."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Bei Entnahmen den Teilwert zum Entnahmezeitpunkt ermitteln und die stillen Reserven als Gewinn aufnehmen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Mit welchem Wert werden Einlagen und Entnahmen angesetzt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,202 +258,98 @@
           ]
         }
       ],
-      "caption": "Agio erhalten: Gezeichnetes Kapital oder Rücklage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
+      "kurztitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 266 Abs. 3 A. HGB",
-        "§ 272 Abs. 1 HGB",
-        "§ 272 Abs. 2 Nr. 1–4 HGB",
-        "§ 272 Abs. 3 HGB",
-        "§ 268 Abs. 1 HGB",
-        "§ 27 Abs. 1 KStG",
-        "§§ 266, 272 HGB",
-        "GmbHG/AktG",
-        "Themenpool: bilanz-modul-k3-14"
+        "§ 7 EStG",
+        "§ 17 Abs. 2 EStG",
+        "§ 20 Abs. 2 EStG",
+        "§ 4 EStG",
+        "§ 10 Abs. 4 UStG",
+        "Themenpool: bilanz-aufb-bil-melzer-4-02"
       ],
       "coverRegie": {
-        "thema": "Eigenkapitalgliederung",
+        "thema": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
         "goldenReferences": [
           "assets/referenzen/charaktere/05-fritz-kranz.jpg",
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-25-b1-bilanz-modul-k3-14-cover.png",
+        "bilddatei": "2026-10-25-b2-bilanz-aufb-bil-melzer-4-02-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-543",
-      "slug": "2026-10-25-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "haus"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "unbebaut/bebaut unterscheiden",
-            "drei Bewertungsverfahren sicher benennen"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Unbebaut? → § 179 BewG."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Bebaut? → Grundstücksart nach § 181 bestimmen und § 182 Methodenwahl anwenden."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Zuerst Grundstücksart nach § 181 BewG bestimmen. Danach weist § 182 BewG das Bewertungsverfahren zu."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Unbebaut oder bebaut: Welches Verfahren gilt? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#erbschaftsteuer"
-      ],
-      "kurztitel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 179 BewG",
-        "§ 181 BewG",
-        "§ 182 BewG",
-        "§ 183 BewG",
-        "§§ 184–188 BewG",
-        "§§ 189–191 BewG",
-        "§§ 192–197 BewG",
-        "§§ 178–198 BewG",
-        "§§ 183–191 BewG",
-        "Themenpool: erbst-modul-erbst-543"
-      ],
-      "coverRegie": {
-        "thema": "Bewertungsübersicht: unbebaut § 179, bebaut § 182 und Sonderfälle §§ 192–197 BewG",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-25-b2-erbst-modul-erbst-543-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-modul-kst-11",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b12-8",
       "slug": "2026-10-25-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
-          "unter": "Körperschaftsteuer",
-          "text": "Organschaft: Trägt der Gewinnabführungsvertrag?",
-          "norm": "§ 14 Abs. 1 S. 1 KStG",
-          "icon": "gebaeude",
-          "sprecher": "Organschaft: Trägt der Gewinnabführungsvertrag? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
+          "unter": "Umsatzsteuer",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 15a Abs. 6a, 8 und 9 UStG",
+          "icon": null,
+          "sprecher": "Heute geht es um § 15a UStG: Wann ändern sich die Verhältnisse? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Organschaft: Trägt der Gewinnabführungsvertrag"
+            "Verglichen werden die Verhältnisse beim"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Taugliche Organgesellschaft nach § 14 Abs. 1 S. 1 KStG feststellen.",
+          "titel": "Ursprünglichen Vorsteuerabzug und die dafür maßgebliche Verwendungsabsicht ermitteln.",
           "text": null,
-          "norm": "§ 14 Abs. 1 S. 1 KStG",
+          "norm": "§ 15a Abs. 6a, 8 und 9 UStG",
           "icon": null,
-          "sprecher": "Schritt 1: Taugliche Organgesellschaft nach § 14 Abs. 1 S. 1 KStG feststellen.",
+          "sprecher": "Schritt 1: Prüfe § 15a Abs. 6a, 8 und 9 UStG im Zusammenhang mit § 15a UStG: Wann ändern sich die Verhältnisse?",
           "marken": [
-            "Taugliche Organgesellschaft nach § 14 Abs. 1 S. "
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
+          "titel": "Prüfpunkt 2: § 15 Abs. 2 und 3 UStG",
           "text": null,
-          "norm": "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+          "norm": "§ 15 Abs. 2 und 3 UStG",
           "icon": null,
-          "sprecher": "Schritt 2: Tauglichen Organträger und gewerbliche Tätigkeit untersuchen.",
+          "sprecher": "Schritt 2: Prüfe § 15 Abs. 2 und 3 UStG im Zusammenhang mit § 15a UStG: Wann ändern sich die Verhältnisse?",
           "marken": [
-            "Tauglichen Organträger und gewerbliche Tätigkeit"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Für die Organschaft muss ein wirksamer Gewinnabführungsvertrag mindestens fünf Jahre laufen und tatsächlich durchgeführt werden; prüfe auch die finanzielle Eingliederung.",
-          "sprecher": "Für die Organschaft muss ein wirksamer Gewinnabführungsvertrag mindestens fünf Jahre laufen und tatsächlich durchgeführt werden; prüfe auch die finanzielle Eingliederung.",
+          "titel": "Merksatz",
+          "text": "Bei § 15a UStG: Wann ändern sich die Verhältnisse?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -379,49 +365,47 @@
           ]
         }
       ],
-      "caption": "Organschaft: Trägt der Gewinnabführungsvertrag? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "§ 15a UStG: Wann ändern sich die Verhältnisse?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
+      "kurztitel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 14 Abs. 1 S. 1 KStG",
-        "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
-        "§ 14 Abs. 1 S. 1 Nr. 3 KStG",
-        "§ 14 Abs. 1 S. 2 KStG",
-        "§ 15 S. 1 KStG",
-        "§ 16 KStG",
-        "§ 17 KStG",
-        "§§ 14–17 KStG",
-        "Themenpool: kst-modul-kst-11"
+        "§ 15a Abs. 6a, 8 und 9 UStG",
+        "§ 15 Abs. 2 und 3 UStG",
+        "§ 1 Abs. 1a UStG",
+        "§ 3 Abs. 1b UStG",
+        "§ 19 Abs. 1 und 4 UStG",
+        "§ 4 Nr. 9a UStG",
+        "§ 44 UStDV",
+        "Abschn. 15a.2 Abs. 2 und 9 UStAE",
+        "Abschn. 15a.4 Abs. 3 UStAE",
+        "Themenpool: ust-aufb-ust-m-b12-8"
       ],
       "coverRegie": {
-        "thema": "Ertragsteuerliche Organschaft",
+        "thema": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-25-b3-kst-modul-kst-11-cover.png",
+        "bilddatei": "2026-10-25-b3-ust-aufb-ust-m-b12-8-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "gebaeude",
-      "coverTitel": "Organschaft: Ist der Vertrag wirksam?"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -435,15 +419,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
       "frage": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
-      "liveVorrangAktiv": true,
+      "titel": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
       "optionen": [
         "Bruttobestand",
         "Nettobestand ohne Umsatzsteuer",
@@ -463,231 +446,148 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "Nettobestand ohne Umsatzsteuer",
-      "text": "Richtig: Nettobestand ohne Umsatzsteuer. Für die Umsatzsteuer besteht kein Ausfallrisiko (UStAE 17.1 Abs. 5 S. 9).",
-      "liveVorrangAktiv": true,
       "optionen": [
         "Bruttobestand",
         "Nettobestand ohne Umsatzsteuer",
         "Bestand inklusive EWB-Forderungen"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "text": "Für die Umsatzsteuer besteht kein Ausfallrisiko (UStAE 17.1 Abs. 5 S. 9)."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-7",
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-modul-persg-3",
       "quellen": [
-        "§ 4 Abs. 1 EStG",
-        "Themenpool: bilanz-glossar-7"
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "H 15.8 EStH",
+        "§ 19 EStG",
+        "§ 20 EStG",
+        "§ 21 EStG",
+        "Themenpool: persg-modul-persg-3"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 4 Abs. 1 EStG",
-      "titel": "Formeller Bilanzenzusammenhang",
-      "text": "",
-      "liveVorrangAktiv": true
+      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+      "titel": "Mitunternehmerstellung: Risiko und Initiative",
+      "text": "Mitunternehmerrisiko anhand der drei Quellenmerkmale untersuchen Mitunternehmerinitiative anhand Geschäftsführung, Vertretung und Mindestkontrollrechten untersuchen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ust",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-211",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-502",
       "quellen": [
-        "§ 3 Abs. 1b S. 1 Nr. 1–3 UStG",
-        "§ 3 Abs. 1b S. 2 UStG",
-        "§ 10 Abs. 4 S. 1 Nr. 1 UStG",
-        "§ 3 Abs. 1b UStG",
-        "Themenpool: ust-modul-ust-211"
+        "§ 1 ErbStG",
+        "§ 3 ErbStG / § 7 ErbStG",
+        "§ 2 ErbStG",
+        "§ 20 ErbStG",
+        "§ 15 ErbStG",
+        "§ 9 ErbStG",
+        "§ 11 ErbStG",
+        "§ 3 ErbStG",
+        "§ 7 ErbStG",
+        "Themenpool: erbst-modul-erbst-502"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Unentgeltliche Wertabgaben – Lieferungen nach § 3 Abs. 1b",
-      "text": "Unentgeltliche Zuwendung einer Lieferung zuweisen.",
-      "liveVorrangAktiv": true
+      "titel": "Erbschaftsteuer-Klausur: die Vorfragen vor der ersten Bewertung",
+      "text": "1. § 7 ErbStG (Schenkung unter Lebenden; markiert ist insbesondere § 7 Abs. 1 Nr. 1) verzweigt."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-348",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-aufb-persg-melzer-4-6",
       "quellen": [
-        "§ 165 Abs. 1 S. 1 AO",
-        "§ 165 Abs. 1 S. 2 AO",
-        "§ 165 Abs. 2 AO",
-        "§ 165 Abs. 1 S. 1 und S. 2 AO",
-        "Themenpool: ao-modul-ao-348"
+        "§ 6 Abs. 3 EStG",
+        "§§ 20, 24 UmwStG",
+        "§§ 164, 166 HGB",
+        "§ 116 HGB",
+        "§ 3 Nr. 40 Satz 1 Buchst. d, Satz 2 EStG",
+        "§ 3c Abs. 2 EStG",
+        "§ 12 Nr. 3 EStG",
+        "§ 15 Abs. 1 Satz 1 Nr. 2 Satz 1 HS 2 EStG",
+        "§ 20 Abs. 1 Nr. 1 und Nr. 7, Abs. 8 EStG",
+        "§§ 43 ff. EStG",
+        "Themenpool: persg-aufb-persg-melzer-4-6"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Vorläufige Festsetzung (§ 165 AO): Skalpell, Umfang und Fallgruppen",
-      "text": "1. Konkrete Ungewissheit identifizieren.",
-      "liveVorrangAktiv": true
+      "titel": "Wie werden Ausschüttungen der Komplementär-GmbH besteuert?",
+      "text": "zuerst klären, ob die Anteile an der GmbH beim Gesellschafter Sonderbetriebs- oder Privatvermögen sind."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-386",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-modul-persg-7",
       "quellen": [
-        "§ 369 Abs. 2 AO",
-        "§ 15 StGB",
-        "§ 378 Abs. 1 AO",
-        "AEAO zu § 153 Nr. 2.6",
-        "§ 378 Abs. 1–3 AO",
-        "§ 370 Abs. 1, Abs. 4–7 AO",
-        "Themenpool: ao-modul-ao-386"
+        "R 4.2 Abs. 2 EStR",
+        "H 4.2 Abs. 2 EStH",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "H 4.2 EStH – Sonderbetriebsvermögen",
+        "BFH 16.04.2015 – IV R 1/12",
+        "BFH 25.09.2025 – IV R 12/23",
+        "Themenpool: persg-modul-persg-7"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Steuerhinterziehung: subjektiver Tatbestand, Vorsatz und Leichtfertigkeit",
-      "text": "Tathandlung nach § 370 Abs. 1 Nr. 1 bis 3 AO und den steuerlichen Verkürzungs-/Vorteilserfolg untersuchen; § 370 Abs. 4 bis 7 gilt entsprechend.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Agio erhalten: Gezeichnetes Kapital oder Rücklage?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Unbebaut oder bebaut: Welches Verfahren gilt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Organschaft: Trägt der Gewinnabführungsvertrag?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Sonderbetriebsvermögen I und II: Definition, Buchung und Sonderbilanz",
+      "text": "Wirtschaftsgut dem Mitunternehmer zurechnen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:22:06.147Z",
-    "pfad": "vorproduktion/2026-10-25/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

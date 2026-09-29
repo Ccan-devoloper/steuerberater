@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-30",
-        "themaTitel": "Passive Rechnungsabgrenzung und Abgrenzungsfallen",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "ao-modul-ao-332",
+        "themaTitel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+        "fach": "ao",
+        "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ust-modul-ust-233",
-        "themaTitel": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE",
-        "fach": "ust",
-        "klausur": 1
+        "themaId": "est-aufb-est-ks2-ea-03",
+        "themaTitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
+        "fach": "est",
+        "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-modul-kst-12",
-        "themaTitel": "Vereinsbesteuerung",
-        "fach": "kst",
-        "klausur": 2,
+        "themaId": "persg-aufb-persg-melzer-2-7",
+        "themaTitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+        "fach": "persg",
+        "klausur": 3,
         "lang": false
       }
     ],
@@ -64,12 +58,6 @@
         "themaId": "persg-quiz-k3-4"
       },
       {
-        "slot": "s6",
-        "zeit": "11:52",
-        "art": "norm",
-        "themaId": "bilanz-glossar-19"
-      },
-      {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:52",
+        "art": "norm",
+        "themaId": "persg-modul-persg-2"
+      },
+      {
         "slot": "s7",
         "zeit": "14:35",
         "art": "tipp",
-        "themaId": "ao-modul-ao-392"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:58",
-        "art": "merksatz",
-        "themaId": "ao-modul-ao-388"
+        "themaId": "umwst-aufb-umw-ks-3-03"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:58",
+        "art": "merksatz",
+        "themaId": "persg-modul-persg-1"
+      },
+      {
         "slot": "s9",
         "zeit": "19:20",
         "art": "tipp",
-        "themaId": "bilanz-modul-k3-28"
+        "themaId": "umwst-aufb-umw-2-25"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-30",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-332",
       "slug": "2026-10-27-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
+          "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "die vier Merkmale des PRAP untersuchen",
-            "PRAP von erhaltener Anzahlung und Verbindlichkeit unterscheiden"
+            "Korrekturvorschrift und passende Ablaufhemmung paarweise zuweisen",
+            "Schreib-/Rechenfehler, Antrag und Einspruch als unterschiedliche Hemmungsauslöser unterscheiden"
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Einnahme vor dem Abschlussstichtag feststellen."
+              "text": "Reguläre Festsetzungsfrist lückenlos berechnen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ertrag für eine Zeit nach dem Stichtag?"
+              "text": "Ist sie abgelaufen: Anlass/Fehler bestimmen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Ein PRAP entsteht bei Einnahmen vor dem Stichtag, soweit sie Ertrag für eine bestimmte Zeit danach sind (§ 250 Abs. 2 HGB)."
+          "titel": "Merksatz",
+          "text": "Bei Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,67 +161,68 @@
           ]
         }
       ],
-      "caption": "Geld schon erhalten: Muss ein PRAP in die Bilanz? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
+      "kurztitel": "Korrekturpärchen nach Ablauf der regulären…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 250 Abs. 2 HGB",
-        "§ 5 Abs. 5 S. 1 Nr. 2 EStG",
-        "§ 266 Abs. 3 D. HGB",
-        "§ 246 Abs. 1 S. 1 HGB",
-        "R 6.5 EStR",
-        "§ 252 Abs. 1 Nr. 5 HGB",
-        "Themenpool: bilanz-modul-k3-30"
+        "§ 171 Abs. 2 S. 1 AO",
+        "§ 129 AO",
+        "§ 171 Abs. 2 S. 2 AO",
+        "§ 173a AO",
+        "§ 171 Abs. 3 AO",
+        "§ 164 Abs. 2 AO",
+        "§ 173 AO",
+        "§ 171 Abs. 3a AO",
+        "§ 350 AO",
+        "Themenpool: ao-modul-ao-332"
       ],
       "coverRegie": {
-        "thema": "Passive Rechnungsabgrenzung und Abgrenzungsfallen",
+        "thema": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-27-b1-bilanz-modul-k3-30-cover.png",
+        "bilddatei": "2026-10-27-b1-ao-modul-ao-332-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "themaId": "ust-modul-ust-233",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-ea-03",
       "slug": "2026-10-27-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Betrieb übertragen: Liegt eine GiG vor?",
+          "titel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "quittung"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Gesamtvermögen/Teilvermögen unterscheiden",
-            "Fortführung durch einen Erwerber untersuchen"
+            "Die Teilung des Nachlasses ohne Ausgleichszahlung ist unentgeltlich; übernimmt ein Erbe mehr Nachlassschulden, als seiner Quote entspricht, entstehen dadurch keine Anschaffungskosten.",
+            "Gelangen die wesentlichen Betriebsgrundlagen in Betriebsvermögen der Erben, sind nach § 16 Abs. 3 Satz 2 EStG die Buchwerte fortzuführen."
           ]
         },
         {
@@ -237,18 +231,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Übertragung auf einen Erwerber?"
+              "text": "Feststellen, dass die Erbengemeinschaft mit dem Erbfall zur Mitunternehmerschaft geworden ist."
             },
             {
               "titel": "2. Schritt",
-              "text": "Wesentliche Grundlagen vorhanden?"
+              "text": "Klären, wohin die wesentlichen Betriebsgrundlagen bei der Teilung gelangen: in ein Betriebsvermögen oder ins Privatvermögen."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Eine Geschäftsveräußerung im Ganzen setzt einen übertragbaren Betrieb oder Teilbetrieb voraus, den der Erwerber fortführt (§ 1 Abs. 1a UStG)."
+          "titel": "Merksatz",
+          "text": "Bei Miterben teilen einen Betrieb: Buchwerte oder Gewinn?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -265,97 +259,98 @@
           ]
         }
       ],
-      "caption": "Betrieb übertragen: Liegt eine GiG vor? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umsatzsteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Betrieb übertragen: Liegt eine GiG vor?",
+      "kurztitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 1a S. 1–3 UStG",
-        "A 1.5 UStAE",
-        "§ 1 Abs. 1a UStG",
-        "Themenpool: ust-modul-ust-233"
+        "§ 16 Abs. 3 EStG",
+        "§ 16 Abs. 1 Satz 1 Nr. 2 EStG",
+        "§ 16 Abs. 2 EStG",
+        "§ 6 Abs. 3 EStG",
+        "§ 34 EStG",
+        "Themenpool: est-aufb-est-ks2-ea-03"
       ],
       "coverRegie": {
-        "thema": "Geschäftsveräußerung im Ganzen und Teil-GiG: § 1 Abs. 1a / A 1.5 UStAE",
+        "thema": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-27-b2-ust-modul-ust-233-cover.png",
+        "bilddatei": "2026-10-27-b2-est-aufb-est-ks2-ea-03-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-modul-kst-12",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-2-7",
       "slug": "2026-10-27-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
-          "unter": "Körperschaftsteuer",
-          "text": "Verein mit Umsatz: Greift die Steuerbefreiung?",
-          "norm": "§ 1 Abs. 1 Nr. 4 KStG",
-          "icon": "gebaeude",
-          "sprecher": "Verein mit Umsatz: Greift die Steuerbefreiung? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+          "unter": "Personengesellschaften",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Verein mit Umsatz: Greift die Steuerbefreiung"
+            "Zum Mitunternehmeranteil gehören der"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "titel": "Prüfpunkt 1: § 6 Abs. 3 Sätze 1 bis 3 EStG",
           "text": null,
-          "norm": "§ 1 Abs. 1 Nr. 4 KStG",
+          "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG feststellen.",
+          "sprecher": "Schritt 1: Prüfe § 6 Abs. 3 Sätze 1 bis 3 EStG im Zusammenhang mit Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
           "marken": [
-            "Steuerpflicht nach § 1 Abs. 1 Nr. 4 KStG festste"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
+          "titel": "untersuchen, was mit diesem Sonderbetriebsvermögen zeitgleich, vorher oder gar nicht geschieht.",
           "text": null,
-          "norm": "§ 5 Abs. 1 Nr. 9 S. 2 KStG",
+          "norm": "§ 6 Abs. 5 Sätze 1 bis 4 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und Rückausnahme untersuchen.",
+          "sprecher": "Schritt 2: Prüfe § 6 Abs. 5 Sätze 1 bis 4 EStG im Zusammenhang mit Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
           "marken": [
-            "Steuerbefreiung nach § 5 Abs. 1 Nr. 9 KStG und R"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Die Steuerbefreiung eines gemeinnützigen Vereins nach § 5 Abs. 1 Nr. 9 KStG erfasst einen steuerpflichtigen wirtschaftlichen Geschäftsbetrieb grundsätzlich nicht.",
-          "sprecher": "Die Steuerbefreiung eines gemeinnützigen Vereins nach § 5 Abs. 1 Nr. 9 KStG erfasst einen steuerpflichtigen wirtschaftlichen Geschäftsbetrieb grundsätzlich nicht.",
+          "titel": "Merksatz",
+          "text": "Bei Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -371,51 +366,48 @@
           ]
         }
       ],
-      "caption": "Verein mit Umsatz: Greift die Steuerbefreiung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
+      "kurztitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 1 Nr. 4 KStG",
-        "§ 5 Abs. 1 Nr. 9 S. 2 KStG",
-        "§ 14 S. 1, 3 AO",
-        "§ 64 Abs. 1, 3 AO",
-        "§ 67a AO",
-        "§ 68 Nr. 7 AO",
-        "§ 24 S. 1 KStG",
-        "§ 1 Abs. 1 Nr. 4",
-        "§ 5 Abs. 1 Nr. 9",
-        "§ 24 KStG",
-        "§ 64 Abs. 3 AO",
-        "Themenpool: kst-modul-kst-12"
+        "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
+        "§ 6 Abs. 5 Sätze 1 bis 4 EStG",
+        "§ 16 Abs. 1 Nr. 2, Abs. 3, Abs. 4 EStG",
+        "§ 34 Abs. 1 und 3 EStG",
+        "§ 39 Abs. 2 Nr. 1 und Nr. 2 Satz 2 AO",
+        "§ 175 Abs. 1 Satz 1 Nr. 2 AO",
+        "§ 741 BGB",
+        "§§ 20, 24, 25 UmwStG",
+        "R 4.2 Abs. 2 EStR",
+        "BMF vom 20.11.2019",
+        "Themenpool: persg-aufb-persg-melzer-2-7"
       ],
       "coverRegie": {
-        "thema": "Vereinsbesteuerung",
+        "thema": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-27-b3-kst-modul-kst-12-cover.png",
+        "bilddatei": "2026-10-27-b3-persg-aufb-persg-melzer-2-7-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "gebaeude"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -429,15 +421,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
       "frage": "Welche Norm betrifft die Reinvestitionsrücklage?",
-      "liveVorrangAktiv": true,
+      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
       "optionen": [
         "§ 6b EStG",
         "§ 8 KStG",
@@ -457,241 +448,142 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "§ 6b EStG",
-      "text": "Richtig: § 6b EStG. Die Übertragung stiller Reserven ist in § 6b EStG geregelt; R 6.6 EStR betrifft dagegen den unfreiwilligen Verlust.",
-      "liveVorrangAktiv": true,
       "optionen": [
         "§ 6b EStG",
         "§ 8 KStG",
         "§ 15a EStG"
       ],
-      "richtig": 0
+      "richtig": 0,
+      "text": "Die Übertragung stiller Reserven ist in § 6b EStG geregelt; R 6.6 EStR betrifft dagegen den unfreiwilligen Verlust."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-19",
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-modul-persg-2",
       "quellen": [
-        "§ 8b Abs. 4 KStG",
-        "§ 8b Abs. 4 S. 6 KStG",
-        "Themenpool: bilanz-glossar-19"
+        "§ 15 Abs. 3 Nr. 1 EStG",
+        "§ 15 Abs. 3 Nr. 2 EStG",
+        "§ 15 Abs. 3 Nr. 1, Nr. 2 EStG",
+        "Themenpool: persg-modul-persg-2"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 8b Abs. 4 KStG",
-      "titel": "Streubesitzdividende",
-      "text": "",
-      "liveVorrangAktiv": true
+      "norm": "§ 15 Abs. 3 Nr. 1 EStG",
+      "titel": "Abfärbung und gewerblich geprägte Personengesellschaft",
+      "text": "horizontale und vertikale Abfärbung unterscheiden die Voraussetzungen der gewerblichen Prägung anhand der Geschäftsführungsbefugnis untersuchen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-392",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "pairId": "umwst-aufb-umw-ks-3-03",
       "quellen": [
-        "§ 71 AO",
-        "§ 370 AO",
-        "§ 191 AO",
-        "§ 219 AO",
-        "§ 374 AO",
-        "Themenpool: ao-modul-ao-392"
+        "§ 7 UmwStG",
+        "§ 4 Abs. 6 UmwStG",
+        "§ 4 Abs. 7 UmwStG",
+        "§ 20 Abs. 1 EStG",
+        "§ 20 Abs. 8 EStG",
+        "§ 4 Abs. 5 UmwStG",
+        "§ 4 Abs. 2 UmwStG",
+        "§ 8b Abs. 5 KStG",
+        "§ 8b Abs. 1 KStG",
+        "§ 29 Abs. 1 KStG",
+        "Themenpool: umwst-aufb-umw-ks-3-03"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Haftung des Steuerhinterziehers nach § 71 AO",
-      "text": "Steuerhinterziehung oder Steuerhehlerei einschließlich vorsätzlicher Tatbeteiligung feststellen.",
-      "liveVorrangAktiv": true
+      "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+      "text": "Für jeden Gesellschafter den Anteil am übernommenen Vermögen und den Buchwert oder die Anschaffungskosten seiner Anteile ermitteln."
     },
     "s8": {
       "slot": "s8",
       "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-388",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-modul-persg-1",
       "quellen": [
-        "§ 371 Abs. 1 AO",
-        "§ 371 Abs. 2 AO",
-        "§ 371 Abs. 3 AO",
-        "§ 378 Abs. 3 AO",
-        "§ 398a AO",
-        "§ 371 AO",
-        "§ 153 AO",
-        "§ 371 Abs. 1–3 AO",
-        "Themenpool: ao-modul-ao-388"
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 15 Abs. 3 Nr. 1 EStG",
+        "§ 15 Abs. 3 Nr. 2 EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
+        "§ 15 Abs. 3 EStG",
+        "Themenpool: persg-modul-persg-1"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Selbstanzeige bei Steuerhinterziehung: § 371 AO und Sperrgründe",
-      "text": "Selbstanzeige: lückenlos je Steuerart – alle unverjährten Taten, mindestens die letzten zehn Kalenderjahre. Die 25.000-€-Grenze sperrt § 371, kann aber § 398a eröffnen.",
-      "liveVorrangAktiv": true
+      "titel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
+      "text": "Personengesellschaft + gewerbliche Einkünfte + Mitunternehmerstellung: Diese drei Punkte stehen am Anfang des PersG-Teils."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-28",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "pairId": "umwst-aufb-umw-2-25",
       "quellen": [
-        "§ 249 Abs. 1 S. 1 HGB",
-        "§ 253 Abs. 1 S. 2 HGB",
-        "§ 253 Abs. 2 S. 1, 2 HGB",
-        "§ 253 Abs. 6 HGB",
-        "§ 6a Abs. 1 Nr. 1–3 EStG",
-        "§ 6a Abs. 2 EStG",
-        "§ 6a Abs. 3 S. 1, 2 EStG",
-        "§ 6a Abs. 4 EStG",
-        "§ 5 Abs. 6 EStG",
-        "§ 6a EStG",
-        "Themenpool: bilanz-modul-k3-28"
+        "§ 20 Abs. 3 UmwStG",
+        "§ 20 Abs. 2 UmwStG",
+        "§ 16 EStG",
+        "§ 20 Abs. 1 UmwStG",
+        "§ 20 Abs. 4 UmwStG",
+        "§ 54 Abs. 4 UmwG",
+        "Themenpool: umwst-aufb-umw-2-25"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Pensionsrückstellung",
-      "text": "Rechtsanspruch auf laufende Leistungen und Schriftform untersuchen (§ 6a Abs. 1 Nr. 1, 3 EStG).",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Geld schon erhalten: Muss ein PRAP in die Bilanz?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Betrieb übertragen: Liegt eine GiG vor?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Verein mit Umsatz: Greift die Steuerbefreiung?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+      "text": "Buchwert und gemeinen Wert des Einbringungsgegenstands sowie Art und Wert der sonstigen Gegenleistung feststellen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:22:15.601Z",
-    "pfad": "vorproduktion/2026-10-27/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

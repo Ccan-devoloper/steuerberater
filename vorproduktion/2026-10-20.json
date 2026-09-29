@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,8 +19,8 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-37",
-        "themaTitel": "Tausch, Inzahlungnahme und Investitionszuschuss",
+        "themaId": "bilanz-modul-k3-18",
+        "themaTitel": "Verdeckte Einlage",
         "fach": "bilanz",
         "klausur": 3
       },
@@ -34,9 +28,9 @@
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-303",
-        "themaTitel": "Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit",
-        "fach": "ao",
+        "themaId": "erbst-aufb-erbst-v-25",
+        "themaTitel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
+        "fach": "erbst",
         "klausur": 1
       },
       {
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:20",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-38"
+        "themaId": "bilanz-quiz-k3-5"
       },
       {
         "slot": "s5",
         "zeit": "07:20",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-38"
-      },
-      {
-        "slot": "s6",
-        "zeit": "12:09",
-        "art": "norm",
-        "themaId": "bilanz-glossar-21"
+        "themaId": "bilanz-quiz-k3-5"
       },
       {
         "slot": "s1",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "12:09",
+        "art": "norm",
+        "themaId": "ao-modul-ao-373"
+      },
+      {
         "slot": "s7",
         "zeit": "14:24",
         "art": "tipp",
-        "themaId": "ust-modul-ust-161"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:44",
-        "art": "tipp",
-        "themaId": "bilanz-modul-k3-4"
+        "themaId": "ao-modul-ao-313"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:44",
+        "art": "tipp",
+        "themaId": "ao-modul-ao-333"
+      },
+      {
         "slot": "s9",
         "zeit": "19:19",
         "art": "merksatz",
-        "themaId": "ust-modul-ust-218"
+        "themaId": "ao-modul-ao-317"
       },
       {
         "slot": "s3",
@@ -116,22 +110,21 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-37",
+      "themaId": "bilanz-modul-k3-18",
       "slug": "2026-10-20-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Alt gegen neu getauscht: Welche AK entstehen?",
+          "titel": "Verdeckte Einlage",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Tausch und Inzahlungnahme als entgeltlichen Erwerb behandeln",
-            "den Tauschwert netto ermitteln"
+            "einlagefähigen Vermögensvorteil erkennen",
+            "Veranlassung durch Gesellschaftsverhältnis untersuchen"
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Barzuzahlung und Wert des hingegebenen Wirtschaftsguts addieren."
+              "text": "Vorteil und Zuwendenden bestimmen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei 19 % Umsatzsteuer Bruttotauschwert durch 1,19 teilen; den zutreffenden Steuersatz im Fall prüfen."
+              "text": "Ist der Vorteil einlagefähig/bilanzierbar?"
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Beim Tausch zählt auch der Wert des hingegebenen Gegenstands zur Gegenleistung. Die Umsatzsteuer und einen Zuschuss getrennt behandeln."
+          "titel": "Merksatz",
+          "text": "Bei Verdeckte Einlage: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,71 +161,67 @@
           ]
         }
       ],
-      "caption": "Alt gegen neu getauscht: Welche AK entstehen? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Verdeckte Einlage: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Alt gegen neu getauscht: Welche AK entstehen?",
+      "kurztitel": "Verdeckte Einlage",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 6 Abs. 6 S. 1 EStG",
-        "§ 3 Abs. 12 S. 1 UStG",
-        "§ 10 Abs. 2 S. 2, 3 UStG",
-        "§ 255 Abs. 1 S. 1 HGB",
-        "R 6.5 Abs. 1 EStR",
-        "R 6.5 Abs. 2 S. 2, 3 EStR",
-        "§ 250 Abs. 2 HGB",
-        "§ 5 Abs. 5 S. 1 Nr. 2 EStG",
-        "§ 7g Abs. 5, Abs. 6 Nr. 1, 2 EStG",
-        "§ 6 Abs. 6 EStG",
-        "Themenpool: bilanz-modul-k3-37"
+        "§ 8 Abs. 3 S. 3 KStG",
+        "§ 8 Abs. 3 S. 4–6 KStG",
+        "§ 4 Abs. 1 S. 8 EStG",
+        "§ 6 Abs. 6 S. 2 EStG",
+        "§ 27 Abs. 1 S. 1 KStG",
+        "§ 17 Abs. 2a EStG",
+        "§ 8 Abs. 3 Satz 3 KStG",
+        "§ 27 KStG",
+        "Themenpool: bilanz-modul-k3-18"
       ],
       "coverRegie": {
-        "thema": "Tausch, Inzahlungnahme und Investitionszuschuss",
+        "thema": "Verdeckte Einlage",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-20-b1-bilanz-modul-k3-37-cover.png",
+        "bilddatei": "2026-10-20-b1-bilanz-modul-k3-18-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-303",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-aufb-erbst-v-25",
       "slug": "2026-10-20-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
+          "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Auskunftsersuchen nach § 93 AO als Verwaltungsakte einordnen",
-            "Formfreiheit nach § 119 Abs. 2 und Schriftform auf Verlangen nach § 93 Abs. 2 S. 2 unterscheiden"
+            "Begünstigt sind bebaute Grundstücke oder Grundstücksteile, die zu Wohnzwecken vermietet werden, etwa Mietwohngrundstücke, Wohnungseigentum oder Wohnteile gemischt genutzter Grundstücke.",
+            "Seit dem Jahressteuergesetz 2024 gilt der Abschlag für Grundstücke in einem Drittstaat nur, wenn dieser Deutschland bei der Erbschaftsteuer zur Amtshilfe verpflichtet ist."
           ]
         },
         {
@@ -241,18 +230,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Untersuchen, ob ein hinreichend bestimmtes Auskunftsersuchen nach § 93 AO vorliegt und welche Person in Anspruch genommen wird."
+              "text": "untersuchen, ob ein bebautes Grundstück oder ein Grundstücksteil zu Wohnzwecken vermietet ist."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei einem Dritten § 93 Abs. 1 S. 3 AO untersuchen; bei Sammelauskunftsersuchen § 93 Abs. 1a separat anwenden."
+              "text": "Belegenheit klären: Inland, Mitgliedstaat der EU oder des EWR oder Drittstaat mit Amtshilfeverpflichtung."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Vor einem Auskunftsersuchen an Dritte ist grundsätzlich zu prüfen, ob die Befragung des Steuerpflichtigen genügt (§ 93 Abs. 1 Satz 3 AO)."
+          "titel": "Merksatz",
+          "text": "Bei Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -269,34 +258,27 @@
           ]
         }
       ],
-      "caption": "Auskunft von Dritten: Wen fragt das Amt zuerst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
+      "kurztitel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 93 Abs. 1 AO",
-        "§ 97 AO",
-        "§ 101 AO",
-        "§ 102 AO",
-        "§ 104 AO",
-        "§ 15 AO",
-        "§ 80 AO",
-        "§ 119 Abs. 2 AO",
-        "§ 93 AO",
-        "§§ 101–104 AO",
-        "§ 93 Abs. 1–6 AO",
-        "§ 356 AO",
-        "AEAO zu § 93 Nr. 1.1",
-        "Themenpool: ao-modul-ao-303"
+        "§ 13d Abs. 1 ErbStG",
+        "§ 13d Abs. 3 Nr. 1 bis 3 ErbStG",
+        "§ 13a ErbStG",
+        "§ 13b Abs. 2 Satz 2 ErbStG",
+        "R E 13d Abs. 4 ErbStR",
+        "BMF-Schreiben vom 29.05.2019, BStBl. I S. 480",
+        "Themenpool: erbst-aufb-erbst-v-25"
       ],
       "coverRegie": {
-        "thema": "Auskunfts- und Vorlageersuchen: Reihenfolge, Verweigerungsrechte und Verwertbarkeit",
+        "thema": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
         "goldenReferences": [
           "assets/referenzen/charaktere/05-fritz-kranz.jpg",
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
@@ -304,17 +286,16 @@
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-20-b2-ao-modul-ao-303-cover.png",
+        "bilddatei": "2026-10-20-b2-erbst-aufb-erbst-v-25-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
@@ -328,14 +309,14 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+          "titel": "Dreiecksfälle und materielle Korrespondenz",
           "unter": "Körperschaftsteuer",
-          "text": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
           "norm": "§ 8 Abs. 3 S. 2 KStG",
-          "icon": "gebaeude",
-          "sprecher": "Dreiecksvorteil: vGA oder verdeckte Einlage? Hier sind die zwei entscheidenden Prüfschritte.",
+          "icon": null,
+          "sprecher": "Heute geht es um Dreiecksfälle und materielle Korrespondenz. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Dreiecksvorteil: vGA oder verdeckte Einlage"
+            "Vorteilsweg im Dreieck zeichnen"
           ]
         },
         {
@@ -347,7 +328,7 @@
           "icon": null,
           "sprecher": "Schritt 1: Leistende, begünstigte und beteiligte Person identifizieren.",
           "marken": [
-            "Leistende, begünstigte und beteiligte Person ide"
+            "Prüfpunkt 1"
           ]
         },
         {
@@ -359,17 +340,17 @@
           "icon": null,
           "sprecher": "Schritt 2: Erste Vorteilsbewegung als vGA oder vE untersuchen.",
           "marken": [
-            "Erste Vorteilsbewegung als vGA oder vE untersuch"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Bei einem Dreiecksvorteil prüfe die Vorteilsbewegung über den Gesellschafter: bei der leistenden Gesellschaft vGA, beim Empfänger gegebenenfalls verdeckte Einlage.",
-          "sprecher": "Bei einem Dreiecksvorteil prüfe die Vorteilsbewegung über den Gesellschafter: bei der leistenden Gesellschaft vGA, beim Empfänger gegebenenfalls verdeckte Einlage.",
+          "titel": "Merksatz",
+          "text": "Bei Dreiecksfälle und materielle Korrespondenz: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -385,16 +366,16 @@
           ]
         }
       ],
-      "caption": "Dreiecksvorteil: vGA oder verdeckte Einlage? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Dreiecksfälle und materielle Korrespondenz: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ],
-      "kurztitel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
+      "kurztitel": "Dreiecksfälle und materielle Korrespondenz",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
         "§ 8 Abs. 3 S. 2 KStG",
         "§ 8 Abs. 3 S. 3–5 KStG",
@@ -418,13 +399,11 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "gebaeude"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -432,27 +411,26 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-38",
+      "pairId": "bilanz-quiz-k3-5",
       "quellen": [
-        "Themenpool: bilanz-quiz-k3-38"
+        "Themenpool: bilanz-quiz-k3-5"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie wird eine Teilwertabschreibung auf eine Beteiligung bei der GmbH behandelt?",
-      "frage": "Wie wird eine Teilwertabschreibung auf eine Beteiligung bei der GmbH behandelt?",
-      "liveVorrangAktiv": true,
+      "frage": "Womit endet jeder Einzelsachverhalt?",
+      "titel": "Womit endet jeder Einzelsachverhalt?",
       "optionen": [
-        "nicht buchen",
-        "buchen und außerbilanziell hinzurechnen",
-        "nur steuerlich buchen"
+        "nur mit einer Norm",
+        "nur mit dem Ergebnis",
+        "mit Technik und Gewinnauswirkung"
       ],
-      "richtig": 1
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -460,247 +438,145 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-38",
+      "pairId": "bilanz-quiz-k3-5",
       "quellen": [
-        "Themenpool: bilanz-quiz-k3-38"
+        "Themenpool: bilanz-quiz-k3-5"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "buchen und außerbilanziell hinzurechnen",
-      "text": "Richtig ist: buchen und außerbilanziell hinzurechnen.",
-      "liveVorrangAktiv": true,
+      "titel": "mit Technik und Gewinnauswirkung",
       "optionen": [
-        "nicht buchen",
-        "buchen und außerbilanziell hinzurechnen",
-        "nur steuerlich buchen"
+        "nur mit einer Norm",
+        "nur mit dem Ergebnis",
+        "mit Technik und Gewinnauswirkung"
       ],
-      "richtig": 1
+      "richtig": 2,
+      "text": "Bilanzposten, Buchungssatz mit Buchungskreis und Gewinnauswirkung sichern die Technikpunkte."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-21",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-373",
       "quellen": [
-        "§ 4 Abs. 1 S. 1 EStG",
-        "Themenpool: bilanz-glossar-21"
+        "§ 110 Abs. 2 AO",
+        "§ 110 Abs. 3 AO",
+        "§ 110 Abs. 2 und 3 AO",
+        "§ 110 AO",
+        "§ 56 FGO",
+        "Themenpool: ao-modul-ao-373"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 4 Abs. 1 S. 1 EStG",
-      "titel": "Kapitalanpassungsbuchung",
-      "text": "",
-      "liveVorrangAktiv": true
+      "norm": "§ 110 Abs. 2 AO",
+      "titel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
+      "text": "Monatsfrist des § 110 Abs. 2 AO nach Wegfall des Hindernisses berechnen Tatsachen zur Begründung glaubhaft machen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-161",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-313",
       "quellen": [
-        "§ 12 Abs. 1 UStG",
-        "§ 12 Abs. 2 UStG",
-        "§ 12 Abs. 2 Nr. 10 UStG",
-        "§ 12 Abs. 2 Nr. 11 UStG",
-        "§ 12 Abs. 2 Nr. 15 UStG",
-        "§ 12 Abs. 3 UStG",
-        "Anlage 2 UStG",
-        "§ 12 Abs. 1–3 UStG",
-        "§ 12 Abs. 3 Nr. 1 UStG",
-        "A 12.18 Abs. 5 UStAE",
-        "Themenpool: ust-modul-ust-161"
+        "§ 122 Abs. 2 Nr. 1 AO",
+        "§ 108 Abs. 3 AO",
+        "§ 122 Abs. 2a AO",
+        "§ 122 Abs. 5 AO",
+        "§ 8 VwZG",
+        "§§ 177–182 ZPO",
+        "§ 122a AO",
+        "§ 122a Abs. 1–5 AO",
+        "Art. 97 § 28 Abs. 2 EGAO",
+        "Themenpool: ao-modul-ao-313"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Steuersätze: 19 %, 7 % und 0 % nach § 12 UStG",
-      "text": "Zuerst untersuchen, ob § 12 Abs. 3 UStG mit 0 % einschlägig ist.",
-      "liveVorrangAktiv": true
+      "titel": "Zeitpunkt der Bekanntgabe: einfacher Brief, E-Mail, förmliche Zustellung und § 122a AO",
+      "text": "Bekanntgabeart bestimmen."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-4",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-333",
       "quellen": [
-        "§ 253 Abs. 3 S. 1, 2 HGB",
-        "§ 7 Abs. 1 S. 1, 2 EStG",
-        "§ 7 Abs. 1 S. 4 EStG",
-        "§ 7 Abs. 2 EStG",
-        "§ 7 Abs. 4, 5a EStG",
-        "§ 7a Abs. 9 EStG",
-        "§ 7 EStG",
-        "§ 253 Abs. 3 HGB",
-        "Themenpool: bilanz-modul-k3-4"
+        "§ 171 Abs. 3a AO",
+        "§ 171 Abs. 4 AO",
+        "§ 196 AO",
+        "AEAO zu § 171 Nr. 2.2.1",
+        "Themenpool: ao-modul-ao-333"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Absetzung für Abnutzung",
-      "text": "Abnutzbarkeit und Zugehörigkeit zum Anlagevermögen untersuchen.",
-      "liveVorrangAktiv": true
+      "titel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
+      "text": "§ 171 Abs. 3a AO: zulässigen Einspruch feststellen; Reichweite der Quellenregel bestimmen."
     },
     "s9": {
       "slot": "s9",
       "art": "merksatz",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-218",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-317",
       "quellen": [
-        "§ 15 Abs. 1 UStG",
-        "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
-        "§ 15 Abs. 2 S. 1 Nr. 2 UStG",
-        "§ 15 Abs. 3 UStG",
-        "§ 15 Abs. 4 UStG",
-        "§ 15 Abs. 2, Abs. 3, Abs. 4 UStG",
-        "Themenpool: ust-modul-ust-218"
+        "§§ 347 ff. AO",
+        "§ 367 Abs. 2 AO",
+        "§ 361 AO",
+        "Themenpool: ao-modul-ao-317"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Vorsteuerausschluss und Aufteilung: § 15 Abs. 2 bis 4",
-      "text": "Direkt zuweisen vor aufteilen; Abs. 3 erst nach einem Ausschluss nach Abs. 2 untersuchen.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Alt gegen neu getauscht: Welche AK entstehen?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Auskunft von Dritten: Wen fragt das Amt zuerst?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Dreiecksvorteil: vGA oder verdeckte Einlage?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Einspruchsverfahren: Reichweite, Auslegung und Erfolgsformel",
+      "text": "Einspruch immer zweistufig: erst Zulässigkeit, dann Begründetheit."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:21:41.580Z",
-    "pfad": "vorproduktion/2026-10-20/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

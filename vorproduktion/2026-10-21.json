@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-48",
-        "themaTitel": "Realteilung und Sachwertabfindung",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "ust-aufb-ust-m-b05-6",
+        "themaTitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
+        "fach": "ust",
+        "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-509",
-        "themaTitel": "Sachliche Steuerbefreiungen im Hausrat und andere bewegliche körperliche Gegenstände",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "est-aufb-est-ks2-17-01",
+        "themaTitel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
+        "fach": "est",
+        "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr4-06",
-        "themaTitel": "§ 9 AStG: relative und absolute Freigrenze",
-        "fach": "istr",
-        "klausur": 2,
+        "themaId": "umwst-aufb-umw-ks-3-06",
+        "themaTitel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
+        "fach": "umwst",
+        "klausur": 3,
         "lang": false
       }
     ],
@@ -64,12 +58,6 @@
         "themaId": "bilanz-quiz-k3-35"
       },
       {
-        "slot": "s6",
-        "zeit": "11:53",
-        "art": "norm",
-        "themaId": "bilanz-modul-k3-46"
-      },
-      {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:53",
+        "art": "norm",
+        "themaId": "ao-modul-ao-324"
+      },
+      {
         "slot": "s7",
         "zeit": "14:31",
         "art": "tipp",
-        "themaId": "bilanz-modul-k3-1"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:41",
-        "art": "merksatz",
-        "themaId": "ust-modul-ust-210"
+        "themaId": "ao-modul-ao-307"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:41",
+        "art": "merksatz",
+        "themaId": "erbst-aufb-erbst-t1-7"
+      },
+      {
         "slot": "s9",
         "zeit": "19:13",
         "art": "tipp",
-        "themaId": "bilanz-modul-k3-7"
+        "themaId": "erbst-modul-erbst-503"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-48",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b05-6",
       "slug": "2026-10-21-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Sachwert statt Geld: Ist das Realteilung?",
+          "titel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "kreislauf"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "echte und unechte Realteilung unterscheiden",
-            "reine Barabfindung und Überführung lückenlos ins Privatvermögen von der Realteilung unterscheiden"
+            "Die Leistung wird dort ausgeführt, von wo aus der unternehmerische Empfänger sein Unternehmen betreibt; wird sie an eine Betriebsstätte erbracht, zählt deren Ort.",
+            "Der Kunde muss Unternehmer sein und die Leistung für seinen unternehmerischen Bereich beziehen; juristische Personen mit USt-IdNr. oder mit teils unternehmerischer Tätigkeit stehen nach Satz 3 gleich."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zuerst klären, ob eine echte Realteilung (Beendigung der Mitunternehmerschaft) oder eine unechte Realteilung (Ausscheiden eines Mitunternehmers bei Fortbestand der Mitunternehmerschaft) vorliegt."
+              "text": "Zuerst ausschließen, dass eine vorrangige Sonderregel wie Grundstücksleistung, Personenbeförderung oder kurzfristige Fahrzeugvermietung eingreift."
             },
             {
               "titel": "2. Schritt",
-              "text": "Untersuchen, ob die übertragenen Wirtschaftsgüter beim Realteiler zumindest teilweise in einem Betriebsvermögen fortgeführt werden."
+              "text": "Status des Kunden klären: unternehmerischer Bezug oder gleichgestellte juristische Person nach Satz 3."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Realteilung kann auch beim Ausscheiden eines Partners vorliegen, wenn Wirtschaftsgüter in einem Betriebsvermögen fortgeführt werden."
+          "titel": "Merksatz",
+          "text": "Bei B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,131 +161,31 @@
           ]
         }
       ],
-      "caption": "Sachwert statt Geld: Ist das Realteilung? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Sachwert statt Geld: Ist das Realteilung?",
+      "kurztitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 16 Abs. 3 S. 1 EStG",
-        "§ 16 Abs. 3 S. 2 EStG",
-        "§ 16 Abs. 3 S. 3 EStG",
-        "§ 16 Abs. 3 S. 4 EStG",
-        "§ 16 Abs. 3 S. 8 EStG",
-        "§ 6 Abs. 5 S. 3 EStG",
-        "§ 6 Abs. 5 S. 4 EStG",
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 34 Abs. 2 Nr. 1 EStG",
-        "§ 182 Abs. 1 AO",
-        "§ 16 Abs. 3 S. 2–5 EStG",
-        "§ 16 Abs. 5 EStG",
-        "§ 6 Abs. 5 S. 7 EStG",
-        "Themenpool: bilanz-modul-k3-48"
+        "§ 2 Abs. 1 UStG",
+        "§ 3a Abs. 2 Sätze 1 bis 3 UStG",
+        "§ 3a Abs. 3 Nr. 1 und 4, Abs. 4 UStG",
+        "§ 13b Abs. 1 und 5 UStG",
+        "§ 18a Abs. 2 UStG",
+        "§ 18b UStG",
+        "§ 61a Abs. 4 UStDV",
+        "§§ 8, 9, 90 AO",
+        "Art. 18 MwStVO",
+        "Art. 44 MwStSystRL",
+        "Themenpool: ust-aufb-ust-m-b05-6"
       ],
       "coverRegie": {
-        "thema": "Realteilung und Sachwertabfindung",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-21-b1-bilanz-modul-k3-48-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-509",
-      "slug": "2026-10-21-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Hausrat geerbt: Welche Befreiung greift?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "haus"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "und sachliche Steuerbefreiung in der Quellenreihenfolge trennen",
-            "Hausrat von anderen beweglichen körperlichen Gegenständen unterscheiden"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Je Wirtschaftsgut Wert nach § 12 ErbStG i.V.m. BewG ermitteln."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Sachliche Steuerbefreiung nach § 13 ErbStG untersuchen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Hausrat und andere bewegliche Gegenstände getrennt erfassen; die Freibeträge des § 13 Abs. 1 Nr. 1 ErbStG hängen von der Steuerklasse ab."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Hausrat geerbt: Welche Befreiung greift? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#erbschaftsteuer"
-      ],
-      "kurztitel": "Hausrat geerbt: Welche Befreiung greift?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 12 ErbStG",
-        "§ 13 Abs. 1 Nr. 1a ErbStG",
-        "§ 13 Abs. 1 Nr. 1b ErbStG",
-        "§ 13 Abs. 1 Nr. 1c ErbStG",
-        "R E 10.10 Abs. 2 S. 2",
-        "§ 13 Abs. 1 Nr. 1 Buchst. a–c ErbStG",
-        "Themenpool: erbst-modul-erbst-509"
-      ],
-      "coverRegie": {
-        "thema": "Sachliche Steuerbefreiungen im Hausrat und andere bewegliche körperliche Gegenstände",
+        "thema": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
@@ -300,72 +193,170 @@
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-21-b2-erbst-modul-erbst-509-cover.png",
+        "bilddatei": "2026-10-21-b1-ust-aufb-ust-m-b05-6-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-17-01",
+      "slug": "2026-10-21-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Erfasst werden Anteile an Kapitalgesellschaften im Privatvermögen, wenn der Veräußerer innerhalb der fünf Jahre vor dem Verkauf zu irgendeinem Zeitpunkt mit mindestens 1 % beteiligt war.",
+            "Der Gewinn gehört zu den gewerblichen Einkünften, die Anteile bleiben aber steuerlich Privatvermögen; Gewerbesteuer fällt nicht an und § 34 EStG ist ausgeschlossen."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Klären, ob Anteile an einer Kapitalgesellschaft im Sinne des § 17 Abs. 1 Satz 3 EStG vorliegen und diese zum Privatvermögen gehören."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Die höchste Beteiligungsquote in den fünf Jahren vor dem Verkauf ermitteln und mit der Schwelle von 1 % gegenüberstellen."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Wann wird der Verkauf privater GmbH-Anteile gewerblich?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ],
+      "kurztitel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 17 Abs. 1 Satz 1 EStG",
+        "§ 17 Abs. 1 Satz 3 EStG",
+        "§ 17 Abs. 2 EStG",
+        "§ 17 Abs. 3 EStG",
+        "§ 2 Abs. 1 Nr. 2 EStG",
+        "§ 3 Nr. 40 c) EStG",
+        "§ 3c Abs. 2 EStG",
+        "R 17 Abs. 1 EStR",
+        "R 7.1 Abs. 3 Nr. 2 GewStR",
+        "§ 34 EStG",
+        "Themenpool: est-aufb-est-ks2-17-01"
+      ],
+      "coverRegie": {
+        "thema": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-21-b2-est-aufb-est-ks2-17-01-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr4-06",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-3-06",
       "slug": "2026-10-21-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Passive Einkünfte: Greift die Freigrenze?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Passive Einkünfte: Greift die Freigrenze?",
-          "norm": "§ 9 AStG",
-          "icon": "globus",
-          "sprecher": "Passive Einkünfte: Greift die Freigrenze? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
+          "unter": "Umwandlungssteuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 7 UmwStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Passive Einkünfte: Greift die Freigrenze"
+            "Übernahmegewinn und Übernahmeverlust"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
+          "titel": "Den Zeitpunkt der Umwandlung und den Zeitpunkt der späteren Veräußerung oder Aufgabe feststellen.",
           "text": null,
-          "norm": "§ 9 AStG",
+          "norm": "§ 7 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Gesamte Einkünfte der ausländischen Gesellschaft ermitteln.",
+          "sprecher": "Schritt 1: Prüfe § 7 UmwStG im Zusammenhang mit Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
           "marken": [
-            "Gesamte Einkünfte der ausländischen Gesellschaft"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Zwischeneinkünfte, für die die Gesellschaft Zwischengesellschaft ist, ins Verhältnis zu den gesamten E",
+          "titel": "Prüfpunkt 2: § 18 Abs. 3 UmwStG",
           "text": null,
-          "norm": "§ 7 AStG",
+          "norm": "§ 18 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Zwischeneinkünfte, für die die Gesellschaft Zwischengesellschaft ist, ins Verhältnis zu den gesamten Einkünften setzen.",
+          "sprecher": "Schritt 2: Prüfe § 18 Abs. 3 UmwStG im Zusammenhang mit Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
           "marken": [
-            "Zwischeneinkünfte, für die die Gesellschaft Zwis"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Die Freigrenze des § 9 AStG verlangt beides: höchstens ein Drittel der gesamten Einkünfte und insgesamt höchstens 100.000 Euro.",
-          "sprecher": "Die Freigrenze des § 9 AStG verlangt beides: höchstens ein Drittel der gesamten Einkünfte und insgesamt höchstens 100.000 Euro.",
+          "titel": "Merksatz",
+          "text": "Bei Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -381,43 +372,48 @@
           ]
         }
       ],
-      "caption": "Passive Einkünfte: Greift die Freigrenze? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Passive Einkünfte: Greift die Freigrenze?",
+      "kurztitel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 9 AStG",
-        "§ 7 AStG",
-        "§ 8 AStG",
-        "Themenpool: istr-modul-istr-istr4-06"
+        "§ 7 UmwStG",
+        "§ 18 Abs. 3 UmwStG",
+        "§ 3 Abs. 2 UmwStG",
+        "§ 4 Abs. 6 UmwStG",
+        "§ 17 EStG",
+        "§ 7 GewStG",
+        "§ 35 EStG",
+        "§ 18 Abs. 2 UmwStG",
+        "§ 9 UmwStG",
+        "§ 5 Abs. 2 UmwStG",
+        "Themenpool: umwst-aufb-umw-ks-3-06"
       ],
       "coverRegie": {
-        "thema": "§ 9 AStG: relative und absolute Freigrenze",
+        "thema": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-21-b3-istr-modul-istr-istr4-06-cover.png",
+        "bilddatei": "2026-10-21-b3-umwst-aufb-umw-ks-3-06-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "globus"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -431,15 +427,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Lösen § 8b-Korrekturen latente Steuern aus?",
       "frage": "Lösen § 8b-Korrekturen latente Steuern aus?",
-      "liveVorrangAktiv": true,
+      "titel": "Lösen § 8b-Korrekturen latente Steuern aus?",
       "optionen": [
         "ja, aktive",
         "ja, passive",
@@ -459,247 +454,145 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "nein, permanente Differenz",
-      "text": "Richtig: nein, permanente Differenz. Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus.",
-      "liveVorrangAktiv": true,
       "optionen": [
         "ja, aktive",
         "ja, passive",
         "nein, permanente Differenz"
       ],
-      "richtig": 2
+      "richtig": 2,
+      "text": "Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-46",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-324",
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 24 Abs. 1 UmwStG",
-        "§ 24 Abs. 2 S. 1, 2 UmwStG",
-        "§ 24 Abs. 3 UmwStG",
-        "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 16 Abs. 1 S. 2 EStG",
-        "§ 16 Abs. 2 S. 1 EStG",
-        "§ 6 Abs. 3 S. 1 EStG",
-        "§ 6 Abs. 5 S. 3 EStG",
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "Themenpool: bilanz-modul-k3-46"
+        "§ 351 Abs. 1 AO",
+        "§ 367 Abs. 2 AO",
+        "§§ 17 ff. AO",
+        "§ 91 AO",
+        "§ 121 AO",
+        "§ 157 Abs. 1 S. 3 AO",
+        "Themenpool: ao-modul-ao-324"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-      "titel": "Eintritt und Ausscheiden eines Mitunternehmers",
-      "text": "Eintritt gegen Einlage von der Anteilsveräußerung unterscheiden das Bewertungswahlrecht des § 24 Abs. 2 UmwStG ausüben und begründen",
-      "liveVorrangAktiv": true
+      "norm": "§ 351 Abs. 1 AO",
+      "titel": "Begründetheit des Einspruchs: Rechtmäßigkeit, Rechtsverletzung, § 351 und Gesamtaufrollung",
+      "text": "die Vier-Punkte-Begründetheitsformel lückenlos anwenden Standardfehler von bloßen formalen Unvollkommenheiten unterscheiden"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-1",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-307",
       "quellen": [
-        "§ 238 Abs. 1 HGB",
-        "§ 242 Abs. 1 HGB",
-        "§ 140 AO",
-        "§ 141 AO",
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
-        "§ 60 Abs. 2 EStDV",
-        "§ 5 Abs. 1 EStG",
-        "§§ 238, 242, 246 HGB",
-        "Themenpool: bilanz-modul-k3-1"
+        "§ 122 Abs. 1 AO",
+        "§ 122 Abs. 7 AO",
+        "§ 122a AO",
+        "§ 80 AO",
+        "§ 183 AO",
+        "§ 183a AO",
+        "§ 8 VwZG",
+        "§ 122 AO",
+        "Themenpool: ao-modul-ao-307"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Maßgeblichkeit und Bilanzierungspflicht",
-      "text": "WER bilanziert? Kaufmann, Gesellschaft oder Steuerpflichtiger?",
-      "liveVorrangAktiv": true
+      "titel": "Ordnungsgemäße Bekanntgabe: Zugang im Machtbereich des richtigen Empfängers",
+      "text": "Ordnungsgemäße Bekanntgabe nach § 122 Abs. 1 AO untersuchen."
     },
     "s8": {
       "slot": "s8",
       "art": "merksatz",
-      "fach": "ust",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-210",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-aufb-erbst-t1-7",
       "quellen": [
-        "§ 17 Abs. 1 UStG",
-        "§ 17 Abs. 2 Nr. 1 UStG",
-        "§ 17 Abs. 2 Nr. 3 UStG",
-        "§ 17 Abs. 1, Abs. 2 UStG",
-        "Themenpool: ust-modul-ust-210"
+        "§ 10 Abs. 5 ErbStG",
+        "§ 10 Abs. 6 ErbStG",
+        "§ 10 Abs. 1 ErbStG",
+        "§ 13 Abs. 1 ErbStG",
+        "§ 10 Abs. 3 ErbStG",
+        "§ 13 ErbStG",
+        "§ 5 ErbStG",
+        "§ 16 ErbStG",
+        "§ 17 ErbStG",
+        "Themenpool: erbst-aufb-erbst-t1-7"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "§ 17 UStG: Änderung der Bemessungsgrundlage, Uneinbringlichkeit und Rückgängigmachung",
-      "text": "§ 17 ist eine Nachlaufprüfung: erst ursprünglichen Umsatz lösen, dann die spätere Änderung.",
-      "liveVorrangAktiv": true
+      "titel": "Was mindert die Bereicherung? Nachlassverbindlichkeiten nach § 10",
+      "text": "Abgezogen wird, was den Erben wirklich belastet – aber nichts, was an steuerfreiem Vermögen hängt."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-7",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-modul-erbst-503",
       "quellen": [
-        "§ 6b Abs. 1 EStG",
-        "§ 6b Abs. 3 EStG",
-        "§ 6b Abs. 4 S. 1 Nr. 1–5 EStG",
-        "§ 6b Abs. 7 EStG",
-        "§ 6b Abs. 10 EStG",
-        "R 6b.2 EStR",
-        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
-        "§ 6b EStG",
-        "Themenpool: bilanz-modul-k3-7"
+        "§ 10 Abs. 1 S. 1–2 ErbStG",
+        "R E 7.4 Abs. 1 S. 1–2",
+        "§ 12 ErbStG",
+        "§ 10 Abs. 6 ErbStG",
+        "Themenpool: erbst-modul-erbst-503"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Reinvestitionsrücklage nach § 6b EStG",
-      "text": "Veräußerungsgewinn isoliert ermitteln.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Sachwert statt Geld: Ist das Realteilung?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Hausrat geerbt: Welche Befreiung greift?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Passive Einkünfte: Greift die Freigrenze?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Bereicherung, gemischte Schenkung und Schenkung unter Auflage",
+      "text": "§ 10 Abs. 1 S. 1 ErbStG: steuerpflichtiger Erwerb = Bereicherung des Erwerbers, soweit nicht steuerfrei."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:21:46.479Z",
-    "pfad": "vorproduktion/2026-10-21/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,28 +19,28 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-13",
-        "themaTitel": "Übertragungen nach § 6 Abs. 5 EStG",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "kst-aufb-kst-t3-20",
+        "themaTitel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
+        "fach": "kst",
+        "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-545",
-        "themaTitel": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182",
-        "fach": "erbst",
-        "klausur": 1
+        "themaId": "umwst-aufb-umw-2-10",
+        "themaTitel": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
+        "fach": "umwst",
+        "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-modul-kst-3",
-        "themaTitel": "Nichtabziehbare Aufwendungen und Spenden",
-        "fach": "kst",
-        "klausur": 2,
+        "themaId": "erbst-aufb-erbst-v-20",
+        "themaTitel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
+        "fach": "erbst",
+        "klausur": 1,
         "lang": false
       }
     ],
@@ -64,12 +58,6 @@
         "themaId": "persg-quiz-k3-30"
       },
       {
-        "slot": "s6",
-        "zeit": "11:59",
-        "art": "norm",
-        "themaId": "bilanz-glossar-4"
-      },
-      {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
@@ -77,16 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:59",
+        "art": "norm",
+        "themaId": "ao-modul-ao-377"
+      },
+      {
         "slot": "s7",
         "zeit": "14:39",
         "art": "merksatz",
-        "themaId": "ust-modul-ust-213"
-      },
-      {
-        "slot": "s8",
-        "zeit": "16:55",
-        "art": "tipp",
-        "themaId": "bilanz-modul-k3-45"
+        "themaId": "persg-aufb-persg-melzer-2-6"
       },
       {
         "slot": "s2",
@@ -96,10 +84,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s8",
+        "zeit": "16:55",
+        "art": "tipp",
+        "themaId": "persg-aufb-persg-melzer-1-7"
+      },
+      {
         "slot": "s9",
         "zeit": "19:13",
         "art": "fehler",
-        "themaId": "ust-modul-ust-244"
+        "themaId": "est-aufb-est-ks2-17-04"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-13",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-t3-20",
       "slug": "2026-10-28-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
+          "titel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Übertragungsrichtungen des Absatzes 5 zuweisen",
-            "Entgeltlichkeit und Gewährung von Gesellschaftsrechten untersuchen"
+            "Handelsrechtlich wird der Nennbetrag erworbener eigener Anteile offen vom gezeichneten Kapital abgesetzt (§ 272 Abs. 1a HGB); steuerlich folgt daraus eine Behandlung wie eine Kapitalherabsetzung nach § 28 Abs. 2 KStG.",
+            "Der auf den Nennbetrag entfallende Kaufpreis führt zu Zugang und sofortigem Abgang im Einlagekonto; ein angemessener Mehrbetrag wird wie eine Leistung in die Rechnung des § 27 Abs. 1 Satz 3 KStG einbezogen."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Ausgangs- und Zielbetriebsvermögen bestimmen."
+              "text": "Kaufpreis in Nennbetrag, angemessenen Mehrbetrag und etwaigen überhöhten Anteil zerlegen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Welcher Tatbestand des § 6 Abs. 5 Satz 1, 2 oder 3?"
+              "text": "Den Nennbetragsanteil als Kapitalherabsetzung aufnehmen und das Einlagekonto nach § 28 Abs. 2 KStG entsprechend fortschreiben."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Ist ein Übertragungstatbestand des § 6 Abs. 5 EStG erfüllt, ordnet die Norm grundsätzlich die Fortführung des Buchwerts an."
+          "titel": "Merksatz",
+          "text": "Bei Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,68 +161,69 @@
           ]
         }
       ],
-      "caption": "Gut zwischen Betrieben: Buchwert oder Entnahme? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
+      "kurztitel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 6 Abs. 5 S. 1 EStG",
-        "§ 6 Abs. 5 S. 2 EStG",
-        "§ 6 Abs. 5 S. 3 Nr. 1–3 EStG",
-        "§ 6 Abs. 5 S. 4 EStG",
-        "§ 6 Abs. 5 S. 5, 6 EStG",
-        "§ 6 Abs. 3 EStG",
-        "§ 6 Abs. 5 EStG",
-        "Themenpool: bilanz-modul-k3-13"
+        "§ 28 Abs. 2 Sätze 1, 2 und 3 KStG",
+        "§ 28 Abs. 1 KStG",
+        "§ 27 Abs. 1 Satz 3 und Satz 5 KStG",
+        "§ 27 Abs. 5 KStG",
+        "§ 272 Abs. 1a Satz 1 HGB",
+        "§ 17 Abs. 1 Satz 1 EStG",
+        "§ 3 Nr. 40 Buchstabe c EStG, § 3c Abs. 2 EStG",
+        "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
+        "BMF vom 27.11.2013, BStBl. I 2013, 1615, Tz. 9, 10, 12, 20 und 22",
+        "BFH vom 06.12.2017, BStBl. II 2019, 213",
+        "Themenpool: kst-aufb-kst-t3-20"
       ],
       "coverRegie": {
-        "thema": "Übertragungen nach § 6 Abs. 5 EStG",
+        "thema": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
         "goldenReferences": [
           "assets/referenzen/charaktere/06-kalle.jpg",
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b1-bilanz-modul-k3-13-cover.png",
+        "bilddatei": "2026-10-28-b1-kst-aufb-kst-t3-20-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-545",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-10",
       "slug": "2026-10-28-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Bebautes Grundstück: Welche Art zuerst?",
+          "titel": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "haus"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Grundstücksart vor Bewertungsverfahren bestimmen",
-            "§181-Kategorien unterscheiden"
+            "Für § 20 UmwStG kommt es allein auf die funktional wesentlichen Betriebsgrundlagen an; sie müssen der Kapitalgesellschaft zumindest in das wirtschaftliche Eigentum übertragen werden.",
+            "Behält der Einbringende eine funktional wesentliche Betriebsgrundlage zurück und verpachtet sie nur an die Gesellschaft, ist § 20 UmwStG insgesamt ausgeschlossen; es kommt zur Betriebsaufgabe nach § 16 Abs. 3 EStG."
           ]
         },
         {
@@ -238,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Bebautes Grundstück feststellen."
+              "text": "Alle Wirtschaftsgüter des Betriebs zum steuerlichen Übertragungsstichtag aufnehmen und nach funktionaler Wesentlichkeit einordnen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Grundstücksart nach § 181 BewG bestimmen."
+              "text": "untersuchen, ob jedes funktional wesentliche Wirtschaftsgut rechtlich oder wirtschaftlich auf die Kapitalgesellschaft übergeht."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Bei einem bebauten Grundstück bestimmt die Grundstücksart nach § 181 BewG, welche Methode nach § 182 BewG greift."
+          "titel": "Merksatz",
+          "text": "Bei Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -266,98 +260,103 @@
           ]
         }
       ],
-      "caption": "Bebautes Grundstück: Welche Art zuerst? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Bebautes Grundstück: Welche Art zuerst?",
+      "kurztitel": "Was gehört zum Betrieb, der nach § 20 UmwStG…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 181 BewG",
-        "§ 182 BewG",
-        "§ 180 BewG",
-        "§ 181 Abs. 1–9 BewG",
-        "Themenpool: erbst-modul-erbst-545"
+        "§ 20 UmwStG",
+        "§ 16 Abs. 3 EStG",
+        "§ 16 EStG",
+        "§ 20 Abs. 3 UmwStG",
+        "§ 20 Abs. 2 UmwStG",
+        "§ 6 Abs. 5 EStG",
+        "§ 20 Abs. 1 UmwStG",
+        "§ 1a KStG",
+        "§ 25 UmwStG",
+        "§ 1a Abs. 2 KStG",
+        "Themenpool: umwst-aufb-umw-2-10"
       ],
       "coverRegie": {
-        "thema": "Bebaute Grundstücke: Grundstücksart nach § 181 vor Methodenwahl § 182",
+        "thema": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b2-erbst-modul-erbst-545-cover.png",
+        "bilddatei": "2026-10-28-b2-umwst-aufb-umw-2-10-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-modul-kst-3",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-aufb-erbst-v-20",
       "slug": "2026-10-28-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Aufwand verbucht: Muss er zum zvE hinzu?",
-          "unter": "Körperschaftsteuer",
-          "text": "Aufwand verbucht: Muss er zum zvE hinzu?",
-          "norm": "§ 8 Abs. 1 KStG",
-          "icon": "gebaeude",
-          "sprecher": "Aufwand verbucht: Muss er zum zvE hinzu? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
+          "unter": "Erbschaftsteuer / Bewertung",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 13a Abs. 6 Nr. 1 ErbStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Nachversteuerung: Welche Verfügungen die Verschonung kosten. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Aufwand verbucht: Muss er zum zvE hinzu"
+            "Schädlich sind bei Betriebsvermögen der"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Aufwandsbuchung und Gewinnminderung feststellen.",
+          "titel": "Behaltensfrist ab Erwerb bestimmen und alle Vorgänge innerhalb der Frist sammeln.",
           "text": null,
-          "norm": "§ 8 Abs. 1 KStG",
+          "norm": "§ 13a Abs. 6 Nr. 1 ErbStG",
           "icon": null,
-          "sprecher": "Schritt 1: Aufwandsbuchung und Gewinnminderung feststellen.",
+          "sprecher": "Schritt 1: Prüfe § 13a Abs. 6 Nr. 1 ErbStG im Zusammenhang mit Nachversteuerung: Welche Verfügungen die Verschonung kosten.",
           "marken": [
-            "Aufwandsbuchung und Gewinnminderung feststellen."
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Spezialnorm des KStG untersuchen, insbesondere § 10 KStG.",
+          "titel": "Jeden Vorgang einem Tatbestand des § 13a Abs. 6 Nr. 1 bis 5 ErbStG zuweisen.",
           "text": null,
-          "norm": "§ 10 KStG",
+          "norm": "§ 13a Abs. 6 Nr. 2 ErbStG",
           "icon": null,
-          "sprecher": "Schritt 2: Spezialnorm des KStG untersuchen, insbesondere § 10 KStG.",
+          "sprecher": "Schritt 2: Prüfe § 13a Abs. 6 Nr. 2 ErbStG im Zusammenhang mit Nachversteuerung: Welche Verfügungen die Verschonung kosten.",
           "marken": [
-            "Spezialnorm des KStG untersuchen, insbesondere §"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Ein Abzugsverbot wie § 10 KStG führt bei bereits gewinnminderndem Aufwand zur außerbilanziellen Hinzurechnung; dieselbe Position nicht doppelt korrigieren.",
-          "sprecher": "Ein Abzugsverbot wie § 10 KStG führt bei bereits gewinnminderndem Aufwand zur außerbilanziellen Hinzurechnung; dieselbe Position nicht doppelt korrigieren.",
+          "titel": "Merksatz",
+          "text": "Bei Nachversteuerung: Welche Verfügungen die Verschonung kosten: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -373,47 +372,48 @@
           ]
         }
       ],
-      "caption": "Aufwand verbucht: Muss er zum zvE hinzu? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Nachversteuerung: Welche Verfügungen die Verschonung kosten: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Aufwand verbucht: Muss er zum zvE hinzu?",
+      "kurztitel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Abs. 1 KStG",
-        "§ 10 Nr. 2 KStG",
-        "§ 4 Abs. 5 EStG",
-        "§ 4 Abs. 6 EStG",
-        "§ 4 Abs. 7 EStG",
-        "§ 10 KStG",
-        "§ 4 Abs. 5–7 EStG",
-        "Themenpool: kst-modul-kst-3"
+        "§ 13a Abs. 6 Nr. 1 ErbStG",
+        "§ 13a Abs. 6 Nr. 2 ErbStG",
+        "§ 13a Abs. 6 Nr. 3 ErbStG",
+        "§ 13a Abs. 6 Nr. 3 Satz 3 ErbStG",
+        "§ 13a Abs. 6 Nr. 4 ErbStG",
+        "§ 13a Abs. 6 Nr. 5 ErbStG",
+        "§ 13a Abs. 1 ErbStG",
+        "§ 13a Abs. 2 ErbStG",
+        "§ 13b Abs. 1 Nr. 3 Satz 2 ErbStG",
+        "§ 168 Abs. 1 Nr. 1 BewG",
+        "Themenpool: erbst-aufb-erbst-v-20"
       ],
       "coverRegie": {
-        "thema": "Nichtabziehbare Aufwendungen und Spenden",
+        "thema": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur sortiert Aufwandsbelege; die andere hält nur bereits verbuchte Beträge vor einer Schranke an.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b3-kst-modul-kst-3-cover.png",
+        "bilddatei": "2026-10-28-b3-erbst-aufb-erbst-v-20-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "gebaeude"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -427,15 +427,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
       "frage": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
-      "liveVorrangAktiv": true,
+      "titel": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
       "optionen": [
         "begünstigt nach § 34 EStG",
         "laufender Gewinn",
@@ -455,238 +454,137 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
       "titel": "laufender Gewinn",
-      "text": "Richtig: laufender Gewinn. Insoweit liegt eine Veräußerung vor; § 34 EStG ist nicht anwendbar.",
-      "liveVorrangAktiv": true,
       "optionen": [
         "begünstigt nach § 34 EStG",
         "laufender Gewinn",
         "steuerfrei"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "text": "Insoweit liegt eine Veräußerung vor; § 34 EStG ist nicht anwendbar."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-4",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-377",
       "quellen": [
-        "§ 6 Abs. 1 Nr. 1 S. 3 EStG",
-        "Themenpool: bilanz-glossar-4"
+        "§ 129 AO",
+        "§ 130 AO",
+        "§ 131 AO",
+        "§§ 129, 130 und 131 AO",
+        "Themenpool: ao-modul-ao-377"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 6 Abs. 1 Nr. 1 S. 3 EStG",
-      "titel": "Teilwert",
-      "text": "",
-      "liveVorrangAktiv": true
+      "norm": "§ 129 AO",
+      "titel": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO",
+      "text": "§ 129, § 130 und § 131 als drei Grundäste unterscheiden rechtswidrig/rechtmäßig am Erlasszeitpunkt beurteilen"
     },
     "s7": {
       "slot": "s7",
       "art": "merksatz",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-213",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-aufb-persg-melzer-2-6",
       "quellen": [
-        "§ 10 Abs. 5 UStG",
-        "§ 10 Abs. 4 UStG",
-        "Themenpool: ust-modul-ust-213"
+        "§ 6b Abs. 2, Abs. 3, Abs. 4 Satz 2 und Abs. 10 EStG",
+        "R 6b.2 Abs. 6, Abs. 7 und Abs. 8 EStR",
+        "Themenpool: persg-aufb-persg-melzer-2-6"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Mindestbemessungsgrundlage nach § 10 Abs. 5",
-      "text": "Näheverhältnis + verbilligtes Entgelt = § 10 Abs. 5 als Pflichtprüfung.",
-      "liveVorrangAktiv": true
+      "titel": "Wie lässt sich eine § 6b-Rücklage bei Mitunternehmern übertragen?",
+      "text": "§ 6b folgt dem Mitunternehmer: übertragbar ist nur, was ihm am Gewinn und am neuen Wirtschaftsgut für jeden Fall anteilig zuzurechnen ist."
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-45",
+      "fachLabel": "Personengesellschaften",
+      "pairId": "persg-aufb-persg-melzer-1-7",
       "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 15a Abs. 1 S. 1 EStG",
-        "§ 15a Abs. 1 S. 2 EStG",
-        "§ 15a Abs. 1 S. 3 EStG",
-        "§ 15a Abs. 2 S. 1 EStG",
-        "§ 15a Abs. 3 S. 1 EStG",
-        "§ 15a Abs. 4 S. 1 EStG",
-        "§ 15a Abs. 5 EStG",
-        "H 15a „Kapitalkonto\" EStH",
-        "H 15a „Sonderbetriebsvermögen\" EStH",
-        "Themenpool: bilanz-modul-k3-45"
+        "§ 15 Abs. 1 Nr. 2 EStG",
+        "R 4.2 Abs. 2 EStR",
+        "Themenpool: persg-aufb-persg-melzer-1-7"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Verlustausgleichsbeschränkung nach § 15a EStG",
-      "text": "Gesellschafterstellung untersuchen: § 15a EStG gilt für Kommanditisten und wirtschaftlich vergleichbar beschränkt Haftende.",
-      "liveVorrangAktiv": true
+      "titel": "Wie ermittelt man den Gewinn eines Mitunternehmers?",
+      "text": "Den Gewinn laut Gesellschaftsbilanz nach allen Korrekturen feststellen und nach dem Gewinnverteilungsschlüssel aufteilen."
     },
     "s9": {
       "slot": "s9",
       "art": "fehler",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-modul-ust-244",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "pairId": "est-aufb-est-ks2-17-04",
       "quellen": [
-        "§ 19 Abs. 1 UStG",
-        "§ 19 Abs. 2 UStG",
-        "A 19.1 Abs. 3 UStAE",
-        "A 19.2 UStAE",
-        "A 19.7 Abs. 1 UStAE",
-        "§ 15a UStG",
-        "§ 19 UStG",
-        "A 19.1, A 19.2, A 19.7 UStAE",
-        "Themenpool: ust-modul-ust-244"
+        "§ 17 Abs. 2a EStG",
+        "§ 255 Abs. 1 HGB",
+        "§ 52 Abs. 25a EStG",
+        "§ 20 Abs. 2 Satz 1 Nr. 7 EStG",
+        "§ 20 Abs. 6 EStG",
+        "§ 32d Abs. 2 Nr. 1 b) EStG",
+        "§ 27 Abs. 1 KStG",
+        "§ 6 Abs. 1 Nr. 4 EStG",
+        "§ 17 Abs. 2 Satz 5 EStG",
+        "H 17 Abs. 5 EStH",
+        "Themenpool: est-aufb-est-ks2-17-04"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Kleinunternehmer seit 2025: 25.000 €, 100.000 € und Besonderheit im Gründungsjahr",
-      "falsch": "Im Gründungsjahr automatisch mit 100.000 € arbeiten.",
-      "richtigText": "25.000-€-Vorjahresgrenze kennen",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gut zwischen Betrieben: Buchwert oder Entnahme?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Bebautes Grundstück: Welche Art zuerst?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Aufwand verbucht: Muss er zum zvE hinzu?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+      "falsch": "Ein in der Krise stehen gelassenes Darlehen mit dem Nennwert ansetzen, obwohl nur der bei Kriseneintritt noch werthaltige Teil zu Anschaffungskosten führt.",
+      "richtigText": "Zu den Anschaffungskosten zählen der Kaufpreis oder die Bareinlage bei Gründung, Nebenkosten wie Notar- und Gutachterkosten sowie nachträgliche Anschaffungskosten, vor allem offene und verdeckte Einlagen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:22:20.390Z",
-    "pfad": "vorproduktion/2026-10-28/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

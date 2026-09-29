@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,17 +19,17 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-15",
-        "themaTitel": "Eigene Anteile",
-        "fach": "bilanz",
+        "themaId": "umwst-aufb-umw-2-48",
+        "themaTitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+        "fach": "umwst",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-377",
-        "themaTitel": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO",
+        "themaId": "ao-modul-ao-329",
+        "themaTitel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
         "fach": "ao",
         "klausur": 1
       },
@@ -43,9 +37,9 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-modul-kst-8",
-        "themaTitel": "Veräußerungsgewinne, Teilwertabschreibungen und Verluste",
-        "fach": "kst",
+        "themaId": "istr-modul-istr-istr1-08",
+        "themaTitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
+        "fach": "istr",
         "klausur": 2,
         "lang": false
       }
@@ -55,19 +49,13 @@
         "slot": "s4",
         "zeit": "07:04",
         "art": "frage",
-        "themaId": "ust-quiz-ust-2"
+        "themaId": "bilanz-quiz-k3-7"
       },
       {
         "slot": "s5",
         "zeit": "07:04",
         "art": "antwort",
-        "themaId": "ust-quiz-ust-2"
-      },
-      {
-        "slot": "s6",
-        "zeit": "11:53",
-        "art": "norm",
-        "themaId": "bilanz-modul-k3-3"
+        "themaId": "bilanz-quiz-k3-7"
       },
       {
         "slot": "s1",
@@ -77,10 +65,16 @@
         "status": "aus-beitrag-ableitbar"
       },
       {
+        "slot": "s6",
+        "zeit": "11:53",
+        "art": "norm",
+        "themaId": "ao-modul-ao-328"
+      },
+      {
         "slot": "s7",
         "zeit": "14:38",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr3-14"
+        "themaId": "erbst-aufb-erbst-t1-4"
       },
       {
         "slot": "s2",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "16:50",
         "art": "fehler",
-        "themaId": "ao-modul-ao-393"
+        "themaId": "erbst-aufb-erbst-v-19"
       },
       {
         "slot": "s9",
         "zeit": "19:13",
         "art": "tipp",
-        "themaId": "ao-modul-ao-385"
+        "themaId": "erbst-aufb-erbst-v-28"
       },
       {
         "slot": "s3",
@@ -113,25 +107,24 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-15",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-48",
       "slug": "2026-10-23-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Eigene Anteile: Wo steht der Nennbetrag?",
+          "titel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "hauptbuch"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Erwerb eigener Anteile bilanziell abbilden",
-            "Nennbetrag und Mehrbetrag trennen"
+            "Gelangen die sperrfristbehafteten Anteile ohne Gegenleistung in eine Kapitalgesellschaft, etwa per verdeckter Einlage, wird der Einbringungsgewinn I nach § 22 Abs. 1 Satz 6 Nr. 1 UmwStG ausgelöst.",
+            "Wer die Anteile einer natürlichen Person schenkt, verstößt nicht gegen die Sperrfrist; der Beschenkte tritt nach § 22 Abs. 6 UmwStG in sie ein."
           ]
         },
         {
@@ -140,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zulässigkeit des Erwerbs gesellschaftsrechtlich voraussetzen/untersuchen."
+              "text": "Den Vorgang mit den sperrfristbehafteten Anteilen genau bestimmen: entgeltlich, unentgeltlich, Weitereinbringung oder sonstige Umwandlung."
             },
             {
               "titel": "2. Schritt",
-              "text": "Rechnerischen Nennbetrag offen absetzen."
+              "text": "Bei Unentgeltlichkeit den Empfänger untersuchen: Kapitalgesellschaft schädlich, natürliche Person Rechtsnachfolge."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "Erworbene eigene Anteile werden nach § 272 Abs. 1a HGB mit ihrem Nennbetrag offen vom gezeichneten Kapital abgesetzt."
+          "titel": "Merksatz",
+          "text": "Bei Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -168,66 +161,68 @@
           ]
         }
       ],
-      "caption": "Eigene Anteile: Wo steht der Nennbetrag? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Eigene Anteile: Wo steht der Nennbetrag?",
+      "kurztitel": "Welche Vorgänge stehen einer schädlichen…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 272 Abs. 1a S. 1 HGB",
-        "§ 272 Abs. 1a S. 2, 3 HGB",
-        "§ 272 Abs. 1b HGB",
-        "§ 266 Abs. 3 A. I HGB",
-        "§ 272 Abs. 1a und 1b HGB",
-        "Themenpool: bilanz-modul-k3-15"
+        "§ 22 Abs. 1 UmwStG",
+        "§ 23 Abs. 2 UmwStG",
+        "§ 21 UmwStG",
+        "§ 16 EStG",
+        "§ 13 Abs. 2 UmwStG",
+        "§ 17 Abs. 4 EStG",
+        "§ 20 UmwStG",
+        "§ 22 Abs. 2 UmwStG",
+        "§ 11 Abs. 2 UmwStG",
+        "Themenpool: umwst-aufb-umw-2-48"
       ],
       "coverRegie": {
-        "thema": "Eigene Anteile",
+        "thema": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b1-bilanz-modul-k3-15-cover.png",
+        "bilddatei": "2026-10-23-b1-umwst-aufb-umw-2-48-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-377",
+      "themaId": "ao-modul-ao-329",
       "slug": "2026-10-23-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
+          "titel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
+          "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "§ 129, § 130 und § 131 als drei Grundäste unterscheiden",
-            "rechtswidrig/rechtmäßig am Erlasszeitpunkt beurteilen"
+            "Beginn der Festsetzungsfrist bestimmen",
+            "Erklärungspflicht als Weichenstellung erkennen"
           ]
         },
         {
@@ -236,18 +231,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Korrektur sonstiger VA: zuerst § 129 AO als Fehlerkorrektur untersuchen."
+              "text": "Steueranspruch/Steuerentstehung bestimmen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ist der VA rechtswidrig: § 130 AO (Rücknahme)."
+              "text": "untersuchen, ob eine Steuererklärung einzureichen ist."
             }
           ]
         },
         {
           "art": "merke",
-          "titel": "Die Antwort",
-          "text": "War der sonstige Verwaltungsakt schon bei Erlass rechtswidrig, prüfe § 130 AO. Für den rechtmäßigen Akt ist § 131 AO einschlägig."
+          "titel": "Merksatz",
+          "text": "Bei Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -264,98 +259,99 @@
           ]
         }
       ],
-      "caption": "Sonstiger VA falsch: Rücknahme oder Widerruf? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
+      "kurztitel": "Festsetzungsfrist: Beginn nach § 170 AO und…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 129 AO",
-        "§ 130 AO",
-        "§ 131 AO",
-        "§§ 129, 130 und 131 AO",
-        "Themenpool: ao-modul-ao-377"
+        "§ 170 AO",
+        "§ 38 AO",
+        "§ 149 AO",
+        "§ 25 Abs. 3 EStG",
+        "§ 56 EStDV",
+        "§ 18 UStG",
+        "Themenpool: ao-modul-ao-329"
       ],
       "coverRegie": {
-        "thema": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO",
+        "thema": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b2-ao-modul-ao-377-cover.png",
+        "bilddatei": "2026-10-23-b2-ao-modul-ao-329-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "kst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-modul-kst-8",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr1-08",
       "slug": "2026-10-23-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
-          "unter": "Körperschaftsteuer",
-          "text": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
-          "norm": "§ 8b Abs. 2 S. 1–3 KStG",
-          "icon": "hauptbuch",
-          "sprecher": "Anteil mit Verlust verkauft: Was korrigiert § 8b? Hier sind die zwei entscheidenden Prüfschritte.",
+          "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
+          "unter": "Internationales Steuerrecht",
+          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "norm": "§ 1 Abs. 4 EStG",
+          "icon": null,
+          "sprecher": "Heute geht es um Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Anteil mit Verlust verkauft: Was korrigiert § 8b"
+            "§ 1 Abs."
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Veräußerungspreis, Buchwert und Veräußerungskosten bestimmen.",
+          "titel": "E – Einkunftsart nach §§ 13–24 EStG bestimmen.",
           "text": null,
-          "norm": "§ 8b Abs. 2 S. 1–3 KStG",
+          "norm": "§ 1 Abs. 4 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Veräußerungspreis, Buchwert und Veräußerungskosten bestimmen.",
+          "sprecher": "Schritt 1: E – Einkunftsart nach §§ 13–24 EStG bestimmen.",
           "marken": [
-            "Veräußerungspreis, Buchwert und Veräußerungskost"
+            "Prüfpunkt 1"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Gesellschaftliche Veranlassung des Preises untersuchen.",
+          "titel": "I – inländische Einkünfte: passende Nummer des § 49 Abs. 1 EStG und deren Inlandsmerkmal untersuchen.",
           "text": null,
-          "norm": "§ 8b Abs. 3 S. 1, 3–7 KStG",
+          "norm": "§ 49 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Gesellschaftliche Veranlassung des Preises untersuchen.",
+          "sprecher": "Schritt 2: Prüfe § 49 Abs. 1 EStG im Zusammenhang mit Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode.",
           "marken": [
-            "Gesellschaftliche Veranlassung des Preises unter"
+            "Prüfpunkt 2"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
-          "titel": "Die Antwort",
-          "text": "Die Gewinnminderung aus einem erfassten Anteil bleibt nach § 8b Abs. 3 KStG grundsätzlich außer Ansatz; prüfe die Sonderfälle der Norm.",
-          "sprecher": "Die Gewinnminderung aus einem erfassten Anteil bleibt nach § 8b Abs. 3 KStG grundsätzlich außer Ansatz; prüfe die Sonderfälle der Norm.",
+          "titel": "Merksatz",
+          "text": "Bei Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode: Voraussetzungen vor Ergebnis.",
+          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
-            "Die Antwort"
+            "Merksatz"
           ]
         },
         {
@@ -371,320 +367,218 @@
           ]
         }
       ],
-      "caption": "Anteil mit Verlust verkauft: Was korrigiert § 8b? Zwei Prüfungsschritte und die entscheidende Fehlerquelle im Karussell oder Reel.",
+      "caption": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
+      "kurztitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
       "coverBadge": "Reel",
-      "coverBildAuslassen": false,
+      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8b Abs. 2 S. 1–3 KStG",
-        "§ 8b Abs. 3 S. 1, 3–7 KStG",
-        "§ 8 Abs. 3 S. 2, 3 KStG",
-        "§ 8b Abs. 2, 3 KStG",
-        "Themenpool: kst-modul-kst-8"
+        "§ 1 Abs. 4 EStG",
+        "§ 49 Abs. 1 EStG",
+        "§ 50 EStG",
+        "§ 50a EStG",
+        "§ 49 EStG",
+        "Themenpool: istr-modul-istr-istr1-08"
       ],
       "coverRegie": {
-        "thema": "Veräußerungsgewinne, Teilwertabschreibungen und Verluste",
+        "thema": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b3-kst-modul-kst-8-cover.png",
+        "bilddatei": "2026-10-23-b3-istr-modul-istr-istr1-08-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true,
-      "icon": "hauptbuch"
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-2",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-7",
       "quellen": [
-        "Themenpool: ust-quiz-ust-2"
+        "Themenpool: bilanz-quiz-k3-7"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "titel": "3 UStG?",
-      "frage": "3 UStG?",
-      "liveVorrangAktiv": true,
+      "frage": "Welche Norm verbietet die Drohverlustrückstellung in der Steuerbilanz?",
+      "titel": "Welche Norm verbietet die Drohverlustrückstellung in der Steuerbilanz?",
       "optionen": [
-        "10.000 €",
-        "12.500 €",
-        "17.500 €"
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 5 Abs. 2 EStG"
       ],
-      "richtig": 1
+      "richtig": 0
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-2",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "pairId": "bilanz-quiz-k3-7",
       "quellen": [
-        "Themenpool: ust-quiz-ust-2"
+        "Themenpool: bilanz-quiz-k3-7"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "12.500 €",
-      "text": "Richtig ist: 12.500 €.",
-      "liveVorrangAktiv": true,
+      "titel": "§ 5 Abs. 4a S. 1 EStG",
       "optionen": [
-        "10.000 €",
-        "12.500 €",
-        "17.500 €"
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 5 Abs. 2 EStG"
       ],
-      "richtig": 1
+      "richtig": 0,
+      "text": "§ 5 Abs. 4a S. 1 EStG enthält das steuerliche Ansatzverbot."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-modul-k3-3",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-328",
       "quellen": [
-        "§ 255 Abs. 1 S. 1 HGB",
-        "§ 255 Abs. 1 S. 3 HGB",
-        "§ 255 Abs. 2 S. 1, 2 HGB",
-        "§ 255 Abs. 2 S. 3, 4 HGB",
-        "§ 6 Abs. 1 Nr. 1, 2 EStG",
-        "R 6.3 EStR",
-        "§ 9b Abs. 1 EStG",
-        "§ 255 HGB",
-        "§ 6 EStG",
-        "R 6.2 EStR",
-        "Themenpool: bilanz-modul-k3-3"
+        "§§ 169–171 AO",
+        "§§ 172–177 AO",
+        "Themenpool: ao-modul-ao-328"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 255 Abs. 1 S. 1 HGB",
-      "titel": "Anschaffungs- und Herstellungskosten",
-      "text": "AK- und HK-Fälle sicher trennen Nebenkosten, Rabatte und Vorsteuer korrekt behandeln",
-      "liveVorrangAktiv": true
+      "norm": "§§ 169–171 AO",
+      "titel": "Plan B und Korrekturformel: Fehler, Korrekturvorschrift, Festsetzungsfrist und Schlüssel-Schrank-Schema",
+      "text": "Fehler und passende Korrekturvorschrift paarweise zuweisen Festsetzungsfrist als zusätzliche Grenze untersuchen"
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr3-14",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-aufb-erbst-t1-4",
       "quellen": [
-        "§ 12 Abs. 1 KStG",
-        "§ 4g EStG",
-        "Themenpool: istr-modul-istr-istr3-14"
+        "§ 7 Abs. 1 ErbStG",
+        "§ 516 BGB",
+        "§ 10 Abs. 6 ErbStG",
+        "§ 1 Abs. 1 ErbStG",
+        "§ 10 Abs. 1 ErbStG",
+        "§ 12 ErbStG",
+        "§ 13 BewG",
+        "Themenpool: erbst-aufb-erbst-t1-4"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Entstrickung bei Kapitalgesellschaften: § 12 KStG",
-      "text": "1. Kapitalgesellschaft und Wirtschaftsgut mit bisherigem deutschem Besteuerungsrecht feststellen.",
-      "liveVorrangAktiv": true
+      "titel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+      "text": "Vermögensverschiebung vom Zuwendenden zum Empfänger und dessen Bereicherung feststellen."
     },
     "s8": {
       "slot": "s8",
       "art": "fehler",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-393",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-aufb-erbst-v-19",
       "quellen": [
-        "§ 74 AO",
-        "§ 191 AO",
-        "§ 74 Abs. 1 und 2 AO",
-        "BFH 06.08.2024 – VII R 25/21",
-        "Themenpool: ao-modul-ao-393"
+        "§ 13a Abs. 3 Satz 1 ErbStG",
+        "§ 13a Abs. 3 Satz 3 Nr. 1 und 2 ErbStG",
+        "§ 13a Abs. 3 Satz 5 ErbStG",
+        "§ 13a Abs. 3 Sätze 6 bis 13 ErbStG",
+        "§ 13a Abs. 3 Satz 7 Nr. 2 und 5 ErbStG",
+        "§ 13a Abs. 3 Satz 9 ErbStG",
+        "§ 13a Abs. 3 Sätze 11 und 12 ErbStG",
+        "§ 13a Abs. 4 ErbStG",
+        "§ 175 Abs. 1 Nr. 2 AO",
+        "R E 13a.7 Abs. 1 Satz 6 ErbStR",
+        "Themenpool: erbst-aufb-erbst-v-19"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Haftung des Eigentümers von Gegenständen nach § 74 AO",
-      "falsch": "Jeden Vermieter eines betrieblich genutzten Gegenstands automatisch haften lassen.",
-      "richtigText": "Eigentum eines vom Unternehmen verschiedenen wesentlich Beteiligten feststellen",
-      "liveVorrangAktiv": true
+      "titel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
+      "falsch": "Die Kürzung wird in Prozentpunkten statt im Verhältnis zur Mindestlohnsumme berechnet.",
+      "richtigText": "Bei Regelverschonung müssen die Lohnsummen der fünf Jahre nach dem Erwerb zusammen mindestens 400 % der Ausgangslohnsumme erreichen."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-385",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "pairId": "erbst-aufb-erbst-v-28",
       "quellen": [
-        "§ 370 Abs. 1 Nr. 1 AO",
-        "§ 370 Abs. 1 Nr. 2 AO",
-        "§ 370 Abs. 4 S. 1 AO",
-        "§ 370 Abs. 4 S. 2 AO",
-        "§ 370 Abs. 4 S. 3 AO",
-        "§ 370 Abs. 1 Nr. 1 und Nr. 2 AO",
-        "§ 370 Abs. 4 S. 1–3 AO",
-        "AEAO zu § 235",
-        "Themenpool: ao-modul-ao-385"
+        "§ 19 Abs. 1 ErbStG",
+        "§ 19 Abs. 3 ErbStG",
+        "H E 19 ErbStH",
+        "Themenpool: erbst-aufb-erbst-v-28"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Steuerhinterziehung § 370 AO: objektiver Tatbestand und Taterfolg",
-      "text": "1. Tathandlung: § 370 Abs. 1 Nr. 1 oder Nr. 2 AO.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Eigene Anteile: Wo steht der Nennbetrag?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Sonstiger VA falsch: Rücknahme oder Widerruf?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Anteil mit Verlust verkauft: Was korrigiert § 8b?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0
+      "titel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
+      "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-26T02:21:55.955Z",
-    "pfad": "vorproduktion/2026-10-23/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "wartetLive": [],
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "statischerLayoutBackfill": true,
-    "herrjuristSpiegelBackfill": true,
-    "quizPaareMitAuswahl": 1
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }
