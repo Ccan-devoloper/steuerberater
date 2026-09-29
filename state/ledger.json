@@ -5635,19 +5635,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 43,
+        "reach": 49,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
-        "views": 68,
-        "ig_reels_avg_watch_time": 17650,
-        "ig_reels_video_view_total_time": 900164,
-        "reels_skip_rate": 50
+        "views": 78,
+        "ig_reels_avg_watch_time": 17668,
+        "ig_reels_video_view_total_time": 1077779,
+        "reels_skip_rate": 51.9
       },
-      "insightsStand": "2026-09-29T09:44:52.055Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-09-29T18:43:35.420Z",
+      "insightsAlterStunden": 32
     },
     {
       "datum": "2026-09-28",
@@ -6080,7 +6080,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 25,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 40,
+        "ig_reels_avg_watch_time": 11226,
+        "ig_reels_video_view_total_time": 291878,
+        "reels_skip_rate": 64
+      },
+      "insightsStand": "2026-09-29T18:43:35.420Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-09-29",
@@ -6092,7 +6106,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "istr",
-      "titel": "Wohnsitz im Ausland: Wer darf besteuern?"
+      "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+      "insights": {
+        "reach": 12,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 11,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-09-29T18:43:33.471Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-09-29",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-29T17:44:11.560Z",
+  "stand": "2026-09-29T18:43:37.824Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6991,6 +6991,20 @@
           "ig_reels_avg_watch_time": 17650,
           "ig_reels_video_view_total_time": 900164,
           "reels_skip_rate": 50
+        },
+        {
+          "stand": "2026-09-29T18:43:35.420Z",
+          "alterStunden": 32,
+          "reach": 49,
+          "saved": 2,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 78,
+          "ig_reels_avg_watch_time": 17668,
+          "ig_reels_video_view_total_time": 1077779,
+          "reels_skip_rate": 51.9
         }
       ]
     },
@@ -7959,6 +7973,60 @@
           "navigation_tap_exit": 4
         }
       ]
+    },
+    "18118153123757990": {
+      "art": "story",
+      "datum": "2026-09-29",
+      "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T17:02:47.447Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T18:43:33.471Z",
+          "alterStunden": 1.7,
+          "reach": 12,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 11,
+          "navigation_tap_back": 3
+        }
+      ]
+    },
+    "17911593519532906": {
+      "art": "beitrag",
+      "datum": "2026-09-29",
+      "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+      "format": "reel",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T17:02:35.458Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T18:43:35.420Z",
+          "alterStunden": 1.7,
+          "reach": 25,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 40,
+          "ig_reels_avg_watch_time": 11226,
+          "ig_reels_video_view_total_time": 291878,
+          "reels_skip_rate": 64
+        }
+      ]
     }
   },
   "konto": [
@@ -8439,6 +8507,11 @@
     },
     {
       "stand": "2026-09-29T17:44:11.560Z",
+      "follower": 88,
+      "medien": 71
+    },
+    {
+      "stand": "2026-09-29T18:43:37.824Z",
       "follower": 88,
       "medien": 71
     }
