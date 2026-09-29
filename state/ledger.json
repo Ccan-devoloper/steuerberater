@@ -5065,19 +5065,19 @@
         "#kopfsache"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 45,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 56,
-        "ig_reels_avg_watch_time": 13056,
-        "ig_reels_video_view_total_time": 587564,
-        "reels_skip_rate": 48.7
+        "views": 66,
+        "ig_reels_avg_watch_time": 13870,
+        "ig_reels_video_view_total_time": 735110,
+        "reels_skip_rate": 42.6
       },
-      "insightsStand": "2026-09-29T00:32:36.218Z",
-      "insightsAlterStunden": 62.3
+      "insightsStand": "2026-09-29T08:45:00.357Z",
+      "insightsAlterStunden": 70.5
     },
     {
       "datum": "2026-09-26",
@@ -5160,7 +5160,7 @@
         "#wochenrückblick"
       ],
       "insights": {
-        "reach": 33,
+        "reach": 37,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5169,8 +5169,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T00:32:36.218Z",
-      "insightsAlterStunden": 42.8
+      "insightsStand": "2026-09-29T08:45:00.357Z",
+      "insightsAlterStunden": 51
     },
     {
       "datum": "2026-09-27",
@@ -5597,21 +5597,21 @@
       "fach": "kst",
       "titel": "Gesellschafterdarlehen und Zinsvorteile",
       "insights": {
-        "reach": 23,
-        "views": 28,
+        "reach": 27,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 26,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 21,
-        "navigation_tap_back": 3
+        "navigation": 31,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 24,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-29T05:45:27.285Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-09-29T08:44:57.159Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-28",
@@ -5661,22 +5661,22 @@
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
       "insights": {
-        "reach": 23,
-        "views": 29,
+        "reach": 26,
+        "views": 36,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_back": 2,
+        "navigation": 34,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 25,
         "navigation_tap_exit": 5,
-        "navigation_tap_forward": 19,
-        "navigation_swipe_forward": 1
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-29T05:45:27.285Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-09-29T08:44:57.159Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-28",
@@ -5690,22 +5690,22 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 20,
-        "views": 28,
+        "reach": 24,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 19,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 4
+        "navigation": 36,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 26,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-29T05:45:27.285Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-09-29T08:44:57.159Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-28",
@@ -5816,17 +5816,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 6,
-        "saved": 0,
+        "reach": 21,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T06:44:00.482Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-29T08:45:00.357Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-09-29",
