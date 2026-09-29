@@ -5635,19 +5635,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 36,
+        "reach": 43,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
-        "views": 59,
-        "ig_reels_avg_watch_time": 14883,
-        "ig_reels_video_view_total_time": 654884,
-        "reels_skip_rate": 53.8
+        "views": 68,
+        "ig_reels_avg_watch_time": 17650,
+        "ig_reels_video_view_total_time": 900164,
+        "reels_skip_rate": 50
       },
-      "insightsStand": "2026-09-29T05:45:35.275Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-09-29T09:44:52.055Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-28",
@@ -5719,22 +5719,22 @@
       "fach": "persg",
       "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen",
       "insights": {
-        "reach": 20,
-        "views": 29,
+        "reach": 25,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
+        "navigation": 34,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 15,
-        "navigation_tap_back": 3,
+        "navigation_tap_forward": 22,
+        "navigation_tap_back": 6,
         "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-29T05:45:27.285Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-09-29T09:44:50.513Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-28",
@@ -5930,7 +5930,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 9,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-09-29T09:44:52.055Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-29",

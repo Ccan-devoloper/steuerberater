@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-29T08:45:01.777Z",
+  "stand": "2026-09-29T09:44:53.604Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6939,6 +6939,20 @@
           "ig_reels_avg_watch_time": 14883,
           "ig_reels_video_view_total_time": 654884,
           "reels_skip_rate": 53.8
+        },
+        {
+          "stand": "2026-09-29T09:44:52.055Z",
+          "alterStunden": 23,
+          "reach": 43,
+          "saved": 2,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 68,
+          "ig_reels_avg_watch_time": 17650,
+          "ig_reels_video_view_total_time": 900164,
+          "reels_skip_rate": 50
         }
       ]
     },
@@ -7205,6 +7219,23 @@
           "navigation_tap_forward": 15,
           "navigation_tap_back": 3,
           "navigation_tap_exit": 5
+        },
+        {
+          "stand": "2026-09-29T09:44:50.513Z",
+          "alterStunden": 20,
+          "reach": 25,
+          "views": 40,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 34,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 22,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 5
         }
       ]
     },
@@ -7448,6 +7479,30 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "17884860804686301": {
+      "art": "beitrag",
+      "datum": "2026-09-29",
+      "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+      "format": "spickzettel",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T08:44:43.955Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T09:44:52.055Z",
+          "alterStunden": 1,
+          "reach": 9,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -7885,6 +7940,11 @@
     },
     {
       "stand": "2026-09-29T08:45:01.777Z",
+      "follower": 85,
+      "medien": 70
+    },
+    {
+      "stand": "2026-09-29T09:44:53.604Z",
       "follower": 85,
       "medien": 70
     }
