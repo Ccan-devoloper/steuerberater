@@ -55,7 +55,7 @@ try {
   assert.ok(html.includes('data-endriss-source="ao-notfallbuch"'));
   assert.ok(html.includes('Notfallbuch AO/FGO'));
   assert.ok(html.includes('Keine Rechtsstandsprüfung'));
-  assert.equal((html.match(/<table\\b/g)||[]).length, 3);
+  assert.equal((html.match(/<table\b/g)||[]).length, 3);
 } finally {
   fs.rmSync(temporary,{recursive:true,force:true});
 }
