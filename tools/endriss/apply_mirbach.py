@@ -56,6 +56,9 @@ export default erbstFallsammlungMirbach;''')
     text = replace_once(text,
         'sammeln([kapitel.title, kapitel.thema, kapitel.normen, kapitel.themen, kapitel.bloecke]);',
         'sammeln([kapitel.title, kapitel.thema, kapitel.normen, kapitel.themen, kapitel.bloecke, kapitel.loesungen]);')
+    if 'kapitel.loesungen || []).map' in text:
+        path.write_text(text, encoding='utf-8')
+        return
     text = replace_once(text, '''        <small>Quelle: {kapitel.quelle}</small>
       </section>
     </article>''', '''        <small>Quelle: {kapitel.quelle}</small>
