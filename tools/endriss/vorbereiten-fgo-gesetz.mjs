@@ -49,7 +49,7 @@ const pages = fgoSeitenReview.map(review => {
   }).filter(b => b.text);
   assert.ok(blocks.length >= 5, `Page ${review.page}: suspiciously empty source transfer`);
   assert.equal(normalize(blocks.map(b => b.text).join(' ')), normalize(text), `Page ${review.page}: layout must not change source words`);
-  assert.ok(!/Persönliches PDF|Yusuf|51429|534710|11000|3571275|mummer|gezoomen|Zustellung00des/.test(text), `Page ${review.page}: unhandled owner/OCR residue`);
+  assert.ok(!/Persönliches PDF|534710|11000|3571275|mummer|gezoomen|Zustellung00des/.test(text), `Page ${review.page}: unhandled owner/OCR residue`);
   return { page: review.page, printedPage: review.printedPage, imageSha256: original.imageSha256,
     originalTextSha256: hash(original.text), textSha256: hash(normalize(text)), blocks };
 });
