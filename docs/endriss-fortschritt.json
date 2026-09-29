@@ -1,9 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T20:07:48Z",
+  "updatedAt": "2026-09-29T20:08:20Z",
+  "timestampBasis": "Latest confirmed deployment completion; the checkpoint commit records its save time.",
   "repository": "Ccan-devoloper/steuerberater",
   "workingBranch": "codex/endriss-restbestaende-2026-09-29",
-  "lastObservedWorkCommit": "d44190c8481cdc047087b7adbf6d4618c7a30837",
+  "lastObservedWorkCommit": "12741a0b81a68eaf7f0df546777cd287deffbe06",
   "lastObservedMainCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
   "legalReview": false,
   "complete": false,
@@ -25,8 +26,8 @@
     "requested15MinuteChatIntervalSupported": false,
     "lastObservedScheduledRun": null,
     "nextSteps": [
-      "Read current refs and this checkpoint. PR 256 is already merged into main at 72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd. Do not redo its UI wiring or recreate its PR.",
-      "Deployment step actions/deploy-pages@v4 succeeded in run 36623930257 at 20:07:42 UTC. At the last observation the workflow was only finalizing its status commit. Confirm the final run result and .github/deploy-last.json, without redeploying or reimporting unnecessarily.",
+      "Read current refs and this checkpoint. PR 256 is already merged and successfully deployed at 72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd. Do not redo its UI wiring, recreate its PR, or redeploy the same package unnecessarily.",
+      "Deployment run 36623930257 finished successfully, including status commit. .github/deploy-last.json was read back with deployed_sha 72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd and status success. Both the build and deploy jobs passed.",
       "The user expressly approved retaining the existing original inventory and deferring its separate revision. Do not turn that deferred work into a new blocker or delete/separate these assets without a later instruction.",
       "Restore and commit a page-specific comparison for persg-folien-2 against persg-folien-1; prior chat claims were not committed. Retrieve sources or preserved evidence and verify before registering equivalence. Different prepared hashes alone prove neither semantic identity nor difference.",
       "Complete native registration, tests and UI evidence for the next bounded source package, then proceed with AO/FGO, Fact Sheets, ErbSt 4/5, KSt mappings and remaining notes/archives. Preserve the exact last reviewed page and uncertain text. Do not substitute more metadata work for content implementation.",
@@ -47,7 +48,7 @@
     },
     {
       "id": "native-handwritten-and-horst-ui",
-      "state": "merged-and-pages-deployment-step-succeeded; workflow-finalization-to-confirm",
+      "state": "merged-and-deployed",
       "nativeData": ["src/data/endriss-handschriften.js", "src/data/endriss-persg-horst-folien.js", "src/data/endriss-native-register.js"],
       "sourceIds": ["istr-hinzurechnung", "lst-mitschrift", "lst-korrektur", "persg-folien-1"],
       "scope": "IStR 4 pages; Lohnsteuer 24 pages plus 1 correction page; Horst Folien Fassung 1 has 16 physical PDF pages. Total 45 source pages, not a whole-campus completion measure.",
@@ -91,22 +92,26 @@
         "buildJob": 109595959250,
         "buildConclusion": "success",
         "deployJob": 109596438568,
+        "deployJobConclusion": "success",
+        "deployJobCompletedAt": "2026-09-29T20:08:20Z",
         "pagesStep": "actions/deploy-pages@v4",
         "pagesStepConclusion": "success",
         "pagesStepCompletedAt": "2026-09-29T20:07:42Z",
-        "workflowConclusion": "not-yet-confirmed",
-        "pending": "Final repository status commit and workflow completion",
+        "pending": null,
         "deployedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
-        "statusFile": ".github/deploy-last.json"
+        "statusFile": ".github/deploy-last.json",
+        "statusFileReadBack": {"deployed_sha": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd", "status": "success", "page_url": "https://ccan-devoloper.github.io/steuerberater/", "blobSha": "471f4860d0e1a6823900973252e38d3db810ed8e"},
+        "liveBrowserVisitInThisMergeRun": false
       },
-      "mainValidation": {"run": 36623930276, "statusFile": ".github/validation-last.json", "validatedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd", "recordedBuildAndContentChecks": "success", "wholeWorkflowConclusion": "not-yet-confirmed"}
+      "mainValidation": {"run": 36623930276, "statusFile": ".github/validation-last.json", "validatedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd", "recordedBuildAndContentChecks": "success", "wholeWorkflowConclusion": "not-separately-refetched"}
     }
   ],
   "technicalJobs": [
     {"runId": 36616059906, "jobId": 109572010195, "type": "original-page-publisher", "lastObservedState": "completed", "conclusion": "success", "confirmedSteps": ["source image publication", "Horst version comparison", "production build", "ESt/Mirbach checks", "safe commit/rebase and validation"], "report": "docs/endriss-originalbestand.json", "note": "Outputs included in PR 256; this is not a native-completeness assertion."},
     {"runId": 36620664115, "jobId": 109584926870, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "failure", "artifactId": 11058003475, "note": "Historical failure retained; superseded by successful corrected run 36621003284."},
     {"runId": 36621003284, "jobId": 109586091024, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "success"},
-    {"runId": 36623661522, "type": "pull-request-validation", "lastObservedState": "completed", "conclusion": "success"}
+    {"runId": 36623661522, "type": "pull-request-validation", "lastObservedState": "completed", "conclusion": "success"},
+    {"runId": 36623930257, "jobId": 109596438568, "type": "pages-deployment", "lastObservedState": "completed", "conclusion": "success", "note": "Build, actual Pages deployment and final repository status commit succeeded; matching deployed SHA read back."}
   ],
   "remainingSourceGroups": [
     {"ids": ["kst-e1", "kst-e2", "kst-e3", "kst-e4", "kst-e5", "kst-e6", "kst-e7"], "state": "source-to-existing-content-audit-open", "note": "Existing KSt learning modules must be checked before assuming all seven sources are absent."},
@@ -130,7 +135,7 @@
   },
   "environment": {
     "observedLocalExecutionError": "container.exec again returned ClientError in this interactive merge run.",
-    "connectedWrites": "PR creation, PR merge, non-force working-branch fast-forward and documentation update succeeded in this run. Prior scheduled write failures do not establish a current general write outage.",
+    "connectedWrites": "PR creation, PR merge, non-force working-branch fast-forward and documentation updates succeeded in this run. Prior scheduled write failures do not establish a current general write outage.",
     "fallback": "Use connected GitHub file actions and actual GitHub Actions results; do not assert unexecuted local tests."
   }
 }
