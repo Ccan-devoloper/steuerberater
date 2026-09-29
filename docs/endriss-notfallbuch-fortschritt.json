@@ -1,6 +1,7 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-09-29T21:14:00Z",
+  "schemaVersion": 2,
+  "updatedAt": "2026-09-29T21:32:55Z",
+  "timestampBasis": "Observation after reading PR259 merge and successful deployment records; checkpoint commit gives its save time.",
   "package": "ao-notfallbuch",
   "sourceId": "ao-notfallbuch",
   "driveId": "1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy",
@@ -8,64 +9,30 @@
   "sourceBytes": 668115,
   "physicalPages": 1,
   "sourceManifestSha256": "17d69e14bb3c34f1a12be53912abbc5a9019ddcfff97186828200dd7d6fa0b55",
+  "historicalCheckpoint":{"commit":"d63a33a33744045c685af608a31aae9324d825e1","path":"docs/endriss-notfallbuch-fortschritt.json","blobSha":"25233906b0e3d595b293b05376ccc9a43175fa42","contents":"Full prior source-mapping and test evidence. Its pending merge/deployment fields are superseded by verified release data below."},
   "legalReview": false,
-  "readMethod": "Single PDF page directly visually reviewed; readable register tabs, FGO marginal list and both enforcement chains transcribed/mapped. Small or obscured tabs explicitly left unread rather than guessed.",
-  "reviewedPages": [
-    1
-  ],
-  "mappedCampusTargets": [
-    "ao-schema-handbuch",
-    "ao-schema-vollstreckung",
-    "ao-schema-fgo",
-    "ao-schema-haftung",
-    "ao-schema-69",
-    "ao-schema-71",
-    "ao-schema-74"
-  ],
-  "duplicateHandling": "Existing AO/FGO schemas remain canonical learning content; the source view records the Notfallbuch's readable markers and exact ordering instead of duplicating independent legal explanations.",
-  "files": [
-    "src/data/endriss-ao-notfallbuch.js",
-    "src/data/endriss-native-register.js",
-    "tools/pruefen-endriss-native.mjs",
-    "tools/pruefen-endriss-notfallbuch.mjs",
-    ".github/workflows/endriss-restbestaende.yml"
-  ],
+  "readMethod": "Single original PDF page directly visually reviewed, including an independent page-image read during the FGO continuation. Readable register tabs, FGO marginal list and both enforcement chains are transferred/mapped. Small or obscured side tabs remain explicitly untranscribed, not guessed.",
+  "reviewedPages": [1],
+  "mappedCampusTargets": ["ao-schema-handbuch","ao-schema-vollstreckung","ao-schema-fgo","ao-schema-haftung","ao-schema-69","ao-schema-71","ao-schema-74"],
+  "duplicateHandling": "Existing AO/FGO schemas remain canonical; the source view records the readable Notfallbuch markers and ordering without a separately maintained duplicate legal explanation.",
+  "files": ["src/data/endriss-ao-notfallbuch.js","src/data/endriss-native-register.js","tools/pruefen-endriss-native.mjs","tools/pruefen-endriss-notfallbuch.mjs",".github/workflows/endriss-restbestaende.yml"],
   "testedWorkBranchHead": "8360470d985fa048bbae7cb2025a7f0932d8497c",
   "tests": {
-    "initialFailure": {
-      "run": 36631593534,
-      "job": 109621909577,
-      "cause": "Dedicated test used an over-escaped table regex and counted 0 instead of 3 rendered tables.",
-      "fixed": true
-    },
-    "restbestaende": {
-      "run": 36631728076,
-      "conclusion": "success",
-      "checks": [
-        "source access probe",
-        "native registry/rendering",
-        "Horst2 regression",
-        "dedicated AO/FGO Notfallbuch mapping",
-        "production build",
-        "source import checks"
-      ]
-    },
-    "browser": {
-      "run": 36631593569,
-      "conclusion": "success",
-      "checks": [
-        "production build/source checks",
-        "Chromium desktop/mobile navigation",
-        "native content",
-        "lazy original image load",
-        "viewport containment",
-        "return navigation"
-      ]
-    }
+    "initialFailure":{"run":36631593534,"job":109621909577,"cause":"Over-escaped table regex counted 0 instead of 3 rendered tables.","fixed":true},
+    "restbestaende":{"run":36631728076,"conclusion":"success","checks":["native registry/rendering","Horst2 regression","dedicated Notfallbuch mapping","production build","source import checks"]},
+    "browser":{"run":36631593569,"conclusion":"success","checks":["Chromium desktop/mobile navigation","native content","lazy original image","viewport containment","return navigation"]},
+    "combinedFgoRegression":{"head":"5f0d4852f0d7f4a63917da2c3522b98c8af5af7c","run":36633434379,"conclusion":"success","scope":"Preserved Notfallbuch source and dedicated test, native registry plus complete source browser navigation alongside FGO."}
   },
-  "isolation": "Release branch created fresh from main; active leased FGO pages 2–37 work from the shared branch is intentionally excluded.",
-  "merged": false,
-  "deployed": false,
+  "isolation": "PR259 released Notfallbuch from a separate branch without the then-leased FGO pages2–37. PR260 later retained those released source/test blobs unchanged while adding the complete FGO source.",
+  "state": "readable-content-merged-and-deployed; small-or-obscured-tabs-open",
+  "pullRequest": 259,
+  "merged": true,
+  "mergedAt": "2026-09-29T21:17:55Z",
+  "mergeCommit": "422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e",
+  "deployed": true,
+  "deployment":{"deployedCommit":"422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e","status":"success","statusFile":".github/deploy-last.json","readBackAtCommit":"d63a33a33744045c685af608a31aae9324d825e1","subsequentConfirmedDeployment":"5b775a2715b29c2f3cc8e03f5deefc56ee21fc78"},
   "complete": false,
-  "next": "Open bounded pull request to main. Merge only after PR validation succeeds; then verify main SHA and GitHub Pages deployment readback before marking B3 complete."
+  "countsAsCompletedSourceGroup": false,
+  "completionBoundary": "The readable-content package is released, but this strict checklist does not certify all tiny/covered side-tab captions as transcribed. Native registration and a successful build do not remove this residual source-reading gap.",
+  "next": "Do not recreate PR259 or retranscribe its existing content. Any further Notfallbuch work should target only the unresolved small/obscured side tabs against an actually readable original or a concrete existing-content mapping. Keep uncertainty explicit; do not infer unreadable captions. Continue other open source groups rather than replaying this release."
 }

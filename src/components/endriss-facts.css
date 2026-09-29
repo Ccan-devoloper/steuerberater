@@ -1,0 +1,13 @@
+/* Scoped to the native fact-sheet tables. Never squeeze technical words into
+   individual syllables to fit five source columns on a phone. */
+.endriss-facts-scroll { overflow-x: auto; max-width: 100%; margin: 0 0 1rem; border: 1px solid var(--linie, #ccd3dd); border-radius: .35rem; }
+.endriss-facts-scroll:focus-visible { outline: 3px solid #3568bb; outline-offset: 3px; }
+.endriss-facts-scroll .istr-fs-tabelle { width: 100%; min-width: 36rem; table-layout: auto; }
+.endriss-facts-scroll .istr-fs-tabelle th,
+.endriss-facts-scroll .istr-fs-tabelle td { padding: .5rem .75rem; vertical-align: top; white-space: normal; overflow-wrap: normal; word-break: normal; hyphens: manual; }
+.endriss-facts-scroll .istr-fs-tabelle th[scope="col"] { text-align: left; }
+.endriss-facts-scroll .endriss-facts-calculation { min-width: 56rem; table-layout: fixed; }
+.endriss-facts-scroll .endriss-facts-calculation th:first-child { width: 52%; }
+.endriss-facts-scroll .endriss-facts-calculation td { white-space: nowrap; }
+.endriss-facts-scroll .endriss-facts-calculation th:not(:first-child) { text-align: right; }
+@media print { .endriss-facts-scroll { overflow: visible; } .endriss-facts-scroll .istr-fs-tabelle { min-width: 0; font-size: .65rem; } }

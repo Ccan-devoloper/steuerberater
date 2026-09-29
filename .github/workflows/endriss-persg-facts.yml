@@ -1,0 +1,79 @@
+name: Endriss PersG Fact Sheets
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - src/data/endriss-*.js
+      - src/components/Endriss*.jsx
+      - src/components/K3PersGHausaufgaben.jsx
+      - src/components/endriss*.css
+      - tools/pruefen-endriss*.mjs
+      - .github/workflows/endriss-persg-facts.yml
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29]
+    paths:
+      - src/data/endriss-*.js
+      - src/components/Endriss*.jsx
+      - src/components/K3PersGHausaufgaben.jsx
+      - src/components/endriss*.css
+      - tools/pruefen-endriss*.mjs
+      - .github/workflows/endriss-persg-facts.yml
+permissions:
+  contents: read
+concurrency:
+  group: endriss-persg-facts-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            social/package-lock.json
+      - run: npm ci
+      - name: Production build and source regressions
+        run: |
+          npm run build
+          node tools/pruefen-endriss-nachtrag.mjs
+          node tools/pruefen-endriss-native.mjs
+          node tools/pruefen-endriss-horst2.mjs
+          node tools/pruefen-endriss-notfallbuch.mjs
+          node tools/pruefen-endriss-fgo-gesetz.mjs
+          node tools/pruefen-endriss-persg-facts.mjs --source-assets
+      - name: Locked browser dependency; no social production
+        run: npm ci --prefix social --ignore-scripts
+      - name: Chromium
+        working-directory: social
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Actual PersG navigation, module links and progress preservation
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p test-results/endriss-persg-facts
+          node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173 --strictPort > test-results/endriss-persg-facts/server.log 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:4173/ >/dev/null
+          node tools/pruefen-endriss-persg-facts.mjs --source-assets --browser
+          node tools/pruefen-endriss-persg-viewport.mjs
+          node tools/pruefen-endriss-browser.mjs
+      - name: Preserve evidence including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-persg-facts-evidence
+          path: |
+            test-results/endriss-persg-facts
+            test-results/endriss-browser
+          retention-days: 7
+          if-no-files-found: warn
