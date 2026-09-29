@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import Block from './EndrissQuellenBlock';
-import { combineEndrissSources, nativeFor } from '../data/endriss-native-register.js';
+import { combineEndrissSources, nativeFor, nativeCoverageFor } from '../data/endriss-native-register.js';
 
 const BASE = `${import.meta.env.BASE_URL}endriss/quellen/`;
 const FAECHER = { alle:'Alle Fächer', ao:'Abgabenordnung / FGO', ust:'Umsatzsteuer', erbst:'Erbschaftsteuer / Bewertung', kst:'Körperschaftsteuer', est:'Einkommensteuer / Lohnsteuer', gewst:'Gewerbesteuer', istr:'Internationales Steuerrecht', bilanz:'Bilanzierung', persg:'Personengesellschaften', umwstr:'Umwandlungssteuerrecht', quer:'Fachübergreifende Mitschriften / Markierungen' };
@@ -68,8 +68,9 @@ function OriginalQuellen({ quelle }) {
   </details>;
 }
 
-export function EndrissDokument({ quelle, zurueck }) {
+export function EndrissDokument({ quelle, zurueck, zurueckLabel = '← Zur Quellenübersicht', onModulOeffnen }) {
   const native = nativeFor(quelle.id);
+  const coverage = nativeCoverageFor(quelle.id);
   const sourcePages = sourcePageCount(quelle);
   const imagePages = imagePageCount(quelle);
   const jumpToChapter = event => {
@@ -80,12 +81,13 @@ export function EndrissDokument({ quelle, zurueck }) {
     chapter.querySelector('summary')?.focus({ preventScroll: true });
   };
   return <article data-endriss-source={quelle.id}>
-    <button type="button" onClick={zurueck}>← Zur Quellenübersicht</button>
+    <button type="button" onClick={zurueck}>{zurueckLabel}</button>
     <header className="pagehead"><div><span className="kicker">{FAECHER[quelle.fach] || quelle.fach}</span><h1>{quelle.title}</h1><p>{sourcePages === null ? 'Quellenumfang siehe Originaldatei' : `${sourcePages} PDF-Seiten in der Quelle`} · {native.length} aufbereitete Textabschnitte{imagePages === null ? ' · Bildbestand nicht bestätigt' : ` · ${imagePages} Abbildungen im Quellenverzeichnis`}</p></div></header>
+    {coverage?.partial && <p className="panel" role="note" data-endriss-native-coverage={`${coverage.pages.length}/${coverage.total}`}><strong>Teilübernahme: {coverage.pages.length} von {coverage.total} PDF-Seiten.</strong> Nativ übertragen: PDF-Seiten {coverage.pages.join(', ')}. Noch offen: {coverage.remaining.length} PDF-Seiten ({coverage.remaining.join(', ')}). Ein vollständiger Bildbestand ändert diesen Stand nicht.</p>}
     <p className="endriss-quellenhinweis">Quellenstand unverändert übernommen. Keine Rechtsstandsprüfung. Eine Originalabbildung ist nicht automatisch eine vollständig transkribierte oder fachlich abgeglichene Lernseite.</p>
     <p><a href={`https://drive.google.com/file/d/${encodeURIComponent(quelle.driveId)}/view`} target="_blank" rel="noreferrer">Originalquelle in Google Drive öffnen</a></p>
-    {native.length > 30 && <nav className="endriss-seitennavigation" aria-label="Textabschnitte"><label>Zu einem Textabschnitt springen<select aria-label="Zu einem Textabschnitt springen" defaultValue="" onChange={jumpToChapter} style={{ maxWidth: '100%' }}><option value="" disabled>Abschnitt auswählen</option>{native.map(chapter => <option key={chapter.id} value={chapter.id}>PDF-S. {chapter.pages.join(', ')} · {chapter.title}</option>)}</select></label></nav>}
-    {native.length > 0 ? <section aria-label="Übertragene Inhalte">{native.map(kapitel => <details className="panel endriss-kapitel" id={kapitel.id} key={kapitel.id} open><summary>{kapitel.title}</summary><div><p className="endriss-quellenhinweis">Quellenseiten: {kapitel.pages.join(', ')}</p><div className="tags">{(kapitel.normen || []).map(norm => <span className="norm" key={norm}>{norm}</span>)}</div>{kapitel.bloecke.map((element,i) => <Block key={i} element={element} />)}</div></details>)}</section> : <p className="panel">Für diese Quelle ist noch keine native Textübernahme registriert. Ein gegebenenfalls vorhandener Bildbestand lässt sich unten öffnen; der Abgleich mit den Lernmodulen bleibt gesondert zu dokumentieren.</p>}
+    {(native.length > 30 || coverage?.partial) && <nav className="endriss-seitennavigation" aria-label="Textabschnitte"><label>Zu einem Textabschnitt springen<select aria-label="Zu einem Textabschnitt springen" defaultValue="" onChange={jumpToChapter} style={{ maxWidth: '100%' }}><option value="" disabled>Abschnitt auswählen</option>{native.map(chapter => <option key={chapter.id} value={chapter.id}>PDF-S. {chapter.pages.join(', ')} · {chapter.title}</option>)}</select></label></nav>}
+    {native.length > 0 ? <section aria-label="Übertragene Inhalte">{native.map(kapitel => <details className="panel endriss-kapitel" id={kapitel.id} key={kapitel.id} open><summary>{kapitel.title}</summary><div><p className="endriss-quellenhinweis">Quellenseiten: {kapitel.pages.join(', ')}</p><div className="tags">{(kapitel.normen || []).map(norm => <span className="norm" key={norm}>{norm}</span>)}</div>{kapitel.bloecke.map((element,i) => <Block key={i} element={element} />)}{kapitel.campusModules?.length > 0 && <nav aria-label={`Lernmodule zu ${kapitel.title}`} className="endriss-seitennavigation"><span>Klausur 3 → Personengesellschaften → Lernmodule:</span>{kapitel.campusModules.map(id => onModulOeffnen ? <button type="button" data-endriss-modul={id} key={id} onClick={() => onModulOeffnen(id)}>Modul {id} ↗</button> : <span key={id}>Modul {id}</span>)}</nav>}</div></details>)}</section> : <p className="panel">Für diese Quelle ist noch keine native Textübernahme registriert. Ein gegebenenfalls vorhandener Bildbestand lässt sich unten öffnen; der Abgleich mit den Lernmodulen bleibt gesondert zu dokumentieren.</p>}
     <OriginalQuellen key={quelle.id} quelle={quelle} />
   </article>;
 }
@@ -110,7 +112,7 @@ export default function EndrissNachtraege({ fach }) {
     {data?.stats && <section className="panel"><strong>{data.stats.sources} Quelldateien · {data.stats.pages} Abbildungen im Quellenverzeichnis</strong><p>Diese Zahlen messen den verzeichneten Bildbestand, nicht den Abschluss der nativen Textübernahme. Quelle und Lernmodul werden im Abgleichsprotokoll separat bewertet.</p></section>}
     <section className="endriss-filter" aria-label="Quellen filtern"><label>Fach<select aria-label="Fach" value={auswahl} onChange={event => setAuswahl(event.target.value)}>{Object.entries(FAECHER).map(([id,label]) => <option key={id} value={id}>{label}</option>)}</select></label><label>Quelle oder übertragenen Text suchen<input type="search" value={suche} onChange={event => setSuche(event.target.value)} placeholder="z. B. Fact Sheets, Fahrtenbuch, ErbSt …" /></label></section>
     <p>{filtered.length} von {sources.length} Quellen. Fachübergreifende Unterlagen werden zusätzlich angezeigt.</p>
-    <div className="endriss-quellenliste">{filtered.map(s => <button className="panel endriss-quellenkarte" type="button" key={s.id} data-endriss-source={s.id} onClick={() => { setOffen(s); window.scrollTo(0,0); }}><span className="kicker">{FAECHER[s.fach] || s.fach}</span><strong>{s.title}</strong><span>{sourcePageCount(s) === null ? 'Quellenumfang siehe Originaldatei' : `${sourcePageCount(s)} PDF-Seiten in der Quelle`} · {nativeFor(s.id).length ? `${nativeFor(s.id).length} Textabschnitte` : 'Textabgleich offen'}{imagePageCount(s) === null ? '' : ` · ${imagePageCount(s)} Abbildungen im Verzeichnis`}</span></button>)}</div>
+    <div className="endriss-quellenliste">{filtered.map(s => <button className="panel endriss-quellenkarte" type="button" key={s.id} data-endriss-source={s.id} onClick={() => { setOffen(s); window.scrollTo(0,0); }}><span className="kicker">{FAECHER[s.fach] || s.fach}</span><strong>{s.title}</strong>{nativeCoverageFor(s.id)?.partial && <span data-endriss-partial={s.id}>Teilübernahme: {nativeCoverageFor(s.id).pages.length} von {nativeCoverageFor(s.id).total} PDF-Seiten</span>}<span>{sourcePageCount(s) === null ? 'Quellenumfang siehe Originaldatei' : `${sourcePageCount(s)} PDF-Seiten in der Quelle`} · {nativeFor(s.id).length ? `${nativeFor(s.id).length} Textabschnitte` : 'Textabgleich offen'}{imagePageCount(s) === null ? '' : ` · ${imagePageCount(s)} Abbildungen im Verzeichnis`}</span></button>)}</div>
     {!filtered.length && <p>Keine Quelle entspricht der Auswahl.</p>}
   </main>;
 }

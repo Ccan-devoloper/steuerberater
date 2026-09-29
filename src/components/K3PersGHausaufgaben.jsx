@@ -1,7 +1,10 @@
 /* Reiter „Hausaufgaben PersG" im Campus Personengesellschaften.
    Inhalt und Randpunkte kommen aus den Quell-PDFs, das Layout aus
    HausaufgabenBloecke. */
-import React from "react";
+import React, { lazy, Suspense, useState } from "react";
+import { persgFactsQuelle } from "../data/endriss-persg-facts.js";
+import "./endriss-nachtraege.css";
+const FactSheets = lazy(() => import("./EndrissNachtraege").then(module => ({ default: module.EndrissDokument })));
 import HausaufgabenBloecke from "./HausaufgabenBloecke";
 import { persgHausaufgaben, persgHausaufgabenQuelle } from "../data/k3-persg-hausaufgaben.js";
 import { persgModule } from "../data/k3-persg-tag1";
@@ -9,7 +12,10 @@ import { persgModule } from "../data/k3-persg-tag1";
 const modulById = new Map(persgModule.map((m) => [m.id, m]));
 
 export default function K3PersGHausaufgaben({ onModulOeffnen }) {
-  return (
+  const [factSheets, setFactSheets] = useState(false);
+  if (factSheets) return <Suspense fallback={<p role="status">Fact Sheets werden geladen …</p>}><FactSheets quelle={persgFactsQuelle} zurueck={() => setFactSheets(false)} zurueckLabel="← Zurück zu den PersG-Hausaufgaben" onModulOeffnen={onModulOeffnen} /></Suspense>;
+  return (<>
+    <section className="panel" aria-label="Ergänzende PersG-Lernunterlagen"><h2>Fact Sheets (Horst)</h2><p>Quellengebundene Ergänzung zu den Lernmodulen: Mitunternehmerschaft, Gewinnermittlung, Betriebsvermögen und Bilanzierung. Teilübernahme: 4 von 24 PDF-Seiten; die übrigen Seiten bleiben offen.</p><button type="button" onClick={() => setFactSheets(true)}>Fact Sheets (Horst) öffnen</button></section>
     <HausaufgabenBloecke
       kicker="Klausur 3 · Personengesellschaften · Hausaufgaben"
       titel="PersG-Hausaufgaben 2026/2027"
@@ -27,5 +33,5 @@ export default function K3PersGHausaufgaben({ onModulOeffnen }) {
       onModulOeffnen={onModulOeffnen}
       suchePlatzhalter="Name, Norm, Stichwort oder Betrag"
     />
-  );
+  </>);
 }

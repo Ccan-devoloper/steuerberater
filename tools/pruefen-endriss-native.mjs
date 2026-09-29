@@ -8,7 +8,7 @@ import { build } from 'esbuild';
 import { endrissNative, endrissNativeAudit, endrissNativeQuellen, nativeFor, combineEndrissSources } from '../src/data/endriss-native-register.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const required = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1', 'ao-notfallbuch'];
+const required = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1', 'persg-folien-2', 'ao-notfallbuch', 'ao-fgo', 'persg-facts'];
 const ids = new Set();
 let chapters = 0;
 let tables = 0;
@@ -51,11 +51,18 @@ for (const source of endrissNativeQuellen) {
       }
     }
   }
-  const expected = Array.from({ length: source.physicalPages }, (_, i) => i + 1);
+  const allPages = Array.from({ length: source.physicalPages }, (_, i) => i + 1);
+  const expected = source.partial === true ? source.nativePages : allPages;
+  if (source.partial === true) {
+    assert.ok(Array.isArray(expected) && expected.length > 0 && expected.length < allPages.length);
+    assert.deepEqual(expected, [...new Set(expected)].sort((a,b) => a-b), 'Explicit partial coverage must be unique and sorted');
+    assert.equal(endrissNativeAudit[source.id].sourceComplete, false, 'Partial source cannot claim completion');
+    assert.deepEqual(endrissNativeAudit[source.id].remainingPages, allPages.filter(page => !expected.includes(page)));
+  }
   assert.deepEqual([...covered].sort((a,b) => a-b), expected, `${source.id}: native page coverage gap`);
   assert.deepEqual(endrissNativeAudit[source.id].reviewedPages, expected, `${source.id}: missing recorded review pages`);
   chapters += content.length;
-  pages += source.physicalPages;
+  pages += expected.length;
 }
 for (const id of required) assert.ok(ids.has(id), `Previously registered source lost: ${id}`);
 assert.deepEqual(Object.keys(endrissNative).sort(), [...ids].sort());
