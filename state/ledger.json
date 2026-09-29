@@ -4877,7 +4877,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 34,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4886,8 +4886,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-28T05:44:33.138Z",
-      "insightsAlterStunden": 71
+      "insightsStand": "2026-09-29T05:45:35.275Z",
+      "insightsAlterStunden": 95
     },
     {
       "datum": "2026-09-25",
@@ -4935,19 +4935,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 88,
+        "reach": 95,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 115,
-        "ig_reels_avg_watch_time": 8980,
-        "ig_reels_video_view_total_time": 880137,
-        "reels_skip_rate": 70.3
+        "views": 121,
+        "ig_reels_avg_watch_time": 9463,
+        "ig_reels_video_view_total_time": 993642,
+        "reels_skip_rate": 70.1
       },
-      "insightsStand": "2026-09-28T05:44:33.138Z",
-      "insightsAlterStunden": 67.2
+      "insightsStand": "2026-09-29T05:45:35.275Z",
+      "insightsAlterStunden": 91.2
     },
     {
       "datum": "2026-09-25",
@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 41,
+        "reach": 46,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 61,
-        "ig_reels_avg_watch_time": 10644,
-        "ig_reels_video_view_total_time": 500272,
-        "reels_skip_rate": 56.8
+        "views": 70,
+        "ig_reels_avg_watch_time": 10898,
+        "ig_reels_video_view_total_time": 588520,
+        "reels_skip_rate": 58
       },
-      "insightsStand": "2026-09-28T17:44:05.876Z",
-      "insightsAlterStunden": 31
+      "insightsStand": "2026-09-29T05:45:35.275Z",
+      "insightsAlterStunden": 43
     },
     {
       "datum": "2026-09-27",
@@ -5554,8 +5554,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T00:32:36.218Z",
-      "insightsAlterStunden": 17.8
+      "insightsStand": "2026-09-29T05:45:35.275Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-28",
@@ -5569,21 +5569,21 @@
       "fach": "ust",
       "titel": "Innergemeinschaftlicher Erwerb: § 1a und § 3d",
       "insights": {
-        "reach": 22,
-        "views": 27,
+        "reach": 23,
+        "views": 30,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 20,
-        "navigation_tap_back": 1
+        "navigation": 27,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 21,
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 17.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-28",
@@ -5597,21 +5597,21 @@
       "fach": "kst",
       "titel": "Gesellschafterdarlehen und Zinsvorteile",
       "insights": {
-        "reach": 22,
-        "views": 27,
+        "reach": 23,
+        "views": 28,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 20,
-        "navigation_tap_exit": 2
+        "navigation": 26,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 21,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 14.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-28",
@@ -5635,19 +5635,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 35,
+        "reach": 36,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
-        "views": 54,
-        "ig_reels_avg_watch_time": 13330,
-        "ig_reels_video_view_total_time": 533207,
-        "reels_skip_rate": 57.1
+        "views": 59,
+        "ig_reels_avg_watch_time": 14883,
+        "ig_reels_video_view_total_time": 654884,
+        "reels_skip_rate": 53.8
       },
-      "insightsStand": "2026-09-29T00:32:36.218Z",
-      "insightsAlterStunden": 13.8
+      "insightsStand": "2026-09-29T05:45:35.275Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-28",
@@ -5661,22 +5661,22 @@
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht mit DBA: nationales Recht vor DBA",
       "insights": {
-        "reach": 22,
-        "views": 28,
+        "reach": 23,
+        "views": 29,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 26,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 18,
+        "navigation": 27,
+        "navigation_tap_back": 2,
         "navigation_tap_exit": 5,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 19,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 13.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-28",
@@ -5690,22 +5690,22 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 19,
-        "views": 27,
+        "reach": 20,
+        "views": 28,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 26,
-        "navigation_tap_exit": 4,
+        "navigation": 27,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 19,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 18,
-        "navigation_swipe_forward": 1
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 12.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 18
     },
     {
       "datum": "2026-09-28",
@@ -5719,21 +5719,22 @@
       "fach": "persg",
       "titel": "Korrespondierende Bilanzierung und Bilanzierungskonkurrenzen",
       "insights": {
-        "reach": 19,
-        "views": 28,
+        "reach": 20,
+        "views": 29,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 23,
-        "navigation_tap_exit": 5,
+        "navigation": 24,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 15,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 15
+        "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 10.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 16
     },
     {
       "datum": "2026-09-28",
@@ -5761,8 +5762,8 @@
         "navigation_tap_forward": 14,
         "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 8.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-09-28",
@@ -5790,8 +5791,8 @@
         "navigation_tap_forward": 9,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-29T00:32:23.430Z",
-      "insightsAlterStunden": 6.8
+      "insightsStand": "2026-09-29T05:45:27.285Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-09-29",
