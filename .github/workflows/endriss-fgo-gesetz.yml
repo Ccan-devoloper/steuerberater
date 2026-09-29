@@ -1,63 +1,82 @@
 name: Endriss FGO-Gesetz
 on:
   push:
-    branches: [codex/endriss-restbestaende-2026-09-29]
+    branches: [codex/endriss-restbestaende-2026-09-29, main]
     paths:
+      - src/data/endriss-fgo*.js
+      - src/data/endriss-native-register.js
+      - src/components/EndrissNachtraege.jsx
+      - src/components/EndrissQuellenBlock.jsx
+      - src/components/endriss-markierungen.css
       - tools/endriss/vorbereiten-fgo-gesetz.mjs
-      - src/data/endriss-fgo-seitenreview.js
+      - tools/pruefen-endriss-fgo-gesetz.mjs
+      - .github/workflows/endriss-fgo-gesetz.yml
+  pull_request:
+    paths:
+      - src/data/endriss-fgo*.js
+      - src/data/endriss-native-register.js
+      - src/components/EndrissNachtraege.jsx
+      - src/components/EndrissQuellenBlock.jsx
+      - src/components/endriss-markierungen.css
+      - tools/endriss/vorbereiten-fgo-gesetz.mjs
+      - tools/pruefen-endriss-fgo-gesetz.mjs
       - .github/workflows/endriss-fgo-gesetz.yml
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: endriss-fgo-gesetz-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  prepare:
+  verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Source-bound printed text and separate annotation audit
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            social/package-lock.json
+      - run: npm ci
+      - name: All source pages, native rendering and existing regressions
         run: |
-          node tools/endriss/vorbereiten-fgo-gesetz.mjs
-          node tools/endriss/vorbereiten-fgo-gesetz.mjs --check
-          node --check src/data/endriss-fgo-gesetz.generated.js
-      - name: Persist only generated FGO text; retain concurrent unrelated changes
-        env:
-          EXPECTED_HEAD: ${{ github.sha }}
+          node tools/pruefen-endriss-fgo-gesetz.mjs
+          node tools/pruefen-endriss-fgo.mjs
+          node tools/pruefen-endriss-native.mjs
+          node tools/pruefen-endriss-horst2.mjs
+          node tools/pruefen-endriss-nachtrag.mjs
+          node tools/pruefen-endriss-notfallbuch.mjs
+          npm run check:k1-ao-einheit-6
+          npm run build
+      - name: Locked browser dependency without social production scripts
+        run: npm ci --prefix social --ignore-scripts
+      - name: Chromium
+        working-directory: social
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Actual full-source and existing navigation on desktop and mobile
         run: |
           set -euo pipefail
-          branch=codex/endriss-restbestaende-2026-09-29
-          test "$GITHUB_REF" = "refs/heads/$branch"
-          git add -- src/data/endriss-fgo-gesetz.generated.js
-          if git diff --cached --quiet; then exit 0; fi
-          test "$(git diff --cached --name-only)" = "src/data/endriss-fgo-gesetz.generated.js"
-          git fetch origin "$branch"
-          latest=$(git rev-parse FETCH_HEAD)
-          git merge-base --is-ancestor "$EXPECTED_HEAD" "$latest"
-          changed=$(git diff --name-only "$EXPECTED_HEAD" "$latest" -- tools/endriss/vorbereiten-fgo-gesetz.mjs src/data/endriss-fgo-seitenreview.js src/data/endriss-fgo-gesetz.generated.js public/endriss/quellen/sources/ao-fgo.json .github/workflows/endriss-fgo-gesetz.yml)
-          if test -n "$changed"; then
-            echo 'FGO inputs changed concurrently. Refusing to publish a stale transfer.' >&2
-            printf '%s\n' "$changed" >&2
-            exit 1
-          fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'content: persist 36 source-checked FGO statute pages [skip ci]'
-          git rebase "$latest"
-          node tools/endriss/vorbereiten-fgo-gesetz.mjs --check
-          git push origin "HEAD:refs/heads/$branch"
-      - name: Preserve page hashes and exact text-layer repairs
+          mkdir -p test-results/endriss-fgo-gesetz
+          node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173 --strictPort > test-results/endriss-fgo-gesetz/server.log 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:4173/ >/dev/null
+          node tools/pruefen-endriss-fgo-gesetz.mjs --browser
+          node tools/pruefen-endriss-fgo.mjs --browser
+          node tools/pruefen-endriss-browser.mjs
+      - name: Preserve actual test reports and screenshots
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: endriss-fgo-statute-transfer
+          name: endriss-fgo-complete-evidence
           path: |
             test-results/endriss-fgo-gesetz
-            src/data/endriss-fgo-gesetz.generated.js
+            test-results/endriss-fgo
+            test-results/endriss-browser
           retention-days: 7
