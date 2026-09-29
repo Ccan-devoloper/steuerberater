@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-29T06:44:01.108Z",
+  "stand": "2026-09-29T07:44:32.974Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -7280,6 +7280,88 @@
           "profile_visits": 0
         }
       ]
+    },
+    "18130395649802024": {
+      "art": "story",
+      "datum": "2026-09-29",
+      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T05:45:02.890Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T07:44:29.578Z",
+          "alterStunden": 2,
+          "reach": 12,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 13
+        }
+      ]
+    },
+    "18063784676519986": {
+      "art": "story",
+      "datum": "2026-09-29",
+      "titel": "Buchwert, Zwischenwert oder gemeiner Wert",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T05:45:14.621Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T07:44:29.578Z",
+          "alterStunden": 2,
+          "reach": 12,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 12
+        }
+      ]
+    },
+    "17905069368591491": {
+      "art": "story",
+      "datum": "2026-09-29",
+      "titel": "Drei Vermögen: Wo landet die Maschine?",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T05:45:26.266Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T07:44:29.578Z",
+          "alterStunden": 2,
+          "reach": 12,
+          "views": 13,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -7706,6 +7788,11 @@
     {
       "stand": "2026-09-29T06:44:01.108Z",
       "follower": 84,
+      "medien": 69
+    },
+    {
+      "stand": "2026-09-29T07:44:32.974Z",
+      "follower": 85,
       "medien": 69
     }
   ]

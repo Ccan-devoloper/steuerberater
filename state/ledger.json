@@ -5838,7 +5838,22 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-31",
       "fach": "persg",
-      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?"
+      "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
+      "insights": {
+        "reach": 12,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-09-29T07:44:29.578Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-09-29",
@@ -5850,7 +5865,22 @@
       "storyArt": "antwort",
       "thema": "persg-quiz-k3-31",
       "fach": "persg",
-      "titel": "Buchwert, Zwischenwert oder gemeiner Wert"
+      "titel": "Buchwert, Zwischenwert oder gemeiner Wert",
+      "insights": {
+        "reach": 12,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 12
+      },
+      "insightsStand": "2026-09-29T07:44:29.578Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-09-29",
@@ -5862,7 +5892,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "persg",
-      "titel": "Drei Vermögen: Wo landet die Maschine?"
+      "titel": "Drei Vermögen: Wo landet die Maschine?",
+      "insights": {
+        "reach": 12,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-09-29T07:44:29.578Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
