@@ -64,7 +64,8 @@
       "zeit": "12:04",
       "art": "norm",
       "themaId": "istr-modul-istr-istr3-10",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-29T10:44:01.737Z"
     },
     {
       "slot": "s1",
