@@ -1,0 +1,19 @@
+name: Endriss Native Clean Validation
+on:
+  push:
+    branches: [codex/endriss-native-ui-2026-09-29]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: node tools/pruefen-endriss-native.mjs
