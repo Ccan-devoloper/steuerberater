@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T21:11:00Z",
+  "package": "ao-notfallbuch",
+  "sourceId": "ao-notfallbuch",
+  "driveId": "1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy",
+  "sourceTitle": "Notfallbuch (1).pdf",
+  "sourceBytes": 668115,
+  "physicalPages": 1,
+  "sourceManifestSha256": "17d69e14bb3c34f1a12be53912abbc5a9019ddcfff97186828200dd7d6fa0b55",
+  "legalReview": false,
+  "readMethod": "Single PDF page directly visually reviewed; readable register tabs, FGO marginal list and both enforcement chains transcribed/mapped. Small or obscured tabs explicitly left unread rather than guessed.",
+  "reviewedPages": [
+    1
+  ],
+  "nativeData": "src/data/endriss-ao-notfallbuch.js",
+  "nativeDataCommit": "85953f16ccba0b6686f09cefeb03d026189e610d",
+  "registrationCommit": "e6c0a16f2197e6d96393539e44caa716bf8ccc23",
+  "genericRegressionCommit": "392fe211af5a6a6ff79a42fa4fc7007c5afc47e3",
+  "dedicatedTestCommit": "8459b3b999c6601503f201ab53a9d5d400969bd6",
+  "workflowCommit": "8466b4f2e92e2764d76a7a6d3dc39c6a4ceed041",
+  "mappedCampusTargets": [
+    "ao-schema-handbuch",
+    "ao-schema-vollstreckung",
+    "ao-schema-fgo",
+    "ao-schema-haftung",
+    "ao-schema-69",
+    "ao-schema-71",
+    "ao-schema-74"
+  ],
+  "duplicateHandling": "Existing AO/FGO schemas remain canonical learning content; the source view records the Notfallbuch's readable markers and exact ordering instead of duplicating independent legal explanations.",
+  "originalImages": "Existing source manifest retained; images alone are not counted as native completion.",
+  "ui": "Native registry source with fach=ao; generic Endriss overview/document renderer and browser acceptance cover source card, native chapter, lazy original-page load and return navigation.",
+  "tests": {
+    "state": "running",
+    "restbestaendeRun": 36631529707,
+    "browserRun": 36631488591
+  },
+  "merged": false,
+  "deployed": false,
+  "complete": false,
+  "blocker": null,
+  "next": "Read actual Actions results. If relevant build/source/native/dedicated/browser checks pass, open PR for this bounded package, merge, verify Pages deployment SHA, then update global and source checkpoints."
+}
