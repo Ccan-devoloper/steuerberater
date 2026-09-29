@@ -1,15 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-29T19:41:28Z",
+  "updatedAt": "2026-09-29T20:07:48Z",
   "repository": "Ccan-devoloper/steuerberater",
   "workingBranch": "codex/endriss-restbestaende-2026-09-29",
-  "lastObservedWorkCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38",
-  "lastObservedMainCommit": "f796c01d3cc99f3b5277a461e4b1c49ab96b37b1",
+  "lastObservedWorkCommit": "d44190c8481cdc047087b7adbf6d4618c7a30837",
+  "lastObservedMainCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
   "legalReview": false,
   "complete": false,
   "completionPercentage": null,
   "inventory": "tools/endriss/quellen.tsv",
   "scopeNote": "The inventory is the working list of formerly open sources, not a newly certified exhaustive inventory of both Drive trees. Full completion must include checking the source scope.",
+  "userDecision": {
+    "date": "2026-09-29",
+    "originalText": "originalbestand kann bleiben, dass wird separat überarbeiten, kannst daher mergen",
+    "effect": "Merge the tested second package INCLUDING the existing original-page inventory and images. Their separate revision is deferred and is not a blocker for this merge or further native content work.",
+    "implementedByPullRequest": 256,
+    "scope": "Existing original assets in this package; no claim of rights verification, legal review, native completeness, or permission to disclose unrelated new private material."
+  },
   "resume": {
     "mechanism": "hourly-scheduled-chat-task",
     "enabled": true,
@@ -18,13 +25,12 @@
     "requested15MinuteChatIntervalSupported": false,
     "lastObservedScheduledRun": null,
     "nextSteps": [
-      "Read current refs and this checkpoint first. Native UI wiring is implemented; do not redo it.",
-      "Inspect Endriss Browser-Abnahme for commit 6384b65ae3d5dca44622ab767dc75b28196cfc38 or its relevant successor. First browser run 36620664115 failed at the exact accessible subject selector. Commit 6384b65 explicitly names subject and page selects. The full browser rerun, not merely a build, must pass.",
-      "Browser test and screenshots are in tools/pruefen-endriss-browser.mjs and workflow .github/workflows/endriss-browser.yml. Download endriss-browser-evidence for actual screenshots/report; do not claim visual screenshot inspection from a successful automated test alone.",
-      "Original-page publisher 36616059906 succeeded, including safe rebase/commit, build and source checks. Its outputs exist in the working branch. Do not run the multi-gigabyte preparation/publisher again without a specific need.",
-      "The committed Horst comparison docs/endriss-horst-versionsvergleich.json reports 16 versus 16 pages but different file bytes and different prepared image hashes for every pair. No duplicate/native-equivalence conclusion follows: review the second version visually before registering it as covered.",
-      "After browser acceptance and source-asset review, merge only a tested accurately described partial package and verify deployment. Recheck PR head and all concurrent changes before merging. Large original-page assets do not imply completed transcription.",
-      "Continue a bounded page-specific native transcription or verified existing-module mapping for the next open source; preserve actual evidence and the exact next page in this checkpoint."
+      "Read current refs and this checkpoint. PR 256 is already merged into main at 72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd. Do not redo its UI wiring or recreate its PR.",
+      "Deployment step actions/deploy-pages@v4 succeeded in run 36623930257 at 20:07:42 UTC. At the last observation the workflow was only finalizing its status commit. Confirm the final run result and .github/deploy-last.json, without redeploying or reimporting unnecessarily.",
+      "The user expressly approved retaining the existing original inventory and deferring its separate revision. Do not turn that deferred work into a new blocker or delete/separate these assets without a later instruction.",
+      "Restore and commit a page-specific comparison for persg-folien-2 against persg-folien-1; prior chat claims were not committed. Retrieve sources or preserved evidence and verify before registering equivalence. Different prepared hashes alone prove neither semantic identity nor difference.",
+      "Complete native registration, tests and UI evidence for the next bounded source package, then proceed with AO/FGO, Fact Sheets, ErbSt 4/5, KSt mappings and remaining notes/archives. Preserve the exact last reviewed page and uncertain text. Do not substitute more metadata work for content implementation.",
+      "Preserve all concurrent changes, use current file SHAs, verify tests and PR head before future merges, and confirm each deployment. Existing images do not imply complete native transcription."
     ],
     "ifInterrupted": "Read the latest refs, this checkpoint and relevant files again; do not replay old full-file replacements over concurrent changes. Reclaim an expired lease only after checking running work."
   },
@@ -41,32 +47,71 @@
     },
     {
       "id": "native-handwritten-and-horst-ui",
-      "state": "native-ui-integrated-and-build-tested; browser-acceptance-in-progress; not-merged",
+      "state": "merged-and-pages-deployment-step-succeeded; workflow-finalization-to-confirm",
       "nativeData": ["src/data/endriss-handschriften.js", "src/data/endriss-persg-horst-folien.js", "src/data/endriss-native-register.js"],
       "sourceIds": ["istr-hinzurechnung", "lst-mitschrift", "lst-korrektur", "persg-folien-1"],
       "scope": "IStR 4 pages; Lohnsteuer 24 pages plus 1 correction page; Horst Folien Fassung 1 has 16 physical PDF pages. Total 45 source pages, not a whole-campus completion measure.",
       "uiIntegrationCommit": "83a34fde6a8fead24faf0f20982e9b3534c466a6",
       "knownGapResolved": "EndrissNachtraege uses endriss-native-register. Native sources remain listed when the image inventory is missing, empty or partial. Source and published image counts are distinct; images load on explicit expansion only.",
       "testFile": "tools/pruefen-endriss-native.mjs",
-      "validatedCommit": "452de47e3215e80ef19e5dc45f78f62f572bd9a3",
-      "validationRun": 36618522788,
-      "validationJob": 109577764822,
+      "validatedCommit": "60b23516bffb28d9588f4cd303ccb92ccebc56f1",
+      "validationRun": 36621102653,
       "validationConclusion": "success",
+      "previousValidation": {"commit": "452de47e3215e80ef19e5dc45f78f62f572bd9a3", "run": 36618522788, "job": 109577764822, "conclusion": "success"},
       "passedChecks": ["native source registration", "source page reference coverage", "recorded visual review page coverage", "unique chapter IDs", "table column shapes", "native inventory fallback", "actual React server rendering of overview and detail content", "production build", "existing ESt/Mirbach source import checks", "resume checkpoint artifact"],
       "additionalBuildEvidence": {"commit": "7644d8cb1fbfde9807123fdb5ee1a0b291748d48", "run": 36620664115, "job": 109584926870, "step": "Production build and source checks", "conclusion": "success", "note": "This success excludes the later failing browser step."},
-      "browserAcceptance": {"test": "tools/pruefen-endriss-browser.mjs", "workflow": ".github/workflows/endriss-browser.yml", "firstRun": 36620664115, "firstJob": 109584926870, "firstConclusion": "failure", "failure": "getByLabel('Fach', { exact: true }) timeout", "fixCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38", "fix": "Explicit aria-label values on subject and page select elements", "rerunConclusion": "not-yet-confirmed", "screenshotsVisuallyInspected": false},
-      "merged": false,
-      "deployment": "not-yet-confirmed-for-this-package"
+      "browserAcceptance": {
+        "test": "tools/pruefen-endriss-browser.mjs",
+        "workflow": ".github/workflows/endriss-browser.yml",
+        "firstRun": 36620664115,
+        "firstJob": 109584926870,
+        "firstConclusion": "failure",
+        "failure": "getByLabel('Fach', { exact: true }) timeout",
+        "fixCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38",
+        "fix": "Explicit aria-label values on subject and page select elements",
+        "successfulRun": 36621003284,
+        "successfulJob": 109586091024,
+        "testedCommit": "6384b65ae3d5dca44622ab767dc75b28196cfc38",
+        "rerunConclusion": "success",
+        "screenshotsVisuallyInspected": false,
+        "headDifference": "Only docs/endriss-fortschritt.json changed between tested commit and PR head. No runtime code or image changes."
+      },
+      "pullRequestValidation": {"run": 36623661522, "conclusion": "success", "head": "60b23516bffb28d9588f4cd303ccb92ccebc56f1"},
+      "merged": true,
+      "pullRequest": 256,
+      "mergedAt": "2026-09-29T20:05:59Z",
+      "mergeCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
+      "mergeMethod": "merge",
+      "expectedHeadVerified": "60b23516bffb28d9588f4cd303ccb92ccebc56f1",
+      "mergeComparison": "GitHub's merge preview differs from the validated head only in .github/deploy-last.json and .github/validation-last.json, preserving main's existing status history.",
+      "originalAssetsIncluded": true,
+      "originalAssetRevision": "deferred-by-explicit-user-instruction",
+      "deployment": {
+        "run": 36623930257,
+        "buildJob": 109595959250,
+        "buildConclusion": "success",
+        "deployJob": 109596438568,
+        "pagesStep": "actions/deploy-pages@v4",
+        "pagesStepConclusion": "success",
+        "pagesStepCompletedAt": "2026-09-29T20:07:42Z",
+        "workflowConclusion": "not-yet-confirmed",
+        "pending": "Final repository status commit and workflow completion",
+        "deployedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd",
+        "statusFile": ".github/deploy-last.json"
+      },
+      "mainValidation": {"run": 36623930276, "statusFile": ".github/validation-last.json", "validatedCommit": "72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd", "recordedBuildAndContentChecks": "success", "wholeWorkflowConclusion": "not-yet-confirmed"}
     }
   ],
   "technicalJobs": [
-    {"runId": 36616059906, "jobId": 109572010195, "type": "original-page-publisher", "lastObservedState": "completed", "conclusion": "success", "confirmedSteps": ["source image publication", "Horst version comparison", "production build", "ESt/Mirbach checks", "safe commit/rebase and validation"], "report": "docs/endriss-originalbestand.json", "note": "Outputs committed in work branch; not merged/deployed as a second package, not a native-completeness assertion."},
-    {"runId": 36620664115, "jobId": 109584926870, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "failure", "artifactId": 11058003475, "note": "Selector naming fixed in 6384b65; inspect rerun, do not convert this failed run to success."}
+    {"runId": 36616059906, "jobId": 109572010195, "type": "original-page-publisher", "lastObservedState": "completed", "conclusion": "success", "confirmedSteps": ["source image publication", "Horst version comparison", "production build", "ESt/Mirbach checks", "safe commit/rebase and validation"], "report": "docs/endriss-originalbestand.json", "note": "Outputs included in PR 256; this is not a native-completeness assertion."},
+    {"runId": 36620664115, "jobId": 109584926870, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "failure", "artifactId": 11058003475, "note": "Historical failure retained; superseded by successful corrected run 36621003284."},
+    {"runId": 36621003284, "jobId": 109586091024, "type": "real-browser-acceptance", "lastObservedState": "completed", "conclusion": "success"},
+    {"runId": 36623661522, "type": "pull-request-validation", "lastObservedState": "completed", "conclusion": "success"}
   ],
   "remainingSourceGroups": [
     {"ids": ["kst-e1", "kst-e2", "kst-e3", "kst-e4", "kst-e5", "kst-e6", "kst-e7"], "state": "source-to-existing-content-audit-open", "note": "Existing KSt learning modules must be checked before assuming all seven sources are absent."},
     {"ids": ["erbst-e4-1", "erbst-e4-2", "erbst-e5-1", "erbst-e5-2"], "state": "native-transcription-and-integration-open"},
-    {"ids": ["bil-facts", "persg-facts", "persg-folien-2", "ao-fgo", "ao-notfallbuch"], "state": "native-transcription-or-deduplication-open"},
+    {"ids": ["bil-facts", "persg-facts", "persg-folien-2", "ao-fgo", "ao-notfallbuch"], "state": "native-transcription-or-deduplication-open", "note": "Prior chat reports of Horst version-2 and AO/FGO visual work are not yet represented by committed evidence/native registration. Recover evidence or recheck before counting them as done."},
     {"inventorySelection": "all remaining notiz-, mark-, bmf- and other source rows", "state": "pagewise-review-and-integration-open"},
     {"ids": ["bil-aufgaben-3"], "state": "scope-question-resolved-documentation-to-check", "note": "The retrieved original has three PDF pages ending with Sachverhalt 2; do not invent further cases."}
   ],
@@ -79,10 +124,13 @@
     "originalImagesAloneAreCompletion": false,
     "inventOriginalSolutions": false,
     "unreadableText": "mark-uncertain-never-guess",
-    "removePersonalWatermarksFromPublicAssets": true
+    "removePersonalWatermarksFromPublicAssets": true,
+    "existingOriginalAssetRevisionRequiredBeforeThisMerge": false,
+    "existingOriginalAssetRevisionDisposition": "Separate deferred follow-up, not a blocker, per userDecision. Do not claim that assets were redacted or comprehensively reviewed."
   },
   "environment": {
-    "observedLocalExecutionError": "Both container.exec and python.exec returned ClientError again in this interactive run; connected GitHub reads/writes and remote build/browser execution succeeded.",
+    "observedLocalExecutionError": "container.exec again returned ClientError in this interactive merge run.",
+    "connectedWrites": "PR creation, PR merge, non-force working-branch fast-forward and documentation update succeeded in this run. Prior scheduled write failures do not establish a current general write outage.",
     "fallback": "Use connected GitHub file actions and actual GitHub Actions results; do not assert unexecuted local tests."
   }
 }
