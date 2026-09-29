@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-09-29T21:56:00Z",
+  "schemaVersion": 3,
+  "updatedAt": "2026-09-29T22:48:36Z",
   "sourceId": "persg-facts",
   "sourceTitle": "B-S25-PersG-fact sheets-(Horst)-0425.pdf",
   "driveId": "179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
@@ -9,39 +9,39 @@
   "physicalPages": 24,
   "legalReview": false,
   "sourceComplete": false,
-  "lease": { "owner": "interactive-persg-facts-20260929-2138", "expiresAt": "2026-09-29T22:30:00Z", "scope": "PersG Fact Sheets PDF pages 1-4; source data, dedicated test and partial-source UI/registry coverage. Respect shared Endriss view/register changes. Other source work remains independent." },
-  "packagePages": [1, 2, 3, 4],
-  "visuallyReviewedPages": [1, 2, 3, 4],
-  "nativePages": [1, 2, 3, 4],
-  "printedSheets": [1, 2, 3, 4, 5, 6],
-  "remainingPages": [5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
-  "sourceAcquisition": "Original authenticated Drive raw download; PyMuPDF confirmed 24 pages and exact source hash. Direct image inspection of pages 1-4 plus enlarged calculation/pension/TOC details; no OCR. Rendering other pages did not count as review.",
-  "implementation": {
-    "state": "committed; full acceptance pending",
-    "dataCommit": "2ba6faa52455117c8bf84693d3f064f695cce6a9",
-    "uiCommit": "58fceef0b53a991c6f6d83eb37fac228064077de",
-    "testCommit": "da809a448ebc87a243b10dce8b1675fc1ab9b1a1",
-    "workflowCommit": "3aedf636a00d98d2653f18a0c4d1c8c4c8893ea9",
-    "data": "src/data/endriss-persg-facts.js",
-    "pagewiseEvidence": "persgFactsAudit.pageEvidence",
-    "sections": 7,
-    "tables": 11,
-    "existingModules": [1,2,3,4,6,7,8],
-    "ui": "Unterlagen-Nachtraege -> PersG Fact Sheets; also Klausur 3 -> Personengesellschaften -> Hausaufgaben PersG -> Fact Sheets (Horst), using existing module navigation callbacks.",
-    "partialBoundary": "UI explicitly says 4/24 and lists open pages. Image index cannot override native identity/coverage.",
-    "sourceDifferences": "Original places supplementary balance in Stage I. Existing module 4 has a different grouping and remains unchanged; discrepancy is explicitly retained. Blank five-column template is not filled with invented amounts.",
-    "originalAssetsChanged": false
+  "lease": {"owner":"interactive-persg-facts-20260930-pages5-6","expiresAt":"2026-09-29T23:35:00Z","scope":"PersG Fact Sheets PDF pages5-6, native source data/audit, partial coverage, source/browser tests and checkpoints. Preserve existing content, UI and learner progress."},
+  "historicalCheckpoints": [
+    {"commit":"94bbdbc6f4f1ccb4c48d132cff95f45d4809d601","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"4e0e89feab38908b4e144a9d5abf91fcfee8c13d","contents":"Complete PR261 pages1-4 source, test, failure, manual screenshot and merge/deployment evidence; preserved unchanged at this ref."},
+    {"commit":"3ef135f21bf1443cae972d3f428ef850afcfad78","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"7e91153ac8b689444d3964ad14564767f3fa1384","contents":"Fresh ref/lease checks and bounded pages5-6 start, before visual review or implementation."}
+  ],
+  "releasedPackages": [{"pages":[1,2,3,4],"printedSheets":[1,2,3,4,5,6],"sections":7,"tables":11,"pullRequest":261,"mergeCommit":"d35c7485c74aecbc9061dcef6e06252c3ab24a7f","deploymentRun":36638499096,"deployed":true,"fullEvidence":"historicalCheckpoints[0]"}],
+  "visuallyReviewedPages": [1,2,3,4,5,6],
+  "nativePages": [1,2,3,4,5,6],
+  "releasedPages": [1,2,3,4],
+  "remainingNativePages": [7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+  "currentPackage": {
+    "pages":[5,6],"printedSheets":[7,8,9,10],"state":"native implementation and local SSR checked; full CI/browser/release pending",
+    "visuallyReviewedPages":[5,6],"nativePages":[5,6],"additionalSections":4,"additionalTables":7,"totalSections":11,"totalTables":18,
+    "sourceAcquisition":"Fresh connected Drive metadata matched the existing authenticated download. Independently checked original 17436897 bytes/SHA256/24pages. Direct full-page images5/6 plus enlarged sheets8/9/10 inspected; no OCR. Existing original assets unchanged.",
+    "pageEvidence":[
+      {"page":5,"printedSheets":[7,8],"chapters":["persg-facts-07","persg-facts-08"],"scope":"Sparse loan continuation; complete four-row ESt/USt/GewSt/SV comparison, three sticky notes, red-struck section3no62, dashed SV arrow, two EU-to-OHG example arrows and source conclusions. Empty space not filled."},
+      {"page":6,"printedSheets":[9,10],"chapters":["persg-facts-09","persg-facts-10"],"scope":"Three GmbH/KG ownership edges and25000/25000 special balance; principle/exception/re-exception and consequences. Three capital accounts; separate two-edge case; complete seven-row/six-column original solution including negative65000, final115000, dash fields and section15a/-15000 note."}
+    ],
+    "existingModuleTargets":[3,7,8,9,10,11],
+    "duplicateHandling":"Existing module9 MU split, module10 remuneration, module11 capital accounts and modules3/7/8 read for concrete links. They remain unchanged. Original contents numbering differs from actual sheets8/9/10 and remains explicit. Original 6 released printed chapters are protected by unchanged native-content SHA25641a0516be57d7f156cc3d18f818852c9f19f91379d80be8d0eeac97982d121d8.",
+    "files":["src/data/endriss-persg-facts-7-10.js","src/data/endriss-persg-facts.js","src/components/K3PersGHausaufgaben.jsx","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs"],
+    "ui":"Existing two source entries; derived6/24 notice and18open pages. New chapters reuse accessible table renderer. Ten distinct module links total. No user-progress or original-image edits.",
+    "tests": {
+      "localSourceSSR":"passed: exact new cells, seven-by-six ledger, preserved old chapter hash, ten module targets and6/24 boundary",
+      "localNativeSSR":"passed:8sources,105native source pages,91chapters,111tables",
+      "localNotfallbuch":"passed",
+      "localViteBundle":"passed with existing large-chunk warnings; not a full production acceptance",
+      "localProductionBuild":"FAILED: small Actions source snapshot omits public/instagram-dashboard.html. Require full-checkout CI production build; do not relabel this local run as success.",
+      "localHorst2":"FAILED: same source-only snapshot omits public/endriss/quellen/sources/persg-folien-2.json. Full-checkout CI regression required.",
+      "browser":"not run yet for this package; expanded existing CI tests cover all new tables and ten real module targets"
+    },
+    "merged":false,"deployed":false
   },
-  "tests": {
-    "localNativeSSR": "passed: 8 sources, 103 transferred source pages, 87 sections, 104 tables",
-    "localDedicatedSSR": "passed: every source text/table cell, seven module targets and strict 4/24 boundary",
-    "localNotfallbuchRegression": "passed",
-    "localViteBundle": "passed; existing large-chunk warnings remain",
-    "localProductionBuild": "failed at existing dashboard precheck because downloaded source snapshot excludes public/instagram-dashboard.html; not counted as passed. Full checkout CI production build required.",
-    "localTestCorrection": "Initial dedicated expectation incorrectly counted 10 tables; direct data/render inspection proved 11 (1/2/1/1/2/3/1 per section). Corrected before test commit and rerun passed.",
-    "githubActions": "pending; new dedicated workflow includes full production build, source-image hashes, prior-source regressions, actual desktop/mobile module links, progress preservation and general image-reader regression"
-  },
-  "merged": false,
-  "deployed": false,
-  "next": "Read actual Actions results/logs; repair any reproducible failure. Merge only this bounded, fully checked four-page package; verify deployment and release lease. Then resume at PDF page 5, printed sheet 7. A5 remains partial; do not raise whole-source completion count."
+  "blockers": [],
+  "next":"Read full-checkout Actions results and actual logs. Require production/source/import/previous-source regressions and desktop/mobile UI tests, then inspect new table screenshots before merging. Verify exact deployment. Afterwards release lease and resume at PDF7, next printed sheet11. Whole-source A5 remains partial; strict fully completed group count stays6/12."
 }

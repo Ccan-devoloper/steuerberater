@@ -10,4 +10,9 @@
 .endriss-facts-scroll .endriss-facts-calculation th:first-child { width: 52%; }
 .endriss-facts-scroll .endriss-facts-calculation td { white-space: nowrap; }
 .endriss-facts-scroll .endriss-facts-calculation th:not(:first-child) { text-align: right; }
+/* Keep signed amounts and their currency on one line in the original ledger.
+   Other textual fact-sheet tables retain their existing wrapping. */
+.endriss-facts-scroll .endriss-facts-ledger { min-width: 52rem; }
+.endriss-facts-scroll .endriss-facts-ledger th,
+.endriss-facts-scroll .endriss-facts-ledger td { white-space: nowrap; }
 @media print { .endriss-facts-scroll { overflow: visible; } .endriss-facts-scroll .istr-fs-tabelle { min-width: 0; font-size: .65rem; } }
