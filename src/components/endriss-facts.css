@@ -15,4 +15,9 @@
 .endriss-facts-scroll .endriss-facts-ledger { min-width: 52rem; }
 .endriss-facts-scroll .endriss-facts-ledger th,
 .endriss-facts-scroll .endriss-facts-ledger td { white-space: nowrap; }
+/* A complete textual column must fit the reader viewport after scrolling.
+   Applied only to explicitly tagged new two-column comparisons, not ledgers. */
+.endriss-facts-scroll .endriss-facts-textpair { min-width: min(36rem, 200%); table-layout: fixed; }
+.endriss-facts-scroll .endriss-facts-textpair th,
+.endriss-facts-scroll .endriss-facts-textpair td { width: 50%; }
 @media print { .endriss-facts-scroll { overflow: visible; } .endriss-facts-scroll .istr-fs-tabelle { min-width: 0; font-size: .65rem; } }
