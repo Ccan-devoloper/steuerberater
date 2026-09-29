@@ -5931,6 +5931,18 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "s2",
+      "medienId": "18557751871075883",
+      "veroeffentlicht": "2026-09-29T08:44:55.877Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?"
     }
   ],
   "fachZaehler": {
