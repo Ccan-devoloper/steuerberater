@@ -1,6 +1,6 @@
-/* Verify the observable chapter jump before capturing the actual native tables.
-   The first browser run proved focus/navigation but its screenshot was taken
-   before smooth scrolling finished. These checks do not replace that run. */
+/* Actual chapter visibility and all source-table columns, including keyboard
+   horizontal scrolling. Manual inspection of the first passing run found that
+   the inherited mobile table CSS fragmented words; this gate now covers it. */
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -35,13 +35,33 @@ try {
           const rect = chapter?.getBoundingClientRect();
           return chapter?.open && document.activeElement === chapter.querySelector('summary') && rect.top >= -2 && rect.top < innerHeight;
         },id,{timeout:5000});
-        const tables = article.locator(`#${id} table`);
-        for (let i=0;i<await tables.count();i++) {
-          await tables.nth(i).screenshot({path:path.join(output,`${id}-table-${i}-${width}.png`)});
+        const regions = article.locator(`#${id} .endriss-facts-scroll`);
+        assert.equal(await regions.count(), id === 'persg-facts-02' ? 1 : 3);
+        for (let i=0;i<await regions.count();i++) {
+          const region = regions.nth(i);
+          assert.equal(await region.getAttribute('tabindex'),'0');
+          assert.equal(await region.getAttribute('role'),'region');
+          const metrics = await region.evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth,wrap:getComputedStyle(el.querySelector('tbody th')).overflowWrap}));
+          assert.equal(metrics.wrap,'normal','Technical words must not be fragmented anywhere');
+          await region.screenshot({path:path.join(output,`${id}-table-${i}-${width}-left.png`)});
+          if (metrics.scroll > metrics.client+2) {
+            await region.focus();
+            await page.keyboard.press('ArrowRight');
+            await page.waitForFunction(({id,i})=>document.querySelectorAll(`#${id} .endriss-facts-scroll`)[i].scrollLeft > 0,{id,i},{timeout:3000});
+            // Test the observable rightmost column, not just DOM text presence.
+            await region.evaluate(el=>{el.scrollLeft=el.scrollWidth;});
+            await page.waitForFunction(({id,i})=>{
+              const el=document.querySelectorAll(`#${id} .endriss-facts-scroll`)[i];
+              const cell=el.querySelector('thead th:last-child').getBoundingClientRect();
+              const box=el.getBoundingClientRect();
+              return cell.left>=box.left-2 && cell.right<=box.right+2;
+            },{id,i},{timeout:3000});
+            await region.screenshot({path:path.join(output,`${id}-table-${i}-${width}-right.png`)});
+          }
         }
         const dimensions = await page.evaluate(()=>({available:document.documentElement.clientWidth,actual:document.documentElement.scrollWidth}));
         assert.ok(dimensions.actual <= dimensions.available+2, `Page overflow after chapter jump: ${JSON.stringify(dimensions)}`);
-        report.checks.push({viewport:width,chapter:id,focusAndScroll:'passed',tableScreenshots:await tables.count()});
+        report.checks.push({viewport:width,chapter:id,focusAndScroll:'passed',tableRegions:await regions.count(),keyboardAndLastColumn:'passed'});
       }
     } catch(error) {
       await page.screenshot({path:path.join(output,`viewport-failure-${width}.png`)}).catch(()=>{});
