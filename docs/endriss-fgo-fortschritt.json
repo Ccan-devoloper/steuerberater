@@ -1,34 +1,69 @@
 {
-  "schemaVersion": 1,
-  "package": "fgo-fahrtroute-seite1",
+  "schemaVersion": 4,
+  "updatedAt": "2026-09-29T21:21:06Z",
+  "timestampBasis": "Confirmed completion of the full-source browser workflow; checkpoint save time is in its Git commit.",
+  "package": "fgo-handwritten-and-annotated-source",
   "sourceId": "ao-fgo",
   "driveId": "1g6C6ngjpPqb2vYjuwyTux3wVSpEC2cjj",
   "sourceTitle": "FGO (2).pdf",
   "sourceBytes": 1838083,
+  "sourceSha256": "f8c55095b205a2d116e9af3c1981a4aba1bccfd6bc3708829742403b33d89b4a",
   "physicalPages": 37,
-  "readMethod": "Direct files.read rendering of the Drive raw PDF; source pages 1–4 opened, page 1 transcribed completely.",
-  "visuallyOpenedPages": [1,2,3,4],
-  "transcribedPages": [1],
+  "historicalCheckpoints": [
+    {"commit":"8cad0dc83dce9ee90e28ffc5e11c4c4650d5959b","path":"docs/endriss-fgo-fortschritt.json","blobSha":"5416317d2b6f403b299b1ad187afd45c4dd63992","contents":"Full page-1 source, canonical/adapter, regression, browser, PR258 and successful deployment evidence."},
+    {"commit":"35d6fd8205f0aad23f7737e77efb9f3e011e425e","path":"docs/endriss-fgo-fortschritt.json","blobSha":"34fee58db41d3877fa8b3d1c7a607af0b3757fae","contents":"Beginning of the 36-page statute continuation, then-partial review and page-1 deployment. Superseded by the actual new page records, not retroactively marked complete."}
+  ],
+  "readMethod": "All actual original page images 2–37 directly read through Files in six contiguous batches; existing printed text compared with the images. No new OCR and no outside current-law replacement. The previously deployed page-1 handwriting transcript is reused.",
+  "visuallyOpenedPages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37],
+  "transcribedPages": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37],
+  "sourceContentComplete": true,
   "sourceComplete": false,
+  "releaseCompletionNote": "All source content exists and has passed full-source tests, but this complete-source package is not yet merged/deployed. Do not count B2 until that release is verified.",
   "legalReview": false,
   "originalImagesChanged": false,
-  "lease": {
-    "owner": "interactive-fgo-page1-20260929",
-    "expiresAt": "2026-09-29T20:55:00Z",
-    "scope": "Endriss FGO source data, component, isolated FGO tests/workflow and this per-source checkpoint. Does not take over the Horst/native-register lease."
-  },
+  "lease": {"owner":"interactive-fgo-statute-20260929","expiresAt":"2026-09-29T21:45:00Z","scope":"FGO statute/annotation native data, source registration, FGO-specific tests, complete-source PR/release and checkpoint. Retain unrelated concurrent work."},
   "implementation": {
-    "commit": "6002e5b16e12c4b88c9e8d6d7155930ee5bf16be",
-    "files": ["src/data/endriss-fgo-fahrtroute.js", "src/components/EndrissFGOFahrtroute.jsx", "src/components/AOSchemataAlle.jsx"],
-    "uiEntry": "Klausur 1 → Abgabenordnung → Prüfschema → ao-schema-fgo; existing ao6-fgo-fahrtroute ID preserved for module/Norm links",
-    "content": "All 12 numbered source stations, including 64/65 FGO and 52d FGO, with source notes, 54 FGO → 222 ZPO → 187/188 BGB and 56 FGO comparison. No invented rule updates or solutions.",
-    "tests": "pending",
-    "merged": false,
-    "deployment": "pending"
+    "state": "all-37-source-pages-native; browser-and-source-tests-passed; full-source-release-pending",
+    "contentCommit": "7fcd93069f580a28b5e11d69a14a221f28af6658",
+    "canonicalPage1Data": "src/data/endriss-fgo-fahrtroute.js",
+    "sourceAdapter": "src/data/endriss-fgo-arbeitsstand.js",
+    "fullSourceModule": "src/data/endriss-fgo.js",
+    "printedText": "src/data/endriss-fgo-gesetz.generated.js",
+    "printedTextBlobSha": "b60628577ec100bac1f31aac36c2e810a24c4c64",
+    "printedTextSha256": "0cc2d4d48e224445629036419ed8652acac06de89414e2197a1061716e34fb98",
+    "annotations": "src/data/endriss-fgo-seitenreview.js",
+    "annotationRows": 67,
+    "markedStatutePages": [2,3,7,8,9,10,13,14,15,16,17,18,19,20,22,23,24,25,27,28,29,33],
+    "sourceStand": "10.03.2023 as printed; original spelling, paragraph continuity, printed stars and historical wording retained.",
+    "textLayerRepairs": "30 explicit exact-match repairs remove visually identified annotation OCR remnants; actual handwritten content is preserved separately in 67 annotation rows. Repeating official service headers are attributed once, not repeated as study paragraphs.",
+    "uiEntry": "Unterlagen-Nachträge → Abgabenordnung / FGO → ao-fgo, 37 native text chapters and a keyboard-operable chapter selector. The existing AO twelve-station schema remains reachable separately.",
+    "colourRepresentation": "Readable colour names with colour badges and exact source locations/marked words. Exact pen shapes remain in unchanged optional original images, not silently claimed as pixel-identical native text highlighting.",
+    "files": ["src/data/endriss-fgo.js","src/data/endriss-fgo-gesetz.generated.js","src/data/endriss-fgo-seitenreview.js","src/data/endriss-fgo-arbeitsstand.js","src/data/endriss-native-register.js","src/components/EndrissNachtraege.jsx","src/components/EndrissQuellenBlock.jsx","src/components/endriss-markierungen.css","tools/endriss/vorbereiten-fgo-gesetz.mjs","tools/pruefen-endriss-fgo-gesetz.mjs",".github/workflows/endriss-fgo-gesetz.yml"],
+    "tests": {
+      "testedCommit":"cd53a8727f370ba405d9f5fa58d19b5035d42387",
+      "restbestaendeRun":36632466171,"restbestaendeConclusion":"success",
+      "completeFgoRun":36632466172,"completeFgoJob":109624841401,"completeFgoConclusion":"success",
+      "completedAt":"2026-09-29T21:21:06Z",
+      "checks":["37 native source-page references", "36 source-bound reproducible printed texts", "67 annotation rows on 22 statute pages", "all 37 unchanged image SHA-256 values", "all printed blocks and annotation cells actually rendered by React", "historical source wording preserved", "empty-index native fallback", "native text search for Zoom-Call", "keyboard focus at source pages 7/17/24/37", "real Chromium desktop1280/mobile390", "existing page-1 AO schema navigation", "all registered sources original-image navigation/zoom", "missing/empty/partial image-index fallback", "existing ESt/Mirbach/Horst2/Notfallbuch regressions", "production build"],
+      "artifact":"endriss-fgo-complete-evidence",
+      "screenshotsVisuallyInspected":false,
+      "latestTestOnlyCommit":"6b7603d498d01e0de8384c39743d618756adbfc3",
+      "latestTestOnlyChange":"Generic personal-watermark detection instead of copied owner identifiers; native data and generated output unchanged. Successor checks to be read before merge."
+    },
+    "preparationHistory": {
+      "firstPublisherRun":36631718071,"firstPublisherJob":109622322910,"conclusion":"failure",
+      "cause":"Exact-head publisher correctly refused to overwrite unrelated concurrent Notfallbuch commits. Text generation, source hashes and syntax had passed; report/artifact preserved.",
+      "artifact":11062539195,
+      "safeFixCommit":"a59ea982c8448f3731799e3dd86ba2f5da11e85b",
+      "safeFix":"Require ancestry and unchanged FGO inputs, rebase only the single generated file over unrelated changes, rerun source check and push without force.",
+      "publishedOutputReadBack":true,
+      "publisherDisposition":"Preparation completed. Current FGO workflow is read-only validation; no continuing write-enabled source publisher."
+    },
+    "merged":false,
+    "deployment":"pending-for-full-source"
   },
-  "remaining": {
-    "pages": "2–37",
-    "nextWork": "Visually review the statutory-extract markings and record exact source-page/marked-passage mappings before declaring FGO complete. Pages 2–4 viewed for context only, not yet natively mapped."
-  },
-  "checklistEffect": "B2 stays OPEN/PARTIAL. This one-page fix must not be counted as a sixth completed group. The five completed groups after the Horst-2 deployment are A1, A6, A7, A8 and B4 out of twelve original A/B groups."
+  "previousPage1Release":{"pullRequest":258,"mergeCommit":"d32019df630fe070cddd0740ab222dd8720b5103","deployment":"success","fullEvidence":"historicalCheckpoints[0]"},
+  "remaining":{"nativePages":[],"nextNativePage":null,"nextNotYetOpenedVisualPage":null,"nextWork":"Check latest exact head and PR tests, merge the accurately scoped full-source FGO package, verify deployment, then update global B2 status. Notfallbuch residual tiny/obscured tabs must not be turned into a new completeness claim by this FGO package."},
+  "checklistEffect":"Until full-source deployment: 5/12 original A/B groups. After verified FGO release: 6/12 = 50 percent unless other groups have independently met completion criteria. Not whole-campus, page-weighted or workload completion.",
+  "environment":"Local container/Python execution unavailable in this run; actual connected GitHub Actions results and Files original-page rendering are the evidence."
 }

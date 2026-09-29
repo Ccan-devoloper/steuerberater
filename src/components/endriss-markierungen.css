@@ -1,0 +1,11 @@
+.endriss-markierungen { max-width: 100%; }
+.endriss-markierungen caption { text-align: left; font-weight: 700; padding: .65rem 0; color: inherit; }
+.endriss-markierungen th, .endriss-markierungen td { vertical-align: top; overflow-wrap: anywhere; }
+.endriss-quellenfarbe { display: inline; padding: .08em .25em; border-radius: .2em; box-decoration-break: clone; -webkit-box-decoration-break: clone; font-weight: 700; color: #17212b; }
+.endriss-quellenfarbe--rosa { background: #f8c8e7; }
+.endriss-quellenfarbe--gelb { background: #fff29a; }
+.endriss-quellenfarbe--gruen { background: #b8e4ad; }
+.endriss-quellenfarbe--orange { background: #ffd0a0; }
+.endriss-quellenfarbe--blau { background: #b8d9fa; }
+.endriss-quellenfarbe--grau { background: #dce1e5; }
+@media (forced-colors: active) { .endriss-quellenfarbe { border: 1px solid CanvasText; } }

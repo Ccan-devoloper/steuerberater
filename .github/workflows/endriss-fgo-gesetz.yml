@@ -1,0 +1,82 @@
+name: Endriss FGO-Gesetz
+on:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29, main]
+    paths:
+      - src/data/endriss-fgo*.js
+      - src/data/endriss-native-register.js
+      - src/components/EndrissNachtraege.jsx
+      - src/components/EndrissQuellenBlock.jsx
+      - src/components/endriss-markierungen.css
+      - tools/endriss/vorbereiten-fgo-gesetz.mjs
+      - tools/pruefen-endriss-fgo-gesetz.mjs
+      - .github/workflows/endriss-fgo-gesetz.yml
+  pull_request:
+    paths:
+      - src/data/endriss-fgo*.js
+      - src/data/endriss-native-register.js
+      - src/components/EndrissNachtraege.jsx
+      - src/components/EndrissQuellenBlock.jsx
+      - src/components/endriss-markierungen.css
+      - tools/endriss/vorbereiten-fgo-gesetz.mjs
+      - tools/pruefen-endriss-fgo-gesetz.mjs
+      - .github/workflows/endriss-fgo-gesetz.yml
+permissions:
+  contents: read
+concurrency:
+  group: endriss-fgo-gesetz-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            social/package-lock.json
+      - run: npm ci
+      - name: All source pages, native rendering and existing regressions
+        run: |
+          node tools/pruefen-endriss-fgo-gesetz.mjs
+          node tools/pruefen-endriss-fgo.mjs
+          node tools/pruefen-endriss-native.mjs
+          node tools/pruefen-endriss-horst2.mjs
+          node tools/pruefen-endriss-nachtrag.mjs
+          node tools/pruefen-endriss-notfallbuch.mjs
+          npm run check:k1-ao-einheit-6
+          npm run build
+      - name: Locked browser dependency without social production scripts
+        run: npm ci --prefix social --ignore-scripts
+      - name: Chromium
+        working-directory: social
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Actual full-source and existing navigation on desktop and mobile
+        run: |
+          set -euo pipefail
+          mkdir -p test-results/endriss-fgo-gesetz
+          node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173 --strictPort > test-results/endriss-fgo-gesetz/server.log 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:4173/ >/dev/null
+          node tools/pruefen-endriss-fgo-gesetz.mjs --browser
+          node tools/pruefen-endriss-fgo.mjs --browser
+          node tools/pruefen-endriss-browser.mjs
+      - name: Preserve actual test reports and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-fgo-complete-evidence
+          path: |
+            test-results/endriss-fgo-gesetz
+            test-results/endriss-fgo
+            test-results/endriss-browser
+          retention-days: 7
