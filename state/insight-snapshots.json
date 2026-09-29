@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-29T05:45:38.587Z",
+  "stand": "2026-09-29T06:44:01.108Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -7256,6 +7256,30 @@
           "navigation_tap_back": 3
         }
       ]
+    },
+    "18400813921205293": {
+      "art": "beitrag",
+      "datum": "2026-09-29",
+      "titel": "Drei Vermögen: Wo landet die Maschine?",
+      "format": "spickzettel",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-29T05:44:49.744Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-29T06:44:00.482Z",
+          "alterStunden": 1,
+          "reach": 6,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -7677,6 +7701,11 @@
     {
       "stand": "2026-09-29T05:45:38.587Z",
       "follower": 81,
+      "medien": 69
+    },
+    {
+      "stand": "2026-09-29T06:44:01.108Z",
+      "follower": 84,
       "medien": 69
     }
   ]
