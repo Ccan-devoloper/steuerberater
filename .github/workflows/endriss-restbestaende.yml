@@ -31,6 +31,8 @@ jobs:
         run: node tools/pruefen-endriss-native.mjs
       - name: Source-bound Horst version-2 mapping
         run: node tools/pruefen-endriss-horst2.mjs
+      - name: Source-bound AO/FGO Notfallbuch mapping
+        run: node tools/pruefen-endriss-notfallbuch.mjs
       - name: Local validation dependencies
         run: tar -czf /tmp/endriss-node.tar.gz node_modules
       - uses: actions/upload-artifact@v4
