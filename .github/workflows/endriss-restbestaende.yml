@@ -29,6 +29,8 @@ jobs:
       - run: npm ci
       - name: Native registry and rendered source content
         run: node tools/pruefen-endriss-native.mjs
+      - name: Source-bound Horst version-2 mapping
+        run: node tools/pruefen-endriss-horst2.mjs
       - name: Local validation dependencies
         run: tar -czf /tmp/endriss-node.tar.gz node_modules
       - uses: actions/upload-artifact@v4
