@@ -19,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "kst-aufb-kst-t2-38",
-        "themaTitel": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
-        "fach": "kst",
+        "themaId": "gewst-aufb-gewst-ks-05",
+        "themaTitel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
+        "fach": "gewst",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "klausurtechnik",
-        "themaId": "umwst-aufb-umw-ks-6-c-15",
-        "themaTitel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
-        "fach": "umwst",
+        "themaId": "bilanz-modul-k3-25",
+        "themaTitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "erbst-modul-erbst-544",
-        "themaTitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
-        "fach": "erbst",
+        "themaId": "ao-modul-ao-391",
+        "themaTitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
+        "fach": "ao",
         "klausur": 1,
         "lang": false
       }
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "kst",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-aufb-kst-t2-38",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-05",
       "slug": "2026-10-10-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
+          "titel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Ausschüttungen, Veräußerungsgewinne und Gewinnminderungen, die über einen Mitunternehmeranteil zugerechnet werden, sind nach § 8b Abs. 6 Satz 1 KStG wie direkt bezogene zu behandeln, gleich ob die Anteile im Gesamthands- oder Sonderbetriebsvermögen liegen.",
-            "Die Personengesellschaft stellt die Einkünfte regelmäßig ohne die Wirkungen des § 8b KStG fest; die begünstigten Beträge werden separat ausgewiesen und erst beim Mitunternehmer berücksichtigt."
+            "Du weißt, dass die erweiterte Kürzung nach § 9 Nr. 1 Satz 2 GewStG auf Antrag an die Stelle der einfachen Grundstückskürzung tritt.",
+            "Du kennst das Ausschließlichkeitsgebot und seine abschließenden Ausnahmen, etwa die Verwaltung eigenen Kapitalvermögens oder Stromlieferungen aus erneuerbaren Energien."
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Feststellen, ob die Personengesellschaft gewerblich tätig oder geprägt ist oder nur Vermögen verwaltet."
+              "text": "Prüfe, ob das Unternehmen ausschließlich eigenen Grundbesitz verwaltet und nutzt oder daneben nur zugelassene Tätigkeiten ausübt."
             },
             {
               "titel": "2. Schritt",
-              "text": "Die im festgestellten Gewinnanteil enthaltenen Beteiligungserträge, Veräußerungsgewinne und Anteilsverluste herausfiltern."
+              "text": "Schließe schädliche Fälle aus: Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters, nicht geringfügige Mitvermietung von Betriebsvorrichtungen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,39 +161,39 @@
           ]
         }
       ],
-      "caption": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "Dividende über die KG: Gilt § 8b KStG auch für…",
+      "kurztitel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 8b Abs. 6 KStG",
-        "§ 8b Abs. 1 bis 5 KStG",
-        "§ 8b Abs. 3 Sätze 3 bis 8 KStG",
-        "§ 39 Abs. 2 Nr. 2 AO",
-        "§ 180 AO",
-        "§ 182 Abs. 1 Satz 1 AO",
-        "§ 3 Nr. 40 EStG, § 3c Abs. 2 EStG",
-        "§ 7 Satz 4 GewStG",
-        "BFH vom 23.07.1975, BStBl. II 1976, 73",
-        "BFH vom 18.07.2012, BStBl. II 2013, 444",
-        "Themenpool: kst-aufb-kst-t2-38"
+        "§ 9 Nr. 1 Satz 1 GewStG",
+        "§ 9 Nr. 1 Satz 2 ff. GewStG",
+        "§ 9 Nr. 2 GewStG",
+        "§ 9 Nr. 2a GewStG",
+        "§ 9 Nr. 2b GewStG",
+        "§ 9 Nr. 3 GewStG",
+        "§ 9 Nr. 5 GewStG",
+        "§ 9 Nr. 7 GewStG",
+        "§ 9 Nr. 8 GewStG",
+        "§ 20 GewStDV",
+        "Themenpool: gewst-aufb-gewst-ks-05"
       ],
       "coverRegie": {
-        "thema": "Dividende über die KG: Gilt § 8b KStG auch für Mitunternehmer?",
+        "thema": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b1-kst-aufb-kst-t2-38-cover.png",
+        "bilddatei": "2026-10-10-b1-gewst-aufb-gewst-ks-05-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -206,15 +206,15 @@
     },
     "b2": {
       "format": "klausurtechnik",
-      "fach": "umwst",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-ks-6-c-15",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-25",
       "slug": "2026-10-10-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
+          "titel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -222,8 +222,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "§ 21 UmwStG erfasst den Fall, dass jemand Kapitalgesellschaftsanteile auf eine Kapitalgesellschaft überträgt und dafür neue Anteile erhält; die eingebrachten Anteile können aus Betriebs- oder Privatvermögen stammen.",
-            "Gibt die Übernehmerin keine neuen Anteile aus und bucht den Zugang nur in die Kapitalrücklage oder als Ertrag, handelt es sich um eine verdeckte Einlage."
+            "Verbrauchsfolgeverfahren handels- und steuerrechtlich einordnen",
+            "das strenge Niederstwertprinzip anwenden"
           ]
         },
         {
@@ -232,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob Gegenstand der Übertragung Anteile an einer Kapitalgesellschaft sind und nicht ein Betrieb, zu dem sie gehören."
+              "text": "Zuordnung zum Umlaufvermögen begründen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Feststellen, ob die Übernehmerin ihr Nennkapital erhöht und dem Einbringenden neue Anteile gewährt."
+              "text": "AK/HK je Zugang ermitteln."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Anteilstausch oder verdeckte Einlage: Worauf kommt es an?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Vorräte, Bewertungsvereinfachung und Niederstwert: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -260,35 +260,39 @@
           ]
         }
       ],
-      "caption": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Vorräte, Bewertungsvereinfachung und Niederstwert: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an",
+      "kurztitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 21 UmwStG",
-        "§ 20 UmwStG",
-        "§ 21 Abs. 2 UmwStG",
-        "§ 20 Abs. 2 EStG",
-        "§ 8 Abs. 3 KStG",
-        "§ 27 KStG",
-        "Themenpool: umwst-aufb-umw-ks-6-c-15"
+        "§ 240 Abs. 3 HGB",
+        "§ 240 Abs. 4 HGB",
+        "§ 256 S. 1 HGB",
+        "§ 256 S. 2 i. V. m. § 252 Abs. 2 HGB",
+        "§ 253 Abs. 1 S. 1 HGB",
+        "§ 253 Abs. 4 S. 1, 2 HGB",
+        "§ 253 Abs. 5 S. 1 HGB",
+        "§ 6 Abs. 1 Nr. 2 S. 1–3 EStG",
+        "§ 6 Abs. 1 Nr. 2a EStG",
+        "R 6.8, R 6.9 EStR",
+        "Themenpool: bilanz-modul-k3-25"
       ],
       "coverRegie": {
-        "thema": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
+        "thema": "Vorräte, Bewertungsvereinfachung und Niederstwert",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b2-umwst-aufb-umw-ks-6-c-15-cover.png",
+        "bilddatei": "2026-10-10-b2-bilanz-modul-k3-25-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -302,33 +306,33 @@
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-544",
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-391",
       "slug": "2026-10-10-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
-          "unter": "Erbschaftsteuer / Bewertung",
+          "titel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
+          "unter": "Abgabenordnung",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 178 BewG",
+          "norm": "§ 69 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "unbebautes Grundstück nach §178 erkennen"
+            "Grundsatz der Gesamtverantwortung nennen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Unbebaut i.S.d. § 178 BewG?",
+          "titel": "Grundsatz: Gesamtverantwortung aller GF.",
           "text": null,
-          "norm": "§ 178 BewG",
+          "norm": "§ 69 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Unbebaut i.S.d. § 178 BewG?",
+          "sprecher": "Schritt 1: Grundsatz: Gesamtverantwortung aller GF.",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -336,11 +340,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Bodenrichtwert nach § 179 ermitteln; Quellenhinweis: letzter BRW vor dem Stichtag.",
+          "titel": "",
           "text": null,
-          "norm": "§ 179 BewG",
+          "norm": "§ 34 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 179 BewG im Zusammenhang mit Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale.",
+          "sprecher": "Schritt 2: .",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -349,7 +353,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: Voraussetzungen vor Ergebnis.",
+          "text": "Bei Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -368,32 +372,31 @@
           ]
         }
       ],
-      "caption": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+      "kurztitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 178 BewG",
-        "§ 179 BewG",
-        "H B 179.2",
-        "Themenpool: erbst-modul-erbst-544"
+        "§ 69 AO",
+        "§ 34 AO",
+        "Themenpool: ao-modul-ao-391"
       ],
       "coverRegie": {
-        "thema": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+        "thema": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b3-erbst-modul-erbst-544-cover.png",
+        "bilddatei": "2026-10-10-b3-ao-modul-ao-391-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,

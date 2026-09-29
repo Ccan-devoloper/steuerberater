@@ -19,18 +19,18 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "persg-aufb-persg-melzer-1-2",
-        "themaTitel": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
-        "fach": "persg",
+        "themaId": "bilanz-aufb-bil-melzer-6-01",
+        "themaTitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "klausurtechnik",
-        "themaId": "ao-modul-ao-360",
-        "themaTitel": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
-        "fach": "ao",
+        "themaId": "erbst-aufb-erbst-v-28",
+        "themaTitel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
+        "fach": "erbst",
         "klausur": 1
       },
       {
@@ -74,7 +74,7 @@
         "slot": "s7",
         "zeit": "14:36",
         "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-8-14"
+        "themaId": "ao-modul-ao-306"
       },
       {
         "slot": "s2",
@@ -87,7 +87,7 @@
         "slot": "s8",
         "zeit": "17:03",
         "art": "fehler",
-        "themaId": "ao-modul-ao-312"
+        "themaId": "ao-modul-ao-305"
       },
       {
         "slot": "s9",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-1-2",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-6-01",
       "slug": "2026-10-17-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
+          "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Nach § 39 Abs. 2 Nr. 2 AO gilt das Vermögen einer rechtsfähigen Personengesellschaft für die Ertragsteuern als Gesamthandsvermögen und wird den Gesellschaftern anteilig zugerechnet, soweit die Besteuerung das verlangt.",
-            "Was der Gesellschaft zivilrechtlich oder wirtschaftlich gehört, ist handelsrechtlich zu bilanzieren und über die Maßgeblichkeit im Grundfall auch in der Steuerbilanz zu zeigen."
+            "Handelsrechtlich ist die Beteiligung an einer Personengesellschaft ein Vermögensgegenstand mit Anschaffungskosten; steuerlich ist sie kein eigenständiges Wirtschaftsgut.",
+            "Steuerlich wird der Anteil an einer Personengesellschaft in Höhe des Kapitals in der Gesellschaft fortgeführt; Gewinnanteile, Verluste, Einlagen und Entnahmen verändern ihn, eine Teilwertabschreibung scheidet aus."
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Stelle fest, ob das Wirtschaftsgut der Gesellschaft selbst gehört oder einem, mehreren oder allen Gesellschaftern."
+              "text": "Feststellen, ob Anteile an einer Personen- oder an einer Kapitalgesellschaft gehalten werden."
             },
             {
               "titel": "2. Schritt",
-              "text": "Gehört es der Gesellschaft, bejahe im Grundfall Betriebsvermögen und suche nur noch nach Gründen für gesamthänderisch gebundenes Privatvermögen."
+              "text": "Bei Personengesellschaften das Beteiligungskonto in der Steuerbilanz an das Kapital in der Gesellschaft anpassen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Beteiligung an KG oder GmbH: Wie wird sie bilanziert?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,28 +161,31 @@
           ]
         }
       ],
-      "caption": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Ist alles Gesellschaftsvermögen einer PersG…",
+      "kurztitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "R 4.2 Abs. 1 und 2 EStR",
-        "H 4.2 Abs. 1, 11 EStH",
-        "§ 39 Abs. 2 Nr. 1 und Nr. 2 AO",
-        "§ 713 BGB",
-        "§ 105 Abs. 3 HGB",
-        "§ 161 Abs. 2 HGB",
-        "§ 60 Abs. 2 Satz 1 EStDV",
-        "Themenpool: persg-aufb-persg-melzer-1-2"
+        "§ 31 Abs. 1 KStG",
+        "§ 246 Abs. 1 HGB",
+        "§ 253 Abs. 1 HGB",
+        "§ 255 Abs. 1 HGB",
+        "§ 3 EStG",
+        "§ 43a EStG",
+        "§ 36 Abs. 2 EStG",
+        "§ 271 HGB",
+        "§ 15 EStG",
+        "§ 4a Abs. 2 EStG",
+        "Themenpool: bilanz-aufb-bil-melzer-6-01"
       ],
       "coverRegie": {
-        "thema": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
+        "thema": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
@@ -190,7 +193,7 @@
         "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b1-persg-aufb-persg-melzer-1-2-cover.png",
+        "bilddatei": "2026-10-17-b1-bilanz-aufb-bil-melzer-6-01-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -203,15 +206,15 @@
     },
     "b2": {
       "format": "klausurtechnik",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-360",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-aufb-erbst-v-28",
       "slug": "2026-10-17-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
+          "titel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
           "coverBadge": null,
           "coverBildAuslassen": true
         },
@@ -219,8 +222,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "schlichten Änderungsantrag und Einspruch rechtlich trennen",
-            "Formfreiheit des Änderungsantrags kennen"
+            "Der Satz richtet sich nach Steuerklasse und Höhe des auf volle 100 € abgerundeten Erwerbs; in Klasse I reicht er von 7 % bis 30 %, in Klasse II von 15 % bis 43 %, in Klasse III beträgt er 30 % oder 50 %.",
+            "Die Wertgrenzen liegen bei 75.000 €, 300.000 €, 600.000 €, 6 Mio. €, 13 Mio. € und 26 Mio. €."
           ]
         },
         {
@@ -229,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob eine Erklärung als Einspruch oder als Antrag auf schlichte Änderung auszulegen ist; bei Unklarheit Reichweite und Rechtsschutzinteresse würdigen."
+              "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden."
             },
             {
               "titel": "2. Schritt",
-              "text": "Beim schlichten Änderungsantrag Formfreiheit beachten; auch mündliche oder telefonische Anträge sind möglich und aktenkundig zu machen."
+              "text": "Steuerklasse und passende Wertstufe bestimmen und die Steuer auf den gesamten Erwerb berechnen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei § 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Steuersatz und Härteausgleich nach § 19 ErbStG anwenden: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -257,41 +260,32 @@
           ]
         }
       ],
-      "caption": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "§ 172 AO: Zustimmung, schlichte Änderung,…",
+      "kurztitel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
       "coverBadge": null,
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 172 Abs. 1 Nr. 2 Buchst. a AO",
-        "§ 356 AO",
-        "§ 357 AO",
-        "§ 110 AO",
-        "§ 172 Abs. 1 Nr. 2 Buchst. c AO",
-        "§ 370 Abs. 4 S. 3 AO",
-        "§ 172 Abs. 1 Nr. 2 Buchst. a und c AO",
-        "§§ 356, 357 und 110 AO",
-        "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
-        "AEAO zu § 172 Nr. 2",
-        "BFH 20.12.2006 – X R 30/05",
-        "BFH 22.05.2019 – XI R 17/18",
-        "Themenpool: ao-modul-ao-360"
+        "§ 19 Abs. 1 ErbStG",
+        "§ 19 Abs. 3 ErbStG",
+        "H E 19 ErbStH",
+        "Themenpool: erbst-aufb-erbst-v-28"
       ],
       "coverRegie": {
-        "thema": "§ 172 AO: Zustimmung, schlichte Änderung, Steuerhinterziehung und Korrekturpärchen",
+        "thema": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
         "goldenReferences": [
           "assets/referenzen/charaktere/05-fritz-kranz.jpg",
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b2-ao-modul-ao-360-cover.png",
+        "bilddatei": "2026-10-17-b2-erbst-aufb-erbst-v-28-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -501,19 +495,16 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-8-14",
+      "pairId": "ao-modul-ao-306",
       "quellen": [
-        "§ 367 Abs. 2 Sätze 1 und 2 AO",
-        "§ 351 Abs. 1 Halbsätze 1 und 2 AO",
-        "§ 362 Abs. 1 Sätze 1 und 2 AO",
-        "§ 357 Abs. 1 Satz 1 AO",
-        "§ 366 AO",
-        "§ 177 Abs. 1 AO",
-        "§ 129 AO",
-        "§§ 172ff AO",
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
-        "§ 173a AO",
-        "Themenpool: ao-aufb-ao-jacobs-8-14"
+        "§ 124 AO",
+        "§ 125 AO",
+        "§ 119 AO",
+        "§ 157 AO",
+        "§ 196 AO",
+        "§ 191 AO",
+        "§ 45 AO",
+        "Themenpool: ao-modul-ao-306"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -523,8 +514,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
-      "text": "Klären, ob der angefochtene Bescheid einen noch anfechtbaren oder einen bereits bestandskräftigen Bescheid ändert."
+      "titel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
+      "text": "untersuchen, ob der VA nach § 124 AO wirksam geworden ist."
     },
     "s8": {
       "slot": "s8",
@@ -532,13 +523,19 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-312",
+      "pairId": "ao-modul-ao-305",
       "quellen": [
-        "§ 124 Abs. 1 AO",
-        "AEAO zu § 124 Nr. 4–6",
-        "§ 79 Abs. 1 AO",
-        "§ 122 AO",
-        "Themenpool: ao-modul-ao-312"
+        "§ 118 AO",
+        "§ 155 AO",
+        "§§ 167, 168 AO",
+        "§ 179 AO",
+        "§ 239 AO",
+        "§ 164 AO",
+        "§ 165 AO",
+        "§§ 172–177 AO",
+        "§ 130 AO",
+        "§ 131 AO",
+        "Themenpool: ao-modul-ao-305"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -548,9 +545,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
-      "falsch": "Bekanntgabewille mit tatsächlichem Zugang verwechseln.",
-      "richtigText": "Bekanntgabewille als eigenen Wirksamkeitspunkt untersuchen"
+      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+      "falsch": "§§ 172 ff. AO auf jeden sonstigen VA anwenden.",
+      "richtigText": "Steuerbescheid/gleichgestellten VA von sonstigem VA trennen"
     },
     "s9": {
       "slot": "s9",

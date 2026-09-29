@@ -19,9 +19,9 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "ao-aufb-ao-jacobs-7-9",
-        "themaTitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
-        "fach": "ao",
+        "themaId": "erbst-modul-erbst-539",
+        "themaTitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+        "fach": "erbst",
         "klausur": 1
       },
       {
@@ -29,7 +29,7 @@
         "zeit": "13:30",
         "format": "schema",
         "themaId": "gewst-aufb-gewst-ks-08",
-        "themaTitel": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+        "themaTitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
         "fach": "gewst",
         "klausur": 2
       },
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-aufb-ao-jacobs-7-9",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-539",
       "slug": "2026-10-12-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+          "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Grobes Verschulden umfasst Vorsatz und grobe Fahrlässigkeit, also eine ungewöhnliche, nicht entschuldbare Verletzung der persönlich zumutbaren Sorgfalt; ein Verschulden des Beraters wird zugerechnet.",
-            "Einfache Versehen, Rechenfehler oder die Rechtsunkenntnis eines Laien sind regelmäßig nicht grob; das Übergehen klarer Hinweise im Erklärungsvordruck dagegen schon."
+            "immerwährende von unbestimmter Dauer trennen",
+            "Grabpflege in den Nutzungs-/Leistungsblock einordnen"
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Für die steuermindernde Tatsache das Verschulden des Steuerpflichtigen und seines Beraters würdigen."
+              "text": "Jahreswert der Leistung bestimmen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei grobem Verschulden untersuchen, ob zugleich eine steuererhöhende neue Tatsache in unmittelbarem oder mittelbarem sachlichem Zusammenhang steht."
+              "text": "Immerwährende Dauer → Jahreswert × 18,6."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei § 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,31 +161,24 @@
           ]
         }
       ],
-      "caption": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Grobes Verschulden bei § 173 AO und die Sperre nach…",
+      "kurztitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer;…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
-        "§ 164 Abs. 2 AO",
-        "§ 177 AO",
-        "§ 181 Abs. 1 Satz 1 AO",
-        "§ 180 Abs. 1 Nr. 2a AO",
-        "§ 129 AO",
-        "§ 172 Abs. 1 Nr. 2c AO",
-        "§ 174 AO",
-        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 370 AO",
-        "Themenpool: ao-aufb-ao-jacobs-7-9"
+        "§ 13 Abs. 2 BewG",
+        "§ 15 BewG",
+        "§ 16 BewG",
+        "Themenpool: erbst-modul-erbst-539"
       ],
       "coverRegie": {
-        "thema": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+        "thema": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
         "goldenReferences": [
           "assets/referenzen/charaktere/02-vera-kranz.jpg",
           "assets/referenzen/charaktere/07-dario-costa.jpg"
@@ -193,7 +186,7 @@
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b1-ao-aufb-ao-jacobs-7-9-cover.png",
+        "bilddatei": "2026-10-12-b1-erbst-modul-erbst-539-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -214,7 +207,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+          "titel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -243,7 +236,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -260,14 +253,14 @@
           ]
         }
       ],
-      "caption": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#gewerbesteuer"
       ],
-      "kurztitel": "Mehrere Betriebsstättengemeinden: Wie wird der…",
+      "kurztitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden…",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
@@ -282,12 +275,12 @@
         "Themenpool: gewst-aufb-gewst-ks-08"
       ],
       "coverRegie": {
-        "thema": "Mehrere Betriebsstättengemeinden: Wie wird der Messbetrag verteilt?",
+        "thema": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
         "goldenReferences": [
           "assets/referenzen/charaktere/06-kalle.jpg",
           "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
         "bilddatei": "2026-10-12-b2-gewst-aufb-gewst-ks-08-cover.png",

@@ -19,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-354",
-        "themaTitel": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden",
-        "fach": "ao",
+        "themaId": "erbst-modul-erbst-531",
+        "themaTitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
+        "fach": "erbst",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "gewst-aufb-gewst-ks-05",
-        "themaTitel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
-        "fach": "gewst",
+        "themaId": "istr-modul-istr-istr2-09",
+        "themaTitel": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
+        "fach": "istr",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "persg-aufb-persg-melzer-1-3",
-        "themaTitel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
-        "fach": "persg",
+        "themaId": "umwst-aufb-umw-2-25",
+        "themaTitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+        "fach": "umwst",
         "klausur": 3,
         "lang": true
       }
@@ -74,7 +74,7 @@
         "slot": "s7",
         "zeit": "14:21",
         "art": "fehler",
-        "themaId": "ao-modul-ao-306"
+        "themaId": "ao-modul-ao-312"
       },
       {
         "slot": "s2",
@@ -93,7 +93,7 @@
         "slot": "s9",
         "zeit": "19:24",
         "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-7-5"
+        "themaId": "ao-aufb-ao-jacobs-7-17"
       },
       {
         "slot": "s3",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-354",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-531",
       "slug": "2026-10-18-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden",
+          "titel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Tatsache oder Beweismittel von bloßer rechtlicher Würdigung unterscheiden",
-            "nachträgliches Bekanntwerden und Rechtserheblichkeit untersuchen"
+            "Nutzung/Leistung als eigenen Bewertungsblock erkennen",
+            "Jahreswert und Vervielfältiger strikt trennen"
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Tatsache oder Beweismittel identifizieren; bloße rechtliche Neubewertung reicht nicht."
+              "text": "Recht/Leistung bestimmen: z.B. Wohnrecht, Nießbrauch, Rente, Pflege/Rasenmähen."
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob die Tatsache bereits bei Erlass des zu ändernden Bescheids vorhanden war; ein späteres rückwirkendes Ereignis gehört im Grundfall zu § 175 Abs. 1 S. 1 Nr. 2 AO."
+              "text": "① Jahreswert nach § 15 BewG ermitteln."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei § 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,38 +161,37 @@
           ]
         }
       ],
-      "caption": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden…",
+      "kurztitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht,…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 173 Abs. 1 Nr. 1 AO",
-        "§ 173 Abs. 1 Nr. 2 AO",
-        "§ 173 Abs. 2 AO",
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "AEAO zu § 173 Nr. 1.3",
-        "AEAO zu § 173 Nr. 1.4",
-        "AEAO zu § 173 Nr. 4",
-        "§ 173 Abs. 1 Nr. 1 und 2 AO",
-        "AEAO zu § 173 Nr. 1.3, 1.4 und 4",
-        "Themenpool: ao-modul-ao-354"
+        "§ 15 Abs. 1 BewG",
+        "§ 15 Abs. 2 BewG",
+        "§ 15 Abs. 3 BewG",
+        "§ 16 BewG",
+        "§ 13 BewG",
+        "§ 14 BewG",
+        "§§ 13–16 BewG",
+        "§ 15 Abs. 1–3 BewG",
+        "Themenpool: erbst-modul-erbst-531"
       ],
       "coverRegie": {
-        "thema": "§ 173 AO: neue Tatsachen – Nr. 1/Nr. 2, Bekanntwerden und Verschulden",
+        "thema": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-18-b1-ao-modul-ao-354-cover.png",
+        "bilddatei": "2026-10-18-b1-erbst-modul-erbst-531-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -205,15 +204,15 @@
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "gewst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-05",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-09",
       "slug": "2026-10-18-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
+          "titel": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -221,8 +220,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Du weißt, dass die erweiterte Kürzung nach § 9 Nr. 1 Satz 2 GewStG auf Antrag an die Stelle der einfachen Grundstückskürzung tritt.",
-            "Du kennst das Ausschließlichkeitsgebot und seine abschließenden Ausnahmen, etwa die Verwaltung eigenen Kapitalvermögens oder Stromlieferungen aus erneuerbaren Energien."
+            "Nationale und abkommensrechtliche Ebene sichtbar trennen.",
+            "Bei beschränkter Steuerpflicht vor anwenden."
           ]
         },
         {
@@ -231,18 +230,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Prüfe, ob das Unternehmen ausschließlich eigenen Grundbesitz verwaltet und nutzt oder daneben nur zugelassene Tätigkeiten ausübt."
+              "text": "1. Steuerpflicht nach § 1 EStG."
             },
             {
               "titel": "2. Schritt",
-              "text": "Schließe schädliche Fälle aus: Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters, nicht geringfügige Mitvermietung von Betriebsvorrichtungen."
+              "text": "2. Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -250,48 +249,45 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Thema für die nächste Wiederholung speichern"
           ],
           "icons": [
             "dokument",
             "lupe",
-            "warnung"
+            "buch"
           ]
         }
       ],
-      "caption": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#gewerbesteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer…",
+      "kurztitel": "Klausurtechnik: nationaler Steuerzugriff → DBA →…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 9 Nr. 1 Satz 1 GewStG",
-        "§ 9 Nr. 1 Satz 2 ff. GewStG",
-        "§ 9 Nr. 2 GewStG",
-        "§ 9 Nr. 2a GewStG",
-        "§ 9 Nr. 2b GewStG",
-        "§ 9 Nr. 3 GewStG",
-        "§ 9 Nr. 5 GewStG",
-        "§ 9 Nr. 7 GewStG",
-        "§ 9 Nr. 8 GewStG",
-        "§ 20 GewStDV",
-        "Themenpool: gewst-aufb-gewst-ks-05"
+        "§ 1 EStG",
+        "§ 49 EStG",
+        "§ 50 EStG",
+        "Art. 1–23 DBA",
+        "§ 32b EStG",
+        "DBA AAVV",
+        "§ 50 / § 32b EStG",
+        "Themenpool: istr-modul-istr-istr2-09"
       ],
       "coverRegie": {
-        "thema": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
+        "thema": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
         "goldenReferences": [
           "assets/referenzen/charaktere/02-vera-kranz.jpg",
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-18-b2-gewst-aufb-gewst-ks-05-cover.png",
+        "bilddatei": "2026-10-18-b2-istr-modul-istr-istr2-09-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -305,33 +301,33 @@
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "persg",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-1-3",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-25",
       "slug": "2026-10-18-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
-          "unter": "Personengesellschaften",
+          "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+          "unter": "Umwandlungssteuerrecht",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "R 4.2 Abs. 2 Satz 2, Abs. 7 EStR",
+          "norm": "§ 20 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um Wie viel Geld darf man neben den neuen Anteilen erhalten? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Ein Wirtschaftsgut"
+            "Nach § 20 Abs."
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Klären, wem das Wirtschaftsgut gehört und ob der Eigentümer im betreffenden Zeitraum Mitunternehmer ist.",
+          "titel": "Prüfpunkt 1: § 20 Abs. 3 UmwStG",
           "text": null,
-          "norm": "R 4.2 Abs. 2 Satz 2, Abs. 7 EStR",
+          "norm": "§ 20 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe R 4.2 Abs. 2 Satz 2, Abs. 7 EStR im Zusammenhang mit Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+          "sprecher": "Schritt 1: Prüfe § 20 Abs. 3 UmwStG im Zusammenhang mit Wie viel Geld darf man neben den neuen Anteilen erhalten?",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -339,11 +335,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 15 Abs. 1 Nr. 2 Satz 1 HS 2 EStG",
+          "titel": "Prüfpunkt 2: § 20 Abs. 2 UmwStG",
           "text": null,
-          "norm": "§ 15 Abs. 1 Nr. 2 Satz 1 HS 2 EStG",
+          "norm": "§ 20 Abs. 2 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 15 Abs. 1 Nr. 2 Satz 1 HS 2 EStG im Zusammenhang mit Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+          "sprecher": "Schritt 2: Prüfe § 20 Abs. 2 UmwStG im Zusammenhang mit Wie viel Geld darf man neben den neuen Anteilen erhalten?",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -352,7 +348,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?: Voraussetzungen vor Ergebnis.",
+          "text": "Bei Wie viel Geld darf man neben den neuen Anteilen erhalten?: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -371,38 +367,35 @@
           ]
         }
       ],
-      "caption": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wie viel Geld darf man neben den neuen Anteilen erhalten?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+      "kurztitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "R 4.2 Abs. 2 Satz 2, Abs. 7 EStR",
-        "§ 15 Abs. 1 Nr. 2 Satz 1 HS 2 EStG",
-        "§ 4 Abs. 1 Satz 2 und Satz 8 EStG",
-        "§ 5 Abs. 6 EStG",
-        "§ 6 Abs. 1 Nr. 5 EStG",
-        "§ 7 Abs. 1 Satz 5 EStG",
-        "§ 7 Abs. 4 Satz 1 Nr. 2 Buchst. b EStG",
-        "§ 21 EStG",
-        "§ 15 Abs. 1 Nr. 1, Abs. 2 Nr. 1 UStG",
-        "Themenpool: persg-aufb-persg-melzer-1-3"
+        "§ 20 Abs. 3 UmwStG",
+        "§ 20 Abs. 2 UmwStG",
+        "§ 16 EStG",
+        "§ 20 Abs. 1 UmwStG",
+        "§ 20 Abs. 4 UmwStG",
+        "§ 54 Abs. 4 UmwG",
+        "Themenpool: umwst-aufb-umw-2-25"
       ],
       "coverRegie": {
-        "thema": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+        "thema": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-18-b3-persg-aufb-persg-melzer-1-3-cover.png",
+        "bilddatei": "2026-10-18-b3-umwst-aufb-umw-2-25-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -499,16 +492,13 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-306",
+      "pairId": "ao-modul-ao-312",
       "quellen": [
-        "§ 124 AO",
-        "§ 125 AO",
-        "§ 119 AO",
-        "§ 157 AO",
-        "§ 196 AO",
-        "§ 191 AO",
-        "§ 45 AO",
-        "Themenpool: ao-modul-ao-306"
+        "§ 124 Abs. 1 AO",
+        "AEAO zu § 124 Nr. 4–6",
+        "§ 79 Abs. 1 AO",
+        "§ 122 AO",
+        "Themenpool: ao-modul-ao-312"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -518,9 +508,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
-      "falsch": "Jeden materiell falschen Steuerbescheid als nichtig behandeln.",
-      "richtigText": "Wirksamkeit nach § 124 AO von inhaltlicher Richtigkeit trennen"
+      "titel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+      "falsch": "Bekanntgabewille mit tatsächlichem Zugang verwechseln.",
+      "richtigText": "Bekanntgabewille als eigenen Wirksamkeitspunkt untersuchen"
     },
     "s8": {
       "slot": "s8",
@@ -552,19 +542,19 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-7-5",
+      "pairId": "ao-aufb-ao-jacobs-7-17",
       "quellen": [
-        "§ 172 Abs. 1 Satz 1 Nr. 2a Halbsatz 2 AO",
-        "§ 132 AO",
-        "§ 165 Abs. 2 AO",
-        "§ 164 AO",
-        "§§ 347 ff. AO",
-        "§ 355 Abs. 1 AO",
-        "§ 357 Abs. 1 Sätze 1 und 3, Abs. 3 AO",
-        "§ 358 AO",
+        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 182 Abs. 1 AO",
+        "§ 171 Abs. 10 Sätze 1 bis 4 AO",
+        "§ 171 Abs. 2 AO",
+        "§ 171 Abs. 4 Satz 1 AO",
+        "§ 129 AO",
+        "§ 164 Abs. 1 und 2 AO",
+        "§ 172 Abs. 1 Satz 1 Nr. 2a AO",
+        "§ 367 Abs. 2 Satz 3 AO",
         "§ 361 Abs. 2 AO",
-        "§ 365 Abs. 3 AO",
-        "Themenpool: ao-aufb-ao-jacobs-7-5"
+        "Themenpool: ao-aufb-ao-jacobs-7-17"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -574,8 +564,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
-      "text": "Feststellen, dass ein endgültiger Bescheid vorliegt und der Antrag innerhalb der Einspruchsfrist gestellt wurde."
+      "titel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
+      "text": "untersuchen, ob ein Grundlagenbescheid im Sinne des § 171 Abs. 10 AO mit Bindungswirkung für den Folgebescheid vorliegt."
     }
   },
   "renderVorschau": {

@@ -19,18 +19,18 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "persg-aufb-persg-melzer-1-4",
-        "themaTitel": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?",
-        "fach": "persg",
+        "themaId": "bilanz-aufb-bil-melzer-ue-18",
+        "themaTitel": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-aufb-ao-jacobs-7-17",
-        "themaTitel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
-        "fach": "ao",
+        "themaId": "erbst-aufb-erbst-bew1-8",
+        "themaTitel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
+        "fach": "erbst",
         "klausur": 1
       },
       {
@@ -87,7 +87,7 @@
         "slot": "s8",
         "zeit": "16:47",
         "art": "fehler",
-        "themaId": "istr-aufb-istr-gh-4-14"
+        "themaId": "istr-modul-istr-istr2-07"
       },
       {
         "slot": "s9",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-1-4",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-ue-18",
       "slug": "2026-10-11-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?",
+          "titel": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Notwendiges Sonderbetriebsvermögen II liegt vor, wenn ein Wirtschaftsgut des Mitunternehmers eingesetzt wird, um seine Beteiligung zu erwerben oder seine Position in der Gesellschaft zu stärken.",
-            "Ein Kredit, mit dem der Gesellschafter seine Einlage oder den Anteilskauf finanziert, ist passives Sonderbetriebsvermögen II; die Zinsen sind Sonderbetriebsausgaben."
+            "Wurde das Gebäude selbst errichtet oder ohne Abbruchabsicht erworben, sind Restbuchwert und Abbruchkosten sofort abziehbare Betriebsausgaben.",
+            "Bei Erwerb in Abbruchabsicht gehören beide zu den Herstellungskosten des neuen Wirtschaftsguts, wenn das Gebäude noch nicht verbraucht war und ein enger Zusammenhang mit der Neuherstellung besteht; fehlt dieser Zusammenhang, erhöhen sie die Anschaffungskosten des Bodens."
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zuerst klären, ob das Wirtschaftsgut dem Betrieb der Gesellschaft direkt dient; dann ist es bereits Sonderbetriebsvermögen I."
+              "text": "Feststellen, ob das Gebäude selbst errichtet, erworben oder eingelegt wurde."
             },
             {
               "titel": "2. Schritt",
-              "text": "Andernfalls untersuchen, ob es die Beteiligung begründet, finanziert oder den Einfluss des Gesellschafters in der Gesellschaft erhöht."
+              "text": "Bei Erwerb untersuchen, ob eine Abbruchabsicht bestand, und dabei die Dreijahresfrist als Indiz nutzen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,32 +161,30 @@
           ]
         }
       ],
-      "caption": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen…",
+      "kurztitel": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "R 4.2 Abs. 2 Satz 2 EStR",
-        "H 4.2 Abs. 2 „Anteile an Kapitalgesellschaften“ EStH",
-        "H 4.2 Abs. 12 „Untervermietung“ EStH",
-        "Themenpool: persg-aufb-persg-melzer-1-4"
+        "§ 7 Abs. 1 EStG",
+        "Themenpool: bilanz-aufb-bil-melzer-ue-18"
       ],
       "coverRegie": {
-        "thema": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?",
+        "thema": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-11-b1-persg-aufb-persg-melzer-1-4-cover.png",
+        "bilddatei": "2026-10-11-b1-bilanz-aufb-bil-melzer-ue-18-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -199,15 +197,15 @@
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-aufb-ao-jacobs-7-17",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-aufb-erbst-bew1-8",
       "slug": "2026-10-11-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
+          "titel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -215,8 +213,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Grundlagenbescheide sind vor allem Feststellungs-, Steuermess- und Zerlegungsbescheide sowie bindende Entscheidungen anderer Behörden, etwa über den Grad einer Behinderung.",
-            "Die Anpassung ist zwingend und punktuell; sie umfasst alle Folgerungen aus dem Grundlagenbescheid, auch die Beseitigung früherer fehlerhafter Übernahmen."
+            "Nutzungen wie Nießbrauch oder Wohnrecht fließen aus einem fremden Wirtschaftsgut zu, Leistungen wie Renten beruhen auf einem Schuldverhältnis; der Unterschied zählt wegen § 16 BewG.",
+            "Der Jahreswert entspricht bei Geldbezügen den jährlichen Zahlungen, bei Sachvorteilen dem üblichen Mittelpreis am Verbrauchsort und bei schwankenden Erträgen einem geschätzten Durchschnitt aus der Vergangenheit."
           ]
         },
         {
@@ -225,18 +223,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob ein Grundlagenbescheid im Sinne des § 171 Abs. 10 AO mit Bindungswirkung für den Folgebescheid vorliegt."
+              "text": "Einordnen, ob eine Nutzung oder eine Leistung vorliegt und welche zeitliche Dauer sie hat."
             },
             {
               "titel": "2. Schritt",
-              "text": "Feststellen, dass dieser erlassen, geändert oder aufgehoben wurde und die Übernahme bisher fehlt oder unvollständig ist."
+              "text": "Jahreswert nach § 15 BewG ermitteln, bei schwankenden Erträgen aus dem Durchschnitt der Vorjahre."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -253,39 +251,37 @@
           ]
         }
       ],
-      "caption": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss…",
+      "kurztitel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG,…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 182 Abs. 1 AO",
-        "§ 171 Abs. 10 Sätze 1 bis 4 AO",
-        "§ 171 Abs. 2 AO",
-        "§ 171 Abs. 4 Satz 1 AO",
-        "§ 129 AO",
-        "§ 164 Abs. 1 und 2 AO",
-        "§ 172 Abs. 1 Satz 1 Nr. 2a AO",
-        "§ 367 Abs. 2 Satz 3 AO",
-        "§ 361 Abs. 2 AO",
-        "Themenpool: ao-aufb-ao-jacobs-7-17"
+        "§ 13 Abs. 1 BewG",
+        "§ 13 Abs. 1 Satz 2 BewG",
+        "§ 13 Abs. 2 BewG",
+        "§ 14 BewG",
+        "§ 15 Abs. 2 BewG",
+        "§ 15 Abs. 3 BewG",
+        "§ 16 BewG",
+        "Anlage 9a zu § 13 BewG",
+        "Themenpool: erbst-aufb-erbst-bew1-8"
       ],
       "coverRegie": {
-        "thema": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
+        "thema": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-11-b2-ao-aufb-ao-jacobs-7-17-cover.png",
+        "bilddatei": "2026-10-11-b2-erbst-aufb-erbst-bew1-8-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -513,19 +509,12 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-4-14",
+      "pairId": "istr-modul-istr-istr2-07",
       "quellen": [
-        "Art. 7 OECD-MA",
-        "§ 4 Abs. 1 EStG",
-        "§ 36 Abs. 5 EStG",
-        "§ 12 AO",
-        "§ 6 Abs. 1 EStG",
-        "§ 34c Abs. 1 EStG",
-        "§ 4g EStG",
-        "§ 1 AStG",
-        "§ 15 Abs. 1 EStG",
-        "§ 50d Abs. 9 EStG",
-        "Themenpool: istr-aufb-istr-gh-4-14"
+        "Art. 15 DBA",
+        "Art. 23 DBA",
+        "§ 32b EStG",
+        "Themenpool: istr-modul-istr-istr2-07"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -535,9 +524,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Wirtschaftsgut in die Auslandsbetriebsstätte: Entstrickung prüfen",
-      "falsch": "Die Anrechnungsmethode für unschädlich halten; schon die Beschränkung des Besteuerungsrechts löst die Entstrickung aus.",
-      "richtigText": "Du weißt, dass Spezialartikel wie Art. 6, 10 oder 11 OECD-MA dem Art. 7 vorgehen, Dividenden und Zinsen aber bei tatsächlicher Zugehörigkeit zur Betriebsstätte wieder unter Art. 7 fallen."
+      "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+      "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
+      "richtigText": "Tätigkeitsstaat als Ausgangspunkt des Art. 15 bestimmen."
     },
     "s9": {
       "slot": "s9",

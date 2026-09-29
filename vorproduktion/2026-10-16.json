@@ -19,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "kst-aufb-kst-t3-7",
-        "themaTitel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
-        "fach": "kst",
+        "themaId": "istr-modul-istr-istr3-03",
+        "themaTitel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
+        "fach": "istr",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "umwst-aufb-umw-ks-4-04",
-        "themaTitel": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
-        "fach": "umwst",
+        "themaId": "bilanz-aufb-bil-melzer-12-05",
+        "themaTitel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ust-aufb-ust-m-b06-17",
-        "themaTitel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
-        "fach": "ust",
+        "themaId": "ao-modul-ao-369",
+        "themaTitel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+        "fach": "ao",
         "klausur": 1,
         "lang": false
       }
@@ -87,7 +87,7 @@
         "slot": "s8",
         "zeit": "16:56",
         "art": "tipp",
-        "themaId": "istr-aufb-istr-gh-3-10"
+        "themaId": "ao-aufb-ao-jacobs-8-14"
       },
       {
         "slot": "s9",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "kst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-aufb-kst-t3-7",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-03",
       "slug": "2026-10-16-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
+          "titel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Der ausschüttbare Gewinn ist das Eigenkapital der Steuerbilanz zum Vorjahresende abzüglich gezeichnetem Kapital und Bestand des Einlagekontos; ein rechnerisch negativer Wert wird mit null angesetzt.",
-            "In die Rechnung gehen alle im Wirtschaftsjahr abgeflossenen Leistungen gemeinsam ein, etwa offene und verdeckte Ausschüttungen, Vorabausschüttungen und Liquidationsraten."
+            "Erkennen, wann der Quellensteuerabzug trotz materieller Entlastung zuerst vorzunehmen ist.",
+            "Freistellungsbescheinigung und Erstattungsweg des § 50c als unterschiedliche Verfahrenswege einordnen."
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Alle Leistungen feststellen, die im Wirtschaftsjahr tatsächlich abgeflossen sind; eine nur passivierte vGA zählt noch nicht mit."
+              "text": "1. Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a)."
             },
             {
               "titel": "2. Schritt",
-              "text": "Aus der Steuerbilanz des Vorjahres das Eigenkapital entnehmen und Nennkapital sowie festgestellten Einlagekontobestand abziehen."
+              "text": "2. untersuchen, ob DBA, § 43b, § 50g oder eine andere Entlastungsnorm den deutschen Anspruch reduziert."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei § 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -152,48 +152,44 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Thema für die nächste Wiederholung speichern"
           ],
           "icons": [
             "dokument",
             "lupe",
-            "warnung"
+            "buch"
           ]
         }
       ],
-      "caption": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Kommt die Ausschüttung aus dem Einlagekonto? Die…",
+      "kurztitel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 27 Abs. 1 Sätze 3, 4 und 5 KStG",
-        "§ 27 Abs. 3 KStG",
-        "§ 27 Abs. 6 KStG",
-        "§ 28 Abs. 2 KStG",
-        "§ 16 KStG",
-        "§ 14 Abs. 3 Satz 3 KStG",
-        "§ 20 Abs. 1 Nr. 1 EStG, § 20 Abs. 1 Nr. 1 Satz 3 EStG",
-        "§ 17 Abs. 4 EStG",
-        "§ 8b Abs. 2 KStG",
-        "BFH vom 08.06.2011, I R 69/10",
-        "Themenpool: kst-aufb-kst-t3-7"
+        "§ 50b EStG",
+        "§ 50c EStG",
+        "§ 43b EStG",
+        "§ 50g EStG",
+        "DBA",
+        "DBA / § 43b / § 50g EStG",
+        "Themenpool: istr-modul-istr-istr3-03"
       ],
       "coverRegie": {
-        "thema": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
+        "thema": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b1-kst-aufb-kst-t3-7-cover.png",
+        "bilddatei": "2026-10-16-b1-istr-modul-istr-istr3-03-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -206,15 +202,15 @@
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "umwst",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-ks-4-04",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-12-05",
       "slug": "2026-10-16-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
+          "titel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -222,8 +218,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "§ 13 Abs. 1 UmwStG fingiert einen Verkauf der alten Anteile zum gemeinen Wert und eine Anschaffung der neuen zu demselben Wert.",
-            "Auf Antrag setzt der Gesellschafter die neuen Anteile nach § 13 Abs. 2 UmwStG mit dem Buchwert oder den Anschaffungskosten der alten an, wenn das deutsche Besteuerungsrecht an den neuen Anteilen nicht eingeschränkt wird oder die Fusionsrichtlinie greift."
+            "Garantie- und Gewährleistungspflichten führen nach § 249 Abs. 1 Satz 1 HGB zu einer Rückstellung für ungewisse Verbindlichkeiten, die über § 5 Abs. 1 Satz 1 EStG auch steuerlich anzusetzen ist.",
+            "Nach R 5.7 Abs. 5 EStR sind Einzelrückstellungen für bis zur Bilanzaufstellung bekannte Fälle und Pauschalrückstellungen auf Grundlage betrieblicher oder branchentypischer Erfahrungswerte möglich."
           ]
         },
         {
@@ -232,18 +228,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Feststellen, ob der Gesellschafter seine Anteile im Betriebsvermögen, als § 17-Beteiligung oder als Kleinbeteiligung im Privatvermögen hält."
+              "text": "Feststellen, ob vor dem Stichtag Leistungen erbracht wurden, für die eine rechtliche oder faktische Einstandspflicht besteht."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei Kleinbeteiligungen § 20 Abs. 4a EStG anwenden und keine Gewinnrealisierung annehmen."
+              "text": "Bekannte Einzelfälle getrennt aufnehmen und für den übrigen Bestand eine Pauschale anhand der eigenen Erfahrungen der Vergangenheit schätzen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Garantierückstellungen: einzeln, pauschal und richtig bewertet: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -260,34 +256,39 @@
           ]
         }
       ],
-      "caption": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Garantierückstellungen: einzeln, pauschal und richtig bewertet: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Verschmelzung: Was geschieht mit den Anteilen der…",
+      "kurztitel": "Garantierückstellungen: einzeln, pauschal und richtig…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 13 Abs. 2 UmwStG",
-        "§ 17 EStG",
-        "§ 13 Abs. 1 UmwStG",
-        "§ 20 Abs. 2 EStG",
-        "§ 20 Abs. 4a EStG",
-        "Themenpool: umwst-aufb-umw-ks-4-04"
+        "§ 249 Abs. 1 HGB",
+        "§ 253 Abs. 1 HGB",
+        "§ 246 Abs. 2 HGB",
+        "§ 5 Abs. 3 EStG",
+        "§ 6a Abs. 1 EStG",
+        "§ 6a Abs. 3 EStG",
+        "§ 5 Abs. 4b EStG",
+        "§ 5 Abs. 1 EStG",
+        "§ 5 Abs. 6 EStG",
+        "§ 6 Abs. 1 EStG",
+        "Themenpool: bilanz-aufb-bil-melzer-12-05"
       ],
       "coverRegie": {
-        "thema": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
+        "thema": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
         "goldenReferences": [
           "assets/referenzen/charaktere/05-fritz-kranz.jpg",
           "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
+        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b2-umwst-aufb-umw-ks-4-04-cover.png",
+        "bilddatei": "2026-10-16-b2-bilanz-aufb-bil-melzer-12-05-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -301,33 +302,33 @@
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "themaId": "ust-aufb-ust-m-b06-17",
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-369",
       "slug": "2026-10-16-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
-          "unter": "Umsatzsteuer",
+          "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+          "unter": "Abgabenordnung",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 1 Abs. 1 Nr. 1 UStG",
+          "norm": "§ 351 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Erfasst ist die Übertragung oder"
+            "Anwendungsbereich des § 351 Abs."
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Feststellen, ob ein Unternehmen oder Teilbetrieb an einen Unternehmer für dessen Unternehmen übertragen wird.",
+          "titel": "Vorfrage: Einspruch gegen Änderungsbescheid? Vorbescheid wirksam + unanfechtbar?",
           "text": null,
-          "norm": "§ 1 Abs. 1 Nr. 1 UStG",
+          "norm": "§ 351 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 1 Abs. 1 Nr. 1 UStG im Zusammenhang mit Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt.",
+          "sprecher": "Schritt 1: Prüfe § 351 Abs. 1 AO im Zusammenhang mit Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO.",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -335,11 +336,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 1 Abs. 1a UStG",
+          "titel": "Prüfpunkt 2: § 177 Abs. 1 AO",
           "text": null,
-          "norm": "§ 1 Abs. 1a UStG",
+          "norm": "§ 177 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 1 Abs. 1a UStG im Zusammenhang mit Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt.",
+          "sprecher": "Schritt 2: Prüfe § 177 Abs. 1 AO im Zusammenhang mit Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO.",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -348,7 +349,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt: Voraussetzungen vor Ergebnis.",
+          "text": "Bei Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -367,37 +368,34 @@
           ]
         }
       ],
-      "caption": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umsatzsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+      "kurztitel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 1 Nr. 1 UStG",
-        "§ 1 Abs. 1a UStG",
-        "§ 3 Abs. 1b Nr. 1 UStG",
-        "§ 9 UStG",
-        "Abschn. 1.5 Abs. 4 UStAE",
-        "BFH, 04.07.2002, V R 10/01",
-        "EuGH, 27.11.2003, C-497/01, Zita Modes",
-        "BFH, 29.08.2018, XI R 37/17",
-        "Themenpool: ust-aufb-ust-m-b06-17"
+        "§ 351 Abs. 1 AO",
+        "§ 177 Abs. 1 AO",
+        "§ 177 Abs. 2 AO",
+        "§ 177 AO",
+        "Korrekturformel",
+        "Themenpool: ao-modul-ao-369"
       ],
       "coverRegie": {
-        "thema": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+        "thema": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
+        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b3-ust-aufb-ust-m-b06-17-cover.png",
+        "bilddatei": "2026-10-16-b3-ao-modul-ao-369-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -515,16 +513,22 @@
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-3-10",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-8-14",
       "quellen": [
-        "§ 2 Abs. 7 EStG",
-        "§ 32b Abs. 1 EStG",
-        "§ 50 Abs. 2 EStG",
-        "§ 1 EStG",
-        "Themenpool: istr-aufb-istr-gh-3-10"
+        "§ 367 Abs. 2 Sätze 1 und 2 AO",
+        "§ 351 Abs. 1 Halbsätze 1 und 2 AO",
+        "§ 362 Abs. 1 Sätze 1 und 2 AO",
+        "§ 357 Abs. 1 Satz 1 AO",
+        "§ 366 AO",
+        "§ 177 Abs. 1 AO",
+        "§ 129 AO",
+        "§§ 172ff AO",
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
+        "§ 173a AO",
+        "Themenpool: ao-aufb-ao-jacobs-8-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -534,8 +538,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
-      "text": "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr."
+      "titel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
+      "text": "Klären, ob der angefochtene Bescheid einen noch anfechtbaren oder einen bereits bestandskräftigen Bescheid ändert."
     },
     "s9": {
       "slot": "s9",

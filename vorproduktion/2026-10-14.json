@@ -19,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "persg-aufb-persg-melzer-5-4",
-        "themaTitel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
-        "fach": "persg",
+        "themaId": "bilanz-modul-k3-21",
+        "themaTitel": "Gewinnrealisierung und schwebende Geschäfte",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-aufb-ao-jacobs-7-7",
-        "themaTitel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
-        "fach": "ao",
+        "themaId": "erbst-modul-erbst-515",
+        "themaTitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+        "fach": "erbst",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "gewst-aufb-gewst-ks-10",
-        "themaTitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
-        "fach": "gewst",
+        "themaId": "est-aufb-est-ks2-23-04",
+        "themaTitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+        "fach": "est",
         "klausur": 2,
         "lang": false
       }
@@ -68,7 +68,7 @@
         "slot": "s6",
         "zeit": "12:08",
         "art": "norm",
-        "themaId": "ao-modul-ao-305"
+        "themaId": "istr-modul-istr-istr2-01"
       },
       {
         "slot": "s7",
@@ -87,7 +87,7 @@
         "slot": "s8",
         "zeit": "16:49",
         "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-3-11"
+        "themaId": "istr-aufb-istr-gh-3-10"
       },
       {
         "slot": "s9",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-5-4",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-21",
       "slug": "2026-10-14-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+          "titel": "Gewinnrealisierung und schwebende Geschäfte",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Regelwert ist der gemeine Wert; Buch- oder Zwischenwert setzt voraus, dass das deutsche Besteuerungsrecht nicht eingeschränkt wird und eine sonstige Gegenleistung höchstens 25 % des Buchwerts oder 500.000 € erreicht, jedoch nie mehr als den Buchwert.",
-            "Der Wert, den die Gesellschaft einschließlich der Ergänzungsbilanzen ansetzt, gilt nach § 24 Abs. 3 UmwStG als Veräußerungspreis des Einbringenden; §§ 16 Abs. 4 und 34 EStG gibt es nur beim Ansatz des gemeinen Werts."
+            "den Realisationszeitpunkt an Gefahrübergang bzw. Abnahme knüpfen",
+            "schwebende Geschäfte vom Bilanzansatz ausnehmen"
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Den Antrag auf Buch- oder Zwischenwert und die Grenzen für sonstige Gegenleistungen untersuchen."
+              "text": "Vertragstyp bestimmen: Kauf, Werkvertrag oder Dauerschuldverhältnis."
             },
             {
               "titel": "2. Schritt",
-              "text": "Die gewünschten Kapitalkonten laut Gesellschaftsvertrag feststellen und entscheiden, ob brutto oder netto gearbeitet wird."
+              "text": "Zeitpunkt der wesentlichen Leistungserbringung feststellen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Gewinnrealisierung und schwebende Geschäfte: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,39 +161,37 @@
           ]
         }
       ],
-      "caption": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gewinnrealisierung und schwebende Geschäfte: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG…",
+      "kurztitel": "Gewinnrealisierung und schwebende Geschäfte",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 24 Abs. 2 Sätze 1 bis 4 UmwStG",
-        "§ 24 Abs. 3 UmwStG",
-        "§ 24 Abs. 4 UmwStG",
-        "§ 23 Abs. 1 UmwStG",
-        "§ 4 Abs. 2 Satz 3 UmwStG",
-        "§ 12 Abs. 3 UmwStG",
-        "§ 6b Abs. 4 Nr. 2 EStG",
-        "§ 16 Abs. 2 und Abs. 4 EStG",
-        "§ 34 EStG",
-        "UmwStE vom 02.01.2025, Rn. 24.04, 24.14, 24.15 f.",
-        "Themenpool: persg-aufb-persg-melzer-5-4"
+        "§ 252 Abs. 1 Nr. 4 Hs. 2 HGB",
+        "§ 252 Abs. 1 Nr. 5 HGB",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "R 5.7 Abs. 7 EStR",
+        "§ 249 Abs. 1 S. 1 HGB",
+        "§ 5 Abs. 4a S. 1 EStG",
+        "§ 266 Abs. 3 C. 3 HGB",
+        "§ 252 Abs. 1 Nr. 4 HGB",
+        "Themenpool: bilanz-modul-k3-21"
       ],
       "coverRegie": {
-        "thema": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+        "thema": "Gewinnrealisierung und schwebende Geschäfte",
         "goldenReferences": [
           "assets/referenzen/charaktere/02-vera-kranz.jpg",
           "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b1-persg-aufb-persg-melzer-5-4-cover.png",
+        "bilddatei": "2026-10-14-b1-bilanz-modul-k3-21-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -206,15 +204,15 @@
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-aufb-ao-jacobs-7-7",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-515",
       "slug": "2026-10-14-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+          "titel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -222,8 +220,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Tatsache ist jeder Lebenssachverhalt, der Merkmal eines Steuertatbestands sein kann; rechtliche Schlussfolgerungen und Bewertungen gehören nicht dazu.",
-            "Maßgeblich ist das Wissen der für die Festsetzung zuständigen Dienststelle bei abschließender Zeichnung, wobei der gesamte Akteninhalt als bekannt gilt."
+            "§ 10 Abs. 6, 6a und 6b nach ihrer aktuellen Funktion auseinanderhalten",
+            "wirtschaftlich direkt mit steuerbefreitem Vermögen zusammenhängende Schulden nach § 10 Abs. 6a kürzen"
           ]
         },
         {
@@ -232,18 +230,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Jeden Lebenssachverhalt separat betrachten und nach Steuererhöhung (Nr. 1) oder Steuerminderung (Nr. 2) trennen; saldiert wird hier nicht."
+              "text": "Zuerst feststellen, ob der Fall unbeschränkte oder beschränkte Steuerpflicht bzw. ein beschränktes deutsches Besteuerungsrecht betrifft."
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob eine Tatsache oder ein Beweismittel vorliegt und nicht bloß eine abweichende rechtliche Würdigung."
+              "text": "Bei wirtschaftlichem Zusammenhang mit lückenlos oder teilweise steuerbefreitem Vermögen die Kürzung nach § 10 Abs. 6a ErbStG bestimmen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Neue Tatsache nach § 173 AO: Wessen Wissen zählt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -260,38 +258,33 @@
           ]
         }
       ],
-      "caption": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt",
+      "kurztitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
-        "§ 177 AO",
-        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 165 Abs. 1 Satz 2 Nr. 3 AO",
-        "§ 92 AO",
-        "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 10d EStG",
-        "§ 16 EStG",
-        "AEAO zu § 173 AO, Tz. 1, 2, 2.4 und 3",
-        "Themenpool: ao-aufb-ao-jacobs-7-7"
+        "§ 10 Abs. 6a ErbStG",
+        "R E 10.10 Abs. 2 S. 2",
+        "§ 10 Abs. 6 ErbStG",
+        "§ 10 Abs. 6b ErbStG",
+        "Themenpool: erbst-modul-erbst-515"
       ],
       "coverRegie": {
-        "thema": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+        "thema": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
         "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b2-ao-aufb-ao-jacobs-7-7-cover.png",
+        "bilddatei": "2026-10-14-b2-erbst-modul-erbst-515-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -305,33 +298,33 @@
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "gewst",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-10",
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-23-04",
       "slug": "2026-10-14-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
-          "unter": "Gewerbesteuer",
+          "titel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+          "unter": "Einkommensteuer",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 35 Abs. 1 EStG",
+          "norm": "§ 23 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um So wird der Gewinn aus privaten Veräußerungen ermittelt. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Du weißt, dass die Ermäßigung das"
+            "Nach § 23 Abs."
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 35 Abs. 1 EStG",
+          "titel": "Den Veräußerungspreis dem Jahr des Zuflusses nach § 11 Abs. 1 EStG zuweisen, bei Ratenzahlung jahresweise.",
           "text": null,
-          "norm": "§ 35 Abs. 1 EStG",
+          "norm": "§ 23 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 35 Abs. 1 EStG im Zusammenhang mit Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+          "sprecher": "Schritt 1: Prüfe § 23 Abs. 3 EStG im Zusammenhang mit So wird der Gewinn aus privaten Veräußerungen ermittelt.",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -339,11 +332,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Multipliziere mit vier und begrenze das Ergebnis auf die tatsächlich zu zahlende Gewerbesteuer.",
+          "titel": "Prüfpunkt 2: § 11 EStG",
           "text": null,
-          "norm": "§ 35 Abs. 2 EStG",
+          "norm": "§ 11 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 35 Abs. 2 EStG im Zusammenhang mit Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+          "sprecher": "Schritt 2: Prüfe § 11 EStG im Zusammenhang mit So wird der Gewinn aus privaten Veräußerungen ermittelt.",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -352,7 +345,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: Voraussetzungen vor Ergebnis.",
+          "text": "Bei So wird der Gewinn aus privaten Veräußerungen ermittelt: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -371,33 +364,37 @@
           ]
         }
       ],
-      "caption": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "So wird der Gewinn aus privaten Veräußerungen ermittelt: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#gewerbesteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+      "kurztitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 35 Abs. 1 EStG",
-        "§ 35 Abs. 2 EStG",
-        "§ 16 EStG",
-        "§ 17 EStG",
-        "Themenpool: gewst-aufb-gewst-ks-10"
+        "§ 23 Abs. 3 EStG",
+        "§ 11 EStG",
+        "§ 10d EStG",
+        "§ 175 Abs. 1 Nr. 2 AO",
+        "§ 12 Abs. 3 BewG",
+        "§ 7 Abs. 4 EStG",
+        "H 23 EStH",
+        "BMF vom 26.03.2004 (BStBl I S. 434)",
+        "Themenpool: est-aufb-est-ks2-23-04"
       ],
       "coverRegie": {
-        "thema": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+        "thema": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
         "goldenReferences": [
           "assets/referenzen/charaktere/03-mia-kranz.jpg",
           "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b3-gewst-aufb-gewst-ks-10-cover.png",
+        "bilddatei": "2026-10-14-b3-est-aufb-est-ks2-23-04-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -465,22 +462,18 @@
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-305",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-modul-istr-istr2-01",
       "quellen": [
-        "§ 118 AO",
-        "§ 155 AO",
-        "§§ 167, 168 AO",
-        "§ 179 AO",
-        "§ 239 AO",
-        "§ 164 AO",
-        "§ 165 AO",
-        "§§ 172–177 AO",
-        "§ 130 AO",
-        "§ 131 AO",
-        "Themenpool: ao-modul-ao-305"
+        "§ 1 Abs. 1 EStG",
+        "§ 1 Abs. 3 EStG",
+        "§ 49 EStG",
+        "§ 1 Abs. 4 EStG",
+        "§ 50 Abs. 1 EStG",
+        "§ 1 Abs. 1, 3, 4 EStG",
+        "Themenpool: istr-modul-istr-istr2-01"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -490,9 +483,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 118 AO",
-      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
-      "text": "Steuerbescheid/gleichgestellten VA von sonstigem VA trennen Korrekturvorschriften abhängig von der VA-Art auswählen"
+      "norm": "§ 1 Abs. 1 EStG",
+      "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
+      "text": "§ 1 Abs. 1, 3 und 4 EStG sauber voneinander unterscheiden. Die 90-%-/Grundfreibetragsprüfung des § 1 Abs. 3 EStG in den Klausuraufbau einordnen."
     },
     "s7": {
       "slot": "s7",
@@ -519,22 +512,16 @@
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-3-11",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-3-10",
       "quellen": [
-        "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
-        "§ 122 Abs. 2a AO",
-        "§ 122a AO",
-        "§ 124 Abs. 1 AO",
-        "§ 108 Abs. 1 und Abs. 3 AO",
-        "§ 187 Abs. 1 BGB",
-        "§ 188 Abs. 1 und Abs. 2 BGB",
-        "§ 355 Abs. 1 Satz 1 AO",
-        "§ 357 Abs. 2 Satz 1 AO",
-        "§ 8 VwZG",
-        "Themenpool: ao-aufb-ao-jacobs-3-11"
+        "§ 2 Abs. 7 EStG",
+        "§ 32b Abs. 1 EStG",
+        "§ 50 Abs. 2 EStG",
+        "§ 1 EStG",
+        "Themenpool: istr-aufb-istr-gh-3-10"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -544,8 +531,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
-      "text": "Übermittlungsweg klären: einfacher Brief, elektronische Übermittlung, Datenabruf oder förmliche Zustellung."
+      "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+      "text": "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr."
     },
     "s9": {
       "slot": "s9",

@@ -19,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "istr-modul-istr-istr2-07",
-        "themaTitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
-        "fach": "istr",
+        "themaId": "gewst-aufb-gewst-ks-10",
+        "themaTitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+        "fach": "gewst",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "umwst-aufb-umw-2-45",
-        "themaTitel": "Wie berechnet man den Einbringungsgewinn I?",
-        "fach": "umwst",
+        "themaId": "bilanz-aufb-bil-melzer-5-02",
+        "themaTitel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-modul-ao-391",
-        "themaTitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-        "fach": "ao",
+        "themaId": "erbst-modul-erbst-544",
+        "themaTitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+        "fach": "erbst",
         "klausur": 1,
         "lang": false
       }
@@ -74,7 +74,7 @@
         "slot": "s7",
         "zeit": "14:37",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr2-01"
+        "themaId": "istr-aufb-istr-gh-4-14"
       },
       {
         "slot": "s2",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "istr",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr2-07",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-10",
       "slug": "2026-10-13-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
+          "titel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Tätigkeitsstaat als Ausgangspunkt des Art. 15 bestimmen.",
-            "Die drei Voraussetzungen der 183-Tage-Ausnahme kumulativ untersuchen."
+            "Du weißt, dass die Ermäßigung das Vierfache des festgesetzten Messbetrags beträgt, höchstens aber die tatsächlich zu zahlende Gewerbesteuer.",
+            "Du kennst den Ermäßigungshöchstbetrag: den Anteil der tariflichen Einkommensteuer, der auf die gewerblichen Einkünfte entfällt."
           ]
         },
         {
@@ -133,110 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "1. Ansässigkeitsstaat und Tätigkeitsstaat bestimmen."
+              "text": "Ermittle den festgesetzten Messbetrag oder bei Mitunternehmern den anteiligen Messbetrag nach dem allgemeinen Gewinnverteilungsschlüssel."
             },
             {
               "titel": "2. Schritt",
-              "text": "2. Art. 15 Grundsatz: Besteuerungsrecht des Tätigkeitsstaats."
+              "text": "Multipliziere mit vier und begrenze das Ergebnis auf die tatsächlich zu zahlende Gewerbesteuer."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Thema für die nächste Wiederholung speichern"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#internationalessteuerrecht"
-      ],
-      "kurztitel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "Art. 15 DBA",
-        "Art. 23 DBA",
-        "§ 32b EStG",
-        "Themenpool: istr-modul-istr-istr2-07"
-      ],
-      "coverRegie": {
-        "thema": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-13-b1-istr-modul-istr-istr2-07-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "umwst",
-      "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-45",
-      "slug": "2026-10-13-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Wie berechnet man den Einbringungsgewinn I?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Veräußert der Einbringende die erhaltenen Anteile innerhalb von sieben Jahren nach dem Übertragungsstichtag, ist rückwirkend im Jahr der Einbringung der Einbringungsgewinn I als Gewinn nach § 16 EStG zu versteuern (§ 22 Abs. 1 UmwStG); §§ 16 Abs. 4 und 34 EStG sind nicht anzuwenden.",
-            "Der Einbringungsgewinn I ist der gemeine Wert des eingebrachten Betriebsvermögens am Stichtag abzüglich Kosten des Vermögensübergangs und abzüglich des Wertansatzes der Kapitalgesellschaft; spätere Wertänderungen bleiben außer Betracht."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "untersuchen, ob die Einbringung unter dem gemeinen Wert erfolgte und ob innerhalb der sieben Jahre eine schädliche Veräußerung oder ein gleichgestellter Vorgang vorliegt."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Gemeinen Wert am Stichtag, Wertansatz der Gesellschaft und Einbringungskosten zusammenstellen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei Wie berechnet man den Einbringungsgewinn I?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -253,37 +161,131 @@
           ]
         }
       ],
-      "caption": "Wie berechnet man den Einbringungsgewinn I?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "Wie berechnet man den Einbringungsgewinn I",
+      "kurztitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 22 Abs. 1 UmwStG",
+        "§ 35 Abs. 1 EStG",
+        "§ 35 Abs. 2 EStG",
         "§ 16 EStG",
-        "§ 20 Abs. 2 UmwStG",
-        "§ 16 Abs. 2 EStG",
-        "§ 20 Abs. 3 UmwStG",
-        "§ 20 UmwStG",
-        "§ 4 Abs. 5b EStG",
-        "§ 15 EStG",
-        "Themenpool: umwst-aufb-umw-2-45"
+        "§ 17 EStG",
+        "Themenpool: gewst-aufb-gewst-ks-10"
       ],
       "coverRegie": {
-        "thema": "Wie berechnet man den Einbringungsgewinn I?",
+        "thema": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-13-b2-umwst-aufb-umw-2-45-cover.png",
+        "bilddatei": "2026-10-13-b1-gewst-aufb-gewst-ks-10-cover.png",
+        "status": "Bild ausstehend"
+      },
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "bewusst-ausgelassen"
+    },
+    "b2": {
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-5-02",
+      "slug": "2026-10-13-b2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+          "coverBadge": "Spickzettel",
+          "coverBildAuslassen": true
+        },
+        {
+          "art": "text",
+          "titel": "Kern der Prüfung",
+          "punkte": [
+            "Bis zu 50 % der voraussichtlichen Kosten eines abnutzbaren beweglichen Anlageguts, das nicht neu sein muss, können vorab außerbilanziell abgezogen werden, wenn der Gewinn des Abzugsjahres ohne diese Beträge 200.000 € nicht übersteigt.",
+            "Je Betrieb dürfen im Abzugsjahr und den drei Vorjahren zusammen höchstens 200.000 € abgezogen sein; der Abzug darf auch einen Verlust entstehen lassen."
+          ]
+        },
+        {
+          "art": "schritte",
+          "titel": "So baust du die Prüfung auf",
+          "schritte": [
+            {
+              "titel": "1. Schritt",
+              "text": "Gewinnermittlungsart und Gewinngrenze von 200.000 € im Abzugsjahr untersuchen."
+            },
+            {
+              "titel": "2. Schritt",
+              "text": "Den Abzug auf 50 % der voraussichtlichen Kosten und den betrieblichen Höchstbetrag begrenzen und elektronisch übermitteln."
+            }
+          ]
+        },
+        {
+          "art": "merke",
+          "titel": "Merksatz",
+          "text": "Bei Wann darf ein Investitionsabzugsbetrag gebildet werden?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+        },
+        {
+          "art": "cta",
+          "titel": "Für die nächste Klausur",
+          "punkte": [
+            "Tragende Normen im Gesetz markieren",
+            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+          ],
+          "icons": [
+            "dokument",
+            "lupe",
+            "warnung"
+          ]
+        }
+      ],
+      "caption": "Wann darf ein Investitionsabzugsbetrag gebildet werden?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "kurztitel": "Wann darf ein Investitionsabzugsbetrag gebildet werden",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true,
+      "quellen": [
+        "§ 7g Abs. 1 EStG",
+        "§ 7g Abs. 2 EStG",
+        "§ 5 EStG",
+        "§ 7g Abs. 3 EStG",
+        "§ 7g EStG",
+        "§ 7g Abs. 4 EStG",
+        "§ 7 Abs. 1 EStG",
+        "§ 7 Abs. 2 EStG",
+        "§ 233a AO",
+        "Themenpool: bilanz-aufb-bil-melzer-5-02"
+      ],
+      "coverRegie": {
+        "thema": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+        "goldenReferences": [
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+        ],
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "verpackung": "Handlung in Prüfungsreihenfolge",
+        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+        "bilddatei": "2026-10-13-b2-bilanz-aufb-bil-melzer-5-02-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -297,33 +299,33 @@
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-391",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-modul-erbst-544",
       "slug": "2026-10-13-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-          "unter": "Abgabenordnung",
+          "titel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+          "unter": "Erbschaftsteuer / Bewertung",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 69 AO",
+          "norm": "§ 178 BewG",
           "icon": null,
-          "sprecher": "Heute geht es um Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Grundsatz der Gesamtverantwortung nennen"
+            "unbebautes Grundstück nach §178 erkennen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Grundsatz: Gesamtverantwortung aller GF.",
+          "titel": "Unbebaut i.S.d. § 178 BewG?",
           "text": null,
-          "norm": "§ 69 AO",
+          "norm": "§ 178 BewG",
           "icon": null,
-          "sprecher": "Schritt 1: Grundsatz: Gesamtverantwortung aller GF.",
+          "sprecher": "Schritt 1: Unbebaut i.S.d. § 178 BewG?",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -331,11 +333,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "",
+          "titel": "Bodenrichtwert nach § 179 ermitteln; Quellenhinweis: letzter BRW vor dem Stichtag.",
           "text": null,
-          "norm": "§ 34 AO",
+          "norm": "§ 179 BewG",
           "icon": null,
-          "sprecher": "Schritt 2: .",
+          "sprecher": "Schritt 2: Prüfe § 179 BewG im Zusammenhang mit Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale.",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -344,7 +346,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: Voraussetzungen vor Ergebnis.",
+          "text": "Bei Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -363,31 +365,32 @@
           ]
         }
       ],
-      "caption": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
+      "kurztitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 69 AO",
-        "§ 34 AO",
-        "Themenpool: ao-modul-ao-391"
+        "§ 178 BewG",
+        "§ 179 BewG",
+        "H B 179.2",
+        "Themenpool: erbst-modul-erbst-544"
       ],
       "coverRegie": {
-        "thema": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
+        "thema": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
         "goldenReferences": [
           "assets/referenzen/charaktere/01-holger-kranz.jpg",
           "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-13-b3-ao-modul-ao-391-cover.png",
+        "bilddatei": "2026-10-13-b3-erbst-modul-erbst-544-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -488,15 +491,19 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-01",
+      "pairId": "istr-aufb-istr-gh-4-14",
       "quellen": [
-        "§ 1 Abs. 1 EStG",
-        "§ 1 Abs. 3 EStG",
-        "§ 49 EStG",
-        "§ 1 Abs. 4 EStG",
-        "§ 50 Abs. 1 EStG",
-        "§ 1 Abs. 1, 3, 4 EStG",
-        "Themenpool: istr-modul-istr-istr2-01"
+        "Art. 7 OECD-MA",
+        "§ 4 Abs. 1 EStG",
+        "§ 36 Abs. 5 EStG",
+        "§ 12 AO",
+        "§ 6 Abs. 1 EStG",
+        "§ 34c Abs. 1 EStG",
+        "§ 4g EStG",
+        "§ 1 AStG",
+        "§ 15 Abs. 1 EStG",
+        "§ 50d Abs. 9 EStG",
+        "Themenpool: istr-aufb-istr-gh-4-14"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -506,8 +513,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
-      "text": "1. § 1 Abs. 1 EStG: Wohnsitz/gewöhnlicher Aufenthalt?"
+      "titel": "Wirtschaftsgut in die Auslandsbetriebsstätte: Entstrickung prüfen",
+      "text": "Prüfe, ob im anderen Staat eine Betriebsstätte im Sinne des Art. 5 OECD-MA besteht, der die Gewinne zuzurechnen sind."
     },
     "s8": {
       "slot": "s8",

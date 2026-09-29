@@ -19,27 +19,27 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "ao-aufb-ao-jacobs-13-5",
-        "themaTitel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
-        "fach": "ao",
+        "themaId": "erbst-aufb-erbst-t1-4",
+        "themaTitel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+        "fach": "erbst",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "est-aufb-est-ks1-gew-01",
-        "themaTitel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
-        "fach": "est",
+        "themaId": "gewst-aufb-gewst-ks-02",
+        "themaTitel": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
+        "fach": "gewst",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "bilanz-modul-k3-19",
-        "themaTitel": "Buchungssatz und Gewinnauswirkung",
-        "fach": "bilanz",
+        "themaId": "umwst-aufb-umw-2-49",
+        "themaTitel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+        "fach": "umwst",
         "klausur": 3,
         "lang": false
       }
@@ -87,7 +87,7 @@
         "slot": "s8",
         "zeit": "16:47",
         "art": "merksatz",
-        "themaId": "ao-modul-ao-369"
+        "themaId": "ao-aufb-ao-jacobs-7-7"
       },
       {
         "slot": "s9",
@@ -107,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-aufb-ao-jacobs-13-5",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-aufb-erbst-t1-4",
       "slug": "2026-10-15-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
+          "titel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -123,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Nach § 69 Satz 1 AO genügt leichte Fahrlässigkeit nicht; erforderlich sind Vorsatz oder grobe Fahrlässigkeit gerade des in Anspruch genommenen Vertreters.",
-            "Wer fällige Steuern bewusst nicht zahlt, um den Betrieb oder Arbeitsplätze zu erhalten, handelt schuldhaft; auch mangelnde Überwachung beauftragter Personen begründet Verschulden."
+            "Objektiv muss der Empfänger auf Kosten des Zuwendenden bereichert sein, etwa durch Vermögensmehrung oder Befreiung von einer Schuld.",
+            "Subjektiv genügt der Wille des Zuwendenden zur unentgeltlichen Bereicherung; eine Einigung über die Unentgeltlichkeit wie bei § 516 BGB ist nicht nötig."
           ]
         },
         {
@@ -133,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Haftenden Personenkreis nach §§ 34, 35 AO bestimmen, etwa den gesetzlichen Vertreter einer GmbH."
+              "text": "Vermögensverschiebung vom Zuwendenden zum Empfänger und dessen Bereicherung feststellen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Pflichtverletzung feststellen, etwa verspätete Anmeldung oder Nichtzahlung fälliger Steuern trotz vorhandener Mittel."
+              "text": "Bereicherungswillen des Zuwendenden anhand seiner Motive untersuchen, insbesondere private gegenüber geschäftlichen Beweggründen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -161,37 +161,36 @@
           ]
         }
       ],
-      "caption": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und…",
+      "kurztitel": "Freigebige Zuwendung: Wann ist eine Schenkung…",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 69 Sätze 1 und 2 AO",
-        "§ 34 Abs. 1 Sätze 1 und 2 AO",
-        "§ 35 GmbHG",
-        "§ 43 GmbHG",
-        "§ 15 StGB",
-        "§§ 249, 254 AO",
-        "§§ 370, 378 AO",
-        "AEAO zu § 173 AO, Tz. 5",
-        "Themenpool: ao-aufb-ao-jacobs-13-5"
+        "§ 7 Abs. 1 ErbStG",
+        "§ 516 BGB",
+        "§ 10 Abs. 6 ErbStG",
+        "§ 1 Abs. 1 ErbStG",
+        "§ 10 Abs. 1 ErbStG",
+        "§ 12 ErbStG",
+        "§ 13 BewG",
+        "Themenpool: erbst-aufb-erbst-t1-4"
       ],
       "coverRegie": {
-        "thema": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
+        "thema": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/01-holger-kranz.jpg",
+          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b1-ao-aufb-ao-jacobs-13-5-cover.png",
+        "bilddatei": "2026-10-15-b1-erbst-aufb-erbst-t1-4-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -204,15 +203,15 @@
     },
     "b2": {
       "format": "schema",
-      "fach": "est",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "themaId": "est-aufb-est-ks1-gew-01",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-02",
       "slug": "2026-10-15-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
+          "titel": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
           "coverBadge": "Klausurschema",
           "coverBildAuslassen": true
         },
@@ -220,8 +219,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Positiv verlangt § 15 Abs. 2 EStG eine selbständige, nachhaltige Betätigung mit Gewinnerzielungsabsicht und Teilnahme am allgemeinen Wirtschaftsverkehr.",
-            "Selbständig handelt, wer Unternehmerrisiko trägt und Unternehmerinitiative entfaltet; nachhaltig ist eine Tätigkeit schon, wenn sie mit Wiederholungsabsicht aufgenommen wird."
+            "Du unterscheidest Gewerbebetriebe kraft Tätigkeit nach § 2 Abs. 1 GewStG in Verbindung mit § 15 Abs. 2 und 3 EStG von solchen kraft Rechtsform nach § 2 Abs. 2 GewStG.",
+            "Du weißt, dass bei Einzelunternehmen und Personengesellschaften erst die werbende Tätigkeit die Steuerpflicht auslöst und ihre endgültige Einstellung sie beendet."
           ]
         },
         {
@@ -230,18 +229,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Selbständigkeit anhand von Unternehmerrisiko und Unternehmerinitiative untersuchen."
+              "text": "Prüfe, ob ein Gewerbebetrieb kraft Tätigkeit, kraft Abfärbung oder Prägung oder kraft Rechtsform vorliegt."
             },
             {
               "titel": "2. Schritt",
-              "text": "Nachhaltigkeit und Teilnahme am Markt feststellen; auch ein einziger Abnehmer schließt die Marktteilnahme nicht aus."
+              "text": "Kläre, ob der Betrieb über eine Betriebsstätte in Deutschland verfügt."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -258,38 +257,39 @@
           ]
         }
       ],
-      "caption": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#einkommensteuer"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15…",
+      "kurztitel": "Ab wann und bis wann ist ein Betrieb…",
       "coverBadge": "Klausurschema",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 15 Abs. 1 Satz 1 Nr. 1 EStG",
-        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
-        "§ 15 Abs. 1 Satz 1 Nr. 3 EStG",
+        "§ 2 Abs. 1 GewStG",
+        "§ 2 Abs. 2 GewStG",
+        "§ 2 Abs. 4 GewStG",
+        "§ 2 Abs. 5 GewStG",
+        "§ 5 Abs. 1 GewStG",
         "§ 15 Abs. 2 EStG",
-        "§§ 13 ff. EStG",
-        "§ 18 EStG",
-        "§§ 20, 21 EStG",
-        "R 15.1 bis R 15.7 EStR",
-        "H 15.1 bis H 15.7 EStH",
-        "Themenpool: est-aufb-est-ks1-gew-01"
+        "§ 15 Abs. 3 EStG",
+        "§ 1 GewStDV",
+        "§ 4 GewStDV",
+        "R 2.2 GewStR",
+        "Themenpool: gewst-aufb-gewst-ks-02"
       ],
       "coverRegie": {
-        "thema": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
+        "thema": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b2-est-aufb-est-ks1-gew-01-cover.png",
+        "bilddatei": "2026-10-15-b2-gewst-aufb-gewst-ks-02-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -303,33 +303,33 @@
     "b3": {
       "format": "reel",
       "layout": "erklaer",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-19",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-49",
       "slug": "2026-10-15-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Buchungssatz und Gewinnauswirkung",
-          "unter": "Bilanzsteuerrecht",
+          "titel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+          "unter": "Umwandlungssteuerrecht",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 238 Abs. 1 HGB",
+          "norm": "§ 22 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Buchungssatz und Gewinnauswirkung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "Bestands- und Erfolgskonten sicher"
+            "Der Einbringende hat innerhalb der sieben"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Ist-Buchung des Sachverhalts notieren.",
+          "titel": "Den Einbringungsstichtag feststellen und daraus die jährlichen Zurechnungsstichtage ableiten.",
           "text": null,
-          "norm": "§ 238 Abs. 1 HGB",
+          "norm": "§ 22 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Ist-Buchung des Sachverhalts notieren.",
+          "sprecher": "Schritt 1: Prüfe § 22 Abs. 3 UmwStG im Zusammenhang mit Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -337,11 +337,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Soll-Buchung nach richtiger Würdigung bestimmen.",
+          "titel": "Für jedes Jahr untersuchen, ob der Nachweis fristgerecht bis zum 31. Mai eingereicht wurde.",
           "text": null,
-          "norm": "§ 246 Abs. 1 S. 1 HGB",
+          "norm": "§ 22 Abs. 6 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Soll-Buchung nach richtiger Würdigung bestimmen.",
+          "sprecher": "Schritt 2: Prüfe § 22 Abs. 6 UmwStG im Zusammenhang mit Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -350,7 +350,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Buchungssatz und Gewinnauswirkung: Voraussetzungen vor Ergebnis.",
+          "text": "Bei Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -369,36 +369,36 @@
           ]
         }
       ],
-      "caption": "Buchungssatz und Gewinnauswirkung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Buchungssatz und Gewinnauswirkung",
+      "kurztitel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 238 Abs. 1 HGB",
-        "§ 246 Abs. 1 S. 1 HGB",
-        "§ 4 Abs. 1 S. 1 EStG",
-        "§ 5 Abs. 1 S. 1 EStG",
-        "§ 60 Abs. 2 EStDV",
-        "Soll an Haben",
-        "HB/StB-Korrektur",
-        "Themenpool: bilanz-modul-k3-19"
+        "§ 22 Abs. 3 UmwStG",
+        "§ 22 Abs. 6 UmwStG",
+        "§ 22 Abs. 1 UmwStG",
+        "§ 16 EStG",
+        "§ 17 EStG",
+        "§ 40 GmbHG",
+        "§ 67 AktG",
+        "Themenpool: umwst-aufb-umw-2-49"
       ],
       "coverRegie": {
-        "thema": "Buchungssatz und Gewinnauswirkung",
+        "thema": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
         "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+          "assets/referenzen/charaktere/02-vera-kranz.jpg",
+          "assets/referenzen/charaktere/07-dario-costa.jpg"
         ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b3-bilanz-modul-k3-19-cover.png",
+        "bilddatei": "2026-10-15-b3-umwst-aufb-umw-2-49-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
@@ -518,14 +518,18 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-369",
+      "pairId": "ao-aufb-ao-jacobs-7-7",
       "quellen": [
-        "§ 351 Abs. 1 AO",
-        "§ 177 Abs. 1 AO",
-        "§ 177 Abs. 2 AO",
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
         "§ 177 AO",
-        "Korrekturformel",
-        "Themenpool: ao-modul-ao-369"
+        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 165 Abs. 1 Satz 2 Nr. 3 AO",
+        "§ 92 AO",
+        "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 10d EStG",
+        "§ 16 EStG",
+        "AEAO zu § 173 AO, Tz. 1, 2, 2.4 und 3",
+        "Themenpool: ao-aufb-ao-jacobs-7-7"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -535,8 +539,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
-      "text": "Bei § 351 Abs. 1 AO immer erst Korrekturformel je Fehler, dann Ober-/Untergrenze."
+      "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+      "text": "Neu ist, was die zuständige Stelle bei der letzten vollen Sachprüfung nicht aus den Akten kannte, und es muss die Steuer tatsächlich verändern."
     },
     "s9": {
       "slot": "s9",
