@@ -35,23 +35,48 @@ jobs:
           pattern: endriss-review-*
           github-token: ${{ github.token }}
           path: /tmp/endriss-prepared
-      - name: Publish checked page files and source inventory
+      - name: Publish page derivatives and source inventory
         run: python tools/endriss/publish_sources.py --input /tmp/endriss-prepared
+      - name: Compare Horst source versions without asserting semantic equivalence
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root = pathlib.Path('public/endriss/quellen/sources')
+          a = json.loads((root/'persg-folien-1.json').read_text())
+          b = json.loads((root/'persg-folien-2.json').read_text())
+          pairs = [{'pageA':x['page'], 'pageB':y['page'], 'samePreparedPixels':x['preparedImageSha256']==y['preparedImageSha256'], 'hashA':x['preparedImageSha256'], 'hashB':y['preparedImageSha256']} for x,y in zip(a['pages'],b['pages'])]
+          report = {'sourceA':a['driveId'], 'sourceB':b['driveId'], 'sha256A':a['sha256'], 'sha256B':b['sha256'], 'pagesA':len(a['pages']), 'pagesB':len(b['pages']), 'sameSourceBytes':a['sha256']==b['sha256'], 'allPreparedPagesIdentical':len(a['pages'])==len(b['pages']) and all(p['samePreparedPixels'] for p in pairs), 'pages':pairs}
+          pathlib.Path('docs/endriss-horst-versionsvergleich.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
+          print('HORST_VERSION_COMPARISON', json.dumps(report))
+          PY
       - run: npm ci
       - run: npm run build
       - run: node tools/pruefen-endriss-nachtrag.mjs
-      - name: Preserve report even if the commit is rejected
+      - name: Preserve reports even if a later check fails
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: endriss-publish-report
-          path: docs/endriss-originalbestand.json
+          path: |
+            docs/endriss-originalbestand.json
+            docs/endriss-horst-versionsvergleich.json
           retention-days: 7
-      - name: Commit generated page assets without overwriting concurrent edits
+      - name: Commit generated assets, rebase and validate without force pushing
         run: |
+          set -euo pipefail
+          branch=codex/endriss-restbestaende-2026-09-29
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/endriss/quellen docs/endriss-originalbestand.json
+          git add public/endriss/quellen docs/endriss-originalbestand.json docs/endriss-horst-versionsvergleich.json
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m 'feat: publish complete original-page inventory with separate transcription status'
-          git push origin HEAD:codex/endriss-restbestaende-2026-09-29
+          git commit -m 'feat: publish original-page inventory with separate native transcription status'
+          for attempt in 1 2 3; do
+            git fetch origin "$branch:refs/remotes/origin/$branch"
+            git rebase "refs/remotes/origin/$branch"
+            npm run build
+            node tools/pruefen-endriss-nachtrag.mjs
+            if test -f tools/pruefen-endriss-native.mjs; then node tools/pruefen-endriss-native.mjs; fi
+            if git push origin "HEAD:$branch"; then exit 0; fi
+          done
+          echo 'Concurrent updates prevented a safe push; no history was overwritten.' >&2
+          exit 1
