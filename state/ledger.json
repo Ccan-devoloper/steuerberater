@@ -6042,6 +6042,28 @@
       "thema": "bilanz-glossar-5",
       "fach": "bilanz",
       "titel": "Schwebendes Geschäft"
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "b3",
+      "medienId": "17911593519532906",
+      "veroeffentlicht": "2026-09-29T17:02:35.458Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "istr-modul-istr-istr1-01",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -6050,7 +6072,7 @@
     "kst": 7,
     "ao": 14,
     "bilanz": 17,
-    "istr": 13,
+    "istr": 14,
     "erbst": 3,
     "mindset": 2
   },

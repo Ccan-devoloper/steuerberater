@@ -37,8 +37,9 @@
       "fach": "istr",
       "klausur": 2,
       "lang": false,
-      "status": "sendet",
-      "sendeversuch": "2026-09-29T17:01:55.408Z"
+      "status": "veroeffentlicht",
+      "medienId": "17911593519532906",
+      "veroeffentlicht": "2026-09-29T17:02:35.457Z"
     }
   ],
   "stories": [
