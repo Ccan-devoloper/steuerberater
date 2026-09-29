@@ -8,7 +8,7 @@ import { build } from 'esbuild';
 import { endrissNative, endrissNativeAudit, endrissNativeQuellen, nativeFor, combineEndrissSources } from '../src/data/endriss-native-register.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const required = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1'];
+const required = ['istr-hinzurechnung', 'lst-mitschrift', 'lst-korrektur', 'persg-folien-1', 'ao-notfallbuch'];
 const ids = new Set();
 let chapters = 0;
 let tables = 0;
