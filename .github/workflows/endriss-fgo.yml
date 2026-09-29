@@ -1,0 +1,69 @@
+name: Endriss FGO-Fahrtroute
+on:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29, main]
+    paths:
+      - src/data/endriss-fgo-*.js
+      - src/components/EndrissFGOFahrtroute.jsx
+      - src/components/AOSchemataAlle.jsx
+      - tools/pruefen-endriss-fgo.mjs
+      - .github/workflows/endriss-fgo.yml
+  pull_request:
+    paths:
+      - src/data/endriss-fgo-*.js
+      - src/components/EndrissFGOFahrtroute.jsx
+      - src/components/AOSchemataAlle.jsx
+      - tools/pruefen-endriss-fgo.mjs
+      - .github/workflows/endriss-fgo.yml
+permissions:
+  contents: read
+concurrency:
+  group: endriss-fgo-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  fgo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            social/package-lock.json
+      - run: npm ci
+      - name: Production build and existing source regressions
+        run: |
+          npm run build
+          npm run check:k1-ao-einheit-6
+          node tools/pruefen-endriss-nachtrag.mjs
+          node tools/pruefen-endriss-native.mjs
+          node tools/pruefen-endriss-horst2.mjs
+          node tools/pruefen-endriss-fgo.mjs
+      - name: Install existing locked browser dependency without production scripts
+        run: npm ci --prefix social --ignore-scripts
+      - name: Install Chromium
+        working-directory: social
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Actual AO schema entry on desktop and mobile
+        run: |
+          set -euo pipefail
+          mkdir -p test-results/endriss-fgo
+          node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173 --strictPort > test-results/endriss-fgo/server.log 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:4173/ >/dev/null
+          node tools/pruefen-endriss-fgo.mjs --browser
+      - name: Preserve source binding, result and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-fgo-evidence
+          path: test-results/endriss-fgo
+          retention-days: 7

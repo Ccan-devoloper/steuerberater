@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "package": "fgo-fahrtroute-seite1",
+  "sourceId": "ao-fgo",
+  "driveId": "1g6C6ngjpPqb2vYjuwyTux3wVSpEC2cjj",
+  "sourceTitle": "FGO (2).pdf",
+  "sourceBytes": 1838083,
+  "physicalPages": 37,
+  "readMethod": "Direct files.read rendering of the Drive raw PDF; source pages 1–4 opened, page 1 transcribed completely.",
+  "visuallyOpenedPages": [1,2,3,4],
+  "transcribedPages": [1],
+  "sourceComplete": false,
+  "legalReview": false,
+  "originalImagesChanged": false,
+  "lease": {
+    "owner": "interactive-fgo-page1-20260929",
+    "expiresAt": "2026-09-29T20:55:00Z",
+    "scope": "Endriss FGO source data, component, isolated FGO tests/workflow and this per-source checkpoint. Does not take over the Horst/native-register lease."
+  },
+  "implementation": {
+    "commit": "6002e5b16e12c4b88c9e8d6d7155930ee5bf16be",
+    "files": ["src/data/endriss-fgo-fahrtroute.js", "src/components/EndrissFGOFahrtroute.jsx", "src/components/AOSchemataAlle.jsx"],
+    "uiEntry": "Klausur 1 → Abgabenordnung → Prüfschema → ao-schema-fgo; existing ao6-fgo-fahrtroute ID preserved for module/Norm links",
+    "content": "All 12 numbered source stations, including 64/65 FGO and 52d FGO, with source notes, 54 FGO → 222 ZPO → 187/188 BGB and 56 FGO comparison. No invented rule updates or solutions.",
+    "tests": "pending",
+    "merged": false,
+    "deployment": "pending"
+  },
+  "remaining": {
+    "pages": "2–37",
+    "nextWork": "Visually review the statutory-extract markings and record exact source-page/marked-passage mappings before declaring FGO complete. Pages 2–4 viewed for context only, not yet natively mapped."
+  },
+  "checklistEffect": "B2 stays OPEN/PARTIAL. This one-page fix must not be counted as a sixth completed group. The five completed groups after the Horst-2 deployment are A1, A6, A7, A8 and B4 out of twelve original A/B groups."
+}
