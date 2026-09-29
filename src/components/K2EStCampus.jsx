@@ -44,9 +44,7 @@ const NAV = [
 
 /* Was aus den ESt-Lehrgangsunterlagen noch nicht eingepflegt ist. Die Liste
    steht im Cockpit, damit der Stand des Campus nachprüfbar bleibt. */
-const OFFEN = [
-  "Kurzskript I: Betriebsaufspaltung, gewerblicher Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, selbständige Arbeit und Kapitalvermögen (ab Seite 80 des PDF)",
-];
+const OFFEN = []; // Kurzskript I: Seiten 80–162 ergänzt am 29.09.2026.
 
 function Cockpit() {
   const termine = estHausaufgaben.map((ha) => ha.termin).sort((a, b) => a - b);
@@ -74,8 +72,9 @@ function Cockpit() {
         <p>
           Das Kurzskript I (Engelberth, {estKurzskript1Quelle.stand}) steht im Reiter „Kurzskript I“
           mit {estKurzskript1.length} Kapiteln: die Einführung in die Einkommensteuer, die Einkünfte
-          aus Vermietung und Verpachtung und der Beginn der Einkünfte aus Gewerbebetrieb. Der Rest
-          des Skripts ist noch nicht erfasst – siehe „Noch nicht eingepflegt“.
+          aus Vermietung und Verpachtung und Gewerbebetrieb, Betriebsaufspaltung, gewerblicher
+          Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, selbständige Arbeit
+          und Kapitalvermögen. Der frühere Abbruch nach Seite 79 ist behoben.
         </p>
         <p>
           Das Kurzskript II (Engelberth, {estKurzskript2Quelle.stand}) steht vollständig im Reiter
@@ -118,8 +117,8 @@ function Cockpit() {
       </section>
 
       <section className="panel">
-        <h2>Noch nicht eingepflegt</h2>
-        <p>Diese ESt-Unterlagen liegen vor, sind aber noch nicht im Campus abgebildet:</p>
+        <h2>{OFFEN.length ? "Noch nicht eingepflegt" : "Kurzskripte: Ergänzung abgeschlossen"}</h2>
+        <p>{OFFEN.length ? "Diese ESt-Unterlagen liegen vor, sind aber noch nicht im Campus abgebildet:" : "Der frühere Rest des Kurzskripts I (Seiten 80–162) ist im Reiter Kurzskript I ergänzt. Weitere Quellenstände werden separat im Endriss-Quellenregister geführt."}</p>
         <ul>
           {OFFEN.map((eintrag) => <li key={eintrag}>{eintrag}</li>)}
         </ul>
@@ -180,7 +179,7 @@ export default function K2EStCampus({ onKlausurwechsel, onFachwechsel }) {
           <KurzskriptBloecke
             kicker="Klausur 2 · Einkommensteuer · Kurzskript I"
             titel="Einkommensteuer Kurzskript I"
-            lead="Der erste Teil des Lehrgangsskripts von Martin Engelberth im Wortlaut – Einführung in die Einkommensteuer, Einkünfte aus Vermietung und Verpachtung und der Beginn der Einkünfte aus Gewerbebetrieb. Die weiteren Teile des Skripts sind noch nicht erfasst."
+            lead="Das Lehrgangsskript von Martin Engelberth mit allen neun Themenblöcken und 58 Kapiteln. Die früher fehlenden Skriptseiten 80–162 sind ergänzt: einschließlich Betriebsaufspaltung, Grundstückshandel, Betriebsbeendigung, EÜR, selbständiger Arbeit und Kapitalvermögen. Originalseiten des Nachtrags sind zur Kontrolle aufklappbar."
             quelle={estKurzskript1Quelle}
             kapitel={estKurzskript1}
             karteKicker={(k) => `${k.teilLabel} · Kapitel ${k.kapitel}`}

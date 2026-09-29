@@ -4,16 +4,12 @@
    jeweils eigener Kapitelnummerierung; jeder Eintrag hier ist ein Kapitel und
    trägt mit `teil` den Themenblock, zu dem es gehört.
 
-   UNVOLLSTÄNDIG – und zwar nachprüfbar: Der Drive-Connector gibt das PDF nur bis
-   Seite 79 von 162 aus, und die 6,6 MB große Datei selbst lässt sich über den
-   Connector nicht herunterladen (die Verbindung bricht ab). Erfasst sind daher
-   die Teile „Einführung in die Einkommensteuer“ und „Einkünfte aus Vermietung
-   und Verpachtung“ vollständig sowie vom Teil „Einkünfte aus Gewerbebetrieb“
-   die Kapitel 1 bis 3 bis einschließlich Tz. 3.5. Offen bleiben Tz. 3.6 und
-   Kapitel 4 dieses Teils sowie die Teile Betriebsaufspaltung, Gewerblicher
-   Grundstückshandel, Betriebsbeendigung, Einnahmenüberschussrechnung, Einkünfte
-   aus selbständiger Arbeit und Einkünfte aus Kapitalvermögen. Es wurde nichts
-   ergänzt, was nicht in der Quelle steht.
+   Nachtrag 29.09.2026: Der vollständige Datei-Download ist verfügbar.
+   Die Skriptseiten 80–162 sind jetzt zusätzlich übernommen: Kapitel 3.6/4
+   des Gewerbebetriebsteils und alle sechs weiteren Themenblöcke. Tabellen und
+   Abbildungen sind nativ übertragen; die 83 Originalseiten sind beim Kapitel
+   zur Kontrolle aufklappbar. Quelle SHA-256 und Seitenplan im Nachtragsdatensatz.
+   Keine Rechtsstandsprüfung; unveränderter Quellenstand 07/2026.
 
    Blocktypen wie in den übrigen Beständen: text | titel | tabelle.
 
@@ -23,13 +19,15 @@
    selbst nicht aufgeht, sind mit "(so in der Quelle)" gekennzeichnet. Beides ist
    in docs/quellenabgleich-drive.md aufgeführt. */
 
+import { estKurzskript1FortsetzungGewerbe, estKurzskript1Nachtrag } from "./est-kurzskript-1-nachtrag.js";
+
 export const estKurzskript1Quelle = {
   reihe: "Einkommensteuer Kurzskript I · Martin Engelberth",
   stand: "Stand 07/2026",
   didaktik: [
     "Der erste Teil des ESt-Kurzskripts legt die Grundlagen: Aufbau der Einkommensteuer von der persönlichen Steuerpflicht über das Ermittlungsschema des zu versteuernden Einkommens bis zur festzusetzenden Steuer, anschließend die Überschusseinkunftsart Vermietung und Verpachtung und die Einkünfte aus Gewerbebetrieb.",
     "Jedes Kapitel steht hier als eigener Eintrag mit dem Text der Quelle; die Beispiele und ihre Lösungshinweise sind vollständig übernommen, die Ermittlungsschemata als Tabelle.",
-    "Der Bestand ist noch nicht vollständig: Erfasst sind die Seiten 1 bis 79 des Skripts, weiter gibt der Drive-Connector die Datei nicht aus. Was fehlt, steht im Kopf der Datei und im Quellenabgleich.",
+    "Die früher fehlenden Skriptseiten 80 bis 162 sind ergänzt. Alle neun Themenblöcke sind vertreten. Der Nachtrag enthält die aus der vollständigen Datei übernommenen Texte sowie visuell übertragene Tabellen und Schaubilder. Die zugehörigen Originalseiten sind beim Kapitel aufklappbar; keine Rechtsstandsprüfung.",
   ],
 };
 
@@ -1584,9 +1582,18 @@ const kapitelRoh = [
   },
 ];
 
-export const estKurzskript1 = kapitelRoh.map((kapitel) => ({
+const bestandBisSeite79 = kapitelRoh.map((kapitel) => ({
   ...kapitel,
   bloecke: kapitel.bloecke.map((block) => (typeof block === "string" ? { text: block } : block)),
 }));
+export const estKurzskript1 = [
+  ...bestandBisSeite79.map((kapitel) => kapitel.id === estKurzskript1FortsetzungGewerbe.id ? {
+    ...kapitel,
+    bloecke: [...kapitel.bloecke, ...estKurzskript1FortsetzungGewerbe.bloecke],
+    quellenseiten: estKurzskript1FortsetzungGewerbe.quellenseiten,
+    quelle: `${kapitel.quelle} · einschließlich Tz. 3.6 (Skript-S. 80)`,
+  } : kapitel),
+  ...estKurzskript1Nachtrag,
+];
 
 export default estKurzskript1;
