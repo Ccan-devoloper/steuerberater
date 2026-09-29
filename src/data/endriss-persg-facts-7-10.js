@@ -6,6 +6,7 @@
 const p = text => ({ text });
 const h = text => ({ typ: 'titel', text });
 const t = (spalten, zeilen) => ({ typ: 'tabelle', spalten, zeilen });
+const ledger = (spalten, zeilen) => ({ ...t(spalten, zeilen), quellenart: 'kontenentwicklung' });
 const k = (id, title, page, sheet, normen, campusModules, bloecke) => ({
   id: `persg-facts-${id}`, title, pages: [page], printedSheets: [sheet],
   normen, campusModules,
@@ -82,7 +83,7 @@ export const persgFacts7bis10 = [
     p('Gewinn 01: 100.000 €, Verlust 02: 60.000 €, Gewinn 03: 90.000'),
     h('Lösung: · Kontenentwicklung im Original'),
     p('Die Gruppenüberschriften des Originals sind „A-GmbH“ mit Kap I / Kap II und „A“ mit Kap I / Kap II / Verrechn.kto. „--“ bleibt als Strichfeld erhalten; die Beträge sind aus der Quellenlösung übernommen, nicht neu berechnet.'),
-    t(['Zeitpunkt / Vorgang', 'A-GmbH · Kap I', 'A-GmbH · Kap II', 'A · Kap I', 'A · Kap II', 'A · Verrechn.kto.'], [
+    ledger(['Zeitpunkt / Vorgang', 'A-GmbH · Kap I', 'A-GmbH · Kap II', 'A · Kap I', 'A · Kap II', 'A · Verrechn.kto.'], [
       ['01.01.01', '0 €', '0 €', '50.000 €', '0 €', '0 €'],
       ['Gewinn 01', '--', '5.000 €', '--', '--', '95.000 €'],
       ['31.12.01', '0 €', '5.000 €', '50.000 €', '0 €', '95.000 €'],

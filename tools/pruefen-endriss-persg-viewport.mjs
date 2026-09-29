@@ -44,6 +44,17 @@ try {
           assert.equal(await region.getAttribute('role'),'region');
           const metrics = await region.evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth,wrap:getComputedStyle(el.querySelector('tbody th')).overflowWrap}));
           assert.equal(metrics.wrap,'normal','Technical words must not be fragmented anywhere');
+          if (id === 'persg-facts-10' && i === 2) {
+            assert.equal(await region.locator('table.endriss-facts-ledger').count(),1);
+            const amounts = await region.locator('tbody td').evaluateAll(cells => cells.map(cell => {
+              const range = document.createRange(); range.selectNodeContents(cell);
+              return {text:cell.textContent,whiteSpace:getComputedStyle(cell).whiteSpace,lines:range.getClientRects().length};
+            }));
+            for (const amount of amounts) {
+              assert.equal(amount.whiteSpace,'nowrap', `Ledger amount may wrap: ${amount.text}`);
+              assert.equal(amount.lines,1, `Sign, amount and currency must stay together: ${amount.text}`);
+            }
+          }
           await region.screenshot({path:path.join(output,`${id}-table-${i}-${width}-left.png`)});
           if (metrics.scroll > metrics.client+2) {
             await region.focus();
