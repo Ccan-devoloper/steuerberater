@@ -1,0 +1,30 @@
+name: Endriss Restbestaende
+on:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Source snapshot
+        run: git archive --format=zip HEAD src tools docs .github package.json package-lock.json vite.config.js index.html > /tmp/endriss-source.zip
+      - uses: actions/upload-artifact@v4
+        with:
+          name: endriss-source
+          path: /tmp/endriss-source.zip
+          retention-days: 7
+      - run: npm ci
+      - run: npm run build
+      - name: Source import checks
+        run: |
+          if test -f tools/pruefen-endriss-nachtrag.mjs; then
+            node tools/pruefen-endriss-nachtrag.mjs
+          fi
