@@ -111,7 +111,8 @@
       "zeit": "19:07",
       "art": "fehler",
       "themaId": "istr-modul-istr-istr3-05",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-29T17:43:59.797Z"
     },
     {
       "slot": "s3",
