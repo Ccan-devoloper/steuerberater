@@ -5909,13 +5909,35 @@
       },
       "insightsStand": "2026-09-29T07:44:29.578Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "b2",
+      "medienId": "17884860804686301",
+      "veroeffentlicht": "2026-09-29T08:44:43.955Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "10:30",
+      "stunde": 10,
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-337",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 8,
     "ust": 8,
     "kst": 7,
-    "ao": 13,
+    "ao": 14,
     "bilanz": 17,
     "istr": 13,
     "erbst": 3,
