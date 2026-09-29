@@ -11,7 +11,13 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false
+    "coverbilder": false,
+    "autorUsd": 0,
+    "faktencheckUsd": 0,
+    "sonstigeTextKiUsd": 0,
+    "bildgenerierungErlaubt": false,
+    "bildkostenUsd": 0,
+    "bilderStatus": "icon-statt-providerbild"
   },
   "plan": {
     "beitraege": [
@@ -196,11 +202,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "spickzettel",
@@ -289,11 +296,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -399,11 +407,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -417,8 +426,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -430,7 +439,8 @@
         "linear",
         "sofort"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -444,8 +454,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -457,7 +467,8 @@
         "sofort"
       ],
       "richtig": 1,
-      "text": "Das überlassene Kapital bleibt konstant, daher lineare Auflösung."
+      "text": "Das überlassene Kapital bleibt konstant, daher lineare Auflösung.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -477,15 +488,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 1 Abs. 1 EStG",
       "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
-      "text": "§ 1 Abs. 1, 3 und 4 EStG sauber voneinander unterscheiden. Die 90-%-/Grundfreibetragsprüfung des § 1 Abs. 3 EStG in den Klausuraufbau einordnen."
+      "text": "§ 1 Abs. 1, 3 und 4 EStG sauber voneinander unterscheiden. Die 90-%-/Grundfreibetragsprüfung des § 1 Abs. 3 EStG in den Klausuraufbau einordnen.",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -500,14 +512,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Gewöhnlicher Aufenthalt: Wann reicht die bloße Anwesenheit?",
-      "text": "Kläre zuerst, ob schon ein Wohnsitz nach § 8 AO vorliegt; § 9 AO ist nur ergänzend zu untersuchen."
+      "text": "Kläre zuerst, ob schon ein Wohnsitz nach § 8 AO vorliegt; § 9 AO ist nur ergänzend zu untersuchen.",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -525,14 +538,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
-      "text": "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr."
+      "text": "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -553,27 +567,121 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
-      "text": "Aufsichtsratsvergütung: § 18 → § 49 Nr. 3 → § 50a Nr. 4 → 30 % → ggf. EU/EWR-Aufwendungen → Art. 16 DBA."
+      "text": "Aufsichtsratsvergütung: § 18 → § 49 Nr. 3 → § 50a Nr. 4 → 30 % → ggf. EU/EWR-Aufwendungen → Art. 16 DBA.",
+      "liveVorrangAktiv": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Gewinnrealisierung und schwebende Geschäfte",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b1",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6…",
+      "text": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b2",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b3",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
     }
   },
   "renderVorschau": {
-    "status": "ausstehend",
+    "status": "fertig",
+    "erzeugtAm": "2026-09-29T02:25:03.577Z",
+    "pfad": "vorproduktion/2026-10-14/fertig",
+    "providerKostenUsd": 0,
+    "textProviderKostenUsd": 0,
+    "faktencheckProviderKostenUsd": 0,
+    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "charakterLayer": "bewusst-ausgelassen",
-    "reelLayout": "erklaer",
-    "audio": "piper-offline",
-    "providerKostenUsd": 0
+    "coverIcons": true,
+    "reelStimme": "piper-offline",
+    "layoutQuelle": "herrjurist",
+    "semantikQuelle": "examenscampus",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  }
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }

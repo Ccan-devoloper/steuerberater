@@ -11,7 +11,13 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false
+    "coverbilder": false,
+    "autorUsd": 0,
+    "faktencheckUsd": 0,
+    "sonstigeTextKiUsd": 0,
+    "bildgenerierungErlaubt": false,
+    "bildkostenUsd": 0,
+    "bilderStatus": "icon-statt-providerbild"
   },
   "plan": {
     "beitraege": [
@@ -191,11 +197,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "schema",
@@ -293,11 +300,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -405,11 +413,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -423,8 +432,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -436,7 +445,8 @@
         "auf den steuerfreien Ertrag",
         "auf das Einkommen"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -450,8 +460,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -463,7 +473,8 @@
         "auf das Einkommen"
       ],
       "richtig": 1,
-      "text": "Die tatsächlichen Beteiligungsaufwendungen sind unerheblich; die Pauschale ist fiktiv."
+      "text": "Die tatsächlichen Beteiligungsaufwendungen sind unerheblich; die Pauschale ist fiktiv.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -484,15 +495,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 173 Abs. 1 Nr. 1 AO",
       "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
-      "text": "den Ermittlungsfehler des Finanzamts nach der Quellenformel untersuchen leichtes und grobes Verschulden anhand der Quellenbeispiele unterscheiden"
+      "text": "den Ermittlungsfehler des Finanzamts nach der Quellenformel untersuchen leichtes und grobes Verschulden anhand der Quellenbeispiele unterscheiden",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -516,14 +528,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
-      "text": "Feststellen, dass ein endgültiger Bescheid vorliegt und der Antrag innerhalb der Einspruchsfrist gestellt wurde."
+      "text": "Feststellen, dass ein endgültiger Bescheid vorliegt und der Antrag innerhalb der Einspruchsfrist gestellt wurde.",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -546,14 +559,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Ablauf des Besteuerungsverfahrens: von der Steuerentstehung bis zur Festsetzungsverjährung",
-      "text": "Steuerentstehung nach § 38 AO i.V.m. dem Einzelsteuergesetz bestimmen."
+      "text": "Steuerentstehung nach § 38 AO i.V.m. dem Einzelsteuergesetz bestimmen.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -575,27 +589,121 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
-      "text": "Haftenden Personenkreis nach §§ 34, 35 AO bestimmen, etwa den gesetzlichen Vertreter einer GmbH."
+      "text": "Haftenden Personenkreis nach §§ 34, 35 AO bestimmen, etwa den gesetzlichen Vertreter einer GmbH.",
+      "liveVorrangAktiv": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen",
+      "text": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b1",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b2",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b3",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
     }
   },
   "renderVorschau": {
-    "status": "ausstehend",
+    "status": "fertig",
+    "erzeugtAm": "2026-09-29T02:32:06.510Z",
+    "pfad": "vorproduktion/2026-10-19/fertig",
+    "providerKostenUsd": 0,
+    "textProviderKostenUsd": 0,
+    "faktencheckProviderKostenUsd": 0,
+    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "charakterLayer": "bewusst-ausgelassen",
-    "reelLayout": "erklaer",
-    "audio": "piper-offline",
-    "providerKostenUsd": 0
+    "coverIcons": true,
+    "reelStimme": "piper-offline",
+    "layoutQuelle": "herrjurist",
+    "semantikQuelle": "examenscampus",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  }
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }

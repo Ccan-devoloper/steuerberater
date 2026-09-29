@@ -11,7 +11,13 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false
+    "coverbilder": false,
+    "autorUsd": 0,
+    "faktencheckUsd": 0,
+    "sonstigeTextKiUsd": 0,
+    "bildgenerierungErlaubt": false,
+    "bildkostenUsd": 0,
+    "bilderStatus": "icon-statt-providerbild"
   },
   "plan": {
     "beitraege": [
@@ -189,11 +195,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "spickzettel",
@@ -286,11 +293,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -394,11 +402,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -412,8 +421,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -425,7 +434,8 @@
         "eingetragene GmbH",
         "Vorgründungsgesellschaft"
       ],
-      "richtig": 2
+      "richtig": 2,
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -439,8 +449,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -452,7 +462,8 @@
         "Vorgründungsgesellschaft"
       ],
       "richtig": 2,
-      "text": "Die Vorgründungsgesellschaft ist weder mit der Vorgesellschaft noch mit der GmbH identisch."
+      "text": "Die Vorgründungsgesellschaft ist weder mit der Vorgesellschaft noch mit der GmbH identisch.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -471,15 +482,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 175 Abs. 1 Nr. 1 AO",
       "titel": "§ 175 Abs. 1 Nr. 1 AO: Anpassung an Grundlagen-/Feststellungsbescheide",
-      "text": "Erlass/Aufhebung/Änderung eines Grundlagenbescheids als Auslöser erkennen Bindungswirkung nach § 182 Abs. 1 S. 1 AO und Wirksamkeitsformel untersuchen"
+      "text": "Erlass/Aufhebung/Änderung eines Grundlagenbescheids als Auslöser erkennen Bindungswirkung nach § 182 Abs. 1 S. 1 AO und Wirksamkeitsformel untersuchen",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -494,14 +506,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Doppelwohnsitz: Wie bestimmt Art. 4 OECD-MA die Ansässigkeit?",
-      "text": "Prüfe nach dem nationalen Recht beider Staaten, ob die Person dort für jeden Fall unbeschränkt steuerpflichtig ist."
+      "text": "Prüfe nach dem nationalen Recht beider Staaten, ob die Person dort für jeden Fall unbeschränkt steuerpflichtig ist.",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -518,15 +531,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
       "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
-      "richtigText": "Tätigkeitsstaat als Ausgangspunkt des Art. 15 bestimmen."
+      "richtigText": "Tätigkeitsstaat als Ausgangspunkt des Art. 15 bestimmen.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -548,27 +562,121 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
-      "text": "1. § 20 EStG – Kapitalertrag qualifizieren."
+      "text": "1. § 20 EStG – Kapitalertrag qualifizieren.",
+      "liveVorrangAktiv": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten",
+      "text": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b1",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG,…",
+      "text": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b2",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Wann sind wiederkehrende Leistungen Sonderausgaben?",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b3",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
     }
   },
   "renderVorschau": {
-    "status": "ausstehend",
+    "status": "fertig",
+    "erzeugtAm": "2026-09-29T02:20:54.780Z",
+    "pfad": "vorproduktion/2026-10-11/fertig",
+    "providerKostenUsd": 0,
+    "textProviderKostenUsd": 0,
+    "faktencheckProviderKostenUsd": 0,
+    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "charakterLayer": "bewusst-ausgelassen",
-    "reelLayout": "erklaer",
-    "audio": "piper-offline",
-    "providerKostenUsd": 0
+    "coverIcons": true,
+    "reelStimme": "piper-offline",
+    "layoutQuelle": "herrjurist",
+    "semantikQuelle": "examenscampus",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  }
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }

@@ -11,7 +11,13 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false
+    "coverbilder": false,
+    "autorUsd": 0,
+    "faktencheckUsd": 0,
+    "sonstigeTextKiUsd": 0,
+    "bildgenerierungErlaubt": false,
+    "bildkostenUsd": 0,
+    "bilderStatus": "icon-statt-providerbild"
   },
   "plan": {
     "beitraege": [
@@ -195,11 +201,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "schema",
@@ -294,11 +301,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -403,11 +411,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -421,8 +430,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -434,7 +443,8 @@
         "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
         "immer im Inland"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -448,8 +458,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -461,7 +471,8 @@
         "immer im Inland"
       ],
       "richtig": 1,
-      "text": "B2B-Grundregel Empfängerort; B2C nach § 3a Abs. 1 UStG Sitz des Leistenden – die Sonderorte (§ 3a Abs. 3, § 3b UStG) gehen vor."
+      "text": "B2B-Grundregel Empfängerort; B2C nach § 3a Abs. 1 UStG Sitz des Leistenden – die Sonderorte (§ 3a Abs. 3, § 3b UStG) gehen vor.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -477,15 +488,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 179 Abs. 3 AO",
       "titel": "Ergänzungsbescheid als eigenes Korrekturthema: Quellenhinweis und Abgrenzung",
-      "text": "Ergänzungsbescheid als eigenständigen Feststellungsbescheid-Baustein erkennen ihn nicht mit dem Nachholen des Wirksamkeitsvermerks verwechseln"
+      "text": "Ergänzungsbescheid als eigenständigen Feststellungsbescheid-Baustein erkennen ihn nicht mit dem Nachholen des Wirksamkeitsvermerks verwechseln",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -503,14 +515,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 49 EStG: Katalog der inländischen Einkünfte",
-      "text": "1. Einkunftsart materiell bestimmen."
+      "text": "1. Einkunftsart materiell bestimmen.",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -533,14 +546,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
-      "text": "Neu ist, was die zuständige Stelle bei der letzten vollen Sachprüfung nicht aus den Akten kannte, und es muss die Steuer tatsächlich verändern."
+      "text": "Neu ist, was die zuständige Stelle bei der letzten vollen Sachprüfung nicht aus den Akten kannte, und es muss die Steuer tatsächlich verändern.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -564,27 +578,121 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
-      "text": "Bekanntgabetag bestimmen: Fiktion nach § 122 Abs. 2 AO, späterer tatsächlicher Zugang oder Zustellung nach dem VwZG."
+      "text": "Bekanntgabetag bestimmen: Fiktion nach § 122 Abs. 2 AO, späterer tatsächlicher Zugang oder Zustellung nach dem VwZG.",
+      "liveVorrangAktiv": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Freigebige Zuwendung: Wann ist eine Schenkung…",
+      "text": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b1",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Ab wann und bis wann ist ein Betrieb…",
+      "text": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b2",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b3",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
     }
   },
   "renderVorschau": {
-    "status": "ausstehend",
+    "status": "fertig",
+    "erzeugtAm": "2026-09-29T02:26:33.472Z",
+    "pfad": "vorproduktion/2026-10-15/fertig",
+    "providerKostenUsd": 0,
+    "textProviderKostenUsd": 0,
+    "faktencheckProviderKostenUsd": 0,
+    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "charakterLayer": "bewusst-ausgelassen",
-    "reelLayout": "erklaer",
-    "audio": "piper-offline",
-    "providerKostenUsd": 0
+    "coverIcons": true,
+    "reelStimme": "piper-offline",
+    "layoutQuelle": "herrjurist",
+    "semantikQuelle": "examenscampus",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  }
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
