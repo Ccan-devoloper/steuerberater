@@ -1,6 +1,7 @@
 {
-  "schemaVersion": 3,
-  "updatedAt": "2026-09-29T22:48:36Z",
+  "schemaVersion": 4,
+  "updatedAt": "2026-09-29T23:11:00Z",
+  "timestampBasis": "Observation after successful PR262 deployment and exact status-file read-back; the checkpoint commit records its save time.",
   "sourceId": "persg-facts",
   "sourceTitle": "B-S25-PersG-fact sheets-(Horst)-0425.pdf",
   "driveId": "179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
@@ -9,39 +10,59 @@
   "physicalPages": 24,
   "legalReview": false,
   "sourceComplete": false,
-  "lease": {"owner":"interactive-persg-facts-20260930-pages5-6","expiresAt":"2026-09-29T23:35:00Z","scope":"PersG Fact Sheets PDF pages5-6, native source data/audit, partial coverage, source/browser tests and checkpoints. Preserve existing content, UI and learner progress."},
+  "packageComplete": true,
+  "lease": null,
+  "releasedLeaseOwner": "interactive-persg-facts-20260930-pages5-6",
   "historicalCheckpoints": [
-    {"commit":"94bbdbc6f4f1ccb4c48d132cff95f45d4809d601","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"4e0e89feab38908b4e144a9d5abf91fcfee8c13d","contents":"Complete PR261 pages1-4 source, test, failure, manual screenshot and merge/deployment evidence; preserved unchanged at this ref."},
-    {"commit":"3ef135f21bf1443cae972d3f428ef850afcfad78","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"7e91153ac8b689444d3964ad14564767f3fa1384","contents":"Fresh ref/lease checks and bounded pages5-6 start, before visual review or implementation."}
+    {"commit":"94bbdbc6f4f1ccb4c48d132cff95f45d4809d601","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"4e0e89feab38908b4e144a9d5abf91fcfee8c13d","contents":"Complete PR261 pages1-4 source, tests, local failures, manual screenshot findings/fix, merge and deployment evidence. Preserved unchanged."},
+    {"commit":"3ef135f21bf1443cae972d3f428ef850afcfad78","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"7e91153ac8b689444d3964ad14564767f3fa1384","contents":"Fresh ref/lease checks and bounded pages5-6 start, before visual review or implementation."},
+    {"commit":"5990b34dbf384d5df2d48c373105bc598bbb6306","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"af1925fec06fb27da86b69ec192fb37818470d4c","contents":"Complete pre-release pages5-6 source evidence, initial implementation, local successes/failures and pending CI. Its pending fields are historical, not current."}
   ],
-  "releasedPackages": [{"pages":[1,2,3,4],"printedSheets":[1,2,3,4,5,6],"sections":7,"tables":11,"pullRequest":261,"mergeCommit":"d35c7485c74aecbc9061dcef6e06252c3ab24a7f","deploymentRun":36638499096,"deployed":true,"fullEvidence":"historicalCheckpoints[0]"}],
+  "releasedPackages": [
+    {"pages":[1,2,3,4],"printedSheets":[1,2,3,4,5,6],"sections":7,"tables":11,"pullRequest":261,"mergeCommit":"d35c7485c74aecbc9061dcef6e06252c3ab24a7f","deploymentRun":36638499096,"deployed":true,"fullEvidence":"historicalCheckpoints[0]"},
+    {"pages":[5,6],"printedSheets":[7,8,9,10],"additionalSections":4,"additionalTables":7,"pullRequest":262,"mergeCommit":"c37b58ab98915402c32a7dd93ea71530e8069717","deploymentRun":36643512693,"deployed":true,"fullEvidence":"currentPackage"}
+  ],
   "visuallyReviewedPages": [1,2,3,4,5,6],
   "nativePages": [1,2,3,4,5,6],
-  "releasedPages": [1,2,3,4],
-  "remainingNativePages": [7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+  "releasedPages": [1,2,3,4,5,6],
+  "remainingPages": [7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
   "currentPackage": {
-    "pages":[5,6],"printedSheets":[7,8,9,10],"state":"native implementation and local SSR checked; full CI/browser/release pending",
+    "pages":[5,6],"printedSheets":[7,8,9,10],"state":"bounded-package-merged-and-deployed; complete-source-remains-open",
     "visuallyReviewedPages":[5,6],"nativePages":[5,6],"additionalSections":4,"additionalTables":7,"totalSections":11,"totalTables":18,
-    "sourceAcquisition":"Fresh connected Drive metadata matched the existing authenticated download. Independently checked original 17436897 bytes/SHA256/24pages. Direct full-page images5/6 plus enlarged sheets8/9/10 inspected; no OCR. Existing original assets unchanged.",
+    "implementationCommit":"5990b34dbf384d5df2d48c373105bc598bbb6306",
+    "mobileLedgerFixCommit":"257f7864342f953dbea8f7634f8b69bd16ef402c",
+    "sourceAcquisition":"Fresh connected Drive metadata matched the authenticated original download. Independently checked17436897bytes/SHA256/24pages. Direct full-page images5/6 plus enlarged sheets8/9/10 inspected and compared with the native transcript; no OCR. Existing original assets unchanged.",
     "pageEvidence":[
-      {"page":5,"printedSheets":[7,8],"chapters":["persg-facts-07","persg-facts-08"],"scope":"Sparse loan continuation; complete four-row ESt/USt/GewSt/SV comparison, three sticky notes, red-struck section3no62, dashed SV arrow, two EU-to-OHG example arrows and source conclusions. Empty space not filled."},
-      {"page":6,"printedSheets":[9,10],"chapters":["persg-facts-09","persg-facts-10"],"scope":"Three GmbH/KG ownership edges and25000/25000 special balance; principle/exception/re-exception and consequences. Three capital accounts; separate two-edge case; complete seven-row/six-column original solution including negative65000, final115000, dash fields and section15a/-15000 note."}
+      {"page":5,"printedSheets":[7,8],"chapters":["persg-facts-07","persg-facts-08"],"scope":"Sparse loan continuation; complete four-row ESt/USt/GewSt/SV comparison, three sticky notes, red-struck section3no62, dashed SV arrow, two EU-to-OHG example arrows and both original conclusions. Empty space not filled; actual sheet8 versus contents7 explicitly retained."},
+      {"page":6,"printedSheets":[9,10],"chapters":["persg-facts-09","persg-facts-10"],"scope":"Three GmbH/KG ownership edges and25000/25000 special balance; principle/exception/re-exception and consequences. Three capital accounts; separate two-edge case; all seven-row/six-column original solution cells including negative65000, final115000, dash fields and section15a/-15000 note. Actual sheet9/10 versus contents8/9 explicitly retained."}
     ],
     "existingModuleTargets":[3,7,8,9,10,11],
-    "duplicateHandling":"Existing module9 MU split, module10 remuneration, module11 capital accounts and modules3/7/8 read for concrete links. They remain unchanged. Original contents numbering differs from actual sheets8/9/10 and remains explicit. Original 6 released printed chapters are protected by unchanged native-content SHA25641a0516be57d7f156cc3d18f818852c9f19f91379d80be8d0eeac97982d121d8.",
-    "files":["src/data/endriss-persg-facts-7-10.js","src/data/endriss-persg-facts.js","src/components/K3PersGHausaufgaben.jsx","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs"],
-    "ui":"Existing two source entries; derived6/24 notice and18open pages. New chapters reuse accessible table renderer. Ten distinct module links total. No user-progress or original-image edits.",
+    "allSourceModuleTargets":[1,2,3,4,6,7,8,9,10,11],
+    "duplicateHandling":"Existing module9 MU split, module10 remuneration, module11 capital accounts and modules3/7/8 were read for concrete links and remain unchanged. These links do not certify identical source wording. Original contents numbering differs from actual sheets8/9/10 and stays explicit. Previously released six printed chapters retain SHA25641a0516be57d7f156cc3d18f818852c9f19f91379d80be8d0eeac97982d121d8, enforced by regression. No invented original solutions.",
+    "files":["src/data/endriss-persg-facts-7-10.js","src/data/endriss-persg-facts.js","src/components/K3PersGHausaufgaben.jsx","src/components/EndrissQuellenBlock.jsx","src/components/endriss-facts.css","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs"],
+    "ui":"Existing entries Unterlagen-Nachtraege -> Personengesellschaften -> PersG Fact Sheets and Klausur3 -> Personengesellschaften -> Hausaufgaben PersG -> Fact Sheets (Horst) öffnen. Derived6/24 notice and18open pages; ten distinct actual module links. New chapters use labelled focusable scroll tables; signed ledger amounts stay together. No learner-state or original-image modifications.",
     "tests": {
-      "localSourceSSR":"passed: exact new cells, seven-by-six ledger, preserved old chapter hash, ten module targets and6/24 boundary",
-      "localNativeSSR":"passed:8sources,105native source pages,91chapters,111tables",
+      "testedHead":"257f7864342f953dbea8f7634f8b69bd16ef402c",
+      "testedPRMergeCommit":"8256915b0a4ee6d7a8c18d2d6417b9d7778cb887",
+      "sourceAndBrowser":{"run":36642668572,"job":109658329539,"conclusion":"success","scope":["full production build","source/import/native/Horst2/Notfallbuch/FGO regressions","six reviewed original-image hashes","every source text and table cell","exact7x6ledger and original dash fields","unchanged earlier chapter hash","all ten existing module links in actual Chromium1280/390","preserved seeded learner progress","new chapter focus and global native search","all seven new tables and earlier-table regressions","keyboard scrolling and visible last column","ledger signs/amounts/currency in single-line text ranges","all eight source image readers and missing/empty/partial-index fallback"]},
+      "pullRequestValidation":{"run":36642668563,"conclusion":"success","includes":"website build/checks and independent bot lint/tests"},
+      "fgoRegression":{"run":36642668601,"conclusion":"success"},
+      "mainValidation":{"run":36643512665,"websiteJob":109661044952,"botJob":109661044568,"website":"success","botLintTests":"success"},
+      "browserEvidence":{"artifact":11067610477,"digest":"sha256:7cdd91544129e75ab0cb920b70aa9b143e25c76dedaa3c776ead64f4a169b265","downloadedAndDigestVerified":true,"reportsRead":["endriss-persg-facts/report.json","endriss-persg-facts/viewport-report.json","endriss-browser/report.json"],"allReportsPassed":true,"manualScreenshots":["persg-facts-10-table-2-390-right.png","persg-facts-10-table-2-390-left.png","persg-facts-10-table-2-1280-left.png","persg-facts-09-table-0-1280-left.png","persg-facts-09-table-1-390-right.png","persg-facts-08-table-0-1280-left.png","persg-facts-08-table-0-390-right.png"],"scopeNote":"These specified new-table views were inspected, not every generated image. Mobile captures show horizontal viewport fragments; access to all columns is independently tested. Current ledger negative65000 and currency visibly remain together."},
+      "localSourceSSR":"passed before and after mobile fix: exact source cells, original7x6ledger, old chapter hash, ten targets and6/24boundary",
+      "localNativeSSR":"passed:8sources,105native source pages,91chapters,111tables across all registered sources",
       "localNotfallbuch":"passed",
       "localViteBundle":"passed with existing large-chunk warnings; not a full production acceptance",
-      "localProductionBuild":"FAILED: small Actions source snapshot omits public/instagram-dashboard.html. Require full-checkout CI production build; do not relabel this local run as success.",
-      "localHorst2":"FAILED: same source-only snapshot omits public/endriss/quellen/sources/persg-folien-2.json. Full-checkout CI regression required.",
-      "browser":"not run yet for this package; expanded existing CI tests cover all new tables and ten real module targets"
+      "localProductionBuild":"FAILED: deliberately small Actions source snapshot omits public/instagram-dashboard.html. This failed local result is retained; full-checkout CI production build passed independently.",
+      "localHorst2":"FAILED: source-only snapshot omits public/endriss/quellen/sources/persg-folien-2.json. Full-checkout CI source regression passed independently.",
+      "localBrowser":"Not run for this package; actual desktop/mobile acceptance executed in GitHub Actions.",
+      "priorFinding":{"head":"5990b34dbf384d5df2d48c373105bc598bbb6306","testedPRMerge":"d73fe7092821aa3f1de6fb843c197323782ad04e","packageRun":36641920218,"validateRun":36641920229,"conclusion":"success before manual layout finding","artifact":11067081558,"digest":"sha256:80b546c0dfd71b1ee4f21a70a1c4ac9b3880c1a08c25780cd63b17d2e5ccc352","finding":"Direct inspection of persg-facts-10-table-2-390-right.png showed sign,65000andEuro split across three lines despite passing tests. Merge was delayed; the scoped ledger class/nowrap style and actual single-line Range assertions were added in257f7864. New complete CI and specified new screenshots passed. Original values/text unchanged."}
     },
-    "merged":false,"deployed":false
+    "pullRequest":262,"merged":true,"mergedAt":"2026-09-29T23:07:44Z","mergeCommit":"c37b58ab98915402c32a7dd93ea71530e8069717",
+    "deployed":true,
+    "deployment":{"run":36643512693,"buildJob":109661045181,"deployJob":109661376988,"conclusion":"success","deployedCommit":"c37b58ab98915402c32a7dd93ea71530e8069717","statusFile":".github/deploy-last.json","statusBlobSha":"63ddebfaceec6d39d6853ad920f097492c18d2c1","statusFileReadBack":true,"observedMainCommit":"27ff5c7414d507c1e7a25ca15c396f7ceb324e27","pageUrl":"https://ccan-devoloper.github.io/steuerberater/"}
   },
+  "workBranchSynchronizedTo":"27ff5c7414d507c1e7a25ca15c396f7ceb324e27",
   "blockers": [],
-  "next":"Read full-checkout Actions results and actual logs. Require production/source/import/previous-source regressions and desktop/mobile UI tests, then inspect new table screenshots before merging. Verify exact deployment. Afterwards release lease and resume at PDF7, next printed sheet11. Whole-source A5 remains partial; strict fully completed group count stays6/12."
+  "next":"Resume at original PDF7, next printed sheet11. First reread refs and source/global checkpoints, acquire a fresh scoped lease and compare actual images with existing modules. Do not redo published PDF1-6. Keep PDF7-24 open until individually reviewed, natively integrated, tested and released. A5 remains partial:6/24source pages=25percent of this PDF; strict complete-group metric stays6/12=50percent and is not a whole-campus/workload percentage."
 }
