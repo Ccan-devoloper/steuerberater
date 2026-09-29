@@ -15,9 +15,11 @@ import path from "node:path";
 import { Hosting } from "../src/hosting.mjs";
 import { CONFIG } from "../src/config.mjs";
 import { pruefeBeitrag } from "../src/pruefung.mjs";
-import { tagesplan, FORMAT_QUELLEN } from "../src/planer.mjs";
+import { tagesplan, FORMAT_QUELLEN, faecherInRotation } from "../src/planer.mjs";
 import { themenpool, fachInfo, KLAUSUREN, FEED_KATEGORIEN } from "../src/inhalte.mjs";
 import {
+  QUELLENSPRACHE,
+  dreiKlausurenFolge,
   examenscampusRegelnPruefen,
   fachMeta,
   providerfreieVorproduktionPruefen,
@@ -258,6 +260,7 @@ function hashtags(t) {
     istr: "#internationalessteuerrecht",
     bilanz: "#bilanzsteuerrecht",
     persg: "#personengesellschaften",
+    umwst: "#umwandlungssteuerrecht",
     mindset: "#kopfsache",
   };
   if (map[t?.fach]) tags.push(map[t.fach]);
@@ -495,11 +498,12 @@ function recent(id, art, datum) {
   return diff < (art === "story" ? 60 : CONFIG.plan.themenSperreTage);
 }
 
-function pick(datum, { art = "beitrag", klausur = null, types = null, filter = null, used = new Set(), seed = "x" } = {}) {
+function pick(datum, { art = "beitrag", klausur = null, fach = null, types = null, filter = null, used = new Set(), seed = "x" } = {}) {
   let kandidaten = pool.filter((t) =>
     !used.has(t.id)
     && (!dreiKlausuren || !historischeIds.has(t.id))
     && (klausur == null || Number(t.klausur) === Number(klausur))
+    && (fach == null || t.fach === fach)
     && (!types || types.includes(t.typ))
     && (!filter || filter(t))
   );
@@ -516,6 +520,22 @@ function pick(datum, { art = "beitrag", klausur = null, types = null, filter = n
     return (prio[t.prioritaet] || 1) * (strategy.fachGewicht?.[t.fach] || 1) + hash / 0xffffffff;
   };
   return kandidaten.sort((a, b) => score(b) - score(a))[0];
+}
+
+// Die ersten beiden Lernschritte tragen die Karussellfolien; zu knappe oder
+// quellenlastige Schritte ergeben dort keine brauchbare Folie.
+function karussellTauglich(k) {
+  return k.schritte.length > 0 && !k.schritte.slice(0, 2).some((x) =>
+    x.length < 22 || /Quellenhinweis|Quellenmatrix|Skript|Mitschrift/i.test(x)
+  );
+}
+
+// Fachrotation je Klausur (siehe planer.mjs), getrennt nach Reel/Karussell.
+function faecherDerKlausur(klausur, istReel) {
+  const faecher = pool
+    .filter((t) => Number(t.klausur) === Number(klausur) && fachInfo(t.fach))
+    .map((t) => t.fach);
+  return faecherInRotation(faecher, ledger.veroeffentlicht, istReel);
 }
 
 function story(datum, planStory, t, used) {
@@ -794,46 +814,88 @@ for (const datum of dates) {
   const p = tagesplan(datum, ledger, pool, strategy);
   if (dreiKlausuren) {
     if (p.beitraege.length !== 3) throw new Error(datum + ": genau drei Feed-Slots erwartet.");
-    // Nach dem 28.09. endet die bestehende Folge mit K2: K3, K1, K2
-    // setzt sie ohne Farbduplikat über jede Tagesgrenze fort.
-    const farben = [3, 1, 2];
-    const benutzt = new Set();
-    p.beitraege.forEach((b, i) => {
-      b.zeit = ["08:30", "13:30", "19:00"][i];
-      const original = b.format;
-      b.format = i === 2 ? "reel"
-        : ["anlass", "loesungsskizze", "wochenrueckblick", "aktuell"].includes(original)
-          ? "spickzettel" : original;
-      if (["pruefungsfrage", "rechenweg", "minifall"].includes(b.format)) {
-        // Diese providerfreien Kacheln enthalten weder Quizauflösung noch
-        // ausgerechneten Fall: ihr ehrliches Format ist ein Lern-Spickzettel.
-        b.format = "spickzettel";
-      }
-      b.klausur = farben[i];
-      const typen = FORMAT_QUELLEN[b.format] || FORMAT_QUELLEN.pruefungsfrage;
-      const passend = pool.some((t) => t.klausur === b.klausur && typen.includes(t.typ));
-      if (!passend) b.format = "pruefungsfrage";
-      b.thema = pick(datum, {
-        klausur: b.klausur,
-        types: FORMAT_QUELLEN[b.format],
-        used: benutzt,
-        seed: "drei-klausuren-" + b.slot,
-        filter: (t) => {
+    // Die Klausurfolge rotiert täglich (K3,K1,K2 | K1,K2,K3 | K2,K3,K1),
+    // damit jede Klausur jeden Slot und das Reel belegt, ohne dass sich an
+    // einer Tagesgrenze die Klausurfarbe doppelt.
+    const farben = dreiKlausurenFolge(datum);
+    const vorlage = p.beitraege.map((b) => ({ ...b }));
+    let benutzt;
+    // Das Reel steht regulär um 19:00 (b3). Ist der Karussellvorrat einer
+    // Klausur erschöpft, übernimmt ihr Slot das Reel und b3 wird Karussell;
+    // die Klausurfolge des Tages bleibt dabei unverändert.
+    const belegen = (reelIndex) => {
+      benutzt = new Set();
+      p.beitraege.forEach((b, i) => Object.assign(b, vorlage[i]));
+      p.beitraege.forEach((b, i) => {
+        b.zeit = ["08:30", "13:30", "19:00"][i];
+        const original = b.format;
+        b.format = i === reelIndex ? "reel"
+          : ["anlass", "loesungsskizze", "wochenrueckblick", "aktuell", "reel"].includes(original)
+            ? "spickzettel" : original;
+        if (["pruefungsfrage", "rechenweg", "minifall"].includes(b.format)) {
+          // Diese providerfreien Kacheln enthalten weder Quizauflösung noch
+          // ausgerechneten Fall: ihr ehrliches Format ist ein Lern-Spickzettel.
+          b.format = "spickzettel";
+        }
+        b.klausur = farben[i];
+        const typen = FORMAT_QUELLEN[b.format] || FORMAT_QUELLEN.pruefungsfrage;
+        const passend = pool.some((t) => t.klausur === b.klausur && typen.includes(t.typ));
+        if (!passend) b.format = "pruefungsfrage";
+        const themaFilter = (t) => {
           const k = kern(t);
           if (!k.lern.length || !k.schritte.length) return false;
-          if (b.format !== "reel" && k.schritte.slice(0, 2).some((x) =>
-            x.length < 22 || /Quellenhinweis|Quellenmatrix|Skript|Mitschrift/i.test(x)
-          )) return false;
+          if (b.format !== "reel" && !karussellTauglich(k)) return false;
           const entwurf = b.format === "reel"
             ? reel(datum, b.slot, t)
             : carousel(datum, b.slot, b.format, t);
           return pruefeBeitrag(entwurf).ok
-            && !/Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs/i.test(JSON.stringify(entwurf))
+            && !QUELLENSPRACHE.test(JSON.stringify(entwurf))
             && (b.format !== "reel" || !JSON.stringify(entwurf.szenen).includes("…"));
-        },
+        };
+        // Reels nehmen zuerst Themen, die als Karussell ohnehin nicht taugen –
+        // notfalls aus dem nächsten Fach der Rotation. Sonst verbraucht das Reel
+        // den knappen Karussellvorrat einer Klausur (z. B. KSt), die an den
+        // beiden anderen Rotationstagen ein Karussell braucht.
+        const filterStufen = b.format === "reel"
+          ? [(t) => !karussellTauglich(kern(t)) && themaFilter(t), themaFilter]
+          : [themaFilter];
+        const faecher = faecherDerKlausur(b.klausur, b.format === "reel");
+        let fehler = null;
+        b.thema = null;
+        suche: for (const filter of filterStufen) {
+          for (const fach of faecher) {
+            try {
+              b.thema = pick(datum, {
+                klausur: b.klausur,
+                fach,
+                types: FORMAT_QUELLEN[b.format],
+                used: benutzt,
+                seed: "drei-klausuren-" + b.slot,
+                filter,
+              });
+              break suche;
+            } catch (e) {
+              // Kein geeignetes unverbrauchtes Thema: nächste Stufe bzw. nächstes Fach.
+              fehler = e;
+            }
+          }
+        }
+        if (!b.thema) throw fehler || new Error(datum + " " + b.slot + ": Kein Fach für K" + b.klausur + ".");
+        benutzt.add(b.thema.id);
       });
-      benutzt.add(b.thema.id);
-    });
+    };
+    let reelFehler = null;
+    for (const reelIndex of [2, 0, 1]) {
+      try {
+        belegen(reelIndex);
+        reelFehler = null;
+        break;
+      } catch (e) {
+        if (!String(e.message).startsWith("Kein unverbrauchtes Thema")) throw e;
+        reelFehler ||= e;
+      }
+    }
+    if (reelFehler) throw reelFehler;
     const klausuren = p.beitraege.map((b) => b.klausur).sort().join(",");
     if (klausuren !== "1,2,3" || p.beitraege.filter((b) => b.format === "reel").length !== 1) {
       throw new Error(datum + ": K1/K2/K3 mit zwei Karussells und einem Reel verfehlt.");
@@ -861,6 +923,8 @@ for (const datum of dates) {
         seed: "story-" + s.slot,
         filter: (t) => {
           const vorschau = story(datum, { ...s }, t, new Set());
+          // Dieselbe Kurssprachen-Sperre wie examenscampusRegelnPruefen.
+          if (QUELLENSPRACHE.test(JSON.stringify(vorschau))) return false;
           const text = String(vorschau.text || "").trim();
           if (s.art === "begriff" && (!kern(t).definition || text === t.titel)) return false;
           if (s.art === "formel" && (!kern(t).ausdruck || vorschau.formel === vorschau.titel)) return false;
@@ -1021,7 +1085,7 @@ if (dreiKlausuren) {
       }
       const erlaubt = (t) => {
         const v = story(datum, { ...s }, t, new Set());
-        if (/Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs/i.test(JSON.stringify(v))) return false;
+        if (QUELLENSPRACHE.test(JSON.stringify(v))) return false;
         if (s.art === "begriff" && (!kern(t).definition || v.text === t.titel)) return false;
         if (s.art === "formel" && (!kern(t).ausdruck || v.formel === v.titel)) return false;
         if (s.art === "fehler" && (!v.falsch || !v.richtigText)) return false;

@@ -5,6 +5,7 @@ const FAECHER = [
   { id: "ao", label: "Abgabenordnung", kurz: "AO" },
   { id: "ust", label: "Umsatzsteuer", kurz: "USt" },
   { id: "erbst", label: "Erbschaftsteuer", kurz: "ErbSt" },
+  { id: "grest", label: "Grunderwerbsteuer", kurz: "GrESt" },
 ];
 
 export default function K1Fachleiste({ aktiv, onWechsel }) {

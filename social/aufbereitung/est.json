@@ -1,0 +1,508 @@
+[
+  {
+    "quelle": "est-ks2-17-01",
+    "titel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
+    "einordnung": [
+      "§ 17 EStG holt Gewinne aus dem Verkauf privat gehaltener Kapitalgesellschaftsanteile in die Einkünfte aus Gewerbebetrieb, sobald irgendwann in den letzten fünf Jahren eine Beteiligung von mindestens 1 % bestand. In Klausur 2 greifen hier Tatbestand, Teileinkünfteverfahren und Freibetrag ineinander."
+    ],
+    "lernziele": [
+      "Erfasst werden Anteile an Kapitalgesellschaften im Privatvermögen, wenn der Veräußerer innerhalb der fünf Jahre vor dem Verkauf zu irgendeinem Zeitpunkt mit mindestens 1 % beteiligt war.",
+      "Der Gewinn gehört zu den gewerblichen Einkünften, die Anteile bleiben aber steuerlich Privatvermögen; Gewerbesteuer fällt nicht an und § 34 EStG ist ausgeschlossen.",
+      "Veräußerungspreis, Veräußerungskosten und Anschaffungskosten gehen nach § 3 Nr. 40 Buchst. c und § 3c Abs. 2 EStG jeweils nur zu 60 % in die Rechnung ein.",
+      "Der Freibetrag nach § 17 Abs. 3 EStG von 9.060 € wird nur im Verhältnis des verkauften Anteils am Nennkapital gewährt und schmilzt ab, soweit der Gewinn den entsprechend gekürzten Betrag von 36.100 € übersteigt."
+    ],
+    "pruefschritte": [
+      "Klären, ob Anteile an einer Kapitalgesellschaft im Sinne des § 17 Abs. 1 Satz 3 EStG vorliegen und diese zum Privatvermögen gehören.",
+      "Die höchste Beteiligungsquote in den fünf Jahren vor dem Verkauf ermitteln und mit der Schwelle von 1 % vergleichen.",
+      "Den Gewinn nach § 17 Abs. 2 EStG berechnen: Preis abzüglich Veräußerungskosten und Anschaffungskosten, alle Größen mit 60 % angesetzt.",
+      "Den anteiligen Freibetrag bestimmen und ihn um den Betrag kürzen, um den der Gewinn die anteilige Kappungsgrenze überschreitet.",
+      "Abschließend festhalten, dass weder Gewerbesteuer noch eine Tarifermäßigung nach § 34 EStG in Betracht kommt."
+    ],
+    "fehler": [
+      "Den Freibetrag vom ungekürzten Gewinn abziehen, obwohl das Teileinkünfteverfahren zuerst anzuwenden ist.",
+      "Die Anteile wegen der gewerblichen Einkunftsart als Betriebsvermögen behandeln.",
+      "Beim Verkauf einer Teilbeteiligung den vollen Freibetrag gewähren."
+    ],
+    "merksatz": "Mindestens 1 % in fünf Jahren und Privatvermögen: Der Gewinn ist gewerblich, zählt zu 60 % und bekommt nur einen anteiligen Freibetrag, aber keine Gewerbesteuer."
+  },
+  {
+    "quelle": "est-ks2-17-02",
+    "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?",
+    "einordnung": [
+      "Beim Verkauf von Kapitalgesellschaftsanteilen sind oft mehrere Einkunftstatbestände zugleich erfüllt. Die Klausur verlangt, die gesetzliche Rangfolge zu begründen, weil davon Teileinkünfteverfahren, Abgeltungsteuer oder Steuerfreiheit abhängen."
+    ],
+    "lernziele": [
+      "Gehören die Anteile zu einem Betriebsvermögen, etwa eines Besitzunternehmens, erfasst § 15 EStG den Gewinn als laufenden Gewinn; § 17 EStG setzt Privatvermögen voraus.",
+      "Eine 100-%-Beteiligung im Betriebsvermögen gilt nach § 16 Abs. 1 Satz 1 Nr. 1 Satz 2 EStG als Teilbetrieb, ihr Veräußerungsgewinn unterliegt aber dem Teileinkünfteverfahren und nicht § 34 EStG.",
+      "Im Privatvermögen verdrängt § 17 EStG über § 20 Abs. 8 EStG die Kapitaleinkünfte nach § 20 Abs. 2 Satz 1 Nr. 1 EStG, und § 23 EStG tritt nach § 23 Abs. 2 EStG hinter beide zurück.",
+      "Kleinstbeteiligungen unter 1 %, die vor 2009 angeschafft wurden, fallen nicht unter § 20 Abs. 2 EStG und bleiben nach Ablauf der Jahresfrist steuerfrei."
+    ],
+    "pruefschritte": [
+      "Zuerst prüfen, ob die Anteile einem Betriebsvermögen zuzuordnen sind, zum Beispiel als notwendiges Betriebsvermögen bei einer Betriebsaufspaltung.",
+      "Bei Privatvermögen feststellen, ob in den letzten fünf Jahren eine Quote von mindestens 1 % erreicht war; dann gilt vorrangig § 17 EStG.",
+      "Fehlt diese Quote, das Anschaffungsdatum prüfen: Ein Erwerb nach dem 31.12.2008 führt zu Einkünften nach § 20 Abs. 2 Satz 1 Nr. 1 EStG.",
+      "Für ältere Kleinstbeteiligungen nur noch die Haltedauer von einem Jahr nach § 23 Abs. 1 Satz 1 Nr. 2 EStG kontrollieren."
+    ],
+    "fehler": [
+      "§ 23 EStG anwenden, obwohl der Vorgang bereits von § 17 oder § 20 EStG erfasst ist.",
+      "Beim Verkauf aus einem Besitzunternehmen § 17 EStG prüfen, statt einen gewerbesteuerpflichtigen laufenden Gewinn anzusetzen."
+    ],
+    "merksatz": "Betriebsvermögen geht § 17 vor, § 17 geht § 20 vor, und § 23 spielt beim Verkauf privater Kapitalgesellschaftsanteile praktisch keine Rolle mehr."
+  },
+  {
+    "quelle": "est-ks2-17-03",
+    "titel": "Wie misst man die 1-%-Grenze des § 17 EStG richtig?",
+    "einordnung": [
+      "Ob eine Beteiligung die Schwelle des § 17 EStG erreicht, entscheidet über die Steuerpflicht des gesamten Gewinns. Klausuren bauen hier gezielt Fallen über Fristen, eigene Anteile und mittelbare Beteiligungen ein."
+    ],
+    "lernziele": [
+      "Maßgeblich ist die nominelle Beteiligung am Nennkapital; eine abweichende Verteilung von Stimmrechten oder Liquidationserlös verändert die Quote nicht.",
+      "Hält die Gesellschaft eigene Anteile, wird die Quote auf das um diese Anteile verminderte Nennkapital bezogen.",
+      "Anteile im Betriebsvermögen und quotal durchgerechnete mittelbare Beteiligungen werden bei der Berechnung der Quote mitgezählt.",
+      "Wer Anteile unentgeltlich erhalten hat, wird nach § 17 Abs. 1 Satz 4 EStG erfasst, wenn sein Vorgänger innerhalb des Fünfjahreszeitraums die Schwelle erreicht hatte."
+    ],
+    "pruefschritte": [
+      "Den Zeitpunkt der Veräußerung anhand des Übergangs des wirtschaftlichen Eigentums nach § 39 AO bestimmen.",
+      "Den Fünfjahreszeitraum nach § 108 Abs. 1 AO in Verbindung mit §§ 187, 188 BGB rückwärts berechnen.",
+      "Die höchste Quote innerhalb dieses Zeitraums ermitteln und eigene Anteile der Gesellschaft vorher vom Nennkapital abziehen.",
+      "Unmittelbare und mittelbare Beteiligungen sowie im Betriebsvermögen gehaltene Anteile zusammenrechnen.",
+      "Bei unentgeltlichem Erwerb innerhalb der Frist zusätzlich die Beteiligungshistorie des Rechtsvorgängers einbeziehen."
+    ],
+    "fehler": [
+      "Nur die Quote am Verkaufstag betrachten und eine frühere höhere Beteiligung übersehen.",
+      "Stimmrechte statt Geschäftsanteile als Maßstab nehmen.",
+      "Die Schenkung selbst bereits als Veräußerung im Sinne des § 17 EStG behandeln."
+    ],
+    "merksatz": "Es zählt die höchste nominelle Quote der letzten fünf Jahre, berechnet auf das Nennkapital ohne eigene Anteile und einschließlich mittelbarer Beteiligungen."
+  },
+  {
+    "quelle": "est-ks2-17-04",
+    "titel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+    "einordnung": [
+      "§ 17 Abs. 2a EStG regelt, welche Aufwendungen die Anschaffungskosten einer Beteiligung bilden. Besonders klausurrelevant ist der Ausfall von Gesellschafterdarlehen, weil davon Zeitpunkt und Einkunftsart der Verlustberücksichtigung abhängen."
+    ],
+    "lernziele": [
+      "Zu den Anschaffungskosten zählen der Kaufpreis oder die Bareinlage bei Gründung, Nebenkosten wie Notar- und Gutachterkosten sowie nachträgliche Anschaffungskosten, vor allem offene und verdeckte Einlagen.",
+      "Ein Darlehensverlust wird nach § 17 Abs. 2a Satz 3 Nr. 2 EStG nur dann zu nachträglichen Anschaffungskosten, wenn Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war.",
+      "Gesellschaftsrechtlich veranlasst ist ein Darlehen, wenn ein außenstehender Kreditgeber unter vergleichbaren Bedingungen weder Geld gegeben noch es stehen gelassen hätte.",
+      "Bei unentgeltlichem Erwerb übernimmt der Erwerber nach § 17 Abs. 2 Satz 5 EStG die Anschaffungskosten seines Vorgängers; nach einer Entnahme aus einem Betriebsvermögen tritt der Entnahmewert an ihre Stelle."
+    ],
+    "pruefschritte": [
+      "Die ursprünglichen Anschaffungskosten einschließlich Nebenkosten aus Kaufvertrag oder Gründung zusammenstellen.",
+      "Spätere Einlagen als nachträgliche Anschaffungskosten erfassen und Zuzahlungen über den Nennbetrag hinaus gleichmäßig auf alle Anteile verteilen.",
+      "Bei einem ausgefallenen Gesellschafterdarlehen den Fremdvergleich zum Zeitpunkt der Hingabe oder der möglichen Rückforderung anstellen.",
+      "Gesellschaftsrechtlich veranlasste Ausfälle erst bei Veräußerung oder Auflösung im Rahmen des § 17 EStG zu 60 % berücksichtigen.",
+      "Übrige Ausfälle im Jahr des Ausfalls bei § 20 Abs. 2 Satz 1 Nr. 7 EStG unter Beachtung der Verlustbeschränkung des § 20 Abs. 6 EStG erfassen."
+    ],
+    "fehler": [
+      "Ein in der Krise stehen gelassenes Darlehen mit dem Nennwert ansetzen, obwohl nur der bei Kriseneintritt noch werthaltige Teil zu Anschaffungskosten führt.",
+      "Den Verlust aus einem Krisendarlehen schon im Ausfalljahr berücksichtigen, statt ihn bis zur Veräußerung oder Auflösung vorzuhalten.",
+      "Beim Verkauf eines Teils das Wahlrecht übersehen, gezielt die Anteile mit den höchsten Anschaffungskosten als veräußert zu bestimmen."
+    ],
+    "merksatz": "Gesellschaftsrechtlich veranlasster Darlehensausfall: Anschaffungskosten bei § 17 im Veräußerungsjahr. Sonst: Verlust bei § 20 im Jahr des Ausfalls."
+  },
+  {
+    "quelle": "est-ks2-17-05",
+    "titel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
+    "einordnung": [
+      "Auch Verluste aus dem Verkauf relevanter Beteiligungen sind grundsätzlich abziehbar, § 17 Abs. 2 Satz 6 EStG sperrt aber bestimmte Konstellationen. Die Klausur verlangt, Grundregel und Rückausnahmen sauber zu trennen."
+    ],
+    "lernziele": [
+      "Das Teileinkünfteverfahren gilt auch bei Verlusten, denn nach § 3c Abs. 2 Satz 7 EStG genügt die Absicht, begünstigte Einnahmen zu erzielen.",
+      "Bei unentgeltlich erworbenen Anteilen ist ein Verlust nach § 17 Abs. 2 Satz 6 Buchst. a EStG nur abziehbar, wenn der Rechtsvorgänger ihn bei eigener Veräußerung hätte geltend machen können.",
+      "Entgeltlich erworbene Anteile müssen grundsätzlich während der gesamten fünf Jahre zu einer relevanten Beteiligung gehört haben; hat erst der Zukauf die Relevanz begründet oder kam er zu einer bereits relevanten Beteiligung hinzu, bleibt der Verlust nach Buchst. b abziehbar.",
+      "Gewinn oder Verlust entstehen stichtagsbezogen im Veräußerungszeitpunkt ohne Rücksicht auf § 11 EStG; spätere Änderungen etwa der Kosten wirken nach § 175 Abs. 1 Satz 1 Nr. 2 AO zurück."
+    ],
+    "pruefschritte": [
+      "Den Verlust zum Veräußerungszeitpunkt ermitteln und Preis, Kosten und Anschaffungskosten nur zu 60 % ansetzen.",
+      "Klären, ob die verkauften Anteile im Fünfjahreszeitraum vor dem Verkauf entgeltlich oder unentgeltlich hinzugekommen sind.",
+      "Bei Schenkung oder Erbfall prüfen, ob der Vorgänger den Verlust bei eigener Veräußerung hätte abziehen dürfen.",
+      "Bei Zukauf untersuchen, ob gerade der Erwerb die Beteiligung auf mindestens 1 % gebracht hat oder eine schon relevante Beteiligung aufgestockt hat.",
+      "Die Abzugssperre nur auf den Teil des Verlusts anwenden, der auf nicht begünstigte Anteile entfällt."
+    ],
+    "fehler": [
+      "Einen Verlust vollständig streichen, obwohl ein Teil auf begünstigt hinzuerworbene Anteile entfällt.",
+      "Den Verlust ohne Teileinkünfteverfahren in voller Höhe abziehen."
+    ],
+    "merksatz": "Ein Verlust aus § 17 zählt zu 60 %, aber nur, wenn die Anteile lange genug relevant waren oder der Zukauf selbst die Relevanz geschaffen hat."
+  },
+  {
+    "quelle": "est-ks2-17-06",
+    "titel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
+    "einordnung": [
+      "§ 17 EStG erfasst nicht nur den klassischen Verkauf. In Klausuren tauchen vor allem die verdeckte Einlage in eine andere Kapitalgesellschaft, die Übertragung auf eine Personengesellschaft gegen Gesellschaftsrechte sowie die Auflösung der Gesellschaft auf."
+    ],
+    "lernziele": [
+      "Die verdeckte Einlage relevanter Anteile in eine Kapitalgesellschaft steht nach § 17 Abs. 1 Satz 2 EStG einer Veräußerung gleich; als Preis gilt nach § 17 Abs. 2 Satz 2 EStG der gemeine Wert.",
+      "Die Einlage in ein Einzelunternehmen ist keine Veräußerung; sie wird nach § 6 Abs. 1 Nr. 5 Satz 1 Buchst. b EStG mit den Anschaffungskosten bewertet, auch wenn der Teilwert darunter liegt.",
+      "Werden die Anteile gegen Gewährung von Gesellschaftsrechten in eine Personengesellschaft übertragen, liegt ein tauschähnlicher Vorgang und damit eine Veräußerung vor.",
+      "Bei Auflösung nach § 17 Abs. 4 EStG wird die Auskehrung aufgeteilt: Rückzahlungen aus Nennkapital und steuerlichem Einlagekonto gehen in § 17 EStG ein, der übrige Teil sind Bezüge nach § 20 Abs. 1 Nr. 2 EStG."
+    ],
+    "pruefschritte": [
+      "Den Vorgang einordnen: Verkauf, verdeckte Einlage, Übertragung gegen Gesellschaftsrechte, Einlage in ein Einzelunternehmen oder Auflösung.",
+      "Bei verdeckter Einlage den gemeinen Wert als Veräußerungspreis ansetzen und bei der aufnehmenden Gesellschaft das Einlagekonto erhöhen.",
+      "Bei Liquidation die Auskehrung um Nennkapital und Einlagekonto mindern und den Rest als Kapitalertrag mit Kapitalertragsteuerabzug erfassen.",
+      "Den verbleibenden Betrag als Veräußerungspreis nach § 17 Abs. 4 Satz 2 EStG den Anschaffungskosten gegenüberstellen und das Teileinkünfteverfahren anwenden.",
+      "Den Gewinn oder Verlust dem Jahr zuordnen, in dem die Liquidation abgeschlossen wird."
+    ],
+    "fehler": [
+      "Die verdeckte Einlage als steuerneutral behandeln, weil formal kein Kaufpreis fließt.",
+      "Die gesamte Liquidationsauskehrung bei § 17 EStG ansetzen und den Anteil der Kapitalerträge übersehen."
+    ],
+    "merksatz": "Verdeckte Einlage und Auflösung gelten als Veräußerung; bei der Auflösung landen nur Nennkapital und Einlagekonto bei § 17, der Rest bei § 20."
+  },
+  {
+    "quelle": "est-ks2-23-02",
+    "titel": "Warum § 23 EStG immer zuletzt geprüft wird",
+    "einordnung": [
+      "Private Veräußerungsgeschäfte sind ein Auffangtatbestand. Die Klausur prüft, ob die Rangfolge beachtet und bei Personengesellschaften zwischen gewerblicher und vermögensverwaltender Tätigkeit unterschieden wird."
+    ],
+    "lernziele": [
+      "Nach § 23 Abs. 2 EStG sind Einkünfte aus privaten Veräußerungsgeschäften den anderen Einkunftsarten zuzurechnen, soweit diese den Vorgang erfassen.",
+      "Private Anteile an Kapitalgesellschaften werden deshalb von § 17 oder § 20 Abs. 2 Satz 1 Nr. 1 EStG erfasst; für § 23 bleibt dort kaum ein Anwendungsbereich.",
+      "Kauf oder Verkauf eines Anteils an einer vermögensverwaltenden Personengesellschaft wird nach § 23 Abs. 1 Satz 4 EStG so behandelt, als habe der Gesellschafter die anteiligen Wirtschaftsgüter selbst gekauft oder verkauft.",
+      "Ist die Personengesellschaft gewerblich tätig, führt der Verkauf des Anteils dagegen zu Einkünften nach § 16 Abs. 1 Satz 1 Nr. 2 EStG."
+    ],
+    "pruefschritte": [
+      "Zuerst alle vorrangigen Tatbestände durchgehen, insbesondere §§ 15, 16, 17 und 20 EStG.",
+      "Bei Anteilen an Personengesellschaften klären, ob die Gesellschaft gewerblich oder rein vermögensverwaltend tätig ist.",
+      "Bei Vermögensverwaltung auf die anteiligen Wirtschaftsgüter durchschauen und für jedes die Frist des § 23 Abs. 1 Satz 1 EStG prüfen.",
+      "Erst wenn kein vorrangiger Tatbestand greift, den Gewinn nach § 23 Abs. 3 EStG berechnen."
+    ],
+    "fehler": [
+      "Den Verkauf einer Kleinstbeteiligung innerhalb eines Jahres als privates Veräußerungsgeschäft einordnen, obwohl § 20 Abs. 2 EStG vorgeht.",
+      "Den Anteil an einer vermögensverwaltenden GbR wie einen Mitunternehmeranteil nach § 16 EStG behandeln."
+    ],
+    "merksatz": "§ 23 ist Auffangnorm: Erst wenn keine andere Einkunftsart den Vorgang erfasst, kommt es auf die Fristen für private Veräußerungen an."
+  },
+  {
+    "quelle": "est-ks2-23-04",
+    "titel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+    "einordnung": [
+      "Liegt ein privates Veräußerungsgeschäft vor, folgt die Berechnung eigenen Regeln zu Abschreibungen, Zufluss, Freigrenze und Verlusten. Gerade bei vermieteten Grundstücken werden hier regelmäßig Punkte vergeben."
+    ],
+    "lernziele": [
+      "Nach § 23 Abs. 3 Satz 1 EStG ist Gewinn der Unterschied zwischen dem Veräußerungspreis einerseits und den Anschaffungs- oder Herstellungskosten sowie den Werbungskosten andererseits.",
+      "Wurden für das Objekt Abschreibungen bei Überschusseinkünften abgezogen, mindern sie nach § 23 Abs. 3 Satz 4 EStG die gegenzurechnenden Anschaffungs- oder Herstellungskosten.",
+      "Gewinne bleiben steuerfrei, wenn der Gesamtgewinn eines Kalenderjahres weniger als 1.000 € beträgt; es handelt sich um eine Freigrenze.",
+      "Verluste dürfen nur mit Gewinnen aus privaten Veräußerungsgeschäften verrechnet werden, auch im Rücktrag und Vortrag nach Maßgabe des § 10d EStG."
+    ],
+    "pruefschritte": [
+      "Den Veräußerungspreis dem Jahr des Zuflusses nach § 11 Abs. 1 EStG zuordnen, bei Ratenzahlung jahresweise.",
+      "Die Anschaffungs- oder Herstellungskosten samt Nebenkosten ansetzen und um bei § 21 EStG abgezogene AfA kürzen.",
+      "Veräußerungskosten wie Makler- oder Notargebühren im Jahr des Erlöszuflusses als Werbungskosten abziehen.",
+      "Den Gesamtgewinn des Kalenderjahres mit der Freigrenze von 1.000 € vergleichen.",
+      "Verbleibende Verluste zurücktragen oder vortragen und den Verlustvortrag gesondert feststellen lassen."
+    ],
+    "fehler": [
+      "Die 1.000 € wie einen Freibetrag abziehen, obwohl beim Erreichen der Grenze der gesamte Gewinn steuerpflichtig ist.",
+      "Die ungekürzten Anschaffungskosten ansetzen, obwohl das Objekt zuvor vermietet und abgeschrieben wurde.",
+      "Verluste aus privaten Veräußerungsgeschäften mit Einkünften anderer Einkunftsarten ausgleichen."
+    ],
+    "merksatz": "Preis minus um AfA gekürzte Kosten minus Werbungskosten; unter 1.000 € im Jahr steuerfrei, Verluste nur innerhalb des § 23 verrechenbar."
+  },
+  {
+    "quelle": "est-ks2-19-03",
+    "titel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
+    "einordnung": [
+      "Seit 2023 gilt für die Arbeit zu Hause ein zweigleisiges System aus Arbeitszimmer und Tagespauschale. Die Klausur verlangt, beide Wege abzugrenzen und Arbeitsmittel gesondert zu behandeln."
+    ],
+    "lernziele": [
+      "Ein häusliches Arbeitszimmer ist ein in die Wohnsphäre eingebundener, büromäßig eingerichteter Raum, der nahezu ausschließlich beruflich genutzt wird; eine Arbeitsecke im Wohnzimmer genügt nicht.",
+      "Kosten eines Arbeitszimmers sind nach § 4 Abs. 5 Satz 1 Nr. 6b EStG nur abziehbar, wenn dort der Schwerpunkt der gesamten beruflichen und betrieblichen Tätigkeit liegt; statt der tatsächlichen Kosten kann eine Jahrespauschale von 1.260 € angesetzt werden.",
+      "Die Tagespauschale nach § 4 Abs. 5 Satz 1 Nr. 6c EStG beträgt 6 € je Tag, höchstens 1.260 € im Jahr, und entfällt, soweit Arbeitszimmerkosten abgezogen werden.",
+      "Arbeitsmittel wie Schreibtisch oder Computer sind nach § 9 Abs. 1 Satz 3 Nr. 6 EStG neben beiden Pauschalen gesondert abziehbar."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob ein eigener, nahezu ausschließlich beruflich genutzter Raum vorliegt oder nur ein Arbeitsplatz in einem privat genutzten Zimmer.",
+      "Bei einem Arbeitszimmer klären, ob dort der Schwerpunkt der gesamten Tätigkeit liegt; nur dann sind Kosten oder Jahrespauschale abziehbar.",
+      "Andernfalls die Tage zählen, an denen überwiegend zu Hause gearbeitet und keine erste Tätigkeitsstätte aufgesucht wurde.",
+      "Fehlt für die Tätigkeit auf Dauer ein anderweitiger Arbeitsplatz, die Tagespauschale auch für Tage mit zusätzlicher Arbeit außer Haus ansetzen.",
+      "Arbeitsmittel unabhängig davon über AfA oder Sofortabzug als Werbungskosten berücksichtigen."
+    ],
+    "fehler": [
+      "Die Tagespauschale zusätzlich zu den Kosten des Arbeitszimmers ansetzen.",
+      "Den Schreibtisch dem Abzugsverbot für das Arbeitszimmer unterwerfen, obwohl er ein Arbeitsmittel ist.",
+      "Bei einer Lehrkraft das Arbeitszimmer als Tätigkeitsschwerpunkt behandeln, obwohl dieser regelmäßig in der Schule liegt."
+    ],
+    "merksatz": "Arbeitszimmer nur als Tätigkeitsschwerpunkt, sonst 6 € je Homeoffice-Tag bis 1.260 € im Jahr; Arbeitsmittel laufen immer separat."
+  },
+  {
+    "quelle": "est-ks2-19-02",
+    "titel": "Firmenwagen für Arbeitnehmer: 1-%-Regel oder Fahrtenbuch?",
+    "einordnung": [
+      "Die private Nutzung eines Dienstwagens ist ein Sachbezug und damit Arbeitslohn nach § 19 EStG. In der Klausur geht es um die Bewertung nach § 8 Abs. 2 EStG und um die für den Arbeitnehmer günstigere Methode."
+    ],
+    "lernziele": [
+      "Nach der pauschalen Methode wird monatlich 1 % des inländischen Bruttolistenpreises bei Erstzulassung einschließlich Sonderausstattung als geldwerter Vorteil angesetzt.",
+      "Für die Wege von der Wohnung zur ersten Tätigkeitsstätte kommen nach § 8 Abs. 2 Satz 3 EStG monatlich 0,03 % des Listenpreises je Entfernungskilometer hinzu.",
+      "Mit ordnungsgemäßem Fahrtenbuch und Kostennachweis kann nach § 8 Abs. 2 Satz 4 EStG der Anteil der Gesamtkosten angesetzt werden, der auf Privat- und Pendelfahrten entfällt.",
+      "Der Arbeitnehmer zieht die Entfernungspauschale als Werbungskosten ab und ist in der Veranlagung nicht an die beim Lohnsteuerabzug gewählte Methode gebunden."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob der Arbeitgeber das Fahrzeug auch zur privaten Nutzung überlassen hat.",
+      "Den Bruttolistenpreis bei Erstzulassung zuzüglich Sonderausstattung ermitteln und auf volle hundert Euro abrunden.",
+      "Den Nutzungswert für Privatfahrten und den Zuschlag für Fahrten zur ersten Tätigkeitsstätte nach der pauschalen Methode berechnen.",
+      "Liegt ein ordnungsgemäßes Fahrtenbuch vor, die Gesamtkosten einschließlich Umsatzsteuer je Kilometer ermitteln und mit den privaten und Pendelkilometern multiplizieren.",
+      "Den günstigeren Wert ansetzen und die Entfernungspauschale als Werbungskosten berücksichtigen."
+    ],
+    "fehler": [
+      "Den Zuschlag für die Fahrten zur ersten Tätigkeitsstätte vergessen.",
+      "Bei der Fahrtenbuchmethode die Fahrzeugkosten netto statt einschließlich Umsatzsteuer ansetzen."
+    ],
+    "merksatz": "Pauschal gilt 1 % pro Monat plus 0,03 % je Entfernungskilometer; mit sauberem Fahrtenbuch zählen die echten Kosten anteilig."
+  },
+  {
+    "quelle": "est-ks2-ve-02",
+    "titel": "Schenkung mit Gegenleistung: Wie wird Privatvermögen aufgeteilt?",
+    "einordnung": [
+      "Überträgt die ältere Generation Privatvermögen gegen Zahlungen oder Schuldübernahmen, entscheidet die Abgrenzung zwischen entgeltlich und unentgeltlich über Veräußerungsgewinne beim Übergeber und Abschreibungen beim Übernehmer."
+    ],
+    "lernziele": [
+      "Versorgungsleistungen, vorbehaltene Nießbrauchs- oder Wohnrechte und Pflichten zur Weitergabe an Dritte machen den Erwerb nicht entgeltlich.",
+      "Gleichstellungsgelder an Geschwister, Abstandszahlungen an den Übergeber und die Übernahme privater Schulden sind dagegen Entgelt.",
+      "Bei teilentgeltlicher Übertragung von Privatvermögen gilt die Trennungstheorie: Der Vorgang wird im Verhältnis von Entgelt zu Verkehrswert in einen bezahlten und einen geschenkten Teil zerlegt.",
+      "Für den unentgeltlichen Teil setzt der Erwerber die AfA des Übergebers nach § 11d EStDV fort, für den entgeltlichen Teil bemisst er sie nach eigenen Anschaffungskosten."
+    ],
+    "pruefschritte": [
+      "Alle vereinbarten Leistungen des Übernehmers erfassen und als Entgelt oder als unschädliche Leistung einordnen.",
+      "Später fällige Zahlungen nach § 12 Abs. 3 BewG abzinsen und den darin steckenden Zinsanteil gesondert behandeln.",
+      "Die Entgeltlichkeitsquote aus dem Barwert des Entgelts und dem Verkehrswert des Wirtschaftsguts bilden.",
+      "Beim Übergeber für den bezahlten Teil prüfen, ob ein privates Veräußerungsgeschäft, § 17 EStG oder § 20 Abs. 2 EStG greift.",
+      "Beim Übernehmer die AfA getrennt nach eigenen Anschaffungskosten und fortgeführten Werten des Vorgängers berechnen."
+    ],
+    "fehler": [
+      "Übernommene private Verbindlichkeiten nicht als Entgelt werten, weil sie keinen Bezug zum übertragenen Objekt haben.",
+      "Anschaffungsnebenkosten in die Entgeltlichkeitsquote einrechnen, statt sie nur den Anschaffungskosten zuzuschlagen.",
+      "Selbst getragene Nebenkosten eines voll unentgeltlichen Erwerbs nicht abschreiben, obwohl sie eine eigene Bemessungsgrundlage bilden."
+    ],
+    "merksatz": "Privatvermögen gegen Teilentgelt wird gespalten: Soweit bezahlt, liegt ein Kauf vor; im Übrigen übernimmt der Beschenkte die Werte des Schenkers."
+  },
+  {
+    "quelle": "est-ks2-ve-03",
+    "titel": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn?",
+    "einordnung": [
+      "Bei der Übertragung von Betriebsvermögen in vorweggenommener Erbfolge kommt es darauf an, ob nur einzelne Wirtschaftsgüter oder ein Betrieb, Teilbetrieb oder Mitunternehmeranteil übergeht. Davon hängt ab, ob Trennungs- oder Einheitstheorie gilt."
+    ],
+    "lernziele": [
+      "Einzelne Wirtschaftsgüter werden nach der Trennungstheorie aufgeteilt: Der unentgeltliche Teil ist eine Entnahme zum Teilwert, der entgeltliche Teil eine Veräußerung.",
+      "Für Betriebe, Teilbetriebe und Mitunternehmeranteile gilt die Einheitstheorie: Nur wenn das Entgelt das steuerliche Kapitalkonto übersteigt, liegt ein entgeltlicher Vorgang vor.",
+      "Übernommene betriebliche Verbindlichkeiten sind bei Sachgesamtheiten kein Entgelt, bei einzelnen Wirtschaftsgütern dagegen schon.",
+      "Übersteigt das Entgelt das Kapitalkonto, entsteht ein nach §§ 16, 34 EStG begünstigter Gewinn, und der Erwerber stockt die Buchwerte anteilig auf."
+    ],
+    "pruefschritte": [
+      "Den Gegenstand der Übertragung bestimmen: einzelnes Wirtschaftsgut oder betriebliche Sachgesamtheit.",
+      "Die Leistungen des Übernehmers als Entgelt oder als unschädliche Leistung wie Versorgungsleistungen einordnen.",
+      "Bei Sachgesamtheiten das Entgelt mit dem Kapitalkonto vergleichen; liegt es nicht darüber, die Buchwerte nach § 6 Abs. 3 EStG fortführen.",
+      "Liegt es darüber, den Veräußerungsgewinn des Übergebers ermitteln und Freibetrag sowie Tarifermäßigung prüfen.",
+      "Beim Erwerber die stillen Reserven anteilig aufdecken und einen verbleibenden Mehrbetrag als Firmenwert aktivieren."
+    ],
+    "fehler": [
+      "Die Trennungstheorie auf einen ganzen Betrieb anwenden und so trotz Entgelt unterhalb des Kapitalkontos einen Gewinn ausweisen.",
+      "Bei einem einzelnen Betriebsgrundstück die mitübernommene Betriebsschuld nicht als Entgelt erfassen."
+    ],
+    "merksatz": "Einzelnes Wirtschaftsgut: aufteilen. Ganzer Betrieb: Entgelt bis zum Kapitalkonto bleibt neutral, darüber entsteht ein begünstigter Gewinn."
+  },
+  {
+    "quelle": "est-ks2-wl-02",
+    "titel": "Wann sind wiederkehrende Leistungen Sonderausgaben?",
+    "einordnung": [
+      "Versorgungsleistungen im Zusammenhang mit einer Vermögensübergabe sind beim Zahlenden als Sonderausgaben abziehbar und beim Empfänger steuerpflichtig. Die Voraussetzungen sind eng und werden in der Klausur Punkt für Punkt geprüft."
+    ],
+    "lernziele": [
+      "Begünstigt sind nach § 10 Abs. 1a Nr. 2 Satz 2 EStG nur Mitunternehmeranteile an land- und forstwirtschaftlich, gewerblich oder freiberuflich tätigen Gesellschaften, Betriebe und Teilbetriebe sowie GmbH-Anteile von mindestens 50 % bei Übernahme der Geschäftsführung.",
+      "Die Leistungen müssen auf Lebenszeit des Berechtigten vereinbart sein; Mindest- oder Höchstzeitrenten sind nicht begünstigt.",
+      "Empfänger können der Übergeber, sein Ehegatte oder Lebenspartner sowie erb- und pflichtteilsberechtigte Abkömmlinge sein, sofern sie unbeschränkt steuerpflichtig sind.",
+      "Der Zahlende zieht die Leistungen voll nach § 10 Abs. 1a Nr. 2 EStG ab, der Empfänger versteuert sie voll nach § 22 Nr. 1b EStG; die Übertragung selbst ist unentgeltlich."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob begünstigtes Vermögen übertragen wurde, bei Mitunternehmeranteilen einschließlich des Sonderbetriebsvermögens.",
+      "Bei GmbH-Anteilen die Quote von mindestens 50 % und den Wechsel der Geschäftsführung vom Übergeber zum Übernehmer kontrollieren.",
+      "Klären, ob die Leistungen lebenslang vereinbart und aus den Erträgen des übergebenen Vermögens finanzierbar sind.",
+      "Empfängerkreis, unbeschränkte Steuerpflicht und Angabe der Identifikationsnummer des Empfängers prüfen.",
+      "Fehlt eine Voraussetzung, die Zahlungen als Unterhalt oder als Gegenleistung in einem entgeltlichen Austausch behandeln."
+    ],
+    "fehler": [
+      "Den Anteil an einer nur gewerblich geprägten Personengesellschaft als begünstigtes Vermögen anerkennen.",
+      "Die Übertragung eines GmbH-Anteils begünstigen, obwohl der Übergeber Geschäftsführer bleibt.",
+      "Eine Rente mit garantierter Mindestlaufzeit als Versorgungsleistung behandeln."
+    ],
+    "merksatz": "Begünstigtes Vermögen, lebenslange Zahlung, berechtigter Empfängerkreis: Dann gibt es Sonderausgabenabzug beim Zahler und volle Versteuerung beim Empfänger."
+  },
+  {
+    "quelle": "est-ks2-ea-03",
+    "titel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
+    "einordnung": [
+      "Mit dem Erbfall werden Miterben eines Betriebs Mitunternehmer. Wie sie sich danach auseinandersetzen, entscheidet über Realteilung zu Buchwerten, Betriebsaufgabe oder teilentgeltlichen Erwerb."
+    ],
+    "lernziele": [
+      "Die Teilung des Nachlasses ohne Ausgleichszahlung ist unentgeltlich; übernimmt ein Erbe mehr Nachlassschulden, als seiner Quote entspricht, entstehen dadurch keine Anschaffungskosten.",
+      "Gelangen die wesentlichen Betriebsgrundlagen in Betriebsvermögen der Erben, sind nach § 16 Abs. 3 Satz 2 EStG die Buchwerte fortzuführen.",
+      "Werden wesentliche Betriebsgrundlagen ins Privatvermögen überführt, liegt insoweit eine begünstigte Betriebsaufgabe mit Ansatz des gemeinen Werts vor.",
+      "Zahlt ein Miterbe aus eigenem Vermögen einen Spitzenausgleich, erwirbt er insoweit entgeltlich, und der empfangende Miterbe erzielt einen Veräußerungsgewinn."
+    ],
+    "pruefschritte": [
+      "Feststellen, dass die Erbengemeinschaft mit dem Erbfall zur Mitunternehmerschaft geworden ist.",
+      "Klären, wohin die wesentlichen Betriebsgrundlagen bei der Teilung gelangen: in ein Betriebsvermögen oder ins Privatvermögen.",
+      "Prüfen, ob Ausgleichszahlungen aus dem eigenen Vermögen eines Erben geleistet oder nur Nachlassschulden verteilt werden.",
+      "Bei einem Spitzenausgleich den Erwerb nach dem Verhältnis von Zahlung zu Wert des Übernommenen in einen entgeltlichen und einen unentgeltlichen Teil zerlegen.",
+      "Beim Zahlenden die Buchwerte anteilig fortführen und die Zahlung als zusätzliche Anschaffungskosten aktivieren."
+    ],
+    "fehler": [
+      "Die Übernahme privater Nachlassschulden über die Erbquote hinaus wie bei der vorweggenommenen Erbfolge als Entgelt werten.",
+      "Die gesamte Teilung zu Buchwerten abwickeln, obwohl ein Erbe seine Betriebsgrundlage ins Privatvermögen überführt."
+    ],
+    "merksatz": "Teilung ohne Ausgleich ist unentgeltlich; Buchwerte laufen weiter, soweit Betriebsvermögen bleibt. Nur ein Ausgleich aus eigenem Vermögen wirkt entgeltlich."
+  },
+  {
+    "quelle": "est-ks2-15a-01",
+    "titel": "Wann ist der Verlust eines Kommanditisten nur verrechenbar?",
+    "einordnung": [
+      "§ 15a EStG begrenzt den Verlustausgleich beschränkt haftender Gesellschafter. In der Klausur muss Jahr für Jahr nachvollzogen werden, wann das Kapitalkonto negativ wird und welcher Verlust festzustellen ist."
+    ],
+    "lernziele": [
+      "Ein Verlustanteil ist nach § 15a Abs. 1 Satz 1 EStG weder ausgleichs- noch abzugsfähig, soweit er beim Kommanditisten ein negatives Kapitalkonto entstehen lässt oder vergrößert.",
+      "Dieser Teil mindert nach § 15a Abs. 2 Satz 1 EStG die Gewinnanteile späterer Jahre aus derselben Beteiligung.",
+      "Der verbleibende verrechenbare Verlust wird zum Jahresende nach § 15a Abs. 4 EStG gesondert festgestellt; die Feststellung kann mit der einheitlichen Gewinnfeststellung verbunden werden.",
+      "Wird der Anteil veräußert oder aufgegeben, werden noch offene verrechenbare Verluste nach § 15a Abs. 2 Satz 2 EStG mit dem Veräußerungsgewinn verrechnet."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob der Gesellschafter Kommanditist ist oder vergleichbar beschränkt haftet.",
+      "Das Kapitalkonto im Sinne des § 15a EStG zum Bilanzstichtag vor und nach der Verlustzurechnung ermitteln.",
+      "Den Teil des Verlusts abspalten, der das Kapitalkonto unter null drückt oder ein bereits negatives Konto vertieft.",
+      "Gewinnanteile späterer Jahre zuerst mit dem festgestellten verrechenbaren Verlust verrechnen.",
+      "Den Bestand des verrechenbaren Verlusts fortschreiben und zum Jahresende gesondert feststellen."
+    ],
+    "fehler": [
+      "Den gesamten Jahresverlust sperren, obwohl ein Teil noch durch positives Kapital gedeckt ist.",
+      "Verrechenbare Verluste mit anderen Einkünften oder mit Gewinnen aus einer anderen Beteiligung verrechnen."
+    ],
+    "merksatz": "Soweit der Verlust das Kapitalkonto negativ macht oder vertieft, ist er nur mit künftigen Gewinnen aus derselben KG verrechenbar."
+  },
+  {
+    "quelle": "est-ks2-15a-06",
+    "titel": "Entnahmen des Kommanditisten: Wann droht eine Gewinnzurechnung?",
+    "einordnung": [
+      "Ohne Gegenregel könnte ein Kommanditist kurz vor dem Stichtag Kapital einzahlen, Verluste ausgleichen und das Geld danach wieder abziehen. § 15a Abs. 3 EStG verhindert das durch fiktive Gewinne bei Einlage- und Haftungsminderung."
+    ],
+    "lernziele": [
+      "Eine Einlageminderung liegt vor, wenn Entnahmen ein negatives Kapitalkonto entstehen lassen oder erhöhen, ohne dass dadurch eine Außenhaftung nach § 171 Abs. 1 HGB entsteht oder wieder auflebt.",
+      "Der Betrag der Einlageminderung wird dem Kommanditisten nach § 15a Abs. 3 Satz 1 EStG als Gewinn zugerechnet, begrenzt auf die im laufenden und in den zehn vorangegangenen Wirtschaftsjahren ausgleichsfähigen Verlustanteile.",
+      "Im selben Umfang wird der Betrag nach § 15a Abs. 3 Satz 4 EStG zu verrechenbarem Verlust, der künftige Gewinne aus der Beteiligung mindert.",
+      "Nach § 15a Abs. 3 Satz 3 EStG gilt Entsprechendes, wenn eine zuvor berücksichtigte Haftsumme herabgesetzt wird."
+    ],
+    "pruefschritte": [
+      "Entnahmen, Einlagen und Gewinnanteile desselben Wirtschaftsjahres saldieren, um einen Entnahmeüberschuss festzustellen.",
+      "Prüfen, ob durch diesen Saldo ein negatives Kapitalkonto entsteht oder sich vergrößert.",
+      "Handelsrechtlich klären, ob die Entnahme nach § 172 Abs. 4 HGB die Außenhaftung wieder aufleben lässt; soweit das der Fall ist, entfällt die Zurechnung.",
+      "Den Zurechnungsbetrag auf die im Jahr und in den zehn Vorjahren ausgleichsfähig gebliebenen Verluste begrenzen.",
+      "Den zugerechneten Betrag zugleich dem festzustellenden verrechenbaren Verlust hinzufügen."
+    ],
+    "fehler": [
+      "Eine Einlageminderung annehmen, obwohl die Entnahme eine Außenhaftung in gleicher Höhe auslöst.",
+      "Nach der Gewinnzurechnung vergessen, den verrechenbaren Verlust zu erhöhen."
+    ],
+    "merksatz": "Entnahmen, die das Kapitalkonto ohne neue Außenhaftung ins Minus treiben, führen zu fiktivem Gewinn und zugleich zu mehr verrechenbarem Verlust."
+  },
+  {
+    "quelle": "est-ks1-gew-01",
+    "titel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
+    "einordnung": [
+      "§ 15 Abs. 2 EStG beschreibt den Gewerbebetrieb über positive Merkmale und grenzt ihn gegen Land- und Forstwirtschaft, freie Berufe und Vermögensverwaltung ab. Diese Prüfung steht am Anfang vieler Klausurfälle."
+    ],
+    "lernziele": [
+      "Positiv verlangt § 15 Abs. 2 EStG eine selbständige, nachhaltige Betätigung mit Gewinnerzielungsabsicht und Teilnahme am allgemeinen Wirtschaftsverkehr.",
+      "Selbständig handelt, wer Unternehmerrisiko trägt und Unternehmerinitiative entfaltet; nachhaltig ist eine Tätigkeit schon, wenn sie mit Wiederholungsabsicht aufgenommen wird.",
+      "Gewinnerzielungsabsicht bedeutet das Streben nach einem Totalgewinn einschließlich eines späteren Veräußerungs- oder Aufgabegewinns; fehlt sie, liegt Liebhaberei vor.",
+      "Nicht gewerblich ist eine Tätigkeit, die als Land- und Forstwirtschaft, als selbständige Arbeit oder als bloße Nutzung eigenen Vermögens einzuordnen ist."
+    ],
+    "pruefschritte": [
+      "Selbständigkeit anhand von Unternehmerrisiko und Unternehmerinitiative prüfen.",
+      "Nachhaltigkeit und Teilnahme am Markt feststellen; auch ein einziger Abnehmer schließt die Marktteilnahme nicht aus.",
+      "Die Gewinnerzielungsabsicht über eine Totalgewinnprognose beurteilen, bei bestehenden Betrieben nur mit Blick auf die Zukunft.",
+      "Abgrenzen, ob die Tätigkeit vorrangig als Land- und Forstwirtschaft oder als selbständige Arbeit zu werten ist.",
+      "Zuletzt prüfen, ob lediglich Vermögen genutzt wird, etwa durch Vermietung oder Kapitalanlage, oder ob die Grenze zur Gewerblichkeit überschritten ist."
+    ],
+    "fehler": [
+      "Eine kurze Tätigkeit trotz erkennbarer Wiederholungsabsicht als nicht nachhaltig einstufen.",
+      "Die Abgrenzung zur Vermögensverwaltung übersehen, weil sie nicht ausdrücklich im Gesetz steht."
+    ],
+    "merksatz": "Selbständig, nachhaltig, auf Totalgewinn gerichtet und am Markt beteiligt, aber weder Landwirtschaft noch freier Beruf noch reine Vermögensverwaltung."
+  },
+  {
+    "quelle": "est-ks1-vv-02",
+    "titel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+    "einordnung": [
+      "Vermietungseinkünfte treten nach § 21 Abs. 3 EStG hinter andere Einkunftsarten zurück. Für die Klausur sind vor allem Betriebsaufspaltung, Sonderbetriebsvermögen und gewillkürtes Betriebsvermögen wichtig, weil dann Gewerbesteuer und steuerverstrickte Reserven drohen."
+    ],
+    "lernziele": [
+      "Gehört das vermietete Objekt zulässig zum gewillkürten Betriebsvermögen eines Einzelunternehmens, fließen die Mieten in den gewerblichen Gewinn.",
+      "Bei einer Betriebsaufspaltung sind die an die Betriebsgesellschaft überlassenen Wirtschaftsgüter notwendiges Betriebsvermögen des Besitzunternehmens, das gewerbliche Einkünfte erzielt.",
+      "Überlässt ein Mitunternehmer seiner Personengesellschaft ein Wirtschaftsgut, ist es Sonderbetriebsvermögen I und die Miete eine Sondervergütung nach § 15 Abs. 1 Satz 1 Nr. 2 EStG.",
+      "Die Vermietung einzelner beweglicher Gegenstände führt zu sonstigen Einkünften nach § 22 Nr. 3 EStG, sofern kein Sachinbegriff nach § 21 Abs. 1 Satz 1 Nr. 2 EStG vorliegt."
+    ],
+    "pruefschritte": [
+      "Zuerst klären, ob das Objekt zu einem Betriebsvermögen gehört, auch als gewillkürtes Betriebsvermögen.",
+      "Prüfen, ob sachliche und personelle Verflechtung mit einer Betriebsgesellschaft eine Betriebsaufspaltung begründen.",
+      "Bei Überlassung an eine Personengesellschaft, an der der Vermieter beteiligt ist, Sonderbetriebsvermögen annehmen.",
+      "Bei beweglichen Sachen zwischen Einzelgegenstand und Sachinbegriff unterscheiden.",
+      "Nur wenn keine dieser Zuordnungen greift, die Einkünfte nach § 21 EStG ermitteln."
+    ],
+    "fehler": [
+      "Die Pacht der eigenen GmbH trotz Betriebsaufspaltung als Vermietungseinkünfte erfassen.",
+      "Die Vermietung eines einzelnen Pkw als Vermietungseinkünfte nach § 21 EStG behandeln."
+    ],
+    "merksatz": "§ 21 kommt nur zum Zug, wenn das Objekt weder Betriebs- noch Sonderbetriebsvermögen ist und keine Betriebsaufspaltung besteht."
+  },
+  {
+    "quelle": "est-ks1-vv-05",
+    "titel": "Renovierung nach dem Kauf: Wann greift die 15-%-Grenze?",
+    "einordnung": [
+      "Instandsetzungen kurz nach dem Erwerb eines Gebäudes sind nicht automatisch sofort abziehbar. § 6 Abs. 1 Nr. 1a EStG, über § 9 Abs. 5 Satz 2 EStG auch bei Vermietung anwendbar, macht sie unter Umständen zu Herstellungskosten."
+    ],
+    "lernziele": [
+      "Anschaffungsnahe Herstellungskosten liegen vor, wenn Instandsetzungs- und Modernisierungsaufwand in den ersten drei Jahren seit der Anschaffung netto 15 % der Gebäudeanschaffungskosten übersteigt.",
+      "Nicht einbezogen werden Erweiterungen im Sinne des § 255 Abs. 2 Satz 1 HGB, die ohnehin Herstellungskosten sind, sowie Erhaltungsarbeiten, die üblicherweise jedes Jahr anfallen.",
+      "Auch Schönheitsreparaturen zählen bei der Grenzprüfung mit, wenn sie nicht jährlich wiederkehren.",
+      "Wird die Grenze überschritten, erhöhen die Aufwendungen einschließlich Umsatzsteuer die AfA-Bemessungsgrundlage; bereits ergangene Bescheide sind nach § 175 Abs. 1 Satz 1 Nr. 2 AO zu ändern."
+    ],
+    "pruefschritte": [
+      "Den Dreijahreszeitraum ab Anschaffung des Gebäudes bestimmen und alle Maßnahmen darin sammeln.",
+      "Erweiterungen und jährlich übliche Erhaltungsmaßnahmen aus der Grenzberechnung herausnehmen.",
+      "Die übrigen Nettoaufwendungen addieren und mit 15 % der Anschaffungskosten des Gebäudes ohne Grund und Boden vergleichen.",
+      "Bei Überschreiten alle einbezogenen Aufwendungen brutto der AfA-Bemessungsgrundlage zuschlagen.",
+      "Aufwand außerhalb des Zeitraums als Erhaltungsaufwand im Zahlungsjahr nach § 11 Abs. 2 EStG abziehen."
+    ],
+    "fehler": [
+      "Die 15 % auf den Gesamtkaufpreis einschließlich Grund und Boden beziehen.",
+      "Die Umsatzsteuer bei der Prüfung der Grenze mitrechnen.",
+      "Schönheitsreparaturen von vornherein aus der Prüfung ausklammern."
+    ],
+    "merksatz": "Drei Jahre, netto über 15 % der Gebäudekosten: Dann wird Renovierung zu Herstellungskosten. Erweiterungen und jährliche Routine zählen nicht mit."
+  },
+  {
+    "quelle": "est-ks1-ein-05",
+    "titel": "Splittingtarif nach Tod oder Scheidung: Wer bekommt ihn?",
+    "einordnung": [
+      "Welcher Tarif anzuwenden ist, folgt aus der Veranlagungsart. Klausuren prüfen gern die Sonderfälle des § 32a Abs. 6 EStG sowie Progressionsvorbehalt und außerordentliche Einkünfte als tarifliche Besonderheiten."
+    ],
+    "lernziele": [
+      "Der Splittingtarif gilt bei Zusammenveranlagung nach §§ 26, 26b EStG; bei Einzelveranlagung nach § 25 oder § 26a EStG gilt grundsätzlich der Grundtarif.",
+      "Der verwitwete Ehegatte erhält nach § 32a Abs. 6 Satz 1 Nr. 1 EStG im Jahr nach dem Tod noch einmal den Splittingtarif, wenn im Todesjahr die Voraussetzungen des § 26 Abs. 1 Satz 1 EStG vorlagen.",
+      "Nach § 32a Abs. 6 Satz 1 Nr. 2 EStG bekommt ein Ehegatte im Jahr der Auflösung der Ehe den Splittingtarif, wenn der frühere Partner im selben Jahr neu geheiratet hat und mit dem neuen Ehegatten die Voraussetzungen des § 26 Abs. 1 Satz 1 EStG erfüllt.",
+      "Der Progressionsvorbehalt nach § 32b EStG erhöht nur den Steuersatz, § 34 EStG senkt ihn für außerordentliche Einkünfte; das zu versteuernde Einkommen bleibt jeweils unverändert."
+    ],
+    "pruefschritte": [
+      "Für jeden Beteiligten die Veranlagungsart im Veranlagungszeitraum bestimmen.",
+      "Bei Tod eines Ehegatten für das Folgejahr die Voraussetzungen des Witwensplittings prüfen.",
+      "Bei Auflösung der Ehe und neuer Heirat im selben Jahr prüfen, ob der nicht wieder verheiratete Partner den Splittingtarif erhält.",
+      "Steuerfreie Lohnersatzleistungen oder ausländische Einkünfte für den Progressionsvorbehalt erfassen.",
+      "Außerordentliche Einkünfte bestimmen und Fünftelregelung oder ermäßigten Steuersatz anwenden."
+    ],
+    "fehler": [
+      "Das Witwensplitting für mehr als ein Folgejahr gewähren.",
+      "Dem Progressionsvorbehalt unterliegende Leistungen in das zu versteuernde Einkommen einrechnen."
+    ],
+    "merksatz": "Splitting gibt es bei Zusammenveranlagung, im Jahr nach dem Tod des Partners und für den Zurückbleibenden, wenn der andere im Trennungsjahr neu heiratet."
+  }
+]

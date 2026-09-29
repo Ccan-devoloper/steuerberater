@@ -1,0 +1,606 @@
+[
+  {
+    "quelle": "umw-ks-1-01",
+    "titel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
+    "einordnung": [
+      "Im Ertragsteuerrecht gilt: Stille Reserven werden bei dem versteuert, bei dem sie entstanden sind. Wer das Grundprinzip versteht, erkennt, warum das UmwStG eine Ausnahmeregelung mit strengen Voraussetzungen ist."
+    ],
+    "lernziele": [
+      "Geht ein Betrieb auf einen anderen Rechtsträger über, liegt ohne Sondernorm eine Veräußerung, eine Betriebsaufgabe nach § 16 EStG oder eine Liquidation nach § 11 KStG vor; die bloße Fortführung der Buchwerte durch den Übernehmer verhindert die Aufdeckung nicht.",
+      "Ausnahmen außerhalb des UmwStG sind vor allem § 6 Abs. 3 EStG, § 6 Abs. 5 Satz 3 EStG und die Realteilung nach § 16 Abs. 3 Satz 2 EStG.",
+      "Das UmwStG begünstigt in erster Linie Sachgesamtheiten wie Betriebe, Teilbetriebe und Mitunternehmeranteile; für einzelne Wirtschaftsgüter enthält es mit dem Anteilstausch nach § 21 UmwStG nur eine Sonderregel.",
+      "Für Verschmelzungen, Spaltungen und Formwechsel von Körperschaften ist seit dem Wegfall von § 1 Abs. 2 UmwStG a. F. keine EU- oder EWR-Ansässigkeit mehr nötig; ausländische Vorgänge müssen aber einer Umwandlung nach dem UmwG vergleichbar sein."
+    ],
+    "pruefschritte": [
+      "Den Vorgang zivilrechtlich bestimmen: Verschmelzung, Spaltung, Formwechsel, Ausgliederung oder Einbringung durch Einzelrechtsnachfolge.",
+      "Klären, ob Einzelwirtschaftsgüter oder Sachgesamtheiten übergehen, und danach EStG-Normen oder UmwStG heranziehen.",
+      "Den Anwendungsbereich nach § 1 UmwStG einschließlich möglicher Ansässigkeitsanforderungen prüfen.",
+      "Erst danach die einschlägigen Teile des UmwStG mit Wertansatz, Rechtsfolgen und Missbrauchsklauseln durchgehen."
+    ],
+    "fehler": [
+      "Eine Umwandlung wird allein deshalb als steuerneutral angesehen, weil die Übernehmerin die Buchwerte fortführt.",
+      "Bei Beteiligung ausländischer Gesellschaften wird das UmwStG pauschal verneint, ohne die Vergleichbarkeit der ausländischen Umwandlung zu prüfen."
+    ],
+    "merksatz": "Ohne Sondernorm bedeutet Rechtsträgerwechsel Aufdeckung; das UmwStG ist die Ausnahme und muss mit allen Tatbestandsmerkmalen geprüft werden."
+  },
+  {
+    "quelle": "umw-ks-3-02",
+    "titel": "Mit welchem Wert bilanziert die GmbH vor der Umwandlung in eine KG?",
+    "einordnung": [
+      "Bei der Verschmelzung oder dem Formwechsel einer Kapitalgesellschaft auf eine Personengesellschaft beginnt die Prüfung mit der steuerlichen Schlussbilanz der Übertragerin nach § 3 UmwStG."
+    ],
+    "lernziele": [
+      "Die steuerliche Schlussbilanz ist eine eigene Bilanz ohne Bindung an die Handelsbilanz; die Wirtschaftsgüter sind grundsätzlich mit dem gemeinen Wert anzusetzen, auch selbst geschaffene immaterielle Wirtschaftsgüter und der Firmenwert.",
+      "Pensionsrückstellungen bleiben nach § 3 Abs. 1 Satz 2 UmwStG stets beim Wert nach § 6a EStG.",
+      "Buch- oder Zwischenwerte sind nur auf Antrag möglich, wenn das Vermögen Betriebsvermögen der Übernehmerin wird und dort der Einkommen- oder Körperschaftsteuer unterliegt, das deutsche Besteuerungsrecht nicht eingeschränkt wird und keine andere Gegenleistung als Gesellschaftsrechte fließt (§ 3 Abs. 2 UmwStG).",
+      "Ein Übertragungsgewinn unterliegt der Körperschaftsteuer und nach § 18 Abs. 1 UmwStG der Gewerbesteuer; ein Zwischenwert kann sinnvoll sein, um sonst untergehende Verlustvorträge zu nutzen."
+    ],
+    "pruefschritte": [
+      "Den Übertragungsstichtag bestimmen und die steuerliche Schlussbilanz als eigenständige Bilanz anlegen.",
+      "Prüfen, ob die Personengesellschaft Betriebsvermögen hat; ist sie rein vermögensverwaltend und nicht gewerblich geprägt, scheidet der Buchwert aus.",
+      "Besteuerungsrecht und Gegenleistungen untersuchen und den rechtzeitig gestellten Antrag feststellen.",
+      "Bei Zwischenwertansatz die stillen Reserven aller Wirtschaftsgüter einschließlich Firmenwert gleichmäßig anteilig aufdecken.",
+      "Den Übertragungsgewinn berechnen und Steuerbefreiungen wie § 8b Abs. 2 KStG für mitübergehende Beteiligungen beachten."
+    ],
+    "fehler": [
+      "Die Werte der handelsrechtlichen Schlussbilanz werden ungeprüft in die steuerliche Schlussbilanz übernommen.",
+      "Beim Formwechsel in eine vermögensverwaltende KG wird der Buchwertansatz gewählt, obwohl das Vermögen dort Privatvermögen wird."
+    ],
+    "merksatz": "§ 3 UmwStG: Regelwert ist der gemeine Wert; Buch- oder Zwischenwert nur auf Antrag, bei Betriebsvermögen, gesichertem Besteuerungsrecht und reinen Gesellschaftsrechten."
+  },
+  {
+    "quelle": "umw-ks-3-04",
+    "titel": "Auf welchen Tag wirkt eine Verschmelzung steuerlich zurück?",
+    "einordnung": [
+      "Umwandlungen werden zivilrechtlich erst mit der Registereintragung wirksam, steuerlich aber auf einen früheren Stichtag bezogen. Die Rückwirkung bestimmt, in welchem Veranlagungszeitraum die Folgen zu ziehen sind."
+    ],
+    "lernziele": [
+      "Nach § 2 Abs. 1 UmwStG ist der steuerliche Übertragungsstichtag zwingend der Stichtag der handelsrechtlichen Schlussbilanz, die der Registeranmeldung zugrunde liegt; eines Antrags bedarf es nicht.",
+      "Die Schlussbilanz darf bei der Anmeldung höchstens acht Monate alt sein (§ 17 Abs. 2 Satz 4 UmwG).",
+      "Einkommen und Vermögen von Übertragerin und Übernehmerin werden so ermittelt, als sei das Vermögen mit Ablauf des Stichtags übergegangen; Geschäftsvorfälle danach gehören steuerlich schon zur Übernehmerin.",
+      "Die Rückwirkung gilt für Einkommen-, Körperschaft- und Gewerbesteuer, nicht aber für Umsatzsteuer und Grunderwerbsteuer; umsatzsteuerlich bleibt die Übertragerin bis zur Eintragung Unternehmer."
+    ],
+    "pruefschritte": [
+      "Stichtag der eingereichten Schlussbilanz, Datum der Registeranmeldung und Tag der Eintragung aus dem Sachverhalt herausarbeiten.",
+      "Prüfen, ob zwischen Bilanzstichtag und Anmeldung höchstens acht Monate liegen.",
+      "Alle Ertragsteuerfolgen dem Veranlagungszeitraum des Übertragungsstichtags zuordnen.",
+      "Umsatzsteuer und Grunderwerbsteuer getrennt nach dem zivilrechtlichen Übergang beurteilen."
+    ],
+    "fehler": [
+      "Die ertragsteuerlichen Folgen werden erst im Jahr der Handelsregistereintragung gezogen.",
+      "Die Rückwirkung wird auch auf die Umsatzsteuer erstreckt."
+    ],
+    "merksatz": "Stichtag der Schlussbilanz, höchstens acht Monate vor Anmeldung, gilt für die Ertragsteuern zwingend; Umsatz- und Grunderwerbsteuer bleiben beim zivilrechtlichen Übergang."
+  },
+  {
+    "quelle": "umw-ks-3-03",
+    "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+    "einordnung": [
+      "Geht das Vermögen einer Kapitalgesellschaft auf eine Personengesellschaft über, entsteht je Gesellschafter ein Übernahmegewinn oder Übernahmeverlust. Seine Besteuerung hängt davon ab, wer Gesellschafter ist."
+    ],
+    "lernziele": [
+      "Zur Ermittlung zieht man vom Wert der übernommenen Wirtschaftsgüter den Buchwert der untergehenden Anteile und die von der Übernehmerin getragenen Umwandlungskosten ab (§ 4 Abs. 4 Satz 1 UmwStG); anschließend werden die Bezüge nach § 7 UmwStG abgezogen (§ 4 Abs. 5 UmwStG).",
+      "Ein verbleibender Übernahmegewinn ist bei Körperschaften nach § 8b KStG und bei natürlichen Personen nach dem Teileinkünfteverfahren zu besteuern (§ 4 Abs. 7 UmwStG).",
+      "Ein Übernahmeverlust bleibt bei Körperschaften grundsätzlich außer Ansatz; bei natürlichen Personen ist er zu 60 % abziehbar, höchstens bis 60 % der Bezüge nach § 7 UmwStG (§ 4 Abs. 6 UmwStG).",
+      "Wurden die Anteile innerhalb der letzten fünf Jahre vor dem Stichtag entgeltlich erworben, ist ein Übernahmeverlust auch bei natürlichen Personen nicht abziehbar."
+    ],
+    "pruefschritte": [
+      "Für jeden Gesellschafter den Anteil am übernommenen Vermögen und den Buchwert oder die Anschaffungskosten seiner Anteile ermitteln.",
+      "Anteilige Umwandlungskosten abziehen, objektbezogene Kosten wie Grunderwerbsteuer jedoch als Anschaffungskosten aktivieren.",
+      "Die Bezüge nach § 7 UmwStG vom vorläufigen Ergebnis abziehen.",
+      "Das Ergebnis nach der Person des Gesellschafters behandeln und bei Verlusten Deckelung und Fünfjahresregel prüfen.",
+      "Bezüge und Übernahmeergebnis getrennt in die gesonderte und einheitliche Feststellung aufnehmen."
+    ],
+    "fehler": [
+      "Die Bezüge nach § 7 UmwStG werden sowohl als Dividende als auch im Übernahmegewinn besteuert.",
+      "Ein Übernahmeverlust einer natürlichen Person wird ohne Rücksicht auf die Höchstgrenze und einen kurzfristigen Anteilserwerb voll abgezogen."
+    ],
+    "merksatz": "Übernahmeergebnis je Gesellschafter: Vermögen minus Anteilsbuchwert minus Kosten minus Bezüge nach § 7; Verluste sind stark beschränkt."
+  },
+  {
+    "quelle": "umw-5-06",
+    "titel": "Was gilt bei der Umwandlung als ausgeschüttet?",
+    "einordnung": [
+      "§ 7 UmwStG fingiert bei der Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft oder natürliche Person eine Vollausschüttung. So bleibt das Besteuerungspotenzial der offenen Reserven erhalten, insbesondere die Kapitalertragsteuer."
+    ],
+    "lernziele": [
+      "Als ausgeschüttet gilt das Eigenkapital laut steuerlicher Schlussbilanz abzüglich des Einlagekontos, das sich nach der fiktiven Herabsetzung des Nennkapitals gemäß § 29 Abs. 1 KStG ergibt.",
+      "Die Bezüge sind den Anteilseignern im Verhältnis ihrer Anteile am Nennkapital als Einnahmen nach § 20 Abs. 1 Nr. 1 EStG zuzurechnen und fließen zum steuerlichen Übertragungsstichtag zu.",
+      "Gelten die Anteile nach § 5 UmwStG als in das Betriebsvermögen der Übernehmerin eingelegt, werden die Bezüge über § 20 Abs. 8 EStG betriebliche Einkünfte; es greifen Teileinkünfteverfahren oder § 8b KStG.",
+      "Die Kapitalertragsteuer von 25 % entsteht erst mit der Eintragung, ist aber im Jahr des Übertragungsstichtags anzurechnen; gewerbesteuerlich bleiben Bezüge auf Anteile aus dem Privatvermögen außen vor (§ 18 Abs. 2 Satz 2 UmwStG)."
+    ],
+    "pruefschritte": [
+      "Das Eigenkapital der steuerlichen Schlussbilanz feststellen; ein Zwischenwert- oder Buchwertansatz beeinflusst diesen Betrag.",
+      "Das letzte Einlagekonto einschließlich des fiktiv herabgesetzten Nennkapitals ermitteln und abziehen.",
+      "Den Betrag nach Beteiligungsquoten auf die Anteilseigner verteilen.",
+      "Für jeden Anteilseigner Einkunftsart, Steuerbefreiung und Gewerbesteuerfolgen bestimmen und die Kapitalertragsteuer berücksichtigen."
+    ],
+    "fehler": [
+      "Das Nennkapital wird in die fiktive Ausschüttung einbezogen, obwohl es über § 29 Abs. 1 KStG dem Einlagekonto zufließt.",
+      "Die fiktive Ausschüttung wird nur bei Gesellschaftern mit Anteilen im Betriebsvermögen angesetzt."
+    ],
+    "merksatz": "§ 7 UmwStG: Eigenkapital der Schlussbilanz minus Einlagekonto nach fiktiver Kapitalherabsetzung gilt am Stichtag als an alle Anteilseigner ausgeschüttet."
+  },
+  {
+    "quelle": "umw-5-13",
+    "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+    "einordnung": [
+      "Das Übernahmeergebnis bildet wirtschaftlich den Tausch der untergehenden Anteile gegen das übernommene Betriebsvermögen ab. § 5 UmwStG entscheidet, welche Anteile mit welchem Wert einbezogen werden."
+    ],
+    "lernziele": [
+      "Der Übernahmegewinn oder -verlust entsteht mit Ablauf des steuerlichen Übertragungsstichtags und wird personenbezogen für jeden Anteilseigner ermittelt, dessen Anteile nach § 5 UmwStG der Übernehmerin zugerechnet werden.",
+      "Anteile, die die Übernehmerin erst im Rückwirkungszeitraum anschafft, gelten nach § 5 Abs. 1 UmwStG als am Stichtag angeschafft und gehen mit den tatsächlichen Anschaffungskosten ein.",
+      "Anteile im Sinne des § 17 EStG aus dem Privatvermögen gelten nach § 5 Abs. 2 UmwStG mit den Anschaffungskosten, Anteile aus einem Betriebsvermögen nach § 5 Abs. 3 UmwStG mit dem Buchwert als eingelegt.",
+      "Die Einlagefiktion dient nur der Ermittlung; tatsächliche Buchungen der Anteile bei der Übernehmerin löst sie nicht aus."
+    ],
+    "pruefschritte": [
+      "Alle Anteilseigner mit Beteiligungshöhe, Vermögenszuordnung und Anschaffungskosten oder Buchwert auflisten.",
+      "Jeden Anteil einer Fallgruppe des § 5 UmwStG zuordnen oder feststellen, dass er nicht erfasst wird.",
+      "Für die erfassten Anteile das Übernahmeergebnis einzeln berechnen.",
+      "Für nicht erfasste Anteilseigner nur die Bezüge nach § 7 UmwStG berücksichtigen."
+    ],
+    "fehler": [
+      "Das Übernahmeergebnis wird einheitlich für die Gesellschaft statt je Anteilseigner berechnet.",
+      "Im Rückwirkungszeitraum erworbene Anteile werden nicht einbezogen, weil sie am Stichtag noch nicht vorhanden waren."
+    ],
+    "merksatz": "§ 5 UmwStG holt die Anteile rechnerisch in die Übernehmerin; ohne diese Zurechnung gibt es für den Anteilseigner kein Übernahmeergebnis."
+  },
+  {
+    "quelle": "umw-ks-3-06",
+    "titel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
+    "einordnung": [
+      "Gewinne aus der Veräußerung eines Mitunternehmeranteils durch eine natürliche Person sind normalerweise gewerbesteuerfrei. § 18 Abs. 3 UmwStG durchbricht das für fünf Jahre nach der Umwandlung einer Kapitalgesellschaft."
+    ],
+    "lernziele": [
+      "Übernahmegewinn und Übernahmeverlust bleiben bei der Gewerbesteuer außer Ansatz (§ 18 Abs. 2 Satz 1 UmwStG); gewerbesteuerliche Fehlbeträge der Übertragerin gehen nicht über.",
+      "Bezüge nach § 7 UmwStG auf Anteile, die nach § 5 Abs. 2 UmwStG als eingelegt gelten, werden im Gewerbeertrag nicht erfasst (§ 18 Abs. 2 Satz 2 UmwStG).",
+      "Wird der Betrieb der Übernehmerin oder ein Anteil an ihr innerhalb von fünf Jahren nach der Umwandlung veräußert oder aufgegeben, unterliegt der Gewinn der Gewerbesteuer, abweichend von § 7 Satz 2 GewStG (§ 18 Abs. 3 UmwStG).",
+      "Die darauf entfallende Gewerbesteuer ist bei der Steuerermäßigung nach § 35 EStG nicht zu berücksichtigen."
+    ],
+    "pruefschritte": [
+      "Den Zeitpunkt der Umwandlung und den Zeitpunkt der späteren Veräußerung oder Aufgabe feststellen.",
+      "Prüfen, ob Betrieb, Teilbetrieb oder Mitunternehmeranteil innerhalb von fünf Jahren nach dem Umwandlungsstichtag übertragen oder aufgegeben wird.",
+      "Den Veräußerungs- oder Aufgabegewinn trotz § 7 Satz 2 GewStG in den Gewerbeertrag aufnehmen.",
+      "Bei der Einkommensteuer des Gesellschafters die Ermäßigung nach § 35 EStG für diesen Gewinn versagen."
+    ],
+    "fehler": [
+      "Der Verkauf des Mitunternehmeranteils kurz nach dem Formwechsel wird als gewerbesteuerfrei behandelt, weil der Verkäufer eine natürliche Person ist.",
+      "Der Übernahmegewinn wird in den Gewerbeertrag der Personengesellschaft einbezogen."
+    ],
+    "merksatz": "Fünf Jahre nach Umwandlung einer GmbH in eine PersG ist der Anteilsverkauf gewerbesteuerpflichtig, und § 35 EStG hilft dabei nicht."
+  },
+  {
+    "quelle": "umw-ks-4-02",
+    "titel": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?",
+    "einordnung": [
+      "Bei der Verschmelzung zweier Kapitalgesellschaften regelt § 11 UmwStG die Schlussbilanz der Übertragerin. Hier entscheidet sich, ob ein Übertragungsgewinn entsteht."
+    ],
+    "lernziele": [
+      "Grundsätzlich sind die übergehenden Wirtschaftsgüter mit dem gemeinen Wert anzusetzen, einschließlich nicht entgeltlich erworbener immaterieller Wirtschaftsgüter; Pensionsrückstellungen bleiben beim Wert nach § 6a EStG.",
+      "Auf Antrag sind Buch- oder Zwischenwerte zulässig, wenn die spätere Besteuerung mit Körperschaftsteuer gesichert ist, das deutsche Besteuerungsrecht nicht verloren geht und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 UmwStG).",
+      "Ein Übertragungsgewinn unterliegt der Körperschaftsteuer und nach § 19 Abs. 1 UmwStG der Gewerbesteuer; Verlustvorträge der Übertragerin gehen nicht über, was einen Zwischenwert attraktiv machen kann.",
+      "Bei der Abwärtsverschmelzung gehen die Anteile an der Tochter direkt auf die Gesellschafter der Mutter über; verliert Deutschland dabei das Besteuerungsrecht, sind insoweit die stillen Reserven aufzudecken."
+    ],
+    "pruefschritte": [
+      "Die Verschmelzungsrichtung bestimmen: aufwärts, abwärts oder seitwärts.",
+      "Für jedes Wirtschaftsgut prüfen, ob Deutschland nach der Verschmelzung weiterhin besteuern darf.",
+      "Die Art der Gegenleistung klären und den rechtzeitigen, einheitlichen Antrag feststellen.",
+      "Bei Zwischenwert die stillen Reserven gleichmäßig verteilen und den Übertragungsgewinn mit Verlustvorträgen unter Beachtung der Mindestbesteuerung verrechnen."
+    ],
+    "fehler": [
+      "Beim Buchwertantrag wird übersehen, dass einzelne Wirtschaftsgüter in eine ausländische Stammhaussphäre wechseln.",
+      "Es wird angenommen, dass Verlustvorträge der Übertragerin auf die übernehmende Kapitalgesellschaft übergehen."
+    ],
+    "merksatz": "§ 11 UmwStG: Buchwert nur auf Antrag und nur, soweit Körperschaftsteuerverhaftung, deutsches Besteuerungsrecht und reine Gesellschaftsrechte als Gegenleistung gesichert sind."
+  },
+  {
+    "quelle": "umw-3-12",
+    "titel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
+    "einordnung": [
+      "Die übernehmende Kapitalgesellschaft bucht das übernommene Vermögen ein und die untergehenden Anteile aus. Der daraus entstehende Gewinn oder Verlust wird nach § 12 Abs. 2 UmwStG außerbilanziell korrigiert."
+    ],
+    "lernziele": [
+      "Übernahmeergebnis ist der Wert der übernommenen Wirtschaftsgüter laut Schlussbilanz der Übertragerin abzüglich des Buchwerts der Anteile an ihr und der nicht objektbezogenen Umwandlungskosten; ohne Beteiligung sind die Anteile mit null anzusetzen.",
+      "Das Ergebnis bleibt nach § 12 Abs. 2 Satz 1 UmwStG außer Ansatz; ein Übernahmeverlust ist damit nicht abziehbar.",
+      "Bei der Aufwärtsverschmelzung ist § 8b KStG auf den Teil des Übernahmegewinns anzuwenden, der der Beteiligungsquote der Übernehmerin entspricht; dadurch gelten 5 % als nicht abziehbare Betriebsausgaben (§ 12 Abs. 2 Satz 2 UmwStG).",
+      "Objektbezogene Kosten, vor allem Grunderwerbsteuer bei Grundstücksübergang, sind Anschaffungskosten des jeweiligen Wirtschaftsguts; eine Rückstellung dafür scheidet nach § 5 Abs. 4b EStG aus."
+    ],
+    "pruefschritte": [
+      "Den übernommenen Wert aus der Schlussbilanz der Übertragerin übernehmen, an den die Übernehmerin nach § 12 Abs. 1 UmwStG gebunden ist.",
+      "Den Buchwert eigener Anteile an der Übertragerin abziehen, auch wenn sie erst im Rückwirkungszeitraum erworben wurden.",
+      "Umwandlungskosten in objektbezogene und sonstige Kosten trennen und nur die sonstigen abziehen.",
+      "Das Ergebnis außerbilanziell neutralisieren und bei Beteiligung der Übernehmerin anteilig 5 % hinzurechnen."
+    ],
+    "fehler": [
+      "Die Grunderwerbsteuer wird als sofort abziehbare Umwandlungskosten behandelt.",
+      "Bei einer Beteiligung unter 100 % wird § 8b KStG auf den gesamten Übernahmegewinn angewendet."
+    ],
+    "merksatz": "Übernahmegewinn bei der GmbH bleibt außer Ansatz; nur beim Up-stream-merger werden quotal 5 % wieder steuerpflichtig."
+  },
+  {
+    "quelle": "umw-ks-4-04",
+    "titel": "Verschmelzung: Was geschieht mit den Anteilen der Gesellschafter?",
+    "einordnung": [
+      "Die Gesellschafter der übertragenden Kapitalgesellschaft verlieren ihre Anteile und erhalten regelmäßig neue Anteile an der Übernehmerin. § 13 UmwStG regelt, ob dieser Tausch stille Reserven aufdeckt."
+    ],
+    "lernziele": [
+      "§ 13 Abs. 1 UmwStG fingiert einen Verkauf der alten Anteile zum gemeinen Wert und eine Anschaffung der neuen zu demselben Wert.",
+      "Auf Antrag setzt der Gesellschafter die neuen Anteile nach § 13 Abs. 2 UmwStG mit dem Buchwert oder den Anschaffungskosten der alten an, wenn das deutsche Besteuerungsrecht an den neuen Anteilen nicht eingeschränkt wird oder die Fusionsrichtlinie greift.",
+      "Die neuen Anteile treten dann steuerlich an die Stelle der alten; frühere Anteile im Sinne des § 17 EStG behalten diese Eigenschaft auch bei einer Beteiligung unter 1 %.",
+      "Privat gehaltene Kleinbeteiligungen ohne § 17-Qualität werden nach § 20 Abs. 4a Satz 1 EStG ohne Antrag zwingend zu Anschaffungskosten getauscht; die Rückwirkung nach § 2 UmwStG gilt für die Gesellschafter nicht."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob der Gesellschafter seine Anteile im Betriebsvermögen, als § 17-Beteiligung oder als Kleinbeteiligung im Privatvermögen hält.",
+      "Bei Kleinbeteiligungen § 20 Abs. 4a EStG anwenden und keine Gewinnrealisierung annehmen.",
+      "Im Übrigen prüfen, ob ein wirksamer Antrag nach § 13 Abs. 2 UmwStG vorliegt und das Besteuerungsrecht erhalten bleibt.",
+      "Ohne Antrag den Veräußerungsgewinn ermitteln und nach Teileinkünfteverfahren oder § 8b KStG besteuern."
+    ],
+    "fehler": [
+      "Der Buchwertantrag der übertragenden Gesellschaft nach § 11 Abs. 2 UmwStG wird automatisch auch für die Gesellschafter angenommen.",
+      "Bei einer Kleinbeteiligung im Privatvermögen wird ein Wahlrecht zur Gewinnrealisierung unterstellt."
+    ],
+    "merksatz": "§ 13 UmwStG: Ohne Antrag Tausch zum gemeinen Wert; mit Antrag setzen die neuen Anteile die alten steuerlich fort."
+  },
+  {
+    "quelle": "umw-4-02",
+    "titel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+    "einordnung": [
+      "Auf- und Abspaltungen von Kapitalgesellschaften sind nur dann steuerneutral möglich, wenn § 15 UmwStG eröffnet ist. Die Klausur prüft zuerst die Umwandlungsart und die Teilbetriebsvoraussetzungen."
+    ],
+    "lernziele": [
+      "§ 15 UmwStG erfasst Auf- und Abspaltungen nach § 123 Abs. 1 und 2 UmwG sowie vergleichbare ausländische Vorgänge; die Ausgliederung fällt nicht darunter.",
+      "Der Eintragung durch das Registergericht folgt die Finanzverwaltung grundsätzlich, außer bei gravierenden Mängeln des Vorgangs.",
+      "Das Buchwertwahlrecht nach § 11 Abs. 2 UmwStG setzt voraus, dass ein Teilbetrieb übertragen wird und bei der Abspaltung auch das verbleibende Vermögen ein Teilbetrieb ist.",
+      "Seit dem Wegfall von § 1 Abs. 2 UmwStG a. F. sind auch Spaltungen mit Beteiligung von Drittstaatengesellschaften erfasst, sodass inländische Anteilseigner § 13 UmwStG in Anspruch nehmen können."
+    ],
+    "pruefschritte": [
+      "Den zivilrechtlichen Vorgang bestimmen und gegebenenfalls die Vergleichbarkeit einer ausländischen Spaltung prüfen.",
+      "Das übertragene und das zurückbleibende Vermögen daraufhin untersuchen, ob jeweils ein Teilbetrieb vorliegt.",
+      "Die Missbrauchsklauseln des § 15 Abs. 2 UmwStG durchgehen.",
+      "Die Folgen bei Übertragerin, Übernehmerin und Anteilseignern über die entsprechende Anwendung der §§ 11 bis 13 UmwStG ziehen."
+    ],
+    "fehler": [
+      "Eine Ausgliederung wird nach § 15 UmwStG statt nach § 20 oder § 24 UmwStG gelöst.",
+      "Bei der Abspaltung wird nur das abgespaltene Vermögen auf Teilbetriebseigenschaft geprüft, das verbleibende nicht."
+    ],
+    "merksatz": "Spaltung zum Buchwert braucht Teilbetriebe auf beiden Seiten: das übertragene Vermögen und bei der Abspaltung auch das zurückbleibende."
+  },
+  {
+    "quelle": "umw-4-09",
+    "titel": "Wann ist ein fiktiver Teilbetrieb spaltungsschädlich?",
+    "einordnung": [
+      "Mitunternehmeranteile und 100-%-Beteiligungen gelten bei der Spaltung als Teilbetrieb. Damit diese Fiktion nicht kurzfristig zur Gestaltung genutzt wird, enthält § 15 Abs. 2 Satz 1 UmwStG eine Dreijahressperre."
+    ],
+    "lernziele": [
+      "Schädlich ist ein fiktiver Teilbetrieb, der in den letzten drei Jahren vor dem Stichtag erst durch Zuführung von Wirtschaftsgütern ohne eigene Teilbetriebseigenschaft entstanden oder angewachsen ist.",
+      "Dann entfällt für das übertragene Vermögen das Wahlrecht nach § 11 Abs. 2 UmwStG; das zurückbehaltene Vermögen und das Wahlrecht der Anteilseigner nach § 13 Abs. 2 UmwStG bleiben unberührt.",
+      "Schädlich ist nur eine steuerneutrale Zuführung; nach Verwaltungsauffassung genügt dafür bereits eine Überführung in Sonderbetriebsvermögen oder eine Einbringung einer Minderheitsbeteiligung nach § 21 UmwStG.",
+      "Unschädlich sind etwa Zuführungen aus Mitteln der Gesellschafter, Erwerbe von fremden Dritten aus eigenen Mitteln der Gesellschaft oder Übertragungen unter voller Aufdeckung der stillen Reserven."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob übertragenes oder verbleibendes Vermögen nur als fiktiver Teilbetrieb die Teilbetriebsvoraussetzung erfüllt.",
+      "Den Dreijahreszeitraum rückwärts ab dem steuerlichen Übertragungsstichtag berechnen.",
+      "Zuführungen in diesem Zeitraum darauf prüfen, ob sie steuerneutral erfolgten und Wirtschaftsgüter ohne Teilbetriebseigenschaft betrafen.",
+      "Bei Schädlichkeit das übertragene Vermögen zum gemeinen Wert ansetzen und die Anteilseignerebene gesondert beurteilen."
+    ],
+    "fehler": [
+      "Die Missbrauchsklausel wird nur geprüft, wenn der fiktive Teilbetrieb übertragen wird, nicht wenn er zurückbleibt.",
+      "Eine Aufstockung zum vollen gemeinen Wert wird als schädlich eingestuft."
+    ],
+    "merksatz": "Wer ein Spaltungshindernis in den letzten drei Jahren steuerneutral in einen Mitunternehmeranteil oder eine 100-%-Beteiligung gepackt hat, verliert den Buchwert."
+  },
+  {
+    "quelle": "umw-4-11",
+    "titel": "Wann verhindert die Trennung von Gesellschafterstämmen den Buchwert?",
+    "einordnung": [
+      "Teilen sich die Gesellschafter durch eine Spaltung auf verschiedene Gesellschaften auf, verlangt § 15 Abs. 2 UmwStG eine Vorbesitzzeit. So soll das Herauskaufen eines Teilbetriebs über eine kurzfristige Beteiligung verhindert werden."
+    ],
+    "lernziele": [
+      "Eine Trennung von Gesellschafterstämmen liegt vor, wenn nach der Spaltung nicht mehr dieselben Gesellschafter an übertragender und übernehmender Gesellschaft beteiligt sind.",
+      "Die Beteiligungen der betroffenen Gesellschafter müssen mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag ununterbrochen bestanden haben; sonst entfällt das Wahlrecht nach § 11 Abs. 2 UmwStG.",
+      "Veränderte Beteiligungsquoten innerhalb der Frist schaden nicht; Zeiten, in denen die Gesellschaft als Personengesellschaft bestand, und Zeiten eines unentgeltlichen Rechtsvorgängers werden angerechnet.",
+      "Das Antragswahlrecht der Anteilseigner nach § 13 Abs. 2 UmwStG bleibt auch bei schädlicher Trennung erhalten."
+    ],
+    "pruefschritte": [
+      "Anhand der Beteiligungsverhältnisse nach der Spaltung klären, ob sich die Gesellschafter auf verschiedene Gesellschaften verteilen.",
+      "Für jeden am Stichtag beteiligten Gesellschafter den Beginn seiner Beteiligung ermitteln.",
+      "Die Fünfjahresfrist rückwärts ab dem steuerlichen Übertragungsstichtag berechnen und Anrechnungszeiten berücksichtigen.",
+      "Bei Unterschreiten den gemeinen Wert bei der Übertragerin ansetzen und die Anteilseignerebene nach § 13 UmwStG gesondert prüfen."
+    ],
+    "fehler": [
+      "Die Vorbesitzzeit wird an der Gründung der Gesellschaft statt an der Beteiligung jedes einzelnen Gesellschafters gemessen.",
+      "Eine bloße Änderung der Beteiligungsquote innerhalb von fünf Jahren wird als schädlich angesehen."
+    ],
+    "merksatz": "Gesellschafter trennen sich per Spaltung? Dann muss jeder von ihnen seit mindestens fünf Jahren vor dem Stichtag beteiligt gewesen sein."
+  },
+  {
+    "quelle": "umw-2-10",
+    "titel": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
+    "einordnung": [
+      "§ 20 UmwStG ist nur eröffnet, wenn tatsächlich ein Betrieb, Teilbetrieb oder Mitunternehmeranteil übergeht. Der Streit dreht sich fast immer um zurückbehaltene Wirtschaftsgüter."
+    ],
+    "lernziele": [
+      "Für § 20 UmwStG kommt es allein auf die funktional wesentlichen Betriebsgrundlagen an; sie müssen der Kapitalgesellschaft zumindest in das wirtschaftliche Eigentum übertragen werden.",
+      "Behält der Einbringende eine funktional wesentliche Betriebsgrundlage zurück und verpachtet sie nur an die Gesellschaft, ist § 20 UmwStG insgesamt ausgeschlossen; es kommt zur Betriebsaufgabe nach § 16 Abs. 3 EStG.",
+      "Lediglich quantitativ wesentliche Wirtschaftsgüter dürfen zurückbehalten werden; der Entnahmegewinn ist bei Buch- oder Zwischenwertansatz laufender Gewinn ohne §§ 16 Abs. 4, 34 EStG.",
+      "Gehören Anteile an einer Kapitalgesellschaft zum eingebrachten Betrieb, richtet sich ihre Einbringung vorrangig nach § 20 UmwStG und nicht nach § 21 UmwStG."
+    ],
+    "pruefschritte": [
+      "Alle Wirtschaftsgüter des Betriebs zum steuerlichen Übertragungsstichtag erfassen und nach funktionaler Wesentlichkeit einordnen.",
+      "Prüfen, ob jedes funktional wesentliche Wirtschaftsgut rechtlich oder wirtschaftlich auf die Kapitalgesellschaft übergeht.",
+      "Zurückbehaltene, nur quantitativ wesentliche Wirtschaftsgüter mit dem gemeinen Wert als entnommen behandeln oder eine Überführung nach § 6 Abs. 5 EStG prüfen.",
+      "Bei Personengesellschaften auch das Sonderbetriebsvermögen und die Anteile an einer Komplementär-GmbH einbeziehen."
+    ],
+    "fehler": [
+      "Ein wesentliches Betriebsgrundstück wird zurückbehalten und an die GmbH vermietet, trotzdem wird die Einbringung zum Buchwert anerkannt.",
+      "Der Gewinn aus der Entnahme eines zurückbehaltenen Grundstücks wird bei Buchwerteinbringung tarifbegünstigt besteuert."
+    ],
+    "merksatz": "Bei § 20 UmwStG muss jede funktional wesentliche Betriebsgrundlage mit; nur quantitativ wesentliche Wirtschaftsgüter dürfen zurückbleiben."
+  },
+  {
+    "quelle": "umw-2-12",
+    "titel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+    "einordnung": [
+      "Mitunternehmeranteile sind eigenständiger Einbringungsgegenstand des § 20 UmwStG. Für die Klausur ist entscheidend, dass das Sonderbetriebsvermögen zum Anteil gehört."
+    ],
+    "lernziele": [
+      "Mitunternehmeranteil ist die Beteiligung an einer Gesellschaft mit Gewinneinkünften einschließlich gewerblich geprägter Gesellschaften und atypisch stiller Beteiligungen; Anteile an rein vermögensverwaltenden Gesellschaften gehören nicht dazu.",
+      "Zum Anteil gehört neben dem Anteil am Gesellschaftsvermögen das Sonderbetriebsvermögen; funktional wesentliches Sonderbetriebsvermögen muss mit eingebracht werden.",
+      "Auch ein Bruchteil eines Mitunternehmeranteils ist nach § 20 UmwStG begünstigt, sofern funktional wesentliches Sonderbetriebsvermögen mindestens in derselben Quote mitübergeht; ein Mehr schadet nicht.",
+      "Den Antrag auf Buch- oder Zwischenwert stellt die übernehmende Kapitalgesellschaft, auch wenn sich der Wertansatz nur in Ergänzungsbilanzen bei der Personengesellschaft zeigt."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob die Personengesellschaft Gewinneinkünfte erzielt und der Einbringende Mitunternehmer ist.",
+      "Den Umfang des Anteils einschließlich des Sonderbetriebsvermögens bestimmen und dessen funktionale Wesentlichkeit klären.",
+      "Bei Teilanteilen die Quote des übertragenen Gesellschaftsanteils mit der Quote des mitübertragenen Sonderbetriebsvermögens vergleichen.",
+      "Für den nicht begünstigten Teil laufenden, gewerbesteuerpflichtigen Gewinn ermitteln und für den Rest das Wahlrecht der Kapitalgesellschaft anwenden."
+    ],
+    "fehler": [
+      "Ein Teilanteil wird eingebracht und das wesentliche Grundstück im Sonderbetriebsvermögen vollständig zurückbehalten, trotzdem wird § 20 UmwStG bejaht.",
+      "Der Antrag auf Buchwertfortführung wird der Personengesellschaft oder dem Einbringenden zugeschrieben."
+    ],
+    "merksatz": "Mitunternehmeranteil heißt Gesellschaftsanteil plus Sonderbetriebsvermögen; beim Teilanteil muss das wesentliche SBV mindestens quotal mit."
+  },
+  {
+    "quelle": "umw-2-13",
+    "titel": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
+    "einordnung": [
+      "§ 20 UmwStG verlangt als Gegenleistung zumindest teilweise neue Anteile an der übernehmenden Kapitalgesellschaft. Fehlen sie, scheidet die Vorschrift aus."
+    ],
+    "lernziele": [
+      "Neue Anteile entstehen nur bei Sachgründung oder Sachkapitalerhöhung; sie müssen gerade für die Einbringung ausgegeben werden.",
+      "Nach dem BFH genügt es, wenn der Betrieb im Zusammenhang mit einer Barkapitalerhöhung als vertraglich vereinbartes Aufgeld eingebracht und in der Kapitalrücklage gezeigt wird.",
+      "Keine neuen Anteile liegen vor bei ausschließlicher Hingabe eigener Anteile, bei verdeckter Einlage, beim Verzicht auf eine Kapitalerhöhung nach § 54 UmwG und bei der verschleierten Sachgründung.",
+      "Übersteigt der Wertansatz das neue Nennkapital, erhöht der Überhang das steuerliche Einlagekonto nach § 27 KStG bereits zum steuerlichen Übertragungsstichtag, soweit keine sonstige Gegenleistung gewährt wird."
+    ],
+    "pruefschritte": [
+      "Den gesellschaftsrechtlichen Weg feststellen: Sachgründung, Sachkapitalerhöhung, Aufgeld bei Barerhöhung oder bloße Einlage.",
+      "Prüfen, ob die Anteilsgewährung unmittelbar auf der Einbringung beruht.",
+      "Wertansatz, Nennkapital und etwaige sonstige Gegenleistungen gegenüberstellen.",
+      "Den Zugang zum steuerlichen Einlagekonto bestimmen und die Feststellungserklärung zum Übertragungsstichtag vormerken."
+    ],
+    "fehler": [
+      "Eine Übertragung gegen Buchung ausschließlich in die Kapitalrücklage ohne jede Kapitalerhöhung wird als Einbringung nach § 20 UmwStG behandelt.",
+      "Der Zugang zum Einlagekonto wird aus der handelsrechtlichen Kapitalrücklage statt aus dem steuerlichen Wertansatz abgeleitet."
+    ],
+    "merksatz": "Ohne neue Anteile kein § 20 UmwStG; was über das neue Nennkapital hinausgeht, landet im steuerlichen Einlagekonto."
+  },
+  {
+    "quelle": "umw-2-23",
+    "titel": "Was geschieht bei Einbringung eines Betriebs mit negativem Kapital?",
+    "einordnung": [
+      "Ein Betrieb mit negativem Buchkapital kann nicht zum Buchwert in eine Kapitalgesellschaft eingebracht werden. § 20 Abs. 2 Satz 2 Nr. 2 UmwStG erzwingt eine Aufstockung."
+    ],
+    "lernziele": [
+      "Die Passivposten des eingebrachten Betriebsvermögens dürfen die Aktivposten ohne Eigenkapital nicht übersteigen; der Wertansatz muss mindestens null betragen.",
+      "Die Aufstockung auf null ist ein erzwungener Zwischenwert: Beim Einbringenden entsteht in Höhe des negativen Kapitals ein Gewinn, der nach § 20 Abs. 4 Satz 1 UmwStG nicht nach §§ 16 Abs. 4, 34 EStG begünstigt ist.",
+      "Die Anschaffungskosten der erhaltenen Anteile betragen dann null; negative Anschaffungskosten entstehen nicht.",
+      "Liegt der Wertansatz unter dem ausgegebenen Nennkapital, ist in der Steuerbilanz der Kapitalgesellschaft ein Ausgleichsposten zu bilden; bei Einbringung von Mitunternehmeranteilen wird die Grenze für jeden Einbringenden gesondert geprüft."
+    ],
+    "pruefschritte": [
+      "Das steuerliche Kapital des Einbringungsgegenstands ermitteln, bei Mitunternehmern einschließlich Ergänzungs- und Sonderbilanzen.",
+      "Ist es negativ, die Aktivposten so weit aufstocken, dass der Wertansatz null erreicht.",
+      "Den Gewinn des Einbringenden über die Wertverknüpfung nach § 20 Abs. 3 Satz 1 UmwStG berechnen und die Begünstigungen versagen.",
+      "Die Bilanz der Kapitalgesellschaft mit Nennkapital und gegebenenfalls Ausgleichsposten darstellen."
+    ],
+    "fehler": [
+      "Das negative Kapital wird zum Buchwert übernommen und beim Einbringenden entstehen negative Anschaffungskosten.",
+      "Bei mehreren einbringenden Mitunternehmern wird das Kapital aller Beteiligten saldiert, sodass ein negatives Einzelkapital verdeckt bleibt."
+    ],
+    "merksatz": "Negatives Betriebsvermögen wird bei § 20 UmwStG mindestens auf null aufgestockt; der Gewinn daraus ist nicht tarifbegünstigt."
+  },
+  {
+    "quelle": "umw-2-25",
+    "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+    "einordnung": [
+      "Neben neuen Anteilen darf die übernehmende Gesellschaft auch andere Gegenleistungen gewähren, etwa eine Darlehensforderung. Überschreiten diese die gesetzlichen Grenzen, ist der Buchwertansatz nicht mehr voll möglich."
+    ],
+    "lernziele": [
+      "Nach § 20 Abs. 2 Satz 2 Nr. 4 UmwStG schadet eine sonstige Gegenleistung nicht, solange ihr gemeiner Wert entweder ein Viertel des eingebrachten Buchwerts oder 500.000 € nicht übersteigt; es gilt der höhere der beiden Beträge, begrenzt auf den Buchwert.",
+      "Die Grenzen gelten je Einbringungsgegenstand, nicht je Einbringungsvorgang.",
+      "Soweit die Gegenleistung die Grenze übersteigt, werden stille Reserven anteilig aufgedeckt; der Wertansatz setzt sich aus dem fortgeführten Buchwertanteil und dem schädlichen Mehrbetrag zusammen.",
+      "Die Anschaffungskosten der erhaltenen Anteile vermindern sich nach § 20 Abs. 3 Satz 3 UmwStG um den gemeinen Wert der sonstigen Gegenleistung."
+    ],
+    "pruefschritte": [
+      "Buchwert und gemeinen Wert des Einbringungsgegenstands sowie Art und Wert der sonstigen Gegenleistung feststellen.",
+      "Beide Grenzbeträge berechnen, den festen Betrag auf den Buchwert begrenzen und den höheren Wert zugrunde legen.",
+      "Den schädlichen Überhang ermitteln und daraus den Anteil des Buchwerts ableiten, der fortgeführt werden kann.",
+      "Wertansatz, Gewinn des Einbringenden und gekürzte Anschaffungskosten der neuen Anteile berechnen."
+    ],
+    "fehler": [
+      "Der Festbetrag von 500.000 € wird voll ausgeschöpft, obwohl der Buchwert darunter liegt.",
+      "Die sonstige Gegenleistung wird bei den Anschaffungskosten der neuen Anteile nicht abgezogen."
+    ],
+    "merksatz": "Andere Gegenleistungen sind bis zu einem Viertel des Buchwerts oder 500.000 € erlaubt, nie über den Buchwert hinaus; was darüber liegt, deckt stille Reserven anteilig auf."
+  },
+  {
+    "quelle": "umw-2-32",
+    "titel": "Wie weit lässt sich eine Einbringung steuerlich zurückbeziehen?",
+    "einordnung": [
+      "Die Rückbeziehung nach § 20 Abs. 5 und 6 UmwStG erlaubt es, eine Einbringung auf den letzten Bilanzstichtag zu legen. Der zulässige Zeitraum hängt von der zivilrechtlichen Form ab."
+    ],
+    "lernziele": [
+      "Bei Verschmelzung und Spaltung ist Übertragungsstichtag auf Antrag der Stichtag der Bilanz, die der Registeranmeldung zugrunde liegt; sie darf bei Anmeldung höchstens acht Monate alt sein.",
+      "Bei Einbringung durch Einzelrechtsnachfolge darf der Stichtag höchstens acht Monate vor dem Abschluss des Einbringungsvertrags und vor dem Übergang des wirtschaftlichen Eigentums liegen (§ 20 Abs. 6 Satz 3 UmwStG).",
+      "Beim Formwechsel verweist § 25 UmwStG auf § 9 Sätze 2 und 3 UmwStG, sodass eine rein steuerliche Übertragungsbilanz innerhalb der Achtmonatsfrist aufgestellt wird; bei der Option nach § 1a KStG gibt es keine Rückbeziehung.",
+      "Verträge zwischen Gesellschaft und Einbringendem wie Geschäftsführer-, Miet- oder Darlehensverträge wirken nicht zurück; rückwirkend gezahlte Vergütungen können verdeckte Gewinnausschüttungen sein."
+    ],
+    "pruefschritte": [
+      "Die zivilrechtliche Form der Einbringung bestimmen: Gesamtrechtsnachfolge, Formwechsel oder Einzelrechtsnachfolge.",
+      "Den gewünschten Stichtag mit Registeranmeldung, Vertragsschluss und Übergang des wirtschaftlichen Eigentums vergleichen.",
+      "Den Antrag der übernehmenden Gesellschaft auf Rückbeziehung feststellen.",
+      "Vereinbarungen mit dem Einbringenden erst ab ihrer zivilrechtlichen Wirksamkeit anerkennen und rückwirkende Vergütungen als verdeckte Gewinnausschüttung prüfen."
+    ],
+    "fehler": [
+      "Bei Einzelrechtsnachfolge wird nur auf den Vertragsschluss abgestellt und der spätere Übergang des wirtschaftlichen Eigentums übersehen.",
+      "Das Geschäftsführergehalt wird ab dem zurückbezogenen Stichtag als Betriebsausgabe der GmbH anerkannt."
+    ],
+    "merksatz": "Rückbezug höchstens acht Monate; die Einbringung wirkt zurück, Verträge mit dem Einbringenden aber nicht."
+  },
+  {
+    "quelle": "umw-ks-6-c-15",
+    "titel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
+    "einordnung": [
+      "Wer Anteile an einer Kapitalgesellschaft in eine andere Kapitalgesellschaft überträgt, kann § 21 UmwStG nutzen. Voraussetzung ist, dass als Gegenleistung neue Anteile ausgegeben werden."
+    ],
+    "lernziele": [
+      "§ 21 UmwStG erfasst den Fall, dass jemand Kapitalgesellschaftsanteile auf eine Kapitalgesellschaft überträgt und dafür neue Anteile erhält; die eingebrachten Anteile können aus Betriebs- oder Privatvermögen stammen.",
+      "Gibt die Übernehmerin keine neuen Anteile aus und bucht den Zugang nur in die Kapitalrücklage oder als Ertrag, handelt es sich um eine verdeckte Einlage.",
+      "Die verdeckte Einlage einer § 17-Beteiligung steht nach § 17 Abs. 1 Satz 2 EStG einer Veräußerung gleich; beim Einlegenden werden die stillen Reserven aufgedeckt und nach dem Teileinkünfteverfahren versteuert.",
+      "Bei der Übernehmerin ist die verdeckte Einlage mit dem Teilwert anzusetzen, außerbilanziell nach § 8 Abs. 3 Satz 3 KStG neutral und erhöht das Einlagekonto nach § 27 KStG."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob Gegenstand der Übertragung Anteile an einer Kapitalgesellschaft sind und nicht ein Betrieb, zu dem sie gehören.",
+      "Feststellen, ob die Übernehmerin ihr Nennkapital erhöht und dem Einbringenden neue Anteile gewährt.",
+      "Fehlen neue Anteile, die Folgen der verdeckten Einlage bei Einlegendem und Kapitalgesellschaft ziehen.",
+      "Liegen neue Anteile vor, die weiteren Voraussetzungen des § 21 Abs. 1 Satz 2 UmwStG und den Wertansatz prüfen."
+    ],
+    "fehler": [
+      "Die Übertragung von Anteilen gegen Buchung in die Kapitalrücklage wird als steuerneutraler Anteilstausch behandelt.",
+      "Bei der verdeckten Einlage wird bei der Kapitalgesellschaft der niedrigere Buchwert statt des Teilwerts angesetzt."
+    ],
+    "merksatz": "Neue Anteile als Gegenleistung: Anteilstausch nach § 21 UmwStG. Keine neuen Anteile: verdeckte Einlage mit Aufdeckung der stillen Reserven."
+  },
+  {
+    "quelle": "umw-2-45",
+    "titel": "Wie berechnet man den Einbringungsgewinn I?",
+    "einordnung": [
+      "Wer einen Betrieb unter dem gemeinen Wert in eine Kapitalgesellschaft eingebracht hat, darf die erhaltenen Anteile sieben Jahre nicht schädlich veräußern. Sonst wird der Einbringungsgewinn I nachträglich besteuert."
+    ],
+    "lernziele": [
+      "Veräußert der Einbringende die erhaltenen Anteile innerhalb von sieben Jahren nach dem Übertragungsstichtag, ist rückwirkend im Jahr der Einbringung der Einbringungsgewinn I als Gewinn nach § 16 EStG zu versteuern (§ 22 Abs. 1 UmwStG); §§ 16 Abs. 4 und 34 EStG sind nicht anzuwenden.",
+      "Der Einbringungsgewinn I ist der gemeine Wert des eingebrachten Betriebsvermögens am Stichtag abzüglich Kosten des Vermögensübergangs und abzüglich des Wertansatzes der Kapitalgesellschaft; spätere Wertänderungen bleiben außer Betracht.",
+      "Für jedes seit dem Stichtag abgelaufene volle Zeitjahr vermindert sich der Betrag um ein Siebtel.",
+      "Der versteuerte Einbringungsgewinn I erhöht die Anschaffungskosten der erhaltenen Anteile (§ 22 Abs. 1 Satz 4 UmwStG), was den Gewinn aus der Anteilsveräußerung entsprechend mindert."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob die Einbringung unter dem gemeinen Wert erfolgte und ob innerhalb der sieben Jahre eine schädliche Veräußerung oder ein gleichgestellter Vorgang vorliegt.",
+      "Gemeinen Wert am Stichtag, Wertansatz der Gesellschaft und Einbringungskosten zusammenstellen.",
+      "Die abgelaufenen vollen Zeitjahre bis zur Veräußerung zählen und den Betrag entsprechend siebteln.",
+      "Den Einbringungsgewinn I im Jahr der Einbringung erfassen, den Kostenabzug dort korrigieren und die Anschaffungskosten der Anteile erhöhen.",
+      "Den Gewinn aus der tatsächlichen Anteilsveräußerung mit den erhöhten Anschaffungskosten ermitteln."
+    ],
+    "fehler": [
+      "Der Einbringungsgewinn I wird im Jahr der Anteilsveräußerung statt rückwirkend im Einbringungsjahr erfasst.",
+      "Für den Einbringungsgewinn I werden Freibetrag und Tarifermäßigung gewährt."
+    ],
+    "merksatz": "Einbringungsgewinn I: stille Reserven am Stichtag, je volles Jahr ein Siebtel weniger, rückwirkend im Einbringungsjahr und ohne Begünstigung."
+  },
+  {
+    "quelle": "umw-2-52",
+    "titel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+    "einordnung": [
+      "Bringt eine natürliche Person Anteile unter dem gemeinen Wert in eine Kapitalgesellschaft ein, könnte diese sie später nach § 8b Abs. 2 KStG nahezu steuerfrei verkaufen. § 22 Abs. 2 UmwStG verhindert diese Verbesserung."
+    ],
+    "lernziele": [
+      "Betroffen sind Einbringende, bei denen ein Gewinn aus den eingebrachten Anteilen im Zeitpunkt der Einbringung nicht nach § 8b Abs. 2 KStG steuerfrei gewesen wäre, typischerweise natürliche Personen; gleichgültig ist, ob die Anteile nach § 21 oder mit einem Betrieb nach § 20 UmwStG eingebracht wurden.",
+      "Veräußert die übernehmende Gesellschaft die eingebrachten Anteile innerhalb von sieben Jahren, wird beim Einbringenden rückwirkend der Einbringungsgewinn II versteuert.",
+      "Der Einbringungsgewinn II ist der gemeine Wert der eingebrachten Anteile bei Einbringung abzüglich Kosten und abzüglich des Wertansatzes der erhaltenen Anteile beim Einbringenden; er sinkt um ein Siebtel je abgelaufenem vollem Zeitjahr.",
+      "Eine sonstige Gegenleistung mindert zwar die Anschaffungskosten der erhaltenen Anteile, ist für die Berechnung des Einbringungsgewinns II aber wieder hinzuzurechnen."
+    ],
+    "pruefschritte": [
+      "Klären, ob Anteile unter dem gemeinen Wert eingebracht wurden und ob der Einbringende nicht nach § 8b Abs. 2 KStG begünstigt ist.",
+      "Eine Veräußerung oder einen gleichgestellten Vorgang durch die übernehmende Gesellschaft innerhalb von sieben Jahren feststellen.",
+      "Den Einbringungsgewinn II aus den Werten im Einbringungszeitpunkt berechnen und siebteln.",
+      "Den Gewinn rückwirkend beim Einbringenden erfassen und die Anschaffungskosten seiner erhaltenen Anteile entsprechend erhöhen."
+    ],
+    "fehler": [
+      "Die Sperrfrist des § 22 Abs. 2 UmwStG wird an einen Verkauf der erhaltenen Anteile durch den Einbringenden geknüpft statt an einen Verkauf der eingebrachten Anteile durch die Übernehmerin.",
+      "§ 22 Abs. 2 UmwStG wird auch auf eine einbringende Kapitalgesellschaft angewandt, die selbst § 8b Abs. 2 KStG nutzen könnte."
+    ],
+    "merksatz": "Einbringungsgewinn II: Die Übernehmerin verkauft die eingebrachten Anteile binnen sieben Jahren, und der nicht begünstigte Einbringende zahlt rückwirkend."
+  },
+  {
+    "quelle": "umw-2-48",
+    "titel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+    "einordnung": [
+      "Der Veräußerungsbegriff des § 22 Abs. 1 UmwStG ist weit. Die Ersatzrealisationstatbestände des § 22 Abs. 1 Satz 6 UmwStG und ihre Rückausnahmen entscheiden viele Klausurfälle."
+    ],
+    "lernziele": [
+      "Gelangen die sperrfristbehafteten Anteile ohne Gegenleistung in eine Kapitalgesellschaft, etwa per verdeckter Einlage, wird der Einbringungsgewinn I nach § 22 Abs. 1 Satz 6 Nr. 1 UmwStG ausgelöst.",
+      "Wer die Anteile einer natürlichen Person schenkt, verstößt nicht gegen die Sperrfrist; der Beschenkte tritt nach § 22 Abs. 6 UmwStG in sie ein.",
+      "Die Weitereinbringung der Anteile nach § 20 oder § 21 UmwStG ist nur unschädlich, wenn sie zum Buchwert erfolgt und dies nachgewiesen wird; die dafür erhaltenen Anteile treten nach § 22 Abs. 1 Satz 7 UmwStG in die Sperrfrist ein.",
+      "Andere Umwandlungen, etwa die Verschmelzung des Einbringenden auf eine Kapitalgesellschaft, sind grundsätzlich schädlich; die Verwaltung lässt nach Rn. 22.23 UmwStE auf Antrag aller Betroffenen Ausnahmen zu, nicht aber beim Übergang auf eine Personengesellschaft."
+    ],
+    "pruefschritte": [
+      "Den Vorgang mit den sperrfristbehafteten Anteilen genau bestimmen: entgeltlich, unentgeltlich, Weitereinbringung oder sonstige Umwandlung.",
+      "Bei Unentgeltlichkeit den Empfänger prüfen: Kapitalgesellschaft schädlich, natürliche Person Rechtsnachfolge.",
+      "Bei Weitereinbringung Buchwertansatz, Grenzen für sonstige Gegenleistungen und Nachweis prüfen.",
+      "Bei anderen Umwandlungen die Billigkeitsregel der Verwaltung und die dafür nötigen Anträge untersuchen.",
+      "Tritt Schädlichkeit ein, den Einbringungsgewinn I rückwirkend ermitteln und die Folgen bei der übernehmenden Gesellschaft ziehen."
+    ],
+    "fehler": [
+      "Die Schenkung der Anteile an ein Kind wird als schädliche Veräußerung behandelt.",
+      "Eine Weitereinbringung zu einem Zwischenwert wird als unschädlich angesehen, weil die Anteile weiter in einer Kapitalgesellschaft stecken."
+    ],
+    "merksatz": "Schädlich ist fast jede Übertragung der sperrfristbehafteten Anteile; unschädlich sind Schenkung an natürliche Personen und die nachgewiesene Buchwert-Weitereinbringung."
+  },
+  {
+    "quelle": "umw-2-49",
+    "titel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+    "einordnung": [
+      "Während der Sperrfrist muss der Einbringende dem Finanzamt jährlich die Zurechnung der Anteile belegen. Versäumt er das, fingiert § 22 Abs. 3 UmwStG eine schädliche Veräußerung."
+    ],
+    "lernziele": [
+      "Der Einbringende hat innerhalb der sieben Jahre jeweils bis zum 31. Mai nachzuweisen, wem die erhaltenen Anteile am Tag zuzurechnen sind, der dem Einbringungszeitpunkt entspricht (§ 22 Abs. 3 UmwStG).",
+      "Als Nachweis kommen etwa Gesellschafterliste, Auszug aus dem Aktienregister oder bei Anteilen im Betriebsvermögen ein Auszug aus der Steuerbilanz in Betracht.",
+      "Wird der Nachweis nicht erbracht, gelten die Anteile am Tag nach dem maßgebenden Stichtag als veräußert; der Einbringungsgewinn I ist dann zu versteuern.",
+      "Die Frist ist nicht verlängerbar; nach Auffassung der Verwaltung kann der Nachweis aber bis zur Bestandskraft des geänderten Bescheids nachgeholt werden, und bei unentgeltlicher Rechtsnachfolge geht die Pflicht nach § 22 Abs. 6 UmwStG über."
+    ],
+    "pruefschritte": [
+      "Den Einbringungsstichtag feststellen und daraus die jährlichen Zurechnungsstichtage ableiten.",
+      "Für jedes Jahr prüfen, ob der Nachweis fristgerecht bis zum 31. Mai eingereicht wurde.",
+      "Bei fehlendem Nachweis den fiktiven Veräußerungszeitpunkt bestimmen und den Einbringungsgewinn I mit Siebtelung berechnen.",
+      "Prüfen, ob der Nachweis im Rechtsbehelfsverfahren noch vor Bestandskraft nachgereicht werden kann."
+    ],
+    "fehler": [
+      "Die versäumte Nachweisfrist wird als folgenlos angesehen, weil die Anteile tatsächlich nicht verkauft wurden.",
+      "Nach einer Schenkung wird angenommen, dass die Nachweispflicht mit dem Einbringenden endet."
+    ],
+    "merksatz": "Kein Nachweis bis 31. Mai heißt fiktive Veräußerung; der Einbringungsgewinn I wird fällig, auch ohne echten Verkauf."
+  },
+  {
+    "quelle": "umw-2-70",
+    "titel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+    "einordnung": [
+      "Versteuert der Einbringende einen Einbringungsgewinn I, darf die übernehmende Kapitalgesellschaft die eingebrachten Wirtschaftsgüter nach § 23 Abs. 2 UmwStG aufstocken. So wird die Doppelbesteuerung derselben stillen Reserven vermieden."
+    ],
+    "lernziele": [
+      "Die Aufstockung erfolgt auf Antrag, wenn die auf den Einbringungsgewinn I entfallende Steuer entrichtet und nachgewiesen ist, und zwar im Wirtschaftsjahr der schädlichen Veräußerung, nicht rückwirkend.",
+      "Der Aufstockungsbetrag wird innerbilanziell als Ertrag gebucht und außerbilanziell wieder abgezogen, beeinflusst das Einkommen also nicht.",
+      "Maßstab für die Verteilung sind die stillen Reserven, die jedes Wirtschaftsgut am Einbringungsstichtag enthielt, einschließlich immaterieller Wirtschaftsgüter; ein vorhandener Ausgleichsposten ist zuerst zu verrechnen.",
+      "Für zwischenzeitlich zum gemeinen Wert veräußerte Wirtschaftsgüter ist der anteilige Betrag sofort als Betriebsausgabe abziehbar; die weitere AfA folgt § 23 Abs. 3 UmwStG, und das Einlagekonto erhöht sich entsprechend."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob beim Einbringenden ein Einbringungsgewinn I versteuert und die Steuer nachweislich entrichtet wurde.",
+      "Die stillen Reserven der eingebrachten Wirtschaftsgüter zum Einbringungsstichtag auflisten und die Verteilungsquoten bilden.",
+      "Den Aufstockungsbetrag verteilen, Ausgleichsposten verrechnen und bei ausgeschiedenen Wirtschaftsgütern die Art des Ausscheidens prüfen.",
+      "Die Aufstockung einkommensneutral buchen, die neue AfA-Bemessungsgrundlage ermitteln und das Einlagekonto anpassen."
+    ],
+    "fehler": [
+      "Die Aufstockung wird rückwirkend auf den Einbringungsstichtag vorgenommen.",
+      "Der Aufstockungsertrag wird bei der Kapitalgesellschaft als steuerpflichtiger Gewinn behandelt."
+    ],
+    "merksatz": "Einbringungsgewinn I beim Einbringenden spiegelt sich in einer einkommensneutralen Aufstockung bei der GmbH, verteilt nach den stillen Reserven am Stichtag."
+  }
+]

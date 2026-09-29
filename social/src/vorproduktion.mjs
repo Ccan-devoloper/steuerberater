@@ -9,6 +9,7 @@
 import { CONFIG } from "./config.mjs";
 import { fachInfo, KLAUSUREN, FEED_KATEGORIEN, feedKategorie } from "./inhalte.mjs";
 import { pruefeBeitrag, quizBefunde, paarSchluessel } from "./pruefung.mjs";
+import { DREI_KLAUSUREN_FOLGEN, dreiKlausurenFolge } from "./planer.mjs";
 
 export const VORPRODUKTION_LAYOUT = Object.freeze({
   feed: Object.freeze({ breite: 1080, hoehe: 1350, verhaeltnis: "4:5" }),
@@ -25,6 +26,10 @@ export const VORPRODUKTION_LAYOUT = Object.freeze({
   bildlosesCoverMitHandschrift: false,
   farbenAusSchwesterkanalUebernehmen: false,
 });
+
+/* Die Drei-Slot-Klausurfolge lebt im Planer, damit Live-Plan und
+   Vorproduktion dieselbe Rotation verwenden. */
+export { DREI_KLAUSUREN_FOLGEN, dreiKlausurenFolge };
 
 export function quizFrageSichtbar(frage, themaTitel = "") {
   const sauber = (wert) => String(wert || "").replace(/\s+/g, " ").trim();
@@ -175,7 +180,7 @@ function sichtbareKategorie(planEintrag, inhalt) {
   });
 }
 
-const QUELLENSPRACHE = /\b(?:Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs)\b/i;
+export const QUELLENSPRACHE = /\b(?:Unterrichtsnotiz|Originalfall|Musterlösung|Hausaufgabe|laut (?:Skript|Unterlage|Mitschrift)|aus (?:dem|der) (?:Skript|Unterlage|Mitschrift)|der Einheit|im Kurs)\b/i;
 const GENERISCHE_ZAHL = /Diese Punkte tragen die sichtbare Prüfungsstruktur/i;
 
 function publikationsregelnPruefen(inhalt, label) {
@@ -233,13 +238,17 @@ export function examenscampusRegelnPruefen(tag) {
   if (!tag?.plan || !tag?.inhalte) throw new Error("Vorproduktion: Plan oder Inhalte fehlen.");
 
   /* Die Monats-Vorproduktion nutzt drei Feed-Slots. Sobald ein Review-Tag
-     dieses Schema verwendet, sind K3 → K1 → K2 sowie genau zwei Karussells
-     und ein Reel verbindlich. Ältere Zwei-Feed-Reviewtage bleiben gültig. */
+     dieses Schema verwendet, sind K1, K2 und K3 in einer Rotation des Zyklus
+     K3 → K1 → K2 sowie genau zwei Karussells und ein Reel verbindlich.
+     Ältere Zwei-Feed-Reviewtage bleiben gültig. */
   const feed = tag.plan.beitraege || [];
   if (feed.length === 3) {
-    const klausurfolge = feed.map((b) => Number(b.klausur));
-    if (klausurfolge.join(",") !== "3,1,2") {
-      throw new Error(tag.datum + ": Drei-Feed-Vorproduktion verlangt die Klausurfolge K3 → K1 → K2.");
+    const klausurfolge = feed.map((b) => Number(b.klausur)).join(",");
+    if (!DREI_KLAUSUREN_FOLGEN.some((f) => f.join(",") === klausurfolge)) {
+      throw new Error(
+        tag.datum + ": Drei-Feed-Vorproduktion verlangt je einen Beitrag aus K1, K2 und K3 "
+        + "in einer Rotation der Klausurfolge K3 → K1 → K2."
+      );
     }
     const reels = feed.filter((b) => b.format === "reel");
     if (reels.length !== 1) {

@@ -1,0 +1,368 @@
+[
+  {
+    "quelle": "ao-jacobs-7-2",
+    "titel": "Wann darf das Finanzamt nach § 129 AO berichtigen?",
+    "einordnung": [
+      "§ 129 AO erlaubt die Berichtigung mechanischer Versehen bei jedem Verwaltungsakt, nicht aber die Korrektur von Rechtsirrtümern. In der Klausur entscheidet diese Abgrenzung oft darüber, ob ein bestandskräftiger Bescheid noch geändert werden kann."
+    ],
+    "lernziele": [
+      "Schreibfehler, Rechenfehler und vergleichbare Versehen fallen nur dann unter § 129 AO, wenn jede ernsthafte Möglichkeit eines Rechts- oder Tatsachenirrtums ausgeschlossen ist.",
+      "Ob ein Fehler offenbar ist, beurteilt ein objektiver Dritter anhand des Akteninhalts; ob der Steuerpflichtige ihn selbst hätte bemerken können, spielt keine Rolle.",
+      "Ein Versehen des Steuerpflichtigen, das aus Erklärung oder Anlagen für das Finanzamt erkennbar war, macht sich die Behörde als eigenen Fehler zu eigen.",
+      "Für Steuerbescheide läuft die Festsetzungsfrist insoweit nach § 171 Abs. 2 AO frühestens ein Jahr nach Bekanntgabe des fehlerhaften Bescheids ab."
+    ],
+    "pruefschritte": [
+      "Feststellen, welcher Verwaltungsakt betroffen ist; § 129 AO gilt für Steuerbescheide ebenso wie für sonstige Verwaltungsakte.",
+      "Klären, ob der Fehler rein mechanisch ist oder ob auch nur möglicherweise eine falsche Rechtsanwendung oder Sachverhaltswürdigung dahintersteht.",
+      "Prüfen, ob der Fehler dem Finanzamt selbst unterlaufen ist oder als für die Behörde erkennbarer Fehler des Steuerpflichtigen übernommen wurde.",
+      "War der Fehler für das Finanzamt nicht erkennbar, auf § 173a AO oder § 173 Abs. 1 AO ausweichen.",
+      "Zeitliche Grenze bestimmen: Festsetzungsfrist samt Jahresfrist nach § 171 Abs. 2 AO, bei sonstigen Verwaltungsakten Haftungs- oder Zahlungsverjährung."
+    ],
+    "fehler": [
+      "§ 129 AO wird angewendet, obwohl das Finanzamt den Sachverhalt geprüft und bewusst, aber falsch entschieden hat.",
+      "Ein Rechenfehler, der nur aus privaten Unterlagen des Steuerpflichtigen hervorgeht, wird als vom Finanzamt übernommener Fehler behandelt."
+    ],
+    "merksatz": "§ 129 AO heilt Tipp- und Rechenfehler, keine Denkfehler: Sobald ein Rechtsirrtum ernsthaft möglich erscheint, ist die Vorschrift versperrt."
+  },
+  {
+    "quelle": "ao-jacobs-5-4",
+    "titel": "Vorläufige Festsetzung: Was § 165 AO offenhält und was nicht",
+    "einordnung": [
+      "Die Vorläufigkeit nach § 165 AO betrifft nur einzelne ungewisse Punkte eines Bescheids und ist deshalb klar vom Vorbehalt der Nachprüfung nach § 164 AO zu trennen. Klausuren prüfen Voraussetzungen, Bestimmtheit des Vermerks und die Ablaufhemmung."
+    ],
+    "lernziele": [
+      "§ 165 Abs. 1 Satz 1 AO setzt eine Ungewissheit über Tatsachen voraus; Zweifel an der rechtlichen Beurteilung genügen nur in den Katalogfällen des Satzes 2.",
+      "Der Vermerk muss nach § 165 Abs. 1 Satz 3 AO erkennen lassen, wie weit er reicht und weshalb er gesetzt wurde; ein nicht bestimmbarer Vermerk ist nichtig, eine fehlende Begründung kann nachgeholt werden.",
+      "Soweit die Vorläufigkeit reicht, geht die Änderung nach § 165 Abs. 2 AO allen anderen Korrekturvorschriften vor.",
+      "§ 171 Abs. 8 AO verlängert die Frist: Sie endet frühestens ein Jahr, in den Fällen des § 165 Abs. 1 Satz 2 AO zwei Jahre, nachdem die Unklarheit ausgeräumt wurde und das Amt davon erfahren hat."
+    ],
+    "pruefschritte": [
+      "Ermitteln, worauf sich der Vermerk bezieht, und ihn vom Vorbehalt der Nachprüfung abgrenzen, der den ganzen Bescheid offenhält.",
+      "Prüfen, ob eine tatsächliche Ungewissheit oder einer der Katalogfälle des § 165 Abs. 1 Satz 2 AO vorlag.",
+      "Bestimmtheit kontrollieren: Ein nicht bestimmbarer Umfang macht den Vermerk nichtig, eine fehlende Begründung nur heilbar fehlerhaft.",
+      "Die Änderung nach § 165 Abs. 2 AO auf den vorläufigen Teil beschränken; für den endgültig festgesetzten Rest gelten die sonstigen Korrekturvorschriften.",
+      "Das Fristende berechnen und dabei die Verlängerung durch § 171 Abs. 8 AO berücksichtigen."
+    ],
+    "fehler": [
+      "Ein Vorläufigkeitsvermerk wird auf eine reine Rechtsfrage gestützt, obwohl kein Katalogfall des § 165 Abs. 1 Satz 2 AO vorliegt.",
+      "Es wird angenommen, die Vorläufigkeit sei entfallen, nur weil ein späterer Änderungsbescheid den Vermerk nicht wiederholt."
+    ],
+    "merksatz": "§ 164 AO hält den ganzen Bescheid offen, § 165 AO nur die im Vermerk bezeichneten ungewissen Punkte."
+  },
+  {
+    "quelle": "ao-jacobs-5-2",
+    "titel": "Vorbehalt der Nachprüfung: Aufhebung oder Wegfall kraft Gesetzes?",
+    "einordnung": [
+      "Solange der Vorbehalt nach § 164 AO besteht, darf der Bescheid in vollem Umfang geändert werden. Deshalb ist in jeder Korrekturklausur zuerst zu klären, ob der Vorbehalt noch wirkt."
+    ],
+    "lernziele": [
+      "Die Aufhebung nach § 164 Abs. 3 AO muss ausdrücklich erfolgen; danach ist der Bescheid endgültig und nur noch punktuell nach §§ 129, 172 ff. AO änderbar.",
+      "Eine Steueranmeldung für einen Voranmeldungszeitraum steht kraft Gesetzes unter Vorbehalt; eine Sonderprüfung ändert daran nichts.",
+      "Mit Ablauf der Festsetzungsfrist entfällt der Vorbehalt automatisch nach § 164 Abs. 4 AO, wobei § 169 Abs. 2 Satz 2 AO und § 171 Abs. 7, 8 und 10 AO außer Betracht bleiben.",
+      "Setzt das Finanzamt die Umsatzsteuer abweichend von der Jahreserklärung fest und vermerkt keinen Vorbehalt, ist der Bescheid endgültig."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob der zu ändernde Bescheid ausdrücklich oder kraft Gesetzes unter Vorbehalt der Nachprüfung steht.",
+      "Prüfen, ob das Finanzamt den Vorbehalt ausdrücklich aufgehoben hat; ein Änderungsbescheid ohne Aussage dazu lässt ihn grundsätzlich bestehen.",
+      "Kontrollieren, ob die Festsetzungsfrist ohne die in § 164 Abs. 4 Satz 2 AO ausgeschlossenen Verlängerungen abgelaufen ist.",
+      "Besteht der Vorbehalt fort, nach § 164 Abs. 2 AO ändern; andernfalls jeden Fehler den Vorschriften für endgültige Bescheide zuordnen."
+    ],
+    "fehler": [
+      "Nach einer auf einzelne Sachverhalte beschränkten Sonderprüfung wird eine Pflicht zur Aufhebung des Vorbehalts angenommen.",
+      "Beim Wegfall des Vorbehalts wird die verlängerte Frist bei Steuerhinterziehung mitgerechnet."
+    ],
+    "merksatz": "Erst den Vorbehalt prüfen: Lebt er noch, ist alles änderbar; ist er aufgehoben oder weggefallen, bleibt nur die punktuelle Korrektur."
+  },
+  {
+    "quelle": "ao-jacobs-7-7",
+    "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
+    "einordnung": [
+      "§ 173 AO durchbricht die Bestandskraft, wenn dem Finanzamt nachträglich steuerlich erhebliche Tatsachen bekannt werden. Klausurentscheidend sind der Tatsachenbegriff, der maßgebliche Kenntnisstand und die Rechtserheblichkeit."
+    ],
+    "lernziele": [
+      "Tatsache ist jeder Lebenssachverhalt, der Merkmal eines Steuertatbestands sein kann; rechtliche Schlussfolgerungen und Bewertungen gehören nicht dazu.",
+      "Maßgeblich ist das Wissen der für die Festsetzung zuständigen Dienststelle bei abschließender Zeichnung, wobei der gesamte Akteninhalt als bekannt gilt.",
+      "Wissen anderer Stellen, etwa eines Betriebsprüfers ohne Niederschlag im Bericht, wird der Veranlagungsstelle nicht zugerechnet.",
+      "Rechtserheblich ist eine neue Tatsache nur, wenn das Finanzamt bei rechtzeitiger Kenntnis nach damaliger Rechtslage anders festgesetzt hätte."
+    ],
+    "pruefschritte": [
+      "Jeden Lebenssachverhalt gesondert betrachten und nach Steuererhöhung (Nr. 1) oder Steuerminderung (Nr. 2) trennen; saldiert wird hier nicht.",
+      "Prüfen, ob eine Tatsache oder ein Beweismittel vorliegt und nicht bloß eine abweichende rechtliche Würdigung.",
+      "Den Kenntnisstand der zuständigen Veranlagungsstelle beim letzten Bescheid mit abschließender Sachprüfung ermitteln.",
+      "Rechtserheblichkeit prüfen: Hätte das Finanzamt bei Kenntnis nach der seinerzeitigen Rechtslage eine andere Steuer festgesetzt?"
+    ],
+    "fehler": [
+      "Eine nach Bestandskraft geänderte BFH-Rechtsprechung wird als neue Tatsache behandelt.",
+      "Ein nur nach § 175 Abs. 1 Satz 1 Nr. 1 AO ergangener Änderungsbescheid wird als neuer Stichtag für den Kenntnisstand angesehen."
+    ],
+    "merksatz": "Neu ist, was die zuständige Stelle bei der letzten vollen Sachprüfung nicht aus den Akten kannte, und es muss die Steuer tatsächlich verändern."
+  },
+  {
+    "quelle": "ao-jacobs-7-9",
+    "titel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+    "einordnung": [
+      "Eine Änderung zugunsten des Steuerpflichtigen nach § 173 Abs. 1 Nr. 2 AO scheitert häufig am groben Verschulden. Außerdem verhindert § 173 Abs. 2 AO nach einer Außenprüfung Änderungen wegen neuer Tatsachen."
+    ],
+    "lernziele": [
+      "Grobes Verschulden umfasst Vorsatz und grobe Fahrlässigkeit, also eine ungewöhnliche, nicht entschuldbare Verletzung der persönlich zumutbaren Sorgfalt; ein Verschulden des Beraters wird zugerechnet.",
+      "Einfache Versehen, Rechenfehler oder die Rechtsunkenntnis eines Laien sind regelmäßig nicht grob; das Übergehen klarer Hinweise im Erklärungsvordruck dagegen schon.",
+      "Nach § 173 Abs. 1 Nr. 2 Satz 2 AO ist das Verschulden unbeachtlich, wenn die mindernde Tatsache sachlich mit einer erhöhenden neuen Tatsache zusammenhängt.",
+      "Nach einer Außenprüfung sperrt § 173 Abs. 2 AO beide Alternativen des Absatzes 1, außer bei Steuerhinterziehung oder leichtfertiger Steuerverkürzung."
+    ],
+    "pruefschritte": [
+      "Für die steuermindernde Tatsache das Verschulden des Steuerpflichtigen und seines Beraters würdigen.",
+      "Bei grobem Verschulden prüfen, ob zugleich eine steuererhöhende neue Tatsache in unmittelbarem oder mittelbarem sachlichem Zusammenhang steht.",
+      "Feststellen, ob der Bescheid auf einer Außenprüfung beruht, und die Reichweite der Sperre anhand der Prüfungsanordnung bestimmen.",
+      "Greift die Sperre, andere Korrekturnormen wie §§ 129, 174, 175 AO oder § 164 Abs. 2 AO bei fortbestehendem Vorbehalt prüfen."
+    ],
+    "fehler": [
+      "Ein Zusammenhang wird schon deshalb bejaht, weil beide Tatsachen dieselbe Einkunftsart betreffen.",
+      "Die Sperre des § 173 Abs. 2 AO wird auf eine Änderung nach § 164 Abs. 2 AO erstreckt, obwohl der Vorbehalt nicht aufgehoben wurde."
+    ],
+    "merksatz": "Grobes Verschulden blockiert nur die Minderung und ist unbeachtlich, wenn eine erhöhende Tatsache sachlich untrennbar mit ihr verbunden ist."
+  },
+  {
+    "quelle": "ao-jacobs-7-17",
+    "titel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
+    "einordnung": [
+      "§ 175 Abs. 1 Satz 1 Nr. 1 AO verpflichtet das Finanzamt, Folgebescheide an erlassene, geänderte oder aufgehobene Grundlagenbescheide anzupassen. In Klausuren ist die Vorschrift eng mit der Ablaufhemmung des § 171 Abs. 10 AO verknüpft."
+    ],
+    "lernziele": [
+      "Grundlagenbescheide sind vor allem Feststellungs-, Steuermess- und Zerlegungsbescheide sowie bindende Entscheidungen anderer Behörden, etwa über den Grad einer Behinderung.",
+      "Die Anpassung ist zwingend und punktuell; sie umfasst alle Folgerungen aus dem Grundlagenbescheid, auch die Beseitigung früherer fehlerhafter Übernahmen.",
+      "Nach § 171 Abs. 10 Satz 1 AO endet die Festsetzungsfrist des Folgebescheids insoweit nicht vor Ablauf von zwei Jahren nach Bekanntgabe des Grundlagenbescheids.",
+      "Der Einkommensteuerbescheid ist kein Grundlagenbescheid für den Gewerbesteuermessbescheid; dort gilt die eigene Änderungsnorm des § 35b GewStG."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob ein Grundlagenbescheid im Sinne des § 171 Abs. 10 AO mit Bindungswirkung für den Folgebescheid vorliegt.",
+      "Feststellen, dass dieser erlassen, geändert oder aufgehoben wurde und die Übernahme bisher fehlt oder unvollständig ist.",
+      "Festsetzungsfrist des Folgebescheids unter Einbeziehung der Zweijahresfrist des § 171 Abs. 10 AO berechnen.",
+      "Folgebescheid im Umfang der Bindungswirkung ändern und weitere materielle Fehler nur über § 177 AO einbeziehen."
+    ],
+    "fehler": [
+      "Die Anpassung des Gewerbesteuermessbescheids an einen geänderten Einkommensteuerbescheid wird auf § 175 Abs. 1 Satz 1 Nr. 1 AO statt auf § 35b GewStG gestützt.",
+      "Die Zweijahresfrist wird ab Aufgabe des Grundlagenbescheids zur Post statt ab dessen Bekanntgabe gerechnet."
+    ],
+    "merksatz": "Der Grundlagenbescheid gibt vor, der Folgebescheid folgt: vollständig, zwingend und mindestens zwei Jahre ab Bekanntgabe möglich."
+  },
+  {
+    "quelle": "ao-jacobs-7-5",
+    "titel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
+    "einordnung": [
+      "Innerhalb der Einspruchsfrist kann ein endgültiger Bescheid per Einspruch oder per formlosem Antrag nach § 172 Abs. 1 Satz 1 Nr. 2a AO angegriffen werden. Die Wahl wirkt sich erheblich auf Form, Umfang und Rechtsschutz aus."
+    ],
+    "lernziele": [
+      "Der schlichte Änderungsantrag ist formfrei, verhindert die Bestandskraft aber nur, soweit er bis zum Ende der Einspruchsfrist inhaltlich konkretisiert wurde.",
+      "Ein Einspruch kann bis zur Entscheidung erweitert werden und erlaubt die Aussetzung der Vollziehung, eröffnet dem Finanzamt aber die Gesamtüberprüfung mit Verböserungsrisiko.",
+      "Unklare Eingaben sind im Zweifel als Einspruch zu verstehen; ein vom Berater ausdrücklich als schlichter Antrag bezeichnetes Schreiben wird nicht umgedeutet.",
+      "Zulasten des Steuerpflichtigen erlaubt Nr. 2a eine Änderung nur mit dessen Zustimmung."
+    ],
+    "pruefschritte": [
+      "Feststellen, dass ein endgültiger Bescheid vorliegt und der Antrag innerhalb der Einspruchsfrist gestellt wurde.",
+      "Die Eingabe auslegen: Einspruch, schlichter Antrag oder im Zweifel Einspruch nach § 357 Abs. 1 Satz 3 AO.",
+      "Beim schlichten Antrag prüfen, ob das Begehren seinem sachlichen Gehalt nach schon innerhalb der Frist erkennbar war.",
+      "Änderung auf den fristgerecht bestimmten Umfang begrenzen und spätere Erweiterungen über andere Korrekturnormen prüfen."
+    ],
+    "fehler": [
+      "Ein fristgerecht gestellter, aber erst nach Fristablauf inhaltlich begründeter allgemeiner Antrag wird als wirksam behandelt.",
+      "Beim schlichten Antrag wird Aussetzung der Vollziehung gewährt, obwohl allenfalls eine Stundung in Betracht kommt."
+    ],
+    "merksatz": "Der schlichte Antrag ist bequem, aber starr: Was bis Fristende nicht konkret beantragt ist, wird bestandskräftig."
+  },
+  {
+    "quelle": "ao-jacobs-6-10",
+    "titel": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
+    "einordnung": [
+      "Beginnt eine Außenprüfung vor Ablauf der Festsetzungsfrist, läuft die Frist für die angeordneten Steuern nach § 171 Abs. 4 AO nicht ab. Die folgenden Regeln betreffen die Fassung für Steuern, die bis Ende 2024 entstanden sind; für spätere Steuern wurde die Vorschrift neu gefasst."
+    ],
+    "lernziele": [
+      "Erforderlich sind eine wirksame Prüfungsanordnung und ernsthafte Prüfungshandlungen vor Fristablauf; Aktenstudium im Amt oder die bloße Übergabe der Anordnung genügen nicht.",
+      "Einem Beginn steht ein vor Fristablauf gestellter Antrag des Steuerpflichtigen auf Verschiebung gleich; auch ein Aussetzungsantrag gegen die Prüfungsanordnung kann so wirken.",
+      "Ruht die Prüfung gleich nach ihrem Start aus Gründen, die das Finanzamt zu vertreten hat, länger als ein halbes Jahr, entfällt die Hemmung nach § 171 Abs. 4 Satz 2 AO.",
+      "Spätestens enden die Fristen nach § 171 Abs. 4 Satz 3 AO, gerechnet ab Ablauf des Jahres der Schlussbesprechung oder der letzten Ermittlungshandlung."
+    ],
+    "pruefschritte": [
+      "Reguläre Festsetzungsfrist berechnen und mit dem tatsächlichen Beginn der Prüfungshandlungen vergleichen.",
+      "Reichweite der Hemmung danach bestimmen, welche Steuern und Jahre die Anordnung erfasst.",
+      "Prüfen, ob die Prüfung gleich nach Beginn über ein halbes Jahr ruhte, ohne dass der Steuerpflichtige dies beantragt hatte.",
+      "Ende der Hemmung ermitteln: Unanfechtbarkeit der Auswertungsbescheide oder drei Monate nach Mitteilung ohne Änderungen, höchstens bis zur Grenze des Satzes 3."
+    ],
+    "fehler": [
+      "Schon die Bekanntgabe der Prüfungsanordnung wird als Prüfungsbeginn gewertet.",
+      "Bei der Prüfung einer Personengesellschaft wird angenommen, die Festsetzungsfrist der Folgebescheide ihrer Gesellschafter sei nach § 171 Abs. 4 AO gehemmt."
+    ],
+    "merksatz": "Nur wer vor Fristablauf wirklich zu prüfen beginnt, hält die Verjährung an; die Schlussbesprechung setzt die äußerste Grenze."
+  },
+  {
+    "quelle": "ao-jacobs-6-9",
+    "titel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
+    "einordnung": [
+      "§ 171 Abs. 3 und Abs. 3a AO halten die Festsetzungsfrist offen, solange über einen Antrag oder Rechtsbehelf nicht unanfechtbar entschieden ist. Der Umfang der Hemmung unterscheidet sich jedoch grundlegend."
+    ],
+    "lernziele": [
+      "Ein vor Fristablauf gestellter Korrekturantrag außerhalb eines Rechtsbehelfs hemmt die Frist nach § 171 Abs. 3 AO nur in Höhe des beantragten Betrags.",
+      "Ein zulässiger Einspruch oder eine zulässige Klage hemmt nach § 171 Abs. 3a AO den gesamten Steueranspruch; der Antrag kann daher auch nach Fristablauf erweitert werden.",
+      "Wegen § 171 Abs. 3a AO kann das Finanzamt noch verbösern, muss aber zuvor Gelegenheit zur Rücknahme des Einspruchs nach § 362 AO geben.",
+      "Die erstmalige Abgabe einer Pflichterklärung ist kein Antrag im Sinne des § 171 Abs. 3 AO, eine fristgerechte Antragsveranlagung dagegen schon."
+    ],
+    "pruefschritte": [
+      "Reguläre Festsetzungsfrist nach §§ 169, 170 AO berechnen.",
+      "Einordnen, ob ein formloser Korrekturantrag oder ein förmlicher Rechtsbehelf vorliegt.",
+      "Beim Antrag prüfen, ob er vor Fristablauf gestellt wurde und sein Begehren inhaltlich bestimmt erkennen lässt; die Hemmung auf diesen Umfang begrenzen.",
+      "Beim Rechtsbehelf die Zulässigkeit feststellen, da nur ein zulässiger Einspruch die Hemmung nach Abs. 3a auslöst.",
+      "Ende der Hemmung mit Unanfechtbarkeit der Entscheidung bestimmen; auch die Ablehnung eines Antrags ist ihrerseits anfechtbar."
+    ],
+    "fehler": [
+      "Eine nach Fristablauf nachgeschobene Erweiterung eines formlosen Antrags wird als noch gehemmt behandelt.",
+      "Ein unzulässiger Einspruch wird als ausreichend für die Hemmung nach § 171 Abs. 3a AO angesehen."
+    ],
+    "merksatz": "Ein Antrag hemmt, soweit er reicht; ein zulässiger Einspruch hemmt alles und öffnet damit auch die Tür zur Verböserung."
+  },
+  {
+    "quelle": "ao-jacobs-8-5",
+    "titel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
+    "einordnung": [
+      "Ob ein Einspruch rechtzeitig bei der richtigen Behörde eingegangen ist, wird in fast jeder AO-Klausur gefragt. Fehler bei Bekanntgabe, Fristbeginn oder Wochenendregel kosten schnell die gesamte Lösung."
+    ],
+    "lernziele": [
+      "Der Einspruch ist binnen eines Monats nach Bekanntgabe einzulegen; fehlt die Rechtsbehelfsbelehrung oder ist sie unrichtig, gilt nach § 356 Abs. 2 AO grundsätzlich eine Jahresfrist.",
+      "Für ab 2025 per Post versandte Bescheide gilt der vierte Tag nach Aufgabe als Bekanntgabetag; fällt er auf ein Wochenende oder einen Feiertag, verschiebt § 108 Abs. 3 AO ihn auf den nächsten Werktag.",
+      "Bei förmlicher Zustellung gilt die Fiktion nicht; maßgeblich ist dann das Zustellungsdatum.",
+      "Gegen Grundlagenbescheide kann der Einspruch nach § 357 Abs. 2 Satz 2 AO auch bei der Behörde angebracht werden, die den Folgebescheid erlässt."
+    ],
+    "pruefschritte": [
+      "Bekanntgabetag bestimmen: Fiktion nach § 122 Abs. 2 AO, späterer tatsächlicher Zugang oder Zustellung nach dem VwZG.",
+      "Fristbeginn über § 108 Abs. 1 AO mit § 187 Abs. 1 BGB festlegen; der Bekanntgabetag selbst zählt nicht mit.",
+      "Fristende nach § 188 Abs. 2 und 3 BGB ermitteln und auf Samstag, Sonntag oder Feiertag nach § 108 Abs. 3 AO prüfen.",
+      "Eingang bei einer zulässigen Anbringungsbehörde feststellen; bei anderen Stellen zählt erst der Eingang nach Weiterleitung.",
+      "Bei Fristversäumnis Wiedereinsetzung nach § 110 AO und Änderungsmöglichkeiten nach den Korrekturvorschriften prüfen."
+    ],
+    "fehler": [
+      "Ein früherer tatsächlicher Zugang wird als Fristbeginn genommen, obwohl die Bekanntgabefiktion gilt.",
+      "Die Werktagsregel wird nur beim Fristende, nicht aber beim fiktiven Bekanntgabetag angewendet."
+    ],
+    "merksatz": "Erst Bekanntgabetag, dann Monatsfrist, jeweils mit Blick auf Wochenenden und Feiertage – die Werktagsregel gilt an beiden Stellen."
+  },
+  {
+    "quelle": "ao-jacobs-8-6",
+    "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
+    "einordnung": [
+      "Ist der Einspruch verspätet, bleibt nur die Wiedereinsetzung; andernfalls wird er als unzulässig verworfen. Die Klausur verlangt eine genaue Prüfung von Verschulden und Antragsfrist."
+    ],
+    "lernziele": [
+      "Schon leichte Fahrlässigkeit schließt die Wiedereinsetzung aus; das Verschulden eines Vertreters wird nach § 110 Abs. 1 Satz 2 AO zugerechnet.",
+      "Fehler sonst zuverlässiger Büroangestellter sind dem Berater nicht anzulasten, wenn er eine ordnungsgemäße Fristenkontrolle organisiert hat.",
+      "Antrag, Darlegung der Gründe und Nachholung des Einspruchs sind innerhalb eines Monats zu erledigen, nachdem das Hindernis entfallen ist; die Glaubhaftmachung darf folgen.",
+      "Nach einem Jahr seit Ende der versäumten Frist ist die Wiedereinsetzung nach § 110 Abs. 3 AO grundsätzlich ausgeschlossen."
+    ],
+    "pruefschritte": [
+      "Zunächst sicher feststellen, dass die Einspruchsfrist tatsächlich versäumt ist; sonst stellt sich die Frage nicht.",
+      "Den Hinderungsgrund würdigen, etwa unerwartet lange Postlaufzeit, kurzen Urlaub oder plötzliche schwere Krankheit, im Gegensatz zu Arbeitsüberlastung.",
+      "Verschulden des Steuerpflichtigen und seines Vertreters einschließlich etwaiger Organisationsmängel im Büro prüfen.",
+      "Kontrollieren, ob Antrag, Begründung und Einspruch innerhalb eines Monats seit Ende des Hindernisses eingingen.",
+      "Scheitert die Wiedereinsetzung, eine Änderung nach Korrekturvorschriften wie § 173 Abs. 1 Nr. 2 AO erwägen."
+    ],
+    "fehler": [
+      "Arbeitsüberlastung wird als Entschuldigungsgrund anerkannt.",
+      "Gründe, die erstmals nach Ablauf der Monatsfrist vorgetragen werden, werden trotzdem berücksichtigt."
+    ],
+    "merksatz": "Wiedereinsetzung verlangt fehlendes Verschulden und eine Begründung spätestens einen Monat, nachdem das Hindernis weggefallen ist."
+  },
+  {
+    "quelle": "ao-jacobs-3-11",
+    "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+    "einordnung": [
+      "Der Zeitpunkt der Bekanntgabe bestimmt Wirksamkeit und Fristbeginn eines Bescheids. Seit 2025 gilt bei Postversand eine Viertagesfiktion, die in Klausuren sauber angewendet werden muss."
+    ],
+    "lernziele": [
+      "Ab dem 1. Januar 2025 zur Post gegebene, elektronisch übermittelte oder zum Abruf bereitgestellte Verwaltungsakte gelten am vierten Tag als bekannt gegeben, bei Postversand ins Ausland nach einem Monat.",
+      "Ein früherer tatsächlicher Zugang zieht die Wirksamkeit nicht vor; die Fiktion wirkt zugunsten wie zulasten des Adressaten.",
+      "Geht der Bescheid später oder gar nicht zu, gilt die Fiktion nicht; im Zweifel muss das Finanzamt Zugang und Zeitpunkt nachweisen.",
+      "Ein Einspruch, der nach Erhalt, aber vor Ablauf der Fiktion eingelegt wird, ist wegen des bereits gesetzten Rechtsscheins zulässig."
+    ],
+    "pruefschritte": [
+      "Übermittlungsweg klären: einfacher Brief, elektronische Übermittlung, Datenabruf oder förmliche Zustellung.",
+      "Vierten Tag nach Aufgabe zur Post berechnen und bei Wochenende oder Feiertag auf den nächsten Werktag verschieben.",
+      "Prüfen, ob ein späterer Zugang substantiiert vorgetragen oder der Zugang bestritten wird, und die Beweislast zuordnen.",
+      "Wirksamkeit nach § 124 Abs. 1 AO und Beginn der Einspruchsfrist aus dem ermittelten Bekanntgabetag ableiten."
+    ],
+    "fehler": [
+      "Für einen Bescheid, der 2025 oder später zur Post gegeben wurde, wird noch mit der alten Dreitagesfrist gerechnet.",
+      "Ein vor Ablauf der Fiktion eingelegter Einspruch wird als verfrüht und unzulässig verworfen."
+    ],
+    "merksatz": "Postaufgabe plus vier Tage, dann Werktagsregel: Früherer Zugang ändert nichts, späterer Zugang verschiebt die Bekanntgabe."
+  },
+  {
+    "quelle": "ao-jacobs-8-14",
+    "titel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
+    "einordnung": [
+      "Richtet sich der Einspruch gegen einen Bescheid, der einen bestandskräftigen Bescheid ändert, begrenzt § 351 Abs. 1 AO den Anfechtungsumfang. Außerdem muss das Finanzamt vor einer Verböserung rechtliches Gehör gewähren."
+    ],
+    "lernziele": [
+      "Beim Einspruch gegen einen Erstbescheid prüft das Finanzamt nach § 367 Abs. 2 AO den gesamten Fall und darf nach vorherigem Hinweis auch zum Nachteil ändern.",
+      "Nach dem Hinweis kann der Einspruch nach § 362 AO schriftlich zurückgenommen werden, und zwar bis die Einspruchsentscheidung wirksam geworden ist.",
+      "Gegen einen Änderungsbescheid sind alle Einwendungen möglich, jedoch nur bis zur Höhe der Änderung; darüber hinaus nur, wenn eine Korrekturvorschrift selbständig eine Änderung trägt.",
+      "Die Berechnung folgt denselben Grundsätzen wie die Fehlersaldierung nach § 177 AO."
+    ],
+    "pruefschritte": [
+      "Klären, ob der angefochtene Bescheid einen noch anfechtbaren oder einen bereits bestandskräftigen Bescheid ändert.",
+      "Die vom Finanzamt vorgenommene Änderung auf Rechtmäßigkeit prüfen, insbesondere Korrekturnorm und Festsetzungsfrist.",
+      "Jeden vorgetragenen Fehler daraufhin untersuchen, ob er für sich eine Korrekturvorschrift erfüllt und noch nicht verjährt ist.",
+      "Die übrigen Fehler nur im Rahmen der Änderung ansetzen und das Ergebnis per Einspruchsentscheidung oder Abhilfe festsetzen."
+    ],
+    "fehler": [
+      "Ein bloßer Rechtsfehler wird über den Betrag der Änderung hinaus zugunsten des Einspruchsführers berücksichtigt.",
+      "Eine Verböserung erfolgt ohne vorherigen Hinweis und ohne Gelegenheit zur Rücknahme, obwohl kein Vorbehalt der Nachprüfung besteht."
+    ],
+    "merksatz": "Beim Einspruch gegen einen Änderungsbescheid bildet die Änderung den Rahmen, erweitert nur durch Fehler, die für sich allein korrigierbar wären."
+  },
+  {
+    "quelle": "ao-jacobs-13-5",
+    "titel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
+    "einordnung": [
+      "Der Geschäftsführer einer GmbH haftet für Steuerausfälle nur bei vorsätzlicher oder grob fahrlässiger Pflichtverletzung. In der Haftungsklausur ist das Verschulden oft der entscheidende Prüfungspunkt."
+    ],
+    "lernziele": [
+      "Nach § 69 Satz 1 AO genügt leichte Fahrlässigkeit nicht; erforderlich sind Vorsatz oder grobe Fahrlässigkeit gerade des in Anspruch genommenen Vertreters.",
+      "Wer fällige Steuern bewusst nicht zahlt, um den Betrieb oder Arbeitsplätze zu erhalten, handelt schuldhaft; auch mangelnde Überwachung beauftragter Personen begründet Verschulden.",
+      "Ein nur formal bestellter Geschäftsführer ohne Einblick in die Gesellschaft kann sich nicht entlasten; er muss notfalls sein Amt niederlegen.",
+      "Gehaftet wird für Steuern, die während der tatsächlichen Amtszeit festzusetzen und zu zahlen gewesen wären; die Eintragung im Handelsregister wirkt nur deklaratorisch."
+    ],
+    "pruefschritte": [
+      "Haftenden Personenkreis nach §§ 34, 35 AO bestimmen, etwa den gesetzlichen Vertreter einer GmbH.",
+      "Pflichtverletzung feststellen, etwa verspätete Anmeldung oder Nichtzahlung fälliger Steuern trotz vorhandener Mittel.",
+      "Ursächlichkeit der Pflichtverletzung für den Steuerausfall prüfen.",
+      "Verschulden in Form von Vorsatz oder grober Fahrlässigkeit anhand der Umstände des Einzelfalls begründen.",
+      "Haftungsumfang einschließlich Säumniszuschlägen nach § 69 Satz 2 AO auf die tatsächliche Amtszeit begrenzen."
+    ],
+    "fehler": [
+      "Die Haftung wird bereits bei leichter Fahrlässigkeit bejaht.",
+      "Der Haftungszeitraum wird nach der Eintragung im Handelsregister statt nach der tatsächlichen Amtszeit bestimmt."
+    ],
+    "merksatz": "§ 69 AO greift erst ab grober Fahrlässigkeit, dann aber persönlich und mit dem gesamten Vermögen des Geschäftsführers."
+  },
+  {
+    "quelle": "ao-jacobs-12-1",
+    "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+    "einordnung": [
+      "Die Außenprüfung ist eine umfassende Ermittlungsmaßnahme mit eigenen Regeln in §§ 193 ff. AO. Klausuren fragen, ob sie überhaupt zulässig war und wie sie sich von anderen Ermittlungen abgrenzt."
+    ],
+    "lernziele": [
+      "Nach § 193 Abs. 1 AO ist eine Außenprüfung ohne weitere Voraussetzungen bei Gewerbetreibenden, Land- und Forstwirten, Freiberuflern und Steuerpflichtigen im Sinne des § 147a AO zulässig.",
+      "Bei anderen Steuerpflichtigen erlaubt § 193 Abs. 2 AO eine Prüfung nur eingeschränkt, etwa bei Entrichtungspflichtigen für Abzugsteuern oder wenn Aufklärung an Amtsstelle nicht zweckmäßig ist.",
+      "Betriebsnahe Veranlagung und Nachschauen sind keine Außenprüfung und lösen daher keine Ablaufhemmung nach § 171 Abs. 4 AO aus.",
+      "Die Prüfungsanordnung ist ein Verwaltungsakt und mit dem Einspruch angreifbar; im Fall des § 193 Abs. 2 Nr. 2 AO wird dabei die Ermessensausübung kontrolliert."
+    ],
+    "pruefschritte": [
+      "Einordnen, ob eine förmliche Außenprüfung oder eine andere Ermittlungsmaßnahme wie Nachschau oder Steuerfahndung vorliegt.",
+      "Prüfen, ob der Steuerpflichtige unter § 193 Abs. 1 AO fällt; Gewinnhöhe oder Buchführungspflicht spielen dafür keine Rolle.",
+      "Andernfalls die Voraussetzungen des § 193 Abs. 2 AO prüfen, insbesondere ob Ermittlungen an Amtsstelle ausreichen würden.",
+      "Ermessen nach § 5 AO und Verhältnismäßigkeit würdigen, vor allem wenn der Steuerpflichtige seine Mitwirkungspflichten vollständig erfüllt hat."
+    ],
+    "fehler": [
+      "Eine Umsatzsteuer-Nachschau wird wie eine Außenprüfung behandelt und eine Ablaufhemmung angenommen.",
+      "Bei reinen Vermietungseinkünften wird eine Prüfung für zulässig gehalten, obwohl alle Belege vorliegen und Ermittlungen an Amtsstelle genügen."
+    ],
+    "merksatz": "Betriebe dürfen stets geprüft werden, Privatpersonen nur ausnahmsweise, wenn die Klärung vom Amt aus nicht ausreicht."
+  }
+]

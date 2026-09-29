@@ -41,6 +41,7 @@ import ust6 from "../../src/data/module-vertiefung-s.js";
 import ust7 from "../../src/data/module-vertiefung-t.js";
 import ust8 from "../../src/data/module-vertiefung-u.js";
 import { prioritaetFuer } from "../../src/data/examensprioritaet.js";
+import { aufbereiteteThemen, KURS_TITEL } from "./skripte.mjs";
 
 export const FAECHER = {
   /* Kein Prüfungsfach, sondern alles rund um Kopf und Vorbereitung: Mindset,
@@ -51,19 +52,18 @@ export const FAECHER = {
   erbst:  { label: "Erbschaftsteuer / Bewertung", kurz: "ErbSt", klausur: 1 },
   kst:    { label: "Körperschaftsteuer",        kurz: "KSt",    klausur: 2 },
   istr:   { label: "Internationales Steuerrecht", kurz: "IStR", klausur: 2 },
+  est:    { label: "Einkommensteuer",           kurz: "ESt",    klausur: 2 },
+  gewst:  { label: "Gewerbesteuer",             kurz: "GewSt",  klausur: 2 },
   bilanz: { label: "Bilanzsteuerrecht",         kurz: "Bilanz", klausur: 3 },
   persg:  { label: "Personengesellschaften",    kurz: "PersG",  klausur: 3 },
+  umwst:  { label: "Umwandlungssteuerrecht",    kurz: "UmwSt",  klausur: 3 },
 };
 
-/* ESt/GewSt werden bereits als Fach-IDs in manuell finalisierten und
-   importierten Social-Inhalten verwendet, haben im automatischen Themenpool
-   aber noch keinen eigenen Campus. Deshalb NICHT in FAECHER aufnehmen:
-   FAECHER steuert zugleich die Pool-Ausbalancierung im Planer. Für sichtbare
-   Einordnung und Rendering reicht diese ergänzende Metadatenebene. */
-const FACH_ZUSATZ = Object.freeze({
-  est:   { label: "Einkommensteuer", kurz: "ESt", klausur: 2 },
-  gewst: { label: "Gewerbesteuer",   kurz: "GewSt", klausur: 2 },
-});
+/* ESt und GewSt standen hier bis zum 28.09. nur als Metadaten, weil es
+   keinen eigenen Stoff im Pool gab. Seit den aufbereiteten Kurzskripten
+   (social/aufbereitung) sind sie reguläre K2-Fächer, UmwSt ein K3-Fach, und
+   laufen in der Fachrotation mit. */
+const FACH_ZUSATZ = Object.freeze({});
 
 export function fachInfo(fach) {
   return FAECHER[fach] || FACH_ZUSATZ[fach] || null;
@@ -279,6 +279,11 @@ function faecherAusUst(m) {
   return istModul(m) ? m : null;
 }
 
+/* Titel, die nach Kursorganisation statt nach Fachstoff klingen, kommen
+   nicht in den Pool (KURS_TITEL steht in skripte.mjs, damit auch
+   aufbereitungBefunde sie schon beim Schreiben meldet). */
+export { KURS_TITEL };
+
 export function themenpool() {
   const pool = [];
 
@@ -309,6 +314,10 @@ export function themenpool() {
   k1Karteikarten.forEach((k, i) => pool.push(karteThema("ust", k, i, "ust")));
   k1Quizfragen.forEach((q, i) => { const t = quizThema("ust", q, i, "ust"); if (t) pool.push(t); });
 
+  /* Aufbereitete Skript-Abschnitte (eigene Worte, siehe skripte.mjs und
+     QUELLENREGELN.md). Der Originaltext der Unterlagen kommt nie in den Pool. */
+  pool.push(...aufbereiteteThemen((fach) => FAECHER[fach]?.klausur));
+
   /* Korrekturen ausschließlich für Social anwenden; src/data bleibt unverändert. */
   socialKorrekturenAnwenden(pool);
 
@@ -317,7 +326,7 @@ export function themenpool() {
   for (const t of pool) neutralisiereDozentenstruktur(t);
   /* Themen ohne Substanz aussortieren (z. B. reine Arbeitsmittel-Einführungen). */
   return pool.filter((t) => {
-    if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !/Arbeitsmittel|Kurslogik|Lernlogik|Einführung|Überblick|Recap|Einheit\s*\d|Seitenplan|Fahrtroute|Handbuch|Reiter|Markierung|Lineal|Farbcode|Navigation|Beck-Text|Gesetzessammlung/i.test(t.titel) && t.titel.length > 8;
+    if (t.typ === "modul") return (t.kern.pruefschritte.length + t.kern.lernziele.length) >= 3 && !KURS_TITEL.test(t.titel) && t.titel.length > 8;
     return true;
   });
 }

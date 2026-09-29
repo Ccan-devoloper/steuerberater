@@ -16,6 +16,7 @@ import { istKostenKontrollFehler } from "./kostenfehler.mjs";
 import { FAECHER, KLAUSUREN, fachInfo } from "./inhalte.mjs";
 import { ICONS } from "./stile.mjs";
 import { folieLeer, pruefeBeitrag, korpus, gefundeneEigenbegriffe, normenOhneGesetz, quizBefunde, fachpruefungAbschliessen } from "./pruefung.mjs";
+import { QUELLENREGELN } from "./quellenregeln.mjs";
 import { createHash } from "node:crypto";
 import { datumLesbar, tageBis, heuteIso } from "./zeit.mjs";
 import { erfassen, budgetFrei, BudgetFehler } from "./kosten.mjs";
@@ -144,6 +145,8 @@ const SYSTEM = `Du bist Redakteur:in ${KANAL} für Menschen, die sich auf das de
 - Fälle, Beispiele, Namen und Zahlen erfindest du selbst – und jedes Mal neu: andere Branche, anderer Ort, anderer Name als in früheren Texten. Nie ein Name, der im Ausgangsmaterial vorkommt, nie ein Name aus der Sperrliste, und nie zweimal derselbe Firmen- oder Personenname in verschiedenen Beiträgen.
 - Keine Bezüge auf Kurse, Skripte, Seiten, Folien, Fallnummern, Dozenten oder Lernplattformen.
 - Das Kursmaterial im Themen-Skelett ist fachlich maßgeblich. Wo es eine Systematik vorgibt – eine Stufenfolge, eine Reihenfolge der Prüfung, eine Einteilung in Ebenen –, folgst du ihr, auch wenn du eine andere Darstellung kennst. Lehrbücher schneiden denselben Stoff oft unterschiedlich; beide Schnitte können vertretbar sein, und der Kanal spricht mit einer Stimme. Zwei Grenzen: Der Wortlaut ist immer deiner. Und wenn eine Aussage des Materials fachlich nicht vertretbar ist – sie widerspricht dem Gesetz, der gefestigten Rechtsprechung oder rechnet nachweisbar falsch –, übernimmst du sie nicht, sondern schreibst das Richtige.
+- Verbindliche Quellenregeln (social/QUELLENREGELN.md; jeder Verstoß wird automatisch zurückgewiesen):
+${QUELLENREGELN.map((r) => `  - ${r}`).join("\n")}
 - Unterscheide Inhalt von Verpackung: Der Prüfungsstoff (Normen, Definitionen, Prüfungsreihenfolgen, Rechtsfolgen) ist frei. Merkhilfen, Eselsbrücken, Kürzel und selbst benannte Methoden anderer Dozenten („EIS-Methode“, „ABBA-Schema“ und alles nach diesem Muster) sind deren Eigenschöpfung – die übernimmst du nie, auch nicht umschrieben oder umbenannt. Erkläre stattdessen den Inhalt in eigener Struktur, ohne Kürzel.
 
 ## Marke und Aufforderung (CTA)
@@ -696,8 +699,8 @@ const QUELLEN_STEUERN = `- BFH, Pressemeldungen als Feed (kurz, datiert - damit 
 export async function aktuellRecherchieren(datum, bereitsBehandelt = [], klausur = null) {
   const ziel = {
     1: { label: "Klausur 1", faecher: "ao, ust oder erbst" },
-    2: { label: "Klausur 2", faecher: "kst oder istr" },
-    3: { label: "Klausur 3", faecher: "bilanz oder persg" },
+    2: { label: "Klausur 2", faecher: "kst, istr, est oder gewst" },
+    3: { label: "Klausur 3", faecher: "bilanz, persg oder umwst" },
   }[Number(klausur)] || null;
   const zielRegel = ziel
     ? `\nHEUTIGER FARBSLOT: ${ziel.label}. Nimm ausschließlich ein Thema mit Fach ${ziel.faecher}. Wenn du dafür nichts Belastbares findest, antworte KEINE_NEUIGKEIT; weiche nicht auf eine andere Klausur aus.\n`
@@ -713,8 +716,11 @@ Der Prüfungsbezug entscheidet, nicht die Neuigkeit an sich. Verwertbar ist nur,
 - erbst – Erbschaft- und Schenkungsteuer, Bewertung
 - kst – Körperschaftsteuer
 - istr – Internationales Steuerrecht, DBA, AStG
+- est – Einkommensteuer
+- gewst – Gewerbesteuer
 - bilanz – Bilanzsteuerrecht, Gewinnermittlung, HGB-Bezüge
-- persg – Personengesellschaften, Mitunternehmerschaft, Umwandlung
+- persg – Personengesellschaften, Mitunternehmerschaft
+- umwst – Umwandlungssteuerrecht
 
 Prüfe jede Kandidatin an drei Fragen, bevor du sie nimmst:
 1. Fällt sie in eines dieser Gebiete? Wenn nein: verwerfen.
@@ -734,7 +740,7 @@ Bereits behandelt (nicht erneut): ${bereitsBehandelt.join("; ") || "–"}.
 Antworte mit:
 1. Titel: kurzer Titel
 2. Datum und Aktenzeichen/Dokument
-3. Fach: eines von ao, ust, erbst, kst, istr, bilanz, persg
+3. Fach: eines von ao, ust, erbst, kst, istr, est, gewst, bilanz, persg, umwst
 4. Prüfungsbezug: in EINEM Satz, wo das im Examen vorkommt
 5. Notizen: Was ist passiert, was ist der Kern, was heißt das fürs Examen (max. 200 Wörter, eigene Worte)
 6. Quellen: 2–3 URLs
@@ -844,7 +850,7 @@ async function webRecherche(frage, zweck = "recherche") {
   console.log(`  Recherche: ${auftrag.stand().anfragen} Anfrage(n), ${auftrag.stand().suchenVerbraucht} von ${auftrag.stand().maxSuchen} Suchen.`);
 
   const text = textAus(response);
-  const fachTreffer = text.match(/Fach\s*[:：]\s*(ao|ust|erbst|kst|istr|bilanz|persg)/i);
+  const fachTreffer = text.match(/Fach\s*[:：]\s*(ao|ust|erbst|kst|istr|est|gewst|bilanz|persg|umwst)\b/i);
   const quellen = [...new Set((text.match(/https?:\/\/[^\s)>\]]+/g) || []))].slice(0, 4);
   /* Eine Recherche ohne Quellen ist kein Ergebnis, sondern ein bezahlter
      Fehlschlag. Sie muss im Log auffallen, sonst sucht man die Ursache beim

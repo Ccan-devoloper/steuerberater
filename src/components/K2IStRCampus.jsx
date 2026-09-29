@@ -11,6 +11,9 @@ import IstrEinheit3Pruefungsschema, { istrEinheit3Schemata } from "./IstrEinheit
 import IstrEinheit4Pruefungsschema, { istrEinheit4Schemata } from "./IstrEinheit4Pruefungsschema";
 import IstrFallsammlung from "./IstrFallsammlung";
 import IstrHausaufgaben from "./IstrHausaufgaben";
+import KurzskriptBloecke from "./KurzskriptBloecke";
+import { istrNoethen, istrNoethenQuelle } from "../data/k2-istr-noethen.js";
+import { istrSkriptGh, istrSkriptGhQuelle } from "../data/k2-istr-skript-gh.js";
 import SchemaPostitEnhancer from "./SchemaPostitEnhancer";
 import {
   istrBereiche, istrBereichName, istrModule, istrFaelle, istrTraining, istrQuellen,
@@ -32,6 +35,8 @@ const ansichten = [
   { id: "fallsammlung", label: "Fallsammlung", Icon: IconPlan },
   { id: "hausaufgaben", label: "Hausaufgaben", Icon: IconHausaufgabe },
   { id: "schema", label: "Prüfungsschemata", Icon: IconSchema },
+  { id: "noethen", label: "Schemata und Fälle (Nöthen)", Icon: IconSchema },
+  { id: "skript-gh", label: "Skript (Grümmer/Holzrichter)", Icon: IconRegister },
   { id: "training", label: "Training", Icon: IconTraining },
   { id: "quellen", label: "Quellenstand", Icon: IconRegister },
 ];
@@ -115,6 +120,32 @@ export default function K2IStRCampus({ onKlausurwechsel, onFachwechsel }) {
         {verlauf.ansicht === "faelle" && <IstrFallseite aktiv={fallId} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} />}
         {verlauf.ansicht === "fallsammlung" && <IstrFallsammlung onModulOeffnen={modulOeffnen} />}
         {verlauf.ansicht === "hausaufgaben" && <IstrHausaufgaben onModulOeffnen={modulOeffnen} />}
+        {verlauf.ansicht === "noethen" && <KurzskriptBloecke
+          kicker="Klausur 2 · Internationales Steuerrecht · Schemata und Fälle"
+          titel="Schemata und Übungsfälle (Nöthen)"
+          lead="Die Blätter von Markus Nöthen aus dem IStR-Ordner im Wortlaut: das zweiteilige Prüfungsschema – die Landkarte in vier Stationen von § 1 Abs. 1 S. 1 EStG über § 1 Abs. 3 EStG und den Wegzug bis § 1 Abs. 4 EStG, dazu der vierstufige DBA-Aufbau mit Anwendbarkeit, Ansässigkeit, Verteilung und Vermeidung – sowie vier Fälle, die genau die vier Klausurkonstellationen abdecken: unbeschränkte Steuerpflicht mit DBA, beschränkte Steuerpflicht mit DBA, Wegzug ohne DBA und beschränkte Körperschaftsteuerpflicht. **Die Quellen enthalten keine Lösungen** – die Fälle enden mit der Aufgabenstellung. Es wird hier keine erfunden; jedes Kapitel verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig durchgeprüft ist."
+          quelle={istrNoethenQuelle}
+          kapitel={istrNoethen}
+          karteKicker={(k) => k.gruppe}
+          gruppeVon={(k) => k.gruppe}
+          gruppeLabel={(k) => k.gruppe}
+          gruppeAria="Gruppen"
+          gruppeAlle="Alle Gruppen"
+          suchePlatzhalter="Norm, Fall oder Stichwort"
+        />}
+        {verlauf.ansicht === "skript-gh" && <KurzskriptBloecke
+          kicker="Klausur 2 · Internationales Steuerrecht · Lehrgangsskript"
+          titel="Internationales Steuerrecht (Grümmer/Holzrichter)"
+          lead="Das Lehrgangsskript von Dieter Grümmer und Daniela Holzrichter (März 2026, Rechtsstand 2025) im Wortlaut, die Schaubilder als Tabellen. Eingepflegt sind Kapitel 1 bis 6: Einleitung und Definition; Arten der Steuerpflicht (unbeschränkte Steuerpflicht, §§ 1 Abs. 3, 1a EStG, beschränkte Steuerpflicht mit § 49 EStG, Veranlagung nach § 50 EStG, Steuerabzug nach § 50a EStG); Doppelbesteuerung (Rechtsnatur der DBA, OECD-MA Art. 1 bis 32 mit Betriebstätte, Entstrickung, Dividenden, Arbeitslohn, Freistellung mit Progressionsvorbehalt, Anrechnung, fünf Übungsfälle, Steueranrechnung nach § 34c EStG und § 26 KStG); Sondernormen (§ 2a EStG, § 1 AStG, Wegzugsbesteuerung nach § 6 AStG); Anlagen (§§ 2–5 AStG, Hinzurechnungsbesteuerung, Familienstiftungen). Dazu die DBA-Texte im Wortlaut: Auszüge DBA Österreich (Art. 4, 10, 15, 23) und DBA Türkei (Art. 10, 22) sowie das OECD-Musterabkommen 2017, und die zwölf Folien von Daniela Holzrichter. Das Skript ist damit vollständig."
+          quelle={istrSkriptGhQuelle}
+          kapitel={istrSkriptGh}
+          karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+          gruppeVon={(k) => k.teil}
+          gruppeLabel={(k) => k.teilLabel}
+          gruppeAria="Kapitel"
+          gruppeAlle="Alle Kapitel"
+          suchePlatzhalter="Norm, Stichwort oder Fall"
+        />}
         {verlauf.ansicht === "schema" && <IstrSchemaSeite suche={suche} modulOeffnen={modulOeffnen} fallOeffnen={fallOeffnen} />}
         {verlauf.ansicht === "training" && <IstrTraining />}
         {verlauf.ansicht === "quellen" && <IstrQuellenstand />}

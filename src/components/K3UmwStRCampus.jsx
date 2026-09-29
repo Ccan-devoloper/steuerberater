@@ -3,10 +3,13 @@ import { laden, sichern } from "../lib/fortschritt";
 import { useAnsichtVerlauf } from "../lib/ansicht-verlauf";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
 import K3Fachleiste from "./K3Fachleiste";
-import { IconCockpit, IconSchema, IconHausaufgabe, IconPlan } from "./Icons";
+import { IconCockpit, IconSchema, IconHausaufgabe, IconPlan, IconRegister } from "./Icons";
 import K3Lernpfad from "./K3Lernpfad";
 import { umwstrLernpfad, umwstrLernpfadKapitel, umwstrLernpfadGesamtminuten } from "../data/k3-lernpfad-umwstr";
 import { UMWSTR_HA_SEITEN_GESAMT, UMWSTR_HA_FAELLE_GESAMT, umwstrHausaufgaben } from "../data/k3-umwstr-ha-faelle.js";
+import { umwstrSkript, umwstrSkriptQuelle } from "../data/k3-umwstr-skript-hamacher.js";
+import { umwstKurzskript, umwstKurzskriptQuelle } from "../data/k3-umwst-kurzskript-breier.js";
+import KurzskriptBloecke from "./KurzskriptBloecke";
 
 /* Die Hausaufgaben bringen die Originaltexte samt Schriftinformation mit.
    Sie werden erst geladen, wenn der Reiter geöffnet wird. */
@@ -320,6 +323,12 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <button className="rail__link" aria-current={verlauf.ansicht === "hausaufgaben" ? "true" : undefined} onClick={() => ansichtOeffnen("hausaufgaben")}>
             <IconHausaufgabe />Hausaufgaben
           </button>
+          <button className="rail__link" aria-current={verlauf.ansicht === "skript" ? "true" : undefined} onClick={() => ansichtOeffnen("skript")}>
+            <IconRegister />Skript (Hamacher)
+          </button>
+          <button className="rail__link" aria-current={verlauf.ansicht === "kurzskript" ? "true" : undefined} onClick={() => ansichtOeffnen("kurzskript")}>
+            <IconRegister />Kurz-Skript (Breier)
+          </button>
         </nav>
         <div className="rail__box">
           <b>Quellenabdeckung</b>
@@ -337,6 +346,36 @@ export default function K3UmwStRCampus({ onKlausurwechsel, onFachwechsel }) {
           <Suspense fallback={<p className="hausaufgabe__status" role="status">Hausaufgaben werden geladen …</p>}>
             <K3UmwStRHausaufgaben />
           </Suspense>
+        )}
+        {verlauf.ansicht === "skript" && (
+          <KurzskriptBloecke
+            kicker="Klausur 3 · UmwStR · Lehrgangsskript"
+            titel="Umwandlungssteuerrecht (Hamacher)"
+            lead="Das Lehrgangsskript von Frank Hamacher (21. Auflage, Januar 2026) im Wortlaut – alle fünf Teile vollständig: Teil I (zivilrechtliche Umwandlungsarten, Einführung in das UmwStG), Teil II (Einbringung in eine Kapitalgesellschaft nach §§ 20 – 23, 25 UmwStG mit Anteilstausch, Einbringungsgewinn I und II und Option nach § 1a KStG), Teil III (Verschmelzung von Kapitalgesellschaften nach §§ 11 – 13 UmwStG auf Ebene der Übertragerin, der Übernehmerin und der Anteilseigner), Teil IV (Auf- und Abspaltung nach § 15 UmwStG mit Teilbetriebserfordernis und Missbrauchsklauseln) und Teil V (Umwandlung einer Kapitalgesellschaft auf eine Personengesellschaft nach §§ 3 – 10, 18 UmwStG mit fiktiver Ausschüttung, Übernahmeergebnis und Gewerbesteuer)."
+            quelle={umwstrSkriptQuelle}
+            kapitel={umwstrSkript}
+            karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Skriptteile"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Stichwort oder Umwandlungsart"
+          />
+        )}
+        {verlauf.ansicht === "kurzskript" && (
+          <KurzskriptBloecke
+            kicker="Klausur 3 · UmwStR · Kurz-Skript"
+            titel="Umwandlungssteuerrecht – Kurz-Skript (Breier)"
+            lead="Das Kurz-Skript von Ulrich Breier (Stand 04/2025, ohne § 24 UmwStG) im Wortlaut – alle sechs Teile vollständig: Teil 1 (Überblick über das Umwandlungssteuerrecht mit Umwandlungssteuererlass), Teil 2 (zivilrechtliche Grundlagen: Verschmelzung, Formwechsel, Spaltung, Einzelrechtsnachfolge und Anwachsung), Teil 3 (Verschmelzung/Formwechsel einer Kapitalgesellschaft auf ein Personenunternehmen mit Übernahmeergebnis, Rückoption nach § 1a KStG und Gewerbesteuer), Teil 4 (Verschmelzung von Kapitalgesellschaften nach §§ 11 – 13 UmwStG einschließlich Organgesellschaft und Einlagekonto), Teil 5 (Spaltung von Kapitalgesellschaften nach §§ 15, 16 UmwStG) und Teil 6 (Einlage und Einbringung nach §§ 20 – 23 UmwStG mit Einbringungsgewinn I und II sowie Anteilstausch nach § 21 UmwStG)."
+            quelle={umwstKurzskriptQuelle}
+            kapitel={umwstKurzskript}
+            karteKicker={(k) => `${k.teilLabel} · Abschnitt ${k.kapitel}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teilLabel}
+            gruppeAria="Skriptteile"
+            gruppeAlle="Alle Teile"
+            suchePlatzhalter="Norm, Stichwort oder Umwandlungsart"
+          />
         )}
       </main>
     </div>

@@ -1,0 +1,61 @@
+/* USt-Skript (Moecker), Blöcke 1 bis 13 mit Arbeitspapieren – Umsatzsteuer,
+   Lehrgang Steuerberater:in, Udo Moecker, Diplom-Finanzwirt.
+
+   Wortlautgetreue Übernahme der Skriptblöcke aus dem Ordner „Umsatzsteuer“
+   des zweiten Drive-Baums (neun PDF-Dateien, zusammen 1.071 Seiten). Die
+   Blöcke tragen unterschiedliche Stände zwischen Juli 2025 und Juni 2026;
+   jeder Block führt seinen eigenen Stand.
+
+   Aufbau: Jeder Block ist ein Teil mit eigener Kapitelzählung; ein Kapitel
+   entspricht einem Abschnitt der Gliederung des Blocks. Die Daten eines
+   Blocks liegen in einer eigenen Datei unter `k1-ust-moecker/`.
+
+   STAND DER ÜBERNAHME: vollständig – Block 1 (Einführung in das Umsatzsteuer-
+   recht) vollständig, Block 2 (Leistungen im Leistungsaustausch) vollständig, Block 3
+   (Unternehmer / Unternehmen) vollständig, Block 4 (Entgeltliche
+   Lieferungen) vollständig, Block 5 (Entgeltliche sonstige Leistungen) vollständig, Block 6 (Werkverträge,
+   § 13b UStG, GiG, Gutscheine) vollständig, Block 7 (Innergemeinschaftlicher Erwerb)
+   vollständig, Block 8 Teil I (Steuerfreie Umsätze mit Vorsteuerabzug) vollständig,
+   Block 8 Teil II (Steuerfreie Umsätze ohne Vorsteuerabzug, § 9 UStG) vollständig,
+   Block 9 (Besondere Umsätze im Binnenmarkt) vollständig, Block 10 (BMG & Änderung /
+   Reiseleistung / Differenzbesteuerung / Kleinunternehmer & Steuersatz) vollständig,
+   Block 11 (Vorsteuerabzug) vollständig,
+   Block 12 (Berichtigung des Vorsteuerabzugs) vollständig,
+   Block 13 (Unentgeltliche Wertabgaben) vollständig.
+   Der Campus weist den Stand aus.
+
+   HINWEIS ZUR QUELLE: Der Text ist unmittelbar aus den PDF-Dateien
+   extrahiert (pypdf). Das personenbezogene Wasserzeichen der Vorlage ist
+   entfernt. Schaubilder, die die Textextraktion zeilenweise zerlegt, sind als
+   Tabellen oder Aufzählungen in ihre Ordnung zurückgebracht und jeweils als
+   solche ausgewiesen. */
+
+import { block01 } from "./k1-ust-moecker/block01.js";
+import { block02 } from "./k1-ust-moecker/block02.js";
+import { block03 } from "./k1-ust-moecker/block03.js";
+import { block04 } from "./k1-ust-moecker/block04.js";
+import { block05 } from "./k1-ust-moecker/block05.js";
+import { block06 } from "./k1-ust-moecker/block06.js";
+import { block07 } from "./k1-ust-moecker/block07.js";
+import { block08Teil1 } from "./k1-ust-moecker/block08-1.js";
+import { block08Teil2 } from "./k1-ust-moecker/block08-2.js";
+import { block09 } from "./k1-ust-moecker/block09.js";
+import { block10 } from "./k1-ust-moecker/block10.js";
+import { block11 } from "./k1-ust-moecker/block11.js";
+import { block12 } from "./k1-ust-moecker/block12.js";
+import { block13 } from "./k1-ust-moecker/block13.js";
+
+export const ustSkriptMoeckerQuelle = {
+  reihe: "Umsatzsteuer · Skript Blöcke 1 bis 13 mit Arbeitspapieren · Udo Moecker",
+  stand: "Stände 07/2025 bis 06/2026 (je Block ausgewiesen)",
+  verfasser: "Udo Moecker",
+  didaktik: [
+    "Wortlautgetreue Übernahme des Lehrgangsskripts; eigene Ergänzungen sind durchgehend als solche gekennzeichnet, Fehler der Quelle mit „(so in der Quelle)“ markiert.",
+    "Jeder Block steht als eigener Teil mit eigener Kapitelzählung; die Kapitel folgen der Gliederung des jeweiligen Blocks.",
+    "Die Blöcke folgen dem Prüfungsaufbau der Umsatzsteuer: vom Steuergegenstand über Leistungsaustausch, Unternehmer und Leistungsort bis zu Steuerbefreiungen, Bemessungsgrundlage, Vorsteuerabzug und Besteuerungsverfahren.",
+  ],
+};
+
+export const ustSkriptMoecker = [...block01, ...block02, ...block03, ...block04, ...block05, ...block06, ...block07, ...block08Teil1, ...block08Teil2, ...block09, ...block10, ...block11, ...block12, ...block13];
+
+export default ustSkriptMoecker;

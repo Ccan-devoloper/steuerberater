@@ -196,6 +196,13 @@ function quellText(t) { return [...new Set([...(t.normen || []), `Themenpool: ${
 for (const [datum, titel] of Object.entries(hooks)) {
   const datei = path.join(dir, datum + ".json");
   const tag = JSON.parse(fs.readFileSync(datei, "utf8"));
+  // Hooks und Antworten gehören zur ersten Themenwahl mit fester Folge
+  // K3 → K1 → K2 und Reel in b3. Nach einem Neuaufbau mit rotierender
+  // Klausurfolge passen sie nicht mehr zu den Themen.
+  const folge = tag.plan.beitraege.map((b) => b.klausur).join(",");
+  if (folge !== "3,1,2" || tag.plan.beitraege[2]?.format !== "reel") {
+    throw new Error(datum + ": Redaktion 2026-10 passt nur zur ursprünglichen Themenwahl (K3, K1, K2-Reel), gefunden " + folge + ".");
+  }
   if (datum === "2026-10-28") {
     // Die ursprüngliche KSt-Schema-ID hatte denselben Inhalt wie am Vortag.
     const t = pool.get("kst-modul-kst-3");

@@ -22,6 +22,13 @@ import { k1Karteikarten, k1Quizfragen } from "../data/k1-lernstoff.js";
 import { k1Aufgaben, k1Quellskizzen } from "../data/k1-fall-extras.js";
 import { K1Aufgabenblock, K1Quellskizze } from "./K1FallExtras";
 import { CampusTopbar, KlausurenLeiste } from "./CampusKopf";
+import HausaufgabenBloecke from "./HausaufgabenBloecke";
+import KurzskriptBloecke from "./KurzskriptBloecke";
+import { ustBeispielsammlung, ustBeispielsammlungQuelle } from "../data/k1-ust-beispielsammlung-schroeders.js";
+import { ustSkriptMoecker, ustSkriptMoeckerQuelle } from "../data/k1-ust-skript-moecker.js";
+import { estKlausuren, estKlausurenQuelle } from "../data/est-klausuren.js";
+import { ustOriginalklausuren, ustOriginalklausurenQuelle } from "../data/k1-ust-originalklausuren.js";
+import { k1Pruefungsklausuren, k1PruefungsklausurenQuelle } from "../data/k1-pruefungsklausuren.js";
 import Klausurmodus, { IconKlausur } from "./Klausurmodus";
 import {
   IconCockpit, IconModule, IconFaelle, IconSchema, IconHaken, IconTraining,
@@ -40,10 +47,19 @@ const ansichten = [
   { id: "cockpit", label: "Cockpit", Icon: IconCockpit },
   { id: "module", label: "Umsatzsteuer", Icon: IconModule },
   { id: "faelle", label: "Originalfälle", Icon: IconFaelle },
+  { id: "beispielsammlung", label: "Beispielsammlungen (Schröders)", Icon: IconFaelle },
+  { id: "skriptMoecker", label: "USt-Skript (Moecker)", Icon: IconModule },
+  { id: "uebungsklausur", label: "Übungsklausur (USt)", Icon: IconTraining },
+  { id: "originalklausuren", label: "Originalklausuren (Prüfung)", Icon: IconKlausur },
+  { id: "pruefungsklausuren", label: "Prüfungsklausuren im Original", Icon: IconKlausur },
   { id: "klausur", label: "Klausurmodus", Icon: IconKlausur },
   { id: "schema", label: "Prüfschema", Icon: IconSchema },
   { id: "training", label: "Training", Icon: IconTraining },
 ];
+
+/* Die Teilklausur Umsatzsteuer der Übungsklausur AO/USt liegt im gemeinsamen
+   Klausurbestand; hier werden nur ihre Sachverhalte gezeigt. */
+const UST_UEBUNGSKLAUSUR = estKlausuren.filter((eintrag) => eintrag.klausur === "ust-1" || eintrag.fach === "ust");
 
 const k1UstFallKategorien = [
   { id: "alle", label: "Alle Kategorien", faelle: [] },
@@ -577,6 +593,84 @@ export default function K1Campus({ onKlausurwechsel }) {
             sperrtext="Erst selbst lösen: Steuerbarkeit, Steuerbefreiung, Bemessungsgrundlage, Steuersatz, Steuerschuldner, Entstehung und Vorsteuer. Danach die Musterlösung aufdecken und ehrlich bewerten."
             modulWort="Fall"
             sachverhaltExtra={(fall) => <K1Aufgabenblock daten={k1Aufgaben[fall.id]} />}
+          />
+        )}
+        {ansicht === "uebungsklausur" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Übungsklausur"
+            titel="USt-Übungsklausuren (Schröders)"
+            lead="Drei Umsatzsteuer-Teilklausuren: die Teilklausur der Übungsklausur AO/USt (Jacobs/Schröders, Korrektor Schulz, Rechtslage 2026, 3 Stunden, 50 Punkte) mit Marco Murrer als Bauträger, Bauunternehmer und Händler, der Franz Ferstl GmbH im Reihengeschäft und der Virus-GmbH mit innergemeinschaftlichem Verbringen; der Umsatzsteuerteil der Klausur AO/USt/ErbSt/BewR 1 (35 Punkte) mit dem Tischler Hans Glück: Maschinenerwerb aus Warschau mit doppeltem Erwerbsort, Möbelrestauration für die Stadt Zürich, Messeverkauf in Lüttich und Designer-Lampen aus Südafrika über Belgien; und der Umsatzsteuerteil der Klausur AO/USt/ErbSt/BewR 2 (40 Punkte) mit dem Campingartikelhändler Ferdy Frosch: Optionsverbot nach § 9 Abs. 2 UStG trotz Altgebäude und Vorsteueraufteilung, zwanzig Reihengeschäfte mit Fernverkauf nach Belgien, Mindestbemessungsgrundlage bei der Zeltüberlassung an die eigene GmbH und die Bewirtung samt Tombolapreisen auf der Verkaufsausstellung. Sachverhalt, Aufgabenstellung und Musterlösung stehen im Wortlaut."
+            quelle={estKlausurenQuelle}
+            hausaufgaben={UST_UEBUNGSKLAUSUR}
+            gruppeVon={(eintrag) => eintrag.klausur}
+            gruppeLabel={(eintrag) => eintrag.klausurLabel}
+            gruppeAria="Klausuren"
+            karteKicker={(eintrag) => `${eintrag.teil} · ${eintrag.punkteLaut ?? `${eintrag.punkte} Punkte`} · ${eintrag.rechtsstand}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Sachverhalte"
+            einheitEinzahl="Sachverhalt"
+          />
+        )}
+        {ansicht === "skriptMoecker" && (
+          <KurzskriptBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Lehrgangsunterlage"
+            titel="USt-Skript (Moecker)"
+            lead="Das Umsatzsteuer-Skript von Udo Moecker in 13 Blöcken mit Arbeitspapieren im Wortlaut – **vollständig**; Block 1 steht vollständig mit Vorsteuerabzug und den Arbeitspapieren zur Klausurtechnik, Block 2 (Leistungsaustausch) vollständig mit Schadenersatz, Vertragsstrafen, Versicherungsleistungen und den Arbeitspapieren A 1 bis A 14, Block 3 (Unternehmer / Unternehmen) vollständig mit Organschaft und den Arbeitspapieren A 1 bis A 27, Block 4 (Lieferungen) vollständig mit Reihengeschäft und den Arbeitspapieren A 1 bis A 27, Block 5 (sonstige Leistungen) vollständig mit dem Leistungsort im B2B- und B2C-Bereich, dem Reverse-Charge-Verfahren in der EU und den Arbeitspapieren A 1 bis A 52, Block 6 (Werkverträge, § 13b UStG, GiG, Gutscheine) mit Werklieferung und Werkleistung und der Steuerschuldumkehr nach § 13b UStG vollständig mit allen Tatbeständen und Ausnahmen, Geschäftsveräußerung im Ganzen und Gutscheinen samt Arbeitspapieren, Block 7 (innergemeinschaftlicher Erwerb) begonnen mit Systematik, Grundtatbestand, Warenbewegung, Erwerbsort mit Pflicht- und Straferwerb und dem erweiterten Erwerberkreis samt Erwerbsschwelle und Option, Steuerbefreiungen, Steuerentstehung, Vorsteuerabzug, territorialen Begriffen und dem Brexit vollständig samt Arbeitspapieren A 1 bis A 12, Block 8 Teil I (steuerfreie Umsätze mit Vorsteuerabzug) vollständig mit den Ausfuhrlieferungen, dem ausländischen Abnehmer, den Freihafenfällen, dem Reihengeschäft, dem nichtkommerziellen Reiseverkehr, der Lohnveredelung und der innergemeinschaftlichen Lieferung samt Gelangensnachweis und Vertrauensschutz sowie dem innergemeinschaftlichen Reihen- und Dreiecksgeschäft bis zu den Lieferungen vor der Einfuhr samt Arbeitspapieren A 1 bis A 50, Block 8 Teil II (steuerfreie Umsätze ohne Vorsteuerabzug, Option nach § 9 UStG) vollständig mit Versicherungs-, Heilbehandlungs- und Bildungsleistungen, Finanz- und Grundstücksumsätzen, der Vermietung und Verpachtung und der Option samt Optionseinschränkung nach § 9 Abs. 2 und § 27 Abs. 2 UStG samt Arbeitspapieren A 1 bis A 38, Block 9 (besondere Umsätze im Binnenmarkt) vollständig mit Abhollieferung, Fernverkauf, One-Stop-Shops, elektronischen Marktplätzen, innergemeinschaftlichem Verbringen, Konsignationslager und neuen Fahrzeugen samt Arbeitspapieren A 1 bis A 33, Block 10 (Bemessungsgrundlage und ihre Änderung, Reiseleistungen, Differenzbesteuerung, Kleinunternehmer, Steuersatz) vollständig mit Tausch, Mindestbemessungsgrundlage, Margenbesteuerung, Kleinunternehmerregelung ab 2025, ermäßigtem Steuersatz, Nullsteuersatz für PV-Anlagen, § 17 UStG und § 24 UStG samt Arbeitspapieren A 1 bis A 36, Block 11 (Vorsteuerabzug) vollständig samt Arbeitspapieren A 1 bis A 42, Block 12 (Berichtigung des Vorsteuerabzugs nach § 15a UStG) vollständig samt Arbeitspapieren A 1 bis A 16, Block 13 (unentgeltliche Wertabgaben) vollständig samt Arbeitspapieren A 1 bis A 27. Die Blöcke folgen dem Prüfungsaufbau: vom Steuergegenstand über Leistungsaustausch, Unternehmer und Leistungsort bis zu Steuerbefreiungen, Bemessungsgrundlage, Vorsteuerabzug und Verfahren; jeder Block führt seinen eigenen Stand (07/2025 bis 06/2026). Block 1 legt das Gerüst: Die **Ausgangsumsatzsteuer** wird über die §§ 1, 4, 10, 12 und 13 UStG ermittelt, und ein Umsatz ist nur **steuerbar**, wenn er sämtliche Tatbestandsmerkmale einer der drei Nummern des § 1 Abs. 1 UStG erfüllt – entgeltliche Leistung (mit den unentgeltlichen Wertabgaben als Ergänzungstatbestand), Einfuhr oder innergemeinschaftlicher Erwerb. Schaubilder der Quelle sind als Tabellen wiedergegeben und als solche ausgewiesen."
+            quelle={ustSkriptMoeckerQuelle}
+            kapitel={ustSkriptMoecker}
+            karteKicker={(k) => `${k.teil.split(" – ")[0]} · ${k.abschnittNr}`}
+            gruppeVon={(k) => k.teil}
+            gruppeLabel={(k) => k.teil}
+            gruppeAria="Blöcke"
+            gruppeAlle="Alle Blöcke"
+            suchePlatzhalter="Norm, Stichwort oder Abschnitt"
+          />
+        )}
+        {ansicht === "beispielsammlung" && (
+          <KurzskriptBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Beispielsammlungen"
+            titel="Beispielsammlungen USt (Schröders)"
+            lead="Die sieben Beispielsammlungen zu den Unterrichtstagen 1 bis 7 im Wortlaut, dazu die Übersicht „Umsatzbesteuerung bei PKW“. Sie folgen der Reihenfolge, in der die Umsatzsteuer geprüft wird: Unternehmereigenschaft, Leistungsart und Leistungsort (Tag 1), Steuerbefreiungen, Bemessungsgrundlage und Vorsteuerabzug (Tag 2), Steuerschuldnerschaft und Reihengeschäft (Tag 3), innergemeinschaftlicher Warenverkehr (Tag 4), Fernverkauf, Kommission und Änderung der Bemessungsgrundlage (Tag 5), unentgeltliche Wertabgaben und Vorsteuerberichtigung (Tag 6), Reiseleistungen bis Kleinunternehmer (Tag 7). Die Beispiele variieren oft denselben Sachverhalt in zwei oder drei Abwandlungen, die jeweils nur ein Tatbestandsmerkmal verschieben – die Heizkörper-Reihe an Tag 3 ist dafür das beste Muster. **Die Quellen enthalten keine Lösungen**; auf jeden Sachverhalt folgt nur die Frage. Es wird hier keine erfunden. Jedes Kapitel sagt das offen und verweist auf die Stellen im Campus, an denen dieselbe Rechtsfrage vollständig durchgeprüft ist – das Kurzskript (Meurer), die Originalfälle der Einheiten 2 bis 8 und die Übungsklausur."
+            quelle={ustBeispielsammlungQuelle}
+            kapitel={ustBeispielsammlung}
+            karteKicker={(k) => k.tag}
+            gruppeVon={(k) => k.tag}
+            gruppeLabel={(k) => k.tag}
+            gruppeAria="Unterrichtstage"
+            gruppeAlle="Alle Tage"
+            suchePlatzhalter="Norm, Beispiel oder Stichwort"
+          />
+        )}
+        {ansicht === "pruefungsklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 1 · Umsatzsteuer · amtliche Prüfungsaufgaben"
+            titel="Prüfungsklausuren im Original – ohne Musterlösung"
+            lead="Der Umsatzsteuerteil des dritten Prüfungstages im amtlichen Wortlaut – kein fortgeschriebener Rechtsstand, keine Bearbeitung, die Jahreszahlen des Originaljahrgangs. Eingepflegt sind die Prüfungen **2021/2022** (Besteuerungszeiträume 2020 und 2021, ohne Punkteangabe in der Quelle) und **2022/2023** (Besteuerungszeitraum 2022, 35 von 100 Wertungspunkten). **Zu dieser Aufgabe enthält die Quelle keine Lösung**, und es wird hier ausdrücklich keine erfunden; der Eintrag sagt das offen, hält fest, was die Aufgabenstellung selbst vorgibt, und verweist auf die Stellen im Campus, an denen dieselben Rechtsfragen mit vollständiger Musterlösung stehen. Drei Unternehmer, deren Umsätze sich gegenseitig bedingen: Ein Dienstwagen wird im Oktober 2020 gekauft und erst im Januar 2021 übergeben. Eine Weihnachtsfeier für 32 Arbeitnehmer bringt drei Rechnungen mit drei verschiedenen Problemen – eine ordentliche Gastronomierechnung, ein Musikhonorar ganz ohne Rechnung und einen österreichischen Busunternehmer. Ein Gebäude mit vier Etagen zu je 200 m² wird schlüsselfertig errichtet, mit drei Abschlagszahlungen über zwei Jahre und Mietern, die erst nach und nach gefunden werden: Drogeriemarkt, Orthopäde, Versicherungsmakler, Steuerberater und zwei Privatpersonen – die Vorverträge datieren teils vor, teils nach den einzelnen Abschlägen. Und schließlich wird aus einem Lagerplatz ein Baugebiet: fünf Einfamilienhäuser, ein Turmdrehkran mit Totalschaden auf der Rückfahrt, italienische Dachziegel über zwei Stationen, ein Dachdecker als Subunternehmer – und ein fünftes Haus, das die Tochter zur Hochzeit bekommt. Der Jahrgang 2022/2023 (Inge Irlbacher) dreht sich um eine Kunst- und Antiquitätenhändlerin, die zur Differenzbesteuerung nach § 25a UStG optiert hat – und jeder der vier Sachverhalte prüft, ob diese Option hier überhaupt trägt. Ein Gemälde wird in Salzburg von einer Privatperson gekauft, in Düsseldorf über ein Auktionshaus im eigenen Namen der Einlieferin versteigert und vom niederländischen Erwerber übernommen. Eine Meißner Figurengruppe wird im eigenen Namen, aber für fremde Rechnung an einen österreichischen Rechtsanwalt verkauft, wobei die Abrechnung gegenüber der Auftraggeberin einen Umsatzsteuerausweis enthält, der rechnerisch aufgeht. Vier Gemälde eines Künstlers – zwei davon 2018 gekauft, eines aus dessen Wiener Atelier innergemeinschaftlich geliefert – gehen an Käufer in Berlin, Köln, Mailand und Zürich; der Züricher bekommt sein Bild von der Händlerin persönlich im Weihnachtsurlaub nach Davos gebracht. Und ein BMW wird zu 60 % im Kunsthandel, zu 10 % bei der steuerfreien Wohnraumvermietung und zu 30 % privat gefahren. Die Quelle nennt hier selbst eine „grobe Punkteverteilung“: 9, 10, 11 und 5 Punkte."
+            quelle={k1PruefungsklausurenQuelle}
+            hausaufgaben={k1Pruefungsklausuren.filter((e) => e.fach === "ust")}
+            gruppeVon={(eintrag) => eintrag.jahrgang}
+            gruppeLabel={(eintrag) => `Prüfung ${eintrag.jahrgang}`}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · Teil ${eintrag.teil}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Aufgabenteile"
+            einheitEinzahl="Aufgabenteil"
+          />
+        )}
+        {ansicht === "originalklausuren" && (
+          <HausaufgabenBloecke
+            kicker="Klausur 1 · Umsatzsteuer · Originalklausuren"
+            titel="Originalklausuren der Steuerberaterprüfung (USt)"
+            lead="Die Original-Prüfungsklausuren des Umsatzsteuerteils der Steuerberaterprüfung mit den Lösungen des Lehrgangs („Umsatzsteuer Original Prüfungsklausuren 2011 – 2015 mit Lösungen“, Rechtsstand 2026). Anders als die Klausuren des Verfahrensrechts sind diese ausdrücklich auf den Rechtsstand 2026 fortgeschrieben – Besteuerungszeitraum ist das Jahr 2026, die Jahreszahl im Titel bezeichnet den Prüfungsjahrgang. Eingepflegt sind alle fünf Klausuren des Bandes. Die Klausur „Trachten Ferstl“ (Prüfung 2011) hängt mit ihrer halben Lösung an einer Organschaft auf Zeit hängt: Sie entsteht mit der Einbringung des Einzelunternehmens zum 1.1.2026 und endet sieben Monate später mit der Anteilsübertragung – bis dahin sind Miete und Vorsteuerabzug dem Organträger zuzuordnen, und die in den Innenumsätzen ausgewiesene Steuer löst kein § 14c UStG aus. Dazu ein vierstöckiges Gebäude mit drei verschiedenen Vermietungsarten und einer Vorsteuerberichtigung nach Flächenschlüssel (75 % gegen 60,42 %, Berichtigungsbetrag 27,70 €), die Firmenwagenüberlassung als tauschähnlicher Umsatz auf Basis der Gesamtausgaben, zwei Preisausschreiben-Gewinne mit entgegengesetztem Ergebnis – die Lederhose steuerbar über § 3 Abs. 1b UStG, das Gourmet-Menü mangels Auffangtatbestand nicht –, eine Segelyacht, die als neues Fahrzeug beide Richtungen durchläuft (§ 1b und § 2a UStG, Vorsteuerabzug nach § 15 Abs. 4a UStG auf 9.500 € begrenzt), und ein Reihengeschäft Innsbruck–Amsterdam mit doppeltem Erwerbsort nach § 3d Satz 2 UStG. Dazu die Klausur „Eheleute Taff“ (Prüfung 2012), die um einen einzigen Tag gebaut ist: Ein Verkauf über 2.000 € am 1. Dezember 2025 hebt den Gesamtumsatz von 24.500 € auf 26.500 € und sprengt die Kleinunternehmergrenze – bereits dieser Umsatz ist steuerpflichtig. Von da an ändert sich alles gleichzeitig, und zwar bei beiden Eheleuten: Die Vermietung der Ehefrau an den Ehemann kippt von steuerfrei mit § 14c-Schuld in steuerpflichtig durch Option, aus einer nicht abziehbaren Vorsteuer wird ein Berichtigungsobjekt, und der Pkw löst Berichtigungen aus, die ein Totalschaden am 31.12.2026 rückwirkend verändert – er verkürzt den Berichtigungszeitraum von 48 auf 17 Monate und zieht neben der Nachberichtigung auch eine Nachversteuerung der Privatnutzung nach sich. Die Klausur prüft § 15a UStG fünfmal mit vier verschiedenen Ergebnissen; dreimal entscheidet die Bagatellgrenze des § 44 UStDV. Die Klausur „Terra GmbH“ (Prüfung 2013) ist dagegen um Dreiergruppen gebaut: drei Mieter mit drei verschiedenen Optionsergebnissen, ein Parkettkauf, der zu drei innergemeinschaftlichen Erwerben an drei Orten führt, und drei Preise eines Preisausschreibens, die auf drei verschiedenen Wegen zum selben Ergebnis führen. Ihr Kern ist das Ausscheiden einer Gesellschafterin gegen ein Grundstück und Bargeld – für sie nicht steuerbar, für die GmbH eine Geschäftsveräußerung im Ganzen; die Erwerberin führt nach § 15a Abs. 10 UStG den Berichtigungszeitraum fort, sodass ihre eigene Nutzungsänderung auf einen Vorsteuerabzug durchschlägt, den Jahre zuvor die GmbH vorgenommen hatte. Die Klausur „Anton Asam“ (Prüfung 2014) dreht dieselbe Vorschrift um: Dort zerfällt ein einziger Gebäudekauf in zwei Hälften – für die beiden fortgeführten Mietverhältnisse eine Geschäftsveräußerung im Ganzen, für das selbst genutzte Erdgeschoss und die eigene Wohnung eine steuerpflichtige Lieferung mit Steuerschuldnerschaft des Erwerbers (190.000 €, davon 95.000 € abziehbar). Entscheidend ist die Absicht im Zeitpunkt des Kaufs, nicht die vorübergehende Weitervermietung. Dazu die Differenzbesteuerung in zwei Schwierigkeitsgraden – einmal beim schlichten Weiterverkauf, einmal im Kommissionsgeschäft, wo der Einkaufspreis erst aus Provision und Spesen zu konstruieren ist –, eine Bewirtung ohne Wertabgabe bei erhaltenem Vorsteuerabzug, eine Verlosung mit Wertabgabe zum ermäßigten Satz und eine steuerfreie Lohnveredelung für einen Schweizer Auftraggeber. Die Klausur „Georg Gründlich“ (Prüfung 2015) schließlich prüft § 13b UStG sechsmal an derselben Baustelle – und kommt sechsmal zu einem anderen Ergebnis: Nr. 1 beim österreichischen Architekten, Nr. 4 beim inländischen Erdbauer, gar nicht beim Innsbrucker Fensterhersteller, der ohne Einbau liefert – statt § 13b UStG ein innergemeinschaftlicher Erwerb über 15.200 €, Abs. 1 bei der österreichischen Spedition, Nr. 1 vor Nr. 4 beim tschechischen Monteur – und wieder gar nicht beim inländischen Gebäudereiniger, weil Gründlich selbst keine Gebäudereinigungsleistungen erbringt. Dazu die Anzahlungsbesteuerung über drei Voranmeldungszeiträume, drei ineinandergreifende Berichtigungen nach § 15a UStG, die bis 2031 laufen, ein Motorrad als vierter Fahrzeugfall der Reihe (§ 1b UStG beim Erwerb, § 2a UStG beim Verkauf – noch „neu“, weil zwischen Erstinbetriebnahme und Lieferung keine sechs Monate liegen) und zwei Geschenke mit gegenläufiger Vorsteuerfolge. Jede Zahl ist unabhängig nachgerechnet."
+            quelle={ustOriginalklausurenQuelle}
+            hausaufgaben={ustOriginalklausuren}
+            gruppeVon={(eintrag) => eintrag.block}
+            gruppeLabel={(eintrag) => eintrag.blockLabel}
+            gruppeAria="Prüfungsjahrgänge"
+            karteKicker={(eintrag) => `Prüfung ${eintrag.jahrgang} · ${eintrag.rechtsstand}`}
+            suchePlatzhalter="Norm, Stichwort oder Betrag"
+            einheit="Originalklausuren"
+            einheitEinzahl="Originalklausur"
           />
         )}
         {ansicht === "schema" && <UstPruefschema />}

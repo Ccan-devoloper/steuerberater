@@ -50,11 +50,63 @@ export const FORMAT_QUELLEN = {
   aktuell:        [],
 };
 
+/* Drei Feed-Slots pro Tag decken immer K1, K2 und K3 ab. Eine durchgehende
+   K1→K2→K3-Folge ergäbe bei drei Slots jeden Tag dieselbe Reihenfolge – b3
+   wäre dann immer dieselbe Klausur. Deshalb rotiert die Tagesfolge um eine
+   Stelle innerhalb des Zyklus K3 → K1 → K2: Jede Klausur belegt binnen drei
+   Tagen jeden Slot (auch das Reel in b3). Weil alle Folgen Ausschnitte
+   desselben Zyklus sind, doppelt sich an keiner Tagesgrenze die Klausurfarbe
+   (… K2 | K1 …, … K3 | K2 …, … K1 | K3 …). Anker: Der 29.09.2026 beginnt mit
+   K3 und setzt so die Feedfolge vom 28.09. (Ende K2) fort. */
+export const DREI_KLAUSUREN_FOLGEN = Object.freeze([
+  Object.freeze([3, 1, 2]),
+  Object.freeze([1, 2, 3]),
+  Object.freeze([2, 3, 1]),
+]);
+const DREI_KLAUSUREN_ANKER = Date.UTC(2026, 8, 29);
+
+export function dreiKlausurenFolge(datum) {
+  const tag = Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10));
+  const versatz = Math.round((tag - DREI_KLAUSUREN_ANKER) / 86400000);
+  return [...DREI_KLAUSUREN_FOLGEN[((versatz % 3) + 3) % 3]];
+}
+
+/* Innerhalb einer Klausur wechseln die Fächer reihum (K1: AO, ErbSt, USt;
+   K2: ESt, GewSt, IStR, KSt; K3: Bilanz, PersG, UmwSt). Ohne diese Rotation entscheidet das
+   gelernte fachGewicht über die ganze Klausur, und ein stark gewichtetes
+   Fach (am 28.09.: IStR 1,47 gegenüber KSt 0,85) belegt den Slot, bis sein
+   Themenvorrat erschöpft ist. Die Gewichtung wirkt danach nur noch
+   innerhalb des gewählten Fachs.
+   Vorn steht das Fach, das am längsten nicht in dieser Beitragsart (Reel
+   bzw. Karussell) lief, danach das insgesamt am längsten ruhende. Die
+   getrennte Zählung verhindert, dass bei drei Fächern und dreitägiger
+   Slotrotation ein Fach dauerhaft am Reel klebt. */
+export function faecherInRotation(faecher, eintraege, istReel = false) {
+  const liste = [...new Set(faecher)].sort();
+  const zuletztArt = new Map();
+  const zuletzt = new Map();
+  const anzahl = new Map();
+  const spaeter = (m, k, d) => { if (!m.has(k) || d > m.get(k)) m.set(k, d); };
+  for (const e of eintraege || []) {
+    if (e?.art !== "beitrag" || !liste.includes(e.fach) || !e.datum) continue;
+    spaeter(zuletzt, e.fach, e.datum);
+    if ((e.format === "reel") === Boolean(istReel)) spaeter(zuletztArt, e.fach, e.datum);
+    anzahl.set(e.fach, (anzahl.get(e.fach) || 0) + 1);
+  }
+  return liste.sort((a, b) =>
+    (zuletztArt.get(a) || "").localeCompare(zuletztArt.get(b) || "")
+    || (zuletzt.get(a) || "").localeCompare(zuletzt.get(b) || "")
+    || (anzahl.get(a) || 0) - (anzahl.get(b) || 0)
+    || a.localeCompare(b)
+  );
+}
+
 /* Klausurtage bilden eine durchgehende K1→K2→K3-Folge über den gesamten
    Feed. Bei zwei Slots pro Tag ist deshalb z. B. K1,K2 | K3,K1 | K2,K3
    vorgesehen – nicht K1,K2 | K2,K3, denn das würde an jeder Tagesgrenze
    dieselbe Farbe doppeln. */
 export function klausurenDesTages(datum, plaetze) {
+  if (plaetze === 3) return dreiKlausurenFolge(datum);
   const tage = Math.floor(Date.UTC(+datum.slice(0, 4), +datum.slice(5, 7) - 1, +datum.slice(8, 10)) / 86400000);
   const n = Math.max(0, plaetze);
   const start = ((((tage * Math.max(1, n)) % 3) + 3) % 3);
@@ -232,6 +284,10 @@ export function tagesplan(datum = heuteIso(), ledger = ledgerLaden(), pool = the
             console.warn(`  ! ${KLAUSUREN[ziel]?.kurz || ziel}: Wiederholsperre für „${format}“ erschöpft – ältestes Thema derselben Farbe wird genommen.`);
           }
         }
+      }
+      if (ziel && kandidaten.length && kandidaten.every((t) => t.klausur === ziel)) {
+        const fach = faecherInRotation(kandidaten.map((t) => t.fach), ledgerKopie.veroeffentlicht, format === "reel")[0];
+        kandidaten = kandidaten.filter((t) => t.fach === fach);
       }
       const notfall = ziel ? pool.filter((t) => typen.includes(t.typ) && t.klausur === ziel) : pool.filter((t) => typen.includes(t.typ));
       thema = gewichteteWahl(kandidaten.length ? kandidaten : notfall, zufall, ledgerKopie, strategie);

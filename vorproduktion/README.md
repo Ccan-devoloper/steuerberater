@@ -34,9 +34,24 @@ Bequemer ist der manuelle GitHub-Workflow **„Vorproduktion · Examenscampus Re
 
 Für den Review vom 29.09. bis 28.10.2026 setzt der Vorbereiter mit
 `IG_REEL_ZUSAETZLICH=true IG_VORPRODUKTION_DREI_KLAUSUREN=true` täglich
-zwei Karussells und ein Reel an. Die Slots folgen K3 → K1 → K2 zu 08:30,
-13:30 und 19:00 Uhr (Europe/Berlin). Diese Reihenfolge setzt die vorhandene
-Feedfolge vom 28.09. ohne doppelte Klausurfarbe fort. Prüfungstage behalten
+zwei Karussells und ein Reel an. Jeder Tag deckt K1, K2 und K3 ab
+(08:30, 13:30 und 19:00 Uhr, Europe/Berlin). Die Klausurfolge rotiert
+täglich: K3 → K1 → K2, dann K1 → K2 → K3, dann K2 → K3 → K1. So belegt jede
+Klausur binnen drei Tagen jeden Slot und das Reel in b3, und an keiner
+Tagesgrenze doppelt sich die Klausurfarbe; der 29.09. setzt die Feedfolge vom
+28.09. (Ende K2) mit K3 fort. Innerhalb einer Klausur wechseln die Fächer
+reihum (K1: AO, ErbSt, USt; K2: ESt, GewSt, IStR, KSt; K3: Bilanz, PersG,
+UmwSt), getrennt für
+Reel und Karussell. Das gelernte `fachGewicht` entscheidet nur noch innerhalb
+eines Fachs; vorher setzte es sich über die Klausur durch, sodass z. B. das
+K2-Reel so lange IStR blieb, bis der IStR-Vorrat erschöpft war. Fehlt einem
+Fach ein unverbrauchtes Thema, springt die Rotation zum nächsten Fach. Fehlt
+einer ganzen Klausur ein Karussellthema, übernimmt ihr Slot das Reel des
+Tages; die Klausurfolge bleibt dabei unverändert.
+
+Die importierten Skripte kommen nur über die redaktionelle Aufbereitung in
+`social/aufbereitung/*.json` in den Themenpool. Maßgeblich dafür sind die
+verbindlichen Regeln in `social/QUELLENREGELN.md`. Prüfungstage behalten
 die drei Fachslots; aus tatsächlich noch unbekannten Klausurthemen werden
 keine Lösungsskizzen erfunden.
 

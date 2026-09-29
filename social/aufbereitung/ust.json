@@ -1,0 +1,364 @@
+[
+  {
+    "quelle": "ust-m-b05-6",
+    "titel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
+    "einordnung": [
+      "Für sonstige Leistungen an Unternehmer gilt als Grundregel der Sitz des Empfängers. Die Norm ist Ausgangspunkt jeder Ortsprüfung, tritt aber hinter die Sonderregeln des § 3a Abs. 3 ff. UStG zurück."
+    ],
+    "lernziele": [
+      "Die Leistung wird dort ausgeführt, von wo aus der unternehmerische Empfänger sein Unternehmen betreibt; wird sie an eine Betriebsstätte erbracht, zählt deren Ort.",
+      "Der Kunde muss Unternehmer sein und die Leistung für seinen unternehmerischen Bereich beziehen; juristische Personen mit USt-IdNr. oder mit teils unternehmerischer Tätigkeit stehen nach Satz 3 gleich.",
+      "Innerhalb der EU belegt die Verwendung einer USt-IdNr. regelmäßig den Unternehmerstatus; bei Kunden aus dem Drittland verlangt die Verwaltung vorrangig eine behördliche Bescheinigung.",
+      "Liegt der Ort in einem anderen Mitgliedstaat, schuldet dort der Empfänger die Steuer; der Leistende gibt den Umsatz in der Zusammenfassenden Meldung an."
+    ],
+    "pruefschritte": [
+      "Zuerst ausschließen, dass eine vorrangige Sonderregel wie Grundstücksleistung, Personenbeförderung oder kurzfristige Fahrzeugvermietung eingreift.",
+      "Status des Kunden klären: unternehmerischer Bezug oder gleichgestellte juristische Person nach Satz 3.",
+      "Sitz des Empfängers oder die Betriebsstätte feststellen, für die die Leistung ganz oder überwiegend bestimmt ist.",
+      "Folgen ableiten: bei Inlandsort und ausländischem Leistenden Steuerschuld nach § 13b UStG, bei Ort im EU-Ausland Angabe in der Zusammenfassenden Meldung."
+    ],
+    "fehler": [
+      "Die Grundregel wird angewendet, obwohl eine grundstücksbezogene Leistung vorliegt.",
+      "Eine einheitliche Leistung wird anteilig dem Stammhaus und der Betriebsstätte zugeordnet."
+    ],
+    "merksatz": "Im B2B-Bereich folgt die Dienstleistung dem Kunden – solange keine Sonderregel des § 3a UStG etwas anderes bestimmt."
+  },
+  {
+    "quelle": "ust-m-b05-8",
+    "titel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
+    "einordnung": [
+      "§ 3a Abs. 3 Nr. 1 UStG verlegt den Ort grundstücksbezogener Dienstleistungen an den Belegenheitsort, unabhängig vom Status des Kunden. Die Abgrenzung des engen Grundstücksbezugs ist klausurtypisch."
+    ],
+    "lernziele": [
+      "Der Grundstücksbegriff ist unionsrechtlich auszulegen und umfasst auch dauerhaft eingebaute Anlagen, die sich nur unter Beschädigung oder Umgestaltung des Gebäudes entfernen lassen.",
+      "Erforderlich ist ein enger Bezug: Die Leistung muss sich überwiegend auf Bebauung, Verwertung, Nutzung oder Unterhaltung eines bestimmten Grundstücks richten.",
+      "Erfasst sind etwa Vermietung, Makler- und Notarleistungen beim Grundstückskauf, Architekten- und Handwerkerleistungen, Gebäudereinigung und Objektverwaltung; Baufinanzierung oder allgemeine Steuerberatung gehören nicht dazu.",
+      "Ob der Empfänger die Steuer schuldet, richtet sich nach dem Recht des Belegenheitsstaats; in die Zusammenfassende Meldung gehört die Leistung nicht."
+    ],
+    "pruefschritte": [
+      "Feststellen, dass eine sonstige Leistung vorliegt, und das konkrete Grundstück bestimmen, auf das sie sich bezieht.",
+      "Prüfen, ob der Leistungsgegenstand ein Grundstück im umsatzsteuerlichen Sinn ist, einschließlich fest eingebauter Anlagen.",
+      "Den engen Zusammenhang anhand der Aufzählungen in Abschn. 3a.3 Abs. 9 und 10 UStAE bejahen oder verneinen.",
+      "Ort am Belegenheitsort festlegen und klären, ob dort der Leistende oder nach nationalem Recht der Empfänger Steuerschuldner ist."
+    ],
+    "fehler": [
+      "Die Vermittlung kurzfristiger Hotelunterkünfte an Unternehmer wird als grundstücksbezogene Leistung behandelt.",
+      "Eine im Ausland ausgeführte Grundstücksleistung wird in die Zusammenfassende Meldung aufgenommen."
+    ],
+    "merksatz": "Steht das Grundstück im Mittelpunkt der Leistung, entscheidet allein seine Lage über den Ort."
+  },
+  {
+    "quelle": "ust-m-b04-14",
+    "titel": "Reihengeschäft erkennen: Mehrere Lieferungen, eine Warenbewegung",
+    "einordnung": [
+      "Beim Reihengeschäft schließen mehrere Unternehmer Liefergeschäfte über denselben Gegenstand, der direkt vom ersten Lieferer zum letzten Abnehmer gelangt. Weil die Ware nur einmal bewegt wird, darf nur eine Lieferung als bewegt gelten."
+    ],
+    "lernziele": [
+      "Seit 2020 regelt § 3 Abs. 6a UStG das Reihengeschäft gesetzlich und ordnet die Warenbewegung danach zu, wer den Transport verantwortet.",
+      "Es braucht mindestens drei Beteiligte; der letzte Abnehmer muss kein Unternehmer sein.",
+      "Liegt die Transportverantwortung abschnittsweise bei verschiedenen Beteiligten, fehlt die Unmittelbarkeit; die Lieferungen sind dann jeweils eigenständig zu beurteilen.",
+      "Ändert sich der Liefergegenstand unterwegs, etwa durch Montage oder Verarbeitung, endet insoweit die Reihe."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob mehrere Umsatzgeschäfte über denselben, unverändert bleibenden Gegenstand vorliegen.",
+      "Klären, ob die Ware in einem Zug vom ersten Unternehmer zum letzten Abnehmer oder zu einem von diesem beauftragten Dritten gelangt.",
+      "Feststellen, ob ein einziger Beteiligter den gesamten Transport verantwortet; dass er mehrere Frachtführer einschaltet, schadet nicht.",
+      "Anschließend die bewegte Lieferung bestimmen und die übrigen Lieferungen als ruhende Lieferungen verorten."
+    ],
+    "fehler": [
+      "Ein Reihengeschäft wird angenommen, obwohl ein Zwischenhändler die Ware erst in sein eigenes Lager holt und sie danach selbst weiterschickt.",
+      "Mehreren Lieferungen der Kette wird eine Steuerbefreiung als bewegte Lieferung zugesprochen."
+    ],
+    "merksatz": "Eine Ware, ein Transport, eine bewegte Lieferung – alle anderen Lieferungen der Kette ruhen."
+  },
+  {
+    "quelle": "ust-m-b04-15",
+    "titel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
+    "einordnung": [
+      "Die Zuordnung der Warenbewegung entscheidet über Lieferort, Steuerbefreiung und Registrierungspflichten aller Beteiligten. Deshalb steht sie im Zentrum jeder Klausur zum Reihengeschäft."
+    ],
+    "lernziele": [
+      "Befördert oder versendet der erste Unternehmer, ist seine Lieferung bewegt; transportiert der letzte Abnehmer, ist es die Lieferung an ihn.",
+      "Transportiert ein Zwischenhändler, wird vermutet, dass er als Abnehmer handelt; er kann nachweisen, als Lieferer aufgetreten zu sein, im Binnenmarkt etwa durch Verwendung der USt-IdNr. des Abgangsstaats.",
+      "Nur die bewegte Lieferung kann als innergemeinschaftliche Lieferung oder Ausfuhr steuerfrei sein, und nur ihr Empfänger verwirklicht einen innergemeinschaftlichen Erwerb.",
+      "Ruhende Lieferungen vor der bewegten gelten am Beginn, ruhende Lieferungen danach am Ende des Transports als ausgeführt (§ 3 Abs. 7 Satz 2 UStG)."
+    ],
+    "pruefschritte": [
+      "Anhand der Belege feststellen, wer den Transport selbst durchführt oder den Frachtführer beauftragt hat.",
+      "Bei Transport durch einen Zwischenhändler die gesetzliche Vermutung anwenden und eine mögliche Widerlegung prüfen.",
+      "Ort der bewegten Lieferung nach § 3 Abs. 6 Satz 1 UStG am Beginn des Transports bestimmen.",
+      "Orte der ruhenden Lieferungen nach § 3 Abs. 7 Satz 2 UStG festlegen und daraus Steuerbarkeit und Registrierungspflichten ableiten."
+    ],
+    "fehler": [
+      "Einer ruhenden Lieferung wird die Steuerbefreiung für innergemeinschaftliche Lieferungen zugeordnet.",
+      "Die Zuordnung wird für jeden Beteiligten unterschiedlich vorgenommen statt einheitlich für die gesamte Kette."
+    ],
+    "merksatz": "Wer transportiert, entscheidet: Nur die bewegte Lieferung kann grenzüberschreitend steuerfrei sein, die übrigen liegen am Anfang oder Ende des Weges."
+  },
+  {
+    "quelle": "ust-m-b06-10",
+    "titel": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer?",
+    "einordnung": [
+      "Bei bestimmten Bauleistungen geht die Steuerschuld nach § 13b Abs. 2 Nr. 4 und Abs. 5 UStG auf den Leistungsempfänger über, wenn dieser selbst nachhaltig Bauleistungen erbringt. Die Abgrenzung des Bauleistungsbegriffs ist häufiger Klausurstoff."
+    ],
+    "lernziele": [
+      "Erfasst sind Leistungen, die ein Bauwerk errichten, reparieren, erhalten, umgestalten oder abbrechen und dabei in seine Substanz eingreifen.",
+      "Der Bauwerksbegriff ist weit und umfasst auch fest mit dem Boden verbundene Anlagen sowie dauerhaft eingebaute Maschinen.",
+      "Keine Bauleistungen sind reine Materiallieferungen, die Vermietung von Baugeräten, reine Planungs- und Überwachungsleistungen und nach Verwaltungsauffassung kleine Reparaturen bis 500 € netto.",
+      "Haben beide Beteiligte § 13b UStG irrtümlich angewendet, bleibt der Empfänger nach § 13b Abs. 5 Satz 7 UStG Steuerschuldner, sofern kein Steuerausfall entsteht."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob der Leistende im Inland ansässig ist; bei ausländischen Unternehmern geht § 13b Abs. 2 Nr. 1 UStG vor.",
+      "Feststellen, ob die Leistung die Substanz eines Bauwerks verändert und nicht zu den von der Verwaltung ausgenommenen Leistungen gehört.",
+      "Klären, ob der Empfänger selbst nachhaltig Bauleistungen erbringt.",
+      "Rechtsfolge ziehen: Der Empfänger schuldet die Steuer, der Leistende rechnet ohne Steuerausweis ab."
+    ],
+    "fehler": [
+      "Die Errichtung von Gebäuden auf eigenem Grundstück zum späteren Verkauf wird als Bauleistung behandelt.",
+      "Eine kleine Reparatur bis 500 € netto wird ohne Weiteres dem § 13b UStG unterworfen."
+    ],
+    "merksatz": "Bauleistung an einen Bauleistenden: Nicht der Handwerker, sondern der Auftraggeber führt die Umsatzsteuer ab."
+  },
+  {
+    "quelle": "ust-m-b06-6",
+    "titel": "Ausländischer Leistender: Steuerschuld wandert zum Empfänger",
+    "einordnung": [
+      "Erbringt ein im Ausland ansässiger Unternehmer eine steuerpflichtige Leistung im Inland, schuldet häufig der Empfänger die Steuer nach § 13b UStG. Entscheidend ist, wann ein Unternehmer als im Ausland ansässig gilt."
+    ],
+    "lernziele": [
+      "§ 13b Abs. 1 UStG erfasst sonstige Leistungen eines im übrigen Gemeinschaftsgebiet ansässigen Unternehmers, deren Ort sich nach § 3a Abs. 2 UStG im Inland befindet.",
+      "§ 13b Abs. 2 Nr. 1 UStG erfasst Werklieferungen und die übrigen sonstigen Leistungen ausländischer Unternehmer; Empfänger kann auch eine nicht unternehmerisch tätige juristische Person sein.",
+      "Im Ausland ansässig ist, wer im Inland weder Wohnsitz, Sitz, Geschäftsleitung noch eine am Umsatz beteiligte Betriebsstätte hat; eine deutsche Steuernummer oder USt-IdNr. ändert daran nichts.",
+      "Für Bemessungsgrundlage, Steuersatz, Berichtigung und Aufzeichnung gelten die allgemeinen Vorschriften; der Empfänger kann die geschuldete Steuer nach § 15 Abs. 1 Satz 1 Nr. 4 UStG abziehen."
+    ],
+    "pruefschritte": [
+      "Ort der Leistung bestimmen und feststellen, dass ein steuerbarer und steuerpflichtiger Umsatz im Inland vorliegt.",
+      "Ansässigkeit des Leistenden zum Zeitpunkt der Ausführung prüfen, auch ob eine inländische Betriebsstätte am Umsatz mitgewirkt hat.",
+      "Zuordnen, welcher Tatbestand des § 13b UStG greift, und den Empfänger als Unternehmer oder juristische Person einordnen.",
+      "Steuer beim Empfänger nach § 13b Abs. 5 UStG anmelden lassen und im selben Zeitraum den Vorsteuerabzug prüfen."
+    ],
+    "fehler": [
+      "Ein ausländischer Vermieter eines inländischen Grundstücks wird als nicht ansässig behandelt, obwohl er insoweit als im Inland ansässig gilt.",
+      "Die Ansässigkeit wird nach dem Zeitpunkt des Vertragsschlusses statt nach dem der Leistungsausführung beurteilt."
+    ],
+    "merksatz": "Leistender ohne Ansässigkeit im Inland, steuerpflichtiger Inlandsumsatz, unternehmerischer Kunde: Dann schuldet der Kunde die Steuer."
+  },
+  {
+    "quelle": "ust-m-b11-8",
+    "titel": "Gemischt genutzter Gegenstand: Welche Zuordnung ist erlaubt?",
+    "einordnung": [
+      "Nutzt ein Unternehmer einen Gegenstand teils unternehmerisch, teils privat, entscheidet die Zuordnung über Vorsteuerabzug, Wertabgabenbesteuerung und die Steuerbarkeit eines späteren Verkaufs. Das Wahlrecht ist deshalb klausurrelevant."
+    ],
+    "lernziele": [
+      "Maßgeblich sind die Verhältnisse beim Bezug der Leistung; zuzuordnen ist jeder einzelne Leistungsbezug, also auch jede spätere Reparatur.",
+      "Vertretbare Sachen sind schon beim Erwerb nach der jeweiligen Verwendung aufzuteilen; ein Wahlrecht besteht insoweit nicht.",
+      "Einheitliche Gegenstände kann der Unternehmer ganz, teilweise oder gar nicht dem Unternehmen zuordnen; bei einer unternehmerischen Nutzung unter 10 % scheidet die Zuordnung nach § 15 Abs. 1 Satz 2 UStG aus.",
+      "Bei voller Zuordnung ist die Vorsteuer voll abziehbar, die Privatnutzung als unentgeltliche Wertabgabe zu versteuern und ein späterer Verkauf steuerbar."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob eine vertretbare Sache oder ein einheitlicher Gegenstand bezogen wurde.",
+      "Unternehmerische Nutzungsquote zum Zeitpunkt des Bezugs ermitteln und mit der Grenze von 10 % abgleichen.",
+      "Die getroffene Zuordnungsentscheidung erkennen, etwa am Umfang des geltend gemachten Vorsteuerabzugs.",
+      "Folgen ableiten: Vorsteuerabzug, Besteuerung der Privatnutzung und Behandlung späterer Betriebskosten und Veräußerung."
+    ],
+    "fehler": [
+      "Eine vertretbare Sache, die teils privat verbraucht wird, wird vollständig dem Unternehmen zugeordnet.",
+      "Bei einem nicht zugeordneten Gegenstand wird jeglicher Vorsteuerabzug aus laufenden Kosten verneint, obwohl unternehmerisch veranlasste Kosten anteilig abziehbar sind."
+    ],
+    "merksatz": "Vertretbare Sachen werden aufgeteilt, bei einheitlichen Gegenständen wird gewählt – und die Wahl bestimmt alle Folgen bis zum Verkauf."
+  },
+  {
+    "quelle": "ust-m-b11-30",
+    "titel": "Vorsteueraufteilung nach § 15 Abs. 4 UStG: Welcher Schlüssel passt?",
+    "einordnung": [
+      "Dient eine Eingangsleistung sowohl Abzugs- als auch Ausschlussumsätzen, ist die Vorsteuer nach § 15 Abs. 4 UStG wirtschaftlich zuzurechnen. Bei gemischt genutzten Gebäuden ist die Wahl des Schlüssels ein Standardthema."
+    ],
+    "lernziele": [
+      "Vorrang hat die direkte wirtschaftliche Zuordnung; der nicht abziehbare Teil darf sachgerecht geschätzt werden.",
+      "Auf den Gesamtumsatzschlüssel darf nach § 15 Abs. 4 Satz 3 UStG erst zurückgegriffen werden, wenn sich keine genauere Zurechnung finden lässt, etwa bei einem Verwaltungsgebäude für das ganze Unternehmen.",
+      "Anschaffungs- und Herstellungskosten eines Gebäudes sind insgesamt nach einem einheitlichen Schlüssel aufzuteilen, selbst wenn einzelne Aufwendungen nur einen Gebäudeteil betreffen; Erhaltungsaufwand lässt sich dagegen dem genutzten Bereich direkt zuordnen.",
+      "Regelfall ist der Flächenschlüssel; bei erheblichen Ausstattungsunterschieden ist der objektbezogene Umsatzschlüssel, bei stark abweichenden Geschosshöhen der umbaute Raum genauer."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob die Eingangsleistung sowohl Abzugs- als auch Ausschlussumsätzen dient.",
+      "Aufwand nach ertragsteuerlichen Begriffen als Anschaffungs-, Herstellungs- oder Erhaltungsaufwand einordnen, ohne die Umqualifizierung anschaffungsnaher Kosten.",
+      "Bei Gebäudekosten den genauesten Schlüssel wählen und den Gesamtumsatzschlüssel nur als letzte Möglichkeit heranziehen.",
+      "Nutzflächen richtig ermitteln: Gemeinschafts- und Versorgungsflächen bleiben außen vor, Balkone und Terrassen zählen zur Hälfte."
+    ],
+    "fehler": [
+      "Herstellungskosten, die räumlich nur einen Gebäudeteil betreffen, werden diesem Teil direkt zugeordnet statt in die Gesamtaufteilung einbezogen.",
+      "Der Gesamtumsatzschlüssel wird verwendet, obwohl ein objektbezogener Flächenschlüssel möglich ist."
+    ],
+    "merksatz": "Erst direkt zuordnen, dann möglichst genau schlüsseln – der Gesamtumsatz ist nur die Notlösung."
+  },
+  {
+    "quelle": "ust-m-b12-8",
+    "titel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
+    "einordnung": [
+      "§ 15a UStG passt den ursprünglichen Vorsteuerabzug an, wenn ein Wirtschaftsgut später anders verwendet wird als beim Bezug beabsichtigt. Klausuren verbinden das häufig mit Option, Veräußerung oder Entnahme von Grundstücken."
+    ],
+    "lernziele": [
+      "Verglichen werden die Verhältnisse beim ursprünglichen Vorsteuerabzug mit der tatsächlichen Verwendung ab erstmaliger Nutzung und in den Folgejahren.",
+      "Eine Änderung liegt etwa beim Wechsel zwischen steuerpflichtiger und steuerfreier Nutzung, beim Übergang zur oder von der Kleinunternehmerregelung und bei Rechtsänderungen vor.",
+      "Eine Veräußerung oder Entnahme innerhalb des Berichtigungszeitraums wird nach § 15a Abs. 8 und 9 UStG so behandelt, als würde das Wirtschaftsgut bis zu dessen Ende entsprechend diesem Umsatz genutzt.",
+      "Eine Geschäftsveräußerung im Ganzen löst keine Berichtigung aus, weil der Erwerber in die Stellung des Veräußerers eintritt."
+    ],
+    "pruefschritte": [
+      "Ursprünglichen Vorsteuerabzug und die dafür maßgebliche Verwendungsabsicht ermitteln.",
+      "Tatsächliche Verwendung in jedem Jahr des Berichtigungszeitraums feststellen und mit dem Ausgangsprozentsatz vergleichen.",
+      "Bei Veräußerung oder Entnahme deren Steuerpflicht prüfen und die fiktive Verwendung für die Restlaufzeit ansetzen.",
+      "Berichtigungsbetrag zeitanteilig berechnen und dem richtigen Voranmeldungs- oder Besteuerungszeitraum zuordnen."
+    ],
+    "fehler": [
+      "Eine steuerfreie Grundstücksveräußerung wird nur für das laufende Jahr berücksichtigt statt für den gesamten Rest des Berichtigungszeitraums.",
+      "Bei einer Geschäftsveräußerung im Ganzen nimmt der Veräußerer eine Vorsteuerberichtigung vor."
+    ],
+    "merksatz": "§ 15a UStG vergleicht die Absicht beim Kauf mit der tatsächlichen Nutzung – ein Verkauf zählt als Nutzung bis zum Fristende."
+  },
+  {
+    "quelle": "ust-m-b12-7",
+    "titel": "Berichtigungszeitraum nach § 15a UStG richtig bestimmen",
+    "einordnung": [
+      "Der Berichtigungszeitraum legt fest, über wie viele Jahre der Vorsteuerabzug an die tatsächliche Nutzung angepasst wird. Beginn, Dauer und vorzeitiges Ende sind häufige Fehlerquellen."
+    ],
+    "lernziele": [
+      "Der Zeitraum beträgt grundsätzlich fünf Jahre, bei Grundstücken und ihren wesentlichen Bestandteilen zehn Jahre.",
+      "Ist die Verwendungsdauer kürzer, etwa weil das Wirtschaftsgut zerstört wird, gilt nach § 15a Abs. 5 Satz 2 UStG der kürzere Zeitraum.",
+      "Der Zeitraum beginnt mit der tatsächlichen erstmaligen Verwendung; ein Leerstand nach Fertigstellung ist noch keine Verwendung.",
+      "§ 45 UStDV rundet auf volle Monate: Ein Ende vor dem 16. eines Monats fällt auf das Vormonatsende, ein späteres Ende auf das Monatsende."
+    ],
+    "pruefschritte": [
+      "Art des Wirtschaftsguts bestimmen und den gesetzlichen Zeitraum von fünf oder zehn Jahren zuordnen.",
+      "Prüfen, ob eine kürzere tatsächliche Verwendungsdauer den Zeitraum verkürzt.",
+      "Tag der ersten tatsächlichen Nutzung ermitteln; Anschaffung, Fertigstellung oder Rechnungsdatum sind dafür unerheblich.",
+      "Ende nach § 45 UStDV auf volle Kalendermonate bringen und bei abschnittsweiser Ingebrauchnahme getrennte Zeiträume bilden."
+    ],
+    "fehler": [
+      "Der Zeitraum eines Gebäudes wird ab Fertigstellung gerechnet, obwohl es danach zunächst leer stand.",
+      "Der Erlös aus dem Verkauf von Resten nach einem Totalschaden wird noch in die Berichtigung einbezogen."
+    ],
+    "merksatz": "Der Berichtigungszeitraum beginnt mit der ersten echten Nutzung und endet spätestens, wenn das Wirtschaftsgut unbrauchbar wird."
+  },
+  {
+    "quelle": "ust-m-b13-18",
+    "titel": "Privatnutzung des Firmenwagens: Vorsteuer und Wertabgabe",
+    "einordnung": [
+      "Teilunternehmerisch genutzte Fahrzeuge verbinden Zuordnungswahlrecht, Vorsteuerabzug und Besteuerung der Privatnutzung. Davon zu trennen ist die Überlassung eines Fahrzeugs an Arbeitnehmer."
+    ],
+    "lernziele": [
+      "Für die 10-%-Grenze des § 15 Abs. 1 Satz 2 UStG zählt das Verhältnis der unternehmerisch gefahrenen Kilometer zur Jahresfahrleistung.",
+      "Ordnet der Unternehmer das Fahrzeug voll zu, zieht er die Vorsteuer voll ab und versteuert die Privatnutzung nach § 3 Abs. 9a Nr. 1 UStG; Bemessungsgrundlage sind die vorsteuerbelasteten Ausgaben.",
+      "Wird die Privatnutzung nach der ertragsteuerlichen 1-%-Regelung bewertet, dürfen für nicht vorsteuerbelastete Kosten pauschal 20 % abgezogen werden; die Vergünstigungen für Elektrofahrzeuge gelten umsatzsteuerlich nicht.",
+      "Die Überlassung eines Dienstwagens an Arbeitnehmer auch für private Fahrten ist regelmäßig eine entgeltliche Leistung gegen einen Teil der Arbeitsleistung."
+    ],
+    "pruefschritte": [
+      "Unternehmerische Nutzungsquote nach Kilometern ermitteln und die Zuordnungsmöglichkeit prüfen.",
+      "Vorsteuerabzug aus Anschaffung, laufenden Kosten sowie Miete oder Leasing entsprechend der Zuordnung bestimmen.",
+      "Methode für die Privatnutzung wählen: pauschaler Prozentwert, soweit ertragsteuerlich zulässig, Fahrtenbuch oder sachgerechte Schätzung.",
+      "Bemessungsgrundlage ohne nicht vorsteuerbelastete Kosten ermitteln und den Regelsteuersatz anwenden.",
+      "Bei Überlassung an Personal einen tauschähnlichen Umsatz annehmen und dessen Wert ansetzen."
+    ],
+    "fehler": [
+      "Die für Elektrofahrzeuge ermäßigten ertragsteuerlichen Pauschalwerte werden in die umsatzsteuerliche Bemessungsgrundlage übernommen.",
+      "Die Dienstwagenüberlassung an Arbeitnehmer wird als unentgeltliche Wertabgabe statt als entgeltliche Leistung gewürdigt."
+    ],
+    "merksatz": "Voll zugeordnet heißt: volle Vorsteuer beim Kauf, Wertabgabe bei Privatfahrten – ohne die Elektroprivilegien des Einkommensteuerrechts."
+  },
+  {
+    "quelle": "ust-m-b13-9",
+    "titel": "Werbegeschenke und Verlosungen: Wann entsteht Umsatzsteuer?",
+    "einordnung": [
+      "§ 3 Abs. 1b Satz 1 Nr. 3 UStG stellt unentgeltliche Zuwendungen von Gegenständen aus unternehmerischen Gründen einer Lieferung gleich. Ob tatsächlich Steuer anfällt, hängt eng mit dem Vorsteuerabzug zusammen."
+    ],
+    "lernziele": [
+      "Erfasst sind etwa Sachspenden, Werbeartikel und Gewinne bei Preisausschreiben; nicht erfasst werden Warenmuster und kleine Geschenke, die je Empfänger und Jahr netto 50 € nicht übersteigen.",
+      "Nach § 3 Abs. 1b Satz 2 UStG ist die Zuwendung nur steuerbar, wenn für den Gegenstand oder Teile davon Vorsteuer abgezogen werden konnte.",
+      "Für teurere Geschenke an Geschäftsfreunde schließt § 15 Abs. 1a UStG den Vorsteuerabzug aus; eine Wertabgabe entfällt dann.",
+      "Wer einen Gegenstand von vornherein für die unentgeltliche Abgabe erwirbt, hat keinen Vorsteuerabzug; unentgeltliche sonstige Leistungen aus unternehmerischen Gründen sind nicht steuerbar."
+    ],
+    "pruefschritte": [
+      "Prüfen, ob ein Gegenstand des Unternehmens aus unternehmerischen Gründen unentgeltlich abgegeben wird.",
+      "Ausnahmen ausschließen: Geschenk von geringem Wert oder Warenmuster.",
+      "Vorsteuerabzug beim Erwerb prüfen, insbesondere die Verwendungsabsicht beim Bezug und den Ausschluss nach § 15 Abs. 1a UStG.",
+      "Bewirtungen von Kunden und Geschäftspartnern als nicht steuerbare unentgeltliche sonstige Leistungen gesondert einordnen."
+    ],
+    "fehler": [
+      "Eine unentgeltliche Dienstleistung zu Werbezwecken wird nach § 3 Abs. 9a UStG besteuert.",
+      "Aus einem gezielt für ein Gewinnspiel gekauften Gegenstand wird Vorsteuer abgezogen und anschließend eine Wertabgabe versteuert."
+    ],
+    "merksatz": "Kein Vorsteuerabzug, keine Wertabgabe: Bei Werbegeschenken entscheidet der Einkauf über die Besteuerung der Abgabe."
+  },
+  {
+    "quelle": "ust-m-b10-29",
+    "titel": "Kleinunternehmer ab 2025: Die Grenzen des § 19 UStG",
+    "einordnung": [
+      "Seit 2025 sind die Umsätze von Kleinunternehmern steuerfrei, wenn der Gesamtumsatz bestimmte Grenzen einhält. Klausuren testen vor allem die Ermittlung des Gesamtumsatzes und das Überschreiten im laufenden Jahr."
+    ],
+    "lernziele": [
+      "Voraussetzung ist ein Gesamtumsatz von höchstens 25.000 € im Vorjahr und höchstens 100.000 € im laufenden Jahr.",
+      "Wird die Grenze von 100.000 € im laufenden Jahr überschritten, ist bereits der Umsatz, der sie überschreitet, regulär zu versteuern; frühere Umsätze bleiben steuerfrei.",
+      "Wer die Tätigkeit im Laufe des Jahres aufnimmt, darf in diesem Jahr nur die Grenze von 25.000 € ausschöpfen.",
+      "Maßgeblich sind die tatsächlich vereinnahmten Entgelte; bestimmte steuerfreie Umsätze und Verkäufe von Anlagevermögen bleiben außer Ansatz, bei Differenzbesteuerung zählen die vollen Verkaufserlöse."
+    ],
+    "pruefschritte": [
+      "Steuerbare Umsätze des Kalenderjahres zusammenstellen und die in § 19 Abs. 2 UStG genannten steuerfreien Umsätze abziehen.",
+      "Auf vereinnahmte Entgelte umstellen und Erlöse aus dem Verkauf von Anlagevermögen ausscheiden.",
+      "Vorjahresumsatz mit der Grenze von 25.000 € vergleichen; bei Neugründung nur das laufende Jahr heranziehen.",
+      "Im laufenden Jahr ermitteln, mit welchem Umsatz die Grenze von 100.000 € überschritten wird, und ab diesem Umsatz regulär besteuern."
+    ],
+    "fehler": [
+      "Umsätze eines Händlers mit Differenzbesteuerung werden nur mit der Marge in den Gesamtumsatz eingerechnet.",
+      "Nach Überschreiten der Grenze von 100.000 € wird rückwirkend das ganze Jahr regulär besteuert."
+    ],
+    "merksatz": "Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 € – und der Umsatz, der die Grenze reißt, ist schon steuerpflichtig."
+  },
+  {
+    "quelle": "ust-m-b08-2-38",
+    "titel": "Option bei Grundstücksvermietung: Die Sperre des § 9 Abs. 2 UStG",
+    "einordnung": [
+      "Ein Vermieter kann auf die Steuerfreiheit nach § 4 Nr. 12 UStG nur verzichten, wenn der Mieter das Objekt für vorsteuerunschädliche Umsätze nutzt. Die Prüfung erfolgt für jeden Gebäudeteil gesondert."
+    ],
+    "lernziele": [
+      "§ 9 Abs. 1 UStG setzt voraus, dass der Mieter Unternehmer ist und die Räume für seine unternehmerische Tätigkeit anmietet.",
+      "Nach § 9 Abs. 2 UStG ist der Verzicht nur möglich, soweit der Mieter die Räume ausschließlich für Umsätze nutzt, die den Vorsteuerabzug nicht ausschließen; das gilt für Gebäude im zeitlichen Anwendungsbereich des § 27 Abs. 2 UStG.",
+      "Selbständig nutzbare Gebäudeteile werden getrennt beurteilt, auch wenn ein einheitlicher Mietvertrag besteht.",
+      "Die Verwaltung duldet eine schädliche Nutzung, die den Vorsteuerabzug höchstens um 5 % mindern würde; Mieter mit Durchschnittssätzen nach §§ 23, 23a, 24 UStG oder Kleinunternehmer schließen die Option dagegen aus."
+    ],
+    "pruefschritte": [
+      "Steuerfreiheit der Vermietung nach § 4 Nr. 12 Buchst. a UStG feststellen.",
+      "Prüfen, ob der Mieter Unternehmer ist und die Räume für sein Unternehmen nutzt.",
+      "Für jeden selbständig nutzbaren Teil die Umsätze des Nutzers untersuchen, auch bei einer Weitervermietung.",
+      "Bagatellregel anwenden, wenn die schädliche Nutzung den Vorsteuerabzug um höchstens 5 % mindern würde.",
+      "Folgen für den eigenen Vorsteuerabzug des Vermieters aus Herstellungs- und laufenden Kosten ableiten."
+    ],
+    "fehler": [
+      "Bei einer Zwischenvermietung wird nur der unmittelbare Mieter betrachtet, nicht die Nutzung durch den Endnutzer.",
+      "Flächen, die ein Mieter für steuerfreie Finanz- oder Heilbehandlungsumsätze nutzt, werden trotzdem steuerpflichtig vermietet."
+    ],
+    "merksatz": "Optieren darf der Vermieter nur, wenn sein Mieter selbst zum Vorsteuerabzug berechtigt ist – für jeden Gebäudeteil einzeln geprüft."
+  },
+  {
+    "quelle": "ust-m-b06-17",
+    "titel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+    "einordnung": [
+      "Wird ein Unternehmen als Ganzes auf einen anderen Unternehmer übertragen, sind die dabei ausgeführten Umsätze nach § 1 Abs. 1a UStG nicht steuerbar. Die Abgrenzung zur steuerbaren Einzelveräußerung entscheidet über hohe Steuerbeträge."
+    ],
+    "lernziele": [
+      "Erfasst ist die Übertragung oder Einbringung eines ganzen Unternehmens oder Teilbetriebs, und zwar gleichgültig, ob sie gegen Entgelt oder unentgeltlich geschieht.",
+      "Entscheidend ist eine Gesamtwürdigung, ob das übertragene Vermögen dem Erwerber die Fortführung der wirtschaftlichen Tätigkeit ermöglicht; die bloße Übertragung eines Warenlagers genügt nicht.",
+      "Auch ein einzelnes Wirtschaftsgut, etwa ein vermietetes Grundstück, kann genügen; gemietete Räume müssen nicht übereignet werden, wenn der Erwerber sie weiter nutzen kann.",
+      "Zurückbehaltene unwesentliche Gegenstände, die später verkauft oder entnommen werden, sind steuerbar; der Erwerber tritt nach § 1 Abs. 1a Satz 3 UStG in die Stellung des Veräußerers ein."
+    ],
+    "pruefschritte": [
+      "Feststellen, ob ein Unternehmen oder Teilbetrieb an einen Unternehmer für dessen Unternehmen übertragen wird.",
+      "Wesentliche Grundlagen je nach Unternehmensart bestimmen, etwa Grundstück und Anlagen bei der Produktion oder Räume und Inventar in der Gastronomie.",
+      "Im Rahmen einer Gesamtwürdigung klären, ob der Erwerber das Unternehmen ohne nennenswerte Neuinvestitionen fortführen kann.",
+      "Wird die Geschäftsveräußerung verneint, jeden Einzelumsatz gesondert auf Steuerbarkeit, Steuerfreiheit und Steuersatz prüfen."
+    ],
+    "fehler": [
+      "Die unentgeltliche Übertragung eines ganzen Betriebs wird als steuerbare Entnahme behandelt.",
+      "Werden die wesentlichen Betriebsgrundlagen auf mehrere Erwerber verteilt, wird trotzdem eine Geschäftsveräußerung angenommen."
+    ],
+    "merksatz": "Geht ein fortführbares Unternehmen als Ganzes über, fällt keine Umsatzsteuer an – wohl aber auf das, was zurückbleibt."
+  }
+]

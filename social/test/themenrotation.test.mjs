@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { klausurenDesTages, tagesplan, auffuellplan } from "../src/planer.mjs";
+import { klausurenDesTages, tagesplan, auffuellplan, faecherInRotation } from "../src/planer.mjs";
 import { feedKategorie, feedFolgeErlaubt } from "../src/inhalte.mjs";
 
 const fach = { 1: "ao", 2: "kst", 3: "bilanz" };
@@ -114,4 +114,42 @@ test("Auffüllplan hält dieselbe Farbregel wie der Tagesfeed", () => {
     assert.equal(feedKategorie(beitrag), beitrag.thema.klausur, "Auffüll-Beitrag wird in der falschen Feed-Kategorie eingeordnet");
     vorher = beitrag;
   }
+});
+
+test("Drei Feed-Slots rotieren täglich und decken K1, K2 und K3 ab", () => {
+  const tage = Array.from({ length: 9 }, (_, i) => new Date(Date.UTC(2026, 8, 29) + i * 864e5).toISOString().slice(0, 10));
+  const rotationen = tage.map((datum) => klausurenDesTages(datum, 3));
+  for (const r of rotationen) assert.deepEqual([...r].sort(), [1, 2, 3]);
+  const folge = rotationen.flat();
+  for (let i = 1; i < folge.length; i++) assert.notEqual(folge[i - 1], folge[i], "Doppel-Farbe an Position " + i);
+  for (const slot of [0, 1, 2]) {
+    assert.deepEqual(new Set(rotationen.slice(0, 3).map((r) => r[slot])), new Set([1, 2, 3]), "b" + (slot + 1) + " rotiert nicht");
+  }
+});
+
+test("Fächer einer Klausur wechseln reihum, auch gegen ein starkes fachGewicht", () => {
+  assert.deepEqual(faecherInRotation(["kst", "istr"], []), ["istr", "kst"]);
+  const eintraege = [
+    { datum: "2026-10-01", art: "beitrag", fach: "istr", format: "spickzettel" },
+    { datum: "2026-10-02", art: "beitrag", fach: "kst", format: "reel" },
+  ];
+  assert.equal(faecherInRotation(["istr", "kst"], eintraege, false)[0], "kst");
+  assert.equal(faecherInRotation(["istr", "kst"], eintraege, true)[0], "istr");
+
+  const zweiFaecher = pool.flatMap((t) => [t, { ...t, id: t.id + "-b", fach: t.fach + "b" }]);
+  const ledger = { veroeffentlicht: [], fachZaehler: {} };
+  const strategie = { fachGewicht: { kst: 5, kstb: 0.2 } };
+  const k2 = [];
+  for (let i = 0; i < 12; i++) {
+    const datum = new Date(Date.UTC(2026, 8, 1) + i * 864e5).toISOString().slice(0, 10);
+    for (const b of tagesplan(datum, ledger, zweiFaecher, strategie).beitraege) {
+      if (!b.thema) continue;
+      if (b.klausur === 2) k2.push(b.thema.fach);
+      ledger.veroeffentlicht.push({ datum, art: "beitrag", slot: b.slot, format: b.format, fach: b.thema.fach, klausur: b.klausur, thema: b.thema.id });
+    }
+  }
+  assert.ok(k2.length >= 4, "zu wenige K2-Beiträge im Test");
+  assert.ok(k2.includes("kst") && k2.includes("kstb"), "K2 muss beide Fächer zeigen: " + k2.join(","));
+  const anteil = k2.filter((f) => f === "kst").length / k2.length;
+  assert.ok(anteil > 0.25 && anteil < 0.75, "Fachgewicht verdrängt die Rotation: " + k2.join(","));
 });

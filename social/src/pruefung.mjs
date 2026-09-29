@@ -15,6 +15,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { manuellFinalisiert } from "./finalisierung.mjs";
+import { quellenregelBefunde } from "./quellenregeln.mjs";
 
 const hier = path.dirname(fileURLToPath(import.meta.url));
 const DATEN = path.resolve(hier, "../../src/data");
@@ -158,7 +159,7 @@ export function korpus() {
     for (const m of text.matchAll(anredeMuster)) namen.add(m[1]);
   }
   /* Häufige Gattungswörter, die das Muster fälschlich als Namen erfasst. */
-  const allgemein = new Set(["Bank", "Kunden", "Kunde", "Lieferant", "Käufer", "Verkäufer", "Betrieb", "Muster", "Beispiel", "Mutter", "Tochter", "Erwerber", "Eigentümer", "Vermieter", "Mieter", "Alt", "Neu", "Beteiligung", "Holding", "Vertrieb", "Handel", "Bau", "Immobilien", "Verwaltung", "Beratung", "Personen", "Kapital", "Komplementär", "Kommanditist", "Anteile", "Anteil", "Gesellschafter", "Geschäftsführer", "Organ", "Organträger", "Tochtergesellschaft", "Muttergesellschaft", "Gesellschaft", "Unternehmen", "Firma"]);
+  const allgemein = new Set(["Bank", "Kunden", "Kunde", "Lieferant", "Käufer", "Verkäufer", "Betrieb", "Muster", "Beispiel", "Mutter", "Tochter", "Erwerber", "Eigentümer", "Vermieter", "Mieter", "Alt", "Neu", "Beteiligung", "Holding", "Vertrieb", "Handel", "Bau", "Immobilien", "Verwaltung", "Beratung", "Personen", "Kapital", "Komplementär", "Kommanditist", "Anteile", "Anteil", "Gesellschafter", "Geschäftsführer", "Organ", "Organträger", "Tochtergesellschaft", "Muttergesellschaft", "Gesellschaft", "Unternehmen", "Firma", "Überhang", "Gesamterwerb"]);
   for (const n of allgemein) namen.delete(n);
   /* Gattungswörter erkennt man an ihrer Häufigkeit: Ein Fallname taucht ein
      paar Mal auf, ein Fachbegriff wie „Anteile“ hunderte Male. */
@@ -171,7 +172,7 @@ export function korpus() {
   /* Gattungsbegriffe (Endungen -ung, -keit, -sätze …) und Artikel sind keine Namen. */
   for (const n of [...namen]) {
     const letztes = n.split(/[- ]/).pop();
-    if (/^(Die|Der|Das|Ein|Eine|Diese|Jede)\b/.test(n) || /(ung|ungs|keit|heit|sätze|künfte|einnahmen|ausgaben|einkommen|erträge|aufwand|aufwendungen|entnahmen|einlagen|vergütung|vergütungen|abzug|beträge|gewinn|züge|zeit|zinsen|verlust|kosten|wert|steuer|bilanz|konto|vermögen|recht|schaft|ner)$/i.test(letztes) || n.length < 4) namen.delete(n);
+    if (/^(Die|Der|Das|Ein|Eine|Diese|Jede|Jeder|Jedes|Viele|Alle|Beide|Einige|Mehrere|Manche|Andere|Keine|Solche|Neunzig|Eingetragene|Rechtsfähige)\b/.test(n) || /(ung|ungs|keit|heit|sätze|künfte|einnahmen|ausgaben|einkommen|erträge|ertrag|aufwand|aufwendungen|entnahmen|einlagen|vergütung|vergütungen|abzug|beträge|gewinn|züge|zeit|zinsen|verlust|kosten|wert|steuer|bilanz|konto|vermögen|recht|schaft|ner)$/i.test(letztes) || n.length < 4) namen.delete(n);
   }
   /* Und die Länge entscheidet mit: Das Anredemuster („Gesellschafter X") fängt
      auch den Fachbegriff, der zufällig dahintersteht. So kam am 15.09.
@@ -900,6 +901,10 @@ export function pruefeBeitrag(beitrag, opt = {}) {
 
   /* 3. Quellenbezüge */
   if (QUELLENBEZUG.test(gesamt)) fehler.push(`Bezug auf Kursquelle/Seiten/Fallnummern entfernen: ${gesamt.match(QUELLENBEZUG)[0]}`);
+
+  /* 3b. Verbindliche Quellenregeln (quellenregeln.mjs): keine Überschriften
+        oder Gliederung der Lernunterlagen, keine Verfasser und Lehrgänge. */
+  if (opt.quellenregeln !== false) fehler.push(...quellenregelBefunde(beitrag, texte));
 
   /* 3c. Normfallen: feste Gesetzeszahlen, die nicht verhandelbar sind.
         Deterministisch und vor jedem Modellaufruf. Erbquoten betreffen auch
