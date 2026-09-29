@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -34,17 +28,17 @@
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "umwst-aufb-umw-2-13",
-        "themaTitel": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
-        "fach": "umwst",
+        "themaId": "bilanz-modul-k3-50",
+        "themaTitel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-modul-ao-339",
-        "themaTitel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
+        "themaId": "ao-modul-ao-376",
+        "themaTitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
         "fach": "ao",
         "klausur": 1,
         "lang": true
@@ -204,24 +198,23 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "umwst",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-13",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-50",
       "slug": "2026-10-04-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
+          "titel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -229,8 +222,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Neue Anteile entstehen nur bei Sachgründung oder Sachkapitalerhöhung; sie müssen gerade für die Einbringung ausgegeben werden.",
-            "Nach dem BFH genügt es, wenn der Betrieb im Zusammenhang mit einer Barkapitalerhöhung als vertraglich vereinbartes Aufgeld eingebracht und in der Kapitalrücklage gezeigt wird."
+            "die bilanzielle Behandlung von der außerbilanziellen Korrektur trennen",
+            "Dividende und Veräußerungsgewinn unterschiedlich untersuchen"
           ]
         },
         {
@@ -239,18 +232,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Den gesellschaftsrechtlichen Weg feststellen: Sachgründung, Sachkapitalerhöhung, Aufgeld bei Barerhöhung oder bloße Einlage."
+              "text": "Bilanziellen Vorgang zuerst lückenlos lösen: Anschaffungskosten, Teilwertabschreibung nach § 253 Abs. 3 S. 5 HGB und § 6 Abs. 1 Nr. 2 S. 2 EStG, Wertaufholung, Abgang."
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob die Anteilsgewährung direkt auf der Einbringung beruht."
+              "text": "Ertragsart bestimmen: laufender Beteiligungsertrag oder Veräußerungsgewinn?"
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Müssen für die Einbringung immer neue Anteile ausgegeben werden?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Beteiligungen der Kapitalgesellschaft und § 8b KStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -267,48 +260,49 @@
           ]
         }
       ],
-      "caption": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Beteiligungen der Kapitalgesellschaft und § 8b KStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Müssen für die Einbringung immer neue Anteile…",
+      "kurztitel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 20 UmwStG",
-        "§ 20 Abs. 3 UmwStG",
-        "§ 27 KStG",
-        "§ 20 Abs. 2 UmwStG",
-        "§ 27 Abs. 2 KStG",
-        "§ 20 Abs. 5 UmwStG",
-        "§ 16 EStG",
-        "§ 54 Abs. 4 UmwG",
-        "§§ 5 Abs. 4 GmbHG",
-        "Themenpool: umwst-aufb-umw-2-13"
+        "§ 246 Abs. 1 S. 1 HGB",
+        "§ 253 Abs. 1 S. 1 HGB",
+        "§ 253 Abs. 3 S. 5 HGB",
+        "§ 253 Abs. 5 S. 1 HGB",
+        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "§ 6 Abs. 1 Nr. 2 S. 2, 3 EStG",
+        "§ 8 Abs. 1 KStG",
+        "§ 8b Abs. 1 S. 1 KStG",
+        "§ 8b Abs. 2 S. 1, 2, 3 KStG",
+        "§ 8b Abs. 3 S. 1 KStG",
+        "§ 8b Abs. 4 S. 6 KStG",
+        "Themenpool: bilanz-modul-k3-50"
       ],
       "coverRegie": {
-        "thema": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
+        "thema": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
         "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
-        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b2-umwst-aufb-umw-2-13-cover.png",
+        "bilddatei": "2026-10-04-b2-bilanz-modul-k3-50-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
@@ -316,30 +310,30 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-339",
+      "themaId": "ao-modul-ao-376",
       "slug": "2026-10-04-b3",
       "szenen": [
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
+          "titel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
           "unter": "Abgabenordnung",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 171 Abs. 10 S. 1 AO",
+          "norm": "§ 352 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Heute geht es um Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
-            "die Zwei-Jahres-Logik nach Bekanntgabe des"
+            "rechtsfähige Personenvereinigung selbst"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Bestimme Bekanntgabe bzw. maßgeblichen Zeitpunkt des Feststellungsbescheids.",
+          "titel": "Rechtsfähigkeit der Personenvereinigung bestimmen.",
           "text": null,
-          "norm": "§ 171 Abs. 10 S. 1 AO",
+          "norm": "§ 352 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 171 Abs. 10 S. 1 AO im Zusammenhang mit Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung.",
+          "sprecher": "Schritt 1: Rechtsfähigkeit der Personenvereinigung bestimmen.",
           "marken": [
             "Prüfpunkt 1"
           ]
@@ -347,11 +341,11 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "10 S. 1 AO an.",
+          "titel": "Prüfpunkt 2: § 34 AO",
           "text": null,
-          "norm": "§ 181 Abs. 1 S. 1 AO",
+          "norm": "§ 34 AO",
           "icon": null,
-          "sprecher": "Schritt 2: 10 S. 1 AO an.",
+          "sprecher": "Schritt 2: Prüfe § 34 AO im Zusammenhang mit Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse.",
           "marken": [
             "Prüfpunkt 2"
           ]
@@ -360,7 +354,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung: Voraussetzungen vor Ergebnis.",
+          "text": "Bei Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse: Voraussetzungen vor Ergebnis.",
           "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
           "marken": [
             "Merksatz"
@@ -379,43 +373,43 @@
           ]
         }
       ],
-      "caption": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
+      "kurztitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 171 Abs. 10 S. 1 AO",
-        "§ 181 Abs. 1 S. 1 AO",
-        "§ 171 Abs. 3a AO",
-        "§ 361 Abs. 3 AO",
-        "Themenpool: ao-modul-ao-339"
+        "§ 352 AO",
+        "§ 34 AO",
+        "§ 183a AO",
+        "§ 352 Abs. 1 und 2 AO",
+        "Art. 97 § 39 Abs. 4 EGAO",
+        "Themenpool: ao-modul-ao-376"
       ],
       "coverRegie": {
-        "thema": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
+        "thema": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
         "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
+          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
         ],
         "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b3-ao-modul-ao-339-cover.png",
+        "bilddatei": "2026-10-04-b3-ao-modul-ao-376-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -429,8 +423,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -442,8 +436,7 @@
         "Teilwert",
         "gemeiner Wert"
       ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "richtig": 2
     },
     "s5": {
       "slot": "s5",
@@ -457,8 +450,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -470,8 +463,7 @@
         "gemeiner Wert"
       ],
       "richtig": 2,
-      "text": "§ 16 Abs. 3 S. 7 EStG verlangt den gemeinen Wert, nicht den Teilwert.",
-      "liveVorrangAktiv": true
+      "text": "§ 16 Abs. 3 S. 7 EStG verlangt den gemeinen Wert, nicht den Teilwert."
     },
     "s6": {
       "slot": "s6",
@@ -490,16 +482,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 49 EStG",
       "titel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
-      "text": "Bei laufender Grundstücksnutzung Art. 6 DBA von Unternehmensgewinnen unterscheiden. Bei Veräußerungen Art. 13 DBA anhand des veräußerten Vermögensgegenstands auswählen.",
-      "liveVorrangAktiv": true
+      "text": "Bei laufender Grundstücksnutzung Art. 6 DBA von Unternehmensgewinnen unterscheiden. Bei Veräußerungen Art. 13 DBA anhand des veräußerten Vermögensgegenstands auswählen."
     },
     "s7": {
       "slot": "s7",
@@ -512,12 +503,11 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s8": {
       "slot": "s8",
@@ -541,15 +531,14 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
-      "text": "Beschränkt steuerpflichtig heißt: Grundtabelle ohne Entlastung durch den Grundfreibetrag, kaum persönliche Abzüge, und Abzugsteuern gelten die Steuer meist ab.",
-      "liveVorrangAktiv": true
+      "text": "Beschränkt steuerpflichtig heißt: Grundtabelle ohne Entlastung durch den Grundfreibetrag, kaum persönliche Abzüge, und Abzugsteuern gelten die Steuer meist ab."
     },
     "s9": {
       "slot": "s9",
@@ -564,122 +553,28 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Maßgeblichkeit",
       "text": "Übernahme der handelsrechtlichen GoB in die Steuerbilanz, soweit keine steuerliche Sonderregelung besteht.",
-      "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Was macht Einkünfte eines Gebietsfremden zu inländischen",
-      "text": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "umwst",
-      "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Müssen für die Einbringung immer neue Anteile…",
-      "text": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Grundlagenbescheid als 'Brechstange': Zwei-Jahres-Hemmung, Einspruch und Einspruchsentscheidung",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG"
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-29T00:43:03.608Z",
-    "pfad": "vorproduktion/2026-10-04/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "wartetLive": []
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }

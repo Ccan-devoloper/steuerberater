@@ -11,13 +11,7 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
-    "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "coverbilder": false
   },
   "plan": {
     "beitraege": [
@@ -25,18 +19,18 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "umwst-aufb-umw-2-48",
-        "themaTitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
-        "fach": "umwst",
+        "themaId": "bilanz-modul-k3-19",
+        "themaTitel": "Buchungssatz und Gewinnauswirkung",
+        "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "ao-modul-ao-329",
-        "themaTitel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
-        "fach": "ao",
+        "themaId": "erbst-aufb-erbst-v-5",
+        "themaTitel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
+        "fach": "erbst",
         "klausur": 1
       },
       {
@@ -74,13 +68,13 @@
         "slot": "s6",
         "zeit": "11:53",
         "art": "norm",
-        "themaId": "ao-modul-ao-328"
+        "themaId": "istr-aufb-istr-gh-4-04"
       },
       {
         "slot": "s7",
         "zeit": "14:38",
         "art": "tipp",
-        "themaId": "erbst-aufb-erbst-t1-4"
+        "themaId": "ao-modul-ao-369"
       },
       {
         "slot": "s2",
@@ -93,13 +87,13 @@
         "slot": "s8",
         "zeit": "16:50",
         "art": "fehler",
-        "themaId": "erbst-aufb-erbst-v-19"
+        "themaId": "ao-aufb-ao-jacobs-12-1"
       },
       {
         "slot": "s9",
         "zeit": "19:13",
         "art": "tipp",
-        "themaId": "erbst-aufb-erbst-v-28"
+        "themaId": "ao-aufb-ao-jacobs-7-9"
       },
       {
         "slot": "s3",
@@ -113,15 +107,15 @@
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "umwst",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-48",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-modul-k3-19",
       "slug": "2026-10-23-b1",
       "folien": [
         {
           "art": "titel",
-          "titel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+          "titel": "Buchungssatz und Gewinnauswirkung",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -129,8 +123,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Gelangen die sperrfristbehafteten Anteile ohne Gegenleistung in eine Kapitalgesellschaft, etwa per verdeckter Einlage, wird der Einbringungsgewinn I nach § 22 Abs. 1 Satz 6 Nr. 1 UmwStG ausgelöst.",
-            "Wer die Anteile einer natürlichen Person schenkt, verstößt nicht gegen die Sperrfrist; der Beschenkte tritt nach § 22 Abs. 6 UmwStG in sie ein."
+            "Bestands- und Erfolgskonten sicher unterscheiden",
+            "Korrektur statt vollständiger Neubuchung formulieren"
           ]
         },
         {
@@ -139,18 +133,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Den Vorgang mit den sperrfristbehafteten Anteilen genau bestimmen: entgeltlich, unentgeltlich, Weitereinbringung oder sonstige Umwandlung."
+              "text": "Ist-Buchung des Sachverhalts notieren."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei Unentgeltlichkeit den Empfänger untersuchen: Kapitalgesellschaft schädlich, natürliche Person Rechtsnachfolge."
+              "text": "Soll-Buchung nach richtiger Würdigung bestimmen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Buchungssatz und Gewinnauswirkung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -167,60 +161,57 @@
           ]
         }
       ],
-      "caption": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Buchungssatz und Gewinnauswirkung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Welche Vorgänge stehen einer schädlichen…",
+      "kurztitel": "Buchungssatz und Gewinnauswirkung",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 22 Abs. 1 UmwStG",
-        "§ 23 Abs. 2 UmwStG",
-        "§ 21 UmwStG",
-        "§ 16 EStG",
-        "§ 13 Abs. 2 UmwStG",
-        "§ 17 Abs. 4 EStG",
-        "§ 20 UmwStG",
-        "§ 22 Abs. 2 UmwStG",
-        "§ 11 Abs. 2 UmwStG",
-        "Themenpool: umwst-aufb-umw-2-48"
+        "§ 238 Abs. 1 HGB",
+        "§ 246 Abs. 1 S. 1 HGB",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "§ 5 Abs. 1 S. 1 EStG",
+        "§ 60 Abs. 2 EStDV",
+        "Soll an Haben",
+        "HB/StB-Korrektur",
+        "Themenpool: bilanz-modul-k3-19"
       ],
       "coverRegie": {
-        "thema": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+        "thema": "Buchungssatz und Gewinnauswirkung",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/03-mia-kranz.jpg",
+          "assets/referenzen/charaktere/04-timo-kranz.jpg"
         ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b1-umwst-aufb-umw-2-48-cover.png",
+        "bilddatei": "2026-10-23-b1-bilanz-modul-k3-19-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b2": {
       "format": "spickzettel",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-329",
+      "fachLabel": "Erbschaftsteuer / Bewertung",
+      "themaId": "erbst-aufb-erbst-v-5",
       "slug": "2026-10-23-b2",
       "folien": [
         {
           "art": "titel",
-          "titel": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+          "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -228,8 +219,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Beginn der Festsetzungsfrist bestimmen",
-            "Erklärungspflicht als Weichenstellung erkennen"
+            "Begünstigt ist der gemeine Wert des begünstigungsfähigen Vermögens, soweit er den Nettowert des Verwaltungsvermögens nach Kürzung um den unschädlichen Teil übersteigt.",
+            "Unschädlich sind nach § 13b Abs. 7 ErbStG 10 % des Betriebswerts, der zuvor um den Nettowert des Verwaltungsvermögens vermindert wurde."
           ]
         },
         {
@@ -238,18 +229,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Steueranspruch/Steuerentstehung bestimmen."
+              "text": "Gemeinen Wert des begünstigungsfähigen Vermögens nach § 13b Abs. 1 ErbStG feststellen."
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob eine Steuererklärung einzureichen ist."
+              "text": "Verwaltungsvermögen nach § 13b Abs. 4 ErbStG bestimmen und für den 90-%-Test den maßgeblichen Bruttowert bilden."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
         },
         {
           "art": "cta",
@@ -266,45 +257,48 @@
           ]
         }
       ],
-      "caption": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Festsetzungsfrist: Beginn nach § 170 AO und…",
+      "kurztitel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
-        "§ 170 AO",
-        "§ 38 AO",
-        "§ 149 AO",
-        "§ 25 Abs. 3 EStG",
-        "§ 56 EStDV",
-        "§ 18 UStG",
-        "Themenpool: ao-modul-ao-329"
+        "§ 13b Abs. 2 Satz 1 ErbStG",
+        "§ 13b Abs. 2 Satz 2 ErbStG",
+        "§ 13b Abs. 1 Nr. 1 bis 3 ErbStG",
+        "§ 13b Abs. 3 Satz 1 ErbStG",
+        "§ 13b Abs. 4 Nr. 5 ErbStG",
+        "§ 13b Abs. 6 ErbStG",
+        "§ 13b Abs. 7 ErbStG",
+        "BFH vom 13.09.2023 II R 49/21, BStBl. 2024 II S. 566",
+        "gleichlautende Ländererlasse vom 19.06.2024",
+        "§ 13 Abs. 1 EStG",
+        "Themenpool: erbst-aufb-erbst-v-5"
       ],
       "coverRegie": {
-        "thema": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
+        "thema": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
         "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
+          "assets/referenzen/charaktere/06-kalle.jpg",
+          "assets/referenzen/charaktere/01-holger-kranz.jpg"
         ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
         "verpackung": "Handlung in Prüfungsreihenfolge",
         "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b2-ao-modul-ao-329-cover.png",
+        "bilddatei": "2026-10-23-b2-erbst-aufb-erbst-v-5-cover.png",
         "status": "Bild ausstehend"
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "b3": {
       "format": "reel",
@@ -407,12 +401,11 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "bewusst-ausgelassen"
     },
     "s4": {
       "slot": "s4",
@@ -426,8 +419,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -439,8 +432,7 @@
         "§ 249 Abs. 1 S. 1 HGB",
         "§ 5 Abs. 2 EStG"
       ],
-      "richtig": 0,
-      "liveVorrangAktiv": true
+      "richtig": 0
     },
     "s5": {
       "slot": "s5",
@@ -454,8 +446,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -467,226 +459,134 @@
         "§ 5 Abs. 2 EStG"
       ],
       "richtig": 0,
-      "text": "§ 5 Abs. 4a S. 1 EStG enthält das steuerliche Ansatzverbot.",
-      "liveVorrangAktiv": true
+      "text": "§ 5 Abs. 4a S. 1 EStG enthält das steuerliche Ansatzverbot."
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-328",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "pairId": "istr-aufb-istr-gh-4-04",
       "quellen": [
-        "§§ 169–171 AO",
-        "§§ 172–177 AO",
-        "Themenpool: ao-modul-ao-328"
+        "§ 50d Abs. 9 EStG",
+        "§ 50d EStG",
+        "§ 50d Abs. 8 EStG",
+        "Themenpool: istr-aufb-istr-gh-4-04"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§§ 169–171 AO",
-      "titel": "Plan B und Korrekturformel: Fehler, Korrekturvorschrift, Festsetzungsfrist und Schlüssel-Schrank-Schema",
-      "text": "Fehler und passende Korrekturvorschrift paarweise zuweisen Festsetzungsfrist als zusätzliche Grenze untersuchen",
-      "liveVorrangAktiv": true
+      "norm": "§ 50d Abs. 9 EStG",
+      "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
+      "text": "Du weißt, dass ein DBA ein völkerrechtlicher Vertrag ist, der erst durch das Zustimmungsgesetz im Inland anwendbar wird. Du kennst die Entscheidung des BVerfG von 2015, nach der ein Treaty Override verfassungsrechtlich zulässig ist."
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-t1-4",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-modul-ao-369",
       "quellen": [
-        "§ 7 Abs. 1 ErbStG",
-        "§ 516 BGB",
-        "§ 10 Abs. 6 ErbStG",
-        "§ 1 Abs. 1 ErbStG",
-        "§ 10 Abs. 1 ErbStG",
-        "§ 12 ErbStG",
-        "§ 13 BewG",
-        "Themenpool: erbst-aufb-erbst-t1-4"
+        "§ 351 Abs. 1 AO",
+        "§ 177 Abs. 1 AO",
+        "§ 177 Abs. 2 AO",
+        "§ 177 AO",
+        "Korrekturformel",
+        "Themenpool: ao-modul-ao-369"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
-      "text": "Vermögensverschiebung vom Zuwendenden zum Empfänger und dessen Bereicherung feststellen.",
-      "liveVorrangAktiv": true
+      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+      "text": "Vorfrage: Einspruch gegen Änderungsbescheid? Vorbescheid wirksam + unanfechtbar?"
     },
     "s8": {
       "slot": "s8",
       "art": "fehler",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-v-19",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-12-1",
       "quellen": [
-        "§ 13a Abs. 3 Satz 1 ErbStG",
-        "§ 13a Abs. 3 Satz 3 Nr. 1 und 2 ErbStG",
-        "§ 13a Abs. 3 Satz 5 ErbStG",
-        "§ 13a Abs. 3 Sätze 6 bis 13 ErbStG",
-        "§ 13a Abs. 3 Satz 7 Nr. 2 und 5 ErbStG",
-        "§ 13a Abs. 3 Satz 9 ErbStG",
-        "§ 13a Abs. 3 Sätze 11 und 12 ErbStG",
-        "§ 13a Abs. 4 ErbStG",
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "R E 13a.7 Abs. 1 Satz 6 ErbStR",
-        "Themenpool: erbst-aufb-erbst-v-19"
+        "§§ 193 bis 207 AO",
+        "§ 193 Abs. 1 AO",
+        "§ 193 Abs. 2 Nr. 1 AO",
+        "§ 193 Abs. 2 Nr. 2 AO",
+        "§ 193 Abs. 2 Nr. 3 AO",
+        "§ 147a AO",
+        "§§ 85ff AO",
+        "§ 90 Abs. 2 Satz 3 AO",
+        "§ 146b AO",
+        "§ 171 Abs. 4 AO",
+        "Themenpool: ao-aufb-ao-jacobs-12-1"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
-      "falsch": "Die Kürzung wird in Prozentpunkten statt im Verhältnis zur Mindestlohnsumme berechnet.",
-      "richtigText": "Bei Regelverschonung müssen die Lohnsummen der fünf Jahre nach dem Erwerb zusammen mindestens 400 % der Ausgangslohnsumme erreichen.",
-      "liveVorrangAktiv": true
+      "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+      "falsch": "Eine Umsatzsteuer-Nachschau wird wie eine Außenprüfung behandelt und eine Ablaufhemmung angenommen.",
+      "richtigText": "Nach § 193 Abs. 1 AO ist eine Außenprüfung ohne weitere Voraussetzungen bei Gewerbetreibenden, Land- und Forstwirten, Freiberuflern und Steuerpflichtigen im Sinne des § 147a AO zulässig."
     },
     "s9": {
       "slot": "s9",
       "art": "tipp",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-v-28",
+      "fachLabel": "Abgabenordnung",
+      "pairId": "ao-aufb-ao-jacobs-7-9",
       "quellen": [
-        "§ 19 Abs. 1 ErbStG",
-        "§ 19 Abs. 3 ErbStG",
-        "H E 19 ErbStH",
-        "Themenpool: erbst-aufb-erbst-v-28"
+        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
+        "§ 164 Abs. 2 AO",
+        "§ 177 AO",
+        "§ 181 Abs. 1 Satz 1 AO",
+        "§ 180 Abs. 1 Nr. 2a AO",
+        "§ 129 AO",
+        "§ 172 Abs. 1 Nr. 2c AO",
+        "§ 174 AO",
+        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
+        "§ 370 AO",
+        "Themenpool: ao-aufb-ao-jacobs-7-9"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
+      "freigabeBetreiber": false,
+      "vorproduktionStatus": "review",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
-      "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden.",
-      "liveVorrangAktiv": true
-    },
-    "s1": {
-      "slot": "s1",
-      "art": "teaser",
-      "fach": "umwst",
-      "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Welche Vorgänge stehen einer schädlichen…",
-      "text": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b1",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
-    },
-    "s2": {
-      "slot": "s2",
-      "art": "teaser",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Festsetzungsfrist: Beginn nach § 170 AO und…",
-      "text": "Festsetzungsfrist: Beginn nach § 170 AO und Anlaufhemmung",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b2",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
-    },
-    "s3": {
-      "slot": "s3",
-      "art": "teaser",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
-      "beitragSlot": "b3",
-      "abgeleitet": true,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "titel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+      "text": "Für die steuermindernde Tatsache das Verschulden des Steuerpflichtigen und seines Beraters würdigen."
     }
   },
   "renderVorschau": {
-    "status": "fertig",
-    "erzeugtAm": "2026-09-29T01:03:19.130Z",
-    "pfad": "vorproduktion/2026-10-23/fertig",
-    "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
+    "status": "ausstehend",
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
-    "freigabeBetreiber": true,
-    "liveVorrangAktiv": true,
-    "normalbetriebGesperrt": true,
-    "wartetLive": []
+    "charakterLayer": "bewusst-ausgelassen",
+    "reelLayout": "erklaer",
+    "audio": "piper-offline",
+    "providerKostenUsd": 0
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  },
-  "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  }
 }
