@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T21:14:00Z",
+  "package": "ao-notfallbuch",
+  "sourceId": "ao-notfallbuch",
+  "driveId": "1i0ZTLaEYMK2uMqkvu_50s8zV-hpOnQOy",
+  "sourceTitle": "Notfallbuch (1).pdf",
+  "sourceBytes": 668115,
+  "physicalPages": 1,
+  "sourceManifestSha256": "17d69e14bb3c34f1a12be53912abbc5a9019ddcfff97186828200dd7d6fa0b55",
+  "legalReview": false,
+  "readMethod": "Single PDF page directly visually reviewed; readable register tabs, FGO marginal list and both enforcement chains transcribed/mapped. Small or obscured tabs explicitly left unread rather than guessed.",
+  "reviewedPages": [
+    1
+  ],
+  "mappedCampusTargets": [
+    "ao-schema-handbuch",
+    "ao-schema-vollstreckung",
+    "ao-schema-fgo",
+    "ao-schema-haftung",
+    "ao-schema-69",
+    "ao-schema-71",
+    "ao-schema-74"
+  ],
+  "duplicateHandling": "Existing AO/FGO schemas remain canonical learning content; the source view records the Notfallbuch's readable markers and exact ordering instead of duplicating independent legal explanations.",
+  "files": [
+    "src/data/endriss-ao-notfallbuch.js",
+    "src/data/endriss-native-register.js",
+    "tools/pruefen-endriss-native.mjs",
+    "tools/pruefen-endriss-notfallbuch.mjs",
+    ".github/workflows/endriss-restbestaende.yml"
+  ],
+  "testedWorkBranchHead": "8360470d985fa048bbae7cb2025a7f0932d8497c",
+  "tests": {
+    "initialFailure": {
+      "run": 36631593534,
+      "job": 109621909577,
+      "cause": "Dedicated test used an over-escaped table regex and counted 0 instead of 3 rendered tables.",
+      "fixed": true
+    },
+    "restbestaende": {
+      "run": 36631728076,
+      "conclusion": "success",
+      "checks": [
+        "source access probe",
+        "native registry/rendering",
+        "Horst2 regression",
+        "dedicated AO/FGO Notfallbuch mapping",
+        "production build",
+        "source import checks"
+      ]
+    },
+    "browser": {
+      "run": 36631593569,
+      "conclusion": "success",
+      "checks": [
+        "production build/source checks",
+        "Chromium desktop/mobile navigation",
+        "native content",
+        "lazy original image load",
+        "viewport containment",
+        "return navigation"
+      ]
+    }
+  },
+  "isolation": "Release branch created fresh from main; active leased FGO pages 2–37 work from the shared branch is intentionally excluded.",
+  "merged": false,
+  "deployed": false,
+  "complete": false,
+  "next": "Open bounded pull request to main. Merge only after PR validation succeeds; then verify main SHA and GitHub Pages deployment readback before marking B3 complete."
+}
