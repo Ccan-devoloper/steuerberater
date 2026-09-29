@@ -296,6 +296,23 @@ function coverTitelEinpassen() {
     const box = zeile.getBoundingClientRect();
     return zeile.scrollWidth > zeile.clientWidth + 1 || box.left < links - 1 || box.right > rechts + 1;
   });
+  /* Zuerst eine überlaufende Mehrwortzeile an einem Leerzeichen teilen
+     (29.09.: „Wohnrecht, Nießbrauch, Rente und Dienstleistungen“ war als
+     eine Zeile gesetzt). Die neue Zeile übernimmt Klasse und Stil. */
+  for (let runde = 0; runde < 3 && !passt(); runde++) {
+    let geteilt = false;
+    for (const zeile of zuBreit()) {
+      const worte = String(zeile.textContent || "").trim().split(/\s+/);
+      if (worte.length < 2) continue;
+      const mitte = Math.ceil(worte.length / 2);
+      const neu = zeile.cloneNode(false);
+      neu.textContent = worte.slice(mitte).join(" ");
+      zeile.textContent = worte.slice(0, mitte).join(" ");
+      zeile.after(neu);
+      geteilt = true;
+    }
+    if (!geteilt) break;
+  }
   const einzelwort = (zeilen) => zeilen.length > 0 && zeilen.every((z) => String(z.textContent || "").trim().split(/\s+/).length === 1);
   const notfall = wurzel.matches(".story.cover") ? 60 : 64;
   while (!passt() && einzelwort(zuBreit()) && groesse > notfall + 0.5 && n++ < 32) {
