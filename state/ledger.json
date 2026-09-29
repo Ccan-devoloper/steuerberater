@@ -5840,22 +5840,22 @@
       "fach": "persg",
       "titel": "Welches Wahlrecht gewährt § 24 Abs. 2 UmwStG?",
       "insights": {
-        "reach": 26,
-        "views": 39,
+        "reach": 33,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_swipe_forward": 1,
+        "navigation": 47,
+        "navigation_tap_forward": 37,
+        "navigation_tap_back": 5,
         "navigation_tap_exit": 4,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 29
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-29T16:43:48.491Z",
-      "insightsAlterStunden": 11
+      "insightsStand": "2026-09-29T21:34:09.694Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-09-29",
@@ -5869,21 +5869,21 @@
       "fach": "persg",
       "titel": "Buchwert, Zwischenwert oder gemeiner Wert",
       "insights": {
-        "reach": 28,
-        "views": 38,
+        "reach": 33,
+        "views": 51,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_tap_forward": 31,
-        "navigation_tap_back": 5,
-        "navigation_tap_exit": 2
+        "navigation": 50,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 39
       },
-      "insightsStand": "2026-09-29T16:43:48.491Z",
-      "insightsAlterStunden": 11
+      "insightsStand": "2026-09-29T21:34:09.694Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-09-29",
@@ -5897,21 +5897,21 @@
       "fach": "persg",
       "titel": "Drei Vermögen: Wo landet die Maschine?",
       "insights": {
-        "reach": 26,
-        "views": 35,
+        "reach": 33,
+        "views": 46,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 30,
+        "navigation": 44,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 24,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 33,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-09-29T16:43:48.491Z",
-      "insightsAlterStunden": 11
+      "insightsStand": "2026-09-29T21:34:09.694Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-09-29",
@@ -5988,21 +5988,22 @@
       "fach": "istr",
       "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA",
       "insights": {
-        "reach": 21,
-        "views": 31,
+        "reach": 31,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_forward": 17,
-        "navigation_tap_exit": 4,
-        "navigation_swipe_forward": 1
+        "navigation": 34,
+        "navigation_tap_forward": 25,
+        "navigation_tap_exit": 6,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-09-29T16:43:48.491Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-29T21:34:09.694Z",
+      "insightsAlterStunden": 10.8
     },
     {
       "datum": "2026-09-29",
@@ -6044,22 +6045,22 @@
       "fach": "bilanz",
       "titel": "Schwebendes Geschäft",
       "insights": {
-        "reach": 11,
-        "views": 19,
+        "reach": 27,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_tap_back": 3,
+        "navigation": 32,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 21,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 6,
-        "navigation_tap_exit": 4
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-09-29T17:02:49.050Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-09-29T21:34:09.694Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-09-29",
