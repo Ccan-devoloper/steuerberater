@@ -1,0 +1,65 @@
+name: Endriss Browser-Abnahme
+on:
+  workflow_dispatch:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29]
+    paths:
+      - .github/workflows/endriss-browser.yml
+      - tools/pruefen-endriss-browser.mjs
+      - src/components/Endriss*.jsx
+      - src/components/endriss-nachtraege.css
+      - src/components/CampusShell.jsx
+      - src/data/endriss-*.js
+      - public/endriss/quellen/**
+permissions:
+  contents: read
+concurrency:
+  group: endriss-browser-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            social/package-lock.json
+      - name: Install locked build dependencies
+        run: npm ci
+      - name: Production build and source checks
+        run: |
+          npm run build
+          node tools/pruefen-endriss-nachtrag.mjs
+          node tools/pruefen-endriss-native.mjs
+      - name: Install locked browser dependency only; no production scripts
+        run: npm ci --prefix social --ignore-scripts
+      - name: Install Chromium
+        working-directory: social
+        run: npx --no-install playwright install --with-deps chromium
+      - name: Test actual browser navigation and rendered content
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p test-results/endriss-browser
+          node node_modules/vite/bin/vite.js preview --host 127.0.0.1 --port 4173 --strictPort > test-results/endriss-browser/server.log 2>&1 &
+          server=$!
+          trap 'kill "$server" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ >/dev/null; then break; fi
+            sleep 1
+          done
+          curl -fsS http://127.0.0.1:4173/ >/dev/null
+          node tools/pruefen-endriss-browser.mjs
+      - name: Preserve browser report and screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: endriss-browser-evidence
+          path: test-results/endriss-browser
+          if-no-files-found: warn
+          retention-days: 7
