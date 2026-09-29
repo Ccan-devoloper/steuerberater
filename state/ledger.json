@@ -5955,6 +5955,18 @@
       "thema": null,
       "fach": "ao",
       "titel": "Frist abgelaufen: Ist der Bescheid noch änderbar?"
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "s6",
+      "medienId": "18134364295630633",
+      "veroeffentlicht": "2026-09-29T10:44:11.375Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-modul-istr-istr3-10",
+      "fach": "istr",
+      "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA"
     }
   ],
   "fachZaehler": {
