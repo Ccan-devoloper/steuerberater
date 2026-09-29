@@ -1,0 +1,23 @@
+name: Endriss FGO-Gesetz
+on:
+  push:
+    branches: [codex/endriss-restbestaende-2026-09-29]
+    paths:
+      - tools/endriss/vorbereiten-fgo-gesetz.mjs
+      - .github/workflows/endriss-fgo-gesetz.yml
+permissions:
+  contents: read
+concurrency:
+  group: endriss-fgo-gesetz-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Existing source text for visual comparison; not native completion
+        run: node tools/endriss/vorbereiten-fgo-gesetz.mjs
