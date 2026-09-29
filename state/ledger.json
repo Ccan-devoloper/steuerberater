@@ -5838,6 +5838,18 @@
       "thema": "persg-quiz-k3-31",
       "fach": "persg",
       "titel": "Buchwert, Zwischenwert oder gemeiner Wert"
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "s1",
+      "medienId": "17905069368591491",
+      "veroeffentlicht": "2026-09-29T05:45:26.266Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": "Drei Vermögen: Wo landet die Maschine?"
     }
   ],
   "fachZaehler": {
