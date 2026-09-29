@@ -6028,6 +6028,18 @@
       },
       "insightsStand": "2026-09-29T14:43:52.562Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-29",
+      "slot": "s8",
+      "medienId": "17986477002111745",
+      "veroeffentlicht": "2026-09-29T15:44:00.958Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "begriff",
+      "thema": "bilanz-glossar-5",
+      "fach": "bilanz",
+      "titel": "Schwebendes Geschäft"
     }
   ],
   "fachZaehler": {
