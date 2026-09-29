@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-09-29T19:17:00Z",
+  "repository": "Ccan-devoloper/steuerberater",
+  "workingBranch": "codex/endriss-restbestaende-2026-09-29",
+  "lastObservedWorkCommit": "eb45a68dcb82a15eceb39d718a933d2403bf6609",
+  "lastObservedMainCommit": "f796c01d3cc99f3b5277a461e4b1c49ab96b37b1",
+  "legalReview": false,
+  "complete": false,
+  "completionPercentage": null,
+  "inventory": "tools/endriss/quellen.tsv",
+  "scopeNote": "The inventory is the working list of formerly open sources, not a newly certified exhaustive inventory of both Drive trees. Full completion must include checking the source scope.",
+  "resume": {
+    "mechanism": "hourly-scheduled-chat-task",
+    "enabled": true,
+    "intervalMinutes": 60,
+    "immediateChatFailureTriggerAvailable": false,
+    "requested15MinuteChatIntervalSupported": false,
+    "nextSteps": [
+      "Wire endriss-native-register.js into EndrissNachtraege.jsx and preserve native content when the image inventory is unavailable.",
+      "Add and run source-registration, table-shape and UI-wiring tests, plus the existing production build.",
+      "Inspect the most recent original-page publisher run and its actual logs. Do not equate image publication with transcription completion.",
+      "Complete review and merge only a tested, accurately described partial package; verify deployment.",
+      "Resume the next still-open source with a page-specific checkpoint and source evidence."
+    ],
+    "ifInterrupted": "Read the latest refs, this checkpoint and relevant files again; do not replay old full-file replacements over concurrent changes. Reclaim an expired lease only after checking running work."
+  },
+  "lease": {
+    "owner": "interactive-endriss-native-integration-20260929T1917Z",
+    "scope": ["src/components/EndrissNachtraege.jsx", "tools/pruefen-endriss-native.mjs", "docs/endriss-fortsetzung.md", "docs/endriss-fortschritt.json"],
+    "expiresAt": "2026-09-29T20:00:00Z",
+    "note": "Other workers must skip overlapping writes while this lease is valid; use current blob SHAs for every update."
+  },
+  "packages": [
+    {
+      "id": "est-and-mirbach",
+      "state": "merged-and-deployed",
+      "pullRequest": 255,
+      "mergeCommit": "ea8b66630c19b864a77b1c606549b4132fe1dd30",
+      "deploymentRun": 36610480928,
+      "scope": "ESt printed pages 80-162 (83 pages; 35 new chapters and Gewerbe continuation), Mirbach solutions 9, 14 and 28 variant 2 (6 PDF pages).",
+      "remaining": "No assertion of a new exhaustive whole-campus source audit."
+    },
+    {
+      "id": "native-handwritten-and-horst-ui",
+      "state": "integration-in-progress",
+      "nativeData": ["src/data/endriss-handschriften.js", "src/data/endriss-persg-horst-folien.js", "src/data/endriss-native-register.js"],
+      "sourceIds": ["istr-hinzurechnung", "lst-mitschrift", "lst-korrektur", "persg-folien-1"],
+      "scope": "IStR 4 pages; Lohnsteuer 24 pages plus 1 correction page; Horst Folien Fassung 1 has 16 physical PDF pages.",
+      "knownGap": "At eb45a68 EndrissNachtraege still imports only endriss-handschriften; Horst registry is not yet wired into that UI.",
+      "latestPreviouslyConfirmedBuildCommit": "8a60c192e301f9e177cd7859b6ab0404988fdf1d",
+      "latestPreviouslyConfirmedBuildRun": 36615268027,
+      "browserAcceptance": "not-yet-confirmed",
+      "merged": false
+    }
+  ],
+  "remainingSourceGroups": [
+    {"ids": ["kst-e1", "kst-e2", "kst-e3", "kst-e4", "kst-e5", "kst-e6", "kst-e7"], "state": "source-to-existing-content-audit-open", "note": "Existing KSt learning modules must be checked before assuming all seven sources are absent."},
+    {"ids": ["erbst-e4-1", "erbst-e4-2", "erbst-e5-1", "erbst-e5-2"], "state": "native-transcription-and-integration-open"},
+    {"ids": ["bil-facts", "persg-facts", "persg-folien-2", "ao-fgo", "ao-notfallbuch"], "state": "native-transcription-or-deduplication-open"},
+    {"inventorySelection": "all remaining notiz-, mark-, bmf- and other source rows", "state": "pagewise-review-and-integration-open"},
+    {"ids": ["bil-aufgaben-3"], "state": "scope-question-resolved-documentation-to-check", "note": "The retrieved original has three PDF pages ending with Sachverhalt 2; do not invent further cases."}
+  ],
+  "acceptance": {
+    "requiresSourceEvidence": true,
+    "requiresNativeContentOrExplicitVerifiedMapping": true,
+    "requiresUIReachability": true,
+    "requiresRelevantTests": true,
+    "requiresMergeAndDeploymentVerification": true,
+    "originalImagesAloneAreCompletion": false,
+    "inventOriginalSolutions": false,
+    "unreadableText": "mark-uncertain-never-guess",
+    "removePersonalWatermarksFromPublicAssets": true
+  },
+  "environment": {
+    "observedLocalExecutionError": "container.exec ClientError in the current interactive run; remote GitHub read/write actions are available.",
+    "fallback": "Use connected GitHub file actions and verified GitHub Actions runs; do not claim local tests that did not execute."
+  }
+}
