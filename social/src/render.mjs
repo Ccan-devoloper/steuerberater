@@ -238,10 +238,18 @@ export function storyTitelEinpassen() {
     groesse = Math.max(mindest, groesse * 0.96);
     titel.style.fontSize = `${groesse}px`;
   }
+  /* Notfall (29.09.: „Anfechtungsbeschränkung“ in einem 81-Zeichen-Titel
+     brach den Renderlauf ab): eine Zeile mehr und bis 42 px, bevor hart
+     abgebrochen wird. */
+  const notfallZeilen = maxZeilen + 1;
+  while ((zeilen() > notfallZeilen || !horizontalPasst()) && groesse > 42.5 && n++ < 40) {
+    groesse = Math.max(42, groesse * 0.96);
+    titel.style.fontSize = `${groesse}px`;
+  }
   titel.dataset.storyAutoFitPx = String(Math.round(groesse * 10) / 10);
   titel.dataset.storyZeilen = String(zeilen());
 
-  if (zeilen() > maxZeilen || !horizontalPasst()) {
+  if (zeilen() > notfallZeilen || !horizontalPasst()) {
     throw new Error(`Story-Titel passt trotz Auto-Fit nicht in die Markenpille/Safe-Area: ${text}`);
   }
 }
