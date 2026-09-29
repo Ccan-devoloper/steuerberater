@@ -5932,17 +5932,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 9,
-        "saved": 0,
+        "reach": 23,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T09:44:52.055Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-29T11:34:16.744Z",
+      "insightsAlterStunden": 2.8
     },
     {
       "datum": "2026-09-29",
