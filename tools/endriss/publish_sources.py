@@ -3,9 +3,12 @@
 This is a source reader, not a declaration of completed native transcription.
 """
 from __future__ import annotations
-import argparse, concurrent.futures, hashlib, io, json, pathlib, re
+import argparse, concurrent.futures, hashlib, io, json, pathlib
 from PIL import Image
 from prepare import source_rows
+
+QUALITY = 85
+BUDGET = 850 * 1024 * 1024
 
 def digest(data):
     return hashlib.sha256(data).hexdigest()
@@ -17,16 +20,19 @@ def convert(item):
         raise ValueError('Review artifact image digest mismatch: ' + str(source))
     with Image.open(io.BytesIO(raw)) as im:
         image = im.convert('RGB')
-        # Preserve the full prepared resolution; only change the container encoding.
+        # Preserve every prepared pixel position and the original page order.
+        # This is an explicitly lossy delivery derivative, not the original file.
         out = io.BytesIO()
-        image.save(out, 'WEBP', quality=92, method=4)
+        image.save(out, 'WEBP', quality=QUALITY, method=4)
         payload = out.getvalue()
         sha = digest(payload)
         target = target_dir / (sha[:24] + '.webp')
         if not target.exists():
             target.write_bytes(payload)
         return expected, {'image':'images/' + target.name, 'imageSha256':sha,
-                          'preparedImageSha256':expected, 'width':image.width, 'height':image.height}
+                          'preparedImageSha256':expected, 'width':image.width,
+                          'height':image.height, 'deliveryEncoding':'WebP lossy',
+                          'deliveryQuality':QUALITY}
 
 def main():
     parser = argparse.ArgumentParser()
@@ -55,13 +61,32 @@ def main():
             jobs.setdefault(page['imageSha256'], (source_file.parent.parent / image, args.out/'images', page['imageSha256']))
     if set(prepared) != {r['id'] for r in expected}:
         raise ValueError('Manifest mismatch: ' + repr({r['id'] for r in expected} - set(prepared)))
-    with concurrent.futures.ProcessPoolExecutor(max_workers=2) as pool:
-        assets = dict(pool.map(convert, jobs.values(), chunksize=20))
     index = []
     for row in expected:
         data = prepared[row['id']]
         if row.get('sha256') and row['sha256'] != data['sha256']:
-            raise ValueError('Source version mismatch')
+            raise ValueError('Source version mismatch: ' + row['id'])
+        entry = {k:data[k] for k in ['id','driveId','fach','art','title','sha256','sourceBytes','physicalPages','importedPages']}
+        entry['status'] = 'prepared; publication-pending; native-transcription-separate'
+        index.append(entry)
+        print('SOURCE_INVENTORY', json.dumps(entry, ensure_ascii=False), flush=True)
+    report = {'sources':index,'stats':{'sources':len(index),'pages':sum(s['importedPages'] for s in index),'uniqueImages':len(jobs)},'publicationComplete':False,'legalReview':False,'note':'Original delivery derivatives; no automatic assertion of native completeness or visual review.'}
+    report_path = pathlib.Path('docs/endriss-originalbestand.json')
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
+    assets = {}
+    with concurrent.futures.ProcessPoolExecutor(max_workers=2) as pool:
+        for n, (key, value) in enumerate(pool.map(convert, jobs.values(), chunksize=20), 1):
+            assets[key] = value
+            if n % 200 == 0:
+                print('SOURCE_IMAGES', n, '/', len(jobs), flush=True)
+    used = {value['image'].split('/')[-1] for value in assets.values()}
+    # Remove only stale generated derivatives inside the dedicated image directory.
+    for image in (args.out/'images').glob('*.webp'):
+        if image.name not in used:
+            image.unlink()
+    for entry in index:
+        data = prepared[entry['id']]
         for page in data['pages']:
             page.update(assets[page['imageSha256']])
             page['visualReview'] = 'not-asserted-by-publisher'
@@ -69,14 +94,20 @@ def main():
         data['status'] = 'original-pages-published; native-transcription-separate'
         data['legalReview'] = False
         (args.out/'sources'/(data['id']+'.json')).write_text(json.dumps(data, ensure_ascii=False, separators=(',',':'))+'\n')
-        index.append({k:data[k] for k in ['id','driveId','fach','art','title','sha256','sourceBytes','physicalPages','importedPages','status']})
     size = sum(p.stat().st_size for p in pathlib.Path('public').rglob('*') if p.is_file())
-    if size > 850*1024*1024:
-        raise ValueError('Public assets exceed the 850 MiB deployment budget: '+str(size))
-    report = {'sources':index,'stats':{'sources':len(index),'pages':sum(s['importedPages'] for s in index),'uniqueImages':len(assets),'publicBytes':size},'legalReview':False,'note':'Original pages published; no automatic assertion of native completeness or visual review.'}
-    (args.out/'index.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
-    pathlib.Path('docs/endriss-originalbestand.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
+    report['stats']['publicBytes'] = size
+    report['stats']['budgetBytes'] = BUDGET
+    report['deliveryQuality'] = QUALITY
+    report['publicationComplete'] = size <= BUDGET
+    if report['publicationComplete']:
+        for entry in index:
+            entry['status'] = 'original-pages-published; native-transcription-separate'
+    # Always retain diagnostic evidence, including an over-budget result.
+    report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
     print('SOURCE_PUBLISH', json.dumps(report['stats']), flush=True)
+    if not report['publicationComplete']:
+        raise ValueError('Public assets exceed the 850 MiB deployment budget: '+str(size))
+    (args.out/'index.json').write_text(json.dumps(report, ensure_ascii=False, indent=2)+'\n')
 
 if __name__ == '__main__':
     main()
