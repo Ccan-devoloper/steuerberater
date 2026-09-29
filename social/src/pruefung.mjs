@@ -159,7 +159,7 @@ export function korpus() {
     for (const m of text.matchAll(anredeMuster)) namen.add(m[1]);
   }
   /* Häufige Gattungswörter, die das Muster fälschlich als Namen erfasst. */
-  const allgemein = new Set(["Bank", "Kunden", "Kunde", "Lieferant", "Käufer", "Verkäufer", "Betrieb", "Muster", "Beispiel", "Mutter", "Tochter", "Erwerber", "Eigentümer", "Vermieter", "Mieter", "Alt", "Neu", "Beteiligung", "Holding", "Vertrieb", "Handel", "Bau", "Immobilien", "Verwaltung", "Beratung", "Personen", "Kapital", "Komplementär", "Kommanditist", "Anteile", "Anteil", "Gesellschafter", "Geschäftsführer", "Organ", "Organträger", "Tochtergesellschaft", "Muttergesellschaft", "Gesellschaft", "Unternehmen", "Firma", "Überhang", "Gesamterwerb"]);
+  const allgemein = new Set(["Bank", "Kunden", "Kunde", "Lieferant", "Käufer", "Verkäufer", "Betrieb", "Muster", "Beispiel", "Mutter", "Tochter", "Erwerber", "Eigentümer", "Vermieter", "Mieter", "Alt", "Neu", "Beteiligung", "Holding", "Vertrieb", "Handel", "Bau", "Immobilien", "Verwaltung", "Beratung", "Personen", "Kapital", "Komplementär", "Kommanditist", "Anteile", "Anteil", "Gesellschafter", "Geschäftsführer", "Organ", "Organträger", "Tochtergesellschaft", "Muttergesellschaft", "Gesellschaft", "Unternehmen", "Firma", "Überhang", "Gesamterwerb", "Stoff"]);
   for (const n of allgemein) namen.delete(n);
   /* Gattungswörter erkennt man an ihrer Häufigkeit: Ein Fallname taucht ein
      paar Mal auf, ein Fachbegriff wie „Anteile“ hunderte Male. */

@@ -27,6 +27,8 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ github.token }}
       IG_WISSEN_KEY: ${{ secrets.IG_WISSEN_KEY }}
+      IG_REEL_ZUSAETZLICH: "true"
+      IG_VORPRODUKTION_DREI_KLAUSUREN: "true"
       IG_STIL: "bunt"
       IG_FARBE_JE_KLAUSUR: "true"
       IG_BILDER: "false"

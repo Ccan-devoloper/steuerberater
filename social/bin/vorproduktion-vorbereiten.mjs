@@ -17,6 +17,7 @@ import { CONFIG } from "../src/config.mjs";
 import { pruefeBeitrag } from "../src/pruefung.mjs";
 import { tagesplan, FORMAT_QUELLEN, faecherInRotation } from "../src/planer.mjs";
 import { themenpool, fachInfo, KLAUSUREN, FEED_KATEGORIEN } from "../src/inhalte.mjs";
+import { pruefungsphaseTag } from "../src/pruefungsphase.mjs";
 import {
   QUELLENSPRACHE,
   dreiKlausurenFolge,
@@ -812,7 +813,17 @@ function addLedger(datum, p, inhalte) {
 
 for (const datum of dates) {
   const p = tagesplan(datum, ledger, pool, strategy);
-  if (dreiKlausuren) {
+  const phase = dreiKlausuren ? pruefungsphaseTag(datum) : null;
+  const sonderStories = (liste) => {
+    let n = Math.max(0, ...p.stories.map((s) => Number(String(s.slot).replace(/\D/g, "")) || 0));
+    return (liste || []).map((x) => ({ slot: "s" + (++n), zeit: x.zeit, art: x.inhalt.art, sonder: x.inhalt }));
+  };
+  if (phase?.art === "pruefungstag") {
+    // Klausurtag: ein motivierender Beitrag, Zitat und Tipp – kein Fachinhalt.
+    p.beitraege = [{ slot: "b1", zeit: phase.beitrag.zeit, format: "anlass", klausur: 0, thema: null, sonderInhalt: phase.beitrag.inhalt }];
+    p.stories = [{ slot: "s1", zeit: phase.beitrag.zeit, art: "teaser", beitragSlot: "b1" }];
+    p.stories.push(...sonderStories(phase.stories));
+  } else if (dreiKlausuren) {
     if (p.beitraege.length !== 3) throw new Error(datum + ": genau drei Feed-Slots erwartet.");
     // Die Klausurfolge rotiert täglich (K3,K1,K2 | K1,K2,K3 | K2,K3,K1),
     // damit jede Klausur jeden Slot und das Reel belegt, ohne dass sich an
@@ -900,6 +911,19 @@ for (const datum of dates) {
     if (klausuren !== "1,2,3" || p.beitraege.filter((b) => b.format === "reel").length !== 1) {
       throw new Error(datum + ": K1/K2/K3 mit zwei Karussells und einem Reel verfehlt.");
     }
+    if (phase) {
+      // Vorabend bzw. Tag danach: ein Slot wird motivierend statt fachlich.
+      const alt = p.beitraege[phase.slotIndex];
+      if (alt.thema) benutzt.delete(alt.thema.id);
+      p.beitraege[phase.slotIndex] = { slot: alt.slot, zeit: phase.beitrag.zeit || alt.zeit, format: "anlass", klausur: 0, thema: null, sonderInhalt: phase.beitrag.inhalt };
+      if (phase.inhaltsStoriesAb) {
+        p.stories = p.stories.filter((s) => s.beitragSlot || s.art === "countdown" || String(s.zeit || "") < phase.inhaltsStoriesAb);
+      }
+      if (phase.inhaltsStoriesVor) {
+        p.stories = p.stories.filter((s) => s.beitragSlot || String(s.zeit || "") >= phase.inhaltsStoriesVor);
+      }
+      p.stories.push(...sonderStories(phase.stories));
+    }
     const storyThemen = new Set(benutzt);
     let frageThema = null;
     const storyTypen = {
@@ -913,7 +937,7 @@ for (const datum of dates) {
         s.zeit = p.beitraege.find((b) => b.slot === s.beitragSlot)?.zeit || s.zeit;
         continue;
       }
-      if (s.art === "countdown") continue;
+      if (s.art === "countdown" || s.sonder) continue;
       if (s.art === "antwort") {
         s.thema = frageThema;
         continue;
@@ -969,7 +993,8 @@ for (const datum of dates) {
 
   const inhalte = {};
   for (const b of p.beitraege) {
-    if (b.format === "wochenrueckblick") inhalte[b.slot] = recap(datum, b.slot);
+    if (b.sonderInhalt) inhalte[b.slot] = { ...b.sonderInhalt, slug: datum + "-" + b.slot, regelGeprueft: true, manuellGeprueft: false, ...reviewStatus() };
+    else if (b.format === "wochenrueckblick") inhalte[b.slot] = recap(datum, b.slot);
     else if (b.format === "anlass") inhalte[b.slot] = anlassBeitrag(datum, b.slot, b);
     else if (b.format === "loesungsskizze") inhalte[b.slot] = livePlatzhalter(datum, b.slot, b);
     else if (b.format === "reel") {
@@ -984,6 +1009,10 @@ for (const datum of dates) {
   const storyUsed = new Set(used);
   for (const s of p.stories || []) {
     if (s.beitragSlot) continue;
+    if (s.sonder) {
+      inhalte[s.slot] = { slot: s.slot, ...s.sonder, regelGeprueft: true, manuellGeprueft: false, ...reviewStatus() };
+      continue;
+    }
     let thema = s.thema || null;
     if (!thema && s.art !== "countdown") {
       thema = pick(datum, { art: "story", used: storyUsed, seed: s.slot });
@@ -1009,6 +1038,7 @@ for (const datum of dates) {
       art: s.art,
       ...(s.thema?.id ? { themaId: s.thema.id } : {}),
       ...(s.beitragSlot ? { beitragSlot: s.beitragSlot, status: "aus-beitrag-ableitbar" } : {}),
+      ...(s.sonder ? { status: "pruefungsphase" } : {}),
       ...(s.tageBisExamen != null ? { tageBisExamen: s.tageBisExamen } : {}),
     })),
   };
@@ -1076,7 +1106,7 @@ if (dreiKlausuren) {
     const day = days.get(datum);
     let frage = null;
     for (const s of day.plan.stories) {
-      if (s.beitragSlot || s.art === "countdown") continue;
+      if (s.beitragSlot || s.art === "countdown" || day.inhalte[s.slot]?.pruefungsphase) continue;
       if (s.art === "antwort") {
         if (!frage) throw new Error(datum + ": Antwort ohne Frage.");
         s.themaId = frage.id;
