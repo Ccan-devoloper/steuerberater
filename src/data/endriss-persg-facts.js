@@ -1,6 +1,8 @@
-/* Direct visual transcription of PDF pages 1–4 (cover/index, printed sheets 1–6).
+import { persgFacts7bis10, persgFacts7bis10Evidence } from './endriss-persg-facts-7-10.js';
+
+/* Direct visual transcription of PDF pages 1–6 (cover/index, printed sheets 1–10).
    Source: B-S25-PersG-fact sheets-(Horst)-0425.pdf, April 2025.
-   No OCR, no current-law review, no invented figures/solutions. Pages 5–24 OPEN.
+   No OCR, no current-law review, no invented figures/solutions. Pages 7–24 OPEN.
    Graphs are encoded as explicit edges/tables, not as flattened source images.
    Personal delivery watermark, portrait and QR code are not republished here. */
 const p = text => ({ text });
@@ -14,7 +16,7 @@ const k = (id, title, page, sheet, normen, moduleIds, bloecke) => ({
 export const persgFactsQuelle = {
   id: 'persg-facts', title: 'PersG Fact Sheets (Horst, 04/2025)',
   fach: 'persg', art: 'factsheet', driveId: '179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5',
-  physicalPages: 24, nativePages: [1, 2, 3, 4], partial: true,
+  physicalPages: 24, nativePages: [1, 2, 3, 4, 5, 6], partial: true,
 };
 export const persgFacts = [
   k('00', 'Titel, Inhalt und Quellenhinweis', 1, [], [], [], [
@@ -39,7 +41,7 @@ export const persgFacts = [
     h('Hinweis:'),
     p('Die fact sheets erheben keinen Anspruch auf Vollständigkeit. Ihrem Sinn und Zweck nach dienen sie vielmehr der Visualisierung wichtiger Zusammenhänge und geben einen zusammenfassenden Überblick über die Kernpunkte des Bilanzrechts mit Blick auf das Teilgebiet Personengesellschaften.'),
     p('Die fact sheets sind nicht dazu gedacht, Themen zu „er“lernen oder sich anzueignen, sondern um den Überblick über das Bilanzrecht zu erhalten und zu vertiefen, um so zielführend und systematisch an zu lösende Klausuren heranzugehen.'),
-    p('Übertragungsgrenze dieses Pakets: Das Inhaltsverzeichnis nennt auch die noch nicht übernommenen Blätter 7–41. Ihre Nennung ist keine Umsetzung dieser Inhalte. Porträt, Logos und QR-Code des Deckblatts sind kein zusätzlicher Lernstoff.'),
+    p('Übertragungsgrenze dieses Pakets: Das Inhaltsverzeichnis nennt auch noch nicht übernommene Blätter. Die dortigen Blattverweise bleiben unverändert, auch wenn einzelne tatsächliche Blattnummern abweichen. Ihre Nennung ist keine Umsetzung dieser Inhalte. Porträt, Logos und QR-Code des Deckblatts sind kein zusätzlicher Lernstoff.'),
   ]),
   k('01', '1 · Mitunternehmerschaft', 2, [1], ['§ 15 (1) S. 1 Nr. 1 i.V.m. Nr. 2 EStG', 'R/H 15.8 EStR/H'], [1, 2, 3], [
     h('Mitunternehmerschaft · § 15 (1) S. 1 Nr. 1 i.V.m. Nr. 2 EStG'),
@@ -176,20 +178,22 @@ export const persgFacts = [
     h('Ausnahmen von der mituntern. Betriebsaufspaltung → führt zu SBV bei der mietenden PersG'),
     p('# unentgeltliche Überlassung, da keine Gewinnerzielungsabsicht bei Besitzgesellschaft'),
   ]),
+  ...persgFacts7bis10,
 ];
 export const persgFactsAudit = {
   sourceId: persgFactsQuelle.id, driveId: persgFactsQuelle.driveId,
   sourceBytes: 17436897, physicalPages: 24,
   sourceSha256: '28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67',
-  reviewedPages: [1, 2, 3, 4], nativePages: [1, 2, 3, 4],
-  remainingPages: Array.from({ length: 20 }, (_, i) => i + 5),
+  reviewedPages: [1, 2, 3, 4, 5, 6], nativePages: [1, 2, 3, 4, 5, 6],
+  remainingPages: Array.from({ length: 18 }, (_, i) => i + 7),
   sourceComplete: false, legalReview: false, ownSolutionsAdded: false,
-  method: 'Direct original PDF-page images, with enlarged views of the five-column calculation template and pension ledger. No OCR. Graph edges and ledger columns are native tables; colour/emphasis and source differences are described, not silently resolved.',
-  duplicateHandling: 'Existing modules 1,2,3,4,6,7,8 and Horst slide chapter 05 remain canonical. This source keeps its exact table columns, source ordering, short examples and the differing placement of the supplementary balance in stage I. No independently invented solutions.',
+  method: 'Direct original PDF-page images, with enlarged views of the calculation template, pension ledger, remuneration comparison, GmbH sheet and six-column capital ledger. No OCR. Graph edges and ledger columns are native tables; colour/emphasis and source differences are described, not silently resolved.',
+  duplicateHandling: 'Existing modules 1,2,3,4,6,7,8,9,10,11 and Horst slides remain unchanged; the related modules are navigation targets, not proof of identical source wording. This source keeps its exact table columns, source ordering, short examples and the differing placement of the supplementary balance in stage I. No independently invented solutions.',
   pageEvidence: [
     { page: 1, printedSheets: [], chapters: ['persg-facts-00'], scope: 'Cover attribution/date, complete printed contents and two source disclaimers. TOC entries do not imply implementation of later pages.' },
     { page: 2, printedSheets: [1,2], chapters: ['persg-facts-01','persg-facts-02'], scope: 'MU criteria and distinctions, two 50-percent participation edges, GF note; full five-column blank profit scheme and source-stage distinction.' },
     { page: 3, printedSheets: [3,4], chapters: ['persg-facts-03','persg-facts-04'], scope: 'HR/StR/BV/SBV/PV graph and all exceptions, SBV I/II table, three rental/participation edges and notes.' },
     { page: 4, printedSheets: [5,6], chapters: ['persg-facts-05','persg-facts-06'], scope: 'Loan and pension ledger including 100000/95000/5000/50000, correspondence arrows, four renting cases and MU-split exceptions.' },
+    ...persgFacts7bis10Evidence,
   ],
 };

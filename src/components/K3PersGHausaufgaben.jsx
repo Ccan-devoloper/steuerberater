@@ -15,7 +15,7 @@ export default function K3PersGHausaufgaben({ onModulOeffnen }) {
   const [factSheets, setFactSheets] = useState(false);
   if (factSheets) return <Suspense fallback={<p role="status">Fact Sheets werden geladen …</p>}><FactSheets quelle={persgFactsQuelle} zurueck={() => setFactSheets(false)} zurueckLabel="← Zurück zu den PersG-Hausaufgaben" onModulOeffnen={onModulOeffnen} /></Suspense>;
   return (<>
-    <section className="panel" aria-label="Ergänzende PersG-Lernunterlagen"><h2>Fact Sheets (Horst)</h2><p>Quellengebundene Ergänzung zu den Lernmodulen: Mitunternehmerschaft, Gewinnermittlung, Betriebsvermögen und Bilanzierung. Teilübernahme: 4 von 24 PDF-Seiten; die übrigen Seiten bleiben offen.</p><button type="button" onClick={() => setFactSheets(true)}>Fact Sheets (Horst) öffnen</button></section>
+    <section className="panel" aria-label="Ergänzende PersG-Lernunterlagen"><h2>Fact Sheets (Horst)</h2><p>Quellengebundene Ergänzung zu den Lernmodulen: Mitunternehmerschaft, Gewinnermittlung, Betriebsvermögen und Bilanzierung sowie Sondervergütungen, Komplementär-GmbH und Kapitalkonten. Teilübernahme: {persgFactsQuelle.nativePages.length} von {persgFactsQuelle.physicalPages} PDF-Seiten; die übrigen Seiten bleiben offen.</p><button type="button" onClick={() => setFactSheets(true)}>Fact Sheets (Horst) öffnen</button></section>
     <HausaufgabenBloecke
       kicker="Klausur 3 · Personengesellschaften · Hausaufgaben"
       titel="PersG-Hausaufgaben 2026/2027"

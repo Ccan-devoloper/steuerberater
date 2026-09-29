@@ -27,8 +27,9 @@ try {
       await campus.getByRole('button',{name:'Hausaufgaben PersG',exact:true}).click();
       await campus.getByRole('button',{name:'Fact Sheets (Horst) öffnen',exact:true}).click();
       const article = campus.locator('article[data-endriss-source="persg-facts"]');
-      await article.locator('[data-endriss-native-coverage="4/24"]').waitFor({state:'visible'});
-      for (const id of ['persg-facts-02','persg-facts-05']) {
+      await article.locator('[data-endriss-native-coverage="6/24"]').waitFor({state:'visible'});
+      // Preserve both earlier layout checks and cover every new native table.
+      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3})) {
         await article.getByLabel('Zu einem Textabschnitt springen').selectOption(id);
         await page.waitForFunction(id=>{
           const chapter = document.getElementById(id);
@@ -36,7 +37,7 @@ try {
           return chapter?.open && document.activeElement === chapter.querySelector('summary') && rect.top >= -2 && rect.top < innerHeight;
         },id,{timeout:5000});
         const regions = article.locator(`#${id} .endriss-facts-scroll`);
-        assert.equal(await regions.count(), id === 'persg-facts-02' ? 1 : 3);
+        assert.equal(await regions.count(), expectedTables);
         for (let i=0;i<await regions.count();i++) {
           const region = regions.nth(i);
           assert.equal(await region.getAttribute('tabindex'),'0');
