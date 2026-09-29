@@ -111,7 +111,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-09-30/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:39:02.710Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-01",
@@ -125,7 +131,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-01/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:40:03.515Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-02",
@@ -139,7 +151,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-02/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:41:03.971Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-03",
@@ -153,7 +171,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-03/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:42:05.020Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-04",
@@ -167,7 +191,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-04/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:43:03.608Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-05",
@@ -181,7 +211,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-05/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:43:06.693Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-06",
@@ -195,7 +231,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-06/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:43:07.674Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-07",
@@ -209,7 +251,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-07/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:43:08.659Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-08",
@@ -223,7 +271,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-08/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:43:09.643Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-09",
@@ -237,7 +291,13 @@
       "wartetLive": 0,
       "reviewPfad": "vorproduktion/2026-10-09/fertig",
       "coverbilder": false,
-      "providerKostenUsd": 0
+      "providerKostenUsd": 0,
+      "liveVorrangAktiv": true,
+      "normalbetriebGesperrt": true,
+      "bilderStatus": "icon-statt-providerbild",
+      "renderStatus": "fertig",
+      "renderErzeugtAm": "2026-09-29T00:44:20.057Z",
+      "coverIcons": true
     },
     {
       "datum": "2026-10-10",

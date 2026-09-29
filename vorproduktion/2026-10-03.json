@@ -11,7 +11,13 @@
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
     "piperOffline": true,
-    "coverbilder": false
+    "coverbilder": false,
+    "autorUsd": 0,
+    "faktencheckUsd": 0,
+    "sonstigeTextKiUsd": 0,
+    "bildgenerierungErlaubt": false,
+    "bildkostenUsd": 0,
+    "bilderStatus": "icon-statt-providerbild"
   },
   "plan": {
     "beitraege": [
@@ -193,11 +199,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b2": {
       "format": "klausurtechnik",
@@ -290,11 +297,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "b3": {
       "format": "reel",
@@ -395,11 +403,12 @@
       },
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s4": {
       "slot": "s4",
@@ -413,8 +422,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -426,7 +435,8 @@
         "der Gesellschafter oder eine nahestehende Person",
         "das Finanzamt"
       ],
-      "richtig": 1
+      "richtig": 1,
+      "liveVorrangAktiv": true
     },
     "s5": {
       "slot": "s5",
@@ -440,8 +450,8 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
@@ -453,7 +463,8 @@
         "das Finanzamt"
       ],
       "richtig": 1,
-      "text": "Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA."
+      "text": "Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA.",
+      "liveVorrangAktiv": true
     },
     "s6": {
       "slot": "s6",
@@ -474,15 +485,16 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 1 EStG",
       "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
-      "text": "Wegzugsdatum und Zeiträume vor/nach Wegzug zuerst auf einer Zeitachse festhalten. Auslandseinkünfte während der nicht unbeschränkten Phase für § 32b untersuchen."
+      "text": "Wegzugsdatum und Zeiträume vor/nach Wegzug zuerst auf einer Zeitachse festhalten. Auslandseinkünfte während der nicht unbeschränkten Phase für § 32b untersuchen.",
+      "liveVorrangAktiv": true
     },
     "s7": {
       "slot": "s7",
@@ -495,11 +507,12 @@
       "titel": "Tage bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen"
+      "bildStatus": "bewusst-ausgelassen",
+      "liveVorrangAktiv": true
     },
     "s8": {
       "slot": "s8",
@@ -520,14 +533,15 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
-      "text": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen."
+      "text": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
+      "liveVorrangAktiv": true
     },
     "s9": {
       "slot": "s9",
@@ -549,27 +563,121 @@
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
-      "freigabeBetreiber": false,
-      "vorproduktionStatus": "review",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
-      "text": "Angerechnet wird höchstens, was an deutscher Steuer auf die Einkünfte aus genau diesem Staat entfällt."
+      "text": "Angerechnet wird höchstens, was an deutscher Steuer auf die Einkünfte aus genau diesem Staat entfällt.",
+      "liveVorrangAktiv": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b1",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
+      "text": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b2",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "ueberzeile": "Neuer Beitrag",
+      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "text": "",
+      "icon": "paragraf",
+      "bild": null,
+      "bildFrei": true,
+      "bildQuelle": null,
+      "bildBreite": null,
+      "bildHoehe": null,
+      "bildTyp": null,
+      "bildCharaktere": null,
+      "pille": "Jetzt im Feed",
+      "beitragSlot": "b3",
+      "abgeleitet": true,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "icon-statt-bild"
     }
   },
   "renderVorschau": {
-    "status": "ausstehend",
+    "status": "fertig",
+    "erzeugtAm": "2026-09-29T00:42:05.020Z",
+    "pfad": "vorproduktion/2026-10-03/fertig",
+    "providerKostenUsd": 0,
+    "textProviderKostenUsd": 0,
+    "faktencheckProviderKostenUsd": 0,
+    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "charakterLayer": "bewusst-ausgelassen",
-    "reelLayout": "erklaer",
-    "audio": "piper-offline",
-    "providerKostenUsd": 0
+    "coverIcons": true,
+    "reelStimme": "piper-offline",
+    "layoutQuelle": "herrjurist",
+    "semantikQuelle": "examenscampus",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
   },
   "liveRegel": {
     "veroeffentlichen": true,
     "freigabeErforderlich": false,
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
-  }
+  },
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true
 }
