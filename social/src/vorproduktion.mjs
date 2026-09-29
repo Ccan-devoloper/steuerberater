@@ -242,7 +242,9 @@ export function examenscampusRegelnPruefen(tag) {
      K3 → K1 → K2 sowie genau zwei Karussells und ein Reel verbindlich.
      Ältere Zwei-Feed-Reviewtage bleiben gültig. */
   const feed = tag.plan.beitraege || [];
-  if (feed.length === 3) {
+  /* In der Prüfungsphase (pruefungsphase.mjs) ersetzt ein motivierender
+     Anlass-Beitrag einen Fachslot; die Drei-Klausuren-Regel gilt dann nicht. */
+  if (feed.length === 3 && !feed.some((b) => b.format === "anlass")) {
     const klausurfolge = feed.map((b) => Number(b.klausur)).join(",");
     if (!DREI_KLAUSUREN_FOLGEN.some((f) => f.join(",") === klausurfolge)) {
       throw new Error(

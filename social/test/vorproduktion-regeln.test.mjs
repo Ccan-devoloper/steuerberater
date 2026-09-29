@@ -413,3 +413,26 @@ test("Lange Quiz-Fallschilderung wird auf den abschließenden Fragesatz für die
   );
   assert.ok(quizFrageSichtbar(lang, "Innergemeinschaftliche Lieferung").length <= 96);
 });
+
+test("Prüfungsphase: Vorabend, drei Klausurtage ohne Fachinhalt, danach Geschafft", async () => {
+  const { pruefungsphaseTag, pruefungsphaseTage } = await import("../src/pruefungsphase.mjs");
+  const t = pruefungsphaseTage("2026-10-06");
+  assert.deepEqual([t.vorabend, t.tag3, t.danach], ["2026-10-05", "2026-10-08", "2026-10-09"]);
+  assert.equal(pruefungsphaseTag("2026-10-04", "2026-10-06"), null);
+  assert.equal(pruefungsphaseTag("2026-10-10", "2026-10-06"), null);
+  assert.equal(pruefungsphaseTag("2026-10-05", "2026-10-06").art, "vorabend");
+  assert.equal(pruefungsphaseTag("2026-10-09", "2026-10-06").art, "danach");
+  for (const d of ["2026-10-06", "2026-10-07", "2026-10-08"]) {
+    const p = pruefungsphaseTag(d, "2026-10-06");
+    assert.equal(p.art, "pruefungstag");
+    const inhalt = p.beitrag.inhalt;
+    assert.equal(inhalt.fach, "mindset");
+    assert.equal(feedKategorie(inhalt), 0);
+    const tag = {
+      datum: d,
+      plan: { beitraege: [{ slot: "b1", format: "anlass", klausur: 0 }], stories: p.stories.map((s, i) => ({ slot: "s" + (i + 2), art: s.inhalt.art })) },
+      inhalte: { b1: inhalt, ...Object.fromEntries(p.stories.map((s, i) => ["s" + (i + 2), { slot: "s" + (i + 2), ...s.inhalt }])) },
+    };
+    assert.equal(examenscampusRegelnPruefen(tag), true, d);
+  }
+});
