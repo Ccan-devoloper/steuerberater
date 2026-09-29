@@ -27,7 +27,7 @@ jobs:
           node tools/endriss/vorbereiten-fgo-gesetz.mjs
           node tools/endriss/vorbereiten-fgo-gesetz.mjs --check
           node --check src/data/endriss-fgo-gesetz.generated.js
-      - name: Persist this one generated file only; no force and no main write
+      - name: Persist only generated FGO text; retain concurrent unrelated changes
         env:
           EXPECTED_HEAD: ${{ github.sha }}
         run: |
@@ -38,13 +38,19 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           test "$(git diff --cached --name-only)" = "src/data/endriss-fgo-gesetz.generated.js"
           git fetch origin "$branch"
-          if test "$(git rev-parse FETCH_HEAD)" != "$EXPECTED_HEAD"; then
-            echo 'Working branch advanced. Refusing a stale publisher commit; rerun from a newly reviewed head.' >&2
+          latest=$(git rev-parse FETCH_HEAD)
+          git merge-base --is-ancestor "$EXPECTED_HEAD" "$latest"
+          changed=$(git diff --name-only "$EXPECTED_HEAD" "$latest" -- tools/endriss/vorbereiten-fgo-gesetz.mjs src/data/endriss-fgo-seitenreview.js src/data/endriss-fgo-gesetz.generated.js public/endriss/quellen/sources/ao-fgo.json .github/workflows/endriss-fgo-gesetz.yml)
+          if test -n "$changed"; then
+            echo 'FGO inputs changed concurrently. Refusing to publish a stale transfer.' >&2
+            printf '%s\n' "$changed" >&2
             exit 1
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git commit -m 'content: persist 36 source-checked FGO statute pages [skip ci]'
+          git rebase "$latest"
+          node tools/endriss/vorbereiten-fgo-gesetz.mjs --check
           git push origin "HEAD:refs/heads/$branch"
       - name: Preserve page hashes and exact text-layer repairs
         if: always()
