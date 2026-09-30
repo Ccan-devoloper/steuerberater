@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 63,
+        "reach": 65,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 90,
-        "ig_reels_avg_watch_time": 7731,
-        "ig_reels_video_view_total_time": 541198,
-        "reels_skip_rate": 71.9
+        "views": 93,
+        "ig_reels_avg_watch_time": 7513,
+        "ig_reels_video_view_total_time": 548466,
+        "reels_skip_rate": 71.2
       },
-      "insightsStand": "2026-09-30T12:44:15.959Z",
-      "insightsAlterStunden": 19.7
+      "insightsStand": "2026-09-30T15:45:06.925Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-09-29",
@@ -6110,22 +6110,22 @@
       "fach": "istr",
       "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
       "insights": {
-        "reach": 32,
-        "views": 44,
+        "reach": 35,
+        "views": 46,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 40,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 30,
+        "navigation": 44,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 33,
         "navigation_tap_back": 5,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-30T13:44:57.672Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-09-30T15:45:01.265Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-09-29",
@@ -6139,21 +6139,22 @@
       "fach": "istr",
       "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
       "insights": {
-        "reach": 29,
-        "views": 39,
+        "reach": 32,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 34,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 23,
-        "navigation_tap_back": 3
+        "navigation": 38,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 24,
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-09-30T13:44:57.672Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-09-30T15:45:01.265Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-30",
@@ -6167,22 +6168,22 @@
       "fach": "persg",
       "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?",
       "insights": {
-        "reach": 23,
-        "views": 28,
+        "reach": 27,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
+        "navigation": 29,
         "navigation_tap_exit": 1,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 21,
+        "navigation_tap_forward": 25,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-09-30T11:21:44.029Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-09-30T15:45:01.265Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-30",
@@ -6196,22 +6197,22 @@
       "fach": "persg",
       "titel": "Ergänzungs- und Sonderbereich der Gesellschafter",
       "insights": {
-        "reach": 22,
-        "views": 25,
+        "reach": 25,
+        "views": 29,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 21,
+        "navigation": 25,
         "navigation_tap_exit": 1,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 15,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 18,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-30T11:21:44.029Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-09-30T15:45:01.265Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-30",
