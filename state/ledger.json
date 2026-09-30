@@ -6456,6 +6456,18 @@
       "thema": null,
       "fach": "umwst",
       "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?"
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "s9",
+      "medienId": "18049496924813268",
+      "veroeffentlicht": "2026-09-30T17:44:20.057Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-aufb-istr-gh-4-31",
+      "fach": "istr",
+      "titel": "Steuerfrei nach DBA und trotzdem teurer: der Progressionsvorbehalt"
     }
   ],
   "fachZaehler": {
