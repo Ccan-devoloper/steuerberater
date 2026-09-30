@@ -4681,7 +4681,7 @@
       "veroeffentlicht": "2026-09-24T06:46:38.255Z",
       "karteUrl": "https://raw.githubusercontent.com/Ccan-devoloper/steuerberater/instagram-assets/bilder/2026-09-24/2026-09-24-b1-02-muf64i4x.jpg",
       "insights": {
-        "reach": 51,
+        "reach": 59,
         "saved": 4,
         "shares": 0,
         "likes": 0,
@@ -4690,8 +4690,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-29T20:43:46.143Z",
-      "insightsAlterStunden": 134
+      "insightsStand": "2026-09-30T20:44:25.363Z",
+      "insightsAlterStunden": 158
     },
     {
       "datum": "2026-09-24",
@@ -6289,22 +6289,22 @@
       "fach": "istr",
       "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht",
       "insights": {
-        "reach": 24,
-        "views": 28,
+        "reach": 31,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 23,
+        "navigation": 33,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 16,
+        "navigation_tap_forward": 25,
         "navigation_tap_back": 2,
-        "navigation_tap_exit": 4
+        "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-09-30T16:44:00.194Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-09-30T20:44:23.562Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-09-30",
@@ -6445,19 +6445,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 26,
-        "saved": 0,
+        "reach": 49,
+        "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 38,
-        "ig_reels_avg_watch_time": 8669,
-        "ig_reels_video_view_total_time": 199395,
-        "reels_skip_rate": 42.9
+        "total_interactions": 2,
+        "views": 66,
+        "ig_reels_avg_watch_time": 9992,
+        "ig_reels_video_view_total_time": 499627,
+        "reels_skip_rate": 52
       },
-      "insightsStand": "2026-09-30T18:44:31.001Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-09-30T20:44:25.363Z",
+      "insightsAlterStunden": 3.7
     },
     {
       "datum": "2026-09-30",
