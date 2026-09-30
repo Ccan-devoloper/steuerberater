@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-30T11:45:18.922Z",
+  "stand": "2026-09-30T12:44:17.489Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -8528,6 +8528,20 @@
           "ig_reels_avg_watch_time": 8553,
           "ig_reels_video_view_total_time": 530344,
           "reels_skip_rate": 69.5
+        },
+        {
+          "stand": "2026-09-30T12:44:15.959Z",
+          "alterStunden": 19.7,
+          "reach": 63,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 90,
+          "ig_reels_avg_watch_time": 7731,
+          "ig_reels_video_view_total_time": 541198,
+          "reels_skip_rate": 71.9
         }
       ]
     },
@@ -8754,6 +8768,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 8
+        },
+        {
+          "stand": "2026-09-30T12:44:13.235Z",
+          "alterStunden": 6,
+          "reach": 21,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -8782,6 +8813,30 @@
           "navigation_tap_exit": 2,
           "navigation_tap_back": 1,
           "navigation_tap_forward": 3
+        }
+      ]
+    },
+    "18071709470569918": {
+      "art": "beitrag",
+      "datum": "2026-09-30",
+      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?",
+      "format": "klausurtechnik",
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-30T11:45:00.902Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-30T12:44:15.959Z",
+          "alterStunden": 1,
+          "reach": 12,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -9320,6 +9375,11 @@
     {
       "stand": "2026-09-30T11:45:18.922Z",
       "follower": 94,
+      "medien": 73
+    },
+    {
+      "stand": "2026-09-30T12:44:17.489Z",
+      "follower": 95,
       "medien": 73
     }
   ]

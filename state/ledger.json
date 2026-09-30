@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 57,
+        "reach": 63,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 83,
-        "ig_reels_avg_watch_time": 8553,
-        "ig_reels_video_view_total_time": 530344,
-        "reels_skip_rate": 69.5
+        "views": 90,
+        "ig_reels_avg_watch_time": 7731,
+        "ig_reels_video_view_total_time": 541198,
+        "reels_skip_rate": 71.9
       },
-      "insightsStand": "2026-09-30T09:43:46.335Z",
-      "insightsAlterStunden": 16.7
+      "insightsStand": "2026-09-30T12:44:15.959Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-09-29",
@@ -6259,21 +6259,22 @@
       "fach": "ao",
       "titel": "Bekanntgabe an Steuerberater und Ehegatten",
       "insights": {
-        "reach": 13,
-        "views": 17,
+        "reach": 21,
+        "views": 23,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
+        "navigation": 22,
+        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 7,
         "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 8
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-09-30T08:43:49.165Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-30T12:44:13.235Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-30",
@@ -6323,7 +6324,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#einkommensteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 12,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-09-30T12:44:15.959Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-30",
