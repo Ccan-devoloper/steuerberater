@@ -6153,6 +6153,18 @@
       },
       "insightsStand": "2026-09-29T19:43:59.495Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "s4",
+      "medienId": "18084573941309409",
+      "veroeffentlicht": "2026-09-30T05:44:40.882Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-persg-2",
+      "fach": "persg",
+      "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?"
     }
   ],
   "fachZaehler": {
