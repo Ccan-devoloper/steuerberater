@@ -32,7 +32,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "13:30",
+        "zeit": "09:30",
         "format": "schema",
         "themaId": "umwst-aufb-umw-2-52",
         "themaTitel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
@@ -84,7 +84,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "13:30",
+        "zeit": "09:30",
         "art": "teaser",
         "beitragSlot": "b2",
         "status": "aus-beitrag-ableitbar"
