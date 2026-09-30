@@ -1,21 +1,42 @@
 {
-  "schemaVersion":15,
-  "updatedAt":"2026-09-30T19:20:13Z",
-  "sourceId":"persg-facts",
-  "sourceTitle":"B-S25-PersG-fact sheets-(Horst)-0425.pdf",
-  "driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
-  "sourceBytes":17436897,
-  "sourceSha256":"28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67",
-  "physicalPages":24,
+  "schemaVersion":16,
+  "updatedAt":"2026-09-30T19:34:00Z",
+  "sourceId":"persg-facts","sourceTitle":"B-S25-PersG-fact sheets-(Horst)-0425.pdf",
+  "driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5","sourceBytes":17436897,
+  "sourceSha256":"28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67","physicalPages":24,
   "legalReview":false,"sourceComplete":false,"packageComplete":false,
-  "historicalCheckpoints":[{"commit":"26b8116e41bc4871ec2249948a101a9ddcddf2a7","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"c6d0a97b8020aa565e5959a6e759ef71cbc5af23","contents":"Complete immutable PR261–266 page/source/test/real-failure/manual-review/merge/deployment evidence and all previous fixed history chains. Earlier uncertainties remain explicit; no historical evidence removed."}],
-  "nativePages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14],
-  "visuallyReviewedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+  "historicalCheckpoints":[
+    {"commit":"26b8116e41bc4871ec2249948a101a9ddcddf2a7","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"c6d0a97b8020aa565e5959a6e759ef71cbc5af23","contents":"Complete immutable PR261–266 source/page/test/failure/manual/merge/deployment history and all earlier fixed references. All prior original uncertainties preserved."},
+    {"commit":"dbbd133c930bb56d88820eef6a9e8f013d0aa817","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"166edbb32398b5c443642ddfc6fdf5b4e6bbc1b6","contents":"Fresh main/work/lease verification and bounded reservation before original PDF15–16 review."}
+  ],
+  "nativePages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
+  "visuallyReviewedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
   "releasedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14],
-  "remainingPages":[15,16,17,18,19,20,21,22,23,24],
-  "lease":{"owner":"interactive-persg-pdf15-16-20260930-1920","acquiredAt":"2026-09-30T19:20:13Z","expiresAt":"2026-09-30T20:20:13Z","scope":"Bounded original PersG PDF15-16, native data/adapter, source and viewport tests, related source/global checkpoints. Preserve earlier chapters, original assets, existing modules and learner progress."},
-  "resynchronization":{"main":"016fad1e8393f581e42587ae46d6a5bb8a2d025a","work":"26b8116e41bc4871ec2249948a101a9ddcddf2a7","behindMain":0,"aheadBy":1,"onlyUnmergedChange":"Four documented PR266 release-checkpoint files; no unmerged runtime changes.","sourceArtifact":11117816771,"artifactSha256":"8666ecb335b87ec85b13100c211dab2bac9f2a198859cb319aa012555e2abc52","artifactVerified":true,"latestWorkRun":36758057118,"latestWorkConclusion":"success","openPRForWorkBranch":false,"globalAndRegisteredSourceLeases":null},
-  "currentPackage":{"pages":[15,16],"state":"reserved-before-source-review","printedSheets":null,"merged":false,"deployed":false,"tests":"not yet run for new content"},
+  "remainingNativePages":[17,18,19,20,21,22,23,24],
+  "lease":{"owner":"interactive-persg-pdf15-16-20260930-1920","acquiredAt":"2026-09-30T19:20:13Z","expiresAt":"2026-09-30T20:20:13Z","scope":"Original PDF15-16; native source/adapter; source/viewport tests and source/global checkpoints. Preserve previous chapters, modules, original assets and learner state."},
+  "currentPackage":{
+    "pages":[15,16],"printedSheets":[27,28,29,30],"state":"source-transcribed-and-integrated; local-SSR-and-bundle-passed; full-CI-and-release-pending",
+    "dataCommit":"c2a5fc75b4b12562511c09856e401aa7f6587a08","dataBlobSha":"846ac9ba2bb5faa4eb416b6fe9059bff9352b764",
+    "sourceVerification":"Fresh connected Drive metadata matched the attached/backing original of the same Drive identity. Independently verified17436897bytes/SHA256/24pages. Both full original images15/16 and four enlarged half-sheets27–30 directly read, then compared with native text; upside-down note on30 also rotated and read. No OCR, no new original assets or personal delivery-watermark text published.",
+    "pageEvidence":[
+      {"page":15,"printedSheets":[27,28],"chapters":["persg-facts-27","persg-facts-28"],"review":"Exact getilgt continuation and independent private-overdraft note; remaining blank area not filled. All exit columns, SBV graph/path alternatives, three payment alternatives, both original balances and AfA bracket/arrow. Missing closing parenthesis retained.","moduleTargets":[30,33,34,39,40,23]},
+      {"page":16,"printedSheets":[29,30],"chapters":["persg-facts-29","persg-facts-30"],"review":"Original70k/100kexit calculations, reserve ratio, source-caption vorher, struck sbA and dual-loss arrows. Original20kexit,30kloss, book-value ratio, both balances, crossed exclusions and AfA20/10k. Inverted warning read after rotation. Sheet30SBVnote visibly stops at zusätzlich; not completed from sheet29. OriginalFc29 reference preserved.","moduleTargets":[40,41,42]}
+    ],
+    "resolvedSourceContinuations":[{"fromPage":14,"fromPrintedSheet":26,"toPage":15,"toPrintedSheet":27,"originalEnding":"wird mit Zuzahlung","continuation":"getilgt","resolved":true,"method":"Direct next-page evidence; earlier chapter26 remains byte-for-byte unchanged and page-bound."}],
+    "sourceUncertainties":[
+      {"page":16,"printedSheet":30,"location":"yellow SBV note","visibleEnding":"Stille Reserven aus SBV sind zusätzlich","type":"incomplete-original-note","resolved":false,"action":"No word borrowed from the differently cropped sheet29note."},
+      {"page":15,"printedSheet":28,"location":"SBV alternative b)","type":"missing-closing-parenthesis","resolved":false,"action":"Retain original open parenthesis, no punctuation repair."}
+    ],
+    "priorSourceUncertainties":"All earlier incomplete references, covered digits and other original differences remain explicit. Only the sheet26-to27sentence continuation is newly resolved by evidence.",
+    "additionalChapters":4,"additionalTables":20,"totalChapters":31,"totalTables":121,
+    "allModuleTargets":[1,2,3,4,6,7,8,9,10,11,12,13,14,20,22,23,25,26,24,27,29,30,31,37,32,33,34,36,39,40,41,42],"newModuleTargets":[39,40,41,42],
+    "duplicateHandling":"Read existing modules23/30/33/34/39–42, including actual tag5 registration. Module40/fall18 shares opening120000/40000but its short solution does not replace source-specific tables/AfA. Module41 larger6bcase and module42different130000/110000Sachwert case are not imported as solutions. Existing modules/state untouched. Test initialization registers tag5 just like actual campus; no runtime module data changed.",
+    "previousChaptersSha256":"4773954a1babd28a170a205e0f3f0006f0affe3a8dbddf60b5d68ba2b6ac0d2f","cumulativeChaptersSha256":"989985ba900ef7362ed1dcb976144b1ed5bea9631206c20da9ae9ae607e3d5e9",
+    "files":["src/data/endriss-persg-facts-27-30.js","src/data/endriss-persg-facts.js","tools/endriss/assert-persg-facts-27-30.mjs","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs"],
+    "ui":"Existing source-card and PersG-Hausaufgaben entries; derived16/24boundary. Existing table/source-line renderer unchanged.32module targets present; actual browser clicks, all strict earlier/new column tests and native screenshots still pending.",
+    "tests":{"localSourceSSR":"passed: exact fixed source fixtures,32targets,31chapters/121tables, every rendered cell and prior27chapter hash","localNativeSSR":"passed:8sources/115source pages/111chapters/214tables, not PersG-only","localNotfallbuch":"passed","localViteBundle":"passed with existing chunk warnings, not a complete production build","localDependencies":"Fresh authenticated same-head Actions artifact11117746982 (SHA256f5e5b65f35adc09cb6eecc15b4a4d78bb984d5860cadb519bc51eb98e63122d6). All24installed-package versions/integrities from hidden lock match unchanged root package-lock; artifact contains no separate root lock, so no false byte-equality claim. No new npm-ci/install or upgrade claimed.","fullProduction":"pending complete-checkout CI; small local snapshot lacks public assets","browser":"pending actual Chromium and direct new-screenshot inspection; earlier tests preserved, not weakened"},
+    "merged":false,"deployed":false
+  },
   "blockers":[],
-  "next":"Directly read actual original PDF15-16 before assigning printed-sheet labels. Check whether the incomplete sheet26note continues. Compare existing modules, transcribe only original-supported content and secure native data early. Then integrate and run full production/source/import/browser checks, inspect actual screenshots, merge only after source-bound closure and verify exact deployment. All earlier source uncertainties remain unresolved until independently evidenced. Whole-group metric remains6/12=50percent."
+  "next":"Read actual full production/source/import/browser CI results and genuine logs on failure. Inspect native screenshots. Merge only after source-bound acceptance then verify exact deployment. Resume ORIGINAL PDF17 after release, including the second below-book-value alternative only if that next source actually supplies it. PDF17–24 remain open, A5 partial and whole-group metric6/12=50percent unchanged."
 }
