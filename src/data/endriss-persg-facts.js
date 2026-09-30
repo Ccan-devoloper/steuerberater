@@ -22,7 +22,10 @@ const continuation = persgFacts11bis14.map(chapter => ({
 }));
 // Derive block provenance from each directly verified source chapter.
 const latest = persgFacts19bis22.map(chapter => ({
-  ...chapter, bloecke: chapter.bloecke.map(block => ({ ...block, quellenSeiten: [...chapter.pages] })),
+  ...chapter, bloecke: chapter.bloecke.map(block => ({
+    ...block, quellenSeiten: [...chapter.pages],
+    ...((block.quellenart === 'textvergleich' || block.text?.includes('\n')) ? { quellenZeilen: true } : {}),
+  })),
 }));
 export const persgFacts = [...basis, ...continuation, ...persgFacts15bis18, ...latest];
 export const persgFactsAudit = {

@@ -12,6 +12,37 @@ fs.mkdirSync(output, {recursive:true});
 const {chromium} = createRequire(path.join(root,'social/package.json'))('playwright');
 const browser = await chromium.launch({headless:true});
 const report = {testedCommit:process.env.GITHUB_SHA || null,status:'running',checks:[],legalReview:false};
+// Measure each explicit original newline, not just DOM text or a CSS class.
+const sourceLineMetrics = elements => elements.filter(el => el.textContent.includes('\n')).map(el => {
+  const text = el.textContent;
+  const node = el.firstChild;
+  const pairs = [];
+  if (el.childNodes.length !== 1 || node.nodeType !== Node.TEXT_NODE) return {text,error:'Expected one source text node'};
+  for (let i=0;i<text.length;i++) if (text[i] === '\n') {
+    let before=i-1, after=i+1;
+    while (before>=0 && /\s/.test(text[before])) before--;
+    while (after<text.length && /\s/.test(text[after])) after++;
+    if (before<0 || after>=text.length) continue;
+    const left=document.createRange(); left.setStart(node,before); left.setEnd(node,before+1);
+    const right=document.createRange(); right.setStart(node,after); right.setEnd(node,after+1);
+    pairs.push({before:left.getBoundingClientRect().top,after:right.getBoundingClientRect().top});
+  }
+  return {text,whiteSpace:getComputedStyle(el).whiteSpace,align:getComputedStyle(el).textAlign,pairs};
+});
+const assertSourceLines = metrics => {
+  let checked=0;
+  for (const item of metrics) {
+    assert.ok(!item.error, item.error);
+    assert.equal(item.whiteSpace,'pre-line','Source list line breaks must survive rendering');
+    assert.equal(item.align,'left','Source lists should remain left aligned');
+    assert.ok(item.pairs.length>0);
+    for (const pair of item.pairs) {
+      assert.ok(pair.after>pair.before+1, `Collapsed original newline: ${item.text}`);
+      checked++;
+    }
+  }
+  return checked;
+};
 try {
   for (const width of [1280,390]) {
     const context = await browser.newContext({viewport:{width,height:900}});
@@ -36,6 +67,13 @@ try {
           const rect = chapter?.getBoundingClientRect();
           return chapter?.open && document.activeElement === chapter.querySelector('summary') && rect.top >= -2 && rect.top < innerHeight;
         },id,{timeout:5000});
+        let sourceLineBreaks=0;
+        const paragraphs=article.locator(`#${id} .endriss-facts-source-lines > .istr-ha-absatz`);
+        sourceLineBreaks += assertSourceLines(await paragraphs.evaluateAll(sourceLineMetrics));
+        for (let n=0;n<await paragraphs.count();n++) {
+          await paragraphs.nth(n).evaluate(el=>el.scrollIntoView({block:'center',behavior:'instant'}));
+          await paragraphs.nth(n).screenshot({path:path.join(output,`${id}-source-lines-${n}-${width}.png`)});
+        }
         const regions = article.locator(`#${id} .endriss-facts-scroll`);
         assert.equal(await regions.count(), expectedTables);
         for (let i=0;i<await regions.count();i++) {
@@ -62,6 +100,7 @@ try {
               assert.equal(amount.lines,1, `Sign, amount and currency must stay together: ${amount.text}`);
             }
           }
+          sourceLineBreaks += assertSourceLines(await region.locator('table.endriss-facts-source-lines tbody th, table.endriss-facts-source-lines tbody td').evaluateAll(sourceLineMetrics));
           await region.screenshot({path:path.join(output,`${id}-table-${i}-${width}-left.png`)});
           if (metrics.scroll > metrics.client+2) {
             await region.focus();
@@ -91,7 +130,8 @@ try {
         }
         const dimensions = await page.evaluate(()=>({available:document.documentElement.clientWidth,actual:document.documentElement.scrollWidth}));
         assert.ok(dimensions.actual <= dimensions.available+2, `Page overflow after chapter jump: ${JSON.stringify(dimensions)}`);
-        report.checks.push({viewport:width,chapter:id,focusAndScroll:'passed',tableRegions:await regions.count(),keyboardAndLastColumn:'passed'});
+        assert.equal(sourceLineBreaks, ({'persg-facts-19':2,'persg-facts-20':8,'persg-facts-21':4,'persg-facts-22':6})[id] || 0, 'Every original list break in the new package must be tested');
+        report.checks.push({viewport:width,chapter:id,focusAndScroll:'passed',tableRegions:await regions.count(),keyboardAndLastColumn:'passed',sourceLineBreaks});
       }
     } catch(error) {
       await page.screenshot({path:path.join(output,`viewport-failure-${width}.png`)}).catch(()=>{});
