@@ -6286,6 +6286,28 @@
       "thema": "istr-modul-istr-istr1-06",
       "fach": "istr",
       "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht"
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "b2",
+      "medienId": "18071709470569918",
+      "veroeffentlicht": "2026-09-30T11:45:00.902Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "klausurtechnik",
+      "thema": "est-aufb-est-ks2-17-02",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -6296,7 +6318,8 @@
     "bilanz": 17,
     "istr": 14,
     "erbst": 3,
-    "mindset": 2
+    "mindset": 2,
+    "est": 1
   },
   "nachrichten": [],
   "postfach": [],
