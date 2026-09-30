@@ -23,7 +23,7 @@ export const persgFacts23bis26 = [
       '– Laufender Gewinn\n– Keine Vergünstigung nach §§ 16, 34 EStG\n– Keine GewSt',
       '(st. Res._WG / st. Res._insgesamt) × st. Res._aufgedeckt',
     ]]),
-    t(['Von','Nach','Quellenpfeil'], [['Vorher: EU_A','Nachher: A & B – OHG','Orange'],['OHG · AV 110.000','Technik AfA AV: (3 Schritte)','Rot; AV 110.000 im Original umkreist']]),
+    t(['Von','Nach','Quellenpfeil'], [['Vorher: EU_A','Nachher: A & B – OHG','Orange'],['Technik AfA AV: (3 Schritte)','OHG · AV 110.000','Rot; AV 110.000 im Original umkreist']]),
     h('Vorher: EU_A'),
     balance([['AV (st. Res. 20.000)','90.000','Kap.','100.000'],['UV','10.000','',''],['','100.000','','100.000']]),
     p('B: 150.000 €\nAntrag: Aufdeckung 35.000 €'),

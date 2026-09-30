@@ -13,7 +13,7 @@ export function assertPersgFacts23bis26(chapters) {
     for (const block of chapter(n).bloecke) assert.deepEqual(block.quellenSeiten,[page]);
   }
   const zw=tables(23);
-  assert.deepEqual(zw[2].zeilen,[['Vorher: EU_A','Nachher: A & B – OHG','Orange'],['OHG · AV 110.000','Technik AfA AV: (3 Schritte)','Rot; AV 110.000 im Original umkreist']]);
+  assert.deepEqual(zw[2].zeilen,[['Vorher: EU_A','Nachher: A & B – OHG','Orange'],['Technik AfA AV: (3 Schritte)','OHG · AV 110.000','Rot; AV 110.000 im Original umkreist']]);
   const before=[['AV (st. Res. 20.000)','90.000','Kap.','100.000'],['UV','10.000','',''],['','100.000','','100.000']];
   assert.deepEqual(zw[3].zeilen,before);
   assert.deepEqual(zw[4].zeilen,[['AV','110.000','Kap.A','150.000'],['UV','10.000','',''],['FW','30.000','Kap.B','150.000'],['Bank','150.000','',''],['','300.000','','300.000']]);

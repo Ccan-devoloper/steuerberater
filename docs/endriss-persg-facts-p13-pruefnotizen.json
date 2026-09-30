@@ -1,0 +1,14 @@
+{
+  "sourceId":"persg-facts",
+  "pages":[13,14],
+  "printedSheets":[23,24,25,26],
+  "firstTestedHead":"db74c5aaed446080a3bec34b0641deb32ac408c1",
+  "firstTestedPRMerge":"d8d5dc013963dcb4e7c9a33e58e4f5d6e0fb3da2",
+  "firstSourceBrowserRun":36754995458,
+  "firstEvidenceArtifact":11116333114,
+  "firstEvidenceSha256":"8a0219e1d445f63f0f56b6d125c9534728b5c4397c7da8d4c03dfa3e22bcf3f5",
+  "actualDownloadedReports":{"sourceBrowser":"passed;24checks;14source-image-hashes","viewport":"passed;42chapter/width-combinations","genericBrowser":"passed;21checks"},
+  "manualSourceFinding":{"page":13,"printedSheet":23,"location":"red arrow between three-step AfA note and circled AV110000","problem":"Draft native edge reversed the arrow direction. A repeated enlarged-source inspection shows the arrow points FROM the technique note TO the AV balance location.","correction":"Reversed only this native edge and its fixed source fixture before release; all source figures, headings and other chapters remain unchanged.","correctedDataBlob":"cc10e29653c40ac04425d6323595e09720addf3d","correctedFixtureBlob":"81113ef5f99db63cdd589913663272a6c5a842f3","localSourceSSR":"passed after correction","classification":"real source-transfer correction after initial passing technical tests, not a failed workflow relabelled successful"},
+  "next":"Require fresh final CI for the corrected head and directly inspect the new native desktop/mobile tables before merge. No merge or deployment of this package is claimed here.",
+  "legalReview":false
+}
