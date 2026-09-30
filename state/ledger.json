@@ -6178,13 +6178,35 @@
       "thema": "persg-quiz-persg-2",
       "fach": "persg",
       "titel": "Ergänzungs- und Sonderbereich der Gesellschafter"
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "b1",
+      "medienId": "17987145231026494",
+      "veroeffentlicht": "2026-09-30T06:46:01.415Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-308",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Bekanntgabe an Steuerberater und Ehegatten",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 8,
     "ust": 8,
     "kst": 7,
-    "ao": 14,
+    "ao": 15,
     "bilanz": 17,
     "istr": 14,
     "erbst": 3,
