@@ -35,4 +35,9 @@
 .endriss-facts-scroll .endriss-facts-calcpair th,
 .endriss-facts-scroll .endriss-facts-calcpair td { width: 50%; }
 .endriss-facts-scroll .endriss-facts-calcpair th { white-space: normal; }
+/* Opt-in on PDF11–12 only: source list items keep their explicit line breaks.
+   No earlier table layout or single-line ledger amount is changed. */
+.endriss-facts-scroll .endriss-facts-source-lines th,
+.endriss-facts-scroll .endriss-facts-source-lines td,
+.endriss-facts-source-lines > .istr-ha-absatz { white-space: pre-line; text-align: left; }
 @media print { .endriss-facts-scroll { overflow: visible; } .endriss-facts-scroll .istr-fs-tabelle { min-width: 0; font-size: .65rem; } }

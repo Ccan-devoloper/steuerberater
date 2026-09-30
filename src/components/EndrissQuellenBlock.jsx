@@ -15,12 +15,13 @@ export default function EndrissQuellenBlock({ element, sourceId }) {
   if (element.typ === 'tabelle' && sourceId === 'persg-facts') return <div className="endriss-facts-table">
     <p className="endriss-quellenhinweis">Breite Tabelle: bei Bedarf seitlich scrollen. Mit der Tastatur den Tabellenbereich fokussieren und die Pfeiltasten verwenden.</p>
     <div className="endriss-facts-scroll" tabIndex={0} role="region" aria-label={`Quellentabelle: ${element.spalten.join(' / ')}`}>
-      <table className={`istr-fs-tabelle${element.spalten.length === 5 ? ' endriss-facts-calculation' : ''}${element.quellenart === 'kontenentwicklung' ? ' endriss-facts-ledger' : ''}${element.quellenart === 'textvergleich' ? (element.spalten.length === 4 ? ' endriss-facts-textquad' : element.spalten.length === 3 ? ' endriss-facts-texttriple' : ' endriss-facts-textpair') : ''}${element.quellenlayout === 'kapitalpaar' ? ' endriss-facts-ledgerpair' : ''}${element.quellenlayout === 'rechenpaar' ? ' endriss-facts-calcpair' : ''}`}>
+      <table className={`istr-fs-tabelle${element.spalten.length === 5 ? ' endriss-facts-calculation' : ''}${element.quellenart === 'kontenentwicklung' ? ' endriss-facts-ledger' : ''}${element.quellenart === 'textvergleich' ? (element.spalten.length === 4 ? ' endriss-facts-textquad' : element.spalten.length === 3 ? ' endriss-facts-texttriple' : ' endriss-facts-textpair') : ''}${element.quellenlayout === 'kapitalpaar' ? ' endriss-facts-ledgerpair' : ''}${element.quellenlayout === 'rechenpaar' ? ' endriss-facts-calcpair' : ''}${element.quellenZeilen ? ' endriss-facts-source-lines' : ''}`}>
         <thead><tr>{element.spalten.map((label, i) => <th scope="col" key={i}>{label}</th>)}</tr></thead>
         <tbody>{element.zeilen.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody>
       </table>
     </div>
   </div>;
+  if (sourceId === 'persg-facts' && element.quellenZeilen) return <div className="endriss-facts-source-lines"><Block element={element} /></div>;
   if (element.typ !== 'tabelle' || element.quellenart !== 'markierungen') return <Block element={element} />;
   return <div className="istr-fs-tabelle__rahmen endriss-markierungen" data-source-annotations={element.quellenSeiten?.join(',')}>
     <table className="istr-fs-tabelle">
