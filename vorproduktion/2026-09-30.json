@@ -332,7 +332,7 @@
           "unter": "Umwandlungssteuerrecht",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
           "norm": "§ 4 Abs. 4 UmwStG",
-          "icon": null,
+          "icon": "hauptbuch",
           "sprecher": "Heute geht es um Welche Anteile nehmen am Übernahmeergebnis teil? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
             "Der Übernahmegewinn oder -verlust entsteht"
@@ -394,7 +394,7 @@
       ],
       "kurztitel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 4 Abs. 4 UmwStG",
         "§ 5 UmwStG",
@@ -427,7 +427,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "hauptbuch"
     },
     "s4": {
       "slot": "s4",
