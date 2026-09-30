@@ -47,6 +47,9 @@ try {
           assert.equal(await region.getAttribute('tabindex'),'0');
           assert.equal(await region.getAttribute('role'),'region');
           const metrics = await region.evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth,wrap:getComputedStyle(el.querySelector('tbody th')).overflowWrap}));
+          if (width === 1280 && await region.locator('table.endriss-facts-textquad').count()) {
+            assert.ok(metrics.scroll <= metrics.client+2, 'All four formation columns must fit the desktop reader');
+          }
           assert.equal(metrics.wrap,'normal','Technical words must not be fragmented anywhere');
           if (await region.locator('table.endriss-facts-ledger').count()) {
             assert.equal(await region.locator('table.endriss-facts-ledger').count(),1);
