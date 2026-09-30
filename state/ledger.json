@@ -4983,7 +4983,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 35,
+        "reach": 43,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -4992,8 +4992,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-29T00:32:36.218Z",
-      "insightsAlterStunden": 65.8
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 95
     },
     {
       "datum": "2026-09-26",
@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 55,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 76,
-        "ig_reels_avg_watch_time": 11447,
-        "ig_reels_video_view_total_time": 686853,
-        "reels_skip_rate": 55.4
+        "views": 81,
+        "ig_reels_avg_watch_time": 10607,
+        "ig_reels_video_view_total_time": 700123,
+        "reels_skip_rate": 55.7
       },
-      "insightsStand": "2026-09-29T14:43:54.605Z",
-      "insightsAlterStunden": 52
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 67
     },
     {
       "datum": "2026-09-27",
@@ -5545,7 +5545,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 41,
+        "reach": 45,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5554,8 +5554,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T14:43:54.605Z",
-      "insightsAlterStunden": 32
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 47
     },
     {
       "datum": "2026-09-28",
@@ -5646,8 +5646,8 @@
         "ig_reels_video_view_total_time": 1077779,
         "reels_skip_rate": 51.9
       },
-      "insightsStand": "2026-09-29T18:43:35.420Z",
-      "insightsAlterStunden": 32
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 43
     },
     {
       "datum": "2026-09-28",
@@ -5825,8 +5825,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-29T20:43:46.143Z",
-      "insightsAlterStunden": 15
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 24
     },
     {
       "datum": "2026-09-29",
@@ -5935,7 +5935,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 38,
+        "reach": 40,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5944,8 +5944,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T20:43:46.143Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-29",
@@ -5967,14 +5967,14 @@
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 41,
-        "navigation_tap_back": 6,
-        "navigation_swipe_forward": 3,
+        "navigation": 42,
+        "navigation_tap_forward": 26,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 25
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-09-29T20:43:44.964Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-09-30T05:44:56.670Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-29",
@@ -5988,22 +5988,22 @@
       "fach": "istr",
       "titel": "Ausländische Körperschaft mit deutschem Grundstück: Vermietung und AfA",
       "insights": {
-        "reach": 31,
-        "views": 39,
+        "reach": 32,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 34,
-        "navigation_tap_forward": 25,
-        "navigation_tap_exit": 6,
+        "navigation": 35,
+        "navigation_tap_back": 2,
         "navigation_swipe_forward": 1,
-        "navigation_tap_back": 2
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 26
       },
-      "insightsStand": "2026-09-29T21:34:09.694Z",
-      "insightsAlterStunden": 10.8
+      "insightsStand": "2026-09-30T05:44:56.670Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-29",
@@ -6017,21 +6017,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 30,
-        "views": 39,
+        "reach": 32,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 1,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 28,
-        "navigation_tap_back": 3
+        "navigation": 41,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 29,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-09-29T19:43:59.495Z",
-      "insightsAlterStunden": 7
+      "insightsStand": "2026-09-30T05:44:56.670Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-09-29",
@@ -6045,22 +6045,22 @@
       "fach": "bilanz",
       "titel": "Schwebendes Geschäft",
       "insights": {
-        "reach": 27,
-        "views": 38,
+        "reach": 28,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 32,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 21,
+        "navigation": 33,
+        "navigation_tap_back": 4,
         "navigation_swipe_forward": 1,
-        "navigation_tap_back": 4
+        "navigation_tap_forward": 22,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-09-29T21:34:09.694Z",
-      "insightsAlterStunden": 5.8
+      "insightsStand": "2026-09-30T05:44:56.670Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-09-29",
@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 50,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 67,
-        "ig_reels_avg_watch_time": 8309,
-        "ig_reels_video_view_total_time": 382219,
-        "reels_skip_rate": 70.5
+        "views": 74,
+        "ig_reels_avg_watch_time": 7495,
+        "ig_reels_video_view_total_time": 404779,
+        "reels_skip_rate": 74.5
       },
-      "insightsStand": "2026-09-29T20:43:46.143Z",
-      "insightsAlterStunden": 3.7
+      "insightsStand": "2026-09-30T05:45:06.125Z",
+      "insightsAlterStunden": 12.7
     },
     {
       "datum": "2026-09-29",
@@ -6110,21 +6110,22 @@
       "fach": "istr",
       "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
       "insights": {
-        "reach": 12,
-        "views": 18,
+        "reach": 24,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 11,
-        "navigation_tap_back": 3
+        "navigation": 32,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 24,
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-09-29T18:43:33.471Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-09-30T05:44:56.670Z",
+      "insightsAlterStunden": 12.7
     },
     {
       "datum": "2026-09-29",
@@ -6138,21 +6139,21 @@
       "fach": "istr",
       "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
       "insights": {
-        "reach": 20,
-        "views": 24,
+        "reach": 23,
+        "views": 29,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 23,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 16,
-        "navigation_tap_back": 1
+        "navigation": 27,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 17,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-09-29T19:43:59.495Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-30T05:44:56.670Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-09-30",
