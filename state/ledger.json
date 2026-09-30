@@ -5065,19 +5065,19 @@
         "#kopfsache"
       ],
       "insights": {
-        "reach": 45,
+        "reach": 56,
         "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 66,
-        "ig_reels_avg_watch_time": 13870,
-        "ig_reels_video_view_total_time": 735110,
-        "reels_skip_rate": 42.6
+        "total_interactions": 3,
+        "views": 82,
+        "ig_reels_avg_watch_time": 14615,
+        "ig_reels_video_view_total_time": 950006,
+        "reels_skip_rate": 0
       },
-      "insightsStand": "2026-09-29T08:45:00.357Z",
-      "insightsAlterStunden": 70.5
+      "insightsStand": "2026-09-30T09:43:46.335Z",
+      "insightsAlterStunden": 95.5
     },
     {
       "datum": "2026-09-26",
@@ -6017,21 +6017,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 32,
-        "views": 42,
+        "reach": 37,
+        "views": 50,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 1,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 41,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 29,
-        "navigation_tap_back": 4
+        "navigation": 48,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 33,
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-09-30T05:44:56.670Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-09-30T09:43:44.763Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-29",
@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 50,
+        "reach": 57,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 74,
-        "ig_reels_avg_watch_time": 7495,
-        "ig_reels_video_view_total_time": 404779,
-        "reels_skip_rate": 74.5
+        "views": 83,
+        "ig_reels_avg_watch_time": 8553,
+        "ig_reels_video_view_total_time": 530344,
+        "reels_skip_rate": 69.5
       },
-      "insightsStand": "2026-09-30T05:45:06.125Z",
-      "insightsAlterStunden": 12.7
+      "insightsStand": "2026-09-30T09:43:46.335Z",
+      "insightsAlterStunden": 16.7
     },
     {
       "datum": "2026-09-29",
@@ -6233,17 +6233,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 15,
+        "reach": 25,
         "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-09-30T07:44:02.943Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-30T09:43:46.335Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-09-30",
