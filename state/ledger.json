@@ -6308,6 +6308,18 @@
         "#examensvorbereitung",
         "#einkommensteuer"
       ]
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "s2",
+      "medienId": "18021415988924430",
+      "veroeffentlicht": "2026-09-30T11:45:15.144Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "est",
+      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…"
     }
   ],
   "fachZaehler": {
