@@ -6428,6 +6428,18 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "s3",
+      "medienId": "18070023347588989",
+      "veroeffentlicht": "2026-09-30T17:02:19.236Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?"
     }
   ],
   "fachZaehler": {
