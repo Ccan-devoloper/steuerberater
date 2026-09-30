@@ -6236,7 +6236,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 33,
+        "reach": 41,
         "saved": 2,
         "shares": 0,
         "likes": 2,
@@ -6245,8 +6245,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-09-30T14:46:57.442Z",
-      "insightsAlterStunden": 8
+      "insightsStand": "2026-09-30T18:44:31.001Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-09-30",
@@ -6352,21 +6352,21 @@
       "fach": "est",
       "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…",
       "insights": {
-        "reach": 11,
-        "views": 13,
+        "reach": 22,
+        "views": 27,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 12,
-        "navigation_tap_forward": 8,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 1
+        "navigation": 25,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 18
       },
-      "insightsStand": "2026-09-30T13:44:57.672Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-09-30T18:44:22.963Z",
+      "insightsAlterStunden": 7
     },
     {
       "datum": "2026-09-30",
@@ -6380,20 +6380,20 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 5,
-        "views": 8,
+        "reach": 22,
+        "views": 30,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 7,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 5
+        "navigation": 27,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 19
       },
-      "insightsStand": "2026-09-30T13:44:57.672Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-09-30T18:44:22.963Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-09-30",
@@ -6443,7 +6443,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 26,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 38,
+        "ig_reels_avg_watch_time": 8669,
+        "ig_reels_video_view_total_time": 199395,
+        "reels_skip_rate": 42.9
+      },
+      "insightsStand": "2026-09-30T18:44:31.001Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-09-30",
@@ -6455,7 +6469,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "umwst",
-      "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?"
+      "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+      "insights": {
+        "reach": 14,
+        "views": 23,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 2,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 16
+      },
+      "insightsStand": "2026-09-30T18:44:22.963Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-09-30",
@@ -6467,7 +6497,24 @@
       "storyArt": "tipp",
       "thema": "istr-aufb-istr-gh-4-31",
       "fach": "istr",
-      "titel": "Steuerfrei nach DBA und trotzdem teurer: der Progressionsvorbehalt"
+      "titel": "Steuerfrei nach DBA und trotzdem teurer: der Progressionsvorbehalt",
+      "insights": {
+        "reach": 10,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 9,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-30T18:44:22.963Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {
