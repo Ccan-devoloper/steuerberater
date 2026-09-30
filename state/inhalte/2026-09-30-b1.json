@@ -10,7 +10,8 @@
       "art": "titel",
       "titel": "Bekanntgabe an Steuerberater und Ehegatten",
       "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true
+      "coverBildAuslassen": false,
+      "icon": "dokument"
     },
     {
       "art": "text",
