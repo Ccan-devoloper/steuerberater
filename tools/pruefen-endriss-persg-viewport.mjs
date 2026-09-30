@@ -40,6 +40,10 @@ try {
         assert.equal(await regions.count(), expectedTables);
         for (let i=0;i<await regions.count();i++) {
           const region = regions.nth(i);
+          // Native tables can be scrolled vertically away from the fixed global
+          // navigation. Capture their centered, unobscured reading position;
+          // never hide the navigation just to manufacture clean screenshots.
+          await region.evaluate(el=>el.scrollIntoView({block:'center',inline:'nearest',behavior:'instant'}));
           assert.equal(await region.getAttribute('tabindex'),'0');
           assert.equal(await region.getAttribute('role'),'region');
           const metrics = await region.evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth,wrap:getComputedStyle(el.querySelector('tbody th')).overflowWrap}));
@@ -69,6 +73,17 @@ try {
               return cell.left>=box.left-2 && cell.right<=box.right+2;
             },{id,i},{timeout:3000});
             await region.screenshot({path:path.join(output,`${id}-table-${i}-${width}-right.png`)});
+          }
+          if (Number(id.split('-').at(-1)) >= 11) {
+            const visibleLastCell = await region.evaluate(el => {
+              const box = el.getBoundingClientRect();
+              const cell = el.querySelector('tbody tr:last-child > :last-child');
+              const rect = cell.getBoundingClientRect();
+              const x=(rect.left+rect.right)/2, y=(rect.top+rect.bottom)/2;
+              const hit=document.elementFromPoint(x,y);
+              return {mode:'centered-table',passed:box.top >= 0 && box.bottom <= innerHeight && !!hit && cell.contains(hit),text:cell.textContent};
+            });
+            assert.ok(visibleLastCell.passed, `Final source cell obscured: ${id}/${i} ${JSON.stringify(visibleLastCell)}`);
           }
         }
         const dimensions = await page.evaluate(()=>({available:document.documentElement.clientWidth,actual:document.documentElement.scrollWidth}));
