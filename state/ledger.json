@@ -6168,22 +6168,22 @@
       "fach": "persg",
       "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?",
       "insights": {
-        "reach": 27,
-        "views": 34,
+        "reach": 32,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 29,
-        "navigation_tap_exit": 1,
+        "navigation": 34,
+        "navigation_tap_exit": 2,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 25,
+        "navigation_tap_forward": 29,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-09-30T15:45:01.265Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-09-30T20:03:22.455Z",
+      "insightsAlterStunden": 14.3
     },
     {
       "datum": "2026-09-30",
@@ -6197,22 +6197,22 @@
       "fach": "persg",
       "titel": "Ergänzungs- und Sonderbereich der Gesellschafter",
       "insights": {
-        "reach": 25,
-        "views": 29,
+        "reach": 29,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
-        "navigation_tap_exit": 1,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 18,
+        "navigation": 30,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 21,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-30T15:45:01.265Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-09-30T20:03:22.455Z",
+      "insightsAlterStunden": 14.3
     },
     {
       "datum": "2026-09-30",
@@ -6328,17 +6328,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 31,
-        "saved": 0,
+        "reach": 39,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-30T16:44:03.031Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-09-30T20:03:25.242Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-09-30",
