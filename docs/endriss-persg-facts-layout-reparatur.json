@@ -1,0 +1,13 @@
+{
+  "sourceId":"persg-facts",
+  "pullRequest":263,
+  "updatedAt":"2026-09-30T00:03:00Z",
+  "sourceCheckpoint":"docs/endriss-persg-facts-fortschritt.json",
+  "scope":"Additional test/failure evidence for the current PDF7-8 package; not a separate source completion claim.",
+  "firstFailure":{"run":36647140794,"job":109672621181,"testedHead":"36585914b354e5d1105fe5dad366076f3ff2d4b0","cause":"Mobile390 sheet11 second table: last text column too wide for scroll viewport.","artifact":11069085551,"artifactSha256":"c0a533446aeeb76e18537f800c04a6b7ddf85d8e9d791bcf06cadca75aad9d2e","fix":"ad4433791153415651919617c8b01c7c32aef029"},
+  "secondFailure":{"run":36647717356,"job":109674449457,"testedHead":"ad4433791153415651919617c8b01c7c32aef029","testedMerge":"c3bdc3dda5571003ccb1c2082299188e7cc09c7f","cause":"First fix worked: mobile sheets11/12 passed. Next failure is sheet13 table0 (three-column participation graph): the last auto-sized text column is still wider than the mobile viewport.","artifact":11069720719,"artifactSha256":"abc4b4b5370150f61bffc81370c1177ed6e5802c412dea3a382e81779a20f8aa","artifactDownloadedAndHashVerified":true,"actualFailureImageInspected":"viewport-failure-390.png","actualLogsRead":true},
+  "checksNotOverstated":"Both failed runs passed full production/source/import/eight-image hashes and real1280/390 fourteen-module navigation with learner-progress preservation. Both failed the subsequent viewport gate and therefore did NOT execute the final general source-reader regression. Separate Validate/FGO success does not supersede this failure.",
+  "repairScope":"Only new PDF7-8 text tables tagged for fixed equal-width two/three-column layout. New two-column capital ledger gets a narrower explicit layout; numeric nowrap remains. Previous PDF1-6 and all source wording/cells unchanged. No timeout inflation, removed assertions or hidden failed tests.",
+  "localAfterSecondRepair":"Source-specific SSR, complete native SSR and Notfallbuch SSR all passed. No local full production or browser success claimed.",
+  "next":"Require full CI including viewport and all source-reader regressions, manually inspect new native table screenshots, then merge PR263 only if green and verify exact deployment. Global/source checkpoints must retain both failure records and final success proof."
+}

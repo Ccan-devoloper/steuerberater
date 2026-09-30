@@ -27,9 +27,9 @@ try {
       await campus.getByRole('button',{name:'Hausaufgaben PersG',exact:true}).click();
       await campus.getByRole('button',{name:'Fact Sheets (Horst) öffnen',exact:true}).click();
       const article = campus.locator('article[data-endriss-source="persg-facts"]');
-      await article.locator('[data-endriss-native-coverage="6/24"]').waitFor({state:'visible'});
+      await article.locator('[data-endriss-native-coverage="8/24"]').waitFor({state:'visible'});
       // Preserve both earlier layout checks and cover every new native table.
-      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3})) {
+      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3,'persg-facts-11':3,'persg-facts-12':2,'persg-facts-13':7,'persg-facts-14':2})) {
         await article.getByLabel('Zu einem Textabschnitt springen').selectOption(id);
         await page.waitForFunction(id=>{
           const chapter = document.getElementById(id);
@@ -40,17 +40,21 @@ try {
         assert.equal(await regions.count(), expectedTables);
         for (let i=0;i<await regions.count();i++) {
           const region = regions.nth(i);
+          // Native tables can be scrolled vertically away from the fixed global
+          // navigation. Capture their centered, unobscured reading position;
+          // never hide the navigation just to manufacture clean screenshots.
+          await region.evaluate(el=>el.scrollIntoView({block:'center',inline:'nearest',behavior:'instant'}));
           assert.equal(await region.getAttribute('tabindex'),'0');
           assert.equal(await region.getAttribute('role'),'region');
           const metrics = await region.evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth,wrap:getComputedStyle(el.querySelector('tbody th')).overflowWrap}));
           assert.equal(metrics.wrap,'normal','Technical words must not be fragmented anywhere');
-          if (id === 'persg-facts-10' && i === 2) {
+          if (await region.locator('table.endriss-facts-ledger').count()) {
             assert.equal(await region.locator('table.endriss-facts-ledger').count(),1);
             const amounts = await region.locator('tbody td').evaluateAll(cells => cells.map(cell => {
               const range = document.createRange(); range.selectNodeContents(cell);
               return {text:cell.textContent,whiteSpace:getComputedStyle(cell).whiteSpace,lines:range.getClientRects().length};
             }));
-            for (const amount of amounts) {
+            for (const amount of amounts.filter(item => item.text.trim())) {
               assert.equal(amount.whiteSpace,'nowrap', `Ledger amount may wrap: ${amount.text}`);
               assert.equal(amount.lines,1, `Sign, amount and currency must stay together: ${amount.text}`);
             }
@@ -69,6 +73,17 @@ try {
               return cell.left>=box.left-2 && cell.right<=box.right+2;
             },{id,i},{timeout:3000});
             await region.screenshot({path:path.join(output,`${id}-table-${i}-${width}-right.png`)});
+          }
+          if (Number(id.split('-').at(-1)) >= 11) {
+            const visibleLastCell = await region.evaluate(el => {
+              const box = el.getBoundingClientRect();
+              const cell = el.querySelector('tbody tr:last-child > :last-child');
+              const rect = cell.getBoundingClientRect();
+              const x=(rect.left+rect.right)/2, y=(rect.top+rect.bottom)/2;
+              const hit=document.elementFromPoint(x,y);
+              return {mode:'centered-table',passed:box.top >= 0 && box.bottom <= innerHeight && !!hit && cell.contains(hit),text:cell.textContent};
+            });
+            assert.ok(visibleLastCell.passed, `Final source cell obscured: ${id}/${i} ${JSON.stringify(visibleLastCell)}`);
           }
         }
         const dimensions = await page.evaluate(()=>({available:document.documentElement.clientWidth,actual:document.documentElement.scrollWidth}));
