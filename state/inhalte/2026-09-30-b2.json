@@ -10,7 +10,8 @@
       "art": "titel",
       "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?",
       "coverBadge": null,
-      "coverBildAuslassen": true
+      "coverBildAuslassen": false,
+      "icon": "zielscheibe"
     },
     {
       "art": "text",
