@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-30T11:21:47.756Z",
+  "stand": "2026-09-30T11:45:18.922Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -8302,6 +8302,22 @@
           "navigation_tap_back": 5,
           "navigation_tap_forward": 33,
           "navigation_tap_exit": 10
+        },
+        {
+          "stand": "2026-09-30T11:45:16.697Z",
+          "alterStunden": 23,
+          "reach": 37,
+          "views": 50,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 1,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 48,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 33,
+          "navigation_tap_exit": 10
         }
       ]
     },
@@ -8738,6 +8754,34 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "18115522793070037": {
+      "art": "story",
+      "datum": "2026-09-30",
+      "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-30T10:44:45.306Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-30T11:45:16.697Z",
+          "alterStunden": 1,
+          "reach": 7,
+          "views": 8,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 6,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 3
         }
       ]
     }
@@ -9272,6 +9316,11 @@
       "stand": "2026-09-30T10:44:52.619Z",
       "follower": 94,
       "medien": 72
+    },
+    {
+      "stand": "2026-09-30T11:45:18.922Z",
+      "follower": 94,
+      "medien": 73
     }
   ]
 }

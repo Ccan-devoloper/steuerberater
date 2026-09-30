@@ -6030,8 +6030,8 @@
         "navigation_tap_forward": 33,
         "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-09-30T09:43:44.763Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-09-30T11:45:16.697Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-29",
@@ -6285,7 +6285,23 @@
       "storyArt": "norm",
       "thema": "istr-modul-istr-istr1-06",
       "fach": "istr",
-      "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht"
+      "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht",
+      "insights": {
+        "reach": 7,
+        "views": 8,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 6,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 3
+      },
+      "insightsStand": "2026-09-30T11:45:16.697Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-30",
