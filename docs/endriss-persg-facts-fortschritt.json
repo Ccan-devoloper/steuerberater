@@ -1,28 +1,41 @@
 {
-  "schemaVersion": 7,
-  "updatedAt": "2026-09-30T00:30:05Z",
-  "sourceId": "persg-facts",
-  "sourceTitle": "B-S25-PersG-fact sheets-(Horst)-0425.pdf",
-  "driveId": "179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
-  "sourceBytes": 17436897,
-  "sourceSha256": "28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67",
-  "physicalPages": 24,
-  "legalReview": false,
-  "sourceComplete": false,
-  "packageComplete": false,
-  "historicalCheckpoints": [{"commit":"a7e800090f995f44e94622ef1b9b08595bc04100","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"05f89ae1da891815296268c3f1a34fd190498f24","contents":"Complete immutable PR261/262/263 source/page/test/failure/manual-review/merge/deployment history, including prior historical references. No previous evidence discarded."}],
-  "releasedPackages": [
-    {"pages":[1,2,3,4],"pullRequest":261,"mergeCommit":"d35c7485c74aecbc9061dcef6e06252c3ab24a7f","deployed":true},
-    {"pages":[5,6],"pullRequest":262,"mergeCommit":"c37b58ab98915402c32a7dd93ea71530e8069717","deployed":true},
-    {"pages":[7,8],"pullRequest":263,"mergeCommit":"62f3c7a07a2112717a297704302ec1d10b90eb0b","deploymentRun":36649483366,"deployed":true}
+  "schemaVersion":7,
+  "updatedAt":"2026-09-30T00:43:00Z",
+  "sourceId":"persg-facts",
+  "sourceTitle":"B-S25-PersG-fact sheets-(Horst)-0425.pdf",
+  "driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
+  "sourceBytes":17436897,
+  "sourceSha256":"28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67",
+  "physicalPages":24,
+  "legalReview":false,"sourceComplete":false,"packageComplete":false,
+  "historicalCheckpoints":[
+    {"commit":"a7e800090f995f44e94622ef1b9b08595bc04100","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"05f89ae1da891815296268c3f1a34fd190498f24","contents":"Complete immutable PR261/262/263 source/page/test/failure/manual-review/merge/deployment history, including older references."},
+    {"commit":"94fc1fdf6c3b98e3b79d1af6a3c32325e8d5a459","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"aee9ca595f431ab888143fade939a9a9950cf4a1","contents":"Fresh main/work/lease verification and bounded reservation before source reading."}
   ],
-  "nativePages": [1,2,3,4,5,6,7,8],
-  "visuallyReviewedPages": [1,2,3,4,5,6,7,8],
-  "releasedPages": [1,2,3,4,5,6,7,8],
-  "remainingPages": [9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24],
-  "lease": {"owner":"interactive-persg-pages9-10-20260930-0030","acquiredAt":"2026-09-30T00:30:05Z","expiresAt":"2026-09-30T01:30:05Z","scope":"Bounded PersG PDF9-10 continuation, source/audit adapter, source and viewport tests, source/global checkpoints. Preserve earlier native data, modules, original assets and learner state."},
-  "startVerification": {"main":"efb317d087ba800a70c592a2ec99935e4a0cd50e","work":"a7e800090f995f44e94622ef1b9b08595bc04100","globalLease":null,"fgoLease":null,"latestWorkRun":36650131079,"latestWorkConclusion":"success","previousPackage":"PR263 merged; deployed content62f3c7a recorded on main; new source work not yet claimed"},
-  "currentPackage": {"plannedPages":[9,10],"state":"reserved-before-source-review","nativePages":[],"visuallyReviewedPages":[],"merged":false,"deployed":false},
-  "blockers": [],
-  "next": "Verify the actual original or attached PDF identity; directly inspect original PDF9 and10 and compare with existing modules. Implement only the bounded reviewed content, preserve discrepancies and incomplete source solutions; save early. Then full production/source/browser checks and screenshot review before merge, exact deployment read-back. No source completion or group-percentage increase yet."
+  "releasedPackages":[{"pages":[1,2,3,4],"pullRequest":261,"deployed":true},{"pages":[5,6],"pullRequest":262,"deployed":true},{"pages":[7,8],"pullRequest":263,"mergeCommit":"62f3c7a07a2112717a297704302ec1d10b90eb0b","deploymentRun":36649483366,"deployed":true}],
+  "nativePages":[1,2,3,4,5,6,7,8,9,10],
+  "visuallyReviewedPages":[1,2,3,4,5,6,7,8,9,10],
+  "releasedPages":[1,2,3,4,5,6,7,8],
+  "remainingNativePages":[11,12,13,14,15,16,17,18,19,20,21,22,23,24],
+  "lease":{"owner":"interactive-persg-pages9-10-20260930-0030","acquiredAt":"2026-09-30T00:30:05Z","expiresAt":"2026-09-30T01:30:05Z","scope":"Bounded PersG PDF9-10, source/audit adapter, source/viewport tests and source/global checkpoints. Preserve earlier content, modules, original assets and learner state."},
+  "currentPackage":{
+    "pages":[9,10],"printedSheets":[15,16,17,18],"state":"source-transcribed-and-integrated; local-SSR-passed; full-CI-and-release-pending",
+    "dataCommit":"6893b57eb81d987e9e4f05378cf48aa671ae958d",
+    "sourceVerification":"Fresh connected Drive metadata; attached/backing PDF has the same Drive identity. Independently checked17436897bytes, SHA256 and24pages. Direct full original pages9/10 and all four enlarged sheets15–18 read, then rechecked against native text. No OCR, no new original assets or personal delivery-watermark text published.",
+    "pageEvidence":[
+      {"page":9,"printedSheets":[15,16],"chapters":["persg-facts-15","persg-facts-16"],"review":"Three complete original PV cases with80/100/150thousand inputs,90/10ownership,75/25partial transfer, GrESt and all original bookings. Abbreviated150. versus150500 retained and explained, not silently repaired. All BV transfer arrows and3-option brackets, sentences/numbers, debt notes, priority rules and original fc13 reference preserved."},
+      {"page":10,"printedSheets":[17,18],"chapters":["persg-facts-17","persg-facts-18"],"review":"All3/7year entries, shared consequence, exceptions, R6.15graph and contraryBFHnote. Heading4–6 and row6,7 both retained. Full four-founder scheme, all four columns of treatment/pitfalls/decrees including blankA. Incomplete52(21b citation left uncompleted, original fc14/15/18ff references unchanged."}
+    ],
+    "additionalChapters":4,"additionalTables":20,"totalChapters":19,"totalTables":52,
+    "allModuleTargets":[1,2,3,4,6,7,8,9,10,11,12,13,14,20,22,23,25,26,24,27,29,30],
+    "newModuleTargets":[22,23,25,26,24,27,29,30],
+    "duplicateHandling":"Existing modules20,22–27,29,30 and capital-account context read. Their texts and learner state remain unchanged; source-specific GrESt calculations and deadline grouping are not substituted with other module examples. Stable adapter appends source15–18; all prior15native chapters retain their fixed hash.",
+    "previousChaptersSha256":"8d302e6520ad44de2ec60df2a7ee97e275b48b8fa0ec665a85d8f7511bc24fde",
+    "files":["src/data/endriss-persg-facts-15-18.js","src/data/endriss-persg-facts.js","src/components/EndrissQuellenBlock.jsx","src/components/endriss-facts.css","tools/endriss/assert-persg-facts-15-18.mjs","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs",".github/workflows/endriss-persg-facts.yml"],
+    "ui":"Existing source-card and PersG-Hausaufgaben entries; derived10/24boundary. New four-column tables and calculation pairs get narrowly scoped layout classes. Numeric cells remain one-line, descriptions may wrap; previous classes are unchanged.",
+    "tests":{"localSourceSSR":"passed, including independent exact original fixtures, all22module targets and19chapters/52tables","localNativeSSR":"passed:8sources/109pages/99chapters/145tables","localNotfallbuch":"passed","fullProduction":"pending full-checkout CI; not asserted from source-only local snapshot","browser":"pending actual Chromium and screenshot review; strict previous tests expanded, not weakened"},
+    "merged":false,"deployed":false
+  },
+  "blockers":[],
+  "next":"Read full-checkout production/source/import/browser results and any actual failed logs. Review native new-table screenshots. Merge only after relevant checks pass, then verify exact Pages deployment. After release resume ORIGINAL PDF11; PDF11–24 remain open and whole-group metric remains6/12,50percent."
 }

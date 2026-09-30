@@ -8,6 +8,7 @@ on:
       - src/components/K3PersGHausaufgaben.jsx
       - src/components/endriss*.css
       - tools/pruefen-endriss*.mjs
+      - tools/endriss/assert-persg-facts*.mjs
       - .github/workflows/endriss-persg-facts.yml
   push:
     branches: [codex/endriss-restbestaende-2026-09-29]
@@ -17,6 +18,7 @@ on:
       - src/components/K3PersGHausaufgaben.jsx
       - src/components/endriss*.css
       - tools/pruefen-endriss*.mjs
+      - tools/endriss/assert-persg-facts*.mjs
       - .github/workflows/endriss-persg-facts.yml
 permissions:
   contents: read
