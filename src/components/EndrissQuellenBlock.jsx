@@ -15,7 +15,7 @@ export default function EndrissQuellenBlock({ element, sourceId }) {
   if (element.typ === 'tabelle' && sourceId === 'persg-facts') return <div className="endriss-facts-table">
     <p className="endriss-quellenhinweis">Breite Tabelle: bei Bedarf seitlich scrollen. Mit der Tastatur den Tabellenbereich fokussieren und die Pfeiltasten verwenden.</p>
     <div className="endriss-facts-scroll" tabIndex={0} role="region" aria-label={`Quellentabelle: ${element.spalten.join(' / ')}`}>
-      <table className={`istr-fs-tabelle${element.spalten.length === 5 ? ' endriss-facts-calculation' : ''}${element.quellenart === 'kontenentwicklung' ? ' endriss-facts-ledger' : ''}${element.quellenart === 'textvergleich' ? ' endriss-facts-textpair' : ''}`}>
+      <table className={`istr-fs-tabelle${element.spalten.length === 5 ? ' endriss-facts-calculation' : ''}${element.quellenart === 'kontenentwicklung' ? ' endriss-facts-ledger' : ''}${element.quellenart === 'textvergleich' ? (element.spalten.length === 3 ? ' endriss-facts-texttriple' : ' endriss-facts-textpair') : ''}${element.quellenlayout === 'kapitalpaar' ? ' endriss-facts-ledgerpair' : ''}`}>
         <thead><tr>{element.spalten.map((label, i) => <th scope="col" key={i}>{label}</th>)}</tr></thead>
         <tbody>{element.zeilen.map((row, i) => <tr key={i}>{row.map((cell, j) => j === 0 ? <th scope="row" key={j}>{cell}</th> : <td key={j}>{cell}</td>)}</tr>)}</tbody>
       </table>

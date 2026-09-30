@@ -5,12 +5,16 @@ import { persgFacts11bis14, persgFacts11bis14Evidence } from './endriss-persg-fa
 // Coverage is cumulative, while every continuation retains its own source pages.
 const reviewedPages = [1,2,3,4,5,6,7,8];
 export const persgFactsQuelle = { ...quelle, nativePages: reviewedPages, partial: true };
-// Only new two-column text comparisons need capped, equal-width columns.
-// Numerical ledgers keep their existing one-line layout; previous pages untouched.
+// Layout metadata applies only to the new continuation, never the released basis.
+// Text columns must fit the scroll viewport; the small capital ledger stays numeric.
 const continuation = persgFacts11bis14.map(chapter => ({
   ...chapter,
-  bloecke: chapter.bloecke.map(block => block.typ === 'tabelle' && block.spalten.length === 2 && block.quellenart !== 'kontenentwicklung'
-    ? { ...block, quellenart: 'textvergleich' } : block),
+  bloecke: chapter.bloecke.map(block => {
+    if (block.typ !== 'tabelle') return block;
+    if (block.quellenart === 'kontenentwicklung') return block.spalten.length === 2
+      ? { ...block, quellenlayout: 'kapitalpaar' } : block;
+    return [2,3].includes(block.spalten.length) ? { ...block, quellenart: 'textvergleich' } : block;
+  }),
 }));
 export const persgFacts = [...basis, ...continuation];
 export const persgFactsAudit = {
