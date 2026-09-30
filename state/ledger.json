@@ -6045,22 +6045,22 @@
       "fach": "bilanz",
       "titel": "Schwebendes Geschäft",
       "insights": {
-        "reach": 32,
-        "views": 46,
+        "reach": 34,
+        "views": 51,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 40,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 27,
+        "navigation": 41,
+        "navigation_tap_back": 6,
         "navigation_swipe_forward": 1,
-        "navigation_tap_back": 6
+        "navigation_tap_forward": 27,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-09-30T10:44:46.724Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-09-30T13:44:57.672Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-09-29",
@@ -6110,22 +6110,22 @@
       "fach": "istr",
       "titel": "Wohnsitz im Ausland: Wer darf besteuern?",
       "insights": {
-        "reach": 29,
-        "views": 39,
+        "reach": 32,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_swipe_forward": 1,
+        "navigation": 40,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 30,
         "navigation_tap_back": 5,
-        "navigation_tap_forward": 29,
-        "navigation_tap_exit": 3
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-09-30T10:44:46.724Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-09-30T13:44:57.672Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-09-29",
@@ -6139,21 +6139,21 @@
       "fach": "istr",
       "titel": "§ 50 EStG: Tarif, persönliche Abzüge, Abgeltung und Veranlagungsoption",
       "insights": {
-        "reach": 28,
-        "views": 35,
+        "reach": 29,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 22,
-        "navigation_tap_exit": 8
+        "navigation": 34,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 23,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-09-30T10:44:46.724Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-09-30T13:44:57.672Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-30",
@@ -6348,7 +6348,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "est",
-      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…"
+      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…",
+      "insights": {
+        "reach": 11,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-09-30T13:44:57.672Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-09-30",
@@ -6360,7 +6376,22 @@
       "storyArt": "countdown",
       "thema": null,
       "fach": null,
-      "titel": "Tage bis zum Examen"
+      "titel": "Tage bis zum Examen",
+      "insights": {
+        "reach": 5,
+        "views": 8,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 7,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 5
+      },
+      "insightsStand": "2026-09-30T13:44:57.672Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-30T12:44:17.489Z",
+  "stand": "2026-09-30T13:45:04.308Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -8398,6 +8398,23 @@
           "navigation_tap_forward": 27,
           "navigation_swipe_forward": 1,
           "navigation_tap_back": 6
+        },
+        {
+          "stand": "2026-09-30T13:44:57.672Z",
+          "alterStunden": 22,
+          "reach": 34,
+          "views": 51,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 41,
+          "navigation_tap_back": 6,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 27,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -8460,6 +8477,23 @@
           "navigation_tap_back": 5,
           "navigation_tap_forward": 29,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-09-30T13:44:57.672Z",
+          "alterStunden": 20.7,
+          "reach": 32,
+          "views": 44,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 40,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 30,
+          "navigation_tap_back": 5,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -8602,6 +8636,22 @@
           "navigation_tap_back": 3,
           "navigation_tap_forward": 22,
           "navigation_tap_exit": 8
+        },
+        {
+          "stand": "2026-09-30T13:44:57.672Z",
+          "alterStunden": 20,
+          "reach": 29,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 34,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 23,
+          "navigation_tap_back": 3
         }
       ]
     },
@@ -8837,6 +8887,61 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 1
+        }
+      ]
+    },
+    "18021415988924430": {
+      "art": "story",
+      "datum": "2026-09-30",
+      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…",
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-30T11:45:15.144Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-30T13:44:57.672Z",
+          "alterStunden": 2,
+          "reach": 11,
+          "views": 13,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17983836252073069": {
+      "art": "story",
+      "datum": "2026-09-30",
+      "titel": "Tage bis zum Examen",
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-30T12:44:12.033Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-30T13:44:57.672Z",
+          "alterStunden": 1,
+          "reach": 5,
+          "views": 8,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 7,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 5
         }
       ]
     }
@@ -9380,6 +9485,11 @@
     {
       "stand": "2026-09-30T12:44:17.489Z",
       "follower": 95,
+      "medien": 73
+    },
+    {
+      "stand": "2026-09-30T13:45:04.308Z",
+      "follower": 96,
       "medien": 73
     }
   ]
