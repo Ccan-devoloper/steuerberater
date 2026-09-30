@@ -58,15 +58,22 @@ try {
       await campus.getByRole('button',{name:'Hausaufgaben PersG',exact:true}).click();
       await campus.getByRole('button',{name:'Fact Sheets (Horst) öffnen',exact:true}).click();
       const article = campus.locator('article[data-endriss-source="persg-facts"]');
-      await article.locator('[data-endriss-native-coverage="14/24"]').waitFor({state:'visible'});
+      await article.locator('[data-endriss-native-coverage="16/24"]').waitFor({state:'visible'});
       // Preserve both earlier layout checks and cover every new native table.
-      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3,'persg-facts-11':3,'persg-facts-12':2,'persg-facts-13':7,'persg-facts-14':2,'persg-facts-15':8,'persg-facts-16':5,'persg-facts-17':3,'persg-facts-18':4,'persg-facts-19':4,'persg-facts-20':2,'persg-facts-21':9,'persg-facts-22':7,'persg-facts-23':7,'persg-facts-24':5,'persg-facts-25':6,'persg-facts-26':9})) {
+      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3,'persg-facts-11':3,'persg-facts-12':2,'persg-facts-13':7,'persg-facts-14':2,'persg-facts-15':8,'persg-facts-16':5,'persg-facts-17':3,'persg-facts-18':4,'persg-facts-19':4,'persg-facts-20':2,'persg-facts-21':9,'persg-facts-22':7,'persg-facts-23':7,'persg-facts-24':5,'persg-facts-25':6,'persg-facts-26':9,'persg-facts-27':0,'persg-facts-28':7,'persg-facts-29':7,'persg-facts-30':6})) {
         await article.getByLabel('Zu einem Textabschnitt springen').selectOption(id);
         await page.waitForFunction(id=>{
           const chapter = document.getElementById(id);
           const rect = chapter?.getBoundingClientRect();
           return chapter?.open && document.activeElement === chapter.querySelector('summary') && rect.top >= -2 && rect.top < innerHeight;
         },id,{timeout:5000});
+        if (id === 'persg-facts-27') {
+          const sparse = article.locator(`#${id}`);
+          assert.ok((await sparse.innerText()).includes('getilgt'));
+          assert.ok((await sparse.innerText()).includes('neg. Kontokorrent'));
+          await sparse.evaluate(el=>el.scrollIntoView({block:'center',behavior:'instant'}));
+          await sparse.screenshot({path:path.join(output,`${id}-sparse-${width}.png`)});
+        }
         let sourceLineBreaks=0;
         const paragraphs=article.locator(`#${id} .endriss-facts-source-lines > .istr-ha-absatz`);
         sourceLineBreaks += assertSourceLines(await paragraphs.evaluateAll(sourceLineMetrics));
@@ -130,7 +137,7 @@ try {
         }
         const dimensions = await page.evaluate(()=>({available:document.documentElement.clientWidth,actual:document.documentElement.scrollWidth}));
         assert.ok(dimensions.actual <= dimensions.available+2, `Page overflow after chapter jump: ${JSON.stringify(dimensions)}`);
-        assert.equal(sourceLineBreaks, ({'persg-facts-19':2,'persg-facts-20':8,'persg-facts-21':4,'persg-facts-22':6,'persg-facts-23':9,'persg-facts-24':7,'persg-facts-25':9,'persg-facts-26':1})[id] || 0, 'Every original list break in the new package must be tested');
+        assert.equal(sourceLineBreaks, ({'persg-facts-19':2,'persg-facts-20':8,'persg-facts-21':4,'persg-facts-22':6,'persg-facts-23':9,'persg-facts-24':7,'persg-facts-25':9,'persg-facts-26':1,'persg-facts-27':0,'persg-facts-28':5,'persg-facts-29':4,'persg-facts-30':9})[id] || 0, 'Every original list break in the new package must be tested');
         report.checks.push({viewport:width,chapter:id,focusAndScroll:'passed',tableRegions:await regions.count(),keyboardAndLastColumn:'passed',sourceLineBreaks});
       }
     } catch(error) {

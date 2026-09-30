@@ -1,0 +1,14 @@
+{
+  "schemaVersion":1,
+  "sourceId":"persg-facts","pages":[15,16],"printedSheets":[27,28,29,30],"legalReview":false,
+  "initialHead":"ef64c7c3808d355a53f34f87d60c2951dc87b1a1",
+  "firstTechnicalRuns":{"sourceAndBrowser":36766797153,"validate":36766796964,"stateAtObservation":"running; full production/source step and website validation passed; no final browser or bot conclusion yet"},
+  "manualSourceFinding":{"page":16,"printedSheets":[29,30],"location":"denominator in both proportional-allocation formulas","finding":"The enlarged source shows the literal abbreviation Se, not the normalized Greek sigma initially used in the native formula. Preserve the visible source notation rather than silently standardizing it.","before":"Σ aller st. Res. / Σ aller abstockb. BW","after":"Se aller st. Res. / Se aller abstockb. BW","sourceImageCloseupsSha256":["265dbbeb874bebb69a124181dfaf92887f864ba7347c1ea439769b94120498ec","7045986f14779c7540659dee9eef953d35ab7b2e01eb2660057a108c1859ab0b"],"noNumbersOrSolutionsChanged":true},
+  "changedFiles":["src/data/endriss-persg-facts-27-30.js","tools/endriss/assert-persg-facts-27-30.mjs"],
+  "finalDataBlobSha":"fc01b2f62a7fb44e43aa951297738fc4c939eb3d",
+  "previousChaptersSha256":"4773954a1babd28a170a205e0f3f0006f0affe3a8dbddf60b5d68ba2b6ac0d2f",
+  "cumulativeChaptersSha256":"80a0c8f14d4df51a4e47250f87d959cbbcb0eb39daf0f8412555fa0563b892a2",
+  "localAfterCorrection":{"sourceSSR":"passed","nativeSSR":"passed","notfallbuchSSR":"passed","viteBundle":"passed; not a complete production build"},
+  "runtimeLayoutChanged":false,"priorChaptersChanged":false,"originalAssetsChanged":false,
+  "next":"Require a fresh complete production/source/browser/PR pass and direct final native screenshot review after this source-notation correction, then merge/deployment read-back. Do not describe this manual finding as a failed CI job. Preserve any actual technical failures separately."
+}

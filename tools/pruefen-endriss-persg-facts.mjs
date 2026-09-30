@@ -11,22 +11,25 @@ import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { build } from 'esbuild';
 import { persgFacts, persgFactsQuelle as source, persgFactsAudit as audit } from '../src/data/endriss-persg-facts.js';
+import { assertPersgFacts27bis30 } from './endriss/assert-persg-facts-27-30.mjs';
 import { assertPersgFacts23bis26 } from './endriss/assert-persg-facts-23-26.mjs';
 import { assertPersgFacts19bis22 } from './endriss/assert-persg-facts-19-22.mjs';
 import { assertPersgFacts15bis18 } from './endriss/assert-persg-facts-15-18.mjs';
 import { assertPersgFacts11bis14 } from './endriss/assert-persg-facts-11-14.mjs';
 import { nativeFor, nativeCoverageFor, combineEndrissSources } from '../src/data/endriss-native-register.js';
-// The real campus registers all four days before navigating to the existing modules.
+// Match the real campus: register all five days before checking existing targets.
 import '../src/data/k3-persg-tag4-register.js';
 import { persgModule } from '../src/data/k3-persg-tag1.js';
+import { registerPersGTag5 } from '../src/data/k3-persg-tag5-register.js';
+registerPersGTag5();
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'test-results/endriss-persg-facts');
 fs.mkdirSync(output, { recursive: true });
 const report = { testedCommit: process.env.GITHUB_SHA || null, status: 'running',
-  sourceId: source.id, reviewedPages: [1,2,3,4,5,6,7,8,9,10,11,12,13,14], remainingPages: Array.from({length:10},(_,i)=>i+15),
+  sourceId: source.id, reviewedPages: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16], remainingPages: Array.from({length:8},(_,i)=>i+17),
   legalReview: false, sourceComplete: false, sourceAssets: 'not-requested', browser: 'not-requested', checks: [] };
-const ids = [1,2,3,4,6,7,8,9,10,11,12,13,14,20,22,23,25,26,24,27,29,30,31,37,32,33,34,36];
+const ids = [1,2,3,4,6,7,8,9,10,11,12,13,14,20,22,23,25,26,24,27,29,30,31,37,32,33,34,36,39,40,41,42];
 const norm = text => text.replace(/\s+/g, ' ').trim();
 const escape = text => text.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#x27;');
 const hash = bytes => createHash('sha256').update(bytes).digest('hex');
@@ -41,13 +44,13 @@ try {
   assert.equal(audit.ownSolutionsAdded, false);
   assert.equal(source.partial, true);
   assert.equal(nativeFor(source.id), persgFacts);
-  assert.deepEqual(audit.reviewedPages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14]);
-  assert.deepEqual(source.nativePages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14]);
-  assert.deepEqual(audit.nativePages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14]);
+  assert.deepEqual(audit.reviewedPages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
+  assert.deepEqual(source.nativePages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
+  assert.deepEqual(audit.nativePages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
   assert.deepEqual(audit.remainingPages, report.remainingPages);
-  assert.deepEqual(persgFacts.map(chapter => chapter.pages), [[1],[2],[2],[3],[3],[4],[4],[5],[5],[6],[6],[7],[7],[8],[8],[9],[9],[10],[10],[11],[11],[12],[12],[13],[13],[14],[14]]);
-  assert.deepEqual(persgFacts.flatMap(chapter => chapter.printedSheets), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]);
-  assert.deepEqual(audit.pageEvidence.map(page => page.page), [1,2,3,4,5,6,7,8,9,10,11,12,13,14]);
+  assert.deepEqual(persgFacts.map(chapter => chapter.pages), [[1],[2],[2],[3],[3],[4],[4],[5],[5],[6],[6],[7],[7],[8],[8],[9],[9],[10],[10],[11],[11],[12],[12],[13],[13],[14],[14],[15],[15],[16],[16]]);
+  assert.deepEqual(persgFacts.flatMap(chapter => chapter.printedSheets), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]);
+  assert.deepEqual(audit.pageEvidence.map(page => page.page), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
   for (const page of audit.pageEvidence) {
     assert.deepEqual(page.chapters, persgFacts.filter(chapter => chapter.pages.includes(page.page)).map(chapter => chapter.id));
   }
@@ -57,16 +60,16 @@ try {
     const combined = combineEndrissSources(published).find(item => item.id === source.id);
     assert.equal(combined.physicalPages, 24);
     assert.equal(combined.partial, true);
-    assert.deepEqual(combined.nativePages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14]);
+    assert.deepEqual(combined.nativePages, [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
   }
-  assert.deepEqual(nativeCoverageFor(source.id), {pages:[1,2,3,4,5,6,7,8,9,10,11,12,13,14],remaining:report.remainingPages,total:24,partial:true});
+  assert.deepEqual(nativeCoverageFor(source.id), {pages:[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],remaining:report.remainingPages,total:24,partial:true});
   assert.equal(nativeCoverageFor('not-registered'), null);
   const scheme = persgFacts[2].bloecke.find(block => block.typ === 'tabelle');
   assert.deepEqual(scheme.spalten, ['Gewinnermittlung','Vorspalte','A','B','Gesellschaft']);
   assert.equal(scheme.zeilen.length, 17);
   assert.deepEqual(scheme.zeilen[11], ['Gewinn lt. Ergänzungsbilanz','','+/− …………','+/− …………','+/− …………']);
   assert.deepEqual(scheme.zeilen[16], ['Gewinn der Mitunternehmerschaft','','','','= …………']);
-  assert.deepEqual(persgFacts.map(chapter => chapter.bloecke.filter(block => block.typ === 'tabelle').length), [1,2,1,1,2,3,1,0,2,2,3,3,2,7,2,8,5,3,4,4,2,9,7,7,5,6,9]);
+  assert.deepEqual(persgFacts.map(chapter => chapter.bloecke.filter(block => block.typ === 'tabelle').length), [1,2,1,1,2,3,1,0,2,2,3,3,2,7,2,8,5,3,4,4,2,9,7,7,5,6,9,0,7,7,6]);
   const flat = JSON.stringify(persgFacts);
   for (const text of ['Stand: April 2025', 'Gesamtr.nf', 'Buchwertabfindung unschädlich', 'Nr. 1 i.V.m. Nr. 2 EStG',
     'Stufe I – Gesellschaft', 'Stufe II – Gesellschafter', 'anders gegliederte Darstellung im vorhandenen Lernmodul 4',
@@ -116,12 +119,15 @@ try {
     'tatsächliche Blattnummer 9', 'tatsächliche Blattnummer 10']) assert.ok(flat.includes(text), `New source detail missing: ${text}`);
   report.checks.push('PDF5 sparse-sheet boundary and four-row remuneration comparison', 'struck citation and printed numbering discrepancy retained',
     'PDF6 GmbH ownership, exceptions and special balance', 'exact 7-by-6 capital ledger, original dash fields and section15a note');
-  report.checks.push('exact partial source identity/coverage', 'all twenty-eight existing module targets', 'blank five-column calculation and source discrepancy', 'source figures, rental edges and pension notes', 'image metadata cannot promote completion');
+  report.checks.push('exact partial source identity/coverage', 'all thirty-two existing module targets', 'blank five-column calculation and source discrepancy', 'source figures, rental edges and pension notes', 'image metadata cannot promote completion');
 
   assertPersgFacts11bis14(persgFacts);
   assertPersgFacts15bis18(persgFacts);
   assertPersgFacts19bis22(persgFacts);
   assertPersgFacts23bis26(persgFacts);
+  assertPersgFacts27bis30(persgFacts);
+  assert.deepEqual(audit.resolvedSourceContinuations,[{fromPage:14,fromPrintedSheet:26,toPage:15,toPrintedSheet:27,originalEnding:'wird mit Zuzahlung',continuation:'getilgt',earlierChapterPreserved:true}]);
+  report.checks.push('PDF15 actual getilgt continuation, sparse note and full exit overview', 'PDF16 exact exit balances, crossed loss arrows and incomplete SBV note', 'all released PDF1–14 chapters unchanged');
   report.checks.push('PDF13 exact intermediate balances and both succession calculations without rounding correction', 'PDF14 admission/elections and PV-payment halves with incomplete final note', 'all released PDF1–12 chapters unchanged');
   report.checks.push('PDF11 full section24 structure/application notes with original truncated sentence', 'PDF12 both book-value variants and market-value balances; covered digits never inferred', 'all released PDF1–10 chapters unchanged');
   report.checks.push('PDF9 original PV three-way calculations/bookings and all BV graph paths', 'PDF10 source deadlines/contrary note and complete four-column formation table', 'all released PDF1–8 chapters unchanged');
@@ -133,12 +139,12 @@ try {
     assert.equal(manifest.sourceBytes, audit.sourceBytes);
     assert.equal(manifest.physicalPages,24);
     assert.equal(manifest.pages.length,24);
-    for (const number of [1,2,3,4,5,6,7,8,9,10,11,12,13,14]) {
+    for (const number of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]) {
       const page = manifest.pages.find(item => item.page === number);
       assert.match(page.image, /^images\/[a-f0-9]+\.(webp|png|jpg)$/);
       assert.equal(hash(fs.readFileSync(path.join(root,'public/endriss/quellen',page.image))),page.imageSha256);
     }
-    report.sourceAssets = 'passed-fourteen-reviewed-page-hashes';
+    report.sourceAssets = 'passed-sixteen-reviewed-page-hashes';
   }
   const temporary = fs.mkdtempSync(path.join(root,'.endriss-persg-facts-'));
   try {
@@ -150,7 +156,7 @@ try {
     const overview = renderToStaticMarkup(React.createElement(Overview,{fach:'persg'}));
     assert.ok(overview.includes('data-endriss-partial="persg-facts"'));
     const html = renderToStaticMarkup(React.createElement(EndrissDokument,{quelle:source,zurueck:()=>{},onModulOeffnen:()=>{}}));
-    assert.ok(html.includes('data-endriss-native-coverage="14/24"'));
+    assert.ok(html.includes('data-endriss-native-coverage="16/24"'));
     assert.ok(!html.includes('<img'), 'Original must remain lazy');
     for (const chapter of persgFacts) {
       for (const block of chapter.bloecke) {
@@ -159,7 +165,7 @@ try {
       }
     }
     for (const id of ids) assert.ok(html.includes(`data-endriss-modul="${id}"`));
-    assert.equal((html.match(/<table\b/g)||[]).length,101);
+    assert.equal((html.match(/<table\b/g)||[]).length,121);
     report.checks.push('React renders every transcribed text and all table cells, module buttons and partial notice');
   } finally { fs.rmSync(temporary,{recursive:true,force:true}); }
 
@@ -183,14 +189,14 @@ try {
         const openFacts = async () => {
           await campus.getByRole('button',{name:'Hausaufgaben PersG',exact:true}).click();
           await campus.getByRole('button',{name:'Fact Sheets (Horst) öffnen',exact:true}).click();
-          await campus.locator('[data-endriss-native-coverage="14/24"]').waitFor({state:'visible'});
+          await campus.locator('[data-endriss-native-coverage="16/24"]').waitFor({state:'visible'});
         };
         await openFacts();
         const article = campus.locator('article[data-endriss-source="persg-facts"]');
-        assert.equal(await article.locator('.endriss-kapitel').count(),27);
-        assert.equal(await article.locator('table').count(),101);
+        assert.equal(await article.locator('.endriss-kapitel').count(),31);
+        assert.equal(await article.locator('table').count(),121);
         for (const chapter of persgFacts) assert.ok((await article.innerText()).includes(chapter.title));
-        for (const id of ['persg-facts-07','persg-facts-08','persg-facts-09','persg-facts-10','persg-facts-11','persg-facts-12','persg-facts-13','persg-facts-14','persg-facts-15','persg-facts-16','persg-facts-17','persg-facts-18','persg-facts-19','persg-facts-20','persg-facts-21','persg-facts-22','persg-facts-23','persg-facts-24','persg-facts-25','persg-facts-26']) {
+        for (const id of ['persg-facts-07','persg-facts-08','persg-facts-09','persg-facts-10','persg-facts-11','persg-facts-12','persg-facts-13','persg-facts-14','persg-facts-15','persg-facts-16','persg-facts-17','persg-facts-18','persg-facts-19','persg-facts-20','persg-facts-21','persg-facts-22','persg-facts-23','persg-facts-24','persg-facts-25','persg-facts-26','persg-facts-27','persg-facts-28','persg-facts-29','persg-facts-30']) {
           await article.getByLabel('Zu einem Textabschnitt springen').selectOption(id);
           await page.waitForFunction(id => {
             const el = document.getElementById(id);
@@ -218,7 +224,7 @@ try {
         await page.getByLabel('Quelle oder übertragenen Text suchen').fill('Urlaubs-RS');
         const card = page.locator('button.endriss-quellenkarte[data-endriss-source="persg-facts"]');
         await card.waitFor({state:'visible'});
-        assert.ok((await card.innerText()).includes('14 von 24'));
+        assert.ok((await card.innerText()).includes('16 von 24'));
         await page.getByLabel('Quelle oder übertragenen Text suchen').fill('115.000');
         await card.waitFor({state:'visible'});
         await page.getByLabel('Quelle oder übertragenen Text suchen').fill('p.a. Miete 1.000');
@@ -231,11 +237,15 @@ try {
         await card.waitFor({state:'visible'});
         await page.getByLabel('Quelle oder übertragenen Text suchen').fill('wird mit Zuzahlung');
         await card.waitFor({state:'visible'});
+        await page.getByLabel('Quelle oder übertragenen Text suchen').fill('neg. Kontokorrent');
+        await card.waitFor({state:'visible'});
+        await page.getByLabel('Quelle oder übertragenen Text suchen').fill('Abstockung: 30.000');
+        await card.waitFor({state:'visible'});
         await card.click();
-        await page.locator('.endriss-arbeitsraum [data-endriss-native-coverage="14/24"]').waitFor({state:'visible'});
+        await page.locator('.endriss-arbeitsraum [data-endriss-native-coverage="16/24"]').waitFor({state:'visible'});
         await page.screenshot({path:path.join(output,`partial-overview-${width}.png`)});
         assert.deepEqual(errors,[]);
-        report.checks.push(`Chromium ${width}: real PersG entry, all twenty-eight working module links, preserved progress, five-column viewport, keyboard chapter jump, global native search without image index`);
+        report.checks.push(`Chromium ${width}: real PersG entry, all thirty-two working module links, preserved progress, five-column viewport, keyboard chapter jump, global native search without image index`);
       } catch(error) {
         await page.screenshot({path:path.join(output,`failure-${width}.png`)}).catch(()=>{});
         throw error;
