@@ -42,7 +42,8 @@
       "zeit": "07:23",
       "art": "frage",
       "themaId": "persg-quiz-persg-2",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-30T05:44:30.010Z"
     },
     {
       "slot": "s5",
