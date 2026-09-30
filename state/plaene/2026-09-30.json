@@ -100,7 +100,8 @@
       "zeit": "17:01",
       "art": "fehler",
       "themaId": "istr-aufb-istr-gh-3-09",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-30T15:44:48.390Z"
     },
     {
       "slot": "s9",
