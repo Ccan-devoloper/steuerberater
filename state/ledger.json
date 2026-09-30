@@ -4877,7 +4877,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 34,
+        "reach": 40,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4886,8 +4886,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-29T05:45:35.275Z",
-      "insightsAlterStunden": 95
+      "insightsStand": "2026-09-30T06:46:20.150Z",
+      "insightsAlterStunden": 120
     },
     {
       "datum": "2026-09-25",
@@ -4935,19 +4935,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 95,
+        "reach": 104,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 121,
-        "ig_reels_avg_watch_time": 9463,
-        "ig_reels_video_view_total_time": 993642,
-        "reels_skip_rate": 70.1
+        "views": 136,
+        "ig_reels_avg_watch_time": 9834,
+        "ig_reels_video_view_total_time": 1140783,
+        "reels_skip_rate": 68.8
       },
-      "insightsStand": "2026-09-29T05:45:35.275Z",
-      "insightsAlterStunden": 91.2
+      "insightsStand": "2026-09-30T06:46:20.150Z",
+      "insightsAlterStunden": 116.2
     },
     {
       "datum": "2026-09-25",
@@ -6165,7 +6165,23 @@
       "storyArt": "frage",
       "thema": "persg-quiz-persg-2",
       "fach": "persg",
-      "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?"
+      "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?",
+      "insights": {
+        "reach": 9,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 8,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-30T06:46:17.469Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-30",
@@ -6177,7 +6193,23 @@
       "storyArt": "antwort",
       "thema": "persg-quiz-persg-2",
       "fach": "persg",
-      "titel": "Ergänzungs- und Sonderbereich der Gesellschafter"
+      "titel": "Ergänzungs- und Sonderbereich der Gesellschafter",
+      "insights": {
+        "reach": 7,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 7,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 5,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-09-30T06:46:17.469Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-09-30",

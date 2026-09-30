@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-09-30T05:45:13.288Z",
+  "stand": "2026-09-30T06:46:21.580Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -5935,6 +5935,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-09-30T06:46:20.150Z",
+          "alterStunden": 120,
+          "reach": 40,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -5989,6 +6001,20 @@
           "ig_reels_avg_watch_time": 9463,
           "ig_reels_video_view_total_time": 993642,
           "reels_skip_rate": 70.1
+        },
+        {
+          "stand": "2026-09-30T06:46:20.150Z",
+          "alterStunden": 116.2,
+          "reach": 104,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 136,
+          "ig_reels_avg_watch_time": 9834,
+          "ig_reels_video_view_total_time": 1140783,
+          "reels_skip_rate": 68.8
         }
       ]
     },
@@ -8437,6 +8463,62 @@
           "navigation_tap_exit": 7
         }
       ]
+    },
+    "18084573941309409": {
+      "art": "story",
+      "datum": "2026-09-30",
+      "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-30T05:44:40.882Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-30T06:46:17.469Z",
+          "alterStunden": 1,
+          "reach": 9,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 8,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18339699256286775": {
+      "art": "story",
+      "datum": "2026-09-30",
+      "titel": "Ergänzungs- und Sonderbereich der Gesellschafter",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-09-30T05:44:54.239Z",
+      "snapshots": [
+        {
+          "stand": "2026-09-30T06:46:17.469Z",
+          "alterStunden": 1,
+          "reach": 7,
+          "views": 13,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 7,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 5,
+          "navigation_swipe_forward": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -8944,6 +9026,11 @@
       "stand": "2026-09-30T05:45:13.288Z",
       "follower": 90,
       "medien": 71
+    },
+    {
+      "stand": "2026-09-30T06:46:21.580Z",
+      "follower": 92,
+      "medien": 72
     }
   ]
 }
