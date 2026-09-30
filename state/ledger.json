@@ -6200,6 +6200,18 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "s1",
+      "medienId": "18091964540260221",
+      "veroeffentlicht": "2026-09-30T06:46:15.831Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Bekanntgabe an Steuerberater und Ehegatten"
     }
   ],
   "fachZaehler": {
