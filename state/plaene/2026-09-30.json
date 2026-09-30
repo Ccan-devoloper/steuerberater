@@ -12,7 +12,8 @@
       "themaTitel": "Bekanntgabe an Steuerberater und Ehegatten",
       "fach": "ao",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-09-30T06:44:49.680Z"
     },
     {
       "slot": "b2",
