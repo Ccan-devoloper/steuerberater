@@ -37,8 +37,9 @@
       "fach": "umwst",
       "klausur": 3,
       "lang": false,
-      "status": "sendet",
-      "sendeversuch": "2026-09-30T17:00:52.481Z"
+      "status": "veroeffentlicht",
+      "medienId": "17939860968363363",
+      "veroeffentlicht": "2026-09-30T17:02:06.019Z"
     }
   ],
   "stories": [

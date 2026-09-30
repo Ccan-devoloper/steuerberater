@@ -6406,6 +6406,28 @@
       "thema": "istr-aufb-istr-gh-3-09",
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht: Wen trifft sie, wann beginnt sie?"
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "b3",
+      "medienId": "17939860968363363",
+      "veroeffentlicht": "2026-09-30T17:02:06.019Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "umwst-aufb-umw-5-13",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -6417,7 +6439,8 @@
     "istr": 14,
     "erbst": 3,
     "mindset": 2,
-    "est": 1
+    "est": 1,
+    "umwst": 1
   },
   "nachrichten": [],
   "postfach": [],
