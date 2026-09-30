@@ -1,11 +1,25 @@
 {
   "sourceId":"persg-facts","packagePages":[11,12],"printedSheets":[19,20,21,22],
-  "firstPassedHead":"c10b00d1fbbb32adf1d0f59ab4df4323588b36e2","testedPRMerge":"be38f275267b15c22efcae3ac2d34e424200507b",
+  "state":"fixed-tested-merged-and-deployed",
+  "firstPassedHead":"c10b00d1fbbb32adf1d0f59ab4df4323588b36e2",
+  "testedPRMerge":"be38f275267b15c22efcae3ac2d34e424200507b",
   "firstPassedRuns":{"persg":36723031999,"validate":36723031969},
   "firstArtifact":{"id":11101002389,"sha256":"81cf862b12d2b1bf13bbd7b7c41182f688d0958f1c821e81471f4e194e20f1b7","downloadedAndVerified":true,"threeReportsPassed":true},
-  "manualFinding":"Original list newlines existed in the native text but white-space:normal collapsed them in comparison cells, particularly persg-facts-20-table-0-1280-left.png. Six desktop tables (four on19, two on20) inspected before this adjustment. Not a failed CI run and not a missing-word claim.",
-  "fix":"Opt-in quellenZeilen flag only on newly transferred19–22 text-comparison tables and the three-item prerequisite paragraph. CSS pre-line and left alignment retain original list organization; earlier chapters and numeric ledgers unchanged.",
-  "strongerTest":"Actual browser Range positions before and after every original newline; fixed expected totals2/8/4/6 per new chapter, checked at1280 and390. Original viewport/keyboard/last-column/nowrap/unobscured-cell checks remain unchanged. Additional prerequisite screenshots.",
-  "testsAfterFix":{"localSourceSSR":"passed","localNativeSSR":"passed","localNotfallbuch":"passed","localViteBundle":"passed with existing chunk warning; not full production","fullCI":"pending","manualFinalScreenshots":"pending"},
-  "next":"Require the full new CI run and inspect final new-source screenshots before merge; keep the initial green run and this manual finding in the release evidence."
+  "manualFinding":"Original list newlines were present in native text but white-space:normal collapsed them in comparison cells, particularly persg-facts-20-table-0-1280-left.png. Six desktop tables19/20 inspected before adjustment. This was not a failed CI run or a missing-word claim.",
+  "fixCommit":"f7c03b17f6b988ed44fa8833a63ddd646b5f97ef",
+  "fix":"Opt-in quellenZeilen only on new19–22text-comparison tables and the three-item prerequisite paragraph. CSS pre-line/left alignment preserves original list organization. Previous chapters and single-line numeric ledgers unchanged.",
+  "strongerTest":"Real browser Range positions before/after each explicit original newline, not just DOM presence or class names. Fixed expected2/8/4/6 per new chapter at1280/390,40total. Original viewport/keyboard/last-column/nowrap/unobscured-cell checks remain unchanged. Additional prerequisite paragraph screenshots.",
+  "testsAfterFix":{
+    "localSourceSSR":"passed","localNativeSSR":"passed","localNotfallbuch":"passed","localViteBundle":"passed with existing chunk warning; not full production",
+    "fullCIRuns":{"persg":36724657483,"validate":36724657391,"fgo":36724657598},
+    "fullCIConclusion":"success",
+    "finalPRTestMerge":"bc026ccb8abba59cd0568cfff1088d12d5113235",
+    "finalArtifact":{"id":11101758836,"bytes":7988822,"sha256":"5760b956833b1eba1cb1d23c0713ed870e9ebbf3fd83961d1bb32ef1e4cdca48","downloadedAndHashVerified":true,"allThreeReportsReadAndPassed":true},
+    "reportCounts":{"sourceAndBrowserChecks":21,"viewportChapterCombinations":34,"generalBrowserChecks":21,"originalLinebreakPositions":40},
+    "manualFinalScreenshots":{"inspected":true,"count":68,"scope":"All22new desktop tables and44mobile left/right table fragments, plus prerequisite paragraph at both widths; unscaled labelled contact sheets. Middle mobile columns not indiscriminately claimed as separately viewed. Full cell texts and column access tested independently.","filenamePattern":"persg-facts-{19,20,21,22}-table-{index}-{1280-left,390-left,390-right}.png; index19=0..3,20=0..1,21=0..8,22=0..6; persg-facts-19-source-lines-0-{1280,390}.png"},
+    "failedCIRunsThisPackage":[]
+  },
+  "release":{"pullRequest":265,"mergeCommit":"b663631df85f755acc2511e86dd2c2fe283a76a9","deploymentRun":36726093814,"deploymentConclusion":"success","exactStatusReadBack":true,"observedMain":"26a466c261522e11d61a7c5abd7699924908c8fe"},
+  "historicalPreservation":"Initial successful CI remains successful; actual later manual finding and fix recorded separately. Prior PR263 failures remain in their original failure record and historical checkpoints.",
+  "next":"No remaining layout work in this bounded package. Preserve the original-newline and strict table gates while continuing at ORIGINAL PDF13; do not conflate this fix with resolving the original incomplete sentence or covered balance digits."
 }
