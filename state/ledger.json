@@ -6392,6 +6392,18 @@
       },
       "insightsStand": "2026-09-30T13:44:57.672Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-09-30",
+      "slot": "s8",
+      "medienId": "18634560928011064",
+      "veroeffentlicht": "2026-09-30T15:44:59.784Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "fehler",
+      "thema": "istr-aufb-istr-gh-3-09",
+      "fach": "istr",
+      "titel": "Beschränkte Steuerpflicht: Wen trifft sie, wann beginnt sie?"
     }
   ],
   "fachZaehler": {
