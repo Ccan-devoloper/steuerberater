@@ -1,0 +1,113 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-5-13",
+  "slug": "2026-09-30-b3",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+      "unter": "Umwandlungssteuerrecht",
+      "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+      "norm": "§ 4 Abs. 4 UmwStG",
+      "icon": null,
+      "sprecher": "Heute geht es um Welche Anteile nehmen am Übernahmeergebnis teil? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+      "marken": [
+        "Der Übernahmegewinn oder -verlust entsteht"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Alle Anteilseigner mit Beteiligungshöhe, Vermögenszuordnung und Anschaffungskosten oder Buchwert auflisten.",
+      "text": null,
+      "norm": "§ 4 Abs. 4 UmwStG",
+      "icon": null,
+      "sprecher": "Schritt 1: Prüfe § 4 Abs. 4 UmwStG im Zusammenhang mit Welche Anteile nehmen am Übernahmeergebnis teil?",
+      "marken": [
+        "Prüfpunkt 1"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Jeden Anteil einer Fallgruppe des § 5 UmwStG zuweisen oder feststellen, dass er nicht erfasst wird.",
+      "text": null,
+      "norm": "§ 5 UmwStG",
+      "icon": null,
+      "sprecher": "Schritt 2: Prüfe § 5 UmwStG im Zusammenhang mit Welche Anteile nehmen am Übernahmeergebnis teil?",
+      "marken": [
+        "Prüfpunkt 2"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Merksatz",
+      "text": "Bei Welche Anteile nehmen am Übernahmeergebnis teil?: Voraussetzungen vor Ergebnis.",
+      "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+      "marken": [
+        "Merksatz"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfungsschritte festigen",
+      "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+      "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+      "marken": [
+        "Kernfrage",
+        "Reihenfolge",
+        "Normen"
+      ]
+    }
+  ],
+  "caption": "Welche Anteile nehmen am Übernahmeergebnis teil?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "kurztitel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 4 Abs. 4 UmwStG",
+    "§ 5 UmwStG",
+    "§ 7 UmwStG",
+    "§ 5 Abs. 2 UmwStG",
+    "§ 5 Abs. 1 UmwStG",
+    "§ 5 Abs. 3 UmwStG",
+    "§ 4 Abs. 5 UmwStG",
+    "§ 20 Abs. 8 EStG",
+    "§ 15 EStG",
+    "§ 17 EStG",
+    "Themenpool: umwst-aufb-umw-5-13"
+  ],
+  "coverRegie": {
+    "thema": "Welche Anteile nehmen am Übernahmeergebnis teil?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/01-holger-kranz.jpg",
+      "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+    ],
+    "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-09-30-b3-umwst-aufb-umw-5-13-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

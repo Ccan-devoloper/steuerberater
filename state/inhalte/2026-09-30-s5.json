@@ -1,0 +1,28 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-persg-2",
+  "quellen": [
+    "Themenpool: persg-quiz-persg-2"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "Ergänzungs- und Sonderbereich der Gesellschafter",
+  "optionen": [
+    "Nur die Gesamthandsbilanz",
+    "Ergänzungs- und Sonderbereich der Gesellschafter",
+    "Nur die Gewerbesteuer"
+  ],
+  "richtig": 1,
+  "text": "Stufe II ist die Gesellschafterebene.",
+  "liveVorrangAktiv": true
+}

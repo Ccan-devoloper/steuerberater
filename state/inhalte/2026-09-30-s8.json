@@ -1,0 +1,28 @@
+{
+  "slot": "s8",
+  "art": "fehler",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-aufb-istr-gh-3-09",
+  "quellen": [
+    "§ 49 EStG",
+    "§ 8 AO",
+    "§ 9 AO",
+    "§ 1 Abs. 4 EStG",
+    "§ 1 Abs. 3 EStG",
+    "Themenpool: istr-aufb-istr-gh-3-09"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Typischer Fehler",
+  "titel": "Beschränkte Steuerpflicht: Wen trifft sie, wann beginnt sie?",
+  "falsch": "Auslandseinkünfte eines beschränkt Steuerpflichtigen mitbesteuern, obwohl nur Einkünfte nach § 49 EStG erfasst werden.",
+  "richtigText": "Du kannst die Voraussetzungen benennen: kein inländischer Wohnsitz, kein gewöhnlicher Aufenthalt, keine Steuerpflicht nach § 1 Abs. 2 oder 3 EStG und inländische Einkünfte nach § 49 EStG.",
+  "liveVorrangAktiv": true
+}

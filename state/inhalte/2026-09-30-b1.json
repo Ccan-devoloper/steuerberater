@@ -1,0 +1,103 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-308",
+  "slug": "2026-09-30-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Bekanntgabe an Steuerberater und Ehegatten",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "allgemeine Vertretungsvollmacht und Empfangsvollmacht unterscheiden",
+        "Vermutung der ordnungsgemäßen Bevollmächtigung nach § 80 Abs. 2 AO nicht mit einer Empfangsvollmacht gleichsetzen"
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Feststellen, ob und in welchem Umfang ein Bevollmächtigter nach § 80 AO bestellt ist."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "separat untersuchen, ob der Bevollmächtigte zum Empfang von Verwaltungsakten ermächtigt ist; bloße Mitwirkung an der Steuererklärung genügt nicht."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Bei Bekanntgabe an Steuerberater und Ehegatten: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Bekanntgabe an Steuerberater und Ehegatten: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "kurztitel": "Bekanntgabe an Steuerberater und Ehegatten",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 80 Abs. 1 AO",
+    "§ 80 Abs. 2 AO",
+    "§ 80 Abs. 4 AO",
+    "§ 80 Abs. 5 AO",
+    "§ 122 AO",
+    "§ 365 Abs. 1 AO",
+    "§ 44 AO",
+    "§ 155 Abs. 3 AO",
+    "§ 80 AO",
+    "§ 365 AO",
+    "§ 80 Abs. 2 und 5 AO",
+    "§ 122 Abs. 1 S. 3 und 4 AO",
+    "AEAO zu § 122 Nr. 1.7",
+    "Themenpool: ao-modul-ao-308"
+  ],
+  "coverRegie": {
+    "thema": "Bekanntgabe an Steuerberater und Ehegatten",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/03-mia-kranz.jpg",
+      "assets/referenzen/charaktere/04-timo-kranz.jpg"
+    ],
+    "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-09-30-b1-ao-modul-ao-308-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

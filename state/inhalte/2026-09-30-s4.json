@@ -1,0 +1,28 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-persg-2",
+  "quellen": [
+    "Themenpool: persg-quiz-persg-2"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Prüfungsfrage",
+  "frage": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?",
+  "titel": "Was ist auf Stufe II der zweistufigen Gewinnermittlung zu einbeziehen?",
+  "optionen": [
+    "Nur die Gesamthandsbilanz",
+    "Ergänzungs- und Sonderbereich der Gesellschafter",
+    "Nur die Gewerbesteuer"
+  ],
+  "richtig": 1,
+  "liveVorrangAktiv": true
+}

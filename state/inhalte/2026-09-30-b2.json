@@ -1,0 +1,100 @@
+{
+  "format": "klausurtechnik",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-17-02",
+  "slug": "2026-09-30-b2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?",
+      "coverBadge": null,
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Gehören die Anteile zu einem Betriebsvermögen, etwa eines Besitzunternehmens, erfasst § 15 EStG den Gewinn als laufenden Gewinn; § 17 EStG setzt Privatvermögen voraus.",
+        "Eine 100-%-Beteiligung im Betriebsvermögen gilt nach § 16 Abs. 1 Satz 1 Nr. 1 Satz 2 EStG als Teilbetrieb, ihr Veräußerungsgewinn unterliegt aber dem Teileinkünfteverfahren und nicht § 34 EStG."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Zuerst untersuchen, ob die Anteile einem Betriebsvermögen zuzuordnen sind, zum Beispiel als notwendiges Betriebsvermögen bei einer Betriebsaufspaltung."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Bei Privatvermögen feststellen, ob in den letzten fünf Jahren eine Quote von mindestens 1 % erreicht war; dann gilt vorrangig § 17 EStG."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Bei § 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "kurztitel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…",
+  "coverBadge": null,
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 17 EStG",
+    "§ 15 EStG",
+    "§ 16 Abs. 1 Satz 1 Nr. 1 Satz 2 EStG",
+    "§ 20 Abs. 2 Satz 1 Nr. 1 EStG",
+    "§ 20 Abs. 8 EStG",
+    "§ 23 Abs. 1 Satz 1 Nr. 2 EStG",
+    "§ 23 Abs. 2 EStG",
+    "§ 52 Abs. 28 Satz 11 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 3c Abs. 2 EStG",
+    "Themenpool: est-aufb-est-ks2-17-02"
+  ],
+  "coverRegie": {
+    "thema": "§ 17, § 20 oder § 23: Welche Norm erfasst den Anteilsverkauf?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/05-fritz-kranz.jpg",
+      "assets/referenzen/charaktere/09-erwin-kranz.jpg"
+    ],
+    "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-09-30-b2-est-aufb-est-ks2-17-02-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}
