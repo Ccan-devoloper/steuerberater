@@ -27,9 +27,9 @@ try {
       await campus.getByRole('button',{name:'Hausaufgaben PersG',exact:true}).click();
       await campus.getByRole('button',{name:'Fact Sheets (Horst) öffnen',exact:true}).click();
       const article = campus.locator('article[data-endriss-source="persg-facts"]');
-      await article.locator('[data-endriss-native-coverage="8/24"]').waitFor({state:'visible'});
+      await article.locator('[data-endriss-native-coverage="10/24"]').waitFor({state:'visible'});
       // Preserve both earlier layout checks and cover every new native table.
-      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3,'persg-facts-11':3,'persg-facts-12':2,'persg-facts-13':7,'persg-facts-14':2})) {
+      for (const [id, expectedTables] of Object.entries({'persg-facts-02':1,'persg-facts-05':3,'persg-facts-08':2,'persg-facts-09':2,'persg-facts-10':3,'persg-facts-11':3,'persg-facts-12':2,'persg-facts-13':7,'persg-facts-14':2,'persg-facts-15':8,'persg-facts-16':5,'persg-facts-17':3,'persg-facts-18':4})) {
         await article.getByLabel('Zu einem Textabschnitt springen').selectOption(id);
         await page.waitForFunction(id=>{
           const chapter = document.getElementById(id);
@@ -47,6 +47,9 @@ try {
           assert.equal(await region.getAttribute('tabindex'),'0');
           assert.equal(await region.getAttribute('role'),'region');
           const metrics = await region.evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth,wrap:getComputedStyle(el.querySelector('tbody th')).overflowWrap}));
+          if (width === 1280 && await region.locator('table.endriss-facts-textquad').count()) {
+            assert.ok(metrics.scroll <= metrics.client+2, 'All four formation columns must fit the desktop reader');
+          }
           assert.equal(metrics.wrap,'normal','Technical words must not be fragmented anywhere');
           if (await region.locator('table.endriss-facts-ledger').count()) {
             assert.equal(await region.locator('table.endriss-facts-ledger').count(),1);

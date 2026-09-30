@@ -1,13 +1,19 @@
 {
   "sourceId":"persg-facts",
   "pullRequest":263,
-  "updatedAt":"2026-09-30T00:03:00Z",
+  "updatedAt":"2026-09-30T00:19:00Z",
+  "state":"repaired-tested-merged-and-deployed",
   "sourceCheckpoint":"docs/endriss-persg-facts-fortschritt.json",
-  "scope":"Additional test/failure evidence for the current PDF7-8 package; not a separate source completion claim.",
-  "firstFailure":{"run":36647140794,"job":109672621181,"testedHead":"36585914b354e5d1105fe5dad366076f3ff2d4b0","cause":"Mobile390 sheet11 second table: last text column too wide for scroll viewport.","artifact":11069085551,"artifactSha256":"c0a533446aeeb76e18537f800c04a6b7ddf85d8e9d791bcf06cadca75aad9d2e","fix":"ad4433791153415651919617c8b01c7c32aef029"},
-  "secondFailure":{"run":36647717356,"job":109674449457,"testedHead":"ad4433791153415651919617c8b01c7c32aef029","testedMerge":"c3bdc3dda5571003ccb1c2082299188e7cc09c7f","cause":"First fix worked: mobile sheets11/12 passed. Next failure is sheet13 table0 (three-column participation graph): the last auto-sized text column is still wider than the mobile viewport.","artifact":11069720719,"artifactSha256":"abc4b4b5370150f61bffc81370c1177ed6e5802c412dea3a382e81779a20f8aa","artifactDownloadedAndHashVerified":true,"actualFailureImageInspected":"viewport-failure-390.png","actualLogsRead":true},
-  "checksNotOverstated":"Both failed runs passed full production/source/import/eight-image hashes and real1280/390 fourteen-module navigation with learner-progress preservation. Both failed the subsequent viewport gate and therefore did NOT execute the final general source-reader regression. Separate Validate/FGO success does not supersede this failure.",
-  "repairScope":"Only new PDF7-8 text tables tagged for fixed equal-width two/three-column layout. New two-column capital ledger gets a narrower explicit layout; numeric nowrap remains. Previous PDF1-6 and all source wording/cells unchanged. No timeout inflation, removed assertions or hidden failed tests.",
-  "localAfterSecondRepair":"Source-specific SSR, complete native SSR and Notfallbuch SSR all passed. No local full production or browser success claimed.",
-  "next":"Require full CI including viewport and all source-reader regressions, manually inspect new native table screenshots, then merge PR263 only if green and verify exact deployment. Global/source checkpoints must retain both failure records and final success proof."
+  "historicalRecord":{"commit":"004d7f7255cc3b278ea1a4de6726cc6d8e3d8dff","path":"docs/endriss-persg-facts-layout-reparatur.json","contents":"Full record of both failed source-table runs, actual log/image inspection and repair scope before successful retest."},
+  "failures":[
+    {"run":36647140794,"job":109672621181,"conclusion":"failure","head":"36585914b354e5d1105fe5dad366076f3ff2d4b0","cause":"Mobile390 sheet11 second table: last text column too wide for scroll viewport.","artifact":11069085551,"artifactSha256":"c0a533446aeeb76e18537f800c04a6b7ddf85d8e9d791bcf06cadca75aad9d2e","actualLogsAndImageRead":true,"fix":"ad4433791153415651919617c8b01c7c32aef029"},
+    {"run":36647717356,"job":109674449457,"conclusion":"failure","head":"ad4433791153415651919617c8b01c7c32aef029","cause":"First fix worked on mobile sheets11/12. Next failure: sheet13 table0 last auto-sized graph column wider than the viewport.","artifact":11069720719,"artifactSha256":"abc4b4b5370150f61bffc81370c1177ed6e5802c412dea3a382e81779a20f8aa","actualLogsAndImageRead":true,"fix":"004d7f7255cc3b278ea1a4de6726cc6d8e3d8dff"}
+  ],
+  "failedRunBoundary":"Both failed runs passed production/source checks and real14module links; they failed the later viewport gate and therefore did not execute the final general image-reader regression. Neither was a transient source download failure or a passed complete package.",
+  "repair":"Only new source text comparisons and small capital ledger use bounded equal-width layout. All original cell values and previous chapters preserved. Existing last-column/keyboard/nowrap checks kept, no inflated timeouts or skipped acceptance.",
+  "firstCompleteSuccess":{"head":"004d7f7255cc3b278ea1a4de6726cc6d8e3d8dff","run":36648416974,"conclusion":"success","artifact":11069366888,"artifactSha256":"92d41bc18db74cade48f3f4402285684579dde1b40b7872c05bb9a458f55916d"},
+  "manualEvidenceImprovement":"Some initial successful table captures placed final rows beneath the existing fixed global navigation. Test-only commit1d5d6279 uses normal vertical centering and verifies all new final cells with actual elementFromPoint hit tests. Navigation was never hidden or suppressed for clean pictures. Source/runtime unchanged.",
+  "finalSuccess":{"head":"1d5d6279ae1e84c9bd83815d26f9f10fa858b37f","testedMerge":"8bf69e017f4776c1f6f6c7ad0fcca1acdb2bcd06","run":36649036625,"job":109678638650,"conclusion":"success","artifact":11069152782,"artifactSha256":"82d02c58311d5cfefb9e987de5c2f0b8829911bb219b81be003ef7e58d0c0777","allThreeReportsReadAndPassed":true,"actualNativeScreenshotsInspected":18,"details":"Exact screenshot filenames, source page evidence, local limitations and all tests are in the source checkpoint."},
+  "release":{"mergeCommit":"62f3c7a07a2112717a297704302ec1d10b90eb0b","deploymentRun":36649483366,"deploymentConclusion":"success","exactDeployedShaReadBack":true},
+  "next":"Keep these failure records and strict source/table tests. Do not reopen this completed PDF7-8 package. Continue original PDF9 after fresh source/lease checks; full24page source remains partial."
 }

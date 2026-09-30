@@ -26,4 +26,13 @@
 .endriss-facts-scroll .endriss-facts-texttriple { min-width: min(48rem, 300%); table-layout: fixed; }
 .endriss-facts-scroll .endriss-facts-texttriple th,
 .endriss-facts-scroll .endriss-facts-texttriple td { width: 33.333333%; }
+/* New PDF9–10 tables: keep each source column within the mobile reader;
+   only calculation descriptions may wrap, not their numeric amounts. */
+.endriss-facts-scroll .endriss-facts-textquad { min-width: min(56rem, 400%); table-layout: fixed; }
+.endriss-facts-scroll .endriss-facts-textquad th,
+.endriss-facts-scroll .endriss-facts-textquad td { width: 25%; }
+.endriss-facts-scroll .endriss-facts-calcpair { min-width: min(36rem, 200%); table-layout: fixed; }
+.endriss-facts-scroll .endriss-facts-calcpair th,
+.endriss-facts-scroll .endriss-facts-calcpair td { width: 50%; }
+.endriss-facts-scroll .endriss-facts-calcpair th { white-space: normal; }
 @media print { .endriss-facts-scroll { overflow: visible; } .endriss-facts-scroll .istr-fs-tabelle { min-width: 0; font-size: .65rem; } }
