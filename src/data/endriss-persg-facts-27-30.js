@@ -52,7 +52,7 @@ export const persgFacts27bis30 = [
     calc(['Originalrechnung','Betrag'], [['VKP','70.000'],['./. Kap','40.000'],['= beg. Gewinn','30.000']]),
     p('Klebezettel: Stille Reserven aus SBV sind zusätzlich aufzudecken\nQuellenbild: Der untere Wortrand von „aufzudecken“ ist angeschnitten; das Wort ist noch lesbar.'),
     h('Auswirkungen bei A & B – OHG'),
-    p('Aufstockung: 30.000 € im Verhältnis der stillen Reserven\nBerechnung: (st. Res. WG / Σ aller st. Res.) × Aufstockungsbetrag'),
+    p('Aufstockung: 30.000 € im Verhältnis der stillen Reserven\nBerechnung: (st. Res. WG / Se aller st. Res.) × Aufstockungsbetrag'),
     h('vorher: A,B,C OHG [Quellenbeschriftung „vorher“; C rot durchgestrichen]'),
     balance([['WG (120.′ + 10.′)','130.000','Kap. A','40.000'],['FW','20.000','Kap. B','40.000'],['','','Abfind.verb.','70.000'],['','150.000','','150.000']]),
     t(['Quellenrechnung','A','B','C [durchgestrichen] (A,B)'], [
@@ -87,7 +87,7 @@ export const persgFacts27bis30 = [
     h('Auswirkungen bei A & B – OHG'),
     p('Abstockung: 30.000 im Verhältnis der Buchwerte\nQuellenpfeil: grün von „Verlust 30.000“ zur Abstockung'),
     p('Was ist „abstockbar“?\n• Bank [rot durchgestrichen]\n• Verb. aufstocken [rot durchgestrichen]\n• Maschine, Grubo [grüner Haken]'),
-    p('Berechnung: (BW WG / Σ aller abstockb. BW) × Abstockungsbetrag'),
+    p('Berechnung: (BW WG / Se aller abstockb. BW) × Abstockungsbetrag'),
     t(['Wirtschaftsgut','Originalrechnung','Betrag'], [['Masch.','60.000 / 180.000 × 30.000 =','10.000'],['GruBo','120.000 / 180.000 × 30.000 =','20.000'],['Summe','180.000','30.000']]),
     h('nachher: A,B,C OHG [C rot durchgestrichen]'),
     balance([['Maschine','50.000','Kap. A','50.000'],['GruBo','100.000','Kap. B','50.000'],['Bank','10.000','Abf.verb.','20.000'],['','','Verb.','40.000'],['','160.000','','160.000']]),

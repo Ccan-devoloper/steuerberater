@@ -49,6 +49,6 @@ export function assertPersgFacts27bis30(chapters) {
   assert.equal(chapter(30).bloecke.find(b=>b.text?.startsWith('Klebezettel: Stille Reserven')).text.split('\n')[0], 'Klebezettel: Stille Reserven aus SBV sind zusätzlich','No word borrowed from the other SBV note');
   for(const n of [29,30]) assert.ok(!JSON.stringify(chapter(n).normen).includes('135'),'No external HGB citation added to source');
   for(const text of ['1. Abfindung = BW','2. Abfindung > BW','3. Abfindung < BW','atypisch stillen Gesellschaften']) assert.ok(texts(28).includes(text));
-  for(const text of ['vorher“; C rot durchgestrichen','im Verhältnis der stillen Reserven','(st. Res. WG / Σ aller st. Res.) × Aufstockungsbetrag','lästiger G’ter','darüber hinausgehender Anteil → Aufwand']) assert.ok(texts(29).includes(text));
+  for(const text of ['vorher“; C rot durchgestrichen','im Verhältnis der stillen Reserven','(st. Res. WG / Se aller st. Res.) × Aufstockungsbetrag','lästiger G’ter','darüber hinausgehender Anteil → Aufwand']) assert.ok(texts(29).includes(text));
   for(const text of ['um vorzeitig auszuscheiden','im Verhältnis der Buchwerte','Bank [rot durchgestrichen]','Verb. aufstocken [rot durchgestrichen]','Maschine, Grubo [grüner Haken]','keine (Sonder-)Abschr., sondern AK-Minderung','Klebezettel im Original um 180° gedreht','Warnsymbol','grüner Pfeil von „AfA neu“ zum Ergebnis 10.000']) assert.ok(texts(30).includes(text));
 }
