@@ -1,89 +1,73 @@
 {
-  "schemaVersion":6,
-  "updatedAt":"2026-09-30T01:04:31Z",
-  "timestampBasis":"Observation after confirmed PR264 deployment; each checkpoint commit records its actual save time.",
+  "schemaVersion":7,
+  "updatedAt":"2026-09-30T14:07:00Z",
+  "timestampBasis":"Observation after confirmed PR265 merge/deployment and exact main status-file read-back; checkpoint commit records its save time.",
   "repository":"Ccan-devoloper/steuerberater",
   "workingBranch":"codex/endriss-restbestaende-2026-09-29",
-  "lastObservedWorkCommit":"249d7a244ad58987f990eff9bf585e6d00e9aa22",
-  "lastObservedMainCommit":"249d7a244ad58987f990eff9bf585e6d00e9aa22",
-  "lastReleasedContentCommit":"3843d036d597ee03110d6130c6dc4eeeddc23c29",
-  "legalReview":false,
-  "complete":false,
-  "completionPercentage":null,
+  "lastObservedWorkCommit":"26a466c261522e11d61a7c5abd7699924908c8fe",
+  "lastObservedMainCommit":"26a466c261522e11d61a7c5abd7699924908c8fe",
+  "lastReleasedContentCommit":"b663631df85f755acc2511e86dd2c2fe283a76a9",
+  "legalReview":false,"complete":false,"completionPercentage":null,
   "inventory":"tools/endriss/quellen.tsv",
-  "scopeNote":"Working inventory of originally open sources, not a newly certified exhaustive comparison of both Drive trees. Whole-campus completeness is not established. progressMetric measures twelve equally weighted original A/B rest-list groups only.",
+  "scopeNote":"Working inventory of originally open sources, not a newly certified exhaustive comparison of both Drive trees. Whole-campus completeness remains unestablished. progressMetric measures twelve equally weighted original A/B rest-list groups only.",
   "historicalCheckpoints":[
-    {"commit":"5d3b29828d83652931c6c0225985f39e5185b089","path":"docs/endriss-fortschritt.json","blobSha":"43ba42c367689106cf29a9f11d8cca34b1c2d1fd","contents":"Complete previous global checkpoint: all packages255–262, source and failure evidence, earlier fixed historical checkpoint references, user authorization, inventory limits and exact deployments. This immutable reference preserves the full record rather than copying old pending fields as current."},
-    {"commit":"a7e800090f995f44e94622ef1b9b08595bc04100","path":"docs/endriss-fortschritt.json","blobSha":"0d121520b89e447d9245a9dd43784f35528e3f81","contents":"Full PR263 release checkpoint and earlier8/24PersG state, source boundaries, real mobile failures/fixes and final screenshot evidence. Preserved unchanged."}
+    {"commit":"4c2f22d3e99bae39fc0238e472627dd845682597","path":"docs/endriss-fortschritt.json","blobSha":"e6d987c89da8702cf276e5f4d0d0a286ddd40d29","contents":"Complete immutable previous global checkpoint: all source packages255–264, earlier fixed history chains, original user decision, source inventory limits, local failures and exact releases/deployments. No previous evidence removed or historical pending field presented as current."}
   ],
-  "userDecision":{
-    "date":"2026-09-29",
-    "originalText":"originalbestand kann bleiben, dass wird separat überarbeiten, kannst daher mergen",
-    "implementedByPullRequest":256,
-    "effect":"Existing original-page assets remain unchanged; separate revision is deferred, not a blocker for native work and authorized tested partial merges.",
-    "scope":"Existing original assets only; no permission to disclose unrelated private material or credentials."
-  },
+  "userDecision":{"date":"2026-09-29","originalText":"originalbestand kann bleiben, dass wird separat überarbeiten, kannst daher mergen","implementedByPullRequest":256,"effect":"Existing original-page assets remain unchanged. Separate revision is deferred and not a blocker for native source work or authorized tested partial merges.","scope":"Existing assets only, no permission for new private watermarks, unrelated personal material or credentials."},
   "resume":{
     "mechanism":"hourly-scheduled-chat-task","enabled":true,"intervalMinutes":60,
+    "automationSettingNote":"Existing documented setting preserved; no scheduling change made by this package.",
     "immediateChatFailureTriggerAvailable":false,"requested15MinuteChatIntervalSupported":false,"lastObservedScheduledRun":null,
     "nextSteps":[
-      "Read actual main/work refs, global and all source-specific checkpoints, latest commits/PRs/Actions. PRs255 through264 are merged; do not recreate their released content. Work was fast-forwarded without force to confirmed main249d7a2 after PR264 deployment before this documentation checkpoint.",
-      "PersG Fact Sheets: ORIGINAL PDF1–10 of24, printed sheets1–18 plus cover/index, are native/tested/deployed through PR261/262/263/264. Nineteen chapters,52tables,22working existing module targets; visible10/24 boundary independent of image inventory. Next source page is ORIGINAL PDF11. Acquire a fresh bounded source lease; do not restart earlier pages or count the24image inventory as native completion.",
-      "Read docs/endriss-persg-facts-fortschritt.json and immutable prior evidence. Existing basis and11–14continuation are unchanged; stable root adapter appends15–18. Preserve original source differences/incomplete references, GrESt/bookings, deadline grouping, prior chapter hashes and strict desktop/mobile/keyboard/last-cell tests. No source solution inferred from a linked module.",
-      "FGO remains37/37actual source pages native and deployed via PR260. Do not restart at page2 or rerun the completed source publisher. docs/endriss-fgo-fortschritt.json retains67annotations, hashes, canonical page1 reuse and full original release proof.",
-      "Continue later with Bilanz Fact Sheets, ErbSt4/5, KSt seven-unit source-to-existing-content audit and notes/marking archives. Notfallbuch PR259 is already released for readable content; only tiny/covered captions remain uncertified. Do not repeat released upper tabs, FGO list or enforcement chains.",
-      "Preserve concurrent changes and learner progress; honor valid leases and reread refs after interruptions. Only tested source-bound packages may be merged and counted after exact deployment read-back. Existing original assets remain per userDecision; never publish new private watermarks or credentials."
+      "Read actual main/work refs, global and all source checkpoints, relevant commits/PRs/Actions. PRs255–265 are merged; their released content must not be recreated. After PR265 deployment, work was fast-forwarded without force to confirmed main26a466c before this documentation checkpoint.",
+      "PersG Fact Sheets: PDF1–12 of24, printed sheets1–22 plus cover/index, natively processed/tested/deployed through PR261–265.23chapters,74tables,27actual module links; visible12/24partial boundary. NEXT ORIGINAL PAGE13. Acquire a fresh bounded source lease; do not restart pages1–12 or count24original images as complete native content.",
+      "Read docs/endriss-persg-facts-fortschritt.json and immutable earlier evidence. Original sheet20application note ends at die; sheet21variant1 last digits are covered and explicitly marked150.00…/300.00…. These are unresolved source uncertainties, not permission to infer. Preserve separate fully readable sheet22balance, different module33/34case, source fc references and all earlier discrepancies.",
+      "Keep stable PersG root adapter, earlier chapter hashes, source-specific table/paragraph linebreaks and strict actual viewport/keyboard/final-cell tests. New quellenZeilen flag was limited to sheets19–22; previous chapters and numeric ledger layouts remain unchanged.",
+      "FGO remains37/37actual source pages native and deployed via PR260, with67annotations. Do not restart at page2, duplicate canonical page1 or repeat a completed publisher. Notfallbuch PR259 readable content remains released; only tiny/covered captions remain uncertified.",
+      "Continue other open groups later: Bilanz Fact Sheets, ErbSt4/5, all seven KSt sources against existing modules, notes/marking ZIP archives. Missing original solutions must not be invented. Check inventory against actual Drive contents before any whole-project completeness claim.",
+      "Preserve foreign edits and learner progress; respect valid leases and resynchronize after interruptions. Only source-bound tested packages may be merged; count released content only after exact deployment read-back. Existing original assets remain per user decision; no new private watermark/credential publication."
     ],
-    "ifInterrupted":"Synchronize refs and reread newest repository checkpoints, not old chat or local files. Reclaim only expired/aborted leases after checking actual ongoing work. Never replay stale complete-file replacements over concurrent edits."
+    "ifInterrupted":"Reread latest repository checkpoints and actual refs, not old chat or local files. Reclaim only expired/aborted leases after checking active work. Never replay stale whole-file writes over concurrent edits."
   },
   "lease":null,
   "sourceCheckpoints":["docs/endriss-fgo-fortschritt.json","docs/endriss-notfallbuch-fortschritt.json","docs/endriss-persg-facts-fortschritt.json"],
   "packages":[
-    {"id":"est-and-mirbach","state":"merged-and-deployed","pullRequest":255,"mergeCommit":"ea8b66630c19b864a77b1c606549b4132fe1dd30","deploymentRun":36610480928,"scope":"ESt printed80–162:83pages,35chapters plus Gewerbe continuation; Mirbach solutions9/14/28variant2:6pages.","fullEvidence":"historicalCheckpoints[0]"},
+    {"id":"est-and-mirbach","state":"merged-and-deployed","pullRequest":255,"mergeCommit":"ea8b66630c19b864a77b1c606549b4132fe1dd30","deploymentRun":36610480928,"scope":"ESt printed80–162:83pages/35chapters plus continuation; Mirbach solutions9/14/28variant2:6pages.","fullEvidence":"historicalCheckpoints[0]"},
     {"id":"native-handwritten-and-horst-ui","state":"merged-and-deployed","pullRequest":256,"sourceIds":["istr-hinzurechnung","lst-mitschrift","lst-korrektur","persg-folien-1"],"sourcePages":45,"mergeCommit":"72eba7f2b0ff4c05e2d56295c7e6a887a20ddfdd","deploymentRun":36623930257,"fullEvidence":"historicalCheckpoints[0]"},
-    {"id":"horst-fassung2","state":"merged-and-deployed","pullRequest":257,"sourceId":"persg-folien-2","sourcePages":16,"additionalUniqueLearningPages":0,"mergeCommit":"034872159d9089efcaf0e27bad5e174f5c3a0185","deploymentRun":36626567185,"method":"Independent source identity/pagewise visual mapping to canonical version1, not a byte-identity claim.","fullEvidence":"historicalCheckpoints[0]"},
+    {"id":"horst-fassung2","state":"merged-and-deployed","pullRequest":257,"sourceId":"persg-folien-2","sourcePages":16,"additionalUniqueLearningPages":0,"mergeCommit":"034872159d9089efcaf0e27bad5e174f5c3a0185","deploymentRun":36626567185,"method":"Independently reviewed pagewise source mapping to canonical version1, not a byte-identity claim.","fullEvidence":"historicalCheckpoints[0]"},
     {"id":"fgo-handwritten-page1","state":"merged-and-deployed; included-in-full-source-successor","pullRequest":258,"sourcePages":1,"mergeCommit":"d32019df630fe070cddd0740ab222dd8720b5103","countsAsAdditionalCompletedSourceGroup":false,"fullEvidence":"historicalCheckpoints[0]"},
-    {"id":"ao-notfallbuch","state":"readable-content-merged-and-deployed; small-tabs-open","pullRequest":259,"sourceId":"ao-notfallbuch","sourcePages":1,"mergeCommit":"422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e","sourceCheckpoint":"docs/endriss-notfallbuch-fortschritt.json","countsAsCompletedSourceGroup":false,"remaining":"Tiny/covered source captions not certified as transcribed; retain explicit uncertainty."},
+    {"id":"ao-notfallbuch","state":"readable-content-merged-and-deployed; small-tabs-open","pullRequest":259,"sourceId":"ao-notfallbuch","mergeCommit":"422dd9a3cdc23fc0adfde3272b2aa8cb2b2bdf8e","sourceCheckpoint":"docs/endriss-notfallbuch-fortschritt.json","countsAsCompletedSourceGroup":false,"remaining":"Tiny/covered source captions not certified as transcribed; retain explicit uncertainty."},
     {"id":"fgo-handwritten-and-annotated-source","state":"all37pages-merged-and-deployed","pullRequest":260,"sourceId":"ao-fgo","physicalPages":37,"annotationRows":67,"sourceCheckpoint":"docs/endriss-fgo-fortschritt.json","sourceModule":"src/data/endriss-fgo.js","complete":true,"countsAsCompletedSourceGroup":true,"mergeCommit":"5b775a2715b29c2f3cc8e03f5deefc56ee21fc78","deploymentRun":36633680434,"fullEvidence":"historicalCheckpoints[0]"},
     {"id":"persg-facts-pages1-4","state":"bounded-package-merged-and-deployed; source-partial","pullRequest":261,"sourceId":"persg-facts","pages":[1,2,3,4],"printedSheets":[1,2,3,4,5,6],"sections":7,"tables":11,"mergeCommit":"d35c7485c74aecbc9061dcef6e06252c3ab24a7f","deploymentRun":36638499096,"sourceComplete":false,"countsAsCompletedSourceGroup":false,"fullEvidence":"historicalCheckpoints[0]"},
     {"id":"persg-facts-pages5-6","state":"bounded-package-merged-and-deployed; source-partial","pullRequest":262,"sourceId":"persg-facts","pages":[5,6],"printedSheets":[7,8,9,10],"additionalSections":4,"additionalTables":7,"mergeCommit":"c37b58ab98915402c32a7dd93ea71530e8069717","deploymentRun":36643512693,"sourceComplete":false,"countsAsCompletedSourceGroup":false,"fullEvidence":"historicalCheckpoints[0]"},
+    {"id":"persg-facts-pages7-8","state":"bounded-package-merged-and-deployed; source-partial","pullRequest":263,"sourceId":"persg-facts","pages":[7,8],"printedSheets":[11,12,13,14],"additionalSections":4,"additionalTables":14,"mergeCommit":"62f3c7a07a2112717a297704302ec1d10b90eb0b","deploymentRun":36649483366,"sourceComplete":false,"countsAsCompletedSourceGroup":false,"fullEvidence":"historicalCheckpoints[0]"},
+    {"id":"persg-facts-pages9-10","state":"bounded-package-merged-and-deployed; source-partial","pullRequest":264,"sourceId":"persg-facts","pages":[9,10],"printedSheets":[15,16,17,18],"additionalSections":4,"additionalTables":20,"mergeCommit":"3843d036d597ee03110d6130c6dc4eeeddc23c29","deploymentRun":36653091087,"sourceComplete":false,"countsAsCompletedSourceGroup":false,"fullEvidence":"historicalCheckpoints[0]"},
     {
-      "id":"persg-facts-pages7-8","state":"bounded-package-merged-and-deployed; source-partial","pullRequest":263,
-      "sourceId":"persg-facts","driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5","physicalPages":24,"pages":[7,8],"printedSheets":[11,12,13,14],"cumulativeReleasedPages":[1,2,3,4,5,6,7,8],
-      "additionalSections":4,"additionalTables":14,"totalSections":15,"totalTables":32,"existingModuleTargets":[1,2,3,4,6,7,8,9,10,11,12,13,14,20],
-      "sourceCheckpoint":"docs/endriss-persg-facts-fortschritt.json","sourceModule":"src/data/endriss-persg-facts-11-14.js",
-      "scope":"Directly reviewed GF/vGA and double-tier source solutions, mirror ledgers and PV transfer scheme. Original incomplete note and annual-rent/no-percentage difference retained. No invented solutions or legal review.",
+      "id":"persg-facts-pages11-12","state":"bounded-native-package-merged-and-deployed; source-partial; source-uncertainties-labelled",
+      "pullRequest":265,"sourceId":"persg-facts","driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5","physicalPages":24,
+      "pages":[11,12],"printedSheets":[19,20,21,22],"cumulativeReleasedPages":[1,2,3,4,5,6,7,8,9,10,11,12],
+      "additionalSections":4,"additionalTables":22,"totalSections":23,"totalTables":74,"existingModuleTargetCount":27,
+      "sourceCheckpoint":"docs/endriss-persg-facts-fortschritt.json","sourceModule":"src/data/endriss-persg-facts-19-22.js",
+      "scope":"Direct original-page/image review: §24UmwStG structure/prerequisites, all application notes, both book-value presentations/six balance tables, market-value succession and original gain split. Original incomplete note and covered digits explicitly retained; no invented solution or legal review.",
       "sourceComplete":false,"packageComplete":true,"countsAsCompletedSourceGroup":false,"registeredInUI":true,
-      "tests":{"head":"1d5d6279ae1e84c9bd83815d26f9f10fa858b37f","testedPRMerge":"8bf69e017f4776c1f6f6c7ad0fcca1acdb2bcd06","sourceAndBrowserRun":36649036625,"sourceAndBrowserJob":109678638650,"validateRun":36649036602,"validateIncludesBot":true,"fgoRun":36649036639,"conclusion":"success","scope":"Full production/source/import/eight-image checks; exact original cells and preserved chapter hashes; real1280/390 navigation,14module links, preserved progress, all columns, keyboard/signed amounts/unobscured final cells and all original-image/index fallback regressions.","manualNativeScreenshotInspection":true,"artifact":11069152782,"earlierFailures":[36647140794,36647717356],"failureRecord":"docs/endriss-persg-facts-layout-reparatur.json"},
-      "merged":true,"mergedAt":"2026-09-30T00:16:02Z","mergeCommit":"62f3c7a07a2112717a297704302ec1d10b90eb0b",
-      "deployment":{"run":36649483366,"buildJob":109680037524,"deployJob":109680338929,"conclusion":"success","deployedCommit":"62f3c7a07a2112717a297704302ec1d10b90eb0b","statusFile":".github/deploy-last.json","statusFileReadBack":true,"observedMain":"efb317d087ba800a70c592a2ec99935e4a0cd50e"},
-      "mainValidation":{"run":36649483417,"website":"success","bot":"success"}
-    },
-    {
-      "id":"persg-facts-pages9-10","state":"bounded-package-merged-and-deployed; source-partial","pullRequest":264,
-      "sourceId":"persg-facts","driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5","physicalPages":24,"pages":[9,10],"printedSheets":[15,16,17,18],"cumulativeReleasedPages":[1,2,3,4,5,6,7,8,9,10],
-      "additionalSections":4,"additionalTables":20,"totalSections":19,"totalTables":52,"existingModuleTargets":[1,2,3,4,6,7,8,9,10,11,12,13,14,20,22,23,25,26,24,27,29,30],
-      "sourceCheckpoint":"docs/endriss-persg-facts-fortschritt.json","sourceModule":"src/data/endriss-persg-facts-15-18.js",
-      "scope":"Direct full-page and enlarged-sheet review of three original PV cases including GrESt/bookings, all BV transfer paths, deadlines/contrary BFHnote and all four foundation columns. Source abbreviations, heading/list differences, empty cells and incomplete52(21b citation retained. No legal review or invented original solutions.",
-      "sourceComplete":false,"packageComplete":true,"countsAsCompletedSourceGroup":false,"registeredInUI":true,
-      "tests":{"head":"008583a2ca90f95b6f402a2263af413b80d80b70","testedPRMerge":"bb911ec2c8e4e7f1f3b940d2922d177ee58ef721","sourceAndBrowserRun":36652563758,"sourceAndBrowserJob":109689802214,"validateRun":36652563782,"validateIncludesBot":true,"fgoRun":36652563752,"conclusion":"success","scope":"Full production/source/import/ten-image checks, exact independent fixtures and unchanged prior15chapter hash; actual1280/390 navigation,22module links, preserved progress, all new tables/keyboard/unobscured final cells/single-line amounts and eight-source original-image/index regressions. All four foundation columns fit desktop.","manualNativeScreenshotInspection":true,"artifact":11071545900,"artifactDigest":"sha256:a39b335bdf1ea45f5c220168999e6dd96d63b098406dcbf5b3136039f277b5f0","currentPackageFailedRuns":[],"manualFinding":"First full CI was green, but desktop quad tables needed unnecessary scrolling. New quad-only width and stronger desktop assertion added in008583a2; final CI/screenshots passed. Prior genuine PR263 failures remain unchanged, not relabelled."},
-      "merged":true,"mergedAt":"2026-09-30T01:01:08Z","mergeCommit":"3843d036d597ee03110d6130c6dc4eeeddc23c29",
-      "deployment":{"run":36653091087,"buildJob":109691442737,"deployJob":109691687455,"conclusion":"success","deployedCommit":"3843d036d597ee03110d6130c6dc4eeeddc23c29","statusFile":".github/deploy-last.json","statusFileReadBack":true,"statusBlob":"2f5e68fcbcddd7b148417d803d8eca063686d632","observedMain":"249d7a244ad58987f990eff9bf585e6d00e9aa22"},
-      "mainValidation":{"run":36653091090,"conclusion":"success"},"mainFgoRegression":{"run":36653091237,"conclusion":"success"}
+      "tests":{"head":"f7c03b17f6b988ed44fa8833a63ddd646b5f97ef","testedPRMerge":"bc026ccb8abba59cd0568cfff1088d12d5113235","sourceAndBrowserRun":36724657483,"sourceAndBrowserJob":109918307487,"validateRun":36724657391,"validateIncludesBot":true,"fgoRun":36724657598,"conclusion":"success","scope":"Full production/source/import/twelve-image checks; all native cells and original fixtures, previous19chapter hash, real1280/390navigation and27module links, progress preservation, all new table/keyboard/last-column/nowrap/unobscured-cell gates,40original newline positions and all original-image/index fallbacks.","manualNativeScreenshotInspection":true,"manualFinalFragments":68,"artifact":11101758836,"artifactSha256":"5760b956833b1eba1cb1d23c0713ed870e9ebbf3fd83961d1bb32ef1e4cdca48","firstGreenRun":36723031999,"subsequentManualFindingRecord":"docs/endriss-persg-facts-zeilenlayout.json","failedCIRunsThisPackage":[]},
+      "merged":true,"mergedAt":"2026-09-30T14:02:26Z","mergeCommit":"b663631df85f755acc2511e86dd2c2fe283a76a9",
+      "deployment":{"run":36726093814,"buildJob":109923226576,"deployJob":109923705349,"conclusion":"success","deployedCommit":"b663631df85f755acc2511e86dd2c2fe283a76a9","statusFile":".github/deploy-last.json","statusBlobSha":"76e589accbe4a43c34940683749ae41c962c4fb9","statusFileReadBack":true,"observedMain":"26a466c261522e11d61a7c5abd7699924908c8fe"},
+      "mainValidation":{"run":36726093483,"website":"success","bot":"success","statusFileReadBack":true}
     }
   ],
   "progressMetric":{
     "name":"Originally open source groups in supplied Claude PDF, sections A and B",
     "denominator":12,"completedAndDeployedGroups":6,"remainingGroups":6,"partiallyReleasedGroups":2,"notYetCompletedOrReleasedGroups":4,"percentage":50,"previousPercentage":41.6666666667,
-    "basis":"Eight A and four B groups, equal weights. Fully transferred and deployed rest-list groups only, not pages, unique content, labor or whole-campus completeness.",
+    "basis":"Eight A and four B groups, equal weights. Fully transferred and deployed rest-list groups only; not pages, unique content, labor or whole-campus completeness.",
     "excluded":"Absent original solutions(C), resolved scope question(D), informational no-solution sources(E).",
-    "strictLegibilityBoundary":"B3 retains unresolved tiny/covered captions. A5 now has10/24source pages released through PR261/262/263/264, not a completed source. Neither partial release increases completed group count.",
+    "strictLegibilityBoundary":"B3 retains unresolved tiny/covered captions. A5 has12/24source pages natively processed and released through PR261–265 with explicitly labelled original incomplete/covered portions, not a completed source. Partial releases and source uncertainty labels never increase the completed-group count.",
     "groups":[
       {"id":"A1","title":"ESt Kurzskript I pages80–162","state":"merged-and-deployed","pr":255},
       {"id":"A2","title":"KSt seven units","state":"source-to-existing-content-audit-open"},
       {"id":"A3","title":"ErbSt units4/5, four PDFs","state":"native-integration-open"},
       {"id":"A4","title":"Bilanz Fact Sheets","state":"open"},
-      {"id":"A5","title":"PersG Fact Sheets","state":"PDF-pages1-10-merged-and-deployed; pages11-24-open","partialPrs":[261,262,263,264],"checkpoint":"docs/endriss-persg-facts-fortschritt.json"},
+      {"id":"A5","title":"PersG Fact Sheets","state":"PDF-pages1-12-natively-processed-and-deployed; pages13-24-open; original-uncertainties-labelled","partialPrs":[261,262,263,264,265],"checkpoint":"docs/endriss-persg-facts-fortschritt.json"},
       {"id":"A6","title":"Lohnsteuer transcript and correction","state":"merged-and-deployed","pr":256},
       {"id":"A7","title":"IStR Hinzurechnungsbeispiel","state":"merged-and-deployed","pr":256},
       {"id":"A8","title":"Both Horst PersG slide versions","state":"merged-and-deployed","prs":[256,257]},
@@ -92,24 +76,21 @@
       {"id":"B3","title":"Notfallbuch AO/FGO","state":"readable-content-deployed; small-tab-captions-open","partialPr":259},
       {"id":"B4","title":"Mirbach solutions9/14/28variant2","state":"merged-and-deployed","pr":255}
     ],
-    "wholeCampusPercentage":null,"warning":"Different-sized groups:50percent of this checklist is not50percent of pages or remaining workload."
+    "wholeCampusPercentage":null,"warning":"Different-sized groups:50percent of this checklist is not50percent of pages or remaining workload. PersG12/24also equals50percent but is a separate processed-page metric, with original uncertainty still explicit."
   },
   "remainingSourceGroups":[
     {"ids":["kst-e1","kst-e2","kst-e3","kst-e4","kst-e5","kst-e6","kst-e7"],"state":"source-to-existing-content-audit-open"},
     {"ids":["erbst-e4-1","erbst-e4-2","erbst-e5-1","erbst-e5-2"],"state":"native-transcription-and-integration-open"},
     {"ids":["bil-facts"],"state":"native-transcription-or-specific-mapping-open"},
-    {"ids":["persg-facts"],"state":"PDF-pages1-10-deployed; pages11-24-open","checkpoint":"docs/endriss-persg-facts-fortschritt.json","nextNativePage":11},
+    {"ids":["persg-facts"],"state":"PDF-pages1-12-natively-processed/deployed; pages13-24-open; source-uncertainties-labelled","checkpoint":"docs/endriss-persg-facts-fortschritt.json","nextNativePage":13},
     {"ids":["ao-notfallbuch"],"state":"readable-content-deployed; unresolvedsmalltabs-only","checkpoint":"docs/endriss-notfallbuch-fortschritt.json"},
     {"inventorySelection":"remaining notiz-, mark-, bmf- and other rows","state":"pagewise-review-and-integration-open"},
     {"ids":["bil-aufgaben-3"],"state":"scope-question-resolved-documentation-to-check","note":"ActualPDF3pages ending afterSachverhalt2; no invented additional cases."}
   ],
-  "acceptance":{
-    "requiresSourceEvidence":true,"requiresNativeContentOrExplicitVerifiedMapping":true,"requiresUIReachability":true,"requiresRelevantTests":true,"requiresMergeAndDeploymentVerification":true,"originalImagesAloneAreCompletion":false,"inventOriginalSolutions":false,"unreadableText":"mark-uncertain-never-guess","existingOriginalAssetRevisionRequiredBeforeThisMerge":false,"existingOriginalAssetRevisionDisposition":"Separate deferred follow-up per explicit userDecision, not a blocker."
-  },
+  "acceptance":{"requiresSourceEvidence":true,"requiresNativeContentOrExplicitVerifiedMapping":true,"requiresUIReachability":true,"requiresRelevantTests":true,"requiresMergeAndDeploymentVerification":true,"originalImagesAloneAreCompletion":false,"inventOriginalSolutions":false,"unreadableText":"mark-uncertain-never-guess","existingOriginalAssetRevisionRequiredBeforeThisMerge":false,"existingOriginalAssetRevisionDisposition":"Separate deferred follow-up per explicit userDecision, not a blocker."},
   "environment":{
-    "previousEvidence":"historicalCheckpoints preserve all prior local failures, restrictions and release evidence; none relabelled as success. Historical PR263 mobile repair record remains unchanged.",
-    "currentRun":"Connected GitHub read/write/PR/merge and fresh Drive metadata worked. Attached/backing original matched Drive identity and independent byte/hash/page checks. Direct original PDF9–10 and enlarged-sheet review, local source/native/Notfallbuch SSR and Vite bundle passed. No local full-production or browser run asserted from source-only snapshot. Full-checkout CI production, all relevant regressions and actual Chromium passed; specific new-table screenshots inspected, desktop quad usability improved before a second green full CI. PR264 and exact successful deployment read back, work synchronized non-force to249d7a2.",
-    "warnings":"Existing npm audit/large-bundle warnings remain; passing package tests do not certify a clean dependency-security audit. No paid service, upgrade or access-right change.",
-    "fallback":"Use connected authorized actions and actual results. Never bypass permission checks or overwrite concurrent changes."
+    "previousEvidence":"Immutable historicalCheckpoints[0] preserves prior failures, restrictions and exact releases. None relabelled as success.",
+    "currentRun":"Connected GitHub writes/PR/merge and fresh Drive metadata worked. Original attached PDF independently matched bytes/hash/pages and images directly read. Local npm-ci attempt exceeded45seconds and was deliberately terminated, not a successful install; existing authorized dependency artifact used only after lockfile byte verification. Subsequent local SSR/source/native/Notfallbuch and Vite bundle passed. No full local production build or local browser run claimed from small source snapshot. Complete CI production/browser passed; actual PR265 merge and exact deployment read back. Some connector step arrays were inconsistent with final job summaries; final run conclusions, downloaded/hash-verified actual reports and exact status files used without fabricating step success.",
+    "fallback":"Use only available authorized tools and actual tests; never bypass permission checks or overwrite concurrent edits."
   }
 }
