@@ -6609,6 +6609,18 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s2",
+      "medienId": "17867520999659549",
+      "veroeffentlicht": "2026-10-01T07:47:42.691Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": "Wann entsteht beim Anteilstausch ein…"
     }
   ],
   "fachZaehler": {
