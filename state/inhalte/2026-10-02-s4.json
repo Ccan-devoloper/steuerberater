@@ -1,0 +1,28 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "pairId": "kst-quiz-kst-8",
+  "quellen": [
+    "Themenpool: kst-quiz-kst-8"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Prüfungsfrage",
+  "frage": "2 KStG?",
+  "titel": "2 KStG?",
+  "optionen": [
+    "ja, immer",
+    "nur bei GmbHs",
+    "nein"
+  ],
+  "richtig": 2,
+  "liveVorrangAktiv": true
+}

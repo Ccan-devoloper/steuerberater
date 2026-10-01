@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-aufb-istr-gh-3-06",
+  "quellen": [
+    "§ 1 Abs. 3 EStG",
+    "§ 49 EStG",
+    "§ 32a Abs. 1 EStG",
+    "§ 50a EStG",
+    "§ 26 Abs. 1 EStG",
+    "Themenpool: istr-aufb-istr-gh-3-06"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Klausurtipp",
+  "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+  "text": "Stelle fest, dass im Inland weder Wohnsitz noch gewöhnlicher Aufenthalt besteht, aber inländische Einkünfte nach § 49 EStG vorliegen.",
+  "liveVorrangAktiv": true
+}

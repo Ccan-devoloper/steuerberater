@@ -1,0 +1,18 @@
+{
+  "slot": "s7",
+  "art": "countdown",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Steuerberaterexamen",
+  "ueberzeile": "Noch",
+  "zahl": "4",
+  "titel": "Tage bis zum Examen",
+  "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+  "fortschritt": 0,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

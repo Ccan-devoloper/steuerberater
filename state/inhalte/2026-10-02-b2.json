@@ -1,0 +1,100 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-8-6",
+  "slug": "2026-10-02-b2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Schon leichte Fahrlässigkeit schließt die Wiedereinsetzung aus; das Verschulden eines Vertreters wird nach § 110 Abs. 1 Satz 2 AO zugerechnet.",
+        "Fehler sonst zuverlässiger Büroangestellter sind dem Berater nicht anzulasten, wenn er eine ordnungsgemäße Fristenkontrolle organisiert hat."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "zuerst sicher feststellen, dass die Einspruchsfrist tatsächlich versäumt ist; sonst stellt sich die Frage nicht."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Den Hinderungsgrund würdigen, etwa unerwartet lange Postlaufzeit, kurzen Urlaub oder plötzliche schwere Krankheit, im Gegensatz zu Arbeitsüberlastung."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Bei Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "kurztitel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 110 Abs. 1 Sätze 1 und 2, Abs. 2 Sätze 1 bis 3 und Abs. 3 AO",
+    "§ 358 AO",
+    "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
+    "§ 350 AO",
+    "§ 355 Abs. 1 Satz 1 AO",
+    "§ 357 Abs. 1 Satz 1 und Abs. 2 Satz 1 AO",
+    "§ 366 AO",
+    "§ 367 Abs. 1 und 2 Sätze 1 bis 3 AO",
+    "§ 132 AO",
+    "§ 172 Abs. 1 Satz 1 Nr. 2a AO",
+    "Themenpool: ao-aufb-ao-jacobs-8-6"
+  ],
+  "coverRegie": {
+    "thema": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/01-holger-kranz.jpg",
+      "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+    ],
+    "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-02-b2-ao-aufb-ao-jacobs-8-6-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

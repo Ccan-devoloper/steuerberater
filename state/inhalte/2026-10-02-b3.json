@@ -1,0 +1,113 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": "gewst-aufb-gewst-ks-03",
+  "slug": "2026-10-02-b3",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "unter": "Gewerbesteuer",
+      "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+      "norm": "§ 6 GewStG",
+      "icon": null,
+      "sprecher": "Heute geht es um Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+      "marken": [
+        "Du weißt, dass die Gewerbesteuer als nicht"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Prüfpunkt 1: § 6 GewStG",
+      "text": null,
+      "norm": "§ 6 GewStG",
+      "icon": null,
+      "sprecher": "Schritt 1: Prüfe § 6 GewStG im Zusammenhang mit Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "marken": [
+        "Prüfpunkt 1"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Setze bei Kapitalgesellschaften das Einkommen vor Abzug eines körperschaftsteuerlichen Verlustvortrags an.",
+      "text": null,
+      "norm": "§ 7 Satz 1 GewStG",
+      "icon": null,
+      "sprecher": "Schritt 2: Prüfe § 7 Satz 1 GewStG im Zusammenhang mit Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "marken": [
+        "Prüfpunkt 2"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Merksatz",
+      "text": "Bei Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?: Voraussetzungen vor Ergebnis.",
+      "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+      "marken": [
+        "Merksatz"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfungsschritte festigen",
+      "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+      "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+      "marken": [
+        "Kernfrage",
+        "Reihenfolge",
+        "Normen"
+      ]
+    }
+  ],
+  "caption": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+  ],
+  "kurztitel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 6 GewStG",
+    "§ 7 Satz 1 GewStG",
+    "§ 7 Satz 2 GewStG",
+    "§ 7 Satz 4 GewStG",
+    "R 7.1 GewStR",
+    "§ 16 EStG",
+    "§ 17 EStG",
+    "§ 15a EStG",
+    "§ 18 Abs. 3 UmwStG",
+    "§ 3 Nr. 40 EStG",
+    "Themenpool: gewst-aufb-gewst-ks-03"
+  ],
+  "coverRegie": {
+    "thema": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/03-mia-kranz.jpg",
+      "assets/referenzen/charaktere/04-timo-kranz.jpg"
+    ],
+    "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-02-b3-gewst-aufb-gewst-ks-03-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

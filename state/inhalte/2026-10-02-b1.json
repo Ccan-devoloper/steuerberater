@@ -1,0 +1,100 @@
+{
+  "format": "klausurtechnik",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-3",
+  "slug": "2026-10-02-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "coverBadge": null,
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "§ 6 Abs. 5 Satz 3 Nr. 2 EStG erfasst nur den Weg zwischen Sonderbetriebsvermögen und Gesellschaftsvermögen, nicht den direkten Transfer zwischen zwei Gesellschaftsvermögen.",
+        "Das BVerfG hat den Buchwertausschluss für beteiligungsidentische Schwester-Personengesellschaften als Verstoß gegen Art. 3 Abs. 1 GG beanstandet."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Klären, ob das Wirtschaftsgut direkt von Gesellschaftsvermögen zu Gesellschaftsvermögen wechselt oder über Sonderbetriebsvermögen läuft."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Beteiligungsidentität untersuchen: dieselben Mitunternehmer mit denselben Quoten an beiden Gesellschaften."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Bei Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "kurztitel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+  "coverBadge": null,
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 6 Abs. 5 Satz 1 und Satz 3 Nr. 2 und Nr. 4 EStG",
+    "§ 52 Abs. 12 Nr. 14 EStG",
+    "§ 6b, § 6c EStG",
+    "§ 6b Abs. 4 Satz 1 Nr. 2 EStG",
+    "R 6b.2 Abs. 7 EStR",
+    "§ 42 AO",
+    "Art. 3 Abs. 1 GG",
+    "BVerfG vom 28.11.2023 – 2 BvL 8/13",
+    "BMF vom 08.12.2011",
+    "BMF vom 20.11.2019",
+    "Themenpool: persg-aufb-persg-melzer-2-3"
+  ],
+  "coverRegie": {
+    "thema": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/06-kalle.jpg",
+      "assets/referenzen/charaktere/01-holger-kranz.jpg"
+    ],
+    "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-02-b1-persg-aufb-persg-melzer-2-3-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

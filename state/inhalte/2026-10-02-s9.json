@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "tipp",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-modul-istr-istr1-11",
+  "quellen": [
+    "§ 50 Abs. 1 EStG",
+    "§ 50 Abs. 2 EStG",
+    "§ 32a EStG",
+    "§ 50 EStG",
+    "Themenpool: istr-modul-istr-istr1-11"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Klausurtipp",
+  "titel": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger",
+  "text": "1. Inländische Einkünfte und Erhebungsweg festlegen.",
+  "liveVorrangAktiv": true
+}

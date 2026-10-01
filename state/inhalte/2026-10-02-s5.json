@@ -1,0 +1,28 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "pairId": "kst-quiz-kst-8",
+  "quellen": [
+    "Themenpool: kst-quiz-kst-8"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "nein",
+  "optionen": [
+    "ja, immer",
+    "nur bei GmbHs",
+    "nein"
+  ],
+  "richtig": 2,
+  "text": "Die in den Unterlagen behandelte Mindestquote betrifft Dividenden, nicht Veräußerungsgewinne.",
+  "liveVorrangAktiv": true
+}

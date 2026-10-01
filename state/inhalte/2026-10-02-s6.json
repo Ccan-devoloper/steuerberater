@@ -1,0 +1,33 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-aufb-istr-gh-3-14",
+  "quellen": [
+    "§ 50a EStG",
+    "§ 50a Abs. 2 EStG",
+    "§ 50a Abs. 7 EStG",
+    "§ 50a Abs. 5 EStG",
+    "§ 50a Abs. 1 EStG",
+    "§ 50c Abs. 1 EStG",
+    "§ 13b UStG",
+    "§ 50 Abs. 2 EStG",
+    "§ 49 Abs. 2 EStG",
+    "§ 8 AO",
+    "Themenpool: istr-aufb-istr-gh-3-14"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 50a EStG",
+  "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
+  "text": "Du kennst die Sätze: 15 % der Einnahmen für Darbietungen, deren Verwertung und Rechteüberlassungen, 30 % für Aufsichtsratsvergütungen. Du weißt, dass bei Darbietungen mit Einnahmen von höchstens 250 € je Darbietung kein Abzug vorgenommen wird.",
+  "liveVorrangAktiv": true
+}
