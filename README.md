@@ -5,6 +5,10 @@ React 18 + Vite, kein Framework-Overhead, kein Tailwind — ein einziges, durchg
 
 ## Was drin ist
 
+- **Tag-1-Kompaktübersichten** (`public/kompakt/`): je max. drei A4-Seiten für **AO**, **USt** und
+  **ErbSt/BewG** – Prüfungsketten, Schemata, Tabellen und durchgerechnete Minifälle, gewichtet nach
+  der Examenspriorität (🔴/🟠/🟢). Druckfertig als PDF (`ao-kompakt.pdf`, `ust-kompakt.pdf`,
+  `erbst-kompakt.pdf`, zusammen `tag1-kompakt-ao-ust-erbst.pdf`) und als HTML unter `kompakt/`
 - **87 Lernobjekte**: 27 Einzelunternehmen, 9 Personengesellschaft, 7 Kapitalgesellschaft,
   6 Klausurtechnik, 38 durchgerechnete Originalfälle
 - **Fallsammlung** mit 90 Fällen und Lösungen, alle einem Lernmodul zugeordnet
