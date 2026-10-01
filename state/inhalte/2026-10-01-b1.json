@@ -10,7 +10,8 @@
       "art": "titel",
       "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
       "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true
+      "coverBildAuslassen": false,
+      "icon": "gebaeude"
     },
     {
       "art": "text",

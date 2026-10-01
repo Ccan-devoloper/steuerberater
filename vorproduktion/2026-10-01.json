@@ -123,7 +123,8 @@
           "art": "titel",
           "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "gebaeude"
         },
         {
           "art": "text",
@@ -674,5 +675,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "icon-statt-bild"
 }
