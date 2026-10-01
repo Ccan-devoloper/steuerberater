@@ -327,7 +327,7 @@
           "unter": "Erbschaftsteuer / Bewertung",
           "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
           "norm": "§ 13d Abs. 1 ErbStG",
-          "icon": null,
+          "icon": "haus",
           "sprecher": "Heute geht es um § 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
           "marken": [
             "§ 13d Abs."
@@ -389,7 +389,7 @@
       ],
       "kurztitel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 13d Abs. 1 ErbStG",
         "§ 13d Abs. 3 ErbStG",
@@ -418,7 +418,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "haus"
     },
     "s4": {
       "slot": "s4",
