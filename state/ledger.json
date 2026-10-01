@@ -6749,6 +6749,18 @@
       },
       "insightsStand": "2026-10-01T13:45:08.343Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s8",
+      "medienId": "18132167788710140",
+      "veroeffentlicht": "2026-10-01T15:47:17.887Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-aufb-istr-gh-3-04",
+      "fach": "istr",
+      "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?"
     }
   ],
   "fachZaehler": {
