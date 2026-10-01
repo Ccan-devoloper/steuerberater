@@ -6661,7 +6661,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 33,
+        "reach": 37,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T15:47:23.710Z",
-      "insightsAlterStunden": 8
+      "insightsStand": "2026-10-01T19:54:45.013Z",
+      "insightsAlterStunden": 12.1
     },
     {
       "datum": "2026-10-01",
@@ -6714,22 +6714,22 @@
       "fach": "istr",
       "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
       "insights": {
-        "reach": 17,
-        "views": 25,
+        "reach": 25,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
+        "navigation": 32,
         "navigation_tap_exit": 4,
         "navigation_swipe_forward": 3,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 12
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 21
       },
-      "insightsStand": "2026-10-01T15:47:19.346Z",
-      "insightsAlterStunden": 5.1
+      "insightsStand": "2026-10-01T19:54:40.341Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-01",
@@ -6833,7 +6833,23 @@
       "storyArt": "tipp",
       "thema": "istr-aufb-istr-gh-3-12",
       "fach": "istr",
-      "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?"
+      "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
+      "insights": {
+        "reach": 13,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 12
+      },
+      "insightsStand": "2026-10-01T19:54:40.341Z",
+      "insightsAlterStunden": 2.2
     },
     {
       "datum": "2026-10-01",
@@ -6845,7 +6861,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "erbst",
-      "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke"
+      "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+      "insights": {
+        "reach": 12,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-10-01T19:54:40.341Z",
+      "insightsAlterStunden": 2.2
     }
   ],
   "fachZaehler": {

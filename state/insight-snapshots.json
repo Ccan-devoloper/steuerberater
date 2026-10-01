@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-01T18:36:20.385Z",
+  "stand": "2026-10-01T19:54:45.670Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -10389,6 +10389,18 @@
           "total_interactions": 1,
           "follows": 1,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-01T19:54:45.013Z",
+          "alterStunden": 12.1,
+          "reach": 37,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 1,
+          "profile_visits": 0
         }
       ]
     },
@@ -10492,6 +10504,23 @@
           "navigation_swipe_forward": 3,
           "navigation_tap_back": 3,
           "navigation_tap_forward": 12
+        },
+        {
+          "stand": "2026-10-01T19:54:40.341Z",
+          "alterStunden": 9.2,
+          "reach": 25,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_exit": 4,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 21
         }
       ]
     },
@@ -10587,6 +10616,61 @@
           "ig_reels_avg_watch_time": 3367,
           "ig_reels_video_view_total_time": 43777,
           "reels_skip_rate": 66.7
+        }
+      ]
+    },
+    "18097896644098441": {
+      "art": "story",
+      "datum": "2026-10-01",
+      "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-01T17:45:14.133Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-01T19:54:40.341Z",
+          "alterStunden": 2.2,
+          "reach": 13,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 12
+        }
+      ]
+    },
+    "18131523385767595": {
+      "art": "story",
+      "datum": "2026-10-01",
+      "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-01T17:45:24.726Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-01T19:54:40.341Z",
+          "alterStunden": 2.2,
+          "reach": 12,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 9
         }
       ]
     }
@@ -11239,6 +11323,11 @@
     },
     {
       "stand": "2026-10-01T18:36:20.385Z",
+      "follower": 101,
+      "medien": 77
+    },
+    {
+      "stand": "2026-10-01T19:54:45.670Z",
       "follower": 101,
       "medien": 77
     }
