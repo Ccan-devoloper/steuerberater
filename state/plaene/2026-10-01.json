@@ -37,8 +37,9 @@
       "fach": "erbst",
       "klausur": 1,
       "lang": false,
-      "status": "sendet",
-      "sendeversuch": "2026-10-01T17:44:08.900Z"
+      "status": "veroeffentlicht",
+      "medienId": "17883244227687623",
+      "veroeffentlicht": "2026-10-01T17:45:01.495Z"
     }
   ],
   "stories": [

@@ -6766,6 +6766,28 @@
       "thema": "istr-aufb-istr-gh-3-04",
       "fach": "istr",
       "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?"
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "b3",
+      "medienId": "17883244227687623",
+      "veroeffentlicht": "2026-10-01T17:45:01.495Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "erbst-modul-erbst-513",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -6775,7 +6797,7 @@
     "ao": 15,
     "bilanz": 17,
     "istr": 14,
-    "erbst": 3,
+    "erbst": 4,
     "mindset": 2,
     "est": 1,
     "umwst": 2
