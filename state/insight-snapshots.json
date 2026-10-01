@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-01T05:46:11.985Z",
+  "stand": "2026-10-01T06:44:20.576Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -9341,6 +9341,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-01T06:44:18.663Z",
+          "alterStunden": 19,
+          "reach": 50,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -9651,6 +9663,44 @@
           "ig_reels_avg_watch_time": 9992,
           "ig_reels_video_view_total_time": 499627,
           "reels_skip_rate": 52
+        },
+        {
+          "stand": "2026-10-01T06:44:18.663Z",
+          "alterStunden": 13.7,
+          "reach": 68,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 88,
+          "ig_reels_avg_watch_time": 10000,
+          "ig_reels_video_view_total_time": 700050,
+          "reels_skip_rate": 58.2
+        }
+      ]
+    },
+    "18023360069919618": {
+      "art": "beitrag",
+      "datum": "2026-10-01",
+      "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+      "format": "spickzettel",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-01T05:45:17.488Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-01T06:44:18.663Z",
+          "alterStunden": 1,
+          "reach": 12,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -10238,6 +10288,11 @@
     },
     {
       "stand": "2026-10-01T05:46:11.985Z",
+      "follower": 100,
+      "medien": 75
+    },
+    {
+      "stand": "2026-10-01T06:44:20.576Z",
       "follower": 100,
       "medien": 75
     }

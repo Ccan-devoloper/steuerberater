@@ -6328,7 +6328,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 39,
+        "reach": 50,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -6337,8 +6337,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-09-30T20:03:25.242Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-10-01T06:44:18.663Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-30",
@@ -6447,19 +6447,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 49,
+        "reach": 68,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 66,
-        "ig_reels_avg_watch_time": 9992,
-        "ig_reels_video_view_total_time": 499627,
-        "reels_skip_rate": 52
+        "views": 88,
+        "ig_reels_avg_watch_time": 10000,
+        "ig_reels_video_view_total_time": 700050,
+        "reels_skip_rate": 58.2
       },
-      "insightsStand": "2026-09-30T20:44:25.363Z",
-      "insightsAlterStunden": 3.7
+      "insightsStand": "2026-10-01T06:44:18.663Z",
+      "insightsAlterStunden": 13.7
     },
     {
       "datum": "2026-09-30",
@@ -6538,7 +6538,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 12,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-01T06:44:18.663Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-01",
