@@ -6424,8 +6424,8 @@
         "navigation_tap_forward": 28,
         "navigation_tap_back": 6
       },
-      "insightsStand": "2026-10-01T10:43:50.435Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-10-01T12:44:26.750Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-30",
@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 72,
-        "saved": 1,
+        "reach": 76,
+        "saved": 2,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 92,
-        "ig_reels_avg_watch_time": 9522,
-        "ig_reels_video_view_total_time": 714214,
-        "reels_skip_rate": 60
+        "total_interactions": 4,
+        "views": 109,
+        "ig_reels_avg_watch_time": 11378,
+        "ig_reels_video_view_total_time": 898910,
+        "reels_skip_rate": 58.7
       },
-      "insightsStand": "2026-10-01T09:44:19.672Z",
-      "insightsAlterStunden": 16.7
+      "insightsStand": "2026-10-01T12:44:28.361Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-09-30",
@@ -6659,7 +6659,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 26,
+        "reach": 29,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -6668,8 +6668,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T10:43:54.393Z",
-      "insightsAlterStunden": 2.9
+      "insightsStand": "2026-10-01T12:44:28.361Z",
+      "insightsAlterStunden": 4.9
     },
     {
       "datum": "2026-10-01",
