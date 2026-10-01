@@ -6352,22 +6352,22 @@
       "fach": "est",
       "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…",
       "insights": {
-        "reach": 35,
-        "views": 39,
+        "reach": 37,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
+        "navigation": 40,
         "navigation_swipe_forward": 1,
         "navigation_tap_back": 4,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 29
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 30
       },
-      "insightsStand": "2026-10-01T07:47:43.804Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-10-01T10:43:50.435Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-30",
@@ -6410,22 +6410,22 @@
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht: Wen trifft sie, wann beginnt sie?",
       "insights": {
-        "reach": 28,
-        "views": 42,
+        "reach": 33,
+        "views": 50,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 36,
+        "navigation": 41,
         "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 25,
-        "navigation_tap_back": 5
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 28,
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-10-01T05:45:58.933Z",
-      "insightsAlterStunden": 14
+      "insightsStand": "2026-10-01T10:43:50.435Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-09-30",
@@ -6475,21 +6475,21 @@
       "fach": "umwst",
       "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
       "insights": {
-        "reach": 26,
-        "views": 41,
+        "reach": 31,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_tap_forward": 31,
+        "navigation": 44,
+        "navigation_tap_forward": 35,
         "navigation_tap_exit": 2,
-        "navigation_tap_back": 3
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-01T05:45:58.933Z",
-      "insightsAlterStunden": 12.7
+      "insightsStand": "2026-10-01T10:43:50.435Z",
+      "insightsAlterStunden": 17.7
     },
     {
       "datum": "2026-09-30",
@@ -6503,22 +6503,22 @@
       "fach": "istr",
       "titel": "Steuerfrei nach DBA und trotzdem teurer: der Progressionsvorbehalt",
       "insights": {
-        "reach": 25,
-        "views": 43,
+        "reach": 31,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 15,
-        "navigation_tap_exit": 10,
+        "navigation": 42,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 18,
+        "navigation_tap_exit": 13,
         "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-01T05:45:58.933Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-10-01T10:43:50.435Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-01",
@@ -6542,7 +6542,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 32,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -6551,8 +6551,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T08:43:43.049Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-01T10:43:54.393Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-01",
@@ -6656,7 +6656,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 11,
+        "reach": 26,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -6665,8 +6665,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T08:43:43.049Z",
-      "insightsAlterStunden": 0.9
+      "insightsStand": "2026-10-01T10:43:54.393Z",
+      "insightsAlterStunden": 2.9
     },
     {
       "datum": "2026-10-01",
