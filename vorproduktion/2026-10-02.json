@@ -23,7 +23,7 @@
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "08:30",
+        "zeit": "06:30",
         "format": "klausurtechnik",
         "themaId": "persg-aufb-persg-melzer-2-3",
         "themaTitel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
@@ -65,7 +65,7 @@
       },
       {
         "slot": "s1",
-        "zeit": "08:30",
+        "zeit": "06:30",
         "art": "teaser",
         "beitragSlot": "b1",
         "status": "aus-beitrag-ableitbar"
