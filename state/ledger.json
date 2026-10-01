@@ -4877,7 +4877,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 52,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -4886,8 +4886,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-09-30T06:46:20.150Z",
-      "insightsAlterStunden": 120
+      "insightsStand": "2026-10-01T07:47:49.467Z",
+      "insightsAlterStunden": 145
     },
     {
       "datum": "2026-09-25",
@@ -4935,19 +4935,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 104,
+        "reach": 111,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 136,
-        "ig_reels_avg_watch_time": 9834,
-        "ig_reels_video_view_total_time": 1140783,
-        "reels_skip_rate": 68.8
+        "views": 144,
+        "ig_reels_avg_watch_time": 9667,
+        "ig_reels_video_view_total_time": 1198795,
+        "reels_skip_rate": 69.2
       },
-      "insightsStand": "2026-09-30T06:46:20.150Z",
-      "insightsAlterStunden": 116.2
+      "insightsStand": "2026-10-01T07:47:49.467Z",
+      "insightsAlterStunden": 141.2
     },
     {
       "datum": "2026-09-25",
@@ -6289,22 +6289,22 @@
       "fach": "istr",
       "titel": "Wegzug und zeitanteiliger Wechsel der Steuerpflicht",
       "insights": {
-        "reach": 34,
-        "views": 43,
+        "reach": 36,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
+        "navigation": 36,
         "navigation_tap_exit": 5,
         "navigation_tap_back": 2,
-        "navigation_tap_forward": 27,
+        "navigation_tap_forward": 28,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-01T05:45:58.933Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-10-01T07:47:43.804Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-09-30",
@@ -6352,21 +6352,22 @@
       "fach": "est",
       "titel": "§ 17, § 20 oder § 23: Welche Norm erfasst den…",
       "insights": {
-        "reach": 32,
-        "views": 37,
+        "reach": 35,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
+        "navigation": 38,
+        "navigation_swipe_forward": 1,
         "navigation_tap_back": 4,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 27
+        "navigation_tap_forward": 29
       },
-      "insightsStand": "2026-10-01T05:45:58.933Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-10-01T07:47:43.804Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-09-30",
@@ -6562,7 +6563,21 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-3",
       "fach": "persg",
-      "titel": "Wo wird Sonderbetriebsvermögen abgebildet?"
+      "titel": "Wo wird Sonderbetriebsvermögen abgebildet?",
+      "insights": {
+        "reach": 11,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-10-01T07:47:43.804Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-01",
@@ -6574,7 +6589,23 @@
       "storyArt": "antwort",
       "thema": "persg-quiz-k3-3",
       "fach": "persg",
-      "titel": "Sonderbilanz"
+      "titel": "Sonderbilanz",
+      "insights": {
+        "reach": 11,
+        "views": 12,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-10-01T07:47:43.804Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-01",
@@ -6586,7 +6617,21 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "kst",
-      "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste…"
+      "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste…",
+      "insights": {
+        "reach": 11,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-10-01T07:47:43.804Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-01",
