@@ -32,7 +32,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "13:30",
+        "zeit": "12:30",
         "format": "spickzettel",
         "themaId": "ao-aufb-ao-jacobs-8-6",
         "themaTitel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
@@ -84,7 +84,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "13:30",
+        "zeit": "12:30",
         "art": "teaser",
         "beitragSlot": "b2",
         "status": "aus-beitrag-ableitbar"
