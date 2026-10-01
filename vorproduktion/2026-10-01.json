@@ -223,7 +223,8 @@
           "art": "titel",
           "titel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
           "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "kreislauf"
         },
         {
           "art": "text",
