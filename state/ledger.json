@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 76,
+        "reach": 81,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 109,
-        "ig_reels_avg_watch_time": 11378,
-        "ig_reels_video_view_total_time": 898910,
-        "reels_skip_rate": 58.7
+        "views": 115,
+        "ig_reels_avg_watch_time": 10641,
+        "ig_reels_video_view_total_time": 904530,
+        "reels_skip_rate": 60.5
       },
-      "insightsStand": "2026-10-01T12:44:28.361Z",
-      "insightsAlterStunden": 19.7
+      "insightsStand": "2026-10-01T15:47:23.710Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-09-30",
@@ -6475,22 +6475,22 @@
       "fach": "umwst",
       "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
       "insights": {
-        "reach": 32,
-        "views": 49,
+        "reach": 33,
+        "views": 53,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 45,
+        "navigation": 47,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 35,
+        "navigation_tap_forward": 36,
         "navigation_tap_exit": 2,
-        "navigation_tap_back": 7
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-01T13:45:08.343Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-01T15:47:19.346Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-09-30",
@@ -6504,22 +6504,22 @@
       "fach": "istr",
       "titel": "Steuerfrei nach DBA und trotzdem teurer: der Progressionsvorbehalt",
       "insights": {
-        "reach": 31,
-        "views": 49,
+        "reach": 32,
+        "views": 51,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 42,
+        "navigation": 44,
         "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 18,
+        "navigation_tap_forward": 20,
         "navigation_tap_exit": 13,
         "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-01T13:45:08.343Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-10-01T15:47:19.346Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-01",
@@ -6660,17 +6660,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 29,
+        "reach": 33,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "follows": 0,
+        "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T12:44:28.361Z",
-      "insightsAlterStunden": 4.9
+      "insightsStand": "2026-10-01T15:47:23.710Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-10-01",
@@ -6712,18 +6712,22 @@
       "fach": "istr",
       "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
       "insights": {
-        "reach": 0,
-        "views": 9,
+        "reach": 17,
+        "views": 25,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 0
+        "navigation": 22,
+        "navigation_tap_exit": 4,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 12
       },
-      "insightsStand": "2026-10-01T11:44:27.221Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-01T15:47:19.346Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-01",
