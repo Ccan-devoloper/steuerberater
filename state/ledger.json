@@ -6541,17 +6541,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 12,
+        "reach": 27,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T06:44:18.663Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-01T08:43:43.049Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-01",
@@ -6653,7 +6653,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 11,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-01T08:43:43.049Z",
+      "insightsAlterStunden": 0.9
     },
     {
       "datum": "2026-10-01",

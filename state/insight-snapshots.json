@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-01T07:47:50.928Z",
+  "stand": "2026-10-01T08:43:43.833Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -9761,6 +9761,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-01T08:43:43.049Z",
+          "alterStunden": 3,
+          "reach": 27,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -9841,6 +9853,30 @@
           "profile_activity": 0,
           "navigation": 10,
           "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18033538871665076": {
+      "art": "beitrag",
+      "datum": "2026-10-01",
+      "titel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+      "format": "schema",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-01T07:47:31.466Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-01T08:43:43.049Z",
+          "alterStunden": 0.9,
+          "reach": 11,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -10438,6 +10474,11 @@
     },
     {
       "stand": "2026-10-01T07:47:50.928Z",
+      "follower": 100,
+      "medien": 76
+    },
+    {
+      "stand": "2026-10-01T08:43:43.833Z",
       "follower": 100,
       "medien": 76
     }
