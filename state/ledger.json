@@ -6807,7 +6807,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 5,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 20,
+        "ig_reels_avg_watch_time": 3367,
+        "ig_reels_video_view_total_time": 43777,
+        "reels_skip_rate": 66.7
+      },
+      "insightsStand": "2026-10-01T18:36:18.660Z",
+      "insightsAlterStunden": 0.9
     },
     {
       "datum": "2026-10-01",
