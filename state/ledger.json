@@ -5816,7 +5816,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 48,
+        "reach": 49,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5825,8 +5825,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 48
+      "insightsStand": "2026-10-01T14:45:45.203Z",
+      "insightsAlterStunden": 57
     },
     {
       "datum": "2026-09-29",
@@ -5944,8 +5944,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 45
+      "insightsStand": "2026-10-01T14:45:45.203Z",
+      "insightsAlterStunden": 54
     },
     {
       "datum": "2026-09-29",
@@ -6090,13 +6090,13 @@
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 105,
-        "ig_reels_avg_watch_time": 6957,
-        "ig_reels_video_view_total_time": 570541,
-        "reels_skip_rate": 71.6
+        "views": 106,
+        "ig_reels_avg_watch_time": 6909,
+        "ig_reels_video_view_total_time": 573477,
+        "reels_skip_rate": 72
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 36.7
+      "insightsStand": "2026-10-01T14:45:45.203Z",
+      "insightsAlterStunden": 45.7
     },
     {
       "datum": "2026-09-29",
@@ -6245,8 +6245,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-10-01T14:45:45.203Z",
+      "insightsAlterStunden": 32
     },
     {
       "datum": "2026-09-30",
@@ -6410,22 +6410,22 @@
       "fach": "istr",
       "titel": "Beschränkte Steuerpflicht: Wen trifft sie, wann beginnt sie?",
       "insights": {
-        "reach": 33,
-        "views": 50,
+        "reach": 35,
+        "views": 52,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 41,
-        "navigation_swipe_forward": 1,
+        "navigation": 43,
+        "navigation_swipe_forward": 2,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 28,
+        "navigation_tap_forward": 29,
         "navigation_tap_back": 6
       },
-      "insightsStand": "2026-10-01T12:44:26.750Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-01T14:45:43.853Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-09-30",
