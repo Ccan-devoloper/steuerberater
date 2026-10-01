@@ -6809,19 +6809,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 5,
-        "saved": 0,
+        "reach": 57,
+        "saved": 1,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 20,
-        "ig_reels_avg_watch_time": 3367,
-        "ig_reels_video_view_total_time": 43777,
-        "reels_skip_rate": 66.7
+        "total_interactions": 2,
+        "views": 78,
+        "ig_reels_avg_watch_time": 5178,
+        "ig_reels_video_view_total_time": 310689,
+        "reels_skip_rate": 65.6
       },
-      "insightsStand": "2026-10-01T18:36:18.660Z",
-      "insightsAlterStunden": 0.9
+      "insightsStand": "2026-10-01T20:43:53.084Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-01",
