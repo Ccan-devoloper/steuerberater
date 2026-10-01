@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-01T08:43:43.833Z",
+  "stand": "2026-10-01T09:44:21.853Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6233,6 +6233,20 @@
           "ig_reels_avg_watch_time": 14615,
           "ig_reels_video_view_total_time": 950006,
           "reels_skip_rate": 0
+        },
+        {
+          "stand": "2026-10-01T09:44:19.672Z",
+          "alterStunden": 119.5,
+          "reach": 63,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 88,
+          "ig_reels_avg_watch_time": 14202,
+          "ig_reels_video_view_total_time": 1008373,
+          "reels_skip_rate": 42.2
         }
       ]
     },
@@ -9396,6 +9410,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-01T09:44:19.672Z",
+          "alterStunden": 22,
+          "reach": 51,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -9529,6 +9555,23 @@
           "profile_activity": 0,
           "navigation": 38,
           "navigation_tap_forward": 29,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-01T09:44:17.480Z",
+          "alterStunden": 21,
+          "reach": 35,
+          "views": 45,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 43,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 33,
           "navigation_tap_exit": 8,
           "navigation_swipe_forward": 1
         }
@@ -9737,6 +9780,20 @@
           "ig_reels_avg_watch_time": 10000,
           "ig_reels_video_view_total_time": 700050,
           "reels_skip_rate": 58.2
+        },
+        {
+          "stand": "2026-10-01T09:44:19.672Z",
+          "alterStunden": 16.7,
+          "reach": 72,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 92,
+          "ig_reels_avg_watch_time": 9522,
+          "ig_reels_video_view_total_time": 714214,
+          "reels_skip_rate": 60
         }
       ]
     },
@@ -9877,6 +9934,34 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "17867520999659549": {
+      "art": "story",
+      "datum": "2026-10-01",
+      "titel": "Wann entsteht beim Anteilstausch ein…",
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-01T07:47:42.691Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-01T09:44:17.480Z",
+          "alterStunden": 1.9,
+          "reach": 11,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_forward": 7,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 1
         }
       ]
     }
@@ -10479,6 +10564,11 @@
     },
     {
       "stand": "2026-10-01T08:43:43.833Z",
+      "follower": 100,
+      "medien": 76
+    },
+    {
+      "stand": "2026-10-01T09:44:21.853Z",
       "follower": 100,
       "medien": 76
     }
