@@ -6695,6 +6695,18 @@
       },
       "insightsStand": "2026-10-01T09:44:17.480Z",
       "insightsAlterStunden": 1.9
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s6",
+      "medienId": "17873100459637827",
+      "veroeffentlicht": "2026-10-01T10:43:49.292Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-modul-istr-istr1-05",
+      "fach": "istr",
+      "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht"
     }
   ],
   "fachZaehler": {

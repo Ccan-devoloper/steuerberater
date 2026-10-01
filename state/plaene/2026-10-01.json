@@ -73,8 +73,9 @@
       "zeit": "11:59",
       "art": "norm",
       "themaId": "istr-modul-istr-istr1-05",
-      "status": "sendet",
-      "sendeversuch": "2026-10-01T10:43:39.793Z"
+      "status": "veroeffentlicht",
+      "medienId": "17873100459637827",
+      "veroeffentlicht": "2026-10-01T10:43:49.291Z"
     },
     {
       "slot": "s7",
