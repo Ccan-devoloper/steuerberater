@@ -6538,6 +6538,18 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s4",
+      "medienId": "17971375080160191",
+      "veroeffentlicht": "2026-10-01T05:45:30.021Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-k3-3",
+      "fach": "persg",
+      "titel": "Wo wird Sonderbetriebsvermögen abgebildet?"
     }
   ],
   "fachZaehler": {

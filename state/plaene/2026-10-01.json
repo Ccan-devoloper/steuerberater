@@ -44,8 +44,9 @@
       "zeit": "07:10",
       "art": "frage",
       "themaId": "persg-quiz-k3-3",
-      "status": "sendet",
-      "sendeversuch": "2026-10-01T05:45:20.373Z"
+      "status": "veroeffentlicht",
+      "medienId": "17971375080160191",
+      "veroeffentlicht": "2026-10-01T05:45:30.021Z"
     },
     {
       "slot": "s5",
