@@ -6788,6 +6788,18 @@
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s9",
+      "medienId": "18097896644098441",
+      "veroeffentlicht": "2026-10-01T17:45:14.133Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-aufb-istr-gh-3-12",
+      "fach": "istr",
+      "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?"
     }
   ],
   "fachZaehler": {
