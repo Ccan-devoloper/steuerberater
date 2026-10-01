@@ -6587,6 +6587,28 @@
       "thema": null,
       "fach": "kst",
       "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste…"
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "b2",
+      "medienId": "18033538871665076",
+      "veroeffentlicht": "2026-10-01T07:47:31.466Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "09:30",
+      "stunde": 9,
+      "format": "schema",
+      "thema": "umwst-aufb-umw-2-52",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -6599,7 +6621,7 @@
     "erbst": 3,
     "mindset": 2,
     "est": 1,
-    "umwst": 1
+    "umwst": 2
   },
   "nachrichten": [],
   "postfach": [],
