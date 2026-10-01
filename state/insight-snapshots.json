@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-01T15:47:25.851Z",
+  "stand": "2026-10-01T16:44:11.335Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -10158,6 +10158,21 @@
           "profile_activity": 0,
           "navigation": 17,
           "navigation_tap_forward": 17
+        },
+        {
+          "stand": "2026-10-01T16:44:07.322Z",
+          "alterStunden": 11,
+          "reach": 24,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 23
         }
       ]
     },
@@ -10202,6 +10217,22 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 17,
           "navigation_tap_exit": 1
+        },
+        {
+          "stand": "2026-10-01T16:44:07.322Z",
+          "alterStunden": 11,
+          "reach": 24,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 22,
+          "navigation_tap_exit": 2
         }
       ]
     },
@@ -10245,6 +10276,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 2
+        },
+        {
+          "stand": "2026-10-01T16:44:07.322Z",
+          "alterStunden": 11,
+          "reach": 23,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 19,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -11053,6 +11101,11 @@
     },
     {
       "stand": "2026-10-01T15:47:25.851Z",
+      "follower": 101,
+      "medien": 76
+    },
+    {
+      "stand": "2026-10-01T16:44:11.335Z",
       "follower": 101,
       "medien": 76
     }
