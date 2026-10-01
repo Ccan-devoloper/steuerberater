@@ -6723,6 +6723,18 @@
       },
       "insightsStand": "2026-10-01T11:44:27.221Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s7",
+      "medienId": "18117170728989852",
+      "veroeffentlicht": "2026-10-01T12:44:25.582Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": null,
+      "titel": "Tage bis zum Examen"
     }
   ],
   "fachZaehler": {
