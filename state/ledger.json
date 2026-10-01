@@ -6562,6 +6562,18 @@
       "thema": "persg-quiz-k3-3",
       "fach": "persg",
       "titel": "Sonderbilanz"
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "s1",
+      "medienId": "18129735406765100",
+      "veroeffentlicht": "2026-10-01T05:45:57.563Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste…"
     }
   ],
   "fachZaehler": {

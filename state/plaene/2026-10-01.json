@@ -62,8 +62,9 @@
       "zeit": "07:00",
       "art": "teaser",
       "beitragSlot": "b1",
-      "status": "sendet",
-      "sendeversuch": "2026-10-01T05:45:47.673Z"
+      "status": "veroeffentlicht",
+      "medienId": "18129735406765100",
+      "veroeffentlicht": "2026-10-01T05:45:57.563Z"
     },
     {
       "slot": "s6",
