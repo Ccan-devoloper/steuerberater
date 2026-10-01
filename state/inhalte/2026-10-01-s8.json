@@ -1,0 +1,24 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-aufb-istr-gh-3-04",
+  "quellen": [
+    "§ 8 AO",
+    "§ 9 AO",
+    "Themenpool: istr-aufb-istr-gh-3-04"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Klausurtipp",
+  "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?",
+  "text": "Stelle fest, ob im Inland eine zum Wohnen geeignete Unterkunft vorhanden ist; Größe und Komfort spielen keine Rolle.",
+  "liveVorrangAktiv": true
+}

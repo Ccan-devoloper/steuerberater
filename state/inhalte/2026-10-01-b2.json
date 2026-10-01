@@ -1,0 +1,99 @@
+{
+  "format": "schema",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-52",
+  "slug": "2026-10-01-b2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+      "coverBadge": "Klausurschema",
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Betroffen sind Einbringende, bei denen ein Gewinn aus den eingebrachten Anteilen im Zeitpunkt der Einbringung nicht nach § 8b Abs. 2 KStG steuerfrei gewesen wäre, typischerweise natürliche Personen; gleichgültig ist, ob die Anteile nach § 21 oder mit einem Betrieb nach § 20 UmwStG eingebracht wurden.",
+        "Veräußert die übernehmende Gesellschaft die eingebrachten Anteile innerhalb von sieben Jahren, wird beim Einbringenden rückwirkend der Einbringungsgewinn II versteuert."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Klären, ob Anteile unter dem gemeinen Wert eingebracht wurden und ob der Einbringende nicht nach § 8b Abs. 2 KStG begünstigt ist."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Eine Veräußerung oder einen gleichgestellten Vorgang durch die übernehmende Gesellschaft innerhalb von sieben Jahren feststellen."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Bei Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "kurztitel": "Wann entsteht beim Anteilstausch ein…",
+  "coverBadge": "Klausurschema",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 22 Abs. 2 UmwStG",
+    "§ 8b Abs. 2 KStG",
+    "§ 21 Abs. 2 UmwStG",
+    "§ 22 Abs. 1 UmwStG",
+    "§ 21 Abs. 1 UmwStG",
+    "§ 21 UmwStG",
+    "§ 20 Abs. 1 UmwStG",
+    "§ 17 EStG",
+    "§ 16 EStG",
+    "Themenpool: umwst-aufb-umw-2-52"
+  ],
+  "coverRegie": {
+    "thema": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/03-mia-kranz.jpg",
+      "assets/referenzen/charaktere/04-timo-kranz.jpg"
+    ],
+    "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-01-b2-umwst-aufb-umw-2-52-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

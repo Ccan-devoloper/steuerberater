@@ -1,0 +1,99 @@
+{
+  "format": "spickzettel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-6-02",
+  "slug": "2026-10-01-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Gehen innerhalb von fünf Jahren mittelbar oder direkt mehr als 50 % der Anteile oder Stimmrechte auf einen Erwerber oder ihm nahestehende Personen über, entfallen die bis dahin ungenutzten Verluste lückenlos (§ 8c Abs. 1 Satz 1 KStG).",
+        "Als ein Erwerber gilt auch eine Gruppe mit gleichgerichteten Interessen; erfasst werden auch mittelbare Übertragungen über zwischengeschaltete Gesellschaften."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Alle Übertragungen der letzten fünf Jahre auf denselben Erwerber bzw. Erwerberkreis zusammenrechnen und mit der 50-%-Grenze gegenüberstellen."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Mittelbare Erwerbe über übergeordnete Gesellschaften sowie Kapitalerhöhungen und Umwandlungen als gleichgestellte Vorgänge einbeziehen."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Bei Mehr als die Hälfte übertragen: Wann gehen Verluste unter?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "kurztitel": "Mehr als die Hälfte übertragen: Wann gehen Verluste…",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 8c Abs. 1 S. 1 bis 4 KStG",
+    "§ 8d KStG",
+    "§ 8 Abs. 1 KStG",
+    "§ 10d Abs. 2 und 4 EStG",
+    "§ 10a S. 6 und 10 GewStG",
+    "§ 21 UmwStG",
+    "R 10a.1 GewStR",
+    "H 10a.3 GewStR",
+    "BMF vom 28.11.2017 (DStR 2017, 2670)",
+    "Themenpool: kst-aufb-kst-ks-6-02"
+  ],
+  "coverRegie": {
+    "thema": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/01-holger-kranz.jpg",
+      "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
+    ],
+    "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-01-b1-kst-aufb-kst-ks-6-02-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

@@ -1,0 +1,25 @@
+{
+  "slot": "s9",
+  "art": "tipp",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-aufb-istr-gh-3-12",
+  "quellen": [
+    "§ 49 Abs. 2 EStG",
+    "§ 17 EStG",
+    "§ 49 EStG",
+    "Themenpool: istr-aufb-istr-gh-3-12"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Klausurtipp",
+  "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
+  "text": "Prüfe zuerst die Einkunftsart bei ganzheitlicher Betrachtung einschließlich der Auslandsmerkmale.",
+  "liveVorrangAktiv": true
+}

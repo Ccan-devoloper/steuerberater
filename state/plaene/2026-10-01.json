@@ -1,0 +1,104 @@
+{
+  "datum": "2026-10-01",
+  "erzeugt": "2026-10-01T05:44:31.981Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:00",
+      "format": "spickzettel",
+      "themaId": "kst-aufb-kst-ks-6-02",
+      "themaTitel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "09:30",
+      "format": "schema",
+      "themaId": "umwst-aufb-umw-2-52",
+      "themaTitel": "Wann entsteht beim Anteilstausch ein Einbringungsgewinn II?",
+      "fach": "umwst",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "erbst-modul-erbst-513",
+      "themaTitel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
+      "fach": "erbst",
+      "klausur": 1,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:10",
+      "art": "frage",
+      "themaId": "persg-quiz-k3-3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:10",
+      "art": "antwort",
+      "themaId": "persg-quiz-k3-3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "07:00",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "11:59",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr1-05",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:22",
+      "art": "countdown",
+      "tageBisExamen": 5,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "09:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "16:58",
+      "art": "tipp",
+      "themaId": "istr-aufb-istr-gh-3-04",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:07",
+      "art": "tipp",
+      "themaId": "istr-aufb-istr-gh-3-12",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    }
+  ]
+}

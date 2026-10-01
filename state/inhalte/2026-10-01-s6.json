@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-modul-istr-istr1-05",
+  "quellen": [
+    "§ 1 Abs. 3 EStG",
+    "§ 49 EStG",
+    "§ 32a Abs. 1 EStG",
+    "§ 50 Abs. 1 EStG",
+    "Themenpool: istr-modul-istr-istr1-05"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 1 Abs. 3 EStG",
+  "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
+  "text": "§ 1 Abs. 3 EStG vor § 1 Abs. 4 untersuchen, wenn der Sachverhalt einen Antrag ermöglicht. 90-%-Test und alternative Grundfreibetragsgrenze rechnerisch sauber trennen.",
+  "liveVorrangAktiv": true
+}

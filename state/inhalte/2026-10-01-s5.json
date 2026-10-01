@@ -1,0 +1,28 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-k3-3",
+  "quellen": [
+    "Themenpool: persg-quiz-k3-3"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "Sonderbilanz",
+  "optionen": [
+    "Gesamthandsbilanz",
+    "Sonderbilanz",
+    "nur außerbilanziell"
+  ],
+  "richtig": 1,
+  "text": "Sonderbetriebsvermögen gehört in die Sonderbilanz des Mitunternehmers.",
+  "liveVorrangAktiv": true
+}
