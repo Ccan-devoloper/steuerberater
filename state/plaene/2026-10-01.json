@@ -37,7 +37,8 @@
       "fach": "erbst",
       "klausur": 1,
       "lang": false,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-01T17:44:08.900Z"
     }
   ],
   "stories": [
