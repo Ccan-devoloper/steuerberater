@@ -6516,12 +6516,34 @@
       },
       "insightsStand": "2026-09-30T18:44:22.963Z",
       "insightsAlterStunden": 1
+    },
+    {
+      "datum": "2026-10-01",
+      "slot": "b1",
+      "medienId": "18023360069919618",
+      "veroeffentlicht": "2026-10-01T05:45:17.488Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "07:00",
+      "stunde": 7,
+      "format": "spickzettel",
+      "thema": "kst-aufb-kst-ks-6-02",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Mehr als die Hälfte übertragen: Wann gehen Verluste unter?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 8,
     "ust": 8,
-    "kst": 7,
+    "kst": 8,
     "ao": 15,
     "bilanz": 17,
     "istr": 14,
