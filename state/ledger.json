@@ -6475,21 +6475,22 @@
       "fach": "umwst",
       "titel": "Welche Anteile nehmen am Übernahmeergebnis teil?",
       "insights": {
-        "reach": 31,
-        "views": 48,
+        "reach": 32,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 44,
+        "navigation": 45,
+        "navigation_swipe_forward": 1,
         "navigation_tap_forward": 35,
         "navigation_tap_exit": 2,
         "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-01T10:43:50.435Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-01T13:45:08.343Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-09-30",
@@ -6517,8 +6518,8 @@
         "navigation_tap_exit": 13,
         "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-01T10:43:50.435Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-10-01T13:45:08.343Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-10-01",
@@ -6542,17 +6543,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 32,
-        "saved": 0,
+        "reach": 38,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T10:43:54.393Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-01T13:45:13.729Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-10-01",
@@ -6683,21 +6684,21 @@
       "fach": "umwst",
       "titel": "Wann entsteht beim Anteilstausch ein…",
       "insights": {
-        "reach": 11,
-        "views": 14,
+        "reach": 20,
+        "views": 26,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 11,
-        "navigation_tap_forward": 7,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 1
+        "navigation": 24,
+        "navigation_tap_forward": 17,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-01T09:44:17.480Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-01T13:45:08.343Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-01",
@@ -6734,7 +6735,20 @@
       "storyArt": "countdown",
       "thema": null,
       "fach": null,
-      "titel": "Tage bis zum Examen"
+      "titel": "Tage bis zum Examen",
+      "insights": {
+        "reach": 0,
+        "views": 7,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 0
+      },
+      "insightsStand": "2026-10-01T13:45:08.343Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {
