@@ -1,71 +1,24 @@
 {
-  "schemaVersion":17,
-  "updatedAt":"2026-09-30T20:00:07Z",
-  "timestampBasis":"Observation after actual PR267 merge, successful production/Pages jobs and exact status-file read-back; commit records actual save time. Independent postmerge bot observation is separately scoped.",
-  "sourceId":"persg-facts","sourceTitle":"B-S25-PersG-fact sheets-(Horst)-0425.pdf",
-  "driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5","sourceBytes":17436897,
-  "sourceSha256":"28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67","physicalPages":24,
-  "legalReview":false,"sourceComplete":false,"packageComplete":true,
-  "completionBoundary":"Bounded native release of readable PDF15–16, with source defects labelled. Only the sheet26-to27 sentence continuation is newly resolved. Sixteen processed pages do not certify complete source or whole-project coverage.",
-  "lease":null,"releasedLeaseOwner":"interactive-persg-pdf15-16-20260930-1920",
-  "historicalCheckpoints":[
-    {"commit":"26b8116e41bc4871ec2249948a101a9ddcddf2a7","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"c6d0a97b8020aa565e5959a6e759ef71cbc5af23","contents":"Complete immutable PR261–266 source/page/test/failure/manual/merge/deployment history and all earlier fixed references. Prior original uncertainties preserved."},
-    {"commit":"dbbd133c930bb56d88820eef6a9e8f013d0aa817","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"166edbb32398b5c443642ddfc6fdf5b4e6bbc1b6","contents":"Fresh main/work/lease verification and bounded reservation before PDF15–16 review."},
-    {"commit":"ef64c7c3808d355a53f34f87d60c2951dc87b1a1","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"712a9e7748a7e60e2b7a903ed1354c6d13a6bad0","contents":"Full PDF15–16 review, source boundaries, continuation evidence, module comparison and local tests before CI. Historical pending fields are not current."},
-    {"commit":"e74e7fec8deaa3faa9d5428638a05bc003bf089c","path":"docs/endriss-persg-facts-p15-pruefnotizen.json","blobSha":"b5ec6201e7349585c56199f3908bece94ce88548","contents":"Actual enlarged-source Se-notation finding/correction and initial observations/local reruns, preserved unchanged."}
-  ],
-  "releasedPackages":[
-    {"pages":[1,2,3,4],"pullRequest":261,"deployed":true,"evidence":"historicalCheckpoints[0]"},
-    {"pages":[5,6],"pullRequest":262,"deployed":true,"evidence":"historicalCheckpoints[0]"},
-    {"pages":[7,8],"pullRequest":263,"deployed":true,"evidence":"historicalCheckpoints[0]"},
-    {"pages":[9,10],"pullRequest":264,"deployed":true,"evidence":"historicalCheckpoints[0]"},
-    {"pages":[11,12],"pullRequest":265,"deployed":true,"evidence":"historicalCheckpoints[0]"},
-    {"pages":[13,14],"pullRequest":266,"deployed":true,"evidence":"historicalCheckpoints[0]"},
-    {"pages":[15,16],"printedSheets":[27,28,29,30],"pullRequest":267,"mergeCommit":"906ea71308dc659db84ed59eab6d800f0845dc94","deploymentRun":36769010680,"deployed":true,"evidence":"currentPackage"}
-  ],
+  "schemaVersion":18,
+  "updatedAt":"2026-10-02T13:40:00Z",
+  "sourceId":"persg-facts",
+  "sourceTitle":"B-S25-PersG-fact sheets-(Horst)-0425.pdf",
+  "driveId":"179WkR77_ZOKvZAR4fEICG_IM7nXMYL-5",
+  "sourceBytes":17436897,
+  "sourceSha256":"28d8a41c60574a73de76381db08742f068faf7b912c414e8f271e09f420c2a67",
+  "physicalPages":24,
+  "legalReview":false,
+  "sourceComplete":false,
+  "packageComplete":false,
+  "historicalCheckpoints":[{"commit":"0e4e7a86968cdf74f5de5fd9f360a30f631f0e31","path":"docs/endriss-persg-facts-fortschritt.json","blobSha":"29d704218c7e8d884b623f5ca4f98c4d8a31ba9e","contents":"Complete immutable PR261–267 page/source/uncertainty/test/failure/manual-review/merge/deployment evidence and all earlier fixed history links. Preserved without reclassifying past observations."}],
   "nativePages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
   "visuallyReviewedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
   "releasedPages":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
   "remainingPages":[17,18,19,20,21,22,23,24],
-  "currentPackage":{
-    "pages":[15,16],"printedSheets":[27,28,29,30],"state":"bounded-native-package-merged-and-deployed; whole-source-partial; source-uncertainties-labelled",
-    "dataCommit":"c2a5fc75b4b12562511c09856e401aa7f6587a08","initialDataBlobSha":"846ac9ba2bb5faa4eb416b6fe9059bff9352b764",
-    "integrationCommit":"ef64c7c3808d355a53f34f87d60c2951dc87b1a1","sourceNotationCorrectionCommit":"e74e7fec8deaa3faa9d5428638a05bc003bf089c","finalDataBlobSha":"fc01b2f62a7fb44e43aa951297738fc4c939eb3d",
-    "sourceVerification":"Fresh connected Drive metadata matched attached/backing original of the same Drive identity, not an additional source. Independently verified17436897bytes/SHA256/24pages. Both whole original images15/16 and four enlarged sheets27–30 directly read and compared with native text; upside-down note30rotated/read and both formulas enlarged. No OCR, new original assets or personal delivery-watermark text published.",
-    "pageEvidence":[
-      {"page":15,"printedSheets":[27,28],"chapters":["persg-facts-27","persg-facts-28"],"review":"Exact getilgt continuation and independent private-overdraft note; blank area not filled. All exit columns, SBV graph/path alternatives, three payment alternatives, both original balances and AfA bracket/arrow. Missing closing parenthesis retained.","moduleTargets":[30,33,34,39,40,23]},
-      {"page":16,"printedSheets":[29,30],"chapters":["persg-facts-29","persg-facts-30"],"review":"Original70k/100kexit calculations, reserve ratio, source-caption vorher, struck sbA and dual-loss arrows. Original20kexit/30kloss, book-value ratio, both balances, crossed exclusions and AfA20/10k. Inverted warning read after rotation. Sheet30SBVnote stops at zusätzlich; not completed from29. OriginalFc29 retained. Final enlarged formula check retained literal Se rather than normalized sigma; no amounts or conclusions changed.","moduleTargets":[40,41,42]}
-    ],
-    "resolvedSourceContinuations":[{"fromPage":14,"fromPrintedSheet":26,"toPage":15,"toPrintedSheet":27,"originalEnding":"wird mit Zuzahlung","continuation":"getilgt","resolved":true,"method":"Direct next-page evidence; earlier chapter26 remains byte-for-byte unchanged and page-bound."}],
-    "sourceUncertainties":[
-      {"page":16,"printedSheet":30,"location":"yellow SBV note","visibleEnding":"Stille Reserven aus SBV sind zusätzlich","type":"incomplete-original-note","resolved":false,"action":"No word borrowed from differently cropped sheet29note."},
-      {"page":15,"printedSheet":28,"location":"SBV alternative b)","type":"missing-closing-parenthesis","resolved":false,"action":"Original open parenthesis retained, no punctuation repair."}
-    ],
-    "priorSourceUncertainties":"All earlier incomplete references, covered digits and source differences remain explicit. Only sheet26-to27sentence continuation newly resolved by direct evidence.",
-    "additionalChapters":4,"additionalTables":20,"totalChapters":31,"totalTables":121,
-    "allModuleTargets":[1,2,3,4,6,7,8,9,10,11,12,13,14,20,22,23,25,26,24,27,29,30,31,37,32,33,34,36,39,40,41,42],"newModuleTargets":[39,40,41,42],
-    "duplicateHandling":"Existing modules23/30/33/34/39–42 read, including actual tag5registration. Module40/fall18shares opening120000/40000but short solution does not replace source-specific tables/AfA. Module41larger6bcase and module42different130000/110000Sachwertcase not imported as solutions. Modules/state untouched. Test initialization registers tag5like actual campus; no runtime module data changed.",
-    "previousChaptersSha256":"4773954a1babd28a170a205e0f3f0006f0affe3a8dbddf60b5d68ba2b6ac0d2f","cumulativeChaptersSha256":"80a0c8f14d4df51a4e47250f87d959cbbcb0eb39daf0f8412555fa0563b892a2",
-    "files":["src/data/endriss-persg-facts-27-30.js","src/data/endriss-persg-facts.js","tools/endriss/assert-persg-facts-27-30.mjs","tools/pruefen-endriss-persg-facts.mjs","tools/pruefen-endriss-persg-viewport.mjs"],
-    "ui":"Unterlagen-Nachträge -> Personengesellschaften -> PersG Fact Sheets; Klausur3 -> Personengesellschaften -> Hausaufgaben PersG -> Fact Sheets (Horst) öffnen. Derived16/24boundary survives absent/incorrect image index. All32existing module clicks at1280/390, seeded progress unchanged. Existing table/source-line renderer/CSS unchanged; all strict old/new table, keyboard and final-cell tests retained.",
-    "originalAssetsChanged":false,"learnerProgressChanged":false,"ownOriginalSolutionsAdded":false,
-    "tests":{
-      "testedHead":"e74e7fec8deaa3faa9d5428638a05bc003bf089c","testedPRMerge":"4b3cbe46ebb3c6d661ec7d0c7483a50556d28a23",
-      "sourceAndBrowser":{"run":36767513420,"job":110065288650,"conclusion":"success","checks":["complete-checkout production build","source/import/native/Horst2/Notfallbuch/FGO regression","sixteen reviewed-page image hashes","every native text/table cell and independent fixed fixtures","unchanged prior27chapter hash","actual Chromium1280/390 navigation/search/focus","32real module clicks and preserved seeded learner progress","all old/new tables/keyboard/rightmost columns/one-line amounts/unobscured final cells","36new and92prior explicit native source/annotation newline positions","all eight original-source readers and missing/empty/partial-index fallbacks"]},
-      "pullRequestValidate":{"run":36767513371,"websiteJob":110065288157,"botJob":110065288450,"website":"success","bot":"success","conclusion":"success"},
-      "mainValidate":{"run":36769010549,"websiteJob":110070324404,"botJob":110070323907,"website":"success","bot":"in_progress-at-last-observation","observationNote":"Independent postmerge bot was still in ffmpeg installation; do not infer its success from website status. Final PR bot already passed. Reread this specific run before assigning a final postmerge bot result.","validatedSha":"906ea71308dc659db84ed59eab6d800f0845dc94","statusBlobSha":"b30b542285b7d51a05ec806a931b3b89e2d3cf76","statusFileReadBack":true},
-      "firstCompletePass":{"head":"ef64c7c3808d355a53f34f87d60c2951dc87b1a1","testedPRMerge":"19bf513cff54b011ad3db1c9a28e40d5f63c95c4","sourceAndBrowserRun":36766797153,"validateRun":36766796964,"conclusion":"success","artifact":11123260134,"bytes":9247843,"sha256":"87e9f3e4c3792fe6a1059abc148cf1a98ef08c1ea35770006ca1012781af5772","downloadedAndHashVerified":true,"reportsRead":true,"manualDesktopTables":20,"sourceCorrection":"Both literal Se denominator abbreviations corrected from normalized sigma in e74e7fec. Manual source finding, not failed CI."},
-      "browserEvidence":{"artifact":11121792680,"bytes":9239091,"sha256":"ee71962f7b65d0323fad24ac414c767f78fe87ba146691a368ae5f32d92777f8","downloadedAndHashVerified":true,"reports":["endriss-persg-facts/report.json","endriss-persg-facts/viewport-report.json","endriss-browser/report.json"],"allReportsReadAndPassed":true,"reportCheckCounts":[27,50,21],"nativeNewlinePositions":128,"newNativeNewlinePositions":36,"newlineScope":"Explicit native source/annotation breaks, not a claim that every break is a physical handwritten source line.","manualScreenshotCount":80,"manualMethod":"All20new desktop tables,40mobile left/right fragments,18multiline source/annotation paragraphs and complete sparse27chapter on both widths directly viewed in10unscaled labelled contact sheets. No navigation hidden or new layout defect found. Mobile edge fragments are not full wide tables; middle mobile columns and single-line paragraphs without separate captures were not independently visually inspected. All full texts and column access tested separately.","filenamePattern":"persg-facts-{28,29,30}-table-{i}-{1280-left,390-left,390-right}.png; i28=0..6,i29=0..6,i30=0..5; source-lines28=0,29=0..2,30=0..4 at1280/390; sparse27 at1280/390"},
-      "localSourceSSR":"passed before and after correction: fixed fixtures,32targets,31chapters/121tables,every rendered cell,prior27chapter hash",
-      "localNativeSSR":"passed:8sources/115source pages/111chapters/214tables,not PersG-only","localNotfallbuch":"passed","localViteBundle":"passed with existing chunk warnings,not a complete production build",
-      "localDependencies":"Fresh authenticated same-head artifact11117746982,SHA256f5e5b65f35adc09cb6eecc15b4a4d78bb984d5860cadb519bc51eb98e63122d6. All24installed-package versions/integrities from hidden lock match unchanged root package-lock. Artifact has no separate root lock: no false byte-equality claim. No new npm-ci/install or upgrade claimed.",
-      "localFullProduction":"not run/asserted in small source snapshot without public assets; full CI production passed independently","localBrowser":"not run locally; real evidence from complete-checkout Actions production preview",
-      "failedCIRunsThisPackage":[],"priorFailures":"All real earlier PR263 and local installation failures remain unchanged in immutable history; no old failure relabelled successful.","securityAudit":"No clean dependency audit inferred from content checks. Existing npm/chunk warnings remain; no upgrades or purchases."
-    },
-    "pullRequest":267,"merged":true,"mergedAt":"2026-09-30T19:55:18Z","mergeCommit":"906ea71308dc659db84ed59eab6d800f0845dc94","deployed":true,
-    "deployment":{"run":36769010680,"buildJob":110070324784,"deployJob":110070827090,"conclusion":"success","deployedCommit":"906ea71308dc659db84ed59eab6d800f0845dc94","statusFile":".github/deploy-last.json","statusBlobSha":"cbebf53885fe546e298e94a276e5b843e3f88de8","statusFileReadBack":true,"observedMain":"eb360225ed6cf2ab462bc0849ed315a207f63a5b","pageUrl":"https://ccan-devoloper.github.io/steuerberater/"}
-  },
-  "workBranchSynchronizedTo":"eb360225ed6cf2ab462bc0849ed315a207f63a5b",
+  "resynchronization":{"previousWork":"0e4e7a86968cdf74f5de5fd9f360a30f631f0e31","main":"f1625a0523ab216e354047b781ec6046927241a8","method":"Two-parent non-force merge of disjoint changes: all latest main files retained, four newer work-branch checkpoints preserved. New Instagram workflow and social command remain untouched.","allCheckpointLeasesBeforeStart":null,"openWorkBranchPullRequests":0,"sourceSnapshotArtifact":11123084492,"sourceSnapshotSha256":"a1ec1566e4d6a3d92aa1e73919d9e2c2f044e510ac0d9482efda70cda447e58a"},
+  "priorMainBotReadBack":{"run":36769010549,"job":110070323907,"conclusion":"success","website":"success","allReturnedStepsCompleted":true,"observationDate":"2026-10-02","note":"Previously pending post-PR267 bot is now actually confirmed successful; no retry needed."},
+  "lease":{"owner":"interactive-persg-pdf17-18-20261002-1340","acquiredAt":"2026-10-02T13:40:00Z","expiresAt":"2026-10-02T14:40:00Z","scope":"Original PDF17–18; native continuation/adapter; source and viewport tests; source/global checkpoints. Preserve all prior chapters, learner state, original images and foreign changes."},
+  "currentPackage":{"pages":[17,18],"state":"reserved-before-direct-source-review","merged":false,"deployed":false,"tests":"not-yet-run"},
   "blockers":[],
-  "next":"First reread independent main-bot run36769010549 if its final result is not yet checkpointed. Then resume ORIGINAL PDF17 after fresh refs/global/source checkpoints and a new bounded lease. Do not repeat published PDF1–16. Read next actual source before claiming second below-book-value alternative or other continuation. PDF17–24 remain open; sheet30note and prior original defects stay labelled. Only sheet26-to27sentence newly resolved by direct evidence. A5partial; completed restgroup metric6/12=50percent is distinct from16/24processed pages or whole-campus completeness."
+  "next":"Read original PDF17–18 directly and verify their actual printed labels and source identity. Compare with existing modules, preserve uncertainty and earlier 31-chapter hash80a0c8f14d4df51a4e47250f87d959cbbcb0eb39daf0f8412555fa0563b892a2. Commit transcription early, then integrate/test/build/browser-review. No release before source-bound checks pass and exact deployment is read back. PDF19–24 remain outside this bounded package."
 }
