@@ -1,0 +1,103 @@
+{
+  "format": "klausurtechnik",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-3",
+  "slug": "2026-10-02-b4",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "coverBadge": null,
+      "coverBildAuslassen": false,
+      "icon": "hauptbuch"
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "§ 6 Abs. 5 S. 3 Nr. 1–3 EStG erfassen den Weg aus eigenem Betriebsvermögen, aus Sonderbetriebsvermögen und zwischen Sonderbetriebsvermögen – nicht den direkten Weg zwischen zwei Gesamthandsvermögen.",
+        "Diese Lücke hat das BVerfG (2 BvL 8/13) für identisch beteiligte Schwester-PersG beanstandet. Das JStG 2024 hat sie mit der neuen Nr. 4 geschlossen."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Weg bestimmen: direkt von Gesamthandsvermögen zu Gesamthandsvermögen oder über Sonderbetriebsvermögen (Nr. 2)?"
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Beteiligungsidentität prüfen: dieselben Mitunternehmer mit denselben Quoten an beiden Gesellschaften."
+        },
+        {
+          "titel": "3. Schritt",
+          "text": "Unentgeltlich und identisch beteiligt? Dann zwingend Buchwert nach § 6 Abs. 5 S. 3 Nr. 4 EStG – in allen offenen Fällen (§ 52 Abs. 12 S. 15 EStG)."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Identische Quoten und unentgeltlich: Buchwert nach Nr. 4. Sonst greift Nr. 4 nicht: Unentgeltlich liegt eine Entnahme zum Teilwert vor, gegen Entgelt eine Veräußerung (ggf. § 6b EStG)."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typische Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?\n\nLange Zeit nein: § 6 Abs. 5 S. 3 EStG kannte keinen direkten Weg von Gesamthandsvermögen zu Gesamthandsvermögen. Das BVerfG (2 BvL 8/13) hat diesen Ausschluss für beteiligungsidentische Schwester-PersG als Verstoß gegen Art. 3 Abs. 1 GG beanstandet.\n\nSeit dem JStG 2024 regelt § 6 Abs. 5 S. 3 Nr. 4 EStG genau diesen Fall: Wird ein Wirtschaftsgut unentgeltlich zwischen den Gesamthandsvermögen von Schwester-PersG übertragen, an denen dieselben Mitunternehmer im selben Verhältnis beteiligt sind, ist zwingend der Buchwert anzusetzen. Anwendbar in allen offenen Fällen (§ 52 Abs. 12 S. 15 EStG).\n\nBei abweichenden Beteiligungsquoten greift Nr. 4 nicht. Dann ist die unentgeltliche Übertragung eine Entnahme zum Teilwert (BFH I R 72/08). Soweit ein Entgelt fließt, liegt eine Veräußerung vor, gegebenenfalls mit § 6b EStG.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "kurztitel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+  "coverBadge": null,
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 6 Abs. 5 S. 3 Nr. 1 bis 4 EStG",
+    "§ 52 Abs. 12 S. 15 EStG",
+    "§ 6b EStG",
+    "Art. 3 Abs. 1 GG",
+    "BVerfG vom 28.11.2023 – 2 BvL 8/13",
+    "BFH vom 25.11.2009 – I R 72/08",
+    "§ 6 Abs. 1 Nr. 4 und Nr. 5 EStG",
+    "Themenpool: persg-aufb-persg-melzer-2-3"
+  ],
+  "coverRegie": {
+    "thema": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/06-kalle.jpg",
+      "assets/referenzen/charaktere/01-holger-kranz.jpg"
+    ],
+    "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-02-b1-persg-aufb-persg-melzer-2-3-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true,
+  "neupostVon": "b1"
+}
