@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Erkennen, wann der Quellensteuerabzug trotz materieller Entlastung zuerst vorzunehmen ist.",
-            "Freistellungsbescheinigung und Erstattungsweg des § 50c als unterschiedliche Verfahrenswege einordnen."
+            "Grundsatz (§ 50c Abs. 1 EStG): Der Steuerabzug ist zunächst voll vorzunehmen, auch wenn ein DBA, § 43b oder § 50g EStG den deutschen Anspruch begrenzt.",
+            "Entlastet wird beim Bundeszentralamt für Steuern: vorab per Freistellungsbescheinigung (§ 50c Abs. 2 EStG) oder nachträglich per Erstattungsantrag (§ 50c Abs. 3 EStG)."
           ]
         },
         {
@@ -139,18 +139,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "1. Innerstaatlichen Steuerabzug bestimmen (§§ 43 ff. oder § 50a)."
+              "text": "Innerstaatlichen Steuerabzug bestimmen: Kapitalertragsteuer (§§ 43 ff. EStG) oder Abzug nach § 50a EStG."
             },
             {
               "titel": "2. Schritt",
-              "text": "2. untersuchen, ob DBA, § 43b, § 50g oder eine andere Entlastungsnorm den deutschen Anspruch reduziert."
+              "text": "Prüfen, ob ein DBA, § 43b oder § 50g EStG den deutschen Anspruch mindert. Dann klären: Liegt eine Freistellungsbescheinigung vor, oder bleibt nur die Erstattung?"
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei § 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Erst abziehen, dann entlasten: Ohne Freistellungsbescheinigung behält der Schuldner die volle Abzugsteuer ein, und der Gläubiger holt den Mehrbetrag per Erstattungsantrag beim Bundeszentralamt für Steuern zurück."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "§ 50c EStG: Die Abzugsteuer wird zunächst voll einbehalten. Die Entlastung nach DBA, § 43b oder § 50g EStG gibt es nur per Freistellungsbescheinigung vorab oder per Erstattung beim Bundeszentralamt für Steuern.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -184,6 +184,10 @@
         "§ 50g EStG",
         "DBA",
         "DBA / § 43b / § 50g EStG",
+        "§ 50c Abs. 1 EStG",
+        "§ 50c Abs. 2 EStG",
+        "§ 50c Abs. 3 EStG",
+        "§ 50a EStG",
         "Themenpool: istr-modul-istr-istr3-03"
       ],
       "coverRegie": {
@@ -226,7 +230,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Garantie- und Gewährleistungspflichten führen nach § 249 Abs. 1 Satz 1 HGB zu einer Rückstellung für ungewisse Verbindlichkeiten, die über § 5 Abs. 1 Satz 1 EStG auch steuerlich anzusetzen ist.",
-            "Nach R 5.7 Abs. 5 EStR sind Einzelrückstellungen für bis zur Bilanzaufstellung bekannte Fälle und Pauschalrückstellungen auf Grundlage betrieblicher oder branchentypischer Erfahrungswerte möglich."
+            "Nach H 5.7 (5) EStH sind Einzelrückstellungen für bis zur Bilanzaufstellung bekannte Fälle und Pauschalrückstellungen auf Grundlage betrieblicher oder branchentypischer Erfahrungswerte möglich."
           ]
         },
         {
@@ -239,14 +243,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Bekannte Einzelfälle getrennt aufnehmen und für den übrigen Bestand eine Pauschale anhand der eigenen Erfahrungen der Vergangenheit schätzen."
+              "text": "Bekannte Fälle einzeln erfassen, das übrige Risiko pauschal nach eigenen Erfahrungswerten schätzen (§ 6 Abs. 1 Nr. 3a Buchst. a EStG); abgelaufene Garantiezeit mindert die Pauschale."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Garantierückstellungen: einzeln, pauschal und richtig bewertet: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bekannte Garantiefälle einzeln, das restliche Risiko pauschal – bewertet nach den Erfahrungen deines Betriebs und gekürzt um bereits abgelaufene Garantiezeit."
         },
         {
           "art": "cta",
@@ -263,7 +267,7 @@
           ]
         }
       ],
-      "caption": "Garantierückstellungen: einzeln, pauschal und richtig bewertet: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Garantierückstellungen: Einzelrückstellung für bekannte Fälle, Pauschalrückstellung für das übrige Risiko, bewertet nach den Erfahrungen deines Betriebs (§ 249 Abs. 1 HGB, § 5 Abs. 1, § 6 Abs. 1 Nr. 3a EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -284,6 +288,8 @@
         "§ 5 Abs. 1 EStG",
         "§ 5 Abs. 6 EStG",
         "§ 6 Abs. 1 EStG",
+        "§ 6 Abs. 1 Nr. 3a EStG",
+        "H 5.7 (5) EStH",
         "Themenpool: bilanz-aufb-bil-melzer-12-05"
       ],
       "coverRegie": {
@@ -321,46 +327,49 @@
           "nummer": null,
           "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
           "unter": "Abgabenordnung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Änderungsbescheid zu einem bestandskräftigen Bescheid: nur die Änderung ist angreifbar.",
           "norm": "§ 351 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Ein bestandskräftiger Bescheid wird geändert, und du legst Einspruch ein. Wie weit reicht dein Angriff? § 351 Absatz 1 AO zieht die Grenze.",
           "marken": [
-            "Anwendungsbereich des § 351 Abs."
+            "Einspruch gegen Änderungsbescheid",
+            "§ 351 Abs. 1 AO"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Vorfrage: Einspruch gegen Änderungsbescheid? Vorbescheid wirksam + unanfechtbar?",
+          "titel": "Ändert der Bescheid einen unanfechtbaren Vorbescheid?",
           "text": null,
           "norm": "§ 351 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 351 Abs. 1 AO im Zusammenhang mit Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO.",
+          "sprecher": "Zuerst klärst du, ob der geänderte Bescheid wirksam und schon unanfechtbar war. Nur dann greift die Sperre: Der neue Bescheid ist nur angreifbar, soweit die Änderung reicht.",
           "marken": [
-            "Prüfpunkt 1"
+            "Vorbescheid bestandskräftig?",
+            "Nur die Änderung angreifbar"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 177 Abs. 1 AO",
+          "titel": "Fehler außerhalb der Änderung: nur Saldierung nach § 177 AO",
           "text": null,
-          "norm": "§ 177 Abs. 1 AO",
+          "norm": "§ 177 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 177 Abs. 1 AO im Zusammenhang mit Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO.",
+          "sprecher": "Andere Fehler zu deinen Gunsten bringst du nur über § 177 AO ein: Sie werden mit der Änderung verrechnet, höchstens bis zu deren Betrag. Mehr erreichst du nur, wenn eine eigene Korrekturnorm greift.",
           "marken": [
-            "Prüfpunkt 2"
+            "Saldieren nach § 177 AO",
+            "Obergrenze: Änderungsbetrag"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Wird ein bestandskräftiger Bescheid geändert, kann dein Einspruch höchstens die Änderung beseitigen. Mehr nur, wenn eine Korrekturvorschrift es erlaubt (§ 351 Abs. 1 AO).",
+          "sprecher": "Merke: Bei einem geänderten bestandskräftigen Bescheid ist die Änderung die Obergrenze deines Einspruchs. Darüber hinaus hilft nur eine eigene Korrekturnorm.",
           "marken": [
-            "Merksatz"
+            "Änderung ist die Obergrenze"
           ]
         },
         {
@@ -376,7 +385,7 @@
           ]
         }
       ],
-      "caption": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Einspruch gegen einen Bescheid, der einen bestandskräftigen Bescheid ändert: Anfechtbar ist er nur, soweit die Änderung reicht (§ 351 Abs. 1 AO). Andere Fehler zu deinen Gunsten kannst du über § 177 AO bis zur Höhe der Änderung gegenrechnen.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -433,12 +442,12 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Ist die Buchwertfortführung bei der Realteilung ein Wahlrecht?",
-      "titel": "Ist die Buchwertfortführung bei der Realteilung ein Wahlrecht?",
+      "frage": "Kannst du bei der Realteilung zwischen Buchwert und höherem Wert wählen?",
+      "titel": "Kannst du bei der Realteilung zwischen Buchwert und höherem Wert wählen?",
       "optionen": [
         "ja, mit Antrag",
         "ja, formlos",
-        "nein, sie ist zwingend"
+        "nein, die Buchwerte sind zwingend"
       ],
       "richtig": 2,
       "liveVorrangAktiv": true
@@ -461,14 +470,14 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "nein, sie ist zwingend",
+      "titel": "nein, die Buchwerte sind zwingend",
       "optionen": [
         "ja, mit Antrag",
         "ja, formlos",
-        "nein, sie ist zwingend"
+        "nein, die Buchwerte sind zwingend"
       ],
       "richtig": 2,
-      "text": "§ 16 Abs. 3 S. 2 EStG ordnet die Buchwertfortführung zwingend an.",
+      "text": "Die Buchwerte sind zwingend fortzuführen, soweit die Wirtschaftsgüter in ein Betriebsvermögen der Realteiler gelangen und die Besteuerung der stillen Reserven gesichert bleibt (§ 16 Abs. 3 S. 2 EStG).",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -496,7 +505,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 350 AO",
       "titel": "Einspruchsbefugnis und Beschwer: § 350 AO",
-      "text": "Beschwer nach § 350 AO untersuchen bei fehlender Zulässigkeitsvoraussetzung die Verwerfung als unzulässig erkennen",
+      "text": "Einspruch einlegen darf nur, wer geltend macht, durch den VA beschwert zu sein (§ 350 AO). Beim Steuerbescheid zählt die festgesetzte Steuer, nicht die Begründung. Ohne Beschwer: Verwerfung als unzulässig (§ 358 AO).",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -519,8 +528,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
-      "text": "Fehlerhafter VA: zuerst Einspruchsmöglichkeit, erst danach Korrekturvorschrift.",
+      "titel": "Fehlerhafter Verwaltungsakt: erst Einspruch, dann Korrekturnorm",
+      "text": "Läuft die Einspruchsfrist noch, führt der Einspruch zur vollen Überprüfung (§ 367 Abs. 2 AO). Erst nach Bestandskraft brauchst du eine Korrekturnorm wie §§ 129, 164 oder 172 ff. AO.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -552,7 +561,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
-      "text": "Klären, ob der angefochtene Bescheid einen noch anfechtbaren oder einen bereits bestandskräftigen Bescheid ändert.",
+      "text": "Ändert der Bescheid einen bereits bestandskräftigen Bescheid, ist er nur so weit anfechtbar, wie die Änderung reicht (§ 351 Abs. 1 AO). Andere Fehler zu deinen Gunsten wirken nur noch über § 177 AO.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -584,9 +593,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "§ 181 Abs. 5 AO: Feststellungsbescheid nach Ablauf der Feststellungsfrist und einschränkender Wirksamkeitsvermerk",
+      "titel": "§ 181 Abs. 5 AO: Feststellung trotz abgelaufener Feststellungsfrist",
       "falsch": "§ 181 Abs. 5 AO als eigenständige Korrekturvorschrift behandeln.",
-      "richtigText": "abgelaufene Feststellungsfrist von offener Festsetzungsfrist des Folgebescheids trennen",
+      "richtigText": "§ 181 Abs. 5 AO erlaubt die Feststellung nur, soweit die Festsetzungsfrist des Folgebescheids noch läuft. Für eine Änderung brauchst du zusätzlich eine Korrekturnorm.",
       "liveVorrangAktiv": true
     },
     "s1": {

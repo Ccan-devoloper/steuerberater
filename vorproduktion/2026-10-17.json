@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Handelsrechtlich ist die Beteiligung an einer Personengesellschaft ein Vermögensgegenstand mit Anschaffungskosten; steuerlich ist sie kein eigenständiges Wirtschaftsgut.",
-            "Steuerlich wird der Anteil an einer Personengesellschaft in Höhe des Kapitals in der Gesellschaft fortgeführt; Gewinnanteile, Verluste, Einlagen und Entnahmen verändern ihn, eine Teilwertabschreibung scheidet aus."
+            "KG-Anteil: handelsrechtlich Vermögensgegenstand zu Anschaffungskosten, steuerlich kein eigenes Wirtschaftsgut. Er spiegelt das Kapital in der Gesellschaft; keine Teilwertabschreibung.",
+            "GmbH-Anteil: in beiden Bilanzen Wirtschaftsgut zu Anschaffungskosten (§ 6 Abs. 1 Nr. 2 EStG); Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung."
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei Personengesellschaften das Beteiligungskonto in der Steuerbilanz an das Kapital in der Gesellschaft anpassen."
+              "text": "KG: Beteiligungskonto an das steuerliche Kapital in der Gesellschaft anpassen. GmbH: Anschaffungskosten fortführen und Ausschüttungen erst mit dem Gewinnverwendungsbeschluss als Ertrag erfassen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Beteiligung an KG oder GmbH: Wie wird sie bilanziert?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "KG-Anteil: steuerlich nur Spiegelbild des Kapitalkontos, keine Teilwertabschreibung. GmbH-Anteil: eigenes Wirtschaftsgut zu Anschaffungskosten, Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung."
         },
         {
           "art": "cta",
@@ -167,14 +167,14 @@
           ]
         }
       ],
-      "caption": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Beteiligung an KG oder GmbH: Die KG-Beteiligung ist steuerlich kein eigenes Wirtschaftsgut und folgt dem Kapitalkonto (Spiegelbildmethode). Der GmbH-Anteil steht mit Anschaffungskosten in der Bilanz; eine Teilwertabschreibung wirkt bei einer Kapitalgesellschaft als Gesellschafterin wegen § 8b Abs. 3 KStG nicht, beim Einzelunternehmer nur zu 60 % (§ 3c Abs. 2 EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert",
+      "kurztitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -188,6 +188,9 @@
         "§ 271 HGB",
         "§ 15 EStG",
         "§ 4a Abs. 2 EStG",
+        "§ 6 Abs. 1 Nr. 2 EStG",
+        "§ 8b Abs. 3 KStG",
+        "§ 3c Abs. 2 EStG",
         "Themenpool: bilanz-aufb-bil-melzer-6-01"
       ],
       "coverRegie": {
@@ -239,18 +242,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden."
+              "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden (§ 10 Abs. 1 S. 6 ErbStG)."
             },
             {
               "titel": "2. Schritt",
               "text": "Steuerklasse und passende Wertstufe bestimmen und die Steuer auf den gesamten Erwerb berechnen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Knapp über einer Wertgrenze: Härteausgleich nach § 19 Abs. 3 ErbStG. Die Mehrsteuer darf höchstens die Hälfte (Satz bis 30 %) bzw. drei Viertel (Satz über 30 %) des Überhangs betragen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Steuersatz und Härteausgleich nach § 19 ErbStG anwenden: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Knapp über einer Wertgrenze rechnest du zweimal: normale Steuer und Steuer bis zur Grenze plus die Hälfte bzw. drei Viertel des Überschusses. Es gilt der niedrigere Betrag (§ 19 Abs. 3 ErbStG)."
         },
         {
           "art": "cta",
@@ -267,7 +274,7 @@
           ]
         }
       ],
-      "caption": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Steuersatz nach § 19 Abs. 1 ErbStG: Steuerklasse und auf volle 100 € abgerundeter Erwerb bestimmen den Satz für den ganzen Erwerb. Liegt der Erwerb knapp über einer Wertgrenze, deckelt der Härteausgleich nach § 19 Abs. 3 ErbStG die Mehrsteuer.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -281,6 +288,7 @@
         "§ 19 Abs. 1 ErbStG",
         "§ 19 Abs. 3 ErbStG",
         "H E 19 ErbStH",
+        "§ 10 Abs. 1 ErbStG",
         "Themenpool: erbst-aufb-erbst-v-28"
       ],
       "coverRegie": {
@@ -318,46 +326,50 @@
           "nummer": null,
           "titel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
           "unter": "Einkommensteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Zwei Fünf-Jahres-Regeln entscheiden über den Verlustabzug.",
           "norm": "§ 17 Abs. 2 Satz 6 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Ein Verlust aus dem Verkauf von GmbH-Anteilen wirkt grundsätzlich zu 60 Prozent. § 17 Absatz 2 Satz 6 EStG schließt ihn aber für bestimmte Anteile aus. Welche sind das?",
           "marken": [
-            "Das Teileinkünfteverfahren gilt auch bei"
+            "Verlust aus § 17 EStG",
+            "Abzugssperre prüfen"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Den Verlust zum Veräußerungszeitpunkt ermitteln und Preis, Kosten und Anschaffungskosten nur zu 60 % ansetzen.",
+          "titel": "Unentgeltlich in den letzten fünf Jahren erworben?",
           "text": null,
-          "norm": "§ 17 Abs. 2 Satz 6 EStG",
+          "norm": "§ 17 Abs. 2 S. 6 Buchst. a EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 17 Abs. 2 Satz 6 EStG im Zusammenhang mit Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
+          "sprecher": "Hast du die Anteile innerhalb der letzten fünf Jahre geschenkt oder geerbt bekommen, bleibt der Verlust außen vor. Es sei denn, dein Rechtsvorgänger hätte ihn selbst geltend machen können.",
           "marken": [
-            "Prüfpunkt 1"
+            "Geschenkt oder geerbt",
+            "Ausnahme: Vorgänger-Verlust"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 17 Abs. 3 EStG",
+          "titel": "Gekauft, aber keine fünf Jahre wesentlich beteiligt?",
           "text": null,
-          "norm": "§ 17 Abs. 3 EStG",
+          "norm": "§ 17 Abs. 2 S. 6 Buchst. b EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 17 Abs. 3 EStG im Zusammenhang mit Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
+          "sprecher": "Gekaufte Anteile zählen nur, wenn sie die ganzen letzten fünf Jahre zu einer Beteiligung von mindestens einem Prozent gehörten. Ausnahme: Ihr Erwerb hat diese Beteiligung erst begründet oder sie kamen danach hinzu.",
           "marken": [
-            "Prüfpunkt 2"
+            "Fünf Jahre mindestens 1 %",
+            "Ausnahme: begründender Zukauf"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Ein Verlust nach § 17 EStG wirkt zu 60 % (§ 3c Abs. 2 EStG), außer § 17 Abs. 2 S. 6 EStG sperrt ihn wegen unentgeltlichen Erwerbs oder zu kurzer wesentlicher Beteiligung.",
+          "sprecher": "Merke: Ein Verlust aus Anteilen zählt nur, wenn die Fünf-Jahres-Regeln erfüllt sind. Dann wirkt er nach dem Teileinkünfteverfahren zu 60 Prozent.",
           "marken": [
-            "Merksatz"
+            "Fünf Jahre beachten",
+            "Verlust zu 60 %"
           ]
         },
         {
@@ -373,7 +385,7 @@
           ]
         }
       ],
-      "caption": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt? Nach § 17 Abs. 2 S. 6 EStG, soweit er auf Anteile entfällt, die du in den letzten fünf Jahren unentgeltlich erworben hast (außer der Rechtsvorgänger hätte den Verlust nutzen können), oder auf gekaufte Anteile, die nicht die ganzen fünf Jahre zu einer Beteiligung von mindestens 1 % gehörten (außer der Zukauf hat die Beteiligung begründet oder folgte ihr). Abziehbare Verluste wirken zu 60 % (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -435,8 +447,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Wohin gehören Abbruchkosten beim Erwerb mit Abbruchabsicht?",
-      "titel": "Wohin gehören Abbruchkosten beim Erwerb mit Abbruchabsicht?",
+      "frage": "Du erwirbst ein Gebäude mit Abbruchabsicht und baust neu. Wohin gehören die Abbruchkosten?",
+      "titel": "Du erwirbst ein Gebäude mit Abbruchabsicht und baust neu. Wohin gehören die Abbruchkosten?",
       "optionen": [
         "laufender Aufwand",
         "Grund und Boden",
@@ -470,7 +482,7 @@
         "Herstellungskosten des Neubaus"
       ],
       "richtig": 2,
-      "text": "Ohne Abbruchabsicht bleiben sie dagegen laufender Aufwand.",
+      "text": "Bei Erwerb mit Abbruchabsicht zählen Abbruchkosten zu den Herstellungskosten des Neubaus, wenn Abbruch und Neubau eng zusammenhängen, sonst zum Grund und Boden (H 6.4 EStH). Ohne Abbruchabsicht: sofort Aufwand.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -498,7 +510,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 171 Abs. 4 S. 1 AO",
       "titel": "Außenprüfung: Ablaufhemmung nach § 171 Abs. 4 AO – Beginn, Ende und Reichweite",
-      "text": "Anwendungsbereich altes/neues §-171-Abs.-4-Recht anhand des Steuerentstehungszeitpunkts trennen wirksame Prüfungsanordnung und tatsächlichen Prüfungsbeginn bzw. beantragten Aufschub untersuchen",
+      "text": "Beginnt die Außenprüfung vor Fristablauf oder wird sie auf deinen Antrag verschoben, ist der Ablauf gehemmt. Für ab 2025 entstandene Steuern endet die Hemmung grundsätzlich fünf Jahre nach dem Jahr der Prüfungsanordnung.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -527,7 +539,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
-      "text": "untersuchen, ob der VA nach § 124 AO wirksam geworden ist.",
+      "text": "Ein VA wird mit Bekanntgabe wirksam und bleibt es trotz Fehlern, bis er aufgehoben ist oder sich erledigt hat (§ 124 Abs. 1, 2 AO). Von Anfang an unwirksam ist nur der nichtige VA (§ 124 Abs. 3, § 125 AO).",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -558,9 +570,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+      "titel": "Steuerbescheid oder sonstiger VA? Davon hängt die Korrekturnorm ab",
       "falsch": "§§ 172 ff. AO auf jeden sonstigen VA anwenden.",
-      "richtigText": "Steuerbescheid/gleichgestellten VA von sonstigem VA trennen",
+      "richtigText": "Steuerbescheide und gleichgestellte Bescheide änderst du nach §§ 172 ff. AO, sonstige VA nach §§ 130, 131 AO.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -589,8 +601,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis, punktuelle Frist und eDaten-Pärchen",
-      "text": "Ereignis nach Erlass des zu ändernden Bescheids feststellen.",
+      "titel": "§ 175 Abs. 1 S. 1 Nr. 2 AO: rückwirkendes Ereignis und Fristbeginn",
+      "text": "Ein nach Bescheiderlass eingetretenes Ereignis, das steuerlich zurückwirkt, erlaubt die Änderung. Die Festsetzungsfrist läuft dann erst ab Ende des Kalenderjahres, in das das Ereignis fällt (§ 175 Abs. 1 S. 2 AO).",
       "liveVorrangAktiv": true
     },
     "s1": {
@@ -600,7 +612,7 @@
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
       "ueberzeile": "Neuer Beitrag",
-      "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert",
+      "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
       "text": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
       "icon": "paragraf",
       "bild": null,

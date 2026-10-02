@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Nutzung/Leistung als eigenen Bewertungsblock erkennen",
-            "Jahreswert und Vervielfältiger strikt trennen"
+            "Kapitalwert = Jahreswert × Vervielfältiger: befristet nach Anlage 9a (§ 13 Abs. 1 BewG), unbestimmte Dauer 9,3 (§ 13 Abs. 2 BewG), lebenslang nach Alter und Geschlecht (§ 14 Abs. 1 BewG).",
+            "Jahreswert (§ 15 BewG): Geldrente mit ihrem Jahresbetrag, Nutzung einer Geldsumme mit 5,5 %, Sachleistungen mit üblichen Mittelpreisen; bei Nutzungen höchstens Wert des Wirtschaftsguts geteilt durch 18,6 (§ 16 BewG)."
           ]
         },
         {
@@ -139,18 +139,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Recht/Leistung bestimmen: z.B. Wohnrecht, Nießbrauch, Rente, Pflege/Rasenmähen."
+              "text": "Art bestimmen: Nutzungsrecht wie Wohnrecht oder Nießbrauch, wiederkehrende Leistung wie Rente oder Pflege; dazu die Laufzeit."
             },
             {
               "titel": "2. Schritt",
-              "text": "① Jahreswert nach § 15 BewG ermitteln."
+              "text": "Jahreswert nach § 15 BewG ermitteln, bei Nutzungen die Grenze des § 16 BewG prüfen und mit dem passenden Vervielfältiger aus § 13 oder § 14 BewG multiplizieren."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Erst den Jahreswert nach §§ 15, 16 BewG, dann den Vervielfältiger nach der Laufzeit: befristet § 13 BewG, lebenslang § 14 BewG. Das Produkt ist der Kapitalwert."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Wohnrecht, Nießbrauch, Rente oder Pflegeleistung: Der Kapitalwert ist Jahreswert mal Vervielfältiger. Den Jahreswert liefern §§ 15, 16 BewG, den Vervielfältiger § 13 BewG für befristete und § 14 BewG für lebenslange Rechte.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -227,8 +227,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Nationale und abkommensrechtliche Ebene sichtbar trennen.",
-            "Bei beschränkter Steuerpflicht vor anwenden."
+            "Zuerst klärt das EStG, ob Deutschland besteuern darf. Ein DBA kann diesen Zugriff nur beschränken, nie begründen.",
+            "Bei beschränkter Steuerpflicht muss eine inländische Einkunft nach § 49 EStG vorliegen, bevor du das DBA überhaupt prüfst."
           ]
         },
         {
@@ -237,18 +237,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "1. Steuerpflicht nach § 1 EStG."
+              "text": "Steuerpflicht nach § 1 EStG: unbeschränkt bei Wohnsitz oder gewöhnlichem Aufenthalt im Inland, sonst beschränkt, wenn inländische Einkünfte vorliegen (§ 1 Abs. 4 EStG)."
             },
             {
               "titel": "2. Schritt",
-              "text": "2. Einkunftsart und bei beschränkter Steuerpflicht § 49 EStG."
+              "text": "Einkünfte zuordnen; bei beschränkter Steuerpflicht den Inlandsbezug nach § 49 EStG prüfen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "DBA anwenden, dann zurück ins EStG: freigestellte Einkünfte über den Progressionsvorbehalt (§ 32b EStG), sonst Anrechnung (§ 34c EStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Das nationale Recht begründet den Steueranspruch, das DBA kann ihn nur beschränken. Danach kehrst du ins EStG zurück: Progressionsvorbehalt oder Anrechnung."
         },
         {
           "art": "cta",
@@ -265,7 +269,7 @@
           ]
         }
       ],
-      "caption": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Klausurtechnik im Internationalen Steuerrecht: Erst klärt das EStG, ob Deutschland besteuern darf (§§ 1, 49 EStG). Dann begrenzt ein DBA den Zugriff. Zum Schluss setzt du das Ergebnis im EStG um, etwa über den Progressionsvorbehalt nach § 32b EStG oder die Anrechnung nach § 34c EStG.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -283,6 +287,7 @@
         "§ 32b EStG",
         "DBA AAVV",
         "§ 50 / § 32b EStG",
+        "§ 34c EStG",
         "Themenpool: istr-modul-istr-istr2-09"
       ],
       "coverRegie": {
@@ -320,46 +325,49 @@
           "nummer": null,
           "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
           "unter": "Umwandlungssteuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 20 Abs. 3 UmwStG",
+          "text": "Sonstige Gegenleistung: Grenzen nach § 20 Abs. 2 S. 2 Nr. 4 UmwStG.",
+          "norm": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wie viel Geld darf man neben den neuen Anteilen erhalten? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Du bringst deinen Betrieb in eine GmbH ein und bekommst neben neuen Anteilen noch Geld oder ein Darlehen. Bis zu welcher Grenze bleibt der Buchwert möglich?",
           "marken": [
-            "Nach § 20 Abs."
+            "Anteile plus Geld",
+            "Buchwert noch möglich?"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 20 Abs. 3 UmwStG",
+          "titel": "Grenze: 25 % vom Buchwert oder 500.000 €, gedeckelt auf den Buchwert",
           "text": null,
-          "norm": "§ 20 Abs. 3 UmwStG",
+          "norm": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 20 Abs. 3 UmwStG im Zusammenhang mit Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+          "sprecher": "Die sonstige Gegenleistung darf höchstens 25 Prozent des eingebrachten Buchwerts betragen oder 500.000 Euro, aber nie mehr als den Buchwert selbst. Es gilt die für dich günstigere Grenze.",
           "marken": [
-            "Prüfpunkt 1"
+            "25 % oder 500.000 €",
+            "Deckel: der Buchwert"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 20 Abs. 2 UmwStG",
+          "titel": "Grenze überschritten: stille Reserven anteilig aufdecken",
           "text": null,
-          "norm": "§ 20 Abs. 2 UmwStG",
+          "norm": "§ 20 Abs. 2 S. 4, Abs. 3 S. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 20 Abs. 2 UmwStG im Zusammenhang mit Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+          "sprecher": "Schädlich ist nur der Teil über der Grenze, in diesem Verhältnis werden stille Reserven aufgedeckt. Angesetzt wird mindestens der gemeine Wert der gesamten sonstigen Gegenleistung. Die Anschaffungskosten der neuen Anteile sinken um diese Gegenleistung.",
           "marken": [
-            "Prüfpunkt 2"
+            "Überhang deckt Reserven auf",
+            "Anteils-AK sinken"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wie viel Geld darf man neben den neuen Anteilen erhalten?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 € (maximal Buchwert) ist unschädlich. Darüber wird anteilig aufgedeckt, und die Anschaffungskosten der Anteile sinken um die Gegenleistung (§ 20 Abs. 3 S. 3 UmwStG).",
+          "sprecher": "Merke: 25 Prozent oder 500.000 Euro, gedeckelt auf den Buchwert. Was darüber liegt, kostet anteilig stille Reserven.",
           "marken": [
-            "Merksatz"
+            "Unschädlich bis zur Grenze"
           ]
         },
         {
@@ -375,7 +383,7 @@
           ]
         }
       ],
-      "caption": "Wie viel Geld darf man neben den neuen Anteilen erhalten?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wie viel Geld darf man neben den neuen Anteilen erhalten? Bei der Einbringung nach § 20 UmwStG bleibt der Buchwert möglich, solange die sonstige Gegenleistung höchstens 25 % des eingebrachten Buchwerts oder 500.000 € beträgt, maximal den Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Der Überhang führt zu einer anteiligen Aufdeckung stiller Reserven; zugleich mindern sich die Anschaffungskosten der erhaltenen Anteile um die Gegenleistung (§ 20 Abs. 3 S. 3 UmwStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -392,6 +400,9 @@
         "§ 20 Abs. 1 UmwStG",
         "§ 20 Abs. 4 UmwStG",
         "§ 54 Abs. 4 UmwG",
+        "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
+        "§ 20 Abs. 2 S. 4 UmwStG",
+        "§ 20 Abs. 3 S. 3 UmwStG",
         "Themenpool: umwst-aufb-umw-2-25"
       ],
       "coverRegie": {
@@ -433,8 +444,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Norm regelt den Aufwandsverteilungsposten beim Bau auf dem Ehegattengrundstück?",
-      "titel": "Welche Norm regelt den Aufwandsverteilungsposten beim Bau auf dem Ehegattengrundstück?",
+      "frage": "Wo sind die Regeln zum Aufwandsverteilungsposten beim Bau auf dem Ehegattengrundstück zusammengefasst?",
+      "titel": "Wo sind die Regeln zum Aufwandsverteilungsposten beim Bau auf dem Ehegattengrundstück zusammengefasst?",
       "optionen": [
         "§ 6b EStG",
         "das BMF-Schreiben zu Baumaßnahmen auf Ehegattengrundstücken",
@@ -468,7 +479,7 @@
         "§ 7g EStG"
       ],
       "richtig": 1,
-      "text": "Der Posten ist kein Wirtschaftsgut und kein Träger stiller Reserven.",
+      "text": "Gesetzlich ist der Posten nicht geregelt. Er ist kein Wirtschaftsgut und trägt keine stillen Reserven; der Aufwand wird nach den AfA-Regeln für Gebäude im Privatvermögen verteilt (§ 7 Abs. 4 EStG).",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -495,7 +506,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 118 AO",
       "titel": "Verwaltungsakt: Liegt überhaupt ein VA vor?",
-      "text": "§ 118 AO als VA-Definition verankern VA und bloße tatsächliche/innerdienstliche Handlung unterscheiden",
+      "text": "VA ist eine hoheitliche Regelung im Einzelfall auf dem Gebiet des öffentlichen Rechts mit unmittelbarer Außenwirkung (§ 118 S. 1 AO). Interne Weisungen und bloße Auskünfte sind keine VA.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -520,9 +531,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+      "titel": "Wirksamer VA: Bekanntgabewille und Handlungsfähigkeit des Adressaten",
       "falsch": "Bekanntgabewille mit tatsächlichem Zugang verwechseln.",
-      "richtigText": "Bekanntgabewille als eigenen Wirksamkeitspunkt untersuchen",
+      "richtigText": "Wirksam wird der VA nur, wenn der zuständige Bedienstete die Bekanntgabe wollte und der Adressat handlungsfähig ist (§ 79 AO). Fehlt eins davon, hilft auch der Zugang nicht.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -547,7 +558,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 171 Abs. 10 S. 1 AO: Hemmung durch wirksamen Grundlagen-/Feststellungsbescheid",
-      "text": "1. Erlass, Aufhebung oder Änderung eines Grundlagenbescheids feststellen.",
+      "text": "Wird ein Grundlagenbescheid erlassen, aufgehoben oder geändert, endet die Festsetzungsfrist des Folgebescheids frühestens zwei Jahre nach dessen Bekanntgabe (§ 171 Abs. 10 S. 1 AO).",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -579,7 +590,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
-      "text": "untersuchen, ob ein Grundlagenbescheid im Sinne des § 171 Abs. 10 AO mit Bindungswirkung für den Folgebescheid vorliegt.",
+      "text": "Ändert sich ein bindender Grundlagenbescheid (§ 182 Abs. 1 AO), ist der Folgebescheid nach § 175 Abs. 1 S. 1 Nr. 1 AO anzupassen, ohne Ermessen und innerhalb der zwei Jahre aus § 171 Abs. 10 AO.",
       "liveVorrangAktiv": true
     },
     "s1": {

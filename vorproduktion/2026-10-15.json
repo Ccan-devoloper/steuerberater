@@ -130,7 +130,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Objektiv muss der Empfänger auf Kosten des Zuwendenden bereichert sein, etwa durch Vermögensmehrung oder Befreiung von einer Schuld.",
-            "Subjektiv genügt der Wille des Zuwendenden zur unentgeltlichen Bereicherung; eine Einigung über die Unentgeltlichkeit wie bei § 516 BGB ist nicht nötig."
+            "Subjektiv genügt der Wille zur Unentgeltlichkeit: Der Geber weiß, dass er nichts schuldet und nichts zurückbekommt. Eine Bereicherungsabsicht oder Einigung wie bei § 516 BGB ist unnötig."
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Bereicherungswillen des Zuwendenden anhand seiner Motive untersuchen, insbesondere private gegenüber geschäftlichen Beweggründen."
+              "text": "Wille zur Unentgeltlichkeit prüfen: Ist die Leistung an eine erwartete Gegenleistung geknüpft, etwa im Geschäftsverkehr, fehlt er. Bei Teilentgelt ist nur der unentgeltliche Teil steuerpflichtig."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Freigebig ist eine Zuwendung, wenn der Empfänger objektiv auf Kosten des Gebers bereichert ist und der Geber ihm bewusst etwas ohne Gegenleistung zukommen lassen will. Steuerpflichtig ist sie nur, soweit sie unentgeltlich ist (§ 7 Abs. 1 Nr. 1 ErbStG)."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Freigebige Zuwendung nach § 7 Abs. 1 Nr. 1 ErbStG: Objektiv muss der Empfänger auf Kosten des Zuwendenden bereichert sein. Subjektiv genügt der Wille zur Unentgeltlichkeit, also das Bewusstsein, ohne Rechtspflicht und ohne Gegenleistung zu leisten. Eine Bereicherungsabsicht ist nicht nötig, und auf die Motive des Zuwendenden kommt es nicht an (BFH, Urteil vom 9.4.2025, II R 48/21).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -185,6 +185,9 @@
         "§ 10 Abs. 1 ErbStG",
         "§ 12 ErbStG",
         "§ 13 BewG",
+        "§ 7 Abs. 1 Nr. 1 ErbStG",
+        "R E 7.1 ErbStR",
+        "BFH 09.04.2025 – II R 48/21",
         "Themenpool: erbst-aufb-erbst-t1-4"
       ],
       "coverRegie": {
@@ -226,8 +229,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Du unterscheidest Gewerbebetriebe kraft Tätigkeit nach § 2 Abs. 1 GewStG in Verbindung mit § 15 Abs. 2 und 3 EStG von solchen kraft Rechtsform nach § 2 Abs. 2 GewStG.",
-            "Du weißt, dass bei Einzelunternehmen und Personengesellschaften erst die werbende Tätigkeit die Steuerpflicht auslöst und ihre endgültige Einstellung sie beendet."
+            "Einzelunternehmen und PersG: Beginn mit der werbenden Tätigkeit, Ende mit ihrer endgültigen Einstellung. Vorbereitung und Registereintrag lösen nichts aus.",
+            "Kapitalgesellschaften: Beginn mit Aufnahme der Tätigkeit, spätestens mit Eintragung. Ende erst mit Aufhören jeder Tätigkeit, meist bei Verteilung des Vermögens (§ 4 GewStDV)."
           ]
         },
         {
@@ -236,18 +239,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Prüfe, ob ein Gewerbebetrieb kraft Tätigkeit, kraft Abfärbung oder Prägung oder kraft Rechtsform vorliegt."
+              "text": "Art bestimmen: kraft Tätigkeit, Abfärbung oder Prägung (§ 15 Abs. 2, 3 EStG) oder kraft Rechtsform (§ 2 Abs. 2 GewStG); dazu eine inländische Betriebsstätte."
             },
             {
               "titel": "2. Schritt",
-              "text": "Kläre, ob der Betrieb über eine Betriebsstätte in Deutschland verfügt."
+              "text": "Danach Beginn und Ende festlegen. Läuft die Pflicht nicht das ganze Jahr, ist der Erhebungszeitraum abgekürzt (§ 14 S. 3 GewStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Personenunternehmen zahlen Gewerbesteuer nur für den werbenden Betrieb. Kapitalgesellschaften sind spätestens ab der Eintragung bis zum Ende der Abwicklung steuerpflichtig, gleich was sie tun."
         },
         {
           "art": "cta",
@@ -264,7 +267,7 @@
           ]
         }
       ],
-      "caption": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig? Bei Einzelunternehmen und Personengesellschaften zählt allein die werbende Tätigkeit, bei Kapitalgesellschaften spätestens die Eintragung bis zum Ende der Abwicklung.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -285,6 +288,9 @@
         "§ 1 GewStDV",
         "§ 4 GewStDV",
         "R 2.2 GewStR",
+        "R 2.5 GewStR",
+        "R 2.6 GewStR",
+        "§ 14 GewStG",
         "Themenpool: gewst-aufb-gewst-ks-02"
       ],
       "coverRegie": {
@@ -322,46 +328,49 @@
           "nummer": null,
           "titel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
           "unter": "Umwandlungssteuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Sieben Jahre lang jährlich belegen, wem die Anteile zuzurechnen sind.",
           "norm": "§ 22 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wer unter dem gemeinen Wert in eine Kapitalgesellschaft einbringt, hat sieben Jahre lang eine jährliche Nachweispflicht. Bis zum 31. Mai musst du belegen, wem die Anteile zuzurechnen sind.",
           "marken": [
-            "Der Einbringende hat innerhalb der sieben"
+            "Sieben Jahre lang",
+            "Nachweis bis 31. Mai"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Den Einbringungsstichtag feststellen und daraus die jährlichen Zurechnungsstichtage ableiten.",
+          "titel": "Nachweis: Wem gehören die Anteile am jeweiligen Stichtag?",
           "text": null,
-          "norm": "§ 22 Abs. 3 UmwStG",
+          "norm": "§ 22 Abs. 3 S. 1 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 22 Abs. 3 UmwStG im Zusammenhang mit Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+          "sprecher": "Zu belegen ist die Zurechnung an dem Tag, der jährlich dem Einbringungszeitpunkt entspricht. Bei der Betriebseinbringung betrifft das die erhaltenen Anteile, beim Anteilstausch die eingebrachten.",
           "marken": [
-            "Prüfpunkt 1"
+            "Zurechnung am Stichtag",
+            "§ 22 Abs. 3 UmwStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Für jedes Jahr untersuchen, ob der Nachweis fristgerecht bis zum 31. Mai eingereicht wurde.",
+          "titel": "Kein Nachweis: Die Anteile gelten als veräußert",
           "text": null,
-          "norm": "§ 22 Abs. 6 UmwStG",
+          "norm": "§ 22 Abs. 3 S. 2 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 22 Abs. 6 UmwStG im Zusammenhang mit Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+          "sprecher": "Fehlt der Nachweis, fingiert das Gesetz eine Veräußerung der Anteile. Das löst rückwirkend den Einbringungsgewinn aus, gemindert um ein Siebtel für jedes abgelaufene Zeitjahr.",
           "marken": [
-            "Prüfpunkt 2"
+            "Fiktive Veräußerung",
+            "Einbringungsgewinn rückwirkend"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Sieben Jahre, jedes Jahr bis zum 31. Mai: Ohne Nachweis gelten die Anteile als veräußert (§ 22 Abs. 3 S. 2 UmwStG). Nach unentgeltlicher Übertragung trifft die Pflicht den Rechtsnachfolger (§ 22 Abs. 6 UmwStG).",
+          "sprecher": "Merke: sieben Jahre lang, jedes Jahr bis zum 31. Mai. Wer den Nachweis versäumt, wird so behandelt, als hätte er die Anteile verkauft.",
           "marken": [
-            "Merksatz"
+            "Ohne Nachweis: Veräußerung"
           ]
         },
         {
@@ -377,7 +386,7 @@
           ]
         }
       ],
-      "caption": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen? Wem die Anteile aus der Einbringung am jeweiligen Stichtag zuzurechnen sind, sieben Jahre lang (§ 22 Abs. 3 UmwStG). Fehlt der Nachweis, gelten die Anteile als veräußert und der Einbringungsgewinn entsteht rückwirkend. Nach Verwaltungsauffassung wird ein verspäteter Nachweis noch berücksichtigt, solange die betroffenen Bescheide änderbar sind.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -395,6 +404,7 @@
         "§ 17 EStG",
         "§ 40 GmbHG",
         "§ 67 AktG",
+        "§ 22 Abs. 3 S. 2 UmwStG",
         "Themenpool: umwst-aufb-umw-2-49"
       ],
       "coverRegie": {
@@ -436,8 +446,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Aussage zu Wo ist eine sonstige Leistung an trifft zu?",
-      "titel": "Welche Aussage zu Wo ist eine sonstige Leistung an trifft zu?",
+      "frage": "Wo wird eine sonstige Leistung an einen Unternehmer grundsätzlich ausgeführt?",
+      "titel": "Wo wird eine sonstige Leistung an einen Unternehmer grundsätzlich ausgeführt?",
       "optionen": [
         "am Sitz des Leistenden",
         "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
@@ -471,7 +481,7 @@
         "immer im Inland"
       ],
       "richtig": 1,
-      "text": "B2B-Grundregel Empfängerort; B2C nach § 3a Abs. 1 UStG Sitz des Leistenden – die Sonderorte (§ 3a Abs. 3, § 3b UStG) gehen vor.",
+      "text": "Unter Unternehmern zählt der Ort, an dem der Empfänger sein Unternehmen betreibt (§ 3a Abs. 2 UStG). An Privatleute gilt der Sitz des Leistenden (§ 3a Abs. 1 UStG). Sonderregeln wie § 3a Abs. 3 oder § 3b UStG gehen vor.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -495,8 +505,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 179 Abs. 3 AO",
-      "titel": "Ergänzungsbescheid als eigenes Korrekturthema: Quellenhinweis und Abgrenzung",
-      "text": "Ergänzungsbescheid als eigenständigen Feststellungsbescheid-Baustein erkennen ihn nicht mit dem Nachholen des Wirksamkeitsvermerks verwechseln",
+      "titel": "Ergänzungsbescheid nach § 179 Abs. 3 AO: unterbliebene Feststellung nachholen",
+      "text": "Fehlt im Feststellungsbescheid eine notwendige Feststellung, wird sie per Ergänzungsbescheid nachgeholt; der bisherige Bescheid bleibt bestehen. Nicht verwechseln mit dem Vermerk nach § 181 Abs. 5 AO.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -522,7 +532,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 49 EStG: Katalog der inländischen Einkünfte",
-      "text": "1. Einkunftsart materiell bestimmen.",
+      "text": "Erst die Einkunftsart nach §§ 13–23 EStG bestimmen, dann den Inlandsbezug in der passenden Nummer des § 49 Abs. 1 EStG prüfen. Auslandsmerkmale, die ihn verhindern würden, blendet § 49 Abs. 2 EStG aus.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -553,7 +563,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
-      "text": "Neu ist, was die zuständige Stelle bei der letzten vollen Sachprüfung nicht aus den Akten kannte, und es muss die Steuer tatsächlich verändern.",
+      "text": "Neu ist, was die zuständige Veranlagungsstelle bei abschließender Zeichnung des Bescheids nicht kannte; den Akteninhalt muss sie gegen sich gelten lassen. Und die Tatsache muss zu einer anderen Steuer führen.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -585,7 +595,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
-      "text": "Bekanntgabetag bestimmen: Fiktion nach § 122 Abs. 2 AO, späterer tatsächlicher Zugang oder Zustellung nach dem VwZG.",
+      "text": "Post: Bekanntgabe am vierten Tag nach Aufgabe, bei späterem Zugang später (§ 122 Abs. 2 Nr. 1 AO). Dann ein Monat (§ 355 Abs. 1 AO); endet er an Wochenende oder Feiertag, gilt nach § 108 Abs. 3 AO der nächste Werktag.",
       "liveVorrangAktiv": true
     },
     "s1": {
