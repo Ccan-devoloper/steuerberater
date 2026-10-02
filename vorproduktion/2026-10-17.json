@@ -613,7 +613,7 @@
       "fachLabel": "Bilanzsteuerrecht",
       "ueberzeile": "Neuer Beitrag",
       "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
-      "text": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+      "text": "",
       "icon": "paragraf",
       "bild": null,
       "bildFrei": true,
@@ -689,7 +689,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-29T02:29:30.988Z",
+    "erzeugtAm": "2026-10-02T12:13:45.542Z",
     "pfad": "vorproduktion/2026-10-17/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
