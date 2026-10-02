@@ -7098,10 +7098,32 @@
       "thema": null,
       "fach": null,
       "titel": "Tage bis zum Examen"
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "b4",
+      "medienId": "18087005630315826",
+      "veroeffentlicht": "2026-10-02T14:45:09.126Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "16:00",
+      "stunde": 16,
+      "format": "klausurtechnik",
+      "thema": "persg-aufb-persg-melzer-2-3",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 9,
+    "persg": 10,
     "ust": 8,
     "kst": 8,
     "ao": 16,
