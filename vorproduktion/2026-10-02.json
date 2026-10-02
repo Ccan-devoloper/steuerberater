@@ -599,7 +599,7 @@
       "ueberzeile": "Neuer Beitrag",
       "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
       "text": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
-      "icon": "paragraf",
+      "icon": "hauptbuch",
       "bild": null,
       "bildFrei": true,
       "bildQuelle": null,
@@ -674,7 +674,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-09-29T00:41:03.971Z",
+    "erzeugtAm": "2026-10-02T11:08:01.454Z",
     "pfad": "vorproduktion/2026-10-02/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,

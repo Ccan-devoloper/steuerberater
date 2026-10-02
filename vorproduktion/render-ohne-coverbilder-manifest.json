@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-09-29T02:46:08.664Z",
+  "erzeugtAm": "2026-10-02T11:06:05.115Z",
   "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
@@ -12,54 +12,54 @@
   "coverIcons": true,
   "tage": [
     {
-      "datum": "2026-10-04",
+      "datum": "2026-10-02",
       "feed": [
         {
           "slot": "b1",
-          "format": "spickzettel",
-          "titel": "Was macht Einkünfte eines Gebietsfremden zu inländischen",
-          "klausur": 2,
-          "fach": "istr",
+          "format": "klausurtechnik",
+          "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+          "klausur": 3,
+          "fach": "persg",
           "coverBild": false,
-          "coverIcon": "globus",
+          "coverIcon": "hauptbuch",
           "dateien": [
-            "2026-10-04-b1-01.jpg",
-            "2026-10-04-b1-02.jpg",
-            "2026-10-04-b1-03.jpg",
-            "2026-10-04-b1-04.jpg",
-            "2026-10-04-b1-05.jpg"
+            "2026-10-02-b1-01.jpg",
+            "2026-10-02-b1-02.jpg",
+            "2026-10-02-b1-03.jpg",
+            "2026-10-02-b1-04.jpg",
+            "2026-10-02-b1-05.jpg"
           ]
         },
         {
           "slot": "b2",
           "format": "spickzettel",
-          "titel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
-          "klausur": 3,
-          "fach": "bilanz",
-          "coverBild": false,
-          "coverIcon": "hauptbuch",
-          "dateien": [
-            "2026-10-04-b2-01.jpg",
-            "2026-10-04-b2-02.jpg",
-            "2026-10-04-b2-03.jpg",
-            "2026-10-04-b2-04.jpg",
-            "2026-10-04-b2-05.jpg"
-          ]
-        },
-        {
-          "slot": "b3",
-          "format": "reel",
-          "titel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
+          "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
           "klausur": 1,
           "fach": "ao",
           "coverBild": false,
           "coverIcon": "dokument",
           "dateien": [
-            "2026-10-04-b3-cover.jpg",
-            "2026-10-04-b3.mp4"
+            "2026-10-02-b2-01.jpg",
+            "2026-10-02-b2-02.jpg",
+            "2026-10-02-b2-03.jpg",
+            "2026-10-02-b2-04.jpg",
+            "2026-10-02-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+          "klausur": 2,
+          "fach": "gewst",
+          "coverBild": false,
+          "coverIcon": "quittung",
+          "dateien": [
+            "2026-10-02-b3-cover.jpg",
+            "2026-10-02-b3.mp4"
           ],
           "reel": {
-            "dauer": 39.34,
+            "dauer": 51.06,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -70,22 +70,22 @@
         {
           "slot": "s4",
           "art": "frage",
-          "klausur": 3,
-          "fach": "persg",
+          "klausur": 2,
+          "fach": "kst",
           "datei": "s4-frage.jpg"
         },
         {
           "slot": "s5",
           "art": "antwort",
-          "klausur": 3,
-          "fach": "persg",
+          "klausur": 2,
+          "fach": "kst",
           "datei": "s5-antwort.jpg"
         },
         {
           "slot": "s1",
           "art": "teaser",
-          "klausur": 2,
-          "fach": "istr",
+          "klausur": 3,
+          "fach": "persg",
           "datei": "s1-teaser.jpg"
         },
         {
@@ -105,157 +105,34 @@
         {
           "slot": "s2",
           "art": "teaser",
-          "klausur": 3,
-          "fach": "bilanz",
+          "klausur": 1,
+          "fach": "ao",
           "datei": "s2-teaser.jpg"
         },
         {
           "slot": "s8",
-          "art": "merksatz",
-          "klausur": 2,
-          "fach": "istr",
-          "datei": "s8-merksatz.jpg"
-        },
-        {
-          "slot": "s9",
-          "art": "begriff",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s9-begriff.jpg"
-        },
-        {
-          "slot": "s3",
-          "art": "teaser",
-          "klausur": 1,
-          "fach": "ao",
-          "datei": "s3-teaser.jpg"
-        }
-      ],
-      "wartetLive": [],
-      "pfad": "vorproduktion/2026-10-04/fertig"
-    },
-    {
-      "datum": "2026-10-23",
-      "feed": [
-        {
-          "slot": "b1",
-          "format": "spickzettel",
-          "titel": "Buchungssatz und Gewinnauswirkung",
-          "klausur": 3,
-          "fach": "bilanz",
-          "coverBild": false,
-          "coverIcon": "hauptbuch",
-          "dateien": [
-            "2026-10-23-b1-01.jpg",
-            "2026-10-23-b1-02.jpg",
-            "2026-10-23-b1-03.jpg",
-            "2026-10-23-b1-04.jpg",
-            "2026-10-23-b1-05.jpg"
-          ]
-        },
-        {
-          "slot": "b2",
-          "format": "spickzettel",
-          "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-          "klausur": 1,
-          "fach": "erbst",
-          "coverBild": false,
-          "coverIcon": "haus",
-          "dateien": [
-            "2026-10-23-b2-01.jpg",
-            "2026-10-23-b2-02.jpg",
-            "2026-10-23-b2-03.jpg",
-            "2026-10-23-b2-04.jpg",
-            "2026-10-23-b2-05.jpg"
-          ]
-        },
-        {
-          "slot": "b3",
-          "format": "reel",
-          "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
-          "klausur": 2,
-          "fach": "istr",
-          "coverBild": false,
-          "coverIcon": "globus",
-          "dateien": [
-            "2026-10-23-b3-cover.jpg",
-            "2026-10-23-b3.mp4"
-          ],
-          "reel": {
-            "dauer": 40.21000000000001,
-            "stimme": "piper",
-            "layout": "erklaer",
-            "szenen": 5
-          }
-        }
-      ],
-      "stories": [
-        {
-          "slot": "s4",
-          "art": "frage",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s4-frage.jpg"
-        },
-        {
-          "slot": "s5",
-          "art": "antwort",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s5-antwort.jpg"
-        },
-        {
-          "slot": "s1",
-          "art": "teaser",
-          "klausur": 3,
-          "fach": "bilanz",
-          "datei": "s1-teaser.jpg"
-        },
-        {
-          "slot": "s6",
-          "art": "norm",
-          "klausur": 2,
-          "fach": "istr",
-          "datei": "s6-norm.jpg"
-        },
-        {
-          "slot": "s7",
           "art": "tipp",
-          "klausur": 1,
-          "fach": "ao",
-          "datei": "s7-tipp.jpg"
-        },
-        {
-          "slot": "s2",
-          "art": "teaser",
-          "klausur": 1,
-          "fach": "erbst",
-          "datei": "s2-teaser.jpg"
-        },
-        {
-          "slot": "s8",
-          "art": "fehler",
-          "klausur": 1,
-          "fach": "ao",
-          "datei": "s8-fehler.jpg"
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s8-tipp.jpg"
         },
         {
           "slot": "s9",
           "art": "tipp",
-          "klausur": 1,
-          "fach": "ao",
+          "klausur": 2,
+          "fach": "istr",
           "datei": "s9-tipp.jpg"
         },
         {
           "slot": "s3",
           "art": "teaser",
           "klausur": 2,
-          "fach": "istr",
+          "fach": "gewst",
           "datei": "s3-teaser.jpg"
         }
       ],
       "wartetLive": [],
-      "pfad": "vorproduktion/2026-10-23/fertig"
+      "pfad": "vorproduktion/2026-10-02/fertig"
     }
   ]
 }
