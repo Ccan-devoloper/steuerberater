@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T11:21:19.548Z",
+  "stand": "2026-10-02T11:46:35.997Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -10968,6 +10968,22 @@
           "navigation_tap_forward": 21,
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 3
+        },
+        {
+          "stand": "2026-10-02T11:46:32.233Z",
+          "alterStunden": 23,
+          "reach": 31,
+          "views": 38,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 33,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 25
         }
       ]
     },
@@ -11410,6 +11426,32 @@
           "navigation": 10,
           "navigation_tap_forward": 3,
           "navigation_tap_exit": 7
+        }
+      ]
+    },
+    "18137719372715976": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T10:44:25.826Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T11:46:32.233Z",
+          "alterStunden": 1,
+          "reach": 10,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 4,
+          "navigation_tap_forward": 4
         }
       ]
     }
@@ -12107,6 +12149,11 @@
     },
     {
       "stand": "2026-10-02T10:44:26.971Z",
+      "follower": 102,
+      "medien": 78
+    },
+    {
+      "stand": "2026-10-02T11:46:35.997Z",
       "follower": 102,
       "medien": 78
     }
