@@ -7069,7 +7069,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ao",
-      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO"
+      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
+      "insights": {
+        "reach": 13,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-02T13:44:11.922Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-02",

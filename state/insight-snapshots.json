@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T12:45:28.630Z",
+  "stand": "2026-10-02T13:44:13.060Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11525,6 +11525,34 @@
           "profile_visits": 0
         }
       ]
+    },
+    "17988181224102980": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T11:46:30.579Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T13:44:11.922Z",
+          "alterStunden": 2,
+          "reach": 13,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -12230,6 +12258,11 @@
     },
     {
       "stand": "2026-10-02T12:45:28.630Z",
+      "follower": 102,
+      "medien": 78
+    },
+    {
+      "stand": "2026-10-02T13:44:13.060Z",
       "follower": 102,
       "medien": 78
     }
