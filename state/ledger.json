@@ -7197,6 +7197,18 @@
         "#examensvorbereitung",
         "#gewerbesteuer"
       ]
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "s9",
+      "medienId": "18391968676167061",
+      "veroeffentlicht": "2026-10-02T17:45:55.118Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-modul-istr-istr1-11",
+      "fach": "istr",
+      "titel": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger"
     }
   ],
   "fachZaehler": {
