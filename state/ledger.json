@@ -4935,19 +4935,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 111,
+        "reach": 112,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 144,
-        "ig_reels_avg_watch_time": 9667,
-        "ig_reels_video_view_total_time": 1198795,
-        "reels_skip_rate": 69.2
+        "views": 145,
+        "ig_reels_avg_watch_time": 9969,
+        "ig_reels_video_view_total_time": 1256198,
+        "reels_skip_rate": 69.5
       },
-      "insightsStand": "2026-10-01T07:47:49.467Z",
-      "insightsAlterStunden": 141.2
+      "insightsStand": "2026-10-02T08:44:19.594Z",
+      "insightsAlterStunden": 166.2
     },
     {
       "datum": "2026-09-25",
@@ -6714,22 +6714,22 @@
       "fach": "istr",
       "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
       "insights": {
-        "reach": 27,
-        "views": 36,
+        "reach": 31,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 34,
+        "navigation": 36,
         "navigation_tap_exit": 4,
         "navigation_swipe_forward": 3,
         "navigation_tap_back": 4,
-        "navigation_tap_forward": 23
+        "navigation_tap_forward": 25
       },
-      "insightsStand": "2026-10-02T05:44:27.891Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-10-02T08:44:17.250Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-01",
@@ -6979,7 +6979,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "persg",
-      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…"
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+      "insights": {
+        "reach": 10,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 3,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_forward": 3,
+        "navigation_tap_exit": 7
+      },
+      "insightsStand": "2026-10-02T08:44:17.250Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {

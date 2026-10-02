@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T07:44:01.235Z",
+  "stand": "2026-10-02T08:44:21.126Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6053,6 +6053,20 @@
           "ig_reels_avg_watch_time": 9667,
           "ig_reels_video_view_total_time": 1198795,
           "reels_skip_rate": 69.2
+        },
+        {
+          "stand": "2026-10-02T08:44:19.594Z",
+          "alterStunden": 166.2,
+          "reach": 112,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 145,
+          "ig_reels_avg_watch_time": 9969,
+          "ig_reels_video_view_total_time": 1256198,
+          "reels_skip_rate": 69.5
         }
       ]
     },
@@ -10834,6 +10848,23 @@
           "navigation_swipe_forward": 3,
           "navigation_tap_back": 4,
           "navigation_tap_forward": 23
+        },
+        {
+          "stand": "2026-10-02T08:44:17.250Z",
+          "alterStunden": 22,
+          "reach": 31,
+          "views": 40,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_tap_exit": 4,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 25
         }
       ]
     },
@@ -11202,6 +11233,33 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "17894322924612269": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T06:45:13.174Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T08:44:17.250Z",
+          "alterStunden": 2,
+          "reach": 10,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_forward": 3,
+          "navigation_tap_exit": 7
         }
       ]
     }
@@ -11884,6 +11942,11 @@
     },
     {
       "stand": "2026-10-02T07:44:01.235Z",
+      "follower": 102,
+      "medien": 78
+    },
+    {
+      "stand": "2026-10-02T08:44:21.126Z",
       "follower": 102,
       "medien": 78
     }
