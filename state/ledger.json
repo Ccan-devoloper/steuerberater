@@ -6877,6 +6877,18 @@
       },
       "insightsStand": "2026-10-01T19:54:40.341Z",
       "insightsAlterStunden": 2.2
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "s4",
+      "medienId": "17941652367351582",
+      "veroeffentlicht": "2026-10-02T05:44:15.669Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "kst-quiz-kst-8",
+      "fach": "kst",
+      "titel": "2 KStG?"
     }
   ],
   "fachZaehler": {
