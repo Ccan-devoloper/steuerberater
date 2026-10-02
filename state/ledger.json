@@ -6771,22 +6771,22 @@
       "fach": "istr",
       "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?",
       "insights": {
-        "reach": 28,
-        "views": 35,
+        "reach": 32,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 32,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 25,
+        "navigation": 35,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 27,
         "navigation_tap_exit": 5,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-02T09:44:28.220Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-10-02T12:45:25.164Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-01",
@@ -6810,19 +6810,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 133,
+        "reach": 138,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 171,
-        "ig_reels_avg_watch_time": 5098,
-        "ig_reels_video_view_total_time": 688239,
-        "reels_skip_rate": 74.6
+        "views": 175,
+        "ig_reels_avg_watch_time": 4998,
+        "ig_reels_video_view_total_time": 704822,
+        "reels_skip_rate": 75.2
       },
-      "insightsStand": "2026-10-02T09:44:33.398Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-10-02T12:45:27.364Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-10-01",
@@ -6983,20 +6983,21 @@
       "fach": "persg",
       "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
       "insights": {
-        "reach": 10,
-        "views": 15,
+        "reach": 19,
+        "views": 27,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_forward": 3,
-        "navigation_tap_exit": 7
+        "navigation": 21,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 10,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-02T08:44:17.250Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-02T12:45:25.164Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-02",
@@ -7044,7 +7045,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 13,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-02T12:45:27.364Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-02",

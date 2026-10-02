@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T11:46:35.997Z",
+  "stand": "2026-10-02T12:45:28.630Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11061,6 +11061,23 @@
           "navigation_tap_forward": 25,
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-02T12:45:25.164Z",
+          "alterStunden": 21,
+          "reach": 32,
+          "views": 41,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 35,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 27,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -11143,6 +11160,20 @@
           "ig_reels_avg_watch_time": 5098,
           "ig_reels_video_view_total_time": 688239,
           "reels_skip_rate": 74.6
+        },
+        {
+          "stand": "2026-10-02T12:45:27.364Z",
+          "alterStunden": 19,
+          "reach": 138,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 175,
+          "ig_reels_avg_watch_time": 4998,
+          "ig_reels_video_view_total_time": 704822,
+          "reels_skip_rate": 75.2
         }
       ]
     },
@@ -11426,6 +11457,22 @@
           "navigation": 10,
           "navigation_tap_forward": 3,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-10-02T12:45:25.164Z",
+          "alterStunden": 6,
+          "reach": 19,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -11452,6 +11499,30 @@
           "profile_activity": 0,
           "navigation": 4,
           "navigation_tap_forward": 4
+        }
+      ]
+    },
+    "18622386463009694": {
+      "art": "beitrag",
+      "datum": "2026-10-02",
+      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
+      "format": "spickzettel",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T11:46:16.714Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T12:45:27.364Z",
+          "alterStunden": 1,
+          "reach": 13,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -12154,6 +12225,11 @@
     },
     {
       "stand": "2026-10-02T11:46:35.997Z",
+      "follower": 102,
+      "medien": 78
+    },
+    {
+      "stand": "2026-10-02T12:45:28.630Z",
       "follower": 102,
       "medien": 78
     }
