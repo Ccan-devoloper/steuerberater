@@ -10,7 +10,8 @@
       "art": "titel",
       "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
       "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true
+      "coverBildAuslassen": false,
+      "icon": "dokument"
     },
     {
       "art": "text",
@@ -37,7 +38,7 @@
     {
       "art": "merke",
       "titel": "Merksatz",
-      "text": "Bei Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+      "text": "Wiedereinsetzung gibt es nur ohne jedes Verschulden – auch leichte Fahrlässigkeit schadet. Antrag binnen eines Monats nach Wegfall des Hindernisses stellen und die Handlung nachholen (§ 110 Abs. 2 AO)."
     },
     {
       "art": "cta",
@@ -54,7 +55,7 @@
       ]
     }
   ],
-  "caption": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+  "caption": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO? Kein Verschulden, auch keine leichte Fahrlässigkeit, Vertreterverschulden wird zugerechnet, Antrag binnen eines Monats nach Wegfall des Hindernisses.",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

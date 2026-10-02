@@ -233,7 +233,8 @@
           "art": "titel",
           "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
           "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "coverBildAuslassen": false,
+          "icon": "dokument"
         },
         {
           "art": "text",
