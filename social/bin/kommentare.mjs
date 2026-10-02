@@ -4,6 +4,7 @@
 
    node bin/kommentare.mjs lesen [anzahlBeitraege]
    node bin/kommentare.mjs antworten <kommentarId> "<text>"
+   node bin/kommentare.mjs dm <kommentarId> "<text>"   (private Antwort, bis 7 Tage nach dem Kommentar)
 
    Anlass: Während die Vorproduktion Vorrang hat, läuft die automatische
    Interaktion nicht. Einzelne Kommentare lassen sich so trotzdem gezielt
@@ -37,7 +38,11 @@ if (modus === "lesen") {
   if (!a || !b?.trim()) { console.error("Aufruf: antworten <kommentarId> \"<text>\""); process.exit(1); }
   const id = await ig.kommentarBeantworten(a, b.trim());
   console.log(`Antwort veröffentlicht: ${id}`);
+} else if (modus === "dm") {
+  if (!a || !b?.trim()) { console.error("Aufruf: dm <kommentarId> \"<text>\""); process.exit(1); }
+  const id = await ig.privateAntwort(a, { text: b.trim() });
+  console.log(`Direktnachricht gesendet: ${id}`);
 } else {
-  console.error("Modus: lesen | antworten");
+  console.error("Modus: lesen | antworten | dm");
   process.exit(1);
 }
