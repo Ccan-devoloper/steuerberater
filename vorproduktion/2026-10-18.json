@@ -130,7 +130,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Kapitalwert = Jahreswert × Vervielfältiger: befristet nach Anlage 9a (§ 13 Abs. 1 BewG), unbestimmte Dauer 9,3 (§ 13 Abs. 2 BewG), lebenslang nach Alter und Geschlecht (§ 14 Abs. 1 BewG).",
-            "Jahreswert (§ 15 BewG): Geldrente mit ihrem Jahresbetrag, Nutzung einer Geldsumme mit 5,5 %, Sachleistungen mit üblichen Mittelpreisen; bei Nutzungen höchstens Wert des Wirtschaftsguts geteilt durch 18,6 (§ 16 BewG)."
+            "Jahreswert (§ 15 BewG): Geldrente mit ihrem Jahresbetrag, Nutzung einer Geldsumme mit 5,5 %, Sachleistungen mit üblichen Mittelpreisen; bei Nutzungen höchstens Wert des Wirtschaftsguts geteilt durch 18,6 (§ 16 BewG)."
           ]
         },
         {
@@ -337,20 +337,20 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Grenze: 25 % vom Buchwert oder 500.000 €, gedeckelt auf den Buchwert",
+          "titel": "Grenze: 25 % oder 500.000 €, max. Buchwert",
           "text": null,
           "norm": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
           "icon": null,
           "sprecher": "Die sonstige Gegenleistung darf höchstens 25 Prozent des eingebrachten Buchwerts betragen oder 500.000 Euro, aber nie mehr als den Buchwert selbst. Es gilt die für dich günstigere Grenze.",
           "marken": [
-            "25 % oder 500.000 €",
+            "25 % oder 500.000 €",
             "Deckel: der Buchwert"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Grenze überschritten: stille Reserven anteilig aufdecken",
+          "titel": "Überschritten: stille Reserven anteilig",
           "text": null,
           "norm": "§ 20 Abs. 2 S. 4, Abs. 3 S. 3 UmwStG",
           "icon": null,
@@ -364,7 +364,7 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 € (maximal Buchwert) ist unschädlich. Darüber wird anteilig aufgedeckt, und die Anschaffungskosten der Anteile sinken um die Gegenleistung (§ 20 Abs. 3 S. 3 UmwStG).",
+          "text": "Sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 € (maximal Buchwert) ist unschädlich. Darüber wird anteilig aufgedeckt, und die Anschaffungskosten der Anteile sinken um die Gegenleistung (§ 20 Abs. 3 S. 3 UmwStG).",
           "sprecher": "Merke: 25 Prozent oder 500.000 Euro, gedeckelt auf den Buchwert. Was darüber liegt, kostet anteilig stille Reserven.",
           "marken": [
             "Unschädlich bis zur Grenze"

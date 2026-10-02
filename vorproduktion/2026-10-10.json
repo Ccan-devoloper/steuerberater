@@ -338,7 +338,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Grundsatz: Jeder Geschäftsführer trägt die steuerlichen Pflichten der GmbH",
+          "titel": "Grundsatz: Gesamtverantwortung aller GF",
           "text": null,
           "norm": "§ 34 Abs. 1 AO",
           "icon": null,
@@ -351,7 +351,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Ressortverteilung entlastet nur bei klarer, schriftlicher Regelung im Voraus",
+          "titel": "Ressortverteilung: klar, schriftlich, vorab",
           "text": null,
           "norm": "§ 69 AO",
           "icon": null,
@@ -472,14 +472,14 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "5 %",
+      "titel": "5 %",
       "optionen": [
         "1 %",
         "5 %",
         "10 %"
       ],
       "richtig": 1,
-      "text": "5 % des steuerfreien Betrags gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 Satz 1, Abs. 5 Satz 1 KStG). Streubesitzdividenden unter 10 % sind gar nicht erst steuerfrei (§ 8b Abs. 4 KStG).",
+      "text": "5 % des steuerfreien Betrags gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 Satz 1, Abs. 5 Satz 1 KStG). Streubesitzdividenden unter 10 % sind gar nicht erst steuerfrei (§ 8b Abs. 4 KStG).",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -508,7 +508,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 50a Abs. 1 EStG",
       "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
-      "text": "Bei Darbietungen, Rechteüberlassungen oder Aufsichtsratsvergütungen beschränkt Steuerpflichtiger behält der Schuldner 15 % der Einnahmen ein, bei Aufsichtsräten 30 %. Die Steuer ist damit grundsätzlich abgegolten.",
+      "text": "Bei Darbietungen, Rechteüberlassungen oder Aufsichtsratsvergütungen beschränkt Steuerpflichtiger behält der Schuldner 15 % der Einnahmen ein, bei Aufsichtsräten 30 %. Die Steuer ist damit grundsätzlich abgegolten.",
       "liveVorrangAktiv": true
     },
     "s7": {

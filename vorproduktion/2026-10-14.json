@@ -331,7 +331,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Veräußerungspreis minus Werbungskosten und um die AfA geminderte Anschaffungskosten",
+          "titel": "Veräußerungspreis minus AK und Werbungskosten",
           "text": null,
           "norm": "§ 23 Abs. 3 EStG",
           "icon": null,
@@ -343,14 +343,14 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Erfassung im Jahr des Zuflusses, steuerfrei bei Gesamtgewinn unter 1.000 €",
+          "titel": "Zufluss entscheidet, Freigrenze 1.000 €",
           "text": null,
           "norm": "§ 11 EStG",
           "icon": null,
           "sprecher": "Den Gewinn versteuerst du im Jahr, in dem der Kaufpreis zufließt. Steuerfrei bleibt er, wenn alle privaten Veräußerungsgewinne des Jahres zusammen weniger als 1.000 Euro betragen.",
           "marken": [
             "Zufluss entscheidet",
-            "Freigrenze unter 1.000 €"
+            "Freigrenze unter 1.000 €"
           ]
         },
         {
@@ -499,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 1 Abs. 1 EStG",
       "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
-      "text": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland: § 1 Abs. 1 EStG. Sonst auf Antrag Abs. 3, wenn mind. 90 % der Einkünfte hier steuerpflichtig sind oder der Rest den Grundfreibetrag nicht übersteigt; ansonsten Abs. 4.",
+      "text": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland: § 1 Abs. 1 EStG. Sonst auf Antrag Abs. 3, wenn mind. 90 % der Einkünfte hier steuerpflichtig sind oder der Rest den Grundfreibetrag nicht übersteigt; ansonsten Abs. 4.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -577,7 +577,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
-      "text": "Aufsichtsratsvergütung Nichtansässiger: § 18 Abs. 1 Nr. 3, § 49 Abs. 1 Nr. 3 EStG, Abzug 30 % (§ 50a Abs. 1 Nr. 4, Abs. 2 EStG), für EU/EWR-Gläubiger mit Kostenabzug (Abs. 3); Besteuerungsrecht nach Art. 16 OECD-MA.",
+      "text": "Aufsichtsratsvergütung Nichtansässiger: § 18 Abs. 1 Nr. 3, § 49 Abs. 1 Nr. 3 EStG, Abzug 30 % (§ 50a Abs. 1 Nr. 4, Abs. 2 EStG), für EU/EWR-Gläubiger mit Kostenabzug (Abs. 3); Besteuerungsrecht nach Art. 16 OECD-MA.",
       "liveVorrangAktiv": true
     },
     "s1": {

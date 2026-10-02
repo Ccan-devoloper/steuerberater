@@ -339,7 +339,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Ändert der Bescheid einen unanfechtbaren Vorbescheid?",
+          "titel": "Ändert er einen unanfechtbaren Bescheid?",
           "text": null,
           "norm": "§ 351 Abs. 1 AO",
           "icon": null,
@@ -352,7 +352,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Fehler außerhalb der Änderung: nur Saldierung nach § 177 AO",
+          "titel": "Fehler daneben: nur Saldierung (§ 177 AO)",
           "text": null,
           "norm": "§ 177 AO",
           "icon": null,

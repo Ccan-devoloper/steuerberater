@@ -251,7 +251,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "SBV II sind die Anteile, wenn sie die Stellung des Kommanditisten in der KG stärken: Die GmbH führt im Wesentlichen nur die KG, und er kann über seine Beteiligung auf deren Geschäftsführung einwirken. Unter 10 % ohne Sperrminorität (BFH 2015) oder bei eigenem gewichtigem Geschäftsbetrieb der GmbH regelmäßig nicht."
+          "text": "SBV II sind die Anteile, wenn sie die Stellung des Kommanditisten in der KG stärken: Die GmbH führt im Wesentlichen nur die KG, und er kann über seine Beteiligung auf deren Geschäftsführung einwirken. Unter 10 % ohne Sperrminorität (BFH 2015) oder bei eigenem gewichtigem Geschäftsbetrieb der GmbH regelmäßig nicht."
         },
         {
           "art": "cta",
@@ -338,7 +338,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Erstattungsanspruch: gezahlt ohne rechtlichen Grund, etwa ohne wirksamen Bescheid",
+          "titel": "Erstattung: gezahlt ohne rechtlichen Grund",
           "text": null,
           "norm": "§ 37 Abs. 2 AO",
           "icon": null,
@@ -350,7 +350,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Festsetzungsfrist endet nicht, solange die Erstattung noch nicht verjährt ist",
+          "titel": "Ablaufhemmung bis zur Erstattungsverjährung",
           "text": null,
           "norm": "§ 171 Abs. 14 AO",
           "icon": null,
@@ -499,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 19 Abs. 1 ErbStG",
       "titel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
-      "text": "Steuersatz aus Wertstufe und Steuerklasse (bis 75.000 €: 7, 15 bzw. 30 %). Knapp über einer Wertgrenze deckelt § 19 Abs. 3 ErbStG die Mehrsteuer: bei bis zu 30 % auf die Hälfte, darüber auf drei Viertel des Mehrbetrags.",
+      "text": "Steuersatz aus Wertstufe und Steuerklasse (bis 75.000 €: 7, 15 bzw. 30 %). Knapp über einer Wertgrenze deckelt § 19 Abs. 3 ErbStG die Mehrsteuer: bei bis zu 30 % auf die Hälfte, darüber auf drei Viertel des Mehrbetrags.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -529,8 +529,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
-      "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
-      "text": "Begünstigt ist nur der Wert ohne schädliches Verwaltungsvermögen (bis 10 % unschädlich). Darauf 85 % Verschonung; per unwiderruflicher Option 100 %, wenn höchstens 20 % Verwaltungsvermögen, dann 7 Jahre Behaltensfrist.",
+      "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+      "text": "Begünstigt ist nur der Wert ohne schädliches Verwaltungsvermögen (bis 10 % unschädlich). Darauf 85 % Verschonung; per unwiderruflicher Option 100 %, wenn höchstens 20 % Verwaltungsvermögen, dann 7 Jahre Behaltensfrist.",
       "liveVorrangAktiv": true
     },
     "s8": {

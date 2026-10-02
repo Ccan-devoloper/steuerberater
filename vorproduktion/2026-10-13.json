@@ -223,8 +223,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Bis zu 50 % der voraussichtlichen Kosten eines abnutzbaren beweglichen Anlageguts, das nicht neu sein muss, können vorab außerbilanziell abgezogen werden, wenn der Gewinn des Abzugsjahres ohne diese Beträge 200.000 € nicht übersteigt.",
-            "Je Betrieb dürfen im Abzugsjahr und den drei Vorjahren zusammen höchstens 200.000 € abgezogen sein; der Abzug darf auch einen Verlust entstehen lassen."
+            "Bis zu 50 % der voraussichtlichen Kosten eines abnutzbaren beweglichen Anlageguts, das nicht neu sein muss, können vorab außerbilanziell abgezogen werden, wenn der Gewinn des Abzugsjahres ohne diese Beträge 200.000 € nicht übersteigt.",
+            "Je Betrieb dürfen im Abzugsjahr und den drei Vorjahren zusammen höchstens 200.000 € abgezogen sein; der Abzug darf auch einen Verlust entstehen lassen."
           ]
         },
         {
@@ -233,18 +233,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Gewinnermittlung nach § 4 oder § 5 EStG und Gewinngrenze von 200.000 € im Abzugsjahr prüfen, außerdem ob das Wirtschaftsgut bis zum Ende des Folgejahres nach Anschaffung vermietet oder in einer inländischen Betriebsstätte fast ausschließlich (mind. 90 %) betrieblich genutzt wird."
+              "text": "Gewinnermittlung nach § 4 oder § 5 EStG und Gewinngrenze von 200.000 € im Abzugsjahr prüfen, außerdem ob das Wirtschaftsgut bis zum Ende des Folgejahres nach Anschaffung vermietet oder in einer inländischen Betriebsstätte fast ausschließlich (mind. 90 %) betrieblich genutzt wird."
             },
             {
               "titel": "2. Schritt",
-              "text": "Den Abzug auf 50 % der voraussichtlichen Kosten und den betrieblichen Höchstbetrag begrenzen und elektronisch übermitteln."
+              "text": "Den Abzug auf 50 % der voraussichtlichen Kosten und den betrieblichen Höchstbetrag begrenzen und elektronisch übermitteln."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Gewinngrenze, 50 %, Höchstbetrag 200.000 € und elektronische Übermittlung – und ohne Investition binnen drei Jahren wird der Abzug im Abzugsjahr rückgängig gemacht (§ 7g Abs. 3 EStG)."
+          "text": "Gewinngrenze, 50 %, Höchstbetrag 200.000 € und elektronische Übermittlung – und ohne Investition binnen drei Jahren wird der Abzug im Abzugsjahr rückgängig gemacht (§ 7g Abs. 3 EStG)."
         },
         {
           "art": "cta",
@@ -330,7 +330,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Unbebaut: kein benutzbares Gebäude am Bewertungsstichtag",
+          "titel": "Unbebaut: kein benutzbares Gebäude",
           "text": null,
           "norm": "§ 178 BewG",
           "icon": null,
@@ -343,7 +343,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Fläche mal zuletzt ermittelter Bodenrichtwert, abweichende Merkmale anpassen",
+          "titel": "Fläche mal Bodenrichtwert, dann anpassen",
           "text": null,
           "norm": "§ 179 BewG",
           "icon": null,

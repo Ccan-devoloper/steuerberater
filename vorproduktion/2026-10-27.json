@@ -343,7 +343,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "SBV bleibt zurück: anderes Betriebsvermögen oder Privatvermögen?",
+          "titel": "SBV bleibt: anderes BV oder Privatvermögen?",
           "text": null,
           "norm": "§ 6 Abs. 5 EStG",
           "icon": null,
@@ -531,7 +531,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
-      "text": "Erst die Bezüge nach § 7 UmwStG abziehen. Übernahmegewinn: bei natürlichen Personen zu 60 % steuerpflichtig, bei KapG gilt § 8b KStG (§ 4 Abs. 7 UmwStG). Einen Übernahmeverlust begrenzt § 4 Abs. 6 UmwStG stark.",
+      "text": "Erst die Bezüge nach § 7 UmwStG abziehen. Übernahmegewinn: bei natürlichen Personen zu 60 % steuerpflichtig, bei KapG gilt § 8b KStG (§ 4 Abs. 7 UmwStG). Einen Übernahmeverlust begrenzt § 4 Abs. 6 UmwStG stark.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -586,7 +586,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-      "text": "Neutral bleibt nur eine sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 €, höchstens bis zum Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Ein Mehrbetrag führt anteilig zur Aufdeckung stiller Reserven.",
+      "text": "Neutral bleibt nur eine sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 €, höchstens bis zum Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Ein Mehrbetrag führt anteilig zur Aufdeckung stiller Reserven.",
       "liveVorrangAktiv": true
     },
     "s1": {

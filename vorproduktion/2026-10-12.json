@@ -224,7 +224,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Unterhält ein Betrieb Betriebsstätten in mehreren Gemeinden, ist jede dieser Gemeinden hebeberechtigt; der Messbetrag wird dann nach § 28 GewStG zerlegt.",
-            "Regelmaßstab ist das Verhältnis der Arbeitslöhne in den einzelnen Gemeinden zur Summe aller Arbeitslöhne, jeweils auf volle 1.000 € abgerundet (§ 29 GewStG)."
+            "Regelmaßstab ist das Verhältnis der Arbeitslöhne in den einzelnen Gemeinden zur Summe aller Arbeitslöhne, jeweils auf volle 1.000 € abgerundet (§ 29 GewStG)."
           ]
         },
         {
@@ -237,14 +237,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Arbeitslöhne je Gemeinde nach § 31 GewStG ermitteln; für tätige Unternehmer oder Mitunternehmer zusammen pauschal 25.000 € ansetzen (§ 31 Abs. 5 GewStG). Dann den Messbetrag im Verhältnis verteilen."
+              "text": "Arbeitslöhne je Gemeinde nach § 31 GewStG ermitteln; für tätige Unternehmer oder Mitunternehmer zusammen pauschal 25.000 € ansetzen (§ 31 Abs. 5 GewStG). Dann den Messbetrag im Verhältnis verteilen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Zerlegt wird nach Arbeitslöhnen, nicht nach Umsatz oder Gewinn – tätige Unternehmer zählen pauschal mit 25.000 €."
+          "text": "Zerlegt wird nach Arbeitslöhnen, nicht nach Umsatz oder Gewinn – tätige Unternehmer zählen pauschal mit 25.000 €."
         },
         {
           "art": "cta",
@@ -329,7 +329,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Erhöhungsbetrag = versteuerter Einbringungsgewinn, nur auf Antrag mit Bescheinigung",
+          "titel": "Erhöhungsbetrag: Antrag und Bescheinigung",
           "text": null,
           "norm": "§ 23 Abs. 2 UmwStG",
           "icon": null,
@@ -342,7 +342,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Noch vorhandene Wirtschaftsgüter aufstocken, AfA ab Beginn des Ereignisjahres",
+          "titel": "Wirtschaftsgüter aufstocken, AfA anpassen",
           "text": null,
           "norm": "§ 23 Abs. 3 UmwStG",
           "icon": null,
@@ -499,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "Art. 10 OECD-MA",
       "titel": "Auslandsdividenden: Wer darf besteuern, was wird angerechnet?",
-      "text": "Art. 10 Abs. 2 OECD-MA begrenzt die Quellensteuer auf Dividenden bei Streubesitz auf 15 %. Angerechnet wird nur diese abkommensgemäße Steuer; was der Quellenstaat darüber hinaus einbehält, forderst du dort zurück.",
+      "text": "Art. 10 Abs. 2 OECD-MA begrenzt die Quellensteuer auf Dividenden bei Streubesitz auf 15 %. Angerechnet wird nur diese abkommensgemäße Steuer; was der Quellenstaat darüber hinaus einbehält, forderst du dort zurück.",
       "liveVorrangAktiv": true
     },
     "s7": {

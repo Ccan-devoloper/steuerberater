@@ -147,7 +147,7 @@
             },
             {
               "titel": "3. Schritt",
-              "text": "Ausländische Gesellschaft dazwischen? Dann §§ 7 ff. AStG: Beherrschung über 50 %, Einkünfte außerhalb des Aktivkatalogs (§ 8 Abs. 1 AStG), Belastung unter 15 % (§ 8 Abs. 5 AStG)."
+              "text": "Ausländische Gesellschaft dazwischen? Dann §§ 7 ff. AStG: Beherrschung über 50 %, Einkünfte außerhalb des Aktivkatalogs (§ 8 Abs. 1 AStG), Belastung unter 15 % (§ 8 Abs. 5 AStG)."
             }
           ]
         },
@@ -341,7 +341,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Ausgangspunkt: ursprünglicher Vorsteuerabzug und Verwendungsabsicht",
+          "titel": "Start: ursprünglicher Vorsteuerabzug",
           "text": null,
           "norm": "§ 15 Abs. 2 und 3 UStG",
           "icon": null,
@@ -574,7 +574,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie werden Ausschüttungen der Komplementär-GmbH besteuert?",
-      "text": "Erst die Zuordnung der Anteile klären: Als Sonderbetriebsvermögen II sind Ausschüttungen Sonderbetriebseinnahmen, zu 60 % steuerpflichtig (§ 3 Nr. 40 EStG). Im Privatvermögen: § 20 Abs. 1 Nr. 1 EStG, Abgeltungsteuer.",
+      "text": "Erst die Zuordnung der Anteile klären: Als Sonderbetriebsvermögen II sind Ausschüttungen Sonderbetriebseinnahmen, zu 60 % steuerpflichtig (§ 3 Nr. 40 EStG). Im Privatvermögen: § 20 Abs. 1 Nr. 1 EStG, Abgeltungsteuer.",
       "liveVorrangAktiv": true
     },
     "s9": {

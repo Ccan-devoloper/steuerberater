@@ -221,7 +221,7 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
+          "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
           "coverBadge": "Spickzettel",
           "coverBildAuslassen": true
         },
@@ -250,7 +250,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Liegen die Voraussetzungen vor, wird das Grundstück nur mit 90 % seines Werts angesetzt (§ 13d Abs. 1 ErbStG). Damit zusammenhängende Schulden sind dann ebenfalls nur zu 90 % abziehbar (§ 10 Abs. 6a ErbStG)."
+          "text": "Liegen die Voraussetzungen vor, wird das Grundstück nur mit 90 % seines Werts angesetzt (§ 13d Abs. 1 ErbStG). Damit zusammenhängende Schulden sind dann ebenfalls nur zu 90 % abziehbar (§ 10 Abs. 6a ErbStG)."
         },
         {
           "art": "cta",
@@ -333,7 +333,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Leistende GmbH: vGA an den Gesellschafter, bei ihm ein Beteiligungsertrag",
+          "titel": "Leistende GmbH: vGA, beim Gesellschafter Ertrag",
           "text": null,
           "norm": "§ 8 Abs. 3 S. 2 KStG",
           "icon": null,
@@ -345,7 +345,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Begünstigte Schwester: verdeckte Einlage nur bei einlagefähigem Vorteil",
+          "titel": "Schwester: Einlage nur bei einlagefähigem Vorteil",
           "text": null,
           "norm": "§ 8 Abs. 3 S. 3–5 KStG",
           "icon": null,
@@ -619,8 +619,8 @@
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer / Bewertung",
       "ueberzeile": "Neuer Beitrag",
-      "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
-      "text": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
+      "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
+      "text": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
       "icon": "paragraf",
       "bild": null,
       "bildFrei": true,

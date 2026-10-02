@@ -186,8 +186,8 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Arbeitszimmer: eigener, büromäßig eingerichteter Raum in der Wohnung, fast nur beruflich genutzt – eine Arbeitsecke reicht nicht.",
-            "Mittelpunkt deiner gesamten Betätigung dort: Kosten oder 1.260 € Jahrespauschale (§ 4 Abs. 5 Satz 1 Nr. 6b EStG).",
-            "Sonst: Homeoffice-Pauschale von 6 € je Tag, max. 1.260 € im Jahr (§ 4 Abs. 5 Satz 1 Nr. 6c EStG)."
+            "Mittelpunkt deiner gesamten Betätigung dort: Kosten oder 1.260 € Jahrespauschale (§ 4 Abs. 5 Satz 1 Nr. 6b EStG).",
+            "Sonst: Homeoffice-Pauschale von 6 € je Tag, max. 1.260 € im Jahr (§ 4 Abs. 5 Satz 1 Nr. 6c EStG)."
           ]
         },
         {
@@ -200,14 +200,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 €. Sonst 6 € je Tag, an dem du überwiegend zu Hause arbeitest und keine erste Tätigkeitsstätte aufsuchst. Fehlt dauerhaft ein anderer Arbeitsplatz, zählen auch Tage, an denen du zusätzlich auswärts arbeitest."
+              "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 €. Sonst 6 € je Tag, an dem du überwiegend zu Hause arbeitest und keine erste Tätigkeitsstätte aufsuchst. Fehlt dauerhaft ein anderer Arbeitsplatz, zählen auch Tage, an denen du zusätzlich auswärts arbeitest."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 € im Jahr. Kein Mittelpunkt oder nur eine Arbeitsecke: 6 € je Homeoffice-Tag, höchstens 1.260 €. Beides für denselben Zeitraum geht nicht."
+          "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 € im Jahr. Kein Mittelpunkt oder nur eine Arbeitsecke: 6 € je Homeoffice-Tag, höchstens 1.260 €. Beides für denselben Zeitraum geht nicht."
         },
         {
           "art": "cta",
@@ -296,7 +296,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Eingebracht wird ein Betrieb, Teilbetrieb oder Mitunternehmeranteil",
+          "titel": "Eingebracht: Betrieb, Teilbetrieb, MU-Anteil",
           "text": null,
           "norm": "§ 24 Abs. 1 UmwStG",
           "icon": null,
@@ -309,7 +309,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Gegenleistung Gesellschaftsrechte: Wahl zwischen Buch-, Zwischen- und gemeinem Wert",
+          "titel": "Wahlrecht: Buch-, Zwischen- oder gemeiner Wert",
           "text": null,
           "norm": "§ 24 Abs. 2 UmwStG",
           "icon": null,

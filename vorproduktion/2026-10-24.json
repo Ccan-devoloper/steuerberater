@@ -130,7 +130,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Zur Klasse I gehören Ehegatten, Lebenspartner, Kinder, Stiefkinder und deren Abkömmlinge sowie Eltern und Voreltern nur beim Erwerb von Todes wegen; Geschwister, Nichten und Neffen, Stief- und Schwiegereltern, Schwiegerkinder und der geschiedene Ehegatte fallen in Klasse II.",
-            "Bei unbeschränkter Steuerpflicht betragen die Freibeträge 500.000 € für Ehegatten und Lebenspartner, 400.000 € für Kinder und Kinder verstorbener Kinder, 200.000 € für übrige Enkel, 100.000 € für die restliche Klasse I und 20.000 € in den Klassen II und III."
+            "Bei unbeschränkter Steuerpflicht betragen die Freibeträge 500.000 € für Ehegatten und Lebenspartner, 400.000 € für Kinder und Kinder verstorbener Kinder, 200.000 € für übrige Enkel, 100.000 € für die restliche Klasse I und 20.000 € in den Klassen II und III."
           ]
         },
         {
@@ -235,7 +235,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Du kennst die Anteile nach § 8 Nr. 1 GewStG: Schuldentgelte, Renten und dauernde Lasten sowie Gewinnanteile stiller Gesellschafter voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Rechteüberlassungen zu einem Viertel.",
-            "Du weißt, dass von der Summe ein Freibetrag von 200.000 € abgezogen und der Rest zu 25 % hinzugerechnet wird."
+            "Du weißt, dass von der Summe ein Freibetrag von 200.000 € abgezogen und der Rest zu 25 % hinzugerechnet wird."
           ]
         },
         {
@@ -255,7 +255,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Erst jeden Aufwand mit seinem Bruchteil gewichten, dann alles addieren: Der Freibetrag von 200.000 € wird einmal von der Summe abgezogen, hinzugerechnet wird ein Viertel des Rests."
+          "text": "Erst jeden Aufwand mit seinem Bruchteil gewichten, dann alles addieren: Der Freibetrag von 200.000 € wird einmal von der Summe abgezogen, hinzugerechnet wird ein Viertel des Rests."
         },
         {
           "art": "cta",
@@ -330,7 +330,7 @@
           "nummer": null,
           "titel": "Investitionsabzugsbetrag und Sonder-AfA",
           "unter": "Bilanzsteuerrecht",
-          "text": "Vorab bis zu 50 % abziehen, im Investitionsjahr bis zu 40 % Sonder-AfA: Wie greift § 7g EStG ineinander?",
+          "text": "Vorab bis zu 50 % abziehen, im Investitionsjahr bis zu 40 % Sonder-AfA: Wie greift § 7g EStG ineinander?",
           "norm": "§ 7g EStG",
           "icon": null,
           "sprecher": "Investitionsabzugsbetrag und Sonder-AfA nach § 7g EStG. Erst ziehst du künftige Kosten vorab ab, dann schreibst du im Investitionsjahr zusätzlich ab. So greifen beide Schritte ineinander.",
@@ -342,27 +342,27 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "IAB: bis zu 50 % der voraussichtlichen Kosten vorab abziehen",
+          "titel": "IAB: bis 50 % der Kosten vorab abziehen",
           "text": null,
           "norm": "§ 7g Abs. 1 EStG",
           "icon": null,
           "sprecher": "Schritt 1: Für ein künftiges bewegliches, abnutzbares Anlagegut, das fast ausschließlich betrieblich genutzt wird, ziehst du bis zu 50 % der voraussichtlichen Kosten ab. Voraussetzung: Der Gewinn ohne IAB liegt bei höchstens 200.000 €.",
           "marken": [
-            "Bis zu 50 % vorab",
-            "Gewinngrenze 200.000 €"
+            "Bis zu 50 % vorab",
+            "Gewinngrenze 200.000 €"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Investitionsjahr: hinzurechnen, Kosten mindern, bis zu 40 % Sonder-AfA",
+          "titel": "Investition: hinzurechnen, mindern, Sonder-AfA",
           "text": null,
           "norm": "§ 7g Abs. 2 und 5 EStG",
           "icon": null,
           "sprecher": "Schritt 2: Im Investitionsjahr rechnest du den IAB hinzu und kannst die Anschaffungskosten höchstens um diesen Betrag mindern. Von der geminderten Basis sind zusätzlich bis zu 40 % Sonder-AfA möglich.",
           "marken": [
             "Hinzurechnen und mindern",
-            "Sonder-AfA bis 40 %"
+            "Sonder-AfA bis 40 %"
           ]
         },
         {
@@ -604,7 +604,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-      "text": "Starte mit dem 90-%-Test: Ab 90 % Verwaltungsvermögen entfällt jede Verschonung (§ 13b Abs. 2 S. 2 ErbStG). Bei operativ tätigen Betrieben zählen Finanzmittel dabei nach Schuldenabzug, ohne 15-%-Sockel.",
+      "text": "Starte mit dem 90-%-Test: Ab 90 % Verwaltungsvermögen entfällt jede Verschonung (§ 13b Abs. 2 S. 2 ErbStG). Bei operativ tätigen Betrieben zählen Finanzmittel dabei nach Schuldenabzug, ohne 15-%-Sockel.",
       "liveVorrangAktiv": true
     },
     "s1": {

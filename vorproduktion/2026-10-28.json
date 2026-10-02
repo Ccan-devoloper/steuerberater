@@ -336,7 +336,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Betrieb, Mitunternehmeranteil oder wesentliche Betriebsgrundlage veräußert oder aufgegeben",
+          "titel": "Schädlich: Veräußerung oder Aufgabe",
           "text": null,
           "norm": "§ 13a Abs. 6 Nr. 1 ErbStG",
           "icon": null,
@@ -349,13 +349,13 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Überentnahmen über 150.000 €, Verkauf von KapG-Anteilen, Ende des Pools",
+          "titel": "Überentnahmen, KapG-Anteile, Ende des Pools",
           "text": null,
           "norm": "§ 13a Abs. 6 Nr. 3 bis 5 ErbStG",
           "icon": null,
           "sprecher": "Ebenfalls schädlich: Entnahmen, die Einlagen und Gewinne seit dem Erwerb um mehr als 150.000 Euro übersteigen, der Verkauf begünstigter Kapitalgesellschaftsanteile und das Aufheben einer Poolvereinbarung. Überentnahmen werden nicht zeitanteilig gekürzt.",
           "marken": [
-            "Überentnahme über 150.000 €",
+            "Überentnahme über 150.000 €",
             "Anteilsverkauf, Poolende"
           ]
         },

@@ -230,7 +230,7 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Erfasst werden Anteile an Kapitalgesellschaften im Privatvermögen, wenn der Veräußerer innerhalb der fünf Jahre vor dem Verkauf zu irgendeinem Zeitpunkt mit mindestens 1 % beteiligt war.",
+            "Erfasst werden Anteile an Kapitalgesellschaften im Privatvermögen, wenn der Veräußerer innerhalb der fünf Jahre vor dem Verkauf zu irgendeinem Zeitpunkt mit mindestens 1 % beteiligt war.",
             "Der Gewinn gehört zu den gewerblichen Einkünften, die Anteile bleiben aber steuerlich Privatvermögen; Gewerbesteuer fällt nicht an und § 34 EStG ist ausgeschlossen."
           ]
         },
@@ -244,14 +244,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Die höchste Beteiligungsquote in den fünf Jahren vor dem Verkauf ermitteln und mit der Schwelle von 1 % gegenüberstellen."
+              "text": "Die höchste Beteiligungsquote in den fünf Jahren vor dem Verkauf ermitteln und mit der Schwelle von 1 % gegenüberstellen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Gewinn = Veräußerungspreis minus Veräußerungskosten minus Anschaffungskosten (§ 17 Abs. 2 EStG); davon sind 60 % steuerpflichtig (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG), ggf. gemindert um den Freibetrag nach § 17 Abs. 3 EStG. Unter 1 % gilt stattdessen § 20 Abs. 2 S. 1 Nr. 1 EStG."
+          "text": "Gewinn = Veräußerungspreis minus Veräußerungskosten minus Anschaffungskosten (§ 17 Abs. 2 EStG); davon sind 60 % steuerpflichtig (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG), ggf. gemindert um den Freibetrag nach § 17 Abs. 3 EStG. Unter 1 % gilt stattdessen § 20 Abs. 2 S. 1 Nr. 1 EStG."
         },
         {
           "art": "cta",
@@ -339,7 +339,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Beim Übernehmer: Übernahmegewinn oder -verlust bleibt gewerbesteuerfrei",
+          "titel": "Übernehmer: Übernahmeergebnis gewerbesteuerfrei",
           "text": null,
           "norm": "§ 18 Abs. 2 UmwStG",
           "icon": null,
@@ -351,7 +351,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Verkauf oder Aufgabe binnen fünf Jahren: Gewinn unterliegt der Gewerbesteuer",
+          "titel": "Verkauf binnen fünf Jahren: Gewerbesteuer",
           "text": null,
           "norm": "§ 18 Abs. 3 UmwStG",
           "icon": null,

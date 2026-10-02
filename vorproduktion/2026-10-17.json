@@ -232,8 +232,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Der Satz richtet sich nach Steuerklasse und Höhe des auf volle 100 € abgerundeten Erwerbs; in Klasse I reicht er von 7 % bis 30 %, in Klasse II von 15 % bis 43 %, in Klasse III beträgt er 30 % oder 50 %.",
-            "Die Wertgrenzen liegen bei 75.000 €, 300.000 €, 600.000 €, 6 Mio. €, 13 Mio. € und 26 Mio. €."
+            "Der Satz richtet sich nach Steuerklasse und Höhe des auf volle 100 € abgerundeten Erwerbs; in Klasse I reicht er von 7 % bis 30 %, in Klasse II von 15 % bis 43 %, in Klasse III beträgt er 30 % oder 50 %.",
+            "Die Wertgrenzen liegen bei 75.000 €, 300.000 €, 600.000 €, 6 Mio. €, 13 Mio. € und 26 Mio. €."
           ]
         },
         {
@@ -242,7 +242,7 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden (§ 10 Abs. 1 S. 6 ErbStG)."
+              "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden (§ 10 Abs. 1 S. 6 ErbStG)."
             },
             {
               "titel": "2. Schritt",
@@ -250,7 +250,7 @@
             },
             {
               "titel": "3. Schritt",
-              "text": "Knapp über einer Wertgrenze: Härteausgleich nach § 19 Abs. 3 ErbStG. Die Mehrsteuer darf höchstens die Hälfte (Satz bis 30 %) bzw. drei Viertel (Satz über 30 %) des Überhangs betragen."
+              "text": "Knapp über einer Wertgrenze: Härteausgleich nach § 19 Abs. 3 ErbStG. Die Mehrsteuer darf höchstens die Hälfte (Satz bis 30 %) bzw. drei Viertel (Satz über 30 %) des Überhangs betragen."
             }
           ]
         },
@@ -357,7 +357,7 @@
           "icon": null,
           "sprecher": "Gekaufte Anteile zählen nur, wenn sie die ganzen letzten fünf Jahre zu einer Beteiligung von mindestens einem Prozent gehörten. Ausnahme: Ihr Erwerb hat diese Beteiligung erst begründet oder sie kamen danach hinzu.",
           "marken": [
-            "Fünf Jahre mindestens 1 %",
+            "Fünf Jahre mindestens 1 %",
             "Ausnahme: begründender Zukauf"
           ]
         },
@@ -365,11 +365,11 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Ein Verlust nach § 17 EStG wirkt zu 60 % (§ 3c Abs. 2 EStG), außer § 17 Abs. 2 S. 6 EStG sperrt ihn wegen unentgeltlichen Erwerbs oder zu kurzer wesentlicher Beteiligung.",
+          "text": "Ein Verlust nach § 17 EStG wirkt zu 60 % (§ 3c Abs. 2 EStG), außer § 17 Abs. 2 S. 6 EStG sperrt ihn wegen unentgeltlichen Erwerbs oder zu kurzer wesentlicher Beteiligung.",
           "sprecher": "Merke: Ein Verlust aus Anteilen zählt nur, wenn die Fünf-Jahres-Regeln erfüllt sind. Dann wirkt er nach dem Teileinkünfteverfahren zu 60 Prozent.",
           "marken": [
             "Fünf Jahre beachten",
-            "Verlust zu 60 %"
+            "Verlust zu 60 %"
           ]
         },
         {

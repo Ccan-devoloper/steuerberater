@@ -224,7 +224,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Nutzungen wie Nießbrauch oder Wohnrecht fließen aus einem fremden Wirtschaftsgut zu, Leistungen wie Renten beruhen auf einem Schuldverhältnis; der Unterschied zählt wegen § 16 BewG.",
-            "Jahreswert (§ 15 BewG): bei Geldleistungen die jährlichen Zahlungen, bei der Nutzung einer Geldsumme 5,5 %, bei Sachbezügen übliche Mittelpreise am Verbrauchsort, bei schwankenden Nutzungen der künftig erwartete Durchschnitt, meist aus den Vorjahren geschätzt."
+            "Jahreswert (§ 15 BewG): bei Geldleistungen die jährlichen Zahlungen, bei der Nutzung einer Geldsumme 5,5 %, bei Sachbezügen übliche Mittelpreise am Verbrauchsort, bei schwankenden Nutzungen der künftig erwartete Durchschnitt, meist aus den Vorjahren geschätzt."
           ]
         },
         {
@@ -329,7 +329,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Begünstigt: Betrieb, Teilbetrieb, Mitunternehmeranteil oder GmbH-Anteil ab 50 %",
+          "titel": "Begünstigt: Betrieb, MU-Anteil, GmbH ab 50 %",
           "text": null,
           "norm": "§ 10 Abs. 1a Nr. 2 EStG",
           "icon": null,
@@ -342,7 +342,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Lebenslang an unbeschränkt Steuerpflichtige: voller Abzug, Empfänger versteuert",
+          "titel": "Lebenslang: voller Abzug, Empfänger versteuert",
           "text": null,
           "norm": "§ 22 Nr. 1a EStG",
           "icon": null,

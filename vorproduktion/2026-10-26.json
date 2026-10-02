@@ -337,7 +337,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Wer: nur der Unternehmer, der den Verlust erlitten hat",
+          "titel": "Wer: nur, wer den Verlust erlitten hat",
           "text": null,
           "norm": "§ 10a GewStG",
           "icon": null,
@@ -350,7 +350,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Wann: derselbe Betrieb, erst in späteren Erhebungszeiträumen",
+          "titel": "Wann: derselbe Betrieb, spätere Jahre",
           "text": null,
           "norm": "R 10a.2 GewStR",
           "icon": null,
@@ -364,10 +364,10 @@
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bis 1 Mio. € voll, vom übersteigenden Gewerbeertrag nur 60 %. Die 70 % aus § 10d EStG gelten hier nicht.",
+          "text": "Bis 1 Mio. € voll, vom übersteigenden Gewerbeertrag nur 60 %. Die 70 % aus § 10d EStG gelten hier nicht.",
           "sprecher": "Wie weit: Bis eine Million Euro Gewerbeertrag ist der Abzug unbegrenzt, darüber nur zu 60 Prozent. Die befristeten 70 Prozent gelten nur bei Einkommen- und Körperschaftsteuer.",
           "marken": [
-            "1 Mio. € plus 60 %"
+            "1 Mio. € plus 60 %"
           ]
         },
         {
@@ -503,7 +503,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 9 AStG",
       "titel": "§ 9 AStG: relative und absolute Freigrenze",
-      "text": "Zwischeneinkünfte bleiben außer Ansatz, wenn sie höchstens ein Drittel der gesamten Einkünfte der Gesellschaft ausmachen und insgesamt 100.000 € nicht übersteigen. Freigrenze: beide Grenzen prüfen.",
+      "text": "Zwischeneinkünfte bleiben außer Ansatz, wenn sie höchstens ein Drittel der gesamten Einkünfte der Gesellschaft ausmachen und insgesamt 100.000 € nicht übersteigen. Freigrenze: beide Grenzen prüfen.",
       "liveVorrangAktiv": true
     },
     "s7": {

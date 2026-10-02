@@ -230,8 +230,8 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Erst bilanziell lösen, die Steuerfreistellung folgt außerbilanziell.",
-            "Dividende und Veräußerungsgewinn sind steuerfrei, je 5 % gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 1 bis 3, 5 KStG).",
-            "Streubesitz unter 10 % zu Beginn des Kalenderjahres: Dividende voll steuerpflichtig (§ 8b Abs. 4 KStG)."
+            "Dividende und Veräußerungsgewinn sind steuerfrei, je 5 % gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 1 bis 3, 5 KStG).",
+            "Streubesitz unter 10 % zu Beginn des Kalenderjahres: Dividende voll steuerpflichtig (§ 8b Abs. 4 KStG)."
           ]
         },
         {
@@ -251,7 +251,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Gewinne aus Anteilen bleiben im Ergebnis zu 95 % steuerfrei, Verluste und Teilwertabschreibungen wirken sich gar nicht aus. Ausnahme: Streubesitzdividenden sind voll steuerpflichtig."
+          "text": "Gewinne aus Anteilen bleiben im Ergebnis zu 95 % steuerfrei, Verluste und Teilwertabschreibungen wirken sich gar nicht aus. Ausnahme: Streubesitzdividenden sind voll steuerpflichtig."
         },
         {
           "art": "cta",
@@ -341,7 +341,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Rechtsfähige Personengesellschaft: Sie selbst ist einspruchsbefugt",
+          "titel": "Die PersG selbst ist einspruchsbefugt",
           "text": null,
           "norm": "§ 352 Abs. 1 AO",
           "icon": null,
@@ -353,7 +353,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Einzelne Gesellschafter: nur mit besonderer Zusatzbefugnis",
+          "titel": "Gesellschafter nur mit Zusatzbefugnis",
           "text": null,
           "norm": "§ 352 Abs. 1 AO",
           "icon": null,

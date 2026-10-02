@@ -233,7 +233,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Erhebungszeitraum ist das Kalenderjahr. Bei abweichendem Wirtschaftsjahr gilt der Gewinn in dem Jahr als bezogen, in dem das Wirtschaftsjahr endet (§ 10 Abs. 2 GewStG).",
-            "Reihenfolge: Gewerbeertrag nach Verlustabzug auf volle 100 € abrunden, Freibetrag abziehen, mit 3,5 % multiplizieren."
+            "Reihenfolge: Gewerbeertrag nach Verlustabzug auf volle 100 € abrunden, Freibetrag abziehen, mit 3,5 % multiplizieren."
           ]
         },
         {
@@ -246,18 +246,18 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Auf volle 100 € abrunden, Freibetrag 24.500 € nur bei Personenunternehmen (§ 11 Abs. 1 S. 3 GewStG)."
+              "text": "Auf volle 100 € abrunden, Freibetrag 24.500 € nur bei Personenunternehmen (§ 11 Abs. 1 S. 3 GewStG)."
             },
             {
               "titel": "3. Schritt",
-              "text": "Mal 3,5 % ergibt den Messbetrag (§ 11 Abs. 2 GewStG), dieser mal Hebesatz der Gemeinde (§ 16 Abs. 1 GewStG) die Gewerbesteuer."
+              "text": "Mal 3,5 % ergibt den Messbetrag (§ 11 Abs. 2 GewStG), dieser mal Hebesatz der Gemeinde (§ 16 Abs. 1 GewStG) die Gewerbesteuer."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Abrunden, bei Personenunternehmen 24.500 € Freibetrag abziehen, mal 3,5 % gleich Messbetrag, mal Hebesatz gleich Gewerbesteuer. Als Betriebsausgabe abziehbar ist sie nicht (§ 4 Abs. 5b EStG)."
+          "text": "Abrunden, bei Personenunternehmen 24.500 € Freibetrag abziehen, mal 3,5 % gleich Messbetrag, mal Hebesatz gleich Gewerbesteuer. Als Betriebsausgabe abziehbar ist sie nicht (§ 4 Abs. 5b EStG)."
         },
         {
           "art": "cta",
@@ -355,7 +355,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Stichtag: Kursanstieg erhöht, steuerlich nur bei dauernder Erhöhung",
+          "titel": "Stichtag: steuerlich nur dauernde Erhöhung",
           "text": null,
           "norm": "§ 256a HGB, § 6 Abs. 1 Nr. 3 EStG",
           "icon": null,

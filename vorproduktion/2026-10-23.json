@@ -231,7 +231,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Begünstigt ist der gemeine Wert des begünstigungsfähigen Vermögens, soweit er den Nettowert des Verwaltungsvermögens nach Kürzung um den unschädlichen Teil übersteigt.",
-            "Unschädlich sind nach § 13b Abs. 7 ErbStG 10 % des Betriebswerts, der zuvor um den Nettowert des Verwaltungsvermögens vermindert wurde."
+            "Unschädlich sind nach § 13b Abs. 7 ErbStG 10 % des Betriebswerts, der zuvor um den Nettowert des Verwaltungsvermögens vermindert wurde."
           ]
         },
         {
@@ -248,14 +248,14 @@
             },
             {
               "titel": "3. Schritt",
-              "text": "Unter 90 %: gemeinen Wert um den Nettowert des Verwaltungsvermögens mindern, soweit er den unschädlichen Teil übersteigt (§ 13b Abs. 6, 7 ErbStG)."
+              "text": "Unter 90 %: gemeinen Wert um den Nettowert des Verwaltungsvermögens mindern, soweit er den unschädlichen Teil übersteigt (§ 13b Abs. 6, 7 ErbStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Ab 90 % Verwaltungsvermögen fällt die Verschonung komplett weg. Darunter bleibt nur der Nettowert des Verwaltungsvermögens oberhalb des unschädlichen Teils unbegünstigt."
+          "text": "Ab 90 % Verwaltungsvermögen fällt die Verschonung komplett weg. Darunter bleibt nur der Nettowert des Verwaltungsvermögens oberhalb des unschädlichen Teils unbegünstigt."
         },
         {
           "art": "cta",
@@ -344,7 +344,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Einkunftsart bestimmen und den Katalog des § 49 Abs. 1 EStG prüfen",
+          "titel": "Einkunftsart und § 49 Abs. 1 EStG prüfen",
           "text": null,
           "norm": "§ 49 Abs. 1 EStG",
           "icon": null,

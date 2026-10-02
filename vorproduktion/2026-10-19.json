@@ -243,7 +243,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Übersteigen Instandsetzung und Modernisierung in den ersten drei Jahren nach Anschaffung netto 15 % der Gebäude-Anschaffungskosten, werden sie zu Herstellungskosten und laufen über die Gebäude-AfA (§ 6 Abs. 1 Nr. 1a, § 7 Abs. 4 EStG). Sonst bleiben sie sofort abziehbarer Erhaltungsaufwand."
+          "text": "Übersteigen Instandsetzung und Modernisierung in den ersten drei Jahren nach Anschaffung netto 15 % der Gebäude-Anschaffungskosten, werden sie zu Herstellungskosten und laufen über die Gebäude-AfA (§ 6 Abs. 1 Nr. 1a, § 7 Abs. 4 EStG). Sonst bleiben sie sofort abziehbarer Erhaltungsaufwand."
         },
         {
           "art": "cta",
@@ -333,7 +333,7 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Einfacher Brief: vierter Tag nach Aufgabe zur Post, ins Ausland ein Monat",
+          "titel": "Brief: vierter Tag, ins Ausland ein Monat",
           "text": null,
           "norm": "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
           "icon": null,
@@ -345,7 +345,7 @@
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Elektronisch oder zum Abruf: ebenfalls der vierte Tag",
+          "titel": "Elektronisch: ebenfalls der vierte Tag",
           "text": null,
           "norm": "§ 122 Abs. 2a AO",
           "icon": null,
@@ -444,7 +444,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
       "frage": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
-      "titel": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
+      "titel": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
       "optionen": [
         "auf den Beteiligungsbuchwert",
         "auf den steuerfreien Ertrag",
@@ -479,7 +479,7 @@
         "auf das Einkommen"
       ],
       "richtig": 1,
-      "text": "5 % der steuerfreien Bezüge bzw. des Veräußerungsgewinns gelten als nicht abziehbare Betriebsausgaben. Die tatsächlichen Beteiligungsaufwendungen spielen dafür keine Rolle und bleiben abziehbar.",
+      "text": "5 % der steuerfreien Bezüge bzw. des Veräußerungsgewinns gelten als nicht abziehbare Betriebsausgaben. Die tatsächlichen Beteiligungsaufwendungen spielen dafür keine Rolle und bleiben abziehbar.",
       "liveVorrangAktiv": true
     },
     "s6": {

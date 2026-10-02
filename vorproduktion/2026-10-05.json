@@ -397,7 +397,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
       "frage": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
-      "titel": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
+      "titel": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
       "optionen": [
         "0 €",
         "5.150 €",
@@ -426,14 +426,14 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "5.150 €",
+      "titel": "5.150 €",
       "optionen": [
         "0 €",
         "5.150 €",
         "103.000 €"
       ],
       "richtig": 1,
-      "text": "Der Veräußerungsgewinn ist nach § 8b Abs. 2 KStG steuerfrei, 5 % davon gelten aber als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG): 5 % von 103.000 € = 5.150 €.",
+      "text": "Der Veräußerungsgewinn ist nach § 8b Abs. 2 KStG steuerfrei, 5 % davon gelten aber als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG): 5 % von 103.000 € = 5.150 €.",
       "liveVorrangAktiv": true
     },
     "s6": {
