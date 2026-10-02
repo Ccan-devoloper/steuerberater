@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-10-02T11:20:58.320Z",
+  "erzeugtAm": "2026-10-02T11:31:27.699Z",
   "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
@@ -75,7 +75,7 @@
             "2026-10-02-b3.mp4"
           ],
           "reel": {
-            "dauer": 51.010000000000005,
+            "dauer": 51.73000000000001,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
