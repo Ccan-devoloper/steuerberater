@@ -6893,21 +6893,21 @@
       "fach": "kst",
       "titel": "2 KStG?",
       "insights": {
-        "reach": 6,
-        "views": 27,
+        "reach": 18,
+        "views": 43,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_forward": 9,
-        "navigation_tap_exit": 1,
-        "navigation_tap_back": 3
+        "navigation": 37,
+        "navigation_tap_forward": 26,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-10-02T06:45:14.332Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-02T11:21:17.301Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-02",
@@ -6921,21 +6921,21 @@
       "fach": "kst",
       "titel": "nein",
       "insights": {
-        "reach": 5,
-        "views": 25,
+        "reach": 16,
+        "views": 35,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_forward": 6,
-        "navigation_tap_back": 10,
-        "navigation_tap_exit": 2
+        "navigation": 30,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 13,
+        "navigation_tap_forward": 14
       },
-      "insightsStand": "2026-10-02T06:45:14.332Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-02T11:21:17.301Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-02",
@@ -6959,17 +6959,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 24,
+        "reach": 32,
         "saved": 0,
         "shares": 0,
         "likes": 0,
-        "comments": 1,
-        "total_interactions": 1,
+        "comments": 2,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-02T09:44:33.398Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-02T11:21:19.548Z",
+      "insightsAlterStunden": 4.6
     },
     {
       "datum": "2026-10-02",

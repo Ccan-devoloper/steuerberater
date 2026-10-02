@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T10:44:26.971Z",
+  "stand": "2026-10-02T11:21:19.548Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11275,6 +11275,22 @@
           "navigation_tap_forward": 9,
           "navigation_tap_exit": 1,
           "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-10-02T11:21:17.301Z",
+          "alterStunden": 5.6,
+          "reach": 18,
+          "views": 43,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 37,
+          "navigation_tap_forward": 26,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 9
         }
       ]
     },
@@ -11303,6 +11319,22 @@
           "navigation_tap_forward": 6,
           "navigation_tap_back": 10,
           "navigation_tap_exit": 2
+        },
+        {
+          "stand": "2026-10-02T11:21:17.301Z",
+          "alterStunden": 5.6,
+          "reach": 16,
+          "views": 35,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 13,
+          "navigation_tap_forward": 14
         }
       ]
     },
@@ -11337,6 +11369,18 @@
           "likes": 0,
           "comments": 1,
           "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-02T11:21:19.548Z",
+          "alterStunden": 4.6,
+          "reach": 32,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 2,
+          "total_interactions": 2,
           "follows": 0,
           "profile_visits": 2
         }
