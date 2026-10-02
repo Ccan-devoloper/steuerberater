@@ -132,18 +132,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Den Vorgang einordnen, etwa Einbringung, Anteilserwerb oder personenbezogene Steuervergünstigung, und den steuerlich maßgebenden Wert für den Gesellschafter bestimmen."
+              "text": "Vorgang einordnen (Anteilskauf, Einbringung, personenbezogene Vergünstigung) und den steuerlichen Wert für den Gesellschafter bestimmen."
             },
             {
               "titel": "2. Schritt",
-              "text": "Den Ansatz in der Gesamthandsbilanz ermitteln, der sich meist nach dem Handelsrecht oder dem Gesellschaftsvertrag richtet."
+              "text": "Ansatz in der Gesamthandsbilanz ermitteln."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Differenz als Mehr- oder Minderwert in die Ergänzungsbilanz einstellen und wie das Wirtschaftsgut fortführen (AfA, Abgang)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Gesamthandsbilanz plus Ergänzungsbilanz ergibt den steuerlichen Wert für den einzelnen Mitunternehmer. Mehr- und Minderwerte teilen das Schicksal des Wirtschaftsguts."
         },
         {
           "art": "cta",
@@ -160,7 +164,7 @@
           ]
         }
       ],
-      "caption": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Eine Ergänzungsbilanz korrigiert die Gesamthandsbilanz für einen einzelnen Mitunternehmer, etwa nach einem Anteilskauf über Buchwert oder einer Einbringung. Die Mehr- und Minderwerte führst du wie das Wirtschaftsgut selbst fort.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -228,18 +232,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Reguläre Festsetzungsfrist berechnen und mit dem tatsächlichen Beginn der Prüfungshandlungen gegenüberstellen."
+              "text": "Reguläre Festsetzungsfrist berechnen: Begannen die Prüfungshandlungen vor ihrem Ablauf?"
             },
             {
               "titel": "2. Schritt",
               "text": "Reichweite der Hemmung danach bestimmen, welche Steuern und Jahre die Anordnung erfasst."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Ende bestimmen: Unanfechtbarkeit der Auswertungsbescheide oder drei Monate nach Mitteilung ohne Änderungen (§ 202 Abs. 1 S. 3 AO); Höchstgrenze in § 171 Abs. 4 S. 3 AO beachten."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ohne echten Prüfungsbeginn oder Verschiebungsantrag vor Fristablauf keine Hemmung. Unterbricht das Finanzamt unmittelbar nach Beginn länger als sechs Monate, entfällt sie (§ 171 Abs. 4 S. 2 AO)."
         },
         {
           "art": "cta",
@@ -256,7 +264,7 @@
           ]
         }
       ],
-      "caption": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Eine Außenprüfung hemmt den Ablauf der Festsetzungsfrist nur, wenn sie vor Fristablauf ernsthaft begonnen hat oder auf Antrag verschoben wurde (§ 171 Abs. 4 AO), und nur für die Steuern und Jahre aus der Prüfungsanordnung.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -277,6 +285,7 @@
         "§ 193 AO",
         "§ 124 Abs. 1 AO",
         "§ 164 Abs. 1, Abs. 2, Abs. 4 Sätze 1 und 2 AO",
+        "§ 171 Abs. 4 S. 2 AO",
         "Themenpool: ao-aufb-ao-jacobs-6-10"
       ],
       "coverRegie": {
@@ -344,7 +353,7 @@
           ]
         }
       ],
-      "caption": "Morgen beginnt die schriftliche Prüfung. Heute Abend nichts mehr lernen, sondern Kraft sammeln. Du hast monatelang vorbereitet – das trägt dich durch die drei Tage. 💪",
+      "caption": "Morgen beginnt die schriftliche Prüfung. Heute Abend nichts mehr lernen, sondern Kraft sammeln. Du hast dich monatelang vorbereitet – das trägt dich durch die drei Tage.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -375,6 +384,8 @@
       "fachLabel": "Körperschaftsteuer",
       "pairId": "kst-quiz-kst-13",
       "quellen": [
+        "§ 8b Abs. 2 KStG",
+        "§ 8b Abs. 3 S. 1 KStG",
         "Themenpool: kst-quiz-kst-13"
       ],
       "regelGeprueft": true,
@@ -385,14 +396,14 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Wie hoch ist das zvE der CS-GmbH in der hochgeladenen Lösung?",
-      "titel": "Wie hoch ist das zvE der CS-GmbH in der hochgeladenen Lösung?",
+      "frage": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
+      "titel": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
       "optionen": [
         "0 €",
-        "5.000 €",
-        "5.150 €"
+        "5.150 €",
+        "103.000 €"
       ],
-      "richtig": 2,
+      "richtig": 1,
       "liveVorrangAktiv": true
     },
     "s5": {
@@ -403,6 +414,8 @@
       "fachLabel": "Körperschaftsteuer",
       "pairId": "kst-quiz-kst-13",
       "quellen": [
+        "§ 8b Abs. 2 KStG",
+        "§ 8b Abs. 3 S. 1 KStG",
         "Themenpool: kst-quiz-kst-13"
       ],
       "regelGeprueft": true,
@@ -416,11 +429,11 @@
       "titel": "5.150 €",
       "optionen": [
         "0 €",
-        "5.000 €",
-        "5.150 €"
+        "5.150 €",
+        "103.000 €"
       ],
-      "richtig": 2,
-      "text": "Die Schlussrechnung der Lösung endet bei 5.150 €.",
+      "richtig": 1,
+      "text": "Der Veräußerungsgewinn ist nach § 8b Abs. 2 KStG steuerfrei, 5 % davon gelten aber als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG): 5 % von 103.000 € = 5.150 €.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -433,6 +446,7 @@
       "quellen": [
         "§ 2 Nr. 1 KStG",
         "§ 49 EStG",
+        "§ 8 Abs. 1 KStG",
         "Themenpool: istr-modul-istr-istr1-07"
       ],
       "regelGeprueft": true,
@@ -445,7 +459,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 2 Nr. 1 KStG",
       "titel": "Beschränkte Körperschaftsteuerpflicht mit Inlandseinkünften",
-      "text": "Persönliche KSt-Pflicht der ausländischen Gesellschaft von der sachlichen Inlandseinkunftsprüfung trennen. Bei Immobilien, Beteiligungen und Veräußerungen die für jeden Fall einschlägige §-49-Nummer untersuchen.",
+      "text": "Persönliche KSt-Pflicht der ausländischen Gesellschaft von der Prüfung der Inlandseinkünfte trennen. Welche Einkünfte inländisch sind, folgt über § 8 Abs. 1 KStG aus § 49 EStG: je Einkunftsquelle die passende Nummer.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -456,7 +470,7 @@
       "fachLabel": "Steuerberaterexamen",
       "ueberzeile": "Noch",
       "zahl": "1",
-      "titel": "Tage bis zum Examen",
+      "titel": "Tag bis zum Examen",
       "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
       "fortschritt": 0,
       "freigabeBetreiber": true,

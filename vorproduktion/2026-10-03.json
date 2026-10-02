@@ -129,8 +129,9 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Ereignisfrist erkennen",
-            "Fristbeginn nach § 187 BGB bestimmen"
+            "Ereignisfrist: Der Ereignistag, etwa der Tag der Bekanntgabe, zählt nicht mit (§ 187 Abs. 1 BGB).",
+            "Eine Monatsfrist endet mit Ablauf des Tages mit derselben Zahl wie der Ereignistag (§ 188 Abs. 2 BGB).",
+            "Endet sie an einem Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO)."
           ]
         },
         {
@@ -139,18 +140,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Fristauslösendes Ereignis feststellen."
+              "text": "Ereignis feststellen, z. B. Bekanntgabe: bei Postversand im Inland am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO)."
             },
             {
               "titel": "2. Schritt",
-              "text": "Beginn nach § 187 BGB bestimmen; bei Ereignisfrist beginnt die Frist nach dem Ereignistag."
+              "text": "Beginn: Die Frist läuft ab dem Tag nach dem Ereignis (§ 187 Abs. 1 BGB)."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Ende nach § 188 Abs. 2 BGB berechnen, dann Wochenende und Feiertag prüfen (§ 108 Abs. 3 AO)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Fristenberechnung nach § 108 AO und §§ 187, 188 BGB: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ereignistag nicht mitzählen, Ende über § 188 Abs. 2 BGB bestimmen, dann Kalender prüfen: Ein Samstag, Sonntag oder Feiertag schiebt das Fristende auf den nächsten Werktag (§ 108 Abs. 3 AO)."
         },
         {
           "art": "cta",
@@ -167,7 +172,7 @@
           ]
         }
       ],
-      "caption": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Fristen in der AO-Klausur: Ereignistag nicht mitzählen (§ 187 Abs. 1 BGB), Ende nach § 188 Abs. 2 BGB bestimmen und an Wochenende oder Feiertag denken (§ 108 Abs. 3 AO).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -183,6 +188,9 @@
         "§ 188 BGB",
         "§ 108 Abs. 3 AO",
         "§§ 187, 188 BGB",
+        "§ 187 Abs. 1 BGB",
+        "§ 188 Abs. 2 BGB",
+        "§ 122 Abs. 2 Nr. 1 AO",
         "Themenpool: ao-modul-ao-314"
       ],
       "coverRegie": {
@@ -224,8 +232,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Du weißt, dass Erhebungszeitraum das Kalenderjahr ist und bei abweichendem Wirtschaftsjahr der Gewinn im Jahr seines Endes erfasst wird.",
-            "Du kannst die Reihenfolge anwenden: Gewerbeertrag nach Verlustabzug auf volle 100 € abrunden, Freibetrag abziehen, mit 3,5 % multiplizieren."
+            "Erhebungszeitraum ist das Kalenderjahr. Bei abweichendem Wirtschaftsjahr gilt der Gewinn in dem Jahr als bezogen, in dem das Wirtschaftsjahr endet (§ 10 Abs. 2 GewStG).",
+            "Reihenfolge: Gewerbeertrag nach Verlustabzug auf volle 100 € abrunden, Freibetrag abziehen, mit 3,5 % multiplizieren."
           ]
         },
         {
@@ -234,18 +242,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Ermittle den maßgebenden Gewerbeertrag aus Gewinn, Hinzurechnungen und Kürzungen und ziehe den Gewerbeverlust ab."
+              "text": "Gewinn plus Hinzurechnungen minus Kürzungen, abzüglich Gewerbeverlust (§§ 7 bis 10a GewStG)."
             },
             {
               "titel": "2. Schritt",
-              "text": "Runde das Ergebnis auf volle 100 € ab und ziehe bei Personenunternehmen den Freibetrag von 24.500 € ab."
+              "text": "Auf volle 100 € abrunden, Freibetrag 24.500 € nur bei Personenunternehmen (§ 11 Abs. 1 S. 3 GewStG)."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Mal 3,5 % ergibt den Messbetrag (§ 11 Abs. 2 GewStG), dieser mal Hebesatz der Gemeinde (§ 16 Abs. 1 GewStG) die Gewerbesteuer."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Abrunden, bei Personenunternehmen 24.500 € Freibetrag abziehen, mal 3,5 % gleich Messbetrag, mal Hebesatz gleich Gewerbesteuer. Als Betriebsausgabe abziehbar ist sie nicht (§ 4 Abs. 5b EStG)."
         },
         {
           "art": "cta",
@@ -262,7 +274,7 @@
           ]
         }
       ],
-      "caption": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "So entsteht die Gewerbesteuer: Gewerbeertrag auf volle 100 € abrunden, Freibetrag von 24.500 € nur bei Personenunternehmen, Messzahl 3,5 %, zuletzt der Hebesatz der Gemeinde.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -281,6 +293,8 @@
         "§ 10a GewStG",
         "§ 4 Abs. 5b EStG",
         "R 7.1 GewStR",
+        "§ 11 Abs. 1 S. 3 GewStG",
+        "§ 11 Abs. 2 GewStG",
         "Themenpool: gewst-aufb-gewst-ks-07"
       ],
       "coverRegie": {
@@ -318,46 +332,47 @@
           "nummer": null,
           "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
           "unter": "Bilanzsteuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 6 Abs. 1 EStG",
+          "text": "Kurs gestiegen oder gefallen: Welcher Euro-Wert gehört in Handels- und Steuerbilanz?",
+          "norm": "§ 256a HGB",
           "icon": null,
-          "sprecher": "Heute geht es um Fremdwährungsschulden am Bilanzstichtag richtig umrechnen. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Der Wechselkurs hat sich seit der Darlehensaufnahme bewegt. Welcher Euro-Betrag gehört jetzt in Handels- und Steuerbilanz?",
           "marken": [
-            "Handelsrechtlich ist nach § 256a HGB zum"
+            "Zugangskurs oder Stichtagskurs?"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Die Verbindlichkeit bei Zugang mit dem Kurs im Entstehungszeitpunkt umrechnen.",
+          "titel": "Zugang: Rückzahlungsbetrag zum Kurs im Entstehungszeitpunkt umrechnen",
           "text": null,
-          "norm": "§ 6 Abs. 1 EStG",
+          "norm": "§ 253 Abs. 1 S. 2 HGB",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 6 Abs. 1 EStG im Zusammenhang mit Fremdwährungsschulden am Bilanzstichtag richtig umrechnen.",
+          "sprecher": "Bei Aufnahme rechnest du den Rückzahlungsbetrag mit dem Kurs am Entstehungstag in Euro um. Dieser Zugangswert ist der Ausgangspunkt für jeden Stichtag.",
           "marken": [
-            "Prüfpunkt 1"
+            "Kurs bei Entstehung"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 253 Abs. 1 HGB",
+          "titel": "Stichtag: Kursanstieg erhöht, steuerlich nur bei dauernder Erhöhung",
           "text": null,
-          "norm": "§ 253 Abs. 1 HGB",
+          "norm": "§ 256a HGB, § 6 Abs. 1 Nr. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 253 Abs. 1 HGB im Zusammenhang mit Fremdwährungsschulden am Bilanzstichtag richtig umrechnen.",
+          "sprecher": "Handelsrechtlich rechnest du zum Devisenkassamittelkurs um, unter den Zugangswert aber nur bei Restlaufzeit bis zu einem Jahr. In der Steuerbilanz setzt du den höheren Teilwert nur bei voraussichtlich dauernder Erhöhung an.",
           "marken": [
-            "Prüfpunkt 2"
+            "HGB: Devisenkassamittelkurs",
+            "EStG: nur dauernde Erhöhung"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Fremdwährungsschulden am Bilanzstichtag richtig umrechnen: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Steuerbilanz: nie unter den Zugangswert, darüber nur bei voraussichtlich dauernder Kurssteigerung.",
+          "sprecher": "Merke: In der Steuerbilanz nie unter den Zugangswert. Darüber nur, wenn der Kursanstieg voraussichtlich dauerhaft ist – bei langer Restlaufzeit ist das regelmäßig nicht der Fall.",
           "marken": [
-            "Merksatz"
+            "Zugangswert ist Untergrenze"
           ]
         },
         {
@@ -367,13 +382,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Fremdwährungsschulden am Bilanzstichtag: Zugang zum Kurs bei Entstehung, Stichtag nach § 256a HGB, steuerlich ein höherer Teilwert nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -387,6 +401,10 @@
         "§ 6 Abs. 1 EStG",
         "§ 253 Abs. 1 HGB",
         "§ 5 Abs. 6 EStG",
+        "§ 256a HGB",
+        "§ 253 Abs. 1 S. 2 HGB",
+        "§ 6 Abs. 1 Nr. 3 EStG",
+        "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
         "Themenpool: bilanz-aufb-bil-melzer-10-03"
       ],
       "coverRegie": {
@@ -418,6 +436,7 @@
       "fachLabel": "Körperschaftsteuer",
       "pairId": "kst-quiz-kst-2",
       "quellen": [
+        "§ 8 Abs. 3 S. 2 KStG",
         "Themenpool: kst-quiz-kst-2"
       ],
       "regelGeprueft": true,
@@ -446,6 +465,7 @@
       "fachLabel": "Körperschaftsteuer",
       "pairId": "kst-quiz-kst-2",
       "quellen": [
+        "§ 8 Abs. 3 S. 2 KStG",
         "Themenpool: kst-quiz-kst-2"
       ],
       "regelGeprueft": true,
@@ -463,7 +483,7 @@
         "das Finanzamt"
       ],
       "richtig": 1,
-      "text": "Die Vorprüfung der Unterlagen lautet: Vorteil beim Gesellschafter → vGA.",
+      "text": "Bei einer vGA mindert sich das Vermögen der Gesellschaft oder es mehrt sich nicht; den Vorteil hat der Gesellschafter oder eine nahestehende Person, veranlasst durch das Gesellschaftsverhältnis (§ 8 Abs. 3 S. 2 KStG).",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -491,9 +511,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 1 EStG",
+      "norm": "§ 2 Abs. 7 S. 3 EStG",
       "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
-      "text": "Wegzugsdatum und Zeiträume vor/nach Wegzug zuerst auf einer Zeitachse festhalten. Auslandseinkünfte während der nicht unbeschränkten Phase für § 32b untersuchen.",
+      "text": "Ein Jahr, eine Veranlagung: Inländische Einkünfte nach dem Wegzug fließen in die unbeschränkte Veranlagung ein (§ 2 Abs. 7 S. 3 EStG). Ausländische Einkünfte dieser Phase erhöhen nur den Steuersatz (§ 32b EStG).",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -529,6 +549,7 @@
         "§ 6 AStG",
         "§ 6 Abs. 1–5 AStG",
         "§ 17 Abs. 1 EStG",
+        "§ 6 Abs. 4 AStG",
         "Themenpool: istr-modul-istr-istr3-08"
       ],
       "regelGeprueft": true,
@@ -540,7 +561,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
-      "text": "Anteil i.S.d. § 17 Abs. 1 S. 1 EStG und natürlichen Anteilseigner feststellen.",
+      "text": "Prüfe: Anteil i. S. d. § 17 EStG, mindestens 7 der letzten 12 Jahre unbeschränkt steuerpflichtig (§ 6 Abs. 2 AStG), Wegzug. Folge: fiktive Veräußerung zum gemeinen Wert; auf Antrag Ratenzahlung (§ 6 Abs. 4 AStG).",
       "liveVorrangAktiv": true
     },
     "s9": {

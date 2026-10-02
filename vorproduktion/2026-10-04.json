@@ -130,7 +130,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Du verstehst, dass § 49 EStG an die Einkunftsarten des § 2 Abs. 1 EStG anknüpft und für jeden Fall ein zusätzliches Inlandsmerkmal verlangt.",
-            "Du kennst die wichtigsten Anknüpfungen bei gewerblichen Einkünften: inländische Betriebsstätte oder ständiger Vertreter, Darbietungen im Inland, Anteilsveräußerungen nach § 17 EStG sowie Vermietung oder Veräußerung inländischen Grundbesitzes."
+            "Typische Inlandsmerkmale: Betriebsstätte oder ständiger Vertreter, Darbietung im Inland, Anteile an inländischen Kapitalgesellschaften (§ 17 EStG), inländischer Grundbesitz."
           ]
         },
         {
@@ -139,7 +139,7 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Bestimme zuerst die Einkunftsart nach den allgemeinen Regeln des Einkommensteuergesetzes."
+              "text": "Bestimme die Einkunftsart; im Ausland verwirklichte Merkmale, die inländische Einkünfte ausschließen würden, bleiben außer Betracht (§ 49 Abs. 2 EStG)."
             },
             {
               "titel": "2. Schritt",
@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Was macht Einkünfte eines Gebietsfremden zu inländischen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Erst die Einkunftsart, dann das Inlandsmerkmal der passenden Nummer in § 49 Abs. 1 EStG. Fehlt es, sind diese Einkünfte nicht inländisch und unterliegen nicht der beschränkten Steuerpflicht (§ 1 Abs. 4 EStG)."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Was macht Einkünfte eines Gebietsfremden zu inländischen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Einkünfte eines Gebietsfremden sind nur inländisch, wenn § 49 Abs. 1 EStG für die jeweilige Einkunftsart ein Inlandsmerkmal findet, etwa Betriebsstätte, Grundbesitz, Darbietung im Inland oder Beteiligung an einer inländischen Kapitalgesellschaft.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -229,8 +229,9 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "die bilanzielle Behandlung von der außerbilanziellen Korrektur trennen",
-            "Dividende und Veräußerungsgewinn unterschiedlich untersuchen"
+            "Erst bilanziell lösen, die Steuerfreistellung folgt außerbilanziell.",
+            "Dividende und Veräußerungsgewinn sind steuerfrei, je 5 % gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 1 bis 3, 5 KStG).",
+            "Streubesitz unter 10 % zu Beginn des Kalenderjahres: Dividende voll steuerpflichtig (§ 8b Abs. 4 KStG)."
           ]
         },
         {
@@ -239,18 +240,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Bilanziellen Vorgang zuerst lückenlos lösen: Anschaffungskosten, Teilwertabschreibung nach § 253 Abs. 3 S. 5 HGB und § 6 Abs. 1 Nr. 2 S. 2 EStG, Wertaufholung, Abgang."
+              "text": "Bilanz lösen: Anschaffungskosten, außerplanmäßige bzw. Teilwertabschreibung (§ 253 Abs. 3 S. 5 HGB, § 6 Abs. 1 Nr. 2 S. 2 EStG), Wertaufholung, Abgang."
             },
             {
               "titel": "2. Schritt",
-              "text": "Ertragsart bestimmen: laufender Beteiligungsertrag oder Veräußerungsgewinn?"
+              "text": "Ertragsart bestimmen und außerbilanziell korrigieren; Teilwertabschreibungen und Veräußerungsverluste wieder hinzurechnen (§ 8b Abs. 3 S. 3 KStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Beteiligungen der Kapitalgesellschaft und § 8b KStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Gewinne aus Anteilen bleiben im Ergebnis zu 95 % steuerfrei, Verluste und Teilwertabschreibungen wirken sich gar nicht aus. Ausnahme: Streubesitzdividenden sind voll steuerpflichtig."
         },
         {
           "art": "cta",
@@ -267,7 +268,7 @@
           ]
         }
       ],
-      "caption": "Beteiligungen der Kapitalgesellschaft und § 8b KStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Beteiligungen in der Klausur: erst bilanziell lösen, dann § 8b KStG außerbilanziell anwenden. Gewinne zu 95 % steuerfrei, Verluste und Teilwertabschreibungen nicht abziehbar, Streubesitzdividenden voll steuerpflichtig.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -289,6 +290,9 @@
         "§ 8b Abs. 2 S. 1, 2, 3 KStG",
         "§ 8b Abs. 3 S. 1 KStG",
         "§ 8b Abs. 4 S. 6 KStG",
+        "§ 8b Abs. 3 S. 3 KStG",
+        "§ 8b Abs. 4 S. 1 KStG",
+        "§ 8b Abs. 5 KStG",
         "Themenpool: bilanz-modul-k3-50"
       ],
       "coverRegie": {
@@ -326,46 +330,46 @@
           "nummer": null,
           "titel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
           "unter": "Abgabenordnung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Gesellschaft oder Gesellschafter: Wer darf gegen den Feststellungsbescheid Einspruch einlegen?",
           "norm": "§ 352 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Gegen einen Gewinnfeststellungsbescheid darf nicht jeder Einspruch einlegen. Wer ist befugt, die Gesellschaft oder jeder Gesellschafter?",
           "marken": [
-            "rechtsfähige Personenvereinigung selbst"
+            "Gesellschaft oder Gesellschafter?"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Rechtsfähigkeit der Personenvereinigung bestimmen.",
+          "titel": "Rechtsfähige Personengesellschaft: Sie selbst ist einspruchsbefugt",
           "text": null,
-          "norm": "§ 352 AO",
+          "norm": "§ 352 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Rechtsfähigkeit der Personenvereinigung bestimmen.",
+          "sprecher": "Ist die Personengesellschaft rechtsfähig, etwa eine OHG oder KG, legt sie selbst Einspruch ein. Sie handelt dabei durch ihre Vertreter nach § 34 AO.",
           "marken": [
-            "Prüfpunkt 1"
+            "Gesellschaft selbst befugt"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 34 AO",
+          "titel": "Einzelne Gesellschafter: nur mit besonderer Zusatzbefugnis",
           "text": null,
-          "norm": "§ 34 AO",
+          "norm": "§ 352 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 34 AO im Zusammenhang mit Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse.",
+          "sprecher": "Neben der rechtsfähigen Gesellschaft darf ein einzelner Gesellschafter nur in Sonderfällen selbst angreifen: wenn die Gesellschaft nicht mehr besteht, nach seinem Ausscheiden, beim Streit über die Gewinnverteilung oder bei Fragen, die nur ihn persönlich betreffen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Ausscheiden, Verteilung, Persönliches"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Beim Feststellungsbescheid reicht die Beschwer nach § 350 AO allein nicht: Befugt ist nur, wer unter § 352 AO fällt. Sonst ist der Einspruch unzulässig.",
+          "sprecher": "Merke: Beim Feststellungsbescheid genügt die Beschwer nach § 350 AO allein nicht. Zusätzlich regelt § 352 AO, wer Einspruch einlegen darf. Fehlt die Befugnis, ist der Einspruch unzulässig.",
           "marken": [
-            "Merksatz"
+            "Befugnis aus § 352 AO"
           ]
         },
         {
@@ -375,13 +379,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wer darf gegen einen Gewinnfeststellungsbescheid Einspruch einlegen? Nach § 352 AO die rechtsfähige Personengesellschaft selbst, vertreten nach § 34 AO; einzelne Gesellschafter nur mit Zusatzbefugnis, etwa nach Ausscheiden, bei der Gewinnverteilung oder in persönlichen Fragen. Für nicht rechtsfähige Gemeinschaften enthält § 352 AO eigene Regeln.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -397,6 +400,8 @@
         "§ 183a AO",
         "§ 352 Abs. 1 und 2 AO",
         "Art. 97 § 39 Abs. 4 EGAO",
+        "§ 350 AO",
+        "§ 352 Abs. 1 AO",
         "Themenpool: ao-modul-ao-376"
       ],
       "coverRegie": {
@@ -473,7 +478,7 @@
         "gemeiner Wert"
       ],
       "richtig": 2,
-      "text": "§ 16 Abs. 3 S. 7 EStG verlangt den gemeinen Wert, nicht den Teilwert.",
+      "text": "§ 16 Abs. 3 S. 8 EStG verlangt den gemeinen Wert, nicht den Teilwert.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -489,6 +494,8 @@
         "Art. 13 DBA",
         "Art. 23 DBA",
         "Art. 6 und Art. 13 DBA",
+        "Art. 6 Abs. 4 OECD-MA",
+        "Art. 13 Abs. 1 OECD-MA",
         "Themenpool: istr-modul-istr-istr2-05"
       ],
       "regelGeprueft": true,
@@ -499,9 +506,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 49 EStG",
+      "norm": "Art. 6, 13 OECD-MA",
       "titel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
-      "text": "Bei laufender Grundstücksnutzung Art. 6 DBA von Unternehmensgewinnen unterscheiden. Bei Veräußerungen Art. 13 DBA anhand des veräußerten Vermögensgegenstands auswählen.",
+      "text": "Laufende Einkünfte aus Grundbesitz darf der Belegenheitsstaat besteuern, auch wenn das Grundstück zu einem Unternehmen gehört (Art. 6 Abs. 4 OECD-MA). Bei Veräußerung ordnet Art. 13 nach dem veräußerten Vermögen zu.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -563,6 +570,8 @@
       "pairId": "bilanz-glossar-1",
       "quellen": [
         "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
+        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
+        "§ 5 Abs. 6 EStG",
         "Themenpool: bilanz-glossar-1"
       ],
       "regelGeprueft": true,
@@ -574,7 +583,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Maßgeblichkeit",
-      "text": "Übernahme der handelsrechtlichen GoB in die Steuerbilanz, soweit keine steuerliche Sonderregelung besteht.",
+      "text": "Die handelsrechtlichen GoB gelten auch für die Steuerbilanz, außer ein steuerliches Wahlrecht wird anders ausgeübt oder eine steuerliche Vorschrift weicht ab (§ 5 Abs. 1 S. 1 Hs. 2, Abs. 6 EStG).",
       "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
       "liveVorrangAktiv": true
     },
