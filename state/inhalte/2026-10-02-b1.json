@@ -10,7 +10,8 @@
       "art": "titel",
       "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
       "coverBadge": null,
-      "coverBildAuslassen": true
+      "coverBildAuslassen": false,
+      "icon": "hauptbuch"
     },
     {
       "art": "text",
