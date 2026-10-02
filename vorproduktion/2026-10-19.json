@@ -444,7 +444,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
       "frage": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
-      "titel": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
+      "titel": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
       "optionen": [
         "auf den Beteiligungsbuchwert",
         "auf den steuerfreien Ertrag",
@@ -695,7 +695,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T11:37:21.207Z",
+    "erzeugtAm": "2026-10-02T12:49:10.442Z",
     "pfad": "vorproduktion/2026-10-19/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,

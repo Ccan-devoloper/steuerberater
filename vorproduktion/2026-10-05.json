@@ -397,7 +397,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
       "frage": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
-      "titel": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
+      "titel": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
       "optionen": [
         "0 €",
         "5.150 €",
@@ -588,7 +588,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T11:48:14.899Z",
+    "erzeugtAm": "2026-10-02T12:29:30.114Z",
     "pfad": "vorproduktion/2026-10-05/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,

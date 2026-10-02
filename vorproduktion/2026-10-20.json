@@ -619,7 +619,7 @@
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer / Bewertung",
       "ueberzeile": "Neuer Beitrag",
-      "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
+      "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
       "text": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
       "icon": "paragraf",
       "bild": null,
@@ -669,7 +669,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T11:39:01.288Z",
+    "erzeugtAm": "2026-10-02T12:50:53.003Z",
     "pfad": "vorproduktion/2026-10-20/fertig",
     "providerKostenUsd": 0,
     "textProviderKostenUsd": 0,
