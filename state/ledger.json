@@ -7175,6 +7175,28 @@
       },
       "insightsStand": "2026-10-02T16:51:17.039Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "b3",
+      "medienId": "18121618801932414",
+      "veroeffentlicht": "2026-10-02T17:45:43.023Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "gewst-aufb-gewst-ks-03",
+      "fach": "gewst",
+      "klausur": 2,
+      "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -7187,7 +7209,8 @@
     "erbst": 4,
     "mindset": 2,
     "est": 1,
-    "umwst": 2
+    "umwst": 2,
+    "gewst": 1
   },
   "nachrichten": [],
   "postfach": [],

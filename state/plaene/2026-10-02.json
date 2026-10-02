@@ -49,8 +49,9 @@
       "fach": "gewst",
       "klausur": 2,
       "lang": false,
-      "status": "sendet",
-      "sendeversuch": "2026-10-02T17:44:08.168Z"
+      "status": "veroeffentlicht",
+      "medienId": "18121618801932414",
+      "veroeffentlicht": "2026-10-02T17:45:43.023Z"
     }
   ],
   "stories": [
