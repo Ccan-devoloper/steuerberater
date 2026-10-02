@@ -12,46 +12,46 @@
       "nummer": null,
       "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
       "unter": "Gewerbesteuer",
-      "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-      "norm": "§ 6 GewStG",
-      "icon": null,
-      "sprecher": "Heute geht es um Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+      "text": "Ausgangspunkt ist der Gewinn nach EStG oder KStG. Danach folgen Hinzurechnungen und Kürzungen.",
+      "norm": "§ 7 S. 1 GewStG",
+      "icon": "quittung",
+      "sprecher": "Der Gewerbeertrag startet beim Gewinn aus Gewerbebetrieb nach Einkommen- oder Körperschaftsteuerrecht. Doch was musst du daran korrigieren?",
       "marken": [
-        "Du weißt, dass die Gewerbesteuer als nicht"
+        "Start: *Gewinn* nach EStG/KStG"
       ]
     },
     {
       "art": "schritt",
       "nummer": 1,
-      "titel": "Prüfpunkt 1: § 6 GewStG",
+      "titel": "Nur der laufende Gewinn des werbenden Betriebs zählt",
       "text": null,
-      "norm": "§ 6 GewStG",
+      "norm": "§ 7 S. 2 GewStG",
       "icon": null,
-      "sprecher": "Schritt 1: Prüfe § 6 GewStG im Zusammenhang mit Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "sprecher": "Die Gewerbesteuer erfasst nur den laufenden Betrieb. Veräußerungs- und Aufgabegewinne nach § 16 EStG bleiben bei natürlichen Personen deshalb grundsätzlich außen vor. Ausnahmen regelt § 7 Satz 2 GewStG.",
       "marken": [
-        "Prüfpunkt 1"
+        "§ 16 EStG: meist *draußen*"
       ]
     },
     {
       "art": "schritt",
       "nummer": 2,
-      "titel": "Setze bei Kapitalgesellschaften das Einkommen vor Abzug eines körperschaftsteuerlichen Verlustvortrags an.",
+      "titel": "Kapitalgesellschaft: Einkommen vor dem Verlustabzug",
       "text": null,
-      "norm": "§ 7 Satz 1 GewStG",
+      "norm": "§ 7 S. 1 + § 10a GewStG",
       "icon": null,
-      "sprecher": "Schritt 2: Prüfe § 7 Satz 1 GewStG im Zusammenhang mit Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "sprecher": "Bei Kapitalgesellschaften setzt du das Einkommen vor dem körperschaftsteuerlichen Verlustabzug an. Gewerbesteuerliche Fehlbeträge ziehst du erst später nach § 10a GewStG ab.",
       "marken": [
-        "Prüfpunkt 2"
+        "Verluste: *§ 10a* GewStG"
       ]
     },
     {
       "art": "merke",
       "nummer": null,
       "titel": "Merksatz",
-      "text": "Bei Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?: Voraussetzungen vor Ergebnis.",
-      "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+      "text": "Gewinn, plus Hinzurechnungen nach § 8 GewStG, minus Kürzungen nach § 9 GewStG, dann Fehlbeträge nach § 10a GewStG.",
+      "sprecher": "Merke die Reihenfolge: Gewinn, Hinzurechnungen nach Paragraf 8, Kürzungen nach Paragraf 9, danach der Verlustvortrag nach Paragraf 10a Gewerbesteuergesetz.",
       "marken": [
-        "Merksatz"
+        "Hinzurechnen, dann *kürzen*"
       ]
     },
     {
@@ -67,7 +67,7 @@
       ]
     }
   ],
-  "caption": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+  "caption": "Vom EStG-Gewinn zum Gewerbeertrag: Welche Korrekturen in welcher Reihenfolge? Gewinn nach § 7 S. 1 GewStG, Hinzurechnungen nach § 8, Kürzungen nach § 9, Fehlbeträge nach § 10a GewStG.",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -76,7 +76,7 @@
   ],
   "kurztitel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
   "coverBadge": "Reel",
-  "coverBildAuslassen": true,
+  "coverBildAuslassen": false,
   "quellen": [
     "§ 6 GewStG",
     "§ 7 Satz 1 GewStG",
@@ -88,6 +88,9 @@
     "§ 15a EStG",
     "§ 18 Abs. 3 UmwStG",
     "§ 3 Nr. 40 EStG",
+    "§ 8 GewStG",
+    "§ 9 GewStG",
+    "§ 10a GewStG",
     "Themenpool: gewst-aufb-gewst-ks-03"
   ],
   "coverRegie": {
@@ -109,5 +112,6 @@
   "textProviderKostenUsd": 0,
   "faktencheckProviderKostenUsd": 0,
   "bildStatus": "bewusst-ausgelassen",
-  "liveVorrangAktiv": true
+  "liveVorrangAktiv": true,
+  "icon": "quittung"
 }

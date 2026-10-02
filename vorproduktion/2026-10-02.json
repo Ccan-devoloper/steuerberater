@@ -338,7 +338,7 @@
           "unter": "Gewerbesteuer",
           "text": "Ausgangspunkt ist der Gewinn nach EStG oder KStG. Danach folgen Hinzurechnungen und Kürzungen.",
           "norm": "§ 7 S. 1 GewStG",
-          "icon": null,
+          "icon": "quittung",
           "sprecher": "Der Gewerbeertrag startet beim Gewinn aus Gewerbebetrieb nach Einkommen- oder Körperschaftsteuerrecht. Doch was musst du daran korrigieren?",
           "marken": [
             "Start: *Gewinn* nach EStG/KStG"
@@ -400,7 +400,7 @@
       ],
       "kurztitel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
       "coverBadge": "Reel",
-      "coverBildAuslassen": true,
+      "coverBildAuslassen": false,
       "quellen": [
         "§ 6 GewStG",
         "§ 7 Satz 1 GewStG",
@@ -436,7 +436,8 @@
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "icon": "quittung"
     },
     "s4": {
       "slot": "s4",
