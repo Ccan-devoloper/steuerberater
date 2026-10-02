@@ -6894,21 +6894,21 @@
       "fach": "kst",
       "titel": "2 KStG?",
       "insights": {
-        "reach": 25,
-        "views": 58,
+        "reach": 34,
+        "views": 76,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_tap_forward": 35,
-        "navigation_tap_exit": 4,
-        "navigation_tap_back": 12
+        "navigation": 68,
+        "navigation_tap_forward": 48,
+        "navigation_tap_exit": 6,
+        "navigation_tap_back": 14
       },
-      "insightsStand": "2026-10-02T15:44:56.939Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-02T20:44:36.636Z",
+      "insightsAlterStunden": 15
     },
     {
       "datum": "2026-10-02",
@@ -6922,21 +6922,21 @@
       "fach": "kst",
       "titel": "nein",
       "insights": {
-        "reach": 21,
-        "views": 46,
+        "reach": 28,
+        "views": 64,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 41,
-        "navigation_tap_exit": 4,
-        "navigation_tap_back": 17,
-        "navigation_tap_forward": 20
+        "navigation": 55,
+        "navigation_tap_forward": 28,
+        "navigation_tap_back": 23,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-10-02T15:44:56.939Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-02T20:44:36.636Z",
+      "insightsAlterStunden": 15
     },
     {
       "datum": "2026-10-02",
@@ -7012,20 +7012,22 @@
       "fach": "istr",
       "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
       "insights": {
-        "reach": 19,
-        "views": 24,
+        "reach": 27,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 18,
+        "navigation": 30,
+        "navigation_swipe_forward": 1,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 12
+        "navigation_tap_forward": 21,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-02T16:44:00.550Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-10-02T20:44:36.636Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-02",
@@ -7198,19 +7200,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 14,
+        "reach": 36,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 31,
-        "ig_reels_avg_watch_time": 8129,
-        "ig_reels_video_view_total_time": 105689,
-        "reels_skip_rate": 52.6
+        "views": 56,
+        "ig_reels_avg_watch_time": 12255,
+        "ig_reels_video_view_total_time": 453450,
+        "reels_skip_rate": 71.4
       },
-      "insightsStand": "2026-10-02T18:44:41.630Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-02T20:44:40.996Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-02",
