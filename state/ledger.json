@@ -7031,6 +7031,18 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "s2",
+      "medienId": "17988181224102980",
+      "veroeffentlicht": "2026-10-02T11:46:30.579Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO"
     }
   ],
   "fachZaehler": {
