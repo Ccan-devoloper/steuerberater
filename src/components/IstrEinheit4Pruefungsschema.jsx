@@ -31,7 +31,7 @@ export const istrEinheit4Schemata = [
         { typ: "schritt", nummer: "6", label: "§ 8 Abs. 2 bis 4 AStG", text: "Motivtest nur bei Sitz/Geschäftsleitung in EU oder EWR (§ 8 Abs. 3 AStG) und nur bei ausreichendem Auskunftsaustausch (§ 8 Abs. 4 AStG)." },
       ] },
       { titel: "4. Bagatellgrenze und Rechtsfolge", ton: "hinweis", inhalt: [
-        { typ: "schritt", nummer: "7", label: "§ 9 AStG", text: "Freigrenze: nicht mehr als ein Drittel der gesamten Bruttoerträge und insgesamt nicht mehr als 100.000 €. Beide Grenzen müssen eingehalten sein." },
+        { typ: "schritt", nummer: "7", label: "§ 9 AStG", text: "Freigrenze: nicht mehr als ein Drittel der gesamten Einkünfte und insgesamt nicht mehr als 100.000 €. Beide Grenzen müssen eingehalten sein." },
         { typ: "schritt", nummer: "8", label: "§ 10 AStG", text: "Hinzurechnungsbetrag; § 10 Abs. 2 S. 1 AStG: Einkünfte i.S.d. § 20 Abs. 1 Nr. 1 EStG, aber nach § 10 Abs. 2 S. 4 AStG ohne § 3 Nr. 40 EStG und ohne § 32d EStG." },
         { typ: "schritt", nummer: "9", label: "§ 12 AStG", text: "Anrechnung der tatsächlich zulasten der ausländischen Gesellschaft erhobenen Steuern; § 12 Abs. 3 AStG verweist auf § 34c Abs. 1 EStG bzw. § 26 KStG." },
         { typ: "schritt", nummer: "10", label: "§ 11 AStG", text: "Bei der späteren Ausschüttung Kürzungsbetrag abziehen, damit derselbe Gewinn nicht zweimal belastet wird." },
@@ -107,7 +107,7 @@ export const istrEinheit4Schemata = [
     quelle: "Hinzurechnungsbesteuerung.pdf · Frames 59–85",
     bloecke: [
       { titel: "1. Freigrenze", ton: "ansatz", inhalt: [
-        { typ: "schritt", nummer: "1", label: "§ 9 AStG relativ", text: "Die Zwischeneinkünfte stammen aus nicht mehr als einem Drittel der gesamten Bruttoerträge der Gesellschaft." },
+        { typ: "schritt", nummer: "1", label: "§ 9 AStG relativ", text: "Die Zwischeneinkünfte betragen nicht mehr als ein Drittel der gesamten Einkünfte der Gesellschaft." },
         { typ: "schritt", nummer: "2", label: "§ 9 AStG absolut", text: "Die dem Steuerpflichtigen zuzurechnenden Beträge übersteigen insgesamt 100.000 € nicht." },
         { typ: "hinweis", text: "Freigrenze, nicht Freibetrag: Wird eine der beiden Grenzen überschritten, ist der gesamte Hinzurechnungsbetrag anzusetzen." },
       ] },

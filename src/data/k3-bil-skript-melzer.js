@@ -3052,7 +3052,7 @@ const kapitelRoh = [
       "Handelsrechtlich reicht dagegen eine \"51 %-Wahrscheinlichkeit\" nicht aus. Eine Kompensation mit unrealisierten Ertragschancen, die nicht unmittelbar aus demselben Sachverhalt (Geschäft) resultieren (wechselseitige Kausalität) und deren Entstehen nicht nahezu sicher erscheint, ist danach bei Rückstellungen für ungewisse Verbindlichkeiten unzulässig (IDW RS HFA 34). Der Abschluss schuldrechtlicher Verträge ist grundsätzlich erforderlich.",
       { typ: "titel", text: "12.5.1.3 Garantierückstellungen:" },
       "Für zu erwartende Garantieleistungen ist eine Rückstellung für ungewisse Verbindlichkeiten gem. § 249 Abs. 1 Satz 1 HGB, § 5 Abs. 1 Satz 1 HS 1 EStG zu bilden.",
-      "Garantierückstellungen können gem. R 5.7 Abs. 5 EStR bei Vorliegen der entsprechenden Voraussetzungen gebildet werden als:",
+      "Garantierückstellungen können gem. H 5.7 (5) „Garantierückstellungen“ EStH bei Vorliegen der entsprechenden Voraussetzungen gebildet werden als:",
       "• Einzelrückstellungen für die bis zum Tag der Bilanzaufstellung bekannt gewordenen einzelnen Garantiefälle oder",
       "• Pauschalrückstellung",
       "Voraussetzung ist, dass der Kaufmann auf Grund der Erfahrungen in der Vergangenheit mit einer gewissen Wahrscheinlichkeit mit Garantieinanspruchnahmen rechnen muss oder dass sich aus der branchenmäßigen Erfahrung die Wahrscheinlichkeit ergibt, Garantieleistungen erbringen zu müssen Die Bewertung der Rückstellung erfolgt gem. § 253 Abs. 1 Satz 2 Alt. 2 HGB, § 5 Abs. 1 Satz 1 HS 1 EStG nach vernünftiger kaufmännischer Beurteilung. Dabei ist gem. § 5 Abs. 6 EStG die Regelung des § 6 Abs. 1 Nr. 3a) EStG zu beachten.",
