@@ -6328,7 +6328,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 55,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6337,8 +6337,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-02T05:44:34.938Z",
-      "insightsAlterStunden": 42
+      "insightsStand": "2026-10-02T14:45:15.200Z",
+      "insightsAlterStunden": 51
     },
     {
       "datum": "2026-09-30",
@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 89,
+        "reach": 93,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 125,
-        "ig_reels_avg_watch_time": 10174,
-        "ig_reels_video_view_total_time": 956409,
-        "reels_skip_rate": 63.2
+        "views": 136,
+        "ig_reels_avg_watch_time": 10420,
+        "ig_reels_video_view_total_time": 1031677,
+        "reels_skip_rate": 62
       },
-      "insightsStand": "2026-10-02T05:44:34.938Z",
-      "insightsAlterStunden": 36.7
+      "insightsStand": "2026-10-02T14:45:15.200Z",
+      "insightsAlterStunden": 45.7
     },
     {
       "datum": "2026-09-30",
@@ -6543,7 +6543,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 48,
+        "reach": 52,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6552,8 +6552,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-02T05:44:34.938Z",
-      "insightsAlterStunden": 24
+      "insightsStand": "2026-10-02T14:45:15.200Z",
+      "insightsAlterStunden": 33
     },
     {
       "datum": "2026-10-01",
@@ -6661,7 +6661,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 39,
+        "reach": 42,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T05:44:34.938Z",
-      "insightsAlterStunden": 22
+      "insightsStand": "2026-10-02T14:45:15.200Z",
+      "insightsAlterStunden": 31
     },
     {
       "datum": "2026-10-01",
@@ -6836,21 +6836,22 @@
       "fach": "istr",
       "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
       "insights": {
-        "reach": 27,
-        "views": 38,
+        "reach": 29,
+        "views": 43,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 31,
-        "navigation_tap_forward": 21,
+        "navigation": 35,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 6,
         "navigation_tap_exit": 5,
-        "navigation_tap_back": 5
+        "navigation_tap_forward": 23
       },
-      "insightsStand": "2026-10-02T09:44:28.220Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-10-02T14:45:10.126Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-01",
@@ -6864,22 +6865,22 @@
       "fach": "erbst",
       "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
       "insights": {
-        "reach": 25,
-        "views": 41,
+        "reach": 29,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 38,
+        "navigation": 46,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 25,
-        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 32,
+        "navigation_tap_exit": 10,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-02T09:44:28.220Z",
-      "insightsAlterStunden": 16
+      "insightsStand": "2026-10-02T14:45:10.126Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-02",
@@ -7047,7 +7048,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 13,
+        "reach": 24,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7056,8 +7057,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T12:45:27.364Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-02T14:45:15.200Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-02",
@@ -7097,7 +7098,23 @@
       "storyArt": "countdown",
       "thema": null,
       "fach": null,
-      "titel": "Tage bis zum Examen"
+      "titel": "Tage bis zum Examen",
+      "insights": {
+        "reach": 11,
+        "views": 14,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 7,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-10-02T14:45:10.126Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-02",

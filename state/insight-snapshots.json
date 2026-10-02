@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T13:44:13.060Z",
+  "stand": "2026-10-02T14:45:18.156Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -9676,6 +9676,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-02T14:45:15.200Z",
+          "alterStunden": 51,
+          "reach": 55,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -10276,6 +10288,20 @@
           "ig_reels_avg_watch_time": 10174,
           "ig_reels_video_view_total_time": 956409,
           "reels_skip_rate": 63.2
+        },
+        {
+          "stand": "2026-10-02T14:45:15.200Z",
+          "alterStunden": 45.7,
+          "reach": 93,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 136,
+          "ig_reels_avg_watch_time": 10420,
+          "ig_reels_video_view_total_time": 1031677,
+          "reels_skip_rate": 62
         }
       ]
     },
@@ -10365,6 +10391,18 @@
           "stand": "2026-10-02T05:44:34.938Z",
           "alterStunden": 24,
           "reach": 48,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-02T14:45:15.200Z",
+          "alterStunden": 33,
+          "reach": 52,
           "saved": 2,
           "shares": 0,
           "likes": 0,
@@ -10684,6 +10722,18 @@
           "stand": "2026-10-02T05:44:34.938Z",
           "alterStunden": 22,
           "reach": 39,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 1,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-02T14:45:15.200Z",
+          "alterStunden": 31,
+          "reach": 42,
           "saved": 2,
           "shares": 0,
           "likes": 0,
@@ -11234,6 +11284,23 @@
           "navigation_tap_forward": 21,
           "navigation_tap_exit": 5,
           "navigation_tap_back": 5
+        },
+        {
+          "stand": "2026-10-02T14:45:10.126Z",
+          "alterStunden": 21,
+          "reach": 29,
+          "views": 43,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 35,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 6,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 23
         }
       ]
     },
@@ -11293,6 +11360,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 25,
           "navigation_tap_exit": 9,
+          "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-10-02T14:45:10.126Z",
+          "alterStunden": 21,
+          "reach": 29,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 46,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 32,
+          "navigation_tap_exit": 10,
           "navigation_tap_back": 3
         }
       ]
@@ -11523,6 +11607,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-02T14:45:15.200Z",
+          "alterStunden": 3,
+          "reach": 24,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -11551,6 +11647,34 @@
           "navigation_tap_forward": 9,
           "navigation_tap_exit": 2,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18117862387951619": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "Tage bis zum Examen",
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T12:45:23.700Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T14:45:10.126Z",
+          "alterStunden": 2,
+          "reach": 11,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 7,
+          "navigation_tap_exit": 5
         }
       ]
     }
@@ -12265,6 +12389,11 @@
       "stand": "2026-10-02T13:44:13.060Z",
       "follower": 102,
       "medien": 78
+    },
+    {
+      "stand": "2026-10-02T14:45:18.156Z",
+      "follower": 102,
+      "medien": 79
     }
   ]
 }
