@@ -49,7 +49,8 @@
       "fach": "gewst",
       "klausur": 2,
       "lang": false,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-02T17:44:08.168Z"
     }
   ],
   "stories": [
