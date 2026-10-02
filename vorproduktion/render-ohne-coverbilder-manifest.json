@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-10-02T11:31:27.699Z",
+  "erzeugtAm": "2026-10-02T11:35:19.400Z",
   "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
@@ -12,70 +12,54 @@
   "coverIcons": true,
   "tage": [
     {
-      "datum": "2026-10-02",
+      "datum": "2026-10-19",
       "feed": [
         {
           "slot": "b1",
-          "format": "klausurtechnik",
-          "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
-          "klausur": 3,
-          "fach": "persg",
+          "format": "spickzettel",
+          "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen",
+          "klausur": 2,
+          "fach": "istr",
           "coverBild": false,
-          "coverIcon": "hauptbuch",
+          "coverIcon": "globus",
           "dateien": [
-            "2026-10-02-b1-01.jpg",
-            "2026-10-02-b1-02.jpg",
-            "2026-10-02-b1-03.jpg",
-            "2026-10-02-b1-04.jpg",
-            "2026-10-02-b1-05.jpg"
+            "2026-10-19-b1-01.jpg",
+            "2026-10-19-b1-02.jpg",
+            "2026-10-19-b1-03.jpg",
+            "2026-10-19-b1-04.jpg",
+            "2026-10-19-b1-05.jpg"
           ]
         },
         {
           "slot": "b2",
-          "format": "spickzettel",
-          "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
-          "klausur": 1,
-          "fach": "ao",
-          "coverBild": false,
-          "coverIcon": "dokument",
-          "dateien": [
-            "2026-10-02-b2-01.jpg",
-            "2026-10-02-b2-02.jpg",
-            "2026-10-02-b2-03.jpg",
-            "2026-10-02-b2-04.jpg",
-            "2026-10-02-b2-05.jpg"
-          ]
-        },
-        {
-          "slot": "b4",
-          "format": "klausurtechnik",
-          "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+          "format": "schema",
+          "titel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
           "klausur": 3,
-          "fach": "persg",
+          "fach": "bilanz",
           "coverBild": false,
           "coverIcon": "hauptbuch",
           "dateien": [
-            "2026-10-02-b4-01.jpg",
-            "2026-10-02-b4-02.jpg",
-            "2026-10-02-b4-03.jpg",
-            "2026-10-02-b4-04.jpg",
-            "2026-10-02-b4-05.jpg"
+            "2026-10-19-b2-01.jpg",
+            "2026-10-19-b2-02.jpg",
+            "2026-10-19-b2-03.jpg",
+            "2026-10-19-b2-04.jpg",
+            "2026-10-19-b2-05.jpg"
           ]
         },
         {
           "slot": "b3",
           "format": "reel",
-          "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
-          "klausur": 2,
-          "fach": "gewst",
+          "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+          "klausur": 1,
+          "fach": "ao",
           "coverBild": false,
-          "coverIcon": "quittung",
+          "coverIcon": "globus",
           "dateien": [
-            "2026-10-02-b3-cover.jpg",
-            "2026-10-02-b3.mp4"
+            "2026-10-19-b3-cover.jpg",
+            "2026-10-19-b3.mp4"
           ],
           "reel": {
-            "dauer": 51.73000000000001,
+            "dauer": 53.48,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
@@ -86,69 +70,438 @@
         {
           "slot": "s4",
           "art": "frage",
-          "klausur": 2,
-          "fach": "kst",
+          "klausur": 3,
+          "fach": "bilanz",
           "datei": "s4-frage.jpg"
         },
         {
           "slot": "s5",
           "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "istr",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-19/fertig"
+    },
+    {
+      "datum": "2026-10-20",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "Verdeckte Einlage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-20-b1-01.jpg",
+            "2026-10-20-b1-02.jpg",
+            "2026-10-20-b1-03.jpg",
+            "2026-10-20-b1-04.jpg",
+            "2026-10-20-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
+          "klausur": 1,
+          "fach": "erbst",
+          "coverBild": false,
+          "coverIcon": "haus",
+          "dateien": [
+            "2026-10-20-b2-01.jpg",
+            "2026-10-20-b2-02.jpg",
+            "2026-10-20-b2-03.jpg",
+            "2026-10-20-b2-04.jpg",
+            "2026-10-20-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Dreiecksfälle und materielle Korrespondenz",
           "klausur": 2,
           "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "personen",
+          "dateien": [
+            "2026-10-20-b3-cover.jpg",
+            "2026-10-20-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 50.06,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
           "datei": "s5-antwort.jpg"
         },
         {
           "slot": "s1",
           "art": "teaser",
           "klausur": 3,
-          "fach": "persg",
+          "fach": "bilanz",
           "datei": "s1-teaser.jpg"
         },
         {
           "slot": "s6",
           "art": "norm",
-          "klausur": 2,
-          "fach": "istr",
+          "klausur": 1,
+          "fach": "ao",
           "datei": "s6-norm.jpg"
         },
         {
           "slot": "s7",
-          "art": "countdown",
-          "klausur": 0,
-          "fach": null,
-          "datei": "s7-countdown.jpg"
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s7-tipp.jpg"
         },
         {
           "slot": "s2",
           "art": "teaser",
           "klausur": 1,
-          "fach": "ao",
+          "fach": "erbst",
           "datei": "s2-teaser.jpg"
         },
         {
           "slot": "s8",
           "art": "tipp",
-          "klausur": 2,
-          "fach": "istr",
+          "klausur": 1,
+          "fach": "ao",
           "datei": "s8-tipp.jpg"
         },
         {
           "slot": "s9",
-          "art": "tipp",
-          "klausur": 2,
-          "fach": "istr",
-          "datei": "s9-tipp.jpg"
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s9-merksatz.jpg"
         },
         {
           "slot": "s3",
           "art": "teaser",
           "klausur": 2,
-          "fach": "gewst",
+          "fach": "kst",
           "datei": "s3-teaser.jpg"
         }
       ],
       "wartetLive": [],
-      "pfad": "vorproduktion/2026-10-02/fertig"
+      "pfad": "vorproduktion/2026-10-20/fertig"
+    },
+    {
+      "datum": "2026-10-21",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2…",
+          "klausur": 1,
+          "fach": "ust",
+          "coverBild": false,
+          "coverIcon": "quittung",
+          "dateien": [
+            "2026-10-21-b1-01.jpg",
+            "2026-10-21-b1-02.jpg",
+            "2026-10-21-b1-03.jpg",
+            "2026-10-21-b1-04.jpg",
+            "2026-10-21-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "spickzettel",
+          "titel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich",
+          "klausur": 2,
+          "fach": "est",
+          "coverBild": false,
+          "coverIcon": "rechner",
+          "dateien": [
+            "2026-10-21-b2-01.jpg",
+            "2026-10-21-b2-02.jpg",
+            "2026-10-21-b2-03.jpg",
+            "2026-10-21-b2-04.jpg",
+            "2026-10-21-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
+          "klausur": 3,
+          "fach": "umwst",
+          "coverBild": false,
+          "coverIcon": "kreislauf",
+          "dateien": [
+            "2026-10-21-b3-cover.jpg",
+            "2026-10-21-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 51.59,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 3,
+          "fach": "bilanz",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s7-tipp.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "est",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s8-merksatz.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s9-tipp.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "umwst",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-21/fertig"
+    },
+    {
+      "datum": "2026-10-22",
+      "feed": [
+        {
+          "slot": "b1",
+          "format": "spickzettel",
+          "titel": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch",
+          "klausur": 2,
+          "fach": "kst",
+          "coverBild": false,
+          "coverIcon": "gebaeude",
+          "dateien": [
+            "2026-10-22-b1-01.jpg",
+            "2026-10-22-b1-02.jpg",
+            "2026-10-22-b1-03.jpg",
+            "2026-10-22-b1-04.jpg",
+            "2026-10-22-b1-05.jpg"
+          ]
+        },
+        {
+          "slot": "b2",
+          "format": "schema",
+          "titel": "Wann sind Anteile an der Komplementär-GmbH SBV II",
+          "klausur": 3,
+          "fach": "persg",
+          "coverBild": false,
+          "coverIcon": "personen",
+          "dateien": [
+            "2026-10-22-b2-01.jpg",
+            "2026-10-22-b2-02.jpg",
+            "2026-10-22-b2-03.jpg",
+            "2026-10-22-b2-04.jpg",
+            "2026-10-22-b2-05.jpg"
+          ]
+        },
+        {
+          "slot": "b3",
+          "format": "reel",
+          "titel": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
+          "klausur": 1,
+          "fach": "ao",
+          "coverBild": false,
+          "coverIcon": "dokument",
+          "dateien": [
+            "2026-10-22-b3-cover.jpg",
+            "2026-10-22-b3.mp4"
+          ],
+          "reel": {
+            "dauer": 51.970000000000006,
+            "stimme": "piper",
+            "layout": "erklaer",
+            "szenen": 5
+          }
+        }
+      ],
+      "stories": [
+        {
+          "slot": "s4",
+          "art": "frage",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s4-frage.jpg"
+        },
+        {
+          "slot": "s5",
+          "art": "antwort",
+          "klausur": 1,
+          "fach": "ust",
+          "datei": "s5-antwort.jpg"
+        },
+        {
+          "slot": "s1",
+          "art": "teaser",
+          "klausur": 2,
+          "fach": "kst",
+          "datei": "s1-teaser.jpg"
+        },
+        {
+          "slot": "s6",
+          "art": "norm",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s6-norm.jpg"
+        },
+        {
+          "slot": "s7",
+          "art": "merksatz",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s7-merksatz.jpg"
+        },
+        {
+          "slot": "s2",
+          "art": "teaser",
+          "klausur": 3,
+          "fach": "persg",
+          "datei": "s2-teaser.jpg"
+        },
+        {
+          "slot": "s8",
+          "art": "tipp",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s8-tipp.jpg"
+        },
+        {
+          "slot": "s9",
+          "art": "fehler",
+          "klausur": 1,
+          "fach": "erbst",
+          "datei": "s9-fehler.jpg"
+        },
+        {
+          "slot": "s3",
+          "art": "teaser",
+          "klausur": 1,
+          "fach": "ao",
+          "datei": "s3-teaser.jpg"
+        }
+      ],
+      "wartetLive": [],
+      "pfad": "vorproduktion/2026-10-22/fertig"
     }
   ]
 }
