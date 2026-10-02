@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T17:46:11.588Z",
+  "stand": "2026-10-02T18:44:43.850Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11915,6 +11915,32 @@
           "navigation": 0
         }
       ]
+    },
+    "18121618801932414": {
+      "art": "beitrag",
+      "datum": "2026-10-02",
+      "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "format": "reel",
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T17:45:43.023Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T18:44:41.630Z",
+          "alterStunden": 1,
+          "reach": 14,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 31,
+          "ig_reels_avg_watch_time": 8129,
+          "ig_reels_video_view_total_time": 105689,
+          "reels_skip_rate": 52.6
+        }
+      ]
     }
   },
   "konto": [
@@ -12645,6 +12671,11 @@
     },
     {
       "stand": "2026-10-02T17:46:11.588Z",
+      "follower": 102,
+      "medien": 80
+    },
+    {
+      "stand": "2026-10-02T18:44:43.850Z",
       "follower": 102,
       "medien": 80
     }

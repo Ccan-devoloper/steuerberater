@@ -7196,7 +7196,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#gewerbesteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 31,
+        "ig_reels_avg_watch_time": 8129,
+        "ig_reels_video_view_total_time": 105689,
+        "reels_skip_rate": 52.6
+      },
+      "insightsStand": "2026-10-02T18:44:41.630Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-02",
