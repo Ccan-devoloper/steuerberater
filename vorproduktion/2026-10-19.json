@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Darf der Gesetzgeber ein DBA einseitig überspielen?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ein Treaty Override ist verfassungsgemäß (BVerfG 2015): Das spätere Gesetz wie § 50d Abs. 8 EStG geht dem DBA-Zustimmungsgesetz vor. Fehlt bei Arbeitslohn der Nachweis der Auslandsbesteuerung oder des Verzichts, wird er trotz DBA im Inland besteuert; wird der Nachweis nachgereicht, ist der Bescheid zu ändern."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Darf der Gesetzgeber ein DBA einseitig überspielen?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Treaty Override: Darf der Gesetzgeber ein DBA einseitig überspielen? Ja, das BVerfG hält das für zulässig. Was das für die Freistellung von Arbeitslohn nach § 50d Abs. 8 EStG bedeutet, siehst du hier.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -223,7 +223,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Dreijahreszeitraum und 15-%-Grenze netto auf die Gebäude-Anschaffungskosten beziehen",
-            "Erweiterungen aus der 15-%-Berechnung herausnehmen, aber als originäre Herstellungskosten aktivieren"
+            "Erweiterungen und jährlich übliche Erhaltungsarbeiten aus der 15-%-Berechnung herausnehmen; Erweiterungen aber als originäre Herstellungskosten aktivieren"
           ]
         },
         {
@@ -243,7 +243,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Übersteigen Instandsetzung und Modernisierung in den ersten drei Jahren nach Anschaffung netto 15 % der Gebäude-Anschaffungskosten, werden sie zu Herstellungskosten und laufen über die Gebäude-AfA (§ 6 Abs. 1 Nr. 1a, § 7 Abs. 4 EStG). Sonst bleiben sie sofort abziehbarer Erhaltungsaufwand."
         },
         {
           "art": "cta",
@@ -260,7 +260,7 @@
           ]
         }
       ],
-      "caption": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gebäude nach dem Kauf saniert? So prüfst du Dreijahreszeitraum und 15-%-Grenze des § 6 Abs. 1 Nr. 1a EStG und erkennst, wann aus Erhaltungsaufwand Herstellungskosten werden.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -321,46 +321,48 @@
           "nummer": null,
           "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
           "unter": "Abgabenordnung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Seit 2025 zählt der vierte Tag nach Aufgabe zur Post, nicht mehr der dritte.",
           "norm": "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wann gilt ein Steuerbescheid als bekannt gegeben? Seit 2025 grundsätzlich am vierten Tag nach Aufgabe zur Post. Davon hängt der Beginn der Einspruchsfrist ab.",
           "marken": [
-            "Ab dem 1."
+            "Vier Tage statt drei",
+            "§ 122 Abs. 2 Nr. 1 AO"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Übermittlungsweg klären: einfacher Brief, elektronische Übermittlung, Datenabruf oder förmliche Zustellung.",
+          "titel": "Einfacher Brief: vierter Tag nach Aufgabe zur Post, ins Ausland ein Monat",
           "text": null,
           "norm": "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 122 Abs. 2 Nr. 1 und Nr. 2 AO im Zusammenhang mit Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+          "sprecher": "Ein Bescheid per einfachem Brief gilt als bekannt gegeben am vierten Tag nach Aufgabe zur Post, bei Post ins Ausland erst einen Monat danach. Fällt dieser Tag auf ein Wochenende oder einen Feiertag, zählt der nächste Werktag.",
           "marken": [
-            "Prüfpunkt 1"
+            "Vierter Tag nach Aufgabe"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 122 Abs. 2a AO",
+          "titel": "Elektronisch oder zum Abruf: ebenfalls der vierte Tag",
           "text": null,
           "norm": "§ 122 Abs. 2a AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 122 Abs. 2a AO im Zusammenhang mit Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+          "sprecher": "Ein elektronisch übermittelter Bescheid gilt am vierten Tag nach Absendung als bekannt gegeben. Beim Datenabruf zählt seit 2026 der vierte Tag nach der Bereitstellung zum Abruf, § 122a Abs. 4 AO.",
           "marken": [
-            "Prüfpunkt 2"
+            "Auch digital vier Tage"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Früherer Zugang ändert nichts, es bleibt beim vierten Tag. Geht der Bescheid später oder gar nicht zu, muss im Zweifel das Finanzamt den Zugang beweisen.",
+          "sprecher": "Merke: Kommt der Bescheid früher an, bleibt es beim vierten Tag. Bestreitest du den Zugang, muss ihn im Zweifel das Finanzamt beweisen.",
           "marken": [
-            "Merksatz"
+            "Früher Zugang egal",
+            "Zweifel: Finanzamt beweist"
           ]
         },
         {
@@ -376,7 +378,7 @@
           ]
         }
       ],
-      "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Viertagesfiktion: Seit 2025 gilt ein Steuerbescheid per Post als bekannt gegeben am vierten Tag nach Aufgabe zur Post. So berechnest du den Beginn der Einspruchsfrist richtig.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -397,6 +399,8 @@
         "§ 355 Abs. 1 Satz 1 AO",
         "§ 357 Abs. 2 Satz 1 AO",
         "§ 8 VwZG",
+        "§ 108 Abs. 3 AO",
+        "§ 122a Abs. 4 AO",
         "Themenpool: ao-aufb-ao-jacobs-3-11"
       ],
       "coverRegie": {
@@ -428,6 +432,7 @@
       "fachLabel": "Bilanzsteuerrecht",
       "pairId": "bilanz-quiz-k3-37",
       "quellen": [
+        "§ 8b Abs. 3 und 5 KStG",
         "Themenpool: bilanz-quiz-k3-37"
       ],
       "regelGeprueft": true,
@@ -438,8 +443,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "5 KStG berechnet?",
-      "titel": "5 KStG berechnet?",
+      "frage": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
+      "titel": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
       "optionen": [
         "auf den Beteiligungsbuchwert",
         "auf den steuerfreien Ertrag",
@@ -456,6 +461,7 @@
       "fachLabel": "Bilanzsteuerrecht",
       "pairId": "bilanz-quiz-k3-37",
       "quellen": [
+        "§ 8b Abs. 3 und 5 KStG",
         "Themenpool: bilanz-quiz-k3-37"
       ],
       "regelGeprueft": true,
@@ -473,7 +479,7 @@
         "auf das Einkommen"
       ],
       "richtig": 1,
-      "text": "Die tatsächlichen Beteiligungsaufwendungen sind unerheblich; die Pauschale ist fiktiv.",
+      "text": "5 % der steuerfreien Bezüge bzw. des Veräußerungsgewinns gelten als nicht abziehbare Betriebsausgaben. Die tatsächlichen Beteiligungsaufwendungen spielen dafür keine Rolle und bleiben abziehbar.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -503,7 +509,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 173 Abs. 1 Nr. 1 AO",
       "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
-      "text": "den Ermittlungsfehler des Finanzamts nach der Quellenformel untersuchen leichtes und grobes Verschulden anhand der Quellenbeispiele unterscheiden",
+      "text": "Nr. 1 (zulasten): Hat das FA trotz voller Mitwirkung nicht ermittelt, ist die Änderung ausgeschlossen. Nr. 2 (zugunsten): Grobes Verschulden schadet, außer die Tatsache hängt mit einer Nr.-1-Tatsache zusammen.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -524,6 +530,8 @@
         "§ 358 AO",
         "§ 361 Abs. 2 AO",
         "§ 365 Abs. 3 AO",
+        "§ 172 Abs. 1 S. 1 Nr. 2a AO",
+        "§ 367 Abs. 2 AO",
         "Themenpool: ao-aufb-ao-jacobs-7-5"
       ],
       "regelGeprueft": true,
@@ -535,7 +543,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
-      "text": "Feststellen, dass ein endgültiger Bescheid vorliegt und der Antrag innerhalb der Einspruchsfrist gestellt wurde.",
+      "text": "Schlichter Antrag: bei endgültigem Bescheid nur in der Einspruchsfrist und konkret, später nicht erweiterbar (§ 172 Abs. 1 S. 1 Nr. 2a AO). Einspruch: erweiterbar, mit AdV (§ 361 AO), aber Verböserung möglich.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -555,6 +563,10 @@
         "§§ 155 ff. AO",
         "§§ 122–127 AO",
         "§§ 169–171 AO",
+        "§ 88 AO",
+        "§ 90 AO",
+        "§ 122 AO",
+        "§ 169 AO",
         "Themenpool: ao-modul-ao-301"
       ],
       "regelGeprueft": true,
@@ -566,7 +578,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Ablauf des Besteuerungsverfahrens: von der Steuerentstehung bis zur Festsetzungsverjährung",
-      "text": "Steuerentstehung nach § 38 AO i.V.m. dem Einzelsteuergesetz bestimmen.",
+      "text": "Reihenfolge: Steuer entsteht (§ 38 AO), FA ermittelt mit deiner Mitwirkung (§§ 88, 90 AO), setzt per Bescheid fest (§ 155 AO), gibt ihn bekannt (§ 122 AO). Festsetzen nur bis Ablauf der Festsetzungsfrist (§ 169 AO).",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -596,7 +608,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
-      "text": "Haftenden Personenkreis nach §§ 34, 35 AO bestimmen, etwa den gesetzlichen Vertreter einer GmbH.",
+      "text": "Haftung nur bei Vorsatz oder grober Fahrlässigkeit (§ 69 S. 1 AO) und nur für Pflichtverletzungen in deiner Amtszeit. Reichen die Mittel nicht, Steuern anteilig wie andere Schulden tilgen, die Lohnsteuer aber voll.",
       "liveVorrangAktiv": true
     },
     "s1": {

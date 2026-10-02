@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ort beim Empfänger: Sitzt er im Ausland, ist die Leistung im Inland nicht steuerbar; bei Kunden in der EU folgt die Zusammenfassende Meldung (§ 18a UStG). Leistet ein ausländischer Unternehmer an einen inländischen Unternehmer, schuldet dieser die Steuer (§ 13b UStG)."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "B2B-Dienstleistungen: Nach § 3a Abs. 2 UStG liegt der Ort grundsätzlich beim unternehmerischen Empfänger. So prüfst du Vorrangregeln, Kundenstatus und die Folgen.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -188,6 +188,7 @@
         "§§ 8, 9, 90 AO",
         "Art. 18 MwStVO",
         "Art. 44 MwStSystRL",
+        "§ 13b Abs. 2 Nr. 1 UStG",
         "Themenpool: ust-aufb-ust-m-b05-6"
       ],
       "coverRegie": {
@@ -250,7 +251,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wann wird der Verkauf privater GmbH-Anteile gewerblich?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Gewinn = Veräußerungspreis minus Veräußerungskosten minus Anschaffungskosten (§ 17 Abs. 2 EStG); davon sind 60 % steuerpflichtig (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG), ggf. gemindert um den Freibetrag nach § 17 Abs. 3 EStG. Unter 1 % gilt stattdessen § 20 Abs. 2 S. 1 Nr. 1 EStG."
         },
         {
           "art": "cta",
@@ -267,7 +268,7 @@
           ]
         }
       ],
-      "caption": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Private GmbH-Anteile verkauft? Ab 1 % Beteiligung in den letzten fünf Jahren wird der Gewinn nach § 17 EStG gewerblich, mit Teileinkünfteverfahren, aber ohne Gewerbesteuer.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -288,6 +289,7 @@
         "R 17 Abs. 1 EStR",
         "R 7.1 Abs. 3 Nr. 2 GewStR",
         "§ 34 EStG",
+        "§ 20 Abs. 2 S. 1 Nr. 1 EStG",
         "Themenpool: est-aufb-est-ks2-17-01"
       ],
       "coverRegie": {
@@ -325,46 +327,47 @@
           "nummer": null,
           "titel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
           "unter": "Umwandlungssteuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 7 UmwStG",
+          "text": "Fünf Jahre Sperrfrist: Verkauf oder Aufgabe löst Gewerbesteuer aus.",
+          "norm": "§ 18 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Welche Gewerbesteuerfalle droht nach der Umwandlung einer GmbH in eine Personengesellschaft? Wer den Betrieb innerhalb von fünf Jahren verkauft oder aufgibt, zahlt Gewerbesteuer auf den Gewinn.",
           "marken": [
-            "Übernahmegewinn und Übernahmeverlust"
+            "Fünf-Jahres-Frist",
+            "§ 18 Abs. 3 UmwStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Den Zeitpunkt der Umwandlung und den Zeitpunkt der späteren Veräußerung oder Aufgabe feststellen.",
+          "titel": "Beim Übernehmer: Übernahmegewinn oder -verlust bleibt gewerbesteuerfrei",
           "text": null,
-          "norm": "§ 7 UmwStG",
+          "norm": "§ 18 Abs. 2 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 7 UmwStG im Zusammenhang mit Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
+          "sprecher": "Beim Übernehmer wird ein Übernahmegewinn oder -verlust für die Gewerbesteuer nicht erfasst. Die eigentliche Falle kommt erst mit einem späteren Verkauf.",
           "marken": [
-            "Prüfpunkt 1"
+            "Übernahmeergebnis gewerbesteuerfrei"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 18 Abs. 3 UmwStG",
+          "titel": "Verkauf oder Aufgabe binnen fünf Jahren: Gewinn unterliegt der Gewerbesteuer",
           "text": null,
           "norm": "§ 18 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 18 Abs. 3 UmwStG im Zusammenhang mit Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
+          "sprecher": "Wird der Betrieb, ein Teilbetrieb oder ein Mitunternehmeranteil innerhalb von fünf Jahren nach der Umwandlung veräußert oder aufgegeben, ist der Gewinn gewerbesteuerpflichtig. Das gilt auch für stille Reserven, die schon vorher in der Personengesellschaft steckten.",
           "marken": [
-            "Prüfpunkt 2"
+            "Exit binnen fünf Jahren"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Fünf Jahre nach der Umwandlung kein Exit ohne Gewerbesteuer, und für diesen Teil gibt es keine Ermäßigung nach § 35 EStG, so § 18 Abs. 3 S. 4 UmwStG.",
+          "sprecher": "Merke: Verkaufst du innerhalb von fünf Jahren nach der Umwandlung, fällt Gewerbesteuer an. Sie mindert deine Einkommensteuer auch nicht über § 35 EStG.",
           "marken": [
-            "Merksatz"
+            "Keine Ermäßigung nach § 35 EStG"
           ]
         },
         {
@@ -380,7 +383,7 @@
           ]
         }
       ],
-      "caption": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Umwandlung in eine PersG: Wer innerhalb von fünf Jahren verkauft oder aufgibt, zahlt Gewerbesteuer auf den Gewinn, ohne Entlastung nach § 35 EStG (§ 18 Abs. 3 UmwStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -401,6 +404,7 @@
         "§ 18 Abs. 2 UmwStG",
         "§ 9 UmwStG",
         "§ 5 Abs. 2 UmwStG",
+        "§ 18 Abs. 3 S. 4 UmwStG",
         "Themenpool: umwst-aufb-umw-ks-3-06"
       ],
       "coverRegie": {
@@ -442,8 +446,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Lösen § 8b-Korrekturen latente Steuern aus?",
-      "titel": "Lösen § 8b-Korrekturen latente Steuern aus?",
+      "frage": "Lösen Korrekturen nach § 8b KStG latente Steuern aus?",
+      "titel": "Lösen Korrekturen nach § 8b KStG latente Steuern aus?",
       "optionen": [
         "ja, aktive",
         "ja, passive",
@@ -460,6 +464,7 @@
       "fachLabel": "Bilanzsteuerrecht",
       "pairId": "bilanz-quiz-k3-35",
       "quellen": [
+        "§ 274 HGB",
         "Themenpool: bilanz-quiz-k3-35"
       ],
       "regelGeprueft": true,
@@ -477,7 +482,7 @@
         "nein, permanente Differenz"
       ],
       "richtig": 2,
-      "text": "Außerbilanzielle Korrekturen verändern den Bilanzansatz nicht und gleichen sich nie aus.",
+      "text": "Die Korrekturen erfolgen außerbilanziell und kehren sich nie um. Latente Steuern nach § 274 HGB knüpfen dagegen an Differenzen zwischen Handels- und Steuerbilanzansätzen an, die sich später abbauen.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -494,6 +499,7 @@
         "§ 91 AO",
         "§ 121 AO",
         "§ 157 Abs. 1 S. 3 AO",
+        "§ 350 AO",
         "Themenpool: ao-modul-ao-324"
       ],
       "regelGeprueft": true,
@@ -505,8 +511,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 351 Abs. 1 AO",
-      "titel": "Begründetheit des Einspruchs: Rechtmäßigkeit, Rechtsverletzung, § 351 und Gesamtaufrollung",
-      "text": "die Vier-Punkte-Begründetheitsformel lückenlos anwenden Standardfehler von bloßen formalen Unvollkommenheiten unterscheiden",
+      "titel": "Begründetheit des Einspruchs: Rechtmäßigkeit, Rechtsverletzung, § 351 AO und Gesamtaufrollung",
+      "text": "Begründet heißt: Der Bescheid ist rechtswidrig und verletzt dich in deinen Rechten. Ändert er einen unanfechtbaren Bescheid, greifst du nur die Änderung an, außer eine Änderungsnorm trägt mehr (§ 351 Abs. 1 AO).",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -525,6 +531,7 @@
         "§ 183a AO",
         "§ 8 VwZG",
         "§ 122 AO",
+        "§ 124 Abs. 1 AO",
         "Themenpool: ao-modul-ao-307"
       ],
       "regelGeprueft": true,
@@ -536,7 +543,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Ordnungsgemäße Bekanntgabe: Zugang im Machtbereich des richtigen Empfängers",
-      "text": "Ordnungsgemäße Bekanntgabe nach § 122 Abs. 1 AO untersuchen.",
+      "text": "Wirksam wird der Bescheid erst, wenn er so in den Machtbereich des richtigen Empfängers gelangt, dass dieser ihn zur Kenntnis nehmen kann (§§ 122 Abs. 1, 124 Abs. 1 AO). Sonst bleibt er unwirksam.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -556,6 +563,7 @@
         "§ 5 ErbStG",
         "§ 16 ErbStG",
         "§ 17 ErbStG",
+        "§ 10 Abs. 6a ErbStG",
         "Themenpool: erbst-aufb-erbst-t1-7"
       ],
       "regelGeprueft": true,
@@ -567,7 +575,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Was mindert die Bereicherung? Nachlassverbindlichkeiten nach § 10",
-      "text": "Abgezogen wird, was den Erben wirklich belastet – aber nichts, was an steuerfreiem Vermögen hängt.",
+      "text": "Abziehbar ist, was den Erwerber wirklich belastet (§ 10 Abs. 5 ErbStG). Schulden zu steuerfreiem Vermögen entfallen; bei nur teilweise befreitem Vermögen sind sie anteilig abziehbar (§ 10 Abs. 6, 6a ErbStG).",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -582,6 +590,7 @@
         "R E 7.4 Abs. 1 S. 1–2",
         "§ 12 ErbStG",
         "§ 10 Abs. 6 ErbStG",
+        "§ 10 Abs. 6a ErbStG",
         "Themenpool: erbst-modul-erbst-503"
       ],
       "regelGeprueft": true,
@@ -593,7 +602,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Bereicherung, gemischte Schenkung und Schenkung unter Auflage",
-      "text": "§ 10 Abs. 1 S. 1 ErbStG: steuerpflichtiger Erwerb = Bereicherung des Erwerbers, soweit nicht steuerfrei.",
+      "text": "Gemischte Schenkung oder Schenkung unter Auflage: Bereicherung = Steuerwert der Zuwendung minus Gegenleistung bzw. Auflage (R E 7.4 Abs. 1 ErbStR). Hängt die Last an teilbefreitem Vermögen: nur anteilig abziehen.",
       "liveVorrangAktiv": true
     },
     "s1": {

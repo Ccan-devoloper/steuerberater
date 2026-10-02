@@ -129,7 +129,7 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Die vGA fließt dem gemeinsamen Gesellschafter zu und ist bei ihm als Bezug nach § 20 Abs. 1 Nr. 1 Satz 2 EStG bzw. bei einer Körperschaft nach § 8b Abs. 1 KStG zu aufnehmen.",
+            "Die vGA fließt dem gemeinsamen Gesellschafter zu und ist bei ihm als Bezug nach § 20 Abs. 1 Nr. 1 Satz 2 EStG bzw. bei einer Körperschaft nach § 8b Abs. 1 KStG zu erfassen.",
             "Ist der Vorteil ein einlagefähiges Wirtschaftsgut, folgt gedanklich eine verdeckte Einlage in die begünstigte Schwester, die dort das Einlagekonto und beim Gesellschafter den Ansatz dieser Beteiligung erhöht."
           ]
         },
@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ist der Vorteil ein einlagefähiges Wirtschaftsgut, legt der Gesellschafter ihn verdeckt in die Schwester ein; Beteiligungsansatz und Einlagekonto steigen. Ist er bloß ein Nutzungsvorteil, gilt er beim Gesellschafter als verbraucht: keine Einlage, keine nachträglichen Anschaffungskosten."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "vGA an die Schwester-GmbH: Der Vorteil läuft steuerlich über den gemeinsamen Gesellschafter. Ob danach eine verdeckte Einlage folgt oder der Vorteil verbraucht ist, entscheidet die Einlagefähigkeit.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -188,6 +188,7 @@
         "§ 6 Abs. 1 Nr. 5 EStG",
         "§ 6 Abs. 6 S. 2 EStG",
         "§ 10 Abs. 4 und 5 UStG",
+        "§ 8 Abs. 3 S. 3 KStG",
         "Themenpool: kst-aufb-kst-ks-5-08"
       ],
       "coverRegie": {
@@ -243,14 +244,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob die GmbH außer der Geschäftsführung für die KG einen eigenen nennenswerten Geschäftsbetrieb unterhält."
+              "text": "Prüfen, ob die GmbH neben der Geschäftsführung für die KG einen eigenen, nicht unbedeutenden Geschäftsbetrieb hat; dann sind ihre Anteile in der Regel kein SBV II."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wann sind Anteile an der Komplementär-GmbH SBV II?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "SBV II sind die Anteile, wenn sie die Stellung des Kommanditisten in der KG stärken: Die GmbH führt im Wesentlichen nur die KG, und er kann über seine Beteiligung auf deren Geschäftsführung einwirken. Unter 10 % ohne Sperrminorität (BFH 2015) oder bei eigenem gewichtigem Geschäftsbetrieb der GmbH regelmäßig nicht."
         },
         {
           "art": "cta",
@@ -267,7 +268,7 @@
           ]
         }
       ],
-      "caption": "Wann sind Anteile an der Komplementär-GmbH SBV II?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "GmbH & Co. KG: Wann gehören die Anteile des Kommanditisten an der Komplementär-GmbH zum SBV II? Entscheidend sind sein Einfluss und ein eigener Geschäftsbetrieb der GmbH.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -325,46 +326,47 @@
           "nummer": null,
           "titel": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
           "unter": "Abgabenordnung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Ohne Rechtsgrund gezahlt: Festsetzung bleibt möglich, solange die Erstattung nicht verjährt ist.",
           "norm": "§ 37 Abs. 2 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Steuer wurde gezahlt, aber ohne wirksamen Bescheid, und die Festsetzungsfrist ist abgelaufen. Ist das Geld jetzt zurückzuzahlen? § 171 Abs. 14 AO hält die Festsetzung offen.",
           "marken": [
-            "Erstattungsanspruch nach § 37 Abs."
+            "Zahlung ohne Rechtsgrund",
+            "§ 37 Abs. 2 AO"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 37 Abs. 2 AO",
+          "titel": "Erstattungsanspruch: gezahlt ohne rechtlichen Grund, etwa ohne wirksamen Bescheid",
           "text": null,
           "norm": "§ 37 Abs. 2 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 37 Abs. 2 AO im Zusammenhang mit Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist.",
+          "sprecher": "Wer Steuer ohne rechtlichen Grund zahlt, hat einen Erstattungsanspruch nach § 37 Abs. 2 AO. Er verjährt in fünf Jahren ab Ende des Jahres, in dem er fällig wurde.",
           "marken": [
-            "Prüfpunkt 1"
+            "Erstattung verjährt in fünf Jahren"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 171 Abs. 14 AO",
+          "titel": "Festsetzungsfrist endet nicht, solange die Erstattung noch nicht verjährt ist",
           "text": null,
           "norm": "§ 171 Abs. 14 AO",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 171 Abs. 14 AO im Zusammenhang mit Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist.",
+          "sprecher": "Solange dieser Erstattungsanspruch nicht verjährt ist, endet auch die Festsetzungsfrist für die Steuer nicht. Das Finanzamt kann die Steuer also noch festsetzen und so den Rechtsgrund für die Zahlung schaffen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Festsetzung bleibt offen"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Reguläre Festsetzungsfrist abgelaufen heißt nicht automatisch Erstattung: Erst wenn auch der Erstattungsanspruch verjährt ist (§§ 228 ff. AO), ist die Festsetzung ausgeschlossen.",
+          "sprecher": "Merke: Festsetzungsfrist und Erstattungsanspruch hängen zusammen. Die Festsetzung ist erst ausgeschlossen, wenn beide Fristen abgelaufen sind.",
           "marken": [
-            "Merksatz"
+            "Erst beide Fristen prüfen"
           ]
         },
         {
@@ -380,7 +382,7 @@
           ]
         }
       ],
-      "caption": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Ohne wirksamen Bescheid gezahlt? Solange der Erstattungsanspruch nach § 37 Abs. 2 AO nicht verjährt ist, läuft auch die Festsetzungsfrist nicht ab (§ 171 Abs. 14 AO).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -394,6 +396,8 @@
         "§ 37 Abs. 2 AO",
         "§ 171 Abs. 14 AO",
         "§§ 228 ff. AO",
+        "§ 228 AO",
+        "§ 229 AO",
         "Themenpool: ao-modul-ao-342"
       ],
       "coverRegie": {
@@ -495,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 19 Abs. 1 ErbStG",
       "titel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
-      "text": "den §-19-Tarif nach Wertstufe und Steuerklasse sicher lesen Tarifgrenzen und Prozentwerte nicht miteinander verwechseln",
+      "text": "Steuersatz aus Wertstufe und Steuerklasse (bis 75.000 €: 7, 15 bzw. 30 %). Knapp über einer Wertgrenze deckelt § 19 Abs. 3 ErbStG die Mehrsteuer: bei bis zu 30 % auf die Hälfte, darüber auf drei Viertel des Mehrbetrags.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -514,6 +518,7 @@
         "§ 13c ErbStG",
         "§ 28a ErbStG",
         "BVerfG vom 17.12.2014, 1 BvL 21/12",
+        "§ 13b Abs. 7 ErbStG",
         "Themenpool: erbst-aufb-erbst-v-3"
       ],
       "regelGeprueft": true,
@@ -525,7 +530,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
-      "text": "Erst das begünstigte Vermögen herausrechnen, dann zu 85 % oder 100 % verschonen – Schädliches bleibt immer voll steuerpflichtig.",
+      "text": "Begünstigt ist nur der Wert ohne schädliches Verwaltungsvermögen (bis 10 % unschädlich). Darauf 85 % Verschonung; per unwiderruflicher Option 100 %, wenn höchstens 20 % Verwaltungsvermögen, dann 7 Jahre Behaltensfrist.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -554,7 +559,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Vervielfältiger nach § 13 / § 14 BewG: bestimmte, unbestimmte und lebenslängliche Dauer",
-      "text": "Bewertungsstichtag bestimmen.",
+      "text": "Bestimmte Dauer: Jahreswert × Faktor aus Anlage 9a BewG. Unbestimmte Dauer: 9,3-fach, immerwährend: 18,6-fach (§ 13 BewG). Lebenslänglich: Faktor nach Alter und Geschlecht laut BMF-Tabelle (§ 14 BewG).",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -585,7 +590,7 @@
       "ueberzeile": "Typischer Fehler",
       "titel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
       "falsch": "Die Begrenzung des § 16 BewG wird auf eine Rentenzahlung angewendet.",
-      "richtigText": "Nutzungen wie Nießbrauch oder Wohnrecht fließen aus einem fremden Wirtschaftsgut zu, Leistungen wie Renten beruhen auf einem Schuldverhältnis; der Unterschied zählt wegen § 16 BewG.",
+      "richtigText": "Der Deckel des § 16 BewG (Jahreswert höchstens Wert des Wirtschaftsguts geteilt durch 18,6) gilt nur für Nutzungen wie Nießbrauch oder Wohnrecht. Renten werden ohne diesen Deckel bewertet.",
       "liveVorrangAktiv": true
     },
     "s1": {

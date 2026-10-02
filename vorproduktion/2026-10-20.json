@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "einlagefähigen Vermögensvorteil erkennen",
-            "Veranlassung durch Gesellschaftsverhältnis untersuchen"
+            "Einlagefähigen Vermögensvorteil erkennen: nur bilanzierbare Wirtschaftsgüter, keine Nutzungsvorteile",
+            "Veranlassung durch das Gesellschaftsverhältnis prüfen: Ein fremder Dritter hätte den Vorteil nicht gewährt"
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Ist der Vorteil einlagefähig/bilanzierbar?"
+              "text": "Ist der Vorteil einlagefähig? Ein zinsloses Darlehen oder eine unentgeltliche Nutzung ist es nicht, dann liegt keine verdeckte Einlage vor."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Verdeckte Einlage: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Verdeckte Einlage: Einkommen der GmbH nicht erhöhen (§ 8 Abs. 3 S. 3 KStG), Teilwert ansetzen, Einlagekonto erhöhen (§ 27 KStG); beim Gesellschafter nachträgliche Anschaffungskosten der Beteiligung. Ausnahme: Hat sie sein Einkommen gemindert, wird sie doch erfasst (§ 8 Abs. 3 S. 4 KStG)."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Verdeckte Einlage: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Verdeckte Einlage: Wann ein Vorteil vom Gesellschafter einlagefähig ist und warum er das Einkommen der Kapitalgesellschaft trotzdem nicht erhöht.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -186,6 +186,8 @@
         "§ 17 Abs. 2a EStG",
         "§ 8 Abs. 3 Satz 3 KStG",
         "§ 27 KStG",
+        "§ 6 Abs. 1 Nr. 5 EStG",
+        "§ 8 Abs. 3 S. 4 KStG",
         "Themenpool: bilanz-modul-k3-18"
       ],
       "coverRegie": {
@@ -237,7 +239,7 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob ein bebautes Grundstück oder ein Grundstücksteil zu Wohnzwecken vermietet ist."
+              "text": "Prüfen, ob ein bebautes Grundstück oder ein Grundstücksteil zu Wohnzwecken vermietet ist."
             },
             {
               "titel": "2. Schritt",
@@ -248,7 +250,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Liegen die Voraussetzungen vor, wird das Grundstück nur mit 90 % seines Werts angesetzt (§ 13d Abs. 1 ErbStG). Damit zusammenhängende Schulden sind dann ebenfalls nur zu 90 % abziehbar (§ 10 Abs. 6a ErbStG)."
         },
         {
           "art": "cta",
@@ -265,7 +267,7 @@
           ]
         }
       ],
-      "caption": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Vermietete Wohnimmobilie geerbt? Unter diesen Voraussetzungen wird sie nach § 13d ErbStG nur mit 90 % angesetzt, und das wirkt auch auf die Schulden.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -282,6 +284,7 @@
         "§ 13b Abs. 2 Satz 2 ErbStG",
         "R E 13d Abs. 4 ErbStR",
         "BMF-Schreiben vom 29.05.2019, BStBl. I S. 480",
+        "§ 10 Abs. 6a ErbStG",
         "Themenpool: erbst-aufb-erbst-v-25"
       ],
       "coverRegie": {
@@ -319,10 +322,10 @@
           "nummer": null,
           "titel": "Dreiecksfälle und materielle Korrespondenz",
           "unter": "Körperschaftsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Vorteil von Schwester zu Schwester: Wer muss ihn versteuern?",
           "norm": "§ 8 Abs. 3 S. 2 KStG",
           "icon": null,
-          "sprecher": "Heute geht es um Dreiecksfälle und materielle Korrespondenz. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Eine GmbH gewährt ihrer Schwester-GmbH einen Vorteil. Steuerlich läuft er über den gemeinsamen Gesellschafter, und die Korrespondenzregeln entscheiden, wo er versteuert wird.",
           "marken": [
             "Vorteilsweg im Dreieck zeichnen"
           ]
@@ -330,35 +333,35 @@
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Leistende, begünstigte und beteiligte Person identifizieren.",
+          "titel": "Leistende GmbH: vGA an den Gesellschafter, bei ihm ein Beteiligungsertrag",
           "text": null,
           "norm": "§ 8 Abs. 3 S. 2 KStG",
           "icon": null,
-          "sprecher": "Schritt 1: Leistende, begünstigte und beteiligte Person identifizieren.",
+          "sprecher": "Bei der leistenden GmbH ist der Vorteil eine verdeckte Gewinnausschüttung an den Gesellschafter. Bei ihm bleibt sie nur begünstigt, wenn sie das Einkommen der leistenden GmbH nicht gemindert hat, außer sie hat das Einkommen der Schwester erhöht.",
           "marken": [
-            "Prüfpunkt 1"
+            "vGA über den Gesellschafter"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Erste Vorteilsbewegung als vGA oder vE untersuchen.",
+          "titel": "Begünstigte Schwester: verdeckte Einlage nur bei einlagefähigem Vorteil",
           "text": null,
           "norm": "§ 8 Abs. 3 S. 3–5 KStG",
           "icon": null,
-          "sprecher": "Schritt 2: Erste Vorteilsbewegung als vGA oder vE untersuchen.",
+          "sprecher": "Ist der Vorteil einlagefähig, legt der Gesellschafter ihn verdeckt in die Schwester ein. Das erhöht ihr Einkommen nicht, außer die vGA blieb beim Gesellschafter unversteuert und hat das Einkommen der Leistenden gemindert.",
           "marken": [
-            "Prüfpunkt 2"
+            "Verdeckte Einlage in Schwester"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Dreiecksfälle und materielle Korrespondenz: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Steuerfrei bleibt der Vorteil im Dreieck nur, wenn er an anderer Stelle im Dreieck versteuert wird: § 8b Abs. 1 S. 2 und 5 KStG beim Gesellschafter, § 8 Abs. 3 S. 5 KStG bei der Schwester.",
+          "sprecher": "Merke: Die Korrespondenzregeln sorgen dafür, dass der Vorteil im Dreieck nirgends ganz unversteuert bleibt.",
           "marken": [
-            "Merksatz"
+            "Korrespondenz prüfen"
           ]
         },
         {
@@ -374,7 +377,7 @@
           ]
         }
       ],
-      "caption": "Dreiecksfälle und materielle Korrespondenz: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Dreiecksfälle: Ein Vorteil zwischen Schwestergesellschaften läuft steuerlich über den Gesellschafter. Die materielle Korrespondenz entscheidet, wo er steuerfrei bleibt.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -391,6 +394,7 @@
         "§ 3 Nr. 40 Buchst. d EStG",
         "§ 8 Abs. 3 S. 4, 5 KStG",
         "§ 8b Abs. 1 S. 2, 5 KStG",
+        "§ 32d Abs. 2 Nr. 4 EStG",
         "Themenpool: kst-modul-kst-6"
       ],
       "coverRegie": {
@@ -432,8 +436,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Womit endet jeder Einzelsachverhalt?",
-      "titel": "Womit endet jeder Einzelsachverhalt?",
+      "frage": "Womit schließt du in der Bilanzklausur jeden Einzelsachverhalt ab?",
+      "titel": "Womit schließt du in der Bilanzklausur jeden Einzelsachverhalt ab?",
       "optionen": [
         "nur mit einer Norm",
         "nur mit dem Ergebnis",
@@ -467,7 +471,7 @@
         "mit Technik und Gewinnauswirkung"
       ],
       "richtig": 2,
-      "text": "Bilanzposten, Buchungssatz mit Buchungskreis und Gewinnauswirkung sichern die Technikpunkte.",
+      "text": "Bilanzansatz, Buchungs- bzw. Korrektursatz und Gewinnauswirkung bringen zusammen die Technikpunkte. Eine Norm oder ein Ergebnis allein reicht nicht.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -495,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 110 Abs. 2 AO",
       "titel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
-      "text": "Monatsfrist des § 110 Abs. 2 AO nach Wegfall des Hindernisses berechnen Tatsachen zur Begründung glaubhaft machen",
+      "text": "Binnen eines Monats nach Wegfall des Hindernisses: Antrag mit Gründen stellen, Versäumtes nachholen; glaubhaft machen geht auch später. Ist nachgeholt, geht es ohne Antrag. Nach 1 Jahr Schluss, außer bei höherer Gewalt.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -526,7 +530,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Zeitpunkt der Bekanntgabe: einfacher Brief, E-Mail, förmliche Zustellung und § 122a AO",
-      "text": "Bekanntgabeart bestimmen.",
+      "text": "Brief: 4. Tag nach Aufgabe zur Post. E-Mail: 4. Tag nach Absendung. Abruf: 4. Tag nach Bereitstellung (§ 122a Abs. 4 AO). Zustellung nach VwZG, mit Urkunde am Zustelltag. Wochenende oder Feiertag verschiebt die Fiktion.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -552,7 +556,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
-      "text": "§ 171 Abs. 3a AO: zulässigen Einspruch feststellen; Reichweite der Quellenregel bestimmen.",
+      "text": "Zulässiger Einspruch: Ablauf für den ganzen Steueranspruch gehemmt, bis unanfechtbar entschieden ist (§ 171 Abs. 3a AO). Außenprüfung: hemmt bei Beginn vor Fristablauf oder Verschiebung auf Antrag (§ 171 Abs. 4 AO).",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -566,6 +570,7 @@
         "§§ 347 ff. AO",
         "§ 367 Abs. 2 AO",
         "§ 361 AO",
+        "§ 367 Abs. 2 S. 2 AO",
         "Themenpool: ao-modul-ao-317"
       ],
       "regelGeprueft": true,
@@ -577,7 +582,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Einspruchsverfahren: Reichweite, Auslegung und Erfolgsformel",
-      "text": "Einspruch immer zweistufig: erst Zulässigkeit, dann Begründetheit.",
+      "text": "Erst Zulässigkeit, dann Begründetheit. Ist der Einspruch zulässig, prüft das FA den Fall in vollem Umfang neu (§ 367 Abs. 2 S. 1 AO); eine Verböserung ist möglich, aber nur nach vorherigem Hinweis.",
       "liveVorrangAktiv": true
     },
     "s1": {
