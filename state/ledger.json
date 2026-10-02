@@ -5944,8 +5944,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 62.2
+      "insightsStand": "2026-10-02T07:43:58.908Z",
+      "insightsAlterStunden": 71
     },
     {
       "datum": "2026-09-29",
@@ -6090,13 +6090,13 @@
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 107,
-        "ig_reels_avg_watch_time": 7004,
-        "ig_reels_video_view_total_time": 595409,
-        "reels_skip_rate": 71.1
+        "views": 108,
+        "ig_reels_avg_watch_time": 6934,
+        "ig_reels_video_view_total_time": 596341,
+        "reels_skip_rate": 71.4
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 53.9
+      "insightsStand": "2026-10-02T07:43:58.908Z",
+      "insightsAlterStunden": 62.7
     },
     {
       "datum": "2026-09-29",
@@ -6245,8 +6245,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 40.2
+      "insightsStand": "2026-10-02T07:43:58.908Z",
+      "insightsAlterStunden": 49
     },
     {
       "datum": "2026-09-30",
@@ -6955,7 +6955,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-02T07:43:58.908Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-02",

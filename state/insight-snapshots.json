@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T06:45:18.857Z",
+  "stand": "2026-10-02T07:44:01.235Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -8355,6 +8355,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-02T07:43:58.908Z",
+          "alterStunden": 71,
+          "reach": 53,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -8951,6 +8963,20 @@
           "ig_reels_avg_watch_time": 7004,
           "ig_reels_video_view_total_time": 595409,
           "reels_skip_rate": 71.1
+        },
+        {
+          "stand": "2026-10-02T07:43:58.908Z",
+          "alterStunden": 62.7,
+          "reach": 74,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 108,
+          "ig_reels_avg_watch_time": 6934,
+          "ig_reels_video_view_total_time": 596341,
+          "reels_skip_rate": 71.4
         }
       ]
     },
@@ -9302,6 +9328,18 @@
         {
           "stand": "2026-10-01T22:55:30.861Z",
           "alterStunden": 40.2,
+          "reach": 52,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-02T07:43:58.908Z",
+          "alterStunden": 49,
           "reach": 52,
           "saved": 2,
           "shares": 0,
@@ -11142,6 +11180,30 @@
           "navigation_tap_exit": 2
         }
       ]
+    },
+    "18100301330215187": {
+      "art": "beitrag",
+      "datum": "2026-10-02",
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "format": "klausurtechnik",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T06:45:03.469Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T07:43:58.908Z",
+          "alterStunden": 1,
+          "reach": 14,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -11817,6 +11879,11 @@
     },
     {
       "stand": "2026-10-02T06:45:18.857Z",
+      "follower": 102,
+      "medien": 78
+    },
+    {
+      "stand": "2026-10-02T07:44:01.235Z",
       "follower": 102,
       "medien": 78
     }
