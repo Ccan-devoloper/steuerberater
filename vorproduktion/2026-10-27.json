@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Korrekturvorschrift und passende Ablaufhemmung paarweise zuweisen",
-            "Schreib-/Rechenfehler, Antrag und Einspruch als unterschiedliche Hemmungsauslöser unterscheiden"
+            "§ 129 AO und § 173a AO: Die Frist läuft insoweit mindestens bis ein Jahr nach Bekanntgabe des fehlerhaften Bescheids (§ 171 Abs. 2 S. 1 und 2 AO).",
+            "Ein vor Fristablauf gestellter Änderungsantrag hemmt nach § 171 Abs. 3 AO, ein Einspruch nach § 171 Abs. 3a AO – jeweils bis zur unanfechtbaren Entscheidung."
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Ist sie abgelaufen: Anlass/Fehler bestimmen."
+              "text": "Ist sie abgelaufen: Korrekturnorm bestimmen und prüfen, ob die dazugehörige Ablaufhemmung noch läuft."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Nach Fristablauf hilft eine Korrekturnorm nur zusammen mit ihrer Ablaufhemmung. Fehlt sie, ist jede Änderung ausgeschlossen – auch die Berichtigung nach § 129 AO (§ 169 Abs. 1 AO)."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Jede Korrekturnorm braucht ihre Ablaufhemmung – § 129 und § 173a AO mit § 171 Abs. 2, Antrag mit Abs. 3, Einspruch mit Abs. 3a AO.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -249,7 +249,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Miterben teilen einen Betrieb: Buchwerte oder Gewinn?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ohne Ausgleichszahlung kein Entgelt. Gehen die Wirtschaftsgüter ins Betriebsvermögen der Erben, bleibt es beim Buchwert (§ 16 Abs. 3 S. 2 EStG, Sperrfrist nach S. 3). Gehen sie ins Privatvermögen, entsteht ein Aufgabegewinn nach § 16 Abs. 3 S. 1 EStG, ggf. begünstigt nach § 34 EStG."
         },
         {
           "art": "cta",
@@ -266,7 +266,7 @@
           ]
         }
       ],
-      "caption": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn? Buchwerte, wenn die Wirtschaftsgüter ins Betriebsvermögen der Erben gelangen – ein Aufgabegewinn, wenn sie im Privatvermögen landen.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -319,46 +319,48 @@
           "nummer": null,
           "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
           "unter": "Personengesellschaften",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Mitgeben, umlenken oder ins Privatvermögen?",
           "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Du verschenkst deinen Mitunternehmeranteil. Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Es kommt darauf an, wohin es geht.",
           "marken": [
-            "Zum Mitunternehmeranteil gehören der"
+            "Anteil plus SBV"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 6 Abs. 3 Sätze 1 bis 3 EStG",
+          "titel": "SBV geht mit über: zwingend Buchwert",
           "text": null,
           "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 6 Abs. 3 Sätze 1 bis 3 EStG im Zusammenhang mit Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+          "sprecher": "Geht das wesentliche Sonderbetriebsvermögen mit dem Anteil auf den Beschenkten über, sind die Buchwerte zwingend fortzuführen. Bleibt bei einem Teilanteil SBV zurück, muss der Beschenkte fünf Jahre halten.",
           "marken": [
-            "Prüfpunkt 1"
+            "Alles geht mit",
+            "Buchwert zwingend"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "untersuchen, was mit diesem Sonderbetriebsvermögen zeitgleich, vorher oder gar nicht geschieht.",
+          "titel": "SBV bleibt zurück: anderes Betriebsvermögen oder Privatvermögen?",
           "text": null,
-          "norm": "§ 6 Abs. 5 Sätze 1 bis 4 EStG",
+          "norm": "§ 6 Abs. 5 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 6 Abs. 5 Sätze 1 bis 4 EStG im Zusammenhang mit Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+          "sprecher": "Überführst du das SBV zeitgleich zum Buchwert in ein anderes eigenes Betriebsvermögen, bleibt die Schenkung trotzdem neutral. Geht es ins Privatvermögen, gibst du den ganzen Mitunternehmeranteil auf, mit Gewinn nach § 16 Abs. 3 EStG.",
           "marken": [
-            "Prüfpunkt 2"
+            "Anderes BV: Buchwert",
+            "Privatvermögen: Aufgabe"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Das SBV entscheidet: mitgeben oder in anderes Betriebsvermögen heißt Buchwert, Privatvermögen heißt Aufgabe des ganzen Anteils.",
+          "sprecher": "Merke: Solange das Sonderbetriebsvermögen im Betriebsvermögen bleibt, bleiben die Buchwerte. Erst der Weg ins Privatvermögen deckt alle stillen Reserven auf.",
           "marken": [
-            "Merksatz"
+            "SBV im BV halten"
           ]
         },
         {
@@ -374,7 +376,7 @@
           ]
         }
       ],
-      "caption": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Geht es mit über oder zeitgleich in ein anderes Betriebsvermögen, bleibt es beim Buchwert. Landet es im Privatvermögen, ist der ganze Anteil aufgegeben.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -495,9 +497,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
-      "norm": "§ 15 Abs. 3 Nr. 1 EStG",
+      "norm": "§ 15 Abs. 3 Nr. 1 und 2 EStG",
       "titel": "Abfärbung und gewerblich geprägte Personengesellschaft",
-      "text": "horizontale und vertikale Abfärbung unterscheiden die Voraussetzungen der gewerblichen Prägung anhand der Geschäftsführungsbefugnis untersuchen",
+      "text": "Nr. 1: Gewerbliche Tätigkeit über der Bagatellgrenze oder gewerbliche Beteiligungseinkünfte infizieren alle Einkünfte. Nr. 2: Geprägt, wenn nur KapG persönlich haften und nur sie oder Nichtgesellschafter geschäftsführen.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -529,7 +531,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
-      "text": "Für jeden Gesellschafter den Anteil am übernommenen Vermögen und den Buchwert oder die Anschaffungskosten seiner Anteile ermitteln.",
+      "text": "Erst die Bezüge nach § 7 UmwStG abziehen. Übernahmegewinn: bei natürlichen Personen zu 60 % steuerpflichtig, bei KapG gilt § 8b KStG (§ 4 Abs. 7 UmwStG). Einen Übernahmeverlust begrenzt § 4 Abs. 6 UmwStG stark.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -584,7 +586,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-      "text": "Buchwert und gemeinen Wert des Einbringungsgegenstands sowie Art und Wert der sonstigen Gegenleistung feststellen.",
+      "text": "Neutral bleibt nur eine sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 €, höchstens bis zum Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Ein Mehrbetrag führt anteilig zur Aufdeckung stiller Reserven.",
       "liveVorrangAktiv": true
     },
     "s1": {

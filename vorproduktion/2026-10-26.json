@@ -130,7 +130,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Bemessungsgrundlage der AfA des Erwerbers sind seine gesamten Anschaffungskosten für das anteilige Wirtschaftsgut, also anteiliger Buchwert in der Gesamthandsbilanz plus Mehrwert in der Ergänzungsbilanz.",
-            "Abzuschreiben ist auf die im Erwerbszeitpunkt verbleibende Restnutzungsdauer; dem Erwerber stehen die zu diesem Zeitpunkt geltenden AfA-Methoden und Sätze zu."
+            "Maßgeblich sind die Restnutzungsdauer im Erwerbszeitpunkt und die AfA-Methoden und -Sätze, die dem Erwerber in diesem Zeitpunkt offenstehen; bei Gebäuden gilt der typisierte Satz nach § 7 Abs. 4 EStG."
           ]
         },
         {
@@ -144,13 +144,17 @@
             {
               "titel": "2. Schritt",
               "text": "Die AfA des Erwerbers aus seinen vollen Anschaffungskosten, der Restnutzungsdauer und den im Erwerbszeitpunkt geltenden Regeln berechnen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Den Unterschied zwischen seiner AfA und seinem Anteil an der Gesamthands-AfA in der Ergänzungsbilanz als Mehr- oder Minder-AfA erfassen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wie schreibt der Erwerber in der Ergänzungsbilanz ab?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Der Erwerber wird behandelt, als hätte er seinen Anteil am Wirtschaftsgut selbst gekauft. Seine AfA folgt aus seinen Anschaffungskosten und der Restnutzungsdauer; die Ergänzungsbilanz fängt nur die Differenz zur Gesamthands-AfA auf."
         },
         {
           "art": "cta",
@@ -167,7 +171,7 @@
           ]
         }
       ],
-      "caption": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab? Wie ein Käufer des anteiligen Wirtschaftsguts: AfA aus seinen gesamten Anschaffungskosten über die Restnutzungsdauer, in der Ergänzungsbilanz steht nur die Differenz zur anteiligen Gesamthands-AfA.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -250,7 +254,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Welche Lieferung ist im Reihengeschäft die bewegte?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Pro Transport gibt es nur eine bewegte Lieferung. Ruhende Lieferungen davor gelten am Abgangsort, danach am Ankunftsort als ausgeführt (§ 3 Abs. 7 S. 2 UStG). Nur die bewegte Lieferung kann eine steuerfreie innergemeinschaftliche Lieferung oder Ausfuhr sein."
         },
         {
           "art": "cta",
@@ -267,7 +271,7 @@
           ]
         }
       ],
-      "caption": "Welche Lieferung ist im Reihengeschäft die bewegte?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Welche Lieferung ist im Reihengeschäft die bewegte? Entscheidend ist, wer die Ware befördert oder versendet. Beim Zwischenhändler gilt eine widerlegbare Vermutung nach § 3 Abs. 6a UStG.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -321,46 +325,49 @@
           "nummer": null,
           "titel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
           "unter": "Gewerbesteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Derselbe Unternehmer, derselbe Betrieb, begrenzter Abzug.",
           "norm": "§ 10a GewStG",
           "icon": null,
-          "sprecher": "Heute geht es um Gewerbeverlust: Wer darf ihn wann und wie weit nutzen? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Ein Gewerbeverlust kann nur vorgetragen werden, nie zurück. Wer darf ihn wann und wie weit nutzen? Drei Antworten.",
           "marken": [
-            "Du kennst die Mindestbesteuerung"
+            "Nur Verlustvortrag",
+            "§ 10a GewStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 10a GewStG",
+          "titel": "Wer: nur der Unternehmer, der den Verlust erlitten hat",
           "text": null,
           "norm": "§ 10a GewStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 10a GewStG im Zusammenhang mit Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
+          "sprecher": "Wer: Den Verlust nutzt nur, wer ihn erlitten hat. Scheidet ein Mitunternehmer aus, geht sein Anteil am Fehlbetrag unter. Bei Kapitalgesellschaften gilt zusätzlich § 8c KStG.",
           "marken": [
-            "Prüfpunkt 1"
+            "Gleicher Unternehmer",
+            "Mitunternehmer einzeln"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfe bei Personenunternehmen, ob der Betrieb in wirtschaftlicher Hinsicht derselbe geblieben ist.",
+          "titel": "Wann: derselbe Betrieb, erst in späteren Erhebungszeiträumen",
           "text": null,
-          "norm": "R 10a.1 GewStR",
+          "norm": "R 10a.2 GewStR",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe R 10a.1 GewStR im Zusammenhang mit Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
+          "sprecher": "Wann: Bei Einzelunternehmen und Personengesellschaften muss der Betrieb wirtschaftlich derselbe geblieben sein. Abziehen kannst du erst in folgenden Erhebungszeiträumen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Gleicher Betrieb",
+            "Kein Verlustrücktrag"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Bis 1 Mio. € voll, vom übersteigenden Gewerbeertrag nur 60 %. Die 70 % aus § 10d EStG gelten hier nicht.",
+          "sprecher": "Wie weit: Bis eine Million Euro Gewerbeertrag ist der Abzug unbegrenzt, darüber nur zu 60 Prozent. Die befristeten 70 Prozent gelten nur bei Einkommen- und Körperschaftsteuer.",
           "marken": [
-            "Merksatz"
+            "1 Mio. € plus 60 %"
           ]
         },
         {
@@ -376,7 +383,7 @@
           ]
         }
       ],
-      "caption": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen? Nur der Unternehmer, der ihn erlitten hat, im selben Betrieb und nur vortragend – bis 1 Mio. € voll, darüber zu 60 % (§ 10a GewStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -440,7 +447,7 @@
       "optionen": [
         "mit Lieferung",
         "mit Rechnung",
-        "mit Vereinnahmung"
+        "mit Ablauf des VAZ der Vereinnahmung"
       ],
       "richtig": 2,
       "liveVorrangAktiv": true
@@ -463,14 +470,14 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Auflösung",
-      "titel": "mit Vereinnahmung",
+      "titel": "mit Ablauf des VAZ der Vereinnahmung",
       "optionen": [
         "mit Lieferung",
         "mit Rechnung",
-        "mit Vereinnahmung"
+        "mit Ablauf des VAZ der Vereinnahmung"
       ],
       "richtig": 2,
-      "text": "§ 13 Abs. 1 Nr. 1 a) S. 4 UStG: bereits mit Vereinnahmung der Anzahlung.",
+      "text": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG: Die Steuer entsteht mit Ablauf des Voranmeldungszeitraums, in dem du die Anzahlung vereinnahmst. Ob schon eine Rechnung vorliegt, ist egal.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -496,7 +503,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 9 AStG",
       "titel": "§ 9 AStG: relative und absolute Freigrenze",
-      "text": "die relative Grenze von höchstens einem Drittel der gesamten Einkünfte der ausländischen Gesellschaft untersuchen die absolute Grenze von 100.000 € getrennt untersuchen",
+      "text": "Zwischeneinkünfte bleiben außer Ansatz, wenn sie höchstens ein Drittel der gesamten Einkünfte der Gesellschaft ausmachen und insgesamt 100.000 € nicht übersteigen. Freigrenze: beide Grenzen prüfen.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -524,7 +531,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
-      "text": "untersuchen, ob die Beteiligung zu einem Betriebsvermögen des Gesellschafters gehört und welche Bilanz gefragt ist.",
+      "text": "Handels- und Steuerbilanz trennen: Handelsrechtlich gelten die Anschaffungskosten. Steuerlich wird die Beteiligung spiegelbildlich zum Kapitalkonto gezeigt; der Gewinnanteil kommt aus der gesonderten Feststellung.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -555,7 +562,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
-      "text": "Alle denkbaren Zuordnungen des Wirtschaftsguts sammeln: eigenes Betriebsvermögen, Sonderbetriebsvermögen I oder II, Vermögen einer Besitzgesellschaft.",
+      "text": "Erst alle Zuordnungen sammeln, dann die Rangfolge anwenden: Vermietet eine Schwester-PersG als Besitzgesellschaft, geht die mitunternehmerische Betriebsaufspaltung dem SBV vor. SBV verdrängt eigenes Betriebsvermögen.",
       "liveVorrangAktiv": true
     },
     "s9": {

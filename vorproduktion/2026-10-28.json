@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Für die Gesellschaft ist der Rückkauf eine Kapitalherabsetzung, für den verkaufenden Gesellschafter eine Veräußerung, etwa nach § 17 oder § 20 Abs. 2 EStG. Nur ein unangemessen hoher Kaufpreis führt insoweit zu einer vGA."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung. Der Nennbetrag läuft über § 28 Abs. 2 KStG, der angemessene Mehrbetrag ist Leistung nach § 27 Abs. 1 S. 3 KStG – beim Verkäufer liegt eine Veräußerung vor.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -230,7 +230,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Für § 20 UmwStG kommt es allein auf die funktional wesentlichen Betriebsgrundlagen an; sie müssen der Kapitalgesellschaft zumindest in das wirtschaftliche Eigentum übertragen werden.",
-            "Behält der Einbringende eine funktional wesentliche Betriebsgrundlage zurück und verpachtet sie nur an die Gesellschaft, ist § 20 UmwStG insgesamt ausgeschlossen; es kommt zur Betriebsaufgabe nach § 16 Abs. 3 EStG."
+            "Wird eine funktional wesentliche Betriebsgrundlage nur zur Nutzung überlassen, scheidet § 20 UmwStG insgesamt aus; die übrigen Wirtschaftsgüter gelten als zum gemeinen Wert veräußert. Ohne Betriebsaufspaltung liegt zudem eine Betriebsaufgabe nach § 16 Abs. 3 EStG vor."
           ]
         },
         {
@@ -243,14 +243,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "untersuchen, ob jedes funktional wesentliche Wirtschaftsgut rechtlich oder wirtschaftlich auf die Kapitalgesellschaft übergeht."
+              "text": "Prüfen, ob jedes funktional wesentliche Wirtschaftsgut rechtlich oder wirtschaftlich auf die Kapitalgesellschaft übergeht."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bei § 20 UmwStG zählt nur die funktionale Wesentlichkeit. Fehlt auch nur eine wesentliche Betriebsgrundlage in der Einbringung, gibt es keinen Buch- oder Zwischenwertansatz."
         },
         {
           "art": "cta",
@@ -267,7 +267,7 @@
           ]
         }
       ],
-      "caption": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird? Alle funktional wesentlichen Betriebsgrundlagen – mindestens ins wirtschaftliche Eigentum der Kapitalgesellschaft. Bloßes Verpachten reicht nicht.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -325,46 +325,48 @@
           "nummer": null,
           "titel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
           "unter": "Erbschaftsteuer / Bewertung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 13a Abs. 6 Nr. 1 ErbStG",
+          "text": "Fünf Jahre halten, bei Optionsverschonung sieben.",
+          "norm": "§ 13a Abs. 6 ErbStG",
           "icon": null,
-          "sprecher": "Heute geht es um Nachversteuerung: Welche Verfügungen die Verschonung kosten. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wer begünstigtes Betriebsvermögen erbt, muss es fünf Jahre halten, bei Optionsverschonung sieben. Welche Verfügungen kosten in dieser Zeit die Verschonung?",
           "marken": [
-            "Schädlich sind bei Betriebsvermögen der"
+            "Behaltensfrist 5 oder 7 Jahre"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Behaltensfrist ab Erwerb bestimmen und alle Vorgänge innerhalb der Frist sammeln.",
+          "titel": "Betrieb, Mitunternehmeranteil oder wesentliche Betriebsgrundlage veräußert oder aufgegeben",
           "text": null,
           "norm": "§ 13a Abs. 6 Nr. 1 ErbStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 13a Abs. 6 Nr. 1 ErbStG im Zusammenhang mit Nachversteuerung: Welche Verfügungen die Verschonung kosten.",
+          "sprecher": "Schädlich ist es, den Betrieb, einen Teilbetrieb oder Mitunternehmeranteil zu veräußern oder aufzugeben, ebenso wesentliche Betriebsgrundlagen. Die Verschonung entfällt dann nur zeitanteilig. Wird der Erlös binnen sechs Monaten begünstigt reinvestiert, entfällt sie gar nicht.",
           "marken": [
-            "Prüfpunkt 1"
+            "Veräußerung oder Aufgabe",
+            "Wegfall nur zeitanteilig"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Jeden Vorgang einem Tatbestand des § 13a Abs. 6 Nr. 1 bis 5 ErbStG zuweisen.",
+          "titel": "Überentnahmen über 150.000 €, Verkauf von KapG-Anteilen, Ende des Pools",
           "text": null,
-          "norm": "§ 13a Abs. 6 Nr. 2 ErbStG",
+          "norm": "§ 13a Abs. 6 Nr. 3 bis 5 ErbStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 13a Abs. 6 Nr. 2 ErbStG im Zusammenhang mit Nachversteuerung: Welche Verfügungen die Verschonung kosten.",
+          "sprecher": "Ebenfalls schädlich: Entnahmen, die Einlagen und Gewinne seit dem Erwerb um mehr als 150.000 Euro übersteigen, der Verkauf begünstigter Kapitalgesellschaftsanteile und das Aufheben einer Poolvereinbarung. Überentnahmen werden nicht zeitanteilig gekürzt.",
           "marken": [
-            "Prüfpunkt 2"
+            "Überentnahme über 150.000 €",
+            "Anteilsverkauf, Poolende"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Nachversteuerung: Welche Verfügungen die Verschonung kosten: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Erst die Frist, dann der Tatbestand: Veräußerungsfälle kosten die Verschonung zeitanteilig, Überentnahmen ohne Abschmelzung.",
+          "sprecher": "Merke: Bei Veräußerungsfällen fällt die Verschonung nur für die restliche Behaltensfrist weg. Bei Überentnahmen gibt es diese Abschmelzung nicht.",
           "marken": [
-            "Merksatz"
+            "Überentnahme ohne Abschmelzung"
           ]
         },
         {
@@ -380,7 +382,7 @@
           ]
         }
       ],
-      "caption": "Nachversteuerung: Welche Verfügungen die Verschonung kosten: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Nachversteuerung: Welche Verfügungen die Verschonung kosten – Veräußerung oder Aufgabe von Betrieb, Anteil oder wesentlichen Betriebsgrundlagen, Überentnahmen über 150.000 €, Verkauf von KapG-Anteilen und das Ende eines Pools innerhalb der Behaltensfrist.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -477,7 +479,7 @@
         "steuerfrei"
       ],
       "richtig": 1,
-      "text": "Insoweit liegt eine Veräußerung vor; § 34 EStG ist nicht anwendbar.",
+      "text": "Soweit ein Spitzenausgleich fließt, ist die Realteilung entgeltlich. Der Gewinn daraus ist laufender Gewinn; § 34 EStG greift nicht.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -504,7 +506,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 129 AO",
       "titel": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO",
-      "text": "§ 129, § 130 und § 131 als drei Grundäste unterscheiden rechtswidrig/rechtmäßig am Erlasszeitpunkt beurteilen",
+      "text": "§ 129 AO berichtigt offenbare Unrichtigkeiten bei jedem Verwaltungsakt. Sonst zählt der Erlasszeitpunkt: Rechtswidrige Verwaltungsakte nimmt § 130 AO zurück, rechtmäßige widerruft § 131 AO.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -528,7 +530,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Wie lässt sich eine § 6b-Rücklage bei Mitunternehmern übertragen?",
-      "text": "§ 6b folgt dem Mitunternehmer: übertragbar ist nur, was ihm am Gewinn und am neuen Wirtschaftsgut für jeden Fall anteilig zuzurechnen ist.",
+      "text": "§ 6b ist gesellschafterbezogen: Jeder Mitunternehmer überträgt nur seinen Anteil am Veräußerungsgewinn – auf seinen Anteil an den AK eines Reinvestitionsguts der Gesellschaft, im SBV oder im eigenen Betrieb.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -552,7 +554,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie ermittelt man den Gewinn eines Mitunternehmers?",
-      "text": "Den Gewinn laut Gesellschaftsbilanz nach allen Korrekturen feststellen und nach dem Gewinnverteilungsschlüssel aufteilen.",
+      "text": "Stufe 1: Anteil am Gesellschaftsgewinn nach dem Gewinnverteilungsschlüssel plus Ergebnis der eigenen Ergänzungsbilanz. Stufe 2: Sondervergütungen und übriges Sonderbetriebsergebnis hinzurechnen.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -585,7 +587,7 @@
       "ueberzeile": "Typischer Fehler",
       "titel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
       "falsch": "Ein in der Krise stehen gelassenes Darlehen mit dem Nennwert ansetzen, obwohl nur der bei Kriseneintritt noch werthaltige Teil zu Anschaffungskosten führt.",
-      "richtigText": "Zu den Anschaffungskosten zählen der Kaufpreis oder die Bareinlage bei Gründung, Nebenkosten wie Notar- und Gutachterkosten sowie nachträgliche Anschaffungskosten, vor allem offene und verdeckte Einlagen.",
+      "richtigText": "Nach § 17 Abs. 2a EStG zählt ein Darlehensausfall nur, soweit Hingabe oder Stehenlassen gesellschaftsrechtlich veranlasst war: in der Krise gewährt mit dem Nennwert, stehen gelassen mit dem Wert bei Kriseneintritt.",
       "liveVorrangAktiv": true
     },
     "s1": {
