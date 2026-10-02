@@ -6924,6 +6924,18 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "s1",
+      "medienId": "17894322924612269",
+      "veroeffentlicht": "2026-10-02T06:45:13.174Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…"
     }
   ],
   "fachZaehler": {
