@@ -7009,13 +7009,35 @@
       "thema": "istr-aufb-istr-gh-3-14",
       "fach": "istr",
       "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?"
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "b2",
+      "medienId": "18622386463009694",
+      "veroeffentlicht": "2026-10-02T11:46:16.714Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "spickzettel",
+      "thema": "ao-aufb-ao-jacobs-8-6",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 9,
     "ust": 8,
     "kst": 8,
-    "ao": 15,
+    "ao": 16,
     "bilanz": 17,
     "istr": 14,
     "erbst": 4,
