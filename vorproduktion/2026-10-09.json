@@ -115,14 +115,14 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Ihr habt es geschafft!",
+          "titel": "Du hast es geschafft!",
           "coverBadge": "Geschafft",
           "coverBildAuslassen": true
         },
         {
           "art": "text",
           "titel": "Für heute",
-          "text": "Drei Tage, drei Klausuren. Ganz egal, wie es sich angefühlt hat: Ihr dürft richtig stolz auf euch sein.",
+          "text": "Drei Tage, drei Klausuren. Ganz egal, wie es sich angefühlt hat: Du darfst richtig stolz auf dich sein.",
           "punkte": [
             "Durchatmen und ausschlafen",
             "Lösungen erst vergleichen, wenn du wirklich bereit bist",
@@ -144,14 +144,14 @@
           ]
         }
       ],
-      "caption": "Die schriftliche Prüfung ist vorbei. Monate der Vorbereitung, drei harte Tage – das ist eine riesige Leistung. Ihr dürft stolz sein! 🎉",
+      "caption": "Die schriftliche Prüfung ist vorbei. Monate der Vorbereitung, drei harte Tage – das ist eine riesige Leistung. Du darfst stolz auf dich sein!",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#kopfsache"
       ],
-      "kurztitel": "Ihr habt es geschafft!",
+      "kurztitel": "Du hast es geschafft!",
       "coverBadge": "Geschafft",
       "coverBildAuslassen": true,
       "quellen": [
@@ -185,8 +185,9 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Ein häusliches Arbeitszimmer ist ein in die Wohnsphäre eingebundener, büromäßig eingerichteter Raum, der nahezu ausschließlich beruflich genutzt wird; eine Arbeitsecke im Wohnzimmer genügt nicht.",
-            "Kosten eines Arbeitszimmers sind nach § 4 Abs. 5 Satz 1 Nr. 6b EStG nur abziehbar, wenn dort der Schwerpunkt der gesamten beruflichen und betrieblichen Tätigkeit liegt; statt der tatsächlichen Kosten kann eine Jahrespauschale von 1.260 € angesetzt werden."
+            "Arbeitszimmer: eigener, büromäßig eingerichteter Raum in der Wohnung, fast nur beruflich genutzt – eine Arbeitsecke reicht nicht.",
+            "Mittelpunkt deiner gesamten Betätigung dort: Kosten oder 1.260 € Jahrespauschale (§ 4 Abs. 5 Satz 1 Nr. 6b EStG).",
+            "Sonst: Homeoffice-Pauschale von 6 € je Tag, max. 1.260 € im Jahr (§ 4 Abs. 5 Satz 1 Nr. 6c EStG)."
           ]
         },
         {
@@ -195,18 +196,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "untersuchen, ob ein eigener, nahezu ausschließlich beruflich genutzter Raum vorliegt oder nur ein Arbeitsplatz in einem privat genutzten Zimmer."
+              "text": "Prüfe, ob ein eigener, fast nur beruflich genutzter Raum vorliegt oder nur ein Arbeitsplatz im privat genutzten Zimmer."
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei einem Arbeitszimmer klären, ob dort der Schwerpunkt der gesamten Tätigkeit liegt; nur dann sind Kosten oder Jahrespauschale abziehbar."
+              "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 €. Sonst 6 € je Tag, an dem du überwiegend zu Hause arbeitest und keine erste Tätigkeitsstätte aufsuchst. Fehlt dauerhaft ein anderer Arbeitsplatz, zählen auch Tage, an denen du zusätzlich auswärts arbeitest."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 € im Jahr. Kein Mittelpunkt oder nur eine Arbeitsecke: 6 € je Homeoffice-Tag, höchstens 1.260 €. Beides für denselben Zeitraum geht nicht."
         },
         {
           "art": "cta",
@@ -214,7 +215,7 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Typische Fehler vor der nächsten Klausur kontrollieren"
           ],
           "icons": [
             "dokument",
@@ -223,7 +224,7 @@
           ]
         }
       ],
-      "caption": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Arbeitszimmer oder Homeoffice-Pauschale – was ist abziehbar? Entscheidend ist, ob im Arbeitszimmer der Mittelpunkt deiner gesamten Tätigkeit liegt. Dann: tatsächliche Kosten oder 1.260 € Jahrespauschale. Sonst: 6 € je Homeoffice-Tag, höchstens 1.260 € im Jahr.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -244,6 +245,8 @@
         "§ 4 Abs. 5 Nr. 6c EStG",
         "§ 6 Abs. 2 EStG",
         "R 9.11 LStR",
+        "§ 4 Abs. 5 Satz 1 Nr. 6b EStG",
+        "§ 4 Abs. 5 Satz 1 Nr. 6c EStG",
         "Themenpool: est-aufb-est-ks2-19-03"
       ],
       "coverRegie": {
@@ -281,46 +284,50 @@
           "nummer": null,
           "titel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
           "unter": "Personengesellschaften",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 16 Abs. 1 Satz 1 Nr. 1 EStG",
+          "text": "Was wird eingebracht – und was bekommst du dafür?",
+          "norm": "§ 24 Abs. 1 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wann fällt eine Einbringung in eine Personengesellschaft unter § 24 UmwStG? Zwei Fragen entscheiden: Was wird eingebracht, und was erhältst du dafür?",
           "marken": [
-            "§ 6 Abs."
+            "§ 24 UmwStG",
+            "Einbringung in eine PersG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 16 Abs. 1 Satz 1 Nr. 1 EStG",
+          "titel": "Eingebracht wird ein Betrieb, Teilbetrieb oder Mitunternehmeranteil",
           "text": null,
-          "norm": "§ 16 Abs. 1 Satz 1 Nr. 1 EStG",
+          "norm": "§ 24 Abs. 1 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 16 Abs. 1 Satz 1 Nr. 1 EStG im Zusammenhang mit Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
+          "sprecher": "Erstens: Eingebracht wird ein Betrieb, Teilbetrieb oder Mitunternehmeranteil mit allen wesentlichen Betriebsgrundlagen. Für ein einzelnes Wirtschaftsgut aus einem Betriebsvermögen gilt stattdessen § 6 Abs. 5 Satz 3 EStG mit zwingendem Buchwert.",
           "marken": [
-            "Prüfpunkt 1"
+            "Betrieb, Teilbetrieb, MU-Anteil",
+            "Einzel-WG: § 6 Abs. 5 EStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Den zivilrechtlichen Vorgang einer Fallgruppe des § 1 Abs. 3 UmwStG zuweisen.",
+          "titel": "Gegenleistung Gesellschaftsrechte: Wahl zwischen Buch-, Zwischen- und gemeinem Wert",
           "text": null,
-          "norm": "§ 6 Abs. 5 Satz 3 Nr. 1 EStG",
+          "norm": "§ 24 Abs. 2 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 6 Abs. 5 Satz 3 Nr. 1 EStG im Zusammenhang mit Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
+          "sprecher": "Zweitens: Du erhältst dafür Gesellschaftsrechte. Der Wert wird also auf dem Kapitalkonto gebucht, das deine Beteiligung abbildet, meist Kapitalkonto I. Darlehens- oder Rücklagenkonto allein reichen nicht. Dann gilt grundsätzlich der gemeine Wert, auf Antrag Buch- oder Zwischenwert, soweit unter anderem das deutsche Besteuerungsrecht erhalten bleibt.",
           "marken": [
-            "Prüfpunkt 2"
+            "Gesellschaftsrechte als Gegenleistung",
+            "Buch-, Zwischen- oder gemeiner Wert"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Sachgesamtheit gegen Mitunternehmerstellung: § 24 UmwStG mit Bewertungswahlrecht. Einzelnes Wirtschaftsgut aus einem Betriebsvermögen: § 6 Abs. 5 EStG mit Buchwertzwang.",
+          "sprecher": "Merke: Ganzer Betrieb gegen Gesellschaftsrechte heißt § 24 UmwStG mit Wahlrecht. Einzelne Wirtschaftsgüter aus einem Betriebsvermögen gehen nach § 6 Abs. 5 EStG zum Buchwert über.",
           "marken": [
-            "Merksatz"
+            "§ 24 UmwStG: Wahlrecht",
+            "§ 6 Abs. 5 EStG: Buchwert"
           ]
         },
         {
@@ -330,13 +337,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage ohne Unterlagen",
+            "Normen wiederholen"
           ]
         }
       ],
-      "caption": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG? Wenn ein Betrieb, Teilbetrieb oder Mitunternehmeranteil gegen Gewährung von Gesellschaftsrechten übergeht – per Einzelrechtsnachfolge oder z. B. durch Verschmelzung von Personengesellschaften oder Ausgliederung (§ 1 Abs. 3 UmwStG). Dann darfst du auf Antrag zwischen Buchwert, Zwischenwert und gemeinem Wert wählen. Einzelne Wirtschaftsgüter aus einem Betriebsvermögen laufen dagegen über § 6 Abs. 5 Satz 3 EStG.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -354,6 +360,7 @@
         "§ 24 Abs. 1 UmwStG",
         "§§ 2, 123 UmwG",
         "UmwStE vom 02.01.2025, Rn. 24.02 ff.",
+        "§ 24 Abs. 2 UmwStG",
         "Themenpool: persg-aufb-persg-melzer-5-3"
       ],
       "coverRegie": {
@@ -401,8 +408,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 1a EStG",
-      "titel": "§ 1a EStG: EU-/EWR-Familienbezug und personenbezogene Vergünstigungen",
-      "text": "Tatbestand des § 1a EStG vor der gewünschten Rechtsfolge lückenlos untersuchen. Ehegatten-/Unterhaltsleistungen und Zusammenveranlagung systematisch mit § 10 bzw. § 26 verbinden.",
+      "titel": "§ 1a EStG: Familienbezogene Vorteile für EU-/EWR-Bürger",
+      "text": "EU-/EWR-Bürger: Unterhalt an den Ex-Ehegatten im EU-/EWR-Ausland ist Sonderausgabe, wenn dessen Besteuerung bescheinigt ist. Ein dort lebender, nicht dauernd getrennter Ehegatte erlaubt die Zusammenveranlagung.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -426,7 +433,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
-      "text": "Prüfe für § 49 EStG, den Lohnsteuerabzug oder die Gewerbesteuer den nationalen Begriff des § 12 AO.",
+      "text": "§ 12 AO gilt für § 49 EStG, den inländischen Arbeitgeber beim Lohnsteuerabzug und die Gewerbesteuer. Ob Deutschland nach DBA besteuern darf, regelt Art. 5 OECD-MA – Baustellen z. B. erst nach mehr als 12 statt 6 Monaten.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -473,7 +480,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Wirtschaftliches Eigentum",
-      "text": "Tatsächliche Herrschaft, die den zivilrechtlichen Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt.",
+      "text": "Wer als Nichteigentümer die tatsächliche Herrschaft hat und den Eigentümer im Regelfall über die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann, dem wird das Wirtschaftsgut steuerlich zugerechnet.",
       "norm": "§ 39 Abs. 2 Nr. 1 AO",
       "liveVorrangAktiv": true
     },
@@ -484,8 +491,8 @@
       "klausur": 0,
       "fachLabel": "Kopfsache",
       "ueberzeile": "Geschafft",
-      "titel": "Ihr dürft stolz sein",
-      "text": "Das Ergebnis kommt später. Heute zählt, was ihr geleistet habt: Monate der Vorbereitung und drei Tage volle Konzentration.",
+      "titel": "Du darfst stolz sein",
+      "text": "Das Ergebnis kommt später. Heute zählt, was du geleistet hast: Monate der Vorbereitung und drei Tage volle Konzentration.",
       "pruefungsphase": true,
       "regelGeprueft": true,
       "manuellGeprueft": false,
@@ -503,7 +510,7 @@
       "klausur": 0,
       "fachLabel": "Kopfsache",
       "ueberzeile": "Neuer Beitrag",
-      "titel": "Ihr habt es geschafft!",
+      "titel": "Du hast es geschafft!",
       "text": "",
       "icon": "paragraf",
       "bild": null,

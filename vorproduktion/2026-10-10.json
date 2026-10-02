@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Du weißt, dass die erweiterte Kürzung nach § 9 Nr. 1 Satz 2 GewStG auf Antrag an die Stelle der einfachen Grundstückskürzung tritt.",
-            "Du kennst das Ausschließlichkeitsgebot und seine abschließenden Ausnahmen, etwa die Verwaltung eigenen Kapitalvermögens oder Stromlieferungen aus erneuerbaren Energien."
+            "Erweiterte Kürzung (§ 9 Nr. 1 Satz 2 GewStG): nur auf Antrag und statt der einfachen Kürzung – typisch für Gesellschaften, die nur kraft Rechtsform gewerblich sind.",
+            "Neben eigenem Grundbesitz nur abschließend erlaubte Tätigkeiten, z. B. eigenes Kapitalvermögen verwalten, Wohnungsbauten betreuen, in engen Grenzen Strom liefern."
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Schließe schädliche Fälle aus: Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters, nicht geringfügige Mitvermietung von Betriebsvorrichtungen."
+              "text": "Schließe schädliche Fälle aus: Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters, nicht geringfügige Mitvermietung von Betriebsvorrichtungen. Dann entfällt die erweiterte Kürzung ganz."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Wer ausschließlich eigenen Grundbesitz verwaltet, kürzt den darauf entfallenden Gewerbeertrag vollständig. Eine einzige schädliche Tätigkeit kostet die gesamte erweiterte Kürzung – dann bleibt nur die einfache."
         },
         {
           "art": "cta",
@@ -158,7 +158,7 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Typische Fehler vor der nächsten Klausur kontrollieren"
           ],
           "icons": [
             "dokument",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Erweiterte Grundstückskürzung – wer bekommt sie, wer nicht? Begünstigt ist, wer ausschließlich eigenen Grundbesitz verwaltet und daneben nur gesetzlich erlaubte Tätigkeiten ausübt. Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters oder eine schädliche Nebentätigkeit kosten die erweiterte Kürzung ganz.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -188,6 +188,7 @@
         "§ 9 Nr. 7 GewStG",
         "§ 9 Nr. 8 GewStG",
         "§ 20 GewStDV",
+        "§ 9 Nr. 1 Satz 5 Nr. 1 GewStG",
         "Themenpool: gewst-aufb-gewst-ks-05"
       ],
       "coverRegie": {
@@ -229,8 +230,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Verbrauchsfolgeverfahren handels- und steuerrechtlich einordnen",
-            "das strenge Niederstwertprinzip anwenden"
+            "Verbrauchsfolge: Handelsrechtlich Lifo und Fifo (§ 256 HGB), steuerlich nur Lifo (§ 6 Abs. 1 Nr. 2a EStG). Durchschnitts-, Gruppen- und Festwert gehen in beiden Bilanzen.",
+            "Niederstwert: Handelsrechtlich Abschreibungspflicht, auch bei vorübergehender Minderung (§ 253 Abs. 4 HGB). Steuerlich Teilwert nur bei voraussichtlich dauernder Minderung (§ 6 Abs. 1 Nr. 2 Satz 2 EStG)."
           ]
         },
         {
@@ -239,18 +240,18 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Zuordnung zum Umlaufvermögen begründen."
+              "text": "Ordne die Vorräte dem Umlaufvermögen zu und ermittle die AK/HK des Endbestands, ggf. per Vereinfachungsverfahren."
             },
             {
               "titel": "2. Schritt",
-              "text": "AK/HK je Zugang ermitteln."
+              "text": "Vergleiche mit dem niedrigeren Stichtagswert: HB Abschreibungspflicht, StB Wahlrecht nur bei dauernder Minderung. Entfällt der Grund: zuschreiben (§ 253 Abs. 5 HGB, § 6 Abs. 1 Nr. 2 Satz 3 EStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Vorräte, Bewertungsvereinfachung und Niederstwert: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Handelsbilanz: Lifo oder Fifo, strenges Niederstwertprinzip. Steuerbilanz: als Verbrauchsfolge nur Lifo, Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung."
         },
         {
           "art": "cta",
@@ -258,7 +259,7 @@
           "punkte": [
             "Tragende Normen im Gesetz markieren",
             "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
+            "Typische Fehler vor der nächsten Klausur kontrollieren"
           ],
           "icons": [
             "dokument",
@@ -267,7 +268,7 @@
           ]
         }
       ],
-      "caption": "Vorräte, Bewertungsvereinfachung und Niederstwert: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Vorräte, Bewertungsvereinfachung und Niederstwert: Handelsrechtlich sind Lifo und Fifo erlaubt, und auf den niedrigeren Stichtagswert musst du abschreiben. Steuerlich gilt als Verbrauchsfolge nur Lifo, und die Teilwertabschreibung setzt eine voraussichtlich dauernde Wertminderung voraus.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -325,46 +326,50 @@
           "nummer": null,
           "titel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
           "unter": "Abgabenordnung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Haftet auch, wer intern nicht für Steuern zuständig ist?",
           "norm": "§ 69 AO",
           "icon": null,
-          "sprecher": "Heute geht es um Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Eine GmbH hat zwei Geschäftsführer, nur einer kümmert sich um die Steuern. Haftet der andere trotzdem nach § 69 AO, wenn Steuern offen bleiben?",
           "marken": [
-            "Grundsatz der Gesamtverantwortung nennen"
+            "§ 69 AO",
+            "Mehrere Geschäftsführer"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Grundsatz: Gesamtverantwortung aller GF.",
+          "titel": "Grundsatz: Jeder Geschäftsführer trägt die steuerlichen Pflichten der GmbH",
           "text": null,
-          "norm": "§ 69 AO",
+          "norm": "§ 34 Abs. 1 AO",
           "icon": null,
-          "sprecher": "Schritt 1: Grundsatz: Gesamtverantwortung aller GF.",
+          "sprecher": "Grundsatz ist die Gesamtverantwortung: Jeder Geschäftsführer muss die steuerlichen Pflichten der GmbH erfüllen, § 34 Abs. 1 AO. Wer sie vorsätzlich oder grob fahrlässig verletzt, haftet nach § 69 AO.",
           "marken": [
-            "Prüfpunkt 1"
+            "Gesamtverantwortung aller Geschäftsführer",
+            "§ 34 Abs. 1 AO"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "",
+          "titel": "Ressortverteilung entlastet nur bei klarer, schriftlicher Regelung im Voraus",
           "text": null,
-          "norm": "§ 34 AO",
+          "norm": "§ 69 AO",
           "icon": null,
-          "sprecher": "Schritt 2: .",
+          "sprecher": "Eine interne Aufgabenverteilung begrenzt die Haftung nur, wenn sie eindeutig und vorab schriftlich festgelegt ist. Auch dann musst du den zuständigen Kollegen überwachen. In der Krise oder bei erkennbaren Versäumnissen bist du wieder voll verantwortlich.",
           "marken": [
-            "Prüfpunkt 2"
+            "Schriftlich und im Voraus",
+            "Überwachungspflicht bleibt"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Interne Zuständigkeit entlastet nur bei klarer schriftlicher Vorab-Regelung. Überwachen musst du immer, und in der Krise lebt die Gesamtverantwortung wieder auf.",
+          "sprecher": "Merke: Die Ressortverteilung entlastet, aber nie vollständig. Überwachen musst du immer, und in der Krise trägt jeder Geschäftsführer wieder die volle Verantwortung.",
           "marken": [
-            "Merksatz"
+            "Überwachung bleibt immer",
+            "Krise: Gesamtverantwortung"
           ]
         },
         {
@@ -374,13 +379,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage ohne Unterlagen",
+            "Normen wiederholen"
           ]
         }
       ],
-      "caption": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Mehrere Geschäftsführer: Grundsätzlich ist jeder für die steuerlichen Pflichten der GmbH verantwortlich (§ 34 Abs. 1 AO) und haftet bei vorsätzlicher oder grob fahrlässiger Pflichtverletzung nach § 69 AO. Eine klare, vorab schriftlich festgelegte Ressortverteilung begrenzt das – die Überwachungspflicht und die volle Verantwortung in der Krise bleiben.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -393,6 +397,7 @@
       "quellen": [
         "§ 69 AO",
         "§ 34 AO",
+        "§ 34 Abs. 1 AO",
         "Themenpool: ao-modul-ao-391"
       ],
       "coverRegie": {
@@ -424,6 +429,8 @@
       "fachLabel": "Körperschaftsteuer",
       "pairId": "kst-quiz-kst-7",
       "quellen": [
+        "§ 8b Abs. 3 Satz 1 KStG",
+        "§ 8b Abs. 5 Satz 1 KStG",
         "Themenpool: kst-quiz-kst-7"
       ],
       "regelGeprueft": true,
@@ -434,8 +441,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
-      "titel": "Wie hoch ist die pauschale Hinzurechnung bei einem nach § 8b steuerfreien Ertrag?",
+      "frage": "Welcher Anteil eines nach § 8b KStG steuerfreien Bezugs oder Veräußerungsgewinns gilt pauschal als nichtabziehbare Betriebsausgabe?",
+      "titel": "Welcher Anteil eines nach § 8b KStG steuerfreien Bezugs oder Veräußerungsgewinns gilt pauschal als nichtabziehbare Betriebsausgabe?",
       "optionen": [
         "1 %",
         "5 %",
@@ -452,6 +459,9 @@
       "fachLabel": "Körperschaftsteuer",
       "pairId": "kst-quiz-kst-7",
       "quellen": [
+        "§ 8b Abs. 3 Satz 1 KStG",
+        "§ 8b Abs. 5 Satz 1 KStG",
+        "§ 8b Abs. 4 KStG",
         "Themenpool: kst-quiz-kst-7"
       ],
       "regelGeprueft": true,
@@ -469,7 +479,7 @@
         "10 %"
       ],
       "richtig": 1,
-      "text": "5 % gelten im Grundfall als nichtabziehbare Betriebsausgaben.",
+      "text": "5 % des steuerfreien Betrags gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 Satz 1, Abs. 5 Satz 1 KStG). Streubesitzdividenden unter 10 % sind gar nicht erst steuerfrei (§ 8b Abs. 4 KStG).",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -485,6 +495,7 @@
         "§ 50a Abs. 5 EStG",
         "§ 50c EStG",
         "§ 50a EStG",
+        "§ 50 Abs. 2 EStG",
         "Themenpool: istr-modul-istr-istr1-10"
       ],
       "regelGeprueft": true,
@@ -497,7 +508,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 50a Abs. 1 EStG",
       "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
-      "text": "§ 50a nur nach vorheriger persönlicher Steuerpflicht und §-49-Inlandsanknüpfung untersuchen. Tatbestände des Steuerabzugs und Bemessungsgrundlage/Steuersatz sauber bestimmen.",
+      "text": "Bei Darbietungen, Rechteüberlassungen oder Aufsichtsratsvergütungen beschränkt Steuerpflichtiger behält der Schuldner 15 % der Einnahmen ein, bei Aufsichtsräten 30 %. Die Steuer ist damit grundsätzlich abgegolten.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -529,7 +540,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Wegzug mit GmbH-Anteilen: Was löst § 6 AStG aus?",
-      "text": "Wer mit wesentlichen Anteilen Deutschland verlässt, versteuert die stillen Reserven so, als hätte er am Tag des Wegzugs zum gemeinen Wert verkauft.",
+      "text": "Wer nach mindestens 7 Jahren unbeschränkter Steuerpflicht (innerhalb der letzten 12) wegzieht und Anteile i. S. d. § 17 EStG hält, versteuert die stillen Reserven, als hätte er sie zum gemeinen Wert veräußert.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -552,7 +563,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Begriff des Tages",
       "titel": "Vollamortisation",
-      "text": "Die Leasingraten der Grundmietzeit decken die Anschaffungskosten und Nebenkosten des Leasinggebers lückenlos ab.",
+      "text": "Mit den Raten der Grundmietzeit zahlt der Leasingnehmer mindestens die Anschaffungs- oder Herstellungskosten des Leasinggebers samt aller Nebenkosten, auch der Finanzierungskosten.",
       "norm": "BMF vom 19.4.1971",
       "liveVorrangAktiv": true
     },
@@ -567,6 +578,7 @@
         "Art. 15 OECD-MA",
         "§ 50d Abs. 8 EStG",
         "§ 8 AO",
+        "Art. 15 Abs. 2 OECD-MA",
         "Themenpool: istr-aufb-istr-gh-4-22"
       ],
       "regelGeprueft": true,
@@ -578,8 +590,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
-      "falsch": "Nur die Tage zählen und übersehen, dass die Lohnkostentragung durch eine Betriebsstätte im Tätigkeitsstaat die Rückausnahme verhindert.",
-      "richtigText": "Du weißt, dass der Ansässigkeitsstaat besteuert, solange die Tätigkeit nicht im anderen Staat ausgeübt wird.",
+      "falsch": "Nur die 183 Tage zählen und übersehen, dass ein Arbeitgeber im Tätigkeitsstaat oder eine dortige Betriebsstätte, die den Lohn trägt, die Rückausnahme ausschließt.",
+      "richtigText": "Der Wohnsitzstaat besteuert nur, wenn alle drei Bedingungen des Art. 15 Abs. 2 OECD-MA erfüllt sind: max. 183 Tage, Arbeitgeber nicht im Tätigkeitsstaat ansässig, keine Lohnkosten einer dortigen Betriebsstätte.",
       "liveVorrangAktiv": true
     },
     "s1": {
