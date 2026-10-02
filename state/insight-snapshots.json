@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T16:44:04.582Z",
+  "stand": "2026-10-02T16:51:17.039Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11341,6 +11341,23 @@
           "navigation_tap_back": 6,
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 23
+        },
+        {
+          "stand": "2026-10-02T16:51:17.039Z",
+          "alterStunden": 23.1,
+          "reach": 30,
+          "views": 44,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_tap_forward": 23,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 7,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -11405,6 +11422,23 @@
         {
           "stand": "2026-10-02T14:45:10.126Z",
           "alterStunden": 21,
+          "reach": 29,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 46,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 32,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-10-02T16:51:17.039Z",
+          "alterStunden": 23.1,
           "reach": 29,
           "views": 49,
           "shares": 0,
@@ -11629,6 +11663,22 @@
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 10,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-10-02T16:51:17.039Z",
+          "alterStunden": 10.1,
+          "reach": 23,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 14
         }
       ]
     },
@@ -11798,6 +11848,31 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        }
+      ]
+    },
+    "17984096352083918": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T15:44:55.664Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T16:51:17.039Z",
+          "alterStunden": 1.1,
+          "reach": 0,
+          "views": 6,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 0
         }
       ]
     }

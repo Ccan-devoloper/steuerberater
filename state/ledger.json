@@ -6836,22 +6836,22 @@
       "fach": "istr",
       "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
       "insights": {
-        "reach": 29,
-        "views": 43,
+        "reach": 30,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 6,
+        "navigation": 36,
+        "navigation_tap_forward": 23,
         "navigation_tap_exit": 5,
-        "navigation_tap_forward": 23
+        "navigation_tap_back": 7,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-02T14:45:10.126Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-02T16:51:17.039Z",
+      "insightsAlterStunden": 23.1
     },
     {
       "datum": "2026-10-01",
@@ -6879,8 +6879,8 @@
         "navigation_tap_exit": 10,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-02T14:45:10.126Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-02T16:51:17.039Z",
+      "insightsAlterStunden": 23.1
     },
     {
       "datum": "2026-10-02",
@@ -6984,21 +6984,21 @@
       "fach": "persg",
       "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
       "insights": {
-        "reach": 19,
-        "views": 27,
+        "reach": 23,
+        "views": 30,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_forward": 10,
+        "navigation": 25,
+        "navigation_tap_back": 1,
         "navigation_tap_exit": 10,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 14
       },
-      "insightsStand": "2026-10-02T12:45:25.164Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-10-02T16:51:17.039Z",
+      "insightsAlterStunden": 10.1
     },
     {
       "datum": "2026-10-02",
@@ -7161,7 +7161,20 @@
       "storyArt": "tipp",
       "thema": "istr-aufb-istr-gh-3-06",
       "fach": "istr",
-      "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?"
+      "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
+      "insights": {
+        "reach": 0,
+        "views": 6,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 0
+      },
+      "insightsStand": "2026-10-02T16:51:17.039Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
