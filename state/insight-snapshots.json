@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T18:44:43.850Z",
+  "stand": "2026-10-02T19:44:25.204Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11780,6 +11780,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-02T19:44:24.179Z",
+          "alterStunden": 8,
+          "reach": 32,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -11852,6 +11864,22 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 7,
           "navigation_tap_exit": 5
+        },
+        {
+          "stand": "2026-10-02T19:44:20.804Z",
+          "alterStunden": 7,
+          "reach": 18,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 14,
+          "navigation_tap_back": 2
         }
       ]
     },
@@ -11881,6 +11909,18 @@
           "stand": "2026-10-02T17:46:10.616Z",
           "alterStunden": 3,
           "reach": 24,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-02T19:44:24.179Z",
+          "alterStunden": 5,
+          "reach": 30,
           "saved": 0,
           "shares": 0,
           "likes": 1,
@@ -11939,6 +11979,59 @@
           "ig_reels_avg_watch_time": 8129,
           "ig_reels_video_view_total_time": 105689,
           "reels_skip_rate": 52.6
+        }
+      ]
+    },
+    "18391968676167061": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T17:45:55.118Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T19:44:20.804Z",
+          "alterStunden": 2,
+          "reach": 10,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18090826511688784": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T17:46:08.028Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T19:44:20.804Z",
+          "alterStunden": 2,
+          "reach": 11,
+          "views": 11,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 11,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 9
         }
       ]
     }
@@ -12677,6 +12770,11 @@
     {
       "stand": "2026-10-02T18:44:43.850Z",
       "follower": 102,
+      "medien": 80
+    },
+    {
+      "stand": "2026-10-02T19:44:25.204Z",
+      "follower": 103,
       "medien": 80
     }
   ]
