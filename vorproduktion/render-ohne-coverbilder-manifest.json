@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "erzeugtAm": "2026-10-02T11:06:05.115Z",
+  "erzeugtAm": "2026-10-02T11:20:58.320Z",
   "modus": "lokal-ohne-provider-mit-icon-cover",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
@@ -47,6 +47,22 @@
           ]
         },
         {
+          "slot": "b4",
+          "format": "klausurtechnik",
+          "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
+          "klausur": 3,
+          "fach": "persg",
+          "coverBild": false,
+          "coverIcon": "hauptbuch",
+          "dateien": [
+            "2026-10-02-b4-01.jpg",
+            "2026-10-02-b4-02.jpg",
+            "2026-10-02-b4-03.jpg",
+            "2026-10-02-b4-04.jpg",
+            "2026-10-02-b4-05.jpg"
+          ]
+        },
+        {
           "slot": "b3",
           "format": "reel",
           "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
@@ -59,7 +75,7 @@
             "2026-10-02-b3.mp4"
           ],
           "reel": {
-            "dauer": 51.06,
+            "dauer": 51.010000000000005,
             "stimme": "piper",
             "layout": "erklaer",
             "szenen": 5
