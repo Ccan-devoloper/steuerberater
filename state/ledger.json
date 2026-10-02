@@ -6902,10 +6902,32 @@
       "thema": "kst-quiz-kst-8",
       "fach": "kst",
       "titel": "nein"
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "b1",
+      "medienId": "18100301330215187",
+      "veroeffentlicht": "2026-10-02T06:45:03.469Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": "persg-aufb-persg-melzer-2-3",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 8,
+    "persg": 9,
     "ust": 8,
     "kst": 8,
     "ao": 15,
