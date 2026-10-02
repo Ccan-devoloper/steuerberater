@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T14:45:18.156Z",
+  "stand": "2026-10-02T15:45:01.577Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -9005,6 +9005,20 @@
           "ig_reels_avg_watch_time": 6934,
           "ig_reels_video_view_total_time": 596341,
           "reels_skip_rate": 71.4
+        },
+        {
+          "stand": "2026-10-02T15:44:59.449Z",
+          "alterStunden": 70.7,
+          "reach": 75,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 110,
+          "ig_reels_avg_watch_time": 6874,
+          "ig_reels_video_view_total_time": 598084,
+          "reels_skip_rate": 71.8
         }
       ]
     },
@@ -9374,6 +9388,18 @@
           "likes": 2,
           "comments": 0,
           "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-02T15:44:59.449Z",
+          "alterStunden": 57,
+          "reach": 54,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
           "follows": 0,
           "profile_visits": 2
         }
@@ -11422,6 +11448,22 @@
           "navigation_tap_forward": 26,
           "navigation_tap_exit": 2,
           "navigation_tap_back": 9
+        },
+        {
+          "stand": "2026-10-02T15:44:56.939Z",
+          "alterStunden": 10,
+          "reach": 25,
+          "views": 58,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 51,
+          "navigation_tap_forward": 35,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 12
         }
       ]
     },
@@ -11466,6 +11508,22 @@
           "navigation_tap_exit": 3,
           "navigation_tap_back": 13,
           "navigation_tap_forward": 14
+        },
+        {
+          "stand": "2026-10-02T15:44:56.939Z",
+          "alterStunden": 10,
+          "reach": 21,
+          "views": 46,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 41,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 17,
+          "navigation_tap_forward": 20
         }
       ]
     },
@@ -11675,6 +11733,30 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 7,
           "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18087005630315826": {
+      "art": "beitrag",
+      "datum": "2026-10-02",
+      "titel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "format": "klausurtechnik",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T14:45:09.126Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T15:44:59.449Z",
+          "alterStunden": 1,
+          "reach": 11,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -12392,6 +12474,11 @@
     },
     {
       "stand": "2026-10-02T14:45:18.156Z",
+      "follower": 102,
+      "medien": 79
+    },
+    {
+      "stand": "2026-10-02T15:45:01.577Z",
       "follower": 102,
       "medien": 79
     }

@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 74,
+        "reach": 75,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 108,
-        "ig_reels_avg_watch_time": 6934,
-        "ig_reels_video_view_total_time": 596341,
-        "reels_skip_rate": 71.4
+        "views": 110,
+        "ig_reels_avg_watch_time": 6874,
+        "ig_reels_video_view_total_time": 598084,
+        "reels_skip_rate": 71.8
       },
-      "insightsStand": "2026-10-02T07:43:58.908Z",
-      "insightsAlterStunden": 62.7
+      "insightsStand": "2026-10-02T15:44:59.449Z",
+      "insightsAlterStunden": 70.7
     },
     {
       "datum": "2026-09-29",
@@ -6236,17 +6236,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 54,
         "saved": 2,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 5,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-02T07:43:58.908Z",
-      "insightsAlterStunden": 49
+      "insightsStand": "2026-10-02T15:44:59.449Z",
+      "insightsAlterStunden": 57
     },
     {
       "datum": "2026-09-30",
@@ -6894,21 +6894,21 @@
       "fach": "kst",
       "titel": "2 KStG?",
       "insights": {
-        "reach": 18,
-        "views": 43,
+        "reach": 25,
+        "views": 58,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 37,
-        "navigation_tap_forward": 26,
-        "navigation_tap_exit": 2,
-        "navigation_tap_back": 9
+        "navigation": 51,
+        "navigation_tap_forward": 35,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 12
       },
-      "insightsStand": "2026-10-02T11:21:17.301Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-02T15:44:56.939Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-02",
@@ -6922,21 +6922,21 @@
       "fach": "kst",
       "titel": "nein",
       "insights": {
-        "reach": 16,
-        "views": 35,
+        "reach": 21,
+        "views": 46,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 13,
-        "navigation_tap_forward": 14
+        "navigation": 41,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 17,
+        "navigation_tap_forward": 20
       },
-      "insightsStand": "2026-10-02T11:21:17.301Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-02T15:44:56.939Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-02",
@@ -7136,7 +7136,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 11,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-10-02T15:44:59.449Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-02",
