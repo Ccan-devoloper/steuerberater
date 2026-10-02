@@ -4983,7 +4983,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 54,
+        "reach": 55,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -4992,8 +4992,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 119
+      "insightsStand": "2026-10-02T06:45:16.786Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-09-26",
@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 61,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 85,
-        "ig_reels_avg_watch_time": 10284,
-        "ig_reels_video_view_total_time": 719921,
-        "reels_skip_rate": 56.3
+        "views": 87,
+        "ig_reels_avg_watch_time": 10048,
+        "ig_reels_video_view_total_time": 723476,
+        "reels_skip_rate": 57.6
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 91
+      "insightsStand": "2026-10-02T06:45:16.786Z",
+      "insightsAlterStunden": 116
     },
     {
       "datum": "2026-09-27",
@@ -5545,7 +5545,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 53,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5554,8 +5554,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 71
+      "insightsStand": "2026-10-02T06:45:16.786Z",
+      "insightsAlterStunden": 96
     },
     {
       "datum": "2026-09-28",
@@ -5635,19 +5635,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 62,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
-        "views": 89,
-        "ig_reels_avg_watch_time": 15425,
-        "ig_reels_video_view_total_time": 1095234,
-        "reels_skip_rate": 54.7
+        "views": 95,
+        "ig_reels_avg_watch_time": 15078,
+        "ig_reels_video_view_total_time": 1130852,
+        "reels_skip_rate": 55.2
       },
-      "insightsStand": "2026-10-01T05:46:07.227Z",
-      "insightsAlterStunden": 67
+      "insightsStand": "2026-10-02T06:45:16.786Z",
+      "insightsAlterStunden": 92
     },
     {
       "datum": "2026-09-28",
@@ -6889,7 +6889,23 @@
       "storyArt": "frage",
       "thema": "kst-quiz-kst-8",
       "fach": "kst",
-      "titel": "2 KStG?"
+      "titel": "2 KStG?",
+      "insights": {
+        "reach": 6,
+        "views": 27,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-10-02T06:45:14.332Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-02",
@@ -6901,7 +6917,23 @@
       "storyArt": "antwort",
       "thema": "kst-quiz-kst-8",
       "fach": "kst",
-      "titel": "nein"
+      "titel": "nein",
+      "insights": {
+        "reach": 5,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_forward": 6,
+        "navigation_tap_back": 10,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-10-02T06:45:14.332Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-02",

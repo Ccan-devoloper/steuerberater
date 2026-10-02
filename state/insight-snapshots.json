@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-02T05:44:37.400Z",
+  "stand": "2026-10-02T06:45:18.857Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6137,6 +6137,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-02T06:45:16.786Z",
+          "alterStunden": 144,
+          "reach": 55,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -6505,6 +6517,20 @@
           "ig_reels_avg_watch_time": 10284,
           "ig_reels_video_view_total_time": 719921,
           "reels_skip_rate": 56.3
+        },
+        {
+          "stand": "2026-10-02T06:45:16.786Z",
+          "alterStunden": 116,
+          "reach": 61,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 87,
+          "ig_reels_avg_watch_time": 10048,
+          "ig_reels_video_view_total_time": 723476,
+          "reels_skip_rate": 57.6
         }
       ]
     },
@@ -6929,6 +6955,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-02T06:45:16.786Z",
+          "alterStunden": 96,
+          "reach": 53,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -7289,6 +7327,20 @@
           "ig_reels_avg_watch_time": 15425,
           "ig_reels_video_view_total_time": 1095234,
           "reels_skip_rate": 54.7
+        },
+        {
+          "stand": "2026-10-02T06:45:16.786Z",
+          "alterStunden": 92,
+          "reach": 62,
+          "saved": 2,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 95,
+          "ig_reels_avg_watch_time": 15078,
+          "ig_reels_video_view_total_time": 1130852,
+          "reels_skip_rate": 55.2
         }
       ]
     },
@@ -11034,6 +11086,62 @@
           "navigation_tap_forward": 14
         }
       ]
+    },
+    "17941652367351582": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "2 KStG?",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T05:44:15.669Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T06:45:14.332Z",
+          "alterStunden": 1,
+          "reach": 6,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 3
+        }
+      ]
+    },
+    "18129040165838377": {
+      "art": "story",
+      "datum": "2026-10-02",
+      "titel": "nein",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-02T05:44:26.949Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-02T06:45:14.332Z",
+          "alterStunden": 1,
+          "reach": 5,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 6,
+          "navigation_tap_back": 10,
+          "navigation_tap_exit": 2
+        }
+      ]
     }
   },
   "konto": [
@@ -11706,6 +11814,11 @@
       "stand": "2026-10-02T05:44:37.400Z",
       "follower": 102,
       "medien": 77
+    },
+    {
+      "stand": "2026-10-02T06:45:18.857Z",
+      "follower": 102,
+      "medien": 78
     }
   ]
 }
