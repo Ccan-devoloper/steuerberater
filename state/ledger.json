@@ -7137,6 +7137,18 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-10-02",
+      "slot": "s8",
+      "medienId": "17984096352083918",
+      "veroeffentlicht": "2026-10-02T15:44:55.664Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-aufb-istr-gh-3-06",
+      "fach": "istr",
+      "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?"
     }
   ],
   "fachZaehler": {
