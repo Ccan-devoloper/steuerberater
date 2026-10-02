@@ -6328,17 +6328,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 51,
-        "saved": 1,
+        "reach": 53,
+        "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T17:45:29.966Z",
-      "insightsAlterStunden": 30
+      "insightsStand": "2026-10-02T05:44:34.938Z",
+      "insightsAlterStunden": 42
     },
     {
       "datum": "2026-09-30",
@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 81,
+        "reach": 89,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 115,
-        "ig_reels_avg_watch_time": 10641,
-        "ig_reels_video_view_total_time": 904530,
-        "reels_skip_rate": 60.5
+        "views": 125,
+        "ig_reels_avg_watch_time": 10174,
+        "ig_reels_video_view_total_time": 956409,
+        "reels_skip_rate": 63.2
       },
-      "insightsStand": "2026-10-01T15:47:23.710Z",
-      "insightsAlterStunden": 22.8
+      "insightsStand": "2026-10-02T05:44:34.938Z",
+      "insightsAlterStunden": 36.7
     },
     {
       "datum": "2026-09-30",
@@ -6552,8 +6552,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-02T05:44:34.938Z",
+      "insightsAlterStunden": 24
     },
     {
       "datum": "2026-10-01",
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 15.1
+      "insightsStand": "2026-10-02T05:44:34.938Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-01",
@@ -6685,22 +6685,22 @@
       "fach": "umwst",
       "titel": "Wann entsteht beim Anteilstausch ein…",
       "insights": {
-        "reach": 29,
-        "views": 38,
+        "reach": 30,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 4,
+        "navigation": 36,
+        "navigation_tap_forward": 26,
         "navigation_tap_exit": 5,
-        "navigation_tap_forward": 25
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-01T22:55:24.685Z",
-      "insightsAlterStunden": 15.1
+      "insightsStand": "2026-10-02T05:44:27.891Z",
+      "insightsAlterStunden": 21.9
     },
     {
       "datum": "2026-10-01",
@@ -6714,22 +6714,22 @@
       "fach": "istr",
       "titel": "§ 1 Abs. 3 EStG: Antrag auf fiktive unbeschränkte Steuerpflicht",
       "insights": {
-        "reach": 25,
-        "views": 34,
+        "reach": 27,
+        "views": 36,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 32,
+        "navigation": 34,
         "navigation_tap_exit": 4,
         "navigation_swipe_forward": 3,
         "navigation_tap_back": 4,
-        "navigation_tap_forward": 21
+        "navigation_tap_forward": 23
       },
-      "insightsStand": "2026-10-01T19:54:40.341Z",
-      "insightsAlterStunden": 9.2
+      "insightsStand": "2026-10-02T05:44:27.891Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-10-01",
@@ -6743,21 +6743,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 24,
-        "views": 25,
+        "reach": 25,
+        "views": 26,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_forward": 17,
+        "navigation": 25,
+        "navigation_swipe_forward": 2,
         "navigation_tap_exit": 5,
-        "navigation_swipe_forward": 2
+        "navigation_tap_forward": 18
       },
-      "insightsStand": "2026-10-01T22:55:24.685Z",
-      "insightsAlterStunden": 10.2
+      "insightsStand": "2026-10-02T05:44:27.891Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-01",
@@ -6771,21 +6771,21 @@
       "fach": "istr",
       "titel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?",
       "insights": {
-        "reach": 22,
-        "views": 26,
+        "reach": 23,
+        "views": 27,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 20,
-        "navigation_tap_exit": 4
+        "navigation": 26,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 21,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-01T22:55:24.685Z",
-      "insightsAlterStunden": 7.1
+      "insightsStand": "2026-10-02T05:44:27.891Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-10-01",
@@ -6809,19 +6809,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 94,
+        "reach": 111,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 124,
-        "ig_reels_avg_watch_time": 4793,
-        "ig_reels_video_view_total_time": 455417,
-        "reels_skip_rate": 70.8
+        "views": 143,
+        "ig_reels_avg_watch_time": 5467,
+        "ig_reels_video_view_total_time": 612347,
+        "reels_skip_rate": 69.6
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-02T05:44:34.938Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-01",
@@ -6835,21 +6835,21 @@
       "fach": "istr",
       "titel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
       "insights": {
-        "reach": 13,
-        "views": 21,
+        "reach": 21,
+        "views": 29,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 12
+        "navigation": 22,
+        "navigation_tap_forward": 16,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-01T19:54:40.341Z",
-      "insightsAlterStunden": 2.2
+      "insightsStand": "2026-10-02T05:44:27.891Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-01",
@@ -6863,20 +6863,21 @@
       "fach": "erbst",
       "titel": "§ 13d ErbStG: 10-%-Befreiung für zu Wohnzwecken vermietete Grundstücke",
       "insights": {
-        "reach": 12,
-        "views": 15,
+        "reach": 20,
+        "views": 24,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 9
+        "navigation": 23,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 14
       },
-      "insightsStand": "2026-10-01T19:54:40.341Z",
-      "insightsAlterStunden": 2.2
+      "insightsStand": "2026-10-02T05:44:27.891Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-02",
