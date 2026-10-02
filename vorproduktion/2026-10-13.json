@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Du weißt, dass die Ermäßigung das Vierfache des festgesetzten Messbetrags beträgt, höchstens aber die tatsächlich zu zahlende Gewerbesteuer.",
-            "Du kennst den Ermäßigungshöchstbetrag: den Anteil der tariflichen Einkommensteuer, der auf die gewerblichen Einkünfte entfällt."
+            "Die Ermäßigung beträgt das Vierfache des festgesetzten Gewerbesteuermessbetrags, höchstens die tatsächlich zu zahlende Gewerbesteuer (§ 35 Abs. 1 EStG).",
+            "Zusätzlich gilt der Ermäßigungshöchstbetrag: der Teil der tariflichen Einkommensteuer, der anteilig auf die gewerblichen Einkünfte entfällt."
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Multipliziere mit vier und begrenze das Ergebnis auf die tatsächlich zu zahlende Gewerbesteuer."
+              "text": "Mit vier multiplizieren und auf die tatsächlich zu zahlende Gewerbesteuer sowie den Ermäßigungshöchstbetrag begrenzen; der niedrigste Wert mindert die Einkommensteuer."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Vierfacher Messbetrag, doppelt gedeckelt: durch die tatsächlich zu zahlende Gewerbesteuer und durch den Ermäßigungshöchstbetrag."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer? Das Vierfache des Messbetrags, höchstens die tatsächlich zu zahlende Gewerbesteuer und höchstens der Ermäßigungshöchstbetrag. Mitunternehmer erhalten den Messbetrag anteilig nach dem allgemeinen Gewinnverteilungsschlüssel.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -233,7 +233,7 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "Gewinnermittlungsart und Gewinngrenze von 200.000 € im Abzugsjahr untersuchen."
+              "text": "Gewinnermittlung nach § 4 oder § 5 EStG und Gewinngrenze von 200.000 € im Abzugsjahr prüfen, außerdem ob das Wirtschaftsgut bis zum Ende des Folgejahres nach Anschaffung vermietet oder in einer inländischen Betriebsstätte fast ausschließlich (mind. 90 %) betrieblich genutzt wird."
             },
             {
               "titel": "2. Schritt",
@@ -244,7 +244,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Wann darf ein Investitionsabzugsbetrag gebildet werden?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Gewinngrenze, 50 %, Höchstbetrag 200.000 € und elektronische Übermittlung – und ohne Investition binnen drei Jahren wird der Abzug im Abzugsjahr rückgängig gemacht (§ 7g Abs. 3 EStG)."
         },
         {
           "art": "cta",
@@ -261,7 +261,7 @@
           ]
         }
       ],
-      "caption": "Wann darf ein Investitionsabzugsbetrag gebildet werden?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Wann darf ein Investitionsabzugsbetrag gebildet werden? Wenn der Gewinn nach § 4 oder § 5 EStG ermittelt wird und ohne IAB 200.000 € nicht übersteigt, das Wirtschaftsgut vermietet oder in einer inländischen Betriebsstätte fast ausschließlich betrieblich genutzt werden soll, der Höchstbetrag von 200.000 € je Betrieb eingehalten ist und die Abzüge elektronisch übermittelt werden. Abziehbar sind bis zu 50 % der voraussichtlichen Kosten (§ 7g Abs. 1 EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -318,46 +318,49 @@
           "nummer": null,
           "titel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
           "unter": "Erbschaftsteuer / Bewertung",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Wert = Fläche × Bodenrichtwert, angepasst an abweichende Grundstücksmerkmale.",
           "norm": "§ 178 BewG",
           "icon": null,
-          "sprecher": "Heute geht es um Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wie bewertest du ein unbebautes Grundstück für die Erbschaftsteuer? Erst die Einordnung, dann die Rechnung.",
           "marken": [
-            "unbebautes Grundstück nach §178 erkennen"
+            "Fläche mal Bodenrichtwert",
+            "§ 179 BewG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Unbebaut i.S.d. § 178 BewG?",
+          "titel": "Unbebaut: kein benutzbares Gebäude am Bewertungsstichtag",
           "text": null,
           "norm": "§ 178 BewG",
           "icon": null,
-          "sprecher": "Schritt 1: Unbebaut i.S.d. § 178 BewG?",
+          "sprecher": "Unbebaut ist ein Grundstück ohne benutzbares Gebäude; benutzbar ist ein Gebäude ab Bezugsfertigkeit. Als unbebaut gilt es auch, wenn die Gebäude auf Dauer nicht nutzbar oder zerstört oder verfallen sind.",
           "marken": [
-            "Prüfpunkt 1"
+            "Kein benutzbares Gebäude",
+            "§ 178 BewG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Bodenrichtwert nach § 179 ermitteln; Quellenhinweis: letzter BRW vor dem Stichtag.",
+          "titel": "Fläche mal zuletzt ermittelter Bodenrichtwert, abweichende Merkmale anpassen",
           "text": null,
           "norm": "§ 179 BewG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 179 BewG im Zusammenhang mit Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale.",
+          "sprecher": "Den Wert bildest du aus Fläche mal Bodenrichtwert, und zwar dem Wert, den der Gutachterausschuss zuletzt vor dem Stichtag zu ermitteln hatte. Weicht dein Grundstück etwa in Tiefe oder Geschossflächenzahl ab, passt du den Wert an.",
           "marken": [
-            "Prüfpunkt 2"
+            "Letzter Bodenrichtwert vor Stichtag",
+            "Abweichungen anpassen"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Angesetzt wird der zuletzt zu ermittelnde Bodenrichtwert; einen niedrigeren gemeinen Wert weist du per Gutachten oder zeitnahem Kaufpreis nach (§ 198 BewG).",
+          "sprecher": "Merke: Maßgeblich ist der Bodenrichtwert. Einen niedrigeren gemeinen Wert kannst du mit einem Gutachten oder einem zeitnahen Kaufpreis nachweisen.",
           "marken": [
-            "Merksatz"
+            "Niedrigeren Wert nachweisen"
           ]
         },
         {
@@ -367,13 +370,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Unbebautes Grundstück: Ohne benutzbares Gebäude ist es unbebaut (§ 178 BewG). Bewertet wird mit Fläche mal zuletzt ermitteltem Bodenrichtwert, angepasst an abweichende Grundstücksmerkmale (§ 179 BewG). Einen niedrigeren gemeinen Wert weist du per Gutachten oder zeitnahem Kaufpreis nach (§ 198 BewG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -387,6 +389,7 @@
         "§ 178 BewG",
         "§ 179 BewG",
         "H B 179.2",
+        "§ 198 BewG",
         "Themenpool: erbst-modul-erbst-544"
       ],
       "coverRegie": {
@@ -463,7 +466,7 @@
         "§ 20 Abs. 8 EStG"
       ],
       "richtig": 0,
-      "text": "§ 43 Abs. 5 S. 2 EStG: keine Abgeltung bei Einkünften aus dem Betriebsvermögen.",
+      "text": "Nach § 43 Abs. 5 S. 2 EStG wirkt die Kapitalertragsteuer bei betrieblichen Kapitalerträgen nicht abgeltend; sie wird auf die Einkommensteuer angerechnet.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -493,8 +496,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Norm des Tages",
       "norm": "§ 124 AO",
-      "titel": "Wirksam trotz Fehler: Rechtswidrigkeit, Nichtigkeit und die Tortenstückfehlerlehre",
-      "text": "Wirksamkeit und Rechtmäßigkeit nicht vermischen Nichtigkeit als Ausnahmebereich erkennen",
+      "titel": "Wirksam trotz Fehler: Rechtswidrigkeit und Nichtigkeit nach §§ 124, 125 AO",
+      "text": "Ein rechtswidriger Verwaltungsakt bleibt wirksam, bis er aufgehoben wird oder sich erledigt (§ 124 Abs. 2 AO). Unwirksam ist er nur, wenn er nichtig ist, etwa bei besonders schwerem, offenkundigem Fehler (§ 125 AO).",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -526,7 +529,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wirtschaftsgut in die Auslandsbetriebsstätte: Entstrickung prüfen",
-      "text": "Prüfe, ob im anderen Staat eine Betriebsstätte im Sinne des Art. 5 OECD-MA besteht, der die Gewinne zuzurechnen sind.",
+      "text": "Wechselt ein Wirtschaftsgut in eine ausländische Betriebsstätte, gilt das als Entnahme zum gemeinen Wert (§ 4 Abs. 1 S. 3, 4 EStG). Bei EU-/EWR-Betriebsstätten: auf Antrag Ausgleichsposten über fünf Jahre (§ 4g EStG).",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -554,7 +557,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Abzug statt Anrechnung: Wann lohnt § 34c Abs. 2 EStG?",
-      "text": "Prüfe zuerst die Voraussetzungen des § 34c Abs. 1 EStG; fehlen sie, ist § 34c Abs. 3 EStG einschlägig.",
+      "text": "Erfüllt die Auslandssteuer § 34c Abs. 1 EStG, wählst du zwischen Anrechnung und Abzug von den Einkünften (Abs. 2). Der Abzug lohnt bei Verlusten oder geringer deutscher Steuer, weil die Anrechnung dann ins Leere geht.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -581,7 +584,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "§ 173 AO: Rechtserheblichkeit, anhängiges BFH-Verfahren und Änderungssperre",
-      "text": "Neue Tatsache oder neues Beweismittel und Rechtserheblichkeit nach § 173 Abs. 1 untersuchen.",
+      "text": "Neue Tatsachen sind nur rechtserheblich, wenn das Finanzamt bei rechtzeitiger Kenntnis anders entschieden hätte. Nach einer Außenprüfung sperrt § 173 Abs. 2 AO Änderungen, außer bei Hinterziehung oder Leichtfertigkeit.",
       "liveVorrangAktiv": true
     },
     "s1": {

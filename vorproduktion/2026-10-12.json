@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "immerwährende von unbestimmter Dauer trennen",
-            "Grabpflege in den Nutzungs-/Leistungsblock einordnen"
+            "Immerwährend: Ein Ende ist nicht absehbar, Kapitalwert = Jahreswert × 18,6. Unbestimmte Dauer: Das Ende kommt sicher, nur der Zeitpunkt ist offen, Kapitalwert = Jahreswert × 9,3.",
+            "Grabpflege: Die Kosten der üblichen Grabpflege zieht der Erwerber mit dem Kapitalwert für unbestimmte Dauer ab, also Jahreswert × 9,3 (§ 10 Abs. 5 Nr. 3 ErbStG). Ohne Einzelnachweis gilt die Erbfallkostenpauschale."
           ]
         },
         {
@@ -143,14 +143,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Immerwährende Dauer → Jahreswert × 18,6."
+              "text": "Dauer einordnen und kapitalisieren: immerwährend Jahreswert × 18,6, unbestimmte Dauer Jahreswert × 9,3."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei § 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "18,6 für immerwährend, 9,3 für unbestimmte Dauer – und die Grabpflege bewertet das Gesetz ausdrücklich als Last von unbestimmter Dauer."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "§ 13 Abs. 2 BewG: Immerwährende Nutzungen und Leistungen bewertest du mit dem 18,6-fachen, solche von unbestimmter Dauer mit dem 9,3-fachen Jahreswert. Die übliche Grabpflege zieht der Erwerber mit dem Kapitalwert für unbestimmte Dauer ab (§ 10 Abs. 5 Nr. 3 ErbStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -181,6 +181,7 @@
         "§ 13 Abs. 2 BewG",
         "§ 15 BewG",
         "§ 16 BewG",
+        "§ 10 Abs. 5 Nr. 3 ErbStG",
         "Themenpool: erbst-modul-erbst-539"
       ],
       "coverRegie": {
@@ -222,8 +223,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Du weißt, dass jede Gemeinde hebeberechtigt ist, in der eine Betriebsstätte unterhalten wird, und dass der Messbetrag dann nach § 28 GewStG zerlegt wird.",
-            "Du kennst den Regelmaßstab des § 29 GewStG: das Verhältnis der in den Gemeinden gezahlten Arbeitslöhne, für jeden Fall auf volle 1.000 € abgerundet."
+            "Unterhält ein Betrieb Betriebsstätten in mehreren Gemeinden, ist jede dieser Gemeinden hebeberechtigt; der Messbetrag wird dann nach § 28 GewStG zerlegt.",
+            "Regelmaßstab ist das Verhältnis der Arbeitslöhne in den einzelnen Gemeinden zur Summe aller Arbeitslöhne, jeweils auf volle 1.000 € abgerundet (§ 29 GewStG)."
           ]
         },
         {
@@ -236,14 +237,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Summiere die Arbeitslöhne je Gemeinde und rechne den Unternehmerlohn der Gemeinde zu, in der der Unternehmer tätig ist."
+              "text": "Arbeitslöhne je Gemeinde nach § 31 GewStG ermitteln; für tätige Unternehmer oder Mitunternehmer zusammen pauschal 25.000 € ansetzen (§ 31 Abs. 5 GewStG). Dann den Messbetrag im Verhältnis verteilen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Zerlegt wird nach Arbeitslöhnen, nicht nach Umsatz oder Gewinn – tätige Unternehmer zählen pauschal mit 25.000 €."
         },
         {
           "art": "cta",
@@ -260,7 +261,7 @@
           ]
         }
       ],
-      "caption": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Zerlegung: Hat ein Betrieb Betriebsstätten in mehreren Gemeinden, verteilst du den Gewerbesteuermessbetrag nach dem Verhältnis der Arbeitslöhne (§§ 28, 29 GewStG). Für tätige Unternehmer setzt du pauschal 25.000 € an (§ 31 Abs. 5 GewStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -316,46 +317,49 @@
           "nummer": null,
           "titel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
           "unter": "Umwandlungssteuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Aufstockung nur auf Antrag, gewinnneutral und erst nach Steuerzahlung des Einbringenden.",
           "norm": "§ 23 Abs. 2 UmwStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Der Einbringende hat in der Sperrfrist verkauft und den Einbringungsgewinn I versteuert. Wie zieht die GmbH jetzt nach?",
           "marken": [
-            "Die Aufstockung erfolgt auf Antrag"
+            "Erhöhungsbetrag auf Antrag",
+            "§ 23 Abs. 2 UmwStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 23 Abs. 2 UmwStG",
+          "titel": "Erhöhungsbetrag = versteuerter Einbringungsgewinn, nur auf Antrag mit Bescheinigung",
           "text": null,
           "norm": "§ 23 Abs. 2 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 23 Abs. 2 UmwStG im Zusammenhang mit Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+          "sprecher": "Die GmbH darf auf Antrag den Einbringungsgewinn I gewinnneutral als Erhöhungsbetrag ansetzen. Voraussetzung: Der Einbringende hat die Steuer darauf gezahlt, belegt durch eine Bescheinigung nach § 22 Absatz 5 UmwStG.",
           "marken": [
-            "Prüfpunkt 1"
+            "Antrag und Steuerbescheinigung",
+            "§ 22 Abs. 5 UmwStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 23 Abs. 3 UmwStG",
+          "titel": "Noch vorhandene Wirtschaftsgüter aufstocken, AfA ab Beginn des Ereignisjahres",
           "text": null,
           "norm": "§ 23 Abs. 3 UmwStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 23 Abs. 3 UmwStG im Zusammenhang mit Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+          "sprecher": "Aufgestockt werden die eingebrachten Wirtschaftsgüter, die noch zum Betriebsvermögen gehören, im Verhältnis ihrer stillen Reserven. Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in dem die schädliche Veräußerung liegt.",
           "marken": [
-            "Prüfpunkt 2"
+            "AfA ab Beginn des Wirtschaftsjahres",
+            "§ 23 Abs. 3 UmwStG"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wie stockt die GmbH nach einem Einbringungsgewinn I auf?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Ohne Antrag und ohne gezahlte Steuer des Einbringenden keine Aufstockung – und die höhere AfA wirkt erst ab dem Jahr der schädlichen Veräußerung.",
+          "sprecher": "Merke: Die GmbH stockt erst auf, wenn der Einbringende gezahlt hat. Die höhere AfA wirkt nicht auf den Einbringungszeitpunkt zurück.",
           "marken": [
-            "Merksatz"
+            "Erst Steuer, dann Aufstockung"
           ]
         },
         {
@@ -365,13 +369,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Auf Antrag setzt sie den versteuerten Einbringungsgewinn gewinnneutral als Erhöhungsbetrag an, wenn der Einbringende die Steuer gezahlt hat (§ 23 Abs. 2, § 22 Abs. 5 UmwStG). Die höhere AfA gilt ab Beginn des Wirtschaftsjahres der schädlichen Veräußerung (§ 23 Abs. 3 UmwStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -386,6 +389,7 @@
         "§ 23 Abs. 3 UmwStG",
         "§ 5 Abs. 7 EStG",
         "§ 27 KStG",
+        "§ 22 Abs. 5 UmwStG",
         "Themenpool: umwst-aufb-umw-2-70"
       ],
       "coverRegie": {
@@ -427,8 +431,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "3 EStG?",
-      "titel": "3 EStG?",
+      "frage": "Wann endet die Sperrfrist nach einer Realteilung (§ 16 Abs. 3 S. 3 EStG)?",
+      "titel": "Wann endet die Sperrfrist nach einer Realteilung (§ 16 Abs. 3 S. 3 EStG)?",
       "optionen": [
         "ein Jahr ab Realteilung",
         "drei Jahre ab Realteilung",
@@ -462,7 +466,7 @@
         "drei Jahre ab Abgabe der Feststellungserklärung"
       ],
       "richtig": 2,
-      "text": "Der Fristbeginn hängt an der Feststellungserklärung, nicht am Realteilungsstichtag.",
+      "text": "Die Sperrfrist endet drei Jahre nach Abgabe der Feststellungserklärung für den Veranlagungszeitraum der Realteilung, nicht drei Jahre ab dem Realteilungsstichtag (§ 16 Abs. 3 S. 3 EStG).",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -495,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "Art. 10 OECD-MA",
       "titel": "Auslandsdividenden: Wer darf besteuern, was wird angerechnet?",
-      "text": "Du weißt, dass das OECD-MA die Quellensteuer bei Streubesitz auf 15 % begrenzt und nur die abkommensgemäße Steuer angerechnet werden kann. Du weißt, dass eine darüber hinaus einbehaltene Quellensteuer im Quellenstaat zurückgefordert werden muss.",
+      "text": "Art. 10 Abs. 2 OECD-MA begrenzt die Quellensteuer auf Dividenden bei Streubesitz auf 15 %. Angerechnet wird nur diese abkommensgemäße Steuer; was der Quellenstaat darüber hinaus einbehält, forderst du dort zurück.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -522,8 +526,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "Anteilsveräußerung durch ausländische Körperschaft: § 49 und § 8b KStG",
-      "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
-      "richtigText": "Inlandsanknüpfung der Anteilsveräußerung nach § 49 vor § 8b untersuchen.",
+      "falsch": "Pauschal 5 % des Gewinns als nicht abziehbare Betriebsausgaben nach § 8b Abs. 3 KStG ansetzen, obwohl keine inländische Betriebsstätte besteht.",
+      "richtigText": "Erst § 49 Abs. 1 Nr. 2 Buchst. e EStG (Beteiligung ab 1 %) und ein DBA prüfen. Bleibt Deutschland zuständig, ist der Gewinn nach § 8b Abs. 2 KStG frei; ohne inländische Betriebsstätte greift die 5 %-Fiktion nicht.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -539,7 +543,6 @@
         "Art. 4 Abs. 1 DBA",
         "Art. 4 Abs. 2 DBA",
         "Art. 1, 2 und 4 DBA",
-        "AAVV",
         "Themenpool: istr-modul-istr-istr2-04"
       ],
       "regelGeprueft": true,
@@ -550,8 +553,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "DBA Anwendbarkeit und Ansässigkeit",
-      "text": "A – Anwendbarkeit: Art. 1 persönlich und Art. 2 sachlich.",
+      "titel": "DBA: Anwendbarkeit und Ansässigkeit",
+      "text": "Prüfe zuerst, ob das DBA greift: persönlich nach Art. 1 (in einem Vertragsstaat ansässige Person) und sachlich nach Art. 2 (erfasste Steuern). Ist eine natürliche Person doppelt ansässig, entscheidet Art. 4 Abs. 2.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -576,7 +579,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Einspruch beim falschen Finanzamt: Eingang, Weiterleitung und Wiedereinsetzung",
-      "text": "Bestimme das nach § 357 Abs. 2 AO zulässige Anbringungs-Finanzamt.",
+      "text": "Ein Einspruch beim unzuständigen Finanzamt wahrt die Frist nur, wenn er vor Fristablauf an eine zuständige Behörde übermittelt wird (§ 357 Abs. 2 S. 4 AO). Hakt die Weiterleitung, prüfe Wiedereinsetzung nach § 110 AO.",
       "liveVorrangAktiv": true
     },
     "s1": {

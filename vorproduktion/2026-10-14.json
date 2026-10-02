@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "den Realisationszeitpunkt an Gefahrübergang bzw. Abnahme knüpfen",
-            "schwebende Geschäfte vom Bilanzansatz ausnehmen"
+            "Realisiert ist der Gewinn, sobald du deine Leistung im Wesentlichen erbracht hast: beim Kauf mit Gefahrübergang, in der Regel der Übergabe, beim Werkvertrag mit der Abnahme (§ 252 Abs. 1 Nr. 4 Hs. 2 HGB).",
+            "Schwebende Geschäfte werden nicht bilanziert. Droht ein Verlust, ist handelsrechtlich eine Rückstellung Pflicht (§ 249 Abs. 1 S. 1 HGB); in der Steuerbilanz ist sie verboten (§ 5 Abs. 4a S. 1 EStG)."
           ]
         },
         {
@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Gewinnrealisierung und schwebende Geschäfte: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Bis zur Erfüllung bleibt das Geschäft schwebend: kein Gewinn, kein Bilanzansatz – und eine Drohverlustrückstellung gibt es nur in der Handelsbilanz."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Gewinnrealisierung und schwebende Geschäfte: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gewinnrealisierung und schwebende Geschäfte: Der Gewinn entsteht erst, wenn die Leistung im Wesentlichen erbracht ist, beim Kauf mit Gefahrübergang, beim Werkvertrag mit Abnahme. Bis dahin ist das Geschäft schwebend und wird nicht bilanziert. Drohverlustrückstellungen sind steuerlich verboten (§ 5 Abs. 4a S. 1 EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -227,8 +227,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "§ 10 Abs. 6, 6a und 6b nach ihrer aktuellen Funktion auseinanderhalten",
-            "wirtschaftlich direkt mit steuerbefreitem Vermögen zusammenhängende Schulden nach § 10 Abs. 6a kürzen"
+            "§ 10 Abs. 6: Schulden zu Vermögen, das nicht der Erbschaftsteuer unterliegt, sind nicht abziehbar. Bei beschränkter Steuerpflicht sind seit dem JStG 2024 auch nicht zuordenbare Schulden wie der Pflichtteil anteilig abziehbar.",
+            "§ 10 Abs. 6a: Schulden zu befreitem Vermögen (z. B. Familienheim) nicht, bei teilweiser Befreiung nur anteilig abziehen; nicht zuordenbare Schulden nach Nettowerten verteilen. Abs. 6b: im Grundbesitzwert erfasste Belastungen nicht doppelt abziehen."
           ]
         },
         {
@@ -241,14 +241,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei wirtschaftlichem Zusammenhang mit lückenlos oder teilweise steuerbefreitem Vermögen die Kürzung nach § 10 Abs. 6a ErbStG bestimmen."
+              "text": "Schuld zuordnen: zu nicht steuerbarem Vermögen kein Abzug (§ 10 Abs. 6 S. 1 ErbStG), zu voll befreitem kein Abzug, zu teilweise befreitem nur anteilig (§ 10 Abs. 6a ErbStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Befreites Vermögen zieht seine Schulden mit: voll befreit kein Abzug, teilweise befreit nur anteilig."
         },
         {
           "art": "cta",
@@ -265,7 +265,7 @@
           ]
         }
       ],
-      "caption": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Begrenzung des Schulden- und Lastenabzugs: Schulden zu nicht steuerbarem Vermögen sind nicht abziehbar (§ 10 Abs. 6 S. 1 ErbStG), Schulden zu voll befreitem Vermögen ebenfalls nicht, zu teilweise befreitem nur anteilig (§ 10 Abs. 6a ErbStG). Bei beschränkter Steuerpflicht sind nicht zuordenbare Schulden seit dem JStG 2024 anteilig abziehbar.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -280,6 +280,8 @@
         "R E 10.10 Abs. 2 S. 2",
         "§ 10 Abs. 6 ErbStG",
         "§ 10 Abs. 6b ErbStG",
+        "§ 10 Abs. 6 S. 1 ErbStG",
+        "§ 10 Abs. 6 S. 3 ErbStG",
         "Themenpool: erbst-modul-erbst-515"
       ],
       "coverRegie": {
@@ -317,46 +319,48 @@
           "nummer": null,
           "titel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
           "unter": "Einkommensteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Veräußerungspreis minus Anschaffungskosten minus Werbungskosten.",
           "norm": "§ 23 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um So wird der Gewinn aus privaten Veräußerungen ermittelt. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Du verkaufst ein vermietetes Grundstück innerhalb der Zehnjahresfrist. So ermittelst du den steuerpflichtigen Gewinn.",
           "marken": [
-            "Nach § 23 Abs."
+            "Preis minus Kosten",
+            "§ 23 Abs. 3 EStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Den Veräußerungspreis dem Jahr des Zuflusses nach § 11 Abs. 1 EStG zuweisen, bei Ratenzahlung jahresweise.",
+          "titel": "Veräußerungspreis minus Werbungskosten und um die AfA geminderte Anschaffungskosten",
           "text": null,
           "norm": "§ 23 Abs. 3 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 23 Abs. 3 EStG im Zusammenhang mit So wird der Gewinn aus privaten Veräußerungen ermittelt.",
+          "sprecher": "Vom Veräußerungspreis ziehst du die Anschaffungs- oder Herstellungskosten und die Werbungskosten ab. Die Kosten mindern sich um die AfA, die du bei der Vermietung schon abgezogen hast. Das erhöht den Gewinn.",
           "marken": [
-            "Prüfpunkt 1"
+            "Abgezogene AfA mindert Kosten"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 11 EStG",
+          "titel": "Erfassung im Jahr des Zuflusses, steuerfrei bei Gesamtgewinn unter 1.000 €",
           "text": null,
           "norm": "§ 11 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 11 EStG im Zusammenhang mit So wird der Gewinn aus privaten Veräußerungen ermittelt.",
+          "sprecher": "Den Gewinn versteuerst du im Jahr, in dem der Kaufpreis zufließt. Steuerfrei bleibt er, wenn alle privaten Veräußerungsgewinne des Jahres zusammen weniger als 1.000 Euro betragen.",
           "marken": [
-            "Prüfpunkt 2"
+            "Zufluss entscheidet",
+            "Freigrenze unter 1.000 €"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei So wird der Gewinn aus privaten Veräußerungen ermittelt: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Abgezogene AfA erhöht den Gewinn – und Verluste aus § 23 EStG verrechnest du nur mit Gewinnen aus § 23 EStG.",
+          "sprecher": "Merke: Bereits abgezogene AfA holt dich beim Verkauf wieder ein. Verluste daraus verrechnest du nur mit anderen privaten Veräußerungsgewinnen, auch im Rücktrag oder Vortrag.",
           "marken": [
-            "Merksatz"
+            "Verluste nur innerhalb § 23 EStG"
           ]
         },
         {
@@ -366,13 +370,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "So wird der Gewinn aus privaten Veräußerungen ermittelt: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "So wird der Gewinn aus privaten Veräußerungen ermittelt: Veräußerungspreis minus Werbungskosten und Anschaffungskosten, die um bereits abgezogene AfA gemindert sind (§ 23 Abs. 3 EStG). Erfasst wird im Jahr des Zuflusses; liegt der Gesamtgewinn des Jahres unter 1.000 €, bleibt er steuerfrei.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -467,7 +470,7 @@
         "sofort"
       ],
       "richtig": 1,
-      "text": "Das überlassene Kapital bleibt konstant, daher lineare Auflösung.",
+      "text": "Beim Fälligkeitsdarlehen bleibt das überlassene Kapital bis zum Ende gleich hoch. Das als aktiver Rechnungsabgrenzungsposten erfasste Disagio wird daher linear über die Laufzeit bzw. Zinsbindung aufgelöst.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -496,7 +499,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 1 Abs. 1 EStG",
       "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
-      "text": "§ 1 Abs. 1, 3 und 4 EStG sauber voneinander unterscheiden. Die 90-%-/Grundfreibetragsprüfung des § 1 Abs. 3 EStG in den Klausuraufbau einordnen.",
+      "text": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland: § 1 Abs. 1 EStG. Sonst auf Antrag Abs. 3, wenn mind. 90 % der Einkünfte hier steuerpflichtig sind oder der Rest den Grundfreibetrag nicht übersteigt; ansonsten Abs. 4.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -519,7 +522,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Gewöhnlicher Aufenthalt: Wann reicht die bloße Anwesenheit?",
-      "text": "Kläre zuerst, ob schon ein Wohnsitz nach § 8 AO vorliegt; § 9 AO ist nur ergänzend zu untersuchen.",
+      "text": "Ohne Wohnsitz (§ 8 AO) gilt: Über sechs Monate zusammenhängender Aufenthalt begründen stets den gewöhnlichen Aufenthalt (§ 9 S. 2 AO), bei reinen Besuchs-, Erholungs-, Kur- oder ähnlichen Zwecken erst über ein Jahr.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -545,7 +548,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
-      "text": "Bestimme den genauen Zeitpunkt von Zu- oder Wegzug und damit die Phasen der Steuerpflicht im Kalenderjahr.",
+      "text": "Bei Zu- oder Wegzug gibt es nur eine Veranlagung als unbeschränkt Steuerpflichtiger: Inländische Einkünfte der beschränkten Phase fließen ein (§ 2 Abs. 7 S. 3 EStG), ausländische nur in den Progressionsvorbehalt.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -574,7 +577,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Merksatz",
       "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
-      "text": "Aufsichtsratsvergütung: § 18 → § 49 Nr. 3 → § 50a Nr. 4 → 30 % → ggf. EU/EWR-Aufwendungen → Art. 16 DBA.",
+      "text": "Aufsichtsratsvergütung Nichtansässiger: § 18 Abs. 1 Nr. 3, § 49 Abs. 1 Nr. 3 EStG, Abzug 30 % (§ 50a Abs. 1 Nr. 4, Abs. 2 EStG), für EU/EWR-Gläubiger mit Kostenabzug (Abs. 3); Besteuerungsrecht nach Art. 16 OECD-MA.",
       "liveVorrangAktiv": true
     },
     "s1": {

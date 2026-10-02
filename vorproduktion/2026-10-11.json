@@ -130,7 +130,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Wurde das Gebäude selbst errichtet oder ohne Abbruchabsicht erworben, sind Restbuchwert und Abbruchkosten sofort abziehbare Betriebsausgaben.",
-            "Bei Erwerb in Abbruchabsicht gehören beide zu den Herstellungskosten des neuen Wirtschaftsguts, wenn das Gebäude noch nicht verbraucht war und ein enger Zusammenhang mit der Neuherstellung besteht; fehlt dieser Zusammenhang, erhöhen sie die Anschaffungskosten des Bodens."
+            "Bei Erwerb in Abbruchabsicht sind Restbuchwert und Abbruchkosten Herstellungskosten des Neubaus, wenn der Abbruch eng mit dem Neubau zusammenhängt, sonst Anschaffungskosten des Grund und Bodens. War das Gebäude beim Erwerb wertlos, entfällt der ganze Kaufpreis auf den Boden."
           ]
         },
         {
@@ -150,7 +150,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Die Abbruchabsicht beim Erwerb ist die Weiche: ohne sie sofort Aufwand, mit ihr Herstellungskosten des Neubaus oder Anschaffungskosten des Bodens. Ein Abriss binnen drei Jahren nach Erwerb spricht für Abbruchabsicht."
         },
         {
           "art": "cta",
@@ -167,7 +167,7 @@
           ]
         }
       ],
-      "caption": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Gebäudeabriss: Aufwand oder Anschaffungskosten? Entscheidend ist, ob du das Gebäude in Abbruchabsicht erworben hast. Ohne Abbruchabsicht sind Restbuchwert und Abbruchkosten sofort Betriebsausgaben, mit ihr fließen sie in den Neubau oder in den Grund und Boden.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -179,6 +179,9 @@
       "coverBildAuslassen": true,
       "quellen": [
         "§ 7 Abs. 1 EStG",
+        "§ 7 Abs. 1 S. 7 EStG",
+        "§ 6 Abs. 1 Nr. 1, 2 EStG",
+        "H 6.4 EStH",
         "Themenpool: bilanz-aufb-bil-melzer-ue-18"
       ],
       "coverRegie": {
@@ -221,7 +224,7 @@
           "titel": "Kern der Prüfung",
           "punkte": [
             "Nutzungen wie Nießbrauch oder Wohnrecht fließen aus einem fremden Wirtschaftsgut zu, Leistungen wie Renten beruhen auf einem Schuldverhältnis; der Unterschied zählt wegen § 16 BewG.",
-            "Der Jahreswert entspricht bei Geldbezügen den jährlichen Zahlungen, bei Sachvorteilen dem üblichen Mittelpreis am Verbrauchsort und bei schwankenden Erträgen einem geschätzten Durchschnitt aus der Vergangenheit."
+            "Jahreswert (§ 15 BewG): bei Geldleistungen die jährlichen Zahlungen, bei der Nutzung einer Geldsumme 5,5 %, bei Sachbezügen übliche Mittelpreise am Verbrauchsort, bei schwankenden Nutzungen der künftig erwartete Durchschnitt, meist aus den Vorjahren geschätzt."
           ]
         },
         {
@@ -234,14 +237,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Jahreswert nach § 15 BewG ermitteln, bei schwankenden Erträgen aus dem Durchschnitt der Vorjahre."
+              "text": "Jahreswert nach § 15 BewG ermitteln, bei Nutzungen auf den Steuerwert des Wirtschaftsguts geteilt durch 18,6 deckeln (§ 16 BewG), dann kapitalisieren: Zeitrente nach § 13 Abs. 1 BewG mit Anlage 9a, lebenslange Nutzung nach § 14 BewG."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Den Deckel des § 16 BewG gibt es nur für Nutzungen eines Wirtschaftsguts wie den Nießbrauch, nicht für Renten aus einem Schuldverhältnis."
         },
         {
           "art": "cta",
@@ -258,7 +261,7 @@
           ]
         }
       ],
-      "caption": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Nießbrauch bewerten: erst den Jahreswert nach § 15 BewG, dann bei Nutzungen den Deckel des § 16 BewG (Steuerwert geteilt durch 18,6), zuletzt kapitalisieren – bei einer Zeitrente nach § 13 BewG mit Anlage 9a, bei lebenslanger Dauer nach § 14 BewG.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -314,46 +317,49 @@
           "nummer": null,
           "titel": "Wann sind wiederkehrende Leistungen Sonderausgaben?",
           "unter": "Einkommensteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Versorgungsleistungen sind nur bei Übergabe begünstigten Vermögens abziehbar.",
           "norm": "§ 10 Abs. 1a Nr. 2 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Wann sind wiederkehrende Leistungen Sonderausgaben? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Wann sind wiederkehrende Leistungen Sonderausgaben? Bei einer Vermögensübergabe nur als Versorgungsleistungen, und auch dann nur unter engen Bedingungen.",
           "marken": [
-            "Begünstigt sind nach § 10 Abs."
+            "Versorgungsleistungen bei Vermögensübergabe",
+            "§ 10 Abs. 1a EStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Prüfpunkt 1: § 10 Abs. 1a Nr. 2 EStG",
+          "titel": "Begünstigt: Betrieb, Teilbetrieb, Mitunternehmeranteil oder GmbH-Anteil ab 50 %",
           "text": null,
           "norm": "§ 10 Abs. 1a Nr. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 10 Abs. 1a Nr. 2 EStG im Zusammenhang mit Wann sind wiederkehrende Leistungen Sonderausgaben?",
+          "sprecher": "Begünstigt ist nur die Übergabe eines Betriebs, Teilbetriebs oder Mitunternehmeranteils oder von mindestens 50 Prozent an einer GmbH, deren Geschäftsführung der Übernehmer fortführt. Vermietete Immobilien oder Wertpapiere reichen nicht.",
           "marken": [
-            "Prüfpunkt 1"
+            "Nur begünstigtes Vermögen",
+            "Keine Mietobjekte, keine Wertpapiere"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 22 Nr. 1b EStG",
+          "titel": "Lebenslang an unbeschränkt Steuerpflichtige: voller Abzug, Empfänger versteuert",
           "text": null,
-          "norm": "§ 22 Nr. 1b EStG",
+          "norm": "§ 22 Nr. 1a EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 22 Nr. 1b EStG im Zusammenhang mit Wann sind wiederkehrende Leistungen Sonderausgaben?",
+          "sprecher": "Die Leistungen müssen lebenslang laufen und der Empfänger grundsätzlich unbeschränkt steuerpflichtig sein. Dann ziehst du sie in voller Höhe als Sonderausgaben ab, und der Empfänger versteuert sie nach § 22 Nummer 1a EStG.",
           "marken": [
-            "Prüfpunkt 2"
+            "Voller Sonderausgabenabzug",
+            "§ 22 Nr. 1a EStG"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Wann sind wiederkehrende Leistungen Sonderausgaben?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Versorgungsleistungen sind nur bei begünstigtem Vermögen Sonderausgaben – was der Zahlende abzieht, versteuert der Empfänger.",
+          "sprecher": "Merke: Ohne begünstigtes Vermögen kein Sonderausgabenabzug. Und was der Zahlende abzieht, muss der Empfänger versteuern.",
           "marken": [
-            "Merksatz"
+            "Abzug und Besteuerung korrespondieren"
           ]
         },
         {
@@ -363,13 +369,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Wann sind wiederkehrende Leistungen Sonderausgaben?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wann sind wiederkehrende Leistungen Sonderausgaben? Bei einer Vermögensübergabe nur als lebenslange Versorgungsleistungen und nur bei Übergabe eines Betriebs, Teilbetriebs, Mitunternehmeranteils oder GmbH-Anteils ab 50 % (§ 10 Abs. 1a Nr. 2 EStG). Der Empfänger versteuert sie korrespondierend nach § 22 Nr. 1a EStG.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -381,11 +386,11 @@
       "coverBildAuslassen": true,
       "quellen": [
         "§ 10 Abs. 1a Nr. 2 EStG",
-        "§ 22 Nr. 1b EStG",
         "§ 6 Abs. 3 EStG",
         "§ 17 Abs. 2 Satz 5 EStG",
         "§ 15 Abs. 3 Nr. 2 EStG",
         "§§ 13, 15, 18 EStG",
+        "§ 22 Nr. 1a EStG",
         "Themenpool: est-aufb-est-ks2-wl-02"
       ],
       "coverRegie": {
@@ -427,8 +432,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
-      "titel": "Welche Phase wird im Übungsfall nicht der späteren GmbH zugerechnet?",
+      "frage": "Welche Gründungsphase wird steuerlich nicht der späteren GmbH zugerechnet?",
+      "titel": "Welche Gründungsphase wird steuerlich nicht der späteren GmbH zugerechnet?",
       "optionen": [
         "Vorgesellschaft",
         "eingetragene GmbH",
@@ -462,7 +467,7 @@
         "Vorgründungsgesellschaft"
       ],
       "richtig": 2,
-      "text": "Die Vorgründungsgesellschaft ist weder mit der Vorgesellschaft noch mit der GmbH identisch.",
+      "text": "Die Vorgründungsgesellschaft vor dem notariellen Gesellschaftsvertrag ist ein eigenes Gebilde, meist eine GbR; ihre Ergebnisse gehören den Gründern. Erst die Vorgesellschaft bildet mit der GmbH ein Steuersubjekt.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -490,7 +495,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 175 Abs. 1 Nr. 1 AO",
       "titel": "§ 175 Abs. 1 Nr. 1 AO: Anpassung an Grundlagen-/Feststellungsbescheide",
-      "text": "Erlass/Aufhebung/Änderung eines Grundlagenbescheids als Auslöser erkennen Bindungswirkung nach § 182 Abs. 1 S. 1 AO und Wirksamkeitsformel untersuchen",
+      "text": "Ergeht, ändert sich oder entfällt ein Grundlagenbescheid, ist der Folgebescheid anzupassen (§ 175 Abs. 1 S. 1 Nr. 1 AO). Die Festsetzungsfrist endet nicht vor zwei Jahren nach dessen Bekanntgabe (§ 171 Abs. 10 S. 1 AO).",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -513,7 +518,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Doppelwohnsitz: Wie bestimmt Art. 4 OECD-MA die Ansässigkeit?",
-      "text": "Prüfe nach dem nationalen Recht beider Staaten, ob die Person dort für jeden Fall unbeschränkt steuerpflichtig ist.",
+      "text": "Ist die Person in beiden Staaten ansässig, entscheidet Art. 4 Abs. 2 OECD-MA der Reihe nach: ständige Wohnstätte, Mittelpunkt der Lebensinteressen, gewöhnlicher Aufenthalt, Staatsangehörigkeit, zuletzt Verständigung.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -538,8 +543,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "Nichtselbständige Arbeit: Art. 15 DBA und 183-Tage-Regel",
-      "falsch": "Prüfungsschritt überspringen oder zu früh zum Ergebnis springen.",
-      "richtigText": "Tätigkeitsstaat als Ausgangspunkt des Art. 15 bestimmen.",
+      "falsch": "Nur die 183 Tage zählen und bei weniger Tagen sofort das Besteuerungsrecht des Wohnsitzstaats annehmen.",
+      "richtigText": "Art. 15 Abs. 2 OECD-MA: höchstens 183 Tage, Arbeitgeber nicht im Tätigkeitsstaat ansässig und Lohn nicht von einer dortigen Betriebsstätte getragen. Nur wenn alle drei vorliegen, besteuert allein der Wohnsitzstaat.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -569,7 +574,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
-      "text": "1. § 20 EStG – Kapitalertrag qualifizieren.",
+      "text": "Inländisch sind Kapitalerträge vor allem nach § 49 Abs. 1 Nr. 5 EStG, etwa Dividenden einer inländischen Kapitalgesellschaft. Die Kapitalertragsteuer wirkt dann grundsätzlich abgeltend (§ 50 Abs. 2 S. 1 EStG).",
       "liveVorrangAktiv": true
     },
     "s1": {
