@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Bestands- und Erfolgskonten sicher unterscheiden",
-            "Korrektur statt vollständiger Neubuchung formulieren"
+            "Gewinnwirksam ist eine Buchung nur, wenn sie ein Erfolgskonto berührt; reine Bestandsbewegungen wie Aktiv- oder Passivtausch ändern den Gewinn nicht.",
+            "In der Klausur formulierst du die Korrekturbuchung, nicht die komplette Neubuchung des Vorgangs."
           ]
         },
         {
@@ -144,13 +144,17 @@
             {
               "titel": "2. Schritt",
               "text": "Soll-Buchung nach richtiger Würdigung bestimmen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Korrekturbuchung als Differenz aus Soll- und Ist-Buchung bilden und die Gewinnauswirkung je Erfolgskonto als Mehr- oder Mindergewinn ausweisen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Buchungssatz und Gewinnauswirkung: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Über Mehr- oder Mindergewinn entscheidet allein das Erfolgskonto der Korrekturbuchung: Mehr Ertrag oder weniger Aufwand erhöht den Gewinn, mehr Aufwand oder weniger Ertrag mindert ihn."
         },
         {
           "art": "cta",
@@ -167,7 +171,7 @@
           ]
         }
       ],
-      "caption": "Buchungssatz und Gewinnauswirkung: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Buchungssatz und Gewinnauswirkung: Ist-Buchung notieren, Soll-Buchung bestimmen, Korrekturbuchung bilden. Gewinnwirksam wird die Korrektur nur, soweit sie ein Erfolgskonto berührt.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -240,14 +244,18 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Verwaltungsvermögen nach § 13b Abs. 4 ErbStG bestimmen und für den 90-%-Test den maßgeblichen Bruttowert bilden."
+              "text": "90-%-Test (§ 13b Abs. 2 S. 2 ErbStG): Verwaltungsvermögen ohne Schuldenquote und 10-%-Kürzung; Finanzmittel bei operativen Betrieben aber nach Abzug betrieblicher Schulden, ohne 15-%-Sockel."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Unter 90 %: gemeinen Wert um den Nettowert des Verwaltungsvermögens mindern, soweit er den unschädlichen Teil übersteigt (§ 13b Abs. 6, 7 ErbStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Ab 90 % Verwaltungsvermögen fällt die Verschonung komplett weg. Darunter bleibt nur der Nettowert des Verwaltungsvermögens oberhalb des unschädlichen Teils unbegünstigt."
         },
         {
           "art": "cta",
@@ -264,7 +272,7 @@
           ]
         }
       ],
-      "caption": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Begünstigtes Vermögen nach § 13b ErbStG: erst der 90-%-Test, dann die Rechnung aus gemeinem Wert, Nettowert des Verwaltungsvermögens und unschädlichem Teil. Beim 90-%-Test die Schuldenverrechnung bei den Finanzmitteln nach BFH-Urteil und Ländererlassen 2024 beachten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -285,6 +293,8 @@
         "BFH vom 13.09.2023 II R 49/21, BStBl. 2024 II S. 566",
         "gleichlautende Ländererlasse vom 19.06.2024",
         "§ 13 Abs. 1 EStG",
+        "§ 15 Abs. 1 Satz 1 Nr. 1 EStG",
+        "§ 18 Abs. 1 Nr. 1 und 2 EStG",
         "Themenpool: erbst-aufb-erbst-v-5"
       ],
       "coverRegie": {
@@ -320,48 +330,51 @@
         {
           "art": "hook",
           "nummer": null,
-          "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
+          "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: In welcher Reihenfolge prüfst du?",
           "unter": "Internationales Steuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
+          "text": "Kein Wohnsitz, kein gewöhnlicher Aufenthalt im Inland – und trotzdem deutsche Einkommensteuer?",
           "norm": "§ 1 Abs. 4 EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Kein Wohnsitz und kein gewöhnlicher Aufenthalt in Deutschland, aber Einkünfte von hier. Dann ist die Person nach § 1 Abs. 4 EStG beschränkt steuerpflichtig. So prüfst du jede Einkunftsquelle.",
           "marken": [
-            "§ 1 Abs."
+            "§ 1 Abs. 4 EStG",
+            "Kein Wohnsitz im Inland"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "E – Einkunftsart nach §§ 13–24 EStG bestimmen.",
+          "titel": "Einkunftsart bestimmen und den Katalog des § 49 Abs. 1 EStG prüfen",
           "text": null,
-          "norm": "§ 1 Abs. 4 EStG",
+          "norm": "§ 49 Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: E – Einkunftsart nach §§ 13–24 EStG bestimmen.",
+          "sprecher": "Schritt 1: Ordne die Einkünfte einer Einkunftsart zu und suche die passende Nummer in § 49 Abs. 1 EStG. Fehlt das Inlandsmerkmal, etwa Betriebsstätte, Grundstück oder Tätigkeit im Inland, werden diese Einkünfte hier nicht besteuert.",
           "marken": [
-            "Prüfpunkt 1"
+            "Einkunftsart zuerst",
+            "Inlandsbezug nach § 49 EStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "I – inländische Einkünfte: passende Nummer des § 49 Abs. 1 EStG und deren Inlandsmerkmal untersuchen.",
+          "titel": "Steuerzugriff: Steuerabzug oder Veranlagung",
           "text": null,
-          "norm": "§ 49 Abs. 1 EStG",
+          "norm": "§ 50 Abs. 2 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 49 Abs. 1 EStG im Zusammenhang mit Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode.",
+          "sprecher": "Schritt 2: Kläre, wie der Staat zugreift. Unterliegen die Einkünfte einem Steuerabzug, etwa nach § 50a EStG, ist die Steuer nach § 50 Abs. 2 EStG grundsätzlich abgegolten. Sonst wird veranlagt.",
           "marken": [
-            "Prüfpunkt 2"
+            "Abzug oder Veranlagung",
+            "§ 50 Abs. 2 EStG"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Jede Einkunftsquelle einzeln: erst Katalog des § 49 EStG, dann Erhebungsform, zuletzt ein mögliches DBA.",
+          "sprecher": "Merke: Jede Einkunftsquelle prüfst du einzeln. Erst der Katalog des § 49, dann die Erhebungsform, zuletzt ein mögliches DBA.",
           "marken": [
-            "Merksatz"
+            "Jede Einkunftsquelle einzeln"
           ]
         },
         {
@@ -371,20 +384,19 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Kein Wohnsitz, kein gewöhnlicher Aufenthalt, aber Einkünfte aus Deutschland? So prüfst du die beschränkte Steuerpflicht: § 1 Abs. 4 EStG, dann je Einkunftsquelle der Katalog des § 49 EStG und zuletzt die Erhebung durch Steuerabzug oder Veranlagung (§ 50 EStG).",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
+      "kurztitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: In welcher Reihenfolge prüfst du?",
       "coverBadge": "Reel",
       "coverBildAuslassen": true,
       "quellen": [
@@ -434,8 +446,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Norm verbietet die Drohverlustrückstellung in der Steuerbilanz?",
-      "titel": "Welche Norm verbietet die Drohverlustrückstellung in der Steuerbilanz?",
+      "frage": "Welche Vorschrift untersagt Rückstellungen für drohende Verluste in der Steuerbilanz?",
+      "titel": "Welche Vorschrift untersagt Rückstellungen für drohende Verluste in der Steuerbilanz?",
       "optionen": [
         "§ 5 Abs. 4a S. 1 EStG",
         "§ 249 Abs. 1 S. 1 HGB",
@@ -469,7 +481,7 @@
         "§ 5 Abs. 2 EStG"
       ],
       "richtig": 0,
-      "text": "§ 5 Abs. 4a S. 1 EStG enthält das steuerliche Ansatzverbot.",
+      "text": "Steuerlich gilt das Ansatzverbot des § 5 Abs. 4a S. 1 EStG, obwohl § 249 Abs. 1 S. 1 HGB die Rückstellung handelsrechtlich verlangt.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -495,7 +507,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 50d Abs. 9 EStG",
       "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
-      "text": "Du weißt, dass ein DBA ein völkerrechtlicher Vertrag ist, der erst durch das Zustimmungsgesetz im Inland anwendbar wird. Du kennst die Entscheidung des BVerfG von 2015, nach der ein Treaty Override verfassungsrechtlich zulässig ist.",
+      "text": "Ja: Ein späteres Gesetz verdrängt das DBA-Zustimmungsgesetz (BVerfG 2015). So versagt § 50d Abs. 9 EStG die Freistellung, wenn der andere Staat die Einkünfte wegen abweichender Abkommensanwendung freistellt.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -521,8 +533,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
-      "text": "Vorfrage: Einspruch gegen Änderungsbescheid? Vorbescheid wirksam + unanfechtbar?",
+      "titel": "Einspruch gegen einen Änderungsbescheid: die Grenze des § 351 Abs. 1 AO",
+      "text": "Ist der Ursprungsbescheid unanfechtbar, greifst du den Änderungsbescheid nur an, soweit die Änderung reicht – außer eine Korrekturnorm erlaubt mehr. Andere materielle Fehler wirken über § 177 AO nur in diesem Rahmen.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -554,8 +566,8 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
       "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
-      "falsch": "Eine Umsatzsteuer-Nachschau wird wie eine Außenprüfung behandelt und eine Ablaufhemmung angenommen.",
-      "richtigText": "Nach § 193 Abs. 1 AO ist eine Außenprüfung ohne weitere Voraussetzungen bei Gewerbetreibenden, Land- und Forstwirten, Freiberuflern und Steuerpflichtigen im Sinne des § 147a AO zulässig.",
+      "falsch": "Eine Außenprüfung ist nur zulässig, wenn ein konkreter Anlass oder Verdacht besteht.",
+      "richtigText": "Bei Gewerbetreibenden, Land- und Forstwirten, Freiberuflern und Steuerpflichtigen nach § 147a AO ist sie nach § 193 Abs. 1 AO ohne Anlass zulässig; bei anderen nur unter den Voraussetzungen des § 193 Abs. 2 AO.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -587,7 +599,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
-      "text": "Für die steuermindernde Tatsache das Verschulden des Steuerpflichtigen und seines Beraters würdigen.",
+      "text": "Ohne grobes Verschulden, auch des Beraters, zählen neue steuermindernde Tatsachen (§ 173 Abs. 1 Nr. 2 AO). Nach Außenprüfung sperrt § 173 Abs. 2 AO Änderungen nach § 173 AO, außer bei Hinterziehung oder Leichtfertigkeit.",
       "liveVorrangAktiv": true
     },
     "s1": {
@@ -651,7 +663,7 @@
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
       "ueberzeile": "Neuer Beitrag",
-      "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
+      "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: In welcher Reihenfolge prüfst du?",
       "text": "",
       "icon": "paragraf",
       "bild": null,

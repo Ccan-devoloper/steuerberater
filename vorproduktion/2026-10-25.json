@@ -129,8 +129,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Die Hinzurechnungsbesteuerung erst untersuchen, nachdem § 1 Abs. 1 S. 1 EStG und das Welteinkommensprinzip des § 2 Abs. 1 EStG festgestellt sind.",
-            "§ 7 AStG als Nebenprüfpunkt des Grundschemas einordnen und von DBA, § 34c und § 2a trennen."
+            "Zuerst die unbeschränkte Steuerpflicht nach § 1 Abs. 1 S. 1 EStG und damit das Welteinkommensprinzip feststellen; erst danach kommt die Hinzurechnungsbesteuerung ins Spiel.",
+            "§ 7 AStG ist ein eigener Prüfpunkt neben DBA, Anrechnung nach § 34c EStG und § 2a EStG. Ein DBA sperrt die Hinzurechnung nicht (§ 20 Abs. 1 AStG)."
           ]
         },
         {
@@ -139,18 +139,22 @@
           "schritte": [
             {
               "titel": "1. Schritt",
-              "text": "1. § 1 Abs. 1 S. 1 EStG: natürliche Person mit Wohnsitz (§ 8 AO) oder gewöhnlichem Aufenthalt (§ 9 AO) im Inland."
+              "text": "Unbeschränkte Steuerpflicht klären: Hat die Person in Deutschland Wohnsitz oder gewöhnlichen Aufenthalt (§ 1 Abs. 1 S. 1 EStG, §§ 8, 9 AO)?"
             },
             {
               "titel": "2. Schritt",
-              "text": "2. Rechtsfolge: Welteinkommensprinzip nach § 2 Abs. 1 EStG, vorbehaltlich DBA."
+              "text": "Folge: Besteuerung des Welteinkommens (§ 2 Abs. 1 EStG); Auslandseinkünfte danach an DBA oder § 34c EStG messen."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Ausländische Gesellschaft dazwischen? Dann §§ 7 ff. AStG: Beherrschung über 50 %, Einkünfte außerhalb des Aktivkatalogs (§ 8 Abs. 1 AStG), Belastung unter 15 % (§ 8 Abs. 5 AStG)."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "§ 7 AStG setzt die bejahte unbeschränkte Steuerpflicht voraus und rechnet dir dann die niedrig besteuerten passiven Einkünfte der beherrschten Auslandsgesellschaft anteilig zu – ein DBA hält das nicht auf."
         },
         {
           "art": "cta",
@@ -167,7 +171,7 @@
           ]
         }
       ],
-      "caption": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Grundschema im Internationalen Steuerrecht: erst die unbeschränkte Steuerpflicht, dann das Welteinkommen und seine Begrenzung durch DBA oder Anrechnung. § 7 AStG prüfst du, wenn eine ausländische Gesellschaft dazwischen steht.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -180,8 +184,12 @@
       "quellen": [
         "§ 1 Abs. 1 S. 1 EStG",
         "§ 8 AO",
+        "§ 9 AO",
         "§ 2 Abs. 1 EStG",
         "§ 7 AStG",
+        "§ 8 Abs. 1 AStG",
+        "§ 8 Abs. 5 AStG",
+        "§ 20 Abs. 1 AStG",
         "§ 34c EStG",
         "§ 32d Abs. 5 EStG",
         "§ 2a EStG",
@@ -227,8 +235,8 @@
           "art": "text",
           "titel": "Kern der Prüfung",
           "punkte": [
-            "Entnahmen sind nach § 4 Abs. 1 Satz 2 EStG alle Wirtschaftsgüter, Nutzungen und Leistungen, die der Inhaber für betriebsfremde Zwecke entnimmt; entnommene Wirtschaftsgüter sind regelmäßig mit dem Teilwert anzusetzen.",
-            "Nutzungsentnahmen werden mit den anteiligen Selbstkosten angesetzt, soweit diese Aufwand darstellen."
+            "Entnahmen (§ 4 Abs. 1 S. 2 EStG) gehen grundsätzlich zum Teilwert aus dem Betrieb (§ 6 Abs. 1 Nr. 4 EStG); Nutzungsentnahmen setzt du mit den anteiligen tatsächlichen Kosten an.",
+            "Einlagen setzt du zum Teilwert an (§ 6 Abs. 1 Nr. 5 EStG). Gedeckelt auf die Anschaffungs- oder Herstellungskosten wird bei Wirtschaftsgütern, die binnen drei Jahren vor der Einlage angeschafft oder hergestellt wurden, sowie bei Beteiligungen nach § 17 EStG und Wirtschaftsgütern nach § 20 Abs. 2 EStG."
           ]
         },
         {
@@ -241,14 +249,14 @@
             },
             {
               "titel": "2. Schritt",
-              "text": "Bei Entnahmen den Teilwert zum Entnahmezeitpunkt ermitteln und die stillen Reserven als Gewinn aufnehmen."
+              "text": "Bewerten: Entnahmen zum Teilwert, sodass die stillen Reserven Gewinn werden; Einlagen zum Teilwert, bei jungen Wirtschaftsgütern und Beteiligungen gedeckelt auf die Anschaffungs- oder Herstellungskosten."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Mit welchem Wert werden Einlagen und Entnahmen angesetzt?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Entnahme und Einlage laufen grundsätzlich zum Teilwert. Die Kappung auf die Anschaffungskosten verhindert, dass kurz zuvor privat entstandene Wertsteigerungen im Betrieb steuerfrei bleiben."
         },
         {
           "art": "cta",
@@ -265,7 +273,7 @@
           ]
         }
       ],
-      "caption": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt? Entnahmen gehen grundsätzlich zum Teilwert aus dem Betrieb (§ 6 Abs. 1 Nr. 4 EStG), Nutzungen mit den anteiligen Kosten. Einlagen kommen zum Teilwert hinein (§ 6 Abs. 1 Nr. 5 EStG), bei jungen Wirtschaftsgütern und Beteiligungen höchstens mit den Anschaffungskosten.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -276,6 +284,9 @@
       "coverBadge": "Spickzettel",
       "coverBildAuslassen": true,
       "quellen": [
+        "§ 4 Abs. 1 EStG",
+        "§ 6 Abs. 1 Nr. 4 EStG",
+        "§ 6 Abs. 1 Nr. 5 EStG",
         "§ 7 EStG",
         "§ 17 Abs. 2 EStG",
         "§ 20 Abs. 2 EStG",
@@ -318,46 +329,50 @@
           "nummer": null,
           "titel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
           "unter": "Umsatzsteuer",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 15a Abs. 6a, 8 und 9 UStG",
+          "text": "Vorsteuer voll gezogen, später steuerfrei vermietet oder verkauft: Musst du berichtigen?",
+          "norm": "§ 15a Abs. 1 UStG",
           "icon": null,
-          "sprecher": "Heute geht es um § 15a UStG: Wann ändern sich die Verhältnisse? Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Du hast die Vorsteuer voll gezogen, und Jahre später nutzt du das Objekt anders. Wann ändern sich die Verhältnisse nach § 15a UStG, und was folgt daraus?",
           "marken": [
-            "Verglichen werden die Verhältnisse beim"
+            "Abzug gegen spätere Verwendung",
+            "§ 15a UStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Ursprünglichen Vorsteuerabzug und die dafür maßgebliche Verwendungsabsicht ermitteln.",
+          "titel": "Ausgangspunkt: ursprünglicher Vorsteuerabzug und Verwendungsabsicht",
           "text": null,
-          "norm": "§ 15a Abs. 6a, 8 und 9 UStG",
+          "norm": "§ 15 Abs. 2 und 3 UStG",
           "icon": null,
-          "sprecher": "Schritt 1: Prüfe § 15a Abs. 6a, 8 und 9 UStG im Zusammenhang mit § 15a UStG: Wann ändern sich die Verhältnisse?",
+          "sprecher": "Schritt 1: Halte fest, in welchem Umfang du nach § 15 UStG Vorsteuer ziehen durftest. Maßgeblich war die Verwendungsabsicht beim Leistungsbezug, also steuerpflichtige oder steuerfreie Ausgangsumsätze.",
           "marken": [
-            "Prüfpunkt 1"
+            "Ursprünglicher Vorsteuerabzug",
+            "Verwendungsabsicht zählt"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Prüfpunkt 2: § 15 Abs. 2 und 3 UStG",
+          "titel": "Abweichende Verwendung im Berichtigungszeitraum",
           "text": null,
-          "norm": "§ 15 Abs. 2 und 3 UStG",
+          "norm": "§ 15a Abs. 1, 8 und 9 UStG",
           "icon": null,
-          "sprecher": "Schritt 2: Prüfe § 15 Abs. 2 und 3 UStG im Zusammenhang mit § 15a UStG: Wann ändern sich die Verhältnisse?",
+          "sprecher": "Schritt 2: Weicht die tatsächliche Verwendung innerhalb von fünf Jahren, bei Grundstücken zehn Jahren, davon ab, ändern sich die Verhältnisse. Auch ein steuerfreier Verkauf oder eine steuerfreie Entnahme zählt. Berichtigt wird zeitanteilig, je Jahr ein Fünftel oder ein Zehntel.",
           "marken": [
-            "Prüfpunkt 2"
+            "5 bzw. 10 Jahre",
+            "Auch steuerfreier Verkauf"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei § 15a UStG: Wann ändern sich die Verhältnisse?: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Vergleiche die tatsächliche Verwendung mit dem ursprünglichen Abzug und berichtige nur die Differenz, zeitanteilig je Jahr. Kleinbeträge scheidet § 44 UStDV aus.",
+          "sprecher": "Merke: Vergleiche immer die tatsächliche Verwendung mit dem ursprünglichen Abzug. Bei Vorsteuern bis 1.000 € entfällt die Berichtigung nach § 44 UStDV.",
           "marken": [
-            "Merksatz"
+            "Nur die Differenz berichtigen",
+            "§ 44 UStDV"
           ]
         },
         {
@@ -367,13 +382,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "§ 15a UStG: Wann ändern sich die Verhältnisse?: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Wann ändern sich die Verhältnisse nach § 15a UStG? Wenn die tatsächliche Verwendung innerhalb von fünf bzw. zehn Jahren vom ursprünglichen Vorsteuerabzug abweicht – auch bei steuerfreiem Verkauf oder steuerfreier Entnahme. Berichtigt wird zeitanteilig, Kleinbeträge nach § 44 UStDV bleiben außen vor.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -469,7 +483,7 @@
         "Bestand inklusive EWB-Forderungen"
       ],
       "richtig": 1,
-      "text": "Für die Umsatzsteuer besteht kein Ausfallrisiko (UStAE 17.1 Abs. 5 S. 9).",
+      "text": "Die Umsatzsteuer fällt nicht aus: Bei Uneinbringlichkeit wird sie nach § 17 Abs. 2 Nr. 1 UStG berichtigt. Einzelwertberichtigte Forderungen nimmst du vorher heraus.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -497,7 +511,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
       "titel": "Mitunternehmerstellung: Risiko und Initiative",
-      "text": "Mitunternehmerrisiko anhand der drei Quellenmerkmale untersuchen Mitunternehmerinitiative anhand Geschäftsführung, Vertretung und Mindestkontrollrechten untersuchen",
+      "text": "Mitunternehmer ist, wer Mitunternehmerrisiko trägt (Gewinn, Verlust, stille Reserven samt Geschäftswert) und Mitunternehmerinitiative entfalten kann. Dafür reichen Stimm- und Kontrollrechte wie bei einem Kommanditisten.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -528,7 +542,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Erbschaftsteuer-Klausur: die Vorfragen vor der ersten Bewertung",
-      "text": "1. § 7 ErbStG (Schenkung unter Lebenden; markiert ist insbesondere § 7 Abs. 1 Nr. 1) verzweigt.",
+      "text": "Vor der Bewertung klärst du: Erwerb von Todes wegen (§ 3 ErbStG) oder Schenkung (§ 7 ErbStG)? Steuerpflicht nach § 2 ErbStG? Entstehung nach § 9 ErbStG – sie ist auch Bewertungsstichtag (§ 11 ErbStG).",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -560,7 +574,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Wie werden Ausschüttungen der Komplementär-GmbH besteuert?",
-      "text": "zuerst klären, ob die Anteile an der GmbH beim Gesellschafter Sonderbetriebs- oder Privatvermögen sind.",
+      "text": "Erst die Zuordnung der Anteile klären: Als Sonderbetriebsvermögen II sind Ausschüttungen Sonderbetriebseinnahmen, zu 60 % steuerpflichtig (§ 3 Nr. 40 EStG). Im Privatvermögen: § 20 Abs. 1 Nr. 1 EStG, Abgeltungsteuer.",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -587,8 +601,8 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
-      "titel": "Sonderbetriebsvermögen I und II: Definition, Buchung und Sonderbilanz",
-      "text": "Wirtschaftsgut dem Mitunternehmer zurechnen.",
+      "titel": "Sonderbetriebsvermögen I und II: Was gehört in die Sonderbilanz?",
+      "text": "Zum SBV I gehört, was du der Gesellschaft zur Nutzung überlässt, etwa ein an sie vermietetes Grundstück. SBV II stärkt deine Beteiligung, etwa Anteile an der Komplementär-GmbH. Beides erfasst deine Sonderbilanz.",
       "liveVorrangAktiv": true
     },
     "s1": {

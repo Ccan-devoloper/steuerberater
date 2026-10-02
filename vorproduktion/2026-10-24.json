@@ -144,13 +144,17 @@
             {
               "titel": "2. Schritt",
               "text": "Steuerklasse nach § 15 ErbStG bestimmen und dabei zwischen Erwerb von Todes wegen und Schenkung unterscheiden, etwa bei Eltern."
+            },
+            {
+              "titel": "3. Schritt",
+              "text": "Freibetrag nach § 16 Abs. 1 ErbStG ablesen und Vorerwerbe von derselben Person aus den letzten zehn Jahren nach § 14 ErbStG einbeziehen."
             }
           ]
         },
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Eltern erben in Klasse I, beschenkt werden sie in Klasse II. Und der Freibetrag des § 16 ErbStG steht dir für alle Erwerbe von derselben Person innerhalb von zehn Jahren nur einmal zu (§ 14 ErbStG)."
         },
         {
           "art": "cta",
@@ -167,7 +171,7 @@
           ]
         }
       ],
-      "caption": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei? Erst das Verhältnis zum Erblasser oder Schenker klären, dann die Klasse nach § 15 ErbStG und den Freibetrag nach § 16 ErbStG bestimmen. Vorerwerbe der letzten zehn Jahre rechnest du nach § 14 ErbStG hinzu.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -184,6 +188,7 @@
         "§ 17 Abs. 1 ErbStG",
         "§ 17 Abs. 2 ErbStG",
         "§ 13 ErbStG",
+        "§ 14 ErbStG",
         "§ 19 ErbStG",
         "§ 2 Abs. 1 Nr. 3 ErbStG",
         "§ 121 Nr. 1 BewG",
@@ -250,7 +255,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Bei Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?: erst die Voraussetzungen klären, dann die Rechtsfolge festhalten."
+          "text": "Erst jeden Aufwand mit seinem Bruchteil gewichten, dann alles addieren: Der Freibetrag von 200.000 € wird einmal von der Summe abgezogen, hinzugerechnet wird ein Viertel des Rests."
         },
         {
           "art": "cta",
@@ -267,7 +272,7 @@
           ]
         }
       ],
-      "caption": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?: Voraussetzungen, Prüfungsschritte und Ergebnis sauber auseinanderhalten.",
+      "caption": "Finanzierungsanteile nach § 8 Nr. 1 GewStG: Entgelte für Schulden, Renten, dauernde Lasten und stille Gewinnanteile voll, Mieten und Pachten zu einem Fünftel oder zur Hälfte, Lizenzen zu einem Viertel. Von der Summe 200.000 € Freibetrag abziehen und den Rest zu 25 % hinzurechnen.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -325,46 +330,50 @@
           "nummer": null,
           "titel": "Investitionsabzugsbetrag und Sonder-AfA",
           "unter": "Bilanzsteuerrecht",
-          "text": "Zuerst den Anknüpfungspunkt klären, danach die Rechtsfolge.",
-          "norm": "§ 7g Abs. 1 S. 1, 2 EStG",
+          "text": "Vorab bis zu 50 % abziehen, im Investitionsjahr bis zu 40 % Sonder-AfA: Wie greift § 7g EStG ineinander?",
+          "norm": "§ 7g EStG",
           "icon": null,
-          "sprecher": "Heute geht es um Investitionsabzugsbetrag und Sonder-AfA. Wir gehen die Voraussetzungen und die Rechtsfolge der Reihe nach durch.",
+          "sprecher": "Investitionsabzugsbetrag und Sonder-AfA nach § 7g EStG. Erst ziehst du künftige Kosten vorab ab, dann schreibst du im Investitionsjahr zusätzlich ab. So greifen beide Schritte ineinander.",
           "marken": [
-            "IAB, Hinzurechnung, AK/HK-Minderung und"
+            "IAB und Sonder-AfA",
+            "§ 7g EStG"
           ]
         },
         {
           "art": "schritt",
           "nummer": 1,
-          "titel": "Begünstigtes bewegliches abnutzbares Anlagegut?",
+          "titel": "IAB: bis zu 50 % der voraussichtlichen Kosten vorab abziehen",
           "text": null,
-          "norm": "§ 7g Abs. 1 S. 1, 2 EStG",
+          "norm": "§ 7g Abs. 1 EStG",
           "icon": null,
-          "sprecher": "Schritt 1: Begünstigtes bewegliches abnutzbares Anlagegut?",
+          "sprecher": "Schritt 1: Für ein künftiges bewegliches, abnutzbares Anlagegut, das fast ausschließlich betrieblich genutzt wird, ziehst du bis zu 50 % der voraussichtlichen Kosten ab. Voraussetzung: Der Gewinn ohne IAB liegt bei höchstens 200.000 €.",
           "marken": [
-            "Prüfpunkt 1"
+            "Bis zu 50 % vorab",
+            "Gewinngrenze 200.000 €"
           ]
         },
         {
           "art": "schritt",
           "nummer": 2,
-          "titel": "Gewinn ohne IAB höchstens 200.000 €?",
+          "titel": "Investitionsjahr: hinzurechnen, Kosten mindern, bis zu 40 % Sonder-AfA",
           "text": null,
-          "norm": "§ 7g Abs. 2 S. 1, 2 EStG",
+          "norm": "§ 7g Abs. 2 und 5 EStG",
           "icon": null,
-          "sprecher": "Schritt 2: Gewinn ohne IAB höchstens 200.000 €?",
+          "sprecher": "Schritt 2: Im Investitionsjahr rechnest du den IAB hinzu und kannst die Anschaffungskosten höchstens um diesen Betrag mindern. Von der geminderten Basis sind zusätzlich bis zu 40 % Sonder-AfA möglich.",
           "marken": [
-            "Prüfpunkt 2"
+            "Hinzurechnen und mindern",
+            "Sonder-AfA bis 40 %"
           ]
         },
         {
           "art": "merke",
           "nummer": null,
           "titel": "Merksatz",
-          "text": "Bei Investitionsabzugsbetrag und Sonder-AfA: Voraussetzungen vor Ergebnis.",
-          "sprecher": "Merke dir die Reihenfolge: Erst die Voraussetzungen, dann das Ergebnis.",
+          "text": "Ohne Investition bis zum Ende des dritten Folgejahres wird der IAB im Abzugsjahr rückgängig gemacht (§ 7g Abs. 3 EStG).",
+          "sprecher": "Merke: Kein IAB ohne Investition. Bleibt sie bis zum Ende des dritten Folgejahres aus, wird der Abzug rückwirkend im Abzugsjahr gestrichen.",
           "marken": [
-            "Merksatz"
+            "Investition binnen drei Jahren",
+            "§ 7g Abs. 3 EStG"
           ]
         },
         {
@@ -374,13 +383,12 @@
           "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
           "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
           "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
+            "Kernfrage und Reihenfolge",
+            "Normen ohne Unterlagen"
           ]
         }
       ],
-      "caption": "Investitionsabzugsbetrag und Sonder-AfA: die entscheidenden Prüfungsschritte in der richtigen Reihenfolge.",
+      "caption": "Investitionsabzugsbetrag und Sonder-AfA: vorab bis zu 50 % der voraussichtlichen Kosten abziehen, im Investitionsjahr hinzurechnen und die Anschaffungskosten mindern, dann bis zu 40 % Sonder-AfA. So greift § 7g EStG ineinander.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -475,7 +483,7 @@
         "§ 249 HGB"
       ],
       "richtig": 0,
-      "text": "§ 39 Abs. 2 Nr. 1 AO ist die zentrale Zurechnungsnorm.",
+      "text": "Nach § 39 Abs. 2 Nr. 1 AO zählt, wer das Wirtschaftsgut tatsächlich beherrscht und den rechtlichen Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann.",
       "liveVorrangAktiv": true
     },
     "s6": {
@@ -505,7 +513,7 @@
       "ueberzeile": "Norm des Tages",
       "norm": "§ 12 ErbStG",
       "titel": "Steuerpflichtiger Erwerb: Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
-      "text": "für jedes Wirtschaftsgut Bewertung und sachliche Steuerbefreiung getrennt untersuchen § 12 ErbStG als Sprungnorm in das BewG verwenden",
+      "text": "§ 12 ErbStG leitet die Bewertung ins BewG. Je Wirtschaftsgut erst bewerten, dann Befreiungen nach §§ 13–13d ErbStG prüfen. Schulden und Lasten zieht § 10 Abs. 5 ErbStG ab, soweit § 10 Abs. 6 ErbStG nicht kürzt.",
       "liveVorrangAktiv": true
     },
     "s7": {
@@ -517,8 +525,10 @@
       "pairId": "erbst-modul-erbst-539",
       "quellen": [
         "§ 13 Abs. 2 BewG",
+        "§ 14 BewG",
         "§ 15 BewG",
         "§ 16 BewG",
+        "§ 10 Abs. 5 Nr. 3 ErbStG",
         "Themenpool: erbst-modul-erbst-539"
       ],
       "regelGeprueft": true,
@@ -529,9 +539,9 @@
       "faktencheckProviderKostenUsd": 0,
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Typischer Fehler",
-      "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+      "titel": "Immerwährend oder unbestimmt? Kapitalwerte nach § 13 Abs. 2 BewG",
       "falsch": "Unbestimmte Dauer mit lebenslänglicher Dauer gleichsetzen.",
-      "richtigText": "immerwährende von unbestimmter Dauer trennen",
+      "richtigText": "Immerwährend: 18,6-facher, unbestimmte Dauer: 9,3-facher Jahreswert (§ 13 Abs. 2 BewG). Hängt die Dauer an einem Leben, gilt § 14 BewG. Grabpflegekosten setzt du mit dem 9,3-Fachen an.",
       "liveVorrangAktiv": true
     },
     "s8": {
@@ -562,7 +572,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG?",
-      "text": "Maßgeblichen Zeitpunkt bestimmen: Tod des Erblassers oder Ausführung der Schenkung.",
+      "text": "Ist Erblasser beim Tod, Schenker bei Ausführung oder Erwerber bei Steuerentstehung (§ 9 ErbStG) Inländer, ist der ganze Erwerb steuerpflichtig (§ 2 Abs. 1 Nr. 1 ErbStG), sonst nur Inlandsvermögen (§ 121 BewG).",
       "liveVorrangAktiv": true
     },
     "s9": {
@@ -594,7 +604,7 @@
       "bildStatus": "bewusst-ausgelassen",
       "ueberzeile": "Klausurtipp",
       "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-      "text": "Gemeinen Wert des begünstigungsfähigen Vermögens nach § 13b Abs. 1 ErbStG feststellen.",
+      "text": "Starte mit dem 90-%-Test: Ab 90 % Verwaltungsvermögen entfällt jede Verschonung (§ 13b Abs. 2 S. 2 ErbStG). Bei operativ tätigen Betrieben zählen Finanzmittel dabei nach Schuldenabzug, ohne 15-%-Sockel.",
       "liveVorrangAktiv": true
     },
     "s1": {
