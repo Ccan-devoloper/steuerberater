@@ -27,6 +27,16 @@
       "status": "geplant"
     },
     {
+      "slot": "b4",
+      "zeit": "16:00",
+      "format": "klausurtechnik",
+      "themaId": "persg-aufb-persg-melzer-2-3",
+      "themaTitel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
       "slot": "b3",
       "zeit": "19:00",
       "format": "reel",
