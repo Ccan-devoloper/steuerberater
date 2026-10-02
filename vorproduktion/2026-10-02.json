@@ -724,7 +724,7 @@
         {
           "art": "merke",
           "titel": "Merksatz",
-          "text": "Identische Quoten und unentgeltlich: Buchwert nach Nr. 4. Weichen die Quoten ab oder fließt ein Entgelt, greift Nr. 4 nicht – dann Veräußerung, gegebenenfalls mit § 6b EStG."
+          "text": "Identische Quoten und unentgeltlich: Buchwert nach Nr. 4. Sonst greift Nr. 4 nicht: Unentgeltlich liegt eine Entnahme zum Teilwert vor, gegen Entgelt eine Veräußerung (ggf. § 6b EStG)."
         },
         {
           "art": "cta",
@@ -741,7 +741,7 @@
           ]
         }
       ],
-      "caption": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?\n\nLange Zeit nein: § 6 Abs. 5 S. 3 EStG kannte keinen direkten Weg von Gesamthandsvermögen zu Gesamthandsvermögen. Das BVerfG (2 BvL 8/13) hat diesen Ausschluss für beteiligungsidentische Schwester-PersG als Verstoß gegen Art. 3 Abs. 1 GG beanstandet.\n\nSeit dem JStG 2024 regelt § 6 Abs. 5 S. 3 Nr. 4 EStG genau diesen Fall: Wird ein Wirtschaftsgut unentgeltlich zwischen den Gesamthandsvermögen von Schwester-PersG übertragen, an denen dieselben Mitunternehmer im selben Verhältnis beteiligt sind, ist zwingend der Buchwert anzusetzen. Anwendbar in allen offenen Fällen (§ 52 Abs. 12 S. 15 EStG).\n\nBei abweichenden Beteiligungsquoten oder gegen Entgelt greift Nr. 4 nicht. Dann bleibt meist der Verkauf, gegebenenfalls mit § 6b EStG.",
+      "caption": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?\n\nLange Zeit nein: § 6 Abs. 5 S. 3 EStG kannte keinen direkten Weg von Gesamthandsvermögen zu Gesamthandsvermögen. Das BVerfG (2 BvL 8/13) hat diesen Ausschluss für beteiligungsidentische Schwester-PersG als Verstoß gegen Art. 3 Abs. 1 GG beanstandet.\n\nSeit dem JStG 2024 regelt § 6 Abs. 5 S. 3 Nr. 4 EStG genau diesen Fall: Wird ein Wirtschaftsgut unentgeltlich zwischen den Gesamthandsvermögen von Schwester-PersG übertragen, an denen dieselben Mitunternehmer im selben Verhältnis beteiligt sind, ist zwingend der Buchwert anzusetzen. Anwendbar in allen offenen Fällen (§ 52 Abs. 12 S. 15 EStG).\n\nBei abweichenden Beteiligungsquoten greift Nr. 4 nicht. Dann ist die unentgeltliche Übertragung eine Entnahme zum Teilwert (BFH I R 72/08). Soweit ein Entgelt fließt, liegt eine Veräußerung vor, gegebenenfalls mit § 6b EStG.",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -757,6 +757,8 @@
         "§ 6b EStG",
         "Art. 3 Abs. 1 GG",
         "BVerfG vom 28.11.2023 – 2 BvL 8/13",
+        "BFH vom 25.11.2009 – I R 72/08",
+        "§ 6 Abs. 1 Nr. 4 und Nr. 5 EStG",
         "Themenpool: persg-aufb-persg-melzer-2-3"
       ],
       "coverRegie": {
