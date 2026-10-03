@@ -107,8 +107,8 @@ class Karussell:
             else:
                 y += 62
             if norm:
-                inhalt.append(OT(norm, 186, y + 4, C, "Bold", 32, farbe=GRAUTEXT))
-            y += 70
+                inhalt.append(OT(norm, 186, y + 4, C, "Bold", 32, farbe=GRAUTEXT)); y += 40
+            y += 30                                     # gleicher Abstand zwischen allen Schritten, mit oder ohne Norm
         kk, unten = k.karte_um(inhalt); els += kk
         n = k.worte(f["titel"], *[a + " " + (b or "") for a, _, b in f["schritte"]]) + sum(1 for _, nm, _ in f["schritte"] if nm)
         if f.get("teaser"):
