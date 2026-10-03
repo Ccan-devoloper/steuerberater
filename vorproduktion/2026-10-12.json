@@ -256,7 +256,7 @@
         {
           "art": "text",
           "titel": "Internationales Steuerrecht",
-          "text": "§§ 2, 32b EStG (Auszug) · ein Jahr · Wechsel · ein Bescheid · Steuersatz · Dazu: § 50 Abs. 2 S. 2 Nr. 3 EStG · Abzugsteuern werden hier angerechnet"
+          "text": "§§ 2, 32b EStG (Auszug) · ein Jahr · Wechsel · ein Bescheid · Steuersatz · Lina: Miete ab Juli kommt dazu · Wiener Gehalt nur für den Steuersatz"
         }
       ]
     },
@@ -539,7 +539,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:19:11Z",
+    "erzeugtAm": "2026-10-03T12:59:11Z",
     "pfad": "vorproduktion/2026-10-12/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
