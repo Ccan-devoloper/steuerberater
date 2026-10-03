@@ -4,38 +4,33 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-18",
-        "themaTitel": "Verdeckte Einlage",
+        "format": "rechenweg",
+        "themaId": "bilanz-formel-leasing-4090",
+        "themaTitel": "Finanzierungsleasing: 40/90-Regel und Kaufoption",
         "fach": "bilanz",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "erbst-aufb-erbst-v-25",
-        "themaTitel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
+        "format": "minifall",
+        "themaId": "erbst-aufb-erbst-v-27",
+        "themaTitel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
         "fach": "erbst",
         "klausur": 1
       },
@@ -43,547 +38,440 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "kst-modul-kst-6",
-        "themaTitel": "Dreiecksfälle und materielle Korrespondenz",
-        "fach": "kst",
-        "klausur": 2,
-        "lang": false
+        "themaId": "est-aufb-est-ks2-17-06",
+        "themaTitel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
+        "fach": "est",
+        "klausur": 2
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:20",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-5"
+        "themaId": "kst-quiz-kst-6"
       },
       {
         "slot": "s5",
-        "zeit": "07:20",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-5"
+        "themaId": "kst-quiz-kst-6"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:09",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-373"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:24",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-313"
+        "themaId": "persg-aufb-persg-melzer-1-4"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:44",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-modul-ao-333"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:19",
-        "art": "merksatz",
-        "themaId": "ao-modul-ao-317"
+        "themaId": "ust-karte-ust-3"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "kst-karte-kst-6"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
+      "format": "rechenweg",
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-18",
-      "slug": "2026-10-20-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Verdeckte Einlage",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Einlagefähigen Vermögensvorteil erkennen: nur bilanzierbare Wirtschaftsgüter, keine Nutzungsvorteile",
-            "Veranlassung durch das Gesellschaftsverhältnis prüfen: Ein fremder Dritter hätte den Vorteil nicht gewährt"
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Vorteil und Zuwendenden bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Ist der Vorteil einlagefähig? Ein zinsloses Darlehen oder eine unentgeltliche Nutzung ist es nicht, dann liegt keine verdeckte Einlage vor."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Verdeckte Einlage: Einkommen der GmbH nicht erhöhen (§ 8 Abs. 3 S. 3 KStG), Teilwert ansetzen, Einlagekonto erhöhen (§ 27 KStG); beim Gesellschafter nachträgliche Anschaffungskosten der Beteiligung. Ausnahme: Hat sie sein Einkommen gemindert, wird sie doch erfasst (§ 8 Abs. 3 S. 4 KStG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Verdeckte Einlage: Wann ein Vorteil vom Gesellschafter einlagefähig ist und warum er das Einkommen der Kapitalgesellschaft trotzdem nicht erhöht.",
+      "themaId": "bilanz-formel-leasing-4090",
+      "caption": "Finanzierungsleasing: Wem ist die Maschine zuzurechnen? Der Rechenweg mit 40/90-Regel und Kaufoption.\n\n▸ Grundsatz: Zurechnung beim Eigentümer; wer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausschließen kann, dem wird das Wirtschaftsgut zugerechnet (§ 39 Abs. 1, Abs. 2 Nr. 1 AO).\n▸ Vollamortisationsleasing über bewegliche Wirtschaftsgüter (BMF vom 19.04.1971): Ohne Option liegt das wirtschaftliche Eigentum regelmäßig beim Leasinggeber, wenn die Grundmietzeit mindestens 40 % und höchstens 90 % der betriebsgewöhnlichen Nutzungsdauer beträgt.\n▸ Mit Kaufoption bleibt es nur dann beim Leasinggeber, wenn der Optionspreis nicht niedriger ist als der Buchwert nach linearer AfA laut AfA-Tabelle oder der niedrigere gemeine Wert im Zeitpunkt der Veräußerung.\n▸ Im Beispiel: 5 von 8 Jahren = 62,5 %; Restbuchwert 120.000 € – 5 × 15.000 € = 45.000 €; gemeiner Wert 50.000 € ist höher, maßgebend also 45.000 €. Optionspreis 30.000 € liegt darunter: Zurechnung beim Leasingnehmer.\n▸ Folge beim Leasingnehmer: Aktivierung mit den Anschaffungskosten, die der Ratenberechnung zugrunde liegen, AfA über die Nutzungsdauer (§ 7 Abs. 1 EStG), Verbindlichkeit gegenüber dem Leasinggeber; die Raten werden in einen sofort abziehbaren Zins- und Kostenanteil und einen erfolgsneutralen Tilgungsanteil aufgeteilt (BMF vom 19.04.1971).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Verdeckte Einlage",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Abs. 3 S. 3 KStG",
-        "§ 8 Abs. 3 S. 4–6 KStG",
-        "§ 4 Abs. 1 S. 8 EStG",
-        "§ 6 Abs. 6 S. 2 EStG",
-        "§ 27 Abs. 1 S. 1 KStG",
-        "§ 17 Abs. 2a EStG",
-        "§ 8 Abs. 3 Satz 3 KStG",
-        "§ 27 KStG",
-        "§ 6 Abs. 1 Nr. 5 EStG",
-        "§ 8 Abs. 3 S. 4 KStG",
-        "Themenpool: bilanz-modul-k3-18"
+        "§ 39 Abs. 1, Abs. 2 Nr. 1 AO",
+        "BMF vom 19.04.1971, IV B/2 – S 2170 – 31/71",
+        "§ 7 Abs. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Verdeckte Einlage",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-20-b1-bilanz-modul-k3-18-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-20-b1",
+      "kurztitel": "Finanzierungsleasing: 40/90-Regel und Kaufoption",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-aufb-erbst-v-25",
-      "slug": "2026-10-20-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
       "folien": [
         {
           "art": "titel",
-          "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Leasing: · wem gehört's? · § 39 Abs. 2 Nr. 1 AO · 40/90 + Option · + Markier-Guide § 39 AO · Grundmietzeit · 62,5 % · der Nutzungsdauer",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Begünstigt sind bebaute Grundstücke oder Grundstücksteile, die zu Wohnzwecken vermietet werden, etwa Mietwohngrundstücke, Wohnungseigentum oder Wohnteile gemischt genutzter Grundstücke.",
-            "Seit dem Jahressteuergesetz 2024 gilt der Abschlag für Grundstücke in einem Drittstaat nur, wenn dieser Deutschland bei der Erbschaftsteuer zur Amtshilfe verpflichtet ist."
-          ]
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Fall · Mirko least für seine Druckerei eine Maschine; der Leasinggeber hat 120.000 € bezahlt. · Nutzungsdauer laut AfA-Tabelle 8 Jahre, Grundmietzeit 5 Jahre. · Danach Kaufoption für 30.000 €; gemeiner Wert dann 50.000 €. · Meine Maschine?"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Prüfen, ob ein bebautes Grundstück oder ein Grundstücksteil zu Wohnzwecken vermietet ist."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Belegenheit klären: Inland, Mitgliedstaat der EU oder des EWR oder Drittstaat mit Amtshilfeverpflichtung."
-            }
-          ]
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Schritt 1: Quote · BMF vom 19.04.1971 · Grundmietzeit · 5 Jahre · Nutzungsdauer · 8 Jahre · Untergrenze · 40 % · Obergrenze · 90 % · Anteil 5 : 8 · 62,5 % · Zwischen 40 und 90 %: Option prüfen"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Liegen die Voraussetzungen vor, wird das Grundstück nur mit 90 % seines Werts angesetzt (§ 13d Abs. 1 ErbStG). Damit zusammenhängende Schulden sind dann ebenfalls nur zu 90 % abziehbar (§ 10 Abs. 6a ErbStG)."
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Wie hoch ist der lineare Restbuchwert nach 5 Jahren? · Liegt der gemeine Wert darunter? · Wem ist die Maschine dann zuzurechnen? · Erst rechnen, dann weiterwischen · Rechnest du mit?"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Schritt 2: Option · BMF vom 19.04.1971 · Anschaffungskosten · 120.000 € · – AfA 5 × 15.000 € · – 75.000 € · = Restbuchwert linear · 45.000 € · Gemeiner Wert (höher) · 50.000 € · Optionspreis · 30.000 € · 30.000 € < 45.000 €: Leasingnehmer"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Folge bei Mirko · Maschine mit 120.000 € aktivieren, AfA über 8 Jahre. · § 7 Abs. 1 EStG · Verbindlichkeit gegenüber dem Leasinggeber passivieren. · Raten aufteilen: Zins- und Kostenanteil ist Aufwand, der Tilgungsanteil nicht. · BMF vom 19.04.1971 · Also doch meine!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Nicht bei 40/90 aufhören · Die Quote allein entscheidet nicht. · Ein günstiger Optionspreis holt die Maschine zum Leasingnehmer. · Die Verwaltungsregel ersetzt nicht den Blick auf den konkreten Vertrag. · § 39 Abs. 2 Nr. 1 AO · Option prüfen!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung: Zurechnung beim Leasingnehmer · Optionspreis 30.000 € liegt unter 45.000 € · Quote rechnen, · Restbuchwert linear, · Optionspreis vergleichen, · Zurechnung ableiten. · Speichern für Klausur 3 · Wem hättest du sie zugerechnet? · Weiterwischen: § 39 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Leasingnehmer? · Grundmietzeit vs. ND · Kaufoption! · Randnotiz: BMF vom 19.04.1971 · 40/90-Regel und Kaufoption"
         }
-      ],
-      "caption": "Vermietete Wohnimmobilie geerbt? Unter diesen Voraussetzungen wird sie nach § 13d ErbStG nur mit 90 % angesetzt, und das wirkt auch auf die Schulden.",
+      ]
+    },
+    "b2": {
+      "format": "minifall",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-27",
+      "caption": "Sohn schenkt der Mutter Geld: Welche Steuerklasse, welcher Freibetrag? Der Mini-Fall zur Schenkungsteuer.\n\n▸ Eltern und Voreltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I (§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG), sonst in Steuerklasse II (§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG).\n▸ Freibetrag bei unbeschränkter Steuerpflicht: übrige Personen der Klasse I 100.000 € (§ 16 Abs. 1 Nr. 4 ErbStG), Klasse II 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n▸ Steuersatz bis 300.000 €: Klasse I 11 %, Klasse II 20 %; bis 75.000 €: 7 % bzw. 15 % (§ 19 Abs. 1 ErbStG). Härteausgleich nach § 19 Abs. 3 ErbStG prüfen.\n\nLösung: 120.000 € – 20.000 € = 100.000 €, davon 20 % = 20.000 € Schenkungsteuer. Härteausgleich: Steuer an der Grenze 75.000 € (11.250 €) plus die Hälfte des übersteigenden Betrags (12.500 €) = 23.750 €, also keine Kürzung. Im Erbfall: 120.000 € – 100.000 € = 20.000 €, davon 7 % = 1.400 €.\n\nZum Schluss: § 15 ErbStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 13d Abs. 1 ErbStG",
-        "§ 13d Abs. 3 Nr. 1 bis 3 ErbStG",
-        "§ 13a ErbStG",
-        "§ 13b Abs. 2 Satz 2 ErbStG",
-        "R E 13d Abs. 4 ErbStR",
-        "BMF-Schreiben vom 29.05.2019, BStBl. I S. 480",
-        "§ 10 Abs. 6a ErbStG",
-        "Themenpool: erbst-aufb-erbst-v-25"
+        "§ 15 Abs. 1 ErbStG",
+        "§ 16 Abs. 1 Nr. 4, 5 ErbStG",
+        "§ 19 Abs. 1, 3 ErbStG"
       ],
-      "coverRegie": {
-        "thema": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-20-b2-erbst-aufb-erbst-v-25-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-20-b2",
+      "kurztitel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Mini-Fall",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Mini-Fall",
+          "text": "Mini-Fall · Sohn schenkt · Mutter Geld · § 15 Abs. 1 ErbStG · I oder II? · + Markier-Guide § 15 ErbStG · Schenkung · 120.000 € · an die Mutter",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Der Fall · Leo, 34, hat seine Firma verkauft. · Er schenkt seiner Mutter Hanne 120.000 €, damit sie ihr Haus saniert. · Steuerklasse, Freibetrag, Steuer? · Für dich, Mama!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Jetzt du · Eltern stehen doch in Klasse I – oder? · Welcher Freibetrag passt? · Erst überlegen, dann weiterwischen · Klasse I, oder?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Eltern: nicht immer Klasse I · Klasse I nur beim Erwerb von Todes wegen. · § 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG · Bei einer Schenkung: Klasse II. · § 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG · Freibetrag damit nur 20.000 €. · § 16 Abs. 1 Nr. 5 ErbStG · Nur 20.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Lösung: Schenkung · § 16 Abs. 1 Nr. 5 ErbStG · § 19 Abs. 1 ErbStG · Schenkung · 120.000 € · – Freibetrag Klasse II · – 20.000 € · = steuerpflichtiger Erwerb · 100.000 € · Steuersatz Klasse II · 20 % · Schenkungsteuer · 20.000 € · Härteausgleich geprüft: keine Kürzung"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Schenkung oder Erbfall? · Schenkung · Klasse II · § 15 Abs. 1 ErbStG · Freibetrag 20.000 € · § 16 Abs. 1 Nr. 5 ErbStG · Steuer 20.000 € · Erbfall · Klasse I · § 15 Abs. 1 ErbStG · Freibetrag 100.000 € · § 16 Abs. 1 Nr. 4 ErbStG · Steuer 1.400 € (7 %) · So ein Unterschied!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Lösung: Klasse II, 20.000 € frei, 20.000 € Steuer · Im Erbfall: Klasse I, 100.000 € frei, 1.400 € Steuer · Verwandtschaft klären, · Erwerbsart prüfen, · Klasse festlegen, · Freibetrag abziehen. · Speichern für Klausur 1 · Hättest du Klasse I genommen? · Weiterwischen: § 15 ErbStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "wer? · nur Erbfall! · Schenkung · Freibeträge: § 16 Abs. 1 ErbStG · Übrige Klasse I 100.000 €, Klasse II 20.000 €"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "kst",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-modul-kst-6",
-      "slug": "2026-10-20-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Dreiecksfälle und materielle Korrespondenz",
-          "unter": "Körperschaftsteuer",
-          "text": "Vorteil von Schwester zu Schwester: Wer muss ihn versteuern?",
-          "norm": "§ 8 Abs. 3 S. 2 KStG",
-          "icon": null,
-          "sprecher": "Eine GmbH gewährt ihrer Schwester-GmbH einen Vorteil. Steuerlich läuft er über den gemeinsamen Gesellschafter, und die Korrespondenzregeln entscheiden, wo er versteuert wird.",
-          "marken": [
-            "Vorteilsweg im Dreieck zeichnen"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Leistende GmbH: vGA, beim Gesellschafter Ertrag",
-          "text": null,
-          "norm": "§ 8 Abs. 3 S. 2 KStG",
-          "icon": null,
-          "sprecher": "Bei der leistenden GmbH ist der Vorteil eine verdeckte Gewinnausschüttung an den Gesellschafter. Bei ihm bleibt sie nur begünstigt, wenn sie das Einkommen der leistenden GmbH nicht gemindert hat, außer sie hat das Einkommen der Schwester erhöht.",
-          "marken": [
-            "vGA über den Gesellschafter"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Schwester: Einlage nur bei einlagefähigem Vorteil",
-          "text": null,
-          "norm": "§ 8 Abs. 3 S. 3–5 KStG",
-          "icon": null,
-          "sprecher": "Ist der Vorteil einlagefähig, legt der Gesellschafter ihn verdeckt in die Schwester ein. Das erhöht ihr Einkommen nicht, außer die vGA blieb beim Gesellschafter unversteuert und hat das Einkommen der Leistenden gemindert.",
-          "marken": [
-            "Verdeckte Einlage in Schwester"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Steuerfrei bleibt der Vorteil im Dreieck nur, wenn er an anderer Stelle im Dreieck versteuert wird: § 8b Abs. 1 S. 2 und 5 KStG beim Gesellschafter, § 8 Abs. 3 S. 5 KStG bei der Schwester.",
-          "sprecher": "Merke: Die Korrespondenzregeln sorgen dafür, dass der Vorteil im Dreieck nirgends ganz unversteuert bleibt.",
-          "marken": [
-            "Korrespondenz prüfen"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Dreiecksfälle: Ein Vorteil zwischen Schwestergesellschaften läuft steuerlich über den Gesellschafter. Die materielle Korrespondenz entscheidet, wo er steuerfrei bleibt.",
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-17-06",
+      "caption": "Verdeckte Einlage von GmbH-Anteilen: steuerfrei? Nein – § 17 EStG greift auch ohne Kaufpreis. 💼\n\n▸ Die verdeckte Einlage relevanter GmbH-Anteile in eine andere GmbH wird wie ein Verkauf behandelt (§ 17 Abs. 1 S. 2 EStG); statt eines Kaufpreises wird der gemeine Wert angesetzt (§ 17 Abs. 2 S. 2 EStG).\n▸ Die Einlage relevanter Anteile in das eigene Einzelunternehmen ist keine Veräußerung; sie wird höchstens mit den Anschaffungskosten angesetzt (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG).\n▸ Auflösung der Gesellschaft gilt als Veräußerung (§ 17 Abs. 4 S. 1 EStG), Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 2 EStG) – aber nicht, soweit Bezüge nach § 20 Abs. 1 Nr. 1 oder 2 EStG vorliegen (§ 17 Abs. 4 S. 3 EStG). Rückzahlung von Nennkapital und Beträge aus dem steuerlichen Einlagekonto (§ 27 KStG) bleiben bei § 17 EStG, der Rest ist Kapitalertrag (§ 20 Abs. 1 Nr. 2 EStG).\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Dreiecksfälle und materielle Korrespondenz",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Abs. 3 S. 2 KStG",
-        "§ 8 Abs. 3 S. 3–5 KStG",
-        "§ 8b Abs. 1 S. 1, 2, 5 KStG",
-        "§ 3 Nr. 40 Buchst. d EStG",
-        "§ 8 Abs. 3 S. 4, 5 KStG",
-        "§ 8b Abs. 1 S. 2, 5 KStG",
-        "§ 32d Abs. 2 Nr. 4 EStG",
-        "Themenpool: kst-modul-kst-6"
+        "§ 17 Abs. 1 S. 2, Abs. 2 S. 2, Abs. 4 EStG",
+        "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG",
+        "§ 20 Abs. 1 Nr. 1, 2 EStG",
+        "§ 27 KStG"
       ],
-      "coverRegie": {
-        "thema": "Dreiecksfälle und materielle Korrespondenz",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-20-b3-kst-modul-kst-6-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-20-b3",
+      "kurztitel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Verdeckte Einlage: steuerfrei?"
+        },
+        {
+          "art": "schritt",
+          "titel": "In eine GmbH"
+        },
+        {
+          "art": "schritt",
+          "titel": "Ins Einzelunternehmen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Bei der Liquidation"
+        }
+      ],
+      "sprecher": [
+        "GmbH-Anteile ohne Kaufpreis in die eigene Holding schieben. Steuerfrei? Falsch, das gilt als Verkauf.",
+        "Die verdeckte Einlage relevanter Anteile in eine Kapitalgesellschaft gilt als Veräußerung. Als Preis zählt der gemeine Wert.",
+        "Das Gegenstück: Einlage ins eigene Einzelunternehmen. Keine Veräußerung, Ansatz höchstens mit den Anschaffungskosten.",
+        "Bei der Liquidation laufen Nennkapital und Einlagekonto über Paragraf siebzehn, der Rest sind Kapitalerträge.",
+        "Merke: In die GmbH heißt verkauft, ins Einzelunternehmen nicht."
+      ],
+      "dauerS": 40.716,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-5",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-5"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-6",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Streubesitz:",
+        "ab welcher Quote",
+        "steuerfrei?",
+        "ab 1 %",
+        "ab 10 %",
+        "ab 25 %",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Womit schließt du in der Bilanzklausur jeden Einzelsachverhalt ab?",
-      "titel": "Womit schließt du in der Bilanzklausur jeden Einzelsachverhalt ab?",
-      "optionen": [
-        "nur mit einer Norm",
-        "nur mit dem Ergebnis",
-        "mit Technik und Gewinnauswirkung"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-5",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-5"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-6",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "B: ab 10 %",
+        "ab 1 %",
+        "ab 10 %",
+        "ab 25 %",
+        "Unter 10 % zu Beginn des Kalenderjahres bleibt die Dividende bei der Körperschaft steuerpflichtig.",
+        "§ 8b Abs. 4 S. 1 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "mit Technik und Gewinnauswirkung",
-      "optionen": [
-        "nur mit einer Norm",
-        "nur mit dem Ergebnis",
-        "mit Technik und Gewinnauswirkung"
-      ],
-      "richtig": 2,
-      "text": "Bilanzansatz, Buchungs- bzw. Korrektursatz und Gewinnauswirkung bringen zusammen die Technikpunkte. Eine Norm oder ein Ergebnis allein reicht nicht.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-373",
-      "quellen": [
-        "§ 110 Abs. 2 AO",
-        "§ 110 Abs. 3 AO",
-        "§ 110 Abs. 2 und 3 AO",
-        "§ 110 AO",
-        "§ 56 FGO",
-        "Themenpool: ao-modul-ao-373"
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-1-4",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Wann ist es",
+        "SBV II?",
+        "R 4.2 Abs. 2 S. 2 EStR",
+        "Es dient der Beteiligung, nicht dem Betrieb der Gesellschaft.",
+        "Typisch: Kredit für den Anteilskauf, Zinsen sind Sonderbetriebsausgaben."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 110 Abs. 2 AO",
-      "titel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
-      "text": "Binnen eines Monats nach Wegfall des Hindernisses: Antrag mit Gründen stellen, Versäumtes nachholen; glaubhaft machen geht auch später. Ist nachgeholt, geht es ohne Antrag. Nach 1 Jahr Schluss, außer bei höherer Gewalt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-313",
-      "quellen": [
-        "§ 122 Abs. 2 Nr. 1 AO",
-        "§ 108 Abs. 3 AO",
-        "§ 122 Abs. 2a AO",
-        "§ 122 Abs. 5 AO",
-        "§ 8 VwZG",
-        "§§ 177–182 ZPO",
-        "§ 122a AO",
-        "§ 122a Abs. 1–5 AO",
-        "Art. 97 § 28 Abs. 2 EGAO",
-        "Themenpool: ao-modul-ao-313"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Erst die Fragen,",
+        "dann der Fall",
+        "Aufgabenstellung vor dem Sachverhalt lesen.",
+        "Jede Zahl im Sachverhalt einer Frage zuordnen.",
+        "Lösung genau nach den Fragen gliedern."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Zeitpunkt der Bekanntgabe: einfacher Brief, E-Mail, förmliche Zustellung und § 122a AO",
-      "text": "Brief: 4. Tag nach Aufgabe zur Post. E-Mail: 4. Tag nach Absendung. Abruf: 4. Tag nach Bereitstellung (§ 122a Abs. 4 AO). Zustellung nach VwZG, mit Urkunde am Zustelltag. Wochenende oder Feiertag verschiebt die Fiktion.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-333",
-      "quellen": [
-        "§ 171 Abs. 3a AO",
-        "§ 171 Abs. 4 AO",
-        "§ 196 AO",
-        "AEAO zu § 171 Nr. 2.2.1",
-        "Themenpool: ao-modul-ao-333"
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-3",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Sonstige Leistung:",
+        "alles außer Lieferung",
+        "Jede Leistung, die keine Lieferung ist.",
+        "§ 3 Abs. 9 S. 1 UStG",
+        "Auch Unterlassen oder Dulden zählt.",
+        "§ 3 Abs. 9 S. 2 UStG",
+        "Beispiel: Wettbewerbsverbot gegen Entgelt."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
-      "text": "Zulässiger Einspruch: Ablauf für den ganzen Steueranspruch gehemmt, bis unanfechtbar entschieden ist (§ 171 Abs. 3a AO). Außenprüfung: hemmt bei Beginn vor Fristablauf oder Verschiebung auf Antrag (§ 171 Abs. 4 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
       "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-317",
-      "quellen": [
-        "§§ 347 ff. AO",
-        "§ 367 Abs. 2 AO",
-        "§ 361 AO",
-        "§ 367 Abs. 2 S. 2 AO",
-        "Themenpool: ao-modul-ao-317"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-6",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Merksatz",
+        "Einlagekonto:",
+        "wann sinkt es?",
+        "Erst der ausschüttbare",
+        "Gewinn, dann das",
+        "Einlagekonto –",
+        "nie negativ.",
+        "§ 27 Abs. 1 S. 3, 4 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Einspruchsverfahren: Reichweite, Auslegung und Erfolgsformel",
-      "text": "Erst Zulässigkeit, dann Begründetheit. Ist der Einspruch zulässig, prüft das FA den Fall in vollem Umfang neu (§ 367 Abs. 2 S. 1 AO); eine Verböserung ist möglich, aber nur nach vorherigem Hinweis.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
@@ -591,95 +479,78 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Verdeckte Einlage",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Leasing: wem gehört's?",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
       "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag",
-      "text": "Vermietete Wohnimmobilie: Wann gibt es 10 % Abschlag?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Sohn schenkt Mutter Geld",
+        "Mini-Fall + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "kst",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Dreiecksfälle und materielle Korrespondenz",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Neu im Feed",
+        "Verdeckte Einlage: steuerfrei?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:50:53.003Z",
+    "erzeugtAm": "2026-10-03T04:47:43Z",
     "pfad": "vorproduktion/2026-10-20/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -691,5 +562,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
