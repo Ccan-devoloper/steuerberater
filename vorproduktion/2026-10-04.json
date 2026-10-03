@@ -4,38 +4,33 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "istr-aufb-istr-gh-3-11",
-        "themaTitel": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
-        "fach": "istr",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-k2-2026-40",
+        "themaTitel": "Tag 2 kompakt: fünf Dauerbrenner der Woche",
+        "fach": "est",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-50",
-        "themaTitel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
+        "themaId": "bilanz-aufb-bil-melzer-10-02",
+        "themaTitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
         "fach": "bilanz",
         "klausur": 3
       },
@@ -43,473 +38,359 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-modul-ao-376",
-        "themaTitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
+        "themaId": "ao-aufb-ao-jacobs-12-1",
+        "themaTitel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
         "fach": "ao",
-        "klausur": 1,
-        "lang": true
+        "klausur": 1
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:09",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "persg-quiz-k3-27"
+        "themaId": "ust-quiz-ust-0"
       },
       {
         "slot": "s5",
         "zeit": "07:09",
         "art": "antwort",
-        "themaId": "persg-quiz-k3-27"
+        "themaId": "ust-quiz-ust-0"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:03",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-modul-istr-istr2-05"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:32",
-        "art": "countdown",
-        "tageBisExamen": 2
+        "themaId": "est-aufb-est-ks1-gew-01"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "countdown"
       },
       {
         "slot": "s8",
-        "zeit": "16:51",
-        "art": "merksatz",
-        "themaId": "istr-aufb-istr-gh-3-13"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:18",
-        "art": "begriff",
-        "themaId": "bilanz-glossar-1"
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-0"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-13-5"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "istr",
+      "format": "wochenrueckblick",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-aufb-istr-gh-3-11",
-      "slug": "2026-10-04-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Du verstehst, dass § 49 EStG an die Einkunftsarten des § 2 Abs. 1 EStG anknüpft und für jeden Fall ein zusätzliches Inlandsmerkmal verlangt.",
-            "Typische Inlandsmerkmale: Betriebsstätte oder ständiger Vertreter, Darbietung im Inland, Anteile an inländischen Kapitalgesellschaften (§ 17 EStG), inländischer Grundbesitz."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Bestimme die Einkunftsart; im Ausland verwirklichte Merkmale, die inländische Einkünfte ausschließen würden, bleiben außer Betracht (§ 49 Abs. 2 EStG)."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Suche in § 49 Abs. 1 EStG die zur Einkunftsart gehörende Nummer und prüfe deren konkreten Inlandsbezug."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Erst die Einkunftsart, dann das Inlandsmerkmal der passenden Nummer in § 49 Abs. 1 EStG. Fehlt es, sind diese Einkünfte nicht inländisch und unterliegen nicht der beschränkten Steuerpflicht (§ 1 Abs. 4 EStG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Einkünfte eines Gebietsfremden sind nur inländisch, wenn § 49 Abs. 1 EStG für die jeweilige Einkunftsart ein Inlandsmerkmal findet, etwa Betriebsstätte, Grundbesitz, Darbietung im Inland oder Beteiligung an einer inländischen Kapitalgesellschaft.",
+      "fachLabel": "Ertragsteuern",
+      "themaId": "wochenrueckblick-k2-2026-40",
+      "caption": "Tag 2 kompakt: fünf Dauerbrenner der Woche für die Ertragsteuer-Klausur.\n\n1. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n2. Gewerbesteuer: abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, 3,5 % Messzahl, Hebesatz (§ 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG).\n3. Verdeckte Gewinnausschüttung: Sie mindert das Einkommen der GmbH nicht (§ 8 Abs. 3 S. 2 KStG; Begriff R 8.5 Abs. 1 KStR).\n4. Wegzug mit Anteilen im Sinne des § 17 EStG: Besteuerung wie bei einer Veräußerung, wenn 7 der letzten 12 Jahre unbeschränkte Steuerpflicht bestand; auf Antrag sieben Jahresraten (§ 6 Abs. 1, 2, 4 AStG).\n5. Anrechnung ausländischer Steuer nur bis zur deutschen Steuer auf die Einkünfte aus diesem Staat (§ 34c Abs. 1 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#ertragsteuern"
       ],
-      "kurztitel": "Was macht Einkünfte eines Gebietsfremden zu inländischen",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 49 Abs. 1 EStG",
-        "§ 22 EStG",
-        "§ 49 EStG",
-        "§ 12 AO",
-        "§ 140 AO",
-        "§ 17 EStG",
-        "§ 49 Abs. 2 EStG",
-        "§ 20 Abs. 1 EStG",
-        "§ 1 Abs. 4 EStG",
-        "§ 13 AO",
-        "Themenpool: istr-aufb-istr-gh-3-11"
+        "§§ 7, 8, 9, 10a GewStG",
+        "§ 11 Abs. 1 S. 3, Abs. 2 GewStG",
+        "§ 16 Abs. 1 GewStG",
+        "§ 8 Abs. 3 KStG",
+        "R 8.5 Abs. 1 KStR",
+        "§ 6 Abs. 1, 2, 4 AStG",
+        "§ 34c Abs. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b1-istr-aufb-istr-gh-3-11-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-04-b1",
+      "kurztitel": "Tag 2 kompakt: fünf Dauerbrenner der Woche",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Tag 2 · kompakt · 5 Dauerbrenner · + Markier-Guide § 8 KStG · OKTOBER · 7 · Mi · Tag 2",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "Die 5 Dauerbrenner · Gewerbeertrag · §§ 7 bis 10a GewStG · Gewerbesteuer · §§ 11, 16 GewStG · Verdeckte Gewinnausschüttung · § 8 Abs. 3 S. 2 KStG · Wegzug mit GmbH-Anteil · § 6 AStG · Anrechnung ausländischer Steuer · § 34c Abs. 1 EStG · Am Ende: § 8 KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "1 · Gewerbeertrag · Start ist der Gewinn nach Einkommen- oder Körperschaftsteuerrecht. · § 7 S. 1 GewStG · Dann Hinzurechnungen dazu, Kürzungen ab. · §§ 8, 9 GewStG · Den Gewerbeverlust erst ganz am Ende abziehen. · § 10a GewStG · Reihenfolge zählt!"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "2 · Gewerbesteuer · Gewerbeertrag auf volle 100 € abrunden. · § 11 Abs. 1 S. 3 GewStG · 24.500 € Freibetrag nur für natürliche Personen und Personengesellschaften. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Mal 3,5 %, dann mal Hebesatz. · § 11 Abs. 2, § 16 Abs. 1 GewStG · Und die GmbH?"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "3 · Verdeckte Gewinnausschüttung · Die GmbH verliert Vermögen oder verzichtet auf einen Zuwachs. · R 8.5 Abs. 1 KStR · Auslöser ist das Gesellschaftsverhältnis. · Folge: Das Einkommen der GmbH sinkt dadurch nicht. · § 8 Abs. 3 S. 2 KStG · Wem nützt es?"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "4 · Wegzug mit Anteil · Wer GmbH-Anteile im Sinne des § 17 EStG hält und wegzieht, versteuert, als hätte er verkauft. · § 6 Abs. 1 AStG · Voraussetzung: 7 der letzten 12 Jahre unbeschränkt steuerpflichtig. · § 6 Abs. 2 S. 1 AStG · Auf Antrag sieben Jahresraten. · § 6 Abs. 4 S. 1 AStG · Auch ohne Verkauf?"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "5 · Anrechnung · Ausländische Steuer wird auf die deutsche Einkommensteuer angerechnet. · § 34c Abs. 1 S. 1 EStG · Höchstens bis zu dem Teil, der auf die Einkünfte aus diesem Staat entfällt. · § 34c Abs. 1 S. 2 EStG · Grenze je Staat rechnen · Pro Staat!"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "Mittwoch ist Tag 2 · Ertragsteuern: ESt, KSt, GewSt, IStR · Ertrag vor Messbetrag, · vGA mindert nichts, · Wegzug wie Verkauf, · Anrechnung mit Grenze. · Speichern für Klausur 2 · Welcher Punkt wackelt noch? · Weiterwischen: § 8 KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Ertragsteuern",
+          "text": "vGA · Rechtsfolge · Gegenstück · Randnotiz: R 8.5 KStR · Was eine vGA ist, steht in der Richtlinie"
+        }
+      ]
     },
     "b2": {
       "format": "spickzettel",
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-50",
-      "slug": "2026-10-04-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Erst bilanziell lösen, die Steuerfreistellung folgt außerbilanziell.",
-            "Dividende und Veräußerungsgewinn sind steuerfrei, je 5 % gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 1 bis 3, 5 KStG).",
-            "Streubesitz unter 10 % zu Beginn des Kalenderjahres: Dividende voll steuerpflichtig (§ 8b Abs. 4 KStG)."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Bilanz lösen: Anschaffungskosten, außerplanmäßige bzw. Teilwertabschreibung (§ 253 Abs. 3 S. 5 HGB, § 6 Abs. 1 Nr. 2 S. 2 EStG), Wertaufholung, Abgang."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Ertragsart bestimmen und außerbilanziell korrigieren; Teilwertabschreibungen und Veräußerungsverluste wieder hinzurechnen (§ 8b Abs. 3 S. 3 KStG)."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Gewinne aus Anteilen bleiben im Ergebnis zu 95 % steuerfrei, Verluste und Teilwertabschreibungen wirken sich gar nicht aus. Ausnahme: Streubesitzdividenden sind voll steuerpflichtig."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Beteiligungen in der Klausur: erst bilanziell lösen, dann § 8b KStG außerbilanziell anwenden. Gewinne zu 95 % steuerfrei, Verluste und Teilwertabschreibungen nicht abziehbar, Streubesitzdividenden voll steuerpflichtig.",
+      "themaId": "bilanz-aufb-bil-melzer-10-02",
+      "caption": "Verbindlichkeiten bewerten – der Spickzettel für die Bilanzklausur.\n\nHandelsbilanz: Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\nSteuerbilanz: Rückzahlungsbetrag; Bewertung unter sinngemäßer Anwendung von Nr. 2 (§ 6 Abs. 1 Nr. 3 EStG).\nAbzinsung mit 5,5 % entfällt für Wirtschaftsjahre, die nach dem 31.12.2022 enden, auf Antrag auch für frühere (§ 52 Abs. 12 S. 2, 3 EStG).\nDisagio: in der Handelsbilanz Wahlrecht (§ 250 Abs. 3 HGB), steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), über die Laufzeit aufzulösen.\nHöherer Teilwert nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG).\n\nZum Schluss: §§ 5, 6 EStG zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 246 Abs. 1 S. 1 HGB",
-        "§ 253 Abs. 1 S. 1 HGB",
-        "§ 253 Abs. 3 S. 5 HGB",
-        "§ 253 Abs. 5 S. 1 HGB",
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "§ 6 Abs. 1 Nr. 2 S. 2, 3 EStG",
-        "§ 8 Abs. 1 KStG",
-        "§ 8b Abs. 1 S. 1 KStG",
-        "§ 8b Abs. 2 S. 1, 2, 3 KStG",
-        "§ 8b Abs. 3 S. 1 KStG",
-        "§ 8b Abs. 4 S. 6 KStG",
-        "§ 8b Abs. 3 S. 3 KStG",
-        "§ 8b Abs. 4 S. 1 KStG",
-        "§ 8b Abs. 5 KStG",
-        "Themenpool: bilanz-modul-k3-50"
+        "§ 253 Abs. 1 S. 2 HGB",
+        "§ 250 Abs. 3 HGB",
+        "§ 6 Abs. 1 Nr. 3 EStG",
+        "§ 52 Abs. 12 S. 2, 3 EStG",
+        "§ 5 Abs. 5 EStG"
       ],
-      "coverRegie": {
-        "thema": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b2-bilanz-modul-k3-50-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-04-b2",
+      "kurztitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Spickzettel",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Spickzettel",
+          "text": "Spickzettel · Verbindlichkeiten · bewerten · § 6 Abs. 1 Nr. 3 EStG · auf einer Karte · + Markier-Guide § 6 EStG · Darlehen · 50.000 € · Ansatz?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Karte · Handelsbilanz · § 253 Abs. 1 S. 2 HGB · Erfüllungsbetrag · Steuerbilanz · § 6 Abs. 1 Nr. 3 EStG · Rückzahlungsbetrag, keine Abzinsung · Disagio · § 5 Abs. 5 S. 1 Nr. 1 EStG · steuerlich aktiv abgrenzen · Teilwert · § 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG · höher nur bei dauernder Erhöhung · Am Ende: § 6 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Abzinsung ist Geschichte · Früher wurden unverzinsliche Schulden steuerlich mit 5,5 % abgezinst. · § 6 Abs. 1 Nr. 3 EStG a. F. · Heute: Rückzahlungsbetrag ansetzen, für Wirtschaftsjahre, die nach dem 31.12.2022 enden. · § 52 Abs. 12 S. 2 EStG · Auf Antrag auch für frühere Jahre. · § 52 Abs. 12 S. 3 EStG · Alte Lösung?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Disagio: HGB oder Steuer? · Handelsbilanz · Aktiver Posten möglich: Wahlrecht · § 250 Abs. 3 HGB · Schuld mit dem Erfüllungsbetrag · Steuerbilanz · Aktiver Posten Pflicht · § 5 Abs. 5 S. 1 Nr. 1 EStG · Über die Laufzeit auflösen · Wahlrecht oder Pflicht?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Beispiel: Auszahlung 48.000 €, Rückzahlung 50.000 € · Schuld 50.000 €, aktiver Posten 2.000 € · Rückzahlungsbetrag ansetzen, · Disagio aktiv abgrenzen, · Teilwert nur bei Dauer. · Speichern für Klausur 3 · Hast du noch alte Abzinsung im Kopf? · Weiterwischen: § 6 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Teilwert-Regeln gelten mit · hier landet das Disagio · Neu: § 5 Abs. 5 S. 2 EStG · Kleinbeträge bis 800 € dürfen ohne Abgrenzung bleiben"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-376",
-      "slug": "2026-10-04-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
-          "unter": "Abgabenordnung",
-          "text": "Gesellschaft oder Gesellschafter: Wer darf gegen den Feststellungsbescheid Einspruch einlegen?",
-          "norm": "§ 352 AO",
-          "icon": null,
-          "sprecher": "Gegen einen Gewinnfeststellungsbescheid darf nicht jeder Einspruch einlegen. Wer ist befugt, die Gesellschaft oder jeder Gesellschafter?",
-          "marken": [
-            "Gesellschaft oder Gesellschafter?"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Die PersG selbst ist einspruchsbefugt",
-          "text": null,
-          "norm": "§ 352 Abs. 1 AO",
-          "icon": null,
-          "sprecher": "Ist die Personengesellschaft rechtsfähig, etwa eine OHG oder KG, legt sie selbst Einspruch ein. Sie handelt dabei durch ihre Vertreter nach § 34 AO.",
-          "marken": [
-            "Gesellschaft selbst befugt"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Gesellschafter nur mit Zusatzbefugnis",
-          "text": null,
-          "norm": "§ 352 Abs. 1 AO",
-          "icon": null,
-          "sprecher": "Neben der rechtsfähigen Gesellschaft darf ein einzelner Gesellschafter nur in Sonderfällen selbst angreifen: wenn die Gesellschaft nicht mehr besteht, nach seinem Ausscheiden, beim Streit über die Gewinnverteilung oder bei Fragen, die nur ihn persönlich betreffen.",
-          "marken": [
-            "Ausscheiden, Verteilung, Persönliches"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Beim Feststellungsbescheid reicht die Beschwer nach § 350 AO allein nicht: Befugt ist nur, wer unter § 352 AO fällt. Sonst ist der Einspruch unzulässig.",
-          "sprecher": "Merke: Beim Feststellungsbescheid genügt die Beschwer nach § 350 AO allein nicht. Zusätzlich regelt § 352 AO, wer Einspruch einlegen darf. Fehlt die Befugnis, ist der Einspruch unzulässig.",
-          "marken": [
-            "Befugnis aus § 352 AO"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage und Reihenfolge",
-            "Normen ohne Unterlagen"
-          ]
-        }
-      ],
-      "caption": "Wer darf gegen einen Gewinnfeststellungsbescheid Einspruch einlegen? Nach § 352 AO die rechtsfähige Personengesellschaft selbst, vertreten nach § 34 AO; einzelne Gesellschafter nur mit Zusatzbefugnis, etwa nach Ausscheiden, bei der Gewinnverteilung oder in persönlichen Fragen. Für nicht rechtsfähige Gemeinschaften enthält § 352 AO eigene Regeln.",
+      "themaId": "ao-aufb-ao-jacobs-12-1",
+      "caption": "Darf das Finanzamt auch bei Angestellten eine Außenprüfung machen? 🧾\n\n▸ Ohne besonderen Anlass zulässig bei Gewerbetreibenden, Land- und Forstwirten, freiberuflich Tätigen und Steuerpflichtigen im Sinne des § 147a AO (§ 193 Abs. 1 AO).\n▸ Bei anderen nur, soweit es um Steuern geht, die sie für andere einbehalten und abführen, wenn eine Prüfung an Amtsstelle nicht zweckmäßig ist, oder bei Verstößen gegen Mitwirkungspflichten nach § 12 StAbwG (§ 193 Abs. 2 Nr. 1–3 AO).\n▸ Nachschau und betriebsnahe Veranlagung sind keine Außenprüfung und hemmen den Ablauf der Festsetzungsfrist nicht (§ 171 Abs. 4 AO).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 352 AO",
-        "§ 34 AO",
-        "§ 183a AO",
-        "§ 352 Abs. 1 und 2 AO",
-        "Art. 97 § 39 Abs. 4 EGAO",
-        "§ 350 AO",
-        "§ 352 Abs. 1 AO",
-        "Themenpool: ao-modul-ao-376"
+        "§ 193 Abs. 1, 2 AO",
+        "§ 147a AO",
+        "§ 171 Abs. 4 AO",
+        "§ 12 StAbwG"
       ],
-      "coverRegie": {
-        "thema": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-04-b3-ao-modul-ao-376-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-04-b3",
+      "kurztitel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "quizfrage",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Außenprüfung auch bei dir?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Immer prüfbar"
+        },
+        {
+          "art": "schritt",
+          "titel": "Sonst nur ausnahmsweise"
+        },
+        {
+          "art": "schritt",
+          "titel": "Klausurfalle"
+        }
+      ],
+      "sprecher": [
+        "Außenprüfung auch bei dir als Angestellter? Bei Unternehmern immer möglich. Bei dir nur ausnahmsweise.",
+        "Gewerbetreibende, Land- und Forstwirte und alle in freien Berufen darf das Finanzamt ohne besonderen Anlass prüfen. Die Höhe des Gewinns spielt keine Rolle.",
+        "Bei allen anderen nur in Sonderfällen, etwa wenn sie Steuern für andere einbehalten oder eine Prüfung im Amt nicht ausreicht.",
+        "Und Achtung: Eine Nachschau ist keine Außenprüfung. Sie hemmt den Ablauf der Festsetzungsfrist nicht.",
+        "Merke: Unternehmer immer, Private nur ausnahmsweise."
+      ],
+      "dauerS": 40.074,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-27",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-27"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Steuerbarer Umsatz:",
+        "Was gehört dazu?",
+        "Leistung, Unternehmer, Inland, Entgelt, Rahmen des Unternehmens",
+        "Lieferung mit Gewinnabsicht",
+        "Jede private Leistung",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wie wird ein Wirtschaftsgut bewertet, das bei der Betriebsaufgabe ins Privatvermögen wandert?",
-      "titel": "Wie wird ein Wirtschaftsgut bewertet, das bei der Betriebsaufgabe ins Privatvermögen wandert?",
-      "optionen": [
-        "Buchwert",
-        "Teilwert",
-        "gemeiner Wert"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-27",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-27"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "A: alle fünf",
+        "Merkmale",
+        "Leistung, Unternehmer, Inland, Entgelt, Rahmen des Unternehmens",
+        "Lieferung mit Gewinnabsicht",
+        "Jede private Leistung",
+        "Fehlt eines, ist der Umsatz nicht steuerbar.",
+        "§ 1 Abs. 1 Nr. 1 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "gemeiner Wert",
-      "optionen": [
-        "Buchwert",
-        "Teilwert",
-        "gemeiner Wert"
-      ],
-      "richtig": 2,
-      "text": "§ 16 Abs. 3 S. 8 EStG verlangt den gemeinen Wert, nicht den Teilwert.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-05",
-      "quellen": [
-        "§ 49 EStG",
-        "Art. 6 DBA",
-        "Art. 13 DBA",
-        "Art. 23 DBA",
-        "Art. 6 und Art. 13 DBA",
-        "Art. 6 Abs. 4 OECD-MA",
-        "Art. 13 Abs. 1 OECD-MA",
-        "Themenpool: istr-modul-istr-istr2-05"
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks1-gew-01",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Norm des Tages",
+        "Wann ist es",
+        "gewerblich?",
+        "§ 15 Abs. 2 EStG",
+        "Selbständig, nachhaltig, mit Gewinnabsicht und am Markt.",
+        "§ 15 Abs. 2 S. 1 EStG",
+        "Nicht: Land- und Forstwirtschaft, freier Beruf, Vermögensverwaltung.",
+        "R 15.7 Abs. 1 EStR"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "Art. 6, 13 OECD-MA",
-      "titel": "Unbewegliches Vermögen und Veräußerungsgewinne: Art. 6 und Art. 13 DBA",
-      "text": "Laufende Einkünfte aus Grundbesitz darf der Belegenheitsstaat besteuern, auch wenn das Grundstück zu einem Unternehmen gehört (Art. 6 Abs. 4 OECD-MA). Bei Veräußerung ordnet Art. 13 nach dem veräußerten Vermögen zu.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
@@ -517,102 +398,99 @@
       "fach": null,
       "klausur": 0,
       "fachLabel": "Steuerberaterexamen",
-      "ueberzeile": "Noch",
-      "zahl": "2",
-      "titel": "Tage bis zum Examen",
-      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
-      "fortschritt": 0,
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Countdown",
+        "NOCH",
+        "2",
+        "Tage",
+        "bis zum Examen",
+        "Schemata wiederholen",
+        "Gesetze griffbereit",
+        "Früh schlafen"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "merksatz",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-3-13",
-      "quellen": [
-        "§ 50 EStG",
-        "§ 10c EStG",
-        "§ 49 Abs. 1 EStG",
-        "§ 1 Abs. 4 EStG",
-        "§ 10b EStG",
-        "§ 10a Abs. 1a EStG",
-        "§ 16 Abs. 4 EStG",
-        "§ 24b EStG",
-        "§ 32 EStG",
-        "§ 35a EStG",
-        "Themenpool: istr-aufb-istr-gh-3-13"
-      ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
-      "text": "Beschränkt steuerpflichtig heißt: Grundtabelle ohne Entlastung durch den Grundfreibetrag, kaum persönliche Abzüge, und Abzugsteuern gelten die Steuer meist ab.",
-      "liveVorrangAktiv": true
-    },
-    "s9": {
-      "slot": "s9",
-      "art": "begriff",
+      "art": "tipp",
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-1",
-      "quellen": [
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "§ 5 Abs. 1 S. 1 Hs. 2 EStG",
-        "§ 5 Abs. 6 EStG",
-        "Themenpool: bilanz-glossar-1"
+      "themaId": "bilanz-karte-k3-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Bilanzfall:",
+        "die Reihenfolge",
+        "Ansatz: Wem gehört es, ist es Betriebsvermögen?",
+        "Bewertung: Maßstab, Kosten, Fortführung, Stichtag",
+        "Zum Schluss: Posten, Buchung, Gewinnauswirkung"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Begriff des Tages",
-      "titel": "Maßgeblichkeit",
-      "text": "Die handelsrechtlichen GoB gelten auch für die Steuerbilanz, außer ein steuerliches Wahlrecht wird anders ausgeübt oder eine steuerliche Vorschrift weicht ab (§ 5 Abs. 1 S. 1 Hs. 2, Abs. 6 EStG).",
-      "norm": "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-13-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Haftet der",
+        "Geschäftsführer?",
+        "Nur bei Vorsatz",
+        "oder grober",
+        "Fahrlässigkeit.",
+        "§ 69 S. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "istr",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Was macht Einkünfte eines Gebietsfremden zu inländischen",
-      "text": "Was macht Einkünfte eines Gebietsfremden zu inländischen?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Ertragsteuern",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Ertragsteuern",
+        "Neu im Feed",
+        "Tag 2 kompakt",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -620,26 +498,21 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Beteiligungen der Kapitalgesellschaft und § 8b KStG",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Verbindlichkeiten bewerten",
+        "Spickzettel + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
@@ -647,41 +520,34 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Einspruchsbefugnis bei GuE-Bescheiden: § 352 AO und Zusatzbefugnisse",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Außenprüfung bei dir?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:29:26.083Z",
+    "erzeugtAm": "2026-10-03T03:22:13Z",
     "pfad": "vorproduktion/2026-10-04/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -693,5 +559,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
