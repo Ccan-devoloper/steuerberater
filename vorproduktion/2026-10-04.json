@@ -27,7 +27,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "13:30",
+        "zeit": "12:30",
         "format": "spickzettel",
         "themaId": "bilanz-aufb-bil-melzer-10-02",
         "themaTitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
@@ -71,7 +71,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "13:30",
+        "zeit": "12:30",
         "art": "teaser",
         "beitragSlot": "b2"
       },
