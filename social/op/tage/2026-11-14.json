@@ -655,7 +655,7 @@
         "b"
        ],
        [
-        " ab 75 %,",
+        " über 75 %,",
         null
        ]
       ],
@@ -811,7 +811,7 @@
      }
     }
    ],
-   "caption": "Pensionszusage an die Gesellschafter-Geschäftsführerin: der Rechenweg über zwei Ebenen für die Ertragsteuer-Klausur.\n\nEbene 1 – Steuerbilanz: Pensionsrückstellung nur, wenn und soweit ein Rechtsanspruch besteht, kein schädlicher Vorbehalt vorliegt und die Zusage schriftlich mit eindeutigen Angaben erteilt ist (§ 6a Abs. 1 Nr. 1 bis 3 EStG). Überversorgung, wenn die Versorgung 75 % der Aktivbezüge übersteigt: Kürzung in der Steuerbilanz (H 6a (17) EStH).\n\nEbene 2 – außerbilanziell: Soweit der zulässige Aufwand gesellschaftlich veranlasst ist, liegt eine vGA vor (§ 8 Abs. 3 S. 2 KStG). Beim beherrschenden Gesellschafter-Geschäftsführer müssen zwischen Zusage und Ruhestand mindestens zehn Jahre liegen; eine Zusage nach dem 60. Lebensjahr ist regelmäßig nicht erdienbar (H 8.7 KStH).\n\nBeispiel: Zusage mit 62 → Zuführung 30.000 € vGA → Einkommen 200.000 € + 30.000 € = 230.000 €.\nVariante: Zusage mit 52, Rente 80 % der Bezüge → erdienbar, aber Überversorgung: Korrektur bereits in der Steuerbilanz.\n\nZum Schluss: § 6a EStG und H 8.7 KStH zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Pensionszusage an die Gesellschafter-Geschäftsführerin: der Rechenweg über zwei Ebenen für die Ertragsteuer-Klausur.\n\nEbene 1 – Steuerbilanz: Pensionsrückstellung nur, wenn und soweit ein Rechtsanspruch besteht, kein schädlicher Vorbehalt vorliegt und die Zusage schriftlich mit eindeutigen Angaben erteilt ist (§ 6a Abs. 1 Nr. 1 bis 3 EStG). Überversorgung, wenn die Versorgung 75 % der letzten Aktivbezüge übersteigt: Kürzung in der Steuerbilanz (H 6a (17) EStH; BMF vom 03.11.2004, BStBl I 2004, 1045, und vom 13.12.2012, BStBl I 2013, 35).\n\nEbene 2 – außerbilanziell: Soweit der zulässige Aufwand gesellschaftlich veranlasst ist, liegt eine vGA vor (§ 8 Abs. 3 S. 2 KStG). Beim beherrschenden Gesellschafter-Geschäftsführer müssen zwischen Zusage und Ruhestand mindestens zehn Jahre liegen; eine Zusage nach dem 60. Lebensjahr ist regelmäßig nicht erdienbar (H 8.7 KStH).\n\nBeispiel: Zusage mit 62 → Zuführung 30.000 € vGA → Einkommen 200.000 € + 30.000 € = 230.000 €.\nVariante: Zusage mit 52, Rente 80 % der Bezüge → erdienbar, aber Überversorgung: Korrektur bereits in der Steuerbilanz.\n\nZum Schluss: § 6a EStG und H 8.7 KStH zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -821,6 +821,8 @@
    "quellen": [
     "§ 6a Abs. 1 Nr. 1 bis 3 EStG",
     "H 6a (17) EStH",
+    "BMF vom 03.11.2004, BStBl I 2004, 1045",
+    "BMF vom 13.12.2012, BStBl I 2013, 35",
     "§ 8 Abs. 3 S. 2 KStG",
     "H 8.7 KStH"
    ]

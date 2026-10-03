@@ -325,14 +325,14 @@
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 12 ErbStG, § 151 BewG (Auszug)",
+     "kopf": "§§ 12, 13d ErbStG, § 151 BewG (Auszug)",
      "absaetze": [
       [
        "§ 12 (3)",
        [
         [
          "Grundbesitz",
-         "g1"
+         null
         ],
         [
          "(§ 157 Absatz 1 Satz 1 des Bewertungsgesetzes) ist mit dem nach",
@@ -365,6 +365,23 @@
        ]
       ],
       [
+       "§ 13d (1)",
+       [
+        [
+         "Grundstücke im Sinne des Absatzes 3 sind",
+         null
+        ],
+        [
+         "mit 90 Prozent ihres Werts",
+         "g1"
+        ],
+        [
+         "anzusetzen.",
+         null
+        ]
+       ]
+      ],
+      [
        "§ 151 (1)",
        [
         [
@@ -384,10 +401,6 @@
      ],
      "notizen": [
       [
-       "nur Inland",
-       "g1"
-      ],
-      [
        "Verweis ins BewG",
        "b1"
       ],
@@ -398,6 +411,10 @@
       [
        "nicht Maklerwert!",
        "r1"
+      ],
+      [
+       "vermietet: 90 %",
+       "g1"
       ]
      ],
      "randnotiz": [
@@ -406,7 +423,7 @@
      ]
     }
    ],
-   "caption": "Klausurfalle Erbschaftsteuer: Die geerbte Wohnung wird nicht mit dem Maklerwert angesetzt.\n\n▸ Inländischer Grundbesitz wird mit dem gesondert festgestellten Grundbesitzwert angesetzt, nicht nach § 9 BewG (§ 12 Abs. 3 ErbStG; § 151 Abs. 1 S. 1 Nr. 1 BewG).\n▸ Maßgeblich sind die tatsächlichen Verhältnisse und die Wertverhältnisse am Bewertungsstichtag (§ 157 Abs. 1 S. 1 BewG); Grundvermögen nach §§ 159, 176 bis 198 BewG (§ 157 Abs. 3 BewG).\n▸ Zuständig ist das Lage-Finanzamt (§ 152 Nr. 1 BewG). Der Feststellungsbescheid ist Grundlagenbescheid (§ 182 Abs. 1 S. 1 AO); Einwände gegen den Wert nur im Einspruch gegen ihn (§ 351 Abs. 2 AO).\n▸ Verfahren: unbebaut Bodenrichtwert (§ 179 BewG); Wohnungseigentum und Ein-/Zweifamilienhäuser Vergleichswert (§ 182 Abs. 2 BewG); Mietwohn- und Geschäftsgrundstücke mit üblicher Miete Ertragswert (§ 182 Abs. 3 BewG); sonst Sachwert (§ 182 Abs. 4 BewG).\n▸ Öffnungsklausel nur nach unten: Gutachten oder Kaufpreis innerhalb eines Jahres vor oder nach dem Stichtag (§ 198 Abs. 1 bis 3 BewG).\n▸ Zu Wohnzwecken vermietete Grundstücke: Ansatz mit 90 % (§ 13d Abs. 1, 3 Nr. 1 ErbStG). Beispiel: 280.000 € × 90 % = 252.000 €.\n\nZum Schluss: § 12 Abs. 3 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Klausurfalle Erbschaftsteuer: Die geerbte Wohnung wird nicht mit dem Maklerwert angesetzt.\n\n▸ Inländischer Grundbesitz wird mit dem gesondert festgestellten Grundbesitzwert angesetzt, nicht nach § 9 BewG (§ 12 Abs. 3 ErbStG; § 151 Abs. 1 S. 1 Nr. 1 BewG).\n▸ Maßgeblich sind die tatsächlichen Verhältnisse und die Wertverhältnisse am Bewertungsstichtag (§ 157 Abs. 1 S. 1 BewG); Grundvermögen nach §§ 159, 176 bis 198 BewG (§ 157 Abs. 3 BewG).\n▸ Zuständig ist das Lage-Finanzamt (§ 152 Nr. 1 BewG). Der Feststellungsbescheid ist Grundlagenbescheid (§ 182 Abs. 1 S. 1 AO); Einwände gegen den Wert nur im Einspruch gegen ihn (§ 351 Abs. 2 AO).\n▸ Verfahren: unbebaut Bodenrichtwert (§ 179 BewG); Wohnungseigentum und Ein-/Zweifamilienhäuser Vergleichswert (§ 182 Abs. 2 BewG); Mietwohn- und Geschäftsgrundstücke mit üblicher Miete Ertragswert (§ 182 Abs. 3 BewG); sonst Sachwert (§ 182 Abs. 4 BewG).\n▸ Öffnungsklausel nur nach unten: Gutachten oder Kaufpreis innerhalb eines Jahres vor oder nach dem Stichtag (§ 198 Abs. 1 bis 3 BewG).\n▸ Zu Wohnzwecken vermietete Grundstücke: Ansatz mit 90 % (§ 13d Abs. 1, 3 Nr. 1 ErbStG). Beispiel: 280.000 € × 90 % = 252.000 €.\n\nZum Schluss: § 12 Abs. 3, § 13d Abs. 1 ErbStG und § 151 Abs. 1 BewG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

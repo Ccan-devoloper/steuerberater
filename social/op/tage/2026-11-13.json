@@ -439,12 +439,12 @@
       ]
      ],
      "randnotiz": [
-      "BFH IV R 11/12: nicht im BStBl II",
+      "BFH IV R 11/12, IV R 17/23: nicht im BStBl II",
       "Verwaltung folgt nicht, Klausur: Rn. 15"
      ]
     }
    ],
-   "caption": "Mini-Fall Personengesellschaften: Maschine in die KG – Buchwert oder Gewinn?\n\n▸ Überführung: Das Wirtschaftsgut bleibt beim selben Steuerpflichtigen, auch zwischen eigenem Betriebsvermögen und Sonderbetriebsvermögen (§ 6 Abs. 5 S. 1, 2 EStG).\n▸ Übertragung: Der Rechtsträger wechselt, z. B. in das Gesamthandsvermögen der KG. Buchwert nur, soweit keine Gegenleistung fließt oder allein Gesellschaftsrechte gewährt bzw. gemindert werden (§ 6 Abs. 5 S. 3 Nr. 1 EStG) und die stillen Reserven steuerverhaftet bleiben (§ 6 Abs. 5 S. 1 EStG).\n▸ Lösung: Gutschrift auf dem Kapitalkonto I = Gesellschaftsrechte → Buchwert 20.000 €, kein Gewinn.\n▸ Sperrfrist: Veräußerung oder Entnahme innerhalb von drei Jahren nach Abgabe der Erklärung des Übertragenden für das Übertragungsjahr führt rückwirkend zum Teilwert, außer eine Ergänzungsbilanz ordnet die stillen Reserven dem Übertragenden zu (§ 6 Abs. 5 S. 4 EStG).\n▸ Variante Schuldübernahme: teilentgeltlich, nach Verwaltungsauffassung Aufteilung im Verhältnis Entgelt zu Verkehrswert (BMF vom 08.12.2011, Rn. 15): 50 % entgeltlich → 25.000 € – 10.000 € = 15.000 € laufender Gewinn, Rest zum Buchwert. Abweichend BFH vom 19.09.2012, IV R 11/12 (nicht im BStBl II veröffentlicht, Verwaltung folgt nicht): Gewinn nur, soweit das Entgelt den gesamten Buchwert übersteigt.\n\nZum Schluss: § 6 Abs. 5 EStG und BMF vom 08.12.2011, Rn. 15 zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mini-Fall Personengesellschaften: Maschine in die KG – Buchwert oder Gewinn?\n\n▸ Überführung: Das Wirtschaftsgut bleibt beim selben Steuerpflichtigen, auch zwischen eigenem Betriebsvermögen und Sonderbetriebsvermögen (§ 6 Abs. 5 S. 1, 2 EStG).\n▸ Übertragung: Der Rechtsträger wechselt, z. B. in das Gesamthandsvermögen der KG. Buchwert nur, soweit keine Gegenleistung fließt oder allein Gesellschaftsrechte gewährt bzw. gemindert werden (§ 6 Abs. 5 S. 3 Nr. 1 EStG) und die stillen Reserven steuerverhaftet bleiben (§ 6 Abs. 5 S. 1 EStG).\n▸ Lösung: Gutschrift auf dem Kapitalkonto I = Gesellschaftsrechte → Buchwert 20.000 €, kein Gewinn.\n▸ Sperrfrist: Veräußerung oder Entnahme innerhalb von drei Jahren nach Abgabe der Erklärung des Übertragenden für das Übertragungsjahr führt rückwirkend zum Teilwert, außer eine Ergänzungsbilanz ordnet die stillen Reserven dem Übertragenden zu (§ 6 Abs. 5 S. 4 EStG).\n▸ Variante Schuldübernahme: teilentgeltlich, nach Verwaltungsauffassung Aufteilung im Verhältnis Entgelt zu Verkehrswert (BMF vom 08.12.2011, Rn. 15): 50 % entgeltlich → 25.000 € – 10.000 € = 15.000 € laufender Gewinn, Rest zum Buchwert. Abweichend BFH vom 19.09.2012, IV R 11/12 (nicht im BStBl II veröffentlicht, Verwaltung folgt nicht) und BFH vom 11.12.2025, IV R 17/23 (noch nicht im BStBl II): modifizierte Trennungstheorie, Gewinn nur, soweit das Entgelt den gesamten Buchwert übersteigt – hier 25.000 € − 20.000 € = 5.000 €. Klausurlösung bleibt Rn. 15.\n\nZum Schluss: § 6 Abs. 5 EStG und BMF vom 08.12.2011, Rn. 15 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -454,7 +454,8 @@
    "quellen": [
     "§ 6 Abs. 5 S. 1 bis 4 EStG",
     "BMF vom 08.12.2011, Rn. 15",
-    "BFH vom 19.09.2012, IV R 11/12"
+    "BFH vom 19.09.2012, IV R 11/12",
+    "BFH vom 11.12.2025, IV R 17/23"
    ]
   },
   {
@@ -1192,7 +1193,7 @@
      "§ 15 Abs. 1 S. 2 UStG"
     ],
     [
-     "Ganz zugeordnet: voller Vorsteuerabzug, Privatnutzung versteuern",
+     "Ganz zugeordnet (kein Gebäude): voller Vorsteuerabzug, Privatnutzung versteuern",
      "warn",
      "§ 3 Abs. 9a Nr. 1 UStG"
     ]

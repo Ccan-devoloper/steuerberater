@@ -747,7 +747,7 @@
     },
     {
      "id": "s2",
-     "text": "Schlichtes Vergessen oder ein Rechenfehler sind meist nicht grob. Grob ist, eine ausdrückliche Frage im Formular zu übergehen."
+     "text": "Offensichtliche Versehen wie Rechen- oder Übertragungsfehler sind nicht grob. Grob ist, eine ausdrückliche Frage im Formular zu übergehen."
     },
     {
      "id": "s3",
@@ -824,14 +824,14 @@
      "elemente": [
       {
        "typ": "pille",
-       "text": "Vergessen: meist nicht grob",
-       "wort": "Schlichtes",
+       "text": "Versehen: nicht grob",
+       "wort": "Offensichtliche",
        "farbe": "GRUEN"
       },
       {
        "typ": "pille",
-       "text": "Rechenfehler: nicht grob",
-       "wort": "Rechenfehler",
+       "text": "Rechen-, Übertragungsfehler",
+       "wort": "Übertragungsfehler",
        "farbe": "GRUEN"
       },
       {
@@ -844,7 +844,7 @@
       },
       {
        "typ": "norm",
-       "text": "AEAO zu § 173, Nr. 5.1",
+       "text": "AEAO zu § 173 Nr. 5.1.1, 5.1.3",
        "wort": "Formular"
       }
      ],
@@ -899,7 +899,7 @@
     "cta_wort": "grob",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Beleg vergessen – ist die Änderung des bestandskräftigen Bescheids ausgeschlossen? 🧾\n\n▸ Neue Tatsachen, die zu einer niedrigeren Steuer führen: Änderung nur, wenn den Steuerpflichtigen kein grobes Verschulden am nachträglichen Bekanntwerden trifft (§ 173 Abs. 1 Nr. 2 S. 1 AO).\n▸ Grobes Verschulden = Vorsatz und grobe Fahrlässigkeit (AEAO zu § 173, Nr. 5.1). Schlichtes Vergessen, Schreib- oder Rechenfehler sind regelmäßig nicht grob; wer eine im Formular ausdrücklich gestellte Frage übergeht, handelt regelmäßig grob schuldhaft.\n▸ Zusammenhangsklausel: Das Verschulden ist unbeachtlich, wenn die Tatsache mit einer steuererhöhenden neuen Tatsache im unmittelbaren oder mittelbaren Zusammenhang steht (§ 173 Abs. 1 Nr. 2 S. 2 AO).\n▸ Gegenstück: Steuererhöhende neue Tatsachen führen ohne Verschuldensprüfung zur Änderung (§ 173 Abs. 1 Nr. 1 AO).\n\nSpeichern für Klausur 1 📌",
+   "caption": "Beleg vergessen – ist die Änderung des bestandskräftigen Bescheids ausgeschlossen? 🧾\n\n▸ Neue Tatsachen, die zu einer niedrigeren Steuer führen: Änderung nur, wenn den Steuerpflichtigen kein grobes Verschulden am nachträglichen Bekanntwerden trifft (§ 173 Abs. 1 Nr. 2 S. 1 AO).\n▸ Grobes Verschulden = Vorsatz und grobe Fahrlässigkeit, beurteilt nach den persönlichen Kenntnissen und Fähigkeiten (AEAO zu § 173 Nr. 5.1, 5.1.1). Offensichtliche Versehen und alltägliche Irrtümer wie Schreib-, Rechen- oder Übertragungsfehler sind nicht grob (AEAO zu § 173 Nr. 5.1.1); Schreib- und Rechenfehler in der Erklärung erfasst zudem § 173a AO. Wer eine im Formular ausdrücklich gestellte Frage übergeht, handelt regelmäßig grob schuldhaft (AEAO zu § 173 Nr. 5.1.3).\n▸ Zusammenhangsklausel: Das Verschulden ist unbeachtlich, wenn die Tatsache mit einer steuererhöhenden neuen Tatsache im unmittelbaren oder mittelbaren Zusammenhang steht (§ 173 Abs. 1 Nr. 2 S. 2 AO).\n▸ Gegenstück: Steuererhöhende neue Tatsachen führen ohne Verschuldensprüfung zur Änderung (§ 173 Abs. 1 Nr. 1 AO).\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -908,7 +908,8 @@
    ],
    "quellen": [
     "§ 173 Abs. 1 Nr. 1, Nr. 2 S. 1, 2 AO",
-    "AEAO zu § 173, Nr. 5.1"
+    "§ 173a AO",
+    "AEAO zu § 173 Nr. 5.1, 5.1.1, 5.1.3"
    ]
   }
  ],
@@ -928,7 +929,7 @@
    "optionen": [
     "Halber Listenpreis wie im EStG",
     "Ausgaben mit Vorsteuerabzug",
-    "Bruttolistenpreis"
+    "Alle Kfz-Kosten"
    ],
    "figuren": {
     "Q": {
@@ -956,7 +957,7 @@
    "optionen": [
     "Halber Listenpreis wie im EStG",
     "Ausgaben mit Vorsteuerabzug",
-    "Bruttolistenpreis"
+    "Alle Kfz-Kosten"
    ],
    "richtig": 1,
    "text": "Kosten ohne Vorsteuer, etwa Versicherung, bleiben draußen.",

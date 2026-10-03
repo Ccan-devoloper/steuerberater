@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 3,
-   "fach": "persg",
-   "fachLabel": "Buchführung und Bilanzwesen",
-   "themaId": "wochenrueckblick-k3-2026-47",
-   "themaTitel": "Klausur 3 kompakt: fünf Themen der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-47",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 47",
    "figuren": {
     "A": {
      "name": "Konrad",
@@ -34,10 +34,10 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 3",
-      "kompakt"
+      "Alle 3",
+      "Klausuren"
      ],
-     "unter": "5 Themen",
+     "unter": "6 Themen",
      "teaser": "+ Markier-Guide § 16 EStG",
      "motiv": {
       "typ": "kalender",
@@ -49,222 +49,153 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Abfindung zum Buchwert",
-       "§ 16 Abs. 1 S. 1 Nr. 2, § 6 Abs. 3 EStG",
-       ""
+       "Klausur 1 · Abgabenordnung",
+       "§§ 110, 129 AO",
+       "Wiedereinsetzung und Tippfehler"
       ],
       [
-       "Abfindung über Buchwert",
-       "§ 5 Abs. 2, § 7 Abs. 1 S. 3 EStG",
-       ""
+       "Klausur 2 · Körperschaftsteuer",
+       "§§ 8b, 27 KStG",
+       "Streubesitz und Einlagekonto"
       ],
       [
-       "Realteilung",
-       "§ 16 Abs. 3 S. 2–4 EStG",
-       ""
-      ],
-      [
-       "Anschaffungskosten",
-       "§ 255 Abs. 1 HGB",
-       ""
-      ],
-      [
-       "Einlagen bewerten",
-       "§ 6 Abs. 1 Nr. 5 EStG",
-       ""
+       "Klausur 3 · PersG und Bilanz",
+       "§ 16 Abs. 3, § 6 Abs. 1 Nr. 5 EStG",
+       "Realteilung und Einlagen"
       ]
      ],
-     "teaser": "Am Ende: § 16 EStG markiert"
+     "teaser": "Am Ende: § 16 Abs. 3 EStG markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Abfindung zum Buchwert",
+     "titel": "Klausur 1 · Abgabenordnung",
      "punkte": [
       [
-       "Betrieblicher Grund: Veräußerung mit Gewinn 0 €.",
+       "Offenbare Unrichtigkeit: nur mechanisches Versehen, jederzeit berichtigbar.",
        "ok",
        "Regular",
-       "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+       "§ 129 S. 1 AO"
       ],
       [
-       "Privater Grund: unentgeltlich, Buchwerte laufen weiter.",
-       "ok",
-       "Regular",
-       "§ 6 Abs. 3 S. 1 EStG"
-      ],
-      [
-       "Schenkungsteuer daneben prüfen.",
-       "warn",
-       "Bold",
-       "§ 7 Abs. 7 S. 1 ErbStG"
-      ]
-     ],
-     "figur": "A:redet",
-     "x": 790,
-     "blase": "Ich bin Konrad: Motiv?"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "2 · Abfindung über Buchwert",
-     "punkte": [
-      [
-       "Mehrbetrag zuerst auf die anteiligen stillen Reserven.",
-       "ok",
-       "Regular",
-       null
-      ],
-      [
-       "Rest ist Firmenwert, steuerlich 15 Jahre.",
-       "ok",
-       "Regular",
-       "§ 5 Abs. 2, § 7 Abs. 1 S. 3 EStG"
-      ],
-      [
-       "Aufwand nur beim lästigen Gesellschafter.",
-       "warn",
+       "Rechtsirrtum möglich? Dann kein § 129 AO.",
+       "nein",
        "Bold",
        null
+      ],
+      [
+       "Frist ohne Verschulden versäumt: Antrag binnen eines Monats nach Wegfall des Hindernisses.",
+       "warn",
+       "Regular",
+       "§ 110 Abs. 1 S. 1, Abs. 2 S. 1 AO"
       ]
      ],
-     "figur": "B:denkt",
+     "figur": "B:erklaert",
      "x": 290,
-     "blase": "Aylin hier: und der Rest?"
+     "blase": "Tippfehler oder Irrtum?"
     },
     {
      "typ": "inhalt",
-     "titel": "3 · Realteilung",
+     "titel": "Klausur 2 · Körperschaftsteuer",
      "punkte": [
       [
-       "Echt: Gesellschaft endet. Unecht: einer geht mit Betriebsvermögen.",
-       "ok",
-       "Regular",
-       null
+       "Streubesitz: unmittelbar mindestens 10 % zu Jahresbeginn nötig; über eine KG anteilig.",
+       "warn",
+       "Bold",
+       "§ 8b Abs. 4 S. 1, 4, 5 KStG"
       ],
       [
-       "Buchwert, wenn die Reserven gesichert bleiben.",
+       "Einlagekonto: Eine Ausschüttung mindert es nur, soweit sie den ausschüttbaren Gewinn übersteigt.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 S. 3, 5 KStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Erst der Gewinn"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 3 · PersG und Bilanz",
+     "punkte": [
+      [
+       "Realteilung ins Betriebsvermögen der Realteiler: Buchwert.",
        "ok",
        "Regular",
        "§ 16 Abs. 3 S. 2 EStG"
       ],
       [
-       "Reine Geldabfindung ist keine Realteilung.",
+       "Nur Geld als Abfindung: Veräußerung des Anteils, keine Realteilung.",
        "nein",
        "Bold",
-       null
-      ]
-     ],
-     "figur": "A:skeptisch",
-     "x": 790,
-     "blase": "Geld reicht nicht."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Anschaffungskosten",
-     "punkte": [
-      [
-       "Preis netto, plus Nebenkosten und Betriebsbereitschaft.",
-       "ok",
-       "Regular",
-       "§ 255 Abs. 1 S. 1, 2 HGB"
+       "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
       ],
       [
-       "Rabatt und Skonto ab.",
-       "ok",
-       "Regular",
-       "§ 255 Abs. 1 S. 3 HGB"
-      ],
-      [
-       "Zinsen und Grundschuld bleiben draußen.",
-       "nein",
-       "Bold",
-       null
-      ]
-     ],
-     "figur": "B:erklaert",
-     "x": 290,
-     "blase": "Netto denken!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Einlagen bewerten",
-     "punkte": [
-      [
-       "Grundsatz: Teilwert.",
-       "ok",
-       "Regular",
-       "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
-      ],
-      [
-       "Binnen drei Jahren privat angeschafft: höchstens Kosten minus AfA.",
+       "Einlage binnen drei Jahren nach Anschaffung: höchstens Anschaffungskosten minus AfA.",
        "warn",
-       "Bold",
+       "Regular",
        "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
       ]
      ],
-     "extra": [
-      "Drei Jahre genau nachzählen",
-      "GELB",
-      null
-     ],
-     "figur": "A:froh",
+     "figur": "B:sorge",
      "x": 790,
-     "blase": "Deckel!"
+     "blase": "Nur Geld?"
     },
     {
      "typ": "merke",
      "oben": [
-      "Klausur 3: Buchführung und Bilanzwesen",
-      "Bilanzsteuerrecht und Personengesellschaften",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Motiv",
+        "Tippfehler",
         "a"
        ],
        [
-        " vor Abfindung,",
+        " jederzeit,",
         null
        ]
       ],
       [
        [
-        "Reserven",
+        "ein Monat",
         "b"
        ],
        [
-        " vor Firmenwert,",
+        " nach Hindernis,",
         null
        ]
       ],
       [
        [
-        "Betriebsvermögen",
+        "10 %",
         "c"
        ],
        [
-        " zählt,",
+        " zu Jahresbeginn,",
         null
        ]
       ],
       [
        [
-        "Deckel",
+        "Realteilung",
         "d"
        ],
        [
-        " bei Einlagen.",
+        " zum Buchwert.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 3",
-     "frage": "Welches Thema wiederholst du?",
-     "teaser": "Weiterwischen: § 16 EStG markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 16 Abs. 3 EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -272,10 +203,43 @@
      "kopf": "§ 16 Abs. 3 EStG (Auszug)",
      "absaetze": [
       [
-       "(3)",
+       "S. 2",
        [
         [
-         "[…] Dagegen ist für den jeweiligen Übertragungsvorgang",
+         "Werden im Zuge der",
+         null
+        ],
+        [
+         "Realteilung",
+         "b1"
+        ],
+        [
+         "einer Mitunternehmerschaft […] einzelne Wirtschaftsgüter",
+         null
+        ],
+        [
+         "in das jeweilige Betriebsvermögen",
+         "g1"
+        ],
+        [
+         "der einzelnen Mitunternehmer übertragen, so sind […] die Wirtschaftsgüter",
+         null
+        ],
+        [
+         "mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben,",
+         "gr1"
+        ],
+        [
+         "sofern die Besteuerung der stillen Reserven sichergestellt ist; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Dagegen ist […]",
          null
         ],
         [
@@ -283,23 +247,15 @@
          "r1"
         ],
         [
-         "anzusetzen, soweit bei einer Realteilung, bei der einzelne Wirtschaftsgüter übertragen worden sind, zum Buchwert übertragener Grund und Boden, übertragene Gebäude oder andere übertragene wesentliche Betriebsgrundlagen",
-         null
-        ],
-        [
-         "innerhalb einer Sperrfrist",
-         "g1"
-        ],
-        [
-         "nach der Übertragung veräußert oder entnommen werden; diese Sperrfrist endet",
+         "anzusetzen, soweit bei einer Realteilung, bei der einzelne Wirtschaftsgüter übertragen worden sind, […] wesentliche Betriebsgrundlagen innerhalb einer Sperrfrist nach der Übertragung veräußert oder entnommen werden; diese Sperrfrist endet",
          null
         ],
         [
          "drei Jahre nach Abgabe der Steuererklärung",
-         "b1"
+         "r2"
         ],
         [
-         "der Mitunternehmerschaft für den Veranlagungszeitraum der Realteilung. […]",
+         "der Mitunternehmerschaft für den Veranlagungszeitraum der Realteilung.",
          null
         ]
        ]
@@ -307,40 +263,47 @@
      ],
      "notizen": [
       [
-       "Folge",
-       "r1"
+       "Realteilung",
+       "b1"
       ],
       [
-       "Sperrfrist",
+       "ins Betriebsvermögen",
        "g1"
       ],
       [
-       "Fristbeginn",
-       "b1"
+       "Buchwert",
+       "gr1"
+      ],
+      [
+       "Sperrfrist verletzt",
+       "r1"
+      ],
+      [
+       "Fristende",
+       "r2"
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 16 Abs. 3 S. 4 EStG",
-      "Auf eine Körperschaft: gemeiner Wert"
+      "Nur Geld als Abfindung?",
+      "Keine Realteilung, sondern Veräußerung des Anteils"
      ]
     }
    ],
-   "caption": "Klausur 3 kompakt: fünf Themen der Woche aus Bilanzsteuerrecht und Personengesellschaften. Für den zweiten Anlauf 2027.\n\n1. Abfindung zum Buchwert: betrieblich veranlasst Veräußerung mit Gewinn 0 € (§ 16 Abs. 1 S. 1 Nr. 2 EStG), privat veranlasst unentgeltlich mit Buchwertfortführung (§ 6 Abs. 3 S. 1 EStG); Schenkungsteuer nach § 7 Abs. 7 S. 1 ErbStG prüfen.\n2. Abfindung über Buchwert: Mehrbetrag zuerst auf anteilige stille Reserven, Rest Firmenwert (§ 5 Abs. 2 EStG), Nutzungsdauer 15 Jahre (§ 7 Abs. 1 S. 3 EStG); sofort Aufwand nur beim lästigen Gesellschafter (BFH vom 14.06.1994, VIII R 37/93).\n3. Realteilung: Buchwertfortführung bei Sicherung der stillen Reserven (§ 16 Abs. 3 S. 2 EStG), Sperrfrist drei Jahre nach Abgabe der Feststellungserklärung (§ 16 Abs. 3 S. 3 EStG), Körperschaften (§ 16 Abs. 3 S. 4 EStG); reine Geldabfindung ist keine Realteilung.\n4. Anschaffungskosten: Preis netto, Nebenkosten, Betriebsbereitschaft, abzüglich Preisminderungen (§ 255 Abs. 1 HGB).\n5. Einlagen: Teilwert, binnen drei Jahren höchstens fortgeführte Kosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Wochenrückblick KW 47: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten beim Erlass eines Verwaltungsakts kann das Finanzamt jederzeit berichtigen (§ 129 S. 1 AO); die Festsetzungsfrist endet insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe (§ 171 Abs. 2 S. 1 AO). Kommt ein Rechtsirrtum in Betracht, scheidet § 129 AO aus.\n2. Wiedereinsetzung bei unverschuldeter Fristversäumnis: Antrag innerhalb eines Monats nach Wegfall des Hindernisses, versäumte Handlung nachholen (§ 110 Abs. 1 S. 1, Abs. 2 S. 1, 3 AO).\n\nKlausur 2 (Ertragsteuern)\n3. Dividenden bleiben bei einer Kapitalgesellschaft nur außer Ansatz, wenn sie am 1. Januar direkt mit wenigstens 10 % beteiligt war; Anteile über eine Mitunternehmerschaft zählen anteilig (§ 8b Abs. 4 S. 1, 4, 5 KStG).\n4. Eine Ausschüttung greift erst auf das steuerliche Einlagekonto zu, wenn der ausschüttbare Gewinn zum Ende des Vorjahres aufgebraucht ist (§ 27 Abs. 1 S. 3, 5 KStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Realteilung: Gelangen die Wirtschaftsgüter in Betriebsvermögen der Realteiler, sind die Buchwerte fortzuführen (§ 16 Abs. 3 S. 2 EStG); Sperrfrist für Einzelwirtschaftsgüter (§ 16 Abs. 3 S. 3 EStG). Eine reine Geldabfindung ist Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG).\n6. Wer ein erst in den letzten drei Jahren gekauftes Wirtschaftsgut einlegt, setzt höchstens die Anschaffungskosten an, bei abnutzbaren abzüglich der AfA bis zur Einlage (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n\nZum Schluss: § 16 Abs. 3 S. 2, 3 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#personengesellschaften"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 3 S. 2–4 EStG",
-    "§ 6 Abs. 3 S. 1 EStG",
-    "§ 7 Abs. 7 S. 1 ErbStG",
-    "§ 5 Abs. 2 EStG",
-    "§ 7 Abs. 1 S. 3 EStG",
-    "BFH vom 14.06.1994, VIII R 37/93",
-    "§ 255 Abs. 1 HGB",
-    "§ 6 Abs. 1 Nr. 5 EStG"
+    "§ 129 S. 1 AO",
+    "§ 171 Abs. 2 S. 1 AO",
+    "§ 110 Abs. 1 S. 1, Abs. 2 S. 1, 3 AO",
+    "§ 8b Abs. 4 S. 1, 4, 5 KStG",
+    "§ 27 Abs. 1 S. 3, 5 KStG",
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 3 S. 2, 3 EStG",
+    "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
    ]
   },
   {
@@ -1037,9 +1000,9 @@
    "art": "teaser",
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 3 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
-   "unter": "Rückblick + Markier-Guide · im Profil"
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
   {
    "slot": "s6",
