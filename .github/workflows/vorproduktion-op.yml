@@ -100,6 +100,20 @@ jobs:
               commit -q -m "Vorproduktion $d: Open-Peeps-Render" || true)
           done
 
+      - name: Vergangene Tage archivieren (Medien aus dem Zweig, bleiben in der Git-Historie)
+        run: |
+          cd .ia
+          VOR=$(git rev-parse HEAD)
+          GRENZE=$(date -u -d "-3 days" +%F)
+          ALT=$(git ls-tree --name-only HEAD vorproduktion/ | sed -n 's#^vorproduktion/\([0-9-]\{10\}\)$#\1#p' | awk -v g="$GRENZE" '$1 < g')
+          if [ -n "$ALT" ]; then
+            for d in $ALT; do git rm -r -q --sparse --cached "vorproduktion/$d"; done
+            git sparse-checkout add /vorproduktion/ARCHIV.md
+            echo "| $(echo $ALT | tr ' ' '\n' | head -1)–$(echo $ALT | tr ' ' '\n' | tail -1) | \`$VOR\` | \`git checkout $VOR -- vorproduktion/<datum>\` |" >> vorproduktion/ARCHIV.md
+            git add vorproduktion/ARCHIV.md
+            git -c user.name=instagram-bot -c user.email=41898282+github-actions[bot]@users.noreply.github.com commit -q -m "Vorproduktion: Medien vor $GRENZE archiviert"
+          fi
+
       - name: Pushen
         run: |
           cd .ia
