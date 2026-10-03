@@ -33,10 +33,11 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
 7. Beispiel → „Jetzt du“ → Lösung auf der nächsten Folie. Jede Person ist eingeführt, bevor sie handelt.
 8. Letzte Folie „Im Gesetz markieren“ (Markierungen, Randnotizen, Hinweiskasten); angeteasert auf Cover
    (gelbe Pille), Folie 2 (gelbe Leiste) und Merke-Folie (gelbe Zeile). **Zitiert der Beitrag eine
-   Verwaltungsanweisung, die eine Klausurfrage entscheidet, wird sie mitmarkiert** – Standard: Gesetz und
+   Verwaltungsanweisung, die eine Klausurfrage entscheidet, wird sie mitmarkiert**: Ist Platz (Karussell
+   hat weniger als 10 Folien), bekommt sie eine eigene letzte Folie „In der Richtlinie markieren“ bzw. „Im
+   Erlass markieren“ nach der Gesetzes-Folie. Nur wenn sonst mehr als 10 Folien entstünden, stehen Gesetz und
    Verwaltungsanweisung auf derselben Folie (`zweite` in der gesetz-Folie, Titel „Gesetz und Richtlinie/Erlass
-   markieren“), so bleibt die Grenze von 10 Folien. Eigene Folie „In der Richtlinie/Im Erlass markieren“ nur,
-   wenn Platz ist (≤ 9 Folien) oder die Verwaltungsanweisung die Frage allein entscheidet. Wortlaut nur aus
+   markieren“). Entscheidet die Verwaltungsanweisung die Frage allein, genügt ihre Folie. Wortlaut nur aus
    amtlicher Quelle bzw. Haufe/NWB-Volltext, Auslassungen „[…]“, Satznummern als „S. 1“. Hinweiskasten für
    BFH-Abweichungen. Hinweis: In der schriftlichen Prüfung sind Textausgaben mit
    Markierungen zulässig, Anmerkungen nicht; in der mündlichen Prüfung keine Richtlinien und Erlasse.
