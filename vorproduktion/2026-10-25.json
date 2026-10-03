@@ -20,10 +20,10 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "wochenrueckblick",
-        "themaId": "wochenrueckblick-k2-2026-43",
-        "themaTitel": "Klausur 2: fünf Themen der Woche 43",
-        "fach": "kst",
-        "klausur": 2
+        "themaId": "wochenrueckblick-alle-2026-43",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 43",
+        "fach": null,
+        "klausur": 0
       },
       {
         "slot": "b2",
@@ -103,30 +103,30 @@
   "inhalte": {
     "b1": {
       "format": "wochenrueckblick",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "wochenrueckblick-k2-2026-43",
-      "caption": "Wochenrückblick Klausur 2: fünf Themen der Woche 43.\n\n1. Gesellschafterdarlehen: Ausfall als nachträgliche Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst (§ 17 Abs. 2a S. 3 Nr. 2 EStG); beim Stehenlassen zählt nur der Wert bei Kriseneintritt (BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169).\n2. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR), beim beherrschenden Gesellschafter auch ohne klare Vorabvereinbarung (R 8.5 Abs. 2 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n3. Betriebsstätte: Bauausführung nach § 12 S. 2 Nr. 8 AO ab mehr als sechs Monaten, nach Art. 5 Abs. 3 OECD-MA erst ab mehr als zwölf Monaten.\n4. Verlustuntergang: Mehr als 50 % an einen Erwerber innerhalb von fünf Jahren, dann sind nicht genutzte Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG), außer soweit stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 KStG).\n5. Private Veräußerung: Grundstücke innerhalb von zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-43",
+      "caption": "Wochenrückblick KW 43: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Eltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I, bei Schenkungen in Steuerklasse II (§ 15 Abs. 1 ErbStG); Freibetrag dann nur 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n2. Begünstigtes Betriebsvermögen bleibt zu 85 % steuerfrei; auf unwiderruflichen Antrag zu 100 %, wenn höchstens 20 % Verwaltungsvermögen vorliegt (§ 13a Abs. 1, 10 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Gehen innerhalb von fünf Jahren mehr als 50 % der Anteile an einen Erwerber, sind nicht genutzte Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG), soweit sie nicht durch im Inland steuerpflichtige stille Reserven gedeckt sind (§ 8c Abs. 1 S. 5 KStG).\n4. Ein ausgefallenes Gesellschafterdarlehen führt zu nachträglichen Anschaffungskosten, soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG); beim stehen gelassenen Darlehen nur mit dem bei Kriseneintritt werthaltigen Teil (BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Werden die erhaltenen Anteile innerhalb von sieben Jahren nach der Einbringung veräußert, entsteht rückwirkend der Einbringungsgewinn I, gemindert um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 1, 3 UmwStG).\n6. Verschmelzung der Tochter auf die Mutter-GmbH: Der Übernahmegewinn bleibt außer Ansatz, soweit er der Beteiligung entspricht, gilt § 8b KStG, also 5 % nicht abziehbare Betriebsausgaben (§ 12 Abs. 2 S. 1, 2 UmwStG, § 8b Abs. 2, 3 S. 1 KStG).\n\nZum Schluss: § 8c Abs. 1 KStG zum Markieren. Speichern für alle drei Klausuren 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#steuerrecht"
       ],
       "quellen": [
-        "§ 17 Abs. 2a S. 3 Nr. 2 EStG",
-        "BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169",
-        "§ 8 Abs. 3 S. 2 KStG",
-        "R 8.5 Abs. 1, 2 KStR",
-        "§ 12 S. 2 Nr. 8 AO",
-        "Art. 5 Abs. 3 OECD-MA",
+        "§ 15 Abs. 1 ErbStG",
+        "§ 16 Abs. 1 Nr. 5 ErbStG",
+        "§ 13a Abs. 1, 10 ErbStG",
         "§ 8c Abs. 1 S. 1, 5 KStG",
-        "§ 8d KStG",
-        "§ 23 Abs. 1 S. 1 Nr. 1, Abs. 3 S. 4 EStG"
+        "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG",
+        "BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169",
+        "§ 22 Abs. 1 S. 1, 3 UmwStG",
+        "§ 12 Abs. 2 S. 1, 2 UmwStG",
+        "§ 8b Abs. 2, 3 S. 1 KStG"
       ],
       "slug": "2026-10-25-b1",
-      "kurztitel": "Klausur 2: fünf Themen der Woche 43",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 43",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -141,48 +141,38 @@
         {
           "art": "titel",
           "titel": "Wochenrückblick",
-          "text": "Wochenrückblick · Klausur 2: · fünf Themen · der Woche · + Markier-Guide § 8c KStG · OKTOBER · 25 · So · KW 43",
+          "text": "Wochenrückblick · Woche · kompakt · 6 Themen · + Markier-Guide § 8c KStG · OKTOBER · 25 · So · KW 43",
           "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "Die 5 Themen · Gesellschafterdarlehen · § 17 Abs. 2a EStG · Verdeckte Gewinnausschüttung · § 8 Abs. 3 S. 2 KStG · Betriebsstätte · § 12 AO, Art. 5 OECD-MA · Verlustuntergang · § 8c KStG · Private Veräußerung · § 23 EStG · Am Ende: § 8c KStG markiert"
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · Erbschaftsteuer · §§ 13a, 15, 16 ErbStG · Steuerklasse der Eltern und Verschonung · Klausur 2 · KSt und ESt · § 8c KStG · § 17 Abs. 2a EStG · Verlustuntergang und Darlehensausfall · Klausur 3 · Umwandlung · §§ 12, 22 UmwStG · Sperrfrist und Übernahmegewinn · Am Ende: § 8c KStG markiert"
         },
         {
           "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "1 · Darlehen weg · Der Ausfall erhöht die Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst. · § 17 Abs. 2a S. 3 Nr. 2 EStG · Stehen gelassen: nur der Wert bei Krisenbeginn. · BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169 · Fremdvergleich!"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · Erbschaftsteuer · Eltern: Klasse I nur beim Erbfall, bei Schenkung Klasse II. · § 15 Abs. 1 ErbStG · Klasse II: Freibetrag nur 20.000 €. · § 16 Abs. 1 Nr. 5 ErbStG · Betriebsvermögen: 85 % frei, auf Antrag 100 % bei höchstens 20 % Verwaltungsvermögen. · § 13a Abs. 1, 10 ErbStG · Erbfall oder Schenkung?"
         },
         {
           "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "2 · vGA · Vermögensminderung, veranlasst durch das Gesellschaftsverhältnis. · R 8.5 Abs. 1 S. 1 KStR · Beherrschend: Ohne klare Vorabvereinbarung droht die vGA. · R 8.5 Abs. 2 S. 1 KStR · Korrektur außerhalb der Bilanz. · § 8 Abs. 3 S. 2 KStG · Und beim Gesellschafter?"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · KSt und ESt · Mehr als 50 % an einen Erwerber in fünf Jahren: Verlust ganz weg. · § 8c Abs. 1 S. 1 KStG · Er bleibt, soweit stille Reserven vorhanden sind. · § 8c Abs. 1 S. 5 KStG · Gesellschafterdarlehen fällt aus: nachträgliche Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst. · § 17 Abs. 2a S. 3 Nr. 2 EStG · Fremdvergleich!"
         },
         {
           "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "3 · Betriebsstätte · AO: Bauausführung ab mehr als sechs Monaten. · § 12 S. 2 Nr. 8 AO · OECD-MA: erst ab mehr als zwölf Monaten. · Art. 5 Abs. 3 OECD-MA · Doppelt so lang!"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · Umwandlung · Anteile binnen sieben Jahren verkauft: Einbringungsgewinn I rückwirkend. · § 22 Abs. 1 S. 1 UmwStG · Je abgelaufenes Zeitjahr ein Siebtel weniger. · § 22 Abs. 1 S. 3 UmwStG · Tochter auf Mutter verschmolzen: Übernahmegewinn außer Ansatz, 5 % wirken über § 8b KStG. · § 12 Abs. 2 S. 1, 2 UmwStG · Sieben Jahre!"
         },
         {
           "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "4 · Verlust weg · Mehr als 50 % an einen Erwerber binnen fünf Jahren: Verlust entfällt ganz. · § 8c Abs. 1 S. 1 KStG · Soweit stille Reserven da sind, bleibt er. · § 8c Abs. 1 S. 5 KStG · Und bei 40 %?"
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Erbschaft · Ertragsteuern · Umwandlung · Schenkung an Eltern: II, · Über 50 % kostet Verluste, · Darlehen erhöht die AK, · Siebtel je Zeitjahr. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 8c KStG markiert"
         },
         {
           "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "5 · Private Veräußerung · Grundstück binnen zehn Jahren verkauft: steuerbar. · § 23 Abs. 1 S. 1 Nr. 1 EStG · Abgezogene AfA mindert die Anschaffungskosten. · § 23 Abs. 3 S. 4 EStG · AfA kommt zurück?"
-        },
-        {
-          "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "Woche 43 in Klausur 2 · ESt, KSt und IStR in fünf Themen · Darlehen mit Krisenwert, · vGA außerhalb, · Bau: 6 oder 12 Monate, · 50 % plus Reserven. · Speichern für Klausur 2 · Welches Thema wackelt noch? · Weiterwischen: § 8c KStG markiert"
-        },
-        {
-          "art": "text",
-          "titel": "Körperschaftsteuer",
-          "text": "§ 8c KStG (Auszug) · Schwelle · ein Erwerber · Alles weg · Rettung · Daneben: § 8d KStG · Fortführungsgebundener Verlustvortrag auf Antrag"
+          "titel": "Alle Klausuren",
+          "text": "§ 8c KStG (Auszug) · Schwelle · ein Erwerber · Alles weg · Rettung · Stille Reserven: nur im Inland steuerpflichtige · Verlust bleibt, soweit er sie nicht übersteigt"
         }
       ]
     },
@@ -404,8 +394,8 @@
         "Art. 10 OECD-MA",
         "Der Quellenstaat darf meist höchstens 15 % einbehalten.",
         "Art. 10 Abs. 2 Buchst. b OECD-MA",
-        "Privat: bis zu 25 % auf die Abgeltungsteuer anrechnen.",
-        "§ 32d Abs. 5 EStG"
+        "Angerechnet wird nur die Quellensteuer laut DBA, höchstens 25 %.",
+        "§ 32d Abs. 5 S. 1 EStG"
       ],
       "renderer": "open-peeps-v4",
       "bildStatus": "open-peeps-render",
@@ -496,16 +486,16 @@
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
       "themaId": null,
       "beitragSlot": "b1",
       "quellen": null,
       "sichtbareTexte": [
-        "Körperschaftsteuer",
+        "Alle Klausuren",
         "Neu im Feed",
-        "Klausur 2: fünf Themen",
+        "Woche kompakt: alle 3 Klausuren",
         "Wochenrückblick + Markier-Guide · im Profil"
       ],
       "renderer": "open-peeps-v4",
@@ -562,7 +552,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T11:00:15Z",
+    "erzeugtAm": "2026-10-03T13:17:15Z",
     "pfad": "vorproduktion/2026-10-25/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
