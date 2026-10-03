@@ -7269,13 +7269,35 @@
       },
       "insightsStand": "2026-10-02T19:44:20.804Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "b1",
+      "medienId": "18129536905749187",
+      "veroeffentlicht": "2026-10-03T05:45:13.504Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "07:30",
+      "stunde": 7,
+      "format": "schema",
+      "thema": "ao-modul-ao-314",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Abgabenordnung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 10,
     "ust": 8,
     "kst": 8,
-    "ao": 16,
+    "ao": 17,
     "bilanz": 17,
     "istr": 14,
     "erbst": 4,
