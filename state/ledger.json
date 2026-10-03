@@ -7167,21 +7167,21 @@
       "fach": "istr",
       "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
       "insights": {
-        "reach": 29,
-        "views": 45,
+        "reach": 31,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 39,
+        "navigation": 42,
         "navigation_tap_back": 6,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 29
+        "navigation_tap_forward": 32
       },
-      "insightsStand": "2026-10-03T10:36:23.754Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-03T12:44:41.724Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-02",
@@ -7442,7 +7442,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#gewerbesteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 15,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-03T12:44:42.830Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-03",
