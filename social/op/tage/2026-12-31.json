@@ -115,7 +115,7 @@
        "§ 8 Abs. 1a SGB IV"
       ],
       [
-       "2 % Pauschsteuer für Minijobs: so steht es weiter im Gesetz.",
+       "2 % Pauschsteuer für Minijobs: geltendes Recht, 5 % nur im Entwurf.",
        "warn",
        "Regular",
        "§ 40a Abs. 2 EStG"
@@ -190,16 +190,16 @@
        null
       ],
       [
-       "Die Prüfung kann zweimal wiederholt werden. Das gilt auch 2027.",
+       "Geltendes Recht: höchstens zwei Wiederholungen.",
        "ok",
        "Regular",
        "§ 35 Abs. 4 StBerG"
       ],
       [
-       "Reform: Das BMF will die Grenze streichen. Bisher nur ein Referentenentwurf.",
+       "Entwurf: unbeschränkt, schon ab der Prüfung 2027. Noch nicht beschlossen.",
        "warn",
        "Regular",
-       "BMF, Entwurf vom 13.08.2026"
+       "BMF, Referentenentwurf vom 13.08.2026"
       ]
      ],
      "figur": "A:ruhig",
@@ -208,10 +208,10 @@
     },
     {
      "typ": "inhalt",
-     "titel": "Noch im Bundestag",
+     "titel": "Entwurf: ESt-Reform 2027",
      "punkte": [
       [
-       "Einkommensteuerreform 2027: Grundfreibetrag 12.564 €, Kindergeld 267 €.",
+       "Regierungsentwurf: Grundfreibetrag 12.564 €, Kindergeld 267 €.",
        "warn",
        "Regular",
        "BT-Drs. 21/8235"
@@ -223,7 +223,7 @@
        "BT-Drs. 21/8235"
       ],
       [
-       "Prüfungsstoff erst nach Verkündung.",
+       "Stand 03.10.2026 nicht beschlossen: Prüfungsstoff erst nach Verkündung.",
        "nein",
        "Bold",
        null
@@ -383,7 +383,7 @@
      ]
     }
    ],
-   "caption": "Was sich zum 01.01.2027 ändert – und was für die Steuerberaterprüfung 2027 zählt. Für alle, die 2027 schreiben, den zweiten Anlauf planen oder im Frühjahr in die mündliche Prüfung gehen.\n\n1. E-Rechnung: Für Umsätze ab 01.01.2027 darf nur noch Papier oder ein sonstiges Format verwenden, wer im Vorjahr höchstens 800.000 € Gesamtumsatz hatte, und das nur bis 31.12.2027 (§ 27 Abs. 38 Nr. 1, 2 UStG). Sonst gilt im Inland zwischen Unternehmern die E-Rechnung (§ 14 Abs. 2 S. 2 Nr. 1 UStG).\n2. Mindestlohn 14,60 € ab 01.01.2027 (Fünfte Mindestlohnanpassungsverordnung, BGBl. 2025 I Nr. 268). Geringfügigkeitsgrenze: Mindestlohn × 130 : 3, aufgerundet = 633 € (§ 8 Abs. 1a SGB IV). Pauschsteuer für Minijobs nach geltendem Recht 2 % (§ 40a Abs. 2 EStG).\n3. Seit 2026 geltendes Recht: Entfernungspauschale 0,38 € ab dem ersten Kilometer (§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG), 7 % auf Restaurant- und Verpflegungsdienstleistungen ohne Getränke (§ 12 Abs. 2 Nr. 15 UStG), eigenbetrieblich genutzte Grundstücksteile bis 30 m² oder 40.000 € (§ 8 EStDV, Siebte Verordnung zur Änderung steuerlicher Verordnungen, BGBl. 2025 I Nr. 372).\n4. Bereits Gesetz: degressive AfA bis 30 % und 75 % Sonder-AfA für E-Fahrzeuge nur bei Anschaffung bis 31.12.2027 (§ 7 Abs. 2, 2a EStG); KSt-Satz 15 % bis VZ 2027, dann 14 % (2028) bis 10 % (ab 2032) (§ 23 Abs. 1 KStG).\n5. Prüfung 2027: schriftlich 05. bis 07.10.2027 (Termin der Steuerberaterkammern). Zwei Wiederholungen möglich (§ 35 Abs. 4 StBerG); die Streichung dieser Grenze steht bisher nur im Referentenentwurf des BMF vom 13.08.2026.\n\nNoch im Gesetzgebungsverfahren: Einkommensteuerreformgesetz 2027 (BT-Drs. 21/8235) mit Grundfreibetrag 12.564 €, Kindergeld 267 €, Arbeitnehmer-Pauschbetrag 1.430 €, Minijob-Pauschsteuer 5 %. Prüfungsrelevant erst nach Verkündung im Bundesgesetzblatt.\n\nZum Schluss: § 14 Abs. 2 S. 2 Nr. 1, § 27 Abs. 38 UStG zum Markieren. Speichern für 2027 📌",
+   "caption": "Was sich zum 01.01.2027 ändert – und was für die Steuerberaterprüfung 2027 zählt. Für alle, die 2027 schreiben, den zweiten Anlauf planen oder im Frühjahr in die mündliche Prüfung gehen.\n\n1. E-Rechnung: Für Umsätze ab 01.01.2027 darf nur noch Papier oder ein sonstiges Format verwenden, wer im Vorjahr höchstens 800.000 € Gesamtumsatz hatte, und das nur bis 31.12.2027 (§ 27 Abs. 38 Nr. 1, 2 UStG). Sonst gilt im Inland zwischen Unternehmern die E-Rechnung (§ 14 Abs. 2 S. 2 Nr. 1 UStG).\n2. Mindestlohn 14,60 € ab 01.01.2027 (Fünfte Mindestlohnanpassungsverordnung, BGBl. 2025 I Nr. 268). Geringfügigkeitsgrenze: Mindestlohn × 130 : 3, aufgerundet = 633 € (§ 8 Abs. 1a SGB IV). Pauschsteuer für Minijobs nach geltendem Recht 2 % (§ 40a Abs. 2 EStG); 5 % stehen erst im Entwurf (s. u.).\n3. Seit 2026 geltendes Recht: Entfernungspauschale 0,38 € ab dem ersten Kilometer (§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG), 7 % auf Restaurant- und Verpflegungsdienstleistungen ohne Getränke (§ 12 Abs. 2 Nr. 15 UStG), eigenbetrieblich genutzte Grundstücksteile bis 30 m² oder 40.000 € (§ 8 EStDV, Siebte Verordnung zur Änderung steuerlicher Verordnungen, BGBl. 2025 I Nr. 372).\n4. Bereits Gesetz: degressive AfA bis 30 % und 75 % Sonder-AfA für E-Fahrzeuge nur bei Anschaffung bis 31.12.2027 (§ 7 Abs. 2, 2a EStG); KSt-Satz 15 % bis VZ 2027, dann 14 % (2028) bis 10 % (ab 2032) (§ 23 Abs. 1 KStG).\n5. Prüfung 2027: schriftlich 05. bis 07.10.2027 (Termin der Steuerberaterkammern). Nach geltendem Recht zwei Wiederholungen (§ 35 Abs. 4 StBerG). Der Referentenentwurf des BMF vom 13.08.2026 will die Grenze streichen, und zwar schon für die Prüfung 2027 (Übergangsregel § 157f StBerG-E); beschlossen ist das noch nicht (Stand 03.10.2026).\n\nEntwurf, nicht beschlossen (Stand 03.10.2026): Regierungsentwurf eines Einkommensteuerreformgesetzes 2027 (BT-Drs. 21/8235 vom 28.09.2026) mit Grundfreibetrag 12.564 €, Kindergeld 267 €, Arbeitnehmer-Pauschbetrag 1.430 €, Minijob-Pauschsteuer 5 %. Prüfungsrelevant erst nach Verkündung im Bundesgesetzblatt.\n\nZum Schluss: § 14 Abs. 2 S. 2 Nr. 1, § 27 Abs. 38 UStG zum Markieren. Speichern für 2027 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -402,8 +402,8 @@
     "§ 7 Abs. 2, 2a EStG",
     "§ 23 Abs. 1 KStG",
     "§ 35 Abs. 4 StBerG",
-    "BMF, Referentenentwurf vom 13.08.2026 (Reform der Steuerberaterprüfung)",
-    "BT-Drs. 21/8235"
+    "BMF, Referentenentwurf vom 13.08.2026 (Gesetz zur Reform der Steuerberaterprüfung, § 157f StBerG-E)",
+    "BT-Drs. 21/8235 vom 28.09.2026 (Regierungsentwurf)"
    ]
   },
   {
