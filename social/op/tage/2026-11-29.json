@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 1,
-   "fach": "erbst",
-   "fachLabel": "AO · USt · ErbSt",
-   "themaId": "wochenrueckblick-k1-2026-48",
-   "themaTitel": "Klausur 1 kompakt: fünf Dauerbrenner der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-48",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 48",
    "figuren": {
     "A": {
      "name": "Gesine",
@@ -27,11 +27,11 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 1",
+      "Woche",
       "kompakt"
      ],
-     "unter": "5 Dauerbrenner",
-     "teaser": "+ Markier-Guide § 16 ErbStG",
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide §§ 165, 171 AO",
      "motiv": {
       "typ": "kalender",
       "monat": "NOVEMBER",
@@ -42,252 +42,209 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 der Woche",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Vorläufige Festsetzung",
-       "§§ 165, 171 Abs. 8 AO",
-       ""
+       "Klausur 1 · AO und USt",
+       "§§ 165, 171 AO · § 6a UStG",
+       "Vorläufigkeit und EU-Lieferung"
       ],
       [
-       "EU-Lieferung",
-       "§ 4 Nr. 1 Buchst. b, § 6a UStG",
-       ""
+       "Klausur 2 · Körperschaftsteuer",
+       "§ 14 KStG · § 64 AO",
+       "Organschaft und Verein"
       ],
       [
-       "Differenzbesteuerung",
-       "§ 25a UStG",
-       ""
-      ],
-      [
-       "Firmenwagen für Personal",
-       "§ 3 Abs. 12 S. 2 UStG",
-       ""
-      ],
-      [
-       "Freibetrag für Enkel",
-       "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
-       ""
+       "Klausur 3 · Bilanz",
+       "§ 6 Abs. 1 Nr. 2a EStG · GrS 2/99",
+       "Dividendenanspruch und Lifo"
       ]
      ],
-     "teaser": "Am Ende: § 16 ErbStG markiert"
+     "teaser": "Am Ende: §§ 165, 171 AO markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Vorläufig",
+     "titel": "Klausur 1 · AO und USt",
      "punkte": [
       [
-       "Offen ist nur der Punkt im Vermerk.",
-       "ok",
-       "Regular",
-       "§ 165 Abs. 2 S. 1 AO"
+       "Vorläufig bei ungewissen Tatsachen, Rechtsfragen nur im Katalog; Änderung nur, soweit der Vermerk reicht.",
+       "warn",
+       "Bold",
+       "§ 165 Abs. 1 S. 1, 2, Abs. 2 S. 1 AO"
       ],
       [
-       "Die Frist endet frühestens ein Jahr nach Klärung und Kenntnis.",
+       "Frist endet frühestens ein Jahr nach Klärung und Kenntnis.",
        "ok",
        "Regular",
        "§ 171 Abs. 8 S. 1 AO"
       ],
       [
-       "Alles andere braucht eine eigene Korrekturnorm.",
-       "warn",
-       "Bold",
-       null
+       "EU-Lieferung steuerfrei nur mit richtiger Zusammenfassender Meldung.",
+       "nein",
+       "Regular",
+       "§ 4 Nr. 1 Buchst. b, § 6a UStG"
       ]
      ],
      "figur": "A:redet",
-     "x": 790,
-     "blase": "Nur der Punkt!"
+     "x": 790
     },
     {
      "typ": "inhalt",
-     "titel": "2 · EU-Lieferung",
+     "titel": "Klausur 2 · Körperschaftsteuer",
      "punkte": [
       [
-       "Erst Ort und Steuerbarkeit, dann die Befreiung.",
-       "ok",
-       "Regular",
-       "§ 3 Abs. 6 S. 1 UStG"
-      ],
-      [
-       "Der Kunde verwendet eine gültige ausländische USt-IdNr.",
-       "ok",
-       "Regular",
-       "§ 6a Abs. 1 S. 1 Nr. 4 UStG"
-      ],
-      [
-       "Ohne korrekte Zusammenfassende Meldung keine Befreiung.",
+       "Organschaft: Stimmenmehrheit ab Beginn des Wirtschaftsjahres; mittelbar nur über Mehrheitsbeteiligungen.",
        "warn",
        "Bold",
-       "§ 4 Nr. 1 Buchst. b UStG"
+       "§ 14 Abs. 1 S. 1 Nr. 1 KStG"
+      ],
+      [
+       "Das Einkommen der Tochter wird dem Organträger zugerechnet, auch ein Verlust.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 KStG"
+      ],
+      [
+       "Gemeinnütziger Verein: Geschäftsbetriebe bis 50.000 € Einnahmen ohne Körperschaftsteuer.",
+       "ok",
+       "Regular",
+       "§ 64 Abs. 3 S. 1 AO"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Mehrheit?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 3 · Bilanz",
+     "punkte": [
+      [
+       "Dividende der Tochter-GmbH: steuerlich erst ab Gewinnverwendungsbeschluss aktivieren.",
+       "warn",
+       "Bold",
+       "BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632"
+      ],
+      [
+       "Verbrauchsfolge in der Steuerbilanz: nur Lifo, bei gleichartigen Vorräten.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 2a S. 1 EStG"
       ]
      ],
      "figur": "A:denkt",
      "x": 290,
-     "blase": "Erst der Ort."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "3 · Differenzbesteuerung",
-     "punkte": [
-      [
-       "Wiederverkäufer, Einkauf ohne geschuldete Steuer.",
-       "ok",
-       "Regular",
-       "§ 25a Abs. 1 Nr. 1, 2 UStG"
-      ],
-      [
-       "Die Steuer steckt in der Marge und wird herausgerechnet.",
-       "ok",
-       "Regular",
-       "§ 25a Abs. 3 UStG"
-      ],
-      [
-       "Kein gesonderter Steuerausweis in der Rechnung.",
-       "warn",
-       "Bold",
-       "§ 14a Abs. 6 S. 2 UStG"
-      ]
-     ],
-     "figur": "A:erklaert",
-     "x": 790,
-     "blase": "Nur die Marge."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Firmenwagen",
-     "punkte": [
-      [
-       "Vertraglich vereinbart und genutzt: tauschähnlicher Umsatz.",
-       "ok",
-       "Regular",
-       "§ 3 Abs. 12 S. 2 UStG"
-      ],
-      [
-       "Lohnsteuerwerte gelten als brutto, kein Abschlag von 20 %.",
-       "warn",
-       "Bold",
-       "Abschn. 15.23 Abs. 11 Nr. 1 UStAE"
-      ]
-     ],
-     "figur": "A:skeptisch",
-     "x": 290,
-     "blase": "Kein Rabatt."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Freibetrag für Enkel",
-     "punkte": [
-      [
-       "Elternteil lebt: 200.000 €.",
-       "ok",
-       "Regular",
-       "§ 16 Abs. 1 Nr. 3 ErbStG"
-      ],
-      [
-       "Elternteil verstorben: 400.000 €, wie ein Kind.",
-       "ok",
-       "Bold",
-       "§ 16 Abs. 1 Nr. 2 ErbStG"
-      ],
-      [
-       "In beiden Fällen Steuerklasse I.",
-       "ok",
-       "Regular",
-       "§ 15 Abs. 1 ErbStG"
-      ]
-     ],
-     "figur": "A:froh",
-     "x": 790,
-     "blase": "Lebt die Mutter?"
+     "blase": "Welches Jahr?"
     },
     {
      "typ": "merke",
      "oben": [
-      "Sonntag: Klausur 1 wiederholen",
-      "AO, Umsatzsteuer, Erbschaftsteuer",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Vermerk",
+        "Vorläufig",
         "a"
        ],
        [
-        " begrenzt,",
+        " nur so weit,",
         null
        ]
       ],
       [
        [
-        "EU",
+        "Stimmen",
         "b"
        ],
        [
-        " mit IdNr. und ZM,",
+        " ab Jahresbeginn,",
         null
        ]
       ],
       [
        [
-        "Marge",
+        "Beschluss",
         "c"
        ],
        [
-        " brutto,",
+        " vor Forderung,",
         null
        ]
       ],
       [
        [
-        "Enkel",
+        "Lifo",
         "d"
        ],
        [
-        " 200.000 €.",
+        " nur steuerlich.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 1",
-     "frage": "Welcher Punkt wackelt noch?",
-     "teaser": "Weiterwischen: § 16 ErbStG markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: §§ 165, 171 AO markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 16 ErbStG Freibeträge (Auszug)",
+     "kopf": "§§ 165, 171 AO (Auszug)",
      "absaetze": [
       [
-       "(1)",
+       "§ 165 (1)",
        [
         [
-         "Steuerfrei bleibt in den Fällen der unbeschränkten Steuerpflicht (§ 2 Absatz 1 Nummer 1) der Erwerb 1. des Ehegatten und des Lebenspartners in Höhe von 500 000 Euro; 2.",
+         "Soweit",
          null
         ],
         [
-         "der Kinder im Sinne der Steuerklasse I Nr. 2",
-         "g1"
-        ],
-        [
-         "und",
-         null
-        ],
-        [
-         "der Kinder verstorbener Kinder",
-         "r1"
-        ],
-        [
-         "im Sinne der Steuerklasse I Nr. 2 in Höhe von 400 000 Euro; 3.",
-         null
-        ],
-        [
-         "der Kinder der Kinder",
+         "ungewiss ist, ob die Voraussetzungen für die Entstehung einer Steuer eingetreten sind,",
          "b1"
         ],
         [
-         "im Sinne der Steuerklasse I Nr. 2 in Höhe von 200 000 Euro; […]",
+         "kann sie vorläufig festgesetzt werden. […]",
+         null
+        ],
+        [
+         "Umfang und Grund der Vorläufigkeit sind anzugeben.",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Soweit die Finanzbehörde eine Steuer vorläufig festgesetzt hat,",
+         "gr1"
+        ],
+        [
+         "kann sie die Festsetzung aufheben oder ändern. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 171 (8)",
+       [
+        [
+         "Ist […] die Steuer vorläufig festgesetzt worden, so endet die Festsetzungsfrist nicht vor dem Ablauf",
+         null
+        ],
+        [
+         "eines Jahres, nachdem die Ungewissheit beseitigt ist und die Finanzbehörde hiervon Kenntnis erhalten hat.",
+         "r1"
+        ],
+        [
+         "[…]",
          null
         ]
        ]
@@ -295,46 +252,44 @@
      ],
      "notizen": [
       [
-       "Kinder",
+       "nur Tatsachen",
+       "b1"
+      ],
+      [
+       "Vermerk",
        "g1"
       ],
       [
-       "Enkel, Elternteil tot",
-       "r1"
+       "nur so weit",
+       "gr1"
       ],
       [
-       "Enkel sonst",
-       "b1"
+       "Frist + 1 Jahr",
+       "r1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 15 Abs. 1 ErbStG",
-      "Enkel gehören zur Steuerklasse I"
+      "Vorbehalt der Nachprüfung: ganzer Bescheid offen",
+      "Vorläufigkeit: nur der Vermerk"
      ]
     }
    ],
-   "caption": "Klausur 1 kompakt: die fünf Dauerbrenner dieser Woche.\n\n1. Vorläufige Festsetzung: Geändert werden darf nur, soweit der Vermerk reicht (§ 165 Abs. 2 S. 1 AO). Die Festsetzungsfrist endet frühestens ein Jahr, nachdem die Ungewissheit beseitigt ist und das Finanzamt davon Kenntnis erhalten hat; in den Katalogfällen zwei Jahre (§ 171 Abs. 8 AO).\n2. Innergemeinschaftliche Lieferung: Ort nach § 3 Abs. 6 S. 1 UStG, steuerbar, dann steuerfrei nach § 4 Nr. 1 Buchst. b, § 6a Abs. 1 UStG, unter anderem mit gültiger ausländischer USt-IdNr. des Abnehmers; ohne ordnungsgemäße Zusammenfassende Meldung entfällt die Befreiung.\n3. Differenzbesteuerung: Wiederverkäufer, Erwerb ohne geschuldete Umsatzsteuer, Marge als Bemessungsgrundlage ohne Umsatzsteuer, kein gesonderter Steuerausweis (§ 25a Abs. 1, 3 UStG; § 14a Abs. 6 UStG).\n4. Firmenwagen für Arbeitnehmer: Bei vertraglicher Vereinbarung und tatsächlicher Nutzung tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG; BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254). Lohnsteuerliche Werte als Bruttowerte, kein 20-%-Abschlag (Abschn. 15.23 Abs. 11 Nr. 1 UStAE).\n5. Freibetrag für Enkel: 200.000 €, bei vorverstorbenem Elternteil 400.000 € (§ 16 Abs. 1 Nr. 2, 3 ErbStG); Steuerklasse I (§ 15 Abs. 1 ErbStG).\n\nAußerdem diese Woche: Vollstreckung erst nach Fälligkeit, Leistungsgebot und einer Woche (§ 254 Abs. 1 S. 1 AO); Bekanntgabe am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO).\n\nZum Schluss: § 16 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Wochenrückblick KW 48: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Vorläufig festgesetzt wird, soweit ungewiss ist, ob die Voraussetzungen der Steuerentstehung eingetreten sind; rechtliche Zweifel genügen nur in den Katalogfällen; Umfang und Grund sind anzugeben (§ 165 Abs. 1 S. 1–3 AO). Geändert werden darf nur, soweit die Vorläufigkeit reicht (§ 165 Abs. 2 S. 1 AO); die Festsetzungsfrist endet nicht vor Ablauf eines Jahres, nachdem die Ungewissheit beseitigt ist und das Finanzamt davon weiß (§ 171 Abs. 8 S. 1 AO).\n2. Innergemeinschaftliche Lieferung: steuerfrei unter den Voraussetzungen des § 6a Abs. 1 UStG, aber nicht, wenn die Zusammenfassende Meldung fehlt oder fehlerhaft ist (§ 4 Nr. 1 Buchst. b UStG).\n\nKlausur 2 (Ertragsteuern)\n3. Organschaft: Mehrheit der Stimmrechte ununterbrochen ab Beginn des Wirtschaftsjahres der Organgesellschaft; mittelbare Beteiligungen zählen nur, wenn jede vermittelnde Beteiligung die Stimmenmehrheit gewährt (§ 14 Abs. 1 S. 1 Nr. 1 KStG). Das Einkommen der Organgesellschaft, auch ein negatives, wird dem Organträger zugerechnet (§ 14 Abs. 1 S. 1 KStG).\n4. Steuerpflichtige wirtschaftliche Geschäftsbetriebe eines gemeinnützigen Vereins: keine Körperschaft- und Gewerbesteuer, solange die Einnahmen einschließlich Umsatzsteuer insgesamt 50.000 € im Jahr nicht übersteigen (§ 64 Abs. 3 S. 1 AO).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Den Dividendenanspruch gegen eine Tochter-GmbH darf die Steuerbilanz erst mit dem Gewinnverwendungsbeschluss aktivieren (BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632).\n6. Als Verbrauchsfolge erlaubt die Steuerbilanz nur Lifo, für gleichartige Vorräte und Bilanzierer nach § 5 EStG (§ 6 Abs. 1 Nr. 2a S. 1 EStG).\n\nZum Schluss: § 165 Abs. 1, 2 und § 171 Abs. 8 AO zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#erbschaftsteuer"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 165 Abs. 2 S. 1 AO",
-    "§ 171 Abs. 8 AO",
-    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 165 Abs. 1 S. 1, 3, Abs. 2 S. 1 AO",
+    "§ 171 Abs. 8 S. 1 AO",
     "§ 4 Nr. 1 Buchst. b UStG",
     "§ 6a Abs. 1 UStG",
-    "§ 25a Abs. 1, 3 UStG",
-    "§ 14a Abs. 6 UStG",
-    "§ 3 Abs. 12 S. 2 UStG",
-    "Abschn. 15.23 Abs. 11 Nr. 1 UStAE",
-    "BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254",
-    "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
-    "§ 15 Abs. 1 ErbStG",
-    "§ 254 Abs. 1 S. 1 AO",
-    "§ 122 Abs. 2 Nr. 1 AO"
+    "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+    "§ 64 Abs. 3 S. 1 AO",
+    "BFH vom 07.08.2000, GrS 2/99, BStBl II 2000, 632",
+    "§ 6 Abs. 1 Nr. 2a S. 1 EStG"
    ]
   },
   {
@@ -1039,11 +994,9 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 1,
-   "fachLabel": "AO · USt · ErbSt",
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 1 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
