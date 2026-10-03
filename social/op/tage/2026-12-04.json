@@ -29,7 +29,7 @@
      ],
      "norm": "§ 5 Abs. 2, 3 UmwStG",
      "unter": "Der Fall",
-     "teaser": "+ Markier-Guide § 5 UmwStG",
+     "teaser": "+ Markier-Guide §§ 5, 27 UmwStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -281,15 +281,15 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hattest du Uwe ausgeschlossen?",
-     "teaser": "Weiterwischen: § 5 UmwStG markiert"
+     "teaser": "Weiterwischen: §§ 5, 27 UmwStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 5 UmwStG (Auszug)",
+     "kopf": "§§ 5, 27 UmwStG (Auszug)",
      "absaetze": [
       [
-       "(2)",
+       "§ 5 (2)",
        [
         [
          "Anteile an der übertragenden Körperschaft im Sinne der",
@@ -325,6 +325,19 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 27 (21)",
+       [
+        [
+         "§ 5 Absatz 2 und § 13 Absatz 2 in der Fassung des Artikels 12 des Gesetzes vom 2. Dezember 2024 (BGBl. 2024 I Nr. 387) sind erstmals auf Umwandlungen anzuwenden, deren",
+         null
+        ],
+        [
+         "steuerlicher Übertragungsstichtag nach dem 5. Dezember 2024 liegt.",
+         "gr1"
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -339,15 +352,19 @@
       [
        "Wert BV",
        "b1"
+      ],
+      [
+       "Stichtag 2023: alt",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Neben Abs. 2 notieren: § 27 Abs. 21",
-      "Stichtag nach dem 5.12.2024"
+      "Variante 31.12.2023: alte Fassung",
+      "Uwe: nur Bezüge, kein Übernahmeergebnis"
      ]
     }
    ],
-   "caption": "Mini-Fall Verschmelzung GmbH auf KG: Welche Anteile nehmen am Übernahmeergebnis teil? Mit der Änderung, die im zweiten Anlauf gern übersehen wird.\n\n▸ Übernahmeergebnis: Wert der übergegangenen Wirtschaftsgüter abzüglich Kosten und Wert der Anteile (§ 4 Abs. 4 S. 1 UmwStG), nur für Anteile, die nach § 5 UmwStG der Übernehmerin zugerechnet werden.\n▸ Anteile im Betriebsvermögen eines Anteilseigners: als zum Buchwert überführt, erhöht um frühere steuerwirksame Abschreibungen, höchstens gemeiner Wert (§ 5 Abs. 3 S. 1 UmwStG).\n▸ Private Anteile im Sinne des § 17 EStG: als mit den Anschaffungskosten eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Neu: § 5 Abs. 2 UmwStG erfasst auch Anteile im Sinne des § 20 Abs. 2 S. 1 Nr. 1 EStG, erstmals für Umwandlungen mit steuerlichem Übertragungsstichtag nach dem 5.12.2024 (§ 27 Abs. 21 UmwStG).\n▸ Unabhängig davon werden die offenen Rücklagen jedem Anteilseigner als Bezüge zugerechnet (§ 7 UmwStG).\n\nFall: Stichtag 31.12.2025 – Selma (70 %, Betriebsvermögen), Timo (29,5 %, privat) und Uwe (0,5 %, privat, gekauft 2019) haben ein Übernahmeergebnis. Variante Stichtag 31.12.2023: Uwe nur Bezüge nach § 7 UmwStG.\n\nZum Schluss: § 5 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mini-Fall Verschmelzung GmbH auf KG: Welche Anteile nehmen am Übernahmeergebnis teil? Mit der Änderung, die im zweiten Anlauf gern übersehen wird.\n\n▸ Übernahmeergebnis: Wert der übergegangenen Wirtschaftsgüter abzüglich Kosten und Wert der Anteile (§ 4 Abs. 4 S. 1 UmwStG), nur für Anteile, die nach § 5 UmwStG der Übernehmerin zugerechnet werden.\n▸ Anteile im Betriebsvermögen eines Anteilseigners: als zum Buchwert überführt, erhöht um frühere steuerwirksame Abschreibungen, höchstens gemeiner Wert (§ 5 Abs. 3 S. 1 UmwStG).\n▸ Private Anteile im Sinne des § 17 EStG: als mit den Anschaffungskosten eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Neu: § 5 Abs. 2 UmwStG erfasst auch Anteile im Sinne des § 20 Abs. 2 S. 1 Nr. 1 EStG, erstmals für Umwandlungen mit steuerlichem Übertragungsstichtag nach dem 5.12.2024 (§ 27 Abs. 21 UmwStG).\n▸ Unabhängig davon werden die offenen Rücklagen jedem Anteilseigner als Bezüge zugerechnet (§ 7 UmwStG).\n\nFall: Stichtag 31.12.2025 – Selma (70 %, Betriebsvermögen), Timo (29,5 %, privat) und Uwe (0,5 %, privat, gekauft 2019) haben ein Übernahmeergebnis. Variante Stichtag 31.12.2023: Uwe nur Bezüge nach § 7 UmwStG.\n\nZum Schluss: § 5 Abs. 2, 3 und § 27 Abs. 21 UmwStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

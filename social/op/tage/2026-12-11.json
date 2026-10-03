@@ -296,7 +296,23 @@
          "r1"
         ],
         [
-         "zuzuordnen. […]",
+         "zuzuordnen. Wird der Gegenstand der Lieferung dabei",
+         null
+        ],
+        [
+         "durch den ersten Unternehmer",
+         "g2"
+        ],
+        [
+         "in der Reihe befördert oder versendet, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen. Wird der Gegenstand der Lieferung",
+         null
+        ],
+        [
+         "durch den letzten Abnehmer",
+         "r2"
+        ],
+        [
+         "befördert oder versendet, ist die Beförderung oder Versendung der Lieferung an ihn zuzuordnen. […]",
          null
         ]
        ]
@@ -321,16 +337,16 @@
      ],
      "notizen": [
       [
-       "gleiche Ware",
-       "g1"
-      ],
-      [
-       "direkt!",
-       "b1"
-      ],
-      [
        "nur eine",
        "r1"
+      ],
+      [
+       "Sägewerk fährt",
+       "g2"
+      ],
+      [
+       "Variante: Abholung",
+       "r2"
       ],
       [
        "davor: Beginn",
@@ -338,12 +354,12 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 3 Abs. 6a S. 2–4 UStG",
-      "Wer transportiert, entscheidet"
+      "Sägewerk fährt: Freiburg bewegt",
+      "Sophie an Holzbau ruht: Kassel"
      ]
     }
    ],
-   "caption": "Mini-Fall Umsatzsteuer: drei Unternehmen, ein Lkw. Welche Lieferung ist bewegt?\n\n▸ Reihengeschäft: Mehrere Unternehmer schließen über denselben Gegenstand Liefergeschäfte ab, und die Ware geht ohne Zwischenstation direkt zum letzten Abnehmer. Die Beförderung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG).\n▸ Befördert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG); befördert der letzte Abnehmer, die Lieferung an ihn (§ 3 Abs. 6a S. 3 UStG); beim Zwischenhändler gilt § 3 Abs. 6a S. 4 UStG.\n▸ Ort der bewegten Lieferung: Beginn der Beförderung (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen: Beginn, nachfolgende: Ende der Beförderung (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n▸ Holt der Zwischenhändler die Ware erst in sein eigenes Lager und schickt sie später weiter, fehlt die unmittelbare Warenbewegung: kein Reihengeschäft.\n\nLösung: Sägewerk an Händlerin bewegt, Ort Freiburg; Händlerin an Kundin ruhend, Ort Kassel. Variante (Kundin holt ab): Lieferung an die Kundin bewegt, beide Orte Freiburg.\n\nZum Schluss: § 3 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Mini-Fall Umsatzsteuer: drei Unternehmen, ein Lkw. Welche Lieferung ist bewegt?\n\n▸ Reihengeschäft: Mehrere Unternehmer schließen über denselben Gegenstand Liefergeschäfte ab, und die Ware geht ohne Zwischenstation direkt zum letzten Abnehmer. Die Beförderung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG).\n▸ Befördert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG); befördert der letzte Abnehmer, die Lieferung an ihn (§ 3 Abs. 6a S. 3 UStG); beim Zwischenhändler gilt § 3 Abs. 6a S. 4 UStG.\n▸ Ort der bewegten Lieferung: Beginn der Beförderung (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen: Beginn, nachfolgende: Ende der Beförderung (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n▸ Holt der Zwischenhändler die Ware erst in sein eigenes Lager und schickt sie später weiter, fehlt die unmittelbare Warenbewegung: kein Reihengeschäft.\n\nLösung: Sägewerk an Händlerin bewegt, Ort Freiburg; Händlerin an Kundin ruhend, Ort Kassel. Variante (Kundin holt ab): Lieferung an die Kundin bewegt, beide Orte Freiburg.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

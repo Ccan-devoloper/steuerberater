@@ -29,7 +29,7 @@
      ],
      "norm": "§ 17 Abs. 2a S. 3 Nr. 2 EStG",
      "unter": "der Fall",
-     "teaser": "+ Markier-Guide § 17 EStG",
+     "teaser": "+ Markier-Guide §§ 3c, 17 EStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -243,7 +243,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "60 % bedacht?",
-     "teaser": "Weiterwischen: § 17 EStG markiert"
+     "teaser": "Weiterwischen: §§ 3c, 17 EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -329,12 +329,69 @@
       ]
      ],
      "randnotiz": [
-      "Teileinkünfte: § 3c Abs. 2 S. 1 EStG",
-      "Anschaffungskosten nur zu 60 % abziehen"
+      "Weiterwischen: § 3c Abs. 2 EStG",
+      "Anschaffungskosten nur zu 60 %"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 3c EStG (Auszug)",
+     "absaetze": [
+      [
+       "(2) 1",
+       [
+        [
+         "Betriebsvermögensminderungen, Betriebsausgaben, Veräußerungskosten oder Werbungskosten, die mit den dem § 3 Nummer 40 zugrunde liegenden Betriebsvermögensmehrungen oder Einnahmen […] in wirtschaftlichem Zusammenhang stehen, dürfen",
+         null
+        ],
+        [
+         "unabhängig davon, in welchem Veranlagungszeitraum",
+         "b1"
+        ],
+        [
+         "die Betriebsvermögensmehrungen oder Einnahmen anfallen, bei der Ermittlung der Einkünfte",
+         null
+        ],
+        [
+         "nur zu 60 Prozent abgezogen werden;",
+         "r1"
+        ],
+        [
+         "Entsprechendes gilt, wenn bei der Ermittlung der Einkünfte […] die",
+         null
+        ],
+        [
+         "Anschaffungs- oder Herstellungskosten",
+         "g1"
+        ],
+        [
+         "oder der an deren Stelle tretende Wert mindernd zu berücksichtigen sind.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "auch ohne Erlös",
+       "b1"
+      ],
+      [
+       "60 %",
+       "r1"
+      ],
+      [
+       "AK + Darlehen",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Yara: − 90.000 € × 60 %",
+      "= − 54.000 € Verlust"
      ]
     }
    ],
-   "caption": "Mini-Fall § 17 EStG: Erhöht ein ausgefallenes Gesellschafterdarlehen die Anschaffungskosten?\n\nFall: Yara hält 40 % an einer GmbH (Anschaffungskosten 10.000 €). In der Krise 2023 gibt sie 80.000 € Darlehen, weil keine Bank mehr leiht. 2026 wird die GmbH aufgelöst, Yara erhält nichts.\n\nLösung:\n▸ Die Auflösung gilt als Veräußerung; Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 1, 2 EStG).\n▸ Darlehensverluste sind nachträgliche Anschaffungskosten, soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG). Das ist regelmäßig der Fall, wenn ein fremder Dritter das Darlehen nicht gewährt oder zurückgefordert hätte (§ 17 Abs. 2a S. 4 EStG).\n▸ Verlust: 0 € − 90.000 € = − 90.000 € (§ 17 Abs. 2 S. 1 EStG). Anschaffungskosten nur zu 60 % (§ 3c Abs. 2 S. 1 EStG), der Veräußerungspreis ebenso (§ 3 Nr. 40 S. 1 Buchst. c EStG): − 54.000 €.\n\nKlausurfalle: Fremdüblich gegebene Darlehen erhöhen die Anschaffungskosten nicht; dann ist der Ausfall bei den Einkünften aus Kapitalvermögen zu prüfen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n\nZum Schluss: § 17 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Mini-Fall § 17 EStG: Erhöht ein ausgefallenes Gesellschafterdarlehen die Anschaffungskosten?\n\nFall: Yara hält 40 % an einer GmbH (Anschaffungskosten 10.000 €). In der Krise 2023 gibt sie 80.000 € Darlehen, weil keine Bank mehr leiht. 2026 wird die GmbH aufgelöst, Yara erhält nichts.\n\nLösung:\n▸ Die Auflösung gilt als Veräußerung; Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 1, 2 EStG).\n▸ Darlehensverluste sind nachträgliche Anschaffungskosten, soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG). Das ist regelmäßig der Fall, wenn ein fremder Dritter das Darlehen nicht gewährt oder zurückgefordert hätte (§ 17 Abs. 2a S. 4 EStG).\n▸ Verlust: 0 € − 90.000 € = − 90.000 € (§ 17 Abs. 2 S. 1 EStG). Anschaffungskosten nur zu 60 % (§ 3c Abs. 2 S. 1 EStG), der Veräußerungspreis ebenso (§ 3 Nr. 40 S. 1 Buchst. c EStG): − 54.000 €.\n\nKlausurfalle: Fremdüblich gegebene Darlehen erhöhen die Anschaffungskosten nicht; dann ist der Ausfall bei den Einkünften aus Kapitalvermögen zu prüfen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n\nZum Schluss: § 3c Abs. 2 und § 17 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

@@ -276,6 +276,31 @@
        ]
       ],
       [
+       3,
+       [
+        [
+         "Der Wert, mit dem die übernehmende Gesellschaft das eingebrachte Betriebsvermögen ansetzt, gilt für den Einbringenden",
+         null
+        ],
+        [
+         "als Veräußerungspreis",
+         "gr1"
+        ],
+        [
+         "und",
+         null
+        ],
+        [
+         "als Anschaffungskosten der Gesellschaftsanteile.",
+         "b2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
        4,
        [
         [
@@ -291,12 +316,16 @@
      ],
      "notizen": [
       [
-       "Grenze!",
-       "b1"
-      ],
-      [
        "mindestens 0 €",
        "r1"
+      ],
+      [
+       "Gewinn 80.000 €",
+       "gr1"
+      ],
+      [
+       "Anteile: 0 €",
+       "b2"
       ],
       [
        "nur bei gemeinem Wert",
@@ -304,12 +333,12 @@
       ]
      ],
      "randnotiz": [
-      "Dazu: § 20 Abs. 3 S. 1 UmwStG",
-      "Wertansatz = Veräußerungspreis und AK der Anteile"
+      "Tessa: Gewinn 80.000 €, Anteile 0 €",
+      "kein Freibetrag, kein ermäßigter Satz"
      ]
     }
    ],
-   "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 und 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 bis 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -391,7 +420,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 3 Abs. 6a UStG markiert"
+     "teaser": "Am Ende: § 3 Abs. 6a, 7 UStG markiert"
     },
     {
      "typ": "inhalt",
@@ -664,12 +693,81 @@
       ]
      ],
      "randnotiz": [
-      "Dazu: Abschn. 3.14 UStAE",
-      "Ruhende Orte: § 3 Abs. 7 S. 2 UStG"
+      "Weiterwischen: § 3 Abs. 7 UStG",
+      "Wo die ruhenden Lieferungen liegen"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 3 Abs. 7 UStG (Auszug)",
+     "absaetze": [
+      [
+       7,
+       [
+        [
+         "Wird der Gegenstand der Lieferung nicht befördert oder versendet, wird die Lieferung dort ausgeführt,",
+         null
+        ],
+        [
+         "wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet.",
+         "b1"
+        ],
+        [
+         "In den Fällen der Absätze 6a und 6b gilt Folgendes: 1. Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         null
+        ],
+        [
+         "vorangehen,",
+         "g1"
+        ],
+        [
+         "gelten dort als ausgeführt,",
+         null
+        ],
+        [
+         "wo die Beförderung oder Versendung des Gegenstands beginnt.",
+         "g1"
+        ],
+        [
+         "2. Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         null
+        ],
+        [
+         "folgen,",
+         "r1"
+        ],
+        [
+         "gelten dort als ausgeführt,",
+         null
+        ],
+        [
+         "wo die Beförderung oder Versendung des Gegenstands endet.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "ruhende Lieferung",
+       "b1"
+      ],
+      [
+       "davor: Beginn",
+       "g1"
+      ],
+      [
+       "danach: Ende, Mailand",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Vertiefung: Abschn. 3.14 UStAE",
+      "Zuordnung mit vielen Beispielen"
      ]
     }
    ],
-   "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

@@ -39,7 +39,7 @@
      ],
      "norm": "§ 6 Abs. 3 S. 1 EStG",
      "unter": "Gewinn?",
-     "teaser": "+ Markier-Guide § 16 + BMF",
+     "teaser": "+ Markier-Guide §§ 6, 16 + BMF",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -288,15 +288,40 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "25 % gerechnet?",
-     "teaser": "Weiterwischen: § 16 + BMF markiert"
+     "teaser": "Weiterwischen: §§ 6, 16 + BMF markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 16 EStG (Auszug)",
+     "kopf": "§§ 6, 16 EStG (Auszug)",
      "absaetze": [
       [
-       "(2) 1",
+       "§ 6 (3) 1",
+       [
+        [
+         "Wird ein Betrieb, ein Teilbetrieb oder der Anteil eines Mitunternehmers an einem Betrieb",
+         null
+        ],
+        [
+         "unentgeltlich übertragen,",
+         "b2"
+        ],
+        [
+         "so sind bei der Ermittlung des Gewinns des bisherigen Betriebsinhabers (Mitunternehmers) die Wirtschaftsgüter",
+         null
+        ],
+        [
+         "mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben,",
+         "g2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 16 (2) 1",
        [
         [
          "Veräußerungsgewinn im Sinne des Absatzes 1 ist der Betrag, um den",
@@ -352,16 +377,16 @@
      ],
      "notizen": [
       [
+       "250.000 €: gratis",
+       "b2"
+      ],
+      [
+       "Buchwerte",
+       "g2"
+      ],
+      [
        "Entgelt",
        "g1"
-      ],
-      [
-       "Kapitalkonto",
-       "b1"
-      ],
-      [
-       "Voraussetzungen",
-       "r1"
       ],
       [
        "Freibetrag",
@@ -369,8 +394,8 @@
       ]
      ],
      "randnotiz": [
-      "Daneben: § 6 Abs. 3 S. 1 EStG",
-      "bis zum Kapitalkonto: Buchwerte fortführen"
+      "Weiterwischen: BMF vom 13.01.1993",
+      "Gleichstellungsgeld und Schulden"
      ]
     },
     {
@@ -471,7 +496,7 @@
      ]
     }
    ],
-   "caption": "Betrieb an die Tochter, Gleichstellungsgeld an den Bruder: Entsteht ein Gewinn? Eine Klausurfalle für Klausur 2.\n\n▸ Gleichstellungsgelder an Geschwister sind Entgelt (BMF vom 13.01.1993, Rn. 7).\n▸ Bei einzelnen Wirtschaftsgütern wird aufgeteilt: unentgeltlicher Teil Entnahme, entgeltlicher Teil Veräußerung; übernommene Schulden sind Entgelt (BMF vom 13.01.1993, Rn. 28, 34).\n▸ Bei einem ganzen Betrieb wird nicht aufgeteilt: Übernommene Betriebsschulden sind kein Entgelt (Rn. 29). Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, werden die Buchwerte fortgeführt, ein Veräußerungsverlust entsteht nicht (§ 6 Abs. 3 S. 1 EStG; Rn. 38). Liegt es darüber, ist der Erwerb entgeltlich und der Gewinn = Entgelt minus Kapitalkonto (§ 16 Abs. 2 S. 1 EStG; Rn. 35).\n▸ Freibetrag 45.000 € auf Antrag ab 55 oder bei dauernder Berufsunfähigkeit, gekürzt um den Gewinn über 136.000 € (§ 16 Abs. 4 EStG); Tarifermäßigung nach § 34 EStG.\n\nBeispiel: Kapitalkonto 300.000 €. Gleichstellungsgeld 250.000 € → kein Gewinn. Gleichstellungsgeld 420.000 € → Gewinn 120.000 €, Aufstockung der Buchwerte beim Übernehmer.\n\nZum Schluss: § 16 EStG und BMF vom 13.01.1993 zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Betrieb an die Tochter, Gleichstellungsgeld an den Bruder: Entsteht ein Gewinn? Eine Klausurfalle für Klausur 2.\n\n▸ Gleichstellungsgelder an Geschwister sind Entgelt (BMF vom 13.01.1993, Rn. 7).\n▸ Bei einzelnen Wirtschaftsgütern wird aufgeteilt: unentgeltlicher Teil Entnahme, entgeltlicher Teil Veräußerung; übernommene Schulden sind Entgelt (BMF vom 13.01.1993, Rn. 28, 34).\n▸ Bei einem ganzen Betrieb wird nicht aufgeteilt: Übernommene Betriebsschulden sind kein Entgelt (Rn. 29). Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, werden die Buchwerte fortgeführt, ein Veräußerungsverlust entsteht nicht (§ 6 Abs. 3 S. 1 EStG; Rn. 38). Liegt es darüber, ist der Erwerb entgeltlich und der Gewinn = Entgelt minus Kapitalkonto (§ 16 Abs. 2 S. 1 EStG; Rn. 35).\n▸ Freibetrag 45.000 € auf Antrag ab 55 oder bei dauernder Berufsunfähigkeit, gekürzt um den Gewinn über 136.000 € (§ 16 Abs. 4 EStG); Tarifermäßigung nach § 34 EStG.\n\nBeispiel: Kapitalkonto 300.000 €. Gleichstellungsgeld 250.000 € → kein Gewinn. Gleichstellungsgeld 420.000 € → Gewinn 120.000 €, Aufstockung der Buchwerte beim Übernehmer.\n\nZum Schluss: §§ 6, 16 EStG und BMF vom 13.01.1993 zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

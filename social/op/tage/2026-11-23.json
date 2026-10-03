@@ -378,7 +378,7 @@
      ],
      "norm": "§§ 14, 17 KStG",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 14 KStG",
+     "teaser": "+ Markier-Guide §§ 14, 17 KStG",
      "motiv": {
       "typ": "icon",
       "name": "tabler:hierarchy",
@@ -416,7 +416,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 14 KStG markiert"
+     "teaser": "Am Ende: §§ 14, 17 KStG markiert"
     },
     {
      "typ": "inhalt",
@@ -614,7 +614,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welcher Schritt fehlt dir oft?",
-     "teaser": "Weiterwischen: § 14 KStG markiert"
+     "teaser": "Weiterwischen: §§ 14, 17 KStG markiert"
     },
     {
      "typ": "gesetz",
@@ -700,12 +700,57 @@
       ]
      ],
      "randnotiz": [
-      "GmbH als Tochter: § 17 KStG",
-      "Verlustübernahme wie § 302 AktG vereinbaren"
+      "Weiterwischen: § 17 KStG",
+      "GmbH als Tochter: Verlustübernahme"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 17 KStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Die §§ 14 bis 16 gelten entsprechend, wenn eine",
+         null
+        ],
+        [
+         "andere als die in § 14 Absatz 1 Satz 1 bezeichnete Kapitalgesellschaft",
+         "g1"
+        ],
+        [
+         "mit Geschäftsleitung im Inland und Sitz in einem Mitgliedstaat der Europäischen Union oder in einem Vertragsstaat des EWR-Abkommens sich wirksam verpflichtet, ihren ganzen Gewinn an ein anderes Unternehmen im Sinne des § 14 abzuführen. Weitere Voraussetzung ist, dass 1. eine Gewinnabführung den in § 301 des Aktiengesetzes genannten Betrag nicht überschreitet und 2. eine",
+         null
+        ],
+        [
+         "Verlustübernahme durch Verweis auf die Vorschriften des § 302 des Aktiengesetzes in seiner jeweils gültigen Fassung",
+         "r1"
+        ],
+        [
+         "vereinbart wird.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Spindel GmbH",
+       "g1"
+      ],
+      [
+       "dynamischer Verweis",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Nordwerk: 650.000 € − 400.000 €",
+      "+ 420.000 € = 670.000 € Einkommen"
      ]
     }
    ],
-   "caption": "Ertragsteuerliche Organschaft in fünf Schritten: das Prüfschema für die Körperschaftsteuer-Klausur.\n\n1. Taugliche Organgesellschaft: SE, AG oder KGaA mit Geschäftsleitung im Inland und Sitz in EU/EWR (§ 14 Abs. 1 S. 1 KStG); andere Kapitalgesellschaften wie die GmbH entsprechend, wenn die Verlustübernahme durch Verweis auf § 302 AktG in seiner jeweils gültigen Fassung vereinbart ist (§ 17 Abs. 1 S. 1, S. 2 Nr. 2 KStG).\n2. Tauglicher Organträger: gewerbliches Unternehmen einer natürlichen Person oder nicht steuerbefreiten Körperschaft; Personengesellschaft nur mit eigener gewerblicher Tätigkeit; die Beteiligung muss einer inländischen Betriebsstätte zuzuordnen sein (§ 14 Abs. 1 S. 1 Nr. 2 S. 1, 2, 4 KStG).\n3. Finanzielle Eingliederung: Mehrheit der Stimmrechte ununterbrochen vom Beginn des Wirtschaftsjahres der Organgesellschaft an (§ 14 Abs. 1 S. 1 Nr. 1 KStG).\n4. Gewinnabführungsvertrag auf mindestens fünf Jahre, während der gesamten Geltungsdauer durchgeführt (§ 14 Abs. 1 S. 1 Nr. 3 S. 1 KStG).\n5. Rechtsfolge: Das Einkommen der Organgesellschaft wird dem Organträger zugerechnet, zum ersten Mal für das Jahr, in dem ihr erstes Wirtschaftsjahr mit wirksamem Vertrag abläuft (§ 14 Abs. 1 S. 1, 2 KStG).\n\nBeispiel: Gewinn der AG 650.000 € – Gewinnabführung 400.000 € + Einkommen der GmbH 420.000 € = 670.000 €.\n\nZum Schluss: § 14 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Ertragsteuerliche Organschaft in fünf Schritten: das Prüfschema für die Körperschaftsteuer-Klausur.\n\n1. Taugliche Organgesellschaft: SE, AG oder KGaA mit Geschäftsleitung im Inland und Sitz in EU/EWR (§ 14 Abs. 1 S. 1 KStG); andere Kapitalgesellschaften wie die GmbH entsprechend, wenn die Verlustübernahme durch Verweis auf § 302 AktG in seiner jeweils gültigen Fassung vereinbart ist (§ 17 Abs. 1 S. 1, S. 2 Nr. 2 KStG).\n2. Tauglicher Organträger: gewerbliches Unternehmen einer natürlichen Person oder nicht steuerbefreiten Körperschaft; Personengesellschaft nur mit eigener gewerblicher Tätigkeit; die Beteiligung muss einer inländischen Betriebsstätte zuzuordnen sein (§ 14 Abs. 1 S. 1 Nr. 2 S. 1, 2, 4 KStG).\n3. Finanzielle Eingliederung: Mehrheit der Stimmrechte ununterbrochen vom Beginn des Wirtschaftsjahres der Organgesellschaft an (§ 14 Abs. 1 S. 1 Nr. 1 KStG).\n4. Gewinnabführungsvertrag auf mindestens fünf Jahre, während der gesamten Geltungsdauer durchgeführt (§ 14 Abs. 1 S. 1 Nr. 3 S. 1 KStG).\n5. Rechtsfolge: Das Einkommen der Organgesellschaft wird dem Organträger zugerechnet, zum ersten Mal für das Jahr, in dem ihr erstes Wirtschaftsjahr mit wirksamem Vertrag abläuft (§ 14 Abs. 1 S. 1, 2 KStG).\n\nBeispiel: Gewinn der AG 650.000 € – Gewinnabführung 400.000 € + Einkommen der GmbH 420.000 € = 670.000 €.\n\nZum Schluss: §§ 14, 17 KStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

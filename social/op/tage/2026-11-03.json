@@ -324,7 +324,15 @@
          "gr1"
         ],
         [
-         "[…] Die nach den Sätzen 1 bis 3 zuzurechnenden Beträge",
+         "Der nach Satz 1 zuzurechnende Betrag darf den Betrag der Anteile am Verlust der Kommanditgesellschaft nicht übersteigen, der im Wirtschaftsjahr der Einlageminderung und",
+         null
+        ],
+        [
+         "in den zehn vorangegangenen Wirtschaftsjahren",
+         "b2"
+        ],
+        [
+         "ausgleichs- oder abzugsfähig gewesen ist. […] Die nach den Sätzen 1 bis 3 zuzurechnenden Beträge",
          null
         ],
         [
@@ -340,10 +348,6 @@
      ],
      "notizen": [
       [
-       "Minus",
-       "g1"
-      ],
-      [
        "Auslöser",
        "b1"
       ],
@@ -356,13 +360,17 @@
        "gr1"
       ],
       [
+       "Grenze 50.000 €",
+       "b2"
+      ],
+      [
        "verrechenbar",
        "g2"
       ]
      ],
      "randnotiz": [
-      "Grenze: § 15a Abs. 3 S. 2 EStG",
-      "höchstens Verluste dieses und der zehn Vorjahre"
+      "Wanda 2026: + 20.000 € Gewinn",
+      "und 20.000 € verrechenbarer Verlust"
      ]
     }
    ],

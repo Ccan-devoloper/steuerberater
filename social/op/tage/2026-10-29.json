@@ -201,6 +201,31 @@
      "kopf": "§ 6b EStG (Auszug)",
      "absaetze": [
       [
+       "(1) 2",
+       [
+        [
+         "Der Abzug ist zulässig bei den Anschaffungs- oder Herstellungskosten von 1.",
+         null
+        ],
+        [
+         "Grund und Boden, soweit der Gewinn bei der Veräußerung von Grund und Boden entstanden ist,",
+         "b2"
+        ],
+        [
+         "[…] 3.",
+         null
+        ],
+        [
+         "Gebäuden,",
+         "b3"
+        ],
+        [
+         "soweit der Gewinn bei der Veräußerung von Grund und Boden, […] oder Gebäuden entstanden ist,",
+         null
+        ]
+       ]
+      ],
+      [
        "(4) 1",
        [
         [
@@ -241,12 +266,16 @@
      ],
      "notizen": [
       [
-       "Haltefrist",
-       "g1"
+       "Boden auf Boden",
+       "b2"
       ],
       [
-       "keine Reinvestition",
-       "r1"
+       "alles auf Gebäude",
+       "b3"
+      ],
+      [
+       "Haltefrist",
+       "g1"
       ],
       [
        "Zuschlag",
@@ -254,12 +283,12 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 6b Abs. 1 S. 2 EStG",
-      "Gebäudegewinn nur auf Gebäude"
+      "300.000 € Bodengewinn auf die Halle",
+      "AfA dann aus 700.000 €"
      ]
     }
    ],
-   "caption": "Spickzettel Bilanzsteuerrecht: die § 6b-Rücklage auf einer Karte.\n\n▸ Begünstigt ist der Gewinn aus der Veräußerung von Grund und Boden, Aufwuchs mit Grund und Boden, Gebäuden und Binnenschiffen (§ 6b Abs. 1 S. 1 EStG).\n▸ Übertragung: Gewinn aus Grund und Boden auf Grund und Boden oder Gebäude, Gewinn aus Gebäuden nur auf Gebäude (§ 6b Abs. 1 S. 2 Nr. 1, 3 EStG); Abzug bei Anschaffung im Vorjahr oder im laufenden Jahr.\n▸ Voraussetzungen u. a.: Gewinnermittlung durch Betriebsvermögensvergleich, sechs Jahre ununterbrochen Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 4 S. 1 Nr. 1, 2 EStG).\n▸ Rücklage: Reinvestition in den folgenden vier Wirtschaftsjahren, bei rechtzeitig begonnenem Neubau sechs (§ 6b Abs. 3 EStG). Sonst gewinnerhöhende Auflösung plus 6 % je volles Wirtschaftsjahr (§ 6b Abs. 7 EStG).\n▸ AfA des neuen Wirtschaftsguts nur von den geminderten Kosten (§ 6b Abs. 6 EStG).\n\nZum Schluss: § 6b EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Spickzettel Bilanzsteuerrecht: die § 6b-Rücklage auf einer Karte.\n\n▸ Begünstigt ist der Gewinn aus der Veräußerung von Grund und Boden, Aufwuchs mit Grund und Boden, Gebäuden und Binnenschiffen (§ 6b Abs. 1 S. 1 EStG).\n▸ Übertragung: Gewinn aus Grund und Boden auf Grund und Boden oder Gebäude, Gewinn aus Gebäuden nur auf Gebäude (§ 6b Abs. 1 S. 2 Nr. 1, 3 EStG); Abzug bei Anschaffung im Vorjahr oder im laufenden Jahr.\n▸ Voraussetzungen u. a.: Gewinnermittlung durch Betriebsvermögensvergleich, sechs Jahre ununterbrochen Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 4 S. 1 Nr. 1, 2 EStG).\n▸ Rücklage: Reinvestition in den folgenden vier Wirtschaftsjahren, bei rechtzeitig begonnenem Neubau sechs (§ 6b Abs. 3 EStG). Sonst gewinnerhöhende Auflösung plus 6 % je volles Wirtschaftsjahr (§ 6b Abs. 7 EStG).\n▸ AfA des neuen Wirtschaftsguts nur von den geminderten Kosten (§ 6b Abs. 6 EStG).\n\nZum Schluss: § 6b Abs. 1, 4, 7 EStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

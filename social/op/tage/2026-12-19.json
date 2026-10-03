@@ -611,8 +611,25 @@
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§§ 351, 173 AO (Auszug)",
+     "kopf": "§§ 173, 351 AO (Auszug)",
      "absaetze": [
+      [
+       "§ 173 (1) Nr. 2 S. 2",
+       [
+        [
+         "Das Verschulden ist unbeachtlich, wenn die Tatsachen oder Beweismittel in einem",
+         null
+        ],
+        [
+         "unmittelbaren oder mittelbaren Zusammenhang",
+         "gr1"
+        ],
+        [
+         "mit Tatsachen oder Beweismitteln im Sinne der Nummer 1 stehen.",
+         null
+        ]
+       ]
+      ],
       [
        "§ 351 (1)",
        [
@@ -637,26 +654,13 @@
          null
         ]
        ]
-      ],
-      [
-       "§ 173 (1) Nr. 2 S. 2",
-       [
-        [
-         "Das Verschulden ist unbeachtlich, wenn die Tatsachen oder Beweismittel in einem",
-         null
-        ],
-        [
-         "unmittelbaren oder mittelbaren Zusammenhang",
-         "gr1"
-        ],
-        [
-         "mit Tatsachen oder Beweismitteln im Sinne der Nummer 1 stehen.",
-         null
-        ]
-       ]
       ]
      ],
      "notizen": [
+      [
+       "Zusammenhang",
+       "gr1"
+      ],
       [
        "Rahmen",
        "g1"
@@ -664,10 +668,6 @@
       [
        "eigene Norm?",
        "b1"
-      ],
-      [
-       "Zusammenhang",
-       "gr1"
       ]
      ],
      "randnotiz": [
@@ -676,7 +676,7 @@
      ]
     }
    ],
-   "caption": "Einspruch gegen einen Änderungsbescheid: Wie weit darf angefochten werden? Der Rechenweg.\n\nFall: ESt 2023 bestandskräftig 18.000 €. Wegen verschwiegener Mieteinnahmen ändert das Finanzamt auf 20.400 € (§ 173 Abs. 1 Nr. 1 AO). Im Einspruch macht Lasse grob nachlässig vergessene Fortbildungskosten geltend (Steuer − 3.100 €).\n\n▸ Änderungsbescheide können nur insoweit angegriffen werden, als die Änderung reicht (§ 351 Abs. 1 AO). Die Minderung wirkt also nur bis zu 18.000 €.\n▸ Eine eigene Korrekturnorm für die Minderung fehlt: § 173 Abs. 1 Nr. 2 S. 1 AO scheitert am groben Verschulden.\n▸ Ausnahme: Hängen die Kosten mit den neuen Mieteinnahmen zusammen, ist das Verschulden unbeachtlich (§ 173 Abs. 1 Nr. 2 S. 2 AO); dann trägt diese Norm die volle Minderung.\n▸ Ergebnis: Festsetzung 18.000 €, nicht 17.300 €.\n\nZum Schluss: §§ 351, 173 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Einspruch gegen einen Änderungsbescheid: Wie weit darf angefochten werden? Der Rechenweg.\n\nFall: ESt 2023 bestandskräftig 18.000 €. Wegen verschwiegener Mieteinnahmen ändert das Finanzamt auf 20.400 € (§ 173 Abs. 1 Nr. 1 AO). Im Einspruch macht Lasse grob nachlässig vergessene Fortbildungskosten geltend (Steuer − 3.100 €).\n\n▸ Änderungsbescheide können nur insoweit angegriffen werden, als die Änderung reicht (§ 351 Abs. 1 AO). Die Minderung wirkt also nur bis zu 18.000 €.\n▸ Eine eigene Korrekturnorm für die Minderung fehlt: § 173 Abs. 1 Nr. 2 S. 1 AO scheitert am groben Verschulden.\n▸ Ausnahme: Hängen die Kosten mit den neuen Mieteinnahmen zusammen, ist das Verschulden unbeachtlich (§ 173 Abs. 1 Nr. 2 S. 2 AO); dann trägt diese Norm die volle Minderung.\n▸ Ergebnis: Festsetzung 18.000 €, nicht 17.300 €.\n\nZum Schluss: §§ 173, 351 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

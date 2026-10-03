@@ -39,7 +39,7 @@
      ],
      "norm": "§ 3a Abs. 2 UStG",
      "unter": "Ort und Steuer",
-     "teaser": "+ Markier-Guide § 3a UStG",
+     "teaser": "+ Markier-Guide §§ 3a, 13b UStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -92,7 +92,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 3a UStG markiert"
+     "teaser": "Am Ende: §§ 3a, 13b UStG markiert"
     },
     {
      "typ": "inhalt",
@@ -316,15 +316,15 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Prüfst du Sonderregeln zuerst?",
-     "teaser": "Weiterwischen: § 3a UStG markiert"
+     "teaser": "Weiterwischen: §§ 3a, 13b UStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 3a UStG (Auszug)",
+     "kopf": "§§ 3a, 13b UStG (Auszug)",
      "absaetze": [
       [
-       2,
+       "§ 3a (2)",
        [
         [
          "Eine sonstige Leistung, die",
@@ -363,13 +363,43 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 13b (1)",
+       [
+        [
+         "Für nach § 3a Absatz 2 im Inland steuerpflichtige sonstige Leistungen eines im übrigen Gemeinschaftsgebiet ansässigen Unternehmers",
+         null
+        ],
+        [
+         "entsteht die Steuer mit Ablauf des Voranmeldungszeitraums,",
+         "g2"
+        ],
+        [
+         "in dem die Leistungen ausgeführt worden sind.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 13b (5) 1",
+       [
+        [
+         "In den in den Absätzen 1 und 2 Nummer 1 bis 3 genannten Fällen",
+         null
+        ],
+        [
+         "schuldet der Leistungsempfänger die Steuer,",
+         "r2"
+        ],
+        [
+         "wenn er ein Unternehmer oder eine juristische Person ist; […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
-      [
-       "Status prüfen",
-       "b1"
-      ],
       [
        "Sonderregeln zuerst!",
        "r1"
@@ -379,17 +409,21 @@
        "g1"
       ],
       [
-       "Filiale geht vor",
-       "gr1"
+       "Ende Mai",
+       "g2"
+      ],
+      [
+       "GmbH schuldet",
+       "r2"
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 13b Abs. 1, 5 UStG",
-      "Kunde schuldet, Entstehung Ende des Monats"
+      "Zahllast: 1.900 € − 1.900 € = 0 €",
+      "Vorsteuer im selben Monat"
      ]
     }
    ],
-   "caption": "Rechenweg Umsatzsteuer: Beratung aus Utrecht für eine GmbH in Kiel – wo ist der Ort, wer zahlt?\n\n1. Vorrangige Sonderregeln ausschließen (§ 3a Abs. 3 bis 8, §§ 3b, 3e UStG).\n2. Empfänger ist Unternehmer und bezieht für sein Unternehmen (§ 3a Abs. 2 S. 1 UStG).\n3. Ort: dort, von wo aus der Empfänger sein Unternehmen betreibt, bei Leistung an eine Betriebsstätte deren Ort (§ 3a Abs. 2 S. 1, 2 UStG). Hier Kiel, also steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n4. Die GmbH schuldet die Steuer als Leistungsempfängerin (§ 13b Abs. 1, Abs. 5 S. 1 UStG): 19 % von 10.000 € = 1.900 €. Entstehung mit Ablauf des Voranmeldungszeitraums der Leistung (§ 13b Abs. 1 UStG).\n5. Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG), Zahllast 0 €.\n\nAndersherum (Kiel berät Utrecht): Ort in den Niederlanden, Rechnung mit Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 1 UStG), Angabe in der Zusammenfassenden Meldung (§ 18a Abs. 2 UStG).\n\nZum Schluss: § 3a Abs. 2 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Rechenweg Umsatzsteuer: Beratung aus Utrecht für eine GmbH in Kiel – wo ist der Ort, wer zahlt?\n\n1. Vorrangige Sonderregeln ausschließen (§ 3a Abs. 3 bis 8, §§ 3b, 3e UStG).\n2. Empfänger ist Unternehmer und bezieht für sein Unternehmen (§ 3a Abs. 2 S. 1 UStG).\n3. Ort: dort, von wo aus der Empfänger sein Unternehmen betreibt, bei Leistung an eine Betriebsstätte deren Ort (§ 3a Abs. 2 S. 1, 2 UStG). Hier Kiel, also steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n4. Die GmbH schuldet die Steuer als Leistungsempfängerin (§ 13b Abs. 1, Abs. 5 S. 1 UStG): 19 % von 10.000 € = 1.900 €. Entstehung mit Ablauf des Voranmeldungszeitraums der Leistung (§ 13b Abs. 1 UStG).\n5. Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG), Zahllast 0 €.\n\nAndersherum (Kiel berät Utrecht): Ort in den Niederlanden, Rechnung mit Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 1 UStG), Angabe in der Zusammenfassenden Meldung (§ 18a Abs. 2 UStG).\n\nZum Schluss: § 3a Abs. 2, § 13b Abs. 1, 5 UStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -443,7 +477,7 @@
      ],
      "norm": "Art. 23 A OECD-MA",
      "unter": "1 Fall, 2 Wege",
-     "teaser": "+ Markier-Guide § 32b EStG",
+     "teaser": "+ Markier-Guide §§ 32b, 32d EStG",
      "motiv": {
       "typ": "icon",
       "name": "tabler:arrows-split",
@@ -678,7 +712,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Endet deine DBA-Prüfung zu früh?",
-     "teaser": "Weiterwischen: § 32b EStG markiert"
+     "teaser": "Weiterwischen: §§ 32b, 32d EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -739,12 +773,65 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 32d Abs. 5 EStG",
+      "Weiterwischen: § 32d Abs. 5 EStG",
       "Anrechnung bei Kapitalerträgen, höchstens 25 %"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 32d EStG (Auszug)",
+     "absaetze": [
+      [
+       "(5) 1",
+       [
+        [
+         "In den Fällen der Absätze 3 und 4 ist bei unbeschränkt Steuerpflichtigen, die mit ausländischen Kapitalerträgen in dem Staat, aus dem die Kapitalerträge stammen, zu einer der deutschen Einkommensteuer entsprechenden Steuer herangezogen werden, die auf ausländische Kapitalerträge festgesetzte und",
+         null
+        ],
+        [
+         "gezahlte",
+         "g1"
+        ],
+        [
+         "und um einen entstandenen Ermäßigungsanspruch gekürzte ausländische Steuer,",
+         null
+        ],
+        [
+         "jedoch höchstens 25 Prozent",
+         "r1"
+        ],
+        [
+         "ausländische Steuer auf den einzelnen steuerpflichtigen Kapitalertrag,",
+         null
+        ],
+        [
+         "auf die deutsche Steuer anzurechnen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur gezahlte",
+       "g1"
+      ],
+      [
+       "Deckel",
+       "r1"
+      ],
+      [
+       "Nele: − 200 €",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Nele: 500 € − 200 € = 300 €",
+      "10 % Quellensteuer voll anrechenbar"
      ]
     }
    ],
-   "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer. DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: § 32b EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer. DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: §§ 32b, 32d Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

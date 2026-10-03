@@ -362,7 +362,7 @@
      ],
      "norm": "§ 6 Abs. 1 Nr. 3 EStG",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 5 EStG",
+     "teaser": "+ Markier-Guide § 5 EStG, § 250 HGB",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -610,15 +610,15 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du das Disagio gebucht?",
-     "teaser": "Weiterwischen: § 5 EStG markiert"
+     "teaser": "Weiterwischen: § 5 EStG, § 250 HGB markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 5 EStG (Auszug)",
+     "kopf": "§ 5 EStG, § 250 HGB (Auszug)",
      "absaetze": [
       [
-       "(5)",
+       "§ 5 (5)",
        [
         [
          "Als Rechnungsabgrenzungsposten sind nur anzusetzen 1.",
@@ -649,6 +649,23 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 250 (3) HGB",
+       [
+        [
+         "Ist der Erfüllungsbetrag einer Verbindlichkeit höher als der Ausgabebetrag, so",
+         null
+        ],
+        [
+         "darf",
+         "gr1"
+        ],
+        [
+         "der Unterschiedsbetrag in den Rechnungsabgrenzungsposten auf der Aktivseite aufgenommen werden. […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -663,15 +680,19 @@
       [
        "nur Kleinbetrag",
        "r1"
+      ],
+      [
+       "HB: Wahlrecht",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 250 Abs. 3 HGB",
-      "Im Handelsrecht nur Wahlrecht"
+      "Malte: Steuerbilanz 7.000 € aktiv",
+      "auch wenn die HB sofort Aufwand bucht"
      ]
     }
    ],
-   "caption": "Darlehen mit Disagio: Was steht zum Bilanzstichtag in der Steuerbilanz? Eine Prüfungsfrage zur Bewertung von Verbindlichkeiten.\n\n▸ Verbindlichkeit: Rückzahlungsbetrag, Bewertung unter sinngemäßer Anwendung von Nr. 2 (§ 6 Abs. 1 Nr. 3 S. 1 EStG); keine Abzinsung für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG). Handelsbilanz: Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n▸ Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Fälligkeitsdarlehen gleichmäßig über die Laufzeit aufzulösen. Handelsrechtlich Wahlrecht (§ 250 Abs. 3 S. 1 HGB).\n▸ Verzicht auf die Abgrenzung nur, wenn der Betrag die Grenze des § 6 Abs. 2 S. 1 EStG nicht übersteigt (§ 5 Abs. 5 S. 2 EStG).\n\nFall: 200.000 € Darlehen ab 1.7.2026, vier Jahre, Auszahlung 192.000 €: Verbindlichkeit 200.000 €, aktiver Posten 8.000 € − 1.000 € = 7.000 €. Wird das Disagio in der Handelsbilanz sofort abgezogen, ist der steuerliche Gewinn 2026 um 7.000 € höher.\n\nZum Schluss: § 5 Abs. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Darlehen mit Disagio: Was steht zum Bilanzstichtag in der Steuerbilanz? Eine Prüfungsfrage zur Bewertung von Verbindlichkeiten.\n\n▸ Verbindlichkeit: Rückzahlungsbetrag, Bewertung unter sinngemäßer Anwendung von Nr. 2 (§ 6 Abs. 1 Nr. 3 S. 1 EStG); keine Abzinsung für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG). Handelsbilanz: Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n▸ Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Fälligkeitsdarlehen gleichmäßig über die Laufzeit aufzulösen. Handelsrechtlich Wahlrecht (§ 250 Abs. 3 S. 1 HGB).\n▸ Verzicht auf die Abgrenzung nur, wenn der Betrag die Grenze des § 6 Abs. 2 S. 1 EStG nicht übersteigt (§ 5 Abs. 5 S. 2 EStG).\n\nFall: 200.000 € Darlehen ab 1.7.2026, vier Jahre, Auszahlung 192.000 €: Verbindlichkeit 200.000 €, aktiver Posten 8.000 € − 1.000 € = 7.000 €. Wird das Disagio in der Handelsbilanz sofort abgezogen, ist der steuerliche Gewinn 2026 um 7.000 € höher.\n\nZum Schluss: § 5 Abs. 5 EStG und § 250 Abs. 3 HGB zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

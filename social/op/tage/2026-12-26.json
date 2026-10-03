@@ -329,7 +329,7 @@
      ],
      "norm": "§ 9 Abs. 1 Nr. 2 KStG",
      "unter": "mit Zahlen",
-     "teaser": "+ Markier-Guide § 9 KStG",
+     "teaser": "+ Markier-Guide §§ 9, 10 KStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -601,15 +601,15 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Von welcher Basis rechnest du die 20 %?",
-     "teaser": "Weiterwischen: § 9 KStG markiert"
+     "teaser": "Weiterwischen: §§ 9, 10 KStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 9 KStG (Auszug)",
+     "kopf": "§§ 9, 10 KStG (Auszug)",
      "absaetze": [
       [
-       "(1)",
+       "§ 9 (1)",
        [
         [
          "Abziehbar sind auch: […] 2. vorbehaltlich des § 8 Absatz 3",
@@ -649,6 +649,31 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 10",
+       [
+        [
+         "Nichtabziehbar sind auch: […] 2.",
+         null
+        ],
+        [
+         "die Steuern vom Einkommen",
+         "gr1"
+        ],
+        [
+         "und sonstige Personensteuern […] 4.",
+         null
+        ],
+        [
+         "die Hälfte der Vergütungen",
+         "g2"
+        ],
+        [
+         "jeder Art, die an Mitglieder des Aufsichtsrats […] gewährt werden.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -663,15 +688,23 @@
       [
        "Basis!",
        "b1"
+      ],
+      [
+       "KSt, Soli",
+       "gr1"
+      ],
+      [
+       "Aufsichtsrat",
+       "g2"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 10 KStG",
-      "Steuern, Hälfte Aufsichtsrat, Geldstrafen"
+      "Erst zurückrechnen: 215.000 €",
+      "dann 20 % als Höchstbetrag"
      ]
     }
    ],
-   "caption": "Spenden und nichtabziehbare Aufwendungen der GmbH: der Rechenweg für Klausur 2.\n\n▸ Nicht abziehbar: Steuern vom Einkommen samt Soli (§ 10 Nr. 2 KStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Spenden für steuerbegünstigte Zwecke sind abziehbar bis 20 % des Einkommens oder 4 ‰ der Summe aus Umsätzen und Löhnen (§ 9 Abs. 1 Nr. 2 S. 1 KStG).\n▸ Maßgeblich ist das Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 2 S. 1 KStG).\n▸ Was den Höchstbetrag übersteigt, wird in Folgejahren abgezogen und gesondert festgestellt (§ 9 Abs. 1 Nr. 2 S. 9, 10 KStG).\n\nRechnung: 150.000 € + 30.000 € + 10.000 € + 25.000 € = 215.000 €; Höchstbetrag 43.000 €; Einkommen 190.000 €. Variante mit 50.000 € Spenden: 240.000 € – 48.000 € = 192.000 €, Vortrag 2.000 €.\n\nZum Schluss: § 9 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Spenden und nichtabziehbare Aufwendungen der GmbH: der Rechenweg für Klausur 2.\n\n▸ Nicht abziehbar: Steuern vom Einkommen samt Soli (§ 10 Nr. 2 KStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Spenden für steuerbegünstigte Zwecke sind abziehbar bis 20 % des Einkommens oder 4 ‰ der Summe aus Umsätzen und Löhnen (§ 9 Abs. 1 Nr. 2 S. 1 KStG).\n▸ Maßgeblich ist das Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 2 S. 1 KStG).\n▸ Was den Höchstbetrag übersteigt, wird in Folgejahren abgezogen und gesondert festgestellt (§ 9 Abs. 1 Nr. 2 S. 9, 10 KStG).\n\nRechnung: 150.000 € + 30.000 € + 10.000 € + 25.000 € = 215.000 €; Höchstbetrag 43.000 €; Einkommen 190.000 €. Variante mit 50.000 € Spenden: 240.000 € – 48.000 € = 192.000 €, Vortrag 2.000 €.\n\nZum Schluss: §§ 9, 10 KStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

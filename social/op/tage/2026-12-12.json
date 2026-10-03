@@ -377,7 +377,7 @@
      ],
      "norm": "§ 7 Abs. 1 S. 5 EStG",
      "unter": "mit Zahlen",
-     "teaser": "+ Markier-Guide § 7 + R 4.2",
+     "teaser": "+ Markier-Guide §§ 6, 7 + R 4.2",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -425,7 +425,7 @@
        "3 % für Betriebsgebäude"
       ]
      ],
-     "teaser": "Am Ende: § 7 EStG + R 4.2 markiert"
+     "teaser": "Am Ende: §§ 6, 7 EStG + R 4.2 markiert"
     },
     {
      "typ": "inhalt",
@@ -651,18 +651,43 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du die Basis gekürzt?",
-     "teaser": "Weiterwischen: § 7 + R 4.2 markiert"
+     "teaser": "Weiterwischen: §§ 6, 7 + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Gesetz und Richtlinie markieren",
-     "kopf": "§ 7 Abs. 1 S. 5 EStG (Auszug)",
+     "kopf": "§§ 6, 7 EStG (Auszug)",
      "absaetze": [
       [
-       "(1)",
+       "§ 6 (1) Nr. 5",
        [
         [
-         "[…] Bei Wirtschaftsgütern, die nach einer Verwendung zur Erzielung von Einkünften im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7",
+         "Einlagen sind",
+         null
+        ],
+        [
+         "mit dem Teilwert",
+         "g3"
+        ],
+        [
+         "für den Zeitpunkt der Zuführung anzusetzen; sie sind jedoch höchstens mit den Anschaffungs- oder Herstellungskosten anzusetzen, wenn das zugeführte Wirtschaftsgut a)",
+         null
+        ],
+        [
+         "innerhalb der letzten drei Jahre",
+         "r3"
+        ],
+        [
+         "vor dem Zeitpunkt der Zuführung aus dem Privatvermögen angeschafft oder hergestellt worden ist, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 7 (1) S. 5",
+       [
+        [
+         "Bei Wirtschaftsgütern, die nach einer Verwendung zur Erzielung von Einkünften im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7",
          null
         ],
         [
@@ -678,7 +703,7 @@
          "b1"
         ],
         [
-         "oder Substanzverringerung, Sonderabschreibungen oder erhöhte Absetzungen, die bis zum Zeitpunkt der Einlage vorgenommen worden sind,",
+         "[…], die bis zum Zeitpunkt der Einlage vorgenommen worden sind,",
          null
         ],
         [
@@ -686,7 +711,7 @@
          "r1"
         ],
         [
-         "ist der Einlagewert niedriger als dieser Wert, bemisst sich die weitere Absetzung für Abnutzung vom Einlagewert.",
+         "[…]",
          null
         ]
        ]
@@ -694,8 +719,12 @@
      ],
      "notizen": [
       [
-       "vorher V+V",
-       "g1"
+       "Ben: 560.000 €",
+       "g3"
+      ],
+      [
+       "Variante 2024",
+       "r3"
       ],
       [
        "AfA abziehen",
@@ -707,8 +736,8 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 6 Abs. 1 Nr. 5 EStG",
-      "Einlage: Teilwert, binnen 3 Jahren höchstens AK"
+      "Ben: 560.000 € − 100.000 €",
+      "AfA 3 % von 460.000 € = 13.800 €"
      ],
      "zweite": {
       "kopf": "R 4.2 Abs. 2 EStR (Auszug)",
@@ -748,7 +777,7 @@
      }
     }
    ],
-   "caption": "Vermietetes Grundstück an die eigene KG: Sonderbetriebsvermögen I, Einlage und AfA. Der Rechenweg für Klausur 3.\n\n1. Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR). Die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n2. Der Wechsel aus dem Privatvermögen ist eine Einlage (§ 4 Abs. 1 S. 8 EStG), bewertet mit dem Teilwert; bei Anschaffung innerhalb der letzten drei Jahre höchstens mit den um die AfA gekürzten Anschaffungskosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n3. War das Gebäude vorher vermietet, mindert sich der Einlagewert für die weitere AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5 EStG).\n4. Betriebsgebäude, nicht zu Wohnzwecken, Bauantrag nach dem 31.03.1985: 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG).\n\nBeispiel: 560.000 € − 100.000 € = 460.000 € × 3 % = 13.800 €. Variante mit Kauf 2024: Einlage 480.000 €, keine weitere Kürzung, AfA 14.400 €.\n\nZum Schluss: § 7 EStG und R 4.2 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Vermietetes Grundstück an die eigene KG: Sonderbetriebsvermögen I, Einlage und AfA. Der Rechenweg für Klausur 3.\n\n1. Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR). Die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n2. Der Wechsel aus dem Privatvermögen ist eine Einlage (§ 4 Abs. 1 S. 8 EStG), bewertet mit dem Teilwert; bei Anschaffung innerhalb der letzten drei Jahre höchstens mit den um die AfA gekürzten Anschaffungskosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n3. War das Gebäude vorher vermietet, mindert sich der Einlagewert für die weitere AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5 EStG).\n4. Betriebsgebäude, nicht zu Wohnzwecken, Bauantrag nach dem 31.03.1985: 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG).\n\nBeispiel: 560.000 € − 100.000 € = 460.000 € × 3 % = 13.800 €. Variante mit Kauf 2024: Einlage 480.000 €, keine weitere Kürzung, AfA 14.400 €.\n\nZum Schluss: §§ 6, 7 EStG und R 4.2 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

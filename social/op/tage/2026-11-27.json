@@ -395,7 +395,7 @@
      ],
      "norm": "§ 6 Abs. 1 Nr. 2a EStG",
      "unter": "10 Minuten",
-     "teaser": "+ Markier-Guide § 6 EStG",
+     "teaser": "+ Markier-Guide § 6 EStG, § 240 HGB",
      "motiv": {
       "typ": "icon",
       "name": "tabler:package",
@@ -433,7 +433,7 @@
        "Teilwert als Grenze"
       ]
      ],
-     "teaser": "Am Ende: § 6 EStG markiert"
+     "teaser": "Am Ende: § 6 EStG, § 240 HGB markiert"
     },
     {
      "typ": "inhalt",
@@ -626,7 +626,7 @@
      ],
      "speichern": "Speichern für die Mündliche",
      "frage": "Wo hakt dein Vortrag?",
-     "teaser": "Weiterwischen: § 6 EStG markiert"
+     "teaser": "Weiterwischen: § 6 EStG, § 240 HGB markiert"
     },
     {
      "typ": "gesetz",
@@ -690,12 +690,90 @@
       ]
      ],
      "randnotiz": [
-      "Daneben: § 240 Abs. 3, 4 HGB",
-      "Festwert und Durchschnitt über § 5 Abs. 1 EStG"
+      "Weiterwischen: § 240 Abs. 3, 4 HGB",
+      "Festwert und Durchschnitt"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 240 HGB Inventar (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "Vermögensgegenstände des Sachanlagevermögens sowie Roh-, Hilfs- und Betriebsstoffe können, wenn sie",
+         null
+        ],
+        [
+         "regelmäßig ersetzt werden",
+         "g1"
+        ],
+        [
+         "und ihr Gesamtwert für das Unternehmen von nachrangiger Bedeutung ist,",
+         null
+        ],
+        [
+         "mit einer gleichbleibenden Menge und einem gleichbleibenden Wert",
+         "b1"
+        ],
+        [
+         "angesetzt werden, sofern ihr Bestand in seiner Größe, seinem Wert und seiner Zusammensetzung nur geringen Veränderungen unterliegt. Jedoch ist in der Regel",
+         null
+        ],
+        [
+         "alle drei Jahre eine körperliche Bestandsaufnahme",
+         "r1"
+        ],
+        [
+         "durchzuführen.",
+         null
+        ]
+       ]
+      ],
+      [
+       4,
+       [
+        [
+         "Gleichartige Vermögensgegenstände des Vorratsvermögens sowie andere gleichartige oder annähernd gleichwertige bewegliche Vermögensgegenstände und Schulden können jeweils zu einer Gruppe zusammengefaßt und",
+         null
+        ],
+        [
+         "mit dem gewogenen Durchschnittswert",
+         "gr1"
+        ],
+        [
+         "angesetzt werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Voraussetzung",
+       "g1"
+      ],
+      [
+       "Festwert",
+       "b1"
+      ],
+      [
+       "Inventur",
+       "r1"
+      ],
+      [
+       "Durchschnitt",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Lifo 650 € oder Durchschnitt 700 €",
+      "beides auch in der Steuerbilanz"
      ]
     }
    ],
-   "caption": "Kurzvortrag für die mündliche Prüfung: Lifo, Durchschnitt oder Festwert – was erlaubt die Steuerbilanz? 🎤\n\nAufbau für rund zehn Minuten:\n\n▸ Einstieg: Grundsatz der Einzelbewertung (§ 252 Abs. 1 Nr. 3 HGB); bei Massenvorräten erlaubt das Gesetz Vereinfachungen.\n▸ Durchschnitt: gleichartige Vorräte zu Gruppen zusammenfassen, gewogener Durchschnittswert (§ 240 Abs. 4 HGB).\n▸ Festwert: Sachanlagen sowie Roh-, Hilfs- und Betriebsstoffe, regelmäßig ersetzt, Gesamtwert nachrangig, Bestand nur gering schwankend; in der Regel alle drei Jahre körperliche Bestandsaufnahme (§ 240 Abs. 3 HGB). Steuerlich über die Maßgeblichkeit (§ 5 Abs. 1 S. 1 EStG).\n▸ Lifo: Als Verbrauchsfolge lässt die Steuerbilanz nur Lifo zu, für Bilanzierer nach § 5 EStG und gleichartige Vorräte, soweit mit den GoB vereinbar; Abweichung später nur mit Zustimmung des Finanzamts (§ 6 Abs. 1 Nr. 2a S. 1, 3 EStG). Lifo muss nicht der tatsächlichen Abgangsfolge entsprechen, ist aber bei Vorräten mit geringer Haltbarkeit nicht zulässig; das Wahlrecht ist unabhängig von der Handelsbilanz (BMF vom 12.05.2015, Rn. 5, 9, 10).\n▸ Schluss: Niedrigerer Teilwert nur bei voraussichtlich dauernder Wertminderung (§ 6 Abs. 1 Nr. 2 S. 2 EStG).\n\nBeispiel: Anfang 100 kg zu 4 €, Zugang 200 kg zu 5 €, Endbestand 150 kg. Lifo 650 €, Durchschnitt 700 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 2a EStG zum Markieren. Speichern für die Mündliche 📌",
+   "caption": "Kurzvortrag für die mündliche Prüfung: Lifo, Durchschnitt oder Festwert – was erlaubt die Steuerbilanz? 🎤\n\nAufbau für rund zehn Minuten:\n\n▸ Einstieg: Grundsatz der Einzelbewertung (§ 252 Abs. 1 Nr. 3 HGB); bei Massenvorräten erlaubt das Gesetz Vereinfachungen.\n▸ Durchschnitt: gleichartige Vorräte zu Gruppen zusammenfassen, gewogener Durchschnittswert (§ 240 Abs. 4 HGB).\n▸ Festwert: Sachanlagen sowie Roh-, Hilfs- und Betriebsstoffe, regelmäßig ersetzt, Gesamtwert nachrangig, Bestand nur gering schwankend; in der Regel alle drei Jahre körperliche Bestandsaufnahme (§ 240 Abs. 3 HGB). Steuerlich über die Maßgeblichkeit (§ 5 Abs. 1 S. 1 EStG).\n▸ Lifo: Als Verbrauchsfolge lässt die Steuerbilanz nur Lifo zu, für Bilanzierer nach § 5 EStG und gleichartige Vorräte, soweit mit den GoB vereinbar; Abweichung später nur mit Zustimmung des Finanzamts (§ 6 Abs. 1 Nr. 2a S. 1, 3 EStG). Lifo muss nicht der tatsächlichen Abgangsfolge entsprechen, ist aber bei Vorräten mit geringer Haltbarkeit nicht zulässig; das Wahlrecht ist unabhängig von der Handelsbilanz (BMF vom 12.05.2015, Rn. 5, 9, 10).\n▸ Schluss: Niedrigerer Teilwert nur bei voraussichtlich dauernder Wertminderung (§ 6 Abs. 1 Nr. 2 S. 2 EStG).\n\nBeispiel: Anfang 100 kg zu 4 €, Zugang 200 kg zu 5 €, Endbestand 150 kg. Lifo 650 €, Durchschnitt 700 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 2a EStG und § 240 Abs. 3, 4 HGB zum Markieren. Speichern für die Mündliche 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

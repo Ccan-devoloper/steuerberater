@@ -40,7 +40,7 @@
      ],
      "norm": "§§ 347, 172 ff. AO",
      "unter": "Plan A, Plan B",
-     "teaser": "+ Markier-Guide § 355 AO",
+     "teaser": "+ Markier-Guide §§ 172, 355 AO",
      "motiv": {
       "typ": "kalender",
       "monat": "JUNI",
@@ -246,30 +246,13 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Prüfst du Plan A immer zuerst?",
-     "teaser": "Weiterwischen: § 355 AO markiert"
+     "teaser": "Weiterwischen: §§ 172, 355 AO markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§§ 355, 172 AO (Auszug)",
+     "kopf": "§§ 172, 355 AO (Auszug)",
      "absaetze": [
-      [
-       "§ 355 (1)",
-       [
-        [
-         "Der Einspruch nach § 347 Absatz 1 Satz 1 ist",
-         null
-        ],
-        [
-         "innerhalb eines Monats nach Bekanntgabe",
-         "g1"
-        ],
-        [
-         "des Verwaltungsakts einzulegen. […]",
-         null
-        ]
-       ]
-      ],
       [
        "§ 172 (1)",
        [
@@ -286,16 +269,33 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 355 (1)",
+       [
+        [
+         "Der Einspruch nach § 347 Absatz 1 Satz 1 ist",
+         null
+        ],
+        [
+         "innerhalb eines Monats nach Bekanntgabe",
+         "g1"
+        ],
+        [
+         "des Verwaltungsakts einzulegen. […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
       [
-       "Frist",
-       "g1"
-      ],
-      [
        "Antrag nur in der Frist",
        "r1"
+      ],
+      [
+       "Frist",
+       "g1"
       ]
      ],
      "randnotiz": [
@@ -304,7 +304,7 @@
      ]
     }
    ],
-   "caption": "Mini-Fall Abgabenordnung: Bescheid falsch – Einspruch oder Korrektur?\n\nFall: Das Finanzamt streicht Fortbildungskosten rechtsfehlerhaft. Aufgabe zur Post am 04.05.2026.\n\n1. Frist: Bekanntgabe am vierten Tag nach Aufgabe zur Post, also 08.05.2026 (§ 122 Abs. 2 Nr. 1 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), Ende 08.06.2026 (§ 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n2. Plan A, Fehler am 01.06. bemerkt: Einspruch statthaft (§ 347 Abs. 1 S. 1 Nr. 1 AO), fristgerecht, schriftlich oder elektronisch (§ 357 Abs. 1 AO), Beschwer (§ 350 AO). Begründet.\n3. Plan B, Fehler am 20.06. bemerkt: Ein Änderungsantrag zugunsten hilft nur, wenn er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Neue Tatsachen fehlen (§ 173 Abs. 1 Nr. 2 AO). Der Bescheid bleibt bestandskräftig.\n\nRechtsfehler lassen sich nach Fristablauf regelmäßig nicht mehr korrigieren – deshalb immer zuerst Plan A prüfen.\n\nZum Schluss: §§ 355, 172 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Mini-Fall Abgabenordnung: Bescheid falsch – Einspruch oder Korrektur?\n\nFall: Das Finanzamt streicht Fortbildungskosten rechtsfehlerhaft. Aufgabe zur Post am 04.05.2026.\n\n1. Frist: Bekanntgabe am vierten Tag nach Aufgabe zur Post, also 08.05.2026 (§ 122 Abs. 2 Nr. 1 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), Ende 08.06.2026 (§ 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n2. Plan A, Fehler am 01.06. bemerkt: Einspruch statthaft (§ 347 Abs. 1 S. 1 Nr. 1 AO), fristgerecht, schriftlich oder elektronisch (§ 357 Abs. 1 AO), Beschwer (§ 350 AO). Begründet.\n3. Plan B, Fehler am 20.06. bemerkt: Ein Änderungsantrag zugunsten hilft nur, wenn er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Neue Tatsachen fehlen (§ 173 Abs. 1 Nr. 2 AO). Der Bescheid bleibt bestandskräftig.\n\nRechtsfehler lassen sich nach Fristablauf regelmäßig nicht mehr korrigieren – deshalb immer zuerst Plan A prüfen.\n\nZum Schluss: §§ 172, 355 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -360,7 +360,7 @@
      ],
      "norm": "§§ 1, 2 KStG",
      "unter": "A oder B?",
-     "teaser": "+ Markier-Guide § 2 KStG",
+     "teaser": "+ Markier-Guide § 2 KStG, § 49 EStG",
      "motiv": {
       "typ": "icon",
       "name": "tabler:world",
@@ -521,7 +521,7 @@
     {
      "typ": "merke",
      "oben": [
-      "A: unbeschränkt mit allem · B: beschränkt mit der Halle",
+      "A: unbeschränkt mit allem; B: beschränkt mit der Halle",
       "Sitz oder Leitung im Inland reicht",
       "GELB"
      ],
@@ -563,7 +563,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Prüfst du das DBA zu früh?",
-     "teaser": "Weiterwischen: § 2 KStG markiert"
+     "teaser": "Weiterwischen: § 2 KStG, § 49 EStG"
     },
     {
      "typ": "gesetz",
@@ -628,12 +628,73 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 49 EStG",
+      "Weiterwischen: § 49 EStG",
       "Welche Einkünfte inländisch sind"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 49 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Inländische Einkünfte im Sinne der beschränkten Einkommensteuerpflicht (§ 1 Absatz 4) sind […] 2. Einkünfte aus Gewerbebetrieb (§§ 15 bis 17), […] f) die […] durch aa)",
+         null
+        ],
+        [
+         "Vermietung und Verpachtung",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ],
+        [
+         "von inländischem unbeweglichem Vermögen",
+         "r1"
+        ],
+        [
+         "[…] erzielt werden. […]",
+         null
+        ],
+        [
+         "Als Einkünfte aus Gewerbebetrieb gelten auch die Einkünfte aus Tätigkeiten im Sinne dieses Buchstabens, die von einer Körperschaft im Sinne des § 2 Nummer 1 des Körperschaftsteuergesetzes erzielt werden,",
+         null
+        ],
+        [
+         "die mit einer Kapitalgesellschaft",
+         "b1"
+        ],
+        [
+         "[…] vergleichbar ist.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Miete",
+       "g1"
+      ],
+      [
+       "Halle in Bremen",
+       "r1"
+      ],
+      [
+       "B.V. wie GmbH",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Fall B: beschränkt steuerpflichtig",
+      "nur mit der Miete aus Bremen"
      ]
     }
    ],
-   "caption": "Gegenüberstellung Körperschaftsteuer: unbeschränkt oder beschränkt steuerpflichtig?\n\n▸ Unbeschränkt: Geschäftsleitung oder Sitz im Inland (§ 1 Abs. 1 KStG), erfasst werden sämtliche Einkünfte (§ 1 Abs. 2 KStG).\n▸ Beschränkt: weder Geschäftsleitung noch Sitz im Inland, nur mit inländischen Einkünften (§ 2 Nr. 1 KStG). Welche das sind, ergibt sich über § 8 Abs. 1 KStG aus § 49 EStG.\n▸ Reihenfolge: Sitz und Geschäftsleitung (§§ 10, 11 AO), bei ausländischen Gesellschaften Typenvergleich, inländische Einkünfte, erst zuletzt das DBA.\n\nBeispiel: B.V. mit Sitz in Rotterdam, Lagerhalle in Bremen. Wird sie von Hamburg aus geleitet, ist sie unbeschränkt steuerpflichtig (§ 1 Abs. 1 Nr. 1 KStG, § 10 AO). Wird sie in Rotterdam geleitet, ist sie nur mit den Mieteinkünften beschränkt steuerpflichtig (§ 2 Nr. 1 KStG, § 49 Abs. 1 Nr. 2 Buchst. f EStG).\n\nZum Schluss: §§ 1, 2 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Gegenüberstellung Körperschaftsteuer: unbeschränkt oder beschränkt steuerpflichtig?\n\n▸ Unbeschränkt: Geschäftsleitung oder Sitz im Inland (§ 1 Abs. 1 KStG), erfasst werden sämtliche Einkünfte (§ 1 Abs. 2 KStG).\n▸ Beschränkt: weder Geschäftsleitung noch Sitz im Inland, nur mit inländischen Einkünften (§ 2 Nr. 1 KStG). Welche das sind, ergibt sich über § 8 Abs. 1 KStG aus § 49 EStG.\n▸ Reihenfolge: Sitz und Geschäftsleitung (§§ 10, 11 AO), bei ausländischen Gesellschaften Typenvergleich, inländische Einkünfte, erst zuletzt das DBA.\n\nBeispiel: B.V. mit Sitz in Rotterdam, Lagerhalle in Bremen. Wird sie von Hamburg aus geleitet, ist sie unbeschränkt steuerpflichtig (§ 1 Abs. 1 Nr. 1 KStG, § 10 AO). Wird sie in Rotterdam geleitet, ist sie nur mit den Mieteinkünften beschränkt steuerpflichtig (§ 2 Nr. 1 KStG, § 49 Abs. 1 Nr. 2 Buchst. f EStG).\n\nZum Schluss: §§ 1, 2 KStG und § 49 Abs. 1 Nr. 2 Buchst. f EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

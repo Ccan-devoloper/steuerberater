@@ -398,7 +398,7 @@
      ],
      "norm": "§ 255 Abs. 2 HGB",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 255 + R 6.3",
+     "teaser": "+ Markier-Guide § 255, § 6 + R 6.3",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -446,7 +446,7 @@
        "Forschung und Vertrieb"
       ]
      ],
-     "teaser": "Am Ende: § 255 HGB + R 6.3 markiert"
+     "teaser": "Am Ende: § 255 HGB, § 6 EStG + R 6.3 markiert"
     },
     {
      "typ": "inhalt",
@@ -666,14 +666,14 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Schon mal Vertrieb aktiviert?",
-     "teaser": "Weiterwischen: § 255 + R 6.3 markiert"
+     "teaser": "Weiterwischen: § 255, § 6 + R 6.3 markiert"
     },
     {
      "typ": "gesetz",
-     "kopf": "§ 255 HGB Bewertungsmaßstäbe (Auszug)",
+     "kopf": "§ 255 HGB, § 6 EStG (Auszug)",
      "absaetze": [
       [
-       "(2)",
+       "§ 255 (2) HGB",
        [
         [
          "[…] Dazu gehören",
@@ -700,6 +700,23 @@
          "r1"
         ]
        ]
+      ],
+      [
+       "§ 6 (1) Nr. 1b EStG",
+       [
+        [
+         "[…] Das Wahlrecht ist bei Gewinnermittlung nach § 5",
+         null
+        ],
+        [
+         "in Übereinstimmung mit der Handelsbilanz",
+         "gr1"
+        ],
+        [
+         "auszuüben.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -714,11 +731,15 @@
       [
        "Verbot",
        "r1"
+      ],
+      [
+       "wie HB: 3.000 € rein",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 6 Abs. 1 Nr. 1b EStG",
-      "Steuerlich dieselbe Wahl wie in der Handelsbilanz"
+      "Mira: 50.000 € + 3.000 €",
+      "Herstellungskosten 53.000 €"
      ],
      "zweite": {
       "kopf": "R 6.3 EStR (Auszug)",
@@ -779,7 +800,7 @@
      }
     }
    ],
-   "caption": "Herstellungskosten in 4 Schritten: was muss, was darf, was darf nie hinein – das Prüfschema für die Bilanzklausur.\n\n1. Kosten sortieren: Einzelkosten und Gemeinkosten trennen.\n2. Pflicht: Materialkosten, Fertigungskosten, Sonderkosten der Fertigung sowie angemessene Teile der Material- und Fertigungsgemeinkosten und des fertigungsbedingten Werteverzehrs des Anlagevermögens (§ 255 Abs. 2 S. 2 HGB).\n3. Wahlrecht: angemessene Kosten der allgemeinen Verwaltung, sozialer Einrichtungen, freiwilliger sozialer Leistungen und der betrieblichen Altersversorgung (§ 255 Abs. 2 S. 3 HGB). Steuerlich ist das Wahlrecht in Übereinstimmung mit der Handelsbilanz auszuüben (§ 6 Abs. 1 Nr. 1b S. 2 EStG). Fremdkapitalzinsen für die Herstellung: Wahlrecht nach § 255 Abs. 3 S. 2 HGB, steuerlich nur bei Einbeziehung in der Handelsbilanz (R 6.3 Abs. 5 EStR).\n4. Verbot: Forschungs- und Vertriebskosten (§ 255 Abs. 2 S. 4 HGB); kalkulatorische Kosten ohne Aufwand ebenfalls nicht.\n\nBeispiel: Pflichtteil 50.000 € + Verwaltung 3.000 € (wie in der Handelsbilanz) = 53.000 €; Vertrieb 2.500 € bleibt draußen.\n\nZum Schluss: § 255 Abs. 2 HGB und R 6.3 Abs. 5 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Herstellungskosten in 4 Schritten: was muss, was darf, was darf nie hinein – das Prüfschema für die Bilanzklausur.\n\n1. Kosten sortieren: Einzelkosten und Gemeinkosten trennen.\n2. Pflicht: Materialkosten, Fertigungskosten, Sonderkosten der Fertigung sowie angemessene Teile der Material- und Fertigungsgemeinkosten und des fertigungsbedingten Werteverzehrs des Anlagevermögens (§ 255 Abs. 2 S. 2 HGB).\n3. Wahlrecht: angemessene Kosten der allgemeinen Verwaltung, sozialer Einrichtungen, freiwilliger sozialer Leistungen und der betrieblichen Altersversorgung (§ 255 Abs. 2 S. 3 HGB). Steuerlich ist das Wahlrecht in Übereinstimmung mit der Handelsbilanz auszuüben (§ 6 Abs. 1 Nr. 1b S. 2 EStG). Fremdkapitalzinsen für die Herstellung: Wahlrecht nach § 255 Abs. 3 S. 2 HGB, steuerlich nur bei Einbeziehung in der Handelsbilanz (R 6.3 Abs. 5 EStR).\n4. Verbot: Forschungs- und Vertriebskosten (§ 255 Abs. 2 S. 4 HGB); kalkulatorische Kosten ohne Aufwand ebenfalls nicht.\n\nBeispiel: Pflichtteil 50.000 € + Verwaltung 3.000 € (wie in der Handelsbilanz) = 53.000 €; Vertrieb 2.500 € bleibt draußen.\n\nZum Schluss: § 255 Abs. 2 HGB, § 6 Abs. 1 Nr. 1b EStG und R 6.3 Abs. 5 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

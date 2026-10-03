@@ -244,7 +244,7 @@
      ],
      "norm": "§ 8 Abs. 1 KStG",
      "unter": "GmbH-Ergebnis",
-     "teaser": "+ Markier-Guide § 10 KStG",
+     "teaser": "+ Markier-Guide KStG + EStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -292,7 +292,7 @@
        "mit Höchstbetrag"
       ]
      ],
-     "teaser": "Am Ende: § 10 KStG markiert"
+     "teaser": "Am Ende: § 10 KStG + § 4 EStG markiert"
     },
     {
      "typ": "vergleich",
@@ -493,7 +493,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welche Korrektur vergisst du gern?",
-     "teaser": "Weiterwischen: § 10 KStG markiert"
+     "teaser": "Weiterwischen: § 10 KStG + § 4 EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -559,12 +559,83 @@
       ]
      ],
      "randnotiz": [
-      "Gewerbesteuer: § 4 Abs. 5b EStG",
-      "steht nicht hier, sondern im EStG"
+      "Weiterwischen: § 4 Abs. 5b EStG",
+      "Gewerbesteuer steht nicht im KStG"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 4 EStG, § 8 KStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 4 (4)",
+       [
+        [
+         "Betriebsausgaben sind die Aufwendungen, die durch den Betrieb veranlasst sind.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "(5b)",
+       [
+        [
+         "Die Gewerbesteuer",
+         "g1"
+        ],
+        [
+         "und die darauf entfallenden Nebenleistungen",
+         null
+        ],
+        [
+         "sind keine Betriebsausgaben.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 8 (1) 1 KStG",
+       [
+        [
+         "Was als Einkommen gilt und wie das Einkommen zu ermitteln ist, bestimmt sich",
+         null
+        ],
+        [
+         "nach den Vorschriften des Einkommensteuergesetzes",
+         "b2"
+        ],
+        [
+         "und dieses Gesetzes.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "b1"
+      ],
+      [
+       "Ausnahme",
+       "g1"
+      ],
+      [
+       "außerhalb der Bilanz dazu",
+       "r1"
+      ],
+      [
+       "gilt auch für die GmbH",
+       "b2"
+      ]
+     ],
+     "randnotiz": [
+      "Hana: + 25.000 € Gewerbesteuer",
+      "außerhalb der Bilanz wieder dazu"
      ]
     }
    ],
-   "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nSpeichern für Klausur 2 📌",
+   "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nZum Schluss: § 10 Nr. 2, 4 KStG, § 4 Abs. 4, 5b EStG und § 8 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

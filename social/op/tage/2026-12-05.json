@@ -235,8 +235,46 @@
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§§ 122, 355, 108 AO (Auszug)",
+     "kopf": "§§ 108, 122, 355 AO (Auszug)",
      "absaetze": [
+      [
+       "§ 108 (1)",
+       [
+        [
+         "Für die Berechnung von Fristen und für die Bestimmung von Terminen gelten die",
+         null
+        ],
+        [
+         "§§ 187 bis 193 des Bürgerlichen Gesetzbuchs",
+         "b2"
+        ],
+        [
+         "entsprechend, soweit nicht durch die Absätze 2 bis 5 etwas anderes bestimmt ist.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 108 (3)",
+       [
+        [
+         "Fällt das Ende einer Frist auf einen",
+         null
+        ],
+        [
+         "Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend,",
+         "r1"
+        ],
+        [
+         "so endet die Frist mit dem Ablauf des",
+         null
+        ],
+        [
+         "nächstfolgenden Werktags.",
+         "r1"
+        ]
+       ]
+      ],
       [
        "§ 122 (2)",
        [
@@ -270,30 +308,17 @@
          null
         ]
        ]
-      ],
-      [
-       "§ 108 (3)",
-       [
-        [
-         "Fällt das Ende einer Frist auf einen",
-         null
-        ],
-        [
-         "Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend,",
-         "r1"
-        ],
-        [
-         "so endet die Frist mit dem Ablauf des",
-         null
-        ],
-        [
-         "nächstfolgenden Werktags.",
-         "b1"
-        ]
-       ]
       ]
      ],
      "notizen": [
+      [
+       "Monatsende nach BGB",
+       "b2"
+      ],
+      [
+       "Wochenende: Montag",
+       "r1"
+      ],
       [
        "Vier Tage",
        "g1"
@@ -301,23 +326,15 @@
       [
        "Ein Monat",
        "gr1"
-      ],
-      [
-       "Wochenende",
-       "r1"
-      ],
-      [
-       "Folge",
-       "b1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 108 Abs. 1 AO",
-      "Fristberechnung nach §§ 187 bis 193 BGB"
+      "Post Mo 2.11., bekannt Fr 6.11.",
+      "6.12. ist Sonntag: Fristende Mo 7.12."
      ]
     }
    ],
-   "caption": "Klausurtechnik für den AO-Teil in Klausur 1: Fahrplan, Zeit und Fristen, die man sehen kann.\n\n1. Erst die Aufgabenstellung lesen: Was genau ist gefragt?\n2. Zulässigkeit knapp prüfen, je Punkt ein Satz mit Norm (§ 358 S. 1 AO).\n3. Begründetheit ausführlich, dort liegen die meisten Punkte.\n4. Ergebnis hinschreiben.\n\nZeit: Die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB); am Ende wird abgegeben, auch wenn die Arbeit unvollendet ist (§ 20 Abs. 2 S. 1 DVStB).\n\nFristen als Kette: Aufgabe zur Post Montag, 2.11.2026; Bekanntgabe am vierten Tag, 6.11.2026 (§ 122 Abs. 2 Nr. 1 AO); Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), rechnerisches Ende Sonntag, 6.12.2026; Fristende Montag, 7.12.2026 (§ 108 Abs. 3 AO).\n\nPunktefresser: drei statt vier Tage, Wochenende am Fristende übersehen, keine Änderungsnorm genannt.\n\nZum Schluss: §§ 122, 355, 108 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Klausurtechnik für den AO-Teil in Klausur 1: Fahrplan, Zeit und Fristen, die man sehen kann.\n\n1. Erst die Aufgabenstellung lesen: Was genau ist gefragt?\n2. Zulässigkeit knapp prüfen, je Punkt ein Satz mit Norm (§ 358 S. 1 AO).\n3. Begründetheit ausführlich, dort liegen die meisten Punkte.\n4. Ergebnis hinschreiben.\n\nZeit: Die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB); am Ende wird abgegeben, auch wenn die Arbeit unvollendet ist (§ 20 Abs. 2 S. 1 DVStB).\n\nFristen als Kette: Aufgabe zur Post Montag, 2.11.2026; Bekanntgabe am vierten Tag, 6.11.2026 (§ 122 Abs. 2 Nr. 1 AO); Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), rechnerisches Ende Sonntag, 6.12.2026; Fristende Montag, 7.12.2026 (§ 108 Abs. 3 AO).\n\nPunktefresser: drei statt vier Tage, Wochenende am Fristende übersehen, keine Änderungsnorm genannt.\n\nZum Schluss: §§ 108, 122, 355 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

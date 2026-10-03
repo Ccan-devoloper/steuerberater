@@ -293,6 +293,23 @@
          null
         ]
        ]
+      ],
+      [
+       "(5)",
+       [
+        [
+         "Von dem Erwerb sind […] als Nachlaßverbindlichkeiten abzugsfähig […] 3. die Kosten der Bestattung des Erblassers, […] Für diese Kosten wird insgesamt ein Betrag von",
+         null
+        ],
+        [
+         "15 000 Euro ohne Nachweis",
+         "g2"
+        ],
+        [
+         "abgezogen. […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -301,25 +318,25 @@
        "g1"
       ],
       [
-       "Befreiungen",
-       "b1"
-      ],
-      [
        "Wert nach § 12",
        "gr1"
       ],
       [
        "Abzüge",
        "r1"
+      ],
+      [
+       "Pauschale",
+       "g2"
       ]
      ],
      "randnotiz": [
-      "Pauschale: § 10 Abs. 5 Nr. 3 S. 2 ErbStG",
-      "15.000 € ohne Nachweis"
+      "Staffel: Erwerb, Abzüge, Freibetrag",
+      "dann abrunden und Satz anwenden"
      ]
     }
    ],
-   "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 Abs. 1, 5 ErbStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

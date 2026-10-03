@@ -283,8 +283,25 @@
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§§ 171, 175 AO (Auszug)",
+     "kopf": "§§ 122, 171, 175 AO (Auszug)",
      "absaetze": [
+      [
+       "§ 122 (2)",
+       [
+        [
+         "Ein schriftlicher Verwaltungsakt, der durch die Post übermittelt wird, gilt als bekannt gegeben 1. bei einer Übermittlung im Inland",
+         null
+        ],
+        [
+         "am vierten Tage nach der Aufgabe zur Post,",
+         "g2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
       [
        "§ 171 (10)",
        [
@@ -330,6 +347,10 @@
      ],
      "notizen": [
       [
+       "Di 10.03.2026",
+       "g2"
+      ],
+      [
        "Grundlage",
        "b1"
       ],
@@ -347,12 +368,12 @@
       ]
      ],
      "randnotiz": [
-      "Bekanntgabe: § 122 Abs. 2 Nr. 1 AO",
-      "Vierter Tag nach Aufgabe zur Post"
+      "Post Fr 06.03., bekannt Di 10.03.2026",
+      "Änderung bis 10.03.2028 möglich"
      ]
     }
    ],
-   "caption": "Festsetzungsfrist abgelaufen – und trotzdem ändert das Finanzamt? Die Klausurfrage zum Folgebescheid.\n\nFall: Jarno gibt seine Erklärung 2020 im Jahr 2021 ab. Die vierjährige Festsetzungsfrist beginnt mit Ablauf von 2021 und endet regulär am 31.12.2025 (§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO). Am 06.03.2026 geht ein geänderter Feststellungsbescheid der KG zur Post, sein Gewinnanteil steigt um 18.000 €.\n\nLösung:\n1. Ein geänderter Grundlagenbescheid verpflichtet zur Änderung des Folgebescheids (§ 175 Abs. 1 S. 1 Nr. 1 AO).\n2. Feststellungsbescheide binden die Folgebescheide (§ 182 Abs. 1 S. 1 AO).\n3. Bekanntgabe am vierten Tag nach Aufgabe zur Post: 10.03.2026 (§ 122 Abs. 2 Nr. 1 AO). Für diesen Teil läuft die Festsetzungsfrist frühestens zwei Jahre danach ab, also nicht vor dem 10.03.2028 (§ 171 Abs. 10 S. 1 AO).\n4. Geändert wird nur, soweit die Bindung reicht; andere materielle Fehler nur im Rahmen dieser Änderung (§ 177 Abs. 1 AO).\n\nKlausurfalle: Einwendungen gegen den Gewinnanteil gehören in den Einspruch gegen den Feststellungsbescheid, nicht gegen den Einkommensteuerbescheid (§ 351 Abs. 2 AO).\n\nZum Schluss: §§ 171, 175 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Festsetzungsfrist abgelaufen – und trotzdem ändert das Finanzamt? Die Klausurfrage zum Folgebescheid.\n\nFall: Jarno gibt seine Erklärung 2020 im Jahr 2021 ab. Die vierjährige Festsetzungsfrist beginnt mit Ablauf von 2021 und endet regulär am 31.12.2025 (§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO). Am 06.03.2026 geht ein geänderter Feststellungsbescheid der KG zur Post, sein Gewinnanteil steigt um 18.000 €.\n\nLösung:\n1. Ein geänderter Grundlagenbescheid verpflichtet zur Änderung des Folgebescheids (§ 175 Abs. 1 S. 1 Nr. 1 AO).\n2. Feststellungsbescheide binden die Folgebescheide (§ 182 Abs. 1 S. 1 AO).\n3. Bekanntgabe am vierten Tag nach Aufgabe zur Post: 10.03.2026 (§ 122 Abs. 2 Nr. 1 AO). Für diesen Teil läuft die Festsetzungsfrist frühestens zwei Jahre danach ab, also nicht vor dem 10.03.2028 (§ 171 Abs. 10 S. 1 AO).\n4. Geändert wird nur, soweit die Bindung reicht; andere materielle Fehler nur im Rahmen dieser Änderung (§ 177 Abs. 1 AO).\n\nKlausurfalle: Einwendungen gegen den Gewinnanteil gehören in den Einspruch gegen den Feststellungsbescheid, nicht gegen den Einkommensteuerbescheid (§ 351 Abs. 2 AO).\n\nZum Schluss: §§ 122, 171, 175 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -407,7 +428,7 @@
      ],
      "norm": "§§ 7, 8 KStG",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 7 + R 7.1",
+     "teaser": "+ Markier-Guide §§ 7, 8, 23 + R 7.1",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -460,7 +481,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 7 KStG + R 7.1 markiert"
+     "teaser": "Am Ende: §§ 7, 8, 23 KStG + R 7.1 markiert"
     },
     {
      "typ": "inhalt",
@@ -673,12 +694,12 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welcher Schritt fehlt?",
-     "teaser": "Weiterwischen: § 7 + R 7.1 markiert"
+     "teaser": "Weiterwischen: KStG + R 7.1 markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§§ 7, 8 KStG (Auszug)",
+     "kopf": "§§ 7, 8, 23 KStG (Auszug)",
      "absaetze": [
       [
        "§ 7 (1)",
@@ -726,6 +747,23 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 23 (1)",
+       [
+        [
+         "Die Körperschaftsteuer beträgt für 1.",
+         null
+        ],
+        [
+         "Veranlagungszeiträume bis 2027 15 Prozent,",
+         "r1"
+        ],
+        [
+         "[…] 6. Veranlagungszeiträume ab 2032 10 Prozent des zu versteuernden Einkommens.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -740,11 +778,15 @@
       [
        "EStG gilt mit",
        "gr1"
+      ],
+      [
+       "Arvelo: 15 %",
+       "r1"
       ]
      ],
      "randnotiz": [
-      "Steuersatz: § 23 Abs. 1 KStG",
-      "15 % bis VZ 2027, danach stufenweise weniger"
+      "Weiterwischen: R 7.1 Abs. 1 KStR",
+      "das Schema der Verwaltung"
      ]
     },
     {
@@ -860,7 +902,7 @@
      ]
     }
    ],
-   "caption": "KSt-Prüfschema: vom Gewinn zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Steuerpflicht: Sitz oder Geschäftsleitung im Inland, unbeschränkt mit sämtlichen Einkünften (§ 1 Abs. 1 Nr. 1, Abs. 2 KStG); alle Einkünfte sind gewerblich (§ 8 Abs. 2 KStG).\n2. Start: Gewinn laut Steuerbilanz, Ermittlung nach EStG und KStG (§ 8 Abs. 1 S. 1 KStG).\n3. Hinzurechnen: Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG), verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG).\n4. Abziehen: Dividenden bleiben außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres mindestens 10 % betrug (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG).\n5. Verlustvortrag bis 1 Mio. € unbeschränkt, darüber zu 70 % (§ 10d Abs. 2 S. 1 EStG i. V. m. § 8 Abs. 1 KStG). Dann zvE (§ 7 Abs. 2 KStG) × 15 % für VZ bis 2027, danach sinkt der Satz stufenweise (§ 23 Abs. 1 KStG), plus 5,5 % Solidaritätszuschlag (§ 4 S. 1 SolZG).\n\nBeispiel: 150.000 + 45.000 + 15.000 − 20.000 + 1.000 = 191.000 € zvE, KSt 28.650 €.\nDas amtliche Schema steht in R 7.1 Abs. 1 KStR.\n\nZum Schluss: §§ 7, 8 KStG und R 7.1 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "KSt-Prüfschema: vom Gewinn zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Steuerpflicht: Sitz oder Geschäftsleitung im Inland, unbeschränkt mit sämtlichen Einkünften (§ 1 Abs. 1 Nr. 1, Abs. 2 KStG); alle Einkünfte sind gewerblich (§ 8 Abs. 2 KStG).\n2. Start: Gewinn laut Steuerbilanz, Ermittlung nach EStG und KStG (§ 8 Abs. 1 S. 1 KStG).\n3. Hinzurechnen: Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG), verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG).\n4. Abziehen: Dividenden bleiben außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres mindestens 10 % betrug (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG).\n5. Verlustvortrag bis 1 Mio. € unbeschränkt, darüber zu 70 % (§ 10d Abs. 2 S. 1 EStG i. V. m. § 8 Abs. 1 KStG). Dann zvE (§ 7 Abs. 2 KStG) × 15 % für VZ bis 2027, danach sinkt der Satz stufenweise (§ 23 Abs. 1 KStG), plus 5,5 % Solidaritätszuschlag (§ 4 S. 1 SolZG).\n\nBeispiel: 150.000 + 45.000 + 15.000 − 20.000 + 1.000 = 191.000 € zvE, KSt 28.650 €.\nDas amtliche Schema steht in R 7.1 Abs. 1 KStR.\n\nZum Schluss: §§ 7, 8, 23 KStG und R 7.1 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

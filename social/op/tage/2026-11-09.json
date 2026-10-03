@@ -342,7 +342,7 @@
          null
         ],
         [
-         "sie dürfen auch nicht nach § 10d abgezogen werden.",
+         "sie dürfen auch nicht nach § 10d abgezogen werden. […]",
          "r1"
         ]
        ]
@@ -371,6 +371,23 @@
          null
         ]
        ]
+      ],
+      [
+       "(2a)",
+       [
+        [
+         "Bei der Anwendung der Absätze 1 und 2 sind 1.",
+         null
+        ],
+        [
+         "als Drittstaaten die Staaten anzusehen, die nicht Mitgliedstaaten der Europäischen Union sind;",
+         "b2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -389,15 +406,19 @@
       [
        "Hotel: Ausnahme!",
        "r2"
+      ],
+      [
+       "Staat X",
+       "b2"
       ]
      ],
      "randnotiz": [
-      "Abs. 1 S. 5: Rest gesondert feststellen",
-      "Drittstaat: Abs. 2a, EWR nur mit Auskunftsaustausch"
+      "Hotel: 60.000 € nicht verrechenbar",
+      "Regale: voll verrechenbar"
      ]
     }
    ],
-   "caption": "Verlust aus einer Drittstaaten-Betriebsstätte: Darf er das Einkommen mindern? Die Prüfungsfrage zu § 2a EStG für die Ertragsteuer-Klausur.\n\n1. Drittstaat: jeder Staat außerhalb der EU; EWR-Staaten stehen der EU gleich, wenn Auskünfte ausgetauscht werden (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n2. Katalog: Negative Einkünfte aus einer gewerblichen Betriebsstätte im Drittstaat (§ 2a Abs. 1 S. 1 Nr. 2 EStG); Gewinnminderungen zählen mit (§ 2a Abs. 1 S. 2 EStG).\n3. Aktivitätsklausel: Herstellung und Lieferung von Waren sowie gewerbliche Leistungen sind ausgenommen, nicht aber Anlagen für den Fremdenverkehr (§ 2a Abs. 2 S. 1 EStG).\n4. Rechtsfolge: Ausgleich nur mit positiven Einkünften derselben Art aus demselben Staat, kein Abzug nach § 10d EStG (§ 2a Abs. 1 S. 1 EStG); Verrechnung in Folgejahren (§ 2a Abs. 1 S. 3 EStG); verbleibende negative Einkünfte werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n\nAbgrenzung: Die Hinzurechnungsbesteuerung betrifft beherrschte ausländische Gesellschaften mit niedrig besteuerten passiven Einkünften (§ 7 Abs. 1, 2 AStG; Niedrigbesteuerung unter 15 % nach § 8 Abs. 5 AStG).\n\nZum Schluss: § 2a EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Verlust aus einer Drittstaaten-Betriebsstätte: Darf er das Einkommen mindern? Die Prüfungsfrage zu § 2a EStG für die Ertragsteuer-Klausur.\n\n1. Drittstaat: jeder Staat außerhalb der EU; EWR-Staaten stehen der EU gleich, wenn Auskünfte ausgetauscht werden (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n2. Katalog: Negative Einkünfte aus einer gewerblichen Betriebsstätte im Drittstaat (§ 2a Abs. 1 S. 1 Nr. 2 EStG); Gewinnminderungen zählen mit (§ 2a Abs. 1 S. 2 EStG).\n3. Aktivitätsklausel: Herstellung und Lieferung von Waren sowie gewerbliche Leistungen sind ausgenommen, nicht aber Anlagen für den Fremdenverkehr (§ 2a Abs. 2 S. 1 EStG).\n4. Rechtsfolge: Ausgleich nur mit positiven Einkünften derselben Art aus demselben Staat, kein Abzug nach § 10d EStG (§ 2a Abs. 1 S. 1 EStG); Verrechnung in Folgejahren (§ 2a Abs. 1 S. 3 EStG); verbleibende negative Einkünfte werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n\nAbgrenzung: Die Hinzurechnungsbesteuerung betrifft beherrschte ausländische Gesellschaften mit niedrig besteuerten passiven Einkünften (§ 7 Abs. 1, 2 AStG; Niedrigbesteuerung unter 15 % nach § 8 Abs. 5 AStG).\n\nZum Schluss: § 2a Abs. 1, 2, 2a EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

@@ -620,7 +620,15 @@
          "b1"
         ],
         [
-         ", die mit der Erfüllung der Verpflichtung voraussichtlich verbunden sein werden, sind, soweit sie nicht als Forderung zu aktivieren sind, bei ihrer Bewertung wertmindernd zu berücksichtigen; […] f) bei der Bewertung sind die",
+         ", die mit der Erfüllung der Verpflichtung voraussichtlich verbunden sein werden, sind, soweit sie nicht als Forderung zu aktivieren sind, bei ihrer Bewertung wertmindernd zu berücksichtigen; […] e) […]",
+         null
+        ],
+        [
+         "ausgenommen von der Abzinsung sind Rückstellungen für Verpflichtungen, deren Laufzeit am Bilanzstichtag weniger als zwölf Monate beträgt,",
+         "r3"
+        ],
+        [
+         "[…] f) bei der Bewertung sind die",
          null
         ],
         [
@@ -648,13 +656,17 @@
        "b1"
       ],
       [
+       "Januar: nicht abzinsen",
+       "r3"
+      ],
+      [
        "Buchst. f",
        "gr1"
       ]
      ],
      "randnotiz": [
-      "Buchst. e: 5,5 % Abzinsung",
-      "nicht unter zwölf Monaten Laufzeit"
+      "Lindner KG: 26.000 €",
+      "unter dem HB-Wert von 40.000 €"
      ],
      "zweite": {
       "kopf": "R 6.11 Abs. 3 EStR (Auszug)",

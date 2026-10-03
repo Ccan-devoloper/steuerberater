@@ -32,7 +32,7 @@
      ],
      "norm": "§ 3d S. 2 UStG",
      "unter": "Die Falle",
-     "teaser": "+ Markier-Guide § 3d UStG",
+     "teaser": "+ Markier-Guide §§ 3d, 15 UStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -295,15 +295,15 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Hättest du die Falle gesehen?",
-     "teaser": "Weiterwischen: § 3d UStG markiert"
+     "teaser": "Weiterwischen: §§ 3d, 15 UStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 3d UStG Ort des Erwerbs",
+     "kopf": "§§ 3d, 15 UStG (Auszug)",
      "absaetze": [
       [
-       null,
+       "§ 3d",
        [
         [
          "Der innergemeinschaftliche Erwerb wird in dem Gebiet des Mitgliedstaates bewirkt,",
@@ -334,6 +334,23 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 15 (1) 1",
+       [
+        [
+         "Der Unternehmer kann die folgenden Vorsteuerbeträge abziehen: […] 3. die Steuer für den innergemeinschaftlichen Erwerb von Gegenständen für sein Unternehmen,",
+         null
+        ],
+        [
+         "wenn der innergemeinschaftliche Erwerb nach § 3d Satz 1 im Inland bewirkt wird;",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -348,15 +365,19 @@
       [
        "Ausweg",
        "b1"
+      ],
+      [
+       "nur Satz 1!",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 15 Abs. 1 S. 1 Nr. 3 UStG",
-      "Vorsteuer nur beim Erwerb nach Satz 1"
+      "Ofen nach Straßburg: 11.400 € Last",
+      "bis zum Nachweis in Frankreich"
      ]
     }
    ],
-   "caption": "Klausurfalle innergemeinschaftlicher Erwerb: Wer im Zielland eine andere USt-IdNr. verwendet, zahlt doppelt – und bekommt keine Vorsteuer.\n\n▸ Innergemeinschaftlicher Erwerb: Ware gelangt bei einer Lieferung aus einem Mitgliedstaat in einen anderen, Erwerber ist Unternehmer für sein Unternehmen, Lieferer ist Unternehmer und nicht Kleinunternehmer (§ 1a Abs. 1 Nr. 1–3 UStG).\n▸ Ort: am Ende der Beförderung oder Versendung (§ 3d S. 1 UStG). Entstehung mit Rechnungsausstellung, spätestens mit Ablauf des Folgemonats (§ 13 Abs. 1 Nr. 6 UStG).\n▸ Falle: Nennt der Erwerber eine USt-IdNr. aus einem anderen Staat als dem Zielland, wird der Erwerb auch in diesem Staat besteuert – so lange, bis die Besteuerung im Zielland nachgewiesen ist (§ 3d S. 2 UStG).\n▸ Vorsteuerabzug nur für Erwerbe nach § 3d S. 1 UStG im Inland (§ 15 Abs. 1 S. 1 Nr. 3 UStG); nach Nachweis Berichtigung (§ 17 Abs. 2 Nr. 4 UStG).\n\nFall: Ofen für 60.000 € von Mailand nach Straßburg, deutsche USt-IdNr.: 11.400 € Erwerbsteuer in Deutschland ohne Vorsteuer bis zum Nachweis. Variante Lieferung nach Köln: 11.400 € Erwerbsteuer, 11.400 € Vorsteuer, Zahllast 0 €.\n\nZum Schluss: § 3d UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Klausurfalle innergemeinschaftlicher Erwerb: Wer im Zielland eine andere USt-IdNr. verwendet, zahlt doppelt – und bekommt keine Vorsteuer.\n\n▸ Innergemeinschaftlicher Erwerb: Ware gelangt bei einer Lieferung aus einem Mitgliedstaat in einen anderen, Erwerber ist Unternehmer für sein Unternehmen, Lieferer ist Unternehmer und nicht Kleinunternehmer (§ 1a Abs. 1 Nr. 1–3 UStG).\n▸ Ort: am Ende der Beförderung oder Versendung (§ 3d S. 1 UStG). Entstehung mit Rechnungsausstellung, spätestens mit Ablauf des Folgemonats (§ 13 Abs. 1 Nr. 6 UStG).\n▸ Falle: Nennt der Erwerber eine USt-IdNr. aus einem anderen Staat als dem Zielland, wird der Erwerb auch in diesem Staat besteuert – so lange, bis die Besteuerung im Zielland nachgewiesen ist (§ 3d S. 2 UStG).\n▸ Vorsteuerabzug nur für Erwerbe nach § 3d S. 1 UStG im Inland (§ 15 Abs. 1 S. 1 Nr. 3 UStG); nach Nachweis Berichtigung (§ 17 Abs. 2 Nr. 4 UStG).\n\nFall: Ofen für 60.000 € von Mailand nach Straßburg, deutsche USt-IdNr.: 11.400 € Erwerbsteuer in Deutschland ohne Vorsteuer bis zum Nachweis. Variante Lieferung nach Köln: 11.400 € Erwerbsteuer, 11.400 € Vorsteuer, Zahllast 0 €.\n\nZum Schluss: § 3d und § 15 Abs. 1 S. 1 Nr. 3 UStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

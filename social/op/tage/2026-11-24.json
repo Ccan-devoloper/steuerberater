@@ -328,6 +328,23 @@
          "r1"
         ]
        ]
+      ],
+      [
+       "§ 8b (5)",
+       [
+        [
+         "Von den Bezügen im Sinne des Absatzes 1, die bei der Ermittlung des Einkommens außer Ansatz bleiben,",
+         null
+        ],
+        [
+         "gelten 5 Prozent als Ausgaben,",
+         "b2"
+        ],
+        [
+         "die nicht als Betriebsausgaben abgezogen werden dürfen. […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -346,15 +363,19 @@
       [
        "Korrespondenz!",
        "r1"
+      ],
+      [
+       "+ 2.000 €",
+       "b2"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 8b Abs. 5 KStG",
-      "5 % der Bezüge gelten als nicht abziehbar"
+      "Grundfall: + 42.000 € Einkommen",
+      "40.000 € bei Aro, 2.000 € bei der Holding"
      ]
     }
    ],
-   "caption": "Vorteil unter Schwestergesellschaften: der Rechenweg im Dreieck für die Körperschaftsteuer-Klausur.\n\nFall: Die Holding hält je 100 % an Aro und Bex. Aro verkauft Bex eine Maschine im Wert von 100.000 € für 60.000 €, weil beide derselben Mutter gehören.\n\n1. Aro: verdeckte Gewinnausschüttung an die Holding, außerbilanziell + 40.000 € (§ 8 Abs. 3 S. 2 KStG).\n2. Holding: Beteiligungsertrag 40.000 € (§ 20 Abs. 1 Nr. 1 S. 2 EStG), außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % = 2.000 € gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG). Der Vorteil wird in Bex eingelegt, die Anschaffungskosten der Bex-Anteile steigen um 40.000 € (§ 6 Abs. 6 S. 2 EStG).\n3. Bex: verdeckte Einlage, das Einkommen erhöht sich nicht (§ 8 Abs. 3 S. 3 KStG).\nErgebnis: insgesamt 42.000 € mehr Einkommen.\n\nKlausurfalle materielle Korrespondenz: Freigestellt wird nur, soweit die vGA bei der ausschüttenden Gesellschaft das Einkommen nicht verringert hat (§ 8b Abs. 1 S. 2 KStG). Ist die vGA bei Aro nicht erfasst, versteuert die Holding die 40.000 € voll. Wird Aros Bescheid hinsichtlich der vGA erlassen, aufgehoben oder geändert, kann der Bescheid der Holding angepasst werden (§ 32a Abs. 1 S. 1 KStG).\n\nZum Schluss: §§ 8, 8b KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Vorteil unter Schwestergesellschaften: der Rechenweg im Dreieck für die Körperschaftsteuer-Klausur.\n\nFall: Die Holding hält je 100 % an Aro und Bex. Aro verkauft Bex eine Maschine im Wert von 100.000 € für 60.000 €, weil beide derselben Mutter gehören.\n\n1. Aro: verdeckte Gewinnausschüttung an die Holding, außerbilanziell + 40.000 € (§ 8 Abs. 3 S. 2 KStG).\n2. Holding: Beteiligungsertrag 40.000 € (§ 20 Abs. 1 Nr. 1 S. 2 EStG), außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % = 2.000 € gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG). Der Vorteil wird in Bex eingelegt, die Anschaffungskosten der Bex-Anteile steigen um 40.000 € (§ 6 Abs. 6 S. 2 EStG).\n3. Bex: verdeckte Einlage, das Einkommen erhöht sich nicht (§ 8 Abs. 3 S. 3 KStG).\nErgebnis: insgesamt 42.000 € mehr Einkommen.\n\nKlausurfalle materielle Korrespondenz: Freigestellt wird nur, soweit die vGA bei der ausschüttenden Gesellschaft das Einkommen nicht verringert hat (§ 8b Abs. 1 S. 2 KStG). Ist die vGA bei Aro nicht erfasst, versteuert die Holding die 40.000 € voll. Wird Aros Bescheid hinsichtlich der vGA erlassen, aufgehoben oder geändert, kann der Bescheid der Holding angepasst werden (§ 32a Abs. 1 S. 1 KStG).\n\nZum Schluss: § 8 Abs. 3, § 8b Abs. 1, 5 KStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -715,6 +736,18 @@
         [
          "gewinnmindernd abziehen (Investitionsabzugsbeträge). […]",
          null
+        ],
+        [
+         "Investitionsabzugsbeträge können nur in Anspruch genommen werden, wenn 1. der Gewinn […] b) im Wirtschaftsjahr, in dem die Abzüge vorgenommen werden sollen, ohne Berücksichtigung der Investitionsabzugsbeträge nach Satz 1 und der Hinzurechnungen nach Absatz 2",
+         null
+        ],
+        [
+         "200 000 Euro nicht überschreitet",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
         ]
        ]
       ]
@@ -731,15 +764,19 @@
       [
        "Höhe",
        "r1"
+      ],
+      [
+       "Gewinngrenze",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 7g Abs. 1 S. 2 EStG",
-      "Gewinngrenze 200.000 € ohne den Abzug"
+      "Im Vortrag die Grenze nennen:",
+      "200.000 € Gewinn ohne den Abzug"
      ]
     }
    ],
-   "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Wann darf ein Investitionsabzugsbetrag gebildet werden? 🎤\n\nIn der Mündlichen erhältst du eine halbe Stunde vor Beginn drei Themen zur Wahl (§ 26 Abs. 6 DVStB). So baust du rund zehn Minuten auf:\n\n▸ Einstieg: Künftige AfA vorziehen, bis zu 50 % der voraussichtlichen Kosten gewinnmindernd abziehen, außerhalb der Bilanz (§ 7g Abs. 1 S. 1 EStG).\n▸ Voraussetzungen: abnutzbares bewegliches Anlagegut; Vermietung oder (fast) ausschließlich betriebliche Nutzung in einer inländischen Betriebsstätte bis zum Ende des Folgejahres; Gewinn nach § 4 oder § 5 EStG, im Abzugsjahr ohne Abzug höchstens 200.000 €; elektronische Übermittlung; je Betrieb höchstens 200.000 € (§ 7g Abs. 1 S. 1, S. 2 Nr. 1, 2, S. 4 EStG). Ein Verlust darf entstehen (§ 7g Abs. 1 S. 3 EStG).\n▸ Investitionsjahr: Hinzurechnung bis 50 % der Kosten, höchstens der Abzug; Kürzung der Kosten um bis zu 50 %, die AfA-Basis sinkt (§ 7g Abs. 2 S. 1, 3 EStG); daneben Sonderabschreibung bis 40 % (§ 7g Abs. 5, 6 EStG).\n▸ Ohne Investition bis zum Ende des dritten Folgejahres: Rückgängigmachung im Abzugsjahr, auch bei Bestandskraft; § 233a Abs. 2a AO gilt nicht (§ 7g Abs. 3 EStG). Nutzung verfehlt: ebenfalls rückgängig (§ 7g Abs. 4 EStG).\n\nBeispiel: Ofen 50.000 €. 2026 Abzug 25.000 €, 2027 Hinzurechnung 25.000 € und Kürzung 25.000 €, AfA-Basis 25.000 €.\n\nZum Schluss: § 7g EStG zum Markieren. Speichern für die Mündliche 📌",
+   "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Wann darf ein Investitionsabzugsbetrag gebildet werden? 🎤\n\nIn der Mündlichen erhältst du eine halbe Stunde vor Beginn drei Themen zur Wahl (§ 26 Abs. 6 DVStB). So baust du rund zehn Minuten auf:\n\n▸ Einstieg: Künftige AfA vorziehen, bis zu 50 % der voraussichtlichen Kosten gewinnmindernd abziehen, außerhalb der Bilanz (§ 7g Abs. 1 S. 1 EStG).\n▸ Voraussetzungen: abnutzbares bewegliches Anlagegut; Vermietung oder (fast) ausschließlich betriebliche Nutzung in einer inländischen Betriebsstätte bis zum Ende des Folgejahres; Gewinn nach § 4 oder § 5 EStG, im Abzugsjahr ohne Abzug höchstens 200.000 €; elektronische Übermittlung; je Betrieb höchstens 200.000 € (§ 7g Abs. 1 S. 1, S. 2 Nr. 1, 2, S. 4 EStG). Ein Verlust darf entstehen (§ 7g Abs. 1 S. 3 EStG).\n▸ Investitionsjahr: Hinzurechnung bis 50 % der Kosten, höchstens der Abzug; Kürzung der Kosten um bis zu 50 %, die AfA-Basis sinkt (§ 7g Abs. 2 S. 1, 3 EStG); daneben Sonderabschreibung bis 40 % (§ 7g Abs. 5, 6 EStG).\n▸ Ohne Investition bis zum Ende des dritten Folgejahres: Rückgängigmachung im Abzugsjahr, auch bei Bestandskraft; § 233a Abs. 2a AO gilt nicht (§ 7g Abs. 3 EStG). Nutzung verfehlt: ebenfalls rückgängig (§ 7g Abs. 4 EStG).\n\nBeispiel: Ofen 50.000 €. 2026 Abzug 25.000 €, 2027 Hinzurechnung 25.000 € und Kürzung 25.000 €, AfA-Basis 25.000 €.\n\nZum Schluss: § 7g Abs. 1 EStG zum Markieren. Speichern für die Mündliche 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

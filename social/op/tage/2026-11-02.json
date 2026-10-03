@@ -414,7 +414,7 @@
      ],
      "norm": "§ 50 Abs. 2 EStG",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 50 EStG",
+     "teaser": "+ Markier-Guide §§ 50, 50c EStG",
      "motiv": {
       "typ": "icon",
       "name": "tabler:world",
@@ -452,7 +452,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 50 EStG markiert"
+     "teaser": "Am Ende: §§ 50, 50c EStG markiert"
     },
     {
      "typ": "inhalt",
@@ -675,15 +675,15 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Prüfst du den DBA-Satz mit?",
-     "teaser": "Weiterwischen: § 50 EStG markiert"
+     "teaser": "Weiterwischen: §§ 50, 50c EStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 50 EStG Sondervorschriften (Auszug)",
+     "kopf": "§§ 50, 50c EStG (Auszug)",
      "absaetze": [
       [
-       2,
+       "§ 50 (2)",
        [
         [
          "Die Einkommensteuer für Einkünfte, die dem Steuerabzug vom Arbeitslohn oder",
@@ -722,33 +722,58 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 50c (3) 1",
+       [
+        [
+         "Dem beschränkt steuerpflichtigen Gläubiger der Kapitalerträge […] wird auf seinen fristgemäßen Antrag",
+         null
+        ],
+        [
+         "beim Bundeszentralamt für Steuern",
+         "b2"
+        ],
+        [
+         "(Erstattungsantrag) auf der Grundlage eines Freistellungsbescheides die gemäß Absatz 1 Satz 1 einbehaltene und abgeführte […] Steuer",
+         null
+        ],
+        [
+         "erstattet,",
+         "g2"
+        ],
+        [
+         "wenn die Steuer nicht nach § 36 Absatz 2 Nummer 2 […] angerechnet werden kann. […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
       [
-       "Dividende",
-       "g1"
-      ],
-      [
-       "nur Ausländer",
-       "b1"
-      ],
-      [
-       "Rechtsfolge",
+       "abgegolten",
        "gr1"
       ],
       [
        "Ausnahme",
        "r1"
+      ],
+      [
+       "BZSt",
+       "b2"
+      ],
+      [
+       "Mateo: 1.137,50 €",
+       "g2"
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 50c Abs. 3 EStG",
-      "Erstattung beim BZSt, Frist vier Jahre"
+      "Erstattungsfrist: vier Jahre",
+      "ab Ende des Jahres der Ausschüttung"
      ]
     }
    ],
-   "caption": "Dividende an einen Steuerausländer – das Prüfschema in fünf Schritten für die Ertragsteuer-Klausur.\n\n1. Kapitalertrag: Gewinnausschüttung einer GmbH (§ 20 Abs. 1 Nr. 1 EStG).\n2. Inlandsbezug: Schuldner mit Sitz oder Geschäftsleitung im Inland (§ 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG); ohne inländischen Wohnsitz beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n3. Steuerabzug: 25 % Kapitalertragsteuer (§ 43 Abs. 1 S. 1 Nr. 1, § 43a Abs. 1 S. 1 Nr. 1 EStG) plus 5,5 % Solidaritätszuschlag (§ 3 Abs. 1 Nr. 5, § 4 SolZG). Beispiel: 10.000 € Dividende, 2.637,50 € einbehalten.\n4. Abgeltung: Die Einkommensteuer gilt durch den Steuerabzug als abgegolten (§ 50 Abs. 2 S. 1 EStG), nicht aber u. a. für Einkünfte eines inländischen Betriebs (§ 50 Abs. 2 S. 2 Nr. 1 EStG).\n5. DBA: Entspricht das Abkommen Art. 10 Abs. 2 OECD-MA, darf der Quellenstaat bei Streubesitz höchstens 15 % erheben. Der Abzug wird trotzdem voll vorgenommen (§ 50c Abs. 1 EStG); den Mehrbetrag erstattet das BZSt auf Antrag, Frist vier Jahre nach Ablauf des Jahres des Zuflusses (§ 50c Abs. 3 EStG). Im Beispiel 1.137,50 €.\n\nZum Schluss: § 50 Abs. 2 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Dividende an einen Steuerausländer – das Prüfschema in fünf Schritten für die Ertragsteuer-Klausur.\n\n1. Kapitalertrag: Gewinnausschüttung einer GmbH (§ 20 Abs. 1 Nr. 1 EStG).\n2. Inlandsbezug: Schuldner mit Sitz oder Geschäftsleitung im Inland (§ 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG); ohne inländischen Wohnsitz beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n3. Steuerabzug: 25 % Kapitalertragsteuer (§ 43 Abs. 1 S. 1 Nr. 1, § 43a Abs. 1 S. 1 Nr. 1 EStG) plus 5,5 % Solidaritätszuschlag (§ 3 Abs. 1 Nr. 5, § 4 SolZG). Beispiel: 10.000 € Dividende, 2.637,50 € einbehalten.\n4. Abgeltung: Die Einkommensteuer gilt durch den Steuerabzug als abgegolten (§ 50 Abs. 2 S. 1 EStG), nicht aber u. a. für Einkünfte eines inländischen Betriebs (§ 50 Abs. 2 S. 2 Nr. 1 EStG).\n5. DBA: Entspricht das Abkommen Art. 10 Abs. 2 OECD-MA, darf der Quellenstaat bei Streubesitz höchstens 15 % erheben. Der Abzug wird trotzdem voll vorgenommen (§ 50c Abs. 1 EStG); den Mehrbetrag erstattet das BZSt auf Antrag, Frist vier Jahre nach Ablauf des Jahres des Zuflusses (§ 50c Abs. 3 EStG). Im Beispiel 1.137,50 €.\n\nZum Schluss: § 50 Abs. 2, § 50c Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

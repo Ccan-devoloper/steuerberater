@@ -38,7 +38,7 @@
      ],
      "norm": "§ 256a HGB",
      "unter": "auf einer Karte",
-     "teaser": "+ Markier-Guide § 256a + BMF",
+     "teaser": "+ Markier-Guide § 256a, § 6 + BMF",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -86,7 +86,7 @@
        "nie unter Zugangswert"
       ]
      ],
-     "teaser": "Am Ende: § 256a HGB + BMF markiert"
+     "teaser": "Am Ende: § 256a HGB, § 6 EStG + BMF markiert"
     },
     {
      "typ": "vergleich",
@@ -192,15 +192,15 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Kursgewinn gebucht?",
-     "teaser": "Weiterwischen: § 256a + BMF markiert"
+     "teaser": "Weiterwischen: § 256a, § 6 + BMF"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 256a HGB Währungsumrechnung",
+     "kopf": "§ 256a HGB, § 6 EStG (Auszug)",
      "absaetze": [
       [
-       null,
+       "§ 256a HGB",
        [
         [
          "Auf fremde Währung lautende Vermögensgegenstände und",
@@ -235,6 +235,40 @@
          "gr1"
         ]
        ]
+      ],
+      [
+       "§ 6 (1) Nr. 2 S. 2 EStG",
+       [
+        [
+         "Ist der Teilwert (Nummer 1 Satz 3) auf Grund einer",
+         null
+        ],
+        [
+         "voraussichtlich dauernden Wertminderung",
+         "r2"
+        ],
+        [
+         "niedriger, so kann dieser angesetzt werden. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Nr. 3",
+       [
+        [
+         "Verbindlichkeiten sind",
+         null
+        ],
+        [
+         "unter sinngemäßer Anwendung der Vorschriften der Nummer 2",
+         "g2"
+        ],
+        [
+         "anzusetzen.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -247,17 +281,17 @@
        "b1"
       ],
       [
-       "kurzfristig",
-       "r1"
+       "StB: nur bei Dauer",
+       "r2"
       ],
       [
-       "auch Kursgewinn",
-       "gr1"
+       "gilt für Schulden",
+       "g2"
       ]
      ],
      "randnotiz": [
-      "Steuerlich: § 6 Abs. 1 Nr. 3 EStG",
-      "höher nur bei dauernder Erhöhung"
+      "Weiterwischen: BMF vom 02.09.2016",
+      "Wann ein Kursanstieg dauerhaft ist"
      ]
     },
     {
@@ -357,7 +391,7 @@
      ]
     }
    ],
-   "caption": "Fremdwährungsschulden am Bilanzstichtag: der Spickzettel für Klausur 3.\n\nZugang: Umrechnung mit dem Kurs bei Entstehung der Verbindlichkeit (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 31).\nHandelsbilanz: Umrechnung zum Devisenkassamittelkurs am Abschlussstichtag; bei Restlaufzeit bis zu einem Jahr ohne Anschaffungskosten- und Realisationsprinzip, also auch unter dem Zugangswert (§ 256a HGB).\nSteuerbilanz: höherer Teilwert nur bei voraussichtlich dauernder Erhöhung, als Wahlrecht (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG). Übliche Wechselkursschwankungen genügen nicht; bei Restlaufzeit von zehn Jahren in der Regel keine dauernde Erhöhung (BMF vom 02.09.2016, Rn. 32, 33).\nVerbindlichkeiten des laufenden Geschäftsverkehrs: Hält der Kursanstieg bis zur Bilanzaufstellung oder früheren Tilgung an, gilt er als dauernd (BMF vom 02.09.2016, Rn. 34–36).\nEin Ansatz unter dem Zugangswert ist steuerlich ausgeschlossen.\n\nBeispiel: 100.000 $, Zugang 80.000 €, Stichtag 90.000 €. HB 90.000 €, StB 80.000 € oder bei dauernder Erhöhung 90.000 €.\n\nZum Schluss: § 256a HGB und BMF vom 02.09.2016 zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Fremdwährungsschulden am Bilanzstichtag: der Spickzettel für Klausur 3.\n\nZugang: Umrechnung mit dem Kurs bei Entstehung der Verbindlichkeit (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 31).\nHandelsbilanz: Umrechnung zum Devisenkassamittelkurs am Abschlussstichtag; bei Restlaufzeit bis zu einem Jahr ohne Anschaffungskosten- und Realisationsprinzip, also auch unter dem Zugangswert (§ 256a HGB).\nSteuerbilanz: höherer Teilwert nur bei voraussichtlich dauernder Erhöhung, als Wahlrecht (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG). Übliche Wechselkursschwankungen genügen nicht; bei Restlaufzeit von zehn Jahren in der Regel keine dauernde Erhöhung (BMF vom 02.09.2016, Rn. 32, 33).\nVerbindlichkeiten des laufenden Geschäftsverkehrs: Hält der Kursanstieg bis zur Bilanzaufstellung oder früheren Tilgung an, gilt er als dauernd (BMF vom 02.09.2016, Rn. 34–36).\nEin Ansatz unter dem Zugangswert ist steuerlich ausgeschlossen.\n\nBeispiel: 100.000 $, Zugang 80.000 €, Stichtag 90.000 €. HB 90.000 €, StB 80.000 € oder bei dauernder Erhöhung 90.000 €.\n\nZum Schluss: § 256a HGB, § 6 Abs. 1 Nr. 2, 3 EStG und BMF vom 02.09.2016 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

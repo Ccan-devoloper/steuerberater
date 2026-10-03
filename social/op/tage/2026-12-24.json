@@ -199,6 +199,31 @@
      "kopf": "§ 4 Abs. 5 S. 1 EStG (Auszug)",
      "absaetze": [
       [
+       "Nr. 6b",
+       [
+        [
+         "Aufwendungen für ein häusliches Arbeitszimmer sowie die Kosten der Ausstattung. Dies gilt nicht, wenn das Arbeitszimmer",
+         null
+        ],
+        [
+         "den Mittelpunkt der gesamten betrieblichen und beruflichen Betätigung",
+         "b2"
+        ],
+        [
+         "bildet. Anstelle der Aufwendungen kann",
+         null
+        ],
+        [
+         "pauschal ein Betrag von 1 260 Euro (Jahrespauschale)",
+         "g2"
+        ],
+        [
+         "für das Wirtschafts- oder Kalenderjahr abgezogen werden. […]",
+         null
+        ]
+       ]
+      ],
+      [
        "Nr. 6c",
        [
         [
@@ -242,29 +267,29 @@
      ],
      "notizen": [
       [
-       "Überwiegend",
+       "Mittelpunkt?",
+       "b2"
+      ],
+      [
+       "Jahrespauschale",
+       "g2"
+      ],
+      [
+       "überwiegend zu Hause",
        "g1"
       ],
       [
-       "Büro-Tag?",
-       "r1"
-      ],
-      [
-       "Betrag",
+       "6 € je Tag",
        "b1"
-      ],
-      [
-       "Ausnahme",
-       "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: Nr. 6b",
-      "Mittelpunkt: Kosten oder Jahrespauschale 1.260 €"
+      "230 Tage × 6 € = 1.380 €",
+      "gedeckelt: 1.260 € abziehbar"
      ]
     }
    ],
-   "caption": "Arbeitszimmer oder Homeoffice-Pauschale? Der Spickzettel für die Feiertage und für Klausur 2.\n\n▸ Häusliches Arbeitszimmer: Abzug nur, wenn es den Mittelpunkt der gesamten betrieblichen und beruflichen Betätigung bildet; dann tatsächliche Kosten oder Jahrespauschale 1.260 €, je vollem Monat ohne Mittelpunkt ein Zwölftel weniger (§ 4 Abs. 5 S. 1 Nr. 6b S. 2–4 EStG).\n▸ Sonst Tagespauschale: 6 € je Kalendertag mit überwiegender Tätigkeit zu Hause, an dem keine erste Tätigkeitsstätte aufgesucht wird; höchstens 1.260 € im Jahr (§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG).\n▸ Steht dauerhaft kein anderer Arbeitsplatz zur Verfügung, gibt es die Tagespauschale auch an Tagen mit Tätigkeit auswärts oder an der ersten Tätigkeitsstätte (§ 4 Abs. 5 S. 1 Nr. 6c S. 2 EStG).\n▸ Kein Doppelabzug neben dem Arbeitszimmer (§ 4 Abs. 5 S. 1 Nr. 6c S. 3 EStG). Für Arbeitnehmer gilt das über § 9 Abs. 5 S. 1 EStG.\n\nBeispiel: 230 Tage × 6 € = 1.380 €, abziehbar 1.260 €.\n\nZum Schluss: § 4 Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Arbeitszimmer oder Homeoffice-Pauschale? Der Spickzettel für die Feiertage und für Klausur 2.\n\n▸ Häusliches Arbeitszimmer: Abzug nur, wenn es den Mittelpunkt der gesamten betrieblichen und beruflichen Betätigung bildet; dann tatsächliche Kosten oder Jahrespauschale 1.260 €, je vollem Monat ohne Mittelpunkt ein Zwölftel weniger (§ 4 Abs. 5 S. 1 Nr. 6b S. 2–4 EStG).\n▸ Sonst Tagespauschale: 6 € je Kalendertag mit überwiegender Tätigkeit zu Hause, an dem keine erste Tätigkeitsstätte aufgesucht wird; höchstens 1.260 € im Jahr (§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG).\n▸ Steht dauerhaft kein anderer Arbeitsplatz zur Verfügung, gibt es die Tagespauschale auch an Tagen mit Tätigkeit auswärts oder an der ersten Tätigkeitsstätte (§ 4 Abs. 5 S. 1 Nr. 6c S. 2 EStG).\n▸ Kein Doppelabzug neben dem Arbeitszimmer (§ 4 Abs. 5 S. 1 Nr. 6c S. 3 EStG). Für Arbeitnehmer gilt das über § 9 Abs. 5 S. 1 EStG.\n\nBeispiel: 230 Tage × 6 € = 1.380 €, abziehbar 1.260 €.\n\nZum Schluss: § 4 Abs. 5 S. 1 Nr. 6b, 6c EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

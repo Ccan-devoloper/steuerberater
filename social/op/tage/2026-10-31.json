@@ -608,7 +608,28 @@
        ]
       ],
       [
-       "(4) 3",
+       "(4) 1",
+       [
+        [
+         "Hat der Steuerpflichtige",
+         null
+        ],
+        [
+         "das 55. Lebensjahr vollendet",
+         "b1"
+        ],
+        [
+         "oder ist er im sozialversicherungsrechtlichen Sinne dauernd berufsunfähig, so wird der Veräußerungsgewinn auf Antrag zur Einkommensteuer nur herangezogen,",
+         null
+        ],
+        [
+         "soweit er 45 000 Euro übersteigt.",
+         "b2"
+        ]
+       ]
+      ],
+      [
+       "S. 3",
        [
         [
          "Er ermäßigt sich um den Betrag, um den der Veräußerungsgewinn",
@@ -627,21 +648,25 @@
        "g1"
       ],
       [
-       "Kapitalkonto",
-       "gr1"
+       "Jasper ist 58",
+       "b1"
       ],
       [
-       "Abschmelzen",
+       "Freibetrag",
+       "b2"
+      ],
+      [
+       "195.000 €: weg",
        "r1"
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 16 Abs. 4 S. 1 EStG",
-      "45.000 € ab 55, nur einmal im Leben"
+      "195.000 € − 136.000 € = 59.000 €",
+      "Freibetrag 45.000 € ganz aufgezehrt"
      ]
     }
    ],
-   "caption": "Rechenweg Personengesellschaften: Verkauf eines KG-Anteils – was passiert auf beiden Seiten?\n\nVeräußerer (58): Veräußerungsgewinn = Preis nach Abzug der Veräußerungskosten minus Kapitalkonto (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG): 500.000 € − 5.000 € − 300.000 € = 195.000 €.\nFreibetrag 45.000 € ab 55, nur einmal, abgeschmolzen um den Betrag über 136.000 € (§ 16 Abs. 4 S. 1–3 EStG): 195.000 € − 136.000 € = 59.000 €, Freibetrag 0 €.\nErmäßigter Steuersatz auf Antrag möglich (§ 34 Abs. 3 S. 1 EStG). Gewerbesteuer fällt nicht an, soweit der Gewinn auf eine natürliche Person als unmittelbar beteiligten Mitunternehmer entfällt (§ 7 S. 2 Nr. 2 GewStG).\n\nErwerberin: Der Mehrpreis von 200.000 € wird in einer Ergänzungsbilanz aktiviert (Halle 150.000 €, Firmenwert 50.000 €) und fortgeschrieben; Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG): 3.333 € im Jahr.\n\nZum Schluss: § 16 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Rechenweg Personengesellschaften: Verkauf eines KG-Anteils – was passiert auf beiden Seiten?\n\nVeräußerer (58): Veräußerungsgewinn = Preis nach Abzug der Veräußerungskosten minus Kapitalkonto (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG): 500.000 € − 5.000 € − 300.000 € = 195.000 €.\nFreibetrag 45.000 € ab 55, nur einmal, abgeschmolzen um den Betrag über 136.000 € (§ 16 Abs. 4 S. 1–3 EStG): 195.000 € − 136.000 € = 59.000 €, Freibetrag 0 €.\nErmäßigter Steuersatz auf Antrag möglich (§ 34 Abs. 3 S. 1 EStG). Gewerbesteuer fällt nicht an, soweit der Gewinn auf eine natürliche Person als unmittelbar beteiligten Mitunternehmer entfällt (§ 7 S. 2 Nr. 2 GewStG).\n\nErwerberin: Der Mehrpreis von 200.000 € wird in einer Ergänzungsbilanz aktiviert (Halle 150.000 €, Firmenwert 50.000 €) und fortgeschrieben; Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG): 3.333 € im Jahr.\n\nZum Schluss: § 16 Abs. 2, 4 EStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

@@ -277,10 +277,10 @@
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 2a Abs. 1 EStG (Auszug)",
+     "kopf": "§ 2a EStG (Auszug)",
      "absaetze": [
       [
-       "S. 1",
+       "(1) S. 1",
        [
         [
          "Negative Einkünfte […] 6. a)",
@@ -336,16 +336,29 @@
          null
         ]
        ]
+      ],
+      [
+       "(2a)",
+       [
+        [
+         "Bei der Anwendung der Absätze 1 und 2 sind 1.",
+         null
+        ],
+        [
+         "als Drittstaaten die Staaten anzusehen, die nicht Mitgliedstaaten der Europäischen Union sind;",
+         "b2"
+        ],
+        [
+         "[…] Bei Anwendung des Satzes 1 sind den Mitgliedstaaten der Europäischen Union die Staaten gleichgestellt, auf die das Abkommen über den Europäischen Wirtschaftsraum anwendbar ist, sofern […] Auskünfte erteilt werden, die erforderlich sind, um die Besteuerung durchzuführen.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
       [
        "Tatbestand",
        "g1"
-      ],
-      [
-       "Drittstaat?",
-       "b1"
       ],
       [
        "Art",
@@ -358,15 +371,19 @@
       [
        "Vortrag",
        "gr1"
+      ],
+      [
+       "Brasilien",
+       "b2"
       ]
      ],
      "randnotiz": [
-      "Drittstaat: § 2a Abs. 2a EStG",
-      "weder EU noch EWR mit Amtshilfe"
+      "Yara: 12.000 € im Brasilien-Topf",
+      "nur gegen spätere Mieten von dort"
      ]
     }
    ],
-   "caption": "Mini-Fall: Darf Yara den Mietverlust aus Brasilien mit ihrem Gehalt verrechnen?\n\nFall: Yara wohnt in Köln, Gehalt 2026: 80.000 €. Aus einer vermieteten Wohnung in Brasilien erzielt sie 2026 einen Verlust von 12.000 €. Ein DBA besteht nicht.\n\n▸ Als unbeschränkt Steuerpflichtige erfasst Deutschland grundsätzlich ihr Welteinkommen (§ 1 Abs. 1, § 2 Abs. 1 EStG).\n▸ Brasilien ist weder EU- noch EWR-Staat und damit Drittstaat (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n▸ Negative Einkünfte aus der Vermietung von unbeweglichem Vermögen in einem Drittstaat dürfen nur mit positiven Einkünften der jeweils selben Art aus demselben Staat ausgeglichen werden, auch kein Verlustabzug nach § 10d (§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG).\n▸ Nicht ausgeglichene Verluste mindern spätere positive Einkünfte derselben Art aus demselben Staat (§ 2a Abs. 1 S. 3 EStG) und werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n▸ Gegenprobe: Für Wohnungen in EU- oder EWR-Staaten gilt § 2a nicht; bei gewerblichen Drittstaaten-Betriebsstätten hilft die Aktivitätsklausel (§ 2a Abs. 2 S. 1 EStG).\n\nZum Schluss: § 2a Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Mini-Fall: Darf Yara den Mietverlust aus Brasilien mit ihrem Gehalt verrechnen?\n\nFall: Yara wohnt in Köln, Gehalt 2026: 80.000 €. Aus einer vermieteten Wohnung in Brasilien erzielt sie 2026 einen Verlust von 12.000 €. Ein DBA besteht nicht.\n\n▸ Als unbeschränkt Steuerpflichtige erfasst Deutschland grundsätzlich ihr Welteinkommen (§ 1 Abs. 1, § 2 Abs. 1 EStG).\n▸ Brasilien ist weder EU- noch EWR-Staat und damit Drittstaat (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n▸ Negative Einkünfte aus der Vermietung von unbeweglichem Vermögen in einem Drittstaat dürfen nur mit positiven Einkünften der jeweils selben Art aus demselben Staat ausgeglichen werden, auch kein Verlustabzug nach § 10d (§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG).\n▸ Nicht ausgeglichene Verluste mindern spätere positive Einkünfte derselben Art aus demselben Staat (§ 2a Abs. 1 S. 3 EStG) und werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n▸ Gegenprobe: Für Wohnungen in EU- oder EWR-Staaten gilt § 2a nicht; bei gewerblichen Drittstaaten-Betriebsstätten hilft die Aktivitätsklausel (§ 2a Abs. 2 S. 1 EStG).\n\nZum Schluss: § 2a Abs. 1, 2a EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

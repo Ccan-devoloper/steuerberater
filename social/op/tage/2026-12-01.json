@@ -31,7 +31,7 @@
      ],
      "norm": "§ 95 Abs. 1 BGB",
      "unter": "AfA in 4 Schritten",
-     "teaser": "+ Markier-Guide § 7 EStG",
+     "teaser": "+ Markier-Guide EStG + BGB",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -79,7 +79,7 @@
        "Monate ab Fertigstellung"
       ]
      ],
-     "teaser": "Am Ende: § 7 Abs. 4 EStG markiert"
+     "teaser": "Am Ende: § 7 EStG, § 95 BGB markiert"
     },
     {
      "typ": "inhalt",
@@ -307,15 +307,15 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du mit 3 % gerechnet?",
-     "teaser": "Weiterwischen: § 7 Abs. 4 EStG markiert"
+     "teaser": "Weiterwischen: § 7 EStG, § 95 BGB markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 7 EStG Absetzung für Abnutzung (Auszug)",
+     "kopf": "§ 7 EStG, § 95 BGB (Auszug)",
      "absaetze": [
       [
-       "(4)",
+       "§ 7 (4)",
        [
         [
          "Bei Gebäuden sind abweichend von Absatz 1 als Absetzung für Abnutzung die folgenden Beträge bis zur vollen Absetzung abzuziehen: 1. bei Gebäuden, soweit sie zu einem Betriebsvermögen gehören und nicht Wohnzwecken dienen und für die der Bauantrag nach dem 31. März 1985 gestellt worden ist,",
@@ -346,6 +346,23 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 95 (1) BGB",
+       [
+        [
+         "Zu den Bestandteilen eines Grundstücks gehören solche Sachen nicht,",
+         null
+        ],
+        [
+         "die nur zu einem vorübergehenden Zweck",
+         "gr1"
+        ],
+        [
+         "mit dem Grund und Boden verbunden sind. […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -360,15 +377,19 @@
       [
        "Grenze",
        "b1"
+      ],
+      [
+       "Abrisspflicht",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 95 Abs. 1 BGB",
-      "Scheinbestandteil bleibt Eigentum des Erbauers"
+      "Kemal: 450.000 € : 15 × 6/12",
+      "AfA 2026: 15.000 €"
      ]
     }
    ],
-   "caption": "Lagerhalle auf gepachtetem Grund mit Abrisspflicht: Was wird bilanziert, und wie hoch ist die AfA? Der Rechenweg für die Bilanzklausur.\n\n1. Ein fest verbundenes Gebäude wird grundsätzlich wesentlicher Bestandteil des Grundstücks und gehört dem Grundstückseigentümer (§§ 94 Abs. 1, 946 BGB).\n2. Ausnahme Scheinbestandteil: Verbindung nur zu einem vorübergehenden Zweck (§ 95 Abs. 1 S. 1 BGB). Eine Abrisspflicht zum Pachtende spricht dafür; der Erbauer bleibt Eigentümer und aktiviert das Gebäude.\n3. AfA: Regel 3 % für Betriebsgebäude, die nicht Wohnzwecken dienen (§ 7 Abs. 4 S. 1 Nr. 1 EStG); bei tatsächlicher Nutzungsdauer unter 33 Jahren nach dieser Dauer (§ 7 Abs. 4 S. 2 EStG).\n4. Im Jahr der Fertigstellung zeitanteilig (R 7.4 Abs. 2 S. 1 EStR; § 7 Abs. 1 S. 4 EStG).\n\nRechnung: 450.000 € ÷ 15 Jahre = 30.000 €, davon 6/12 = 15.000 € für 2026. Variante: Fertigstellung 15.3., Restpacht 12 Jahre: 37.500 € × 10/12 = 31.250 €.\n\nZum Schluss: § 7 Abs. 4 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Lagerhalle auf gepachtetem Grund mit Abrisspflicht: Was wird bilanziert, und wie hoch ist die AfA? Der Rechenweg für die Bilanzklausur.\n\n1. Ein fest verbundenes Gebäude wird grundsätzlich wesentlicher Bestandteil des Grundstücks und gehört dem Grundstückseigentümer (§§ 94 Abs. 1, 946 BGB).\n2. Ausnahme Scheinbestandteil: Verbindung nur zu einem vorübergehenden Zweck (§ 95 Abs. 1 S. 1 BGB). Eine Abrisspflicht zum Pachtende spricht dafür; der Erbauer bleibt Eigentümer und aktiviert das Gebäude.\n3. AfA: Regel 3 % für Betriebsgebäude, die nicht Wohnzwecken dienen (§ 7 Abs. 4 S. 1 Nr. 1 EStG); bei tatsächlicher Nutzungsdauer unter 33 Jahren nach dieser Dauer (§ 7 Abs. 4 S. 2 EStG).\n4. Im Jahr der Fertigstellung zeitanteilig (R 7.4 Abs. 2 S. 1 EStR; § 7 Abs. 1 S. 4 EStG).\n\nRechnung: 450.000 € ÷ 15 Jahre = 30.000 €, davon 6/12 = 15.000 € für 2026. Variante: Fertigstellung 15.3., Restpacht 12 Jahre: 37.500 € × 10/12 = 31.250 €.\n\nZum Schluss: § 7 Abs. 4 EStG und § 95 Abs. 1 BGB zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

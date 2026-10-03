@@ -341,7 +341,7 @@
      ],
      "norm": "§ 39 Abs. 2 Nr. 1 AO",
      "unter": "Wer bilanziert?",
-     "teaser": "+ Markier-Guide § 39 AO",
+     "teaser": "+ Markier-Guide § 39 AO, § 246 HGB",
      "motiv": {
       "typ": "icon",
       "name": "tabler:scale",
@@ -553,7 +553,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Fällt dir ein weiterer Fall ein?",
-     "teaser": "Weiterwischen: § 39 AO markiert"
+     "teaser": "Weiterwischen: § 39 AO, § 246 HGB markiert"
     },
     {
      "typ": "gesetz",
@@ -614,12 +614,65 @@
       ]
      ],
      "randnotiz": [
-      "Handelsbilanz: § 246 Abs. 1 S. 2 HGB",
+      "Weiterwischen: § 246 Abs. 1 S. 2 HGB",
       "wirtschaftliche Zurechnung auch dort"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 246 HGB Vollständigkeit (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Der Jahresabschluss hat sämtliche Vermögensgegenstände, Schulden, Rechnungsabgrenzungsposten sowie Aufwendungen und Erträge zu enthalten, soweit gesetzlich nichts anderes bestimmt ist.",
+         null
+        ],
+        [
+         "Vermögensgegenstände sind in der Bilanz des Eigentümers aufzunehmen;",
+         "b1"
+        ],
+        [
+         "ist ein Vermögensgegenstand nicht dem Eigentümer, sondern",
+         null
+        ],
+        [
+         "einem anderen wirtschaftlich zuzurechnen,",
+         "r1"
+        ],
+        [
+         "hat dieser ihn in seiner Bilanz auszuweisen.",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Regel",
+       "b1"
+      ],
+      [
+       "Eigenbesitz, Sicherung",
+       "r1"
+      ],
+      [
+       "Malin bilanziert",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Maschine und Lkw bei Malin",
+      "in Handels- und Steuerbilanz"
      ]
     }
    ],
-   "caption": "Zivilrechtliches oder wirtschaftliches Eigentum: Wer bilanziert das Wirtschaftsgut?\n\n▸ Grundsatz: Zurechnung beim Eigentümer (§ 39 Abs. 1 AO; § 246 Abs. 1 S. 2 Hs. 1 HGB).\n▸ Ausnahme: Beherrscht ein anderer das Wirtschaftsgut tatsächlich und kann er den Eigentümer über die gesamte Nutzungsdauer wirtschaftlich außen vor halten, bilanziert er (§ 39 Abs. 2 Nr. 1 S. 1 AO; § 246 Abs. 1 S. 2 Hs. 2 HGB).\n▸ Gesetzliche Fälle: Treuhand → Treugeber, Sicherungseigentum → Sicherungsgeber, Eigenbesitz (z. B. Kauf unter Eigentumsvorbehalt) → Eigenbesitzer (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n▸ Beispiel: Maschine unter Eigentumsvorbehalt und sicherungsübereigneter Lkw – beide bilanziert die Unternehmerin.\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Zivilrechtliches oder wirtschaftliches Eigentum: Wer bilanziert das Wirtschaftsgut?\n\n▸ Grundsatz: Zurechnung beim Eigentümer (§ 39 Abs. 1 AO; § 246 Abs. 1 S. 2 Hs. 1 HGB).\n▸ Ausnahme: Beherrscht ein anderer das Wirtschaftsgut tatsächlich und kann er den Eigentümer über die gesamte Nutzungsdauer wirtschaftlich außen vor halten, bilanziert er (§ 39 Abs. 2 Nr. 1 S. 1 AO; § 246 Abs. 1 S. 2 Hs. 2 HGB).\n▸ Gesetzliche Fälle: Treuhand → Treugeber, Sicherungseigentum → Sicherungsgeber, Eigenbesitz (z. B. Kauf unter Eigentumsvorbehalt) → Eigenbesitzer (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n▸ Beispiel: Maschine unter Eigentumsvorbehalt und sicherungsübereigneter Lkw – beide bilanziert die Unternehmerin.\n\nZum Schluss: § 39 AO und § 246 Abs. 1 HGB zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

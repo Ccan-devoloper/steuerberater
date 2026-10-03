@@ -407,7 +407,7 @@
      ],
      "norm": "§ 4 Abs. 1 S. 3 EStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 4 EStG",
+     "teaser": "+ Markier-Guide §§ 4, 4g EStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -455,7 +455,7 @@
        "nur EU und EWR"
       ]
      ],
-     "teaser": "Am Ende: § 4 EStG markiert"
+     "teaser": "Am Ende: §§ 4, 4g EStG markiert"
     },
     {
      "typ": "inhalt",
@@ -655,15 +655,15 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Hättest du an die Anrechnung gedacht?",
-     "teaser": "Weiterwischen: § 4 EStG markiert"
+     "teaser": "Weiterwischen: §§ 4, 4g EStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 4 Abs. 1 EStG (Auszug)",
+     "kopf": "§§ 4, 4g EStG (Auszug)",
      "absaetze": [
       [
-       "S. 3",
+       "§ 4 (1) S. 3",
        [
         [
          "Einer Entnahme für betriebsfremde Zwecke steht",
@@ -691,6 +691,48 @@
          "b1"
         ]
        ]
+      ],
+      [
+       "§ 4g (1) 1",
+       [
+        [
+         "Der Steuerpflichtige kann in Höhe des Unterschiedsbetrags zwischen dem Buchwert und dem nach § 6 Absatz 1 Nummer 4 Satz 1 zweiter Halbsatz anzusetzenden Wert eines Wirtschaftsguts",
+         null
+        ],
+        [
+         "auf Antrag einen Ausgleichsposten bilden,",
+         "gr1"
+        ],
+        [
+         "soweit das Besteuerungsrecht der Bundesrepublik Deutschland hinsichtlich des Gewinns aus der Veräußerung des Wirtschaftsguts",
+         null
+        ],
+        [
+         "zugunsten eines Staates im Sinne des § 36 Absatz 5 Satz 1",
+         "r1"
+        ],
+        [
+         "beschränkt oder ausgeschlossen wird (§ 4 Absatz 1 Satz 3). […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2) 1",
+       [
+        [
+         "Der Ausgleichsposten ist im Wirtschaftsjahr der Bildung und in den vier folgenden Wirtschaftsjahren",
+         null
+        ],
+        [
+         "zu jeweils einem Fünftel",
+         "b2"
+        ],
+        [
+         "gewinnerhöhend aufzulösen.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -701,15 +743,27 @@
       [
        "Regelfall",
        "b1"
+      ],
+      [
+       "Antrag",
+       "gr1"
+      ],
+      [
+       "nur EU und EWR",
+       "r1"
+      ],
+      [
+       "10.000 € je Jahr",
+       "b2"
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 4g EStG",
-      "Ausgleichsposten, 5 Jahre, nur EU und EWR"
+      "Schweiz: weder EU noch EWR",
+      "50.000 € sofort Gewinn"
      ]
     }
    ],
-   "caption": "Wirtschaftsgut in die ausländische Betriebsstätte: das Prüfschema zur Entstrickung für Klausur 2.\n\n1. Zuordnung: Wird ein bisher der inländischen Betriebsstätte zuzuordnendes Wirtschaftsgut einer ausländischen Betriebsstätte zugeordnet, ist das der Regelfall (§ 4 Abs. 1 S. 4 EStG).\n2. Besteuerungsrecht: Ausschluss (DBA-Freistellung) oder Beschränkung (Anrechnung) steht einer Entnahme gleich (§ 4 Abs. 1 S. 3 EStG).\n3. Bewertung mit dem gemeinen Wert (§ 6 Abs. 1 Nr. 4 S. 1 Hs. 2 EStG). Beispiel: 90.000 € – 40.000 € Buchwert = 50.000 €.\n4. Auf Antrag Ausgleichsposten je Wirtschaftsgut, nur bei Beschränkung zugunsten eines EU- oder EWR-Staats; Auflösung zu je einem Fünftel im Jahr der Bildung und in den vier folgenden Wirtschaftsjahren (§ 4g Abs. 1, 2 EStG; § 36 Abs. 5 S. 1 EStG).\n\nVariante Schweiz: kein EU- oder EWR-Staat, daher kein Ausgleichsposten, 50.000 € sofort.\n\nZum Schluss: § 4 Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Wirtschaftsgut in die ausländische Betriebsstätte: das Prüfschema zur Entstrickung für Klausur 2.\n\n1. Zuordnung: Wird ein bisher der inländischen Betriebsstätte zuzuordnendes Wirtschaftsgut einer ausländischen Betriebsstätte zugeordnet, ist das der Regelfall (§ 4 Abs. 1 S. 4 EStG).\n2. Besteuerungsrecht: Ausschluss (DBA-Freistellung) oder Beschränkung (Anrechnung) steht einer Entnahme gleich (§ 4 Abs. 1 S. 3 EStG).\n3. Bewertung mit dem gemeinen Wert (§ 6 Abs. 1 Nr. 4 S. 1 Hs. 2 EStG). Beispiel: 90.000 € – 40.000 € Buchwert = 50.000 €.\n4. Auf Antrag Ausgleichsposten je Wirtschaftsgut, nur bei Beschränkung zugunsten eines EU- oder EWR-Staats; Auflösung zu je einem Fünftel im Jahr der Bildung und in den vier folgenden Wirtschaftsjahren (§ 4g Abs. 1, 2 EStG; § 36 Abs. 5 S. 1 EStG).\n\nVariante Schweiz: kein EU- oder EWR-Staat, daher kein Ausgleichsposten, 50.000 € sofort.\n\nZum Schluss: § 4 Abs. 1 und § 4g EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

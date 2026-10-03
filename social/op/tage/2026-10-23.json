@@ -322,6 +322,23 @@
          "gr1"
         ]
        ]
+      ],
+      [
+       "(3) 2",
+       [
+        [
+         "Bei einer Erhöhung der Anschaffungskosten oder Herstellungskosten auf Grund rückwirkender Besteuerung des Einbringungsgewinns (Absatz 2) gilt dies mit der Maßgabe, dass an die Stelle des Zeitpunkts der Einbringung",
+         null
+        ],
+        [
+         "der Beginn des Wirtschaftsjahrs",
+         "b1"
+        ],
+        [
+         "tritt, in welches das die Besteuerung des Einbringungsgewinns auslösende Ereignis fällt.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -336,15 +353,19 @@
       [
        "gewinnneutral",
        "gr1"
+      ],
+      [
+       "AfA ab 01.01.2026",
+       "b1"
       ]
      ],
      "randnotiz": [
-      "AfA-Beginn: § 23 Abs. 3 S. 2 UmwStG",
-      "Beginn des Wirtschaftsjahres der Veräußerung"
+      "Nils: Erhöhungsbetrag 400.000 €",
+      "Mehr-AfA ab 01.01.2026, nicht ab 2023"
      ]
     }
    ],
-   "caption": "Sperrfristbehaftete Anteile verkauft: Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Der Mini-Fall.\n\n▸ Einbringungsgewinn I: gemeiner Wert des eingebrachten Betriebsvermögens abzüglich Kosten und Ansatz bei der GmbH, gemindert um ein Siebtel je abgelaufenes Zeitjahr seit der Einbringung (§ 22 Abs. 1 S. 3 UmwStG); rückwirkende Versteuerung beim Einbringenden (§ 22 Abs. 1 S. 1, 2 UmwStG).\n▸ Die übernehmende Gesellschaft kann auf Antrag den versteuerten Einbringungsgewinn als Erhöhungsbetrag ansetzen, soweit der Einbringende die Steuer entrichtet hat und dies per Bescheinigung nach § 22 Abs. 5 UmwStG nachgewiesen ist; der Ansatz ist gewinnneutral (§ 23 Abs. 2 S. 1 UmwStG). Voraussetzung: Das eingebrachte Betriebsvermögen gehört noch zur GmbH oder wurde zum gemeinen Wert übertragen (§ 23 Abs. 2 S. 2 UmwStG).\n▸ Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in das die schädliche Veräußerung fällt (§ 23 Abs. 3 S. 2 UmwStG).\n\nIm Beispiel: Einbringung 01.07.2023, Verkauf 10.09.2026 → drei volle Zeitjahre → 700.000 € × 4/7 = 400.000 €. Verteilung im Verhältnis der stillen Reserven: Gebäude 240.000 €, Maschinen 80.000 €, Firmenwert 80.000 €; Mehr-AfA ab 01.01.2026 (Wirtschaftsjahr = Kalenderjahr).\n\nZum Schluss: § 23 Abs. 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Sperrfristbehaftete Anteile verkauft: Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Der Mini-Fall.\n\n▸ Einbringungsgewinn I: gemeiner Wert des eingebrachten Betriebsvermögens abzüglich Kosten und Ansatz bei der GmbH, gemindert um ein Siebtel je abgelaufenes Zeitjahr seit der Einbringung (§ 22 Abs. 1 S. 3 UmwStG); rückwirkende Versteuerung beim Einbringenden (§ 22 Abs. 1 S. 1, 2 UmwStG).\n▸ Die übernehmende Gesellschaft kann auf Antrag den versteuerten Einbringungsgewinn als Erhöhungsbetrag ansetzen, soweit der Einbringende die Steuer entrichtet hat und dies per Bescheinigung nach § 22 Abs. 5 UmwStG nachgewiesen ist; der Ansatz ist gewinnneutral (§ 23 Abs. 2 S. 1 UmwStG). Voraussetzung: Das eingebrachte Betriebsvermögen gehört noch zur GmbH oder wurde zum gemeinen Wert übertragen (§ 23 Abs. 2 S. 2 UmwStG).\n▸ Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in das die schädliche Veräußerung fällt (§ 23 Abs. 3 S. 2 UmwStG).\n\nIm Beispiel: Einbringung 01.07.2023, Verkauf 10.09.2026 → drei volle Zeitjahre → 700.000 € × 4/7 = 400.000 €. Verteilung im Verhältnis der stillen Reserven: Gebäude 240.000 €, Maschinen 80.000 €, Firmenwert 80.000 €; Mehr-AfA ab 01.01.2026 (Wirtschaftsjahr = Kalenderjahr).\n\nZum Schluss: § 23 Abs. 2, 3 UmwStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -608,6 +629,23 @@
      "kopf": "§ 3 UStG (Auszug)",
      "absaetze": [
       [
+       "(6)",
+       [
+        [
+         "1 Wird der Gegenstand der Lieferung durch den Lieferer, den Abnehmer oder einen vom Lieferer oder vom Abnehmer beauftragten Dritten befördert oder versendet, gilt die Lieferung dort als ausgeführt,",
+         null
+        ],
+        [
+         "wo die Beförderung oder Versendung an den Abnehmer oder in dessen Auftrag an einen Dritten beginnt.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
        "(6a)",
        [
         [
@@ -648,6 +686,10 @@
      ],
      "notizen": [
       [
+       "bewegt: Beginn",
+       "r1"
+      ],
+      [
        "nur eine bewegt",
        "g1"
       ],
@@ -661,12 +703,12 @@
       ]
      ],
      "randnotiz": [
-      "Bewegt: § 3 Abs. 6 S. 1 UStG",
-      "Ort ist der Beginn des Transports"
+      "Graz bewegt, Passau ruhend",
+      "Ana erwirbt innergemeinschaftlich"
      ]
     }
    ],
-   "caption": "Ort der Lieferung: bewegt oder ruhend? Die Gegenüberstellung für die USt-Klausur.\n\n▸ Bewegte Lieferung: Wird der Gegenstand befördert oder versendet, ist der Ort dort, wo die Beförderung oder Versendung beginnt (§ 3 Abs. 6 S. 1 UStG).\n▸ Ruhende Lieferung: Ohne Beförderung oder Versendung ist der Ort dort, wo sich der Gegenstand bei Verschaffung der Verfügungsmacht befindet (§ 3 Abs. 7 S. 1 UStG).\n▸ Reihengeschäft: Die Warenbewegung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG); befördert oder versendet der erste Unternehmer, ist es seine Lieferung (§ 3 Abs. 6a S. 2 UStG). Ruhende Lieferungen davor gelten am Beginn, danach am Ende der Beförderung oder Versendung als ausgeführt (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nIm Beispiel: Hersteller (Graz) → Ana (Passau) → Kundin (Passau), Versendung durch den Hersteller. Bewegt ist die Lieferung an Ana, Ort Graz (innergemeinschaftliche Lieferung aus Österreich); Ana erwirbt innergemeinschaftlich in Deutschland, wo die Versendung endet (§ 1a, § 3d S. 1 UStG). Die Lieferung an die Kundin ist ruhend, Ort Passau, steuerbar im Inland.\n\nZum Schluss: § 3 Abs. 6a und 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Ort der Lieferung: bewegt oder ruhend? Die Gegenüberstellung für die USt-Klausur.\n\n▸ Bewegte Lieferung: Wird der Gegenstand befördert oder versendet, ist der Ort dort, wo die Beförderung oder Versendung beginnt (§ 3 Abs. 6 S. 1 UStG).\n▸ Ruhende Lieferung: Ohne Beförderung oder Versendung ist der Ort dort, wo sich der Gegenstand bei Verschaffung der Verfügungsmacht befindet (§ 3 Abs. 7 S. 1 UStG).\n▸ Reihengeschäft: Die Warenbewegung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG); befördert oder versendet der erste Unternehmer, ist es seine Lieferung (§ 3 Abs. 6a S. 2 UStG). Ruhende Lieferungen davor gelten am Beginn, danach am Ende der Beförderung oder Versendung als ausgeführt (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nIm Beispiel: Hersteller (Graz) → Ana (Passau) → Kundin (Passau), Versendung durch den Hersteller. Bewegt ist die Lieferung an Ana, Ort Graz (innergemeinschaftliche Lieferung aus Österreich); Ana erwirbt innergemeinschaftlich in Deutschland, wo die Versendung endet (§ 1a, § 3d S. 1 UStG). Die Lieferung an die Kundin ist ruhend, Ort Passau, steuerbar im Inland.\n\nZum Schluss: § 3 Abs. 6, 6a und 7 UStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

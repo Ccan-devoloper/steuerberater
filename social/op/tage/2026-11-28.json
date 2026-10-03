@@ -29,7 +29,7 @@
       "wechsel lösen"
      ],
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 16 EStG",
+     "teaser": "+ Markier-Guide §§ 6, 16 EStG",
      "motiv": {
       "typ": "icon",
       "name": "tabler:calendar-time",
@@ -67,7 +67,7 @@
        "Summe = Gesamtgewinn"
       ]
      ],
-     "teaser": "Am Ende: § 16 EStG markiert"
+     "teaser": "Am Ende: §§ 6, 16 EStG markiert"
     },
     {
      "typ": "inhalt",
@@ -267,13 +267,30 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Zeichnest du schon Zeitstrahlen?",
-     "teaser": "Weiterwischen: § 16 EStG markiert"
+     "teaser": "Weiterwischen: §§ 6, 16 EStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§§ 16, 6 EStG (Auszug)",
+     "kopf": "§§ 6, 16 EStG (Auszug)",
      "absaetze": [
+      [
+       "§ 6 (3)",
+       [
+        [
+         "Wird ein Betrieb, ein Teilbetrieb oder",
+         null
+        ],
+        [
+         "der Anteil eines Mitunternehmers an einem Betrieb unentgeltlich übertragen,",
+         "b1"
+        ],
+        [
+         "so sind […] die Wirtschaftsgüter mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben, […]",
+         null
+        ]
+       ]
+      ],
       [
        "§ 16 (1)",
        [
@@ -302,26 +319,13 @@
          "r1"
         ]
        ]
-      ],
-      [
-       "§ 6 (3)",
-       [
-        [
-         "Wird ein Betrieb, ein Teilbetrieb oder",
-         null
-        ],
-        [
-         "der Anteil eines Mitunternehmers an einem Betrieb unentgeltlich übertragen,",
-         "b1"
-        ],
-        [
-         "so sind […] die Wirtschaftsgüter mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben, […]",
-         null
-        ]
-       ]
       ]
      ],
      "notizen": [
+      [
+       "Buchwert",
+       "b1"
+      ],
       [
        "ganzer Anteil",
        "g1"
@@ -329,10 +333,6 @@
       [
        "Teil: laufend!",
        "r1"
-      ],
-      [
-       "Buchwert",
-       "b1"
       ]
      ],
      "randnotiz": [
@@ -341,7 +341,7 @@
      ]
     }
    ],
-   "caption": "Klausurtechnik für Klausur 3: Gesellschafterwechsel bei der Personengesellschaft sauber lösen.\n\n1. Zeitstrahl zuerst: alle Daten und die Quoten jedes Gesellschafters je Zeitraum.\n2. Jedes Ereignis einer Norm zuordnen: Veräußerung des ganzen Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG), Veräußerung eines Teils als laufender Gewinn (§ 16 Abs. 1 S. 2 EStG), unentgeltliche Übertragung zu Buchwerten (§ 6 Abs. 3 S. 1 EStG), einzelne Wirtschaftsgüter zwischen Mitunternehmer und Gesellschaft (§ 6 Abs. 5 S. 3 EStG).\n3. Im Austrittsjahr laufenden Gewinnanteil und Veräußerungsgewinn getrennt zeigen; nur der Veräußerungsgewinn kann begünstigt sein (§ 16 Abs. 4, § 34 Abs. 2 Nr. 1 EStG).\n4. Tabelle je Gesellschafter führen.\n5. Kontrolle: Die Anteile ergeben zusammen den Gesamtgewinn.\n\nZeit: Bei sechs Stunden für 100 Punkte entsprechen 25 Punkte rund 90 Minuten; zehn Minuten Vorarbeit lohnen sich.\n\nZum Schluss: §§ 16, 6 Abs. 3 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Klausurtechnik für Klausur 3: Gesellschafterwechsel bei der Personengesellschaft sauber lösen.\n\n1. Zeitstrahl zuerst: alle Daten und die Quoten jedes Gesellschafters je Zeitraum.\n2. Jedes Ereignis einer Norm zuordnen: Veräußerung des ganzen Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG), Veräußerung eines Teils als laufender Gewinn (§ 16 Abs. 1 S. 2 EStG), unentgeltliche Übertragung zu Buchwerten (§ 6 Abs. 3 S. 1 EStG), einzelne Wirtschaftsgüter zwischen Mitunternehmer und Gesellschaft (§ 6 Abs. 5 S. 3 EStG).\n3. Im Austrittsjahr laufenden Gewinnanteil und Veräußerungsgewinn getrennt zeigen; nur der Veräußerungsgewinn kann begünstigt sein (§ 16 Abs. 4, § 34 Abs. 2 Nr. 1 EStG).\n4. Tabelle je Gesellschafter führen.\n5. Kontrolle: Die Anteile ergeben zusammen den Gesamtgewinn.\n\nZeit: Bei sechs Stunden für 100 Punkte entsprechen 25 Punkte rund 90 Minuten; zehn Minuten Vorarbeit lohnen sich.\n\nZum Schluss: § 6 Abs. 3, § 16 Abs. 1 EStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

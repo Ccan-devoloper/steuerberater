@@ -371,7 +371,7 @@
      ],
      "norm": "§ 2 Abs. 1 ErbStG",
      "unter": "Auslandsfall",
-     "teaser": "+ Markier-Guide § 2 ErbStG",
+     "teaser": "+ Markier-Guide §§ 2, 21 ErbStG",
      "motiv": {
       "typ": "icon",
       "name": "tabler:world",
@@ -431,7 +431,7 @@
        "alles oder nur Inlandsvermögen"
       ]
      ],
-     "teaser": "Am Ende: § 2 ErbStG markiert"
+     "teaser": "Am Ende: §§ 2, 21 ErbStG markiert"
     },
     {
      "typ": "inhalt",
@@ -539,7 +539,7 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Hättest du das Konto erfasst?",
-     "teaser": "Weiterwischen: § 2 ErbStG markiert"
+     "teaser": "Weiterwischen: §§ 2, 21 ErbStG markiert"
     },
     {
      "typ": "gesetz",
@@ -604,12 +604,77 @@
       ]
      ],
      "randnotiz": [
-      "Dazu § 21 ErbStG",
-      "Anrechnung ausländischer Erbschaftsteuer"
+      "Weiterwischen: § 21 ErbStG",
+      "Spanische Steuer auf Antrag anrechnen"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 21 ErbStG Anrechnung (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Bei Erwerbern, die in einem ausländischen Staat mit ihrem",
+         null
+        ],
+        [
+         "Auslandsvermögen",
+         "b1"
+        ],
+        [
+         "zu einer der deutschen Erbschaftsteuer entsprechenden Steuer - ausländische Steuer - herangezogen werden, ist in den Fällen des § 2 Absatz 1 Nummer 1,",
+         null
+        ],
+        [
+         "sofern nicht die Vorschriften eines Abkommens zur Vermeidung der Doppelbesteuerung anzuwenden sind,",
+         "r1"
+        ],
+        [
+         "auf Antrag",
+         "g1"
+        ],
+        [
+         "die festgesetzte, auf den Erwerber entfallende, gezahlte und keinem Ermäßigungsanspruch unterliegende ausländische Steuer insoweit",
+         null
+        ],
+        [
+         "auf die deutsche Erbschaftsteuer anzurechnen,",
+         "gr1"
+        ],
+        [
+         "als das Auslandsvermögen auch der deutschen Erbschaftsteuer unterliegt. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Haus in Valencia",
+       "b1"
+      ],
+      [
+       "nur ohne DBA",
+       "r1"
+      ],
+      [
+       "Antrag!",
+       "g1"
+      ],
+      [
+       "anrechnen",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Höchstens anrechenbar:",
+      "deutsche Steuer auf das Auslandsvermögen"
      ]
     }
    ],
-   "caption": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG? Die Prüfungsfrage mit Auslandsbezug.\n\n▸ Maßgeblich ist der Zeitpunkt der Entstehung der Steuer, beim Erwerb von Todes wegen der Tod (§ 9 Abs. 1 Nr. 1 ErbStG).\n▸ Ist die Erblasserin oder der Erwerber Inländer, besteht unbeschränkte Steuerpflicht für den gesamten Vermögensanfall (§ 2 Abs. 1 Nr. 1 S. 1 ErbStG). Inländer ist insbesondere, wer im Inland wohnt oder sich gewöhnlich aufhält (§ 2 Abs. 1 Nr. 1 S. 2 Buchst. a ErbStG); deutsche Staatsangehörige bleiben es bis zu fünf Jahre nach dem Wegzug (Buchst. b).\n▸ Ausländische Erbschaftsteuer auf Auslandsvermögen wird auf Antrag angerechnet, soweit kein DBA greift (§ 21 Abs. 1 ErbStG).\n▸ Ist niemand Inländer, wird nur Inlandsvermögen im Sinne des § 121 BewG besteuert (§ 2 Abs. 1 Nr. 3 ErbStG), etwa inländischer Grundbesitz (§ 121 Nr. 2 BewG). Ein Bankguthaben im Inland gehört nicht zum Katalog.\n\nSpeichern für Klausur 1 📌",
+   "caption": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG? Die Prüfungsfrage mit Auslandsbezug.\n\n▸ Maßgeblich ist der Zeitpunkt der Entstehung der Steuer, beim Erwerb von Todes wegen der Tod (§ 9 Abs. 1 Nr. 1 ErbStG).\n▸ Ist die Erblasserin oder der Erwerber Inländer, besteht unbeschränkte Steuerpflicht für den gesamten Vermögensanfall (§ 2 Abs. 1 Nr. 1 S. 1 ErbStG). Inländer ist insbesondere, wer im Inland wohnt oder sich gewöhnlich aufhält (§ 2 Abs. 1 Nr. 1 S. 2 Buchst. a ErbStG); deutsche Staatsangehörige bleiben es bis zu fünf Jahre nach dem Wegzug (Buchst. b).\n▸ Ausländische Erbschaftsteuer auf Auslandsvermögen wird auf Antrag angerechnet, soweit kein DBA greift (§ 21 Abs. 1 ErbStG).\n▸ Ist niemand Inländer, wird nur Inlandsvermögen im Sinne des § 121 BewG besteuert (§ 2 Abs. 1 Nr. 3 ErbStG), etwa inländischer Grundbesitz (§ 121 Nr. 2 BewG). Ein Bankguthaben im Inland gehört nicht zum Katalog.\n\nZum Schluss: §§ 2, 21 ErbStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

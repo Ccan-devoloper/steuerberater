@@ -373,7 +373,7 @@
      ],
      "norm": "§ 249 Abs. 1 S. 1 HGB",
      "unter": "Klausurfrage",
-     "teaser": "+ Markier-Guide § 249 + H 5.7",
+     "teaser": "+ Markier-Guide §§ 249, 6 + H 5.7",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -448,7 +448,7 @@
        "Laufzeit prüfen"
       ]
      ],
-     "teaser": "Am Ende: § 249 HGB + H 5.7 markiert"
+     "teaser": "Am Ende: § 249 HGB, § 6 EStG + H 5.7 markiert"
     },
     {
      "typ": "inhalt",
@@ -642,15 +642,15 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du doppelt gezählt?",
-     "teaser": "Weiterwischen: § 249 + H 5.7 markiert"
+     "teaser": "Weiterwischen: §§ 249, 6 + H 5.7 markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Gesetz und Verwaltung markieren",
-     "kopf": "§ 249 HGB Rückstellungen (Auszug)",
+     "kopf": "§ 249 HGB, § 6 EStG (Auszug)",
      "absaetze": [
       [
-       1,
+       "§ 249 (1)",
        [
         [
          "Rückstellungen",
@@ -658,7 +658,7 @@
         ],
         [
          "sind",
-         "r1"
+         null
         ],
         [
          "für",
@@ -679,15 +679,19 @@
        ]
       ],
       [
-       2,
+       "§ 6 (1) Nr. 3a EStG",
        [
         [
-         "Für andere als die in Absatz 1 bezeichneten Zwecke dürfen Rückstellungen nicht gebildet werden. Rückstellungen dürfen nur aufgelöst werden,",
+         "[…] e) Rückstellungen für Verpflichtungen sind mit einem Zinssatz von 5,5 Prozent abzuzinsen; ausgenommen von der Abzinsung sind Rückstellungen für Verpflichtungen,",
          null
         ],
         [
-         "soweit der Grund hierfür entfallen ist.",
-         "gr1"
+         "deren Laufzeit am Bilanzstichtag weniger als zwölf Monate beträgt,",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
         ]
        ]
       ]
@@ -702,13 +706,13 @@
        "b1"
       ],
       [
-       "Auflösung nur bei Wegfall",
-       "gr1"
+       "März 2027: nicht abzinsen",
+       "r1"
       ]
      ],
      "randnotiz": [
-      "Steuerlich: § 5 Abs. 1, § 6 Abs. 1 Nr. 3a EStG",
-      "Höchstens HB-Wert: R 6.11 Abs. 3 EStR"
+      "Paulina: 25.000 € + 19.000 €",
+      "keine Abzinsung: 44.000 €"
      ],
      "zweite": {
       "kopf": "H 5.7 (5) EStH, BMF vom 26.05.2005 (Auszug)",
@@ -769,7 +773,7 @@
      }
     }
    ],
-   "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (H 5.7 (5) EStH).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, BStBl I 2005, 699, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB, H 5.7 (5) EStH und BMF vom 26.05.2005, Rn. 27 zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (H 5.7 (5) EStH).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, BStBl I 2005, 699, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB, § 6 Abs. 1 Nr. 3a EStG, H 5.7 (5) EStH und BMF vom 26.05.2005, Rn. 27 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

@@ -31,7 +31,7 @@
      ],
      "norm": "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 16 EStG",
+     "teaser": "+ Markier-Guide § 16 EStG, § 7 ErbStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -286,7 +286,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "An § 7 Abs. 7 ErbStG gedacht?",
-     "teaser": "Weiterwischen: § 16 EStG markiert"
+     "teaser": "Weiterwischen: § 16 EStG, § 7 ErbStG markiert"
     },
     {
      "typ": "gesetz",
@@ -351,12 +351,36 @@
       ]
      ],
      "randnotiz": [
-      "Daneben: § 7 Abs. 7 ErbStG",
-      "Schenkung, soweit Steuerwert > Abfindung"
-     ]
+      "Brüder führen Buchwerte fort",
+      "Schenkungsteuer auf den Mehrwert"
+     ],
+     "zweite": {
+      "kopf": "§ 7 ErbStG (Auszug)",
+      "absaetze": [
+       [
+        "(7) 1",
+        [
+         [
+          "Als Schenkung gilt auch der auf dem Ausscheiden eines Gesellschafters beruhende Übergang des Anteils […] eines Gesellschafters einer Personengesellschaft […] auf die anderen Gesellschafter […],",
+          null
+         ],
+         [
+          "soweit der Wert, der sich für seinen Anteil zur Zeit seines Ausscheidens nach § 12 ergibt, den Abfindungsanspruch übersteigt.",
+          "r2"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Steuerwert über Abfindung",
+        "r2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Ausscheiden aus der KG mit Abfindung zum Buchwert: Veräußerung oder Schenkung? Eine typische Prüfungsfrage für den zweiten Anlauf.\n\n▸ Zivilrecht: Der Anteil wächst den übrigen Gesellschaftern zu, der Ausscheidende erhält einen Abfindungsanspruch (§ 712 Abs. 1 BGB i. V. m. § 105 Abs. 3, § 161 Abs. 2 HGB; § 135 Abs. 1 HGB).\n▸ Steuerlich ist das Ausscheiden grundsätzlich eine Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Abfindung genau zum Buchwert: Bei betrieblichem Grund (Buchwertklausel für alle) entgeltlich mit Veräußerungsgewinn 0 €; bei privatem Grund (Zuwendung an Angehörige) unentgeltlich mit Buchwertfortführung (§ 6 Abs. 3 S. 1, 3 EStG).\n▸ Entgeltlicher Erwerb: Für den hinzuerworbenen Gebäudeanteil läuft eine neue AfA nach den Regeln im Erwerbszeitpunkt (§ 7 Abs. 4 S. 1 EStG).\n▸ Klausurfalle: Schenkungsteuer daneben prüfen. Als Schenkung gilt der Übergang, soweit der Steuerwert des Anteils die Abfindung übersteigt (§ 7 Abs. 7 S. 1 ErbStG).\n\nZum Schluss: § 16 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Ausscheiden aus der KG mit Abfindung zum Buchwert: Veräußerung oder Schenkung? Eine typische Prüfungsfrage für den zweiten Anlauf.\n\n▸ Zivilrecht: Der Anteil wächst den übrigen Gesellschaftern zu, der Ausscheidende erhält einen Abfindungsanspruch (§ 712 Abs. 1 BGB i. V. m. § 105 Abs. 3, § 161 Abs. 2 HGB; § 135 Abs. 1 HGB).\n▸ Steuerlich ist das Ausscheiden grundsätzlich eine Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Abfindung genau zum Buchwert: Bei betrieblichem Grund (Buchwertklausel für alle) entgeltlich mit Veräußerungsgewinn 0 €; bei privatem Grund (Zuwendung an Angehörige) unentgeltlich mit Buchwertfortführung (§ 6 Abs. 3 S. 1, 3 EStG).\n▸ Entgeltlicher Erwerb: Für den hinzuerworbenen Gebäudeanteil läuft eine neue AfA nach den Regeln im Erwerbszeitpunkt (§ 7 Abs. 4 S. 1 EStG).\n▸ Klausurfalle: Schenkungsteuer daneben prüfen. Als Schenkung gilt der Übergang, soweit der Steuerwert des Anteils die Abfindung übersteigt (§ 7 Abs. 7 S. 1 ErbStG).\n\nZum Schluss: § 16 Abs. 1, 2 EStG und § 7 Abs. 7 ErbStG zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

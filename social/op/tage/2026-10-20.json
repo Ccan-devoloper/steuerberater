@@ -426,7 +426,7 @@
      ],
      "norm": "§ 15 Abs. 1 ErbStG",
      "unter": "I oder II?",
-     "teaser": "+ Markier-Guide § 15 ErbStG",
+     "teaser": "+ Markier-Guide §§ 15, 16 ErbStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -668,7 +668,7 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Hättest du Klasse I genommen?",
-     "teaser": "Weiterwischen: § 15 ErbStG markiert"
+     "teaser": "Weiterwischen: §§ 15, 16 ErbStG"
     },
     {
      "typ": "gesetz",
@@ -720,12 +720,57 @@
       ]
      ],
      "randnotiz": [
-      "Freibeträge: § 16 Abs. 1 ErbStG",
-      "Übrige Klasse I 100.000 €, Klasse II 20.000 €"
+      "Weiterwischen: § 16 Abs. 1 ErbStG",
+      "Klasse II: nur 20.000 € frei"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 16 ErbStG Freibeträge (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Steuerfrei bleibt in den Fällen der unbeschränkten Steuerpflicht (§ 2 Absatz 1 Nummer 1) der Erwerb 1. des Ehegatten und des Lebenspartners in Höhe von 500 000 Euro; 2. der Kinder im Sinne der Steuerklasse I Nr. 2 und der Kinder verstorbener Kinder im Sinne der Steuerklasse I Nr. 2 in Höhe von 400 000 Euro; 3. der Kinder der Kinder im Sinne der Steuerklasse I Nr. 2 in Höhe von 200 000 Euro; 4. der übrigen Personen der Steuerklasse I",
+         null
+        ],
+        [
+         "in Höhe von 100 000 Euro;",
+         "g1"
+        ],
+        [
+         "5. der Personen der Steuerklasse II",
+         null
+        ],
+        [
+         "in Höhe von 20 000 Euro;",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Eltern im Erbfall",
+       "g1"
+      ],
+      [
+       "Eltern bei Schenkung",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Hanne: 120.000 € − 20.000 €",
+      "100.000 € zu 20 % = 20.000 € Steuer"
      ]
     }
    ],
-   "caption": "Sohn schenkt der Mutter Geld: Welche Steuerklasse, welcher Freibetrag? Der Mini-Fall zur Schenkungsteuer.\n\n▸ Eltern und Voreltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I (§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG), sonst in Steuerklasse II (§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG).\n▸ Freibetrag bei unbeschränkter Steuerpflicht: übrige Personen der Klasse I 100.000 € (§ 16 Abs. 1 Nr. 4 ErbStG), Klasse II 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n▸ Steuersatz bis 300.000 €: Klasse I 11 %, Klasse II 20 %; bis 75.000 €: 7 % bzw. 15 % (§ 19 Abs. 1 ErbStG). Härteausgleich nach § 19 Abs. 3 ErbStG prüfen.\n\nLösung: 120.000 € – 20.000 € = 100.000 €, davon 20 % = 20.000 € Schenkungsteuer. Härteausgleich: Steuer an der Grenze 75.000 € (11.250 €) plus die Hälfte des übersteigenden Betrags (12.500 €) = 23.750 €, also keine Kürzung. Im Erbfall: 120.000 € – 100.000 € = 20.000 €, davon 7 % = 1.400 €.\n\nZum Schluss: § 15 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Sohn schenkt der Mutter Geld: Welche Steuerklasse, welcher Freibetrag? Der Mini-Fall zur Schenkungsteuer.\n\n▸ Eltern und Voreltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I (§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG), sonst in Steuerklasse II (§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG).\n▸ Freibetrag bei unbeschränkter Steuerpflicht: übrige Personen der Klasse I 100.000 € (§ 16 Abs. 1 Nr. 4 ErbStG), Klasse II 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n▸ Steuersatz bis 300.000 €: Klasse I 11 %, Klasse II 20 %; bis 75.000 €: 7 % bzw. 15 % (§ 19 Abs. 1 ErbStG). Härteausgleich nach § 19 Abs. 3 ErbStG prüfen.\n\nLösung: 120.000 € – 20.000 € = 100.000 €, davon 20 % = 20.000 € Schenkungsteuer. Härteausgleich: Steuer an der Grenze 75.000 € (11.250 €) plus die Hälfte des übersteigenden Betrags (12.500 €) = 23.750 €, also keine Kürzung. Im Erbfall: 120.000 € – 100.000 € = 20.000 €, davon 7 % = 1.400 €.\n\nZum Schluss: §§ 15, 16 ErbStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

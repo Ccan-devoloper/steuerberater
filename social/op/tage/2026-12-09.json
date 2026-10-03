@@ -31,7 +31,7 @@
      ],
      "norm": "§ 10 Nr. 2 KStG",
      "unter": "Die Falle",
-     "teaser": "+ Markier-Guide § 10 KStG",
+     "teaser": "+ Markier-Guide KStG + EStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -274,7 +274,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Hättest du die Erstattung abgezogen?",
-     "teaser": "Weiterwischen: § 10 KStG markiert"
+     "teaser": "Weiterwischen: § 10 KStG + § 4 EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -342,12 +342,83 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 4 Abs. 5b EStG",
+      "Weiterwischen: § 4 Abs. 5b EStG",
       "Gewerbesteuer ist keine Betriebsausgabe"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 4 EStG, § 8 KStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 4 (4)",
+       [
+        [
+         "Betriebsausgaben sind die Aufwendungen, die durch den Betrieb veranlasst sind.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "(5b)",
+       [
+        [
+         "Die Gewerbesteuer",
+         "g1"
+        ],
+        [
+         "und die darauf entfallenden Nebenleistungen",
+         null
+        ],
+        [
+         "sind keine Betriebsausgaben.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 8 (1) 1 KStG",
+       [
+        [
+         "Was als Einkommen gilt und wie das Einkommen zu ermitteln ist, bestimmt sich",
+         null
+        ],
+        [
+         "nach den Vorschriften des Einkommensteuergesetzes",
+         "b2"
+        ],
+        [
+         "und dieses Gesetzes.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "b1"
+      ],
+      [
+       "Ausnahme",
+       "g1"
+      ],
+      [
+       "außerhalb der Bilanz dazu",
+       "r1"
+      ],
+      [
+       "gilt auch für die GmbH",
+       "b2"
+      ]
+     ],
+     "randnotiz": [
+      "Wellenreiter: + 12.000 € GewSt",
+      "außerhalb der Bilanz wieder dazu"
      ]
     }
    ],
-   "caption": "Klausurfalle Körperschaftsteuer: Steuern als Aufwand gebucht. Ist der Jahresüberschuss schon das Einkommen?\n\n▸ Der Jahresüberschuss ist nur der Ausgangswert; für das Einkommen gelten die Regeln des Einkommensteuergesetzes entsprechend (§ 8 Abs. 1 KStG).\n▸ Steuern vom Einkommen und ihre Nebenleistungen sind nicht abziehbar: Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen (§ 10 Nr. 2 KStG).\n▸ Die Gewerbesteuer und die darauf entfallenden Nebenleistungen sind keine Betriebsausgaben (§ 4 Abs. 5b EStG).\n▸ Kommt Körperschaftsteuer zurück und steht sie im Ertrag, ziehst du sie spiegelbildlich ab.\n▸ Ebenfalls nicht abziehbar: die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n\nBeispiel: 80.000 € + 15.825 € + 12.000 € = 107.825 €. Variante mit 3.000 € KSt-Erstattung: 83.000 € + 27.825 € − 3.000 € = 107.825 €.\n\nZum Schluss: § 10 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Klausurfalle Körperschaftsteuer: Steuern als Aufwand gebucht. Ist der Jahresüberschuss schon das Einkommen?\n\n▸ Der Jahresüberschuss ist nur der Ausgangswert; für das Einkommen gelten die Regeln des Einkommensteuergesetzes entsprechend (§ 8 Abs. 1 KStG).\n▸ Steuern vom Einkommen und ihre Nebenleistungen sind nicht abziehbar: Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen (§ 10 Nr. 2 KStG).\n▸ Die Gewerbesteuer und die darauf entfallenden Nebenleistungen sind keine Betriebsausgaben (§ 4 Abs. 5b EStG).\n▸ Kommt Körperschaftsteuer zurück und steht sie im Ertrag, ziehst du sie spiegelbildlich ab.\n▸ Ebenfalls nicht abziehbar: die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n\nBeispiel: 80.000 € + 15.825 € + 12.000 € = 107.825 €. Variante mit 3.000 € KSt-Erstattung: 83.000 € + 27.825 € − 3.000 € = 107.825 €.\n\nZum Schluss: § 10 Nr. 2 KStG, § 4 Abs. 4, 5b EStG und § 8 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

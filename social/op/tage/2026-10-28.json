@@ -39,7 +39,7 @@
      ],
      "norm": "§ 11d EStDV",
      "unter": "Quote zählt",
-     "teaser": "+ Markier-Guide § 11d EStDV",
+     "teaser": "+ Markier-Guide § 11d EStDV, § 7 EStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -277,7 +277,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Hättest du den Ausgleich übersehen?",
-     "teaser": "Weiterwischen: § 11d EStDV markiert"
+     "teaser": "Weiterwischen: § 11d EStDV, § 7 EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -333,12 +333,57 @@
       ]
      ],
      "randnotiz": [
-      "Bezahlter Teil: eigene Kosten",
-      "AfA nach § 7 Abs. 4 EStG"
+      "Weiterwischen: § 7 Abs. 4 EStG",
+      "Bezahlter Teil: eigene Kosten, eigene AfA"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 7 Abs. 4 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(4) 1",
+       [
+        [
+         "Bei Gebäuden sind abweichend von Absatz 1 als Absetzung für Abnutzung die folgenden Beträge bis zur vollen Absetzung abzuziehen: […] 2. bei Gebäuden, soweit sie die Voraussetzungen der Nummer 1 nicht erfüllen und die […] b) vor dem 1. Januar 2023 und nach dem 31. Dezember 1924 fertiggestellt worden sind,",
+         null
+        ],
+        [
+         "jährlich 2 Prozent",
+         "g1"
+        ],
+        [
+         "[…] der",
+         null
+        ],
+        [
+         "Anschaffungs- oder Herstellungskosten;",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Satz für Yara",
+       "g1"
+      ],
+      [
+       "ihre 75.000 €",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Yara: 1.500 € + 2.700 €",
+      "AfA 4.200 € im Jahr"
      ]
     }
    ],
-   "caption": "Klausurfalle Einkommensteuer: Schenkung mit Ausgleichszahlung – geschenkt ist nur ein Teil.\n\nFall: Haus mit Verkehrswert 400.000 €, die Tochter zahlt ihrem Bruder 100.000 € Ausgleich.\n\n▸ Ausgleichszahlungen an Geschwister sind Entgelt und führen zu Anschaffungskosten (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847). Entgelt ist auch die Übernahme privater Schulden des Übergebers.\n▸ Privatvermögen wird nach dem Verhältnis von Entgelt zu Verkehrswert aufgeteilt: hier 25 % entgeltlich, 75 % unentgeltlich.\n▸ AfA entgeltlicher Teil: eigene Anschaffungskosten, Gebäudeanteil 75.000 € × 2 % = 1.500 € (§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG).\n▸ AfA unentgeltlicher Teil: Werte und Prozentsatz der Schenkerin fortführen (§ 11d Abs. 1 S. 1 EStDV): 75 % von 3.600 € = 2.700 €.\n▸ Bei der Schenkerin ist der bezahlte Teil eine Veräußerung; außerhalb der Zehnjahresfrist nicht steuerbar (§ 23 Abs. 1 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 11d EStDV zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Klausurfalle Einkommensteuer: Schenkung mit Ausgleichszahlung – geschenkt ist nur ein Teil.\n\nFall: Haus mit Verkehrswert 400.000 €, die Tochter zahlt ihrem Bruder 100.000 € Ausgleich.\n\n▸ Ausgleichszahlungen an Geschwister sind Entgelt und führen zu Anschaffungskosten (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847). Entgelt ist auch die Übernahme privater Schulden des Übergebers.\n▸ Privatvermögen wird nach dem Verhältnis von Entgelt zu Verkehrswert aufgeteilt: hier 25 % entgeltlich, 75 % unentgeltlich.\n▸ AfA entgeltlicher Teil: eigene Anschaffungskosten, Gebäudeanteil 75.000 € × 2 % = 1.500 € (§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG).\n▸ AfA unentgeltlicher Teil: Werte und Prozentsatz der Schenkerin fortführen (§ 11d Abs. 1 S. 1 EStDV): 75 % von 3.600 € = 2.700 €.\n▸ Bei der Schenkerin ist der bezahlte Teil eine Veräußerung; außerhalb der Zehnjahresfrist nicht steuerbar (§ 23 Abs. 1 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 11d Abs. 1 EStDV und § 7 Abs. 4 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
