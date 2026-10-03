@@ -374,8 +374,8 @@
         "SBV I",
         "oder II?",
         "R 4.2 Abs. 2 EStR",
-        "SBV I dient dem Betrieb, etwa ein vermietetes Grundstück.",
-        "SBV II stützt die Beteiligung, etwa ein Kredit für den Anteil."
+        "SBV I dient dem Betrieb: an die KG vermietetes Grundstück.",
+        "SBV II stützt die Beteiligung: Kredit für den Anteil."
       ],
       "renderer": "open-peeps-v4",
       "bildStatus": "open-peeps-render",
@@ -536,7 +536,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:14:25Z",
+    "erzeugtAm": "2026-10-03T12:55:01Z",
     "pfad": "vorproduktion/2026-10-05/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
