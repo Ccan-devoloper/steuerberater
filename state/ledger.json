@@ -5816,7 +5816,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 53,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5825,8 +5825,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-01T22:55:30.861Z",
-      "insightsAlterStunden": 65.2
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 96
     },
     {
       "datum": "2026-09-29",
@@ -6236,7 +6236,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 54,
+        "reach": 56,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -6245,8 +6245,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-02T15:44:59.449Z",
-      "insightsAlterStunden": 57
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 71
     },
     {
       "datum": "2026-09-30",
@@ -6328,7 +6328,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 55,
+        "reach": 57,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6337,8 +6337,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-02T14:45:15.200Z",
-      "insightsAlterStunden": 51
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 66
     },
     {
       "datum": "2026-09-30",
@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 93,
+        "reach": 98,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 136,
-        "ig_reels_avg_watch_time": 10420,
-        "ig_reels_video_view_total_time": 1031677,
-        "reels_skip_rate": 62
+        "views": 142,
+        "ig_reels_avg_watch_time": 10067,
+        "ig_reels_video_view_total_time": 1047014,
+        "reels_skip_rate": 61.9
       },
-      "insightsStand": "2026-10-02T14:45:15.200Z",
-      "insightsAlterStunden": 45.7
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 60.7
     },
     {
       "datum": "2026-09-30",
@@ -6543,17 +6543,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 56,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-02T14:45:15.200Z",
-      "insightsAlterStunden": 33
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 48
     },
     {
       "datum": "2026-10-01",
@@ -6661,17 +6661,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 42,
-        "saved": 2,
+        "reach": 45,
+        "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T14:45:15.200Z",
-      "insightsAlterStunden": 31
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 46
     },
     {
       "datum": "2026-10-01",
@@ -6810,19 +6810,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 138,
+        "reach": 142,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 175,
-        "ig_reels_avg_watch_time": 4974,
-        "ig_reels_video_view_total_time": 706329,
-        "reels_skip_rate": 75.2
+        "views": 180,
+        "ig_reels_avg_watch_time": 4942,
+        "ig_reels_video_view_total_time": 731528,
+        "reels_skip_rate": 74.5
       },
-      "insightsStand": "2026-10-02T16:44:02.750Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-10-03T05:45:58.248Z",
+      "insightsAlterStunden": 36
     },
     {
       "datum": "2026-10-01",
@@ -6984,21 +6984,22 @@
       "fach": "persg",
       "titel": "Geht ein Wirtschaftsgut zum Buchwert an die…",
       "insights": {
-        "reach": 30,
-        "views": 43,
+        "reach": 33,
+        "views": 47,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_tap_forward": 22,
+        "navigation": 39,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 4,
         "navigation_tap_exit": 10,
-        "navigation_tap_back": 4
+        "navigation_tap_forward": 24
       },
-      "insightsStand": "2026-10-02T21:28:10.944Z",
-      "insightsAlterStunden": 14.7
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-10-02",
@@ -7012,22 +7013,22 @@
       "fach": "istr",
       "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
       "insights": {
-        "reach": 27,
-        "views": 38,
+        "reach": 32,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_swipe_forward": 1,
+        "navigation": 36,
+        "navigation_swipe_forward": 2,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 21,
+        "navigation_tap_forward": 26,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-02T20:44:36.636Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-10-02",
@@ -7075,21 +7076,22 @@
       "fach": "ao",
       "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
       "insights": {
-        "reach": 17,
-        "views": 21,
+        "reach": 30,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_tap_forward": 14,
-        "navigation_tap_exit": 2,
-        "navigation_tap_back": 1
+        "navigation": 35,
+        "navigation_tap_forward": 23,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-02T17:46:09.202Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 18
     },
     {
       "datum": "2026-10-02",
@@ -7103,21 +7105,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 18,
-        "views": 23,
+        "reach": 28,
+        "views": 37,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 14,
-        "navigation_tap_back": 2
+        "navigation": 36,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 28,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-10-02T19:44:20.804Z",
-      "insightsAlterStunden": 7
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-02",
@@ -7165,21 +7167,21 @@
       "fach": "istr",
       "titel": "Grenzpendler: Wann lohnt die fiktive unbeschränkte Steuerpflicht?",
       "insights": {
-        "reach": 21,
-        "views": 26,
+        "reach": 25,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_forward": 16,
+        "navigation": 32,
+        "navigation_tap_forward": 23,
         "navigation_tap_exit": 4,
-        "navigation_tap_back": 2
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-02T21:28:10.944Z",
-      "insightsAlterStunden": 5.7
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-10-02",
@@ -7229,19 +7231,20 @@
       "fach": "istr",
       "titel": "§ 50 EStG: Sondervorschriften und Veranlagung beschränkt Steuerpflichtiger",
       "insights": {
-        "reach": 10,
-        "views": 10,
+        "reach": 24,
+        "views": 32,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_forward": 10
+        "navigation": 31,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 26
       },
-      "insightsStand": "2026-10-02T19:44:20.804Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-02",
@@ -7255,20 +7258,22 @@
       "fach": "gewst",
       "titel": "Vom EStG-Gewinn zum Gewerbeertrag: Was ist zu korrigieren?",
       "insights": {
-        "reach": 11,
-        "views": 11,
+        "reach": 24,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 11,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 9
+        "navigation": 29,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 20,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-02T19:44:20.804Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-03T05:45:49.333Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-03",
