@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-03T12:44:43.577Z",
+  "stand": "2026-10-03T13:44:14.601Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -12340,6 +12340,18 @@
           "total_interactions": 1,
           "follows": 1,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-03T13:44:12.507Z",
+          "alterStunden": 23,
+          "reach": 38,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 1,
+          "profile_visits": 1
         }
       ]
     },
@@ -12497,6 +12509,20 @@
           "ig_reels_avg_watch_time": 11425,
           "ig_reels_video_view_total_time": 834030,
           "reels_skip_rate": 67.1
+        },
+        {
+          "stand": "2026-10-03T13:44:12.507Z",
+          "alterStunden": 20,
+          "reach": 74,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 111,
+          "ig_reels_avg_watch_time": 12898,
+          "ig_reels_video_view_total_time": 1070569,
+          "reels_skip_rate": 65.8
         }
       ]
     },
@@ -12777,6 +12803,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-03T13:44:12.507Z",
+          "alterStunden": 8,
+          "reach": 44,
+          "saved": 4,
+          "shares": 0,
+          "likes": 2,
+          "comments": 1,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -12830,6 +12868,35 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "18025040903872081": {
+      "art": "story",
+      "datum": "2026-10-03",
+      "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T11:45:09.098Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T13:44:11.148Z",
+          "alterStunden": 2,
+          "reach": 14,
+          "views": 19,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 14,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 1
         }
       ]
     }
@@ -13617,6 +13684,11 @@
     },
     {
       "stand": "2026-10-03T12:44:43.577Z",
+      "follower": 105,
+      "medien": 82
+    },
+    {
+      "stand": "2026-10-03T13:44:14.601Z",
       "follower": 105,
       "medien": 82
     }

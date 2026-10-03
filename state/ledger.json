@@ -7143,7 +7143,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 35,
+        "reach": 38,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -7152,8 +7152,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-03T10:36:27.490Z",
-      "insightsAlterStunden": 19.9
+      "insightsStand": "2026-10-03T13:44:12.507Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-10-02",
@@ -7205,19 +7205,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 69,
+        "reach": 74,
         "saved": 1,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 100,
-        "ig_reels_avg_watch_time": 11425,
-        "ig_reels_video_view_total_time": 834030,
-        "reels_skip_rate": 67.1
+        "total_interactions": 2,
+        "views": 111,
+        "ig_reels_avg_watch_time": 12898,
+        "ig_reels_video_view_total_time": 1070569,
+        "reels_skip_rate": 65.8
       },
-      "insightsStand": "2026-10-03T10:36:27.490Z",
-      "insightsAlterStunden": 16.8
+      "insightsStand": "2026-10-03T13:44:12.507Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-10-02",
@@ -7297,17 +7297,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 35,
+        "reach": 44,
         "saved": 4,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 1,
-        "total_interactions": 6,
+        "total_interactions": 7,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T09:44:47.503Z",
-      "insightsAlterStunden": 4
+      "insightsStand": "2026-10-03T13:44:12.507Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-10-03",
@@ -7466,7 +7466,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "gewst",
-      "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…"
+      "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
+      "insights": {
+        "reach": 14,
+        "views": 19,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 14,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-03T13:44:11.148Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-03",
