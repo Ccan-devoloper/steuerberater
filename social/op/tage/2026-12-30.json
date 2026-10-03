@@ -39,7 +39,7 @@
      ],
      "norm": "§ 6 Abs. 3 S. 1 EStG",
      "unter": "Gewinn?",
-     "teaser": "+ Markier-Guide § 16 EStG",
+     "teaser": "+ Markier-Guide § 16 + BMF",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -288,7 +288,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "25 % gerechnet?",
-     "teaser": "Weiterwischen: § 16 EStG markiert"
+     "teaser": "Weiterwischen: § 16 + BMF markiert"
     },
     {
      "typ": "gesetz",
@@ -372,9 +372,106 @@
       "Daneben: § 6 Abs. 3 S. 1 EStG",
       "bis zum Kapitalkonto: Buchwerte fortführen"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 13.01.1993 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 7",
+       [
+        [
+         "Ein Veräußerungs- und Anschaffungsgeschäft liegt vor, soweit sich der Übernehmer zur Zahlung eines bestimmten Geldbetrags an andere Angehörige des Übergebers oder an Dritte",
+         null
+        ],
+        [
+         "(Gleichstellungsgeld)",
+         "g1"
+        ],
+        [
+         "[…] verpflichtet. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 29",
+       [
+        [
+         "Bei der Übertragung eines Betriebs […] stellen die übernommenen Verbindlichkeiten […]",
+         null
+        ],
+        [
+         "kein Veräußerungsentgelt",
+         "b1"
+        ],
+        [
+         "und keine Anschaffungskosten dar, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 35",
+       [
+        [
+         "Führen die vom Vermögensübernehmer zu erbringenden Leistungen bei Erwerb eines Betriebs […] zu einem Veräußerungspreis, der",
+         null
+        ],
+        [
+         "über dem steuerlichen Kapitalkonto",
+         "r1"
+        ],
+        [
+         "des Übergebers liegt, ist von einem entgeltlichen Erwerb […] auszugehen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 38",
+       [
+        [
+         "Wendet der Übernehmer Anschaffungskosten",
+         null
+        ],
+        [
+         "bis zur Höhe des steuerlichen Kapitalkontos",
+         "gr1"
+        ],
+        [
+         "auf, hat er die Buchwerte des Übergebers fortzuführen. Ein Veräußerungsverlust liegt beim Übergeber nicht vor.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Entgelt",
+       "g1"
+      ],
+      [
+       "Schulden: nein",
+       "b1"
+      ],
+      [
+       "420.000 €",
+       "r1"
+      ],
+      [
+       "250.000 €",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Einzelnes Wirtschaftsgut: aufteilen",
+      "BMF vom 13.01.1993, Rn. 34"
+     ]
     }
    ],
-   "caption": "Betrieb an die Tochter, Gleichstellungsgeld an den Bruder: Entsteht ein Gewinn? Eine Klausurfalle für Klausur 2.\n\n▸ Gleichstellungsgelder an Geschwister sind Entgelt (BMF vom 13.01.1993, Rn. 7).\n▸ Bei einzelnen Wirtschaftsgütern wird aufgeteilt: unentgeltlicher Teil Entnahme, entgeltlicher Teil Veräußerung; übernommene Schulden sind Entgelt (BMF vom 13.01.1993, Rn. 28, 34).\n▸ Bei einem ganzen Betrieb wird nicht aufgeteilt: Übernommene Betriebsschulden sind kein Entgelt (Rn. 29). Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, werden die Buchwerte fortgeführt, ein Veräußerungsverlust entsteht nicht (§ 6 Abs. 3 S. 1 EStG; Rn. 38). Liegt es darüber, ist der Erwerb entgeltlich und der Gewinn = Entgelt minus Kapitalkonto (§ 16 Abs. 2 S. 1 EStG; Rn. 35).\n▸ Freibetrag 45.000 € auf Antrag ab 55 oder bei dauernder Berufsunfähigkeit, gekürzt um den Gewinn über 136.000 € (§ 16 Abs. 4 EStG); Tarifermäßigung nach § 34 EStG.\n\nBeispiel: Kapitalkonto 300.000 €. Gleichstellungsgeld 250.000 € → kein Gewinn. Gleichstellungsgeld 420.000 € → Gewinn 120.000 €, Aufstockung der Buchwerte beim Übernehmer.\n\nZum Schluss: § 16 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Betrieb an die Tochter, Gleichstellungsgeld an den Bruder: Entsteht ein Gewinn? Eine Klausurfalle für Klausur 2.\n\n▸ Gleichstellungsgelder an Geschwister sind Entgelt (BMF vom 13.01.1993, Rn. 7).\n▸ Bei einzelnen Wirtschaftsgütern wird aufgeteilt: unentgeltlicher Teil Entnahme, entgeltlicher Teil Veräußerung; übernommene Schulden sind Entgelt (BMF vom 13.01.1993, Rn. 28, 34).\n▸ Bei einem ganzen Betrieb wird nicht aufgeteilt: Übernommene Betriebsschulden sind kein Entgelt (Rn. 29). Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, werden die Buchwerte fortgeführt, ein Veräußerungsverlust entsteht nicht (§ 6 Abs. 3 S. 1 EStG; Rn. 38). Liegt es darüber, ist der Erwerb entgeltlich und der Gewinn = Entgelt minus Kapitalkonto (§ 16 Abs. 2 S. 1 EStG; Rn. 35).\n▸ Freibetrag 45.000 € auf Antrag ab 55 oder bei dauernder Berufsunfähigkeit, gekürzt um den Gewinn über 136.000 € (§ 16 Abs. 4 EStG); Tarifermäßigung nach § 34 EStG.\n\nBeispiel: Kapitalkonto 300.000 €. Gleichstellungsgeld 250.000 € → kein Gewinn. Gleichstellungsgeld 420.000 € → Gewinn 120.000 €, Aufstockung der Buchwerte beim Übernehmer.\n\nZum Schluss: § 16 EStG und BMF vom 13.01.1993 zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -385,7 +482,7 @@
     "§ 6 Abs. 3 S. 1 EStG",
     "§ 16 Abs. 2 S. 1, Abs. 4 EStG",
     "§ 34 EStG",
-    "BMF vom 13.01.1993, Rn. 7, 28, 29, 34, 35, 38"
+    "BMF vom 13.01.1993, BStBl I 1993, 80 (geändert durch BMF vom 26.02.2007, BStBl I 2007, 269), Rn. 7, 28, 29, 34, 35, 38"
    ]
   },
   {

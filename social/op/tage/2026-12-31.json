@@ -402,7 +402,7 @@
      ],
      "norm": "§ 12 BewG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 12 BewG",
+     "teaser": "+ Markier-Guide § 12 + Erlass",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -450,7 +450,7 @@
        "Wert anpassen"
       ]
      ],
-     "teaser": "Am Ende: § 12 BewG markiert"
+     "teaser": "Am Ende: § 12 BewG + Erlass markiert"
     },
     {
      "typ": "inhalt",
@@ -675,11 +675,11 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Jahresgrenze geprüft?",
-     "teaser": "Weiterwischen: § 12 BewG markiert"
+     "teaser": "Weiterwischen: § 12 + Erlass markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 12 BewG (Auszug)",
      "absaetze": [
       [
@@ -753,12 +753,73 @@
       ]
      ],
      "randnotiz": [
-      "Tabellen: Ländererlasse",
-      "vom 10.10.2010, BStBl I S. 810"
-     ]
+      "In Raten: Jahreswert mal Tabelle 2",
+      "Ländererlasse vom 10.10.2010, Tz. 1.2.1"
+     ],
+     "zweite": {
+      "kopf": "Ländererlasse vom 10.10.2010 (Auszug)",
+      "absaetze": [
+       [
+        "Tz. 1.2",
+        [
+         [
+          "[…] Besondere Umstände, die eine Bewertung abweichend vom Nennwert rechtfertigen, liegen vor, wenn die Kapitalforderungen […] unverzinslich sind und ihre Laufzeit im Besteuerungszeitpunkt mehr als ein Jahr beträgt; die Kapitalforderungen […]",
+          null
+         ],
+         [
+          "niedrig verzinst (unter 3 Prozent) oder hoch verzinst (über 9 Prozent)",
+          "r1"
+         ],
+         [
+          "sind, sowie die Kündbarkeit für längere Zeit (d. h.",
+          null
+         ],
+         [
+          "für mindestens 4 Jahre)",
+          "b1"
+         ],
+         [
+          "ausgeschlossen ist; […]",
+          null
+         ]
+        ]
+       ],
+       [
+        "Tz. 1.2.1",
+        [
+         [
+          "[…] Wird eine unverzinsliche Kapitalforderung […] in einem Betrag fällig, erfolgt die Bewertung mittels",
+          null
+         ],
+         [
+          "Tabelle 1.",
+          "g1"
+         ],
+         [
+          "[…]",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "3 % | 9 %",
+        "r1"
+       ],
+       [
+        "4 Jahre fest",
+        "b1"
+       ],
+       [
+        "0,807",
+        "g1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Darlehensforderung geerbt: Mit welchem Wert? Das Prüfschema zu § 12 BewG für Klausur 1.\n\n1. Uneinbringliche Forderungen bleiben außer Ansatz (§ 12 Abs. 2 BewG).\n2. Grundsatz: Nennwert, wenn nicht besondere Umstände einen höheren oder geringeren Wert begründen (§ 12 Abs. 1 S. 1 BewG).\n3. Unverzinslich, Laufzeit mehr als ein Jahr, Fälligkeit zu einem bestimmten Zeitpunkt: Abzinsung mit 5,5 % unter Berücksichtigung von Zinseszinsen (§ 12 Abs. 3 BewG). Bei Fälligkeit in einem Betrag: Nennwert mal Vervielfältiger (Tabelle 1), bei Tilgung in Raten: Jahresrate mal Vervielfältiger (Tabelle 2) der gleich lautenden Ländererlasse vom 10.10.2010 (BStBl I 2010 S. 810).\n4. Hohe oder niedrige Verzinsung als besonderer Umstand: nach den Ländererlassen bei unter 3 % oder über 9 %, wenn die Kündbarkeit für mindestens vier Jahre ausgeschlossen ist; Bewertung mit dem Mittelwert aus vor- und nachschüssiger Zahlungsweise (§ 12 Abs. 1 S. 2 BewG).\n\nBeispiel: 50.000 €, zinslos, fällig in vier Jahren → 50.000 € × 0,807 (= 1 : 1,055 hoch 4) = 40.350 €. Fällig in zwei Jahren → × 0,898 = 44.900 €. Fällig in zehn Monaten → Nennwert.\n\nZum Schluss: § 12 BewG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Darlehensforderung geerbt: Mit welchem Wert? Das Prüfschema zu § 12 BewG für Klausur 1.\n\n1. Uneinbringliche Forderungen bleiben außer Ansatz (§ 12 Abs. 2 BewG).\n2. Grundsatz: Nennwert, wenn nicht besondere Umstände einen höheren oder geringeren Wert begründen (§ 12 Abs. 1 S. 1 BewG).\n3. Unverzinslich, Laufzeit mehr als ein Jahr, Fälligkeit zu einem bestimmten Zeitpunkt: Abzinsung mit 5,5 % unter Berücksichtigung von Zinseszinsen (§ 12 Abs. 3 BewG). Bei Fälligkeit in einem Betrag: Nennwert mal Vervielfältiger (Tabelle 1), bei Tilgung in Raten: Jahresrate mal Vervielfältiger (Tabelle 2) der gleich lautenden Ländererlasse vom 10.10.2010 (BStBl I 2010 S. 810).\n4. Hohe oder niedrige Verzinsung als besonderer Umstand: nach den Ländererlassen bei unter 3 % oder über 9 %, wenn die Kündbarkeit für mindestens vier Jahre ausgeschlossen ist; Bewertung mit dem Mittelwert aus vor- und nachschüssiger Zahlungsweise (§ 12 Abs. 1 S. 2 BewG).\n\nBeispiel: 50.000 €, zinslos, fällig in vier Jahren → 50.000 € × 0,807 (= 1 : 1,055 hoch 4) = 40.350 €. Fällig in zwei Jahren → × 0,898 = 44.900 €. Fällig in zehn Monaten → Nennwert.\n\nZum Schluss: § 12 BewG und die Ländererlasse vom 10.10.2010 zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
