@@ -14,7 +14,8 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
 3. **Zitierweise BMF-Schreiben und Erlasse:** Datum und Randnummer, dazu die Fundstelle in den Beck'schen
    Steuererlassen: „BMF vom 02.09.2016, Rn. 33 (Beck-Erlass 1 § 6/12)“. Die Beck-Nummer wird nur angegeben,
    wenn sie belegt ist; sonst Datum und Rn.
-4. Gesetze mit Abs., S., Nr., Buchst.; GG und EU-Recht mit Art.
+4. Gesetze mit Abs., S., Nr., Buchst.; die Kurzform „§ 6 (1) S. 1 Nr. 2 Buchst. a)“ ist überall zulässig (auf den
+   Gesetzesseiten Standard). Nie „3.“ allein für eine Nummer, immer „Nr. 3“. GG und EU-Recht mit Art.
 5. **Klausurkonvention zuerst:** Die Klausur wird aus Sicht der Finanzverwaltung gelöst. Klausurlösung ist
    deshalb die Verwaltungsauffassung: Gesetz, Richtlinien und Hinweise, Anwendungserlasse, BMF-Schreiben und
    BFH-Urteile, die im BStBl II veröffentlicht und nicht mit einem Nichtanwendungserlass belegt sind.
@@ -44,7 +45,9 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
    Verwaltungsanweisung auf derselben Folie (`zweite` in der gesetz-Folie, Titel „Gesetz und Richtlinie/Erlass
    markieren“). Entscheidet die Verwaltungsanweisung die Frage allein, genügt ihre Folie. Wortlaut nur aus
    amtlicher Quelle (BMF-Handbücher esth/lsth/gewsth…, bei Bot-Schutz per Headless-Chromium über den Proxy) bzw. Haufe/NWB-Volltext, Auslassungen „[…]“, Satznummern als „S. 1“. Hinweiskasten für
-   BFH-Abweichungen. Hinweis: In der schriftlichen Prüfung sind Textausgaben mit
+   BFH-Abweichungen. Mehrere Normen eines Gesetzes auf einer Seite stehen in Gesetzesreihenfolge (§ 5 vor § 6).
+   Wird im Hinweiskasten auf eine weitere Norm verwiesen, die die Klausurfrage mitentscheidet („Dazu § 108 Abs. 3
+   AO“), wird sie ebenfalls markiert – eigene Folie, wenn Platz ist, sonst mit auf der Seite. Hinweis: In der schriftlichen Prüfung sind Textausgaben mit
    Markierungen zulässig, Anmerkungen nicht; in der mündlichen Prüfung keine Richtlinien und Erlasse.
 9. Keine Fläche leer, nichts überladen. Figuren nur mit Funktion; die Merke-Folie kommt ohne Figur aus.
 

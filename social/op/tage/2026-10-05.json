@@ -254,7 +254,7 @@
      ],
      "norm": "§ 122 Abs. 2 Nr. 1 AO",
      "unter": "Dauerbrenner",
-     "teaser": "+ Markier-Guide § 122 AO",
+     "teaser": "+ Markier-Guide §§ 108, 122 AO",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -475,7 +475,7 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Rechnest du schon mit vier?",
-     "teaser": "Weiterwischen: § 122 AO markiert"
+     "teaser": "Weiterwischen: §§ 108, 122 AO markiert"
     },
     {
      "typ": "gesetz",
@@ -540,12 +540,83 @@
       ]
      ],
      "randnotiz": [
-      "Dazu § 108 Abs. 3 AO",
-      "Samstag, Sonntag, Feiertag: nächster Werktag"
+      "Weiterwischen: § 108 Abs. 3 AO",
+      "Auch der vierte Tag kann sich verschieben"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 108 Fristen und Termine (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Für die Berechnung von Fristen und für die Bestimmung von Terminen gelten die",
+         null
+        ],
+        [
+         "§§ 187 bis 193 des Bürgerlichen Gesetzbuchs",
+         "b1"
+        ],
+        [
+         "entsprechend, soweit nicht durch die Absätze 2 bis 6 etwas anderes bestimmt ist.",
+         null
+        ]
+       ]
+      ],
+      [
+       null,
+       [
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       3,
+       [
+        [
+         "Fällt das Ende einer Frist auf einen",
+         null
+        ],
+        [
+         "Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend,",
+         "g1"
+        ],
+        [
+         "so endet die Frist mit dem Ablauf des",
+         null
+        ],
+        [
+         "nächstfolgenden Werktags.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Fristberechnung nach BGB",
+       "b1"
+      ],
+      [
+       "Sonnabend = Samstag",
+       "g1"
+      ],
+      [
+       "gilt auch für den 4. Tag",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "BFH, IX R 68/98, BStBl II 2003, 898",
+      "Bekanntgabe am Wochenende: nächster Werktag"
      ]
     }
    ],
-   "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Die Klausurfalle zum Wiederholen vor Tag 1.\n\n▸ Seit 2025 gilt ein per Post übermittelter Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO), ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2a AO).\n▸ Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898, zur früheren Dreitagesregel).\n▸ Früherer Zugang ändert nichts. Geht der Bescheid später oder gar nicht zu, greift die Vermutung nicht; im Zweifel weist das Finanzamt den Zugang nach (§ 122 Abs. 2 Hs. 2 AO).\n▸ Beispiel: Post am Freitag, 06.11.2026, Bekanntgabe Dienstag, 10.11.2026, Einspruchsfrist endet Donnerstag, 10.12.2026 (§ 355 Abs. 1 S. 1, § 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n\nSpeichern für Klausur 1 📌",
+   "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Die Klausurfalle zum Wiederholen vor Tag 1.\n\n▸ Seit 2025 gilt ein per Post übermittelter Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO), ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2a AO).\n▸ Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898, zur früheren Dreitagesregel).\n▸ Früherer Zugang ändert nichts. Geht der Bescheid später oder gar nicht zu, greift die Vermutung nicht; im Zweifel weist das Finanzamt den Zugang nach (§ 122 Abs. 2 Hs. 2 AO).\n▸ Beispiel: Post am Freitag, 06.11.2026, Bekanntgabe Dienstag, 10.11.2026, Einspruchsfrist endet Donnerstag, 10.12.2026 (§ 355 Abs. 1 S. 1, § 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n\nZum Schluss: §§ 108, 122 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

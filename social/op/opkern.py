@@ -4,7 +4,7 @@ Gemeinsame Bausteine für Karussell (1080×1350), Story (1080×1920) und Reel (1
 Rahmen in der Klausurfarbe, Schlagzeilen, Normzeilen, Karten, Kalenderblatt, Gesetzesseite,
 Brustbilder mit Sprechblasen. Die Regeln dazu stehen in social/op/REDAKTION.md.
 """
-import os, sys
+import os, re, sys
 
 HIER = os.path.dirname(os.path.abspath(__file__))
 os.environ.setdefault("OP_RES", os.path.join(HIER, ".res"))
@@ -209,6 +209,32 @@ def zahlblock(x, y, w, h, fill, label, zahl, zs=120, ls=48):
     return e
 
 
+MONATE = {"Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"}
+
+
+def norm_label(t):
+    """Absatzlabel kompakt und eindeutig: „§ 6 (1) 3.“ → „§ 6 (1) Nr. 3“, „§ 7 (1) 5“ → „§ 7 (1) S. 5“, „3.“ → „Nr. 3“."""
+    t = re.sub(r"Abs\. (\d+[a-z]?)", r"(\1)", t.strip())
+    t = re.sub(r"(\(\d+[a-z]?\)) (\d+[a-z]?)\.$", r"\1 Nr. \2", t)
+    t = re.sub(r"(\(\d+[a-z]?\)) (\d+)(?=( |$))", r"\1 S. \2", t)
+    t = re.sub(r"^(\d+[a-z]?)\.$", r"Nr. \1", t)
+    return t
+
+
+def _nummern(woerter):
+    """Aufzählungsnummern im Gesetzestext („1. bei …“) als „Nr. 1“ (fett) darstellen, Datumsangaben bleiben."""
+    aus = []
+    for i, (w_, mk) in enumerate(woerter):
+        vor = woerter[i - 1][0] if i else ""
+        nach = woerter[i + 1][0] if i + 1 < len(woerter) else ""
+        if (mk != "__nr" and re.fullmatch(r"\d+[a-z]?\.", w_) and nach and nach.rstrip(",.") not in MONATE
+                and not re.fullmatch(r"\d.*", nach) and vor not in ("Satz", "Absatz", "Nummer", "Nr.", "Abs.", "S.", "am", "vom", "zum", "bis", "ab")):
+            aus.append(("Nr.", "__nr")); aus.append((w_[:-1], "__nr"))
+        else:
+            aus.append((w_, mk))
+    return aus
+
+
 def gesetzesseite(x, y, w, kopf, absaetze_, size=34, kompakt=False):
     """Aufgeschlagene Gesetzesseite mit Markierungen. absaetze_: [[nummer|null, [[text, mark|null], …]], …];
     mark: g/b/r/gr + Index (g1, b1 …). Gibt (El, Markierungspositionen, Höhe) zurück."""
@@ -227,7 +253,8 @@ def gesetzesseite(x, y, w, kopf, absaetze_, size=34, kompakt=False):
             else:
                 verbunden.append((w_, mk))
         woerter = verbunden
-        if nr: woerter.insert(0, ((f"({nr})" if isinstance(nr, int) else str(nr)), "__nr"))
+        if nr: woerter.insert(0, ((f"({nr})" if isinstance(nr, int) else norm_label(str(nr))), "__nr"))
+        woerter = _nummern(woerter)
         cur, cw = [], 0
         for w_, mk in woerter:
             ww = (fb if mk == "__nr" else f).getlength(w_ + " ")

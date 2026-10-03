@@ -450,7 +450,7 @@
      ],
      "norm": "§ 6 Abs. 1 Nr. 3 EStG",
      "unter": "auf einer Karte",
-     "teaser": "+ Markier-Guide § 6 EStG",
+     "teaser": "+ Markier-Guide §§ 5, 6 EStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -498,7 +498,7 @@
        "höher nur bei dauernder Erhöhung"
       ]
      ],
-     "teaser": "Am Ende: § 6 EStG markiert"
+     "teaser": "Am Ende: §§ 5, 6 EStG markiert"
     },
     {
      "typ": "inhalt",
@@ -604,13 +604,55 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hast du noch alte Abzinsung im Kopf?",
-     "teaser": "Weiterwischen: § 6 EStG markiert"
+     "teaser": "Weiterwischen: §§ 5, 6 EStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
      "kopf": "§§ 5, 6 EStG (Auszug)",
      "absaetze": [
+      [
+       "§ 5 (5)",
+       [
+        [
+         "Als Rechnungsabgrenzungsposten sind nur anzusetzen 1.",
+         null
+        ],
+        [
+         "auf der Aktivseite Ausgaben vor dem Abschlussstichtag,",
+         "gr1"
+        ],
+        [
+         "soweit sie Aufwand für eine bestimmte Zeit nach diesem Tag darstellen; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Der Ansatz eines Rechnungsabgrenzungspostens",
+         null
+        ],
+        [
+         "kann unterbleiben,",
+         "r1"
+        ],
+        [
+         "wenn die jeweilige Ausgabe oder Einnahme im Sinne des Satzes 1",
+         null
+        ],
+        [
+         "den Betrag des § 6 Absatz 2 Satz 1 nicht übersteigt;",
+         "g2"
+        ],
+        [
+         "das Wahlrecht ist einheitlich für alle Ausgaben und Einnahmen im Sinne des Satzes 1 auszuüben.",
+         null
+        ]
+       ]
+      ],
       [
        "§ 6 (1) 3.",
        [
@@ -627,38 +669,29 @@
          null
         ]
        ]
-      ],
-      [
-       "§ 5 (5)",
-       [
-        [
-         "Als Rechnungsabgrenzungsposten sind nur anzusetzen 1.",
-         null
-        ],
-        [
-         "auf der Aktivseite Ausgaben vor dem Abschlussstichtag,",
-         "gr1"
-        ],
-        [
-         "soweit sie Aufwand für eine bestimmte Zeit nach diesem Tag darstellen;",
-         null
-        ]
-       ]
       ]
      ],
      "notizen": [
       [
-       "Teilwert-Regeln gelten mit",
-       "b1"
-      ],
-      [
        "hier landet das Disagio",
        "gr1"
+      ],
+      [
+       "Wahlrecht",
+       "r1"
+      ],
+      [
+       "800 € (GWG-Grenze)",
+       "g2"
+      ],
+      [
+       "Teilwert-Regeln gelten mit",
+       "b1"
       ]
      ],
      "randnotiz": [
-      "Neu: § 5 Abs. 5 S. 2 EStG",
-      "Kleinbeträge bis 800 € dürfen ohne Abgrenzung bleiben"
+      "§ 5 Abs. 5 S. 2 EStG",
+      "Bis 800 €: Abgrenzung darf unterbleiben, einheitlich"
      ]
     }
    ],
