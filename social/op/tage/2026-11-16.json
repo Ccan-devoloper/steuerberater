@@ -1,0 +1,1216 @@
+{
+ "datum": "2026-11-16",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-3-4",
+   "themaTitel": "Ausscheiden zum Buchwert: Veräußerung oder Schenkung?",
+   "figuren": {
+    "A": {
+     "name": "Selin",
+     "kopf": "Long Curly",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#F4A3B5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Abfindung zum",
+      "Buchwert"
+     ],
+     "norm": "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 16 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Kapitalkonto",
+        "Bold",
+        44
+       ],
+       [
+        "80.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "= Abfindung",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Selin scheidet zum 31.12. aus der Lindhof KG aus.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalkonto 80.000 €, Abfindung laut Vertrag ebenfalls 80.000 €. Ihr Anteil an den stillen Reserven: 50.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Veräußerung oder unentgeltliche Übertragung?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Selin."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zivilrecht zuerst",
+     "punkte": [
+      [
+       "Selins Anteil wächst den übrigen Gesellschaftern zu.",
+       "ok",
+       "Regular",
+       "§ 712 Abs. 1 BGB i. V. m. §§ 105 Abs. 3, 161 Abs. 2 HGB"
+      ],
+      [
+       "Sie erhält dafür einen Abfindungsanspruch.",
+       "ok",
+       "Regular",
+       "§ 135 Abs. 1 HGB"
+      ],
+      [
+       "Steuerlich: Grundsätzlich veräußert sie ihren Mitunternehmeranteil.",
+       "ok",
+       "Bold",
+       "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Anwachsung!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Warum nur der Buchwert?",
+     "links": {
+      "kopf": "Betrieblicher Grund",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Buchwertklausel gilt für alle Gesellschafter",
+        null
+       ],
+       [
+        "Entgeltlich, Gewinn 0 €",
+        "§ 16 Abs. 2 S. 1 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Privater Grund",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Reserven sollen Angehörigen zufließen",
+        null
+       ],
+       [
+        "Unentgeltlich, Buchwerte fortführen",
+        "§ 6 Abs. 3 S. 1 EStG"
+       ]
+      ]
+     },
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Das Motiv entscheidet."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Folgen bei den Verbleibenden",
+     "punkte": [
+      [
+       "Entgeltlich: Für den hinzuerworbenen Anteil entstehen Anschaffungskosten.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Gebäude: Für diesen Teil läuft eine neue AfA nach den Regeln im Erwerbszeitpunkt.",
+       "warn",
+       "Bold",
+       "§ 7 Abs. 4 S. 1 EStG"
+      ],
+      [
+       "Unentgeltlich: Buchwerte und AfA laufen einfach weiter.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 3 S. 3 EStG"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die beiden Verbleibenden sind Selins Brüder.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Selin will ihnen die Reserven bewusst zukommen lassen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie lautet die Lösung, und welche Steuer fehlt noch?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Familie zählt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Privat motiviert: unentgeltliche Übertragung, kein Veräußerungsgewinn.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Die Brüder führen Buchwerte und AfA fort.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 3 S. 3 EStG"
+      ]
+     ],
+     "extra": [
+      "Und: Schenkungsteuer prüfen",
+      "GELB",
+      null
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Klingt fair."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die zweite Steuer",
+     "punkte": [
+      [
+       "Als Schenkung gilt, soweit der Steuerwert des Anteils die Abfindung übersteigt.",
+       "warn",
+       "Bold",
+       "§ 7 Abs. 7 S. 1 ErbStG"
+      ],
+      [
+       "Das greift auch bei einer betrieblich gemeinten Buchwertklausel.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Abfindung = Buchwert: erst das Motiv klären",
+      "betrieblich → Veräußerung · privat → Buchwerte",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Betrieblich",
+        "a"
+       ],
+       [
+        " = entgeltlich,",
+        null
+       ]
+      ],
+      [
+       [
+        "privat",
+        "b"
+       ],
+       [
+        " = Buchwerte,",
+        null
+       ]
+      ],
+      [
+       [
+        "Schenkungsteuer",
+        "c"
+       ],
+       [
+        " extra.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "An § 7 Abs. 7 ErbStG gedacht?",
+     "teaser": "Weiterwischen: § 16 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 16 EStG Veräußerung des Betriebs (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Zu den Einkünften aus Gewerbebetrieb gehören auch Gewinne, die erzielt werden bei der Veräußerung […] 2.",
+         null
+        ],
+        [
+         "des gesamten Anteils eines Gesellschafters,",
+         "g1"
+        ],
+        [
+         "der als Unternehmer (Mitunternehmer) des Betriebs anzusehen ist (§ 15 Absatz 1 Satz 1 Nummer 2);",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Veräußerungsgewinn im Sinne des Absatzes 1 ist der Betrag, um den",
+         null
+        ],
+        [
+         "der Veräußerungspreis",
+         "b1"
+        ],
+        [
+         "nach Abzug der Veräußerungskosten",
+         null
+        ],
+        [
+         "den Wert des Anteils am Betriebsvermögen",
+         "gr1"
+        ],
+        [
+         "(Absatz 1 Satz 1 Nummer 2 und 3) übersteigt.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Ausscheiden",
+       "g1"
+      ],
+      [
+       "Abfindung",
+       "b1"
+      ],
+      [
+       "Kapitalkonto",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 7 Abs. 7 ErbStG",
+      "Schenkung, soweit Steuerwert > Abfindung"
+     ]
+    }
+   ],
+   "caption": "Ausscheiden aus der KG mit Abfindung zum Buchwert: Veräußerung oder Schenkung? Eine typische Prüfungsfrage für den zweiten Anlauf.\n\n▸ Zivilrecht: Der Anteil wächst den übrigen Gesellschaftern zu, der Ausscheidende erhält einen Abfindungsanspruch (§ 712 Abs. 1 BGB i. V. m. § 105 Abs. 3, § 161 Abs. 2 HGB; § 135 Abs. 1 HGB).\n▸ Steuerlich ist das Ausscheiden grundsätzlich eine Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Abfindung genau zum Buchwert: Bei betrieblichem Grund (Buchwertklausel für alle) entgeltlich mit Veräußerungsgewinn 0 €; bei privatem Grund (Zuwendung an Angehörige) unentgeltlich mit Buchwertfortführung (§ 6 Abs. 3 S. 1, 3 EStG).\n▸ Entgeltlicher Erwerb: Für den hinzuerworbenen Gebäudeanteil läuft eine neue AfA nach den Regeln im Erwerbszeitpunkt (§ 7 Abs. 4 S. 1 EStG).\n▸ Klausurfalle: Schenkungsteuer daneben prüfen. Als Schenkung gilt der Übergang, soweit der Steuerwert des Anteils die Abfindung übersteigt (§ 7 Abs. 7 S. 1 ErbStG).\n\nZum Schluss: § 16 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 712 Abs. 1 BGB",
+    "§ 105 Abs. 3 HGB",
+    "§ 161 Abs. 2 HGB",
+    "§ 135 Abs. 1 HGB",
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG",
+    "§ 6 Abs. 3 S. 1, 3 EStG",
+    "§ 7 Abs. 4 S. 1 EStG",
+    "§ 7 Abs. 7 S. 1 ErbStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-544",
+   "themaTitel": "Unbebautes Grundstück: § 178/§ 179 BewG, Bodenrichtwert und abweichende Grundstücksmerkmale",
+   "figuren": {
+    "A": {
+     "name": "Henrike",
+     "kopf": "Gray Short",
+     "haut": "#EBC3A0",
+     "haar": "#B8B8B8",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 2",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Unbebautes",
+      "Grundstück"
+     ],
+     "norm": "§§ 178, 179 BewG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 179 BewG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "640 m² × 380 €",
+        "Bold",
+        46
+       ],
+       [
+        "243.200 €",
+        "ExtraBold",
+        92
+       ],
+       [
+        "Grundbesitzwert",
+        "ExtraBold",
+        46
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Unbebaut bewerten",
+     "schritte": [
+      [
+       "Ist es unbebaut?",
+       "§ 178 BewG",
+       "kein benutzbares Gebäude"
+      ],
+      [
+       "Bodenrichtwert wählen",
+       "§ 179 S. 3 BewG",
+       "zuletzt vor dem Stichtag ermittelt"
+      ],
+      [
+       "Abweichungen anpassen",
+       "R B 179.2 ErbStR",
+       "Tiefe, Geschossfläche"
+      ],
+      [
+       "Fläche × Bodenrichtwert",
+       "§ 179 S. 1 BewG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 179 BewG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Wann unbebaut?",
+     "punkte": [
+      [
+       "Auf dem Grundstück steht kein benutzbares Gebäude.",
+       "ok",
+       "Regular",
+       "§ 178 Abs. 1 S. 1 BewG"
+      ],
+      [
+       "Benutzbar ab Bezugsfertigkeit, die Bauabnahme ist egal.",
+       "warn",
+       "Regular",
+       "§ 178 Abs. 1 S. 2, 3 BewG"
+      ],
+      [
+       "Ruine oder dauerhaft unnutzbares Gebäude: gilt als unbebaut.",
+       "ok",
+       "Bold",
+       "§ 178 Abs. 2 BewG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst die Art!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Welcher Bodenrichtwert?",
+     "punkte": [
+      [
+       "Maßgeblich ist der Wert, der zuletzt vor dem Stichtag zu ermitteln war.",
+       "ok",
+       "Bold",
+       "§ 179 S. 3 BewG"
+      ],
+      [
+       "Gutachterausschüsse ermitteln meist alle zwei Jahre zum Jahresbeginn.",
+       "ok",
+       "Regular",
+       "§ 196 Abs. 1 S. 5 BauGB"
+      ],
+      [
+       "Kein Richtwert: aus vergleichbaren Flächen ableiten.",
+       "warn",
+       "Regular",
+       "§ 179 S. 4 BewG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Welches Jahr?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Grundstück weicht ab",
+     "punkte": [
+      [
+       "Weicht es vom Richtwertgrundstück ab, etwa bei Tiefe oder Geschossfläche, wird nach den Vorgaben des Gutachterausschusses angepasst.",
+       "warn",
+       "Regular",
+       "R B 179.2 ErbStR"
+      ],
+      [
+       "Tiefenzonen: Teilflächen getrennt bewerten, dann addieren.",
+       "ok",
+       "Bold",
+       "R B 179.2 ErbStR"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Vorne teurer?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Henrike erbt einen Bauplatz",
+     "normen": [
+      "§ 179 S. 1 BewG"
+     ],
+     "zeilen": [
+      [
+       "Fläche",
+       "640 m²",
+       "Regular",
+       null
+      ],
+      [
+       "Bodenrichtwert",
+       "380 €/m²",
+       "Regular",
+       null
+      ],
+      [
+       "Grundbesitzwert",
+       "243.200 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Einfach gerechnet!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Für die vorderen 400 m² gilt 380 €/m².",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die hinteren 240 m² liegen in einer Tiefenzone mit 190 €/m².",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist der Grundbesitzwert?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "R B 179.2 ErbStR"
+     ],
+     "zeilen": [
+      [
+       "Vorne 400 m² × 380 €",
+       "152.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Hinten 240 m² × 190 €",
+       "45.600 €",
+       "Regular",
+       null
+      ],
+      [
+       "Grundbesitzwert",
+       "197.600 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Niedriger? Gutachten nach § 198 BewG",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Fläche × Bodenrichtwert",
+      "Richtwert zuletzt vor dem Stichtag · Abweichungen nach Gutachterausschuss",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Unbebaut",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Richtwert",
+        "b"
+       ],
+       [
+        " vor Stichtag,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zonen",
+        "c"
+       ],
+       [
+        " getrennt,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann",
+        null
+       ],
+       [
+        " multiplizieren",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Welcher Schritt kostet dich Punkte?",
+     "teaser": "Weiterwischen: § 179 BewG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 179 BewG Bewertung der unbebauten Grundstücke",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Der Wert unbebauter Grundstücke bestimmt sich regelmäßig nach ihrer",
+         null
+        ],
+        [
+         "Fläche und den Bodenrichtwerten",
+         "g1"
+        ],
+        [
+         "(§ 196 des Baugesetzbuchs). […] Bei der Wertermittlung ist stets der Bodenrichtwert anzusetzen, der vom Gutachterausschuss",
+         null
+        ],
+        [
+         "zuletzt vor dem Bewertungsstichtag zu ermitteln war.",
+         "r1"
+        ],
+        [
+         "Wird von den Gutachterausschüssen kein Bodenrichtwert ermittelt, ist der Bodenwert",
+         null
+        ],
+        [
+         "aus den Werten vergleichbarer Flächen abzuleiten.",
+         "b1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Formel",
+       "g1"
+      ],
+      [
+       "Zeitpunkt!",
+       "r1"
+      ],
+      [
+       "Notlösung",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 198 BewG",
+      "Niedrigerer gemeiner Wert per Gutachten"
+     ]
+    }
+   ],
+   "caption": "Unbebautes Grundstück bewerten: das Prüfschema für die Erbschaftsteuer-Klausur und für die Mündliche.\n\n1. Unbebaut ist ein Grundstück ohne benutzbares Gebäude; benutzbar ab Bezugsfertigkeit, die Bauabnahme entscheidet nicht; dauerhaft unnutzbare Gebäude und Ruinen zählen als unbebaut (§ 178 Abs. 1, 2 BewG).\n2. Wert = Fläche × Bodenrichtwert (§ 179 S. 1 BewG). Anzusetzen ist der Bodenrichtwert, der zuletzt vor dem Bewertungsstichtag zu ermitteln war (§ 179 S. 3 BewG); ermittelt wird er in der Regel zu Beginn jedes zweiten Kalenderjahres (§ 196 Abs. 1 S. 5 BauGB). Fehlt ein Richtwert, wird aus vergleichbaren Flächen abgeleitet (§ 179 S. 4 BewG).\n3. Abweichende Merkmale wie Grundstückstiefe oder Geschossflächenzahl werden nach den Vorgaben des Gutachterausschusses berücksichtigt, Tiefenzonen getrennt bewertet (R B 179.2 ErbStR).\n4. Niedrigerer gemeiner Wert nur per Nachweis, regelmäßig Gutachten (§ 198 BewG).\n\nBeispiel: 400 m² × 380 € + 240 m² × 190 € = 197.600 €.\n\nZum Schluss: § 179 BewG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 178 Abs. 1, 2 BewG",
+    "§ 179 BewG",
+    "§ 196 Abs. 1 S. 5 BauGB",
+    "R B 179.2 ErbStR",
+    "§ 198 BewG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t1-03",
+   "themaTitel": "Ab wann zahlt eine neu gegründete GmbH Körperschaftsteuer?",
+   "figuren": {
+    "A": {
+     "name": "Tarek",
+     "kopf": "Short 2",
+     "haut": "#A8704B",
+     "haar": "#1B1B1B",
+     "oberteil": "#9AD48F",
+     "bart": "Goatee 1",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Neue GmbH, erstes Jahr: zwölftausend Euro Gewinn vor dem Notartermin, vierzigtausend danach. Wer versteuert was?"
+    },
+    {
+     "id": "s1",
+     "text": "Vor dem Notartermin gibt es nur die Gründer. Sie bilden meist eine Personengesellschaft. Die zwölftausend Euro werden ihnen zugerechnet und gesondert festgestellt."
+    },
+    {
+     "id": "s2",
+     "text": "Ab dem Notartermin besteht die Vorgesellschaft. Sie ist schon körperschaftsteuerpflichtig, wenn die Eintragung tatsächlich folgt. Die vierzigtausend Euro versteuert also die GmbH."
+    },
+    {
+     "id": "s3",
+     "text": "Die Eintragung ins Handelsregister ist nur die Bestätigung, nicht der Startschuss."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Vor dem Notar zahlen die Gründer, ab dem Notar die GmbH."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Neue GmbH:",
+     "Wer versteuert?"
+    ],
+    "pille": "§ 1 Abs. 1 Nr. 1 KStG",
+    "figur": "A/sorge",
+    "name": "Tarek",
+    "icons": [
+     [
+      "tabler:building-store",
+      "GELB",
+      "vierzigtausend"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Vor dem Notar",
+      "wert": "12.000 €",
+      "farbe": "GELB",
+      "wort": "zwölftausend"
+     },
+     {
+      "label": "Danach",
+      "wert": "40.000 €",
+      "farbe": "GRUEN",
+      "wort": "vierzigtausend"
+     }
+    ],
+    "stempel": {
+     "text": "Wer zahlt?",
+     "wort": "versteuert"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Vorgründung",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Gründer = Personengesellschaft",
+       "wort": "Personengesellschaft",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Gewinn der Gründer",
+       "wert": "12.000 €",
+       "farbe": "GELB",
+       "wort": "zwölftausend"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+       "wort": "festgestellt"
+      }
+     ],
+     "icon": [
+      "tabler:users",
+      "GELB",
+      "Gründer"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Vorgesellschaft",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Körperschaftsteuer",
+       "wert": "ab Notartermin",
+       "farbe": "GRUEN",
+       "wort": "körperschaftsteuerpflichtig",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Eintragung folgt",
+       "unter": "sonst keine Körperschaft",
+       "wort": "Eintragung",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "GmbH versteuert",
+       "wert": "40.000 €",
+       "farbe": "GRUEN",
+       "wort": "vierzigtausend",
+       "neu": true
+      },
+      {
+       "typ": "norm",
+       "text": "H 1.1 KStH",
+       "wort": "GmbH"
+      }
+     ],
+     "icon": [
+      "tabler:file-certificate",
+      "GELB",
+      "Notartermin"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Klausurfalle",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Handelsregister",
+       "wert": "nur Bestätigung",
+       "farbe": "ROT",
+       "wort": "Eintragung",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Start ist der Notartermin",
+       "wort": "Startschuss",
+       "farbe": "WEISS",
+       "ls": 64
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "nicht",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Vor dem Notar:",
+     "die Gründer.",
+     "Ab dem Notar:",
+     "die GmbH."
+    ],
+    "woerter": [
+     null,
+     "Gründer",
+     "ab",
+     "GmbH"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "GmbH",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Ab wann zahlt eine neu gegründete GmbH Körperschaftsteuer? 🏢\n\n▸ Vor dem notariellen Gesellschaftsvertrag: Vorgründungsgesellschaft, regelmäßig eine Personengesellschaft der Gründer. Ihre Einkünfte werden gesondert und einheitlich festgestellt und den Gründern zugerechnet (§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO; H 1.1 KStH).\n▸ Ab dem Notartermin: Vorgesellschaft. Sie ist bereits körperschaftsteuerpflichtig und bildet mit der späteren GmbH ein Steuersubjekt, wenn die Eintragung tatsächlich folgt (§ 1 Abs. 1 Nr. 1 KStG; H 1.1 KStH).\n▸ Zivilrechtlich besteht die GmbH als solche erst mit der Eintragung (§ 11 Abs. 1 GmbHG). Steuerlich bestätigt die Eintragung nur die schon bestehende Steuerpflicht.\n\nBeispiel: 12.000 € vor dem Notartermin gehören den Gründern, 40.000 € danach versteuert die GmbH.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1 Nr. 1 KStG",
+    "H 1.1 KStH",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 11 Abs. 1 GmbHG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-quiz-aufenthalt-9-ao",
+   "frage": [
+    "Gewöhnlicher Aufenthalt:",
+    "ab wann stets?"
+   ],
+   "optionen": [
+    "Mehr als sechs Monate am Stück",
+    "Ab 183 Tagen im Kalenderjahr",
+    "Ab dem ersten Arbeitstag"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Cornrows",
+     "haut": "#6E4A33",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Pocket Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-quiz-aufenthalt-9-ao",
+   "titel": [
+    "A: mehr als",
+    "sechs Monate"
+   ],
+   "optionen": [
+    "Mehr als sechs Monate am Stück",
+    "Ab 183 Tagen im Kalenderjahr",
+    "Ab dem ersten Arbeitstag"
+   ],
+   "richtig": 0,
+   "text": "Kurze Unterbrechungen schaden nicht. 183 Tage stammen aus dem DBA, nicht aus der AO.",
+   "norm": "§ 9 S. 2 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Cornrows",
+     "haut": "#6E4A33",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Pocket Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Abfindung zum Buchwert"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-34",
+   "titel": [
+    "Mietereinbau:",
+    "welche AfA?"
+   ],
+   "norm": "§ 7 Abs. 4 EStG",
+   "punkte": [
+    [
+     "Grundfall: Gebäude-AfA mit festem Satz.",
+     "ok",
+     "§ 7 Abs. 4 S. 1 EStG"
+    ],
+    [
+     "Kürzer nur bei kürzerer tatsächlicher Nutzungsdauer, nicht automatisch nach Mietdauer.",
+     "warn",
+     "§ 7 Abs. 4 S. 2 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Hijab",
+     "haut": "#D9A47E",
+     "oberteil": "#C9B8F2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Unbebautes Grundstück"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "erst sortieren"
+   ],
+   "punkte": [
+    [
+     "Jede Klausur nach verlorenen Punkten durchgehen.",
+     "ok",
+     null
+    ],
+    [
+     "Lücke, Zeitnot oder Leichtsinn trennen.",
+     "ok",
+     null
+    ],
+    [
+     "Die größte Baustelle zuerst angehen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Dreads 1",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b12-8",
+   "titel": [
+    "§ 15a UStG:",
+    "was zählt?"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Nutzung weicht vom Vorsteuerabzug ab, etwa steuerfrei statt steuerpflichtig.",
+     "ok",
+     "§ 15a Abs. 1 UStG"
+    ],
+    [
+     "Verkauf wirkt bis zum Ende des Zeitraums.",
+     "warn",
+     "§ 15a Abs. 8, 9 UStG"
+    ]
+   ],
+   "icon": "tabler:scale",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Medium Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#7A4B2A",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Neue GmbH: Wer versteuert?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t1-18",
+   "titel": [
+    "Verdeckte Einlage:",
+    "welcher Wert?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Teilwert",
+      "a"
+     ],
+     [
+      " als Regel;",
+      null
+     ]
+    ],
+    [
+     [
+      "binnen 3 Jahren",
+      "b"
+     ],
+     [
+      " privat",
+      null
+     ]
+    ],
+    [
+     [
+      "angeschafft:",
+      null
+     ],
+     [
+      " höchstens AK",
+      "c"
+     ]
+    ],
+    [
+     [
+      "minus AfA.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 8 Abs. 1 KStG, § 6 Abs. 1 Nr. 5 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#3B2A20",
+     "oberteil": "#8DB3F2",
+     "bart": "Moustache 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

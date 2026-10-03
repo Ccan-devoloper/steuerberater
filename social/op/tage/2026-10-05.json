@@ -1,0 +1,1004 @@
+{
+ "datum": "2026-10-05",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "anlass",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": "persg-aufb-persg-melzer-1-2",
+   "themaTitel": "Morgen geht's los: der Abend vor Tag 1",
+   "figuren": {
+    "A": {
+     "name": "Elif",
+     "kopf": "Long Curly",
+     "haut": "#D9A27C",
+     "haar": "#3B2418",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Morgen geht's los",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Der Abend",
+      "davor"
+     ],
+     "unter": "in 4 Schritten",
+     "teaser": "+ Tipp für Tag 1",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "6",
+      "unter": "Di · Tag 1"
+     },
+     "figur": "A:ruhig"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Abend in 4 Schritten",
+     "schritte": [
+      [
+       "Tasche packen",
+       null,
+       "Ladung, Ausweis, Gesetze, Stifte"
+      ],
+      [
+       "Lernen beenden",
+       null,
+       "Ab jetzt nichts Neues mehr"
+      ],
+      [
+       "Runterfahren",
+       null,
+       "Essen, Spaziergang, Bildschirm aus"
+      ],
+      [
+       "Früh ins Bett",
+       null,
+       "Wecker doppelt, Weg mit Puffer"
+      ]
+     ],
+     "teaser": "Am Ende: dein Tipp für Tag 1"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Tasche",
+     "punkte": [
+      [
+       "Welche Hilfsmittel erlaubt sind, legt die Finanzverwaltung fest. Ladung noch einmal lesen.",
+       "ok",
+       "Regular",
+       "§ 18 Abs. 1 S. 2 DVStB"
+      ],
+      [
+       "Textausgaben: Markierungen sind erlaubt, Anmerkungen nicht.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Uhr, Wasser und Snacks für bis zu sechs Stunden.",
+       "ok",
+       "Regular",
+       "§ 18 Abs. 1 S. 3 DVStB"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Einmal abhaken!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Kopf und Schlaf",
+     "punkte": [
+      [
+       "Keine neuen Themen: Was heute nicht sitzt, rettet kein Abendmarathon.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Kurz an die frische Luft, leicht essen, Bildschirm früh aus.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Anfahrt und Einlass mit Puffer planen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Reicht für heute!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Dein Tipp für Tag 1",
+     "punkte": [
+      [
+       "Morgen: Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung in einer Klausur.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Erst alle Teile überfliegen, dann die Zeit nach Punkten verteilen, nicht nach Lieblingsfach.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Hängst du fest: Lücke lassen, weiter, später zurück.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Punkte holen statt perfekt lösen",
+      "GELB",
+      null
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Punkte zählen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Dienstag, 06.10.: Tag 1",
+      "AO · Umsatzsteuer · Erbschaftsteuer und Bewertung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Tasche",
+        "a"
+       ],
+       [
+        " packen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Kopf",
+        "b"
+       ],
+       [
+        " ausschalten,",
+        null
+       ]
+      ],
+      [
+       [
+        "früh",
+        "c"
+       ],
+       [
+        " schlafen,",
+        null
+       ]
+      ],
+      [
+       [
+        "morgen",
+        "d"
+       ],
+       [
+        " Punkte holen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Was kommt bei dir in die Tasche?"
+    }
+   ],
+   "caption": "Morgen geht's los: der Abend vor Tag 1 der Steuerberaterprüfung.\n\n▸ Tasche packen: Ladung, Ausweis, Textausgaben, Stifte. Welche Hilfsmittel zugelassen sind, bestimmt die Finanzverwaltung; die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 2, 3 DVStB).\n▸ Textausgaben dürfen Markierungen enthalten, aber keine Anmerkungen.\n▸ Heute nichts Neues mehr lernen, runterfahren, früh schlafen, Anfahrt mit Puffer.\n▸ Tipp für Tag 1 (Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung): erst alle Teile überfliegen, Zeit nach Punkten verteilen, bei Hängern weitergehen und später zurückkommen.\n\nWir drücken dir die Daumen! Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": [
+    "§ 18 Abs. 1 S. 2, 3 DVStB"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "fehlerfalle",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-3-11",
+   "themaTitel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+   "figuren": {
+    "A": {
+     "name": "Jonas",
+     "kopf": "Short 2",
+     "haut": "#F2CDB0",
+     "haar": "#A0522D",
+     "oberteil": "#F9D56E",
+     "bueste": "Polo and Sweater"
+    },
+    "B": {
+     "name": "Aylin",
+     "kopf": "Hijab",
+     "haut": "#C99470",
+     "oberteil": "#F4A3B5",
+     "hut": "#7A5C8F",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Noch mit",
+      "drei Tagen?"
+     ],
+     "norm": "§ 122 Abs. 2 Nr. 1 AO",
+     "unter": "Dauerbrenner",
+     "teaser": "+ Markier-Guide § 122 AO",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Post",
+        "Bold",
+        44
+       ],
+       [
+        "+ 4 Tage",
+        "ExtraBold",
+        96
+       ],
+       [
+        "seit 2025",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Falle",
+     "punkte": [
+      [
+       "Wer noch mit drei Tagen rechnet, setzt Bekanntgabe und Fristende einen Tag zu früh an.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Seit 2025: bekannt gegeben am vierten Tag nach Aufgabe zur Post.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "Elektronisch übermittelt: vierter Tag nach Absendung.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 2a AO"
+      ]
+     ],
+     "figur": "B:ernst",
+     "x": 790,
+     "blase": "Vier, nicht drei!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Jonas betreibt einen Kiosk. Sein Bescheid geht am Freitag, 06.11.2026, zur Post.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Schon am Samstag liegt er im Briefkasten.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Jonas legt am Donnerstag, 10.12.2026, Einspruch ein.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Jetzt du: Ist das rechtzeitig?",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Zu spät?"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Die Lösung",
+     "zeilen": [
+      [
+       "Fr 06.11.",
+       "Aufgabe zur Post",
+       "WEISS",
+       null
+      ],
+      [
+       "Di 10.11.",
+       "bekannt gegeben",
+       "GRUEN",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "Do 10.12.",
+       "Fristende: rechtzeitig",
+       "GRUEN",
+       "§ 355 Abs. 1 AO, § 188 Abs. 2 BGB"
+      ],
+      [
+       "Falsch:",
+       "3 Tage, Ende 09.12.",
+       "ROT",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Gerade noch!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wochenende schiebt",
+     "punkte": [
+      [
+       "Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag.",
+       "warn",
+       "Bold",
+       "§ 108 Abs. 3 AO"
+      ],
+      [
+       "So schon zur alten Dreitagesregel entschieden.",
+       "ok",
+       "Regular",
+       "BFH vom 14.10.2003, IX R 68/98"
+      ],
+      [
+       "Post am Mittwoch: Tag vier ist Sonntag, bekannt gegeben am Montag.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Werktag zählt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Früher oder später da?",
+     "punkte": [
+      [
+       "Früher im Briefkasten: zählt nicht, es bleibt beim vierten Tag.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "Später oder gar nicht angekommen: Die Vermutung greift nicht.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Im Zweifel muss das Finanzamt Zugang und Zeitpunkt nachweisen.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 2 Hs. 2 AO"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Und wenn nie?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Post am Freitag, 06.11.2026",
+      "Bekanntgabe Di 10.11. · Fristende Do 10.12.",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Post",
+        "a"
+       ],
+       [
+        " plus vier Tage,",
+        null
+       ]
+      ],
+      [
+       [
+        "Wochenende",
+        "b"
+       ],
+       [
+        " schiebt,",
+        null
+       ]
+      ],
+      [
+       [
+        "früher",
+        "c"
+       ],
+       [
+        " zählt nicht,",
+        null
+       ]
+      ],
+      [
+       [
+        "später",
+        "d"
+       ],
+       [
+        " schon.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Rechnest du schon mit vier?",
+     "teaser": "Weiterwischen: § 122 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 122 AO Bekanntgabe (Auszug)",
+     "absaetze": [
+      [
+       2,
+       [
+        [
+         "Ein schriftlicher Verwaltungsakt, der durch die Post übermittelt wird, gilt als bekannt gegeben 1. bei einer Übermittlung im Inland",
+         null
+        ],
+        [
+         "am vierten Tage nach der Aufgabe zur Post,",
+         "g1"
+        ],
+        [
+         "2. bei einer Übermittlung im Ausland einen Monat nach der Aufgabe zur Post,",
+         null
+        ],
+        [
+         "außer wenn er nicht oder zu einem späteren Zeitpunkt zugegangen ist;",
+         "r1"
+        ],
+        [
+         "im Zweifel hat die Behörde den Zugang des Verwaltungsakts und den Zeitpunkt des Zugangs nachzuweisen.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "(2a)",
+       [
+        [
+         "Ein elektronisch übermittelter Verwaltungsakt gilt",
+         null
+        ],
+        [
+         "am vierten Tage nach der Absendung",
+         "g1"
+        ],
+        [
+         "als bekannt gegeben […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "seit 2025: vier",
+       "g1"
+      ],
+      [
+       "später: echter Zugang",
+       "r1"
+      ],
+      [
+       "Beweislast Amt",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Dazu § 108 Abs. 3 AO",
+      "Samstag, Sonntag, Feiertag: nächster Werktag"
+     ]
+    }
+   ],
+   "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Die Klausurfalle zum Wiederholen vor Tag 1.\n\n▸ Seit 2025 gilt ein per Post übermittelter Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO), ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2a AO).\n▸ Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, zur früheren Dreitagesregel).\n▸ Früherer Zugang ändert nichts. Geht der Bescheid später oder gar nicht zu, greift die Vermutung nicht; im Zweifel weist das Finanzamt den Zugang nach (§ 122 Abs. 2 Hs. 2 AO).\n▸ Beispiel: Post am Freitag, 06.11.2026, Bekanntgabe Dienstag, 10.11.2026, Einspruchsfrist endet Donnerstag, 10.12.2026 (§ 355 Abs. 1 S. 1, § 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 122 Abs. 2, 2a AO",
+    "§ 108 Abs. 1, 3 AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 188 Abs. 2 BGB",
+    "BFH vom 14.10.2003, IX R 68/98"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks1-vv-02",
+   "themaTitel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+   "figuren": {
+    "A": {
+     "name": "Nora",
+     "kopf": "Medium Bangs 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Miete ist immer Vermietung und Verpachtung? Falsch. Paragraf einundzwanzig greift nur, wenn keine andere Einkunftsart passt."
+    },
+    {
+     "id": "s1",
+     "text": "Nora verpachtet ihre Halle an die eigene GmbH und beherrscht beide. Das ist eine Betriebsaufspaltung, die Pacht ist gewerblich."
+    },
+    {
+     "id": "s2",
+     "text": "Vermietet ein Kommanditist sein Büro an seine KG, wird die Miete zur Sondervergütung."
+    },
+    {
+     "id": "s3",
+     "text": "Und wer nur ein einzelnes Wohnmobil vermietet, hat sonstige Einkünfte."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Erst Betrieb prüfen, dann Vermietung."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Miete ist",
+     "immer § 21?"
+    ],
+    "pille": "§ 21 Abs. 3 EStG",
+    "figur": "A/skeptisch",
+    "name": "Nora",
+    "icons": [
+     [
+      "tabler:home",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Nur wenn nichts anderes greift",
+     "wort": "greift",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Falle!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Betriebsaufspaltung",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Halle an eigene GmbH",
+       "wort": "Halle",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Pacht",
+       "wert": "gewerblich",
+       "farbe": "GELB",
+       "wort": "gewerblich",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "H 15.7 Abs. 4 EStH",
+       "wort": "Betriebsaufspaltung"
+      }
+     ],
+     "icon": [
+      "tabler:building-factory-2",
+      "GELB",
+      "Halle"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Sonderbetrieb",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Büro an die eigene KG",
+       "wort": "Büro",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Miete wird",
+       "wert": "Sondervergütung",
+       "farbe": "GELB",
+       "wort": "Sondervergütung",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "wort": "Kommanditist"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Einzelne Sache",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "ein Wohnmobil",
+       "wort": "Wohnmobil",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Einkünfte",
+       "wert": "sonstige",
+       "farbe": "GELB",
+       "wort": "sonstige",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 22 Nr. 3 EStG",
+       "wort": "einzelnes"
+      }
+     ],
+     "icon": [
+      "tabler:caravan",
+      "GELB",
+      "Wohnmobil"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Erst prüfen:",
+     "Betrieb oder",
+     "Sonderbetrieb?",
+     "Sonst § 21."
+    ],
+    "woerter": [
+     null,
+     "Betrieb",
+     "prüfen",
+     "Vermietung"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Vermietung",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG? Die Klausurfalle zum Wiederholen.\n\n▸ Vermietungseinkünfte sind anderen Einkunftsarten zuzurechnen, soweit sie zu diesen gehören (§ 21 Abs. 3 EStG).\n▸ Betriebsaufspaltung: Wer Besitz- und Betriebsunternehmen beherrscht und eine wesentliche Betriebsgrundlage überlässt, erzielt gewerbliche Einkünfte (§ 15 Abs. 1 S. 1 Nr. 1 EStG; H 15.7 Abs. 4 EStH).\n▸ Miete, die ein Mitunternehmer von seiner Personengesellschaft erhält, ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Die Vermietung einzelner beweglicher Gegenstände führt zu sonstigen Einkünften (§ 22 Nr. 3 S. 1 EStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 21 Abs. 3 EStG",
+    "§ 15 Abs. 1 S. 1 Nr. 1, 2 EStG",
+    "H 15.7 Abs. 4 EStH",
+    "§ 22 Nr. 3 S. 1 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-1",
+   "frage": [
+    "Wer ist noch nicht",
+    "die spätere GmbH?"
+   ],
+   "optionen": [
+    "Vorgründungsgesellschaft",
+    "Vorgesellschaft nach dem Notartermin",
+    "Eingetragene GmbH"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Dreads 1",
+     "haut": "#6B4226",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-1",
+   "titel": [
+    "A: die Vorgründungs-",
+    "gesellschaft"
+   ],
+   "optionen": [
+    "Vorgründungsgesellschaft",
+    "Vorgesellschaft nach dem Notartermin",
+    "Eingetragene GmbH"
+   ],
+   "richtig": 0,
+   "text": "Sie endet mit dem Notarvertrag. Erst die Vorgesellschaft gehört steuerlich zur GmbH.",
+   "norm": "H 1.1 KStH",
+   "figuren": {
+    "Q": {
+     "kopf": "Dreads 1",
+     "haut": "#6B4226",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Morgen geht's los"
+   ],
+   "unter": "Abendritual + Tipp für Tag 1 · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-20",
+   "titel": [
+    "SBV I oder",
+    "SBV II?"
+   ],
+   "norm": "R 4.2 Abs. 2 EStR",
+   "punkte": [
+    [
+     "SBV I dient direkt dem Betrieb, etwa das vermietete Grundstück.",
+     "ok",
+     null
+    ],
+    [
+     "SBV II stärkt die Beteiligung, etwa ein Anteilsdarlehen.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Short",
+     "haut": "#F1C7A5",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Noch mit drei Tagen?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "countdown",
+   "klausur": 0,
+   "fachLabel": "Steuerberaterexamen",
+   "zahl": 1,
+   "einheit": "Tag",
+   "titel": "bis zum Examen",
+   "punkte": [
+    "Tasche packen",
+    "Nichts Neues mehr",
+    "Früh schlafen"
+   ],
+   "figuren": {
+    "C": {
+     "kopf": "Buns",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#2E2E3A",
+     "jacke": "#F9D56E"
+    }
+   },
+   "figur": "C/blazer"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-0",
+   "titel": [
+    "USt-Fall:",
+    "die Reihenfolge"
+   ],
+   "punkte": [
+    [
+     "Steuerbar, steuerfrei, Option?",
+     "ok",
+     "§§ 1, 4, 9 UStG"
+    ],
+    [
+     "Bemessungsgrundlage und Steuersatz",
+     "ok",
+     "§§ 10, 12 UStG"
+    ],
+    [
+     "Wer schuldet, ab wann?",
+     "ok",
+     "§§ 13, 13a, 13b UStG"
+    ],
+    [
+     "Vorsteuer und Berichtigung",
+     "ok",
+     "§§ 15, 15a, 17 UStG"
+    ]
+   ],
+   "icon": "tabler:list-numbers",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Miete immer § 21?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-1",
+   "titel": [
+    "vGA: zuerst",
+    "die Vorfrage"
+   ],
+   "zeilen": [
+    [
+     [
+      "Wer hat den ",
+      null
+     ],
+     [
+      "Vorteil",
+      "a"
+     ],
+     [
+      "?",
+      null
+     ]
+    ],
+    [
+     [
+      "Gesellschafter",
+      "b"
+     ],
+     [
+      " oder",
+      null
+     ]
+    ],
+    [
+     [
+      "Nahestehende",
+      "c"
+     ],
+     [
+      ": prüfen!",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 8 Abs. 3 S. 2 KStG",
+   "figuren": {
+    "M": {
+     "kopf": "Turban",
+     "haut": "#A8704A",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:denkt"
+  }
+ ]
+}

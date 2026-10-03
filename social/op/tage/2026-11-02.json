@@ -1,0 +1,1271 @@
+{
+ "datum": "2026-11-02",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-bew1-9",
+   "themaTitel": "Lebenslange Rente oder unbestimmte Dauer: Welcher Vervielfältiger?",
+   "figuren": {
+    "A": {
+     "name": "Selin",
+     "kopf": "Hijab",
+     "haut": "#C68E62",
+     "oberteil": "#F2B5C8",
+     "bueste": "Sweater Dots"
+    },
+    "B": {
+     "name": "Tobias",
+     "kopf": "Short 2",
+     "haut": "#F2CFB3",
+     "haar": "#A0522D",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 1",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Rente geerbt:",
+      "welcher Faktor?"
+     ],
+     "norm": "§§ 13, 14 BewG",
+     "unter": "Klausurfrage",
+     "teaser": "+ Markier-Guide § 13 BewG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Rente je Jahr",
+        "Bold",
+        44
+       ],
+       [
+        "6.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "mal wie viel?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Tante Margit stirbt im März 2026 und vermacht zwei Renten von je 6.000 € jährlich.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Selin, 60 Jahre alt: Rente bis zu ihrem Tod.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Tobias: bis zum beschlossenen Verkauf eines Mietshauses, Termin offen, vererblich.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Selin."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Mit welchem Kapitalwert erfasst das Finanzamt die beiden Renten?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Tipp: Erst klären, wodurch jede Rente endet.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Gilt für mich dasselbe?"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Vier Laufzeiten, vier Faktoren",
+     "schritte": [
+      [
+       "Feste Laufzeit",
+       "§ 13 Abs. 1 BewG",
+       "Vielfaches aus Anlage 9a"
+      ],
+      [
+       "Immerwährend",
+       "§ 13 Abs. 2 BewG",
+       "18,6facher Jahreswert"
+      ],
+      [
+       "Unbestimmte Dauer",
+       "§ 13 Abs. 2 BewG",
+       "9,3facher Jahreswert"
+      ],
+      [
+       "Lebenslang",
+       "§ 14 Abs. 1 BewG",
+       "BMF-Tabelle nach Alter und Geschlecht"
+      ]
+     ]
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung Selin",
+     "normen": [
+      "§ 14 Abs. 1 BewG",
+      "BMF vom 21.10.2025"
+     ],
+     "zeilen": [
+      [
+       "Jahreswert",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Frau, 60 Jahre vollendet",
+       "× 13,832",
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalwert",
+       "82.992 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Tabelle für Stichtage ab 01.01.2026",
+      "WEISS"
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Mein Alter zählt!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung Tobias",
+     "normen": [
+      "§ 13 Abs. 2 BewG"
+     ],
+     "zeilen": [
+      [
+       "Jahreswert",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Ende sicher, Zeitpunkt offen",
+       "× 9,3",
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalwert",
+       "55.800 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Vererblich: kein Leben begrenzt die Rente",
+      "WEISS"
+     ],
+     "figur": "B:staunt",
+     "x": 290,
+     "blase": "Weniger als Selin?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Wessen Tod zählt?",
+     "punkte": [
+      [
+       "Rente für zwei, bis der Letzte stirbt: höchster Vervielfältiger.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 3 BewG"
+      ],
+      [
+       "Endet sie mit dem ersten Tod: niedrigster.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 3 BewG"
+      ],
+      [
+       "Rente nur, falls die Ehefrau ihn überlebt: aufschiebend bedingt, vorerst kein Ansatz.",
+       "nein",
+       "Bold",
+       "§ 4 BewG"
+      ]
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Selin 82.992 € · Tobias 55.800 €",
+      "Die Laufzeit bestimmt den Faktor, nicht der Betrag",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ewig",
+        "a"
+       ],
+       [
+        " = 18,6",
+        null
+       ]
+      ],
+      [
+       [
+        "Ende offen",
+        "b"
+       ],
+       [
+        " = 9,3",
+        null
+       ]
+      ],
+      [
+       [
+        "Lebenslang",
+        "c"
+       ],
+       [
+        " = BMF-Tabelle",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Kanntest du die Tabelle 2026?",
+     "teaser": "Weiterwischen: § 13 BewG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 13, 14 BewG (Auszug)",
+     "absaetze": [
+      [
+       "§ 13 (2)",
+       [
+        [
+         "Immerwährende Nutzungen oder Leistungen sind mit dem",
+         null
+        ],
+        [
+         "18,6fachen",
+         "g1"
+        ],
+        [
+         "des Jahreswerts, Nutzungen oder Leistungen von",
+         null
+        ],
+        [
+         "unbestimmter Dauer",
+         "b1"
+        ],
+        [
+         "vorbehaltlich des § 14",
+         "r1"
+        ],
+        [
+         "mit dem",
+         null
+        ],
+        [
+         "9,3fachen",
+         "g2"
+        ],
+        [
+         "des Jahreswerts zu bewerten.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 14 (1)",
+       [
+        [
+         "Der Kapitalwert von",
+         null
+        ],
+        [
+         "lebenslänglichen",
+         "gr1"
+        ],
+        [
+         "Nutzungen und Leistungen ist mit dem Vielfachen des Jahreswerts nach Maßgabe der Sätze 2 bis 4 anzusetzen. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "immer",
+       "g1"
+      ],
+      [
+       "Ende offen",
+       "b1"
+      ],
+      [
+       "Leben geht vor",
+       "r1"
+      ],
+      [
+       "BMF-Tabelle",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 23 ErbStG",
+      "Steuer auf Wunsch jährlich vom Jahreswert"
+     ]
+    }
+   ],
+   "caption": "Rente geerbt – mit welchem Vervielfältiger setzt das Finanzamt sie an? Eine typische Frage aus der Erbschaftsteuer-Klausur.\n\nDer Fall: Tante Margit stirbt im März 2026. Selin (60) erhält lebenslang 6.000 € im Jahr, Tobias 6.000 € jährlich bis zum beschlossenen Verkauf eines Mietshauses (vererblich, Termin offen).\n\n▸ Feste Laufzeit: Vielfaches aus Anlage 9a (§ 13 Abs. 1 BewG).\n▸ Immerwährend: 18,6facher, unbestimmte Dauer: 9,3facher Jahreswert, vorbehaltlich § 14 (§ 13 Abs. 2 BewG).\n▸ Lebenslang: Vervielfältiger nach Lebensalter und Geschlecht aus der BMF-Tabelle (§ 14 Abs. 1 BewG). Für Stichtage ab 01.01.2026: BMF vom 21.10.2025, Frau mit vollendetem 60. Lebensjahr 13,832.\n▸ Selin: 6.000 € × 13,832 = 82.992 €. Tobias: 6.000 € × 9,3 = 55.800 €.\n▸ Mehrere Berechtigte: beim Erlöschen mit dem Tod des Letztversterbenden der höchste, mit dem Tod des Erstversterbenden der niedrigste Vervielfältiger (§ 14 Abs. 3 BewG).\n▸ Aufschiebend bedingte Rente (z. B. erst bei Überleben): zunächst kein Ansatz (§ 4 BewG).\n▸ Wahlrecht: Steuer statt vom Kapitalwert jährlich im Voraus vom Jahreswert (§ 23 Abs. 1 ErbStG).\n\nZum Schluss: §§ 13, 14 BewG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 13 Abs. 1, 2 BewG",
+    "§ 14 Abs. 1, 3 BewG",
+    "§ 4 BewG",
+    "BMF vom 21.10.2025 (Vervielfältiger ab 01.01.2026)",
+    "§ 23 Abs. 1 ErbStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr2-03",
+   "themaTitel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+   "figuren": {
+    "A": {
+     "name": "Mateo",
+     "kopf": "Medium 3",
+     "haut": "#D9A47A",
+     "haar": "#3B2A20",
+     "oberteil": "#9AD48F",
+     "bart": "Full 3",
+     "bueste": "Polo and Sweater"
+    },
+    "B": {
+     "name": "Johanna",
+     "kopf": "Long Curly",
+     "haut": "#8D5A3B",
+     "haar": "#2B1B12",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Dividende",
+      "ins Ausland"
+     ],
+     "norm": "§ 50 Abs. 2 EStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 50 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:world",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Kapitalertrag?",
+       "§ 20 Abs. 1 Nr. 1 EStG",
+       ""
+      ],
+      [
+       "Inlandsbezug?",
+       "§ 49 Abs. 1 Nr. 5 Buchst. a EStG",
+       ""
+      ],
+      [
+       "Steuerabzug",
+       "§§ 43, 43a EStG",
+       ""
+      ],
+      [
+       "Abgeltung",
+       "§ 50 Abs. 2 EStG",
+       ""
+      ],
+      [
+       "DBA und Erstattung",
+       "Art. 10 OECD-MA, § 50c EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 50 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Mateo wohnt in einem DBA-Staat, nicht in Deutschland.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Er hält 3 % an der Lindauer Möbel GmbH mit Sitz in Köln.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "2026 schüttet sie ihm 10.000 € aus.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Muss ich hier was tun?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1 und 2",
+     "punkte": [
+      [
+       "Gewinnausschüttung einer GmbH: Kapitalertrag.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 Nr. 1 EStG"
+      ],
+      [
+       "Die Schuldnerin sitzt im Inland: inländische Einkünfte.",
+       "ok",
+       "Regular",
+       "§ 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG"
+      ],
+      [
+       "Ohne Wohnsitz hier: beschränkt steuerpflichtig.",
+       "ok",
+       "Bold",
+       "§ 1 Abs. 4 EStG"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Ich bin Johanna, Mateos Beraterin."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Schritt 3: Abzug",
+     "normen": [
+      "§ 43a Abs. 1 Nr. 1 EStG",
+      "§ 4 SolZG"
+     ],
+     "zeilen": [
+      [
+       "Dividende",
+       "10.000,00 €",
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalertragsteuer 25 %",
+       "− 2.500,00 €",
+       "Regular",
+       null
+      ],
+      [
+       "Soli 5,5 %",
+       "− 137,50 €",
+       "Regular",
+       null
+      ],
+      [
+       "Auszahlung an Mateo",
+       "7.362,50 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Gut ein Viertel weg!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Muss Mateo in Deutschland eine Steuererklärung abgeben?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und bekommt er etwas zurück?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: Schritt 4",
+     "punkte": [
+      [
+       "Keine Erklärung: Die Steuer gilt durch den Abzug als abgegolten.",
+       "ok",
+       "Bold",
+       "§ 50 Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Anders, wenn die Anteile zu einem inländischen Betrieb gehören.",
+       "warn",
+       "Regular",
+       "§ 50 Abs. 2 S. 2 Nr. 1 EStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Keine Erklärung!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Schritt 5",
+     "normen": [
+      "Art. 10 Abs. 2 OECD-MA",
+      "§ 50c Abs. 3 EStG"
+     ],
+     "zeilen": [
+      [
+       "Einbehalten",
+       "2.637,50 €",
+       "Regular",
+       null
+      ],
+      [
+       "Erlaubt nach DBA: 15 %",
+       "1.500,00 €",
+       "Regular",
+       null
+      ],
+      [
+       "Erstattung vom BZSt",
+       "1.137,50 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Erst abziehen, dann erstatten",
+      "WEISS"
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Antrag beim BZSt!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Mateo: 7.362,50 € netto, 1.137,50 € zurück",
+      "Am Ende bleiben 15 % in Deutschland",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ertrag",
+        "a"
+       ],
+       [
+        " und ",
+        null
+       ],
+       [
+        "Inland",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Abzug",
+        "c"
+       ],
+       [
+        " ist ",
+        null
+       ],
+       [
+        "Abgeltung",
+        "d"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "DBA nur per Erstattung.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Prüfst du den DBA-Satz mit?",
+     "teaser": "Weiterwischen: § 50 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 50 EStG Sondervorschriften (Auszug)",
+     "absaetze": [
+      [
+       2,
+       [
+        [
+         "Die Einkommensteuer für Einkünfte, die dem Steuerabzug vom Arbeitslohn oder",
+         null
+        ],
+        [
+         "vom Kapitalertrag",
+         "g1"
+        ],
+        [
+         "oder dem Steuerabzug auf Grund des § 50a unterliegen, gilt",
+         null
+        ],
+        [
+         "bei beschränkt Steuerpflichtigen",
+         "b1"
+        ],
+        [
+         "durch den Steuerabzug",
+         null
+        ],
+        [
+         "als abgegolten.",
+         "gr1"
+        ],
+        [
+         "Satz 1 gilt nicht 1.",
+         null
+        ],
+        [
+         "für Einkünfte eines inländischen Betriebs;",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Dividende",
+       "g1"
+      ],
+      [
+       "nur Ausländer",
+       "b1"
+      ],
+      [
+       "Rechtsfolge",
+       "gr1"
+      ],
+      [
+       "Ausnahme",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 50c Abs. 3 EStG",
+      "Erstattung beim BZSt, Frist vier Jahre"
+     ]
+    }
+   ],
+   "caption": "Dividende an einen Steuerausländer – das Prüfschema in fünf Schritten für die Ertragsteuer-Klausur.\n\n1. Kapitalertrag: Gewinnausschüttung einer GmbH (§ 20 Abs. 1 Nr. 1 EStG).\n2. Inlandsbezug: Schuldner mit Sitz oder Geschäftsleitung im Inland (§ 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG); ohne inländischen Wohnsitz beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n3. Steuerabzug: 25 % Kapitalertragsteuer (§ 43 Abs. 1 S. 1 Nr. 1, § 43a Abs. 1 S. 1 Nr. 1 EStG) plus 5,5 % Solidaritätszuschlag (§ 3 Abs. 1 Nr. 5, § 4 SolZG). Beispiel: 10.000 € Dividende, 2.637,50 € einbehalten.\n4. Abgeltung: Die Einkommensteuer gilt durch den Steuerabzug als abgegolten (§ 50 Abs. 2 S. 1 EStG), nicht aber u. a. für Einkünfte eines inländischen Betriebs (§ 50 Abs. 2 S. 2 Nr. 1 EStG).\n5. DBA: Entspricht das Abkommen Art. 10 Abs. 2 OECD-MA, darf der Quellenstaat bei Streubesitz höchstens 15 % erheben. Der Abzug wird trotzdem voll vorgenommen (§ 50c Abs. 1 EStG); den Mehrbetrag erstattet das BZSt auf Antrag, Frist vier Jahre nach Ablauf des Jahres des Zuflusses (§ 50c Abs. 3 EStG). Im Beispiel 1.137,50 €.\n\nZum Schluss: § 50 Abs. 2 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 Abs. 4 EStG",
+    "§ 20 Abs. 1 Nr. 1 EStG",
+    "§ 49 Abs. 1 Nr. 5 Buchst. a EStG",
+    "§ 43 Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 43a Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 3 Abs. 1 Nr. 5, § 4 SolZG",
+    "§ 50 Abs. 2 EStG",
+    "§ 50c Abs. 1, 3 EStG",
+    "Art. 10 Abs. 2 OECD-MA"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-3-03",
+   "themaTitel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+   "figuren": {
+    "A": {
+     "name": "Kai",
+     "kopf": "Shaved 2",
+     "haut": "#6B4226",
+     "oberteil": "#F4A3B5",
+     "bart": "Chin",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Übernahmegewinn dreihundertfünfzigtausend Euro, voll steuerpflichtig? Stopp. Erst kommt Paragraf sieben."
+    },
+    {
+     "id": "s1",
+     "text": "Kais GmbH wird auf eine KG verschmolzen. Vermögen vierhunderttausend, Kais Anteile fünfzigtausend. Differenz: dreihundertfünfzigtausend."
+    },
+    {
+     "id": "s2",
+     "text": "Die Rücklagen gelten als an Kai ausgeschüttet: dreihundertfünfzigtausend Euro Dividende, zu sechzig Prozent steuerpflichtig."
+    },
+    {
+     "id": "s3",
+     "text": "Diese Bezüge ziehst du vom Übernahmegewinn ab. Rest: null. Nichts wird doppelt besteuert."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Erst die Bezüge nach Paragraf sieben abziehen, dann den Rest rechnen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Übernahmegewinn",
+     "voll versteuern?"
+    ],
+    "pille": "Verschmelzung GmbH auf KG",
+    "figur": "A/sorge",
+    "name": "Kai",
+    "icons": [
+     [
+      "tabler:building-factory",
+      "GELB",
+      "Stopp"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Erst § 7 abziehen",
+     "wort": "Paragraf",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Stopp!",
+     "wort": "Stopp"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Übernahmegewinn",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Vermögen",
+       "wert": "400.000 €",
+       "farbe": "WEISS",
+       "wort": "Vermögen",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Anteile",
+       "wert": "− 50.000 €",
+       "farbe": "WEISS",
+       "wort": "Anteile",
+       "zs": 100
+      },
+      {
+       "typ": "zahl",
+       "text": "= 350.000 €",
+       "wort": "Differenz",
+       "size": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Abs. 4 UmwStG",
+       "wort": "Differenz"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Kais"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Erst die Dividende",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Rücklagen ausgeschüttet",
+       "unter": "Eigenkapital minus Einlagekonto",
+       "wort": "Rücklagen",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Bezüge",
+       "wert": "350.000 €",
+       "farbe": "GELB",
+       "wort": "dreihundertfünfzigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "60 % steuerpflichtig",
+       "farbe": "WEISS",
+       "wort": "sechzig"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 7 UmwStG",
+       "wort": "Dividende"
+      }
+     ],
+     "icon": [
+      "tabler:coins",
+      "GELB",
+      "Dividende"
+     ],
+     "sfx": [
+      [
+       "muenzen",
+       "Dividende",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Dann abziehen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Übernahmegewinn",
+       "wert": "350.000 €",
+       "farbe": "WEISS",
+       "wort": "Bezüge",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "minus Bezüge",
+       "wert": "− 350.000 €",
+       "farbe": "WEISS",
+       "wort": "Übernahmegewinn",
+       "zs": 100
+      },
+      {
+       "typ": "zahl",
+       "text": "= 0 €",
+       "wort": "null",
+       "size": 150
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Abs. 5 UmwStG",
+       "wort": "Rest"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Rest",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "Erst Bezüge nach § 7",
+     "abziehen,",
+     "dann den Rest"
+    ],
+    "woerter": [
+     null,
+     "Bezüge",
+     "abziehen",
+     "Rest"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Rest",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Übernahmegewinn bei Verschmelzung einer GmbH auf eine KG – erst § 7 UmwStG, dann rechnen. 🧮\n\nBeispiel: Kai hält 100 % an einer GmbH (Anschaffungskosten = Stammkapital 50.000 €, kein weiteres Einlagekonto). Buchwert des übergehenden Vermögens 400.000 €.\n\n▸ Seine Anteile gelten als in die KG eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Übernahmegewinn 1. Stufe: 400.000 € − 50.000 € = 350.000 € (§ 4 Abs. 4 S. 1 UmwStG; Umwandlungskosten hier außer Acht).\n▸ Bezüge: Eigenkapital laut Steuerbilanz abzüglich Einlagekonto nach Anwendung des § 29 Abs. 1 KStG = 350.000 €, Einnahmen nach § 20 Abs. 1 Nr. 1 EStG (§ 7 UmwStG); hier im Teileinkünfteverfahren zu 60 % steuerpflichtig (§ 3 Nr. 40, § 20 Abs. 8 EStG), mit Kapitalertragsteuerabzug.\n▸ Der Übernahmegewinn vermindert sich um diese Bezüge (§ 4 Abs. 5 UmwStG): 0 €.\n▸ Ein verbleibender Übernahmegewinn: bei natürlichen Personen § 3 Nr. 40, § 3c EStG, bei Körperschaften § 8b KStG (§ 4 Abs. 7 UmwStG). Ein Übernahmeverlust: bei natürlichen Personen zu 60 %, höchstens 60 % der Bezüge; nicht bei entgeltlichem Erwerb der Anteile in den letzten fünf Jahren (§ 4 Abs. 6 S. 4, 6 UmwStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 4 Abs. 4, 5, 6, 7 UmwStG",
+    "§ 5 Abs. 2 UmwStG",
+    "§ 7 UmwStG",
+    "§ 29 Abs. 1 KStG",
+    "§ 3 Nr. 40, § 3c Abs. 2, § 20 Abs. 1 Nr. 1, Abs. 8 EStG",
+    "§ 8b KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-12",
+   "frage": [
+    "Dividende im Betrieb:",
+    "Was sperrt die Abgeltung?"
+   ],
+   "optionen": [
+    "§ 43 Abs. 5 S. 2 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 12 Nr. 3 EStG"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bantu Knots",
+     "haut": "#7A4A2E",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-12",
+   "titel": [
+    "A: § 43 Abs. 5",
+    "S. 2 EStG"
+   ],
+   "optionen": [
+    "§ 43 Abs. 5 S. 2 EStG",
+    "§ 3 Nr. 40 EStG",
+    "§ 12 Nr. 3 EStG"
+   ],
+   "richtig": 0,
+   "text": "Gehört die Dividende zum Gewerbebetrieb, wird die Kapitalertragsteuer nur angerechnet.",
+   "norm": "§ 36 Abs. 2 Nr. 2 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Bantu Knots",
+     "haut": "#7A4A2E",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Erbschaftsteuer",
+   "beitragSlot": "b1",
+   "titel": [
+    "Rente geerbt: welcher Faktor?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-bew2-5",
+   "titel": [
+    "Vergleich, Ertrag",
+    "oder Sachwert?"
+   ],
+   "norm": "§ 182 BewG",
+   "punkte": [
+    [
+     "Eigentumswohnung, Ein- und Zweifamilienhaus: Vergleichswert.",
+     "ok",
+     "§ 182 Abs. 2 BewG"
+    ],
+    [
+     "Mietwohngrundstück: Ertragswert. Fehlt Vergleichswert oder übliche Miete: Sachwert.",
+     "warn",
+     "§ 182 Abs. 3, 4 BewG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Short",
+     "haut": "#E8B98F",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Internationales Steuerrecht",
+   "beitragSlot": "b2",
+   "titel": [
+    "Dividende ins Ausland"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "erst Bilanz ziehen"
+   ],
+   "punkte": [
+    [
+     "Bewertete Klausuren einsehen, Punkte je Teil notieren.",
+     "ok",
+     null
+    ],
+    [
+     "Fehlte Wissen, Zeit oder Technik?",
+     "warn",
+     null
+    ],
+    [
+     "Den Lernplan genau nach diesen Lücken bauen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:chart-bar",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Dreads 1",
+     "haut": "#5C3A21",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-3-05",
+   "titel": [
+    "Zinsloses Darlehen",
+    "an die GmbH"
+   ],
+   "punkte": [
+    [
+     "Zinsvorteil: kein einlagefähiges Wirtschaftsgut.",
+     "ok",
+     "BFH vom 26.10.1987, GrS 2/86"
+    ],
+    [
+     "Also keine verdeckte Einlage.",
+     "nein",
+     null
+    ],
+    [
+     "Die GmbH spart Zinsen, ihr Gewinn steigt.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:coins",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Long",
+     "haut": "#F1C7A5",
+     "haar": "#D8B26E",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Umwandlungssteuerrecht",
+   "beitragSlot": "b3",
+   "titel": [
+    "Übernahmegewinn voll versteuern?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-3-04",
+   "titel": [
+    "Verschmelzung:",
+    "welcher Stichtag?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Stichtag der ",
+      null
+     ],
+     [
+      "Schlussbilanz",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "höchstens ",
+      null
+     ],
+     [
+      "8 Monate",
+      "b"
+     ]
+    ],
+    [
+     [
+      "vor der ",
+      null
+     ],
+     [
+      "Anmeldung",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 2 Abs. 1 UmwStG, § 17 Abs. 2 S. 4 UmwG",
+   "figuren": {
+    "M": {
+     "kopf": "Buns",
+     "haut": "#C99470",
+     "haar": "#2B2B2B",
+     "oberteil": "#F2B5C8",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}
