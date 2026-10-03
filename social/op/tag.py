@@ -81,6 +81,7 @@ def main():
 
     for b in spec["beitraege"]:
         if nur and b["slot"] not in nur: continue
+        texte[f"{datum}-{b['slot']}-caption"] = [b.get("caption", "")]   # vor jedem continue: auch Reel-Captions im Prüflauf
         bes = Besetzung(b.get("figuren"))
         out = os.path.join(arbeit, b["slot"])
         if b["format"] == "reel":
@@ -111,7 +112,6 @@ def main():
             texte.update(kk.texte)
             covers[b["slot"]] = dateien[0]
             ergebnisse[b["slot"]] = dict(dateien=dateien, texte=kk.texte)
-        texte[f"{datum}-{b['slot']}-caption"] = [b.get("caption", "")]
 
     if not nur or "stories" in nur:
         # Teaser brauchen das echte Cover: bei Teilläufen aus dem Ziel nehmen
