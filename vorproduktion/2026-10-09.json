@@ -239,7 +239,7 @@
         {
           "art": "text",
           "titel": "Körperschaftsteuer",
-          "text": "KSt + Soli · 50 % zurück · Kontrollorgan · Gewerbesteuer: § 4 Abs. 5b EStG · steht nicht hier, sondern im EStG"
+          "text": "§ 10 KStG Nichtabziehbare Aufwendungen · KSt + Soli · 50 % zurück · Kontrollorgan · Gewerbesteuer: § 4 Abs. 5b EStG · steht nicht hier, sondern im EStG"
         }
       ]
     },
@@ -548,7 +548,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:26:31Z",
+    "erzeugtAm": "2026-10-03T10:48:22Z",
     "pfad": "vorproduktion/2026-10-09/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
