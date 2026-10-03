@@ -50,9 +50,10 @@ class Reel:
 
     # ------------------------------------------------------------ Aufbau
     def kopfzeile(self):
-        self.T(self.s["fachLabel"].upper(), f"Klausur {self.k}")
+        kl = self.s.get("klausurLabel") or f"Klausur {self.k}"
+        self.T(self.s["fachLabel"].upper(), kl)
         self.zeige(pille(self.s["fachLabel"].upper(), 48, 50, C, fill=PASTELL[self.k], size=k.passt(self.s["fachLabel"].upper(), "Bold", 46, 620, 28), pad=(30, 12)), 0, None, "cut")
-        self.zeige(pille(f"Klausur {self.k}", W_ - 48, 56, C, fill=WEISS, size=32, anker="r", pad=(22, 10)), 0, None, "cut")
+        self.zeige(pille(kl, W_ - 48, 56, C, fill=WEISS, size=32, anker="r", pad=(22, 10)), 0, None, "cut")
         self.zeige(boden(BODEN, C, 48, 1032), 0, None, "cut")
 
     def hook(self, h, t_ende):
@@ -275,7 +276,8 @@ class Reel:
         els = []
         lbl = self.s["fachLabel"].upper()
         els.append(pille(lbl, 64, 272, C, fill=PASTELL[kk], size=k.passt(lbl, "Bold", 42, 640, 28), pad=(28, 11)))
-        els.append(pille(f"Klausur {kk}", W_ - 64, 278, C, fill=WEISS, size=32, anker="r", pad=(22, 10)))
+        kl = self.s.get("klausurLabel") or f"Klausur {kk}"
+        els.append(pille(kl, W_ - 64, 278, C, fill=WEISS, size=32, anker="r", pad=(22, 10)))
         zeilen = h["zeilen"]
         stil, st = h.get("stil", "split"), h.get("stempel") or {}
         # Kippen: Frage oben, Irrtum als eigener Kasten mit Stempel, darunter die Richtig-Aussage (keine Durchstreichung)
@@ -321,7 +323,7 @@ class Reel:
             ref = f"{buchst}:{POSE_MIMIK.get(pose, pose if pose in ('froh', 'sorge', 'fragt', 'ernst', 'staunt') else 'ernst')}"
             oben = max(y + 30, 1000)            # Brustbild füllt den Rest bis unten, ohne Lücke in der Mitte
             els.append(k.nah(self.b.name(ref, 800 if stil != "knall" else 760), 800 if stil != "knall" else 760, oben, 1880 - oben))
-        self.T(lbl, f"Klausur {kk}", *zeilen, h.get("pille"), st.get("text"))
+        self.T(lbl, kl, *zeilen, h.get("pille"), st.get("text"))
         img = Image.new("RGBA", (W_, H_), k.CREME)
         for e in els:
             self._setze(img, e.sprite, e.x, e.y)
