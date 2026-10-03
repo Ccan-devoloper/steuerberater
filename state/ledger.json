@@ -7105,21 +7105,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 31,
-        "views": 40,
+        "reach": 33,
+        "views": 43,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 40,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 30,
-        "navigation_tap_exit": 8
+        "navigation": 43,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 32,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-03T09:44:45.559Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-03T11:45:10.034Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-10-02",
@@ -7321,19 +7321,20 @@
       "fach": "kst",
       "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
       "insights": {
-        "reach": 9,
-        "views": 15,
+        "reach": 20,
+        "views": 25,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 8,
-        "navigation_tap_forward": 8
+        "navigation": 22,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 21
       },
-      "insightsStand": "2026-10-03T06:46:22.547Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-03T11:45:10.034Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-03",
@@ -7347,20 +7348,22 @@
       "fach": "kst",
       "titel": "der Gesellschafter oder eine nahestehende Person",
       "insights": {
-        "reach": 9,
-        "views": 16,
+        "reach": 20,
+        "views": 27,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 8,
-        "navigation_tap_forward": 7,
-        "navigation_tap_exit": 1
+        "navigation": 23,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 18
       },
-      "insightsStand": "2026-10-03T06:46:22.547Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-03T11:45:10.034Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-03",
@@ -7374,19 +7377,21 @@
       "fach": "ao",
       "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
       "insights": {
-        "reach": 6,
-        "views": 12,
+        "reach": 19,
+        "views": 23,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 6,
-        "navigation_tap_forward": 6
+        "navigation": 22,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 17,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-10-03T06:46:22.547Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-03T11:45:10.034Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-03",
@@ -7398,7 +7403,24 @@
       "storyArt": "norm",
       "thema": "istr-modul-istr-istr3-06",
       "fach": "istr",
-      "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG"
+      "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
+      "insights": {
+        "reach": 11,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 6
+      },
+      "insightsStand": "2026-10-03T11:45:10.034Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-03",
