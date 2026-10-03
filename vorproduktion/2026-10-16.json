@@ -4,38 +4,33 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "istr-modul-istr-istr3-03",
-        "themaTitel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
-        "fach": "istr",
+        "format": "minifall",
+        "themaId": "gewst-aufb-gewst-ks-10",
+        "themaTitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+        "fach": "gewst",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-aufb-bil-melzer-12-05",
-        "themaTitel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+        "format": "vergleich",
+        "themaId": "bilanz-glossar-0",
+        "themaTitel": "Wirtschaftliches Eigentum",
         "fach": "bilanz",
         "klausur": 3
       },
@@ -43,587 +38,457 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-modul-ao-369",
-        "themaTitel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
+        "themaId": "ao-aufb-ao-jacobs-7-5",
+        "themaTitel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
         "fach": "ao",
-        "klausur": 1,
-        "lang": false
+        "klausur": 1
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:16",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "persg-quiz-k3-28"
+        "themaId": "ust-quiz-ust-12"
       },
       {
         "slot": "s5",
-        "zeit": "07:16",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "persg-quiz-k3-28"
+        "themaId": "ust-quiz-ust-12"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:55",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-323"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:27",
-        "art": "merksatz",
-        "themaId": "ao-modul-ao-316"
+        "themaId": "kst-karte-kst-4"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:56",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-8-14"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:29",
-        "art": "fehler",
-        "themaId": "ao-modul-ao-340"
+        "themaId": "bilanz-karte-k3-12"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-7-7"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "istr",
+      "format": "minifall",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr3-03",
-      "slug": "2026-10-16-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Grundsatz (§ 50c Abs. 1 EStG): Der Steuerabzug ist zunächst voll vorzunehmen, auch wenn ein DBA, § 43b oder § 50g EStG den deutschen Anspruch begrenzt.",
-            "Entlastet wird beim Bundeszentralamt für Steuern: vorab per Freistellungsbescheinigung (§ 50c Abs. 2 EStG) oder nachträglich per Erstattungsantrag (§ 50c Abs. 3 EStG)."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Innerstaatlichen Steuerabzug bestimmen: Kapitalertragsteuer (§§ 43 ff. EStG) oder Abzug nach § 50a EStG."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Prüfen, ob ein DBA, § 43b oder § 50g EStG den deutschen Anspruch mindert. Dann klären: Liegt eine Freistellungsbescheinigung vor, oder bleibt nur die Erstattung?"
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Erst abziehen, dann entlasten: Ohne Freistellungsbescheinigung behält der Schuldner die volle Abzugsteuer ein, und der Gläubiger holt den Mehrbetrag per Erstattungsantrag beim Bundeszentralamt für Steuern zurück."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Thema für die nächste Wiederholung speichern"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "§ 50c EStG: Die Abzugsteuer wird zunächst voll einbehalten. Die Entlastung nach DBA, § 43b oder § 50g EStG gibt es nur per Freistellungsbescheinigung vorab oder per Erstattung beim Bundeszentralamt für Steuern.",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-10",
+      "caption": "Mini-Fall: Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?\n\nFall: Messbetrag 2.000 €, Hebesatz 320 %, gewerbliche Einkünfte 80.000 €, Vermietung 20.000 €, tarifliche ESt 25.000 €.\n\n▸ Ermäßigung um das Vierfache des festgesetzten Messbetrags: 8.000 € (§ 35 Abs. 1 S. 1 Nr. 1 EStG).\n▸ Höchstens die tatsächlich zu zahlende Gewerbesteuer: 6.400 € (§ 35 Abs. 1 S. 5 EStG).\n▸ Ermäßigungshöchstbetrag: Anteil der geminderten tariflichen Steuer, der auf die gewerblichen Einkünfte entfällt: 80.000 / 100.000 × 25.000 € = 20.000 € (§ 35 Abs. 1 S. 2 EStG).\n▸ Ergebnis: 6.400 €.\n▸ Mitunternehmer: anteiliger Messbetrag nach dem allgemeinen Gewinnverteilungsschlüssel, Vorabgewinnanteile bleiben außer Betracht (§ 35 Abs. 2 S. 2 EStG).\n\nZum Schluss: § 35 Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 50b EStG",
-        "§ 50c EStG",
-        "§ 43b EStG",
-        "§ 50g EStG",
-        "DBA",
-        "DBA / § 43b / § 50g EStG",
-        "§ 50c Abs. 1 EStG",
-        "§ 50c Abs. 2 EStG",
-        "§ 50c Abs. 3 EStG",
-        "§ 50a EStG",
-        "Themenpool: istr-modul-istr-istr3-03"
+        "§ 35 Abs. 1 S. 1 Nr. 1, S. 2, 5 EStG",
+        "§ 35 Abs. 2 S. 1, 2 EStG"
       ],
-      "coverRegie": {
-        "thema": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b1-istr-modul-istr-istr3-03-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-16-b1",
+      "kurztitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-aufb-bil-melzer-12-05",
-      "slug": "2026-10-16-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Mini-Fall",
       "folien": [
         {
           "art": "titel",
-          "titel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Mini-Fall",
+          "text": "Mini-Fall · Wie viel GewSt · zurück? · § 35 Abs. 1 EStG · Rechne mit · + Markier-Guide § 35 EStG · Hebesatz · 320 % · Faktor 4?",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Garantie- und Gewährleistungspflichten führen nach § 249 Abs. 1 Satz 1 HGB zu einer Rückstellung für ungewisse Verbindlichkeiten, die über § 5 Abs. 1 Satz 1 EStG auch steuerlich anzusetzen ist.",
-            "Nach H 5.7 (5) EStH sind Einzelrückstellungen für bis zur Bilanzaufstellung bekannte Fälle und Pauschalrückstellungen auf Grundlage betrieblicher oder branchentypischer Erfahrungswerte möglich."
-          ]
+          "titel": "Gewerbesteuer",
+          "text": "Sachverhalt · Viktor betreibt allein eine Bäckerei. Messbetrag 2026: 2.000 €, Hebesatz 320 %. · Gewerbliche Einkünfte 80.000 €, Vermietung 20.000 €. · Tarifliche Einkommensteuer: 25.000 €. · Was bringt mir die Gewerbesteuer?"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Feststellen, ob vor dem Stichtag Leistungen erbracht wurden, für die eine rechtliche oder faktische Einstandspflicht besteht."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Bekannte Fälle einzeln erfassen, das übrige Risiko pauschal nach eigenen Erfahrungswerten schätzen (§ 6 Abs. 1 Nr. 3a Buchst. a EStG); abgelaufene Garantiezeit mindert die Pauschale."
-            }
-          ]
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Jetzt du · Um wie viel ermäßigt sich Viktors Einkommensteuer? · Tipp: Drei Beträge vergleichen, der niedrigste gewinnt. · Lösung: weiterwischen · 8.000 €?"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bekannte Garantiefälle einzeln, das restliche Risiko pauschal – bewertet nach den Erfahrungen deines Betriebs und gekürzt um bereits abgelaufene Garantiezeit."
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Lösung · § 35 Abs. 1 S. 1, 2, 5 EStG · 4 × Messbetrag · 8.000 € · Gezahlte GewSt (320 %) · 6.400 € · ESt-Anteil Gewerbe (80 %) · 20.000 € · Ermäßigung: der niedrigste · 6.400 € · 80 % = 80.000 € von 100.000 € Einkünften"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Faktor 4 blind ansetzen · Unter 400 % Hebesatz zahlt Viktor weniger als das Vierfache des Messbetrags. · Abgezogen wird höchstens die tatsächlich zu zahlende Gewerbesteuer. · § 35 Abs. 1 S. 5 EStG · Also nur 6.400 €!"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Bei Mitunternehmern · Messbetrag nach dem allgemeinen Gewinnverteilungsschlüssel aufteilen. · § 35 Abs. 2 S. 2 Hs. 1 EStG · Vorabgewinnanteile zählen dabei nicht. · § 35 Abs. 2 S. 2 Hs. 2 EStG · Messbetrag und GewSt werden gesondert und einheitlich festgestellt. · § 35 Abs. 2 S. 1 EStG · Nach Köpfen? Nein!"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Viktor: Ermäßigung 6.400 € · begrenzt durch die gezahlte Gewerbesteuer · Vierfacher Messbetrag, · höchstens die gezahlte · GewSt und der Anteil · der ESt. · Speichern für Klausur 2 · Was ändert sich bei 450 % Hebesatz? · Weiterwischen: § 35 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Grenze 1 · Faktor 4 · Grenze 2 · Mitunternehmer: § 35 Abs. 2 S. 2 EStG · Gewinnverteilungsschlüssel, ohne Vorabgewinne"
         }
-      ],
-      "caption": "Garantierückstellungen: Einzelrückstellung für bekannte Fälle, Pauschalrückstellung für das übrige Risiko, bewertet nach den Erfahrungen deines Betriebs (§ 249 Abs. 1 HGB, § 5 Abs. 1, § 6 Abs. 1 Nr. 3a EStG).",
+      ]
+    },
+    "b2": {
+      "format": "vergleich",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-glossar-0",
+      "caption": "Zivilrechtliches oder wirtschaftliches Eigentum: Wer bilanziert das Wirtschaftsgut?\n\n▸ Grundsatz: Zurechnung beim Eigentümer (§ 39 Abs. 1 AO; § 246 Abs. 1 S. 2 Hs. 1 HGB).\n▸ Ausnahme: Beherrscht ein anderer das Wirtschaftsgut tatsächlich und kann er den Eigentümer über die gesamte Nutzungsdauer wirtschaftlich außen vor halten, bilanziert er (§ 39 Abs. 2 Nr. 1 S. 1 AO; § 246 Abs. 1 S. 2 Hs. 2 HGB).\n▸ Gesetzliche Fälle: Treuhand → Treugeber, Sicherungseigentum → Sicherungsgeber, Eigenbesitz (z. B. Kauf unter Eigentumsvorbehalt) → Eigenbesitzer (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n▸ Beispiel: Maschine unter Eigentumsvorbehalt und sicherungsübereigneter Lkw – beide bilanziert die Unternehmerin.\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Garantierückstellungen: einzeln, pauschal und richtig…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 249 Abs. 1 HGB",
-        "§ 253 Abs. 1 HGB",
-        "§ 246 Abs. 2 HGB",
-        "§ 5 Abs. 3 EStG",
-        "§ 6a Abs. 1 EStG",
-        "§ 6a Abs. 3 EStG",
-        "§ 5 Abs. 4b EStG",
-        "§ 5 Abs. 1 EStG",
-        "§ 5 Abs. 6 EStG",
-        "§ 6 Abs. 1 EStG",
-        "§ 6 Abs. 1 Nr. 3a EStG",
-        "H 5.7 (5) EStH",
-        "Themenpool: bilanz-aufb-bil-melzer-12-05"
+        "§ 39 Abs. 1, 2 Nr. 1 AO",
+        "§ 246 Abs. 1 S. 2 HGB"
       ],
-      "coverRegie": {
-        "thema": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b2-bilanz-aufb-bil-melzer-12-05-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-16-b2",
+      "kurztitel": "Wirtschaftliches Eigentum",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Gegenüberstellung",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Gegenüberstellung",
+          "text": "Gegenüberstellung · Eigentümer oder · wirtschaftlich? · § 39 Abs. 2 Nr. 1 AO · Wer bilanziert? · + Markier-Guide § 39 AO",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Regel und Ausnahme · Eigentümer · Grundsatz: Ihm wird zugerechnet · § 39 Abs. 1 AO · Auch im HGB der Ausgangspunkt · § 246 Abs. 1 S. 2 HGB · Wirtschaftlich · Schließt den Eigentümer für die Nutzungsdauer aus · § 39 Abs. 2 Nr. 1 S. 1 AO · Dann bilanziert er · Und wer bilanziert?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die gesetzlichen Fälle · Treuhand: Der Treugeber bilanziert. · Sicherungseigentum: Der Sicherungsgeber bilanziert. · Eigenbesitz, etwa beim Kauf unter Eigentumsvorbehalt: Der Käufer bilanziert. · § 39 Abs. 2 Nr. 1 S. 2 AO · Formales Eigentum entscheidet nicht allein · Drei Klassiker!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Fall · Malin kauft für ihre Druckerei eine Maschine unter Eigentumsvorbehalt. · Ihren Lkw übereignet sie der Bank zur Sicherheit eines Kredits. · Jetzt du: Wer bilanziert Maschine und Lkw? · Gehört mir das noch?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung · Maschine · Eigentum: noch beim Verkäufer · Malin bilanziert als Eigenbesitzerin · § 39 Abs. 2 Nr. 1 S. 2 AO · Lkw · Eigentum: bei der Bank · Malin bilanziert als Sicherungsgeberin · § 39 Abs. 2 Nr. 1 S. 2 AO · Beides bei mir!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Bank bilanziert den Lkw? · Falsch: Die Bank ist zwar Eigentümerin, aber nur zur Sicherheit. · Malin nutzt, trägt Risiko und Kosten: wirtschaftliche Eigentümerin. · § 39 Abs. 2 Nr. 1 AO · Ebenso in der Handelsbilanz. · § 246 Abs. 1 S. 2 Hs. 2 HGB · Sicherheit ist kein Eigentum!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung: Malin bilanziert Maschine und Lkw · Eigenbesitz und Sicherungseigentum · Bilanziert wird, · wer wirtschaftlich · Herr über das · Wirtschaftsgut ist. · Speichern für Klausur 3 · Fällt dir ein weiterer Fall ein? · Weiterwischen: § 39 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Regel · Maßstab · Klassiker · Handelsbilanz: § 246 Abs. 1 S. 2 HGB · wirtschaftliche Zurechnung auch dort"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-369",
-      "slug": "2026-10-16-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
-          "unter": "Abgabenordnung",
-          "text": "Änderungsbescheid zu einem bestandskräftigen Bescheid: nur die Änderung ist angreifbar.",
-          "norm": "§ 351 Abs. 1 AO",
-          "icon": null,
-          "sprecher": "Ein bestandskräftiger Bescheid wird geändert, und du legst Einspruch ein. Wie weit reicht dein Angriff? § 351 Absatz 1 AO zieht die Grenze.",
-          "marken": [
-            "Einspruch gegen Änderungsbescheid",
-            "§ 351 Abs. 1 AO"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Ändert er einen unanfechtbaren Bescheid?",
-          "text": null,
-          "norm": "§ 351 Abs. 1 AO",
-          "icon": null,
-          "sprecher": "Zuerst klärst du, ob der geänderte Bescheid wirksam und schon unanfechtbar war. Nur dann greift die Sperre: Der neue Bescheid ist nur angreifbar, soweit die Änderung reicht.",
-          "marken": [
-            "Vorbescheid bestandskräftig?",
-            "Nur die Änderung angreifbar"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Fehler daneben: nur Saldierung (§ 177 AO)",
-          "text": null,
-          "norm": "§ 177 AO",
-          "icon": null,
-          "sprecher": "Andere Fehler zu deinen Gunsten bringst du nur über § 177 AO ein: Sie werden mit der Änderung verrechnet, höchstens bis zu deren Betrag. Mehr erreichst du nur, wenn eine eigene Korrekturnorm greift.",
-          "marken": [
-            "Saldieren nach § 177 AO",
-            "Obergrenze: Änderungsbetrag"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Wird ein bestandskräftiger Bescheid geändert, kann dein Einspruch höchstens die Änderung beseitigen. Mehr nur, wenn eine Korrekturvorschrift es erlaubt (§ 351 Abs. 1 AO).",
-          "sprecher": "Merke: Bei einem geänderten bestandskräftigen Bescheid ist die Änderung die Obergrenze deines Einspruchs. Darüber hinaus hilft nur eine eigene Korrekturnorm.",
-          "marken": [
-            "Änderung ist die Obergrenze"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Einspruch gegen einen Bescheid, der einen bestandskräftigen Bescheid ändert: Anfechtbar ist er nur, soweit die Änderung reicht (§ 351 Abs. 1 AO). Andere Fehler zu deinen Gunsten kannst du über § 177 AO bis zur Höhe der Änderung gegenrechnen.",
+      "themaId": "ao-aufb-ao-jacobs-7-5",
+      "caption": "Schlichter Änderungsantrag oder Einspruch? Die Frist rechnet für beide gleich, die Folgen sind verschieden. ⏰\n\n▸ Bekanntgabe bei Übermittlung im Inland per Post: am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO). Beispiel: Post am Mo 02.11.2026 → Fr 06.11.2026.\n▸ Einspruchsfrist: ein Monat nach Bekanntgabe (§ 355 Abs. 1 S. 1 AO) → So 06.12.2026, verschoben auf den nächsten Werktag (§ 108 Abs. 3 AO) → Mo 07.12.2026.\n▸ Schlichter Änderungsantrag: zugunsten des Steuerpflichtigen nur, soweit er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2a AO). Was bis dahin nicht konkret beantragt ist, bleibt bestandskräftig.\n▸ Einspruch: volle Überprüfung (§ 367 Abs. 2 S. 1 AO), Begründung und Erweiterung auch später möglich; unrichtige Bezeichnung schadet nicht (§ 357 Abs. 1 S. 3 AO).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 351 Abs. 1 AO",
-        "§ 177 Abs. 1 AO",
-        "§ 177 Abs. 2 AO",
-        "§ 177 AO",
-        "Korrekturformel",
-        "Themenpool: ao-modul-ao-369"
+        "§ 122 Abs. 2 Nr. 1 AO",
+        "§ 355 Abs. 1 S. 1 AO",
+        "§ 108 Abs. 3 AO",
+        "§ 172 Abs. 1 S. 1 Nr. 2a AO",
+        "§ 357 Abs. 1 S. 3 AO",
+        "§ 367 Abs. 2 S. 1 AO"
       ],
-      "coverRegie": {
-        "thema": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-16-b3-ao-modul-ao-369-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-16-b3",
+      "kurztitel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Antrag jetzt, Gründe später?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Frist"
+        },
+        {
+          "art": "schritt",
+          "titel": "Schlichter Antrag"
+        },
+        {
+          "art": "schritt",
+          "titel": "Einspruch"
+        }
+      ],
+      "sprecher": [
+        "Schlichter Änderungsantrag, Begründung kommt später? Reicht nicht. Was bis Fristende fehlt, ist verloren.",
+        "Bescheid zur Post am zweiten November. Vier Tage später, am sechsten, gilt er als bekannt gegeben. Ein Monat dazu: sechster Dezember, ein Sonntag. Also Montag, der siebte.",
+        "Bis dahin muss der Antrag sagen, was genau geändert werden soll. Danach wird der Rest bestandskräftig.",
+        "Beim Einspruch darfst du dagegen später begründen und erweitern.",
+        "Merke: Im Zweifel lieber Einspruch."
+      ],
+      "dauerS": 36.399,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-28",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-28"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "E-Rechnung 2027:",
+        "Papier noch erlaubt?",
+        "Ja, bei Vorjahresumsatz bis 800.000 €",
+        "Nein, für niemanden",
+        "Ja, für alle ohne Grenze",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Kannst du bei der Realteilung zwischen Buchwert und höherem Wert wählen?",
-      "titel": "Kannst du bei der Realteilung zwischen Buchwert und höherem Wert wählen?",
-      "optionen": [
-        "ja, mit Antrag",
-        "ja, formlos",
-        "nein, die Buchwerte sind zwingend"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-28",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-28"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "A: nur bis",
+        "800.000 € Umsatz",
+        "Ja, bei Vorjahresumsatz bis 800.000 €",
+        "Nein, für niemanden",
+        "Ja, für alle ohne Grenze",
+        "Für Umsätze 2027 gilt der Übergang nur noch für kleinere Aussteller; EDI hat eine eigene Regel.",
+        "§ 27 Abs. 38 Nr. 2, 3 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "nein, die Buchwerte sind zwingend",
-      "optionen": [
-        "ja, mit Antrag",
-        "ja, formlos",
-        "nein, die Buchwerte sind zwingend"
-      ],
-      "richtig": 2,
-      "text": "Die Buchwerte sind zwingend fortzuführen, soweit die Wirtschaftsgüter in ein Betriebsvermögen der Realteiler gelangen und die Besteuerung der stillen Reserven gesichert bleibt (§ 16 Abs. 3 S. 2 EStG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-323",
-      "quellen": [
-        "§ 350 AO",
-        "§ 358 AO",
-        "§ 351 Abs. 1 AO",
-        "§ 80 AO",
-        "§ 182 Abs. 1 S. 1 AO",
-        "Themenpool: ao-modul-ao-323"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-4",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Norm des Tages",
+        "Streubesitz:",
+        "wann 10 %?",
+        "§ 8b Abs. 4 KStG",
+        "Es zählt die Quote zu Jahresbeginn.",
+        "§ 8b Abs. 4 S. 1 KStG",
+        "Erwerb von 10 % oder mehr gilt als zu Beginn erfolgt.",
+        "§ 8b Abs. 4 S. 6 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 350 AO",
-      "titel": "Einspruchsbefugnis und Beschwer: § 350 AO",
-      "text": "Einspruch einlegen darf nur, wer geltend macht, durch den VA beschwert zu sein (§ 350 AO). Beim Steuerbescheid zählt die festgesetzte Steuer, nicht die Begründung. Ohne Beschwer: Verwerfung als unzulässig (§ 358 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-316",
-      "quellen": [
-        "§§ 347 ff. AO",
-        "§§ 172 ff. AO",
-        "Themenpool: ao-modul-ao-316"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Fristen",
+        "aufschreiben",
+        "Ereignis, Beginn, Ende: je eine Zeile.",
+        "Wochenende und Feiertag prüfen.",
+        "Norm daneben: Der Korrektor sieht jeden Schritt."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Fehlerhafter Verwaltungsakt: erst Einspruch, dann Korrekturnorm",
-      "text": "Läuft die Einspruchsfrist noch, führt der Einspruch zur vollen Überprüfung (§ 367 Abs. 2 AO). Erst nach Bestandskraft brauchst du eine Korrekturnorm wie §§ 129, 164 oder 172 ff. AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-8-14",
-      "quellen": [
-        "§ 367 Abs. 2 Sätze 1 und 2 AO",
-        "§ 351 Abs. 1 Halbsätze 1 und 2 AO",
-        "§ 362 Abs. 1 Sätze 1 und 2 AO",
-        "§ 357 Abs. 1 Satz 1 AO",
-        "§ 366 AO",
-        "§ 177 Abs. 1 AO",
-        "§ 129 AO",
-        "§§ 172ff AO",
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
-        "§ 173a AO",
-        "Themenpool: ao-aufb-ao-jacobs-8-14"
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Pauschal-WB:",
+        "die Basis",
+        "Forderungen netto, ohne Umsatzsteuer",
+        "§ 17 Abs. 2 Nr. 1 UStG",
+        "Ohne einzelwertberichtigte Forderungen",
+        "Ohne sichere Forderungen"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
-      "text": "Ändert der Bescheid einen bereits bestandskräftigen Bescheid, ist er nur so weit anfechtbar, wie die Änderung reicht (§ 351 Abs. 1 AO). Andere Fehler zu deinen Gunsten wirken nur noch über § 177 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "fehler",
+      "art": "merksatz",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-340",
-      "quellen": [
-        "§ 181 Abs. 1 S. 1 AO",
-        "§ 181 Abs. 5 S. 1 AO",
-        "§ 181 Abs. 5 S. 2 AO",
-        "§ 169 Abs. 1 S. 1 AO",
-        "§ 182 Abs. 1 S. 1 AO",
-        "AEAO zu § 179 Nr. 2",
-        "§ 181 Abs. 5 S. 1 und S. 2 AO",
-        "§ 181 Abs. 5 S. 1 und 2 AO",
-        "AEAO zu § 181 Nr. 1.1 und 1.2",
-        "BFH 15.07.2021 – II R 38/19",
-        "BFH 24.04.2024 – IV R 19/21",
-        "Themenpool: ao-modul-ao-340"
+      "themaId": "ao-aufb-ao-jacobs-7-7",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Neue Tatsache:",
+        "wessen Wissen?",
+        "Es zählt die",
+        "Veranlagungsstelle",
+        "samt Akteninhalt.",
+        "§ 173 Abs. 1 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "§ 181 Abs. 5 AO: Feststellung trotz abgelaufener Feststellungsfrist",
-      "falsch": "§ 181 Abs. 5 AO als eigenständige Korrekturvorschrift behandeln.",
-      "richtigText": "§ 181 Abs. 5 AO erlaubt die Feststellung nur, soweit die Festsetzungsfrist des Folgebescheids noch läuft. Für eine Änderung brauchst du zusätzlich eine Korrekturnorm.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "istr",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "§ 50c EStG: Freistellung und Erstattung bei begrenztem…",
-      "text": "§ 50c EStG: Freistellung und Erstattung bei begrenztem Steuerabzug",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Neu im Feed",
+        "Wie viel GewSt zurück?",
+        "Mini-Fall + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -631,26 +496,21 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Garantierückstellungen: einzeln, pauschal und richtig…",
-      "text": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Wer bilanziert?",
+        "A oder B? + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
@@ -658,41 +518,34 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Besonderheiten im Einspruchsverfahren: Anfechtungsbeschränkung nach § 351 Abs. 1 AO",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Antrag jetzt, Gründe später?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:43:48.838Z",
+    "erzeugtAm": "2026-10-03T04:37:08Z",
     "pfad": "vorproduktion/2026-10-16/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -704,5 +557,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
