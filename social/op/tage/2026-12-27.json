@@ -5,18 +5,18 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 2,
-   "fach": "gewst",
-   "fachLabel": "Gewerbesteuer",
-   "themaId": "wochenrueckblick-k2-2026-52",
-   "themaTitel": "Klausur 2 kompakt: fünf Themen der Weihnachtswoche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-52",
+   "themaTitel": "Alle Klausuren: sieben Themen der Weihnachtswoche",
    "figuren": {
     "A": {
      "name": "Lasse",
      "kopf": "Medium 1",
      "haut": "#8D5A3B",
      "haar": "#1E1E24",
-     "oberteil": "#C9B8F2",
+     "oberteil": "#F28C8C",
      "bueste": "Button Shirt 2"
     },
     "B": {
@@ -35,11 +35,11 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 2",
-      "kompakt"
+      "Alle 3",
+      "Klausuren"
      ],
-     "unter": "5 Themen",
-     "teaser": "+ Markier-Guide § 23 + R 10a.3",
+     "unter": "7 Themen",
+     "teaser": "+ Markier-Guide § 10a + R 10a.3",
      "motiv": {
       "typ": "kalender",
       "monat": "DEZEMBER",
@@ -50,225 +50,183 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Gewerbeverlust",
-       "§ 10a GewStG",
-       ""
+       "Klausur 1 · Abgabenordnung",
+       "§ 170 Abs. 2, § 196 AO",
+       "Anlaufhemmung, Prüfungsanordnung"
       ],
       [
-       "Ab ins Ausland",
-       "§ 12 AO, § 4 Abs. 1 S. 3 EStG",
-       ""
+       "Klausur 2 · GewSt und ESt",
+       "§ 10a GewStG · § 4 Abs. 5 EStG",
+       "Gewerbeverlust, Homeoffice"
       ],
       [
-       "Homeoffice-Pauschale",
-       "§ 4 Abs. 5 S. 1 Nr. 6c EStG",
-       ""
-      ],
-      [
-       "Private Veräußerung",
-       "§ 23 EStG",
-       ""
-      ],
-      [
-       "Spenden der GmbH",
-       "§ 9 Abs. 1 Nr. 2 KStG",
-       ""
+       "Klausur 3 · UmwSt und Bilanz",
+       "§ 22 Abs. 3 UmwStG · § 6 EStG",
+       "Nachweisfrist, Sanierung"
       ]
      ],
-     "teaser": "Am Ende: § 23 EStG + R 10a.3 markiert"
+     "teaser": "Am Ende: § 10a + R 10a.3 markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Gewerbeverlust",
+     "titel": "Klausur 1 · Abgabenordnung",
      "punkte": [
       [
-       "Bei der Personengesellschaft gehört der Verlust den einzelnen Mitunternehmern.",
-       "ok",
-       "Regular",
-       "R 10a.3 Abs. 3 S. 1 GewStR"
-      ],
-      [
-       "Wer ausscheidet, nimmt seinen Anteil mit: Er geht unter.",
-       "nein",
-       "Bold",
-       "R 10a.3 Abs. 3 S. 9 GewStR"
-      ]
-     ],
-     "figur": "A:redet",
-     "x": 790,
-     "blase": "Ich bin Lasse."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "2 · Ab ins Ausland",
-     "punkte": [
-      [
-       "Baustelle: national ab mehr als 6 Monaten, im Abkommen erst über 12 Monate.",
-       "ok",
-       "Regular",
-       "§ 12 S. 2 Nr. 8 AO, Art. 5 Abs. 3 OECD-MA"
-      ],
-      [
-       "Maschine in die Auslandsbetriebsstätte: Entnahme zum gemeinen Wert.",
+       "Erklärungspflicht: Frist beginnt erst mit Ablauf des Abgabejahres, spätestens nach drei Jahren.",
        "warn",
        "Bold",
-       "§ 4 Abs. 1 S. 3, 4 EStG"
+       "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+      ],
+      [
+       "Prüfungsanordnung ist Verwaltungsakt: Einspruch statthaft.",
+       "ok",
+       "Regular",
+       "§§ 118, 196, 347 Abs. 1 AO"
       ]
      ],
      "figur": "B:denkt",
      "x": 290,
-     "blase": "Ich bin Smilla. Zwei Begriffe?"
+     "blase": "Wann abgegeben?"
     },
     {
      "typ": "inhalt",
-     "titel": "3 · Homeoffice",
+     "titel": "Klausur 2 · GewSt und ESt",
      "punkte": [
       [
-       "Ohne Mittelpunkt: 6 € je Tag, höchstens 1.260 € im Jahr.",
+       "Gewerbeverlust: über 1 Mio. € nur zu 60 % abziehbar.",
+       "warn",
+       "Bold",
+       "§ 10a S. 1, 2 GewStG"
+      ],
+      [
+       "Scheidet ein Mitunternehmer aus, geht sein Verlustanteil unter.",
+       "nein",
+       "Regular",
+       "R 10a.3 Abs. 3 S. 9 GewStR"
+      ],
+      [
+       "Homeoffice: 6 € je Tag, höchstens 1.260 € im Jahr.",
        "ok",
        "Regular",
        "§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG"
-      ],
-      [
-       "Tag mit Büro: nur ohne anderen Arbeitsplatz.",
-       "warn",
-       "Bold",
-       "§ 4 Abs. 5 S. 1 Nr. 6c S. 2 EStG"
       ]
      ],
-     "figur": "A:erklaert",
+     "figur": "A:redet",
      "x": 790,
-     "blase": "Deckel beachten."
+     "blase": "Nicht 70 %!"
     },
     {
      "typ": "inhalt",
-     "titel": "4 · Private Veräußerung",
+     "titel": "Klausur 3 · UmwSt und Bilanz",
      "punkte": [
       [
-       "Grundstück innerhalb von zehn Jahren verkauft: steuerpflichtig.",
-       "ok",
-       "Regular",
-       "§ 23 Abs. 1 S. 1 Nr. 1 EStG"
-      ],
-      [
-       "Abgezogene Abschreibung mindert die Anschaffungskosten und erhöht den Gewinn.",
-       "warn",
-       "Bold",
-       "§ 23 Abs. 3 S. 4 EStG"
-      ]
-     ],
-     "figur": "B:staunt",
-     "x": 290,
-     "blase": "Mehr Gewinn!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Spenden der GmbH",
-     "punkte": [
-      [
-       "Abzug bis 20 % des Einkommens vor Spenden und vor Verlustabzug.",
-       "ok",
-       "Regular",
-       "§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG"
-      ],
-      [
-       "Körperschaftsteuer und Hälfte Aufsichtsrat zurückrechnen.",
+       "Nachweis der Anteilszurechnung bis 31.05. vergessen: Anteile gelten als veräußert.",
        "nein",
        "Bold",
-       "§ 10 Nr. 2, 4 KStG"
+       "§ 22 Abs. 3 S. 1, 2 UmwStG"
+      ],
+      [
+       "Sanierung binnen drei Jahren über 15 % netto: anschaffungsnahe Herstellungskosten.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 1a S. 1 EStG"
       ]
      ],
-     "extra": [
-      "Überhang wird vorgetragen",
-      "GELB",
-      null
-     ],
-     "figur": "A:froh",
-     "x": 790,
-     "blase": "Basis zuerst."
+     "figur": "B:sorge",
+     "x": 290,
+     "blase": "Frist verpasst?"
     },
     {
      "typ": "merke",
      "oben": [
-      "Fünf Themen aus Klausur 2",
-      "GewSt, IStR, ESt, KSt in einer Woche",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Verlust",
+        "Abgabe",
         "a"
        ],
        [
-        " je Kopf,",
+        " startet die Frist,",
         null
        ]
       ],
       [
        [
-        "Ausland",
+        "60 %",
         "b"
        ],
        [
-        ": zwei Begriffe,",
+        " beim Gewerbeverlust,",
         null
        ]
       ],
       [
        [
-        "Abschreibung",
+        "31.05.",
         "c"
        ],
        [
-        " erhöht Gewinn,",
+        " nachweisen,",
         null
        ]
       ],
       [
        [
-        "Spenden",
+        "15 %",
         "d"
        ],
        [
-        " bis 20 %.",
+        " netto prüfen.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 2",
-     "frage": "Was wiederholst du heute?",
-     "teaser": "Weiterwischen: § 23 + R 10a.3 markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 10a + R 10a.3 markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 23 Abs. 3 EStG (Auszug)",
+     "kopf": "§ 10a GewStG (Auszug)",
      "absaetze": [
       [
        "S. 1",
        [
         [
-         "Gewinn oder Verlust aus Veräußerungsgeschäften nach Absatz 1 ist der Unterschied zwischen",
+         "Der maßgebende Gewerbeertrag wird",
          null
         ],
         [
-         "Veräußerungspreis",
+         "bis zu einem Betrag in Höhe von 1 Million Euro",
          "g1"
         ],
         [
-         "einerseits und den",
+         "um die Fehlbeträge gekürzt, die sich […] für die vorangegangenen Erhebungszeiträume […] ergeben haben, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Der 1 Million Euro übersteigende maßgebende Gewerbeertrag ist",
          null
         ],
         [
-         "Anschaffungs- oder Herstellungskosten und den Werbungskosten",
-         "b1"
+         "bis zu 60 Prozent",
+         "r1"
         ],
         [
-         "andererseits.",
+         "um nach Satz 1 nicht berücksichtigte Fehlbeträge der vorangegangenen Erhebungszeiträume zu kürzen.",
          null
         ]
        ]
@@ -277,15 +235,23 @@
        "S. 4",
        [
         [
-         "Die Anschaffungs- oder Herstellungskosten",
+         "Bei einer Mitunternehmerschaft ist der sich für die Mitunternehmerschaft insgesamt ergebende Fehlbetrag",
          null
         ],
         [
-         "mindern sich um Absetzungen für Abnutzung,",
-         "r1"
+         "den Mitunternehmern",
+         "b1"
         ],
         [
-         "erhöhte Absetzungen und Sonderabschreibungen, soweit sie bei der Ermittlung der Einkünfte im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7 abgezogen worden sind.",
+         "entsprechend dem sich aus dem Gesellschaftsvertrag ergebenden",
+         null
+        ],
+        [
+         "allgemeinen Gewinnverteilungsschlüssel",
+         "gr1"
+        ],
+        [
+         "zuzurechnen; Vorabgewinnanteile sind nicht zu berücksichtigen.",
          null
         ]
        ]
@@ -293,21 +259,25 @@
      ],
      "notizen": [
       [
-       "Preis",
+       "Sockel",
        "g1"
       ],
       [
-       "Kosten",
+       "nicht 70 %!",
+       "r1"
+      ],
+      [
+       "je Mitunternehmer",
        "b1"
       ],
       [
-       "AfA zurück!",
-       "r1"
+       "Schlüssel",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Randnotiz: § 23 Abs. 3 S. 5 EStG",
-      "Gewinne unter 1.000 € im Jahr bleiben frei"
+      "Einkommensteuer: über 1 Mio. € 70 %",
+      "Gewerbesteuer: nur 60 %"
      ]
     },
     {
@@ -383,24 +353,22 @@
      ]
     }
    ],
-   "caption": "Klausur 2 kompakt: fünf Themen aus der Weihnachtswoche zum Wiederholen.\n\n1. Gewerbeverlust: Träger des Verlustabzugs ist der einzelne Mitunternehmer; Aufteilung und Abzug nach dem allgemeinen Gewinnverteilungsschlüssel (R 10a.3 Abs. 3 S. 1 GewStR; § 10a S. 4, 5 GewStG); wer ausscheidet, verliert seinen Anteil (R 10a.3 Abs. 3 S. 9 GewStR).\n2. Ausland: Bauausführungen sind national ab mehr als sechs Monaten Betriebsstätte (§ 12 S. 2 Nr. 8 AO), nach dem Musterabkommen erst ab mehr als zwölf Monaten (Art. 5 Abs. 3 OECD-MA). Überführung in eine ausländische Betriebsstätte gilt als Entnahme zum gemeinen Wert (§ 4 Abs. 1 S. 3, 4, § 6 Abs. 1 Nr. 4 S. 1 EStG).\n3. Homeoffice: 6 € je Tag, höchstens 1.260 € (§ 4 Abs. 5 S. 1 Nr. 6c EStG).\n4. Private Veräußerung: Grundstücke binnen zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG); Freigrenze 1.000 € (§ 23 Abs. 3 S. 5 EStG).\n5. Spenden der GmbH: bis 20 % des Einkommens vor Spenden- und Verlustabzug, Überhang wird vorgetragen (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG); nicht abziehbar sind Steuern vom Einkommen und die Hälfte der Aufsichtsratsvergütung (§ 10 Nr. 2, 4 KStG).\n\nZum Schluss: § 23 Abs. 3 EStG und R 10a.3 Abs. 3 GewStR zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Wochenrückblick KW 52: je Klausur die Themen der Weihnachtswoche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Besteht eine Erklärungspflicht, beginnt die Festsetzungsfrist erst mit Ablauf des Jahres der Abgabe, spätestens mit Ablauf des dritten Jahres nach Entstehung der Steuer (§ 170 Abs. 2 S. 1 Nr. 1 AO); vier Jahre Dauer (§ 169 Abs. 2 S. 1 Nr. 2 AO).\n2. Die Prüfungsanordnung regelt den Umfang der Außenprüfung und ist ein Verwaltungsakt (§§ 118, 196 AO); gegen sie ist der Einspruch statthaft (§ 347 Abs. 1 AO).\n\nKlausur 2 (Ertragsteuern)\n3. Gewerbeverlust: bis 1 Mio. € voll, darüber nur bis 60 % des Gewerbeertrags abziehbar (§ 10a S. 1, 2 GewStG); bei Mitunternehmerschaften nach dem allgemeinen Gewinnverteilungsschlüssel zugerechnet (§ 10a S. 4 GewStG).\n4. Scheidet ein Mitunternehmer aus, entfällt der auf ihn entfallende Verlustabzug (R 10a.3 Abs. 3 S. 9 GewStR).\n5. Tagespauschale: 6 € je Tag mit überwiegender Tätigkeit zu Hause, höchstens 1.260 € im Jahr (§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n6. Sieben Jahre lang muss der Einbringende jährlich bis 31.05. nachweisen, wem die Anteile zuzurechnen sind; sonst gelten sie als veräußert, der Einbringungsgewinn I entsteht (§ 22 Abs. 3 S. 1, 2, Abs. 1 UmwStG).\n7. Instandsetzung und Modernisierung innerhalb von drei Jahren nach Anschaffung, die ohne Umsatzsteuer 15 % der Gebäude-Anschaffungskosten übersteigen, sind Herstellungskosten (§ 6 Abs. 1 Nr. 1a S. 1 EStG).\n\nZum Schluss: § 10a GewStG und R 10a.3 Abs. 3 GewStR zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#gewerbesteuer"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 10a GewStG",
+    "§ 170 Abs. 2 S. 1 Nr. 1 AO",
+    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+    "§§ 118, 196, 347 Abs. 1 AO",
+    "§ 10a S. 1, 2, 4 GewStG",
     "R 10a.3 Abs. 3 GewStR",
-    "§ 12 S. 2 Nr. 8 AO",
-    "Art. 5 Abs. 3 OECD-MA",
-    "§ 4 Abs. 1 S. 3, 4 EStG",
-    "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
-    "§ 4 Abs. 5 S. 1 Nr. 6c EStG",
-    "§ 23 Abs. 1 S. 1 Nr. 1, Abs. 3 S. 4, 5 EStG",
-    "§ 9 Abs. 1 Nr. 2, Abs. 2 KStG",
-    "§ 10 Nr. 2, 4 KStG"
+    "§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG",
+    "§ 22 Abs. 1, 3 UmwStG",
+    "§ 6 Abs. 1 Nr. 1a S. 1 EStG"
    ]
   },
   {
@@ -603,7 +571,7 @@
      "extra": [
       "Danach 5 Jahre kein Verkauf an Fremde",
       "GELB",
-      "§ 15 Abs. 2 S. 2–4 UmwStG"
+      "§ 15 Abs. 2 S. 2–5 UmwStG"
      ],
      "figur": "B:froh",
      "x": 290,
@@ -716,7 +684,7 @@
      ],
      "randnotiz": [
       "Danach 5 Jahre kein Verkauf an Fremde",
-      "§ 15 Abs. 2 S. 2–4 UmwStG"
+      "§ 15 Abs. 2 S. 2–5 UmwStG"
      ]
     },
     {
@@ -804,7 +772,7 @@
      ]
     }
    ],
-   "caption": "Aufspaltung zur Trennung von Gesellschafterstämmen: Wann geht der Buchwert verloren? Eine Prüfungsfrage für Klausur 3.\n\n▸ Grundvoraussetzung: Auf jede Übernehmerin geht ein Teilbetrieb über (§ 15 Abs. 1 S. 2 UmwStG); dann ist der Buchwertansatz nach § 11 Abs. 2 UmwStG möglich.\n▸ Trennung von Gesellschafterstämmen: Nach der Aufspaltung sind nicht mehr alle Anteilsinhaber an allen übernehmenden Körperschaften beteiligt (BMF vom 02.01.2025, UmwStE Rn. 15.37).\n▸ Dann müssen die Beteiligungen an der übertragenden Körperschaft mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag bestanden haben (§ 15 Abs. 2 S. 8 UmwStG); Änderungen der Beteiligungshöhe sind unschädlich (Rn. 15.36). Besteht die übertragende Körperschaft noch keine fünf Jahre, ist eine steuerneutrale Trennung grundsätzlich nicht möglich (Rn. 15.38).\n▸ Fehlt der Vorbesitz, gilt der gemeine Wert (§ 11 Abs. 1 UmwStG).\n▸ Daneben: keine Veräußerung an außenstehende Personen innerhalb von fünf Jahren (§ 15 Abs. 2 S. 2–4 UmwStG).\n\nLösung: Rasmus seit März 2023 beteiligt, also kein Buchwert. Variante seit 2019: Buchwert möglich.\n\nZum Schluss: § 15 UmwStG und UmwStE Rn. 15.36–15.38 zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Aufspaltung zur Trennung von Gesellschafterstämmen: Wann geht der Buchwert verloren? Eine Prüfungsfrage für Klausur 3.\n\n▸ Grundvoraussetzung: Auf jede Übernehmerin geht ein Teilbetrieb über (§ 15 Abs. 1 S. 2 UmwStG); dann ist der Buchwertansatz nach § 11 Abs. 2 UmwStG möglich.\n▸ Trennung von Gesellschafterstämmen: Nach der Aufspaltung sind nicht mehr alle Anteilsinhaber an allen übernehmenden Körperschaften beteiligt (BMF vom 02.01.2025, UmwStE Rn. 15.37).\n▸ Dann müssen die Beteiligungen an der übertragenden Körperschaft mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag bestanden haben (§ 15 Abs. 2 S. 8 UmwStG); Änderungen der Beteiligungshöhe sind unschädlich (Rn. 15.36). Besteht die übertragende Körperschaft noch keine fünf Jahre, ist eine steuerneutrale Trennung grundsätzlich nicht möglich (Rn. 15.38).\n▸ Fehlt der Vorbesitz, gilt der gemeine Wert (§ 11 Abs. 1 UmwStG).\n▸ Daneben: Die Spaltung darf keine Veräußerung an außenstehende Personen vollziehen oder vorbereiten; werden innerhalb von fünf Jahren Anteile von mehr als 20 % des Werts an Außenstehende veräußert, wird das unwiderlegbar vermutet (§ 15 Abs. 2 S. 2–5 UmwStG).\n\nLösung: Rasmus seit März 2023 beteiligt, also kein Buchwert. Variante seit 2019: Buchwert möglich.\n\nZum Schluss: § 15 UmwStG und UmwStE Rn. 15.36–15.38 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -812,7 +780,7 @@
     "#umwandlungssteuerrecht"
    ],
    "quellen": [
-    "§ 15 Abs. 1 S. 1, 2, Abs. 2 S. 2–4, 8 UmwStG",
+    "§ 15 Abs. 1 S. 1, 2, Abs. 2 S. 2–5, 8 UmwStG",
     "§ 11 Abs. 1, 2 UmwStG",
     "BMF vom 02.01.2025 (UmwStE), Rn. 15.36–15.38"
    ]
@@ -1075,10 +1043,9 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 2,
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 2 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
