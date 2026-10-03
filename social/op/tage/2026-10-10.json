@@ -310,7 +310,7 @@
      ],
      "norm": "§ 20 Abs. 1 UmwStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 20 UmwStG",
+     "teaser": "+ Markier-Guide § 20 + UmwStE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -358,7 +358,7 @@
        "für die neuen Anteile"
       ]
      ],
-     "teaser": "Am Ende: § 20 UmwStG markiert"
+     "teaser": "Am Ende: § 20 + UmwStE markiert"
     },
     {
      "typ": "inhalt",
@@ -473,7 +473,7 @@
        "Behält Svea die Halle zurück, fehlt eine funktional wesentliche Betriebsgrundlage.",
        "nein",
        "Bold",
-       "UmwStE vom 02.01.2025, Rn. 20.06"
+       "UmwStE vom 02.01.2025, Rn. 20.06, 20.10"
       ],
       [
        "Dann liegt kein begünstigter Mitunternehmeranteil vor: kein Buchwertantrag.",
@@ -485,7 +485,7 @@
        "Beim Teilanteil muss das wesentliche Sonderbetriebsvermögen mindestens quotal mit.",
        "warn",
        "Regular",
-       null
+       "UmwStE Rn. 20.11"
       ]
      ],
      "figur": "A:sorge",
@@ -543,18 +543,18 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Halle vergessen?",
-     "teaser": "Weiterwischen: § 20 UmwStG markiert"
+     "teaser": "Weiterwischen: § 20 + UmwStE markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 20 UmwStG (Auszug)",
      "absaetze": [
       [
        1,
        [
         [
-         "Wird ein Betrieb oder Teilbetrieb oder ein",
+         "Wird […] ein",
          null
         ],
         [
@@ -562,7 +562,7 @@
          "g1"
         ],
         [
-         "in eine Kapitalgesellschaft oder eine Genossenschaft (übernehmende Gesellschaft) eingebracht und erhält der Einbringende dafür neue Anteile an der Gesellschaft (Sacheinlage), […]",
+         "in eine Kapitalgesellschaft […] eingebracht […] (Sacheinlage), […]",
          null
         ]
        ]
@@ -579,7 +579,7 @@
          "b1"
         ],
         [
-         "oder einem höheren Wert […] angesetzt werden, […]",
+         "[…] angesetzt werden, […]",
          null
         ]
        ]
@@ -615,10 +615,79 @@
      "randnotiz": [
       "Antragsfrist: § 20 Abs. 2 S. 3 UmwStG",
       "bis zur ersten steuerlichen Schlussbilanz"
-     ]
+     ],
+     "zweite": {
+      "kopf": "UmwStE vom 02.01.2025 (Auszug)",
+      "absaetze": [
+       [
+        "Rn. 20.06",
+        [
+         [
+          "[…] Die Einbringung eines Betriebs […] liegt nur vor, wenn",
+          null
+         ],
+         [
+          "sämtliche Wirtschaftsgüter, die zu den funktional wesentlichen Betriebsgrundlagen",
+          "g2"
+         ],
+         [
+          "[…] gehören, […] übertragen werden; […]",
+          null
+         ],
+         [
+          "Es genügt nicht,",
+          "r2"
+         ],
+         [
+          "der Kapitalgesellschaft diese Wirtschaftsgüter nur zur Nutzung zu überlassen. Dies gilt auch für solche […] Wirtschaftsgüter, die zum",
+          null
+         ],
+         [
+          "Sonderbetriebsvermögen",
+          "b2"
+         ],
+         [
+          "eines Gesellschafters gehören. […]",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 20.10",
+        [
+         [
+          "Die Grundsätze […] gelten",
+          null
+         ],
+         [
+          "sinngemäß auch für die Einbringung von Mitunternehmeranteilen.",
+          "gr2"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "alle wesentlichen",
+        "g2"
+       ],
+       [
+        "Vermieten reicht nicht",
+        "r2"
+       ],
+       [
+        "Halle!",
+        "b2"
+       ],
+       [
+        "auch KG-Anteil",
+        "gr2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein? Der Rechenweg nach § 20 UmwStG.\n\n▸ Einbringungsgegenstand ist der Mitunternehmeranteil gegen neue Anteile (§ 20 Abs. 1 UmwStG). Dazu gehört das Sonderbetriebsvermögen; funktional wesentliches Sonderbetriebsvermögen muss mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06).\n▸ Grundsätzlich gemeiner Wert (§ 20 Abs. 2 S. 1 UmwStG); auf Antrag der übernehmenden Gesellschaft Buchwert oder Zwischenwert, wenn die Voraussetzungen des § 20 Abs. 2 S. 2 Nr. 1–4 UmwStG erfüllt sind. Der Antrag muss beim Finanzamt der GmbH eingehen, bevor sie ihre erste steuerliche Schlussbilanz abgibt (§ 20 Abs. 2 S. 3 UmwStG).\n▸ Der Wert, den die GmbH ansetzt, ist für die Einbringende zugleich Veräußerungspreis und Anschaffungskosten ihrer neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG).\n▸ Beispiel: Kapitalkonto 300.000 € + Halle im Sonderbetriebsvermögen 200.000 € = Buchwert 500.000 €; Einbringungsgewinn 0 €, Anschaffungskosten der GmbH-Anteile 500.000 €.\n\nSpeichern für Klausur 3 📌",
+   "caption": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein? Der Rechenweg nach § 20 UmwStG.\n\n▸ Einbringungsgegenstand ist der Mitunternehmeranteil gegen neue Anteile (§ 20 Abs. 1 UmwStG). Dazu gehört das Sonderbetriebsvermögen; funktional wesentliches Sonderbetriebsvermögen muss mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06, 20.10). Bei einem Teil des Anteils muss das funktional wesentliche Sonderbetriebsvermögen mindestens im selben Verhältnis mit übergehen (UmwStE Rn. 20.11).\n▸ Grundsätzlich gemeiner Wert (§ 20 Abs. 2 S. 1 UmwStG); auf Antrag der übernehmenden Gesellschaft Buchwert oder Zwischenwert, wenn die Voraussetzungen des § 20 Abs. 2 S. 2 Nr. 1–4 UmwStG erfüllt sind. Der Antrag muss beim Finanzamt der GmbH eingehen, bevor sie ihre erste steuerliche Schlussbilanz abgibt (§ 20 Abs. 2 S. 3 UmwStG).\n▸ Der Wert, den die GmbH ansetzt, ist für die Einbringende zugleich Veräußerungspreis und Anschaffungskosten ihrer neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG).\n▸ Beispiel: Kapitalkonto 300.000 € + Halle im Sonderbetriebsvermögen 200.000 € = Buchwert 500.000 €; Einbringungsgewinn 0 €, Anschaffungskosten der GmbH-Anteile 500.000 €.\n\nZum Schluss: § 20 UmwStG und UmwStE Rn. 20.06, 20.10 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -627,7 +696,7 @@
    ],
    "quellen": [
     "§ 20 Abs. 1, 2, 3 UmwStG",
-    "UmwStE vom 02.01.2025, Rn. 20.06"
+    "UmwStE vom 02.01.2025, Rn. 20.06, 20.10, 20.11"
    ]
   },
   {

@@ -430,7 +430,7 @@
      ],
      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
      "unter": "Sonder-BV?",
-     "teaser": "+ Markier-Guide § 15 EStG",
+     "teaser": "+ Markier-Guide § 15 + R 4.2",
      "motiv": {
       "typ": "icon",
       "name": "tabler:building-warehouse",
@@ -657,12 +657,12 @@
       ]
      ],
      "speichern": "Speichern für Klausur 3",
-     "frage": "Und wenn die Halle seiner Frau gehört?",
-     "teaser": "Weiterwischen: § 15 EStG markiert"
+     "frage": "Und gehört die Halle seiner Frau?",
+     "teaser": "Weiterwischen: § 15 + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Richtlinie markieren",
      "kopf": "§§ 15, 7 EStG (Auszug)",
      "absaetze": [
       [
@@ -677,7 +677,7 @@
          "g1"
         ],
         [
-         "für seine Tätigkeit im Dienst der Gesellschaft oder für die Hingabe von Darlehen oder",
+         "[…]",
          null
         ],
         [
@@ -694,7 +694,7 @@
        "§ 7 (1) 5",
        [
         [
-         "Bei Wirtschaftsgütern, die nach einer Verwendung zur Erzielung von Einkünften im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7 in ein Betriebsvermögen eingelegt worden sind,",
+         "Bei Wirtschaftsgütern, die nach einer Verwendung zur Erzielung von Einkünften […] in ein Betriebsvermögen eingelegt worden sind,",
          null
         ],
         [
@@ -737,10 +737,50 @@
      "randnotiz": [
       "Für Gebäude: § 7 Abs. 4 S. 1 Hs. 2 EStG",
       "„Absatz 1 Satz 5 gilt entsprechend“"
-     ]
+     ],
+     "zweite": {
+      "kopf": "R 4.2 EStR (Auszug)",
+      "absaetze": [
+       [
+        "Abs. 2 S. 2",
+        [
+         [
+          "Wirtschaftsgüter, die einem, mehreren oder allen Mitunternehmern gehören und die nicht Gesamthandsvermögen […] sind, gehören zum",
+          null
+         ],
+         [
+          "notwendigen Betriebsvermögen,",
+          "g2"
+         ],
+         [
+          "wenn sie entweder",
+          null
+         ],
+         [
+          "unmittelbar dem Betrieb der Personengesellschaft dienen (Sonderbetriebsvermögen I)",
+          "b2"
+         ],
+         [
+          "oder […] (Sonderbetriebsvermögen II).",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "kein Wahlrecht",
+        "g2"
+       ],
+       [
+        "Halle an die KG",
+        "b2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 und § 7 Abs. 1 S. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2, § 7 Abs. 1 S. 5 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

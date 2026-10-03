@@ -38,7 +38,7 @@
       "kompakt"
      ],
      "unter": "5 Dauerbrenner",
-     "teaser": "+ Markier-Guide § 8 KStG",
+     "teaser": "+ Markier-Guide § 8 + R 8.5",
      "motiv": {
       "typ": "kalender",
       "monat": "OKTOBER",
@@ -77,7 +77,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 8 KStG markiert"
+     "teaser": "Am Ende: § 8 KStG + R 8.5 markiert"
     },
     {
      "typ": "inhalt",
@@ -264,18 +264,18 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welcher Punkt wackelt noch?",
-     "teaser": "Weiterwischen: § 8 KStG markiert"
+     "teaser": "Weiterwischen: § 8 KStG + R 8.5 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Richtlinie markieren",
      "kopf": "§ 8 KStG Ermittlung des Einkommens (Auszug)",
      "absaetze": [
       [
        3,
        [
         [
-         "Für die Ermittlung des Einkommens ist es ohne Bedeutung, ob das Einkommen verteilt wird. Auch",
+         "[…] Auch",
          null
         ],
         [
@@ -283,7 +283,7 @@
          "g1"
         ],
         [
-         "sowie Ausschüttungen jeder Art auf Genussrechte, mit denen das Recht auf Beteiligung am Gewinn und am Liquidationserlös der Kapitalgesellschaft verbunden ist,",
+         "sowie Ausschüttungen jeder Art auf Genussrechte […]",
          null
         ],
         [
@@ -316,12 +316,60 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: R 8.5 KStR",
-      "Was eine vGA ist, steht in der Richtlinie"
-     ]
+      "Beim Gesellschafter: § 20 Abs. 1 Nr. 1 S. 2 EStG",
+      "Die vGA ist dort Kapitalertrag"
+     ],
+     "zweite": {
+      "kopf": "R 8.5 KStR (Auszug)",
+      "absaetze": [
+       [
+        "Abs. 1 S. 1",
+        [
+         [
+          "Eine vGA […] ist eine",
+          null
+         ],
+         [
+          "Vermögensminderung oder verhinderte Vermögensmehrung,",
+          "g2"
+         ],
+         [
+          "die",
+          null
+         ],
+         [
+          "durch das Gesellschaftsverhältnis veranlasst",
+          "b2"
+         ],
+         [
+          "ist, sich auf die Höhe des Unterschiedsbetrags […] auswirkt und",
+          null
+         ],
+         [
+          "nicht auf einem […] Gewinnverteilungsbeschluss beruht.",
+          "r2"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Minderung",
+        "g2"
+       ],
+       [
+        "Auslöser",
+        "b2"
+       ],
+       [
+        "keine offene Ausschüttung",
+        "r2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Tag 2 kompakt: fünf Dauerbrenner der Woche für die Ertragsteuer-Klausur.\n\n1. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n2. Gewerbesteuer: abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, 3,5 % Messzahl, Hebesatz (§ 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG).\n3. Verdeckte Gewinnausschüttung: Sie mindert das Einkommen der GmbH nicht (§ 8 Abs. 3 S. 2 KStG; Begriff R 8.5 Abs. 1 KStR).\n4. Wegzug mit Anteilen im Sinne des § 17 EStG: Besteuerung wie bei einer Veräußerung, wenn 7 der letzten 12 Jahre unbeschränkte Steuerpflicht bestand; auf Antrag sieben Jahresraten (§ 6 Abs. 1, 2, 4 AStG).\n5. Anrechnung ausländischer Steuer nur bis zur deutschen Steuer auf die Einkünfte aus diesem Staat (§ 34c Abs. 1 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Tag 2 kompakt: fünf Dauerbrenner der Woche für die Ertragsteuer-Klausur.\n\n1. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n2. Gewerbesteuer: abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, 3,5 % Messzahl, Hebesatz (§ 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG).\n3. Verdeckte Gewinnausschüttung: Sie mindert das Einkommen der GmbH nicht (§ 8 Abs. 3 S. 2 KStG; Begriff R 8.5 Abs. 1 KStR).\n4. Wegzug mit Anteilen im Sinne des § 17 EStG: Besteuerung wie bei einer Veräußerung, wenn 7 der letzten 12 Jahre unbeschränkte Steuerpflicht bestand; auf Antrag sieben Jahresraten (§ 6 Abs. 1, 2, 4 AStG).\n5. Anrechnung ausländischer Steuer nur bis zur deutschen Steuer auf die Einkünfte aus diesem Staat (§ 34c Abs. 1 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG und R 8.5 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -335,7 +383,8 @@
     "§ 8 Abs. 3 KStG",
     "R 8.5 Abs. 1 KStR",
     "§ 6 Abs. 1, 2, 4 AStG",
-    "§ 34c Abs. 1 EStG"
+    "§ 34c Abs. 1 EStG",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
    ]
   },
   {

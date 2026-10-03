@@ -31,7 +31,7 @@
      ],
      "norm": "R 4.2 Abs. 2 EStR",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 39 AO",
+     "teaser": "+ Markier-Guide § 39 AO + R 4.2",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -266,7 +266,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du das Ferienhaus erkannt?",
-     "teaser": "Weiterwischen: § 39 AO markiert"
+     "teaser": "Weiterwischen: § 39 AO + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
@@ -335,12 +335,104 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: H 4.2 Abs. 11 EStH",
-      "Privat genutztes Haus der OHG: kein BV"
+      "Gehört es einem Gesellschafter?",
+      "Dann Sonderbetriebsvermögen prüfen"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 4.2 EStR, H 4.2 EStH (Auszug)",
+     "absaetze": [
+      [
+       "R (2) S. 1",
+       [
+        [
+         "Das Betriebsvermögen […] umfasst bei einer Personengesellschaft sowohl die Wirtschaftsgüter, die",
+         null
+        ],
+        [
+         "zum Gesamthandsvermögen der Mitunternehmer gehören,",
+         "g1"
+        ],
+        [
+         "als auch diejenigen Wirtschaftsgüter, die einem, mehreren oder allen Mitunternehmern gehören",
+         null
+        ],
+        [
+         "(Sonderbetriebsvermögen).",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "R (11) S. 1",
+       [
+        [
+         "Gehört ein Grundstück zum Gesamthandsvermögen der Mitunternehmer einer Personengesellschaft, gehört es",
+         null
+        ],
+        [
+         "grundsätzlich zum notwendigen Betriebsvermögen.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "H (11)",
+       [
+        [
+         "Ein zum Gesamthandsvermögen gehörendes Wirtschaftsgut kann nicht Betriebsvermögen sein, wenn es",
+         null
+        ],
+        [
+         "ausschl. oder fast ausschl. der privaten Lebensführung",
+         "r1"
+        ],
+        [
+         "eines, mehrerer oder aller Mitunternehmer der Gesellschaft dient. Deshalb ist z. B. ein zum Gesamthandsvermögen gehörendes",
+         null
+        ],
+        [
+         "Einfamilienhaus,",
+         "g2"
+        ],
+        [
+         "das unentgeltlich von einem Gesellschafter nicht nur vorübergehend für eigene Wohnzwecke genutzt wird, steuerlich nicht Betriebsvermögen der Personengesellschaft.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Gesamthand: BV",
+       "g1"
+      ],
+      [
+       "Eigentum Gesellschafter: SBV",
+       "b1"
+      ],
+      [
+       "kein Wahlrecht",
+       "gr1"
+      ],
+      [
+       "Ausnahme!",
+       "r1"
+      ],
+      [
+       "Ferienhaus",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Pkw zu 30 % privat: bleibt BV",
+      "Privatfahrten: Nutzungsentnahme"
      ]
     }
    ],
-   "caption": "Ist alles, was einer OHG gehört, Betriebsvermögen? Eine typische Prüfungsfrage für Klausur 3 und die Mündliche.\n\n▸ Zuerst die Zurechnung: Eigentum oder wirtschaftliches Eigentum (§ 39 Abs. 1, 2 Nr. 1 AO). Vermögen einer rechtsfähigen Personengesellschaft wird für die Ertragsteuern den Gesellschaftern anteilig zugerechnet, soweit die Besteuerung das erfordert (§ 39 Abs. 2 Nr. 2 AO).\n▸ Zum Betriebsvermögen der Personengesellschaft gehören das Gesellschaftsvermögen und das Sonderbetriebsvermögen der Mitunternehmer (R 4.2 Abs. 2 EStR).\n▸ Gesellschaftsvermögen ist grundsätzlich Betriebsvermögen, auch bei gelegentlicher Privatnutzung; ein Wahlrecht wie beim Einzelunternehmer gibt es nicht (H 4.2 Abs. 11 EStH).\n▸ Ausnahme: Dient ein Wirtschaftsgut ausschließlich oder fast ausschließlich der privaten Lebensführung von Gesellschaftern oder fehlt schon beim Erwerb jeder betriebliche Anlass, ist es kein Betriebsvermögen (H 4.2 Abs. 11 EStH).\n▸ Private Fahrten mit dem Pkw der Gesellschaft sind Nutzungsentnahmen des Gesellschafters (§ 4 Abs. 1 S. 2 EStG).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Ist alles, was einer OHG gehört, Betriebsvermögen? Eine typische Prüfungsfrage für Klausur 3 und die Mündliche.\n\n▸ Zuerst die Zurechnung: Eigentum oder wirtschaftliches Eigentum (§ 39 Abs. 1, 2 Nr. 1 AO). Vermögen einer rechtsfähigen Personengesellschaft wird für die Ertragsteuern den Gesellschaftern anteilig zugerechnet, soweit die Besteuerung das erfordert (§ 39 Abs. 2 Nr. 2 AO).\n▸ Zum Betriebsvermögen der Personengesellschaft gehören das Gesellschaftsvermögen und das Sonderbetriebsvermögen der Mitunternehmer (R 4.2 Abs. 2 EStR).\n▸ Gesellschaftsvermögen ist grundsätzlich Betriebsvermögen, Grundstücke eingeschlossen (R 4.2 Abs. 11 S. 1 EStR), auch bei gelegentlicher Privatnutzung; ein Wahlrecht wie beim Einzelunternehmer gibt es nicht.\n▸ Ausnahme: Dient ein Wirtschaftsgut ausschließlich oder fast ausschließlich der privaten Lebensführung von Gesellschaftern, ist es kein Betriebsvermögen, sondern notwendiges Privatvermögen der Gesellschafter (H 4.2 Abs. 11 EStH). Ebenso bei Wirtschaftsgütern ohne betriebliche Veranlassung, etwa einem Darlehen der Gesellschaft an einen Gesellschafter (BFH vom 09.05.1996, IV R 64/93, BStBl II 1996, 642).\n▸ Private Fahrten mit dem Pkw der Gesellschaft sind Nutzungsentnahmen des Gesellschafters (§ 4 Abs. 1 S. 2 EStG).\n\nZum Schluss: § 39 AO, R 4.2 EStR und H 4.2 EStH zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -349,9 +441,10 @@
    ],
    "quellen": [
     "§ 39 Abs. 1, 2 Nr. 1, 2 AO",
-    "R 4.2 Abs. 2 EStR",
+    "R 4.2 Abs. 2, 11 EStR",
     "H 4.2 Abs. 11 EStH",
-    "§ 4 Abs. 1 S. 2 EStG"
+    "§ 4 Abs. 1 S. 2 EStG",
+    "BFH vom 09.05.1996, IV R 64/93, BStBl II 1996, 642"
    ]
   },
   {
@@ -384,7 +477,7 @@
      ],
      "norm": "§§ 4 Nr. 9, 12, 9 UStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 9 UStG",
+     "teaser": "+ Markier-Guide § 9 + UStAE",
      "motiv": {
       "typ": "icon",
       "name": "tabler:building",
@@ -417,7 +510,7 @@
        "Miete: Nutzung · Verkauf: Notar"
       ]
      ],
-     "teaser": "Am Ende: § 9 UStG markiert"
+     "teaser": "Am Ende: § 9 UStG + Abschn. 9.2 markiert"
     },
     {
      "typ": "inhalt",
@@ -645,11 +738,11 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Welche Etage hättest du falsch gelöst?",
-     "teaser": "Weiterwischen: § 9 UStG markiert"
+     "teaser": "Weiterwischen: § 9 + Abschn. 9.2 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 9 UStG Verzicht (Auszug)",
      "absaetze": [
       [
@@ -710,7 +803,7 @@
        "g1"
       ],
       [
-       "5 %: UStAE",
+       "5 %: siehe unten",
        "b1"
       ],
       [
@@ -721,10 +814,67 @@
      "randnotiz": [
       "Randnotiz: § 13b Abs. 2 Nr. 3 UStG",
       "Beim Verkauf mit Option schuldet der Käufer"
-     ]
+     ],
+     "zweite": {
+      "kopf": "Abschn. 9.2 Abs. 3 UStAE (Auszug)",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Verwendet der Leistungsempfänger das Grundstück […]",
+          null
+         ],
+         [
+          "nur in sehr geringem Umfang",
+          "g1"
+         ],
+         [
+          "für Umsätze, die den Vorsteuerabzug ausschließen (Ausschlussumsätze), ist der Verzicht auf Steuerbefreiung zur Vermeidung von Härten weiterhin zulässig.",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Eine geringfügige Verwendung für Ausschlussumsätze kann angenommen werden, wenn […] die auf den Mietzins […] entfallende Umsatzsteuer",
+          null
+         ],
+         [
+          "im Besteuerungszeitraum (Kalenderjahr […])",
+          "b1"
+         ],
+         [
+          "höchstens zu 5 % vom Vorsteuerabzug ausgeschlossen",
+          "r1"
+         ],
+         [
+          "wäre (Bagatellgrenze).",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Härtefall",
+        "g1"
+       ],
+       [
+        "je Kalenderjahr",
+        "b1"
+       ],
+       [
+        "Bagatellgrenze",
+        "r1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Verkauf oder Vermietung eines Grundstücks: steuerfrei oder mit Option? Das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Befreiung finden: Grundstücksverkauf (§ 4 Nr. 9 Buchst. a UStG), Vermietung und Verpachtung (§ 4 Nr. 12 S. 1 Buchst. a UStG). Folge ohne Option: kein Vorsteuerabzug (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n2. Ausnahmen: kurzfristige Beherbergung, Fahrzeugstellplätze, Betriebsvorrichtungen sind nicht befreit (§ 4 Nr. 12 S. 2 UStG).\n3. Option nur bei Umsätzen an einen anderen Unternehmer für dessen Unternehmen (§ 9 Abs. 1 UStG); bei mehreren Mietern für jeden Umsatz gesondert.\n4. Zusatzbedingungen: Bei Vermietung muss der Mieter das Grundstück ausschließlich für Umsätze nutzen, die den Vorsteuerabzug nicht ausschließen (§ 9 Abs. 2 UStG); die Verwaltung lässt eine schädliche Nutzung bis 5 % zu (Abschn. 9.2 Abs. 3 UStAE). Beim Verkauf außerhalb der Zwangsversteigerung nur im notariellen Vertrag (§ 9 Abs. 3 S. 2 UStG); Steuerschuldner ist dann der Käufer als Unternehmer (§ 13b Abs. 2 Nr. 3, Abs. 5 UStG).\n\nBeispiel: Bäckerei ja, Versicherungsmakler nein (§ 4 Nr. 11 UStG), Privatwohnung nein.\n\nZum Schluss: § 9 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Verkauf oder Vermietung eines Grundstücks: steuerfrei oder mit Option? Das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Befreiung finden: Grundstücksverkauf (§ 4 Nr. 9 Buchst. a UStG), Vermietung und Verpachtung (§ 4 Nr. 12 S. 1 Buchst. a UStG). Folge ohne Option: kein Vorsteuerabzug (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n2. Ausnahmen: kurzfristige Beherbergung, Fahrzeugstellplätze, Betriebsvorrichtungen sind nicht befreit (§ 4 Nr. 12 S. 2 UStG).\n3. Option nur bei Umsätzen an einen anderen Unternehmer für dessen Unternehmen (§ 9 Abs. 1 UStG); bei mehreren Mietern für jeden Umsatz gesondert.\n4. Zusatzbedingungen: Bei Vermietung muss der Mieter das Grundstück ausschließlich für Umsätze nutzen, die den Vorsteuerabzug nicht ausschließen (§ 9 Abs. 2 UStG); die Verwaltung lässt eine schädliche Nutzung bis 5 % zu (Abschn. 9.2 Abs. 3 UStAE). Beim Verkauf außerhalb der Zwangsversteigerung nur im notariellen Vertrag (§ 9 Abs. 3 S. 2 UStG); Steuerschuldner ist dann der Käufer als Unternehmer (§ 13b Abs. 2 Nr. 3, Abs. 5 UStG).\n\nBeispiel: Bäckerei ja, Versicherungsmakler nein (§ 4 Nr. 11 UStG), Privatwohnung nein.\n\nZum Schluss: § 9 UStG und Abschn. 9.2 Abs. 3 UStAE zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
