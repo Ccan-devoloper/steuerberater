@@ -154,8 +154,8 @@
     {
      "typ": "merke",
      "oben": [
-      "Zugang 80.000 €, Stichtag 90.000 €",
-      "HB 90.000 € · StB 80.000 € oder bei Dauer 90.000 €",
+      "Zugang 80.000 €, Stichtag 90.000 €",
+      "HB 90.000 € · StB 80.000 € oder bei Dauer 90.000 €",
       "GELB"
      ],
      "zeilen": [
@@ -882,8 +882,8 @@
     "Wann geht er unter?"
    ],
    "optionen": [
-    "Ab 25 % Erwerb",
-    "Über 50 % in fünf Jahren",
+    "Ab 25 % Erwerb",
+    "Über 50 % in fünf Jahren",
     "Jede Kapitalerhöhung"
    ],
    "figuren": {
@@ -906,11 +906,11 @@
    "fachLabel": "Körperschaftsteuer",
    "themaId": "kst-quiz-kst-10",
    "titel": [
-    "B: über 50 %"
+    "B: über 50 %"
    ],
    "optionen": [
-    "Ab 25 % Erwerb",
-    "Über 50 % in fünf Jahren",
+    "Ab 25 % Erwerb",
+    "Über 50 % in fünf Jahren",
     "Jede Kapitalerhöhung"
    ],
    "richtig": 1,
@@ -1038,12 +1038,12 @@
    ],
    "punkte": [
     [
-     "Grundsatz 19 %.",
+     "Grundsatz 19 %.",
      "ok",
      "§ 12 Abs. 1 UStG"
     ],
     [
-     "7 % nur mit konkretem Tatbestand.",
+     "7 % nur mit konkretem Tatbestand.",
      "warn",
      "§ 12 Abs. 2 UStG"
     ]
