@@ -170,7 +170,7 @@
         {
           "art": "text",
           "titel": "Personengesellschaften",
-          "text": "Stufe 1: Gesamthand · Stufe 2: Sonderbereich · Feststellung: § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Gesamtgewinn einheitlich für alle"
+          "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG (Auszug) · Stufe 1: Gesamthand · Stufe 2: Sonderbereich · Feststellung: § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Gesamtgewinn einheitlich für alle"
         }
       ]
     },
@@ -248,7 +248,7 @@
         {
           "art": "text",
           "titel": "Abgabenordnung",
-          "text": "Nr. 1 · Hürde · Ausnahme · Dazu: § 177 Abs. 1 AO · materielle Fehler, soweit die Änderung reicht"
+          "text": "§ 173 AO Neue Tatsachen (Auszug) · Nr. 1 · Hürde · Ausnahme · Dazu: § 177 Abs. 1 AO · materielle Fehler, soweit die Änderung reicht"
         }
       ]
     },
@@ -542,7 +542,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:37:58Z",
+    "erzeugtAm": "2026-10-03T10:54:14Z",
     "pfad": "vorproduktion/2026-10-17/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
