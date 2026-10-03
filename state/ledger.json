@@ -7315,6 +7315,18 @@
       "thema": "kst-quiz-kst-2",
       "fach": "kst",
       "titel": "der Gesellschafter oder eine nahestehende Person"
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "s1",
+      "medienId": "18011072141970626",
+      "veroeffentlicht": "2026-10-03T05:45:48.344Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB"
     }
   ],
   "fachZaehler": {
