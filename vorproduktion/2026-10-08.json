@@ -4,202 +4,382 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "07:30",
+        "zeit": "06:30",
         "format": "anlass",
         "themaId": null,
-        "themaTitel": null,
-        "fach": "mindset",
-        "klausur": 0
+        "themaTitel": "Heute ist Tag 3: der letzte Anlauf",
+        "fach": null,
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "18:30",
+        "format": "anlass",
+        "themaId": null,
+        "themaTitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
+        "fach": null,
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:30",
+        "format": "reel",
+        "themaId": null,
+        "themaTitel": "Geschafft – was jetzt kommt",
+        "fach": null,
+        "klausur": 3
       }
     ],
     "stories": [
       {
         "slot": "s1",
-        "zeit": "07:30",
+        "zeit": "06:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s4",
+        "zeit": "06:45",
+        "art": "anlass"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "anlass"
       },
       {
         "slot": "s2",
-        "zeit": "07:45",
-        "art": "merksatz",
-        "status": "pruefungsphase"
+        "zeit": "18:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
       },
       {
         "slot": "s3",
-        "zeit": "18:30",
-        "art": "merksatz",
-        "status": "pruefungsphase"
+        "zeit": "19:30",
+        "art": "teaser",
+        "beitragSlot": "b3"
       }
     ]
   },
   "inhalte": {
     "b1": {
       "format": "anlass",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
       "themaId": null,
-      "pruefungsphase": true,
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Tag 3: Die letzte Etappe",
-          "coverBadge": "Klausurtag 3",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Für heute",
-          "text": "Heute ist Buchführung und Bilanzwesen dran – der letzte Tag. Noch einmal alles geben, dann ist es geschafft.",
-          "punkte": [
-            "Bei jedem Sachverhalt: Bilanzposten, Buchung, Gewinnauswirkung",
-            "Technikpunkte sichern, auch wenn das Ergebnis wackelt",
-            "Konzentration bis zur letzten Minute – auch der Schluss bringt Punkte"
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Johann Wolfgang von Goethe",
-          "text": "„Es ist nicht genug zu wissen, man muss auch anwenden; es ist nicht genug zu wollen, man muss auch tun.“"
-        },
-        {
-          "art": "cta",
-          "titel": "Du schaffst das",
-          "punkte": [
-            "Schick das deiner Lerngruppe",
-            "Tief durchatmen",
-            "Heute Abend: abschalten"
-          ],
-          "icons": [
-            "haken",
-            "uhr",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "Klausurtag 3. Kein neuer Stoff mehr – nur Ruhe, Technik und ein klarer Kopf. Wir denken an dich!",
+      "caption": "Heute ist Tag 3 der schriftlichen Steuerberaterprüfung: Buchführung und Bilanzwesen. Der letzte Anlauf!\n\n▸ Zwei Tage liegen hinter dir, die Routine sitzt: frühstücken, Gesetze griffbereit, erst überfliegen.\n▸ Tipp für heute: jeden Sachverhalt gleich aufbauen, Ansatz, Bewertung, Buchung, Gewinnauswirkung. Die Gewinnauswirkung sofort notieren.\n▸ Wird die Zeit knapp: lieber jeden Sachverhalt kurz anlösen als wenige perfekt.\n\nViel Erfolg! Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#kopfsache"
+        "#prüfungstag"
       ],
-      "kurztitel": "Tag 3: Die letzte Etappe",
-      "coverBadge": "Klausurtag 3",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "Examenskalender"
-      ],
+      "quellen": [],
       "slug": "2026-10-08-b1",
+      "kurztitel": "Heute ist Tag 3: der letzte Anlauf",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungstag 3",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungstag 3",
+          "text": "Prüfungstag 3 · Heute · ist Tag 3 · Der letzte Anlauf · + 1 Tipp für heute · OKTOBER · 8 · Do · Tag 3",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Noch einmal sechs Stunden · Zwei Tage liegen hinter dir. Die Routine hast du jetzt. · Frühstück, Wasser, Gesetze griffbereit, Stifte dabei. · Erst überfliegen: Wie viele Sachverhalte, wie viele Punkte? · Ein letztes Mal."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Dein Tipp für heute · Jeden Sachverhalt gleich aufbauen: Ansatz, Bewertung, Buchung, Gewinnauswirkung. · Gewinnauswirkung sofort notieren, nicht erst am Ende suchen. · Handels- und Steuerbilanz nur trennen, wenn sie auseinanderlaufen. · Gleicher Aufbau = schneller · Immer gleich!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Wenn die Zeit knapp wird · Lieber jeden Sachverhalt kurz anlösen als wenige perfekt. · Buchungssatz und Gewinnauswirkung reichen notfalls als Kern. · Letzte zehn Minuten: offene Sachverhalte stichpunktartig. · Kurz statt nichts."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Tag 3: Buchführung und Bilanzwesen · Die letzte Klausur. Du schaffst das! · Ansatz, Bewertung, · Buchung, · Gewinnauswirkung, · jeder Sachverhalt. · Speichern für Klausur 3 · Was machst du heute Abend zuerst?"
+        }
+      ]
     },
     "s2": {
       "slot": "s2",
-      "art": "merksatz",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Zitat",
-      "titel": "Johann Wolfgang von Goethe",
-      "text": "„Es ist nicht genug zu wissen, man muss auch anwenden; es ist nicht genug zu wollen, man muss auch tun.“",
-      "pruefungsphase": true,
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "art": "teaser",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Alle drei geschafft!",
+        "Was jetzt kommt · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
-      "art": "merksatz",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Tipp",
-      "titel": "Nach Tag 3",
-      "text": "Heute Abend nichts nachrechnen. Du hast drei Klausurtage hinter dir – das darf gefeiert werden.",
-      "pruefungsphase": true,
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "art": "teaser",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Geschafft. Und jetzt?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Tag 3: Die letzte Etappe",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Heute ist Tag 3",
+        "Der letzte Anlauf + Tipp · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "b2": {
+      "format": "anlass",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "caption": "Geschafft! Die schriftliche Steuerberaterprüfung liegt hinter dir. Was jetzt kommt:\n\n▸ Das Ergebnis der Klausuren kommt meist ab Dezember oder Januar.\n▸ Liegt die Gesamtnote der schriftlichen Prüfung über 4,5, ist die Prüfung nicht bestanden; bis 4,5 geht es in die mündliche Prüfung (§ 25 Abs. 2 DVStB). Die Ladung kommt spätestens zwei Wochen vorher, mit den Einzelnoten (§ 26 Abs. 1 DVStB).\n▸ Die mündliche Prüfung besteht aus einem Kurzvortrag und sechs Prüfungsabschnitten (§ 26 Abs. 3 DVStB). Für den Vortrag gibt es eine halbe Stunde vorher drei Themen zur Wahl (§ 26 Abs. 6 DVStB); die Prüfungszeit soll 90 Minuten nicht überschreiten (§ 26 Abs. 7 DVStB).\n▸ Bestanden ist, wer im Schnitt aus schriftlicher und mündlicher Gesamtnote höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n▸ Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG); dafür ist eine neue Zulassung nötig (§ 28 Abs. 3 DVStB).\n\nHeute aber: feiern und schlafen. Speichern für die Mündliche 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ],
+      "quellen": [
+        "§ 25 Abs. 2 DVStB",
+        "§ 26 Abs. 1, 3, 6, 7 DVStB",
+        "§ 28 Abs. 1 S. 2, Abs. 3 DVStB",
+        "§ 35 Abs. 4 StBerG"
+      ],
+      "slug": "2026-10-08-b2",
+      "kurztitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Geschafft!",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Geschafft!",
+          "text": "Geschafft! · Alle drei · geschafft! · Und jetzt? · + Was jetzt kommt",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Erst mal: feiern · Drei Tage, drei Klausuren. Egal wie es lief: Das war ein Kraftakt. · Heute keine Lösungen vergleichen, keine Foren. · Schlafen, essen, Menschen treffen. · Stolz auf dich!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Was jetzt kommt · Dez./Jan. · meist das Ergebnis · ≤ 4,5 · mündliche Prüfung · § 25 Abs. 2 DVStB · Ladung · 2 Wochen vorher · § 26 Abs. 1 DVStB · ≤ 4,15 · Schnitt: bestanden · § 28 Abs. 1 S. 2 DVStB · Schritt für Schritt."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Die mündliche Prüfung · Ein Kurzvortrag und sechs Prüfungsabschnitte. · § 26 Abs. 3 DVStB · Drei Vortragsthemen zur Wahl, eine halbe Stunde vorher. · § 26 Abs. 6 DVStB · Prüfungszeit je Person in der Regel höchstens 90 Minuten. · § 26 Abs. 7 DVStB · Das kommt später."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Und wenn nicht? · Gesamtnote über 4,5: diesmal nicht bestanden. Kein Urteil über dich. · § 25 Abs. 2 DVStB · Die Prüfung kann zweimal wiederholt werden. · § 35 Abs. 4 StBerG · Für den nächsten Anlauf brauchst du eine neue Zulassung. · § 28 Abs. 3 DVStB · Es gibt einen Weg."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Schriftlich bis 4,5: mündliche Prüfung · Bestanden bei höchstens 4,15 im Schnitt · Heute feiern, · Ergebnis abwarten, · Mündliche planen, · sonst neu anlaufen. · Speichern für die Mündliche · Wie fühlst du dich gerade?"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "caption": "Geschafft – was jetzt kommt nach der schriftlichen Steuerberaterprüfung.\n\n▸ Gesamtnote der schriftlichen Prüfung bis 4,5: mündliche Prüfung; darüber ist die Prüfung nicht bestanden (§ 25 Abs. 2 DVStB). Das Ergebnis kommt meist ab Dezember oder Januar.\n▸ Die mündliche Prüfung besteht aus einem Kurzvortrag und sechs Prüfungsabschnitten (§ 26 Abs. 3 DVStB).\n▸ Bestanden ist, wer im Schnitt aus schriftlicher und mündlicher Gesamtnote höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n▸ Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG).\n\nSpeichern für die Mündliche 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ],
+      "quellen": [
+        "§ 25 Abs. 2 DVStB",
+        "§ 26 Abs. 3 DVStB",
+        "§ 28 Abs. 1 S. 2 DVStB",
+        "§ 35 Abs. 4 StBerG"
+      ],
+      "slug": "2026-10-08-b3",
+      "kurztitel": "Geschafft – was jetzt kommt",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Geschafft! Und jetzt?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Mündliche"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zweiter Anlauf"
+        }
+      ],
+      "sprecher": [
+        "Drei Klausurtage geschafft! Mit einer Gesamtnote bis vier Komma fünf geht es in die mündliche Prüfung, darüber in einen neuen Anlauf.",
+        "Mündlich: ein Kurzvortrag und sechs Prüfungsabschnitte. Bestanden bei höchstens vier Komma eins fünf im Schnitt.",
+        "Und wiederholen darfst du zweimal.",
+        "Heute aber: feiern und schlafen."
+      ],
+      "dauerS": 23.507,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "anlass",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Heute",
+        "Viel Erfolg",
+        "an Tag 3!",
+        "Buchführung und Bilanzwesen. Die letzte Klausur, dann ist es geschafft.",
+        "Jeder Sachverhalt gleich",
+        "Gewinnauswirkung sofort"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "anlass",
+      "fach": null,
+      "klausur": 3,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Halbzeit",
+        "Halbzeit.",
+        "Endspurt.",
+        "Kurz trinken, Schultern lockern. Die Ziellinie ist in Sicht.",
+        "Jeder Sachverhalt bringt Punkte."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T11:48:18.795Z",
+    "erzeugtAm": "2026-10-03T04:24:20Z",
     "pfad": "vorproduktion/2026-10-08/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -211,5 +391,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
