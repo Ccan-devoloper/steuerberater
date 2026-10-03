@@ -89,6 +89,11 @@ def peep(name, cx, unten, hoehe, **k):
 def nah(name, cx, oben, max_h=600):
     """Brustbild am unteren Rand (unten angeschnitten), so groß wie Platz ist."""
     hoehe = int(min(max_h, AKTIV.innen_unten + 70 - oben))
+    for _ in range(6):                 # breite Büsten (z. B. Macbook) erst kleiner, dann zur Mitte rücken
+        try:
+            return peep_voll(name, cx, AKTIV.innen_unten + 70, hoehe, C, unten_offen=True)
+        except AssertionError:
+            hoehe = int(hoehe * 0.9); cx = int(cx + (540 - cx) * 0.25)
     return peep_voll(name, cx, AKTIV.innen_unten + 70, hoehe, C, unten_offen=True)
 
 
