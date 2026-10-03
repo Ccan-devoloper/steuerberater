@@ -363,7 +363,7 @@
      ],
      "norm": "R 6.6 EStR",
      "unter": "Der Klausurfall",
-     "teaser": "+ Markier-Guide § 5 EStG",
+     "teaser": "+ Markier-Guide § 5 + R 6.6",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -619,7 +619,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du 2026 versteuert?",
-     "teaser": "Weiterwischen: § 5 EStG und R 6.6"
+     "teaser": "Weiterwischen: § 5 + R 6.6 markiert"
     },
     {
      "typ": "gesetz",
