@@ -7013,22 +7013,22 @@
       "fach": "istr",
       "titel": "Steuerabzug nach § 50a EStG: Wer behält wann wie viel ein?",
       "insights": {
-        "reach": 32,
-        "views": 45,
+        "reach": 34,
+        "views": 47,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 36,
+        "navigation": 38,
         "navigation_swipe_forward": 2,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 26,
+        "navigation_tap_forward": 28,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-03T05:45:49.333Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-10-03T08:44:06.968Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-02",
@@ -7076,22 +7076,22 @@
       "fach": "ao",
       "titel": "Fristversäumnis ohne Verschulden: Wann hilft § 110 AO",
       "insights": {
-        "reach": 30,
-        "views": 39,
+        "reach": 32,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_tap_forward": 23,
-        "navigation_tap_exit": 5,
+        "navigation": 38,
+        "navigation_swipe_forward": 2,
         "navigation_tap_back": 5,
-        "navigation_swipe_forward": 2
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 26
       },
-      "insightsStand": "2026-10-03T05:45:49.333Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-10-03T08:44:06.968Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-02",
