@@ -252,6 +252,60 @@ class Reel:
         img.alpha_composite(self.RAHMEN)
         return img.convert("RGB")
 
+    # ------------------------------------------------------------ Cover
+    def cover_bild(self):
+        """Eigenes Reel-Cover: Hook groß im 3:4-Bereich des Profilrasters (y 260–1660), Element des Hook-Stils, Brustbild."""
+        from figuren import POSE_MIMIK
+        h, kk = self.s["hook"], self.k
+        els = []
+        lbl = self.s["fachLabel"].upper()
+        els.append(pille(lbl, 64, 272, C, fill=PASTELL[kk], size=k.passt(lbl, "Bold", 42, 640, 28), pad=(28, 11)))
+        els.append(pille(f"Klausur {kk}", W_ - 64, 278, C, fill=WEISS, size=32, anker="r", pad=(22, 10)))
+        zeilen = h["zeilen"]
+        gs = 168
+        while max(F("ExtraBold", gs).getlength(z) for z in zeilen) + 40 > 952: gs -= 2
+        y0 = 390
+        t, y = k.schlagzeile(zeilen, y0, groesse=gs, abstand=1.12, klausur=kk, x0=64, x1=1016); els += t
+        y += 30
+        if h.get("pille"):
+            els.append(pille(h["pille"], 64, y, C, fill=WEISS, size=k.passt(h["pille"], "Bold", 44, 900, 30), pad=(26, 11))); y += 104
+        stil, st = h.get("stil", "split"), h.get("stempel") or {}
+        if stil == "split":
+            for i, b in enumerate(h["split"]):
+                els.append(fl_block(64 + i * 486, y, 466, 210, FARBEN[b.get("farbe", "WEISS")], C,
+                                    [(b["label"], "ExtraBold", k.passt(b["label"], "ExtraBold", 44, 420, 30), INK),
+                                     (b["wert"], "ExtraBold", k.passt(b["wert"], "ExtraBold", 70, 420, 40), INK)]))
+            y += 236
+        elif stil == "kippen":
+            if st:
+                yl = y0 + (len(zeilen) - 1) * int(gs * 1.12) + int(gs * 0.55)
+                bl_ = F("ExtraBold", gs).getlength(zeilen[-1]) + 40
+                strich = Image.new("RGBA", (int(bl_) + 20, 28)); ImageDraw.Draw(strich).rounded_rectangle((0, 0, int(bl_) + 19, 27), 12, fill=(215, 60, 45, 255))
+                els.append(k.engine.El(strich, 46, yl, C, "cut", 0.0, name="strich"))
+            if h.get("richtig"):
+                r = h["richtig"]
+                els.append(k.zahlblock(64, y, 952, 230, FARBEN.get(r.get("farbe"), GRUEN) if isinstance(FARBEN.get(r.get("farbe")), tuple) else GRUEN,
+                                       r.get("label", "Richtig"), r["text"], zs=r.get("zs", 72), ls=44)); y += 256
+        elif stil == "knall":
+            els.append(kreuz_i(300, y + 130, C, gr=170)); y += 280
+        if st:
+            sw = F("Bold", 52).getlength(st["text"]) + 70
+            els.append(pille(st["text"], 1016 - sw / 2, y - 10 if stil != "knall" else y - 200, C, fill=ROT, size=52, anker="m", pad=(28, 12)))
+            if stil != "knall": y += 70
+        assert y <= 1500, f"Reel {self.datum}: Cover zu voll ({y})"
+        fig = h.get("figur") or ""
+        if fig:
+            buchst, _, pose = fig.replace(":", "/").partition("/")
+            ref = f"{buchst}:{POSE_MIMIK.get(pose, pose if pose in ('froh', 'sorge', 'fragt', 'ernst', 'staunt') else 'ernst')}"
+            oben = max(y + 30, 1000)            # Brustbild füllt den Rest bis unten, ohne Lücke in der Mitte
+            els.append(k.nah(self.b.name(ref, 800 if stil != "knall" else 760), 800 if stil != "knall" else 760, oben, 1880 - oben))
+        self.T(lbl, f"Klausur {kk}", *zeilen, h.get("pille"), st.get("text"))
+        img = Image.new("RGBA", (W_, H_), k.CREME)
+        for e in els:
+            self._setze(img, e.sprite, e.x, e.y)
+        img.alpha_composite(self.rahmen())
+        return img.convert("RGB")
+
     # ------------------------------------------------------------ Ablauf
     def rendern(self, nur_bilder=None):
         k.STORY.aktiv()
@@ -280,8 +334,7 @@ class Reel:
         if nur_bilder:
             for ts in nur_bilder:
                 self.bild(ts).save(os.path.join(self.out, f"_t{ts:05.1f}.jpg"), quality=88)
-            # Cover wie im echten Lauf (Prüflauf zeigt so Stempel, Split und Richtig-Block)
-            self.bild(cover_t).save(os.path.join(self.out, f"{self.datum}-{self.s['slot']}-cover.jpg"), quality=88)
+            self.cover_bild().save(os.path.join(self.out, f"{self.datum}-{self.s['slot']}-cover.jpg"), quality=88)
             k.KARUSSELL.aktiv(); return []
         # Ton
         SR = stimme.SR
@@ -307,7 +360,7 @@ class Reel:
             p.stdin.write(self.bild(fr / FPS).tobytes())
         p.stdin.close(); p.wait()
         cover = os.path.join(self.out, f"{self.datum}-{self.s['slot']}-cover.jpg")
-        self.bild(cover_t).save(cover, quality=92)
+        self.cover_bild().save(cover, quality=92)
         os.remove(wav); os.remove(ton)
         if os.environ.get("OP_TTS_TROCKEN"):
             os.remove(video)
