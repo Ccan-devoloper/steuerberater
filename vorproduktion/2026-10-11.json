@@ -20,10 +20,10 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "wochenrueckblick",
-        "themaId": null,
-        "themaTitel": "Klausur 3 kompakt: fünf Themen der Woche",
-        "fach": "bilanz",
-        "klausur": 3
+        "themaId": "wochenrueckblick-alle-2026-41",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 41",
+        "fach": null,
+        "klausur": 0
       },
       {
         "slot": "b2",
@@ -103,29 +103,29 @@
   "inhalte": {
     "b1": {
       "format": "wochenrueckblick",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": null,
-      "caption": "Klausur 3 kompakt: fünf Themen der Woche für Buchführung und Bilanzwesen.\n\n1. Verbindlichkeiten: Ansatz mit dem Rückzahlungsbetrag (§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH); keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG).\n2. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen zwingend (§ 253 Abs. 4 HGB), steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG).\n3. Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Tilgungsdarlehen degressiv nach der Zinsstaffel, beim Fälligkeitsdarlehen linear aufzulösen.\n4. Sonderbetriebsvermögen I und II (R 4.2 Abs. 2 EStR); bei der Einbringung eines Mitunternehmeranteils muss funktional wesentliches Sonderbetriebsvermögen mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06, 20.10).\n5. Wirtschaftliches Eigentum: Zurechnung beim Eigentümer, abweichend bei dem, der ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt (§ 39 Abs. 1, 2 Nr. 1 S. 1 AO).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-41",
+      "caption": "Wochenrückblick KW 41: die Themen der Prüfungswoche aus allen drei Klausuren.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Ein per Post übermittelter Bescheid gilt am vierten Tag nach Aufgabe zur Post als bekannt gegeben, ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2 Nr. 1, Abs. 2a AO). Fällt dieser Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898).\n2. Unternehmer ist auch, wer nachhaltig Einnahmen erzielen will, ohne Gewinn zu erstreben (§ 2 Abs. 1 S. 1, 3 UStG).\n\nKlausur 2 (Ertragsteuern)\n3. Dividenden an eine Kapitalgesellschaft bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); bei einer Beteiligung unter 10 % zu Beginn des Kalenderjahres sind sie voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n4. Gewerbesteuer: Die Summe der Finanzierungsanteile wird um 200.000 € gekürzt, ein Viertel des Rests hinzugerechnet (§ 8 Nr. 1 GewStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Den niedrigeren Teilwert darf die Steuerbilanz nur bei voraussichtlich dauernder Wertminderung ansetzen, als Wahlrecht (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG).\n6. Ein Disagio ist steuerlich aktiv abzugrenzen (§ 5 Abs. 5 S. 1 Nr. 1 EStG) und über die Laufzeit aufzulösen, beim Tilgungsdarlehen degressiv.\n\nZum Schluss: § 8b Abs. 1, 4, 5 KStG zum Markieren. Speichern für alle drei Klausuren 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#steuerrecht"
       ],
       "quellen": [
-        "§ 6 Abs. 1 Nr. 2, 3 EStG",
-        "H 6.10 EStH",
-        "§ 52 Abs. 12 S. 2 EStG",
-        "§ 253 Abs. 4 HGB",
-        "§ 5 Abs. 1 S. 1, Abs. 5 S. 1 Nr. 1 EStG",
-        "R 4.2 Abs. 2 EStR",
-        "UmwStE vom 02.01.2025, Rn. 20.06, 20.10",
-        "§ 39 Abs. 1, 2 Nr. 1 AO"
+        "§ 122 Abs. 2 Nr. 1, Abs. 2a AO",
+        "§ 108 Abs. 3 AO",
+        "BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898",
+        "§ 2 Abs. 1 S. 1, 3 UStG",
+        "§ 8b Abs. 1, 4, 5 KStG",
+        "§ 8 Nr. 1 GewStG",
+        "§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG",
+        "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
       ],
       "slug": "2026-10-11-b1",
-      "kurztitel": "Klausur 3 kompakt: fünf Themen der Woche",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 41",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -140,48 +140,38 @@
         {
           "art": "titel",
           "titel": "Wochenrückblick",
-          "text": "Wochenrückblick · Klausur 3 · kompakt · 5 Themen · + Markier-Guide § 39 AO · OKTOBER · 11 · So · Rückblick",
+          "text": "Wochenrückblick · Woche · kompakt · 6 Themen · + Markier-Guide § 8b KStG · KW 41 · 3 · Klausuren",
           "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "Die 5 Themen · Verbindlichkeiten · § 6 Abs. 1 Nr. 3 EStG · Teilwertabschreibung · § 6 Abs. 1 Nr. 2 S. 2 EStG · Disagio beim Tilgungsdarlehen · § 5 Abs. 5 S. 1 Nr. 1 EStG · Sonderbetriebsvermögen · R 4.2 Abs. 2 EStR · Wirtschaftliches Eigentum · § 39 Abs. 2 Nr. 1 AO · Am Ende: § 39 AO markiert"
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · AO und USt · §§ 108, 122 AO · § 2 UStG · Bekanntgabe und Unternehmer · Klausur 2 · KSt und GewSt · § 8b KStG · § 8 Nr. 1 GewStG · Dividenden und Finanzierungsanteile · Klausur 3 · Bilanz · § 6 Abs. 1, § 5 Abs. 5 EStG · Teilwert und Disagio · Am Ende: § 8b KStG markiert"
         },
         {
           "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "1 · Verbindlichkeiten · Steuerlich mit dem Rückzahlungsbetrag ansetzen. · § 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH · Keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden. · § 52 Abs. 12 S. 2 EStG · Alte Abzinsung? Weg!"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · AO und USt · Per Post oder elektronisch: bekannt gegeben am vierten Tag. · § 122 Abs. 2 Nr. 1, Abs. 2a AO · Vierter Tag am Wochenende oder Feiertag: nächster Werktag. · § 108 Abs. 3 AO · Unternehmer auch ohne Gewinnabsicht. · § 2 Abs. 1 S. 3 UStG · Tage zählen!"
         },
         {
           "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "2 · Teilwertabschreibung · Handelsbilanz, Umlaufvermögen: immer auf den niedrigeren Wert. · § 253 Abs. 4 HGB · Steuerbilanz: nur bei voraussichtlich dauernder Minderung, als Wahlrecht. · § 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG · Muss oder kann?"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · KSt und GewSt · Dividende an die GmbH: außer Ansatz, 5 % nicht abziehbar. · § 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG · Unter 10 % zu Beginn des Kalenderjahres: voll steuerpflichtig. · § 8b Abs. 4 S. 1 KStG · Gewerbesteuer: Finanzierungsanteile minus 200.000 €, davon ein Viertel. · § 8 Nr. 1 GewStG · Stichtag 1. Januar!"
         },
         {
           "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "3 · Disagio · Steuerlich Pflicht: aktiver Rechnungsabgrenzungsposten. · § 5 Abs. 5 S. 1 Nr. 1 EStG · Tilgungsdarlehen: degressiv auflösen, Nenner n × (n + 1) ÷ 2. · Fälligkeitsdarlehen: linear. · Schuld sinkt, Aufwand sinkt."
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · Bilanz · Teilwert steuerlich nur bei voraussichtlich dauernder Minderung, als Wahlrecht. · § 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG · Disagio: steuerlich aktiv abgrenzen, beim Tilgungsdarlehen degressiv auflösen. · § 5 Abs. 5 S. 1 Nr. 1 EStG · Muss oder kann?"
         },
         {
           "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "4 · Sonderbetriebsvermögen · SBV I dient dem Betrieb der Gesellschaft, SBV II der Beteiligung. · R 4.2 Abs. 2 EStR · Bei der Einbringung nach § 20 UmwStG muss wesentliches SBV mit. · UmwStE vom 02.01.2025, Rn. 20.06, 20.10 · SBV gehört dazu!"
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Vierter Tag gibt bekannt, · Gewinnabsicht egal, · Dividende zu 95 % frei, · Teilwert nur bei Dauer. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 8b KStG markiert"
         },
         {
           "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "5 · Wirtschaftliches Eigentum · Grundsatz: Wirtschaftsgüter gehören dem Eigentümer. · § 39 Abs. 1 AO · Anders, wenn ein anderer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt. · § 39 Abs. 2 Nr. 1 S. 1 AO · Zurechnung immer zuerst prüfen. · Wem gehört es?"
-        },
-        {
-          "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "Diese Woche in Klausur 3 · Bilanz und Umwandlung: fünf Themen · Rückzahlung statt Barwert, · Teilwert nur bei Dauer, · Disagio degressiv, · Zurechnung zuerst. · Speichern für Klausur 3 · Welches Thema wackelt noch? · Weiterwischen: § 39 AO markiert"
-        },
-        {
-          "art": "text",
-          "titel": "Bilanzsteuerrecht",
-          "text": "§ 39 AO Zurechnung (Auszug) · Grundsatz · Herrschaft · Dauer! · Folge · Leasing, Treuhand, Sicherungseigentum · Zurechnung vor Ansatz und Bewertung"
+          "titel": "Alle Klausuren",
+          "text": "§ 8b KStG (Auszug) · steuerfrei · Stichtag · Streubesitz · 5 % zurück · Im Ergebnis 95 % steuerfrei · Streubesitz unter 10 %: Dividende voll steuerpflichtig"
         }
       ]
     },
@@ -484,17 +474,17 @@
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
       "themaId": null,
       "beitragSlot": "b1",
       "quellen": null,
       "sichtbareTexte": [
-        "Bilanzsteuerrecht",
+        "Alle Klausuren",
         "Neu im Feed",
-        "Klausur 3 kompakt",
-        "Rückblick + Markier-Guide · im Profil"
+        "Woche kompakt: alle 3 Klausuren",
+        "Wochenrückblick + Markier-Guide · im Profil"
       ],
       "renderer": "open-peeps-v4",
       "bildStatus": "open-peeps-render",
@@ -550,7 +540,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:18:23Z",
+    "erzeugtAm": "2026-10-03T13:15:44Z",
     "pfad": "vorproduktion/2026-10-11/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
