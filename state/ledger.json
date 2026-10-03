@@ -7526,6 +7526,28 @@
       "thema": "istr-modul-istr-istr3-08",
       "fach": "istr",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen"
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "b3",
+      "medienId": "18101681600213071",
+      "veroeffentlicht": "2026-10-03T17:44:37.722Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "bilanz-aufb-bil-melzer-10-03",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -7533,7 +7555,7 @@
     "ust": 8,
     "kst": 8,
     "ao": 17,
-    "bilanz": 17,
+    "bilanz": 18,
     "istr": 14,
     "erbst": 4,
     "mindset": 2,

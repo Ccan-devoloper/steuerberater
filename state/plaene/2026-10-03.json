@@ -37,8 +37,9 @@
       "fach": "bilanz",
       "klausur": 3,
       "lang": false,
-      "status": "sendet",
-      "sendeversuch": "2026-10-03T17:44:00.364Z"
+      "status": "veroeffentlicht",
+      "medienId": "18101681600213071",
+      "veroeffentlicht": "2026-10-03T17:44:37.721Z"
     }
   ],
   "stories": [
