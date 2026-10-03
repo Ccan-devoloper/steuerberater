@@ -180,7 +180,7 @@
         {
           "art": "text",
           "titel": "AO · USt · ErbSt",
-          "text": "ruhende Lieferung · davor: Beginn · danach: Ende · Bewegte Lieferung: § 3 Abs. 6 S. 1 UStG · Ort, wo der Transport beginnt"
+          "text": "§ 3 Abs. 7 UStG (Auszug) · ruhende Lieferung · davor: Beginn · danach: Ende · Bewegte Lieferung: § 3 Abs. 6 S. 1 UStG · Ort, wo der Transport beginnt"
         }
       ]
     },
@@ -260,7 +260,7 @@
         {
           "art": "text",
           "titel": "Internationales Steuerrecht",
-          "text": "Treaty Override · Beweislast · Verzicht oder Zahlung · Änderung später · BVerfG vom 15.12.2015, 2 BvL 1/12 · Treaty Override verfassungsgemäß"
+          "text": "§ 50d Abs. 8 EStG (Auszug) · Treaty Override · Beweislast · Verzicht oder Zahlung · Änderung später · BVerfG vom 15.12.2015, 2 BvL 1/12 · Treaty Override verfassungsgemäß"
         }
       ]
     },
@@ -553,7 +553,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:38:50Z",
+    "erzeugtAm": "2026-10-03T10:54:58Z",
     "pfad": "vorproduktion/2026-10-18/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
