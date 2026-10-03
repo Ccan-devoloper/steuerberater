@@ -68,7 +68,7 @@
      "titel": "Die Klausurfrage",
      "punkte": [
       [
-       "Ida und Tarek sind je zur Hälfte an einer OHG beteiligt. Fehlbetrag zum 31.12.2025: 240.000 €.",
+       "Ida und Tarek sind je zur Hälfte an einer OHG beteiligt. Fehlbetrag zum 31.12.2025: 240.000 €.",
        null,
        "Regular",
        null
@@ -80,7 +80,7 @@
        null
       ],
       [
-       "Gewerbeertrag 2026: 300.000 €. Wie viel Verlust geht ab?",
+       "Gewerbeertrag 2026: 300.000 €. Wie viel Verlust geht ab?",
        "warn",
        "Bold",
        null
@@ -123,7 +123,7 @@
      "titel": "Tarek geht, sein Verlust auch",
      "punkte": [
       [
-       "Tareks Hälfte, 120.000 €, fällt mit seinem Ausscheiden weg.",
+       "Tareks Hälfte, 120.000 €, fällt mit seinem Ausscheiden weg.",
        "nein",
        "Bold",
        "R 10a.3 Abs. 3 GewStR"
@@ -144,20 +144,20 @@
      "titel": "Idas Hälfte bleibt",
      "punkte": [
       [
-       "Ihre 120.000 € gehen nur gegen ihren Anteil am Gewerbeertrag 2026.",
+       "Ihre 120.000 € gehen nur gegen ihren Anteil am Gewerbeertrag 2026.",
        "ok",
        "Regular",
        "§ 10a S. 5 GewStG"
       ],
       [
-       "Anteil nach dem Gewinnschlüssel des Abzugsjahres: 50 %.",
+       "Anteil nach dem Gewinnschlüssel des Abzugsjahres: 50 %.",
        "ok",
        "Bold",
        null
       ]
      ],
      "extra": [
-      "Über 1 Mio. €: 60 %, nicht 70 % wie § 10d",
+      "Über 1 Mio. €: 60 %, nicht 70 % wie § 10d",
       "GELB",
       "§ 10a S. 2 GewStG"
      ],
@@ -198,7 +198,7 @@
       ]
      ],
      "extra": [
-      "Tareks 120.000 € sind verloren",
+      "Tareks 120.000 € sind verloren",
       "ROT"
      ]
     },
@@ -207,7 +207,7 @@
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Variante: Der Gewerbeertrag 2026 beträgt nur 200.000 €.",
+       "Variante: Der Gewerbeertrag 2026 beträgt nur 200.000 €.",
        null,
        "Regular",
        null
@@ -567,7 +567,7 @@
      "titel": "Beispiel",
      "punkte": [
       [
-       "Frida hält 100 % an der Komplementär-GmbH. Die GmbH führt nur die Geschäfte der KG.",
+       "Frida hält 100 % an der Komplementär-GmbH. Die GmbH führt nur die Geschäfte der KG.",
        null,
        "Regular",
        null
@@ -631,7 +631,7 @@
      "titel": "Kleine Beteiligung",
      "punkte": [
       [
-       "Kommanditist mit 5 % an der Komplementär-GmbH: Sein Einfluss in der KG steigt dadurch nicht.",
+       "Kommanditist mit 5 % an der Komplementär-GmbH: Sein Einfluss in der KG steigt dadurch nicht.",
        "warn",
        "Regular",
        null

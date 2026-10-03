@@ -101,7 +101,7 @@
         "Nr. 6b S. 2"
        ],
        [
-        "oder pauschal 1.260 €",
+        "oder pauschal 1.260 €",
         "Nr. 6b S. 3"
        ],
        [
@@ -115,7 +115,7 @@
       "farbe": "GRUEN",
       "punkte": [
        [
-        "6 € je Tag, höchstens 1.260 €",
+        "6 € je Tag, höchstens 1.260 €",
         "Nr. 6c S. 1"
        ],
        [
@@ -426,7 +426,7 @@
      "titel": "3 · Rücklage bilden",
      "punkte": [
       [
-       "Kein Ersatz bis zum 31.12.2026, aber ernstlich geplant: Rücklage 22.000 €.",
+       "Kein Ersatz bis zum 31.12.2026, aber ernstlich geplant: Rücklage 22.000 €.",
        "ok",
        "Regular",
        "R 6.6 Abs. 4 S. 1 EStR"
@@ -438,7 +438,7 @@
        "R 6.6 Abs. 4 S. 2 EStR"
       ],
       [
-       "Neuer Wagen im Februar 2027 für 42.000 €: Rücklage übertragen, Basis 20.000 €.",
+       "Neuer Wagen im Februar 2027 für 42.000 €: Rücklage übertragen, Basis 20.000 €.",
        "ok",
        "Regular",
        null
@@ -507,7 +507,7 @@
        "R 6.6 Abs. 4 S. 3 EStR"
       ],
       [
-       "Gewinn 2027: + 22.000 €. Der Wagen 2028 bekommt volle Anschaffungskosten.",
+       "Gewinn 2027: + 22.000 €. Der Wagen 2028 bekommt volle Anschaffungskosten.",
        "warn",
        "Bold",
        null
@@ -964,12 +964,12 @@
    "norm": "Art. 10 Abs. 2 OECD-MA",
    "punkte": [
     [
-     "Quellenstaat darf meist höchstens 15 % einbehalten.",
+     "Quellenstaat darf meist höchstens 15 % einbehalten.",
      "ok",
      "Art. 10 Abs. 2 Buchst. b OECD-MA"
     ],
     [
-     "Deutschland rechnet an, höchstens 25 %.",
+     "Deutschland rechnet an, höchstens 25 %.",
      "warn",
      "§ 32d Abs. 5 S. 1 EStG"
     ]

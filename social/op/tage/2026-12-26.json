@@ -357,13 +357,13 @@
      "titel": "Der Fall",
      "punkte": [
       [
-       "Jahresüberschuss der GmbH: 150.000 €.",
+       "Jahresüberschuss der GmbH: 150.000 €.",
        null,
        "Regular",
        null
       ],
       [
-       "Als Aufwand gebucht: Körperschaftsteuer und Soli 30.000 €, Aufsichtsratsvergütung 20.000 €, Spenden an einen gemeinnützigen Verein 25.000 €.",
+       "Als Aufwand gebucht: Körperschaftsteuer und Soli 30.000 €, Aufsichtsratsvergütung 20.000 €, Spenden an einen gemeinnützigen Verein 25.000 €.",
        null,
        "Regular",
        null
@@ -481,7 +481,7 @@
      "titel": "Falsche Basis",
      "punkte": [
       [
-       "Die 20 % gelten vom Einkommen vor Spenden und vor Verlustabzug.",
+       "Die 20 % gelten vom Einkommen vor Spenden und vor Verlustabzug.",
        "warn",
        "Bold",
        "§ 9 Abs. 2 S. 1 KStG"
@@ -508,7 +508,7 @@
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Variante: Die GmbH spendet 50.000 € statt 25.000 €. Alles andere bleibt.",
+       "Variante: Die GmbH spendet 50.000 € statt 25.000 €. Alles andere bleibt.",
        null,
        "Regular",
        null

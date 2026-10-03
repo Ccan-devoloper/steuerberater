@@ -436,7 +436,7 @@
        null
       ],
       [
-       "Der Bescheid 2025 der Ostwind ist bestandskräftig, die vGA blieb unentdeckt.",
+       "Der Bescheid 2025 der Ostwind ist bestandskräftig, die vGA unentdeckt.",
        "warn",
        "Bold",
        null
@@ -444,7 +444,7 @@
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Ich bin Dörte, Falkner GmbH."
+     "blase": "Ich bin Dörte von Falkner."
     },
     {
      "typ": "inhalt",

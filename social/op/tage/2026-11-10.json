@@ -654,7 +654,7 @@
      "titel": "Nachfragen der Prüfer",
      "punkte": [
       [
-       "„Gilt die Sperre für jedes Gebäude?“ Nein: Bei bestimmten Altbauten nicht, etwa gewerblich genutzt und vor 1998 fertig.",
+       "„Gilt die Sperre für jedes Gebäude?“ Nein: nicht für bestimmte Altbauten, etwa gewerblich, Baubeginn vor 11.11.1993, fertig vor 1998.",
        "warn",
        "Regular",
        "§ 27 Abs. 2 Nr. 3 UStG"

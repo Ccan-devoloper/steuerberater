@@ -67,13 +67,13 @@
      "titel": "Der Fall",
      "punkte": [
       [
-       "Aurelia (60 %) und Bodo (40 %) betreiben eine KG. Steuerbilanzgewinn: 200.000 €.",
+       "Aurelia (60 %) und Bodo (40 %) betreiben eine KG. Steuerbilanzgewinn: 200.000 €.",
        null,
        "Regular",
        null
       ],
       [
-       "Aurelia bekommt 60.000 € Gehalt als Geschäftsführerin. Die KG mietet von Bodo eine Halle für 24.000 €; seine Kosten dafür: 8.000 €.",
+       "Aurelia bekommt 60.000 € Gehalt als Geschäftsführerin. Die KG mietet von Bodo eine Halle für 24.000 €; seine Kosten dafür: 8.000 €.",
        null,
        "Regular",
        null
@@ -718,7 +718,7 @@
      ]
     }
    ],
-   "caption": "Kurzvortrag für die mündliche Prüfung: Was ist Entgelt? So baust du 10 Minuten zur Bemessungsgrundlage auf.\n\n1. Einstieg (1 Min.): Bemessen wird nach dem Entgelt (§ 10 Abs. 1 S. 1 UStG).\n2. Entgelt (3 Min.): alles, was den Wert der Gegenleistung bildet, die der Unternehmer vom Leistungsempfänger oder einem Dritten erhält oder erhalten soll, einschließlich unmittelbar preisbezogener Subventionen, abzüglich der geschuldeten Umsatzsteuer (§ 10 Abs. 1 S. 2 UStG).\n3. Durchlaufende Posten (2 Min.): was der Unternehmer in fremdem Namen und auf fremde Rechnung einnimmt und weiterleitet, ist kein Entgelt (§ 10 Abs. 1 S. 4 UStG).\n4. Tausch und tauschähnlicher Umsatz (2 Min.): Begriffe in § 3 Abs. 12 UStG; der Wert jedes Umsatzes gilt als Entgelt für den anderen, die Umsatzsteuer gehört nicht dazu (§ 10 Abs. 2 S. 2, 3 UStG). Beispiel: Transporter im Wert von 11.900 € als Gegenleistung, Entgelt 10.000 €.\n5. Fazit (2 Min.): ein klarer Schlusssatz, Zeit für Nachfragen. Ausblick: Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG).\n\nZum Schluss: § 10 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Kurzvortrag für die mündliche Prüfung: Was ist Entgelt? So baust du 10 Minuten zur Bemessungsgrundlage auf.\n\n1. Einstieg (1 Min.): Bemessen wird nach dem Entgelt (§ 10 Abs. 1 S. 1 UStG).\n2. Entgelt (3 Min.): alles, was den Wert der Gegenleistung bildet, die der Unternehmer vom Leistungsempfänger oder einem Dritten erhält oder erhalten soll, einschließlich unmittelbar preisbezogener Subventionen, abzüglich der geschuldeten Umsatzsteuer (§ 10 Abs. 1 S. 2 UStG).\n3. Durchlaufende Posten (2 Min.): was der Unternehmer in fremdem Namen und auf fremde Rechnung einnimmt und weiterleitet, ist kein Entgelt (§ 10 Abs. 1 S. 4 UStG).\n4. Tausch und tauschähnlicher Umsatz (2 Min.): Begriffe in § 3 Abs. 12 UStG; der Wert jedes Umsatzes gilt als Entgelt für den anderen, die Umsatzsteuer gehört nicht dazu (§ 10 Abs. 2 S. 2, 3 UStG). Beispiel: Transporter im Wert von 11.900 € als Gegenleistung, Entgelt 10.000 €.\n5. Fazit (2 Min.): ein klarer Schlusssatz, Zeit für Nachfragen. Ausblick: Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG).\n\nIn der Prüfung: drei Themen zur Wahl, eine halbe Stunde vor Beginn (§ 26 Abs. 6 DVStB).\n\nZum Schluss: § 10 UStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -729,7 +729,8 @@
     "§ 10 Abs. 1 S. 1, 2, 4 UStG",
     "§ 10 Abs. 2 S. 2, 3 UStG",
     "§ 3 Abs. 12 UStG",
-    "§ 10 Abs. 5 UStG"
+    "§ 10 Abs. 5 UStG",
+    "§ 26 Abs. 6 DVStB"
    ]
   },
   {
@@ -1013,7 +1014,7 @@
      "§ 12 Abs. 2 S. 1 UmwStG"
     ],
     [
-     "Soweit er der eigenen Beteiligung entspricht: § 8b KStG, also 5 % steuerpflichtig.",
+     "Soweit er der eigenen Beteiligung entspricht: § 8b KStG, also 5 % steuerpflichtig.",
      "warn",
      "§ 12 Abs. 2 S. 2 UmwStG"
     ]
@@ -1102,7 +1103,7 @@
      "§ 15a Abs. 1 UStG"
     ],
     [
-     "Keine Berichtigung bis 1.000 € Vorsteuer.",
+     "Keine Berichtigung bis 1.000 € Vorsteuer.",
      "ok",
      "§ 44 Abs. 1 UStDV"
     ]
