@@ -107,7 +107,7 @@
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
       "themaId": "bilanz-formel-leasing-4090",
-      "caption": "Finanzierungsleasing: Wem ist die Maschine zuzurechnen? Der Rechenweg mit 40/90-Regel und Kaufoption.\n\n▸ Grundsatz: Zurechnung beim Eigentümer; wer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausschließen kann, dem wird das Wirtschaftsgut zugerechnet (§ 39 Abs. 1, Abs. 2 Nr. 1 AO).\n▸ Vollamortisationsleasing über bewegliche Wirtschaftsgüter (BMF vom 19.04.1971): Ohne Option liegt das wirtschaftliche Eigentum regelmäßig beim Leasinggeber, wenn die Grundmietzeit mindestens 40 % und höchstens 90 % der betriebsgewöhnlichen Nutzungsdauer beträgt.\n▸ Mit Kaufoption bleibt es nur dann beim Leasinggeber, wenn der Optionspreis nicht niedriger ist als der Buchwert nach linearer AfA laut AfA-Tabelle oder der niedrigere gemeine Wert im Zeitpunkt der Veräußerung.\n▸ Im Beispiel: 5 von 8 Jahren = 62,5 %; Restbuchwert 120.000 € – 5 × 15.000 € = 45.000 €; gemeiner Wert 50.000 € ist höher, maßgebend also 45.000 €. Optionspreis 30.000 € liegt darunter: Zurechnung beim Leasingnehmer.\n▸ Folge beim Leasingnehmer: Aktivierung mit den Anschaffungskosten, die der Ratenberechnung zugrunde liegen, AfA über die Nutzungsdauer (§ 7 Abs. 1 EStG), Verbindlichkeit gegenüber dem Leasinggeber; die Raten werden in einen sofort abziehbaren Zins- und Kostenanteil und einen erfolgsneutralen Tilgungsanteil aufgeteilt (BMF vom 19.04.1971).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+      "caption": "Finanzierungsleasing: Wem ist die Maschine zuzurechnen? Der Rechenweg mit 40/90-Regel und Kaufoption.\n\n▸ Grundsatz: Zurechnung beim Eigentümer; wer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausschließen kann, dem wird das Wirtschaftsgut zugerechnet (§ 39 Abs. 1, Abs. 2 Nr. 1 AO).\n▸ Vollamortisationsleasing über bewegliche Wirtschaftsgüter (BMF vom 19.04.1971): Ohne Option liegt das wirtschaftliche Eigentum regelmäßig beim Leasinggeber, wenn die Grundmietzeit mindestens 40 % und höchstens 90 % der betriebsgewöhnlichen Nutzungsdauer beträgt.\n▸ Mit Kaufoption bleibt es nur dann beim Leasinggeber, wenn der Optionspreis nicht niedriger ist als der Buchwert nach linearer AfA laut AfA-Tabelle oder der niedrigere gemeine Wert im Zeitpunkt der Veräußerung.\n▸ Im Beispiel: 5 von 8 Jahren = 62,5 %; Restbuchwert 120.000 € – 5 × 15.000 € = 45.000 €; gemeiner Wert 50.000 € ist höher, maßgebend also 45.000 €. Optionspreis 30.000 € liegt darunter: Zurechnung beim Leasingnehmer.\n▸ Folge beim Leasingnehmer: Aktivierung mit den Anschaffungskosten, die der Ratenberechnung zugrunde liegen, AfA über die Nutzungsdauer (§ 7 Abs. 1 EStG), Verbindlichkeit gegenüber dem Leasinggeber; die Raten werden in einen sofort abziehbaren Zins- und Kostenanteil und einen erfolgsneutralen Tilgungsanteil aufgeteilt (BMF vom 19.04.1971).\n\nZum Schluss: § 39 AO und BMF vom 19.04.1971, Abschn. III. 2. b) zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -116,7 +116,7 @@
       ],
       "quellen": [
         "§ 39 Abs. 1, Abs. 2 Nr. 1 AO",
-        "BMF vom 19.04.1971, IV B/2 – S 2170 – 31/71",
+        "BMF vom 19.04.1971, IV B/2 – S 2170 – 31/71, BStBl I 1971, 264, Abschn. I, III. 2. b)",
         "§ 7 Abs. 1 EStG"
       ],
       "slug": "2026-10-20-b1",
@@ -135,7 +135,7 @@
         {
           "art": "titel",
           "titel": "Rechenweg",
-          "text": "Rechenweg · Leasing: · wem gehört's? · § 39 Abs. 2 Nr. 1 AO · 40/90 + Option · + Markier-Guide § 39 AO · Grundmietzeit · 62,5 % · der Nutzungsdauer",
+          "text": "Rechenweg · Leasing: · wem gehört's? · § 39 Abs. 2 Nr. 1 AO · 40/90 + Option · + Markier-Guide § 39 AO + BMF · Grundmietzeit · 62,5 % · der Nutzungsdauer",
           "bild": "op-cover"
         },
         {
@@ -171,12 +171,17 @@
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Lösung: Zurechnung beim Leasingnehmer · Optionspreis 30.000 € liegt unter 45.000 € · Quote rechnen, · Restbuchwert linear, · Optionspreis vergleichen, · Zurechnung ableiten. · Speichern für Klausur 3 · Wem hättest du sie zugerechnet? · Weiterwischen: § 39 AO markiert"
+          "text": "Lösung: Zurechnung beim Leasingnehmer · Optionspreis 30.000 € liegt unter 45.000 € · Quote rechnen, · Restbuchwert linear, · Optionspreis vergleichen, · Zurechnung ableiten. · Speichern für Klausur 3 · Wem hättest du sie zugerechnet? · Weiterwischen: § 39 AO + BMF markiert"
         },
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "§ 39 AO Zurechnung · Leasingnehmer? · Grundmietzeit vs. ND · Kaufoption! · Randnotiz: BMF vom 19.04.1971 · 40/90-Regel und Kaufoption"
+          "text": "§ 39 AO Zurechnung · Leasingnehmer? · Grundmietzeit vs. ND · Kaufoption! · Weiterwischen: BMF vom 19.04.1971 · 40/90-Regel und Kaufoption"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "BMF vom 19.04.1971, III. 2. b) (Auszug) · Mirko · 62,5 % · 30.000 € < 45.000 € · Nutzungsdauer: amtliche AfA-Tabelle · BMF vom 19.04.1971, Abschn. I"
         }
       ]
     },
@@ -547,7 +552,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:25:12Z",
+    "erzeugtAm": "2026-10-03T13:04:57Z",
     "pfad": "vorproduktion/2026-10-20/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
