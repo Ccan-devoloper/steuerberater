@@ -4,702 +4,553 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-aufb-bil-melzer-6-01",
-        "themaTitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
-        "fach": "bilanz",
+        "format": "klausurtechnik",
+        "themaId": "klausurtechnik-k3-persg-2026-42",
+        "themaTitel": "PersG-Teil der Klausur 3: Aufbau, Tabelle, Darstellung",
+        "fach": "persg",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "klausurtechnik",
-        "themaId": "erbst-aufb-erbst-v-28",
-        "themaTitel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
-        "fach": "erbst",
+        "format": "rechenweg",
+        "themaId": "ao-aufb-ao-jacobs-7-9",
+        "themaTitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+        "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "est-aufb-est-ks2-17-05",
-        "themaTitel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
-        "fach": "est",
-        "klausur": 2,
-        "lang": false
+        "themaId": "istr-aufb-istr-gh-3-13",
+        "themaTitel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+        "fach": "istr",
+        "klausur": 2
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:12",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-40"
+        "themaId": "kst-quiz-kst-5"
       },
       {
         "slot": "s5",
-        "zeit": "07:12",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-40"
+        "themaId": "kst-quiz-kst-5"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:12",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-335"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:36",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-306"
+        "themaId": "persg-karte-k3-28"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "17:03",
-        "art": "fehler",
-        "themaId": "ao-modul-ao-305"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:09",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-modul-ao-362"
+        "themaId": "ust-karte-ust-12"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "gewst-aufb-gewst-ks-02"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "bilanz",
+      "format": "klausurtechnik",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-aufb-bil-melzer-6-01",
-      "slug": "2026-10-17-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "KG-Anteil: handelsrechtlich Vermögensgegenstand zu Anschaffungskosten, steuerlich kein eigenes Wirtschaftsgut. Er spiegelt das Kapital in der Gesellschaft; keine Teilwertabschreibung.",
-            "GmbH-Anteil: in beiden Bilanzen Wirtschaftsgut zu Anschaffungskosten (§ 6 Abs. 1 Nr. 2 EStG); Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Feststellen, ob Anteile an einer Personen- oder an einer Kapitalgesellschaft gehalten werden."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "KG: Beteiligungskonto an das steuerliche Kapital in der Gesellschaft anpassen. GmbH: Anschaffungskosten fortführen und Ausschüttungen erst mit dem Gewinnverwendungsbeschluss als Ertrag erfassen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "KG-Anteil: steuerlich nur Spiegelbild des Kapitalkontos, keine Teilwertabschreibung. GmbH-Anteil: eigenes Wirtschaftsgut zu Anschaffungskosten, Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Beteiligung an KG oder GmbH: Die KG-Beteiligung ist steuerlich kein eigenes Wirtschaftsgut und folgt dem Kapitalkonto (Spiegelbildmethode). Der GmbH-Anteil steht mit Anschaffungskosten in der Bilanz; eine Teilwertabschreibung wirkt bei einer Kapitalgesellschaft als Gesellschafterin wegen § 8b Abs. 3 KStG nicht, beim Einzelunternehmer nur zu 60 % (§ 3c Abs. 2 EStG).",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "klausurtechnik-k3-persg-2026-42",
+      "caption": "Klausur 3, PersG-Teil: So baust du deine Lösung auf.\n\n1. Sachverhalt zuordnen: Gesamthand, Ergänzungsbilanz oder Sonderbereich.\n2. Gesamthandsbilanz korrigieren, jeweils mit Gewinnauswirkung.\n3. Ergänzungsbilanzen je Gesellschafter fortführen.\n4. Sonderbilanz und Sonder-GuV: Vergütungen für Tätigkeit, Darlehen und Überlassung von Wirtschaftsgütern gehören zu den Einkünften des Gesellschafters (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n5. Gewinn verteilen: Gesamthand nach Schlüssel, Ergänzung und Sonder direkt; die Summe ist der Gesamtgewinn, der gesondert und einheitlich festgestellt wird (§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n\nTechnik: Tabelle mit einer Spalte je Gesellschafter früh anlegen und jedes Teilergebnis sofort eintragen – dann bleibt ein Fehler isoliert.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 31 Abs. 1 KStG",
-        "§ 246 Abs. 1 HGB",
-        "§ 253 Abs. 1 HGB",
-        "§ 255 Abs. 1 HGB",
-        "§ 3 EStG",
-        "§ 43a EStG",
-        "§ 36 Abs. 2 EStG",
-        "§ 271 HGB",
-        "§ 15 EStG",
-        "§ 4a Abs. 2 EStG",
-        "§ 6 Abs. 1 Nr. 2 EStG",
-        "§ 8b Abs. 3 KStG",
-        "§ 3c Abs. 2 EStG",
-        "Themenpool: bilanz-aufb-bil-melzer-6-01"
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
       ],
-      "coverRegie": {
-        "thema": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b1-bilanz-aufb-bil-melzer-6-01-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-17-b1",
+      "kurztitel": "PersG-Teil der Klausur 3: Aufbau, Tabelle, Darstellung",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · PersG-Teil · sauber aufbauen · in 5 Schritten · + Markier-Guide § 15 EStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Der Aufbau · Sachverhalt zuordnen · Gesamthandsbilanz korrigieren · Ergänzungsbilanzen fortführen · Sonderbilanz und Sonder-GuV · Gewinn verteilen · § 15 Abs. 1 S. 1 Nr. 2 EStG · Am Ende: § 15 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Vorab: die Tabelle · Lege früh eine Tabelle an: eine Spalte je Gesellschafter, Zeilen für Gesamthand, Ergänzung und Sonder. · Trage jedes Teilergebnis sofort ein, nicht erst am Ende. · So bleibt ein Fehler isoliert, die Folgepunkte bleiben dir. · Tabelle zuerst!"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Darstellung je Punkt · Norm, kurze Wertung, Buchungssatz mit Betrag. · Gewinnauswirkung immer mit Vorzeichen und Zuordnung zum Gesellschafter. · Keine Prosa, wo eine Zeile reicht. · Kurz und prüfbar."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Sonderbereich vergessen · Tätigkeitsvergütung, Miete oder Zinsen an Gesellschafter bleiben in der Gesamthand Aufwand. · Beim Gesellschafter fehlt dann der Ertrag in der Sonder-GuV. · § 15 Abs. 1 S. 1 Nr. 2 Hs. 2 EStG · Folge: Gesamtgewinn zu niedrig, alle Folgezahlen falsch. · Kostet richtig Punkte!"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Zum Schluss: verteilen · Gesamthandsgewinn nach dem vertraglichen Schlüssel verteilen. · Ergänzungs- und Sonderergebnisse direkt dem jeweiligen Gesellschafter zurechnen. · Summe ist der Gesamtgewinn, gesondert und einheitlich festgestellt. · § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Probe: Summe stimmt?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Tabelle früh, Ergebnisse sofort eintragen · Sonderbereich nie vergessen · Zuordnen, buchen, · eintragen, verteilen, · Summe ist der · Gesamtgewinn. · Speichern für Klausur 3 · Wie baust du deine Tabelle? · Weiterwischen: § 15 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Stufe 1: Gesamthand · Stufe 2: Sonderbereich · Feststellung: § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Gesamtgewinn einheitlich für alle"
+        }
+      ]
     },
     "b2": {
-      "format": "klausurtechnik",
-      "fach": "erbst",
+      "format": "rechenweg",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-aufb-erbst-v-28",
-      "slug": "2026-10-17-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
-          "coverBadge": null,
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Der Satz richtet sich nach Steuerklasse und Höhe des auf volle 100 € abgerundeten Erwerbs; in Klasse I reicht er von 7 % bis 30 %, in Klasse II von 15 % bis 43 %, in Klasse III beträgt er 30 % oder 50 %.",
-            "Die Wertgrenzen liegen bei 75.000 €, 300.000 €, 600.000 €, 6 Mio. €, 13 Mio. € und 26 Mio. €."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Steuerpflichtigen Erwerb auf volle 100 € abrunden (§ 10 Abs. 1 S. 6 ErbStG)."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Steuerklasse und passende Wertstufe bestimmen und die Steuer auf den gesamten Erwerb berechnen."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Knapp über einer Wertgrenze: Härteausgleich nach § 19 Abs. 3 ErbStG. Die Mehrsteuer darf höchstens die Hälfte (Satz bis 30 %) bzw. drei Viertel (Satz über 30 %) des Überhangs betragen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Knapp über einer Wertgrenze rechnest du zweimal: normale Steuer und Steuer bis zur Grenze plus die Hälfte bzw. drei Viertel des Überschusses. Es gilt der niedrigere Betrag (§ 19 Abs. 3 ErbStG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Steuersatz nach § 19 Abs. 1 ErbStG: Steuerklasse und auf volle 100 € abgerundeter Erwerb bestimmen den Satz für den ganzen Erwerb. Liegt der Erwerb knapp über einer Wertgrenze, deckelt der Härteausgleich nach § 19 Abs. 3 ErbStG die Mehrsteuer.",
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-7-9",
+      "caption": "Grobes Verschulden bei § 173 AO – und wie § 177 AO trotzdem hilft. Der Rechenweg für Klausur 1.\n\n1. Neue Tatsache zuungunsten: nachträglich bekannte Mieteinnahmen 6.000 € (§ 173 Abs. 1 Nr. 1 AO).\n2. Neue Tatsache zugunsten: grundsätzlich nur ohne grobes Verschulden (§ 173 Abs. 1 Nr. 2 S. 1 AO). Das Verschulden ist unbeachtlich bei unmittelbarem oder mittelbarem Zusammenhang mit einer Tatsache nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO): Garagenkosten 2.500 €.\n3. Übrige materielle Fehler werden berichtigt, soweit die Änderung reicht (§ 177 Abs. 1, 3 AO): Fortbildungskosten 1.000 €.\nErgebnis: Einkünfte + 2.500 €.\n\nSperre: Ist der Bescheid auf Grund einer Außenprüfung ergangen, ist eine Änderung nach § 173 Abs. 1 AO nur bei Steuerhinterziehung oder leichtfertiger Steuerverkürzung möglich (§ 173 Abs. 2 S. 1 AO).\n\nZum Schluss: § 173 Abs. 1 AO zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
-      "coverBadge": null,
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 19 Abs. 1 ErbStG",
-        "§ 19 Abs. 3 ErbStG",
-        "H E 19 ErbStH",
-        "§ 10 Abs. 1 ErbStG",
-        "Themenpool: erbst-aufb-erbst-v-28"
+        "§ 173 Abs. 1 Nr. 1, 2, Abs. 2 AO",
+        "§ 177 Abs. 1, 3 AO"
       ],
-      "coverRegie": {
-        "thema": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b2-erbst-aufb-erbst-v-28-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-17-b2",
+      "kurztitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Grob verschuldet, · trotzdem ändern? · § 173 Abs. 1 Nr. 2 S. 2 AO · in 3 Schritten · + Markier-Guide § 173 AO · Änderung · +2.500 € · Einkünfte",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Sachverhalt · Lottes Einkommensteuerbescheid 2024 ist bestandskräftig. · 2026 erfährt das Finanzamt von 6.000 € nicht erklärten Mieteinnahmen für eine Garage. · Grob fahrlässig vergessen hatte Lotte auch 2.500 € Garagenkosten und 1.000 € Fortbildungskosten. · Ups."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schritt 1: neue Tatsache · Die Mieteinnahmen werden nachträglich bekannt und erhöhen die Steuer. · § 173 Abs. 1 Nr. 1 AO · Änderung zuungunsten: Einkünfte plus 6.000 €. · Das Finanzamt weiß es."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schritt 2: Zusammenhang · Grob verschuldete Tatsachen zu ihren Gunsten scheiden grundsätzlich aus. · § 173 Abs. 1 Nr. 2 S. 1 AO · Die Garagenkosten hängen aber unmittelbar mit den Mieteinnahmen zusammen. · Dann ist das Verschulden unbeachtlich: minus 2.500 €. · § 173 Abs. 1 Nr. 2 S. 2 AO · Glück gehabt!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Jetzt du · Und die 1.000 € Fortbildungskosten? Kein Zusammenhang, grob verschuldet. · Sind sie endgültig verloren? · Lösung: weiterwischen · Bitte nicht!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schritt 3: § 177 AO · § 177 Abs. 1, 3 AO · Mieteinnahmen (Nr. 1) · +6.000 € · Garagenkosten (Nr. 2 S. 2) · −2.500 € · Änderungsrahmen · +3.500 € · Fortbildung über § 177 · −1.000 € · Einkünfte steigen um · +2.500 € · Gegenrechnen nur, soweit die Änderung reicht"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Sperre nach Außenprüfung · War der Bescheid nach einer Außenprüfung ergangen, greift § 173 Abs. 1 AO nicht mehr. · § 173 Abs. 2 S. 1 AO · Ausnahme: Steuerhinterziehung oder leichtfertige Steuerverkürzung. · Prüfung schützt auch."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Lotte: Einkünfte steigen nur um 2.500 € · 6.000 € − 2.500 € − 1.000 € · Nr. 1 öffnet, · Zusammenhang entschuldigt, · § 177 rechnet · gegen. · Speichern für Klausur 1 · Wie wäre es ohne die Mieteinnahmen? · Weiterwischen: § 173 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Nr. 1 · Hürde · Ausnahme · Dazu: § 177 Abs. 1 AO · materielle Fehler, soweit die Änderung reicht"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "est",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "themaId": "est-aufb-est-ks2-17-05",
-      "slug": "2026-10-17-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
-          "unter": "Einkommensteuer",
-          "text": "Zwei Fünf-Jahres-Regeln entscheiden über den Verlustabzug.",
-          "norm": "§ 17 Abs. 2 Satz 6 EStG",
-          "icon": null,
-          "sprecher": "Ein Verlust aus dem Verkauf von GmbH-Anteilen wirkt grundsätzlich zu 60 Prozent. § 17 Absatz 2 Satz 6 EStG schließt ihn aber für bestimmte Anteile aus. Welche sind das?",
-          "marken": [
-            "Verlust aus § 17 EStG",
-            "Abzugssperre prüfen"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Unentgeltlich in den letzten fünf Jahren erworben?",
-          "text": null,
-          "norm": "§ 17 Abs. 2 S. 6 Buchst. a EStG",
-          "icon": null,
-          "sprecher": "Hast du die Anteile innerhalb der letzten fünf Jahre geschenkt oder geerbt bekommen, bleibt der Verlust außen vor. Es sei denn, dein Rechtsvorgänger hätte ihn selbst geltend machen können.",
-          "marken": [
-            "Geschenkt oder geerbt",
-            "Ausnahme: Vorgänger-Verlust"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Gekauft, aber keine fünf Jahre wesentlich beteiligt?",
-          "text": null,
-          "norm": "§ 17 Abs. 2 S. 6 Buchst. b EStG",
-          "icon": null,
-          "sprecher": "Gekaufte Anteile zählen nur, wenn sie die ganzen letzten fünf Jahre zu einer Beteiligung von mindestens einem Prozent gehörten. Ausnahme: Ihr Erwerb hat diese Beteiligung erst begründet oder sie kamen danach hinzu.",
-          "marken": [
-            "Fünf Jahre mindestens 1 %",
-            "Ausnahme: begründender Zukauf"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Ein Verlust nach § 17 EStG wirkt zu 60 % (§ 3c Abs. 2 EStG), außer § 17 Abs. 2 S. 6 EStG sperrt ihn wegen unentgeltlichen Erwerbs oder zu kurzer wesentlicher Beteiligung.",
-          "sprecher": "Merke: Ein Verlust aus Anteilen zählt nur, wenn die Fünf-Jahres-Regeln erfüllt sind. Dann wirkt er nach dem Teileinkünfteverfahren zu 60 Prozent.",
-          "marken": [
-            "Fünf Jahre beachten",
-            "Verlust zu 60 %"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt? Nach § 17 Abs. 2 S. 6 EStG, soweit er auf Anteile entfällt, die du in den letzten fünf Jahren unentgeltlich erworben hast (außer der Rechtsvorgänger hätte den Verlust nutzen können), oder auf gekaufte Anteile, die nicht die ganzen fünf Jahre zu einer Beteiligung von mindestens 1 % gehörten (außer der Zukauf hat die Beteiligung begründet oder folgte ihr). Abziehbare Verluste wirken zu 60 % (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG).",
+      "fachLabel": "Int. Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-3-13",
+      "caption": "Beschränkt steuerpflichtig veranlagt: Was § 50 EStG streicht. 🌍\n\n▸ Kein Grundfreibetrag: Das zu versteuernde Einkommen wird um den Grundfreibetrag (2026: 12.348 €, § 32a Abs. 1 S. 2 Nr. 1 EStG) erhöht; bei Arbeitnehmereinkünften nach § 49 Abs. 1 Nr. 4 EStG nur, soweit er diese Einkünfte übersteigt (§ 50 Abs. 1 S. 2 EStG).\n▸ Nicht anzuwenden sind u. a. weite Teile von § 10, §§ 10a, 10c, 16 Abs. 4, 24b, 32, 33, 33a, 33b, 35a und 35c EStG (§ 50 Abs. 1 S. 4 EStG); für Arbeitnehmer gelten Ausnahmen (§ 50 Abs. 1 S. 5 EStG).\n▸ Betriebsausgaben und Werbungskosten nur, soweit sie mit inländischen Einkünften in wirtschaftlichem Zusammenhang stehen (§ 50 Abs. 1 S. 1 EStG).\n▸ Zusammenveranlagung setzt unbeschränkte Steuerpflicht beider Ehegatten voraus (§ 26 Abs. 1 S. 1 Nr. 1 EStG).\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#einkommensteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 17 Abs. 2 Satz 6 EStG",
-        "§ 17 Abs. 3 EStG",
-        "§ 3 Nr. 40 c) EStG",
-        "§ 3c Abs. 2 Satz 1 EStG",
-        "§ 3c Abs. 2 Satz 7 EStG",
-        "§ 34 Abs. 2 Nr. 1 EStG",
-        "§ 35 Abs. 1 Satz 3 EStG",
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "R 17 Abs. 9 EStR",
-        "H 17 Abs. 7 EStH",
-        "Themenpool: est-aufb-est-ks2-17-05"
+        "§ 50 Abs. 1 S. 1, 2, 4, 5 EStG",
+        "§ 32a Abs. 1 S. 2 Nr. 1 EStG",
+        "§ 26 Abs. 1 S. 1 Nr. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-17-b3-est-aufb-est-ks2-17-05-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-17-b3",
+      "kurztitel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Gebietsfremd: was fällt weg?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Grundfreibetrag"
+        },
+        {
+          "art": "schritt",
+          "titel": "Gestrichen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Kosten"
+        }
+      ],
+      "sprecher": [
+        "Gleiches Einkommen, anderer Wohnsitz. Wer in Deutschland wohnt, hat einen Grundfreibetrag. Wer gebietsfremd ist, meist nicht.",
+        "Paragraf fünfzig erhöht das zu versteuernde Einkommen um den Grundfreibetrag. Bei Arbeitnehmern mit inländischem Lohn bleibt er bis zur Höhe des Lohns.",
+        "Gestrichen sind außerdem die meisten Sonderausgaben, außergewöhnliche Belastungen und Kinderfreibeträge.",
+        "Kosten zählen nur, wenn sie mit den inländischen Einkünften zusammenhängen.",
+        "Merke: Gebietsfremd heißt Steuer ab dem ersten Euro."
+      ],
+      "dauerS": 36.879,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-40",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-40"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Verzicht auf werthaltige",
+        "Forderung: Ertrag?",
+        "Außerbilanziell abziehen: verdeckte Einlage",
+        "Bleibt voll steuerpflichtig",
+        "Nur zu 5 % steuerpflichtig",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Du erwirbst ein Gebäude mit Abbruchabsicht und baust neu. Wohin gehören die Abbruchkosten?",
-      "titel": "Du erwirbst ein Gebäude mit Abbruchabsicht und baust neu. Wohin gehören die Abbruchkosten?",
-      "optionen": [
-        "laufender Aufwand",
-        "Grund und Boden",
-        "Herstellungskosten des Neubaus"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-40",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-40"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "A: verdeckte",
+        "Einlage",
+        "Außerbilanziell abziehen: verdeckte Einlage",
+        "Bleibt voll steuerpflichtig",
+        "Nur zu 5 % steuerpflichtig",
+        "Verzichtet der Gesellschafter, erhöht das das Einkommen nicht, soweit die Forderung werthaltig ist.",
+        "§ 8 Abs. 3 S. 3 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "Herstellungskosten des Neubaus",
-      "optionen": [
-        "laufender Aufwand",
-        "Grund und Boden",
-        "Herstellungskosten des Neubaus"
-      ],
-      "richtig": 2,
-      "text": "Bei Erwerb mit Abbruchabsicht zählen Abbruchkosten zu den Herstellungskosten des Neubaus, wenn Abbruch und Neubau eng zusammenhängen, sonst zum Grund und Boden (H 6.4 EStH). Ohne Abbruchabsicht: sofort Aufwand.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-335",
-      "quellen": [
-        "§ 171 Abs. 4 S. 1 AO",
-        "§ 196 AO",
-        "AEAO zu § 171 Nr. 3.2",
-        "§ 171 Abs. 4 S. 1–8 AO",
-        "Art. 97 § 37 Abs. 2 EGAO",
-        "Themenpool: ao-modul-ao-335"
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-karte-k3-28",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Realteilung:",
+        "echt oder unecht?",
+        "§ 16 Abs. 3 S. 2 EStG",
+        "Echt: Die Gesellschaft endet und wird aufgeteilt.",
+        "BMF vom 19.12.2018, Rn. 1",
+        "Unecht: Einer geht mit Sachwerten ins Betriebsvermögen, der Rest macht weiter.",
+        "BMF vom 19.12.2018, Rn. 2"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 171 Abs. 4 S. 1 AO",
-      "titel": "Außenprüfung: Ablaufhemmung nach § 171 Abs. 4 AO – Beginn, Ende und Reichweite",
-      "text": "Beginnt die Außenprüfung vor Fristablauf oder wird sie auf deinen Antrag verschoben, ist der Ablauf gehemmt. Für ab 2025 entstandene Steuern endet die Hemmung grundsätzlich fünf Jahre nach dem Jahr der Prüfungsanordnung.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-306",
-      "quellen": [
-        "§ 124 AO",
-        "§ 125 AO",
-        "§ 119 AO",
-        "§ 157 AO",
-        "§ 196 AO",
-        "§ 191 AO",
-        "§ 45 AO",
-        "Themenpool: ao-modul-ao-306"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Erst skizzieren,",
+        "dann schreiben",
+        "Wenige Minuten Stichworte: Normen und Ergebnis je Teil.",
+        "Dann zügig ausformulieren.",
+        "Spart Umwege und Streichungen."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Wirksamkeit und Nichtigkeit von Verwaltungsakten",
-      "text": "Ein VA wird mit Bekanntgabe wirksam und bleibt es trotz Fehlern, bis er aufgehoben ist oder sich erledigt hat (§ 124 Abs. 1, 2 AO). Von Anfang an unwirksam ist nur der nichtige VA (§ 124 Abs. 3, § 125 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "fehler",
-      "fach": "ao",
+      "art": "tipp",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-305",
-      "quellen": [
-        "§ 118 AO",
-        "§ 155 AO",
-        "§§ 167, 168 AO",
-        "§ 179 AO",
-        "§ 239 AO",
-        "§ 164 AO",
-        "§ 165 AO",
-        "§§ 172–177 AO",
-        "§ 130 AO",
-        "§ 131 AO",
-        "Themenpool: ao-modul-ao-305"
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Rechnung:",
+        "Pflichtangaben",
+        "Namen, Anschriften, Steuer- oder USt-IdNr.",
+        "§ 14 Abs. 4 S. 1 Nr. 1, 2 UStG",
+        "Datum, Rechnungsnummer, Menge und Art",
+        "§ 14 Abs. 4 S. 1 Nr. 3–5 UStG",
+        "Leistungszeitpunkt, Entgelt, Steuersatz, Steuerbetrag",
+        "§ 14 Abs. 4 S. 1 Nr. 6–8 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Steuerbescheid oder sonstiger VA? Davon hängt die Korrekturnorm ab",
-      "falsch": "§§ 172 ff. AO auf jeden sonstigen VA anwenden.",
-      "richtigText": "Steuerbescheide und gleichgestellte Bescheide änderst du nach §§ 172 ff. AO, sonstige VA nach §§ 130, 131 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-362",
-      "quellen": [
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "§ 175 Abs. 1 S. 2 AO",
-        "§ 175 Abs. 2 AO",
-        "§ 171 Abs. 10a AO",
-        "§ 175b Abs. 1 AO",
-        "§ 175b Abs. 2 AO",
-        "§ 175 Abs. 1 Nr. 2 und S. 2 AO",
-        "§ 175b Abs. 1 und 2 AO",
-        "Themenpool: ao-modul-ao-362"
+      "art": "merksatz",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-02",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Merksatz",
+        "GewSt-Pflicht:",
+        "ab wann?",
+        "Personenunternehmen:",
+        "ab werbender Tätigkeit,",
+        "GmbH: spätestens",
+        "ab Eintragung.",
+        "§ 2 Abs. 1, 2 GewStG; R 2.5 Abs. 1, 2 GewStR"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "§ 175 Abs. 1 S. 1 Nr. 2 AO: rückwirkendes Ereignis und Fristbeginn",
-      "text": "Ein nach Bescheiderlass eingetretenes Ereignis, das steuerlich zurückwirkt, erlaubt die Änderung. Die Festsetzungsfrist läuft dann erst ab Ende des Kalenderjahres, in das das Ereignis fällt (§ 175 Abs. 1 S. 2 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Personengesellschaften",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "PersG-Teil sauber aufbauen",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Grob verschuldet, trotzdem ändern?",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "est",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wann bleibt ein Verlust aus § 17 EStG unberücksichtigt?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Int. Steuerrecht",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Int. Steuerrecht",
+        "Neu im Feed",
+        "Gebietsfremd: was fällt weg?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:45:35.527Z",
+    "erzeugtAm": "2026-10-03T04:37:58Z",
     "pfad": "vorproduktion/2026-10-17/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -711,5 +562,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
