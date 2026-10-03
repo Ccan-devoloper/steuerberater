@@ -1074,15 +1074,17 @@
       "b"
      ],
      [
-      " der Gebäudekosten",
+      " der Kosten",
       null
      ]
     ],
     [
      [
-      "netto: ",
+      "des Gebäudes, netto:",
       null
-     ],
+     ]
+    ],
+    [
      [
       "Herstellungskosten",
       "c"
