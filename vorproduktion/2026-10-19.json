@@ -4,50 +4,44 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "istr-aufb-istr-gh-4-04",
-        "themaTitel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
-        "fach": "istr",
+        "format": "pruefungsfrage",
+        "themaId": "est-aufb-est-ks2-17-04",
+        "themaTitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+        "fach": "est",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "bilanz-modul-k3-23",
-        "themaTitel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
-        "fach": "bilanz",
+        "themaId": "umwst-aufb-umw-2-48",
+        "themaTitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+        "fach": "umwst",
         "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-aufb-ao-jacobs-3-11",
-        "themaTitel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
-        "fach": "ao",
-        "klausur": 1,
-        "lang": false
+        "themaId": "ust-karte-ust-2",
+        "themaTitel": "Lieferung (§ 3 Abs. 1 UStG)",
+        "fach": "ust",
+        "klausur": 1
       }
     ],
     "stories": [
@@ -55,657 +49,512 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-37"
+        "themaId": "ust-quiz-ust-14"
       },
       {
         "slot": "s5",
-        "zeit": "07:07",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-37"
+        "themaId": "ust-quiz-ust-14"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:51",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-358"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:37",
-        "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-7-5"
+        "themaId": "est-aufb-est-ks2-17-05"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "17:05",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-modul-ao-301"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:13",
-        "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-13-5"
+        "themaId": "bilanz-karte-k3-13"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-8-14"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "istr",
+      "format": "pruefungsfrage",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-aufb-istr-gh-4-04",
-      "slug": "2026-10-19-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Du weißt, dass ein DBA ein völkerrechtlicher Vertrag ist, der erst durch das Zustimmungsgesetz im Inland anwendbar wird.",
-            "Du kennst die Entscheidung des BVerfG von 2015, nach der ein Treaty Override verfassungsrechtlich zulässig ist."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Ermittle nach dem DBA, ob Deutschland als Ansässigkeitsstaat die Einkünfte freistellen müsste."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Prüfe bei Arbeitslohn, ob die ausländische Besteuerung oder ein Verzicht des anderen Staates nachgewiesen ist."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Ein Treaty Override ist verfassungsgemäß (BVerfG 2015): Das spätere Gesetz wie § 50d Abs. 8 EStG geht dem DBA-Zustimmungsgesetz vor. Fehlt bei Arbeitslohn der Nachweis der Auslandsbesteuerung oder des Verzichts, wird er trotz DBA im Inland besteuert; wird der Nachweis nachgereicht, ist der Bescheid zu ändern."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Treaty Override: Darf der Gesetzgeber ein DBA einseitig überspielen? Ja, das BVerfG hält das für zulässig. Was das für die Freistellung von Arbeitslohn nach § 50d Abs. 8 EStG bedeutet, siehst du hier.",
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-17-04",
+      "caption": "Gesellschafterdarlehen ausgefallen – erhöht das die Anschaffungskosten nach § 17 EStG? Die Klausurfrage mit Lösung.\n\n▸ Darlehensverluste gehören zu den nachträglichen Anschaffungskosten, soweit Gewährung oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG).\n▸ Maßstab ist der Fremdvergleich: Hätte eine fremde Bank unter denselben Bedingungen das Geld nicht gegeben oder schon zurückverlangt, ist die Veranlassung regelmäßig gesellschaftsrechtlich (§ 17 Abs. 2a S. 4 EStG).\n▸ Bei einem in der Krise stehen gelassenen Darlehen führt nur der bei Kriseneintritt noch werthaltige Teil zu nachträglichen Anschaffungskosten (BFH vom 18.07.2023, IX R 21/21). Den übrigen Ausfall prüfst du bei den Einkünften aus Kapitalvermögen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n▸ Die Auflösung der GmbH gilt als Veräußerung (§ 17 Abs. 4 EStG); Anschaffungskosten wirken im Teileinkünfteverfahren nur zu 60 % (§ 3c Abs. 2 S. 1 EStG).\n\nIm Beispiel: 50.000 € + 30.000 € = 80.000 € Anschaffungskosten, Verlust 80.000 €, davon 48.000 € abziehbar.\n\nZum Schluss: § 17 Abs. 2a EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Darf der Gesetzgeber ein DBA einseitig überspielen",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 50d Abs. 9 EStG",
-        "§ 50d EStG",
-        "§ 50d Abs. 8 EStG",
-        "Themenpool: istr-aufb-istr-gh-4-04"
+        "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG",
+        "§ 17 Abs. 4 EStG",
+        "§ 3c Abs. 2 S. 1 EStG",
+        "§ 20 Abs. 2 S. 1 Nr. 7 EStG",
+        "BFH vom 18.07.2023, IX R 21/21"
       ],
-      "coverRegie": {
-        "thema": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-19-b1-istr-aufb-istr-gh-4-04-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-19-b1",
+      "kurztitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Darlehen weg, · AK rauf? · § 17 Abs. 2a EStG · Der Klausurfall · + Markier-Guide § 17 EStG · Darlehen · 80.000 € · ausgefallen",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Der Fall · Rasmus hält 30 % der Kranich GmbH, Anschaffungskosten 50.000 €. · 2022 leiht er ihr 80.000 €, sie ist gesund. · 2024 Krise: Er lässt das Geld stehen, Wert 30.000 €. · 2026 Auflösung: Alles ist wertlos. · Was zählt davon?"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Jetzt du · Erhöhen die 80.000 € die Anschaffungskosten voll? · Oder nur ein Teil – und wo landet der Rest? · Erst rechnen, dann weiterwischen · Deine Lösung?"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Die Regel · Darlehensverluste sind nachträgliche Anschaffungskosten, · § 17 Abs. 2a S. 3 Nr. 2 EStG · soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war. · Test: Hätte eine fremde Bank das Geld zurückgefordert? · § 17 Abs. 2a S. 4 EStG · Bank wäre weg!"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Nicht der Nennwert · Beim Stehenlassen zählt nur der Wert zu Beginn der Krise. · BFH vom 18.07.2023, IX R 21/21 · Hier also 30.000 €, nicht 80.000 €. · Die übrigen 50.000 € bei den Kapitaleinkünften prüfen. · § 20 Abs. 2 S. 1 Nr. 7 EStG · Nur 30.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Lösung in Zahlen · § 17 Abs. 4 EStG · § 3c Abs. 2 S. 1 EStG · Anschaffungskosten Kauf · 50.000 € · + Darlehen, Wert bei Krise · 30.000 € · = Anschaffungskosten · 80.000 € · Auflösungsverlust · – 80.000 € · davon 60 % abziehbar · – 48.000 € · Rest 50.000 €: bei § 20 EStG prüfen"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Lösung: Verlust nach § 17 EStG 48.000 € · Darlehen zählt nur mit dem Wert bei Krisenbeginn · Krise prüfen, · Fremdvergleich anstellen, · Wert bei Krise ansetzen, · Rest bei § 20 prüfen. · Speichern für Klausur 2 · Hättest du 80.000 € angesetzt? · Weiterwischen: § 17 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "nachträgliche AK · Zeitpunkt! · Prüfstein · Fremdvergleich · Randnotiz: BFH IX R 21/21 · Stehengelassen: Wert bei Krisenbeginn"
+        }
+      ]
     },
     "b2": {
       "format": "schema",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-23",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-48",
+      "caption": "Sperrfrist nach einer Einbringung verletzt? Das Prüfschema zu § 22 Abs. 1 UmwStG in 4 Schritten.\n\n1. Empfänger: Gehen die Anteile ohne Gegenleistung an eine Kapitalgesellschaft oder Genossenschaft, ist das schädlich (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG). Bei unentgeltlicher Rechtsnachfolge, etwa Schenkung an ein Kind, tritt der Rechtsnachfolger an die Stelle des Einbringenden (§ 22 Abs. 6 UmwStG).\n2. Entgelt: Veräußerung innerhalb von sieben Jahren löst rückwirkend den Einbringungsgewinn I aus (§ 22 Abs. 1 S. 1 UmwStG); entgeltliche Übertragungen sind schädlich, außer bei nachgewiesener Buchwerteinbringung nach § 20 Abs. 1 oder § 21 Abs. 1 UmwStG ohne zu hohe sonstige Gegenleistung (§ 22 Abs. 1 S. 6 Nr. 2 UmwStG).\n3. Weitereinbringung: Ketteneinbringungen nur zum Buchwert mit Nachweis (§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG). Ein Zwischenwert reicht nicht.\n4. Gesellschaft: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG).\n\nFolge: Versteuerung im Wirtschaftsjahr der Einbringung als rückwirkendes Ereignis (§ 22 Abs. 1 S. 1, 2 UmwStG, § 175 Abs. 1 S. 1 Nr. 2 AO), Minderung um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG), nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n\nZum Schluss: § 22 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ],
+      "quellen": [
+        "§ 22 Abs. 1 S. 1–4, 6 Nr. 1–5 UmwStG",
+        "§ 22 Abs. 6 UmwStG",
+        "§ 175 Abs. 1 S. 1 Nr. 2 AO"
+      ],
       "slug": "2026-10-19-b2",
+      "kurztitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
       "folien": [
         {
           "art": "titel",
-          "titel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
-          "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Sperrfrist · verletzt? · § 22 Abs. 1 S. 6 UmwStG · in 4 Schritten · + Markier-Guide § 22 UmwStG · Sperrfrist · 7 Jahre · ab Einbringung",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Dreijahreszeitraum und 15-%-Grenze netto auf die Gebäude-Anschaffungskosten beziehen",
-            "Erweiterungen und jährlich übliche Erhaltungsarbeiten aus der 15-%-Berechnung herausnehmen; Erweiterungen aber als originäre Herstellungskosten aktivieren"
-          ]
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Der Check · Wer bekommt die Anteile? · § 22 Abs. 1 S. 6 Nr. 1 UmwStG · Kapitalgesellschaft oder Mensch · Gegen Entgelt? · § 22 Abs. 1 S. 6 Nr. 2 UmwStG · grundsätzlich schädlich · Weitereinbringung? · § 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG · nur Buchwert mit Nachweis · Was macht die GmbH? · § 22 Abs. 1 S. 6 Nr. 3 UmwStG · Auflösung, Kapitalrückzahlung · Am Ende: § 22 UmwStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Anschaffungszeitpunkt und Dreijahreszeitraum bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Gebäude-Anschaffungskosten als Bezugsgröße und 15-%-Grenze ohne Umsatzsteuer berechnen."
-            }
-          ]
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "1 · Wer bekommt sie? · Dragan brachte 2023 sein Einzelunternehmen zum Buchwert in eine GmbH ein. · Schenkt er die Anteile Tochter Liv: unschädlich, sie tritt in die Frist ein. · § 22 Abs. 6 UmwStG · Unentgeltlich in eine GmbH: schädlich. · § 22 Abs. 1 S. 6 Nr. 1 UmwStG · Frist läuft weiter"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Übersteigen Instandsetzung und Modernisierung in den ersten drei Jahren nach Anschaffung netto 15 % der Gebäude-Anschaffungskosten, werden sie zu Herstellungskosten und laufen über die Gebäude-AfA (§ 6 Abs. 1 Nr. 1a, § 7 Abs. 4 EStG). Sonst bleiben sie sofort abziehbarer Erhaltungsaufwand."
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "2 · Gegen Entgelt? · Verkauf und Tausch innerhalb der sieben Jahre sind schädlich. · § 22 Abs. 1 S. 1 UmwStG · Auch eine Einbringung in eine andere GmbH ist entgeltlich. · § 22 Abs. 1 S. 6 Nr. 2 UmwStG · Rettung nur: Buchwert und Nachweis, Gegenleistung in den Grenzen. · Tausch ist Verkauf"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "3 · Zwischenwert reicht nicht · Dragan bringt die Anteile zu einem Zwischenwert in eine Holding ein. · Kein Buchwert, also schädlich: Einbringungsgewinn I entsteht. · § 22 Abs. 1 S. 6 Nr. 2 UmwStG · Dass die Anteile weiter in einer GmbH stecken, hilft nicht. · Aber Holding?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "4 · Was macht die GmbH? · Sie wird aufgelöst und abgewickelt. · Sie setzt Kapital herab und zahlt es zurück. · Sie zahlt Beträge aus dem Einlagekonto aus. · § 22 Abs. 1 S. 6 Nr. 3 UmwStG · Auch ohne Verkauf: Einbringungsgewinn I · Ohne Verkauf?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Die Folge · Gewinn rückwirkend im Jahr der Einbringung versteuern. · § 22 Abs. 1 S. 1, 2 UmwStG · Je abgelaufenes Zeitjahr ein Siebtel weniger. · § 22 Abs. 1 S. 3 UmwStG · Der Betrag erhöht die Anschaffungskosten der Anteile. · § 22 Abs. 1 S. 4 UmwStG · Rückwirkend!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Fast jede Übertragung ist schädlich · Unschädlich: Schenkung an Menschen, Buchwert mit Nachweis · Empfänger prüfen, · Entgelt klären, · Buchwert nachweisen, · Siebtel abziehen. · Speichern für Klausur 3 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 22 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "schädlich · Grundfall · Rettung · Schenkung ok · Rückwirkung: § 22 Abs. 1 S. 2 UmwStG · Bescheid des Einbringungsjahres wird geändert"
         }
-      ],
-      "caption": "Gebäude nach dem Kauf saniert? So prüfst du Dreijahreszeitraum und 15-%-Grenze des § 6 Abs. 1 Nr. 1a EStG und erkennst, wann aus Erhaltungsaufwand Herstellungskosten werden.",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#bilanzsteuerrecht"
-      ],
-      "kurztitel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
-      "coverBadge": "Klausurschema",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 253 Abs. 1 S. 1 HGB",
-        "§ 255 Abs. 1 S. 1 HGB",
-        "§ 6 Abs. 1 Nr. 1 EStG",
-        "§ 6 Abs. 1 Nr. 1a S. 1 EStG",
-        "§ 6 Abs. 1 Nr. 1a S. 2 EStG",
-        "§ 7 Abs. 4 S. 1 Nr. 1, 2 EStG",
-        "§ 7 Abs. 4 S. 2 EStG",
-        "§ 7 Abs. 5a EStG",
-        "R 21.1 EStR",
-        "§ 7 Abs. 4, 5a EStG",
-        "§ 6 Abs. 1 Nr. 1a EStG",
-        "§ 255 Abs. 2 HGB",
-        "BMF 26.01.2026 – IV C 1 - S 2253/00082/001/064",
-        "Themenpool: bilanz-modul-k3-23"
-      ],
-      "coverRegie": {
-        "thema": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-19-b2-bilanz-modul-k3-23-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "ao",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-aufb-ao-jacobs-3-11",
-      "slug": "2026-10-19-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
-          "unter": "Abgabenordnung",
-          "text": "Seit 2025 zählt der vierte Tag nach Aufgabe zur Post, nicht mehr der dritte.",
-          "norm": "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
-          "icon": null,
-          "sprecher": "Wann gilt ein Steuerbescheid als bekannt gegeben? Seit 2025 grundsätzlich am vierten Tag nach Aufgabe zur Post. Davon hängt der Beginn der Einspruchsfrist ab.",
-          "marken": [
-            "Vier Tage statt drei",
-            "§ 122 Abs. 2 Nr. 1 AO"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Brief: vierter Tag, ins Ausland ein Monat",
-          "text": null,
-          "norm": "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
-          "icon": null,
-          "sprecher": "Ein Bescheid per einfachem Brief gilt als bekannt gegeben am vierten Tag nach Aufgabe zur Post, bei Post ins Ausland erst einen Monat danach. Fällt dieser Tag auf ein Wochenende oder einen Feiertag, zählt der nächste Werktag.",
-          "marken": [
-            "Vierter Tag nach Aufgabe"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Elektronisch: ebenfalls der vierte Tag",
-          "text": null,
-          "norm": "§ 122 Abs. 2a AO",
-          "icon": null,
-          "sprecher": "Ein elektronisch übermittelter Bescheid gilt am vierten Tag nach Absendung als bekannt gegeben. Beim Datenabruf zählt seit 2026 der vierte Tag nach der Bereitstellung zum Abruf, § 122a Abs. 4 AO.",
-          "marken": [
-            "Auch digital vier Tage"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Früherer Zugang ändert nichts, es bleibt beim vierten Tag. Geht der Bescheid später oder gar nicht zu, muss im Zweifel das Finanzamt den Zugang beweisen.",
-          "sprecher": "Merke: Kommt der Bescheid früher an, bleibt es beim vierten Tag. Bestreitest du den Zugang, muss ihn im Zweifel das Finanzamt beweisen.",
-          "marken": [
-            "Früher Zugang egal",
-            "Zweifel: Finanzamt beweist"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Viertagesfiktion: Seit 2025 gilt ein Steuerbescheid per Post als bekannt gegeben am vierten Tag nach Aufgabe zur Post. So berechnest du den Beginn der Einspruchsfrist richtig.",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-2",
+      "caption": "Lieferung unter Eigentumsvorbehalt: Wann ist geliefert? 🔑\n\n▸ Lieferung ist die Verschaffung der Verfügungsmacht: Der Abnehmer kann im eigenen Namen über den Gegenstand verfügen (§ 3 Abs. 1 UStG). Es geht um den Übergang von Substanz, Wert und Ertrag, nicht zwingend um das zivilrechtliche Eigentum (Abschn. 3.1 Abs. 2 UStAE).\n▸ Wer unter Eigentumsvorbehalt verkauft und übergibt, liefert mit der Übergabe; anders bei der Sicherungsübereignung, die noch keine Verfügungsmacht verschafft (Abschn. 3.1 Abs. 3 UStAE).\n▸ Bei Sollversteuerung entsteht die Steuer mit Ablauf des Voranmeldungszeitraums der Lieferung (§ 13 Abs. 1 Nr. 1 Buchst. a S. 1 UStG) – im Beispiel 1.900 € (19 % von 10.000 €) mit Ablauf des März, unabhängig von den Raten.\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 122 Abs. 2 Nr. 1 und Nr. 2 AO",
-        "§ 122 Abs. 2a AO",
-        "§ 122a AO",
-        "§ 124 Abs. 1 AO",
-        "§ 108 Abs. 1 und Abs. 3 AO",
-        "§ 187 Abs. 1 BGB",
-        "§ 188 Abs. 1 und Abs. 2 BGB",
-        "§ 355 Abs. 1 Satz 1 AO",
-        "§ 357 Abs. 2 Satz 1 AO",
-        "§ 8 VwZG",
-        "§ 108 Abs. 3 AO",
-        "§ 122a Abs. 4 AO",
-        "Themenpool: ao-aufb-ao-jacobs-3-11"
+        "§ 3 Abs. 1 UStG",
+        "§ 13 Abs. 1 Nr. 1 Buchst. a S. 1 UStG",
+        "Abschn. 3.1 Abs. 2, 3 UStAE"
       ],
-      "coverRegie": {
-        "thema": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Eine Figur setzt ein falsches Bauteil in einen laufenden Apparat; die andere stoppt ihn und tauscht genau dieses Teil aus.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-19-b3-ao-aufb-ao-jacobs-3-11-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-19-b3",
+      "kurztitel": "Lieferung (§ 3 Abs. 1 UStG)",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Eigentum später. Lieferung jetzt?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Fall"
+        },
+        {
+          "art": "schritt",
+          "titel": "Verfügungsmacht"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Rechnung"
+        }
+      ],
+      "sprecher": [
+        "Eigentum erst nach der letzten Rate. Die Lieferung ist trotzdem sofort da.",
+        "Ein Küchenstudio baut Odile im März eine Küche ein. Preis elftausendneunhundert Euro brutto, zehn Raten, Eigentumsvorbehalt.",
+        "Lieferung heißt Verfügungsmacht. Odile nutzt die Küche wie eine Eigentümerin. Das Eigentum bleibt beim Studio, das ist egal.",
+        "Also entsteht die ganze Steuer von eintausendneunhundert Euro mit Ablauf des März, nicht Rate für Rate.",
+        "Merke: Die Übergabe zählt, nicht das Eigentum."
+      ],
+      "dauerS": 36.383,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-37",
-      "quellen": [
-        "§ 8b Abs. 3 und 5 KStG",
-        "Themenpool: bilanz-quiz-k3-37"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-14",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Eigenes Holz,",
+        "Treppe beim Kunden:",
+        "was liegt vor?",
+        "Werkleistung",
+        "Werklieferung",
+        "Unentgeltliche Wertabgabe",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
-      "titel": "Worauf werden die pauschalen 5 % nach § 8b Abs. 3 und 5 KStG berechnet?",
-      "optionen": [
-        "auf den Beteiligungsbuchwert",
-        "auf den steuerfreien Ertrag",
-        "auf das Einkommen"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-37",
-      "quellen": [
-        "§ 8b Abs. 3 und 5 KStG",
-        "Themenpool: bilanz-quiz-k3-37"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-14",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: Werklieferung",
+        "Werkleistung",
+        "Werklieferung",
+        "Unentgeltliche Wertabgabe",
+        "Wer den Hauptstoff selbst beschafft, liefert. Stellt der Kunde ihn, ist es eine Werkleistung.",
+        "§ 3 Abs. 4 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "auf den steuerfreien Ertrag",
-      "optionen": [
-        "auf den Beteiligungsbuchwert",
-        "auf den steuerfreien Ertrag",
-        "auf das Einkommen"
-      ],
-      "richtig": 1,
-      "text": "5 % der steuerfreien Bezüge bzw. des Veräußerungsgewinns gelten als nicht abziehbare Betriebsausgaben. Die tatsächlichen Beteiligungsaufwendungen spielen dafür keine Rolle und bleiben abziehbar.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-358",
-      "quellen": [
-        "§ 173 Abs. 1 Nr. 1 AO",
-        "AEAO zu § 173 Nr. 4",
-        "§ 173 Abs. 1 Nr. 2 AO",
-        "AEAO zu § 173 Nr. 5",
-        "§ 173 Abs. 1 Nr. 2 S. 2 AO",
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2 AO",
-        "AEAO zu § 173 Nr. 4 und Nr. 5",
-        "Themenpool: ao-modul-ao-358"
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-17-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Norm des Tages",
+        "Verlust",
+        "gesperrt?",
+        "§ 17 Abs. 2 S. 6 EStG",
+        "Geschenkt: nur, wenn der Schenker ihn hätte nutzen können.",
+        "§ 17 Abs. 2 S. 6 Buchst. a EStG",
+        "Zukauf, der die 1 % begründet oder danach erfolgt: abziehbar.",
+        "§ 17 Abs. 2 S. 6 Buchst. b EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 173 Abs. 1 Nr. 1 AO",
-      "titel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
-      "text": "Nr. 1 (zulasten): Hat das FA trotz voller Mitwirkung nicht ermittelt, ist die Änderung ausgeschlossen. Nr. 2 (zugunsten): Grobes Verschulden schadet, außer die Tatsache hängt mit einer Nr.-1-Tatsache zusammen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-7-5",
-      "quellen": [
-        "§ 172 Abs. 1 Satz 1 Nr. 2a Halbsatz 2 AO",
-        "§ 132 AO",
-        "§ 165 Abs. 2 AO",
-        "§ 164 AO",
-        "§§ 347 ff. AO",
-        "§ 355 Abs. 1 AO",
-        "§ 357 Abs. 1 Sätze 1 und 3, Abs. 3 AO",
-        "§ 358 AO",
-        "§ 361 Abs. 2 AO",
-        "§ 365 Abs. 3 AO",
-        "§ 172 Abs. 1 S. 1 Nr. 2a AO",
-        "§ 367 Abs. 2 AO",
-        "Themenpool: ao-aufb-ao-jacobs-7-5"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Zweiter Anlauf",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Zweiter Anlauf",
+        "Lernstrategie",
+        "Zweiter Anlauf:",
+        "erst auswerten",
+        "Die Einzelnoten im Bescheid zeigen, wo es hakt.",
+        "§ 25 Abs. 3 DVStB",
+        "Zwei Wiederholungen sind möglich.",
+        "§ 35 Abs. 4 StBerG",
+        "Plan um die schwächste Klausur bauen."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
-      "text": "Schlichter Antrag: bei endgültigem Bescheid nur in der Einspruchsfrist und konkret, später nicht erweiterbar (§ 172 Abs. 1 S. 1 Nr. 2a AO). Einspruch: erweiterbar, mit AdV (§ 361 AO), aber Verböserung möglich.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-301",
-      "quellen": [
-        "§ 38 AO",
-        "§§ 85 ff. AO",
-        "§ 93 AO",
-        "§ 97 AO",
-        "§ 153 AO",
-        "§§ 118 ff. AO",
-        "§§ 155 ff. AO",
-        "§§ 122–127 AO",
-        "§§ 169–171 AO",
-        "§ 88 AO",
-        "§ 90 AO",
-        "§ 122 AO",
-        "§ 169 AO",
-        "Themenpool: ao-modul-ao-301"
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-13",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Anzahlung erhalten:",
+        "USt sofort",
+        "Die Steuer entsteht schon mit der Vereinnahmung.",
+        "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG",
+        "Bilanz: Anzahlung netto passivieren.",
+        "Brutto gebucht? Dann aktiver Posten.",
+        "§ 5 Abs. 5 S. 3 Nr. 2 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Ablauf des Besteuerungsverfahrens: von der Steuerentstehung bis zur Festsetzungsverjährung",
-      "text": "Reihenfolge: Steuer entsteht (§ 38 AO), FA ermittelt mit deiner Mitwirkung (§§ 88, 90 AO), setzt per Bescheid fest (§ 155 AO), gibt ihn bekannt (§ 122 AO). Festsetzen nur bis Ablauf der Festsetzungsfrist (§ 169 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
+      "art": "merksatz",
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-13-5",
-      "quellen": [
-        "§ 69 Sätze 1 und 2 AO",
-        "§ 34 Abs. 1 Sätze 1 und 2 AO",
-        "§ 35 GmbHG",
-        "§ 43 GmbHG",
-        "§ 15 StGB",
-        "§§ 249, 254 AO",
-        "§§ 370, 378 AO",
-        "AEAO zu § 173 AO, Tz. 5",
-        "Themenpool: ao-aufb-ao-jacobs-13-5"
+      "themaId": "ao-aufb-ao-jacobs-8-14",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Einspruch gegen",
+        "Änderungsbescheid?",
+        "Angreifbar nur, ",
+        "soweit die Änderung",
+        "reicht.",
+        "§ 351 Abs. 1 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Geschäftsführerhaftung nach § 69 AO: Verschulden und Zeitraum",
-      "text": "Haftung nur bei Vorsatz oder grober Fahrlässigkeit (§ 69 S. 1 AO) und nur für Pflichtverletzungen in deiner Amtszeit. Reichen die Mittel nicht, Steuern anteilig wie andere Schulden tilgen, die Lohnsteuer aber voll.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "istr",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen",
-      "text": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Neu im Feed",
+        "Darlehen weg, AK rauf?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gebäude: AfA, Aufteilung und anschaffungsnaher Aufwand",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Sperrfrist verletzt?",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "ao",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Eigentum später, Lieferung jetzt?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:49:10.442Z",
+    "erzeugtAm": "2026-10-03T04:41:19Z",
     "pfad": "vorproduktion/2026-10-19/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -717,5 +566,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
