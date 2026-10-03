@@ -96,7 +96,7 @@ class Reel:
             st = h["stempel"]; self.T(st["text"])
             t0 = self.wort(seg, st["wort"])
             if stil == "knall":
-                self.zeige(kreuz_i(540, yk + 100, C, gr=200), t0, t_ende, "slam")
+                self.zeige(kreuz_i(540, yk + 190, C, gr=200), t0, t_ende, "slam")   # Kreuz 300 px hoch, Oberkante unter der Pille
             else:
                 sw = F("Bold", 52).getlength(st["text"]) + 70
                 px = min(797 if stil == "split" else 800, 1020 - sw / 2)
