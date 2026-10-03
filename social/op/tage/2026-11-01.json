@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 3,
-   "fach": "umwst",
-   "fachLabel": "Bilanz · PersG · UmwSt",
-   "themaId": "wochenrueckblick-k3-2026-44",
-   "themaTitel": "Klausur 3 kompakt: fünf Themen der Woche 44",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-44",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 44",
    "figuren": {
     "A": {
      "name": "Marit",
@@ -24,7 +24,7 @@
      "kopf": "Short 4",
      "haut": "#EAC9A6",
      "haar": "#151515",
-     "oberteil": "#B9A3E3",
+     "oberteil": "#F9D56E",
      "brille": "Glasses",
      "bueste": "Button Shirt 2"
     }
@@ -35,10 +35,10 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 3",
-      "kompakt"
+      "Alle 3",
+      "Klausuren"
      ],
-     "unter": "5 Themen",
+     "unter": "6 Themen",
      "teaser": "+ Markier-Guide § 6 EStG",
      "motiv": {
       "typ": "icon",
@@ -49,165 +49,84 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Anteil an der KG",
-       "BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691",
-       ""
+       "Klausur 1 · USt und ErbSt",
+       "§§ 3a, 13b UStG · § 19 ErbStG",
+       "B2B-Ort und Härteausgleich"
       ],
       [
-       "Schuldzinsen",
-       "§ 4 Abs. 4a EStG",
-       ""
+       "Klausur 2 · Einkommensteuer",
+       "§ 6 Abs. 3 EStG · GrS 4-6/89",
+       "Teilentgelt: privat und betrieblich"
       ],
       [
-       "Umwandlung",
-       "§ 11 UmwStG",
-       ""
-      ],
-      [
-       "§ 6b-Rücklage",
-       "§ 6b EStG",
-       ""
-      ],
-      [
-       "Schenkung mit Grundstück",
-       "§ 6 Abs. 3 EStG",
-       ""
+       "Klausur 3 · Bilanz und PersG",
+       "§ 6 Abs. 3, § 4 Abs. 4a EStG",
+       "Sonderbetriebsvermögen und Überentnahme"
       ]
      ],
-     "teaser": "Am Ende: § 6 EStG markiert"
+     "teaser": "Am Ende: § 6 Abs. 3 EStG markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Anteil an der KG",
+     "titel": "Klausur 1 · USt und ErbSt",
      "punkte": [
       [
-       "Handelsbilanz: Anschaffungskosten, bei Dauer abschreiben.",
+       "B2B-Beratung aus dem EU-Ausland: Ort beim Empfänger, er schuldet die Steuer.",
        "ok",
        "Regular",
-       "§ 253 Abs. 3 S. 5 HGB"
+       "§ 3a Abs. 2 S. 1, § 13b Abs. 1, 5 S. 1 UStG"
       ],
       [
-       "Steuerbilanz: Spiegelbild des Kapitals bei der KG.",
-       "ok",
-       "Regular",
-       null
-      ],
-      [
-       "Keine Teilwertabschreibung auf den Anteil.",
-       "nein",
-       "Bold",
-       null
-      ]
-     ],
-     "figur": "B:redet",
-     "x": 790,
-     "blase": "Taro: Zwei Werte!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "2 · Schuldzinsen",
-     "punkte": [
-      [
-       "Überentnahme: Entnahmen über Gewinn plus Einlagen.",
-       "ok",
-       "Regular",
-       "§ 4 Abs. 4a S. 2 EStG"
-      ],
-      [
-       "6 % davon, höchstens Zinsen minus 2.050 €.",
+       "Härteausgleich: Die Mehrsteuer darf bei Sätzen bis 30 % die Hälfte des Betrags über der Grenze nicht übersteigen.",
        "warn",
        "Bold",
-       "§ 4 Abs. 4a S. 3, 4 EStG"
-      ],
-      [
-       "Zinsen für Anlagevermögen bleiben abziehbar.",
-       "ok",
-       "Regular",
-       "§ 4 Abs. 4a S. 5 EStG"
-      ]
-     ],
-     "figur": "A:denkt",
-     "x": 290,
-     "blase": "Marit: Deckel!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "3 · Umwandlung",
-     "punkte": [
-      [
-       "Ohne Sondernorm: stille Reserven aufdecken.",
-       "warn",
-       "Regular",
-       null
-      ],
-      [
-       "Grundsatz im UmwStG: gemeiner Wert.",
-       "ok",
-       "Regular",
-       "§ 11 Abs. 1 UmwStG"
-      ],
-      [
-       "Buchwert nur auf Antrag und unter Bedingungen.",
-       "ok",
-       "Bold",
-       "§ 11 Abs. 2 UmwStG"
-      ]
-     ],
-     "figur": "B:erklaert",
-     "x": 790,
-     "blase": "Antrag nicht vergessen"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · § 6b-Rücklage",
-     "punkte": [
-      [
-       "Sechs Jahre Anlagevermögen vor dem Verkauf.",
-       "ok",
-       "Regular",
-       "§ 6b Abs. 4 S. 1 Nr. 2 EStG"
-      ],
-      [
-       "Gewinn aus Gebäuden nur auf Gebäude.",
-       "warn",
-       "Regular",
-       "§ 6b Abs. 1 S. 2 Nr. 3 EStG"
-      ],
-      [
-       "Ohne Reinvestition: 6 % Zuschlag je Jahr.",
-       "nein",
-       "Bold",
-       "§ 6b Abs. 7 EStG"
+       "§ 19 Abs. 3 ErbStG"
       ]
      ],
      "figur": "A:redet",
-     "x": 290,
-     "blase": "Fristen zählen"
+     "x": 790,
+     "blase": "Grenze prüfen!"
     },
     {
      "typ": "inhalt",
-     "titel": "5 · Schenkung mit Grundstück",
+     "titel": "Klausur 2 · Einkommensteuer",
      "punkte": [
       [
-       "Anteil verschenkt, vermietetes Grundstück behalten: kein Buchwert.",
-       "nein",
+       "Haus gegen Ausgleich an Geschwister: teils entgeltlich, aufteilen nach Verkehrswert.",
+       "warn",
        "Regular",
-       "§ 6 Abs. 3 S. 1 EStG"
+       "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847"
       ],
       [
-       "Dann gilt der ganze Anteil als aufgegeben.",
-       "warn",
+       "Betrieb gegen Abfindung bis zum Kapitalkonto: unentgeltlich, Buchwerte fortführen.",
+       "ok",
        "Bold",
-       "§ 16 Abs. 3 S. 1 EStG"
+       "§ 6 Abs. 3 S. 1 EStG"
       ]
      ],
-     "extra": [
-      "Wesentliches Sonderbetriebsvermögen muss mit",
-      "GELB",
-      null
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Privat oder Betrieb?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 3 · Bilanz und PersG",
+     "punkte": [
+      [
+       "Anteil verschenkt, wesentliches Sonderbetriebsvermögen behalten: kein Buchwert, der ganze Anteil gilt als aufgegeben.",
+       "nein",
+       "Bold",
+       "§ 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Überentnahme: 6 % nicht abziehbar, höchstens Schuldzinsen minus 2.050 €.",
+       "warn",
+       "Regular",
+       "§ 4 Abs. 4a S. 3, 4 EStG"
+      ]
      ],
      "figur": "B:sorge",
      "x": 790,
@@ -216,55 +135,55 @@
     {
      "typ": "merke",
      "oben": [
-      "Woche 44 in Klausur 3",
-      "Bilanz, Personengesellschaften, Umwandlung",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Spiegelbild",
+        "Ort",
         "a"
        ],
        [
-        " statt Teilwert",
+        " beim Empfänger,",
         null
        ]
       ],
       [
        [
-        "6 %",
+        "Härte",
         "b"
        ],
        [
-        " bei Überentnahme",
+        " halbiert den Sprung,",
         null
        ]
       ],
       [
        [
-        "Antrag",
+        "privat",
         "c"
        ],
        [
-        " für den Buchwert",
+        " wird aufgeteilt,",
         null
        ]
       ],
       [
        [
-        "Grundstück",
+        "Sonder-BV",
         "d"
        ],
        [
-        " muss mit",
+        " muss mit.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 3",
-     "frage": "Welches Thema wackelt noch?",
-     "teaser": "Weiterwischen: § 6 EStG markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 6 Abs. 3 EStG markiert"
     },
     {
      "typ": "gesetz",
@@ -317,21 +236,22 @@
      ]
     }
    ],
-   "caption": "Klausur 3 kompakt: fünf Themen der Woche aus Bilanz, Personengesellschaften und Umwandlung.\n\n1. Anteil an einer KG: Handelsbilanz mit Anschaffungskosten und außerplanmäßiger Abschreibung bei dauernder Wertminderung (§ 253 Abs. 3 S. 5 HGB); steuerlich kein eigenes Wirtschaftsgut, Ansatz spiegelbildlich zum Kapital (BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691), keine Teilwertabschreibung.\n2. Schuldzinsen: 6 % der Überentnahme, höchstens Zinsen minus 2.050 €; Investitionsdarlehen bleiben außen vor (§ 4 Abs. 4a S. 2–5 EStG).\n3. Umwandlung: Grundsatz gemeiner Wert, Buchwert nur auf Antrag (§ 11 Abs. 1, 2 UmwStG).\n4. § 6b-Rücklage: sechs Jahre Anlagevermögen, Gebäudegewinn nur auf Gebäude, sonst 6 % Zuschlag je Wirtschaftsjahr (§ 6b Abs. 1 S. 2, Abs. 4 S. 1 Nr. 2, Abs. 7 EStG).\n5. Anteilsschenkung: Bleibt funktional wesentliches Sonderbetriebsvermögen zurück, kein Buchwert (§ 6 Abs. 3 S. 1 EStG), sondern Aufgabe des ganzen Anteils (§ 16 Abs. 3 S. 1 EStG).\n\nZum Schluss: § 6 Abs. 3 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Wochenrückblick KW 44: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Beratung eines Unternehmers aus dem EU-Ausland an ein Unternehmen im Inland: Ort am Sitz des Empfängers (§ 3a Abs. 2 S. 1 UStG); die Steuer schuldet der Leistungsempfänger (§ 13b Abs. 1, 5 S. 1 UStG), Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG).\n2. Härteausgleich: Liegt der Erwerb knapp über einer Wertgrenze, wird der Steuermehrbetrag bei Sätzen bis 30 % nur aus der Hälfte, darüber aus drei Vierteln des übersteigenden Betrags erhoben (§ 19 Abs. 3 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Grundstück gegen Ausgleichszahlung an Geschwister übertragen: teilentgeltlicher Erwerb, aufgeteilt im Verhältnis Entgelt zu Verkehrswert (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847).\n4. Ganzer Betrieb gegen Abfindung, die das Kapitalkonto nicht übersteigt: unentgeltlich, Buchwertfortführung (§ 6 Abs. 3 S. 1 EStG); darüber Veräußerungsgewinn (§ 16 Abs. 1, 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Wer einen Mitunternehmeranteil verschenkt und funktional wesentliches Sonderbetriebsvermögen zurückbehält, erhält keinen Buchwert; der Anteil gilt als aufgegeben (§ 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG).\n6. Überentnahmen: 6 % sind als Schuldzinsen nicht abziehbar, höchstens die Schuldzinsen des Jahres abzüglich 2.050 €; Zinsen für Anlagevermögen bleiben abziehbar (§ 4 Abs. 4a S. 2–5 EStG).\n\nZum Schluss: § 6 Abs. 3 S. 1 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#bilanzsteuerrecht"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 253 Abs. 3 S. 5 HGB",
-    "BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691",
-    "§ 4 Abs. 4a EStG",
-    "§ 11 Abs. 1, 2 UmwStG",
-    "§ 6b Abs. 1, 4, 7 EStG",
+    "§ 3a Abs. 2 S. 1 UStG",
+    "§ 13b Abs. 1, 5 S. 1 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+    "§ 19 Abs. 3 ErbStG",
+    "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
     "§ 6 Abs. 3 S. 1 EStG",
-    "§ 16 Abs. 3 S. 1 EStG"
+    "§ 16 Abs. 1, 2, 3 S. 1 EStG",
+    "§ 4 Abs. 4a S. 2–5 EStG"
    ]
   },
   {
@@ -827,7 +747,7 @@
     "cta_wort": "Gewinn",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Gesellschafter verzichtet auf sein Darlehen: Was ist Einlage, was Ertrag? 💶\n\n▸ Verzichtet ein Gesellschafter aus gesellschaftsrechtlichen Gründen auf eine Forderung gegen seine GmbH, liegt eine verdeckte Einlage nur in Höhe des werthaltigen Teils, also des Teilwerts der Forderung, vor (BFH vom 09.06.1997, GrS 1/94).\n▸ Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG). Beispiel: Teilwert 30.000 € = Einlage.\n▸ Der nicht werthaltige Teil (70.000 €) führt bei der GmbH durch den Wegfall der Verbindlichkeit zu einem steuerpflichtigen Ertrag.\n\nSpeichern für Klausur 2 📌",
+   "caption": "Gesellschafter verzichtet auf sein Darlehen: Was ist Einlage, was Ertrag? 💶\n\n▸ Verzichtet ein Gesellschafter aus gesellschaftsrechtlichen Gründen auf eine Forderung gegen seine GmbH, liegt eine verdeckte Einlage nur in Höhe des werthaltigen Teils, also des Teilwerts der Forderung, vor (BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307).\n▸ Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG). Beispiel: Teilwert 30.000 € = Einlage.\n▸ Der nicht werthaltige Teil (70.000 €) führt bei der GmbH durch den Wegfall der Verbindlichkeit zu einem steuerpflichtigen Ertrag.\n\nSpeichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -836,7 +756,7 @@
    ],
    "quellen": [
     "§ 8 Abs. 3 S. 3 KStG",
-    "BFH vom 09.06.1997, GrS 1/94"
+    "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307"
    ]
   }
  ],
@@ -904,10 +824,9 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 3,
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 3 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
