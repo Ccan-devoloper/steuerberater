@@ -41,7 +41,7 @@
         44
        ],
        [
-        "80.000 €",
+        "80.000 €",
         "ExtraBold",
         96
        ],
@@ -63,31 +63,31 @@
      "zeilen": [
       [
        "Jahresüberschuss",
-       "80.000 €",
+       "80.000 €",
        "Bold",
        null
       ],
       [
        "Aufwand KSt",
-       "15.000 €",
+       "15.000 €",
        "Regular",
        null
       ],
       [
        "Aufwand SolZ",
-       "825 €",
+       "825 €",
        "Regular",
        null
       ],
       [
        "Aufwand GewSt",
-       "12.000 €",
+       "12.000 €",
        "Regular",
        null
       ]
      ],
      "extra": [
-      "Ist das Einkommen 80.000 €?",
+      "Ist das Einkommen 80.000 €?",
       "GELB"
      ]
     },
@@ -155,39 +155,39 @@
      "zeilen": [
       [
        "Jahresüberschuss",
-       "80.000 €",
+       "80.000 €",
        "Regular",
        null
       ],
       [
        "+ KSt, SolZ, GewSt",
-       "27.825 €",
+       "27.825 €",
        "Regular",
        null
       ],
       [
        "Einkommen",
-       "107.825 €",
+       "107.825 €",
        "ExtraBold",
        "GELB"
       ]
      ],
      "figur": "A:froh",
      "x": 790,
-     "blase": "Das sind 27.825 € mehr."
+     "blase": "Das sind 27.825 € mehr."
     },
     {
      "typ": "inhalt",
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Variante: Die GmbH hat zusätzlich 3.000 € erstattete Körperschaftsteuer eines Vorjahres als Ertrag gebucht.",
+       "Variante: Die GmbH hat zusätzlich 3.000 € erstattete Körperschaftsteuer eines Vorjahres als Ertrag gebucht.",
        null,
        "Regular",
        null
       ],
       [
-       "Der Jahresüberschuss steigt dadurch auf 83.000 €.",
+       "Der Jahresüberschuss steigt dadurch auf 83.000 €.",
        null,
        "Regular",
        null
@@ -211,20 +211,20 @@
      ],
      "zeilen": [
       [
-       "83.000 € + 27.825 € Steuern",
-       "110.825 €",
+       "83.000 € + 27.825 € Steuern",
+       "110.825 €",
        "Regular",
        null
       ],
       [
        "− KSt-Erstattung",
-       "3.000 €",
+       "3.000 €",
        "Regular",
        null
       ],
       [
        "Einkommen",
-       "107.825 €",
+       "107.825 €",
        "ExtraBold",
        "GELB"
       ]
@@ -538,13 +538,13 @@
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Carla hält 50 % an der Seeblick KG. Ihr eigenes Grundstück nutzt die KG als Betriebsgelände.",
+       "Carla hält 50 % an der Seeblick KG. Ihr eigenes Grundstück nutzt die KG als Betriebsgelände.",
        null,
        "Regular",
        null
       ],
       [
-       "In eine GmbH bringt sie die Hälfte ihres KG-Anteils und 30 % des Grundstücks ein.",
+       "In eine GmbH bringt sie die Hälfte ihres KG-Anteils und 30 % des Grundstücks ein.",
        null,
        "Regular",
        null
@@ -565,7 +565,7 @@
      "titel": "Lösung",
      "punkte": [
       [
-       "Anteil zu 50 %, Grundstück nur zu 30 %: unter der Quote.",
+       "Anteil zu 50 %, Grundstück nur zu 30 %: unter der Quote.",
        "nein",
        "Regular",
        "UmwStE Rn. 20.11"
@@ -577,7 +577,7 @@
        "§ 16 Abs. 1 S. 2 EStG"
       ],
       [
-       "Mit mindestens 50 % des Grundstücks wäre es gegangen.",
+       "Mit mindestens 50 % des Grundstücks wäre es gegangen.",
        "ok",
        "Regular",
        null
