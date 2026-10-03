@@ -7298,17 +7298,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 47,
+        "reach": 51,
         "saved": 4,
         "shares": 0,
-        "likes": 4,
+        "likes": 5,
         "comments": 1,
-        "total_interactions": 9,
+        "total_interactions": 10,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T16:44:15.126Z",
-      "insightsAlterStunden": 11
+      "insightsStand": "2026-10-03T20:43:59.000Z",
+      "insightsAlterStunden": 15
     },
     {
       "datum": "2026-10-03",
@@ -7322,21 +7322,22 @@
       "fach": "kst",
       "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
       "insights": {
-        "reach": 25,
-        "views": 35,
+        "reach": 35,
+        "views": 53,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 31,
-        "navigation_tap_exit": 2,
+        "navigation": 43,
+        "navigation_tap_exit": 3,
         "navigation_tap_back": 4,
-        "navigation_tap_forward": 25
+        "navigation_tap_forward": 35,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-03T15:45:54.763Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-03T20:43:53.597Z",
+      "insightsAlterStunden": 15
     },
     {
       "datum": "2026-10-03",
@@ -7350,22 +7351,22 @@
       "fach": "kst",
       "titel": "der Gesellschafter oder eine nahestehende Person",
       "insights": {
-        "reach": 26,
-        "views": 34,
+        "reach": 36,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_tap_forward": 23,
-        "navigation_tap_exit": 2,
-        "navigation_tap_back": 4,
+        "navigation": 43,
+        "navigation_tap_forward": 31,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 6,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-03T15:45:54.763Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-03T20:43:53.597Z",
+      "insightsAlterStunden": 15
     },
     {
       "datum": "2026-10-03",
@@ -7379,21 +7380,21 @@
       "fach": "ao",
       "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
       "insights": {
-        "reach": 25,
-        "views": 32,
+        "reach": 36,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 31,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 24,
-        "navigation_tap_exit": 5
+        "navigation": 42,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 34,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-03T15:45:54.763Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-03T20:43:53.597Z",
+      "insightsAlterStunden": 15
     },
     {
       "datum": "2026-10-03",
@@ -7407,22 +7408,22 @@
       "fach": "istr",
       "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
       "insights": {
-        "reach": 23,
-        "views": 35,
+        "reach": 34,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_tap_back": 4,
-        "navigation_swipe_forward": 1,
+        "navigation": 44,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 3,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 21
+        "navigation_tap_forward": 29
       },
-      "insightsStand": "2026-10-03T15:45:54.763Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-03T20:43:53.597Z",
+      "insightsAlterStunden": 10.1
     },
     {
       "datum": "2026-10-03",
@@ -7446,7 +7447,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 44,
         "saved": 1,
         "shares": 0,
         "likes": 4,
@@ -7455,8 +7456,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T16:44:15.126Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-03T20:43:59.000Z",
+      "insightsAlterStunden": 9
     },
     {
       "datum": "2026-10-03",
@@ -7567,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 17,
+        "reach": 78,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 38,
-        "ig_reels_avg_watch_time": 19640,
-        "ig_reels_video_view_total_time": 373162,
-        "reels_skip_rate": 70
+        "views": 106,
+        "ig_reels_avg_watch_time": 8302,
+        "ig_reels_video_view_total_time": 664192,
+        "reels_skip_rate": 79.3
       },
-      "insightsStand": "2026-10-03T18:44:15.254Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-03T20:43:59.000Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-03",
