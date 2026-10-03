@@ -4,414 +4,316 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-539",
-        "themaTitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
-        "fach": "erbst",
+        "format": "pruefungsfrage",
+        "themaId": "ao-aufb-ao-jacobs-6-9",
+        "themaTitel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
+        "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "gewst-aufb-gewst-ks-08",
-        "themaTitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
-        "fach": "gewst",
+        "themaId": "istr-aufb-istr-gh-3-10",
+        "themaTitel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+        "fach": "istr",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "umwst-aufb-umw-2-70",
-        "themaTitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
-        "fach": "umwst",
-        "klausur": 3,
-        "lang": false
+        "themaId": "persg-karte-k3-26",
+        "themaTitel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
+        "fach": "persg",
+        "klausur": 3
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:19",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "persg-quiz-k3-29"
+        "themaId": "persg-quiz-k3-32"
       },
       {
         "slot": "s5",
-        "zeit": "07:19",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "persg-quiz-k3-29"
+        "themaId": "persg-quiz-k3-32"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:05",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-aufb-istr-gh-4-17"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:40",
-        "art": "fehler",
-        "themaId": "istr-modul-istr-istr3-11"
+        "themaId": "erbst-aufb-erbst-t1-4"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "17:02",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "istr-modul-istr-istr2-04"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:20",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-322"
+        "themaId": "kst-karte-kst-3"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-2-13"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "erbst",
+      "format": "pruefungsfrage",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-539",
-      "slug": "2026-10-12-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Immerwährend: Ein Ende ist nicht absehbar, Kapitalwert = Jahreswert × 18,6. Unbestimmte Dauer: Das Ende kommt sicher, nur der Zeitpunkt ist offen, Kapitalwert = Jahreswert × 9,3.",
-            "Grabpflege: Die Kosten der üblichen Grabpflege zieht der Erwerber mit dem Kapitalwert für unbestimmte Dauer ab, also Jahreswert × 9,3 (§ 10 Abs. 5 Nr. 3 ErbStG). Ohne Einzelnachweis gilt die Erbfallkostenpauschale."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Jahreswert der Leistung bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Dauer einordnen und kapitalisieren: immerwährend Jahreswert × 18,6, unbestimmte Dauer Jahreswert × 9,3."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "18,6 für immerwährend, 9,3 für unbestimmte Dauer – und die Grabpflege bewertet das Gesetz ausdrücklich als Last von unbestimmter Dauer."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "§ 13 Abs. 2 BewG: Immerwährende Nutzungen und Leistungen bewertest du mit dem 18,6-fachen, solche von unbestimmter Dauer mit dem 9,3-fachen Jahreswert. Die übliche Grabpflege zieht der Erwerber mit dem Kapitalwert für unbestimmte Dauer ab (§ 10 Abs. 5 Nr. 3 ErbStG).",
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-6-9",
+      "caption": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung? Eine typische Prüfungsfrage zur Festsetzungsverjährung.\n\nFall: Bescheid unter Vorbehalt der Nachprüfung (§ 164 Abs. 1 AO), Festsetzungsfrist endet am 31.12.2026 (§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO). Änderungsantrag über 2.000 € im Dezember (§ 164 Abs. 2 S. 2 AO), Erweiterung um 3.000 € im März 2027.\n\n▸ Ein Antrag außerhalb eines Einspruchs- oder Klageverfahrens hemmt den Fristablauf nur insoweit, wie er reicht (§ 171 Abs. 3 AO). Die 3.000 € sind festsetzungsverjährt (§ 169 Abs. 1 S. 1 AO).\n▸ Ein Einspruch oder eine Klage hemmt den Ablauf hinsichtlich des gesamten Steueranspruchs, auch wenn der Rechtsbehelf erst nach Fristende eingelegt wird; nicht, soweit er unzulässig ist (§ 171 Abs. 3a S. 1, 2 AO).\n▸ Kehrseite: Verböserung ist möglich, aber nur nach Hinweis unter Angabe von Gründen (§ 367 Abs. 2 S. 2 AO); der Einspruch kann bis zur Bekanntgabe der Entscheidung zurückgenommen werden (§ 362 Abs. 1 AO).\n\nZum Schluss: § 171 Abs. 3, 3a AO zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer;…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 13 Abs. 2 BewG",
-        "§ 15 BewG",
-        "§ 16 BewG",
-        "§ 10 Abs. 5 Nr. 3 ErbStG",
-        "Themenpool: erbst-modul-erbst-539"
+        "§ 164 Abs. 1, 2 AO",
+        "§ 169 Abs. 1, 2 AO",
+        "§ 170 Abs. 2 S. 1 Nr. 1 AO",
+        "§ 171 Abs. 3, 3a AO",
+        "§ 362 Abs. 1 AO",
+        "§ 367 Abs. 2 AO"
       ],
-      "coverRegie": {
-        "thema": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b1-erbst-modul-erbst-539-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-12-b1",
+      "kurztitel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Nachschieben · nach Fristende? · § 171 Abs. 3, 3a AO · Klausurfall · + Markier-Guide § 171 AO · DEZEMBER · 31 · Fristende 2026",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Der Fall · Jonas' Einkommensteuerbescheid 2021 steht unter Vorbehalt der Nachprüfung. · § 164 Abs. 1 AO · Erklärung 2022 abgegeben: Die Festsetzungsfrist endet am 31.12.2026. · § 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO · Am 14.12.2026 beantragt seine Beraterin Nele eine Änderung: 2.000 € Fahrtkosten. · § 164 Abs. 2 S. 2 AO · Lieber spät als nie!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Jetzt du · Im März 2027 findet Jonas weitere Belege: 3.000 € für eine Fortbildung. · Nele erweitert den Antrag. · Darf das Finanzamt beide Beträge noch berücksichtigen? · Erst überlegen, dann weiterwischen · Was meinst du?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Lösung: nur die 2.000 € · Ein Antrag außerhalb von Einspruch und Klage hemmt nur, soweit er reicht. · § 171 Abs. 3 AO · Für die 2.000 € läuft die Frist erst nach unanfechtbarer Entscheidung ab. · Die 3.000 € kamen nach dem 31.12.2026: festsetzungsverjährt. · § 169 Abs. 1 S. 1 AO · Insoweit!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Antrag oder Einspruch? · Antrag · Hemmt nur im beantragten Umfang · § 171 Abs. 3 AO · Erweitern nach Fristende: zu spät · Einspruch · Hemmt den gesamten Steueranspruch · § 171 Abs. 3a S. 2 AO · Erweitern bleibt möglich · So ein Unterschied!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Nur zulässig hemmt · Ein unzulässiger Einspruch hemmt nichts, etwa nach versäumter Einspruchsfrist. · § 171 Abs. 3a S. 2 AO · Zulässig, aber erst nach Fristende eingelegt? Hemmt trotzdem. · § 171 Abs. 3a S. 1 AO · Erst die Zulässigkeit!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Kehrseite: Verböserung · Bleibt alles offen, darf das Finanzamt auch zu deinen Lasten ändern. · § 367 Abs. 2 S. 1, 2 AO · Vorher muss es mit Gründen darauf hinweisen. · Dann kannst du den Einspruch zurücknehmen. · § 362 Abs. 1 AO · Zurück auf Anfang?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Lösung: Nur die 2.000 € sind noch offen · Die 3.000 € sind festsetzungsverjährt · Antrag hemmt, · soweit er reicht. · Einspruch hemmt · alles. · Speichern für Klausur 1 · Hättest du die 3.000 € noch gerettet? · Weiterwischen: § 171 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "nur Antrag · Umfang! · Einspruch: alles · Zulässigkeit · Dazu: § 367 Abs. 2 S. 2 AO · Verböserung nur nach Hinweis mit Gründen"
+        }
+      ]
     },
     "b2": {
       "format": "schema",
-      "fach": "gewst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-08",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-3-10",
+      "caption": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei. Das Prüfschema für Klausur 2.\n\n1. Phasen bestimmen: unbeschränkt mit Wohnsitz oder gewöhnlichem Aufenthalt, danach beschränkt mit inländischen Einkünften (§ 1 Abs. 1, 4 EStG).\n2. Inländische Einkünfte in der beschränkten Phase prüfen, z. B. Vermietung einer inländischen Wohnung (§ 49 Abs. 1 Nr. 6 EStG).\n3. Diese Einkünfte werden in eine Veranlagung zur unbeschränkten Steuerpflicht einbezogen (§ 2 Abs. 7 S. 3 EStG).\n4. Ausländische Einkünfte, die im Jahr nicht der deutschen Einkommensteuer unterlegen haben, erhöhen nur den Steuersatz (§ 32b Abs. 1 S. 1 Nr. 2 EStG).\n5. Steuerabzug wirkt in diesen Fällen nicht abgeltend (§ 50 Abs. 2 S. 2 Nr. 3 EStG); die Abzugsteuer wird angerechnet (§ 36 Abs. 2 Nr. 2 EStG).\n\nBeispiel: Lohn München 40.000 € + Miete 12.000 € = 52.000 € Einkünfte; 30.000 € Gehalt Wien nur im Progressionsvorbehalt.\n\nZum Schluss: § 2 Abs. 7 und § 32b Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "quellen": [
+        "§ 1 Abs. 1, 4 EStG",
+        "§ 2 Abs. 7 EStG",
+        "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 36 Abs. 2 Nr. 2 EStG",
+        "§ 49 Abs. 1 Nr. 6 EStG",
+        "§ 50 Abs. 2 S. 2 Nr. 3 EStG"
+      ],
       "slug": "2026-10-12-b2",
+      "kurztitel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
       "folien": [
         {
           "art": "titel",
-          "titel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
-          "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Wegzug im · laufenden Jahr · § 2 Abs. 7 S. 3 EStG · in 5 Schritten · + Markier-Guide § 2 EStG · JUNI · 30 · Umzug nach Wien",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Unterhält ein Betrieb Betriebsstätten in mehreren Gemeinden, ist jede dieser Gemeinden hebeberechtigt; der Messbetrag wird dann nach § 28 GewStG zerlegt.",
-            "Regelmaßstab ist das Verhältnis der Arbeitslöhne in den einzelnen Gemeinden zur Summe aller Arbeitslöhne, jeweils auf volle 1.000 € abgerundet (§ 29 GewStG)."
-          ]
+          "titel": "Internationales Steuerrecht",
+          "text": "Das Schema · Phasen bestimmen · § 1 Abs. 1, 4 EStG · Inländische Einkünfte danach? · § 49 EStG · Eine Veranlagung, unbeschränkt · § 2 Abs. 7 S. 3 EStG · Ausland: nur Steuersatz · § 32b Abs. 1 S. 1 Nr. 2 EStG · Abzugsteuer anrechnen · § 50 Abs. 2 S. 2 Nr. 3 EStG · Am Ende: § 2 Abs. 7 EStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Stelle fest, in welchen Gemeinden Betriebsstätten im Sinne des § 12 AO bestehen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Arbeitslöhne je Gemeinde nach § 31 GewStG ermitteln; für tätige Unternehmer oder Mitunternehmer zusammen pauschal 25.000 € ansetzen (§ 31 Abs. 5 GewStG). Dann den Messbetrag im Verhältnis verteilen."
-            }
-          ]
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Beispiel: Lina zieht weg · Lina wohnt bis 30.06.2026 in München, dann in Wien. · Lohn München Januar bis Juni: 40.000 €. · Wohnung in Leipzig, ganzjährig vermietet: 12.000 € Einkünfte. · Gehalt Wien Juli bis Dezember: 30.000 €. · Neues Jahr, neue Stadt!"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Zerlegt wird nach Arbeitslöhnen, nicht nach Umsatz oder Gewinn – tätige Unternehmer zählen pauschal mit 25.000 €."
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Jetzt du · Wie viele Veranlagungen gibt es für 2026? · Was passiert mit der Miete ab Juli? · Und mit dem Wiener Gehalt? · Lösung: weiterwischen · Zwei Phasen, zwei Bescheide?"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: eine Veranlagung · § 2 Abs. 7 S. 3 EStG · § 49 Abs. 1 Nr. 6 EStG · Lohn München · 40.000 € · Miete Januar bis Juni · 6.000 € · Miete Juli bis Dezember · 6.000 € · Summe der Einkünfte · 52.000 € · Gehalt Wien: nur Steuersatz · 30.000 € · Progressionsvorbehalt § 32b EStG"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Zwei Bescheide? Falsch · Getrennte Veranlagungen gewähren den Grundfreibetrag doppelt. · § 2 Abs. 7 S. 1, 2 EStG · Das Wiener Gehalt erhöht den Steuersatz, auch ohne DBA-Freistellung. · § 32b Abs. 1 S. 1 Nr. 2 EStG · Steuerabzüge der Auslandsphase wirken nicht abgeltend. · § 50 Abs. 2 S. 2 Nr. 3 EStG · Ach so!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lina 2026: eine Veranlagung, Einkünfte 52.000 € · 30.000 € Wien nur im Progressionsvorbehalt · Ein Jahr, ein Bescheid, · Inland zusammen, · Ausland nur für · den Steuersatz. · Speichern für Klausur 2 · Zuzug geht genauso. Probierst du es? · Weiterwischen: § 2 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "ein Jahr · Wechsel · ein Bescheid · Steuersatz · Dazu: § 50 Abs. 2 S. 2 Nr. 3 EStG · Abzugsteuern werden hier angerechnet"
         }
-      ],
-      "caption": "Zerlegung: Hat ein Betrieb Betriebsstätten in mehreren Gemeinden, verteilst du den Gewerbesteuermessbetrag nach dem Verhältnis der Arbeitslöhne (§§ 28, 29 GewStG). Für tätige Unternehmer setzt du pauschal 25.000 € an (§ 31 Abs. 5 GewStG).",
-      "hashtags": [
-        "#steuerberaterexamen",
-        "#steuerberaterprüfung",
-        "#examensvorbereitung",
-        "#gewerbesteuer"
-      ],
-      "kurztitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden…",
-      "coverBadge": "Klausurschema",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "§ 2 Abs. 1 GewStG",
-        "§ 28 Abs. 1 GewStG",
-        "§ 29 Abs. 1 Nr. 1 GewStG",
-        "§ 29 Abs. 2 GewStG",
-        "§ 29 Abs. 3 GewStG",
-        "§ 31 Abs. 5 GewStG",
-        "§ 184 AO",
-        "§ 175 Abs. 1 Nr. 1 AO",
-        "Themenpool: gewst-aufb-gewst-ks-08"
-      ],
-      "coverRegie": {
-        "thema": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b2-gewst-aufb-gewst-ks-08-cover.png",
-        "status": "Bild ausstehend"
-      },
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "umwst",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-70",
-      "slug": "2026-10-12-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
-          "unter": "Umwandlungssteuerrecht",
-          "text": "Aufstockung nur auf Antrag, gewinnneutral und erst nach Steuerzahlung des Einbringenden.",
-          "norm": "§ 23 Abs. 2 UmwStG",
-          "icon": null,
-          "sprecher": "Der Einbringende hat in der Sperrfrist verkauft und den Einbringungsgewinn I versteuert. Wie zieht die GmbH jetzt nach?",
-          "marken": [
-            "Erhöhungsbetrag auf Antrag",
-            "§ 23 Abs. 2 UmwStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Erhöhungsbetrag: Antrag und Bescheinigung",
-          "text": null,
-          "norm": "§ 23 Abs. 2 UmwStG",
-          "icon": null,
-          "sprecher": "Die GmbH darf auf Antrag den Einbringungsgewinn I gewinnneutral als Erhöhungsbetrag ansetzen. Voraussetzung: Der Einbringende hat die Steuer darauf gezahlt, belegt durch eine Bescheinigung nach § 22 Absatz 5 UmwStG.",
-          "marken": [
-            "Antrag und Steuerbescheinigung",
-            "§ 22 Abs. 5 UmwStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Wirtschaftsgüter aufstocken, AfA anpassen",
-          "text": null,
-          "norm": "§ 23 Abs. 3 UmwStG",
-          "icon": null,
-          "sprecher": "Aufgestockt werden die eingebrachten Wirtschaftsgüter, die noch zum Betriebsvermögen gehören, im Verhältnis ihrer stillen Reserven. Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in dem die schädliche Veräußerung liegt.",
-          "marken": [
-            "AfA ab Beginn des Wirtschaftsjahres",
-            "§ 23 Abs. 3 UmwStG"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Ohne Antrag und ohne gezahlte Steuer des Einbringenden keine Aufstockung – und die höhere AfA wirkt erst ab dem Jahr der schädlichen Veräußerung.",
-          "sprecher": "Merke: Die GmbH stockt erst auf, wenn der Einbringende gezahlt hat. Die höhere AfA wirkt nicht auf den Einbringungszeitpunkt zurück.",
-          "marken": [
-            "Erst Steuer, dann Aufstockung"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage und Reihenfolge",
-            "Normen ohne Unterlagen"
-          ]
-        }
-      ],
-      "caption": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Auf Antrag setzt sie den versteuerten Einbringungsgewinn gewinnneutral als Erhöhungsbetrag an, wenn der Einbringende die Steuer gezahlt hat (§ 23 Abs. 2, § 22 Abs. 5 UmwStG). Die höhere AfA gilt ab Beginn des Wirtschaftsjahres der schädlichen Veräußerung (§ 23 Abs. 3 UmwStG).",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-karte-k3-26",
+      "caption": "Mitunternehmeranteil verkauft: So rechnest du den Veräußerungsgewinn. 🧮\n\n▸ Veräußerungsgewinn = Veräußerungspreis abzüglich Veräußerungskosten abzüglich Wert des Anteils am Betriebsvermögen (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Der Wert des Anteils wird zum Veräußerungszeitpunkt nach § 4 Abs. 1 oder § 5 EStG ermittelt (§ 16 Abs. 2 S. 2 EStG) und umfasst das Kapital aus Gesamthandsbilanz, Ergänzungsbilanz und Sonderbilanz des Gesellschafters.\n▸ Beispiel: 250.000 € Preis − 5.000 € Kosten − 170.000 € Kapital (120.000 € + 30.000 € + 20.000 €) = 75.000 € Gewinn.\n▸ Bei einer natürlichen Person als unmittelbar beteiligtem Mitunternehmer gehört der Gewinn nicht zum Gewerbeertrag (§ 7 S. 2 Nr. 2 GewStG).\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 23 Abs. 2 UmwStG",
-        "§ 23 Abs. 3 UmwStG",
-        "§ 5 Abs. 7 EStG",
-        "§ 27 KStG",
-        "§ 22 Abs. 5 UmwStG",
-        "Themenpool: umwst-aufb-umw-2-70"
+        "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG",
+        "§ 7 S. 2 Nr. 2 GewStG"
       ],
-      "coverRegie": {
-        "thema": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-12-b3-umwst-aufb-umw-2-70-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-12-b3",
+      "kurztitel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Gewinn beim Anteilsverkauf?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Drei Kapitalkonten"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Rechnung"
+        }
+      ],
+      "sprecher": [
+        "Du verkaufst deinen Kommanditanteil. Wie hoch ist der Gewinn? Nur mit der Gesamthand gerechnet: zu hoch. Mit allen drei Bilanzen: richtig.",
+        "Das Kapital hat drei Teile: Gesamthandsbilanz hundertzwanzigtausend, Ergänzungsbilanz dreißigtausend, Sonderbilanz zwanzigtausend. Zusammen hundertsiebzigtausend.",
+        "Kaufpreis zweihundertfünfzigtausend, minus fünftausend Kosten, minus hundertsiebzigtausend Kapital. Gewinn: fünfundsiebzigtausend Euro.",
+        "Merke: Preis minus Kosten minus alle drei Kapitalkonten."
+      ],
+      "dauerS": 41.35,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
@@ -419,27 +321,25 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-29",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-29"
+      "themaId": "persg-quiz-k3-32",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Prüfungsfrage",
+        "Aufnahme in die KG:",
+        "Wozu Ergänzungsbilanzen?",
+        "Altgesellschafter bleiben beim Buchwert",
+        "Das HGB schreibt sie vor",
+        "Wegen der Gewerbesteuer",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wann endet die Sperrfrist nach einer Realteilung (§ 16 Abs. 3 S. 3 EStG)?",
-      "titel": "Wann endet die Sperrfrist nach einer Realteilung (§ 16 Abs. 3 S. 3 EStG)?",
-      "optionen": [
-        "ein Jahr ab Realteilung",
-        "drei Jahre ab Realteilung",
-        "drei Jahre ab Abgabe der Feststellungserklärung"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
@@ -447,236 +347,207 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-29",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-29"
+      "themaId": "persg-quiz-k3-32",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Auflösung",
+        "A: Buchwert",
+        "bleibt möglich",
+        "Altgesellschafter bleiben beim Buchwert",
+        "Das HGB schreibt sie vor",
+        "Wegen der Gewerbesteuer",
+        "Ergänzungsbilanzen verhindern, dass die Alten stille Reserven versteuern; der Neue erfasst seinen Mehrpreis.",
+        "§ 24 Abs. 2 UmwStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "drei Jahre ab Abgabe der Feststellungserklärung",
-      "optionen": [
-        "ein Jahr ab Realteilung",
-        "drei Jahre ab Realteilung",
-        "drei Jahre ab Abgabe der Feststellungserklärung"
-      ],
-      "richtig": 2,
-      "text": "Die Sperrfrist endet drei Jahre nach Abgabe der Feststellungserklärung für den Veranlagungszeitraum der Realteilung, nicht drei Jahre ab dem Realteilungsstichtag (§ 16 Abs. 3 S. 3 EStG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-4-17",
-      "quellen": [
-        "Art. 10 OECD-MA",
-        "§ 8b Abs. 4 KStG",
-        "§ 32d Abs. 1 EStG",
-        "§ 32d EStG",
-        "§ 8b Abs. 1 KStG",
-        "§ 3c Abs. 2 EStG",
-        "§ 20 Abs. 8 EStG",
-        "§ 20 Abs. 1 EStG",
-        "§ 32d Abs. 5 EStG",
-        "§ 32d Abs. 2 EStG",
-        "Themenpool: istr-aufb-istr-gh-4-17"
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-t1-4",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Wann ist es",
+        "eine Schenkung?",
+        "§ 7 Abs. 1 Nr. 1 ErbStG",
+        "Empfänger objektiv bereichert, auf Kosten des Gebers.",
+        "Geber will unentgeltlich leisten. Einigung wie im BGB? Nicht nötig.",
+        "R E 7.1 Abs. 1 ErbStR"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "Art. 10 OECD-MA",
-      "titel": "Auslandsdividenden: Wer darf besteuern, was wird angerechnet?",
-      "text": "Art. 10 Abs. 2 OECD-MA begrenzt die Quellensteuer auf Dividenden bei Streubesitz auf 15 %. Angerechnet wird nur diese abkommensgemäße Steuer; was der Quellenstaat darüber hinaus einbehält, forderst du dort zurück.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "fehler",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr3-11",
-      "quellen": [
-        "§ 49 Abs. 1 Nr. 2 Buchst. e EStG",
-        "§ 8b Abs. 2 KStG",
-        "§ 8b Abs. 3 S. 1 KStG",
-        "BFH I R 37/15",
-        "§ 8b Abs. 2, 3 KStG",
-        "Themenpool: istr-modul-istr-istr3-11"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Zweiter Anlauf",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Zweiter Anlauf",
+        "Lernstrategie",
+        "Zweiter Anlauf:",
+        "jetzt notieren",
+        "Wo hast du Zeit verloren? Aufschreiben, solange es frisch ist.",
+        "Welche Themen saßen nicht sicher?",
+        "Daraus wird später dein Plan."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Anteilsveräußerung durch ausländische Körperschaft: § 49 und § 8b KStG",
-      "falsch": "Pauschal 5 % des Gewinns als nicht abziehbare Betriebsausgaben nach § 8b Abs. 3 KStG ansetzen, obwohl keine inländische Betriebsstätte besteht.",
-      "richtigText": "Erst § 49 Abs. 1 Nr. 2 Buchst. e EStG (Beteiligung ab 1 %) und ein DBA prüfen. Bleibt Deutschland zuständig, ist der Gewinn nach § 8b Abs. 2 KStG frei; ohne inländische Betriebsstätte greift die 5 %-Fiktion nicht.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "istr",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-04",
-      "quellen": [
-        "Art. 1 DBA",
-        "Art. 2 DBA",
-        "Art. 4 Abs. 1 DBA",
-        "Art. 4 Abs. 2 DBA",
-        "Art. 1, 2 und 4 DBA",
-        "Themenpool: istr-modul-istr-istr2-04"
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-3",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Klausurtipp",
+        "Nutzungsvorteil:",
+        "keine Einlage",
+        "Zinsloses Darlehen oder mietfreie Räume an die GmbH: keine verdeckte Einlage.",
+        "H 8.9 KStH",
+        "Grund: Nutzungen sind nicht bilanzierbar.",
+        "BFH, GrS 2/86"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "DBA: Anwendbarkeit und Ansässigkeit",
-      "text": "Prüfe zuerst, ob das DBA greift: persönlich nach Art. 1 (in einem Vertragsstaat ansässige Person) und sachlich nach Art. 2 (erfasste Steuern). Ist eine natürliche Person doppelt ansässig, entscheidet Art. 4 Abs. 2.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-322",
-      "quellen": [
-        "§ 357 Abs. 2 AO",
-        "§ 110 AO",
-        "AEAO zu § 110 Nr. 2",
-        "Themenpool: ao-modul-ao-322"
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-13",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Einbringung ohne",
+        "neue Anteile?",
+        "Ohne neue Anteile",
+        "kein § 20 UmwStG.",
+        "§ 20 Abs. 1 UmwStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Einspruch beim falschen Finanzamt: Eingang, Weiterleitung und Wiedereinsetzung",
-      "text": "Ein Einspruch beim unzuständigen Finanzamt wahrt die Frist nur, wenn er vor Fristablauf an eine zuständige Behörde übermittelt wird (§ 357 Abs. 2 S. 4 AO). Hakt die Weiterleitung, prüfe Wiedereinsetzung nach § 110 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "erbst",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer;…",
-      "text": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Nachschieben nach Fristende?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "gewst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden…",
-      "text": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "Wegzug im laufenden Jahr",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "umwst",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Personengesellschaften",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "Gewinn beim Anteilsverkauf?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:37:06.919Z",
+    "erzeugtAm": "2026-10-03T04:39:44Z",
     "pfad": "vorproduktion/2026-10-12/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -688,5 +559,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
