@@ -7399,6 +7399,28 @@
       "thema": "istr-modul-istr-istr3-06",
       "fach": "istr",
       "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG"
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "b2",
+      "medienId": "18094578887217737",
+      "veroeffentlicht": "2026-10-03T11:44:57.734Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "rechenweg",
+      "thema": "gewst-aufb-gewst-ks-07",
+      "fach": "gewst",
+      "klausur": 2,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -7412,7 +7434,7 @@
     "mindset": 2,
     "est": 1,
     "umwst": 2,
-    "gewst": 1
+    "gewst": 2
   },
   "nachrichten": [],
   "postfach": [],
