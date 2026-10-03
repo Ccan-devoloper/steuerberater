@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-03T05:46:04.037Z",
+  "stand": "2026-10-03T06:46:30.244Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6163,6 +6163,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 168,
+          "reach": 58,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -6571,6 +6583,20 @@
           "ig_reels_avg_watch_time": 10048,
           "ig_reels_video_view_total_time": 723476,
           "reels_skip_rate": 57.6
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 140,
+          "reach": 67,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 91,
+          "ig_reels_avg_watch_time": 9618,
+          "ig_reels_video_view_total_time": 731041,
+          "reels_skip_rate": 60
         }
       ]
     },
@@ -7007,6 +7033,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 120,
+          "reach": 56,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -7381,6 +7419,20 @@
           "ig_reels_avg_watch_time": 15078,
           "ig_reels_video_view_total_time": 1130852,
           "reels_skip_rate": 55.2
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 116,
+          "reach": 65,
+          "saved": 2,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 99,
+          "ig_reels_avg_watch_time": 16033,
+          "ig_reels_video_view_total_time": 1250602,
+          "reels_skip_rate": 54.3
         }
       ]
     },
@@ -11979,6 +12031,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 19,
+          "reach": 35,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -12148,6 +12212,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 16,
+          "reach": 34,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 1,
+          "profile_visits": 1
         }
       ]
     },
@@ -12245,6 +12321,20 @@
           "ig_reels_avg_watch_time": 12255,
           "ig_reels_video_view_total_time": 453450,
           "reels_skip_rate": 71.4
+        },
+        {
+          "stand": "2026-10-03T06:46:26.603Z",
+          "alterStunden": 13,
+          "reach": 59,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 86,
+          "ig_reels_avg_watch_time": 9850,
+          "ig_reels_video_view_total_time": 610742,
+          "reels_skip_rate": 68.9
         }
       ]
     },
@@ -12330,6 +12420,85 @@
           "navigation_tap_forward": 20,
           "navigation_tap_back": 2,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18119479064516824": {
+      "art": "story",
+      "datum": "2026-10-03",
+      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T05:45:26.283Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T06:46:22.547Z",
+          "alterStunden": 1,
+          "reach": 9,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 8,
+          "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "18197892760375963": {
+      "art": "story",
+      "datum": "2026-10-03",
+      "titel": "der Gesellschafter oder eine nahestehende Person",
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T05:45:37.259Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T06:46:22.547Z",
+          "alterStunden": 1,
+          "reach": 9,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 8,
+          "navigation_tap_forward": 7,
+          "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18011072141970626": {
+      "art": "story",
+      "datum": "2026-10-03",
+      "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T05:45:48.344Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T06:46:22.547Z",
+          "alterStunden": 1,
+          "reach": 6,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 6,
+          "navigation_tap_forward": 6
         }
       ]
     }
@@ -13083,6 +13252,11 @@
     {
       "stand": "2026-10-03T05:46:04.037Z",
       "follower": 104,
+      "medien": 81
+    },
+    {
+      "stand": "2026-10-03T06:46:30.244Z",
+      "follower": 105,
       "medien": 81
     }
   ]

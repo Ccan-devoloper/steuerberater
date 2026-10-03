@@ -4983,7 +4983,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 55,
+        "reach": 58,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -4992,8 +4992,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-02T06:45:16.786Z",
-      "insightsAlterStunden": 144
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-09-26",
@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 61,
+        "reach": 67,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 87,
-        "ig_reels_avg_watch_time": 10048,
-        "ig_reels_video_view_total_time": 723476,
-        "reels_skip_rate": 57.6
+        "views": 91,
+        "ig_reels_avg_watch_time": 9618,
+        "ig_reels_video_view_total_time": 731041,
+        "reels_skip_rate": 60
       },
-      "insightsStand": "2026-10-02T06:45:16.786Z",
-      "insightsAlterStunden": 116
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 140
     },
     {
       "datum": "2026-09-27",
@@ -5545,7 +5545,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5554,8 +5554,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T06:45:16.786Z",
-      "insightsAlterStunden": 96
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 120
     },
     {
       "datum": "2026-09-28",
@@ -5635,19 +5635,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 62,
+        "reach": 65,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
-        "views": 95,
-        "ig_reels_avg_watch_time": 15078,
-        "ig_reels_video_view_total_time": 1130852,
-        "reels_skip_rate": 55.2
+        "views": 99,
+        "ig_reels_avg_watch_time": 16033,
+        "ig_reels_video_view_total_time": 1250602,
+        "reels_skip_rate": 54.3
       },
-      "insightsStand": "2026-10-02T06:45:16.786Z",
-      "insightsAlterStunden": 92
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 116
     },
     {
       "datum": "2026-09-28",
@@ -7052,7 +7052,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 32,
+        "reach": 35,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7061,8 +7061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T19:44:24.179Z",
-      "insightsAlterStunden": 8
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-10-02",
@@ -7143,17 +7143,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 30,
+        "reach": 34,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
-        "follows": 0,
+        "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-02T19:44:24.179Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 16
     },
     {
       "datum": "2026-10-02",
@@ -7205,19 +7205,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 36,
-        "saved": 0,
+        "reach": 59,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 56,
-        "ig_reels_avg_watch_time": 12255,
-        "ig_reels_video_view_total_time": 453450,
-        "reels_skip_rate": 71.4
+        "total_interactions": 1,
+        "views": 86,
+        "ig_reels_avg_watch_time": 9850,
+        "ig_reels_video_view_total_time": 610742,
+        "reels_skip_rate": 68.9
       },
-      "insightsStand": "2026-10-02T20:44:40.996Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-03T06:46:26.603Z",
+      "insightsAlterStunden": 13
     },
     {
       "datum": "2026-10-02",
@@ -7307,7 +7307,21 @@
       "storyArt": "frage",
       "thema": "kst-quiz-kst-2",
       "fach": "kst",
-      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?"
+      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
+      "insights": {
+        "reach": 9,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_forward": 8
+      },
+      "insightsStand": "2026-10-03T06:46:22.547Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-03",
@@ -7319,7 +7333,22 @@
       "storyArt": "antwort",
       "thema": "kst-quiz-kst-2",
       "fach": "kst",
-      "titel": "der Gesellschafter oder eine nahestehende Person"
+      "titel": "der Gesellschafter oder eine nahestehende Person",
+      "insights": {
+        "reach": 9,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_forward": 7,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-10-03T06:46:22.547Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-03",
@@ -7331,7 +7360,21 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ao",
-      "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB"
+      "titel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+      "insights": {
+        "reach": 6,
+        "views": 12,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 6,
+        "navigation_tap_forward": 6
+      },
+      "insightsStand": "2026-10-03T06:46:22.547Z",
+      "insightsAlterStunden": 1
     }
   ],
   "fachZaehler": {
