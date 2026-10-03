@@ -20,10 +20,10 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "wochenrueckblick",
-        "themaId": "wochenrueckblick-k2-2026-40",
-        "themaTitel": "Tag 2 kompakt: fünf Dauerbrenner der Woche",
-        "fach": "est",
-        "klausur": 2
+        "themaId": "wochenrueckblick-alle-2026-40",
+        "themaTitel": "Alle Klausuren kompakt: sechs Dauerbrenner vor dem Examen",
+        "fach": null,
+        "klausur": 0
       },
       {
         "slot": "b2",
@@ -103,29 +103,31 @@
   "inhalte": {
     "b1": {
       "format": "wochenrueckblick",
-      "fach": "est",
-      "klausur": 2,
-      "fachLabel": "Ertragsteuern",
-      "themaId": "wochenrueckblick-k2-2026-40",
-      "caption": "Tag 2 kompakt: fünf Dauerbrenner der Woche für die Ertragsteuer-Klausur.\n\n1. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n2. Gewerbesteuer: abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, 3,5 % Messzahl, Hebesatz (§ 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG).\n3. Verdeckte Gewinnausschüttung: Sie mindert das Einkommen der GmbH nicht (§ 8 Abs. 3 S. 2 KStG; Begriff R 8.5 Abs. 1 KStR).\n4. Wegzug mit Anteilen im Sinne des § 17 EStG: Besteuerung wie bei einer Veräußerung, wenn 7 der letzten 12 Jahre unbeschränkte Steuerpflicht bestand; auf Antrag sieben Jahresraten (§ 6 Abs. 1, 2, 4 AStG).\n5. Anrechnung ausländischer Steuer nur bis zur deutschen Steuer auf die Einkünfte aus diesem Staat (§ 34c Abs. 1 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG und R 8.5 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-40",
+      "caption": "Wochenrückblick vor dem Examen: die Dauerbrenner aller drei Klausuren (06. bis 08.10.2026).\n\nKlausur 1, Dienstag (AO, USt, ErbSt)\n1. Ein per Post übermittelter Bescheid gilt am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO).\n2. Die Einspruchsfrist beträgt einen Monat ab Bekanntgabe; fällt ihr Ende auf Samstag, Sonntag oder Feiertag, endet sie mit Ablauf des nächsten Werktags (§ 355 Abs. 1 S. 1, § 108 Abs. 3 AO).\n3. Steuerbar ist nur die Lieferung oder sonstige Leistung eines Unternehmers im Inland gegen Entgelt im Rahmen seines Unternehmens; fehlt ein Merkmal, ist der Umsatz nicht steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n\nKlausur 2, Mittwoch (Ertragsteuern)\n4. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung, veranlasst durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n5. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, erst zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n\nKlausur 3, Donnerstag (Buchführung und Bilanzwesen)\n6. Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG).\n7. Vergütungen der Gesellschaft an den Mitunternehmer für Tätigkeit, Darlehen oder überlassene Wirtschaftsgüter gehören zum gewerblichen Gewinn (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG und R 8.5 Abs. 1 KStR zum Markieren. Speichern für alle drei Klausuren 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#ertragsteuern"
+        "#steuerrecht"
       ],
       "quellen": [
-        "§§ 7, 8, 9, 10a GewStG",
-        "§ 11 Abs. 1 S. 3, Abs. 2 GewStG",
-        "§ 16 Abs. 1 GewStG",
+        "§ 122 Abs. 2 Nr. 1 AO",
+        "§ 355 Abs. 1 S. 1 AO",
+        "§ 108 Abs. 3 AO",
+        "§ 1 Abs. 1 Nr. 1 UStG",
         "§ 8 Abs. 3 KStG",
         "R 8.5 Abs. 1 KStR",
-        "§ 6 Abs. 1, 2, 4 AStG",
-        "§ 34c Abs. 1 EStG",
+        "§§ 7, 8, 9, 10a GewStG",
+        "§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
         "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
       ],
       "slug": "2026-10-04-b1",
-      "kurztitel": "Tag 2 kompakt: fünf Dauerbrenner der Woche",
+      "kurztitel": "Alle Klausuren kompakt: sechs Dauerbrenner vor dem Examen",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -140,52 +142,42 @@
         {
           "art": "titel",
           "titel": "Wochenrückblick",
-          "text": "Wochenrückblick · Tag 2 · kompakt · 5 Dauerbrenner · + Markier-Guide § 8 + R 8.5 · OKTOBER · 7 · Mi · Tag 2",
+          "text": "Wochenrückblick · Alle 3 · Klausuren · 6 Dauerbrenner · + Markier-Guide § 8 + R 8.5 · Di · Klausur 1 · Mi · Klausur 2 · Do · Klausur 3",
           "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "Die 5 Dauerbrenner · Gewerbeertrag · §§ 7 bis 10a GewStG · Gewerbesteuer · §§ 11, 16 GewStG · Verdeckte Gewinnausschüttung · § 8 Abs. 3 S. 2 KStG · Wegzug mit GmbH-Anteil · § 6 AStG · Anrechnung ausländischer Steuer · § 34c Abs. 1 EStG · Am Ende: § 8 KStG + R 8.5 markiert"
+          "titel": "Alle Klausuren",
+          "text": "Drei Tage, drei Klausuren · Di · Klausur 1 · §§ 122, 355 AO · § 1 UStG · Einspruchsfrist und Steuerbarkeit · Mi · Klausur 2 · § 8 Abs. 3 S. 2 KStG · §§ 7 bis 10a GewStG · vGA und Gewerbeertrag · Do · Klausur 3 · § 6 Abs. 1 Nr. 1, 2 · § 15 Abs. 1 EStG · Teilwert und Sondervergütungen · Am Ende: § 8 KStG + R 8.5 markiert"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "1 · Gewerbeertrag · Start ist der Gewinn nach Einkommen- oder Körperschaftsteuerrecht. · § 7 S. 1 GewStG · Dann Hinzurechnungen dazu, Kürzungen ab. · §§ 8, 9 GewStG · Den Gewerbeverlust erst ganz am Ende abziehen. · § 10a GewStG · Reihenfolge zählt!"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · AO und USt · Per Post: bekannt gegeben am vierten Tag nach Aufgabe. · § 122 Abs. 2 Nr. 1 AO · Einspruch: ein Monat; endet sie am Wochenende, zählt der nächste Werktag. · § 355 Abs. 1 S. 1, § 108 Abs. 3 AO · Steuerbar nur, wenn alle fünf Merkmale vorliegen. · § 1 Abs. 1 Nr. 1 UStG · Fristen zählen!"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "2 · Gewerbesteuer · Gewerbeertrag auf volle 100 € abrunden. · § 11 Abs. 1 S. 3 GewStG · 24.500 € Freibetrag nur für natürliche Personen und Personengesellschaften. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Mal 3,5 %, dann mal Hebesatz. · § 11 Abs. 2, § 16 Abs. 1 GewStG · Und die GmbH?"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · KSt und GewSt · vGA: Vermögensminderung, ausgelöst durch das Gesellschaftsverhältnis. · R 8.5 Abs. 1 KStR · Sie mindert das Einkommen nicht. · § 8 Abs. 3 S. 2 KStG · Gewerbeertrag: Gewinn, Hinzurechnungen, Kürzungen, zuletzt der Verlustvortrag. · §§ 7 bis 10a GewStG · Wem nützt es?"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "3 · Verdeckte Gewinnausschüttung · Die GmbH verliert Vermögen oder verzichtet auf einen Zuwachs. · R 8.5 Abs. 1 KStR · Auslöser ist das Gesellschaftsverhältnis. · Folge: Das Einkommen der GmbH sinkt dadurch nicht. · § 8 Abs. 3 S. 2 KStG · Wem nützt es?"
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · Bilanz und PersG · Teilwert nur bei voraussichtlich dauernder Wertminderung. · § 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG · Gehalt, Zinsen, Miete der KG an ihren Mitunternehmer: gewerblicher Gewinn. · § 15 Abs. 1 S. 1 Nr. 2 EStG · Dauerhaft gesunken?"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "4 · Wegzug mit Anteil · Wer GmbH-Anteile im Sinne des § 17 EStG hält und wegzieht, versteuert, als hätte er verkauft. · § 6 Abs. 1 AStG · Voraussetzung: 7 der letzten 12 Jahre unbeschränkt steuerpflichtig. · § 6 Abs. 2 S. 1 AStG · Auf Antrag sieben Jahresraten. · § 6 Abs. 4 S. 1 AStG · Auch ohne Verkauf?"
+          "titel": "Alle Klausuren",
+          "text": "Di, Mi, Do: je eine Klausur · Verfahren · Ertragsteuern · Bilanz · Bekanntgabe plus Monat, · vGA mindert nichts, · Teilwert nur dauerhaft, · Sondervergütung zählt mit. · Speichern für alle 3 Klausuren · Welcher Tag wackelt noch? · Weiterwischen: § 8 KStG + R 8.5 markiert"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "5 · Anrechnung · Ausländische Steuer wird auf die deutsche Einkommensteuer angerechnet. · § 34c Abs. 1 S. 1 EStG · Höchstens bis zu dem Teil, der auf die Einkünfte aus diesem Staat entfällt. · § 34c Abs. 1 S. 2 EStG · Grenze je Staat rechnen · Pro Staat!"
-        },
-        {
-          "art": "text",
-          "titel": "Ertragsteuern",
-          "text": "Mittwoch ist Tag 2 · Ertragsteuern: ESt, KSt, GewSt, IStR · Ertrag vor Messbetrag, · vGA mindert nichts, · Wegzug wie Verkauf, · Anrechnung mit Grenze. · Speichern für Klausur 2 · Welcher Punkt wackelt noch? · Weiterwischen: § 8 KStG + R 8.5 markiert"
-        },
-        {
-          "art": "text",
-          "titel": "Ertragsteuern",
+          "titel": "Alle Klausuren",
           "text": "§ 8 KStG Ermittlung des Einkommens (Auszug) · vGA · Rechtsfolge · Gegenstück · Begriff der vGA: R 8.5 Abs. 1 KStR · Steht nicht im Gesetz, sondern in der Richtlinie"
         },
         {
           "art": "text",
-          "titel": "Ertragsteuern",
+          "titel": "Alle Klausuren",
           "text": "R 8.5 KStR vGA (Auszug) · Minderung · Auslöser · keine offene Ausschüttung · auch Angehörige · Beim Gesellschafter: § 20 Abs. 1 Nr. 1 S. 2 EStG · Die vGA ist dort Kapitalertrag"
         }
       ]
@@ -262,7 +254,7 @@
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
       "themaId": "ao-aufb-ao-jacobs-12-1",
-      "caption": "Darf das Finanzamt auch bei Angestellten eine Außenprüfung machen? 🧾\n\n▸ Ohne besonderen Anlass zulässig bei Gewerbetreibenden, Land- und Forstwirten, freiberuflich Tätigen und Steuerpflichtigen im Sinne des § 147a AO (§ 193 Abs. 1 AO).\n▸ Bei anderen nur, soweit es um Steuern geht, die sie für andere einbehalten und abführen, wenn eine Prüfung an Amtsstelle nicht zweckmäßig ist, oder bei Verstößen gegen Mitwirkungspflichten nach § 12 StAbwG (§ 193 Abs. 2 Nr. 1–3 AO).\n▸ Nachschau und betriebsnahe Veranlagung sind keine Außenprüfung und hemmen den Ablauf der Festsetzungsfrist nicht (§ 171 Abs. 4 AO).\n\nSpeichern für Klausur 1 📌",
+      "caption": "Darf das Finanzamt auch bei Angestellten eine Außenprüfung machen? 🧾\n\n▸ Ohne besonderen Anlass zulässig bei Gewerbetreibenden, Land- und Forstwirten, freiberuflich Tätigen und Steuerpflichtigen im Sinne des § 147a AO (§ 193 Abs. 1 AO).\n▸ Bei anderen nur, soweit es um Steuern geht, die sie für andere einbehalten und abführen, wenn eine Prüfung an Amtsstelle nicht zweckmäßig ist, oder bei Verstößen gegen Mitwirkungspflichten nach § 12 StAbwG (§ 193 Abs. 2 Nr. 1–3 AO).\n▸ Eine Nachschau (etwa nach § 27b UStG oder § 42g EStG) ist keine Außenprüfung und hemmt den Ablauf der Festsetzungsfrist nicht (§ 171 Abs. 4 AO).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -273,7 +265,9 @@
         "§ 193 Abs. 1, 2 AO",
         "§ 147a AO",
         "§ 171 Abs. 4 AO",
-        "§ 12 StAbwG"
+        "§ 12 StAbwG",
+        "§ 27b UStG",
+        "§ 42g EStG"
       ],
       "slug": "2026-10-04-b3",
       "kurztitel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
@@ -389,7 +383,7 @@
         "Selbständig, nachhaltig, mit Gewinnabsicht und am Markt.",
         "§ 15 Abs. 2 S. 1 EStG",
         "Nicht: Land- und Forstwirtschaft, freier Beruf, Vermögensverwaltung.",
-        "R 15.7 Abs. 1 EStR"
+        "§ 15 Abs. 2 S. 1 EStG, R 15.7 Abs. 1 EStR"
       ],
       "renderer": "open-peeps-v4",
       "bildStatus": "open-peeps-render",
@@ -479,16 +473,16 @@
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "est",
-      "klausur": 2,
-      "fachLabel": "Ertragsteuern",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
       "themaId": null,
       "beitragSlot": "b1",
       "quellen": null,
       "sichtbareTexte": [
-        "Ertragsteuern",
+        "Alle Klausuren",
         "Neu im Feed",
-        "Tag 2 kompakt",
+        "Alle 3 Klausuren kompakt",
         "Wochenrückblick + Markier-Guide · im Profil"
       ],
       "renderer": "open-peeps-v4",
@@ -545,7 +539,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:13:42Z",
+    "erzeugtAm": "2026-10-03T13:08:58Z",
     "pfad": "vorproduktion/2026-10-04/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
