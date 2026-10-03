@@ -4,20 +4,15 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
@@ -25,8 +20,8 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "erbst-aufb-erbst-t1-4",
-        "themaTitel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+        "themaId": "erbst-aufb-erbst-v-19",
+        "themaTitel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
         "fach": "erbst",
         "klausur": 1
       },
@@ -34,79 +29,74 @@
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "gewst-aufb-gewst-ks-02",
-        "themaTitel": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
-        "fach": "gewst",
+        "themaId": "kst-schema-0",
+        "themaTitel": "KSt-Grundschema: Steuerpflicht bis zvE",
+        "fach": "kst",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "umwst-aufb-umw-2-49",
-        "themaTitel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+        "themaId": "umwst-aufb-umw-2-25",
+        "themaTitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
         "fach": "umwst",
-        "klausur": 3,
-        "lang": false
+        "klausur": 3
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:11",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "ust-quiz-ust-15"
+        "themaId": "bilanz-quiz-k3-1"
       },
       {
         "slot": "s5",
-        "zeit": "07:11",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "ust-quiz-ust-15"
+        "themaId": "bilanz-quiz-k3-1"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:08",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-341"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:40",
-        "art": "tipp",
-        "themaId": "istr-modul-istr-istr1-09"
+        "themaId": "erbst-aufb-erbst-v-20"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:47",
-        "art": "merksatz",
-        "themaId": "ao-aufb-ao-jacobs-7-7"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:26",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-8-5"
+        "themaId": "est-aufb-est-ks2-17-03"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-2-32"
       }
     ]
   },
@@ -115,542 +105,409 @@
       "format": "spickzettel",
       "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-aufb-erbst-t1-4",
-      "slug": "2026-10-15-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Objektiv muss der Empfänger auf Kosten des Zuwendenden bereichert sein, etwa durch Vermögensmehrung oder Befreiung von einer Schuld.",
-            "Subjektiv genügt der Wille zur Unentgeltlichkeit: Der Geber weiß, dass er nichts schuldet und nichts zurückbekommt. Eine Bereicherungsabsicht oder Einigung wie bei § 516 BGB ist unnötig."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Vermögensverschiebung vom Zuwendenden zum Empfänger und dessen Bereicherung feststellen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Wille zur Unentgeltlichkeit prüfen: Ist die Leistung an eine erwartete Gegenleistung geknüpft, etwa im Geschäftsverkehr, fehlt er. Bei Teilentgelt ist nur der unentgeltliche Teil steuerpflichtig."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Freigebig ist eine Zuwendung, wenn der Empfänger objektiv auf Kosten des Gebers bereichert ist und der Geber ihm bewusst etwas ohne Gegenleistung zukommen lassen will. Steuerpflichtig ist sie nur, soweit sie unentgeltlich ist (§ 7 Abs. 1 Nr. 1 ErbStG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Freigebige Zuwendung nach § 7 Abs. 1 Nr. 1 ErbStG: Objektiv muss der Empfänger auf Kosten des Zuwendenden bereichert sein. Subjektiv genügt der Wille zur Unentgeltlichkeit, also das Bewusstsein, ohne Rechtspflicht und ohne Gegenleistung zu leisten. Eine Bereicherungsabsicht ist nicht nötig, und auf die Motive des Zuwendenden kommt es nicht an (BFH, Urteil vom 9.4.2025, II R 48/21).",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-19",
+      "caption": "Lohnsummenregelung bei der Verschonung von Betriebsvermögen – der Spickzettel für Klausur 1.\n\n▸ Regelverschonung: 85 % des begünstigten Vermögens bleiben steuerfrei (§ 13a Abs. 1 ErbStG), wenn die Lohnsummen der fünf Jahre nach dem Erwerb zusammen 400 % der Ausgangslohnsumme nicht unterschreiten (§ 13a Abs. 3 S. 1 ErbStG).\n▸ Ausgangslohnsumme: Durchschnitt der letzten fünf vor der Steuerentstehung endenden Wirtschaftsjahre (§ 13a Abs. 3 S. 2 ErbStG).\n▸ Keine Lohnsummenprüfung bei höchstens fünf Beschäftigten; mehr als fünf bis zehn: 250 %, mehr als zehn bis 15: 300 % (§ 13a Abs. 3 S. 3, 4 ErbStG).\n▸ Unterschreitung: Der Abschlag sinkt rückwirkend im selben prozentualen Umfang (§ 13a Abs. 3 S. 5 ErbStG). Beispiel: 10 % unter der Mindestlohnsumme → 85 % × 90 % = 76,5 %.\n▸ Vergütungen an Auszubildende bleiben außer Ansatz (§ 13a Abs. 3 S. 7 Nr. 2 ErbStG).\n\nZum Schluss: § 13a Abs. 3 ErbStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Freigebige Zuwendung: Wann ist eine Schenkung…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 7 Abs. 1 ErbStG",
-        "§ 516 BGB",
-        "§ 10 Abs. 6 ErbStG",
-        "§ 1 Abs. 1 ErbStG",
-        "§ 10 Abs. 1 ErbStG",
-        "§ 12 ErbStG",
-        "§ 13 BewG",
-        "§ 7 Abs. 1 Nr. 1 ErbStG",
-        "R E 7.1 ErbStR",
-        "BFH 09.04.2025 – II R 48/21",
-        "Themenpool: erbst-aufb-erbst-t1-4"
+        "§ 13a Abs. 1 ErbStG",
+        "§ 13a Abs. 3 S. 1–5, 7 ErbStG"
       ],
-      "coverRegie": {
-        "thema": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b1-erbst-aufb-erbst-t1-4-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-15-b1",
+      "kurztitel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "schema",
-      "fach": "gewst",
-      "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-02",
-      "slug": "2026-10-15-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Spickzettel",
       "folien": [
         {
           "art": "titel",
-          "titel": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
-          "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "titel": "Spickzettel",
+          "text": "Spickzettel · Lohnsumme · verfehlt? · § 13a Abs. 3 ErbStG · auf einer Karte · + Markier-Guide § 13a ErbStG · Mindestlohnsumme · 400 % · in 5 Jahren",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Einzelunternehmen und PersG: Beginn mit der werbenden Tätigkeit, Ende mit ihrer endgültigen Einstellung. Vorbereitung und Registereintrag lösen nichts aus.",
-            "Kapitalgesellschaften: Beginn mit Aufnahme der Tätigkeit, spätestens mit Eintragung. Ende erst mit Aufhören jeder Tätigkeit, meist bei Verteilung des Vermögens (§ 4 GewStDV)."
-          ]
+          "titel": "Erbschaftsteuer",
+          "text": "Die Karte · Ausgangslohnsumme · § 13a Abs. 3 S. 2 ErbStG · Schnitt der letzten 5 Jahre · Mindestlohnsumme · § 13a Abs. 3 S. 1 ErbStG · 400 % in 5 Jahren · Kleine Betriebe · § 13a Abs. 3 S. 3, 4 ErbStG · bis 5 frei, bis 15: 250/300 % · Unterschritten · § 13a Abs. 3 S. 5 ErbStG · Abschlag sinkt im gleichen Verhältnis · Am Ende: § 13a ErbStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Art bestimmen: kraft Tätigkeit, Abfärbung oder Prägung (§ 15 Abs. 2, 3 EStG) oder kraft Rechtsform (§ 2 Abs. 2 GewStG); dazu eine inländische Betriebsstätte."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Danach Beginn und Ende festlegen. Läuft die Pflicht nicht das ganze Jahr, ist der Erhebungszeitraum abgekürzt (§ 14 S. 3 GewStG)."
-            }
-          ]
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Beispiel: 20 Beschäftigte · § 13a Abs. 1, 3 S. 1, 5 ErbStG · Ausgangslohnsumme · 1.000.000 € · Mindestlohnsumme 400 % · 4.000.000 € · Lohnsummen der 5 Jahre · 3.600.000 € · Unterschreitung · 10 % · Abschlag: 85 % × 90 % · 76,5 %"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Personenunternehmen zahlen Gewerbesteuer nur für den werbenden Betrieb. Kapitalgesellschaften sind spätestens ab der Eintragung bis zum Ende der Abwicklung steuerpflichtig, gleich was sie tun."
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Prozentpunkte? Nein · Nicht 85 % minus 10 Punkte = 75 %. · Richtig: 85 % um 10 % kürzen = 76,5 %, rückwirkend. · § 13a Abs. 3 S. 5 ErbStG · Löhne an Auszubildende zählen nicht mit. · § 13a Abs. 3 S. 7 Nr. 2 ErbStG · Kleiner Unterschied, große Wirkung!"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Beispiel: 10 % unter der Mindestlohnsumme · Verschonungsabschlag 76,5 % statt 85 % · 400 % in fünf Jahren, · sonst sinkt der · Abschlag im selben · Verhältnis. · Speichern für Klausur 1 · Und bei 8 Beschäftigten? · Weiterwischen: § 13a ErbStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "5 Jahre · 400 % · rückwirkend · Verhältnis, nicht Punkte · Kleine Betriebe: § 13a Abs. 3 S. 3, 4 ErbStG · bis 5 Beschäftigte frei, sonst 250 % oder 300 %"
         }
-      ],
-      "caption": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig? Bei Einzelunternehmen und Personengesellschaften zählt allein die werbende Tätigkeit, bei Kapitalgesellschaften spätestens die Eintragung bis zum Ende der Abwicklung.",
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-schema-0",
+      "caption": "KSt-Grundschema: vom Jahresüberschuss zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Unbeschränkte Steuerpflicht und Ermittlungszeitraum (§ 1 Abs. 1 Nr. 1, § 7 Abs. 3 KStG).\n2. Ausgangsgröße: Gewinn nach EStG-Regeln (§ 8 Abs. 1 KStG).\n3. Hinzurechnen: verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG), Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG).\n4. Abziehen: verdeckte Einlagen (§ 8 Abs. 3 S. 3 KStG), Dividenden (§ 8b Abs. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Streubesitz unter 10 %: § 8b Abs. 4 KStG.\n5. Spenden (§ 9 Abs. 1 Nr. 2 KStG), Verlustabzug, Steuersatz: 15 % bis VZ 2027, danach jährlich ein Punkt weniger bis 10 % ab VZ 2032 (§ 23 Abs. 1 KStG).\n\nBeispiel: 100.000 € + 27.000 € + 6.000 € − 10.000 € + 500 € = 123.500 € zvE, KSt 18.525 €.\n\nZum Schluss: § 8b Abs. 1 und 5 KStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#gewerbesteuer"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Ab wann und bis wann ist ein Betrieb…",
-      "coverBadge": "Klausurschema",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 2 Abs. 1 GewStG",
-        "§ 2 Abs. 2 GewStG",
-        "§ 2 Abs. 4 GewStG",
-        "§ 2 Abs. 5 GewStG",
-        "§ 5 Abs. 1 GewStG",
-        "§ 15 Abs. 2 EStG",
-        "§ 15 Abs. 3 EStG",
-        "§ 1 GewStDV",
-        "§ 4 GewStDV",
-        "R 2.2 GewStR",
-        "R 2.5 GewStR",
-        "R 2.6 GewStR",
-        "§ 14 GewStG",
-        "Themenpool: gewst-aufb-gewst-ks-02"
+        "§ 1 Abs. 1 Nr. 1 KStG",
+        "§ 7 Abs. 3 KStG",
+        "§ 8 Abs. 1, 3 KStG",
+        "§ 8b Abs. 1, 4, 5 KStG",
+        "§ 9 Abs. 1 Nr. 2 KStG",
+        "§ 10 Nr. 2 KStG",
+        "§ 23 Abs. 1 KStG",
+        "§ 4 Abs. 5b EStG"
       ],
-      "coverRegie": {
-        "thema": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b2-gewst-aufb-gewst-ks-02-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-15-b2",
+      "kurztitel": "KSt-Grundschema: Steuerpflicht bis zvE",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Vom Überschuss · zum zvE · §§ 7, 8 KStG · in 5 Schritten · + Markier-Guide § 8b KStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Das Schema · Steuerpflicht und Zeitraum · § 1 Abs. 1 Nr. 1, § 7 Abs. 3 KStG · Start: Steuerbilanzgewinn · § 8 Abs. 1 KStG · Hinzurechnen · § 8 Abs. 3 S. 2, § 10 KStG · Abziehen · § 8 Abs. 3 S. 3, § 8b KStG · Spenden, Verluste, Steuersatz · § 9, § 23 Abs. 1 KStG · Am Ende: § 8b KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Beispiel · Die Lindwurm GmbH, Geschäftsführerin Amira, hat 100.000 € Jahresüberschuss. · Darin als Aufwand: 15.000 € KSt, 12.000 € GewSt, 6.000 € überhöhtes Gehalt an den Gesellschafter. · Als Ertrag: 10.000 € Dividende aus 20 % Beteiligung. · Was versteuern wir?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Was rechnest du hinzu, was ziehst du ab? · Wie hoch ist das zu versteuernde Einkommen? · Lösung: weiterwischen · Zettel raus!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung · § 10 Nr. 2, § 8 Abs. 3 S. 2, § 8b Abs. 1, 5 KStG · Jahresüberschuss · 100.000 € · + KSt und GewSt · 27.000 € · + vGA (Gehalt) · 6.000 € · − Dividende · 10.000 € · + 5 % nicht abziehbar · 500 € · zvE · 123.500 € · KSt 15 % · 18.525 €"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Dividende: nur 95 % frei · Die Dividende bleibt außer Ansatz … · § 8b Abs. 1 S. 1 KStG · … aber 5 % gelten als nicht abziehbare Ausgaben. · § 8b Abs. 5 S. 1 KStG · Die Gewerbesteuer ist keine Betriebsausgabe. · § 4 Abs. 5b EStG · Die 500 € fehlen oft!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Prüfung 2027: noch 15 % · Der KSt-Satz bleibt bis VZ 2027 bei 15 %. · § 23 Abs. 1 Nr. 1 KStG · Danach sinkt er jährlich um einen Punkt: 2028 14 %, ab 2032 10 %. · § 23 Abs. 1 Nr. 2–6 KStG · Auf den Veranlagungszeitraum im Sachverhalt achten. · Jahr prüfen!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung: zvE 123.500 €, KSt 18.525 € · Dividende frei, aber 500 € zurück · Start beim Gewinn, · Steuern und vGA dazu, · Dividende raus, · 5 % wieder rein. · Speichern für Klausur 2 · Wo vergisst du am häufigsten etwas? · Weiterwischen: § 8b KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "steuerfrei · 5 % zurück · echte Kosten bleiben abziehbar · Achtung Streubesitz: § 8b Abs. 4 KStG · Unter 10 % Beteiligung keine Freistellung"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
       "fach": "umwst",
       "klausur": 3,
       "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-49",
-      "slug": "2026-10-15-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
-          "unter": "Umwandlungssteuerrecht",
-          "text": "Sieben Jahre lang jährlich belegen, wem die Anteile zuzurechnen sind.",
-          "norm": "§ 22 Abs. 3 UmwStG",
-          "icon": null,
-          "sprecher": "Wer unter dem gemeinen Wert in eine Kapitalgesellschaft einbringt, hat sieben Jahre lang eine jährliche Nachweispflicht. Bis zum 31. Mai musst du belegen, wem die Anteile zuzurechnen sind.",
-          "marken": [
-            "Sieben Jahre lang",
-            "Nachweis bis 31. Mai"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Wem gehören die Anteile am Stichtag?",
-          "text": null,
-          "norm": "§ 22 Abs. 3 S. 1 UmwStG",
-          "icon": null,
-          "sprecher": "Zu belegen ist die Zurechnung an dem Tag, der jährlich dem Einbringungszeitpunkt entspricht. Bei der Betriebseinbringung betrifft das die erhaltenen Anteile, beim Anteilstausch die eingebrachten.",
-          "marken": [
-            "Zurechnung am Stichtag",
-            "§ 22 Abs. 3 UmwStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Kein Nachweis: Die Anteile gelten als veräußert",
-          "text": null,
-          "norm": "§ 22 Abs. 3 S. 2 UmwStG",
-          "icon": null,
-          "sprecher": "Fehlt der Nachweis, fingiert das Gesetz eine Veräußerung der Anteile. Das löst rückwirkend den Einbringungsgewinn aus, gemindert um ein Siebtel für jedes abgelaufene Zeitjahr.",
-          "marken": [
-            "Fiktive Veräußerung",
-            "Einbringungsgewinn rückwirkend"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Sieben Jahre, jedes Jahr bis zum 31. Mai: Ohne Nachweis gelten die Anteile als veräußert (§ 22 Abs. 3 S. 2 UmwStG). Nach unentgeltlicher Übertragung trifft die Pflicht den Rechtsnachfolger (§ 22 Abs. 6 UmwStG).",
-          "sprecher": "Merke: sieben Jahre lang, jedes Jahr bis zum 31. Mai. Wer den Nachweis versäumt, wird so behandelt, als hätte er die Anteile verkauft.",
-          "marken": [
-            "Ohne Nachweis: Veräußerung"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen? Wem die Anteile aus der Einbringung am jeweiligen Stichtag zuzurechnen sind, sieben Jahre lang (§ 22 Abs. 3 UmwStG). Fehlt der Nachweis, gelten die Anteile als veräußert und der Einbringungsgewinn entsteht rückwirkend. Nach Verwaltungsauffassung wird ein verspäteter Nachweis noch berücksichtigt, solange die betroffenen Bescheide änderbar sind.",
+      "themaId": "umwst-aufb-umw-2-25",
+      "caption": "Einbringung nach § 20 UmwStG: Wie viel Geld darf neben den neuen Anteilen fließen? 💶\n\n▸ Buchwertansatz bleibt möglich, soweit der gemeine Wert sonstiger Gegenleistungen nicht mehr beträgt als 25 % des Buchwerts des eingebrachten Betriebsvermögens oder 500.000 €, höchstens jedoch den Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Maßgeblich ist der höhere Betrag.\n▸ Beispiel: Buchwert 400.000 €, Darlehensforderung 150.000 €. Grenze: höher aus 100.000 € und 500.000 €, gedeckelt auf 400.000 € → unschädlich.\n▸ Die Anschaffungskosten der neuen Anteile mindern sich um den gemeinen Wert der anderen Wirtschaftsgüter (§ 20 Abs. 3 S. 3 UmwStG): 400.000 € − 150.000 € = 250.000 €.\n▸ Übersteigt die Gegenleistung die Grenze, werden stille Reserven anteilig aufgedeckt.\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 22 Abs. 3 UmwStG",
-        "§ 22 Abs. 6 UmwStG",
-        "§ 22 Abs. 1 UmwStG",
-        "§ 16 EStG",
-        "§ 17 EStG",
-        "§ 40 GmbHG",
-        "§ 67 AktG",
-        "§ 22 Abs. 3 S. 2 UmwStG",
-        "Themenpool: umwst-aufb-umw-2-49"
+        "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
+        "§ 20 Abs. 3 S. 1, 3 UmwStG"
       ],
-      "coverRegie": {
-        "thema": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-15-b3-umwst-aufb-umw-2-49-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-15-b3",
+      "kurztitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "quizfrage",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Neben Anteilen kein Geld?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Quizfrage"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Grenze"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Preis"
+        }
+      ],
+      "sprecher": [
+        "Einbringung in die GmbH: Neben neuen Anteilen gibt es kein Geld? Falsch. Ein Teil ist erlaubt.",
+        "Quizfrage: Buchwert vierhunderttausend, dazu ein Darlehen über hundertfünfzigtausend. Bleibt es beim Buchwert?",
+        "Ja. Grenze ist das Höhere aus einem Viertel des Buchwerts und fünfhunderttausend Euro, gedeckelt auf den Buchwert. Hier vierhunderttausend.",
+        "Aber: Die Anschaffungskosten der neuen Anteile sinken um das Darlehen auf zweihundertfünfzigtausend.",
+        "Merke: Geld daneben geht, kostet aber Anschaffungskosten."
+      ],
+      "dauerS": 40.629,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-15",
-      "quellen": [
-        "Themenpool: ust-quiz-ust-15"
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "Wirtschaftliches",
+        "Eigentum: welche Norm?",
+        "§ 39 Abs. 2 Nr. 1 AO",
+        "§ 7g EStG",
+        "§ 249 HGB",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wo wird eine sonstige Leistung an einen Unternehmer grundsätzlich ausgeführt?",
-      "titel": "Wo wird eine sonstige Leistung an einen Unternehmer grundsätzlich ausgeführt?",
-      "optionen": [
-        "am Sitz des Leistenden",
-        "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
-        "immer im Inland"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-15",
-      "quellen": [
-        "Themenpool: ust-quiz-ust-15"
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "A: § 39 AO",
+        "§ 39 Abs. 2 Nr. 1 AO",
+        "§ 7g EStG",
+        "§ 249 HGB",
+        "Zugerechnet wird, wer den Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann.",
+        "§ 39 Abs. 2 Nr. 1 S. 1 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
-      "optionen": [
-        "am Sitz des Leistenden",
-        "am Ort des Leistungsempfängers (§ 3a Abs. 2 UStG)",
-        "immer im Inland"
-      ],
-      "richtig": 1,
-      "text": "Unter Unternehmern zählt der Ort, an dem der Empfänger sein Unternehmen betreibt (§ 3a Abs. 2 UStG). An Privatleute gilt der Sitz des Leistenden (§ 3a Abs. 1 UStG). Sonderregeln wie § 3a Abs. 3 oder § 3b UStG gehen vor.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-341",
-      "quellen": [
-        "§ 179 Abs. 3 AO",
-        "§ 181 Abs. 5 AO",
-        "Themenpool: ao-modul-ao-341"
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-20",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Verschonung",
+        "verspielt?",
+        "§ 13a Abs. 6 ErbStG",
+        "Betrieb oder wesentliche Grundlage binnen 5 Jahren verkauft",
+        "§ 13a Abs. 6 S. 1 Nr. 1 ErbStG",
+        "Entnahmen über Einlagen plus Gewinne: mehr als 150.000 €",
+        "§ 13a Abs. 6 S. 1 Nr. 3 ErbStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 179 Abs. 3 AO",
-      "titel": "Ergänzungsbescheid nach § 179 Abs. 3 AO: unterbliebene Feststellung nachholen",
-      "text": "Fehlt im Feststellungsbescheid eine notwendige Feststellung, wird sie per Ergänzungsbescheid nachgeholt; der bisherige Bescheid bleibt bestehen. Nicht verwechseln mit dem Vermerk nach § 181 Abs. 5 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-09",
-      "quellen": [
-        "§ 49 Abs. 1 Nr. 1–9 EStG",
-        "R 49.3 EStR",
-        "§§ 12, 13 AO",
-        "§ 49 Abs. 1 EStG",
-        "Themenpool: istr-modul-istr-istr1-09"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Sechs Stunden",
+        "einteilen",
+        "Zeit je Teil nach Umfang verteilen, an den Rand schreiben.",
+        "Festgefahren? Ergebnis unterstellen, weiter.",
+        "15 Minuten am Ende für Lücken."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "§ 49 EStG: Katalog der inländischen Einkünfte",
-      "text": "Erst die Einkunftsart nach §§ 13–23 EStG bestimmen, dann den Inlandsbezug in der passenden Nummer des § 49 Abs. 1 EStG prüfen. Auslandsmerkmale, die ihn verhindern würden, blendet § 49 Abs. 2 EStG aus.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "merksatz",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-7-7",
-      "quellen": [
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
-        "§ 177 AO",
-        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 165 Abs. 1 Satz 2 Nr. 3 AO",
-        "§ 92 AO",
-        "§ 347 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 10d EStG",
-        "§ 16 EStG",
-        "AEAO zu § 173 AO, Tz. 1, 2, 2.4 und 3",
-        "Themenpool: ao-aufb-ao-jacobs-7-7"
+      "art": "tipp",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-17-03",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Klausurtipp",
+        "§ 17: die 1 %",
+        "richtig messen",
+        "Höchste Quote der letzten fünf Jahre zählt.",
+        "§ 17 Abs. 1 S. 1 EStG",
+        "Mittelbare Beteiligungen rechnen mit.",
+        "Eigene Anteile der GmbH vom Nennkapital abziehen."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Neue Tatsache nach § 173 AO: Wessen Wissen zählt?",
-      "text": "Neu ist, was die zuständige Veranlagungsstelle bei abschließender Zeichnung des Bescheids nicht kannte; den Akteninhalt muss sie gegen sich gelten lassen. Und die Tatsache muss zu einer anderen Steuer führen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-8-5",
-      "quellen": [
-        "§ 355 Abs. 1 Sätze 1 und 2 AO",
-        "§ 356 Abs. 1 und 2 AO",
-        "§ 357 Abs. 2 Sätze 1, 2 und 4 AO",
-        "§ 108 Abs. 1 und 3 AO",
-        "§ 122 Abs. 2 Nr. 1 und Abs. 5 AO",
-        "§ 122a AO",
-        "§ 124 Abs. 1 AO",
-        "§ 180 Abs. 1 Satz 1 Nr. 2b AO",
-        "§ 110 AO",
-        "§§ 187, 188 BGB",
-        "Themenpool: ao-aufb-ao-jacobs-8-5"
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-32",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Rückbezug bei",
+        "Einzelübertragung?",
+        "Höchstens 8 Monate",
+        "vor Vertrag und",
+        "Übergang des",
+        "wirtschaftlichen Eigentums.",
+        "§ 20 Abs. 6 S. 3 UmwStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
-      "text": "Post: Bekanntgabe am vierten Tag nach Aufgabe, bei späterem Zugang später (§ 122 Abs. 2 Nr. 1 AO). Dann ein Monat (§ 355 Abs. 1 AO); endet er an Wochenende oder Feiertag, gilt nach § 108 Abs. 3 AO der nächste Werktag.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
       "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Freigebige Zuwendung: Wann ist eine Schenkung…",
-      "text": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Lohnsumme verfehlt?",
+        "Spickzettel + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "gewst",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Ab wann und bis wann ist ein Betrieb…",
-      "text": "Ab wann und bis wann ist ein Betrieb gewerbesteuerpflichtig?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Vom Überschuss zum zvE",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
@@ -658,41 +515,34 @@
       "fach": "umwst",
       "klausur": 3,
       "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Neben Anteilen kein Geld?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:42:03.342Z",
+    "erzeugtAm": "2026-10-03T04:36:18Z",
     "pfad": "vorproduktion/2026-10-15/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -704,5 +554,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
