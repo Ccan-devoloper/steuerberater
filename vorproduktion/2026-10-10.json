@@ -4,483 +4,359 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "gewst-aufb-gewst-ks-05",
-        "themaTitel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
+        "format": "klausurtechnik",
+        "themaId": null,
+        "themaTitel": "Der Gewerbesteuer-Teil: Punkte sicher holen",
         "fach": "gewst",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "klausurtechnik",
-        "themaId": "bilanz-modul-k3-25",
-        "themaTitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
-        "fach": "bilanz",
+        "format": "rechenweg",
+        "themaId": "umwst-aufb-umw-2-12",
+        "themaTitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+        "fach": "umwst",
         "klausur": 3
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-modul-ao-391",
-        "themaTitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-        "fach": "ao",
-        "klausur": 1,
-        "lang": false
+        "themaId": "ust-karte-ust-1",
+        "themaTitel": "Unternehmer (§ 2 Abs. 1 UStG)",
+        "fach": "ust",
+        "klausur": 1
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:08",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "kst-quiz-kst-7"
+        "themaId": "ust-quiz-ust-1"
       },
       {
         "slot": "s5",
-        "zeit": "07:08",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-7"
+        "themaId": "ust-quiz-ust-1"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
         "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-modul-istr-istr1-10"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:18",
-        "art": "merksatz",
-        "themaId": "istr-aufb-istr-gh-5-05"
+        "themaId": "istr-aufb-istr-gh-3-05"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:40",
-        "art": "begriff",
-        "themaId": "bilanz-glossar-9"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:23",
-        "art": "fehler",
-        "themaId": "istr-aufb-istr-gh-4-22"
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-1"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-aufb-ao-jacobs-6-10"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
+      "format": "klausurtechnik",
       "fach": "gewst",
       "klausur": 2,
       "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-05",
-      "slug": "2026-10-10-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Erweiterte Kürzung (§ 9 Nr. 1 Satz 2 GewStG): nur auf Antrag und statt der einfachen Kürzung – typisch für Gesellschaften, die nur kraft Rechtsform gewerblich sind.",
-            "Neben eigenem Grundbesitz nur abschließend erlaubte Tätigkeiten, z. B. eigenes Kapitalvermögen verwalten, Wohnungsbauten betreuen, in engen Grenzen Strom liefern."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Prüfe, ob das Unternehmen ausschließlich eigenen Grundbesitz verwaltet und nutzt oder daneben nur zugelassene Tätigkeiten ausübt."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Schließe schädliche Fälle aus: Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters, nicht geringfügige Mitvermietung von Betriebsvorrichtungen. Dann entfällt die erweiterte Kürzung ganz."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Wer ausschließlich eigenen Grundbesitz verwaltet, kürzt den darauf entfallenden Gewerbeertrag vollständig. Eine einzige schädliche Tätigkeit kostet die gesamte erweiterte Kürzung – dann bleibt nur die einfache."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typische Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Erweiterte Grundstückskürzung – wer bekommt sie, wer nicht? Begünstigt ist, wer ausschließlich eigenen Grundbesitz verwaltet und daneben nur gesetzlich erlaubte Tätigkeiten ausübt. Betriebsaufspaltung, Überlassung an den Betrieb eines Gesellschafters oder eine schädliche Nebentätigkeit kosten die erweiterte Kürzung ganz.",
+      "themaId": null,
+      "caption": "Klausurtechnik für den Gewerbesteuer-Teil der Ertragsteuerklausur: so holst du die Punkte sicher.\n\n▸ Aufbau: Gewinn nach EStG oder KStG übernehmen, um Hinzurechnungen und Kürzungen korrigieren (§ 7 S. 1, §§ 8, 9 GewStG), dann Gewerbeverlust (§ 10a GewStG), Freibetrag und Messbetrag (§ 11 Abs. 1, 2 GewStG).\n▸ Zeit: Fehlt dir der Gewinn aus dem ESt- oder KSt-Teil, rechne mit einem plausiblen Wert weiter und notiere das.\n▸ Darstellung: Tabelle mit Posten, Norm, Vorzeichen, Betrag. Bei § 8 Nr. 1 GewStG erst gewichten, dann Freibetrag abziehen.\n▸ Punktefresser: Freibetrag von 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG); Gewerbeverlust erst nach Hinzurechnungen und Kürzungen (§ 10a S. 1 GewStG); Erhebungszeitraum ist das Kalenderjahr (§ 14 S. 2 GewStG).\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#gewerbesteuer"
       ],
-      "kurztitel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 9 Nr. 1 Satz 1 GewStG",
-        "§ 9 Nr. 1 Satz 2 ff. GewStG",
-        "§ 9 Nr. 2 GewStG",
-        "§ 9 Nr. 2a GewStG",
-        "§ 9 Nr. 2b GewStG",
-        "§ 9 Nr. 3 GewStG",
-        "§ 9 Nr. 5 GewStG",
-        "§ 9 Nr. 7 GewStG",
-        "§ 9 Nr. 8 GewStG",
-        "§ 20 GewStDV",
-        "§ 9 Nr. 1 Satz 5 Nr. 1 GewStG",
-        "Themenpool: gewst-aufb-gewst-ks-05"
+        "§ 7 S. 1 GewStG",
+        "§§ 8, 9 GewStG",
+        "§ 10a S. 1 GewStG",
+        "§ 11 Abs. 1 S. 3 Nr. 1, Abs. 2 GewStG",
+        "§ 14 S. 2 GewStG"
       ],
-      "coverRegie": {
-        "thema": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b1-gewst-aufb-gewst-ks-05-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-10-b1",
+      "kurztitel": "Der Gewerbesteuer-Teil: Punkte sicher holen",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "klausurtechnik",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-25",
-      "slug": "2026-10-10-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
       "folien": [
         {
           "art": "titel",
-          "titel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
-          "coverBadge": null,
-          "coverBildAuslassen": true
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · GewSt-Teil: · Punkte sichern · §§ 7 bis 11 GewStG · in 4 Schritten · + Markier-Guide § 7 GewStG",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Verbrauchsfolge: Handelsrechtlich Lifo und Fifo (§ 256 HGB), steuerlich nur Lifo (§ 6 Abs. 1 Nr. 2a EStG). Durchschnitts-, Gruppen- und Festwert gehen in beiden Bilanzen.",
-            "Niederstwert: Handelsrechtlich Abschreibungspflicht, auch bei vorübergehender Minderung (§ 253 Abs. 4 HGB). Steuerlich Teilwert nur bei voraussichtlich dauernder Minderung (§ 6 Abs. 1 Nr. 2 Satz 2 EStG)."
-          ]
+          "titel": "Gewerbesteuer",
+          "text": "Der Aufbau in 4 Schritten · Gewinn übernehmen · § 7 S. 1 GewStG · aus dem ESt- oder KSt-Teil · Korrekturen als Tabelle · §§ 8, 9 GewStG · Posten, Norm, Betrag · Verlust, dann Freibetrag · § 10a, § 11 Abs. 1 GewStG · Reihenfolge einhalten · Messbetrag · § 11 Abs. 2 GewStG · Hebesatz nur, wenn gefragt · Am Ende: § 7 GewStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Ordne die Vorräte dem Umlaufvermögen zu und ermittle die AK/HK des Endbestands, ggf. per Vereinfachungsverfahren."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Vergleiche mit dem niedrigeren Stichtagswert: HB Abschreibungspflicht, StB Wahlrecht nur bei dauernder Minderung. Entfällt der Grund: zuschreiben (§ 253 Abs. 5 HGB, § 6 Abs. 1 Nr. 2 Satz 3 EStG)."
-            }
-          ]
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Zeit einteilen · Der Teil baut auf dem Gewinn auf: nicht ans Ende schieben, wenn er viele Punkte bringt. · Gewinn fehlt dir? Mit einem plausiblen Wert weiterrechnen und das kurz notieren. · Je Hinzurechnung ein Satz Begründung, keine Abhandlung. · Weiterrechnen!"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Handelsbilanz: Lifo oder Fifo, strenges Niederstwertprinzip. Steuerbilanz: als Verbrauchsfolge nur Lifo, Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung."
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Sauber darstellen · Jede Zeile: Posten, Norm, Vorzeichen, Betrag. · Bei Finanzierungsanteilen erst gewichten, dann Freibetrag, als eigene Zwischensumme. · § 8 Nr. 1 GewStG · Auch Posten ohne Korrektur kurz nennen und begründen. · Tabelle spart Zeit."
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typische Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Drei Punktefresser · Freibetrag 24.500 € bei der GmbH angesetzt. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Gewerbeverlust vor den Hinzurechnungen abgezogen. · § 10a S. 1 GewStG · Gewinn eines anderen Jahres: Erhebungszeitraum ist das Kalenderjahr. · § 14 S. 2 GewStG · Kenne ich!"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Gewinn · Korrekturen · Verlust · Messbetrag · Tabelle statt Fließtext · Gewinn übernehmen, · Tabelle mit Norm, · Verlust danach, · Freibetrag prüfen. · Speichern für Klausur 2 · Wie viel Zeit planst du dafür ein? · Weiterwischen: § 7 GewStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Start: Gewinn · richtiges Jahr · dann Tabelle · Danach: § 10a, § 11 GewStG · erst Verlust, dann Freibetrag und Messzahl"
         }
-      ],
-      "caption": "Vorräte, Bewertungsvereinfachung und Niederstwert: Handelsrechtlich sind Lifo und Fifo erlaubt, und auf den niedrigeren Stichtagswert musst du abschreiben. Steuerlich gilt als Verbrauchsfolge nur Lifo, und die Teilwertabschreibung setzt eine voraussichtlich dauernde Wertminderung voraus.",
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-12",
+      "caption": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein? Der Rechenweg nach § 20 UmwStG.\n\n▸ Einbringungsgegenstand ist der Mitunternehmeranteil gegen neue Anteile (§ 20 Abs. 1 UmwStG). Dazu gehört das Sonderbetriebsvermögen; funktional wesentliches Sonderbetriebsvermögen muss mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06).\n▸ Grundsätzlich gemeiner Wert (§ 20 Abs. 2 S. 1 UmwStG); auf Antrag der übernehmenden Gesellschaft Buchwert oder Zwischenwert, wenn die Voraussetzungen des § 20 Abs. 2 S. 2 Nr. 1–4 UmwStG erfüllt sind. Der Antrag muss beim Finanzamt der GmbH eingehen, bevor sie ihre erste steuerliche Schlussbilanz abgibt (§ 20 Abs. 2 S. 3 UmwStG).\n▸ Der Wert, den die GmbH ansetzt, ist für die Einbringende zugleich Veräußerungspreis und Anschaffungskosten ihrer neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG).\n▸ Beispiel: Kapitalkonto 300.000 € + Halle im Sonderbetriebsvermögen 200.000 € = Buchwert 500.000 €; Einbringungsgewinn 0 €, Anschaffungskosten der GmbH-Anteile 500.000 €.\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
-      "coverBadge": null,
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 240 Abs. 3 HGB",
-        "§ 240 Abs. 4 HGB",
-        "§ 256 S. 1 HGB",
-        "§ 256 S. 2 i. V. m. § 252 Abs. 2 HGB",
-        "§ 253 Abs. 1 S. 1 HGB",
-        "§ 253 Abs. 4 S. 1, 2 HGB",
-        "§ 253 Abs. 5 S. 1 HGB",
-        "§ 6 Abs. 1 Nr. 2 S. 1–3 EStG",
-        "§ 6 Abs. 1 Nr. 2a EStG",
-        "R 6.8, R 6.9 EStR",
-        "Themenpool: bilanz-modul-k3-25"
+        "§ 20 Abs. 1, 2, 3 UmwStG",
+        "UmwStE vom 02.01.2025, Rn. 20.06"
       ],
-      "coverRegie": {
-        "thema": "Vorräte, Bewertungsvereinfachung und Niederstwert",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b2-bilanz-modul-k3-25-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-10-b2",
+      "kurztitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · KG-Anteil in · die GmbH · § 20 Abs. 1 UmwStG · in 4 Schritten · + Markier-Guide § 20 UmwStG · Buchwert · 500.000 € · Gewinn?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Der Rechenweg · Umfang bestimmen · § 20 Abs. 1 UmwStG · Gesellschaftsanteil plus Sonderbetriebsvermögen · Wertansatz wählen · § 20 Abs. 2 S. 2 UmwStG · Buchwert auf Antrag der GmbH · Veräußerungspreis · § 20 Abs. 3 S. 1 UmwStG · = Ansatz bei der GmbH · Gewinn und Anschaffungskosten · § 20 Abs. 3 S. 1 UmwStG · für die neuen Anteile · Am Ende: § 20 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Der Fall · Svea ist Kommanditistin einer Holzbau-KG, Kapitalkonto 300.000 €. · Ihre Lagerhalle nutzt die KG: Buchwert 200.000 €, gemeiner Wert 450.000 €. · Sie bringt Anteil und Halle in eine GmbH ein. · Jetzt du: Gewinn bei Buchwert? · Was kostet das?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Die Lösung · § 20 Abs. 2 S. 2, Abs. 3 S. 1 UmwStG · Kapitalkonto KG · 300.000 € · + Halle (Sonderbetrieb) · 200.000 € · = Buchwert Anteil · 500.000 € · Ansatz GmbH = Preis · 500.000 € · Einbringungsgewinn · 0 € · AK neue Anteile · 500.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Wer stellt den Antrag? · Die übernehmende GmbH, nicht Svea und nicht die KG. · § 20 Abs. 2 S. 2 UmwStG · Spätestens mit der ersten steuerlichen Schlussbilanz beim Finanzamt der GmbH. · § 20 Abs. 2 S. 3 UmwStG · Ohne Antrag: gemeiner Wert, stille Reserven werden aufgedeckt. · § 20 Abs. 2 S. 1 UmwStG · Frist beachten."
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Und ohne die Halle? · Behält Svea die Halle zurück, fehlt eine funktional wesentliche Betriebsgrundlage. · UmwStE vom 02.01.2025, Rn. 20.06 · Dann liegt kein begünstigter Mitunternehmeranteil vor: kein Buchwertantrag. · § 20 Abs. 1 UmwStG · Beim Teilanteil muss das wesentliche Sonderbetriebsvermögen mindestens quotal mit. · Die Halle muss mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Buchwert 300.000 € + 200.000 € = 500.000 € · Gewinn 0 € · AK 500.000 € · Anteil plus · Sonderbetrieb, · Antrag stellt die GmbH, · Ansatz = Preis = AK. · Speichern für Klausur 3 · Halle vergessen? · Weiterwischen: § 20 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "inkl. SBV · Antrag: GmbH · Wertverknüpfung · Antragsfrist: § 20 Abs. 2 S. 3 UmwStG · bis zur ersten steuerlichen Schlussbilanz"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "ao",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-391",
-      "slug": "2026-10-10-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-          "unter": "Abgabenordnung",
-          "text": "Haftet auch, wer intern nicht für Steuern zuständig ist?",
-          "norm": "§ 69 AO",
-          "icon": null,
-          "sprecher": "Eine GmbH hat zwei Geschäftsführer, nur einer kümmert sich um die Steuern. Haftet der andere trotzdem nach § 69 AO, wenn Steuern offen bleiben?",
-          "marken": [
-            "§ 69 AO",
-            "Mehrere Geschäftsführer"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Grundsatz: Gesamtverantwortung aller GF",
-          "text": null,
-          "norm": "§ 34 Abs. 1 AO",
-          "icon": null,
-          "sprecher": "Grundsatz ist die Gesamtverantwortung: Jeder Geschäftsführer muss die steuerlichen Pflichten der GmbH erfüllen, § 34 Abs. 1 AO. Wer sie vorsätzlich oder grob fahrlässig verletzt, haftet nach § 69 AO.",
-          "marken": [
-            "Gesamtverantwortung aller Geschäftsführer",
-            "§ 34 Abs. 1 AO"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Ressortverteilung: klar, schriftlich, vorab",
-          "text": null,
-          "norm": "§ 69 AO",
-          "icon": null,
-          "sprecher": "Eine interne Aufgabenverteilung begrenzt die Haftung nur, wenn sie eindeutig und vorab schriftlich festgelegt ist. Auch dann musst du den zuständigen Kollegen überwachen. In der Krise oder bei erkennbaren Versäumnissen bist du wieder voll verantwortlich.",
-          "marken": [
-            "Schriftlich und im Voraus",
-            "Überwachungspflicht bleibt"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Interne Zuständigkeit entlastet nur bei klarer schriftlicher Vorab-Regelung. Überwachen musst du immer, und in der Krise lebt die Gesamtverantwortung wieder auf.",
-          "sprecher": "Merke: Die Ressortverteilung entlastet, aber nie vollständig. Überwachen musst du immer, und in der Krise trägt jeder Geschäftsführer wieder die volle Verantwortung.",
-          "marken": [
-            "Überwachung bleibt immer",
-            "Krise: Gesamtverantwortung"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage ohne Unterlagen",
-            "Normen wiederholen"
-          ]
-        }
-      ],
-      "caption": "Mehrere Geschäftsführer: Grundsätzlich ist jeder für die steuerlichen Pflichten der GmbH verantwortlich (§ 34 Abs. 1 AO) und haftet bei vorsätzlicher oder grob fahrlässiger Pflichtverletzung nach § 69 AO. Eine klare, vorab schriftlich festgelegte Ressortverteilung begrenzt das – die Überwachungspflicht und die volle Verantwortung in der Krise bleiben.",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-1",
+      "caption": "Unternehmer im Umsatzsteuerrecht: Gewinnabsicht? Nicht nötig.\n\n▸ Unternehmer ist, wer eine gewerbliche oder berufliche Tätigkeit selbstständig ausübt (§ 2 Abs. 1 S. 1 UStG).\n▸ Gewerblich oder beruflich ist jede nachhaltige Tätigkeit zur Erzielung von Einnahmen, auch wenn die Absicht, Gewinn zu erzielen, fehlt (§ 2 Abs. 1 S. 3 UStG).\n▸ Gegensatz Einkommensteuer: Ein Gewerbebetrieb setzt Gewinnerzielungsabsicht voraus (§ 15 Abs. 2 S. 1 EStG); fehlt sie, liegt Liebhaberei vor.\n▸ Deshalb kann etwa ein Verein umsatzsteuerlich Unternehmer sein, auch ohne Gewinn.\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 69 AO",
-        "§ 34 AO",
-        "§ 34 Abs. 1 AO",
-        "Themenpool: ao-modul-ao-391"
+        "§ 2 Abs. 1 S. 1, 3 UStG",
+        "§ 15 Abs. 2 S. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-10-b3-ao-modul-ao-391-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-10-b3",
+      "kurztitel": "Unternehmer (§ 2 Abs. 1 UStG)",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Ohne Gewinn kein Unternehmer?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Umsatzsteuer"
+        },
+        {
+          "art": "schritt",
+          "titel": "Einkommensteuer"
+        },
+        {
+          "art": "schritt",
+          "titel": "Beispiel Verein"
+        }
+      ],
+      "sprecher": [
+        "Ohne Gewinnabsicht kein Unternehmer? Falsch. Im Umsatzsteuerrecht reicht die Absicht, Einnahmen zu erzielen.",
+        "Unternehmer ist, wer selbständig und nachhaltig eine gewerbliche oder berufliche Tätigkeit ausübt.",
+        "Das Einkommensteuerrecht verlangt dagegen Gewinnerzielungsabsicht. Fehlt sie, ist es Liebhaberei.",
+        "Darum kann ein Verein Unternehmer sein, auch wenn er nie Gewinn macht.",
+        "Merke: Umsatzsteuer fragt nach Einnahmen, nicht nach Gewinn."
+      ],
+      "dauerS": 32.308,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-7",
-      "quellen": [
-        "§ 8b Abs. 3 Satz 1 KStG",
-        "§ 8b Abs. 5 Satz 1 KStG",
-        "Themenpool: kst-quiz-kst-7"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Bewegte Lieferung:",
+        "Wo ist der Ort?",
+        "Wo die Beförderung beginnt",
+        "Wo die Beförderung endet",
+        "Am Sitz des Abnehmers",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Welcher Anteil eines nach § 8b KStG steuerfreien Bezugs oder Veräußerungsgewinns gilt pauschal als nichtabziehbare Betriebsausgabe?",
-      "titel": "Welcher Anteil eines nach § 8b KStG steuerfreien Bezugs oder Veräußerungsgewinns gilt pauschal als nichtabziehbare Betriebsausgabe?",
-      "optionen": [
-        "1 %",
-        "5 %",
-        "10 %"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "kst",
-      "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-7",
-      "quellen": [
-        "§ 8b Abs. 3 Satz 1 KStG",
-        "§ 8b Abs. 5 Satz 1 KStG",
-        "§ 8b Abs. 4 KStG",
-        "Themenpool: kst-quiz-kst-7"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "A: am Beginn",
+        "der Beförderung",
+        "Wo die Beförderung beginnt",
+        "Wo die Beförderung endet",
+        "Am Sitz des Abnehmers",
+        "Ort ist, wo die Beförderung oder Versendung zum Abnehmer beginnt.",
+        "§ 3 Abs. 6 S. 1 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "5 %",
-      "optionen": [
-        "1 %",
-        "5 %",
-        "10 %"
-      ],
-      "richtig": 1,
-      "text": "5 % des steuerfreien Betrags gelten als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 Satz 1, Abs. 5 Satz 1 KStG). Streubesitzdividenden unter 10 % sind gar nicht erst steuerfrei (§ 8b Abs. 4 KStG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
@@ -488,111 +364,103 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-10",
-      "quellen": [
-        "§ 50a Abs. 1 EStG",
-        "§ 50a Abs. 2 EStG",
-        "§ 50a Abs. 5 EStG",
-        "§ 50c EStG",
-        "§ 50a EStG",
-        "§ 50 Abs. 2 EStG",
-        "Themenpool: istr-modul-istr-istr1-10"
+      "themaId": "istr-aufb-istr-gh-3-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Gewöhnlicher",
+        "Aufenthalt",
+        "§ 9 AO",
+        "Mehr als sechs Monate am Stück: ab dem ersten Tag.",
+        "§ 9 S. 2 AO",
+        "Nur Besuch, Erholung, Kur: bis ein Jahr unschädlich.",
+        "§ 9 S. 3 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 50a Abs. 1 EStG",
-      "titel": "§ 50a EStG: Steuerabzug bei beschränkt Steuerpflichtigen",
-      "text": "Bei Darbietungen, Rechteüberlassungen oder Aufsichtsratsvergütungen beschränkt Steuerpflichtiger behält der Schuldner 15 % der Einnahmen ein, bei Aufsichtsräten 30 %. Die Steuer ist damit grundsätzlich abgegolten.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "merksatz",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-5-05",
-      "quellen": [
-        "§ 6 AStG",
-        "§ 17 EStG",
-        "§ 6 Abs. 1 AStG",
-        "§ 6 Abs. 3 AStG",
-        "§ 241 AO",
-        "§ 3c Abs. 2 EStG",
-        "§ 8 AO",
-        "§ 9 AO",
-        "§ 16 EStG",
-        "§ 165 AO",
-        "Themenpool: istr-aufb-istr-gh-5-05"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Lernplan:",
+        "rückwärts planen",
+        "Vom Prüfungstermin aus zurückrechnen",
+        "Regelmäßig Übungsklausuren unter Zeit",
+        "Nach jeder Klausur die Fehlerliste"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Wegzug mit GmbH-Anteilen: Was löst § 6 AStG aus?",
-      "text": "Wer nach mindestens 7 Jahren unbeschränkter Steuerpflicht (innerhalb der letzten 12) wegzieht und Anteile i. S. d. § 17 EStG hält, versteuert die stillen Reserven, als hätte er sie zum gemeinen Wert veräußert.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "begriff",
+      "art": "tipp",
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-9",
-      "quellen": [
-        "BMF vom 19.4.1971",
-        "Themenpool: bilanz-glossar-9"
+      "themaId": "bilanz-karte-k3-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Wem gehört es",
+        "wirtschaftlich?",
+        "Wer die Herrschaft wie ein Eigentümer ausübt",
+        "§ 39 Abs. 2 Nr. 1 S. 1 AO",
+        "und den Eigentümer auf Dauer ausschließt",
+        "Prüfen: Besitz, Gefahr, Nutzen, Lasten"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Begriff des Tages",
-      "titel": "Vollamortisation",
-      "text": "Mit den Raten der Grundmietzeit zahlt der Leasingnehmer mindestens die Anschaffungs- oder Herstellungskosten des Leasinggebers samt aller Nebenkosten, auch der Finanzierungskosten.",
-      "norm": "BMF vom 19.4.1971",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "fehler",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-4-22",
-      "quellen": [
-        "Art. 15 OECD-MA",
-        "§ 50d Abs. 8 EStG",
-        "§ 8 AO",
-        "Art. 15 Abs. 2 OECD-MA",
-        "Themenpool: istr-aufb-istr-gh-4-22"
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-6-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Außenprüfung",
+        "hemmt die Frist?",
+        "Nur echter Beginn",
+        "vor Fristablauf",
+        "hält sie an.",
+        "§ 171 Abs. 4 S. 1 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
-      "falsch": "Nur die 183 Tage zählen und übersehen, dass ein Arbeitgeber im Tätigkeitsstaat oder eine dortige Betriebsstätte, die den Lohn trägt, die Rückausnahme ausschließt.",
-      "richtigText": "Der Wohnsitzstaat besteuert nur, wenn alle drei Bedingungen des Art. 15 Abs. 2 OECD-MA erfüllt sind: max. 183 Tage, Arbeitgeber nicht im Tätigkeitsstaat ansässig, keine Lohnkosten einer dortigen Betriebsstätte.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
@@ -600,95 +468,78 @@
       "fach": "gewst",
       "klausur": 2,
       "fachLabel": "Gewerbesteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer…",
-      "text": "Erweiterte Grundstückskürzung: Wer bekommt sie, wer nicht?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Neu im Feed",
+        "GewSt-Teil: Punkte sichern",
+        "Klausurtechnik · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Vorräte, Bewertungsvereinfachung und Niederstwert",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "KG-Anteil in die GmbH",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "ao",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Mehrere Geschäftsführer: Gesamtverantwortung und interne Ressortverteilung",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Ohne Gewinn kein Unternehmer?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:33:37.220Z",
+    "erzeugtAm": "2026-10-03T04:27:49Z",
     "pfad": "vorproduktion/2026-10-10/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -700,5 +551,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
