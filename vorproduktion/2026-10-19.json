@@ -107,7 +107,7 @@
       "klausur": 2,
       "fachLabel": "Einkommensteuer",
       "themaId": "est-aufb-est-ks2-17-04",
-      "caption": "Gesellschafterdarlehen ausgefallen – erhöht das die Anschaffungskosten nach § 17 EStG? Die Klausurfrage mit Lösung.\n\n▸ Darlehensverluste gehören zu den nachträglichen Anschaffungskosten, soweit Gewährung oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG).\n▸ Maßstab ist der Fremdvergleich: Hätte eine fremde Bank unter denselben Bedingungen das Geld nicht gegeben oder schon zurückverlangt, ist die Veranlassung regelmäßig gesellschaftsrechtlich (§ 17 Abs. 2a S. 4 EStG).\n▸ Bei einem in der Krise stehen gelassenen Darlehen führt nur der bei Kriseneintritt noch werthaltige Teil zu nachträglichen Anschaffungskosten (BFH vom 18.07.2023, IX R 21/21). Den übrigen Ausfall prüfst du bei den Einkünften aus Kapitalvermögen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n▸ Die Auflösung der GmbH gilt als Veräußerung (§ 17 Abs. 4 EStG); Anschaffungskosten wirken im Teileinkünfteverfahren nur zu 60 % (§ 3c Abs. 2 S. 1 EStG).\n\nIm Beispiel: 50.000 € + 30.000 € = 80.000 € Anschaffungskosten, Verlust 80.000 €, davon 48.000 € abziehbar.\n\nZum Schluss: § 17 Abs. 2a EStG zum Markieren. Speichern für Klausur 2 📌",
+      "caption": "Gesellschafterdarlehen ausgefallen – erhöht das die Anschaffungskosten nach § 17 EStG? Die Klausurfrage mit Lösung.\n\n▸ Darlehensverluste gehören zu den nachträglichen Anschaffungskosten, soweit Gewährung oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG).\n▸ Maßstab ist der Fremdvergleich: Hätte eine fremde Bank unter denselben Bedingungen das Geld nicht gegeben oder schon zurückverlangt, ist die Veranlassung regelmäßig gesellschaftsrechtlich (§ 17 Abs. 2a S. 4 EStG).\n▸ Bei einem in der Krise stehen gelassenen Darlehen führt nur der bei Kriseneintritt noch werthaltige Teil zu nachträglichen Anschaffungskosten (BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169). Den übrigen Ausfall prüfst du bei den Einkünften aus Kapitalvermögen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n▸ Die Auflösung der GmbH gilt als Veräußerung (§ 17 Abs. 4 EStG); Anschaffungskosten wirken im Teileinkünfteverfahren nur zu 60 % (§ 3c Abs. 2 S. 1 EStG).\n\nIm Beispiel: 50.000 € + 30.000 € = 80.000 € Anschaffungskosten, Verlust 80.000 €, davon 48.000 € abziehbar.\n\nZum Schluss: § 17 Abs. 2a EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -119,7 +119,7 @@
         "§ 17 Abs. 4 EStG",
         "§ 3c Abs. 2 S. 1 EStG",
         "§ 20 Abs. 2 S. 1 Nr. 7 EStG",
-        "BFH vom 18.07.2023, IX R 21/21"
+        "BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169"
       ],
       "slug": "2026-10-19-b1",
       "kurztitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
@@ -158,7 +158,7 @@
         {
           "art": "text",
           "titel": "Einkommensteuer",
-          "text": "Nicht der Nennwert · Beim Stehenlassen zählt nur der Wert zu Beginn der Krise. · BFH vom 18.07.2023, IX R 21/21 · Hier also 30.000 €, nicht 80.000 €. · Die übrigen 50.000 € bei den Kapitaleinkünften prüfen. · § 20 Abs. 2 S. 1 Nr. 7 EStG · Nur 30.000 €?"
+          "text": "Nicht der Nennwert · Beim Stehenlassen zählt nur der Wert zu Beginn der Krise. · BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169 · Hier also 30.000 €, nicht 80.000 €. · Die übrigen 50.000 € bei den Kapitaleinkünften prüfen. · § 20 Abs. 2 S. 1 Nr. 7 EStG · Nur 30.000 €?"
         },
         {
           "art": "text",
@@ -173,7 +173,7 @@
         {
           "art": "text",
           "titel": "Einkommensteuer",
-          "text": "nachträgliche AK · Zeitpunkt! · Prüfstein · Fremdvergleich · Randnotiz: BFH IX R 21/21 · Stehengelassen: Wert bei Krisenbeginn"
+          "text": "§ 17 EStG (Auszug) · nachträgliche AK · Zeitpunkt! · Prüfstein · Fremdvergleich · BFH IX R 21/21 (BStBl II 2024, 169) · Stehengelassen: Wert bei Krisenbeginn"
         }
       ]
     },
@@ -252,7 +252,7 @@
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "schädlich · Grundfall · Rettung · Schenkung ok · Rückwirkung: § 22 Abs. 1 S. 2 UmwStG · Bescheid des Einbringungsjahres wird geändert"
+          "text": "§ 22 UmwStG (Auszug) · schädlich · Grundfall · Rettung · Schenkung ok · Rückwirkung: § 22 Abs. 1 S. 2 UmwStG · Bescheid des Einbringungsjahres wird geändert"
         }
       ]
     },
@@ -546,7 +546,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:41:19Z",
+    "erzeugtAm": "2026-10-03T10:55:42Z",
     "pfad": "vorproduktion/2026-10-19/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
