@@ -430,7 +430,7 @@
      ],
      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
      "unter": "Sonder-BV?",
-     "teaser": "+ Markier-Guide § 15 EStG",
+     "teaser": "+ Markier-Guide § 15 + R 4.2",
      "motiv": {
       "typ": "icon",
       "name": "tabler:building-warehouse",
@@ -657,8 +657,8 @@
       ]
      ],
      "speichern": "Speichern für Klausur 3",
-     "frage": "Und wenn die Halle seiner Frau gehört?",
-     "teaser": "Weiterwischen: § 15 EStG markiert"
+     "frage": "Und gehört die Halle seiner Frau?",
+     "teaser": "Weiterwischen: § 15 + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
@@ -738,9 +738,84 @@
       "Für Gebäude: § 7 Abs. 4 S. 1 Hs. 2 EStG",
       "„Absatz 1 Satz 5 gilt entsprechend“"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 4.2 Abs. 2 EStR (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Das Betriebsvermögen […] umfasst bei einer Personengesellschaft sowohl die Wirtschaftsgüter, die zum Gesamthandsvermögen der Mitunternehmer gehören, als auch diejenigen Wirtschaftsgüter, die",
+         null
+        ],
+        [
+         "einem, mehreren oder allen Mitunternehmern gehören",
+         "g1"
+        ],
+        [
+         "(Sonderbetriebsvermögen).",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Wirtschaftsgüter, die einem, mehreren oder allen Mitunternehmern gehören und die nicht Gesamthandsvermögen der Mitunternehmer der Personengesellschaft sind, gehören zum",
+         null
+        ],
+        [
+         "notwendigen Betriebsvermögen,",
+         "r1"
+        ],
+        [
+         "wenn sie entweder",
+         null
+        ],
+        [
+         "unmittelbar dem Betrieb der Personengesellschaft dienen (Sonderbetriebsvermögen I)",
+         "b1"
+        ],
+        [
+         "oder unmittelbar zur Begründung oder Stärkung der Beteiligung des Mitunternehmers an der Personengesellschaft eingesetzt werden sollen",
+         null
+        ],
+        [
+         "(Sonderbetriebsvermögen II).",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "gehört Joscha",
+       "g1"
+      ],
+      [
+       "kein Wahlrecht",
+       "r1"
+      ],
+      [
+       "vermietet an die KG",
+       "b1"
+      ],
+      [
+       "für die Beteiligung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Höhe der Beteiligung egal",
+      "auch bei 1 % Kommanditanteil"
+     ]
     }
    ],
-   "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 und § 7 Abs. 1 S. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2, § 7 Abs. 1 S. 5 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -748,7 +823,7 @@
     "#personengesellschaften"
    ],
    "quellen": [
-    "R 4.2 Abs. 2 S. 2 EStR",
+    "R 4.2 Abs. 2 S. 1, 2 EStR",
     "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
     "§ 6 Abs. 1 Nr. 5 EStG",
     "§ 7 Abs. 1 S. 5, Abs. 4 S. 1 EStG"

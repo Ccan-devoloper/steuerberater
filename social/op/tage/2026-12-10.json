@@ -38,7 +38,7 @@
      ],
      "norm": "§ 256a HGB",
      "unter": "auf einer Karte",
-     "teaser": "+ Markier-Guide § 256a HGB",
+     "teaser": "+ Markier-Guide § 256a + BMF",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -86,7 +86,7 @@
        "nie unter Zugangswert"
       ]
      ],
-     "teaser": "Am Ende: § 256a HGB markiert"
+     "teaser": "Am Ende: § 256a HGB + BMF markiert"
     },
     {
      "typ": "vergleich",
@@ -192,7 +192,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Kursgewinn gebucht?",
-     "teaser": "Weiterwischen: § 256a HGB markiert"
+     "teaser": "Weiterwischen: § 256a + BMF markiert"
     },
     {
      "typ": "gesetz",
@@ -259,9 +259,105 @@
       "Steuerlich: § 6 Abs. 1 Nr. 3 EStG",
       "höher nur bei dauernder Erhöhung"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 02.09.2016 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 31",
+       [
+        [
+         "[…] Ist die Höhe der Zahlungsverpflichtung von einem bestimmten Kurswert abhängig (z. B. Fremdwährungsverbindlichkeiten), ist grundsätzlich der Wert",
+         null
+        ],
+        [
+         "zum Zeitpunkt des Entstehens",
+         "g1"
+        ],
+        [
+         "der Verbindlichkeit maßgebend […]. Nur unter der Voraussetzung einer",
+         null
+        ],
+        [
+         "voraussichtlich dauernden Erhöhung",
+         "b1"
+        ],
+        [
+         "des Kurswertes",
+         null
+        ],
+        [
+         "kann",
+         "gr1"
+        ],
+        [
+         "an den nachfolgenden Bilanzstichtagen der höhere Wert angesetzt werden […].",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 32",
+       [
+        [
+         "[…] Bei Fremdwährungsverbindlichkeiten, die eine",
+         null
+        ],
+        [
+         "Restlaufzeit von jedenfalls zehn Jahren",
+         "r1"
+        ],
+        [
+         "haben, begründet ein Kursanstieg der Fremdwährung grundsätzlich keine voraussichtlich dauernde Teilwerterhöhung; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 36",
+       [
+        [
+         "Hält eine Wechselkurserhöhung im Zusammenhang mit einer Verbindlichkeit des laufenden Geschäftsverkehrs",
+         null
+        ],
+        [
+         "bis zum Zeitpunkt der Aufstellung der Bilanz",
+         "g2"
+        ],
+        [
+         "[…] an, ist davon auszugehen, dass die Werterhöhung voraussichtlich von Dauer ist.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zugangskurs",
+       "g1"
+      ],
+      [
+       "nur bei Dauer",
+       "b1"
+      ],
+      [
+       "10 Jahre: nein",
+       "r1"
+      ],
+      [
+       "laufender Verkehr",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Rn. 33: übliche Kursschwankungen",
+      "berechtigen nicht zum höheren Ansatz"
+     ]
     }
    ],
-   "caption": "Fremdwährungsschulden am Bilanzstichtag: der Spickzettel für Klausur 3.\n\nZugang: Umrechnung mit dem Kurs bei Entstehung der Verbindlichkeit (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 31).\nHandelsbilanz: Umrechnung zum Devisenkassamittelkurs am Abschlussstichtag; bei Restlaufzeit bis zu einem Jahr ohne Anschaffungskosten- und Realisationsprinzip, also auch unter dem Zugangswert (§ 256a HGB).\nSteuerbilanz: höherer Teilwert nur bei voraussichtlich dauernder Erhöhung, als Wahlrecht (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG). Übliche Wechselkursschwankungen genügen nicht; bei Restlaufzeit von zehn Jahren in der Regel keine dauernde Erhöhung (BMF vom 02.09.2016, Rn. 32, 33).\nVerbindlichkeiten des laufenden Geschäftsverkehrs: Hält der Kursanstieg bis zur Bilanzaufstellung oder früheren Tilgung an, gilt er als dauernd (BMF vom 02.09.2016, Rn. 34–36).\nEin Ansatz unter dem Zugangswert ist steuerlich ausgeschlossen.\n\nBeispiel: 100.000 $, Zugang 80.000 €, Stichtag 90.000 €. HB 90.000 €, StB 80.000 € oder bei dauernder Erhöhung 90.000 €.\n\nZum Schluss: § 256a HGB zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Fremdwährungsschulden am Bilanzstichtag: der Spickzettel für Klausur 3.\n\nZugang: Umrechnung mit dem Kurs bei Entstehung der Verbindlichkeit (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 31).\nHandelsbilanz: Umrechnung zum Devisenkassamittelkurs am Abschlussstichtag; bei Restlaufzeit bis zu einem Jahr ohne Anschaffungskosten- und Realisationsprinzip, also auch unter dem Zugangswert (§ 256a HGB).\nSteuerbilanz: höherer Teilwert nur bei voraussichtlich dauernder Erhöhung, als Wahlrecht (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG). Übliche Wechselkursschwankungen genügen nicht; bei Restlaufzeit von zehn Jahren in der Regel keine dauernde Erhöhung (BMF vom 02.09.2016, Rn. 32, 33).\nVerbindlichkeiten des laufenden Geschäftsverkehrs: Hält der Kursanstieg bis zur Bilanzaufstellung oder früheren Tilgung an, gilt er als dauernd (BMF vom 02.09.2016, Rn. 34–36).\nEin Ansatz unter dem Zugangswert ist steuerlich ausgeschlossen.\n\nBeispiel: 100.000 $, Zugang 80.000 €, Stichtag 90.000 €. HB 90.000 €, StB 80.000 € oder bei dauernder Erhöhung 90.000 €.\n\nZum Schluss: § 256a HGB und BMF vom 02.09.2016 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -271,7 +367,7 @@
    "quellen": [
     "§ 256a HGB",
     "§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG",
-    "BMF vom 02.09.2016, Rn. 31–36"
+    "BMF vom 02.09.2016, BStBl I 2016, 995, Rn. 31–36"
    ]
   },
   {

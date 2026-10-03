@@ -407,7 +407,7 @@
      ],
      "norm": "§§ 7, 8 KStG",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 7 KStG",
+     "teaser": "+ Markier-Guide § 7 + R 7.1",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -460,7 +460,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 7 KStG markiert"
+     "teaser": "Am Ende: § 7 KStG + R 7.1 markiert"
     },
     {
      "typ": "inhalt",
@@ -672,8 +672,8 @@
       ]
      ],
      "speichern": "Speichern für Klausur 2",
-     "frage": "Welcher Schritt fehlt dir oft?",
-     "teaser": "Weiterwischen: § 7 KStG markiert"
+     "frage": "Welcher Schritt fehlt?",
+     "teaser": "Weiterwischen: § 7 + R 7.1 markiert"
     },
     {
      "typ": "gesetz",
@@ -743,12 +743,124 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: R 7.1 Abs. 1 KStR",
-      "Dort steht das amtliche Ermittlungsschema"
+      "Steuersatz: § 23 Abs. 1 KStG",
+      "15 % bis VZ 2027, danach stufenweise weniger"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 7.1 Abs. 1 S. 2 KStR (Auszug)",
+     "absaetze": [
+      [
+       "1.",
+       [
+        [
+         "Jahresüberschuss/-fehlbetrag lt. Steuerbilanz",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "10.",
+       [
+        [
+         "+ Hinzurechnung von vGA",
+         "r1"
+        ],
+        [
+         "( § 8 Abs. 3 Satz 2 KStG ) […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "13.",
+       [
+        [
+         "– verdeckte Einlagen ( § 8 Abs. 3 Satz 3 bis 6 KStG ), Einlagen ( § 4 Abs. 1 Satz 8 EStG )",
+         null
+        ]
+       ]
+      ],
+      [
+       "14.",
+       [
+        [
+         "+ nichtabziehbare Aufwendungen",
+         "b1"
+        ],
+        [
+         "(z. B. § 10 KStG , § 4 Abs. 5 bis 8 EStG , § 160 AO )",
+         null
+        ]
+       ]
+      ],
+      [
+       "20.",
+       [
+        [
+         "+/– Kürzungen/Hinzurechnungen nach § 8b KStG",
+         "gr1"
+        ],
+        [
+         "und InvStG",
+         null
+        ]
+       ]
+      ],
+      [
+       "41.",
+       [
+        [
+         "– Verlustabzug nach § 10d EStG",
+         "g2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "45.",
+       [
+        [
+         "= zu versteuerndes Einkommen",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "KSt, SolZ, GewSt",
+       "b1"
+      ],
+      [
+       "vGA",
+       "r1"
+      ],
+      [
+       "Dividenden, 5 %",
+       "gr1"
+      ],
+      [
+       "Verlust zuletzt",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Steuern vom Einkommen und GewSt",
+      "stecken in Zeile 14"
      ]
     }
    ],
-   "caption": "KSt-Prüfschema: vom Gewinn zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Steuerpflicht: Sitz oder Geschäftsleitung im Inland, unbeschränkt mit sämtlichen Einkünften (§ 1 Abs. 1 Nr. 1, Abs. 2 KStG); alle Einkünfte sind gewerblich (§ 8 Abs. 2 KStG).\n2. Start: Gewinn laut Steuerbilanz, Ermittlung nach EStG und KStG (§ 8 Abs. 1 S. 1 KStG).\n3. Hinzurechnen: Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG), verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG).\n4. Abziehen: Dividenden bleiben außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres mindestens 10 % betrug (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG).\n5. Verlustvortrag bis 1 Mio. € unbeschränkt, darüber zu 70 % (§ 10d Abs. 2 S. 1 EStG i. V. m. § 8 Abs. 1 KStG). Dann zvE (§ 7 Abs. 2 KStG) × 15 % für VZ bis 2027, danach sinkt der Satz stufenweise (§ 23 Abs. 1 KStG), plus 5,5 % Solidaritätszuschlag (§ 4 S. 1 SolZG).\n\nBeispiel: 150.000 + 45.000 + 15.000 − 20.000 + 1.000 = 191.000 € zvE, KSt 28.650 €.\nDas amtliche Schema steht in R 7.1 Abs. 1 KStR.\n\nZum Schluss: §§ 7, 8 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "KSt-Prüfschema: vom Gewinn zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Steuerpflicht: Sitz oder Geschäftsleitung im Inland, unbeschränkt mit sämtlichen Einkünften (§ 1 Abs. 1 Nr. 1, Abs. 2 KStG); alle Einkünfte sind gewerblich (§ 8 Abs. 2 KStG).\n2. Start: Gewinn laut Steuerbilanz, Ermittlung nach EStG und KStG (§ 8 Abs. 1 S. 1 KStG).\n3. Hinzurechnen: Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG), verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG).\n4. Abziehen: Dividenden bleiben außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres mindestens 10 % betrug (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG).\n5. Verlustvortrag bis 1 Mio. € unbeschränkt, darüber zu 70 % (§ 10d Abs. 2 S. 1 EStG i. V. m. § 8 Abs. 1 KStG). Dann zvE (§ 7 Abs. 2 KStG) × 15 % für VZ bis 2027, danach sinkt der Satz stufenweise (§ 23 Abs. 1 KStG), plus 5,5 % Solidaritätszuschlag (§ 4 S. 1 SolZG).\n\nBeispiel: 150.000 + 45.000 + 15.000 − 20.000 + 1.000 = 191.000 € zvE, KSt 28.650 €.\nDas amtliche Schema steht in R 7.1 Abs. 1 KStR.\n\nZum Schluss: §§ 7, 8 KStG und R 7.1 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

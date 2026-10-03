@@ -39,7 +39,7 @@
       "kompakt"
      ],
      "unter": "5 Themen",
-     "teaser": "+ Markier-Guide § 15 EStG",
+     "teaser": "+ Markier-Guide § 15 + R 4.2",
      "motiv": {
       "typ": "kalender",
       "monat": "DEZEMBER",
@@ -78,7 +78,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 15 EStG markiert"
+     "teaser": "Am Ende: § 15 EStG + R 4.2 markiert"
     },
     {
      "typ": "inhalt",
@@ -169,7 +169,7 @@
        "Wesentliches Sonderbetriebsvermögen muss mit, beim Teilanteil mindestens quotal.",
        "warn",
        "Regular",
-       "UmwStE Rn. 20.10, 20.11"
+       "UmwStE Rn. 20.06, 20.10, 20.11"
       ],
       [
        "Nur gegen neue Anteile.",
@@ -265,7 +265,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Welches Thema wackelt noch?",
-     "teaser": "Weiterwischen: § 15 EStG markiert"
+     "teaser": "Weiterwischen: § 15 + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
@@ -333,12 +333,87 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: R 4.2 Abs. 2 EStR",
-      "Gesamthand und Sonderbetriebsvermögen"
+      "Mitunternehmer: H 15.8 Abs. 1 EStH",
+      "Risiko und Initiative, beide nötig"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 4.2 Abs. 2 EStR (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Das Betriebsvermögen […] umfasst bei einer Personengesellschaft sowohl die Wirtschaftsgüter, die",
+         null
+        ],
+        [
+         "zum Gesamthandsvermögen der Mitunternehmer gehören,",
+         "g1"
+        ],
+        [
+         "als auch diejenigen Wirtschaftsgüter, die einem, mehreren oder allen Mitunternehmern gehören",
+         null
+        ],
+        [
+         "(Sonderbetriebsvermögen).",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Wirtschaftsgüter, die einem, mehreren oder allen Mitunternehmern gehören und die nicht Gesamthandsvermögen der Mitunternehmer der Personengesellschaft sind, gehören zum",
+         null
+        ],
+        [
+         "notwendigen Betriebsvermögen,",
+         "r1"
+        ],
+        [
+         "wenn sie entweder",
+         null
+        ],
+        [
+         "unmittelbar dem Betrieb der Personengesellschaft dienen (Sonderbetriebsvermögen I)",
+         "gr1"
+        ],
+        [
+         "oder unmittelbar zur Begründung oder Stärkung der Beteiligung des Mitunternehmers an der Personengesellschaft eingesetzt werden sollen (Sonderbetriebsvermögen II).",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Gesamthand: BV",
+       "g1"
+      ],
+      [
+       "SBV",
+       "b1"
+      ],
+      [
+       "kein Wahlrecht",
+       "r1"
+      ],
+      [
+       "Grundstück an die KG",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Ausnahme: H 4.2 Abs. 11 EStH",
+      "Fast nur privat genutzt: kein BV"
      ]
     }
    ],
-   "caption": "Tag 3 kompakt: fünf Themen der Woche für die Klausur Buchführung und Bilanzwesen.\n\n1. Vermögen der Personengesellschaft ist grundsätzlich Betriebsvermögen, ohne Wahlrecht; Ausnahme bei (fast) ausschließlich privatem Bedarf eines Gesellschafters (R 4.2 Abs. 2 EStR; H 4.2 Abs. 11 EStH).\n2. Mitunternehmer: Mitunternehmerrisiko und Mitunternehmerinitiative müssen beide vorliegen (§ 15 Abs. 1 S. 1 Nr. 2 EStG; H 15.8 Abs. 1 EStH; § 166 HGB).\n3. Grundstück eines Gesellschafters an die KG: Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR), Einlage nach § 6 Abs. 1 Nr. 5 EStG, AfA-Basis um die bisherige AfA gekürzt (§ 7 Abs. 1 S. 5 EStG).\n4. Mitunternehmeranteil in die GmbH: wesentliches Sonderbetriebsvermögen muss mit (BMF vom 11.11.2011, UmwStE Rn. 20.10, 20.11), Gegenleistung neue Anteile (§ 20 Abs. 1 UmwStG), Überhang ins steuerliche Einlagekonto (§ 27 Abs. 1 KStG).\n5. Fremdwährungsschulden: Handelsbilanz zum Stichtagskurs (§ 256a HGB); steuerlich höher nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 33).\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Tag 3 kompakt: fünf Themen der Woche für die Klausur Buchführung und Bilanzwesen.\n\n1. Vermögen der Personengesellschaft ist grundsätzlich Betriebsvermögen, ohne Wahlrecht; Ausnahme bei (fast) ausschließlich privatem Bedarf eines Gesellschafters (R 4.2 Abs. 2 EStR; H 4.2 Abs. 11 EStH).\n2. Mitunternehmer: Mitunternehmerrisiko und Mitunternehmerinitiative müssen beide vorliegen (§ 15 Abs. 1 S. 1 Nr. 2 EStG; H 15.8 Abs. 1 EStH; § 166 HGB).\n3. Grundstück eines Gesellschafters an die KG: Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR), Einlage nach § 6 Abs. 1 Nr. 5 EStG, AfA-Basis um die bisherige AfA gekürzt (§ 7 Abs. 1 S. 5 EStG).\n4. Mitunternehmeranteil in die GmbH: wesentliches Sonderbetriebsvermögen muss mit (BMF vom 02.01.2025, UmwStE Rn. 20.06, 20.10, 20.11), Gegenleistung neue Anteile (§ 20 Abs. 1 UmwStG), Überhang ins steuerliche Einlagekonto (§ 27 Abs. 1 KStG).\n5. Fremdwährungsschulden: Handelsbilanz zum Stichtagskurs (§ 256a HGB); steuerlich höher nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 33).\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -354,7 +429,7 @@
     "§ 6 Abs. 1 Nr. 3, 5 EStG",
     "§ 7 Abs. 1 S. 5 EStG",
     "§ 20 Abs. 1 UmwStG",
-    "BMF vom 11.11.2011, Rn. 20.10, 20.11",
+    "BMF vom 02.01.2025 (UmwStE), Rn. 20.06, 20.10, 20.11",
     "§ 27 Abs. 1 KStG",
     "§ 256a HGB",
     "BMF vom 02.09.2016, Rn. 33"

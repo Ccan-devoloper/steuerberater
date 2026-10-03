@@ -290,12 +290,12 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: BFH IX R 68/98",
+      "BFH IX R 68/98 (BStBl II 2003, 898)",
       "Werktagsregel gilt auch für die Bekanntgabe"
      ]
     }
    ],
-   "caption": "Einspruch zu spät? Die Fristfalle beim Bekanntgabetag.\n\n▸ Ein durch die Post übermittelter Bescheid gilt im Inland vier Tage nach der Postaufgabe als bekannt gegeben, außer er ist nicht oder später zugegangen (§ 122 Abs. 2 Nr. 1 AO). Ein früherer Zugang verschiebt den Bekanntgabetag nicht nach vorn.\n▸ Fällt dieser vierte Tag auf einen Samstag, Sonntag oder gesetzlichen Feiertag, gilt der Bescheid erst am nächsten Werktag als bekannt gegeben (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98).\n▸ Die Einspruchsfrist beträgt einen Monat nach Bekanntgabe (§ 355 Abs. 1 S. 1 AO); Beginn und Ende nach § 108 Abs. 1 AO i. V. m. §§ 187 Abs. 1, 188 Abs. 2 BGB, ein Fristende am Wochenende oder Feiertag verschiebt sich wieder auf den nächsten Werktag (§ 108 Abs. 3 AO).\n\nIm Beispiel: Aufgabe zur Post Mittwoch, 04.03.2026 → vierter Tag Sonntag, 08.03. → Bekanntgabe Montag, 09.03.2026 → Fristende Donnerstag, 09.04.2026. Der Einspruch vom 09.04.2026 ist rechtzeitig.\n\nZum Schluss: § 108 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Einspruch zu spät? Die Fristfalle beim Bekanntgabetag.\n\n▸ Ein durch die Post übermittelter Bescheid gilt im Inland vier Tage nach der Postaufgabe als bekannt gegeben, außer er ist nicht oder später zugegangen (§ 122 Abs. 2 Nr. 1 AO). Ein früherer Zugang verschiebt den Bekanntgabetag nicht nach vorn.\n▸ Fällt dieser vierte Tag auf einen Samstag, Sonntag oder gesetzlichen Feiertag, gilt der Bescheid erst am nächsten Werktag als bekannt gegeben (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898).\n▸ Die Einspruchsfrist beträgt einen Monat nach Bekanntgabe (§ 355 Abs. 1 S. 1 AO); Beginn und Ende nach § 108 Abs. 1 AO i. V. m. §§ 187 Abs. 1, 188 Abs. 2 BGB, ein Fristende am Wochenende oder Feiertag verschiebt sich wieder auf den nächsten Werktag (§ 108 Abs. 3 AO).\n\nIm Beispiel: Aufgabe zur Post Mittwoch, 04.03.2026 → vierter Tag Sonntag, 08.03. → Bekanntgabe Montag, 09.03.2026 → Fristende Donnerstag, 09.04.2026. Der Einspruch vom 09.04.2026 ist rechtzeitig.\n\nZum Schluss: § 108 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -307,7 +307,7 @@
     "§ 108 Abs. 1, 3 AO",
     "§ 355 Abs. 1 S. 1 AO",
     "§§ 187 Abs. 1, 188 Abs. 2 BGB",
-    "BFH vom 14.10.2003, IX R 68/98"
+    "BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898"
    ]
   },
   {
@@ -340,7 +340,7 @@
      ],
      "norm": "§ 8 Abs. 3 S. 2 KStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 8 KStG",
+     "teaser": "+ Markier-Guide § 8 + R 8.5",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -388,7 +388,7 @@
        "außerhalb der Bilanz"
       ]
      ],
-     "teaser": "Am Ende: § 8 KStG markiert"
+     "teaser": "Am Ende: § 8 KStG + R 8.5 markiert"
     },
     {
      "typ": "inhalt",
@@ -581,7 +581,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welcher Schritt fehlt dir oft?",
-     "teaser": "Weiterwischen: § 8 KStG markiert"
+     "teaser": "Weiterwischen: § 8 KStG + R 8.5 markiert"
     },
     {
      "typ": "gesetz",
@@ -638,12 +638,108 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: R 8.5 KStR",
-      "Begriff und beherrschender Gesellschafter"
+      "Korrektur außerhalb der Bilanz",
+      "Jahresüberschuss bleibt, Einkommen steigt"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 8.5 KStR vGA (Auszug)",
+     "absaetze": [
+      [
+       "Abs. 1 S. 1",
+       [
+        [
+         "Eine vGA […] ist eine",
+         null
+        ],
+        [
+         "Vermögensminderung oder verhinderte Vermögensmehrung,",
+         "g1"
+        ],
+        [
+         "die",
+         null
+        ],
+        [
+         "durch das Gesellschaftsverhältnis veranlasst",
+         "b1"
+        ],
+        [
+         "ist, sich auf die Höhe des Unterschiedsbetrags […] auswirkt und nicht auf einem […] Gewinnverteilungsbeschluss beruht.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Eine Veranlassung durch das Gesellschaftsverhältnis ist auch dann gegeben, wenn die Vermögensminderung […] zugunsten einer",
+         null
+        ],
+        [
+         "nahestehenden Person",
+         "gr1"
+        ],
+        [
+         "erfolgt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "Abs. 2 S. 1",
+       [
+        [
+         "Im Verhältnis zwischen Gesellschaft und",
+         null
+        ],
+        [
+         "beherrschendem Gesellschafter",
+         "r1"
+        ],
+        [
+         "ist eine Veranlassung durch das Gesellschaftsverhältnis i. d. R. auch dann anzunehmen, wenn es an einer",
+         null
+        ],
+        [
+         "zivilrechtlich wirksamen, klaren, eindeutigen und im Voraus abgeschlossenen Vereinbarung",
+         "g2"
+        ],
+        [
+         "darüber fehlt, ob und in welcher Höhe ein Entgelt […] zu zahlen ist, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Minderung",
+       "g1"
+      ],
+      [
+       "Auslöser",
+       "b1"
+      ],
+      [
+       "auch Angehörige",
+       "gr1"
+      ],
+      [
+       "sonst vGA",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Beherrschend: H 8.5 KStH",
+      "Mehrheit der Stimmrechte, Maren hat 60 %"
      ]
     }
    ],
-   "caption": "Verdeckte Gewinnausschüttung sicher prüfen – das Schema in 4 Schritten.\n\n1. Vorteil: zugunsten eines Gesellschafters oder einer nahestehenden Person (R 8.5 Abs. 1 S. 3 KStR).\n2. Vermögensminderung oder verhinderte Vermögensmehrung mit Auswirkung auf den Unterschiedsbetrag, ohne Gewinnverteilungsbeschluss (R 8.5 Abs. 1 S. 1 KStR).\n3. Veranlassung durch das Gesellschaftsverhältnis: Fremdvergleich; beim beherrschenden Gesellschafter schon dann, wenn eine zivilrechtlich wirksame, klare und im Voraus getroffene Vereinbarung fehlt (R 8.5 Abs. 2 S. 1 KStR).\n4. Rechtsfolge: Die vGA mindert das Einkommen nicht, Korrektur außerhalb der Bilanz (§ 8 Abs. 3 S. 2 KStG). Beim Gesellschafter gehört sie zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nIm Beispiel: Miete 36.000 € statt angemessen 24.000 € → vGA 12.000 €; Einkommen 90.000 € + 12.000 € = 102.000 €. Bei Maren: 24.000 € Vermietungseinkünfte (§ 21 Abs. 1 S. 1 Nr. 1 EStG), 12.000 € Kapitalerträge.\n\nZum Schluss: § 8 Abs. 3 KStG und § 20 Abs. 1 Nr. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Verdeckte Gewinnausschüttung sicher prüfen – das Schema in 4 Schritten.\n\n1. Vorteil: zugunsten eines Gesellschafters oder einer nahestehenden Person (R 8.5 Abs. 1 S. 3 KStR).\n2. Vermögensminderung oder verhinderte Vermögensmehrung mit Auswirkung auf den Unterschiedsbetrag, ohne Gewinnverteilungsbeschluss (R 8.5 Abs. 1 S. 1 KStR).\n3. Veranlassung durch das Gesellschaftsverhältnis: Fremdvergleich; beim beherrschenden Gesellschafter schon dann, wenn eine zivilrechtlich wirksame, klare und im Voraus getroffene Vereinbarung fehlt (R 8.5 Abs. 2 S. 1 KStR).\n4. Rechtsfolge: Die vGA mindert das Einkommen nicht, Korrektur außerhalb der Bilanz (§ 8 Abs. 3 S. 2 KStG). Beim Gesellschafter gehört sie zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nIm Beispiel: Miete 36.000 € statt angemessen 24.000 € → vGA 12.000 €; Einkommen 90.000 € + 12.000 € = 102.000 €. Bei Maren: 24.000 € Vermietungseinkünfte (§ 21 Abs. 1 S. 1 Nr. 1 EStG), 12.000 € Kapitalerträge.\n\nZum Schluss: § 8 Abs. 3 KStG, § 20 Abs. 1 Nr. 1 EStG und R 8.5 KStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -654,7 +750,8 @@
     "§ 8 Abs. 3 S. 2 KStG",
     "R 8.5 Abs. 1, 2 KStR",
     "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
-    "§ 21 Abs. 1 S. 1 Nr. 1 EStG"
+    "§ 21 Abs. 1 S. 1 Nr. 1 EStG",
+    "H 8.5 KStH"
    ]
   },
   {

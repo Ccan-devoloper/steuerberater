@@ -377,7 +377,7 @@
      ],
      "norm": "§ 7 Abs. 1 S. 5 EStG",
      "unter": "mit Zahlen",
-     "teaser": "+ Markier-Guide § 7 EStG",
+     "teaser": "+ Markier-Guide § 7 + R 4.2",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -425,7 +425,7 @@
        "3 % für Betriebsgebäude"
       ]
      ],
-     "teaser": "Am Ende: § 7 EStG markiert"
+     "teaser": "Am Ende: § 7 EStG + R 4.2 markiert"
     },
     {
      "typ": "inhalt",
@@ -651,11 +651,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du die Basis gekürzt?",
-     "teaser": "Weiterwischen: § 7 EStG markiert"
+     "teaser": "Weiterwischen: § 7 + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Richtlinie markieren",
      "kopf": "§ 7 Abs. 1 S. 5 EStG (Auszug)",
      "absaetze": [
       [
@@ -709,10 +709,46 @@
      "randnotiz": [
       "Randnotiz: § 6 Abs. 1 Nr. 5 EStG",
       "Einlage: Teilwert, binnen 3 Jahren höchstens AK"
-     ]
+     ],
+     "zweite": {
+      "kopf": "R 4.2 Abs. 2 EStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 2",
+        [
+         [
+          "Wirtschaftsgüter, die einem, mehreren oder allen Mitunternehmern gehören und die nicht Gesamthandsvermögen […] sind, gehören zum notwendigen Betriebsvermögen, wenn sie entweder",
+          null
+         ],
+         [
+          "unmittelbar dem Betrieb der Personengesellschaft dienen",
+          "g1"
+         ],
+         [
+          "(Sonderbetriebsvermögen I)",
+          "b1"
+         ],
+         [
+          "oder […].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Büro an die KG",
+        "g1"
+       ],
+       [
+        "SBV I",
+        "b1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Vermietetes Grundstück an die eigene KG: Sonderbetriebsvermögen I, Einlage und AfA. Der Rechenweg für Klausur 3.\n\n1. Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR). Die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n2. Der Wechsel aus dem Privatvermögen ist eine Einlage (§ 4 Abs. 1 S. 8 EStG), bewertet mit dem Teilwert; bei Anschaffung innerhalb der letzten drei Jahre höchstens mit den um die AfA gekürzten Anschaffungskosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n3. War das Gebäude vorher vermietet, mindert sich der Einlagewert für die weitere AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5 EStG).\n4. Betriebsgebäude, nicht zu Wohnzwecken, Bauantrag nach dem 31.03.1985: 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG).\n\nBeispiel: 560.000 € − 100.000 € = 460.000 € × 3 % = 13.800 €. Variante mit Kauf 2024: Einlage 480.000 €, keine weitere Kürzung, AfA 14.400 €.\n\nZum Schluss: § 7 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Vermietetes Grundstück an die eigene KG: Sonderbetriebsvermögen I, Einlage und AfA. Der Rechenweg für Klausur 3.\n\n1. Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR). Die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n2. Der Wechsel aus dem Privatvermögen ist eine Einlage (§ 4 Abs. 1 S. 8 EStG), bewertet mit dem Teilwert; bei Anschaffung innerhalb der letzten drei Jahre höchstens mit den um die AfA gekürzten Anschaffungskosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n3. War das Gebäude vorher vermietet, mindert sich der Einlagewert für die weitere AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5 EStG).\n4. Betriebsgebäude, nicht zu Wohnzwecken, Bauantrag nach dem 31.03.1985: 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG).\n\nBeispiel: 560.000 € − 100.000 € = 460.000 € × 3 % = 13.800 €. Variante mit Kauf 2024: Einlage 480.000 €, keine weitere Kürzung, AfA 14.400 €.\n\nZum Schluss: § 7 EStG und R 4.2 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
