@@ -4,429 +4,321 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "ust-aufb-ust-m-b05-6",
-        "themaTitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
-        "fach": "ust",
+        "format": "fehlerfalle",
+        "themaId": "ao-aufb-ao-jacobs-8-5",
+        "themaTitel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
+        "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "est-aufb-est-ks2-17-01",
-        "themaTitel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
-        "fach": "est",
+        "format": "schema",
+        "themaId": "kst-schema-1",
+        "themaTitel": "Verdeckte Gewinnausschüttung",
+        "fach": "kst",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "umwst-aufb-umw-ks-3-06",
-        "themaTitel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
-        "fach": "umwst",
-        "klausur": 3,
-        "lang": false
+        "themaId": "persg-aufb-persg-melzer-1-5",
+        "themaTitel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
+        "fach": "persg",
+        "klausur": 3
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:11",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-35"
+        "themaId": "bilanz-quiz-k3-10"
       },
       {
         "slot": "s5",
-        "zeit": "07:11",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-35"
+        "themaId": "bilanz-quiz-k3-10"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:53",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-324"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:31",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-307"
+        "themaId": "erbst-aufb-erbst-v-28"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:41",
-        "art": "merksatz",
-        "themaId": "erbst-aufb-erbst-t1-7"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:13",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "erbst-modul-erbst-503"
+        "themaId": "gewst-aufb-gewst-ks-06"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-2-49"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "ust",
+      "format": "fehlerfalle",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "themaId": "ust-aufb-ust-m-b05-6",
-      "slug": "2026-10-21-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Die Leistung wird dort ausgeführt, von wo aus der unternehmerische Empfänger sein Unternehmen betreibt; wird sie an eine Betriebsstätte erbracht, zählt deren Ort.",
-            "Der Kunde muss Unternehmer sein und die Leistung für seinen unternehmerischen Bereich beziehen; juristische Personen mit USt-IdNr. oder mit teils unternehmerischer Tätigkeit stehen nach Satz 3 gleich."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Zuerst ausschließen, dass eine vorrangige Sonderregel wie Grundstücksleistung, Personenbeförderung oder kurzfristige Fahrzeugvermietung eingreift."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Status des Kunden klären: unternehmerischer Bezug oder gleichgestellte juristische Person nach Satz 3."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Ort beim Empfänger: Sitzt er im Ausland, ist die Leistung im Inland nicht steuerbar; bei Kunden in der EU folgt die Zusammenfassende Meldung (§ 18a UStG). Leistet ein ausländischer Unternehmer an einen inländischen Unternehmer, schuldet dieser die Steuer (§ 13b UStG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "B2B-Dienstleistungen: Nach § 3a Abs. 2 UStG liegt der Ort grundsätzlich beim unternehmerischen Empfänger. So prüfst du Vorrangregeln, Kundenstatus und die Folgen.",
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-8-5",
+      "caption": "Einspruch zu spät? Die Fristfalle beim Bekanntgabetag.\n\n▸ Ein durch die Post übermittelter Bescheid gilt im Inland vier Tage nach der Postaufgabe als bekannt gegeben, außer er ist nicht oder später zugegangen (§ 122 Abs. 2 Nr. 1 AO). Ein früherer Zugang verschiebt den Bekanntgabetag nicht nach vorn.\n▸ Fällt dieser vierte Tag auf einen Samstag, Sonntag oder gesetzlichen Feiertag, gilt der Bescheid erst am nächsten Werktag als bekannt gegeben (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98).\n▸ Die Einspruchsfrist beträgt einen Monat nach Bekanntgabe (§ 355 Abs. 1 S. 1 AO); Beginn und Ende nach § 108 Abs. 1 AO i. V. m. §§ 187 Abs. 1, 188 Abs. 2 BGB, ein Fristende am Wochenende oder Feiertag verschiebt sich wieder auf den nächsten Werktag (§ 108 Abs. 3 AO).\n\nIm Beispiel: Aufgabe zur Post Mittwoch, 04.03.2026 → vierter Tag Sonntag, 08.03. → Bekanntgabe Montag, 09.03.2026 → Fristende Donnerstag, 09.04.2026. Der Einspruch vom 09.04.2026 ist rechtzeitig.\n\nZum Schluss: § 108 AO zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umsatzsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 2 Abs. 1 UStG",
-        "§ 3a Abs. 2 Sätze 1 bis 3 UStG",
-        "§ 3a Abs. 3 Nr. 1 und 4, Abs. 4 UStG",
-        "§ 13b Abs. 1 und 5 UStG",
-        "§ 18a Abs. 2 UStG",
-        "§ 18b UStG",
-        "§ 61a Abs. 4 UStDV",
-        "§§ 8, 9, 90 AO",
-        "Art. 18 MwStVO",
-        "Art. 44 MwStSystRL",
-        "§ 13b Abs. 2 Nr. 1 UStG",
-        "Themenpool: ust-aufb-ust-m-b05-6"
+        "§ 122 Abs. 2 Nr. 1 AO",
+        "§ 108 Abs. 1, 3 AO",
+        "§ 355 Abs. 1 S. 1 AO",
+        "§§ 187 Abs. 1, 188 Abs. 2 BGB",
+        "BFH vom 14.10.2003, IX R 68/98"
       ],
-      "coverRegie": {
-        "thema": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-21-b1-ust-aufb-ust-m-b05-6-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-21-b1",
+      "kurztitel": "Einspruchsfrist sicher berechnen – von Bekanntgabe bis Fristende",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Einspruch · zu spät? · § 355 Abs. 1 AO · Fristfalle · + Markier-Guide § 108 AO · MÄRZ · 8 · So · 4. Tag",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Der Fall · Das Finanzamt gibt Aylas Bescheid am Mittwoch, 04.03.2026, zur Post. · Im Briefkasten liegt er schon am Freitag. · Ihr Einspruch geht am Donnerstag, 09.04.2026, ein. · Noch rechtzeitig?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Jetzt du · Wann gilt der Bescheid als bekannt gegeben? · Wann endet die Monatsfrist? · Erst rechnen, dann weiterwischen · Freitag zählt, oder?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Der vierte Tag ist Sonntag · Bekannt gegeben gilt er vier Tage nach Postaufgabe: Sonntag, 08.03. · § 122 Abs. 2 Nr. 1 AO · Fällt er aufs Wochenende, rückt er auf Montag, 09.03. · § 108 Abs. 3 AO · Der frühere Zugang am Freitag ändert daran nichts. · Erst Montag?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Die Frist im Kalender · 04.03. · Aufgabe zur Post · 08.03. · 4. Tag: Sonntag · § 122 Abs. 2 Nr. 1 AO · 09.03. · Bekanntgabe Montag · § 108 Abs. 3 AO · 10.03. · Fristbeginn · § 187 Abs. 1 BGB · 09.04. · Fristende Donnerstag · § 188 Abs. 2 BGB"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Die Lösung · Der Einspruch vom 09.04.2026 ist rechtzeitig. · § 355 Abs. 1 S. 1 AO · Wer den Sonntag als Bekanntgabetag nimmt, landet beim 08.04. – einen Tag zu früh. · Gerettet!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Lösung: Einspruch rechtzeitig · Bekanntgabe 09.03., Fristende 09.04.2026 · 4. Tag zählen, · Wochenende schieben, · Monatsfrist rechnen, · Fristende prüfen. · Speichern für Klausur 1 · Hättest du auch geschoben? · Weiterwischen: § 108 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Beginn und Ende: BGB · auch beim 4. Tag! · Montag · Randnotiz: BFH IX R 68/98 · Werktagsregel gilt auch für die Bekanntgabe"
+        }
+      ]
     },
     "b2": {
-      "format": "spickzettel",
-      "fach": "est",
+      "format": "schema",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "themaId": "est-aufb-est-ks2-17-01",
-      "slug": "2026-10-21-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Erfasst werden Anteile an Kapitalgesellschaften im Privatvermögen, wenn der Veräußerer innerhalb der fünf Jahre vor dem Verkauf zu irgendeinem Zeitpunkt mit mindestens 1 % beteiligt war.",
-            "Der Gewinn gehört zu den gewerblichen Einkünften, die Anteile bleiben aber steuerlich Privatvermögen; Gewerbesteuer fällt nicht an und § 34 EStG ist ausgeschlossen."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Klären, ob Anteile an einer Kapitalgesellschaft im Sinne des § 17 Abs. 1 Satz 3 EStG vorliegen und diese zum Privatvermögen gehören."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Die höchste Beteiligungsquote in den fünf Jahren vor dem Verkauf ermitteln und mit der Schwelle von 1 % gegenüberstellen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Gewinn = Veräußerungspreis minus Veräußerungskosten minus Anschaffungskosten (§ 17 Abs. 2 EStG); davon sind 60 % steuerpflichtig (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG), ggf. gemindert um den Freibetrag nach § 17 Abs. 3 EStG. Unter 1 % gilt stattdessen § 20 Abs. 2 S. 1 Nr. 1 EStG."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Private GmbH-Anteile verkauft? Ab 1 % Beteiligung in den letzten fünf Jahren wird der Gewinn nach § 17 EStG gewerblich, mit Teileinkünfteverfahren, aber ohne Gewerbesteuer.",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-schema-1",
+      "caption": "Verdeckte Gewinnausschüttung sicher prüfen – das Schema in 4 Schritten.\n\n1. Vorteil: zugunsten eines Gesellschafters oder einer nahestehenden Person (R 8.5 Abs. 1 S. 3 KStR).\n2. Vermögensminderung oder verhinderte Vermögensmehrung mit Auswirkung auf den Unterschiedsbetrag, ohne Gewinnverteilungsbeschluss (R 8.5 Abs. 1 S. 1 KStR).\n3. Veranlassung durch das Gesellschaftsverhältnis: Fremdvergleich; beim beherrschenden Gesellschafter schon dann, wenn eine zivilrechtlich wirksame, klare und im Voraus getroffene Vereinbarung fehlt (R 8.5 Abs. 2 S. 1 KStR).\n4. Rechtsfolge: Die vGA mindert das Einkommen nicht, Korrektur außerhalb der Bilanz (§ 8 Abs. 3 S. 2 KStG). Beim Gesellschafter gehört sie zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nIm Beispiel: Miete 36.000 € statt angemessen 24.000 € → vGA 12.000 €; Einkommen 90.000 € + 12.000 € = 102.000 €. Bei Maren: 24.000 € Vermietungseinkünfte (§ 21 Abs. 1 S. 1 Nr. 1 EStG), 12.000 € Kapitalerträge.\n\nZum Schluss: § 8 Abs. 3 KStG und § 20 Abs. 1 Nr. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#einkommensteuer"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 17 Abs. 1 Satz 1 EStG",
-        "§ 17 Abs. 1 Satz 3 EStG",
-        "§ 17 Abs. 2 EStG",
-        "§ 17 Abs. 3 EStG",
-        "§ 2 Abs. 1 Nr. 2 EStG",
-        "§ 3 Nr. 40 c) EStG",
-        "§ 3c Abs. 2 EStG",
-        "R 17 Abs. 1 EStR",
-        "R 7.1 Abs. 3 Nr. 2 GewStR",
-        "§ 34 EStG",
-        "§ 20 Abs. 2 S. 1 Nr. 1 EStG",
-        "Themenpool: est-aufb-est-ks2-17-01"
+        "§ 8 Abs. 3 S. 2 KStG",
+        "R 8.5 Abs. 1, 2 KStR",
+        "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+        "§ 21 Abs. 1 S. 1 Nr. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-21-b2-est-aufb-est-ks2-17-01-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-21-b2",
+      "kurztitel": "Verdeckte Gewinnausschüttung",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · vGA sicher · prüfen · § 8 Abs. 3 S. 2 KStG · in 4 Schritten · + Markier-Guide § 8 KStG · Miete zu hoch · 12.000 € · im Jahr",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Das Schema · Wer profitiert? · R 8.5 Abs. 1 S. 3 KStR · Gesellschafter oder nahestehende Person · Vermögen gemindert? · R 8.5 Abs. 1 S. 1 KStR · ohne Gewinnverteilungsbeschluss · Gesellschaftlich veranlasst? · R 8.5 Abs. 2 KStR · Fremdvergleich, beherrschend: im Voraus vereinbart? · Bewerten, hinzurechnen · § 8 Abs. 3 S. 2 KStG · außerhalb der Bilanz · Am Ende: § 8 KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Fall · Maren hält 60 % der Lumen GmbH. · Sie vermietet der GmbH ihr Büro für 3.000 € im Monat. · Üblich wären 2.000 €. · Ist doch mein Büro!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "1 + 2 · Vorteil, Minderung · Den Vorteil hat Maren als Gesellschafterin. · Die GmbH zahlt 12.000 € im Jahr zu viel, ihr Gewinn sinkt. · R 8.5 Abs. 1 S. 1 KStR · Ein Gewinnverteilungsbeschluss liegt nicht vor. · Und jetzt?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "3 · Beherrschend! · Ein fremder Vermieter bekäme nur 2.000 €: Der Mehrbetrag ist gesellschaftlich veranlasst. · Maren beherrscht die GmbH: Fehlt eine klare Vereinbarung im Voraus, ist die ganze Miete vGA. · R 8.5 Abs. 2 S. 1 KStR · Die ganze Miete?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "4 · Bewerten, hinzurechnen · § 8 Abs. 3 S. 2 KStG · Gezahlte Miete · 36.000 € · – angemessene Miete · – 24.000 € · = vGA · 12.000 € · Jahresüberschuss · 90.000 € · = Einkommen · 102.000 € · Hinzurechnung außerhalb der Bilanz"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Und bei Maren? · Mieteinnahmen nur noch 24.000 €. · § 21 Abs. 1 S. 1 Nr. 1 EStG · Die 12.000 € sind Kapitalerträge. · § 20 Abs. 1 Nr. 1 S. 2 EStG · Andere Einkunftsart!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung: vGA 12.000 €, Einkommen 102.000 € · Bei Maren: 12.000 € Kapitalerträge statt Miete · Vorteil finden, · Minderung prüfen, · Fremdvergleich ziehen, · außerhalb hinzurechnen. · Speichern für Klausur 2 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 8 KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "vGA · außerbilanziell + · beim Gesellschafter · Randnotiz: R 8.5 KStR · Begriff und beherrschender Gesellschafter"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "umwst",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-ks-3-06",
-      "slug": "2026-10-21-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
-          "unter": "Umwandlungssteuerrecht",
-          "text": "Fünf Jahre Sperrfrist: Verkauf oder Aufgabe löst Gewerbesteuer aus.",
-          "norm": "§ 18 Abs. 3 UmwStG",
-          "icon": null,
-          "sprecher": "Welche Gewerbesteuerfalle droht nach der Umwandlung einer GmbH in eine Personengesellschaft? Wer den Betrieb innerhalb von fünf Jahren verkauft oder aufgibt, zahlt Gewerbesteuer auf den Gewinn.",
-          "marken": [
-            "Fünf-Jahres-Frist",
-            "§ 18 Abs. 3 UmwStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Übernehmer: Übernahmeergebnis gewerbesteuerfrei",
-          "text": null,
-          "norm": "§ 18 Abs. 2 UmwStG",
-          "icon": null,
-          "sprecher": "Beim Übernehmer wird ein Übernahmegewinn oder -verlust für die Gewerbesteuer nicht erfasst. Die eigentliche Falle kommt erst mit einem späteren Verkauf.",
-          "marken": [
-            "Übernahmeergebnis gewerbesteuerfrei"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Verkauf binnen fünf Jahren: Gewerbesteuer",
-          "text": null,
-          "norm": "§ 18 Abs. 3 UmwStG",
-          "icon": null,
-          "sprecher": "Wird der Betrieb, ein Teilbetrieb oder ein Mitunternehmeranteil innerhalb von fünf Jahren nach der Umwandlung veräußert oder aufgegeben, ist der Gewinn gewerbesteuerpflichtig. Das gilt auch für stille Reserven, die schon vorher in der Personengesellschaft steckten.",
-          "marken": [
-            "Exit binnen fünf Jahren"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Fünf Jahre nach der Umwandlung kein Exit ohne Gewerbesteuer, und für diesen Teil gibt es keine Ermäßigung nach § 35 EStG, so § 18 Abs. 3 S. 4 UmwStG.",
-          "sprecher": "Merke: Verkaufst du innerhalb von fünf Jahren nach der Umwandlung, fällt Gewerbesteuer an. Sie mindert deine Einkommensteuer auch nicht über § 35 EStG.",
-          "marken": [
-            "Keine Ermäßigung nach § 35 EStG"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Umwandlung in eine PersG: Wer innerhalb von fünf Jahren verkauft oder aufgibt, zahlt Gewerbesteuer auf den Gewinn, ohne Entlastung nach § 35 EStG (§ 18 Abs. 3 UmwStG).",
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-1-5",
+      "caption": "Halle an die Schwester-Personengesellschaft vermietet: Sonderbetriebsvermögen? Die Klausurfalle. 🏭\n\n▸ Grundsatz: Wirtschaftsgüter eines Mitunternehmers, die er der Gesellschaft überlässt, sind Sonderbetriebsvermögen; die Vergütungen gehören zu seinen gewerblichen Einkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG; R 4.2 Abs. 2 S. 2 EStR).\n▸ Vermietet aber eine Personengesellschaft entgeltlich an eine Schwester-Personengesellschaft und sind beide sachlich und personell verflochten, liegt eine mitunternehmerische Betriebsaufspaltung vor. Sie hat Vorrang: Das Wirtschaftsgut bleibt Betriebsvermögen der vermietenden Gesellschaft, die Mieterträge sind dort gewerblich (BFH vom 23.04.1996, VIII R 13/95; BMF vom 28.04.1998, BStBl I 1998 S. 583).\n▸ Ausnahme: Bei unentgeltlicher Überlassung ohne Gewinnerzielungsabsicht bleibt es beim Sonderbetriebsvermögen bei der nutzenden Gesellschaft (BFH vom 12.04.2018, IV R 5/15).\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#personengesellschaften"
       ],
-      "kurztitel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 7 UmwStG",
-        "§ 18 Abs. 3 UmwStG",
-        "§ 3 Abs. 2 UmwStG",
-        "§ 4 Abs. 6 UmwStG",
-        "§ 17 EStG",
-        "§ 7 GewStG",
-        "§ 35 EStG",
-        "§ 18 Abs. 2 UmwStG",
-        "§ 9 UmwStG",
-        "§ 5 Abs. 2 UmwStG",
-        "§ 18 Abs. 3 S. 4 UmwStG",
-        "Themenpool: umwst-aufb-umw-ks-3-06"
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "R 4.2 Abs. 2 S. 2 EStR",
+        "BFH vom 23.04.1996, VIII R 13/95",
+        "BMF vom 28.04.1998, BStBl I 1998 S. 583",
+        "BFH vom 12.04.2018, IV R 5/15"
       ],
-      "coverRegie": {
-        "thema": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Zwei Fabriken sind über ein dickes Rohr verbunden; eine Figur prüft, ob der Anschluss trägt, bevor Werte hinüberfließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-21-b3-umwst-aufb-umw-ks-3-06-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-21-b3",
+      "kurztitel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Schwester-KG: Sonder-BV?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Fall"
+        },
+        {
+          "art": "schritt",
+          "titel": "Betriebsaufspaltung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Rangfolge"
+        }
+      ],
+      "sprecher": [
+        "Halle an die Schwester-KG vermietet. Sonderbetriebsvermögen bei der KG? Nein!",
+        "Eine GbR vermietet eine Halle an eine KG. An beiden sind dieselben Gesellschafter beteiligt, die Miete ist marktüblich.",
+        "Sachliche und personelle Verflechtung: mitunternehmerische Betriebsaufspaltung. Die GbR wird gewerblich, die Halle bleibt ihr Betriebsvermögen.",
+        "Das geht dem Sonderbetriebsvermögen vor. Ausnahme: Die Halle wird unentgeltlich überlassen.",
+        "Merke: Die Schwester schlägt das Sonderbetriebsvermögen."
+      ],
+      "dauerS": 37.03,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
@@ -434,27 +326,25 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-35",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-35"
+      "themaId": "bilanz-quiz-k3-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "Pauschalwert-",
+        "berichtigung: Basis?",
+        "Forderungen brutto",
+        "Forderungen netto",
+        "Jahresumsatz",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Lösen Korrekturen nach § 8b KStG latente Steuern aus?",
-      "titel": "Lösen Korrekturen nach § 8b KStG latente Steuern aus?",
-      "optionen": [
-        "ja, aktive",
-        "ja, passive",
-        "nein, permanente Differenz"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
@@ -462,244 +352,210 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-35",
-      "quellen": [
-        "§ 274 HGB",
-        "Themenpool: bilanz-quiz-k3-35"
+      "themaId": "bilanz-quiz-k3-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "B: netto",
+        "Forderungen brutto",
+        "Forderungen netto",
+        "Jahresumsatz",
+        "Die Umsatzsteuer fällt nicht aus: Bei Uneinbringlichkeit wird sie berichtigt.",
+        "§ 17 Abs. 2 Nr. 1 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "nein, permanente Differenz",
-      "optionen": [
-        "ja, aktive",
-        "ja, passive",
-        "nein, permanente Differenz"
-      ],
-      "richtig": 2,
-      "text": "Die Korrekturen erfolgen außerbilanziell und kehren sich nie um. Latente Steuern nach § 274 HGB knüpfen dagegen an Differenzen zwischen Handels- und Steuerbilanzansätzen an, die sich später abbauen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-324",
-      "quellen": [
-        "§ 351 Abs. 1 AO",
-        "§ 367 Abs. 2 AO",
-        "§§ 17 ff. AO",
-        "§ 91 AO",
-        "§ 121 AO",
-        "§ 157 Abs. 1 S. 3 AO",
-        "§ 350 AO",
-        "Themenpool: ao-modul-ao-324"
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-28",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Knapp über",
+        "der Grenze?",
+        "§ 19 Abs. 3 ErbStG",
+        "Steuersatz bis 30 %: Mehrsteuer höchstens die Hälfte des Überschusses.",
+        "§ 19 Abs. 3 Buchst. a ErbStG",
+        "Über 30 %: höchstens drei Viertel.",
+        "§ 19 Abs. 3 Buchst. b ErbStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 351 Abs. 1 AO",
-      "titel": "Begründetheit des Einspruchs: Rechtmäßigkeit, Rechtsverletzung, § 351 AO und Gesamtaufrollung",
-      "text": "Begründet heißt: Der Bescheid ist rechtswidrig und verletzt dich in deinen Rechten. Ändert er einen unanfechtbaren Bescheid, greifst du nur die Änderung an, außer eine Änderungsnorm trägt mehr (§ 351 Abs. 1 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-307",
-      "quellen": [
-        "§ 122 Abs. 1 AO",
-        "§ 122 Abs. 7 AO",
-        "§ 122a AO",
-        "§ 80 AO",
-        "§ 183 AO",
-        "§ 183a AO",
-        "§ 8 VwZG",
-        "§ 122 AO",
-        "§ 124 Abs. 1 AO",
-        "Themenpool: ao-modul-ao-307"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Kein Ergebnis?",
+        "Trotzdem punkten",
+        "Rechenweg mit Norm hinschreiben.",
+        "Nach einem Fehler folgerichtig weiterrechnen.",
+        "Eigene Annahmen kurz begründen."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Ordnungsgemäße Bekanntgabe: Zugang im Machtbereich des richtigen Empfängers",
-      "text": "Wirksam wird der Bescheid erst, wenn er so in den Machtbereich des richtigen Empfängers gelangt, dass dieser ihn zur Kenntnis nehmen kann (§§ 122 Abs. 1, 124 Abs. 1 AO). Sonst bleibt er unwirksam.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "merksatz",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-t1-7",
-      "quellen": [
-        "§ 10 Abs. 5 ErbStG",
-        "§ 10 Abs. 6 ErbStG",
-        "§ 10 Abs. 1 ErbStG",
-        "§ 13 Abs. 1 ErbStG",
-        "§ 10 Abs. 3 ErbStG",
-        "§ 13 ErbStG",
-        "§ 5 ErbStG",
-        "§ 16 ErbStG",
-        "§ 17 ErbStG",
-        "§ 10 Abs. 6a ErbStG",
-        "Themenpool: erbst-aufb-erbst-t1-7"
+      "art": "tipp",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-06",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Klausurtipp",
+        "Gewerbeverlust:",
+        "nur vorwärts",
+        "Kein Rücktrag, nur Vortrag.",
+        "§ 10a S. 1 GewStG",
+        "Über 1 Mio. €: nur zu 60 % kürzen.",
+        "§ 10a S. 2 GewStG",
+        "Derselbe Betrieb, derselbe Unternehmer."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Was mindert die Bereicherung? Nachlassverbindlichkeiten nach § 10",
-      "text": "Abziehbar ist, was den Erwerber wirklich belastet (§ 10 Abs. 5 ErbStG). Schulden zu steuerfreiem Vermögen entfallen; bei nur teilweise befreitem Vermögen sind sie anteilig abziehbar (§ 10 Abs. 6, 6a ErbStG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-503",
-      "quellen": [
-        "§ 10 Abs. 1 S. 1–2 ErbStG",
-        "R E 7.4 Abs. 1 S. 1–2",
-        "§ 12 ErbStG",
-        "§ 10 Abs. 6 ErbStG",
-        "§ 10 Abs. 6a ErbStG",
-        "Themenpool: erbst-modul-erbst-503"
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-49",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Sperrfrist:",
+        "jährlich nachweisen",
+        "Bis 31. Mai",
+        "Zurechnung belegen –",
+        "sonst gilt",
+        "verkauft.",
+        "§ 22 Abs. 3 UmwStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Bereicherung, gemischte Schenkung und Schenkung unter Auflage",
-      "text": "Gemischte Schenkung oder Schenkung unter Auflage: Bereicherung = Steuerwert der Zuwendung minus Gegenleistung bzw. Auflage (R E 7.4 Abs. 1 ErbStR). Hängt die Last an teilbefreitem Vermögen: nur anteilig abziehen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2…",
-      "text": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Einspruch zu spät?",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "est",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich",
-      "text": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "vGA sicher prüfen",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "umwst",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Welche Gewerbesteuerfalle droht nach der Umwandlung in eine PersG?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Personengesellschaften",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "Halle an Schwester-KG",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:52:39.834Z",
+    "erzeugtAm": "2026-10-03T04:43:05Z",
     "pfad": "vorproduktion/2026-10-21/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -711,5 +567,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
