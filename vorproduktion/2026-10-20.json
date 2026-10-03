@@ -176,7 +176,7 @@
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Leasingnehmer? · Grundmietzeit vs. ND · Kaufoption! · Randnotiz: BMF vom 19.04.1971 · 40/90-Regel und Kaufoption"
+          "text": "§ 39 AO Zurechnung · Leasingnehmer? · Grundmietzeit vs. ND · Kaufoption! · Randnotiz: BMF vom 19.04.1971 · 40/90-Regel und Kaufoption"
         }
       ]
     },
@@ -250,7 +250,7 @@
         {
           "art": "text",
           "titel": "Erbschaftsteuer",
-          "text": "wer? · nur Erbfall! · Schenkung · Freibeträge: § 16 Abs. 1 ErbStG · Übrige Klasse I 100.000 €, Klasse II 20.000 €"
+          "text": "§ 15 ErbStG Steuerklassen (Auszug) · wer? · nur Erbfall! · Schenkung · Freibeträge: § 16 Abs. 1 ErbStG · Übrige Klasse I 100.000 €, Klasse II 20.000 €"
         }
       ]
     },
@@ -542,7 +542,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:47:43Z",
+    "erzeugtAm": "2026-10-03T10:56:29Z",
     "pfad": "vorproduktion/2026-10-20/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
