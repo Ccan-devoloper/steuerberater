@@ -109,13 +109,13 @@
        "MiLoV5, BGBl. 2025 I Nr. 268"
       ],
       [
-       "Die Minijob-Grenze folgt automatisch: 633 € im Monat.",
+       "633 € im Monat: Die Minijob-Grenze folgt automatisch.",
        "ok",
        "Bold",
        "§ 8 Abs. 1a SGB IV"
       ],
       [
-       "Pauschsteuer für Minijobs: im Gesetz weiter 2 %.",
+       "2 % Pauschsteuer für Minijobs: so steht es weiter im Gesetz.",
        "warn",
        "Regular",
        "§ 40a Abs. 2 EStG"
@@ -136,7 +136,7 @@
        "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG"
       ],
       [
-       "Restaurant: Speisen 7 %, Getränke weiter 19 %.",
+       "Restaurant: 7 % auf Speisen, 19 % auf Getränke.",
        "ok",
        "Regular",
        "§ 12 Abs. 2 Nr. 15 UStG"
@@ -233,7 +233,10 @@
       "Mündliche: Entwurf und geltendes Recht trennen",
       "GELB",
       null
-     ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Abwarten!"
     },
     {
      "typ": "merke",
@@ -535,9 +538,10 @@
        "GRUEN"
       ]
      ],
-     "figur": "A:froh",
-     "x": 790,
-     "blase": "Fester Zins: 5,5 %"
+     "extra": [
+      "Zinssatz fest im Gesetz: 5,5 %",
+      "GELB"
+     ]
     },
     {
      "typ": "vergleich",
@@ -596,7 +600,10 @@
        "Bold",
        "§ 12 Abs. 1 S. 2 BewG"
       ]
-     ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Selten – aber prüfen."
     },
     {
      "typ": "inhalt",

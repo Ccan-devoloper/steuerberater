@@ -869,6 +869,12 @@
      "titel": "Pauschbetrag",
      "elemente": [
       {
+       "typ": "pille",
+       "text": "Beerdigung und Abwicklung",
+       "wort": "Beerdigung",
+       "farbe": "WEISS"
+      },
+      {
        "typ": "zahl",
        "text": "15.000 €",
        "wort": "fünfzehntausend",

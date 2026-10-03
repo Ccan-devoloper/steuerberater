@@ -2,177 +2,1125 @@
  "datum": "2026-12-26",
  "beitraege": [
   {
-   "slot": "b1", "zeit": "08:30", "format": "klausurtechnik", "klausur": 1, "fach": "erbst", "fachLabel": "Erbschaftsteuer",
-   "themaId": "klausurtechnik-k1-erbst-2026-52", "themaTitel": "Der Erbschaftsteuer-Teil in Klausur 1: Zeit, Aufbau, Darstellung",
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "klausurtechnik-k1-erbst-2026-52",
+   "themaTitel": "Der Erbschaftsteuer-Teil in Klausur 1: Zeit, Aufbau, Darstellung",
    "figuren": {
-    "A": {"name": "Hedda", "kopf": "Long Curly", "haut": "#B97A56", "haar": "#3B2A20", "oberteil": "#F4C27A", "brille": "Glasses 2", "bueste": "Sweater"}
+    "A": {
+     "name": "Hedda",
+     "kopf": "Long Curly",
+     "haut": "#B97A56",
+     "haar": "#3B2A20",
+     "oberteil": "#F4C27A",
+     "brille": "Glasses 2",
+     "bueste": "Sweater"
+    }
    },
    "folien": [
-    {"typ": "cover", "badge": "Klausurtechnik", "zeilen": ["ErbSt-Teil", "im Griff"], "unter": "für Klausur 1", "teaser": "+ Markier-Guide § 10 ErbStG",
-     "motiv": {"typ": "icon", "name": "tabler:clock-hour-4", "farbe": "GELB"}, "figur": "A:denkt"},
-    {"typ": "schritte", "titel": "Vier Regeln", "schritte": [
-      ["Minuten je Punkt", "", "Zeit vorab verteilen"],
-      ["Je Erwerber rechnen", "§ 10 Abs. 1 ErbStG", "eine Staffel pro Person"],
-      ["Norm zuerst", "", "dann das Ergebnis in einem Satz"],
-      ["Annahmen kennzeichnen", "", "wenn ein Wert fehlt"]],
-     "teaser": "Am Ende: § 10 ErbStG markiert"},
-    {"typ": "inhalt", "titel": "1 · Zeit verteilen", "punkte": [
-      ["Bearbeitungszeit durch Gesamtpunkte teilen: So viele Minuten hat jeder Punkt.", "ok", "Regular", null],
-      ["Beispiel: 360 Minuten, 100 Punkte, ErbSt-Teil 20 Punkte: rund 72 Minuten.", "ok", "Bold", null],
-      ["Endzeit des Teils notieren und einhalten.", "warn", "Regular", null]],
-     "figur": "A:erklaert", "x": 790, "blase": "Ich bin Hedda."},
-    {"typ": "inhalt", "titel": "2 · Je Erwerber eine Staffel", "punkte": [
-      ["Mehrere Erwerber: jeden getrennt durchrechnen.", "ok", "Regular", null],
-      ["Staffel: Anfall, Schulden, Befreiungen, Freibetrag, abgerundeter Erwerb, Satz.", "ok", "Bold", "§ 10 Abs. 1 ErbStG"],
-      ["Das spart Text und macht Punkte sichtbar.", "ok", "Regular", null]]},
-    {"typ": "inhalt", "titel": "3 · Norm zuerst", "punkte": [
-      ["Jeder Schritt beginnt mit der Norm, dann folgt das Ergebnis.", "ok", "Regular", null],
-      ["Keine Lehrbuchsätze: kurz unter das Gesetz fassen.", "ok", "Regular", null],
-      ["Zwischenergebnisse deutlich hervorheben.", "ok", "Bold", null]],
-     "figur": "A:redet", "x": 290, "blase": "Kurz und prüfbar."},
-    {"typ": "inhalt", "falle": true, "titel": "4 · Zeitfalle Bewertung", "punkte": [
-      ["Grundstück oder Betrieb bewerten frisst Zeit: nur so tief, wie die Aufgabe fragt.", "warn", "Regular", null],
-      ["Fehlt ein Wert: Annahme treffen, kennzeichnen, weiterrechnen.", "ok", "Bold", null]],
-     "figur": "A:sorge", "x": 790, "blase": "Nicht verzetteln."},
-    {"typ": "merke", "oben": ["Erst Minuten, dann Staffel je Erwerber", "Norm, Ergebnis, weiter", "GELB"],
-     "zeilen": [[["Zeit", "a"], [" zuerst,", null]], [["Erwerber", "b"], [" einzeln,", null]], [["Staffel", "c"], [" statt Text.", null]]],
-     "speichern": "Speichern für Klausur 1", "frage": "Wie viele Minuten gibst du der ErbSt?", "teaser": "Weiterwischen: § 10 ErbStG markiert"},
-    {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 10 Abs. 1 ErbStG (Auszug)", "absaetze": [
-      ["(1)", [["Als steuerpflichtiger Erwerb gilt", null], ["die Bereicherung des Erwerbers,", "g1"], ["soweit sie nicht steuerfrei ist", "b1"], ["(§§ 5, 13, 13a, 13c, 13d, 16, 17 und 18). […]", null], ["Der steuerpflichtige Erwerb wird auf volle 100 Euro nach unten abgerundet.", "r1"], ["[…]", null]]]],
-     "notizen": [["Kern", "g1"], ["Befreiungen", "b1"], ["Abrunden!", "r1"]],
-     "randnotiz": ["Dann: § 15, § 19 ErbStG", "Steuerklasse und Satz zum Schluss"]}
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "zeilen": [
+      "ErbSt-Teil",
+      "im Griff"
+     ],
+     "unter": "für Klausur 1",
+     "teaser": "+ Markier-Guide § 10 ErbStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:clock-hour-4",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Vier Regeln",
+     "schritte": [
+      [
+       "Minuten je Punkt",
+       "",
+       "Zeit vorab verteilen"
+      ],
+      [
+       "Je Erwerber rechnen",
+       "§ 10 Abs. 1 ErbStG",
+       "eine Staffel pro Person"
+      ],
+      [
+       "Norm zuerst",
+       "",
+       "dann das Ergebnis in einem Satz"
+      ],
+      [
+       "Annahmen kennzeichnen",
+       "",
+       "wenn ein Wert fehlt"
+      ]
+     ],
+     "teaser": "Am Ende: § 10 ErbStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Zeit verteilen",
+     "punkte": [
+      [
+       "Bearbeitungszeit durch Gesamtpunkte teilen: So viele Minuten hat jeder Punkt.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Beispiel: 360 Minuten, 100 Punkte, davon 20 für die ErbSt: rund 72 Minuten.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Endzeit des Teils notieren und einhalten.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Hedda."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Je Erwerber eine Staffel",
+     "punkte": [
+      [
+       "Mehrere Erwerber: jeden getrennt durchrechnen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Staffel: Anfall, Schulden, Befreiungen, Freibetrag, abgerundeter Erwerb, Satz.",
+       "ok",
+       "Bold",
+       "§ 10 Abs. 1 ErbStG"
+      ],
+      [
+       "Das spart Text und macht Punkte sichtbar.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Norm zuerst",
+     "punkte": [
+      [
+       "Jeder Schritt beginnt mit der Norm, dann folgt das Ergebnis.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Keine Lehrbuchsätze: kurz unter das Gesetz fassen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zwischenergebnisse deutlich hervorheben.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Kurz und prüfbar."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "4 · Zeitfalle Bewertung",
+     "punkte": [
+      [
+       "Grundstück oder Betrieb bewerten frisst Zeit: nur so tief, wie die Aufgabe fragt.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Fehlt ein Wert: Annahme treffen, kennzeichnen, weiterrechnen.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Nicht verzetteln."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Erst Minuten, dann Staffel je Erwerber",
+      "Norm, Ergebnis, weiter",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Zeit",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Erwerber",
+        "b"
+       ],
+       [
+        " einzeln,",
+        null
+       ]
+      ],
+      [
+       [
+        "Staffel",
+        "c"
+       ],
+       [
+        " statt Text.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wie viele Minuten gibst du der ErbSt?",
+     "teaser": "Weiterwischen: § 10 ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 10 Abs. 1 ErbStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Als steuerpflichtiger Erwerb gilt",
+         null
+        ],
+        [
+         "die Bereicherung des Erwerbers,",
+         "g1"
+        ],
+        [
+         "soweit sie nicht steuerfrei ist",
+         "b1"
+        ],
+        [
+         "(§§ 5, 13, 13a, 13c, 13d, 16, 17 und 18). […]",
+         null
+        ],
+        [
+         "Der steuerpflichtige Erwerb wird auf volle 100 Euro nach unten abgerundet.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Kern",
+       "g1"
+      ],
+      [
+       "Befreiungen",
+       "b1"
+      ],
+      [
+       "Abrunden!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Dann: § 15, § 19 ErbStG",
+      "Steuerklasse und Satz zum Schluss"
+     ]
+    }
    ],
    "caption": "Klausurtechnik für den Erbschaftsteuer-Teil in Klausur 1: Zeit, Aufbau, Darstellung.\n\n1. Zeit: Bearbeitungszeit durch Gesamtpunkte teilen und die Minuten für den ErbSt-Teil vorab festlegen. Die Bearbeitungszeit beträgt je Aufsichtsarbeit vier bis sechs Stunden (§ 18 Abs. 1 S. 3 DVStB).\n2. Aufbau: je Erwerber eine eigene Staffel vom Vermögensanfall bis zum abgerundeten steuerpflichtigen Erwerb (§ 10 Abs. 1 ErbStG), danach Steuerklasse und Steuersatz (§§ 15, 19 ErbStG).\n3. Darstellung: Norm, kurze Subsumtion, Ergebnis.\n4. Zeitfalle Bewertung: nur so tief wie gefragt; fehlende Werte als Annahme kennzeichnen.\n\nZum Schluss: § 10 Abs. 1 ErbStG zum Markieren. Speichern für Klausur 1 📌",
-   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#erbschaftsteuer"],
-   "quellen": ["§ 10 Abs. 1 ErbStG", "§§ 15, 19 ErbStG", "§ 18 Abs. 1 S. 3 DVStB"]
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 10 Abs. 1 ErbStG",
+    "§§ 15, 19 ErbStG",
+    "§ 18 Abs. 1 S. 3 DVStB"
+   ]
   },
   {
-   "slot": "b2", "zeit": "13:30", "format": "rechenweg", "klausur": 2, "fach": "kst", "fachLabel": "Körperschaftsteuer",
-   "themaId": "kst-modul-kst-3", "themaTitel": "Nichtabziehbare Aufwendungen und Spenden",
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-3",
+   "themaTitel": "Nichtabziehbare Aufwendungen und Spenden",
    "figuren": {
-    "A": {"name": "Ilka", "kopf": "Medium Bangs", "haut": "#F2D3BD", "haar": "#8B4A2B", "oberteil": "#9AD48F", "bueste": "Blazer Black Tee"}
+    "A": {
+     "name": "Ilka",
+     "kopf": "Medium Bangs",
+     "haut": "#F2D3BD",
+     "haar": "#8B4A2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Blazer Black Tee"
+    }
    },
    "folien": [
-    {"typ": "cover", "badge": "Rechenweg", "zeilen": ["Spenden", "der GmbH"], "norm": "§ 9 Abs. 1 Nr. 2 KStG", "unter": "mit Zahlen", "teaser": "+ Markier-Guide § 9 KStG",
-     "motiv": {"typ": "zahlblock", "zeilen": [["Höchstbetrag", "Bold", 44], ["20 %", "ExtraBold", 96], ["vom Einkommen", "ExtraBold", 46]]}, "figur": "A:denkt"},
-    {"typ": "inhalt", "titel": "Der Fall", "punkte": [
-      ["Jahresüberschuss der GmbH: 150.000 €.", null, "Regular", null],
-      ["Als Aufwand gebucht: Körperschaftsteuer und Soli 30.000 €, Aufsichtsratsvergütung 20.000 €, Spenden an einen gemeinnützigen Verein 25.000 €.", null, "Regular", null],
-      ["Wie hoch ist das Einkommen?", "warn", "Bold", null]],
-     "figur": "A:redet", "x": 790, "blase": "Ich bin Ilka, Geschäftsführerin."},
-    {"typ": "inhalt", "titel": "Was zurück muss", "punkte": [
-      ["Körperschaftsteuer und Soli: nicht abziehbar.", "nein", "Regular", "§ 10 Nr. 2 KStG"],
-      ["Aufsichtsratsvergütung: zur Hälfte nicht abziehbar.", "warn", "Regular", "§ 10 Nr. 4 KStG"],
-      ["Spenden erst voll hinzurechnen, dann mit Höchstbetrag abziehen.", "ok", "Bold", "§ 9 Abs. 2 S. 1 KStG"]],
-     "figur": "A:erklaert", "x": 290, "blase": "Drei Korrekturen."},
-    {"typ": "rechnung", "titel": "Einkommen vor Spenden", "normen": ["§ 10 Nr. 2, 4 KStG"], "zeilen": [
-      ["Jahresüberschuss", "150.000 €", "Regular", null],
-      ["+ Körperschaftsteuer, Soli", "30.000 €", "Regular", null],
-      ["+ Hälfte Aufsichtsrat", "10.000 €", "Regular", null],
-      ["+ Spenden", "25.000 €", "Regular", null],
-      ["Einkommen vor Spenden", "215.000 €", "ExtraBold", "GELB"]]},
-    {"typ": "rechnung", "titel": "Spendenabzug", "normen": ["§ 9 Abs. 1 Nr. 2 S. 1 Buchst. a KStG"], "zeilen": [
-      ["Höchstbetrag 20 %", "43.000 €", "Regular", null],
-      ["Spenden voll abziehbar", "– 25.000 €", "Regular", null],
-      ["Einkommen", "190.000 €", "ExtraBold", "GELB"]],
-     "figur": "A:froh", "x": 790, "blase": "Alles abziehbar."},
-    {"typ": "inhalt", "falle": true, "titel": "Falsche Basis", "punkte": [
-      ["Die 20 % gelten vom Einkommen vor Spenden und vor Verlustabzug.", "warn", "Bold", "§ 9 Abs. 2 S. 1 KStG"],
-      ["Nicht vom Jahresüberschuss rechnen: Das verschenkt Abzug.", "nein", "Regular", null],
-      ["Alternative Grenze: 4 ‰ von Umsätzen plus Löhnen.", "ok", "Regular", "§ 9 Abs. 1 Nr. 2 S. 1 Buchst. b KStG"]]},
-    {"typ": "inhalt", "titel": "Jetzt du", "punkte": [
-      ["Variante: Die GmbH spendet 50.000 € statt 25.000 €. Alles andere bleibt.", null, "Regular", null],
-      ["Wie hoch sind Einkommen und Spendenvortrag?", "warn", "Bold", null]],
-     "figur": "A:denkt", "x": 290, "blase": "Rechnest du mit?"},
-    {"typ": "rechnung", "titel": "Lösung", "normen": ["§ 9 Abs. 1 Nr. 2 S. 1, 9, 10 KStG"], "zeilen": [
-      ["Einkommen vor Spenden", "240.000 €", "Regular", null],
-      ["Abzug höchstens 20 %", "– 48.000 €", "Regular", null],
-      ["Einkommen", "192.000 €", "ExtraBold", "GELB"],
-      ["Vortrag ins Folgejahr", "2.000 €", "ExtraBold", "HELL"]],
-     "figur": "A:erklaert", "x": 790, "blase": "Rest kommt später."},
-    {"typ": "merke", "oben": ["Einkommen 190.000 €", "Variante: 192.000 € und 2.000 € Vortrag", "GELB"],
-     "zeilen": [[["Steuern", "a"], [" zurück,", null]], [["Aufsichtsrat", "b"], [" zur Hälfte,", null]], [["Spenden", "c"], [" bis 20 %.", null]]],
-     "speichern": "Speichern für Klausur 2", "frage": "Von welcher Basis rechnest du die 20 %?", "teaser": "Weiterwischen: § 9 KStG markiert"},
-    {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 9 KStG (Auszug)", "absaetze": [
-      ["(1)", [["Abziehbar sind auch: […] 2. vorbehaltlich des § 8 Absatz 3", null], ["Zuwendungen (Spenden und Mitgliedsbeiträge) zur Förderung steuerbegünstigter Zwecke", "g1"], ["im Sinne der §§ 52 bis 54 der Abgabenordnung bis zur Höhe von insgesamt a)", null], ["20 Prozent des Einkommens", "r1"], ["oder b) 4 Promille der Summe der gesamten Umsätze und der im Kalenderjahr aufgewendeten Löhne und Gehälter. […]", null]]],
-      ["(2)", [["Als Einkommen im Sinne dieser Vorschrift gilt das Einkommen", null], ["vor Abzug der in Absatz 1 Nr. 2 bezeichneten Zuwendungen und vor dem Verlustabzug", "b1"], ["nach § 10d des Einkommensteuergesetzes. […]", null]]]],
-     "notizen": [["Was?", "g1"], ["Grenze", "r1"], ["Basis!", "b1"]],
-     "randnotiz": ["Daneben: § 10 KStG", "Steuern, Hälfte Aufsichtsrat, Geldstrafen"]}
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Spenden",
+      "der GmbH"
+     ],
+     "norm": "§ 9 Abs. 1 Nr. 2 KStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 9 KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Höchstbetrag",
+        "Bold",
+        44
+       ],
+       [
+        "20 %",
+        "ExtraBold",
+        96
+       ],
+       [
+        "vom Einkommen",
+        "ExtraBold",
+        46
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Jahresüberschuss der GmbH: 150.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Als Aufwand gebucht: Körperschaftsteuer und Soli 30.000 €, Aufsichtsratsvergütung 20.000 €, Spenden an einen gemeinnützigen Verein 25.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist das Einkommen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Ilka, Geschäftsführerin."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was zurück muss",
+     "punkte": [
+      [
+       "Körperschaftsteuer und Soli: nicht abziehbar.",
+       "nein",
+       "Regular",
+       "§ 10 Nr. 2 KStG"
+      ],
+      [
+       "Aufsichtsratsvergütung: zur Hälfte nicht abziehbar.",
+       "warn",
+       "Regular",
+       "§ 10 Nr. 4 KStG"
+      ],
+      [
+       "Spenden erst voll hinzurechnen, dann mit Höchstbetrag abziehen.",
+       "ok",
+       "Bold",
+       "§ 9 Abs. 2 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Drei Korrekturen."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Einkommen vor Spenden",
+     "normen": [
+      "§ 10 Nr. 2, 4 KStG"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "150.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Körperschaftsteuer, Soli",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Hälfte Aufsichtsrat",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Spenden",
+       "25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkommen vor Spenden",
+       "215.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Spendenabzug",
+     "normen": [
+      "§ 9 Abs. 1 Nr. 2 S. 1 Buchst. a KStG"
+     ],
+     "zeilen": [
+      [
+       "Höchstbetrag 20 %",
+       "43.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Spenden voll abziehbar",
+       "– 25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkommen",
+       "190.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Alles abziehbar."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Falsche Basis",
+     "punkte": [
+      [
+       "Die 20 % gelten vom Einkommen vor Spenden und vor Verlustabzug.",
+       "warn",
+       "Bold",
+       "§ 9 Abs. 2 S. 1 KStG"
+      ],
+      [
+       "Nicht vom Jahresüberschuss rechnen: Das verschenkt Abzug.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Alternative Grenze: 4 ‰ von Umsätzen plus Löhnen.",
+       "ok",
+       "Regular",
+       "§ 9 Abs. 1 Nr. 2 S. 1 Buchst. b KStG"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die GmbH spendet 50.000 € statt 25.000 €. Alles andere bleibt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch sind Einkommen und Spendenvortrag?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 9 Abs. 1 Nr. 2 S. 1, 9, 10 KStG"
+     ],
+     "zeilen": [
+      [
+       "Einkommen vor Spenden",
+       "240.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abzug höchstens 20 %",
+       "– 48.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkommen",
+       "192.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Vortrag ins Folgejahr",
+       "2.000 €",
+       "ExtraBold",
+       "HELL"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Rest kommt später."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Einkommen 190.000 €",
+      "Variante: 192.000 € und 2.000 € Vortrag",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Steuern",
+        "a"
+       ],
+       [
+        " zurück,",
+        null
+       ]
+      ],
+      [
+       [
+        "Aufsichtsrat",
+        "b"
+       ],
+       [
+        " zur Hälfte,",
+        null
+       ]
+      ],
+      [
+       [
+        "Spenden",
+        "c"
+       ],
+       [
+        " bis 20 %.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Von welcher Basis rechnest du die 20 %?",
+     "teaser": "Weiterwischen: § 9 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 9 KStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Abziehbar sind auch: […] 2. vorbehaltlich des § 8 Absatz 3",
+         null
+        ],
+        [
+         "Zuwendungen (Spenden und Mitgliedsbeiträge) zur Förderung steuerbegünstigter Zwecke",
+         "g1"
+        ],
+        [
+         "im Sinne der §§ 52 bis 54 der Abgabenordnung bis zur Höhe von insgesamt a)",
+         null
+        ],
+        [
+         "20 Prozent des Einkommens",
+         "r1"
+        ],
+        [
+         "oder b) 4 Promille der Summe der gesamten Umsätze und der im Kalenderjahr aufgewendeten Löhne und Gehälter. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Als Einkommen im Sinne dieser Vorschrift gilt das Einkommen",
+         null
+        ],
+        [
+         "vor Abzug der in Absatz 1 Nr. 2 bezeichneten Zuwendungen und vor dem Verlustabzug",
+         "b1"
+        ],
+        [
+         "nach § 10d des Einkommensteuergesetzes. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Was?",
+       "g1"
+      ],
+      [
+       "Grenze",
+       "r1"
+      ],
+      [
+       "Basis!",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 10 KStG",
+      "Steuern, Hälfte Aufsichtsrat, Geldstrafen"
+     ]
+    }
    ],
    "caption": "Spenden und nichtabziehbare Aufwendungen der GmbH: der Rechenweg für Klausur 2.\n\n▸ Nicht abziehbar: Steuern vom Einkommen samt Soli (§ 10 Nr. 2 KStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Spenden für steuerbegünstigte Zwecke sind abziehbar bis 20 % des Einkommens oder 4 ‰ der Summe aus Umsätzen und Löhnen (§ 9 Abs. 1 Nr. 2 S. 1 KStG).\n▸ Maßgeblich ist das Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 2 S. 1 KStG).\n▸ Was den Höchstbetrag übersteigt, wird in Folgejahren abgezogen und gesondert festgestellt (§ 9 Abs. 1 Nr. 2 S. 9, 10 KStG).\n\nRechnung: 150.000 € + 30.000 € + 10.000 € + 25.000 € = 215.000 €; Höchstbetrag 43.000 €; Einkommen 190.000 €. Variante mit 50.000 € Spenden: 240.000 € – 48.000 € = 192.000 €, Vortrag 2.000 €.\n\nZum Schluss: § 9 KStG zum Markieren. Speichern für Klausur 2 📌",
-   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#körperschaftsteuer"],
-   "quellen": ["§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG", "§ 10 Nr. 2, 4 KStG"]
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG",
+    "§ 10 Nr. 2, 4 KStG"
+   ]
   },
   {
-   "slot": "b3", "zeit": "19:00", "format": "reel", "reelTyp": "gegensatz", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften",
-   "themaId": "persg-aufb-persg-melzer-2-1", "themaTitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
-   "figuren": {"A": {"name": "Mateo", "kopf": "Flat Top", "haut": "#A8714D", "haar": "#1E1E24", "oberteil": "#F4A3B5", "bueste": "Tee 1"}},
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-1",
+   "themaTitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
+   "figuren": {
+    "A": {
+     "name": "Mateo",
+     "kopf": "Flat Top",
+     "haut": "#A8714D",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 1"
+    }
+   },
    "sprecher": [
-    {"id": "hook", "text": "Eine GmbH kauft sich für hunderttausend Euro in eine KG ein. Handelsbilanz: hunderttausend. Steuerbilanz: so viel, wie das Kapitalkonto bei der KG zeigt."},
-    {"id": "s1", "text": "Im Handelsrecht ist die Beteiligung ein Vermögensgegenstand, angesetzt mit den Anschaffungskosten."},
-    {"id": "s2", "text": "Steuerlich ist sie kein eigenes Wirtschaftsgut. Sie spiegelt das Kapital bei der KG, Gewinnanteile kommen über die Feststellung."},
-    {"id": "s3", "text": "Eine Teilwertabschreibung gibt es darauf nicht. Verluste wirken nur über den Verlustanteil."},
-    {"id": "cta", "text": "Merke: Handelsrecht Anschaffungskosten, Steuerrecht Spiegelbild."}
+    {
+     "id": "hook",
+     "text": "Eine GmbH kauft sich für hunderttausend Euro in eine KG ein. Handelsbilanz: hunderttausend. Steuerbilanz: so viel wie das Kapitalkonto."
+    },
+    {
+     "id": "s1",
+     "text": "Im Handelsrecht ist die Beteiligung ein Vermögensgegenstand, angesetzt mit den Anschaffungskosten."
+    },
+    {
+     "id": "s2",
+     "text": "Steuerlich ist sie kein eigenes Wirtschaftsgut. Sie spiegelt das Kapital bei der KG, Gewinnanteile kommen über die Feststellung."
+    },
+    {
+     "id": "s3",
+     "text": "Eine Teilwertabschreibung gibt es darauf nicht. Verluste wirken nur über den Verlustanteil."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Handelsrecht Anschaffungskosten, Steuerrecht Spiegelbild."
+    }
    ],
-   "hook": {"zeilen": ["Beteiligung", "an der KG"], "pille": "Handels- oder Steuerbilanz?", "figur": "A/erklaert", "name": "Mateo",
-    "icons": [["tabler:building-community", "GELB", "Handelsbilanz"]], "stil": "split",
-    "split": [{"label": "Handelsbilanz", "wert": "100.000 €", "farbe": "GELB", "wort": "Handelsbilanz"},
-              {"label": "Steuerbilanz", "wert": "Spiegelbild", "farbe": "GRUEN", "wort": "Steuerbilanz"}],
-    "stempel": {"text": "nicht gleich!", "wort": "Kapitalkonto"}},
+   "hook": {
+    "zeilen": [
+     "Beteiligung",
+     "an der KG"
+    ],
+    "pille": "Handels- oder Steuerbilanz?",
+    "figur": "A/erklaert",
+    "name": "Mateo",
+    "icons": [
+     [
+      "tabler:building-community",
+      "GELB",
+      "Handelsbilanz"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Handelsbilanz",
+      "wert": "100.000 €",
+      "farbe": "GELB",
+      "wort": "Handelsbilanz"
+     },
+     {
+      "label": "Steuerbilanz",
+      "wert": "Spiegelbild",
+      "farbe": "GRUEN",
+      "wort": "Steuerbilanz"
+     }
+    ],
+    "stempel": {
+     "text": "nicht gleich!",
+     "wort": "Kapitalkonto"
+    }
+   },
    "szenen": [
-    {"seg": "s1", "titel": "Handelsbilanz", "elemente": [
-      {"typ": "block", "label": "Vermögensgegenstand", "wert": "100.000 €", "farbe": "GELB", "wort": "Vermögensgegenstand", "zs": 110},
-      {"typ": "pille", "text": "Anschaffungskosten", "wort": "Anschaffungskosten", "farbe": "WEISS"},
-      {"typ": "norm", "text": "§ 253 Abs. 1 S. 1 HGB", "wort": "Handelsrecht"}],
-     "icon": ["tabler:scale", "GELB", "Handelsrecht"]},
-    {"seg": "s2", "titel": "Steuerbilanz", "elemente": [
-      {"typ": "block", "label": "kein eigenes", "wert": "Wirtschaftsgut", "farbe": "ROT", "wort": "Wirtschaftsgut", "zs": 90},
-      {"typ": "text", "text": "Spiegelbild", "unter": "des Kapitals bei der KG", "wort": "spiegelt", "farbe": "GRUEN", "ls": 64},
-      {"typ": "norm", "text": "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO", "wort": "Feststellung"}]},
-    {"seg": "s3", "titel": "Keine Teilwert-AfA", "elemente": [
-      {"typ": "block", "label": "Teilwertabschreibung", "wert": "nein", "farbe": "ROT", "wort": "Teilwertabschreibung", "zs": 110},
-      {"typ": "text", "text": "Verlust nur", "unter": "über den Verlustanteil", "wort": "Verluste", "farbe": "WEISS", "ls": 64},
-      {"typ": "norm", "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG", "wort": "Verlustanteil"}],
-     "sfx": [["stempel", "nicht", 0.9]]}
+    {
+     "seg": "s1",
+     "titel": "Handelsbilanz",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Vermögensgegenstand",
+       "wert": "100.000 €",
+       "farbe": "GELB",
+       "wort": "Vermögensgegenstand",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "Anschaffungskosten",
+       "wort": "Anschaffungskosten",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 253 Abs. 1 S. 1 HGB",
+       "wort": "Handelsrecht"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Handelsrecht"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Steuerbilanz",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "kein eigenes",
+       "wert": "Wirtschaftsgut",
+       "farbe": "ROT",
+       "wort": "Wirtschaftsgut",
+       "zs": 90
+      },
+      {
+       "typ": "text",
+       "text": "Spiegelbild",
+       "unter": "des Kapitals bei der KG",
+       "wort": "spiegelt",
+       "farbe": "GRUEN",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+       "wort": "Feststellung"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Keine Teilwert-AfA",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Teilwertabschreibung",
+       "wert": "nein",
+       "farbe": "ROT",
+       "wort": "Teilwertabschreibung",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "Verlust nur",
+       "unter": "über den Verlustanteil",
+       "wort": "Verluste",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "wort": "Verlustanteil"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "nicht",
+       0.9
+      ]
+     ]
+    }
    ],
-   "merke": {"seg": "cta", "zeilen": ["Handelsbilanz:", "Anschaffungskosten,", "Steuerbilanz:", "Spiegelbild"], "woerter": [null, "Anschaffungskosten", "Steuerrecht", "Spiegelbild"],
-    "cta": "Speichern für Klausur 3", "cta_wort": "Spiegelbild", "hinweis": "Alle Fundstellen in der Beschreibung"},
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Handelsbilanz:",
+     "Anschaffungskosten,",
+     "Steuerbilanz:",
+     "Spiegelbild"
+    ],
+    "woerter": [
+     null,
+     "Anschaffungskosten",
+     "Steuerrecht",
+     "Spiegelbild"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Spiegelbild",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
    "caption": "Beteiligung an einer KG in der Bilanz der GmbH: Handelsbilanz und Steuerbilanz gehen getrennte Wege. ⚖️\n\n▸ Handelsbilanz: Die Beteiligung ist ein Vermögensgegenstand, Ansatz höchstens mit den Anschaffungskosten (§ 253 Abs. 1 S. 1 HGB).\n▸ Steuerbilanz: Die Beteiligung an einer Mitunternehmerschaft ist kein eigenständiges Wirtschaftsgut; sie wird spiegelbildlich zum Kapitalkonto bei der Personengesellschaft ausgewiesen (Spiegelbildmethode). Der Gewinnanteil fließt über die gesonderte und einheitliche Feststellung ein (§ 15 Abs. 1 S. 1 Nr. 2 EStG; § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n▸ Folge: keine Teilwertabschreibung auf die Beteiligung; Verluste wirken über den Verlustanteil.\n\nSpeichern für Klausur 3 📌",
-   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#personengesellschaften"],
-   "quellen": ["§ 253 Abs. 1 S. 1 HGB", "§ 15 Abs. 1 S. 1 Nr. 2 EStG", "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"]
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 253 Abs. 1 S. 1 HGB",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+   ]
   }
  ],
  "stories": [
-  {"slot": "s4", "zeit": "07:07", "art": "frage", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften", "themaId": "persg-quiz-persg-0",
-   "frage": ["Wer ist", "Mitunternehmer?"], "optionen": ["Initiative und Risiko", "Kapital und Haftung", "Geschäftsführung und Gehalt"],
-   "figuren": {"Q": {"kopf": "hat-beanie", "haut": "#E8B98F", "haar": "#6B3E26", "hut": "#F4A3B5", "oberteil": "#F9D56E", "bueste": "Hoodie"}}, "figur": "Q:denkt"},
-  {"slot": "s5", "zeit": "07:09", "art": "antwort", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften", "themaId": "persg-quiz-persg-0",
-   "titel": ["A: Initiative", "und Risiko"], "optionen": ["Initiative und Risiko", "Kapital und Haftung", "Geschäftsführung und Gehalt"], "richtig": 0,
-   "text": "Beides muss da sein. Ist eines schwach, muss das andere stark sein.", "norm": "H 15.8 (1) EStH",
-   "figuren": {"Q": {"kopf": "hat-beanie", "haut": "#E8B98F", "haar": "#6B3E26", "hut": "#F4A3B5", "oberteil": "#F9D56E", "bueste": "Hoodie"}}, "figur": "Q:froh"},
-  {"slot": "s1", "zeit": "08:30", "art": "teaser", "klausur": 1, "beitragSlot": "b1", "titel": ["ErbSt-Teil im Griff"], "unter": "Klausurtechnik + Markier-Guide · im Profil"},
-  {"slot": "s6", "zeit": "12:14", "art": "norm", "klausur": 1, "fach": "erbst", "fachLabel": "Erbschaftsteuer", "themaId": "erbst-modul-erbst-503",
-   "titel": ["Schenkung mit", "Gegenleistung"], "norm": "§ 7 Abs. 1 Nr. 1 ErbStG",
-   "punkte": [["Bereicherung: Steuerwert minus Gegenleistung oder Auflage.", "ok", "R E 7.4 ErbStR"],
-              ["Nur der freigebige Teil ist Schenkung.", "warn", null]],
-   "figuren": {"N": {"kopf": "Afro", "haut": "#5C3A21", "haar": "#1E1E24", "oberteil": "#F9D56E", "bueste": "Coffee"}}, "figur": "N:erklaert"},
-  {"slot": "s2", "zeit": "13:30", "art": "teaser", "klausur": 2, "beitragSlot": "b2", "titel": ["Spenden der GmbH"], "unter": "Rechenweg + Markier-Guide · im Profil"},
-  {"slot": "s7", "zeit": "14:40", "art": "tipp", "klausur": 0, "fach": null, "fachLabel": "Klausurtechnik",
-   "titel": ["Nach den Feiertagen:", "Probeklausur"],
-   "punkte": [["Volle Zeit am Stück, bis zu sechs Stunden.", "ok", "§ 18 Abs. 1 S. 3 DVStB"], ["Nur zugelassene Hilfsmittel.", "ok", null], ["Danach selbst korrigieren.", "ok", null]],
-   "icon": "tabler:pencil", "iconFarbe": "GELB",
-   "figuren": {"Z": {"kopf": "Short 4", "haut": "#F0C8A8", "haar": "#C9A15A", "oberteil": "#F4A3B5"}}, "figur": "Z/ruhig"},
-  {"slot": "s8", "zeit": "17:04", "art": "tipp", "klausur": 2, "fach": "kst", "fachLabel": "Körperschaftsteuer", "themaId": "kst-karte-kst-8",
-   "titel": ["Organschaft:", "die Zeiten"],
-   "punkte": [["Mehrheit der Stimmrechte ab Beginn des Wirtschaftsjahres.", "ok", "§ 14 Abs. 1 S. 1 Nr. 1 KStG"],
-              ["Vertrag mindestens fünf Jahre, durchgehend gelebt.", "ok", "§ 14 Abs. 1 S. 1 Nr. 3 KStG"]],
-   "icon": "tabler:hourglass", "iconFarbe": "GELB",
-   "figuren": {"T": {"kopf": "Long", "haut": "#C99470", "haar": "#2B2B2B", "oberteil": "#8DB3F2"}}, "figur": "T/laessig"},
-  {"slot": "s3", "zeit": "19:00", "art": "teaser", "klausur": 3, "beitragSlot": "b3", "titel": ["Beteiligung an der KG"], "unter": "Neues Reel · im Profil"},
-  {"slot": "s9", "zeit": "19:12", "art": "merksatz", "klausur": 3, "fach": "bilanz", "fachLabel": "Bilanzsteuerrecht", "themaId": "bilanz-karte-k3-15",
-   "titel": ["Teileinkünfte", "im Betrieb"],
-   "zeilen": [[["40 %", "a"], [" steuerfrei,", null]], [["60 %", "b"], [" der Kosten", null]], [["abziehbar", "c"], [".", null]]],
-   "norm": "§ 3 Nr. 40, § 3c Abs. 2 EStG", "groesse": 76,
-   "figuren": {"M": {"kopf": "Mohawk", "haut": "#8D5A3B", "haar": "#1E1E24", "oberteil": "#C9B8F2", "bueste": "Striped Tee"}}, "figur": "M:ernst"}
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-persg-0",
+   "frage": [
+    "Wer ist",
+    "Mitunternehmer?"
+   ],
+   "optionen": [
+    "Initiative und Risiko",
+    "Kapital und Haftung",
+    "Geschäftsführung und Gehalt"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "hat-beanie",
+     "haut": "#E8B98F",
+     "haar": "#6B3E26",
+     "hut": "#F4A3B5",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-persg-0",
+   "titel": [
+    "A: Initiative",
+    "und Risiko"
+   ],
+   "optionen": [
+    "Initiative und Risiko",
+    "Kapital und Haftung",
+    "Geschäftsführung und Gehalt"
+   ],
+   "richtig": 0,
+   "text": "Beides muss da sein. Ist eines schwach, muss das andere stark sein.",
+   "norm": "H 15.8 (1) EStH",
+   "figuren": {
+    "Q": {
+     "kopf": "hat-beanie",
+     "haut": "#E8B98F",
+     "haar": "#6B3E26",
+     "hut": "#F4A3B5",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "ErbSt-Teil im Griff"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-503",
+   "titel": [
+    "Schenkung mit",
+    "Gegenleistung"
+   ],
+   "norm": "§ 7 Abs. 1 Nr. 1 ErbStG",
+   "punkte": [
+    [
+     "Bereicherung: Steuerwert minus Gegenleistung oder Auflage.",
+     "ok",
+     "R E 7.4 ErbStR"
+    ],
+    [
+     "Nur der freigebige Teil ist Schenkung.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Afro",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Spenden der GmbH"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Nach den Feiertagen:",
+    "Probeklausur"
+   ],
+   "punkte": [
+    [
+     "Volle Zeit am Stück, bis zu sechs Stunden.",
+     "ok",
+     "§ 18 Abs. 1 S. 3 DVStB"
+    ],
+    [
+     "Nur zugelassene Hilfsmittel.",
+     "ok",
+     null
+    ],
+    [
+     "Danach selbst korrigieren.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:pencil",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Short 4",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-8",
+   "titel": [
+    "Organschaft:",
+    "die Zeiten"
+   ],
+   "punkte": [
+    [
+     "Mehrheit der Stimmrechte ab Beginn des Wirtschaftsjahres.",
+     "ok",
+     "§ 14 Abs. 1 S. 1 Nr. 1 KStG"
+    ],
+    [
+     "Vertrag mindestens fünf Jahre, durchgehend gelebt.",
+     "ok",
+     "§ 14 Abs. 1 S. 1 Nr. 3 KStG"
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Long",
+     "haut": "#C99470",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Beteiligung an der KG"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-15",
+   "titel": [
+    "Teileinkünfte",
+    "im Betrieb"
+   ],
+   "zeilen": [
+    [
+     [
+      "40 %",
+      "a"
+     ],
+     [
+      " steuerfrei,",
+      null
+     ]
+    ],
+    [
+     [
+      "60 %",
+      "b"
+     ],
+     [
+      " der Kosten",
+      null
+     ]
+    ],
+    [
+     [
+      "abziehbar",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 3 Nr. 40, § 3c Abs. 2 EStG",
+   "groesse": 76,
+   "figuren": {
+    "M": {
+     "kopf": "Mohawk",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "M:ernst"
+  }
  ]
 }

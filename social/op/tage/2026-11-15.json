@@ -1,0 +1,1174 @@
+{
+ "datum": "2026-11-15",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Ertragsteuern",
+   "themaId": "wochenrueckblick-k2-2026-46",
+   "themaTitel": "Tag 2 kompakt: fünf Themen der Woche",
+   "figuren": {
+    "A": {
+     "name": "Bastian",
+     "kopf": "Short 4",
+     "haut": "#B88462",
+     "haar": "#2B1D14",
+     "oberteil": "#A9D6E5",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Tag 2:",
+      "Woche kompakt"
+     ],
+     "unter": "5 Themen",
+     "teaser": "+ Markier-Guide § 8 GewStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "NOVEMBER",
+      "tag": "15",
+      "unter": "So · Rückblick"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Themen",
+     "schritte": [
+      [
+       "Drittstaatenverluste",
+       "§ 2a EStG",
+       ""
+      ],
+      [
+       "Gesellschafterdarlehen",
+       "§ 8b Abs. 3 S. 4 KStG",
+       ""
+      ],
+      [
+       "Verlustuntergang",
+       "§§ 8c, 8d KStG",
+       ""
+      ],
+      [
+       "Hinzurechnung",
+       "§§ 7 bis 9 AStG",
+       ""
+      ],
+      [
+       "Mieten in der Gewerbesteuer",
+       "§ 8 Nr. 1 GewStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 8 GewStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Drittstaatenverluste",
+     "punkte": [
+      [
+       "Verlust einer gewerblichen Betriebsstätte außerhalb der EU: nur mit Gewinnen derselben Art aus demselben Staat.",
+       "warn",
+       "Regular",
+       "§ 2a Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Warenherstellung ist ausgenommen, Fremdenverkehr nicht.",
+       "ok",
+       "Regular",
+       "§ 2a Abs. 2 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Hotel bleibt gesperrt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Gesellschafterdarlehen",
+     "punkte": [
+      [
+       "Über ein Viertel beteiligt: Teilwertabschreibung auf das Darlehen außerbilanziell hinzurechnen.",
+       "nein",
+       "Regular",
+       "§ 8b Abs. 3 S. 4 KStG"
+      ],
+      [
+       "Ausweg nur über den Fremdvergleich.",
+       "ok",
+       "Bold",
+       "§ 8b Abs. 3 S. 7 KStG"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 290,
+     "blase": "Bank als Maßstab."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Verlustuntergang",
+     "punkte": [
+      [
+       "Über 50 % in fünf Jahren an einen Erwerber: Verlust weg.",
+       "nein",
+       "Regular",
+       "§ 8c Abs. 1 S. 1 KStG"
+      ],
+      [
+       "Stille Reserven retten anteilig.",
+       "ok",
+       "Regular",
+       "§ 8c Abs. 1 S. 5 KStG"
+      ],
+      [
+       "Antrag auf Fortführung prüfen.",
+       "warn",
+       "Bold",
+       "§ 8d Abs. 1 KStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Antrag nicht vergessen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Hinzurechnung",
+     "punkte": [
+      [
+       "Motivtest nur für Gesellschaften in EU und EWR.",
+       "warn",
+       "Regular",
+       "§ 8 Abs. 2, 3 AStG"
+      ],
+      [
+       "Freigrenze: höchstens ein Drittel und 100.000 €, beides zugleich.",
+       "ok",
+       "Regular",
+       "§ 9 AStG"
+      ]
+     ],
+     "extra": [
+      "Neue Grenzen für Wirtschaftsjahre ab 2026",
+      "GELB",
+      "§ 21 Abs. 9 S. 1 AStG"
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Grenzen geändert!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Mieten in der Gewerbesteuer",
+     "punkte": [
+      [
+       "Miete für Gebäude: die Hälfte in die Summe.",
+       "ok",
+       "Regular",
+       "§ 8 Nr. 1 Buchst. e GewStG"
+      ],
+      [
+       "Miete für bewegliche Wirtschaftsgüter: ein Fünftel.",
+       "ok",
+       "Regular",
+       "§ 8 Nr. 1 Buchst. d GewStG"
+      ],
+      [
+       "Summe über 200.000 €: davon ein Viertel hinzurechnen.",
+       "warn",
+       "Bold",
+       "§ 8 Nr. 1 GewStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Erst sammeln, dann kürzen."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Montag schreibst du Tag 1, Mittwoch Tag 2",
+      "Diese Woche: fünf Ertragsteuerthemen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Drittstaat",
+        "a"
+       ],
+       [
+        " bremst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Darlehen",
+        "b"
+       ],
+       [
+        " gesperrt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Verlust",
+        "c"
+       ],
+       [
+        " geht unter,",
+        null
+       ]
+      ],
+      [
+       [
+        "Mieten",
+        "d"
+       ],
+       [
+        " anteilig.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welches Thema sitzt noch nicht?",
+     "teaser": "Weiterwischen: § 8 GewStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8 GewStG Hinzurechnungen (Auszug)",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Dem Gewinn aus Gewerbebetrieb (§ 7) werden folgende Beträge wieder hinzugerechnet,",
+         null
+        ],
+        [
+         "soweit sie bei der Ermittlung des Gewinns abgesetzt worden sind",
+         "b1"
+        ],
+        [
+         ": 1.",
+         null
+        ],
+        [
+         "Ein Viertel der Summe",
+         "g1"
+        ],
+        [
+         "aus […] d)",
+         null
+        ],
+        [
+         "einem Fünftel",
+         "gr1"
+        ],
+        [
+         "der Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung von beweglichen Wirtschaftsgütern des Anlagevermögens, die im Eigentum eines anderen stehen. […] e)",
+         null
+        ],
+        [
+         "der Hälfte",
+         "r1"
+        ],
+        [
+         "der Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung der unbeweglichen Wirtschaftsgüter des Anlagevermögens, die im Eigentum eines anderen stehen, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur Aufwand",
+       "b1"
+      ],
+      [
+       "am Ende 1/4",
+       "g1"
+      ],
+      [
+       "bewegliche WG",
+       "gr1"
+      ],
+      [
+       "Gebäude",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Freibetrag: 200.000 €",
+      "erst die Summe kürzen, dann ein Viertel"
+     ]
+    }
+   ],
+   "caption": "Tag 2 kompakt: fünf Themen der Woche für die Ertragsteuer-Klausur.\n\n1. Drittstaatenverluste: Verluste einer gewerblichen Betriebsstätte im Drittstaat nur mit positiven Einkünften derselben Art aus demselben Staat (§ 2a Abs. 1 S. 1 Nr. 2 EStG); Ausnahme für Warenherstellung, nicht für Fremdenverkehr (§ 2a Abs. 2 S. 1 EStG).\n2. Gesellschafterdarlehen: Gewinnminderungen bei Beteiligung von mehr als einem Viertel nicht abziehbar (§ 8b Abs. 3 S. 4 KStG), außer Fremdvergleich (§ 8b Abs. 3 S. 7 KStG).\n3. Verlustuntergang: mehr als 50 % in fünf Jahren (§ 8c Abs. 1 S. 1 KStG), Stille-Reserven-Klausel (§ 8c Abs. 1 S. 5 KStG), Antrag nach § 8d Abs. 1 KStG.\n4. Hinzurechnungsbesteuerung: Motivtest nur für EU/EWR (§ 8 Abs. 2, 3 AStG); Freigrenze ein Drittel und 100.000 € (§ 9 AStG) für Wirtschaftsjahre, die nach dem 31.12.2025 beginnen (§ 21 Abs. 9 S. 1 AStG).\n5. Gewerbesteuer: Mieten für bewegliche Wirtschaftsgüter zu einem Fünftel, für unbewegliche zur Hälfte in die Summe; hinzugerechnet wird ein Viertel des 200.000 € übersteigenden Betrags (§ 8 Nr. 1 Buchst. d, e GewStG).\n\nZum Schluss: § 8 Nr. 1 GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 2a Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG",
+    "§ 8b Abs. 3 S. 4, 7 KStG",
+    "§ 8c Abs. 1 S. 1, 5 KStG",
+    "§ 8d Abs. 1 KStG",
+    "§ 8 Abs. 2, 3 AStG",
+    "§ 9 AStG",
+    "§ 21 Abs. 9 S. 1 AStG",
+    "§ 8 Nr. 1 Buchst. d, e GewStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-12-05",
+   "themaTitel": "Garantierückstellungen: einzeln, pauschal und richtig bewertet",
+   "figuren": {
+    "A": {
+     "name": "Paulina",
+     "kopf": "Long Curly",
+     "haut": "#F7DCC6",
+     "haar": "#E0A96D",
+     "oberteil": "#F5B7B1",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Oskar",
+     "kopf": "No Hair 3",
+     "haut": "#8B5A3C",
+     "oberteil": "#F9E4B7",
+     "brille": "Glasses 3",
+     "bart": "Goatee 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "Garantie:",
+      "einzeln, pauschal?"
+     ],
+     "norm": "§ 249 Abs. 1 S. 1 HGB",
+     "unter": "Klausurfrage",
+     "teaser": "+ Markier-Guide § 249 HGB",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Umsatz 2026",
+        "Bold",
+        44
+       ],
+       [
+        "2 Mio. €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Rückstellung?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Frage",
+     "punkte": [
+      [
+       "Paulinas Fensterbau GmbH gibt zwei Jahre Gewährleistung. Umsatz 2026: 2 Mio. €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Großauftrag (100.000 €) mit bekanntem Mangel: Reparatur im März 2027, 25.000 €. Sonst erfahrungsgemäß 1 % vom Umsatz.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ansatz zum 31.12.2026?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Wie viel?"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Lösung in 4 Schritten",
+     "schritte": [
+      [
+       "Ansatz",
+       "§ 249 Abs. 1 S. 1 HGB, § 5 Abs. 1 S. 1 EStG",
+       "ungewisse Verbindlichkeit"
+      ],
+      [
+       "Einzeln oder pauschal",
+       "R 5.7 Abs. 5 EStR",
+       "Bekanntes einzeln, Rest pauschal"
+      ],
+      [
+       "Bewerten",
+       "§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG",
+       "Sachleistung zu Stichtagskosten"
+      ],
+      [
+       "Abzinsen?",
+       "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
+       "Laufzeit prüfen"
+      ]
+     ],
+     "teaser": "Am Ende: § 249 HGB markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Ansatz",
+     "punkte": [
+      [
+       "Gewährleistung für erbrachte Leistungen: ungewisse Verbindlichkeit, Pflicht in der Handelsbilanz.",
+       "ok",
+       "Regular",
+       "§ 249 Abs. 1 S. 1 HGB"
+      ],
+      [
+       "Gilt über die Maßgeblichkeit auch steuerlich.",
+       "ok",
+       "Regular",
+       "§ 5 Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Kulanz ohne Rechtspflicht: in der Handelsbilanz ebenfalls.",
+       "warn",
+       "Regular",
+       "§ 249 Abs. 1 S. 2 Nr. 2 HGB"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Pflicht, kein Wahlrecht."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Einzeln und pauschal",
+     "punkte": [
+      [
+       "Bis zur Bilanzaufstellung bekannte Fälle: Einzelrückstellung.",
+       "ok",
+       "Regular",
+       "R 5.7 Abs. 5 EStR"
+      ],
+      [
+       "Für den Rest: Pauschale nach eigenen oder branchentypischen Erfahrungen.",
+       "ok",
+       "Regular",
+       "R 5.7 Abs. 5 EStR"
+      ],
+      [
+       "Die bloße Möglichkeit von Mängeln reicht nicht.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Beides nebeneinander?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "3 · Richtig bewerten",
+     "punkte": [
+      [
+       "Nachbesserung ist eine Sachleistung: Einzel- und angemessene Gemeinkosten.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. b EStG"
+      ],
+      [
+       "Keine künftigen Preissteigerungen in der Steuerbilanz.",
+       "nein",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 3a Buchst. f EStG"
+      ],
+      [
+       "Nie mehr als der Handelsbilanzwert.",
+       "warn",
+       "Regular",
+       "R 6.11 Abs. 3 EStR"
+      ]
+     ],
+     "figur": "B:ernst",
+     "x": 290,
+     "blase": "Heutige Kosten!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Abzinsen?",
+     "punkte": [
+      [
+       "Einzelfall: Reparatur im März 2027, Laufzeit unter zwölf Monaten, keine Abzinsung.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG"
+      ],
+      [
+       "Pauschalrückstellung: Die Verwaltung verzichtet auf die Abzinsung.",
+       "ok",
+       "Regular",
+       "BMF vom 26.05.2005, Rn. 27"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Das spart Rechnerei."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Ergebnis 31.12.2026",
+     "normen": [
+      "R 5.7 Abs. 5 EStR",
+      "§ 6 Abs. 1 Nr. 3a EStG"
+     ],
+     "zeilen": [
+      [
+       "Einzelrückstellung Großauftrag",
+       "25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Pauschale 1 % von 1,9 Mio. €",
+       "19.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Rückstellung gesamt",
+       "44.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Großauftrag nicht doppelt erfassen",
+      "GELB"
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Sauber getrennt."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Paulinas GmbH: 25.000 € + 19.000 € = 44.000 €",
+      "Einzelfall raus aus der Pauschalbasis",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Bekanntes",
+        "a"
+       ],
+       [
+        " einzeln,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest",
+        "b"
+       ],
+       [
+        " pauschal,",
+        null
+       ]
+      ],
+      [
+       [
+        "Stichtagskosten",
+        "c"
+       ],
+       [
+        " ansetzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Laufzeit",
+        "d"
+       ],
+       [
+        " prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du doppelt gezählt?",
+     "teaser": "Weiterwischen: § 249 HGB markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 249 HGB Rückstellungen (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Rückstellungen",
+         null
+        ],
+        [
+         "sind",
+         "r1"
+        ],
+        [
+         "für",
+         null
+        ],
+        [
+         "ungewisse Verbindlichkeiten",
+         "g1"
+        ],
+        [
+         "und für drohende Verluste aus schwebenden Geschäften zu bilden. Ferner sind Rückstellungen zu bilden für […] 2.",
+         null
+        ],
+        [
+         "Gewährleistungen, die ohne rechtliche Verpflichtung erbracht werden.",
+         "b1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Pflicht",
+       "r1"
+      ],
+      [
+       "Garantie mit Rechtspflicht",
+       "g1"
+      ],
+      [
+       "Kulanz",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Steuerlich: § 5 Abs. 1, § 6 Abs. 1 Nr. 3a",
+      "Pauschale nach R 5.7 Abs. 5 EStR"
+     ]
+    }
+   ],
+   "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (R 5.7 Abs. 5 EStR).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 249 Abs. 1 S. 1, S. 2 Nr. 2 HGB",
+    "§ 5 Abs. 1 S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 3a Buchst. b, e, f EStG",
+    "R 5.7 Abs. 5 EStR",
+    "R 6.11 Abs. 3 EStR",
+    "BMF vom 26.05.2005, Rn. 27"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b12-7",
+   "themaTitel": "Berichtigungszeitraum nach § 15a UStG richtig bestimmen",
+   "figuren": {
+    "A": {
+     "name": "Zeynep",
+     "kopf": "Hijab",
+     "haut": "#D9A684",
+     "hut": "#C0392B",
+     "oberteil": "#F5CBA7"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Gebäude fertig, also läuft die Frist? Nein! Der Berichtigungszeitraum startet erst mit der ersten Verwendung."
+    },
+    {
+     "id": "s1",
+     "text": "Fünf Jahre für bewegliche Wirtschaftsgüter, zehn Jahre für Grundstücke und Gebäude."
+    },
+    {
+     "id": "s2",
+     "text": "Beginn ist die erstmalige tatsächliche Verwendung. Steht das Gebäude nach Fertigstellung leer, wartet die Frist."
+    },
+    {
+     "id": "s3",
+     "text": "Endet die Nutzung früher, etwa durch Zerstörung, gilt die kürzere Dauer. Gerechnet wird in vollen Monaten."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: fünf oder zehn Jahre, ab der ersten Verwendung."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Gebäude fertig:",
+     "Frist läuft?"
+    ],
+    "pille": "§ 15a UStG",
+    "figur": "A/skeptisch",
+    "name": "Zeynep",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Nein"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "nein",
+     "wort": "Nein"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Wie lange?",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "bewegliche Wirtschaftsgüter",
+       "wert": "5 Jahre",
+       "farbe": "WEISS",
+       "wort": "Fünf",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Grundstücke, Gebäude",
+       "wert": "10 Jahre",
+       "farbe": "GELB",
+       "wort": "zehn",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15a Abs. 1 S. 1, 2 UStG",
+       "wort": "Gebäude"
+      }
+     ],
+     "icon": [
+      "tabler:calendar-time",
+      "GELB",
+      "Fünf"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Ab wann?",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "erste Verwendung",
+       "unter": "nicht die Fertigstellung",
+       "wort": "Beginn",
+       "farbe": "GRUEN",
+       "ls": 70
+      },
+      {
+       "typ": "pille",
+       "text": "Leerstand: Frist wartet",
+       "wort": "leer",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15a Abs. 1 S. 1 UStG",
+       "wort": "erstmalige"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "wartet",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Kürzer und genau",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Zerstörung",
+       "wert": "kürzere Dauer",
+       "farbe": "ROT",
+       "wort": "Zerstörung",
+       "zs": 96
+      },
+      {
+       "typ": "pille",
+       "text": "volle Monate",
+       "wort": "Monaten",
+       "farbe": "GELB"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15a Abs. 5 S. 2 UStG",
+       "wort": "kürzere"
+      }
+     ],
+     "figur": {
+      "ref": "A/ruhig",
+      "wort": "Gerechnet",
+      "hoehe": 380
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "§ 15a UStG:",
+     "5 oder 10 Jahre",
+     "ab der ersten",
+     "Verwendung"
+    ],
+    "woerter": [
+     null,
+     "fünf",
+     "ersten",
+     "Verwendung"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Verwendung",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Vorsteuerberichtigung: Ab wann läuft der Berichtigungszeitraum? 🏗️\n\n▸ Dauer: fünf Jahre, bei Grundstücken einschließlich wesentlicher Bestandteile und Gebäuden auf fremdem Grund zehn Jahre (§ 15a Abs. 1 S. 1, 2 UStG).\n▸ Beginn: ab dem Zeitpunkt der erstmaligen Verwendung (§ 15a Abs. 1 S. 1 UStG) – nicht ab Fertigstellung, Anschaffung oder Rechnung.\n▸ Je Kalenderjahr der Änderung wird von einem Fünftel bzw. einem Zehntel der Vorsteuer ausgegangen; eine kürzere Verwendungsdauer ist zu berücksichtigen (§ 15a Abs. 5 S. 1, 2 UStG).\n▸ Ende vor dem 16. eines Monats: Monat bleibt unberücksichtigt; danach zählt er voll (§ 45 UStDV).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 15a Abs. 1 S. 1, 2 UStG",
+    "§ 15a Abs. 5 S. 1, 2 UStG",
+    "§ 45 UStDV"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "frage": [
+    "Enkelin erbt,",
+    "Mutter lebt: Freibetrag?"
+   ],
+   "optionen": [
+    "400.000 €",
+    "200.000 €",
+    "100.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bantu Knots",
+     "haut": "#5B3A29",
+     "haar": "#141414",
+     "oberteil": "#F7DC6F",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "titel": [
+    "B: 200.000 €"
+   ],
+   "optionen": [
+    "400.000 €",
+    "200.000 €",
+    "100.000 €"
+   ],
+   "richtig": 1,
+   "text": "400.000 € gibt es für Enkel nur, wenn ihr Elternteil schon verstorben ist.",
+   "norm": "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Bantu Knots",
+     "haut": "#5B3A29",
+     "haar": "#141414",
+     "oberteil": "#F7DC6F",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Tag 2: Woche kompakt"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr3-13",
+   "titel": [
+    "Maschine ins",
+    "Ausland verlegt?"
+   ],
+   "norm": "§ 4 Abs. 1 S. 3 EStG",
+   "punkte": [
+    [
+     "Deutsches Besteuerungsrecht fällt weg: wie Entnahme zum gemeinen Wert.",
+     "warn",
+     "§ 6 Abs. 1 Nr. 4 S. 1 EStG"
+    ],
+    [
+     "In die EU: Ausgleichsposten, über fünf Jahre aufgelöst.",
+     "ok",
+     "§ 4g EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 5",
+     "haut": "#EBC8A8",
+     "haar": "#7D5A3C",
+     "oberteil": "#B5EAD7",
+     "bart": "Full 3",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Garantie: einzeln, pauschal?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sonntag:",
+    "Woche auswerten"
+   ],
+   "punkte": [
+    [
+     "Drei Themen der Woche frei erklären",
+     "ok",
+     null
+    ],
+    [
+     "Lücken auf eine Karte schreiben",
+     "ok",
+     null
+    ],
+    [
+     "Montag mit der größten Lücke starten",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:checklist",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Pomp",
+     "haut": "#C9956B",
+     "haar": "#3A2618",
+     "oberteil": "#FAD7A0"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-4-b",
+   "titel": [
+    "§ 6 Abs. 5 EStG:",
+    "GmbH beteiligt?"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Teilwert, soweit eine Körperschaft am Wirtschaftsgut beteiligt wird",
+     "warn",
+     "§ 6 Abs. 5 S. 5 EStG"
+    ],
+    [
+     "GmbH ohne Vermögensanteil: unschädlich",
+     "ok",
+     null
+    ],
+    [
+     "Sieben Jahre nachwirkend",
+     "warn",
+     "§ 6 Abs. 5 S. 6 EStG"
+    ]
+   ],
+   "icon": "tabler:building-community",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Medium 3",
+     "haut": "#FCE1CF",
+     "haar": "#A04000",
+     "oberteil": "#F8C8DC"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Gebäude fertig: Frist läuft?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-369",
+   "titel": [
+    "Änderungsbescheid",
+    "angefochten?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Nur so weit, wie die",
+      null
+     ]
+    ],
+    [
+     [
+      "Änderung reicht",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "außer eine",
+      null
+     ]
+    ],
+    [
+     [
+      "Korrekturnorm",
+      "b"
+     ],
+     [
+      " hilft.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 351 Abs. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Short",
+     "haut": "#A87454",
+     "haar": "#CFCFCF",
+     "oberteil": "#F9E79F",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

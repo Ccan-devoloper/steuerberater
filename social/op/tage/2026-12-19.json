@@ -1,0 +1,446 @@
+{
+ "datum": "2026-12-19",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "klausurtechnik-k3-2026-51",
+   "themaTitel": "Bilanzklausur: Punkte sichern, Textziffer für Textziffer",
+   "figuren": {
+    "A": {"name": "Fenna", "kopf": "Bun 2", "haut": "#F3D0B5", "haar": "#7A4B2A", "oberteil": "#F4A3B5", "bueste": "Striped Pocket Tee"}
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "zeilen": ["Bilanzklausur:", "Punkte sichern"],
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {"typ": "icon", "name": "tabler:clock-hour-3", "farbe": "GELB"},
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Strategie in 5 Schritten",
+     "schritte": [
+      ["Punkte je Teil notieren", "", ""],
+      ["Zeit nach Punkten planen", "", ""],
+      ["Jede Textziffer einzeln", "", ""],
+      ["Festes Lösungsraster", "", ""],
+      ["Rest kurz anreißen", "", ""]
+     ],
+     "teaser": "Am Ende: § 6 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 + 2 · Punkte und Zeit",
+     "punkte": [
+      ["Erst Aufgaben und Punkte aller Teile lesen, dann den Sachverhalt.", "ok", "Regular", null],
+      ["Bearbeitungszeit durch Gesamtpunkte: Minuten pro Punkt.", "ok", "Bold", null],
+      ["Beispiel: 360 Minuten, 100 Punkte, gut 3,5 Minuten pro Punkt.", "warn", "Regular", null]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Uhr im Blick"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Textziffer für Textziffer",
+     "punkte": [
+      ["Jede Textziffer ist ein eigener kleiner Fall mit eigenen Punkten.", "ok", "Regular", null],
+      ["Eine hakt? Annahme notieren und weiter.", "warn", "Bold", null],
+      ["Ein sauberer Weg bringt auch bei falscher Zahl oft Teilpunkte.", "ok", "Regular", null]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Nicht festbeißen"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Festes Raster",
+     "punkte": [
+      ["Ansatz: Wirtschaftsgut, Zurechnung, Betriebsvermögen?", "ok", "Regular", null],
+      ["Bewertung: Maßstab, Anschaffungs- oder Herstellungskosten, AfA, Teilwert.", "ok", "Regular", null],
+      ["Folgen: Bilanzposten, Buchungssatz, Gewinnauswirkung.", "ok", "Bold", null]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Immer gleich"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Hier gehen Punkte verloren",
+     "punkte": [
+      ["Ergebnis ohne Norm.", "nein", "Regular", null],
+      ["Handelsbilanz und Steuerbilanz vermischt.", "nein", "Regular", null],
+      ["Gewinnauswirkung vergessen.", "nein", "Bold", null]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Kenn ich!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Die letzten 20 Minuten",
+     "punkte": [
+      ["Offene Textziffern kurz anreißen: Ergebnis und Norm.", "ok", "Regular", null],
+      ["Keine neue Großbaustelle beginnen.", "warn", "Bold", null],
+      ["Gewinnauswirkungen zusammenfassen, wenn verlangt.", "ok", "Regular", null]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Abgabe sicher"
+    },
+    {
+     "typ": "merke",
+     "oben": ["Faustregel: Zeit durch Punkte = Minuten pro Punkt", "Jede Textziffer: Ansatz, Bewertung, Folgen", "GELB"],
+     "zeilen": [
+      [["Punkte", "a"], [" zuerst lesen,", null]],
+      [["Zeit", "b"], [" je Punkt planen,", null]],
+      [["Raster", "c"], [" durchziehen,", null]],
+      [["Rest", "d"], [" anreißen.", null]]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wie planst du die Zeit?",
+     "teaser": "Weiterwischen: § 6 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6 Abs. 1 EStG (Auszug)",
+     "absaetze": [
+      ["Nr. 1 S. 1", [
+       ["Wirtschaftsgüter des Anlagevermögens, die der Abnutzung unterliegen,", "g1"],
+       ["sind mit den Anschaffungs- oder Herstellungskosten oder dem an deren Stelle tretenden Wert,", null],
+       ["vermindert um die Absetzungen für Abnutzung", "b1"],
+       [", erhöhte Absetzungen, Sonderabschreibungen, Abzüge nach § 6b und ähnliche Abzüge, anzusetzen.", null]
+      ]],
+      ["Nr. 1 S. 2", [
+       ["Ist der Teilwert auf Grund einer", null],
+       ["voraussichtlich dauernden Wertminderung", "r1"],
+       ["niedriger, so kann dieser angesetzt werden.", null]
+      ]],
+      ["Nr. 2 S. 1", [
+       ["Andere als die in Nummer 1 bezeichneten Wirtschaftsgüter des Betriebs", "gr1"],
+       ["(Grund und Boden, Beteiligungen, Umlaufvermögen) sind mit den Anschaffungs- oder Herstellungskosten oder dem an deren Stelle tretenden Wert, vermindert um Abzüge nach § 6b und ähnliche Abzüge, anzusetzen.", null]
+      ]]
+     ],
+     "notizen": [
+      ["abnutzbares AV", "g1"],
+      ["AfA abziehen", "b1"],
+      ["nur bei Dauer", "r1"],
+      ["Boden, Vorräte", "gr1"]
+     ],
+     "randnotiz": ["Markieren ist in der Klausur erlaubt", "Anmerkungen im Gesetzestext nicht"]
+    }
+   ],
+   "caption": "Klausurtechnik für die Bilanzklausur: so sicherst du Punkte, Textziffer für Textziffer.\n\n1. Erst Aufgaben und Punkteverteilung aller Teile lesen, dann den Sachverhalt.\n2. Zeit planen: Bearbeitungszeit durch Gesamtpunkte ergibt die Minuten pro Punkt. Die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB).\n3. Jede Textziffer einzeln lösen; hakt eine, Annahme notieren und weiter.\n4. Festes Raster in jeder Textziffer: Ansatz, Bewertung, Folgen (Bilanzposten, Buchungssatz, Gewinnauswirkung). Bewertungsmaßstäbe stehen in § 6 Abs. 1 Nr. 1 und 2 EStG.\n5. Die letzten Minuten: offene Textziffern mit Ergebnis und Norm anreißen, keine neue Großbaustelle.\n\nTypische Punktverluste: Ergebnis ohne Norm, Handels- und Steuerbilanz vermischt, Gewinnauswirkung vergessen.\n\nIn der schriftlichen Prüfung sind Markierungen im Gesetzestext zulässig, Anmerkungen nicht.\n\nZum Schluss: § 6 Abs. 1 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#bilanzsteuerrecht"],
+   "quellen": ["§ 18 Abs. 1 S. 3 DVStB", "§ 6 Abs. 1 Nr. 1, 2 EStG"]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-8-14",
+   "themaTitel": "Einspruch gegen Änderungsbescheid: Wie weit darf angefochten werden?",
+   "figuren": {
+    "A": {"name": "Bruno", "kopf": "Short 1", "haut": "#E8B98F", "haar": "#6B3E26", "oberteil": "#F9D56E", "bart": "Full 4", "bueste": "Polo and Sweater"}
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": ["Änderungsbescheid:", "wie weit anfechten?"],
+     "norm": "§ 351 Abs. 1 AO",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 351 AO",
+     "motiv": {"typ": "zahlblock", "zeilen": [["Änderung", "Bold", 44], ["+ 2.400 €", "ExtraBold", 96], ["Spielraum?", "ExtraBold", 54]]},
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "In 4 Schritten",
+     "schritte": [
+      ["Erstbescheid bestandskräftig?", "§ 355 Abs. 1 S. 1 AO", ""],
+      ["Änderung rechtmäßig?", "§ 173 Abs. 1 Nr. 1 AO", ""],
+      ["Eigene Norm für Einwände?", "§§ 172 ff. AO", ""],
+      ["Sonst: nur bis zur Änderung", "§ 351 Abs. 1 AO", ""]
+     ],
+     "teaser": "Am Ende: § 351 AO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      ["Brunos ESt-Bescheid 2023: 18.000 €, bestandskräftig.", null, "Regular", null],
+      ["Das Finanzamt erfährt von verschwiegenen Mieteinnahmen und ändert auf 20.400 €.", null, "Regular", null],
+      ["Bruno legt Einspruch ein und will grob nachlässig vergessene Fortbildungskosten: minus 3.100 € Steuer.", null, "Bold", null]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Jetzt alles?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      ["Auf welchen Betrag setzt das Finanzamt die Steuer nach dem Einspruch fest?", null, "Bold", null]
+     ],
+     "extra": ["Erst rechnen, dann weiterwischen", "GELB", null],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "17.300 €?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": ["§ 351 Abs. 1 AO", "§ 173 Abs. 1 Nr. 1 AO"],
+     "zeilen": [
+      ["Bestandskräftig", "18.000 €", "Regular", null],
+      ["Änderung", "+ 2.400 €", "Regular", null],
+      ["Angefochten", "20.400 €", "Bold", null],
+      ["Fortbildungskosten", "− 3.100 €", "Regular", null],
+      ["Untergrenze", "18.000 €", "ExtraBold", "GELB"]
+     ],
+     "extra": ["Festsetzung: 18.000 €", "GRUEN"]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nicht 17.300 €",
+     "punkte": [
+      ["Einwände gegen den Änderungsbescheid wirken nur, soweit die Änderung reicht.", "nein", "Bold", "§ 351 Abs. 1 AO"],
+      ["700 € der Minderung bleiben verloren.", "warn", "Regular", null]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Nur bis 18.000?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Ausnahme: eigene Norm",
+     "punkte": [
+      ["Trägt eine Korrekturnorm die Minderung selbst, gilt die Grenze nicht.", "ok", "Regular", "§ 351 Abs. 1 Hs. 2 AO"],
+      ["Etwa: Kosten hängen mit den Mieteinnahmen zusammen, dann ist das Verschulden unbeachtlich.", "ok", "Regular", "§ 173 Abs. 1 Nr. 2 S. 2 AO"]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Zusammenhang prüfen"
+    },
+    {
+     "typ": "merke",
+     "oben": ["Antwort: 18.000 €, nicht 17.300 €", "Die Änderung (+ 2.400 €) ist der Rahmen", "GELB"],
+     "zeilen": [
+      [["Änderung", "a"], [" ist der Rahmen,", null]],
+      [["darunter", "b"], [" nur mit", null]],
+      [["eigener", "c"], [" Korrekturnorm.", null]]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hast du 17.300 € gerechnet?",
+     "teaser": "Weiterwischen: § 351 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 351, 173 AO (Auszug)",
+     "absaetze": [
+      ["§ 351 (1)", [
+       ["Verwaltungsakte, die unanfechtbare Verwaltungsakte ändern, können", null],
+       ["nur insoweit angegriffen werden, als die Änderung reicht", "g1"],
+       [",", null],
+       ["es sei denn", "b1"],
+       [", dass sich aus den Vorschriften über die Aufhebung und Änderung von Verwaltungsakten etwas anderes ergibt.", null]
+      ]],
+      ["§ 173 (1) Nr. 2 S. 2", [
+       ["Das Verschulden ist unbeachtlich, wenn die Tatsachen oder Beweismittel in einem", null],
+       ["unmittelbaren oder mittelbaren Zusammenhang", "gr1"],
+       ["mit Tatsachen oder Beweismitteln im Sinne der Nummer 1 stehen.", null]
+      ]]
+     ],
+     "notizen": [
+      ["Rahmen", "g1"],
+      ["eigene Norm?", "b1"],
+      ["Zusammenhang", "gr1"]
+     ],
+     "randnotiz": ["Verböserung: § 367 Abs. 2 S. 2 AO", "Nur nach Hinweis, dann Rücknahme möglich"]
+    }
+   ],
+   "caption": "Einspruch gegen einen Änderungsbescheid: Wie weit darf angefochten werden? Der Rechenweg.\n\nFall: ESt 2023 bestandskräftig 18.000 €. Wegen verschwiegener Mieteinnahmen ändert das Finanzamt auf 20.400 € (§ 173 Abs. 1 Nr. 1 AO). Im Einspruch macht Bruno grob nachlässig vergessene Fortbildungskosten geltend (Steuer − 3.100 €).\n\n▸ Änderungsbescheide können nur insoweit angegriffen werden, als die Änderung reicht (§ 351 Abs. 1 AO). Die Minderung wirkt also nur bis zu 18.000 €.\n▸ Eine eigene Korrekturnorm für die Minderung fehlt: § 173 Abs. 1 Nr. 2 S. 1 AO scheitert am groben Verschulden.\n▸ Ausnahme: Hängen die Kosten mit den neuen Mieteinnahmen zusammen, ist das Verschulden unbeachtlich (§ 173 Abs. 1 Nr. 2 S. 2 AO); dann trägt diese Norm die volle Minderung.\n▸ Ergebnis: Festsetzung 18.000 €, nicht 17.300 €.\n\nZum Schluss: §§ 351, 173 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#abgabenordnung"],
+   "quellen": ["§ 351 Abs. 1 AO", "§ 173 Abs. 1 Nr. 1, 2 AO", "§ 355 Abs. 1 S. 1 AO", "§ 367 Abs. 2 S. 2 AO"]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-4",
+   "themaTitel": "§ 8b Dividende",
+   "figuren": {
+    "A": {"name": "Rasmus", "kopf": "Medium 2", "haut": "#F2CDB0", "haar": "#C9A15A", "oberteil": "#9AD48F", "bueste": "Hoodie"}
+   },
+   "sprecher": [
+    {"id": "hook", "text": "Dividende an die GmbH ist immer zu fünfundneunzig Prozent steuerfrei? Nicht bei Streubesitz."},
+    {"id": "s1", "text": "Ab zehn Prozent zu Jahresbeginn bleibt die Dividende außer Ansatz. Fünf Prozent gelten als nicht abziehbar."},
+    {"id": "s2", "text": "Unter zehn Prozent ist Streubesitz: Die Dividende ist voll steuerpflichtig."},
+    {"id": "s3", "text": "Achtung: Kauft die GmbH im Jahr auf einen Schlag mindestens zehn Prozent, gilt das als Erwerb zu Jahresbeginn."},
+    {"id": "cta", "text": "Merke: Ab zehn Prozent zu Jahresbeginn fünfundneunzig Prozent frei, darunter voll."}
+   ],
+   "hook": {
+    "zeilen": ["Dividende an GmbH:", "immer 95 % frei?"],
+    "pille": "§ 8b Abs. 1, 4 KStG",
+    "figur": "A/skeptisch",
+    "name": "Rasmus",
+    "icons": [["tabler:coins", "GELB", "Nicht"]],
+    "stil": "kippen",
+    "stempel": {"text": "Nicht immer!", "wort": "Nicht"},
+    "richtig": {"label": "Richtig", "text": "nur ab 10 %", "wort": "Streubesitz", "farbe": "GRUEN"}
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Ab 10 %",
+     "elemente": [
+      {"typ": "block", "label": "Beteiligung zu Jahresbeginn", "wert": "mind. 10 %", "farbe": "GRUEN", "wort": "zehn", "zs": 110},
+      {"typ": "block", "label": "Dividende", "wert": "außer Ansatz", "farbe": "WEISS", "wort": "außer", "zs": 100},
+      {"typ": "pille", "text": "5 % nicht abziehbar", "wort": "Fünf", "farbe": "GELB"},
+      {"typ": "norm", "text": "§ 8b Abs. 1, 5 KStG", "wort": "Dividende"}
+     ],
+     "sfx": [["muenzen", "Dividende", 0.8]]
+    },
+    {
+     "seg": "s2",
+     "titel": "Streubesitz",
+     "elemente": [
+      {"typ": "block", "label": "Beteiligung", "wert": "unter 10 %", "farbe": "ROT", "wort": "Unter", "zs": 110},
+      {"typ": "block", "label": "Dividende", "wert": "voll steuerpflichtig", "farbe": "ROT", "wort": "voll", "zs": 80},
+      {"typ": "norm", "text": "§ 8b Abs. 4 S. 1 KStG", "wort": "Streubesitz"}
+     ],
+     "icon": ["tabler:chart-pie", "GELB", "Streubesitz"],
+     "sfx": [["stempel", "voll", 0.8]]
+    },
+    {
+     "seg": "s3",
+     "titel": "Zukauf im Jahr",
+     "elemente": [
+      {"typ": "pille", "text": "Kauf von mind. 10 % auf einmal", "wort": "Kauft", "farbe": "WEISS"},
+      {"typ": "block", "label": "gilt als Erwerb", "wert": "zum Jahresbeginn", "farbe": "GELB", "wort": "Erwerb", "zs": 90},
+      {"typ": "norm", "text": "§ 8b Abs. 4 S. 6 KStG", "wort": "Schlag"}
+     ],
+     "icon": ["tabler:calendar-event", "GELB", "Jahresbeginn"]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": ["Merke:", "ab 10 % zu Jahresbeginn:", "95 % frei,", "darunter voll"],
+    "woerter": [null, "zehn", "fünfundneunzig", "darunter"],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "voll",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "§ 8b KStG: Dividende an die GmbH – 95 % frei oder voll steuerpflichtig? 💶\n\n▸ Bezüge aus Beteiligungen bleiben bei der Einkommensermittlung außer Ansatz (§ 8b Abs. 1 S. 1 KStG); 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG).\n▸ Streubesitz: Betrug die Beteiligung zu Beginn des Kalenderjahres unmittelbar weniger als 10 %, ist die Dividende voll zu berücksichtigen (§ 8b Abs. 4 S. 1 KStG).\n▸ Der Erwerb einer Beteiligung von mindestens 10 % gilt als zu Beginn des Kalenderjahres erfolgt (§ 8b Abs. 4 S. 6 KStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#körperschaftsteuer"],
+   "quellen": ["§ 8b Abs. 1 S. 1 KStG", "§ 8b Abs. 4 S. 1, 6 KStG", "§ 8b Abs. 5 S. 1 KStG"]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4", "zeit": "07:07", "art": "frage", "klausur": 2, "fach": "kst", "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-2",
+   "frage": ["vGA: Wer hat", "den Vorteil?"],
+   "optionen": ["Die GmbH selbst", "Gesellschafter oder nahestehende Person", "Das Finanzamt"],
+   "figuren": {"Q": {"kopf": "Twists", "haut": "#9C6644", "oberteil": "#C9B8F2", "bueste": "Tee 1"}},
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5", "zeit": "07:09", "art": "antwort", "klausur": 2, "fach": "kst", "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-2",
+   "titel": ["B: Gesellschafter", "oder Nahestehende"],
+   "optionen": ["Die GmbH selbst", "Gesellschafter oder nahestehende Person", "Das Finanzamt"],
+   "richtig": 1,
+   "text": "Die GmbH verliert Vermögen, veranlasst durch das Gesellschaftsverhältnis.",
+   "norm": "R 8.5 Abs. 1 KStR",
+   "figuren": {"Q": {"kopf": "Twists", "haut": "#9C6644", "oberteil": "#C9B8F2", "bueste": "Tee 1"}},
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1", "zeit": "08:30", "art": "teaser", "beitragSlot": "b1",
+   "titel": ["Bilanzklausur: Punkte sichern"],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6", "zeit": "12:14", "art": "norm", "klausur": 3, "fach": "umwst", "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-45",
+   "titel": ["Einbringungs-", "gewinn I"],
+   "norm": "§ 22 Abs. 1 S. 3 UmwStG",
+   "punkte": [
+    ["Gemeiner Wert am Stichtag minus Kosten minus Wertansatz der GmbH.", "ok", null],
+    ["Je abgelaufenes Zeitjahr ein Siebtel weniger.", "warn", null]
+   ],
+   "figuren": {"N": {"kopf": "No Hair 1", "haut": "#6B4226", "oberteil": "#F4A3B5", "brille": "Glasses", "bueste": "Shirt and Coat"}},
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2", "zeit": "13:30", "art": "teaser", "beitragSlot": "b2",
+   "titel": ["Änderungsbescheid anfechten"],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7", "zeit": "14:40", "art": "tipp", "klausur": 0, "fachLabel": "Klausurtechnik",
+   "titel": ["Unklarer", "Sachverhalt?"],
+   "punkte": [
+    ["Annahme kurz offenlegen.", "ok", null],
+    ["Dann konsequent weiterlösen.", "ok", null],
+    ["Nie den Fall umdeuten.", "warn", null]
+   ],
+   "icon": "tabler:help-circle",
+   "iconFarbe": "GELB",
+   "figuren": {"K": {"kopf": "Long", "haut": "#D9A07A", "haar": "#5A2E1A", "oberteil": "#8FD3C8"}},
+   "figur": "K/erklaert"
+  },
+  {
+   "slot": "s8", "zeit": "17:04", "art": "tipp", "klausur": 1, "fach": "ust", "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-3",
+   "titel": ["Sonstige", "Leistung"],
+   "punkte": [
+    ["Alles, was keine Lieferung ist.", "ok", "§ 3 Abs. 9 S. 1 UStG"],
+    ["Auch Dulden oder Unterlassen.", "ok", "§ 3 Abs. 9 S. 2 UStG"]
+   ],
+   "icon": "tabler:hand-stop",
+   "iconFarbe": "GELB",
+   "figuren": {"T": {"kopf": "Dreads 1", "haut": "#8D5A3B", "haar": "#1E1E24", "oberteil": "#F2B880"}},
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3", "zeit": "19:00", "art": "teaser", "beitragSlot": "b3",
+   "titel": ["Dividende: immer 95 % frei?"],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9", "zeit": "19:12", "art": "merksatz", "klausur": 2, "fach": "kst", "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-6",
+   "titel": ["Einlagekonto:", "wann verwendet?"],
+   "zeilen": [
+    [["Erst ", null], ["ausschüttbarer", "a"]],
+    [["Gewinn", "a"], [", dann", null]],
+    [["Einlagekonto", "b"], [",", null]],
+    [["nie ", null], ["negativ", "c"]]
+   ],
+   "norm": "§ 27 Abs. 1 S. 3, 4 KStG",
+   "figuren": {"M": {"kopf": "Gray Medium", "haut": "#F1C7A5", "oberteil": "#9AD48F", "bart": "Goatee 2", "brille": "Glasses 5", "bueste": "Button Shirt 1"}},
+   "figur": "M:ruhig"
+  }
+ ]
+}
