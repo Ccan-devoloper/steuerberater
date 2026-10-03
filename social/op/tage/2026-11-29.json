@@ -313,7 +313,7 @@
      ]
     }
    ],
-   "caption": "Klausur 1 kompakt: die fünf Dauerbrenner dieser Woche.\n\n1. Vorläufige Festsetzung: Geändert werden darf nur, soweit der Vermerk reicht (§ 165 Abs. 2 S. 1 AO). Die Festsetzungsfrist endet frühestens ein Jahr, nachdem die Ungewissheit beseitigt ist und das Finanzamt davon Kenntnis erhalten hat; in den Katalogfällen zwei Jahre (§ 171 Abs. 8 AO).\n2. Innergemeinschaftliche Lieferung: Ort nach § 3 Abs. 6 S. 1 UStG, steuerbar, dann steuerfrei nach § 4 Nr. 1 Buchst. b, § 6a Abs. 1 UStG, unter anderem mit gültiger ausländischer USt-IdNr. des Abnehmers; ohne ordnungsgemäße Zusammenfassende Meldung entfällt die Befreiung.\n3. Differenzbesteuerung: Wiederverkäufer, Erwerb ohne geschuldete Umsatzsteuer, Marge als Bemessungsgrundlage ohne Umsatzsteuer, kein gesonderter Steuerausweis (§ 25a Abs. 1, 3 UStG; § 14a Abs. 6 UStG).\n4. Firmenwagen für Arbeitnehmer: Bei vertraglicher Vereinbarung und tatsächlicher Nutzung tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG; BFH vom 30.06.2022, V R 25/21). Lohnsteuerliche Werte als Bruttowerte, kein 20-%-Abschlag (Abschn. 15.23 Abs. 11 Nr. 1 UStAE).\n5. Freibetrag für Enkel: 200.000 €, bei vorverstorbenem Elternteil 400.000 € (§ 16 Abs. 1 Nr. 2, 3 ErbStG); Steuerklasse I (§ 15 Abs. 1 ErbStG).\n\nAußerdem diese Woche: Vollstreckung erst nach Fälligkeit, Leistungsgebot und einer Woche (§ 254 Abs. 1 S. 1 AO); Bekanntgabe am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO).\n\nZum Schluss: § 16 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Klausur 1 kompakt: die fünf Dauerbrenner dieser Woche.\n\n1. Vorläufige Festsetzung: Geändert werden darf nur, soweit der Vermerk reicht (§ 165 Abs. 2 S. 1 AO). Die Festsetzungsfrist endet frühestens ein Jahr, nachdem die Ungewissheit beseitigt ist und das Finanzamt davon Kenntnis erhalten hat; in den Katalogfällen zwei Jahre (§ 171 Abs. 8 AO).\n2. Innergemeinschaftliche Lieferung: Ort nach § 3 Abs. 6 S. 1 UStG, steuerbar, dann steuerfrei nach § 4 Nr. 1 Buchst. b, § 6a Abs. 1 UStG, unter anderem mit gültiger ausländischer USt-IdNr. des Abnehmers; ohne ordnungsgemäße Zusammenfassende Meldung entfällt die Befreiung.\n3. Differenzbesteuerung: Wiederverkäufer, Erwerb ohne geschuldete Umsatzsteuer, Marge als Bemessungsgrundlage ohne Umsatzsteuer, kein gesonderter Steuerausweis (§ 25a Abs. 1, 3 UStG; § 14a Abs. 6 UStG).\n4. Firmenwagen für Arbeitnehmer: Bei vertraglicher Vereinbarung und tatsächlicher Nutzung tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG; BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254). Lohnsteuerliche Werte als Bruttowerte, kein 20-%-Abschlag (Abschn. 15.23 Abs. 11 Nr. 1 UStAE).\n5. Freibetrag für Enkel: 200.000 €, bei vorverstorbenem Elternteil 400.000 € (§ 16 Abs. 1 Nr. 2, 3 ErbStG); Steuerklasse I (§ 15 Abs. 1 ErbStG).\n\nAußerdem diese Woche: Vollstreckung erst nach Fälligkeit, Leistungsgebot und einer Woche (§ 254 Abs. 1 S. 1 AO); Bekanntgabe am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO).\n\nZum Schluss: § 16 ErbStG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -330,7 +330,7 @@
     "§ 14a Abs. 6 UStG",
     "§ 3 Abs. 12 S. 2 UStG",
     "Abschn. 15.23 Abs. 11 Nr. 1 UStAE",
-    "BFH vom 30.06.2022, V R 25/21",
+    "BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254",
     "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
     "§ 15 Abs. 1 ErbStG",
     "§ 254 Abs. 1 S. 1 AO",
@@ -368,7 +368,7 @@
      ],
      "norm": "§ 11 Abs. 1 KStG",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 11 KStG",
+     "teaser": "+ Markier-Guide § 11 + R 11 KStR",
      "motiv": {
       "typ": "kalender",
       "monat": "JUNI",
@@ -617,11 +617,10 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Hättest du jedes Jahr veranlagt?",
-     "teaser": "Weiterwischen: § 11 KStG markiert"
+     "teaser": "Weiterwischen: § 11 + R 11 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
      "kopf": "§ 11 KStG Auflösung und Abwicklung (Auszug)",
      "absaetze": [
       [
@@ -674,12 +673,91 @@
       ]
      ],
      "randnotiz": [
-      "Daneben: R 11 Abs. 1 KStR",
-      "Rumpfjahr und Folgezeiträume"
-     ]
+      "Daneben: § 8 Abs. 1 KStG, § 10d Abs. 2 EStG",
+      "Verlustabzug zwischen den Zeiträumen"
+     ],
+     "zweite": {
+      "kopf": "R 11 KStR (Auszug)",
+      "absaetze": [
+       [
+        "(1) S. 2",
+        [
+         [
+          "Der Besteuerungszeitraum beginnt mit dem Wj.,",
+          null
+         ],
+         [
+          "in das die Auflösung fällt.",
+          "b1"
+         ]
+        ]
+       ],
+       [
+        "S. 3",
+        [
+         [
+          "Erfolgt die Auflösung im Laufe eines Wj., so",
+          null
+         ],
+         [
+          "kann ein Rumpfwirtschaftsjahr gebildet werden.",
+          "g1"
+         ]
+        ]
+       ],
+       [
+        "S. 4",
+        [
+         [
+          "Dieses Wahlrecht besteht",
+          null
+         ],
+         [
+          "nicht bei Eröffnung eines Insolvenzverfahrens",
+          "r1"
+         ],
+         [
+          "[…].",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 7",
+        [
+         [
+          "Bei einer Überschreitung des Dreijahreszeitraums sind die danach beginnenden weiteren Besteuerungszeiträume",
+          null
+         ],
+         [
+          "grundsätzlich jeweils auf ein Jahr begrenzt.",
+          "gr1"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Start",
+        "b1"
+       ],
+       [
+        "Wahlrecht",
+        "g1"
+       ],
+       [
+        "nicht in der Insolvenz",
+        "r1"
+       ],
+       [
+        "danach jährlich",
+        "gr1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Prüfungsfrage Liquidation: Wie lang ist der Besteuerungszeitraum der GmbH in der Abwicklung?\n\n▸ Wird eine Kapitalgesellschaft nach der Auflösung abgewickelt, wird der im Abwicklungszeitraum erzielte Gewinn besteuert; der Besteuerungszeitraum soll drei Jahre nicht übersteigen (§ 11 Abs. 1 S. 1, 2 KStG). Gewinn = Abwicklungs-Endvermögen minus Abwicklungs-Anfangsvermögen (§ 11 Abs. 2 KStG).\n▸ Startpunkt ist das Wirtschaftsjahr der Auflösung. Wird mitten im Jahr aufgelöst, darf die GmbH für die Monate davor ein eigenes Rumpfjahr bilden; es zählt dann nicht zur Abwicklung. Im Insolvenzverfahren gibt es diese Wahl nicht (R 11 Abs. 1 S. 2–6 KStR).\n▸ Nach Ablauf der drei Jahre sind die weiteren Besteuerungszeiträume grundsätzlich auf je ein Jahr begrenzt (R 11 Abs. 1 S. 7 KStR).\n▸ Fall mit Rumpfjahr: 01–06/2026 normale Veranlagung, 07/2026–06/2029, 07/2029–06/2030, 07–09/2030. Ohne Rumpfjahr: 2026–2028, 2029, 01–09/2030.\n▸ Verluste zwischen den Zeiträumen: Verlustabzug mit Mindestbesteuerung (§ 8 Abs. 1 KStG, § 10d Abs. 2 EStG).\n\nZum Schluss: § 11 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Prüfungsfrage Liquidation: Wie lang ist der Besteuerungszeitraum der GmbH in der Abwicklung?\n\n▸ Wird eine Kapitalgesellschaft nach der Auflösung abgewickelt, wird der im Abwicklungszeitraum erzielte Gewinn besteuert; der Besteuerungszeitraum soll drei Jahre nicht übersteigen (§ 11 Abs. 1 S. 1, 2 KStG). Gewinn = Abwicklungs-Endvermögen minus Abwicklungs-Anfangsvermögen (§ 11 Abs. 2 KStG).\n▸ Startpunkt ist das Wirtschaftsjahr der Auflösung. Wird mitten im Jahr aufgelöst, darf die GmbH für die Monate davor ein eigenes Rumpfjahr bilden; es zählt dann nicht zur Abwicklung. Im Insolvenzverfahren gibt es diese Wahl nicht (R 11 Abs. 1 S. 2–6 KStR).\n▸ Nach Ablauf der drei Jahre sind die weiteren Besteuerungszeiträume grundsätzlich auf je ein Jahr begrenzt (R 11 Abs. 1 S. 7 KStR).\n▸ Fall mit Rumpfjahr: 01–06/2026 normale Veranlagung, 07/2026–06/2029, 07/2029–06/2030, 07–09/2030. Ohne Rumpfjahr: 2026–2028, 2029, 01–09/2030.\n▸ Verluste zwischen den Zeiträumen: Verlustabzug mit Mindestbesteuerung (§ 8 Abs. 1 KStG, § 10d Abs. 2 EStG).\n\nZum Schluss: § 11 KStG und R 11 KStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

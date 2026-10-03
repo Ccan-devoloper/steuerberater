@@ -390,7 +390,7 @@
      ],
      "norm": "§ 20 UmwStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 20 UmwStG",
+     "teaser": "+ Markier-Guide § 20 + UmwStE",
      "motiv": {
       "typ": "icon",
       "name": "tabler:transfer",
@@ -409,7 +409,7 @@
       ],
       [
        "Was gehört dazu?",
-       "UmwStE Rn. 20.10",
+       "UmwStE Rn. 20.06, 20.10",
        "Anteil plus wesentliches SBV"
       ],
       [
@@ -423,7 +423,7 @@
        "Antrag der GmbH"
       ]
      ],
-     "teaser": "Am Ende: § 20 UmwStG markiert"
+     "teaser": "Am Ende: § 20 UmwStG + UmwStE markiert"
     },
     {
      "typ": "inhalt",
@@ -466,7 +466,7 @@
        "Funktional wesentliches Sonderbetriebsvermögen muss mit in die GmbH.",
        "warn",
        "Bold",
-       "UmwStE Rn. 20.10"
+       "UmwStE Rn. 20.06, 20.10"
       ],
       [
        "Bleibt es zurück, scheidet § 20 UmwStG aus.",
@@ -638,11 +638,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Wie viel Grundstück hätte gereicht?",
-     "teaser": "Weiterwischen: § 20 UmwStG markiert"
+     "teaser": "Weiterwischen: § 20 + UmwStE markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 20 UmwStG (Auszug)",
      "absaetze": [
       [
@@ -657,7 +657,7 @@
          "g1"
         ],
         [
-         "in eine Kapitalgesellschaft oder eine Genossenschaft (übernehmende Gesellschaft) eingebracht und erhält der Einbringende dafür",
+         "in eine Kapitalgesellschaft […] eingebracht und erhält der Einbringende dafür",
          null
         ],
         [
@@ -715,12 +715,94 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: UmwStE Rn. 20.10, 20.11",
-      "SBV gehört zum Anteil, beim Teil quotal"
-     ]
+      "Antrag: § 20 Abs. 2 S. 3 UmwStG",
+      "spätestens mit der steuerlichen Schlussbilanz"
+     ],
+     "zweite": {
+      "kopf": "UmwStE 2025 (Auszug)",
+      "absaetze": [
+       [
+        "Rn. 20.06",
+        [
+         [
+          "[…] Es genügt nicht, der Kapitalgesellschaft diese Wirtschaftsgüter",
+          null
+         ],
+         [
+          "nur zur Nutzung zu überlassen.",
+          "r1"
+         ],
+         [
+          "Dies gilt auch für solche […] Wirtschaftsgüter, die zum",
+          null
+         ],
+         [
+          "Sonderbetriebsvermögen",
+          "b1"
+         ],
+         [
+          "eines Gesellschafters gehören.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 20.10",
+        [
+         [
+          "Die Grundsätze der vorstehenden Rn. 20.05 – 20.09 gelten",
+          null
+         ],
+         [
+          "sinngemäß",
+          "g1"
+         ],
+         [
+          "auch für die Einbringung von Mitunternehmeranteilen.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 20.11",
+        [
+         [
+          "[…] Bei der Übertragung eines Teils eines Mitunternehmeranteils muss auch jedes zugehörige (funktional wesentliche) Wirtschaftsgut des Sonderbetriebsvermögens anteilig",
+          null
+         ],
+         [
+          "mindestens in demselben Verhältnis",
+          "gr1"
+         ],
+         [
+          "übergehen, […]",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Nutzung reicht nicht",
+        "r1"
+       ],
+       [
+        "SBV mit!",
+        "b1"
+       ],
+       [
+        "gilt auch hier",
+        "g1"
+       ],
+       [
+        "Quote!",
+        "gr1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Mitunternehmeranteil in eine GmbH einbringen: das Prüfschema für Klausur 3.\n\n1. Mitunternehmeranteil: Beteiligung an einer Personengesellschaft mit Gewinneinkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG), auch einer gewerblich geprägten (§ 15 Abs. 3 Nr. 2 EStG); eine rein vermögensverwaltende Gesellschaft genügt nicht.\n2. Zum Anteil gehört funktional wesentliches Sonderbetriebsvermögen; es muss mit eingebracht werden (BMF vom 11.11.2011, UmwStE Rn. 20.10).\n3. Teilanteil: begünstigt, wenn wesentliches Sonderbetriebsvermögen mindestens in derselben Quote mit übergeht (UmwStE Rn. 20.11). Kein Freibetrag nach § 16 Abs. 4 EStG und keine Tarifermäßigung (§ 20 Abs. 4 UmwStG). Ohne § 20 UmwStG ist der Gewinn aus dem Teilanteil laufender Gewinn (§ 16 Abs. 1 S. 2 EStG).\n4. Wertansatz: grundsätzlich gemeiner Wert; auf Antrag Buch- oder Zwischenwert (§ 20 Abs. 2 S. 1, 2 UmwStG). Antrag der übernehmenden Gesellschaft spätestens bis zur erstmaligen Abgabe der steuerlichen Schlussbilanz bei ihrem Finanzamt (§ 20 Abs. 2 S. 3 UmwStG).\n\nZum Schluss: § 20 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mitunternehmeranteil in eine GmbH einbringen: das Prüfschema für Klausur 3.\n\n1. Mitunternehmeranteil: Beteiligung an einer Personengesellschaft mit Gewinneinkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG), auch einer gewerblich geprägten (§ 15 Abs. 3 Nr. 2 EStG); eine rein vermögensverwaltende Gesellschaft genügt nicht.\n2. Zum Anteil gehört funktional wesentliches Sonderbetriebsvermögen; es muss mit eingebracht werden (BMF vom 02.01.2025, UmwStE Rn. 20.06, 20.10).\n3. Teilanteil: begünstigt, wenn wesentliches Sonderbetriebsvermögen mindestens in derselben Quote mit übergeht (UmwStE Rn. 20.11). Kein Freibetrag nach § 16 Abs. 4 EStG und keine Tarifermäßigung (§ 20 Abs. 4 UmwStG). Ohne § 20 UmwStG ist der Gewinn aus dem Teilanteil laufender Gewinn (§ 16 Abs. 1 S. 2 EStG).\n4. Wertansatz: grundsätzlich gemeiner Wert; auf Antrag Buch- oder Zwischenwert (§ 20 Abs. 2 S. 1, 2 UmwStG). Antrag der übernehmenden Gesellschaft spätestens bis zur erstmaligen Abgabe der steuerlichen Schlussbilanz bei ihrem Finanzamt (§ 20 Abs. 2 S. 3 UmwStG).\n\nZum Schluss: § 20 UmwStG und der UmwStE zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -731,7 +813,7 @@
     "§ 20 Abs. 1, 2, 4 UmwStG",
     "§ 15 Abs. 1 S. 1 Nr. 2, Abs. 3 Nr. 2 EStG",
     "§ 16 Abs. 1 S. 2 EStG",
-    "BMF vom 11.11.2011 (UmwStE), Rn. 20.10, 20.11"
+    "BMF vom 02.01.2025 (UmwStE), BStBl I 2025, 92, Rn. 20.06, 20.10, 20.11"
    ]
   },
   {

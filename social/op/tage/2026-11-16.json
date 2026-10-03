@@ -404,7 +404,7 @@
      ],
      "norm": "§§ 178, 179 BewG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 179 BewG",
+     "teaser": "+ Markier-Guide § 179 + R B 179.2",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -452,7 +452,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 179 BewG markiert"
+     "teaser": "Am Ende: § 179 + R B 179.2 markiert"
     },
     {
      "typ": "inhalt",
@@ -675,11 +675,10 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Welcher Schritt kostet dich Punkte?",
-     "teaser": "Weiterwischen: § 179 BewG markiert"
+     "teaser": "Weiterwischen: § 179 + R B 179.2 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
      "kopf": "§ 179 BewG Unbebaute Grundstücke",
      "absaetze": [
       [
@@ -729,10 +728,88 @@
      "randnotiz": [
       "Randnotiz: § 198 BewG",
       "Niedrigerer gemeiner Wert per Gutachten"
-     ]
+     ],
+     "zweite": {
+      "kopf": "R B 179.2 ErbStR (Auszug)",
+      "absaetze": [
+       [
+        "(1) S. 9",
+        [
+         [
+          "Der Wert von Grundstücken, die von den wertbeeinflussenden Grundstücksmerkmalen des Bodenrichtwertgrundstücks",
+          null
+         ],
+         [
+          "abweichen,",
+          "b1"
+         ],
+         [
+          "ist grundsätzlich",
+          null
+         ],
+         [
+          "nach den Vorgaben des Gutachterausschusses",
+          "g1"
+         ],
+         [
+          "[…] aus dem Bodenrichtwert der jeweiligen Richtwertzone abzuleiten.",
+          null
+         ]
+        ]
+       ],
+       [
+        "(4) S. 1",
+        [
+         [
+          "Sind die Bodenrichtwerte in Abhängigkeit von der Grundstückstiefe ermittelt worden,",
+          null
+         ],
+         [
+          "ist die Grundstücksfläche aufzuteilen.",
+          "r1"
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Dabei ist die Grundstücksfläche",
+          null
+         ],
+         [
+          "nach ihrer Tiefe in Zonen zu gliedern,",
+          "gr1"
+         ],
+         [
+          "deren Abgrenzung sich nach den Vorgaben des Gutachterausschusses richtet.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Tiefe, GFZ",
+        "b1"
+       ],
+       [
+        "Gutachterausschuss",
+        "g1"
+       ],
+       [
+        "Fläche teilen",
+        "r1"
+       ],
+       [
+        "vorne / hinten",
+        "gr1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Unbebautes Grundstück bewerten: das Prüfschema für die Erbschaftsteuer-Klausur und für die Mündliche.\n\n1. Unbebaut ist ein Grundstück ohne benutzbares Gebäude; benutzbar ab Bezugsfertigkeit, die Bauabnahme entscheidet nicht; dauerhaft unnutzbare Gebäude und Ruinen zählen als unbebaut (§ 178 Abs. 1, 2 BewG).\n2. Wert = Fläche × Bodenrichtwert (§ 179 S. 1 BewG). Anzusetzen ist der Bodenrichtwert, der zuletzt vor dem Bewertungsstichtag zu ermitteln war (§ 179 S. 3 BewG); ermittelt wird er in der Regel zu Beginn jedes zweiten Kalenderjahres (§ 196 Abs. 1 S. 5 BauGB). Fehlt ein Richtwert, wird aus vergleichbaren Flächen abgeleitet (§ 179 S. 4 BewG).\n3. Abweichende Merkmale wie Grundstückstiefe oder Geschossflächenzahl werden nach den Vorgaben des Gutachterausschusses berücksichtigt, Tiefenzonen getrennt bewertet (R B 179.2 ErbStR).\n4. Niedrigerer gemeiner Wert nur per Nachweis, regelmäßig Gutachten (§ 198 BewG).\n\nBeispiel: 400 m² × 380 € + 240 m² × 190 € = 197.600 €.\n\nZum Schluss: § 179 BewG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Unbebautes Grundstück bewerten: das Prüfschema für die Erbschaftsteuer-Klausur und für die Mündliche.\n\n1. Unbebaut ist ein Grundstück ohne benutzbares Gebäude; benutzbar ab Bezugsfertigkeit, die Bauabnahme entscheidet nicht; dauerhaft unnutzbare Gebäude und Ruinen zählen als unbebaut (§ 178 Abs. 1, 2 BewG).\n2. Wert = Fläche × Bodenrichtwert (§ 179 S. 1 BewG). Anzusetzen ist der Bodenrichtwert, der zuletzt vor dem Bewertungsstichtag zu ermitteln war (§ 179 S. 3 BewG); ermittelt wird er in der Regel zu Beginn jedes zweiten Kalenderjahres (§ 196 Abs. 1 S. 5 BauGB). Fehlt ein Richtwert, wird aus vergleichbaren Flächen abgeleitet (§ 179 S. 4 BewG).\n3. Abweichende Merkmale wie Grundstückstiefe oder Geschossflächenzahl werden nach den Vorgaben des Gutachterausschusses berücksichtigt, Tiefenzonen getrennt bewertet (R B 179.2 Abs. 1 S. 9, Abs. 4 ErbStR).\n4. Niedrigerer gemeiner Wert nur per Nachweis, regelmäßig Gutachten (§ 198 BewG).\n\nBeispiel: 400 m² × 380 € + 240 m² × 190 € = 197.600 €.\n\nZum Schluss: § 179 BewG und R B 179.2 ErbStR zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

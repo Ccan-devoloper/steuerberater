@@ -373,7 +373,7 @@
      ],
      "norm": "§ 19 Abs. 1 UStG",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 19 UStG",
+     "teaser": "+ Markier-Guide § 19 + UStAE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -458,7 +458,7 @@
        "Schon der Umsatz, mit dem 100.000 € überschritten werden, ist regulär zu versteuern.",
        "warn",
        "Bold",
-       "Abschn. 19.1 UStAE"
+       "Abschn. 19.1 Abs. 2 S. 4 UStAE"
       ],
       [
        "Frühere Umsätze desselben Jahres bleiben steuerfrei.",
@@ -485,7 +485,7 @@
        "Auftrag über 7.000 €: Summe 103.000 €, dieser Umsatz ist schon steuerpflichtig.",
        "nein",
        "Bold",
-       "Abschn. 19.1 UStAE"
+       "Abschn. 19.1 Abs. 2 S. 4 UStAE"
       ],
       [
        "2027: Regelbesteuerung, weil 2026 über 25.000 € lag.",
@@ -527,13 +527,13 @@
        "Im Jahr der Aufnahme zählt allein der Umsatz dieses Jahres.",
        "ok",
        "Regular",
-       "Abschn. 19.1 UStAE"
+       "Abschn. 19.1 Abs. 3 UStAE"
       ],
       [
        "Grenze dann: 25.000 €, nicht 100.000 €.",
        "warn",
        "Bold",
-       "Abschn. 19.1 UStAE"
+       "Abschn. 19.1 Abs. 3 UStAE"
       ]
      ],
      "figur": "A:froh",
@@ -617,11 +617,11 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Hättest du den 7.000-€-Auftrag erkannt?",
-     "teaser": "Weiterwischen: § 19 UStG markiert"
+     "teaser": "Weiterwischen: § 19 + UStAE markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 19 UStG Kleinunternehmer (Auszug)",
      "absaetze": [
       [
@@ -694,12 +694,78 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: Abschn. 19.1 UStAE",
-      "Grenzumsatz und Gründungsjahr"
-     ]
+      "Daneben: § 15 Abs. 2 S. 1 Nr. 1 UStG",
+      "Steuerfrei heißt: kein Vorsteuerabzug"
+     ],
+     "zweite": {
+      "kopf": "Abschn. 19.1 UStAE (Auszug)",
+      "absaetze": [
+       [
+        "(2) S. 4",
+        [
+         [
+          "Bereits der Umsatz, mit dem diese Grenze überschritten wird,",
+          "r1"
+         ],
+         [
+          "ist nicht mehr nach § 19 Abs. 1 UStG steuerfrei.",
+          null
+         ]
+        ]
+       ],
+       [
+        "(3) S. 1",
+        [
+         [
+          "Nimmt der Unternehmer seine gewerbliche oder berufliche Tätigkeit im Laufe eines Kalenderjahres […] neu auf, ist in diesen Fällen",
+          null
+         ],
+         [
+          "allein auf den tatsächlichen inländischen Gesamtumsatz […] des laufenden Kalenderjahres",
+          "b1"
+         ],
+         [
+          "abzustellen […].",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "[…] ist im Jahr der Aufnahme der Tätigkeit",
+          null
+         ],
+         [
+          "die Grenze von 25 000 €",
+          "gr1"
+         ],
+         [
+          "und nicht die Grenze von 100 000 € maßgebend […].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "schon dieser!",
+        "r1"
+       ],
+       [
+        "Gründungsjahr",
+        "b1"
+       ],
+       [
+        "25.000 €",
+        "gr1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Prüfungsfrage zur Kleinunternehmerregelung seit 2025: Welche Grenzen gelten nach § 19 UStG?\n\n▸ Umsätze sind steuerfrei, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet (§ 19 Abs. 1 S. 1 UStG). Kein Vorsteuerabzug für steuerfreie Umsätze (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n▸ Gesamtumsatz nach vereinnahmten Entgelten; bestimmte steuerfreie Umsätze und Umsätze mit Anlagevermögen bleiben außer Ansatz (§ 19 Abs. 2 UStG).\n▸ Bereits der Umsatz, mit dem die 100.000-€-Grenze überschritten wird, unterliegt der Regelbesteuerung; frühere Umsätze bleiben steuerfrei (Abschn. 19.1 UStAE i. d. F. des BMF-Schreibens vom 18.03.2025).\n▸ Bei Neuaufnahme der Tätigkeit zählt allein der Umsatz des laufenden Jahres, Grenze 25.000 € (Abschn. 19.1 UStAE).\n\nBeispiel: 96.000 € steuerfrei, der Auftrag über 7.000 € (Summe 103.000 €) ist steuerpflichtig, 2027 Regelbesteuerung.\n\nZum Schluss: § 19 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Prüfungsfrage zur Kleinunternehmerregelung seit 2025: Welche Grenzen gelten nach § 19 UStG?\n\n▸ Umsätze sind steuerfrei, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet (§ 19 Abs. 1 S. 1 UStG). Kein Vorsteuerabzug für steuerfreie Umsätze (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n▸ Gesamtumsatz nach vereinnahmten Entgelten; bestimmte steuerfreie Umsätze und Umsätze mit Anlagevermögen bleiben außer Ansatz (§ 19 Abs. 2 UStG).\n▸ Bereits der Umsatz, mit dem die 100.000-€-Grenze überschritten wird, unterliegt der Regelbesteuerung; frühere Umsätze bleiben steuerfrei (Abschn. 19.1 Abs. 2 S. 4 UStAE i. d. F. des BMF-Schreibens vom 18.03.2025).\n▸ Bei Neuaufnahme der Tätigkeit zählt allein der Umsatz des laufenden Jahres, Grenze 25.000 € (Abschn. 19.1 Abs. 3 UStAE).\n\nBeispiel: 96.000 € steuerfrei, der Auftrag über 7.000 € (Summe 103.000 €) ist steuerpflichtig, 2027 Regelbesteuerung.\n\nZum Schluss: § 19 UStG und Abschn. 19.1 UStAE zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

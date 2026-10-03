@@ -340,7 +340,7 @@
      ],
      "norm": "§ 8 Abs. 3 S. 2 KStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 8 + R 8.5",
+     "teaser": "+ Markier-Guide § 8 KStG",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -388,7 +388,7 @@
        "außerhalb der Bilanz"
       ]
      ],
-     "teaser": "Am Ende: § 8 KStG + R 8.5 markiert"
+     "teaser": "Am Ende: § 8 KStG markiert"
     },
     {
      "typ": "inhalt",
@@ -581,11 +581,11 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welcher Schritt fehlt dir oft?",
-     "teaser": "Weiterwischen: § 8 KStG + R 8.5 markiert"
+     "teaser": "Weiterwischen: § 8 KStG markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Gesetz und Richtlinie markieren",
+     "titel": "Im Gesetz markieren",
      "kopf": "§ 8 KStG, § 20 EStG (Auszug)",
      "absaetze": [
       [
@@ -638,85 +638,12 @@
       ]
      ],
      "randnotiz": [
-      "Nahestehende Person: R 8.5 Abs. 1 S. 3 KStR",
-      "Vorteil an Angehörige reicht auch"
-     ],
-     "zweite": {
-      "kopf": "R 8.5 KStR (Auszug)",
-      "absaetze": [
-       [
-        "Abs. 1 S. 1",
-        [
-         [
-          "Eine vGA […] ist eine",
-          null
-         ],
-         [
-          "Vermögensminderung oder verhinderte Vermögensmehrung,",
-          "g2"
-         ],
-         [
-          "die",
-          null
-         ],
-         [
-          "durch das Gesellschaftsverhältnis veranlasst",
-          "b2"
-         ],
-         [
-          "ist, […] und nicht auf einem […] Gewinnverteilungsbeschluss beruht.",
-          null
-         ]
-        ]
-       ],
-       [
-        "Abs. 2 S. 1",
-        [
-         [
-          "Im Verhältnis zwischen Gesellschaft und",
-          null
-         ],
-         [
-          "beherrschendem Gesellschafter",
-          "r2"
-         ],
-         [
-          "ist eine Veranlassung […] i. d. R. auch dann anzunehmen, wenn es an einer",
-          null
-         ],
-         [
-          "zivilrechtlich wirksamen, klaren, eindeutigen und im Voraus abgeschlossenen Vereinbarung",
-          "gr2"
-         ],
-         [
-          "[…] fehlt […]",
-          null
-         ]
-        ]
-       ]
-      ],
-      "notizen": [
-       [
-        "Minderung",
-        "g2"
-       ],
-       [
-        "Auslöser",
-        "b2"
-       ],
-       [
-        "über 50 %",
-        "r2"
-       ],
-       [
-        "sonst vGA",
-        "gr2"
-       ]
-      ]
-     }
+      "Randnotiz: R 8.5 KStR",
+      "Begriff und beherrschender Gesellschafter"
+     ]
     }
    ],
-   "caption": "Verdeckte Gewinnausschüttung sicher prüfen – das Schema in 4 Schritten.\n\n1. Vorteil: zugunsten eines Gesellschafters oder einer nahestehenden Person (R 8.5 Abs. 1 S. 3 KStR).\n2. Vermögensminderung oder verhinderte Vermögensmehrung mit Auswirkung auf den Unterschiedsbetrag, ohne Gewinnverteilungsbeschluss (R 8.5 Abs. 1 S. 1 KStR).\n3. Veranlassung durch das Gesellschaftsverhältnis: Fremdvergleich; beim beherrschenden Gesellschafter schon dann, wenn eine zivilrechtlich wirksame, klare und im Voraus getroffene Vereinbarung fehlt (R 8.5 Abs. 2 S. 1 KStR).\n4. Rechtsfolge: Die vGA mindert das Einkommen nicht, Korrektur außerhalb der Bilanz (§ 8 Abs. 3 S. 2 KStG). Beim Gesellschafter gehört sie zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nIm Beispiel: Miete 36.000 € statt angemessen 24.000 € → vGA 12.000 €; Einkommen 90.000 € + 12.000 € = 102.000 €. Bei Maren: 24.000 € Vermietungseinkünfte (§ 21 Abs. 1 S. 1 Nr. 1 EStG), 12.000 € Kapitalerträge.\n\nZum Schluss: § 8 Abs. 3 KStG, § 20 Abs. 1 Nr. 1 EStG und R 8.5 KStR zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Verdeckte Gewinnausschüttung sicher prüfen – das Schema in 4 Schritten.\n\n1. Vorteil: zugunsten eines Gesellschafters oder einer nahestehenden Person (R 8.5 Abs. 1 S. 3 KStR).\n2. Vermögensminderung oder verhinderte Vermögensmehrung mit Auswirkung auf den Unterschiedsbetrag, ohne Gewinnverteilungsbeschluss (R 8.5 Abs. 1 S. 1 KStR).\n3. Veranlassung durch das Gesellschaftsverhältnis: Fremdvergleich; beim beherrschenden Gesellschafter schon dann, wenn eine zivilrechtlich wirksame, klare und im Voraus getroffene Vereinbarung fehlt (R 8.5 Abs. 2 S. 1 KStR).\n4. Rechtsfolge: Die vGA mindert das Einkommen nicht, Korrektur außerhalb der Bilanz (§ 8 Abs. 3 S. 2 KStG). Beim Gesellschafter gehört sie zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nIm Beispiel: Miete 36.000 € statt angemessen 24.000 € → vGA 12.000 €; Einkommen 90.000 € + 12.000 € = 102.000 €. Bei Maren: 24.000 € Vermietungseinkünfte (§ 21 Abs. 1 S. 1 Nr. 1 EStG), 12.000 € Kapitalerträge.\n\nZum Schluss: § 8 Abs. 3 KStG und § 20 Abs. 1 Nr. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

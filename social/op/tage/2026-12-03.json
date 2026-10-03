@@ -30,7 +30,7 @@
      ],
      "norm": "§ 15 Abs. 2 S. 1 EStG",
      "unter": "auf einer Karte",
-     "teaser": "+ Markier-Guide § 15 EStG",
+     "teaser": "+ Markier-Guide § 15 + R 15.7",
      "motiv": {
       "typ": "icon",
       "name": "tabler:building-store",
@@ -63,7 +63,7 @@
        "keine LuF, kein Freiberuf, kein Verwalten"
       ]
      ],
-     "teaser": "Am Ende: § 15 EStG markiert"
+     "teaser": "Am Ende: § 15 + R 15.7 markiert"
     },
     {
      "typ": "inhalt",
@@ -110,7 +110,7 @@
       "punkte": [
        [
         "Mehr als drei Objekte binnen fünf Jahren verkauft",
-        "BMF vom 26.03.2004"
+        "BMF vom 26.03.2004, Tz. 5"
        ],
        [
         "Hotelähnliche Zusatzleistungen",
@@ -167,7 +167,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welches Merkmal prüfst du zu knapp?",
-     "teaser": "Weiterwischen: § 15 EStG markiert"
+     "teaser": "Weiterwischen: § 15 + R 15.7 markiert"
     },
     {
      "typ": "gesetz",
@@ -231,12 +231,96 @@
       ]
      ],
      "randnotiz": [
-      "Nicht im Gesetz: Vermögensverwaltung",
-      "Abgrenzung nach R 15.7 Abs. 1 EStR"
+      "Daneben: §§ 20, 21 EStG",
+      "Vermieten und Anlegen bleiben dort"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 15.7 EStR (Auszug)",
+     "absaetze": [
+      [
+       "(1) S. 1",
+       [
+        [
+         "Die",
+         null
+        ],
+        [
+         "bloße Verwaltung eigenen Vermögens",
+         "g1"
+        ],
+        [
+         "ist regelmäßig keine gewerbliche Tätigkeit.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Vermögensverwaltung liegt vor, wenn sich die Betätigung noch als",
+         null
+        ],
+        [
+         "Nutzung von Vermögen im Sinne einer Fruchtziehung aus zu erhaltenden Substanzwerten",
+         "b1"
+        ],
+        [
+         "darstellt und die",
+         null
+        ],
+        [
+         "Ausnutzung substantieller Vermögenswerte durch Umschichtung",
+         "r1"
+        ],
+        [
+         "nicht entscheidend in den Vordergrund tritt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Ein Gewerbebetrieb liegt dagegen vor, wenn eine selbständige nachhaltige Betätigung mit Gewinnabsicht unternommen wird, sich als Beteiligung am allgemeinen wirtschaftlichen Verkehr darstellt und",
+         null
+        ],
+        [
+         "über den Rahmen einer Vermögensverwaltung hinausgeht.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Regel",
+       "g1"
+      ],
+      [
+       "Miete, Zinsen",
+       "b1"
+      ],
+      [
+       "Umschichten",
+       "r1"
+      ],
+      [
+       "5. Merkmal",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Drei-Objekt-Grenze: BMF vom 26.03.2004, Tz. 5",
+      "mehr als drei Objekte in fünf Jahren"
      ]
     }
    ],
-   "caption": "Gewerblich oder nicht? Der Spickzettel zu § 15 Abs. 2 EStG für die Ertragsteuerklausur.\n\n1. Selbständig: eigenes Unternehmerrisiko und eigene Unternehmerinitiative.\n2. Nachhaltig: schon bei Wiederholungsabsicht.\n3. Gewinnabsicht: Eine Minderung der Steuern vom Einkommen ist kein Gewinn; Gewinnabsicht als Nebenzweck genügt (§ 15 Abs. 2 S. 2, 3 EStG).\n4. Teilnahme am Markt, also Leistungen für Dritte erkennbar anbieten (§ 15 Abs. 2 S. 1 EStG).\n5. Keine Land- und Forstwirtschaft, kein freier Beruf, keine andere selbständige Arbeit (§ 15 Abs. 2 S. 1 EStG) und keine bloße Vermögensverwaltung (R 15.7 Abs. 1 EStR).\n\nGrenzfälle: Langfristige Vermietung und das Halten von Wertpapieren bleiben Vermögensverwaltung (§§ 20, 21 EStG). Gewerblicher Grundstückshandel bei Verkauf von mehr als drei Objekten innerhalb von fünf Jahren (BMF vom 26.03.2004).\n\nZum Schluss: § 15 Abs. 2 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Gewerblich oder nicht? Der Spickzettel zu § 15 Abs. 2 EStG für die Ertragsteuerklausur.\n\n1. Selbständig: eigenes Unternehmerrisiko und eigene Unternehmerinitiative.\n2. Nachhaltig: schon bei Wiederholungsabsicht.\n3. Gewinnabsicht: Eine Minderung der Steuern vom Einkommen ist kein Gewinn; Gewinnabsicht als Nebenzweck genügt (§ 15 Abs. 2 S. 2, 3 EStG).\n4. Teilnahme am Markt, also Leistungen für Dritte erkennbar anbieten (§ 15 Abs. 2 S. 1 EStG).\n5. Keine Land- und Forstwirtschaft, kein freier Beruf, keine andere selbständige Arbeit (§ 15 Abs. 2 S. 1 EStG) und keine bloße Vermögensverwaltung (R 15.7 Abs. 1 EStR).\n\nGrenzfälle: Langfristige Vermietung und das Halten von Wertpapieren bleiben Vermögensverwaltung (§§ 20, 21 EStG). Gewerblicher Grundstückshandel bei Verkauf von mehr als drei Objekten innerhalb von fünf Jahren (BMF vom 26.03.2004, BStBl I 2004, 434, Tz. 5).\n\nZum Schluss: § 15 Abs. 2 EStG und R 15.7 Abs. 1 EStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -247,7 +331,7 @@
     "§ 15 Abs. 2 S. 1–3 EStG",
     "R 15.7 Abs. 1 EStR",
     "§§ 20, 21 EStG",
-    "BMF vom 26.03.2004 (gewerblicher Grundstückshandel)"
+    "BMF vom 26.03.2004, BStBl I 2004, 434, Tz. 5 (gewerblicher Grundstückshandel)"
    ]
   },
   {

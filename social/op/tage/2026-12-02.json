@@ -402,7 +402,7 @@
      ],
      "norm": "§ 8 AO",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 8 AO",
+     "teaser": "+ Markier-Guide § 8 + AEAO",
      "motiv": {
       "typ": "icon",
       "name": "tabler:home-question",
@@ -435,7 +435,7 @@
        "unbeschränkt steuerpflichtig"
       ]
      ],
-     "teaser": "Am Ende: § 8 AO markiert"
+     "teaser": "Am Ende: § 8 AO + AEAO markiert"
     },
     {
      "typ": "inhalt",
@@ -586,7 +586,7 @@
        "An Fremde vermietet: Sven kann nicht mehr jederzeit darüber verfügen.",
        "nein",
        "Regular",
-       "§ 8 AO"
+       "AEAO zu § 8, Nr. 6"
       ],
       [
        "Kein Wohnsitz im Inland mehr.",
@@ -660,11 +660,11 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Wo hast du einen Wohnsitz?",
-     "teaser": "Weiterwischen: § 8 AO markiert"
+     "teaser": "Weiterwischen: § 8 + AEAO markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 8 AO Wohnsitz · § 1 EStG (Auszug)",
      "absaetze": [
       [
@@ -731,10 +731,92 @@
      "randnotiz": [
       "Daneben: § 9 AO",
       "Gewöhnlicher Aufenthalt als zweiter Anknüpfungspunkt"
-     ]
+     ],
+     "zweite": {
+      "kopf": "AEAO zu § 8 (Auszug)",
+      "absaetze": [
+       [
+        "Nr. 1.2",
+        [
+         [
+          "Die bloße Absicht, einen Wohnsitz zu begründen oder aufzugeben, bzw.",
+          null
+         ],
+         [
+          "die An- und Abmeldung bei der Ordnungsbehörde entfalten allein keine unmittelbare steuerliche Wirkung",
+          "r1"
+         ],
+         [
+          "[…].",
+          null
+         ]
+        ]
+       ],
+       [
+        "Nr. 3",
+        [
+         [
+          "[…] Danach muss die Wohnung in objektiver Hinsicht dem Steuerpflichtigen",
+          null
+         ],
+         [
+          "jederzeit (wann immer er es wünscht), als Bleibe",
+          "b1"
+         ],
+         [
+          "zur Verfügung stehen.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Nr. 6",
+        [
+         [
+          "[…] Wird die inländische Wohnung",
+          null
+         ],
+         [
+          "zur bloßen Vermögensverwaltung",
+          "gr1"
+         ],
+         [
+          "zurückgelassen, endet der Wohnsitz mit dem Wegzug. Bloße Vermögensverwaltung liegt z. B. vor, wenn ein ins Ausland versetzter Steuerpflichtiger […] seine Wohnung/sein Haus verkaufen oder",
+          null
+         ],
+         [
+          "langfristig vermieten",
+          "g2"
+         ],
+         [
+          "will […].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Meldeamt egal",
+        "r1"
+       ],
+       [
+        "Innehaben",
+        "b1"
+       ],
+       [
+        "Wohnsitz endet",
+        "gr1"
+       ],
+       [
+        "Svens Variante",
+        "g2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Wohnsitz nach § 8 AO in 4 Schritten – das Prüfschema für die Ertragsteuerklausur mit internationalem Bezug.\n\n1. Wohnung: feste Räume, die sich auf Dauer zum Wohnen eignen; eine bescheidene Bleibe genügt (AEAO zu § 8).\n2. Innehaben: Die Wohnung steht jederzeit als Bleibe zur Verfügung; bei Vermietung an Fremde fehlt es daran (§ 8 AO; AEAO zu § 8).\n3. Umstände, die auf Beibehalten und Benutzen schließen lassen; Nutzung über bloße Besuche hinaus, keine Mindesttage; mehrere Wohnsitze im In- und Ausland möglich (§ 8 AO; AEAO zu § 8).\n4. Folge: unbeschränkte Einkommensteuerpflicht (§ 1 Abs. 1 S. 1 EStG); danach Ansässigkeit nach DBA (Art. 4 Abs. 2 OECD-MA).\n\nAchtung: An- und Abmeldung beim Meldeamt entscheiden nicht, es zählen die tatsächlichen Verhältnisse (AEAO zu § 8).\n\nFall: Sven arbeitet in Zürich, behält seine eingerichtete Wohnung in Freiburg und nutzt sie regelmäßig: Wohnsitz im Inland. Vermietet er sie für drei Jahre an Fremde, fehlt das Innehaben.\n\nZum Schluss: § 8 AO und § 1 Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Wohnsitz nach § 8 AO in 4 Schritten – das Prüfschema für die Ertragsteuerklausur mit internationalem Bezug.\n\n1. Wohnung: feste Räume, die sich auf Dauer zum Wohnen eignen; eine bescheidene Bleibe genügt (AEAO zu § 8).\n2. Innehaben: Die Wohnung steht jederzeit als Bleibe zur Verfügung; bei Vermietung an Fremde fehlt es daran (§ 8 AO; AEAO zu § 8).\n3. Umstände, die auf Beibehalten und Benutzen schließen lassen; Nutzung über bloße Besuche hinaus, keine Mindesttage; mehrere Wohnsitze im In- und Ausland möglich (§ 8 AO; AEAO zu § 8).\n4. Folge: unbeschränkte Einkommensteuerpflicht (§ 1 Abs. 1 S. 1 EStG); danach Ansässigkeit nach DBA (Art. 4 Abs. 2 OECD-MA).\n\nAchtung: An- und Abmeldung beim Meldeamt entscheiden nicht, es zählen die tatsächlichen Verhältnisse (AEAO zu § 8).\n\nFall: Sven arbeitet in Zürich, behält seine eingerichtete Wohnung in Freiburg und nutzt sie regelmäßig: Wohnsitz im Inland. Vermietet er sie für drei Jahre an Fremde, endet der Wohnsitz: Die Wohnung dient nur noch der Vermögensverwaltung (AEAO zu § 8, Nr. 6).\n\nZum Schluss: § 8 AO, § 1 Abs. 1 EStG und AEAO zu § 8 zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

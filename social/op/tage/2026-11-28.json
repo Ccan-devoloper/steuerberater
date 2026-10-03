@@ -384,7 +384,7 @@
      ],
      "norm": "§ 3 Abs. 12 S. 2 UStG",
      "unter": "mit Zahlen",
-     "teaser": "+ Markier-Guide § 3a UStG",
+     "teaser": "+ Markier-Guide § 3a + UStAE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -442,7 +442,7 @@
        "Vertraglich vereinbart und genutzt: Gegenleistung ist ein Teil der Arbeitsleistung.",
        "ok",
        "Regular",
-       "BFH vom 30.06.2022, V R 25/21"
+       "BFH vom 30.06.2022, V R 25/21 (BStBl II)"
       ],
       [
        "Also ein tauschähnlicher Umsatz.",
@@ -451,10 +451,10 @@
        "§ 3 Abs. 12 S. 2 UStG"
       ],
       [
-       "Ohne solche Vereinbarung: als unentgeltliche Leistung prüfen.",
+       "Mündliche Abrede oder betriebliche Übung genügt regelmäßig auch.",
        "warn",
        "Regular",
-       null
+       "Abschn. 15.23 Abs. 9 S. 3 UStAE"
       ]
      ],
      "figur": "A:erklaert",
@@ -597,7 +597,7 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Hättest du 20 % abgezogen?",
-     "teaser": "Weiterwischen: § 3a UStG markiert"
+     "teaser": "Weiterwischen: § 3a + UStAE markiert"
     },
     {
      "typ": "gesetz",
@@ -646,12 +646,117 @@
       ]
      ],
      "randnotiz": [
-      "Werte: Abschn. 15.23 Abs. 11 UStAE",
-      "brutto, ohne 20-%-Abschlag"
+      "BFH vom 30.06.2022, V R 25/21 (BStBl II 2026, 254)",
+      "Teil der Arbeitsleistung ist das Entgelt"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "Abschn. 15.23 UStAE (Auszug)",
+     "absaetze": [
+      [
+       "(9) S. 2",
+       [
+        [
+         "Die Überlassung des Fahrzeugs ist als Vergütung für geleistete Dienste und damit",
+         null
+        ],
+        [
+         "als entgeltlich anzusehen,",
+         "g1"
+        ],
+        [
+         "wenn das Recht zur Privatnutzung des Dienstfahrzeugs",
+         null
+        ],
+        [
+         "individuell arbeitsvertraglich vereinbart",
+         "b1"
+        ],
+        [
+         "ist und unter Beachtung der wirtschaftlichen Realität ein das Dienstverhältnis mitprägender Zusammenhang besteht […].",
+         null
+        ]
+       ]
+      ],
+      [
+       "(11) S. 1",
+       [
+        [
+         "Aus Vereinfachungsgründen wird es nicht beanstandet, wenn für die umsatzsteuerrechtliche Bemessungsgrundlage anstelle der Ausgaben",
+         null
+        ],
+        [
+         "von den lohnsteuerrechtlichen Werten",
+         "g2"
+        ],
+        [
+         "ausgegangen wird.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Die lohnsteuerrechtlichen Werte sind",
+         null
+        ],
+        [
+         "als Bruttowerte anzusehen, aus denen die Umsatzsteuer herauszurechnen ist",
+         "r1"
+        ],
+        [
+         "[…].",
+         null
+        ]
+       ]
+      ],
+      [
+       "Nr. 1 S. 5",
+       [
+        [
+         "Ein",
+         null
+        ],
+        [
+         "pauschaler Abschlag von 20 %",
+         "gr1"
+        ],
+        [
+         "für nicht mit Vorsteuern belastete Ausgaben ist in diesen Fällen unzulässig.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "entgeltlich",
+       "g1"
+      ],
+      [
+       "1 % + 0,03 %",
+       "g2"
+      ],
+      [
+       "brutto!",
+       "r1"
+      ],
+      [
+       "kein Abschlag",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Ausnahmsweise unentgeltlich?",
+      "§ 3 Abs. 9a Nr. 1 UStG, Ort nach § 3a Abs. 1 UStG"
      ]
     }
    ],
-   "caption": "Firmenwagen für Mitarbeiter: der Rechenweg zur Umsatzsteuer für Klausur 1.\n\n▸ Ist die private Nutzung individuell arbeitsvertraglich vereinbart und wird sie tatsächlich genutzt, ist die Überlassung entgeltlich: Gegenleistung ist ein Teil der Arbeitsleistung (BFH vom 30.06.2022, V R 25/21), also ein tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG). Die Finanzverwaltung hat den UStAE mit BMF-Schreiben vom 03.03.2026 an dieses Urteil angepasst.\n▸ Ort: langfristige Vermietung eines Beförderungsmittels an einen Nichtunternehmer, also am Wohnsitz des Arbeitnehmers (§ 3a Abs. 3 Nr. 2 S. 3 UStG).\n▸ Bemessungsgrundlage: Aus Vereinfachungsgründen dürfen die lohnsteuerlichen Werte angesetzt werden (§ 8 Abs. 2 S. 2, 3 EStG). Sie gelten als Bruttowerte, aus denen die Umsatzsteuer herauszurechnen ist; ein Abschlag von 20 % für nicht vorsteuerbelastete Kosten ist hier nicht zulässig (Abschn. 15.23 Abs. 11 Nr. 1 UStAE).\n\nRechnung: 1 % von 50.000 € × 12 = 6.000 €; 0,03 % × 50.000 € × 20 km × 12 = 3.600 €; Bruttowert 9.600 €; darin 19/119 = 1.532,77 € Umsatzsteuer, Bemessungsgrundlage 8.067,23 €.\n\nZum Schluss: §§ 3 Abs. 12, 3a Abs. 3 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Firmenwagen für Mitarbeiter: der Rechenweg zur Umsatzsteuer für Klausur 1.\n\n▸ Ist die private Nutzung individuell arbeitsvertraglich vereinbart und wird sie tatsächlich genutzt, ist die Überlassung entgeltlich: Gegenleistung ist ein Teil der Arbeitsleistung (BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254), also ein tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG). Die Finanzverwaltung hat den UStAE mit BMF-Schreiben vom 03.03.2026 an dieses Urteil angepasst; mündliche Abreden oder betriebliche Übung genügen regelmäßig ebenfalls (Abschn. 15.23 Abs. 9 S. 2, 3 UStAE).\n▸ Ort: langfristige Vermietung eines Beförderungsmittels an einen Nichtunternehmer, also am Wohnsitz des Arbeitnehmers (§ 3a Abs. 3 Nr. 2 S. 3 UStG).\n▸ Bemessungsgrundlage: Aus Vereinfachungsgründen dürfen die lohnsteuerlichen Werte angesetzt werden (§ 8 Abs. 2 S. 2, 3 EStG). Sie gelten als Bruttowerte, aus denen die Umsatzsteuer herauszurechnen ist; ein Abschlag von 20 % für nicht vorsteuerbelastete Kosten ist hier nicht zulässig (Abschn. 15.23 Abs. 11 S. 1, 2, Nr. 1 S. 5 UStAE).\n\nRechnung: 1 % von 50.000 € × 12 = 6.000 €; 0,03 % × 50.000 € × 20 km × 12 = 3.600 €; Bruttowert 9.600 €; darin 19/119 = 1.532,77 € Umsatzsteuer, Bemessungsgrundlage 8.067,23 €.\n\nZum Schluss: §§ 3 Abs. 12, 3a Abs. 3 UStG und Abschn. 15.23 UStAE zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -663,8 +768,9 @@
     "§ 3a Abs. 3 Nr. 2 S. 3 UStG",
     "§ 8 Abs. 2 S. 2, 3 EStG",
     "Abschn. 15.23 Abs. 11 Nr. 1 UStAE",
-    "BFH vom 30.06.2022, V R 25/21",
-    "BMF vom 03.03.2026, III C 3 - S 7117-e/00003/005/058"
+    "BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254",
+    "BMF vom 03.03.2026, III C 3 - S 7117-e/00003/005/058",
+    "Abschn. 15.23 Abs. 9 S. 2, 3 UStAE"
    ]
   },
   {
