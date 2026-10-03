@@ -7499,21 +7499,22 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 13,
-        "views": 17,
+        "reach": 30,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 7,
-        "navigation_tap_back": 4
+        "navigation": 39,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 21,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-03T14:44:45.596Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-03T18:50:18.162Z",
+      "insightsAlterStunden": 6.1
     },
     {
       "datum": "2026-10-03",
@@ -7590,7 +7591,23 @@
       "storyArt": "merksatz",
       "thema": "istr-aufb-istr-gh-4-44",
       "fach": "istr",
-      "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?"
+      "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
+      "insights": {
+        "reach": 14,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 14,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-03T18:50:18.162Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-03",
@@ -7602,7 +7619,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "bilanz",
-      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen"
+      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "insights": {
+        "reach": 14,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 8,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-03T18:50:18.162Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {

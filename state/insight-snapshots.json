@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-03T18:44:17.404Z",
+  "stand": "2026-10-03T18:50:18.162Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -13197,6 +13197,23 @@
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 7,
           "navigation_tap_back": 4
+        },
+        {
+          "stand": "2026-10-03T18:50:18.162Z",
+          "alterStunden": 6.1,
+          "reach": 30,
+          "views": 40,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 39,
+          "navigation_tap_back": 7,
+          "navigation_tap_forward": 21,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -13252,6 +13269,63 @@
           "ig_reels_avg_watch_time": 19640,
           "ig_reels_video_view_total_time": 373162,
           "reels_skip_rate": 70
+        }
+      ]
+    },
+    "18097344347410425": {
+      "art": "story",
+      "datum": "2026-10-03",
+      "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T17:44:49.227Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T18:50:18.162Z",
+          "alterStunden": 1.1,
+          "reach": 14,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 14,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18010251515995387": {
+      "art": "story",
+      "datum": "2026-10-03",
+      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T17:45:01.184Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T18:50:18.162Z",
+          "alterStunden": 1.1,
+          "reach": 14,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 1
         }
       ]
     }
