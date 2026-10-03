@@ -373,7 +373,7 @@
      ],
      "norm": "§ 249 Abs. 1 S. 1 HGB",
      "unter": "Klausurfrage",
-     "teaser": "+ Markier-Guide § 249 HGB",
+     "teaser": "+ Markier-Guide § 249 + H 5.7",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -434,7 +434,7 @@
       ],
       [
        "Einzeln oder pauschal",
-       "R 5.7 Abs. 5 EStR",
+       "H 5.7 (5) EStH",
        "Bekanntes einzeln, Rest pauschal"
       ],
       [
@@ -448,7 +448,7 @@
        "Laufzeit prüfen"
       ]
      ],
-     "teaser": "Am Ende: § 249 HGB markiert"
+     "teaser": "Am Ende: § 249 HGB + H 5.7 markiert"
     },
     {
      "typ": "inhalt",
@@ -485,13 +485,13 @@
        "Bis zur Bilanzaufstellung bekannte Fälle: Einzelrückstellung.",
        "ok",
        "Regular",
-       "R 5.7 Abs. 5 EStR"
+       "H 5.7 (5) EStH"
       ],
       [
        "Für den Rest: Pauschale nach eigenen oder branchentypischen Erfahrungen.",
        "ok",
        "Regular",
-       "R 5.7 Abs. 5 EStR"
+       "H 5.7 (5) EStH"
       ],
       [
        "Die bloße Möglichkeit von Mängeln reicht nicht.",
@@ -557,7 +557,7 @@
      "typ": "rechnung",
      "titel": "Ergebnis 31.12.2026",
      "normen": [
-      "R 5.7 Abs. 5 EStR",
+      "H 5.7 (5) EStH",
       "§ 6 Abs. 1 Nr. 3a EStG"
      ],
      "zeilen": [
@@ -642,11 +642,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du doppelt gezählt?",
-     "teaser": "Weiterwischen: § 249 HGB markiert"
+     "teaser": "Weiterwischen: § 249 + H 5.7 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Verwaltung markieren",
      "kopf": "§ 249 HGB Rückstellungen (Auszug)",
      "absaetze": [
       [
@@ -694,11 +694,7 @@
      ],
      "notizen": [
       [
-       "Pflicht",
-       "r1"
-      ],
-      [
-       "Garantie mit Rechtspflicht",
+       "Garantie: Pflicht",
        "g1"
       ],
       [
@@ -711,12 +707,69 @@
       ]
      ],
      "randnotiz": [
-      "Steuerlich: § 5 Abs. 1, § 6 Abs. 1 Nr. 3a",
-      "Pauschale nach R 5.7 Abs. 5 EStR"
-     ]
+      "Steuerlich: § 5 Abs. 1, § 6 Abs. 1 Nr. 3a EStG",
+      "Höchstens HB-Wert: R 6.11 Abs. 3 EStR"
+     ],
+     "zweite": {
+      "kopf": "H 5.7 (5) EStH, BMF vom 26.05.2005 (Auszug)",
+      "absaetze": [
+       [
+        "H 5.7 (5)",
+        [
+         [
+          "Garantierückstellungen […] können […] als",
+          null
+         ],
+         [
+          "Einzelrückstellungen für die bis zum Tag der Bilanzaufstellung bekannt gewordenen einzelnen Garantiefälle",
+          "b2"
+         ],
+         [
+          "oder als",
+          null
+         ],
+         [
+          "Pauschalrückstellung",
+          "g2"
+         ],
+         [
+          "gebildet werden. […]",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 27",
+        [
+         [
+          "[…] Auf Pauschalrückstellungen findet das Abzinsungsgebot gemäß § 6 Abs. 1 Nr. 3a Buchstabe e EStG aus Vereinfachungsgründen",
+          null
+         ],
+         [
+          "keine Anwendung.",
+          "r2"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "25.000 €",
+        "b2"
+       ],
+       [
+        "1 % vom Rest",
+        "g2"
+       ],
+       [
+        "nicht abzinsen",
+        "r2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (R 5.7 Abs. 5 EStR).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Garantierückstellung: einzeln oder pauschal – und wie bewertet? Die Prüfungsfrage für die Bilanzklausur.\n\n1. Ansatz: Gewährleistungen aus erbrachten Leistungen sind ungewisse Verbindlichkeiten (§ 249 Abs. 1 S. 1 HGB), über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG). Kulanzleistungen ohne Rechtspflicht: § 249 Abs. 1 S. 2 Nr. 2 HGB.\n2. Einzel- und Pauschalrückstellung: bis zur Bilanzaufstellung bekannte Fälle einzeln, für den übrigen Bestand pauschal nach betrieblichen oder branchentypischen Erfahrungen (H 5.7 (5) EStH).\n3. Bewertung als Sachleistung mit Einzel- und angemessenen Gemeinkosten, ohne künftige Preissteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. b, f EStG); höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR).\n4. Abzinsung: nicht bei Laufzeit unter zwölf Monaten (§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG); bei Pauschalrückstellungen verzichtet die Verwaltung darauf (BMF vom 26.05.2005, BStBl I 2005, 699, Rn. 27).\n\nBeispiel: 25.000 € einzeln + 1 % von 1,9 Mio. € = 19.000 € pauschal → 44.000 €.\n\nZum Schluss: § 249 HGB, H 5.7 (5) EStH und BMF vom 26.05.2005, Rn. 27 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -727,7 +780,7 @@
     "§ 249 Abs. 1 S. 1, S. 2 Nr. 2, Abs. 2 HGB",
     "§ 5 Abs. 1 S. 1 EStG",
     "§ 6 Abs. 1 Nr. 3a Buchst. b, e, f EStG",
-    "R 5.7 Abs. 5 EStR",
+    "H 5.7 (5) EStH",
     "R 6.11 Abs. 3 EStR",
     "BMF vom 26.05.2005, Rn. 27"
    ]
