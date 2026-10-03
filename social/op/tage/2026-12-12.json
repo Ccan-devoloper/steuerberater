@@ -960,11 +960,11 @@
    ],
    "figuren": {
     "Q": {
-     "kopf": "Long Bangs",
+     "kopf": "Medium 3",
      "haut": "#F3D0B5",
      "haar": "#B5651D",
      "oberteil": "#F4A3B5",
-     "bueste": "Sweater Dots"
+     "bueste": "Sweater"
     }
    },
    "figur": "Q:denkt"
@@ -990,11 +990,11 @@
    "norm": "§ 15 Abs. 1 S. 1 Nr. 1, Abs. 2 UStG",
    "figuren": {
     "Q": {
-     "kopf": "Long Bangs",
+     "kopf": "Medium 3",
      "haut": "#F3D0B5",
      "haar": "#B5651D",
      "oberteil": "#F4A3B5",
-     "bueste": "Sweater Dots"
+     "bueste": "Sweater"
     }
    },
    "figur": "Q:froh"

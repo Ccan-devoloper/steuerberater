@@ -573,8 +573,8 @@
      ],
      "zeilen": [
       [
-       "Haus netto : Depot",
-       "300 : 600",
+       "300.000 € zu 600.000 €",
+       "1 : 2",
        "Regular",
        null
       ],
@@ -963,7 +963,7 @@
    ],
    "optionen": [
     "Ideeller Bereich",
-    "Wirtschaftlicher Geschäftsbetrieb",
+    "Geschäftsbetrieb",
     "Vermögensverwaltung"
    ],
    "figuren": {
@@ -990,7 +990,7 @@
    ],
    "optionen": [
     "Ideeller Bereich",
-    "Wirtschaftlicher Geschäftsbetrieb",
+    "Geschäftsbetrieb",
     "Vermögensverwaltung"
    ],
    "richtig": 1,
