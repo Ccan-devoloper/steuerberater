@@ -1056,12 +1056,12 @@
    "zeilen": [
     [
      [
-      "Drei Jahre",
-      "a"
+      "Binnen ",
+      null
      ],
      [
-      " lang:",
-      null
+      "drei Jahren",
+      "a"
      ]
     ],
     [
@@ -1074,13 +1074,13 @@
       "b"
      ],
      [
-      " netto",
+      " der Gebäudekosten",
       null
      ]
     ],
     [
      [
-      "sind es ",
+      "netto: ",
       null
      ],
      [

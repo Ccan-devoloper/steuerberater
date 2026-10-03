@@ -51,7 +51,7 @@ class Reel:
     # ------------------------------------------------------------ Aufbau
     def kopfzeile(self):
         self.T(self.s["fachLabel"].upper(), f"Klausur {self.k}")
-        self.zeige(pille(self.s["fachLabel"].upper(), 48, 50, C, fill=PASTELL[self.k], size=k.passt(self.s["fachLabel"].upper(), "Bold", 46, 700, 28), pad=(30, 12)), 0, None, "cut")
+        self.zeige(pille(self.s["fachLabel"].upper(), 48, 50, C, fill=PASTELL[self.k], size=k.passt(self.s["fachLabel"].upper(), "Bold", 46, 620, 28), pad=(30, 12)), 0, None, "cut")
         self.zeige(pille(f"Klausur {self.k}", W_ - 48, 56, C, fill=WEISS, size=32, anker="r", pad=(22, 10)), 0, None, "cut")
         self.zeige(boden(BODEN, C, 48, 1032), 0, None, "cut")
 
