@@ -37,7 +37,8 @@
       "fach": "bilanz",
       "klausur": 3,
       "lang": false,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-03T17:44:00.364Z"
     }
   ],
   "stories": [
