@@ -40,7 +40,7 @@
         44
        ],
        [
-        "232.350 €",
+        "232.350 €",
         "ExtraBold",
         92
        ],
@@ -91,7 +91,7 @@
        null
       ],
       [
-       "Grundbesitzwert 558.000 €, Reinertrag 36.000 € im Jahr.",
+       "Grundbesitzwert 558.000 €, Reinertrag 36.000 € im Jahr.",
        null,
        "Regular",
        null
@@ -143,19 +143,19 @@
      "zeilen": [
       [
        "Reinertrag im Jahr",
-       "36.000 €",
+       "36.000 €",
        "Regular",
        null
       ],
       [
-       "Deckel: 558.000 € : 18,6",
-       "30.000 €",
+       "Deckel: 558.000 € : 18,6",
+       "30.000 €",
        "Bold",
        null
       ],
       [
        "Jahreswert",
-       "30.000 €",
+       "30.000 €",
        "ExtraBold",
        "GELB"
       ]
@@ -173,7 +173,7 @@
      "zeilen": [
       [
        "Jahreswert",
-       "30.000 €",
+       "30.000 €",
        "Regular",
        null
       ],
@@ -185,7 +185,7 @@
       ],
       [
        "Kapitalwert",
-       "232.350 €",
+       "232.350 €",
        "ExtraBold",
        "GELB"
       ]
@@ -199,7 +199,7 @@
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Variante: Der Reinertrag beträgt nur 24.000 € im Jahr.",
+       "Variante: Der Reinertrag beträgt nur 24.000 € im Jahr.",
        null,
        "Regular",
        null
@@ -230,19 +230,19 @@
      "zeilen": [
       [
        "Deckel",
-       "30.000 €",
+       "30.000 €",
        "Regular",
        null
       ],
       [
        "Jahreswert = Reinertrag",
-       "24.000 €",
+       "24.000 €",
        "Bold",
        null
       ],
       [
        "× 7,745 = Kapitalwert",
-       "185.880 €",
+       "185.880 €",
        "ExtraBold",
        "GELB"
       ]
@@ -608,7 +608,7 @@
        "§ 8 Abs. 1 KStG"
       ],
       [
-       "Verkauf der GmbH-Anteile aus dem ausländischen Betrieb? Erfasst, bei mindestens 1 %.",
+       "Verkauf der GmbH-Anteile aus dem ausländischen Betrieb? Erfasst, bei mindestens 1 %.",
        "warn",
        "Regular",
        "§ 49 Abs. 1 Nr. 2 Buchst. e EStG"
@@ -1165,7 +1165,7 @@
      "§ 8 Nr. 1 Buchst. a, e GewStG"
     ],
     [
-     "Summe minus 200.000 €, davon ein Viertel.",
+     "Summe minus 200.000 €, davon ein Viertel.",
      "warn",
      null
     ]
