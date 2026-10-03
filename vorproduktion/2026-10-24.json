@@ -107,7 +107,7 @@
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer",
       "themaId": "klausurtechnik-k1-erbst-2026-43",
-      "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+      "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 Abs. 1, 5 ErbStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -173,7 +173,7 @@
         {
           "art": "text",
           "titel": "Erbschaftsteuer",
-          "text": "§ 10 ErbStG Steuerpflichtiger Erwerb (Auszug) · Kernbegriff · Befreiungen · Wert nach § 12 · Abzüge · Pauschale: § 10 Abs. 5 Nr. 3 S. 2 ErbStG · 15.000 € ohne Nachweis"
+          "text": "§ 10 ErbStG Steuerpflichtiger Erwerb (Auszug) · Kernbegriff · Wert nach § 12 · Abzüge · Pauschale · Staffel: Erwerb, Abzüge, Freibetrag · dann abrunden und Satz anwenden"
         }
       ]
     },
@@ -535,7 +535,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T10:59:28Z",
+    "erzeugtAm": "2026-10-03T12:09:40Z",
     "pfad": "vorproduktion/2026-10-24/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
