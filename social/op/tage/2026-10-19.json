@@ -389,7 +389,7 @@
      ],
      "norm": "§ 22 Abs. 1 S. 6 UmwStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 22 UmwStG",
+     "teaser": "+ Markier-Guide § 22 + UmwStE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -437,7 +437,7 @@
        "Auflösung, Kapitalrückzahlung"
       ]
      ],
-     "teaser": "Am Ende: § 22 UmwStG markiert"
+     "teaser": "Am Ende: § 22 + UmwStE markiert"
     },
     {
      "typ": "inhalt",
@@ -526,22 +526,22 @@
      "titel": "4 · Was macht die GmbH?",
      "punkte": [
       [
-       "Sie wird aufgelöst und abgewickelt.",
+       "Auflösung und Abwicklung: voll schädlich.",
        "nein",
        "Regular",
        null
       ],
       [
-       "Sie setzt Kapital herab und zahlt es zurück.",
-       "nein",
-       "Regular",
-       null
-      ],
-      [
-       "Sie zahlt Beträge aus dem Einlagekonto aus.",
+       "Kapitalrückzahlung oder Auszahlung aus dem Einlagekonto.",
        "nein",
        "Regular",
        "§ 22 Abs. 1 S. 6 Nr. 3 UmwStG"
+      ],
+      [
+       "Dann schädlich nur, soweit über dem Buchwert der Anteile.",
+       "warn",
+       "Bold",
+       "UmwStE vom 02.01.2025, Rn. 22.24"
       ]
      ],
      "extra": [
@@ -631,7 +631,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Welcher Schritt fehlt dir oft?",
-     "teaser": "Weiterwischen: § 22 UmwStG markiert"
+     "teaser": "Weiterwischen: § 22 + UmwStE markiert"
     },
     {
      "typ": "gesetz",
@@ -708,12 +708,70 @@
       ]
      ],
      "randnotiz": [
-      "Rückwirkung: § 22 Abs. 1 S. 2 UmwStG",
-      "Bescheid des Einbringungsjahres wird geändert"
+      "Weiterwischen: UmwStE Rn. 22.24",
+      "Einlagenrückgewähr: nur über Buchwert schädlich"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "UmwStE vom 02.01.2025 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 22.24",
+       [
+        [
+         "Die Auflösung und Abwicklung einer Kapitalgesellschaft, an der die sperrfristbehafteten Anteile bestehen, löst",
+         null
+        ],
+        [
+         "in vollem Umfang",
+         "r1"
+        ],
+        [
+         "die rückwirkende Einbringungsbesteuerung […] aus. […] In den Fällen der Kapitalherabsetzung und der Einlagenrückgewähr (§ 27 KStG) kommt es",
+         null
+        ],
+        [
+         "nur insoweit",
+         "g1"
+        ],
+        [
+         "zu einer rückwirkenden Einbringungsgewinnbesteuerung, als der tatsächlich aus dem steuerlichen Einlagekonto i. S. v. § 27 KStG ausgekehrte Betrag",
+         null
+        ],
+        [
+         "den Buchwert bzw. die Anschaffungskosten der sperrfristbehafteten Anteile",
+         "b1"
+        ],
+        [
+         "im Zeitpunkt der Einlagenrückgewähr übersteigt (schädliche Einlagenrückgewähr). […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Auflösung: voll",
+       "r1"
+      ],
+      [
+       "Rückzahlung: nur soweit",
+       "g1"
+      ],
+      [
+       "über Buchwert / AK",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Übersteigender Betrag",
+      "gilt mit Siebtelregel als Einbringungsgewinn I"
      ]
     }
    ],
-   "caption": "Sperrfrist nach einer Einbringung verletzt? Das Prüfschema zu § 22 Abs. 1 UmwStG in 4 Schritten.\n\n1. Empfänger: Gehen die Anteile ohne Gegenleistung an eine Kapitalgesellschaft oder Genossenschaft, ist das schädlich (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG). Bei unentgeltlicher Rechtsnachfolge, etwa Schenkung an ein Kind, tritt der Rechtsnachfolger an die Stelle des Einbringenden (§ 22 Abs. 6 UmwStG).\n2. Entgelt: Veräußerung innerhalb von sieben Jahren löst rückwirkend den Einbringungsgewinn I aus (§ 22 Abs. 1 S. 1 UmwStG); entgeltliche Übertragungen sind schädlich, außer bei nachgewiesener Buchwerteinbringung nach § 20 Abs. 1 oder § 21 Abs. 1 UmwStG ohne zu hohe sonstige Gegenleistung (§ 22 Abs. 1 S. 6 Nr. 2 UmwStG).\n3. Weitereinbringung: Ketteneinbringungen nur zum Buchwert mit Nachweis (§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG). Ein Zwischenwert reicht nicht.\n4. Gesellschaft: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG).\n\nFolge: Versteuerung im Wirtschaftsjahr der Einbringung als rückwirkendes Ereignis (§ 22 Abs. 1 S. 1, 2 UmwStG, § 175 Abs. 1 S. 1 Nr. 2 AO), Minderung um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG), nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n\nZum Schluss: § 22 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Sperrfrist nach einer Einbringung verletzt? Das Prüfschema zu § 22 Abs. 1 UmwStG in 4 Schritten.\n\n1. Empfänger: Gehen die Anteile ohne Gegenleistung an eine Kapitalgesellschaft oder Genossenschaft, ist das schädlich (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG). Bei unentgeltlicher Rechtsnachfolge, etwa Schenkung an ein Kind, tritt der Rechtsnachfolger an die Stelle des Einbringenden (§ 22 Abs. 6 UmwStG).\n2. Entgelt: Veräußerung innerhalb von sieben Jahren löst rückwirkend den Einbringungsgewinn I aus (§ 22 Abs. 1 S. 1 UmwStG); entgeltliche Übertragungen sind schädlich, außer bei nachgewiesener Buchwerteinbringung nach § 20 Abs. 1 oder § 21 Abs. 1 UmwStG ohne zu hohe sonstige Gegenleistung (§ 22 Abs. 1 S. 6 Nr. 2 UmwStG).\n3. Weitereinbringung: Ketteneinbringungen nur zum Buchwert mit Nachweis (§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG). Ein Zwischenwert reicht nicht.\n4. Gesellschaft: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG). Die Auflösung ist voll schädlich; Kapitalherabsetzung und Einlagenrückgewähr nur, soweit der ausgekehrte Betrag den Buchwert bzw. die Anschaffungskosten der Anteile übersteigt (UmwStE vom 02.01.2025, Rn. 22.24).\n\nFolge: Versteuerung im Wirtschaftsjahr der Einbringung als rückwirkendes Ereignis (§ 22 Abs. 1 S. 1, 2 UmwStG, § 175 Abs. 1 S. 1 Nr. 2 AO), Minderung um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG), nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n\nZum Schluss: § 22 UmwStG und UmwStE Rn. 22.24 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -723,7 +781,8 @@
    "quellen": [
     "§ 22 Abs. 1 S. 1–4, 6 Nr. 1–5 UmwStG",
     "§ 22 Abs. 6 UmwStG",
-    "§ 175 Abs. 1 S. 1 Nr. 2 AO"
+    "§ 175 Abs. 1 S. 1 Nr. 2 AO",
+    "UmwStE vom 02.01.2025, Rn. 22.24"
    ]
   },
   {
