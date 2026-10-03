@@ -4,552 +4,444 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-21",
-        "themaTitel": "Gewinnrealisierung und schwebende Geschäfte",
-        "fach": "bilanz",
+        "format": "fehlerfalle",
+        "themaId": "umwst-aufb-umw-2-23",
+        "themaTitel": "Was geschieht bei Einbringung eines Betriebs mit negativem Kapital?",
+        "fach": "umwst",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-515",
-        "themaTitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
-        "fach": "erbst",
+        "format": "schema",
+        "themaId": "ust-aufb-ust-m-b04-15",
+        "themaTitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
+        "fach": "ust",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "est-aufb-est-ks2-23-04",
-        "themaTitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
-        "fach": "est",
-        "klausur": 2,
-        "lang": false
+        "themaId": "gewst-aufb-gewst-ks-08",
+        "themaTitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
+        "fach": "gewst",
+        "klausur": 2
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:20",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-14"
+        "themaId": "kst-quiz-kst-13"
       },
       {
         "slot": "s5",
-        "zeit": "07:20",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-14"
+        "themaId": "kst-quiz-kst-13"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:08",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-modul-istr-istr2-01"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:25",
-        "art": "tipp",
-        "themaId": "istr-aufb-istr-gh-3-05"
+        "themaId": "persg-karte-k3-27"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:49",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "istr-aufb-istr-gh-3-10"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:22",
-        "art": "merksatz",
-        "themaId": "istr-modul-istr-istr3-04"
+        "themaId": "ust-karte-ust-11"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "istr-aufb-istr-gh-3-11"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "bilanz",
+      "format": "fehlerfalle",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-21",
-      "slug": "2026-10-14-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Gewinnrealisierung und schwebende Geschäfte",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Realisiert ist der Gewinn, sobald du deine Leistung im Wesentlichen erbracht hast: beim Kauf mit Gefahrübergang, in der Regel der Übergabe, beim Werkvertrag mit der Abnahme (§ 252 Abs. 1 Nr. 4 Hs. 2 HGB).",
-            "Schwebende Geschäfte werden nicht bilanziert. Droht ein Verlust, ist handelsrechtlich eine Rückstellung Pflicht (§ 249 Abs. 1 S. 1 HGB); in der Steuerbilanz ist sie verboten (§ 5 Abs. 4a S. 1 EStG)."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Vertragstyp bestimmen: Kauf, Werkvertrag oder Dauerschuldverhältnis."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Zeitpunkt der wesentlichen Leistungserbringung feststellen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bis zur Erfüllung bleibt das Geschäft schwebend: kein Gewinn, kein Bilanzansatz – und eine Drohverlustrückstellung gibt es nur in der Handelsbilanz."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Gewinnrealisierung und schwebende Geschäfte: Der Gewinn entsteht erst, wenn die Leistung im Wesentlichen erbracht ist, beim Kauf mit Gefahrübergang, beim Werkvertrag mit Abnahme. Bis dahin ist das Geschäft schwebend und wird nicht bilanziert. Drohverlustrückstellungen sind steuerlich verboten (§ 5 Abs. 4a S. 1 EStG).",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-23",
+      "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 und 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Gewinnrealisierung und schwebende Geschäfte",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 252 Abs. 1 Nr. 4 Hs. 2 HGB",
-        "§ 252 Abs. 1 Nr. 5 HGB",
-        "§ 5 Abs. 1 S. 1 Hs. 1 EStG",
-        "R 5.7 Abs. 7 EStR",
-        "§ 249 Abs. 1 S. 1 HGB",
-        "§ 5 Abs. 4a S. 1 EStG",
-        "§ 266 Abs. 3 C. 3 HGB",
-        "§ 252 Abs. 1 Nr. 4 HGB",
-        "Themenpool: bilanz-modul-k3-21"
+        "§ 20 Abs. 1, 2 S. 2 Nr. 2 UmwStG",
+        "§ 20 Abs. 3 S. 1 UmwStG",
+        "§ 20 Abs. 4 UmwStG",
+        "§ 16 Abs. 4 EStG",
+        "§ 34 Abs. 1, 3 EStG"
       ],
-      "coverRegie": {
-        "thema": "Gewinnrealisierung und schwebende Geschäfte",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b1-bilanz-modul-k3-21-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-14-b1",
+      "kurztitel": "Was geschieht bei Einbringung eines Betriebs mit negativem Kapital?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Buchwert trotz · Minuskapital? · § 20 Abs. 2 S. 2 Nr. 2 UmwStG · Achtung · + Markier-Guide § 20 UmwStG · Kapital · −80.000 € · Buchwert?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Sachverhalt · Tessa bringt ihr Einzelunternehmen gegen neue Anteile in eine GmbH ein. · § 20 Abs. 1 UmwStG · Buchwerte: Aktiva 300.000 €, Schulden 380.000 €, Kapital −80.000 €. · Die GmbH beantragt den Buchwertansatz. · § 20 Abs. 2 S. 2 UmwStG · Ganz ohne Gewinn, bitte!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Jetzt du · Darf die GmbH das negative Kapital zum Buchwert übernehmen? · Und was bedeutet das für Tessa und ihre neuen Anteile? · Lösung: weiterwischen · Buchwert ist doch Buchwert …"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Untergrenze null · Buchwert geht nur, soweit die Passivposten die Aktivposten nicht übersteigen. Eigenkapital zählt nicht mit. · § 20 Abs. 2 S. 2 Nr. 2 UmwStG · Also Aktiva aufstocken, bis der Wertansatz mindestens 0 € erreicht. · Pflicht-Aufstockung?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Die Folgen für Tessa · § 20 Abs. 3 S. 1 UmwStG · Veräußerungspreis = Wertansatz · 0 € · Buchwert des Kapitals · −80.000 € · Gewinn: 0 € − (−80.000 €) · 80.000 € · AK der neuen Anteile · 0 € · 80.000 € Gewinn!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Und keine Begünstigung · Freibetrag nach § 16 Abs. 4 EStG nur, wenn die GmbH den gemeinen Wert ansetzt. · § 20 Abs. 4 S. 1 UmwStG · Ermäßigter Steuersatz nur in diesen Fällen. · § 20 Abs. 4 S. 2 UmwStG · Negative Anschaffungskosten gibt es nicht. · Teure Falle."
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Tessa: Aufstockung auf 0 €, Gewinn 80.000 € · Anteile mit 0 €, keine Begünstigung · Minuskapital · wird auf null gestockt, · Gewinn ohne · Begünstigung. · Speichern für Klausur 3 · Hättest du die Grenze gesehen? · Weiterwischen: § 20 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Grenze! · mindestens 0 € · nur bei gemeinem Wert · Dazu: § 20 Abs. 3 S. 1 UmwStG · Wertansatz = Veräußerungspreis und AK der Anteile"
+        }
+      ]
     },
     "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
+      "format": "schema",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-515",
-      "slug": "2026-10-14-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "§ 10 Abs. 6: Schulden zu Vermögen, das nicht der Erbschaftsteuer unterliegt, sind nicht abziehbar. Bei beschränkter Steuerpflicht sind seit dem JStG 2024 auch nicht zuordenbare Schulden wie der Pflichtteil anteilig abziehbar.",
-            "§ 10 Abs. 6a: Schulden zu befreitem Vermögen (z. B. Familienheim) nicht, bei teilweiser Befreiung nur anteilig abziehen; nicht zuordenbare Schulden nach Nettowerten verteilen. Abs. 6b: im Grundbesitzwert erfasste Belastungen nicht doppelt abziehen."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Zuerst feststellen, ob der Fall unbeschränkte oder beschränkte Steuerpflicht bzw. ein beschränktes deutsches Besteuerungsrecht betrifft."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Schuld zuordnen: zu nicht steuerbarem Vermögen kein Abzug (§ 10 Abs. 6 S. 1 ErbStG), zu voll befreitem kein Abzug, zu teilweise befreitem nur anteilig (§ 10 Abs. 6a ErbStG)."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Befreites Vermögen zieht seine Schulden mit: voll befreit kein Abzug, teilweise befreit nur anteilig."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Begrenzung des Schulden- und Lastenabzugs: Schulden zu nicht steuerbarem Vermögen sind nicht abziehbar (§ 10 Abs. 6 S. 1 ErbStG), Schulden zu voll befreitem Vermögen ebenfalls nicht, zu teilweise befreitem nur anteilig (§ 10 Abs. 6a ErbStG). Bei beschränkter Steuerpflicht sind nicht zuordenbare Schulden seit dem JStG 2024 anteilig abziehbar.",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b04-15",
+      "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a UStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 10 Abs. 6a ErbStG",
-        "R E 10.10 Abs. 2 S. 2",
-        "§ 10 Abs. 6 ErbStG",
-        "§ 10 Abs. 6b ErbStG",
-        "§ 10 Abs. 6 S. 1 ErbStG",
-        "§ 10 Abs. 6 S. 3 ErbStG",
-        "Themenpool: erbst-modul-erbst-515"
+        "§ 3 Abs. 6 S. 1, Abs. 6a, Abs. 7 S. 2 UStG",
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 6a UStG",
+        "Abschn. 3.14 UStAE"
       ],
-      "coverRegie": {
-        "thema": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b2-erbst-modul-erbst-515-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-14-b2",
+      "kurztitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Welche Lieferung · bewegt sich? · § 3 Abs. 6a UStG · in 5 Schritten · + Markier-Guide § 3 UStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Das Schema · Reihengeschäft? · § 3 Abs. 6a S. 1 UStG · Erster transportiert · § 3 Abs. 6a S. 2 UStG · Letzter transportiert · § 3 Abs. 6a S. 3 UStG · Händler transportiert · § 3 Abs. 6a S. 4, 5 UStG · Ruhende Lieferungen verorten · § 3 Abs. 7 S. 2 UStG · Am Ende: § 3 Abs. 6a UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Wer transportiert, entscheidet · Erster Unternehmer transportiert: Seine Lieferung ist bewegt. · Letzter Abnehmer transportiert: Die Lieferung an ihn ist bewegt. · Zwischenhändler transportiert: Vermutet wird die Lieferung an ihn. Mit USt-IdNr. des Abgangsstaats: seine eigene. · Und wer transportiert bei mir?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Beispiel · Selin aus Wien kauft Maschinen bei einem Hersteller in Hamburg. · Sie verkauft weiter an einen Kunden in Mailand. · Selin beauftragt die Spedition Hamburg–Mailand und verwendet ihre österreichische USt-IdNr. · Direkt nach Mailand!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Jetzt du · Welche der beiden Lieferungen ist die bewegte? · Wo liegt jeweils der Ort? · Welche Lieferung kann steuerfrei sein? · Lösung: weiterwischen · Ich transportiere …"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung · Hamburg an Selin · Bewegt: Vermutung greift · § 3 Abs. 6a S. 4 UStG · Ort: Hamburg, steuerfreie ig. Lieferung · § 3 Abs. 6 S. 1, § 6a UStG · Selin an Kunden · Ruhend, folgt der bewegten · Ort: Mailand, in Deutschland nicht steuerbar · § 3 Abs. 7 S. 2 Nr. 2 UStG · Steuerfrei ab Hamburg!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Deutsche USt-IdNr.? · Verwendet Selin gegenüber dem Hersteller eine deutsche USt-IdNr., ist ihre eigene Lieferung bewegt. · § 3 Abs. 6a S. 5 UStG · Dann ruht die Lieferung des Herstellers in Hamburg: steuerpflichtig, nicht steuerfrei. · § 3 Abs. 7 S. 2 Nr. 1 UStG · Eine Nummer ändert alles!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung: Hamburg an Selin ist bewegt und steuerfrei · Selin an den Kunden ruht, Ort Mailand · Wer transportiert, · entscheidet. · Nur die bewegte · kann steuerfrei sein. · Speichern für Klausur 1 · Und wenn der Kunde abholt? · Weiterwischen: § 3 UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Zwischenhändler · Grundregel · IdNr. Abgangsstaat · dann seine Lieferung · Dazu: Abschn. 3.14 UStAE · Ruhende Orte: § 3 Abs. 7 S. 2 UStG"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "est",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "themaId": "est-aufb-est-ks2-23-04",
-      "slug": "2026-10-14-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
-          "unter": "Einkommensteuer",
-          "text": "Veräußerungspreis minus Anschaffungskosten minus Werbungskosten.",
-          "norm": "§ 23 Abs. 3 EStG",
-          "icon": null,
-          "sprecher": "Du verkaufst ein vermietetes Grundstück innerhalb der Zehnjahresfrist. So ermittelst du den steuerpflichtigen Gewinn.",
-          "marken": [
-            "Preis minus Kosten",
-            "§ 23 Abs. 3 EStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Veräußerungspreis minus AK und Werbungskosten",
-          "text": null,
-          "norm": "§ 23 Abs. 3 EStG",
-          "icon": null,
-          "sprecher": "Vom Veräußerungspreis ziehst du die Anschaffungs- oder Herstellungskosten und die Werbungskosten ab. Die Kosten mindern sich um die AfA, die du bei der Vermietung schon abgezogen hast. Das erhöht den Gewinn.",
-          "marken": [
-            "Abgezogene AfA mindert Kosten"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Zufluss entscheidet, Freigrenze 1.000 €",
-          "text": null,
-          "norm": "§ 11 EStG",
-          "icon": null,
-          "sprecher": "Den Gewinn versteuerst du im Jahr, in dem der Kaufpreis zufließt. Steuerfrei bleibt er, wenn alle privaten Veräußerungsgewinne des Jahres zusammen weniger als 1.000 Euro betragen.",
-          "marken": [
-            "Zufluss entscheidet",
-            "Freigrenze unter 1.000 €"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Abgezogene AfA erhöht den Gewinn – und Verluste aus § 23 EStG verrechnest du nur mit Gewinnen aus § 23 EStG.",
-          "sprecher": "Merke: Bereits abgezogene AfA holt dich beim Verkauf wieder ein. Verluste daraus verrechnest du nur mit anderen privaten Veräußerungsgewinnen, auch im Rücktrag oder Vortrag.",
-          "marken": [
-            "Verluste nur innerhalb § 23 EStG"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage und Reihenfolge",
-            "Normen ohne Unterlagen"
-          ]
-        }
-      ],
-      "caption": "So wird der Gewinn aus privaten Veräußerungen ermittelt: Veräußerungspreis minus Werbungskosten und Anschaffungskosten, die um bereits abgezogene AfA gemindert sind (§ 23 Abs. 3 EStG). Erfasst wird im Jahr des Zuflusses; liegt der Gesamtgewinn des Jahres unter 1.000 €, bleibt er steuerfrei.",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-08",
+      "caption": "Gewerbesteuer-Zerlegung: die Falle mit dem Unternehmerlohn. 🏙️\n\n▸ Hat ein Unternehmen Betriebsstätten in mehreren Gemeinden, wird der Steuermessbetrag in Zerlegungsanteile zerlegt (§ 28 Abs. 1 S. 1 GewStG) – nicht die Steuer. Jede Gemeinde wendet dann ihren Hebesatz an.\n▸ Maßstab: Verhältnis der Arbeitslöhne der Betriebsstätten je Gemeinde (§ 29 Abs. 1 Nr. 1 GewStG), abgerundet auf volle 1.000 € (§ 29 Abs. 3 GewStG).\n▸ Bei Unternehmen, die nicht von einer juristischen Person betrieben werden, sind für die tätigen Unternehmer insgesamt 25.000 € jährlich anzusetzen (§ 31 Abs. 5 GewStG). Bei der GmbH nicht.\n▸ Beispiel: Messbetrag 7.000 €, Löhne A 75.000 € + 25.000 € Unternehmerlohn = 100.000 €, B 100.000 € → je 3.500 €.\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#einkommensteuer"
+        "#gewerbesteuer"
       ],
-      "kurztitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 23 Abs. 3 EStG",
-        "§ 11 EStG",
-        "§ 10d EStG",
-        "§ 175 Abs. 1 Nr. 2 AO",
-        "§ 12 Abs. 3 BewG",
-        "§ 7 Abs. 4 EStG",
-        "H 23 EStH",
-        "BMF vom 26.03.2004 (BStBl I S. 434)",
-        "Themenpool: est-aufb-est-ks2-23-04"
+        "§ 28 Abs. 1 GewStG",
+        "§ 29 Abs. 1 Nr. 1, Abs. 3 GewStG",
+        "§ 31 Abs. 5 GewStG"
       ],
-      "coverRegie": {
-        "thema": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-14-b3-est-aufb-est-ks2-23-04-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-14-b3",
+      "kurztitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Gemeinde A: wie viel?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Was wird zerlegt?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Klausurfalle"
+        }
+      ],
+      "sprecher": [
+        "Zwei Gemeinden, siebentausend Euro Messbetrag. Ohne Unternehmerlohn bekommt Gemeinde A dreitausend. Mit ihm dreitausendfünfhundert.",
+        "Zerlegt wird der Messbetrag, nicht die Steuer. Maßstab sind die Arbeitslöhne je Gemeinde, abgerundet auf volle tausend Euro.",
+        "Die Falle: Beim Einzelunternehmer kommen fünfundzwanzigtausend Euro Unternehmerlohn dazu. Aus fünfundsiebzigtausend in A werden hunderttausend, genau wie in B.",
+        "Merke: Unternehmerlohn nur bei Personenunternehmen, nie bei der GmbH."
+      ],
+      "dauerS": 37.037,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-14",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-14"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-13",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Überschuss 50.000 €,",
+        "darin KSt 8.000 €",
+        "und vGA 5.000 €",
+        "Einkommen 63.000 €",
+        "Einkommen 58.000 €",
+        "Einkommen 50.000 €",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wie wird ein Disagio beim Fälligkeitsdarlehen aufgelöst?",
-      "titel": "Wie wird ein Disagio beim Fälligkeitsdarlehen aufgelöst?",
-      "optionen": [
-        "Zinsstaffel",
-        "linear",
-        "sofort"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-14",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-14"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-13",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "A: 63.000 €",
+        "Einkommen 63.000 €",
+        "Einkommen 58.000 €",
+        "Einkommen 50.000 €",
+        "Beides wurde als Aufwand gebucht und wird außerhalb der Bilanz wieder hinzugerechnet.",
+        "§ 10 Nr. 2, § 8 Abs. 3 S. 2 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "linear",
-      "optionen": [
-        "Zinsstaffel",
-        "linear",
-        "sofort"
-      ],
-      "richtig": 1,
-      "text": "Beim Fälligkeitsdarlehen bleibt das überlassene Kapital bis zum Ende gleich hoch. Das als aktiver Rechnungsabgrenzungsposten erfasste Disagio wird daher linear über die Laufzeit bzw. Zinsbindung aufgelöst.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr2-01",
-      "quellen": [
-        "§ 1 Abs. 1 EStG",
-        "§ 1 Abs. 3 EStG",
-        "§ 49 EStG",
-        "§ 1 Abs. 4 EStG",
-        "§ 50 Abs. 1 EStG",
-        "§ 1 Abs. 1, 3, 4 EStG",
-        "Themenpool: istr-modul-istr-istr2-01"
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-karte-k3-27",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Grundstück",
+        "zurückbehalten?",
+        "§ 16 Abs. 4, § 34 Abs. 2 Nr. 1 EStG",
+        "Anteil verkauft, wesentliches Grundstück aus dem Sonder-BV zum Buchwert in einen anderen Betrieb überführt.",
+        "Reserven nicht vollständig aufgedeckt: keine Begünstigung."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 1 Abs. 1 EStG",
-      "titel": "Persönliche Steuerpflicht: § 1 Abs. 1, 3 und 4 EStG",
-      "text": "Wohnsitz oder gewöhnlicher Aufenthalt im Inland: § 1 Abs. 1 EStG. Sonst auf Antrag Abs. 3, wenn mind. 90 % der Einkünfte hier steuerpflichtig sind oder der Rest den Grundfreibetrag nicht übersteigt; ansonsten Abs. 4.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-3-05",
-      "quellen": [
-        "§ 9 AO",
-        "Themenpool: istr-aufb-istr-gh-3-05"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Ergebnis",
+        "nach vorn",
+        "Erst die Rechtsfolge, dann die Begründung.",
+        "Norm genau zitieren: Abs., S., Nr.",
+        "Korrektoren suchen Ergebnis und Norm."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Gewöhnlicher Aufenthalt: Wann reicht die bloße Anwesenheit?",
-      "text": "Ohne Wohnsitz (§ 8 AO) gilt: Über sechs Monate zusammenhängender Aufenthalt begründen stets den gewöhnlichen Aufenthalt (§ 9 S. 2 AO), bei reinen Besuchs-, Erholungs-, Kur- oder ähnlichen Zwecken erst über ein Jahr.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-3-10",
-      "quellen": [
-        "§ 2 Abs. 7 EStG",
-        "§ 32b Abs. 1 EStG",
-        "§ 50 Abs. 2 EStG",
-        "§ 1 EStG",
-        "Themenpool: istr-aufb-istr-gh-3-10"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Halbunternehmer:",
+        "Erwerbsschwelle",
+        "Nur vorsteuerschädliche steuerfreie Umsätze",
+        "Pauschalierende Land- und Forstwirte",
+        "Juristische Personen ohne Unternehmerzweck",
+        "Erwerbe bis 12.500 €: kein ig. Erwerb, Verzicht möglich",
+        "§ 1a Abs. 3, 4 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
-      "text": "Bei Zu- oder Wegzug gibt es nur eine Veranlagung als unbeschränkt Steuerpflichtiger: Inländische Einkünfte der beschränkten Phase fließen ein (§ 2 Abs. 7 S. 3 EStG), ausländische nur in den Progressionsvorbehalt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
@@ -557,124 +449,104 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr3-04",
-      "quellen": [
-        "§ 18 Abs. 1 Nr. 3 EStG",
-        "§ 49 Abs. 1 Nr. 3 EStG",
-        "§ 50a Abs. 1 Nr. 4 EStG",
-        "§ 50a Abs. 2 EStG",
-        "§ 50a Abs. 3 EStG",
-        "Art. 16 DBA",
-        "§ 50a Abs. 1 Nr. 4, Abs. 2, 3 EStG",
-        "Themenpool: istr-modul-istr-istr3-04"
+      "themaId": "istr-aufb-istr-gh-3-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Merksatz",
+        "Inländische",
+        "Einkünfte?",
+        "Einkunftsart",
+        "plus Inlandsbezug",
+        "aus § 49 EStG.",
+        "§ 49 Abs. 1, § 1 Abs. 4 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
-      "text": "Aufsichtsratsvergütung Nichtansässiger: § 18 Abs. 1 Nr. 3, § 49 Abs. 1 Nr. 3 EStG, Abzug 30 % (§ 50a Abs. 1 Nr. 4, Abs. 2 EStG), für EU/EWR-Gläubiger mit Kostenabzug (Abs. 3); Besteuerungsrecht nach Art. 16 OECD-MA.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gewinnrealisierung und schwebende Geschäfte",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Buchwert trotz Minuskapital?",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "erbst",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6…",
-      "text": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Welche Lieferung bewegt sich?",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "est",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Neu im Feed",
+        "Zerlegung: die Falle",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:40:21.513Z",
+    "erzeugtAm": "2026-10-03T04:35:21Z",
     "pfad": "vorproduktion/2026-10-14/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -686,5 +558,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
