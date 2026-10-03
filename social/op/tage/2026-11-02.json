@@ -815,7 +815,7 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Übernahmegewinn dreihundertfünfzigtausend Euro, voll steuerpflichtig? Stopp. Erst kommt Paragraf sieben."
+     "text": "Übernahmegewinn dreihundertfünfzigtausend Euro, voll steuerpflichtig? Stopp. Erst Paragraf sieben."
     },
     {
      "id": "s1",
@@ -831,7 +831,7 @@
     },
     {
      "id": "cta",
-     "text": "Merke: Erst die Bezüge nach Paragraf sieben abziehen, dann den Rest rechnen."
+     "text": "Merke: Erst Bezüge nach Paragraf sieben abziehen, dann Rest rechnen."
     }
    ],
    "hook": {

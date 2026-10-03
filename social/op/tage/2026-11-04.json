@@ -629,10 +629,10 @@
        "§ 171 Abs. 4 S. 1 AO"
       ],
       [
-       "Spätestens fünf Jahre nach Ablauf des Jahres der Prüfungsanordnung.",
+       "Höchstens fünf Jahre nach dem Anordnungsjahr; gilt für Steuern ab 2025.",
        "warn",
        "Bold",
-       "§ 171 Abs. 4 S. 3 AO"
+       "§ 171 Abs. 4 S. 3 AO, Art. 97 § 37 Abs. 2 EGAO"
       ]
      ],
      "figur": "A:erklaert",
@@ -781,12 +781,12 @@
       ]
      ],
      "randnotiz": [
-      "Höchstgrenze: § 171 Abs. 4 S. 3 AO",
-      "fünf Jahre nach dem Jahr der Prüfungsanordnung"
+      "Höchstgrenze § 171 Abs. 4 S. 3 AO:",
+      "erst für Steuern, die nach 2024 entstehen"
      ]
     }
    ],
-   "caption": "Festsetzungsfrist gerettet? Das Prüfschema zur Ablaufhemmung durch Einspruch und Außenprüfung.\n\nFall: Okan reicht die Einkommensteuererklärung 2020 im Mai 2021 ein.\n\n1. Reguläres Ende: Beginn mit Ablauf des Jahres der Einreichung (§ 170 Abs. 2 S. 1 Nr. 1 AO), vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO) – Ende 31.12.2025.\n2. Einspruch oder Klage: Die Frist läuft nicht ab, bevor über den Rechtsbehelf unanfechtbar entschieden ist, auch bei Einlegung nach Fristablauf; gehemmt ist der gesamte Steueranspruch, nicht aber soweit der Rechtsbehelf unzulässig ist (§ 171 Abs. 3a S. 1, 2 AO).\n3. Außenprüfung: Hemmung nur, wenn vor Ablauf der Festsetzungsfrist mit der Prüfung begonnen oder ihr Beginn auf Antrag des Steuerpflichtigen hinausgeschoben wird (§ 171 Abs. 4 S. 1 AO). Prüfungsbeginn am 12.01.2026 ist zu spät.\n4. Ende: Unanfechtbarkeit der aufgrund der Prüfung erlassenen Bescheide oder drei Monate nach Bekanntgabe der Mitteilung nach § 202 Abs. 1 S. 3 AO (§ 171 Abs. 4 S. 1 AO); Höchstgrenze: fünf Jahre ab Ende des Bekanntgabejahres der Prüfungsanordnung (§ 171 Abs. 4 S. 3 AO).\n\nZum Schluss: § 171 Abs. 3a, 4 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Festsetzungsfrist gerettet? Das Prüfschema zur Ablaufhemmung durch Einspruch und Außenprüfung.\n\nFall: Okan reicht die Einkommensteuererklärung 2020 im Mai 2021 ein.\n\n1. Reguläres Ende: Beginn mit Ablauf des Jahres der Einreichung (§ 170 Abs. 2 S. 1 Nr. 1 AO), vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO) – Ende 31.12.2025.\n2. Einspruch oder Klage: Die Frist läuft nicht ab, bevor über den Rechtsbehelf unanfechtbar entschieden ist, auch bei Einlegung nach Fristablauf; gehemmt ist der gesamte Steueranspruch, nicht aber soweit der Rechtsbehelf unzulässig ist (§ 171 Abs. 3a S. 1, 2 AO).\n3. Außenprüfung: Hemmung nur, wenn vor Ablauf der Festsetzungsfrist mit der Prüfung begonnen oder ihr Beginn auf Antrag des Steuerpflichtigen hinausgeschoben wird (§ 171 Abs. 4 S. 1 AO). Prüfungsbeginn am 12.01.2026 ist zu spät.\n4. Ende: Unanfechtbarkeit der aufgrund der Prüfung erlassenen Bescheide oder drei Monate nach Bekanntgabe der Mitteilung nach § 202 Abs. 1 S. 3 AO (§ 171 Abs. 4 S. 1 AO); Höchstgrenze: fünf Jahre ab Ende des Bekanntgabejahres der Prüfungsanordnung (§ 171 Abs. 4 S. 3 AO) – aber erst für Steuern, die nach dem 31.12.2024 entstehen (Art. 97 § 37 Abs. 2 EGAO). Für Okans Einkommensteuer 2020 gilt noch § 171 Abs. 4 AO in der Fassung bis 2022.\n\nZum Schluss: § 171 Abs. 3a, 4 AO zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -798,7 +798,8 @@
     "§ 170 Abs. 2 S. 1 Nr. 1 AO",
     "§ 171 Abs. 3a S. 1, 2 AO",
     "§ 171 Abs. 4 S. 1, 3 AO",
-    "§ 202 Abs. 1 S. 3 AO"
+    "§ 202 Abs. 1 S. 3 AO",
+    "Art. 97 § 37 Abs. 2 EGAO"
    ]
   },
   {
@@ -824,7 +825,7 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Aufsichtsrätin aus dem Ausland, Vergütung von einer deutschen AG. Nur im Wohnsitzstaat steuerpflichtig? Falsch. Hier gilt eine Sonderregel."
+     "text": "Aufsichtsrätin aus dem Ausland, bezahlt von einer deutschen AG. Nur daheim steuerpflichtig? Falsch. Hier gilt eine Sonderregel."
     },
     {
      "id": "s1",

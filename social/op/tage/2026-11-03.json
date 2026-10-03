@@ -146,38 +146,45 @@
      "titel": "Lösung: Haftung prüfen",
      "punkte": [
       [
-       "Zurückgezahlte Einlage gilt den Gläubigern gegenüber als nicht geleistet.",
+       "Zurückgezahlte Einlage gilt Gläubigern gegenüber als nicht geleistet.",
        "ok",
        "Regular",
        "§ 172 Abs. 4 S. 1 HGB"
       ],
       [
-       "Aber: 30.000 € bleiben eingezahlt, mehr als die Haftsumme von 10.000 €.",
+       "Verluste haben ihren Kapitalanteil auf 0 € gebracht: Die Entnahme ist Rückzahlung.",
        "warn",
        "Regular",
-       "§ 171 Abs. 1 HGB"
+       null
       ],
       [
-       "Also entsteht keine neue Außenhaftung.",
-       "nein",
+       "Haftung lebt wieder auf, höchstens bis zur Haftsumme: 10.000 €.",
+       "ok",
        "Bold",
-       null
+       "§ 171 Abs. 1 HGB"
       ]
      ],
      "figur": "A:denkt",
      "x": 290,
-     "blase": "30.000 € bleiben drin."
+     "blase": "Haftung lebt auf!"
     },
     {
      "typ": "rechnung",
      "titel": "Lösung: Zurechnung",
      "normen": [
-      "§ 15a Abs. 3 S. 1, 2, 4 EStG"
+      "§ 15a Abs. 3 S. 1, 2, 4 EStG",
+      "BFH IV R 35/07"
      ],
      "zeilen": [
       [
        "Einlageminderung",
        "20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Wiederaufgelebte Haftung",
+       "− 10.000 €",
        "Regular",
        null
       ],
@@ -189,13 +196,13 @@
       ],
       [
        "Gewinn 2026 für Wanda",
-       "+ 20.000 €",
+       "+ 10.000 €",
        "ExtraBold",
        "GELB"
       ],
       [
        "Verrechenbarer Verlust",
-       "+ 20.000 €",
+       "+ 10.000 €",
        "Bold",
        "GRUEN"
       ]
@@ -210,16 +217,22 @@
      "titel": "Haftsumme übersehen",
      "punkte": [
       [
-       "Hätte Wanda eine Haftsumme von 50.000 €, lebte ihre Haftung in Höhe der Entnahme wieder auf.",
-       "ok",
-       "Regular",
-       "§ 172 Abs. 4 HGB"
+       "20.000 € zurechnen, weil 50.000 € eingezahlt sind: falsch.",
+       "nein",
+       "Bold",
+       null
       ],
       [
-       "Dann: keine Zurechnung, soweit diese Haftung nach § 15a Abs. 1 S. 2 zählt.",
-       "warn",
-       "Bold",
+       "Die Haftung, die durch die Entnahme wieder auflebt, sperrt die Zurechnung insoweit.",
+       "ok",
+       "Regular",
        "§ 15a Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Bei einer Haftsumme ab 20.000 € entfiele sie ganz.",
+       "warn",
+       "Regular",
+       "H 15a EStH"
       ]
      ],
      "figur": "A:staunt",
@@ -229,8 +242,8 @@
     {
      "typ": "merke",
      "oben": [
-      "Wanda 2026: + 20.000 € Gewinn",
-      "und 20.000 € verrechenbarer Verlust für später",
+      "Wanda 2026: + 10.000 € Gewinn",
+      "und 10.000 € verrechenbarer Verlust für später",
       "GELB"
      ],
      "zeilen": [
@@ -240,21 +253,25 @@
         "a"
        ],
        [
-        " ins Minus,",
+        " ins Minus:",
         null
        ]
       ],
       [
        [
-        "keine Haftung",
+        "Haftung",
         "b"
        ],
        [
-        " lebt auf:",
+        " lebt auf?",
         null
        ]
       ],
       [
+       [
+        "Rest: ",
+        null
+       ],
        [
         "fiktiver Gewinn",
         "c"
@@ -369,12 +386,12 @@
       ]
      ],
      "randnotiz": [
-      "Wanda 2026: + 20.000 € Gewinn",
-      "und 20.000 € verrechenbarer Verlust"
+      "Wanda 2026: + 10.000 € Gewinn",
+      "und 10.000 € verrechenbarer Verlust"
      ]
     }
    ],
-   "caption": "Entnahme wird Gewinn? Der Rechenweg zur Einlageminderung des Kommanditisten nach § 15a Abs. 3 EStG.\n\nFall: Wanda, Kommanditistin, Haftsumme im Handelsregister 10.000 €. 2025 Einlage 50.000 €, Verlustanteil 50.000 € (voll ausgleichsfähig, § 15a Abs. 1 S. 1 EStG). 2026 Gewinnanteil 0 €, Entnahme 20.000 €: Kapitalkonto −20.000 €.\n\n▸ Haftung: Eine zurückgezahlte Einlage gilt den Gläubigern gegenüber als nicht geleistet (§ 172 Abs. 4 S. 1 HGB). Es bleiben aber 30.000 € eingezahlt, mehr als die Haftsumme (§ 171 Abs. 1 HGB) – keine neue Außenhaftung.\n▸ Einlageminderung: Entsteht oder erhöht sich ein negatives Kapitalkonto durch Entnahmen und besteht oder entsteht keine nach § 15a Abs. 1 S. 2 EStG zu berücksichtigende Haftung, wird der Betrag als Gewinn zugerechnet (§ 15a Abs. 3 S. 1 EStG): 20.000 €.\n▸ Grenze: Verlustanteile, die im Jahr der Einlageminderung und in den zehn vorangegangenen Wirtschaftsjahren ausgleichs- oder abzugsfähig waren (§ 15a Abs. 3 S. 2 EStG): hier 50.000 €.\n▸ Zugleich mindert der zugerechnete Betrag spätere Gewinne aus der Beteiligung (§ 15a Abs. 3 S. 4 EStG) – er wird verrechenbarer Verlust (§ 15a Abs. 4 EStG).\n▸ Klausurfalle: Bei einer Haftsumme von 50.000 € lebte die Haftung in Höhe der Entnahme wieder auf – dann insoweit keine Zurechnung.\n\nZum Schluss: § 15a Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Entnahme wird Gewinn? Der Rechenweg zur Einlageminderung des Kommanditisten nach § 15a Abs. 3 EStG.\n\nFall: Wanda, Kommanditistin, Haftsumme im Handelsregister 10.000 €. 2025 Einlage 50.000 €, Verlustanteil 50.000 € (voll ausgleichsfähig, § 15a Abs. 1 S. 1 EStG). 2026 Gewinnanteil 0 €, Entnahme 20.000 €: Kapitalkonto −20.000 €.\n\n▸ Haftung: Eine zurückgezahlte Einlage gilt den Gläubigern gegenüber als nicht geleistet (§ 172 Abs. 4 S. 1 HGB). Die Verluste haben Wandas Kapitalanteil auf 0 € gebracht, die Entnahme ist deshalb Einlagenrückgewähr: Ihre Haftung lebt bis zur Haftsumme wieder auf (§ 171 Abs. 1 HGB), hier 10.000 €.\n▸ Einlageminderung: Entsteht oder erhöht sich ein negatives Kapitalkonto durch Entnahmen, wird der Betrag als Gewinn zugerechnet, soweit nicht auf Grund der Entnahmen eine nach § 15a Abs. 1 S. 2 EStG zu berücksichtigende Haftung entsteht (§ 15a Abs. 3 S. 1 EStG). Wird eine die Haftsumme übersteigende Pflichteinlage entnommen, lebt diese Haftung bis zur Höhe der Haftsumme wieder auf (H 15a EStH; BFH vom 06.03.2008, IV R 35/07, BStBl II 2008, 676). Zurechnung: 20.000 € − 10.000 € = 10.000 €.\n▸ Grenze: Verlustanteile, die im Jahr der Einlageminderung und in den zehn vorangegangenen Wirtschaftsjahren ausgleichs- oder abzugsfähig waren (§ 15a Abs. 3 S. 2 EStG): hier 50.000 €, nicht überschritten.\n▸ Zugleich mindert der zugerechnete Betrag spätere Gewinne aus der Beteiligung (§ 15a Abs. 3 S. 4 EStG) – 10.000 € werden verrechenbarer Verlust (§ 15a Abs. 4 EStG).\n▸ Klausurfalle: Nicht auf die eingezahlten 50.000 € schauen, sondern auf den Kapitalanteil nach Verlusten und die Haftsumme. Ab einer Haftsumme von 20.000 € entfiele die Zurechnung ganz.\n\nZum Schluss: § 15a Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -384,7 +401,9 @@
    "quellen": [
     "§ 15a Abs. 1 S. 1, 2, Abs. 3 S. 1, 2, 4, Abs. 4 EStG",
     "§ 171 Abs. 1 HGB",
-    "§ 172 Abs. 4 S. 1 HGB"
+    "§ 172 Abs. 4 S. 1 HGB",
+    "BFH vom 06.03.2008, IV R 35/07, BStBl II 2008, 676",
+    "H 15a EStH (Gewinnhinzurechnung nach § 15a Abs. 3)"
    ]
   },
   {
