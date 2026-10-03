@@ -98,7 +98,6 @@ def main():
                 # Trockenlauf: geschätzte Wortzeiten, Standbilder je Szene statt Video (prüft Aufbau, Wortmarken, Länge)
                 r.rendern(nur_bilder=[0.5, 6.0, 12.0, 20.0, 28.0, 36.0, 42.0])
                 print(f"Reel {b['slot']}: geschätzt {r.Z['dauer']:.1f} s · Standbilder unter {out}")
-                os.rename(os.path.join(out, "_t006.0.jpg"), os.path.join(out, f"{datum}-{b['slot']}-cover.jpg"))
                 covers[b["slot"]] = os.path.join(out, f"{datum}-{b['slot']}-cover.jpg")
                 texte[f"{datum}-{b['slot']}-reel"] = r.texte + [x["text"] for x in b["sprecher"]]
                 continue

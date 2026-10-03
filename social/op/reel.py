@@ -276,9 +276,12 @@ class Reel:
         self.RAHMEN = self.rahmen()
         self.BG = Image.new("RGBA", (W_, H_), k.CREME)
         dauer = Z["dauer"] + 0.4
+        cover_t = self.s.get("coverZeit") or (self.wort("hook", self.s["hook"]["stempel"]["wort"]) + 0.6 if self.s["hook"].get("stempel") else t_hook_ende - 0.3)
         if nur_bilder:
             for ts in nur_bilder:
                 self.bild(ts).save(os.path.join(self.out, f"_t{ts:05.1f}.jpg"), quality=88)
+            # Cover wie im echten Lauf (Prüflauf zeigt so Stempel, Split und Richtig-Block)
+            self.bild(cover_t).save(os.path.join(self.out, f"{self.datum}-{self.s['slot']}-cover.jpg"), quality=88)
             k.KARUSSELL.aktiv(); return []
         # Ton
         SR = stimme.SR
@@ -303,7 +306,6 @@ class Reel:
         for fr in range(int(dauer * FPS)):
             p.stdin.write(self.bild(fr / FPS).tobytes())
         p.stdin.close(); p.wait()
-        cover_t = self.s.get("coverZeit") or (self.wort("hook", self.s["hook"]["stempel"]["wort"]) + 0.6 if self.s["hook"].get("stempel") else t_hook_ende - 0.3)
         cover = os.path.join(self.out, f"{self.datum}-{self.s['slot']}-cover.jpg")
         self.bild(cover_t).save(cover, quality=92)
         os.remove(wav); os.remove(ton)
