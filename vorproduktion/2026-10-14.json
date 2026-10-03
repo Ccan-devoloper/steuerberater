@@ -107,7 +107,7 @@
       "klausur": 3,
       "fachLabel": "Umwandlungssteuerrecht",
       "themaId": "umwst-aufb-umw-2-23",
-      "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 und 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+      "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 bis 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -173,7 +173,7 @@
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "§ 20 UmwStG Einbringung (Auszug) · Grenze! · mindestens 0 € · nur bei gemeinem Wert · Dazu: § 20 Abs. 3 S. 1 UmwStG · Wertansatz = Veräußerungspreis und AK der Anteile"
+          "text": "§ 20 UmwStG Einbringung (Auszug) · mindestens 0 € · Gewinn 80.000 € · Anteile: 0 € · nur bei gemeinem Wert · Tessa: Gewinn 80.000 €, Anteile 0 € · kein Freibetrag, kein ermäßigter Satz"
         }
       ]
     },
@@ -183,7 +183,7 @@
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
       "themaId": "ust-aufb-ust-m-b04-15",
-      "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a UStG zum Markieren. Speichern für Klausur 1 📌",
+      "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -218,7 +218,7 @@
         {
           "art": "text",
           "titel": "Umsatzsteuer",
-          "text": "Das Schema · Reihengeschäft? · § 3 Abs. 6a S. 1 UStG · Erster transportiert · § 3 Abs. 6a S. 2 UStG · Letzter transportiert · § 3 Abs. 6a S. 3 UStG · Händler transportiert · § 3 Abs. 6a S. 4, 5 UStG · Ruhende Lieferungen verorten · § 3 Abs. 7 S. 2 UStG · Am Ende: § 3 Abs. 6a UStG markiert"
+          "text": "Das Schema · Reihengeschäft? · § 3 Abs. 6a S. 1 UStG · Erster transportiert · § 3 Abs. 6a S. 2 UStG · Letzter transportiert · § 3 Abs. 6a S. 3 UStG · Händler transportiert · § 3 Abs. 6a S. 4, 5 UStG · Ruhende Lieferungen verorten · § 3 Abs. 7 S. 2 UStG · Am Ende: § 3 Abs. 6a, 7 UStG markiert"
         },
         {
           "art": "text",
@@ -253,7 +253,12 @@
         {
           "art": "text",
           "titel": "Umsatzsteuer",
-          "text": "§ 3 Abs. 6a UStG Reihengeschäft (Auszug) · Zwischenhändler · Grundregel · IdNr. Abgangsstaat · dann seine Lieferung · Dazu: Abschn. 3.14 UStAE · Ruhende Orte: § 3 Abs. 7 S. 2 UStG"
+          "text": "§ 3 Abs. 6a UStG Reihengeschäft (Auszug) · Zwischenhändler · Grundregel · IdNr. Abgangsstaat · dann seine Lieferung · Weiterwischen: § 3 Abs. 7 UStG · Wo die ruhenden Lieferungen liegen"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "§ 3 Abs. 7 UStG (Auszug) · ruhende Lieferung · davor: Beginn · danach: Ende, Mailand · Vertiefung: Abschn. 3.14 UStAE · Zuordnung mit vielen Beispielen"
         }
       ]
     },
@@ -538,7 +543,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T10:52:00Z",
+    "erzeugtAm": "2026-10-03T12:05:44Z",
     "pfad": "vorproduktion/2026-10-14/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
