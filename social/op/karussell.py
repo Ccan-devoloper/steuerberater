@@ -276,7 +276,7 @@ class Karussell:
             if y - abstand + unten_frei <= k.AKTIV.innen_unten - 20:
                 break
         assert y - abstand + unten_frei <= k.AKTIV.innen_unten - 20 + 60, f"Folie {seite}: Gesetzesauszüge zu lang"
-        hand, NX = k.HAND(44 if len(seiten) == 1 else 40), PX + PW + 30
+        hand, NX = k.HAND(int(min(44, max(30, gr * 1.3)))), PX + PW + 30   # Handschrift wächst mit der Textgröße, damit Notizen bei engen Zeilen auf Höhe bleiben
         NW = 1030 - NX
         rot = (205, 40, 40, 255)
         from PIL import Image, ImageDraw
@@ -294,13 +294,14 @@ class Karussell:
                     else: cur = (cur + " " + w_).strip()
                 zl.append(cur)
                 zh = hand.size + 2
-                ny = max(sy + y0 - (14 if zwei else 4), frei)
+                ny = max(sy + y0 + gr // 2 - zh // 2 - 2, frei)   # Pfeil auf Mitte der markierten Zeile
                 im = Image.new("RGBA", (NW + 60, zh * len(zl) + 20)); dd = ImageDraw.Draw(im)
                 for i, z_ in enumerate(zl):
                     dd.text((40, 2 + i * zh), z_, font=hand, fill=rot)
-                dd.line((4, 26, 32, 26), fill=rot, width=4); dd.line((4, 26, 16, 16), fill=rot, width=4); dd.line((4, 26, 16, 36), fill=rot, width=4)
+                ay = zh // 2 + 2
+                dd.line((4, ay, 32, ay), fill=rot, width=4); dd.line((4, ay, 16, ay - 10), fill=rot, width=4); dd.line((4, ay, 16, ay + 10), fill=rot, width=4)
                 els.append(k.engine.El(im, NX - 40, ny, C, "fade", 0.0, name="notiz"))
-                frei = ny + zh * len(zl) + 18
+                frei = ny + zh * len(zl) + (18 if zh >= 44 else 6)
         letzte = gebaut[-1]
         yb = max(letzte[3] + letzte[4] + 46, frei + 10)
         if f.get("randnotiz"):
