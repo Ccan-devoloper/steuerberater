@@ -501,7 +501,7 @@
        "§ 10 Abs. 1 S. 4 UStG"
       ],
       [
-       "Typisch: Gebühren, die im Namen des Kunden an eine Behörde gehen.",
+       "Typisch: Gebühren, die im Namen des Kunden an Behörden gehen.",
        "ok",
        "Regular",
        null
@@ -515,7 +515,7 @@
      ],
      "figur": "A:denkt",
      "x": 290,
-     "blase": "Wessen Name zählt?"
+     "blase": "Wessen Name?"
     },
     {
      "typ": "inhalt",
