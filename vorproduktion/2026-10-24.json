@@ -173,7 +173,7 @@
         {
           "art": "text",
           "titel": "Erbschaftsteuer",
-          "text": "Kernbegriff · Befreiungen · Wert nach § 12 · Abzüge · Pauschale: § 10 Abs. 5 Nr. 3 S. 2 ErbStG · 15.000 € ohne Nachweis"
+          "text": "§ 10 ErbStG Steuerpflichtiger Erwerb (Auszug) · Kernbegriff · Befreiungen · Wert nach § 12 · Abzüge · Pauschale: § 10 Abs. 5 Nr. 3 S. 2 ErbStG · 15.000 € ohne Nachweis"
         }
       ]
     },
@@ -246,7 +246,7 @@
         {
           "art": "text",
           "titel": "Einkommensteuer",
-          "text": "Preis · Maklerkosten · AfA zurück! · Freigrenze · Verluste: § 23 Abs. 3 S. 7 EStG · nur mit Gewinnen aus § 23 im selben Jahr"
+          "text": "§ 23 EStG (Auszug) · Preis · Maklerkosten · AfA zurück! · Freigrenze · Verluste: § 23 Abs. 3 S. 7 EStG · nur mit Gewinnen aus § 23 im selben Jahr"
         }
       ]
     },
@@ -535,7 +535,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:45:40Z",
+    "erzeugtAm": "2026-10-03T10:59:28Z",
     "pfad": "vorproduktion/2026-10-24/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
