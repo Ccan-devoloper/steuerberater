@@ -107,7 +107,7 @@
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
       "themaId": "wochenrueckblick-k2-2026-43",
-      "caption": "Wochenrückblick Klausur 2: fünf Themen der Woche 43.\n\n1. Gesellschafterdarlehen: Ausfall als nachträgliche Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst (§ 17 Abs. 2a S. 3 Nr. 2 EStG); beim Stehenlassen zählt nur der Wert bei Kriseneintritt (BFH vom 18.07.2023, IX R 21/21).\n2. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR), beim beherrschenden Gesellschafter auch ohne klare Vorabvereinbarung (R 8.5 Abs. 2 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n3. Betriebsstätte: Bauausführung nach § 12 S. 2 Nr. 8 AO ab mehr als sechs Monaten, nach Art. 5 Abs. 3 OECD-MA erst ab mehr als zwölf Monaten.\n4. Verlustuntergang: Mehr als 50 % an einen Erwerber innerhalb von fünf Jahren, dann sind nicht genutzte Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG), außer soweit stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 KStG).\n5. Private Veräußerung: Grundstücke innerhalb von zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
+      "caption": "Wochenrückblick Klausur 2: fünf Themen der Woche 43.\n\n1. Gesellschafterdarlehen: Ausfall als nachträgliche Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst (§ 17 Abs. 2a S. 3 Nr. 2 EStG); beim Stehenlassen zählt nur der Wert bei Kriseneintritt (BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169).\n2. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR), beim beherrschenden Gesellschafter auch ohne klare Vorabvereinbarung (R 8.5 Abs. 2 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n3. Betriebsstätte: Bauausführung nach § 12 S. 2 Nr. 8 AO ab mehr als sechs Monaten, nach Art. 5 Abs. 3 OECD-MA erst ab mehr als zwölf Monaten.\n4. Verlustuntergang: Mehr als 50 % an einen Erwerber innerhalb von fünf Jahren, dann sind nicht genutzte Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG), außer soweit stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 KStG).\n5. Private Veräußerung: Grundstücke innerhalb von zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -116,7 +116,7 @@
       ],
       "quellen": [
         "§ 17 Abs. 2a S. 3 Nr. 2 EStG",
-        "BFH vom 18.07.2023, IX R 21/21",
+        "BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169",
         "§ 8 Abs. 3 S. 2 KStG",
         "R 8.5 Abs. 1, 2 KStR",
         "§ 12 S. 2 Nr. 8 AO",
@@ -152,7 +152,7 @@
         {
           "art": "text",
           "titel": "Körperschaftsteuer",
-          "text": "1 · Darlehen weg · Der Ausfall erhöht die Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst. · § 17 Abs. 2a S. 3 Nr. 2 EStG · Stehen gelassen: nur der Wert bei Krisenbeginn. · BFH vom 18.07.2023, IX R 21/21 · Fremdvergleich!"
+          "text": "1 · Darlehen weg · Der Ausfall erhöht die Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst. · § 17 Abs. 2a S. 3 Nr. 2 EStG · Stehen gelassen: nur der Wert bei Krisenbeginn. · BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169 · Fremdvergleich!"
         },
         {
           "art": "text",
@@ -182,7 +182,7 @@
         {
           "art": "text",
           "titel": "Körperschaftsteuer",
-          "text": "Schwelle · ein Erwerber · Alles weg · Rettung · Daneben: § 8d KStG · Fortführungsgebundener Verlustvortrag auf Antrag"
+          "text": "§ 8c KStG (Auszug) · Schwelle · ein Erwerber · Alles weg · Rettung · Daneben: § 8d KStG · Fortführungsgebundener Verlustvortrag auf Antrag"
         }
       ]
     },
@@ -221,7 +221,7 @@
         {
           "art": "titel",
           "titel": "Prüfungsfrage",
-          "text": "Prüfungsfrage · Halle brennt: · Gewinn sofort? · R 6.6 EStR · Der Klausurfall · + Markier-Guide § 5 EStG · Versicherung · 300.000 € · Buchwert 120.000 €",
+          "text": "Prüfungsfrage · Halle brennt: · Gewinn sofort? · R 6.6 EStR · Der Klausurfall · + Markier-Guide § 5 + R 6.6 · Versicherung · 300.000 € · Buchwert 120.000 €",
           "bild": "op-cover"
         },
         {
@@ -257,17 +257,17 @@
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Lösung: 2026 kein Gewinn, Rücklage 180.000 € · 2027 Übertragung auf die neue Halle · Höhere Gewalt prüfen, · Rücklage im Brandjahr, · Frist vier oder sechs, · übertragen auf Ersatz. · Speichern für Klausur 3 · Hättest du 2026 versteuert? · Weiterwischen: § 5 EStG und R 6.6"
+          "text": "Lösung: 2026 kein Gewinn, Rücklage 180.000 € · 2027 Übertragung auf die neue Halle · Höhere Gewalt prüfen, · Rücklage im Brandjahr, · Frist vier oder sechs, · übertragen auf Ersatz. · Speichern für Klausur 3 · Hättest du 2026 versteuert? · Weiterwischen: § 5 + R 6.6 markiert"
         },
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Rücklage = Wahlrecht · Abweichung HB · Verzeichnis · Bei der Rücklage reicht der Ansatz · in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR)"
+          "text": "§ 5 EStG (Auszug) · Rücklage = Wahlrecht · Abweichung HB · Verzeichnis · Bei der Rücklage reicht der Ansatz · in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR)"
         },
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Rücklage · Plan nötig · Brandjahr! · Neubau · Richtlinien nur für die Klausur · In der mündlichen Prüfung liegen sie nicht aus"
+          "text": "R 6.6 Abs. 4 EStR (Auszug) · Rücklage · Plan nötig · Brandjahr! · Neubau · Richtlinien nur für die Klausur · In der mündlichen Prüfung liegen sie nicht aus"
         }
       ]
     },
@@ -562,7 +562,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:46:35Z",
+    "erzeugtAm": "2026-10-03T11:00:15Z",
     "pfad": "vorproduktion/2026-10-25/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
