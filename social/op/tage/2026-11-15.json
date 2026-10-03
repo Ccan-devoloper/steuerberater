@@ -196,8 +196,8 @@
     {
      "typ": "merke",
      "oben": [
-      "Montag schreibst du Tag 1, Mittwoch Tag 2",
-      "Diese Woche: fünf Ertragsteuerthemen",
+      "Klausur 2: Ertragsteuern",
+      "Fünf Themen für den Anlauf 2027",
       "GELB"
      ],
      "zeilen": [
@@ -562,7 +562,7 @@
      ],
      "zeilen": [
       [
-       "Einzelrückstellung Großauftrag",
+       "Einzelrückstellung",
        "25.000 €",
        "Regular",
        null
@@ -570,6 +570,12 @@
       [
        "Pauschale 1 % von 1,9 Mio. €",
        "19.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abzinsung",
+       "0 €",
        "Regular",
        null
       ],
@@ -583,10 +589,7 @@
      "extra": [
       "Großauftrag nicht doppelt erfassen",
       "GELB"
-     ],
-     "figur": "B:froh",
-     "x": 290,
-     "blase": "Sauber getrennt."
+     ]
     },
     {
      "typ": "merke",
@@ -674,6 +677,19 @@
          "b1"
         ]
        ]
+      ],
+      [
+       2,
+       [
+        [
+         "Für andere als die in Absatz 1 bezeichneten Zwecke dürfen Rückstellungen nicht gebildet werden. Rückstellungen dürfen nur aufgelöst werden,",
+         null
+        ],
+        [
+         "soweit der Grund hierfür entfallen ist.",
+         "gr1"
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -688,6 +704,10 @@
       [
        "Kulanz",
        "b1"
+      ],
+      [
+       "Auflösung nur bei Wegfall",
+       "gr1"
       ]
      ],
      "randnotiz": [
@@ -704,7 +724,7 @@
     "#bilanzsteuerrecht"
    ],
    "quellen": [
-    "§ 249 Abs. 1 S. 1, S. 2 Nr. 2 HGB",
+    "§ 249 Abs. 1 S. 1, S. 2 Nr. 2, Abs. 2 HGB",
     "§ 5 Abs. 1 S. 1 EStG",
     "§ 6 Abs. 1 Nr. 3a Buchst. b, e, f EStG",
     "R 5.7 Abs. 5 EStR",

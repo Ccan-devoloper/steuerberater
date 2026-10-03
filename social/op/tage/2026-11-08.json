@@ -1,0 +1,1165 @@
+{
+ "datum": "2026-11-08",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "AO · USt · ErbSt",
+   "themaId": "wochenrueckblick-k1-2026-45",
+   "themaTitel": "Klausur 1 kompakt: fünf Themen der Woche",
+   "figuren": {
+    "A": {
+     "name": "Wiebke",
+     "kopf": "Medium Straight",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    },
+    "B": {
+     "name": "Ismail",
+     "kopf": "Short 1",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 1",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Klausur 1",
+      "kompakt"
+     ],
+     "unter": "5 Themen",
+     "teaser": "+ Markier-Guide § 177 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "WOCHE",
+      "tag": "45",
+      "unter": "2. bis 7. November"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Themen",
+     "schritte": [
+      [
+       "Einspruch oder Änderung",
+       "§§ 172 ff., 367 Abs. 2 AO",
+       ""
+      ],
+      [
+       "Ablaufhemmung",
+       "§ 171 Abs. 3a, 4 AO",
+       ""
+      ],
+      [
+       "Bauleistungen",
+       "§ 13b Abs. 2 Nr. 4 UStG",
+       ""
+      ],
+      [
+       "Geschäftsveräußerung",
+       "§ 1 Abs. 1a UStG",
+       ""
+      ],
+      [
+       "Zusammenrechnung",
+       "§ 14 ErbStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 177 AO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Einspruch oder Änderung",
+     "punkte": [
+      [
+       "Einspruch offen: Die Sache wird voll neu geprüft.",
+       "ok",
+       "Regular",
+       "§ 367 Abs. 2 S. 1 AO"
+      ],
+      [
+       "Bestandskräftig: Jeder Fehler braucht eine Korrekturnorm.",
+       "warn",
+       "Regular",
+       "§§ 172 bis 175 AO"
+      ],
+      [
+       "Bei Änderung andere Fehler mitberichtigen, soweit die Änderung reicht.",
+       "ok",
+       "Bold",
+       "§ 177 AO"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Reihenfolge zählt!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Ablaufhemmung",
+     "punkte": [
+      [
+       "Einspruch hemmt bis zur unanfechtbaren Entscheidung.",
+       "ok",
+       "Regular",
+       "§ 171 Abs. 3a S. 1 AO"
+      ],
+      [
+       "Außenprüfung hemmt nur, wenn sie vor Fristablauf beginnt.",
+       "warn",
+       "Bold",
+       "§ 171 Abs. 4 S. 1 AO"
+      ],
+      [
+       "Höchstens fünf Jahre ab Ende des Jahres der Prüfungsanordnung.",
+       "ok",
+       "Regular",
+       "§ 171 Abs. 4 S. 3 AO"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Und die Anordnung allein?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Bauleistungen",
+     "punkte": [
+      [
+       "Die Steuer schuldet der Empfänger, wenn er selbst nachhaltig baut.",
+       "ok",
+       "Regular",
+       "§ 13b Abs. 5 S. 2 UStG"
+      ],
+      [
+       "Planung und Überwachung sind keine Bauleistungen.",
+       "nein",
+       "Regular",
+       "§ 13b Abs. 2 Nr. 4 S. 1 UStG"
+      ],
+      [
+       "Rechnung ohne Steuer, mit Hinweis.",
+       "warn",
+       "Bold",
+       "§ 14a Abs. 5 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Wer baut, zahlt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Geschäftsveräußerung",
+     "punkte": [
+      [
+       "Ganzes Unternehmen an einen Unternehmer: nicht steuerbar.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1a S. 1 UStG"
+      ],
+      [
+       "Gilt auch unentgeltlich.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1a S. 2 UStG"
+      ],
+      [
+       "Der Käufer übernimmt die Rolle des Verkäufers.",
+       "warn",
+       "Bold",
+       "§ 1 Abs. 1a S. 3 UStG"
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Keine Steuer!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Zusammenrechnung",
+     "punkte": [
+      [
+       "Erwerbe von derselben Person in zehn Jahren werden addiert.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 ErbStG"
+      ],
+      [
+       "Frühere Erwerbe zählen mit ihrem damaligen Wert.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Nie weniger als die Steuer auf den letzten Erwerb allein.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 4 ErbStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Freibetrag nur einmal!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Klausur 1: AO, Umsatzsteuer, Erbschaftsteuer",
+      "Das Wichtigste der letzten sieben Tage",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Einspruch",
+        "a"
+       ],
+       [
+        " vor Änderung,",
+        null
+       ]
+      ],
+      [
+       [
+        "Prüfung",
+        "b"
+       ],
+       [
+        " nur mit Beginn,",
+        null
+       ]
+      ],
+      [
+       [
+        "Bau",
+        "c"
+       ],
+       [
+        " an Bauleister,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zehn Jahre",
+        "d"
+       ],
+       [
+        " addieren.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Welches Thema wackelt noch?",
+     "teaser": "Weiterwischen: § 177 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 177 AO (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Liegen die",
+         null
+        ],
+        [
+         "Voraussetzungen für die Aufhebung oder Änderung",
+         "r1"
+        ],
+        [
+         "eines Steuerbescheids zuungunsten des Steuerpflichtigen vor, so sind,",
+         null
+        ],
+        [
+         "soweit die Änderung reicht,",
+         "g1"
+        ],
+        [
+         "zugunsten und zuungunsten des Steuerpflichtigen solche",
+         null
+        ],
+        [
+         "materiellen Fehler",
+         "b1"
+        ],
+        [
+         "zu berichtigen, die nicht Anlass der Aufhebung oder Änderung sind.",
+         null
+        ]
+       ]
+      ],
+      [
+       3,
+       [
+        [
+         "Materielle Fehler im Sinne der Absätze 1 und 2 sind",
+         null
+        ],
+        [
+         "alle Fehler",
+         "gr1"
+        ],
+        [
+         "einschließlich offenbarer Unrichtigkeiten im Sinne des § 129, die zur Festsetzung einer Steuer führen, die von der kraft Gesetzes entstandenen Steuer abweicht.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "erst Korrekturnorm",
+       "r1"
+      ],
+      [
+       "Rahmen",
+       "g1"
+      ],
+      [
+       "Saldierung",
+       "b1"
+      ],
+      [
+       "Begriff",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Gegenrichtung: § 177 Abs. 2 AO",
+      "gilt bei Änderung zugunsten genauso"
+     ]
+    }
+   ],
+   "caption": "Klausur 1 kompakt: fünf Themen dieser Woche aus AO, Umsatzsteuer und Erbschaftsteuer.\n\n1. Einspruch oder Änderung: Läuft ein Einspruch, prüft die Behörde den Fall komplett neu (§ 367 Abs. 2 S. 1 AO); nach Bestandskraft braucht jeder Fehler eine Korrekturvorschrift (§§ 172 bis 175 AO); bei einer Änderung werden andere materielle Fehler mitberichtigt, soweit die Änderung reicht (§ 177 AO).\n2. Ablaufhemmung: Einspruch hemmt bis zur unanfechtbaren Entscheidung (§ 171 Abs. 3a S. 1 AO); Außenprüfung nur bei Beginn oder beantragtem Aufschub vor Fristablauf (§ 171 Abs. 4 S. 1 AO); Höchstgrenze fünf Jahre ab Ende des Bekanntgabejahres der Prüfungsanordnung (§ 171 Abs. 4 S. 3 AO).\n3. Bauleistungen: Der Empfänger schuldet die Steuer, wenn er selbst nachhaltig Bauleistungen erbringt (§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG); Planungs- und Überwachungsleistungen sind ausgenommen; Rechnung mit Hinweis (§ 14a Abs. 5 UStG).\n4. Geschäftsveräußerung im Ganzen: nicht steuerbar, auch unentgeltlich; der Käufer übernimmt umsatzsteuerlich die Rolle des Verkäufers (§ 1 Abs. 1a S. 1 bis 3 UStG).\n5. Zusammenrechnung: Erwerbe von derselben Person innerhalb von zehn Jahren mit ihrem früheren Wert; Mindeststeuer des letzten Erwerbs (§ 14 Abs. 1 S. 1, 4 ErbStG).\n\nZum Schluss: § 177 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 367 Abs. 2 S. 1 AO",
+    "§§ 172 bis 175 AO",
+    "§ 177 Abs. 1 bis 3 AO",
+    "§ 171 Abs. 3a S. 1, Abs. 4 S. 1, 3 AO",
+    "§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG",
+    "§ 14a Abs. 5 UStG",
+    "§ 1 Abs. 1a UStG",
+    "§ 14 Abs. 1 S. 1, 4 ErbStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-4-06",
+   "themaTitel": "vGA beim Empfänger steuerfrei? Nur mit Korrespondenz",
+   "figuren": {
+    "A": {
+     "name": "Dörte",
+     "kopf": "Gray Medium",
+     "haut": "#E8B98F",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "vGA an die Mutter:",
+      "steuerfrei?"
+     ],
+     "norm": "§ 8b Abs. 1 S. 2 KStG",
+     "unter": "Klausurfrage",
+     "teaser": "+ Markier-Guide § 8b KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Honorar zu hoch",
+        "Bold",
+        42
+       ],
+       [
+        "40.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "steuerfrei?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Die Falkner GmbH hält 100 % an der Ostwind GmbH.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ostwind zahlt ihr 2025 ein Honorar von 100.000 € statt angemessener 60.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Der Bescheid 2025 der Ostwind ist bestandskräftig, die vGA blieb unentdeckt.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Dörte, Falkner GmbH."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Wie erfasst die Falkner GmbH die überhöhten 40.000 € bei ihrem Einkommen 2025?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Erst selbst lösen, dann weiterwischen.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Dividende ist doch steuerfrei?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1: bei Ostwind",
+     "punkte": [
+      [
+       "Überhöhtes Honorar an die Gesellschafterin: vGA von 40.000 €.",
+       "ok",
+       "Regular",
+       "§ 8 Abs. 3 S. 2 KStG"
+      ],
+      [
+       "Ihr Einkommen hätte um 40.000 € steigen müssen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Der Bescheid ist aber bestandskräftig.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Nicht mehr änderbar?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 2: bei Falkner",
+     "punkte": [
+      [
+       "Die 40.000 € sind Bezüge, keine Beratungseinnahme.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+      ],
+      [
+       "Im Grundsatz blieben sie außer Ansatz.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Also steuerfrei?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Nur, soweit die vGA das Einkommen der Ostwind nicht gemindert hat.",
+       "nein",
+       "Bold",
+       "§ 8b Abs. 1 S. 2 KStG"
+      ],
+      [
+       "Hier gemindert: Die 40.000 € sind bei Falkner voll steuerpflichtig.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Keine 5-%-Pauschale, weil nichts außer Ansatz bleibt.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 5 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Voll steuerpflichtig!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und wenn Ostwind geändert wird?",
+     "punkte": [
+      [
+       "Dann kann auch Falkners Bescheid geändert werden.",
+       "ok",
+       "Regular",
+       "§ 32a Abs. 1 S. 1 KStG"
+      ],
+      [
+       "Frist frühestens ein Jahr nach Unanfechtbarkeit bei Ostwind.",
+       "ok",
+       "Regular",
+       "§ 32a Abs. 1 S. 2 KStG"
+      ],
+      [
+       "Bei natürlichen Personen gilt das für Teileinkünfte und Abgeltungsteuer genauso.",
+       "warn",
+       "Regular",
+       "§ 3 Nr. 40 S. 1 Buchst. d S. 2, § 32d Abs. 2 Nr. 4 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Beide Ebenen zusammen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Falkner GmbH: 40.000 € voll steuerpflichtig",
+      "Steuerfrei erst, wenn Ostwind die vGA versteuert",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Abgezogen",
+        "a"
+       ],
+       [
+        " bei der Tochter,",
+        null
+       ]
+      ],
+      [
+       [
+        "steuerpflichtig",
+        "b"
+       ],
+       [
+        " bei der Mutter;",
+        null
+       ]
+      ],
+      [
+       [
+        "§ 32a KStG",
+        "c"
+       ],
+       [
+        " verbindet beide.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Prüfst du immer beide Ebenen?",
+     "teaser": "Weiterwischen: § 8b KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8b KStG (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Bezüge im Sinne des § 20 Abs. 1 Nr. 1, 2, 9 und 10 Buchstabe a des Einkommensteuergesetzes",
+         null
+        ],
+        [
+         "bleiben bei der Ermittlung des Einkommens außer Ansatz.",
+         "gr1"
+        ],
+        [
+         "Satz 1 gilt nur,",
+         null
+        ],
+        [
+         "soweit die Bezüge das Einkommen der leistenden Körperschaft nicht gemindert haben.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       5,
+       [
+        [
+         "Von den Bezügen im Sinne des Absatzes 1,",
+         null
+        ],
+        [
+         "die bei der Ermittlung des Einkommens außer Ansatz bleiben,",
+         "b1"
+        ],
+        [
+         "gelten",
+         null
+        ],
+        [
+         "5 Prozent",
+         "g1"
+        ],
+        [
+         "als Ausgaben, die nicht als Betriebsausgaben abgezogen werden dürfen. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "gr1"
+      ],
+      [
+       "Korrespondenz!",
+       "r1"
+      ],
+      [
+       "nur dann",
+       "b1"
+      ],
+      [
+       "Pauschale",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Änderung beim Empfänger",
+      "§ 32a Abs. 1 KStG"
+     ]
+    }
+   ],
+   "caption": "Prüfungsfrage: Ist eine vGA bei der Mutter-GmbH nach § 8b KStG steuerfrei?\n\nFall: Die Falkner GmbH hält 100 % an der Ostwind GmbH. Ostwind zahlt ihr 2025 für Beratung 100.000 €, angemessen wären 60.000 €. Der Körperschaftsteuerbescheid 2025 der Ostwind ist bestandskräftig, die vGA wurde nicht hinzugerechnet.\n\n▸ Bei Ostwind liegt eine vGA von 40.000 € vor, die das Einkommen nicht mindern darf (§ 8 Abs. 3 S. 2 KStG).\n▸ Bei Falkner sind die 40.000 € Bezüge (§ 20 Abs. 1 Nr. 1 S. 2 EStG), die grundsätzlich außer Ansatz bleiben (§ 8b Abs. 1 S. 1 KStG).\n▸ Voraussetzung: Die zahlende Gesellschaft durfte die Bezüge nicht als Aufwand abziehen (§ 8b Abs. 1 S. 2 KStG). Hier haben sie es gemindert: voll steuerpflichtig, ohne 5-%-Pauschale (§ 8b Abs. 5 S. 1 KStG).\n▸ Wird der Bescheid der Ostwind wegen der vGA doch noch geändert, kann der Bescheid der Falkner GmbH angepasst werden; die Frist läuft dafür mindestens bis ein Jahr, nachdem der Ostwind-Bescheid unanfechtbar ist (§ 32a Abs. 1 S. 1, 2 KStG).\n▸ Bei natürlichen Personen gilt die Korrespondenz für das Teileinkünfteverfahren (§ 3 Nr. 40 S. 1 Buchst. d S. 2 EStG) und den Abgeltungsteuersatz (§ 32d Abs. 2 Nr. 4 EStG).\n\nZum Schluss: § 8b Abs. 1 und 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "§ 8b Abs. 1 S. 1, 2, Abs. 5 S. 1 KStG",
+    "§ 32a Abs. 1 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. d S. 2 EStG",
+    "§ 32d Abs. 2 Nr. 4 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-5-4",
+   "themaTitel": "Brutto- oder Nettomethode: Buchwert nach § 24 UmwStG richtig zeigen",
+   "figuren": {
+    "A": {
+     "name": "Ida",
+     "kopf": "Bangs",
+     "haut": "#C68E62",
+     "haar": "#2B1B12",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Einbringung zum Buchwert. Brutto oder netto? Am Ende zählt dieselbe Summe."
+    },
+    {
+     "id": "s1",
+     "text": "Ida bringt ihren Betrieb ein: Buchwert hunderttausend, gemeiner Wert dreihunderttausend. Malte zahlt dreihunderttausend bar ein."
+    },
+    {
+     "id": "s2",
+     "text": "Bruttomethode: Die KG zeigt dreihunderttausend. Ida bekommt eine negative Ergänzungsbilanz über zweihunderttausend."
+    },
+    {
+     "id": "s3",
+     "text": "Nettomethode: Die KG zeigt nur den Buchwert. Gleiche Kapitalkonten entstehen über Ergänzungsbilanzen."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Gesamthand plus Ergänzungsbilanz ergibt den Buchwert."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Brutto",
+     "oder netto?"
+    ],
+    "pille": "§ 24 UmwStG",
+    "figur": "A/ruhig",
+    "name": "Ida",
+    "icons": [
+     [
+      "tabler:scale",
+      "GELB",
+      "Summe"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Brutto",
+      "wert": "300.000 €",
+      "farbe": "GELB",
+      "wort": "Brutto"
+     },
+     {
+      "label": "Netto",
+      "wert": "100.000 €",
+      "farbe": "WEISS",
+      "wort": "netto"
+     }
+    ],
+    "stempel": {
+     "text": "gleiche Summe!",
+     "wort": "Summe"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Fall",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Buchwert",
+       "wert": "100.000 €",
+       "farbe": "WEISS",
+       "wort": "Buchwert",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Gemeiner Wert",
+       "wert": "300.000 €",
+       "farbe": "WEISS",
+       "wort": "gemeiner",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "Malte: 300.000 € bar",
+       "farbe": "GELB",
+       "wort": "Malte"
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Betrieb"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Bruttomethode",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "KG-Bilanz",
+       "wert": "300.000 €",
+       "farbe": "WEISS",
+       "wort": "KG",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Ergänzungsbilanz Ida",
+       "wert": "− 200.000 €",
+       "farbe": "ROT",
+       "wort": "negative",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 24 Abs. 2 S. 1, 2 UmwStG",
+       "wort": "Bruttomethode"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Nettomethode",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "KG-Bilanz",
+       "wert": "100.000 €",
+       "farbe": "WEISS",
+       "wort": "KG",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "Ida − 100.000 €",
+       "unter": "Malte + 100.000 € in Ergänzungsbilanzen",
+       "wort": "Ergänzungsbilanzen",
+       "farbe": "GELB",
+       "ls": 66
+      },
+      {
+       "typ": "norm",
+       "text": "§ 24 Abs. 3 S. 1 UmwStG",
+       "wort": "Kapitalkonten"
+      }
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Gesamthand",
+     "plus Ergänzungsbilanz",
+     "ergibt den",
+     "Buchwert"
+    ],
+    "woerter": [
+     "Gesamthand",
+     "Ergänzungsbilanz",
+     "ergibt",
+     "Buchwert"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Buchwert",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Brutto- oder Nettomethode bei der Einbringung nach § 24 UmwStG – am Ende zählt dieselbe Summe. ⚖️\n\nFall: Ida bringt ihr Einzelunternehmen (Buchwert 100.000 €, gemeiner Wert 300.000 €) in eine KG ein; Malte leistet 300.000 € bar. Beide sollen zu 50 % beteiligt sein, Ida will den Buchwert fortführen.\n\n▸ Grundsatz gemeiner Wert; auf Antrag Buch- oder Zwischenwert, wenn das deutsche Besteuerungsrecht nicht eingeschränkt wird und sonstige Gegenleistungen die Grenzen nicht überschreiten (§ 24 Abs. 2 S. 1, 2 UmwStG).\n▸ Maßgeblich ist der Wert in der Bilanz der Gesellschaft einschließlich der Ergänzungsbilanzen; er gilt für den Einbringenden als Veräußerungspreis (§ 24 Abs. 3 S. 1 UmwStG).\n▸ Bruttomethode: KG-Bilanz mit 300.000 €, Kapital je 300.000 €, negative Ergänzungsbilanz Ida −200.000 € – zusammen 100.000 €.\n▸ Nettomethode: KG-Bilanz mit Buchwert 100.000 €, Kapitalkonten je 200.000 €; Ida −100.000 € und Malte +100.000 € in Ergänzungsbilanzen.\n▸ Beide Wege: Für Ida ergibt sich der Buchwert, kein Einbringungsgewinn.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 24 Abs. 2 S. 1, 2 UmwStG",
+    "§ 24 Abs. 3 S. 1 UmwStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-13",
+   "frage": [
+    "Rückstellung abzinsen:",
+    "welcher Zinssatz?"
+   ],
+   "optionen": [
+    "3 %",
+    "5,5 %",
+    "6 %"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 3",
+     "haut": "#B97A56",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-13",
+   "titel": [
+    "B: 5,5 Prozent"
+   ],
+   "optionen": [
+    "3 %",
+    "5,5 %",
+    "6 %"
+   ],
+   "richtig": 1,
+   "text": "Nicht bei Laufzeit unter zwölf Monaten. Die 6 % gelten für Pensionsrückstellungen.",
+   "norm": "§ 6 Abs. 1 Nr. 3a Buchst. e EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 3",
+     "haut": "#B97A56",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "AO · USt · ErbSt",
+   "beitragSlot": "b1",
+   "titel": [
+    "Klausur 1 kompakt"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-509",
+   "titel": [
+    "Hausrat",
+    "geerbt?"
+   ],
+   "norm": "§ 13 Abs. 1 Nr. 1 ErbStG",
+   "punkte": [
+    [
+     "Klasse I: Hausrat bis 41.000 €, andere bewegliche Gegenstände bis 12.000 €.",
+     "ok",
+     "§ 13 Abs. 1 Nr. 1 Buchst. a, b ErbStG"
+    ],
+    [
+     "Klassen II und III: zusammen nur 12.000 €.",
+     "warn",
+     "§ 13 Abs. 1 Nr. 1 Buchst. c ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Turban",
+     "haut": "#9C6B4A",
+     "oberteil": "#F9D56E",
+     "bart": "Full 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Körperschaftsteuer",
+   "beitragSlot": "b2",
+   "titel": [
+    "vGA an die Mutter: steuerfrei?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Woche vorbei:",
+    "Fehlerliste führen"
+   ],
+   "punkte": [
+    [
+     "Jeden Fehler aus Übungsklausuren notieren.",
+     "ok",
+     null
+    ],
+    [
+     "Nach Thema sortieren, nicht nach Datum.",
+     "ok",
+     null
+    ],
+    [
+     "Vor der nächsten Klausur die Liste lesen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-4-08",
+   "titel": [
+    "GmbH verkauft",
+    "Anteile"
+   ],
+   "punkte": [
+    [
+     "Gewinn steuerfrei, egal wie hoch beteiligt.",
+     "ok",
+     "§ 8b Abs. 2 KStG"
+    ],
+    [
+     "5 % gelten als nicht abziehbar.",
+     "warn",
+     "§ 8b Abs. 3 S. 1 KStG"
+    ],
+    [
+     "Streubesitz trifft nur Dividenden.",
+     "warn",
+     "§ 8b Abs. 4 S. 1 KStG"
+    ]
+   ],
+   "icon": "tabler:building-bank",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Personengesellschaften",
+   "beitragSlot": "b3",
+   "titel": [
+    "Brutto oder netto?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-4-04",
+   "titel": [
+    "Verschmelzung:",
+    "und die Anteile?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Ohne Antrag ",
+      null
+     ],
+     [
+      "Tausch",
+      "a"
+     ]
+    ],
+    [
+     [
+      "zum ",
+      null
+     ],
+     [
+      "gemeinen Wert",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "mit Antrag ",
+      null
+     ],
+     [
+      "Buchwert",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 13 Abs. 1, 2 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Long Afro",
+     "haut": "#5C3A21",
+     "oberteil": "#C9B8F2",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}

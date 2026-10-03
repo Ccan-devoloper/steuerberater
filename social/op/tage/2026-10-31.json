@@ -64,7 +64,7 @@
       [
        "Zwischenergebnis stehen lassen",
        "",
-       "Folgefehler werden nicht doppelt bestraft"
+       "Folgefehler kosten meist nur einmal"
       ],
       [
        "Abschluss rechnen",
@@ -262,11 +262,11 @@
          "b1"
         ],
         [
-         "der Aufwendungen für die zeitlich befristete Überlassung von Rechten […]",
+         "der Aufwendungen für die zeitlich befristete Überlassung von Rechten […],",
          null
         ],
         [
-         ", soweit die Summe den Betrag von 200 000 Euro übersteigt;",
+         "soweit die Summe den Betrag von 200 000 Euro übersteigt;",
          "r1"
         ]
        ]
@@ -320,10 +320,10 @@
      "name": "Jasper",
      "kopf": "Gray Medium",
      "haut": "#F1C7A5",
-     "oberteil": "#F2B544",
+     "oberteil": "#7EC8C0",
      "bart": "Moustache 6",
      "brille": "Glasses 5",
-     "bueste": "Shirt and Coat"
+     "bueste": "Sweater"
     },
     "B": {
      "name": "Smilla",
@@ -339,11 +339,11 @@
      "typ": "cover",
      "badge": "Rechenweg",
      "zeilen": [
-      "KG-Anteil verkauft:",
-      "zwei Seiten"
+      "KG-Anteil",
+      "verkauft"
      ],
      "norm": "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
-     "unter": "Gewinn und Ergänzungsbilanz",
+     "unter": "beide Seiten",
      "teaser": "+ Markier-Guide § 16 EStG",
      "motiv": {
       "typ": "zahlblock",
@@ -372,19 +372,19 @@
      "titel": "Der Fall",
      "punkte": [
       [
-       "Jasper, 58, verkauft seinen Anteil an der Möwe KG zum 31.12.2025 an Smilla.",
+       "Jasper, 58, verkauft seinen Anteil an der Möwe KG an Smilla.",
        null,
        "Regular",
        null
       ],
       [
-       "Kaufpreis 500.000 €, Kapitalkonto 300.000 €, Notar und Beratung 5.000 €.",
+       "Preis: 500.000 €. Kapitalkonto: 300.000 €. Notar und Beratung: 5.000 €.",
        null,
        "Bold",
        null
       ],
       [
-       "Der Mehrpreis entfällt mit 150.000 € auf eine Halle, der Rest auf den Firmenwert.",
+       "Vom Mehrpreis entfallen 150.000 € auf eine Halle, der Rest auf den Firmenwert.",
        null,
        "Regular",
        null
@@ -458,35 +458,31 @@
      ]
     },
     {
-     "typ": "rechnung",
+     "typ": "inhalt",
      "titel": "Jasper: Freibetrag?",
-     "normen": [
-      "§ 16 Abs. 4 S. 1, 3 EStG"
-     ],
-     "zeilen": [
+     "punkte": [
       [
-       "Freibetrag ab 55",
-       "45.000 €",
+       "Ab 55 einmal im Leben 45.000 €.",
+       "ok",
        "Regular",
-       null
+       "§ 16 Abs. 4 S. 1, 2 EStG"
       ],
       [
-       "Gewinn über 136.000 €",
-       "59.000 €",
+       "Er schmilzt ab, soweit der Gewinn 136.000 € übersteigt: hier um 59.000 €.",
+       "warn",
        "Regular",
-       null
+       "§ 16 Abs. 4 S. 3 EStG"
       ],
       [
-       "Verbleibender Freibetrag",
-       "0 €",
-       "ExtraBold",
-       "ROT"
+       "Ergebnis: Freibetrag 0 €.",
+       "nein",
+       "Bold",
+       null
       ]
      ],
-     "extra": [
-      "Bleibt: ermäßigter Satz auf Antrag",
-      "GELB"
-     ]
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Alles weg?"
     },
     {
      "typ": "inhalt",
@@ -516,41 +512,31 @@
      "blase": "Kein Freibetrag?"
     },
     {
-     "typ": "rechnung",
+     "typ": "inhalt",
      "titel": "Smilla: Ergänzungsbilanz",
-     "normen": [
-      "§ 7 Abs. 1 S. 3 EStG"
-     ],
-     "zeilen": [
+     "punkte": [
       [
-       "Mehrpreis gesamt",
-       "200.000 €",
+       "Mehrpreis 200.000 €: Halle 150.000 €, Firmenwert 50.000 €.",
+       "ok",
        "Regular",
        null
       ],
       [
-       "davon Halle",
-       "150.000 €",
-       "Regular",
-       null
+       "Firmenwert über 15 Jahre: 3.333 € AfA im Jahr.",
+       "ok",
+       "Bold",
+       "§ 7 Abs. 1 S. 3 EStG"
       ],
       [
-       "davon Firmenwert",
-       "50.000 €",
+       "Alle Mehrwerte Jahr für Jahr fortschreiben.",
+       "warn",
        "Regular",
        null
-      ],
-      [
-       "AfA Firmenwert 1/15",
-       "3.333 €",
-       "ExtraBold",
-       "GRUEN"
       ]
      ],
-     "extra": [
-      "Mehrwerte fortschreiben, Jahr für Jahr",
-      "GELB"
-     ]
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Ich schreibe ab"
     },
     {
      "typ": "merke",
@@ -582,7 +568,7 @@
       ],
       [
        [
-        "Mehrpreis in die ",
+        "Rest: ",
         null
        ],
        [
@@ -1030,12 +1016,12 @@
    ],
    "punkte": [
     [
-     "Buchung stehen lassen, außerhalb der Bilanz hinzurechnen",
+     "Außerbilanziell hinzurechnen",
      "ok",
      "§ 8 Abs. 3 S. 2 KStG"
     ],
     [
-     "USt auf die vGA nicht nochmals hinzurechnen",
+     "USt darauf nicht doppelt",
      "warn",
      "R 8.6 KStR"
     ]

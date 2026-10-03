@@ -811,7 +811,7 @@
    "reelTyp": "quizfrage",
    "klausur": 2,
    "fach": "istr",
-   "fachLabel": "Internationales Steuerrecht",
+   "fachLabel": "Int. Steuerrecht",
    "themaId": "istr-aufb-istr-gh-4-44",
    "themaTitel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
    "figuren": {
@@ -968,7 +968,7 @@
       },
       {
        "typ": "pille",
-       "text": "2.000 € verfallen",
+       "text": "2.000 € ohne Anrechnung",
        "wort": "also",
        "farbe": "ROT"
       },

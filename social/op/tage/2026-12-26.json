@@ -114,7 +114,10 @@
        "Regular",
        null
       ]
-     ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Eine Person, eine Rechnung."
     },
     {
      "typ": "inhalt",
@@ -241,6 +244,23 @@
          null
         ]
        ]
+      ],
+      [
+       "(5)",
+       [
+        [
+         "Von dem Erwerb sind, soweit sich nicht aus den Absätzen 6 bis 9 etwas anderes ergibt,",
+         null
+        ],
+        [
+         "als Nachlaßverbindlichkeiten abzugsfähig",
+         "gr1"
+        ],
+        [
+         "1. die vom Erblasser herrührenden Schulden, […] 2. Verbindlichkeiten aus Vermächtnissen, […]",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -255,6 +275,10 @@
       [
        "Abrunden!",
        "r1"
+      ],
+      [
+       "Schulden",
+       "gr1"
       ]
      ],
      "randnotiz": [
@@ -474,7 +498,10 @@
        "Regular",
        "§ 9 Abs. 1 Nr. 2 S. 1 Buchst. b KStG"
       ]
-     ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Welche Basis?"
     },
     {
      "typ": "inhalt",
@@ -793,7 +820,7 @@
     },
     {
      "seg": "s3",
-     "titel": "Keine Teilwert-AfA",
+     "titel": "Kein Teilwert",
      "elemente": [
       {
        "typ": "block",

@@ -1,0 +1,1122 @@
+{
+ "datum": "2026-12-27",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "wochenrueckblick-k2-2026-52",
+   "themaTitel": "Klausur 2 kompakt: fünf Themen der Weihnachtswoche",
+   "figuren": {
+    "A": {
+     "name": "Lasse",
+     "kopf": "Medium 1",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bueste": "Button Shirt 2"
+    },
+    "B": {
+     "name": "Smilla",
+     "kopf": "Bun",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#7DD3C0",
+     "brille": "Glasses 3",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Klausur 2",
+      "kompakt"
+     ],
+     "unter": "5 Themen",
+     "teaser": "+ Markier-Guide § 23 EStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "DEZEMBER",
+      "tag": "27",
+      "unter": "Woche 52"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Themen",
+     "schritte": [
+      [
+       "Gewerbeverlust",
+       "§ 10a GewStG",
+       ""
+      ],
+      [
+       "Ab ins Ausland",
+       "§ 12 AO, § 4 Abs. 1 S. 3 EStG",
+       ""
+      ],
+      [
+       "Homeoffice-Pauschale",
+       "§ 4 Abs. 5 S. 1 Nr. 6c EStG",
+       ""
+      ],
+      [
+       "Private Veräußerung",
+       "§ 23 EStG",
+       ""
+      ],
+      [
+       "Spenden der GmbH",
+       "§ 9 Abs. 1 Nr. 2 KStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 23 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Gewerbeverlust",
+     "punkte": [
+      [
+       "Bei der Personengesellschaft gehört der Verlust den einzelnen Mitunternehmern.",
+       "ok",
+       "Regular",
+       "R 10a.3 Abs. 3 S. 1 GewStR"
+      ],
+      [
+       "Wer ausscheidet, nimmt seinen Anteil mit: Er geht unter.",
+       "nein",
+       "Bold",
+       "§ 10a S. 4, 5 GewStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Lasse."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Ab ins Ausland",
+     "punkte": [
+      [
+       "Baustelle: national ab mehr als 6 Monaten, im Abkommen erst über 12 Monate.",
+       "ok",
+       "Regular",
+       "§ 12 S. 2 Nr. 8 AO, Art. 5 Abs. 3 OECD-MA"
+      ],
+      [
+       "Maschine in die Auslandsbetriebsstätte: Entnahme zum gemeinen Wert.",
+       "warn",
+       "Bold",
+       "§ 4 Abs. 1 S. 3, 4 EStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Ich bin Smilla. Zwei Begriffe?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Homeoffice",
+     "punkte": [
+      [
+       "Ohne Mittelpunkt: 6 € je Tag, höchstens 1.260 € im Jahr.",
+       "ok",
+       "Regular",
+       "§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG"
+      ],
+      [
+       "Tag mit Büro: nur ohne anderen Arbeitsplatz.",
+       "warn",
+       "Bold",
+       "§ 4 Abs. 5 S. 1 Nr. 6c S. 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Deckel beachten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Private Veräußerung",
+     "punkte": [
+      [
+       "Grundstück innerhalb von zehn Jahren verkauft: steuerpflichtig.",
+       "ok",
+       "Regular",
+       "§ 23 Abs. 1 S. 1 Nr. 1 EStG"
+      ],
+      [
+       "Abgezogene Abschreibung mindert die Anschaffungskosten und erhöht den Gewinn.",
+       "warn",
+       "Bold",
+       "§ 23 Abs. 3 S. 4 EStG"
+      ]
+     ],
+     "figur": "B:staunt",
+     "x": 290,
+     "blase": "Mehr Gewinn!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Spenden der GmbH",
+     "punkte": [
+      [
+       "Abzug bis 20 % des Einkommens vor Spenden und vor Verlustabzug.",
+       "ok",
+       "Regular",
+       "§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG"
+      ],
+      [
+       "Körperschaftsteuer und Hälfte Aufsichtsrat zurückrechnen.",
+       "nein",
+       "Bold",
+       "§ 10 Nr. 2, 4 KStG"
+      ]
+     ],
+     "extra": [
+      "Überhang wird vorgetragen",
+      "GELB",
+      null
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Basis zuerst."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Fünf Themen aus Klausur 2",
+      "GewSt, IStR, ESt, KSt in einer Woche",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Verlust",
+        "a"
+       ],
+       [
+        " je Kopf,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ausland",
+        "b"
+       ],
+       [
+        ": zwei Begriffe,",
+        null
+       ]
+      ],
+      [
+       [
+        "Abschreibung",
+        "c"
+       ],
+       [
+        " erhöht Gewinn,",
+        null
+       ]
+      ],
+      [
+       [
+        "Spenden",
+        "d"
+       ],
+       [
+        " bis 20 %.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welches Thema wiederholst du heute?",
+     "teaser": "Weiterwischen: § 23 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 23 Abs. 3 EStG (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Gewinn oder Verlust aus Veräußerungsgeschäften nach Absatz 1 ist der Unterschied zwischen",
+         null
+        ],
+        [
+         "Veräußerungspreis",
+         "g1"
+        ],
+        [
+         "einerseits und den",
+         null
+        ],
+        [
+         "Anschaffungs- oder Herstellungskosten und den Werbungskosten",
+         "b1"
+        ],
+        [
+         "andererseits.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Die Anschaffungs- oder Herstellungskosten",
+         null
+        ],
+        [
+         "mindern sich um Absetzungen für Abnutzung,",
+         "r1"
+        ],
+        [
+         "erhöhte Absetzungen und Sonderabschreibungen, soweit sie bei der Ermittlung der Einkünfte im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7 abgezogen worden sind.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Preis",
+       "g1"
+      ],
+      [
+       "Kosten",
+       "b1"
+      ],
+      [
+       "AfA zurück!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 23 Abs. 3 S. 5 EStG",
+      "Gewinne unter 1.000 € im Jahr bleiben frei"
+     ]
+    }
+   ],
+   "caption": "Klausur 2 kompakt: fünf Themen aus der Weihnachtswoche zum Wiederholen.\n\n1. Gewerbeverlust: Träger des Verlustabzugs ist der einzelne Mitunternehmer; Aufteilung und Abzug nach dem allgemeinen Gewinnverteilungsschlüssel (R 10a.3 Abs. 3 S. 1 GewStR; § 10a S. 4, 5 GewStG).\n2. Ausland: Bauausführungen sind national ab mehr als sechs Monaten Betriebsstätte (§ 12 S. 2 Nr. 8 AO), nach dem Musterabkommen erst ab mehr als zwölf Monaten (Art. 5 Abs. 3 OECD-MA). Überführung in eine ausländische Betriebsstätte gilt als Entnahme zum gemeinen Wert (§ 4 Abs. 1 S. 3, 4, § 6 Abs. 1 Nr. 4 S. 1 EStG).\n3. Homeoffice: 6 € je Tag, höchstens 1.260 € (§ 4 Abs. 5 S. 1 Nr. 6c EStG).\n4. Private Veräußerung: Grundstücke binnen zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG); Freigrenze 1.000 € (§ 23 Abs. 3 S. 5 EStG).\n5. Spenden der GmbH: bis 20 % des Einkommens vor Spenden- und Verlustabzug, Überhang wird vorgetragen (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG); nicht abziehbar sind Steuern vom Einkommen und die Hälfte der Aufsichtsratsvergütung (§ 10 Nr. 2, 4 KStG).\n\nZum Schluss: § 23 Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 10a GewStG",
+    "R 10a.3 Abs. 3 GewStR",
+    "§ 12 S. 2 Nr. 8 AO",
+    "Art. 5 Abs. 3 OECD-MA",
+    "§ 4 Abs. 1 S. 3, 4 EStG",
+    "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+    "§ 4 Abs. 5 S. 1 Nr. 6c EStG",
+    "§ 23 Abs. 1 S. 1 Nr. 1, Abs. 3 S. 4, 5 EStG",
+    "§ 9 Abs. 1 Nr. 2, Abs. 2 KStG",
+    "§ 10 Nr. 2, 4 KStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-4-11",
+   "themaTitel": "Wann verhindert die Trennung von Gesellschafterstämmen den Buchwert?",
+   "figuren": {
+    "A": {
+     "name": "Wanda",
+     "kopf": "Medium Straight",
+     "haut": "#E0AC8A",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Shirt and Coat"
+    },
+    "B": {
+     "name": "Rasmus",
+     "kopf": "Short 3",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5",
+     "bart": "Chin",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Getrennte",
+      "Wege"
+     ],
+     "norm": "§ 15 Abs. 2 S. 8 UmwStG",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 15 UmwStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Vorbesitz",
+        "Bold",
+        44
+       ],
+       [
+        "5 Jahre",
+        "ExtraBold",
+        96
+       ],
+       [
+        "erfüllt?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Wanda und Rasmus halten je 50 % an einer GmbH von 2015 mit zwei Teilbetrieben: Restaurant und Hotel.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Rasmus ist erst seit März 2023 beteiligt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Aufspaltung zum 31.12.2026, jeder bekommt eine GmbH allein. Buchwerte möglich?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Wanda."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Erst die Grundvoraussetzung",
+     "punkte": [
+      [
+       "Auf jede neue GmbH geht ein Teilbetrieb über.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 2 UmwStG"
+      ],
+      [
+       "Damit ist der Buchwert grundsätzlich möglich.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1, § 11 Abs. 2 UmwStG"
+      ],
+      [
+       "Aber dann die Sperren in Absatz 2 prüfen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Ich bin Rasmus."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Trennung von Stämmen",
+     "punkte": [
+      [
+       "Nicht mehr jeder ist an jeder GmbH beteiligt: Die Stämme werden getrennt.",
+       "ok",
+       "Regular",
+       "BMF vom 02.01.2025, Rn. 15.37"
+      ],
+      [
+       "Dann müssen alle Beteiligungen mindestens fünf Jahre vor dem Stichtag bestanden haben.",
+       "warn",
+       "Bold",
+       "§ 15 Abs. 2 S. 8 UmwStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Fünf Jahre zurück."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Rasmus ist zu kurz dabei",
+     "punkte": [
+      [
+       "März 2023 bis 31.12.2026: keine fünf Jahre.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Folge: kein Buchwert, Ansatz mit dem gemeinen Wert.",
+       "nein",
+       "Bold",
+       "§ 11 Abs. 1 UmwStG"
+      ]
+     ],
+     "figur": "B:sorge",
+     "x": 290,
+     "blase": "Nur wegen mir?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Beide sind seit 2019 beteiligt. Ein Verkauf ist nicht geplant.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ist der Buchwert jetzt möglich?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Ja: Teilbetriebe liegen vor, Vorbesitz über fünf Jahre.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 2, Abs. 2 S. 8 UmwStG"
+      ],
+      [
+       "Änderungen der Quote innerhalb der Frist schaden nicht.",
+       "ok",
+       "Regular",
+       "BMF vom 02.01.2025, Rn. 15.36"
+      ]
+     ],
+     "extra": [
+      "Danach 5 Jahre kein Verkauf an Fremde",
+      "GELB",
+      "§ 15 Abs. 2 S. 2–4 UmwStG"
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Dann klappt es."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Rasmus erst seit 2023: gemeiner Wert",
+      "Variante seit 2019: Buchwert möglich",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Teilbetrieb",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Stämme",
+        "b"
+       ],
+       [
+        " getrennt?",
+        null
+       ]
+      ],
+      [
+       [
+        "5 Jahre",
+        "c"
+       ],
+       [
+        " Vorbesitz.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du die Vorbesitzzeit geprüft?",
+     "teaser": "Weiterwischen: § 15 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "[…] § 11 Abs. 2 und § 13 Abs. 2 sind nur anzuwenden, wenn",
+         null
+        ],
+        [
+         "auf die Übernehmerinnen ein Teilbetrieb übertragen wird",
+         "g1"
+        ],
+        [
+         "und im Falle der Abspaltung oder Teilübertragung bei der übertragenden Körperschaft ein Teilbetrieb verbleibt. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "[…] Bei der",
+         null
+        ],
+        [
+         "Trennung von Gesellschafterstämmen",
+         "b1"
+        ],
+        [
+         "setzt die Anwendung des § 11 Abs. 2 außerdem voraus, dass die Beteiligungen an der übertragenden Körperschaft",
+         null
+        ],
+        [
+         "mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag",
+         "r1"
+        ],
+        [
+         "bestanden haben.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Teilbetrieb",
+       "g1"
+      ],
+      [
+       "Stämme",
+       "b1"
+      ],
+      [
+       "Vorbesitz",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: BMF vom 02.01.2025, Rn. 15.38",
+      "GmbH jünger als 5 Jahre: Trennung nicht neutral"
+     ]
+    }
+   ],
+   "caption": "Aufspaltung zur Trennung von Gesellschafterstämmen: Wann geht der Buchwert verloren? Eine Prüfungsfrage für Klausur 3.\n\n▸ Grundvoraussetzung: Auf jede Übernehmerin geht ein Teilbetrieb über (§ 15 Abs. 1 S. 2 UmwStG); dann ist der Buchwertansatz nach § 11 Abs. 2 UmwStG möglich.\n▸ Trennung von Gesellschafterstämmen: Nach der Aufspaltung sind nicht mehr alle Anteilsinhaber an allen übernehmenden Körperschaften beteiligt (BMF vom 02.01.2025, UmwStE Rn. 15.37).\n▸ Dann müssen die Beteiligungen an der übertragenden Körperschaft mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag bestanden haben (§ 15 Abs. 2 S. 8 UmwStG); Änderungen der Beteiligungshöhe sind unschädlich (Rn. 15.36). Besteht die übertragende Körperschaft noch keine fünf Jahre, ist eine steuerneutrale Trennung grundsätzlich nicht möglich (Rn. 15.38).\n▸ Fehlt der Vorbesitz, gilt der gemeine Wert (§ 11 Abs. 1 UmwStG).\n▸ Daneben: keine Veräußerung an außenstehende Personen innerhalb von fünf Jahren (§ 15 Abs. 2 S. 2–4 UmwStG).\n\nLösung: Rasmus seit März 2023 beteiligt, also kein Buchwert. Variante seit 2019: Buchwert möglich.\n\nZum Schluss: § 15 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1, 2, Abs. 2 S. 2–4, 8 UmwStG",
+    "§ 11 Abs. 1, 2 UmwStG",
+    "BMF vom 02.01.2025 (UmwStE), Rn. 15.36–15.38"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-13",
+   "themaTitel": "Kleinunternehmer seit 2025 (§ 19 UStG n. F.)",
+   "figuren": {
+    "A": {
+     "name": "Esra",
+     "kopf": "Long Bangs",
+     "haut": "#C68E6A",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Kleinunternehmer: Die Steuer wird nur nicht erhoben? Das war einmal. Seit zweitausendfünfundzwanzig sind die Umsätze steuerfrei."
+    },
+    {
+     "id": "s1",
+     "text": "Erste Grenze: Gesamtumsatz im Vorjahr höchstens fünfundzwanzigtausend Euro."
+    },
+    {
+     "id": "s2",
+     "text": "Zweite Grenze: im laufenden Jahr nicht über hunderttausend. Wird sie überschritten, endet die Befreiung sofort, nicht erst im Folgejahr."
+    },
+    {
+     "id": "s3",
+     "text": "Die Kehrseite: steuerfrei heißt kein Vorsteuerabzug. Verzichten geht, bindet aber fünf Jahre."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Vorjahr fünfundzwanzig, laufend hundert, steuerfrei ohne Vorsteuer."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Kleinunternehmer:",
+     "nicht erhoben"
+    ],
+    "pille": "§ 19 UStG",
+    "figur": "A/skeptisch",
+    "name": "Esra",
+    "icons": [
+     [
+      "tabler:receipt",
+      "GELB",
+      "einmal"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Seit 2025",
+     "text": "steuerfrei",
+     "wort": "steuerfrei",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "veraltet!",
+     "wort": "einmal"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Vorjahr",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Gesamtumsatz Vorjahr",
+       "wert": "bis 25.000 €",
+       "farbe": "GELB",
+       "wort": "Gesamtumsatz",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 19 Abs. 1 S. 1 UStG",
+       "wort": "Grenze"
+      }
+     ],
+     "icon": [
+      "tabler:calendar",
+      "GELB",
+      "Vorjahr"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Laufendes Jahr",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "laufendes Jahr",
+       "wert": "bis 100.000 €",
+       "farbe": "GELB",
+       "wort": "laufenden",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "Darüber: sofort",
+       "unter": "nicht erst im Folgejahr",
+       "wort": "sofort",
+       "farbe": "ROT",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 19 Abs. 1 S. 1 UStG",
+       "wort": "Zweite"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "sofort",
+       0.9
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Kehrseite",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "steuerfrei",
+       "wert": "kein Vorsteuerabzug",
+       "farbe": "ROT",
+       "wort": "Vorsteuerabzug",
+       "zs": 80
+      },
+      {
+       "typ": "text",
+       "text": "Verzicht möglich",
+       "unter": "bindet fünf Jahre",
+       "wort": "Verzichten",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 19 Abs. 3 UStG",
+       "wort": "bindet"
+      }
+     ],
+     "icon": [
+      "tabler:lock",
+      "GELB",
+      "bindet"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Vorjahr 25.000 €,",
+     "laufend 100.000 €,",
+     "steuerfrei,",
+     "ohne Vorsteuer"
+    ],
+    "woerter": [
+     "Vorjahr",
+     "laufend",
+     "steuerfrei",
+     "Vorsteuer"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Vorsteuer",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Kleinunternehmer seit 2025: nicht mehr \"nicht erhoben\", sondern steuerfrei. 🧾\n\n▸ Umsätze eines im Inland ansässigen Kleinunternehmers sind steuerfrei, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet (§ 19 Abs. 1 S. 1 UStG).\n▸ Wird die 100.000-€-Grenze im laufenden Jahr überschritten, endet die Befreiung schon in diesem Jahr.\n▸ Steuerfreie Umsätze schließen den Vorsteuerabzug aus (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n▸ Verzicht bis Ende Februar des übernächsten Jahres möglich, bindet mindestens fünf Kalenderjahre (§ 19 Abs. 3 UStG).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 19 Abs. 1 S. 1, Abs. 3 UStG",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-3",
+   "frage": [
+    "§ 15a bei",
+    "Grundstücken?"
+   ],
+   "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 5",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bart": "Moustache 4",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-3",
+   "titel": [
+    "B: zehn",
+    "Jahre"
+   ],
+   "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre"
+   ],
+   "richtig": 1,
+   "text": "Sonst gilt der Zeitraum von fünf Jahren ab erstmaliger Verwendung.",
+   "norm": "§ 15a Abs. 1 S. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 5",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bart": "Moustache 4",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Klausur 2 kompakt"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-22",
+   "titel": [
+    "183 Tage:",
+    "Lohn bleibt daheim?"
+   ],
+   "norm": "Art. 15 Abs. 2 OECD-MA",
+   "punkte": [
+    [
+     "Höchstens 183 Tage in zwölf Monaten vor Ort.",
+     "ok",
+     "Art. 15 Abs. 2 Buchst. a OECD-MA"
+    ],
+    [
+     "Arbeitgeber und Betriebsstätte nicht im Tätigkeitsstaat.",
+     "warn",
+     "Art. 15 Abs. 2 Buchst. b, c OECD-MA"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Bangs",
+     "haut": "#F1C7A5",
+     "haar": "#8B4A2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Getrennte Wege"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Vor Silvester:",
+    "deine Fehlerliste"
+   ],
+   "punkte": [
+    [
+     "Die drei häufigsten Fehler des Jahres notieren.",
+     "ok",
+     null
+    ],
+    [
+     "Zu jedem die passende Norm markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Im Januar genau diese Fälle üben.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-details",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Medium 2",
+     "haut": "#E8B98F",
+     "haar": "#5A2E1A",
+     "oberteil": "#7DD3C0"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-5",
+   "titel": [
+    "Einlage in die KG:",
+    "Tausch oder nicht?"
+   ],
+   "punkte": [
+    [
+     "Gutschrift auf dem Konto, das den Gewinnanteil bestimmt: Tausch.",
+     "ok",
+     null
+    ],
+    [
+     "Nur auf einer Rücklage ohne Rechte: unentgeltliche Einlage.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:arrows-exchange",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Gray Medium",
+     "haut": "#8D5A3B",
+     "haar": "#9A9A9A",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Kleinunternehmer: steuerfrei"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-306",
+   "titel": [
+    "Wann ist ein",
+    "Bescheid nichtig?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Schwer",
+      "a"
+     ],
+     [
+      " und",
+      null
+     ]
+    ],
+    [
+     [
+      "offenkundig",
+      "b"
+     ],
+     [
+      " fehlerhaft:",
+      null
+     ]
+    ],
+    [
+     [
+      "nichtig",
+      "c"
+     ],
+     [
+      ", also unwirksam.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 125 Abs. 1, § 124 Abs. 3 AO",
+   "groesse": 70,
+   "figuren": {
+    "M": {
+     "kopf": "Cornrows",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 4",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

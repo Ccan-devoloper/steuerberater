@@ -1,0 +1,1208 @@
+{
+ "datum": "2026-12-12",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Ertragsteuern",
+   "themaId": "klausurtechnik-k2-2026-50",
+   "themaTitel": "Tag 2: die Ertragsteuer-Klausur zeitlich planen",
+   "figuren": {
+    "A": {
+     "name": "Jonte",
+     "kopf": "Mohawk",
+     "haut": "#E0AC8A",
+     "haar": "#3B2416",
+     "oberteil": "#B9A7E8",
+     "bueste": "Macbook"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Tag 2:",
+      "Zeit planen"
+     ],
+     "norm": "§ 18 Abs. 1 S. 3 DVStB",
+     "unter": "Strategie",
+     "teaser": "+ Markier-Guide DVStB",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:clock-hour-4",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Plan für Tag 2",
+     "schritte": [
+      [
+       "Sichten",
+       "",
+       "Teile und Punkte erfassen"
+      ],
+      [
+       "Zeitplan",
+       "",
+       "Minuten nach Punkten verteilen"
+      ],
+      [
+       "Bearbeiten",
+       "",
+       "Sicheres zuerst, Annahmen statt Stillstand"
+      ],
+      [
+       "Schluss",
+       "",
+       "Lücken mit Ergebnis und Norm füllen"
+      ]
+     ],
+     "teaser": "Am Ende: DVStB markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Sichten statt losschreiben",
+     "punkte": [
+      [
+       "Alle Teile überfliegen, bevor du schreibst.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Punkte je Teil notieren, soweit angegeben.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Verknüpfungen markieren: Ergebnisse eines Teils braucht oft ein anderer.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst lesen, dann los."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "2 · Zeit nach Punkten",
+     "normen": [
+      "§ 18 Abs. 1 S. 3 DVStB"
+     ],
+     "zeilen": [
+      [
+       "Bei sechs Stunden",
+       "360 Min.",
+       "Regular",
+       null
+      ],
+      [
+       "− Sichten und Reserve",
+       "30 Min.",
+       "Regular",
+       null
+      ],
+      [
+       "Teil mit 40 % der Punkte",
+       "132 Min.",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Uhrzeit notieren!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Sichere Punkte zuerst",
+     "punkte": [
+      [
+       "Mit dem Teil beginnen, der dir am besten liegt.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Je Teilfrage: Ergebnis, Norm, kurze Begründung.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Etwas hängt? Annahme offenlegen, weiterrechnen, Folgepunkte sichern.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Nicht festbeißen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Die letzten Minuten",
+     "punkte": [
+      [
+       "Offene Teile: wenigstens Ergebnis und Norm hinschreiben.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Abgabe ist Pflicht, auch unvollendet.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 2 S. 1 DVStB"
+      ],
+      [
+       "Nichts Neues anfangen, das du nicht beenden kannst.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Noch 15 Minuten!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Warum jeder Teil zählt",
+     "punkte": [
+      [
+       "Aus den drei Arbeiten wird eine Gesamtnote gebildet.",
+       "ok",
+       "Regular",
+       "§ 25 Abs. 1 DVStB"
+      ],
+      [
+       "Liegt sie über 4,5, ist die mündliche Prüfung ausgeschlossen.",
+       "nein",
+       "Bold",
+       "§ 25 Abs. 2 DVStB"
+      ],
+      [
+       "Jeder Punkt in einem leeren Teil fehlt am Ende.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 290,
+     "blase": "Kein Teil bleibt leer."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Sichten, Zeit nach Punkten, Reserve am Ende",
+      "Kein Teil bleibt leer",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Sichten",
+        "a"
+       ],
+       [
+        ", dann planen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Sicheres",
+        "b"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Annahmen",
+        "c"
+       ],
+       [
+        " statt Stillstand,",
+        null
+       ]
+      ],
+      [
+       [
+        "nichts",
+        "d"
+       ],
+       [
+        " leer lassen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wo verlierst du die meiste Zeit?",
+     "teaser": "Weiterwischen: DVStB markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 18, 20, 25 DVStB (Auszug)",
+     "absaetze": [
+      [
+       "§ 18 (1)",
+       [
+        [
+         "[…] Die Bearbeitungszeit soll für jede Arbeit",
+         null
+        ],
+        [
+         "mindestens vier und höchstens sechs Stunden",
+         "g1"
+        ],
+        [
+         "betragen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 20 (2)",
+       [
+        [
+         "Am Ende der Bearbeitungszeit haben die Bewerber die Arbeit abzugeben,",
+         null
+        ],
+        [
+         "auch wenn sie unvollendet ist.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 25 (2)",
+       [
+        [
+         "Der Bewerber ist von der mündlichen Prüfung ausgeschlossen, wenn die Gesamtnote für die schriftliche Prüfung",
+         null
+        ],
+        [
+         "die Zahl 4,5 übersteigt;",
+         "b1"
+        ],
+        [
+         "er hat die Prüfung nicht bestanden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zeitrahmen",
+       "g1"
+      ],
+      [
+       "trotzdem abgeben",
+       "r1"
+      ],
+      [
+       "Grenze 4,5",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 18 Abs. 1 S. 2 DVStB",
+      "Hilfsmittel und Zeit legt die Behörde fest"
+     ]
+    }
+   ],
+   "caption": "Klausurtechnik für Tag 2: die Ertragsteuer-Klausur zeitlich planen.\n\n1. Sichten: alle Teile überfliegen, Punkte notieren, Verknüpfungen zwischen den Teilen markieren.\n2. Zeitplan: Die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB). Beispiel: 360 Minuten minus 30 Minuten für Sichten und Reserve; ein Teil mit 40 % der Punkte bekommt rund 132 Minuten.\n3. Bearbeiten: sichere Teile zuerst, je Teilfrage Ergebnis, Norm und kurze Begründung; bei Unklarheit eine Annahme offenlegen und weiterrechnen.\n4. Schluss: offene Teile wenigstens mit Ergebnis und Norm füllen. Abgegeben wird auch eine unvollendete Arbeit (§ 20 Abs. 2 S. 1 DVStB).\n\nWarum das zählt: Aus den Aufsichtsarbeiten wird eine Gesamtnote gebildet; liegt sie über 4,5, ist die mündliche Prüfung ausgeschlossen (§ 25 Abs. 1, 2 DVStB).\n\nZum Schluss: DVStB zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#ertragsteuern"
+   ],
+   "quellen": [
+    "§ 18 Abs. 1 S. 2, 3 DVStB",
+    "§ 20 Abs. 2 S. 1 DVStB",
+    "§ 25 Abs. 1, 2 DVStB"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-3",
+   "themaTitel": "Wann wird ein vermietetes Grundstück Sonderbetriebsvermögen I?",
+   "figuren": {
+    "A": {
+     "name": "Ben",
+     "kopf": "Short 2",
+     "haut": "#B97A56",
+     "haar": "#1C1C1C",
+     "oberteil": "#F6D365",
+     "bart": "Chin",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Büro an",
+      "die eigene KG"
+     ],
+     "norm": "§ 7 Abs. 1 S. 5 EStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 7 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "AfA nach Einlage",
+        "Bold",
+        44
+       ],
+       [
+        "13.800 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "nicht 16.800 €",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg",
+     "schritte": [
+      [
+       "Sonderbetriebsvermögen I?",
+       "R 4.2 Abs. 2 S. 2 EStR",
+       "dient der KG unmittelbar"
+      ],
+      [
+       "Einlage bewerten",
+       "§ 6 Abs. 1 Nr. 5 EStG",
+       "Teilwert, Dreijahresgrenze"
+      ],
+      [
+       "AfA-Basis kürzen",
+       "§ 7 Abs. 1 S. 5 EStG",
+       "um bisherige AfA"
+      ],
+      [
+       "AfA-Satz",
+       "§ 7 Abs. 4 S. 1 Nr. 1 EStG",
+       "3 % für Betriebsgebäude"
+      ]
+     ],
+     "teaser": "Am Ende: § 7 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ben ist Kommanditist der Feldlerche KG. Sein Bürogebäude kaufte er 2016 privat für 500.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Bis 2025 fremdvermietet, zehn Jahre je 10.000 € AfA.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ab 2026 mietet es die KG. Teilwert: 560.000 €. AfA 2026?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Ben."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Sonderbetriebsvermögen I",
+     "punkte": [
+      [
+       "Es gehört einem Mitunternehmer und dient der KG unmittelbar.",
+       "ok",
+       "Regular",
+       "R 4.2 Abs. 2 S. 2 EStR"
+      ],
+      [
+       "Die Miete wird Sondervergütung, Bens Kosten Sonderbetriebsausgaben.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Vom Privatvermögen ins SBV: eine Einlage.",
+       "warn",
+       "Bold",
+       "§ 4 Abs. 1 S. 8 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Jetzt betrieblich."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "2 · Einlagewert",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Kauf binnen drei Jahren?",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Einlage zum Teilwert",
+       "560.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Teilwert zählt."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "3 · AfA-Bemessungsgrundlage",
+     "normen": [
+      "§ 7 Abs. 1 S. 5 EStG"
+     ],
+     "zeilen": [
+      [
+       "Einlagewert",
+       "560.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "− AfA 2016 bis 2025",
+       "100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "AfA-Basis",
+       "460.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Nicht 560.000 €?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "4 · AfA 2026",
+     "normen": [
+      "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "AfA-Basis",
+       "460.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "× 3 % = AfA 2026",
+       "13.800 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:lacht",
+     "x": 790,
+     "blase": "Keine doppelte AfA."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Ben erwarb das Gebäude erst Anfang 2024 für 500.000 €, bisher 2 × 10.000 € AfA.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Teilwert am 01.01.2026: 560.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Einlagewert und AfA 2026?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Drei Jahre?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 5 S. 1, 2 EStG",
+      "§ 7 Abs. 1 S. 5 EStG"
+     ],
+     "zeilen": [
+      [
+       "Einlage: 500.000 € − 20.000 €",
+       "480.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Kürzung unter 480.000 €?",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "AfA 3 % von 480.000 €",
+       "14.400 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Einlagewert − bisherige AfA = AfA-Basis",
+      "nie unter die fortgeführten Anschaffungskosten",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "SBV I",
+        "a"
+       ],
+       [
+        " erkennen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einlage",
+        "b"
+       ],
+       [
+        " bewerten,",
+        null
+       ]
+      ],
+      [
+       [
+        "AfA-Basis",
+        "c"
+       ],
+       [
+        " kürzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "3 %",
+        "d"
+       ],
+       [
+        " ansetzen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du die Basis gekürzt?",
+     "teaser": "Weiterwischen: § 7 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 7 Abs. 1 S. 5 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "[…] Bei Wirtschaftsgütern, die nach einer Verwendung zur Erzielung von Einkünften im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7",
+         null
+        ],
+        [
+         "in ein Betriebsvermögen eingelegt",
+         "g1"
+        ],
+        [
+         "worden sind,",
+         null
+        ],
+        [
+         "mindert sich der Einlagewert um die Absetzungen für Abnutzung",
+         "b1"
+        ],
+        [
+         "oder Substanzverringerung, Sonderabschreibungen oder erhöhte Absetzungen, die bis zum Zeitpunkt der Einlage vorgenommen worden sind,",
+         null
+        ],
+        [
+         "höchstens jedoch bis zu den fortgeführten Anschaffungs- oder Herstellungskosten;",
+         "r1"
+        ],
+        [
+         "ist der Einlagewert niedriger als dieser Wert, bemisst sich die weitere Absetzung für Abnutzung vom Einlagewert.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "vorher V+V",
+       "g1"
+      ],
+      [
+       "AfA abziehen",
+       "b1"
+      ],
+      [
+       "Untergrenze",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 6 Abs. 1 Nr. 5 EStG",
+      "Einlage: Teilwert, binnen 3 Jahren höchstens AK"
+     ]
+    }
+   ],
+   "caption": "Vermietetes Grundstück an die eigene KG: Sonderbetriebsvermögen I, Einlage und AfA. Der Rechenweg für Klausur 3.\n\n1. Ein Wirtschaftsgut, das einem Mitunternehmer gehört und dem Betrieb der Gesellschaft unmittelbar dient, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR). Die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n2. Der Wechsel aus dem Privatvermögen ist eine Einlage (§ 4 Abs. 1 S. 8 EStG), bewertet mit dem Teilwert; bei Anschaffung innerhalb der letzten drei Jahre höchstens mit den um die AfA gekürzten Anschaffungskosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n3. War das Gebäude vorher vermietet, mindert sich der Einlagewert für die weitere AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5 EStG).\n4. Betriebsgebäude, nicht zu Wohnzwecken, Bauantrag nach dem 31.03.1985: 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG).\n\nBeispiel: 560.000 € − 100.000 € = 460.000 € × 3 % = 13.800 €. Variante mit Kauf 2024: Einlage 480.000 €, keine weitere Kürzung, AfA 14.400 €.\n\nZum Schluss: § 7 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "R 4.2 Abs. 2 S. 2 EStR",
+    "§ 4 Abs. 1 S. 8 EStG",
+    "§ 6 Abs. 1 Nr. 5 S. 1, 2 EStG",
+    "§ 7 Abs. 1 S. 5 EStG",
+    "§ 7 Abs. 4 S. 1 Nr. 1 EStG",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-t1-4",
+   "themaTitel": "Freigebige Zuwendung: Wann ist eine Schenkung steuerpflichtig?",
+   "figuren": {
+    "A": {
+     "name": "Lina",
+     "kopf": "Long Curly",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Schenkung nur, wenn beide sich einig sind? Falsch. Steuerlich reicht der Wille des Gebers."
+    },
+    {
+     "id": "s1",
+     "text": "Im Zivilrecht braucht die Schenkung Einigkeit: Beide wissen, dass die Zuwendung unentgeltlich ist."
+    },
+    {
+     "id": "s2",
+     "text": "Das Steuerrecht ist weiter. Der Empfänger ist auf Kosten des Gebers bereichert, und der Geber will unentgeltlich leisten. Mehr braucht es nicht."
+    },
+    {
+     "id": "s3",
+     "text": "Opa Ewald tilgt heimlich Linas Studienkredit. Lina ahnt nichts. Trotzdem eine steuerbare Schenkung."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Zivilrecht braucht beide, Steuerrecht nur den Geber."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Schenkung nur,",
+     "wenn beide wollen?"
+    ],
+    "pille": "§ 7 Abs. 1 Nr. 1 ErbStG",
+    "figur": "A/skeptisch",
+    "name": "Lina",
+    "icons": [
+     [
+      "tabler:gift",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "Wille des Gebers reicht",
+     "wort": "Wille",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Zivilrecht",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Schenkung im BGB",
+       "wert": "beide einig",
+       "farbe": "WEISS",
+       "wort": "Einigkeit",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 516 Abs. 1 BGB",
+       "wort": "unentgeltlich"
+      }
+     ],
+     "icon": [
+      "tabler:users",
+      "GELB",
+      "Beide"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Steuerrecht",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Empfänger bereichert",
+       "wort": "Empfänger",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "auf Kosten des Gebers",
+       "wort": "Kosten",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "subjektiv",
+       "wert": "nur der Geber",
+       "farbe": "GELB",
+       "wort": "will",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "R E 7.1 Abs. 1 ErbStR",
+       "wort": "braucht"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Steuerrecht"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Der Fall",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Opa tilgt heimlich",
+       "wort": "tilgt",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Lina weiß nichts",
+       "wert": "trotzdem Schenkung",
+       "farbe": "GRUEN",
+       "wort": "Trotzdem",
+       "zs": 84
+      }
+     ],
+     "icon": [
+      "tabler:school",
+      "GELB",
+      "Studienkredit"
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Trotzdem",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Zivilrecht:",
+     "beide.",
+     "Steuerrecht:",
+     "nur der Geber."
+    ],
+    "woerter": [
+     null,
+     "beide",
+     "Steuerrecht",
+     "Geber"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Geber",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Schenkung nur, wenn beide sich einig sind? Zivilrecht und Steuerrecht im Gegensatz 🎁\n\n▸ Zivilrecht: Schenkung setzt voraus, dass beide Teile über die Unentgeltlichkeit einig sind (§ 516 Abs. 1 BGB).\n▸ Steuerrecht: Als Schenkung gilt jede freigebige Zuwendung unter Lebenden, soweit der Bedachte auf Kosten des Zuwendenden bereichert wird (§ 7 Abs. 1 Nr. 1 ErbStG). Eine Einigung über die Unentgeltlichkeit ist nicht nötig; subjektiv genügt der Wille des Zuwendenden zur Unentgeltlichkeit (R E 7.1 Abs. 1 ErbStR).\n▸ Auch die Befreiung von einer Schuld bereichert den Empfänger, selbst wenn er davon nichts weiß.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 516 Abs. 1 BGB",
+    "§ 7 Abs. 1 Nr. 1 ErbStG",
+    "R E 7.1 Abs. 1 ErbStR"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-11",
+   "frage": [
+    "Vorsteuerabzug:",
+    "Was brauchst du?"
+   ],
+   "optionen": [
+    "Leistung fürs Unternehmen und ordnungsgemäße Rechnung",
+    "Nur die bezahlte Rechnung",
+    "Erlaubnis vom Finanzamt"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#B5651D",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-11",
+   "titel": [
+    "A: Leistung und Rechnung"
+   ],
+   "optionen": [
+    "Leistung fürs Unternehmen und ordnungsgemäße Rechnung",
+    "Nur die bezahlte Rechnung",
+    "Erlaubnis vom Finanzamt"
+   ],
+   "richtig": 0,
+   "text": "Dazu: kein Ausschluss wegen steuerfreier Umsätze.",
+   "norm": "§ 15 Abs. 1 S. 1 Nr. 1, Abs. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#B5651D",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Tag 2: Zeit planen"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-05",
+   "titel": [
+    "Nur eigener",
+    "Grundbesitz?"
+   ],
+   "norm": "§ 9 Nr. 1 S. 2 GewStG",
+   "punkte": [
+    [
+     "Nur eigenen Grundbesitz verwalten: Ertrag daraus wird gekürzt.",
+     "ok",
+     "§ 9 Nr. 1 S. 2 GewStG"
+    ],
+    [
+     "Nicht, wenn er dem Betrieb eines Gesellschafters dient.",
+     "nein",
+     "§ 9 Nr. 1 S. 5 Nr. 1 GewStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 5",
+     "haut": "#F0CDB0",
+     "haar": "#5A3A22",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 4",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Büro an die eigene KG"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Normen",
+    "genau zitieren"
+   ],
+   "punkte": [
+    [
+     "Paragraf, Absatz, Satz, Nummer.",
+     "ok",
+     null
+    ],
+    [
+     "Zitat direkt an die Aussage.",
+     "ok",
+     null
+    ],
+    [
+     "Richtlinie nur, wo sie entscheidet.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:book",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Dreads 2",
+     "haut": "#A8704B",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "K/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-26",
+   "titel": [
+    "Anteil verkauft:",
+    "der Gewinn"
+   ],
+   "punkte": [
+    [
+     "Preis − Kosten − Kapitalkonto.",
+     "ok",
+     "§ 16 Abs. 2 S. 1 EStG"
+    ],
+    [
+     "Kapital aus allen drei Bilanzen.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:calculator",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Pomp",
+     "haut": "#D9A07A",
+     "haar": "#2B1B12",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Schenkung nur, wenn beide wollen?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-6-9",
+   "titel": [
+    "Antrag oder",
+    "Einspruch?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Antrag",
+      "a"
+     ],
+     [
+      ": hemmt, soweit",
+      null
+     ]
+    ],
+    [
+     [
+      "er reicht. ",
+      null
+     ],
+     [
+      "Einspruch",
+      "b"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "hemmt ",
+      null
+     ],
+     [
+      "alles",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 171 Abs. 3, 3a AO",
+   "figuren": {
+    "M": {
+     "kopf": "Hijab",
+     "haut": "#C68E6A",
+     "oberteil": "#E8A0BF",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

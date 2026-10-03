@@ -1,0 +1,1238 @@
+{
+ "datum": "2026-10-25",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "wochenrueckblick-k2-2026-43",
+   "themaTitel": "Klausur 2: fünf Themen der Woche 43",
+   "figuren": {
+    "A": {
+     "name": "Joris",
+     "kopf": "Short 3",
+     "haut": "#F0C8A8",
+     "haar": "#8B5A2B",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses",
+     "bueste": "Button Shirt 1"
+    },
+    "B": {
+     "name": "Esra",
+     "kopf": "Long Curly",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Klausur 2:",
+      "fünf Themen"
+     ],
+     "unter": "der Woche",
+     "teaser": "+ Markier-Guide § 8c KStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "25",
+      "unter": "So · KW 43"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Themen",
+     "schritte": [
+      [
+       "Gesellschafterdarlehen",
+       "§ 17 Abs. 2a EStG",
+       ""
+      ],
+      [
+       "Verdeckte Gewinnausschüttung",
+       "§ 8 Abs. 3 S. 2 KStG",
+       ""
+      ],
+      [
+       "Betriebsstätte",
+       "§ 12 AO, Art. 5 OECD-MA",
+       ""
+      ],
+      [
+       "Verlustuntergang",
+       "§ 8c KStG",
+       ""
+      ],
+      [
+       "Private Veräußerung",
+       "§ 23 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 8c KStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Darlehen weg",
+     "punkte": [
+      [
+       "Der Ausfall erhöht die Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst.",
+       "ok",
+       "Regular",
+       "§ 17 Abs. 2a S. 3 Nr. 2 EStG"
+      ],
+      [
+       "Stehen gelassen: nur der Wert bei Krisenbeginn.",
+       "warn",
+       "Bold",
+       "BFH vom 18.07.2023, IX R 21/21"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Fremdvergleich!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · vGA",
+     "punkte": [
+      [
+       "Vermögensminderung, veranlasst durch das Gesellschaftsverhältnis.",
+       "ok",
+       "Regular",
+       "R 8.5 Abs. 1 S. 1 KStR"
+      ],
+      [
+       "Beherrschend: Ohne klare Vorabvereinbarung droht die vGA.",
+       "warn",
+       "Bold",
+       "R 8.5 Abs. 2 S. 1 KStR"
+      ],
+      [
+       "Korrektur außerhalb der Bilanz.",
+       "ok",
+       "Regular",
+       "§ 8 Abs. 3 S. 2 KStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Und beim Gesellschafter?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Betriebsstätte",
+     "punkte": [
+      [
+       "AO: Bauausführung ab mehr als sechs Monaten.",
+       "ok",
+       "Regular",
+       "§ 12 S. 2 Nr. 8 AO"
+      ],
+      [
+       "OECD-MA: erst ab mehr als zwölf Monaten.",
+       "warn",
+       "Bold",
+       "Art. 5 Abs. 3 OECD-MA"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Doppelt so lang!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Verlust weg",
+     "punkte": [
+      [
+       "Mehr als 50 % an einen Erwerber binnen fünf Jahren: Verlust entfällt ganz.",
+       "nein",
+       "Bold",
+       "§ 8c Abs. 1 S. 1 KStG"
+      ],
+      [
+       "Soweit stille Reserven da sind, bleibt er.",
+       "ok",
+       "Regular",
+       "§ 8c Abs. 1 S. 5 KStG"
+      ]
+     ],
+     "figur": "B:sorge",
+     "x": 290,
+     "blase": "Und bei 40 %?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Private Veräußerung",
+     "punkte": [
+      [
+       "Grundstück binnen zehn Jahren verkauft: steuerbar.",
+       "ok",
+       "Regular",
+       "§ 23 Abs. 1 S. 1 Nr. 1 EStG"
+      ],
+      [
+       "Abgezogene AfA mindert die Anschaffungskosten.",
+       "warn",
+       "Bold",
+       "§ 23 Abs. 3 S. 4 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "AfA kommt zurück?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Woche 43 in Klausur 2",
+      "ESt, KSt und IStR in fünf Themen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Darlehen",
+        "a"
+       ],
+       [
+        " mit Krisenwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "vGA",
+        "b"
+       ],
+       [
+        " außerhalb,",
+        null
+       ]
+      ],
+      [
+       [
+        "Bau",
+        "c"
+       ],
+       [
+        ": 6 oder 12 Monate,",
+        null
+       ]
+      ],
+      [
+       [
+        "50 %",
+        "d"
+       ],
+       [
+        " plus Reserven.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welches Thema wackelt noch?",
+     "teaser": "Weiterwischen: § 8c KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8c KStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "1 Werden innerhalb von fünf Jahren mittelbar oder unmittelbar",
+         null
+        ],
+        [
+         "mehr als 50 Prozent",
+         "g1"
+        ],
+        [
+         "des gezeichneten Kapitals, […] an einer Körperschaft",
+         null
+        ],
+        [
+         "an einen Erwerber",
+         "b1"
+        ],
+        [
+         "oder diesem nahe stehende Personen übertragen […], sind bis zum schädlichen Beteiligungserwerb nicht ausgeglichene oder abgezogene negative Einkünfte (nicht genutzte Verluste)",
+         null
+        ],
+        [
+         "vollständig nicht mehr abziehbar.",
+         "r1"
+        ],
+        [
+         "[…] 5 Ein nicht abziehbarer nicht genutzter Verlust kann abweichend von Satz 1 abgezogen werden,",
+         null
+        ],
+        [
+         "soweit er die gesamten […] stillen Reserven",
+         "gr1"
+        ],
+        [
+         "des Betriebsvermögens der Körperschaft nicht übersteigt.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Schwelle",
+       "g1"
+      ],
+      [
+       "ein Erwerber",
+       "b1"
+      ],
+      [
+       "Alles weg",
+       "r1"
+      ],
+      [
+       "Rettung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 8d KStG",
+      "Fortführungsgebundener Verlustvortrag auf Antrag"
+     ]
+    }
+   ],
+   "caption": "Wochenrückblick Klausur 2: fünf Themen der Woche 43.\n\n1. Gesellschafterdarlehen: Ausfall als nachträgliche Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst (§ 17 Abs. 2a S. 3 Nr. 2 EStG); beim Stehenlassen zählt nur der Wert bei Kriseneintritt (BFH vom 18.07.2023, IX R 21/21).\n2. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR), beim beherrschenden Gesellschafter auch ohne klare Vorabvereinbarung (R 8.5 Abs. 2 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n3. Betriebsstätte: Bauausführung nach § 12 S. 2 Nr. 8 AO ab mehr als sechs Monaten, nach Art. 5 Abs. 3 OECD-MA erst ab mehr als zwölf Monaten.\n4. Verlustuntergang: Mehr als 50 % an einen Erwerber innerhalb von fünf Jahren, dann sind nicht genutzte Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG), außer soweit stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 KStG).\n5. Private Veräußerung: Grundstücke innerhalb von zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 17 Abs. 2a S. 3 Nr. 2 EStG",
+    "BFH vom 18.07.2023, IX R 21/21",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "R 8.5 Abs. 1, 2 KStR",
+    "§ 12 S. 2 Nr. 8 AO",
+    "Art. 5 Abs. 3 OECD-MA",
+    "§ 8c Abs. 1 S. 1, 5 KStG",
+    "§ 8d KStG",
+    "§ 23 Abs. 1 S. 1 Nr. 1, Abs. 3 S. 4 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-11-02",
+   "themaTitel": "Rücklage für Ersatzbeschaffung: Wann greift R 6.6 EStR?",
+   "figuren": {
+    "A": {
+     "name": "Vesna",
+     "kopf": "Medium Straight",
+     "haut": "#F1C7A5",
+     "haar": "#4A3426",
+     "oberteil": "#F4A3B5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "Halle brennt:",
+      "Gewinn sofort?"
+     ],
+     "norm": "R 6.6 EStR",
+     "unter": "Der Klausurfall",
+     "teaser": "+ Markier-Guide § 5 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Versicherung",
+        "Bold",
+        44
+       ],
+       [
+        "300.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Buchwert 120.000 €",
+        "ExtraBold",
+        44
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Vesnas Lagerhalle brennt im November 2026 ab, Buchwert 120.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die Versicherung zahlt 300.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Eine neue Halle soll 2027 gebaut werden.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "180.000 € Gewinn?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Muss Vesna die 180.000 € für 2026 versteuern?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Was passiert 2027 mit dem Betrag?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst überlegen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Muss das sein?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Voraussetzungen",
+     "punkte": [
+      [
+       "Ausscheiden durch höhere Gewalt wie Brand, gegen Entschädigung.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 1 S. 2 Nr. 1, Abs. 2 EStR"
+      ],
+      [
+       "Funktionsgleicher Ersatz innerhalb der Frist.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 1 S. 2 Nr. 2 EStR"
+      ],
+      [
+       "Abweichung von der Handelsbilanz im Verzeichnis.",
+       "ok",
+       "Regular",
+       "§ 5 Abs. 1 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Brand zählt?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung 2026: Rücklage",
+     "normen": [
+      "R 6.6 Abs. 4 S. 1 EStR"
+     ],
+     "zeilen": [
+      [
+       "Entschädigung",
+       "300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Buchwert",
+       "– 120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= aufgedeckte Reserven",
+       "180.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "= Rücklage",
+       "180.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Gewinnauswirkung 2026: 0 €",
+      "TUERKIS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Fristen und Timing",
+     "punkte": [
+      [
+       "Bewegliche Wirtschaftsgüter: ein Jahr.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 4 S. 3 EStR"
+      ],
+      [
+       "Gebäude: vier Jahre, neu hergestellt sechs Jahre.",
+       "ok",
+       "Bold",
+       "R 6.6 Abs. 4 S. 4 EStR"
+      ],
+      [
+       "Im Brandjahr vergessen? Nachholen geht nicht.",
+       "nein",
+       "Regular",
+       "R 6.6 Abs. 4 S. 2 EStR"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Gleich 2026 bilden!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung 2027: übertragen",
+     "normen": [
+      "R 6.6 Abs. 4 S. 8 EStR",
+      "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "HK neue Halle",
+       "400.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– übertragene Rücklage",
+       "– 180.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= AfA-Basis",
+       "220.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "AfA 3 % im vollen Jahr",
+       "6.600 €",
+       "ExtraBold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "AfA nur von 220.000 €"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: 2026 kein Gewinn, Rücklage 180.000 €",
+      "2027 Übertragung auf die neue Halle",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Höhere Gewalt",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rücklage",
+        "b"
+       ],
+       [
+        " im Brandjahr,",
+        null
+       ]
+      ],
+      [
+       [
+        "Frist",
+        "c"
+       ],
+       [
+        " vier oder sechs,",
+        null
+       ]
+      ],
+      [
+       [
+        "übertragen",
+        "d"
+       ],
+       [
+        " auf Ersatz.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du 2026 versteuert?",
+     "teaser": "Weiterwischen: § 5 EStG und R 6.6"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 5 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "[…] 2 Voraussetzung für die Ausübung",
+         null
+        ],
+        [
+         "steuerlicher Wahlrechte",
+         "g1"
+        ],
+        [
+         "ist, dass die Wirtschaftsgüter, die",
+         null
+        ],
+        [
+         "nicht mit dem handelsrechtlich maßgeblichen Wert",
+         "b1"
+        ],
+        [
+         "in der steuerlichen Gewinnermittlung ausgewiesen werden, in",
+         null
+        ],
+        [
+         "besondere, laufend zu führende Verzeichnisse",
+         "r1"
+        ],
+        [
+         "aufgenommen werden. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Rücklage = Wahlrecht",
+       "g1"
+      ],
+      [
+       "Abweichung HB",
+       "b1"
+      ],
+      [
+       "Verzeichnis",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Bei der Rücklage reicht der Ansatz",
+      "in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR)"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 6.6 Abs. 4 EStR (Auszug)",
+     "absaetze": [
+      [
+       "(4)",
+       [
+        [
+         "1 Soweit am Schluss des Wirtschaftsjahres, in dem das Wirtschaftsgut aus dem Betriebsvermögen ausgeschieden ist, noch keine Ersatzbeschaffung vorgenommen wurde, kann",
+         null
+        ],
+        [
+         "in Höhe der aufgedeckten stillen Reserven eine steuerfreie Rücklage",
+         "g1"
+        ],
+        [
+         "gebildet werden, wenn zu diesem Zeitpunkt eine Ersatzbeschaffung",
+         null
+        ],
+        [
+         "ernstlich geplant und zu erwarten ist.",
+         "b1"
+        ],
+        [
+         "2 Die Nachholung der Rücklage für Ersatzbeschaffung in einem späteren Wirtschaftsjahr ist",
+         null
+        ],
+        [
+         "nicht zulässig.",
+         "r1"
+        ],
+        [
+         "[…] 4 […] bei neu hergestellten Gebäuden verlängert sich die Frist auf",
+         null
+        ],
+        [
+         "sechs Jahre.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Rücklage",
+       "g1"
+      ],
+      [
+       "Plan nötig",
+       "b1"
+      ],
+      [
+       "Brandjahr!",
+       "r1"
+      ],
+      [
+       "Neubau",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Richtlinien nur für die Klausur",
+      "In der mündlichen Prüfung liegen sie nicht aus"
+     ]
+    }
+   ],
+   "caption": "Lagerhalle abgebrannt, Versicherung zahlt mehr als den Buchwert: Muss der Gewinn sofort versteuert werden? Die Klausurfrage zur Rücklage für Ersatzbeschaffung.\n\n▸ Voraussetzungen: Ausscheiden infolge höherer Gewalt (z. B. Brand) oder eines behördlichen Eingriffs gegen Entschädigung, funktionsgleiches Ersatzwirtschaftsgut innerhalb der Frist, Aufnahme in ein laufend zu führendes Verzeichnis wegen der Abweichung von der Handelsbilanz (R 6.6 Abs. 1 S. 2 Nr. 1–3, Abs. 2 EStR; § 5 Abs. 1 S. 2 EStG).\n▸ Ist der Ersatz am Schluss des Wirtschaftsjahres noch nicht beschafft, aber ernstlich geplant, kann eine steuerfreie Rücklage in Höhe der aufgedeckten stillen Reserven gebildet werden; Nachholen in einem späteren Jahr ist nicht zulässig (R 6.6 Abs. 4 S. 1, 2 EStR). Für die Aufzeichnungspflicht reicht der Ansatz in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR).\n▸ Frist: bewegliche Wirtschaftsgüter ein Jahr, Wirtschaftsgüter im Sinne des § 6b Abs. 1 S. 1 EStG vier Jahre, neu hergestellte Gebäude sechs Jahre (R 6.6 Abs. 4 S. 3, 4 EStR).\n▸ Bei Ersatzbeschaffung wird die Rücklage auf die Anschaffungs- oder Herstellungskosten übertragen (R 6.6 Abs. 4 S. 8 EStR).\n\nIm Beispiel: 300.000 € – 120.000 € = 180.000 € Rücklage 2026; 2027 Herstellungskosten 400.000 € – 180.000 € = 220.000 €, AfA 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG) = 6.600 € im vollen Jahr.\n\nZum Schluss: § 5 Abs. 1 EStG und R 6.6 Abs. 4 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "R 6.6 Abs. 1, 2, 4 EStR",
+    "§ 5 Abs. 1 S. 2 EStG",
+    "§ 6b Abs. 1 S. 1 EStG",
+    "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-305",
+   "themaTitel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+   "figuren": {
+    "A": {
+     "name": "Dario",
+     "kopf": "Short 2",
+     "haut": "#D8A47F",
+     "haar": "#2A1B14",
+     "oberteil": "#F9D56E",
+     "bart": "Full 3"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Haftungsbescheid falsch, also ändern nach Paragraf hundertzweiundsiebzig? Falsch. Er ist gar kein Steuerbescheid."
+    },
+    {
+     "id": "s1",
+     "text": "Steuerbescheide setzen eine Steuer fest. Geändert werden sie nur nach Paragraf hundertzweiundsiebzig und folgende."
+    },
+    {
+     "id": "s2",
+     "text": "Feststellungs- und Messbescheide werden genauso behandelt, die Regeln gelten sinngemäß."
+    },
+    {
+     "id": "s3",
+     "text": "Sonstige Verwaltungsakte wie der Haftungsbescheid: Rücknahme oder Widerruf nach hundertdreißig und hunderteinunddreißig."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Steuer festgesetzt, dann hundertzweiundsiebzig. Sonst hundertdreißig."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Haftungsbescheid:",
+     "Änderung § 172?"
+    ],
+    "pille": "Arten von Verwaltungsakten",
+    "figur": "A/skeptisch",
+    "name": "Dario",
+    "icons": [
+     [
+      "tabler:file-alert",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "§§ 130, 131 AO",
+     "wort": "kein",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Steuerbescheid",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "setzt fest",
+       "wert": "Steuer",
+       "farbe": "GELB",
+       "wort": "setzen",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Korrektur",
+       "wert": "§§ 172 ff. AO",
+       "farbe": "WEISS",
+       "wort": "Geändert",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 155 Abs. 1 S. 1 AO",
+       "wort": "Steuerbescheide"
+      }
+     ],
+     "icon": [
+      "tabler:file-invoice",
+      "GELB",
+      "Steuer"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Gleichgestellt",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Feststellungsbescheid",
+       "wort": "Feststellungs",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Messbescheid",
+       "wort": "Messbescheide",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Regeln",
+       "wert": "sinngemäß",
+       "farbe": "GRUEN",
+       "wort": "sinngemäß",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 181 Abs. 1 S. 1, § 184 Abs. 1 S. 3 AO",
+       "wort": "behandelt"
+      }
+     ],
+     "icon": [
+      "tabler:files",
+      "GELB",
+      "Feststellungs"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Sonstige VA",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "z. B. Haftungsbescheid",
+       "wort": "Haftungsbescheid",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Rücknahme",
+       "wert": "§ 130 AO",
+       "farbe": "GELB",
+       "wort": "Rücknahme",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Widerruf",
+       "wert": "§ 131 AO",
+       "farbe": "GELB",
+       "wort": "Widerruf",
+       "zs": 100
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Rücknahme",
+       0.7
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Steuer festgesetzt:",
+     "§§ 172 ff. AO.",
+     "Sonst:",
+     "§§ 130, 131 AO"
+    ],
+    "woerter": [
+     null,
+     "hundertzweiundsiebzig",
+     "Sonst",
+     "hundertdreißig"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "hundertdreißig",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Haftungsbescheid fehlerhaft: Änderung nach § 172 AO? Nein – die Art des Verwaltungsakts entscheidet über die Korrekturnorm. 📄\n\n▸ Steuerbescheide setzen Steuern fest (§ 155 Abs. 1 S. 1 AO) und werden nur nach §§ 172 ff. AO aufgehoben oder geändert (§ 172 Abs. 1 S. 1 AO).\n▸ Gleichgestellt sind Feststellungsbescheide und Steuermessbescheide: Für sie gelten die Vorschriften über die Durchführung der Besteuerung sinngemäß (§ 181 Abs. 1 S. 1 AO, § 184 Abs. 1 S. 3 AO).\n▸ Sonstige Verwaltungsakte, etwa der Haftungsbescheid (§ 191 Abs. 1 AO), werden nach § 130 AO zurückgenommen (rechtswidrig) oder nach § 131 AO widerrufen (rechtmäßig).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 155 Abs. 1 S. 1 AO",
+    "§ 172 Abs. 1 S. 1 AO",
+    "§ 181 Abs. 1 S. 1 AO",
+    "§ 184 Abs. 1 S. 3 AO",
+    "§ 191 Abs. 1 AO",
+    "§§ 130, 131 AO"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-2",
+   "frage": [
+    "Erwerbsschwelle:",
+    "wie hoch?"
+   ],
+   "optionen": [
+    "10.000 €",
+    "12.500 €",
+    "22.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long",
+     "haut": "#A8724F",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-2",
+   "titel": [
+    "B: 12.500 €"
+   ],
+   "optionen": [
+    "10.000 €",
+    "12.500 €",
+    "22.000 €"
+   ],
+   "richtig": 1,
+   "text": "Bleiben die Erwerbe darunter, liegt beim Halbunternehmer kein innergemeinschaftlicher Erwerb vor.",
+   "norm": "§ 1a Abs. 3 Nr. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long",
+     "haut": "#A8724F",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Klausur 2: fünf Themen"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-17",
+   "titel": [
+    "Dividende aus",
+    "dem Ausland"
+   ],
+   "norm": "Art. 10 OECD-MA",
+   "punkte": [
+    [
+     "Der Quellenstaat darf meist höchstens 15 % einbehalten.",
+     "ok",
+     "Art. 10 Abs. 2 Buchst. b OECD-MA"
+    ],
+    [
+     "Privat: bis zu 25 % auf die Abgeltungsteuer anrechnen.",
+     "warn",
+     "§ 32d Abs. 5 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Hijab",
+     "haut": "#E8B98F",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Halle brennt: Gewinn sofort?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sonntag:",
+    "aktiv wiederholen"
+   ],
+   "punkte": [
+    [
+     "Einen Fall der Woche ohne Lösung neu rechnen.",
+     "ok",
+     null
+    ],
+    [
+     "Normen erst selbst suchen, dann prüfen.",
+     "ok",
+     null
+    ],
+    [
+     "Jeden Fehler in eine Liste schreiben.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:repeat",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Afro",
+     "haut": "#5C3A24",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-15",
+   "titel": [
+    "Teileinkünfte",
+    "im Betrieb"
+   ],
+   "punkte": [
+    [
+     "40 % der Dividende sind steuerfrei.",
+     "ok",
+     "§ 3 Nr. 40 S. 1 Buchst. d EStG"
+    ],
+    [
+     "Zugehörige Ausgaben nur zu 60 % abziehbar.",
+     "warn",
+     "§ 3c Abs. 2 S. 1 EStG"
+    ],
+    [
+     "Bilanz voll, Korrektur außerhalb.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:percentage",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "U": {
+     "kopf": "Pomp",
+     "haut": "#F1C7A5",
+     "haar": "#3B2A1E",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "U/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Haftungsbescheid: § 172?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-306",
+   "titel": [
+    "Fehlerhaft",
+    "gleich nichtig?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Nichtig nur bei",
+      null
+     ]
+    ],
+    [
+     [
+      "besonders ",
+      null
+     ],
+     [
+      "schwerem",
+      "a"
+     ]
+    ],
+    [
+     [
+      "und ",
+      null
+     ],
+     [
+      "offenkundigem",
+      "b"
+     ]
+    ],
+    [
+     [
+      "Fehler.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 125 Abs. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Medium Bangs 3",
+     "haut": "#C68863",
+     "haar": "#2B1A10",
+     "oberteil": "#9AD48F",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}
