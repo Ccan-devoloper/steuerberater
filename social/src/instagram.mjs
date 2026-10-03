@@ -376,6 +376,13 @@ export class Instagram {
   }
 
   /* Auf einen Kommentar antworten. Rückgabe: ID der Antwort. */
+  /* Eigener Kommentar unter einem Beitrag (z. B. ein Hinweis des Kanals). */
+  async beitragKommentieren(medienId, text) {
+    if (this.trockenlauf) { this.protokoll.push({ art: "kommentar", medienId, text }); return "trocken"; }
+    const r = await this.anfrage("POST", `${medienId}/comments`, { message: text });
+    return r.id;
+  }
+
   async kommentarBeantworten(kommentarId, text) {
     if (this.trockenlauf) { this.protokoll.push({ art: "antwort", kommentarId, text }); return "trocken"; }
     const r = await this.anfrage("POST", `${kommentarId}/replies`, { message: text });
