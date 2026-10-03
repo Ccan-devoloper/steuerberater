@@ -173,7 +173,7 @@
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "Grenze! · mindestens 0 € · nur bei gemeinem Wert · Dazu: § 20 Abs. 3 S. 1 UmwStG · Wertansatz = Veräußerungspreis und AK der Anteile"
+          "text": "§ 20 UmwStG Einbringung (Auszug) · Grenze! · mindestens 0 € · nur bei gemeinem Wert · Dazu: § 20 Abs. 3 S. 1 UmwStG · Wertansatz = Veräußerungspreis und AK der Anteile"
         }
       ]
     },
@@ -253,7 +253,7 @@
         {
           "art": "text",
           "titel": "Umsatzsteuer",
-          "text": "Zwischenhändler · Grundregel · IdNr. Abgangsstaat · dann seine Lieferung · Dazu: Abschn. 3.14 UStAE · Ruhende Orte: § 3 Abs. 7 S. 2 UStG"
+          "text": "§ 3 Abs. 6a UStG Reihengeschäft (Auszug) · Zwischenhändler · Grundregel · IdNr. Abgangsstaat · dann seine Lieferung · Dazu: Abschn. 3.14 UStAE · Ruhende Orte: § 3 Abs. 7 S. 2 UStG"
         }
       ]
     },
@@ -538,7 +538,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:35:21Z",
+    "erzeugtAm": "2026-10-03T10:52:00Z",
     "pfad": "vorproduktion/2026-10-14/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
