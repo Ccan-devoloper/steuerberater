@@ -906,12 +906,12 @@
    "norm": "R 4.2 Abs. 2 EStR",
    "punkte": [
     [
-     "SBV I dient dem Betrieb, etwa ein vermietetes Grundstück.",
+     "SBV I dient dem Betrieb: an die KG vermietetes Grundstück.",
      "ok",
      null
     ],
     [
-     "SBV II stützt die Beteiligung, etwa ein Kredit für den Anteil.",
+     "SBV II stützt die Beteiligung: Kredit für den Anteil.",
      "ok",
      null
     ]

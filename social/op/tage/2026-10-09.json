@@ -292,7 +292,7 @@
        "mit Höchstbetrag"
       ]
      ],
-     "teaser": "Am Ende: § 10 KStG + § 4 EStG markiert"
+     "teaser": "Am Ende: KStG + EStG markiert"
     },
     {
      "typ": "vergleich",
@@ -493,15 +493,82 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Welche Korrektur vergisst du gern?",
-     "teaser": "Weiterwischen: § 10 KStG + § 4 EStG markiert"
+     "teaser": "Weiterwischen: KStG + EStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 10 KStG Nichtabziehbare Aufwendungen",
+     "kopf": "§§ 8, 8b KStG (Auszug)",
      "absaetze": [
       [
-       null,
+       "§ 8 (1) 1",
+       [
+        [
+         "Was als Einkommen gilt und wie das Einkommen zu ermitteln ist, bestimmt sich",
+         null
+        ],
+        [
+         "nach den Vorschriften des Einkommensteuergesetzes",
+         "b2"
+        ],
+        [
+         "und dieses Gesetzes.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 8b (1) 1",
+       [
+        [
+         "Bezüge im Sinne des § 20 Abs. 1 Nr. 1, 2, 9 und 10 Buchstabe a des Einkommensteuergesetzes",
+         null
+        ],
+        [
+         "bleiben bei der Ermittlung des Einkommens außer Ansatz.",
+         "g1"
+        ]
+       ]
+      ],
+      [
+       "(5) 1",
+       [
+        [
+         "Von den Bezügen im Sinne des Absatzes 1, die bei der Ermittlung des Einkommens außer Ansatz bleiben,",
+         null
+        ],
+        [
+         "gelten 5 Prozent als Ausgaben, die nicht als Betriebsausgaben abgezogen werden dürfen.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "auch für die GmbH",
+       "b2"
+      ],
+      [
+       "Dividende raus",
+       "g1"
+      ],
+      [
+       "5 % wieder rein",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 10 KStG, § 4 EStG",
+      "Steuern und Aufsichtsrat zurück"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 10 KStG, § 4 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 10",
        [
         [
          "Nichtabziehbar sind auch: […]",
@@ -542,6 +609,19 @@
          null
         ]
        ]
+      ],
+      [
+       "§ 4 (5b) EStG",
+       [
+        [
+         "Die Gewerbesteuer",
+         "r1"
+        ],
+        [
+         "und die darauf entfallenden Nebenleistungen sind keine Betriebsausgaben.",
+         null
+        ]
+       ]
       ]
      ],
      "notizen": [
@@ -556,86 +636,19 @@
       [
        "Kontrollorgan",
        "gr1"
-      ]
-     ],
-     "randnotiz": [
-      "Weiterwischen: § 4 Abs. 5b EStG",
-      "Gewerbesteuer steht nicht im KStG"
-     ]
-    },
-    {
-     "typ": "gesetz",
-     "kopf": "§ 4 EStG, § 8 KStG (Auszug)",
-     "absaetze": [
-      [
-       "§ 4 (4)",
-       [
-        [
-         "Betriebsausgaben sind die Aufwendungen, die durch den Betrieb veranlasst sind.",
-         "b1"
-        ]
-       ]
       ],
       [
-       "(5b)",
-       [
-        [
-         "Die Gewerbesteuer",
-         "g1"
-        ],
-        [
-         "und die darauf entfallenden Nebenleistungen",
-         null
-        ],
-        [
-         "sind keine Betriebsausgaben.",
-         "r1"
-        ]
-       ]
-      ],
-      [
-       "§ 8 (1) 1 KStG",
-       [
-        [
-         "Was als Einkommen gilt und wie das Einkommen zu ermitteln ist, bestimmt sich",
-         null
-        ],
-        [
-         "nach den Vorschriften des Einkommensteuergesetzes",
-         "b2"
-        ],
-        [
-         "und dieses Gesetzes.",
-         null
-        ]
-       ]
-      ]
-     ],
-     "notizen": [
-      [
-       "Grundsatz",
-       "b1"
-      ],
-      [
-       "Ausnahme",
-       "g1"
-      ],
-      [
-       "außerhalb der Bilanz dazu",
+       "GewSt auch zurück",
        "r1"
-      ],
-      [
-       "gilt auch für die GmbH",
-       "b2"
       ]
      ],
      "randnotiz": [
-      "Hana: + 25.000 € Gewerbesteuer",
+      "Hana: + 30.000 + 25.000 + 10.000 €",
       "außerhalb der Bilanz wieder dazu"
      ]
     }
    ],
-   "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nZum Schluss: § 10 Nr. 2, 4 KStG, § 4 Abs. 4, 5b EStG und § 8 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nZum Schluss: § 8 Abs. 1, § 8b Abs. 1, 5, § 10 Nr. 2, 4 KStG und § 4 Abs. 5b EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
