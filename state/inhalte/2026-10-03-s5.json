@@ -1,0 +1,44 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "pairId": "kst-quiz-kst-2",
+  "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "Themenpool: kst-quiz-kst-2"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "ueberzeile": "Auflösung",
+  "titel": "der Gesellschafter oder eine nahestehende Person",
+  "optionen": [
+    "die Gesellschaft",
+    "der Gesellschafter oder eine nahestehende Person",
+    "das Finanzamt"
+  ],
+  "richtig": 1,
+  "text": "Bei einer vGA mindert sich das Vermögen der Gesellschaft oder es mehrt sich nicht; den Vorteil hat der Gesellschafter oder eine nahestehende Person, veranlasst durch das Gesellschaftsverhältnis (§ 8 Abs. 3 S. 2 KStG).",
+  "liveVorrangAktiv": true,
+  "renderer": "open-peeps-v4",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Auflösung",
+    "B: der Gesellschafter",
+    "(oder Nahestehende)",
+    "die Gesellschaft",
+    "A",
+    "der Gesellschafter oder eine nahestehende Person",
+    "B",
+    "das Finanzamt",
+    "C",
+    "Die Gesellschaft verliert Vermögen, der Vorteil liegt beim Gesellschafter – veranlasst durch das Gesellschaftsverhältnis.",
+    "§ 8 Abs. 3 S. 2 KStG"
+  ]
+}

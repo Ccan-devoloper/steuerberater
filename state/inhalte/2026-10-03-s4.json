@@ -1,0 +1,43 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "pairId": "kst-quiz-kst-2",
+  "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "Themenpool: kst-quiz-kst-2"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "ueberzeile": "Prüfungsfrage",
+  "frage": "Wer hat bei einer vGA typischerweise den Vorteil?",
+  "titel": "Wer hat bei einer vGA typischerweise den Vorteil?",
+  "optionen": [
+    "die Gesellschaft",
+    "der Gesellschafter oder eine nahestehende Person",
+    "das Finanzamt"
+  ],
+  "richtig": 1,
+  "liveVorrangAktiv": true,
+  "renderer": "open-peeps-v4",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Prüfungsfrage",
+    "vGA: Wer bekommt",
+    "den Vorteil?",
+    "die Gesellschaft",
+    "A",
+    "der Gesellschafter oder eine nahestehende Person",
+    "B",
+    "das Finanzamt",
+    "C",
+    "Deine Antwort? Auflösung in der nächsten Story"
+  ]
+}

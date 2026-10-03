@@ -1,0 +1,42 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "pairId": "istr-modul-istr-istr3-06",
+  "quellen": [
+    "§ 1 EStG",
+    "§ 2 Abs. 7 S. 3 EStG",
+    "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 49 EStG",
+    "§ 50a EStG",
+    "§§ 2, 6 AStG",
+    "§ 49 / § 50a EStG",
+    "Themenpool: istr-modul-istr-istr3-06"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 2 Abs. 7 S. 3 EStG",
+  "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
+  "text": "Ein Jahr, eine Veranlagung: Inländische Einkünfte nach dem Wegzug fließen in die unbeschränkte Veranlagung ein (§ 2 Abs. 7 S. 3 EStG). Ausländische Einkünfte dieser Phase erhöhen nur den Steuersatz (§ 32b EStG).",
+  "liveVorrangAktiv": true,
+  "renderer": "open-peeps-v4",
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Norm des Tages",
+    "Wegzug im",
+    "laufenden Jahr",
+    "§ 2 Abs. 7 S. 3 EStG",
+    "Inländische Einkünfte nach dem Wegzug: in die unbeschränkte Veranlagung.",
+    "§ 2 Abs. 7 S. 3 EStG",
+    "Ausländische Einkünfte dieser Phase: nur Progressionsvorbehalt.",
+    "§ 32b Abs. 1 S. 1 Nr. 2 EStG"
+  ]
+}

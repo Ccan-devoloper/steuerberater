@@ -1,0 +1,27 @@
+{
+  "slot": "s7",
+  "art": "countdown",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Steuerberaterexamen",
+  "ueberzeile": "Noch",
+  "zahl": "3",
+  "titel": "Tage bis zum Examen",
+  "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
+  "fortschritt": 0,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "liveVorrangAktiv": true,
+  "renderer": "open-peeps-v4",
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Countdown",
+    "bis zum Examen",
+    "Wiederholen statt Neues",
+    "Klausurtechnik sichern",
+    "Gesetz griffbereit markiert"
+  ]
+}

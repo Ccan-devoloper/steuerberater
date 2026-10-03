@@ -1,0 +1,104 @@
+{
+  "datum": "2026-10-03",
+  "erzeugt": "2026-10-03T05:44:16.254Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "07:30",
+      "format": "schema",
+      "themaId": "ao-modul-ao-314",
+      "themaTitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "rechenweg",
+      "themaId": "gewst-aufb-gewst-ks-07",
+      "themaTitel": "Freibetrag, Messzahl, Hebesatz: So entsteht die Gewerbesteuer",
+      "fach": "gewst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "bilanz-aufb-bil-melzer-10-03",
+      "themaTitel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "fach": "bilanz",
+      "klausur": 3,
+      "lang": false,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:07",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "07:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "istr-modul-istr-istr3-06",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "countdown",
+      "tageBisExamen": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "istr-modul-istr-istr3-08",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "istr-aufb-istr-gh-4-44",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    }
+  ]
+}

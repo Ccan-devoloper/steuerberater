@@ -1,0 +1,96 @@
+{
+  "format": "schema",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-314",
+  "slug": "2026-10-03-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Abgabenordnung",
+      "text": "Prüfschema · Fristen · berechnen · § 108 AO i. V. m. §§ 187, 188 BGB · in 4 Schritten · + Markier-Guide § 108 AO",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "2/11 · Die 4 Schritte · 1 · Bekanntgabe · 4. Tag nach Aufgabe zur Post · § 122 Abs. 2 Nr. 1 AO · 2 · Beginn · Tag nach der Bekanntgabe · § 187 Abs. 1 BGB · 3 · Ende · Tag mit derselben Zahl, ein Monat später · § 188 Abs. 2 BGB · 4 · Kalender · Sa, So, Feiertag: nächster Werktag · § 108 Abs. 3 AO · Am Ende: § 108 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "3/11 · 1 · Bekanntgabe · Per Post gilt der Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben. · § 122 Abs. 2 Nr. 1 AO · Seit 01.01.2025 vier statt drei Tage. · Später oder nicht zugegangen? Dann trägt das Finanzamt die Beweislast. · § 122 Abs. 2 letzter Hs. AO"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "4/11 · 2 · Beginn · Für die Fristberechnung verweist die AO ins BGB. · § 108 Abs. 1 AO · Der Tag der Bekanntgabe zählt nicht mit. Die Frist beginnt am Folgetag. · § 187 Abs. 1 BGB"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "5/11 · 3 · Ende · Die Einspruchsfrist beträgt einen Monat. · § 355 Abs. 1 S. 1 AO · Sie endet am Tag mit derselben Zahl wie die Bekanntgabe. · § 188 Abs. 2 BGB · Kein gleicher Tag? Dann Monatsletzter · § 188 Abs. 3 BGB"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "6/11 · 4 · Kalender · Endet eine Frist an einem Samstag, Sonntag oder Feiertag, endet sie erst mit Ablauf des nächsten Werktags. · § 108 Abs. 3 AO · Nur das Fristende verschiebt sich, nicht der Beginn."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "7/11 · Paulas Bescheid · Di 29.09.   zur Post · Sa 03.10.   4. Tag, Feiertag · § 122 Abs. 2 Nr. 1 AO · Mo 05.10.   Bekanntgabe · § 108 Abs. 3 AO · Do 05.11.   Fristende · § 355 Abs. 1 AO, § 188 Abs. 2 BGB"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "8/11 · Klausurfalle · Auch der 4. Tag wandert · Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, ist der Bescheid erst am nächsten Werktag bekannt gegeben. · § 108 Abs. 3 i. V. m. § 122 Abs. 2 Nr. 1 AO · Erst danach läuft die Einspruchsfrist. · Fundstellen: AEAO zu § 108 Nr. 2; BFH vom 14.10.2003, IX R 68/98"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "9/11 · Jetzt du · Paulas nächster Bescheid geht am Mittwoch, 28.10.2026 zur Post. · Wann endet die Einspruchsfrist? Nenne die Normen. · Tipp: Der 1.11. ist ein Sonntag."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "10/11 · Lösung: Mittwoch, 02.12.2026 · Bekanntgabe Mo 02.11. (§ 108 Abs. 3 AO) · Merke · 4. Tag ist Bekanntgabe, · Folgetag ist Beginn, · gleiche Zahl ist Ende, · Wochenende schiebt. · Speichern für Klausur 1 · Deine Lösung zur Übung? · Weiterwischen: § 108 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "11/11 · Im Gesetz markieren · Randnotiz: AEAO zu § 108 Nr. 2 · Abs. 3 verschiebt auch den 4. Tag der Bekanntgabe"
+    }
+  ],
+  "caption": "Fristen berechnen in der AO-Klausur: Bekanntgabe, Beginn, Ende, Wochenende – in 4 Schritten.\n\n1. Bekanntgabe: Ein Bescheid per Post gilt am 4. Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO).\n2. Beginn: Der Tag der Bekanntgabe zählt nicht mit (§ 108 Abs. 1 AO i. V. m. § 187 Abs. 1 BGB).\n3. Ende: Die Einspruchsfrist beträgt einen Monat und endet am Tag mit derselben Zahl (§ 355 Abs. 1 S. 1 AO, § 188 Abs. 2 BGB).\n4. Samstag, Sonntag oder Feiertag: Fristende am nächsten Werktag (§ 108 Abs. 3 AO) – auch für den 4. Tag der Bekanntgabe (AEAO zu § 108 Nr. 2).\n\nZum Schluss: § 108 AO zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "kurztitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
+  "coverBadge": "Prüfschema",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 108 Abs. 1 AO",
+    "§ 187 BGB",
+    "§ 188 BGB",
+    "§ 108 Abs. 3 AO",
+    "§§ 187, 188 BGB",
+    "§ 187 Abs. 1 BGB",
+    "§ 188 Abs. 2 BGB",
+    "§ 122 Abs. 2 Nr. 1 AO",
+    "Themenpool: ao-modul-ao-314"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "liveVorrangAktiv": true,
+  "renderer": "open-peeps-v4"
+}

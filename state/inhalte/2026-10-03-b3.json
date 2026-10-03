@@ -1,0 +1,103 @@
+{
+  "format": "reel",
+  "layout": "erklaer",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-10-03",
+  "slug": "2026-10-03-b3",
+  "szenen": [
+    {
+      "art": "hook",
+      "nummer": null,
+      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "unter": "Bilanzsteuerrecht",
+      "text": "Kurs gestiegen oder gefallen: Welcher Euro-Wert gehört in Handels- und Steuerbilanz?",
+      "norm": "§ 256a HGB",
+      "icon": null,
+      "sprecher": "Der Wechselkurs hat sich seit der Darlehensaufnahme bewegt. Welcher Euro-Betrag gehört jetzt in Handels- und Steuerbilanz?",
+      "marken": [
+        "Zugangskurs oder Stichtagskurs?"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 1,
+      "titel": "Zugang zum Kurs bei Entstehung",
+      "text": null,
+      "norm": "§ 253 Abs. 1 S. 2 HGB",
+      "icon": null,
+      "sprecher": "Bei Aufnahme rechnest du den Rückzahlungsbetrag mit dem Kurs am Entstehungstag in Euro um. Dieser Zugangswert ist der Ausgangspunkt für jeden Stichtag.",
+      "marken": [
+        "Kurs bei Entstehung"
+      ]
+    },
+    {
+      "art": "schritt",
+      "nummer": 2,
+      "titel": "Stichtag: steuerlich nur dauernde Erhöhung",
+      "text": null,
+      "norm": "§ 256a HGB, § 6 Abs. 1 Nr. 3 EStG",
+      "icon": null,
+      "sprecher": "Handelsrechtlich rechnest du zum Devisenkassamittelkurs um, unter den Zugangswert aber nur bei Restlaufzeit bis zu einem Jahr. In der Steuerbilanz setzt du den höheren Teilwert nur bei voraussichtlich dauernder Erhöhung an.",
+      "marken": [
+        "HGB: Devisenkassamittelkurs",
+        "EStG: nur dauernde Erhöhung"
+      ]
+    },
+    {
+      "art": "merke",
+      "nummer": null,
+      "titel": "Merksatz",
+      "text": "Steuerbilanz: nie unter den Zugangswert, darüber nur bei voraussichtlich dauernder Kurssteigerung.",
+      "sprecher": "Merke: In der Steuerbilanz nie unter den Zugangswert. Darüber nur, wenn der Kursanstieg voraussichtlich dauerhaft ist – bei langer Restlaufzeit ist das regelmäßig nicht der Fall.",
+      "marken": [
+        "Zugangswert ist Untergrenze"
+      ]
+    },
+    {
+      "art": "cta",
+      "nummer": null,
+      "titel": "Prüfungsschritte festigen",
+      "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
+      "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
+      "marken": [
+        "Kernfrage und Reihenfolge",
+        "Normen ohne Unterlagen"
+      ]
+    }
+  ],
+  "caption": "Dollar steigt – steigt auch deine Dollar-Schuld? 💵\nHandelsbilanz: ja. Steuerbilanz: meistens nicht.\n\n▸ Zugang: Rückzahlungsbetrag zum Kurs bei Entstehung (§ 253 Abs. 1 S. 2 HGB, § 6 Abs. 1 Nr. 3 EStG)\n▸ Handelsbilanz am Stichtag: Devisenkassamittelkurs; bei Restlaufzeit über 1 Jahr nur höher, nie unter den Zugangswert (§ 256a HGB, § 252 Abs. 1 Nr. 4 HGB)\n▸ Steuerbilanz: höherer Teilwert nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG) – Wahlrecht unabhängig von der Handelsbilanz (§ 5 Abs. 1 S. 1 Hs. 2 EStG)\n▸ Restlaufzeit von jedenfalls 10 Jahren: Kursanstieg ist nicht dauerhaft (BFH vom 23.04.2009, IV R 62/06; BMF vom 02.09.2016, Rn. 33)\n\nSpeichern für Klausur 3 📌\nFrage an dich: Wann ist ein Kursanstieg doch dauerhaft?",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "kurztitel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+  "coverBadge": "Reel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 6 Abs. 1 EStG",
+    "§ 253 Abs. 1 HGB",
+    "§ 5 Abs. 6 EStG",
+    "§ 256a HGB",
+    "§ 253 Abs. 1 S. 2 HGB",
+    "§ 6 Abs. 1 Nr. 3 EStG",
+    "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
+    "Themenpool: bilanz-aufb-bil-melzer-10-03"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "renderer": "open-peeps-v4",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "dauerS": 44.9
+}
