@@ -4,377 +4,302 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "persg-aufb-persg-melzer-1-6",
-        "themaTitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
+        "format": "anlass",
+        "themaId": "persg-aufb-persg-melzer-1-2",
+        "themaTitel": "Morgen geht's los: der Abend vor Tag 1",
         "fach": "persg",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "ao-aufb-ao-jacobs-6-10",
-        "themaTitel": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
+        "format": "fehlerfalle",
+        "themaId": "ao-aufb-ao-jacobs-3-11",
+        "themaTitel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
         "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
-        "format": "anlass",
-        "themaId": null,
-        "themaTitel": null,
-        "fach": "mindset",
-        "klausur": 0
+        "format": "reel",
+        "themaId": "est-aufb-est-ks1-vv-02",
+        "themaTitel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+        "fach": "est",
+        "klausur": 2
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:22",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "kst-quiz-kst-13"
+        "themaId": "kst-quiz-kst-1"
       },
       {
         "slot": "s5",
-        "zeit": "07:22",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "kst-quiz-kst-13"
+        "themaId": "kst-quiz-kst-1"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
         "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-modul-istr-istr1-07"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:35",
-        "art": "countdown",
-        "tageBisExamen": 1
+        "themaId": "persg-karte-k3-20"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "countdown"
       },
       {
         "slot": "s8",
-        "zeit": "17:02",
-        "art": "begriff",
-        "themaId": "bilanz-glossar-2"
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ust-karte-ust-0"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "kst-karte-kst-1"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
+      "format": "anlass",
       "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-1-6",
-      "slug": "2026-10-05-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Eine Ergänzungsbilanz enthält keine eigenen Wirtschaftsgüter, sondern nur Mehr- oder Minderwerte zu den in der Gesamthandsbilanz ausgewiesenen Wirtschaftsgütern.",
-            "Der steuerlich zutreffende Wert eines Wirtschaftsguts ergibt sich erst aus Gesamthandsbilanz und Ergänzungsbilanz zusammen."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Vorgang einordnen (Anteilskauf, Einbringung, personenbezogene Vergünstigung) und den steuerlichen Wert für den Gesellschafter bestimmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Ansatz in der Gesamthandsbilanz ermitteln."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Differenz als Mehr- oder Minderwert in die Ergänzungsbilanz einstellen und wie das Wirtschaftsgut fortführen (AfA, Abgang)."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Gesamthandsbilanz plus Ergänzungsbilanz ergibt den steuerlichen Wert für den einzelnen Mitunternehmer. Mehr- und Minderwerte teilen das Schicksal des Wirtschaftsguts."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Eine Ergänzungsbilanz korrigiert die Gesamthandsbilanz für einen einzelnen Mitunternehmer, etwa nach einem Anteilskauf über Buchwert oder einer Einbringung. Die Mehr- und Minderwerte führst du wie das Wirtschaftsgut selbst fort.",
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": "persg-aufb-persg-melzer-1-2",
+      "caption": "Morgen geht's los: der Abend vor Tag 1 der Steuerberaterprüfung.\n\n▸ Tasche packen: Ladung, Ausweis, Textausgaben, Stifte. Welche Hilfsmittel zugelassen sind, bestimmt die Finanzverwaltung; die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 2, 3 DVStB).\n▸ Textausgaben dürfen Markierungen enthalten, aber keine Anmerkungen.\n▸ Heute nichts Neues mehr lernen, runterfahren, früh schlafen, Anfahrt mit Puffer.\n▸ Tipp für Tag 1 (Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung): erst alle Teile überfliegen, Zeit nach Punkten verteilen, bei Hängern weitergehen und später zurückkommen.\n\nWir drücken dir die Daumen! Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#prüfungstag"
       ],
-      "kurztitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 6 Abs. 5 Satz 3 Nr. 1 EStG",
-        "§ 6 Abs. 6 Satz 1 und Satz 4 EStG",
-        "§ 246 Abs. 1 Satz 1 HGB",
-        "§ 247 Abs. 2 HGB",
-        "§ 253 Abs. 1 Satz 1 HGB",
-        "§ 255 Abs. 1 HGB",
-        "Themenpool: persg-aufb-persg-melzer-1-6"
+        "§ 18 Abs. 1 S. 2, 3 DVStB"
       ],
-      "coverRegie": {
-        "thema": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-05-b1-persg-aufb-persg-melzer-1-6-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-05-b1",
+      "kurztitel": "Morgen geht's los: der Abend vor Tag 1",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-aufb-ao-jacobs-6-10",
-      "slug": "2026-10-05-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Morgen geht's los",
       "folien": [
         {
           "art": "titel",
-          "titel": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Morgen geht's los",
+          "text": "Morgen geht's los · Der Abend · davor · in 4 Schritten · + Tipp für Tag 1 · OKTOBER · 6 · Di · Tag 1",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Erforderlich sind eine wirksame Prüfungsanordnung und ernsthafte Prüfungshandlungen vor Fristablauf; Aktenstudium im Amt oder die bloße Übergabe der Anordnung genügen nicht.",
-            "Einem Beginn steht ein vor Fristablauf gestellter Antrag des Steuerpflichtigen auf Verschiebung gleich; auch ein Aussetzungsantrag gegen die Prüfungsanordnung kann so wirken."
-          ]
+          "titel": "Steuerberaterexamen",
+          "text": "Dein Abend in 4 Schritten · Tasche packen · Ladung, Ausweis, Gesetze, Stifte · Lernen beenden · Ab jetzt nichts Neues mehr · Runterfahren · Essen, Spaziergang, Bildschirm aus · Früh ins Bett · Wecker doppelt, Weg mit Puffer · Am Ende: dein Tipp für Tag 1"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Reguläre Festsetzungsfrist berechnen: Begannen die Prüfungshandlungen vor ihrem Ablauf?"
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Reichweite der Hemmung danach bestimmen, welche Steuern und Jahre die Anordnung erfasst."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Ende bestimmen: Unanfechtbarkeit der Auswertungsbescheide oder drei Monate nach Mitteilung ohne Änderungen (§ 202 Abs. 1 S. 3 AO); Höchstgrenze in § 171 Abs. 4 S. 3 AO beachten."
-            }
-          ]
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Die Tasche · Welche Hilfsmittel erlaubt sind, legt die Finanzverwaltung fest. Ladung noch einmal lesen. · § 18 Abs. 1 S. 2 DVStB · Textausgaben: Markierungen sind erlaubt, Anmerkungen nicht. · Uhr, Wasser und Snacks für bis zu sechs Stunden. · § 18 Abs. 1 S. 3 DVStB · Einmal abhaken!"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Ohne echten Prüfungsbeginn oder Verschiebungsantrag vor Fristablauf keine Hemmung. Unterbricht das Finanzamt unmittelbar nach Beginn länger als sechs Monate, entfällt sie (§ 171 Abs. 4 S. 2 AO)."
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Kopf und Schlaf · Keine neuen Themen: Was heute nicht sitzt, rettet kein Abendmarathon. · Kurz an die frische Luft, leicht essen, Bildschirm früh aus. · Anfahrt und Einlass mit Puffer planen. · Reicht für heute!"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Dein Tipp für Tag 1 · Morgen in einer Klausur: AO, Umsatzsteuer, Erbschaftsteuer, Bewertung. · Erst alle Teile überfliegen, dann die Zeit nach Punkten verteilen, nicht nach Lieblingsfach. · Hängst du fest: Lücke lassen, später zurück. · Punkte holen statt perfekt lösen · Punkte zählen!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Dienstag, 06.10.: Tag 1 · AO · Umsatzsteuer · Erbschaftsteuer und Bewertung · Tasche packen, · Kopf ausschalten, · früh schlafen, · morgen Punkte holen. · Speichern für Klausur 1 · Was kommt bei dir in die Tasche?"
         }
-      ],
-      "caption": "Eine Außenprüfung hemmt den Ablauf der Festsetzungsfrist nur, wenn sie vor Fristablauf ernsthaft begonnen hat oder auf Antrag verschoben wurde (§ 171 Abs. 4 AO), und nur für die Steuern und Jahre aus der Prüfungsanordnung.",
+      ]
+    },
+    "b2": {
+      "format": "fehlerfalle",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-aufb-ao-jacobs-3-11",
+      "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Die Klausurfalle zum Wiederholen vor Tag 1.\n\n▸ Seit 2025 gilt ein per Post übermittelter Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO), ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2a AO).\n▸ Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, zur früheren Dreitagesregel).\n▸ Früherer Zugang ändert nichts. Geht der Bescheid später oder gar nicht zu, greift die Vermutung nicht; im Zweifel weist das Finanzamt den Zugang nach (§ 122 Abs. 2 Hs. 2 AO).\n▸ Beispiel: Post am Freitag, 06.11.2026, Bekanntgabe Dienstag, 10.11.2026, Einspruchsfrist endet Donnerstag, 10.12.2026 (§ 355 Abs. 1 S. 1, § 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
       ],
-      "kurztitel": "Außenprüfung hemmt die Verjährung – aber nur bei…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 171 Abs. 4 Sätze 1 bis 3 AO",
-        "§ 171 Abs. 3, Abs. 3a und Abs. 10 Satz 4 AO",
-        "§§ 196, 197 AO",
-        "§ 194 Abs. 1 AO",
-        "§ 199 Abs. 1 AO",
-        "§ 201 AO",
-        "§ 202 Abs. 1 Satz 3 AO",
-        "§ 193 AO",
-        "§ 124 Abs. 1 AO",
-        "§ 164 Abs. 1, Abs. 2, Abs. 4 Sätze 1 und 2 AO",
-        "§ 171 Abs. 4 S. 2 AO",
-        "Themenpool: ao-aufb-ao-jacobs-6-10"
+        "§ 122 Abs. 2, 2a AO",
+        "§ 108 Abs. 1, 3 AO",
+        "§ 355 Abs. 1 S. 1 AO",
+        "§ 188 Abs. 2 BGB",
+        "BFH vom 14.10.2003, IX R 68/98"
       ],
-      "coverRegie": {
-        "thema": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-05-b2-ao-aufb-ao-jacobs-6-10-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-05-b2",
+      "kurztitel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b3": {
-      "format": "anlass",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "themaId": null,
-      "pruefungsphase": true,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
       "folien": [
         {
           "art": "titel",
-          "titel": "Morgen geht es los – und du bist bereit",
-          "coverBadge": "Vorabend",
-          "coverBildAuslassen": true
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Noch mit · drei Tagen? · § 122 Abs. 2 Nr. 1 AO · Dauerbrenner · + Markier-Guide § 122 AO · Post · + 4 Tage · seit 2025",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Für heute",
-          "text": "Heute Abend zählt nicht mehr, was du noch lernen könntest. Es zählt, dass du ausgeruht und ruhig in den Prüfungsraum gehst.",
-          "punkte": [
-            "Tasche packen: Ausweis, Einladung, zugelassene Gesetzestexte, Stifte",
-            "Nichts Neues mehr aufschlagen – höchstens ein Schema überfliegen",
-            "Früh ins Bett, Wecker doppelt stellen, Anfahrt einplanen"
-          ]
+          "titel": "Abgabenordnung",
+          "text": "Die Falle · Wer noch mit drei Tagen rechnet, setzt Bekanntgabe und Fristende einen Tag zu früh an. · Seit 2025: bekannt gegeben am vierten Tag nach Aufgabe zur Post. · § 122 Abs. 2 Nr. 1 AO · Elektronisch übermittelt: vierter Tag nach Absendung. · § 122 Abs. 2a AO · Vier, nicht drei!"
         },
         {
-          "art": "merke",
-          "titel": "Seneca",
-          "text": "„Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.“"
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Der Fall · Jonas betreibt einen Kiosk. Sein Bescheid geht am Freitag, 06.11.2026, zur Post. · Schon am Samstag liegt er im Briefkasten. · Jonas legt am Donnerstag, 10.12.2026, Einspruch ein. · Jetzt du: Ist das rechtzeitig? · Zu spät?"
         },
         {
-          "art": "cta",
-          "titel": "Wir drücken dir die Daumen",
-          "punkte": [
-            "Schick das deiner Lerngruppe",
-            "Leg das Handy heute früh weg",
-            "Morgen früh: frühstücken, durchatmen, loslegen"
-          ],
-          "icons": [
-            "haken",
-            "uhr",
-            "buch"
-          ]
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Die Lösung · Fr 06.11. · Aufgabe zur Post · Di 10.11. · bekannt gegeben · § 122 Abs. 2 Nr. 1 AO · Do 10.12. · Fristende: rechtzeitig · § 355 Abs. 1 AO, § 188 Abs. 2 BGB · Falsch: · 3 Tage, Ende 09.12. · Gerade noch!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Wochenende schiebt · Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag. · § 108 Abs. 3 AO · So schon zur alten Dreitagesregel entschieden. · BFH vom 14.10.2003, IX R 68/98 · Post am Mittwoch: Tag vier ist Sonntag, bekannt gegeben am Montag. · Werktag zählt."
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Früher oder später da? · Früher im Briefkasten: zählt nicht, es bleibt beim vierten Tag. · § 122 Abs. 2 Nr. 1 AO · Später oder gar nicht angekommen: Die Vermutung greift nicht. · Im Zweifel muss das Finanzamt Zugang und Zeitpunkt nachweisen. · § 122 Abs. 2 Hs. 2 AO · Und wenn nie?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Post am Freitag, 06.11.2026 · Bekanntgabe Di 10.11. · Fristende Do 10.12. · Post plus vier Tage, · Wochenende schiebt, · früher zählt nicht, · später schon. · Speichern für Klausur 1 · Rechnest du schon mit vier? · Weiterwischen: § 122 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "seit 2025: vier · später: echter Zugang · Beweislast Amt · Dazu § 108 Abs. 3 AO · Samstag, Sonntag, Feiertag: nächster Werktag"
         }
-      ],
-      "caption": "Morgen beginnt die schriftliche Prüfung. Heute Abend nichts mehr lernen, sondern Kraft sammeln. Du hast dich monatelang vorbereitet – das trägt dich durch die drei Tage.",
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks1-vv-02",
+      "caption": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG? Die Klausurfalle zum Wiederholen.\n\n▸ Vermietungseinkünfte sind anderen Einkunftsarten zuzurechnen, soweit sie zu diesen gehören (§ 21 Abs. 3 EStG).\n▸ Betriebsaufspaltung: Wer Besitz- und Betriebsunternehmen beherrscht und eine wesentliche Betriebsgrundlage überlässt, erzielt gewerbliche Einkünfte (§ 15 Abs. 1 S. 1 Nr. 1 EStG; H 15.7 Abs. 4 EStH).\n▸ Miete, die ein Mitunternehmer von seiner Personengesellschaft erhält, ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Die Vermietung einzelner beweglicher Gegenstände führt zu sonstigen Einkünften (§ 22 Nr. 3 S. 1 EStG).\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#kopfsache"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Morgen geht es los – und du bist bereit",
-      "coverBadge": "Vorabend",
-      "coverBildAuslassen": true,
       "quellen": [
-        "Examenskalender"
+        "§ 21 Abs. 3 EStG",
+        "§ 15 Abs. 1 S. 1 Nr. 1, 2 EStG",
+        "H 15.7 Abs. 4 EStH",
+        "§ 22 Nr. 3 S. 1 EStG"
       ],
       "slug": "2026-10-05-b3",
+      "kurztitel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Miete ist immer § 21?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Betriebsaufspaltung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Sonderbetrieb"
+        },
+        {
+          "art": "schritt",
+          "titel": "Einzelne Sache"
+        }
+      ],
+      "sprecher": [
+        "Miete ist immer Vermietung und Verpachtung? Falsch. Paragraf einundzwanzig greift nur, wenn keine andere Einkunftsart passt.",
+        "Nora verpachtet ihre Halle an die eigene GmbH und beherrscht beide. Das ist eine Betriebsaufspaltung, die Pacht ist gewerblich.",
+        "Vermietet ein Kommanditist sein Büro an seine KG, wird die Miete zur Sondervergütung.",
+        "Und wer nur ein einzelnes Wohnmobil vermietet, hat sonstige Einkünfte.",
+        "Merke: Erst Betrieb prüfen, dann Vermietung."
+      ],
+      "dauerS": 34.085,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
@@ -382,29 +307,25 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-13",
-      "quellen": [
-        "§ 8b Abs. 2 KStG",
-        "§ 8b Abs. 3 S. 1 KStG",
-        "Themenpool: kst-quiz-kst-13"
+      "themaId": "kst-quiz-kst-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Wer ist noch nicht",
+        "die spätere GmbH?",
+        "Vorgründungsgesellschaft",
+        "Vorgesellschaft nach dem Notartermin",
+        "Eingetragene GmbH",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
-      "titel": "Eine GmbH verkauft eine GmbH-Beteiligung mit 103.000 € Gewinn und hat sonst keine Einkünfte. Wie hoch ist ihr zvE?",
-      "optionen": [
-        "0 €",
-        "5.150 €",
-        "103.000 €"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
@@ -412,55 +333,51 @@
       "fach": "kst",
       "klausur": 2,
       "fachLabel": "Körperschaftsteuer",
-      "pairId": "kst-quiz-kst-13",
-      "quellen": [
-        "§ 8b Abs. 2 KStG",
-        "§ 8b Abs. 3 S. 1 KStG",
-        "Themenpool: kst-quiz-kst-13"
+      "themaId": "kst-quiz-kst-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "A: die Vorgründungs-",
+        "gesellschaft",
+        "Vorgründungsgesellschaft",
+        "Vorgesellschaft nach dem Notartermin",
+        "Eingetragene GmbH",
+        "Sie endet mit dem Notarvertrag. Erst die Vorgesellschaft gehört steuerlich zur GmbH.",
+        "H 1.1 KStH"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "5.150 €",
-      "optionen": [
-        "0 €",
-        "5.150 €",
-        "103.000 €"
-      ],
-      "richtig": 1,
-      "text": "Der Veräußerungsgewinn ist nach § 8b Abs. 2 KStG steuerfrei, 5 % davon gelten aber als nichtabziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG): 5 % von 103.000 € = 5.150 €.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-07",
-      "quellen": [
-        "§ 2 Nr. 1 KStG",
-        "§ 49 EStG",
-        "§ 8 Abs. 1 KStG",
-        "Themenpool: istr-modul-istr-istr1-07"
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-karte-k3-20",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "SBV I",
+        "oder II?",
+        "R 4.2 Abs. 2 EStR",
+        "SBV I dient dem Betrieb, etwa ein vermietetes Grundstück.",
+        "SBV II stützt die Beteiligung, etwa ein Kredit für den Anteil."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 2 Nr. 1 KStG",
-      "titel": "Beschränkte Körperschaftsteuerpflicht mit Inlandseinkünften",
-      "text": "Persönliche KSt-Pflicht der ausländischen Gesellschaft von der Prüfung der Inlandseinkünfte trennen. Welche Einkünfte inländisch sind, folgt über § 8 Abs. 1 KStG aus § 49 EStG: je Einkunftsquelle die passende Nummer.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
@@ -468,68 +385,78 @@
       "fach": null,
       "klausur": 0,
       "fachLabel": "Steuerberaterexamen",
-      "ueberzeile": "Noch",
-      "zahl": "1",
-      "titel": "Tag bis zum Examen",
-      "text": "Wiederholen, Klausurtechnik sichern, nichts Neues erzwingen.",
-      "fortschritt": 0,
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Countdown",
+        "NOCH",
+        "1",
+        "Tag",
+        "bis zum Examen",
+        "Tasche packen",
+        "Nichts Neues mehr",
+        "Früh schlafen"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "begriff",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-2",
-      "quellen": [
-        "§ 5 Abs. 6 EStG",
-        "Themenpool: bilanz-glossar-2"
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "USt-Fall:",
+        "die Reihenfolge",
+        "Steuerbar, steuerfrei, Option?",
+        "§§ 1, 4, 9 UStG",
+        "Bemessungsgrundlage und Steuersatz",
+        "§§ 10, 12 UStG",
+        "Wer schuldet, ab wann?",
+        "§§ 13, 13a, 13b UStG",
+        "Vorsteuer und Berichtigung",
+        "§§ 15, 15a, 17 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Begriff des Tages",
-      "titel": "Bewertungsvorbehalt",
-      "text": "Steuerliche Bewertungsvorschriften gehen der Maßgeblichkeit vor.",
-      "norm": "§ 5 Abs. 6 EStG",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
       "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz",
-      "text": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Morgen geht's los",
+        "Abendritual + Tipp für Tag 1 · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -537,68 +464,82 @@
       "fach": "ao",
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Außenprüfung hemmt die Verjährung – aber nur bei…",
-      "text": "Außenprüfung hemmt die Verjährung – aber nur bei echtem Beginn",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Noch mit drei Tagen?",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Morgen geht es los – und du bist bereit",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Neu im Feed",
+        "Miete immer § 21?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-1",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Merksatz",
+        "vGA: zuerst",
+        "die Vorfrage",
+        "Wer hat den Vorteil?",
+        "Gesellschafter oder",
+        "Nahestehende: prüfen!",
+        "§ 8 Abs. 3 S. 2 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:29:30.114Z",
+    "erzeugtAm": "2026-10-03T04:19:57Z",
     "pfad": "vorproduktion/2026-10-05/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -610,5 +551,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
