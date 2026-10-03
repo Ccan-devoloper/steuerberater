@@ -706,7 +706,7 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Schlichter Änderungsantrag, Begründung kommt später? Reicht nicht. Was bis Fristende fehlt, ist verloren."
+     "text": "Schlichter Änderungsantrag, was genau du willst, sagst du später? Reicht nicht. Was bis Fristende fehlt, ist verloren."
     },
     {
      "id": "s1",
@@ -718,7 +718,7 @@
     },
     {
      "id": "s3",
-     "text": "Beim Einspruch darfst du dagegen später begründen und erweitern."
+     "text": "Beim Einspruch darfst du dagegen auch später noch erweitern."
     },
     {
      "id": "cta",
@@ -728,7 +728,7 @@
    "hook": {
     "zeilen": [
      "Antrag jetzt,",
-     "Gründe später?"
+     "Inhalt später?"
     ],
     "pille": "§ 172 Abs. 1 S. 1 Nr. 2a AO",
     "figur": "A/skeptisch",
@@ -828,16 +828,16 @@
      "elemente": [
       {
        "typ": "block",
-       "label": "Begründung",
+       "label": "Erweitern",
        "wert": "später möglich",
        "farbe": "GRUEN",
-       "wort": "begründen",
+       "wort": "erweitern",
        "zs": 88
       },
       {
        "typ": "norm",
        "text": "§ 367 Abs. 2 S. 1 AO",
-       "wort": "erweitern"
+       "wort": "dagegen"
       }
      ],
      "figur": {
@@ -863,7 +863,7 @@
     "cta_wort": "Einspruch",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Schlichter Änderungsantrag oder Einspruch? Die Frist rechnet für beide gleich, die Folgen sind verschieden. ⏰\n\n▸ Bekanntgabe bei Übermittlung im Inland per Post: am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO). Beispiel: Post am Mo 02.11.2026 → Fr 06.11.2026.\n▸ Einspruchsfrist: ein Monat nach Bekanntgabe (§ 355 Abs. 1 S. 1 AO) → So 06.12.2026, verschoben auf den nächsten Werktag (§ 108 Abs. 3 AO) → Mo 07.12.2026.\n▸ Schlichter Änderungsantrag: zugunsten des Steuerpflichtigen nur, soweit er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2a AO). Was bis dahin nicht konkret beantragt ist, bleibt bestandskräftig.\n▸ Einspruch: volle Überprüfung (§ 367 Abs. 2 S. 1 AO), Begründung und Erweiterung auch später möglich; unrichtige Bezeichnung schadet nicht (§ 357 Abs. 1 S. 3 AO).\n\nSpeichern für Klausur 1 📌",
+   "caption": "Schlichter Änderungsantrag oder Einspruch? Die Frist rechnet für beide gleich, die Folgen sind verschieden. ⏰\n\n▸ Bekanntgabe bei Übermittlung im Inland per Post: am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO). Beispiel: Post am Mo 02.11.2026 → Fr 06.11.2026.\n▸ Einspruchsfrist: ein Monat nach Bekanntgabe (§ 355 Abs. 1 S. 1 AO) → So 06.12.2026, verschoben auf den nächsten Werktag (§ 108 Abs. 3 AO) → Mo 07.12.2026.\n▸ Schlichter Änderungsantrag: zugunsten des Steuerpflichtigen nur, soweit er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2a AO). Was bis dahin nicht als genau bestimmte Änderung beantragt ist, bleibt bestandskräftig; nachreichen lassen sich nur Argumente und Nachweise im beantragten Rahmen (AEAO zu § 172 Nr. 2).\n▸ Einspruch: volle Überprüfung (§ 367 Abs. 2 S. 1 AO), Erweiterung auch nach Fristende möglich; unrichtige Bezeichnung schadet nicht (§ 357 Abs. 1 S. 3 AO).\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -876,7 +876,8 @@
     "§ 108 Abs. 3 AO",
     "§ 172 Abs. 1 S. 1 Nr. 2a AO",
     "§ 357 Abs. 1 S. 3 AO",
-    "§ 367 Abs. 2 S. 1 AO"
+    "§ 367 Abs. 2 S. 1 AO",
+    "AEAO zu § 172 Nr. 2"
    ]
   }
  ],
@@ -1081,7 +1082,7 @@
    "art": "teaser",
    "beitragSlot": "b3",
    "titel": [
-    "Antrag jetzt, Gründe später?"
+    "Antrag jetzt, Inhalt später?"
    ],
    "unter": "Neues Reel · im Profil"
   },
