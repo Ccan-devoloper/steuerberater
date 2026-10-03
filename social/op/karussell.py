@@ -73,8 +73,10 @@ class Karussell:
         if f.get("unter"):
             els.append(OT(f["unter"], X0 + 4, y, C, "ExtraBold", 56))
             if f.get("teaser"):
-                els.append(pille(f["teaser"], X0 + 4 + F("ExtraBold", 56).getlength(f["unter"]) + 28, y - 2, C,
-                                 fill=GELB, size=34, stil="ExtraBold", pad=(20, 9)))
+                tx = X0 + 4 + F("ExtraBold", 56).getlength(f["unter"]) + 28
+                ts = k.passt(f["teaser"], "ExtraBold", 34, 1020 - tx - 40, 26)
+                assert tx + F("ExtraBold", ts).getlength(f["teaser"]) + 40 <= 1020, f"{self.s['slot']}-{seite}: Cover-Teaser zu lang: {f['teaser']}"
+                els.append(pille(f["teaser"], tx, y - 2 + (34 - ts) // 2, C, fill=GELB, size=ts, stil="ExtraBold", pad=(20, 9)))
             y += 70
         m = f.get("motiv") or {}
         if m.get("typ") == "kalender":
@@ -115,7 +117,9 @@ class Karussell:
             yb = unten + max(40, (k.AKTIV.innen_unten - unten - 130) // 2)
             els.append(fl_block(48, yb, 984, 120, GELB, C, [(" ", "Bold", 10, INK)]))
             els.append(ficon("tabler", "highlight", 130, yb + 104, 80, C, fuell=WEISS))
-            els.append(OT(f["teaser"], 200, yb + 34, C, "ExtraBold", 44))
+            ts = k.passt(f["teaser"], "ExtraBold", 44, 1000 - 200, 32)
+            assert F("ExtraBold", ts).getlength(f["teaser"]) <= 800, f"{self.s['slot']}-{seite}: Teaser-Leiste zu lang: {f['teaser']}"
+            els.append(OT(f["teaser"], 200, yb + 60 - int(ts * 0.6), C, "ExtraBold", ts))
             n += k.worte(f["teaser"]) - 1
         self.speichern(els, seite, n)
 
@@ -244,7 +248,9 @@ class Karussell:
         for i, (t, ic, farbe) in enumerate(reihen):
             self.T(t)
             els.append(icon("tabler", ic, 100, unten + 86 + i * 104, 58, C))
-            els.append(pille(t, 150, unten + 54 + i * 104, C, fill=farbe, size=38))
+            ps = k.passt(t, "Bold", 38, 1020 - 150 - 60, 30)
+            assert 150 + F("Bold", ps).getlength(t) + 60 <= 1020, f"{self.s['slot']}-{seite}: Zeile zu lang: {t}"
+            els.append(pille(t, 150, unten + 54 + i * 104 + (38 - ps) // 2, C, fill=farbe, size=ps))
         n += k.worte(*[t for z in zeilen for t, _ in z], *[t for t, _, _ in reihen])
         self.speichern(els, seite, n)
 
