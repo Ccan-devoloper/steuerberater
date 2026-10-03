@@ -179,7 +179,7 @@
         {
           "art": "text",
           "titel": "Abgabenordnung",
-          "text": "nur Antrag · Umfang! · Einspruch: alles · Zulässigkeit · Dazu: § 367 Abs. 2 S. 2 AO · Verböserung nur nach Hinweis mit Gründen"
+          "text": "§ 171 AO Ablaufhemmung (Auszug) · nur Antrag · Umfang! · Einspruch: alles · Zulässigkeit · Dazu: § 367 Abs. 2 S. 2 AO · Verböserung nur nach Hinweis mit Gründen"
         }
       ]
     },
@@ -256,7 +256,7 @@
         {
           "art": "text",
           "titel": "Internationales Steuerrecht",
-          "text": "ein Jahr · Wechsel · ein Bescheid · Steuersatz · Dazu: § 50 Abs. 2 S. 2 Nr. 3 EStG · Abzugsteuern werden hier angerechnet"
+          "text": "§§ 2, 32b EStG (Auszug) · ein Jahr · Wechsel · ein Bescheid · Steuersatz · Dazu: § 50 Abs. 2 S. 2 Nr. 3 EStG · Abzugsteuern werden hier angerechnet"
         }
       ]
     },
@@ -539,7 +539,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:39:44Z",
+    "erzeugtAm": "2026-10-03T10:50:32Z",
     "pfad": "vorproduktion/2026-10-12/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
