@@ -46,6 +46,7 @@ export const FORMAT_QUELLEN = {
   minifall:       ["modul", "karteikarte"],
   vergleich:      ["modul", "karteikarte", "begriff"],
   klausurtechnik: ["modul", "formel"],
+  kurzvortrag:    ["modul"],
   wochenrueckblick: [],
   aktuell:        [],
 };
