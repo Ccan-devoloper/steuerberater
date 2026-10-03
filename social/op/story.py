@@ -75,7 +75,7 @@ class Stories:
         t, y = self.gross(s["frage"], OBEN + 200, 104, kk); els += t; y += 30
         for i, o in enumerate(s["optionen"]):
             e, y = self.option("ABC"[i], o, y); els += e; y += 22
-        hinweis = s.get("hinweis", "Deine Antwort? Auflösung in der nächsten Story"); self.T(hinweis)
+        hinweis = s.get("hinweis", "Auflösung in der nächsten Story"); self.T(hinweis)
         e, _ = absatz(hinweis, 64, y + 20, 520, C, size=44, stil="Bold", farbe=GRAUTEXT); els += e
         if s.get("figur"):
             els.append(k.nah(self.f(s["figur"], 790), 790, int(y + 80), 600))
@@ -147,7 +147,7 @@ class Stories:
             els.append(ficon(setn, nm, 790, UNTEN - 10, 260, C, fuell=FARBEN.get(s.get("iconFarbe"), GELB)))
         if s.get("figur"):
             hf = int(UNTEN - 10 - (y + 30))
-            if hf >= 260:
+            if hf >= 420:
                 els.append(k.peep(self.f(s["figur"], 330), 330, UNTEN - 10, hf))
         self.speichern(s, els, k.worte(*s["titel"], *[p[0] for p in s["punkte"]]) + sum(1 for p in s["punkte"] if len(p) > 2 and p[2]))
 

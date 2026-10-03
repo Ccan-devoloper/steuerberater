@@ -30,7 +30,17 @@ def _tts(text, vor, nach):
     return json.load(urllib.request.urlopen(req, timeout=180))
 
 
+def _trocken(text):
+    """Ohne API: Zeichenzeiten geschätzt (≈ 11,5 Zeichen/s wie Laura bei speed 1.2), nur zum Prüfen von Aufbau und Länge."""
+    zeichen, st, en, t = list(text), [], [], 0.0
+    for ch in zeichen:
+        st.append(t); t += 1 / 11.5; en.append(t)
+    return None, {"characters": zeichen, "character_start_times_seconds": st, "character_end_times_seconds": en}
+
+
 def _segment(text, vor, nach):
+    if os.environ.get("OP_TTS_TROCKEN"):
+        return _trocken(text)
     key = hashlib.sha1(json.dumps([VOICE, MODEL, SETT, text, vor, nach]).encode()).hexdigest()[:16]
     js, mp3 = os.path.join(CACHE, key + ".json"), os.path.join(CACHE, key + ".mp3")
     if not os.path.exists(js):
@@ -59,8 +69,11 @@ def vertonen(segmente, ziel_wav, pausen=None):
     for name, text, mp3, al in roh:
         st = [x / tempo for x in al["character_start_times_seconds"]]
         en = [x / tempo for x in al["character_end_times_seconds"]]
-        pcm = np.frombuffer(subprocess.run([FF, "-v", "error", "-i", mp3, "-af", f"atempo={tempo}", "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
-                                           capture_output=True, check=True).stdout, np.int16)
+        if mp3 is None:
+            pcm = np.zeros(int((en[-1] + 0.2) * SR), np.int16)
+        else:
+            pcm = np.frombuffer(subprocess.run([FF, "-v", "error", "-i", mp3, "-af", f"atempo={tempo}", "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
+                                               capture_output=True, check=True).stdout, np.int16)
         a0 = max(0.0, st[0] - 0.04); a1 = en[-1] + 0.12
         pcm = pcm[int(a0 * SR):int(a1 * SR)]
         woerter, cur, a, last = [], "", None, 0
@@ -76,6 +89,6 @@ def vertonen(segmente, ziel_wav, pausen=None):
         teile.append(pcm); t += dauer
         p = pausen.get(name, 0.25); teile.append(np.zeros(int(p * SR), np.int16)); t += p
     audio = np.concatenate(teile)
-    audio = (audio.astype(np.float32) * (0.89 * 32767 / max(1, np.abs(audio).max()))).astype(np.int16)
+    audio = (audio.astype(np.float32) * (0.89 * 32767 / max(1, np.abs(audio).max()))).astype(np.int16) if np.abs(audio).max() else audio
     w = wave.open(ziel_wav, "wb"); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes(audio.tobytes()); w.close()
     return dict(dauer=round(t, 3), tempo=tempo, segmente=segs)

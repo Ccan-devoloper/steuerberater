@@ -1,0 +1,1069 @@
+{
+ "datum": "2026-10-04",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Ertragsteuern",
+   "themaId": "wochenrueckblick-k2-2026-40",
+   "themaTitel": "Tag 2 kompakt: fünf Dauerbrenner der Woche",
+   "figuren": {
+    "A": {
+     "name": "Malik",
+     "kopf": "Short 5",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#7FD6D0",
+     "bueste": "Striped Tee"
+    },
+    "B": {
+     "name": "Greta",
+     "kopf": "Gray Bun",
+     "haut": "#F1C7A5",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 4",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Tag 2",
+      "kompakt"
+     ],
+     "unter": "5 Dauerbrenner",
+     "teaser": "+ Markier-Guide § 8 KStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "7",
+      "unter": "Mi · Tag 2"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Dauerbrenner",
+     "schritte": [
+      [
+       "Gewerbeertrag",
+       "§§ 7 bis 10a GewStG",
+       ""
+      ],
+      [
+       "Gewerbesteuer",
+       "§§ 11, 16 GewStG",
+       ""
+      ],
+      [
+       "Verdeckte Gewinnausschüttung",
+       "§ 8 Abs. 3 S. 2 KStG",
+       ""
+      ],
+      [
+       "Wegzug mit GmbH-Anteil",
+       "§ 6 AStG",
+       ""
+      ],
+      [
+       "Anrechnung ausländischer Steuer",
+       "§ 34c Abs. 1 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 8 KStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Gewerbeertrag",
+     "punkte": [
+      [
+       "Start ist der Gewinn nach Einkommen- oder Körperschaftsteuerrecht.",
+       "ok",
+       "Regular",
+       "§ 7 S. 1 GewStG"
+      ],
+      [
+       "Dann Hinzurechnungen dazu, Kürzungen ab.",
+       "ok",
+       "Regular",
+       "§§ 8, 9 GewStG"
+      ],
+      [
+       "Den Gewerbeverlust erst ganz am Ende abziehen.",
+       "warn",
+       "Bold",
+       "§ 10a GewStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Reihenfolge zählt!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Gewerbesteuer",
+     "punkte": [
+      [
+       "Gewerbeertrag auf volle 100 € abrunden.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 1 S. 3 GewStG"
+      ],
+      [
+       "24.500 € Freibetrag nur für natürliche Personen und Personengesellschaften.",
+       "warn",
+       "Regular",
+       "§ 11 Abs. 1 S. 3 Nr. 1 GewStG"
+      ],
+      [
+       "Mal 3,5 %, dann mal Hebesatz.",
+       "ok",
+       "Bold",
+       "§ 11 Abs. 2, § 16 Abs. 1 GewStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Und die GmbH?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Verdeckte Gewinnausschüttung",
+     "punkte": [
+      [
+       "Die GmbH verliert Vermögen oder verzichtet auf einen Zuwachs.",
+       "ok",
+       "Regular",
+       "R 8.5 Abs. 1 KStR"
+      ],
+      [
+       "Auslöser ist das Gesellschaftsverhältnis.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Folge: Das Einkommen der GmbH sinkt dadurch nicht.",
+       "nein",
+       "Bold",
+       "§ 8 Abs. 3 S. 2 KStG"
+      ]
+     ],
+     "figur": "B:skeptisch",
+     "x": 790,
+     "blase": "Wem nützt es?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Wegzug mit Anteil",
+     "punkte": [
+      [
+       "Wer GmbH-Anteile im Sinne des § 17 EStG hält und wegzieht, versteuert, als hätte er verkauft.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 1 AStG"
+      ],
+      [
+       "Voraussetzung: 7 der letzten 12 Jahre unbeschränkt steuerpflichtig.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 2 S. 1 AStG"
+      ],
+      [
+       "Auf Antrag sieben Jahresraten.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 4 S. 1 AStG"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Auch ohne Verkauf?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Anrechnung",
+     "punkte": [
+      [
+       "Ausländische Steuer wird auf die deutsche Einkommensteuer angerechnet.",
+       "ok",
+       "Regular",
+       "§ 34c Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Höchstens bis zu dem Teil, der auf die Einkünfte aus diesem Staat entfällt.",
+       "warn",
+       "Bold",
+       "§ 34c Abs. 1 S. 2 EStG"
+      ]
+     ],
+     "extra": [
+      "Grenze je Staat rechnen",
+      "GELB",
+      null
+     ],
+     "figur": "B:redet",
+     "x": 790,
+     "blase": "Pro Staat!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Mittwoch ist Tag 2",
+      "Ertragsteuern: ESt, KSt, GewSt, IStR",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ertrag",
+        "a"
+       ],
+       [
+        " vor Messbetrag,",
+        null
+       ]
+      ],
+      [
+       [
+        "vGA",
+        "b"
+       ],
+       [
+        " mindert nichts,",
+        null
+       ]
+      ],
+      [
+       [
+        "Wegzug",
+        "c"
+       ],
+       [
+        " wie Verkauf,",
+        null
+       ]
+      ],
+      [
+       [
+        "Anrechnung",
+        "d"
+       ],
+       [
+        " mit Grenze.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welcher Punkt wackelt noch?",
+     "teaser": "Weiterwischen: § 8 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8 KStG Ermittlung des Einkommens (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "Für die Ermittlung des Einkommens ist es ohne Bedeutung, ob das Einkommen verteilt wird. Auch",
+         null
+        ],
+        [
+         "verdeckte Gewinnausschüttungen",
+         "g1"
+        ],
+        [
+         "sowie Ausschüttungen jeder Art auf Genussrechte, mit denen das Recht auf Beteiligung am Gewinn und am Liquidationserlös der Kapitalgesellschaft verbunden ist,",
+         null
+        ],
+        [
+         "mindern das Einkommen nicht.",
+         "gr1"
+        ],
+        [
+         "Verdeckte Einlagen",
+         "b1"
+        ],
+        [
+         "erhöhen das Einkommen nicht.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "vGA",
+       "g1"
+      ],
+      [
+       "Rechtsfolge",
+       "gr1"
+      ],
+      [
+       "Gegenstück",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: R 8.5 KStR",
+      "Was eine vGA ist, steht in der Richtlinie"
+     ]
+    }
+   ],
+   "caption": "Tag 2 kompakt: fünf Dauerbrenner der Woche für die Ertragsteuer-Klausur.\n\n1. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n2. Gewerbesteuer: abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, 3,5 % Messzahl, Hebesatz (§ 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG).\n3. Verdeckte Gewinnausschüttung: Sie mindert das Einkommen der GmbH nicht (§ 8 Abs. 3 S. 2 KStG; Begriff R 8.5 Abs. 1 KStR).\n4. Wegzug mit Anteilen im Sinne des § 17 EStG: Besteuerung wie bei einer Veräußerung, wenn 7 der letzten 12 Jahre unbeschränkte Steuerpflicht bestand; auf Antrag sieben Jahresraten (§ 6 Abs. 1, 2, 4 AStG).\n5. Anrechnung ausländischer Steuer nur bis zur deutschen Steuer auf die Einkünfte aus diesem Staat (§ 34c Abs. 1 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#ertragsteuern"
+   ],
+   "quellen": [
+    "§§ 7, 8, 9, 10a GewStG",
+    "§ 11 Abs. 1 S. 3, Abs. 2 GewStG",
+    "§ 16 Abs. 1 GewStG",
+    "§ 8 Abs. 3 KStG",
+    "R 8.5 Abs. 1 KStR",
+    "§ 6 Abs. 1, 2, 4 AStG",
+    "§ 34c Abs. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "spickzettel",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-10-02",
+   "themaTitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
+   "figuren": {
+    "A": {
+     "name": "Ole",
+     "kopf": "Medium 2",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Hoodie"
+    },
+    "B": {
+     "name": "Amara",
+     "kopf": "Twists",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Verbindlichkeiten",
+      "bewerten"
+     ],
+     "norm": "§ 6 Abs. 1 Nr. 3 EStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Darlehen",
+        "Bold",
+        44
+       ],
+       [
+        "50.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Ansatz?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Handelsbilanz",
+       "§ 253 Abs. 1 S. 2 HGB",
+       "Erfüllungsbetrag"
+      ],
+      [
+       "Steuerbilanz",
+       "§ 6 Abs. 1 Nr. 3 EStG",
+       "Rückzahlungsbetrag, keine Abzinsung"
+      ],
+      [
+       "Disagio",
+       "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+       "steuerlich aktiv abgrenzen"
+      ],
+      [
+       "Teilwert",
+       "§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG",
+       "höher nur bei dauernder Erhöhung"
+      ]
+     ],
+     "teaser": "Am Ende: § 6 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Abzinsung ist Geschichte",
+     "punkte": [
+      [
+       "Früher wurden unverzinsliche Schulden steuerlich mit 5,5 % abgezinst.",
+       "nein",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3 EStG a. F."
+      ],
+      [
+       "Heute: Rückzahlungsbetrag ansetzen, für Wirtschaftsjahre, die nach dem 31.12.2022 enden.",
+       "ok",
+       "Bold",
+       "§ 52 Abs. 12 S. 2 EStG"
+      ],
+      [
+       "Auf Antrag auch für frühere Jahre.",
+       "warn",
+       "Regular",
+       "§ 52 Abs. 12 S. 3 EStG"
+      ]
+     ],
+     "figur": "B:staunt",
+     "x": 790,
+     "blase": "Alte Lösung?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Disagio: HGB oder Steuer?",
+     "links": {
+      "kopf": "Handelsbilanz",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Aktiver Posten möglich: Wahlrecht",
+        "§ 250 Abs. 3 HGB"
+       ],
+       [
+        "Schuld mit dem Erfüllungsbetrag",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Steuerbilanz",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Aktiver Posten Pflicht",
+        "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+       ],
+       [
+        "Über die Laufzeit auflösen",
+        null
+       ]
+      ]
+     },
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Wahlrecht oder Pflicht?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Beispiel: Auszahlung 48.000 €, Rückzahlung 50.000 €",
+      "Schuld 50.000 €, aktiver Posten 2.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Rückzahlungsbetrag",
+        "a"
+       ],
+       [
+        " ansetzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Disagio",
+        "b"
+       ],
+       [
+        " aktiv abgrenzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Teilwert",
+        "c"
+       ],
+       [
+        " nur bei Dauer.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hast du noch alte Abzinsung im Kopf?",
+     "teaser": "Weiterwischen: § 6 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 5, 6 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 6 (1) 3.",
+       [
+        [
+         "Verbindlichkeiten sind",
+         "g1"
+        ],
+        [
+         "unter sinngemäßer Anwendung der Vorschriften der Nummer 2",
+         "b1"
+        ],
+        [
+         "anzusetzen.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 5 (5)",
+       [
+        [
+         "Als Rechnungsabgrenzungsposten sind nur anzusetzen 1.",
+         null
+        ],
+        [
+         "auf der Aktivseite Ausgaben vor dem Abschlussstichtag,",
+         "gr1"
+        ],
+        [
+         "soweit sie Aufwand für eine bestimmte Zeit nach diesem Tag darstellen;",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Teilwert-Regeln gelten mit",
+       "b1"
+      ],
+      [
+       "hier landet das Disagio",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Neu: § 5 Abs. 5 S. 2 EStG",
+      "Kleinbeträge bis 800 € dürfen ohne Abgrenzung bleiben"
+     ]
+    }
+   ],
+   "caption": "Verbindlichkeiten bewerten – der Spickzettel für die Bilanzklausur.\n\nHandelsbilanz: Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\nSteuerbilanz: Rückzahlungsbetrag; Bewertung unter sinngemäßer Anwendung von Nr. 2 (§ 6 Abs. 1 Nr. 3 EStG).\nAbzinsung mit 5,5 % entfällt für Wirtschaftsjahre, die nach dem 31.12.2022 enden, auf Antrag auch für frühere (§ 52 Abs. 12 S. 2, 3 EStG).\nDisagio: in der Handelsbilanz Wahlrecht (§ 250 Abs. 3 HGB), steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), über die Laufzeit aufzulösen.\nHöherer Teilwert nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG).\n\nZum Schluss: §§ 5, 6 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 253 Abs. 1 S. 2 HGB",
+    "§ 250 Abs. 3 HGB",
+    "§ 6 Abs. 1 Nr. 3 EStG",
+    "§ 52 Abs. 12 S. 2, 3 EStG",
+    "§ 5 Abs. 5 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-12-1",
+   "themaTitel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+   "figuren": {
+    "A": {
+     "name": "Lena",
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#8B4A2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Außenprüfung auch bei dir als Angestellter? Bei Unternehmern immer möglich. Bei dir nur ausnahmsweise."
+    },
+    {
+     "id": "s1",
+     "text": "Gewerbetreibende, Land- und Forstwirte und alle in freien Berufen darf das Finanzamt ohne besonderen Anlass prüfen. Die Höhe des Gewinns spielt keine Rolle."
+    },
+    {
+     "id": "s2",
+     "text": "Bei allen anderen nur in Sonderfällen, etwa wenn sie Steuern für andere einbehalten oder eine Prüfung im Amt nicht ausreicht."
+    },
+    {
+     "id": "s3",
+     "text": "Und Achtung: Eine Nachschau ist keine Außenprüfung. Sie hemmt den Ablauf der Festsetzungsfrist nicht."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Unternehmer immer, Private nur ausnahmsweise."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Außenprüfung",
+     "auch bei dir?"
+    ],
+    "pille": "§ 193 AO",
+    "figur": "A/sorge",
+    "name": "Lena",
+    "icons": [
+     [
+      "tabler:building-bank",
+      "BLAU",
+      "Unternehmern"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Unternehmer",
+      "wert": "immer",
+      "farbe": "GRUEN",
+      "wort": "Unternehmern"
+     },
+     {
+      "label": "Privat",
+      "wert": "Ausnahme",
+      "farbe": "GELB",
+      "wort": "ausnahmsweise"
+     }
+    ],
+    "stempel": {
+     "text": "nur selten!",
+     "wort": "ausnahmsweise"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Immer prüfbar",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Gewerbe",
+       "wort": "Gewerbetreibende",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Land- und Forstwirtschaft",
+       "wort": "Land",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Freie Berufe",
+       "wort": "freien",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Anlass nötig?",
+       "wert": "Nein",
+       "farbe": "GRUEN",
+       "wort": "ohne",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 193 Abs. 1 AO",
+       "wort": "Gewinns"
+      }
+     ],
+     "icon": [
+      "tabler:briefcase",
+      "GELB",
+      "Gewerbetreibende"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Sonst nur ausnahmsweise",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Steuern für andere",
+       "unter": "z. B. Lohnsteuer einbehalten",
+       "wort": "einbehalten",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "text",
+       "text": "Amt reicht nicht",
+       "unter": "Prüfung vor Ort zweckmäßig",
+       "wort": "Amt",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 193 Abs. 2 AO",
+       "wort": "Sonderfällen"
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "allen"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Klausurfalle",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Nachschau",
+       "wert": "≠ Außenprüfung",
+       "farbe": "ROT",
+       "wort": "Nachschau",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "keine Ablaufhemmung",
+       "unter": "Festsetzungsfrist läuft weiter",
+       "wort": "hemmt",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "norm",
+       "text": "§ 171 Abs. 4 AO",
+       "wort": "Festsetzungsfrist"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "keine",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Außenprüfung:",
+     "Unternehmer immer,",
+     "Private nur",
+     "ausnahmsweise"
+    ],
+    "woerter": [
+     null,
+     "Unternehmer",
+     "Private",
+     "ausnahmsweise"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "ausnahmsweise",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Darf das Finanzamt auch bei Angestellten eine Außenprüfung machen? 🧾\n\n▸ Ohne besonderen Anlass zulässig bei Gewerbetreibenden, Land- und Forstwirten, freiberuflich Tätigen und Steuerpflichtigen im Sinne des § 147a AO (§ 193 Abs. 1 AO).\n▸ Bei anderen nur, soweit es um Steuern geht, die sie für andere einbehalten und abführen, wenn eine Prüfung an Amtsstelle nicht zweckmäßig ist, oder bei Verstößen gegen Mitwirkungspflichten nach § 12 StAbwG (§ 193 Abs. 2 Nr. 1–3 AO).\n▸ Nachschau und betriebsnahe Veranlagung sind keine Außenprüfung und hemmen den Ablauf der Festsetzungsfrist nicht (§ 171 Abs. 4 AO).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 193 Abs. 1, 2 AO",
+    "§ 147a AO",
+    "§ 171 Abs. 4 AO",
+    "§ 12 StAbwG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-0",
+   "frage": [
+    "Steuerbarer Umsatz:",
+    "Was gehört dazu?"
+   ],
+   "optionen": [
+    "Leistung, Unternehmer, Inland, Entgelt, Rahmen des Unternehmens",
+    "Lieferung mit Gewinnabsicht",
+    "Jede private Leistung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Mohawk",
+     "haut": "#C99470",
+     "oberteil": "#9AD48F",
+     "bueste": "Gym Shirt"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-0",
+   "titel": [
+    "A: alle fünf",
+    "Merkmale"
+   ],
+   "optionen": [
+    "Leistung, Unternehmer, Inland, Entgelt, Rahmen des Unternehmens",
+    "Lieferung mit Gewinnabsicht",
+    "Jede private Leistung"
+   ],
+   "richtig": 0,
+   "text": "Fehlt eines, ist der Umsatz nicht steuerbar.",
+   "norm": "§ 1 Abs. 1 Nr. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Mohawk",
+     "haut": "#C99470",
+     "oberteil": "#9AD48F",
+     "bueste": "Gym Shirt"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Tag 2 kompakt"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks1-gew-01",
+   "titel": [
+    "Wann ist es",
+    "gewerblich?"
+   ],
+   "norm": "§ 15 Abs. 2 EStG",
+   "punkte": [
+    [
+     "Selbständig, nachhaltig, mit Gewinnabsicht und am Markt.",
+     "ok",
+     "§ 15 Abs. 2 S. 1 EStG"
+    ],
+    [
+     "Nicht: Land- und Forstwirtschaft, freier Beruf, Vermögensverwaltung.",
+     "nein",
+     "R 15.7 Abs. 1 EStR"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 3",
+     "haut": "#E8B98F",
+     "oberteil": "#BFE3F5",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Verbindlichkeiten bewerten"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "countdown",
+   "klausur": 0,
+   "fachLabel": "Steuerberaterexamen",
+   "zahl": 2,
+   "titel": "bis zum Examen",
+   "punkte": [
+    "Schemata wiederholen",
+    "Gesetze griffbereit",
+    "Früh schlafen"
+   ],
+   "figuren": {
+    "C": {
+     "kopf": "Afro",
+     "haut": "#8D5A3B",
+     "oberteil": "#2E2E3A",
+     "jacke": "#F4A3B5"
+    }
+   },
+   "figur": "C/blazer"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-0",
+   "titel": [
+    "Bilanzfall:",
+    "die Reihenfolge"
+   ],
+   "punkte": [
+    [
+     "Ansatz: Wem gehört es, ist es Betriebsvermögen?",
+     "ok",
+     null
+    ],
+    [
+     "Bewertung: Maßstab, Kosten, Fortführung, Stichtag",
+     "ok",
+     null
+    ],
+    [
+     "Zum Schluss: Posten, Buchung, Gewinnauswirkung",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-numbers",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Bun",
+     "haut": "#F1C7A5",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Außenprüfung bei dir?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-13-5",
+   "titel": [
+    "Haftet der",
+    "Geschäftsführer?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Nur bei ",
+      null
+     ],
+     [
+      "Vorsatz",
+      "a"
+     ]
+    ],
+    [
+     [
+      "oder ",
+      null
+     ],
+     [
+      "grober",
+      "b"
+     ]
+    ],
+    [
+     [
+      "Fahrlässigkeit",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 69 S. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "No Hair 2",
+     "haut": "#B97A56",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

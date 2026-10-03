@@ -134,6 +134,12 @@ def karte_um(inhalt, y=128, pad=44, fill=WEISS):
     return [karte(48, y, 984, h, C, fill=fill)] + inhalt, y + h
 
 
+def passt(text, stil, size, breite, minimum=28):
+    """Schriftgröße, bei der text in breite passt (für einzeilige Blöcke)."""
+    while F(stil, size).getlength(text) > breite and size > minimum: size -= 2
+    return size
+
+
 def zeichen(z, x, y):
     if z == "ok": return haken_i(x, y, C, gr=22)
     if z == "nein": return kreuz_i(x, y, C, gr=22)
@@ -205,7 +211,7 @@ def gesetzesseite(x, y, w, kopf, absaetze_, size=34):
         for txt, mk in teile:
             for w_ in txt.split(" "):
                 if w_: woerter.append((w_, mk))
-        if nr: woerter.insert(0, (f"({nr})", None))
+        if nr: woerter.insert(0, ((f"({nr})" if isinstance(nr, int) else str(nr)), "__nr"))
         cur, cw = [], 0
         for w_, mk in woerter:
             ww = f.getlength(w_ + " ")
@@ -226,12 +232,12 @@ def gesetzesseite(x, y, w, kopf, absaetze_, size=34):
     pos = {}
     for yy, cur in zeilen:
         for cx, w_, mk in cur:
-            if mk:
+            if mk and mk != "__nr":
                 ww = f.getlength(w_)
                 md.rectangle((pad + cx - 4, yy + size * 0.12, pad + cx + ww + 6, yy + size * 1.08), fill=MARK[mk.rstrip("0123456789")])
                 pos.setdefault(mk, []).append((pad + cx, yy, pad + cx + ww, yy + size))
     im.alpha_composite(ml)
     for yy, cur in zeilen:
         for cx, w_, mk in cur:
-            d.text((pad + cx, yy), w_, font=fb if w_.startswith("(") and w_.endswith(")") else f, fill=INK)
+            d.text((pad + cx, yy), w_, font=fb if mk == "__nr" else f, fill=INK)
     return engine.El(im, x, y, C, "fade", 0.0, name="gesetz"), pos, h

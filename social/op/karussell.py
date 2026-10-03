@@ -131,7 +131,7 @@ class Karussell:
         if ex:
             txt, farbe, nm = (list(ex) + [None, None])[:3]
             self.T(txt, nm)
-            inhalt.append(fl_block(92, y + 4, 896, 96, FARBEN.get(farbe, GELB), C, [(txt, "ExtraBold", TEXT, INK)])); y += 110
+            inhalt.append(fl_block(92, y + 4, 896, 96, FARBEN.get(farbe, GELB), C, [(txt, "ExtraBold", k.passt(txt, "ExtraBold", TEXT, 860, 32), INK)])); y += 110
             if nm:
                 inhalt.append(OT(nm, 100, y + 2, C, "Bold", 30, farbe=GRAUTEXT)); y += 46
         if f.get("fundstellen"):
@@ -190,7 +190,7 @@ class Karussell:
         ex = f.get("extra")
         if ex:
             self.T(ex[0])
-            inhalt.append(fl_block(84, y + 6, 912, 110, FARBEN.get(ex[1], ROT), C, [(ex[0], "ExtraBold", 46, INK)])); y += 130
+            inhalt.append(fl_block(84, y + 6, 912, 110, FARBEN.get(ex[1], ROT), C, [(ex[0], "ExtraBold", k.passt(ex[0], "ExtraBold", 46, 870), INK)])); y += 130
         kk, unten = k.karte_um(inhalt); els += kk
         if f.get("figur"):
             self.figur_unten(els, f["figur"], f.get("x", 790), unten, f.get("blase"))
@@ -206,7 +206,7 @@ class Karussell:
         for i, seite_ in enumerate((f["links"], f["rechts"])):
             x = 84 + i * 466
             self.T(seite_["kopf"])
-            inhalt.append(fl_block(x, 280, 446, 96, FARBEN.get(seite_.get("farbe"), WEISS), C, [(seite_["kopf"], "ExtraBold", 42, INK)]))
+            inhalt.append(fl_block(x, 280, 446, 96, FARBEN.get(seite_.get("farbe"), WEISS), C, [(seite_["kopf"], "ExtraBold", k.passt(seite_["kopf"], "ExtraBold", 42, 410), INK)]))
             y = 400; n += k.worte(seite_["kopf"])
             for p in seite_["punkte"]:
                 t, nm = (list(p) + [None])[:2] if isinstance(p, (list, tuple)) else (p, None)
@@ -229,7 +229,7 @@ class Karussell:
         n = 0
         if f.get("oben"):
             t1, t2, farbe = f["oben"]; self.T(t1, t2)
-            els.append(fl_block(48, y0, 984, 190, FARBEN.get(farbe, GELB), C, [(t1, "ExtraBold", 46, INK), (t2, "Bold", 38, INK)]))
+            els.append(fl_block(48, y0, 984, 190, FARBEN.get(farbe, GELB), C, [(t1, "ExtraBold", k.passt(t1, "ExtraBold", 46, 940), INK), (t2, "Bold", k.passt(t2, "Bold", 38, 940), INK)]))
             y0 += 230; n += k.worte(t1, t2)
         inhalt = [titel("Merke", 540, y0 + 40, C, 80, anker="m", marker=PASTELL[self.k])]
         zeilen = [[(t, m or 0) for t, m in z] for z in f["zeilen"]]
@@ -280,7 +280,7 @@ class Karussell:
         yb = max(PY + h + 46, frei + 10)
         if f.get("randnotiz"):
             t1, t2 = f["randnotiz"]; self.T(t1, t2)
-            els.append(fl_block(56, yb, 968, 170, GELB, C, [(t1, "ExtraBold", 44, INK), (t2, "Bold", 38, INK)]))
+            els.append(fl_block(56, yb, 968, 170, GELB, C, [(t1, "ExtraBold", k.passt(t1, "ExtraBold", 44, 930), INK), (t2, "Bold", k.passt(t2, "Bold", 38, 930), INK)]))
         self.speichern(els, seite, 0, ausnahme=True)
 
     # ------------------------------------------------------------ Ablauf

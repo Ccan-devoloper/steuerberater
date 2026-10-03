@@ -80,21 +80,32 @@ class Reel:
                                     [(b["label"], "ExtraBold", 44, INK), (b["wert"], "ExtraBold", 66, INK)]),
                            self.wort(seg, b["wort"]), t_ende, "slideL" if i == 0 else "slideR")
         elif stil == "kippen":
-            pass
+            # Aussage steht ab Bild 0; zum Stempelwort wird die letzte Schlagzeilenzeile rot durchgestrichen
+            st = h.get("stempel") or {}
+            if st:
+                yl = 220 + (len(zeilen) - 1) * int(gs * 1.12) + int(gs * 0.55)
+                bl_ = max(F("ExtraBold", gs).getlength(z) for z in zeilen[-1:]) + 40
+                strich = Image.new("RGBA", (int(bl_) + 20, 28)); ImageDraw.Draw(strich).rounded_rectangle((0, 0, int(bl_) + 19, 27), 12, fill=(215, 60, 45, 255))
+                self.zeige(k.engine.El(strich, 30, yl, C, "slideL", 0.0, name="strich"), self.wort(seg, st["wort"]), t_ende, "slideL")
+            if h.get("richtig"):
+                self.T(h["richtig"]["text"])
+                self.zeige(k.zahlblock(90, yk, 900, 230, FARBEN.get(h["richtig"].get("farbe"), "GRUEN") if isinstance(FARBEN.get(h["richtig"].get("farbe")), tuple) else GRUEN,
+                                       h["richtig"].get("label", "Richtig"), h["richtig"]["text"], zs=h["richtig"].get("zs", 72), ls=44),
+                           self.wort(seg, h["richtig"]["wort"]), t_ende, "pop")
         if h.get("stempel"):
             st = h["stempel"]; self.T(st["text"])
             t0 = self.wort(seg, st["wort"])
             if stil == "knall":
                 self.zeige(kreuz_i(540, yk + 100, C, gr=200), t0, t_ende, "slam")
             else:
-                self.zeige(pille(st["text"], 797 if stil == "split" else 540, yk + (230 if stil == "split" else 60), C, fill=ROT, size=52, anker="m", pad=(28, 12)),
+                self.zeige(pille(st["text"], 797 if stil == "split" else 800, yk + (230 if stil == "split" else -70), C, fill=ROT, size=52, anker="m", pad=(28, 12)),
                            t0, t_ende, "punch")
             self.SFX.append(("stempel", t0, 1.6))
 
     def szene(self, sz, nr, t0, t1):
         seg = sz["seg"]
         self.T(sz["titel"])
-        self.zeige(titel(sz["titel"], 48, 200, C, 88, marker=PASTELL[self.k]), t0, t1, "rise")
+        self.zeige(k.titel_passend(sz["titel"], 48, 200, 88, rechts=900, marker=PASTELL[self.k]), t0, t1, "rise")
         self.zeige(pille(f"{nr}/{len(self.s['szenen'])}", W_ - 48, 216, C, fill=WEISS, size=34, anker="r", pad=(20, 8)), t0, t1, "cut")
         elemente = sz["elemente"]
         # Gruppen: ein Element mit neu=true beendet alle vorherigen und beginnt oben neu
@@ -108,31 +119,45 @@ class Reel:
                     if enden[j] == t1: enden[j] = zeiten[i]
             if e.get("bis"):
                 enden[i] = self.wort(seg, e["bis"])
-        y = 380
+        # Elemente bauen; jede Gruppe (bis zum nächsten neu=true) wird senkrecht in der freien Fläche zentriert
+        gruppen, aktuelle = [], []
+        y = 0
         for i, e in enumerate(elemente):
-            if e.get("neu"): y = 380
+            if e.get("neu") and aktuelle:
+                gruppen.append(aktuelle); aktuelle = []; y = 0
             typ = e["typ"]
             if typ == "zahl":
-                self.T(e["text"]); size = e.get("size", 120)
+                self.T(e["text"]); size = e.get("size", 130)
+                while F("ExtraBold", size).getlength(e["text"]) > 960: size -= 4
                 el = OT(e["text"], 540, y, C, "ExtraBold", size, anker="m"); anim = "pop"
             elif typ == "pille":
                 self.T(e["text"])
-                el = pille(e["text"], 540, y, C, fill=FARBEN.get(e.get("farbe"), WEISS), size=44, anker="m", pad=(26, 10)); anim = "pop"
+                size = k.passt(e["text"], "Bold", e.get("size", 60), 900)
+                el = pille(e["text"], 540, y, C, fill=FARBEN.get(e.get("farbe"), WEISS), size=size, anker="m", pad=(30, 14)); anim = "pop"
             elif typ == "block":
                 self.T(e["label"], e["wert"])
-                el = k.zahlblock(90, y, 900, e.get("h", 250), FARBEN.get(e.get("farbe"), GELB), e["label"], e["wert"],
-                                 zs=e.get("zs", 120), ls=e.get("ls", 48)); anim = e.get("anim", "punch")
+                el = k.zahlblock(90, y, 900, e.get("h", 270), FARBEN.get(e.get("farbe"), GELB), e["label"], e["wert"],
+                                 zs=e.get("zs", 120), ls=e.get("ls", 54)); anim = e.get("anim", "punch")
             elif typ == "text":
                 self.T(e["text"], e.get("unter"))
-                el = k.zahlblock(90, y, 900, e.get("h", 230), FARBEN.get(e.get("farbe"), WEISS), e["text"], e.get("unter", ""),
-                                 zs=e.get("zs", 44), ls=e.get("ls", 72)); anim = e.get("anim", "pop")
+                ls = k.passt(e["text"], "Bold", e.get("ls", 76), 850)
+                el = k.zahlblock(90, y, 900, e.get("h", 250 if e.get("unter") else 170), FARBEN.get(e.get("farbe"), WEISS), e["text"], e.get("unter", ""),
+                                 zs=e.get("zs", 48), ls=ls); anim = e.get("anim", "pop")
             elif typ == "norm":
                 self.T(e["text"])
-                el = OT(e["text"], 540, y, C, "Bold", 44, farbe=NORMFARBE, anker="m"); anim = "rise"
+                el = OT(e["text"], 540, y, C, "Bold", 48, farbe=NORMFARBE, anker="m"); anim = "rise"
             else:
                 raise ValueError(f"Unbekanntes Reel-Element {typ}")
-            self.zeige(el, zeiten[i], enden[i], anim)
-            y = el.y + el.sprite.height + e.get("abstand", 40)
+            aktuelle.append((el, zeiten[i], enden[i], anim))
+            y = el.y + el.sprite.height + e.get("abstand", 46)
+        if aktuelle: gruppen.append(aktuelle)
+        unten_frei = BODEN - (240 if (sz.get("icon") or sz.get("figur")) else 60)
+        for g in gruppen:
+            top = min(el.y for el, *_ in g); bot = max(el.y + el.sprite.height for el, *_ in g)
+            dy = int(max(330, 330 + (unten_frei - 330 - (bot - top)) / 2) - top)
+            for el, t0_, t1_, anim in g:
+                el.y += dy
+                self.zeige(el, t0_, t1_, anim)
         if sz.get("icon"):
             setn, nm = sz["icon"][0].split(":")
             ti = self.wort(seg, sz["icon"][2]) if len(sz["icon"]) > 2 and sz["icon"][2] else t0
@@ -280,5 +305,9 @@ class Reel:
         cover = os.path.join(self.out, f"{self.datum}-{self.s['slot']}-cover.jpg")
         self.bild(cover_t).save(cover, quality=92)
         os.remove(wav); os.remove(ton)
+        if os.environ.get("OP_TTS_TROCKEN"):
+            os.remove(video)
+            video = os.path.join(self.out, f"{self.datum}-{self.s['slot']}.trocken")
+            open(video, "w").write("Trockenlauf ohne Stimme\n")
         k.KARUSSELL.aktiv()
         return [video, cover]

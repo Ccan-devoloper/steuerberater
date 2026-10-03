@@ -52,6 +52,7 @@ def main():
     ap.add_argument("--nur", default="")
     ap.add_argument("--ohne-reel", action="store_true")
     ap.add_argument("--pruefen-nur", action="store_true")
+    ap.add_argument("--reel-bilder", default="", help="nur Standbilder des Reels zu diesen Zeiten (Sekunden, Komma-getrennt)")
     a = ap.parse_args()
     spec = lade(a.datum)
     datum = spec["datum"]
@@ -64,9 +65,24 @@ def main():
         bes = Besetzung(b.get("figuren"))
         out = os.path.join(arbeit, b["slot"])
         if b["format"] == "reel":
-            if a.ohne_reel or a.pruefen_nur: continue
+            if a.ohne_reel: continue
             from reel import Reel
+            if a.pruefen_nur:
+                os.environ["OP_TTS_TROCKEN"] = "1"
             r = Reel(b, bes, out, datum)
+            if a.reel_bilder:
+                r.rendern(nur_bilder=[float(x) for x in a.reel_bilder.split(",")])
+                print("Reel-Standbilder:", out)
+                texte[f"{datum}-{b['slot']}-reel"] = r.texte + [x["text"] for x in b["sprecher"]]
+                continue
+            if a.pruefen_nur:
+                # Trockenlauf: geschätzte Wortzeiten, Standbilder je Szene statt Video (prüft Aufbau, Wortmarken, Länge)
+                r.rendern(nur_bilder=[0.5, 6.0, 12.0, 20.0, 28.0, 36.0, 42.0])
+                print(f"Reel {b['slot']}: geschätzt {r.Z['dauer']:.1f} s · Standbilder unter {out}")
+                os.rename(os.path.join(out, "_t006.0.jpg"), os.path.join(out, f"{datum}-{b['slot']}-cover.jpg"))
+                covers[b["slot"]] = os.path.join(out, f"{datum}-{b['slot']}-cover.jpg")
+                texte[f"{datum}-{b['slot']}-reel"] = r.texte + [x["text"] for x in b["sprecher"]]
+                continue
             dateien = r.rendern()
             texte[f"{datum}-{b['slot']}-reel"] = r.texte + [x["text"] for x in b["sprecher"]]
             covers[b["slot"]] = dateien[1]
@@ -86,6 +102,12 @@ def main():
                 fertig = os.path.join(a.ziel, "vorproduktion", datum, "fertig", b["slot"])
                 c = sorted(glob.glob(os.path.join(fertig, "*-cover.jpg" if b["format"] == "reel" else "*-01.jpg")))
                 if c: covers[b["slot"]] = c[0]
+        bmap = {b["slot"]: b for b in spec["beitraege"]}
+        for s_ in spec["stories"]:
+            if s_["art"] == "teaser" and s_.get("beitragSlot") in bmap:
+                b_ = bmap[s_["beitragSlot"]]
+                s_.setdefault("klausur", b_["klausur"]); s_.setdefault("fachLabel", b_.get("fachLabel", "Steuerberaterexamen"))
+                s_.setdefault("fach", b_.get("fach"))
         bes = Besetzung({r: f for s in spec["stories"] for r, f in (s.get("figuren") or {}).items()})
         st = Stories(spec["stories"], bes, os.path.join(arbeit, "stories"), datum, covers)
         st.rendern()
