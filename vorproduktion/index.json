@@ -634,10 +634,11 @@
       "providerKostenUsd": 0,
       "liveVorrangAktiv": true,
       "normalbetriebGesperrt": true,
-      "bilderStatus": "icon-statt-providerbild",
+      "bilderStatus": "open-peeps-render",
       "renderStatus": "fertig",
-      "renderErzeugtAm": "2026-10-02T13:00:29.807Z",
-      "coverIcons": true
+      "renderErzeugtAm": "2026-10-03T04:46:35Z",
+      "coverIcons": false,
+      "renderer": "open-peeps-v4"
     },
     {
       "datum": "2026-10-26",
@@ -700,7 +701,7 @@
       "coverIcons": true
     }
   ],
-  "stand": "2026-10-03T04:45:40Z",
+  "stand": "2026-10-03T04:46:35Z",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {

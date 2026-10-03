@@ -4,38 +4,33 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "istr-modul-istr-istr4-01",
-        "themaTitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
-        "fach": "istr",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-k2-2026-43",
+        "themaTitel": "Klausur 2: fünf Themen der Woche 43",
+        "fach": "kst",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-aufb-bil-melzer-4-02",
-        "themaTitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+        "format": "pruefungsfrage",
+        "themaId": "bilanz-aufb-bil-melzer-11-02",
+        "themaTitel": "Rücklage für Ersatzbeschaffung: Wann greift R 6.6 EStR?",
         "fach": "bilanz",
         "klausur": 3
       },
@@ -43,594 +38,482 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ust-aufb-ust-m-b12-8",
-        "themaTitel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
-        "fach": "ust",
-        "klausur": 1,
-        "lang": true
+        "themaId": "ao-modul-ao-305",
+        "themaTitel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+        "fach": "ao",
+        "klausur": 1
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:23",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-10"
+        "themaId": "ust-quiz-ust-2"
       },
       {
         "slot": "s5",
-        "zeit": "07:23",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-10"
+        "themaId": "ust-quiz-ust-2"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:50",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "persg-modul-persg-3"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:34",
-        "art": "tipp",
-        "themaId": "erbst-modul-erbst-502"
+        "themaId": "istr-aufb-istr-gh-4-17"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:45",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "persg-aufb-persg-melzer-4-6"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:10",
-        "art": "tipp",
-        "themaId": "persg-modul-persg-7"
+        "themaId": "bilanz-karte-k3-15"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-306"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "istr",
+      "format": "wochenrueckblick",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr4-01",
-      "slug": "2026-10-25-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Zuerst die unbeschränkte Steuerpflicht nach § 1 Abs. 1 S. 1 EStG und damit das Welteinkommensprinzip feststellen; erst danach kommt die Hinzurechnungsbesteuerung ins Spiel.",
-            "§ 7 AStG ist ein eigener Prüfpunkt neben DBA, Anrechnung nach § 34c EStG und § 2a EStG. Ein DBA sperrt die Hinzurechnung nicht (§ 20 Abs. 1 AStG)."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Unbeschränkte Steuerpflicht klären: Hat die Person in Deutschland Wohnsitz oder gewöhnlichen Aufenthalt (§ 1 Abs. 1 S. 1 EStG, §§ 8, 9 AO)?"
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Folge: Besteuerung des Welteinkommens (§ 2 Abs. 1 EStG); Auslandseinkünfte danach an DBA oder § 34c EStG messen."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Ausländische Gesellschaft dazwischen? Dann §§ 7 ff. AStG: Beherrschung über 50 %, Einkünfte außerhalb des Aktivkatalogs (§ 8 Abs. 1 AStG), Belastung unter 15 % (§ 8 Abs. 5 AStG)."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "§ 7 AStG setzt die bejahte unbeschränkte Steuerpflicht voraus und rechnet dir dann die niedrig besteuerten passiven Einkünfte der beherrschten Auslandsgesellschaft anteilig zu – ein DBA hält das nicht auf."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Thema für die nächste Wiederholung speichern"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "Grundschema im Internationalen Steuerrecht: erst die unbeschränkte Steuerpflicht, dann das Welteinkommen und seine Begrenzung durch DBA oder Anrechnung. § 7 AStG prüfst du, wenn eine ausländische Gesellschaft dazwischen steht.",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "wochenrueckblick-k2-2026-43",
+      "caption": "Wochenrückblick Klausur 2: fünf Themen der Woche 43.\n\n1. Gesellschafterdarlehen: Ausfall als nachträgliche Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst (§ 17 Abs. 2a S. 3 Nr. 2 EStG); beim Stehenlassen zählt nur der Wert bei Kriseneintritt (BFH vom 18.07.2023, IX R 21/21).\n2. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR), beim beherrschenden Gesellschafter auch ohne klare Vorabvereinbarung (R 8.5 Abs. 2 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n3. Betriebsstätte: Bauausführung nach § 12 S. 2 Nr. 8 AO ab mehr als sechs Monaten, nach Art. 5 Abs. 3 OECD-MA erst ab mehr als zwölf Monaten.\n4. Verlustuntergang: Mehr als 50 % an einen Erwerber innerhalb von fünf Jahren, dann sind nicht genutzte Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG), außer soweit stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 KStG).\n5. Private Veräußerung: Grundstücke innerhalb von zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 1 S. 1 EStG",
-        "§ 8 AO",
-        "§ 9 AO",
-        "§ 2 Abs. 1 EStG",
-        "§ 7 AStG",
-        "§ 8 Abs. 1 AStG",
-        "§ 8 Abs. 5 AStG",
-        "§ 20 Abs. 1 AStG",
-        "§ 34c EStG",
-        "§ 32d Abs. 5 EStG",
-        "§ 2a EStG",
-        "§ 1a EStG",
-        "Themenpool: istr-modul-istr-istr4-01"
+        "§ 17 Abs. 2a S. 3 Nr. 2 EStG",
+        "BFH vom 18.07.2023, IX R 21/21",
+        "§ 8 Abs. 3 S. 2 KStG",
+        "R 8.5 Abs. 1, 2 KStR",
+        "§ 12 S. 2 Nr. 8 AO",
+        "Art. 5 Abs. 3 OECD-MA",
+        "§ 8c Abs. 1 S. 1, 5 KStG",
+        "§ 8d KStG",
+        "§ 23 Abs. 1 S. 1 Nr. 1, Abs. 3 S. 4 EStG"
       ],
-      "coverRegie": {
-        "thema": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-25-b1-istr-modul-istr-istr4-01-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-25-b1",
+      "kurztitel": "Klausur 2: fünf Themen der Woche 43",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-aufb-bil-melzer-4-02",
-      "slug": "2026-10-25-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
       "folien": [
         {
           "art": "titel",
-          "titel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Klausur 2: · fünf Themen · der Woche · + Markier-Guide § 8c KStG · OKTOBER · 25 · So · KW 43",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Entnahmen (§ 4 Abs. 1 S. 2 EStG) gehen grundsätzlich zum Teilwert aus dem Betrieb (§ 6 Abs. 1 Nr. 4 EStG); Nutzungsentnahmen setzt du mit den anteiligen tatsächlichen Kosten an.",
-            "Einlagen setzt du zum Teilwert an (§ 6 Abs. 1 Nr. 5 EStG). Gedeckelt auf die Anschaffungs- oder Herstellungskosten wird bei Wirtschaftsgütern, die binnen drei Jahren vor der Einlage angeschafft oder hergestellt wurden, sowie bei Beteiligungen nach § 17 EStG und Wirtschaftsgütern nach § 20 Abs. 2 EStG."
-          ]
+          "titel": "Körperschaftsteuer",
+          "text": "Die 5 Themen · Gesellschafterdarlehen · § 17 Abs. 2a EStG · Verdeckte Gewinnausschüttung · § 8 Abs. 3 S. 2 KStG · Betriebsstätte · § 12 AO, Art. 5 OECD-MA · Verlustuntergang · § 8c KStG · Private Veräußerung · § 23 EStG · Am Ende: § 8c KStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Feststellen, ob eine Überführung zwischen Betriebs- und Privatvermögen durch Handlung oder schlüssiges Verhalten stattgefunden hat."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Bewerten: Entnahmen zum Teilwert, sodass die stillen Reserven Gewinn werden; Einlagen zum Teilwert, bei jungen Wirtschaftsgütern und Beteiligungen gedeckelt auf die Anschaffungs- oder Herstellungskosten."
-            }
-          ]
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "1 · Darlehen weg · Der Ausfall erhöht die Anschaffungskosten, soweit gesellschaftsrechtlich veranlasst. · § 17 Abs. 2a S. 3 Nr. 2 EStG · Stehen gelassen: nur der Wert bei Krisenbeginn. · BFH vom 18.07.2023, IX R 21/21 · Fremdvergleich!"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Entnahme und Einlage laufen grundsätzlich zum Teilwert. Die Kappung auf die Anschaffungskosten verhindert, dass kurz zuvor privat entstandene Wertsteigerungen im Betrieb steuerfrei bleiben."
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "2 · vGA · Vermögensminderung, veranlasst durch das Gesellschaftsverhältnis. · R 8.5 Abs. 1 S. 1 KStR · Beherrschend: Ohne klare Vorabvereinbarung droht die vGA. · R 8.5 Abs. 2 S. 1 KStR · Korrektur außerhalb der Bilanz. · § 8 Abs. 3 S. 2 KStG · Und beim Gesellschafter?"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "3 · Betriebsstätte · AO: Bauausführung ab mehr als sechs Monaten. · § 12 S. 2 Nr. 8 AO · OECD-MA: erst ab mehr als zwölf Monaten. · Art. 5 Abs. 3 OECD-MA · Doppelt so lang!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "4 · Verlust weg · Mehr als 50 % an einen Erwerber binnen fünf Jahren: Verlust entfällt ganz. · § 8c Abs. 1 S. 1 KStG · Soweit stille Reserven da sind, bleibt er. · § 8c Abs. 1 S. 5 KStG · Und bei 40 %?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "5 · Private Veräußerung · Grundstück binnen zehn Jahren verkauft: steuerbar. · § 23 Abs. 1 S. 1 Nr. 1 EStG · Abgezogene AfA mindert die Anschaffungskosten. · § 23 Abs. 3 S. 4 EStG · AfA kommt zurück?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Woche 43 in Klausur 2 · ESt, KSt und IStR in fünf Themen · Darlehen mit Krisenwert, · vGA außerhalb, · Bau: 6 oder 12 Monate, · 50 % plus Reserven. · Speichern für Klausur 2 · Welches Thema wackelt noch? · Weiterwischen: § 8c KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Schwelle · ein Erwerber · Alles weg · Rettung · Daneben: § 8d KStG · Fortführungsgebundener Verlustvortrag auf Antrag"
         }
-      ],
-      "caption": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt? Entnahmen gehen grundsätzlich zum Teilwert aus dem Betrieb (§ 6 Abs. 1 Nr. 4 EStG), Nutzungen mit den anteiligen Kosten. Einlagen kommen zum Teilwert hinein (§ 6 Abs. 1 Nr. 5 EStG), bei jungen Wirtschaftsgütern und Beteiligungen höchstens mit den Anschaffungskosten.",
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-aufb-bil-melzer-11-02",
+      "caption": "Lagerhalle abgebrannt, Versicherung zahlt mehr als den Buchwert: Muss der Gewinn sofort versteuert werden? Die Klausurfrage zur Rücklage für Ersatzbeschaffung.\n\n▸ Voraussetzungen: Ausscheiden infolge höherer Gewalt (z. B. Brand) oder eines behördlichen Eingriffs gegen Entschädigung, funktionsgleiches Ersatzwirtschaftsgut innerhalb der Frist, Aufnahme in ein laufend zu führendes Verzeichnis wegen der Abweichung von der Handelsbilanz (R 6.6 Abs. 1 S. 2 Nr. 1–3, Abs. 2 EStR; § 5 Abs. 1 S. 2 EStG).\n▸ Ist der Ersatz am Schluss des Wirtschaftsjahres noch nicht beschafft, aber ernstlich geplant, kann eine steuerfreie Rücklage in Höhe der aufgedeckten stillen Reserven gebildet werden; Nachholen in einem späteren Jahr ist nicht zulässig (R 6.6 Abs. 4 S. 1, 2 EStR). Für die Aufzeichnungspflicht reicht der Ansatz in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR).\n▸ Frist: bewegliche Wirtschaftsgüter ein Jahr, Wirtschaftsgüter im Sinne des § 6b Abs. 1 S. 1 EStG vier Jahre, neu hergestellte Gebäude sechs Jahre (R 6.6 Abs. 4 S. 3, 4 EStR).\n▸ Bei Ersatzbeschaffung wird die Rücklage auf die Anschaffungs- oder Herstellungskosten übertragen (R 6.6 Abs. 4 S. 8 EStR).\n\nIm Beispiel: 300.000 € – 120.000 € = 180.000 € Rücklage 2026; 2027 Herstellungskosten 400.000 € – 180.000 € = 220.000 €, AfA 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG) = 6.600 € im vollen Jahr.\n\nZum Schluss: § 5 Abs. 1 EStG und R 6.6 Abs. 4 EStR zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 4 Abs. 1 EStG",
-        "§ 6 Abs. 1 Nr. 4 EStG",
-        "§ 6 Abs. 1 Nr. 5 EStG",
-        "§ 7 EStG",
-        "§ 17 Abs. 2 EStG",
-        "§ 20 Abs. 2 EStG",
-        "§ 4 EStG",
-        "§ 10 Abs. 4 UStG",
-        "Themenpool: bilanz-aufb-bil-melzer-4-02"
+        "R 6.6 Abs. 1, 2, 4 EStR",
+        "§ 5 Abs. 1 S. 2 EStG",
+        "§ 6b Abs. 1 S. 1 EStG",
+        "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-25-b2-bilanz-aufb-bil-melzer-4-02-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-25-b2",
+      "kurztitel": "Rücklage für Ersatzbeschaffung: Wann greift R 6.6 EStR?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Halle brennt: · Gewinn sofort? · R 6.6 EStR · Der Klausurfall · + Markier-Guide § 5 EStG · Versicherung · 300.000 € · Buchwert 120.000 €",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Fall · Vesnas Lagerhalle brennt im November 2026 ab, Buchwert 120.000 €. · Die Versicherung zahlt 300.000 €. · Eine neue Halle soll 2027 gebaut werden. · 180.000 € Gewinn?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Jetzt du · Muss Vesna die 180.000 € für 2026 versteuern? · Was passiert 2027 mit dem Betrag? · Erst überlegen, dann weiterwischen · Muss das sein?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Die Voraussetzungen · Ausscheiden durch höhere Gewalt wie Brand, gegen Entschädigung. · R 6.6 Abs. 1 S. 2 Nr. 1, Abs. 2 EStR · Funktionsgleicher Ersatz innerhalb der Frist. · R 6.6 Abs. 1 S. 2 Nr. 2 EStR · Abweichung von der Handelsbilanz im Verzeichnis. · § 5 Abs. 1 S. 2 EStG · Brand zählt?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung 2026: Rücklage · R 6.6 Abs. 4 S. 1 EStR · Entschädigung · 300.000 € · – Buchwert · – 120.000 € · = aufgedeckte Reserven · 180.000 € · = Rücklage · 180.000 € · Gewinnauswirkung 2026: 0 €"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Fristen und Timing · Bewegliche Wirtschaftsgüter: ein Jahr. · R 6.6 Abs. 4 S. 3 EStR · Gebäude: vier Jahre, neu hergestellt sechs Jahre. · R 6.6 Abs. 4 S. 4 EStR · Im Brandjahr vergessen? Nachholen geht nicht. · R 6.6 Abs. 4 S. 2 EStR · Gleich 2026 bilden!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung 2027: übertragen · R 6.6 Abs. 4 S. 8 EStR · § 7 Abs. 4 S. 1 Nr. 1 EStG · HK neue Halle · 400.000 € · – übertragene Rücklage · – 180.000 € · = AfA-Basis · 220.000 € · AfA 3 % im vollen Jahr · 6.600 € · AfA nur von 220.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Lösung: 2026 kein Gewinn, Rücklage 180.000 € · 2027 Übertragung auf die neue Halle · Höhere Gewalt prüfen, · Rücklage im Brandjahr, · Frist vier oder sechs, · übertragen auf Ersatz. · Speichern für Klausur 3 · Hättest du 2026 versteuert? · Weiterwischen: § 5 EStG und R 6.6"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Rücklage = Wahlrecht · Abweichung HB · Verzeichnis · Bei der Rücklage reicht der Ansatz · in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR)"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Rücklage · Plan nötig · Brandjahr! · Neubau · Richtlinien nur für die Klausur · In der mündlichen Prüfung liegen sie nicht aus"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "themaId": "ust-aufb-ust-m-b12-8",
-      "slug": "2026-10-25-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
-          "unter": "Umsatzsteuer",
-          "text": "Vorsteuer voll gezogen, später steuerfrei vermietet oder verkauft: Musst du berichtigen?",
-          "norm": "§ 15a Abs. 1 UStG",
-          "icon": null,
-          "sprecher": "Du hast die Vorsteuer voll gezogen, und Jahre später nutzt du das Objekt anders. Wann ändern sich die Verhältnisse nach § 15a UStG, und was folgt daraus?",
-          "marken": [
-            "Abzug gegen spätere Verwendung",
-            "§ 15a UStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Start: ursprünglicher Vorsteuerabzug",
-          "text": null,
-          "norm": "§ 15 Abs. 2 und 3 UStG",
-          "icon": null,
-          "sprecher": "Schritt 1: Halte fest, in welchem Umfang du nach § 15 UStG Vorsteuer ziehen durftest. Maßgeblich war die Verwendungsabsicht beim Leistungsbezug, also steuerpflichtige oder steuerfreie Ausgangsumsätze.",
-          "marken": [
-            "Ursprünglicher Vorsteuerabzug",
-            "Verwendungsabsicht zählt"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Abweichende Verwendung im Berichtigungszeitraum",
-          "text": null,
-          "norm": "§ 15a Abs. 1, 8 und 9 UStG",
-          "icon": null,
-          "sprecher": "Schritt 2: Weicht die tatsächliche Verwendung innerhalb von fünf Jahren, bei Grundstücken zehn Jahren, davon ab, ändern sich die Verhältnisse. Auch ein steuerfreier Verkauf oder eine steuerfreie Entnahme zählt. Berichtigt wird zeitanteilig, je Jahr ein Fünftel oder ein Zehntel.",
-          "marken": [
-            "5 bzw. 10 Jahre",
-            "Auch steuerfreier Verkauf"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Vergleiche die tatsächliche Verwendung mit dem ursprünglichen Abzug und berichtige nur die Differenz, zeitanteilig je Jahr. Kleinbeträge scheidet § 44 UStDV aus.",
-          "sprecher": "Merke: Vergleiche immer die tatsächliche Verwendung mit dem ursprünglichen Abzug. Bei Vorsteuern bis 1.000 € entfällt die Berichtigung nach § 44 UStDV.",
-          "marken": [
-            "Nur die Differenz berichtigen",
-            "§ 44 UStDV"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage und Reihenfolge",
-            "Normen ohne Unterlagen"
-          ]
-        }
-      ],
-      "caption": "Wann ändern sich die Verhältnisse nach § 15a UStG? Wenn die tatsächliche Verwendung innerhalb von fünf bzw. zehn Jahren vom ursprünglichen Vorsteuerabzug abweicht – auch bei steuerfreiem Verkauf oder steuerfreier Entnahme. Berichtigt wird zeitanteilig, Kleinbeträge nach § 44 UStDV bleiben außen vor.",
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-305",
+      "caption": "Haftungsbescheid fehlerhaft: Änderung nach § 172 AO? Nein – die Art des Verwaltungsakts entscheidet über die Korrekturnorm. 📄\n\n▸ Steuerbescheide setzen Steuern fest (§ 155 Abs. 1 S. 1 AO) und werden nur nach §§ 172 ff. AO aufgehoben oder geändert (§ 172 Abs. 1 S. 1 AO).\n▸ Gleichgestellt sind Feststellungsbescheide und Steuermessbescheide: Für sie gelten die Vorschriften über die Durchführung der Besteuerung sinngemäß (§ 181 Abs. 1 S. 1 AO, § 184 Abs. 1 S. 3 AO).\n▸ Sonstige Verwaltungsakte, etwa der Haftungsbescheid (§ 191 Abs. 1 AO), werden nach § 130 AO zurückgenommen (rechtswidrig) oder nach § 131 AO widerrufen (rechtmäßig).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umsatzsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 15a Abs. 6a, 8 und 9 UStG",
-        "§ 15 Abs. 2 und 3 UStG",
-        "§ 1 Abs. 1a UStG",
-        "§ 3 Abs. 1b UStG",
-        "§ 19 Abs. 1 und 4 UStG",
-        "§ 4 Nr. 9a UStG",
-        "§ 44 UStDV",
-        "Abschn. 15a.2 Abs. 2 und 9 UStAE",
-        "Abschn. 15a.4 Abs. 3 UStAE",
-        "Themenpool: ust-aufb-ust-m-b12-8"
+        "§ 155 Abs. 1 S. 1 AO",
+        "§ 172 Abs. 1 S. 1 AO",
+        "§ 181 Abs. 1 S. 1 AO",
+        "§ 184 Abs. 1 S. 3 AO",
+        "§ 191 Abs. 1 AO",
+        "§§ 130, 131 AO"
       ],
-      "coverRegie": {
-        "thema": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-25-b3-ust-aufb-ust-m-b12-8-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-25-b3",
+      "kurztitel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Haftungsbescheid: Änderung § 172?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Steuerbescheid"
+        },
+        {
+          "art": "schritt",
+          "titel": "Gleichgestellt"
+        },
+        {
+          "art": "schritt",
+          "titel": "Sonstige VA"
+        }
+      ],
+      "sprecher": [
+        "Haftungsbescheid falsch, also ändern nach Paragraf hundertzweiundsiebzig? Falsch. Er ist gar kein Steuerbescheid.",
+        "Steuerbescheide setzen eine Steuer fest. Geändert werden sie nur nach Paragraf hundertzweiundsiebzig und folgende.",
+        "Feststellungs- und Messbescheide werden genauso behandelt, die Regeln gelten sinngemäß.",
+        "Sonstige Verwaltungsakte wie der Haftungsbescheid: Rücknahme oder Widerruf nach hundertdreißig und hunderteinunddreißig.",
+        "Merke: Steuer festgesetzt, dann hundertzweiundsiebzig. Sonst hundertdreißig."
+      ],
+      "dauerS": 38.479,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-10",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-10"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-2",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Erwerbsschwelle:",
+        "wie hoch?",
+        "10.000 €",
+        "12.500 €",
+        "22.000 €",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
-      "titel": "Auf welche Basis wird die Pauschalwertberichtigung gerechnet?",
-      "optionen": [
-        "Bruttobestand",
-        "Nettobestand ohne Umsatzsteuer",
-        "Bestand inklusive EWB-Forderungen"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-10",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-10"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-2",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: 12.500 €",
+        "10.000 €",
+        "12.500 €",
+        "22.000 €",
+        "Bleiben die Erwerbe darunter, liegt beim Halbunternehmer kein innergemeinschaftlicher Erwerb vor.",
+        "§ 1a Abs. 3 Nr. 2 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "Nettobestand ohne Umsatzsteuer",
-      "optionen": [
-        "Bruttobestand",
-        "Nettobestand ohne Umsatzsteuer",
-        "Bestand inklusive EWB-Forderungen"
-      ],
-      "richtig": 1,
-      "text": "Die Umsatzsteuer fällt nicht aus: Bei Uneinbringlichkeit wird sie nach § 17 Abs. 2 Nr. 1 UStG berichtigt. Einzelwertberichtigte Forderungen nimmst du vorher heraus.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-3",
-      "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "H 15.8 EStH",
-        "§ 19 EStG",
-        "§ 20 EStG",
-        "§ 21 EStG",
-        "Themenpool: persg-modul-persg-3"
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-17",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Dividende aus",
+        "dem Ausland",
+        "Art. 10 OECD-MA",
+        "Der Quellenstaat darf meist höchstens 15 % einbehalten.",
+        "Art. 10 Abs. 2 Buchst. b OECD-MA",
+        "Privat: bis zu 25 % auf die Abgeltungsteuer anrechnen.",
+        "§ 32d Abs. 5 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-      "titel": "Mitunternehmerstellung: Risiko und Initiative",
-      "text": "Mitunternehmer ist, wer Mitunternehmerrisiko trägt (Gewinn, Verlust, stille Reserven samt Geschäftswert) und Mitunternehmerinitiative entfalten kann. Dafür reichen Stimm- und Kontrollrechte wie bei einem Kommanditisten.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-502",
-      "quellen": [
-        "§ 1 ErbStG",
-        "§ 3 ErbStG / § 7 ErbStG",
-        "§ 2 ErbStG",
-        "§ 20 ErbStG",
-        "§ 15 ErbStG",
-        "§ 9 ErbStG",
-        "§ 11 ErbStG",
-        "§ 3 ErbStG",
-        "§ 7 ErbStG",
-        "Themenpool: erbst-modul-erbst-502"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Sonntag:",
+        "aktiv wiederholen",
+        "Einen Fall der Woche ohne Lösung neu rechnen.",
+        "Normen erst selbst suchen, dann prüfen.",
+        "Jeden Fehler in eine Liste schreiben."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Erbschaftsteuer-Klausur: die Vorfragen vor der ersten Bewertung",
-      "text": "Vor der Bewertung klärst du: Erwerb von Todes wegen (§ 3 ErbStG) oder Schenkung (§ 7 ErbStG)? Steuerpflicht nach § 2 ErbStG? Entstehung nach § 9 ErbStG – sie ist auch Bewertungsstichtag (§ 11 ErbStG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-aufb-persg-melzer-4-6",
-      "quellen": [
-        "§ 6 Abs. 3 EStG",
-        "§§ 20, 24 UmwStG",
-        "§§ 164, 166 HGB",
-        "§ 116 HGB",
-        "§ 3 Nr. 40 Satz 1 Buchst. d, Satz 2 EStG",
-        "§ 3c Abs. 2 EStG",
-        "§ 12 Nr. 3 EStG",
-        "§ 15 Abs. 1 Satz 1 Nr. 2 Satz 1 HS 2 EStG",
-        "§ 20 Abs. 1 Nr. 1 und Nr. 7, Abs. 8 EStG",
-        "§§ 43 ff. EStG",
-        "Themenpool: persg-aufb-persg-melzer-4-6"
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-15",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Teileinkünfte",
+        "im Betrieb",
+        "40 % der Dividende sind steuerfrei.",
+        "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+        "Zugehörige Ausgaben nur zu 60 % abziehbar.",
+        "§ 3c Abs. 2 S. 1 EStG",
+        "Bilanz voll, Korrektur außerhalb."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Wie werden Ausschüttungen der Komplementär-GmbH besteuert?",
-      "text": "Erst die Zuordnung der Anteile klären: Als Sonderbetriebsvermögen II sind Ausschüttungen Sonderbetriebseinnahmen, zu 60 % steuerpflichtig (§ 3 Nr. 40 EStG). Im Privatvermögen: § 20 Abs. 1 Nr. 1 EStG, Abgeltungsteuer.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-7",
-      "quellen": [
-        "R 4.2 Abs. 2 EStR",
-        "H 4.2 Abs. 2 EStH",
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "H 4.2 EStH – Sonderbetriebsvermögen",
-        "BFH 16.04.2015 – IV R 1/12",
-        "BFH 25.09.2025 – IV R 12/23",
-        "Themenpool: persg-modul-persg-7"
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-306",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Fehlerhaft",
+        "gleich nichtig?",
+        "Nichtig nur bei",
+        "besonders schwerem",
+        "und offenkundigem",
+        "Fehler.",
+        "§ 125 Abs. 1 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Sonderbetriebsvermögen I und II: Was gehört in die Sonderbilanz?",
-      "text": "Zum SBV I gehört, was du der Gesellschaft zur Nutzung überlässt, etwa ein an sie vermietetes Grundstück. SBV II stärkt deine Beteiligung, etwa Anteile an der Komplementär-GmbH. Beides erfasst deine Sonderbilanz.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "istr",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Grundschema IStR: Wo § 7 AStG im Prüfungsaufbau steht",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Klausur 2: fünf Themen",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -638,68 +521,56 @@
       "fach": "bilanz",
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt",
-      "text": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Halle brennt: Gewinn sofort?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "§ 15a UStG: Wann ändern sich die Verhältnisse?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Haftungsbescheid: § 172?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T13:00:29.807Z",
+    "erzeugtAm": "2026-10-03T04:46:35Z",
     "pfad": "vorproduktion/2026-10-25/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -711,5 +582,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
