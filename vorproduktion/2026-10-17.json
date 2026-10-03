@@ -180,7 +180,7 @@
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
       "themaId": "ao-aufb-ao-jacobs-7-9",
-      "caption": "Grobes Verschulden bei § 173 AO – und wie § 177 AO trotzdem hilft. Der Rechenweg für Klausur 1.\n\n1. Neue Tatsache zuungunsten: nachträglich bekannte Mieteinnahmen 6.000 € (§ 173 Abs. 1 Nr. 1 AO).\n2. Neue Tatsache zugunsten: grundsätzlich nur ohne grobes Verschulden (§ 173 Abs. 1 Nr. 2 S. 1 AO). Das Verschulden ist unbeachtlich bei unmittelbarem oder mittelbarem Zusammenhang mit einer Tatsache nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO): Garagenkosten 2.500 €.\n3. Übrige materielle Fehler werden berichtigt, soweit die Änderung reicht (§ 177 Abs. 1, 3 AO): Fortbildungskosten 1.000 €.\nErgebnis: Einkünfte + 2.500 €.\n\nSperre: Ist der Bescheid auf Grund einer Außenprüfung ergangen, ist eine Änderung nach § 173 Abs. 1 AO nur bei Steuerhinterziehung oder leichtfertiger Steuerverkürzung möglich (§ 173 Abs. 2 S. 1 AO).\n\nZum Schluss: § 173 Abs. 1, § 177 Abs. 1, 3 AO zum Markieren. Speichern für Klausur 1 📌",
+      "caption": "Grobes Verschulden bei § 173 AO – und wie § 177 AO trotzdem hilft. Der Rechenweg für Klausur 1.\n\n1. Neue Tatsache zuungunsten: nachträglich bekannte Mieteinnahmen 6.000 € (§ 173 Abs. 1 Nr. 1 AO).\n2. Neue Tatsache zugunsten: grundsätzlich nur ohne grobes Verschulden (§ 173 Abs. 1 Nr. 2 S. 1 AO). Das Verschulden ist unbeachtlich bei unmittelbarem oder mittelbarem Zusammenhang mit einer Tatsache nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO): Garagenkosten 2.500 €.\n3. Übrige materielle Fehler werden berichtigt, soweit die Änderung reicht (§ 177 Abs. 1, 3 AO): Fortbildungskosten 1.000 €. Ober- und Untergrenze werden getrennt ermittelt, nicht saldiert (AEAO zu § 177 Nr. 2, 3): Rahmen von −2.500 € bis +6.000 €.\nErgebnis: Einkünfte + 2.500 €.\n\nSperre: Ist der Bescheid auf Grund einer Außenprüfung ergangen, ist eine Änderung nach § 173 Abs. 1 AO nur bei Steuerhinterziehung oder leichtfertiger Steuerverkürzung möglich (§ 173 Abs. 2 S. 1 AO).\n\nZum Schluss: § 173 Abs. 1, § 177 Abs. 1, 3 AO zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -189,7 +189,8 @@
       ],
       "quellen": [
         "§ 173 Abs. 1 Nr. 1, 2, Abs. 2 AO",
-        "§ 177 Abs. 1, 3 AO"
+        "§ 177 Abs. 1, 3 AO",
+        "AEAO zu § 177 Nr. 2, 3"
       ],
       "slug": "2026-10-17-b2",
       "kurztitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
@@ -233,7 +234,7 @@
         {
           "art": "text",
           "titel": "Abgabenordnung",
-          "text": "Schritt 3: § 177 AO · § 177 Abs. 1, 3 AO · Mieteinnahmen (Nr. 1) · +6.000 € · Garagenkosten (Nr. 2 S. 2) · −2.500 € · Änderungsrahmen · +3.500 € · Fortbildung über § 177 · −1.000 € · Einkünfte steigen um · +2.500 € · Gegenrechnen nur, soweit die Änderung reicht"
+          "text": "Schritt 3: § 177 AO · § 177 Abs. 1, 3 AO · Mieteinnahmen (Nr. 1) · +6.000 € · Garagenkosten (Nr. 2 S. 2) · −2.500 € · Fortbildung über § 177 · −1.000 € · Einkünfte steigen um · +2.500 € · Grenzen getrennt: −2.500 € bis +6.000 €"
         },
         {
           "art": "text",
@@ -253,7 +254,7 @@
         {
           "art": "text",
           "titel": "Abgabenordnung",
-          "text": "§ 177 AO Materielle Fehler (Auszug) · Nr. 1 öffnet · Rahmen + 3.500 € · Fortbildung · Begriff · Lotte: Rahmen + 3.500 € · Fortbildung − 1.000 € passt hinein"
+          "text": "§ 177 AO Materielle Fehler (Auszug) · Nr. 1 öffnet · Grenzen nicht saldieren · Fortbildung · Begriff · Lotte: Rahmen −2.500 € bis +6.000 € · Fortbildung − 1.000 € passt hinein"
         }
       ]
     },
@@ -547,7 +548,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:22:57Z",
+    "erzeugtAm": "2026-10-03T13:03:20Z",
     "pfad": "vorproduktion/2026-10-17/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
