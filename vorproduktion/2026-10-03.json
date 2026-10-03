@@ -23,7 +23,7 @@
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "08:30",
+        "zeit": "07:30",
         "format": "schema",
         "themaId": "ao-modul-ao-314",
         "themaTitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
@@ -65,7 +65,7 @@
       },
       {
         "slot": "s1",
-        "zeit": "08:30",
+        "zeit": "07:30",
         "art": "teaser",
         "beitragSlot": "b1",
         "status": "aus-beitrag-ableitbar"
