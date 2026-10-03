@@ -7548,6 +7548,18 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "s9",
+      "medienId": "18097344347410425",
+      "veroeffentlicht": "2026-10-03T17:44:49.227Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "istr-aufb-istr-gh-4-44",
+      "fach": "istr",
+      "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?"
     }
   ],
   "fachZaehler": {
