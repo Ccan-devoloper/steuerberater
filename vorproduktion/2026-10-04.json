@@ -226,13 +226,13 @@
         {
           "art": "titel",
           "titel": "Spickzettel",
-          "text": "Spickzettel · Verbindlichkeiten · bewerten · § 6 Abs. 1 Nr. 3 EStG · auf einer Karte · + Markier-Guide § 6 EStG · Darlehen · 50.000 € · Ansatz?",
+          "text": "Spickzettel · Verbindlichkeiten · bewerten · § 6 Abs. 1 Nr. 3 EStG · auf einer Karte · + Markier-Guide §§ 5, 6 EStG · Darlehen · 50.000 € · Ansatz?",
           "bild": "op-cover"
         },
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Die Karte · Handelsbilanz · § 253 Abs. 1 S. 2 HGB · Erfüllungsbetrag · Steuerbilanz · § 6 Abs. 1 Nr. 3 EStG · Rückzahlungsbetrag, keine Abzinsung · Disagio · § 5 Abs. 5 S. 1 Nr. 1 EStG · steuerlich aktiv abgrenzen · Teilwert · § 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG · höher nur bei dauernder Erhöhung · Am Ende: § 6 EStG markiert"
+          "text": "Die Karte · Handelsbilanz · § 253 Abs. 1 S. 2 HGB · Erfüllungsbetrag · Steuerbilanz · § 6 Abs. 1 Nr. 3 EStG · Rückzahlungsbetrag, keine Abzinsung · Disagio · § 5 Abs. 5 S. 1 Nr. 1 EStG · steuerlich aktiv abgrenzen · Teilwert · § 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG · höher nur bei dauernder Erhöhung · Am Ende: §§ 5, 6 EStG markiert"
         },
         {
           "art": "text",
@@ -247,12 +247,12 @@
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Beispiel: Auszahlung 48.000 €, Rückzahlung 50.000 € · Schuld 50.000 €, aktiver Posten 2.000 € · Rückzahlungsbetrag ansetzen, · Disagio aktiv abgrenzen, · Teilwert nur bei Dauer. · Speichern für Klausur 3 · Hast du noch alte Abzinsung im Kopf? · Weiterwischen: § 6 EStG markiert"
+          "text": "Beispiel: Auszahlung 48.000 €, Rückzahlung 50.000 € · Schuld 50.000 €, aktiver Posten 2.000 € · Rückzahlungsbetrag ansetzen, · Disagio aktiv abgrenzen, · Teilwert nur bei Dauer. · Speichern für Klausur 3 · Hast du noch alte Abzinsung im Kopf? · Weiterwischen: §§ 5, 6 EStG markiert"
         },
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "§§ 5, 6 EStG (Auszug) · Teilwert-Regeln gelten mit · hier landet das Disagio · Neu: § 5 Abs. 5 S. 2 EStG · Kleinbeträge bis 800 € dürfen ohne Abgrenzung bleiben"
+          "text": "§§ 5, 6 EStG (Auszug) · hier landet das Disagio · Wahlrecht · 800 € (GWG-Grenze) · Teilwert-Regeln gelten mit · § 5 Abs. 5 S. 2 EStG · Bis 800 €: Abgrenzung darf unterbleiben, einheitlich"
         }
       ]
     },
@@ -545,7 +545,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T10:45:14Z",
+    "erzeugtAm": "2026-10-03T11:21:29Z",
     "pfad": "vorproduktion/2026-10-04/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
