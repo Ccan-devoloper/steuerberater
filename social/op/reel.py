@@ -54,7 +54,6 @@ class Reel:
         self.T(self.s["fachLabel"].upper(), kl)
         self.zeige(pille(self.s["fachLabel"].upper(), 48, 50, C, fill=PASTELL[self.k], size=k.passt(self.s["fachLabel"].upper(), "Bold", 46, 620, 28), pad=(30, 12)), 0, None, "cut")
         self.zeige(pille(kl, W_ - 48, 56, C, fill=WEISS, size=32, anker="r", pad=(22, 10)), 0, None, "cut")
-        self.zeige(boden(BODEN, C, 48, 1032), 0, None, "cut")
 
     def hook(self, h, t_ende):
         seg = "hook"
@@ -76,6 +75,7 @@ class Reel:
             self.zeige(fl_block(90, yk, 900, 180, (252, 222, 216, 255), C,
                                 [("Irrtum", "Bold", 38, INK), (irrtum, "ExtraBold", k.passt(irrtum, "ExtraBold", 66, 820, 40), INK)]), 0, t_ende, "cut")
             yk += 210
+        self.zeige(boden(BODEN, C, 48, 1032), 0, t_ende, "cut")
         if h.get("figur"):
             self.figur(h["figur"], 300, 470, 0, t_ende, "cut", h.get("name"))
         for i, ic in enumerate(h.get("icons", [])):
@@ -169,23 +169,93 @@ class Reel:
             aktuelle.append((el, zeiten[i], enden[i], anim))
             y = el.y + el.sprite.height + e.get("abstand", 46)
         if aktuelle: gruppen.append(aktuelle)
-        unten_frei = BODEN - (240 if (sz.get("icon") or sz.get("figur")) else 60)
+        L = self.s.get("layout", "A")
+        if L == "B":                                      # groß: Elemente vergrößert, über die ganze Höhe verteilt
+            for g in gruppen:
+                yy = None
+                for el, *_ in g:
+                    f = min(1.12, 1000 / el.sprite.width) if el.sprite.width > 0 else 1
+                    if f > 1.01:
+                        alt_w = el.sprite.width
+                        el.sprite = el.sprite.resize((int(el.sprite.width * f), int(el.sprite.height * f)), Image.LANCZOS)
+                        el.x -= (el.sprite.width - alt_w) / 2
+                    if yy is not None: el.y = yy
+                    yy = el.y + el.sprite.height + 90
+            unten_frei = 1640 - 280
+        elif L == "C": unten_frei = 1000
+        elif L == "D": unten_frei = 1160
+        elif L == "E": unten_frei = 1040
+        else: unten_frei = BODEN - (240 if (sz.get("icon") or sz.get("figur")) else 60)
         for g in gruppen:
             top = min(el.y for el, *_ in g); bot = max(el.y + el.sprite.height for el, *_ in g)
             dy = int(max(330, 330 + (unten_frei - 330 - (bot - top)) / 2) - top)
             for el, t0_, t1_, anim in g:
                 el.y += dy
                 self.zeige(el, t0_, t1_, anim)
-        if sz.get("icon"):
+        if L == "A":
+            self.zeige(boden(BODEN, C, 48, 1032), t0, t1, "cut")
+        if sz.get("icon") and L in ("A", "B"):
             setn, nm = sz["icon"][0].split(":")
             ti = self.wort(seg, sz["icon"][2]) if len(sz["icon"]) > 2 and sz["icon"][2] else t0
-            self.zeige(ficon(setn, nm, 860, BODEN - 20, 170, C, fuell=FARBEN.get(sz["icon"][1]) if sz["icon"][1] else None), ti, t1, "pop")
+            if L == "A":
+                self.zeige(ficon(setn, nm, 860, BODEN - 20, 170, C, fuell=FARBEN.get(sz["icon"][1]) if sz["icon"][1] else None), ti, t1, "pop")
+            else:
+                self.zeige(ficon(setn, nm, 540, 1640, 250, C, fuell=FARBEN.get(sz["icon"][1]) if sz["icon"][1] else None), ti, t1, "pop")
+        if L in ("D", "E"):
+            self.schema_leiste(nr - 1, t0, t1, kompakt=(L == "E"))
+        hf = (self.s["hook"].get("figur") or "") if L in ("C", "E") else ""
+        if hf:
+            buchst, _, pose = hf.replace(":", "/").partition("/")
+            blase_ = sz.get("blase")
+            if L == "C":
+                self.zeige(boden(1640, C, 48, 1032), t0, t1, "cut")
+                p = k.peep(self.b.name(f"{buchst}/{sz.get('pose', 'erklaert')}", 300), 300, 1640, 620)
+                self.zeige(p, t0, t1, "cut")
+                if blase_:
+                    self.T(blase_)
+                    bw = min(600, max(380, int(F("Bold", 42).getlength(blase_) / 0.8) + 60))
+                    tb = self.wort(seg, sz["blase_wort"]) if sz.get("blase_wort") else t0 + 0.6
+                    self.zeige(k.bl("sprech", bw, 180, 1032 - bw / 2 - 10, 1080, blase_, k.kopfpunkt(p, 1), 42), tb, t1, "pop")
+            else:
+                b = k.nah(self.b.name(f"{buchst}:{sz.get('mimik', 'redet')}", 780), 780, 1300, 600)
+                self.zeige(b, t0, t1, "cut")
+                if blase_:
+                    self.T(blase_)
+                    bw = min(520, max(360, int(F("Bold", 40).getlength(blase_) / 0.8) + 60))
+                    tb = self.wort(seg, sz["blase_wort"]) if sz.get("blase_wort") else t0 + 0.6
+                    self.zeige(k.bl("sprech", bw, 160, 48 + bw / 2 + 10, 1400, blase_, k.kopfpunkt(b, -1), 40), tb, t1, "pop")
         for name, w, gain in sz.get("sfx", []):
             self.SFX.append((name, self.wort(seg, w), gain))
         if sz.get("figur"):
             f = sz["figur"]
             tf = self.wort(seg, f["wort"]) if f.get("wort") else t0
             self.figur(f["ref"], 300, f.get("hoehe", 440), tf, t1, "pop")
+
+    def schema_leiste(self, aktiv, t0, t1, kompakt=False):
+        """Prüfschema des Reels (Szenentitel) als Orientierung: erledigt grau mit Haken, aktuell farbig, kommend weiß."""
+        schritte = [sz["titel"] for sz in self.s["szenen"]]
+        grau = (140, 140, 145, 255)
+        if not kompakt:
+            y0 = 1180
+            self.zeige(karte(48, y0, 984, 1640 - y0, C, fill=(255, 255, 255, 255)), t0, t1, "cut")
+            self.zeige(OT("Prüfschema", 90, y0 + 28, C, "ExtraBold", 44), t0, t1, "cut")
+            y = y0 + 106
+            for i, s_ in enumerate(schritte):
+                fertig, akt = i < aktiv, i == aktiv
+                fill = PASTELL[self.k] if akt else ((236, 236, 236, 255) if fertig else WEISS)
+                self.zeige(fl_block(90, y, 900, 80, fill, C, [(" ", "Bold", 10, INK)]), t0, t1, "cut")
+                self.zeige(pille(str(i + 1), 110, y + 12, C, fill=WEISS, size=36, pad=(18, 4)), t0, t1, "cut")
+                self.zeige(OT(s_, 190, y + 10, C, "ExtraBold" if akt else "Bold", k.passt(s_, "Bold", 44, 720, 30), farbe=grau if fertig else INK), t0, t1, "cut")
+                if fertig: self.zeige(haken_i(950, y + 40, C, gr=26), t0, t1, "cut")
+                y += 98
+        else:
+            n = len(schritte); w = (984 - (n - 1) * 16) // n; x = 48
+            for i, s_ in enumerate(schritte):
+                fertig, akt = i < aktiv, i == aktiv
+                fill = PASTELL[self.k] if akt else ((236, 236, 236, 255) if fertig else WEISS)
+                t = f"{i + 1} · {s_}"
+                self.zeige(fl_block(x, 1110, w, 90, fill, C, [(t, "ExtraBold" if akt else "Bold", k.passt(t, "Bold", 36, w - 30, 22), grau if fertig else INK)]), t0, t1, "cut")
+                x += w + 16
 
     def merke(self, m, t0):
         seg = m.get("seg", "cta")
