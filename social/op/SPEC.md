@@ -48,7 +48,7 @@ WEISS, GELB, GRUEN, ROT, BLAU, LILA, TUERKIS, ORANGE, PINK, HELL.
 | `rechnung` | `titel`, `normen`: [..], `zeilen`: [[label, betrag, stil, farbe\|null], …] (≤ 7), `extra`: [text, farbe], `figur`, `x`, `blase` |
 | `vergleich` | `titel`, `links`/`rechts`: {kopf, farbe, punkte: [[text, norm\|null], …]}, `figur`, `x`, `blase` |
 | `merke` | `oben`: [zeile1, zeile2, farbe] (Lösung/Formel), `zeilen`: [[[text, "a"\|null], …], …] (Markierungen a–d, ≤ 4 Zeilen, je ≤ 26 Zeichen), `speichern`, `frage`, `teaser` |
-| `gesetz` | `titel` („Im Gesetz markieren“ / „Im Erlass markieren“ / „In der Richtlinie markieren“), `kopf` („§ 108 Fristen und Termine“ bzw. „AEAO zu § 108 · Beck-Erlass 800 § 108/1“), `absaetze`: [[nr\|null, [[text, mark\|null], …]], …] (mark: g1, b1, r1, gr1 … – gelb, blau, rot, grün), `notizen`: [[text, mark], …] (≤ 4, kurz), `randnotiz`: [zeile1, zeile2] |
+| `gesetz` | `titel` („Im Gesetz markieren“ / „Im Erlass markieren“ / „In der Richtlinie markieren“), `kopf` („§ 108 Fristen und Termine“ bzw. „AEAO zu § 108 · Beck-Erlass 800 § 108/1“), `absaetze`: [[nr\|null, [[text, mark\|null], …]], …] (mark: g1, b1, r1, gr1 … – gelb, blau, rot, grün), `notizen`: [[text, mark], …] (≤ 4, kurz), `randnotiz`: [zeile1, zeile2], optional `zweite`: {kopf („R 11.1 GewStR (Auszug)“), absaetze (nr als „S. 1“), notizen} = Verwaltungsanweisung unter dem Gesetz auf derselben Folie (Titel dann „Gesetz und Richtlinie markieren“ o. Ä.; Auszüge kurz halten, der Renderer verkleinert bis 22 px und bricht sonst ab) |
 
 Zeichen: nur, was Nunito kann (kein „→“, keine Bruchzeichen wie „⅕“; der Prüflauf meldet das).
 Grenzen (der Renderer bricht sonst ab): ≤ 40 Wörter je Folie (Normen zählen als ein Wort), Titel einzeilig.

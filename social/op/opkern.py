@@ -209,12 +209,12 @@ def zahlblock(x, y, w, h, fill, label, zahl, zs=120, ls=48):
     return e
 
 
-def gesetzesseite(x, y, w, kopf, absaetze_, size=34):
+def gesetzesseite(x, y, w, kopf, absaetze_, size=34, kompakt=False):
     """Aufgeschlagene Gesetzesseite mit Markierungen. absaetze_: [[nummer|null, [[text, mark|null], …]], …];
     mark: g/b/r/gr + Index (g1, b1 …). Gibt (El, Markierungspositionen, Höhe) zurück."""
     pad, lh = 54, 1.38
     f, fb = SERIF(size), SERIFB(size)
-    zeilen, yy = [], 110
+    zeilen, yy = [], (82 if kompakt else 110)
     for nr, teile in absaetze_:
         woerter = []
         for txt, mk in teile:
@@ -235,15 +235,19 @@ def gesetzesseite(x, y, w, kopf, absaetze_, size=34):
                 zeilen.append((yy, cur)); yy += int(size * lh); cur, cw = [], 0
             cur.append((cw, w_, mk)); cw += ww
         zeilen.append((yy, cur)); yy += int(size * lh) + 14
-    h = yy + 40
+    h = yy + (18 if kompakt else 40)
     im = Image.new("RGBA", (w + 40, h + 40))
     d = ImageDraw.Draw(im)
     d.rounded_rectangle((14, 14, w + 14, h + 14), 18, fill=(0, 0, 0, 60))
     d.rounded_rectangle((0, 0, w, h), 18, fill=(253, 251, 244, 255), outline=INK, width=4)
     for i in range(26):
         d.line((4 + i, 6, 4 + i, h - 6), fill=(0, 0, 0, int(55 * (1 - i / 26))))
-    d.text((pad, 40), kopf, font=SERIFB(31), fill=(60, 60, 60, 255))
-    d.line((pad, 86, w - pad, 86), fill=(180, 180, 180, 255), width=2)
+    if kompakt:
+        d.text((pad, 26), kopf, font=SERIFB(27), fill=(60, 60, 60, 255))
+        d.line((pad, 64, w - pad, 64), fill=(180, 180, 180, 255), width=2)
+    else:
+        d.text((pad, 40), kopf, font=SERIFB(31), fill=(60, 60, 60, 255))
+        d.line((pad, 86, w - pad, 86), fill=(180, 180, 180, 255), width=2)
     ml = Image.new("RGBA", im.size); md = ImageDraw.Draw(ml)
     pos = {}
     for yy, cur in zeilen:

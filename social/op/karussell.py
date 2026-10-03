@@ -250,39 +250,57 @@ class Karussell:
 
     def gesetz(self, f, seite):
         """Im Gesetz (oder im Erlass/in der Richtlinie) markieren: Seite mit Markierungen, Randnotizen in Handschrift, Hinweiskasten.
-        Für Verwaltungsanweisungen titel="Im Erlass markieren" bzw. "In der Richtlinie markieren" und kopf mit Beck-Erlass-Fundstelle."""
+        Für Verwaltungsanweisungen titel="Im Erlass markieren" bzw. "In der Richtlinie markieren" und kopf mit Beck-Erlass-Fundstelle.
+        Optional "zweite": {kopf, absaetze, notizen} – zweite Seite (meist die Verwaltungsanweisung) unter der ersten auf
+        derselben Folie; so bleiben Gesetz und Richtlinie/Erlass zusammen in der 10-Folien-Grenze."""
         els = self.kopf(seite)
-        els.append(k.titel_passend(f.get("titel", "Im Gesetz markieren"), 64, 150, TITEL, rechts=1016, marker=PASTELL[self.k]))
+        titel_ = f.get("titel") or ("Gesetz und Richtlinie markieren" if f.get("zweite") else "Im Gesetz markieren")
+        els.append(k.titel_passend(titel_, 64, 150, TITEL, rechts=1016, marker=PASTELL[self.k]))
         PW, PX, PY = 700, 56, 252
-        for gr in range(37, 27, -1):
-            seite_el, pos, h = k.gesetzesseite(PX, PY, PW, f["kopf"], f["absaetze"], size=gr)
-            if PY + h + 46 + 170 <= k.AKTIV.innen_unten - 20:
+        seiten = [f] + ([f["zweite"]] if f.get("zweite") else [])
+        zwei = len(seiten) > 1
+        kasten_h = 140 if zwei else 170
+        unten_frei = (kasten_h + 36) if f.get("randnotiz") else 30
+        abstand = 26 if zwei else 34
+        for gr in range(37 if len(seiten) == 1 else 33, 21, -1):
+            gebaut, y = [], PY
+            for sd in seiten:
+                el, pos, h = k.gesetzesseite(PX, y, PW, sd["kopf"], sd["absaetze"], size=gr, kompakt=zwei)
+                gebaut.append((sd, el, pos, y, h)); y += h + abstand
+            if y - abstand + unten_frei <= k.AKTIV.innen_unten - 20:
                 break
-        els.append(seite_el)
-        hand, NX = k.HAND(44), PX + PW + 30
+        assert y - abstand + unten_frei <= k.AKTIV.innen_unten - 20 + 60, f"Folie {seite}: Gesetzesauszüge zu lang"
+        hand, NX = k.HAND(44 if len(seiten) == 1 else 40), PX + PW + 30
         NW = 1030 - NX
         rot = (205, 40, 40, 255)
-        frei = PY + 90
         from PIL import Image, ImageDraw
-        for txt, mk in f.get("notizen", []):
-            self.T(txt)
-            x0, y0, x1, y1 = pos[mk][0]
-            zl, cur = [], ""
-            for w_ in txt.split(" "):
-                if cur and hand.getlength(cur + " " + w_) > NW - 10: zl.append(cur); cur = w_
-                else: cur = (cur + " " + w_).strip()
-            zl.append(cur)
-            ny = max(PY + y0 - 4, frei)
-            im = Image.new("RGBA", (NW + 60, 50 * len(zl) + 20)); dd = ImageDraw.Draw(im)
-            for i, z_ in enumerate(zl):
-                dd.text((40, 2 + i * 46), z_, font=hand, fill=rot)
-            dd.line((4, 26, 32, 26), fill=rot, width=4); dd.line((4, 26, 16, 16), fill=rot, width=4); dd.line((4, 26, 16, 36), fill=rot, width=4)
-            els.append(k.engine.El(im, NX - 40, ny, C, "fade", 0.0, name="notiz"))
-            frei = ny + 46 * len(zl) + 18
-        yb = max(PY + h + 46, frei + 10)
+        frei = PY + 90
+        for sd, el, pos, sy, h in gebaut:
+            els.append(el)
+            self.T(sd["kopf"])
+            frei = max(frei, sy + (64 if zwei else 90))
+            for txt, mk in sd.get("notizen", []):
+                self.T(txt)
+                x0, y0, x1, y1 = pos[mk][0]
+                zl, cur = [], ""
+                for w_ in txt.split(" "):
+                    if cur and hand.getlength(cur + " " + w_) > NW - 10: zl.append(cur); cur = w_
+                    else: cur = (cur + " " + w_).strip()
+                zl.append(cur)
+                zh = hand.size + 2
+                ny = max(sy + y0 - (14 if zwei else 4), frei)
+                im = Image.new("RGBA", (NW + 60, zh * len(zl) + 20)); dd = ImageDraw.Draw(im)
+                for i, z_ in enumerate(zl):
+                    dd.text((40, 2 + i * zh), z_, font=hand, fill=rot)
+                dd.line((4, 26, 32, 26), fill=rot, width=4); dd.line((4, 26, 16, 16), fill=rot, width=4); dd.line((4, 26, 16, 36), fill=rot, width=4)
+                els.append(k.engine.El(im, NX - 40, ny, C, "fade", 0.0, name="notiz"))
+                frei = ny + zh * len(zl) + 18
+        letzte = gebaut[-1]
+        yb = max(letzte[3] + letzte[4] + 46, frei + 10)
         if f.get("randnotiz"):
             t1, t2 = f["randnotiz"]; self.T(t1, t2)
-            els.append(fl_block(56, yb, 968, 170, GELB, C, [(t1, "ExtraBold", k.passt(t1, "ExtraBold", 44, 930), INK), (t2, "Bold", k.passt(t2, "Bold", 38, 930), INK)]))
+            yb = min(yb, k.AKTIV.innen_unten - 20 - kasten_h)
+            els.append(fl_block(56, yb, 968, kasten_h, GELB, C, [(t1, "ExtraBold", k.passt(t1, "ExtraBold", 40 if zwei else 44, 930), INK), (t2, "Bold", k.passt(t2, "Bold", 34 if zwei else 38, 930), INK)]))
         self.speichern(els, seite, 0, ausnahme=True)
 
     # ------------------------------------------------------------ Ablauf

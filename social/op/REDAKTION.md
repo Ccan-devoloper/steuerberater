@@ -1,4 +1,4 @@
-# Redaktionsregeln Instagram (verbindlich, Stand 03.10.2026)
+# Redaktionsregeln Instagram (verbindlich, Stand 03.10.2026, ergänzt)
 
 Ergänzt die [Quellenregeln](../QUELLENREGELN.md). Diese gelten unverändert: Unterlagen in `src/data` sind
 fachliche Grundlage, nie Vorlage; kein Wortlaut (8 Wörter), keine Gliederung, keine Eigenschöpfungen,
@@ -15,6 +15,10 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
    Steuererlassen: „BMF vom 02.09.2016, Rn. 33 (Beck-Erlass 1 § 6/12)“. Die Beck-Nummer wird nur angegeben,
    wenn sie belegt ist; sonst Datum und Rn.
 4. Gesetze mit Abs., S., Nr., Buchst.; GG und EU-Recht mit Art.
+5. **Klausurkonvention zuerst:** Gelöst wird so, wie die Klausur es erwartet, also nach Auffassung der
+   Finanzverwaltung (Richtlinien, Anwendungserlasse, BMF-Schreiben, im BStBl II veröffentlichte BFH-Urteile).
+   Abweichende BFH-Rechtsprechung, Nichtanwendungserlasse und überholte Richtlinienstellen werden zusätzlich
+   genannt („BFH vom …, Az.; R … insoweit überholt“), wo sie den Unterschied ausmachen.
 
 ## Karussell (1080×1350)
 1. Variante C: Creme, Rahmen in der Klausurfarbe (K1 blau, K2 orange, K3 grün, fachübergreifend lila), Nunito.
@@ -28,9 +32,13 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
 6. „Klausurfalle“ nur bei echten Fallen; Allgemeinwissen wird nicht hervorgehoben.
 7. Beispiel → „Jetzt du“ → Lösung auf der nächsten Folie. Jede Person ist eingeführt, bevor sie handelt.
 8. Letzte Folie „Im Gesetz markieren“ (Markierungen, Randnotizen, Hinweiskasten); angeteasert auf Cover
-   (gelbe Pille), Folie 2 (gelbe Leiste) und Merke-Folie (gelbe Zeile). Kommt eine Richtlinie oder ein
-   Erlass vor, kann zusätzlich eine Folie „In der Richtlinie markieren“ bzw. „Im Erlass markieren“ folgen
-   (Kopf mit Beck-Erlass-Fundstelle). Hinweis: In der schriftlichen Prüfung sind Textausgaben mit
+   (gelbe Pille), Folie 2 (gelbe Leiste) und Merke-Folie (gelbe Zeile). **Zitiert der Beitrag eine
+   Verwaltungsanweisung, die eine Klausurfrage entscheidet, wird sie mitmarkiert** – Standard: Gesetz und
+   Verwaltungsanweisung auf derselben Folie (`zweite` in der gesetz-Folie, Titel „Gesetz und Richtlinie/Erlass
+   markieren“), so bleibt die Grenze von 10 Folien. Eigene Folie „In der Richtlinie/Im Erlass markieren“ nur,
+   wenn Platz ist (≤ 9 Folien) oder die Verwaltungsanweisung die Frage allein entscheidet. Wortlaut nur aus
+   amtlicher Quelle bzw. Haufe/NWB-Volltext, Auslassungen „[…]“, Satznummern als „S. 1“. Hinweiskasten für
+   BFH-Abweichungen. Hinweis: In der schriftlichen Prüfung sind Textausgaben mit
    Markierungen zulässig, Anmerkungen nicht; in der mündlichen Prüfung keine Richtlinien und Erlasse.
 9. Keine Fläche leer, nichts überladen. Figuren nur mit Funktion; die Merke-Folie kommt ohne Figur aus.
 
