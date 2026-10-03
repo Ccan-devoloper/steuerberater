@@ -217,52 +217,52 @@
       "folien": [
         {
           "art": "titel",
-          "titel": "Gewerbesteuer",
+          "titel": "Rechenweg",
           "text": "Rechenweg · Gewerbesteuer · berechnen · §§ 11, 16 GewStG · in 4 Schritten · + Markier-Guide § 11 GewStG · Gewerbeertrag · 80.149 € · Gewerbesteuer?",
           "bild": "op-cover"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "2/9 · Die 4 Schritte · 1 · Abrunden · Gewerbeertrag auf volle 100 € · § 11 Abs. 1 S. 3 GewStG · 2 · Freibetrag · 24.500 €, nur bei Personenunternehmen · § 11 Abs. 1 S. 3 Nr. 1 GewStG · 3 · Messzahl · mal 3,5 % ergibt den Messbetrag · § 11 Abs. 2 GewStG · 4 · Hebesatz · mal Hebesatz ergibt die Gewerbesteuer · § 16 Abs. 1 GewStG · Am Ende: § 11 GewStG markiert"
+          "text": "Die 4 Schritte · Abrunden · § 11 Abs. 1 S. 3 GewStG · Gewerbeertrag auf volle 100 € · Freibetrag · § 11 Abs. 1 S. 3 Nr. 1 GewStG · 24.500 €, nur bei Personenunternehmen · Messzahl · § 11 Abs. 2 GewStG · mal 3,5 % ergibt den Messbetrag · Hebesatz · § 16 Abs. 1 GewStG · mal Hebesatz ergibt die Gewerbesteuer · Am Ende: § 11 GewStG + R 11.1 markiert"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "3/9 · Wer bekommt den Freibetrag? · Natürliche Personen und Personengesellschaften: 24.500 €. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Kapitalgesellschaften wie die GmbH: kein Freibetrag. · Unternehmerwechsel im Jahr: Freibetrag zeitanteilig, 2.042 € je Monat. · R 11.1 GewStR"
+          "text": "Wer bekommt den Freibetrag? · Natürliche Personen und Personengesellschaften: 24.500 €. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Kapitalgesellschaften wie die GmbH: kein Freibetrag. · Neuer Steuerschuldner im Jahr: voller Freibetrag, Messbetrag dann aufteilen. · BFH vom 25.04.2018, IV R 8/16 · Und meine GmbH?"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "4/9 · Messzahl und Hebesatz · Die Steuermesszahl beträgt einheitlich 3,5 %. · § 11 Abs. 2 GewStG · Den Hebesatz bestimmt die Gemeinde, mindestens 200 %. · § 16 Abs. 1 und Abs. 4 S. 2 GewStG"
+          "text": "Messzahl und Hebesatz · Die Steuermesszahl beträgt einheitlich 3,5 %. · § 11 Abs. 2 GewStG · Den Hebesatz bestimmt die Gemeinde, mindestens 200 %. · § 16 Abs. 1 und Abs. 4 S. 2 GewStG · Bei mir: 400 %"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "5/9 · Dario, Einzelunternehmer · § 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG · Gewerbeertrag · 80.149 € · abgerundet · 80.100 € · minus Freibetrag · − 24.500 € · verbleiben · 55.600 € · mal 3,5 % = Messbetrag · 1.946 € · mal 400 % = GewSt · 7.784 €"
+          "text": "Dario, Einzelunternehmer · § 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG · Gewerbeertrag · 80.149 € · abgerundet · 80.100 € · minus Freibetrag · − 24.500 € · verbleiben · 55.600 € · mal 3,5 % = Messbetrag · 1.946 € · mal 400 % = GewSt · 7.784 €"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "6/9 · Selin, GmbH · Kein Freibetrag: § 11 Abs. 1 S. 3 Nr. 1 GewStG · Gewerbeertrag · 80.149 € · abgerundet · 80.100 € · Freibetrag · 0 € · mal 3,5 % = Messbetrag · 2.803,50 € · mal 400 % = GewSt · 11.214 € · Ohne Freibetrag: 3.430 € mehr"
+          "text": "Selin, GmbH · Kein Freibetrag: § 11 Abs. 1 S. 3 Nr. 1 GewStG · Gewerbeertrag · 80.149 € · abgerundet · 80.100 € · Freibetrag · 0 € · mal 3,5 % = Messbetrag · 2.803,50 € · mal 400 % = GewSt · 11.214 € · Ohne Freibetrag: 3.430 € mehr"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "7/9 · Drei Klausurfallen · Freibetrag bei der GmbH abziehen · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Hebesatz direkt auf den Gewerbeertrag · § 16 Abs. 1 GewStG · Gewerbesteuer als Betriebsausgabe abziehen · § 4 Abs. 5b EStG"
+          "text": "Drei Klausurfallen · Freibetrag bei der GmbH abziehen · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Hebesatz direkt auf den Gewerbeertrag · § 16 Abs. 1 GewStG · Gewerbesteuer als Betriebsausgabe abziehen · § 4 Abs. 5b EStG"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "8/9 · Formel für die Klausur · (Ertrag − Freibetrag) mal 3,5 % mal Hebesatz · Merke · Abrunden, Freibetrag nur · für Personenunternehmen, · mal 3,5 %, mal Hebesatz. · Speichern für Klausur 2 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 11 GewStG markiert"
+          "text": "Formel für die Klausur · (Ertrag − Freibetrag) mal 3,5 % mal Hebesatz · Abrunden, Freibetrag nur · für Personenunternehmen, · mal 3,5 %, mal Hebesatz. · Speichern für Klausur 2 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 11 + R 11.1 markiert"
         },
         {
           "art": "text",
           "titel": "Gewerbesteuer",
-          "text": "9/9 · Im Gesetz markieren · Randnotiz: R 11.1 GewStR · Unternehmerwechsel: Freibetrag zeitanteilig"
+          "text": "§ 11 Steuermesszahl und Steuermessbetrag · erst abrunden · nicht für die GmbH! · nie unter 0 € · immer 3,5 % · R 11.1 GewStR (Auszug) · je Betrieb · auch unterjährig · überholt! · BFH vom 25.04.2018, IV R 8/16 (BStBl II) · Schuldnerwechsel: voller Freibetrag, dann aufteilen"
         }
       ],
-      "caption": "Gewerbesteuer berechnen: Abrunden, Freibetrag, Messzahl, Hebesatz – der Rechenweg für die Klausur.\n\n1. Gewerbeertrag auf volle 100 € abrunden (§ 11 Abs. 1 S. 3 GewStG).\n2. Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG), beim Unternehmerwechsel zeitanteilig (R 11.1 GewStR).\n3. Mal 3,5 % ergibt den Steuermessbetrag (§ 11 Abs. 2 GewStG).\n4. Mal Hebesatz der Gemeinde ergibt die Gewerbesteuer (§ 16 Abs. 1 GewStG).\nKlausurfalle: Die Gewerbesteuer ist keine Betriebsausgabe (§ 4 Abs. 5b EStG).\n\nZum Schluss: § 11 GewStG zum Markieren. Speichern für Klausur 2 📌",
+      "caption": "Gewerbesteuer berechnen: Abrunden, Freibetrag, Messzahl, Hebesatz – der Rechenweg für die Klausur.\n\n1. Gewerbeertrag auf volle 100 € abrunden (§ 11 Abs. 1 S. 3 GewStG).\n2. Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG). Wechselt im Jahr nur der Steuerschuldner, wird der Messbetrag mit vollem Freibetrag einheitlich ermittelt und dann nach den Gewerbeerträgen aufgeteilt (BFH vom 25.04.2018, IV R 8/16, BStBl II 2018, 484; R 11.1 S. 5, 6 GewStR insoweit überholt).\n3. Mal 3,5 % ergibt den Steuermessbetrag (§ 11 Abs. 2 GewStG).\n4. Mal Hebesatz der Gemeinde ergibt die Gewerbesteuer (§ 16 Abs. 1 GewStG).\nKlausurfalle: Die Gewerbesteuer ist keine Betriebsausgabe (§ 4 Abs. 5b EStG).\n\nZum Schluss: § 11 GewStG und R 11.1 GewStR zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -283,7 +283,9 @@
         "R 7.1 GewStR",
         "§ 11 Abs. 1 S. 3 GewStG",
         "§ 11 Abs. 2 GewStG",
-        "Themenpool: gewst-aufb-gewst-ks-07"
+        "Themenpool: gewst-aufb-gewst-ks-07",
+        "R 11.1 GewStR",
+        "BFH vom 25.04.2018, IV R 8/16, BStBl II 2018, 484"
       ],
       "regelGeprueft": true,
       "manuellGeprueft": false,
