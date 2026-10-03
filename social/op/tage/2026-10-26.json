@@ -408,7 +408,7 @@
      ],
      "norm": "§ 124 Abs. 1 AO",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 124 AO",
+     "teaser": "+ Markier-Guide § 124 + AEAO",
      "motiv": {
       "typ": "icon",
       "name": "tabler:mail-check",
@@ -446,7 +446,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 124 AO markiert"
+     "teaser": "Am Ende: § 124 AO + AEAO markiert"
     },
     {
      "typ": "inhalt",
@@ -489,7 +489,7 @@
        "Ist der Steuerpflichtige minderjährig oder geschäftsunfähig, geht der Bescheid an den gesetzlichen Vertreter.",
        "warn",
        "Bold",
-       "AEAO zu § 122 Nr. 2.2"
+       "AEAO zu § 122 Nr. 2.2.1"
       ],
       [
        "Krank oder verreist heißt nicht handlungsunfähig.",
@@ -611,7 +611,7 @@
        "Bescheid an die Eltern nötig. So wird er nicht wirksam.",
        "warn",
        "Bold",
-       "AEAO zu § 122 Nr. 2.2"
+       "AEAO zu § 122 Nr. 2.2.1"
       ]
      ],
      "figur": "B:staunt",
@@ -667,11 +667,11 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Welchen Schritt vergisst du am ehesten?",
-     "teaser": "Weiterwischen: § 124 AO markiert"
+     "teaser": "Weiterwischen: § 124 + AEAO markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§§ 122, 124 AO (Auszug)",
      "absaetze": [
       [
@@ -736,10 +736,6 @@
        "b1"
       ],
       [
-       "Bekanntgabe = Wirksamkeit",
-       "g1"
-      ],
-      [
        "Schritt 1",
        "r1"
       ],
@@ -749,12 +745,73 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: AEAO zu § 124 Nr. 4",
-      "Bekanntgabewille: zeichnen und Versand veranlassen"
-     ]
+      "Handlungsfähig: § 79 Abs. 1 AO",
+      "Mit 17 nur beschränkt geschäftsfähig"
+     ],
+     "zweite": {
+      "kopf": "AEAO zu §§ 124, 122 (Auszug)",
+      "absaetze": [
+       [
+        "§ 124 Nr. 4",
+        [
+         [
+          "[…] Der Bekanntgabewille wird dadurch gebildet, dass der zeichnungsberechtigte Bedienstete die Aktenverfügung des Verwaltungsakts",
+          null
+         ],
+         [
+          "abschließend zeichnet und den Versand",
+          "g2"
+         ],
+         [
+          "des Verwaltungsakts veranlasst […]",
+          null
+         ]
+        ]
+       ],
+       [
+        "§ 122 Nr. 2.2.1",
+        [
+         [
+          "Ist ein Inhaltsadressat (Steuerschuldner) bei Bekanntgabe des Bescheids geschäftsunfähig oder",
+          null
+         ],
+         [
+          "beschränkt geschäftsfähig,",
+          "r2"
+         ],
+         [
+          "so ist Bekanntgabeadressat",
+          null
+         ],
+         [
+          "der gesetzliche Vertreter",
+          "b2"
+         ],
+         [
+          "[…].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Schritt 3",
+        "g2"
+       ],
+       [
+        "Jonas, 17",
+        "r2"
+       ],
+       [
+        "die Eltern!",
+        "b2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Prüfschema Abgabenordnung: Ist der Bescheid wirksam bekannt gegeben? In 5 Schritten.\n\n1. Nicht nichtig (§ 125 AO; § 124 Abs. 3 AO).\n2. Richtiger Adressat: derjenige, für den der Verwaltungsakt bestimmt ist (§ 122 Abs. 1 AO).\n3. Bekanntgabewille: Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand (AEAO zu § 124 Nr. 4). Aufgeben wirkt nur, bevor der Bescheid den Herrschaftsbereich der Behörde verlassen hat (AEAO zu § 124 Nr. 5); danach nur noch eine Mitteilung vor oder spätestens mit der Bekanntgabe (AEAO zu § 124 Nr. 6).\n4. Handlungsfähigkeit des Empfängers (§ 79 Abs. 1 AO). Bei Minderjährigen und Geschäftsunfähigen ist der gesetzliche Vertreter Bekanntgabeadressat (AEAO zu § 122 Nr. 2.2).\n5. Zeitpunkt: Post im Inland am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO), elektronisch am vierten Tag nach Absendung (§ 122 Abs. 2a AO); im Zweifel muss die Behörde den Zugang nachweisen.\n\nWirksam wird der Verwaltungsakt mit der Bekanntgabe (§ 124 Abs. 1 AO). Zum Schluss: § 124 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Prüfschema Abgabenordnung: Ist der Bescheid wirksam bekannt gegeben? In 5 Schritten.\n\n1. Nicht nichtig (§ 125 AO; § 124 Abs. 3 AO).\n2. Richtiger Adressat: derjenige, für den der Verwaltungsakt bestimmt ist (§ 122 Abs. 1 AO).\n3. Bekanntgabewille: Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand (AEAO zu § 124 Nr. 4). Aufgeben wirkt nur, bevor der Bescheid den Herrschaftsbereich der Behörde verlassen hat (AEAO zu § 124 Nr. 5); danach nur noch eine Mitteilung vor oder spätestens mit der Bekanntgabe (AEAO zu § 124 Nr. 6).\n4. Handlungsfähigkeit des Empfängers (§ 79 Abs. 1 AO). Bei Minderjährigen und Geschäftsunfähigen ist der gesetzliche Vertreter Bekanntgabeadressat (AEAO zu § 122 Nr. 2.2.1).\n5. Zeitpunkt: Post im Inland am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO), elektronisch am vierten Tag nach Absendung (§ 122 Abs. 2a AO); im Zweifel muss die Behörde den Zugang nachweisen.\n\nWirksam wird der Verwaltungsakt mit der Bekanntgabe (§ 124 Abs. 1 AO). Zum Schluss: § 124 AO und AEAO zu §§ 122, 124 zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -767,7 +824,7 @@
     "§ 122 Abs. 1, 2, 2a AO",
     "§ 79 Abs. 1 AO",
     "AEAO zu § 124 Nr. 4–6",
-    "AEAO zu § 122 Nr. 2.2"
+    "AEAO zu § 122 Nr. 2.2.1"
    ]
   },
   {

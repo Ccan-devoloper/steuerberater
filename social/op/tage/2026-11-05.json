@@ -39,7 +39,7 @@
      ],
      "norm": "§ 13b Abs. 2 Nr. 4 UStG",
      "unter": "auf einer Karte",
-     "teaser": "+ Markier-Guide § 13b UStG",
+     "teaser": "+ Markier-Guide § 13b + UStAE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -87,7 +87,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 13b UStG markiert"
+     "teaser": "Am Ende: § 13b + UStAE markiert"
     },
     {
      "typ": "vergleich",
@@ -199,7 +199,7 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Prüfst du beide Seiten?",
-     "teaser": "Weiterwischen: § 13b UStG markiert"
+     "teaser": "Weiterwischen: § 13b + UStAE markiert"
     },
     {
      "typ": "gesetz",
@@ -275,9 +275,98 @@
       "Rechnung: § 14a Abs. 5 UStG",
       "„Steuerschuldnerschaft des Leistungsempfängers“"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "Abschn. 13b.2 Abs. 7 UStAE (Auszug)",
+     "absaetze": [
+      [
+       "(7)",
+       [
+        [
+         "Insbesondere folgende Leistungen fallen",
+         null
+        ],
+        [
+         "nicht",
+         "r1"
+        ],
+        [
+         "unter die in § 13b Abs. 2 Nr. 4 Satz 1 UStG genannten Umsätze:",
+         null
+        ]
+       ]
+      ],
+      [
+       "1.",
+       [
+        [
+         "Materiallieferungen",
+         "b1"
+        ],
+        [
+         "(z. B. durch Baustoffhändler oder Baumärkte), auch wenn der liefernde Unternehmer den Gegenstand der Lieferung im Auftrag des Leistungsempfängers herstellt, nicht aber selbst in ein Bauwerk einbaut;",
+         null
+        ]
+       ]
+      ],
+      [
+       "5.",
+       [
+        [
+         "Zurverfügungstellen von Betonpumpen und anderen Baugeräten.",
+         "gr1"
+        ],
+        [
+         "Das Zurverfügungstellen von Baugeräten ist dann eine Bauleistung, wenn gleichzeitig Personal für substanzverändernde Arbeiten zur Verfügung gestellt wird. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "15.",
+       [
+        [
+         "Reparatur- und Wartungsarbeiten an Bauwerken oder Teilen von Bauwerken, wenn das (Netto-)Entgelt für den einzelnen Umsatz",
+         null
+        ],
+        [
+         "nicht mehr als 500 €",
+         "g1"
+        ],
+        [
+         "beträgt. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "keine Bauleistung",
+       "r1"
+      ],
+      [
+       "nur Material",
+       "b1"
+      ],
+      [
+       "Bagger ohne Fahrer",
+       "gr1"
+      ],
+      [
+       "Bagatelle",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Wartung über 500 €: Nr. 15 S. 2",
+      "Bauleistung nur, wenn Teile getauscht werden"
+     ]
     }
    ],
-   "caption": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer? Der Spickzettel für die USt-Klausur.\n\n▸ Bauleistungen sind Leistungen im Zusammenhang mit Grundstücken, die der Herstellung, Instandsetzung, Instandhaltung, Änderung oder Beseitigung von Bauwerken dienen; Planungs- und Überwachungsleistungen sind ausgenommen (§ 13b Abs. 2 Nr. 4 S. 1 UStG). Auf Dauer installierte Anlagen und Maschinen gelten als Grundstücke (§ 13b Abs. 2 Nr. 4 S. 2 UStG).\n▸ Der Leistungsempfänger schuldet die Steuer, wenn er Unternehmer ist und selbst nachhaltig entsprechende Leistungen erbringt – auch für Eingangsleistungen, die er anders verwendet; davon ist bei einer gültigen Bescheinigung des Finanzamts auszugehen (§ 13b Abs. 5 S. 2 UStG).\n▸ Rechnung ohne Steuerausweis mit der Angabe „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG).\n▸ Keine Bauleistungen nach Verwaltungsauffassung u. a.: reine Materiallieferungen, Vermietung von Baugeräten ohne Bedienpersonal, Reparatur- und Wartungsarbeiten bis 500 € netto (Abschn. 13b.2 Abs. 7 UStAE).\n▸ Sind beide Seiten in Zweifelsfällen übereinstimmend von § 13b ausgegangen, bleibt der Empfänger Steuerschuldner, sofern kein Steuerausfall entsteht (§ 13b Abs. 5 S. 8 UStG).\n\nZum Schluss: § 13b UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer? Der Spickzettel für die USt-Klausur.\n\n▸ Bauleistungen sind Leistungen im Zusammenhang mit Grundstücken, die der Herstellung, Instandsetzung, Instandhaltung, Änderung oder Beseitigung von Bauwerken dienen; Planungs- und Überwachungsleistungen sind ausgenommen (§ 13b Abs. 2 Nr. 4 S. 1 UStG). Auf Dauer installierte Anlagen und Maschinen gelten als Grundstücke (§ 13b Abs. 2 Nr. 4 S. 2 UStG).\n▸ Der Leistungsempfänger schuldet die Steuer, wenn er Unternehmer ist und selbst nachhaltig entsprechende Leistungen erbringt – auch für Eingangsleistungen, die er anders verwendet; davon ist bei einer gültigen Bescheinigung des Finanzamts auszugehen (§ 13b Abs. 5 S. 2 UStG).\n▸ Rechnung ohne Steuerausweis mit der Angabe „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG).\n▸ Keine Bauleistungen nach Verwaltungsauffassung u. a.: reine Materiallieferungen, Vermietung von Baugeräten ohne Bedienpersonal, Reparatur- und Wartungsarbeiten bis 500 € netto (Abschn. 13b.2 Abs. 7 UStAE).\n▸ Sind beide Seiten in Zweifelsfällen übereinstimmend von § 13b ausgegangen, bleibt der Empfänger Steuerschuldner, sofern kein Steuerausfall entsteht (§ 13b Abs. 5 S. 8 UStG).\n\nZum Schluss: § 13b UStG und Abschn. 13b.2 Abs. 7 UStAE zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

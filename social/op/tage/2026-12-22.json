@@ -39,7 +39,7 @@
      ],
      "norm": "§ 22 Abs. 3 UmwStG",
      "unter": "mit Zahlen",
-     "teaser": "+ Markier-Guide § 22 UmwStG",
+     "teaser": "+ Markier-Guide § 22 + UmwStE",
      "motiv": {
       "typ": "kalender",
       "monat": "MAI",
@@ -285,11 +285,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Steht der 31.05. in deinem Kalender?",
-     "teaser": "Weiterwischen: § 22 UmwStG markiert"
+     "teaser": "Weiterwischen: § 22 + UmwStE markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 22 UmwStG (Auszug)",
      "absaetze": [
       [
@@ -358,12 +358,73 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: BMF vom 02.01.2025, Rn. 22.33",
-      "Später Nachweis zählt, solange Änderung möglich"
-     ]
+      "Nachweis z. B. per Gesellschafterliste",
+      "BMF vom 02.01.2025, Rn. 22.30"
+     ],
+     "zweite": {
+      "kopf": "UmwStE 2025 (Auszug)",
+      "absaetze": [
+       [
+        "Rn. 22.28",
+        [
+         [
+          "[…] Wird der Nachweis nicht erbracht, gelten die Anteile als",
+          null
+         ],
+         [
+          "zu Beginn des jeweiligen jährlichen Überwachungszeitraums",
+          "g1"
+         ],
+         [
+          "innerhalb der siebenjährigen Sperrfrist veräußert.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 22.33",
+        [
+         [
+          "Die Nachweisfrist",
+          null
+         ],
+         [
+          "kann nicht verlängert werden.",
+          "r1"
+         ],
+         [
+          "Erbringt der Einbringende den Nachweis erst nach Ablauf der Frist, können allerdings die Angaben noch berücksichtigt werden, wenn eine Änderung der betroffenen Bescheide",
+          null
+         ],
+         [
+          "verfahrensrechtlich möglich",
+          "gr1"
+         ],
+         [
+          "ist.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "hier: 02.01.2025",
+        "g1"
+       ],
+       [
+        "Frist fix!",
+        "r1"
+       ],
+       [
+        "Rettung",
+        "gr1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Nachweis nach § 22 Abs. 3 UmwStG vergessen: So rechnest du den Einbringungsgewinn I.\n\n▸ Sieben Jahre lang jährlich bis 31.05. nachweisen, wem die erhaltenen Anteile am Stichtag zuzurechnen sind (§ 22 Abs. 3 S. 1 UmwStG); z. B. per Gesellschafterliste (BMF vom 02.01.2025, UmwStE Rn. 22.30).\n▸ Ohne Nachweis gelten die Anteile als veräußert (§ 22 Abs. 3 S. 2 UmwStG), und zwar zu Beginn des jeweiligen jährlichen Überwachungszeitraums (BMF vom 02.01.2025, Rn. 22.28).\n▸ Einbringungsgewinn I = gemeiner Wert im Einbringungszeitpunkt abzüglich Kosten und Ansatz bei der GmbH, vermindert um 1/7 je abgelaufenem Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG).\n▸ Versteuerung rückwirkend im Wirtschaftsjahr der Einbringung als Gewinn nach § 16 EStG, ohne § 16 Abs. 4 und § 34 EStG (§ 22 Abs. 1 S. 1, 2 UmwStG); der Betrag gilt als nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n▸ Daneben ist der Gewinn aus der fiktiven Veräußerung der Anteile selbst zu prüfen (BMF vom 02.01.2025, Rn. 22.32).\n▸ Die Frist ist nicht verlängerbar; ein verspäteter Nachweis zählt nur, solange die Bescheide verfahrensrechtlich änderbar sind (BMF vom 02.01.2025, Rn. 22.33).\n\nBeispiel: 1.050.000 € – 350.000 € – 1/7 = 600.000 €. Variante: 700.000 € – 3/7 = 400.000 €.\n\nZum Schluss: § 22 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Nachweis nach § 22 Abs. 3 UmwStG vergessen: So rechnest du den Einbringungsgewinn I.\n\n▸ Sieben Jahre lang jährlich bis 31.05. nachweisen, wem die erhaltenen Anteile am Stichtag zuzurechnen sind (§ 22 Abs. 3 S. 1 UmwStG); z. B. per Gesellschafterliste (BMF vom 02.01.2025, UmwStE Rn. 22.30).\n▸ Ohne Nachweis gelten die Anteile als veräußert (§ 22 Abs. 3 S. 2 UmwStG), und zwar zu Beginn des jeweiligen jährlichen Überwachungszeitraums (BMF vom 02.01.2025, Rn. 22.28).\n▸ Einbringungsgewinn I = gemeiner Wert im Einbringungszeitpunkt abzüglich Kosten und Ansatz bei der GmbH, vermindert um 1/7 je abgelaufenem Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG).\n▸ Versteuerung rückwirkend im Wirtschaftsjahr der Einbringung als Gewinn nach § 16 EStG, ohne § 16 Abs. 4 und § 34 EStG (§ 22 Abs. 1 S. 1, 2 UmwStG); der Betrag gilt als nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n▸ Daneben ist der Gewinn aus der fiktiven Veräußerung der Anteile selbst zu prüfen (BMF vom 02.01.2025, Rn. 22.32).\n▸ Die Frist ist nicht verlängerbar; ein verspäteter Nachweis zählt nur, solange die Bescheide verfahrensrechtlich änderbar sind (BMF vom 02.01.2025, Rn. 22.33).\n\nBeispiel: 1.050.000 € – 350.000 € – 1/7 = 600.000 €. Variante: 700.000 € – 3/7 = 400.000 €.\n\nZum Schluss: § 22 UmwStG und UmwStE Rn. 22.28, 22.33 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

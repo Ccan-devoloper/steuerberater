@@ -773,7 +773,7 @@
          "r1"
         ],
         [
-         "( § 8 Abs. 3 Satz 2 KStG ) […]",
+         "(§ 8 Abs. 3 Satz 2 KStG) […]",
          null
         ]
        ]
@@ -782,7 +782,7 @@
        "13.",
        [
         [
-         "– verdeckte Einlagen ( § 8 Abs. 3 Satz 3 bis 6 KStG ), Einlagen ( § 4 Abs. 1 Satz 8 EStG )",
+         "– verdeckte Einlagen (§ 8 Abs. 3 Satz 3 bis 6 KStG), Einlagen (§ 4 Abs. 1 Satz 8 EStG)",
          null
         ]
        ]
@@ -795,7 +795,7 @@
          "b1"
         ],
         [
-         "(z. B. § 10 KStG , § 4 Abs. 5 bis 8 EStG , § 160 AO )",
+         "(z. B. § 10 KStG, § 4 Abs. 5 bis 8 EStG, § 160 AO)",
          null
         ]
        ]
@@ -804,7 +804,7 @@
        "20.",
        [
         [
-         "+/– Kürzungen/Hinzurechnungen nach § 8b KStG",
+         "+/– Kürzungen/Hinzurechnungen nach § 8b KStG",
          "gr1"
         ],
         [
@@ -817,7 +817,7 @@
        "41.",
        [
         [
-         "– Verlustabzug nach § 10d EStG",
+         "– Verlustabzug nach § 10d EStG",
          "g2"
         ],
         [
@@ -838,15 +838,15 @@
      ],
      "notizen": [
       [
-       "KSt, SolZ, GewSt",
-       "b1"
-      ],
-      [
        "vGA",
        "r1"
       ],
       [
-       "Dividenden, 5 %",
+       "Steuern",
+       "b1"
+      ],
+      [
+       "Dividenden",
        "gr1"
       ],
       [

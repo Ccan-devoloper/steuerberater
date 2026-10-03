@@ -31,7 +31,7 @@
      ],
      "norm": "§ 16 Abs. 3 S. 2 EStG",
      "unter": "Achtung",
-     "teaser": "+ Markier-Guide § 16 EStG",
+     "teaser": "+ Markier-Guide § 16 + BMF",
      "motiv": {
       "typ": "icon",
       "name": "tabler:alert-triangle",
@@ -254,7 +254,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Wärst du reingefallen?",
-     "teaser": "Weiterwischen: § 16 EStG markiert"
+     "teaser": "Weiterwischen: § 16 + BMF markiert"
     },
     {
      "typ": "gesetz",
@@ -327,12 +327,113 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: BMF vom 19.12.2018, Rn. 2",
-      "Sachwert ins Privatvermögen: keine Realteilung"
+      "An eine GmbH: § 16 Abs. 3 S. 4 EStG",
+      "sofort gemeiner Wert"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 19.12.2018, Rn. 2 (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Scheidet ein Mitunternehmer aus einer mehrgliedrigen Mitunternehmerschaft gegen Übertragung von Wirtschaftsgütern des Betriebsvermögens, die beim ausscheidenden Mitunternehmer",
+         null
+        ],
+        [
+         "zumindest teilweise weiterhin Betriebsvermögen",
+         "g1"
+        ],
+        [
+         "darstellen, aus und wird diese im Übrigen von den verbleibenden Mitunternehmern als Mitunternehmerschaft fortgeführt, liegt ein Fall der",
+         null
+        ],
+        [
+         "„unechten“ Realteilung",
+         "b1"
+        ],
+        [
+         "vor […].",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Dies gilt unabhängig davon, ob der ausscheidende Mitunternehmer einen Teilbetrieb […], einen Mitunternehmeranteil oder",
+         null
+        ],
+        [
+         "nur Einzelwirtschaftsgüter",
+         "gr1"
+        ],
+        [
+         "[…] erhält.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Kein Fall der „unechten“ Realteilung liegt vor, wenn der ausscheidende Mitunternehmer die ihm im Rahmen seines Ausscheidens übertragenen Einzelwirtschaftsgüter",
+         null
+        ],
+        [
+         "vollständig ins Privatvermögen",
+         "r1"
+        ],
+        [
+         "überführt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 5",
+       [
+        [
+         "In diesem Fall erzielt der ausscheidende Mitunternehmer einen",
+         null
+        ],
+        [
+         "Veräußerungsgewinn.",
+         "r2"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "eigener Betrieb",
+       "g1"
+      ],
+      [
+       "auch Einzel-WG",
+       "gr1"
+      ],
+      [
+       "privat: Falle!",
+       "r1"
+      ],
+      [
+       "300.000 €",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "Zweigliedrige KG: echte Realteilung",
+      "BMF vom 19.12.2018, Rn. 1"
      ]
     }
    ],
-   "caption": "Klausurfalle Personengesellschaften: Sachwertabfindung ist nicht automatisch Realteilung.\n\nFall: Teodor scheidet aus einer KG aus und erhält ein Grundstück (Buchwert = Kapitalkonto 200.000 €, gemeiner Wert 500.000 €). Die anderen machen mit der KG weiter.\n\n▸ Geht das Wirtschaftsgut in ein Betriebsvermögen des Ausscheidenden, liegt eine unechte Realteilung vor; Buchwerte sind fortzuführen, wenn die stillen Reserven steuerverhaftet bleiben (§ 16 Abs. 3 S. 2 EStG; BMF vom 19.12.2018, Rn. 2, BStBl. I 2019 S. 6).\n▸ Gelangen die übertragenen Einzelwirtschaftsgüter vollständig ins Privatvermögen, liegt keine Realteilung vor (BMF vom 19.12.2018, Rn. 2). Teodor veräußert seinen Mitunternehmeranteil: 500.000 € − 200.000 € = 300.000 € (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Sperrfrist: Veräußerung oder Entnahme übertragener wesentlicher Betriebsgrundlagen, Grund und Boden oder Gebäude bis drei Jahre nach Abgabe der Erklärung der Mitunternehmerschaft für das Jahr der Realteilung führt rückwirkend zum gemeinen Wert (§ 16 Abs. 3 S. 3 EStG).\n▸ Übertragung auf eine Körperschaft: gemeiner Wert (§ 16 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Klausurfalle Personengesellschaften: Sachwertabfindung ist nicht automatisch Realteilung.\n\nFall: Teodor scheidet aus einer KG aus und erhält ein Grundstück (Buchwert = Kapitalkonto 200.000 €, gemeiner Wert 500.000 €). Die anderen machen mit der KG weiter.\n\n▸ Geht das Wirtschaftsgut in ein Betriebsvermögen des Ausscheidenden, liegt eine unechte Realteilung vor; Buchwerte sind fortzuführen, wenn die stillen Reserven steuerverhaftet bleiben (§ 16 Abs. 3 S. 2 EStG; BMF vom 19.12.2018, Rn. 2, BStBl. I 2019 S. 6).\n▸ Gelangen die übertragenen Einzelwirtschaftsgüter vollständig ins Privatvermögen, liegt keine Realteilung vor (BMF vom 19.12.2018, Rn. 2). Teodor veräußert seinen Mitunternehmeranteil: 500.000 € − 200.000 € = 300.000 € (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Sperrfrist: Veräußerung oder Entnahme übertragener wesentlicher Betriebsgrundlagen, Grund und Boden oder Gebäude bis drei Jahre nach Abgabe der Erklärung der Mitunternehmerschaft für das Jahr der Realteilung führt rückwirkend zum gemeinen Wert (§ 16 Abs. 3 S. 3 EStG).\n▸ Übertragung auf eine Körperschaft: gemeiner Wert (§ 16 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG und BMF vom 19.12.2018, Rn. 2 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

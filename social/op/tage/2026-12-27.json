@@ -39,7 +39,7 @@
       "kompakt"
      ],
      "unter": "5 Themen",
-     "teaser": "+ Markier-Guide § 23 EStG",
+     "teaser": "+ Markier-Guide § 23 + R 10a.3",
      "motiv": {
       "typ": "kalender",
       "monat": "DEZEMBER",
@@ -78,7 +78,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 23 EStG markiert"
+     "teaser": "Am Ende: § 23 EStG + R 10a.3 markiert"
     },
     {
      "typ": "inhalt",
@@ -94,7 +94,7 @@
        "Wer ausscheidet, nimmt seinen Anteil mit: Er geht unter.",
        "nein",
        "Bold",
-       "§ 10a S. 4, 5 GewStG"
+       "R 10a.3 Abs. 3 S. 9 GewStR"
       ]
      ],
      "figur": "A:redet",
@@ -240,8 +240,8 @@
       ]
      ],
      "speichern": "Speichern für Klausur 2",
-     "frage": "Welches Thema wiederholst du heute?",
-     "teaser": "Weiterwischen: § 23 EStG markiert"
+     "frage": "Was wiederholst du heute?",
+     "teaser": "Weiterwischen: § 23 + R 10a.3 markiert"
     },
     {
      "typ": "gesetz",
@@ -309,9 +309,81 @@
       "Randnotiz: § 23 Abs. 3 S. 5 EStG",
       "Gewinne unter 1.000 € im Jahr bleiben frei"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 10a.3 Abs. 3 GewStR (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Bei Personengesellschaften und anderen Mitunternehmerschaften sind Träger des Rechts auf den Verlustabzug",
+         null
+        ],
+        [
+         "die einzelnen Mitunternehmer.",
+         "g1"
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Ein sich für die Mitunternehmerschaft insgesamt ergebender Fehlbetrag ist den Mitunternehmern gemäß § 10a Satz 4 GewStG entsprechend dem",
+         null
+        ],
+        [
+         "allgemeinen Gewinnverteilungsschlüssel",
+         "b1"
+        ],
+        [
+         "ohne Berücksichtigung von Vorabgewinnanteilen zuzurechnen.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 9",
+       [
+        [
+         "[…] Beim Ausscheiden eines Gesellschafters aus einer Personengesellschaft",
+         null
+        ],
+        [
+         "entfällt der Verlustabzug",
+         "r1"
+        ],
+        [
+         "gemäß § 10a GewStG anteilig in der Höhe, in der der Fehlbetrag dem ausscheidenden Gesellschafter nach § 10a Satz 4 und 5 GewStG zuzurechnen ist. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "je Kopf",
+       "g1"
+      ],
+      [
+       "Gewinnschlüssel",
+       "b1"
+      ],
+      [
+       "geht unter",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Neuer Gesellschafter: Altverlust nur",
+      "gegen den Anteil der Altgesellschafter"
+     ]
     }
    ],
-   "caption": "Klausur 2 kompakt: fünf Themen aus der Weihnachtswoche zum Wiederholen.\n\n1. Gewerbeverlust: Träger des Verlustabzugs ist der einzelne Mitunternehmer; Aufteilung und Abzug nach dem allgemeinen Gewinnverteilungsschlüssel (R 10a.3 Abs. 3 S. 1 GewStR; § 10a S. 4, 5 GewStG).\n2. Ausland: Bauausführungen sind national ab mehr als sechs Monaten Betriebsstätte (§ 12 S. 2 Nr. 8 AO), nach dem Musterabkommen erst ab mehr als zwölf Monaten (Art. 5 Abs. 3 OECD-MA). Überführung in eine ausländische Betriebsstätte gilt als Entnahme zum gemeinen Wert (§ 4 Abs. 1 S. 3, 4, § 6 Abs. 1 Nr. 4 S. 1 EStG).\n3. Homeoffice: 6 € je Tag, höchstens 1.260 € (§ 4 Abs. 5 S. 1 Nr. 6c EStG).\n4. Private Veräußerung: Grundstücke binnen zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG); Freigrenze 1.000 € (§ 23 Abs. 3 S. 5 EStG).\n5. Spenden der GmbH: bis 20 % des Einkommens vor Spenden- und Verlustabzug, Überhang wird vorgetragen (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG); nicht abziehbar sind Steuern vom Einkommen und die Hälfte der Aufsichtsratsvergütung (§ 10 Nr. 2, 4 KStG).\n\nZum Schluss: § 23 Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Klausur 2 kompakt: fünf Themen aus der Weihnachtswoche zum Wiederholen.\n\n1. Gewerbeverlust: Träger des Verlustabzugs ist der einzelne Mitunternehmer; Aufteilung und Abzug nach dem allgemeinen Gewinnverteilungsschlüssel (R 10a.3 Abs. 3 S. 1 GewStR; § 10a S. 4, 5 GewStG); wer ausscheidet, verliert seinen Anteil (R 10a.3 Abs. 3 S. 9 GewStR).\n2. Ausland: Bauausführungen sind national ab mehr als sechs Monaten Betriebsstätte (§ 12 S. 2 Nr. 8 AO), nach dem Musterabkommen erst ab mehr als zwölf Monaten (Art. 5 Abs. 3 OECD-MA). Überführung in eine ausländische Betriebsstätte gilt als Entnahme zum gemeinen Wert (§ 4 Abs. 1 S. 3, 4, § 6 Abs. 1 Nr. 4 S. 1 EStG).\n3. Homeoffice: 6 € je Tag, höchstens 1.260 € (§ 4 Abs. 5 S. 1 Nr. 6c EStG).\n4. Private Veräußerung: Grundstücke binnen zehn Jahren (§ 23 Abs. 1 S. 1 Nr. 1 EStG); abgezogene AfA mindert die Anschaffungskosten (§ 23 Abs. 3 S. 4 EStG); Freigrenze 1.000 € (§ 23 Abs. 3 S. 5 EStG).\n5. Spenden der GmbH: bis 20 % des Einkommens vor Spenden- und Verlustabzug, Überhang wird vorgetragen (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG); nicht abziehbar sind Steuern vom Einkommen und die Hälfte der Aufsichtsratsvergütung (§ 10 Nr. 2, 4 KStG).\n\nZum Schluss: § 23 Abs. 3 EStG und R 10a.3 Abs. 3 GewStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

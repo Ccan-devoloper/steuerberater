@@ -367,7 +367,7 @@
      ],
      "norm": "§ 8 Abs. 3 S. 2 KStG",
      "unter": "Klausurfrage",
-     "teaser": "+ Markier-Guide § 8 KStG",
+     "teaser": "+ Markier-Guide § 8 + R 8.5",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -573,7 +573,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Beide Richtungen parat?",
-     "teaser": "Weiterwischen: § 8 KStG markiert"
+     "teaser": "Weiterwischen: § 8 + R 8.5 markiert"
     },
     {
      "typ": "gesetz",
@@ -638,12 +638,91 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: H 8.9 KStH",
-      "Nutzungsvorteile sind nicht einlagefähig"
+      "Gesellschafterin eine GmbH ab 10 %?",
+      "§ 8b KStG: im Ergebnis 95 % steuerfrei"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 8.5 KStR, H 8.9 KStH (Auszug)",
+     "absaetze": [
+      [
+       "R 8.5 (1) S. 1",
+       [
+        [
+         "Eine vGA i. S. d. § 8 Abs. 3 Satz 2 KStG ist eine Vermögensminderung oder",
+         null
+        ],
+        [
+         "verhinderte Vermögensmehrung,",
+         "g1"
+        ],
+        [
+         "die",
+         null
+        ],
+        [
+         "durch das Gesellschaftsverhältnis veranlasst",
+         "b1"
+        ],
+        [
+         "ist, sich auf die Höhe des Unterschiedsbetrags i. S. d. § 4 Abs. 1 Satz 1 EStG auswirkt und nicht auf einem den gesellschaftsrechtlichen Vorschriften entsprechenden Gewinnverteilungsbeschluss beruht.",
+         null
+        ]
+       ]
+      ],
+      [
+       "H 8.9",
+       [
+        [
+         "Nutzungsvorteile: Die Überlassung eines Wirtschaftsguts zum Gebrauch oder zur Nutzung kann mangels Bilanzierbarkeit des Nutzungsvorteils",
+         null
+        ],
+        [
+         "nicht Gegenstand einer Einlage",
+         "r1"
+        ],
+        [
+         "sein […]. Keine einlagefähigen Nutzungsvorteile sind insbesondere […] der",
+         null
+        ],
+        [
+         "Zinsvorteil bei unverzinslicher oder geringverzinslicher Darlehensgewährung",
+         "gr1"
+        ],
+        [
+         "[…].",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zinsverzicht",
+       "g1"
+      ],
+      [
+       "Gesellschafter!",
+       "b1"
+      ],
+      [
+       "keine vE",
+       "r1"
+      ],
+      [
+       "zinslos an die GmbH",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "BFH vom 26.10.1987, GrS 2/86",
+      "BStBl 1988 II S. 348"
      ]
     }
    ],
-   "caption": "Prüfungsfrage KSt: zinsloses Darlehen zwischen GmbH und Gesellschafter – welche Folgen?\n\nFall: Die Kobalt GmbH leiht ihrem Alleingesellschafter Jannik am 01.01.2026 zinslos 200.000 €; fremdüblich wären 5 %.\n\nLösung:\n▸ GmbH: Der Zinsverzicht ist eine verhinderte Vermögensmehrung, die durch das Gesellschaftsverhältnis veranlasst ist (R 8.5 Abs. 1 KStR). Die vGA von 10.000 € mindert das Einkommen nicht und wird außerbilanziell hinzugerechnet (§ 8 Abs. 3 S. 2 KStG).\n▸ Jannik: Verdeckte Gewinnausschüttungen gehören zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n▸ Ist Gesellschafterin eine Kapitalgesellschaft mit mindestens 10 % zu Beginn des Kalenderjahres, bleibt der Bezug außer Ansatz, 5 % gelten als nicht abziehbar (§ 8b Abs. 1, 4, 5 KStG).\n\nKlausurfalle: Gewährt der Gesellschafter der GmbH ein zinsloses Darlehen, liegt keine verdeckte Einlage vor; Nutzungsvorteile sind nicht einlagefähig (H 8.9 KStH „Nutzungsvorteile“; BFH vom 26.10.1987, GrS 2/86).\n\nZum Schluss: § 8 Abs. 3 KStG und § 20 Abs. 1 Nr. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Prüfungsfrage KSt: zinsloses Darlehen zwischen GmbH und Gesellschafter – welche Folgen?\n\nFall: Die Kobalt GmbH leiht ihrem Alleingesellschafter Jannik am 01.01.2026 zinslos 200.000 €; fremdüblich wären 5 %.\n\nLösung:\n▸ GmbH: Der Zinsverzicht ist eine verhinderte Vermögensmehrung, die durch das Gesellschaftsverhältnis veranlasst ist (R 8.5 Abs. 1 KStR). Die vGA von 10.000 € mindert das Einkommen nicht und wird außerbilanziell hinzugerechnet (§ 8 Abs. 3 S. 2 KStG).\n▸ Jannik: Verdeckte Gewinnausschüttungen gehören zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n▸ Ist Gesellschafterin eine Kapitalgesellschaft mit mindestens 10 % zu Beginn des Kalenderjahres, bleibt der Bezug außer Ansatz, 5 % gelten als nicht abziehbar (§ 8b Abs. 1, 4, 5 KStG).\n\nKlausurfalle: Gewährt der Gesellschafter der GmbH ein zinsloses Darlehen, liegt keine verdeckte Einlage vor; Nutzungsvorteile sind nicht einlagefähig (H 8.9 KStH „Nutzungsvorteile“; BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348).\n\nZum Schluss: § 8 Abs. 3 KStG, § 20 Abs. 1 Nr. 1 EStG, R 8.5 KStR und H 8.9 KStH zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -654,7 +733,7 @@
     "§ 8 Abs. 3 S. 2, 3 KStG",
     "R 8.5 Abs. 1 KStR",
     "H 8.9 KStH (Nutzungsvorteile)",
-    "BFH vom 26.10.1987, GrS 2/86",
+    "BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348",
     "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
     "§ 8b Abs. 1, 4, 5 KStG"
    ]

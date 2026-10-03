@@ -40,7 +40,7 @@
      ],
      "norm": "§ 10a GewStG",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 10a GewStG",
+     "teaser": "+ Markier-Guide § 10a + R 10a.3",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -303,12 +303,12 @@
       ]
      ],
      "speichern": "Speichern für Klausur 2",
-     "frage": "Hättest du 240.000 € abgezogen?",
-     "teaser": "Weiterwischen: § 10a GewStG markiert"
+     "frage": "240.000 € abgezogen?",
+     "teaser": "Weiterwischen: § 10a + R 10a.3 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Richtlinie markieren",
      "kopf": "§ 10a GewStG Gewerbeverlust (Auszug)",
      "absaetze": [
       [
@@ -332,11 +332,11 @@
        "S. 4",
        [
         [
-         "Bei einer Mitunternehmerschaft ist der sich für die Mitunternehmerschaft insgesamt ergebende Fehlbetrag den Mitunternehmern",
+         "Bei einer Mitunternehmerschaft ist der […] Fehlbetrag den Mitunternehmern entsprechend dem",
          null
         ],
         [
-         "entsprechend dem sich aus dem Gesellschaftsvertrag ergebenden allgemeinen Gewinnverteilungsschlüssel",
+         "[…] allgemeinen Gewinnverteilungsschlüssel",
          "b1"
         ],
         [
@@ -353,7 +353,7 @@
        "S. 5",
        [
         [
-         "Für den Abzug der den Mitunternehmern zugerechneten Fehlbeträge […] ist der […] maßgebende Gewerbeertrag […] den Mitunternehmern entsprechend dem sich aus dem Gesellschaftsvertrag",
+         "Für den Abzug der den Mitunternehmern zugerechneten Fehlbeträge […] ist der […] Gewerbeertrag […] den Mitunternehmern entsprechend dem […]",
          null
         ],
         [
@@ -386,12 +386,69 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: R 10a.3 Abs. 3 GewStR",
-      "Wer ausscheidet, nimmt seinen Verlustanteil mit"
-     ]
+      "Unternehmensidentität: R 10a.2 GewStR",
+      "Derselbe Betrieb muss weiterlaufen"
+     ],
+     "zweite": {
+      "kopf": "R 10a.3 Abs. 3 GewStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Bei Personengesellschaften und anderen Mitunternehmerschaften sind Träger des Rechts auf den Verlustabzug",
+          null
+         ],
+         [
+          "die einzelnen Mitunternehmer.",
+          "g1"
+         ]
+        ]
+       ],
+       [
+        "S. 9",
+        [
+         [
+          "[…] 1. Beim Ausscheiden eines Gesellschafters […]",
+          null
+         ],
+         [
+          "entfällt der Verlustabzug",
+          "r1"
+         ],
+         [
+          "[…] anteilig in der Höhe, in der der Fehlbetrag dem ausscheidenden Gesellschafter […] zuzurechnen ist. […] 3.",
+          null
+         ],
+         [
+          "Veräußert ein Gesellschafter seinen Mitunternehmeranteil an einen Dritten,",
+          "b1"
+         ],
+         [
+          "sind die Grundsätze der Nummern 1 und 2 entsprechend anzuwenden.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "je Person",
+        "g1"
+       ],
+       [
+        "Tarek: weg",
+        "r1"
+       ],
+       [
+        "Nuri: nichts",
+        "b1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Gewerbeverlust nach Gesellschafterwechsel: Wie viel darf die OHG noch abziehen? Eine echte Prüfungsfrage für Klausur 2.\n\n▸ Träger des Verlustabzugs ist bei der Mitunternehmerschaft jeder einzelne Mitunternehmer (Unternehmeridentität, R 10a.3 Abs. 3 S. 1 GewStR); zusätzlich muss derselbe Betrieb fortgeführt werden (Unternehmensidentität, R 10a.2 GewStR).\n▸ Der Fehlbetrag wird nach dem allgemeinen Gewinnverteilungsschlüssel ohne Vorabgewinnanteile auf die Mitunternehmer verteilt (§ 10a S. 4 GewStG).\n▸ Scheidet ein Gesellschafter aus, entfällt sein Verlustanteil; der Erwerber seines Anteils übernimmt ihn nicht (R 10a.3 Abs. 3 GewStR).\n▸ Der verbleibende Anteil wird nur mit dem Gewerbeertrag verrechnet, der nach dem Gewinnverteilungsschlüssel des Abzugsjahres auf diesen Mitunternehmer entfällt (§ 10a S. 5 GewStG).\n▸ Sockel 1 Mio. €, darüber 60 % (§ 10a S. 1, 2 GewStG) – nicht 70 % wie bei der Einkommensteuer (§ 10d Abs. 2 S. 1 EStG). Der Rest wird gesondert festgestellt (§ 10a S. 6 GewStG).\n\nLösung: 300.000 € × 50 % = 150.000 €, Abzug 120.000 €, Gewerbeertrag 180.000 €. Variante: 100.000 € Abzug, 20.000 € Fehlbetrag festzustellen.\n\nZum Schluss: § 10a GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Gewerbeverlust nach Gesellschafterwechsel: Wie viel darf die OHG noch abziehen? Eine echte Prüfungsfrage für Klausur 2.\n\n▸ Träger des Verlustabzugs ist bei der Mitunternehmerschaft jeder einzelne Mitunternehmer (Unternehmeridentität, R 10a.3 Abs. 3 S. 1 GewStR); zusätzlich muss derselbe Betrieb fortgeführt werden (Unternehmensidentität, R 10a.2 GewStR).\n▸ Der Fehlbetrag wird nach dem allgemeinen Gewinnverteilungsschlüssel ohne Vorabgewinnanteile auf die Mitunternehmer verteilt (§ 10a S. 4 GewStG).\n▸ Scheidet ein Gesellschafter aus, entfällt sein Verlustanteil; der Erwerber seines Anteils übernimmt ihn nicht (R 10a.3 Abs. 3 GewStR).\n▸ Der verbleibende Anteil wird nur mit dem Gewerbeertrag verrechnet, der nach dem Gewinnverteilungsschlüssel des Abzugsjahres auf diesen Mitunternehmer entfällt (§ 10a S. 5 GewStG).\n▸ Sockel 1 Mio. €, darüber 60 % (§ 10a S. 1, 2 GewStG) – nicht 70 % wie bei der Einkommensteuer (§ 10d Abs. 2 S. 1 EStG). Der Rest wird gesondert festgestellt (§ 10a S. 6 GewStG).\n\nLösung: 300.000 € × 50 % = 150.000 €, Abzug 120.000 €, Gewerbeertrag 180.000 €. Variante: 100.000 € Abzug, 20.000 € Fehlbetrag festzustellen.\n\nZum Schluss: § 10a GewStG und R 10a.3 Abs. 3 GewStR zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -443,7 +500,7 @@
      ],
      "norm": "R 4.2 Abs. 2 S. 2 EStR",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 15 EStG",
+     "teaser": "+ Markier-Guide § 15 + R 4.2",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -491,7 +548,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 15 EStG markiert"
+     "teaser": "Am Ende: § 15 EStG + R 4.2 markiert"
     },
     {
      "typ": "inhalt",
@@ -671,11 +728,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Wo hast du SBV II schon übersehen?",
-     "teaser": "Weiterwischen: § 15 EStG markiert"
+     "teaser": "Weiterwischen: § 15 + R 4.2 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Richtlinie markieren",
      "kopf": "§ 15 EStG (Auszug)",
      "absaetze": [
       [
@@ -735,12 +792,85 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: R 4.2 Abs. 2 S. 2 EStR",
-      "SBV I nützt dem Betrieb, SBV II stärkt die Beteiligung"
-     ]
+      "Komplementär-GmbH: H 4.2 (2) EStH",
+      "Eigenes Geschäft von Gewicht: kein SBV II"
+     ],
+     "zweite": {
+      "kopf": "R 4.2 Abs. 2 EStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 2",
+        [
+         [
+          "Wirtschaftsgüter, die",
+          null
+         ],
+         [
+          "einem, mehreren oder allen Mitunternehmern gehören",
+          "g1"
+         ],
+         [
+          "und die nicht Gesamthandsvermögen […] sind, gehören zum notwendigen Betriebsvermögen, wenn sie entweder",
+          null
+         ],
+         [
+          "unmittelbar dem Betrieb der Personengesellschaft dienen",
+          "b1"
+         ],
+         [
+          "(Sonderbetriebsvermögen I) oder unmittelbar zur",
+          null
+         ],
+         [
+          "Begründung oder Stärkung der Beteiligung",
+          "r1"
+         ],
+         [
+          "des Mitunternehmers an der Personengesellschaft eingesetzt werden sollen (Sonderbetriebsvermögen II).",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 3",
+        [
+         [
+          "Solche Wirtschaftsgüter können zum gewillkürten Betriebsvermögen gehören, wenn sie",
+          null
+         ],
+         [
+          "objektiv geeignet und subjektiv dazu bestimmt",
+          "gr1"
+         ],
+         [
+          "sind, […] zu fördern.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Eigentum",
+        "g1"
+       ],
+       [
+        "SBV I",
+        "b1"
+       ],
+       [
+        "SBV II",
+        "r1"
+       ],
+       [
+        "gewillkürt",
+        "gr1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Sonderbetriebsvermögen II erkennen: das Prüfschema für die Bilanzklausur.\n\n1. Sonderbetriebsvermögen sind Wirtschaftsgüter im Eigentum eines oder mehrerer Mitunternehmer (R 4.2 Abs. 2 S. 1 EStR).\n2. Dient das Wirtschaftsgut unmittelbar dem Betrieb der Gesellschaft, ist es SBV I, etwa ein an die KG vermietetes Grundstück; die Miete ist Sondervergütung (R 4.2 Abs. 2 S. 2 EStR; § 15 Abs. 1 S. 1 Nr. 2 EStG).\n3. Wird es unmittelbar zur Begründung oder Stärkung der Beteiligung eingesetzt, ist es notwendiges SBV II (R 4.2 Abs. 2 S. 2 EStR). Beispiele: Darlehen zur Finanzierung der Einlage (Zinsen als Sonderbetriebsausgaben, § 4 Abs. 4 EStG) und die Beteiligung des Kommanditisten an der Komplementär-GmbH, außer diese hat ein eigenes Geschäft von mehr als untergeordnetem Gewicht (H 4.2 (2) EStH „Anteile an Kapitalgesellschaften“).\n4. Sonst gewillkürtes SBV, wenn objektiv geeignet und subjektiv bestimmt (R 4.2 Abs. 2 S. 3 EStR).\n\nFolge: Ausschüttungen auf Anteile im SBV II sind gewerbliche Einkünfte (§ 20 Abs. 8 S. 1 EStG), sonst Kapitalerträge (§ 20 Abs. 1 Nr. 1 EStG).\nKlausurfalle: Eine Minderheitsbeteiligung an der Komplementär-GmbH, die den Einfluss in der KG nicht stärkt, ist kein notwendiges SBV II (H 4.2 (2) EStH).\n\nZum Schluss: § 15 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Sonderbetriebsvermögen II erkennen: das Prüfschema für die Bilanzklausur.\n\n1. Sonderbetriebsvermögen sind Wirtschaftsgüter im Eigentum eines oder mehrerer Mitunternehmer (R 4.2 Abs. 2 S. 1 EStR).\n2. Dient das Wirtschaftsgut unmittelbar dem Betrieb der Gesellschaft, ist es SBV I, etwa ein an die KG vermietetes Grundstück; die Miete ist Sondervergütung (R 4.2 Abs. 2 S. 2 EStR; § 15 Abs. 1 S. 1 Nr. 2 EStG).\n3. Wird es unmittelbar zur Begründung oder Stärkung der Beteiligung eingesetzt, ist es notwendiges SBV II (R 4.2 Abs. 2 S. 2 EStR). Beispiele: Darlehen zur Finanzierung der Einlage (Zinsen als Sonderbetriebsausgaben, § 4 Abs. 4 EStG) und die Beteiligung des Kommanditisten an der Komplementär-GmbH, außer diese hat ein eigenes Geschäft von mehr als untergeordnetem Gewicht (H 4.2 (2) EStH „Anteile an Kapitalgesellschaften“).\n4. Sonst gewillkürtes SBV, wenn objektiv geeignet und subjektiv bestimmt (R 4.2 Abs. 2 S. 3 EStR).\n\nFolge: Ausschüttungen auf Anteile im SBV II sind gewerbliche Einkünfte (§ 20 Abs. 8 S. 1 EStG), sonst Kapitalerträge (§ 20 Abs. 1 Nr. 1 EStG).\nKlausurfalle: Eine Minderheitsbeteiligung an der Komplementär-GmbH, die den Einfluss in der KG nicht stärkt, ist kein notwendiges SBV II (H 4.2 (2) EStH).\n\nZum Schluss: § 15 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
