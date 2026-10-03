@@ -58,7 +58,7 @@
       },
       {
         "slot": "s7",
-        "zeit": "14:40",
+        "zeit": "12:00",
         "art": "anlass"
       },
       {
@@ -263,7 +263,7 @@
         {
           "art": "text",
           "titel": "Steuerberaterexamen",
-          "text": "Laptop 900 € netto, Sammelposten gewählt · fünf Jahre je 180 € Aufwand · Teilwert nur bei Dauer, · Drohverlust nie, · 5,5 % ab zwölf Monaten, · 800 € sofort. · Speichern für Klausur 3 · Was wackelt noch?"
+          "text": "Regal 900 € netto, Sammelposten gewählt · fünf Jahre je 180 € Aufwand · Teilwert nur bei Dauer, · Drohverlust nie, · 5,5 % ab zwölf Monaten, · 800 € sofort. · Speichern für Klausur 3 · Was wackelt noch?"
         }
       ]
     },
@@ -376,7 +376,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:15:40Z",
+    "erzeugtAm": "2026-10-03T12:56:16Z",
     "pfad": "vorproduktion/2026-10-07/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
