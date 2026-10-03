@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-03T06:46:30.244Z",
+  "stand": "2026-10-03T07:44:10.045Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -8471,6 +8471,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-03T07:44:08.860Z",
+          "alterStunden": 95,
+          "reach": 56,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -12501,6 +12513,30 @@
           "navigation_tap_forward": 6
         }
       ]
+    },
+    "18129536905749187": {
+      "art": "beitrag",
+      "datum": "2026-10-03",
+      "titel": "Abgabenordnung",
+      "format": "schema",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T05:45:13.504Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T07:44:08.860Z",
+          "alterStunden": 2,
+          "reach": 27,
+          "saved": 4,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -13256,6 +13292,11 @@
     },
     {
       "stand": "2026-10-03T06:46:30.244Z",
+      "follower": 105,
+      "medien": 81
+    },
+    {
+      "stand": "2026-10-03T07:44:10.045Z",
       "follower": 105,
       "medien": 81
     }

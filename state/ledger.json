@@ -5935,7 +5935,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 56,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5944,8 +5944,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T07:43:58.908Z",
-      "insightsAlterStunden": 71
+      "insightsStand": "2026-10-03T07:44:08.860Z",
+      "insightsAlterStunden": 95
     },
     {
       "datum": "2026-09-29",
@@ -7295,7 +7295,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "saved": 4,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 4,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-03T07:44:08.860Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-03",
