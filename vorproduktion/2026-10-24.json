@@ -4,704 +4,546 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "erbst-aufb-erbst-v-27",
-        "themaTitel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
+        "format": "klausurtechnik",
+        "themaId": "klausurtechnik-k1-erbst-2026-43",
+        "themaTitel": "ErbSt-Teil der Klausur 1: Fahrplan, Zeit und Darstellung",
         "fach": "erbst",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "klausurtechnik",
-        "themaId": "gewst-aufb-gewst-ks-04",
-        "themaTitel": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?",
-        "fach": "gewst",
+        "format": "rechenweg",
+        "themaId": "est-aufb-est-ks2-23-04",
+        "themaTitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+        "fach": "est",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "bilanz-modul-k3-8",
-        "themaTitel": "Investitionsabzugsbetrag und Sonder-AfA",
-        "fach": "bilanz",
-        "klausur": 3,
-        "lang": false
+        "themaId": "umwst-aufb-umw-3-12",
+        "themaTitel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
+        "fach": "umwst",
+        "klausur": 3
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:18",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-1"
+        "themaId": "persg-quiz-k3-26"
       },
       {
         "slot": "s5",
-        "zeit": "07:18",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-1"
+        "themaId": "persg-quiz-k3-26"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "12:11",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "erbst-modul-erbst-504"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:31",
-        "art": "fehler",
-        "themaId": "erbst-modul-erbst-539"
+        "themaId": "erbst-aufb-erbst-v-5"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:42",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "erbst-aufb-erbst-t1-2"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:29",
-        "art": "tipp",
-        "themaId": "erbst-aufb-erbst-v-5"
+        "themaId": "kst-karte-kst-8"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-4-11"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
+      "format": "klausurtechnik",
       "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-aufb-erbst-v-27",
-      "slug": "2026-10-24-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Zur Klasse I gehören Ehegatten, Lebenspartner, Kinder, Stiefkinder und deren Abkömmlinge sowie Eltern und Voreltern nur beim Erwerb von Todes wegen; Geschwister, Nichten und Neffen, Stief- und Schwiegereltern, Schwiegerkinder und der geschiedene Ehegatte fallen in Klasse II.",
-            "Bei unbeschränkter Steuerpflicht betragen die Freibeträge 500.000 € für Ehegatten und Lebenspartner, 400.000 € für Kinder und Kinder verstorbener Kinder, 200.000 € für übrige Enkel, 100.000 € für die restliche Klasse I und 20.000 € in den Klassen II und III."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Verwandtschaftsverhältnis zum Erblasser oder Schenker nach bürgerlichem Recht im Zeitpunkt der Steuerentstehung feststellen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Steuerklasse nach § 15 ErbStG bestimmen und dabei zwischen Erwerb von Todes wegen und Schenkung unterscheiden, etwa bei Eltern."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Freibetrag nach § 16 Abs. 1 ErbStG ablesen und Vorerwerbe von derselben Person aus den letzten zehn Jahren nach § 14 ErbStG einbeziehen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Eltern erben in Klasse I, beschenkt werden sie in Klasse II. Und der Freibetrag des § 16 ErbStG steht dir für alle Erwerbe von derselben Person innerhalb von zehn Jahren nur einmal zu (§ 14 ErbStG)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei? Erst das Verhältnis zum Erblasser oder Schenker klären, dann die Klasse nach § 15 ErbStG und den Freibetrag nach § 16 ErbStG bestimmen. Vorerwerbe der letzten zehn Jahre rechnest du nach § 14 ErbStG hinzu.",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "klausurtechnik-k1-erbst-2026-43",
+      "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 ErbStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ],
-      "kurztitel": "Steuerklasse und Freibetrag: Wer bekommt wie viel…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
+        "§§ 2, 3, 7, 12 ErbStG",
+        "§ 10 Abs. 1 S. 1, 2, 6, Abs. 5 Nr. 3 S. 2 ErbStG",
         "§ 15 ErbStG",
-        "§ 16 Abs. 1 ErbStG",
-        "§ 16 Abs. 2 ErbStG",
-        "§ 17 Abs. 1 ErbStG",
-        "§ 17 Abs. 2 ErbStG",
-        "§ 13 ErbStG",
-        "§ 14 ErbStG",
-        "§ 19 ErbStG",
-        "§ 2 Abs. 1 Nr. 3 ErbStG",
-        "§ 121 Nr. 1 BewG",
-        "§ 13 Abs. 1 BewG",
-        "Themenpool: erbst-aufb-erbst-v-27"
+        "§ 16 Abs. 1 Nr. 2 ErbStG",
+        "§ 19 Abs. 1 ErbStG"
       ],
-      "coverRegie": {
-        "thema": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-24-b1-erbst-aufb-erbst-v-27-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-24-b1",
+      "kurztitel": "ErbSt-Teil der Klausur 1: Fahrplan, Zeit und Darstellung",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "klausurtechnik",
-      "fach": "gewst",
-      "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-04",
-      "slug": "2026-10-24-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
       "folien": [
         {
           "art": "titel",
-          "titel": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?",
-          "coverBadge": null,
-          "coverBildAuslassen": true
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · ErbSt-Teil: · sauber punkten · § 10 ErbStG · Tag 1 · + Markier-Guide § 10 ErbStG",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Du kennst die Anteile nach § 8 Nr. 1 GewStG: Schuldentgelte, Renten und dauernde Lasten sowie Gewinnanteile stiller Gesellschafter voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Rechteüberlassungen zu einem Viertel.",
-            "Du weißt, dass von der Summe ein Freibetrag von 200.000 € abgezogen und der Rest zu 25 % hinzugerechnet wird."
-          ]
+          "titel": "Erbschaftsteuer",
+          "text": "Der Fahrplan · Steuerpflicht · § 2 ErbStG · unbeschränkt oder beschränkt? · Erwerb und Wert · §§ 3, 7, 12 ErbStG · jeden Gegenstand einzeln · Bereicherung · § 10 ErbStG · Vermögen minus Abzüge · Steuer · §§ 15, 16, 19 ErbStG · Klasse, Freibetrag, Satz · Am Ende: § 10 ErbStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Sammle alle Finanzierungsaufwendungen, die den Gewinn tatsächlich gemindert haben; Sondervergütungen an Mitunternehmer scheiden aus."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Teile gemischte Verträge auf und gewichte Miet-, Pacht- und Lizenzanteile mit den gesetzlichen Bruchteilen."
-            }
-          ]
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Zeit einteilen · Erst den ganzen Teil lesen: Wer erwirbt was von wem? · Für jeden Erwerber eine eigene Rechnung anlegen. · Hängt ein Wert fest: Annahme notieren und weiterrechnen. · Nicht festbeißen!"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Erst jeden Aufwand mit seinem Bruchteil gewichten, dann alles addieren: Der Freibetrag von 200.000 € wird einmal von der Summe abgezogen, hinzugerechnet wird ein Viertel des Rests."
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Darstellung · Tabelle statt Fließtext: Position, Norm, Betrag. · Jede Zeile mit Paragraf, Absatz und Nummer. · Zwischensummen sichtbar machen. · Übersicht zählt"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "So sieht's aus · § 10 Abs. 1, 5 ErbStG · §§ 16, 19 ErbStG · Grundstück · 400.000 € · + Bankguthaben · 80.000 € · – Erblasserschulden · – 30.000 € · – Pauschale Erbfallkosten · – 15.000 € · – Freibetrag Kind · – 400.000 € · = steuerpflichtiger Erwerb · 35.000 € · Steuer 7 % · 2.450 €"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Punkte sichern · Klasse und Freibetrag bringen Punkte, auch wenn ein Wert falsch ist. · Auf volle 100 € abrunden. · § 10 Abs. 1 S. 6 ErbStG · Immer mit Steuersatz und Steuerbetrag abschließen. · § 19 Abs. 1 ErbStG · Bis zum Ende!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Im ErbSt-Teil führt das Gesetz · Pflicht, Erwerb, Bereicherung, Steuer – immer gleich · Pflicht klären, · Erwerb bewerten, · Bereicherung rechnen, · Steuer abschließen. · Speichern für Klausur 1 · Wo verlierst du die meiste Zeit? · Weiterwischen: § 10 ErbStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Kernbegriff · Befreiungen · Wert nach § 12 · Abzüge · Pauschale: § 10 Abs. 5 Nr. 3 S. 2 ErbStG · 15.000 € ohne Nachweis"
         }
-      ],
-      "caption": "Finanzierungsanteile nach § 8 Nr. 1 GewStG: Entgelte für Schulden, Renten, dauernde Lasten und stille Gewinnanteile voll, Mieten und Pachten zu einem Fünftel oder zur Hälfte, Lizenzen zu einem Viertel. Von der Summe 200.000 € Freibetrag abziehen und den Rest zu 25 % hinzurechnen.",
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-23-04",
+      "caption": "Private Veräußerung einer vermieteten Wohnung: So rechnest du den Gewinn nach § 23 EStG.\n\n1. Frist: Grundstücke sind erfasst, wenn zwischen Anschaffung und Veräußerung nicht mehr als zehn Jahre liegen (§ 23 Abs. 1 S. 1 Nr. 1 EStG); eigene Wohnzwecke können befreien (§ 23 Abs. 1 S. 1 Nr. 1 S. 3 EStG).\n2. Anschaffungskosten mindern sich um die AfA, die bei den Einkünften aus Vermietung abgezogen wurde (§ 23 Abs. 3 S. 4 EStG).\n3. Gewinn: Veräußerungspreis minus Anschaffungskosten und Werbungskosten (§ 23 Abs. 3 S. 1 EStG).\n4. Freigrenze: Gesamtgewinn unter 1.000 € im Kalenderjahr bleibt steuerfrei (§ 23 Abs. 3 S. 5 EStG). Verluste nur mit Gewinnen aus privaten Veräußerungsgeschäften desselben Jahres (§ 23 Abs. 3 S. 7 EStG).\n\nIm Beispiel: AfA 2 % von 240.000 € = 4.800 € × 6 Jahre = 28.800 €; fortgeführte Anschaffungskosten 271.200 €; Gewinn 380.000 € – 10.000 € – 271.200 € = 98.800 €.\n\nZum Schluss: § 23 Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#gewerbesteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu",
-      "coverBadge": null,
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Nr. 1 GewStG",
-        "§ 8 Nr. 4 GewStG",
-        "§ 8 Nr. 5 GewStG",
-        "§ 8 Nr. 8 GewStG",
-        "§ 8 Nr. 10 GewStG",
-        "§ 8 Nr. 12 GewStG",
-        "§ 9 Nr. 2a GewStG",
-        "R 8.1 GewStR",
-        "§ 3 Nr. 40 EStG",
-        "§ 3c Abs. 2 EStG",
-        "Themenpool: gewst-aufb-gewst-ks-04"
+        "§ 23 Abs. 1 S. 1 Nr. 1 EStG",
+        "§ 23 Abs. 3 S. 1, 4, 5, 7 EStG"
       ],
-      "coverRegie": {
-        "thema": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-24-b2-gewst-aufb-gewst-ks-04-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-24-b2",
+      "kurztitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Wohnung nach · 6 Jahren verkauft · § 23 Abs. 3 EStG · in 4 Schritten · + Markier-Guide § 23 EStG · Gewinn · 98.800 € · steuerpflichtig?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Der Fall · Hedda kauft im Januar 2020 eine Wohnung für 300.000 €, davon Gebäude 240.000 €. · Sie vermietet sie, AfA 2 % im Jahr. · Im Dezember 2025 verkauft sie für 380.000 €, Maklerkosten 10.000 €. · Muss ich zahlen?"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Der Rechenweg · Frist prüfen · § 23 Abs. 1 S. 1 Nr. 1 EStG · Grundstück: höchstens zehn Jahre · Anschaffungskosten fortführen · § 23 Abs. 3 S. 4 EStG · minus abgezogene AfA · Gewinn rechnen · § 23 Abs. 3 S. 1 EStG · Preis minus AK minus Kosten · Freigrenze prüfen · § 23 Abs. 3 S. 5 EStG · unter 1.000 € steuerfrei · Am Ende: § 23 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Jetzt du · Wie viel AfA hat Hedda bis Ende 2025 abgezogen? · Wie hoch ist der Gewinn? · Erst rechnen, dann weiterwischen · Sechs Jahre AfA?"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Die Lösung · § 23 Abs. 3 S. 1, 4 EStG · Veräußerungspreis · 380.000 € · – Maklerkosten · – 10.000 € · Anschaffungskosten · 300.000 € · – AfA 6 × 4.800 € · – 28.800 € · = fortgeführte AK · 271.200 € · Gewinn 370.000 – 271.200 · 98.800 €"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Die AfA zurückholen · Abgezogene AfA mindert die Anschaffungskosten. · § 23 Abs. 3 S. 4 EStG · Wer mit 300.000 € rechnet, kommt nur auf 70.000 € Gewinn – 28.800 € zu wenig. · Eigene Wohnzwecke hätten den Verkauf befreit, hier aber nicht. · § 23 Abs. 1 S. 1 Nr. 1 S. 3 EStG · Die AfA kommt zurück?"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Lösung: Gewinn 98.800 €, Freigrenze überschritten · 380.000 € – 10.000 € – 271.200 € · Zehn Jahre prüfen, · AfA abziehen, · Kosten abziehen, · Freigrenze prüfen. · Speichern für Klausur 2 · Hättest du die AfA vergessen? · Weiterwischen: § 23 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Preis · Maklerkosten · AfA zurück! · Freigrenze · Verluste: § 23 Abs. 3 S. 7 EStG · nur mit Gewinnen aus § 23 im selben Jahr"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-8",
-      "slug": "2026-10-24-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Investitionsabzugsbetrag und Sonder-AfA",
-          "unter": "Bilanzsteuerrecht",
-          "text": "Vorab bis zu 50 % abziehen, im Investitionsjahr bis zu 40 % Sonder-AfA: Wie greift § 7g EStG ineinander?",
-          "norm": "§ 7g EStG",
-          "icon": null,
-          "sprecher": "Investitionsabzugsbetrag und Sonder-AfA nach § 7g EStG. Erst ziehst du künftige Kosten vorab ab, dann schreibst du im Investitionsjahr zusätzlich ab. So greifen beide Schritte ineinander.",
-          "marken": [
-            "IAB und Sonder-AfA",
-            "§ 7g EStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "IAB: bis 50 % der Kosten vorab abziehen",
-          "text": null,
-          "norm": "§ 7g Abs. 1 EStG",
-          "icon": null,
-          "sprecher": "Schritt 1: Für ein künftiges bewegliches, abnutzbares Anlagegut, das fast ausschließlich betrieblich genutzt wird, ziehst du bis zu 50 % der voraussichtlichen Kosten ab. Voraussetzung: Der Gewinn ohne IAB liegt bei höchstens 200.000 €.",
-          "marken": [
-            "Bis zu 50 % vorab",
-            "Gewinngrenze 200.000 €"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Investition: hinzurechnen, mindern, Sonder-AfA",
-          "text": null,
-          "norm": "§ 7g Abs. 2 und 5 EStG",
-          "icon": null,
-          "sprecher": "Schritt 2: Im Investitionsjahr rechnest du den IAB hinzu und kannst die Anschaffungskosten höchstens um diesen Betrag mindern. Von der geminderten Basis sind zusätzlich bis zu 40 % Sonder-AfA möglich.",
-          "marken": [
-            "Hinzurechnen und mindern",
-            "Sonder-AfA bis 40 %"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Ohne Investition bis zum Ende des dritten Folgejahres wird der IAB im Abzugsjahr rückgängig gemacht (§ 7g Abs. 3 EStG).",
-          "sprecher": "Merke: Kein IAB ohne Investition. Bleibt sie bis zum Ende des dritten Folgejahres aus, wird der Abzug rückwirkend im Abzugsjahr gestrichen.",
-          "marken": [
-            "Investition binnen drei Jahren",
-            "§ 7g Abs. 3 EStG"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage und Reihenfolge",
-            "Normen ohne Unterlagen"
-          ]
-        }
-      ],
-      "caption": "Investitionsabzugsbetrag und Sonder-AfA: vorab bis zu 50 % der voraussichtlichen Kosten abziehen, im Investitionsjahr hinzurechnen und die Anschaffungskosten mindern, dann bis zu 40 % Sonder-AfA. So greift § 7g EStG ineinander.",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-3-12",
+      "caption": "Verschmelzung der Tochter auf die Mutter-GmbH: Ist der Übernahmegewinn steuerfrei? Fast. 🏢\n\n▸ Bei der übernehmenden Körperschaft bleibt der Übernahmegewinn oder -verlust – Unterschied zwischen dem Buchwert der Anteile an der übertragenden Körperschaft und dem Wert der übernommenen Wirtschaftsgüter, abzüglich der Kosten des Vermögensübergangs – außer Ansatz (§ 12 Abs. 2 S. 1 UmwStG).\n▸ Soweit der Gewinn dem Anteil der Übernehmerin an der übertragenden Körperschaft entspricht, ist § 8b KStG anzuwenden (§ 12 Abs. 2 S. 2 UmwStG): 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG).\n▸ Im Beispiel bei 100 % Beteiligung und 1 Mio. € Übernahmegewinn: 50.000 € wirken steuerlich. Ein Übernahmeverlust bleibt dagegen außer Ansatz.\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Investitionsabzugsbetrag und Sonder-AfA",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 7g Abs. 1 S. 1, 2 EStG",
-        "§ 7g Abs. 2 S. 1, 2 EStG",
-        "§ 7g Abs. 3 EStG",
-        "§ 7g Abs. 4 EStG",
-        "§ 7g Abs. 5 EStG",
-        "§ 7g Abs. 6 Nr. 1, 2 EStG",
-        "§ 7a Abs. 9 EStG",
-        "§ 7g EStG",
-        "Themenpool: bilanz-modul-k3-8"
+        "§ 12 Abs. 2 S. 1, 2 UmwStG",
+        "§ 8b Abs. 2, 3 S. 1 KStG"
       ],
-      "coverRegie": {
-        "thema": "Investitionsabzugsbetrag und Sonder-AfA",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Ein Gegenstand schrumpft sichtbar entlang einer Zeitbahn; eine Figur stoppt am Stichtag, die andere kontrolliert den Wert.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-24-b3-bilanz-modul-k3-8-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-24-b3",
+      "kurztitel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Übernahmegewinn: steuerfrei?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Grundsatz"
+        },
+        {
+          "art": "schritt",
+          "titel": "Aber § 8b KStG"
+        },
+        {
+          "art": "schritt",
+          "titel": "In Zahlen"
+        }
+      ],
+      "sprecher": [
+        "Die Mutter-GmbH übernimmt ihre Tochter, eine Million Übernahmegewinn. Steuerfrei? Fast. Fünf Prozent bleiben hängen.",
+        "Der Übernahmegewinn: Wert des übernommenen Vermögens minus Buchwert der Anteile und Kosten. Er bleibt grundsätzlich außer Ansatz.",
+        "Soweit er auf die Beteiligung der Mutter entfällt, gilt aber Paragraf acht b: Fünf Prozent sind nicht abziehbar.",
+        "Bei hundert Prozent Beteiligung sind das fünfzigtausend Euro. Ein Übernahmeverlust wirkt dagegen gar nicht.",
+        "Merke: Gewinn fast frei, Verlust verpufft."
+      ],
+      "dauerS": 40.073,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-1",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-1"
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-quiz-k3-26",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Prüfungsfrage",
+        "Freibetrag § 16:",
+        "wann ganz weg?",
+        "ab 136.000 €",
+        "ab 181.000 €",
+        "ab 45.000 €",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Norm regelt das wirtschaftliche Eigentum?",
-      "titel": "Welche Norm regelt das wirtschaftliche Eigentum?",
-      "optionen": [
-        "§ 39 AO",
-        "§ 7g EStG",
-        "§ 249 HGB"
-      ],
-      "richtig": 0,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-1",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-1"
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-quiz-k3-26",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Auflösung",
+        "B: ab 181.000 €",
+        "ab 136.000 €",
+        "ab 181.000 €",
+        "ab 45.000 €",
+        "45.000 € schmelzen um jeden Euro über 136.000 € ab.",
+        "§ 16 Abs. 4 S. 1, 3 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "§ 39 AO",
-      "optionen": [
-        "§ 39 AO",
-        "§ 7g EStG",
-        "§ 249 HGB"
-      ],
-      "richtig": 0,
-      "text": "Nach § 39 Abs. 2 Nr. 1 AO zählt, wer das Wirtschaftsgut tatsächlich beherrscht und den rechtlichen Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
       "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-504",
-      "quellen": [
-        "§ 12 ErbStG",
-        "BewG",
-        "§§ 13–13d ErbStG",
-        "§ 10 Abs. 5 Nr. 1–2 ErbStG",
-        "R E 7.4 Abs. 1 S. 2",
-        "§ 10 Abs. 6/6a ErbStG",
-        "§ 10 Abs. 6, 6a ErbStG",
-        "Themenpool: erbst-modul-erbst-504"
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Der 90-%-Test",
+        "§ 13b Abs. 2 S. 2 ErbStG",
+        "Verwaltungsvermögen mindestens 90 %: gar keine Verschonung.",
+        "Gerechnet vor Schuldenabzug und Finanzmittel-Freibetrag."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 12 ErbStG",
-      "titel": "Steuerpflichtiger Erwerb: Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
-      "text": "§ 12 ErbStG leitet die Bewertung ins BewG. Je Wirtschaftsgut erst bewerten, dann Befreiungen nach §§ 13–13d ErbStG prüfen. Schulden und Lasten zieht § 10 Abs. 5 ErbStG ab, soweit § 10 Abs. 6 ErbStG nicht kürzt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "fehler",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-539",
-      "quellen": [
-        "§ 13 Abs. 2 BewG",
-        "§ 14 BewG",
-        "§ 15 BewG",
-        "§ 16 BewG",
-        "§ 10 Abs. 5 Nr. 3 ErbStG",
-        "Themenpool: erbst-modul-erbst-539"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Zeitplan",
+        "vorher festlegen",
+        "Minuten je Teil vor dem Start notieren.",
+        "Nach jedem Teil kurz abgleichen.",
+        "Zu lange hängen? Weiter zum nächsten Teil."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Immerwährend oder unbestimmt? Kapitalwerte nach § 13 Abs. 2 BewG",
-      "falsch": "Unbestimmte Dauer mit lebenslänglicher Dauer gleichsetzen.",
-      "richtigText": "Immerwährend: 18,6-facher, unbestimmte Dauer: 9,3-facher Jahreswert (§ 13 Abs. 2 BewG). Hängt die Dauer an einem Leben, gilt § 14 BewG. Grabpflegekosten setzt du mit dem 9,3-Fachen an.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-t1-2",
-      "quellen": [
-        "§ 121 BewG",
-        "§ 2 Abs. 1 ErbStG",
-        "§ 2 ErbStG",
-        "§ 1 ErbStG",
-        "§ 8 AO",
-        "§ 9 AO",
-        "§ 10 AO",
-        "§ 11 AO",
-        "§ 21 ErbStG",
-        "Themenpool: erbst-aufb-erbst-t1-2"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-8",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Klausurtipp",
+        "Organschaft:",
+        "die Zeitfragen",
+        "Stimmenmehrheit ab Beginn des Wirtschaftsjahres.",
+        "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+        "Vertrag auf mindestens fünf Jahre.",
+        "§ 14 Abs. 1 S. 1 Nr. 3 KStG",
+        "Zurechnung erst ab dem Jahr der Wirksamkeit.",
+        "§ 14 Abs. 1 S. 2 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG?",
-      "text": "Ist Erblasser beim Tod, Schenker bei Ausführung oder Erwerber bei Steuerentstehung (§ 9 ErbStG) Inländer, ist der ganze Erwerb steuerpflichtig (§ 2 Abs. 1 Nr. 1 ErbStG), sonst nur Inlandsvermögen (§ 121 BewG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-v-5",
-      "quellen": [
-        "§ 13b Abs. 2 Satz 1 ErbStG",
-        "§ 13b Abs. 2 Satz 2 ErbStG",
-        "§ 13b Abs. 1 Nr. 1 bis 3 ErbStG",
-        "§ 13b Abs. 3 Satz 1 ErbStG",
-        "§ 13b Abs. 4 Nr. 5 ErbStG",
-        "§ 13b Abs. 6 ErbStG",
-        "§ 13b Abs. 7 ErbStG",
-        "BFH vom 13.09.2023 II R 49/21, BStBl. 2024 II S. 566",
-        "gleichlautende Ländererlasse vom 19.06.2024",
-        "§ 13 Abs. 1 EStG",
-        "Themenpool: erbst-aufb-erbst-v-5"
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-4-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Gesellschafter-",
+        "stämme trennen?",
+        "Buchwert nur, wenn",
+        "alle fünf Jahre",
+        "vor dem Stichtag",
+        "beteiligt waren.",
+        "§ 15 Abs. 2 S. 5 UmwStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-      "text": "Starte mit dem 90-%-Test: Ab 90 % Verwaltungsvermögen entfällt jede Verschonung (§ 13b Abs. 2 S. 2 ErbStG). Bei operativ tätigen Betrieben zählen Finanzmittel dabei nach Schuldenabzug, ohne 15-%-Sockel.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
       "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Steuerklasse und Freibetrag: Wer bekommt wie viel…",
-      "text": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "ErbSt-Teil: sauber punkten",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "gewst",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu",
-      "text": "Finanzierungsanteile: Wie rechnet § 8 Nr. 1 GewStG hinzu?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Neu im Feed",
+        "Wohnung verkauft: Gewinn?",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Investitionsabzugsbetrag und Sonder-AfA",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Übernahmegewinn: steuerfrei?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:58:28.853Z",
+    "erzeugtAm": "2026-10-03T04:45:40Z",
     "pfad": "vorproduktion/2026-10-24/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -713,5 +555,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
