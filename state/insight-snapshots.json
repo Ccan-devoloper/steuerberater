@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-03T17:45:06.799Z",
+  "stand": "2026-10-03T18:44:17.404Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -6445,6 +6445,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-03T18:44:15.254Z",
+          "alterStunden": 157,
+          "reach": 56,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -12164,6 +12176,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-03T18:44:15.254Z",
+          "alterStunden": 31,
+          "reach": 40,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -13204,6 +13228,32 @@
           "navigation_tap_forward": 15
         }
       ]
+    },
+    "18101681600213071": {
+      "art": "beitrag",
+      "datum": "2026-10-03",
+      "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
+      "format": "reel",
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-03T17:44:37.722Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-03T18:44:15.254Z",
+          "alterStunden": 1,
+          "reach": 17,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 38,
+          "ig_reels_avg_watch_time": 19640,
+          "ig_reels_video_view_total_time": 373162,
+          "reels_skip_rate": 70
+        }
+      ]
     }
   },
   "konto": [
@@ -14014,6 +14064,11 @@
     },
     {
       "stand": "2026-10-03T17:45:06.799Z",
+      "follower": 107,
+      "medien": 83
+    },
+    {
+      "stand": "2026-10-03T18:44:17.404Z",
       "follower": 107,
       "medien": 83
     }

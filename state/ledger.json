@@ -5160,7 +5160,7 @@
         "#wochenrückblick"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5169,8 +5169,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-02T17:46:10.616Z",
-      "insightsAlterStunden": 132
+      "insightsStand": "2026-10-03T18:44:15.254Z",
+      "insightsAlterStunden": 157
     },
     {
       "datum": "2026-09-27",
@@ -7052,7 +7052,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 37,
+        "reach": 40,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7061,8 +7061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T10:36:27.490Z",
-      "insightsAlterStunden": 22.8
+      "insightsStand": "2026-10-03T18:44:15.254Z",
+      "insightsAlterStunden": 31
     },
     {
       "datum": "2026-10-02",
@@ -7564,7 +7564,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 38,
+        "ig_reels_avg_watch_time": 19640,
+        "ig_reels_video_view_total_time": 373162,
+        "reels_skip_rate": 70
+      },
+      "insightsStand": "2026-10-03T18:44:15.254Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-03",
