@@ -169,13 +169,19 @@
      "titel": "Und die Vorsteuer?",
      "punkte": [
       [
-       "Für den Erwerb nach § 3d S. 2 gibt es keinen Vorsteuerabzug.",
+       "Deutsche Erwerbsteuer: 19 % = 11.400 €.",
+       "ok",
+       "Regular",
+       "§ 3d S. 2, § 12 Abs. 1 UStG"
+      ],
+      [
+       "Erwerb nach Satz 2: kein Vorsteuerabzug.",
        "nein",
        "Bold",
        "§ 15 Abs. 1 S. 1 Nr. 3 UStG"
       ],
       [
-       "Die deutsche Erwerbsteuer bleibt als echte Last stehen.",
+       "Bis zum Nachweis bleibt das eine echte Last.",
        "warn",
        "Regular",
        null
@@ -189,37 +195,6 @@
      "figur": "A:staunt",
      "x": 290,
      "blase": "Echtes Geld!"
-    },
-    {
-     "typ": "rechnung",
-     "titel": "Ferhat in Deutschland",
-     "normen": [
-      "§ 3d S. 2 UStG",
-      "§ 12 Abs. 1 UStG"
-     ],
-     "zeilen": [
-      [
-       "19 % von 60.000 €",
-       "11.400 €",
-       "Regular",
-       null
-      ],
-      [
-       "Vorsteuer",
-       "0 €",
-       "Regular",
-       null
-      ],
-      [
-       "Last bis zum Nachweis",
-       "11.400 €",
-       "ExtraBold",
-       "GELB"
-      ]
-     ],
-     "figur": "A:sorge",
-     "x": 790,
-     "blase": "Bis zum Nachweis!"
     },
     {
      "typ": "inhalt",
@@ -464,37 +439,22 @@
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Wohnung",
+     "titel": "1–2 · Wohnung, Innehaben",
      "punkte": [
       [
-       "Feste Räume, die sich auf Dauer zum Wohnen eignen.",
+       "Feste Räume, auf Dauer zum Wohnen geeignet; eine bescheidene Bleibe genügt.",
        "ok",
        "Regular",
        "AEAO zu § 8"
-      ],
-      [
-       "Eine bescheidene Bleibe genügt, Komfort ist egal.",
-       "ok",
-       "Regular",
-       null
       ],
       [
        "Kurzfristige Notunterkünfte reichen nicht.",
        "nein",
        "Regular",
        null
-      ]
-     ],
-     "figur": "A:erklaert",
-     "x": 790,
-     "blase": "Klein reicht."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "2 · Innehaben",
-     "punkte": [
+      ],
       [
-       "Die Wohnung steht jederzeit als Bleibe zur Verfügung.",
+       "Innehaben: jederzeit als Bleibe verfügbar, Miete genügt.",
        "ok",
        "Bold",
        "AEAO zu § 8"
@@ -504,15 +464,9 @@
        "nein",
        "Regular",
        null
-      ],
-      [
-       "Eigentum ist nicht nötig, Miete genügt.",
-       "ok",
-       "Regular",
-       null
       ]
      ],
-     "figur": "A:denkt",
+     "figur": "A:erklaert",
      "x": 290,
      "blase": "Schlüssel in der Hand?"
     },

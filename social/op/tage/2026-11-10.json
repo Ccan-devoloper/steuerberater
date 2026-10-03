@@ -216,7 +216,7 @@
      "titel": "Und bei der Holding?",
      "punkte": [
       [
-       "Weg B: Anteile mit dem Teilwert ansetzen, hier 400.000 €.",
+       "Weg B: Ansatz zum Teilwert, also 400.000 €.",
        "ok",
        "Regular",
        "BFH vom 04.03.2009, I R 32/08"
@@ -232,33 +232,17 @@
        "ok",
        "Regular",
        "§ 27 Abs. 1 KStG"
+      ],
+      [
+       "Weg A: Verkauft die Holding binnen sieben Jahren, droht Einbringungsgewinn II.",
+       "warn",
+       "Bold",
+       "§ 22 Abs. 2 S. 1 UmwStG"
       ]
      ],
      "figur": "B:redet",
      "x": 290,
-     "blase": "Neutral für die GmbH."
-    },
-    {
-     "typ": "inhalt",
-     "falle": true,
-     "titel": "Buchung entscheidet mit",
-     "punkte": [
-      [
-       "Ohne neue Anteile kein Anteilstausch und kein Buchwertantrag.",
-       "nein",
-       "Bold",
-       "§ 21 Abs. 1 S. 1, 2 UmwStG"
-      ],
-      [
-       "Bei Weg A läuft eine Sperrfrist von sieben Jahren für einen Verkauf durch die Holding.",
-       "warn",
-       "Regular",
-       "§ 22 Abs. 2 S. 1 UmwStG"
-      ]
-     ],
-     "figur": "A:staunt",
-     "x": 790,
-     "blase": "Nur Rücklage reicht nicht?"
+     "blase": "Sperrfrist merken!"
     },
     {
      "typ": "inhalt",

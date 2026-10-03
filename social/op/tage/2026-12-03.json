@@ -438,43 +438,16 @@
     },
     {
      "typ": "inhalt",
-     "titel": "Der Fall",
-     "punkte": [
-      [
-       "Lotta und Jonas sind an der Nord-KG und der Süd-KG je zur Hälfte beteiligt.",
-       null,
-       "Regular",
-       null
-      ],
-      [
-       "Die Nord-KG überträgt eine Halle unentgeltlich auf die Süd-KG. Buchwert 300.000 €, Teilwert 500.000 €.",
-       null,
-       "Regular",
-       null
-      ],
-      [
-       "Welcher Wert?",
-       "warn",
-       "Bold",
-       null
-      ]
-     ],
-     "figur": "A:redet",
-     "x": 790,
-     "blase": "Ich bin Lotta."
-    },
-    {
-     "typ": "inhalt",
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Lösung zum Fall: Buchwert 300.000 €, kein Gewinn.",
-       "ok",
-       "Bold",
-       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
+       "Beteiligung von Lotta und Jonas: Nord-KG je 50 %, Süd-KG 60 % und 40 %.",
+       null,
+       "Regular",
+       null
       ],
       [
-       "Variante: An der Süd-KG ist Lotta mit 60 %, Jonas mit 40 % beteiligt.",
+       "Die Nord-KG überträgt eine Halle unentgeltlich auf die Süd-KG: Buchwert 300.000 €, Teilwert 500.000 €.",
        null,
        "Regular",
        null
@@ -486,9 +459,9 @@
        null
       ]
      ],
-     "figur": "A:skeptisch",
+     "figur": "A:redet",
      "x": 290,
-     "blase": "Kleiner Unterschied?"
+     "blase": "Ich bin Lotta."
     },
     {
      "typ": "inhalt",
@@ -505,6 +478,12 @@
        "warn",
        "Regular",
        null
+      ],
+      [
+       "Bei je 50 % an beiden KGs bliebe es beim Buchwert, kein Gewinn.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
       ]
      ],
      "figur": "A:staunt",

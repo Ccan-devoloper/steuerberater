@@ -478,16 +478,43 @@
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Einstieg",
+     "titel": "Jetzt du",
      "punkte": [
       [
-       "Stille Reserven, die in Deutschland entstanden sind, will Deutschland auch besteuern.",
-       "ok",
+       "Stoppuhr an: Formuliere den ersten Satz deines Vortrags.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Er soll das Problem nennen, nicht die Norm vorlesen.",
+       "warn",
        "Regular",
        null
       ],
       [
-       "Verlässt ein Wirtschaftsgut die deutsche Besteuerung, wäre der Zugriff verloren.",
+       "Danach die Gliederung in einem Satz ansagen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 290,
+     "blase": "Zehn Sekunden!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Einstieg",
+     "punkte": [
+      [
+       "„Wann muss eine GmbH stille Reserven versteuern, obwohl sie nichts verkauft?“",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Warum: Hier entstandene Reserven will Deutschland besteuern, bevor der Zugriff verloren geht.",
        "warn",
        "Regular",
        null
@@ -495,13 +522,13 @@
       [
        "Antwort des Gesetzes: eine fiktive Veräußerung.",
        "ok",
-       "Bold",
+       "Regular",
        "§ 12 Abs. 1 S. 1 KStG"
       ]
      ],
-     "figur": "A:redet",
+     "figur": "A:froh",
      "x": 790,
-     "blase": "Erst das Warum."
+     "blase": "Das sitzt."
     },
     {
      "typ": "inhalt",
@@ -621,48 +648,6 @@
      "figur": "A:fragt",
      "x": 290,
      "blase": "Nachfrage?"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "Jetzt du",
-     "punkte": [
-      [
-       "Stoppuhr an: Formuliere den ersten Satz deines Vortrags.",
-       null,
-       "Bold",
-       null
-      ],
-      [
-       "Er soll das Problem nennen, nicht die Norm vorlesen.",
-       "warn",
-       "Regular",
-       null
-      ]
-     ],
-     "figur": "A:ruhig",
-     "x": 790,
-     "blase": "Zehn Sekunden!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "Ein möglicher Einstieg",
-     "punkte": [
-      [
-       "„Wann muss eine GmbH stille Reserven versteuern, obwohl sie nichts verkauft?“",
-       "ok",
-       "Bold",
-       null
-      ],
-      [
-       "Danach die Gliederung in einem Satz ansagen.",
-       "ok",
-       "Regular",
-       null
-      ]
-     ],
-     "figur": "A:froh",
-     "x": 290,
-     "blase": "Das sitzt."
     },
     {
      "typ": "merke",

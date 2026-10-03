@@ -426,12 +426,12 @@
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Einstieg",
+     "titel": "1–2 · Gewinn oder Einlage?",
      "punkte": [
       [
-       "Die GmbH zahlt an ihre Gesellschafter. Ist das Gewinn oder zurückgezahlte Einlage?",
-       "ok",
-       "Regular",
+       "Die GmbH zahlt an ihre Gesellschafter.",
+       null,
+       "Bold",
        null
       ],
       [
@@ -441,36 +441,21 @@
        "§ 20 Abs. 1 Nr. 1 S. 1 EStG"
       ],
       [
-       "Einlagenrückgewähr: keine Einnahme, sie mindert die Anschaffungskosten.",
+       "Einlagenrückgewähr: keine Einnahme, mindert die Anschaffungskosten.",
        "warn",
        "Bold",
        "§ 20 Abs. 1 Nr. 1 S. 3 EStG"
+      ],
+      [
+       "Einlagen außerhalb des Nennkapitals: steuerliches Einlagekonto, fortgeschrieben und jährlich festgestellt.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 S. 1, 2, Abs. 2 S. 1 KStG"
       ]
      ],
      "figur": "A:redet",
-     "x": 790,
-     "blase": "Das ist die Frage."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "2 · Das Konto",
-     "punkte": [
-      [
-       "Einlagen, die nicht ins Nennkapital gehen, landen auf dem steuerlichen Einlagekonto.",
-       "ok",
-       "Regular",
-       "§ 27 Abs. 1 S. 1 KStG"
-      ],
-      [
-       "Fortschreibung mit Zu- und Abgängen, jährlich gesondert festgestellt.",
-       "ok",
-       "Regular",
-       "§ 27 Abs. 1 S. 2, Abs. 2 S. 1 KStG"
-      ]
-     ],
-     "figur": "A:denkt",
      "x": 290,
-     "blase": "Ein Gedächtnis."
+     "blase": "Das ist die Frage."
     },
     {
      "typ": "inhalt",

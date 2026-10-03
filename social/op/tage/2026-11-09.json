@@ -119,50 +119,23 @@
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Drittstaat",
+     "titel": "1–2 · Drittstaat, Katalog",
      "punkte": [
       [
-       "Drittstaat ist jeder Staat außerhalb der EU.",
-       "ok",
-       "Regular",
-       "§ 2a Abs. 2a S. 1 Nr. 1 EStG"
-      ],
-      [
-       "EWR-Staaten zählen wie EU-Staaten, wenn Auskünfte ausgetauscht werden.",
+       "Drittstaat: außerhalb der EU; EWR nur gleichgestellt mit Auskunftsaustausch.",
        "warn",
        "Regular",
-       "§ 2a Abs. 2a S. 2 EStG"
+       "§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG"
       ],
       [
-       "Staat X liegt draußen: § 2a ist eröffnet.",
-       "ok",
-       "Bold",
-       null
-      ]
-     ],
-     "figur": "B:erklaert",
-     "x": 290,
-     "blase": "Auch die Schweiz!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "2 · Katalog genau benennen",
-     "punkte": [
-      [
-       "Verluste einer gewerblichen Betriebsstätte im Drittstaat stehen im Katalog.",
+       "Katalog Nr. 2: Verluste einer gewerblichen Betriebsstätte im Drittstaat, auch Gewinnminderungen.",
        "ok",
        "Regular",
-       "§ 2a Abs. 1 S. 1 Nr. 2 EStG"
+       "§ 2a Abs. 1 S. 1 Nr. 2, S. 2 EStG"
       ],
       [
-       "Gewinnminderungen stehen negativen Einkünften gleich.",
+       "Staat X liegt draußen: Nummer zitieren, nicht nur „Auslandsverlust“.",
        "ok",
-       "Regular",
-       "§ 2a Abs. 1 S. 2 EStG"
-      ],
-      [
-       "In der Klausur die Nummer zitieren, nicht nur „Auslandsverlust“.",
-       "warn",
        "Bold",
        null
       ]

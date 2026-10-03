@@ -510,7 +510,8 @@
      "typ": "rechnung",
      "titel": "3 · Abzinsen",
      "normen": [
-      "§ 12 Abs. 3 BewG"
+      "§ 12 Abs. 3 BewG",
+      "Ländererlasse vom 10.10.2010"
      ],
      "zeilen": [
       [
@@ -526,7 +527,7 @@
        null
       ],
       [
-       "Faktor 1 : 1,055 hoch 4",
+       "Faktor 1 : 1,055 hoch 4 (Tab. 1)",
        "0,807",
        "Bold",
        "GELB"
@@ -539,44 +540,9 @@
       ]
      ],
      "extra": [
-      "Zinssatz fest im Gesetz: 5,5 %",
-      "GELB"
+      "In Raten: Jahresrate mal Faktor aus Tabelle 2",
+      "PINK"
      ]
-    },
-    {
-     "typ": "vergleich",
-     "titel": "Auf einen Schlag oder in Raten?",
-     "links": {
-      "kopf": "Fälligkeitsdarlehen",
-      "farbe": "GELB",
-      "punkte": [
-       [
-        "Nennwert mal Faktor",
-        "§ 12 Abs. 3 BewG"
-       ],
-       [
-        "Tabelle 1 der Ländererlasse",
-        null
-       ]
-      ]
-     },
-     "rechts": {
-      "kopf": "Tilgungsdarlehen",
-      "farbe": "PINK",
-      "punkte": [
-       [
-        "Jahresrate mal Faktor",
-        null
-       ],
-       [
-        "Tabelle 2 der Ländererlasse",
-        null
-       ]
-      ]
-     },
-     "figur": "A:skeptisch",
-     "x": 290,
-     "blase": "Nicht verwechseln!"
     },
     {
      "typ": "inhalt",

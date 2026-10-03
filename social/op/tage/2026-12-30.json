@@ -416,7 +416,7 @@
      ],
      "norm": "R 6b.2 Abs. 6, 7 EStR",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 6b EStG",
+     "teaser": "+ Markier-Guide R 6b.2 EStR",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -464,7 +464,7 @@
        "Ergänzungsbilanz, Rest Rücklage"
       ]
      ],
-     "teaser": "Am Ende: § 6b EStG markiert"
+     "teaser": "Am Ende: R 6b.2 EStR markiert"
     },
     {
      "typ": "inhalt",
@@ -698,62 +698,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Voll abgezogen?",
-     "teaser": "Weiterwischen: § 6b EStG markiert"
-    },
-    {
-     "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
-     "kopf": "§ 6b EStG (Auszug)",
-     "absaetze": [
-      [
-       "(1) 1",
-       [
-        [
-         "Steuerpflichtige,",
-         "g1"
-        ],
-        [
-         "die Grund und Boden, […] Gebäude oder Binnenschiffe veräußern, können im Wirtschaftsjahr der Veräußerung von den Anschaffungs- oder Herstellungskosten der in Satz 2 bezeichneten Wirtschaftsgüter, […]",
-         null
-        ],
-        [
-         "einen Betrag bis zur Höhe des bei der Veräußerung entstandenen Gewinns abziehen.",
-         "b1"
-        ]
-       ]
-      ],
-      [
-       "(4) 2",
-       [
-        [
-         "Der Abzug nach den Absätzen 1 und 3 ist bei Wirtschaftsgütern, die zu einem land- und forstwirtschaftlichen Betrieb gehören oder der selbständigen Arbeit dienen, nicht zulässig,",
-         null
-        ],
-        [
-         "wenn der Gewinn bei der Veräußerung von Wirtschaftsgütern eines Gewerbebetriebs entstanden ist.",
-         "r1"
-        ]
-       ]
-      ]
-     ],
-     "notizen": [
-      [
-       "personenbezogen",
-       "g1"
-      ],
-      [
-       "Obergrenze",
-       "b1"
-      ],
-      [
-       "Sperre",
-       "r1"
-      ]
-     ],
-     "randnotiz": [
-      "Aufteilung je Mitunternehmer:",
-      "R 6b.2 Abs. 6, 7 EStR"
-     ]
+     "teaser": "Weiterwischen: R 6b.2 EStR markiert"
     },
     {
      "typ": "gesetz",
@@ -772,7 +717,11 @@
          "g1"
         ],
         [
-         "vorbehaltlich der Regelung in § 6b Abs. 4 Satz 2 EStG auf Wirtschaftsgüter übertragen, die zu demselben oder einem anderen als Einzelunternehmen geführten Betrieb des Stpfl. gehören oder",
+         "vorbehaltlich der Regelung in § 6b Abs. 4 Satz 2 EStG",
+         "gr1"
+        ],
+        [
+         "auf Wirtschaftsgüter übertragen, die zu demselben oder einem anderen als Einzelunternehmen geführten Betrieb des Stpfl. gehören oder",
          null
         ],
         [
@@ -796,6 +745,10 @@
        "g1"
       ],
       [
+       "Sperre!",
+       "gr1"
+      ],
+      [
        "Ziel KG",
        "b1"
       ],
@@ -810,7 +763,7 @@
      ]
     }
    ],
-   "caption": "§ 6b-Gewinn und die KG: Wie viel darf ein Mitunternehmer übertragen? Das Prüfschema in vier Schritten für Klausur 3.\n\n1. Begünstigter Gewinn: Grund und Boden, Gebäude u. a., mindestens sechs Jahre Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 1, 4 S. 1 Nr. 2 EStG). § 6b gilt für den Steuerpflichtigen, also personenbezogen (§ 6b Abs. 1 S. 1 EStG).\n2. Wo ist der Gewinn entstanden? Gewinn im Einzelunternehmen: Übertragung auf eigene Betriebe oder auf Wirtschaftsgüter einer Personengesellschaft, soweit sie dem Steuerpflichtigen als Mitunternehmer zuzurechnen sind (R 6b.2 Abs. 6 S. 1 EStR). Gewinn der Personengesellschaft: Übertragung auf eigene Wirtschaftsgüter eines Mitunternehmers nur, soweit der Gewinn anteilig auf ihn entfällt (R 6b.2 Abs. 7 EStR).\n3. Sperre: Gewerbliche Gewinne nicht auf land- und forstwirtschaftliche oder freiberufliche Betriebe (§ 6b Abs. 4 S. 2 EStG).\n4. Abzug beim begünstigten Mitunternehmer, nicht übertragbarer Rest als Rücklage (§ 6b Abs. 3 EStG).\n\nBeispiel: Gewinn 100.000 € im Einzelunternehmen, KG kauft Grundstück für 150.000 €, Beteiligung 40 % → Abzug 60.000 € in der Ergänzungsbilanz, 40.000 € Rücklage. Variante: KG-Gewinn 80.000 € → 32.000 € auf das Einzelunternehmen.\n\nZum Schluss: § 6b EStG und R 6b.2 Abs. 6 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "§ 6b-Gewinn und die KG: Wie viel darf ein Mitunternehmer übertragen? Das Prüfschema in vier Schritten für Klausur 3.\n\n1. Begünstigter Gewinn: Grund und Boden, Gebäude u. a., mindestens sechs Jahre Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 1, 4 S. 1 Nr. 2 EStG). § 6b gilt für den Steuerpflichtigen, also personenbezogen (§ 6b Abs. 1 S. 1 EStG).\n2. Wo ist der Gewinn entstanden? Gewinn im Einzelunternehmen: Übertragung auf eigene Betriebe oder auf Wirtschaftsgüter einer Personengesellschaft, soweit sie dem Steuerpflichtigen als Mitunternehmer zuzurechnen sind (R 6b.2 Abs. 6 S. 1 EStR). Gewinn der Personengesellschaft: Übertragung auf eigene Wirtschaftsgüter eines Mitunternehmers nur, soweit der Gewinn anteilig auf ihn entfällt (R 6b.2 Abs. 7 EStR).\n3. Sperre: Gewerbliche Gewinne nicht auf land- und forstwirtschaftliche oder freiberufliche Betriebe (§ 6b Abs. 4 S. 2 EStG).\n4. Abzug beim begünstigten Mitunternehmer, nicht übertragbarer Rest als Rücklage (§ 6b Abs. 3 EStG).\n\nBeispiel: Gewinn 100.000 € im Einzelunternehmen, KG kauft Grundstück für 150.000 €, Beteiligung 40 % → Abzug 60.000 € in der Ergänzungsbilanz, 40.000 € Rücklage. Variante: KG-Gewinn 80.000 € → 32.000 € auf das Einzelunternehmen.\n\nZum Schluss: R 6b.2 Abs. 6 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

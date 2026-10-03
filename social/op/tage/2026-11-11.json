@@ -65,44 +65,23 @@
     },
     {
      "typ": "inhalt",
+     "falle": true,
      "titel": "Der Fall",
      "punkte": [
       [
-       "Lotte erbt von ihrer Tante eine vermietete Eigentumswohnung in Leipzig.",
+       "Lotte erbt von ihrer Tante eine vermietete Eigentumswohnung in Leipzig, Maklerwert 310.000 €.",
        null,
        "Regular",
        null
       ],
       [
-       "Ein Makler schätzt sie auf 310.000 €.",
-       null,
-       "Regular",
-       null
-      ],
-      [
-       "Frage: Mit welchem Wert geht die Wohnung in die Erbschaftsteuer?",
-       null,
-       "Bold",
-       null
-      ]
-     ],
-     "figur": "A:fragt",
-     "x": 790,
-     "blase": "Einfach 310.000 €?"
-    },
-    {
-     "typ": "inhalt",
-     "falle": true,
-     "titel": "Der typische Fehler",
-     "punkte": [
-      [
-       "Verkehrswert oder gemeinen Wert nach § 9 BewG direkt ansetzen.",
+       "Falsch: diesen Wert nach § 9 BewG direkt ansetzen.",
        "nein",
        "Bold",
        null
       ],
       [
-       "Inländischer Grundbesitz hat einen eigenen Weg: den gesondert festgestellten Grundbesitzwert.",
+       "Richtig: der gesondert festgestellte Grundbesitzwert.",
        "ok",
        "Regular",
        "§ 12 Abs. 3 ErbStG"
@@ -569,31 +548,22 @@
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Ausnahmen",
+     "titel": "2–3 · Rettungswege",
      "punkte": [
       [
-       "Konzernklausel: Umhängen innerhalb eines 100-%-Konzerns ist kein schädlicher Erwerb.",
+       "Konzernklausel: 100-%-Konzern unschädlich.",
        "ok",
        "Regular",
        "§ 8c Abs. 1 S. 4 KStG"
       ],
       [
-       "Sanierungsklausel: Erwerb zur Sanierung des Geschäftsbetriebs bleibt unbeachtlich.",
+       "Sanierungsklausel: Sanierung ist unschädlich.",
        "ok",
        "Regular",
        "§ 8c Abs. 1a S. 1 KStG"
-      ]
-     ],
-     "figur": "A:denkt",
-     "x": 790,
-     "blase": "Gilt das für mich?"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "3 · Stille Reserven",
-     "punkte": [
+      ],
       [
-       "Der Verlust bleibt abziehbar, soweit inländisch steuerpflichtige stille Reserven ihn decken.",
+       "Stille Reserven decken den Verlust: Er bleibt insoweit abziehbar.",
        "ok",
        "Regular",
        "§ 8c Abs. 1 S. 5 KStG"
@@ -605,8 +575,8 @@
        "§ 8c Abs. 1 S. 6 KStG"
       ]
      ],
-     "figur": "B:redet",
-     "x": 290,
+     "figur": "A:denkt",
+     "x": 790,
      "blase": "Rechnen lohnt sich."
     },
     {

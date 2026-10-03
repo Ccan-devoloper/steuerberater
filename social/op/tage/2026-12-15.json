@@ -482,7 +482,7 @@
     },
     {
      "typ": "inhalt",
-     "titel": "Einstieg",
+     "titel": "Einstieg und Grundlagen",
      "punkte": [
       [
        "Fallfrage: Wohin mit Restbuchwert und Abbruchkosten, wenn ein Gebäude fällt?",
@@ -491,42 +491,21 @@
        null
       ],
       [
-       "Drei Antworten: sofort Aufwand, Herstellungskosten des Neubaus oder Anschaffungskosten des Bodens.",
-       null,
-       "Regular",
-       null
-      ]
-     ],
-     "figur": "A:redet",
-     "x": 790,
-     "blase": "Erst die Frage!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "Grundlagen",
-     "punkte": [
-      [
-       "Anschaffungskosten: Aufwand, um ein Wirtschaftsgut zu erwerben.",
+       "Anschaffungs- und Herstellungskosten: Aufwand, um ein Wirtschaftsgut zu erwerben oder zu schaffen.",
        "ok",
        "Regular",
-       "§ 255 Abs. 1 S. 1 HGB"
+       "§ 255 Abs. 1 S. 1, Abs. 2 S. 1 HGB"
       ],
       [
-       "Herstellungskosten: Aufwand, um ein Wirtschaftsgut zu schaffen.",
-       "ok",
-       "Regular",
-       "§ 255 Abs. 2 S. 1 HGB"
-      ],
-      [
-       "Restbuchwert eines Gebäudes: Absetzung für außergewöhnliche Abnutzung.",
+       "Restbuchwert: Absetzung für außergewöhnliche Abnutzung.",
        "ok",
        "Regular",
        "§ 7 Abs. 4 S. 3, Abs. 1 S. 7 EStG"
       ]
      ],
-     "figur": "A:erklaert",
+     "figur": "A:redet",
      "x": 790,
-     "blase": "Begriffe zuerst"
+     "blase": "Erst die Frage!"
     },
     {
      "typ": "vergleich",

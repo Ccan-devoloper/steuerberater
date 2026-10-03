@@ -507,57 +507,40 @@
     },
     {
      "typ": "rechnung",
-     "titel": "3 · AfA-Bemessungsgrundlage",
+     "titel": "3–4 · AfA-Basis, AfA 2026",
      "normen": [
-      "§ 7 Abs. 1 S. 5 EStG"
+      "§ 7 Abs. 1 S. 5 EStG",
+      "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
      ],
      "zeilen": [
       [
        "Einlagewert",
-       "560.000 €",
+       "560.000 €",
        "Regular",
        null
       ],
       [
        "− AfA 2016 bis 2025",
-       "100.000 €",
+       "100.000 €",
        "Regular",
        null
       ],
       [
        "AfA-Basis",
-       "460.000 €",
+       "460.000 €",
+       "Bold",
+       "HELL"
+      ],
+      [
+       "× 3 % = AfA 2026",
+       "13.800 €",
        "ExtraBold",
        "GELB"
       ]
      ],
      "figur": "A:staunt",
      "x": 290,
-     "blase": "Nicht 560.000 €?"
-    },
-    {
-     "typ": "rechnung",
-     "titel": "4 · AfA 2026",
-     "normen": [
-      "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
-     ],
-     "zeilen": [
-      [
-       "AfA-Basis",
-       "460.000 €",
-       "Regular",
-       null
-      ],
-      [
-       "× 3 % = AfA 2026",
-       "13.800 €",
-       "ExtraBold",
-       "GELB"
-      ]
-     ],
-     "figur": "A:lacht",
-     "x": 790,
-     "blase": "Keine doppelte AfA."
+     "blase": "Nicht 560.000 €?"
     },
     {
      "typ": "inhalt",

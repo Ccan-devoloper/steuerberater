@@ -108,49 +108,29 @@
     },
     {
      "typ": "inhalt",
-     "titel": "Selma: Betriebsvermögen",
+     "titel": "Selma und Timo sind dabei",
      "punkte": [
       [
-       "Ihre Anteile gelten als zum Buchwert in die KG überführt.",
+       "Selma, Betriebsvermögen: gilt als zum Buchwert in die KG überführt.",
        "ok",
        "Bold",
        "§ 5 Abs. 3 S. 1 UmwStG"
       ],
       [
-       "Frühere steuerwirksame Abschreibungen werden wieder aufgestockt, höchstens bis zum gemeinen Wert.",
+       "Erhöht um frühere steuerwirksame Abschreibungen, höchstens gemeiner Wert.",
        "warn",
        "Regular",
        null
+      ],
+      [
+       "Timo, privat ab 1 %: gilt als mit den Anschaffungskosten eingelegt.",
+       "ok",
+       "Bold",
+       "§ 5 Abs. 2 UmwStG, § 17 Abs. 1 S. 1 EStG"
       ]
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Ich bin dabei."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "Timo: Anteil nach § 17",
-     "punkte": [
-      [
-       "Privat gehalten, aber mindestens 1 %.",
-       "ok",
-       "Regular",
-       "§ 17 Abs. 1 S. 1 EStG"
-      ],
-      [
-       "Gilt als mit den Anschaffungskosten in die KG eingelegt.",
-       "ok",
-       "Bold",
-       "§ 5 Abs. 2 UmwStG"
-      ]
-     ],
-     "extra": [
-      "Timo ist ebenfalls dabei",
-      "GRUEN",
-      null
-     ],
-     "figur": "A:denkt",
-     "x": 290,
      "blase": "Und der Kleine?"
     },
     {

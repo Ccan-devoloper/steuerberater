@@ -623,29 +623,12 @@
      ],
      "figur": "B:staunt",
      "x": 290,
-     "blase": "Andere Einkunftsart!"
-    },
-    {
-     "typ": "inhalt",
-     "falle": true,
-     "titel": "Kleine Beteiligung",
-     "punkte": [
-      [
-       "Kommanditist mit 5 % an der Komplementär-GmbH: Sein Einfluss in der KG steigt dadurch nicht.",
-       "warn",
-       "Regular",
-       null
-      ],
-      [
-       "Folge: kein notwendiges SBV II.",
-       "nein",
-       "Bold",
-       "H 4.2 (2) EStH"
-      ]
-     ],
-     "figur": "B:skeptisch",
-     "x": 790,
-     "blase": "Nur 5 Prozent?"
+     "blase": "Andere Einkunftsart!",
+     "extra": [
+      "Falle: 5 % an der GmbH sind kein SBV II",
+      "ROT",
+      "H 4.2 (2) EStH"
+     ]
     },
     {
      "typ": "merke",
