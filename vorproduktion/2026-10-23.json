@@ -4,699 +4,553 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "bilanz-modul-k3-19",
-        "themaTitel": "Buchungssatz und Gewinnauswirkung",
-        "fach": "bilanz",
+        "format": "minifall",
+        "themaId": "umwst-aufb-umw-2-70",
+        "themaTitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+        "fach": "umwst",
         "klausur": 3
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "erbst-aufb-erbst-v-5",
-        "themaTitel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-        "fach": "erbst",
+        "format": "vergleich",
+        "themaId": "ust-karte-ust-5",
+        "themaTitel": "Ort der ruhenden Lieferung",
+        "fach": "ust",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "istr-modul-istr-istr1-08",
-        "themaTitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
-        "fach": "istr",
-        "klausur": 2,
-        "lang": false
+        "themaId": "kst-karte-kst-7",
+        "themaTitel": "§ 8c KStG",
+        "fach": "kst",
+        "klausur": 2
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:04",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-7"
+        "themaId": "kst-quiz-kst-7"
       },
       {
         "slot": "s5",
-        "zeit": "07:04",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-7"
+        "themaId": "kst-quiz-kst-7"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:53",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-aufb-istr-gh-4-04"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:38",
-        "art": "tipp",
-        "themaId": "ao-modul-ao-369"
+        "themaId": "persg-aufb-persg-melzer-1-7"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:50",
-        "art": "fehler",
-        "themaId": "ao-aufb-ao-jacobs-12-1"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:13",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-7-9"
+        "themaId": "ust-karte-ust-8"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "est-aufb-est-ks2-19-03"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "bilanz",
+      "format": "minifall",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "themaId": "bilanz-modul-k3-19",
-      "slug": "2026-10-23-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Buchungssatz und Gewinnauswirkung",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Gewinnwirksam ist eine Buchung nur, wenn sie ein Erfolgskonto berührt; reine Bestandsbewegungen wie Aktiv- oder Passivtausch ändern den Gewinn nicht.",
-            "In der Klausur formulierst du die Korrekturbuchung, nicht die komplette Neubuchung des Vorgangs."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Ist-Buchung des Sachverhalts notieren."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Soll-Buchung nach richtiger Würdigung bestimmen."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Korrekturbuchung als Differenz aus Soll- und Ist-Buchung bilden und die Gewinnauswirkung je Erfolgskonto als Mehr- oder Mindergewinn ausweisen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Über Mehr- oder Mindergewinn entscheidet allein das Erfolgskonto der Korrekturbuchung: Mehr Ertrag oder weniger Aufwand erhöht den Gewinn, mehr Aufwand oder weniger Ertrag mindert ihn."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Buchungssatz und Gewinnauswirkung: Ist-Buchung notieren, Soll-Buchung bestimmen, Korrekturbuchung bilden. Gewinnwirksam wird die Korrektur nur, soweit sie ein Erfolgskonto berührt.",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-70",
+      "caption": "Sperrfristbehaftete Anteile verkauft: Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Der Mini-Fall.\n\n▸ Einbringungsgewinn I: gemeiner Wert des eingebrachten Betriebsvermögens abzüglich Kosten und Ansatz bei der GmbH, gemindert um ein Siebtel je abgelaufenes Zeitjahr seit der Einbringung (§ 22 Abs. 1 S. 3 UmwStG); rückwirkende Versteuerung beim Einbringenden (§ 22 Abs. 1 S. 1, 2 UmwStG).\n▸ Die übernehmende Gesellschaft kann auf Antrag den versteuerten Einbringungsgewinn als Erhöhungsbetrag ansetzen, soweit der Einbringende die Steuer entrichtet hat und dies per Bescheinigung nach § 22 Abs. 5 UmwStG nachgewiesen ist; der Ansatz ist gewinnneutral (§ 23 Abs. 2 S. 1 UmwStG). Voraussetzung: Das eingebrachte Betriebsvermögen gehört noch zur GmbH oder wurde zum gemeinen Wert übertragen (§ 23 Abs. 2 S. 2 UmwStG).\n▸ Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in das die schädliche Veräußerung fällt (§ 23 Abs. 3 S. 2 UmwStG).\n\nIm Beispiel: Einbringung 01.07.2023, Verkauf 10.09.2026 → drei volle Zeitjahre → 700.000 € × 4/7 = 400.000 €. Verteilung im Verhältnis der stillen Reserven: Gebäude 240.000 €, Maschinen 80.000 €, Firmenwert 80.000 €; Mehr-AfA ab 01.01.2026 (Wirtschaftsjahr = Kalenderjahr).\n\nZum Schluss: § 23 Abs. 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#bilanzsteuerrecht"
+        "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Buchungssatz und Gewinnauswirkung",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 238 Abs. 1 HGB",
-        "§ 246 Abs. 1 S. 1 HGB",
-        "§ 4 Abs. 1 S. 1 EStG",
-        "§ 5 Abs. 1 S. 1 EStG",
-        "§ 60 Abs. 2 EStDV",
-        "Soll an Haben",
-        "HB/StB-Korrektur",
-        "Themenpool: bilanz-modul-k3-19"
+        "§ 22 Abs. 1 S. 1–3, Abs. 5 UmwStG",
+        "§ 23 Abs. 2 S. 1, 2, Abs. 3 S. 2 UmwStG"
       ],
-      "coverRegie": {
-        "thema": "Buchungssatz und Gewinnauswirkung",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b1-bilanz-modul-k3-19-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-23-b1",
+      "kurztitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Mini-Fall",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Mini-Fall",
+          "text": "Mini-Fall · Anteile verkauft: · GmbH stockt auf · § 23 Abs. 2 UmwStG · Wie viel? · + Markier-Guide § 23 UmwStG · Einbringungsgewinn I · 400.000 € · und die GmbH?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Der Fall · Nils bringt am 01.07.2023 sein Einzelunternehmen zum Buchwert in die Nord GmbH ein. · Stille Reserven 700.000 €: Gebäude 420.000 €, Maschinen und Firmenwert je 140.000 €. · Am 10.09.2026 verkauft er die Anteile. · Zu früh verkauft?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Jetzt du · Wie hoch ist der Einbringungsgewinn I? · Was darf die GmbH damit machen – und ab wann? · Erst rechnen, dann weiterwischen · Rechnest du mit?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "1 · Einbringungsgewinn I · § 22 Abs. 1 S. 3 UmwStG · Stille Reserven 2023 · 700.000 € · Abgelaufene Zeitjahre · 3 · – 3/7 · – 300.000 € · = Einbringungsgewinn I · 400.000 € · Rückwirkend in Nils' Veranlagung 2023"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Kein Automatismus · Die GmbH stockt nur auf Antrag auf. · § 23 Abs. 2 S. 1 UmwStG · Und nur, soweit Nils die Steuer bezahlt hat – nachgewiesen per Bescheinigung. · § 22 Abs. 5 UmwStG · Der Erhöhungsbetrag bleibt ohne Gewinnauswirkung. · Erst zahlen!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "2 · Erhöhungsbetrag verteilen · § 23 Abs. 2 S. 1 UmwStG · Gebäude, 4/7 · 240.000 € · Maschinen, 4/7 · 80.000 € · Firmenwert, 4/7 · 80.000 € · = Erhöhungsbetrag · 400.000 € · Im Verhältnis der stillen Reserven"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "3 · AfA ab wann? · Mehr-AfA ab Beginn des Wirtschaftsjahres der Veräußerung, hier 01.01.2026. · § 23 Abs. 3 S. 2 UmwStG · Nicht rückwirkend ab 2023. · Annahme: Wirtschaftsjahr gleich Kalenderjahr. · Erst ab 2026!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Lösung: 400.000 € Erhöhungsbetrag auf Antrag · Gebäude 240.000 €, Maschinen und Firmenwert je 80.000 € · Siebtel abziehen, · Steuer bezahlt? · Antrag stellen, · AfA ab Jahresbeginn. · Speichern für Klausur 3 · Hättest du ab 2023 abgeschrieben? · Weiterwischen: § 23 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Wahlrecht · Steuer bezahlt? · gewinnneutral · AfA-Beginn: § 23 Abs. 3 S. 2 UmwStG · Beginn des Wirtschaftsjahres der Veräußerung"
+        }
+      ]
     },
     "b2": {
-      "format": "spickzettel",
-      "fach": "erbst",
+      "format": "vergleich",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-aufb-erbst-v-5",
-      "slug": "2026-10-23-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Begünstigt ist der gemeine Wert des begünstigungsfähigen Vermögens, soweit er den Nettowert des Verwaltungsvermögens nach Kürzung um den unschädlichen Teil übersteigt.",
-            "Unschädlich sind nach § 13b Abs. 7 ErbStG 10 % des Betriebswerts, der zuvor um den Nettowert des Verwaltungsvermögens vermindert wurde."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Gemeinen Wert des begünstigungsfähigen Vermögens nach § 13b Abs. 1 ErbStG feststellen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "90-%-Test (§ 13b Abs. 2 S. 2 ErbStG): Verwaltungsvermögen ohne Schuldenquote und 10-%-Kürzung; Finanzmittel bei operativen Betrieben aber nach Abzug betrieblicher Schulden, ohne 15-%-Sockel."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Unter 90 %: gemeinen Wert um den Nettowert des Verwaltungsvermögens mindern, soweit er den unschädlichen Teil übersteigt (§ 13b Abs. 6, 7 ErbStG)."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Ab 90 % Verwaltungsvermögen fällt die Verschonung komplett weg. Darunter bleibt nur der Nettowert des Verwaltungsvermögens oberhalb des unschädlichen Teils unbegünstigt."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Begünstigtes Vermögen nach § 13b ErbStG: erst der 90-%-Test, dann die Rechnung aus gemeinem Wert, Nettowert des Verwaltungsvermögens und unschädlichem Teil. Beim 90-%-Test die Schuldenverrechnung bei den Finanzmitteln nach BFH-Urteil und Ländererlassen 2024 beachten.",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-5",
+      "caption": "Ort der Lieferung: bewegt oder ruhend? Die Gegenüberstellung für die USt-Klausur.\n\n▸ Bewegte Lieferung: Wird der Gegenstand befördert oder versendet, ist der Ort dort, wo die Beförderung oder Versendung beginnt (§ 3 Abs. 6 S. 1 UStG).\n▸ Ruhende Lieferung: Ohne Beförderung oder Versendung ist der Ort dort, wo sich der Gegenstand bei Verschaffung der Verfügungsmacht befindet (§ 3 Abs. 7 S. 1 UStG).\n▸ Reihengeschäft: Die Warenbewegung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG); befördert oder versendet der erste Unternehmer, ist es seine Lieferung (§ 3 Abs. 6a S. 2 UStG). Ruhende Lieferungen davor gelten am Beginn, danach am Ende der Beförderung oder Versendung als ausgeführt (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nIm Beispiel: Hersteller (Graz) → Ana (Passau) → Kundin (Passau), Versendung durch den Hersteller. Bewegt ist die Lieferung an Ana, Ort Graz (innergemeinschaftliche Lieferung aus Österreich); Ana erwirbt innergemeinschaftlich in Deutschland, wo die Versendung endet (§ 1a, § 3d S. 1 UStG). Die Lieferung an die Kundin ist ruhend, Ort Passau, steuerbar im Inland.\n\nZum Schluss: § 3 Abs. 6a und 7 UStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 13b Abs. 2 Satz 1 ErbStG",
-        "§ 13b Abs. 2 Satz 2 ErbStG",
-        "§ 13b Abs. 1 Nr. 1 bis 3 ErbStG",
-        "§ 13b Abs. 3 Satz 1 ErbStG",
-        "§ 13b Abs. 4 Nr. 5 ErbStG",
-        "§ 13b Abs. 6 ErbStG",
-        "§ 13b Abs. 7 ErbStG",
-        "BFH vom 13.09.2023 II R 49/21, BStBl. 2024 II S. 566",
-        "gleichlautende Ländererlasse vom 19.06.2024",
-        "§ 13 Abs. 1 EStG",
-        "§ 15 Abs. 1 Satz 1 Nr. 1 EStG",
-        "§ 18 Abs. 1 Nr. 1 und 2 EStG",
-        "Themenpool: erbst-aufb-erbst-v-5"
+        "§ 3 Abs. 6 S. 1 UStG",
+        "§ 3 Abs. 6a S. 1, 2 UStG",
+        "§ 3 Abs. 7 S. 1, 2 UStG",
+        "§ 1a UStG",
+        "§ 3d S. 1 UStG"
       ],
-      "coverRegie": {
-        "thema": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b2-erbst-aufb-erbst-v-5-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-23-b2",
+      "kurztitel": "Ort der ruhenden Lieferung",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Gegenüberstellung",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Gegenüberstellung",
+          "text": "Gegenüberstellung · Bewegt oder · ruhend? · § 3 Abs. 7 UStG · Lieferort · + Markier-Guide § 3 UStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Bewegt oder ruhend? · Bewegt · Mit Transport zum Abnehmer · § 3 Abs. 6 S. 1 UStG · Ort: wo der Transport beginnt · Ruhend · Kein Transport zu dieser Lieferung · § 3 Abs. 7 S. 1 UStG · Ort: wo die Ware bei Übergabe ist · Und bei Ketten?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Reihengeschäft · Mehrere Verkäufe, aber nur ein Transport direkt vom Ersten zum Letzten. · § 3 Abs. 6a S. 1 UStG · Nur eine Lieferung ist bewegt, alle anderen ruhen. · Schickt der Erste in der Kette die Ware, gehört die Bewegung zu seiner Lieferung. · § 3 Abs. 6a S. 2 UStG · Nur eine!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Ruhend: davor oder danach? · Davor · Ort: wo der Transport beginnt · § 3 Abs. 7 S. 2 Nr. 1 UStG · Danach · Ort: wo der Transport endet · § 3 Abs. 7 S. 2 Nr. 2 UStG · Reihenfolge zählt!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Beispiel · Ein Hersteller in Graz verkauft Möbel an Ana, Händlerin in Passau. · Ana verkauft sie an eine Kundin in Passau weiter. · Der Hersteller schickt sie direkt von Graz zur Kundin. · Wo liegen die Orte? Erst überlegen · Graz oder Passau?"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Die Lösung · Hersteller an Ana · bewegt, Ort Graz · § 3 Abs. 6a S. 2 UStG · innergemeinschaftliche Lieferung aus Österreich · Ana an Kundin · ruhend, Ort Passau · § 3 Abs. 7 S. 2 Nr. 2 UStG · steuerbar in Deutschland · Danach heißt Ende!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung: Graz bewegt, Passau ruhend · Ana erwirbt innergemeinschaftlich in Deutschland · Transport suchen, · eine Lieferung bewegt, · davor: Beginn, · danach: Ende. · Speichern für Klausur 1 · Hättest du Graz für beide genommen? · Weiterwischen: § 3 UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "nur eine bewegt · ruhend · danach: Ende · Bewegt: § 3 Abs. 6 S. 1 UStG · Ort ist der Beginn des Transports"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "istr",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr1-08",
-      "slug": "2026-10-23-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: In welcher Reihenfolge prüfst du?",
-          "unter": "Internationales Steuerrecht",
-          "text": "Kein Wohnsitz, kein gewöhnlicher Aufenthalt im Inland – und trotzdem deutsche Einkommensteuer?",
-          "norm": "§ 1 Abs. 4 EStG",
-          "icon": null,
-          "sprecher": "Kein Wohnsitz und kein gewöhnlicher Aufenthalt in Deutschland, aber Einkünfte von hier. Dann ist die Person nach § 1 Abs. 4 EStG beschränkt steuerpflichtig. So prüfst du jede Einkunftsquelle.",
-          "marken": [
-            "§ 1 Abs. 4 EStG",
-            "Kein Wohnsitz im Inland"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Einkunftsart und § 49 Abs. 1 EStG prüfen",
-          "text": null,
-          "norm": "§ 49 Abs. 1 EStG",
-          "icon": null,
-          "sprecher": "Schritt 1: Ordne die Einkünfte einer Einkunftsart zu und suche die passende Nummer in § 49 Abs. 1 EStG. Fehlt das Inlandsmerkmal, etwa Betriebsstätte, Grundstück oder Tätigkeit im Inland, werden diese Einkünfte hier nicht besteuert.",
-          "marken": [
-            "Einkunftsart zuerst",
-            "Inlandsbezug nach § 49 EStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Steuerzugriff: Steuerabzug oder Veranlagung",
-          "text": null,
-          "norm": "§ 50 Abs. 2 EStG",
-          "icon": null,
-          "sprecher": "Schritt 2: Kläre, wie der Staat zugreift. Unterliegen die Einkünfte einem Steuerabzug, etwa nach § 50a EStG, ist die Steuer nach § 50 Abs. 2 EStG grundsätzlich abgegolten. Sonst wird veranlagt.",
-          "marken": [
-            "Abzug oder Veranlagung",
-            "§ 50 Abs. 2 EStG"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Jede Einkunftsquelle einzeln: erst Katalog des § 49 EStG, dann Erhebungsform, zuletzt ein mögliches DBA.",
-          "sprecher": "Merke: Jede Einkunftsquelle prüfst du einzeln. Erst der Katalog des § 49, dann die Erhebungsform, zuletzt ein mögliches DBA.",
-          "marken": [
-            "Jede Einkunftsquelle einzeln"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage und Reihenfolge",
-            "Normen ohne Unterlagen"
-          ]
-        }
-      ],
-      "caption": "Kein Wohnsitz, kein gewöhnlicher Aufenthalt, aber Einkünfte aus Deutschland? So prüfst du die beschränkte Steuerpflicht: § 1 Abs. 4 EStG, dann je Einkunftsquelle der Katalog des § 49 EStG und zuletzt die Erhebung durch Steuerabzug oder Veranlagung (§ 50 EStG).",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-7",
+      "caption": "Anteile an einer Verlust-GmbH verkauft: Was wird aus dem Verlustvortrag? § 8c KStG in Zahlen. 📉\n\n▸ Schädlich ist erst, wenn innerhalb von fünf Jahren mehr als 50 % des gezeichneten Kapitals, der Mitgliedschafts-, Beteiligungs- oder Stimmrechte an einen Erwerber oder ihm nahestehende Personen übertragen werden; dann sind die bis dahin nicht genutzten Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG). Eine Übertragung von 40 % ist für sich allein unschädlich.\n▸ Stille-Reserven-Klausel: Der Verlust bleibt abziehbar, soweit er die im Inland steuerpflichtigen stillen Reserven des Betriebsvermögens nicht übersteigt (§ 8c Abs. 1 S. 5, 6 KStG).\n▸ Daneben prüfen: Konzernklausel (§ 8c Abs. 1 S. 4 KStG) und auf Antrag der fortführungsgebundene Verlustvortrag (§ 8d KStG).\n\nIm Beispiel: Verlustvortrag 500.000 €, Erwerb von 60 %, stille Reserven 200.000 € → 200.000 € bleiben, 300.000 € gehen unter.\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#internationalessteuerrecht"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: In welcher Reihenfolge prüfst du?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 Abs. 4 EStG",
-        "§ 49 Abs. 1 EStG",
-        "§ 50 EStG",
-        "§ 50a EStG",
-        "§ 49 EStG",
-        "Themenpool: istr-modul-istr-istr1-08"
+        "§ 8c Abs. 1 S. 1, 4, 5, 6 KStG",
+        "§ 8d KStG"
       ],
-      "coverRegie": {
-        "thema": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: als Arbeitsmethode",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-23-b3-istr-modul-istr-istr1-08-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-23-b3",
+      "kurztitel": "§ 8c KStG",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "40 % verkauft: 40 % Verlust weg?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Grenze"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Rechnung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Stille Reserven"
+        }
+      ],
+      "sprecher": [
+        "Vierzig Prozent der Anteile verkauft, also vierzig Prozent Verlust weg? Falsch. Bis fünfzig Prozent bleibt alles.",
+        "Erst wenn binnen fünf Jahren mehr als die Hälfte an einen Erwerber geht, ist der Verlust weg, und zwar komplett.",
+        "Beispiel: Verlustvortrag fünfhunderttausend Euro, ein Käufer übernimmt sechzig Prozent.",
+        "Aber soweit stille Reserven da sind, bleibt der Verlust. Bei zweihunderttausend Reserven sind nur dreihunderttausend weg.",
+        "Merke: Über die Hälfte, Verlust weg, außer stille Reserven."
+      ],
+      "dauerS": 37.435,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-7",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-7"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-7",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Steuerfreie Dividende:",
+        "wie viel wird",
+        "hinzugerechnet?",
+        "5 %",
+        "10 %",
+        "40 %",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Vorschrift untersagt Rückstellungen für drohende Verluste in der Steuerbilanz?",
-      "titel": "Welche Vorschrift untersagt Rückstellungen für drohende Verluste in der Steuerbilanz?",
-      "optionen": [
-        "§ 5 Abs. 4a S. 1 EStG",
-        "§ 249 Abs. 1 S. 1 HGB",
-        "§ 5 Abs. 2 EStG"
-      ],
-      "richtig": 0,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-7",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-7"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-7",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "A: 5 %",
+        "5 %",
+        "10 %",
+        "40 %",
+        "5 % gelten als nicht abziehbare Betriebsausgaben, im Ergebnis bleiben 95 % frei.",
+        "§ 8b Abs. 5 S. 1 KStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "§ 5 Abs. 4a S. 1 EStG",
-      "optionen": [
-        "§ 5 Abs. 4a S. 1 EStG",
-        "§ 249 Abs. 1 S. 1 HGB",
-        "§ 5 Abs. 2 EStG"
-      ],
-      "richtig": 0,
-      "text": "Steuerlich gilt das Ansatzverbot des § 5 Abs. 4a S. 1 EStG, obwohl § 249 Abs. 1 S. 1 HGB die Rückstellung handelsrechtlich verlangt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-4-04",
-      "quellen": [
-        "§ 50d Abs. 9 EStG",
-        "§ 50d EStG",
-        "§ 50d Abs. 8 EStG",
-        "Themenpool: istr-aufb-istr-gh-4-04"
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-1-7",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Gewinn des",
+        "Mitunternehmers",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "Stufe 1: Anteil am Gewinn der Gesellschaft plus Ergänzungsbilanz.",
+        "Stufe 2: Sondervergütungen und übriges Sonderbetriebsergebnis."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 50d Abs. 9 EStG",
-      "titel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
-      "text": "Ja: Ein späteres Gesetz verdrängt das DBA-Zustimmungsgesetz (BVerfG 2015). So versagt § 50d Abs. 9 EStG die Freistellung, wenn der andere Staat die Einkünfte wegen abweichender Abkommensanwendung freistellt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-369",
-      "quellen": [
-        "§ 351 Abs. 1 AO",
-        "§ 177 Abs. 1 AO",
-        "§ 177 Abs. 2 AO",
-        "§ 177 AO",
-        "Korrekturformel",
-        "Themenpool: ao-modul-ao-369"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Viele Daten?",
+        "Zeitleiste zeichnen",
+        "Alle Daten aus dem Sachverhalt auf eine Linie.",
+        "Fristen und Stichtage farbig markieren.",
+        "Erst dann die Fragen beantworten."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Einspruch gegen einen Änderungsbescheid: die Grenze des § 351 Abs. 1 AO",
-      "text": "Ist der Ursprungsbescheid unanfechtbar, greifst du den Änderungsbescheid nur an, soweit die Änderung reicht – außer eine Korrekturnorm erlaubt mehr. Andere materielle Fehler wirken über § 177 AO nur in diesem Rahmen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "fehler",
-      "fach": "ao",
+      "art": "tipp",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-12-1",
-      "quellen": [
-        "§§ 193 bis 207 AO",
-        "§ 193 Abs. 1 AO",
-        "§ 193 Abs. 2 Nr. 1 AO",
-        "§ 193 Abs. 2 Nr. 2 AO",
-        "§ 193 Abs. 2 Nr. 3 AO",
-        "§ 147a AO",
-        "§§ 85ff AO",
-        "§ 90 Abs. 2 Satz 3 AO",
-        "§ 146b AO",
-        "§ 171 Abs. 4 AO",
-        "Themenpool: ao-aufb-ao-jacobs-12-1"
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-8",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "§ 15a UStG:",
+        "die Eckdaten",
+        "5 Jahre, Grundstücke 10 Jahre.",
+        "§ 15a Abs. 1 UStG",
+        "Vorsteuer bis 1.000 €: keine Berichtigung.",
+        "§ 44 Abs. 1 UStDV",
+        "Unter 10 Prozentpunkten: erst über 1.000 €.",
+        "§ 44 Abs. 2 UStDV"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
-      "falsch": "Eine Außenprüfung ist nur zulässig, wenn ein konkreter Anlass oder Verdacht besteht.",
-      "richtigText": "Bei Gewerbetreibenden, Land- und Forstwirten, Freiberuflern und Steuerpflichtigen nach § 147a AO ist sie nach § 193 Abs. 1 AO ohne Anlass zulässig; bei anderen nur unter den Voraussetzungen des § 193 Abs. 2 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-7-9",
-      "quellen": [
-        "§ 173 Abs. 1 Nr. 1 und Nr. 2, Nr. 2 Satz 2, Abs. 2 AO",
-        "§ 164 Abs. 2 AO",
-        "§ 177 AO",
-        "§ 181 Abs. 1 Satz 1 AO",
-        "§ 180 Abs. 1 Nr. 2a AO",
-        "§ 129 AO",
-        "§ 172 Abs. 1 Nr. 2c AO",
-        "§ 174 AO",
-        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 370 AO",
-        "Themenpool: ao-aufb-ao-jacobs-7-9"
+      "art": "merksatz",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-19-03",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Merksatz",
+        "Arbeitszimmer",
+        "oder Pauschale?",
+        "Mittelpunkt: Kosten",
+        "oder 1.260 € pauschal,",
+        "sonst 6 € je Tag",
+        "bis 1.260 €.",
+        "§ 4 Abs. 5 S. 1 Nr. 6b, 6c EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
-      "text": "Ohne grobes Verschulden, auch des Beraters, zählen neue steuermindernde Tatsachen (§ 173 Abs. 1 Nr. 2 AO). Nach Außenprüfung sperrt § 173 Abs. 2 AO Änderungen nach § 173 AO, außer bei Hinterziehung oder Leichtfertigkeit.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "bilanz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Buchungssatz und Gewinnauswirkung",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Anteile verkauft: GmbH stockt auf",
+        "Mini-Fall + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "erbst",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Begünstigtes Vermögen und der 90-%-Test des § 13b ErbStG",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Bewegt oder ruhend?",
+        "A oder B? + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "istr",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Beschränkte Steuerpflicht nach § 1 Abs. 4 EStG: In welcher Reihenfolge prüfst du?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "40 % verkauft: Verlust weg?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:56:32.735Z",
+    "erzeugtAm": "2026-10-03T04:44:47Z",
     "pfad": "vorproduktion/2026-10-23/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -708,5 +562,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
