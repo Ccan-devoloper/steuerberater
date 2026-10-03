@@ -175,7 +175,7 @@
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "Wahlrecht · Steuer bezahlt? · gewinnneutral · AfA-Beginn: § 23 Abs. 3 S. 2 UmwStG · Beginn des Wirtschaftsjahres der Veräußerung"
+          "text": "§ 23 UmwStG (Auszug) · Wahlrecht · Steuer bezahlt? · gewinnneutral · AfA-Beginn: § 23 Abs. 3 S. 2 UmwStG · Beginn des Wirtschaftsjahres der Veräußerung"
         }
       ]
     },
@@ -251,7 +251,7 @@
         {
           "art": "text",
           "titel": "Umsatzsteuer",
-          "text": "nur eine bewegt · ruhend · danach: Ende · Bewegt: § 3 Abs. 6 S. 1 UStG · Ort ist der Beginn des Transports"
+          "text": "§ 3 UStG (Auszug) · nur eine bewegt · ruhend · danach: Ende · Bewegt: § 3 Abs. 6 S. 1 UStG · Ort ist der Beginn des Transports"
         }
       ]
     },
@@ -542,7 +542,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:44:47Z",
+    "erzeugtAm": "2026-10-03T10:58:41Z",
     "pfad": "vorproduktion/2026-10-23/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
