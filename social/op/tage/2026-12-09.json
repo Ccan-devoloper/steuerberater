@@ -570,7 +570,7 @@
        "Kein Freibetrag und keine Tarifermäßigung beim Teilanteil.",
        "nein",
        "Regular",
-       "§ 20 Abs. 4 S. 1 UmwStG"
+       "§ 20 Abs. 4 UmwStG"
       ]
      ],
      "figur": "A:denkt",
@@ -1294,12 +1294,16 @@
    "zeilen": [
     [
      [
-      "Nur ein echter ",
+      "Echter ",
       null
      ],
      [
       "Beginn",
       "a"
+     ],
+     [
+      " hemmt,",
+      null
      ]
     ],
     [
@@ -1312,7 +1316,21 @@
       "b"
      ],
      [
-      " hemmt.",
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "auch ",
+      null
+     ],
+     [
+      "Aufschub",
+      "d"
+     ],
+     [
+      " auf Antrag.",
       null
      ]
     ],

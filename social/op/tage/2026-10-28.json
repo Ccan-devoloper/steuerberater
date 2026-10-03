@@ -801,7 +801,7 @@
     },
     {
      "id": "s2",
-     "text": "Geht die Rechnung an Privatleute ohne Vorsteuerabzug, entsteht daraus keine Steuer. So sehen es EuGH und Bundesfinanzhof."
+     "text": "Geht die Rechnung an Privatleute ohne Vorsteuerabzug, entsteht daraus keine Steuer. So sehen es EuGH, Bundesfinanzhof und Verwaltung."
     },
     {
      "id": "s3",
@@ -895,8 +895,8 @@
       },
       {
        "typ": "norm",
-       "text": "BFH vom 26.03.2026",
-       "wort": "Bundesfinanzhof"
+       "text": "Abschn. 14c.1 Abs. 1a UStAE",
+       "wort": "Verwaltung"
       }
      ],
      "icon": [
@@ -963,7 +963,7 @@
     "cta_wort": "bekommt",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "§ 14c UStG: Zu viel Umsatzsteuer ausgewiesen – schuldest du den Mehrbetrag immer? 🧾\n\n▸ Unrichtiger Ausweis: Wer mehr Steuer ausweist, als er schuldet, schuldet auch den Mehrbetrag; Berichtigung gegenüber dem Empfänger entsprechend § 17 Abs. 1 UStG (§ 14c Abs. 1 S. 1, 2 UStG).\n▸ Rechnung an Endverbraucher (Nichtunternehmer ohne Vorsteuerabzug): keine Steuerschuld aus § 14c Abs. 1 UStG (EuGH vom 01.08.2025, C-794/23; BFH vom 26.03.2026, V R 46/25). Unternehmer, die privat beziehen, zählen nach dem EuGH nicht als Endverbraucher in diesem Sinne; maßgeblich ist jede einzelne Rechnung.\n▸ Unberechtigter Ausweis, etwa durch Nichtunternehmer: geschuldet wird der ausgewiesene Betrag; Berichtigung erst, wenn die Gefährdung des Steueraufkommens beseitigt ist, also kein Vorsteuerabzug durchgeführt oder die Vorsteuer zurückgezahlt wurde (§ 14c Abs. 2 S. 1, 3, 4 UStG).\n\nSpeichern für Klausur 1 📌",
+   "caption": "§ 14c UStG: Zu viel Umsatzsteuer ausgewiesen – schuldest du den Mehrbetrag immer? 🧾\n\n▸ Unrichtiger Ausweis: Wer mehr Steuer ausweist, als er schuldet, schuldet auch den Mehrbetrag; Berichtigung gegenüber dem Empfänger entsprechend § 17 Abs. 1 UStG (§ 14c Abs. 1 S. 1, 2 UStG).\n▸ Rechnung an Endverbraucher (Nichtunternehmer ohne Vorsteuerabzug): keine Steuerschuld aus § 14c Abs. 1 UStG (Abschn. 14c.1 Abs. 1a UStAE, BMF vom 27.02.2024; ebenso EuGH vom 01.08.2025, C-794/23, und BFH vom 26.03.2026, V R 46/25, noch nicht im BStBl). Maßgeblich ist jede einzelne Rechnung, eine Schätzung lässt die Verwaltung nicht zu. Unterschied: Die Verwaltung zählt auch Unternehmer, die privat beziehen, zu den Endverbrauchern; nach dem EuGH sind es nur Nichtsteuerpflichtige.\n▸ Unberechtigter Ausweis, etwa durch Nichtunternehmer: geschuldet wird der ausgewiesene Betrag; Berichtigung erst, wenn die Gefährdung des Steueraufkommens beseitigt ist, also kein Vorsteuerabzug durchgeführt oder die Vorsteuer zurückgezahlt wurde (§ 14c Abs. 2 S. 1, 3, 4 UStG).\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -974,7 +974,9 @@
     "§ 14c Abs. 1, 2 UStG",
     "§ 17 Abs. 1 UStG",
     "EuGH vom 01.08.2025, C-794/23",
-    "BFH vom 26.03.2026, V R 46/25"
+    "BFH vom 26.03.2026, V R 46/25",
+    "Abschn. 14c.1 Abs. 1a UStAE",
+    "BMF vom 27.02.2024"
    ]
   }
  ],

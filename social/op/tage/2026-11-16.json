@@ -322,7 +322,7 @@
          "b1"
         ],
         [
-         "nach Abzug der Veräußerungskosten",
+         "nach Abzug der Veräußerungskosten […]",
          null
         ],
         [
@@ -1289,32 +1289,36 @@
     ],
     [
      [
-      "binnen 3 Jahren",
+      "AK-Grenze",
       "b"
      ],
      [
-      " privat",
+      " (3 Jahre)",
       null
      ]
     ],
     [
      [
-      "angeschafft:",
+      "nur ohne ",
       null
      ],
      [
-      " höchstens AK",
+      "§ 23-Fall",
       "c"
+     ],
+     [
+      ";",
+      null
      ]
     ],
     [
      [
-      "minus AfA.",
+      "Grundstück: Teilwert.",
       null
      ]
     ]
    ],
-   "norm": "§ 8 Abs. 1 KStG, § 6 Abs. 1 Nr. 5 EStG",
+   "norm": "R 8.9 Abs. 4 KStR",
    "figuren": {
     "M": {
      "kopf": "Pomp",

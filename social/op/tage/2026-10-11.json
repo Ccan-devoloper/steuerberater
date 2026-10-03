@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 3,
-   "fach": "bilanz",
-   "fachLabel": "Bilanzsteuerrecht",
-   "themaId": null,
-   "themaTitel": "Klausur 3 kompakt: fünf Themen der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-41",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 41",
    "figuren": {
     "A": {
      "name": "Wanja",
@@ -25,7 +25,7 @@
      "kopf": "Afro",
      "haut": "#6B4226",
      "haar": "#2B2B2B",
-     "oberteil": "#C9B8F2",
+     "oberteil": "#9AD48F",
      "brille": "Glasses 2",
      "bueste": "Turtleneck"
     }
@@ -36,87 +36,124 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 3",
+      "Woche",
       "kompakt"
      ],
-     "unter": "5 Themen",
-     "teaser": "+ Markier-Guide § 39 AO",
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide § 8b KStG",
      "motiv": {
-      "typ": "kalender",
-      "monat": "OKTOBER",
-      "tag": "11",
-      "unter": "So · Rückblick"
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "KW 41",
+        "Bold",
+        44
+       ],
+       [
+        "3",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Klausuren",
+        "ExtraBold",
+        54
+       ]
+      ]
      },
      "figur": "A:erklaert"
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Verbindlichkeiten",
-       "§ 6 Abs. 1 Nr. 3 EStG",
-       ""
+       "Klausur 1 · AO und USt",
+       "§§ 108, 122 AO · § 2 UStG",
+       "Bekanntgabe und Unternehmer"
       ],
       [
-       "Teilwertabschreibung",
-       "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
-       ""
+       "Klausur 2 · KSt und GewSt",
+       "§ 8b KStG · § 8 Nr. 1 GewStG",
+       "Dividenden und Finanzierungsanteile"
       ],
       [
-       "Disagio beim Tilgungsdarlehen",
-       "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
-       ""
-      ],
-      [
-       "Sonderbetriebsvermögen",
-       "R 4.2 Abs. 2 EStR",
-       ""
-      ],
-      [
-       "Wirtschaftliches Eigentum",
-       "§ 39 Abs. 2 Nr. 1 AO",
-       ""
+       "Klausur 3 · Bilanz",
+       "§ 6 Abs. 1, § 5 Abs. 5 EStG",
+       "Teilwert und Disagio"
       ]
      ],
-     "teaser": "Am Ende: § 39 AO markiert"
+     "teaser": "Am Ende: § 8b KStG markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Verbindlichkeiten",
+     "titel": "Klausur 1 · AO und USt",
      "punkte": [
       [
-       "Steuerlich mit dem Rückzahlungsbetrag ansetzen.",
+       "Per Post oder elektronisch: bekannt gegeben am vierten Tag.",
        "ok",
        "Regular",
-       "§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH"
+       "§ 122 Abs. 2 Nr. 1, Abs. 2a AO"
       ],
       [
-       "Keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden.",
+       "Vierter Tag am Wochenende oder Feiertag: nächster Werktag.",
        "warn",
        "Bold",
-       "§ 52 Abs. 12 S. 2 EStG"
+       "§ 108 Abs. 3 AO"
+      ],
+      [
+       "Unternehmer auch ohne Gewinnabsicht.",
+       "ok",
+       "Regular",
+       "§ 2 Abs. 1 S. 3 UStG"
       ]
      ],
-     "figur": "A:redet",
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Tage zählen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 2 · KSt und GewSt",
+     "punkte": [
+      [
+       "Dividende an die GmbH: außer Ansatz, 5 % nicht abziehbar.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG"
+      ],
+      [
+       "Unter 10 % zu Beginn des Kalenderjahres: voll steuerpflichtig.",
+       "warn",
+       "Bold",
+       "§ 8b Abs. 4 S. 1 KStG"
+      ],
+      [
+       "Gewerbesteuer: Finanzierungsanteile minus 200.000 €, davon ein Viertel.",
+       "ok",
+       "Regular",
+       "§ 8 Nr. 1 GewStG"
+      ]
+     ],
+     "figur": "A:denkt",
      "x": 790,
-     "blase": "Alte Abzinsung? Weg!"
+     "blase": "Stichtag 1. Januar!"
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Teilwertabschreibung",
+     "titel": "Klausur 3 · Bilanz",
      "punkte": [
       [
-       "Handelsbilanz, Umlaufvermögen: immer auf den niedrigeren Wert.",
-       "ok",
-       "Regular",
-       "§ 253 Abs. 4 HGB"
-      ],
-      [
-       "Steuerbilanz: nur bei voraussichtlich dauernder Minderung, als Wahlrecht.",
+       "Teilwert steuerlich nur bei voraussichtlich dauernder Minderung, als Wahlrecht.",
        "warn",
        "Bold",
-       "§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG"
+       "§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG"
+      ],
+      [
+       "Disagio: steuerlich aktiv abgrenzen, beim Tilgungsdarlehen degressiv auflösen.",
+       "ok",
+       "Regular",
+       "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
       ]
      ],
      "figur": "B:denkt",
@@ -124,176 +161,118 @@
      "blase": "Muss oder kann?"
     },
     {
-     "typ": "inhalt",
-     "titel": "3 · Disagio",
-     "punkte": [
-      [
-       "Steuerlich Pflicht: aktiver Rechnungsabgrenzungsposten.",
-       "ok",
-       "Regular",
-       "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
-      ],
-      [
-       "Tilgungsdarlehen: degressiv auflösen, Nenner n × (n + 1) ÷ 2.",
-       "warn",
-       "Bold",
-       null
-      ],
-      [
-       "Fälligkeitsdarlehen: linear.",
-       "ok",
-       "Regular",
-       null
-      ]
-     ],
-     "figur": "A:erklaert",
-     "x": 790,
-     "blase": "Schuld sinkt, Aufwand sinkt."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Sonderbetriebsvermögen",
-     "punkte": [
-      [
-       "SBV I dient dem Betrieb der Gesellschaft, SBV II der Beteiligung.",
-       "ok",
-       "Regular",
-       "R 4.2 Abs. 2 EStR"
-      ],
-      [
-       "Bei der Einbringung nach § 20 UmwStG muss wesentliches SBV mit.",
-       "warn",
-       "Bold",
-       "UmwStE vom 02.01.2025, Rn. 20.06, 20.10"
-      ]
-     ],
-     "figur": "B:redet",
-     "x": 290,
-     "blase": "SBV gehört dazu!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Wirtschaftliches Eigentum",
-     "punkte": [
-      [
-       "Grundsatz: Wirtschaftsgüter gehören dem Eigentümer.",
-       "ok",
-       "Regular",
-       "§ 39 Abs. 1 AO"
-      ],
-      [
-       "Anders, wenn ein anderer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt.",
-       "warn",
-       "Bold",
-       "§ 39 Abs. 2 Nr. 1 S. 1 AO"
-      ],
-      [
-       "Zurechnung immer zuerst prüfen.",
-       "ok",
-       "Regular",
-       null
-      ]
-     ],
-     "figur": "A:denkt",
-     "x": 790,
-     "blase": "Wem gehört es?"
-    },
-    {
      "typ": "merke",
      "oben": [
-      "Diese Woche in Klausur 3",
-      "Bilanz und Umwandlung: fünf Themen",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Rückzahlung",
+        "Vierter Tag",
         "a"
        ],
        [
-        " statt Barwert,",
+        " gibt bekannt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gewinnabsicht",
+        "b"
+       ],
+       [
+        " egal,",
+        null
+       ]
+      ],
+      [
+       [
+        "Dividende",
+        "c"
+       ],
+       [
+        " zu 95 % frei,",
         null
        ]
       ],
       [
        [
         "Teilwert",
-        "b"
-       ],
-       [
-        " nur bei Dauer,",
-        null
-       ]
-      ],
-      [
-       [
-        "Disagio",
-        "c"
-       ],
-       [
-        " degressiv,",
-        null
-       ]
-      ],
-      [
-       [
-        "Zurechnung",
         "d"
        ],
        [
-        " zuerst.",
+        " nur bei Dauer.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 3",
-     "frage": "Welches Thema wackelt noch?",
-     "teaser": "Weiterwischen: § 39 AO markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 8b KStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 39 AO Zurechnung (Auszug)",
+     "kopf": "§ 8b KStG (Auszug)",
      "absaetze": [
       [
        1,
        [
         [
-         "Wirtschaftsgüter sind",
+         "Bezüge im Sinne des § 20 Abs. 1 Nr. 1, 2, 9 und 10 Buchstabe a des Einkommensteuergesetzes",
          null
         ],
         [
-         "dem Eigentümer zuzurechnen.",
+         "bleiben bei der Ermittlung des Einkommens außer Ansatz.",
          "g1"
+        ],
+        [
+         "[…]",
+         null
         ]
        ]
       ],
       [
-       2,
+       4,
        [
         [
-         "Abweichend von Absatz 1 gelten die folgenden Vorschriften: 1. Übt ein anderer als der Eigentümer",
+         "Bezüge im Sinne des Absatzes 1 sind abweichend von Absatz 1 Satz 1 bei der Ermittlung des Einkommens zu berücksichtigen, wenn die Beteiligung",
          null
         ],
         [
-         "die tatsächliche Herrschaft",
-         "b1"
-        ],
-        [
-         "über ein Wirtschaftsgut in der Weise aus, dass er den Eigentümer im Regelfall",
-         null
-        ],
-        [
-         "für die gewöhnliche Nutzungsdauer",
+         "zu Beginn des Kalenderjahres",
          "r1"
         ],
         [
-         "von der Einwirkung auf das Wirtschaftsgut wirtschaftlich ausschließen kann, so ist ihm das Wirtschaftsgut zuzurechnen.",
+         "unmittelbar",
+         null
+        ],
+        [
+         "weniger als 10 Prozent",
+         "b1"
+        ],
+        [
+         "des Grund- oder Stammkapitals betragen hat; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       5,
+       [
+        [
+         "Von den Bezügen im Sinne des Absatzes 1, die bei der Ermittlung des Einkommens außer Ansatz bleiben, gelten",
+         null
+        ],
+        [
+         "5 Prozent",
          "gr1"
         ],
         [
-         "[…]",
+         "als Ausgaben, die nicht als Betriebsausgaben abgezogen werden dürfen. […]",
          null
         ]
        ]
@@ -301,44 +280,44 @@
      ],
      "notizen": [
       [
-       "Grundsatz",
+       "steuerfrei",
        "g1"
       ],
       [
-       "Herrschaft",
-       "b1"
-      ],
-      [
-       "Dauer!",
+       "Stichtag",
        "r1"
       ],
       [
-       "Folge",
+       "Streubesitz",
+       "b1"
+      ],
+      [
+       "5 % zurück",
        "gr1"
       ]
      ],
      "randnotiz": [
-      "Leasing, Treuhand, Sicherungseigentum",
-      "Zurechnung vor Ansatz und Bewertung"
+      "Im Ergebnis 95 % steuerfrei",
+      "Streubesitz unter 10 %: Dividende voll steuerpflichtig"
      ]
     }
    ],
-   "caption": "Klausur 3 kompakt: fünf Themen der Woche für Buchführung und Bilanzwesen.\n\n1. Verbindlichkeiten: Ansatz mit dem Rückzahlungsbetrag (§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH); keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG).\n2. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen zwingend (§ 253 Abs. 4 HGB), steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG).\n3. Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Tilgungsdarlehen degressiv nach der Zinsstaffel, beim Fälligkeitsdarlehen linear aufzulösen.\n4. Sonderbetriebsvermögen I und II (R 4.2 Abs. 2 EStR); bei der Einbringung eines Mitunternehmeranteils muss funktional wesentliches Sonderbetriebsvermögen mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06, 20.10).\n5. Wirtschaftliches Eigentum: Zurechnung beim Eigentümer, abweichend bei dem, der ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt (§ 39 Abs. 1, 2 Nr. 1 S. 1 AO).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Wochenrückblick KW 41: die Themen der Prüfungswoche aus allen drei Klausuren.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Ein per Post übermittelter Bescheid gilt am vierten Tag nach Aufgabe zur Post als bekannt gegeben, ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2 Nr. 1, Abs. 2a AO). Fällt dieser Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898).\n2. Unternehmer ist auch, wer nachhaltig Einnahmen erzielen will, ohne Gewinn zu erstreben (§ 2 Abs. 1 S. 1, 3 UStG).\n\nKlausur 2 (Ertragsteuern)\n3. Dividenden an eine Kapitalgesellschaft bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); bei einer Beteiligung unter 10 % zu Beginn des Kalenderjahres sind sie voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n4. Gewerbesteuer: Die Summe der Finanzierungsanteile wird um 200.000 € gekürzt, ein Viertel des Rests hinzugerechnet (§ 8 Nr. 1 GewStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Den niedrigeren Teilwert darf die Steuerbilanz nur bei voraussichtlich dauernder Wertminderung ansetzen, als Wahlrecht (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG).\n6. Ein Disagio ist steuerlich aktiv abzugrenzen (§ 5 Abs. 5 S. 1 Nr. 1 EStG) und über die Laufzeit aufzulösen, beim Tilgungsdarlehen degressiv.\n\nZum Schluss: § 8b Abs. 1, 4, 5 KStG zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#bilanzsteuerrecht"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 6 Abs. 1 Nr. 2, 3 EStG",
-    "H 6.10 EStH",
-    "§ 52 Abs. 12 S. 2 EStG",
-    "§ 253 Abs. 4 HGB",
-    "§ 5 Abs. 1 S. 1, Abs. 5 S. 1 Nr. 1 EStG",
-    "R 4.2 Abs. 2 EStR",
-    "UmwStE vom 02.01.2025, Rn. 20.06, 20.10",
-    "§ 39 Abs. 1, 2 Nr. 1 AO"
+    "§ 122 Abs. 2 Nr. 1, Abs. 2a AO",
+    "§ 108 Abs. 3 AO",
+    "BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898",
+    "§ 2 Abs. 1 S. 1, 3 UStG",
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 8 Nr. 1 GewStG",
+    "§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG",
+    "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
    ]
   },
   {
@@ -547,7 +526,7 @@
      "kopf": "§ 2 ErbStG Persönliche Steuerpflicht (Auszug)",
      "absaetze": [
       [
-       "(1) 1.",
+       "(1) Nr. 1",
        [
         [
          "in den Fällen des § 1 Abs. 1 Nr. 1 bis 3, wenn der Erblasser zur Zeit seines Todes, der Schenker zur Zeit der Ausführung der Schenkung",
@@ -572,7 +551,7 @@
        ]
       ],
       [
-       "3.",
+       "Nr. 3",
        [
         [
          "in allen anderen Fällen für den Vermögensanfall, der in",
@@ -933,12 +912,11 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 3,
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 3 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
-   "unter": "Rückblick + Markier-Guide · im Profil"
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
   {
    "slot": "s6",

@@ -496,7 +496,7 @@
        null
       ],
       [
-       "Dort bekommt sie auch 2.000 € Zinsen, 10 % Quellensteuer sind einbehalten.",
+       "Dort bekommt sie auch 2.000 € Zinsen, 10 % Quellensteuer sind einbehalten. Ihr Sparer-Pauschbetrag ist schon verbraucht.",
        null,
        "Regular",
        null
@@ -831,7 +831,7 @@
      ]
     }
    ],
-   "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer. DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: §§ 32b, 32d Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer (Sparer-Pauschbetrag schon verbraucht, § 20 Abs. 9 EStG). DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: §§ 32b, 32d Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -843,7 +843,8 @@
     "Art. 11 Abs. 1, 2 OECD-MA",
     "Art. 23 A Abs. 1, 2 OECD-MA",
     "§ 32b Abs. 1 S. 1 Nr. 3, S. 2 Nr. 3 EStG",
-    "§ 32d Abs. 5 EStG"
+    "§ 32d Abs. 5 EStG",
+    "§ 20 Abs. 9 EStG"
    ]
   },
   {
