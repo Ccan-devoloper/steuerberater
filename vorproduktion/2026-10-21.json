@@ -269,7 +269,7 @@
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
       "themaId": "persg-aufb-persg-melzer-1-5",
-      "caption": "Halle an die Schwester-Personengesellschaft vermietet: Sonderbetriebsvermögen? Die Klausurfalle. 🏭\n\n▸ Grundsatz: Wirtschaftsgüter eines Mitunternehmers, die er der Gesellschaft überlässt, sind Sonderbetriebsvermögen; die Vergütungen gehören zu seinen gewerblichen Einkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG; R 4.2 Abs. 2 S. 2 EStR).\n▸ Vermietet aber eine Personengesellschaft entgeltlich an eine Schwester-Personengesellschaft und sind beide sachlich und personell verflochten, liegt eine mitunternehmerische Betriebsaufspaltung vor. Sie hat Vorrang: Das Wirtschaftsgut bleibt Betriebsvermögen der vermietenden Gesellschaft, die Mieterträge sind dort gewerblich (BFH vom 23.04.1996, VIII R 13/95; BMF vom 28.04.1998, BStBl I 1998 S. 583).\n▸ Ausnahme: Bei unentgeltlicher Überlassung ohne Gewinnerzielungsabsicht bleibt es beim Sonderbetriebsvermögen bei der nutzenden Gesellschaft (BFH vom 12.04.2018, IV R 5/15).\n\nSpeichern für Klausur 3 📌",
+      "caption": "Halle an die Schwester-Personengesellschaft vermietet: Sonderbetriebsvermögen? Die Klausurfalle. 🏭\n\n▸ Grundsatz: Wirtschaftsgüter eines Mitunternehmers, die er der Gesellschaft überlässt, sind Sonderbetriebsvermögen; die Vergütungen gehören zu seinen gewerblichen Einkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG; R 4.2 Abs. 2 S. 2 EStR).\n▸ Vermietet aber eine Personengesellschaft entgeltlich an eine Schwester-Personengesellschaft und sind beide sachlich und personell verflochten, liegt eine mitunternehmerische Betriebsaufspaltung vor. Sie hat Vorrang: Das Wirtschaftsgut bleibt Betriebsvermögen der vermietenden Gesellschaft, die Mieterträge sind dort gewerblich (BFH vom 23.04.1996, VIII R 13/95, BStBl II 1998, 325; BMF vom 28.04.1998, BStBl I 1998, 583, Tz. 1).\n▸ Ausnahme: Bei unentgeltlicher Überlassung ohne Gewinnerzielungsabsicht fehlt der Besitzgesellschaft die Gewinnerzielungsabsicht; dann bleibt es beim Sonderbetriebsvermögen bei der nutzenden Gesellschaft (BMF vom 28.04.1998, Tz. 1).\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -279,9 +279,8 @@
       "quellen": [
         "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
         "R 4.2 Abs. 2 S. 2 EStR",
-        "BFH vom 23.04.1996, VIII R 13/95",
-        "BMF vom 28.04.1998, BStBl I 1998 S. 583",
-        "BFH vom 12.04.2018, IV R 5/15"
+        "BFH vom 23.04.1996, VIII R 13/95, BStBl II 1998, 325",
+        "BMF vom 28.04.1998, BStBl I 1998, 583, Tz. 1"
       ],
       "slug": "2026-10-21-b3",
       "kurztitel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
@@ -553,7 +552,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:25:57Z",
+    "erzeugtAm": "2026-10-03T13:05:43Z",
     "pfad": "vorproduktion/2026-10-21/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
