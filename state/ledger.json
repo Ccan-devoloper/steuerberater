@@ -7143,7 +7143,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 38,
+        "reach": 43,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -7152,8 +7152,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-03T13:44:12.507Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-10-03T22:25:44.723Z",
+      "insightsAlterStunden": 31.7
     },
     {
       "datum": "2026-10-02",
@@ -7471,22 +7471,22 @@
       "fach": "gewst",
       "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
       "insights": {
-        "reach": 28,
-        "views": 36,
+        "reach": 35,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 30,
+        "navigation": 43,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 35,
         "navigation_tap_exit": 2,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-03T17:45:02.162Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-10-03T22:25:42.149Z",
+      "insightsAlterStunden": 10.7
     },
     {
       "datum": "2026-10-03",
@@ -7529,22 +7529,22 @@
       "fach": "istr",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
       "insights": {
-        "reach": 20,
-        "views": 27,
+        "reach": 32,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_swipe_forward": 1,
+        "navigation": 37,
+        "navigation_swipe_forward": 2,
         "navigation_tap_back": 2,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 15
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 26
       },
-      "insightsStand": "2026-10-03T17:45:02.162Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-03T22:25:42.149Z",
+      "insightsAlterStunden": 6.7
     },
     {
       "datum": "2026-10-03",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 78,
+        "reach": 90,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 106,
-        "ig_reels_avg_watch_time": 8302,
-        "ig_reels_video_view_total_time": 664192,
-        "reels_skip_rate": 79.3
+        "views": 116,
+        "ig_reels_avg_watch_time": 7300,
+        "ig_reels_video_view_total_time": 686231,
+        "reels_skip_rate": 84.6
       },
-      "insightsStand": "2026-10-03T20:43:59.000Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-03T22:25:44.723Z",
+      "insightsAlterStunden": 4.7
     },
     {
       "datum": "2026-10-03",
