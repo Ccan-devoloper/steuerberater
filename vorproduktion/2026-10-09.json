@@ -4,485 +4,408 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "09:00",
+        "zeit": "08:30",
         "format": "anlass",
-        "themaId": null,
-        "themaTitel": null,
-        "fach": "mindset",
-        "klausur": 0
+        "themaId": "ust-aufb-ust-m-b04-14",
+        "themaTitel": "Geschafft: der Tag danach und dein Fahrplan",
+        "fach": "ust",
+        "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "est-aufb-est-ks2-19-03",
-        "themaTitel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
-        "fach": "est",
+        "format": "vergleich",
+        "themaId": "kst-karte-kst-11",
+        "themaTitel": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen?",
+        "fach": "kst",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "persg-aufb-persg-melzer-5-3",
-        "themaTitel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
-        "fach": "persg",
-        "klausur": 3,
-        "lang": false
+        "themaId": "bilanz-formel-zinsstaffel",
+        "themaTitel": "Zinsstaffelmethode (arithmetisch-degressiv)",
+        "fach": "bilanz",
+        "klausur": 3
       }
     ],
     "stories": [
       {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-0"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-0"
+      },
+      {
         "slot": "s1",
-        "zeit": "09:00",
+        "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:56",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "istr-modul-istr-istr1-04"
-      },
-      {
-        "slot": "s3",
-        "zeit": "19:00",
-        "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:38",
-        "art": "tipp",
-        "themaId": "istr-aufb-istr-gh-4-11"
+        "themaId": "erbst-aufb-erbst-bew1-8"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:47",
-        "art": "merksatz",
-        "themaId": "istr-aufb-istr-gh-4-30"
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "gewst-aufb-gewst-ks-04"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
       },
       {
         "slot": "s9",
-        "zeit": "19:10",
-        "art": "begriff",
-        "themaId": "bilanz-glossar-0"
-      },
-      {
-        "slot": "s10",
-        "zeit": "09:15",
+        "zeit": "19:12",
         "art": "merksatz",
-        "status": "pruefungsphase"
+        "themaId": "umwst-aufb-umw-2-10"
       }
     ]
   },
   "inhalte": {
     "b1": {
       "format": "anlass",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "themaId": null,
-      "pruefungsphase": true,
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Du hast es geschafft!",
-          "coverBadge": "Geschafft",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Für heute",
-          "text": "Drei Tage, drei Klausuren. Ganz egal, wie es sich angefühlt hat: Du darfst richtig stolz auf dich sein.",
-          "punkte": [
-            "Durchatmen und ausschlafen",
-            "Lösungen erst vergleichen, wenn du wirklich bereit bist",
-            "Feiern – der Mut, angetreten zu sein, zählt heute"
-          ]
-        },
-        {
-          "art": "cta",
-          "titel": "Erzähl uns, wie es dir geht",
-          "punkte": [
-            "Schreib es in die Kommentare",
-            "Schick das deiner Lerngruppe",
-            "Gönn dir eine Pause"
-          ],
-          "icons": [
-            "haken",
-            "uhr",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "Die schriftliche Prüfung ist vorbei. Monate der Vorbereitung, drei harte Tage – das ist eine riesige Leistung. Du darfst stolz auf dich sein!",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": "ust-aufb-ust-m-b04-14",
+      "caption": "Geschafft! Der Tag nach der schriftlichen Steuerberaterprüfung: durchatmen und der Fahrplan für die nächsten Monate.\n\n▸ Erst erholen. Grübeln über einzelne Lösungen ändert keine Note.\n▸ Das Ergebnis kommt meist ab Dezember oder Januar. Mit einer Gesamtnote bis 4,5 geht es in die mündliche Prüfung (§ 25 Abs. 2 DVStB): Kurzvortrag und sechs Prüfungsabschnitte, drei Vortragsthemen zur Wahl eine halbe Stunde vorher (§ 26 Abs. 3, 6 DVStB). Ab November gibt es hier Kurzvortrags-Beiträge.\n▸ Über 4,5: Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG); dafür ist eine neue Zulassung nötig (§ 28 Abs. 3 DVStB). Für viele beginnt jetzt die Vorbereitung auf 2027 – wir sind dabei.\n\nSpeichern für den Neustart 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#kopfsache"
+        "#stbexamen2027"
       ],
-      "kurztitel": "Du hast es geschafft!",
-      "coverBadge": "Geschafft",
-      "coverBildAuslassen": true,
       "quellen": [
-        "Examenskalender"
+        "§ 25 Abs. 2 DVStB",
+        "§ 26 Abs. 3, 6 DVStB",
+        "§ 28 Abs. 3 DVStB",
+        "§ 35 Abs. 4 StBerG"
       ],
       "slug": "2026-10-09-b1",
+      "kurztitel": "Geschafft: der Tag danach und dein Fahrplan",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "est",
-      "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "themaId": "est-aufb-est-ks2-19-03",
-      "slug": "2026-10-09-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Geschafft",
       "folien": [
         {
           "art": "titel",
-          "titel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Geschafft",
+          "text": "Geschafft · Der Tag · danach · Durchatmen · + Dein Fahrplan · OKTOBER · 9 · Fr · frei!",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Arbeitszimmer: eigener, büromäßig eingerichteter Raum in der Wohnung, fast nur beruflich genutzt – eine Arbeitsecke reicht nicht.",
-            "Mittelpunkt deiner gesamten Betätigung dort: Kosten oder 1.260 € Jahrespauschale (§ 4 Abs. 5 Satz 1 Nr. 6b EStG).",
-            "Sonst: Homeoffice-Pauschale von 6 € je Tag, max. 1.260 € im Jahr (§ 4 Abs. 5 Satz 1 Nr. 6c EStG)."
-          ]
+          "titel": "Steuerberaterexamen",
+          "text": "Erst mal durchatmen · Gestern war Tag 3. Heute darfst du einfach müde sein. · Grübeln über einzelne Lösungen ändert keine Note. · Ein paar Tage ohne Gesetz: Erholung gehört zur Vorbereitung. · Endlich Pause."
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Prüfe, ob ein eigener, fast nur beruflich genutzter Raum vorliegt oder nur ein Arbeitsplatz im privat genutzten Zimmer."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 €. Sonst 6 € je Tag, an dem du überwiegend zu Hause arbeitest und keine erste Tätigkeitsstätte aufsuchst. Fehlt dauerhaft ein anderer Arbeitsplatz, zählen auch Tage, an denen du zusätzlich auswärts arbeitest."
-            }
-          ]
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Dein Fahrplan · Jetzt · erholen, Abstand gewinnen · Dezember oder Januar · meist kommt das Ergebnis · Gesamtnote bis 4,5 · § 25 Abs. 2 DVStB · mündliche Prüfung vorbereiten · Über 4,5 · § 35 Abs. 4 StBerG · zweiter Anlauf 2027 · Weiterwischen: beide Wege im Detail"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Mittelpunkt im Arbeitszimmer: Kosten oder 1.260 € im Jahr. Kein Mittelpunkt oder nur eine Arbeitsecke: 6 € je Homeoffice-Tag, höchstens 1.260 €. Beides für denselben Zeitraum geht nicht."
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Weg 1: die Mündliche · Kurzvortrag und sechs Prüfungsabschnitte. · § 26 Abs. 3 DVStB · Drei Themen zur Wahl, eine halbe Stunde Vorbereitung. · § 26 Abs. 6 DVStB · Ab November üben wir hier Kurzvorträge, laut und mit Uhr. · Kurz und frei reden."
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typische Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Weg 2: Anlauf 2027 · Für die Wiederholung brauchst du eine neue Zulassung. · § 28 Abs. 3 DVStB · Zweimal wiederholen ist möglich. · § 35 Abs. 4 StBerG · Viele starten jetzt neu. Hier geht es täglich weiter. · Wir bleiben dran."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Heute: durchatmen · Ergebnis meist ab Dezember · dann Mündliche oder 2027 · Erholen zuerst, · Ergebnis abwarten, · Mündliche üben · oder 2027 neu starten. · Speichern für den Neustart · Wie geht es dir heute?"
         }
-      ],
-      "caption": "Arbeitszimmer oder Homeoffice-Pauschale – was ist abziehbar? Entscheidend ist, ob im Arbeitszimmer der Mittelpunkt deiner gesamten Tätigkeit liegt. Dann: tatsächliche Kosten oder 1.260 € Jahrespauschale. Sonst: 6 € je Homeoffice-Tag, höchstens 1.260 € im Jahr.",
+      ]
+    },
+    "b2": {
+      "format": "vergleich",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-11",
+      "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#einkommensteuer"
+        "#körperschaftsteuer"
       ],
-      "kurztitel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 9 Abs. 1 Satz 3 Nr. 4 EStG",
-        "§ 9 Abs. 4 EStG",
-        "§ 9 Abs. 1 Satz 3 Nr. 5 EStG",
-        "§ 9 Abs. 4a EStG",
-        "§ 9 Abs. 1 Satz 3 Nr. 6 EStG",
-        "§ 9 Abs. 5 EStG",
-        "§ 4 Abs. 5 Nr. 6b EStG",
-        "§ 4 Abs. 5 Nr. 6c EStG",
-        "§ 6 Abs. 2 EStG",
-        "R 9.11 LStR",
-        "§ 4 Abs. 5 Satz 1 Nr. 6b EStG",
-        "§ 4 Abs. 5 Satz 1 Nr. 6c EStG",
-        "Themenpool: est-aufb-est-ks2-19-03"
+        "§ 8 Abs. 1 KStG",
+        "§ 10 Nr. 2, 4 KStG",
+        "§ 4 Abs. 5b EStG",
+        "§ 8b Abs. 1, 4, 5 KStG",
+        "§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG",
+        "§ 10d EStG"
       ],
-      "coverRegie": {
-        "thema": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-09-b2-est-aufb-est-ks2-19-03-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-09-b2",
+      "kurztitel": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Gegenüberstellung",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Gegenüberstellung",
+          "text": "Gegenüberstellung · Jahresüberschuss · oder Einkommen? · § 8 Abs. 1 KStG · GmbH-Ergebnis · + Markier-Guide § 10 KStG · Gewinn · ≠ · Einkommen",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Vom Überschuss zum Einkommen · Jahresüberschuss · laut Steuerbilanz · Nichtabziehbares dazu · § 10 KStG, § 4 Abs. 5b EStG · Körperschaft- und Gewerbesteuer, halber Aufsichtsrat · Dividenden ab, 5 % dazu · § 8b Abs. 1, 5 KStG · Spenden zuletzt · § 9 Abs. 1 Nr. 2 KStG · mit Höchstbetrag · Am Ende: § 10 KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "In der Bilanz oder daneben? · Jahresüberschuss · Steueraufwand ist gebucht und mindert den Gewinn · Dividende steht voll im Ertrag · Einkommen · Körperschaftsteuer außerhalb der Bilanz wieder dazu · § 10 Nr. 2 KStG · Dividende raus, 5 % wieder rein · § 8b Abs. 1, 5 KStG · Bilanz bleibt?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Der Fall · Hana führt eine Werkstatt-GmbH. Jahresüberschuss: 200.000 €. · Gebucht: Körperschaftsteuer 30.000 €, Gewerbesteuer 25.000 €, Aufsichtsrat 20.000 €. · Ertrag: Dividende 10.000 € aus einer 20-%-Beteiligung. · Jetzt du: Wie hoch ist das Einkommen? · Was muss raus?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Die Lösung · § 10 KStG · § 4 Abs. 5b EStG · § 8b KStG · Jahresüberschuss · 200.000 € · + Körperschaftsteuer · 30.000 € · + Gewerbesteuer · 25.000 € · + halber Aufsichtsrat · 10.000 € · − Dividende · 10.000 € · + 5 % davon · 500 € · Einkommen · 255.500 €"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Reihenfolge am Ende · Spenden-Höchstbetrag vom Einkommen vor Spendenabzug berechnen. · § 9 Abs. 2 S. 1 KStG · Verlustabzug erst danach, nicht vorher. · § 9 Abs. 2 S. 1 KStG, § 10d EStG · Wer früher abzieht, rechnet den Höchstbetrag zu klein. · Erst Spenden!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jahresüberschuss 200.000 € · Einkommen 255.500 € · Steuern zurück, · Aufsichtsrat zur Hälfte, · Dividende raus, · 5 % wieder rein. · Speichern für Klausur 2 · Welche Korrektur vergisst du gern? · Weiterwischen: § 10 KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "KSt + Soli · 50 % zurück · Kontrollorgan · Gewerbesteuer: § 4 Abs. 5b EStG · steht nicht hier, sondern im EStG"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-5-3",
-      "slug": "2026-10-09-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
-          "unter": "Personengesellschaften",
-          "text": "Was wird eingebracht – und was bekommst du dafür?",
-          "norm": "§ 24 Abs. 1 UmwStG",
-          "icon": null,
-          "sprecher": "Wann fällt eine Einbringung in eine Personengesellschaft unter § 24 UmwStG? Zwei Fragen entscheiden: Was wird eingebracht, und was erhältst du dafür?",
-          "marken": [
-            "§ 24 UmwStG",
-            "Einbringung in eine PersG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Eingebracht: Betrieb, Teilbetrieb, MU-Anteil",
-          "text": null,
-          "norm": "§ 24 Abs. 1 UmwStG",
-          "icon": null,
-          "sprecher": "Erstens: Eingebracht wird ein Betrieb, Teilbetrieb oder Mitunternehmeranteil mit allen wesentlichen Betriebsgrundlagen. Für ein einzelnes Wirtschaftsgut aus einem Betriebsvermögen gilt stattdessen § 6 Abs. 5 Satz 3 EStG mit zwingendem Buchwert.",
-          "marken": [
-            "Betrieb, Teilbetrieb, MU-Anteil",
-            "Einzel-WG: § 6 Abs. 5 EStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Wahlrecht: Buch-, Zwischen- oder gemeiner Wert",
-          "text": null,
-          "norm": "§ 24 Abs. 2 UmwStG",
-          "icon": null,
-          "sprecher": "Zweitens: Du erhältst dafür Gesellschaftsrechte. Der Wert wird also auf dem Kapitalkonto gebucht, das deine Beteiligung abbildet, meist Kapitalkonto I. Darlehens- oder Rücklagenkonto allein reichen nicht. Dann gilt grundsätzlich der gemeine Wert, auf Antrag Buch- oder Zwischenwert, soweit unter anderem das deutsche Besteuerungsrecht erhalten bleibt.",
-          "marken": [
-            "Gesellschaftsrechte als Gegenleistung",
-            "Buch-, Zwischen- oder gemeiner Wert"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Sachgesamtheit gegen Mitunternehmerstellung: § 24 UmwStG mit Bewertungswahlrecht. Einzelnes Wirtschaftsgut aus einem Betriebsvermögen: § 6 Abs. 5 EStG mit Buchwertzwang.",
-          "sprecher": "Merke: Ganzer Betrieb gegen Gesellschaftsrechte heißt § 24 UmwStG mit Wahlrecht. Einzelne Wirtschaftsgüter aus einem Betriebsvermögen gehen nach § 6 Abs. 5 EStG zum Buchwert über.",
-          "marken": [
-            "§ 24 UmwStG: Wahlrecht",
-            "§ 6 Abs. 5 EStG: Buchwert"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage ohne Unterlagen",
-            "Normen wiederholen"
-          ]
-        }
-      ],
-      "caption": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG? Wenn ein Betrieb, Teilbetrieb oder Mitunternehmeranteil gegen Gewährung von Gesellschaftsrechten übergeht – per Einzelrechtsnachfolge oder z. B. durch Verschmelzung von Personengesellschaften oder Ausgliederung (§ 1 Abs. 3 UmwStG). Dann darfst du auf Antrag zwischen Buchwert, Zwischenwert und gemeinem Wert wählen. Einzelne Wirtschaftsgüter aus einem Betriebsvermögen laufen dagegen über § 6 Abs. 5 Satz 3 EStG.",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-formel-zinsstaffel",
+      "caption": "Zinsstaffelmethode: Disagio beim Tilgungsdarlehen richtig auflösen.\n\n▸ Steuerlich ist das Disagio als aktiver Rechnungsabgrenzungsposten anzusetzen (§ 5 Abs. 5 S. 1 Nr. 1 EStG), in der Handelsbilanz besteht ein Wahlrecht (§ 250 Abs. 3 HGB). Die Verbindlichkeit steht mit dem Rückzahlungsbetrag in der Bilanz, der Unterschied wird auf die Laufzeit verteilt (H 6.10 EStH, Damnum).\n▸ Beim Tilgungsdarlehen sinkt die Schuld, deshalb wird degressiv aufgelöst: Nenner = n × (n + 1) ÷ 2, je Jahr die noch offenen Raten im Zähler.\n▸ Beispiel: 4.000 € Disagio, vier gleiche Jahresraten, Nenner 10: 1.600 €, 1.200 €, 800 €, 400 €.\n▸ Beim Fälligkeitsdarlehen wird dagegen linear aufgelöst.\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 16 Abs. 1 Satz 1 Nr. 1 EStG",
-        "§ 6 Abs. 5 Satz 3 Nr. 1 EStG",
-        "§ 1 Abs. 3 Nr. 1, 2 und 4 UmwStG",
-        "§ 1 Abs. 4 Satz 2 UmwStG",
-        "§ 24 Abs. 1 UmwStG",
-        "§§ 2, 123 UmwG",
-        "UmwStE vom 02.01.2025, Rn. 24.02 ff.",
-        "§ 24 Abs. 2 UmwStG",
-        "Themenpool: persg-aufb-persg-melzer-5-3"
+        "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+        "§ 250 Abs. 3 HGB",
+        "H 6.10 EStH (Damnum)"
       ],
-      "coverRegie": {
-        "thema": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Ein Fahrzeug verwandelt sich beim Passieren eines Tores; die Figuren verfolgen, welcher Wert und welches Eigentum mitwandern.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-09-b3-persg-aufb-persg-melzer-5-3-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-09-b3",
+      "kurztitel": "Zinsstaffelmethode (arithmetisch-degressiv)",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Disagio 4.000 €"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Nenner"
+        },
+        {
+          "art": "schritt",
+          "titel": "Jahr für Jahr"
+        },
+        {
+          "art": "schritt",
+          "titel": "Aufwand je Jahr"
+        }
+      ],
+      "sprecher": [
+        "Viertausend Euro Disagio, Tilgungsdarlehen über vier Jahre. Linear tausend pro Jahr? Nein: Mit der Zinsstaffel sind es im ersten Jahr sechzehnhundert.",
+        "Der Nenner: vier mal fünf, geteilt durch zwei. Das ergibt zehn.",
+        "Jahr für Jahr die offenen Raten: vier Zehntel, drei, zwei, ein Zehntel.",
+        "Also sechzehnhundert, zwölfhundert, achthundert, vierhundert Euro Aufwand.",
+        "Merke: Schuld sinkt, Auflösung sinkt."
+      ],
+      "dauerS": 33.281,
+      "tempo": 1.0
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr1-04",
-      "quellen": [
-        "§ 1a EStG",
-        "§ 10 Abs. 1a EStG",
-        "§ 26 EStG",
-        "§ 26b EStG",
-        "§ 10 EStG",
-        "Themenpool: istr-modul-istr-istr1-04"
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-bew1-8",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Nießbrauch:",
+        "Jahreswert mit Deckel",
+        "§ 16 BewG",
+        "Jahreswert höchstens Steuerwert des Guts geteilt durch 18,6.",
+        "§ 16 BewG",
+        "Kapitalwert: Jahreswert mal Vervielfältiger.",
+        "§§ 13, 14 BewG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 1a EStG",
-      "titel": "§ 1a EStG: Familienbezogene Vorteile für EU-/EWR-Bürger",
-      "text": "EU-/EWR-Bürger: Unterhalt an den Ex-Ehegatten im EU-/EWR-Ausland ist Sonderausgabe, wenn dessen Besteuerung bescheinigt ist. Ein dort lebender, nicht dauernd getrennter Ehegatte erlaubt die Zusammenveranlagung.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-4-11",
-      "quellen": [
-        "Art. 5 OECD-MA",
-        "§ 12 AO",
-        "Themenpool: istr-aufb-istr-gh-4-11"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Neustart:",
+        "die Fehlerliste",
+        "Jeden Fehler aus Übungsklausuren notieren",
+        "Daneben Norm und richtiges Ergebnis",
+        "Vor jeder Klausur einmal lesen"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
-      "text": "§ 12 AO gilt für § 49 EStG, den inländischen Arbeitgeber beim Lohnsteuerabzug und die Gewerbesteuer. Ob Deutschland nach DBA besteuern darf, regelt Art. 5 OECD-MA – Baustellen z. B. erst nach mehr als 12 statt 6 Monaten.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "merksatz",
-      "fach": "istr",
+      "art": "tipp",
+      "fach": "gewst",
       "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-aufb-istr-gh-4-30",
-      "quellen": [
-        "Art. 23 OECD-MA",
-        "§ 32b Abs. 1 EStG",
-        "Themenpool: istr-aufb-istr-gh-4-30"
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-aufb-gewst-ks-04",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Klausurtipp",
+        "§ 8 Nr. 1 GewStG",
+        "in drei Schritten",
+        "Gewichten: Zinsen voll, Mieten 1/5 oder 1/2, Lizenzen 1/4",
+        "200.000 € Freibetrag abziehen",
+        "Rest zu einem Viertel hinzurechnen"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
-      "text": "Erst verteilen, dann vermeiden: Die Verteilungsnorm vergibt das Recht, der Methodenartikel bestimmt, wie Deutschland die Doppelbesteuerung beseitigt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "begriff",
-      "fach": "bilanz",
+      "art": "merksatz",
+      "fach": "umwst",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-glossar-0",
-      "quellen": [
-        "§ 39 Abs. 2 Nr. 1 AO",
-        "Themenpool: bilanz-glossar-0"
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "§ 20 UmwStG:",
+        "Was muss mit?",
+        "Jede funktional",
+        "wesentliche Grundlage",
+        "muss mit.",
+        "UmwStE vom 02.01.2025, Rn. 20.06"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Begriff des Tages",
-      "titel": "Wirtschaftliches Eigentum",
-      "text": "Wer als Nichteigentümer die tatsächliche Herrschaft hat und den Eigentümer im Regelfall über die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann, dem wird das Wirtschaftsgut steuerlich zugerechnet.",
-      "norm": "§ 39 Abs. 2 Nr. 1 AO",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s10": {
       "slot": "s10",
@@ -506,98 +429,134 @@
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Du hast es geschafft!",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Der Tag danach",
+        "Durchatmen + Fahrplan · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wann ist eine Einbringung in eine PersG ein Fall des § 24 UmwStG?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Disagio: 1.600 € im Jahr 1?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "est",
+      "fach": "kst",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist…",
-      "text": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Überschuss oder Einkommen?",
+        "Vergleich + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "Bilanzfall:",
+        "Was kommt zuerst?",
+        "Bewertung",
+        "Zurechnung: Wem gehört es?",
+        "Buchungssatz",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-0",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "B: erst",
+        "die Zurechnung",
+        "Bewertung",
+        "Zurechnung: Wem gehört es?",
+        "Buchungssatz",
+        "Erst klären, wem das Wirtschaftsgut gehört. Danach Ansatz, Wert, Buchung.",
+        "§ 39 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:31:46.228Z",
+    "erzeugtAm": "2026-10-03T04:26:31Z",
     "pfad": "vorproduktion/2026-10-09/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -609,5 +568,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
