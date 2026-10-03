@@ -116,7 +116,7 @@
       [
        "Sonderbereich",
        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-       "Vergütungen, Sonderausgaben je Kopf"
+       "Vergütungen, Sonderbetriebsausgaben"
       ],
       [
        "Feststellen",
@@ -971,7 +971,7 @@
    ],
    "richtig": 1,
    "text": "Nutzungsvorteile sind nicht einlagefähig.",
-   "norm": "BFH vom 26.10.1987, GrS 2/86",
+   "norm": "H 8.9 KStH",
    "figuren": {
     "Q": {
      "kopf": "Bun 2",

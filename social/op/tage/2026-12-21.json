@@ -908,7 +908,7 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Amira erbt dreihundertzehntausend Euro. Fünfzehn Prozent wären sechsundvierzigtausendfünfhundert. Mit Härteausgleich: achtunddreißigtausend."
+     "text": "Amira versteuert dreihundertzehntausend Euro. Fünfzehn Prozent wären sechsundvierzigtausendfünfhundert. Mit Härteausgleich: achtunddreißigtausend."
     },
     {
      "id": "s1",
@@ -916,7 +916,7 @@
     },
     {
      "id": "s2",
-     "text": "Vergleich: elf Prozent auf die Grenze, also dreiunddreißigtausend. Plus die Hälfte des Betrags darüber, fünftausend."
+     "text": "Vergleich: elf Prozent auf die Grenze, also dreiunddreißigtausend. Plus die Hälfte des Überhangs: fünftausend."
     },
     {
      "id": "s3",
@@ -930,7 +930,7 @@
    "hook": {
     "zeilen": [
      "310.000 €",
-     "geerbt"
+     "zu versteuern"
     ],
     "pille": "§ 19 ErbStG",
     "figur": "A/sorge",
@@ -1084,7 +1084,7 @@
     "cta_wort": "rechnen",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Erbschaftsteuer knapp über der Wertgrenze: So rechnest du den Härteausgleich. 🧮\n\n▸ Stufentarif: Ein Steuersatz gilt für den gesamten Erwerb; in Steuerklasse I bis 75.000 € 7 %, bis 300.000 € 11 %, bis 600.000 € 15 % (§ 19 Abs. 1 ErbStG).\n▸ Härteausgleich: Der Unterschied zur Steuer an der letzten Wertgrenze wird nur erhoben, soweit er bei Sätzen bis 30 % aus der Hälfte, bei Sätzen über 30 % aus drei Vierteln des übersteigenden Betrags gedeckt werden kann (§ 19 Abs. 3 Buchst. a, b ErbStG).\n▸ Beispiel Steuerklasse I, Erwerb 310.000 €: regulär 15 % = 46.500 €. Vergleich: 300.000 € × 11 % = 33.000 € + 50 % von 10.000 € = 5.000 €, also 38.000 €.\n\nSpeichern für Klausur 1 📌",
+   "caption": "Erbschaftsteuer knapp über der Wertgrenze: So rechnest du den Härteausgleich. 🧮\n\n▸ Stufentarif: Ein Steuersatz gilt für den gesamten Erwerb; in Steuerklasse I bis 75.000 € 7 %, bis 300.000 € 11 %, bis 600.000 € 15 % (§ 19 Abs. 1 ErbStG).\n▸ Härteausgleich: Der Unterschied zur Steuer an der letzten Wertgrenze wird nur erhoben, soweit er bei Sätzen bis 30 % aus der Hälfte, bei Sätzen über 30 % aus drei Vierteln des übersteigenden Betrags gedeckt werden kann (§ 19 Abs. 3 Buchst. a, b ErbStG).\n▸ Beispiel Steuerklasse I, steuerpflichtiger Erwerb nach Freibetrag 310.000 €: regulär 15 % = 46.500 €. Vergleich: 300.000 € × 11 % = 33.000 € + 50 % von 10.000 € = 5.000 €, also 38.000 €.\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -1272,7 +1272,7 @@
     [
      "Gewerbliche Personengesellschaft vermietet an Schwester: Wirtschaftsgut bleibt bei der Vermieterin.",
      "ok",
-     "H 15.7 (4) EStH"
+     "H 15.8 (1) EStH"
     ],
     [
      "Kein SBV bei der nutzenden Gesellschaft.",
