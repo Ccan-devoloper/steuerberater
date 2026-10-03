@@ -532,7 +532,7 @@
       "normalbetriebGesperrt": true,
       "bilderStatus": "open-peeps-render",
       "renderStatus": "fertig",
-      "renderErzeugtAm": "2026-10-03T10:56:29Z",
+      "renderErzeugtAm": "2026-10-03T12:08:05Z",
       "coverIcons": false,
       "renderer": "open-peeps-v4"
     },
@@ -702,7 +702,7 @@
       "coverIcons": true
     }
   ],
-  "stand": "2026-10-03T12:07:14Z",
+  "stand": "2026-10-03T12:08:05Z",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {

@@ -186,7 +186,7 @@
       "klausur": 1,
       "fachLabel": "Erbschaftsteuer",
       "themaId": "erbst-aufb-erbst-v-27",
-      "caption": "Sohn schenkt der Mutter Geld: Welche Steuerklasse, welcher Freibetrag? Der Mini-Fall zur Schenkungsteuer.\n\n▸ Eltern und Voreltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I (§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG), sonst in Steuerklasse II (§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG).\n▸ Freibetrag bei unbeschränkter Steuerpflicht: übrige Personen der Klasse I 100.000 € (§ 16 Abs. 1 Nr. 4 ErbStG), Klasse II 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n▸ Steuersatz bis 300.000 €: Klasse I 11 %, Klasse II 20 %; bis 75.000 €: 7 % bzw. 15 % (§ 19 Abs. 1 ErbStG). Härteausgleich nach § 19 Abs. 3 ErbStG prüfen.\n\nLösung: 120.000 € – 20.000 € = 100.000 €, davon 20 % = 20.000 € Schenkungsteuer. Härteausgleich: Steuer an der Grenze 75.000 € (11.250 €) plus die Hälfte des übersteigenden Betrags (12.500 €) = 23.750 €, also keine Kürzung. Im Erbfall: 120.000 € – 100.000 € = 20.000 €, davon 7 % = 1.400 €.\n\nZum Schluss: § 15 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+      "caption": "Sohn schenkt der Mutter Geld: Welche Steuerklasse, welcher Freibetrag? Der Mini-Fall zur Schenkungsteuer.\n\n▸ Eltern und Voreltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I (§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG), sonst in Steuerklasse II (§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG).\n▸ Freibetrag bei unbeschränkter Steuerpflicht: übrige Personen der Klasse I 100.000 € (§ 16 Abs. 1 Nr. 4 ErbStG), Klasse II 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n▸ Steuersatz bis 300.000 €: Klasse I 11 %, Klasse II 20 %; bis 75.000 €: 7 % bzw. 15 % (§ 19 Abs. 1 ErbStG). Härteausgleich nach § 19 Abs. 3 ErbStG prüfen.\n\nLösung: 120.000 € – 20.000 € = 100.000 €, davon 20 % = 20.000 € Schenkungsteuer. Härteausgleich: Steuer an der Grenze 75.000 € (11.250 €) plus die Hälfte des übersteigenden Betrags (12.500 €) = 23.750 €, also keine Kürzung. Im Erbfall: 120.000 € – 100.000 € = 20.000 €, davon 7 % = 1.400 €.\n\nZum Schluss: §§ 15, 16 ErbStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -214,7 +214,7 @@
         {
           "art": "titel",
           "titel": "Mini-Fall",
-          "text": "Mini-Fall · Sohn schenkt · Mutter Geld · § 15 Abs. 1 ErbStG · I oder II? · + Markier-Guide § 15 ErbStG · Schenkung · 120.000 € · an die Mutter",
+          "text": "Mini-Fall · Sohn schenkt · Mutter Geld · § 15 Abs. 1 ErbStG · I oder II? · + Markier-Guide §§ 15, 16 ErbStG · Schenkung · 120.000 € · an die Mutter",
           "bild": "op-cover"
         },
         {
@@ -245,12 +245,17 @@
         {
           "art": "text",
           "titel": "Erbschaftsteuer",
-          "text": "Lösung: Klasse II, 20.000 € frei, 20.000 € Steuer · Im Erbfall: Klasse I, 100.000 € frei, 1.400 € Steuer · Verwandtschaft klären, · Erwerbsart prüfen, · Klasse festlegen, · Freibetrag abziehen. · Speichern für Klausur 1 · Hättest du Klasse I genommen? · Weiterwischen: § 15 ErbStG markiert"
+          "text": "Lösung: Klasse II, 20.000 € frei, 20.000 € Steuer · Im Erbfall: Klasse I, 100.000 € frei, 1.400 € Steuer · Verwandtschaft klären, · Erwerbsart prüfen, · Klasse festlegen, · Freibetrag abziehen. · Speichern für Klausur 1 · Hättest du Klasse I genommen? · Weiterwischen: §§ 15, 16 ErbStG"
         },
         {
           "art": "text",
           "titel": "Erbschaftsteuer",
-          "text": "§ 15 ErbStG Steuerklassen (Auszug) · wer? · nur Erbfall! · Schenkung · Freibeträge: § 16 Abs. 1 ErbStG · Übrige Klasse I 100.000 €, Klasse II 20.000 €"
+          "text": "§ 15 ErbStG Steuerklassen (Auszug) · wer? · nur Erbfall! · Schenkung · Weiterwischen: § 16 Abs. 1 ErbStG · Klasse II: nur 20.000 € frei"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "§ 16 ErbStG Freibeträge (Auszug) · Eltern im Erbfall · Eltern bei Schenkung · Hanne: 120.000 € − 20.000 € · 100.000 € zu 20 % = 20.000 € Steuer"
         }
       ]
     },
@@ -542,7 +547,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T10:56:29Z",
+    "erzeugtAm": "2026-10-03T12:08:05Z",
     "pfad": "vorproduktion/2026-10-20/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
