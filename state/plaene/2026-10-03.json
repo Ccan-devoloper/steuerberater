@@ -12,7 +12,8 @@
       "themaTitel": "Fristenberechnung nach § 108 AO und §§ 187, 188 BGB",
       "fach": "ao",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-03T05:44:21.192Z"
     },
     {
       "slot": "b2",
