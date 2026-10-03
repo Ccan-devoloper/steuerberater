@@ -1,0 +1,1246 @@
+{
+ "datum": "2026-11-17",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-373",
+   "themaTitel": "Wiedereinsetzung: Monatsfrist, Nachholung, Begründung und Antrag",
+   "figuren": {
+    "A": {
+     "name": "Bastian",
+     "kopf": "Short 1",
+     "haut": "#E9BC97",
+     "haar": "#5A3A22",
+     "oberteil": "#F9D56E",
+     "bart": "Full 3",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Frist verpasst?",
+      "Wiedereinsetzung"
+     ],
+     "norm": "§ 110 AO",
+     "unter": "Rechenweg",
+     "teaser": "+ Markier-Guide § 110 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "APRIL",
+      "tag": "20",
+      "unter": "letzter Tag"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Vier Daten bestimmen",
+     "schritte": [
+      [
+       "Bekanntgabe",
+       "§ 122 Abs. 2 Nr. 1 AO",
+       "vierter Tag nach Aufgabe zur Post"
+      ],
+      [
+       "Ende der Einspruchsfrist",
+       "§ 355 Abs. 1 S. 1 AO",
+       "ein Monat"
+      ],
+      [
+       "Hindernis fällt weg",
+       "§ 110 Abs. 2 S. 1 AO",
+       "ab dann ein Monat"
+      ],
+      [
+       "Äußerste Grenze",
+       "§ 110 Abs. 3 AO",
+       "ein Jahr nach Fristende"
+      ]
+     ],
+     "teaser": "Am Ende: § 110 AO markiert"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Bastians Bescheid",
+     "zeilen": [
+      [
+       "09.02.",
+       "Bescheid zur Post",
+       "WEISS",
+       null
+      ],
+      [
+       "13.02.",
+       "gilt als bekannt gegeben",
+       "WEISS",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "02.03.",
+       "Unfall, Klinik bis 20.03.",
+       "ROT",
+       null
+      ],
+      [
+       "13.03.",
+       "Einspruchsfrist endet",
+       "GELB",
+       "§ 355 Abs. 1 S. 1 AO"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Ich bin Bastian."
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Die Monatsfrist",
+     "zeilen": [
+      [
+       "20.03.",
+       "Entlassung: Hindernis weg",
+       "GRUEN",
+       "§ 110 Abs. 2 S. 1 AO"
+      ],
+      [
+       "21.03.",
+       "Fristbeginn am Folgetag",
+       "WEISS",
+       "§ 108 Abs. 1 AO, § 187 Abs. 1 BGB"
+      ],
+      [
+       "20.04.",
+       "Antrag und Einspruch",
+       "GELB",
+       "§ 188 Abs. 2 BGB"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Bis zum 20. April!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was hineingehört",
+     "punkte": [
+      [
+       "Den Einspruch selbst nachholen, ein Antrag allein reicht nicht.",
+       "warn",
+       "Bold",
+       "§ 110 Abs. 2 S. 3 AO"
+      ],
+      [
+       "Gründe glaubhaft machen, etwa mit dem Entlassungsbericht.",
+       "ok",
+       "Regular",
+       "§ 110 Abs. 2 S. 2 AO"
+      ],
+      [
+       "Einspruch binnen der Monatsfrist nachgeholt? Dann geht es auch ohne Antrag.",
+       "ok",
+       "Regular",
+       "§ 110 Abs. 2 S. 4 AO"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Beides rein!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Bastian bleibt bis Mittwoch, 15.04.2026, in der Klinik.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Bis wann muss er Einspruch einlegen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "kalender": [
+      [
+       "APRIL",
+       "15",
+       "Entlassung"
+      ],
+      [
+       "?",
+       "?",
+       "Fristende"
+      ]
+     ]
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Lösung",
+     "zeilen": [
+      [
+       "15.04.",
+       "Hindernis fällt weg",
+       "GRUEN",
+       "§ 110 Abs. 2 S. 1 AO"
+      ],
+      [
+       "15.05.",
+       "Einspruch und Antrag",
+       "GELB",
+       "§ 108 Abs. 1 AO, § 188 Abs. 2 BGB"
+      ],
+      [
+       "13.03.2027",
+       "Jahresgrenze weit weg",
+       "WEISS",
+       "§ 110 Abs. 3 AO"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Noch Luft!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Beim Finanzgericht kürzer",
+     "punkte": [
+      [
+       "Klagefrist verpasst? Dann gilt nicht die AO, sondern die FGO.",
+       "warn",
+       "Regular",
+       "§ 56 Abs. 1 FGO"
+      ],
+      [
+       "Antrag binnen zwei Wochen nach Wegfall des Hindernisses.",
+       "nein",
+       "Bold",
+       "§ 56 Abs. 2 S. 1 FGO"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Nur zwei Wochen?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Hindernis weg am 15.04. = Fristende am 15.05.",
+      "Monatsfrist ab Wegfall",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Hindernis weg",
+        "a"
+       ],
+       [
+        ", dann",
+        null
+       ]
+      ],
+      [
+       [
+        "ein Monat",
+        "b"
+       ],
+       [
+        " für Antrag",
+        null
+       ]
+      ],
+      [
+       [
+        "und",
+        null
+       ],
+       [
+        " Nachholung",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "höchstens",
+        null
+       ],
+       [
+        " ein Jahr",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du den Einspruch nachgeholt?",
+     "teaser": "Weiterwischen: § 110 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 110 AO Wiedereinsetzung (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "War jemand",
+         null
+        ],
+        [
+         "ohne Verschulden",
+         "g1"
+        ],
+        [
+         "verhindert, eine gesetzliche Frist einzuhalten, so ist ihm auf Antrag Wiedereinsetzung in den vorigen Stand zu gewähren. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Der Antrag ist",
+         null
+        ],
+        [
+         "innerhalb eines Monats nach Wegfall des Hindernisses",
+         "r1"
+        ],
+        [
+         "zu stellen. Die Tatsachen zur Begründung des Antrags sind bei der Antragstellung oder im Verfahren über den Antrag glaubhaft zu machen.",
+         null
+        ],
+        [
+         "Innerhalb der Antragsfrist ist die versäumte Handlung nachzuholen.",
+         "b1"
+        ],
+        [
+         "Ist dies geschehen, so kann Wiedereinsetzung auch ohne Antrag gewährt werden.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(3)",
+       [
+        [
+         "Nach einem Jahr seit dem Ende der versäumten Frist",
+         "gr1"
+        ],
+        [
+         "kann die Wiedereinsetzung nicht mehr beantragt […] werden […].",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "kein Verschulden",
+       "g1"
+      ],
+      [
+       "Monatsfrist",
+       "r1"
+      ],
+      [
+       "Pflicht!",
+       "b1"
+      ],
+      [
+       "Jahresgrenze",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 56 FGO",
+      "Bei Gerichtsfristen nur zwei Wochen"
+     ]
+    }
+   ],
+   "caption": "Frist verpasst: der Rechenweg zur Wiedereinsetzung in den vorigen Stand für die AO-Klausur.\n\n▸ Bekanntgabe am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO), Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO). Beispiel: Aufgabe 09.02.2026, Bekanntgabe 13.02.2026, Fristende 13.03.2026.\n▸ Wiedereinsetzung setzt voraus, dass die Frist ohne Verschulden versäumt wurde (§ 110 Abs. 1 S. 1 AO).\n▸ Antrag innerhalb eines Monats nach Wegfall des Hindernisses (§ 110 Abs. 2 S. 1 AO); Fristberechnung nach § 108 Abs. 1 AO i. V. m. §§ 187 Abs. 1, 188 Abs. 2 BGB. Entlassung am 20.03.2026: letzter Tag 20.04.2026.\n▸ Gründe glaubhaft machen (§ 110 Abs. 2 S. 2 AO) und die versäumte Handlung innerhalb der Antragsfrist nachholen (§ 110 Abs. 2 S. 3 AO); dann ist Wiedereinsetzung auch ohne Antrag möglich (§ 110 Abs. 2 S. 4 AO).\n▸ Äußerste Grenze: ein Jahr nach Ende der versäumten Frist, außer bei höherer Gewalt (§ 110 Abs. 3 AO).\n▸ Klausurfalle: Für gerichtliche Fristen gilt § 56 FGO mit grundsätzlich zwei Wochen (§ 56 Abs. 2 S. 1 FGO).\n\nZum Schluss: § 110 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 110 Abs. 1–3 AO",
+    "§ 122 Abs. 2 Nr. 1 AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 108 Abs. 1 AO",
+    "§§ 187 Abs. 1, 188 Abs. 2 BGB",
+    "§ 56 Abs. 1, 2 FGO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr3-14",
+   "themaTitel": "Entstrickung bei Kapitalgesellschaften: § 12 KStG",
+   "figuren": {
+    "A": {
+     "name": "Ravi",
+     "kopf": "Turban",
+     "haut": "#B07A55",
+     "haar": "#1E1E24",
+     "oberteil": "#9AD48F",
+     "bart": "Full",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Entstrickung",
+      "bei der GmbH"
+     ],
+     "norm": "§ 12 Abs. 1 KStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 12 KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Mündliche Prüfung",
+        "Bold",
+        42
+       ],
+       [
+        "10 Min.",
+        "ExtraBold",
+        96
+       ],
+       [
+        "in 4 Teilen",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Gliederung",
+     "schritte": [
+      [
+       "Einstieg: Worum geht es?",
+       null,
+       "1 Minute"
+      ],
+      [
+       "Tatbestand",
+       "§ 12 Abs. 1 S. 1, 2 KStG",
+       "3 Minuten"
+      ],
+      [
+       "Rechtsfolge, Ausgleichsposten",
+       "§ 4g EStG",
+       "3 Minuten"
+      ],
+      [
+       "Beispiel und Fazit",
+       null,
+       "2 Minuten"
+      ]
+     ],
+     "teaser": "Am Ende: § 12 KStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Stoppuhr an: Formuliere den ersten Satz deines Vortrags.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Er soll das Problem nennen, nicht die Norm vorlesen.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Danach die Gliederung in einem Satz ansagen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 290,
+     "blase": "Zehn Sekunden!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Einstieg",
+     "punkte": [
+      [
+       "„Wann muss eine GmbH stille Reserven versteuern, obwohl sie nichts verkauft?“",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Warum: Hier entstandene Reserven will Deutschland besteuern, bevor der Zugriff verloren geht.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Antwort des Gesetzes: eine fiktive Veräußerung.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 1 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Das sitzt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Tatbestand",
+     "punkte": [
+      [
+       "Körperschaft: keine Entnahme, sondern § 12 KStG.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Deutsches Besteuerungsrecht an Veräußerung oder Nutzung wird ausgeschlossen oder beschränkt.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 1 S. 1 KStG"
+      ],
+      [
+       "Regelfall: Zuordnung zu einer ausländischen Betriebsstätte.",
+       "warn",
+       "Bold",
+       "§ 12 Abs. 1 S. 2 KStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Wer darf besteuern?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Rechtsfolge",
+     "punkte": [
+      [
+       "Veräußerung oder Überlassung zum gemeinen Wert gilt als erfolgt.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 1 S. 1 Hs. 1 KStG"
+      ],
+      [
+       "Gewinn: gemeiner Wert minus Buchwert.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "EU- oder EWR-Betriebsstätte: auf Antrag Ausgleichsposten, verteilt auf fünf Jahre.",
+       "warn",
+       "Regular",
+       "§ 4g Abs. 1, 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Fünf Jahre Zeit."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "4 · Beispiel",
+     "normen": [
+      "§ 12 Abs. 1 KStG",
+      "§ 4g Abs. 2 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Gemeiner Wert Maschine",
+       "95.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert",
+       "– 60.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Entstrickungsgewinn",
+       "35.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Mit Ausgleichsposten je Jahr",
+       "7.000 €",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Maschine wandert in die Betriebsstätte in Wien",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Und beim Einzelunternehmer? Entnahme kraft Gesetzes.",
+       "ok",
+       "Regular",
+       "§ 4 Abs. 1 S. 3 EStG"
+      ],
+      [
+       "Und der Rückweg? Gilt als Einlage zum gemeinen Wert.",
+       "ok",
+       "Regular",
+       "§ 4 Abs. 1 S. 8 Hs. 2, § 6 Abs. 1 Nr. 5a EStG"
+      ],
+      [
+       "Und bei der Schweiz? Kein Ausgleichsposten, Gewinn sofort.",
+       "warn",
+       "Bold",
+       "§ 4g Abs. 1 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Nachfrage?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "1 · 3 · 3 · 2 Minuten",
+      "plus eine Minute Puffer",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Recht weg",
+        "a"
+       ],
+       [
+        " = Veräußerung",
+        null
+       ]
+      ],
+      [
+       [
+        "zum",
+        null
+       ],
+       [
+        " gemeinen Wert",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "EU",
+        "c"
+       ],
+       [
+        ": auf fünf Jahre",
+        null
+       ]
+      ],
+      [
+       [
+        "verteilen",
+        "d"
+       ],
+       [
+        " möglich.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welches Thema als Nächstes?",
+     "teaser": "Weiterwischen: § 12 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 12 KStG Entstrickung (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Wird bei der Körperschaft, Personenvereinigung oder Vermögensmasse",
+         null
+        ],
+        [
+         "das Besteuerungsrecht der Bundesrepublik Deutschland",
+         "g1"
+        ],
+        [
+         "hinsichtlich des Gewinns aus der Veräußerung oder der Nutzung eines Wirtschaftsguts",
+         null
+        ],
+        [
+         "ausgeschlossen oder beschränkt,",
+         "r1"
+        ],
+        [
+         "gilt dies als Veräußerung oder Überlassung des Wirtschaftsguts",
+         null
+        ],
+        [
+         "zum gemeinen Wert;",
+         "b1"
+        ],
+        [
+         "§ 4 Absatz 1 Satz 5,",
+         null
+        ],
+        [
+         "§ 4g",
+         "gr1"
+        ],
+        [
+         "und § 15 Abs. 1a des Einkommensteuergesetzes gelten entsprechend. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Wessen Recht?",
+       "g1"
+      ],
+      [
+       "Auslöser",
+       "r1"
+      ],
+      [
+       "Wert",
+       "b1"
+      ],
+      [
+       "Ausgleichsposten",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Mündliche Prüfung",
+      "Nur Gesetzestexte, keine Richtlinien"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Entstrickung bei Kapitalgesellschaften in 10 Minuten.\n\nGliederung: Einstieg (1 Min.), Tatbestand (3 Min.), Rechtsfolge und Ausgleichsposten (3 Min.), Beispiel und Fazit (2 Min.), eine Minute Puffer.\n\n▸ Tatbestand: Das deutsche Besteuerungsrecht hinsichtlich des Gewinns aus Veräußerung oder Nutzung eines Wirtschaftsguts wird ausgeschlossen oder beschränkt (§ 12 Abs. 1 S. 1 KStG), insbesondere durch Zuordnung zu einer ausländischen Betriebsstätte (§ 12 Abs. 1 S. 2 KStG).\n▸ Rechtsfolge: fiktive Veräußerung oder Überlassung zum gemeinen Wert (§ 12 Abs. 1 S. 1 Hs. 1 KStG).\n▸ Ausgleichsposten auf Antrag, wenn das Besteuerungsrecht zugunsten eines EU-/EWR-Staats im Sinne des § 36 Abs. 5 S. 1 EStG beschränkt wird; Auflösung zu je einem Fünftel im Jahr der Bildung und den vier Folgejahren (§ 12 Abs. 1 S. 1 Hs. 2 KStG i. V. m. § 4g Abs. 1, 2 EStG).\n▸ Beispiel: gemeiner Wert 95.000 €, Buchwert 60.000 €, Gewinn 35.000 €, mit Ausgleichsposten 7.000 € je Jahr.\n▸ Nachfragen: Einzelunternehmer (§ 4 Abs. 1 S. 3 EStG), Verstrickung als Einlage zum gemeinen Wert (§ 4 Abs. 1 S. 8 Hs. 2, § 6 Abs. 1 Nr. 5a EStG), Drittstaat ohne Ausgleichsposten.\n\nZum Schluss: § 12 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 12 Abs. 1 KStG",
+    "§ 4g Abs. 1, 2 EStG",
+    "§ 36 Abs. 5 S. 1 EStG",
+    "§ 4 Abs. 1 S. 3, S. 8 Hs. 2 EStG",
+    "§ 6 Abs. 1 Nr. 5a EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-3-5",
+   "themaTitel": "Was aktivieren die Verbleibenden bei einer hohen Abfindung?",
+   "figuren": {
+    "A": {
+     "name": "Mira",
+     "kopf": "Bangs 2",
+     "haut": "#F1C7A5",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Turtleneck"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Mehr Abfindung als Kapitalkonto ist Aufwand? Falsch. Damit kauft man stille Reserven und Firmenwert."
+    },
+    {
+     "id": "s1",
+     "text": "Kapitalkonto hunderttausend Euro, Abfindung hundertsechzigtausend. Die sechzigtausend sind Anschaffungskosten."
+    },
+    {
+     "id": "s2",
+     "text": "Zuerst die anteiligen stillen Reserven, etwa vierzigtausend im Grundstück. Der Rest von zwanzigtausend ist Firmenwert, steuerlich fünfzehn Jahre."
+    },
+    {
+     "id": "s3",
+     "text": "Sofort abziehbar ist nur ein Aufschlag, um einen lästigen Gesellschafter loszuwerden."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: erst stille Reserven, dann Firmenwert, Aufwand nur bei Lästigkeit."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Mehrabfindung",
+     "= Aufwand?"
+    ],
+    "pille": "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
+    "figur": "A/skeptisch",
+    "name": "Mira",
+    "icons": [
+     [
+      "tabler:cash",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Reserven + Firmenwert",
+     "wort": "Firmenwert",
+     "farbe": "GRUEN",
+     "zs": 64
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Mehrbetrag",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Kapitalkonto",
+       "wert": "100.000 €",
+       "farbe": "WEISS",
+       "wort": "Kapitalkonto",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Abfindung",
+       "wert": "160.000 €",
+       "farbe": "GELB",
+       "wort": "Abfindung",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Anschaffungskosten",
+       "wert": "60.000 €",
+       "farbe": "GRUEN",
+       "wort": "Anschaffungskosten",
+       "neu": true
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Kapitalkonto"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Reihenfolge",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Stille Reserven Grundstück",
+       "wert": "40.000 €",
+       "farbe": "GELB",
+       "wort": "vierzigtausend",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Firmenwert",
+       "wert": "20.000 €",
+       "farbe": "GRUEN",
+       "wort": "Firmenwert",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 7 Abs. 1 S. 3 EStG",
+       "wort": "fünfzehn"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Grundstück"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Ausnahme",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Lästiger Gesellschafter",
+       "unter": "nur der Aufschlag über dem Anteilswert",
+       "wort": "lästigen",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Aufschlag",
+       "wert": "sofort Aufwand",
+       "farbe": "ROT",
+       "wort": "loszuwerden",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "BFH VIII R 37/93",
+       "wort": "Gesellschafter"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "loszuwerden",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Erst stille Reserven,",
+     "dann Firmenwert,",
+     "Aufwand nur bei",
+     "Lästigkeit"
+    ],
+    "woerter": [
+     "stille",
+     "Firmenwert",
+     "Aufwand",
+     "Lästigkeit"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Lästigkeit",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Hohe Abfindung beim Ausscheiden aus der Personengesellschaft: Was aktivieren die Verbleibenden? 💶\n\n▸ Für den Ausscheidenden ist die Abfindung Veräußerungspreis (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG), für die Verbleibenden sind es Anschaffungskosten.\n▸ Der Mehrbetrag über dem Kapitalkonto wird zuerst auf die anteiligen stillen Reserven der Wirtschaftsgüter verteilt, ein Rest ist Geschäfts- oder Firmenwert (§ 5 Abs. 2 EStG; handelsrechtlich § 246 Abs. 1 S. 4 HGB). Steuerliche Nutzungsdauer des Firmenwerts: 15 Jahre (§ 7 Abs. 1 S. 3 EStG).\n▸ Beispiel: Kapitalkonto 100.000 €, Abfindung 160.000 €, davon 40.000 € stille Reserven im Grundstück, 20.000 € Firmenwert.\n▸ Ausnahme: Ein Aufschlag über den vollen Anteilswert, um einen lästigen Gesellschafter loszuwerden, ist sofort abziehbare Betriebsausgabe (BFH vom 14.06.1994, VIII R 37/93, BStBl II 1995, 246).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG",
+    "§ 5 Abs. 2 EStG",
+    "§ 246 Abs. 1 S. 4 HGB",
+    "§ 7 Abs. 1 S. 3 EStG",
+    "BFH vom 14.06.1994, VIII R 37/93, BStBl II 1995, 246"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-4",
+   "frage": [
+    "Gewinn aus Grundstück",
+    "übertragen: welche Norm?"
+   ],
+   "optionen": [
+    "§ 6b EStG",
+    "R 6.6 EStR",
+    "§ 16 Abs. 3 EStG"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#5E3B26",
+     "oberteil": "#F2B880",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:fragt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-4",
+   "titel": [
+    "A: § 6b EStG"
+   ],
+   "optionen": [
+    "§ 6b EStG",
+    "R 6.6 EStR",
+    "§ 16 Abs. 3 EStG"
+   ],
+   "richtig": 0,
+   "text": "Die Rücklage für Reinvestitionen. R 6.6 EStR hilft nur bei höherer Gewalt oder behördlichem Eingriff.",
+   "norm": "§ 6b Abs. 1, 3 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#5E3B26",
+     "oberteil": "#F2B880",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Frist verpasst?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-545",
+   "titel": [
+    "Bebautes Grundstück:",
+    "erst die Art"
+   ],
+   "norm": "§ 181 Abs. 1 BewG",
+   "punkte": [
+    [
+     "Grundstücksart bestimmen, etwa Mietwohngrundstück oder Geschäftsgrundstück.",
+     "ok",
+     "§ 181 Abs. 1 BewG"
+    ],
+    [
+     "Erst danach das Verfahren wählen.",
+     "warn",
+     "§ 182 BewG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Medium",
+     "haut": "#E8B98F",
+     "haar": "#A8A8A8",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Entstrickung: 10 Minuten"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Jede Zahl",
+    "hat einen Job"
+   ],
+   "punkte": [
+    [
+     "Alle Zahlen im Sachverhalt markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Beim Lösen abhaken, was verbraucht ist.",
+     "ok",
+     null
+    ],
+    [
+     "Bleibt eine übrig, fehlt ein Punkt.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:checkbox",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t1-26",
+   "titel": [
+    "Rangrücktritt:",
+    "ausbuchen?"
+   ],
+   "punkte": [
+    [
+     "Tilgung nur aus künftigen Gewinnen: in der Steuerbilanz ausbuchen.",
+     "warn",
+     "§ 5 Abs. 2a EStG"
+    ],
+    [
+     "Auch aus sonstigem freiem Vermögen: Schuld bleibt.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:file-dollar",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Mehrabfindung = Aufwand?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-3-6",
+   "titel": [
+    "Abfindung",
+    "in Sachwerten?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Privat",
+      "a"
+     ],
+     [
+      ": Anteil verkauft,",
+      null
+     ]
+    ],
+    [
+     [
+      "dann Sachwert hingegeben;",
+      null
+     ]
+    ],
+    [
+     [
+      "betrieblich",
+      "b"
+     ],
+     [
+      ": unechte",
+      null
+     ]
+    ],
+    [
+     [
+      "Realteilung",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "BMF vom 19.12.2018, Rn. 2",
+   "figuren": {
+    "M": {
+     "kopf": "Twists 2",
+     "haut": "#7A4E33",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:denkt"
+  }
+ ]
+}

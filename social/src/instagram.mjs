@@ -278,6 +278,7 @@ export class Instagram {
       return this.veroeffentlichenSicher(c.id, caption);
     }
     const kinder = [];
+    if (bildUrls.length > 10) console.warn(`  ! Carousel mit ${bildUrls.length} Bildern: die API nimmt nur 10, Bild 11 ff. fehlen im Beitrag`);
     for (const url of bildUrls.slice(0, 10)) {
       const c = await this.anfrage("POST", `${this.kontoId}/media`, { image_url: url, is_carousel_item: "true" });
       kinder.push(c.id);
@@ -375,6 +376,13 @@ export class Instagram {
   }
 
   /* Auf einen Kommentar antworten. Rückgabe: ID der Antwort. */
+  /* Eigener Kommentar unter einem Beitrag (z. B. ein Hinweis des Kanals). */
+  async beitragKommentieren(medienId, text) {
+    if (this.trockenlauf) { this.protokoll.push({ art: "kommentar", medienId, text }); return "trocken"; }
+    const r = await this.anfrage("POST", `${medienId}/comments`, { message: text });
+    return r.id;
+  }
+
   async kommentarBeantworten(kommentarId, text) {
     if (this.trockenlauf) { this.protokoll.push({ art: "antwort", kommentarId, text }); return "trocken"; }
     const r = await this.anfrage("POST", `${kommentarId}/replies`, { message: text });

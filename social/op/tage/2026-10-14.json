@@ -1,0 +1,1223 @@
+{
+ "datum": "2026-10-14",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-23",
+   "themaTitel": "Was geschieht bei Einbringung eines Betriebs mit negativem Kapital?",
+   "figuren": {
+    "A": {
+     "name": "Tessa",
+     "kopf": "Bun",
+     "haut": "#F0C8A8",
+     "haar": "#B5651D",
+     "oberteil": "#C9B8F2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Buchwert trotz",
+      "Minuskapital?"
+     ],
+     "norm": "§ 20 Abs. 2 S. 2 Nr. 2 UmwStG",
+     "unter": "Achtung",
+     "teaser": "+ Markier-Guide § 20 UmwStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Kapital",
+        "Bold",
+        44
+       ],
+       [
+        "−80.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Buchwert?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Sachverhalt",
+     "punkte": [
+      [
+       "Tessa bringt ihr Einzelunternehmen gegen neue Anteile in eine GmbH ein.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 UmwStG"
+      ],
+      [
+       "Buchwerte: Aktiva 300.000 €, Schulden 380.000 €, Kapital −80.000 €.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Die GmbH beantragt den Buchwertansatz.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 2 S. 2 UmwStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ganz ohne Gewinn, bitte!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Darf die GmbH das negative Kapital zum Buchwert übernehmen?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Und was bedeutet das für Tessa und ihre neuen Anteile?",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Buchwert ist doch Buchwert …"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Untergrenze null",
+     "punkte": [
+      [
+       "Buchwert geht nur, soweit die Passivposten die Aktivposten nicht übersteigen. Eigenkapital zählt nicht mit.",
+       "nein",
+       "Bold",
+       "§ 20 Abs. 2 S. 2 Nr. 2 UmwStG"
+      ],
+      [
+       "Also Aktiva aufstocken, bis der Wertansatz mindestens 0 € erreicht.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Pflicht-Aufstockung?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Folgen für Tessa",
+     "normen": [
+      "§ 20 Abs. 3 S. 1 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Veräußerungspreis = Wertansatz",
+       "0 €",
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert des Kapitals",
+       "−80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn: 0 € − (−80.000 €)",
+       "80.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "AK der neuen Anteile",
+       "0 €",
+       "Bold",
+       "HELL"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "80.000 € Gewinn!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und keine Begünstigung",
+     "punkte": [
+      [
+       "Freibetrag nach § 16 Abs. 4 EStG nur, wenn die GmbH den gemeinen Wert ansetzt.",
+       "nein",
+       "Regular",
+       "§ 20 Abs. 4 S. 1 UmwStG"
+      ],
+      [
+       "Ermäßigter Steuersatz nur in diesen Fällen.",
+       "nein",
+       "Regular",
+       "§ 20 Abs. 4 S. 2 UmwStG"
+      ],
+      [
+       "Negative Anschaffungskosten gibt es nicht.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Teure Falle."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Tessa: Aufstockung auf 0 €, Gewinn 80.000 €",
+      "Anteile mit 0 €, keine Begünstigung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Minuskapital",
+        "a"
+       ]
+      ],
+      [
+       [
+        "wird auf ",
+        null
+       ],
+       [
+        "null",
+        "b"
+       ],
+       [
+        " gestockt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gewinn",
+        "c"
+       ],
+       [
+        " ohne",
+        null
+       ]
+      ],
+      [
+       [
+        "Begünstigung",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du die Grenze gesehen?",
+     "teaser": "Weiterwischen: § 20 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 20 UmwStG Einbringung (Auszug)",
+     "absaetze": [
+      [
+       2,
+       [
+        [
+         "[…] Abweichend von Satz 1 kann das übernommene Betriebsvermögen auf Antrag einheitlich mit dem Buchwert oder einem höheren Wert […] angesetzt werden,",
+         null
+        ],
+        [
+         "soweit",
+         "b1"
+        ],
+        [
+         "[…] 2.",
+         null
+        ],
+        [
+         "die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen;",
+         "r1"
+        ],
+        [
+         "dabei ist das Eigenkapital nicht zu berücksichtigen, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       3,
+       [
+        [
+         "Der Wert, mit dem die übernehmende Gesellschaft das eingebrachte Betriebsvermögen ansetzt, gilt für den Einbringenden",
+         null
+        ],
+        [
+         "als Veräußerungspreis",
+         "gr1"
+        ],
+        [
+         "und",
+         null
+        ],
+        [
+         "als Anschaffungskosten der Gesellschaftsanteile.",
+         "b2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       4,
+       [
+        [
+         "Auf einen bei der Sacheinlage entstehenden Veräußerungsgewinn ist § 16 Abs. 4 des Einkommensteuergesetzes nur anzuwenden, wenn […]",
+         null
+        ],
+        [
+         "die übernehmende Gesellschaft das eingebrachte Betriebsvermögen mit dem gemeinen Wert ansetzt.",
+         "g1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "mindestens 0 €",
+       "r1"
+      ],
+      [
+       "Gewinn 80.000 €",
+       "gr1"
+      ],
+      [
+       "Anteile: 0 €",
+       "b2"
+      ],
+      [
+       "nur bei gemeinem Wert",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Tessa: Gewinn 80.000 €, Anteile 0 €",
+      "kein Freibetrag, kein ermäßigter Satz"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 bis 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 20 Abs. 1, 2 S. 2 Nr. 2 UmwStG",
+    "§ 20 Abs. 3 S. 1 UmwStG",
+    "§ 20 Abs. 4 UmwStG",
+    "§ 16 Abs. 4 EStG",
+    "§ 34 Abs. 1, 3 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b04-15",
+   "themaTitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
+   "figuren": {
+    "A": {
+     "name": "Selin",
+     "kopf": "Bangs",
+     "haut": "#D8A47F",
+     "haar": "#3B2416",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Welche Lieferung",
+      "bewegt sich?"
+     ],
+     "norm": "§ 3 Abs. 6a UStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 3 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:truck-delivery",
+      "farbe": "GELB"
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Reihengeschäft?",
+       "§ 3 Abs. 6a S. 1 UStG",
+       ""
+      ],
+      [
+       "Erster transportiert",
+       "§ 3 Abs. 6a S. 2 UStG",
+       ""
+      ],
+      [
+       "Letzter transportiert",
+       "§ 3 Abs. 6a S. 3 UStG",
+       ""
+      ],
+      [
+       "Händler transportiert",
+       "§ 3 Abs. 6a S. 4, 5 UStG",
+       ""
+      ],
+      [
+       "Ruhende Lieferungen verorten",
+       "§ 3 Abs. 7 S. 2 UStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 3 Abs. 6a, 7 UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wer transportiert, entscheidet",
+     "punkte": [
+      [
+       "Erster Unternehmer transportiert: Seine Lieferung ist bewegt.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Letzter Abnehmer transportiert: Die Lieferung an ihn ist bewegt.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zwischenhändler transportiert: Vermutet wird die Lieferung an ihn. Mit USt-IdNr. des Abgangsstaats: seine eigene.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Und wer transportiert bei mir?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Selin aus Wien kauft Maschinen bei einem Hersteller in Hamburg.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Sie verkauft weiter an einen Kunden in Mailand.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Selin beauftragt die Spedition Hamburg–Mailand und verwendet ihre österreichische USt-IdNr.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Direkt nach Mailand!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Welche der beiden Lieferungen ist die bewegte?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Wo liegt jeweils der Ort?",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Welche Lieferung kann steuerfrei sein?",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Ich transportiere …"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Lösung",
+     "links": {
+      "kopf": "Hamburg an Selin",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Bewegt: Vermutung greift",
+        "§ 3 Abs. 6a S. 4 UStG"
+       ],
+       [
+        "Ort: Hamburg, steuerfreie ig. Lieferung",
+        "§ 3 Abs. 6 S. 1, § 6a UStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Selin an Kunden",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Ruhend, folgt der bewegten",
+        null
+       ],
+       [
+        "Ort: Mailand, in Deutschland nicht steuerbar",
+        "§ 3 Abs. 7 S. 2 Nr. 2 UStG"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Steuerfrei ab Hamburg!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Deutsche USt-IdNr.?",
+     "punkte": [
+      [
+       "Verwendet Selin gegenüber dem Hersteller eine deutsche USt-IdNr., ist ihre eigene Lieferung bewegt.",
+       "warn",
+       "Bold",
+       "§ 3 Abs. 6a S. 5 UStG"
+      ],
+      [
+       "Dann ruht die Lieferung des Herstellers in Hamburg: steuerpflichtig, nicht steuerfrei.",
+       "nein",
+       "Regular",
+       "§ 3 Abs. 7 S. 2 Nr. 1 UStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Eine Nummer ändert alles!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Hamburg an Selin ist bewegt und steuerfrei",
+      "Selin an den Kunden ruht, Ort Mailand",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Wer ",
+        null
+       ],
+       [
+        "transportiert",
+        "a"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "entscheidet",
+        "b"
+       ],
+       [
+        ".",
+        null
+       ]
+      ],
+      [
+       [
+        "Nur die ",
+        null
+       ],
+       [
+        "bewegte",
+        "c"
+       ]
+      ],
+      [
+       [
+        "kann ",
+        null
+       ],
+       [
+        "steuerfrei",
+        "d"
+       ],
+       [
+        " sein.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Und wenn der Kunde abholt?",
+     "teaser": "Weiterwischen: § 3 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 3 Abs. 6a UStG Reihengeschäft (Auszug)",
+     "absaetze": [
+      [
+       "(6a) 4",
+       [
+        [
+         "Wird der Gegenstand der Lieferung",
+         null
+        ],
+        [
+         "durch einen Abnehmer befördert oder versendet, der zugleich Lieferer ist (Zwischenhändler),",
+         "b1"
+        ],
+        [
+         "ist die Beförderung oder Versendung",
+         null
+        ],
+        [
+         "der Lieferung an ihn zuzuordnen,",
+         "g1"
+        ],
+        [
+         "es sei denn, er weist nach, dass er den Gegenstand als Lieferer befördert oder versendet hat.",
+         null
+        ]
+       ]
+      ],
+      [
+       "5",
+       [
+        [
+         "Gelangt der Gegenstand der Lieferung aus dem Gebiet eines Mitgliedstaates in das Gebiet eines anderen Mitgliedstaates und verwendet der Zwischenhändler gegenüber dem leistenden Unternehmer bis zum Beginn der Beförderung oder Versendung eine",
+         null
+        ],
+        [
+         "Umsatzsteuer-Identifikationsnummer, die ihm vom Mitgliedstaat des Beginns der Beförderung oder Versendung erteilt wurde,",
+         "r1"
+        ],
+        [
+         "ist die Beförderung oder Versendung seiner Lieferung zuzuordnen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zwischenhändler",
+       "b1"
+      ],
+      [
+       "Grundregel",
+       "g1"
+      ],
+      [
+       "IdNr. Abgangsstaat",
+       "r1"
+      ],
+      [
+       "dann seine Lieferung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 3 Abs. 7 UStG",
+      "Wo die ruhenden Lieferungen liegen"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 3 Abs. 7 UStG (Auszug)",
+     "absaetze": [
+      [
+       7,
+       [
+        [
+         "Wird der Gegenstand der Lieferung nicht befördert oder versendet, wird die Lieferung dort ausgeführt,",
+         null
+        ],
+        [
+         "wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet.",
+         "b1"
+        ],
+        [
+         "In den Fällen der Absätze 6a und 6b gilt Folgendes: 1. Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         null
+        ],
+        [
+         "vorangehen,",
+         "g1"
+        ],
+        [
+         "gelten dort als ausgeführt,",
+         null
+        ],
+        [
+         "wo die Beförderung oder Versendung des Gegenstands beginnt.",
+         "g1"
+        ],
+        [
+         "2. Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         null
+        ],
+        [
+         "folgen,",
+         "r1"
+        ],
+        [
+         "gelten dort als ausgeführt,",
+         null
+        ],
+        [
+         "wo die Beförderung oder Versendung des Gegenstands endet.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "ruhende Lieferung",
+       "b1"
+      ],
+      [
+       "davor: Beginn",
+       "g1"
+      ],
+      [
+       "danach: Ende, Mailand",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Vertiefung: Abschn. 3.14 UStAE",
+      "Zuordnung mit vielen Beispielen"
+     ]
+    }
+   ],
+   "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 6 S. 1, Abs. 6a, Abs. 7 S. 2 UStG",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a UStG",
+    "Abschn. 3.14 UStAE"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-08",
+   "themaTitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
+   "figuren": {
+    "A": {
+     "name": "Ruben",
+     "kopf": "Short 3",
+     "haut": "#E8B98F",
+     "haar": "#6B3E26",
+     "oberteil": "#8DB3F2",
+     "bart": "Full"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zwei Gemeinden, siebentausend Euro Messbetrag. Ohne Unternehmerlohn bekommt Gemeinde A dreitausend. Mit ihm dreitausendfünfhundert."
+    },
+    {
+     "id": "s1",
+     "text": "Zerlegt wird der Messbetrag, nicht die Steuer. Maßstab sind die Arbeitslöhne je Gemeinde, abgerundet auf volle tausend Euro."
+    },
+    {
+     "id": "s2",
+     "text": "Die Falle: Beim Einzelunternehmer kommen fünfundzwanzigtausend Euro Unternehmerlohn dazu. Aus fünfundsiebzigtausend in A werden hunderttausend, genau wie in B."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Unternehmerlohn nur bei Personenunternehmen, nie bei der GmbH."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Gemeinde A:",
+     "wie viel?"
+    ],
+    "pille": "Zerlegung § 28 GewStG",
+    "figur": "A/skeptisch",
+    "name": "Ruben",
+    "icons": [
+     [
+      "tabler:building-community",
+      "GELB",
+      "Ohne"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "ohne 25.000 €",
+      "wert": "3.000 €",
+      "farbe": "ROT",
+      "wort": "Ohne"
+     },
+     {
+      "label": "mit 25.000 €",
+      "wert": "3.500 €",
+      "farbe": "GRUEN",
+      "wort": "Mit"
+     }
+    ]
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Was wird zerlegt?",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Zerlegt wird",
+       "wert": "der Messbetrag",
+       "farbe": "GELB",
+       "wort": "Messbetrag",
+       "zs": 90
+      },
+      {
+       "typ": "pille",
+       "text": "nicht die Steuer",
+       "wort": "Steuer",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "text",
+       "text": "Arbeitslöhne je Gemeinde",
+       "unter": "auf volle 1.000 € abgerundet",
+       "wort": "Arbeitslöhne",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 29 Abs. 1 Nr. 1, Abs. 3 GewStG",
+       "wort": "abgerundet"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Maßstab"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Klausurfalle",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Unternehmerlohn",
+       "wert": "+ 25.000 €",
+       "farbe": "ROT",
+       "wort": "Einzelunternehmer"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 31 Abs. 5 GewStG",
+       "wort": "dazu"
+      },
+      {
+       "typ": "pille",
+       "text": "A: 75.000 € + 25.000 €",
+       "wort": "fünfundsiebzigtausend",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "A und B: je 100.000 €",
+       "wort": "genau",
+       "farbe": "GELB"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Falle",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Unternehmerlohn",
+     "nur bei",
+     "Personenunternehmen,",
+     "nie bei der GmbH"
+    ],
+    "woerter": [
+     null,
+     "nur",
+     "Personenunternehmen",
+     "GmbH"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "GmbH",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Gewerbesteuer-Zerlegung: die Falle mit dem Unternehmerlohn. 🏙️\n\n▸ Hat ein Unternehmen Betriebsstätten in mehreren Gemeinden, wird der Steuermessbetrag in Zerlegungsanteile zerlegt (§ 28 Abs. 1 S. 1 GewStG) – nicht die Steuer. Jede Gemeinde wendet dann ihren Hebesatz an.\n▸ Maßstab: Verhältnis der Arbeitslöhne der Betriebsstätten je Gemeinde (§ 29 Abs. 1 Nr. 1 GewStG), abgerundet auf volle 1.000 € (§ 29 Abs. 3 GewStG).\n▸ Bei Unternehmen, die nicht von einer juristischen Person betrieben werden, sind für die tätigen Unternehmer insgesamt 25.000 € jährlich anzusetzen (§ 31 Abs. 5 GewStG). Bei der GmbH nicht.\n▸ Beispiel: Messbetrag 7.000 €, Löhne A 75.000 € + 25.000 € Unternehmerlohn = 100.000 €, B 100.000 € → je 3.500 €.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 28 Abs. 1 GewStG",
+    "§ 29 Abs. 1 Nr. 1, Abs. 3 GewStG",
+    "§ 31 Abs. 5 GewStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-13",
+   "frage": [
+    "Überschuss 50.000 €,",
+    "darin KSt 8.000 €",
+    "und vGA 5.000 €"
+   ],
+   "optionen": [
+    "Einkommen 63.000 €",
+    "Einkommen 58.000 €",
+    "Einkommen 50.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Cornrows",
+     "haut": "#5C3A23",
+     "oberteil": "#9FD3C7",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-13",
+   "titel": [
+    "A: 63.000 €"
+   ],
+   "optionen": [
+    "Einkommen 63.000 €",
+    "Einkommen 58.000 €",
+    "Einkommen 50.000 €"
+   ],
+   "richtig": 0,
+   "text": "Beides wurde als Aufwand gebucht und wird außerhalb der Bilanz wieder hinzugerechnet.",
+   "norm": "§ 10 Nr. 2, § 8 Abs. 3 S. 2 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Cornrows",
+     "haut": "#5C3A23",
+     "oberteil": "#9FD3C7",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Buchwert trotz Minuskapital?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-27",
+   "titel": [
+    "Grundstück",
+    "zurückbehalten?"
+   ],
+   "norm": "§ 16 Abs. 4, § 34 Abs. 2 Nr. 1 EStG",
+   "punkte": [
+    [
+     "Anteil verkauft, wesentliches Grundstück aus dem Sonder-BV zum Buchwert in einen anderen Betrieb überführt.",
+     "nein",
+     null
+    ],
+    [
+     "Reserven nicht vollständig aufgedeckt: keine Begünstigung.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Bun",
+     "haut": "#F2CDB4",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:ernst"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Welche Lieferung bewegt sich?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Ergebnis",
+    "nach vorn"
+   ],
+   "punkte": [
+    [
+     "Erst die Rechtsfolge, dann die Begründung.",
+     "ok",
+     null
+    ],
+    [
+     "Norm genau zitieren: Abs., S., Nr.",
+     "ok",
+     null
+    ],
+    [
+     "Korrektoren suchen Ergebnis und Norm.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:target-arrow",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "C": {
+     "kopf": "Short 5",
+     "haut": "#C68B5E",
+     "oberteil": "#F7C948"
+    }
+   },
+   "figur": "C/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-11",
+   "titel": [
+    "Halbunternehmer:",
+    "Erwerbsschwelle"
+   ],
+   "punkte": [
+    [
+     "Nur vorsteuerschädliche steuerfreie Umsätze",
+     "ok",
+     null
+    ],
+    [
+     "Pauschalierende Land- und Forstwirte",
+     "ok",
+     null
+    ],
+    [
+     "Juristische Personen ohne Unternehmerzweck",
+     "ok",
+     null
+    ],
+    [
+     "Erwerbe bis 12.500 €: kein ig. Erwerb, Verzicht möglich",
+     "warn",
+     "§ 1a Abs. 3, 4 UStG"
+    ]
+   ],
+   "icon": "tabler:scale",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Bangs 2",
+     "haut": "#F5D6C1",
+     "haar": "#2B2B2B",
+     "oberteil": "#F28C8C"
+    }
+   },
+   "figur": "T/ruhig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Zerlegung: die Falle"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-11",
+   "titel": [
+    "Inländische",
+    "Einkünfte?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Einkunftsart",
+      "a"
+     ]
+    ],
+    [
+     [
+      "plus ",
+      null
+     ],
+     [
+      "Inlandsbezug",
+      "b"
+     ]
+    ],
+    [
+     [
+      "aus § 49 EStG",
+      null
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 49 Abs. 1, § 1 Abs. 4 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Turban",
+     "haut": "#A86B45",
+     "haar": "#7FB3D5",
+     "oberteil": "#E9E4DA",
+     "bart": "Full 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

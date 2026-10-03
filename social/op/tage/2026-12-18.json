@@ -1,0 +1,1240 @@
+{
+ "datum": "2026-12-18",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-04",
+   "themaTitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+   "figuren": {
+    "A": {
+     "name": "Yara",
+     "kopf": "Hijab",
+     "haut": "#C68E6A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Darlehen weg:",
+      "mehr AK?"
+     ],
+     "norm": "§ 17 Abs. 2a S. 3 Nr. 2 EStG",
+     "unter": "der Fall",
+     "teaser": "+ Markier-Guide §§ 3c, 17 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Darlehen",
+        "Bold",
+        44
+       ],
+       [
+        "80.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "ausgefallen",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Yara hält 40 % an einer GmbH, Anschaffungskosten 10.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2023 steckt die GmbH in der Krise, keine Bank leiht mehr. Yara gibt 80.000 € Darlehen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2026 wird die GmbH aufgelöst. Yara bekommt nichts zurück.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Alles weg?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Frage",
+     "punkte": [
+      [
+       "Welchen Verlust kann Yara geltend machen, und in welcher Höhe wirkt er sich aus?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst lösen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Wie viel zählt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung 1: Tatbestand",
+     "punkte": [
+      [
+       "Die Auflösung der GmbH gilt als Veräußerung.",
+       "ok",
+       "Regular",
+       "§ 17 Abs. 4 S. 1 EStG"
+      ],
+      [
+       "Darlehen in der Krise, kein Fremder hätte geliehen: gesellschaftsrechtlich veranlasst.",
+       "ok",
+       "Regular",
+       "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG"
+      ],
+      [
+       "Der Ausfall erhöht die Anschaffungskosten um 80.000 €.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Also mehr AK"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung 2: Rechnung",
+     "normen": [
+      "§ 17 Abs. 2 S. 1, Abs. 4 S. 2 EStG",
+      "§ 3c Abs. 2 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Zugeteiltes Vermögen",
+       "0 €",
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Darlehensausfall",
+       "+ 80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Verlust",
+       "− 90.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Davon 60 %",
+       "− 54.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Teileinkünfte gelten auch beim Verlust",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Fremdüblich gegeben?",
+     "punkte": [
+      [
+       "Hätte eine Bank zu gleichen Bedingungen geliehen, fehlt die gesellschaftsrechtliche Veranlassung.",
+       "nein",
+       "Regular",
+       "§ 17 Abs. 2a S. 4 EStG"
+      ],
+      [
+       "Dann kein Zuschlag bei § 17. Den Ausfall bei den Kapitaleinkünften prüfen.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 2 S. 1 Nr. 7 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Darum die Krise!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Verlust 90.000 €, davon 60 % = 54.000 €",
+      "§ 17 Abs. 2a, 4 und § 3c Abs. 2 EStG",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Krise",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Fremdvergleich",
+        "b"
+       ],
+       [
+        " anstellen,",
+        null
+       ]
+      ],
+      [
+       [
+        "AK",
+        "c"
+       ],
+       [
+        " erhöhen,",
+        null
+       ]
+      ],
+      [
+       [
+        "60 %",
+        "d"
+       ],
+       [
+        " ansetzen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "60 % bedacht?",
+     "teaser": "Weiterwischen: §§ 3c, 17 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 17 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(2a) S. 3",
+       [
+        [
+         "Zu den nachträglichen Anschaffungskosten im Sinne des Satzes 2 gehören insbesondere 1. offene oder verdeckte Einlagen, 2.",
+         null
+        ],
+        [
+         "Darlehensverluste",
+         "g1"
+        ],
+        [
+         ", soweit die Gewährung des Darlehens oder das Stehenlassen des Darlehens",
+         null
+        ],
+        [
+         "in der Krise der Gesellschaft gesellschaftsrechtlich veranlasst",
+         "b1"
+        ],
+        [
+         "war, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2a) S. 4",
+       [
+        [
+         "Eine gesellschaftsrechtliche Veranlassung liegt regelmäßig vor, wenn",
+         null
+        ],
+        [
+         "ein fremder Dritter",
+         "gr1"
+        ],
+        [
+         "das Darlehen oder Sicherungsmittel im Sinne der Nummern 2 oder 3 bei sonst gleichen Umständen zurückgefordert oder nicht gewährt hätte.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(4) S. 1",
+       [
+        [
+         "Als Veräußerung im Sinne des Absatzes 1 gilt auch",
+         null
+        ],
+        [
+         "die Auflösung einer Kapitalgesellschaft",
+         "r1"
+        ],
+        [
+         ", […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nachträgliche AK",
+       "g1"
+      ],
+      [
+       "Krise!",
+       "b1"
+      ],
+      [
+       "Fremdvergleich",
+       "gr1"
+      ],
+      [
+       "Auflösung = Verkauf",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 3c Abs. 2 EStG",
+      "Anschaffungskosten nur zu 60 %"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 3c EStG (Auszug)",
+     "absaetze": [
+      [
+       "(2) 1",
+       [
+        [
+         "Betriebsvermögensminderungen, Betriebsausgaben, Veräußerungskosten oder Werbungskosten, die mit den dem § 3 Nummer 40 zugrunde liegenden Betriebsvermögensmehrungen oder Einnahmen […] in wirtschaftlichem Zusammenhang stehen, dürfen",
+         null
+        ],
+        [
+         "unabhängig davon, in welchem Veranlagungszeitraum",
+         "b1"
+        ],
+        [
+         "die Betriebsvermögensmehrungen oder Einnahmen anfallen, bei der Ermittlung der Einkünfte",
+         null
+        ],
+        [
+         "nur zu 60 Prozent abgezogen werden;",
+         "r1"
+        ],
+        [
+         "Entsprechendes gilt, wenn bei der Ermittlung der Einkünfte […] die",
+         null
+        ],
+        [
+         "Anschaffungs- oder Herstellungskosten",
+         "g1"
+        ],
+        [
+         "oder der an deren Stelle tretende Wert mindernd zu berücksichtigen sind.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "VZ egal",
+       "b1"
+      ],
+      [
+       "60 %",
+       "r1"
+      ],
+      [
+       "AK + Darlehen",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Yara: − 90.000 € × 60 %",
+      "= − 54.000 € Verlust"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall § 17 EStG: Erhöht ein ausgefallenes Gesellschafterdarlehen die Anschaffungskosten?\n\nFall: Yara hält 40 % an einer GmbH (Anschaffungskosten 10.000 €). In der Krise 2023 gibt sie 80.000 € Darlehen, weil keine Bank mehr leiht. 2026 wird die GmbH aufgelöst, Yara erhält nichts.\n\nLösung:\n▸ Die Auflösung gilt als Veräußerung; Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 1, 2 EStG).\n▸ Darlehensverluste sind nachträgliche Anschaffungskosten, soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG). Das ist regelmäßig der Fall, wenn ein fremder Dritter das Darlehen nicht gewährt oder zurückgefordert hätte (§ 17 Abs. 2a S. 4 EStG).\n▸ Verlust: 0 € − 90.000 € = − 90.000 € (§ 17 Abs. 2 S. 1 EStG). Anschaffungskosten nur zu 60 %, auch ohne Erlös, denn die Absicht genügt (§ 3c Abs. 2 S. 1, 7 EStG), der Veräußerungspreis ebenso (§ 3 Nr. 40 S. 1 Buchst. c EStG): − 54.000 €.\n\nKlausurfalle: Fremdüblich gegebene Darlehen erhöhen die Anschaffungskosten nicht; dann ist der Ausfall bei den Einkünften aus Kapitalvermögen zu prüfen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n\nZum Schluss: § 3c Abs. 2 und § 17 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 17 Abs. 2 S. 1 EStG",
+    "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG",
+    "§ 17 Abs. 4 S. 1, 2 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. c EStG",
+    "§ 3c Abs. 2 S. 1, 7 EStG",
+    "§ 20 Abs. 2 S. 1 Nr. 7 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-32",
+   "themaTitel": "Wie weit lässt sich eine Einbringung steuerlich zurückbeziehen?",
+   "figuren": {
+    "A": {
+     "name": "Ingrid",
+     "kopf": "Gray Short",
+     "haut": "#F1C9A8",
+     "haar": "#C8C8C8",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 4",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Einbringung",
+      "zurückbeziehen"
+     ],
+     "norm": "§ 20 Abs. 5, 6 UmwStG",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 20 UmwStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "HÖCHSTENS",
+      "tag": "8",
+      "unter": "Monate zurück"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung: 10 Minuten",
+     "schritte": [
+      [
+       "Einstieg · 1 Min.",
+       "",
+       "Warum zurückbeziehen?"
+      ],
+      [
+       "Fristen · 3 Min.",
+       "§ 20 Abs. 6 UmwStG",
+       ""
+      ],
+      [
+       "Folgen · 3 Min.",
+       "§ 20 Abs. 5 UmwStG",
+       ""
+      ],
+      [
+       "Beispiel · 2 Min.",
+       "",
+       "ein Datum, ein Ergebnis"
+      ],
+      [
+       "Fazit · 1 Min.",
+       "",
+       "Kernsatz wiederholen"
+      ]
+     ],
+     "teaser": "Am Ende: § 20 UmwStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg",
+     "punkte": [
+      [
+       "Ein Einzelunternehmen soll ab Jahresbeginn als GmbH laufen, der Vertrag kommt erst im August.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die Rückbeziehung macht die GmbH steuerlich schon ab dem Stichtag zur Trägerin des Betriebs.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Das ist die Frage"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Zwei Wege, zwei Fristen",
+     "links": {
+      "kopf": "Umwandlungsgesetz",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Verschmelzung, Ausgliederung",
+        null
+       ],
+       [
+        "Bilanzstichtag höchstens 8 Monate vor Anmeldung",
+        "§ 20 Abs. 6 S. 1, 2 UmwStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Einzelrechtsnachfolge",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Sacheinlage per Vertrag",
+        null
+       ],
+       [
+        "Höchstens 8 Monate vor Vertrag und Übergang",
+        "§ 20 Abs. 6 S. 3 UmwStG"
+       ]
+      ]
+     },
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Welcher Weg?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Folgen",
+     "punkte": [
+      [
+       "Einkommen und Vermögen beider Seiten: als wäre der Betrieb am Stichtag übergegangen.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 5 S. 1 UmwStG"
+      ],
+      [
+       "Nur auf Antrag.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 5 S. 1 UmwStG"
+      ],
+      [
+       "Entnahmen und Einlagen danach wirken nicht zurück, sie ändern die Anschaffungskosten der Anteile.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 5 S. 2, 3 UmwStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Auf Antrag!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: Vertrag im August",
+     "normen": [
+      "§ 20 Abs. 6 S. 3 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Vertrag",
+       "20.08.2026",
+       "Regular",
+       null
+      ],
+      [
+       "Übergang des Betriebs",
+       "15.09.2026",
+       "Regular",
+       null
+      ],
+      [
+       "Grenze aus Vertrag",
+       "20.12.2025",
+       "Regular",
+       null
+      ],
+      [
+       "Grenze aus Übergang",
+       "15.01.2026",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Wunsch 31.12.2025",
+       "zu früh",
+       "Bold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "Frühester Stichtag: 15.01.2026",
+      "GRUEN"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Gilt das auch beim Formwechsel einer KG in eine GmbH?",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was passiert mit Entnahmen im Rückwirkungszeitraum?",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Kann der Antrag später widerrufen werden?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Antworten in der Beschreibung",
+      "GELB",
+      null
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Noch Fragen?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kern: höchstens 8 Monate zurück, auf Antrag",
+      "Umwandlung: ab Anmeldung, sonst ab Vertrag und Übergang",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Acht",
+        "a"
+       ],
+       [
+        " Monate max.,",
+        null
+       ]
+      ],
+      [
+       [
+        "Antrag",
+        "b"
+       ],
+       [
+        " stellen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Entnahmen",
+        "c"
+       ],
+       [
+        " gesondert,",
+        null
+       ]
+      ],
+      [
+       [
+        "beide",
+        "d"
+       ],
+       [
+        " Grenzen prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Bekommst du 10 Minuten voll?",
+     "teaser": "Weiterwischen: § 20 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 20 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(5) S. 1",
+       [
+        [
+         "Das Einkommen und das Vermögen des Einbringenden und der übernehmenden Gesellschaft sind",
+         null
+        ],
+        [
+         "auf Antrag",
+         "r1"
+        ],
+        [
+         "so zu ermitteln, als ob das eingebrachte Betriebsvermögen mit Ablauf des steuerlichen Übertragungsstichtags (Absatz 6) auf die Übernehmerin übergegangen wäre.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(6) S. 3",
+       [
+        [
+         "In anderen Fällen der Sacheinlage darf die Einbringung auf einen Tag zurückbezogen werden, der",
+         null
+        ],
+        [
+         "höchstens acht Monate vor dem Tag des Abschlusses des Einbringungsvertrags",
+         "g1"
+        ],
+        [
+         "liegt und",
+         null
+        ],
+        [
+         "höchstens acht Monate vor dem Zeitpunkt",
+         "b1"
+        ],
+        [
+         "liegt, an dem das eingebrachte Betriebsvermögen auf die übernehmende Gesellschaft übergeht.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Antrag!",
+       "r1"
+      ],
+      [
+       "Grenze 1",
+       "g1"
+      ],
+      [
+       "Grenze 2",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Formwechsel: § 25 S. 2 i. V. m. § 9 S. 3 UmwStG",
+      "8 Monate vor Anmeldung zum Register"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Wie weit lässt sich eine Einbringung zurückbeziehen? So füllst du 10 Minuten.\n\nGliederung: Einstieg (1 Min.), Fristen (3 Min.), Folgen (3 Min.), Beispiel (2 Min.), Fazit (1 Min.).\n\nKernaussagen:\n▸ Verschmelzung, Auf- und Abspaltung, Ausgliederung: Stichtag der Schlussbilanz, höchstens acht Monate vor der Anmeldung zum Handelsregister (§ 20 Abs. 6 S. 1, 2 UmwStG).\n▸ Andere Sacheinlagen (Einzelrechtsnachfolge): höchstens acht Monate vor Abschluss des Einbringungsvertrags und vor Übergang des Betriebsvermögens (§ 20 Abs. 6 S. 3 UmwStG).\n▸ Auf Antrag werden Einkommen und Vermögen so ermittelt, als sei das Betriebsvermögen mit Ablauf des Stichtags übergegangen (§ 20 Abs. 5 S. 1 UmwStG).\n▸ Entnahmen und Einlagen nach dem Stichtag werden für Einkommen und Gewerbeertrag nicht zurückbezogen; sie mindern oder erhöhen die Anschaffungskosten der Anteile (§ 20 Abs. 5 S. 2, 3 UmwStG).\n▸ Verlustnutzung im Rückwirkungszeitraum ist begrenzt (§ 20 Abs. 6 S. 4 i. V. m. § 2 Abs. 4 UmwStG).\n\nBeispiel: Vertrag 20.08.2026, Übergang 15.09.2026: Grenzen 20.12.2025 und 15.01.2026; frühester Stichtag 15.01.2026, der 31.12.2025 ist zu früh.\n\nTypische Nachfragen:\n▸ Formwechsel KG in GmbH: §§ 20 bis 23 gelten entsprechend, Rückbezug bis acht Monate vor Anmeldung (§ 25 S. 1, 2 i. V. m. § 9 S. 3 UmwStG).\n▸ Entnahmen im Rückwirkungszeitraum: siehe § 20 Abs. 5 S. 2, 3 UmwStG.\n▸ Widerruf: Nach Auffassung der Verwaltung ist der Antrag unwiderruflich (BMF vom 02.01.2025, UmwStE, Rn. 20.14).\n\nZum Schluss: § 20 Abs. 5, 6 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 20 Abs. 5 S. 1, 2, 3 UmwStG",
+    "§ 20 Abs. 6 S. 1–4 UmwStG",
+    "§ 2 Abs. 4 UmwStG",
+    "§ 25 S. 1, 2 UmwStG",
+    "§ 9 S. 3 UmwStG",
+    "BMF vom 02.01.2025 (UmwStE), Rn. 20.14"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-2",
+   "themaTitel": "Lieferung (§ 3 Abs. 1 UStG)",
+   "figuren": {
+    "A": {
+     "name": "Jola",
+     "kopf": "Long Afro",
+     "haut": "#7A4A2E",
+     "oberteil": "#9AD48F",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Tisch über ein Einrichtungshaus verkauft: eine Lieferung? Nein, zwei!"
+    },
+    {
+     "id": "s1",
+     "text": "Schreinerin Jola gibt einen Tisch in Kommission. Das Haus verkauft ihn im eigenen Namen für tausend Euro netto."
+    },
+    {
+     "id": "s2",
+     "text": "Das Haus liefert an den Kunden: tausend Euro, darauf hundertneunzig Euro Umsatzsteuer."
+    },
+    {
+     "id": "s3",
+     "text": "Und Jola liefert an das Haus. Entgelt ist der Erlös abzüglich zehn Prozent Provision: neunhundert Euro, Steuer hunderteinundsiebzig."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Kommission heißt zwei Lieferungen, der Kommissionär gilt als Abnehmer."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Kommission:",
+     "eine Lieferung?"
+    ],
+    "pille": "§ 3 Abs. 3 UStG",
+    "figur": "A/erklaert",
+    "name": "Jola",
+    "icons": [
+     [
+      "tabler:armchair",
+      "GELB",
+      "zwei"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "an das Haus",
+      "wert": "900 €",
+      "farbe": "GELB",
+      "wort": "eine"
+     },
+     {
+      "label": "an den Kunden",
+      "wert": "1.000 €",
+      "farbe": "GRUEN",
+      "wort": "zwei"
+     }
+    ],
+    "stempel": {
+     "text": "zwei!",
+     "wort": "zwei"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Kommission",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Verkauf im eigenen Namen",
+       "wort": "eigenen",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Verkaufspreis netto",
+       "wert": "1.000 €",
+       "farbe": "WEISS",
+       "wort": "tausend",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 3 Abs. 3 S. 1 UStG",
+       "wort": "Kommission"
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Haus"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "An den Kunden",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Entgelt",
+       "wert": "1.000 €",
+       "farbe": "WEISS",
+       "wort": "tausend",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Umsatzsteuer 19 %",
+       "wert": "190 €",
+       "farbe": "GELB",
+       "wort": "hundertneunzig",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 3 Abs. 1 UStG",
+       "wort": "liefert"
+      }
+     ],
+     "icon": [
+      "tabler:user",
+      "GELB",
+      "Kunden"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "An das Haus",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "1.000 € − 10 %",
+       "wort": "Erlös",
+       "size": 120
+      },
+      {
+       "typ": "block",
+       "label": "Entgelt",
+       "wert": "900 €",
+       "farbe": "WEISS",
+       "wort": "neunhundert",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Umsatzsteuer 19 %",
+       "wert": "171 €",
+       "farbe": "GELB",
+       "wort": "hunderteinundsiebzig",
+       "zs": 110
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "neunhundert",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "Kommission =",
+     "zwei Lieferungen,",
+     "Kommissionär = Abnehmer"
+    ],
+    "woerter": [
+     null,
+     "Kommission",
+     "zwei",
+     "Abnehmer"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Abnehmer",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Kommissionsgeschäft: eine Lieferung oder zwei? 🪑\n\n▸ Lieferung heißt: Verschaffung der Verfügungsmacht an einem Gegenstand (§ 3 Abs. 1 UStG).\n▸ Beim Kommissionsgeschäft liegt zwischen Kommittent und Kommissionär eine Lieferung vor; verkauft der Kommissionär für den Kommittenten, wird er umsatzsteuerlich wie ein Käufer behandelt (§ 3 Abs. 3 UStG).\n▸ Beispiel: Das Einrichtungshaus verkauft den Tisch der Schreinerin Jola im eigenen Namen für 1.000 € netto, USt 190 €. Jolas Lieferung an das Haus: Erlös abzüglich 10 % Provision = 900 €, USt 171 €.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 1 UStG",
+    "§ 3 Abs. 3 UStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-14",
+   "frage": [
+    "Treppe aus eigenem",
+    "Holz eingebaut?"
+   ],
+   "optionen": [
+    "Werkleistung",
+    "Werklieferung",
+    "Nicht steuerbar"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top Long",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-14",
+   "titel": [
+    "B: Werk-",
+    "lieferung"
+   ],
+   "optionen": [
+    "Werkleistung",
+    "Werklieferung",
+    "Nicht steuerbar"
+   ],
+   "richtig": 1,
+   "text": "Selbst beschaffter Hauptstoff macht die Arbeit zur Lieferung, auch fest eingebaut.",
+   "norm": "§ 3 Abs. 4 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top Long",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Darlehen weg: mehr AK?"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-05",
+   "titel": [
+    "§ 17-Verlust:",
+    "wann gesperrt?"
+   ],
+   "norm": "§ 17 Abs. 2 S. 6 EStG",
+   "punkte": [
+    [
+     "Geschenkt: nur, wenn der Schenker ihn hätte nutzen können.",
+     "warn",
+     null
+    ],
+    [
+     "Gekauft: grundsätzlich fünf Jahre relevant beteiligt.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium 1",
+     "haut": "#F0C8A8",
+     "haar": "#6B3E26",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 3",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag Rückwirkung"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Normen",
+    "genau zitieren"
+   ],
+   "punkte": [
+    [
+     "Mit Absatz, Satz, Nummer.",
+     "ok",
+     null
+    ],
+    [
+     "Paragraf allein reicht selten.",
+     "warn",
+     null
+    ],
+    [
+     "Genau zitiert bringt Punkte.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:book",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Bangs",
+     "haut": "#F5D3BC",
+     "haar": "#2F2A26",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "K/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-modul-persg-6",
+   "titel": [
+    "Gesamthand =",
+    "Betriebsvermögen?"
+   ],
+   "punkte": [
+    [
+     "Grundsätzlich ja.",
+     "ok",
+     null
+    ],
+    [
+     "Außer es dient nur dem Privatleben eines Gesellschafters.",
+     "warn",
+     "H 4.2 (11) EStH"
+    ]
+   ],
+   "icon": "tabler:home",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Mohawk",
+     "haut": "#C99470",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Kommission: eine Lieferung?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-7-9",
+   "titel": [
+    "Nach der",
+    "Außenprüfung"
+   ],
+   "zeilen": [
+    [
+     [
+      "§ 173 ist ",
+      null
+     ],
+     [
+      "gesperrt",
+      "a"
+     ]
+    ],
+    [
+     [
+      "außer bei",
+      null
+     ]
+    ],
+    [
+     [
+      "Hinterziehung",
+      "b"
+     ]
+    ],
+    [
+     [
+      "oder ",
+      null
+     ],
+     [
+      "Leichtfertigkeit",
+      "c"
+     ]
+    ]
+   ],
+   "norm": "§ 173 Abs. 2 S. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Long Curly",
+     "haut": "#E3B48F",
+     "haar": "#3B2416",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

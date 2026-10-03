@@ -1,0 +1,1224 @@
+{
+ "datum": "2026-11-19",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-4-1",
+   "themaTitel": "Echte oder unechte Realteilung: Worauf kommt es an?",
+   "figuren": {
+    "A": {
+     "name": "Matteo",
+     "kopf": "Medium Straight",
+     "haut": "#E3B48C",
+     "haar": "#3B2416",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Echte oder",
+      "unechte Realteilung?"
+     ],
+     "norm": "§ 16 Abs. 3 S. 2 EStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 16 + BMF",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:arrows-split",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Echt oder unecht?",
+     "links": {
+      "kopf": "Echte Realteilung",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Gesellschaft wird aufgelöst, Vermögen verteilt",
+        "BMF vom 19.12.2018, Rn. 1"
+       ],
+       [
+        "Auch wenn einer allein weitermacht",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Unechte Realteilung",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Einer geht mit Sachwerten, die bei ihm Betriebsvermögen werden",
+        "BMF vom 19.12.2018, Rn. 2"
+       ],
+       [
+        "Die anderen machen weiter",
+        null
+       ]
+      ]
+     },
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Matteo hier: Läuft sie weiter?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Buchwert nur, wenn …",
+     "punkte": [
+      [
+       "Die Wirtschaftsgüter landen in einem Betriebsvermögen des Realteilers.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 3 S. 2 EStG"
+      ],
+      [
+       "Die Besteuerung der stillen Reserven bleibt gesichert.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 3 S. 2 EStG"
+      ],
+      [
+       "Einzelwirtschaftsgüter gehen nicht auf eine Körperschaft über.",
+       "nein",
+       "Bold",
+       "§ 16 Abs. 3 S. 4 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Drei Haken."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Geld ist keine Realteilung",
+     "punkte": [
+      [
+       "Abfindung nur in Geld: Veräußerung des Mitunternehmeranteils.",
+       "nein",
+       "Bold",
+       "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Sachwert ganz ins Privatvermögen: ebenfalls kein Buchwert.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Bargeld zählt nicht?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Gesellschaft endet: echt · läuft weiter: unecht",
+      "Buchwert nur bei Betriebsvermögen des Realteilers",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Endet",
+        "a"
+       ],
+       [
+        " sie: echt,",
+        null
+       ]
+      ],
+      [
+       [
+        "läuft",
+        "b"
+       ],
+       [
+        " sie: unecht,",
+        null
+       ]
+      ],
+      [
+       [
+        "Geld",
+        "c"
+       ],
+       [
+        " allein: nie",
+        null
+       ]
+      ],
+      [
+       [
+        "Realteilung.",
+        "d"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Echt oder unecht: sicher?",
+     "teaser": "Weiterwischen: § 16 + BMF markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 16 Abs. 3 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(3)",
+       [
+        [
+         "[…] Werden im Zuge der",
+         null
+        ],
+        [
+         "Realteilung",
+         "g1"
+        ],
+        [
+         "einer Mitunternehmerschaft Teilbetriebe, Mitunternehmeranteile oder einzelne Wirtschaftsgüter",
+         null
+        ],
+        [
+         "in das jeweilige Betriebsvermögen der einzelnen Mitunternehmer",
+         "b1"
+        ],
+        [
+         "übertragen, so sind bei der Ermittlung des Gewinns der Mitunternehmerschaft die Wirtschaftsgüter mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben,",
+         null
+        ],
+        [
+         "sofern die Besteuerung der stillen Reserven sichergestellt ist;",
+         "gr1"
+        ],
+        [
+         "der übernehmende Mitunternehmer ist an diese Werte gebunden; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "echt + unecht",
+       "g1"
+      ],
+      [
+       "Betriebsvermögen!",
+       "b1"
+      ],
+      [
+       "Sicherung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Sperrfrist: § 16 Abs. 3 S. 3 EStG",
+      "Drei Jahre nach Abgabe der Feststellungserklärung"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 19.12.2018, Rn. 1, 2 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 1",
+       [
+        [
+         "Die",
+         null
+        ],
+        [
+         "„echte“ Realteilung",
+         "g1"
+        ],
+        [
+         "i. S. d. § 16 Absatz 3 Satz 2 und 3 EStG ist durch den auf der Ebene der Mitunternehmerschaft verwirklichten Tatbestand der",
+         null
+        ],
+        [
+         "Betriebsaufgabe",
+         "b1"
+        ],
+        [
+         "i. S. d. § 16 Absatz 3 Satz 1 EStG gekennzeichnet […].",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 2",
+       [
+        [
+         "Scheidet ein Mitunternehmer aus einer mehrgliedrigen Mitunternehmerschaft gegen Übertragung von Wirtschaftsgütern des Betriebsvermögens, die beim ausscheidenden Mitunternehmer",
+         null
+        ],
+        [
+         "zumindest teilweise weiterhin Betriebsvermögen",
+         "r1"
+        ],
+        [
+         "darstellen, aus und wird diese im Übrigen",
+         null
+        ],
+        [
+         "von den verbleibenden Mitunternehmern als Mitunternehmerschaft fortgeführt,",
+         "gr1"
+        ],
+        [
+         "liegt ein Fall der „unechten“ Realteilung vor […]. Dies gilt unabhängig davon, ob der ausscheidende Mitunternehmer einen Teilbetrieb […], einen Mitunternehmeranteil oder",
+         null
+        ],
+        [
+         "nur Einzelwirtschaftsgüter",
+         "g2"
+        ],
+        [
+         "[…] erhält.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Gesellschaft endet",
+       "b1"
+      ],
+      [
+       "bleibt im BV",
+       "r1"
+      ],
+      [
+       "Rest macht weiter",
+       "gr1"
+      ],
+      [
+       "auch Einzel-WG",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Nur Geld: § 16 Abs. 1 S. 1 Nr. 2 EStG",
+      "Veräußerung, keine Realteilung"
+     ]
+    }
+   ],
+   "caption": "Echte oder unechte Realteilung? Der Spickzettel für die Klausur Personengesellschaften.\n\n▸ Echte Realteilung: Die Mitunternehmerschaft wird aufgelöst und ihr Vermögen verteilt, auch wenn ein Realteiler den Betrieb allein fortführt (BMF vom 19.12.2018, IV C 6 - S 2242/07/10002, Rn. 1).\n▸ Unechte Realteilung: Ein Mitunternehmer scheidet mit Wirtschaftsgütern aus, die bei ihm zumindest teilweise Betriebsvermögen werden; die übrigen führen die Gesellschaft fort (BMF vom 19.12.2018, Rn. 2), auch mit Einzelwirtschaftsgütern.\n▸ Buchwertfortführung, wenn die Wirtschaftsgüter in ein Betriebsvermögen des Realteilers gelangen und die Besteuerung der stillen Reserven gesichert ist (§ 16 Abs. 3 S. 2 EStG); nicht, soweit Einzelwirtschaftsgüter auf eine Körperschaft übergehen (§ 16 Abs. 3 S. 4 EStG).\n▸ Klausurfalle: Ausscheiden gegen reine Geldabfindung ist keine Realteilung, sondern Veräußerung des Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Sperrfrist bei Einzelwirtschaftsgütern: drei Jahre nach Abgabe der Erklärung der Mitunternehmerschaft für das Jahr der Realteilung (§ 16 Abs. 3 S. 3 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG und das BMF-Schreiben zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 16 Abs. 3 S. 2–4 EStG",
+    "BMF vom 19.12.2018, IV C 6 - S 2242/07/10002, BStBl I 2019, 6, Rn. 1, 2"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b13-18",
+   "themaTitel": "Privatnutzung des Firmenwagens: Vorsteuer und Wertabgabe",
+   "figuren": {
+    "A": {
+     "name": "Arne",
+     "kopf": "No Hair 1",
+     "haut": "#F0C8A8",
+     "oberteil": "#F9D56E",
+     "bart": "Full 4",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Firmenwagen",
+      "privat genutzt"
+     ],
+     "norm": "§ 3 Abs. 9a Nr. 1 UStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 10 + UStAE",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Listenpreis 48.000 €",
+        "Bold",
+        40
+       ],
+       [
+        "4.608 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Bemessungsgrundlage",
+        "ExtraBold",
+        44
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Firmenwagen prüfen",
+     "schritte": [
+      [
+       "Mindestens 10 % unternehmerisch?",
+       "§ 15 Abs. 1 S. 2 UStG",
+       ""
+      ],
+      [
+       "Zuordnung wählen",
+       "Abschn. 15.2c UStAE",
+       "voll, anteilig oder gar nicht"
+      ],
+      [
+       "Vorsteuer abziehen",
+       "§ 15 Abs. 1 S. 1 Nr. 1 UStG",
+       ""
+      ],
+      [
+       "Privatfahrten versteuern",
+       "§ 3 Abs. 9a Nr. 1 UStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 10 UStG + UStAE markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Die 10-%-Grenze",
+     "punkte": [
+      [
+       "Maßstab sind die unternehmerisch gefahrenen Kilometer im Verhältnis zur Jahresfahrleistung.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Unter 10 %: kein Vorsteuerabzug aus dem Kauf.",
+       "nein",
+       "Bold",
+       "§ 15 Abs. 1 S. 2 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Arne hier: Kilometer zählen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 + 3 · Zuordnung, Vorsteuer",
+     "punkte": [
+      [
+       "Bei teils privater Nutzung wählt der Unternehmer: voll, anteilig oder gar nicht zuordnen.",
+       "ok",
+       "Regular",
+       "Abschn. 15.2c UStAE"
+      ],
+      [
+       "Volle Zuordnung: volle Vorsteuer aus Kauf und laufenden Kosten.",
+       "ok",
+       "Bold",
+       "§ 15 Abs. 1 S. 1 Nr. 1 UStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Alles rein!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Die Wertabgabe",
+     "punkte": [
+      [
+       "Privatfahrten gelten als sonstige Leistung gegen Entgelt.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 9a Nr. 1 UStG"
+      ],
+      [
+       "Bemessung: Ausgaben mit Vorsteuerabzug, Anschaffungskosten ab 500 € verteilt auf fünf Jahre.",
+       "ok",
+       "Regular",
+       "§ 10 Abs. 4 S. 1 Nr. 2 UStG"
+      ],
+      [
+       "Vereinfachung: 1-%-Wert minus 20 % für Kosten ohne Vorsteuer.",
+       "warn",
+       "Bold",
+       "Abschn. 15.23 Abs. 5 UStAE"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Zwei Wege."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Arnes Kombi",
+     "normen": [
+      "§ 10 Abs. 4 S. 1 Nr. 2 UStG",
+      "Abschn. 15.23 Abs. 5 UStAE"
+     ],
+     "zeilen": [
+      [
+       "1 % × 48.000 € × 12",
+       "5.760 €",
+       "Regular",
+       null
+      ],
+      [
+       "– 20 % ohne Vorsteuer",
+       "– 1.152 €",
+       "Regular",
+       null
+      ],
+      [
+       "Bemessungsgrundlage",
+       "4.608 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Umsatzsteuer 19 %",
+       "875,52 €",
+       "ExtraBold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Mein Kombi."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Arne fährt ein Elektroauto, Listenpreis ebenfalls 48.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ertragsteuerlich gilt dafür ein gekürzter Listenpreis.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Sinkt auch die Umsatzsteuer?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "E-Auto = billiger?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung: nein",
+     "punkte": [
+      [
+       "Die Begünstigung für E-Autos gilt umsatzsteuerlich nicht.",
+       "nein",
+       "Bold",
+       "Abschn. 15.23 Abs. 5 UStAE"
+      ],
+      [
+       "Es bleibt bei 4.608 € Bemessungsgrundlage und 875,52 € Umsatzsteuer.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Schade!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "1 % × Listenpreis × 12, minus 20 %",
+      "= Bemessungsgrundlage, darauf 19 %",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "10 %",
+        "a"
+       ],
+       [
+        " erreicht?",
+        null
+       ]
+      ],
+      [
+       [
+        "Zuordnen",
+        "b"
+       ],
+       [
+        ", Vorsteuer,",
+        null
+       ]
+      ],
+      [
+       [
+        "Privatfahrt",
+        "c"
+       ],
+       [
+        " versteuern,",
+        null
+       ]
+      ],
+      [
+       [
+        "E-Bonus",
+        "d"
+       ],
+       [
+        " gilt nicht.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wo hakt es bei dir?",
+     "teaser": "Weiterwischen: § 10 + UStAE markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§§ 3, 10 UStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 3 (9a)",
+       [
+        [
+         "Einer sonstigen Leistung gegen Entgelt werden gleichgestellt 1.",
+         null
+        ],
+        [
+         "die Verwendung eines dem Unternehmen zugeordneten Gegenstands,",
+         "g1"
+        ],
+        [
+         "der zum vollen oder teilweisen Vorsteuerabzug berechtigt hat, durch einen Unternehmer",
+         null
+        ],
+        [
+         "für Zwecke, die außerhalb des Unternehmens liegen,",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 10 (4)",
+       [
+        [
+         "Der Umsatz wird bemessen […] 2. bei sonstigen Leistungen im Sinne des § 3 Abs. 9a Nr. 1",
+         null
+        ],
+        [
+         "nach den bei der Ausführung dieser Umsätze entstandenen Ausgaben, soweit sie zum vollen oder teilweisen Vorsteuerabzug berechtigt haben.",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "zugeordnet",
+       "g1"
+      ],
+      [
+       "Privatfahrt",
+       "b1"
+      ],
+      [
+       "nur mit Vorsteuer",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 15 Abs. 1 S. 2 UStG",
+      "Unter 10 % unternehmerisch: keine Vorsteuer"
+     ],
+     "zweite": {
+      "kopf": "Abschn. 15.23 Abs. 5 S. 4 Nr. 1 Buchst. a UStAE",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Ermittelt der Unternehmer für Ertragsteuerzwecke den Wert der Nutzungsentnahme nach der",
+          null
+         ],
+         [
+          "sog. 1 %-Regelung",
+          "g1"
+         ],
+         [
+          "nach § 6 Abs. 1 Nr. 4 Satz 2 EStG, kann er von diesem Wert aus Vereinfachungsgründen […] ausgehen.",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Für umsatzsteuerliche Zwecke sind die Sonderregelungen für Elektro- und Hybridelektrofahrzeuge […]",
+          null
+         ],
+         [
+          "nicht anzuwenden.",
+          "r1"
+         ]
+        ]
+       ],
+       [
+        "S. 3",
+        [
+         [
+          "Für die nicht mit Vorsteuern belasteten Ausgaben kann aus Vereinfachungsgründen ein",
+          null
+         ],
+         [
+          "pauschaler Abschlag von 20 %",
+          "gr1"
+         ],
+         [
+          "vorgenommen werden.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Startwert",
+        "g1"
+       ],
+       [
+        "kein E-Bonus!",
+        "r1"
+       ],
+       [
+        "minus 20 %",
+        "gr1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Firmenwagen privat genutzt: das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Unternehmerische Nutzung mindestens 10 %, sonst kein Vorsteuerabzug (§ 15 Abs. 1 S. 2 UStG).\n2. Bei teils privater Nutzung Zuordnungswahlrecht: voll, anteilig oder gar nicht (Abschn. 15.2c UStAE).\n3. Bei voller Zuordnung voller Vorsteuerabzug aus Kauf und laufenden Kosten (§ 15 Abs. 1 S. 1 Nr. 1 UStG).\n4. Privatfahrten sind eine unentgeltliche Wertabgabe (§ 3 Abs. 9a Nr. 1 UStG). Bemessungsgrundlage: Ausgaben, die zum Vorsteuerabzug berechtigt haben; Anschaffungskosten ab 500 € verteilt auf den Berichtigungszeitraum (§ 10 Abs. 4 S. 1 Nr. 2 UStG). Vereinfachung: 1-%-Wert nach § 6 Abs. 1 Nr. 4 S. 2 EStG mit 20 % Abschlag für nicht vorsteuerbelastete Kosten (Abschn. 15.23 Abs. 5 S. 4 Nr. 1 Buchst. a S. 1, 3 UStAE).\n\nBeispiel: 48.000 € × 1 % × 12 = 5.760 € – 20 % = 4.608 €, Umsatzsteuer 875,52 €.\nKlausurfalle: Die ertragsteuerlichen Begünstigungen für E-Autos und Hybridfahrzeuge gelten umsatzsteuerlich nicht (Abschn. 15.23 Abs. 5 S. 4 Nr. 1 Buchst. a S. 2 UStAE; BMF vom 07.02.2022, BStBl I 2022, 197).\n\nZum Schluss: §§ 3, 10 UStG und Abschn. 15.23 Abs. 5 UStAE zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 1, S. 2 UStG",
+    "Abschn. 15.2c UStAE",
+    "§ 3 Abs. 9a Nr. 1 UStG",
+    "§ 10 Abs. 4 S. 1 Nr. 2 UStG",
+    "§ 6 Abs. 1 Nr. 4 S. 2 EStG",
+    "Abschn. 15.23 Abs. 5 S. 4 Nr. 1 Buchst. a UStAE",
+    "BMF vom 07.02.2022, BStBl I 2022, 197"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t3-19",
+   "themaTitel": "Kapitalherabsetzung mit Auszahlung: der Sonderausweis geht vor",
+   "figuren": {
+    "A": {
+     "name": "Nala",
+     "kopf": "Bantu Knots",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Die GmbH setzt ihr Kapital herab und zahlt aus. Alles steuerfrei? Nicht immer. Zuerst zählt der Sonderausweis."
+    },
+    {
+     "id": "s1",
+     "text": "Der Sonderausweis entsteht, wenn früher Gewinnrücklagen in Nennkapital umgewandelt wurden. Hier zwanzigtausend Euro."
+    },
+    {
+     "id": "s2",
+     "text": "Ausgezahlt werden fünfzigtausend. Die ersten zwanzigtausend gelten als Gewinnausschüttung, mit Kapitalertragsteuer."
+    },
+    {
+     "id": "s3",
+     "text": "Die restlichen dreißigtausend kommen aus dem Einlagekonto und mindern nur die Anschaffungskosten."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: erst Sonderausweis, dann Einlagekonto."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Kapital zurück",
+     "= steuerfrei?"
+    ],
+    "pille": "§ 28 Abs. 2 KStG",
+    "figur": "A/skeptisch",
+    "name": "Nala",
+    "icons": [
+     [
+      "tabler:coins",
+      "GELB",
+      "Nicht"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Erst Sonderausweis",
+     "wort": "Sonderausweis",
+     "farbe": "GRUEN",
+     "zs": 72
+    },
+    "stempel": {
+     "text": "Achtung!",
+     "wort": "Nicht"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Sonderausweis",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Rücklagen im Nennkapital",
+       "unter": "früher umgewandelt",
+       "wort": "Gewinnrücklagen",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Sonderausweis",
+       "wert": "20.000 €",
+       "farbe": "GELB",
+       "wort": "zwanzigtausend"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 28 Abs. 1 S. 3 KStG",
+       "wort": "umgewandelt"
+      }
+     ],
+     "icon": [
+      "tabler:building-bank",
+      "GELB",
+      "Sonderausweis"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Erst Ausschüttung",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Auszahlung 50.000 €",
+       "wort": "fünfzigtausend",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Gewinnausschüttung",
+       "wert": "20.000 €",
+       "farbe": "ROT",
+       "wort": "zwanzigtausend"
+      },
+      {
+       "typ": "pille",
+       "text": "mit Kapitalertragsteuer",
+       "wort": "Kapitalertragsteuer",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 28 Abs. 2 S. 2 KStG",
+       "wort": "Gewinnausschüttung"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Gewinnausschüttung",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Dann Einlagekonto",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einlagekonto",
+       "wert": "30.000 €",
+       "farbe": "GRUEN",
+       "wort": "dreißigtausend"
+      },
+      {
+       "typ": "text",
+       "text": "Anschaffungskosten sinken",
+       "unter": "kein Kapitalertrag",
+       "wort": "Anschaffungskosten",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 28 Abs. 2 S. 3 KStG",
+       "wort": "Einlagekonto"
+      }
+     ],
+     "figur": {
+      "ref": "A/erklaert",
+      "wort": "mindern",
+      "hoehe": 440
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Erst",
+     "Sonderausweis,",
+     "dann",
+     "Einlagekonto"
+    ],
+    "woerter": [
+     null,
+     "Sonderausweis",
+     "dann",
+     "Einlagekonto"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Einlagekonto",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Kapitalherabsetzung mit Auszahlung: Ist das Geld beim Gesellschafter steuerfrei? 🏦\n\n▸ Sonderausweis: Nennkapital, das aus umgewandelten sonstigen Rücklagen (nicht aus Einlagen) stammt, wird getrennt ausgewiesen und gesondert festgestellt (§ 28 Abs. 1 S. 3 KStG).\n▸ Bei Herabsetzung wird zuerst der Sonderausweis gemindert, der Rest dem Einlagekonto gutgeschrieben, soweit die Einlage geleistet ist (§ 28 Abs. 2 S. 1 KStG).\n▸ Soweit der Sonderausweis gemindert wird, gilt die Rückzahlung als Gewinnausschüttung, beim Anteilseigner Bezüge nach § 20 Abs. 1 Nr. 2 EStG (§ 28 Abs. 2 S. 2 KStG), mit Kapitalertragsteuer.\n▸ Der übersteigende Betrag wird vom Einlagekonto abgezogen (§ 28 Abs. 2 S. 3 KStG) und mindert beim Anteilseigner nur die Anschaffungskosten.\n\nBeispiel: Sonderausweis 20.000 €, Auszahlung 50.000 €: 20.000 € Ausschüttung, 30.000 € aus dem Einlagekonto.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 28 Abs. 1 S. 3, Abs. 2 S. 1–3 KStG",
+    "§ 20 Abs. 1 Nr. 2 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-quiz-sparer-pauschbetrag",
+   "frage": [
+    "Sparer-Pauschbetrag",
+    "für Ledige?"
+   ],
+   "optionen": [
+    "801 €",
+    "1.000 €",
+    "2.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top",
+     "haut": "#A8704B",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-quiz-sparer-pauschbetrag",
+   "titel": [
+    "B: 1.000 €"
+   ],
+   "optionen": [
+    "801 €",
+    "1.000 €",
+    "2.000 €"
+   ],
+   "richtig": 1,
+   "text": "Zusammenveranlagte bekommen 2.000 €. Tatsächliche Werbungskosten zählen nicht.",
+   "norm": "§ 20 Abs. 9 S. 1, 2 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top",
+     "haut": "#A8704B",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:lacht"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Echt oder unecht?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-4-4",
+   "titel": [
+    "Realteilung:",
+    "drei Jahre Sperre"
+   ],
+   "norm": "§ 16 Abs. 3 S. 3 EStG",
+   "punkte": [
+    [
+     "Grund und Boden, Gebäude, wesentliche Betriebsgrundlagen nicht verkaufen oder entnehmen.",
+     "warn",
+     null
+    ],
+    [
+     "Frist endet drei Jahre nach Abgabe der Feststellungserklärung.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Bun",
+     "haut": "#E8B98F",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Firmenwagen privat"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Ergebnis zuerst,",
+    "dann begründen"
+   ],
+   "punkte": [
+    [
+     "Erster Satz: das Ergebnis.",
+     "ok",
+     null
+    ],
+    [
+     "Dann Norm und Subsumtion.",
+     "ok",
+     null
+    ],
+    [
+     "So findet die Korrektur deine Punkte schneller.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:target-arrow",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-161",
+   "titel": [
+    "0 %, 7 %",
+    "oder 19 %?"
+   ],
+   "punkte": [
+    [
+     "Erst 0 %, etwa Photovoltaik.",
+     "ok",
+     "§ 12 Abs. 3 UStG"
+    ],
+    [
+     "Dann 7 %: Restaurantspeisen, ohne Getränke.",
+     "ok",
+     "§ 12 Abs. 2 Nr. 15 UStG"
+    ],
+    [
+     "Sonst 19 %.",
+     "ok",
+     "§ 12 Abs. 1 UStG"
+    ]
+   ],
+   "icon": "tabler:receipt-tax",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Kapital zurück = steuerfrei?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t3-20",
+   "titel": [
+    "Eigene Anteile",
+    "zurückgekauft?"
+   ],
+   "zeilen": [
+    [
+     [
+      "GmbH",
+      "a"
+     ],
+     [
+      ": wie eine",
+      null
+     ]
+    ],
+    [
+     [
+      "Kapitalherabsetzung",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "Verkäufer",
+      "c"
+     ],
+     [
+      ": normale",
+      null
+     ]
+    ],
+    [
+     [
+      "Veräußerung.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 272 Abs. 1a HGB, § 28 Abs. 2 KStG",
+   "figuren": {
+    "M": {
+     "kopf": "Short 3",
+     "haut": "#5E3B26",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bart": "Chin",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "M:denkt"
+  }
+ ]
+}

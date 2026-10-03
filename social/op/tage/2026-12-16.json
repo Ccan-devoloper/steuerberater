@@ -1,0 +1,1246 @@
+{
+ "datum": "2026-12-16",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-28",
+   "themaTitel": "Realteilung oder Sachwertabfindung?",
+   "figuren": {
+    "A": {
+     "name": "Teodor",
+     "kopf": "No Hair 3",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Sachwert raus:",
+      "Realteilung?"
+     ],
+     "norm": "§ 16 Abs. 3 S. 2 EStG",
+     "unter": "Achtung",
+     "teaser": "+ Markier-Guide § 16 + BMF",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:alert-triangle",
+      "farbe": "ROT"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Teodor scheidet aus einer KG aus. Abfindung: ein Grundstück der KG.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert und Teodors Kapitalkonto: je 200.000 €. Gemeiner Wert: 500.000 €.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Die KG läuft mit den anderen weiter.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Buchwert, oder?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Wohin geht das Grundstück?",
+     "links": {
+      "kopf": "Betriebsvermögen",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Teodor nutzt es im eigenen Betrieb",
+        null
+       ],
+       [
+        "Unechte Realteilung: Buchwert",
+        "§ 16 Abs. 3 S. 2 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Privatvermögen",
+      "farbe": "ROT",
+      "punkte": [
+       [
+        "Teodor vermietet es privat",
+        null
+       ],
+       [
+        "Sachwertabfindung: Gewinn",
+        "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+       ]
+      ]
+     },
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Kommt drauf an"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Privat heißt: keine Realteilung",
+     "punkte": [
+      [
+       "Landet der Sachwert ganz im Privatvermögen, liegt keine Realteilung vor.",
+       "nein",
+       "Bold",
+       "BMF vom 19.12.2018, Rn. 2"
+      ],
+      [
+       "Teodor veräußert seinen Anteil: 300.000 € Gewinn.",
+       "warn",
+       "Regular",
+       "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "300.000 €?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Teodor nutzt das Grundstück ab sofort in seiner eigenen Schreinerei.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert oder Gewinn?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst lösen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Und jetzt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Das Grundstück bleibt Betriebsvermögen: unechte Realteilung.",
+       "ok",
+       "Bold",
+       "BMF vom 19.12.2018, Rn. 2"
+      ],
+      [
+       "Buchwert ist Pflicht, die stillen Reserven bleiben steuerverhaftet.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 3 S. 2 EStG"
+      ],
+      [
+       "Teodor erzielt keinen Gewinn.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Puh!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Danach: Sperrfrist",
+     "punkte": [
+      [
+       "Verkauf oder Entnahme in der Sperrfrist: rückwirkend gemeiner Wert.",
+       "warn",
+       "Bold",
+       "§ 16 Abs. 3 S. 3 EStG"
+      ],
+      [
+       "Ende: drei Jahre nach der Erklärung der KG für das Jahr der Realteilung.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Geht der Sachwert an eine GmbH: sofort gemeiner Wert.",
+       "nein",
+       "Regular",
+       "§ 16 Abs. 3 S. 4 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Frist im Blick"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Privat: 300.000 € Gewinn",
+      "Eigener Betrieb: Buchwert, kein Gewinn",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Wohin",
+        "a"
+       ],
+       [
+        " geht der Sachwert?",
+        null
+       ]
+      ],
+      [
+       [
+        "Betrieb",
+        "b"
+       ],
+       [
+        ": Buchwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "privat",
+        "c"
+       ],
+       [
+        ": Gewinn,",
+        null
+       ]
+      ],
+      [
+       [
+        "Sperrfrist",
+        "d"
+       ],
+       [
+        " beachten.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wärst du reingefallen?",
+     "teaser": "Weiterwischen: § 16 + BMF markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 16 Abs. 3 EStG (Auszug)",
+     "absaetze": [
+      [
+       "S. 2",
+       [
+        [
+         "Werden im Zuge der Realteilung einer Mitunternehmerschaft Teilbetriebe, Mitunternehmeranteile oder",
+         null
+        ],
+        [
+         "einzelne Wirtschaftsgüter",
+         "g1"
+        ],
+        [
+         "in das jeweilige Betriebsvermögen der einzelnen Mitunternehmer",
+         "b1"
+        ],
+        [
+         "übertragen, so sind bei der Ermittlung des Gewinns der Mitunternehmerschaft die Wirtschaftsgüter mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben,",
+         null
+        ],
+        [
+         "sofern die Besteuerung der stillen Reserven sichergestellt ist;",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Dagegen ist für den jeweiligen Übertragungsvorgang rückwirkend der gemeine Wert anzusetzen, soweit […] innerhalb einer",
+         null
+        ],
+        [
+         "Sperrfrist",
+         "r1"
+        ],
+        [
+         "nach der Übertragung veräußert oder entnommen werden; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "auch Einzel-WG",
+       "g1"
+      ],
+      [
+       "nur ins BV!",
+       "b1"
+      ],
+      [
+       "dann Buchwert",
+       "gr1"
+      ],
+      [
+       "3 Jahre",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "An eine GmbH: § 16 Abs. 3 S. 4 EStG",
+      "sofort gemeiner Wert"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 19.12.2018, Rn. 2 (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Scheidet ein Mitunternehmer aus einer mehrgliedrigen Mitunternehmerschaft gegen Übertragung von Wirtschaftsgütern des Betriebsvermögens, die beim ausscheidenden Mitunternehmer",
+         null
+        ],
+        [
+         "zumindest teilweise weiterhin Betriebsvermögen",
+         "g1"
+        ],
+        [
+         "darstellen, aus und wird diese im Übrigen von den verbleibenden Mitunternehmern als Mitunternehmerschaft fortgeführt, liegt ein Fall der",
+         null
+        ],
+        [
+         "„unechten“ Realteilung",
+         "b1"
+        ],
+        [
+         "vor […].",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Dies gilt unabhängig davon, ob der ausscheidende Mitunternehmer einen Teilbetrieb […], einen Mitunternehmeranteil oder",
+         null
+        ],
+        [
+         "nur Einzelwirtschaftsgüter",
+         "gr1"
+        ],
+        [
+         "[…] erhält.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Kein Fall der „unechten“ Realteilung liegt vor, wenn der ausscheidende Mitunternehmer die ihm im Rahmen seines Ausscheidens übertragenen Einzelwirtschaftsgüter",
+         null
+        ],
+        [
+         "vollständig ins Privatvermögen",
+         "r1"
+        ],
+        [
+         "überführt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 5",
+       [
+        [
+         "In diesem Fall erzielt der ausscheidende Mitunternehmer einen",
+         null
+        ],
+        [
+         "Veräußerungsgewinn.",
+         "r2"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "eigener Betrieb",
+       "g1"
+      ],
+      [
+       "auch Einzel-WG",
+       "gr1"
+      ],
+      [
+       "privat: Falle!",
+       "r1"
+      ],
+      [
+       "300.000 €",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "Zweigliedrige KG: echte Realteilung",
+      "BMF vom 19.12.2018, Rn. 1"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle Personengesellschaften: Sachwertabfindung ist nicht automatisch Realteilung.\n\nFall: Teodor scheidet aus einer KG aus und erhält ein Grundstück (Buchwert = Kapitalkonto 200.000 €, gemeiner Wert 500.000 €). Die anderen machen mit der KG weiter.\n\n▸ Geht das Wirtschaftsgut in ein Betriebsvermögen des Ausscheidenden, liegt eine unechte Realteilung vor; Buchwerte sind fortzuführen, wenn die stillen Reserven steuerverhaftet bleiben (§ 16 Abs. 3 S. 2 EStG; BMF vom 19.12.2018, Rn. 2, BStBl. I 2019 S. 6).\n▸ Gelangen die übertragenen Einzelwirtschaftsgüter vollständig ins Privatvermögen, liegt keine Realteilung vor (BMF vom 19.12.2018, Rn. 2). Teodor veräußert seinen Mitunternehmeranteil: 500.000 € − 200.000 € = 300.000 € (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Sperrfrist: Veräußerung oder Entnahme übertragener wesentlicher Betriebsgrundlagen, Grund und Boden oder Gebäude bis drei Jahre nach Abgabe der Erklärung der Mitunternehmerschaft für das Jahr der Realteilung führt rückwirkend zum gemeinen Wert (§ 16 Abs. 3 S. 3 EStG).\n▸ Übertragung auf eine Körperschaft: gemeiner Wert (§ 16 Abs. 3 S. 4 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG und BMF vom 19.12.2018, Rn. 2 zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG",
+    "§ 16 Abs. 3 S. 2, 3, 4 EStG",
+    "BMF vom 19.12.2018, Rn. 2 (BStBl. I 2019 S. 6)"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b04-15",
+   "themaTitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
+   "figuren": {
+    "A": {
+     "name": "Lucía",
+     "kopf": "Long Curly",
+     "haut": "#D9A47E",
+     "haar": "#3B2416",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Bewegte",
+      "Lieferung?"
+     ],
+     "norm": "§ 3 Abs. 6a UStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 3 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:truck",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "In 4 Schritten",
+     "schritte": [
+      [
+       "Reihengeschäft?",
+       "§ 3 Abs. 6a S. 1 UStG",
+       "mehrere Lieferungen, eine Bewegung"
+      ],
+      [
+       "Wer transportiert?",
+       "§ 3 Abs. 6a S. 2, 3 UStG",
+       "Erster, Letzter, Zwischenhändler"
+      ],
+      [
+       "Zwischenhändler",
+       "§ 3 Abs. 6a S. 4, 5 UStG",
+       "Vermutung, Gegenbeweis per IdNr."
+      ],
+      [
+       "Ruhende Lieferungen",
+       "§ 3 Abs. 7 S. 2 UStG",
+       "davor Beginn, danach Ende"
+      ]
+     ],
+     "teaser": "Am Ende: § 3 UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Arne (Dresden) verkauft an Lucía (Leipzig), sie weiter an Unternehmerin Mira (Wien).",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Lucía holt die Ware in Dresden ab, fährt nach Wien und nutzt gegenüber Arne ihre deutsche USt-IdNr.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich fahre selbst"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Welche Lieferung ist die bewegte?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Wo sind beide Lieferungen ausgeführt, und was ist steuerfrei?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst lösen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Welche bewegt sich?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung 1: Zuordnung",
+     "punkte": [
+      [
+       "Lucía transportiert als Zwischenhändlerin: vermutet wird die Lieferung an sie.",
+       "warn",
+       "Regular",
+       "§ 3 Abs. 6a S. 4 UStG"
+      ],
+      [
+       "Aber: Sie nutzt die IdNr. des Abgangsstaats. Bewegt ist ihre Lieferung an Mira.",
+       "ok",
+       "Bold",
+       "§ 3 Abs. 6a S. 5 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Meine IdNr. zählt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung 2: Orte",
+     "punkte": [
+      [
+       "Arne an Lucía: ruhend, vor der bewegten. Ort Dresden, steuerpflichtig.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 7 S. 2 Nr. 1 UStG"
+      ],
+      [
+       "Lucía an Mira: bewegt, Ort Dresden, steuerfrei als innergemeinschaftliche Lieferung.",
+       "ok",
+       "Bold",
+       "§ 3 Abs. 6 S. 1, § 4 Nr. 1 Buchst. b UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Beide in Dresden"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nur eine ist bewegt",
+     "punkte": [
+      [
+       "Die Warenbewegung gehört nur zu einer Lieferung.",
+       "warn",
+       "Bold",
+       "§ 3 Abs. 6a S. 1 UStG"
+      ],
+      [
+       "Arnes Lieferung ist ruhend: keine Steuerbefreiung, deutsche Umsatzsteuer.",
+       "nein",
+       "Regular",
+       "§ 6a Abs. 1 UStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Nur eine!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Bewegt: Lucía an Mira (steuerfrei)",
+      "Ruhend: Arne an Lucía (Dresden, steuerpflichtig)",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Transport",
+        "a"
+       ],
+       [
+        " klären,",
+        null
+       ]
+      ],
+      [
+       [
+        "Händler",
+        "b"
+       ],
+       [
+        " dazwischen?",
+        null
+       ]
+      ],
+      [
+       [
+        "IdNr.",
+        "c"
+       ],
+       [
+        " entscheidet,",
+        null
+       ]
+      ],
+      [
+       [
+        "ruhend",
+        "d"
+       ],
+       [
+        ": Beginn/Ende.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Richtig zugeordnet?",
+     "teaser": "Weiterwischen: § 3 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 3 UStG (Auszug)",
+     "absaetze": [
+      [
+       "(6a) S. 4, 5",
+       [
+        [
+         "Wird der Gegenstand der Lieferung durch einen Abnehmer befördert oder versendet, der zugleich Lieferer ist (Zwischenhändler), ist die Beförderung oder Versendung",
+         null
+        ],
+        [
+         "der Lieferung an ihn zuzuordnen",
+         "g1"
+        ],
+        [
+         ", es sei denn, er weist nach, dass er den Gegenstand als Lieferer befördert oder versendet hat. […] verwendet der Zwischenhändler gegenüber dem leistenden Unternehmer bis zum Beginn der Beförderung oder Versendung eine",
+         null
+        ],
+        [
+         "Umsatzsteuer-Identifikationsnummer, die ihm vom Mitgliedstaat des Beginns",
+         "b1"
+        ],
+        [
+         "der Beförderung oder Versendung erteilt wurde, ist die Beförderung oder Versendung",
+         null
+        ],
+        [
+         "seiner Lieferung zuzuordnen.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "(7) S. 2 Nr. 1",
+       [
+        [
+         "Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         null
+        ],
+        [
+         "vorangehen",
+         "r1"
+        ],
+        [
+         ", gelten dort als ausgeführt, wo die Beförderung oder Versendung des Gegenstands beginnt.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Vermutung",
+       "g1"
+      ],
+      [
+       "IdNr. Abgangsstaat",
+       "b1"
+      ],
+      [
+       "dann bewegt",
+       "gr1"
+      ],
+      [
+       "Ort: Beginn",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: Abschn. 3.14 UStAE",
+      "Dort die Zuordnung mit vielen Beispielen"
+     ]
+    }
+   ],
+   "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, Liefergeschäfte über denselben Gegenstand, Warenbewegung unmittelbar vom ersten Unternehmer zum letzten Abnehmer. Die Beförderung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG).\n2. Transport durch den ersten Unternehmer: seine Lieferung; durch den letzten Abnehmer: die Lieferung an ihn (§ 3 Abs. 6a S. 2, 3 UStG).\n3. Transport durch den Zwischenhändler: Lieferung an ihn, es sei denn, er weist nach, als Lieferer zu handeln. Im Binnenmarkt genügt dafür die Verwendung der USt-IdNr. des Abgangsstaats gegenüber seinem Lieferer (§ 3 Abs. 6a S. 4, 5 UStG).\n4. Ruhende Lieferungen vor der bewegten: Ort am Beginn; danach: Ort am Ende der Beförderung (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nFall: Arne (Dresden) → Lucía (Leipzig) → Mira (Wien). Lucía holt ab und nutzt ihre deutsche USt-IdNr. Bewegt ist Lucías Lieferung an Mira: Ort Dresden (§ 3 Abs. 6 S. 1 UStG), steuerfrei als innergemeinschaftliche Lieferung (§ 4 Nr. 1 Buchst. b, § 6a Abs. 1 UStG). Arnes Lieferung ist ruhend, Ort Dresden, steuerpflichtig. Mira bewirkt einen innergemeinschaftlichen Erwerb in Österreich.\nMehr Beispiele: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 3 Abs. 6a S. 1–5 UStG",
+    "§ 3 Abs. 7 S. 2 UStG",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a Abs. 1 UStG",
+    "Abschn. 3.14 UStAE"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-03",
+   "themaTitel": "Wie misst man die 1-%-Grenze des § 17 EStG richtig?",
+   "figuren": {
+    "A": {
+     "name": "Kemal",
+     "kopf": "Short 3",
+     "haut": "#C68E6A",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bart": "Goatee 1",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Null Komma neun Prozent an der GmbH, also kein Paragraf siebzehn? Vorsicht, Falle!"
+    },
+    {
+     "id": "s1",
+     "text": "Kemal hält neunhundert Euro vom Stammkapital über hunderttausend Euro. Auf den ersten Blick null Komma neun Prozent."
+    },
+    {
+     "id": "s2",
+     "text": "Aber die GmbH hält eigene Anteile über zwanzigtausend Euro. Die zählen nicht mit. Neunhundert von achtzigtausend sind mehr als ein Prozent."
+    },
+    {
+     "id": "s3",
+     "text": "Und es reicht, wenn die Grenze irgendwann in den letzten fünf Jahren erreicht war."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Eigene Anteile raus, die höchste Quote der letzten fünf Jahre zählt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "0,9 % beteiligt:",
+     "kein § 17?"
+    ],
+    "pille": "§ 17 Abs. 1 S. 1 EStG",
+    "figur": "A/skeptisch",
+    "name": "Kemal",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Vorsicht"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Auf dem Papier",
+      "wert": "0,9 %",
+      "farbe": "GELB",
+      "wort": "Null"
+     },
+     {
+      "label": "Richtig gerechnet",
+      "wert": "1,125 %",
+      "farbe": "ROT",
+      "wort": "Vorsicht"
+     }
+    ],
+    "stempel": {
+     "text": "Falle!",
+     "wort": "Falle"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Auf dem Papier",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Stammkapital",
+       "wert": "100.000 €",
+       "farbe": "WEISS",
+       "wort": "Stammkapital",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Kemals Anteil",
+       "wert": "900 €",
+       "farbe": "GELB",
+       "wort": "neunhundert",
+       "zs": 110
+      },
+      {
+       "typ": "zahl",
+       "text": "= 0,9 %",
+       "wort": "Blick",
+       "size": 130
+      }
+     ],
+     "icon": [
+      "tabler:file-percent",
+      "GELB",
+      "Kemal"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Eigene Anteile raus",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Eigene Anteile der GmbH",
+       "wert": "− 20.000 €",
+       "farbe": "ROT",
+       "wort": "eigene",
+       "zs": 100
+      },
+      {
+       "typ": "zahl",
+       "text": "900 : 80.000",
+       "wort": "Neunhundert",
+       "size": 120
+      },
+      {
+       "typ": "block",
+       "label": "Quote",
+       "wert": "1,125 %",
+       "farbe": "GRUEN",
+       "wort": "mehr",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "H 17 (2) EStH",
+       "wort": "zählen"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "mehr",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Fünf Jahre zurück",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "irgendwann in 5 Jahren",
+       "wort": "irgendwann",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Maßgeblich",
+       "wert": "höchste Quote",
+       "farbe": "GELB",
+       "wort": "Grenze",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 17 Abs. 1 S. 1 EStG",
+       "wort": "fünf"
+      }
+     ],
+     "icon": [
+      "tabler:calendar-stats",
+      "GELB",
+      "Jahren"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "Eigene Anteile raus,",
+     "höchste Quote",
+     "der letzten 5 Jahre"
+    ],
+    "woerter": [
+     null,
+     "Eigene",
+     "höchste",
+     "fünf"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "zählt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "1-%-Grenze des § 17 EStG: Erst die eigenen Anteile der GmbH abziehen! 🧾\n\n▸ § 17 EStG erfasst Gewinne aus der Veräußerung von Anteilen, wenn der Veräußerer innerhalb der letzten fünf Jahre unmittelbar oder mittelbar zu mindestens 1 % am Kapital beteiligt war (§ 17 Abs. 1 S. 1 EStG).\n▸ Hält die Gesellschaft eigene Anteile, ist von dem um diese eigenen Anteile verminderten Nennkapital auszugehen (H 17 (2) EStH „Eigene Anteile“).\n▸ Beispiel: Stammkapital 100.000 €, eigene Anteile 20.000 €, Anteil 900 €: 900 : 80.000 = 1,125 %. Damit greift § 17 EStG.\n▸ Es genügt, wenn die Quote irgendwann in den fünf Jahren vor der Veräußerung erreicht war; maßgeblich ist die höchste Quote.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 17 Abs. 1 S. 1 EStG",
+    "H 17 (2) EStH (Eigene Anteile)"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-13",
+   "frage": [
+    "KSt-Vorauszahlung",
+    "als Aufwand gebucht?"
+   ],
+   "optionen": [
+    "Mindert das Einkommen",
+    "Wird außerbilanziell hinzugerechnet",
+    "Nur zur Hälfte abziehbar"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 2",
+     "haut": "#F5D3BC",
+     "haar": "#D8B26E",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-13",
+   "titel": [
+    "B: wieder",
+    "hinzurechnen"
+   ],
+   "optionen": [
+    "Mindert das Einkommen",
+    "Wird außerbilanziell hinzugerechnet",
+    "Nur zur Hälfte abziehbar"
+   ],
+   "richtig": 1,
+   "text": "Steuern vom Einkommen sind nicht abziehbar, auch die Vorauszahlungen.",
+   "norm": "§ 10 Nr. 2 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 2",
+     "haut": "#F5D3BC",
+     "haar": "#D8B26E",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Sachwert raus: Realteilung?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-25",
+   "titel": [
+    "Geld neben",
+    "neuen Anteilen?"
+   ],
+   "norm": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
+   "punkte": [
+    [
+     "Unschädlich bis 25 % des Buchwerts oder 500.000 €, höchstens Buchwert.",
+     "ok",
+     null
+    ],
+    [
+     "Darüber: stille Reserven werden anteilig aufgedeckt.",
+     "warn",
+     "§ 20 Abs. 2 S. 4 UmwStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Turban",
+     "haut": "#B07A55",
+     "oberteil": "#F4A3B5",
+     "bart": "Full",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Reihengeschäft: wer bewegt?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Zeitplan",
+    "nach Punkten"
+   ],
+   "punkte": [
+    [
+     "Punkte je Teil notieren.",
+     "ok",
+     null
+    ],
+    [
+     "Minuten danach verteilen.",
+     "ok",
+     null
+    ],
+    [
+     "Zeit um? Sofort weiter.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Gray Short",
+     "haut": "#EDC6A6",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 4"
+    }
+   },
+   "figur": "K/eilt"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-12",
+   "titel": [
+    "Rechnung:",
+    "Pflichtangaben"
+   ],
+   "punkte": [
+    [
+     "Namen, Anschrift, Steuernummer",
+     "ok",
+     null
+    ],
+    [
+     "Datum, Nummer, Leistung",
+     "ok",
+     null
+    ],
+    [
+     "Entgelt, Steuersatz, Steuer",
+     "ok",
+     "§ 14 Abs. 4 S. 1 Nr. 1–8 UStG"
+    ]
+   ],
+   "icon": "tabler:file-invoice",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Buns",
+     "haut": "#7A4A2E",
+     "haar": "#1B1B1B",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "0,9 % und kein § 17?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-10",
+   "titel": [
+    "§ 35 EStG:",
+    "wie viel?"
+   ],
+   "zeilen": [
+    [
+     [
+      "4 × ",
+      null
+     ],
+     [
+      "Messbetrag",
+      "a"
+     ]
+    ],
+    [
+     [
+      "max. ",
+      null
+     ],
+     [
+      "gezahlte GewSt",
+      "b"
+     ]
+    ],
+    [
+     [
+      "und ",
+      null
+     ],
+     [
+      "Höchstbetrag",
+      "c"
+     ]
+    ]
+   ],
+   "norm": "§ 35 Abs. 1 S. 1, 5 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Shaved 3",
+     "haut": "#E9BE9C",
+     "oberteil": "#C9B8F2",
+     "bart": "Moustache 5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}

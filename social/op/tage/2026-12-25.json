@@ -1,0 +1,1192 @@
+{
+ "datum": "2026-12-25",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-7",
+   "themaTitel": "Wie ermittelt man den Gewinn eines Mitunternehmers?",
+   "figuren": {
+    "A": {
+     "name": "Aurelia",
+     "kopf": "Long Bangs",
+     "haut": "#E0AC8A",
+     "haar": "#8B4A2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Bodo",
+     "kopf": "Gray Short",
+     "haut": "#B97A56",
+     "haar": "#9A9A9A",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Wie viel",
+      "für Bodo?"
+     ],
+     "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+     "unter": "in 2 Stufen",
+     "teaser": "+ Markier-Guide § 15 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "KG-Gewinn",
+        "Bold",
+        44
+       ],
+       [
+        "200.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "+ Sonderbereich?",
+        "ExtraBold",
+        46
+       ]
+      ]
+     },
+     "figur": "B:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Aurelia (60 %) und Bodo (40 %) betreiben eine KG. Steuerbilanzgewinn: 200.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Aurelia bekommt 60.000 € Gehalt als Geschäftsführerin. Die KG mietet von Bodo eine Halle für 24.000 €; seine Kosten dafür: 8.000 €.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 790,
+     "blase": "Ich bin Bodo."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Frage",
+     "punkte": [
+      [
+       "Gehalt und Miete hat die KG als Aufwand gebucht.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist Bodos Gewinnanteil, und wie hoch der Gewinn der KG insgesamt?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Ich bin Aurelia."
+    },
+    {
+     "typ": "schritte",
+     "titel": "Zwei Stufen",
+     "schritte": [
+      [
+       "Gesellschaftsebene",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "Gewinn nach Schlüssel verteilen"
+      ],
+      [
+       "Sonderbereich",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "Vergütungen, Sonderbetriebsausgaben"
+      ],
+      [
+       "Feststellen",
+       "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+       "gesondert und einheitlich"
+      ]
+     ],
+     "teaser": "Am Ende: § 15 EStG markiert"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung für Bodo",
+     "normen": [
+      "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "40 % von 200.000 €",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Miete der Halle",
+       "+ 24.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Sonderbetriebsausgaben",
+       "– 8.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Bodos Gewinn",
+       "96.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Miete zählt mit."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Gehalt ist kein Lohn",
+     "punkte": [
+      [
+       "Aurelias Gehalt mindert den Gewinn der KG, wird aber bei ihr wieder hinzugerechnet.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Keine Einkünfte aus nichtselbständiger Arbeit, sondern aus Gewerbebetrieb.",
+       "nein",
+       "Bold",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Kein Arbeitslohn?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie hoch ist Aurelias Gewinnanteil?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Und wie hoch ist der Gewinn der Mitunternehmerschaft insgesamt?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "60 % von 200.000 €",
+       "120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gehalt als Sondervergütung",
+       "+ 60.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Aurelias Gewinn",
+       "180.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Gewinn KG gesamt",
+       "276.000 €",
+       "ExtraBold",
+       "HELL"
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Mehr als 200.000 €!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Bodo: 96.000 € · Aurelia: 180.000 €",
+      "Gesamtgewinn 276.000 € statt 200.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Stufe 1",
+        "a"
+       ],
+       [
+        ": Anteil am Gewinn,",
+        null
+       ]
+      ],
+      [
+       [
+        "Stufe 2",
+        "b"
+       ],
+       [
+        ": Sonderbereich,",
+        null
+       ]
+      ],
+      [
+       [
+        "Vergütungen",
+        "c"
+       ],
+       [
+        " zurück.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du nur 200.000 € verteilt?",
+     "teaser": "Weiterwischen: § 15 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15 Abs. 1 S. 1 Nr. 2 EStG (Auszug)",
+     "absaetze": [
+      [
+       "Nr. 2",
+       [
+        [
+         "die Gewinnanteile der Gesellschafter",
+         "g1"
+        ],
+        [
+         "einer Offenen Handelsgesellschaft, einer Kommanditgesellschaft und einer anderen Gesellschaft, bei der der Gesellschafter als Unternehmer (Mitunternehmer) des Betriebs anzusehen ist,",
+         null
+        ],
+        [
+         "und die Vergütungen,",
+         "b1"
+        ],
+        [
+         "die der Gesellschafter von der Gesellschaft",
+         null
+        ],
+        [
+         "für seine Tätigkeit im Dienst der Gesellschaft",
+         "r1"
+        ],
+        [
+         "oder für die Hingabe von Darlehen oder",
+         null
+        ],
+        [
+         "für die Überlassung von Wirtschaftsgütern",
+         "gr1"
+        ],
+        [
+         "bezogen hat.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Stufe 1",
+       "g1"
+      ],
+      [
+       "Stufe 2",
+       "b1"
+      ],
+      [
+       "Gehalt",
+       "r1"
+      ],
+      [
+       "Miete",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Verfahren: § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+      "Gewinn gesondert und einheitlich feststellen"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall zum ersten Weihnachtstag: Wie viel Gewinn entfällt auf Bodo? Die zweistufige Gewinnermittlung für die Bilanzklausur.\n\n▸ Stufe 1: Der Gewinn der Gesellschaft (Steuerbilanz, ggf. Ergänzungsbilanzen) wird nach dem Gewinnverteilungsschlüssel verteilt (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Stufe 2: Vergütungen für Tätigkeit, Darlehen und Überlassung von Wirtschaftsgütern sind gewerbliche Einkünfte des Gesellschafters; dazu kommen seine Sonderbetriebseinnahmen und -ausgaben (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Die Einkünfte werden gesondert und einheitlich festgestellt (§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n\nLösung: Bodo 80.000 € + 24.000 € – 8.000 € = 96.000 €. Aurelia 120.000 € + 60.000 € = 180.000 €. Gesamtgewinn 276.000 €.\nKlausurfalle: Das Geschäftsführergehalt ist kein Arbeitslohn, sondern Sondervergütung.\n\nZum Schluss: § 15 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-162",
+   "themaTitel": "Bemessungsgrundlage: Entgelt, durchlaufende Posten, Tausch und tauschähnlicher Umsatz",
+   "figuren": {
+    "A": {
+     "name": "Liv",
+     "kopf": "Bangs 2",
+     "haut": "#F3D0B5",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Explaining"
+    },
+    "B": {
+     "name": "Bent",
+     "kopf": "Pomp",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Was ist",
+      "Entgelt?"
+     ],
+     "norm": "§ 10 UStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 10 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:microphone",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Fahrplan",
+     "schritte": [
+      [
+       "Einstieg · 1 Min.",
+       "§ 10 Abs. 1 S. 1 UStG",
+       "Warum die Frage zählt"
+      ],
+      [
+       "Entgelt · 3 Min.",
+       "§ 10 Abs. 1 S. 2 UStG",
+       ""
+      ],
+      [
+       "Durchlaufende Posten · 2 Min.",
+       "§ 10 Abs. 1 S. 4 UStG",
+       ""
+      ],
+      [
+       "Tausch, Fazit · 4 Min.",
+       "§ 10 Abs. 2 S. 2, 3 UStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 10 UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Einstieg (1 Min.)",
+     "punkte": [
+      [
+       "Warum die Frage zählt: Erst die Bemessungsgrundlage macht aus dem Umsatz einen Betrag.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Die Regel nennen: bemessen wird nach dem Entgelt.",
+       "ok",
+       "Bold",
+       "§ 10 Abs. 1 S. 1 UStG"
+      ],
+      [
+       "Dann den Fahrplan in einem Satz.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Liv, ich trage vor."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Entgelt: 3 Minuten",
+     "punkte": [
+      [
+       "Alles, was der Empfänger oder ein Dritter für die Leistung aufwendet.",
+       "ok",
+       "Regular",
+       "§ 10 Abs. 1 S. 2 UStG"
+      ],
+      [
+       "Auch Zuschüsse, die direkt mit dem Preis zusammenhängen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Die Umsatzsteuer selbst gehört nicht dazu.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ich bin Bent, ich prüfe."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Durchlaufende Posten: 2 Min.",
+     "punkte": [
+      [
+       "In fremdem Namen und auf fremde Rechnung eingenommen und ausgegeben: kein Entgelt.",
+       "ok",
+       "Regular",
+       "§ 10 Abs. 1 S. 4 UStG"
+      ],
+      [
+       "Typisch: Gebühren, die im Namen des Kunden an Behörden gehen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Handelt der Unternehmer im eigenen Namen, zählt der Betrag zum Entgelt.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Wessen Name?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Tausch: 2 Minuten",
+     "punkte": [
+      [
+       "Tausch: Lieferung gegen Lieferung. Tauschähnlich: sonstige Leistung gegen Leistung.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 12 UStG"
+      ],
+      [
+       "Der Wert jeder Leistung ist Entgelt für die andere, ohne Umsatzsteuer.",
+       "ok",
+       "Bold",
+       "§ 10 Abs. 2 S. 2, 3 UStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 790,
+     "blase": "Ein Beispiel bitte."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel im Vortrag",
+     "normen": [
+      "§ 3 Abs. 12 S. 2, § 10 Abs. 2 S. 2, 3 UStG"
+     ],
+     "zeilen": [
+      [
+       "Agentur bekommt Transporter",
+       "11.900 €",
+       "Regular",
+       null
+      ],
+      [
+       "Umsatzsteuer heraus (19 %)",
+       "– 1.900 €",
+       "Regular",
+       null
+      ],
+      [
+       "Entgelt der Agentur",
+       "10.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Wert gegen Wert."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Fazit: 2 Minuten",
+     "punkte": [
+      [
+       "Ein Satz: Maßstab ist, was der Empfänger aufwendet, ohne Umsatzsteuer.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Zeit für Nachfragen lassen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "In der Mündlichen keine Richtlinien: alles mit dem Gesetz begründen.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Gut gegliedert."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "10 Minuten: 1 + 3 + 2 + 4",
+      "Einstieg, Entgelt, Posten, Tausch mit Fazit",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Entgelt",
+        "a"
+       ],
+       [
+        " ohne Steuer,",
+        null
+       ]
+      ],
+      [
+       [
+        "Posten",
+        "b"
+       ],
+       [
+        " bleiben draußen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Tausch",
+        "c"
+       ],
+       [
+        ": Wert gegen Wert.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Welches Beispiel bringst du mit?",
+     "teaser": "Weiterwischen: § 10 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 10 UStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Der Umsatz wird bei Lieferungen und sonstigen Leistungen […]",
+         null
+        ],
+        [
+         "nach dem Entgelt bemessen.",
+         "g1"
+        ],
+        [
+         "Entgelt ist",
+         null
+        ],
+        [
+         "alles, was den Wert der Gegenleistung bildet,",
+         "b1"
+        ],
+        [
+         "die der leistende Unternehmer vom Leistungsempfänger oder von einem anderen als dem Leistungsempfänger für die Leistung erhält oder erhalten soll, […] jedoch",
+         null
+        ],
+        [
+         "abzüglich der für diese Leistung gesetzlich geschuldeten Umsatzsteuer.",
+         "r1"
+        ],
+        [
+         "[…] Die Beträge, die der Unternehmer im Namen und für Rechnung eines anderen vereinnahmt und verausgabt (durchlaufende Posten), gehören nicht zum Entgelt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "[…] Beim Tausch (§ 3 Abs. 12 Satz 1), bei tauschähnlichen Umsätzen (§ 3 Abs. 12 Satz 2) […]",
+         null
+        ],
+        [
+         "gilt der Wert jedes Umsatzes als Entgelt für den anderen Umsatz.",
+         "gr1"
+        ],
+        [
+         "Die Umsatzsteuer gehört nicht zum Entgelt.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "g1"
+      ],
+      [
+       "Gegenleistung",
+       "b1"
+      ],
+      [
+       "netto",
+       "r1"
+      ],
+      [
+       "Tausch",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 10 Abs. 5 UStG",
+      "Mindestbemessungsgrundlage bei Nahestehenden"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Was ist Entgelt? So baust du 10 Minuten zur Bemessungsgrundlage auf.\n\n1. Einstieg (1 Min.): Bemessen wird nach dem Entgelt (§ 10 Abs. 1 S. 1 UStG).\n2. Entgelt (3 Min.): alles, was den Wert der Gegenleistung bildet, die der Unternehmer vom Leistungsempfänger oder einem Dritten erhält oder erhalten soll, einschließlich unmittelbar preisbezogener Subventionen, abzüglich der geschuldeten Umsatzsteuer (§ 10 Abs. 1 S. 2 UStG).\n3. Durchlaufende Posten (2 Min.): was der Unternehmer in fremdem Namen und auf fremde Rechnung einnimmt und weiterleitet, ist kein Entgelt (§ 10 Abs. 1 S. 4 UStG).\n4. Tausch und tauschähnlicher Umsatz (2 Min.): Begriffe in § 3 Abs. 12 UStG; der Wert jedes Umsatzes gilt als Entgelt für den anderen, die Umsatzsteuer gehört nicht dazu (§ 10 Abs. 2 S. 2, 3 UStG). Beispiel: Transporter im Wert von 11.900 € als Gegenleistung, Entgelt 10.000 €.\n5. Fazit (2 Min.): ein klarer Schlusssatz, Zeit für Nachfragen. Ausblick: Mindestbemessungsgrundlage (§ 10 Abs. 5 UStG).\n\nIn der Prüfung: drei Themen zur Wahl, eine halbe Stunde vor Beginn (§ 26 Abs. 6 DVStB).\n\nZum Schluss: § 10 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 10 Abs. 1 S. 1, 2, 4 UStG",
+    "§ 10 Abs. 2 S. 2, 3 UStG",
+    "§ 3 Abs. 12 UStG",
+    "§ 10 Abs. 5 UStG",
+    "§ 26 Abs. 6 DVStB"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-23-04",
+   "themaTitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+   "figuren": {
+    "A": {
+     "name": "Josefine",
+     "kopf": "Medium 3",
+     "haut": "#C99470",
+     "haar": "#3B2A20",
+     "oberteil": "#7DD3C0",
+     "bueste": "Tee 1"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Wohnung für dreihunderttausend gekauft, nach sechs Jahren für dreihundertsechzigtausend verkauft. Sechzigtausend Gewinn? Falsch, es ist mehr."
+    },
+    {
+     "id": "s1",
+     "text": "Innerhalb von zehn Jahren ist der Verkauf steuerpflichtig. Vom Preis gehen zuerst die Verkaufskosten ab, sechstausend."
+    },
+    {
+     "id": "s2",
+     "text": "Dann die Anschaffungskosten, gemindert um die Abschreibung aus der Vermietung: sechs Jahre mal viertausendachthundert."
+    },
+    {
+     "id": "s3",
+     "text": "Ergebnis: Gewinn zweiundachtzigtausendachthundert Euro statt sechzigtausend."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Bei vermieteten Objekten erhöht die Abschreibung den Gewinn."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Wohnung",
+     "verkauft"
+    ],
+    "pille": "§ 23 EStG",
+    "figur": "A/sorge",
+    "name": "Josefine",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Erst die Kosten",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "nicht mehr als 10 Jahre",
+       "wort": "zehn",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Preis – Verkaufskosten",
+       "wert": "354.000 €",
+       "farbe": "GELB",
+       "wort": "sechstausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 23 Abs. 1 S. 1 Nr. 1 EStG",
+       "wort": "Innerhalb"
+      }
+     ],
+     "icon": [
+      "tabler:calendar",
+      "GELB",
+      "zehn"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Abschreibung abziehen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Anschaffungskosten",
+       "wert": "300.000 €",
+       "farbe": "WEISS",
+       "wort": "Anschaffungskosten",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "6 × 4.800 € Abschreibung",
+       "wert": "– 28.800 €",
+       "farbe": "ROT",
+       "wort": "sechs",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 23 Abs. 3 S. 4 EStG",
+       "wort": "Vermietung"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "sechs",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "354.000 € – 271.200 €",
+       "unter": "Preis netto minus Rest-Anschaffungskosten",
+       "wort": "Ergebnis",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "zahl",
+       "text": "82.800 €",
+       "wort": "zweiundachtzigtausendachthundert",
+       "size": 150
+      },
+      {
+       "typ": "norm",
+       "text": "§ 23 Abs. 3 S. 1 EStG",
+       "wort": "Gewinn"
+      }
+     ],
+     "icon": [
+      "tabler:alert-triangle",
+      "ROT",
+      "statt"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Vermietet verkauft:",
+     "Abschreibung",
+     "mindert die Kosten,",
+     "erhöht den Gewinn"
+    ],
+    "woerter": [
+     null,
+     "Abschreibung",
+     "erhöht",
+     "Gewinn"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Gewinn",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Vermietete Wohnung innerhalb von zehn Jahren verkauft: So rechnest du den Gewinn nach § 23 EStG. 🏢\n\n▸ Steuerpflichtig ist die Veräußerung eines Grundstücks, wenn zwischen Anschaffung und Veräußerung nicht mehr als zehn Jahre liegen (§ 23 Abs. 1 S. 1 Nr. 1 EStG).\n▸ Gewinn = Veräußerungspreis – Anschaffungskosten – Werbungskosten, etwa Verkaufskosten (§ 23 Abs. 3 S. 1 EStG).\n▸ Die Anschaffungskosten mindern sich um die Abschreibungen, die bei den Vermietungseinkünften abgezogen wurden (§ 23 Abs. 3 S. 4 EStG).\n▸ Beispiel: 360.000 € – 6.000 € – (300.000 € – 6 × 4.800 €) = 82.800 €.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 23 Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 23 Abs. 3 S. 1, 4 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-4",
+   "frage": [
+    "Was ist nicht",
+    "einlagefähig?"
+   ],
+   "optionen": [
+    "Grundstück unter Wert an die GmbH",
+    "Zinsloses Darlehen an die GmbH",
+    "Verzicht auf werthaltige Forderung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bun 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-4",
+   "titel": [
+    "B: der Zins-",
+    "vorteil"
+   ],
+   "optionen": [
+    "Grundstück unter Wert an die GmbH",
+    "Zinsloses Darlehen an die GmbH",
+    "Verzicht auf werthaltige Forderung"
+   ],
+   "richtig": 1,
+   "text": "Nutzungsvorteile sind nicht einlagefähig.",
+   "norm": "H 8.9 KStH",
+   "figuren": {
+    "Q": {
+     "kopf": "Bun 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Wie viel für Bodo?"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-3-12",
+   "titel": [
+    "Übernahmegewinn",
+    "der GmbH"
+   ],
+   "norm": "§ 12 Abs. 2 UmwStG",
+   "punkte": [
+    [
+     "Grundsatz: bleibt außer Ansatz.",
+     "ok",
+     "§ 12 Abs. 2 S. 1 UmwStG"
+    ],
+    [
+     "Soweit er der eigenen Beteiligung entspricht: § 8b KStG, also 5 % steuerpflichtig.",
+     "warn",
+     "§ 12 Abs. 2 S. 2 UmwStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 2",
+     "haut": "#F0C8A8",
+     "haar": "#6B3E26",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Was ist Entgelt?"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "ueberzeile": "Lerntipp",
+   "titel": [
+    "Feiertage:",
+    "klein, aber täglich"
+   ],
+   "punkte": [
+    [
+     "Zwei Einheiten zu 45 Minuten genügen.",
+     "ok",
+     null
+    ],
+    [
+     "Nur wiederholen, nichts Neues.",
+     "ok",
+     null
+    ],
+    [
+     "Morgens lernen, danach feiern.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:gift",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Twists",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-8",
+   "titel": [
+    "§ 15a UStG:",
+    "die Eckdaten"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Zeitraum 5 Jahre, bei Grundstücken 10 Jahre.",
+     "ok",
+     "§ 15a Abs. 1 UStG"
+    ],
+    [
+     "Keine Berichtigung bis 1.000 € Vorsteuer.",
+     "ok",
+     "§ 44 Abs. 1 UStDV"
+    ]
+   ],
+   "icon": "tabler:calendar-stats",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Long Curly",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "60.000 € Gewinn?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-ea-03",
+   "titel": [
+    "Miterben teilen",
+    "den Betrieb"
+   ],
+   "zeilen": [
+    [
+     [
+      "Realteilung",
+      "a"
+     ],
+     [
+      " ins",
+      null
+     ]
+    ],
+    [
+     [
+      "Betriebsvermögen",
+      "b"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "Buchwerte",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 16 Abs. 3 S. 2 EStG",
+   "groesse": 76,
+   "figuren": {
+    "M": {
+     "kopf": "No Hair 3",
+     "haut": "#C68E6A",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

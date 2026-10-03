@@ -1,0 +1,1361 @@
+{
+ "datum": "2026-12-09",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-11",
+   "themaTitel": "CS-GmbH Ergebnis",
+   "figuren": {
+    "A": {
+     "name": "Dilara",
+     "kopf": "Long Curly",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#9AD48F",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Steuern als",
+      "Aufwand gebucht?"
+     ],
+     "norm": "§ 10 Nr. 2 KStG",
+     "unter": "Die Falle",
+     "teaser": "+ Markier-Guide KStG + EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Jahresüberschuss",
+        "Bold",
+        44
+       ],
+       [
+        "80.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "= Einkommen?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Der Fall",
+     "normen": [
+      "Wellenreiter GmbH, Jahresabschluss"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "80.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Aufwand KSt",
+       "15.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Aufwand SolZ",
+       "825 €",
+       "Regular",
+       null
+      ],
+      [
+       "Aufwand GewSt",
+       "12.000 €",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Ist das Einkommen 80.000 €?",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Falle",
+     "punkte": [
+      [
+       "Der Jahresüberschuss ist nur der Startwert.",
+       "warn",
+       "Regular",
+       "§ 8 Abs. 1 KStG"
+      ],
+      [
+       "Steuern vom Einkommen dürfen das Einkommen nicht mindern.",
+       "nein",
+       "Bold",
+       "§ 10 Nr. 2 KStG"
+      ],
+      [
+       "Die Gewerbesteuer ist keine Betriebsausgabe.",
+       "nein",
+       "Bold",
+       "§ 4 Abs. 5b EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Auch die Gewerbesteuer?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was zurück muss",
+     "punkte": [
+      [
+       "Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen.",
+       "ok",
+       "Regular",
+       "§ 10 Nr. 2 KStG"
+      ],
+      [
+       "Gewerbesteuer ebenso, samt Nebenleistungen.",
+       "ok",
+       "Regular",
+       "§ 4 Abs. 5b EStG"
+      ],
+      [
+       "Erstattungen dieser Steuern, als Ertrag gebucht: wieder abziehen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Beide Richtungen!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Korrektur",
+     "normen": [
+      "§ 10 Nr. 2 KStG, § 4 Abs. 5b EStG"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ KSt, SolZ, GewSt",
+       "27.825 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkommen",
+       "107.825 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Das sind 27.825 € mehr."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die GmbH hat zusätzlich 3.000 € erstattete Körperschaftsteuer eines Vorjahres als Ertrag gebucht.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Der Jahresüberschuss steigt dadurch auf 83.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist das Einkommen jetzt?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Mehr Gewinn?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 10 Nr. 2 KStG"
+     ],
+     "zeilen": [
+      [
+       "83.000 € + 27.825 € Steuern",
+       "110.825 €",
+       "Regular",
+       null
+      ],
+      [
+       "− KSt-Erstattung",
+       "3.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkommen",
+       "107.825 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:lacht",
+     "x": 290,
+     "blase": "Gleiches Ergebnis!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Jahresüberschuss + KSt, SolZ, GewSt − Erstattungen",
+      "danach die übrigen Korrekturen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Startwert",
+        "a"
+       ],
+       [
+        " Jahresüberschuss,",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuern",
+        "b"
+       ],
+       [
+        " wieder dazu,",
+        null
+       ]
+      ],
+      [
+       [
+        "Erstattungen",
+        "c"
+       ],
+       [
+        " wieder raus.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du die Erstattung abgezogen?",
+     "teaser": "Weiterwischen: § 10 KStG + § 4 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 10 KStG Nichtabziehbare Aufwendungen",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Nichtabziehbar sind auch: […] 2.",
+         null
+        ],
+        [
+         "die Steuern vom Einkommen",
+         "g1"
+        ],
+        [
+         "und sonstige Personensteuern sowie die Umsatzsteuer für Umsätze, die Entnahmen oder",
+         null
+        ],
+        [
+         "verdeckte Gewinnausschüttungen",
+         "b1"
+        ],
+        [
+         "sind, […]; das gilt auch für die auf diese Steuern entfallenden",
+         null
+        ],
+        [
+         "Nebenleistungen,",
+         "r1"
+        ],
+        [
+         "[…] 4.",
+         null
+        ],
+        [
+         "die Hälfte der Vergütungen",
+         "gr1"
+        ],
+        [
+         "jeder Art, die an Mitglieder des Aufsichtsrats, Verwaltungsrats oder andere mit der Überwachung der Geschäftsführung beauftragte Personen gewährt werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "KSt, SolZ",
+       "g1"
+      ],
+      [
+       "USt auf vGA",
+       "b1"
+      ],
+      [
+       "Zuschläge",
+       "r1"
+      ],
+      [
+       "Aufsichtsrat",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 4 Abs. 5b EStG",
+      "Gewerbesteuer ist keine Betriebsausgabe"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 4 EStG, § 8 KStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 4 (4)",
+       [
+        [
+         "Betriebsausgaben sind die Aufwendungen, die durch den Betrieb veranlasst sind.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "(5b)",
+       [
+        [
+         "Die Gewerbesteuer",
+         "g1"
+        ],
+        [
+         "und die darauf entfallenden Nebenleistungen",
+         null
+        ],
+        [
+         "sind keine Betriebsausgaben.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 8 (1) 1 KStG",
+       [
+        [
+         "Was als Einkommen gilt und wie das Einkommen zu ermitteln ist, bestimmt sich",
+         null
+        ],
+        [
+         "nach den Vorschriften des Einkommensteuergesetzes",
+         "b2"
+        ],
+        [
+         "und dieses Gesetzes.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "b1"
+      ],
+      [
+       "Ausnahme",
+       "g1"
+      ],
+      [
+       "außerhalb der Bilanz dazu",
+       "r1"
+      ],
+      [
+       "gilt auch für die GmbH",
+       "b2"
+      ]
+     ],
+     "randnotiz": [
+      "Wellenreiter: + 12.000 € GewSt",
+      "außerhalb der Bilanz wieder dazu"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle Körperschaftsteuer: Steuern als Aufwand gebucht. Ist der Jahresüberschuss schon das Einkommen?\n\n▸ Der Jahresüberschuss ist nur der Ausgangswert; für das Einkommen gelten die Regeln des Einkommensteuergesetzes entsprechend (§ 8 Abs. 1 KStG).\n▸ Steuern vom Einkommen und ihre Nebenleistungen sind nicht abziehbar: Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen (§ 10 Nr. 2 KStG).\n▸ Die Gewerbesteuer und die darauf entfallenden Nebenleistungen sind keine Betriebsausgaben (§ 4 Abs. 5b EStG).\n▸ Kommt Körperschaftsteuer zurück und steht sie im Ertrag, ziehst du sie spiegelbildlich ab.\n▸ Ebenfalls nicht abziehbar: die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n\nBeispiel: 80.000 € + 15.825 € + 12.000 € = 107.825 €. Variante mit 3.000 € KSt-Erstattung: 83.000 € + 27.825 € − 3.000 € = 107.825 €.\n\nZum Schluss: § 10 Nr. 2 KStG, § 4 Abs. 4, 5b EStG und § 8 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 1 KStG",
+    "§ 10 Nr. 2, 4 KStG",
+    "§ 4 Abs. 5b EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-12",
+   "themaTitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+   "figuren": {
+    "A": {
+     "name": "Carla",
+     "kopf": "Medium Straight",
+     "haut": "#F3D0B5",
+     "haar": "#7A4B2A",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 5",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "KG-Anteil in",
+      "die GmbH"
+     ],
+     "norm": "§ 20 UmwStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 20 + UmwStE",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:transfer",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Mitunternehmeranteil einbringen",
+     "schritte": [
+      [
+       "Mitunternehmeranteil?",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "Gewinneinkünfte, auch geprägt"
+      ],
+      [
+       "Was gehört dazu?",
+       "UmwStE Rn. 20.06, 20.10",
+       "Anteil plus wesentliches SBV"
+      ],
+      [
+       "Nur ein Teil?",
+       "UmwStE Rn. 20.11",
+       "SBV mindestens in gleicher Quote"
+      ],
+      [
+       "Wertansatz",
+       "§ 20 Abs. 2 UmwStG",
+       "Antrag der GmbH"
+      ]
+     ],
+     "teaser": "Am Ende: § 20 UmwStG + UmwStE markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Mitunternehmeranteil?",
+     "punkte": [
+      [
+       "Beteiligung an einer Personengesellschaft mit Gewinneinkünften.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Auch die gewerblich geprägte GmbH & Co. KG zählt.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 3 Nr. 2 EStG"
+      ],
+      [
+       "Rein vermögensverwaltende KG ohne Prägung: kein Mitunternehmeranteil.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst der Gegenstand!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Was gehört dazu?",
+     "punkte": [
+      [
+       "Der Anteil am Gesellschaftsvermögen.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 UmwStG"
+      ],
+      [
+       "Funktional wesentliches Sonderbetriebsvermögen muss mit in die GmbH.",
+       "warn",
+       "Bold",
+       "UmwStE Rn. 20.06, 20.10"
+      ],
+      [
+       "Bleibt es zurück, scheidet § 20 UmwStG aus.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Auch mein Grundstück?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Nur ein Teil?",
+     "punkte": [
+      [
+       "Auch ein Bruchteil des Anteils ist begünstigt.",
+       "ok",
+       "Regular",
+       "UmwStE Rn. 20.11"
+      ],
+      [
+       "Wesentliches Sonderbetriebsvermögen muss mindestens in derselben Quote mit; mehr schadet nicht.",
+       "warn",
+       "Bold",
+       "UmwStE Rn. 20.11"
+      ],
+      [
+       "Kein Freibetrag und keine Tarifermäßigung beim Teilanteil.",
+       "nein",
+       "Regular",
+       "§ 20 Abs. 4 UmwStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Quote vergleichen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Wertansatz",
+     "punkte": [
+      [
+       "Grundsatz: gemeiner Wert.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 2 S. 1 UmwStG"
+      ],
+      [
+       "Auf Antrag Buch- oder Zwischenwert, wenn die Bedingungen erfüllt sind.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 2 S. 2 UmwStG"
+      ],
+      [
+       "Den Antrag stellt die GmbH bei ihrem Finanzamt.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 2 S. 3 UmwStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Nicht ich?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Carla hält 50 % an der Seeblick KG. Ihr eigenes Grundstück nutzt die KG als Betriebsgelände.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "In eine GmbH bringt sie die Hälfte ihres KG-Anteils und 30 % des Grundstücks ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Greift § 20 UmwStG?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Carla."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Anteil zu 50 %, Grundstück nur zu 30 %: unter der Quote.",
+       "nein",
+       "Regular",
+       "UmwStE Rn. 20.11"
+      ],
+      [
+       "§ 20 UmwStG greift nicht; der Gewinn aus dem Teilanteil ist laufender Gewinn.",
+       "warn",
+       "Bold",
+       "§ 16 Abs. 1 S. 2 EStG"
+      ],
+      [
+       "Mit mindestens 50 % des Grundstücks wäre es gegangen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Knapp daneben."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Mitunternehmeranteil = Gesellschaftsanteil + wesentliches SBV",
+      "Teilanteil: SBV mindestens in gleicher Quote",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Anteil",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "SBV",
+        "b"
+       ],
+       [
+        " mitnehmen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Quote",
+        "c"
+       ],
+       [
+        " vergleichen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Antrag",
+        "d"
+       ],
+       [
+        " der GmbH.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wie viel Grundstück hätte gereicht?",
+     "teaser": "Weiterwischen: § 20 + UmwStE markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§ 20 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Wird ein Betrieb oder Teilbetrieb oder",
+         null
+        ],
+        [
+         "ein Mitunternehmeranteil",
+         "g1"
+        ],
+        [
+         "in eine Kapitalgesellschaft […] eingebracht und erhält der Einbringende dafür",
+         null
+        ],
+        [
+         "neue Anteile",
+         "b1"
+        ],
+        [
+         "an der Gesellschaft (Sacheinlage), […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Die übernehmende Gesellschaft hat das eingebrachte Betriebsvermögen mit dem",
+         null
+        ],
+        [
+         "gemeinen Wert",
+         "r1"
+        ],
+        [
+         "anzusetzen; […] Abweichend von Satz 1 kann das übernommene Betriebsvermögen",
+         null
+        ],
+        [
+         "auf Antrag",
+         "gr1"
+        ],
+        [
+         "einheitlich mit dem Buchwert oder einem höheren Wert […] angesetzt werden, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Gegenstand",
+       "g1"
+      ],
+      [
+       "Gegenleistung",
+       "b1"
+      ],
+      [
+       "Grundsatz",
+       "r1"
+      ],
+      [
+       "Wahlrecht GmbH",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Antrag: § 20 Abs. 2 S. 3 UmwStG",
+      "spätestens mit der steuerlichen Schlussbilanz"
+     ],
+     "zweite": {
+      "kopf": "UmwStE 2025 (Auszug)",
+      "absaetze": [
+       [
+        "Rn. 20.06",
+        [
+         [
+          "[…] Es genügt nicht, der Kapitalgesellschaft diese Wirtschaftsgüter",
+          null
+         ],
+         [
+          "nur zur Nutzung zu überlassen.",
+          "r1"
+         ],
+         [
+          "Dies gilt auch für solche […] Wirtschaftsgüter, die zum",
+          null
+         ],
+         [
+          "Sonderbetriebsvermögen",
+          "b1"
+         ],
+         [
+          "eines Gesellschafters gehören.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 20.10",
+        [
+         [
+          "Die Grundsätze der vorstehenden Rn. 20.05 – 20.09 gelten",
+          null
+         ],
+         [
+          "sinngemäß",
+          "g1"
+         ],
+         [
+          "auch für die Einbringung von Mitunternehmeranteilen.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 20.11",
+        [
+         [
+          "[…] Bei der Übertragung eines Teils eines Mitunternehmeranteils muss auch jedes zugehörige (funktional wesentliche) Wirtschaftsgut des Sonderbetriebsvermögens anteilig",
+          null
+         ],
+         [
+          "mindestens in demselben Verhältnis",
+          "gr1"
+         ],
+         [
+          "übergehen, […]",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Nutzung reicht nicht",
+        "r1"
+       ],
+       [
+        "SBV mit!",
+        "b1"
+       ],
+       [
+        "gilt auch hier",
+        "g1"
+       ],
+       [
+        "Quote!",
+        "gr1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Mitunternehmeranteil in eine GmbH einbringen: das Prüfschema für Klausur 3.\n\n1. Mitunternehmeranteil: Beteiligung an einer Personengesellschaft mit Gewinneinkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG), auch einer gewerblich geprägten (§ 15 Abs. 3 Nr. 2 EStG); eine rein vermögensverwaltende Gesellschaft genügt nicht.\n2. Zum Anteil gehört funktional wesentliches Sonderbetriebsvermögen; es muss mit eingebracht werden (BMF vom 02.01.2025, UmwStE Rn. 20.06, 20.10).\n3. Teilanteil: begünstigt, wenn wesentliches Sonderbetriebsvermögen mindestens in derselben Quote mit übergeht (UmwStE Rn. 20.11). Kein Freibetrag nach § 16 Abs. 4 EStG und keine Tarifermäßigung (§ 20 Abs. 4 UmwStG). Ohne § 20 UmwStG ist der Gewinn aus dem Teilanteil laufender Gewinn (§ 16 Abs. 1 S. 2 EStG).\n4. Wertansatz: grundsätzlich gemeiner Wert; auf Antrag Buch- oder Zwischenwert (§ 20 Abs. 2 S. 1, 2 UmwStG). Antrag der übernehmenden Gesellschaft spätestens bis zur erstmaligen Abgabe der steuerlichen Schlussbilanz bei ihrem Finanzamt (§ 20 Abs. 2 S. 3 UmwStG).\n\nZum Schluss: § 20 UmwStG und der UmwStE zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 20 Abs. 1, 2, 4 UmwStG",
+    "§ 15 Abs. 1 S. 1 Nr. 2, Abs. 3 Nr. 2 EStG",
+    "§ 16 Abs. 1 S. 2 EStG",
+    "BMF vom 02.01.2025 (UmwStE), BStBl I 2025, 92, Rn. 20.06, 20.10, 20.11"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-1",
+   "themaTitel": "Unternehmer (§ 2 Abs. 1 UStG)",
+   "figuren": {
+    "A": {
+     "name": "Nele",
+     "kopf": "Bangs 2",
+     "haut": "#F1C7A5",
+     "haar": "#D8B26E",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Kein Gewinn, kein Unternehmer? Falsch. Einnahmen reichen völlig aus."
+    },
+    {
+     "id": "s1",
+     "text": "Nele vermietet ihre Ferienwohnung tageweise an Gäste. Die Kosten fressen die Mieten auf, Gewinn bleibt nie."
+    },
+    {
+     "id": "s2",
+     "text": "Trotzdem ist sie Unternehmerin: selbstständig und nachhaltig, um Einnahmen zu erzielen. Eine Gewinnabsicht verlangt das Gesetz ausdrücklich nicht."
+    },
+    {
+     "id": "s3",
+     "text": "Das gilt sogar für einen Verein, der nur gegenüber seinen Mitgliedern tätig wird."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Die Umsatzsteuer fragt nach Einnahmen, nicht nach Gewinn."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Kein Gewinn,",
+     "kein Unternehmer?"
+    ],
+    "pille": "§ 2 Abs. 1 UStG",
+    "figur": "A/sorge",
+    "name": "Nele",
+    "icons": [
+     [
+      "tabler:home",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "Einnahmen reichen",
+     "wort": "Einnahmen",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Fall",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Ferienwohnung tageweise",
+       "wort": "Ferienwohnung",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Gewinn",
+       "wert": "0 €",
+       "farbe": "ROT",
+       "wort": "Gewinn",
+       "zs": 120
+      }
+     ],
+     "icon": [
+      "tabler:beach",
+      "GELB",
+      "Gäste"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Trotzdem Unternehmerin",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "selbstständig",
+       "wort": "selbstständig",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "nachhaltig",
+       "wort": "nachhaltig",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Ziel",
+       "wert": "Einnahmen",
+       "farbe": "GRUEN",
+       "wort": "Einnahmen",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 2 Abs. 1 S. 3 UStG",
+       "wort": "Gewinnabsicht"
+      }
+     ],
+     "icon": [
+      "tabler:briefcase",
+      "GELB",
+      "Unternehmerin"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Sogar der Verein",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "nur für Mitglieder",
+       "unter": "trotzdem Unternehmer",
+       "wort": "Mitgliedern",
+       "farbe": "GELB",
+       "ls": 68
+      }
+     ],
+     "icon": [
+      "tabler:users-group",
+      "GELB",
+      "Verein"
+     ],
+     "figur": {
+      "ref": "A:staunt",
+      "wort": "sogar",
+      "hoehe": 440
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Umsatzsteuer fragt:",
+     "Einnahmen?",
+     "Nicht:",
+     "Gewinn?"
+    ],
+    "woerter": [
+     null,
+     "Einnahmen",
+     "nicht",
+     "Gewinn"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Gewinn",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Klausurfalle Umsatzsteuer: kein Gewinn, also kein Unternehmer? 🏖️\n\n▸ Unternehmer ist, wer eine gewerbliche oder berufliche Tätigkeit selbstständig ausübt (§ 2 Abs. 1 S. 1 UStG).\n▸ Gewerblich oder beruflich ist jede nachhaltige Tätigkeit zur Erzielung von Einnahmen, auch wenn die Absicht, Gewinn zu erzielen, fehlt oder eine Personenvereinigung nur gegenüber ihren Mitgliedern tätig wird (§ 2 Abs. 1 S. 3 UStG).\n▸ Die tageweise Vermietung einer Ferienwohnung ist zudem nicht steuerfrei, weil sie der kurzfristigen Beherbergung dient (§ 4 Nr. 12 S. 2 UStG).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 2 Abs. 1 S. 1, 3 UStG",
+    "§ 4 Nr. 12 S. 2 UStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-1",
+   "frage": [
+    "Bewegte Lieferung:",
+    "Wo ist der Ort?"
+   ],
+   "optionen": [
+    "Am Ende der Beförderung",
+    "Wo die Beförderung beginnt",
+    "Am Sitz des Abnehmers"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 5",
+     "haut": "#D9A07A",
+     "haar": "#3A2618",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 4",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-1",
+   "titel": [
+    "B: am Beginn"
+   ],
+   "optionen": [
+    "Am Ende der Beförderung",
+    "Wo die Beförderung beginnt",
+    "Am Sitz des Abnehmers"
+   ],
+   "richtig": 1,
+   "text": "Maßgeblich ist, wo Beförderung oder Versendung zum Abnehmer beginnt.",
+   "norm": "§ 3 Abs. 6 S. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 5",
+     "haut": "#D9A07A",
+     "haar": "#3A2618",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 4",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Steuern als Aufwand?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-05",
+   "titel": [
+    "Ohne Wohnung",
+    "steuerpflichtig?"
+   ],
+   "norm": "§ 9 AO",
+   "punkte": [
+    [
+     "Über sechs Monate im Inland: gewöhnlicher Aufenthalt ab Tag eins.",
+     "warn",
+     "§ 9 S. 2 AO"
+    ],
+    [
+     "Nur Besuch, Erholung, Kur: bis ein Jahr unschädlich.",
+     "ok",
+     "§ 9 S. 3 AO"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Turban",
+     "haut": "#A8704B",
+     "oberteil": "#C9B8F2",
+     "bart": "Full 4",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "KG-Anteil in die GmbH"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Zeit je Teil",
+    "festlegen"
+   ],
+   "punkte": [
+    [
+     "Punkte eines Teils ins Verhältnis setzen.",
+     "ok",
+     null
+    ],
+    [
+     "Daraus Minuten ableiten.",
+     "ok",
+     null
+    ],
+    [
+     "Zeit um? Weiter zum nächsten Teil.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:clock",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Afro",
+     "haut": "#5C3A21",
+     "oberteil": "#F6D365"
+    }
+   },
+   "figur": "K/eilt"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-1",
+   "titel": [
+    "Wirtschaftliches",
+    "Eigentum"
+   ],
+   "punkte": [
+    [
+     "Wer den Eigentümer auf Dauer ausschließt.",
+     "ok",
+     "§ 39 Abs. 2 Nr. 1 S. 1 AO"
+    ],
+    [
+     "Treuhand: der Treugeber.",
+     "ok",
+     "§ 39 Abs. 2 Nr. 1 S. 2 AO"
+    ]
+   ],
+   "icon": "tabler:key",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Bun 2",
+     "haut": "#F0CDB0",
+     "haar": "#6B3E26",
+     "oberteil": "#E8A0BF"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Kein Gewinn, kein Unternehmer?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-6-10",
+   "titel": [
+    "Außenprüfung",
+    "hemmt die Frist?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Echter ",
+      null
+     ],
+     [
+      "Beginn",
+      "a"
+     ],
+     [
+      " hemmt,",
+      null
+     ]
+    ],
+    [
+     [
+      "vor ",
+      null
+     ],
+     [
+      "Fristablauf",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "auch ",
+      null
+     ],
+     [
+      "Aufschub",
+      "d"
+     ],
+     [
+      " auf Antrag.",
+      null
+     ]
+    ],
+    [
+     [
+      "Anordnung",
+      "c"
+     ],
+     [
+      " reicht nicht.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 171 Abs. 4 S. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Short",
+     "haut": "#EBC4A4",
+     "oberteil": "#F2B880",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

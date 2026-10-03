@@ -1,0 +1,1254 @@
+{
+ "datum": "2026-11-28",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "klausurtechnik-k3-persg-2026-48",
+   "themaTitel": "Gesellschafterwechsel in Klausur 3: erst der Zeitstrahl, dann die Weichen",
+   "figuren": {
+    "A": {
+     "name": "Leonie",
+     "kopf": "Long",
+     "haut": "#EBC3A0",
+     "haar": "#5A3A22",
+     "oberteil": "#F4A3B5",
+     "bueste": "Device"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "zeilen": [
+      "Gesellschafter-",
+      "wechsel lösen"
+     ],
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide §§ 6, 16 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:calendar-time",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Ablauf",
+     "schritte": [
+      [
+       "Zeitstrahl zeichnen",
+       "",
+       "alle Daten und Quoten"
+      ],
+      [
+       "Jedes Ereignis einordnen",
+       "§ 16 Abs. 1, § 6 Abs. 3, 5 EStG",
+       ""
+      ],
+      [
+       "Laufend und Veräußerung trennen",
+       "§ 16 Abs. 1 S. 2 EStG",
+       ""
+      ],
+      [
+       "Tabelle je Gesellschafter",
+       "",
+       ""
+      ],
+      [
+       "Summen prüfen",
+       "",
+       "Summe = Gesamtgewinn"
+      ]
+     ],
+     "teaser": "Am Ende: §§ 6, 16 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Zeitstrahl zuerst",
+     "punkte": [
+      [
+       "Die ersten zehn Minuten: alle Daten aus dem Sachverhalt auf eine Linie.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Darunter die Quote jedes Gesellschafters je Zeitraum.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Wer wann ein- oder austritt, siehst du dann auf einen Blick.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Leonie."
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "So sieht das aus",
+     "zeilen": [
+      [
+       "01.01.2026",
+       "Ada 50 %, Ben 50 %",
+       "WEISS",
+       null
+      ],
+      [
+       "30.06.2026",
+       "Ben verkauft an Cem",
+       "GELB",
+       "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "01.10.2026",
+       "Ada schenkt 10 %",
+       "PINK",
+       "§ 6 Abs. 3 S. 1 EStG"
+      ],
+      [
+       "31.12.2026",
+       "Gewinn verteilen",
+       "GRUEN",
+       null
+      ]
+     ]
+    },
+    {
+     "typ": "vergleich",
+     "titel": "2 · Welche Weiche?",
+     "links": {
+      "kopf": "Entgeltlich",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Ganzer Anteil: Veräußerung",
+        "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+       ],
+       [
+        "Teil eines Anteils: laufender Gewinn",
+        "§ 16 Abs. 1 S. 2 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Unentgeltlich",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Anteil oder Teil: Buchwerte fortführen",
+        "§ 6 Abs. 3 S. 1 EStG"
+       ],
+       [
+        "Einzelnes Wirtschaftsgut: Buchwert",
+        "§ 6 Abs. 5 S. 3 EStG"
+       ]
+      ]
+     },
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Eine Norm je Ereignis."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "3 · Getrennt zeigen",
+     "punkte": [
+      [
+       "Austrittsjahr: laufender Gewinn bis zum Stichtag und Veräußerungsgewinn in eigenen Zeilen.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Nur der Veräußerungsgewinn kann begünstigt sein.",
+       "ok",
+       "Regular",
+       "§§ 16 Abs. 4, 34 Abs. 2 Nr. 1 EStG"
+      ],
+      [
+       "Wer beides mischt, verliert Folgepunkte.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Nicht mischen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Zeit und Kontrolle",
+     "punkte": [
+      [
+       "25 Punkte entsprechen bei sechs Stunden rund 90 Minuten.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Davon zehn Minuten für Zeitstrahl und Tabelle: Das spart später.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zum Schluss fünf Minuten: Ergeben die Anteile den Gesamtgewinn?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Rechnet sich!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "25 Punkte = rund 90 Minuten",
+      "Zeitstrahl, Weiche, Tabelle, Kontrolle",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Zeitstrahl",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ereignis",
+        "b"
+       ],
+       [
+        " einordnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gewinne",
+        "c"
+       ],
+       [
+        " trennen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Summe",
+        "d"
+       ],
+       [
+        " prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Zeichnest du schon Zeitstrahlen?",
+     "teaser": "Weiterwischen: §§ 6, 16 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 6, 16 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 6 (3)",
+       [
+        [
+         "Wird ein Betrieb, ein Teilbetrieb oder",
+         null
+        ],
+        [
+         "der Anteil eines Mitunternehmers an einem Betrieb unentgeltlich übertragen,",
+         "b1"
+        ],
+        [
+         "so sind […] die Wirtschaftsgüter mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 16 (1)",
+       [
+        [
+         "Zu den Einkünften aus Gewerbebetrieb gehören auch Gewinne, die erzielt werden bei der Veräußerung […] 2.",
+         null
+        ],
+        [
+         "des gesamten Anteils eines Gesellschafters,",
+         "g1"
+        ],
+        [
+         "der als Unternehmer (Mitunternehmer) des Betriebs anzusehen ist […]",
+         null
+        ],
+        [
+         "Gewinne, die bei der Veräußerung eines Teils eines Anteils",
+         "r1"
+        ],
+        [
+         "im Sinne von Satz 1 Nummer 2 oder 3 erzielt werden,",
+         null
+        ],
+        [
+         "sind laufende Gewinne.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Buchwert",
+       "b1"
+      ],
+      [
+       "ganzer Anteil",
+       "g1"
+      ],
+      [
+       "Teil: laufend!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Einzelne Wirtschaftsgüter:",
+      "§ 6 Abs. 5 S. 3 EStG"
+     ]
+    }
+   ],
+   "caption": "Klausurtechnik für Klausur 3: Gesellschafterwechsel bei der Personengesellschaft sauber lösen.\n\n1. Zeitstrahl zuerst: alle Daten und die Quoten jedes Gesellschafters je Zeitraum.\n2. Jedes Ereignis einer Norm zuordnen: Veräußerung des ganzen Mitunternehmeranteils (§ 16 Abs. 1 S. 1 Nr. 2 EStG), Veräußerung eines Teils als laufender Gewinn (§ 16 Abs. 1 S. 2 EStG), unentgeltliche Übertragung zu Buchwerten (§ 6 Abs. 3 S. 1 EStG), einzelne Wirtschaftsgüter zwischen Mitunternehmer und Gesellschaft (§ 6 Abs. 5 S. 3 EStG).\n3. Im Austrittsjahr laufenden Gewinnanteil und Veräußerungsgewinn getrennt zeigen; nur der Veräußerungsgewinn kann begünstigt sein (§ 16 Abs. 4, § 34 Abs. 2 Nr. 1 EStG).\n4. Tabelle je Gesellschafter führen.\n5. Kontrolle: Die Anteile ergeben zusammen den Gesamtgewinn.\n\nZeit: Bei sechs Stunden für 100 Punkte entsprechen 25 Punkte rund 90 Minuten; zehn Minuten Vorarbeit lohnen sich.\n\nZum Schluss: § 6 Abs. 3, § 16 Abs. 1 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, S. 2, Abs. 4 EStG",
+    "§ 34 Abs. 2 Nr. 1 EStG",
+    "§ 6 Abs. 3 S. 1, Abs. 5 S. 3 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-225",
+   "themaTitel": "Pkw-Überlassung: Unternehmerentnahme oder entgeltliche Arbeitnehmerüberlassung",
+   "figuren": {
+    "A": {
+     "name": "Wiebke",
+     "kopf": "Gray Bun",
+     "haut": "#F2CDB0",
+     "haar": "#C8C8C8",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 3",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Firmenwagen",
+      "für Personal"
+     ],
+     "norm": "§ 3 Abs. 12 S. 2 UStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 3a + UStAE",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Listenpreis",
+        "Bold",
+        44
+       ],
+       [
+        "50.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Umsatzsteuer?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Wiebke führt eine GmbH. Ihr Mitarbeiter Kenan darf den Firmenwagen laut Arbeitsvertrag privat nutzen und tut es.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Listenpreis 50.000 €, 20 km zur Arbeit, ganzes Jahr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel Umsatzsteuer schuldet die GmbH?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Wiebke."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Entgeltlich?",
+     "punkte": [
+      [
+       "Vertraglich vereinbart und genutzt: Gegenleistung ist ein Teil der Arbeitsleistung.",
+       "ok",
+       "Regular",
+       "BFH vom 30.06.2022, V R 25/21 (BStBl II)"
+      ],
+      [
+       "Also ein tauschähnlicher Umsatz.",
+       "ok",
+       "Bold",
+       "§ 3 Abs. 12 S. 2 UStG"
+      ],
+      [
+       "Mündliche Abrede oder betriebliche Übung genügt regelmäßig auch.",
+       "warn",
+       "Regular",
+       "Abschn. 15.23 Abs. 9 S. 3 UStAE"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Arbeit gegen Auto."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Wo ist der Ort?",
+     "punkte": [
+      [
+       "Langfristige Vermietung eines Beförderungsmittels an eine Privatperson.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ort: Wohnsitz des Empfängers, hier Inland.",
+       "ok",
+       "Bold",
+       "§ 3a Abs. 3 Nr. 2 S. 3 UStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Kenan wohnt hier."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "3 · Bemessungsgrundlage",
+     "punkte": [
+      [
+       "Vereinfachung: lohnsteuerliche Werte als Bruttowerte, Umsatzsteuer herausrechnen.",
+       "ok",
+       "Regular",
+       "Abschn. 15.23 Abs. 11 Nr. 1 UStAE"
+      ],
+      [
+       "Kein Abschlag von 20 % für Kosten ohne Vorsteuer.",
+       "nein",
+       "Bold",
+       "Abschn. 15.23 Abs. 11 Nr. 1 UStAE"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Kein Rabatt!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Der Rechenweg",
+     "normen": [
+      "§ 8 Abs. 2 S. 2, 3 EStG",
+      "Abschn. 15.23 Abs. 11 UStAE"
+     ],
+     "zeilen": [
+      [
+       "Privat: 1 % × 12",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Arbeitsweg: 0,03 % je km",
+       "3.600 €",
+       "Regular",
+       null
+      ],
+      [
+       "Bruttowert",
+       "9.600 €",
+       "Regular",
+       null
+      ],
+      [
+       "Umsatzsteuer 19/119",
+       "1.532,77 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Bemessungsgrundlage: 8.067,23 €",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Die GmbH schuldet 1.532,77 €",
+      "Lohnsteuerwerte brutto, Steuer herausrechnen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Vertrag",
+        "a"
+       ],
+       [
+        " = Entgelt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ort",
+        "b"
+       ],
+       [
+        " beim Wohnsitz,",
+        null
+       ]
+      ],
+      [
+       [
+        "Werte",
+        "c"
+       ],
+       [
+        " brutto,",
+        null
+       ]
+      ],
+      [
+       [
+        "kein",
+        null
+       ],
+       [
+        " Abschlag",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du 20 % abgezogen?",
+     "teaser": "Weiterwischen: § 3a + UStAE markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 3, 3a UStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 3 (12)",
+       [
+        [
+         "[…] Ein",
+         null
+        ],
+        [
+         "tauschähnlicher Umsatz",
+         "g1"
+        ],
+        [
+         "liegt vor, wenn das Entgelt für eine sonstige Leistung in einer Lieferung oder sonstigen Leistung besteht.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 3a (3) 2.",
+       [
+        [
+         "[…] Die Vermietung eines Beförderungsmittels, die nicht als kurzfristig im Sinne des Satzes 2 anzusehen ist, an einen Empfänger, der weder ein Unternehmer ist, […] wird an dem Ort erbracht,",
+         null
+        ],
+        [
+         "an dem der Empfänger seinen Wohnsitz oder Sitz hat.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Auto gegen Arbeit",
+       "g1"
+      ],
+      [
+       "Ort",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "BFH vom 30.06.2022, V R 25/21 (BStBl II 2026, 254)",
+      "Teil der Arbeitsleistung ist das Entgelt"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "Abschn. 15.23 UStAE (Auszug)",
+     "absaetze": [
+      [
+       "(9) S. 2",
+       [
+        [
+         "Die Überlassung des Fahrzeugs ist als Vergütung für geleistete Dienste und damit",
+         null
+        ],
+        [
+         "als entgeltlich anzusehen,",
+         "g1"
+        ],
+        [
+         "wenn das Recht zur Privatnutzung des Dienstfahrzeugs",
+         null
+        ],
+        [
+         "individuell arbeitsvertraglich vereinbart",
+         "b1"
+        ],
+        [
+         "ist und unter Beachtung der wirtschaftlichen Realität ein das Dienstverhältnis mitprägender Zusammenhang besteht […].",
+         null
+        ]
+       ]
+      ],
+      [
+       "(11) S. 1",
+       [
+        [
+         "Aus Vereinfachungsgründen wird es nicht beanstandet, wenn für die umsatzsteuerrechtliche Bemessungsgrundlage anstelle der Ausgaben",
+         null
+        ],
+        [
+         "von den lohnsteuerrechtlichen Werten",
+         "g2"
+        ],
+        [
+         "ausgegangen wird.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Die lohnsteuerrechtlichen Werte sind",
+         null
+        ],
+        [
+         "als Bruttowerte anzusehen, aus denen die Umsatzsteuer herauszurechnen ist",
+         "r1"
+        ],
+        [
+         "[…].",
+         null
+        ]
+       ]
+      ],
+      [
+       "Nr. 1 S. 5",
+       [
+        [
+         "Ein",
+         null
+        ],
+        [
+         "pauschaler Abschlag von 20 %",
+         "gr1"
+        ],
+        [
+         "für nicht mit Vorsteuern belastete Ausgaben ist in diesen Fällen unzulässig.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "entgeltlich",
+       "g1"
+      ],
+      [
+       "1 % + 0,03 %",
+       "g2"
+      ],
+      [
+       "brutto!",
+       "r1"
+      ],
+      [
+       "kein Abschlag",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Ausnahmsweise unentgeltlich?",
+      "§ 3 Abs. 9a Nr. 1 UStG, Ort nach § 3a Abs. 1 UStG"
+     ]
+    }
+   ],
+   "caption": "Firmenwagen für Mitarbeiter: der Rechenweg zur Umsatzsteuer für Klausur 1.\n\n▸ Ist die private Nutzung individuell arbeitsvertraglich vereinbart und wird sie tatsächlich genutzt, ist die Überlassung entgeltlich: Gegenleistung ist ein Teil der Arbeitsleistung (BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254), also ein tauschähnlicher Umsatz (§ 3 Abs. 12 S. 2 UStG). Die Finanzverwaltung hat den UStAE mit BMF-Schreiben vom 03.03.2026 an dieses Urteil angepasst; mündliche Abreden oder betriebliche Übung genügen regelmäßig ebenfalls (Abschn. 15.23 Abs. 9 S. 2, 3 UStAE).\n▸ Ort: langfristige Vermietung eines Beförderungsmittels an einen Nichtunternehmer, also am Wohnsitz des Arbeitnehmers (§ 3a Abs. 3 Nr. 2 S. 3 UStG).\n▸ Bemessungsgrundlage: Aus Vereinfachungsgründen dürfen die lohnsteuerlichen Werte angesetzt werden (§ 8 Abs. 2 S. 2, 3 EStG). Sie gelten als Bruttowerte, aus denen die Umsatzsteuer herauszurechnen ist; ein Abschlag von 20 % für nicht vorsteuerbelastete Kosten ist hier nicht zulässig (Abschn. 15.23 Abs. 11 S. 1, 2, Nr. 1 S. 5 UStAE).\n\nRechnung: 1 % von 50.000 € × 12 = 6.000 €; 0,03 % × 50.000 € × 20 km × 12 = 3.600 €; Bruttowert 9.600 €; darin 19/119 = 1.532,77 € Umsatzsteuer, Bemessungsgrundlage 8.067,23 €.\n\nZum Schluss: §§ 3 Abs. 12, 3a Abs. 3 UStG und Abschn. 15.23 UStAE zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 12 S. 2 UStG",
+    "§ 3a Abs. 3 Nr. 2 S. 3 UStG",
+    "§ 8 Abs. 2 S. 2, 3 EStG",
+    "Abschn. 15.23 Abs. 11 Nr. 1 UStAE",
+    "BFH vom 30.06.2022, V R 25/21, BStBl II 2026, 254",
+    "BMF vom 03.03.2026, III C 3 - S 7117-e/00003/005/058",
+    "Abschn. 15.23 Abs. 9 S. 2, 3 UStAE"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-11",
+   "themaTitel": "Ertragsteuerliche Organschaft",
+   "figuren": {
+    "A": {
+     "name": "Rafael",
+     "kopf": "Short 1",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#8DB3F2",
+     "bart": "Moustache 1",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Mutter plus fünfhunderttausend, Tochter minus zweihunderttausend. Ohne Organschaft versteuert die Mutter alles. Mit Organschaft nur dreihunderttausend."
+    },
+    {
+     "id": "s1",
+     "text": "Ohne Organschaft bleibt der Verlust bei der Tochter, als Vortrag für ihre späteren Gewinne."
+    },
+    {
+     "id": "s2",
+     "text": "Mit Organschaft wird das Einkommen der Tochter der Mutter zugerechnet, auch wenn es negativ ist."
+    },
+    {
+     "id": "s3",
+     "text": "Dafür trägt die Mutter den Verlust auch zivilrechtlich, und der Vertrag läuft mindestens fünf Jahre."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Organschaft verrechnet sofort, verpflichtet aber fünf Jahre."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Tochter macht",
+     "Verlust:"
+    ],
+    "pille": "§ 14 Abs. 1 S. 1 KStG",
+    "figur": "A/sorge",
+    "name": "Rafael",
+    "icons": [
+     [
+      "tabler:hierarchy",
+      "GELB",
+      "Ohne"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Ohne Organschaft",
+      "wert": "500.000 €",
+      "farbe": "PINK",
+      "wort": "Ohne"
+     },
+     {
+      "label": "Mit Organschaft",
+      "wert": "300.000 €",
+      "farbe": "GRUEN",
+      "wort": "Mit"
+     }
+    ],
+    "stempel": {
+     "text": "200.000 € weniger",
+     "wort": "dreihunderttausend"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Ohne Organschaft",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Mutter versteuert",
+       "wert": "500.000 €",
+       "farbe": "PINK",
+       "wort": "Organschaft",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Verlustvortrag Tochter",
+       "wert": "200.000 €",
+       "farbe": "WEISS",
+       "wort": "Verlust",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 10d EStG, § 8 Abs. 1 KStG",
+       "wort": "Vortrag"
+      }
+     ],
+     "icon": [
+      "tabler:lock",
+      "GELB",
+      "bleibt"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Mit Organschaft",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "500.000 € – 200.000 €",
+       "wort": "Einkommen",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Mutter versteuert",
+       "wert": "300.000 €",
+       "farbe": "GRUEN",
+       "wort": "zugerechnet",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 14 Abs. 1 S. 1 KStG",
+       "wort": "negativ"
+      }
+     ],
+     "icon": [
+      "tabler:arrows-split",
+      "GELB",
+      "Mit"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "zugerechnet",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Der Preis",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Verlustübernahme",
+       "wert": "Pflicht",
+       "farbe": "GELB",
+       "wort": "Verlust",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Vertrag",
+       "wert": "≥ 5 Jahre",
+       "farbe": "GELB",
+       "wort": "Vertrag",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 14 Abs. 1 S. 1 Nr. 3 KStG",
+       "wort": "fünf"
+      }
+     ],
+     "icon": [
+      "tabler:file-certificate",
+      "GELB",
+      "Vertrag"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Organschaft:",
+     "Verlust sofort",
+     "verrechnet,",
+     "Vertrag fünf Jahre"
+    ],
+    "woerter": [
+     null,
+     "verrechnet",
+     "verpflichtet",
+     "Jahre"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Jahre",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Mit oder ohne Organschaft: Was passiert mit dem Verlust der Tochter? 🏢\n\n▸ Ohne Organschaft ist jede Kapitalgesellschaft eigenes Steuersubjekt. Der Verlust der Tochter bleibt bei ihr und wird nur mit ihren eigenen Gewinnen verrechnet (§ 8 Abs. 1 KStG i. V. m. § 10d EStG). Die Mutter versteuert 500.000 €.\n▸ Mit Organschaft wird das Einkommen der Organgesellschaft dem Organträger zugerechnet, auch ein negatives (§ 14 Abs. 1 S. 1 KStG). Die Mutter versteuert 500.000 € – 200.000 € = 300.000 €.\n▸ Der Preis: Der Organträger übernimmt die Verluste auch zivilrechtlich (§ 302 AktG; bei der GmbH als Organgesellschaft § 17 Abs. 1 S. 2 Nr. 2 KStG), der Gewinnabführungsvertrag muss mindestens fünf Jahre laufen und durchgeführt werden (§ 14 Abs. 1 S. 1 Nr. 3 KStG).\n▸ Verluste der Tochter aus der Zeit vor der Organschaft kann sie während der Organschaft nicht abziehen (§ 15 S. 1 Nr. 1 KStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 14 Abs. 1 S. 1 Nr. 3 KStG",
+    "§ 15 S. 1 Nr. 1 KStG",
+    "§ 17 Abs. 1 S. 2 Nr. 2 KStG",
+    "§ 8 Abs. 1 KStG",
+    "§ 10d EStG",
+    "§ 302 AktG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "frage": [
+    "Deutsche Diplomatin,",
+    "kein Wohnsitz hier:",
+    "steuerpflichtig?"
+   ],
+   "optionen": [
+    "Nein, gar nicht",
+    "Ja, erweitert unbeschränkt",
+    "Nur beschränkt"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Hijab",
+     "haut": "#9C6644",
+     "oberteil": "#C9B8F2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "titel": [
+    "B: erweitert",
+    "unbeschränkt"
+   ],
+   "optionen": [
+    "Nein, gar nicht",
+    "Ja, erweitert unbeschränkt",
+    "Nur beschränkt"
+   ],
+   "richtig": 1,
+   "text": "Arbeitslohn aus deutscher öffentlicher Kasse, im Gastland nur beschränkt erfasst: Deutschland besteuert unbeschränkt.",
+   "norm": "§ 1 Abs. 2 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Hijab",
+     "haut": "#9C6644",
+     "oberteil": "#C9B8F2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Personengesellschaften",
+   "beitragSlot": "b1",
+   "titel": [
+    "Gesellschafterwechsel lösen"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-glossar-3",
+   "titel": [
+    "Rückstellung:",
+    "welcher Betrag?"
+   ],
+   "norm": "§ 253 Abs. 1 S. 2 HGB",
+   "punkte": [
+    [
+     "Handelsbilanz: Erfüllungsbetrag, mit künftigen Preissteigerungen.",
+     "ok",
+     "§ 253 Abs. 1 S. 2 HGB"
+    ],
+    [
+     "Steuerbilanz: Preise am Stichtag, keine künftigen Steigerungen.",
+     "warn",
+     "§ 6 Abs. 1 Nr. 3a Buchst. f EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Bun 2",
+     "haut": "#F1C7A5",
+     "haar": "#3B2A20",
+     "oberteil": "#8DB3F2",
+     "bueste": "Dress"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Umsatzsteuer",
+   "beitragSlot": "b2",
+   "titel": [
+    "Firmenwagen für Personal"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Die letzten",
+    "20 Minuten"
+   ],
+   "punkte": [
+    [
+     "Offene Teile kurz anlösen: Ergebnis und Norm.",
+     "ok",
+     null
+    ],
+    [
+     "Keine lange Herleitung mehr.",
+     "ok",
+     null
+    ],
+    [
+     "Blätter nummerieren und ordnen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Short 3",
+     "haut": "#E8B98F",
+     "haar": "#7A4B2A",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "Z/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-383",
+   "titel": [
+    "§ 370 AO:",
+    "die Reihenfolge"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Tathandlung: falsche Angaben oder pflichtwidriges Schweigen.",
+     "ok",
+     "§ 370 Abs. 1 Nr. 1, 2 AO"
+    ],
+    [
+     "Taterfolg: Steuer verkürzt oder Vorteil erlangt.",
+     "ok",
+     "§ 370 Abs. 4 AO"
+    ],
+    [
+     "Dann Vorsatz, Rechtswidrigkeit, Schuld.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:gavel",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Cornrows",
+     "haut": "#5C3A24",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Körperschaftsteuer",
+   "beitragSlot": "b3",
+   "titel": [
+    "Tochter macht Verlust"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t5-37",
+   "titel": [
+    "Zinsschranke:",
+    "Zinsen verloren?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Gesperrte Zinsen",
+      null
+     ]
+    ],
+    [
+     [
+      "wandern in den",
+      null
+     ]
+    ],
+    [
+     [
+      "Zinsvortrag",
+      "a"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 4h Abs. 1 S. 5, 6 EStG",
+   "groesse": 76,
+   "figuren": {
+    "M": {
+     "kopf": "Gray Short",
+     "haut": "#E0AC85",
+     "haar": "#BDBDBD",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 2",
+     "bueste": "jacket"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

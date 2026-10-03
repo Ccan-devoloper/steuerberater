@@ -1,0 +1,1369 @@
+{
+ "datum": "2026-12-21",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-06",
+   "themaTitel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
+   "figuren": {
+    "A": {
+     "name": "Ida",
+     "kopf": "Long Curly",
+     "haut": "#E0AC8A",
+     "haar": "#3B2A20",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater Dots"
+    },
+    "B": {
+     "name": "Nuri",
+     "kopf": "Short 2",
+     "haut": "#7A4B2E",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bart": "Goatee 1",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Verlust nach",
+      "Wechsel?"
+     ],
+     "norm": "§ 10a GewStG",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 10a + R 10a.3",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Fehlbetrag",
+        "Bold",
+        44
+       ],
+       [
+        "240.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Wie viel bleibt?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Ida und Tarek sind je zur Hälfte an einer OHG beteiligt. Fehlbetrag zum 31.12.2025: 240.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Tarek verkauft seinen Anteil zum 31.12.2025 an Nuri.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Gewerbeertrag 2026: 300.000 €. Wie viel Verlust geht ab?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Ida."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wem gehört der Verlust?",
+     "punkte": [
+      [
+       "Nicht der OHG, sondern jedem Mitunternehmer selbst.",
+       "ok",
+       "Regular",
+       "R 10a.3 Abs. 3 S. 1 GewStR"
+      ],
+      [
+       "Verteilt wird nach dem allgemeinen Gewinnschlüssel, Vorabgewinne zählen nicht.",
+       "ok",
+       "Regular",
+       "§ 10a S. 4 GewStG"
+      ],
+      [
+       "Und: Es muss derselbe Betrieb bleiben.",
+       "warn",
+       "Bold",
+       "R 10a.2 GewStR"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Ich bin Nuri, der Neue."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Tarek geht, sein Verlust auch",
+     "punkte": [
+      [
+       "Tareks Hälfte, 120.000 €, fällt mit seinem Ausscheiden weg.",
+       "nein",
+       "Bold",
+       "R 10a.3 Abs. 3 GewStR"
+      ],
+      [
+       "Nuri hat diesen Verlust nicht selbst erlitten. Der Kaufvertrag ändert daran nichts.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:sorge",
+     "x": 790,
+     "blase": "Nichts für mich?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Idas Hälfte bleibt",
+     "punkte": [
+      [
+       "Ihre 120.000 € gehen nur gegen ihren Anteil am Gewerbeertrag 2026.",
+       "ok",
+       "Regular",
+       "§ 10a S. 5 GewStG"
+      ],
+      [
+       "Anteil nach dem Gewinnschlüssel des Abzugsjahres: 50 %.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Über 1 Mio. €: 60 %, nicht 70 % wie § 10d",
+      "GELB",
+      "§ 10a S. 2 GewStG"
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Nur mein Anteil."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 10a S. 1, 5 GewStG"
+     ],
+     "zeilen": [
+      [
+       "Gewerbeertrag 2026",
+       "300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "davon Ida (50 %)",
+       "150.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abzug Idas Fehlbetrag",
+       "– 120.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Gewerbeertrag nach Abzug",
+       "180.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Tareks 120.000 € sind verloren",
+      "ROT"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Der Gewerbeertrag 2026 beträgt nur 200.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel wird abgezogen, und was stellt das Finanzamt zum 31.12.2026 fest?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung Variante",
+     "normen": [
+      "§ 10a S. 5, 6 GewStG"
+     ],
+     "zeilen": [
+      [
+       "davon Ida (50 %)",
+       "100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abzug Idas Fehlbetrag",
+       "– 100.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Fehlbetrag 31.12.2026",
+       "20.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Rest bleibt Ida."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Abziehbar: 120.000 €, nicht 240.000 €",
+      "Ausgeschiedener Anteil weg, Rest nur gegen eigenen Anteil",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Verlust",
+        "a"
+       ],
+       [
+        " folgt Person,",
+        null
+       ]
+      ],
+      [
+       [
+        "Abgang",
+        "b"
+       ],
+       [
+        ": Anteil weg,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest",
+        "c"
+       ],
+       [
+        " nur gegen",
+        null
+       ]
+      ],
+      [
+       [
+        "eigenen Ertrag",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "240.000 € abgezogen?",
+     "teaser": "Weiterwischen: § 10a + R 10a.3 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Richtlinie markieren",
+     "kopf": "§ 10a GewStG Gewerbeverlust (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Der maßgebende Gewerbeertrag wird",
+         null
+        ],
+        [
+         "bis zu einem Betrag in Höhe von 1 Million Euro",
+         "g1"
+        ],
+        [
+         "um die Fehlbeträge gekürzt, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Bei einer Mitunternehmerschaft ist der […] Fehlbetrag den Mitunternehmern entsprechend dem",
+         null
+        ],
+        [
+         "[…] allgemeinen Gewinnverteilungsschlüssel",
+         "b1"
+        ],
+        [
+         "zuzurechnen;",
+         null
+        ],
+        [
+         "Vorabgewinnanteile sind nicht zu berücksichtigen.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "S. 5",
+       [
+        [
+         "Für den Abzug der den Mitunternehmern zugerechneten Fehlbeträge […] ist der […] Gewerbeertrag […] den Mitunternehmern entsprechend dem […]",
+         null
+        ],
+        [
+         "für das Abzugsjahr",
+         "gr1"
+        ],
+        [
+         "ergebenden allgemeinen Gewinnverteilungsschlüssel zuzurechnen; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Sockel",
+       "g1"
+      ],
+      [
+       "Verlust je Kopf",
+       "b1"
+      ],
+      [
+       "ohne Vorab",
+       "r1"
+      ],
+      [
+       "Ertrag je Kopf",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Unternehmensidentität: R 10a.2 GewStR",
+      "Derselbe Betrieb muss weiterlaufen"
+     ],
+     "zweite": {
+      "kopf": "R 10a.3 Abs. 3 GewStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Bei Personengesellschaften und anderen Mitunternehmerschaften sind Träger des Rechts auf den Verlustabzug",
+          null
+         ],
+         [
+          "die einzelnen Mitunternehmer.",
+          "g1"
+         ]
+        ]
+       ],
+       [
+        "S. 9",
+        [
+         [
+          "[…] 1. Beim Ausscheiden eines Gesellschafters […]",
+          null
+         ],
+         [
+          "entfällt der Verlustabzug",
+          "r1"
+         ],
+         [
+          "[…] anteilig in der Höhe, in der der Fehlbetrag dem ausscheidenden Gesellschafter […] zuzurechnen ist. […] 3.",
+          null
+         ],
+         [
+          "Veräußert ein Gesellschafter seinen Mitunternehmeranteil an einen Dritten,",
+          "b1"
+         ],
+         [
+          "sind die Grundsätze der Nummern 1 und 2 entsprechend anzuwenden.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "je Person",
+        "g1"
+       ],
+       [
+        "Tarek: weg",
+        "r1"
+       ],
+       [
+        "Nuri: nichts",
+        "b1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Gewerbeverlust nach Gesellschafterwechsel: Wie viel darf die OHG noch abziehen? Eine echte Prüfungsfrage für Klausur 2.\n\n▸ Träger des Verlustabzugs ist bei der Mitunternehmerschaft jeder einzelne Mitunternehmer (Unternehmeridentität, R 10a.3 Abs. 3 S. 1 GewStR); zusätzlich muss derselbe Betrieb fortgeführt werden (Unternehmensidentität, R 10a.2 GewStR).\n▸ Der Fehlbetrag wird nach dem allgemeinen Gewinnverteilungsschlüssel ohne Vorabgewinnanteile auf die Mitunternehmer verteilt (§ 10a S. 4 GewStG).\n▸ Scheidet ein Gesellschafter aus, entfällt sein Verlustanteil; der Erwerber seines Anteils übernimmt ihn nicht (R 10a.3 Abs. 3 GewStR).\n▸ Der verbleibende Anteil wird nur mit dem Gewerbeertrag verrechnet, der nach dem Gewinnverteilungsschlüssel des Abzugsjahres auf diesen Mitunternehmer entfällt (§ 10a S. 5 GewStG).\n▸ Sockel 1 Mio. €, darüber 60 % (§ 10a S. 1, 2 GewStG) – nicht 70 % wie bei der Einkommensteuer (§ 10d Abs. 2 S. 1 EStG). Der Rest wird gesondert festgestellt (§ 10a S. 6 GewStG).\n\nLösung: 300.000 € × 50 % = 150.000 €, Abzug 120.000 €, Gewerbeertrag 180.000 €. Variante: 100.000 € Abzug, 20.000 € Fehlbetrag festzustellen.\n\nZum Schluss: § 10a GewStG und R 10a.3 Abs. 3 GewStR zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 10a S. 1, 2, 4, 5, 6 GewStG",
+    "R 10a.2 GewStR",
+    "R 10a.3 Abs. 3 GewStR",
+    "§ 10d Abs. 2 S. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-4",
+   "themaTitel": "Was macht ein Wirtschaftsgut zu Sonderbetriebsvermögen II?",
+   "figuren": {
+    "A": {
+     "name": "Frida",
+     "kopf": "Gray Medium",
+     "haut": "#F2D3BD",
+     "haar": "#A8A8A8",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Kemal",
+     "kopf": "Pomp",
+     "haut": "#C68E6A",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "SBV II",
+      "erkennen"
+     ],
+     "norm": "R 4.2 Abs. 2 S. 2 EStR",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 15 + R 4.2",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "GmbH-Anteil",
+        "Bold",
+        44
+       ],
+       [
+        "100 %",
+        "ExtraBold",
+        96
+       ],
+       [
+        "SBV II?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "SBV II in 4 Schritten",
+     "schritte": [
+      [
+       "Wem gehört es?",
+       "R 4.2 Abs. 2 S. 1 EStR",
+       "einem Gesellschafter"
+      ],
+      [
+       "Dient es dem Betrieb?",
+       "R 4.2 Abs. 2 S. 2 EStR",
+       "dann SBV I, geht vor"
+      ],
+      [
+       "Dient es der Beteiligung?",
+       "R 4.2 Abs. 2 S. 2 EStR",
+       "dann SBV II"
+      ],
+      [
+       "Sonst gewillkürt?",
+       "R 4.2 Abs. 2 S. 3 EStR",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 15 EStG + R 4.2 markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Wem gehört es?",
+     "punkte": [
+      [
+       "Gehört es der Gesellschaft, ist es Gesellschaftsvermögen und kein Sonderbetriebsvermögen.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "SBV heißt: Eigentum eines, mehrerer oder aller Gesellschafter.",
+       "ok",
+       "Bold",
+       "R 4.2 Abs. 2 S. 1 EStR"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Frida, Kommanditistin."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · SBV I geht vor",
+     "punkte": [
+      [
+       "Grundstück an die KG vermietet: Es dient dem Betrieb, also SBV I.",
+       "ok",
+       "Regular",
+       "R 4.2 Abs. 2 S. 2 EStR"
+      ],
+      [
+       "Die Miete ist Sondervergütung.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "SBV II erst prüfen, wenn SBV I ausscheidet.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ich bin Kemal. Und wann II?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Dient es der Beteiligung?",
+     "punkte": [
+      [
+       "Kredit für die eigene Einlage: negatives SBV II, Zinsen sind Sonderbetriebsausgaben.",
+       "ok",
+       "Regular",
+       "§ 4 Abs. 4 EStG"
+      ],
+      [
+       "Anteil an der Komplementär-GmbH ohne eigenes Geschäft von Gewicht: SBV II.",
+       "ok",
+       "Bold",
+       "H 4.2 (2) EStH"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Stärkt meinen Einfluss!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Frida hält 100 % an der Komplementär-GmbH. Die GmbH führt nur die Geschäfte der KG.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ergebnis: notwendiges SBV II. Ausschüttungen sind gewerbliche Sonderbetriebseinnahmen.",
+       "ok",
+       "Bold",
+       "§ 20 Abs. 8 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Klarer Fall."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die GmbH betreibt zusätzlich einen eigenen Onlinehandel mit erheblichem Umsatz.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Bleiben Fridas GmbH-Anteile SBV II?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 790,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Eigenes Geschäft mit mehr als untergeordnetem Gewicht: kein notwendiges SBV II.",
+       "nein",
+       "Regular",
+       "H 4.2 (2) EStH"
+      ],
+      [
+       "Ausschüttungen sind dann Einkünfte aus Kapitalvermögen.",
+       "ok",
+       "Bold",
+       "§ 20 Abs. 1 Nr. 1 EStG"
+      ]
+     ],
+     "figur": "B:staunt",
+     "x": 290,
+     "blase": "Andere Einkunftsart!",
+     "extra": [
+      "Falle: 5 % an der GmbH sind kein SBV II",
+      "ROT",
+      "H 4.2 (2) EStH"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Rangfolge: SBV I vor SBV II",
+      "Frage immer: Betrieb oder Beteiligung?",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Betrieb",
+        "a"
+       ],
+       [
+        ": SBV I,",
+        null
+       ]
+      ],
+      [
+       [
+        "Beteiligung",
+        "b"
+       ],
+       [
+        ": SBV II,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einfluss",
+        "c"
+       ],
+       [
+        " muss steigen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wo hast du SBV II schon übersehen?",
+     "teaser": "Weiterwischen: § 15 + R 4.2 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Richtlinie markieren",
+     "kopf": "§ 15 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1) S. 1 Nr. 2",
+       [
+        [
+         "die Gewinnanteile der Gesellschafter",
+         "g1"
+        ],
+        [
+         "einer Offenen Handelsgesellschaft, einer Kommanditgesellschaft und einer anderen Gesellschaft, bei der der Gesellschafter als",
+         null
+        ],
+        [
+         "Unternehmer (Mitunternehmer)",
+         "b1"
+        ],
+        [
+         "des Betriebs anzusehen ist, und",
+         null
+        ],
+        [
+         "die Vergütungen,",
+         "r1"
+        ],
+        [
+         "die der Gesellschafter von der Gesellschaft für seine Tätigkeit im Dienst der Gesellschaft oder für die Hingabe von Darlehen oder",
+         null
+        ],
+        [
+         "für die Überlassung von Wirtschaftsgütern",
+         "gr1"
+        ],
+        [
+         "bezogen hat.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Anteil",
+       "g1"
+      ],
+      [
+       "Wer?",
+       "b1"
+      ],
+      [
+       "Vergütung",
+       "r1"
+      ],
+      [
+       "SBV I",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Komplementär-GmbH: H 4.2 (2) EStH",
+      "Eigenes Geschäft von Gewicht: kein SBV II"
+     ],
+     "zweite": {
+      "kopf": "R 4.2 Abs. 2 EStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 2",
+        [
+         [
+          "Wirtschaftsgüter, die",
+          null
+         ],
+         [
+          "einem, mehreren oder allen Mitunternehmern gehören",
+          "g1"
+         ],
+         [
+          "und die nicht Gesamthandsvermögen […] sind, gehören zum notwendigen Betriebsvermögen, wenn sie entweder",
+          null
+         ],
+         [
+          "unmittelbar dem Betrieb der Personengesellschaft dienen",
+          "b1"
+         ],
+         [
+          "(Sonderbetriebsvermögen I) oder unmittelbar zur",
+          null
+         ],
+         [
+          "Begründung oder Stärkung der Beteiligung",
+          "r1"
+         ],
+         [
+          "des Mitunternehmers an der Personengesellschaft eingesetzt werden sollen (Sonderbetriebsvermögen II).",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 3",
+        [
+         [
+          "Solche Wirtschaftsgüter können zum gewillkürten Betriebsvermögen gehören, wenn sie",
+          null
+         ],
+         [
+          "objektiv geeignet und subjektiv dazu bestimmt",
+          "gr1"
+         ],
+         [
+          "sind, […] zu fördern.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Eigentum",
+        "g1"
+       ],
+       [
+        "SBV I",
+        "b1"
+       ],
+       [
+        "SBV II",
+        "r1"
+       ],
+       [
+        "gewillkürt",
+        "gr1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Sonderbetriebsvermögen II erkennen: das Prüfschema für die Bilanzklausur.\n\n1. Sonderbetriebsvermögen sind Wirtschaftsgüter im Eigentum eines oder mehrerer Mitunternehmer (R 4.2 Abs. 2 S. 1 EStR).\n2. Dient das Wirtschaftsgut unmittelbar dem Betrieb der Gesellschaft, ist es SBV I, etwa ein an die KG vermietetes Grundstück; die Miete ist Sondervergütung (R 4.2 Abs. 2 S. 2 EStR; § 15 Abs. 1 S. 1 Nr. 2 EStG).\n3. Wird es unmittelbar zur Begründung oder Stärkung der Beteiligung eingesetzt, ist es notwendiges SBV II (R 4.2 Abs. 2 S. 2 EStR). Beispiele: Darlehen zur Finanzierung der Einlage (Zinsen als Sonderbetriebsausgaben, § 4 Abs. 4 EStG) und die Beteiligung des Kommanditisten an der Komplementär-GmbH, außer diese hat ein eigenes Geschäft von mehr als untergeordnetem Gewicht (H 4.2 (2) EStH „Anteile an Kapitalgesellschaften“).\n4. Sonst gewillkürtes SBV, wenn objektiv geeignet und subjektiv bestimmt (R 4.2 Abs. 2 S. 3 EStR).\n\nFolge: Ausschüttungen auf Anteile im SBV II sind gewerbliche Einkünfte (§ 20 Abs. 8 S. 1 EStG), sonst Kapitalerträge (§ 20 Abs. 1 Nr. 1 EStG).\nKlausurfalle: Eine Minderheitsbeteiligung an der Komplementär-GmbH, die den Einfluss in der KG nicht stärkt, ist kein notwendiges SBV II (H 4.2 (2) EStH).\n\nZum Schluss: § 15 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "R 4.2 Abs. 2 S. 1–3 EStR",
+    "H 4.2 (2) EStH",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 4 Abs. 4 EStG",
+    "§ 20 Abs. 1 Nr. 1, Abs. 8 S. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-28",
+   "themaTitel": "Steuersatz und Härteausgleich nach § 19 ErbStG anwenden",
+   "figuren": {
+    "A": {
+     "name": "Amira",
+     "kopf": "Hijab",
+     "haut": "#A8714D",
+     "hut": "#7DD3C0",
+     "oberteil": "#F4C27A",
+     "bueste": "Turtleneck"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Amira versteuert dreihundertzehntausend Euro. Fünfzehn Prozent wären sechsundvierzigtausendfünfhundert. Mit Härteausgleich: achtunddreißigtausend."
+    },
+    {
+     "id": "s1",
+     "text": "Stufentarif: Ein Satz gilt für den ganzen Erwerb. Über dreihunderttausend springt er von elf auf fünfzehn Prozent."
+    },
+    {
+     "id": "s2",
+     "text": "Vergleich: elf Prozent auf die Grenze, also dreiunddreißigtausend. Plus die Hälfte des Überhangs: fünftausend."
+    },
+    {
+     "id": "s3",
+     "text": "Zusammen achtunddreißigtausend. Liegt der Satz über dreißig Prozent, gilt drei Viertel statt der Hälfte."
+    },
+    {
+     "id": "cta",
+     "text": "Knapp über der Grenze? Härteausgleich rechnen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "310.000 €",
+     "zu versteuern"
+    ],
+    "pille": "§ 19 ErbStG",
+    "figur": "A/sorge",
+    "name": "Amira",
+    "icons": [
+     [
+      "tabler:calculator",
+      "GELB",
+      "Härteausgleich"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Ohne Ausgleich",
+      "wert": "46.500 €",
+      "farbe": "ROT",
+      "wort": "Fünfzehn"
+     },
+     {
+      "label": "Mit Ausgleich",
+      "wert": "38.000 €",
+      "farbe": "GRUEN",
+      "wort": "Härteausgleich"
+     }
+    ],
+    "stempel": {
+     "text": "8.500 € weniger",
+     "wort": "achtunddreißigtausend"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Stufentarif",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Ein Satz für alles",
+       "wort": "Satz",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "bis 300.000 €",
+       "wert": "11 %",
+       "farbe": "WEISS",
+       "wort": "elf",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "über 300.000 €",
+       "wert": "15 %",
+       "farbe": "ROT",
+       "wort": "fünfzehn",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 19 Abs. 1 ErbStG",
+       "wort": "Stufentarif"
+      }
+     ],
+     "icon": [
+      "tabler:stairs-up",
+      "GELB",
+      "springt"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Vergleichsrechnung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "300.000 € × 11 %",
+       "wert": "33.000 €",
+       "farbe": "GELB",
+       "wort": "Grenze",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Hälfte von 10.000 €",
+       "wert": "+ 5.000 €",
+       "farbe": "WEISS",
+       "wort": "Hälfte",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 19 Abs. 3 Buchst. a ErbStG",
+       "wort": "Vergleich"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Hälfte",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "38.000 €",
+       "wort": "Zusammen",
+       "size": 150
+      },
+      {
+       "typ": "text",
+       "text": "Satz über 30 %",
+       "unter": "drei Viertel statt Hälfte",
+       "wort": "Viertel",
+       "farbe": "GELB",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 19 Abs. 3 Buchst. b ErbStG",
+       "wort": "dreißig"
+      }
+     ],
+     "icon": [
+      "tabler:circle-check",
+      "GRUEN",
+      "Zusammen"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Stufentarif:",
+     "ein Satz für alles,",
+     "knapp drüber:",
+     "Härteausgleich"
+    ],
+    "woerter": [
+     null,
+     "Knapp",
+     "Grenze",
+     "Härteausgleich"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "rechnen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Erbschaftsteuer knapp über der Wertgrenze: So rechnest du den Härteausgleich. 🧮\n\n▸ Stufentarif: Ein Steuersatz gilt für den gesamten Erwerb; in Steuerklasse I bis 75.000 € 7 %, bis 300.000 € 11 %, bis 600.000 € 15 % (§ 19 Abs. 1 ErbStG).\n▸ Härteausgleich: Der Unterschied zur Steuer an der letzten Wertgrenze wird nur erhoben, soweit er bei Sätzen bis 30 % aus der Hälfte, bei Sätzen über 30 % aus drei Vierteln des übersteigenden Betrags gedeckt werden kann (§ 19 Abs. 3 Buchst. a, b ErbStG).\n▸ Beispiel Steuerklasse I, steuerpflichtiger Erwerb nach Freibetrag 310.000 €: regulär 15 % = 46.500 €. Vergleich: 300.000 € × 11 % = 33.000 € + 50 % von 10.000 € = 5.000 €, also 38.000 €.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 19 Abs. 1 ErbStG",
+    "§ 19 Abs. 3 Buchst. a, b ErbStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-15",
+   "frage": [
+    "Beratung an",
+    "Unternehmer: Ort?"
+   ],
+   "optionen": [
+    "Am Sitz des Beraters",
+    "Wo der Empfänger sein Unternehmen betreibt",
+    "Immer im Inland"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-15",
+   "titel": [
+    "B: beim",
+    "Empfänger"
+   ],
+   "optionen": [
+    "Am Sitz des Beraters",
+    "Wo der Empfänger sein Unternehmen betreibt",
+    "Immer im Inland"
+   ],
+   "richtig": 1,
+   "text": "B2B-Grundregel. Sonderorte wie beim Grundstück gehen vor.",
+   "norm": "§ 3a Abs. 2 S. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Verlust nach Wechsel?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-10",
+   "titel": [
+    "Doppelwohnsitz:",
+    "wer ist ansässig?"
+   ],
+   "norm": "Art. 4 Abs. 2 OECD-MA",
+   "punkte": [
+    [
+     "Erst ständige Wohnstätte, dann Lebensmittelpunkt.",
+     "ok",
+     "Art. 4 Abs. 2 Buchst. a OECD-MA"
+    ],
+    [
+     "Unbeschränkt steuerpflichtig bleibt man trotzdem.",
+     "warn",
+     "§ 1 Abs. 1 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium Straight",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#8DB3F2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "SBV II erkennen"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "Feiertage planen"
+   ],
+   "punkte": [
+    [
+     "Zwei ganz freie Tage fest eintragen.",
+     "ok",
+     null
+    ],
+    [
+     "An den übrigen Tagen kurze Einheiten: ein Thema, eine Übungsaufgabe.",
+     "ok",
+     null
+    ],
+    [
+     "Erholung gehört zum Plan.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:calendar-heart",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Long Afro",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F6D365"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-5",
+   "titel": [
+    "Schwester vermietet",
+    "an Schwester"
+   ],
+   "punkte": [
+    [
+     "Gewerbliche Personengesellschaft vermietet an Schwester: Wirtschaftsgut bleibt bei der Vermieterin.",
+     "ok",
+     "H 15.8 (1) EStH"
+    ],
+    [
+     "Kein SBV bei der nutzenden Gesellschaft.",
+     "nein",
+     null
+    ]
+   ],
+   "icon": "tabler:building-community",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Bangs 2",
+     "haut": "#F3D0B5",
+     "haar": "#8B4A2B",
+     "oberteil": "#F9A8D4"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Härteausgleich gerechnet"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-8-5",
+   "titel": [
+    "Einspruchsfrist",
+    "sicher zählen"
+   ],
+   "zeilen": [
+    [
+     [
+      "Tag 4",
+      "a"
+     ],
+     [
+      " nach Aufgabe,",
+      null
+     ]
+    ],
+    [
+     [
+      "dann ",
+      null
+     ],
+     [
+      "ein Monat",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "Wochenende",
+      "c"
+     ],
+     [
+      " schiebt.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§§ 108, 122, 355 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Short 4",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 5",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ernst",
+   "groesse": 78
+  }
+ ]
+}

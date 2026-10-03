@@ -1,0 +1,1026 @@
+{
+ "datum": "2026-11-01",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-44",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 44",
+   "figuren": {
+    "A": {
+     "name": "Marit",
+     "kopf": "Medium Straight",
+     "haut": "#F2CBB0",
+     "haar": "#C9A15A",
+     "oberteil": "#F28C8C",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Taro",
+     "kopf": "Short 4",
+     "haut": "#EAC9A6",
+     "haar": "#151515",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Alle 3",
+      "Klausuren"
+     ],
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:calendar-stats",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Woche in 3 Klausuren",
+     "schritte": [
+      [
+       "Klausur 1 · USt und ErbSt",
+       "§§ 3a, 13b UStG · § 19 ErbStG",
+       "B2B-Ort und Härteausgleich"
+      ],
+      [
+       "Klausur 2 · Einkommensteuer",
+       "§ 6 Abs. 3 EStG · GrS 4-6/89",
+       "Teilentgelt: privat und betrieblich"
+      ],
+      [
+       "Klausur 3 · Bilanz und PersG",
+       "§ 6 Abs. 3, § 4 Abs. 4a EStG",
+       "Sonderbetriebsvermögen und Überentnahme"
+      ]
+     ],
+     "teaser": "Am Ende: § 6 Abs. 3 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 1 · USt und ErbSt",
+     "punkte": [
+      [
+       "B2B-Beratung aus dem EU-Ausland: Ort beim Empfänger, er schuldet die Steuer.",
+       "ok",
+       "Regular",
+       "§ 3a Abs. 2 S. 1, § 13b Abs. 1, 5 S. 1 UStG"
+      ],
+      [
+       "Härteausgleich: Die Mehrsteuer darf bei Sätzen bis 30 % die Hälfte des Betrags über der Grenze nicht übersteigen.",
+       "warn",
+       "Bold",
+       "§ 19 Abs. 3 ErbStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Grenze prüfen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 2 · Einkommensteuer",
+     "punkte": [
+      [
+       "Haus gegen Ausgleich an Geschwister: teils entgeltlich, aufteilen nach Verkehrswert.",
+       "warn",
+       "Regular",
+       "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847"
+      ],
+      [
+       "Betrieb gegen Abfindung bis zum Kapitalkonto: unentgeltlich, Buchwerte fortführen.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 3 S. 1 EStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Privat oder Betrieb?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 3 · Bilanz und PersG",
+     "punkte": [
+      [
+       "Anteil verschenkt, wesentliches Sonderbetriebsvermögen behalten: kein Buchwert, der ganze Anteil gilt als aufgegeben.",
+       "nein",
+       "Bold",
+       "§ 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Überentnahme: 6 % nicht abziehbar, höchstens Schuldzinsen minus 2.050 €.",
+       "warn",
+       "Regular",
+       "§ 4 Abs. 4a S. 3, 4 EStG"
+      ]
+     ],
+     "figur": "B:sorge",
+     "x": 790,
+     "blase": "Das kostet!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ort",
+        "a"
+       ],
+       [
+        " beim Empfänger,",
+        null
+       ]
+      ],
+      [
+       [
+        "Härte",
+        "b"
+       ],
+       [
+        " halbiert den Sprung,",
+        null
+       ]
+      ],
+      [
+       [
+        "privat",
+        "c"
+       ],
+       [
+        " wird aufgeteilt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Sonder-BV",
+        "d"
+       ],
+       [
+        " muss mit.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 6 Abs. 3 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(3) 1",
+       [
+        [
+         "Wird ein Betrieb, ein Teilbetrieb oder",
+         null
+        ],
+        [
+         "der Anteil eines Mitunternehmers an einem Betrieb unentgeltlich übertragen,",
+         "g1"
+        ],
+        [
+         "so sind bei der Ermittlung des Gewinns des bisherigen Betriebsinhabers (Mitunternehmers) die Wirtschaftsgüter",
+         null
+        ],
+        [
+         "mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben,",
+         "gr1"
+        ],
+        [
+         "sofern die Besteuerung der stillen Reserven sichergestellt ist; […]",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "ganzer Anteil",
+       "g1"
+      ],
+      [
+       "Buchwert",
+       "gr1"
+      ],
+      [
+       "Bedingung",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Sonderbetriebsvermögen",
+      "gehört zum Anteil"
+     ]
+    }
+   ],
+   "caption": "Wochenrückblick KW 44: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Beratung eines Unternehmers aus dem EU-Ausland an ein Unternehmen im Inland: Ort am Sitz des Empfängers (§ 3a Abs. 2 S. 1 UStG); die Steuer schuldet der Leistungsempfänger (§ 13b Abs. 1, 5 S. 1 UStG), Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG).\n2. Härteausgleich: Liegt der Erwerb knapp über einer Wertgrenze, wird der Steuermehrbetrag bei Sätzen bis 30 % nur aus der Hälfte, darüber aus drei Vierteln des übersteigenden Betrags erhoben (§ 19 Abs. 3 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Grundstück gegen Ausgleichszahlung an Geschwister übertragen: teilentgeltlicher Erwerb, aufgeteilt im Verhältnis Entgelt zu Verkehrswert (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847).\n4. Ganzer Betrieb gegen Abfindung, die das Kapitalkonto nicht übersteigt: unentgeltlich, Buchwertfortführung (§ 6 Abs. 3 S. 1 EStG); darüber Veräußerungsgewinn (§ 16 Abs. 1, 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Wer einen Mitunternehmeranteil verschenkt und funktional wesentliches Sonderbetriebsvermögen zurückbehält, erhält keinen Buchwert; der Anteil gilt als aufgegeben (§ 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG).\n6. Überentnahmen: 6 % sind als Schuldzinsen nicht abziehbar, höchstens die Schuldzinsen des Jahres abzüglich 2.050 €; Zinsen für Anlagevermögen bleiben abziehbar (§ 4 Abs. 4a S. 2–5 EStG).\n\nZum Schluss: § 6 Abs. 3 S. 1 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#steuerrecht"
+   ],
+   "quellen": [
+    "§ 3a Abs. 2 S. 1 UStG",
+    "§ 13b Abs. 1, 5 S. 1 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+    "§ 19 Abs. 3 ErbStG",
+    "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+    "§ 6 Abs. 3 S. 1 EStG",
+    "§ 16 Abs. 1, 2, 3 S. 1 EStG",
+    "§ 4 Abs. 4a S. 2–5 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b05-8",
+   "themaTitel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
+   "figuren": {
+    "A": {
+     "name": "Luca",
+     "kopf": "Medium 1",
+     "haut": "#E3B48F",
+     "haar": "#4A3426",
+     "oberteil": "#F2B544",
+     "bart": "Full",
+     "bueste": "Shirt and Coat"
+    },
+    "B": {
+     "name": "Leni",
+     "kopf": "Bangs 2",
+     "haut": "#F5D3BC",
+     "haar": "#8C5A3C",
+     "oberteil": "#9BD3A8",
+     "brille": "Glasses 4",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "Halle in Tirol:",
+      "welcher Ort?"
+     ],
+     "norm": "§ 3a Abs. 3 Nr. 1 UStG",
+     "unter": "Lage zählt",
+     "teaser": "+ Markier-Guide § 3a UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Architektenhonorar",
+        "Bold",
+        40
+       ],
+       [
+        "40.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "netto",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Sachverhalt",
+     "punkte": [
+      [
+       "Luca ist Architekt in Rosenheim.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Für die Feldmann GmbH aus München plant er eine Lagerhalle in Kufstein, Österreich.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Honorar: 40.000 € netto.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Luca"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wo ist Lucas Leistung ausgeführt?",
+       null,
+       "ExtraBold",
+       null
+      ],
+      [
+       "Muss er deutsche Umsatzsteuer ausweisen?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Leni, Prüferin"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Der schnelle Fehler",
+     "punkte": [
+      [
+       "„Kunde Unternehmer in München, also Ort Inland.“",
+       "nein",
+       "Bold",
+       "§ 3a Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Die B2B-Regel gilt nur vorbehaltlich der Absätze 3 bis 8.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Oh, Absatz 3!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: der Ort",
+     "punkte": [
+      [
+       "Planung einer Halle dient der Vorbereitung von Bauleistungen.",
+       "ok",
+       "Regular",
+       "§ 3a Abs. 3 Nr. 1 S. 2 Buchst. c UStG"
+      ],
+      [
+       "Ort ist, wo das Grundstück liegt: Kufstein.",
+       "ok",
+       "Bold",
+       "§ 3a Abs. 3 Nr. 1 S. 1 UStG"
+      ],
+      [
+       "In Deutschland nicht steuerbar.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1 Nr. 1 UStG"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Das Grundstück zählt"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Und wenn die Halle in Bayern läge?",
+     "links": {
+      "kopf": "Halle Kufstein",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Ort Österreich",
+        "§ 3a Abs. 3 Nr. 1 UStG"
+       ],
+       [
+        "keine deutsche USt",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Halle Landshut",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Ort Inland, steuerpflichtig",
+        "§ 3a Abs. 3 Nr. 1 UStG"
+       ],
+       [
+        "Luca weist 7.600 € USt aus",
+        "§ 12 Abs. 1 UStG"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Lage entscheidet"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kufstein: nicht steuerbar · Landshut: 19 % = 7.600 €",
+      "Absatz 3 vor Absatz 2",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Erst die ",
+        null
+       ],
+       [
+        "Sonderregeln",
+        "a"
+       ]
+      ],
+      [
+       [
+        "Grundstück",
+        "b"
+       ],
+       [
+        " schlägt Kunde",
+        null
+       ]
+      ],
+      [
+       [
+        "Lage",
+        "c"
+       ],
+       [
+        " = Ort",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du München gesagt?",
+     "teaser": "Weiterwischen: § 3a UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 3a UStG (Auszug)",
+     "absaetze": [
+      [
+       "(3)",
+       [
+        [
+         "Abweichend von den Absätzen 1 und 2",
+         "r1"
+        ],
+        [
+         "gilt: 1.",
+         null
+        ],
+        [
+         "Eine sonstige Leistung im Zusammenhang mit einem Grundstück wird dort ausgeführt, wo das Grundstück liegt.",
+         "g1"
+        ],
+        [
+         "Als sonstige Leistungen im Zusammenhang mit einem Grundstück sind insbesondere anzusehen: […] c)",
+         null
+        ],
+        [
+         "sonstige Leistungen, die der Erschließung von Grundstücken oder der Vorbereitung, Koordinierung oder Ausführung von Bauleistungen dienen.",
+         "b1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Vorrang",
+       "r1"
+      ],
+      [
+       "Lageort",
+       "g1"
+      ],
+      [
+       "Architekten",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Prüfreihenfolge:",
+      "Absatz 3 bis 8 vor Absatz 2"
+     ]
+    }
+   ],
+   "caption": "Prüfungsfrage Umsatzsteuer: Ein Architekt aus Rosenheim plant für eine Münchner GmbH eine Halle in Kufstein. Wo ist der Ort?\n\n▸ Die B2B-Grundregel (Sitz des Empfängers) gilt nur vorbehaltlich der Absätze 3 bis 8 (§ 3a Abs. 2 S. 1 UStG).\n▸ Sonstige Leistungen im Zusammenhang mit einem Grundstück werden dort ausgeführt, wo das Grundstück liegt (§ 3a Abs. 3 Nr. 1 S. 1 UStG). Dazu gehören Leistungen zur Vorbereitung, Koordinierung oder Ausführung von Bauleistungen, also auch Architektenleistungen (§ 3a Abs. 3 Nr. 1 S. 2 Buchst. c UStG).\n▸ Halle in Kufstein: Ort Österreich, in Deutschland nicht steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n▸ Läge die Halle im Inland, wäre die Leistung dort steuerbar und steuerpflichtig: 19 % von 40.000 € = 7.600 € (§ 12 Abs. 1 UStG).\n\nZum Schluss: § 3a Abs. 3 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3a Abs. 2 S. 1 UStG",
+    "§ 3a Abs. 3 Nr. 1 UStG",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 12 Abs. 1 UStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-3-03",
+   "themaTitel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+   "figuren": {
+    "A": {
+     "name": "Ezra",
+     "kopf": "Short 3",
+     "haut": "#C58C67",
+     "haar": "#2A1A12",
+     "oberteil": "#7EC8C0",
+     "bart": "Full 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Gesellschafter verzichtet auf hunderttausend Euro Darlehen. Alles Einlage? Nur der Teil, der noch etwas wert ist."
+    },
+    {
+     "id": "s1",
+     "text": "Ist die Forderung nur noch dreißigtausend Euro wert, ist genau das eine verdeckte Einlage. Sie erhöht das Einkommen nicht."
+    },
+    {
+     "id": "s2",
+     "text": "Die übrigen siebzigtausend Euro sind bei der GmbH steuerpflichtiger Ertrag."
+    },
+    {
+     "id": "s3",
+     "text": "Denn eingelegt wird mit dem Teilwert der Forderung, nicht mit dem Nennwert. So hat es der Große Senat entschieden."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Werthaltiger Teil ist Einlage, der Rest ist Gewinn."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Darlehen erlassen:",
+     "alles Einlage?"
+    ],
+    "pille": "Forderungsverzicht",
+    "figur": "A/ruhig",
+    "name": "Ezra",
+    "icons": [
+     [
+      "tabler:coins",
+      "GELB",
+      "Einlage"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Werthaltig",
+      "wert": "Einlage",
+      "farbe": "GRUEN",
+      "wort": "Teil"
+     },
+     {
+      "label": "Wertlos",
+      "wert": "Ertrag",
+      "farbe": "ROT",
+      "wort": "wert"
+     }
+    ],
+    "stempel": {
+     "text": "nur teilweise!",
+     "wort": "Nur"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der werthaltige Teil",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Teilwert der Forderung",
+       "wert": "30.000 €",
+       "farbe": "GRUEN",
+       "wort": "dreißigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "verdeckte Einlage",
+       "unter": "kein Einkommen",
+       "wort": "Einlage",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8 Abs. 3 S. 3 KStG",
+       "wort": "Einkommen"
+      }
+     ],
+     "icon": [
+      "tabler:pig-money",
+      "GELB",
+      "Forderung"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Der Rest",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Nicht werthaltig",
+       "wert": "70.000 €",
+       "farbe": "ROT",
+       "wort": "siebzigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "Ertrag der GmbH",
+       "farbe": "GELB",
+       "wort": "Ertrag"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "GmbH"
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Ertrag",
+       1.0
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Warum?",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Teilwert",
+       "unter": "nicht Nennwert",
+       "wort": "Teilwert",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "BFH vom 09.06.1997, GrS 1/94",
+       "wort": "Senat"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Teilwert"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Werthaltig:",
+     "Einlage.",
+     "Rest:",
+     "Gewinn."
+    ],
+    "woerter": [
+     null,
+     "Einlage",
+     "Rest",
+     "Gewinn"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Gewinn",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Gesellschafter verzichtet auf sein Darlehen: Was ist Einlage, was Ertrag? 💶\n\n▸ Verzichtet ein Gesellschafter aus gesellschaftsrechtlichen Gründen auf eine Forderung gegen seine GmbH, liegt eine verdeckte Einlage nur in Höhe des werthaltigen Teils, also des Teilwerts der Forderung, vor (BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307).\n▸ Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG). Beispiel: Teilwert 30.000 € = Einlage.\n▸ Der nicht werthaltige Teil (70.000 €) führt bei der GmbH durch den Wegfall der Verbindlichkeit zu einem steuerpflichtigen Ertrag.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 3 S. 3 KStG",
+    "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-quiz-2026-11-01",
+   "frage": [
+    "Eigenes Betriebsgrundstück:",
+    "Kürzung seit 2025?"
+   ],
+   "optionen": [
+    "1,2 % des Einheitswerts",
+    "Die gebuchte Grundsteuer",
+    "0,11 % des Grundsteuerwerts"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Pomp",
+     "haut": "#D8A47F",
+     "haar": "#2B1E16",
+     "oberteil": "#9FD0E8",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-quiz-2026-11-01",
+   "titel": [
+    "B: die gebuchte",
+    "Grundsteuer"
+   ],
+   "optionen": [
+    "1,2 % des Einheitswerts",
+    "Die gebuchte Grundsteuer",
+    "0,11 % des Grundsteuerwerts"
+   ],
+   "richtig": 1,
+   "text": "Ab Erhebungszeitraum 2025 kürzt man die als Betriebsausgabe erfasste Grundsteuer.",
+   "norm": "§ 9 Nr. 1 S. 1, § 36 Abs. 4b GewStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Pomp",
+     "haut": "#D8A47F",
+     "haar": "#2B1E16",
+     "oberteil": "#9FD0E8",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Woche kompakt: alle 3 Klausuren"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-3-2",
+   "titel": [
+    "Ergänzungsbilanz:",
+    "wie abschreiben?"
+   ],
+   "norm": "§ 7 EStG",
+   "punkte": [
+    [
+     "Mehrwerte über die Restnutzungsdauer ab dem Erwerb.",
+     "ok",
+     "BFH vom 20.11.2014, IV R 1/11"
+    ],
+    [
+     "Methode wählt der Erwerber wie ein Käufer.",
+     "ok",
+     "BMF vom 19.12.2016"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Long Bangs",
+     "haut": "#B07A55",
+     "haar": "#1E1612",
+     "oberteil": "#F2A65A",
+     "brille": "Glasses 3",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Halle in Tirol: Ort?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sonntag:",
+    "Woche abhaken"
+   ],
+   "punkte": [
+    [
+     "Drei Themen der Woche aus dem Kopf aufschreiben",
+     "ok",
+     null
+    ],
+    [
+     "Lücken für Montag notieren",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Bun",
+     "haut": "#6E4630",
+     "haar": "#141010",
+     "oberteil": "#F2C14E"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-6",
+   "titel": [
+    "Leistung an",
+    "Gesellschafter"
+   ],
+   "punkte": [
+    [
+     "Mindestens Einkaufspreis oder Ausgaben",
+     "warn",
+     "§ 10 Abs. 5 Nr. 1 UStG"
+    ],
+    [
+     "Höchstens marktübliches Entgelt",
+     "ok",
+     "§ 10 Abs. 5 UStG"
+    ]
+   ],
+   "icon": "tabler:scale",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Short 5",
+     "haut": "#F0C9A8",
+     "haar": "#5B3A29",
+     "oberteil": "#F28C8C"
+    }
+   },
+   "figur": "K/ruhig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Darlehen erlassen"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks1-vv-05",
+   "titel": [
+    "Renovierung",
+    "nach dem Kauf"
+   ],
+   "zeilen": [
+    [
+     [
+      "Binnen ",
+      null
+     ],
+     [
+      "drei Jahren",
+      "a"
+     ]
+    ],
+    [
+     [
+      "über ",
+      null
+     ],
+     [
+      "15 %",
+      "b"
+     ],
+     [
+      " der Kosten",
+      null
+     ]
+    ],
+    [
+     [
+      "des Gebäudes, netto:",
+      null
+     ]
+    ],
+    [
+     [
+      "Herstellungskosten",
+      "c"
+     ]
+    ]
+   ],
+   "norm": "§ 6 Abs. 1 Nr. 1a S. 1 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Bun",
+     "haut": "#F0CDB0",
+     "oberteil": "#A8D8B9",
+     "brille": "Glasses 5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

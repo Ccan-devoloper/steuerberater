@@ -1,0 +1,1219 @@
+{
+ "datum": "2026-12-11",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b04-14",
+   "themaTitel": "Reihengeschäft erkennen: Mehrere Lieferungen, eine Warenbewegung",
+   "figuren": {
+    "A": {
+     "name": "Sophie",
+     "kopf": "Buns",
+     "haut": "#C99470",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Drei Firmen,",
+      "ein Lkw"
+     ],
+     "norm": "§ 3 Abs. 6a UStG",
+     "unter": "Der Fall",
+     "teaser": "+ Markier-Guide § 3 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:truck-delivery",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Die Holzbau Krämer GmbH in Kassel ordert Balken bei Händlerin Sophie, Hamburg.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Sophie ordert beim Sägewerk in Freiburg; das fährt mit eigenem Lkw direkt nach Kassel.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Lieferung ist bewegt? Wo liegen die Orte?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Sophie."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Reihengeschäft?",
+     "punkte": [
+      [
+       "Mehrere Unternehmer schließen Liefergeschäfte über denselben Gegenstand.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 6a S. 1 UStG"
+      ],
+      [
+       "Die Ware reist ohne Zwischenstopp vom Sägewerk zur Kundin.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Hier: zwei Lieferungen, ein Transport. Ja.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Kein Umweg über Hamburg."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Welche ist bewegt?",
+     "punkte": [
+      [
+       "Nur eine Lieferung bekommt die Beförderung.",
+       "warn",
+       "Regular",
+       "§ 3 Abs. 6a S. 1 UStG"
+      ],
+      [
+       "Transportiert der erste Unternehmer, ist es seine Lieferung.",
+       "ok",
+       "Bold",
+       "§ 3 Abs. 6a S. 2 UStG"
+      ],
+      [
+       "Holt der letzte Abnehmer ab, ist es die Lieferung an ihn.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 6a S. 3 UStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Wer fährt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Die Orte",
+     "punkte": [
+      [
+       "Bewegte Lieferung: wo die Beförderung beginnt.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 6 S. 1 UStG"
+      ],
+      [
+       "Ruhende Lieferung davor: ebenfalls am Beginn.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 7 S. 2 Nr. 1 UStG"
+      ],
+      [
+       "Ruhende Lieferung danach: am Ende der Beförderung.",
+       "ok",
+       "Bold",
+       "§ 3 Abs. 7 S. 2 Nr. 2 UStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Davor oder danach?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Lösung",
+     "links": {
+      "kopf": "Sägewerk an Sophie",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "bewegt, Ort Freiburg",
+        "§ 3 Abs. 6 S. 1 UStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Sophie an Holzbau",
+      "farbe": "TUERKIS",
+      "punkte": [
+       [
+        "ruhend, danach: Ort Kassel",
+        "§ 3 Abs. 7 S. 2 Nr. 2 UStG"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Beide im Inland."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die Holzbau GmbH holt die Balken mit eigenem Lkw in Freiburg ab.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Lieferung ist jetzt bewegt, und wo liegt die andere?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Die Kundin holt ab."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung der Variante",
+     "punkte": [
+      [
+       "Bewegt ist die Lieferung an den letzten Abnehmer, also Sophie an Holzbau: Ort Freiburg.",
+       "ok",
+       "Bold",
+       "§ 3 Abs. 6a S. 3 UStG"
+      ],
+      [
+       "Die vorangehende Lieferung des Sägewerks ruht, Ort ebenfalls Freiburg.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 7 S. 2 Nr. 1 UStG"
+      ]
+     ],
+     "extra": [
+      "Erst ins Lager nach Hamburg? Kein Reihengeschäft",
+      "GELB",
+      null
+     ],
+     "figur": "A:lacht",
+     "x": 790,
+     "blase": "Verstanden!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Eine Ware, ein Transport, eine bewegte Lieferung",
+      "Wer transportiert, bestimmt die bewegte Lieferung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Reihe",
+        "a"
+       ],
+       [
+        " erkennen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Transport",
+        "b"
+       ],
+       [
+        " zuordnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Orte",
+        "c"
+       ],
+       [
+        " davor und danach.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wer fährt in deinem letzten Fall?",
+     "teaser": "Weiterwischen: § 3 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 3 UStG Lieferung (Auszug)",
+     "absaetze": [
+      [
+       "(6a)",
+       [
+        [
+         "Schließen mehrere Unternehmer über",
+         null
+        ],
+        [
+         "denselben Gegenstand",
+         "g1"
+        ],
+        [
+         "Liefergeschäfte ab und gelangt dieser Gegenstand bei der Beförderung oder Versendung",
+         null
+        ],
+        [
+         "unmittelbar vom ersten Unternehmer an den letzten Abnehmer",
+         "b1"
+        ],
+        [
+         "(Reihengeschäft), so ist die Beförderung oder Versendung des Gegenstands",
+         null
+        ],
+        [
+         "nur einer der Lieferungen",
+         "r1"
+        ],
+        [
+         "zuzuordnen. Wird der Gegenstand der Lieferung dabei",
+         null
+        ],
+        [
+         "durch den ersten Unternehmer",
+         "g2"
+        ],
+        [
+         "in der Reihe befördert oder versendet, ist die Beförderung oder Versendung seiner Lieferung zuzuordnen. Wird der Gegenstand der Lieferung",
+         null
+        ],
+        [
+         "durch den letzten Abnehmer",
+         "r2"
+        ],
+        [
+         "befördert oder versendet, ist die Beförderung oder Versendung der Lieferung an ihn zuzuordnen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(7)",
+       [
+        [
+         "[…] 1. Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         null
+        ],
+        [
+         "vorangehen,",
+         "gr1"
+        ],
+        [
+         "gelten dort als ausgeführt, wo die Beförderung oder Versendung des Gegenstands beginnt. 2. Lieferungen, die der Beförderungs- oder Versendungslieferung folgen, gelten dort als ausgeführt, wo die Beförderung oder Versendung des Gegenstands endet.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur eine",
+       "r1"
+      ],
+      [
+       "Sägewerk fährt",
+       "g2"
+      ],
+      [
+       "Variante: Abholung",
+       "r2"
+      ],
+      [
+       "davor: Beginn",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Sägewerk fährt: Freiburg bewegt",
+      "Sophie an Holzbau ruht: Kassel"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall Umsatzsteuer: drei Unternehmen, ein Lkw. Welche Lieferung ist bewegt?\n\n▸ Reihengeschäft: Mehrere Unternehmer schließen über denselben Gegenstand Liefergeschäfte ab, und die Ware geht ohne Zwischenstation direkt zum letzten Abnehmer. Die Beförderung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG).\n▸ Befördert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG); befördert der letzte Abnehmer, die Lieferung an ihn (§ 3 Abs. 6a S. 3 UStG); beim Zwischenhändler gilt § 3 Abs. 6a S. 4 UStG.\n▸ Ort der bewegten Lieferung: Beginn der Beförderung (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen: Beginn, nachfolgende: Ende der Beförderung (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n▸ Holt der Zwischenhändler die Ware erst in sein eigenes Lager und schickt sie später weiter, fehlt die unmittelbare Warenbewegung: kein Reihengeschäft.\n\nLösung: Sägewerk an Händlerin bewegt, Ort Freiburg; Händlerin an Kundin ruhend, Ort Kassel. Variante (Kundin holt ab): Lieferung an die Kundin bewegt, beide Orte Freiburg.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 3 Abs. 6a S. 1–4 UStG",
+    "§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-10",
+   "themaTitel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+   "figuren": {
+    "A": {
+     "name": "Teodor",
+     "kopf": "Medium 2",
+     "haut": "#E8B98F",
+     "haar": "#5A3A22",
+     "oberteil": "#8DB3F2",
+     "bart": "Full",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Zuzug im Juli:",
+      "eine Veranlagung?"
+     ],
+     "norm": "§ 2 Abs. 7 S. 3 EStG",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 2 EStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "JULI",
+      "tag": "1",
+      "unter": "Zuzug"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung für 10 Minuten",
+     "schritte": [
+      [
+       "Einleitung · 1 Min.",
+       "§ 2 Abs. 7 S. 1, 2 EStG",
+       "Jahressteuer, Problem"
+      ],
+      [
+       "Hauptteil I · 3 Min.",
+       "§ 2 Abs. 7 S. 3 EStG",
+       "eine Veranlagung"
+      ],
+      [
+       "Hauptteil II · 4 Min.",
+       "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+       "Beispiel, Steuersatz"
+      ],
+      [
+       "Schluss · 2 Min.",
+       "§ 50 Abs. 2 S. 2 Nr. 3 EStG",
+       "keine Abgeltung, Ergebnis"
+      ]
+     ],
+     "teaser": "Am Ende: § 2 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einleitung: das Problem",
+     "punkte": [
+      [
+       "Die Einkommensteuer ist eine Jahressteuer.",
+       "ok",
+       "Regular",
+       "§ 2 Abs. 7 S. 1, 2 EStG"
+      ],
+      [
+       "Wer im Jahr zuzieht oder wegzieht, ist teils beschränkt, teils unbeschränkt steuerpflichtig.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1, 4 EStG"
+      ],
+      [
+       "Frage: zwei Veranlagungen oder eine?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Mit einer Frage starten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil I: die Norm",
+     "punkte": [
+      [
+       "Inländische Einkünfte aus der beschränkten Phase fließen in die Veranlagung als unbeschränkt Steuerpflichtiger ein.",
+       "ok",
+       "Bold",
+       "§ 2 Abs. 7 S. 3 EStG"
+      ],
+      [
+       "Voraussetzung: In dieser Phase gibt es inländische Einkünfte.",
+       "ok",
+       "Regular",
+       "§ 49 Abs. 1 EStG"
+      ],
+      [
+       "Folge: Grundfreibetrag und Tarif nur einmal.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Satz 3 vorlesen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil II: Beispiel",
+     "punkte": [
+      [
+       "Zuzug am 01.07. aus Lissabon; eine Wohnung in Dresden ist ganzjährig vermietet.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Miete bis Juni: inländisch, also mit in die Veranlagung.",
+       "ok",
+       "Regular",
+       "§ 49 Abs. 1 Nr. 6 EStG"
+      ],
+      [
+       "Gehalt aus Lissabon bis Juni: erhöht nur den Steuersatz.",
+       "ok",
+       "Bold",
+       "§ 32b Abs. 1 S. 1 Nr. 2 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Konkret werden!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil II: Folgen",
+     "punkte": [
+      [
+       "Steuerabzüge der beschränkten Phase gelten nicht als abgegolten, sie werden angerechnet.",
+       "ok",
+       "Regular",
+       "§ 50 Abs. 2 S. 2 Nr. 3 EStG"
+      ],
+      [
+       "Beim Wegzug gilt dasselbe spiegelbildlich.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Keine Inlandseinkünfte in der beschränkten Phase: dann nur der Progressionsvorbehalt.",
+       "warn",
+       "Bold",
+       "§ 32b Abs. 1 S. 1 Nr. 2 EStG"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Auch beim Wegzug."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schluss",
+     "punkte": [
+      [
+       "Ergebnis: ein Jahr, eine Veranlagung, Auslandseinkünfte nur für den Steuersatz.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Ausblick: Nach DBA freigestellte Einkünfte der unbeschränkten Zeit wirken ebenfalls auf den Steuersatz.",
+       "ok",
+       "Regular",
+       "§ 32b Abs. 1 S. 1 Nr. 3 EStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Rund abschließen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Warum nicht zwei Veranlagungen? Sonst doppelter Grundfreibetrag.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Wann beginnt die unbeschränkte Pflicht? Mit Wohnsitz oder gewöhnlichem Aufenthalt.",
+       "warn",
+       "Regular",
+       "§§ 8, 9 AO"
+      ],
+      [
+       "Lohnsteuer der beschränkten Zeit? Anrechnung.",
+       "warn",
+       "Regular",
+       "§ 50 Abs. 2 S. 2 Nr. 3 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Kurz antworten!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Ein Jahr, eine Veranlagung",
+      "Inland zusammen, Ausland nur für den Steuersatz",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Jahressteuer",
+        "a"
+       ],
+       [
+        " zeigen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Satz 3",
+        "b"
+       ],
+       [
+        " erklären,",
+        null
+       ]
+      ],
+      [
+       [
+        "Progression",
+        "c"
+       ],
+       [
+        " rechnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Abgeltung",
+        "d"
+       ],
+       [
+        " verneinen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Welche Nachfrage käme bei dir?",
+     "teaser": "Weiterwischen: § 2 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 2 Abs. 7 EStG, § 32b EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 2 (7)",
+       [
+        [
+         "Die Einkommensteuer ist eine",
+         null
+        ],
+        [
+         "Jahressteuer.",
+         "g1"
+        ],
+        [
+         "[…] Besteht während eines Kalenderjahres sowohl unbeschränkte als auch beschränkte Einkommensteuerpflicht, so sind die während der beschränkten Einkommensteuerpflicht erzielten",
+         null
+        ],
+        [
+         "inländischen Einkünfte",
+         "b1"
+        ],
+        [
+         "in eine Veranlagung zur unbeschränkten Einkommensteuerpflicht",
+         null
+        ],
+        [
+         "einzubeziehen.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 32b (1)",
+       [
+        [
+         "[…] 2.",
+         null
+        ],
+        [
+         "ausländische Einkünfte, die im Veranlagungszeitraum nicht der deutschen Einkommensteuer unterlegen haben;",
+         "gr1"
+        ],
+        [
+         "dies gilt nur für Fälle der zeitweisen unbeschränkten Steuerpflicht einschließlich der in § 2 Absatz 7 Satz 3 geregelten Fälle; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Jahressteuer",
+       "g1"
+      ],
+      [
+       "nur Inland",
+       "b1"
+      ],
+      [
+       "eine Veranlagung",
+       "r1"
+      ],
+      [
+       "Steuersatz",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 50 Abs. 2 S. 2 Nr. 3 EStG",
+      "Steuerabzug hier ohne Abgeltung"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Zuzug oder Wegzug im laufenden Jahr. Eine Veranlagung statt zwei, Gliederung für 10 Minuten.\n\nEinleitung: Die Einkommensteuer ist eine Jahressteuer (§ 2 Abs. 7 S. 1, 2 EStG). Bei Zu- oder Wegzug wechseln beschränkte und unbeschränkte Steuerpflicht im selben Jahr (§ 1 Abs. 1, 4 EStG).\nHauptteil I: Die während der beschränkten Steuerpflicht erzielten inländischen Einkünfte werden in eine Veranlagung zur unbeschränkten Steuerpflicht einbezogen (§ 2 Abs. 7 S. 3 EStG); Grundfreibetrag und Tarif wirken nur einmal.\nHauptteil II: Ausländische Einkünfte, die im Jahr nicht der deutschen Einkommensteuer unterlegen haben, erhöhen den Steuersatz (§ 32b Abs. 1 S. 1 Nr. 2 EStG). Beispiel: Zuzug am 01.07., inländische Mieteinkünfte des ganzen Jahres (§ 49 Abs. 1 Nr. 6 EStG) in einer Veranlagung, Auslandsgehalt bis Juni im Progressionsvorbehalt.\nSchluss: Ein Steuerabzug wirkt in diesen Fällen nicht abgeltend (§ 50 Abs. 2 S. 2 Nr. 3 EStG). Nach DBA freigestellte Einkünfte der unbeschränkten Zeit fallen unter § 32b Abs. 1 S. 1 Nr. 3 EStG.\n\nTypische Nachfragen: doppelter Grundfreibetrag, Beginn der unbeschränkten Pflicht (§§ 8, 9 AO), Anrechnung der Lohnsteuer.\n\nZum Schluss: § 2 Abs. 7 und § 32b EStG zum Markieren. Speichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1, 4 EStG",
+    "§ 2 Abs. 7 EStG",
+    "§ 32b Abs. 1 S. 1 Nr. 2, 3 EStG",
+    "§ 49 Abs. 1 Nr. 6 EStG",
+    "§ 50 Abs. 2 S. 2 Nr. 3 EStG",
+    "§§ 8, 9 AO"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-13",
+   "themaTitel": "Müssen für die Einbringung immer neue Anteile ausgegeben werden?",
+   "figuren": {
+    "A": {
+     "name": "Hanna",
+     "kopf": "Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#3B2416",
+     "oberteil": "#F6D365",
+     "bueste": "Coffee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "In die GmbH: fünfundzwanzigtausend Nennkapital, Rest ins Einlagekonto. Aber nur mit neuen Anteilen."
+    },
+    {
+     "id": "s1",
+     "text": "Ohne neue Anteile kein Paragraf zwanzig. Sie entstehen nur bei Sachgründung oder Sachkapitalerhöhung."
+    },
+    {
+     "id": "s2",
+     "text": "Hanna bringt ihren Betrieb ein, Buchwert hundertfünfzigtausend, gegen Anteile über fünfundzwanzigtausend. Die GmbH bleibt beim Buchwert."
+    },
+    {
+     "id": "s3",
+     "text": "Hundertfünfzigtausend minus fünfundzwanzigtausend: hundertfünfundzwanzigtausend ins steuerliche Einlagekonto."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Neue Anteile sind Pflicht, der Überhang geht ins Einlagekonto!"
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Betrieb",
+     "in die GmbH"
+    ],
+    "pille": "§ 20 UmwStG",
+    "figur": "A/ruhig",
+    "name": "Hanna",
+    "icons": [
+     [
+      "tabler:building-store",
+      "GELB",
+      "Aber"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Nennkapital",
+      "wert": "25.000 €",
+      "farbe": "GELB",
+      "wort": "fünfundzwanzigtausend"
+     },
+     {
+      "label": "Einlagekonto",
+      "wert": "Rest",
+      "farbe": "GRUEN",
+      "wort": "Einlagekonto"
+     }
+    ],
+    "stempel": {
+     "text": "neue Anteile!",
+     "wort": "neuen"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Ohne neue Anteile nichts",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Sachgründung",
+       "wort": "Sachgründung",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Sachkapitalerhöhung",
+       "wort": "Sachkapitalerhöhung",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 20 Abs. 1 UmwStG",
+       "wort": "Sachkapitalerhöhung"
+      }
+     ],
+     "icon": [
+      "tabler:certificate",
+      "GELB",
+      "Anteile"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Zahlen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Buchwert Betrieb",
+       "wert": "150.000 €",
+       "farbe": "WEISS",
+       "wort": "Buchwert",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "neue Anteile, Nennwert",
+       "wert": "25.000 €",
+       "farbe": "GELB",
+       "wort": "Anteile",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 20 Abs. 2 S. 2 UmwStG",
+       "wort": "bleibt"
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Hanna"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "150.000 € − 25.000 €",
+       "wort": "Hundertfünfzigtausend",
+       "size": 110
+      },
+      {
+       "typ": "block",
+       "label": "steuerliches Einlagekonto",
+       "wert": "+ 125.000 €",
+       "farbe": "GRUEN",
+       "wort": "Hundertfünfundzwanzigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 27 Abs. 1 KStG",
+       "wort": "Einlagekonto"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "minus"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Hundertfünfundzwanzigtausend",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Neue Anteile:",
+     "Pflicht.",
+     "Überhang:",
+     "Einlagekonto"
+    ],
+    "woerter": [
+     null,
+     "Pflicht",
+     "Überhang",
+     "Einlagekonto"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Einlagekonto",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Einbringung in die GmbH: Müssen immer neue Anteile ausgegeben werden? 🏪\n\n▸ § 20 UmwStG setzt voraus, dass der Einbringende für den Betrieb neue Anteile erhält (Sacheinlage, § 20 Abs. 1 UmwStG). Neue Anteile entstehen bei Sachgründung oder Sachkapitalerhöhung.\n▸ Keine neuen Anteile etwa bei bloßer verdeckter Einlage oder ausschließlicher Hingabe eigener Anteile: dann kein § 20 UmwStG.\n▸ Wertansatz auf Antrag mit dem Buchwert (§ 20 Abs. 2 S. 2 UmwStG); er gilt für den Einbringenden als Veräußerungspreis und als Anschaffungskosten der Anteile (§ 20 Abs. 3 S. 1 UmwStG).\n▸ Was über das neue Nennkapital hinausgeht, ist eine nicht in das Nennkapital geleistete Einlage und erhöht das steuerliche Einlagekonto (§ 27 Abs. 1 KStG).\n\nBeispiel: Buchwert 150.000 €, Nennkapital 25.000 €, Zugang zum Einlagekonto 125.000 €; Anschaffungskosten der Anteile 150.000 €.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 20 Abs. 1, 2, 3 UmwStG",
+    "§ 27 Abs. 1 KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-0",
+   "frage": [
+    "Bilanzfall:",
+    "Was prüfst du zuerst?"
+   ],
+   "optionen": [
+    "Die Bewertung",
+    "Wem es gehört",
+    "Die Buchung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium Bangs",
+     "haut": "#F1C7A5",
+     "haar": "#7A4B2A",
+     "oberteil": "#F2B880",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-0",
+   "titel": [
+    "B: die Zurechnung"
+   ],
+   "optionen": [
+    "Die Bewertung",
+    "Wem es gehört",
+    "Die Buchung"
+   ],
+   "richtig": 1,
+   "text": "Erst die Zurechnung, dann Ansatz und Bewertung, zuletzt die Buchung.",
+   "norm": "§ 39 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium Bangs",
+     "haut": "#F1C7A5",
+     "haar": "#7A4B2A",
+     "oberteil": "#F2B880",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Drei Firmen, ein Lkw"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-t1-2",
+   "titel": [
+    "Erbschaft mit",
+    "Auslandsbezug"
+   ],
+   "norm": "§ 2 Abs. 1 ErbStG",
+   "punkte": [
+    [
+     "Erblasser oder Erbe ist Inländer: der gesamte Erwerb.",
+     "ok",
+     "§ 2 Abs. 1 Nr. 1 ErbStG"
+    ],
+    [
+     "Kein Inländer beteiligt: nur Inlandsvermögen.",
+     "warn",
+     "§ 2 Abs. 1 Nr. 3 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 4",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag Zuzug"
+   ],
+   "unter": "Gliederung + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Teil hängt?",
+    "Weiterschreiben!"
+   ],
+   "punkte": [
+    [
+     "Platz lassen und markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Mit Annahme weiterrechnen.",
+     "ok",
+     null
+    ],
+    [
+     "Am Ende zurückkehren.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:player-skip-forward",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Twists",
+     "haut": "#6B4226",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "K/eilt"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-2",
+   "titel": [
+    "Vorteil bei",
+    "der GmbH?"
+   ],
+   "punkte": [
+    [
+     "Dann verdeckte Einlage prüfen.",
+     "ok",
+     "§ 8 Abs. 3 S. 3 KStG"
+    ],
+    [
+     "Nur einlagefähige Vorteile, keine Nutzungen.",
+     "warn",
+     "H 8.9 KStH"
+    ]
+   ],
+   "icon": "tabler:arrow-bar-to-down",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Short 3",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Betrieb in die GmbH"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-18",
+   "titel": [
+    "Berichtigung",
+    "oder Änderung?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Falsch",
+      "a"
+     ],
+     [
+      ": berichtigen.",
+      null
+     ]
+    ],
+    [
+     [
+      "Richtig, aber ",
+      null
+     ],
+     [
+      "anders",
+      "b"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "nur mit ",
+      null
+     ],
+     [
+      "Berichtigung",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 4 Abs. 2 S. 1, 2 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Bun",
+     "haut": "#D9A47E",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 5",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

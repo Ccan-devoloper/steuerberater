@@ -8,16 +8,16 @@ on:
   workflow_dispatch:
     inputs:
       modus:
-        description: "lesen = Kommentare der letzten Beiträge anzeigen · antworten = einen Kommentar beantworten · dm = dem Verfasser eines Kommentars privat schreiben"
+        description: "lesen = Kommentare der letzten Beiträge anzeigen · antworten = einen Kommentar beantworten · dm = dem Verfasser eines Kommentars privat schreiben · kommentieren = eigener Kommentar unter einem Beitrag"
         type: choice
         default: lesen
-        options: [lesen, antworten, dm]
+        options: [lesen, antworten, dm, kommentieren]
       kommentar_id:
-        description: "Nur für antworten/dm: ID des Kommentars"
+        description: "antworten/dm: ID des Kommentars · kommentieren: Medien-ID oder Anfang der Caption"
         type: string
         default: ""
       text:
-        description: "Nur für antworten/dm: Text"
+        description: "Nur für antworten/dm/kommentieren: Text"
         type: string
         default: ""
 
@@ -56,7 +56,7 @@ jobs:
           KOMMENTAR_ID: ${{ github.event.inputs.kommentar_id }}
           TEXT: ${{ github.event.inputs.text }}
         run: |
-          if [ "$MODUS" = "antworten" ] || [ "$MODUS" = "dm" ]; then
+          if [ "$MODUS" = "antworten" ] || [ "$MODUS" = "dm" ] || [ "$MODUS" = "kommentieren" ]; then
             node bin/kommentare.mjs "$MODUS" "$KOMMENTAR_ID" "$TEXT"
           else
             node bin/kommentare.mjs lesen 12

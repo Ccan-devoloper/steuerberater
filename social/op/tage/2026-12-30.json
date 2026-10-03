@@ -1,0 +1,1367 @@
+{
+ "datum": "2026-12-30",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-ve-03",
+   "themaTitel": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn?",
+   "figuren": {
+    "A": {
+     "name": "Mira",
+     "kopf": "Medium 3",
+     "haut": "#C99470",
+     "haar": "#2B2B2B",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater Dots"
+    },
+    "B": {
+     "name": "Helga",
+     "kopf": "Gray Short",
+     "haut": "#F1C7A5",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Betrieb gegen",
+      "Abfindung"
+     ],
+     "norm": "§ 6 Abs. 3 S. 1 EStG",
+     "unter": "Gewinn?",
+     "teaser": "+ Markier-Guide §§ 6, 16 + BMF",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "an den Bruder",
+        "Bold",
+        44
+       ],
+       [
+        "250.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Gewinn?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Helga, 60, übergibt ihren Gewerbebetrieb an Tochter Mira.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalkonto 300.000 €, Verkehrswert 1.000.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Mira zahlt ihrem Bruder 250.000 € und übernimmt Betriebsschulden von 200.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Entsteht bei Helga ein Gewinn?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 790,
+     "blase": "Ich bin Helga."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Falle",
+     "punkte": [
+      [
+       "Falsch: 25 % entgeltlich, also ein Viertel der Reserven als Gewinn.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "So teilt man nur bei einzelnen Wirtschaftsgütern auf.",
+       "warn",
+       "Regular",
+       "BMF vom 13.01.1993, Rn. 34"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Genau so hätte ich gerechnet!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Wirtschaftsgut oder Betrieb?",
+     "links": {
+      "kopf": "Einzelnes Wirtschaftsgut",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Aufteilen: Entnahme und Veräußerung",
+        "BMF vom 13.01.1993, Rn. 34"
+       ],
+       [
+        "Übernommene Schulden sind Entgelt",
+        "BMF vom 13.01.1993, Rn. 28"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Ganzer Betrieb",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Entgelt mit dem Kapitalkonto vergleichen",
+        "BMF vom 13.01.1993, Rn. 38"
+       ],
+       [
+        "Betriebsschulden sind kein Entgelt",
+        "BMF vom 13.01.1993, Rn. 29"
+       ]
+      ]
+     },
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Der Betrieb bleibt ganz."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Lösung",
+     "normen": [
+      "§ 6 Abs. 3 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Gleichstellungsgeld",
+       "250.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Betriebsschulden",
+       "kein Entgelt",
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalkonto",
+       "300.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Gewinn bei Helga",
+       "0 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Mira führt die Buchwerte fort",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Mira zahlt ihrem Bruder 420.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist Helgas Gewinn, was hilft ihr, und was gilt bei Mira?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Jetzt über dem Konto."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Entgelt über dem Kapitalkonto: entgeltlich, Gewinn 120.000 €.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Helga ist 60: Freibetrag 45.000 € auf Antrag, Rest ermäßigt besteuert.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 4, § 34 EStG"
+      ],
+      [
+       "Mira stockt die Buchwerte um 120.000 € auf.",
+       "ok",
+       "Bold",
+       "BMF vom 13.01.1993, Rn. 35"
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Das passt."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "250.000 €: kein Gewinn, 420.000 €: 120.000 €",
+      "Grenze: Kapitalkonto 300.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Betrieb",
+        "a"
+       ],
+       [
+        " nie aufteilen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Kapitalkonto",
+        "b"
+       ],
+       [
+        " als Grenze,",
+        null
+       ]
+      ],
+      [
+       [
+        "Schulden",
+        "c"
+       ],
+       [
+        " kein Entgelt,",
+        null
+       ]
+      ],
+      [
+       [
+        "darüber",
+        "d"
+       ],
+       [
+        ": § 16, § 34.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "25 % gerechnet?",
+     "teaser": "Weiterwischen: §§ 6, 16 + BMF markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 6, 16 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 6 (3) 1",
+       [
+        [
+         "Wird ein Betrieb, ein Teilbetrieb oder der Anteil eines Mitunternehmers an einem Betrieb",
+         null
+        ],
+        [
+         "unentgeltlich übertragen,",
+         "b2"
+        ],
+        [
+         "so sind bei der Ermittlung des Gewinns des bisherigen Betriebsinhabers (Mitunternehmers) die Wirtschaftsgüter",
+         null
+        ],
+        [
+         "mit den Werten anzusetzen, die sich nach den Vorschriften über die Gewinnermittlung ergeben,",
+         "g2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 16 (2) 1",
+       [
+        [
+         "Veräußerungsgewinn im Sinne des Absatzes 1 ist der Betrag, um den",
+         null
+        ],
+        [
+         "der Veräußerungspreis",
+         "g1"
+        ],
+        [
+         "nach Abzug der Veräußerungskosten",
+         null
+        ],
+        [
+         "den Wert des Betriebsvermögens",
+         "b1"
+        ],
+        [
+         "(Absatz 1 Satz 1 Nummer 1) […] übersteigt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(4) 1",
+       [
+        [
+         "Hat der Steuerpflichtige",
+         null
+        ],
+        [
+         "das 55. Lebensjahr vollendet",
+         "r1"
+        ],
+        [
+         "oder ist er im sozialversicherungsrechtlichen Sinne dauernd berufsunfähig, so wird der Veräußerungsgewinn",
+         null
+        ],
+        [
+         "auf Antrag",
+         "r1"
+        ],
+        [
+         "zur Einkommensteuer nur herangezogen,",
+         null
+        ],
+        [
+         "soweit er 45 000 Euro übersteigt.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "250.000 €: gratis",
+       "b2"
+      ],
+      [
+       "Buchwerte",
+       "g2"
+      ],
+      [
+       "Entgelt",
+       "g1"
+      ],
+      [
+       "Freibetrag",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: BMF vom 13.01.1993",
+      "Gleichstellungsgeld und Schulden"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 13.01.1993 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 7",
+       [
+        [
+         "Ein Veräußerungs- und Anschaffungsgeschäft liegt vor, soweit sich der Übernehmer zur Zahlung eines bestimmten Geldbetrags an andere Angehörige des Übergebers oder an Dritte",
+         null
+        ],
+        [
+         "(Gleichstellungsgeld)",
+         "g1"
+        ],
+        [
+         "[…] verpflichtet. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 29",
+       [
+        [
+         "Bei der Übertragung eines Betriebs […] stellen die übernommenen Verbindlichkeiten […]",
+         null
+        ],
+        [
+         "kein Veräußerungsentgelt",
+         "b1"
+        ],
+        [
+         "und keine Anschaffungskosten dar, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 35",
+       [
+        [
+         "Führen die vom Vermögensübernehmer zu erbringenden Leistungen bei Erwerb eines Betriebs […] zu einem Veräußerungspreis, der",
+         null
+        ],
+        [
+         "über dem steuerlichen Kapitalkonto",
+         "r1"
+        ],
+        [
+         "des Übergebers liegt, ist von einem entgeltlichen Erwerb […] auszugehen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 38",
+       [
+        [
+         "Wendet der Übernehmer Anschaffungskosten",
+         null
+        ],
+        [
+         "bis zur Höhe des steuerlichen Kapitalkontos",
+         "gr1"
+        ],
+        [
+         "auf, hat er die Buchwerte des Übergebers fortzuführen. Ein Veräußerungsverlust liegt beim Übergeber nicht vor.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Entgelt",
+       "g1"
+      ],
+      [
+       "Schulden: nein",
+       "b1"
+      ],
+      [
+       "420.000 €",
+       "r1"
+      ],
+      [
+       "250.000 €",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Einzelnes Wirtschaftsgut: aufteilen",
+      "BMF vom 13.01.1993, Rn. 34"
+     ]
+    }
+   ],
+   "caption": "Betrieb an die Tochter, Gleichstellungsgeld an den Bruder: Entsteht ein Gewinn? Eine Klausurfalle für Klausur 2.\n\n▸ Gleichstellungsgelder an Geschwister sind Entgelt (BMF vom 13.01.1993, Rn. 7).\n▸ Bei einzelnen Wirtschaftsgütern wird aufgeteilt: unentgeltlicher Teil Entnahme, entgeltlicher Teil Veräußerung; übernommene Schulden sind Entgelt (BMF vom 13.01.1993, Rn. 28, 34).\n▸ Bei einem ganzen Betrieb wird nicht aufgeteilt: Übernommene Betriebsschulden sind kein Entgelt (Rn. 29). Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, werden die Buchwerte fortgeführt, ein Veräußerungsverlust entsteht nicht (§ 6 Abs. 3 S. 1 EStG; Rn. 38). Liegt es darüber, ist der Erwerb entgeltlich und der Gewinn = Entgelt minus Kapitalkonto (§ 16 Abs. 2 S. 1 EStG; Rn. 35).\n▸ Freibetrag 45.000 € auf Antrag ab 55 oder bei dauernder Berufsunfähigkeit, gekürzt um den Gewinn über 136.000 € (§ 16 Abs. 4 EStG); Tarifermäßigung nach § 34 EStG.\n\nBeispiel: Kapitalkonto 300.000 €. Gleichstellungsgeld 250.000 € → kein Gewinn. Gleichstellungsgeld 420.000 € → Gewinn 120.000 €, Aufstockung der Buchwerte beim Übernehmer.\n\nZum Schluss: §§ 6, 16 EStG und BMF vom 13.01.1993 zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 6 Abs. 3 S. 1 EStG",
+    "§ 16 Abs. 2 S. 1, Abs. 4 EStG",
+    "§ 34 EStG",
+    "BMF vom 13.01.1993, BStBl I 1993, 80 (geändert durch BMF vom 26.02.2007, BStBl I 2007, 269), Rn. 7, 28, 29, 34, 35, 38"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-6",
+   "themaTitel": "Wie lässt sich eine § 6b-Rücklage bei Mitunternehmern übertragen?",
+   "figuren": {
+    "A": {
+     "name": "Jana",
+     "kopf": "Bantu Knots",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "6b-Gewinn",
+      "und die KG"
+     ],
+     "norm": "R 6b.2 Abs. 6, 7 EStR",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide R 6b.2 EStR",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Janas Anteil",
+        "Bold",
+        44
+       ],
+       [
+        "40 %",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Abzug?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "§ 6b in der KG: 4 Schritte",
+     "schritte": [
+      [
+       "Gewinn begünstigt?",
+       "§ 6b Abs. 1, 4 S. 1 EStG",
+       "Objekt, sechs Jahre, Bilanz"
+      ],
+      [
+       "Wo entstanden?",
+       "R 6b.2 Abs. 6, 7 EStR",
+       "Einzelbetrieb, KG oder SBV"
+      ],
+      [
+       "Wem zuzurechnen?",
+       "R 6b.2 Abs. 6 S. 1 EStR",
+       "nur der eigene Anteil"
+      ],
+      [
+       "Wo abziehen?",
+       "§ 6b Abs. 3 EStG",
+       "Ergänzungsbilanz, Rest Rücklage"
+      ]
+     ],
+     "teaser": "Am Ende: R 6b.2 EStR markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Jana bilanziert ihr Einzelunternehmen und hält 40 % an der Hafenlicht KG, beide gewerblich.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2026 verkauft sie Grund und Boden, Gewinn 100.000 €. Die KG kauft ein Grundstück für 150.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel ist übertragbar?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Jana."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Begünstigt?",
+     "punkte": [
+      [
+       "Grund und Boden, seit 2015 im Betrieb: sechs Jahre erfüllt.",
+       "ok",
+       "Regular",
+       "§ 6b Abs. 4 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "§ 6b gilt für den Steuerpflichtigen: Das ist Jana, nicht die KG.",
+       "ok",
+       "Bold",
+       "§ 6b Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Gewerblicher Gewinn darf nicht in einen freiberuflichen Betrieb.",
+       "warn",
+       "Regular",
+       "§ 6b Abs. 4 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Es geht um mich."
+    },
+    {
+     "typ": "vergleich",
+     "titel": "2 · Wo ist der Gewinn entstanden?",
+     "links": {
+      "kopf": "Im Einzelunternehmen",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "auf den eigenen Betrieb",
+        "R 6b.2 Abs. 6 S. 1 EStR"
+       ],
+       [
+        "auf die KG: nur Janas Anteil",
+        "R 6b.2 Abs. 6 S. 1 EStR"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "In der KG",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "auf die KG und Sonderbetriebsvermögen",
+        "R 6b.2 Abs. 7 EStR"
+       ],
+       [
+        "auf eigene Betriebe: nur Gewinnanteil",
+        "R 6b.2 Abs. 7 EStR"
+       ]
+      ]
+     },
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Hier gilt links."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "3 und 4 · Janas Abzug",
+     "normen": [
+      "R 6b.2 Abs. 6 S. 1 EStR",
+      "§ 6b Abs. 3 EStG"
+     ],
+     "zeilen": [
+      [
+       "Gewinn Einzelunternehmen",
+       "100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Grundstück der KG",
+       "150.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Davon Janas 40 %",
+       "60.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Abzug, Ergänzungsbilanz",
+       "60.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ],
+      [
+       "Rest als Rücklage",
+       "40.000 €",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Nicht alles bei der KG abziehen",
+      "ROT"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Umgekehrt: Die KG verkauft Grund und Boden mit 80.000 € Gewinn.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Jana kauft in ihrem Einzelunternehmen ein Grundstück für 100.000 €. Was darf sie dort abziehen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Und jetzt andersherum?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Nur ihren Gewinnanteil: 40 % von 80.000 € = 32.000 €.",
+       "ok",
+       "Bold",
+       "R 6b.2 Abs. 7 EStR"
+      ],
+      [
+       "Beide Betriebe gewerblich: kein Hindernis.",
+       "ok",
+       "Regular",
+       "§ 6b Abs. 4 S. 2 EStG"
+      ],
+      [
+       "Die übrigen 48.000 € stehen den anderen Mitunternehmern zu.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "32.000 € für mich."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Abzug 60.000 € bei der KG, 40.000 € Rücklage",
+      "Variante: 32.000 € ins Einzelunternehmen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Gewinn",
+        "a"
+       ],
+       [
+        " je Person,",
+        null
+       ]
+      ],
+      [
+       [
+        "Anteil",
+        "b"
+       ],
+       [
+        " am neuen Gut,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ergänzungsbilanz",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest",
+        "d"
+       ],
+       [
+        " als Rücklage.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Voll abgezogen?",
+     "teaser": "Weiterwischen: R 6b.2 EStR markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 6b.2 Abs. 6 EStR (Auszug)",
+     "absaetze": [
+      [
+       "(6) 1",
+       [
+        [
+         "Ein Stpfl. kann den begünstigten Gewinn,",
+         null
+        ],
+        [
+         "der in einem als Einzelunternehmen geführten Betrieb entstanden ist,",
+         "g1"
+        ],
+        [
+         "vorbehaltlich der Regelung in § 6b Abs. 4 Satz 2 EStG",
+         "gr1"
+        ],
+        [
+         "auf Wirtschaftsgüter übertragen, die zu demselben oder einem anderen als Einzelunternehmen geführten Betrieb des Stpfl. gehören oder",
+         null
+        ],
+        [
+         "zum Betriebsvermögen einer Personengesellschaft gehören,",
+         "b1"
+        ],
+        [
+         "an der der Stpfl. als Mitunternehmer beteiligt ist,",
+         null
+        ],
+        [
+         "soweit die Wirtschaftsgüter dem Stpfl. als Mitunternehmer zuzurechnen sind.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Ausgang",
+       "g1"
+      ],
+      [
+       "Sperre!",
+       "gr1"
+      ],
+      [
+       "Ziel KG",
+       "b1"
+      ],
+      [
+       "nur Anteil",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Gewinn der KG selbst:",
+      "R 6b.2 Abs. 7 EStR"
+     ]
+    }
+   ],
+   "caption": "§ 6b-Gewinn und die KG: Wie viel darf ein Mitunternehmer übertragen? Das Prüfschema in vier Schritten für Klausur 3.\n\n1. Begünstigter Gewinn: Grund und Boden, Gebäude u. a., mindestens sechs Jahre Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 1, 4 S. 1 Nr. 2 EStG). § 6b gilt für den Steuerpflichtigen, also personenbezogen (§ 6b Abs. 1 S. 1 EStG).\n2. Wo ist der Gewinn entstanden? Gewinn im Einzelunternehmen: Übertragung auf eigene Betriebe oder auf Wirtschaftsgüter einer Personengesellschaft, soweit sie dem Steuerpflichtigen als Mitunternehmer zuzurechnen sind (R 6b.2 Abs. 6 S. 1 EStR). Gewinn der Personengesellschaft: Übertragung auf eigene Wirtschaftsgüter eines Mitunternehmers nur, soweit der Gewinn anteilig auf ihn entfällt (R 6b.2 Abs. 7 EStR).\n3. Sperre: Gewerbliche Gewinne nicht auf land- und forstwirtschaftliche oder freiberufliche Betriebe (§ 6b Abs. 4 S. 2 EStG).\n4. Abzug beim begünstigten Mitunternehmer, nicht übertragbarer Rest als Rücklage (§ 6b Abs. 3 EStG).\n\nBeispiel: Gewinn 100.000 € im Einzelunternehmen, KG kauft Grundstück für 150.000 €, Beteiligung 40 % → Abzug 60.000 € in der Ergänzungsbilanz, 40.000 € Rücklage. Variante: KG-Gewinn 80.000 € → 32.000 € auf das Einzelunternehmen.\n\nZum Schluss: R 6b.2 Abs. 6 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 6b Abs. 1 S. 1, Abs. 3, Abs. 4 S. 1 Nr. 2, S. 2 EStG",
+    "R 6b.2 Abs. 6, 7 EStR"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-515",
+   "themaTitel": "Begrenzung des Schulden- und Lastenabzugs: § 10 Abs. 6 und 6a ErbStG",
+   "figuren": {
+    "A": {
+     "name": "Doris",
+     "kopf": "Medium 1",
+     "haut": "#E8B98F",
+     "haar": "#9A9A9A",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Allgemeine Schulden des Erblassers voll abziehen? Falsch. Seit zweitausendfünfundzwanzig werden sie verteilt."
+    },
+    {
+     "id": "s1",
+     "text": "Die Witwe erbt das Familienheim für sechshunderttausend und ein Depot für vierhunderttausend Euro. Dazu fünfzigtausend Euro Schulden ohne Bezug."
+    },
+    {
+     "id": "s2",
+     "text": "Verteilt wird nach Nettowerten: sechzig Prozent aufs Heim, vierzig aufs Depot."
+    },
+    {
+     "id": "s3",
+     "text": "Das Heim ist steuerfrei. Dreißigtausend fallen weg, nur zwanzigtausend sind abziehbar."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Erst verteilen, dann kürzen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Alle Schulden",
+     "voll abziehen?"
+    ],
+    "pille": "§ 10 Abs. 6a ErbStG",
+    "figur": "A/sorge",
+    "name": "Doris",
+    "icons": [
+     [
+      "tabler:file-invoice",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Seit 2025 nicht!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Erwerb",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Familienheim",
+       "wert": "600.000 €",
+       "farbe": "GRUEN",
+       "wort": "Familienheim",
+       "zs": 90
+      },
+      {
+       "typ": "block",
+       "label": "Depot",
+       "wert": "400.000 €",
+       "farbe": "GELB",
+       "wort": "Depot",
+       "zs": 90
+      },
+      {
+       "typ": "pille",
+       "text": "Schulden ohne Bezug: 50.000 €",
+       "wort": "fünfzigtausend",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13 Abs. 1 Nr. 4b ErbStG",
+       "wort": "Witwe"
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "Witwe"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Verteilen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "aufs Heim",
+       "wert": "60 %",
+       "farbe": "GELB",
+       "wort": "sechzig",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "aufs Depot",
+       "wert": "40 %",
+       "farbe": "WEISS",
+       "wort": "vierzig",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 10 Abs. 6a S. 3, 5 ErbStG",
+       "wort": "Nettowerten"
+      }
+     ],
+     "icon": [
+      "tabler:chart-pie",
+      "GELB",
+      "Verteilt"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Kürzen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "nicht abziehbar",
+       "wert": "30.000 €",
+       "farbe": "ROT",
+       "wort": "Dreißigtausend",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "abziehbar",
+       "wert": "20.000 €",
+       "farbe": "GRUEN",
+       "wort": "zwanzigtausend",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 10 Abs. 6a S. 7 ErbStG",
+       "wort": "steuerfrei"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Dreißigtausend",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Allgemeine Schulden:",
+     "erst verteilen,",
+     "dann",
+     "kürzen"
+    ],
+    "woerter": [
+     null,
+     "verteilen",
+     "dann",
+     "kürzen"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "kürzen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Allgemeine Schulden des Erblassers voll abziehen? Seit 2025 nicht mehr. ⚠️\n\n▸ Schulden und Lasten sind nicht abzugsfähig, soweit die Vermögensgegenstände, mit denen sie wirtschaftlich zusammenhängen, steuerbefreit sind (§ 10 Abs. 6a S. 1 ErbStG).\n▸ Schulden ohne Zusammenhang mit einzelnen Gegenständen werden anteilig allen Vermögensgegenständen des Erwerbs zugerechnet, nach dem Verhältnis der Nettowerte; der Anteil, der auf steuerbefreite Gegenstände entfällt, ist nicht abzugsfähig (§ 10 Abs. 6a S. 3, 5, 7 ErbStG). Kosten nach § 10 Abs. 5 Nr. 3 ErbStG sind davon ausgenommen (§ 10 Abs. 6a S. 4 ErbStG).\n▸ Anwendung auf Erwerbe, für die die Steuer nach dem 31.12.2024 entsteht (§ 37 Abs. 21 ErbStG).\n\nBeispiel: Witwe erbt Familienheim 600.000 € (befreit nach § 13 Abs. 1 Nr. 4b ErbStG, Selbstnutzung vorausgesetzt) und Depot 400.000 €; 50.000 € Schulden ohne Bezug → 60 % (30.000 €) entfallen auf das Heim und sind nicht abziehbar, 20.000 € sind abziehbar.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 10 Abs. 6a S. 1, 3, 4, 5, 7 ErbStG",
+    "§ 10 Abs. 5 Nr. 3 ErbStG",
+    "§ 13 Abs. 1 Nr. 4b ErbStG",
+    "§ 37 Abs. 21 ErbStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-5",
+   "frage": [
+    "19 % statt 7 %",
+    "an einen Unternehmer?"
+   ],
+   "optionen": [
+    "Mehrbetrag geschuldet",
+    "Nur 7 % geschuldet",
+    "Kunde schuldet Differenz"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Buns",
+     "haut": "#D9A27C",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-5",
+   "titel": [
+    "A: Mehrbetrag",
+    "geschuldet"
+   ],
+   "optionen": [
+    "Mehrbetrag geschuldet",
+    "Nur 7 % geschuldet",
+    "Kunde schuldet Differenz"
+   ],
+   "richtig": 0,
+   "text": "Bis zur Berichtigung gegenüber dem Kunden; sie wirkt wie eine Entgeltänderung.",
+   "norm": "§ 14c Abs. 1 S. 1, 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Buns",
+     "haut": "#D9A27C",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Betrieb gegen Abfindung"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-31",
+   "titel": [
+    "DBA-frei und",
+    "trotzdem teurer?"
+   ],
+   "norm": "§ 32b EStG",
+   "punkte": [
+    [
+     "Freigestellte Einkünfte erhöhen den Steuersatz.",
+     "warn",
+     "§ 32b Abs. 1 S. 1 Nr. 3 EStG"
+    ],
+    [
+     "Nicht bei bestimmten EU-Einkünften, etwa Vermietung.",
+     "ok",
+     "§ 32b Abs. 1 S. 2 Nr. 3 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "No Hair 1",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bart": "Full 3",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "6b-Gewinn und die KG"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "ueberzeile": "Klausurtechnik",
+   "titel": [
+    "Zeit nach",
+    "Punkten planen"
+   ],
+   "punkte": [
+    [
+     "360 Minuten, 100 Punkte: gut 3,5 Minuten je Punkt.",
+     "ok",
+     null
+    ],
+    [
+     "Endzeit an jede Teilaufgabe schreiben.",
+     "ok",
+     null
+    ],
+    [
+     "Überzogen? Abbrechen, weiter.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:clock",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Twists 2",
+     "haut": "#6E4A33",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "Z/eilt"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-7",
+   "titel": [
+    "Anteil verschenkt,",
+    "Grundstück behalten?"
+   ],
+   "punkte": [
+    [
+     "Wesentliches SBV ins Privatvermögen: kein Buchwert.",
+     "nein",
+     "§ 6 Abs. 3 S. 1 EStG"
+    ],
+    [
+     "SBV bleibt im Betrieb: Buchwert, Beschenkter hält fünf Jahre.",
+     "warn",
+     "§ 6 Abs. 3 S. 2 EStG"
+    ]
+   ],
+   "icon": "tabler:gift",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#3B2A20",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Alle Schulden abziehen?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-308",
+   "titel": [
+    "Bescheid an den",
+    "Steuerberater?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Ohne ",
+      null
+     ],
+     [
+      "Empfangsvollmacht",
+      "a"
+     ]
+    ],
+    [
+     [
+      "kann",
+      "b"
+     ],
+     [
+      " er an ihn,",
+      null
+     ]
+    ],
+    [
+     [
+      "mit ihr ",
+      null
+     ],
+     [
+      "soll",
+      "c"
+     ],
+     [
+      " er an ihn.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 122 Abs. 1 S. 3, 4 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Long",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#F4A3B5",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

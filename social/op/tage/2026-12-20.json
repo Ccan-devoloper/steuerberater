@@ -1,0 +1,1142 @@
+{
+ "datum": "2026-12-20",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-51",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 51",
+   "figuren": {
+    "A": {
+     "name": "Smilla",
+     "kopf": "Long Bangs",
+     "haut": "#F5D3BC",
+     "haar": "#8B4A2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Anouk",
+     "kopf": "Afro",
+     "haut": "#7A4A2E",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 2",
+     "bueste": "Tee 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Alle 3",
+      "Klausuren"
+     ],
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide § 351 AO",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Woche 51",
+        "Bold",
+        44
+       ],
+       [
+        "3",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Klausuren",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Woche in 3 Klausuren",
+     "schritte": [
+      [
+       "Klausur 1 · Abgabenordnung",
+       "§§ 171, 175, 351 AO",
+       "Folgebescheid und Änderungsbescheid"
+      ],
+      [
+       "Klausur 2 · GewSt und IStR",
+       "§§ 29, 31 GewStG · § 50 EStG",
+       "Zerlegung und Gebietsfremde"
+      ],
+      [
+       "Klausur 3 · PersG und UmwSt",
+       "§ 15 EStG · § 20 UmwStG",
+       "Sonderbereich und Rückwirkung"
+      ]
+     ],
+     "teaser": "Am Ende: § 351 AO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 1 · Abgabenordnung",
+     "punkte": [
+      [
+       "Geänderter Grundlagenbescheid: Folgebescheid ändern, Frist mindestens zwei Jahre nach Bekanntgabe.",
+       "ok",
+       "Regular",
+       "§ 175 Abs. 1 S. 1 Nr. 1, § 171 Abs. 10 S. 1 AO"
+      ],
+      [
+       "Änderungsbescheid nur anfechtbar, soweit die Änderung reicht.",
+       "warn",
+       "Bold",
+       "§ 351 Abs. 1 AO"
+      ],
+      [
+       "Einwände gegen den Grundlagenbescheid nur dort.",
+       "nein",
+       "Regular",
+       "§ 351 Abs. 2 AO"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Welcher Bescheid?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 2 · GewSt und IStR",
+     "punkte": [
+      [
+       "Zerlegung nach Arbeitslöhnen; ohne juristische Person 25.000 € Unternehmerlohn ansetzen.",
+       "warn",
+       "Bold",
+       "§ 29 Abs. 1 Nr. 1, § 31 Abs. 5 GewStG"
+      ],
+      [
+       "Gebietsfremde: Tarif auf Einkommen plus Grundfreibetrag, bei Arbeitslohn nur eingeschränkt.",
+       "ok",
+       "Regular",
+       "§ 50 Abs. 1 S. 2 EStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Wer bekommt was?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Klausur 3 · PersG und UmwSt",
+     "punkte": [
+      [
+       "Gewinn der KG plus Sondervergütungen plus Ergänzungsbilanzen.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Einbringung durch Einzelrechtsnachfolge: höchstens acht Monate zurück, ab Vertrag und Übergang.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 6 S. 3 UmwStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Acht Monate!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Folgebescheid",
+        "a"
+       ],
+       [
+        " zieht nach,",
+        null
+       ]
+      ],
+      [
+       [
+        "Änderung",
+        "b"
+       ],
+       [
+        " ist der Rahmen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Löhne",
+        "c"
+       ],
+       [
+        " zerlegen,",
+        null
+       ]
+      ],
+      [
+       [
+        "acht Monate",
+        "d"
+       ],
+       [
+        " zurück.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 351 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 351 AO (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Verwaltungsakte, die",
+         null
+        ],
+        [
+         "unanfechtbare Verwaltungsakte ändern",
+         "b1"
+        ],
+        [
+         ", können",
+         null
+        ],
+        [
+         "nur insoweit angegriffen werden, als die Änderung reicht",
+         "g1"
+        ],
+        [
+         ", es sei denn, dass sich aus den Vorschriften über die Aufhebung und Änderung von Verwaltungsakten etwas anderes ergibt.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Entscheidungen in einem Grundlagenbescheid (§ 171 Absatz 10) können",
+         null
+        ],
+        [
+         "nur durch Anfechtung dieses Bescheids",
+         "r1"
+        ],
+        [
+         ", nicht auch durch Anfechtung des Folgebescheids, angegriffen werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Änderung",
+       "b1"
+      ],
+      [
+       "Rahmen",
+       "g1"
+      ],
+      [
+       "Grundlage anfechten!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Einwände gegen den Gewinnanteil?",
+      "Einspruch gegen den Feststellungsbescheid"
+     ]
+    }
+   ],
+   "caption": "Wochenrückblick KW 51: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Wird ein Grundlagenbescheid geändert, ist der Folgebescheid anzupassen (§ 175 Abs. 1 S. 1 Nr. 1 AO); für diesen Teil läuft die Festsetzungsfrist frühestens zwei Jahre nach Bekanntgabe des Grundlagenbescheids ab (§ 171 Abs. 10 S. 1 AO).\n2. Ein Änderungsbescheid kann nur angegriffen werden, soweit die Änderung reicht (§ 351 Abs. 1 AO); Einwände gegen den Grundlagenbescheid gehören in dessen Anfechtung (§ 351 Abs. 2 AO).\n\nKlausur 2 (Ertragsteuern)\n3. Gewerbesteuer-Zerlegung nach dem Verhältnis der Arbeitslöhne (§ 29 Abs. 1 Nr. 1 GewStG); betreibt keine juristische Person das Unternehmen, zählen für die tätigen Unternehmer insgesamt 25.000 € (§ 31 Abs. 5 GewStG).\n4. Veranlagte beschränkt Steuerpflichtige: Für die Tarifberechnung wird das zu versteuernde Einkommen um den Grundfreibetrag erhöht, bei Einkünften aus nichtselbständiger Arbeit nur um den Teil, der diese Einkünfte übersteigt (§ 50 Abs. 1 S. 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Gewinn der Mitunternehmerschaft: Anteil am Bilanzgewinn der Gesellschaft, dazu Ergebnisse aus Ergänzungs- und Sonderbilanzen mit den Sondervergütungen (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n6. Rückbeziehung einer Einbringung durch Einzelrechtsnachfolge: höchstens acht Monate vor Abschluss des Einbringungsvertrags und vor Übergang des Betriebsvermögens (§ 20 Abs. 6 S. 3 UmwStG); bei Umwandlungen nach dem UmwG acht Monate vor der Anmeldung (§ 20 Abs. 6 S. 1, 2 UmwStG).\n\nZum Schluss: § 351 Abs. 1, 2 AO zum Markieren. Speichern für alle drei Klausuren 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#steuerrecht"
+   ],
+   "quellen": [
+    "§ 175 Abs. 1 S. 1 Nr. 1 AO",
+    "§ 171 Abs. 10 S. 1 AO",
+    "§ 351 Abs. 1, 2 AO",
+    "§ 29 Abs. 1 Nr. 1 GewStG",
+    "§ 31 Abs. 5 GewStG",
+    "§ 50 Abs. 1 S. 2 EStG",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 20 Abs. 6 S. 1–3 UmwStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-14",
+   "themaTitel": "Gesellschafterdarlehen und Zinsvorteile",
+   "figuren": {
+    "A": {
+     "name": "Jannik",
+     "kopf": "Short 2",
+     "haut": "#D8A47F",
+     "haar": "#3A2618",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 3",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "Zinsloses",
+      "Darlehen"
+     ],
+     "norm": "§ 8 Abs. 3 S. 2 KStG",
+     "unter": "Klausurfrage",
+     "teaser": "+ Markier-Guide § 8 + R 8.5",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Darlehen",
+        "Bold",
+        44
+       ],
+       [
+        "200.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "0 % Zins",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Die Kobalt GmbH leiht ihrem Alleingesellschafter Jannik am 01.01.2026 zinslos 200.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Unter Fremden wären 5 % Zinsen üblich.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Zinslos, super!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Welche Folgen hat der Zinsverzicht 2026 für die GmbH und für Jannik?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst lösen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Wo ist das Problem?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: die GmbH",
+     "punkte": [
+      [
+       "Verzicht auf Zinsen: verhinderte Vermögensmehrung, veranlasst durch das Gesellschaftsverhältnis.",
+       "ok",
+       "Regular",
+       "R 8.5 Abs. 1 KStR"
+      ],
+      [
+       "vGA außerhalb der Bilanz hinzurechnen.",
+       "ok",
+       "Bold",
+       "§ 8 Abs. 3 S. 2 KStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Wie viel?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "vGA rechnen",
+     "normen": [
+      "§ 8 Abs. 3 S. 2 KStG"
+     ],
+     "zeilen": [
+      [
+       "Darlehen",
+       "200.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Fremdüblicher Zins",
+       "5 %",
+       "Regular",
+       null
+      ],
+      [
+       "Vereinbarter Zins",
+       "0 %",
+       "Regular",
+       null
+      ],
+      [
+       "vGA 2026",
+       "10.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Erhöht das Einkommen der GmbH",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: Jannik",
+     "punkte": [
+      [
+       "Der Zinsvorteil ist eine verdeckte Gewinnausschüttung, also Kapitalertrag.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+      ],
+      [
+       "Wäre eine Mutter-GmbH Gesellschafterin: ab 10 % zu 95 % frei.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1, 4, 5 KStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Also Einnahme"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Umgekehrt: keine Einlage",
+     "punkte": [
+      [
+       "Leiht Jannik der GmbH zinslos Geld, liegt keine verdeckte Einlage vor.",
+       "nein",
+       "Bold",
+       "H 8.9 KStH"
+      ],
+      [
+       "Nutzungsvorteile sind nicht einlagefähig; der Gewinn der GmbH bleibt einfach höher.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Nicht spiegelbildlich?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Antwort: vGA 10.000 €, bei Jannik Kapitalertrag",
+      "Umgekehrt: keine verdeckte Einlage",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "GmbH",
+        "a"
+       ],
+       [
+        " verzichtet: vGA,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gesellschafter",
+        "b"
+       ],
+       [
+        " verzichtet:",
+        null
+       ]
+      ],
+      [
+       [
+        "keine",
+        "c"
+       ],
+       [
+        " Einlage.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Beide Richtungen parat?",
+     "teaser": "Weiterwischen: § 8 + R 8.5 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8 KStG, § 20 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 8 (3) KStG",
+       [
+        [
+         "Auch",
+         null
+        ],
+        [
+         "verdeckte Gewinnausschüttungen",
+         "g1"
+        ],
+        [
+         "sowie Ausschüttungen jeder Art auf Genussrechte, mit denen das Recht auf Beteiligung am Gewinn und am Liquidationserlös der Kapitalgesellschaft verbunden ist,",
+         null
+        ],
+        [
+         "mindern das Einkommen nicht.",
+         "gr1"
+        ],
+        [
+         "Verdeckte Einlagen erhöhen das Einkommen nicht.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "§ 20 (1) Nr. 1 S. 2 EStG",
+       [
+        [
+         "Zu den sonstigen Bezügen gehören auch",
+         null
+        ],
+        [
+         "verdeckte Gewinnausschüttungen.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zinsverzicht der GmbH",
+       "g1"
+      ],
+      [
+       "außerbilanziell",
+       "gr1"
+      ],
+      [
+       "Nutzung: keine",
+       "b1"
+      ],
+      [
+       "beim Gesellschafter",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Gesellschafterin eine GmbH ab 10 %?",
+      "§ 8b KStG: im Ergebnis 95 % steuerfrei"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 8.5 KStR, H 8.9 KStH (Auszug)",
+     "absaetze": [
+      [
+       "R 8.5 (1) S. 1",
+       [
+        [
+         "Eine vGA i. S. d. § 8 Abs. 3 Satz 2 KStG ist eine Vermögensminderung oder",
+         null
+        ],
+        [
+         "verhinderte Vermögensmehrung,",
+         "g1"
+        ],
+        [
+         "die",
+         null
+        ],
+        [
+         "durch das Gesellschaftsverhältnis veranlasst",
+         "b1"
+        ],
+        [
+         "ist, sich auf die Höhe des Unterschiedsbetrags i. S. d. § 4 Abs. 1 Satz 1 EStG auswirkt und nicht auf einem den gesellschaftsrechtlichen Vorschriften entsprechenden Gewinnverteilungsbeschluss beruht.",
+         null
+        ]
+       ]
+      ],
+      [
+       "H 8.9",
+       [
+        [
+         "Nutzungsvorteile: Die Überlassung eines Wirtschaftsguts zum Gebrauch oder zur Nutzung kann mangels Bilanzierbarkeit des Nutzungsvorteils",
+         null
+        ],
+        [
+         "nicht Gegenstand einer Einlage",
+         "r1"
+        ],
+        [
+         "sein […]. Keine einlagefähigen Nutzungsvorteile sind insbesondere […] der",
+         null
+        ],
+        [
+         "Zinsvorteil bei unverzinslicher oder geringverzinslicher Darlehensgewährung",
+         "gr1"
+        ],
+        [
+         "[…].",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zinsverzicht",
+       "g1"
+      ],
+      [
+       "Gesellschafter!",
+       "b1"
+      ],
+      [
+       "keine vE",
+       "r1"
+      ],
+      [
+       "zinslos an die GmbH",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "BFH vom 26.10.1987, GrS 2/86",
+      "BStBl 1988 II S. 348"
+     ]
+    }
+   ],
+   "caption": "Prüfungsfrage KSt: zinsloses Darlehen zwischen GmbH und Gesellschafter – welche Folgen?\n\nFall: Die Kobalt GmbH leiht ihrem Alleingesellschafter Jannik am 01.01.2026 zinslos 200.000 €; fremdüblich wären 5 %.\n\nLösung:\n▸ GmbH: Der Zinsverzicht ist eine verhinderte Vermögensmehrung, die durch das Gesellschaftsverhältnis veranlasst ist (R 8.5 Abs. 1 KStR). Die vGA von 10.000 € mindert das Einkommen nicht und wird außerbilanziell hinzugerechnet (§ 8 Abs. 3 S. 2 KStG).\n▸ Jannik: Verdeckte Gewinnausschüttungen gehören zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n▸ Ist Gesellschafterin eine Kapitalgesellschaft mit mindestens 10 % zu Beginn des Kalenderjahres, bleibt der Bezug außer Ansatz, 5 % gelten als nicht abziehbar (§ 8b Abs. 1, 4, 5 KStG).\n\nKlausurfalle: Gewährt der Gesellschafter der GmbH ein zinsloses Darlehen, liegt keine verdeckte Einlage vor; Nutzungsvorteile sind nicht einlagefähig (H 8.9 KStH „Nutzungsvorteile“; BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348).\n\nZum Schluss: § 8 Abs. 3 KStG, § 20 Abs. 1 Nr. 1 EStG, R 8.5 KStR und H 8.9 KStH zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 3 S. 2, 3 KStG",
+    "R 8.5 Abs. 1 KStR",
+    "H 8.9 KStH (Nutzungsvorteile)",
+    "BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 8b Abs. 1, 4, 5 KStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-48",
+   "themaTitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+   "figuren": {
+    "A": {
+     "name": "Edda",
+     "kopf": "Gray Bun",
+     "haut": "#EDC6A6",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 4",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Sperrfrist läuft, und die Anteile kommen einfach in die Holding-GmbH? Stopp! Das ist schädlich."
+    },
+    {
+     "id": "s1",
+     "text": "Wer die erhaltenen Anteile unentgeltlich auf eine Kapitalgesellschaft überträgt, löst den Einbringungsgewinn eins aus."
+    },
+    {
+     "id": "s2",
+     "text": "Ebenso schädlich: Auflösung der Gesellschaft, Kapitalrückzahlung oder Ausschüttungen aus dem Einlagekonto."
+    },
+    {
+     "id": "s3",
+     "text": "Unschädlich ist die Schenkung an eine natürliche Person. Der Beschenkte übernimmt die Sperrfrist."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: An eine GmbH verschenkt ist schädlich, an Menschen verschenkt nicht."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Anteile in",
+     "die Holding?"
+    ],
+    "pille": "§ 22 Abs. 1 S. 6 UmwStG",
+    "figur": "A/skeptisch",
+    "name": "Edda",
+    "icons": [
+     [
+      "tabler:building-bank",
+      "GELB",
+      "Stopp"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Stopp!",
+     "wort": "Stopp"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Gratis an eine GmbH",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "unentgeltlich an eine Kapitalgesellschaft",
+       "wort": "unentgeltlich",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Folge",
+       "wert": "Einbringungsgewinn I",
+       "farbe": "ROT",
+       "wort": "Einbringungsgewinn",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 22 Abs. 1 S. 6 Nr. 1 UmwStG",
+       "wort": "Kapitalgesellschaft"
+      }
+     ],
+     "icon": [
+      "tabler:gift",
+      "GELB",
+      "überträgt"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Ebenso schädlich",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Auflösung",
+       "wort": "Auflösung",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Kapitalrückzahlung",
+       "wort": "Kapitalrückzahlung",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Ausschüttung aus dem Einlagekonto",
+       "wort": "Einlagekonto",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 22 Abs. 1 S. 6 Nr. 3 UmwStG",
+       "wort": "schädlich"
+      }
+     ],
+     "icon": [
+      "tabler:alert-triangle",
+      "ROT",
+      "schädlich"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Unschädlich",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Schenkung an Menschen",
+       "wert": "unschädlich",
+       "farbe": "GRUEN",
+       "wort": "Schenkung",
+       "zs": 100
+      },
+      {
+       "typ": "text",
+       "text": "Sperrfrist geht mit",
+       "unter": "der Beschenkte tritt ein",
+       "wort": "übernimmt",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 22 Abs. 6 UmwStG",
+       "wort": "Beschenkte"
+      }
+     ],
+     "icon": [
+      "tabler:heart-handshake",
+      "GELB",
+      "natürliche"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "an GmbH verschenkt:",
+     "schädlich,",
+     "an Menschen: nicht"
+    ],
+    "woerter": [
+     null,
+     "GmbH",
+     "schädlich",
+     "Menschen"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "nicht",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Sperrfrist nach Einbringung: Was steht einer Veräußerung gleich? 🛑\n\n▸ Veräußert der Einbringende die erhaltenen Anteile innerhalb von sieben Jahren, wird rückwirkend der Einbringungsgewinn I besteuert (§ 22 Abs. 1 S. 1 UmwStG).\n▸ Wie ein Verkauf zählt auch, wenn die Anteile ohne Gegenleistung in eine Kapitalgesellschaft oder Genossenschaft wandern – etwa als verdeckte Einlage in die Holding (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG).\n▸ Ebenso: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG).\n▸ Unschädlich: unentgeltliche Rechtsnachfolge, etwa die Schenkung an eine natürliche Person; der Rechtsnachfolger gilt als Einbringender (§ 22 Abs. 6 UmwStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 22 Abs. 1 S. 1, 6 Nr. 1, 3 UmwStG",
+    "§ 22 Abs. 6 UmwStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-32",
+   "frage": [
+    "Aufnahme in KG:",
+    "wozu Ergänzungsbilanzen?"
+   ],
+   "optionen": [
+    "Buchwerte trotz neuer Kapitalkonten fortführen",
+    "Die Handelsbilanz verlangt es",
+    "Wegen der Gewerbesteuer"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 3",
+     "haut": "#B07A55",
+     "haar": "#1E1E24",
+     "oberteil": "#F2B880",
+     "bart": "Moustache 1",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-32",
+   "titel": [
+    "A: Buchwerte",
+    "fortführen"
+   ],
+   "optionen": [
+    "Buchwerte trotz neuer Kapitalkonten fortführen",
+    "Die Handelsbilanz verlangt es",
+    "Wegen der Gewerbesteuer"
+   ],
+   "richtig": 0,
+   "text": "Sie gleichen angepasste Kapitalkonten aus, ohne Gewinn für die Altgesellschafter.",
+   "norm": "§ 24 Abs. 2 S. 1, 2 UmwStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 3",
+     "haut": "#B07A55",
+     "haar": "#1E1E24",
+     "oberteil": "#F2B880",
+     "bart": "Moustache 1",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Woche kompakt: alle 3 Klausuren"
+   ],
+   "unter": "Wochenrückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-27",
+   "titel": [
+    "Wer bekommt",
+    "wie viel frei?"
+   ],
+   "norm": "§ 16 Abs. 1 ErbStG",
+   "punkte": [
+    [
+     "Ehegatte 500.000 €, Kind 400.000 €, Enkel 200.000 €.",
+     "ok",
+     "§ 16 Abs. 1 Nr. 1–3 ErbStG"
+    ],
+    [
+     "Geschwister, Nichten, Neffen: nur 20.000 €.",
+     "warn",
+     "§ 15 Abs. 1, § 16 Abs. 1 Nr. 5 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium Straight",
+     "haut": "#F0C8A8",
+     "haar": "#4A3426",
+     "oberteil": "#9AD48F",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Zinsloses Darlehen"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Darstellung",
+    "zählt"
+   ],
+   "punkte": [
+    [
+     "Ein Absatz je Problem.",
+     "ok",
+     null
+    ],
+    [
+     "Normen unterstreichen.",
+     "ok",
+     null
+    ],
+    [
+     "Ergebnis hervorheben.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:pencil",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Twists 2",
+     "haut": "#5C3A21",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "K/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-02",
+   "titel": [
+    "GewSt-Pflicht:",
+    "ab wann?"
+   ],
+   "punkte": [
+    [
+     "Einzelunternehmen, OHG, KG: ab werbender Tätigkeit.",
+     "ok",
+     "R 2.5 Abs. 1 GewStR"
+    ],
+    [
+     "GmbH: spätestens ab Eintragung.",
+     "ok",
+     "R 2.5 Abs. 2 GewStR"
+    ]
+   ],
+   "icon": "tabler:calendar-event",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Shaved 1",
+     "haut": "#E9BE9C",
+     "oberteil": "#C9B8F2",
+     "bart": "Full 2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Anteile in die Holding?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-13",
+   "titel": [
+    "Anzahlung",
+    "erhalten?"
+   ],
+   "zeilen": [
+    [
+     [
+      "USt mit ",
+      null
+     ],
+     [
+      "Vereinnahmung",
+      "a"
+     ]
+    ],
+    [
+     [
+      "Anzahlung ",
+      null
+     ],
+     [
+      "netto",
+      "b"
+     ]
+    ],
+    [
+     [
+      "passivieren",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG",
+   "figuren": {
+    "M": {
+     "kopf": "Bangs 2",
+     "haut": "#C99470",
+     "haar": "#2B1D14",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

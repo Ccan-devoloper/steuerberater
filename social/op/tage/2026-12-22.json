@@ -1,0 +1,1301 @@
+{
+ "datum": "2026-12-22",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-49",
+   "themaTitel": "Was muss der Einbringende jedes Jahr bis zum 31. Mai nachweisen?",
+   "figuren": {
+    "A": {
+     "name": "Wiebke",
+     "kopf": "Medium 3",
+     "haut": "#F3D0B5",
+     "haar": "#D9A441",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Tee"
+    },
+    "B": {
+     "name": "Okan",
+     "kopf": "Short 1",
+     "haut": "#C99470",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Nachweis",
+      "vergessen"
+     ],
+     "norm": "§ 22 Abs. 3 UmwStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 22 + UmwStE",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "MAI",
+      "tag": "31",
+      "unter": "jedes Jahr"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Wiebke bringt ihr Einzelunternehmen zum 01.01.2024 zu Buchwerten in eine GmbH ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert 350.000 €, gemeiner Wert 1.050.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Nachweis zum 01.01.2025 liegt vor, der zum 01.01.2026 fehlt am 31.05.2026.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Wiebke."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was jedes Jahr fällig ist",
+     "punkte": [
+      [
+       "Bis 31.05. belegen, wem die Anteile am Stichtag gehören, sieben Jahre lang.",
+       "ok",
+       "Regular",
+       "§ 22 Abs. 3 S. 1 UmwStG"
+      ],
+      [
+       "Es reicht z. B. die Gesellschafterliste.",
+       "ok",
+       "Regular",
+       "BMF vom 02.01.2025, Rn. 22.30"
+      ],
+      [
+       "Verlängern lässt sich die Frist nicht.",
+       "warn",
+       "Bold",
+       "BMF vom 02.01.2025, Rn. 22.33"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Ich bin Okan, ihr Berater."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Kein Verkauf, trotzdem Steuer",
+     "punkte": [
+      [
+       "Ohne Nachweis gelten die Anteile als veräußert.",
+       "nein",
+       "Bold",
+       "§ 22 Abs. 3 S. 2 UmwStG"
+      ],
+      [
+       "Zeitpunkt: Beginn des Überwachungsjahres, hier der 02.01.2025.",
+       "warn",
+       "Regular",
+       "BMF vom 02.01.2025, Rn. 22.28"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Ich habe nichts verkauft!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Einbringungsgewinn I",
+     "normen": [
+      "§ 22 Abs. 1 S. 3 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Gemeiner Wert",
+       "1.050.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Ansatz bei der GmbH",
+       "– 350.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "1/7 für 1 volles Zeitjahr",
+       "– 100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einbringungsgewinn I",
+       "600.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Ein Siebtel fällt weg."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wohin mit den 600.000 €?",
+     "punkte": [
+      [
+       "Rückwirkend für 2024 als Gewinn nach § 16 EStG versteuern.",
+       "ok",
+       "Regular",
+       "§ 22 Abs. 1 S. 1, 2 UmwStG"
+      ],
+      [
+       "Ohne Freibetrag und ohne Tarifermäßigung.",
+       "nein",
+       "Bold",
+       "§ 22 Abs. 1 S. 1 UmwStG"
+      ],
+      [
+       "Die Anschaffungskosten der Anteile steigen um 600.000 €.",
+       "ok",
+       "Regular",
+       "§ 22 Abs. 1 S. 4 UmwStG"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Das tut weh."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Alle Nachweise bis 2027 liegen vor. Erst der zum 01.01.2028 fehlt am 31.05.2028.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist der Einbringungsgewinn I nun?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 22 Abs. 1 S. 3, Abs. 3 S. 2 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Gilt als veräußert am",
+       "02.01.2027",
+       "Regular",
+       null
+      ],
+      [
+       "Gemeiner Wert – Ansatz",
+       "700.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "3/7 für 3 volle Zeitjahre",
+       "– 300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einbringungsgewinn I",
+       "400.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Drei Siebtel weniger."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kein Nachweis heißt fiktive Veräußerung",
+      "Hier: 600.000 € Einbringungsgewinn I, rückwirkend 2024",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "31.05.",
+        "a"
+       ],
+       [
+        " jedes Jahr,",
+        null
+       ]
+      ],
+      [
+       [
+        "Lücke",
+        "b"
+       ],
+       [
+        " gilt als Verkauf,",
+        null
+       ]
+      ],
+      [
+       [
+        "je Zeitjahr",
+        "c"
+       ],
+       [
+        " ein Siebtel weg.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Steht der 31.05. in deinem Kalender?",
+     "teaser": "Weiterwischen: § 22 + UmwStE markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§ 22 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(3)",
+       [
+        [
+         "Der Einbringende hat in den dem Einbringungszeitpunkt folgenden sieben Jahren",
+         null
+        ],
+        [
+         "jährlich spätestens bis zum 31. Mai",
+         "g1"
+        ],
+        [
+         "den Nachweis darüber zu erbringen,",
+         null
+        ],
+        [
+         "wem mit Ablauf des Tages, der dem maßgebenden Einbringungszeitpunkt entspricht,",
+         "b1"
+        ],
+        [
+         "1. in den Fällen des Absatzes 1 die erhaltenen Anteile […] zuzurechnen sind. […]",
+         null
+        ],
+        [
+         "Erbringt er den Nachweis nicht, gelten die Anteile",
+         null
+        ],
+        [
+         "[…] als veräußert.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "(1) S. 3",
+       [
+        [
+         "Einbringungsgewinn I ist der Betrag, um den der gemeine Wert […] den Wert, mit dem die übernehmende Gesellschaft dieses eingebrachte Betriebsvermögen angesetzt hat, übersteigt,",
+         null
+        ],
+        [
+         "vermindert um jeweils ein Siebtel für jedes seit dem Einbringungszeitpunkt abgelaufene Zeitjahr.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Frist",
+       "g1"
+      ],
+      [
+       "Stichtag",
+       "b1"
+      ],
+      [
+       "Fiktion!",
+       "r1"
+      ],
+      [
+       "Siebtel",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Nachweis z. B. per Gesellschafterliste",
+      "BMF vom 02.01.2025, Rn. 22.30"
+     ],
+     "zweite": {
+      "kopf": "UmwStE 2025 (Auszug)",
+      "absaetze": [
+       [
+        "Rn. 22.28",
+        [
+         [
+          "[…] Wird der Nachweis nicht erbracht, gelten die Anteile als",
+          null
+         ],
+         [
+          "zu Beginn des jeweiligen jährlichen Überwachungszeitraums",
+          "g1"
+         ],
+         [
+          "innerhalb der siebenjährigen Sperrfrist veräußert.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Rn. 22.33",
+        [
+         [
+          "Die Nachweisfrist",
+          null
+         ],
+         [
+          "kann nicht verlängert werden.",
+          "r1"
+         ],
+         [
+          "Erbringt der Einbringende den Nachweis erst nach Ablauf der Frist, können allerdings die Angaben noch berücksichtigt werden, wenn eine Änderung der betroffenen Bescheide",
+          null
+         ],
+         [
+          "verfahrensrechtlich möglich",
+          "gr1"
+         ],
+         [
+          "ist.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "hier: 02.01.2025",
+        "g1"
+       ],
+       [
+        "Frist fix!",
+        "r1"
+       ],
+       [
+        "Rettung",
+        "gr1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Nachweis nach § 22 Abs. 3 UmwStG vergessen: So rechnest du den Einbringungsgewinn I.\n\n▸ Sieben Jahre lang jährlich bis 31.05. nachweisen, wem die erhaltenen Anteile am Stichtag zuzurechnen sind (§ 22 Abs. 3 S. 1 UmwStG); z. B. per Gesellschafterliste (BMF vom 02.01.2025, UmwStE Rn. 22.30).\n▸ Ohne Nachweis gelten die Anteile als veräußert (§ 22 Abs. 3 S. 2 UmwStG), und zwar zu Beginn des jeweiligen jährlichen Überwachungszeitraums (BMF vom 02.01.2025, Rn. 22.28).\n▸ Einbringungsgewinn I = gemeiner Wert im Einbringungszeitpunkt abzüglich Kosten und Ansatz bei der GmbH, vermindert um 1/7 je abgelaufenem Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG).\n▸ Versteuerung rückwirkend im Wirtschaftsjahr der Einbringung als Gewinn nach § 16 EStG, ohne § 16 Abs. 4 und § 34 EStG (§ 22 Abs. 1 S. 1, 2 UmwStG); der Betrag gilt als nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n▸ Daneben ist der Gewinn aus der fiktiven Veräußerung der Anteile selbst zu prüfen (BMF vom 02.01.2025, Rn. 22.32).\n▸ Die Frist ist nicht verlängerbar; ein verspäteter Nachweis zählt nur, solange die Bescheide verfahrensrechtlich änderbar sind (BMF vom 02.01.2025, Rn. 22.33).\n\nBeispiel: 1.050.000 € – 350.000 € – 1/7 = 600.000 €. Variante: 700.000 € – 3/7 = 400.000 €.\n\nZum Schluss: § 22 UmwStG und UmwStE Rn. 22.28, 22.33 zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 22 Abs. 1 S. 1–4, Abs. 3 UmwStG",
+    "§ 16 Abs. 4 EStG",
+    "§ 34 EStG",
+    "BMF vom 02.01.2025 (UmwStE), Rn. 22.28, 22.30, 22.32, 22.33"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-3",
+   "themaTitel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+   "figuren": {
+    "A": {
+     "name": "Merle",
+     "kopf": "Bantu Knots",
+     "haut": "#5C3A21",
+     "oberteil": "#F9D56E",
+     "bueste": "Explaining"
+    },
+    "B": {
+     "name": "Jannik",
+     "kopf": "Gray Short",
+     "haut": "#E8B98F",
+     "haar": "#9A9A9A",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Verschonung",
+      "in 10 Minuten"
+     ],
+     "norm": "§§ 13a, 13b ErbStG",
+     "unter": "Mündliche",
+     "teaser": "+ Markier-Guide § 13a ErbStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:microphone",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Fahrplan",
+     "schritte": [
+      [
+       "Einstieg · 1 Min.",
+       "§ 13a ErbStG",
+       "Problem und zwei Wege"
+      ],
+      [
+       "Was ist begünstigt? · 3 Min.",
+       "§ 13b ErbStG",
+       ""
+      ],
+      [
+       "85 oder 100 %? · 3 Min.",
+       "§ 13a Abs. 1, 10 ErbStG",
+       ""
+      ],
+      [
+       "Großerwerb, Fazit · 3 Min.",
+       "§§ 13c, 28a ErbStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 13a ErbStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg: 1 Minute",
+     "punkte": [
+      [
+       "Problem: Ein Betrieb soll nicht an der Steuer zerbrechen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zwei Wege nennen: 85 % oder auf Antrag 100 % steuerfrei.",
+       "ok",
+       "Regular",
+       "§ 13a Abs. 1, 10 ErbStG"
+      ],
+      [
+       "Dann den Fahrplan in einem Satz.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Merle, ich trage vor."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was ist begünstigt?",
+     "punkte": [
+      [
+       "Betriebe, Land- und Forstwirtschaft, Anteile an Kapitalgesellschaften über 25 %.",
+       "ok",
+       "Regular",
+       "§ 13b Abs. 1 Nr. 1–3 ErbStG"
+      ],
+      [
+       "Verwaltungsvermögen abziehen; 10 % davon bleiben unschädlich.",
+       "ok",
+       "Regular",
+       "§ 13b Abs. 2, 7 ErbStG"
+      ],
+      [
+       "Ab 90 % Verwaltungsvermögen: gar nichts begünstigt.",
+       "nein",
+       "Bold",
+       "§ 13b Abs. 2 S. 2 ErbStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Erst das Vermögen."
+    },
+    {
+     "typ": "vergleich",
+     "titel": "85 oder 100 %?",
+     "links": {
+      "kopf": "Regelverschonung",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "85 % frei",
+        "§ 13a Abs. 1 S. 1 ErbStG"
+       ],
+       [
+        "Lohnsumme 400 % in 5 Jahren",
+        "§ 13a Abs. 3 S. 1 ErbStG"
+       ],
+       [
+        "Behalten 5 Jahre",
+        "§ 13a Abs. 6 ErbStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Option",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "100 % frei, unwiderruflich",
+        "§ 13a Abs. 10 S. 1 ErbStG"
+       ],
+       [
+        "Lohnsumme 700 % in 7 Jahren",
+        null
+       ],
+       [
+        "Verwaltungsvermögen höchstens 20 %",
+        "§ 13a Abs. 10 S. 2 ErbStG"
+       ]
+      ]
+     },
+     "figur": "B:fragt",
+     "x": 790,
+     "blase": "Ich bin Jannik."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Abzugsbetrag nicht vergessen",
+     "punkte": [
+      [
+       "Auf die restlichen 15 % wirkt ein Abzugsbetrag bis 150.000 €.",
+       "ok",
+       "Regular",
+       "§ 13a Abs. 2 S. 1 ErbStG"
+      ],
+      [
+       "Er sinkt um die Hälfte des Betrags über 150.000 €. Ab 450.000 € Rest ist er weg.",
+       "warn",
+       "Bold",
+       "§ 13a Abs. 2 S. 2 ErbStG"
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ich prüfe: ab wann null?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Über 26 Mio. €",
+     "punkte": [
+      [
+       "Abschmelzen: je volle 750.000 € darüber ein Prozentpunkt weniger.",
+       "ok",
+       "Regular",
+       "§ 13c Abs. 1 S. 1 ErbStG"
+      ],
+      [
+       "Oder Erlass, soweit das verfügbare Vermögen die Steuer nicht deckt.",
+       "ok",
+       "Regular",
+       "§ 28a Abs. 1 S. 1 ErbStG"
+      ],
+      [
+       "Beides nur auf Antrag.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Zwei Sonderwege."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Fazit: 3 Minuten mit Ziel",
+     "punkte": [
+      [
+       "Mit einer Empfehlung schließen: Wann lohnt die Option?",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Zahlen und Paragrafen sauber nennen, nicht vorlesen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Richtlinien gibt es in der Mündlichen nicht: alles aus dem Gesetz.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Klare Linie."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "10 Minuten: 1 + 3 + 3 + 3",
+      "Einstieg, Vermögen, Wahl, Großerwerb mit Fazit",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Vermögen",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "85 oder 100",
+        "b"
+       ],
+       [
+        " abwägen,",
+        null
+       ]
+      ],
+      [
+       [
+        "26 Mio.",
+        "c"
+       ],
+       [
+        " im Blick.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wie lange brauchst du für den Einstieg?",
+     "teaser": "Weiterwischen: § 13a ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 13a ErbStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Begünstigtes Vermögen im Sinne des § 13b Absatz 2 bleibt vorbehaltlich der folgenden Absätze",
+         null
+        ],
+        [
+         "zu 85 Prozent steuerfrei",
+         "g1"
+        ],
+        [
+         "(Verschonungsabschlag), wenn der Erwerb […]",
+         null
+        ],
+        [
+         "insgesamt 26 Millionen Euro nicht übersteigt.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "(10)",
+       [
+        [
+         "Der Erwerber kann",
+         null
+        ],
+        [
+         "unwiderruflich",
+         "b1"
+        ],
+        [
+         "erklären, dass die Steuerbefreiung […] gewährt wird: 1. In Absatz 1 Satz 1 tritt an die Stelle des Verschonungsabschlags von 85 Prozent",
+         null
+        ],
+        [
+         "ein Verschonungsabschlag von 100 Prozent;",
+         "gr1"
+        ],
+        [
+         "[…] Voraussetzung für die Gewährung der Steuerbefreiung nach Satz 1 ist, dass das begünstigungsfähige Vermögen nach § 13b Absatz 1",
+         null
+        ],
+        [
+         "nicht zu mehr als 20 Prozent aus Verwaltungsvermögen",
+         "r2"
+        ],
+        [
+         "nach § 13b Absatz 3 und 4 besteht. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Regel",
+       "g1"
+      ],
+      [
+       "Grenze",
+       "r1"
+      ],
+      [
+       "kein Zurück",
+       "b1"
+      ],
+      [
+       "Option",
+       "gr1"
+      ],
+      [
+       "max. 20 %",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "Im Vortrag: erst 85, dann 100 %",
+      "und die 20-%-Grenze nennen"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Betriebsvermögen verschonen, 85 % oder 100 %? So baust du 10 Minuten auf.\n\n1. Einstieg (1 Min.): Problem und die zwei Wege (§ 13a Abs. 1, 10 ErbStG).\n2. Begünstigtes Vermögen (3 Min.): Land- und Forstwirtschaft, Betriebsvermögen, Anteile an Kapitalgesellschaften mit mehr als 25 % (§ 13b Abs. 1 Nr. 1–3 ErbStG). Verwaltungsvermögen herausrechnen, bis 10 % unschädlich (§ 13b Abs. 2, 7 ErbStG). Ab 90 % Verwaltungsvermögen ist nichts begünstigt (§ 13b Abs. 2 S. 2 ErbStG).\n3. Regel oder Option (3 Min.): 85 % Verschonungsabschlag, Mindestlohnsumme 400 % in 5 Jahren, Behaltensfrist 5 Jahre (§ 13a Abs. 1 S. 1, Abs. 3 S. 1, Abs. 6 ErbStG); Abzugsbetrag bis 150.000 €, der um 50 % des übersteigenden Betrags sinkt (§ 13a Abs. 2 ErbStG). Option: 100 %, 700 % in 7 Jahren, Behaltensfrist 7 Jahre, unwiderruflich, nur bei höchstens 20 % Verwaltungsvermögen (§ 13a Abs. 10 ErbStG).\n4. Großerwerb und Fazit (3 Min.): über 26 Mio. € auf Antrag Abschmelzung um einen Prozentpunkt je volle 750.000 € (§ 13c Abs. 1 ErbStG) oder Verschonungsbedarfsprüfung (§ 28a Abs. 1 ErbStG). Mit einer Empfehlung enden.\n\nIn der Prüfung: drei Themen zur Wahl, eine halbe Stunde vor Beginn (§ 26 Abs. 6 DVStB).\n\nZum Schluss: § 13a Abs. 1, 10 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 13a Abs. 1, 2, 3, 6, 10 ErbStG",
+    "§ 13b Abs. 1, 2, 7 ErbStG",
+    "§ 13c Abs. 1 ErbStG",
+    "§ 28a Abs. 1 ErbStG",
+    "§ 26 Abs. 6 DVStB"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-11",
+   "themaTitel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
+   "figuren": {
+    "A": {
+     "name": "Bastian",
+     "kopf": "Shaved 2",
+     "haut": "#F0C8A8",
+     "haar": "#8B5A2B",
+     "oberteil": "#7DD3C0",
+     "bueste": "Device"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Acht Monate Baustelle im Ausland. Betriebsstätte? Nach deutschem Recht ja. Im Abkommen erst über zwölf Monate."
+    },
+    {
+     "id": "s1",
+     "text": "Die Abgabenordnung zählt Bauausführungen ab mehr als sechs Monaten. Wichtig für beschränkte Steuerpflicht und Gewerbesteuer."
+    },
+    {
+     "id": "s2",
+     "text": "Das Musterabkommen verlangt bei Baustellen mehr als zwölf Monate. Erst dann darf der andere Staat den Gewinn besteuern."
+    },
+    {
+     "id": "s3",
+     "text": "Gleiches beim Warenlager: national eine Betriebsstätte, im Abkommen oft nur Hilfstätigkeit."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Paragraf zwölf fürs nationale Recht, Artikel fünf für die Verteilung."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "8 Monate Baustelle:",
+     "DBA-Betriebsstätte"
+    ],
+    "pille": "§ 12 AO oder Art. 5 OECD-MA?",
+    "figur": "A/skeptisch",
+    "name": "Bastian",
+    "icons": [
+     [
+      "tabler:crane",
+      "GELB",
+      "Abkommen"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "erst über 12 Monate",
+     "wort": "zwölf",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Abkommen"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "§ 12 AO",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Bauausführung",
+       "wert": "> 6 Monate",
+       "farbe": "GELB",
+       "wort": "Bauausführungen",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "beschränkte Steuerpflicht",
+       "wort": "beschränkte",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Gewerbesteuer",
+       "wort": "Gewerbesteuer",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 12 S. 2 Nr. 8 AO",
+       "wort": "Abgabenordnung"
+      }
+     ],
+     "icon": [
+      "tabler:building-bank",
+      "GELB",
+      "Abgabenordnung"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Abkommen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Baustelle",
+       "wert": "> 12 Monate",
+       "farbe": "GRUEN",
+       "wort": "Baustellen",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "Erst dann",
+       "unter": "Besteuerung im anderen Staat",
+       "wort": "Erst",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "Art. 5 Abs. 3 OECD-MA",
+       "wort": "Musterabkommen"
+      }
+     ],
+     "icon": [
+      "tabler:world",
+      "GELB",
+      "Staat"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Auch beim Lager",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "national",
+       "wert": "Betriebsstätte",
+       "farbe": "GELB",
+       "wort": "national",
+       "zs": 96
+      },
+      {
+       "typ": "block",
+       "label": "im Abkommen",
+       "wert": "oft Hilfstätigkeit",
+       "farbe": "ROT",
+       "wort": "Hilfstätigkeit",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "Art. 5 Abs. 4 OECD-MA",
+       "wort": "Abkommen"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Hilfstätigkeit",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "§ 12 AO: national,",
+     "Art. 5 OECD-MA:",
+     "wer besteuern darf,",
+     "Bau über 12 Monate"
+    ],
+    "woerter": [
+     null,
+     "Artikel",
+     "Verteilung",
+     "Verteilung"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Verteilung",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Acht Monate Baustelle im Ausland: Betriebsstätte oder nicht? Kommt drauf an, nach welchem Recht. 🏗️\n\n▸ National: Betriebsstätte ist jede feste Geschäftseinrichtung oder Anlage, die der Tätigkeit des Unternehmens dient; Bauausführungen und Montagen ab mehr als sechs Monaten, Warenlager stets (§ 12 S. 1, S. 2 Nr. 5, 8 AO). Maßgeblich etwa für die beschränkte Steuerpflicht (§ 49 Abs. 1 Nr. 2 Buchst. a EStG) und die Gewerbesteuer (§ 2 Abs. 1 S. 3 GewStG).\n▸ Abkommen: Bauausführungen und Montagen sind nur Betriebsstätte, wenn sie länger als zwölf Monate dauern (Art. 5 Abs. 3 OECD-MA). Lager, Auslieferung und andere Tätigkeiten vorbereitender Art oder Hilfstätigkeiten sind ausgenommen (Art. 5 Abs. 4 OECD-MA).\n▸ Nur mit einer Betriebsstätte im Abkommenssinn darf der andere Staat Unternehmensgewinne besteuern (Art. 7 Abs. 1 OECD-MA). Immer das konkrete DBA prüfen.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 12 AO",
+    "§ 49 Abs. 1 Nr. 2 Buchst. a EStG",
+    "§ 2 Abs. 1 S. 3 GewStG",
+    "Art. 5 Abs. 3, 4 OECD-MA",
+    "Art. 7 Abs. 1 OECD-MA"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-3",
+   "frage": [
+    "vGA erkannt:",
+    "Was nun?"
+   ],
+   "optionen": [
+    "Buchung stornieren",
+    "Außerhalb der Bilanz hinzurechnen",
+    "Einlagekonto erhöhen"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#BFE3F5",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-3",
+   "titel": [
+    "B: außerhalb",
+    "der Bilanz"
+   ],
+   "optionen": [
+    "Buchung stornieren",
+    "Außerhalb der Bilanz hinzurechnen",
+    "Einlagekonto erhöhen"
+   ],
+   "richtig": 1,
+   "text": "Die Buchung bleibt stehen. Das Einkommen darf durch die vGA nicht sinken.",
+   "norm": "§ 8 Abs. 3 S. 2 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#BFE3F5",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Nachweis vergessen"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-70",
+   "titel": [
+    "Einbringungsgewinn I:",
+    "GmbH stockt auf"
+   ],
+   "norm": "§ 23 Abs. 2 UmwStG",
+   "punkte": [
+    [
+     "Auf Antrag, wenn die Steuer bezahlt und bescheinigt ist.",
+     "ok",
+     "§ 23 Abs. 2 S. 1 UmwStG"
+    ],
+    [
+     "Erst im Jahr der Veräußerung, gewinnneutral.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Long",
+     "haut": "#F1C7A5",
+     "haar": "#5A2E1A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Verschonung in 10 Minuten"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst die Fragen,",
+    "dann der Fall"
+   ],
+   "punkte": [
+    [
+     "Aufgabenstellung zuerst lesen.",
+     "ok",
+     null
+    ],
+    [
+     "Dann den Sachverhalt mit genau diesen Fragen im Kopf.",
+     "ok",
+     null
+    ],
+    [
+     "Zahlen und Daten gleich markieren.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-search",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Medium 1",
+     "haut": "#D9A07A",
+     "haar": "#3B2A20",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-5",
+   "titel": [
+    "Ruhende Lieferung:",
+    "wo ist der Ort?"
+   ],
+   "punkte": [
+    [
+     "Ohne Transport: wo die Ware bei Übergabe liegt.",
+     "ok",
+     "§ 3 Abs. 7 S. 1 UStG"
+    ],
+    [
+     "Reihengeschäft: davor Abgangsort, danach Ankunftsort.",
+     "ok",
+     "§ 3 Abs. 7 S. 2 UStG"
+    ]
+   ],
+   "icon": "tabler:package",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Short 3",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4C27A"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Baustelle: 6 oder 12 Monate?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-06",
+   "titel": [
+    "Anteil verdeckt",
+    "eingelegt?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Gilt als ",
+      null
+     ],
+     [
+      "Verkauf",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "Preis ist der",
+      null
+     ]
+    ],
+    [
+     [
+      "gemeine Wert",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 17 Abs. 1 S. 2, Abs. 2 S. 2 EStG",
+   "groesse": 78,
+   "figuren": {
+    "M": {
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

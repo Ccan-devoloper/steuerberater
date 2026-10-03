@@ -1,0 +1,1241 @@
+{
+ "datum": "2026-10-28",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-ve-02",
+   "themaTitel": "Schenkung mit Gegenleistung: Wie wird Privatvermögen aufgeteilt?",
+   "figuren": {
+    "A": {
+     "name": "Yara",
+     "kopf": "Long Afro",
+     "haut": "#7B4A2E",
+     "haar": "#1A1210",
+     "oberteil": "#9FD0E8",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Edda",
+     "kopf": "Gray Bun",
+     "haut": "#F2D1B8",
+     "oberteil": "#C6A6E0",
+     "brille": "Glasses",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Geschenkt?",
+      "Nur teilweise!"
+     ],
+     "norm": "§ 11d EStDV",
+     "unter": "Quote zählt",
+     "teaser": "+ Markier-Guide § 11d EStDV, § 7 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Ausgleich an den Bruder",
+        "Bold",
+        40
+       ],
+       [
+        "100.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "= Entgelt",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Edda schenkt ihrer Tochter Yara ein vermietetes Haus. Verkehrswert: 400.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Yara muss dafür ihrem Bruder 100.000 € Ausgleich zahlen.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Edda hatte das Haus 1998 gekauft.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:ruhig",
+     "x": 790,
+     "blase": "Ich bin Edda"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Falle",
+     "punkte": [
+      [
+       "„Schenkung, also keine Anschaffungskosten“: falsch.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Der Ausgleich an den Bruder ist Entgelt für Yara.",
+       "ok",
+       "Regular",
+       "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847"
+      ],
+      [
+       "Ebenso wäre es die Übernahme von Eddas privaten Schulden.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Yara: Ich zahle ja!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Zu welchem Teil erwirbt Yara entgeltlich?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Wie hoch ist ihre AfA? Gebäudeanteil 75 %, Edda hat aus 180.000 € mit 2 % abgeschrieben.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: die Quote",
+     "zeilen": [
+      [
+       "Entgelt",
+       "100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Verkehrswert",
+       "400.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Entgeltlich",
+       "25 %",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Unentgeltlich",
+       "75 %",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Ein Haus, zwei Erwerbe",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: die AfA",
+     "normen": [
+      "§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG",
+      "§ 11d Abs. 1 EStDV"
+     ],
+     "zeilen": [
+      [
+       "Bezahlt: 75.000 € × 2 %",
+       "1.500 €",
+       "Regular",
+       null
+      ],
+      [
+       "Geschenkt: 3.600 € × 75 %",
+       "2.700 €",
+       "Regular",
+       null
+      ],
+      [
+       "AfA Yara pro Jahr",
+       "4.200 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Eigene Kosten plus Eddas Werte",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und Edda?",
+     "punkte": [
+      [
+       "Für den bezahlten Teil veräußert sie.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Gekauft 1998: Die Frist von zehn Jahren ist längst abgelaufen.",
+       "ok",
+       "Regular",
+       "§ 23 Abs. 1 S. 1 Nr. 1 EStG"
+      ],
+      [
+       "Ergebnis: Bei Edda nichts zu versteuern.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 290,
+     "blase": "Glück gehabt"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "25 % entgeltlich · AfA 4.200 € im Jahr",
+      "Quote = Entgelt durch Verkehrswert",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ausgleich",
+        "a"
+       ],
+       [
+        " ist Entgelt",
+        null
+       ]
+      ],
+      [
+       [
+        "Quote",
+        "b"
+       ],
+       [
+        " teilt den Erwerb",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest: Werte des ",
+        null
+       ],
+       [
+        "Schenkers",
+        "c"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du den Ausgleich übersehen?",
+     "teaser": "Weiterwischen: § 11d EStDV, § 7 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 11d EStDV (Auszug)",
+     "absaetze": [
+      [
+       "(1) 1",
+       [
+        [
+         "Bei den nicht zu einem Betriebsvermögen gehörenden Wirtschaftsgütern, die der Steuerpflichtige",
+         null
+        ],
+        [
+         "unentgeltlich erworben",
+         "g1"
+        ],
+        [
+         "hat, bemessen sich die Absetzungen für Abnutzung",
+         null
+        ],
+        [
+         "nach den Anschaffungs- oder Herstellungskosten des Rechtsvorgängers",
+         "gr1"
+        ],
+        [
+         "oder dem Wert, der beim Rechtsvorgänger an deren Stelle getreten ist oder treten würde, wenn dieser noch Eigentümer wäre, zuzüglich der vom Rechtsnachfolger aufgewendeten Herstellungskosten und",
+         null
+        ],
+        [
+         "nach dem Prozentsatz, der für den Rechtsvorgänger maßgebend sein würde,",
+         "b1"
+        ],
+        [
+         "wenn er noch Eigentümer des Wirtschaftsguts wäre.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur der geschenkte Teil",
+       "g1"
+      ],
+      [
+       "Basis des Vorgängers",
+       "gr1"
+      ],
+      [
+       "sein Satz",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 7 Abs. 4 EStG",
+      "Bezahlter Teil: eigene Kosten, eigene AfA"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 7 Abs. 4 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(4) 1",
+       [
+        [
+         "Bei Gebäuden sind abweichend von Absatz 1 als Absetzung für Abnutzung die folgenden Beträge bis zur vollen Absetzung abzuziehen: […] 2. bei Gebäuden, soweit sie die Voraussetzungen der Nummer 1 nicht erfüllen und die […] b) vor dem 1. Januar 2023 und nach dem 31. Dezember 1924 fertiggestellt worden sind,",
+         null
+        ],
+        [
+         "jährlich 2 Prozent",
+         "g1"
+        ],
+        [
+         "[…] der",
+         null
+        ],
+        [
+         "Anschaffungs- oder Herstellungskosten;",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Satz für Yara",
+       "g1"
+      ],
+      [
+       "ihre 75.000 €",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Yara: 1.500 € + 2.700 €",
+      "AfA 4.200 € im Jahr"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle Einkommensteuer: Schenkung mit Ausgleichszahlung – geschenkt ist nur ein Teil.\n\nFall: Haus mit Verkehrswert 400.000 €, die Tochter zahlt ihrem Bruder 100.000 € Ausgleich.\n\n▸ Ausgleichszahlungen an Geschwister sind Entgelt und führen zu Anschaffungskosten (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847). Entgelt ist auch die Übernahme privater Schulden des Übergebers.\n▸ Privatvermögen wird nach dem Verhältnis von Entgelt zu Verkehrswert aufgeteilt: hier 25 % entgeltlich, 75 % unentgeltlich.\n▸ AfA entgeltlicher Teil: eigene Anschaffungskosten, Gebäudeanteil 75.000 € × 2 % = 1.500 € (§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG).\n▸ AfA unentgeltlicher Teil: Werte und Prozentsatz der Schenkerin fortführen (§ 11d Abs. 1 S. 1 EStDV): 75 % von 3.600 € = 2.700 €.\n▸ Bei der Schenkerin ist der bezahlte Teil eine Veräußerung; außerhalb der Zehnjahresfrist nicht steuerbar (§ 23 Abs. 1 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 11d Abs. 1 EStDV und § 7 Abs. 4 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+    "§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG",
+    "§ 11d Abs. 1 S. 1 EStDV",
+    "§ 23 Abs. 1 S. 1 Nr. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-1-01",
+   "themaTitel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
+   "figuren": {
+    "A": {
+     "name": "Ilka",
+     "kopf": "Bangs",
+     "haut": "#EBC2A2",
+     "haar": "#5B3A29",
+     "oberteil": "#F2A07B",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Joris",
+     "kopf": "Dreads 2",
+     "haut": "#5A3825",
+     "haar": "#17110E",
+     "oberteil": "#F6D365",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Umwandlung",
+      "ohne Steuer?"
+     ],
+     "norm": "§ 11 UmwStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 11 UmwStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:arrows-exchange",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Vorgang bestimmen",
+       "§ 1 Abs. 1, 3 UmwStG",
+       ""
+      ],
+      [
+       "Sachgesamtheit?",
+       "§§ 20, 21, 24 UmwStG",
+       ""
+      ],
+      [
+       "Grundsatz: gemeiner Wert",
+       "§ 11 Abs. 1 UmwStG",
+       ""
+      ],
+      [
+       "Antrag auf Buchwert",
+       "§ 11 Abs. 2 UmwStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 11 UmwStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Ohne Sondernorm",
+     "punkte": [
+      [
+       "Wechselt der Rechtsträger, werden stille Reserven aufgedeckt.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Einzelunternehmen und Mitunternehmer: Veräußerung oder Aufgabe.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 1, 3 EStG"
+      ],
+      [
+       "Buchwerte einfach fortführen reicht nicht.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ilka, Steuerberaterin"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Ausnahmen im EStG",
+     "punkte": [
+      [
+       "Betrieb unentgeltlich übertragen: Buchwert.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 3 EStG"
+      ],
+      [
+       "Einzelnes Wirtschaftsgut in die Mitunternehmerschaft: Buchwert.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 5 S. 3 EStG"
+      ],
+      [
+       "Realteilung: Buchwert.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 3 S. 2 EStG"
+      ]
+     ],
+     "extra": [
+      "Alles andere: UmwStG prüfen",
+      "GELB",
+      null
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Nur drei Wege"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1 und 2",
+     "punkte": [
+      [
+       "Verschmelzung, Spaltung, Formwechsel nach dem UmwG oder vergleichbar im Ausland.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1 UmwStG"
+      ],
+      [
+       "Einbringung von Betrieb, Teilbetrieb oder Mitunternehmeranteil.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 3, § 20 Abs. 1 UmwStG"
+      ],
+      [
+       "Einzelne Wirtschaftsgüter: nur der Anteilstausch.",
+       "warn",
+       "Bold",
+       "§ 21 UmwStG"
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 290,
+     "blase": "Was geht über?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Die Lindqvist GmbH wird auf die Petersen GmbH verschmolzen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "In ihrem Vermögen stecken 800.000 € stille Reserven.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Ihr Gesellschafter Joris erhält dafür nur neue Anteile.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Ich bin Joris"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Muss die Lindqvist GmbH die 800.000 € versteuern?",
+       null,
+       "ExtraBold",
+       null
+      ],
+      [
+       "Welche Bedingungen müssen erfüllt sein?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Kostet mich das?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Grundsatz: gemeiner Wert, also 800.000 € Gewinn.",
+       "warn",
+       "Regular",
+       "§ 11 Abs. 1 S. 1 UmwStG"
+      ],
+      [
+       "Auf Antrag Buchwert: KSt-Zugriff bleibt, Deutschland verliert kein Besteuerungsrecht, nur Anteile als Gegenleistung.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 2 S. 1 Nr. 1–3 UmwStG"
+      ],
+      [
+       "Hier erfüllt: kein Gewinn.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Antrag stellen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Antrag gestellt: Buchwert, kein Gewinn",
+      "Ohne Antrag: 800.000 € aufdecken",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Rechtsträger wechselt:",
+        null
+       ]
+      ],
+      [
+       [
+        "Reserven werden ",
+        null
+       ],
+       [
+        "aufgedeckt",
+        "a"
+       ]
+      ],
+      [
+       [
+        "außer ",
+        null
+       ],
+       [
+        "UmwStG",
+        "b"
+       ],
+       [
+        " und ",
+        null
+       ],
+       [
+        "Antrag",
+        "c"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Prüfst du § 1 UmwStG zuerst?",
+     "teaser": "Weiterwischen: § 11 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 11 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Bei einer Verschmelzung oder Vermögensübertragung (Vollübertragung) auf eine andere Körperschaft sind die übergehenden Wirtschaftsgüter, […] in der steuerlichen Schlussbilanz der übertragenden Körperschaft",
+         null
+        ],
+        [
+         "mit dem gemeinen Wert",
+         "r1"
+        ],
+        [
+         "anzusetzen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Auf Antrag",
+         "g1"
+        ],
+        [
+         "können die übergehenden Wirtschaftsgüter abweichend von Absatz 1 einheitlich",
+         null
+        ],
+        [
+         "mit dem Buchwert",
+         "gr1"
+        ],
+        [
+         "oder einem höheren Wert, höchstens jedoch mit dem Wert nach Absatz 1, angesetzt werden, soweit 1. […] 2. […] 3.",
+         null
+        ],
+        [
+         "eine Gegenleistung nicht gewährt wird oder in Gesellschaftsrechten besteht.",
+         "b1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "r1"
+      ],
+      [
+       "Wahlrecht",
+       "g1"
+      ],
+      [
+       "Ziel",
+       "gr1"
+      ],
+      [
+       "Bedingung Nr. 3",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Nr. 1 und 2: KSt-Zugriff,",
+      "deutsches Besteuerungsrecht bleibt"
+     ]
+    }
+   ],
+   "caption": "Prüfschema Umwandlungssteuerrecht: Warum braucht eine steuerneutrale Umwandlung das UmwStG? In 4 Schritten.\n\nOhne Sondernorm führt ein Wechsel des Rechtsträgers zur Aufdeckung stiller Reserven, bei Personenunternehmen über Veräußerung oder Aufgabe (§ 16 Abs. 1, 3 EStG). Ausnahmen im EStG: § 6 Abs. 3, § 6 Abs. 5 S. 3, § 16 Abs. 3 S. 2 EStG.\n\n1. Vorgang bestimmen: Verschmelzung, Spaltung, Formwechsel oder vergleichbare ausländische Vorgänge (§ 1 Abs. 1 UmwStG), Einbringungen (§ 1 Abs. 3 UmwStG).\n2. Sachgesamtheit prüfen: Betrieb, Teilbetrieb, Mitunternehmeranteil (§§ 20, 24 UmwStG); einzelne Anteile nur beim Anteilstausch (§ 21 UmwStG).\n3. Grundsatz: Bewertung zum gemeinen Wert (§ 11 Abs. 1 S. 1 UmwStG).\n4. Auf Antrag Buchwert oder Zwischenwert, soweit die spätere Besteuerung mit Körperschaftsteuer sichergestellt ist, das deutsche Besteuerungsrecht nicht ausgeschlossen oder beschränkt wird und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 S. 1 Nr. 1–3 UmwStG).\n\nZum Schluss: § 11 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1, 3 UmwStG",
+    "§ 11 Abs. 1, 2 UmwStG",
+    "§§ 20, 21, 24 UmwStG",
+    "§ 16 Abs. 1, 3 EStG",
+    "§ 6 Abs. 3, 5 S. 3 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-14",
+   "themaTitel": "§ 14c UStG – zwei Fälle",
+   "figuren": {
+    "A": {
+     "name": "Femi",
+     "kopf": "Afro",
+     "haut": "#6A4029",
+     "haar": "#151010",
+     "oberteil": "#F29E8E",
+     "bueste": "Striped Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Neunzehn statt sieben Prozent auf der Rechnung. Den Mehrbetrag schuldest du immer? Nicht bei Endverbrauchern."
+    },
+    {
+     "id": "s1",
+     "text": "An Unternehmer gilt: Du schuldest den Mehrbetrag, bis du die Rechnung berichtigst."
+    },
+    {
+     "id": "s2",
+     "text": "Geht die Rechnung an Privatleute ohne Vorsteuerabzug, entsteht daraus keine Steuer. So sehen es EuGH, Bundesfinanzhof und Verwaltung."
+    },
+    {
+     "id": "s3",
+     "text": "Anders beim unberechtigten Ausweis, etwa ohne Unternehmer zu sein: Berichtigen geht erst, wenn kein Vorsteuerabzug mehr droht."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Erst schauen, wer die Rechnung bekommt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "19 % statt 7 %?",
+     "Immer geschuldet."
+    ],
+    "pille": "§ 14c UStG",
+    "figur": "A/sorge",
+    "name": "Femi",
+    "icons": [
+     [
+      "tabler:file-invoice",
+      "GELB",
+      "Nicht"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "nicht an Privatleute",
+     "wort": "Endverbrauchern",
+     "farbe": "GRUEN",
+     "zs": 64
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Nicht"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "An Unternehmer",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Mehrbetrag",
+       "wert": "geschuldet",
+       "farbe": "ROT",
+       "wort": "Mehrbetrag",
+       "zs": 96
+      },
+      {
+       "typ": "text",
+       "text": "bis zur Berichtigung",
+       "unter": "wirkt wie eine Entgeltänderung",
+       "wort": "berichtigst",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "norm",
+       "text": "§ 14c Abs. 1 S. 1, 2 UStG",
+       "wort": "schuldest"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Unternehmer"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "An Privatleute",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Endverbraucher",
+       "wert": "keine Steuer daraus",
+       "farbe": "GRUEN",
+       "wort": "Privatleute",
+       "zs": 72
+      },
+      {
+       "typ": "text",
+       "text": "EuGH C-794/23",
+       "unter": "BFH V R 46/25",
+       "wort": "EuGH",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "norm",
+       "text": "Abschn. 14c.1 Abs. 1a UStAE",
+       "wort": "Verwaltung"
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "Privatleute"
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "keine",
+       1.0
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Unberechtigt",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Kein Unternehmer",
+       "wert": "schuldet Betrag",
+       "farbe": "ROT",
+       "wort": "unberechtigten",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Berichtigung erst",
+       "unter": "ohne Gefährdung",
+       "wort": "Berichtigen",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 14c Abs. 2 S. 3, 4 UStG",
+       "wort": "Vorsteuerabzug"
+      }
+     ],
+     "icon": [
+      "tabler:alert-triangle",
+      "ROT",
+      "unberechtigten"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Erst",
+     "schauen:",
+     "Wer bekommt",
+     "die Rechnung?"
+    ],
+    "woerter": [
+     null,
+     "schauen",
+     "wer",
+     "Rechnung"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "bekommt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "§ 14c UStG: Zu viel Umsatzsteuer ausgewiesen – schuldest du den Mehrbetrag immer? 🧾\n\n▸ Unrichtiger Ausweis: Wer mehr Steuer ausweist, als er schuldet, schuldet auch den Mehrbetrag; Berichtigung gegenüber dem Empfänger entsprechend § 17 Abs. 1 UStG (§ 14c Abs. 1 S. 1, 2 UStG).\n▸ Rechnung an Endverbraucher (Nichtunternehmer ohne Vorsteuerabzug): keine Steuerschuld aus § 14c Abs. 1 UStG (Abschn. 14c.1 Abs. 1a UStAE, BMF vom 27.02.2024; ebenso EuGH vom 01.08.2025, C-794/23, und BFH vom 26.03.2026, V R 46/25, noch nicht im BStBl). Maßgeblich ist jede einzelne Rechnung, eine Schätzung lässt die Verwaltung nicht zu. Unterschied: Die Verwaltung zählt auch Unternehmer, die privat beziehen, zu den Endverbrauchern; nach dem EuGH sind es nur Nichtsteuerpflichtige.\n▸ Unberechtigter Ausweis, etwa durch Nichtunternehmer: geschuldet wird der ausgewiesene Betrag; Berichtigung erst, wenn die Gefährdung des Steueraufkommens beseitigt ist, also kein Vorsteuerabzug durchgeführt oder die Vorsteuer zurückgezahlt wurde (§ 14c Abs. 2 S. 1, 3, 4 UStG).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 14c Abs. 1, 2 UStG",
+    "§ 17 Abs. 1 UStG",
+    "EuGH vom 01.08.2025, C-794/23",
+    "BFH vom 26.03.2026, V R 46/25",
+    "Abschn. 14c.1 Abs. 1a UStAE",
+    "BMF vom 27.02.2024"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-3",
+   "frage": [
+    "§ 15a UStG:",
+    "Wie lange bei Grundstücken?"
+   ],
+   "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Turban",
+     "haut": "#B57B55",
+     "oberteil": "#F2B544",
+     "bart": "Full",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-3",
+   "titel": [
+    "B: zehn Jahre"
+   ],
+   "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre"
+   ],
+   "richtig": 1,
+   "text": "Bei Grundstücken und Gebäuden auf fremdem Boden zehn statt fünf Jahre ab erstmaliger Verwendung.",
+   "norm": "§ 15a Abs. 1 S. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Turban",
+     "haut": "#B57B55",
+     "oberteil": "#F2B544",
+     "bart": "Full",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Geschenkt? Nur teilweise!"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-45",
+   "titel": [
+    "Abzug statt",
+    "Anrechnung?"
+   ],
+   "norm": "§ 34c Abs. 2 EStG",
+   "punkte": [
+    [
+     "Lohnt vor allem bei Verlusten: Die Auslandssteuer erhöht den Verlust.",
+     "ok",
+     "§ 34c Abs. 2 EStG"
+    ],
+    [
+     "Nicht bei Kapitalerträgen mit Abgeltungsteuer.",
+     "nein",
+     "§ 34c Abs. 1 S. 1 Hs. 2 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 5",
+     "haut": "#E6BC98",
+     "haar": "#2B1E16",
+     "oberteil": "#A8D8B9",
+     "brille": "Glasses 4",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Umwandlung ohne Steuer?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Zeit nach",
+    "Punkten planen"
+   ],
+   "punkte": [
+    [
+     "Punkte je Teil notieren",
+     "ok",
+     null
+    ],
+    [
+     "Endzeit je Teil an den Rand",
+     "ok",
+     null
+    ],
+    [
+     "Zeit um? Weiter, Lücke lassen",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:clock",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Medium Bangs 3",
+     "haut": "#F0C8A8",
+     "haar": "#9A5B32",
+     "oberteil": "#8FC9B9"
+    }
+   },
+   "figur": "T/eilt"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-17",
+   "titel": [
+    "Verbindlichkeit",
+    "abzinsen?"
+   ],
+   "punkte": [
+    [
+     "Nicht mehr für Wirtschaftsjahre, die nach 2022 enden",
+     "nein",
+     "§ 52 Abs. 12 S. 2 EStG"
+    ],
+    [
+     "Rückstellungen weiter mit 5,5 %",
+     "warn",
+     "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+    ]
+   ],
+   "icon": "tabler:percentage",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Hijab",
+     "haut": "#C99470",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "K/ruhig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "19 % statt 7 %?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-313",
+   "titel": [
+    "Bescheid zum",
+    "Abruf bereit"
+   ],
+   "zeilen": [
+    [
+     [
+      "Bekannt gegeben",
+      null
+     ]
+    ],
+    [
+     [
+      "am ",
+      null
+     ],
+     [
+      "vierten Tag",
+      "a"
+     ]
+    ],
+    [
+     [
+      "nach der ",
+      null
+     ],
+     [
+      "Bereitstellung",
+      "b"
+     ]
+    ]
+   ],
+   "norm": "§ 122a Abs. 4 S. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Short 2",
+     "haut": "#8D5A3B",
+     "haar": "#1B1B1B",
+     "oberteil": "#F6C6D0",
+     "bart": "Goatee 2",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

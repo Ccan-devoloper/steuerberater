@@ -1,0 +1,1175 @@
+{
+ "datum": "2026-11-12",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr4-05",
+   "themaTitel": "§ 8 Abs. 2 bis 4 AStG: Motivtest nur für EU-/EWR-Gesellschaften",
+   "figuren": {
+    "A": {
+     "name": "Elif",
+     "kopf": "Medium Bangs",
+     "haut": "#E2B08A",
+     "haar": "#3C2414",
+     "oberteil": "#B3D9F2",
+     "bueste": "Paper"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Motivtest",
+      "nur für EU?"
+     ],
+     "norm": "§ 8 Abs. 2 bis 4 AStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 8 AStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:world-check",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Substanz nachweisen",
+       "§ 8 Abs. 2 S. 1 bis 3 AStG",
+       "Personal, Ausstattung, eigenverantwortlich"
+      ],
+      [
+       "Nur eigene Einkünfte",
+       "§ 8 Abs. 2 S. 4, 5 AStG",
+       "fremdüblich, nicht von Dritten erledigt"
+      ],
+      [
+       "Nur EU und EWR",
+       "§ 8 Abs. 3 AStG",
+       "Drittstaat: Test gesperrt"
+      ],
+      [
+       "Auskunft nötig",
+       "§ 8 Abs. 4 AStG",
+       "sonst kein Test"
+      ]
+     ],
+     "teaser": "Am Ende: § 8 AStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Drittstaat: kein Ausweg",
+     "punkte": [
+      [
+       "Passive, niedrig besteuerte Einkünfte einer Gesellschaft außerhalb von EU und EWR: Test gesperrt.",
+       "nein",
+       "Bold",
+       "§ 8 Abs. 3 AStG"
+      ],
+      [
+       "Auch echte Büros und Personal helfen nicht.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Erst Katalog und Belastung unter 15 % prüfen.",
+       "ok",
+       "Regular",
+       "§ 8 Abs. 1, 5 AStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Trotz echter Firma?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "EU-Tochter oder Drittstaat?",
+     "links": {
+      "kopf": "Sitz in der EU",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Substanz nachgewiesen: keine Zwischengesellschaft",
+        "§ 8 Abs. 2 S. 1 AStG"
+       ],
+       [
+        "Auskunftsaustausch nötig",
+        "§ 8 Abs. 4 AStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Sitz im Drittstaat",
+      "farbe": "ROT",
+      "punkte": [
+       [
+        "Kein Motivtest möglich",
+        "§ 8 Abs. 3 AStG"
+       ],
+       [
+        "Hinzurechnung beim Inländer",
+        "§ 7 Abs. 1 AStG"
+       ]
+      ]
+     },
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Der Sitz entscheidet."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Erst Zwischengesellschaft prüfen,",
+      "dann Substanz, Sitzstaat, Auskunft",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Substanz",
+        "a"
+       ],
+       [
+        " nachweisen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einkünfte",
+        "b"
+       ],
+       [
+        " zuordnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "nur EU/EWR",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Auskunft",
+        "d"
+       ],
+       [
+        " vorhanden.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Kanntest du die Sperre?",
+     "teaser": "Weiterwischen: § 8 AStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8 AStG (Auszug)",
+     "absaetze": [
+      [
+       2,
+       [
+        [
+         "Ungeachtet des Absatzes 1 ist eine ausländische Gesellschaft nicht Zwischengesellschaft für Einkünfte, für die nachgewiesen wird, dass die Gesellschaft in dem Staat, in dem sie ihren Sitz oder ihre Geschäftsleitung hat, insoweit einer",
+         null
+        ],
+        [
+         "wesentlichen wirtschaftlichen Tätigkeit",
+         "g1"
+        ],
+        [
+         "nachgeht. […] Die Sätze 1 bis 3 gelten nicht, wenn die Gesellschaft ihre wesentliche wirtschaftliche Tätigkeit",
+         null
+        ],
+        [
+         "überwiegend durch Dritte",
+         "r1"
+        ],
+        [
+         "besorgen lässt.",
+         null
+        ]
+       ]
+      ],
+      [
+       3,
+       [
+        [
+         "Absatz 2 gilt nur, wenn die ausländische Gesellschaft ihren Sitz oder ihre Geschäftsleitung",
+         null
+        ],
+        [
+         "in einem Mitgliedstaat der Europäischen Union oder einem Vertragsstaat des EWR-Abkommens",
+         "b1"
+        ],
+        [
+         "hat.",
+         null
+        ]
+       ]
+      ],
+      [
+       4,
+       [
+        [
+         "Die Absätze 2 und 3 gelten nicht, wenn der Staat […]",
+         null
+        ],
+        [
+         "keine Auskünfte erteilt",
+         "gr1"
+        ],
+        [
+         ", die zur Durchführung der Besteuerung erforderlich sind.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Substanz",
+       "g1"
+      ],
+      [
+       "Outsourcing schadet",
+       "r1"
+      ],
+      [
+       "räumliche Grenze",
+       "b1"
+      ],
+      [
+       "Auskunftsklausel",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Abs. 2 S. 2, 3:",
+      "Ausstattung, Personal, eigenverantwortlich"
+     ]
+    }
+   ],
+   "caption": "Motivtest im Außensteuerrecht – der Spickzettel zu § 8 Abs. 2 bis 4 AStG für die Ertragsteuer-Klausur.\n\n▸ Keine Zwischengesellschaft für Einkünfte, für die eine wesentliche wirtschaftliche Tätigkeit im Sitz- oder Geschäftsleitungsstaat nachgewiesen wird (§ 8 Abs. 2 S. 1 AStG): sachliche und personelle Ausstattung, qualifiziertes Personal, selbständig und eigenverantwortlich (§ 8 Abs. 2 S. 2, 3 AStG).\n▸ Zuzuordnen sind nur Einkünfte aus dieser Tätigkeit, soweit fremdüblich (§ 8 Abs. 2 S. 4 AStG); lässt die Gesellschaft die Tätigkeit überwiegend von Dritten erledigen, scheidet der Nachweis aus (§ 8 Abs. 2 S. 5 AStG).\n▸ Der Nachweis steht nur offen, wenn Sitz oder Geschäftsleitung in einem EU- bzw. EWR-Staat liegen (§ 8 Abs. 3 AStG) und nur bei Auskunftsaustausch (§ 8 Abs. 4 AStG).\n▸ Vorher prüfen: passive Einkünfte nach dem Katalog und Niedrigbesteuerung unter 15 % (§ 8 Abs. 1, 5 AStG); Folge der Zwischengesellschaft ist die Hinzurechnung (§ 7 Abs. 1 AStG).\n\nZum Schluss: § 8 AStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 8 Abs. 1 bis 5 AStG",
+    "§ 7 Abs. 1 AStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-12-04",
+   "themaTitel": "Welche Sonderregeln gelten für Rückstellungen in der Steuerbilanz?",
+   "figuren": {
+    "A": {
+     "name": "Hannes",
+     "kopf": "Short 5",
+     "haut": "#F2C9A8",
+     "haar": "#C8A165",
+     "oberteil": "#F4C7A1",
+     "bart": "Full 2",
+     "bueste": "Sporty Tee"
+    },
+    "B": {
+     "name": "Adaeze",
+     "kopf": "Twists",
+     "haut": "#5E3A23",
+     "haar": "#1A1A1A",
+     "oberteil": "#F9E79F",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Rückstellung",
+      "steuerlich bewerten"
+     ],
+     "norm": "§ 6 Abs. 1 Nr. 3a EStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 6 + R 6.11",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:scale",
+      "farbe": "GELB"
+     },
+     "figur": "B:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Stichtagswerte",
+       "§ 6 Abs. 1 Nr. 3a Buchst. f EStG",
+       "keine künftigen Preissteigerungen"
+      ],
+      [
+       "Kosten minus Vorteile",
+       "§ 6 Abs. 1 Nr. 3a Buchst. b, c EStG",
+       "Einzel- und Gemeinkosten, Vorteile ab"
+      ],
+      [
+       "Ansammeln, abzinsen",
+       "§ 6 Abs. 1 Nr. 3a Buchst. d, e EStG",
+       "Raten; 5,5 % ab zwölf Monaten"
+      ],
+      [
+       "Deckel Handelsbilanz",
+       "R 6.11 Abs. 3 EStR",
+       "nie mehr als der HB-Wert"
+      ]
+     ],
+     "teaser": "Am Ende: § 6 EStG + R 6.11 markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Stichtagswerte",
+     "punkte": [
+      [
+       "Steuerlich zählen die Wertverhältnisse am Bilanzstichtag.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. f EStG"
+      ],
+      [
+       "Künftige Preis- und Kostensteigerungen bleiben draußen.",
+       "nein",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 3a Buchst. f EStG"
+      ],
+      [
+       "Anders die Handelsbilanz: notwendiger Erfüllungsbetrag.",
+       "warn",
+       "Regular",
+       "§ 253 Abs. 1 S. 2 HGB"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 790,
+     "blase": "Heutige Preise!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Kosten minus Vorteile",
+     "punkte": [
+      [
+       "Sachleistungen: Einzelkosten plus angemessene Teile der notwendigen Gemeinkosten.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. b EStG"
+      ],
+      [
+       "Künftige Vorteile mindern, soweit keine Forderung aktiviert ist, etwa ein Rückgriff.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. c EStG"
+      ],
+      [
+       "Viele gleichartige Pflichten: Erfahrungswerte nutzen.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. a EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Auch Gemeinkosten?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Ansammeln, abzinsen",
+     "punkte": [
+      [
+       "Verursacht der laufende Betrieb die Pflicht: in gleichen Raten ansammeln.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. d EStG"
+      ],
+      [
+       "Mit 5,5 % abzinsen, außer Laufzeit unter zwölf Monaten, verzinslich oder Anzahlung.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. e S. 1 EStG"
+      ],
+      [
+       "Sachleistung: Zeit bis zum Beginn der Erfüllung.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. e S. 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Laufzeit prüfen!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "4 · Deckel Handelsbilanz",
+     "punkte": [
+      [
+       "Außer bei Pensionen: Die Steuerbilanz darf nie mehr ansetzen als die Handelsbilanz.",
+       "warn",
+       "Bold",
+       "R 6.11 Abs. 3 S. 1 EStR"
+      ],
+      [
+       "Bestätigt vom BFH.",
+       "ok",
+       "Regular",
+       "BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195"
+      ],
+      [
+       "Also beide Werte rechnen, den niedrigeren nehmen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Der kleinere gewinnt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Die Lindner Haustechnik KG muss im Januar eine Gewährleistungsreparatur ausführen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Einzelkosten 30.000 €, Gemeinkosten 6.000 €, erwartete Lohnerhöhung 2.000 €. Der Lieferant ersetzt sicher 10.000 €. HB-Wert: 40.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Steuerbilanzwert?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 790,
+     "blase": "Rechne mit!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 3a Buchst. b, c, e, f EStG"
+     ],
+     "zeilen": [
+      [
+       "Einzelkosten",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Gemeinkosten",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Lohnerhöhung",
+       "0 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Rückgriff Lieferant",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Steuerbilanz",
+       "26.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "HB 40.000 € liegt darüber: 26.000 € bleiben",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lindner KG: Steuerbilanz 26.000 € statt 40.000 €",
+      "Ohne Steigerung, mit Rückgriff, ohne Abzinsung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Stichtag",
+        "a"
+       ],
+       [
+        " statt Zukunft,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gemeinkosten",
+        "b"
+       ],
+       [
+        " rein,",
+        null
+       ]
+      ],
+      [
+       [
+        "Vorteile",
+        "c"
+       ],
+       [
+        " ab,",
+        null
+       ]
+      ],
+      [
+       [
+        "Handelsbilanz",
+        "d"
+       ],
+       [
+        " als Deckel.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Welchen Schritt vergisst du?",
+     "teaser": "Weiterwischen: § 6 + R 6.11 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Richtlinie markieren",
+     "kopf": "§ 6 Abs. 1 Nr. 3a EStG (Auszug)",
+     "absaetze": [
+      [
+       "3a.",
+       [
+        [
+         "Rückstellungen sind",
+         null
+        ],
+        [
+         "höchstens",
+         "r1"
+        ],
+        [
+         "insbesondere unter Berücksichtigung folgender Grundsätze anzusetzen: […] b) Rückstellungen für Sachleistungsverpflichtungen sind mit den",
+         null
+        ],
+        [
+         "Einzelkosten und den angemessenen Teilen der notwendigen Gemeinkosten",
+         "g1"
+        ],
+        [
+         "zu bewerten; c)",
+         null
+        ],
+        [
+         "künftige Vorteile",
+         "b1"
+        ],
+        [
+         ", die mit der Erfüllung der Verpflichtung voraussichtlich verbunden sein werden, sind, soweit sie nicht als Forderung zu aktivieren sind, bei ihrer Bewertung wertmindernd zu berücksichtigen; […] e) […]",
+         null
+        ],
+        [
+         "ausgenommen von der Abzinsung sind Rückstellungen für Verpflichtungen, deren Laufzeit am Bilanzstichtag weniger als zwölf Monate beträgt,",
+         "r3"
+        ],
+        [
+         "[…] f) bei der Bewertung sind die",
+         null
+        ],
+        [
+         "Wertverhältnisse am Bilanzstichtag",
+         "gr1"
+        ],
+        [
+         "maßgebend; künftige Preis- und Kostensteigerungen dürfen nicht berücksichtigt werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Obergrenze",
+       "r1"
+      ],
+      [
+       "Buchst. b",
+       "g1"
+      ],
+      [
+       "Buchst. c",
+       "b1"
+      ],
+      [
+       "Januar: nicht abzinsen",
+       "r3"
+      ],
+      [
+       "Buchst. f",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Lindner KG: 26.000 €",
+      "unter dem HB-Wert von 40.000 €"
+     ],
+     "zweite": {
+      "kopf": "R 6.11 Abs. 3 EStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Mit Ausnahme der Pensionsrückstellungen",
+          "b2"
+         ],
+         [
+          "darf die Höhe der Rückstellung in der Steuerbilanz",
+          null
+         ],
+         [
+          "den zulässigen Ansatz in der Handelsbilanz nicht überschreiten.",
+          "r2"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "nicht bei Pensionen",
+        "b2"
+       ],
+       [
+        "Deckel",
+        "r2"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Rückstellungen in der Steuerbilanz bewerten – das Prüfschema für die Bilanzklausur.\n\n1. Stichtagsprinzip: Wertverhältnisse am Bilanzstichtag, keine künftigen Preis- und Kostensteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. f EStG); handelsrechtlich dagegen notwendiger Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n2. Kosten und Vorteile: Sachleistungsverpflichtungen mit Einzelkosten und angemessenen Teilen der notwendigen Gemeinkosten (§ 6 Abs. 1 Nr. 3a Buchst. b EStG); künftige Vorteile mindern, soweit nicht als Forderung zu aktivieren (Buchst. c); gleichartige Verpflichtungen nach Erfahrungswerten (Buchst. a).\n3. Ansammlung in gleichen Raten (Buchst. d); Abzinsung mit 5,5 %, nicht bei Laufzeit unter zwölf Monaten, Verzinslichkeit oder Anzahlung/Vorausleistung; bei Sachleistungen bis zum Beginn der Erfüllung (Buchst. e S. 1, 2).\n4. Obergrenze: höchstens der Handelsbilanzwert, außer bei Pensionsrückstellungen (R 6.11 Abs. 3 S. 1 EStR; BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195).\n\nBeispiel: 30.000 € + 6.000 € – 10.000 € = 26.000 €; Lohnerhöhung bleibt außer Ansatz, keine Abzinsung, HB-Wert 40.000 € liegt darüber.\n\nZum Schluss: § 6 Abs. 1 Nr. 3a EStG und R 6.11 Abs. 3 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 6 Abs. 1 Nr. 3a Buchst. a bis f EStG",
+    "§ 253 Abs. 1 S. 2 HGB",
+    "R 6.11 Abs. 3 S. 1 EStR",
+    "BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-358",
+   "themaTitel": "§ 173 AO vertieft: Ermittlungsfehler, grobes Verschulden und Zusammenhangsklausel",
+   "figuren": {
+    "A": {
+     "name": "Malte",
+     "kopf": "Shaved 3",
+     "haut": "#E7B995",
+     "haar": "#6B4A2B",
+     "oberteil": "#F5A6A6",
+     "bart": "Chin"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Beleg vergessen, Bescheid bestandskräftig: Änderung ausgeschlossen? Nicht automatisch!"
+    },
+    {
+     "id": "s1",
+     "text": "Für neue Tatsachen zu deinen Gunsten gilt: Änderung nur ohne grobes Verschulden."
+    },
+    {
+     "id": "s2",
+     "text": "Offensichtliche Versehen wie Rechen- oder Übertragungsfehler sind nicht grob. Grob ist, eine ausdrückliche Frage im Formular zu übergehen."
+    },
+    {
+     "id": "s3",
+     "text": "Und hängt die Tatsache mit einer steuererhöhenden zusammen, ist das Verschulden sogar egal."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Vergessen ist nicht automatisch grob."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Beleg vergessen:",
+     "keine Änderung?"
+    ],
+    "pille": "§ 173 AO",
+    "figur": "A/sorge",
+    "name": "Malte",
+    "icons": [
+     [
+      "tabler:receipt",
+      "GELB",
+      "Nicht"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Nicht"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "nicht automatisch",
+     "wort": "automatisch",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Zu deinen Gunsten",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "neue Tatsache",
+       "wert": "Steuer sinkt",
+       "farbe": "GRUEN",
+       "wort": "Tatsachen",
+       "zs": 96
+      },
+      {
+       "typ": "text",
+       "text": "Änderung nur",
+       "unter": "ohne grobes Verschulden",
+       "wort": "grobes",
+       "farbe": "WEISS",
+       "ls": 70
+      },
+      {
+       "typ": "norm",
+       "text": "§ 173 Abs. 1 Nr. 2 S. 1 AO",
+       "wort": "Änderung"
+      }
+     ],
+     "icon": [
+      "tabler:file-search",
+      "GELB",
+      "Gunsten"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Grob oder nicht?",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Versehen: nicht grob",
+       "wort": "Offensichtliche",
+       "farbe": "GRUEN"
+      },
+      {
+       "typ": "pille",
+       "text": "Rechen-, Übertragungsfehler",
+       "wort": "Übertragungsfehler",
+       "farbe": "GRUEN"
+      },
+      {
+       "typ": "block",
+       "label": "grob verschuldet",
+       "wert": "Frage übergangen",
+       "farbe": "ROT",
+       "wort": "ausdrückliche",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "AEAO zu § 173 Nr. 5.1.3",
+       "wort": "Formular"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Grob",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Zusammenhang",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Zusammenhang mit Nr. 1",
+       "unter": "Verschulden ist egal",
+       "wort": "Tatsache",
+       "farbe": "GELB",
+       "ls": 66
+      },
+      {
+       "typ": "norm",
+       "text": "§ 173 Abs. 1 Nr. 2 S. 2 AO",
+       "wort": "steuererhöhenden"
+      }
+     ],
+     "figur": {
+      "ref": "A/laessig",
+      "wort": "egal",
+      "hoehe": 420
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "§ 173 Abs. 1 Nr. 2:",
+     "Vergessen ist",
+     "nicht automatisch",
+     "grob"
+    ],
+    "woerter": [
+     null,
+     "Vergessen",
+     "automatisch",
+     "grob"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "grob",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Beleg vergessen – ist die Änderung des bestandskräftigen Bescheids ausgeschlossen? 🧾\n\n▸ Neue Tatsachen, die zu einer niedrigeren Steuer führen: Änderung nur, wenn den Steuerpflichtigen kein grobes Verschulden am nachträglichen Bekanntwerden trifft (§ 173 Abs. 1 Nr. 2 S. 1 AO).\n▸ Grobes Verschulden = Vorsatz und grobe Fahrlässigkeit, beurteilt nach den persönlichen Kenntnissen und Fähigkeiten (AEAO zu § 173 Nr. 5.1 und Nr. 5.1.1). Offensichtliche Versehen und alltägliche Irrtümer wie Schreib-, Rechen- oder Übertragungsfehler sind nicht grob (AEAO zu § 173 Nr. 5.1.1); Schreib- und Rechenfehler in der Erklärung erfasst zudem § 173a AO. Wer eine im Formular ausdrücklich gestellte Frage übergeht, handelt regelmäßig grob schuldhaft (AEAO zu § 173 Nr. 5.1.3).\n▸ Zusammenhangsklausel: Das Verschulden ist unbeachtlich, wenn die Tatsache mit einer steuererhöhenden neuen Tatsache im unmittelbaren oder mittelbaren Zusammenhang steht (§ 173 Abs. 1 Nr. 2 S. 2 AO).\n▸ Gegenstück: Steuererhöhende neue Tatsachen führen ohne Verschuldensprüfung zur Änderung (§ 173 Abs. 1 Nr. 1 AO).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 173 Abs. 1 Nr. 1, Nr. 2 S. 1, 2 AO",
+    "§ 173a AO",
+    "AEAO zu § 173 Nr. 5.1",
+    "AEAO zu § 173 Nr. 5.1.1",
+    "AEAO zu § 173 Nr. 5.1.3"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-6",
+   "frage": [
+    "Firmenwagen privat:",
+    "Bemessungsgrundlage?"
+   ],
+   "optionen": [
+    "Halber Listenpreis wie im EStG",
+    "Ausgaben mit Vorsteuerabzug",
+    "Alle Kfz-Kosten"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#C38A63",
+     "haar": "#2B1B12",
+     "oberteil": "#F7D08A",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-6",
+   "titel": [
+    "B: Ausgaben mit",
+    "Vorsteuerabzug"
+   ],
+   "optionen": [
+    "Halber Listenpreis wie im EStG",
+    "Ausgaben mit Vorsteuerabzug",
+    "Alle Kfz-Kosten"
+   ],
+   "richtig": 1,
+   "text": "Kosten ohne Vorsteuer, etwa Versicherung, bleiben draußen.",
+   "norm": "§ 10 Abs. 4 S. 1 Nr. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#C38A63",
+     "haar": "#2B1B12",
+     "oberteil": "#F7D08A",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Motivtest nur für EU?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-5-10",
+   "titel": [
+    "Beherrschender",
+    "Gesellschafter"
+   ],
+   "norm": "R 8.5 Abs. 2 KStR",
+   "punkte": [
+    [
+     "Im Voraus, klar, wirksam vereinbart und so durchgeführt.",
+     "ok",
+     null
+    ],
+    [
+     "Fehlt das: vGA trotz angemessener Höhe.",
+     "nein",
+     "§ 8 Abs. 3 S. 2 KStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Bun 2",
+     "haut": "#8F5B3A",
+     "haar": "#151515",
+     "oberteil": "#CDE7B0",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:ernst"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Rückstellung steuerlich bewerten"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Ergebnis",
+    "nach vorn"
+   ],
+   "punkte": [
+    [
+     "Erst das Ergebnis, dann die Begründung",
+     "ok",
+     null
+    ],
+    [
+     "Jede Aussage mit genauer Norm",
+     "ok",
+     null
+    ],
+    [
+     "Rechnungen als Tabelle, nicht als Text",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:target",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "No Hair 2",
+     "haut": "#6B4630",
+     "oberteil": "#F2B8A0"
+    }
+   },
+   "figur": "Z/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-16",
+   "titel": [
+    "Firmenwert",
+    "abschreiben"
+   ],
+   "punkte": [
+    [
+     "Handelsbilanz: Nutzungsdauer, notfalls 10 Jahre",
+     "ok",
+     "§ 253 Abs. 3 S. 3, 4 HGB"
+    ],
+    [
+     "Steuerbilanz: immer 15 Jahre",
+     "warn",
+     "§ 7 Abs. 1 S. 3 EStG"
+    ]
+   ],
+   "icon": "tabler:calendar-stats",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Dreads 2",
+     "haut": "#7A4B2E",
+     "haar": "#1E1E1E",
+     "oberteil": "#F6C1D1"
+    }
+   },
+   "figur": "T/ruhig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Beleg vergessen: keine Änderung?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-361",
+   "titel": [
+    "Grundlagenbescheid",
+    "geändert?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Folgebescheid ",
+      null
+     ],
+     [
+      "muss",
+      "a"
+     ]
+    ],
+    [
+     [
+      "angepasst werden,",
+      null
+     ]
+    ],
+    [
+     [
+      "ohne Ermessen",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 175 Abs. 1 S. 1 Nr. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Mohawk",
+     "haut": "#EBC7A8",
+     "haar": "#5B2C6F",
+     "oberteil": "#F7E08A",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

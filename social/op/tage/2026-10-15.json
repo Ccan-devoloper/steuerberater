@@ -1,0 +1,1117 @@
+{
+ "datum": "2026-10-15",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-19",
+   "themaTitel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
+   "figuren": {
+    "A": {
+     "name": "Oskar",
+     "kopf": "Medium 3",
+     "haut": "#EAC3A2",
+     "haar": "#5A3825",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 7",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Lohnsumme",
+      "verfehlt?"
+     ],
+     "norm": "§ 13a Abs. 3 ErbStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 13a ErbStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Mindestlohnsumme",
+        "Bold",
+        44
+       ],
+       [
+        "400 %",
+        "ExtraBold",
+        96
+       ],
+       [
+        "in 5 Jahren",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Ausgangslohnsumme",
+       "§ 13a Abs. 3 S. 2 ErbStG",
+       "Schnitt der letzten 5 Jahre"
+      ],
+      [
+       "Mindestlohnsumme",
+       "§ 13a Abs. 3 S. 1 ErbStG",
+       "400 % in 5 Jahren"
+      ],
+      [
+       "Kleine Betriebe",
+       "§ 13a Abs. 3 S. 3, 4 ErbStG",
+       "bis 5 frei, bis 15: 250/300 %"
+      ],
+      [
+       "Unterschritten",
+       "§ 13a Abs. 3 S. 5 ErbStG",
+       "Abschlag sinkt im gleichen Verhältnis"
+      ]
+     ],
+     "teaser": "Am Ende: § 13a ErbStG markiert"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: 20 Beschäftigte",
+     "normen": [
+      "§ 13a Abs. 1, 3 S. 1, 5 ErbStG"
+     ],
+     "zeilen": [
+      [
+       "Ausgangslohnsumme",
+       "1.000.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Mindestlohnsumme 400 %",
+       "4.000.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Lohnsummen der 5 Jahre",
+       "3.600.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Unterschreitung",
+       "10 %",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Abschlag: 85 % × 90 %",
+       "76,5 %",
+       "Bold",
+       "GRUEN"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Prozentpunkte? Nein",
+     "punkte": [
+      [
+       "Nicht 85 % minus 10 Punkte = 75 %.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Richtig: 85 % um 10 % kürzen = 76,5 %, rückwirkend.",
+       "ok",
+       "Regular",
+       "§ 13a Abs. 3 S. 5 ErbStG"
+      ],
+      [
+       "Löhne an Auszubildende zählen nicht mit.",
+       "warn",
+       "Regular",
+       "§ 13a Abs. 3 S. 7 Nr. 2 ErbStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Kleiner Unterschied, große Wirkung!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Beispiel: 10 % unter der Mindestlohnsumme",
+      "Verschonungsabschlag 76,5 % statt 85 %",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "400 %",
+        "a"
+       ],
+       [
+        " in fünf Jahren,",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst sinkt der",
+        null
+       ]
+      ],
+      [
+       [
+        "Abschlag",
+        "b"
+       ],
+       [
+        " im selben",
+        null
+       ]
+      ],
+      [
+       [
+        "Verhältnis",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Und bei 8 Beschäftigten?",
+     "teaser": "Weiterwischen: § 13a ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 13a Abs. 3 ErbStG (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "Voraussetzung für die Gewährung des Verschonungsabschlags nach Absatz 1 ist, dass die Summe der maßgebenden jährlichen Lohnsummen […]",
+         null
+        ],
+        [
+         "innerhalb von fünf Jahren nach dem Erwerb",
+         "b1"
+        ],
+        [
+         "(Lohnsummenfrist) insgesamt",
+         null
+        ],
+        [
+         "400 Prozent der Ausgangslohnsumme",
+         "g1"
+        ],
+        [
+         "nicht unterschreitet (Mindestlohnsumme). […] Unterschreitet die Summe der maßgebenden jährlichen Lohnsummen die Mindestlohnsumme, vermindert sich der nach Absatz 1 zu gewährende Verschonungsabschlag",
+         null
+        ],
+        [
+         "mit Wirkung für die Vergangenheit",
+         "r1"
+        ],
+        [
+         "in demselben prozentualen Umfang, wie die Mindestlohnsumme unterschritten wird.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "5 Jahre",
+       "b1"
+      ],
+      [
+       "400 %",
+       "g1"
+      ],
+      [
+       "rückwirkend",
+       "r1"
+      ],
+      [
+       "Verhältnis, nicht Punkte",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Kleine Betriebe: § 13a Abs. 3 S. 3, 4 ErbStG",
+      "bis 5 Beschäftigte frei, sonst 250 % oder 300 %"
+     ]
+    }
+   ],
+   "caption": "Lohnsummenregelung bei der Verschonung von Betriebsvermögen – der Spickzettel für Klausur 1.\n\n▸ Regelverschonung: 85 % des begünstigten Vermögens bleiben steuerfrei (§ 13a Abs. 1 ErbStG), wenn die Lohnsummen der fünf Jahre nach dem Erwerb zusammen 400 % der Ausgangslohnsumme nicht unterschreiten (§ 13a Abs. 3 S. 1 ErbStG).\n▸ Ausgangslohnsumme: Durchschnitt der letzten fünf vor der Steuerentstehung endenden Wirtschaftsjahre (§ 13a Abs. 3 S. 2 ErbStG).\n▸ Keine Lohnsummenprüfung bei höchstens fünf Beschäftigten; mehr als fünf bis zehn: 250 %, mehr als zehn bis 15: 300 % (§ 13a Abs. 3 S. 3, 4 ErbStG).\n▸ Unterschreitung: Der Abschlag sinkt rückwirkend im selben prozentualen Umfang (§ 13a Abs. 3 S. 5 ErbStG). Beispiel: 10 % unter der Mindestlohnsumme → 85 % × 90 % = 76,5 %.\n▸ Vergütungen an Auszubildende bleiben außer Ansatz (§ 13a Abs. 3 S. 7 Nr. 2 ErbStG).\n\nZum Schluss: § 13a Abs. 3 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 13a Abs. 1 ErbStG",
+    "§ 13a Abs. 3 S. 1–5, 7 ErbStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-schema-0",
+   "themaTitel": "KSt-Grundschema: Steuerpflicht bis zvE",
+   "figuren": {
+    "A": {
+     "name": "Amira",
+     "kopf": "Long",
+     "haut": "#C68B5E",
+     "haar": "#1E1E24",
+     "oberteil": "#A8D5BA",
+     "brille": "Glasses 4",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Vom Überschuss",
+      "zum zvE"
+     ],
+     "norm": "§§ 7, 8 KStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 8b KStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:stairs",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Steuerpflicht und Zeitraum",
+       "§ 1 Abs. 1 Nr. 1, § 7 Abs. 3 KStG",
+       ""
+      ],
+      [
+       "Start: Steuerbilanzgewinn",
+       "§ 8 Abs. 1 KStG",
+       ""
+      ],
+      [
+       "Hinzurechnen",
+       "§ 8 Abs. 3 S. 2, § 10 KStG",
+       ""
+      ],
+      [
+       "Abziehen",
+       "§ 8 Abs. 3 S. 3, § 8b KStG",
+       ""
+      ],
+      [
+       "Spenden, Verluste, Steuersatz",
+       "§ 9, § 23 Abs. 1 KStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 8b KStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Die Lindwurm GmbH, Geschäftsführerin Amira, hat 100.000 € Jahresüberschuss.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Darin als Aufwand: 15.000 € KSt, 12.000 € GewSt, 6.000 € überhöhtes Gehalt an den Gesellschafter.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Als Ertrag: 10.000 € Dividende aus 20 % Beteiligung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Was versteuern wir?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Was rechnest du hinzu, was ziehst du ab?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Wie hoch ist das zu versteuernde Einkommen?",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Zettel raus!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 10 Nr. 2, § 8 Abs. 3 S. 2, § 8b Abs. 1, 5 KStG"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ KSt und GewSt",
+       "27.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ vGA (Gehalt)",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "− Dividende",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ 5 % nicht abziehbar",
+       "500 €",
+       "Regular",
+       null
+      ],
+      [
+       "zvE",
+       "123.500 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "KSt 15 %",
+       "18.525 €",
+       "Bold",
+       "GRUEN"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Dividende: nur 95 % frei",
+     "punkte": [
+      [
+       "Die Dividende bleibt außer Ansatz …",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1 KStG"
+      ],
+      [
+       "… aber 5 % gelten als nicht abziehbare Ausgaben.",
+       "nein",
+       "Bold",
+       "§ 8b Abs. 5 S. 1 KStG"
+      ],
+      [
+       "Die Gewerbesteuer ist keine Betriebsausgabe.",
+       "warn",
+       "Regular",
+       "§ 4 Abs. 5b EStG"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Die 500 € fehlen oft!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Prüfung 2027: noch 15 %",
+     "punkte": [
+      [
+       "Der KSt-Satz bleibt bis VZ 2027 bei 15 %.",
+       "ok",
+       "Bold",
+       "§ 23 Abs. 1 Nr. 1 KStG"
+      ],
+      [
+       "Danach sinkt er jährlich um einen Punkt: 2028 14 %, ab 2032 10 %.",
+       "warn",
+       "Regular",
+       "§ 23 Abs. 1 Nr. 2–6 KStG"
+      ],
+      [
+       "Auf den Veranlagungszeitraum im Sachverhalt achten.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Jahr prüfen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: zvE 123.500 €, KSt 18.525 €",
+      "Dividende frei, aber 500 € zurück",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Start",
+        "a"
+       ],
+       [
+        " beim Gewinn,",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuern",
+        "b"
+       ],
+       [
+        " und vGA dazu,",
+        null
+       ]
+      ],
+      [
+       [
+        "Dividende",
+        "c"
+       ],
+       [
+        " raus,",
+        null
+       ]
+      ],
+      [
+       [
+        "5 %",
+        "d"
+       ],
+       [
+        " wieder rein.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wo vergisst du am häufigsten etwas?",
+     "teaser": "Weiterwischen: § 8b KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8b KStG (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Bezüge im Sinne des § 20 Abs. 1 Nr. 1, 2, 9 und 10 Buchstabe a des Einkommensteuergesetzes",
+         null
+        ],
+        [
+         "bleiben bei der Ermittlung des Einkommens außer Ansatz.",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       5,
+       [
+        [
+         "Von den Bezügen im Sinne des Absatzes 1, die bei der Ermittlung des Einkommens außer Ansatz bleiben,",
+         null
+        ],
+        [
+         "gelten 5 Prozent als Ausgaben, die nicht als Betriebsausgaben abgezogen werden dürfen.",
+         "r1"
+        ],
+        [
+         "§ 3c Abs. 1 des Einkommensteuergesetzes",
+         "b1"
+        ],
+        [
+         "ist nicht anzuwenden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "steuerfrei",
+       "g1"
+      ],
+      [
+       "5 % zurück",
+       "r1"
+      ],
+      [
+       "echte Kosten bleiben abziehbar",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Achtung Streubesitz: § 8b Abs. 4 KStG",
+      "Unter 10 % Beteiligung keine Freistellung"
+     ]
+    }
+   ],
+   "caption": "KSt-Grundschema: vom Jahresüberschuss zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Unbeschränkte Steuerpflicht und Ermittlungszeitraum (§ 1 Abs. 1 Nr. 1, § 7 Abs. 3 KStG).\n2. Ausgangsgröße: Gewinn nach EStG-Regeln (§ 8 Abs. 1 KStG).\n3. Hinzurechnen: verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG), Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG).\n4. Abziehen: verdeckte Einlagen (§ 8 Abs. 3 S. 3 KStG), Dividenden (§ 8b Abs. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Streubesitz unter 10 %: § 8b Abs. 4 KStG.\n5. Spenden (§ 9 Abs. 1 Nr. 2 KStG), Verlustabzug, Steuersatz: 15 % bis VZ 2027, danach jährlich ein Punkt weniger bis 10 % ab VZ 2032 (§ 23 Abs. 1 KStG).\n\nBeispiel: 100.000 € + 27.000 € + 6.000 € − 10.000 € + 500 € = 123.500 € zvE, KSt 18.525 €.\n\nZum Schluss: § 8b Abs. 1 und 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1 Nr. 1 KStG",
+    "§ 7 Abs. 3 KStG",
+    "§ 8 Abs. 1, 3 KStG",
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 9 Abs. 1 Nr. 2 KStG",
+    "§ 10 Nr. 2 KStG",
+    "§ 23 Abs. 1 KStG",
+    "§ 4 Abs. 5b EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-25",
+   "themaTitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+   "figuren": {
+    "A": {
+     "name": "Jakob",
+     "kopf": "Short 1",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#F28C8C"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Einbringung in die GmbH: Neben neuen Anteilen gibt es kein Geld? Falsch. Ein Teil ist erlaubt."
+    },
+    {
+     "id": "s1",
+     "text": "Quizfrage: Buchwert vierhunderttausend, dazu ein Darlehen über hundertfünfzigtausend. Bleibt es beim Buchwert?"
+    },
+    {
+     "id": "s2",
+     "text": "Ja. Grenze ist das Höhere aus einem Viertel des Buchwerts und fünfhunderttausend Euro, gedeckelt auf den Buchwert. Hier vierhunderttausend."
+    },
+    {
+     "id": "s3",
+     "text": "Aber: Die Anschaffungskosten der neuen Anteile sinken um das Darlehen auf zweihundertfünfzigtausend."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Geld daneben geht, kostet aber Anschaffungskosten."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Neben Anteilen",
+     "kein Geld?"
+    ],
+    "pille": "§ 20 UmwStG",
+    "figur": "A/skeptisch",
+    "name": "Jakob",
+    "icons": [
+     [
+      "tabler:cash",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "ein Teil ist erlaubt",
+     "wort": "erlaubt",
+     "farbe": "GRUEN",
+     "zs": 64
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Quizfrage",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Buchwert",
+       "wert": "400.000 €",
+       "farbe": "WEISS",
+       "wort": "Buchwert",
+       "zs": 100,
+       "h": 230
+      },
+      {
+       "typ": "block",
+       "label": "Darlehen an Jakob",
+       "wert": "150.000 €",
+       "farbe": "GELB",
+       "wort": "Darlehen",
+       "zs": 100,
+       "h": 230
+      },
+      {
+       "typ": "pille",
+       "text": "Buchwert bleibt?",
+       "wort": "Bleibt",
+       "farbe": "WEISS"
+      }
+     ],
+     "icon": [
+      "tabler:help-circle",
+      "GELB",
+      "Quizfrage"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Grenze",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "25 % = 100.000 €",
+       "wort": "Viertel",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "500.000 €, höchstens Buchwert",
+       "wort": "fünfhunderttausend",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Grenze",
+       "wert": "400.000 €",
+       "farbe": "GRUEN",
+       "wort": "Hier"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
+       "wort": "gedeckelt"
+      }
+     ],
+     "icon": [
+      "tabler:circle-check",
+      "GRUEN",
+      "Ja"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Der Preis",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "400.000 € − 150.000 €",
+       "unter": "Anschaffungskosten minus Darlehen",
+       "wort": "Anschaffungskosten",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "AK neue Anteile",
+       "wert": "250.000 €",
+       "farbe": "GELB",
+       "wort": "zweihundertfünfzigtausend"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 20 Abs. 3 S. 3 UmwStG",
+       "wort": "sinken"
+      }
+     ],
+     "sfx": [
+      [
+       "muenzen",
+       "Darlehen",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Geld daneben geht,",
+     "kostet aber",
+     "Anschaffungs-",
+     "kosten"
+    ],
+    "woerter": [
+     null,
+     "kostet",
+     "Anschaffungskosten",
+     "Anschaffungskosten"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Anschaffungskosten",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Einbringung nach § 20 UmwStG: Wie viel Geld darf neben den neuen Anteilen fließen? 💶\n\n▸ Buchwertansatz bleibt möglich, soweit der gemeine Wert sonstiger Gegenleistungen nicht mehr beträgt als 25 % des Buchwerts des eingebrachten Betriebsvermögens oder 500.000 €, höchstens jedoch den Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Maßgeblich ist der höhere Betrag.\n▸ Beispiel: Buchwert 400.000 €, Darlehensforderung 150.000 €. Grenze: höher aus 100.000 € und 500.000 €, gedeckelt auf 400.000 € → unschädlich.\n▸ Die Anschaffungskosten der neuen Anteile mindern sich um den gemeinen Wert der anderen Wirtschaftsgüter (§ 20 Abs. 3 S. 3 UmwStG): 400.000 € − 150.000 € = 250.000 €.\n▸ Übersteigt die Gegenleistung die Grenze, werden stille Reserven anteilig aufgedeckt.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
+    "§ 20 Abs. 3 S. 1, 3 UmwStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-1",
+   "frage": [
+    "Wirtschaftliches",
+    "Eigentum: welche Norm?"
+   ],
+   "optionen": [
+    "§ 39 Abs. 2 Nr. 1 AO",
+    "§ 7g EStG",
+    "§ 249 HGB"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-1",
+   "titel": [
+    "A: § 39 AO"
+   ],
+   "optionen": [
+    "§ 39 Abs. 2 Nr. 1 AO",
+    "§ 7g EStG",
+    "§ 249 HGB"
+   ],
+   "richtig": 0,
+   "text": "Zugerechnet wird, wer den Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann.",
+   "norm": "§ 39 Abs. 2 Nr. 1 S. 1 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Lohnsumme verfehlt?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-20",
+   "titel": [
+    "Verschonung",
+    "verspielt?"
+   ],
+   "norm": "§ 13a Abs. 6 ErbStG",
+   "punkte": [
+    [
+     "Betrieb oder wesentliche Grundlage binnen 5 Jahren verkauft",
+     "nein",
+     "§ 13a Abs. 6 S. 1 Nr. 1 ErbStG"
+    ],
+    [
+     "Entnahmen über Einlagen plus Gewinne: mehr als 150.000 €",
+     "nein",
+     "§ 13a Abs. 6 S. 1 Nr. 3 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 2",
+     "haut": "#8D5A3B",
+     "oberteil": "#F7C948",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:ernst"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Vom Überschuss zum zvE"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sechs Stunden",
+    "einteilen"
+   ],
+   "punkte": [
+    [
+     "Zeit je Teil nach Umfang verteilen, an den Rand schreiben.",
+     "ok",
+     null
+    ],
+    [
+     "Festgefahren? Ergebnis unterstellen, weiter.",
+     "warn",
+     null
+    ],
+    [
+     "15 Minuten am Ende für Lücken.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:clock-hour-4",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "C": {
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#8B4A2B",
+     "oberteil": "#9FD3C7"
+    }
+   },
+   "figur": "C/eilt"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-03",
+   "titel": [
+    "§ 17: die 1 %",
+    "richtig messen"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Höchste Quote der letzten fünf Jahre zählt.",
+     "ok",
+     "§ 17 Abs. 1 S. 1 EStG"
+    ],
+    [
+     "Mittelbare Beteiligungen rechnen mit.",
+     "ok",
+     null
+    ],
+    [
+     "Eigene Anteile der GmbH vom Nennkapital abziehen.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:percentage",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Flat Top Long",
+     "haut": "#5C3A23",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Neben Anteilen kein Geld?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-32",
+   "titel": [
+    "Rückbezug bei",
+    "Einzelübertragung?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Höchstens ",
+      null
+     ],
+     [
+      "8 Monate",
+      "a"
+     ]
+    ],
+    [
+     [
+      "vor ",
+      null
+     ],
+     [
+      "Vertrag",
+      "b"
+     ],
+     [
+      " und",
+      null
+     ]
+    ],
+    [
+     [
+      "Übergang des",
+      null
+     ]
+    ],
+    [
+     [
+      "wirtschaftlichen ",
+      null
+     ],
+     [
+      "Eigentums",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 20 Abs. 6 S. 3 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Hijab",
+     "haut": "#E0AC86",
+     "haar": "#C96B5A",
+     "oberteil": "#F6D365",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

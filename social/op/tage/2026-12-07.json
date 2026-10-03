@@ -1,0 +1,1375 @@
+{
+ "datum": "2026-12-07",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-2",
+   "themaTitel": "Ist alles Gesellschaftsvermögen einer PersG Betriebsvermögen?",
+   "figuren": {
+    "A": {
+     "name": "Ronja",
+     "kopf": "Medium Bangs 2",
+     "haut": "#E0AC8A",
+     "haar": "#3B2416",
+     "oberteil": "#F4A3B5",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Alles",
+      "Betriebsvermögen?"
+     ],
+     "norm": "R 4.2 Abs. 2 EStR",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 39 AO + R 4.2",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Die OHG besitzt",
+        "Bold",
+        44
+       ],
+       [
+        "3 Dinge",
+        "ExtraBold",
+        96
+       ],
+       [
+        "alle betrieblich?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Ronja und Malte betreiben eine Gärtnerei als Kranich OHG.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Der OHG gehören ein Lieferwagen, ein Pkw, den Ronja auch privat fährt, und ein Ferienhaus an der Ostsee.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was davon ist Betriebsvermögen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Ronja."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zuerst: Wem gehört es?",
+     "punkte": [
+      [
+       "Der OHG wird zugerechnet, was ihr rechtlich oder wirtschaftlich gehört.",
+       "ok",
+       "Regular",
+       "§ 39 Abs. 1, 2 Nr. 1 AO"
+      ],
+      [
+       "Für die Ertragsteuern wird ihr Vermögen den Gesellschaftern anteilig zugerechnet.",
+       "ok",
+       "Regular",
+       "§ 39 Abs. 2 Nr. 2 AO"
+      ],
+      [
+       "Gehört es einem Gesellschafter: Sonderbetriebsvermögen prüfen.",
+       "warn",
+       "Bold",
+       "R 4.2 Abs. 2 S. 2 EStR"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Eigentum zuerst!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Grundsatz: Betriebsvermögen",
+     "punkte": [
+      [
+       "Was der Gesellschaft gehört, ist grundsätzlich Betriebsvermögen.",
+       "ok",
+       "Bold",
+       "R 4.2 Abs. 2 S. 1 EStR"
+      ],
+      [
+       "Ein Wahlrecht wie beim Einzelunternehmer gibt es dafür nicht.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Gelegentliche private Nutzung ändert daran nichts.",
+       "ok",
+       "Regular",
+       "H 4.2 Abs. 11 EStH"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Kein Wahlrecht?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Ausnahme",
+     "punkte": [
+      [
+       "Dient es ausschließlich oder fast ausschließlich dem privaten Bedarf von Gesellschaftern, ist es kein Betriebsvermögen.",
+       "warn",
+       "Bold",
+       "H 4.2 Abs. 11 EStH"
+      ],
+      [
+       "Ebenso, wenn schon der Erwerb keinen betrieblichen Anlass hatte.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Auch bei der OHG?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Lieferwagen: fährt nur für die Gärtnerei.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Pkw: 70 % betrieblich, 30 % Ronjas Privatfahrten.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ferienhaus: nutzt allein Ronjas Familie, ohne Miete.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie ordnest du die drei ein?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Dein Urteil?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Lösung",
+     "links": {
+      "kopf": "Betriebsvermögen",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Lieferwagen",
+        null
+       ],
+       [
+        "Pkw; Privatfahrten sind Nutzungsentnahme",
+        "§ 4 Abs. 1 S. 2 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Kein Betriebsvermögen",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Ferienhaus: Privatvermögen der Gesellschafter",
+        "H 4.2 Abs. 11 EStH"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Zwei von drei!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Gesellschaftsvermögen = Betriebsvermögen",
+      "Ausnahme: (fast) nur privat genutzt",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Eigentum",
+        "a"
+       ],
+       [
+        " klären,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "BV",
+        "b"
+       ],
+       [
+        " ohne Wahlrecht,",
+        null
+       ]
+      ],
+      [
+       [
+        "privat",
+        "c"
+       ],
+       [
+        " nur ausnahmsweise.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du das Ferienhaus erkannt?",
+     "teaser": "Weiterwischen: § 39 AO + R 4.2 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 39 AO Zurechnung (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Wirtschaftsgüter sind dem Eigentümer zuzurechnen.",
+         "g1"
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "[…] 1. Übt ein anderer als der Eigentümer die tatsächliche Herrschaft über ein Wirtschaftsgut in der Weise aus, dass er den Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer von der Einwirkung auf das Wirtschaftsgut",
+         null
+        ],
+        [
+         "wirtschaftlich ausschließen",
+         "b1"
+        ],
+        [
+         "kann, so ist ihm das Wirtschaftsgut zuzurechnen. […] 2. Wirtschaftsgüter, die mehreren zur gesamten Hand oder",
+         null
+        ],
+        [
+         "einer rechtsfähigen Personengesellschaft",
+         "gr1"
+        ],
+        [
+         "zustehen, werden den Beteiligten oder Gesellschaftern",
+         null
+        ],
+        [
+         "anteilig zugerechnet,",
+         "r1"
+        ],
+        [
+         "soweit eine getrennte Zurechnung für die Besteuerung erforderlich ist.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "g1"
+      ],
+      [
+       "wirtschaftlich",
+       "b1"
+      ],
+      [
+       "OHG, KG, GbR",
+       "gr1"
+      ],
+      [
+       "Bruchteile",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Gehört es einem Gesellschafter?",
+      "Dann Sonderbetriebsvermögen prüfen"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 4.2 EStR, H 4.2 EStH (Auszug)",
+     "absaetze": [
+      [
+       "R (2) S. 1",
+       [
+        [
+         "Das Betriebsvermögen […] umfasst bei einer Personengesellschaft sowohl die Wirtschaftsgüter, die",
+         null
+        ],
+        [
+         "zum Gesamthandsvermögen der Mitunternehmer gehören,",
+         "g1"
+        ],
+        [
+         "als auch […]",
+         null
+        ],
+        [
+         "(Sonderbetriebsvermögen).",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "R (11) S. 1",
+       [
+        [
+         "Gehört ein Grundstück zum Gesamthandsvermögen der Mitunternehmer einer Personengesellschaft, gehört es",
+         null
+        ],
+        [
+         "grundsätzlich zum notwendigen Betriebsvermögen.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "H (11)",
+       [
+        [
+         "Ein zum Gesamthandsvermögen gehörendes Wirtschaftsgut kann nicht Betriebsvermögen sein, wenn es",
+         null
+        ],
+        [
+         "ausschl. oder fast ausschl. der privaten Lebensführung",
+         "r1"
+        ],
+        [
+         "eines, mehrerer oder aller Mitunternehmer der Gesellschaft dient. Deshalb ist z. B. ein […]",
+         null
+        ],
+        [
+         "Einfamilienhaus,",
+         "g2"
+        ],
+        [
+         "das unentgeltlich von einem Gesellschafter nicht nur vorübergehend für eigene Wohnzwecke genutzt wird, steuerlich nicht Betriebsvermögen […].",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "SBV",
+       "b1"
+      ],
+      [
+       "kein Wahlrecht",
+       "gr1"
+      ],
+      [
+       "Ausnahme!",
+       "r1"
+      ],
+      [
+       "Ferienhaus",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Pkw zu 30 % privat: bleibt BV",
+      "Privatfahrten: Nutzungsentnahme"
+     ]
+    }
+   ],
+   "caption": "Ist alles, was einer OHG gehört, Betriebsvermögen? Eine typische Prüfungsfrage für Klausur 3 und die Mündliche.\n\n▸ Zuerst die Zurechnung: Eigentum oder wirtschaftliches Eigentum (§ 39 Abs. 1, 2 Nr. 1 AO). Vermögen einer rechtsfähigen Personengesellschaft wird für die Ertragsteuern den Gesellschaftern anteilig zugerechnet, soweit die Besteuerung das erfordert (§ 39 Abs. 2 Nr. 2 AO).\n▸ Zum Betriebsvermögen der Personengesellschaft gehören das Gesellschaftsvermögen und das Sonderbetriebsvermögen der Mitunternehmer (R 4.2 Abs. 2 EStR).\n▸ Gesellschaftsvermögen ist grundsätzlich Betriebsvermögen, Grundstücke eingeschlossen (R 4.2 Abs. 11 S. 1 EStR), auch bei gelegentlicher Privatnutzung; ein Wahlrecht wie beim Einzelunternehmer gibt es nicht.\n▸ Ausnahme: Dient ein Wirtschaftsgut ausschließlich oder fast ausschließlich der privaten Lebensführung von Gesellschaftern, ist es kein Betriebsvermögen, sondern notwendiges Privatvermögen der Gesellschafter (H 4.2 Abs. 11 EStH). Ebenso bei Wirtschaftsgütern ohne betriebliche Veranlassung, etwa einem Darlehen der Gesellschaft an einen Gesellschafter (BFH vom 09.05.1996, IV R 64/93, BStBl II 1996, 642).\n▸ Private Fahrten mit dem Pkw der Gesellschaft sind Nutzungsentnahmen des Gesellschafters (§ 4 Abs. 1 S. 2 EStG).\n\nZum Schluss: § 39 AO, R 4.2 EStR und H 4.2 EStH zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 39 Abs. 1, 2 Nr. 1, 2 AO",
+    "R 4.2 Abs. 2, 11 EStR",
+    "H 4.2 Abs. 11 EStH",
+    "§ 4 Abs. 1 S. 2 EStG",
+    "BFH vom 09.05.1996, IV R 64/93, BStBl II 1996, 642"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-160",
+   "themaTitel": "Grundstücksumsätze: § 4 Nr. 9, § 4 Nr. 12 und Option nach § 9 UStG",
+   "figuren": {
+    "A": {
+     "name": "Ilka",
+     "kopf": "Gray Medium",
+     "haut": "#F2D3BC",
+     "haar": "#9A9A9A",
+     "oberteil": "#E8A0BF",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Grundstück:",
+      "steuerfrei?"
+     ],
+     "norm": "§§ 4 Nr. 9, 12, 9 UStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 9 + UStAE",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:building",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Grundstücksumsatz prüfen",
+     "schritte": [
+      [
+       "Verkauf oder Vermietung?",
+       "§ 4 Nr. 9 Buchst. a, Nr. 12 UStG",
+       "Befreiung finden"
+      ],
+      [
+       "Ausnahme?",
+       "§ 4 Nr. 12 S. 2 UStG",
+       "Hotel, Parken, Betriebsvorrichtung"
+      ],
+      [
+       "Option möglich?",
+       "§ 9 Abs. 1 UStG",
+       "Empfänger ist Unternehmer"
+      ],
+      [
+       "Zusatzbedingung",
+       "§ 9 Abs. 2, 3 UStG",
+       "Miete: Nutzung · Verkauf: Notar"
+      ]
+     ],
+     "teaser": "Am Ende: § 9 UStG + Abschn. 9.2 markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Welche Befreiung?",
+     "punkte": [
+      [
+       "Grundstücksverkauf: fällt unter das Grunderwerbsteuergesetz, also steuerfrei.",
+       "ok",
+       "Regular",
+       "§ 4 Nr. 9 Buchst. a UStG"
+      ],
+      [
+       "Vermietung und Verpachtung von Grundstücken: ebenfalls steuerfrei.",
+       "ok",
+       "Regular",
+       "§ 4 Nr. 12 S. 1 Buchst. a UStG"
+      ],
+      [
+       "Preis dafür: kein Vorsteuerabzug aus Bau oder Kauf.",
+       "warn",
+       "Bold",
+       "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst die Befreiung!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Nicht befreit",
+     "punkte": [
+      [
+       "Kurzfristige Beherbergung von Fremden, etwa Hotelzimmer.",
+       "nein",
+       "Regular",
+       "§ 4 Nr. 12 S. 2 UStG"
+      ],
+      [
+       "Plätze zum Abstellen von Fahrzeugen.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Betriebsvorrichtungen, selbst als wesentlicher Bestandteil.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Hier: steuerpflichtig ohne Option",
+      "GELB",
+      null
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Auch der Parkplatz?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Option: an wen?",
+     "punkte": [
+      [
+       "Verzicht nur, wenn der Umsatz an einen anderen Unternehmer für dessen Unternehmen geht.",
+       "ok",
+       "Bold",
+       "§ 9 Abs. 1 UStG"
+      ],
+      [
+       "Wohnung an Privatleute: keine Option.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Die Entscheidung fällt je Umsatz, bei mehreren Mietern also getrennt.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Wer mietet?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Zusatzbedingungen",
+     "punkte": [
+      [
+       "Vermietung: Der Mieter nutzt die Fläche nur für Umsätze, die den Vorsteuerabzug nicht ausschließen.",
+       "warn",
+       "Regular",
+       "§ 9 Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Verwaltung: bis 5 % schädliche Nutzung unschädlich.",
+       "ok",
+       "Regular",
+       "Abschn. 9.2 Abs. 3 UStAE"
+      ],
+      [
+       "Verkauf: Option nur im Notarvertrag.",
+       "warn",
+       "Bold",
+       "§ 9 Abs. 3 S. 2 UStG"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Erst zum Notar!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Ilkas Haus hat drei Etagen, alle vermietet.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Erdgeschoss an eine Bäckerei, erster Stock an einen Versicherungsmakler, Dachgeschoss als Wohnung an ein Paar.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wo kann sie optieren?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Ich bin Ilka."
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Lösung",
+     "links": {
+      "kopf": "Option möglich",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Bäckerei: Umsätze mit Vorsteuerabzug",
+        "§ 9 Abs. 2 UStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Keine Option",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Makler: steuerfreie Umsätze",
+        "§ 4 Nr. 11 UStG"
+       ],
+       [
+        "Wohnung: Mieter kein Unternehmer",
+        "§ 9 Abs. 1 UStG"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Nur unten!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Befreiung, Ausnahme, Option, Zusatz",
+      "Miete: Nutzung des Mieters · Verkauf: im Notarvertrag",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Befreiung",
+        "a"
+       ],
+       [
+        " finden,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ausnahmen",
+        "b"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Option",
+        "c"
+       ],
+       [
+        " nur an Unternehmer,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "Zusatz",
+        "d"
+       ],
+       [
+        " prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Welche Etage hättest du falsch gelöst?",
+     "teaser": "Weiterwischen: § 9 + Abschn. 9.2 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§ 9 UStG Verzicht (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Der Unternehmer kann einen Umsatz, der nach […] Nr. 12 […] steuerfrei ist, als steuerpflichtig behandeln, wenn der Umsatz",
+         null
+        ],
+        [
+         "an einen anderen Unternehmer für dessen Unternehmen",
+         "g1"
+        ],
+        [
+         "ausgeführt wird.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Der Verzicht […] ist […] bei der Vermietung oder Verpachtung von Grundstücken […] nur zulässig, soweit der Leistungsempfänger das Grundstück",
+         null
+        ],
+        [
+         "ausschließlich",
+         "b1"
+        ],
+        [
+         "für Umsätze verwendet oder zu verwenden beabsichtigt, die den Vorsteuerabzug nicht ausschließen.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(3)",
+       [
+        [
+         "[…] Bei anderen Umsätzen im Sinne von § 4 Nummer 9 Buchstabe a kann der Verzicht […] nur",
+         null
+        ],
+        [
+         "in dem […] notariell zu beurkundenden Vertrag",
+         "r1"
+        ],
+        [
+         "erklärt werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Unternehmer!",
+       "g1"
+      ],
+      [
+       "5 %: siehe unten",
+       "b1"
+      ],
+      [
+       "Notarvertrag",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 13b Abs. 2 Nr. 3 UStG",
+      "Beim Verkauf mit Option schuldet der Käufer"
+     ],
+     "zweite": {
+      "kopf": "Abschn. 9.2 Abs. 3 UStAE (Auszug)",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Verwendet der Leistungsempfänger das Grundstück […]",
+          null
+         ],
+         [
+          "nur in sehr geringem Umfang",
+          "g1"
+         ],
+         [
+          "für Umsätze, die den Vorsteuerabzug ausschließen (Ausschlussumsätze), ist der Verzicht auf Steuerbefreiung zur Vermeidung von Härten weiterhin zulässig.",
+          null
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Eine geringfügige Verwendung […] kann angenommen werden, wenn […] die […] Umsatzsteuer",
+          null
+         ],
+         [
+          "im Besteuerungszeitraum (Kalenderjahr […])",
+          "b1"
+         ],
+         [
+          "höchstens zu 5 % vom Vorsteuerabzug ausgeschlossen",
+          "r1"
+         ],
+         [
+          "wäre (Bagatellgrenze).",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Härtefall",
+        "g1"
+       ],
+       [
+        "je Kalenderjahr",
+        "b1"
+       ],
+       [
+        "Bagatellgrenze",
+        "r1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Verkauf oder Vermietung eines Grundstücks: steuerfrei oder mit Option? Das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Befreiung finden: Grundstücksverkauf (§ 4 Nr. 9 Buchst. a UStG), Vermietung und Verpachtung (§ 4 Nr. 12 S. 1 Buchst. a UStG). Folge ohne Option: kein Vorsteuerabzug (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n2. Ausnahmen: kurzfristige Beherbergung, Fahrzeugstellplätze, Betriebsvorrichtungen sind nicht befreit (§ 4 Nr. 12 S. 2 UStG).\n3. Option nur bei Umsätzen an einen anderen Unternehmer für dessen Unternehmen (§ 9 Abs. 1 UStG); bei mehreren Mietern für jeden Umsatz gesondert.\n4. Zusatzbedingungen: Bei Vermietung muss der Mieter das Grundstück ausschließlich für Umsätze nutzen, die den Vorsteuerabzug nicht ausschließen (§ 9 Abs. 2 UStG); die Verwaltung lässt eine schädliche Nutzung bis 5 % zu (Abschn. 9.2 Abs. 3 UStAE). Beim Verkauf außerhalb der Zwangsversteigerung nur im notariellen Vertrag (§ 9 Abs. 3 S. 2 UStG); Steuerschuldner ist dann der Käufer als Unternehmer (§ 13b Abs. 2 Nr. 3, Abs. 5 UStG).\n\nBeispiel: Bäckerei ja, Versicherungsmakler nein (§ 4 Nr. 11 UStG), Privatwohnung nein.\n\nZum Schluss: § 9 UStG und Abschn. 9.2 Abs. 3 UStAE zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 4 Nr. 9 Buchst. a UStG",
+    "§ 4 Nr. 11 UStG",
+    "§ 4 Nr. 12 S. 1 Buchst. a, S. 2 UStG",
+    "§ 9 Abs. 1, 2, 3 UStG",
+    "§ 13b Abs. 2 Nr. 3, Abs. 5 UStG",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+    "Abschn. 9.2 Abs. 3 UStAE"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-1",
+   "themaTitel": "vGA – Vorprüfung",
+   "figuren": {
+    "A": {
+     "name": "Jannik",
+     "kopf": "Short 4",
+     "haut": "#D8A47F",
+     "haar": "#4A2C1A",
+     "oberteil": "#8FA8E8",
+     "bart": "Full 3",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zu viel Miete an den Gesellschafter: Betriebsausgabe? Falsch. Der Überpreis ist verdeckte Gewinnausschüttung."
+    },
+    {
+     "id": "s1",
+     "text": "Jannik ist Gesellschafter und vermietet seiner GmbH ein Büro. Sie zahlt ihm zweitausend Euro im Monat, üblich wären vierzehnhundert."
+    },
+    {
+     "id": "s2",
+     "text": "Erste Frage: Wer hat den Vorteil? Der Gesellschafter. Ein Fremder bekäme das nie."
+    },
+    {
+     "id": "s3",
+     "text": "Sechshundert mal zwölf: siebentausendzweihundert Euro. Die rechnest du dem Einkommen außerhalb der Bilanz hinzu."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Vorteil beim Gesellschafter, Fremdvergleich, dann hinzurechnen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Hohe Miete:",
+     "Betriebsausgabe?"
+    ],
+    "pille": "verdeckte Gewinnausschüttung",
+    "figur": "A/skeptisch",
+    "name": "Jannik",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "Überpreis ist vGA",
+     "wort": "Überpreis",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Fall",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Büro an die eigene GmbH",
+       "wort": "Büro",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "gezahlt im Monat",
+       "wert": "2.000 €",
+       "farbe": "ROT",
+       "wort": "zweitausend",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "üblich im Monat",
+       "wert": "1.400 €",
+       "farbe": "GRUEN",
+       "wort": "vierzehnhundert",
+       "zs": 110
+      }
+     ],
+     "icon": [
+      "tabler:key",
+      "GELB",
+      "vermietet"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Vorprüfung",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Wer hat den Vorteil?",
+       "unter": "der Gesellschafter",
+       "wort": "Vorteil",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "text",
+       "text": "Fremdvergleich",
+       "unter": "Fremder bekäme nur 1.400 €",
+       "wort": "Fremder",
+       "farbe": "GELB",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "R 8.5 Abs. 1 KStR",
+       "wort": "Gesellschafter"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Frage"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "600 € × 12",
+       "wort": "Sechshundert",
+       "size": 130
+      },
+      {
+       "typ": "block",
+       "label": "vGA",
+       "wert": "7.200 €",
+       "farbe": "GELB",
+       "wort": "siebentausendzweihundert",
+       "zs": 120
+      },
+      {
+       "typ": "pille",
+       "text": "+ außerhalb der Bilanz",
+       "wort": "außerhalb",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8 Abs. 3 S. 2 KStG",
+       "wort": "Einkommen"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Sechshundert"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "siebentausendzweihundert",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Vorteil beim",
+     "Gesellschafter?",
+     "Fremdvergleich,",
+     "dann hinzurechnen"
+    ],
+    "woerter": [
+     null,
+     "Gesellschafter",
+     "Fremdvergleich",
+     "hinzurechnen"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "hinzurechnen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Zu hohe Miete an den Gesellschafter: Betriebsausgabe oder verdeckte Gewinnausschüttung? 🏢\n\n▸ Vorprüfung: Wer hat den Vorteil? Liegt er beim Gesellschafter oder einer ihm nahestehenden Person, ist eine vGA zu prüfen.\n▸ vGA ist eine Vermögensminderung oder verhinderte Vermögensmehrung der GmbH, die durch das Gesellschaftsverhältnis veranlasst ist und sich auf das Einkommen auswirkt (R 8.5 Abs. 1 KStR). Maßstab ist der Fremdvergleich.\n▸ Rechtsfolge: Die vGA mindert das Einkommen nicht; der Überpreis wird außerhalb der Bilanz hinzugerechnet (§ 8 Abs. 3 S. 2 KStG).\n▸ Beim Gesellschafter gehört die vGA zu den Einkünften aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nBeispiel: 2.000 € statt 1.400 € Monatsmiete, 600 € × 12 = 7.200 € vGA.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "R 8.5 Abs. 1 KStR",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-1",
+   "frage": [
+    "GmbH-Gründung:",
+    "wessen Gewinn",
+    "vor dem Notar?"
+   ],
+   "optionen": [
+    "Der späteren GmbH",
+    "Den Gründern",
+    "Der Vorgesellschaft"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#7A4B30",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-1",
+   "titel": [
+    "B: den Gründern"
+   ],
+   "optionen": [
+    "Der späteren GmbH",
+    "Den Gründern",
+    "Der Vorgesellschaft"
+   ],
+   "richtig": 1,
+   "text": "Vor dem Notartermin besteht nur eine Personengesellschaft der Gründer.",
+   "norm": "H 1.1 KStH",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#7A4B30",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Alles Betriebsvermögen?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-24",
+   "titel": [
+    "Verlust des",
+    "Kommanditisten"
+   ],
+   "norm": "§ 15a Abs. 1 EStG",
+   "punkte": [
+    [
+     "Soweit das Kapitalkonto negativ wird: nur verrechenbar.",
+     "warn",
+     "§ 15a Abs. 1 S. 1 EStG"
+    ],
+    [
+     "Mehr geht nur bis zur offenen Haftsumme laut Register.",
+     "ok",
+     "§ 15a Abs. 1 S. 2, 3 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 1",
+     "haut": "#C68E6A",
+     "haar": "#1C1C1C",
+     "oberteil": "#F6D365",
+     "brille": "Glasses 3",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Grundstück: steuerfrei?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "Wartezeit nutzen"
+   ],
+   "punkte": [
+    [
+     "Ergebnis offen? Grundlagen auffrischen.",
+     "ok",
+     null
+    ],
+    [
+     "Kein Großprojekt vor der Analyse.",
+     "warn",
+     null
+    ],
+    [
+     "Eine feste Stunde am Tag genügt.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Hijab",
+     "haut": "#B97A56",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-7",
+   "titel": [
+    "Option bei Miete:",
+    "Mieter prüfen"
+   ],
+   "punkte": [
+    [
+     "Mieter ist Unternehmer.",
+     "ok",
+     "§ 9 Abs. 1 UStG"
+    ],
+    [
+     "Nutzt nur für Umsätze mit Vorsteuerabzug.",
+     "warn",
+     "§ 9 Abs. 2 S. 1 UStG"
+    ]
+   ],
+   "icon": "tabler:building-store",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Flat Top",
+     "haut": "#5C3A24",
+     "haar": "#1A1A1A",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Hohe Miete: vGA?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-5",
+   "titel": [
+    "GmbH verkauft",
+    "Beteiligung"
+   ],
+   "zeilen": [
+    [
+     [
+      "Gewinn ",
+      null
+     ],
+     [
+      "steuerfrei",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "egal wie ",
+      null
+     ],
+     [
+      "hoch beteiligt",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "aber ",
+      null
+     ],
+     [
+      "5 %",
+      "c"
+     ],
+     [
+      " nicht abziehbar.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 8b Abs. 2, 3 S. 1 KStG",
+   "figuren": {
+    "M": {
+     "kopf": "Pomp",
+     "haut": "#F1C7A5",
+     "haar": "#2B2B2B",
+     "oberteil": "#E8A0BF",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

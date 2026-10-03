@@ -42,7 +42,7 @@ export const FORMATE = {
     folien: ["titel", "text (Sachverhalt, nur wenn der Beitrag einen Fall erzählt)", "text|schritte", "text|vergleich", "merke", "cta"],
   },
   fehlerfalle: {
-    label: "Fehlerfalle",
+    label: "Klausurfalle",
     anleitung: "Folie 1: die Falle als Frage oder Warnung. Folie 2: Vergleich „Richtig“ (links) vs. „Klassischer Fehler“ (rechts). Folie 3: die Begründung mit Norm. Letzte Folie: CTA.",
     folien: ["titel", "vergleich", "text", "cta"],
   },
@@ -68,8 +68,13 @@ export const FORMATE = {
   },
   klausurtechnik: {
     label: "Klausurtechnik",
-    anleitung: "Folie 1: eine Frage zur Klausurstrategie (Zeit, Aufbau, Darstellung, Punktevergabe). Folien 2–3: konkrete, umsetzbare Tipps als Punkte oder Schritte. Vorletzte Folie: Merksatz. Letzte Folie: CTA.",
+    anleitung: "Nur echte Klausurstrategie für genau diese Klausur (Zeit, Aufbau, Darstellung, Punktevergabe) – kein Fachthema unter diesem Etikett. Folie 1: eine Frage zur Klausurstrategie. Folien 2–3: konkrete, umsetzbare Tipps als Punkte oder Schritte. Vorletzte Folie: Merksatz. Letzte Folie: CTA.",
     folien: ["titel", "schritte", "text", "merke", "cta"],
+  },
+  kurzvortrag: {
+    label: "Kurzvortrag",
+    anleitung: "Mündliche Prüfung: Aufbau eines 10-Minuten-Kurzvortrags zu einem Fachthema. Folie 1: das Vortragsthema als Frage. Folie 2 (schritte): Gliederung Einleitung, Hauptteil (2–3 Punkte mit Normen), Schluss. Folie 3: die Kernaussagen mit Normen. Folie 4: typische Nachfragen der Prüfungskommission. Vorletzte Folie: Merksatz. Letzte Folie: CTA.",
+    folien: ["titel", "schritte", "text", "text", "merke", "cta"],
   },
   wochenrueckblick: {
     label: "Wochenrückblick",

@@ -1,0 +1,38 @@
+{
+ "datum": "2099-01-01",
+ "beitraege": [
+  {"slot": "b1", "zeit": "08:30", "format": "schema", "klausur": 1, "fach": "ao", "fachLabel": "Abgabenordnung", "themaId": "test", "themaTitel": "Test",
+   "figuren": {"A": {"name": "Paula", "kopf": "Bun 2", "haut": "#F3D0B5", "oberteil": "#F4A3B5", "bueste": "Tee 1"},
+               "B": {"name": "Jonas", "kopf": "Short 2", "brille": "Glasses 2", "haut": "#B97A56", "oberteil": "#9AD48F", "bueste": "Sweater"}},
+   "folien": [
+    {"typ": "cover", "badge": "Prüfschema", "zeilen": ["Fristen", "berechnen"], "norm": "§ 108 AO i. V. m. §§ 187, 188 BGB", "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 108 AO", "motiv": {"typ": "kalender", "monat": "OKTOBER", "tag": "3", "unter": "Sa · Feiertag"}, "figur": "A:sorge"},
+    {"typ": "schritte", "titel": "Die 4 Schritte", "schritte": [["Bekanntgabe", "§ 122 Abs. 2 Nr. 1 AO", "4. Tag nach Aufgabe zur Post"], ["Beginn", "§ 187 Abs. 1 BGB", "Tag nach der Bekanntgabe"]], "teaser": "Am Ende: § 108 AO markiert"},
+    {"typ": "inhalt", "titel": "Wer bekommt den Freibetrag hier?", "punkte": [["Per Post gilt der Bescheid am vierten Tag als bekannt gegeben.", "ok", "Regular", "§ 122 Abs. 2 Nr. 1 AO"], ["Seit 2025 vier statt drei Tage.", "warn", "Bold", null]], "figur": "A:fragt", "x": 290, "blase": "Vier, nicht drei?"},
+    {"typ": "inhalt", "falle": true, "titel": "Auch der 4. Tag wandert", "punkte": [["Fällt der vierte Tag auf ein Wochenende, verschiebt sich die Bekanntgabe.", "warn", "Regular", "§ 108 Abs. 3 AO"]], "fundstellen": ["AEAO zu § 108 Nr. 2"], "kalender": [["OKTOBER", "3", "Sa · Feiertag"], ["OKTOBER", "5", "Montag"]]},
+    {"typ": "zeitstrahl", "titel": "Paulas Bescheid", "zeilen": [["Di 29.09.", "zur Post", "WEISS", null], ["Sa 03.10.", "4. Tag, Feiertag", "ROT", "§ 122 Abs. 2 Nr. 1 AO"]], "figur": "A:froh", "x": 290, "blase": "Zwei Tage mehr!"},
+    {"typ": "rechnung", "titel": "Dario, Einzelunternehmer", "normen": ["§ 11 Abs. 2 GewStG"], "zeilen": [["Gewerbeertrag", "80.149 €", "Regular", null], ["mal 400 % = GewSt", "7.784 €", "ExtraBold", "GRUEN"]]},
+    {"typ": "vergleich", "titel": "HGB oder Steuerbilanz?", "links": {"kopf": "Handelsbilanz", "farbe": "GRUEN", "punkte": [["Höher ansetzen: Pflicht", "§ 252 Abs. 1 Nr. 4 HGB"]]}, "rechts": {"kopf": "Steuerbilanz", "farbe": "GELB", "punkte": [["Höher nur bei Dauer", "§ 6 Abs. 1 Nr. 3 EStG"]]}},
+    {"typ": "merke", "oben": ["Lösung: Mittwoch, 02.12.2026", "Bekanntgabe Mo 02.11.", "GRUEN"], "zeilen": [[["4. Tag", "a"], [" ist Bekanntgabe,", null]], [["Folgetag", "b"], [" ist Beginn.", null]]], "speichern": "Speichern für Klausur 1", "frage": "Deine Lösung zur Übung?", "teaser": "Weiterwischen: § 108 AO markiert"},
+    {"typ": "gesetz", "kopf": "§ 108 Fristen und Termine", "absaetze": [[3, [["Fällt das Ende einer Frist auf einen", null], ["Sonntag, einen gesetzlichen Feiertag oder einen Sonnabend,", "g1"], ["so endet die Frist mit dem Ablauf des", null], ["nächstfolgenden Werktags.", "gr1"]]]], "notizen": [["Sonnabend = Samstag", "g1"]], "randnotiz": ["Randnotiz: AEAO zu § 108 Nr. 2", "gilt auch für den 4. Tag"]}
+   ], "caption": "Test", "hashtags": ["#test"]},
+  {"slot": "b3", "zeit": "19:00", "format": "reel", "klausur": 3, "fach": "bilanz", "fachLabel": "Bilanzsteuerrecht", "themaId": "test", "themaTitel": "Test-Reel", "reelTyp": "rechnung",
+   "figuren": {"A": {"name": "Ben", "kopf": "Flat Top", "haut": "#8D5A3B", "oberteil": "#F9D56E", "bueste": "Hoodie"}},
+   "sprecher": [{"id": "hook", "text": "Dollar steigt. Steigt deine Dollar-Schuld? Handelsbilanz: ja. Steuerbilanz: meistens nicht."},
+                {"id": "s1", "text": "Bei Aufnahme: Ben leiht sich hundertzwanzigtausend Dollar für zwölf Jahre, Kurs eins fünfzig. Zugang: achtzigtausend Euro."},
+                {"id": "cta", "text": "Merke: Steuerlich nie unter den Zugangswert, darüber nur bei dauerhaftem Anstieg."}],
+   "hook": {"zeilen": ["Dollar steigt.", "Schuld steigt?"], "pille": "Fremdwährungsschulden", "figur": "A/sorge", "name": "Ben", "icons": [["tabler:coin", "GELB", "Handelsbilanz"]],
+            "stil": "split", "split": [{"label": "Handelsbilanz", "wert": "100.000 €", "farbe": "GRUEN", "wort": "Handelsbilanz"}, {"label": "Steuerbilanz", "wert": "80.000 €", "farbe": "GELB", "wort": "Steuerbilanz"}],
+            "stempel": {"text": "meist nicht!", "wort": "nicht"}},
+   "szenen": [{"seg": "s1", "titel": "Bei Aufnahme", "elemente": [{"typ": "zahl", "text": "120.000 $", "wort": "hundertzwanzig", "size": 130}, {"typ": "pille", "text": "12 Jahre Laufzeit", "wort": "zwölf"},
+                {"typ": "zahl", "text": ": 1,50", "wort": "Kurs", "size": 110}, {"typ": "block", "label": "Zugangswert", "wert": "80.000 €", "farbe": "GELB", "wort": "Zugang"}],
+               "icon": ["tabler:coins", "GELB", "hundertzwanzig"], "sfx": [["muenzen", "hundertzwanzig", 0.9]]}],
+   "merke": {"seg": "cta", "zeilen": ["Steuerbilanz:", "nie unter Zugangswert,", "höher nur bei", "dauerhaftem Anstieg"], "woerter": [null, "nie", "darüber", "dauerhaftem"], "cta": "Speichern für Klausur 3", "cta_wort": "Anstieg", "hinweis": "Alle Fundstellen in der Beschreibung"},
+   "caption": "Test", "hashtags": ["#test"]}
+ ],
+ "stories": [
+  {"slot": "s4", "zeit": "07:07", "art": "frage", "klausur": 2, "fachLabel": "Körperschaftsteuer", "frage": ["vGA: Wer bekommt", "den Vorteil?"], "optionen": ["die Gesellschaft", "der Gesellschafter oder eine nahestehende Person", "das Finanzamt"], "figuren": {"T": {"kopf": "hat-hip", "haut": "#E8B98F", "oberteil": "#4F7BD9", "bueste": "Hoodie"}}, "figur": "T:denkt"},
+  {"slot": "s1", "zeit": "08:30", "art": "teaser", "klausur": 1, "fachLabel": "Abgabenordnung", "beitragSlot": "b1", "titel": ["Fristen berechnen"], "unter": "Prüfschema + Markier-Guide · im Profil"},
+  {"slot": "s7", "zeit": "14:40", "art": "countdown", "klausur": 0, "fachLabel": "Steuerberaterexamen", "zahl": 3, "titel": "bis zum Examen", "punkte": ["Wiederholen statt Neues", "Klausurtechnik sichern"], "figuren": {"N": {"kopf": "Medium Straight", "haut": "#C99470", "oberteil": "#2E2E3A", "jacke": "#F9D56E"}}, "figur": "N/blazer"}
+ ]
+}

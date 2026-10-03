@@ -1,0 +1,1306 @@
+{
+ "datum": "2026-12-02",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-15",
+   "themaTitel": "Innergemeinschaftlicher Erwerb (§ 1a UStG)",
+   "figuren": {
+    "A": {
+     "name": "Ferhat",
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#6B3E26",
+     "oberteil": "#F2B880",
+     "bart": "Moustache 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Falsche USt-IdNr.,",
+      "doppelte Steuer"
+     ],
+     "norm": "§ 3d S. 2 UStG",
+     "unter": "Die Falle",
+     "teaser": "+ Markier-Guide §§ 3d, 15 UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Ofen aus Italien",
+        "Bold",
+        44
+       ],
+       [
+        "60.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Erwerb wo?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Grundfall § 1a UStG",
+     "punkte": [
+      [
+       "Ware gelangt bei einer Lieferung aus einem EU-Staat in einen anderen.",
+       "ok",
+       "Regular",
+       "§ 1a Abs. 1 Nr. 1 UStG"
+      ],
+      [
+       "Erwerber ist Unternehmer und kauft für sein Unternehmen.",
+       "ok",
+       "Regular",
+       "§ 1a Abs. 1 Nr. 2 Buchst. a UStG"
+      ],
+      [
+       "Lieferer ist Unternehmer und kein Kleinunternehmer.",
+       "ok",
+       "Regular",
+       "§ 1a Abs. 1 Nr. 3 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Bis hier Routine."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Ort, Entstehung, Abzug",
+     "punkte": [
+      [
+       "Ort: wo die Beförderung oder Versendung endet.",
+       "ok",
+       "Regular",
+       "§ 3d S. 1 UStG"
+      ],
+      [
+       "Entstehung: mit der Rechnung, spätestens Ende des Folgemonats.",
+       "ok",
+       "Regular",
+       "§ 13 Abs. 1 Nr. 6 UStG"
+      ],
+      [
+       "Vorsteuer in gleicher Höhe – aber nur bei Erwerb nach § 3d S. 1.",
+       "warn",
+       "Bold",
+       "§ 15 Abs. 1 S. 1 Nr. 3 UStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Nur nach Satz 1?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ferhat betreibt Bäckereien in Köln und Straßburg.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "60.000 € kostet ein Ofen aus Mailand. Er geht direkt nach Straßburg, Ferhat nennt aber seine deutsche USt-IdNr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wo ist der Erwerb zu versteuern?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Ferhat."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Zwei Erwerbsorte",
+     "punkte": [
+      [
+       "Frankreich: Dort endet die Beförderung.",
+       "ok",
+       "Regular",
+       "§ 3d S. 1 UStG"
+      ],
+      [
+       "Zusätzlich Deutschland, weil Ferhat die deutsche USt-IdNr. verwendet.",
+       "warn",
+       "Bold",
+       "§ 3d S. 2 UStG"
+      ],
+      [
+       "Das gilt, bis er die Besteuerung in Frankreich nachweist.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Zweimal Steuer?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und die Vorsteuer?",
+     "punkte": [
+      [
+       "Deutsche Erwerbsteuer: 19 % = 11.400 €.",
+       "ok",
+       "Regular",
+       "§ 3d S. 2, § 12 Abs. 1 UStG"
+      ],
+      [
+       "Erwerb nach Satz 2: kein Vorsteuerabzug.",
+       "nein",
+       "Bold",
+       "§ 15 Abs. 1 S. 1 Nr. 3 UStG"
+      ],
+      [
+       "Bis zum Nachweis bleibt das eine echte Last.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Ausweg: Nachweis, dann berichtigen",
+      "GELB",
+      "§ 17 Abs. 2 Nr. 4 UStG"
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Echtes Geld!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Der Ofen geht direkt nach Köln.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ferhat nennt wieder seine deutsche USt-IdNr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist die Zahllast aus dem Erwerb?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Jetzt aber 0 €?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Erwerbsort Deutschland nach Satz 1: Erwerbsteuer 11.400 €.",
+       "ok",
+       "Regular",
+       "§ 3d S. 1 UStG"
+      ],
+      [
+       "Vorsteuer in gleicher Höhe, im selben Voranmeldungszeitraum.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 3 UStG"
+      ],
+      [
+       "Zahllast: 0 €.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Neutral!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Erwerb nach Satz 2 = keine Vorsteuer",
+      "Zielland ≠ Land der USt-IdNr.: doppelt bis zum Nachweis",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ziel",
+        "a"
+       ],
+       [
+        " bestimmt den Ort,",
+        null
+       ]
+      ],
+      [
+       [
+        "falsche ",
+        null
+       ],
+       [
+        "USt-IdNr.",
+        "b"
+       ]
+      ],
+      [
+       [
+        "kostet ",
+        null
+       ],
+       [
+        "Vorsteuer",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du die Falle gesehen?",
+     "teaser": "Weiterwischen: §§ 3d, 15 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 3d, 15 UStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 3d",
+       [
+        [
+         "Der innergemeinschaftliche Erwerb wird in dem Gebiet des Mitgliedstaates bewirkt,",
+         null
+        ],
+        [
+         "in dem sich der Gegenstand am Ende der Beförderung oder Versendung befindet.",
+         "g1"
+        ],
+        [
+         "Verwendet der Erwerber gegenüber dem Lieferer eine",
+         null
+        ],
+        [
+         "ihm von einem anderen Mitgliedstaat erteilte Umsatzsteuer-Identifikationsnummer,",
+         "r1"
+        ],
+        [
+         "gilt der Erwerb so lange in dem Gebiet dieses Mitgliedstaates als bewirkt,",
+         null
+        ],
+        [
+         "bis der Erwerber nachweist,",
+         "b1"
+        ],
+        [
+         "dass der Erwerb durch den in Satz 1 bezeichneten Mitgliedstaat besteuert worden ist […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 15 (1) 1",
+       [
+        [
+         "Der Unternehmer kann die folgenden Vorsteuerbeträge abziehen: […] 3. die Steuer für den innergemeinschaftlichen Erwerb von Gegenständen für sein Unternehmen,",
+         null
+        ],
+        [
+         "wenn der innergemeinschaftliche Erwerb nach § 3d Satz 1 im Inland bewirkt wird;",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundregel",
+       "g1"
+      ],
+      [
+       "Falle",
+       "r1"
+      ],
+      [
+       "Ausweg",
+       "b1"
+      ],
+      [
+       "nur Satz 1!",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Ofen nach Straßburg: 11.400 € Last",
+      "bis zum Nachweis in Frankreich"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle innergemeinschaftlicher Erwerb: Wer im Zielland eine andere USt-IdNr. verwendet, zahlt doppelt – und bekommt keine Vorsteuer.\n\n▸ Innergemeinschaftlicher Erwerb: Ware gelangt bei einer Lieferung aus einem Mitgliedstaat in einen anderen, Erwerber ist Unternehmer für sein Unternehmen, Lieferer ist Unternehmer und nicht Kleinunternehmer (§ 1a Abs. 1 Nr. 1–3 UStG).\n▸ Ort: am Ende der Beförderung oder Versendung (§ 3d S. 1 UStG). Entstehung mit Rechnungsausstellung, spätestens mit Ablauf des Folgemonats (§ 13 Abs. 1 Nr. 6 UStG).\n▸ Falle: Nennt der Erwerber eine USt-IdNr. aus einem anderen Staat als dem Zielland, wird der Erwerb auch in diesem Staat besteuert – so lange, bis die Besteuerung im Zielland nachgewiesen ist (§ 3d S. 2 UStG).\n▸ Vorsteuerabzug nur für Erwerbe nach § 3d S. 1 UStG im Inland (§ 15 Abs. 1 S. 1 Nr. 3 UStG); nach Nachweis Berichtigung (§ 17 Abs. 2 Nr. 4 UStG).\n\nFall: Ofen für 60.000 € von Mailand nach Straßburg, deutsche USt-IdNr.: 11.400 € Erwerbsteuer in Deutschland ohne Vorsteuer bis zum Nachweis. Variante Lieferung nach Köln: 11.400 € Erwerbsteuer, 11.400 € Vorsteuer, Zahllast 0 €.\n\nZum Schluss: § 3d und § 15 Abs. 1 S. 1 Nr. 3 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 1a Abs. 1 Nr. 1–3 UStG",
+    "§ 3d S. 1, 2 UStG",
+    "§ 12 Abs. 1 UStG",
+    "§ 13 Abs. 1 Nr. 6 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 3 UStG",
+    "§ 17 Abs. 2 Nr. 4 UStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-04",
+   "themaTitel": "Wann begründet eine Wohnung einen Wohnsitz nach § 8 AO?",
+   "figuren": {
+    "A": {
+     "name": "Sven",
+     "kopf": "Short 5",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Wohnsitz",
+      "in Deutschland?"
+     ],
+     "norm": "§ 8 AO",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 8 + AEAO",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:home-question",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Wohnsitz prüfen",
+     "schritte": [
+      [
+       "Wohnung vorhanden?",
+       "AEAO zu § 8",
+       "auf Dauer zum Wohnen geeignet"
+      ],
+      [
+       "Innehaben?",
+       "§ 8 AO",
+       "jederzeit verfügbar"
+      ],
+      [
+       "Beibehalten und benutzen?",
+       "§ 8 AO",
+       "äußere Umstände würdigen"
+      ],
+      [
+       "Folge ziehen",
+       "§ 1 Abs. 1 S. 1 EStG",
+       "unbeschränkt steuerpflichtig"
+      ]
+     ],
+     "teaser": "Am Ende: § 8 AO + AEAO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1–2 · Wohnung, Innehaben",
+     "punkte": [
+      [
+       "Feste Räume, auf Dauer zum Wohnen geeignet; eine bescheidene Bleibe genügt.",
+       "ok",
+       "Regular",
+       "AEAO zu § 8"
+      ],
+      [
+       "Kurzfristige Notunterkünfte reichen nicht.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Innehaben: jederzeit als Bleibe verfügbar, Miete genügt.",
+       "ok",
+       "Bold",
+       "AEAO zu § 8"
+      ],
+      [
+       "An Fremde vermietet: kein Innehaben.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Schlüssel in der Hand?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Beibehalten und benutzen",
+     "punkte": [
+      [
+       "Äußere Umstände entscheiden, nicht Absichten.",
+       "ok",
+       "Bold",
+       "§ 8 AO"
+      ],
+      [
+       "Nutzung über bloße Besuche hinaus, Mindesttage gibt es nicht.",
+       "ok",
+       "Regular",
+       "AEAO zu § 8"
+      ],
+      [
+       "An- oder Abmeldung beim Meldeamt ist egal.",
+       "warn",
+       "Regular",
+       "AEAO zu § 8"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Formular egal?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Sven arbeitet ab 2026 in Zürich und mietet dort eine Wohnung.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Seine eingerichtete Mietwohnung in Freiburg behält er und ist jedes zweite Wochenende dort.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ist Sven in Deutschland unbeschränkt steuerpflichtig?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Sven."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Freiburg: Wohnung, jederzeit verfügbar, regelmäßig genutzt.",
+       "ok",
+       "Regular",
+       "§ 8 AO"
+      ],
+      [
+       "Also Wohnsitz im Inland und unbeschränkte Steuerpflicht.",
+       "ok",
+       "Bold",
+       "§ 1 Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Zwei Wohnsitze sind möglich, erst danach die Ansässigkeit nach dem DBA.",
+       "warn",
+       "Regular",
+       "Art. 4 Abs. 2 OECD-MA"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Zwei Wohnsitze!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Sven vermietet die Freiburger Wohnung ab Januar für drei Jahre an Fremde.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Er ist nur noch für Besuche bei Freunden in Deutschland.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Hat er noch einen Wohnsitz in Deutschland?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Und jetzt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "An Fremde vermietet: Sven kann nicht mehr jederzeit darüber verfügen.",
+       "nein",
+       "Regular",
+       "AEAO zu § 8, Nr. 6"
+      ],
+      [
+       "Kein Wohnsitz im Inland mehr.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Unbeschränkt nur noch bei gewöhnlichem Aufenthalt.",
+       "warn",
+       "Regular",
+       "§ 9 AO"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Innehaben fehlt!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Wohnung + Innehaben + Umstände = Wohnsitz",
+      "Meldeamt egal · mehrere Wohnsitze möglich",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Bleibe",
+        "a"
+       ],
+       [
+        " vorhanden,",
+        null
+       ]
+      ],
+      [
+       [
+        "jederzeit",
+        "b"
+       ],
+       [
+        " verfügbar,",
+        null
+       ]
+      ],
+      [
+       [
+        "Umstände",
+        "c"
+       ],
+       [
+        " sprechen",
+        null
+       ]
+      ],
+      [
+       [
+        "für ",
+        null
+       ],
+       [
+        "Rückkehr",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wo hast du einen Wohnsitz?",
+     "teaser": "Weiterwischen: § 8 + AEAO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§ 8 AO Wohnsitz · § 1 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 8 AO",
+       [
+        [
+         "Einen Wohnsitz hat jemand dort, wo er",
+         null
+        ],
+        [
+         "eine Wohnung",
+         "g1"
+        ],
+        [
+         "unter Umständen",
+         null
+        ],
+        [
+         "innehat,",
+         "b1"
+        ],
+        [
+         "die darauf schließen lassen, dass er die Wohnung",
+         null
+        ],
+        [
+         "beibehalten und benutzen wird.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 1 (1) EStG",
+       [
+        [
+         "Natürliche Personen, die im Inland einen Wohnsitz oder ihren gewöhnlichen Aufenthalt haben,",
+         null
+        ],
+        [
+         "sind unbeschränkt einkommensteuerpflichtig.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Bleibe",
+       "g1"
+      ],
+      [
+       "Verfügung",
+       "b1"
+      ],
+      [
+       "Prognose",
+       "r1"
+      ],
+      [
+       "Folge",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 9 AO",
+      "Gewöhnlicher Aufenthalt als zweiter Anknüpfungspunkt"
+     ],
+     "zweite": {
+      "kopf": "AEAO zu § 8 (Auszug)",
+      "absaetze": [
+       [
+        "Nr. 1.2",
+        [
+         [
+          "Die bloße Absicht, einen Wohnsitz zu begründen oder aufzugeben, bzw.",
+          null
+         ],
+         [
+          "die An- und Abmeldung bei der Ordnungsbehörde entfalten allein keine unmittelbare steuerliche Wirkung",
+          "r1"
+         ],
+         [
+          "[…].",
+          null
+         ]
+        ]
+       ],
+       [
+        "Nr. 3",
+        [
+         [
+          "[…] Danach muss die Wohnung in objektiver Hinsicht dem Steuerpflichtigen",
+          null
+         ],
+         [
+          "jederzeit (wann immer er es wünscht), als Bleibe",
+          "b1"
+         ],
+         [
+          "zur Verfügung stehen.",
+          null
+         ]
+        ]
+       ],
+       [
+        "Nr. 6",
+        [
+         [
+          "[…] Wird die inländische Wohnung",
+          null
+         ],
+         [
+          "zur bloßen Vermögensverwaltung",
+          "gr1"
+         ],
+         [
+          "zurückgelassen, endet der Wohnsitz mit dem Wegzug. Bloße Vermögensverwaltung liegt z. B. vor, wenn ein ins Ausland versetzter Steuerpflichtiger […] seine Wohnung/sein Haus verkaufen oder",
+          null
+         ],
+         [
+          "langfristig vermieten",
+          "g2"
+         ],
+         [
+          "will […].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Meldeamt egal",
+        "r1"
+       ],
+       [
+        "Innehaben",
+        "b1"
+       ],
+       [
+        "Wohnsitz endet",
+        "gr1"
+       ],
+       [
+        "Svens Variante",
+        "g2"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Wohnsitz nach § 8 AO in 4 Schritten – das Prüfschema für die Ertragsteuerklausur mit internationalem Bezug.\n\n1. Wohnung: feste Räume, die sich auf Dauer zum Wohnen eignen; eine bescheidene Bleibe genügt (AEAO zu § 8).\n2. Innehaben: Die Wohnung steht jederzeit als Bleibe zur Verfügung; bei Vermietung an Fremde fehlt es daran (§ 8 AO; AEAO zu § 8).\n3. Umstände, die auf Beibehalten und Benutzen schließen lassen; Nutzung über bloße Besuche hinaus, keine Mindesttage; mehrere Wohnsitze im In- und Ausland möglich (§ 8 AO; AEAO zu § 8).\n4. Folge: unbeschränkte Einkommensteuerpflicht (§ 1 Abs. 1 S. 1 EStG); danach Ansässigkeit nach DBA (Art. 4 Abs. 2 OECD-MA).\n\nAchtung: An- und Abmeldung beim Meldeamt entscheiden nicht, es zählen die tatsächlichen Verhältnisse (AEAO zu § 8).\n\nFall: Sven arbeitet in Zürich, behält seine eingerichtete Wohnung in Freiburg und nutzt sie regelmäßig: Wohnsitz im Inland. Vermietet er sie für drei Jahre an Fremde, endet der Wohnsitz: Die Wohnung dient nur noch der Vermögensverwaltung (AEAO zu § 8, Nr. 6).\n\nZum Schluss: § 8 AO, § 1 Abs. 1 EStG und AEAO zu § 8 zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 8 AO",
+    "AEAO zu § 8",
+    "§ 9 AO",
+    "§ 1 Abs. 1 S. 1 EStG",
+    "Art. 4 Abs. 2 OECD-MA"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-19",
+   "themaTitel": "Was gehört zur Gesamtbilanz der Mitunternehmerschaft?",
+   "figuren": {
+    "A": {
+     "name": "Mia",
+     "kopf": "Buns",
+     "haut": "#A8704B",
+     "haar": "#2A1A14",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Pocket Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Der Gewinn der KG steht in ihrer Bilanz? Falsch. Steuerlich addierst du drei Ebenen."
+    },
+    {
+     "id": "s1",
+     "text": "Erste Ebene: die Steuerbilanz der Gesellschaft. Hier zweihunderttausend Euro Gewinn."
+    },
+    {
+     "id": "s2",
+     "text": "Zweite Ebene: Ergänzungsbilanz. Mia hat ihren Anteil teurer gekauft, ihre Mehr-AfA kostet zehntausend Euro."
+    },
+    {
+     "id": "s3",
+     "text": "Dritte Ebene: Sonderbilanz. Mia vermietet der KG ein Grundstück, dreißigtausend Euro Miete kommen dazu."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Drei Ebenen addieren. Hier zweihundertzwanzigtausend Euro."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "KG-Gewinn =",
+     "Handelsbilanz?"
+    ],
+    "pille": "Mitunternehmerschaft",
+    "figur": "A/skeptisch",
+    "name": "Mia",
+    "icons": [
+     [
+      "tabler:building-store",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "drei Ebenen addieren",
+     "wort": "drei",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Ebene 1: Gesamthand",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Steuerbilanz der KG",
+       "wert": "200.000 €",
+       "farbe": "WEISS",
+       "wort": "zweihunderttausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "wort": "Gesellschaft"
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Steuerbilanz"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Ebene 2: Ergänzung",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Anteil teurer gekauft",
+       "unter": "Mehrwert nur für Mia",
+       "wort": "teurer",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Mehr-AfA",
+       "wert": "− 10.000 €",
+       "farbe": "ROT",
+       "wort": "zehntausend",
+       "zs": 110
+      }
+     ],
+     "icon": [
+      "tabler:user",
+      "GELB",
+      "Mia"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ebene 3: Sonder",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Grundstück an die KG vermietet",
+       "wort": "Grundstück",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Sondervergütung",
+       "wert": "+ 30.000 €",
+       "farbe": "GRUEN",
+       "wort": "dreißigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
+       "wort": "vermietet"
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "Grundstück"
+     ],
+     "sfx": [
+      [
+       "muenzen",
+       "dreißigtausend",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "200.000 €",
+     "− 10.000 €",
+     "+ 30.000 €",
+     "= 220.000 €"
+    ],
+    "woerter": [
+     null,
+     "Drei",
+     "Ebenen",
+     "zweihundertzwanzigtausend"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "zweihundertzwanzigtausend",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Klausurfalle Personengesellschaft: Der steuerliche Gewinn der KG ist nicht der Gewinn aus ihrer Bilanz. 🏢\n\n▸ Ebene 1: Steuerbilanz der Gesellschaft (Gesamthand), Gewinnanteile der Mitunternehmer (§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG).\n▸ Ebene 2: Ergänzungsbilanzen, etwa für Mehranschaffungskosten eines Gesellschafters; die Mehr-AfA trifft nur ihn.\n▸ Ebene 3: Sonderbilanzen mit Sonderbetriebsvermögen und Sondervergütungen, etwa für die Überlassung von Wirtschaftsgütern (§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG).\n\nBeispiel: 200.000 € − 10.000 € Mehr-AfA + 30.000 € Miete = 220.000 € Gesamtgewinn.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-24",
+   "frage": [
+    "Kapitalkonto",
+    "nach § 15a EStG?"
+   ],
+   "optionen": [
+    "Nur Gesamthandsbilanz",
+    "Gesamthands- und Ergänzungsbilanz",
+    "Alle drei Bereiche"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#6B4226",
+     "haar": "#1B1B1B",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-24",
+   "titel": [
+    "B: mit",
+    "Ergänzungsbilanz"
+   ],
+   "optionen": [
+    "Nur Gesamthandsbilanz",
+    "Gesamthands- und Ergänzungsbilanz",
+    "Alle drei Bereiche"
+   ],
+   "richtig": 1,
+   "text": "Sonderbetriebsvermögen bleibt außen vor.",
+   "norm": "BMF vom 30.05.1997",
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#6B4226",
+     "haar": "#1B1B1B",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Falsche USt-IdNr."
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-502",
+   "titel": [
+    "Erbschaftsteuer:",
+    "erst die Vorfragen"
+   ],
+   "norm": "§ 1 Abs. 1 ErbStG",
+   "punkte": [
+    [
+     "Erwerb von Todes wegen oder Schenkung?",
+     "ok",
+     "§§ 3, 7 ErbStG"
+    ],
+    [
+     "Dann Steuerpflicht, Steuerklasse, Stichtag, erst danach bewerten.",
+     "warn",
+     "§§ 2, 15, 9, 11 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Long",
+     "haut": "#F1C7A5",
+     "haar": "#8B4A2B",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Wohnsitz in Deutschland?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Jeder Abschnitt",
+    "endet mit Ergebnis"
+   ],
+   "punkte": [
+    [
+     "Ergebnis mit Norm in einem Satz.",
+     "ok",
+     null
+    ],
+    [
+     "Auch bei Zeitnot: Ergebnis hinschreiben.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:flag-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Medium 3",
+     "haut": "#C99470",
+     "haar": "#3B2A20",
+     "oberteil": "#7FD6D0"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-02",
+   "titel": [
+    "Anteil verkauft:",
+    "welche Norm?"
+   ],
+   "punkte": [
+    [
+     "Betriebsvermögen geht vor.",
+     "ok",
+     "§ 20 Abs. 8 S. 1 EStG"
+    ],
+    [
+     "Privat, ab 1 % in fünf Jahren: § 17.",
+     "ok",
+     "§ 17 Abs. 1 S. 1 EStG"
+    ],
+    [
+     "Sonst Kapitaleinkünfte, § 23 tritt zurück.",
+     "warn",
+     "§ 20 Abs. 2 S. 1 Nr. 1, § 23 Abs. 2 EStG"
+    ]
+   ],
+   "icon": "tabler:arrows-sort",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Hijab",
+     "haut": "#D9A47E",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "KG-Gewinn: drei Ebenen"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-29",
+   "titel": [
+    "Wozu die",
+    "Ergänzungsbilanz?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Mehrpreis",
+      "a"
+     ],
+     [
+      " des Käufers,",
+      null
+     ]
+    ],
+    [
+     [
+      "nur für ",
+      null
+     ],
+     [
+      "ihn",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "Gesamthand",
+      "c"
+     ],
+     [
+      " bleibt.",
+      null
+     ]
+    ]
+   ],
+   "figuren": {
+    "M": {
+     "kopf": "Gray Short",
+     "haut": "#EBC3A0",
+     "haar": "#B8B8B8",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 3",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}

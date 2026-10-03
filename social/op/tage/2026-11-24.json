@@ -1,0 +1,1274 @@
+{
+ "datum": "2026-11-24",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-6",
+   "themaTitel": "Dreiecksfälle und materielle Korrespondenz",
+   "figuren": {
+    "A": {
+     "name": "Nalani",
+     "kopf": "Long Curly",
+     "haut": "#B5835A",
+     "haar": "#2A1A14",
+     "oberteil": "#9AD48F",
+     "bueste": "Dress"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Vorteil im",
+      "Dreieck"
+     ],
+     "norm": "§ 8 Abs. 3 S. 2, 3 KStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 8b KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Preisvorteil",
+        "Bold",
+        44
+       ],
+       [
+        "40.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "wer versteuert?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Die Holm Holding GmbH hält je 100 % an der Aro GmbH und der Bex GmbH.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Aro verkauft Bex eine Maschine für 60.000 €. Wert: 100.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Der Grund: Beide gehören derselben Mutter.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich leite die Holding."
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Den Vorteil verfolgen",
+     "zeilen": [
+      [
+       "1.",
+       "vGA: Aro an Holding",
+       "GELB",
+       "§ 8 Abs. 3 S. 2 KStG"
+      ],
+      [
+       "2.",
+       "Einlage: Holding in Bex",
+       "PINK",
+       "§ 8 Abs. 3 S. 3 KStG"
+      ],
+      [
+       "3.",
+       "Bex-Anteile werden teurer",
+       "WEISS",
+       "§ 6 Abs. 6 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Pfeile zeichnen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Bei der Holding",
+     "punkte": [
+      [
+       "Die vGA ist für sie ein Beteiligungsertrag von 40.000 €.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+      ],
+      [
+       "Er bleibt außer Ansatz, 5 % gelten als nicht abziehbar.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG"
+      ],
+      [
+       "Zugleich steigen die Anschaffungskosten der Bex-Anteile um 40.000 €.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 6 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Fast steuerfrei."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Der Rechenweg",
+     "normen": [
+      "§ 8 Abs. 3 KStG",
+      "§ 8b Abs. 1, 5 KStG"
+     ],
+     "zeilen": [
+      [
+       "Aro: vGA hinzu",
+       "+ 40.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Holding: Ertrag",
+       "+ 40.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Holding: außer Ansatz",
+       "– 40.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Holding: 5 % hinzu",
+       "+ 2.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Bex: Einlage",
+       "± 0 €",
+       "Regular",
+       null
+      ],
+      [
+       "Mehr Einkommen gesamt",
+       "42.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Aros Bescheid ist bestandskräftig, die vGA wurde dort nie erfasst.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was gilt jetzt für die 40.000 € bei der Holding?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Und nun?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung: Korrespondenz",
+     "punkte": [
+      [
+       "Steuerfrei nur, soweit die vGA das Einkommen von Aro nicht gemindert hat.",
+       "warn",
+       "Regular",
+       "§ 8b Abs. 1 S. 2 KStG"
+      ],
+      [
+       "Hier gemindert: Die Holding versteuert 40.000 € voll.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Ändert das Amt Aros Bescheid wegen der vGA, kann der Holding-Bescheid folgen.",
+       "ok",
+       "Regular",
+       "§ 32a Abs. 1 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Achtung!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Grundfall: 42.000 € mehr Einkommen",
+      "Ohne vGA bei Aro: 40.000 € voll bei der Holding",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Pfeile",
+        "a"
+       ],
+       [
+        " zeichnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "vGA",
+        "b"
+       ],
+       [
+        " nach oben,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einlage",
+        "c"
+       ],
+       [
+        " nach unten,",
+        null
+       ]
+      ],
+      [
+       [
+        "Korrespondenz",
+        "d"
+       ],
+       [
+        " prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Zeichnest du Dreiecke schon?",
+     "teaser": "Weiterwischen: § 8b KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 8, 8b KStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 8 (3)",
+       [
+        [
+         "Auch",
+         null
+        ],
+        [
+         "verdeckte Gewinnausschüttungen",
+         "g1"
+        ],
+        [
+         "[…] mindern das Einkommen nicht.",
+         null
+        ],
+        [
+         "Verdeckte Einlagen erhöhen das Einkommen nicht.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "§ 8b (1)",
+       [
+        [
+         "Bezüge im Sinne des § 20 Abs. 1 Nr. 1, 2, 9 und 10 Buchstabe a des Einkommensteuergesetzes",
+         null
+        ],
+        [
+         "bleiben bei der Ermittlung des Einkommens außer Ansatz.",
+         "gr1"
+        ],
+        [
+         "Satz 1 gilt nur, soweit die Bezüge",
+         null
+        ],
+        [
+         "das Einkommen der leistenden Körperschaft nicht gemindert haben.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 8b (5)",
+       [
+        [
+         "Von den Bezügen im Sinne des Absatzes 1, die bei der Ermittlung des Einkommens außer Ansatz bleiben,",
+         null
+        ],
+        [
+         "gelten 5 Prozent als Ausgaben,",
+         "b2"
+        ],
+        [
+         "die nicht als Betriebsausgaben abgezogen werden dürfen. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Ebene Aro",
+       "g1"
+      ],
+      [
+       "Ebene Bex",
+       "b1"
+      ],
+      [
+       "Holding: frei",
+       "gr1"
+      ],
+      [
+       "Korrespondenz!",
+       "r1"
+      ],
+      [
+       "+ 2.000 €",
+       "b2"
+      ]
+     ],
+     "randnotiz": [
+      "Grundfall: + 42.000 € Einkommen",
+      "40.000 € bei Aro, 2.000 € bei der Holding"
+     ]
+    }
+   ],
+   "caption": "Vorteil unter Schwestergesellschaften: der Rechenweg im Dreieck für die Körperschaftsteuer-Klausur.\n\nFall: Die Holding hält je 100 % an Aro und Bex. Aro verkauft Bex eine Maschine im Wert von 100.000 € für 60.000 €, weil beide derselben Mutter gehören.\n\n1. Aro: verdeckte Gewinnausschüttung an die Holding, außerbilanziell + 40.000 € (§ 8 Abs. 3 S. 2 KStG).\n2. Holding: Beteiligungsertrag 40.000 € (§ 20 Abs. 1 Nr. 1 S. 2 EStG), außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % = 2.000 € gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG). Der Vorteil wird in Bex eingelegt, die Anschaffungskosten der Bex-Anteile steigen um 40.000 € (§ 6 Abs. 6 S. 2 EStG).\n3. Bex: verdeckte Einlage, das Einkommen erhöht sich nicht (§ 8 Abs. 3 S. 3 KStG).\nErgebnis: insgesamt 42.000 € mehr Einkommen.\n\nKlausurfalle materielle Korrespondenz: Freigestellt wird nur, soweit die vGA bei der ausschüttenden Gesellschaft das Einkommen nicht verringert hat (§ 8b Abs. 1 S. 2 KStG). Ist die vGA bei Aro nicht erfasst, versteuert die Holding die 40.000 € voll. Wird Aros Bescheid hinsichtlich der vGA erlassen, aufgehoben oder geändert, kann der Bescheid der Holding angepasst werden (§ 32a Abs. 1 S. 1 KStG).\n\nZum Schluss: § 8 Abs. 3, § 8b Abs. 1, 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 3 S. 2, 3 KStG",
+    "§ 8b Abs. 1 S. 1, 2, Abs. 5 S. 1 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 6 Abs. 6 S. 2 EStG",
+    "§ 32a Abs. 1 S. 1 KStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-5-02",
+   "themaTitel": "Wann darf ein Investitionsabzugsbetrag gebildet werden?",
+   "figuren": {
+    "A": {
+     "name": "Tomasz",
+     "kopf": "Short 1",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 3",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Wann IAB",
+      "bilden?"
+     ],
+     "norm": "§ 7g Abs. 1 EStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 7g EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Vortrag",
+        "Bold",
+        44
+       ],
+       [
+        "10 Min.",
+        "ExtraBold",
+        96
+       ],
+       [
+        "drei Teile",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:redet"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Aufbau",
+     "schritte": [
+      [
+       "Einstieg · 1 Min.",
+       null,
+       "Zweck: AfA vorziehen"
+      ],
+      [
+       "Voraussetzungen · 4 Min.",
+       "§ 7g Abs. 1 EStG",
+       ""
+      ],
+      [
+       "Investitionsjahr · 3 Min.",
+       "§ 7g Abs. 2, 5 EStG",
+       ""
+      ],
+      [
+       "Ohne Investition · 1 Min.",
+       "§ 7g Abs. 3, 4 EStG",
+       ""
+      ],
+      [
+       "Schluss · 1 Min.",
+       null,
+       "Kernsatz und Beispiel"
+      ]
+     ],
+     "teaser": "Am Ende: § 7g EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg",
+     "punkte": [
+      [
+       "Kleine Betriebe ziehen künftige AfA vor: bis zu 50 % der geplanten Kosten mindern schon heute den Gewinn.",
+       "ok",
+       "Regular",
+       "§ 7g Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Der Abzug läuft außerhalb der Bilanz, es gibt keine Rücklage.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Ziel: Liquidität vor der Investition.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Tomasz."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil 1: Voraussetzungen",
+     "punkte": [
+      [
+       "Abnutzbares bewegliches Anlagegut, auch gebraucht.",
+       "ok",
+       "Regular",
+       "§ 7g Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Vermietet oder fast nur betrieblich im Inland genutzt, bis Ende des Folgejahres.",
+       "warn",
+       "Regular",
+       "§ 7g Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Gewinn ohne Abzug höchstens 200.000 €, Summe je Betrieb ebenso.",
+       "ok",
+       "Bold",
+       "§ 7g Abs. 1 S. 2 Nr. 1 Buchst. b, S. 4 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Vier Minuten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil 2: Investitionsjahr",
+     "punkte": [
+      [
+       "Hinzurechnung bis 50 % der tatsächlichen Kosten, höchstens der Abzug.",
+       "ok",
+       "Regular",
+       "§ 7g Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Zugleich die Kosten um bis zu 50 % kürzen: Die AfA-Basis sinkt.",
+       "ok",
+       "Bold",
+       "§ 7g Abs. 2 S. 3 EStG"
+      ],
+      [
+       "Daneben bis zu 40 % Sonderabschreibung möglich.",
+       "warn",
+       "Regular",
+       "§ 7g Abs. 5 EStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Dann kaufen."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: Ofen für 50.000 €",
+     "normen": [
+      "§ 7g Abs. 1, 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "2026: Abzug",
+       "– 25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "2027: Hinzurechnung",
+       "+ 25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "2027: Kosten kürzen",
+       "– 25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "AfA-Basis",
+       "25.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Gewinn 2027 per Saldo: ± 0 €",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil 3: Kein Kauf",
+     "punkte": [
+      [
+       "Bis Ende des dritten Folgejahres nicht investiert: Der Abzug wird im Abzugsjahr rückgängig gemacht.",
+       "nein",
+       "Regular",
+       "§ 7g Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Auch ein bestandskräftiger Bescheid wird geändert.",
+       "warn",
+       "Bold",
+       "§ 7g Abs. 3 S. 2, 3 EStG"
+      ],
+      [
+       "Nutzung verfehlt: ebenfalls rückgängig.",
+       "nein",
+       "Regular",
+       "§ 7g Abs. 4 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Rückwirkend!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "„Auch bei Einnahmenüberschussrechnung?“ Ja, alle Gewinnermittler.",
+       "ok",
+       "Regular",
+       "§ 7g Abs. 1 S. 2 Nr. 1 Buchst. a EStG"
+      ],
+      [
+       "„Darf ein Verlust entstehen?“ Ja.",
+       "ok",
+       "Regular",
+       "§ 7g Abs. 1 S. 3 EStG"
+      ],
+      [
+       "„Zinsen bei Rückgängigmachung?“ Ja, rückwirkend für das Abzugsjahr.",
+       "warn",
+       "Bold",
+       "§ 7g Abs. 3 S. 4 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Bereit!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Schlusssatz: vorziehen, hinzurechnen, kürzen",
+      "ohne Investition rückwirkend streichen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "50 %",
+        "a"
+       ],
+       [
+        " vorab abziehen,",
+        null
+       ]
+      ],
+      [
+       [
+        "hinzurechnen",
+        "b"
+       ],
+       [
+        " beim Kauf,",
+        null
+       ]
+      ],
+      [
+       [
+        "Kosten",
+        "c"
+       ],
+       [
+        " kürzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst ",
+        null
+       ],
+       [
+        "rückwirkend",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Hältst du den Vortrag laut?",
+     "teaser": "Weiterwischen: § 7g EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 7g EStG Investitionsabzugsbeträge (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Steuerpflichtige können für die künftige Anschaffung oder Herstellung von",
+         null
+        ],
+        [
+         "abnutzbaren beweglichen Wirtschaftsgütern des Anlagevermögens,",
+         "g1"
+        ],
+        [
+         "die mindestens bis zum Ende des dem Wirtschaftsjahr der Anschaffung oder Herstellung folgenden Wirtschaftsjahres",
+         null
+        ],
+        [
+         "vermietet oder in einer inländischen Betriebsstätte des Betriebes ausschließlich oder fast ausschließlich betrieblich genutzt werden,",
+         "b1"
+        ],
+        [
+         "bis zu 50 Prozent der voraussichtlichen Anschaffungs- oder Herstellungskosten",
+         "r1"
+        ],
+        [
+         "gewinnmindernd abziehen (Investitionsabzugsbeträge). […]",
+         null
+        ],
+        [
+         "Investitionsabzugsbeträge können nur in Anspruch genommen werden, wenn 1. der Gewinn […] b) im Wirtschaftsjahr, in dem die Abzüge vorgenommen werden sollen, ohne Berücksichtigung der Investitionsabzugsbeträge nach Satz 1 und der Hinzurechnungen nach Absatz 2",
+         null
+        ],
+        [
+         "200 000 Euro nicht überschreitet",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "welches Gut?",
+       "g1"
+      ],
+      [
+       "Nutzung",
+       "b1"
+      ],
+      [
+       "Höhe",
+       "r1"
+      ],
+      [
+       "Gewinngrenze",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Im Vortrag die Grenze nennen:",
+      "200.000 € Gewinn ohne den Abzug"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Steuerberaterprüfung: Wann darf ein Investitionsabzugsbetrag gebildet werden? 🎤\n\nIn der Mündlichen erhältst du eine halbe Stunde vor Beginn drei Themen zur Wahl (§ 26 Abs. 6 DVStB). So baust du rund zehn Minuten auf:\n\n▸ Einstieg: Künftige AfA vorziehen, bis zu 50 % der voraussichtlichen Kosten gewinnmindernd abziehen, außerhalb der Bilanz (§ 7g Abs. 1 S. 1 EStG).\n▸ Voraussetzungen: abnutzbares bewegliches Anlagegut; Vermietung oder (fast) ausschließlich betriebliche Nutzung in einer inländischen Betriebsstätte bis zum Ende des Folgejahres; Gewinn nach § 4 oder § 5 EStG, im Abzugsjahr ohne Abzug höchstens 200.000 €; elektronische Übermittlung; je Betrieb höchstens 200.000 € (§ 7g Abs. 1 S. 1, S. 2 Nr. 1, 2, S. 4 EStG). Ein Verlust darf entstehen (§ 7g Abs. 1 S. 3 EStG).\n▸ Investitionsjahr: Hinzurechnung bis 50 % der Kosten, höchstens der Abzug; Kürzung der Kosten um bis zu 50 %, die AfA-Basis sinkt (§ 7g Abs. 2 S. 1, 3 EStG); daneben Sonderabschreibung bis 40 % (§ 7g Abs. 5, 6 EStG).\n▸ Ohne Investition bis zum Ende des dritten Folgejahres: Rückgängigmachung im Abzugsjahr, auch bei Bestandskraft; § 233a Abs. 2a AO gilt nicht (§ 7g Abs. 3 EStG). Nutzung verfehlt: ebenfalls rückgängig (§ 7g Abs. 4 EStG).\n\nBeispiel: Ofen 50.000 €. 2026 Abzug 25.000 €, 2027 Hinzurechnung 25.000 € und Kürzung 25.000 €, AfA-Basis 25.000 €.\n\nZum Schluss: § 7g Abs. 1 EStG zum Markieren. Speichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 7g Abs. 1–6 EStG",
+    "§ 233a Abs. 2a AO",
+    "§ 26 Abs. 6 DVStB"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-191",
+   "themaTitel": "Innergemeinschaftliche Lieferung: Ausgangsseite nach § 6a UStG",
+   "figuren": {
+    "A": {
+     "name": "Aylin",
+     "kopf": "Long",
+     "haut": "#D9A47E",
+     "haar": "#2B1B12",
+     "oberteil": "#F2B880",
+     "bueste": "Striped Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Lieferung nach Frankreich ist nicht steuerbar? Falsch. Steuerbar, aber steuerfrei."
+    },
+    {
+     "id": "s1",
+     "text": "Aylin versendet eine Maschine von Köln nach Lyon. Der Ort liegt dort, wo die Versendung beginnt: steuerbar."
+    },
+    {
+     "id": "s2",
+     "text": "Steuerfrei wird es erst über Paragraf sechs a. Die Ware gelangt in einen anderen Mitgliedstaat, und der Kunde erwirbt dort steuerpflichtig."
+    },
+    {
+     "id": "s3",
+     "text": "Außerdem verwendet der Kunde eine gültige ausländische Identifikationsnummer. Ohne zusammenfassende Meldung keine Befreiung."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: erst steuerbar, dann steuerfrei, mit Nummer und Meldung."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "EU-Lieferung:",
+     "nicht steuerbar?"
+    ],
+    "pille": "§ 4 Nr. 1 Buchst. b UStG",
+    "figur": "A/skeptisch",
+    "name": "Aylin",
+    "icons": [
+     [
+      "tabler:truck",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "steuerbar, aber steuerfrei",
+     "wort": "steuerfrei",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Erst der Ort",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "von Köln nach Lyon",
+       "wort": "Köln",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Ort der Lieferung",
+       "wert": "Köln",
+       "farbe": "GELB",
+       "wort": "Ort",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Umsatz",
+       "wert": "steuerbar",
+       "farbe": "GRUEN",
+       "wort": "steuerbar",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 3 Abs. 6 S. 1 UStG",
+       "wort": "beginnt"
+      }
+     ],
+     "icon": [
+      "tabler:truck",
+      "GELB",
+      "versendet"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Dann die Befreiung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Umsatz",
+       "wert": "steuerfrei",
+       "farbe": "GRUEN",
+       "wort": "Steuerfrei",
+       "zs": 100
+      },
+      {
+       "typ": "pille",
+       "text": "Ware in anderen EU-Staat",
+       "wort": "Ware",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Erwerb dort steuerpflichtig",
+       "wort": "erwirbt",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6a Abs. 1 S. 1 Nr. 1–3 UStG",
+       "wort": "Paragraf"
+      }
+     ],
+     "icon": [
+      "tabler:building-bank",
+      "GELB",
+      "Mitgliedstaat"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Zwei Formalien",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "USt-IdNr. des Kunden",
+       "wert": "verwendet",
+       "farbe": "GELB",
+       "wort": "Identifikationsnummer",
+       "zs": 90
+      },
+      {
+       "typ": "block",
+       "label": "Zusammenfassende Meldung fehlt",
+       "wert": "steuerpflichtig",
+       "farbe": "ROT",
+       "wort": "Meldung",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6a Abs. 1 S. 1 Nr. 4 UStG",
+       "wort": "gültige"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "keine",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "EU-Lieferung:",
+     "erst steuerbar,",
+     "dann steuerfrei,",
+     "mit Nummer und Meldung"
+    ],
+    "woerter": [
+     null,
+     "steuerbar",
+     "steuerfrei",
+     "Meldung"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Meldung",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Innergemeinschaftliche Lieferung: nicht steuerbar oder steuerfrei? 🚚\n\n▸ Erst der Ort: Bei Beförderung oder Versendung gilt die Lieferung dort als ausgeführt, wo sie beginnt (§ 3 Abs. 6 S. 1 UStG). Köln → Lyon: Ort in Deutschland, steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n▸ Dann die Befreiung (§ 4 Nr. 1 Buchst. b UStG) mit den Voraussetzungen des § 6a Abs. 1 S. 1 UStG: Ware gelangt in das übrige Gemeinschaftsgebiet (Nr. 1), Abnehmer ist ein in einem anderen Mitgliedstaat erfasster Unternehmer, der für sein Unternehmen erwirbt (Nr. 2), der Erwerb unterliegt dort der Umsatzbesteuerung (Nr. 3), der Abnehmer verwendet eine gültige ausländische USt-IdNr. (Nr. 4).\n▸ Die Befreiung gilt nicht, wenn der Unternehmer seine Zusammenfassende Meldung (§ 18a UStG) für diese Lieferung nicht, unrichtig oder unvollständig abgegeben hat (§ 4 Nr. 1 Buchst. b UStG).\n▸ Nachweis der Voraussetzungen durch den Unternehmer (§ 6a Abs. 3 UStG).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a Abs. 1 S. 1 Nr. 1–4, Abs. 3 UStG",
+    "§ 18a UStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "frage": [
+    "Enkelin erbt,",
+    "Mutter lebt:",
+    "Freibetrag?"
+   ],
+   "optionen": [
+    "100.000 €",
+    "200.000 €",
+    "400.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Gray Bun",
+     "haut": "#F1C7A5",
+     "haar": "#C8C8C8",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "titel": [
+    "B: 200.000 €"
+   ],
+   "optionen": [
+    "100.000 €",
+    "200.000 €",
+    "400.000 €"
+   ],
+   "richtig": 1,
+   "text": "Enkel erhalten 200.000 €. Ist der Elternteil bereits verstorben, sind es 400.000 €.",
+   "norm": "§ 16 Abs. 1 Nr. 2, 3 ErbStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Gray Bun",
+     "haut": "#F1C7A5",
+     "haar": "#C8C8C8",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Körperschaftsteuer",
+   "beitragSlot": "b1",
+   "titel": [
+    "Vorteil im Dreieck"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-8",
+   "titel": [
+    "Anteil verkauft:",
+    "steuerfrei?"
+   ],
+   "norm": "§ 8b Abs. 2 S. 1 KStG",
+   "punkte": [
+    [
+     "Gewinn bleibt außer Ansatz, ohne Mindestquote.",
+     "ok",
+     "§ 8b Abs. 2 S. 1 KStG"
+    ],
+    [
+     "5 % gelten als nicht abziehbar, Verluste zählen nicht.",
+     "warn",
+     "§ 8b Abs. 3 S. 1, 3 KStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Afro",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bart": "Moustache 2",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Bilanzsteuerrecht",
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag: IAB"
+   ],
+   "unter": "Vortragsaufbau + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Klausurstart:",
+    "Aufgabe zuerst"
+   ],
+   "punkte": [
+    [
+     "Erst die Aufgabenstellung lesen, dann den Sachverhalt.",
+     "ok",
+     null
+    ],
+    [
+     "Jede Zahl im Sachverhalt markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Am Ende: Ist jede Angabe verwertet?",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Medium Straight",
+     "haut": "#EBC3A0",
+     "haar": "#5A3A22",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "Z/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-glossar-15",
+   "titel": [
+    "Bauen auf dem",
+    "Grund des Partners?"
+   ],
+   "punkte": [
+    [
+     "Eigener Bauaufwand für den Anteil des Ehegatten: Aufwandsverteilungsposten.",
+     "ok",
+     "BMF vom 16.12.2016"
+    ],
+    [
+     "Kein Wirtschaftsgut, keine stillen Reserven.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:home",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Twists 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Umsatzsteuer",
+   "beitragSlot": "b3",
+   "titel": [
+    "EU-Lieferung: steuerbar?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-348",
+   "titel": [
+    "Vorbehalt oder",
+    "vorläufig?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Vorbehalt",
+      "a"
+     ],
+     [
+      " öffnet alles,",
+      null
+     ]
+    ],
+    [
+     [
+      "vorläufig",
+      "b"
+     ],
+     [
+      " nur den",
+      null
+     ]
+    ],
+    [
+     [
+      "Punkt im ",
+      null
+     ],
+     [
+      "Vermerk",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§§ 164 Abs. 2, 165 Abs. 2 S. 1 AO",
+   "groesse": 70,
+   "figuren": {
+    "M": {
+     "kopf": "Shaved 2",
+     "haut": "#C99470",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 4",
+     "bueste": "jacket"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}
