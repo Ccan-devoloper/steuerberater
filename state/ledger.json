@@ -7291,6 +7291,18 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "s4",
+      "medienId": "18119479064516824",
+      "veroeffentlicht": "2026-10-03T05:45:26.283Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "kst-quiz-kst-2",
+      "fach": "kst",
+      "titel": "Wer hat bei einer vGA typischerweise den Vorteil?"
     }
   ],
   "fachZaehler": {
