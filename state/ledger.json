@@ -7421,6 +7421,18 @@
         "#examensvorbereitung",
         "#gewerbesteuer"
       ]
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "s2",
+      "medienId": "18025040903872081",
+      "veroeffentlicht": "2026-10-03T11:45:09.098Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "gewst",
+      "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…"
     }
   ],
   "fachZaehler": {
