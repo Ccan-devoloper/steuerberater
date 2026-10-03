@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 2,
-   "fach": "est",
-   "fachLabel": "Ertragsteuern",
-   "themaId": "wochenrueckblick-k2-2026-40",
-   "themaTitel": "Tag 2 kompakt: fünf Dauerbrenner der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-40",
+   "themaTitel": "Alle Klausuren kompakt: sechs Dauerbrenner vor dem Examen",
    "figuren": {
     "A": {
      "name": "Malik",
@@ -34,200 +34,145 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Tag 2",
-      "kompakt"
+      "Alle 3",
+      "Klausuren"
      ],
-     "unter": "5 Dauerbrenner",
+     "unter": "6 Dauerbrenner",
      "teaser": "+ Markier-Guide § 8 + R 8.5",
      "motiv": {
-      "typ": "kalender",
-      "monat": "OKTOBER",
-      "tag": "7",
-      "unter": "Mi · Tag 2"
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Di · Klausur 1",
+        "ExtraBold",
+        50
+       ],
+       [
+        "Mi · Klausur 2",
+        "ExtraBold",
+        50
+       ],
+       [
+        "Do · Klausur 3",
+        "ExtraBold",
+        50
+       ]
+      ]
      },
      "figur": "A:erklaert"
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Dauerbrenner",
+     "titel": "Drei Tage, drei Klausuren",
      "schritte": [
       [
-       "Gewerbeertrag",
-       "§§ 7 bis 10a GewStG",
-       ""
+       "Di · Klausur 1",
+       "§§ 122, 355 AO · § 1 UStG",
+       "Einspruchsfrist und Steuerbarkeit"
       ],
       [
-       "Gewerbesteuer",
-       "§§ 11, 16 GewStG",
-       ""
+       "Mi · Klausur 2",
+       "§ 8 Abs. 3 S. 2 KStG · §§ 7 bis 10a GewStG",
+       "vGA und Gewerbeertrag"
       ],
       [
-       "Verdeckte Gewinnausschüttung",
-       "§ 8 Abs. 3 S. 2 KStG",
-       ""
-      ],
-      [
-       "Wegzug mit GmbH-Anteil",
-       "§ 6 AStG",
-       ""
-      ],
-      [
-       "Anrechnung ausländischer Steuer",
-       "§ 34c Abs. 1 EStG",
-       ""
+       "Do · Klausur 3",
+       "§ 6 Abs. 1 Nr. 1, 2 · § 15 Abs. 1 EStG",
+       "Teilwert und Sondervergütungen"
       ]
      ],
      "teaser": "Am Ende: § 8 KStG + R 8.5 markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Gewerbeertrag",
+     "titel": "Klausur 1 · AO und USt",
      "punkte": [
       [
-       "Start ist der Gewinn nach Einkommen- oder Körperschaftsteuerrecht.",
+       "Per Post: bekannt gegeben am vierten Tag nach Aufgabe.",
        "ok",
        "Regular",
-       "§ 7 S. 1 GewStG"
+       "§ 122 Abs. 2 Nr. 1 AO"
       ],
       [
-       "Dann Hinzurechnungen dazu, Kürzungen ab.",
-       "ok",
-       "Regular",
-       "§§ 8, 9 GewStG"
-      ],
-      [
-       "Den Gewerbeverlust erst ganz am Ende abziehen.",
+       "Einspruch: ein Monat; endet sie am Wochenende, zählt der nächste Werktag.",
        "warn",
+       "Regular",
+       "§ 355 Abs. 1 S. 1, § 108 Abs. 3 AO"
+      ],
+      [
+       "Steuerbar nur, wenn alle fünf Merkmale vorliegen.",
+       "ok",
        "Bold",
-       "§ 10a GewStG"
+       "§ 1 Abs. 1 Nr. 1 UStG"
       ]
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Reihenfolge zählt!"
+     "blase": "Fristen zählen!"
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Gewerbesteuer",
+     "titel": "Klausur 2 · KSt und GewSt",
      "punkte": [
       [
-       "Gewerbeertrag auf volle 100 € abrunden.",
-       "ok",
-       "Regular",
-       "§ 11 Abs. 1 S. 3 GewStG"
-      ],
-      [
-       "24.500 € Freibetrag nur für natürliche Personen und Personengesellschaften.",
-       "warn",
-       "Regular",
-       "§ 11 Abs. 1 S. 3 Nr. 1 GewStG"
-      ],
-      [
-       "Mal 3,5 %, dann mal Hebesatz.",
-       "ok",
-       "Bold",
-       "§ 11 Abs. 2, § 16 Abs. 1 GewStG"
-      ]
-     ],
-     "figur": "B:denkt",
-     "x": 290,
-     "blase": "Und die GmbH?"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "3 · Verdeckte Gewinnausschüttung",
-     "punkte": [
-      [
-       "Die GmbH verliert Vermögen oder verzichtet auf einen Zuwachs.",
+       "vGA: Vermögensminderung, ausgelöst durch das Gesellschaftsverhältnis.",
        "ok",
        "Regular",
        "R 8.5 Abs. 1 KStR"
       ],
       [
-       "Auslöser ist das Gesellschaftsverhältnis.",
-       "ok",
-       "Regular",
-       null
-      ],
-      [
-       "Folge: Das Einkommen der GmbH sinkt dadurch nicht.",
+       "Sie mindert das Einkommen nicht.",
        "nein",
        "Bold",
        "§ 8 Abs. 3 S. 2 KStG"
+      ],
+      [
+       "Gewerbeertrag: Gewinn, Hinzurechnungen, Kürzungen, zuletzt der Verlustvortrag.",
+       "warn",
+       "Regular",
+       "§§ 7 bis 10a GewStG"
       ]
      ],
      "figur": "B:skeptisch",
-     "x": 790,
+     "x": 290,
      "blase": "Wem nützt es?"
     },
     {
      "typ": "inhalt",
-     "titel": "4 · Wegzug mit Anteil",
+     "titel": "Klausur 3 · Bilanz und PersG",
      "punkte": [
       [
-       "Wer GmbH-Anteile im Sinne des § 17 EStG hält und wegzieht, versteuert, als hätte er verkauft.",
-       "warn",
-       "Regular",
-       "§ 6 Abs. 1 AStG"
-      ],
-      [
-       "Voraussetzung: 7 der letzten 12 Jahre unbeschränkt steuerpflichtig.",
-       "ok",
-       "Regular",
-       "§ 6 Abs. 2 S. 1 AStG"
-      ],
-      [
-       "Auf Antrag sieben Jahresraten.",
-       "ok",
-       "Bold",
-       "§ 6 Abs. 4 S. 1 AStG"
-      ]
-     ],
-     "figur": "A:sorge",
-     "x": 290,
-     "blase": "Auch ohne Verkauf?"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Anrechnung",
-     "punkte": [
-      [
-       "Ausländische Steuer wird auf die deutsche Einkommensteuer angerechnet.",
-       "ok",
-       "Regular",
-       "§ 34c Abs. 1 S. 1 EStG"
-      ],
-      [
-       "Höchstens bis zu dem Teil, der auf die Einkünfte aus diesem Staat entfällt.",
+       "Teilwert nur bei voraussichtlich dauernder Wertminderung.",
        "warn",
        "Bold",
-       "§ 34c Abs. 1 S. 2 EStG"
+       "§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG"
+      ],
+      [
+       "Gehalt, Zinsen, Miete der KG an ihren Mitunternehmer: gewerblicher Gewinn.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
       ]
      ],
-     "extra": [
-      "Grenze je Staat rechnen",
-      "GELB",
-      null
-     ],
-     "figur": "B:redet",
+     "figur": "A:denkt",
      "x": 790,
-     "blase": "Pro Staat!"
+     "blase": "Dauerhaft gesunken?"
     },
     {
      "typ": "merke",
      "oben": [
-      "Mittwoch ist Tag 2",
-      "Ertragsteuern: ESt, KSt, GewSt, IStR",
+      "Di, Mi, Do: je eine Klausur",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Ertrag",
+        "Bekanntgabe",
         "a"
        ],
        [
-        " vor Messbetrag,",
+        " plus Monat,",
         null
        ]
       ],
@@ -243,27 +188,27 @@
       ],
       [
        [
-        "Wegzug",
+        "Teilwert",
         "c"
        ],
        [
-        " wie Verkauf,",
+        " nur dauerhaft,",
         null
        ]
       ],
       [
        [
-        "Anrechnung",
+        "Sondervergütung",
         "d"
        ],
        [
-        " mit Grenze.",
+        " zählt mit.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 2",
-     "frage": "Welcher Punkt wackelt noch?",
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welcher Tag wackelt noch?",
      "teaser": "Weiterwischen: § 8 KStG + R 8.5 markiert"
     },
     {
@@ -396,21 +341,23 @@
      ]
     }
    ],
-   "caption": "Tag 2 kompakt: fünf Dauerbrenner der Woche für die Ertragsteuer-Klausur.\n\n1. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n2. Gewerbesteuer: abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, 3,5 % Messzahl, Hebesatz (§ 11 Abs. 1 S. 3, Abs. 2, § 16 Abs. 1 GewStG).\n3. Verdeckte Gewinnausschüttung: Sie mindert das Einkommen der GmbH nicht (§ 8 Abs. 3 S. 2 KStG; Begriff R 8.5 Abs. 1 KStR).\n4. Wegzug mit Anteilen im Sinne des § 17 EStG: Besteuerung wie bei einer Veräußerung, wenn 7 der letzten 12 Jahre unbeschränkte Steuerpflicht bestand; auf Antrag sieben Jahresraten (§ 6 Abs. 1, 2, 4 AStG).\n5. Anrechnung ausländischer Steuer nur bis zur deutschen Steuer auf die Einkünfte aus diesem Staat (§ 34c Abs. 1 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG und R 8.5 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Wochenrückblick vor dem Examen: die Dauerbrenner aller drei Klausuren (06. bis 08.10.2026).\n\nKlausur 1, Dienstag (AO, USt, ErbSt)\n1. Ein per Post übermittelter Bescheid gilt am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO).\n2. Die Einspruchsfrist beträgt einen Monat ab Bekanntgabe; fällt ihr Ende auf Samstag, Sonntag oder Feiertag, endet sie mit Ablauf des nächsten Werktags (§ 355 Abs. 1 S. 1, § 108 Abs. 3 AO).\n3. Steuerbar ist nur die Lieferung oder sonstige Leistung eines Unternehmers im Inland gegen Entgelt im Rahmen seines Unternehmens; fehlt ein Merkmal, ist der Umsatz nicht steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n\nKlausur 2, Mittwoch (Ertragsteuern)\n4. Verdeckte Gewinnausschüttung: Vermögensminderung oder verhinderte Vermögensmehrung, veranlasst durch das Gesellschaftsverhältnis (R 8.5 Abs. 1 KStR); sie mindert das Einkommen nicht (§ 8 Abs. 3 S. 2 KStG).\n5. Gewerbeertrag: Gewinn, dann Hinzurechnungen und Kürzungen, erst zuletzt der Gewerbeverlust (§§ 7, 8, 9, 10a GewStG).\n\nKlausur 3, Donnerstag (Buchführung und Bilanzwesen)\n6. Teilwertabschreibung nur bei voraussichtlich dauernder Wertminderung (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG).\n7. Vergütungen der Gesellschaft an den Mitunternehmer für Tätigkeit, Darlehen oder überlassene Wirtschaftsgüter gehören zum gewerblichen Gewinn (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG und R 8.5 Abs. 1 KStR zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#ertragsteuern"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§§ 7, 8, 9, 10a GewStG",
-    "§ 11 Abs. 1 S. 3, Abs. 2 GewStG",
-    "§ 16 Abs. 1 GewStG",
+    "§ 122 Abs. 2 Nr. 1 AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 108 Abs. 3 AO",
+    "§ 1 Abs. 1 Nr. 1 UStG",
     "§ 8 Abs. 3 KStG",
     "R 8.5 Abs. 1 KStR",
-    "§ 6 Abs. 1, 2, 4 AStG",
-    "§ 34c Abs. 1 EStG",
+    "§§ 7, 8, 9, 10a GewStG",
+    "§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
     "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
    ]
   },
@@ -994,7 +941,7 @@
    "art": "teaser",
    "beitragSlot": "b1",
    "titel": [
-    "Tag 2 kompakt"
+    "Alle 3 Klausuren kompakt"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
