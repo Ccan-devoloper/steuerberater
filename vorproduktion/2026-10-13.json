@@ -177,7 +177,7 @@
         {
           "art": "text",
           "titel": "Einkommensteuer",
-          "text": "5 Jahre · 1 % · anteilig · Abschmelzen · Dazu: § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG · Preis, Kosten und AK nur zu 60 %"
+          "text": "§ 17 EStG Veräußerung von Anteilen (Auszug) · 5 Jahre · 1 % · anteilig · Abschmelzen · Dazu: § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG · Preis, Kosten und AK nur zu 60 %"
         }
       ]
     },
@@ -187,7 +187,7 @@
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
       "themaId": "persg-aufb-persg-melzer-1-3",
-      "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 und § 7 Abs. 1 S. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+      "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2, § 7 Abs. 1 S. 5 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -195,7 +195,7 @@
         "#personengesellschaften"
       ],
       "quellen": [
-        "R 4.2 Abs. 2 S. 2 EStR",
+        "R 4.2 Abs. 2 S. 1, 2 EStR",
         "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
         "§ 6 Abs. 1 Nr. 5 EStG",
         "§ 7 Abs. 1 S. 5, Abs. 4 S. 1 EStG"
@@ -216,7 +216,7 @@
         {
           "art": "titel",
           "titel": "Mini-Fall",
-          "text": "Mini-Fall · Halle an die · eigene KG · § 15 Abs. 1 S. 1 Nr. 2 EStG · Sonder-BV? · + Markier-Guide § 15 EStG",
+          "text": "Mini-Fall · Halle an die · eigene KG · § 15 Abs. 1 S. 1 Nr. 2 EStG · Sonder-BV? · + Markier-Guide § 15 + R 4.2",
           "bild": "op-cover"
         },
         {
@@ -252,12 +252,17 @@
         {
           "art": "text",
           "titel": "Personengesellschaften",
-          "text": "Halle: Sonder-BV I, Einlage mit 500.000 € · AfA-Basis 412.000 €, Miete gewerblich · Gehört dem Gesellschafter, · dient der KG: · Sonder-BV I, Miete · gewerblich. · Speichern für Klausur 3 · Und wenn die Halle seiner Frau gehört? · Weiterwischen: § 15 EStG markiert"
+          "text": "Halle: Sonder-BV I, Einlage mit 500.000 € · AfA-Basis 412.000 €, Miete gewerblich · Gehört dem Gesellschafter, · dient der KG: · Sonder-BV I, Miete · gewerblich. · Speichern für Klausur 3 · Und gehört die Halle seiner Frau? · Weiterwischen: § 15 + R 4.2 markiert"
         },
         {
           "art": "text",
           "titel": "Personengesellschaften",
-          "text": "Sondervergütung · Miete · AfA abziehen · Untergrenze · Für Gebäude: § 7 Abs. 4 S. 1 Hs. 2 EStG · „Absatz 1 Satz 5 gilt entsprechend“"
+          "text": "§§ 15, 7 EStG (Auszug) · Sondervergütung · Miete · AfA abziehen · Untergrenze · Für Gebäude: § 7 Abs. 4 S. 1 Hs. 2 EStG · „Absatz 1 Satz 5 gilt entsprechend“"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "R 4.2 Abs. 2 EStR (Auszug) · gehört Joscha · kein Wahlrecht · vermietet an die KG · für die Beteiligung · Höhe der Beteiligung egal · auch bei 1 % Kommanditanteil"
         }
       ]
     },
@@ -547,7 +552,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:34:15Z",
+    "erzeugtAm": "2026-10-03T10:51:15Z",
     "pfad": "vorproduktion/2026-10-13/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
