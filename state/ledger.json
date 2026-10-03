@@ -7303,6 +7303,18 @@
       "thema": "kst-quiz-kst-2",
       "fach": "kst",
       "titel": "Wer hat bei einer vGA typischerweise den Vorteil?"
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "s5",
+      "medienId": "18197892760375963",
+      "veroeffentlicht": "2026-10-03T05:45:37.259Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "kst-quiz-kst-2",
+      "fach": "kst",
+      "titel": "der Gesellschafter oder eine nahestehende Person"
     }
   ],
   "fachZaehler": {
