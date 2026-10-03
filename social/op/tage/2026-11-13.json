@@ -39,7 +39,7 @@
      ],
      "norm": "§ 6 Abs. 5 EStG",
      "unter": "Ein Fall",
-     "teaser": "+ Markier-Guide § 6 Abs. 5",
+     "teaser": "+ Markier-Guide § 6 + BMF",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -292,7 +292,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du das Darlehen gesehen?",
-     "teaser": "Weiterwischen: § 6 Abs. 5 markiert"
+     "teaser": "Weiterwischen: § 6 Abs. 5 + BMF markiert"
     },
     {
      "typ": "gesetz",
@@ -372,9 +372,79 @@
       "S. 4 a. E.: Fristende",
       "drei Jahre nach Abgabe der Erklärung"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 08.12.2011, Rn. 15 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 15",
+       [
+        [
+         "[…] Eine Gegenleistung kann sowohl durch die Hingabe von Aktiva als auch durch die",
+         null
+        ],
+        [
+         "Übernahme von Passiva (z. B. Verbindlichkeiten)",
+         "r1"
+        ],
+        [
+         "erfolgen. […] Ob eine teilentgeltliche Übertragung vorliegt, ist nach den Grundsätzen der sog. „Trennungstheorie“ anhand der",
+         null
+        ],
+        [
+         "erbrachten Gegenleistung im Verhältnis zum Verkehrswert",
+         "b1"
+        ],
+        [
+         "des übertragenen Wirtschaftsguts zu prüfen. Liegt die Gegenleistung unter dem Verkehrswert, handelt es sich um eine teilentgeltliche Übertragung, bei der",
+         null
+        ],
+        [
+         "der unentgeltliche Teil nach § 6 Absatz 5 Satz 3 EStG zum Buchwert",
+         "gr1"
+        ],
+        [
+         "zu übertragen ist. Hinsichtlich des entgeltlichen Teils der Übertragung liegt eine",
+         null
+        ],
+        [
+         "Veräußerung",
+         "r2"
+        ],
+        [
+         "des Wirtschaftsguts vor […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Darlehen = Entgelt",
+       "r1"
+      ],
+      [
+       "50 % entgeltlich",
+       "b1"
+      ],
+      [
+       "Rest zum Buchwert",
+       "gr1"
+      ],
+      [
+       "15.000 € Gewinn",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "BFH IV R 11/12: nicht im BStBl II",
+      "Verwaltung folgt nicht, Klausur: Rn. 15"
+     ]
     }
    ],
-   "caption": "Mini-Fall Personengesellschaften: Maschine in die KG – Buchwert oder Gewinn?\n\n▸ Überführung: Das Wirtschaftsgut bleibt beim selben Steuerpflichtigen, auch zwischen eigenem Betriebsvermögen und Sonderbetriebsvermögen (§ 6 Abs. 5 S. 1, 2 EStG).\n▸ Übertragung: Der Rechtsträger wechselt, z. B. in das Gesamthandsvermögen der KG. Buchwert nur, soweit keine Gegenleistung fließt oder allein Gesellschaftsrechte gewährt bzw. gemindert werden (§ 6 Abs. 5 S. 3 Nr. 1 EStG) und die stillen Reserven steuerverhaftet bleiben (§ 6 Abs. 5 S. 1 EStG).\n▸ Lösung: Gutschrift auf dem Kapitalkonto I = Gesellschaftsrechte → Buchwert 20.000 €, kein Gewinn.\n▸ Sperrfrist: Veräußerung oder Entnahme innerhalb von drei Jahren nach Abgabe der Erklärung des Übertragenden für das Übertragungsjahr führt rückwirkend zum Teilwert, außer eine Ergänzungsbilanz ordnet die stillen Reserven dem Übertragenden zu (§ 6 Abs. 5 S. 4 EStG).\n▸ Variante Schuldübernahme: teilentgeltlich, nach Verwaltungsauffassung Aufteilung im Verhältnis Entgelt zu Verkehrswert (BMF vom 08.12.2011, Rn. 15): 50 % entgeltlich → 25.000 € – 10.000 € = 15.000 € laufender Gewinn, Rest zum Buchwert.\n\nZum Schluss: § 6 Abs. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mini-Fall Personengesellschaften: Maschine in die KG – Buchwert oder Gewinn?\n\n▸ Überführung: Das Wirtschaftsgut bleibt beim selben Steuerpflichtigen, auch zwischen eigenem Betriebsvermögen und Sonderbetriebsvermögen (§ 6 Abs. 5 S. 1, 2 EStG).\n▸ Übertragung: Der Rechtsträger wechselt, z. B. in das Gesamthandsvermögen der KG. Buchwert nur, soweit keine Gegenleistung fließt oder allein Gesellschaftsrechte gewährt bzw. gemindert werden (§ 6 Abs. 5 S. 3 Nr. 1 EStG) und die stillen Reserven steuerverhaftet bleiben (§ 6 Abs. 5 S. 1 EStG).\n▸ Lösung: Gutschrift auf dem Kapitalkonto I = Gesellschaftsrechte → Buchwert 20.000 €, kein Gewinn.\n▸ Sperrfrist: Veräußerung oder Entnahme innerhalb von drei Jahren nach Abgabe der Erklärung des Übertragenden für das Übertragungsjahr führt rückwirkend zum Teilwert, außer eine Ergänzungsbilanz ordnet die stillen Reserven dem Übertragenden zu (§ 6 Abs. 5 S. 4 EStG).\n▸ Variante Schuldübernahme: teilentgeltlich, nach Verwaltungsauffassung Aufteilung im Verhältnis Entgelt zu Verkehrswert (BMF vom 08.12.2011, Rn. 15): 50 % entgeltlich → 25.000 € – 10.000 € = 15.000 € laufender Gewinn, Rest zum Buchwert. Abweichend BFH vom 19.09.2012, IV R 11/12 (nicht im BStBl II veröffentlicht, Verwaltung folgt nicht): Gewinn nur, soweit das Entgelt den gesamten Buchwert übersteigt.\n\nZum Schluss: § 6 Abs. 5 EStG und BMF vom 08.12.2011, Rn. 15 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -383,7 +453,8 @@
    ],
    "quellen": [
     "§ 6 Abs. 5 S. 1 bis 4 EStG",
-    "BMF vom 08.12.2011, Rn. 15"
+    "BMF vom 08.12.2011, Rn. 15",
+    "BFH vom 19.09.2012, IV R 11/12"
    ]
   },
   {

@@ -320,7 +320,7 @@
      ],
      "norm": "§ 6 Abs. 1 Nr. 3a EStG",
      "unter": "in 4 Schritten",
-     "teaser": "+ Markier-Guide § 6 EStG",
+     "teaser": "+ Markier-Guide § 6 + R 6.11",
      "motiv": {
       "typ": "icon",
       "name": "tabler:scale",
@@ -353,7 +353,7 @@
        "nie mehr als der HB-Wert"
       ]
      ],
-     "teaser": "Am Ende: § 6 EStG markiert"
+     "teaser": "Am Ende: § 6 EStG + R 6.11 markiert"
     },
     {
      "typ": "inhalt",
@@ -442,16 +442,16 @@
      "titel": "4 · Deckel Handelsbilanz",
      "punkte": [
       [
-       "Die Steuerbilanz darf nie mehr ansetzen als die Handelsbilanz.",
+       "Außer bei Pensionen: Die Steuerbilanz darf nie mehr ansetzen als die Handelsbilanz.",
        "warn",
        "Bold",
-       "R 6.11 Abs. 3 EStR"
+       "R 6.11 Abs. 3 S. 1 EStR"
       ],
       [
        "Bestätigt vom BFH.",
        "ok",
        "Regular",
-       "BFH vom 20.11.2019, XI R 46/17"
+       "BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195"
       ],
       [
        "Also beide Werte rechnen, den niedrigeren nehmen.",
@@ -585,11 +585,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Welchen Schritt vergisst du?",
-     "teaser": "Weiterwischen: § 6 EStG markiert"
+     "teaser": "Weiterwischen: § 6 + R 6.11 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Richtlinie markieren",
      "kopf": "§ 6 Abs. 1 Nr. 3a EStG (Auszug)",
      "absaetze": [
       [
@@ -655,10 +655,42 @@
      "randnotiz": [
       "Buchst. e: 5,5 % Abzinsung",
       "nicht unter zwölf Monaten Laufzeit"
-     ]
+     ],
+     "zweite": {
+      "kopf": "R 6.11 Abs. 3 EStR (Auszug)",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Mit Ausnahme der Pensionsrückstellungen",
+          "b2"
+         ],
+         [
+          "darf die Höhe der Rückstellung in der Steuerbilanz",
+          null
+         ],
+         [
+          "den zulässigen Ansatz in der Handelsbilanz nicht überschreiten.",
+          "r2"
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "nicht bei Pensionen",
+        "b2"
+       ],
+       [
+        "Deckel",
+        "r2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Rückstellungen in der Steuerbilanz bewerten – das Prüfschema für die Bilanzklausur.\n\n1. Stichtagsprinzip: Wertverhältnisse am Bilanzstichtag, keine künftigen Preis- und Kostensteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. f EStG); handelsrechtlich dagegen notwendiger Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n2. Kosten und Vorteile: Sachleistungsverpflichtungen mit Einzelkosten und angemessenen Teilen der notwendigen Gemeinkosten (§ 6 Abs. 1 Nr. 3a Buchst. b EStG); künftige Vorteile mindern, soweit nicht als Forderung zu aktivieren (Buchst. c); gleichartige Verpflichtungen nach Erfahrungswerten (Buchst. a).\n3. Ansammlung in gleichen Raten (Buchst. d); Abzinsung mit 5,5 %, nicht bei Laufzeit unter zwölf Monaten, Verzinslichkeit oder Anzahlung/Vorausleistung; bei Sachleistungen bis zum Beginn der Erfüllung (Buchst. e S. 1, 2).\n4. Obergrenze: höchstens der Handelsbilanzwert (R 6.11 Abs. 3 EStR; BFH vom 20.11.2019, XI R 46/17).\n\nBeispiel: 30.000 € + 6.000 € – 10.000 € = 26.000 €; Lohnerhöhung bleibt außer Ansatz, keine Abzinsung, HB-Wert 40.000 € liegt darüber.\n\nZum Schluss: § 6 Abs. 1 Nr. 3a EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Rückstellungen in der Steuerbilanz bewerten – das Prüfschema für die Bilanzklausur.\n\n1. Stichtagsprinzip: Wertverhältnisse am Bilanzstichtag, keine künftigen Preis- und Kostensteigerungen (§ 6 Abs. 1 Nr. 3a Buchst. f EStG); handelsrechtlich dagegen notwendiger Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\n2. Kosten und Vorteile: Sachleistungsverpflichtungen mit Einzelkosten und angemessenen Teilen der notwendigen Gemeinkosten (§ 6 Abs. 1 Nr. 3a Buchst. b EStG); künftige Vorteile mindern, soweit nicht als Forderung zu aktivieren (Buchst. c); gleichartige Verpflichtungen nach Erfahrungswerten (Buchst. a).\n3. Ansammlung in gleichen Raten (Buchst. d); Abzinsung mit 5,5 %, nicht bei Laufzeit unter zwölf Monaten, Verzinslichkeit oder Anzahlung/Vorausleistung; bei Sachleistungen bis zum Beginn der Erfüllung (Buchst. e S. 1, 2).\n4. Obergrenze: höchstens der Handelsbilanzwert, außer bei Pensionsrückstellungen (R 6.11 Abs. 3 S. 1 EStR; BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195).\n\nBeispiel: 30.000 € + 6.000 € – 10.000 € = 26.000 €; Lohnerhöhung bleibt außer Ansatz, keine Abzinsung, HB-Wert 40.000 € liegt darüber.\n\nZum Schluss: § 6 Abs. 1 Nr. 3a EStG und R 6.11 Abs. 3 EStR zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -668,8 +700,8 @@
    "quellen": [
     "§ 6 Abs. 1 Nr. 3a Buchst. a bis f EStG",
     "§ 253 Abs. 1 S. 2 HGB",
-    "R 6.11 Abs. 3 EStR",
-    "BFH vom 20.11.2019, XI R 46/17"
+    "R 6.11 Abs. 3 S. 1 EStR",
+    "BFH vom 20.11.2019, XI R 46/17, BStBl II 2020, 195"
    ]
   },
   {

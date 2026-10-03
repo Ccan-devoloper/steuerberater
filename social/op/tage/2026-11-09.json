@@ -451,7 +451,7 @@
      ],
      "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
      "unter": "Klausureinstieg",
-     "teaser": "+ Markier-Guide § 15 EStG",
+     "teaser": "+ Markier-Guide § 15 + H 15.8",
      "motiv": {
       "typ": "icon",
       "name": "tabler:users-group",
@@ -479,7 +479,7 @@
        "Initiative und Risiko, für jeden einzeln"
       ]
      ],
-     "teaser": "Am Ende: § 15 EStG markiert"
+     "teaser": "Am Ende: § 15 EStG + H 15.8 markiert"
     },
     {
      "typ": "inhalt",
@@ -689,11 +689,11 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Welcher Schritt fehlt dir oft?",
-     "teaser": "Weiterwischen: § 15 EStG markiert"
+     "teaser": "Weiterwischen: § 15 + H 15.8 markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Hinweis markieren",
      "kopf": "§ 15 EStG (Auszug)",
      "absaetze": [
       [
@@ -725,7 +725,7 @@
        "(3)",
        [
         [
-         "Als Gewerbebetrieb gilt in vollem Umfang die mit Einkünfteerzielungsabsicht unternommene Tätigkeit 1. einer offenen Handelsgesellschaft, einer Kommanditgesellschaft oder einer anderen Personengesellschaft,",
+         "Als Gewerbebetrieb gilt in vollem Umfang die […] Tätigkeit 1. einer […] Personengesellschaft,",
          null
         ],
         [
@@ -754,12 +754,85 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: H 15.8 (1) EStH",
-      "Initiative und Risiko stehen in den Hinweisen"
-     ]
+      "Grundlage: BFH vom 25.06.1984, GrS 4/82",
+      "BStBl II 1984, 751"
+     ],
+     "zweite": {
+      "kopf": "H 15.8 (1) EStH (Auszug)",
+      "absaetze": [
+       [
+        "Initiative",
+        [
+         [
+          "Ausreichend ist schon die Möglichkeit zur Ausübung von Gesellschafterrechten, die wenigstens den",
+          null
+         ],
+         [
+          "Stimm-, Kontroll- und Widerspruchsrechten",
+          "b2"
+         ],
+         [
+          "angenähert sind, die einem Kommanditisten […] zustehen […]",
+          null
+         ]
+        ]
+       ],
+       [
+        "Risiko",
+        [
+         [
+          "Mitunternehmerrisiko trägt im Regelfall, wer",
+          null
+         ],
+         [
+          "am Gewinn und Verlust",
+          "g2"
+         ],
+         [
+          "des Unternehmens und",
+          null
+         ],
+         [
+          "an den stillen Reserven",
+          "r2"
+         ],
+         [
+          "[…] beteiligt ist. […] Ein Kommanditist, der nicht an den stillen Reserven […] beteiligt ist und nach dem Gesellschaftsvertrag",
+          null
+         ],
+         [
+          "nur eine übliche Verzinsung",
+          "gr2"
+         ],
+         [
+          "seiner Kommanditeinlage erhält, trägt kein Mitunternehmerrisiko […]",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Initiative",
+        "b2"
+       ],
+       [
+        "Risiko",
+        "g2"
+       ],
+       [
+        "auch Reserven",
+        "r2"
+       ],
+       [
+        "Tilda: 4 %",
+        "gr2"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Mitunternehmerschaft in 3 Schritten: der Einstieg in jeden Personengesellschaftsfall der Bilanzklausur.\n\n1. Personengesellschaft: OHG, KG oder andere Gesellschaft, z. B. GbR (§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG; § 705 BGB).\n2. Gewerbliche Einkünfte: originär (§ 15 Abs. 2 EStG), durch Abfärbung (§ 15 Abs. 3 Nr. 1 EStG) oder durch gewerbliche Prägung (§ 15 Abs. 3 Nr. 2 EStG).\n3. Mitunternehmer: Mitunternehmerinitiative und Mitunternehmerrisiko müssen beide vorliegen (H 15.8 (1) EStH; BFH vom 25.06.1984, GrS 4/82, BStBl II 1984, 751).\n\nFalle: Zivilrechtliche Gesellschafterstellung allein reicht nicht. Wer weder an Verlusten noch an stillen Reserven teilhat, ist kein Mitunternehmer.\n\nZum Schluss: § 15 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Mitunternehmerschaft in 3 Schritten: der Einstieg in jeden Personengesellschaftsfall der Bilanzklausur.\n\n1. Personengesellschaft: OHG, KG oder andere Gesellschaft, z. B. GbR (§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG; § 705 BGB).\n2. Gewerbliche Einkünfte: originär (§ 15 Abs. 2 EStG), durch Abfärbung (§ 15 Abs. 3 Nr. 1 EStG) oder durch gewerbliche Prägung (§ 15 Abs. 3 Nr. 2 EStG).\n3. Mitunternehmer: Mitunternehmerinitiative und Mitunternehmerrisiko müssen beide vorliegen (H 15.8 (1) EStH; BFH vom 25.06.1984, GrS 4/82, BStBl II 1984, 751).\n\nFalle: Zivilrechtliche Gesellschafterstellung allein reicht nicht. Wer weder an Verlusten noch an stillen Reserven teilhat, ist kein Mitunternehmer.\n\nZum Schluss: § 15 EStG und H 15.8 (1) EStH zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
