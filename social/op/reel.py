@@ -58,14 +58,23 @@ class Reel:
     def hook(self, h, t_ende):
         seg = "hook"
         zeilen = h["zeilen"]; self.T(*zeilen, h.get("pille"))
+        # Kippen: die letzte Zeile ist die Irrtums-Aussage → eigener Kasten statt Durchstreichung in der Schlagzeile
+        irrtum = zeilen[-1] if h.get("stil") == "kippen" and len(zeilen) > 1 else None
+        kz = zeilen[:-1] if irrtum else zeilen
         gs = 140
-        while max(F("ExtraBold", gs).getlength(z) for z in zeilen) + 40 > 984: gs -= 2
-        for i, z in enumerate(zeilen):
+        while max(F("ExtraBold", gs).getlength(z) for z in kz) + 40 > 984: gs -= 2
+        for i, z in enumerate(kz):
             self.zeige(titel(z, 40, 220 + i * int(gs * 1.12), C, gs, marker=PASTELL[self.k]), 0, t_ende, "cut")
-        y = 220 + len(zeilen) * int(gs * 1.12) + 10
+        y = 220 + len(kz) * int(gs * 1.12) + 10
         if h.get("pille"):
             self.zeige(pille(h["pille"], 48, y, C, fill=WEISS, size=40, pad=(24, 10)), 0, t_ende, "cut"); y += 90
         yk = y + 30
+        y_irrtum = None
+        if irrtum:
+            y_irrtum = yk
+            self.zeige(fl_block(90, yk, 900, 180, (252, 222, 216, 255), C,
+                                [("Irrtum", "Bold", 38, INK), (irrtum, "ExtraBold", k.passt(irrtum, "ExtraBold", 66, 820, 40), INK)]), 0, t_ende, "cut")
+            yk += 210
         if h.get("figur"):
             self.figur(h["figur"], 300, 470, 0, t_ende, "cut", h.get("name"))
         for i, ic in enumerate(h.get("icons", [])):
@@ -82,21 +91,27 @@ class Reel:
         elif stil == "kippen":
             # Aussage steht ab Bild 0; zum Stempelwort wird die letzte Schlagzeilenzeile rot durchgestrichen
             st = h.get("stempel") or {}
-            if st:
+            if st and not irrtum:
                 yl = 220 + (len(zeilen) - 1) * int(gs * 1.12) + int(gs * 0.55)
                 bl_ = max(F("ExtraBold", gs).getlength(z) for z in zeilen[-1:]) + 40
                 strich = Image.new("RGBA", (int(bl_) + 20, 28)); ImageDraw.Draw(strich).rounded_rectangle((0, 0, int(bl_) + 19, 27), 12, fill=(215, 60, 45, 255))
                 self.zeige(k.engine.El(strich, 30, yl, C, "slideL", 0.0, name="strich"), self.wort(seg, st["wort"]), t_ende, "slideL")
             if h.get("richtig"):
                 self.T(h["richtig"]["text"])
-                self.zeige(k.zahlblock(90, yk, 900, 230, FARBEN.get(h["richtig"].get("farbe"), "GRUEN") if isinstance(FARBEN.get(h["richtig"].get("farbe")), tuple) else GRUEN,
-                                       h["richtig"].get("label", "Richtig"), h["richtig"]["text"], zs=h["richtig"].get("zs", 72), ls=44),
-                           self.wort(seg, h["richtig"]["wort"]), t_ende, "pop")
+                r = h["richtig"]
+                fr = FARBEN.get(r.get("farbe")) if isinstance(FARBEN.get(r.get("farbe")), tuple) else GRUEN
+                self.zeige(fl_block(90, yk, 900, 180, fr, C, [(r.get("label", "Richtig"), "Bold", 38, INK),
+                                                             (r["text"], "ExtraBold", k.passt(r["text"], "ExtraBold", 66, 820, 40), INK)]),
+                           self.wort(seg, r["wort"]), t_ende, "pop")
         if h.get("stempel"):
             st = h["stempel"]; self.T(st["text"])
             t0 = self.wort(seg, st["wort"])
             if stil == "knall":
                 self.zeige(kreuz_i(540, yk + 190, C, gr=200), t0, t_ende, "slam")   # Kreuz 300 px hoch, Oberkante unter der Pille
+            elif irrtum:
+                sp = pille(st["text"], 100, 100, C, fill=ROT, size=54, stil="ExtraBold", pad=(28, 12))
+                rot = sp.sprite.rotate(10, resample=Image.BICUBIC, expand=True)
+                self.zeige(k.engine.El(rot, 1000 - rot.width + 20, y_irrtum - 44, C, "punch", 0.0, name="stempel"), t0, t_ende, "punch")
             else:
                 sw = F("Bold", 52).getlength(st["text"]) + 70
                 px = min(797 if stil == "split" else 800, 1020 - sw / 2)
@@ -262,14 +277,17 @@ class Reel:
         els.append(pille(lbl, 64, 272, C, fill=PASTELL[kk], size=k.passt(lbl, "Bold", 42, 640, 28), pad=(28, 11)))
         els.append(pille(f"Klausur {kk}", W_ - 64, 278, C, fill=WEISS, size=32, anker="r", pad=(22, 10)))
         zeilen = h["zeilen"]
+        stil, st = h.get("stil", "split"), h.get("stempel") or {}
+        # Kippen: Frage oben, Irrtum als eigener Kasten mit Stempel, darunter die Richtig-Aussage (keine Durchstreichung)
+        irrtum = zeilen[-1] if stil == "kippen" and len(zeilen) > 1 else None
+        kopf_z = zeilen[:-1] if irrtum else zeilen
         gs = 168
-        while max(F("ExtraBold", gs).getlength(z) for z in zeilen) + 40 > 952: gs -= 2
+        while max(F("ExtraBold", gs).getlength(z) for z in kopf_z) + 40 > 952: gs -= 2
         y0 = 390
-        t, y = k.schlagzeile(zeilen, y0, groesse=gs, abstand=1.12, klausur=kk, x0=64, x1=1016); els += t
+        t, y = k.schlagzeile(kopf_z, y0, groesse=gs, abstand=1.12, klausur=kk, x0=64, x1=1016); els += t
         y += 30
         if h.get("pille"):
             els.append(pille(h["pille"], 64, y, C, fill=WEISS, size=k.passt(h["pille"], "Bold", 44, 900, 30), pad=(26, 11))); y += 104
-        stil, st = h.get("stil", "split"), h.get("stempel") or {}
         if stil == "split":
             for i, b in enumerate(h["split"]):
                 els.append(fl_block(64 + i * 486, y, 466, 210, FARBEN[b.get("farbe", "WEISS")], C,
@@ -277,18 +295,22 @@ class Reel:
                                      (b["wert"], "ExtraBold", k.passt(b["wert"], "ExtraBold", 70, 420, 40), INK)]))
             y += 236
         elif stil == "kippen":
-            if st:
-                yl = y0 + (len(zeilen) - 1) * int(gs * 1.12) + int(gs * 0.55)
-                bl_ = F("ExtraBold", gs).getlength(zeilen[-1]) + 40
-                strich = Image.new("RGBA", (int(bl_) + 20, 28)); ImageDraw.Draw(strich).rounded_rectangle((0, 0, int(bl_) + 19, 27), 12, fill=(215, 60, 45, 255))
-                els.append(k.engine.El(strich, 46, yl, C, "cut", 0.0, name="strich"))
+            if irrtum:
+                els.append(fl_block(64, y, 952, 200, (252, 222, 216, 255), C,
+                                    [("Irrtum", "Bold", 40, INK), (irrtum, "ExtraBold", k.passt(irrtum, "ExtraBold", 70, 700, 40), INK)]))
+                if st:
+                    sp = pille(st["text"], 100, 100, C, fill=ROT, size=56, stil="ExtraBold", pad=(30, 12))
+                    rot = sp.sprite.rotate(10, resample=Image.BICUBIC, expand=True)
+                    els.append(k.engine.El(rot, 1016 - rot.width + 30, y - 46, C, "cut", 0.0, name="stempel"))
+                y += 228
             if h.get("richtig"):
                 r = h["richtig"]
-                els.append(k.zahlblock(64, y, 952, 230, FARBEN.get(r.get("farbe"), GRUEN) if isinstance(FARBEN.get(r.get("farbe")), tuple) else GRUEN,
-                                       r.get("label", "Richtig"), r["text"], zs=r.get("zs", 72), ls=44)); y += 256
+                fr = FARBEN.get(r.get("farbe")) if isinstance(FARBEN.get(r.get("farbe")), tuple) else GRUEN
+                els.append(fl_block(64, y, 952, 200, fr, C, [(r.get("label", "Richtig"), "Bold", 40, INK),
+                                                              (r["text"], "ExtraBold", k.passt(r["text"], "ExtraBold", 70, 880, 40), INK)])); y += 228
         elif stil == "knall":
             els.append(kreuz_i(300, y + 130, C, gr=170)); y += 280
-        if st:
+        if st and not (stil == "kippen" and irrtum):
             sw = F("Bold", 52).getlength(st["text"]) + 70
             els.append(pille(st["text"], 1016 - sw / 2, y - 10 if stil != "knall" else y - 200, C, fill=ROT, size=52, anker="m", pad=(28, 12)))
             if stil != "knall": y += 70
