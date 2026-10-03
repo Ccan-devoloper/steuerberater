@@ -167,9 +167,13 @@ class Karussell:
             self.T(d_, t, norm)
             h = 178 if norm else 120
             inhalt.append(fl_block(92, y, 896, h, FARBEN.get(farbe, WEISS), C, [(" ", "Bold", 10, INK)]))
-            inhalt.append(OT(f"{d_}   {t}", 124, y + 30, C, "ExtraBold", 48))
+            zs = k.passt(f"{d_}   {t}", "ExtraBold", 48, 896 - 64, 36)
+            assert F("ExtraBold", zs).getlength(f"{d_}   {t}") <= 896 - 64, f"{self.s['slot']}-{seite}: Zeitstrahl-Zeile zu lang: {d_} {t}"
+            inhalt.append(OT(f"{d_}   {t}", 124, y + 30 + (48 - zs) // 2, C, "ExtraBold", zs))
             if norm:
-                inhalt.append(OT(norm, 124, y + 110, C, "Bold", 34, farbe=GRAUTEXT))
+                ns = k.passt(norm, "Bold", 34, 896 - 64, 28)
+                assert F("Bold", ns).getlength(norm) <= 896 - 64, f"{self.s['slot']}-{seite}: Norm zu lang: {norm}"
+                inhalt.append(OT(norm, 124, y + 110, C, "Bold", ns, farbe=GRAUTEXT))
             y += h + 22
         kk, unten = k.karte_um(inhalt); els += kk
         if f.get("figur"):

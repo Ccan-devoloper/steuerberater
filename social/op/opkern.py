@@ -228,7 +228,7 @@ def _nummern(woerter):
         vor = woerter[i - 1][0] if i else ""
         nach = woerter[i + 1][0] if i + 1 < len(woerter) else ""
         if (mk != "__nr" and re.fullmatch(r"\d+[a-z]?\.", w_) and nach and nach.rstrip(",.") not in MONATE
-                and not re.fullmatch(r"\d.*", nach) and vor not in ("Satz", "Absatz", "Nummer", "Nr.", "Abs.", "S.", "am", "vom", "zum", "bis", "ab")):
+                and not re.fullmatch(r"\d.*", nach) and not nach.startswith(("Halbsatz", "Alternative", "Fall", "Var", "Hs")) and vor not in ("Satz", "Absatz", "Nummer", "Nr.", "Abs.", "S.", "am", "vom", "zum", "bis", "ab")):
             aus.append(("Nr.", "__nr")); aus.append((w_[:-1], "__nr"))
         else:
             aus.append((w_, mk))
