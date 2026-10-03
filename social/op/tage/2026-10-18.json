@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 1,
-   "fach": "ust",
-   "fachLabel": "AO · USt · ErbSt",
-   "themaId": "wochenrueckblick-k1-2026-42",
-   "themaTitel": "Klausur 1 kompakt: fünf Dauerbrenner der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-42",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 42",
    "figuren": {
     "A": {
      "name": "Aylin",
@@ -26,301 +26,270 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 1",
-      "kompakt"
+      "Alle 3",
+      "Klausuren"
      ],
-     "unter": "5 Dauerbrenner",
-     "teaser": "+ Markier-Guide § 3 UStG",
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide § 171 AO",
      "motiv": {
       "typ": "kalender",
       "monat": "OKTOBER",
       "tag": "18",
-      "unter": "So · Rückblick"
+      "unter": "So · Rückblick KW 42"
      },
      "figur": "A:erklaert"
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Dauerbrenner",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Ablaufhemmung",
-       "§ 171 Abs. 3, 3a AO",
-       ""
+       "Klausur 1 · AO und USt",
+       "§ 171 Abs. 3, 3a AO · § 3 Abs. 6a UStG",
+       "Ablaufhemmung und Reihengeschäft"
       ],
       [
-       "Nachlassverbindlichkeiten",
-       "§ 10 Abs. 5, 6a ErbStG",
-       ""
+       "Klausur 2 · ESt und GewSt",
+       "§§ 17, 35 EStG",
+       "GmbH-Anteile und Gewerbesteuer-Anrechnung"
       ],
       [
-       "Reihengeschäft",
-       "§ 3 Abs. 6a, 7 UStG",
-       ""
-      ],
-      [
-       "Lohnsumme",
-       "§ 13a Abs. 3 ErbStG",
-       ""
-      ],
-      [
-       "Neue Tatsachen",
-       "§§ 173, 177 AO",
-       ""
+       "Klausur 3 · Umwandlung",
+       "§ 20 Abs. 2, 3 UmwStG",
+       "Negatives Kapital und Zuzahlung"
       ]
      ],
-     "teaser": "Am Ende: § 3 Abs. 7 UStG markiert"
+     "teaser": "Am Ende: § 171 AO markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Ablaufhemmung",
+     "titel": "Klausur 1 · AO und USt",
      "punkte": [
       [
-       "Ein Änderungsantrag hemmt die Festsetzungsfrist nur, soweit er reicht.",
+       "Änderungsantrag hemmt die Festsetzungsfrist nur, soweit er reicht.",
        "warn",
        "Regular",
        "§ 171 Abs. 3 AO"
       ],
       [
-       "Ein zulässiger Einspruch hemmt den gesamten Steueranspruch.",
+       "Zulässiger Einspruch hemmt für den gesamten Steueranspruch.",
        "ok",
        "Bold",
-       "§ 171 Abs. 3a S. 2 AO"
+       "§ 171 Abs. 3a S. 1, 2 AO"
+      ],
+      [
+       "Reihengeschäft: Wer transportiert, bestimmt die bewegte Lieferung.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 6a S. 2–5 UStG"
       ]
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Nachschieben? Nur mit Einspruch."
+     "blase": "Lieber Einspruch!"
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Nachlassverbindlichkeiten",
+     "titel": "Klausur 2 · ESt und GewSt",
      "punkte": [
       [
-       "Für Bestattung und Abwicklung pauschal 15.000 €, je Erbfall.",
+       "Private GmbH-Anteile ab 1 % verkauft: gewerblich, 40 % steuerfrei.",
        "ok",
        "Regular",
-       "§ 10 Abs. 5 Nr. 3 S. 2 ErbStG"
+       "§ 17 Abs. 1 S. 1, § 3 Nr. 40 S. 1 Buchst. c EStG"
       ],
       [
-       "Schulden zu steuerbefreitem Vermögen sind nicht abzugsfähig.",
-       "nein",
+       "Gewerbesteuer-Anrechnung: vierfacher Messbetrag, höchstens die tatsächlich zu zahlende Gewerbesteuer.",
+       "warn",
        "Bold",
-       "§ 10 Abs. 6a S. 1 ErbStG"
+       "§ 35 Abs. 1 S. 1 Nr. 1, S. 5 EStG"
       ]
      ],
      "figur": "A:denkt",
      "x": 290,
-     "blase": "Familienheim-Darlehen?"
+     "blase": "Welcher Wert ist kleiner?"
     },
     {
      "typ": "inhalt",
-     "titel": "3 · Reihengeschäft",
+     "titel": "Klausur 3 · Umwandlung",
      "punkte": [
       [
-       "Wer transportiert, bestimmt die bewegte Lieferung.",
-       "ok",
-       "Regular",
-       "§ 3 Abs. 6a S. 2–5 UStG"
-      ],
-      [
-       "Nur sie kann als innergemeinschaftliche Lieferung steuerfrei sein.",
+       "Einbringung mit negativem Kapital: Ansatz mindestens 0 €, Differenz ist Gewinn.",
        "warn",
        "Bold",
-       "§ 6a UStG"
+       "§ 20 Abs. 2 S. 2 Nr. 2, Abs. 3 S. 1 UmwStG"
       ],
       [
-       "Ruhende davor: Ort am Beginn, danach: am Ende.",
+       "Zuzahlung neben den Anteilen: Grenze ist der höhere Wert aus 25 % vom Buchwert und 500.000 €, maximal der Buchwert.",
        "ok",
        "Regular",
-       "§ 3 Abs. 7 S. 2 UStG"
+       "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG"
       ]
      ],
      "figur": "A:erklaert",
      "x": 790,
-     "blase": "Transport zuerst!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Lohnsumme",
-     "punkte": [
-      [
-       "Regelverschonung: 400 % der Ausgangslohnsumme in fünf Jahren.",
-       "ok",
-       "Regular",
-       "§ 13a Abs. 3 S. 1 ErbStG"
-      ],
-      [
-       "Verfehlt? Abschlag sinkt im selben Verhältnis, nicht um Prozentpunkte.",
-       "warn",
-       "Bold",
-       "§ 13a Abs. 3 S. 5 ErbStG"
-      ]
-     ],
-     "figur": "A:skeptisch",
-     "x": 290,
-     "blase": "76,5 %, nicht 75 %."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Neue Tatsachen",
-     "punkte": [
-      [
-       "Grobes Verschulden ist unbeachtlich bei Zusammenhang mit einer steuererhöhenden Tatsache.",
-       "ok",
-       "Regular",
-       "§ 173 Abs. 1 Nr. 2 S. 2 AO"
-      ],
-      [
-       "Übrige Fehler rechnet § 177 AO gegen, soweit die Änderung reicht.",
-       "ok",
-       "Bold",
-       "§ 177 Abs. 1 AO"
-      ]
-     ],
-     "figur": "A:froh",
-     "x": 790,
-     "blase": "Nichts verschenken!"
+     "blase": "Erst rechnen!"
     },
     {
      "typ": "merke",
      "oben": [
-      "Woche 42: Klausur 1",
-      "AO, Umsatzsteuer, Erbschaftsteuer",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Antrag",
+        "Einspruch",
         "a"
        ],
        [
-        " hemmt nur soweit,",
-        null
-       ]
-      ],
-      [
-       [
-        "Pauschale",
-        "b"
-       ],
-       [
-        " je Erbfall,",
+        " hemmt ganz,",
         null
        ]
       ],
       [
        [
         "Transport",
-        "c"
+        "b"
        ],
        [
-        " entscheidet,",
+        " macht bewegt,",
         null
        ]
       ],
       [
        [
-        "Zusammenhang",
+        "Vierfacher",
+        "c"
+       ],
+       [
+        " Messbetrag,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ansatz",
         "d"
        ],
        [
-        " hilft.",
+        " nie unter null.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 1",
-     "frage": "Welcher Punkt sitzt noch nicht?",
-     "teaser": "Weiterwischen: § 3 UStG markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 171 AO markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 3 Abs. 7 UStG (Auszug)",
+     "kopf": "§ 171 AO Ablaufhemmung (Auszug)",
      "absaetze": [
       [
-       7,
+       3,
        [
         [
-         "Wird der Gegenstand der Lieferung nicht befördert oder versendet, wird die Lieferung dort ausgeführt,",
+         "Wird vor Ablauf der Festsetzungsfrist außerhalb eines Einspruchs- oder Klageverfahrens",
          null
         ],
         [
-         "wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet.",
+         "ein Antrag",
          "b1"
         ],
         [
-         "In den Fällen der Absätze 6a und 6b gilt Folgendes: 1. Lieferungen, die der Beförderungs- oder Versendungslieferung",
+         "auf Steuerfestsetzung oder auf Aufhebung oder Änderung einer Steuerfestsetzung oder ihrer Berichtigung nach § 129 gestellt, so läuft die Festsetzungsfrist",
          null
         ],
         [
-         "vorangehen,",
-         "g1"
-        ],
-        [
-         "gelten dort als ausgeführt,",
-         null
-        ],
-        [
-         "wo die Beförderung oder Versendung des Gegenstands beginnt.",
-         "g1"
-        ],
-        [
-         "2. Lieferungen, die der Beförderungs- oder Versendungslieferung",
-         null
-        ],
-        [
-         "folgen,",
+         "insoweit",
          "r1"
         ],
         [
-         "gelten dort als ausgeführt,",
+         "nicht ab, bevor über den Antrag unanfechtbar entschieden worden ist.",
+         null
+        ]
+       ]
+      ],
+      [
+       "3a",
+       [
+        [
+         "Wird ein Steuerbescheid mit einem",
          null
         ],
         [
-         "wo die Beförderung oder Versendung des Gegenstands endet.",
-         "r1"
+         "Einspruch",
+         "g1"
+        ],
+        [
+         "oder einer Klage angefochten, so läuft die Festsetzungsfrist nicht ab, bevor über den Rechtsbehelf unanfechtbar entschieden ist;",
+         null
+        ],
+        [
+         "dies gilt auch, wenn der Rechtsbehelf erst nach Ablauf der Festsetzungsfrist eingelegt wird.",
+         "g2"
+        ],
+        [
+         "Der Ablauf der Festsetzungsfrist ist",
+         null
+        ],
+        [
+         "hinsichtlich des gesamten Steueranspruchs",
+         "gr1"
+        ],
+        [
+         "gehemmt; dies gilt nicht, soweit der Rechtsbehelf unzulässig ist. […]",
+         null
         ]
        ]
       ]
      ],
      "notizen": [
       [
-       "ruhende Lieferung",
+       "Antrag",
        "b1"
       ],
       [
-       "davor: Beginn",
+       "nur soweit er reicht",
+       "r1"
+      ],
+      [
+       "Einspruch",
        "g1"
       ],
       [
-       "danach: Ende",
-       "r1"
+       "auch spät",
+       "g2"
+      ],
+      [
+       "alles offen",
+       "gr1"
       ]
      ],
      "randnotiz": [
-      "Bewegte Lieferung: § 3 Abs. 6 S. 1 UStG",
-      "Ort, wo der Transport beginnt"
+      "Nachschieben nach Fristende?",
+      "Nur im Einspruch, nicht beim Antrag"
      ]
     }
    ],
-   "caption": "Klausur 1 kompakt: fünf Dauerbrenner der Woche.\n\n1. Ablaufhemmung: Ein Antrag außerhalb von Einspruch und Klage hemmt nur, soweit er reicht (§ 171 Abs. 3 AO); ein zulässiger Einspruch hemmt hinsichtlich des gesamten Steueranspruchs (§ 171 Abs. 3a S. 2 AO).\n2. Nachlassverbindlichkeiten: 15.000 € pauschal für Bestattung und Abwicklung je Erbfall (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Schulden zu steuerbefreitem Vermögen sind nicht abzugsfähig (§ 10 Abs. 6a S. 1 ErbStG).\n3. Reihengeschäft: Der Transport bestimmt die bewegte Lieferung (§ 3 Abs. 6a UStG); nur sie kann steuerfreie innergemeinschaftliche Lieferung sein (§ 4 Nr. 1 Buchst. b, § 6a UStG); ruhende Lieferungen am Beginn oder Ende (§ 3 Abs. 7 S. 2 UStG).\n4. Lohnsumme: 400 % in fünf Jahren (§ 13a Abs. 3 S. 1 ErbStG); bei Unterschreitung sinkt der Abschlag im selben Verhältnis (§ 13a Abs. 3 S. 5 ErbStG).\n5. Neue Tatsachen: grobes Verschulden unbeachtlich bei Zusammenhang mit Tatsachen nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO); weitere materielle Fehler über § 177 Abs. 1 AO.\n\nZum Schluss: § 3 Abs. 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Wochenrückblick KW 42: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Ein Änderungsantrag außerhalb eines Rechtsbehelfsverfahrens hemmt den Ablauf der Festsetzungsfrist nur, soweit er reicht (§ 171 Abs. 3 AO). Ein zulässiger Einspruch hemmt hinsichtlich des gesamten Steueranspruchs, auch wenn er erst nach Fristende eingelegt wird (§ 171 Abs. 3a S. 1, 2 AO).\n2. Reihengeschäft: Wer transportiert, entscheidet, welche Lieferung die bewegte ist (§ 3 Abs. 6a S. 2–5 UStG); vorangehende ruhende Lieferungen gelten am Beginn, nachfolgende am Ende des Transports als ausgeführt (§ 3 Abs. 7 S. 2 UStG).\n\nKlausur 2 (Ertragsteuern)\n3. Verkauf privat gehaltener GmbH-Anteile bei einer Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre: Einkünfte aus Gewerbebetrieb, Teileinkünfteverfahren (§ 17 Abs. 1 S. 1, § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG).\n4. Gewerbesteuer-Anrechnung: das Vierfache des Messbetrags, begrenzt auf den Ermäßigungshöchstbetrag und die tatsächlich zu zahlende Gewerbesteuer (§ 35 Abs. 1 S. 1 Nr. 1, S. 2, 5 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Einbringung nach § 20 UmwStG: Buchwert nur, soweit die Passivposten die Aktivposten nicht übersteigen; bei negativem Kapital also mindestens 0 €, der Unterschied ist Einbringungsgewinn (§ 20 Abs. 2 S. 2 Nr. 2, Abs. 3 S. 1 UmwStG).\n6. Zuzahlungen neben den neuen Anteilen schaden nicht, solange ihr gemeiner Wert den höheren Betrag aus einem Viertel des Buchwerts und 500.000 € nicht übersteigt; Obergrenze ist der Buchwert selbst (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG).\n\nZum Schluss: § 171 Abs. 3, 3a AO zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#umsatzsteuer"
+    "#steuerrecht"
    ],
    "quellen": [
     "§ 171 Abs. 3, 3a AO",
-    "§ 10 Abs. 5 Nr. 3, Abs. 6a ErbStG",
-    "§ 3 Abs. 6a, 7 UStG",
-    "§ 4 Nr. 1 Buchst. b, § 6a UStG",
-    "§ 13a Abs. 3 ErbStG",
-    "§ 173 Abs. 1 Nr. 2 AO",
-    "§ 177 Abs. 1 AO"
+    "§ 3 Abs. 6a, 7 S. 2 UStG",
+    "§ 17 Abs. 1 S. 1 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. c EStG",
+    "§ 3c Abs. 2 EStG",
+    "§ 35 Abs. 1 S. 1 Nr. 1, S. 2, 5 EStG",
+    "§ 20 Abs. 2 S. 2 Nr. 2, 4, Abs. 3 S. 1 UmwStG"
    ]
   },
   {
@@ -905,7 +874,7 @@
    "art": "teaser",
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 1 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
