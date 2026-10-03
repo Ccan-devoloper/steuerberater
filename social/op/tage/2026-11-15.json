@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 2,
-   "fach": "gewst",
-   "fachLabel": "Ertragsteuern",
-   "themaId": "wochenrueckblick-k2-2026-46",
-   "themaTitel": "Tag 2 kompakt: fünf Themen der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-46",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 46",
    "figuren": {
     "A": {
      "name": "Bastian",
@@ -26,11 +26,11 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Tag 2:",
-      "Woche kompakt"
+      "Woche",
+      "kompakt"
      ],
-     "unter": "5 Themen",
-     "teaser": "+ Markier-Guide § 8 GewStG",
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide § 173 AO",
      "motiv": {
       "typ": "kalender",
       "monat": "NOVEMBER",
@@ -41,253 +41,206 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Drittstaatenverluste",
-       "§ 2a EStG",
-       ""
+       "Klausur 1 · AO und ErbSt",
+       "§ 173 AO · § 13 Abs. 1 Nr. 4c ErbStG",
+       "Neue Tatsachen, Familienheim"
       ],
       [
-       "Gesellschafterdarlehen",
-       "§ 8b Abs. 3 S. 4 KStG",
-       ""
+       "Klausur 2 · KSt und IStR",
+       "§ 8b Abs. 3 KStG · § 9 AStG",
+       "Darlehen und Freigrenze"
       ],
       [
-       "Verlustuntergang",
-       "§§ 8c, 8d KStG",
-       ""
-      ],
-      [
-       "Hinzurechnung",
-       "§§ 7 bis 9 AStG",
-       ""
-      ],
-      [
-       "Mieten in der Gewerbesteuer",
-       "§ 8 Nr. 1 GewStG",
-       ""
+       "Klausur 3 · UmwSt und PersG",
+       "§ 15 UmwStG · § 6 Abs. 5 EStG",
+       "Spaltung und Übertragung"
       ]
      ],
-     "teaser": "Am Ende: § 8 GewStG markiert"
+     "teaser": "Am Ende: § 173 AO markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Drittstaatenverluste",
+     "titel": "Klausur 1 · AO und ErbSt",
      "punkte": [
       [
-       "Verlust einer gewerblichen Betriebsstätte außerhalb der EU: nur mit Gewinnen derselben Art aus demselben Staat.",
+       "Neue Tatsache zugunsten: nur ohne grobes Verschulden, außer bei Zusammenhang mit Nr. 1.",
        "warn",
-       "Regular",
-       "§ 2a Abs. 1 S. 1 Nr. 2 EStG"
+       "Bold",
+       "§ 173 Abs. 1 Nr. 2 AO"
       ],
       [
-       "Warenherstellung ist ausgenommen, Fremdenverkehr nicht.",
+       "Kind erbt das Familienheim: frei bis 200 qm, wenn es selbst einzieht.",
        "ok",
        "Regular",
-       "§ 2a Abs. 2 S. 1 EStG"
+       "§ 13 Abs. 1 Nr. 4c S. 1 ErbStG"
       ]
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Hotel bleibt gesperrt."
+     "blase": "Beleg vergessen?"
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Gesellschafterdarlehen",
+     "titel": "Klausur 2 · KSt und IStR",
      "punkte": [
       [
-       "Über ein Viertel beteiligt: Teilwertabschreibung auf das Darlehen außerbilanziell hinzurechnen.",
+       "Darlehen an die Tochter fällt aus: Abschreibung bei mehr als 25 % Beteiligung außerbilanziell hinzurechnen.",
        "nein",
-       "Regular",
-       "§ 8b Abs. 3 S. 4 KStG"
+       "Bold",
+       "§ 8b Abs. 3 S. 3, 4 KStG"
       ],
       [
-       "Ausweg nur über den Fremdvergleich.",
+       "Rettung nur mit Fremdvergleich.",
        "ok",
-       "Bold",
+       "Regular",
        "§ 8b Abs. 3 S. 7 KStG"
-      ]
-     ],
-     "figur": "A:ernst",
-     "x": 290,
-     "blase": "Bank als Maßstab."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "3 · Verlustuntergang",
-     "punkte": [
-      [
-       "Über 50 % in fünf Jahren an einen Erwerber: Verlust weg.",
-       "nein",
-       "Regular",
-       "§ 8c Abs. 1 S. 1 KStG"
       ],
       [
-       "Stille Reserven retten anteilig.",
-       "ok",
-       "Regular",
-       "§ 8c Abs. 1 S. 5 KStG"
-      ],
-      [
-       "Antrag auf Fortführung prüfen.",
+       "Zwischeneinkünfte bis ein Drittel und 100.000 €: keine Hinzurechnung.",
        "warn",
-       "Bold",
-       "§ 8d Abs. 1 KStG"
-      ]
-     ],
-     "figur": "A:denkt",
-     "x": 790,
-     "blase": "Antrag nicht vergessen."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Hinzurechnung",
-     "punkte": [
-      [
-       "Motivtest nur für Gesellschaften in EU und EWR.",
-       "warn",
-       "Regular",
-       "§ 8 Abs. 2, 3 AStG"
-      ],
-      [
-       "Freigrenze: höchstens ein Drittel und 100.000 €, beides zugleich.",
-       "ok",
        "Regular",
        "§ 9 AStG"
       ]
      ],
-     "extra": [
-      "Neue Grenzen für Wirtschaftsjahre ab 2026",
-      "GELB",
-      "§ 21 Abs. 9 S. 1 AStG"
-     ],
-     "figur": "A:staunt",
-     "x": 290,
-     "blase": "Grenzen geändert!"
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Über ein Viertel?"
     },
     {
      "typ": "inhalt",
-     "titel": "5 · Mieten in der Gewerbesteuer",
+     "titel": "Klausur 3 · UmwSt und PersG",
      "punkte": [
       [
-       "Miete für Gebäude: die Hälfte in die Summe.",
-       "ok",
-       "Regular",
-       "§ 8 Nr. 1 Buchst. e GewStG"
-      ],
-      [
-       "Miete für bewegliche Wirtschaftsgüter: ein Fünftel.",
-       "ok",
-       "Regular",
-       "§ 8 Nr. 1 Buchst. d GewStG"
-      ],
-      [
-       "Summe über 200.000 €: davon ein Viertel hinzurechnen.",
+       "Abspaltung zum Buchwert: Teilbetrieb geht über und Teilbetrieb bleibt zurück.",
        "warn",
        "Bold",
-       "§ 8 Nr. 1 GewStG"
+       "§ 15 Abs. 1 S. 2 UmwStG"
+      ],
+      [
+       "Wirtschaftsgut gegen Gesellschaftsrechte in die KG: Buchwert.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 5 S. 3 Nr. 1 EStG"
       ]
      ],
-     "figur": "A:froh",
-     "x": 790,
-     "blase": "Erst sammeln, dann kürzen."
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Was bleibt zurück?"
     },
     {
      "typ": "merke",
      "oben": [
-      "Klausur 2: Ertragsteuern",
-      "Fünf Themen für den Anlauf 2027",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Drittstaat",
+        "Grob",
         "a"
        ],
        [
-        " bremst,",
+        " schuldhaft? Pech,",
         null
        ]
       ],
       [
        [
-        "Darlehen",
+        "200 qm",
         "b"
        ],
        [
-        " gesperrt,",
+        " für Kinder,",
         null
        ]
       ],
       [
        [
-        "Verlust",
+        "ein Viertel",
         "c"
        ],
        [
-        " geht unter,",
+        " sperrt Verluste,",
         null
        ]
       ],
       [
        [
-        "Mieten",
+        "zwei",
         "d"
        ],
        [
-        " anteilig.",
+        " Teilbetriebe.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 2",
-     "frage": "Welches Thema sitzt noch nicht?",
-     "teaser": "Weiterwischen: § 8 GewStG markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 173 AO markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 8 GewStG Hinzurechnungen (Auszug)",
+     "kopf": "§ 173 AO (Auszug)",
      "absaetze": [
       [
-       null,
+       1,
        [
         [
-         "Dem Gewinn aus Gewerbebetrieb (§ 7) werden folgende Beträge wieder hinzugerechnet,",
+         "Steuerbescheide sind aufzuheben oder zu ändern, 1. soweit Tatsachen oder Beweismittel",
          null
         ],
         [
-         "soweit sie bei der Ermittlung des Gewinns abgesetzt worden sind",
+         "nachträglich bekannt werden,",
          "b1"
         ],
         [
-         ": 1.",
+         "die zu einer",
          null
         ],
         [
-         "Ein Viertel der Summe",
-         "g1"
-        ],
-        [
-         "aus […] d)",
-         null
-        ],
-        [
-         "einem Fünftel",
-         "gr1"
-        ],
-        [
-         "der Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung von beweglichen Wirtschaftsgütern des Anlagevermögens, die im Eigentum eines anderen stehen. […] e)",
-         null
-        ],
-        [
-         "der Hälfte",
+         "höheren Steuer",
          "r1"
         ],
         [
-         "der Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung der unbeweglichen Wirtschaftsgüter des Anlagevermögens, die im Eigentum eines anderen stehen, […]",
+         "führen, 2. soweit Tatsachen oder Beweismittel nachträglich bekannt werden, die zu einer",
+         null
+        ],
+        [
+         "niedrigeren Steuer",
+         "g1"
+        ],
+        [
+         "führen und den Steuerpflichtigen",
+         null
+        ],
+        [
+         "kein grobes Verschulden",
+         "g2"
+        ],
+        [
+         "daran trifft, dass die Tatsachen oder Beweismittel erst nachträglich bekannt werden.",
+         null
+        ],
+        [
+         "Das Verschulden ist unbeachtlich,",
+         "gr1"
+        ],
+        [
+         "wenn die Tatsachen oder Beweismittel in einem",
+         null
+        ],
+        [
+         "unmittelbaren oder mittelbaren Zusammenhang",
+         "gr2"
+        ],
+        [
+         "mit Tatsachen oder Beweismitteln im Sinne der Nummer 1 stehen.",
          null
         ]
        ]
@@ -295,44 +248,51 @@
      ],
      "notizen": [
       [
-       "nur Aufwand",
+       "neu bekannt",
        "b1"
       ],
       [
-       "am Ende 1/4",
+       "immer ändern",
+       "r1"
+      ],
+      [
+       "zugunsten",
        "g1"
       ],
       [
-       "bewegliche WG",
+       "Hürde",
+       "g2"
+      ],
+      [
+       "Ausnahme",
        "gr1"
       ],
       [
-       "Gebäude",
-       "r1"
+       "Zusammenhang",
+       "gr2"
       ]
      ],
      "randnotiz": [
-      "Freibetrag: 200.000 €",
-      "erst die Summe kürzen, dann ein Viertel"
+      "Vergessener Beleg: meist nicht grob",
+      "Übergangene Formularfrage: meist grob"
      ]
     }
    ],
-   "caption": "Tag 2 kompakt: fünf Themen der Woche für die Ertragsteuer-Klausur.\n\n1. Drittstaatenverluste: Verluste einer gewerblichen Betriebsstätte im Drittstaat nur mit positiven Einkünften derselben Art aus demselben Staat (§ 2a Abs. 1 S. 1 Nr. 2 EStG); Ausnahme für Warenherstellung, nicht für Fremdenverkehr (§ 2a Abs. 2 S. 1 EStG).\n2. Gesellschafterdarlehen: Gewinnminderungen bei Beteiligung von mehr als einem Viertel nicht abziehbar (§ 8b Abs. 3 S. 4 KStG), außer Fremdvergleich (§ 8b Abs. 3 S. 7 KStG).\n3. Verlustuntergang: mehr als 50 % in fünf Jahren (§ 8c Abs. 1 S. 1 KStG), Stille-Reserven-Klausel (§ 8c Abs. 1 S. 5 KStG), Antrag nach § 8d Abs. 1 KStG.\n4. Hinzurechnungsbesteuerung: Motivtest nur für EU/EWR (§ 8 Abs. 2, 3 AStG); Freigrenze ein Drittel und 100.000 € (§ 9 AStG) für Wirtschaftsjahre, die nach dem 31.12.2025 beginnen (§ 21 Abs. 9 S. 1 AStG).\n5. Gewerbesteuer: Mieten für bewegliche Wirtschaftsgüter zu einem Fünftel, für unbewegliche zur Hälfte in die Summe; hinzugerechnet wird ein Viertel des 200.000 € übersteigenden Betrags (§ 8 Nr. 1 Buchst. d, e GewStG).\n\nZum Schluss: § 8 Nr. 1 GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Wochenrückblick KW 46: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Neue Tatsachen, die zu einer höheren Steuer führen, erlauben die Änderung stets; zugunsten nur, wenn den Steuerpflichtigen kein grobes Verschulden am nachträglichen Bekanntwerden trifft, es sei denn, sie hängen mit einer steuererhöhenden Tatsache zusammen (§ 173 Abs. 1 Nr. 1, 2 AO).\n2. Erbt ein Kind das Familienheim und nutzt es unverzüglich selbst, ist es steuerfrei, soweit die Wohnfläche 200 qm nicht übersteigt (§ 13 Abs. 1 Nr. 4c S. 1 ErbStG); zehn Jahre Selbstnutzung, sonst entfällt die Befreiung rückwirkend (§ 13 Abs. 1 Nr. 4c S. 5 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Gewinnminderungen aus einem Gesellschafterdarlehen sind nicht abziehbar, wenn der Darlehensgeber zu mehr als einem Viertel beteiligt ist oder war (§ 8b Abs. 3 S. 3, 4 KStG); Ausweg ist der Fremdvergleich (§ 8b Abs. 3 S. 7 KStG).\n4. Freigrenze der Hinzurechnungsbesteuerung: Zwischeneinkünfte bleiben außer Ansatz, wenn sie höchstens ein Drittel der Einkünfte betragen und 100.000 € nicht übersteigen (§ 9 AStG; für Wirtschaftsjahre, die nach dem 31.12.2025 beginnen, § 21 Abs. 9 S. 1 AStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Buchwert bei der Abspaltung nur, wenn ein Teilbetrieb übertragen wird und einer zurückbleibt (§ 15 Abs. 1 S. 2 UmwStG).\n6. Überträgt ein Mitunternehmer ein Wirtschaftsgut gegen Gewährung von Gesellschaftsrechten in das Gesamthandsvermögen, sind die Buchwerte fortzuführen (§ 6 Abs. 5 S. 3 Nr. 1 EStG).\n\nZum Schluss: § 173 Abs. 1 AO zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#gewerbesteuer"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 2a Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG",
-    "§ 8b Abs. 3 S. 4, 7 KStG",
-    "§ 8c Abs. 1 S. 1, 5 KStG",
-    "§ 8d Abs. 1 KStG",
-    "§ 8 Abs. 2, 3 AStG",
+    "§ 173 Abs. 1 Nr. 1, 2 AO",
+    "§ 13 Abs. 1 Nr. 4c S. 1, 5 ErbStG",
+    "§ 8b Abs. 3 S. 3, 4, 7 KStG",
     "§ 9 AStG",
     "§ 21 Abs. 9 S. 1 AStG",
-    "§ 8 Nr. 1 Buchst. d, e GewStG"
+    "§ 15 Abs. 1 S. 2 UmwStG",
+    "§ 6 Abs. 5 S. 3 Nr. 1 EStG"
    ]
   },
   {
@@ -1040,10 +1000,9 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 2,
    "beitragSlot": "b1",
    "titel": [
-    "Tag 2: Woche kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
