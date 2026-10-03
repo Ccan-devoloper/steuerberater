@@ -116,7 +116,7 @@ export function quellenIndex() {
 
 /* ---------- Prüfung ---------- */
 
-const GLIEDERUNGSNUMMER = /(?<![\d.§])\b\d{1,2}\.\d{1,2}\.\d{1,2}(?:\.\d{1,2})*\b(?!\.\d)/;
+const GLIEDERUNGSNUMMER = /(?<![\d.§])(?<!Nr\.\s)(?<!Tz\.\s)(?<!Rn\.\s)\b\d{1,2}\.\d{1,2}\.\d{1,2}(?:\.\d{1,2})*\b(?!\.\d)/;
 const GLIEDERUNGSWORT = /\b(?:Teil|Kapitel|Abschnitt|Lektion|Lerneinheit|Fachtermin|Unterrichtstag)\s+(?:[IVX]{1,5}|\d{1,2}(?:\.\d+)*)\b/;
 const HERKUNFT = /\b(?:Lehrgangsunterlage|Lehrgang|Kurzskript|Short-?Skript|Lernskript|Dozent(?:in|en)?|Referent(?:in)?|Kursleiter(?:in)?)\b/i;
 

@@ -4,7 +4,7 @@ Figuren: nur Open-Peeps-Posen, nie seitlich/oben angeschnitten. Karten sofort vo
 Geräusche nur bei Haken/Kreuz. Requisiten aus Bibliotheken: Tabler (MIT), Phosphor (MIT), Fluent Emoji (MIT),
 Pepicons (CC BY 4.0); Linien-Icons werden nur mit Palettenfarben ausgefüllt, nicht umgezeichnet.
 """
-import sys
+import re, sys
 from ostil import *
 from ostil import _icsets
 import engine
@@ -131,7 +131,7 @@ def folie(pfade, els):
 def absatz(text, x, y, breite, cue, size=38, stil="Regular", zeilenabstand=1.35, farbe=INK, d=0.0):
     """Fließtext mit Zeilenumbruch; gibt (Elemente, y_ende) zurück."""
     f = F(stil, size)
-    worte, zeilen, cur = text.split(), [], ""
+    worte, zeilen, cur = [w for w in re.split(r"[ \t\n]+", text) if w], [], ""   # geschützte Leerzeichen trennen nicht
     for w in worte:
         t = (cur + " " + w).strip()
         if f.getlength(t) <= breite:

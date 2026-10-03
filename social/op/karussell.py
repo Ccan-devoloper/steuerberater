@@ -184,7 +184,8 @@ class Karussell:
             self.T(lab, betrag)
             if farbe:
                 inhalt.append(fl_block(84, y - 24, 912, 102, FARBEN[farbe], C, [(" ", "Bold", 10, INK)]))
-            inhalt.append(OT(lab, 110, y, C, stil or "Regular", TEXT + 6))
+            bw = F("ExtraBold", TEXT + 8).getlength(betrag)
+            inhalt.append(OT(lab, 110, y, C, stil or "Regular", k.passt(lab, stil or "Regular", TEXT + 6, 970 - bw - 150, 30)))
             inhalt.append(OT(betrag, 970, y, C, "ExtraBold", TEXT + 8, anker="r"))
             y += 142 if len(f["zeilen"]) <= 6 else 118
         ex = f.get("extra")
