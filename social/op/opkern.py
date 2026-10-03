@@ -215,6 +215,13 @@ def gesetzesseite(x, y, w, kopf, absaetze_, size=34):
         for txt, mk in teile:
             for w_ in txt.split(" "):
                 if w_: woerter.append((w_, mk))
+        verbunden = []
+        for w_, mk in woerter:                      # Satzzeichen am Segmentanfang ohne Leerzeichen anhängen
+            if verbunden and w_[:1] in ",;.:)" :
+                verbunden[-1] = (verbunden[-1][0] + w_, verbunden[-1][1])
+            else:
+                verbunden.append((w_, mk))
+        woerter = verbunden
         if nr: woerter.insert(0, ((f"({nr})" if isinstance(nr, int) else str(nr)), "__nr"))
         cur, cw = [], 0
         for w_, mk in woerter:
