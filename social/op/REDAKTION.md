@@ -43,7 +43,7 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
    Erlass markieren“ nach der Gesetzes-Folie. Nur wenn sonst mehr als 10 Folien entstünden, stehen Gesetz und
    Verwaltungsanweisung auf derselben Folie (`zweite` in der gesetz-Folie, Titel „Gesetz und Richtlinie/Erlass
    markieren“). Entscheidet die Verwaltungsanweisung die Frage allein, genügt ihre Folie. Wortlaut nur aus
-   amtlicher Quelle bzw. Haufe/NWB-Volltext, Auslassungen „[…]“, Satznummern als „S. 1“. Hinweiskasten für
+   amtlicher Quelle (BMF-Handbücher esth/lsth/gewsth…, bei Bot-Schutz per Headless-Chromium über den Proxy) bzw. Haufe/NWB-Volltext, Auslassungen „[…]“, Satznummern als „S. 1“. Hinweiskasten für
    BFH-Abweichungen. Hinweis: In der schriftlichen Prüfung sind Textausgaben mit
    Markierungen zulässig, Anmerkungen nicht; in der mündlichen Prüfung keine Richtlinien und Erlasse.
 9. Keine Fläche leer, nichts überladen. Figuren nur mit Funktion; die Merke-Folie kommt ohne Figur aus.
