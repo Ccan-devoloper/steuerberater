@@ -1,0 +1,25 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-0",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Bilanzfall:",
+    "die Reihenfolge",
+    "Ansatz: Wem gehört es, ist es Betriebsvermögen?",
+    "Bewertung: Maßstab, Kosten, Fortführung, Stichtag",
+    "Zum Schluss: Posten, Buchung, Gewinnauswirkung"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

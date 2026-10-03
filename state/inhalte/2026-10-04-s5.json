@@ -1,0 +1,27 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-0",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "A: alle fünf",
+    "Merkmale",
+    "Leistung, Unternehmer, Inland, Entgelt, Rahmen des Unternehmens",
+    "Lieferung mit Gewinnabsicht",
+    "Jede private Leistung",
+    "Fehlt eines, ist der Umsatz nicht steuerbar.",
+    "§ 1 Abs. 1 Nr. 1 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

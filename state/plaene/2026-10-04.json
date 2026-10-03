@@ -1,0 +1,102 @@
+{
+  "datum": "2026-10-04",
+  "erzeugt": "2026-10-03T22:25:40.553Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "wochenrueckblick",
+      "themaId": "wochenrueckblick-alle-2026-40",
+      "themaTitel": "Alle Klausuren kompakt: sechs Dauerbrenner vor dem Examen",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "spickzettel",
+      "themaId": "bilanz-aufb-bil-melzer-10-02",
+      "themaTitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "ao-aufb-ao-jacobs-12-1",
+      "themaTitel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-0",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-0",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "est-aufb-est-ks1-gew-01",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "countdown",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "bilanz-karte-k3-0",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "ao-aufb-ao-jacobs-13-5",
+      "status": "geplant"
+    }
+  ]
+}

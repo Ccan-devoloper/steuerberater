@@ -1,0 +1,66 @@
+{
+  "format": "spickzettel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-10-02",
+  "caption": "Verbindlichkeiten bewerten – der Spickzettel für die Bilanzklausur.\n\nHandelsbilanz: Erfüllungsbetrag (§ 253 Abs. 1 S. 2 HGB).\nSteuerbilanz: Rückzahlungsbetrag; Bewertung unter sinngemäßer Anwendung von Nr. 2 (§ 6 Abs. 1 Nr. 3 EStG).\nAbzinsung mit 5,5 % entfällt für Wirtschaftsjahre, die nach dem 31.12.2022 enden, auf Antrag auch für frühere (§ 52 Abs. 12 S. 2, 3 EStG).\nDisagio: in der Handelsbilanz Wahlrecht (§ 250 Abs. 3 HGB), steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), über die Laufzeit aufzulösen.\nHöherer Teilwert nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG).\n\nZum Schluss: §§ 5, 6 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 253 Abs. 1 S. 2 HGB",
+    "§ 250 Abs. 3 HGB",
+    "§ 6 Abs. 1 Nr. 3 EStG",
+    "§ 52 Abs. 12 S. 2, 3 EStG",
+    "§ 5 Abs. 5 EStG"
+  ],
+  "slug": "2026-10-04-b2",
+  "kurztitel": "Verbindlichkeiten bewerten: Rückzahlungsbetrag statt Barwert?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Verbindlichkeiten · bewerten · § 6 Abs. 1 Nr. 3 EStG · auf einer Karte · + Markier-Guide §§ 5, 6 EStG · Darlehen · 50.000 € · Ansatz?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die Karte · Handelsbilanz · § 253 Abs. 1 S. 2 HGB · Erfüllungsbetrag · Steuerbilanz · § 6 Abs. 1 Nr. 3 EStG · Rückzahlungsbetrag, keine Abzinsung · Disagio · § 5 Abs. 5 S. 1 Nr. 1 EStG · steuerlich aktiv abgrenzen · Teilwert · § 6 Abs. 1 Nr. 3 i. V. m. Nr. 2 S. 2 EStG · höher nur bei dauernder Erhöhung · Am Ende: §§ 5, 6 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Abzinsung ist Geschichte · Früher wurden unverzinsliche Schulden steuerlich mit 5,5 % abgezinst. · § 6 Abs. 1 Nr. 3 EStG a. F. · Heute: Rückzahlungsbetrag ansetzen, für Wirtschaftsjahre, die nach dem 31.12.2022 enden. · § 52 Abs. 12 S. 2 EStG · Auf Antrag auch für frühere Jahre. · § 52 Abs. 12 S. 3 EStG · Alte Lösung?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Disagio: HGB oder Steuer? · Handelsbilanz · Aktiver Posten möglich: Wahlrecht · § 250 Abs. 3 HGB · Schuld mit dem Erfüllungsbetrag · Steuerbilanz · Aktiver Posten Pflicht · § 5 Abs. 5 S. 1 Nr. 1 EStG · Über die Laufzeit auflösen · Wahlrecht oder Pflicht?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Beispiel: Auszahlung 48.000 €, Rückzahlung 50.000 € · Schuld 50.000 €, aktiver Posten 2.000 € · Rückzahlungsbetrag ansetzen, · Disagio aktiv abgrenzen, · Teilwert nur bei Dauer. · Speichern für Klausur 3 · Hast du noch alte Abzinsung im Kopf? · Weiterwischen: §§ 5, 6 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§§ 5, 6 EStG (Auszug) · hier landet das Disagio · Wahlrecht · 800 € (GWG-Grenze) · Teilwert-Regeln gelten mit · § 5 Abs. 5 S. 2 EStG · Bis 800 €: Abgrenzung darf unterbleiben, einheitlich"
+    }
+  ]
+}

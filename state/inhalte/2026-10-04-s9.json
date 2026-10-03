@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-13-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Haftet der",
+    "Geschäftsführer?",
+    "Nur bei Vorsatz",
+    "oder grober",
+    "Fahrlässigkeit.",
+    "§ 69 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
