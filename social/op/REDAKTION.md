@@ -15,10 +15,15 @@ prüft jeden gerenderten Tag mit `pruefeBeitrag`; ein Befund verhindert das Able
    Steuererlassen: „BMF vom 02.09.2016, Rn. 33 (Beck-Erlass 1 § 6/12)“. Die Beck-Nummer wird nur angegeben,
    wenn sie belegt ist; sonst Datum und Rn.
 4. Gesetze mit Abs., S., Nr., Buchst.; GG und EU-Recht mit Art.
-5. **Klausurkonvention zuerst:** Gelöst wird so, wie die Klausur es erwartet, also nach Auffassung der
-   Finanzverwaltung (Richtlinien, Anwendungserlasse, BMF-Schreiben, im BStBl II veröffentlichte BFH-Urteile).
-   Abweichende BFH-Rechtsprechung, Nichtanwendungserlasse und überholte Richtlinienstellen werden zusätzlich
-   genannt („BFH vom …, Az.; R … insoweit überholt“), wo sie den Unterschied ausmachen.
+5. **Klausurkonvention zuerst:** Die Klausur wird aus Sicht der Finanzverwaltung gelöst. Klausurlösung ist
+   deshalb die Verwaltungsauffassung: Gesetz, Richtlinien und Hinweise, Anwendungserlasse, BMF-Schreiben und
+   BFH-Urteile, die im BStBl II veröffentlicht und nicht mit einem Nichtanwendungserlass belegt sind.
+   Ein BFH-Urteil ist NICHT automatisch Klausurlösung: nur in BFH/NV oder online veröffentlichte Urteile,
+   Urteile mit Nichtanwendungserlass und noch nicht übernommene Urteile erscheinen nur als Zusatzhinweis
+   („BFH vom …, Az. – Verwaltung folgt nicht“ bzw. „noch nicht im BStBl“). Weicht ein im BStBl II
+   veröffentlichtes Urteil von einer Richtlinie ab, ist das Urteil Klausurlösung; mit Fundstelle angeben
+   („BFH vom …, Az., BStBl II Jahr, Seite; R … insoweit überholt“), damit erkennbar ist, dass die Verwaltung
+   es anwendet. Unterschiede zwischen Verwaltung und BFH werden immer mit aufgenommen, wo sie klausurrelevant sind.
 
 ## Karussell (1080×1350)
 1. Variante C: Creme, Rahmen in der Klausurfarbe (K1 blau, K2 orange, K3 grün, fachübergreifend lila), Nunito.
