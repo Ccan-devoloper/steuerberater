@@ -36,7 +36,7 @@ jacket. Bärte: Chin, Full, Full 2–4, Goatee 1–2, Moustache 1–9. Brillen: 
 Kleidung nie in der Rahmenfarbe der Klausur. Die Büsten Tee 2 und Turtleneck ignorieren `oberteil` (immer schwarz); Striped Pocket Tee ist für das Cover zu breit. Haut realistisch und divers.
 
 ## Karussell: `"folien": [ … ]`
-Erste Folie `cover`, dann Inhalt, vorletzte meist `merke`, letzte `gesetz`. 7–11 Folien. Farbnamen:
+Erste Folie `cover`, dann Inhalt, vorletzte meist `merke`, letzte `gesetz`. 7–10 Folien (die Instagram-API veröffentlicht höchstens 10; der Renderer bricht bei mehr ab). Farbnamen:
 WEISS, GELB, GRUEN, ROT, BLAU, LILA, TUERKIS, ORANGE, PINK, HELL.
 
 | typ | Felder |

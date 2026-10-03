@@ -6,6 +6,7 @@ from opkern import (C, F, OT, titel, pille, absatz, fl_block, karte, ficon, icon
                     X0, X1)
 
 MAX_WORTE = 40
+MAX_FOLIEN = 10   # Grenze der Instagram-Graph-API für Karussells (die App erlaubt 20, die API nur 10)
 
 
 class Karussell:
@@ -288,6 +289,8 @@ class Karussell:
     def rendern(self):
         k.KARUSSELL.aktiv()
         os.makedirs(self.out, exist_ok=True)
+        n = len(self.s["folien"])
+        assert n <= MAX_FOLIEN, f"{self.s['slot']}: {n} Folien (> {MAX_FOLIEN}, die API veröffentlicht nur die ersten {MAX_FOLIEN})"
         for i, f in enumerate(self.s["folien"], 1):
             getattr(self, f["typ"])(f, i)
         return self.dateien

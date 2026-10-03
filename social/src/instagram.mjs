@@ -278,6 +278,7 @@ export class Instagram {
       return this.veroeffentlichenSicher(c.id, caption);
     }
     const kinder = [];
+    if (bildUrls.length > 10) console.warn(`  ! Carousel mit ${bildUrls.length} Bildern: die API nimmt nur 10, Bild 11 ff. fehlen im Beitrag`);
     for (const url of bildUrls.slice(0, 10)) {
       const c = await this.anfrage("POST", `${this.kontoId}/media`, { image_url: url, is_carousel_item: "true" });
       kinder.push(c.id);
