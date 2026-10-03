@@ -4,202 +4,387 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "07:30",
+        "zeit": "06:30",
         "format": "anlass",
         "themaId": null,
-        "themaTitel": null,
-        "fach": "mindset",
-        "klausur": 0
+        "themaTitel": "Heute ist Tag 1: ruhig starten",
+        "fach": null,
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "18:30",
+        "format": "anlass",
+        "themaId": null,
+        "themaTitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
+        "fach": null,
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:30",
+        "format": "reel",
+        "themaId": null,
+        "themaTitel": "Tag 2: drei Dauerbrenner für morgen",
+        "fach": "est",
+        "klausur": 2
       }
     ],
     "stories": [
       {
         "slot": "s1",
-        "zeit": "07:30",
+        "zeit": "06:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s4",
+        "zeit": "06:45",
+        "art": "anlass"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "anlass"
       },
       {
         "slot": "s2",
-        "zeit": "07:45",
-        "art": "merksatz",
-        "status": "pruefungsphase"
+        "zeit": "18:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
       },
       {
         "slot": "s3",
-        "zeit": "18:30",
-        "art": "merksatz",
-        "status": "pruefungsphase"
+        "zeit": "19:30",
+        "art": "teaser",
+        "beitragSlot": "b3"
       }
     ]
   },
   "inhalte": {
     "b1": {
       "format": "anlass",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
+      "fach": null,
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
       "themaId": null,
-      "pruefungsphase": true,
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Tag 1: Ruhe schlägt Perfektion",
-          "coverBadge": "Klausurtag 1",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Für heute",
-          "text": "Heute: Verfahrensrecht und andere Steuerrechtsgebiete, meist AO, Umsatzsteuer und Erbschaftsteuer. Du musst nicht alles wissen – du musst sammeln, was du kannst.",
-          "punkte": [
-            "Sachverhalt zweimal lesen, die Fragen markieren",
-            "Zeit pro Teil vorher einteilen und dich daran halten",
-            "Jede Aussage kurz mit der Norm begründen – auch Teilschritte bringen Punkte"
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Seneca",
-          "text": "„Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.“"
-        },
-        {
-          "art": "cta",
-          "titel": "Du schaffst das",
-          "punkte": [
-            "Schick das deiner Lerngruppe",
-            "Tief durchatmen",
-            "Heute Abend: abschalten"
-          ],
-          "icons": [
-            "haken",
-            "uhr",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "Klausurtag 1. Kein neuer Stoff mehr – nur Ruhe, Technik und ein klarer Kopf. Wir denken an dich!",
+      "caption": "Heute ist Tag 1 der schriftlichen Steuerberaterprüfung: Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung.\n\n▸ Vor dem Start: frühstücken, früh da sein, Gesetze griffbereit, dreimal ruhig atmen.\n▸ Die ersten 15 Minuten: alles überfliegen, Punkte notieren, Zeit je Teil daneben schreiben, mit Sicherem beginnen.\n▸ Tipp für heute: In der Umsatzsteuer jeden Umsatz einzeln prüfen, auch den nicht steuerbaren, und jedes Ergebnis kurz mit Norm begründen.\n\nViel Erfolg! Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#kopfsache"
+        "#prüfungstag"
       ],
-      "kurztitel": "Tag 1: Ruhe schlägt Perfektion",
-      "coverBadge": "Klausurtag 1",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "Examenskalender"
-      ],
+      "quellen": [],
       "slug": "2026-10-06-b1",
+      "kurztitel": "Heute ist Tag 1: ruhig starten",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungstag 1",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungstag 1",
+          "text": "Prüfungstag 1 · Heute · ist Tag 1 · Ruhig starten · + 1 Tipp für heute · OKTOBER · 6 · Di · Tag 1",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Vor dem Start · Frühstücken, auch wenn der Magen flattert. · Früh da sein, Platz einrichten, Gesetze griffbereit legen. · Drei ruhige Atemzüge, bevor du die Aufgabe aufschlägst. · Erst atmen."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Die ersten 15 Minuten · Alles überfliegen: Was steht in AO, Umsatzsteuer, Erbschaftsteuer? · Punkte je Teil notieren, Zeit daneben schreiben. · Mit dem Sicheren starten: Die ersten Punkte geben Ruhe. · Erst der Überblick."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Dein Tipp für heute · Umsatzsteuer: jeden Umsatz einzeln prüfen, auch nicht steuerbare. · Jedes Ergebnis kurz mit Norm begründen. · AO und Erbschaftsteuer: erst die Antwort, dann die Begründung. · Ergebnis + Norm = Punkte · Mit Norm!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Tag 1: AO · Umsatzsteuer · Erbschaftsteuer und Bewertung · Wir drücken dir die Daumen! · Überfliegen zuerst, · Sicheres vorne, · jedes Ergebnis · mit Norm. · Speichern für Klausur 1 · Was ist dein Ritual vor dem Start?"
+        }
+      ]
     },
     "s2": {
       "slot": "s2",
-      "art": "merksatz",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Zitat",
-      "titel": "Seneca",
-      "text": "„Nicht weil es schwer ist, wagen wir es nicht, sondern weil wir es nicht wagen, ist es schwer.“",
-      "pruefungsphase": true,
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "art": "teaser",
+      "fach": null,
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Tag 1 geschafft!",
+        "Spickzettel Tag 2 · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
-      "art": "merksatz",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Tipp",
-      "titel": "Nach Tag 1",
-      "text": "Hängst du fest? Den Lösungsweg kurz notieren und weitermachen. Folgerichtiges Weiterarbeiten bringt trotzdem Punkte.",
-      "pruefungsphase": true,
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "art": "teaser",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Ertragsteuern",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "sichtbareTexte": [
+        "Ertragsteuern",
+        "Neu im Feed",
+        "Drei für morgen",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Tag 1: Ruhe schlägt Perfektion",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fach": null,
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Heute ist Tag 1",
+        "Ruhig starten + Tipp · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "b2": {
+      "format": "anlass",
+      "fach": null,
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "caption": "Tag 1 geschafft! Jetzt kurz durchatmen und dann drei Dauerbrenner für Tag 2 (Ertragsteuern) wiederholen.\n\n1. Dividende an eine GmbH: bleibt außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG); bei weniger als 10 % Beteiligung zu Beginn des Kalenderjahres voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n2. Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. d EStG), zugehörige Kosten zu 60 % abziehbar (§ 3c Abs. 2 S. 1 EStG); ebenso beim Veräußerungsgewinn (§ 3 Nr. 40 S. 1 Buchst. a EStG).\n3. Gewerbesteuer: Zinsen voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Lizenzen zu einem Viertel; von der Summe 200.000 € abziehen, ein Viertel des Rests hinzurechnen (§ 8 Nr. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ],
+      "quellen": [
+        "§ 8b Abs. 1, 4, 5 KStG",
+        "§ 3 Nr. 40 S. 1 Buchst. a, d EStG",
+        "§ 3c Abs. 2 S. 1 EStG",
+        "§ 8 Nr. 1 GewStG"
+      ],
+      "slug": "2026-10-06-b2",
+      "kurztitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Tag 1 geschafft",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Tag 1 geschafft",
+          "text": "Tag 1 geschafft · Tag 1 · geschafft! · Spickzettel Tag 2 · + 3 Dauerbrenner · OKTOBER · 7 · Mi · Tag 2",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Erst mal: stark! · Sechs Stunden durchgezogen. Das zählt. · Lösungen nicht im Kopf nachrechnen: Tag 1 ist abgegeben. · Essen, raus, lüften. Dann eine halbe Stunde Spickzettel. · Haken dran!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Morgen: 3 Dauerbrenner · Dividende an die GmbH · § 8b Abs. 1, 5 KStG · steuerfrei, aber 5 % nicht abziehbar · Dividende im Einzelbetrieb · § 3 Nr. 40, § 3c Abs. 2 EStG · 60 % steuerpflichtig, Kosten zu 60 % · Finanzierungsanteile · § 8 Nr. 1 GewStG · über 200.000 € ein Viertel dazu · Weiterwischen: alle drei im Detail"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "1 · Dividende an die GmbH · Gewinnausschüttungen bleiben beim Einkommen der GmbH außer Ansatz. · § 8b Abs. 1 S. 1 KStG · 5 % davon gelten als nicht abziehbare Betriebsausgaben. · § 8b Abs. 5 S. 1 KStG · Unter 10 % zu Beginn des Kalenderjahres: voll steuerpflichtig. · § 8b Abs. 4 S. 1 KStG · Stichtag beachten!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "2 · Teileinkünfte · Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei. · § 3 Nr. 40 S. 1 Buchst. d EStG · Zugehörige Kosten nur zu 60 % abziehbar. · § 3c Abs. 2 S. 1 EStG · Gilt auch für den Gewinn aus dem Verkauf solcher Anteile. · § 3 Nr. 40 S. 1 Buchst. a EStG · 60 zu 60."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "3 · Finanzierungsanteile · Zinsen voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Lizenzen zu einem Viertel. · § 8 Nr. 1 Buchst. a, d, e, f GewStG · Summe minus 200.000 €, vom Rest ein Viertel hinzurechnen. · § 8 Nr. 1 GewStG · Erst gewichten, dann Freibetrag · Erst gewichten?"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Zinsen 180.000 €, Ladenmiete 100.000 € · (180.000 + 50.000 − 200.000) × ¼ = 7.500 € · GmbH: 95 % frei, · Einzelbetrieb: 40 % frei, · Gewerbesteuer: ein · Viertel über 200.000. · Speichern für Klausur 2 · Was sitzt noch nicht?"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Ertragsteuern",
+      "themaId": null,
+      "caption": "Tag 2 der Steuerberaterprüfung: drei Dauerbrenner für morgen.\n\n▸ Dividende an eine GmbH bleibt außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); bei weniger als 10 % Beteiligung zu Beginn des Kalenderjahres voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n▸ Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei, Kosten zu 60 % abziehbar (§ 3 Nr. 40 S. 1 Buchst. d, § 3c Abs. 2 S. 1 EStG).\n▸ Gewerbesteuer: Summe der Finanzierungsanteile minus 200.000 €, davon ein Viertel hinzurechnen (§ 8 Nr. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#ertragsteuern"
+      ],
+      "quellen": [
+        "§ 8b Abs. 1, 4, 5 KStG",
+        "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+        "§ 3c Abs. 2 S. 1 EStG",
+        "§ 8 Nr. 1 GewStG"
+      ],
+      "slug": "2026-10-06-b3",
+      "kurztitel": "Tag 2: drei Dauerbrenner für morgen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Morgen: Tag 2"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Haken"
+        },
+        {
+          "art": "schritt",
+          "titel": "Gewerbesteuer"
+        }
+      ],
+      "sprecher": [
+        "Morgen ist Tag zwei. Dividende im Betrieb: GmbH fünfundneunzig Prozent frei, Einzelunternehmer vierzig.",
+        "GmbH nur ab zehn Prozent Beteiligung. Beim Einzelunternehmer Kosten nur zu sechzig Prozent.",
+        "Gewerbesteuer: Finanzierungsanteile minus zweihunderttausend, davon ein Viertel.",
+        "Jetzt schlafen. Morgen holst du die Punkte."
+      ],
+      "dauerS": 26.071,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "anlass",
+      "fach": null,
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Heute",
+        "Viel Erfolg",
+        "an Tag 1!",
+        "AO, Umsatzsteuer, Erbschaftsteuer: Du hast dafür gearbeitet.",
+        "Erst überfliegen",
+        "Sicheres zuerst"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "anlass",
+      "fach": null,
+      "klausur": 1,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Halbzeit",
+        "Halbzeit.",
+        "Durchatmen.",
+        "Schultern locker, einen Schluck trinken, dann der nächste Teil.",
+        "Abgehakt ist abgehakt."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T11:48:16.215Z",
+    "erzeugtAm": "2026-10-03T04:21:22Z",
     "pfad": "vorproduktion/2026-10-06/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -211,5 +396,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
