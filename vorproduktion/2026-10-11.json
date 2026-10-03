@@ -107,7 +107,7 @@
       "klausur": 3,
       "fachLabel": "Bilanzsteuerrecht",
       "themaId": null,
-      "caption": "Klausur 3 kompakt: fünf Themen der Woche für Buchführung und Bilanzwesen.\n\n1. Verbindlichkeiten: Ansatz mit dem Rückzahlungsbetrag (§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH); keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG).\n2. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen zwingend (§ 253 Abs. 4 HGB), steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG).\n3. Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Tilgungsdarlehen degressiv nach der Zinsstaffel, beim Fälligkeitsdarlehen linear aufzulösen.\n4. Sonderbetriebsvermögen I und II (R 4.2 Abs. 2 EStR); bei der Einbringung eines Mitunternehmeranteils muss funktional wesentliches Sonderbetriebsvermögen mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06).\n5. Wirtschaftliches Eigentum: Zurechnung beim Eigentümer, abweichend bei dem, der ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt (§ 39 Abs. 1, 2 Nr. 1 S. 1 AO).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+      "caption": "Klausur 3 kompakt: fünf Themen der Woche für Buchführung und Bilanzwesen.\n\n1. Verbindlichkeiten: Ansatz mit dem Rückzahlungsbetrag (§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH); keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG).\n2. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen zwingend (§ 253 Abs. 4 HGB), steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG).\n3. Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Tilgungsdarlehen degressiv nach der Zinsstaffel, beim Fälligkeitsdarlehen linear aufzulösen.\n4. Sonderbetriebsvermögen I und II (R 4.2 Abs. 2 EStR); bei der Einbringung eines Mitunternehmeranteils muss funktional wesentliches Sonderbetriebsvermögen mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06, 20.10).\n5. Wirtschaftliches Eigentum: Zurechnung beim Eigentümer, abweichend bei dem, der ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt (§ 39 Abs. 1, 2 Nr. 1 S. 1 AO).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -121,7 +121,7 @@
         "§ 253 Abs. 4 HGB",
         "§ 5 Abs. 1 S. 1, Abs. 5 S. 1 Nr. 1 EStG",
         "R 4.2 Abs. 2 EStR",
-        "UmwStE vom 02.01.2025, Rn. 20.06",
+        "UmwStE vom 02.01.2025, Rn. 20.06, 20.10",
         "§ 39 Abs. 1, 2 Nr. 1 AO"
       ],
       "slug": "2026-10-11-b1",
@@ -166,7 +166,7 @@
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "4 · Sonderbetriebsvermögen · SBV I dient dem Betrieb der Gesellschaft, SBV II der Beteiligung. · R 4.2 Abs. 2 EStR · Bei der Einbringung nach § 20 UmwStG muss wesentliches SBV mit. · UmwStE vom 02.01.2025, Rn. 20.06 · SBV gehört dazu!"
+          "text": "4 · Sonderbetriebsvermögen · SBV I dient dem Betrieb der Gesellschaft, SBV II der Beteiligung. · R 4.2 Abs. 2 EStR · Bei der Einbringung nach § 20 UmwStG muss wesentliches SBV mit. · UmwStE vom 02.01.2025, Rn. 20.06, 20.10 · SBV gehört dazu!"
         },
         {
           "art": "text",
@@ -181,7 +181,7 @@
         {
           "art": "text",
           "titel": "Bilanzsteuerrecht",
-          "text": "Grundsatz · Herrschaft · Dauer! · Folge · Leasing, Treuhand, Sicherungseigentum · Zurechnung vor Ansatz und Bewertung"
+          "text": "§ 39 AO Zurechnung (Auszug) · Grundsatz · Herrschaft · Dauer! · Folge · Leasing, Treuhand, Sicherungseigentum · Zurechnung vor Ansatz und Bewertung"
         }
       ]
     },
@@ -251,7 +251,7 @@
         {
           "art": "text",
           "titel": "Erbschaftsteuer",
-          "text": "einer reicht · weltweit · Katalog! · Dazu § 21 ErbStG · Anrechnung ausländischer Erbschaftsteuer"
+          "text": "§ 2 ErbStG Persönliche Steuerpflicht (Auszug) · einer reicht · weltweit · Katalog! · Dazu § 21 ErbStG · Anrechnung ausländischer Erbschaftsteuer"
         }
       ]
     },
@@ -545,7 +545,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T04:29:42Z",
+    "erzeugtAm": "2026-10-03T10:49:45Z",
     "pfad": "vorproduktion/2026-10-11/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
