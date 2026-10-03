@@ -4,20 +4,15 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
@@ -25,17 +20,17 @@
         "slot": "b1",
         "zeit": "08:30",
         "format": "spickzettel",
-        "themaId": "kst-aufb-kst-ks-5-08",
-        "themaTitel": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?",
-        "fach": "kst",
+        "themaId": "istr-aufb-istr-gh-4-11",
+        "themaTitel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
+        "fach": "istr",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "persg-aufb-persg-melzer-4-5",
-        "themaTitel": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
+        "themaId": "persg-aufb-persg-melzer-1-6",
+        "themaTitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
         "fach": "persg",
         "klausur": 3
       },
@@ -43,383 +38,267 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "ao-modul-ao-342",
-        "themaTitel": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
-        "fach": "ao",
-        "klausur": 1,
-        "lang": false
+        "themaId": "erbst-aufb-erbst-v-3",
+        "themaTitel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+        "fach": "erbst",
+        "klausur": 1
       }
     ],
     "stories": [
       {
         "slot": "s4",
-        "zeit": "07:17",
+        "zeit": "07:07",
         "art": "frage",
-        "themaId": "ust-quiz-ust-3"
+        "themaId": "ust-quiz-ust-15"
       },
       {
         "slot": "s5",
-        "zeit": "07:17",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "ust-quiz-ust-3"
+        "themaId": "ust-quiz-ust-15"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
         "zeit": "12:14",
         "art": "norm",
-        "themaId": "erbst-modul-erbst-507"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:33",
-        "art": "merksatz",
-        "themaId": "erbst-aufb-erbst-v-3"
+        "themaId": "istr-aufb-istr-gh-4-14"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "17:01",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "erbst-modul-erbst-532"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:05",
-        "art": "fehler",
-        "themaId": "erbst-aufb-erbst-bew1-8"
+        "themaId": "bilanz-karte-k3-14"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-301"
       }
     ]
   },
   "inhalte": {
     "b1": {
       "format": "spickzettel",
-      "fach": "kst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-aufb-kst-ks-5-08",
-      "slug": "2026-10-22-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Die vGA fließt dem gemeinsamen Gesellschafter zu und ist bei ihm als Bezug nach § 20 Abs. 1 Nr. 1 Satz 2 EStG bzw. bei einer Körperschaft nach § 8b Abs. 1 KStG zu erfassen.",
-            "Ist der Vorteil ein einlagefähiges Wirtschaftsgut, folgt gedanklich eine verdeckte Einlage in die begünstigte Schwester, die dort das Einlagekonto und beim Gesellschafter den Ansatz dieser Beteiligung erhöht."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Bei der leistenden Gesellschaft die vGA nach § 8 Abs. 3 Satz 2 KStG mit dem Fremdvergleichswert hinzurechnen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Zufluss beim gemeinsamen Gesellschafter aufnehmen und nach Rechtsform und Vermögenssphäre besteuern."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Ist der Vorteil ein einlagefähiges Wirtschaftsgut, legt der Gesellschafter ihn verdeckt in die Schwester ein; Beteiligungsansatz und Einlagekonto steigen. Ist er bloß ein Nutzungsvorteil, gilt er beim Gesellschafter als verbraucht: keine Einlage, keine nachträglichen Anschaffungskosten."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "vGA an die Schwester-GmbH: Der Vorteil läuft steuerlich über den gemeinsamen Gesellschafter. Ob danach eine verdeckte Einlage folgt oder der Vorteil verbraucht ist, entscheidet die Einlagefähigkeit.",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-11",
+      "caption": "Betriebsstätte: AO oder DBA? Der Spickzettel für die Ertragsteuer-Klausur.\n\n▸ Betriebsstätte nach nationalem Recht ist jede feste Geschäftseinrichtung oder Anlage, die der Tätigkeit eines Unternehmens dient (§ 12 S. 1 AO); Bauausführungen und Montagen zählen, wenn sie länger als sechs Monate dauern (§ 12 S. 2 Nr. 8 AO), auch Ein- oder Verkaufsstellen (§ 12 S. 2 Nr. 6 AO).\n▸ Der Begriff des § 12 AO entscheidet, ob Deutschland einen ausländischen Unternehmer beschränkt besteuern will (§ 49 Abs. 1 Nr. 2 Buchst. a EStG).\n▸ Ob Deutschland besteuern darf, richtet sich nach dem DBA: Unternehmensgewinne nur im Ansässigkeitsstaat, außer bei einer Betriebsstätte im anderen Staat (Art. 7 Abs. 1 OECD-MA). Bauausführungen sind dort erst ab mehr als zwölf Monaten Betriebsstätte (Art. 5 Abs. 3 OECD-MA), vorbereitende und Hilfstätigkeiten wie Lager oder Einkauf in der Regel nicht (Art. 5 Abs. 4 OECD-MA). Die Fristen im konkreten Abkommen können abweichen.\n\nZum Schluss: § 12 AO zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 8 Abs. 3 S. 2, 3, 5 und 6 KStG",
-        "§ 8b Abs. 1, 2, 3 und 5 KStG",
-        "§ 27 KStG",
-        "§ 20 Abs. 1 S. 1 Nr. 1 S. 2 EStG",
-        "§ 20 Abs. 5 und 8 EStG",
-        "§ 3 Nr. 40d EStG",
-        "§ 3c Abs. 2 EStG",
-        "§ 6 Abs. 1 Nr. 5 EStG",
-        "§ 6 Abs. 6 S. 2 EStG",
-        "§ 10 Abs. 4 und 5 UStG",
-        "§ 8 Abs. 3 S. 3 KStG",
-        "Themenpool: kst-aufb-kst-ks-5-08"
+        "§ 12 AO",
+        "§ 49 Abs. 1 Nr. 2 Buchst. a EStG",
+        "Art. 5 Abs. 3, 4 OECD-MA",
+        "Art. 7 Abs. 1 OECD-MA"
       ],
-      "coverRegie": {
-        "thema": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Zwei Figuren stehen an verbundenen Tresoren; ein verdeckter Geldstrom nimmt den Umweg, ein offener den direkten Weg.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-22-b1-kst-aufb-kst-ks-5-08-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-22-b1",
+      "kurztitel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Spickzettel",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Spickzettel",
+          "text": "Spickzettel · Betriebsstätte: · AO oder DBA? · § 12 AO · auf einer Karte · + Markier-Guide § 12 AO · Baustelle · 8 Monate · Betriebsstätte?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Die Karte · AO-Begriff · § 12 S. 1 AO · feste Einrichtung des Unternehmens · Bau und Montage · § 12 S. 2 Nr. 8 AO · AO: über 6 Monate · DBA-Begriff · Art. 5 Abs. 3 OECD-MA · Bau erst über 12 Monate · Hilfstätigkeiten · Art. 5 Abs. 4 OECD-MA · Lager, Einkauf: oft keine Betriebsstätte · Am Ende: § 12 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Baustelle, 8 Monate · § 12 AO · Betriebsstätte: ja · § 12 S. 2 Nr. 8 AO · beschränkt steuerpflichtig · § 49 Abs. 1 Nr. 2 EStG · OECD-MA · Betriebsstätte: nein · Art. 5 Abs. 3 OECD-MA · Gewinn nur im Ansässigkeitsstaat · Art. 7 Abs. 1 OECD-MA · Beides gilt?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Welcher Begriff wann? · Ob Deutschland besteuern will, regelt § 12 AO. · § 49 Abs. 1 Nr. 2 Buchst. a EStG · Ob es besteuern darf, regelt der Betriebsstättenbegriff des DBA. · Art. 7 Abs. 1 OECD-MA · Immer das konkrete Abkommen lesen, Fristen weichen ab. · Erst AO, dann DBA"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Baustelle 8 Monate: AO ja, OECD-MA nein · DBA-Begriff ist enger · AO: will besteuern, · DBA: darf besteuern, · Bau: 6 oder 12 Monate. · Lager: DBA oft nicht. · Speichern für Klausur 2 · Deine DBA-Frist? · Weiterwischen: § 12 AO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Grundbegriff · DBA: oft nicht · DBA: 12 Monate · DBA-Begriff: Art. 5 OECD-MA · Bauausführung erst nach mehr als 12 Monaten"
+        }
+      ]
     },
     "b2": {
       "format": "schema",
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-4-5",
-      "slug": "2026-10-22-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
-          "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Die Komplementär-GmbH ist Mitunternehmerin, auch wenn sie keine Einlage leistet und nur eine Haftungsvergütung erhält.",
-            "Vermietet die Komplementär-GmbH der KG ein eigenes Grundstück, wird es steuerlich ihr Sonderbetriebsvermögen I und wechselt nach § 6 Abs. 5 Satz 2 EStG zum Buchwert dorthin."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Die Erscheinungsform der GmbH & Co. KG und die Beteiligungsquoten an KG und GmbH aufnehmen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Prüfen, ob die GmbH neben der Geschäftsführung für die KG einen eigenen, nicht unbedeutenden Geschäftsbetrieb hat; dann sind ihre Anteile in der Regel kein SBV II."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "SBV II sind die Anteile, wenn sie die Stellung des Kommanditisten in der KG stärken: Die GmbH führt im Wesentlichen nur die KG, und er kann über seine Beteiligung auf deren Geschäftsführung einwirken. Unter 10 % ohne Sperrminorität (BFH 2015) oder bei eigenem gewichtigem Geschäftsbetrieb der GmbH regelmäßig nicht."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "GmbH & Co. KG: Wann gehören die Anteile des Kommanditisten an der Komplementär-GmbH zum SBV II? Entscheidend sind sein Einfluss und ein eigener Geschäftsbetrieb der GmbH.",
+      "themaId": "persg-aufb-persg-melzer-1-6",
+      "caption": "Mitunternehmeranteil über dem Kapitalkonto gekauft? So entsteht die Ergänzungsbilanz – das Prüfschema in 4 Schritten.\n\n1. Mehrpreis: Kaufpreis minus übernommenes Kapitalkonto.\n2. Verteilung auf die anteiligen stillen Reserven der einzelnen Wirtschaftsgüter, ein verbleibender Rest ist Firmenwert.\n3. Ergänzungsbilanz des Erwerbers: Mehrwerte auf der Aktivseite, Mehrkapital auf der Passivseite; sie gehört zur Gewinnermittlung des Mitunternehmers (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n4. Fortschreibung: Die Mehrwerte werden wie eigene Anschaffungskosten abgeschrieben, nach der Restnutzungsdauer im Erwerbszeitpunkt (BFH vom 20.11.2014, IV R 1/11); Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG). Die Mehr-AfA mindert nur den Gewinnanteil des Erwerbers.\n\nIm Beispiel: 200.000 € – 120.000 € = 80.000 € Mehrpreis; Grundstück 30.000 €, Maschinen 20.000 €, Firmenwert 30.000 €. Jährlich 5.000 € (Maschinen, 4 Jahre) + 2.000 € (Firmenwert) = 7.000 € Mehr-AfA.\n\nIm Gesetz steht die Ergänzungsbilanz übrigens auch: § 6 Abs. 5 S. 4 EStG. Zum Schluss zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
       ],
-      "kurztitel": "Wann sind Anteile an der Komplementär-GmbH SBV II",
-      "coverBadge": "Klausurschema",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 105 Abs. 3 HGB",
-        "§ 161 Abs. 2 HGB",
-        "§§ 705 ff. BGB",
-        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
-        "§ 4 Abs. 1 Satz 1 EStG",
-        "§ 6 Abs. 5 Satz 2 EStG",
-        "R 4.2 Abs. 2 EStR",
-        "§§ 6, 38 Abs. 1, 46 Nrn. 5 und 6, 47 Abs. 1 und 2, 48 Abs. 1, 50 Abs. 1, 53 Abs. 2, 61 Abs. 2 Satz 2, 66 Abs. 2 GmbHG",
-        "BFH vom 16.04.2015 – IV R 1/12",
-        "BFH vom 19.12.2019 – IV R 53/16",
-        "Themenpool: persg-aufb-persg-melzer-4-5"
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 6 Abs. 5 S. 4 EStG",
+        "§ 7 Abs. 1 S. 3 EStG",
+        "BFH vom 20.11.2014, IV R 1/11"
       ],
-      "coverRegie": {
-        "thema": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-22-b2-persg-aufb-persg-melzer-4-5-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-22-b2",
+      "kurztitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Anteil teurer · gekauft? · § 15 Abs. 1 S. 1 Nr. 2 EStG · in 4 Schritten · + Markier-Guide § 6 EStG · Mehrpreis · 80.000 € · über Kapital",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Das Schema · Mehrpreis ermitteln · Kaufpreis minus übernommenes Kapital · Auf Wirtschaftsgüter verteilen · anteilige stille Reserven, Rest Firmenwert · Ergänzungsbilanz aufstellen · Mehrwerte aktiv, Mehrkapital passiv · Fortschreiben · § 7 Abs. 1 EStG · AfA auf die Mehrwerte · Am Ende: § 6 Abs. 5 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Der Fall · Imani kauft für 200.000 € ein Drittel der Rosen-KG. · Ihr übernommenes Kapitalkonto: 120.000 €. · Stille Reserven der KG: Grundstück 90.000 €, Maschinen 60.000 €. · Wohin mit 80.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "1 + 2 · Mehrpreis verteilen · Kaufpreis · 200.000 € · – Kapitalkonto · – 120.000 € · = Mehrpreis · 80.000 € · Grundstück 1/3 von 90.000 € · 30.000 € · Maschinen 1/3 von 60.000 € · 20.000 € · Rest: Firmenwert · 30.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "3 · Ergänzungsbilanz Imani · Aktiva · Grundstück 30.000 € · Maschinen 20.000 € · Firmenwert 30.000 € · Passiva · Mehrkapital Imani 80.000 € · Nur für mich!"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "4 · Fortschreiben! · Mehrwerte nach Restnutzungsdauer abschreiben: Maschinen in 4 Jahren, 5.000 € jährlich. · BFH vom 20.11.2014, IV R 1/11 · Firmenwert über 15 Jahre: 2.000 € jährlich. · § 7 Abs. 1 S. 3 EStG · Die Mehr-AfA mindert nur Imanis Gewinnanteil. · Jedes Jahr?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Ergänzungsbilanz Imani: 80.000 € Mehrwerte · Mehr-AfA 7.000 € im Jahr, nur für ihren Anteil · Mehrpreis ermitteln, · Reserven zuordnen, · Rest Firmenwert, · jährlich fortschreiben. · Speichern für Klausur 3 · Vergisst du die Fortschreibung? · Weiterwischen: § 6 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Ergänzungsbilanz im Gesetz · Firmenwert · Mehr-AfA · Randnotiz: BFH IV R 1/11 · Erwerber schreibt nach Restnutzungsdauer ab"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-342",
-      "slug": "2026-10-22-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
-          "unter": "Abgabenordnung",
-          "text": "Ohne Rechtsgrund gezahlt: Festsetzung bleibt möglich, solange die Erstattung nicht verjährt ist.",
-          "norm": "§ 37 Abs. 2 AO",
-          "icon": null,
-          "sprecher": "Steuer wurde gezahlt, aber ohne wirksamen Bescheid, und die Festsetzungsfrist ist abgelaufen. Ist das Geld jetzt zurückzuzahlen? § 171 Abs. 14 AO hält die Festsetzung offen.",
-          "marken": [
-            "Zahlung ohne Rechtsgrund",
-            "§ 37 Abs. 2 AO"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Erstattung: gezahlt ohne rechtlichen Grund",
-          "text": null,
-          "norm": "§ 37 Abs. 2 AO",
-          "icon": null,
-          "sprecher": "Wer Steuer ohne rechtlichen Grund zahlt, hat einen Erstattungsanspruch nach § 37 Abs. 2 AO. Er verjährt in fünf Jahren ab Ende des Jahres, in dem er fällig wurde.",
-          "marken": [
-            "Erstattung verjährt in fünf Jahren"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Ablaufhemmung bis zur Erstattungsverjährung",
-          "text": null,
-          "norm": "§ 171 Abs. 14 AO",
-          "icon": null,
-          "sprecher": "Solange dieser Erstattungsanspruch nicht verjährt ist, endet auch die Festsetzungsfrist für die Steuer nicht. Das Finanzamt kann die Steuer also noch festsetzen und so den Rechtsgrund für die Zahlung schaffen.",
-          "marken": [
-            "Festsetzung bleibt offen"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Reguläre Festsetzungsfrist abgelaufen heißt nicht automatisch Erstattung: Erst wenn auch der Erstattungsanspruch verjährt ist (§§ 228 ff. AO), ist die Festsetzung ausgeschlossen.",
-          "sprecher": "Merke: Festsetzungsfrist und Erstattungsanspruch hängen zusammen. Die Festsetzung ist erst ausgeschlossen, wenn beide Fristen abgelaufen sind.",
-          "marken": [
-            "Erst beide Fristen prüfen"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Ohne wirksamen Bescheid gezahlt? Solange der Erstattungsanspruch nach § 37 Abs. 2 AO nicht verjährt ist, läuft auch die Festsetzungsfrist nicht ab (§ 171 Abs. 14 AO).",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-3",
+      "caption": "Betriebsvermögen geerbt: 85 % oder 100 % steuerfrei? 🏭\n\n▸ Regelverschonung: Begünstigtes Vermögen bleibt zu 85 % steuerfrei (§ 13a Abs. 1 S. 1 ErbStG). Auf den Rest gibt es einen Abzugsbetrag von 150.000 €, der um die Hälfte des übersteigenden Betrags abschmilzt (§ 13a Abs. 2 ErbStG). Beispiel 2 Mio. €: Rest 300.000 €, Abzugsbetrag 150.000 € – 75.000 € = 75.000 €, steuerpflichtig 225.000 €.\n▸ Optionsverschonung: Auf unwiderruflichen Antrag 100 % (§ 13a Abs. 10 S. 1 Nr. 1 ErbStG), aber nur, wenn das begünstigungsfähige Vermögen zu höchstens 20 % aus Verwaltungsvermögen besteht (§ 13a Abs. 10 S. 2 ErbStG).\n▸ Preis der Option: Behaltensfrist und Lohnsummenfrist sieben statt fünf Jahre, Mindestlohnsumme 700 % statt 400 % (§ 13a Abs. 10 S. 1 Nr. 2, 3, 6 ErbStG; Grundfall § 13a Abs. 3 S. 1, Abs. 6 ErbStG). Bei höchstens fünf Beschäftigten entfällt die Lohnsummenprüfung (§ 13a Abs. 3 S. 3 Nr. 2 ErbStG).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#erbschaftsteuer"
       ],
-      "kurztitel": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 37 Abs. 2 AO",
-        "§ 171 Abs. 14 AO",
-        "§§ 228 ff. AO",
-        "§ 228 AO",
-        "§ 229 AO",
-        "Themenpool: ao-modul-ao-342"
+        "§ 13a Abs. 1, 2, 3, 6, 10 ErbStG"
       ],
-      "coverRegie": {
-        "thema": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-22-b3-ao-modul-ao-342-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-22-b3",
+      "kurztitel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "quizfrage",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Betrieb geerbt: 85 oder 100 %?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Regelverschonung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Option 100 %"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Preis"
+        }
+      ],
+      "sprecher": [
+        "Betrieb für zwei Millionen Euro geerbt. Was bleibt steuerpflichtig? Je nach Antrag etwas oder gar nichts.",
+        "Regelverschonung: Fünfundachtzig Prozent bleiben frei. Für die restlichen dreihunderttausend gibt es noch einen Abzugsbetrag von fünfundsiebzigtausend.",
+        "Die Option auf hundert Prozent gibt es nur bei höchstens zwanzig Prozent Verwaltungsvermögen.",
+        "Dafür sieben statt fünf Jahre halten und die Lohnsumme strenger. Der Antrag ist unwiderruflich.",
+        "Merke: Hundert Prozent kosten mehr Zeit."
+      ],
+      "dauerS": 36.392,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
@@ -427,27 +306,25 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-3",
-      "quellen": [
-        "Themenpool: ust-quiz-ust-3"
+      "themaId": "ust-quiz-ust-15",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Beratung für eine",
+        "Firma in Lyon: wo?",
+        "Sitz des Beraters",
+        "Sitz der Firma in Lyon",
+        "Ort der Rechnung",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wie lang ist der Berichtigungszeitraum des § 15a UStG bei Grundstücken?",
-      "titel": "Wie lang ist der Berichtigungszeitraum des § 15a UStG bei Grundstücken?",
-      "optionen": [
-        "5 Jahre",
-        "10 Jahre",
-        "15 Jahre"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
@@ -455,170 +332,153 @@
       "fach": "ust",
       "klausur": 1,
       "fachLabel": "Umsatzsteuer",
-      "pairId": "ust-quiz-ust-3",
-      "quellen": [
-        "Themenpool: ust-quiz-ust-3"
+      "themaId": "ust-quiz-ust-15",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: beim Empfänger",
+        "Sitz des Beraters",
+        "Sitz der Firma in Lyon",
+        "Ort der Rechnung",
+        "B2B-Grundregel: Ort ist dort, von wo aus der Empfänger sein Unternehmen betreibt.",
+        "§ 3a Abs. 2 S. 1 UStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "10 Jahre",
-      "optionen": [
-        "5 Jahre",
-        "10 Jahre",
-        "15 Jahre"
-      ],
-      "richtig": 1,
-      "text": "§ 15a Abs. 1 S. 2 UStG: zehn Jahre bei Grundstücken einschließlich ihrer wesentlichen Bestandteile, sonst fünf Jahre.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-507",
-      "quellen": [
-        "§ 19 Abs. 1 ErbStG",
-        "§ 19 Abs. 3 ErbStG",
-        "Themenpool: erbst-modul-erbst-507"
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-14",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Ab ins Ausland:",
+        "Entstrickung?",
+        "§ 4 Abs. 1 S. 3 EStG",
+        "Zählt wie eine Entnahme, bewertet zum gemeinen Wert.",
+        "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+        "EU-Fall: Ausgleichsposten, über fünf Jahre auflösen.",
+        "§ 4g Abs. 1, 2 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 19 Abs. 1 ErbStG",
-      "titel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
-      "text": "Steuersatz aus Wertstufe und Steuerklasse (bis 75.000 €: 7, 15 bzw. 30 %). Knapp über einer Wertgrenze deckelt § 19 Abs. 3 ErbStG die Mehrsteuer: bei bis zu 30 % auf die Hälfte, darüber auf drei Viertel des Mehrbetrags.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "merksatz",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-v-3",
-      "quellen": [
-        "§ 13a Abs. 1 Satz 1 ErbStG",
-        "§ 13a Abs. 2 ErbStG",
-        "§ 13a Abs. 10 ErbStG",
-        "§ 13b Abs. 1 Nr. 1 bis 3 ErbStG",
-        "§ 13b Abs. 2 ErbStG",
-        "§ 13c ErbStG",
-        "§ 28a ErbStG",
-        "BVerfG vom 17.12.2014, 1 BvL 21/12",
-        "§ 13b Abs. 7 ErbStG",
-        "Themenpool: erbst-aufb-erbst-v-3"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Urteilsstil",
+        "spart Zeit",
+        "Ergebnis zuerst nennen.",
+        "Dann die Norm mit Absatz und Satz.",
+        "Kurz am Sachverhalt begründen."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
-      "text": "Begünstigt ist nur der Wert ohne schädliches Verwaltungsvermögen (bis 10 % unschädlich). Darauf 85 % Verschonung; per unwiderruflicher Option 100 %, wenn höchstens 20 % Verwaltungsvermögen, dann 7 Jahre Behaltensfrist.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "erbst",
-      "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-modul-erbst-532",
-      "quellen": [
-        "§ 13 Abs. 1 BewG",
-        "§ 14 BewG",
-        "Anlage 9a BewG",
-        "§ 13 Abs. 1–3 BewG",
-        "§ 14 Abs. 1 BewG",
-        "BMF 21.10.2025 – IV D 4 - S 3104/00002/013/003",
-        "BMF 09.12.2024 – IV D 4 - S 3104/19/10001 :010",
-        "Themenpool: erbst-modul-erbst-532"
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-14",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Kapitalerträge",
+        "im Betrieb",
+        "Keine Abgeltung: Sie gehören zum Gewinn.",
+        "§ 43 Abs. 5 S. 2 EStG",
+        "Einbehaltene Kapitalertragsteuer wird angerechnet.",
+        "§ 36 Abs. 2 Nr. 2 EStG",
+        "Dividenden: Teileinkünfteverfahren.",
+        "§ 3 Nr. 40 S. 2 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Vervielfältiger nach § 13 / § 14 BewG: bestimmte, unbestimmte und lebenslängliche Dauer",
-      "text": "Bestimmte Dauer: Jahreswert × Faktor aus Anlage 9a BewG. Unbestimmte Dauer: 9,3-fach, immerwährend: 18,6-fach (§ 13 BewG). Lebenslänglich: Faktor nach Alter und Geschlecht laut BMF-Tabelle (§ 14 BewG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "fehler",
-      "fach": "erbst",
+      "art": "merksatz",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "pairId": "erbst-aufb-erbst-bew1-8",
-      "quellen": [
-        "§ 13 Abs. 1 BewG",
-        "§ 13 Abs. 1 Satz 2 BewG",
-        "§ 13 Abs. 2 BewG",
-        "§ 14 BewG",
-        "§ 15 Abs. 2 BewG",
-        "§ 15 Abs. 3 BewG",
-        "§ 16 BewG",
-        "Anlage 9a zu § 13 BewG",
-        "Themenpool: erbst-aufb-erbst-bew1-8"
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-301",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Wann entsteht",
+        "die Steuer?",
+        "Mit dem Tatbestand –",
+        "nicht erst",
+        "mit dem Bescheid.",
+        "§ 38 AO"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
-      "falsch": "Die Begrenzung des § 16 BewG wird auf eine Rentenzahlung angewendet.",
-      "richtigText": "Der Deckel des § 16 BewG (Jahreswert höchstens Wert des Wirtschaftsguts geteilt durch 18,6) gilt nur für Nutzungen wie Nießbrauch oder Wohnrecht. Renten werden ohne diesen Deckel bewertet.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "kst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch",
-      "text": "vGA an die Schwester-GmbH: Einlage oder bloßer Verbrauch?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "Betriebsstätte: AO oder DBA?",
+        "Spickzettel + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -626,68 +486,56 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wann sind Anteile an der Komplementär-GmbH SBV II",
-      "text": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "Anteil teurer gekauft?",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Erstattungsanspruch und § 171 Abs. 14 AO: Festsetzung trotz abgelaufener regulärer Frist",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Betrieb geerbt: 85 oder 100 %?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:54:28.215Z",
+    "erzeugtAm": "2026-10-03T04:43:55Z",
     "pfad": "vorproduktion/2026-10-22/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -699,5 +547,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
