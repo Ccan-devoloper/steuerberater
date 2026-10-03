@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 1,
-   "fach": "ao",
-   "fachLabel": "AO · USt · ErbSt",
-   "themaId": "wochenrueckblick-k1-2026-45",
-   "themaTitel": "Klausur 1 kompakt: fünf Themen der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-45",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 45",
    "figuren": {
     "A": {
      "name": "Wiebke",
@@ -35,10 +35,10 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Klausur 1",
+      "Woche",
       "kompakt"
      ],
-     "unter": "5 Themen",
+     "unter": "6 Themen",
      "teaser": "+ Markier-Guide § 177 AO",
      "motiv": {
       "typ": "kalender",
@@ -50,46 +50,30 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Einspruch oder Änderung",
-       "§§ 172 ff., 367 Abs. 2 AO",
-       ""
+       "Klausur 1 · AO und ErbSt",
+       "§ 177 AO · § 14 ErbStG",
+       "Saldierung und Zusammenrechnung"
       ],
       [
-       "Ablaufhemmung",
-       "§ 171 Abs. 3a, 4 AO",
-       ""
+       "Klausur 2 · Einkommensteuer",
+       "§ 15a Abs. 3, § 2a EStG",
+       "Einlageminderung und Drittstaatenverluste"
       ],
       [
-       "Bauleistungen",
-       "§ 13b Abs. 2 Nr. 4 UStG",
-       ""
-      ],
-      [
-       "Geschäftsveräußerung",
-       "§ 1 Abs. 1a UStG",
-       ""
-      ],
-      [
-       "Zusammenrechnung",
-       "§ 14 ErbStG",
-       ""
+       "Klausur 3 · Bilanz und PersG",
+       "§ 5 Abs. 4a, 4b EStG",
+       "Rückstellungsverbote und SBV II"
       ]
      ],
      "teaser": "Am Ende: § 177 AO markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Einspruch oder Änderung",
+     "titel": "Klausur 1 · AO und ErbSt",
      "punkte": [
-      [
-       "Einspruch offen: Die Sache wird voll neu geprüft.",
-       "ok",
-       "Regular",
-       "§ 367 Abs. 2 S. 1 AO"
-      ],
       [
        "Bestandskräftig: Jeder Fehler braucht eine Korrekturnorm.",
        "warn",
@@ -97,10 +81,16 @@
        "§§ 172 bis 175 AO"
       ],
       [
-       "Bei Änderung andere Fehler mitberichtigen, soweit die Änderung reicht.",
+       "Wird geändert, andere Fehler mitberichtigen, soweit die Änderung reicht.",
        "ok",
        "Bold",
-       "§ 177 AO"
+       "§ 177 Abs. 1 bis 3 AO"
+      ],
+      [
+       "Schenkungen derselben Person in zehn Jahren: zusammenrechnen, Freibetrag nur einmal.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 ErbStG"
       ]
      ],
      "figur": "A:redet",
@@ -109,163 +99,103 @@
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Ablaufhemmung",
+     "titel": "Klausur 2 · Einkommensteuer",
      "punkte": [
       [
-       "Einspruch hemmt bis zur unanfechtbaren Entscheidung.",
-       "ok",
-       "Regular",
-       "§ 171 Abs. 3a S. 1 AO"
-      ],
-      [
-       "Außenprüfung hemmt nur, wenn sie vor Fristablauf beginnt.",
+       "Entnahme macht das Kommanditkapital negativ: Gewinnzurechnung, soweit keine Haftung auflebt.",
        "warn",
        "Bold",
-       "§ 171 Abs. 4 S. 1 AO"
+       "§ 15a Abs. 3 S. 1 EStG"
       ],
       [
-       "Höchstens fünf Jahre ab Ende des Jahres der Prüfungsanordnung.",
-       "ok",
+       "Mietverlust aus einem Drittstaat: nur mit gleichartigen Einkünften aus demselben Staat.",
+       "nein",
        "Regular",
-       "§ 171 Abs. 4 S. 3 AO"
+       "§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG"
       ]
      ],
      "figur": "B:denkt",
      "x": 290,
-     "blase": "Und die Anordnung allein?"
+     "blase": "Haftet sie noch?"
     },
     {
      "typ": "inhalt",
-     "titel": "3 · Bauleistungen",
+     "titel": "Klausur 3 · Bilanz und PersG",
      "punkte": [
       [
-       "Die Steuer schuldet der Empfänger, wenn er selbst nachhaltig baut.",
-       "ok",
-       "Regular",
-       "§ 13b Abs. 5 S. 2 UStG"
+       "Steuerlich verboten: Drohverlustrückstellungen.",
+       "nein",
+       "Bold",
+       "§ 5 Abs. 4a S. 1 EStG"
       ],
       [
-       "Planung und Überwachung sind keine Bauleistungen.",
+       "Ebenso Rückstellungen für künftige Anschaffungs- oder Herstellungskosten.",
        "nein",
        "Regular",
-       "§ 13b Abs. 2 Nr. 4 S. 1 UStG"
+       "§ 5 Abs. 4b S. 1 EStG"
       ],
       [
-       "Rechnung ohne Steuer, mit Hinweis.",
+       "Unter 10 % an der Komplementär-GmbH: regelmäßig kein SBV II.",
        "warn",
-       "Bold",
-       "§ 14a Abs. 5 UStG"
+       "Regular",
+       "BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705"
       ]
      ],
-     "figur": "A:erklaert",
+     "figur": "B:erklaert",
      "x": 790,
-     "blase": "Wer baut, zahlt."
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Geschäftsveräußerung",
-     "punkte": [
-      [
-       "Ganzes Unternehmen an einen Unternehmer: nicht steuerbar.",
-       "ok",
-       "Regular",
-       "§ 1 Abs. 1a S. 1 UStG"
-      ],
-      [
-       "Gilt auch unentgeltlich.",
-       "ok",
-       "Regular",
-       "§ 1 Abs. 1a S. 2 UStG"
-      ],
-      [
-       "Der Käufer übernimmt die Rolle des Verkäufers.",
-       "warn",
-       "Bold",
-       "§ 1 Abs. 1a S. 3 UStG"
-      ]
-     ],
-     "figur": "B:froh",
-     "x": 290,
-     "blase": "Keine Steuer!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Zusammenrechnung",
-     "punkte": [
-      [
-       "Erwerbe von derselben Person in zehn Jahren werden addiert.",
-       "ok",
-       "Regular",
-       "§ 14 Abs. 1 S. 1 ErbStG"
-      ],
-      [
-       "Frühere Erwerbe zählen mit ihrem damaligen Wert.",
-       "warn",
-       "Bold",
-       null
-      ],
-      [
-       "Nie weniger als die Steuer auf den letzten Erwerb allein.",
-       "ok",
-       "Regular",
-       "§ 14 Abs. 1 S. 4 ErbStG"
-      ]
-     ],
-     "figur": "A:froh",
-     "x": 790,
-     "blase": "Freibetrag nur einmal!"
+     "blase": "Stimmrechte zählen"
     },
     {
      "typ": "merke",
      "oben": [
-      "Klausur 1: AO, Umsatzsteuer, Erbschaftsteuer",
-      "Das Wichtigste der letzten sieben Tage",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Einspruch",
+        "Korrekturnorm",
         "a"
        ],
        [
-        " vor Änderung,",
+        " zuerst,",
         null
        ]
       ],
       [
        [
-        "Prüfung",
+        "zehn Jahre",
         "b"
        ],
        [
-        " nur mit Beginn,",
+        " zusammen,",
         null
        ]
       ],
       [
        [
-        "Bau",
+        "Entnahme",
         "c"
        ],
        [
-        " an Bauleister,",
+        " kann Gewinn sein,",
         null
        ]
       ],
       [
        [
-        "Zehn Jahre",
+        "Drohverlust",
         "d"
        ],
        [
-        " addieren.",
+        " verboten.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 1",
-     "frage": "Welches Thema wackelt noch?",
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
      "teaser": "Weiterwischen: § 177 AO markiert"
     },
     {
@@ -307,6 +237,23 @@
        ]
       ],
       [
+       2,
+       [
+        [
+         "Liegen die Voraussetzungen für die Aufhebung oder Änderung eines Steuerbescheids",
+         null
+        ],
+        [
+         "zugunsten",
+         "b2"
+        ],
+        [
+         "des Steuerpflichtigen vor, so sind, soweit die Änderung reicht, […] solche materiellen Fehler zu berichtigen, […]",
+         null
+        ]
+       ]
+      ],
+      [
        3,
        [
         [
@@ -318,7 +265,7 @@
          "gr1"
         ],
         [
-         "einschließlich offenbarer Unrichtigkeiten im Sinne des § 129, die zur Festsetzung einer Steuer führen, die von der kraft Gesetzes entstandenen Steuer abweicht.",
+         "[…], die zur Festsetzung einer Steuer führen, die von der kraft Gesetzes entstandenen Steuer abweicht.",
          null
         ]
        ]
@@ -338,32 +285,35 @@
        "b1"
       ],
       [
+       "Gegenrichtung",
+       "b2"
+      ],
+      [
        "Begriff",
        "gr1"
       ]
      ],
      "randnotiz": [
-      "Gegenrichtung: § 177 Abs. 2 AO",
-      "gilt bei Änderung zugunsten genauso"
+      "Keine eigene Änderungsnorm",
+      "Erst die Korrekturvorschrift, dann saldieren"
      ]
     }
    ],
-   "caption": "Klausur 1 kompakt: fünf Themen dieser Woche aus AO, Umsatzsteuer und Erbschaftsteuer.\n\n1. Einspruch oder Änderung: Läuft ein Einspruch, prüft die Behörde den Fall komplett neu (§ 367 Abs. 2 S. 1 AO); nach Bestandskraft braucht jeder Fehler eine Korrekturvorschrift (§§ 172 bis 175 AO); bei einer Änderung werden andere materielle Fehler mitberichtigt, soweit die Änderung reicht (§ 177 AO).\n2. Ablaufhemmung: Einspruch hemmt bis zur unanfechtbaren Entscheidung (§ 171 Abs. 3a S. 1 AO); Außenprüfung nur bei Beginn oder beantragtem Aufschub vor Fristablauf (§ 171 Abs. 4 S. 1 AO); Höchstgrenze fünf Jahre ab Ende des Bekanntgabejahres der Prüfungsanordnung (§ 171 Abs. 4 S. 3 AO).\n3. Bauleistungen: Der Empfänger schuldet die Steuer, wenn er selbst nachhaltig Bauleistungen erbringt (§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG); Planungs- und Überwachungsleistungen sind ausgenommen; Rechnung mit Hinweis (§ 14a Abs. 5 UStG).\n4. Geschäftsveräußerung im Ganzen: nicht steuerbar, auch unentgeltlich; der Käufer übernimmt umsatzsteuerlich die Rolle des Verkäufers (§ 1 Abs. 1a S. 1 bis 3 UStG).\n5. Zusammenrechnung: Erwerbe von derselben Person innerhalb von zehn Jahren mit ihrem früheren Wert; Mindeststeuer des letzten Erwerbs (§ 14 Abs. 1 S. 1, 4 ErbStG).\n\nZum Schluss: § 177 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Wochenrückblick KW 45: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Ein bestandskräftiger Bescheid wird nur geändert, wenn für den Fehler eine Korrekturvorschrift greift (§§ 172 bis 175 AO). Dann sind andere materielle Fehler zugunsten und zuungunsten mitzuberichtigen, soweit die Änderung reicht (§ 177 Abs. 1 bis 3 AO).\n2. Erwerbe von derselben Person innerhalb von zehn Jahren werden mit ihrem früheren Wert zusammengerechnet; der Freibetrag gilt für alle zusammen einmal (§ 14 Abs. 1 S. 1 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Entsteht oder erhöht sich ein negatives Kapitalkonto des Kommanditisten durch Entnahmen, wird ihm der Betrag als Gewinn zugerechnet, soweit keine nach § 15a Abs. 1 S. 2 EStG zu berücksichtigende Haftung besteht oder entsteht (§ 15a Abs. 3 S. 1, 2 EStG).\n4. Verluste aus der Vermietung von Grundbesitz in einem Drittstaat sind nur mit positiven Einkünften derselben Art aus demselben Staat ausgleichbar (§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. In der Steuerbilanz verboten: Rückstellungen für drohende Verluste aus schwebenden Geschäften (§ 5 Abs. 4a S. 1 EStG) und für künftige Anschaffungs- oder Herstellungskosten (§ 5 Abs. 4b S. 1 EStG).\n6. Eine Beteiligung unter 10 % an der Komplementär-GmbH ist regelmäßig kein notwendiges Sonderbetriebsvermögen II, wenn die Gesellschafterversammlung mit einfacher Mehrheit entscheidet (BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705).\n\nZum Schluss: § 177 AO zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#abgabenordnung"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 367 Abs. 2 S. 1 AO",
     "§§ 172 bis 175 AO",
     "§ 177 Abs. 1 bis 3 AO",
-    "§ 171 Abs. 3a S. 1, Abs. 4 S. 1, 3 AO",
-    "§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG",
-    "§ 14a Abs. 5 UStG",
-    "§ 1 Abs. 1a UStG",
-    "§ 14 Abs. 1 S. 1, 4 ErbStG"
+    "§ 14 Abs. 1 S. 1 ErbStG",
+    "§ 15a Abs. 1 S. 2, Abs. 3 S. 1, 2 EStG",
+    "§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG",
+    "§ 5 Abs. 4a S. 1, Abs. 4b S. 1 EStG",
+    "BFH vom 16.04.2015, IV R 1/12, BStBl II 2015, 705"
    ]
   },
   {
@@ -968,11 +918,9 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 1,
-   "fachLabel": "AO · USt · ErbSt",
    "beitragSlot": "b1",
    "titel": [
-    "Klausur 1 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
