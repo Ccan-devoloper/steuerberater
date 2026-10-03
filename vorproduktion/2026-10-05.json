@@ -169,7 +169,7 @@
       "klausur": 1,
       "fachLabel": "Abgabenordnung",
       "themaId": "ao-aufb-ao-jacobs-3-11",
-      "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Die Klausurfalle zum Wiederholen vor Tag 1.\n\n▸ Seit 2025 gilt ein per Post übermittelter Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO), ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2a AO).\n▸ Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898, zur früheren Dreitagesregel).\n▸ Früherer Zugang ändert nichts. Geht der Bescheid später oder gar nicht zu, greift die Vermutung nicht; im Zweifel weist das Finanzamt den Zugang nach (§ 122 Abs. 2 Hs. 2 AO).\n▸ Beispiel: Post am Freitag, 06.11.2026, Bekanntgabe Dienstag, 10.11.2026, Einspruchsfrist endet Donnerstag, 10.12.2026 (§ 355 Abs. 1 S. 1, § 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n\nSpeichern für Klausur 1 📌",
+      "caption": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben? Die Klausurfalle zum Wiederholen vor Tag 1.\n\n▸ Seit 2025 gilt ein per Post übermittelter Bescheid am vierten Tag nach Aufgabe zur Post als bekannt gegeben (§ 122 Abs. 2 Nr. 1 AO), ein elektronisch übermittelter am vierten Tag nach der Absendung (§ 122 Abs. 2a AO).\n▸ Fällt der vierte Tag auf Samstag, Sonntag oder Feiertag, gilt der nächste Werktag (§ 108 Abs. 3 AO; BFH vom 14.10.2003, IX R 68/98, BStBl II 2003, 898, zur früheren Dreitagesregel).\n▸ Früherer Zugang ändert nichts. Geht der Bescheid später oder gar nicht zu, greift die Vermutung nicht; im Zweifel weist das Finanzamt den Zugang nach (§ 122 Abs. 2 Hs. 2 AO).\n▸ Beispiel: Post am Freitag, 06.11.2026, Bekanntgabe Dienstag, 10.11.2026, Einspruchsfrist endet Donnerstag, 10.12.2026 (§ 355 Abs. 1 S. 1, § 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n\nZum Schluss: §§ 108, 122 AO zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -199,7 +199,7 @@
         {
           "art": "titel",
           "titel": "Klausurfalle",
-          "text": "Klausurfalle · Noch mit · drei Tagen? · § 122 Abs. 2 Nr. 1 AO · Dauerbrenner · + Markier-Guide § 122 AO · Post · + 4 Tage · seit 2025",
+          "text": "Klausurfalle · Noch mit · drei Tagen? · § 122 Abs. 2 Nr. 1 AO · Dauerbrenner · + Markier-Guide §§ 108, 122 AO · Post · + 4 Tage · seit 2025",
           "bild": "op-cover"
         },
         {
@@ -230,12 +230,17 @@
         {
           "art": "text",
           "titel": "Abgabenordnung",
-          "text": "Post am Freitag, 06.11.2026 · Bekanntgabe Di 10.11. · Fristende Do 10.12. · Post plus vier Tage, · Wochenende schiebt, · früher zählt nicht, · später schon. · Speichern für Klausur 1 · Rechnest du schon mit vier? · Weiterwischen: § 122 AO markiert"
+          "text": "Post am Freitag, 06.11.2026 · Bekanntgabe Di 10.11. · Fristende Do 10.12. · Post plus vier Tage, · Wochenende schiebt, · früher zählt nicht, · später schon. · Speichern für Klausur 1 · Rechnest du schon mit vier? · Weiterwischen: §§ 108, 122 AO markiert"
         },
         {
           "art": "text",
           "titel": "Abgabenordnung",
-          "text": "§ 122 AO Bekanntgabe (Auszug) · seit 2025: vier · später: echter Zugang · Beweislast Amt · Dazu § 108 Abs. 3 AO · Samstag, Sonntag, Feiertag: nächster Werktag"
+          "text": "§ 122 AO Bekanntgabe (Auszug) · seit 2025: vier · später: echter Zugang · Beweislast Amt · Weiterwischen: § 108 Abs. 3 AO · Auch der vierte Tag kann sich verschieben"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "§ 108 Fristen und Termine (Auszug) · Fristberechnung nach BGB · Sonnabend = Samstag · gilt auch für den 4. Tag · BFH, IX R 68/98, BStBl II 2003, 898 · Bekanntgabe am Wochenende: nächster Werktag"
         }
       ]
     },
@@ -531,7 +536,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T10:45:56Z",
+    "erzeugtAm": "2026-10-03T11:22:12Z",
     "pfad": "vorproduktion/2026-10-05/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
