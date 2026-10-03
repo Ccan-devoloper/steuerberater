@@ -7513,6 +7513,18 @@
       },
       "insightsStand": "2026-10-03T14:44:45.596Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-10-03",
+      "slot": "s8",
+      "medienId": "18096928085393130",
+      "veroeffentlicht": "2026-10-03T15:45:53.571Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-modul-istr-istr3-08",
+      "fach": "istr",
+      "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen"
     }
   ],
   "fachZaehler": {
