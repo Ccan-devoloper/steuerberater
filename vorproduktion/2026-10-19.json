@@ -183,7 +183,7 @@
       "klausur": 3,
       "fachLabel": "Umwandlungssteuerrecht",
       "themaId": "umwst-aufb-umw-2-48",
-      "caption": "Sperrfrist nach einer Einbringung verletzt? Das Prüfschema zu § 22 Abs. 1 UmwStG in 4 Schritten.\n\n1. Empfänger: Gehen die Anteile ohne Gegenleistung an eine Kapitalgesellschaft oder Genossenschaft, ist das schädlich (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG). Bei unentgeltlicher Rechtsnachfolge, etwa Schenkung an ein Kind, tritt der Rechtsnachfolger an die Stelle des Einbringenden (§ 22 Abs. 6 UmwStG).\n2. Entgelt: Veräußerung innerhalb von sieben Jahren löst rückwirkend den Einbringungsgewinn I aus (§ 22 Abs. 1 S. 1 UmwStG); entgeltliche Übertragungen sind schädlich, außer bei nachgewiesener Buchwerteinbringung nach § 20 Abs. 1 oder § 21 Abs. 1 UmwStG ohne zu hohe sonstige Gegenleistung (§ 22 Abs. 1 S. 6 Nr. 2 UmwStG).\n3. Weitereinbringung: Ketteneinbringungen nur zum Buchwert mit Nachweis (§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG). Ein Zwischenwert reicht nicht.\n4. Gesellschaft: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG).\n\nFolge: Versteuerung im Wirtschaftsjahr der Einbringung als rückwirkendes Ereignis (§ 22 Abs. 1 S. 1, 2 UmwStG, § 175 Abs. 1 S. 1 Nr. 2 AO), Minderung um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG), nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n\nZum Schluss: § 22 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+      "caption": "Sperrfrist nach einer Einbringung verletzt? Das Prüfschema zu § 22 Abs. 1 UmwStG in 4 Schritten.\n\n1. Empfänger: Gehen die Anteile ohne Gegenleistung an eine Kapitalgesellschaft oder Genossenschaft, ist das schädlich (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG). Bei unentgeltlicher Rechtsnachfolge, etwa Schenkung an ein Kind, tritt der Rechtsnachfolger an die Stelle des Einbringenden (§ 22 Abs. 6 UmwStG).\n2. Entgelt: Veräußerung innerhalb von sieben Jahren löst rückwirkend den Einbringungsgewinn I aus (§ 22 Abs. 1 S. 1 UmwStG); entgeltliche Übertragungen sind schädlich, außer bei nachgewiesener Buchwerteinbringung nach § 20 Abs. 1 oder § 21 Abs. 1 UmwStG ohne zu hohe sonstige Gegenleistung (§ 22 Abs. 1 S. 6 Nr. 2 UmwStG).\n3. Weitereinbringung: Ketteneinbringungen nur zum Buchwert mit Nachweis (§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG). Ein Zwischenwert reicht nicht.\n4. Gesellschaft: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG). Die Auflösung ist voll schädlich; Kapitalherabsetzung und Einlagenrückgewähr nur, soweit der ausgekehrte Betrag den Buchwert bzw. die Anschaffungskosten der Anteile übersteigt (UmwStE vom 02.01.2025, Rn. 22.24).\n\nFolge: Versteuerung im Wirtschaftsjahr der Einbringung als rückwirkendes Ereignis (§ 22 Abs. 1 S. 1, 2 UmwStG, § 175 Abs. 1 S. 1 Nr. 2 AO), Minderung um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG), nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n\nZum Schluss: § 22 UmwStG und UmwStE Rn. 22.24 zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -193,7 +193,8 @@
       "quellen": [
         "§ 22 Abs. 1 S. 1–4, 6 Nr. 1–5 UmwStG",
         "§ 22 Abs. 6 UmwStG",
-        "§ 175 Abs. 1 S. 1 Nr. 2 AO"
+        "§ 175 Abs. 1 S. 1 Nr. 2 AO",
+        "UmwStE vom 02.01.2025, Rn. 22.24"
       ],
       "slug": "2026-10-19-b2",
       "kurztitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
@@ -211,13 +212,13 @@
         {
           "art": "titel",
           "titel": "Prüfschema",
-          "text": "Prüfschema · Sperrfrist · verletzt? · § 22 Abs. 1 S. 6 UmwStG · in 4 Schritten · + Markier-Guide § 22 UmwStG · Sperrfrist · 7 Jahre · ab Einbringung",
+          "text": "Prüfschema · Sperrfrist · verletzt? · § 22 Abs. 1 S. 6 UmwStG · in 4 Schritten · + Markier-Guide § 22 + UmwStE · Sperrfrist · 7 Jahre · ab Einbringung",
           "bild": "op-cover"
         },
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "Der Check · Wer bekommt die Anteile? · § 22 Abs. 1 S. 6 Nr. 1 UmwStG · Kapitalgesellschaft oder Mensch · Gegen Entgelt? · § 22 Abs. 1 S. 6 Nr. 2 UmwStG · grundsätzlich schädlich · Weitereinbringung? · § 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG · nur Buchwert mit Nachweis · Was macht die GmbH? · § 22 Abs. 1 S. 6 Nr. 3 UmwStG · Auflösung, Kapitalrückzahlung · Am Ende: § 22 UmwStG markiert"
+          "text": "Der Check · Wer bekommt die Anteile? · § 22 Abs. 1 S. 6 Nr. 1 UmwStG · Kapitalgesellschaft oder Mensch · Gegen Entgelt? · § 22 Abs. 1 S. 6 Nr. 2 UmwStG · grundsätzlich schädlich · Weitereinbringung? · § 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG · nur Buchwert mit Nachweis · Was macht die GmbH? · § 22 Abs. 1 S. 6 Nr. 3 UmwStG · Auflösung, Kapitalrückzahlung · Am Ende: § 22 + UmwStE markiert"
         },
         {
           "art": "text",
@@ -237,7 +238,7 @@
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "4 · Was macht die GmbH? · Sie wird aufgelöst und abgewickelt. · Sie setzt Kapital herab und zahlt es zurück. · Sie zahlt Beträge aus dem Einlagekonto aus. · § 22 Abs. 1 S. 6 Nr. 3 UmwStG · Auch ohne Verkauf: Einbringungsgewinn I · Ohne Verkauf?"
+          "text": "4 · Was macht die GmbH? · Auflösung und Abwicklung: voll schädlich. · Kapitalrückzahlung oder Auszahlung aus dem Einlagekonto. · § 22 Abs. 1 S. 6 Nr. 3 UmwStG · Dann schädlich nur, soweit über dem Buchwert der Anteile. · UmwStE vom 02.01.2025, Rn. 22.24 · Auch ohne Verkauf: Einbringungsgewinn I · Ohne Verkauf?"
         },
         {
           "art": "text",
@@ -247,12 +248,17 @@
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "Fast jede Übertragung ist schädlich · Unschädlich: Schenkung an Menschen, Buchwert mit Nachweis · Empfänger prüfen, · Entgelt klären, · Buchwert nachweisen, · Siebtel abziehen. · Speichern für Klausur 3 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 22 UmwStG markiert"
+          "text": "Fast jede Übertragung ist schädlich · Unschädlich: Schenkung an Menschen, Buchwert mit Nachweis · Empfänger prüfen, · Entgelt klären, · Buchwert nachweisen, · Siebtel abziehen. · Speichern für Klausur 3 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 22 + UmwStE markiert"
         },
         {
           "art": "text",
           "titel": "Umwandlungssteuerrecht",
-          "text": "§ 22 UmwStG (Auszug) · schädlich · Grundfall · Rettung · Schenkung ok · Rückwirkung: § 22 Abs. 1 S. 2 UmwStG · Bescheid des Einbringungsjahres wird geändert"
+          "text": "§ 22 UmwStG (Auszug) · schädlich · Grundfall · Rettung · Schenkung ok · Weiterwischen: UmwStE Rn. 22.24 · Einlagenrückgewähr: nur über Buchwert schädlich"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "UmwStE vom 02.01.2025 (Auszug) · Auflösung: voll · Rückzahlung: nur soweit · über Buchwert / AK · Übersteigender Betrag · gilt mit Siebtelregel als Einbringungsgewinn I"
         }
       ]
     },
@@ -546,7 +552,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:24:26Z",
+    "erzeugtAm": "2026-10-03T13:04:06Z",
     "pfad": "vorproduktion/2026-10-19/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
