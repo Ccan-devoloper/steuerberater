@@ -230,7 +230,7 @@ def gesetzesseite(x, y, w, kopf, absaetze_, size=34, kompakt=False):
         if nr: woerter.insert(0, ((f"({nr})" if isinstance(nr, int) else str(nr)), "__nr"))
         cur, cw = [], 0
         for w_, mk in woerter:
-            ww = f.getlength(w_ + " ")
+            ww = (fb if mk == "__nr" else f).getlength(w_ + " ")
             if cw + ww > w - 2 * pad and cur:
                 zeilen.append((yy, cur)); yy += int(size * lh); cur, cw = [], 0
             cur.append((cw, w_, mk)); cw += ww
