@@ -18,7 +18,7 @@
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "08:30",
+        "zeit": "07:00",
         "format": "wochenrueckblick",
         "themaId": "wochenrueckblick-alle-2026-40",
         "themaTitel": "Alle Klausuren kompakt: sechs Dauerbrenner vor dem Examen",
@@ -59,7 +59,7 @@
       },
       {
         "slot": "s1",
-        "zeit": "08:30",
+        "zeit": "07:00",
         "art": "teaser",
         "beitragSlot": "b1"
       },
@@ -310,7 +310,7 @@
         "Merke: Unternehmer immer, Private nur ausnahmsweise."
       ],
       "dauerS": 40.074,
-      "tempo": 1.0
+      "tempo": 1
     },
     "s4": {
       "slot": "s4",
