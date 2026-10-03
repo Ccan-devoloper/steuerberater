@@ -39,7 +39,7 @@
      ],
      "norm": "§ 13b Abs. 2 Nr. 4 UStG",
      "unter": "auf einer Karte",
-     "teaser": "+ Markier-Guide § 13b + UStAE",
+     "teaser": "+ Markier-Guide + UStAE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -411,7 +411,7 @@
      ],
      "norm": "§ 8 Abs. 3 S. 3 KStG",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 8 KStG",
+     "teaser": "+ Markier-Guide § 8 + R 8.9",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -464,7 +464,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 8 KStG markiert"
+     "teaser": "Am Ende: § 8 KStG + R 8.9 markiert"
     },
     {
      "typ": "inhalt",
@@ -507,7 +507,7 @@
        "Wegfall einer Schuld: einlagefähig, anders als bloße Nutzungen.",
        "ok",
        "Regular",
-       "BFH vom 26.10.1987, GrS 2/86"
+       "BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348"
       ],
       [
        "Ein fremder Gläubiger hätte nicht verzichtet: gesellschaftlich veranlasst.",
@@ -546,7 +546,7 @@
      "titel": "Lösung: Schritt 4",
      "normen": [
       "§ 8 Abs. 3 S. 3 KStG",
-      "BFH GrS 1/94"
+      "H 8.9 KStH; BFH GrS 1/94"
      ],
      "zeilen": [
       [
@@ -656,7 +656,7 @@
      ],
      "speichern": "Speichern für Klausur 2",
      "frage": "Hast du den Teilwert geprüft?",
-     "teaser": "Weiterwischen: § 8 KStG markiert"
+     "teaser": "Weiterwischen: § 8 KStG + R 8.9 markiert"
     },
     {
      "typ": "gesetz",
@@ -744,9 +744,97 @@
       "Bewertung: § 6 Abs. 1 Nr. 5 EStG",
       "Teilwert, über § 8 Abs. 1 KStG"
      ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Richtlinie und Hinweis markieren",
+     "kopf": "R 8.9 KStR, H 8.9 KStH (Auszug)",
+     "absaetze": [
+      [
+       "R 8.9 (1)",
+       [
+        [
+         "Eine verdeckte Einlage […] liegt vor, wenn ein Gesellschafter oder eine ihm nahestehende Person der Körperschaft",
+         null
+        ],
+        [
+         "außerhalb der gesellschaftsrechtlichen Einlagen",
+         "g1"
+        ],
+        [
+         "einen",
+         null
+        ],
+        [
+         "einlagefähigen Vermögensvorteil",
+         "b1"
+        ],
+        [
+         "zuwendet und diese Zuwendung durch das Gesellschaftsverhältnis veranlasst ist.",
+         null
+        ]
+       ]
+      ],
+      [
+       "R 8.9 (3) S. 2",
+       [
+        [
+         "Eine Veranlassung durch das Gesellschaftsverhältnis ist nur dann gegeben, wenn",
+         null
+        ],
+        [
+         "ein Nichtgesellschafter",
+         "r1"
+        ],
+        [
+         "bei Anwendung der Sorgfalt eines ordentlichen Kaufmanns den Vermögensvorteil der Gesellschaft nicht eingeräumt hätte, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "H 8.9 Forderungsverzicht",
+       [
+        [
+         "Ein auf dem Gesellschaftsverhältnis beruhender Verzicht eines Gesellschafters auf seine nicht mehr vollwertige Forderung gegenüber seiner Kapitalgesellschaft führt bei dieser zu einer Einlage",
+         null
+        ],
+        [
+         "in Höhe des Teilwerts der Forderung.",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Schritt 1",
+       "g1"
+      ],
+      [
+       "Schritt 2",
+       "b1"
+      ],
+      [
+       "Schritt 3",
+       "r1"
+      ],
+      [
+       "nur 30.000 €",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Nutzungen sind nicht einlagefähig",
+      "BFH GrS 2/86, BStBl II 1988, 348"
+     ]
     }
    ],
-   "caption": "Verdeckte Einlage – das Prüfschema in fünf Schritten für die KSt-Klausur.\n\nFall: Priya (100 %) verzichtet 2026 auf ein privates Darlehen über 50.000 € an ihre angeschlagene Kessler GmbH; die Forderung ist noch 30.000 € wert.\n\n1. Zuwendung eines Gesellschafters oder einer nahestehenden Person außerhalb der gesellschaftsrechtlichen Einlagen (R 8.9 Abs. 1 KStR).\n2. Einlagefähiger Vermögensvorteil: Wegfall einer Verbindlichkeit ja, bloße Nutzungsvorteile nein (BFH vom 26.10.1987, GrS 2/86).\n3. Veranlassung durch das Gesellschaftsverhältnis: Ein Nichtgesellschafter hätte bei der Sorgfalt eines ordentlichen Kaufmanns nicht verzichtet (R 8.9 Abs. 3 KStR).\n4. Wert und Einkommen: Beim Forderungsverzicht ist nur der werthaltige Teil Einlage (BFH vom 09.06.1997, GrS 1/94), Bewertung mit dem Teilwert (§ 6 Abs. 1 Nr. 5 EStG i. V. m. § 8 Abs. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG): 50.000 € Ertrag, 30.000 € außerbilanziell abziehen, 20.000 € bleiben steuerpflichtig. Korrespondenz: keine Kürzung, soweit die Einlage das Einkommen des Gesellschafters gemindert hat (§ 8 Abs. 3 S. 4 KStG).\n5. Folgen: Zugang zum steuerlichen Einlagekonto (§ 27 Abs. 1 KStG); beim Gesellschafter nachträgliche Anschaffungskosten (§ 17 Abs. 2a S. 3 Nr. 1 EStG; im Betriebsvermögen § 6 Abs. 6 S. 2 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Verdeckte Einlage – das Prüfschema in fünf Schritten für die KSt-Klausur.\n\nFall: Priya (100 %) verzichtet 2026 auf ein privates Darlehen über 50.000 € an ihre angeschlagene Kessler GmbH; die Forderung ist noch 30.000 € wert.\n\n1. Zuwendung eines Gesellschafters oder einer nahestehenden Person außerhalb der gesellschaftsrechtlichen Einlagen (R 8.9 Abs. 1 KStR).\n2. Einlagefähiger Vermögensvorteil: Wegfall einer Verbindlichkeit ja, bloße Nutzungsvorteile nein (BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348).\n3. Veranlassung durch das Gesellschaftsverhältnis: Ein Nichtgesellschafter hätte bei der Sorgfalt eines ordentlichen Kaufmanns nicht verzichtet (R 8.9 Abs. 3 KStR).\n4. Wert und Einkommen: Beim Forderungsverzicht ist nur der werthaltige Teil Einlage (H 8.9 KStH; BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307), Bewertung mit dem Teilwert (§ 6 Abs. 1 Nr. 5 EStG i. V. m. § 8 Abs. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG): 50.000 € Ertrag, 30.000 € außerbilanziell abziehen, 20.000 € bleiben steuerpflichtig. Korrespondenz: keine Kürzung, soweit die Einlage das Einkommen des Gesellschafters gemindert hat (§ 8 Abs. 3 S. 4 KStG).\n5. Folgen: Zugang zum steuerlichen Einlagekonto (§ 27 Abs. 1 KStG); beim Gesellschafter nachträgliche Anschaffungskosten (§ 17 Abs. 2a S. 3 Nr. 1 EStG; im Betriebsvermögen § 6 Abs. 6 S. 2 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG, R 8.9 KStR und H 8.9 KStH zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -756,11 +844,12 @@
    "quellen": [
     "§ 8 Abs. 1, Abs. 3 S. 3, 4 KStG",
     "R 8.9 Abs. 1, 3 KStR",
-    "BFH vom 26.10.1987, GrS 2/86",
-    "BFH vom 09.06.1997, GrS 1/94",
+    "BFH vom 26.10.1987, GrS 2/86, BStBl II 1988, 348",
+    "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307",
     "§ 6 Abs. 1 Nr. 5, Abs. 6 S. 2 EStG",
     "§ 27 Abs. 1 KStG",
-    "§ 17 Abs. 2a S. 3 Nr. 1 EStG"
+    "§ 17 Abs. 2a S. 3 Nr. 1 EStG",
+    "H 8.9 KStH"
    ]
   },
   {

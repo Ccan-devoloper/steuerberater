@@ -424,7 +424,7 @@
      ],
      "norm": "§ 122 AO",
      "unter": "in 5 Schritten",
-     "teaser": "+ Markier-Guide § 122 AO",
+     "teaser": "+ Markier-Guide § 122 + AEAO",
      "motiv": {
       "typ": "kalender",
       "monat": "JANUAR",
@@ -463,7 +463,7 @@
        ""
       ]
      ],
-     "teaser": "Am Ende: § 122 AO markiert"
+     "teaser": "Am Ende: § 122 AO + AEAO markiert"
     },
     {
      "typ": "inhalt",
@@ -617,13 +617,13 @@
        "Geheilt, sobald Joon den Bescheid an die Beraterin weiterleitet.",
        "ok",
        "Regular",
-       "AEAO zu § 122 Nr. 1.7"
+       "AEAO zu § 122 Nr. 1.7.4"
       ],
       [
        "Die Frist läuft ab dem nachweisbaren Erhalt bei der Beraterin.",
        "ok",
        "Bold",
-       "AEAO zu § 122 Nr. 1.7"
+       "AEAO zu § 122 Nr. 1.7.4"
       ]
      ],
      "figur": "A:froh",
@@ -681,11 +681,11 @@
      ],
      "speichern": "Speichern für Klausur 1",
      "frage": "Hättest du an die Vollmacht gedacht?",
-     "teaser": "Weiterwischen: § 122 AO markiert"
+     "teaser": "Weiterwischen: § 122 + AEAO markiert"
     },
     {
      "typ": "gesetz",
-     "titel": "Im Gesetz markieren",
+     "titel": "Gesetz und Erlass markieren",
      "kopf": "§ 122 AO (Auszug)",
      "absaetze": [
       [
@@ -756,10 +756,67 @@
      "randnotiz": [
       "Datenabruf: § 122a Abs. 4 AO",
       "auch dort gilt der vierte Tag"
-     ]
+     ],
+     "zweite": {
+      "kopf": "AEAO zu § 122 Nr. 1.7.4",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Wird ein Verwaltungsakt dem betroffenen Steuerpflichtigen bekannt gegeben und hierdurch eine von ihm erteilte Bekanntgabevollmacht zugunsten seines Bevollmächtigten",
+          null
+         ],
+         [
+          "ohne besondere Gründe",
+          "b1"
+         ],
+         [
+          "nicht beachtet, wird der Bekanntgabemangel",
+          null
+         ],
+         [
+          "durch die Weiterleitung des Verwaltungsakts an den Bevollmächtigten geheilt.",
+          "g1"
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Die Frist für einen außergerichtlichen Rechtsbehelf beginnt in dem Zeitpunkt, in dem der Bevollmächtigte den Verwaltungsakt",
+          null
+         ],
+         [
+          "nachweislich erhalten",
+          "r1"
+         ],
+         [
+          "hat […].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "ohne Grund",
+        "b1"
+       ],
+       [
+        "Heilung",
+        "g1"
+       ],
+       [
+        "Fristbeginn",
+        "r1"
+       ]
+      ]
+     }
     }
    ],
-   "caption": "Ist der Bescheid wirksam bekannt gegeben? Das Prüfschema in fünf Schritten für Klausur 1.\n\n1. Für wen bestimmt: Bekanntgabe an den Beteiligten, für den der Verwaltungsakt bestimmt ist oder der von ihm betroffen wird (§ 122 Abs. 1 S. 1 AO). Wirksam wird er erst mit der Bekanntgabe und mit deren Inhalt (§ 124 Abs. 1 AO).\n2. An wen: an den Steuerpflichtigen oder den Bevollmächtigten; bei schriftlicher oder elektronisch übermittelter Empfangsvollmacht soll an den Bevollmächtigten bekannt gegeben werden (§ 122 Abs. 1 S. 3, 4 AO). Ehegatten: eine Ausfertigung an die gemeinsame Anschrift genügt (§ 122 Abs. 7 S. 1 AO).\n3. Weg: Post (§ 122 Abs. 2 AO), Bereitstellung zum Datenabruf (§ 122a AO) oder Zustellung (§ 122 Abs. 5 AO).\n4. Zugang: Der Bescheid muss in den Machtbereich gelangt sein; ob er gelesen wird, spielt keine Rolle. Bei unverschuldeter Fristversäumnis: Wiedereinsetzung (§ 110 AO).\n5. Zeitpunkt: vierter Tag nach Aufgabe zur Post bzw. nach Bereitstellung, im Zweifel weist die Behörde den Zugang nach (§ 122 Abs. 2 Nr. 1, § 122a Abs. 4 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO).\n\nFall: Bescheid trotz Empfangsvollmacht ohne besonderen Grund an den Steuerpflichtigen: Bekanntgabemangel, geheilt durch Weiterleitung an den Bevollmächtigten; die Frist beginnt mit dem nachweislichen Erhalt dort (AEAO zu § 122 Nr. 1.7).\n\nZum Schluss: § 122 AO zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Ist der Bescheid wirksam bekannt gegeben? Das Prüfschema in fünf Schritten für Klausur 1.\n\n1. Für wen bestimmt: Bekanntgabe an den Beteiligten, für den der Verwaltungsakt bestimmt ist oder der von ihm betroffen wird (§ 122 Abs. 1 S. 1 AO). Wirksam wird er erst mit der Bekanntgabe und mit deren Inhalt (§ 124 Abs. 1 AO).\n2. An wen: an den Steuerpflichtigen oder den Bevollmächtigten; bei schriftlicher oder elektronisch übermittelter Empfangsvollmacht soll an den Bevollmächtigten bekannt gegeben werden (§ 122 Abs. 1 S. 3, 4 AO). Ehegatten: eine Ausfertigung an die gemeinsame Anschrift genügt (§ 122 Abs. 7 S. 1 AO).\n3. Weg: Post (§ 122 Abs. 2 AO), Bereitstellung zum Datenabruf (§ 122a AO) oder Zustellung (§ 122 Abs. 5 AO).\n4. Zugang: Der Bescheid muss in den Machtbereich gelangt sein; ob er gelesen wird, spielt keine Rolle. Bei unverschuldeter Fristversäumnis: Wiedereinsetzung (§ 110 AO).\n5. Zeitpunkt: vierter Tag nach Aufgabe zur Post bzw. nach Bereitstellung, im Zweifel weist die Behörde den Zugang nach (§ 122 Abs. 2 Nr. 1, § 122a Abs. 4 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO).\n\nFall: Bescheid trotz Empfangsvollmacht ohne besonderen Grund an den Steuerpflichtigen: Bekanntgabemangel, geheilt durch Weiterleitung an den Bevollmächtigten; die Frist beginnt mit dem nachweislichen Erhalt dort (AEAO zu § 122 Nr. 1.7.4).\n\nZum Schluss: § 122 AO und AEAO zu § 122 Nr. 1.7.4 zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -772,7 +829,7 @@
     "§ 124 Abs. 1 AO",
     "§ 355 Abs. 1 S. 1 AO",
     "§ 110 AO",
-    "AEAO zu § 122 Nr. 1.7"
+    "AEAO zu § 122 Nr. 1.7.3, 1.7.4"
    ]
   },
   {

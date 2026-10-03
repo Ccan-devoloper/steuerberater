@@ -442,7 +442,7 @@
      ],
      "norm": "§ 15 Abs. 2 S. 8 UmwStG",
      "unter": "Die Frage",
-     "teaser": "+ Markier-Guide § 15 UmwStG",
+     "teaser": "+ Markier-Guide § 15 + UmwStE",
      "motiv": {
       "typ": "zahlblock",
       "zeilen": [
@@ -650,7 +650,7 @@
      ],
      "speichern": "Speichern für Klausur 3",
      "frage": "Hättest du die Vorbesitzzeit geprüft?",
-     "teaser": "Weiterwischen: § 15 UmwStG markiert"
+     "teaser": "Weiterwischen: § 15 + UmwStE markiert"
     },
     {
      "typ": "gesetz",
@@ -715,12 +715,96 @@
       ]
      ],
      "randnotiz": [
-      "Randnotiz: BMF vom 02.01.2025, Rn. 15.38",
-      "GmbH jünger als 5 Jahre: Trennung nicht neutral"
+      "Danach 5 Jahre kein Verkauf an Fremde",
+      "§ 15 Abs. 2 S. 2–4 UmwStG"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "UmwStE 2025 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 15.36",
+       [
+        [
+         "Bei der Trennung von Gesellschafterstämmen setzt die Anwendung des § 11 Absatz 2 UmwStG voraus, dass die Beteiligungen an der übertragenden Körperschaft",
+         null
+        ],
+        [
+         "mindestens fünf Jahre",
+         "g1"
+        ],
+        [
+         "bestanden haben (§ 15 Absatz 2 Satz 8 UmwStG). Änderungen in der Beteiligungshöhe innerhalb der Fünfjahresfrist bei Fortdauer der Beteiligung dem Grunde nach",
+         null
+        ],
+        [
+         "sind unschädlich.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "Rn. 15.37",
+       [
+        [
+         "Eine Trennung von Gesellschafterstämmen liegt vor, wenn im Fall der Aufspaltung an den übernehmenden Körperschaften […]",
+         null
+        ],
+        [
+         "nicht mehr alle Anteilsinhaber",
+         "b1"
+        ],
+        [
+         "der übertragenden Körperschaft beteiligt sind.",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 15.38",
+       [
+        [
+         "Hat die übertragende Körperschaft",
+         null
+        ],
+        [
+         "noch keine fünf Jahre bestanden,",
+         "r1"
+        ],
+        [
+         "ist grundsätzlich eine steuerneutrale Trennung von Gesellschafterstämmen im Wege der Spaltung nicht möglich.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Vorbesitz",
+       "g1"
+      ],
+      [
+       "Quote egal",
+       "gr1"
+      ],
+      [
+       "getrennt",
+       "b1"
+      ],
+      [
+       "junge GmbH: nein",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Rasmus seit März 2023 dabei",
+      "Fünf Jahre bis 31.12.2026 nicht erfüllt"
      ]
     }
    ],
-   "caption": "Aufspaltung zur Trennung von Gesellschafterstämmen: Wann geht der Buchwert verloren? Eine Prüfungsfrage für Klausur 3.\n\n▸ Grundvoraussetzung: Auf jede Übernehmerin geht ein Teilbetrieb über (§ 15 Abs. 1 S. 2 UmwStG); dann ist der Buchwertansatz nach § 11 Abs. 2 UmwStG möglich.\n▸ Trennung von Gesellschafterstämmen: Nach der Aufspaltung sind nicht mehr alle Anteilsinhaber an allen übernehmenden Körperschaften beteiligt (BMF vom 02.01.2025, UmwStE Rn. 15.37).\n▸ Dann müssen die Beteiligungen an der übertragenden Körperschaft mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag bestanden haben (§ 15 Abs. 2 S. 8 UmwStG); Änderungen der Beteiligungshöhe sind unschädlich (Rn. 15.36). Besteht die übertragende Körperschaft noch keine fünf Jahre, ist eine steuerneutrale Trennung grundsätzlich nicht möglich (Rn. 15.38).\n▸ Fehlt der Vorbesitz, gilt der gemeine Wert (§ 11 Abs. 1 UmwStG).\n▸ Daneben: keine Veräußerung an außenstehende Personen innerhalb von fünf Jahren (§ 15 Abs. 2 S. 2–4 UmwStG).\n\nLösung: Rasmus seit März 2023 beteiligt, also kein Buchwert. Variante seit 2019: Buchwert möglich.\n\nZum Schluss: § 15 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Aufspaltung zur Trennung von Gesellschafterstämmen: Wann geht der Buchwert verloren? Eine Prüfungsfrage für Klausur 3.\n\n▸ Grundvoraussetzung: Auf jede Übernehmerin geht ein Teilbetrieb über (§ 15 Abs. 1 S. 2 UmwStG); dann ist der Buchwertansatz nach § 11 Abs. 2 UmwStG möglich.\n▸ Trennung von Gesellschafterstämmen: Nach der Aufspaltung sind nicht mehr alle Anteilsinhaber an allen übernehmenden Körperschaften beteiligt (BMF vom 02.01.2025, UmwStE Rn. 15.37).\n▸ Dann müssen die Beteiligungen an der übertragenden Körperschaft mindestens fünf Jahre vor dem steuerlichen Übertragungsstichtag bestanden haben (§ 15 Abs. 2 S. 8 UmwStG); Änderungen der Beteiligungshöhe sind unschädlich (Rn. 15.36). Besteht die übertragende Körperschaft noch keine fünf Jahre, ist eine steuerneutrale Trennung grundsätzlich nicht möglich (Rn. 15.38).\n▸ Fehlt der Vorbesitz, gilt der gemeine Wert (§ 11 Abs. 1 UmwStG).\n▸ Daneben: keine Veräußerung an außenstehende Personen innerhalb von fünf Jahren (§ 15 Abs. 2 S. 2–4 UmwStG).\n\nLösung: Rasmus seit März 2023 beteiligt, also kein Buchwert. Variante seit 2019: Buchwert möglich.\n\nZum Schluss: § 15 UmwStG und UmwStE Rn. 15.36–15.38 zum Markieren. Speichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
