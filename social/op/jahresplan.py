@@ -99,6 +99,10 @@ def main():
                  "hinweis": "kurzes Reel (≤ 30 s): drei Dauerbrenner für den nächsten Tag" if nr < 3 else "kurzes Reel (≤ 30 s): Geschafft – was jetzt kommt"}]
         else:
             for slot, fmt, k, zeit in (("b1", f1, folge[0], "08:30"), ("b2", f2, folge[1], "13:30")):
+                if fmt == "wochenrueckblick":     # fachübergreifend (lila): Dauerbrenner der Woche aus K1, K2 und K3
+                    eintrag["beitraege"].append({"slot": slot, "zeit": zeit, "format": fmt, "badge": BADGE[fmt], "klausur": 0, "fach": None,
+                                                 "fachLabel": "Alle Klausuren", "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"})
+                    continue
                 fach, t = thema_fuer(k, "karussell", TYPEN.get(fmt, ["modul"]), tag)
                 b = {"slot": slot, "zeit": zeit, "format": fmt, "badge": BADGE.get(fmt), "klausur": k, "fach": fach, "fachLabel": FACHLABEL[fach]}
                 if t: b.update(themaId=t["id"], themaTitel=t["titel"], themaTyp=t["typ"])

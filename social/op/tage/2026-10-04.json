@@ -862,7 +862,7 @@
     "cta_wort": "ausnahmsweise",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Darf das Finanzamt auch bei Angestellten eine Außenprüfung machen? 🧾\n\n▸ Ohne besonderen Anlass zulässig bei Gewerbetreibenden, Land- und Forstwirten, freiberuflich Tätigen und Steuerpflichtigen im Sinne des § 147a AO (§ 193 Abs. 1 AO).\n▸ Bei anderen nur, soweit es um Steuern geht, die sie für andere einbehalten und abführen, wenn eine Prüfung an Amtsstelle nicht zweckmäßig ist, oder bei Verstößen gegen Mitwirkungspflichten nach § 12 StAbwG (§ 193 Abs. 2 Nr. 1–3 AO).\n▸ Nachschau und betriebsnahe Veranlagung sind keine Außenprüfung und hemmen den Ablauf der Festsetzungsfrist nicht (§ 171 Abs. 4 AO).\n\nSpeichern für Klausur 1 📌",
+   "caption": "Darf das Finanzamt auch bei Angestellten eine Außenprüfung machen? 🧾\n\n▸ Ohne besonderen Anlass zulässig bei Gewerbetreibenden, Land- und Forstwirten, freiberuflich Tätigen und Steuerpflichtigen im Sinne des § 147a AO (§ 193 Abs. 1 AO).\n▸ Bei anderen nur, soweit es um Steuern geht, die sie für andere einbehalten und abführen, wenn eine Prüfung an Amtsstelle nicht zweckmäßig ist, oder bei Verstößen gegen Mitwirkungspflichten nach § 12 StAbwG (§ 193 Abs. 2 Nr. 1–3 AO).\n▸ Eine Nachschau (etwa nach § 27b UStG oder § 42g EStG) ist keine Außenprüfung und hemmt den Ablauf der Festsetzungsfrist nicht (§ 171 Abs. 4 AO).\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -873,7 +873,9 @@
     "§ 193 Abs. 1, 2 AO",
     "§ 147a AO",
     "§ 171 Abs. 4 AO",
-    "§ 12 StAbwG"
+    "§ 12 StAbwG",
+    "§ 27b UStG",
+    "§ 42g EStG"
    ]
   }
  ],
@@ -967,7 +969,7 @@
     [
      "Nicht: Land- und Forstwirtschaft, freier Beruf, Vermögensverwaltung.",
      "nein",
-     "R 15.7 Abs. 1 EStR"
+     "§ 15 Abs. 2 S. 1 EStG, R 15.7 Abs. 1 EStR"
     ]
    ],
    "figuren": {

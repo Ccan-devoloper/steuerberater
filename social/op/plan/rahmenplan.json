@@ -16,10 +16,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 2,
-     "fach": "est",
-     "fachLabel": "Einkommensteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -72,7 +72,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 2,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -759,10 +759,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 3,
-     "fach": "bilanz",
-     "fachLabel": "Bilanzsteuerrecht",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -815,7 +815,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 3,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -1672,10 +1672,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 1,
-     "fach": "ust",
-     "fachLabel": "Umsatzsteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -1728,7 +1728,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 1,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -2585,10 +2585,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 2,
-     "fach": "kst",
-     "fachLabel": "Körperschaftsteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -2641,7 +2641,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 2,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -3498,10 +3498,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 3,
-     "fach": "umwst",
-     "fachLabel": "Umwandlungssteuerrecht",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -3550,7 +3550,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 3,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -4399,10 +4399,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 1,
-     "fach": "ao",
-     "fachLabel": "Abgabenordnung",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -4455,7 +4455,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 1,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -5304,10 +5304,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 2,
-     "fach": "gewst",
-     "fachLabel": "Gewerbesteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -5356,7 +5356,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 2,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -6197,10 +6197,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 3,
-     "fach": "persg",
-     "fachLabel": "Personengesellschaften",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -6249,7 +6249,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 3,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -7090,10 +7090,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 1,
-     "fach": "erbst",
-     "fachLabel": "Erbschaftsteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -7146,7 +7146,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 1,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -7987,10 +7987,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 2,
-     "fach": "gewst",
-     "fachLabel": "Gewerbesteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -8043,7 +8043,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 2,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -8900,10 +8900,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 3,
-     "fach": "umwst",
-     "fachLabel": "Umwandlungssteuerrecht",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -8956,7 +8956,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 3,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -9813,10 +9813,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 1,
-     "fach": "ust",
-     "fachLabel": "Umsatzsteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -9869,7 +9869,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 1,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
@@ -10726,10 +10726,10 @@
      "zeit": "08:30",
      "format": "wochenrueckblick",
      "badge": "Wochenrückblick",
-     "klausur": 2,
-     "fach": "gewst",
-     "fachLabel": "Gewerbesteuer",
-     "themaFrei": "eigenes Thema aus src/data dieses Fachs wählen (nicht im Pool/zuletzt verwendet)"
+     "klausur": 0,
+     "fach": null,
+     "fachLabel": "Alle Klausuren",
+     "hinweis": "je Klausur 1–2 Themen, die Mo–Sa davor in Beiträgen vorkamen"
     },
     {
      "slot": "b2",
@@ -10782,7 +10782,7 @@
      "slot": "s1",
      "zeit": "08:30",
      "art": "teaser",
-     "klausur": 2,
+     "klausur": 0,
      "beitragSlot": "b1"
     },
     {
