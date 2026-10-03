@@ -5065,19 +5065,19 @@
         "#kopfsache"
       ],
       "insights": {
-        "reach": 66,
+        "reach": 69,
         "saved": 1,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 3,
-        "views": 93,
-        "ig_reels_avg_watch_time": 14216,
-        "ig_reels_video_view_total_time": 1066253,
-        "reels_skip_rate": 39.7
+        "views": 96,
+        "ig_reels_avg_watch_time": 14544,
+        "ig_reels_video_view_total_time": 1134486,
+        "reels_skip_rate": 38
       },
-      "insightsStand": "2026-10-02T09:44:33.398Z",
-      "insightsAlterStunden": 143.5
+      "insightsStand": "2026-10-03T09:44:47.503Z",
+      "insightsAlterStunden": 167.5
     },
     {
       "datum": "2026-09-26",
@@ -7105,21 +7105,21 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 28,
-        "views": 37,
+        "reach": 31,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 36,
+        "navigation": 40,
         "navigation_tap_back": 2,
-        "navigation_tap_forward": 28,
-        "navigation_tap_exit": 6
+        "navigation_tap_forward": 30,
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-10-03T05:45:49.333Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-10-03T09:44:45.559Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-02",
@@ -7297,17 +7297,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 35,
         "saved": 4,
         "shares": 0,
-        "likes": 0,
-        "comments": 0,
-        "total_interactions": 4,
+        "likes": 1,
+        "comments": 1,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T07:44:08.860Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-03T09:44:47.503Z",
+      "insightsAlterStunden": 4
     },
     {
       "datum": "2026-10-03",
