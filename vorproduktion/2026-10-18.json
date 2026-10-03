@@ -4,38 +4,33 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "erbst-modul-erbst-531",
-        "themaTitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
-        "fach": "erbst",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-k1-2026-42",
+        "themaTitel": "Klausur 1 kompakt: fünf Dauerbrenner der Woche",
+        "fach": "ust",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "istr-modul-istr-istr2-09",
-        "themaTitel": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
+        "format": "pruefungsfrage",
+        "themaId": "istr-aufb-istr-gh-4-04",
+        "themaTitel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
         "fach": "istr",
         "klausur": 2
       },
@@ -43,11 +38,10 @@
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "umwst-aufb-umw-2-25",
-        "themaTitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-        "fach": "umwst",
-        "klausur": 3,
-        "lang": true
+        "themaId": "bilanz-formel-latente-steuern",
+        "themaTitel": "Latente Steuern",
+        "fach": "bilanz",
+        "klausur": 3
       }
     ],
     "stories": [
@@ -55,570 +49,462 @@
         "slot": "s4",
         "zeit": "07:07",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-43"
+        "themaId": "persg-quiz-persg-5"
       },
       {
         "slot": "s5",
-        "zeit": "07:07",
+        "zeit": "07:09",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-43"
+        "themaId": "persg-quiz-persg-5"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
-        "zeit": "11:53",
+        "zeit": "12:14",
         "art": "norm",
-        "themaId": "ao-modul-ao-304"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:21",
-        "art": "fehler",
-        "themaId": "ao-modul-ao-312"
+        "themaId": "erbst-aufb-erbst-v-25"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
       },
       {
         "slot": "s8",
-        "zeit": "16:52",
+        "zeit": "17:04",
         "art": "tipp",
-        "themaId": "ao-modul-ao-338"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:24",
-        "art": "tipp",
-        "themaId": "ao-aufb-ao-jacobs-7-17"
+        "themaId": "istr-aufb-istr-gh-4-10"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-2-45"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "erbst",
+      "format": "wochenrueckblick",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-modul-erbst-531",
-      "slug": "2026-10-18-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Kapitalwert = Jahreswert × Vervielfältiger: befristet nach Anlage 9a (§ 13 Abs. 1 BewG), unbestimmte Dauer 9,3 (§ 13 Abs. 2 BewG), lebenslang nach Alter und Geschlecht (§ 14 Abs. 1 BewG).",
-            "Jahreswert (§ 15 BewG): Geldrente mit ihrem Jahresbetrag, Nutzung einer Geldsumme mit 5,5 %, Sachleistungen mit üblichen Mittelpreisen; bei Nutzungen höchstens Wert des Wirtschaftsguts geteilt durch 18,6 (§ 16 BewG)."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Art bestimmen: Nutzungsrecht wie Wohnrecht oder Nießbrauch, wiederkehrende Leistung wie Rente oder Pflege; dazu die Laufzeit."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Jahreswert nach § 15 BewG ermitteln, bei Nutzungen die Grenze des § 16 BewG prüfen und mit dem passenden Vervielfältiger aus § 13 oder § 14 BewG multiplizieren."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Erst den Jahreswert nach §§ 15, 16 BewG, dann den Vervielfältiger nach der Laufzeit: befristet § 13 BewG, lebenslang § 14 BewG. Das Produkt ist der Kapitalwert."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Wohnrecht, Nießbrauch, Rente oder Pflegeleistung: Der Kapitalwert ist Jahreswert mal Vervielfältiger. Den Jahreswert liefern §§ 15, 16 BewG, den Vervielfältiger § 13 BewG für befristete und § 14 BewG für lebenslange Rechte.",
+      "fachLabel": "AO · USt · ErbSt",
+      "themaId": "wochenrueckblick-k1-2026-42",
+      "caption": "Klausur 1 kompakt: fünf Dauerbrenner der Woche.\n\n1. Ablaufhemmung: Ein Antrag außerhalb von Einspruch und Klage hemmt nur, soweit er reicht (§ 171 Abs. 3 AO); ein zulässiger Einspruch hemmt hinsichtlich des gesamten Steueranspruchs (§ 171 Abs. 3a S. 2 AO).\n2. Nachlassverbindlichkeiten: 15.000 € pauschal für Bestattung und Abwicklung je Erbfall (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Schulden zu steuerbefreitem Vermögen sind nicht abzugsfähig (§ 10 Abs. 6a S. 1 ErbStG).\n3. Reihengeschäft: Der Transport bestimmt die bewegte Lieferung (§ 3 Abs. 6a UStG); nur sie kann steuerfreie innergemeinschaftliche Lieferung sein (§ 4 Nr. 1 Buchst. b, § 6a UStG); ruhende Lieferungen am Beginn oder Ende (§ 3 Abs. 7 S. 2 UStG).\n4. Lohnsumme: 400 % in fünf Jahren (§ 13a Abs. 3 S. 1 ErbStG); bei Unterschreitung sinkt der Abschlag im selben Verhältnis (§ 13a Abs. 3 S. 5 ErbStG).\n5. Neue Tatsachen: grobes Verschulden unbeachtlich bei Zusammenhang mit Tatsachen nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO); weitere materielle Fehler über § 177 Abs. 1 AO.\n\nZum Schluss: § 3 Abs. 7 UStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht,…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 15 Abs. 1 BewG",
-        "§ 15 Abs. 2 BewG",
-        "§ 15 Abs. 3 BewG",
-        "§ 16 BewG",
-        "§ 13 BewG",
-        "§ 14 BewG",
-        "§§ 13–16 BewG",
-        "§ 15 Abs. 1–3 BewG",
-        "Themenpool: erbst-modul-erbst-531"
+        "§ 171 Abs. 3, 3a AO",
+        "§ 10 Abs. 5 Nr. 3, Abs. 6a ErbStG",
+        "§ 3 Abs. 6a, 7 UStG",
+        "§ 4 Nr. 1 Buchst. b, § 6a UStG",
+        "§ 13a Abs. 3 ErbStG",
+        "§ 173 Abs. 1 Nr. 2 AO",
+        "§ 177 Abs. 1 AO"
       ],
-      "coverRegie": {
-        "thema": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-18-b1-erbst-modul-erbst-531-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-18-b1",
+      "kurztitel": "Klausur 1 kompakt: fünf Dauerbrenner der Woche",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "themaId": "istr-modul-istr-istr2-09",
-      "slug": "2026-10-18-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
       "folien": [
         {
           "art": "titel",
-          "titel": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Klausur 1 · kompakt · 5 Dauerbrenner · + Markier-Guide § 3 UStG · OKTOBER · 18 · So · Rückblick",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Zuerst klärt das EStG, ob Deutschland besteuern darf. Ein DBA kann diesen Zugriff nur beschränken, nie begründen.",
-            "Bei beschränkter Steuerpflicht muss eine inländische Einkunft nach § 49 EStG vorliegen, bevor du das DBA überhaupt prüfst."
-          ]
+          "titel": "AO · USt · ErbSt",
+          "text": "Die 5 Dauerbrenner · Ablaufhemmung · § 171 Abs. 3, 3a AO · Nachlassverbindlichkeiten · § 10 Abs. 5, 6a ErbStG · Reihengeschäft · § 3 Abs. 6a, 7 UStG · Lohnsumme · § 13a Abs. 3 ErbStG · Neue Tatsachen · §§ 173, 177 AO · Am Ende: § 3 Abs. 7 UStG markiert"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Steuerpflicht nach § 1 EStG: unbeschränkt bei Wohnsitz oder gewöhnlichem Aufenthalt im Inland, sonst beschränkt, wenn inländische Einkünfte vorliegen (§ 1 Abs. 4 EStG)."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Einkünfte zuordnen; bei beschränkter Steuerpflicht den Inlandsbezug nach § 49 EStG prüfen."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "DBA anwenden, dann zurück ins EStG: freigestellte Einkünfte über den Progressionsvorbehalt (§ 32b EStG), sonst Anrechnung (§ 34c EStG)."
-            }
-          ]
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "1 · Ablaufhemmung · Ein Änderungsantrag hemmt die Festsetzungsfrist nur, soweit er reicht. · § 171 Abs. 3 AO · Ein zulässiger Einspruch hemmt den gesamten Steueranspruch. · § 171 Abs. 3a S. 2 AO · Nachschieben? Nur mit Einspruch."
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Das nationale Recht begründet den Steueranspruch, das DBA kann ihn nur beschränken. Danach kehrst du ins EStG zurück: Progressionsvorbehalt oder Anrechnung."
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "2 · Nachlassverbindlichkeiten · Für Bestattung und Abwicklung pauschal 15.000 €, je Erbfall. · § 10 Abs. 5 Nr. 3 S. 2 ErbStG · Schulden zu steuerbefreitem Vermögen sind nicht abzugsfähig. · § 10 Abs. 6a S. 1 ErbStG · Familienheim-Darlehen?"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Thema für die nächste Wiederholung speichern"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "buch"
-          ]
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "3 · Reihengeschäft · Wer transportiert, bestimmt die bewegte Lieferung. · § 3 Abs. 6a S. 2–5 UStG · Nur sie kann als innergemeinschaftliche Lieferung steuerfrei sein. · § 6a UStG · Ruhende davor: Ort am Beginn, danach: am Ende. · § 3 Abs. 7 S. 2 UStG · Transport zuerst!"
+        },
+        {
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "4 · Lohnsumme · Regelverschonung: 400 % der Ausgangslohnsumme in fünf Jahren. · § 13a Abs. 3 S. 1 ErbStG · Verfehlt? Abschlag sinkt im selben Verhältnis, nicht um Prozentpunkte. · § 13a Abs. 3 S. 5 ErbStG · 76,5 %, nicht 75 %."
+        },
+        {
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "5 · Neue Tatsachen · Grobes Verschulden ist unbeachtlich bei Zusammenhang mit einer steuererhöhenden Tatsache. · § 173 Abs. 1 Nr. 2 S. 2 AO · Übrige Fehler rechnet § 177 AO gegen, soweit die Änderung reicht. · § 177 Abs. 1 AO · Nichts verschenken!"
+        },
+        {
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "Woche 42: Klausur 1 · AO, Umsatzsteuer, Erbschaftsteuer · Antrag hemmt nur soweit, · Pauschale je Erbfall, · Transport entscheidet, · Zusammenhang hilft. · Speichern für Klausur 1 · Welcher Punkt sitzt noch nicht? · Weiterwischen: § 3 UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "AO · USt · ErbSt",
+          "text": "ruhende Lieferung · davor: Beginn · danach: Ende · Bewegte Lieferung: § 3 Abs. 6 S. 1 UStG · Ort, wo der Transport beginnt"
         }
-      ],
-      "caption": "Klausurtechnik im Internationalen Steuerrecht: Erst klärt das EStG, ob Deutschland besteuern darf (§§ 1, 49 EStG). Dann begrenzt ein DBA den Zugriff. Zum Schluss setzt du das Ergebnis im EStG um, etwa über den Progressionsvorbehalt nach § 32b EStG oder die Anrechnung nach § 34c EStG.",
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-04",
+      "caption": "Prüfungsfrage: Darf der Gesetzgeber ein DBA einseitig überspielen?\n\nFall: Wohnsitz in Köln, Arbeitslohn aus dem DBA-Ausland, nach dem Abkommen freizustellen – aber kein Nachweis über Besteuerung oder Verzicht.\n\n▸ Freistellung von Arbeitslohn bei der Veranlagung ungeachtet des Abkommens nur, soweit der Steuerpflichtige den Verzicht des anderen Staates oder die Entrichtung der dort festgesetzten Steuern nachweist (§ 50d Abs. 8 S. 1 EStG). Späterer Nachweis: Änderung des Bescheids (§ 50d Abs. 8 S. 2 EStG).\n▸ DBA gelten innerstaatlich über das Zustimmungsgesetz (Art. 59 Abs. 2 S. 1 GG) und haben den Rang eines einfachen Bundesgesetzes; ein späteres Gesetz kann abweichen. Treaty Override ist verfassungsrechtlich zulässig (BVerfG vom 15.12.2015, 2 BvL 1/12).\n▸ Vorrang vor Bundesgesetzen haben nur die allgemeinen Regeln des Völkerrechts (Art. 25 GG), nicht einzelne Abkommen.\n▸ Weiterer Override: Freistellung entfällt u. a., wenn der andere Staat das DBA so anwendet, dass er die Einkünfte ebenfalls freistellt (§ 50d Abs. 9 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 50d Abs. 8 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ],
-      "kurztitel": "Klausurtechnik: nationaler Steuerzugriff → DBA →…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1 EStG",
-        "§ 49 EStG",
-        "§ 50 EStG",
-        "Art. 1–23 DBA",
-        "§ 32b EStG",
-        "DBA AAVV",
-        "§ 50 / § 32b EStG",
-        "§ 34c EStG",
-        "Themenpool: istr-modul-istr-istr2-09"
+        "§ 50d Abs. 8, 9 EStG",
+        "Art. 59 Abs. 2 S. 1 GG",
+        "Art. 25 GG",
+        "BVerfG vom 15.12.2015, 2 BvL 1/12"
       ],
-      "coverRegie": {
-        "thema": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur läuft mit einem Koffer durch zwei Grenztore; die andere sortiert die Zugriffswege vor der Kreuzung.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-18-b2-istr-modul-istr-istr2-09-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-18-b2",
+      "kurztitel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · DBA einseitig · überspielen? · § 50d Abs. 8 EStG · Treaty Override · + Markier-Guide § 50d EStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Der Fall · Sven wohnt in Köln und arbeitet 2026 acht Monate auf einer Baustelle im DBA-Ausland. · Nach dem DBA wäre sein Lohn in Deutschland freizustellen. · Einen Nachweis über Steuerzahlung oder Verzicht im Ausland hat er nicht. · Das DBA schützt mich!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Jetzt du · Darf das Finanzamt den Lohn trotz DBA besteuern? · Denk an den Rang, den ein DBA im deutschen Recht hat. · Lösung: weiterwischen · Völkerrecht geht vor?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: ja · Freistellung von Arbeitslohn nur mit Nachweis der Besteuerung oder des Verzichts im anderen Staat. · § 50d Abs. 8 S. 1 EStG · Ohne Nachweis wird der Lohn in Deutschland besteuert. · Kommt der Nachweis später, wird der Bescheid geändert. · § 50d Abs. 8 S. 2 EStG · Trotz Abkommen?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Warum darf er das? · Ein DBA gilt im Inland erst durch ein Zustimmungsgesetz. · Art. 59 Abs. 2 S. 1 GG · Es hat damit nur den Rang eines einfachen Bundesgesetzes. · Ein späteres Gesetz darf abweichen: Treaty Override ist zulässig. · BVerfG vom 15.12.2015, 2 BvL 1/12 · Später schlägt früher."
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Völkerrecht geht vor? · Vorrang haben nur die allgemeinen Regeln des Völkerrechts. · Art. 25 GG · Ein DBA ist ein einzelner Vertrag und gehört nicht dazu. · Also kein Schutz?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Auch § 50d Abs. 9 EStG · Stellt der andere Staat die Einkünfte nach seiner DBA-Auslegung ebenfalls frei, entfällt die deutsche Freistellung. · § 50d Abs. 9 S. 1 Nr. 1 EStG · Ziel: keine Einkünfte, die nirgends besteuert werden. · Doppelt frei geht nicht."
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: Ja, ohne Nachweis wird besteuert · § 50d Abs. 8 EStG überspielt das DBA · DBA ist einfaches · Bundesgesetz: · Später geht vor, · Override ist zulässig. · Speichern für Klausur 2 · Kennst du einen weiteren Override? · Weiterwischen: § 50d EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Treaty Override · Beweislast · Verzicht oder Zahlung · Änderung später · BVerfG vom 15.12.2015, 2 BvL 1/12 · Treaty Override verfassungsgemäß"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "umwst",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-25",
-      "slug": "2026-10-18-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-          "unter": "Umwandlungssteuerrecht",
-          "text": "Sonstige Gegenleistung: Grenzen nach § 20 Abs. 2 S. 2 Nr. 4 UmwStG.",
-          "norm": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
-          "icon": null,
-          "sprecher": "Du bringst deinen Betrieb in eine GmbH ein und bekommst neben neuen Anteilen noch Geld oder ein Darlehen. Bis zu welcher Grenze bleibt der Buchwert möglich?",
-          "marken": [
-            "Anteile plus Geld",
-            "Buchwert noch möglich?"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Grenze: 25 % oder 500.000 €, max. Buchwert",
-          "text": null,
-          "norm": "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
-          "icon": null,
-          "sprecher": "Die sonstige Gegenleistung darf höchstens 25 Prozent des eingebrachten Buchwerts betragen oder 500.000 Euro, aber nie mehr als den Buchwert selbst. Es gilt die für dich günstigere Grenze.",
-          "marken": [
-            "25 % oder 500.000 €",
-            "Deckel: der Buchwert"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Überschritten: stille Reserven anteilig",
-          "text": null,
-          "norm": "§ 20 Abs. 2 S. 4, Abs. 3 S. 3 UmwStG",
-          "icon": null,
-          "sprecher": "Schädlich ist nur der Teil über der Grenze, in diesem Verhältnis werden stille Reserven aufgedeckt. Angesetzt wird mindestens der gemeine Wert der gesamten sonstigen Gegenleistung. Die Anschaffungskosten der neuen Anteile sinken um diese Gegenleistung.",
-          "marken": [
-            "Überhang deckt Reserven auf",
-            "Anteils-AK sinken"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 € (maximal Buchwert) ist unschädlich. Darüber wird anteilig aufgedeckt, und die Anschaffungskosten der Anteile sinken um die Gegenleistung (§ 20 Abs. 3 S. 3 UmwStG).",
-          "sprecher": "Merke: 25 Prozent oder 500.000 Euro, gedeckelt auf den Buchwert. Was darüber liegt, kostet anteilig stille Reserven.",
-          "marken": [
-            "Unschädlich bis zur Grenze"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Wie viel Geld darf man neben den neuen Anteilen erhalten? Bei der Einbringung nach § 20 UmwStG bleibt der Buchwert möglich, solange die sonstige Gegenleistung höchstens 25 % des eingebrachten Buchwerts oder 500.000 € beträgt, maximal den Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Der Überhang führt zu einer anteiligen Aufdeckung stiller Reserven; zugleich mindern sich die Anschaffungskosten der erhaltenen Anteile um die Gegenleistung (§ 20 Abs. 3 S. 3 UmwStG).",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-formel-latente-steuern",
+      "caption": "Latente Steuern nach § 274 HGB: Belastung muss, Entlastung kann. 📊\n\n▸ Differenzen zwischen handelsrechtlichen und steuerlichen Wertansätzen, die sich später voraussichtlich abbauen: Eine insgesamt entstehende Steuerbelastung ist als passive latente Steuer anzusetzen, eine Steuerentlastung kann als aktive latente Steuer angesetzt werden (§ 274 Abs. 1 S. 1, 2 HGB).\n▸ Verlustvorträge zählen bei aktiven latenten Steuern in Höhe der in den nächsten fünf Jahren erwarteten Verrechnung (§ 274 Abs. 1 S. 4 HGB).\n▸ Bewertung mit dem unternehmensindividuellen Steuersatz im Zeitpunkt des Abbaus, ohne Abzinsung (§ 274 Abs. 2 S. 1 HGB). Beispiel: 100.000 € × 30 % = 30.000 €.\n▸ Kleine Kapitalgesellschaften sind von § 274 HGB befreit (§ 274a Nr. 4 HGB).\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umwandlungssteuerrecht"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 20 Abs. 3 UmwStG",
-        "§ 20 Abs. 2 UmwStG",
-        "§ 16 EStG",
-        "§ 20 Abs. 1 UmwStG",
-        "§ 20 Abs. 4 UmwStG",
-        "§ 54 Abs. 4 UmwG",
-        "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
-        "§ 20 Abs. 2 S. 4 UmwStG",
-        "§ 20 Abs. 3 S. 3 UmwStG",
-        "Themenpool: umwst-aufb-umw-2-25"
+        "§ 274 Abs. 1, 2 HGB",
+        "§ 274a Nr. 4 HGB"
       ],
-      "coverRegie": {
-        "thema": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-18-b3-umwst-aufb-umw-2-25-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-18-b3",
+      "kurztitel": "Latente Steuern",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Latente Steuern: immer Pflicht"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Formel"
+        },
+        {
+          "art": "schritt",
+          "titel": "Passiv oder aktiv"
+        },
+        {
+          "art": "schritt",
+          "titel": "Kleine GmbH"
+        }
+      ],
+      "sprecher": [
+        "Latente Steuern sind immer Pflicht? Nicht ganz. Eine Belastung musst du ansetzen, eine Entlastung darfst du.",
+        "Gerechnet wird: Unterschied zwischen Handels- und Steuerbilanz mal Steuersatz. Bei hunderttausend Euro und dreißig Prozent: dreißigtausend.",
+        "Steht ein Vermögenswert in der Handelsbilanz höher, kommt später mehr Steuer: passive latente Steuern. Umgekehrt aktive, nur als Wahlrecht.",
+        "Und kleine Kapitalgesellschaften sind ganz befreit.",
+        "Merke: Belastung muss, Entlastung kann."
+      ],
+      "dauerS": 38.453,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-43",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-43"
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-quiz-persg-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Prüfungsfrage",
+        "GF-Gehalt an die",
+        "Kommanditistin:",
+        "welche Einkünfte?",
+        "Gewerblich als Sondervergütung",
+        "Nichtselbständige Arbeit",
+        "Steuerfrei",
+        "Auflösung in der nächsten Story"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wo sind die Regeln zum Aufwandsverteilungsposten beim Bau auf dem Ehegattengrundstück zusammengefasst?",
-      "titel": "Wo sind die Regeln zum Aufwandsverteilungsposten beim Bau auf dem Ehegattengrundstück zusammengefasst?",
-      "optionen": [
-        "§ 6b EStG",
-        "das BMF-Schreiben zu Baumaßnahmen auf Ehegattengrundstücken",
-        "§ 7g EStG"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
+      "fach": "persg",
       "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-43",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-43"
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-quiz-persg-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Auflösung",
+        "A: gewerblich",
+        "Gewerblich als Sondervergütung",
+        "Nichtselbständige Arbeit",
+        "Steuerfrei",
+        "Die Sondervergütung verdrängt § 19 EStG: Aufwand in der Gesamthand, Ertrag im Sonderbereich.",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "das BMF-Schreiben zu Baumaßnahmen auf Ehegattengrundstücken",
-      "optionen": [
-        "§ 6b EStG",
-        "das BMF-Schreiben zu Baumaßnahmen auf Ehegattengrundstücken",
-        "§ 7g EStG"
-      ],
-      "richtig": 1,
-      "text": "Gesetzlich ist der Posten nicht geregelt. Er ist kein Wirtschaftsgut und trägt keine stillen Reserven; der Aufwand wird nach den AfA-Regeln für Gebäude im Privatvermögen verteilt (§ 7 Abs. 4 EStG).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
+      "fach": "erbst",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-304",
-      "quellen": [
-        "§ 118 AO",
-        "§ 155 AO",
-        "§ 93 AO",
-        "§ 109 AO",
-        "Themenpool: ao-modul-ao-304"
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-25",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Vermietete",
+        "Wohnung geerbt?",
+        "§ 13d ErbStG",
+        "Zu Wohnzwecken vermietet: Ansatz nur mit 90 %.",
+        "§ 13d Abs. 1, 3 Nr. 1 ErbStG",
+        "Im Drittstaat nur mit Amtshilfe-Verpflichtung.",
+        "§ 13d Abs. 3 Nr. 2 ErbStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 118 AO",
-      "titel": "Verwaltungsakt: Liegt überhaupt ein VA vor?",
-      "text": "VA ist eine hoheitliche Regelung im Einzelfall auf dem Gebiet des öffentlichen Rechts mit unmittelbarer Außenwirkung (§ 118 S. 1 AO). Interne Weisungen und bloße Auskünfte sind keine VA.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "fehler",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-312",
-      "quellen": [
-        "§ 124 Abs. 1 AO",
-        "AEAO zu § 124 Nr. 4–6",
-        "§ 79 Abs. 1 AO",
-        "§ 122 AO",
-        "Themenpool: ao-modul-ao-312"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Folgefehler",
+        "begrenzen",
+        "Falsche Zwischenzahl? Konsequent mit ihr weiterrechnen.",
+        "Folgeschritte können trotzdem Punkte bringen.",
+        "Nicht abbrechen, nicht neu anfangen."
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Wirksamer VA: Bekanntgabewille und Handlungsfähigkeit des Adressaten",
-      "falsch": "Bekanntgabewille mit tatsächlichem Zugang verwechseln.",
-      "richtigText": "Wirksam wird der VA nur, wenn der zuständige Bedienstete die Bekanntgabe wollte und der Adressat handlungsfähig ist (§ 79 AO). Fehlt eins davon, hilft auch der Zugang nicht.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-338",
-      "quellen": [
-        "§ 171 Abs. 10 S. 1 AO",
-        "§ 182 Abs. 1 S. 1 AO",
-        "§ 175 Abs. 1 Nr. 1 AO",
-        "Themenpool: ao-modul-ao-338"
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Klausurtipp",
+        "Doppelwohnsitz:",
+        "wer ist ansässig?",
+        "Ständige Wohnstätte; in beiden Staaten: Lebensmittelpunkt",
+        "Art. 4 Abs. 2 Buchst. a OECD-MA",
+        "Dann gewöhnlicher Aufenthalt, dann Staatsangehörigkeit",
+        "Art. 4 Abs. 2 Buchst. b, c OECD-MA",
+        "Sonst Verständigung",
+        "Art. 4 Abs. 2 Buchst. d OECD-MA"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "§ 171 Abs. 10 S. 1 AO: Hemmung durch wirksamen Grundlagen-/Feststellungsbescheid",
-      "text": "Wird ein Grundlagenbescheid erlassen, aufgehoben oder geändert, endet die Festsetzungsfrist des Folgebescheids frühestens zwei Jahre nach dessen Bekanntgabe (§ 171 Abs. 10 S. 1 AO).",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-aufb-ao-jacobs-7-17",
-      "quellen": [
-        "§ 175 Abs. 1 Satz 1 Nr. 1 AO",
-        "§ 182 Abs. 1 AO",
-        "§ 171 Abs. 10 Sätze 1 bis 4 AO",
-        "§ 171 Abs. 2 AO",
-        "§ 171 Abs. 4 Satz 1 AO",
-        "§ 129 AO",
-        "§ 164 Abs. 1 und 2 AO",
-        "§ 172 Abs. 1 Satz 1 Nr. 2a AO",
-        "§ 367 Abs. 2 Satz 3 AO",
-        "§ 361 Abs. 2 AO",
-        "Themenpool: ao-aufb-ao-jacobs-7-17"
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-2-45",
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Einbringungs-",
+        "gewinn I?",
+        "Gemeiner Wert",
+        "minus Wertansatz,",
+        "je volles Jahr",
+        "ein Siebtel weniger.",
+        "§ 22 Abs. 1 S. 3 UmwStG"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
-      "text": "Ändert sich ein bindender Grundlagenbescheid (§ 182 Abs. 1 AO), ist der Folgebescheid nach § 175 Abs. 1 S. 1 Nr. 1 AO anzupassen, ohne Ermessen und innerhalb der zwei Jahre aus § 171 Abs. 10 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "erbst",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht,…",
-      "text": "Nutzungen und Leistungen §§ 13–16 BewG: Wohnrecht, Nießbrauch, Rente und Dienstleistungen",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "AO · USt · ErbSt",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "AO · USt · ErbSt",
+        "Neu im Feed",
+        "Klausur 1 kompakt",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -626,68 +512,56 @@
       "fach": "istr",
       "klausur": 2,
       "fachLabel": "Internationales Steuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Klausurtechnik: nationaler Steuerzugriff → DBA →…",
-      "text": "Klausurtechnik: nationaler Steuerzugriff → DBA → Rückkehr ins EStG",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "DBA einseitig überspielen?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "umwst",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Latente Steuern: Pflicht?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T12:47:22.659Z",
+    "erzeugtAm": "2026-10-03T04:38:50Z",
     "pfad": "vorproduktion/2026-10-18/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -699,5 +573,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
