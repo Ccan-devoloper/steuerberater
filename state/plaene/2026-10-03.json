@@ -82,7 +82,8 @@
       "zeit": "14:40",
       "art": "countdown",
       "tageBisExamen": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-03T12:44:30.849Z"
     },
     {
       "slot": "s2",
