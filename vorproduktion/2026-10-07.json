@@ -4,202 +4,387 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
-        "zeit": "07:30",
+        "zeit": "06:30",
         "format": "anlass",
         "themaId": null,
-        "themaTitel": null,
-        "fach": "mindset",
-        "klausur": 0
+        "themaTitel": "Heute ist Tag 2: ruhig starten",
+        "fach": null,
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "18:30",
+        "format": "anlass",
+        "themaId": null,
+        "themaTitel": "Tag 2 geschafft: drei Dauerbrenner für Tag 3",
+        "fach": null,
+        "klausur": 2
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:30",
+        "format": "reel",
+        "themaId": null,
+        "themaTitel": "Tag 3: drei Dauerbrenner für morgen",
+        "fach": "bilanz",
+        "klausur": 3
       }
     ],
     "stories": [
       {
         "slot": "s1",
-        "zeit": "07:30",
+        "zeit": "06:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s4",
+        "zeit": "06:45",
+        "art": "anlass"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "anlass"
       },
       {
         "slot": "s2",
-        "zeit": "07:45",
-        "art": "merksatz",
-        "status": "pruefungsphase"
+        "zeit": "18:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
       },
       {
         "slot": "s3",
-        "zeit": "18:30",
-        "art": "merksatz",
-        "status": "pruefungsphase"
+        "zeit": "19:30",
+        "art": "teaser",
+        "beitragSlot": "b3"
       }
     ]
   },
   "inhalte": {
     "b1": {
       "format": "anlass",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
+      "fach": null,
+      "klausur": 2,
+      "fachLabel": "Steuerberaterexamen",
       "themaId": null,
-      "pruefungsphase": true,
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Tag 2: Gestern abhaken, heute neu punkten",
-          "coverBadge": "Klausurtag 2",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Für heute",
-          "text": "Heute geht es um die Ertragsteuern. Der erste Tag ist geschrieben und zählt nicht mehr für deine Laune von heute.",
-          "punkte": [
-            "Erst einordnen (Steuerpflicht, Einkunftsart), dann rechnen",
-            "Nebenrechnungen sauber und nachvollziehbar darstellen",
-            "Kurze Pause einbauen: trinken, strecken, weiter"
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Epiktet",
-          "text": "„Nicht die Dinge selbst beunruhigen die Menschen, sondern ihre Meinungen über die Dinge.“"
-        },
-        {
-          "art": "cta",
-          "titel": "Du schaffst das",
-          "punkte": [
-            "Schick das deiner Lerngruppe",
-            "Tief durchatmen",
-            "Heute Abend: abschalten"
-          ],
-          "icons": [
-            "haken",
-            "uhr",
-            "buch"
-          ]
-        }
-      ],
-      "caption": "Klausurtag 2. Kein neuer Stoff mehr – nur Ruhe, Technik und ein klarer Kopf. Wir denken an dich!",
+      "caption": "Heute ist Tag 2 der schriftlichen Steuerberaterprüfung: Einkommensteuer, Körperschaftsteuer, Gewerbesteuer, Internationales Steuerrecht.\n\n▸ Gestern ist abgehakt. Heute zählt nur Tag 2.\n▸ Tipp für heute: Rechnungen als Staffel darstellen, eine Zeile, ein Betrag, eine Norm. Bist du bei einem Zwischenwert unsicher, notiere deine Annahme und rechne weiter, statt hängen zu bleiben.\n▸ Jeden Teil anfangen, auch den, der dir weniger liegt.\n\nViel Erfolg! Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#kopfsache"
+        "#prüfungstag"
       ],
-      "kurztitel": "Tag 2: Gestern abhaken, heute neu punkten",
-      "coverBadge": "Klausurtag 2",
-      "coverBildAuslassen": true,
-      "quellen": [
-        "Examenskalender"
-      ],
+      "quellen": [],
       "slug": "2026-10-07-b1",
+      "kurztitel": "Heute ist Tag 2: ruhig starten",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungstag 2",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungstag 2",
+          "text": "Prüfungstag 2 · Heute · ist Tag 2 · Ruhig starten · + 1 Tipp für heute · OKTOBER · 7 · Mi · Tag 2",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Gestern ist abgehakt · Tag 1 ist abgegeben. Heute zählt nur Tag 2. · Frühstück, Wasser, Gesetze griffbereit. · Erst überfliegen, Punkte notieren, Zeit verteilen. · Neuer Tag."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Dein Tipp für heute · Rechnungen als Staffel: eine Zeile, ein Betrag, eine Norm. · Unsicher bei einem Zwischenwert? Annahme kurz notieren und weiterrechnen. · Jeden Teil anfangen: ESt, KSt, GewSt, Internationales. · Weiterrechnen statt hängen bleiben · Staffel!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Wenn es hakt · Sachverhalt noch einmal Satz für Satz lesen. · Zahlen und Daten markieren, bevor du rechnest. · Ein schwacher Teil ist kein schwacher Tag. · Satz für Satz."
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Tag 2: Einkommensteuer · Körperschaftsteuer · Gewerbesteuer · Internationales Steuerrecht · Staffel statt Fließtext, · Annahme notieren, · weiterrechnen, · jeden Teil anfangen. · Speichern für Klausur 2 · Wie lief Tag 1 für dich?"
+        }
+      ]
     },
     "s2": {
       "slot": "s2",
-      "art": "merksatz",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Zitat",
-      "titel": "Epiktet",
-      "text": "„Nicht die Dinge selbst beunruhigen die Menschen, sondern ihre Meinungen über die Dinge.“",
-      "pruefungsphase": true,
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "art": "teaser",
+      "fach": null,
+      "klausur": 2,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Zwei von drei!",
+        "Spickzettel Tag 3 · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
-      "art": "merksatz",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Tipp",
-      "titel": "Nach Tag 2",
-      "text": "Nicht über die heutige Klausur grübeln und keine Lösungen vergleichen. Morgen ist eine neue Klausur mit neuen Punkten.",
-      "pruefungsphase": true,
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Bilanz: drei für morgen",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "mindset",
-      "klausur": 0,
-      "fachLabel": "Kopfsache",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Tag 2: Gestern abhaken, heute neu punkten",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fach": null,
+      "klausur": 2,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Neu im Feed",
+        "Heute ist Tag 2",
+        "Ruhig starten + Tipp · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "b2": {
+      "format": "anlass",
+      "fach": null,
+      "klausur": 2,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "caption": "Tag 2 geschafft! Zwei von drei Klausuren liegen hinter dir. Für morgen (Buchführung und Bilanzwesen) drei Dauerbrenner zum Wiederholen.\n\n1. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen immer auf den niedrigeren Wert (§ 253 Abs. 4 HGB), beim Anlagevermögen bei voraussichtlich dauernder Wertminderung (§ 253 Abs. 3 S. 5 HGB). Steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG; § 5 Abs. 1 S. 1 EStG).\n2. Rückstellungen: keine Drohverlustrückstellungen in der Steuerbilanz (§ 5 Abs. 4a S. 1 EStG); Abzinsung mit 5,5 %, außer bei Laufzeit unter zwölf Monaten, Verzinslichkeit, Anzahlung oder Vorausleistung (§ 6 Abs. 1 Nr. 3a Buchst. e EStG). Handelsbilanz: durchschnittlicher Marktzins der letzten sieben Geschäftsjahre (§ 253 Abs. 2 S. 1 HGB).\n3. Geringwertige Wirtschaftsgüter: bis 800 € netto Sofortabzug (§ 6 Abs. 2 S. 1 EStG), alternativ Sammelposten für 250 € bis 1.000 €, über fünf Jahre je ein Fünftel, einheitlich für alle Wirtschaftsgüter des Jahres (§ 6 Abs. 2a S. 1, 2, 5 EStG).\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ],
+      "quellen": [
+        "§ 253 Abs. 2, 3, 4 HGB",
+        "§ 5 Abs. 1 S. 1, Abs. 4a EStG",
+        "§ 6 Abs. 1 Nr. 1, 2, 3a Buchst. e EStG",
+        "§ 6 Abs. 2, 2a EStG"
+      ],
+      "slug": "2026-10-07-b2",
+      "kurztitel": "Tag 2 geschafft: drei Dauerbrenner für Tag 3",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Tag 2 geschafft",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Tag 2 geschafft",
+          "text": "Tag 2 geschafft · Zwei von · drei! · Spickzettel Tag 3 · + 3 Dauerbrenner · OKTOBER · 8 · Do · Tag 3",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Zwei Drittel geschafft · Zwei Klausurtage durchgezogen. Respekt. · Morgen: Buchführung und Bilanzwesen. Heute nur noch die Karte. · Früh schlafen ist heute die beste Wiederholung. · Noch einer!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Morgen: 3 Dauerbrenner · Teilwertabschreibung · § 6 Abs. 1 Nr. 1, 2 EStG · steuerlich nur bei dauernder Minderung · Rückstellungen · § 5 Abs. 4a, § 6 Abs. 1 Nr. 3a EStG · keine Drohverluste, 5,5 % abzinsen · Geringwertige Wirtschaftsgüter · § 6 Abs. 2, 2a EStG · 800 € oder Sammelposten · Weiterwischen: alle drei im Detail"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "1 · Teilwert: HGB oder Steuer? · Handelsbilanz · Umlaufvermögen: immer auf den niedrigeren Wert · § 253 Abs. 4 HGB · Anlagevermögen: Pflicht bei dauernder Minderung · § 253 Abs. 3 S. 5 HGB · Steuerbilanz · Nur bei voraussichtlich dauernder Minderung · § 6 Abs. 1 Nr. 2 S. 2 EStG · Wahlrecht, auch abweichend von der Handelsbilanz · § 5 Abs. 1 S. 1 EStG · Kann oder muss?"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "2 · Rückstellungen · Drohverlustrückstellungen: steuerlich verboten. · § 5 Abs. 4a S. 1 EStG · Unverzinslich und mindestens zwölf Monate Laufzeit: mit 5,5 % abzinsen. · § 6 Abs. 1 Nr. 3a Buchst. e EStG · Handelsbilanz: Restlaufzeit über ein Jahr, Marktzins der letzten sieben Jahre. · § 253 Abs. 2 S. 1 HGB · Zwei Zinssätze!"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "3 · Geringwertige Wirtschaftsgüter · Bis 800 € netto: sofort voll als Betriebsausgabe. · § 6 Abs. 2 S. 1 EStG · Stattdessen über 250 € bis 1.000 €: Sammelposten, fünf Jahre je ein Fünftel. · § 6 Abs. 2a S. 1, 2 EStG · Die Wahl gilt einheitlich für alle Güter des Jahres. · § 6 Abs. 2a S. 5 EStG · Alle gleich?"
+        },
+        {
+          "art": "text",
+          "titel": "Steuerberaterexamen",
+          "text": "Laptop 900 € netto, Sammelposten gewählt · fünf Jahre je 180 € Aufwand · Teilwert nur bei Dauer, · Drohverlust nie, · 5,5 % ab zwölf Monaten, · 800 € sofort. · Speichern für Klausur 3 · Was wackelt noch?"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "caption": "Tag 3 der Steuerberaterprüfung: drei Bilanz-Dauerbrenner für morgen.\n\n▸ Umlaufvermögen: In der Handelsbilanz ist auf den niedrigeren Wert abzuschreiben (§ 253 Abs. 4 HGB). Steuerlich darf der niedrigere Teilwert nur bei voraussichtlich dauernder Wertminderung angesetzt werden, als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2 EStG; § 5 Abs. 1 S. 1 EStG).\n▸ Rückstellungen für drohende Verluste sind steuerlich verboten (§ 5 Abs. 4a S. 1 EStG); unverzinsliche Rückstellungen mit Laufzeit ab zwölf Monaten werden mit 5,5 % abgezinst (§ 6 Abs. 1 Nr. 3a Buchst. e EStG).\n▸ Geringwertige Wirtschaftsgüter bis 800 € netto dürfen sofort voll abgezogen werden (§ 6 Abs. 2 S. 1 EStG).\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 253 Abs. 4 HGB",
+        "§ 5 Abs. 1 S. 1, Abs. 4a S. 1 EStG",
+        "§ 6 Abs. 1 Nr. 2 S. 2, Nr. 3a Buchst. e EStG",
+        "§ 6 Abs. 2 S. 1 EStG"
+      ],
+      "slug": "2026-10-07-b3",
+      "kurztitel": "Tag 3: drei Dauerbrenner für morgen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Morgen: Tag 3"
+        },
+        {
+          "art": "schritt",
+          "titel": "Rückstellungen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Geringwertig"
+        }
+      ],
+      "sprecher": [
+        "Morgen ist Bilanz. Wertminderung im Umlaufvermögen: Handelsbilanz Pflicht, Steuerbilanz Wahlrecht, und nur, wenn sie dauernd ist.",
+        "Rückstellungen: Drohverluste nie. Ab zwölf Monaten mit fünfeinhalb Prozent abzinsen.",
+        "Und bis achthundert Euro netto sofort abziehen.",
+        "Durchatmen. Morgen ist der letzte Tag."
+      ],
+      "dauerS": 24.394,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "anlass",
+      "fach": null,
+      "klausur": 2,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Heute",
+        "Viel Erfolg",
+        "an Tag 2!",
+        "Einkommensteuer, Körperschaftsteuer, Gewerbesteuer, Internationales: Du kannst das.",
+        "Staffel statt Fließtext",
+        "Annahme notieren, weiter"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "anlass",
+      "fach": null,
+      "klausur": 2,
+      "fachLabel": "Steuerberaterexamen",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "sichtbareTexte": [
+        "Steuerberaterexamen",
+        "Halbzeit",
+        "Halbzeit.",
+        "Kurz lockern.",
+        "Schultern kreisen, trinken, dann weiter zum nächsten Teil.",
+        "Ein Teil nach dem anderen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T11:48:17.515Z",
+    "erzeugtAm": "2026-10-03T04:22:51Z",
     "pfad": "vorproduktion/2026-10-07/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -211,5 +396,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
