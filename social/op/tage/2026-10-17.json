@@ -1,0 +1,1100 @@
+{
+ "datum": "2026-10-17",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "klausurtechnik-k3-persg-2026-42",
+   "themaTitel": "PersG-Teil der Klausur 3: Aufbau, Tabelle, Darstellung",
+   "figuren": {
+    "A": {
+     "name": "Jule",
+     "kopf": "Long Curly",
+     "haut": "#B97A56",
+     "haar": "#2F2F2F",
+     "oberteil": "#F28C8C",
+     "bueste": "Paper"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "zeilen": [
+      "PersG-Teil",
+      "sauber aufbauen"
+     ],
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 15 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:table",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Aufbau",
+     "schritte": [
+      [
+       "Sachverhalt zuordnen",
+       "",
+       ""
+      ],
+      [
+       "Gesamthandsbilanz korrigieren",
+       "",
+       ""
+      ],
+      [
+       "Ergänzungsbilanzen fortführen",
+       "",
+       ""
+      ],
+      [
+       "Sonderbilanz und Sonder-GuV",
+       "",
+       ""
+      ],
+      [
+       "Gewinn verteilen",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 15 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Vorab: die Tabelle",
+     "punkte": [
+      [
+       "Lege früh eine Tabelle an: eine Spalte je Gesellschafter, Zeilen für Gesamthand, Ergänzung und Sonder.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Trage jedes Teilergebnis sofort ein, nicht erst am Ende.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "So bleibt ein Fehler isoliert, die Folgepunkte bleiben dir.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Tabelle zuerst!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Darstellung je Punkt",
+     "punkte": [
+      [
+       "Norm, kurze Wertung, Buchungssatz mit Betrag.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinnauswirkung immer mit Vorzeichen und Zuordnung zum Gesellschafter.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Keine Prosa, wo eine Zeile reicht.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Kurz und prüfbar."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Sonderbereich vergessen",
+     "punkte": [
+      [
+       "Tätigkeitsvergütung, Miete oder Zinsen an Gesellschafter bleiben in der Gesamthand Aufwand.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Beim Gesellschafter fehlt dann der Ertrag in der Sonder-GuV.",
+       "nein",
+       "Bold",
+       "§ 15 Abs. 1 S. 1 Nr. 2 Hs. 2 EStG"
+      ],
+      [
+       "Folge: Gesamtgewinn zu niedrig, alle Folgezahlen falsch.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Kostet richtig Punkte!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zum Schluss: verteilen",
+     "punkte": [
+      [
+       "Gesamthandsgewinn nach dem vertraglichen Schlüssel verteilen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ergänzungs- und Sonderergebnisse direkt dem jeweiligen Gesellschafter zurechnen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Summe ist der Gesamtgewinn, gesondert und einheitlich festgestellt.",
+       "ok",
+       "Bold",
+       "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Probe: Summe stimmt?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Tabelle früh, Ergebnisse sofort eintragen",
+      "Sonderbereich nie vergessen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Zuordnen",
+        "a"
+       ],
+       [
+        ", buchen,",
+        null
+       ]
+      ],
+      [
+       [
+        "eintragen",
+        "b"
+       ],
+       [
+        ", verteilen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Summe",
+        "c"
+       ],
+       [
+        " ist der",
+        null
+       ]
+      ],
+      [
+       [
+        "Gesamtgewinn",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wie baust du deine Tabelle?",
+     "teaser": "Weiterwischen: § 15 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15 Abs. 1 S. 1 Nr. 2 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1) 1 Nr. 2",
+       [
+        [
+         "die Gewinnanteile der Gesellschafter einer Offenen Handelsgesellschaft, einer Kommanditgesellschaft und einer anderen Gesellschaft, bei der der Gesellschafter als Unternehmer (Mitunternehmer) des Betriebs anzusehen ist,",
+         "g1"
+        ],
+        [
+         "und",
+         null
+        ],
+        [
+         "die Vergütungen, die der Gesellschafter von der Gesellschaft für seine Tätigkeit im Dienst der Gesellschaft oder für die Hingabe von Darlehen oder für die Überlassung von Wirtschaftsgütern bezogen hat.",
+         "b1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Stufe 1: Gesamthand",
+       "g1"
+      ],
+      [
+       "Stufe 2: Sonderbereich",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Feststellung: § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+      "Gesamtgewinn einheitlich für alle"
+     ]
+    }
+   ],
+   "caption": "Klausur 3, PersG-Teil: So baust du deine Lösung auf.\n\n1. Sachverhalt zuordnen: Gesamthand, Ergänzungsbilanz oder Sonderbereich.\n2. Gesamthandsbilanz korrigieren, jeweils mit Gewinnauswirkung.\n3. Ergänzungsbilanzen je Gesellschafter fortführen.\n4. Sonderbilanz und Sonder-GuV: Vergütungen für Tätigkeit, Darlehen und Überlassung von Wirtschaftsgütern gehören zu den Einkünften des Gesellschafters (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n5. Gewinn verteilen: Gesamthand nach Schlüssel, Ergänzung und Sonder direkt; die Summe ist der Gesamtgewinn, der gesondert und einheitlich festgestellt wird (§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n\nTechnik: Tabelle mit einer Spalte je Gesellschafter früh anlegen und jedes Teilergebnis sofort eintragen – dann bleibt ein Fehler isoliert.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-7-9",
+   "themaTitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+   "figuren": {
+    "A": {
+     "name": "Lotte",
+     "kopf": "Gray Bun",
+     "haut": "#F2CDB4",
+     "oberteil": "#F6D365",
+     "brille": "Glasses 3",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Grob verschuldet,",
+      "trotzdem ändern?"
+     ],
+     "norm": "§ 173 Abs. 1 Nr. 2 S. 2 AO",
+     "unter": "in 3 Schritten",
+     "teaser": "+ Markier-Guide § 173 AO",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Änderung",
+        "Bold",
+        44
+       ],
+       [
+        "+2.500 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Einkünfte",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Sachverhalt",
+     "punkte": [
+      [
+       "Lottes Einkommensteuerbescheid 2024 ist bestandskräftig.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "2026 erfährt das Finanzamt von 6.000 € nicht erklärten Mieteinnahmen für eine Garage.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Grob fahrlässig vergessen hatte Lotte auch 2.500 € Garagenkosten und 1.000 € Fortbildungskosten.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ups."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1: neue Tatsache",
+     "punkte": [
+      [
+       "Die Mieteinnahmen werden nachträglich bekannt und erhöhen die Steuer.",
+       "ok",
+       "Regular",
+       "§ 173 Abs. 1 Nr. 1 AO"
+      ],
+      [
+       "Änderung zuungunsten: Einkünfte plus 6.000 €.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Das Finanzamt weiß es."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 2: Zusammenhang",
+     "punkte": [
+      [
+       "Grob verschuldete Tatsachen zu ihren Gunsten scheiden grundsätzlich aus.",
+       "nein",
+       "Regular",
+       "§ 173 Abs. 1 Nr. 2 S. 1 AO"
+      ],
+      [
+       "Die Garagenkosten hängen aber unmittelbar mit den Mieteinnahmen zusammen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Dann ist das Verschulden unbeachtlich: minus 2.500 €.",
+       "ok",
+       "Bold",
+       "§ 173 Abs. 1 Nr. 2 S. 2 AO"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Glück gehabt!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Und die 1.000 € Fortbildungskosten? Kein Zusammenhang, grob verschuldet.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Sind sie endgültig verloren?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Bitte nicht!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Schritt 3: § 177 AO",
+     "normen": [
+      "§ 177 Abs. 1, 3 AO"
+     ],
+     "zeilen": [
+      [
+       "Mieteinnahmen (Nr. 1)",
+       "+6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Garagenkosten (Nr. 2 S. 2)",
+       "−2.500 €",
+       "Regular",
+       null
+      ],
+      [
+       "Änderungsrahmen",
+       "+3.500 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Fortbildung über § 177",
+       "−1.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkünfte steigen um",
+       "+2.500 €",
+       "Bold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Gegenrechnen nur, soweit die Änderung reicht",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Sperre nach Außenprüfung",
+     "punkte": [
+      [
+       "War der Bescheid nach einer Außenprüfung ergangen, greift § 173 Abs. 1 AO nicht mehr.",
+       "nein",
+       "Bold",
+       "§ 173 Abs. 2 S. 1 AO"
+      ],
+      [
+       "Ausnahme: Steuerhinterziehung oder leichtfertige Steuerverkürzung.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 290,
+     "blase": "Prüfung schützt auch."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lotte: Einkünfte steigen nur um 2.500 €",
+      "6.000 € − 2.500 € − 1.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Nr. 1",
+        "a"
+       ],
+       [
+        " öffnet,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zusammenhang",
+        "b"
+       ],
+       [
+        " entschuldigt,",
+        null
+       ]
+      ],
+      [
+       [
+        "§ 177",
+        "c"
+       ],
+       [
+        " rechnet",
+        null
+       ]
+      ],
+      [
+       [
+        "gegen",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wie wäre es ohne die Mieteinnahmen?",
+     "teaser": "Weiterwischen: § 173 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 173 AO Neue Tatsachen (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Steuerbescheide sind aufzuheben oder zu ändern, 1. soweit Tatsachen oder Beweismittel nachträglich bekannt werden,",
+         null
+        ],
+        [
+         "die zu einer höheren Steuer führen,",
+         "b1"
+        ],
+        [
+         "2. soweit Tatsachen oder Beweismittel nachträglich bekannt werden, die zu einer niedrigeren Steuer führen und",
+         null
+        ],
+        [
+         "den Steuerpflichtigen kein grobes Verschulden daran trifft,",
+         "r1"
+        ],
+        [
+         "dass die Tatsachen oder Beweismittel erst nachträglich bekannt werden.",
+         null
+        ],
+        [
+         "Das Verschulden ist unbeachtlich, wenn die Tatsachen oder Beweismittel in einem unmittelbaren oder mittelbaren Zusammenhang mit Tatsachen oder Beweismitteln im Sinne der Nummer 1 stehen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Nr. 1",
+       "b1"
+      ],
+      [
+       "Hürde",
+       "r1"
+      ],
+      [
+       "Ausnahme",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Dazu: § 177 Abs. 1 AO",
+      "materielle Fehler, soweit die Änderung reicht"
+     ]
+    }
+   ],
+   "caption": "Grobes Verschulden bei § 173 AO – und wie § 177 AO trotzdem hilft. Der Rechenweg für Klausur 1.\n\n1. Neue Tatsache zuungunsten: nachträglich bekannte Mieteinnahmen 6.000 € (§ 173 Abs. 1 Nr. 1 AO).\n2. Neue Tatsache zugunsten: grundsätzlich nur ohne grobes Verschulden (§ 173 Abs. 1 Nr. 2 S. 1 AO). Das Verschulden ist unbeachtlich bei unmittelbarem oder mittelbarem Zusammenhang mit einer Tatsache nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO): Garagenkosten 2.500 €.\n3. Übrige materielle Fehler werden berichtigt, soweit die Änderung reicht (§ 177 Abs. 1, 3 AO): Fortbildungskosten 1.000 €.\nErgebnis: Einkünfte + 2.500 €.\n\nSperre: Ist der Bescheid auf Grund einer Außenprüfung ergangen, ist eine Änderung nach § 173 Abs. 1 AO nur bei Steuerhinterziehung oder leichtfertiger Steuerverkürzung möglich (§ 173 Abs. 2 S. 1 AO).\n\nZum Schluss: § 173 Abs. 1 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 173 Abs. 1 Nr. 1, 2, Abs. 2 AO",
+    "§ 177 Abs. 1, 3 AO"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Int. Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-13",
+   "themaTitel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+   "figuren": {
+    "A": {
+     "name": "Pedro",
+     "kopf": "Short 4",
+     "haut": "#D9A07A",
+     "haar": "#2B2B2B",
+     "oberteil": "#9FD3C7",
+     "bart": "Moustache 5"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Gleiches Einkommen, anderer Wohnsitz. Wer in Deutschland wohnt, hat einen Grundfreibetrag. Wer gebietsfremd ist, meist nicht."
+    },
+    {
+     "id": "s1",
+     "text": "Paragraf fünfzig erhöht das zu versteuernde Einkommen um den Grundfreibetrag. Bei Arbeitnehmern mit inländischem Lohn bleibt er bis zur Höhe des Lohns."
+    },
+    {
+     "id": "s2",
+     "text": "Gestrichen sind außerdem die meisten Sonderausgaben, außergewöhnliche Belastungen und Kinderfreibeträge."
+    },
+    {
+     "id": "s3",
+     "text": "Kosten zählen nur, wenn sie mit den inländischen Einkünften zusammenhängen."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Gebietsfremd heißt Steuer ab dem ersten Euro."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Gebietsfremd:",
+     "was fällt weg?"
+    ],
+    "pille": "§ 50 Abs. 1 EStG",
+    "figur": "A/skeptisch",
+    "name": "Pedro",
+    "icons": [
+     [
+      "tabler:world",
+      "GELB",
+      "gebietsfremd"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Wohnsitz Inland",
+      "wert": "12.348 €",
+      "farbe": "GRUEN",
+      "wort": "Deutschland"
+     },
+     {
+      "label": "Gebietsfremd",
+      "wert": "0 €",
+      "farbe": "ROT",
+      "wort": "gebietsfremd"
+     }
+    ],
+    "stempel": {
+     "text": "kein Freibetrag",
+     "wort": "meist"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Grundfreibetrag",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "zvE plus",
+       "wert": "12.348 €",
+       "farbe": "ROT",
+       "wort": "erhöht"
+      },
+      {
+       "typ": "text",
+       "text": "Arbeitnehmer",
+       "unter": "Freibetrag bis zur Höhe des Lohns",
+       "wort": "Arbeitnehmern",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 50 Abs. 1 S. 2 EStG",
+       "wort": "Grundfreibetrag"
+      }
+     ],
+     "icon": [
+      "tabler:coin-euro",
+      "GELB",
+      "erhöht"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Gestrichen",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "meiste Sonderausgaben",
+       "wort": "Sonderausgaben",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "außergewöhnliche Belastungen",
+       "wort": "außergewöhnliche",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Kinderfreibeträge",
+       "wort": "Kinderfreibeträge",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 50 Abs. 1 S. 4 EStG",
+       "wort": "Gestrichen"
+      }
+     ],
+     "icon": [
+      "tabler:scissors",
+      "ROT",
+      "Gestrichen"
+     ],
+     "sfx": [
+      [
+       "riss",
+       "Gestrichen",
+       0.6
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Kosten",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "abziehbar nur",
+       "wert": "mit Inlandsbezug",
+       "farbe": "GELB",
+       "wort": "inländischen",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 50 Abs. 1 S. 1 EStG",
+       "wort": "zusammenhängen"
+      }
+     ],
+     "figur": {
+      "ref": "A:ernst",
+      "wort": "Kosten",
+      "hoehe": 420
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Gebietsfremd:",
+     "Steuer ab dem",
+     "ersten Euro"
+    ],
+    "woerter": [
+     null,
+     "Steuer",
+     "ersten"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Euro",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Beschränkt steuerpflichtig veranlagt: Was § 50 EStG streicht. 🌍\n\n▸ Kein Grundfreibetrag: Das zu versteuernde Einkommen wird um den Grundfreibetrag (2026: 12.348 €, § 32a Abs. 1 S. 2 Nr. 1 EStG) erhöht; bei Arbeitnehmereinkünften nach § 49 Abs. 1 Nr. 4 EStG nur, soweit er diese Einkünfte übersteigt (§ 50 Abs. 1 S. 2 EStG).\n▸ Nicht anzuwenden sind u. a. weite Teile von § 10, §§ 10a, 10c, 16 Abs. 4, 24b, 32, 33, 33a, 33b, 35a und 35c EStG (§ 50 Abs. 1 S. 4 EStG); für Arbeitnehmer gelten Ausnahmen (§ 50 Abs. 1 S. 5 EStG).\n▸ Betriebsausgaben und Werbungskosten nur, soweit sie mit inländischen Einkünften in wirtschaftlichem Zusammenhang stehen (§ 50 Abs. 1 S. 1 EStG).\n▸ Zusammenveranlagung setzt unbeschränkte Steuerpflicht beider Ehegatten voraus (§ 26 Abs. 1 S. 1 Nr. 1 EStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 50 Abs. 1 S. 1, 2, 4, 5 EStG",
+    "§ 32a Abs. 1 S. 2 Nr. 1 EStG",
+    "§ 26 Abs. 1 S. 1 Nr. 1 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-5",
+   "frage": [
+    "Verzicht auf werthaltige",
+    "Forderung: Ertrag?"
+   ],
+   "optionen": [
+    "Außerbilanziell abziehen: verdeckte Einlage",
+    "Bleibt voll steuerpflichtig",
+    "Nur zu 5 % steuerpflichtig"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Hijab",
+     "haut": "#8D5A3B",
+     "haar": "#B8A6E0",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-5",
+   "titel": [
+    "A: verdeckte",
+    "Einlage"
+   ],
+   "optionen": [
+    "Außerbilanziell abziehen: verdeckte Einlage",
+    "Bleibt voll steuerpflichtig",
+    "Nur zu 5 % steuerpflichtig"
+   ],
+   "richtig": 0,
+   "text": "Verzichtet der Gesellschafter, erhöht das das Einkommen nicht, soweit die Forderung werthaltig ist.",
+   "norm": "§ 8 Abs. 3 S. 3 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Hijab",
+     "haut": "#8D5A3B",
+     "haar": "#B8A6E0",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "PersG-Teil sauber aufbauen"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-28",
+   "titel": [
+    "Realteilung:",
+    "echt oder unecht?"
+   ],
+   "norm": "§ 16 Abs. 3 S. 2 EStG",
+   "punkte": [
+    [
+     "Echt: Die Gesellschaft endet und wird aufgeteilt.",
+     "ok",
+     "BMF vom 19.12.2018, Rn. 1"
+    ],
+    [
+     "Unecht: Einer geht mit Sachwerten ins Betriebsvermögen, der Rest macht weiter.",
+     "warn",
+     "BMF vom 19.12.2018, Rn. 2"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "No Hair 2",
+     "haut": "#E8B98F",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 3",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Grob verschuldet, trotzdem ändern?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst skizzieren,",
+    "dann schreiben"
+   ],
+   "punkte": [
+    [
+     "Wenige Minuten Stichworte: Normen und Ergebnis je Teil.",
+     "ok",
+     null
+    ],
+    [
+     "Dann zügig ausformulieren.",
+     "ok",
+     null
+    ],
+    [
+     "Spart Umwege und Streichungen.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:pencil",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "C": {
+     "kopf": "Bangs 2",
+     "haut": "#C68B5E",
+     "haar": "#1E1E24",
+     "oberteil": "#F7C948"
+    }
+   },
+   "figur": "C/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-12",
+   "titel": [
+    "Rechnung:",
+    "Pflichtangaben"
+   ],
+   "punkte": [
+    [
+     "Namen, Anschriften, Steuer- oder USt-IdNr.",
+     "ok",
+     "§ 14 Abs. 4 S. 1 Nr. 1, 2 UStG"
+    ],
+    [
+     "Datum, Rechnungsnummer, Menge und Art",
+     "ok",
+     "§ 14 Abs. 4 S. 1 Nr. 3–5 UStG"
+    ],
+    [
+     "Leistungszeitpunkt, Entgelt, Steuersatz, Steuerbetrag",
+     "ok",
+     "§ 14 Abs. 4 S. 1 Nr. 6–8 UStG"
+    ]
+   ],
+   "icon": "tabler:file-invoice",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#8B4A2B",
+     "oberteil": "#A8D5BA"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Gebietsfremd: was fällt weg?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-02",
+   "titel": [
+    "GewSt-Pflicht:",
+    "ab wann?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Personenunternehmen:",
+      null
+     ]
+    ],
+    [
+     [
+      "ab ",
+      null
+     ],
+     [
+      "werbender Tätigkeit",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "GmbH: spätestens",
+      null
+     ]
+    ],
+    [
+     [
+      "ab ",
+      null
+     ],
+     [
+      "Eintragung",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 2 Abs. 1, 2 GewStG; R 2.5 Abs. 1, 2 GewStR",
+   "figuren": {
+    "M": {
+     "kopf": "Medium 2",
+     "haut": "#6E4429",
+     "haar": "#111111",
+     "oberteil": "#C9B8F2",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

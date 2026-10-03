@@ -1,0 +1,1112 @@
+{
+ "datum": "2026-10-30",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-316",
+   "themaTitel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
+   "figuren": {
+    "A": {
+     "name": "Tarek",
+     "kopf": "Short 5",
+     "haut": "#B57B55",
+     "haar": "#1E1612",
+     "oberteil": "#F2A07B",
+     "bart": "Full 3",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Ines",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F3D0B5",
+     "haar": "#8B4A2B",
+     "oberteil": "#9BD3A8",
+     "brille": "Glasses 4",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Einspruch oder",
+      "Korrektur?"
+     ],
+     "norm": "§§ 347, 172 ff. AO",
+     "unter": "Plan A, Plan B",
+     "teaser": "+ Markier-Guide § 355 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "JUNI",
+      "tag": "8",
+      "unter": "Fristende"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Sachverhalt",
+     "punkte": [
+      [
+       "Tarek macht Fortbildungskosten von 2.000 € geltend. Das Finanzamt hält sie für privat und streicht sie.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Der Bescheid geht am Montag, 04.05.2026, zur Post.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die Streichung ist rechtlich falsch.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Tarek"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Frage des Falls",
+     "punkte": [
+      [
+       "Was kann Tarek tun, wenn er den Fehler am 01.06.2026 bemerkt?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und was, wenn er ihn erst am 20.06.2026 bemerkt?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ines, Beraterin: Und?"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Erst die Frist",
+     "zeilen": [
+      [
+       "04.05.",
+       "Aufgabe zur Post",
+       "WEISS",
+       null
+      ],
+      [
+       "08.05.",
+       "bekannt gegeben",
+       "GELB",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "08.06.",
+       "Ende der Einspruchsfrist",
+       "ROT",
+       "§ 355 Abs. 1 S. 1 AO"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Ein Monat"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Plan A: Einspruch am 01.06.",
+     "punkte": [
+      [
+       "Statthaft gegen den Steuerbescheid.",
+       "ok",
+       "Regular",
+       "§ 347 Abs. 1 S. 1 Nr. 1 AO"
+      ],
+      [
+       "In der Frist, schriftlich oder elektronisch, Tarek ist beschwert.",
+       "ok",
+       "Regular",
+       "§§ 355, 357, 350 AO"
+      ],
+      [
+       "Begründet: Die 2.000 € werden anerkannt.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Rechtzeitig!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Plan B: erst am 20.06.",
+     "punkte": [
+      [
+       "Einspruch verfristet, Antrag auf Änderung zugunsten auch.",
+       "nein",
+       "Regular",
+       "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+      ],
+      [
+       "Keine neue Tatsache: Das Amt kannte alles, es hat nur falsch gewertet.",
+       "nein",
+       "Regular",
+       "§ 173 Abs. 1 Nr. 2 AO"
+      ],
+      [
+       "Ergebnis: Der Bescheid bleibt bestandskräftig.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Zu spät?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Rechtsfehler korrigieren?",
+     "punkte": [
+      [
+       "Für reine Rechtsfehler gibt es meist keinen Korrekturtatbestand.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Hier hilft nur der Einspruch, also Plan A zuerst.",
+       "ok",
+       "Regular",
+       "§ 347 AO"
+      ]
+     ],
+     "figur": "B:ernst",
+     "x": 290,
+     "blase": "Frist notieren!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "01.06.: Einspruch erfolgreich · 20.06.: zu spät",
+      "Rechtsfehler: meist kein Korrekturtatbestand",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Plan A: ",
+        null
+       ],
+       [
+        "Einspruch",
+        "a"
+       ]
+      ],
+      [
+       [
+        "Plan B: ",
+        null
+       ],
+       [
+        "Korrektur",
+        "b"
+       ]
+      ],
+      [
+       [
+        "Rechtsfehler: nur ",
+        null
+       ],
+       [
+        "Plan A",
+        "c"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Prüfst du Plan A immer zuerst?",
+     "teaser": "Weiterwischen: § 355 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 355, 172 AO (Auszug)",
+     "absaetze": [
+      [
+       "§ 355 (1)",
+       [
+        [
+         "Der Einspruch nach § 347 Absatz 1 Satz 1 ist",
+         null
+        ],
+        [
+         "innerhalb eines Monats nach Bekanntgabe",
+         "g1"
+        ],
+        [
+         "des Verwaltungsakts einzulegen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 172 (1)",
+       [
+        [
+         "[…] 2. […] a) soweit der Steuerpflichtige zustimmt oder seinem Antrag der Sache nach entsprochen wird; dies gilt jedoch",
+         null
+        ],
+        [
+         "zugunsten des Steuerpflichtigen nur, soweit er vor Ablauf der Einspruchsfrist",
+         "r1"
+        ],
+        [
+         "zugestimmt oder den Antrag gestellt hat […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Frist",
+       "g1"
+      ],
+      [
+       "Antrag nur in der Frist",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 122 Abs. 2 Nr. 1 AO",
+      "Fristbeginn: vierter Tag nach Aufgabe"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall Abgabenordnung: Bescheid falsch – Einspruch oder Korrektur?\n\nFall: Das Finanzamt streicht Fortbildungskosten rechtsfehlerhaft. Aufgabe zur Post am 04.05.2026.\n\n1. Frist: Bekanntgabe am vierten Tag nach Aufgabe zur Post, also 08.05.2026 (§ 122 Abs. 2 Nr. 1 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), Ende 08.06.2026 (§ 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n2. Plan A, Fehler am 01.06. bemerkt: Einspruch statthaft (§ 347 Abs. 1 S. 1 Nr. 1 AO), fristgerecht, schriftlich oder elektronisch (§ 357 Abs. 1 AO), Beschwer (§ 350 AO). Begründet.\n3. Plan B, Fehler am 20.06. bemerkt: Ein Änderungsantrag zugunsten hilft nur, wenn er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Neue Tatsachen fehlen (§ 173 Abs. 1 Nr. 2 AO). Der Bescheid bleibt bestandskräftig.\n\nRechtsfehler lassen sich nach Fristablauf regelmäßig nicht mehr korrigieren – deshalb immer zuerst Plan A prüfen.\n\nZum Schluss: §§ 355, 172 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 122 Abs. 2 Nr. 1 AO",
+    "§ 108 Abs. 1 AO",
+    "§ 188 Abs. 2 BGB",
+    "§ 347 Abs. 1 S. 1 Nr. 1 AO",
+    "§ 350 AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 357 Abs. 1 AO",
+    "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 173 Abs. 1 Nr. 2 AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "vergleich",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-1-03",
+   "themaTitel": "Wann ist eine Körperschaft nur beschränkt steuerpflichtig?",
+   "figuren": {
+    "A": {
+     "name": "Anouk",
+     "kopf": "Long Bangs",
+     "haut": "#F6D5BF",
+     "haar": "#C9A15A",
+     "oberteil": "#7EC8C0",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Silas",
+     "kopf": "Dreads 1",
+     "haut": "#6E4630",
+     "haar": "#141010",
+     "oberteil": "#B7A6E8",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Gegenüberstellung",
+     "zeilen": [
+      "Unbeschränkt oder",
+      "beschränkt?"
+     ],
+     "norm": "§§ 1, 2 KStG",
+     "unter": "A oder B?",
+     "teaser": "+ Markier-Guide § 2 KStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:world",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Die Grenze",
+     "links": {
+      "kopf": "Unbeschränkt",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Sitz oder Geschäftsleitung im Inland",
+        "§ 1 Abs. 1 KStG"
+       ],
+       [
+        "alle Einkünfte weltweit",
+        "§ 1 Abs. 2 KStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Beschränkt",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "weder Sitz noch Geschäftsleitung im Inland",
+        "§ 2 Nr. 1 KStG"
+       ],
+       [
+        "nur inländische Einkünfte",
+        "§ 8 Abs. 1 KStG, § 49 EStG"
+       ]
+      ]
+     },
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Silas, Steuerberater"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Reihenfolge",
+     "punkte": [
+      [
+       "Sitz und Ort der Geschäftsleitung bestimmen.",
+       "ok",
+       "Regular",
+       "§§ 10, 11 AO"
+      ],
+      [
+       "Ausländische Gesellschaft? Typenvergleich mit deutscher Rechtsform.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Erst die inländischen Einkünfte, ganz zuletzt das DBA.",
+       "warn",
+       "Bold",
+       "§ 49 EStG"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Nie mit dem DBA starten"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Die Tulpen B.V. hat ihren Sitz in Rotterdam und vermietet eine Lagerhalle in Bremen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Fall A: Geschäftsführerin Anouk leitet alles von Hamburg aus.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Fall B: Anouk leitet die B.V. in Rotterdam.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Anouk"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Unbeschränkt oder beschränkt steuerpflichtig, und mit welchen Einkünften?",
+       null,
+       "ExtraBold",
+       null
+      ],
+      [
+       "Erst Fall A, dann Fall B.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Wo leite ich?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Lösung",
+     "links": {
+      "kopf": "Fall A: Hamburg",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Geschäftsleitung im Inland: unbeschränkt",
+        "§ 1 Abs. 1 Nr. 1 KStG, § 10 AO"
+       ],
+       [
+        "B.V. entspricht einer GmbH",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Fall B: Rotterdam",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Beschränkt, nur mit der Halle",
+        "§ 2 Nr. 1 KStG"
+       ],
+       [
+        "Miete als inländische Einkünfte",
+        "§ 49 Abs. 1 Nr. 2 Buchst. f EStG"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Der Ort zählt"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "A: unbeschränkt mit allem · B: beschränkt mit der Halle",
+      "Sitz oder Leitung im Inland reicht",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Sitz",
+        "a"
+       ],
+       [
+        " oder ",
+        null
+       ],
+       [
+        "Leitung",
+        "b"
+       ],
+       [
+        " hier:",
+        null
+       ]
+      ],
+      [
+       [
+        "alles steuerpflichtig",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst nur ",
+        null
+       ],
+       [
+        "§ 49 EStG",
+        "c"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Prüfst du das DBA zu früh?",
+     "teaser": "Weiterwischen: § 2 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 1, 2 KStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 1 (1)",
+       [
+        [
+         "Unbeschränkt körperschaftsteuerpflichtig sind die folgenden Körperschaften, Personenvereinigungen und Vermögensmassen, die ihre",
+         null
+        ],
+        [
+         "Geschäftsleitung oder ihren Sitz im Inland",
+         "g1"
+        ],
+        [
+         "haben: […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 2",
+       [
+        [
+         "Beschränkt körperschaftsteuerpflichtig sind 1. Körperschaften, Personenvereinigungen und Vermögensmassen, die",
+         null
+        ],
+        [
+         "weder ihre Geschäftsleitung noch ihren Sitz im Inland",
+         "r1"
+        ],
+        [
+         "haben,",
+         null
+        ],
+        [
+         "mit ihren inländischen Einkünften;",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "eins genügt",
+       "g1"
+      ],
+      [
+       "beides fehlt",
+       "r1"
+      ],
+      [
+       "Umfang",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 49 EStG",
+      "Welche Einkünfte inländisch sind"
+     ]
+    }
+   ],
+   "caption": "Gegenüberstellung Körperschaftsteuer: unbeschränkt oder beschränkt steuerpflichtig?\n\n▸ Unbeschränkt: Geschäftsleitung oder Sitz im Inland (§ 1 Abs. 1 KStG), erfasst werden sämtliche Einkünfte (§ 1 Abs. 2 KStG).\n▸ Beschränkt: weder Geschäftsleitung noch Sitz im Inland, nur mit inländischen Einkünften (§ 2 Nr. 1 KStG). Welche das sind, ergibt sich über § 8 Abs. 1 KStG aus § 49 EStG.\n▸ Reihenfolge: Sitz und Geschäftsleitung (§§ 10, 11 AO), bei ausländischen Gesellschaften Typenvergleich, inländische Einkünfte, erst zuletzt das DBA.\n\nBeispiel: B.V. mit Sitz in Rotterdam, Lagerhalle in Bremen. Wird sie von Hamburg aus geleitet, ist sie unbeschränkt steuerpflichtig (§ 1 Abs. 1 Nr. 1 KStG, § 10 AO). Wird sie in Rotterdam geleitet, ist sie nur mit den Mieteinkünften beschränkt steuerpflichtig (§ 2 Nr. 1 KStG, § 49 Abs. 1 Nr. 2 Buchst. f EStG).\n\nZum Schluss: §§ 1, 2 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1, 2 KStG",
+    "§ 2 Nr. 1 KStG",
+    "§ 8 Abs. 1 KStG",
+    "§ 49 Abs. 1 Nr. 2 Buchst. f EStG",
+    "§§ 10, 11 AO"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-7",
+   "themaTitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+   "figuren": {
+    "A": {
+     "name": "Arne",
+     "kopf": "Gray Short",
+     "haut": "#EBC4A4",
+     "oberteil": "#F28C8C",
+     "bart": "Full 4",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Vater schenkt seinen KG-Anteil und behält das Grundstück, das die KG nutzt. Buchwert? Leider nein."
+    },
+    {
+     "id": "s1",
+     "text": "Das Grundstück ist wesentliches Sonderbetriebsvermögen. Ohne es gibt es keinen Buchwert nach Paragraf sechs Absatz drei."
+    },
+    {
+     "id": "s2",
+     "text": "Es wird Privatvermögen, der ganze Anteil gilt als aufgegeben. Zweihunderttausend plus dreihunderttausend Euro stille Reserven."
+    },
+    {
+     "id": "s3",
+     "text": "Fünfhunderttausend Euro Aufgabegewinn, immerhin begünstigt. Besser: das Grundstück mitschenken."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Wesentliches Sonderbetriebsvermögen muss mit."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Anteil verschenkt.",
+     "Buchwert bleibt."
+    ],
+    "pille": "Sonderbetriebsvermögen",
+    "figur": "A/ruhig",
+    "name": "Arne",
+    "icons": [
+     [
+      "tabler:home",
+      "GELB",
+      "Leider"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Aufgabe, alles aufdecken",
+     "wort": "nein",
+     "farbe": "GRUEN",
+     "zs": 64
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Leider"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Das Grundstück zählt",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "an die KG vermietet",
+       "wert": "wesentlich",
+       "farbe": "GELB",
+       "wort": "wesentliches",
+       "zs": 100
+      },
+      {
+       "typ": "text",
+       "text": "kein Buchwert",
+       "unter": "wenn es zurückbleibt",
+       "wort": "keinen",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 3 S. 1 EStG",
+       "wort": "Paragraf"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Grundstück"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Ganzer Anteil aufgegeben",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Reserven im Anteil",
+       "wert": "200.000 €",
+       "farbe": "WEISS",
+       "wort": "Zweihunderttausend",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Reserven im Grundstück",
+       "wert": "300.000 €",
+       "farbe": "WEISS",
+       "wort": "dreihunderttausend",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 16 Abs. 3 S. 1 EStG",
+       "wort": "aufgegeben"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Privatvermögen"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Zweihunderttausend",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "500.000 €",
+       "wort": "Fünfhunderttausend",
+       "size": 130
+      },
+      {
+       "typ": "pille",
+       "text": "Aufgabegewinn, begünstigt",
+       "farbe": "GELB",
+       "wort": "Aufgabegewinn"
+      },
+      {
+       "typ": "text",
+       "text": "Besser:",
+       "unter": "Grundstück mitschenken",
+       "wort": "Besser",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§§ 16 Abs. 4, 34 EStG",
+       "wort": "begünstigt"
+      }
+     ],
+     "icon": [
+      "tabler:gift",
+      "GELB",
+      "mitschenken"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Wesentliches",
+     "Sonderbetriebs-",
+     "vermögen",
+     "muss mit."
+    ],
+    "woerter": [
+     null,
+     "Sonderbetriebsvermögen",
+     "Sonderbetriebsvermögen",
+     "muss"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "mit",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Anteilsschenkung bei der KG: Was passiert mit dem Sonderbetriebsvermögen? 🏠\n\n▸ Die unentgeltliche Übertragung eines Mitunternehmeranteils erfolgt zum Buchwert (§ 6 Abs. 3 S. 1 EStG) – aber nur, wenn das funktional wesentliche Sonderbetriebsvermögen mit übergeht.\n▸ Bleibt ein an die KG vermietetes Grundstück zurück und wird es Privatvermögen, gilt der gesamte Anteil als aufgegeben (§ 16 Abs. 3 S. 1 EStG): Aufgedeckt werden die stillen Reserven im Anteil und im Grundstück, im Beispiel 200.000 € + 300.000 € = 500.000 €.\n▸ Der Aufgabegewinn kann nach § 16 Abs. 4 und § 34 EStG begünstigt sein.\n▸ Ausweg: Grundstück mitübertragen; bei Teilanteilen und unterquotaler Übertragung gilt die Behaltefrist des § 6 Abs. 3 S. 2 EStG.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 6 Abs. 3 S. 1, 2 EStG",
+    "§ 16 Abs. 3 S. 1, Abs. 4 EStG",
+    "§ 34 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-28",
+   "frage": [
+    "Realteilung:",
+    "Buchwert als Wahlrecht?"
+   ],
+   "optionen": [
+    "Ja, auf Antrag",
+    "Nein, zwingend",
+    "Nur bei Teilbetrieben"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#E3B48F",
+     "haar": "#3B2A20",
+     "oberteil": "#F2C14E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-28",
+   "titel": [
+    "B: zwingend"
+   ],
+   "optionen": [
+    "Ja, auf Antrag",
+    "Nein, zwingend",
+    "Nur bei Teilbetrieben"
+   ],
+   "richtig": 1,
+   "text": "Gelangen die Wirtschaftsgüter in Betriebsvermögen der Mitunternehmer und bleibt die Besteuerung gesichert, sind die Buchwerte anzusetzen.",
+   "norm": "§ 16 Abs. 3 S. 2 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#E3B48F",
+     "haar": "#3B2A20",
+     "oberteil": "#F2C14E",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Bescheid falsch: was nun?"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-531",
+   "titel": [
+    "Wohnrecht",
+    "bewerten"
+   ],
+   "norm": "§§ 14, 16 BewG",
+   "punkte": [
+    [
+     "Kapitalwert = Jahreswert × Vervielfältiger",
+     "ok",
+     "§ 14 Abs. 1 BewG"
+    ],
+    [
+     "Jahreswert höchstens Wert des Hauses geteilt durch 18,6",
+     "warn",
+     "§ 16 BewG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Bun",
+     "haut": "#8D5A3B",
+     "haar": "#1B1B1B",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Unbeschränkt oder beschränkt?"
+   ],
+   "unter": "A oder B + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Fristen immer",
+    "mit Datum"
+   ],
+   "punkte": [
+    [
+     "Jeden Fristbeginn als Datum hinschreiben",
+     "ok",
+     null
+    ],
+    [
+     "Feiertag oder Wochenende prüfen",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:calendar-stats",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Twists",
+     "haut": "#7A4B2E",
+     "haar": "#1A1210",
+     "oberteil": "#9FD0E8"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-2-06",
+   "titel": [
+    "Außerhalb der",
+    "Bilanz zurückholen"
+   ],
+   "punkte": [
+    [
+     "KSt, Soli, Kapitalertragsteuer",
+     "ok",
+     "§ 10 Nr. 2 KStG"
+    ],
+    [
+     "Gewerbesteuer",
+     "ok",
+     "§ 4 Abs. 5b EStG"
+    ],
+    [
+     "Hälfte der Aufsichtsratsvergütung",
+     "warn",
+     "§ 10 Nr. 4 KStG"
+    ]
+   ],
+   "icon": "tabler:refresh",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Anteil verschenkt"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-3-02",
+   "titel": [
+    "GmbH wird KG:",
+    "Schlussbilanz"
+   ],
+   "zeilen": [
+    [
+     [
+      "Regel: ",
+      null
+     ],
+     [
+      "gemeiner Wert",
+      "a"
+     ]
+    ],
+    [
+     [
+      "Buchwert nur",
+      null
+     ]
+    ],
+    [
+     [
+      "auf ",
+      null
+     ],
+     [
+      "Antrag",
+      "b"
+     ]
+    ]
+   ],
+   "norm": "§ 3 Abs. 1, 2 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Bangs 2",
+     "haut": "#F0C8A8",
+     "haar": "#2B1E16",
+     "oberteil": "#F2B544",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

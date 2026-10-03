@@ -1,0 +1,1244 @@
+{
+ "datum": "2026-11-18",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t2-07",
+   "themaTitel": "Streubesitz: Welche Anteile zählen für die 10-%-Grenze?",
+   "figuren": {
+    "A": {
+     "name": "Kemal",
+     "kopf": "Short 4",
+     "haut": "#C99470",
+     "haar": "#2A1E18",
+     "oberteil": "#BFE3F5",
+     "bart": "Moustache 6",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Streubesitz:",
+      "falsch gezählt"
+     ],
+     "norm": "§ 8b Abs. 4 KStG",
+     "unter": "10 %?",
+     "teaser": "+ Markier-Guide § 8b KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "6 % direkt + 5 % über GmbH",
+        "Bold",
+        36
+       ],
+       [
+        "= 6 %",
+        "ExtraBold",
+        96
+       ],
+       [
+        "nicht 11 %",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:skeptisch"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Mittelbar zählt nicht",
+     "punkte": [
+      [
+       "Maßgeblich ist nur die unmittelbare Beteiligung am Grund- oder Stammkapital.",
+       "warn",
+       "Bold",
+       "§ 8b Abs. 4 S. 1 KStG"
+      ],
+      [
+       "Anteile, die eine Tochter-GmbH hält, bleiben außen vor.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Auch Stimmrechte heben eine kleine Quote nicht an.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Ich bin Kemal. 11 % weg?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Grundregel",
+     "punkte": [
+      [
+       "Dividenden sind nur frei, wenn zu Beginn des Kalenderjahres mindestens 10 % gehalten werden.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG"
+      ],
+      [
+       "Darunter: Die Dividende ist voll steuerpflichtig.",
+       "nein",
+       "Bold",
+       "§ 8b Abs. 4 S. 1 KStG"
+      ],
+      [
+       "Veräußerungsgewinne kennen keine Mindestquote.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 2 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Nur Dividenden."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was doch zählt",
+     "punkte": [
+      [
+       "Anteile über eine Mitunternehmerschaft: anteilig, gelten als unmittelbar.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 4 S. 4, 5 KStG"
+      ],
+      [
+       "Verliehene Anteile zählen beim Verleiher.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 4 S. 3 KStG"
+      ],
+      [
+       "Erwerb von mindestens 10 % im Jahr gilt als zu Jahresbeginn erfolgt.",
+       "warn",
+       "Bold",
+       "§ 8b Abs. 4 S. 6 KStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Die KG schon!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Kemals Falkner GmbH",
+     "normen": [
+      "§ 8b Abs. 4 S. 1, 4, 5 KStG"
+     ],
+     "zeilen": [
+      [
+       "Direkt gehalten",
+       "6 %",
+       "Regular",
+       null
+      ],
+      [
+       "Über KG: 50 % von 8 %",
+       "4 %",
+       "Regular",
+       null
+      ],
+      [
+       "Über Tochter-GmbH",
+       "0 %",
+       "Regular",
+       null
+      ],
+      [
+       "Quote",
+       "10 %",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Dividende frei, 5 % nicht abziehbar",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die Falkner GmbH ist an der KG nur zu 25 % beteiligt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Alles andere bleibt gleich.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Bleibt die Dividende steuerfrei?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Knapp, oder?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 8b Abs. 4 S. 1, 7 KStG"
+     ],
+     "zeilen": [
+      [
+       "Direkt gehalten",
+       "6 %",
+       "Regular",
+       null
+      ],
+      [
+       "Über KG: 25 % von 8 %",
+       "2 %",
+       "Regular",
+       null
+      ],
+      [
+       "Quote",
+       "8 %",
+       "ExtraBold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "Streubesitz: Dividende voll steuerpflichtig",
+      "ROT"
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Zwei Prozent fehlen."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Zählen: direkt + über Mitunternehmerschaft",
+      "Nicht zählen: über Kapitalgesellschaft, Stimmrechte",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Unmittelbar",
+        "a"
+       ],
+       [
+        " am Kapital,",
+        null
+       ]
+      ],
+      [
+       [
+        "zu",
+        null
+       ],
+       [
+        " Jahresbeginn",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "KG",
+        "c"
+       ],
+       [
+        " anteilig dazu,",
+        null
+       ]
+      ],
+      [
+       [
+        "Tochter-GmbH",
+        "d"
+       ],
+       [
+        " nie.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wärst du reingefallen?",
+     "teaser": "Weiterwischen: § 8b KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8b Abs. 4 KStG (Auszug)",
+     "absaetze": [
+      [
+       "(4)",
+       [
+        [
+         "Bezüge im Sinne des Absatzes 1 sind abweichend von Absatz 1 Satz 1 bei der Ermittlung des Einkommens zu berücksichtigen, wenn die Beteiligung",
+         null
+        ],
+        [
+         "zu Beginn des Kalenderjahres",
+         "b1"
+        ],
+        [
+         "unmittelbar weniger als 10 Prozent",
+         "r1"
+        ],
+        [
+         "des Grund- oder Stammkapitals betragen hat; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       null,
+       [
+        [
+         "Beteiligungen über eine Mitunternehmerschaft sind dem Mitunternehmer anteilig zuzurechnen; […] Eine dem Mitunternehmer nach Satz 4 zugerechnete Beteiligung",
+         null
+        ],
+        [
+         "gilt für die Anwendung dieses Absatzes als unmittelbare Beteiligung.",
+         "gr1"
+        ],
+        [
+         "Für Zwecke dieses Absatzes gilt der Erwerb einer Beteiligung von mindestens 10 Prozent",
+         null
+        ],
+        [
+         "als zu Beginn des Kalenderjahres erfolgt.",
+         "g1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Stichtag",
+       "b1"
+      ],
+      [
+       "Grenze",
+       "r1"
+      ],
+      [
+       "KG zählt",
+       "gr1"
+      ],
+      [
+       "Erwerb im Jahr",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 8b Abs. 4 S. 7 KStG",
+      "Bei Streubesitz keine 5-%-Pauschale"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle Streubesitz: Welche Anteile zählen für die 10-%-Grenze des § 8b Abs. 4 KStG?\n\n▸ Dividenden bleiben nur außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres unmittelbar mindestens 10 % des Grund- oder Stammkapitals beträgt (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG). Über eine Tochter-Kapitalgesellschaft gehaltene Anteile zählen nicht, Stimmrechte ebenso wenig.\n▸ Beteiligungen über eine Mitunternehmerschaft werden anteilig zugerechnet und gelten als unmittelbar (§ 8b Abs. 4 S. 4, 5 KStG).\n▸ Überlassene (verliehene) Anteile werden dem Überlassenden zugerechnet (§ 8b Abs. 4 S. 3 KStG).\n▸ Der Erwerb einer Beteiligung von mindestens 10 % gilt als zu Beginn des Kalenderjahres erfolgt (§ 8b Abs. 4 S. 6 KStG).\n▸ Bei Streubesitz ist die Dividende voll steuerpflichtig, die 5-%-Pauschale entfällt (§ 8b Abs. 4 S. 7 KStG). Für Veräußerungsgewinne gibt es keine Mindestquote (§ 8b Abs. 2 KStG).\n\nBeispiel: 6 % direkt + 50 % von 8 % über eine KG = 10 %: frei. Bei 25 % an der KG nur 8 %: steuerpflichtig.\n\nZum Schluss: § 8b Abs. 4 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8b Abs. 1 S. 1 KStG",
+    "§ 8b Abs. 2 KStG",
+    "§ 8b Abs. 4 S. 1, 3–7 KStG",
+    "§ 8b Abs. 5 KStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-4-01",
+   "themaTitel": "Was gehört zu den Anschaffungskosten und was nicht?",
+   "figuren": {
+    "A": {
+     "name": "Yuki",
+     "kopf": "Bun 2",
+     "haut": "#F3D0B5",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses",
+     "bueste": "Paper"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Anschaffungskosten",
+      "sauber ermitteln"
+     ],
+     "norm": "§ 255 Abs. 1 HGB",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 255 HGB",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Maschine",
+        "Bold",
+        44
+       ],
+       [
+        "47.600 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "statt 50.000 €",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Anschaffungskosten prüfen",
+     "schritte": [
+      [
+       "Preis netto",
+       "§ 9b Abs. 1 EStG",
+       "ohne abziehbare Vorsteuer"
+      ],
+      [
+       "Nebenkosten dazu",
+       "§ 255 Abs. 1 S. 1, 2 HGB",
+       "auch Betriebsbereitschaft"
+      ],
+      [
+       "Preisminderungen ab",
+       "§ 255 Abs. 1 S. 3 HGB",
+       "Rabatt, Skonto"
+      ],
+      [
+       "Finanzierung raus",
+       "§ 255 Abs. 1 S. 1 HGB",
+       "auch Gemeinkosten"
+      ]
+     ],
+     "teaser": "Am Ende: § 255 HGB markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Preis und Vorsteuer",
+     "punkte": [
+      [
+       "Ausgangspunkt ist der vereinbarte Preis.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Abziehbare Vorsteuer gehört nicht dazu.",
+       "ok",
+       "Bold",
+       "§ 9b Abs. 1 EStG"
+      ],
+      [
+       "Nicht abziehbare Vorsteuer erhöht die Anschaffungskosten.",
+       "warn",
+       "Regular",
+       "§ 9b Abs. 1 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Netto denken."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Was dazukommt",
+     "punkte": [
+      [
+       "Einzeln zurechenbare Nebenkosten, etwa Fracht, Notar und Grunderwerbsteuer.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 1 S. 2 HGB"
+      ],
+      [
+       "Kosten, um den Gegenstand betriebsbereit zu machen, etwa Fundament oder Montage.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 1 S. 1 HGB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Bis er läuft."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 + 4 · Was abgeht",
+     "punkte": [
+      [
+       "Rabatte und genutzte Skonti mindern die Anschaffungskosten.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 1 S. 3 HGB"
+      ],
+      [
+       "Zinsen und Kosten der Grundschuld sind Finanzierung, kein Erwerb.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Gemeinkosten, etwa der eigene Einkauf, sind Aufwand.",
+       "nein",
+       "Regular",
+       "§ 255 Abs. 1 S. 1 HGB"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Skonto ist kein Ertrag."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Yukis neue Maschine",
+     "normen": [
+      "§ 255 Abs. 1 HGB",
+      "H 6.2 EStH"
+     ],
+     "zeilen": [
+      [
+       "Listenpreis netto",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– 10 % Rabatt, – 2 % Skonto",
+       "– 5.900 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Fracht und Fundament",
+       "3.500 €",
+       "Regular",
+       null
+      ],
+      [
+       "Finanzierungszinsen",
+       "0 €",
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten",
+       "47.600 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Zinsen sind Aufwand, keine Anschaffungskosten",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Yuki kauft ein unbebautes Grundstück für 300.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Dazu: Grunderwerbsteuer 18.000 €, Notar für den Kaufvertrag 2.400 €, Notar für die Grundschuld 900 €, Makler 10.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Was zählt dazu?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 255 Abs. 1 S. 2 HGB"
+     ],
+     "zeilen": [
+      [
+       "Kaufpreis",
+       "300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Grunderwerbsteuer",
+       "18.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Notar Kaufvertrag, Makler",
+       "12.400 €",
+       "Regular",
+       null
+      ],
+      [
+       "Notar Grundschuld",
+       "Aufwand",
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten",
+       "330.400 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Preis netto + Nebenkosten + Betriebsbereitschaft",
+      "abzüglich Preisminderungen, ohne Finanzierung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Netto",
+        "a"
+       ],
+       [
+        " ansetzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Nebenkosten",
+        "b"
+       ],
+       [
+        " dazu,",
+        null
+       ]
+      ],
+      [
+       [
+        "Skonto",
+        "c"
+       ],
+       [
+        " ab,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zinsen",
+        "d"
+       ],
+       [
+        " bleiben draußen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Grundschuld erkannt?",
+     "teaser": "Weiterwischen: § 255 HGB markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 255 HGB Bewertungsmaßstäbe (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Anschaffungskosten sind die Aufwendungen, die geleistet werden, um einen Vermögensgegenstand",
+         null
+        ],
+        [
+         "zu erwerben",
+         "g1"
+        ],
+        [
+         "und ihn",
+         null
+        ],
+        [
+         "in einen betriebsbereiten Zustand zu versetzen,",
+         "b1"
+        ],
+        [
+         "soweit sie dem Vermögensgegenstand",
+         null
+        ],
+        [
+         "einzeln zugeordnet",
+         "r1"
+        ],
+        [
+         "werden können. Zu den Anschaffungskosten gehören auch die",
+         null
+        ],
+        [
+         "Nebenkosten",
+         "gr1"
+        ],
+        [
+         "sowie die nachträglichen Anschaffungskosten. Anschaffungspreisminderungen, die dem Vermögensgegenstand einzeln zugeordnet werden können, sind abzusetzen.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Erwerb",
+       "g1"
+      ],
+      [
+       "Fundament, Montage",
+       "b1"
+      ],
+      [
+       "keine Gemeinkosten",
+       "r1"
+      ],
+      [
+       "Notar, GrESt",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 9b Abs. 1 EStG",
+      "Abziehbare Vorsteuer gehört nicht dazu"
+     ]
+    }
+   ],
+   "caption": "Anschaffungskosten sauber ermitteln: das Prüfschema für die Bilanzklausur.\n\n1. Preis ohne abziehbare Vorsteuer (§ 9b Abs. 1 EStG); nicht abziehbare Vorsteuer erhöht die Anschaffungskosten.\n2. Einzeln zurechenbare Nebenkosten und Kosten der Betriebsbereitschaft hinzurechnen (§ 255 Abs. 1 S. 1, 2 HGB; steuerlich maßgeblich nach H 6.2 EStH).\n3. Einzeln zurechenbare Preisminderungen wie Rabatte und genutzte Skonti abziehen (§ 255 Abs. 1 S. 3 HGB).\n4. Finanzierungskosten (Zinsen, Grundschuld) und Gemeinkosten gehören nicht dazu.\n\nBeispiel Maschine: 50.000 € – 5.000 € Rabatt – 900 € Skonto + 3.500 € Fracht und Fundament = 47.600 €.\nBeispiel Grundstück: 300.000 € + 18.000 € Grunderwerbsteuer + 2.400 € Notar Kaufvertrag + 10.000 € Makler = 330.400 €; Notarkosten der Grundschuld sind Aufwand.\n\nZum Schluss: § 255 Abs. 1 HGB zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 255 Abs. 1 HGB",
+    "§ 9b Abs. 1 EStG",
+    "H 6.2 EStH"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-548",
+   "themaTitel": "Ertragswertverfahren §§ 184–188 BewG: Bodenwert + Gebäudeertragswert",
+   "figuren": {
+    "A": {
+     "name": "Fenja",
+     "kopf": "Long",
+     "haut": "#EBC3A0",
+     "haar": "#A0522D",
+     "oberteil": "#F2B880",
+     "bueste": "Striped Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Reinertrag mal Vervielfältiger plus Bodenwert? Dann liegst du hundertachtzigtausend Euro zu hoch."
+    },
+    {
+     "id": "s1",
+     "text": "Der Boden steckt schon im Reinertrag. Also erst die Bodenwertverzinsung abziehen: sechs Prozent von zweihundertfünfzigtausend, also fünfzehntausend."
+    },
+    {
+     "id": "s2",
+     "text": "Von vierundfünfzigtausend Reinertrag bleiben neununddreißigtausend. Nur die werden kapitalisiert, hier mit zwölf."
+    },
+    {
+     "id": "s3",
+     "text": "Plus Bodenwert ergibt das siebenhundertachtzehntausend Euro."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Boden verzinsen, Rest kapitalisieren, dann Boden addieren."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Ertragswert:",
+     "Boden doppelt?"
+    ],
+    "pille": "§ 185 Abs. 2 BewG",
+    "figur": "A/sorge",
+    "name": "Fenja",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Bodenwert"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Ohne Verzinsung",
+      "wert": "898.000 €",
+      "farbe": "ROT",
+      "wort": "Vervielfältiger"
+     },
+     {
+      "label": "Richtig",
+      "wert": "718.000 €",
+      "farbe": "GRUEN",
+      "wort": "Bodenwert"
+     }
+    ],
+    "stempel": {
+     "text": "zu hoch!",
+     "wort": "hoch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Bodenwertverzinsung",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Boden steckt im Reinertrag",
+       "wort": "Boden",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "250.000 € × 6 %",
+       "wert": "15.000 €",
+       "farbe": "GELB",
+       "wort": "fünfzehntausend"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 188 Abs. 2 S. 2 Nr. 4 BewG",
+       "wort": "Prozent"
+      }
+     ],
+     "icon": [
+      "tabler:percentage",
+      "GELB",
+      "Bodenwertverzinsung"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Erst dann kapitalisieren",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Reinertrag 54.000 €",
+       "wort": "vierundfünfzigtausend",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Gebäudereinertrag",
+       "wert": "39.000 €",
+       "farbe": "GELB",
+       "wort": "neununddreißigtausend"
+      },
+      {
+       "typ": "pille",
+       "text": "× Vervielfältiger 12",
+       "wort": "zwölf",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 185 Abs. 3 BewG",
+       "wort": "kapitalisiert"
+      }
+     ],
+     "figur": {
+      "ref": "A/erklaert",
+      "wort": "Nur",
+      "hoehe": 440
+     }
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Gebäudeertragswert 468.000 €",
+       "wort": "Plus",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "+ Bodenwert 250.000 €",
+       "wort": "Bodenwert",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Ertragswert",
+       "wert": "718.000 €",
+       "farbe": "GRUEN",
+       "wort": "siebenhundertachtzehntausend"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 184 Abs. 3 BewG",
+       "wort": "ergibt"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "ergibt",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Boden verzinsen,",
+     "Rest kapitalisieren,",
+     "dann Boden",
+     "addieren"
+    ],
+    "woerter": [
+     "Boden",
+     "Rest",
+     "dann",
+     "addieren"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "addieren",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Klausurfalle im Ertragswertverfahren: den Boden nicht doppelt erfassen. 🏢\n\n▸ Ertragswert = Bodenwert + Gebäudeertragswert (§ 184 Abs. 1, 3 S. 1 BewG); Bodenwert nach § 179 BewG (§ 184 Abs. 2 BewG); mindestens der Bodenwert (§ 184 Abs. 3 S. 2 BewG).\n▸ Reinertrag = Rohertrag – Bewirtschaftungskosten (§ 185 Abs. 1, §§ 186, 187 BewG).\n▸ Vor der Kapitalisierung den Reinertrag um die Bodenwertverzinsung mit dem Liegenschaftszinssatz kürzen (§ 185 Abs. 2 BewG). Ohne Werte des Gutachterausschusses: 6,0 % für Geschäftsgrundstücke (§ 188 Abs. 2 S. 2 Nr. 4 BewG).\n▸ Nur der Gebäudereinertrag wird mit dem Vervielfältiger aus Anlage 21 kapitalisiert (§ 185 Abs. 3 BewG).\n\nBeispiel Geschäftsgrundstück: Reinertrag 54.000 €, Bodenwert 250.000 € × 6 % = 15.000 €, Gebäudereinertrag 39.000 € × 12 (angenommener Vervielfältiger) = 468.000 € + 250.000 € = 718.000 €. Ohne Verzinsung kämen 898.000 € heraus.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 184 BewG",
+    "§ 185 Abs. 1–3 BewG",
+    "§§ 186, 187 BewG",
+    "§ 188 Abs. 2 BewG",
+    "Anlage 21 BewG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+   "frage": [
+    "Belehrung fehlt:",
+    "wie lange Einspruch?"
+   ],
+   "optionen": [
+    "Ein Monat",
+    "Ein Jahr ab Bekanntgabe",
+    "Unbegrenzt"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Shaved 2",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Gym Shirt"
+    }
+   },
+   "figur": "Q:fragt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-quiz-rechtsbehelfsbelehrung",
+   "titel": [
+    "B: ein Jahr"
+   ],
+   "optionen": [
+    "Ein Monat",
+    "Ein Jahr ab Bekanntgabe",
+    "Unbegrenzt"
+   ],
+   "richtig": 1,
+   "text": "Ohne richtige Belehrung beginnt die Monatsfrist nicht. Es gilt die Jahresfrist.",
+   "norm": "§ 356 Abs. 1, 2 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Shaved 2",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Gym Shirt"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Streubesitz: falsch gezählt"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t2-38",
+   "titel": [
+    "Dividende",
+    "über die KG?"
+   ],
+   "norm": "§ 8b Abs. 6 S. 1 KStG",
+   "punkte": [
+    [
+     "Gewerbliche KG: Die GmbH wird gestellt, als hätte sie selbst bezogen.",
+     "ok",
+     "§ 8b Abs. 6 S. 1 KStG"
+    ],
+    [
+     "Vermögensverwaltende KG: anteilige Zurechnung ohnehin.",
+     "ok",
+     "§ 39 Abs. 2 Nr. 2 AO"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium 3",
+     "haut": "#D9A47E",
+     "haar": "#4A2E1E",
+     "oberteil": "#9AD48F",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Anschaffungskosten"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst Gerüst,",
+    "dann Text"
+   ],
+   "punkte": [
+    [
+     "Für jeden Teil des Sachverhalts eine Überschrift setzen.",
+     "ok",
+     null
+    ],
+    [
+     "Zeit je Teil am Rand notieren.",
+     "ok",
+     null
+    ],
+    [
+     "Hängst du fest, spring zum nächsten Teil.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:layout-list",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-4",
+   "titel": [
+    "Selbst geschaffen",
+    "und immateriell?"
+   ],
+   "punkte": [
+    [
+     "Handelsbilanz: Wahlrecht, nicht für Marken oder Kundenlisten.",
+     "ok",
+     "§ 248 Abs. 2 HGB"
+    ],
+    [
+     "Steuerbilanz: Verbot, nur entgeltlich Erworbenes.",
+     "nein",
+     "§ 5 Abs. 2 EStG"
+    ]
+   ],
+   "icon": "tabler:bulb",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Ertragswert: Boden doppelt?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-5-2",
+   "titel": [
+    "Vorbehalt der",
+    "Nachprüfung"
+   ],
+   "zeilen": [
+    [
+     [
+      "Lebt",
+      "a"
+     ],
+     [
+      " er: alles änderbar.",
+      null
+     ]
+    ],
+    [
+     [
+      "Aufgehoben",
+      "b"
+     ],
+     [
+      " oder",
+      null
+     ]
+    ],
+    [
+     [
+      "Frist um",
+      "c"
+     ],
+     [
+      ": nur noch",
+      null
+     ]
+    ],
+    [
+     [
+      "Einzelkorrektur.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 164 Abs. 2–4 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Long Bangs",
+     "haut": "#B97A56",
+     "haar": "#2A1A14",
+     "oberteil": "#F4A3B5",
+     "bueste": "Dress"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

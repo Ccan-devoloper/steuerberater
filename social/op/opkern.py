@@ -66,6 +66,8 @@ def zusammensetzen(els, klausur, fmt=None, rund=30):
     bg = Image.new("RGBA", (W_, H_), CREME)
     for e in els:
         sp, x, y = e.sprite, int(e.x), int(e.y)
+        if x >= W_ or y >= H_ or x + sp.width <= 0 or y + sp.height <= 0:
+            continue
         cx0, cy0 = max(0, -x), max(0, -y)
         sp = sp.crop((cx0, cy0, min(sp.width, W_ - x), min(sp.height, H_ - y)))
         if sp.width > 0 and sp.height > 0:
@@ -113,6 +115,8 @@ def bl(art, w, h, cx, cy, text, ziel, size=36):
 def blase_zu(els, bueste, unten, blase_, max_h=520):
     """Brustbild unter der Karte; Sprechblase auf der freien Seite, mit adaptiver Breite."""
     if not bueste:
+        return
+    if unten + 150 > AKTIV.innen_unten - 220:          # kein Platz für ein Brustbild: lieber ohne Figur
         return
     name, cx = bueste
     b = nah(name, cx, unten + 150, max_h)

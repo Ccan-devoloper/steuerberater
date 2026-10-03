@@ -1,0 +1,1139 @@
+{
+ "datum": "2026-11-21",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-technik-gewerbesteuerteil",
+   "themaTitel": "Der Gewerbesteuer-Teil der Ertragsteuerklausur: Zeit, Gerüst, Darstellung",
+   "figuren": {
+    "A": {
+     "name": "Zofia",
+     "kopf": "Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#9AD48F",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Gewerbesteuer:",
+      "Punkte sichern"
+     ],
+     "unter": "Strategie",
+     "teaser": "+ Markier-Guide § 7 GewStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:stairs",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Plan für den Teil",
+     "schritte": [
+      [
+       "Frage genau lesen",
+       null,
+       "Messbetrag, Steuer oder Rückstellung?"
+      ],
+      [
+       "Zeit festlegen",
+       null,
+       "nach dem Punkteanteil"
+      ],
+      [
+       "Gerüst als Tabelle",
+       null,
+       "eine Zeile je Posten, Norm daneben"
+      ],
+      [
+       "Rechenweg sichtbar lassen",
+       null,
+       "so zählen Folgefehler nicht doppelt"
+      ]
+     ],
+     "teaser": "Am Ende: § 7 GewStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zeit nach Punkten",
+     "punkte": [
+      [
+       "Sechs Stunden für die ganze Klausur.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Gibt es für die Gewerbesteuer 20 % der Punkte, bleiben rund 70 Minuten.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Zeitlimit an den Rand schreiben und einhalten.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Uhr im Blick."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Das Gerüst",
+     "zeilen": [
+      [
+       "Gewinn",
+       "§ 7 S. 1",
+       "Regular",
+       null
+      ],
+      [
+       "+ Hinzurechnungen",
+       "§ 8",
+       "Regular",
+       null
+      ],
+      [
+       "– Kürzungen",
+       "§ 9",
+       "Regular",
+       null
+      ],
+      [
+       "– Gewerbeverlust",
+       "§ 10a",
+       "Regular",
+       null
+      ],
+      [
+       "Abrunden, Freibetrag",
+       "§ 11 Abs. 1 S. 3",
+       "Regular",
+       null
+      ],
+      [
+       "× 3,5 % = Messbetrag",
+       "§ 11 Abs. 2",
+       "Bold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Alle Normen aus dem GewStG",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Darstellung, die zählt",
+     "punkte": [
+      [
+       "Je Posten: Betrag, Norm, ein kurzer Satz.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Auch was nicht greift, kurz abhaken: „keine Kürzung, weil …“.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zwischensummen hinschreiben, damit Folgefehler bewertbar bleiben.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Sichtbar rechnen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Punktfresser",
+     "punkte": [
+      [
+       "Freibetrag von 24.500 € bei der GmbH angesetzt.",
+       "nein",
+       "Regular",
+       "§ 11 Abs. 1 S. 3 Nr. 1 GewStG"
+      ],
+      [
+       "Finanzierungsanteile ohne den Freibetrag von 200.000 € hinzugerechnet.",
+       "nein",
+       "Regular",
+       "§ 8 Nr. 1 GewStG"
+      ],
+      [
+       "Verlustvortrag vor den Kürzungen abgezogen.",
+       "nein",
+       "Regular",
+       "§ 10a S. 1 GewStG"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Kenn ich."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Punkteanteil = Zeitanteil",
+      "Gerüst als Tabelle, Norm in jede Zeile",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Frage",
+        "a"
+       ],
+       [
+        " lesen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zeit",
+        "b"
+       ],
+       [
+        " setzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gerüst",
+        "c"
+       ],
+       [
+        " bauen,",
+        null
+       ]
+      ],
+      [
+       [
+        "sichtbar",
+        "d"
+       ],
+       [
+        " rechnen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wie viel Zeit planst du ein?",
+     "teaser": "Weiterwischen: § 7 GewStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 7 GewStG Gewerbeertrag (Auszug)",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Gewerbeertrag ist der",
+         null
+        ],
+        [
+         "nach den Vorschriften des Einkommensteuergesetzes oder des Körperschaftsteuergesetzes",
+         "b1"
+        ],
+        [
+         "zu ermittelnde Gewinn aus dem Gewerbebetrieb, der bei der Ermittlung des Einkommens für den dem Erhebungszeitraum (§ 14) entsprechenden Veranlagungszeitraum zu berücksichtigen ist,",
+         null
+        ],
+        [
+         "vermehrt und vermindert um die in den §§ 8 und 9 bezeichneten Beträge.",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Start: Gewinn",
+       "b1"
+      ],
+      [
+       "Gerüst!",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 11 GewStG",
+      "Abrunden, Freibetrag, 3,5 %"
+     ]
+    }
+   ],
+   "caption": "Klausurtechnik für die Ertragsteuerklausur: den Gewerbesteuer-Teil sicher durchziehen. Für den zweiten Anlauf 2027.\n\n▸ Frage genau lesen: Messbetrag, Gewerbesteuer oder Rückstellung?\n▸ Zeit nach Punkten planen: Bei sechs Stunden und 20 % der Punkte rund 70 Minuten.\n▸ Gerüst als Tabelle: Gewinn (§ 7 S. 1 GewStG), Hinzurechnungen (§ 8 GewStG), Kürzungen (§ 9 GewStG), Gewerbeverlust (§ 10a GewStG), Abrundung und Freibetrag (§ 11 Abs. 1 S. 3 GewStG), Steuermesszahl 3,5 % (§ 11 Abs. 2 GewStG).\n▸ Darstellung: je Posten Betrag, Norm, ein Satz; auch Nicht-Anwendbares kurz begründen; Zwischensummen zeigen.\n▸ Typische Punktfresser: Freibetrag von 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG); Hinzurechnung nach § 8 Nr. 1 GewStG erst über 200.000 €; Gewerbeverlust erst nach Hinzurechnungen und Kürzungen (§ 10a S. 1 GewStG).\n\nZum Schluss: § 7 GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 7 S. 1 GewStG",
+    "§ 8 Nr. 1 GewStG",
+    "§ 9 GewStG",
+    "§ 10a S. 1 GewStG",
+    "§ 11 Abs. 1 S. 3, Abs. 2 GewStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-4-02",
+   "themaTitel": "Mit welchem Wert werden Einlagen und Entnahmen angesetzt?",
+   "figuren": {
+    "A": {
+     "name": "Lina",
+     "kopf": "Medium Bangs 2",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#F2B880",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Einlage richtig",
+      "bewerten"
+     ],
+     "norm": "§ 6 Abs. 1 Nr. 4, 5 EStG",
+     "unter": "Rechenweg",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Teilwert 30.000 €",
+        "Bold",
+        42
+       ],
+       [
+        "24.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Einlagewert",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg",
+     "schritte": [
+      [
+       "Was wechselt die Seite?",
+       "§ 4 Abs. 1 S. 2, 8 EStG",
+       "Wirtschaftsgut, Nutzung, Leistung"
+      ],
+      [
+       "Entnahme: Teilwert",
+       "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+       ""
+      ],
+      [
+       "Einlage: Teilwert, Deckel prüfen",
+       "§ 6 Abs. 1 Nr. 5 S. 1 EStG",
+       "binnen drei Jahren angeschafft?"
+      ],
+      [
+       "Abnutzbar: AfA abziehen",
+       "§ 6 Abs. 1 Nr. 5 S. 2 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 6 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Entnahmen",
+     "punkte": [
+      [
+       "Wirtschaftsgüter gehen mit dem Teilwert hinaus.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 4 S. 1 EStG"
+      ],
+      [
+       "Nutzungen werden mit den darauf entfallenden Kosten bewertet, nicht mit dem Marktpreis.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Firmenwagen privat: eigene Pauschale.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 4 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Raus: Teilwert."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einlagen",
+     "punkte": [
+      [
+       "Grundsatz: Teilwert im Zeitpunkt der Zuführung.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
+      ],
+      [
+       "In den letzten drei Jahren privat angeschafft: höchstens die Anschaffungskosten.",
+       "warn",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG"
+      ],
+      [
+       "Abnutzbar: Anschaffungskosten um die AfA bis zur Einlage kürzen.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 5 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Rein: mit Deckel?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Linas Lieferwagen",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "Privat gekauft 01.07.2024",
+       "36.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– AfA 2 von 6 Jahren",
+       "– 12.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Fortgeführte Kosten",
+       "24.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Teilwert bei Einlage",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einlagewert",
+       "24.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Einlage am 01.07.2026: noch keine drei Jahre",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Lina hat den Wagen schon am 01.03.2023 gekauft.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Einlage wieder am 01.07.2026, Teilwert 30.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Mit welchem Wert legt sie ein?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "kalender": [
+      [
+       "MÄRZ",
+       "1",
+       "2023 gekauft"
+      ],
+      [
+       "JULI",
+       "1",
+       "2026 eingelegt"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Zwischen Kauf und Einlage liegen mehr als drei Jahre.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG"
+      ],
+      [
+       "Der Deckel greift nicht: Einlage zum Teilwert von 30.000 €.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
+      ]
+     ],
+     "extra": [
+      "Drei Jahre genau nachzählen",
+      "GELB",
+      null
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "30.000 €!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Binnen drei Jahren: Kosten minus AfA",
+      "24.000 € statt Teilwert 30.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Entnahme",
+        "a"
+       ],
+       [
+        ": Teilwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einlage",
+        "b"
+       ],
+       [
+        ": Teilwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "drei Jahre",
+        "c"
+       ],
+       [
+        ": Deckel,",
+        null
+       ]
+      ],
+      [
+       [
+        "AfA",
+        "d"
+       ],
+       [
+        " abziehen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Deckel schon mal vergessen?",
+     "teaser": "Weiterwischen: § 6 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6 Abs. 1 Nr. 5 EStG (Auszug)",
+     "absaetze": [
+      [
+       "5.",
+       [
+        [
+         "Einlagen sind",
+         null
+        ],
+        [
+         "mit dem Teilwert",
+         "g1"
+        ],
+        [
+         "für den Zeitpunkt der Zuführung anzusetzen; sie sind jedoch",
+         null
+        ],
+        [
+         "höchstens mit den Anschaffungs- oder Herstellungskosten",
+         "r1"
+        ],
+        [
+         "anzusetzen, wenn das zugeführte Wirtschaftsgut a)",
+         null
+        ],
+        [
+         "innerhalb der letzten drei Jahre vor dem Zeitpunkt der Zuführung",
+         "b1"
+        ],
+        [
+         "aus dem Privatvermögen angeschafft oder hergestellt worden ist, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       null,
+       [
+        [
+         "Ist die Einlage ein abnutzbares Wirtschaftsgut, so sind die Anschaffungs- oder Herstellungskosten",
+         null
+        ],
+        [
+         "um Absetzungen für Abnutzung zu kürzen,",
+         "gr1"
+        ],
+        [
+         "die auf den Zeitraum zwischen der Anschaffung oder Herstellung des Wirtschaftsguts und der Einlage entfallen. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "g1"
+      ],
+      [
+       "Deckel",
+       "r1"
+      ],
+      [
+       "Frist",
+       "b1"
+      ],
+      [
+       "AfA weg",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 6 Abs. 1 Nr. 4 EStG",
+      "Entnahmen zum Teilwert"
+     ]
+    }
+   ],
+   "caption": "Einlagen und Entnahmen bewerten: der Rechenweg für die Bilanzklausur.\n\n▸ Entnahmen und Einlagen: § 4 Abs. 1 S. 2, 8 EStG.\n▸ Entnahmen sind mit dem Teilwert anzusetzen (§ 6 Abs. 1 Nr. 4 S. 1 EStG); Nutzungsentnahmen mit den darauf entfallenden Kosten; private Kfz-Nutzung nach § 6 Abs. 1 Nr. 4 S. 2 EStG.\n▸ Einlagen sind mit dem Teilwert für den Zeitpunkt der Zuführung anzusetzen, höchstens mit den Anschaffungs- oder Herstellungskosten, wenn das Wirtschaftsgut innerhalb der letzten drei Jahre vor der Zuführung aus dem Privatvermögen angeschafft oder hergestellt wurde (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a EStG).\n▸ Bei abnutzbaren Wirtschaftsgütern sind diese Kosten um die AfA bis zur Einlage zu kürzen (§ 6 Abs. 1 Nr. 5 S. 2 EStG).\n\nBeispiel: Kauf 01.07.2024 für 36.000 €, Nutzungsdauer 6 Jahre, Einlage 01.07.2026: 36.000 € − 12.000 € = 24.000 € statt Teilwert 30.000 €. Kauf schon am 01.03.2023: mehr als drei Jahre, Einlage zum Teilwert 30.000 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 4 Abs. 1 S. 2, 8 EStG",
+    "§ 6 Abs. 1 Nr. 4 S. 1, 2 EStG",
+    "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-352",
+   "themaTitel": "§ 129 AO: offenbare Unrichtigkeit – Schreib-/Rechenfehler und Übernahmefehler",
+   "figuren": {
+    "A": {
+     "name": "Emre",
+     "kopf": "Shaved 3",
+     "haut": "#B07A55",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bart": "Goatee 1",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zahlendreher in der Erklärung, das Amt übernimmt ihn. Wer hilft: hundertneunundzwanzig oder hundertdreiundsiebzig a?"
+    },
+    {
+     "id": "s1",
+     "text": "War der Fehler für das Amt erkennbar, etwa aus der Anlage, macht es ihn sich zu eigen. Dann greift hundertneunundzwanzig."
+    },
+    {
+     "id": "s2",
+     "text": "War er nicht erkennbar, weil die richtige Zahl nur in deinen Unterlagen stand, hilft hundertdreiundsiebzig a."
+    },
+    {
+     "id": "s3",
+     "text": "In beiden Fällen endet die Festsetzungsfrist nicht vor einem Jahr nach Bekanntgabe."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: erkennbar, hundertneunundzwanzig. Nicht erkennbar, hundertdreiundsiebzig a."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Fehler übernommen:",
+     "129 oder 173a?"
+    ],
+    "pille": "§ 129 AO · § 173a AO",
+    "figur": "A/skeptisch",
+    "name": "Emre",
+    "icons": [
+     [
+      "tabler:file-alert",
+      "GELB",
+      "Wer"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Erkennbar",
+      "wert": "§ 129",
+      "farbe": "GRUEN",
+      "wort": "hundertneunundzwanzig"
+     },
+     {
+      "label": "Nicht erkennbar",
+      "wert": "§ 173a",
+      "farbe": "GELB",
+      "wort": "hundertdreiundsiebzig"
+     }
+    ],
+    "stempel": {
+     "text": "Wer hilft?",
+     "wort": "Wer"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Erkennbar",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Anlage zeigt die richtige Zahl",
+       "wort": "Anlage",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "block",
+       "label": "Amt übernimmt",
+       "wert": "eigener Fehler",
+       "farbe": "GRUEN",
+       "wort": "eigen",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 129 S. 1 AO",
+       "wort": "greift"
+      }
+     ],
+     "icon": [
+      "tabler:eye",
+      "GELB",
+      "erkennbar"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Nicht erkennbar",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Richtige Zahl nur bei dir",
+       "wort": "Unterlagen",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "block",
+       "label": "Änderung",
+       "wert": "§ 173a AO",
+       "farbe": "GELB",
+       "wort": "hilft",
+       "zs": 100
+      }
+     ],
+     "icon": [
+      "tabler:eye-off",
+      "GELB",
+      "nicht"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Frist",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Festsetzungsfrist",
+       "wert": "+ 1 Jahr ab Bekanntgabe",
+       "farbe": "WEISS",
+       "wort": "Festsetzungsfrist",
+       "zs": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 171 Abs. 2 AO",
+       "wort": "Jahr"
+      }
+     ],
+     "figur": {
+      "ref": "A/erklaert",
+      "wort": "beiden",
+      "hoehe": 440
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Erkennbar:",
+     "§ 129 AO",
+     "Nicht erkennbar:",
+     "§ 173a AO"
+    ],
+    "woerter": [
+     "erkennbar",
+     "hundertneunundzwanzig",
+     "Nicht",
+     "hundertdreiundsiebzig"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "hundertdreiundsiebzig",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Fehler aus der Steuererklärung übernommen: § 129 AO oder § 173a AO? 🔍\n\n▸ § 129 AO erfasst offenbare Unrichtigkeiten, die beim Erlass des Verwaltungsakts unterlaufen sind (§ 129 S. 1 AO). Übernimmt das Finanzamt einen Fehler aus der Erklärung, der für es erkennbar war, macht es ihn sich zu eigen.\n▸ War der Schreib- oder Rechenfehler des Steuerpflichtigen für das Finanzamt nicht erkennbar, ist der Bescheid nach § 173a AO zu ändern, soweit dadurch rechtserhebliche Tatsachen unzutreffend mitgeteilt wurden.\n▸ In beiden Fällen endet die Festsetzungsfrist insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe des Bescheids (§ 171 Abs. 2 S. 1, 2 AO).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 129 S. 1 AO",
+    "§ 173a AO",
+    "§ 171 Abs. 2 S. 1, 2 AO"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ig-lieferung",
+   "frage": [
+    "Innergemeinschaftliche",
+    "Lieferung: steuerfrei nach?"
+   ],
+   "optionen": [
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 4 Nr. 8 UStG",
+    "§ 13b UStG"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#E8B98F",
+     "haar": "#7A4B2A",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 4",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ig-lieferung",
+   "titel": [
+    "A: § 4 Nr. 1",
+    "Buchst. b UStG"
+   ],
+   "optionen": [
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 4 Nr. 8 UStG",
+    "§ 13b UStG"
+   ],
+   "richtig": 0,
+   "text": "Die Voraussetzungen stehen in § 6a. Ohne Zusammenfassende Meldung keine Befreiung.",
+   "norm": "§ 4 Nr. 1 Buchst. b, § 6a UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#E8B98F",
+     "haar": "#7A4B2A",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 4",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Gewerbesteuer: Punkte sichern"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t4-56",
+   "titel": [
+    "Pensionszusage:",
+    "75-%-Grenze"
+   ],
+   "norm": "BMF vom 03.11.2004",
+   "punkte": [
+    [
+     "Zusage plus gesetzliche Rente über 75 % der Aktivbezüge: Überversorgung.",
+     "warn",
+     null
+    ],
+    [
+     "Festbetrag: Rückstellung kürzen. Ohne laufendes Gehalt: ganz auflösen.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Turban",
+     "haut": "#8D5A3B",
+     "oberteil": "#BFE3F5",
+     "bart": "Full 3",
+     "brille": "Glasses 2",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Einlage richtig bewerten"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Die letzten",
+    "15 Minuten"
+   ],
+   "punkte": [
+    [
+     "Offene Teile mit Ergebnis und Norm retten.",
+     "ok",
+     null
+    ],
+    [
+     "Keinen neuen Teil ohne Plan beginnen.",
+     "warn",
+     null
+    ],
+    [
+     "Kennziffer auf jedem Blatt prüfen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-9",
+   "titel": [
+    "Aktiver RAP:",
+    "die Merkmale"
+   ],
+   "punkte": [
+    [
+     "Ausgabe vor dem Stichtag",
+     "ok",
+     null
+    ],
+    [
+     "Aufwand für eine bestimmte Zeit danach",
+     "ok",
+     "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+    ],
+    [
+     "Bis 800 €: Wahlrecht, darauf verzichten",
+     "warn",
+     "§ 5 Abs. 5 S. 2 EStG"
+    ]
+   ],
+   "icon": "tabler:calendar-time",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "129 oder 173a?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-178",
+   "titel": [
+    "Reihengeschäft:",
+    "nur eine bewegt"
+   ],
+   "zeilen": [
+    [
+     [
+      "Eine",
+      null
+     ],
+     [
+      " bewegte",
+      "a"
+     ],
+     [
+      " Lieferung,",
+      null
+     ]
+    ],
+    [
+     [
+      "davor",
+      "b"
+     ],
+     [
+      ": Abgangsort,",
+      null
+     ]
+    ],
+    [
+     [
+      "danach",
+      "c"
+     ],
+     [
+      ": Ankunftsort.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 3 Abs. 6a S. 1, Abs. 7 S. 2 UStG",
+   "figuren": {
+    "M": {
+     "kopf": "Long Afro",
+     "haut": "#6B4226",
+     "oberteil": "#C9B8F2",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

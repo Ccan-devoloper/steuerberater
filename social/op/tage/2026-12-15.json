@@ -1,0 +1,1274 @@
+{
+ "datum": "2026-12-15",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-08",
+   "themaTitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
+   "figuren": {
+    "A": {
+     "name": "Ilvy",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F1C9A8",
+     "haar": "#2F2A26",
+     "oberteil": "#8DB3F2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Messbetrag",
+      "zerlegen"
+     ],
+     "norm": "§§ 28, 29 GewStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 29 GewStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Messbetrag",
+        "Bold",
+        44
+       ],
+       [
+        "8.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "2 Gemeinden",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Zerlegen in 5 Schritten",
+     "schritte": [
+      [
+       "Betriebsstätten je Gemeinde",
+       "§ 28 Abs. 1 S. 1 GewStG",
+       ""
+      ],
+      [
+       "Arbeitslöhne summieren",
+       "§ 29 Abs. 1 Nr. 1, § 31 GewStG",
+       ""
+      ],
+      [
+       "Unternehmerlohn 25.000 €",
+       "§ 31 Abs. 5 GewStG",
+       ""
+      ],
+      [
+       "Abrunden, Verhältnis bilden",
+       "§ 29 Abs. 3 GewStG",
+       ""
+      ],
+      [
+       "Anteil mal Hebesatz",
+       "§ 16 Abs. 1 GewStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 29 GewStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ilvy führt einen Handwerksbetrieb mit Betriebsstätten in Nordstadt und Südheim.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Gewerbesteuer-Messbetrag: 8.000 €. Ilvy arbeitet selbst in Nordstadt.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Wer bekommt was?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Löhne je Gemeinde",
+     "normen": [
+      "§ 31 Abs. 5 GewStG",
+      "§ 29 Abs. 3 GewStG"
+     ],
+     "zeilen": [
+      [
+       "Nordstadt, Löhne",
+       "350.800 €",
+       "Regular",
+       null
+      ],
+      [
+       "Unternehmerlohn",
+       "+ 25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Nordstadt, gerundet",
+       "375.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Südheim, Löhne",
+       "125.600 €",
+       "Regular",
+       null
+      ],
+      [
+       "Südheim, gerundet",
+       "125.000 €",
+       "Bold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Azubi-Vergütungen zählen nicht",
+      "ROT"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Welchen Anteil am Messbetrag von 8.000 € erhält Nordstadt?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und wie viel Gewerbesteuer bei 400 % Hebesatz?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst rechnen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Dein Ergebnis?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 29 Abs. 1 Nr. 1 GewStG",
+      "§ 16 Abs. 1 GewStG"
+     ],
+     "zeilen": [
+      [
+       "Summe gerundet",
+       "500.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Nordstadt 375/500",
+       "6.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Südheim 125/500",
+       "2.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Nordstadt × 400 %",
+       "24.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Südheim × 320 %",
+       "6.400 €",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Gewerbesteuer gesamt: 30.400 €",
+      "GRUEN"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nicht die Steuer zerlegen",
+     "punkte": [
+      [
+       "Zerlegt wird der Messbetrag, nicht die Gewerbesteuer.",
+       "nein",
+       "Bold",
+       "§ 28 Abs. 1 S. 1 GewStG"
+      ],
+      [
+       "Erst danach wendet jede Gemeinde ihren eigenen Hebesatz an.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 1 GewStG"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 290,
+     "blase": "Reihenfolge!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Bescheidkette",
+     "punkte": [
+      [
+       "Messbescheid des Finanzamts, dann Zerlegungsbescheid.",
+       "ok",
+       "Regular",
+       "§§ 184, 188 Abs. 1 AO"
+      ],
+      [
+       "Auf dieser Basis setzt jede Gemeinde die Gewerbesteuer fest.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 1 GewStG"
+      ],
+      [
+       "Einwände gegen den Anteil: gegen den Zerlegungsbescheid.",
+       "warn",
+       "Bold",
+       "§ 351 Abs. 2 AO"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Drei Bescheide"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Nordstadt 6.000 €, Südheim 2.000 €",
+      "GewSt: 24.000 € + 6.400 € = 30.400 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Löhne",
+        "a"
+       ],
+       [
+        " je Gemeinde,",
+        null
+       ]
+      ],
+      [
+       [
+        "25.000 €",
+        "b"
+       ],
+       [
+        " für Ilvy,",
+        null
+       ]
+      ],
+      [
+       [
+        "abrunden",
+        "c"
+       ],
+       [
+        ", verteilen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Hebesatz",
+        "d"
+       ],
+       [
+        " zuletzt.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Richtig gerechnet?",
+     "teaser": "Weiterwischen: § 29 GewStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 29, 31 GewStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 29 (1)",
+       [
+        [
+         "Zerlegungsmaßstab ist 1. vorbehaltlich der Nummern 2 und 3 das Verhältnis, in dem die",
+         null
+        ],
+        [
+         "Summe der Arbeitslöhne",
+         "g1"
+        ],
+        [
+         ", die an die bei allen Betriebsstätten (§ 28) beschäftigten Arbeitnehmer gezahlt worden sind, zu den Arbeitslöhnen steht, die an die bei den Betriebsstätten der einzelnen Gemeinden beschäftigten Arbeitnehmer gezahlt worden sind;",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 29 (3)",
+       [
+        [
+         "Bei Ermittlung der Verhältniszahlen sind die Arbeitslöhne",
+         null
+        ],
+        [
+         "auf volle 1 000 Euro abzurunden.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "§ 31 (5)",
+       [
+        [
+         "Bei Unternehmen, die nicht von einer juristischen Person betrieben werden, sind für die im Betrieb tätigen Unternehmer (Mitunternehmer)",
+         null
+        ],
+        [
+         "insgesamt 25.000 Euro jährlich",
+         "gr1"
+        ],
+        [
+         "anzusetzen.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Lohnschlüssel",
+       "g1"
+      ],
+      [
+       "abrunden!",
+       "b1"
+      ],
+      [
+       "fiktiver Lohn",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Azubis raus: § 31 Abs. 2 GewStG",
+      "Ausbildungsvergütungen zählen nicht mit"
+     ]
+    }
+   ],
+   "caption": "Gewerbesteuer-Zerlegung: Wie wird der Messbetrag auf die Gemeinden verteilt? Der Rechenweg.\n\n1. Betriebsstätten in mehreren Gemeinden: Der Steuermessbetrag wird zerlegt (§ 28 Abs. 1 S. 1 GewStG).\n2. Maßstab: Verhältnis der Arbeitslöhne je Gemeinde zur Summe aller Arbeitslöhne (§ 29 Abs. 1 Nr. 1 GewStG). Ausbildungsvergütungen zählen nicht (§ 31 Abs. 2 GewStG).\n3. Bei Unternehmen, die keine juristische Person betreibt, werden für die tätigen Unternehmer insgesamt 25.000 € angesetzt (§ 31 Abs. 5 GewStG).\n4. Arbeitslöhne je Gemeinde auf volle 1.000 € abrunden (§ 29 Abs. 3 GewStG).\n5. Jede Gemeinde wendet ihren Hebesatz auf ihren Zerlegungsanteil an (§ 16 Abs. 1 GewStG).\n\nBeispiel: Nordstadt 350.800 € + 25.000 € = 375.800 € → 375.000 €; Südheim 125.600 € → 125.000 €. Messbetrag 8.000 €: Nordstadt 6.000 €, Südheim 2.000 €. Bei 400 % und 320 %: 24.000 € + 6.400 € = 30.400 €.\n\nÜber die Zerlegung ergeht ein eigener Bescheid (§ 188 Abs. 1 AO); Einwände gegen den Anteil richten sich gegen diesen Bescheid (§ 351 Abs. 2 AO).\n\nZum Schluss: §§ 29, 31 GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 28 Abs. 1 S. 1 GewStG",
+    "§ 29 Abs. 1 Nr. 1, Abs. 3 GewStG",
+    "§ 31 Abs. 2, 5 GewStG",
+    "§ 16 Abs. 1 GewStG",
+    "§§ 184, 188 Abs. 1 AO",
+    "§ 351 Abs. 2 AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-ue-18",
+   "themaTitel": "Gebäudeabriss: Aufwand oder Teil der Anschaffungskosten?",
+   "figuren": {
+    "A": {
+     "name": "Rosalie",
+     "kopf": "Gray Bun",
+     "haut": "#F0CDB2",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Gebäudeabriss:",
+      "Aufwand oder AK?"
+     ],
+     "norm": "H 6.4 EStH",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 7 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:presentation",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung: 10 Minuten",
+     "schritte": [
+      [
+       "Einstieg · 1 Min.",
+       "",
+       "Fallfrage stellen"
+      ],
+      [
+       "Grundlagen · 2 Min.",
+       "§ 255 Abs. 1, 2 HGB",
+       ""
+      ],
+      [
+       "Drei Fallgruppen · 4 Min.",
+       "H 6.4 EStH",
+       ""
+      ],
+      [
+       "Beispiel · 2 Min.",
+       "",
+       "eine Rechnung, ein Ergebnis"
+      ],
+      [
+       "Fazit · 1 Min.",
+       "",
+       "Kernsatz wiederholen"
+      ]
+     ],
+     "teaser": "Am Ende: § 7 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg",
+     "punkte": [
+      [
+       "Fallfrage: Wohin mit Restbuchwert und Abbruchkosten, wenn ein Gebäude fällt?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Drei Antworten: sofort Aufwand, Herstellungskosten des Neubaus oder Anschaffungskosten des Bodens.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Erst die Frage!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Grundlagen",
+     "punkte": [
+      [
+       "Anschaffungskosten: Aufwand, um ein Wirtschaftsgut zu erwerben.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 1 S. 1 HGB"
+      ],
+      [
+       "Herstellungskosten: Aufwand, um ein Wirtschaftsgut zu schaffen.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 2 S. 1 HGB"
+      ],
+      [
+       "Restbuchwert eines Gebäudes: Absetzung für außergewöhnliche Abnutzung.",
+       "ok",
+       "Regular",
+       "§ 7 Abs. 4 S. 3, Abs. 1 S. 7 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Begriffe zuerst"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Ohne oder mit Absicht?",
+     "links": {
+      "kopf": "Ohne Abrissabsicht",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Selbst gebaut oder ohne Absicht gekauft",
+        null
+       ],
+       [
+        "Restwert und Abbruch: sofort Aufwand",
+        "H 6.4 EStH"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Mit Abrissabsicht",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Gekauft, um abzureißen",
+        null
+       ],
+       [
+        "Kosten gehen in Neubau oder Boden",
+        "H 6.4 EStH"
+       ]
+      ]
+     },
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Was wollte der Käufer?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Mit Absicht: der Zustand",
+     "punkte": [
+      [
+       "Gebäude noch nutzbar, Neubau folgt: Restwert und Abbruch sind Herstellungskosten des Neubaus.",
+       "ok",
+       "Regular",
+       "H 6.4 EStH"
+      ],
+      [
+       "Kein enger Zusammenhang mit einem Neubau: Anschaffungskosten des Bodens.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Gebäude objektiv wertlos: ganzer Kaufpreis auf den Boden.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Zustand prüfen"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Indiz: drei Jahre",
+     "punkte": [
+      [
+       "Beginnt der Abriss innerhalb von drei Jahren nach dem Kauf, spricht der erste Anschein für Abrissabsicht.",
+       "warn",
+       "Bold",
+       "H 6.4 EStH"
+      ],
+      [
+       "Der Anschein lässt sich widerlegen, etwa durch einen ungewöhnlichen Verlauf nach dem Kauf.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Nur ein Indiz"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: Abriss nach 14 Monaten",
+     "normen": [
+      "H 6.4 EStH"
+     ],
+     "zeilen": [
+      [
+       "Absicht da, Gebäude nutzbar",
+       "ja",
+       "Regular",
+       null
+      ],
+      [
+       "Restbuchwert Halle",
+       "147.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abbruchkosten",
+       "+ 33.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "HK Neubau",
+       "180.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Aufwand im Abrissjahr",
+       "0 €",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Ohne Absicht: 180.000 € sofort Aufwand",
+      "GRUEN"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Gebäude aus dem Privatvermögen in Abrissabsicht eingelegt?",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wohin mit Erlösen aus verkauftem Abbruchmaterial?",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Norm trägt die Ausbuchung des Restwerts?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Antworten in der Beschreibung",
+      "GELB",
+      null
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Noch Fragen?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kern in einem Satz:",
+      "Ohne Absicht Aufwand, mit Absicht Neubau oder Boden",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Absicht",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zustand",
+        "b"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Neubau",
+        "c"
+       ],
+       [
+        " oder Boden,",
+        null
+       ]
+      ],
+      [
+       [
+        "3 Jahre",
+        "d"
+       ],
+       [
+        " als Indiz.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Schaffst du es in 10 Minuten?",
+     "teaser": "Weiterwischen: § 7 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 7 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 7 (1) S. 7",
+       [
+        [
+         "Absetzungen für",
+         null
+        ],
+        [
+         "außergewöhnliche technische oder wirtschaftliche Abnutzung",
+         "g1"
+        ],
+        [
+         "sind zulässig; soweit der Grund hierfür in späteren Wirtschaftsjahren entfällt, ist in den Fällen der Gewinnermittlung nach § 4 Absatz 1 oder nach § 5 eine entsprechende",
+         null
+        ],
+        [
+         "Zuschreibung",
+         "r1"
+        ],
+        [
+         "vorzunehmen.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 7 (4) S. 3",
+       [
+        [
+         "Absatz 1 letzter Satz",
+         "gr1"
+        ],
+        [
+         "bleibt unberührt.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Restwert raus",
+       "g1"
+      ],
+      [
+       "Gegenstück",
+       "r1"
+      ],
+      [
+       "gilt auch für Gebäude",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Fallgruppen: H 6.4 EStH",
+      "In der Mündlichen nur im Kopf: Hinweise sind nicht zugelassen"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Gebäudeabriss – Aufwand oder Anschaffungskosten? So füllst du 10 Minuten.\n\nGliederung: Einstieg (1 Min.), Grundlagen (2 Min.), drei Fallgruppen (4 Min.), Beispiel (2 Min.), Fazit (1 Min.).\n\nKernaussagen:\n▸ Anschaffungs- und Herstellungskosten (§ 255 Abs. 1, 2 HGB, § 6 Abs. 1 Nr. 1, 2 EStG).\n▸ Ohne Abrissabsicht (selbst errichtet oder ohne Absicht erworben): Absetzung für außergewöhnliche Abnutzung auf den Restbuchwert und Abbruchkosten sofort als Betriebsausgabe (§ 7 Abs. 4 S. 3 i. V. m. Abs. 1 S. 7 EStG; H 6.4 EStH „Abbruchkosten“).\n▸ Erwerb mit Abrissabsicht, Gebäude nicht verbraucht: Restbuchwert und Abbruchkosten sind Herstellungskosten des neuen Wirtschaftsguts, wenn ein enger wirtschaftlicher Zusammenhang mit der Herstellung besteht, sonst Anschaffungskosten des Grund und Bodens. War das Gebäude beim Erwerb objektiv wertlos, entfällt der volle Kaufpreis auf den Grund und Boden (H 6.4 EStH).\n▸ Beginnt der Abriss innerhalb von drei Jahren nach dem Erwerb, spricht der Beweis des ersten Anscheins für eine Abrissabsicht (H 6.4 EStH).\n\nTypische Nachfragen, kurz beantwortet:\n▸ Einlage in Abrissabsicht: Wert des eingelegten Gebäudes und Abbruchkosten gehören zu den Herstellungskosten des neuen Gebäudes (H 6.4 EStH).\n▸ Erlöse aus Abbruchmaterial mindern die Abbruchkosten.\n▸ Rechtsgrundlage der Ausbuchung: § 7 Abs. 4 S. 3 i. V. m. Abs. 1 S. 7 EStG.\n\nHinweis: In der mündlichen Prüfung stehen dir keine Richtlinien und Hinweise zur Verfügung (§ 26 Abs. 3, 6 DVStB regeln Vortrag und Themenwahl). Die Fallgruppen musst du kennen.\n\nZum Schluss: § 7 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 255 Abs. 1, 2 HGB",
+    "§ 6 Abs. 1 Nr. 1, 2 EStG",
+    "§ 7 Abs. 1 S. 7, Abs. 4 S. 3 EStG",
+    "H 6.4 EStH (Abbruchkosten)",
+    "§ 26 Abs. 3, 6 DVStB"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-7-5",
+   "themaTitel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
+   "figuren": {
+    "A": {
+     "name": "Oskar",
+     "kopf": "Pomp",
+     "haut": "#C99470",
+     "haar": "#3A2618",
+     "oberteil": "#F9D56E",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Ein schlichter Änderungsantrag ist immer die bessere Wahl? Nein! Oft ist der Einspruch klüger."
+    },
+    {
+     "id": "s1",
+     "text": "Der schlichte Antrag ist formlos. Aber was du bis zum Fristende nicht konkret beantragst, ist später verloren."
+    },
+    {
+     "id": "s2",
+     "text": "Den Einspruch kannst du bis zur Entscheidung erweitern. Und nur er öffnet die Aussetzung der Vollziehung."
+    },
+    {
+     "id": "s3",
+     "text": "Sein Risiko: Das Finanzamt prüft den ganzen Fall neu und darf nach einem Hinweis verbösern."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Antrag starr, Einspruch flexibel, aber mit Verböserungsrisiko."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Antrag statt",
+     "Einspruch?"
+    ],
+    "pille": "§ 172 Abs. 1 S. 1 Nr. 2a AO",
+    "figur": "A/skeptisch",
+    "name": "Oskar",
+    "icons": [
+     [
+      "tabler:mail",
+      "GELB",
+      "Nein"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Nein!",
+     "wort": "Nein"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Schlichter Antrag",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "formlos",
+       "wort": "formlos",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Bis Fristende",
+       "wert": "konkret beantragen",
+       "farbe": "GELB",
+       "wort": "Fristende",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 172 Abs. 1 S. 1 Nr. 2a AO",
+       "wort": "Antrag"
+      }
+     ],
+     "icon": [
+      "tabler:file-text",
+      "GELB",
+      "schlichte"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Einspruch",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Erweitern",
+       "wert": "bis zur Entscheidung",
+       "farbe": "GRUEN",
+       "wort": "erweitern",
+       "zs": 72
+      },
+      {
+       "typ": "block",
+       "label": "Aussetzung der Vollziehung",
+       "wert": "möglich",
+       "farbe": "GRUEN",
+       "wort": "Aussetzung",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 361 Abs. 2 S. 1 AO",
+       "wort": "Vollziehung"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Einspruch"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Das Risiko",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Volle Prüfung",
+       "unter": "der ganze Fall kommt neu auf den Tisch",
+       "wort": "prüft",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Verböserung",
+       "wert": "nach Hinweis",
+       "farbe": "ROT",
+       "wort": "verbösern",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 367 Abs. 2 S. 2 AO",
+       "wort": "Hinweis"
+      }
+     ],
+     "icon": [
+      "tabler:alert-triangle",
+      "ROT",
+      "Risiko"
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "verbösern",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Schlichter Antrag:",
+     "starr und formlos,",
+     "Einspruch: flexibel,",
+     "Risiko Verböserung"
+    ],
+    "woerter": [
+     null,
+     "starr",
+     "Einspruch",
+     "Verböserungsrisiko"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Verböserungsrisiko",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Schlichter Änderungsantrag oder Einspruch – was ist klüger? ⚖️\n\n▸ Schlichter Antrag: formlos; zugunsten des Steuerpflichtigen nur, soweit er vor Ablauf der Einspruchsfrist gestellt ist. Was bis dahin nicht konkret beantragt ist, ist verloren (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n▸ Einspruch: innerhalb eines Monats (§ 355 Abs. 1 S. 1 AO), schriftlich oder elektronisch (§ 357 Abs. 1 S. 1 AO); er kann bis zur Entscheidung erweitert werden, das Finanzamt prüft die Sache in vollem Umfang (§ 367 Abs. 2 S. 1 AO).\n▸ Aussetzung der Vollziehung setzt einen angefochtenen Verwaltungsakt voraus (§ 361 Abs. 2 S. 1 AO).\n▸ Risiko: Verböserung, aber nur nach Hinweis mit Gelegenheit zur Äußerung (§ 367 Abs. 2 S. 2 AO); dann kann der Einspruch zurückgenommen werden (§ 362 Abs. 1 S. 1 AO).\n▸ Falsch bezeichnet? Unrichtige Bezeichnung des Einspruchs schadet nicht (§ 357 Abs. 1 S. 3 AO).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 357 Abs. 1 AO",
+    "§ 367 Abs. 2 S. 1, 2 AO",
+    "§ 361 Abs. 2 S. 1 AO",
+    "§ 362 Abs. 1 S. 1 AO"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-12",
+   "frage": [
+    "Papierrechnung B2B",
+    "für Umsätze 2027?"
+   ],
+   "optionen": [
+    "Generell verboten",
+    "Erlaubt bei Vorjahresumsatz bis 800.000 €",
+    "Ohne jede Grenze erlaubt"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#6B4226",
+     "oberteil": "#F2B880",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-12",
+   "titel": [
+    "B: nur bis",
+    "800.000 € Umsatz"
+   ],
+   "optionen": [
+    "Generell verboten",
+    "Erlaubt bei Vorjahresumsatz bis 800.000 €",
+    "Ohne jede Grenze erlaubt"
+   ],
+   "richtig": 1,
+   "text": "Maßgeblich ist der Gesamtumsatz des Ausstellers im Vorjahr. Übermittlung bis 31.12.2027.",
+   "norm": "§ 27 Abs. 38 Nr. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#6B4226",
+     "oberteil": "#F2B880",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Messbetrag zerlegen"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-3",
+   "titel": [
+    "Zinsloses Darlehen",
+    "an die GmbH?"
+   ],
+   "norm": "§ 8 Abs. 3 S. 3 KStG",
+   "punkte": [
+    [
+     "Keine verdeckte Einlage: Nutzungsvorteile sind nicht einlagefähig.",
+     "nein",
+     "H 8.9 KStH"
+    ],
+    [
+     "Der Zinsvorteil erhöht einfach den Gewinn der GmbH.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Shaved 2",
+     "haut": "#A8704B",
+     "oberteil": "#C9B8F2",
+     "bart": "Full 4",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag Gebäudeabriss"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sachverhalt",
+    "in Farben"
+   ],
+   "punkte": [
+    [
+     "Beträge gelb markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Daten und Fristen rot.",
+     "ok",
+     null
+    ],
+    [
+     "Aufgabe am Ende zuerst lesen.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:highlight",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Bun",
+     "haut": "#E3B48F",
+     "haar": "#5A3A22",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "K/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-27",
+   "titel": [
+    "Grundstück",
+    "zurückbehalten?"
+   ],
+   "punkte": [
+    [
+     "Zum Buchwert in einen anderen Betrieb.",
+     "warn",
+     "§ 6 Abs. 5 S. 2 EStG"
+    ],
+    [
+     "Dann keine Tarifbegünstigung.",
+     "nein",
+     "H 16 (4) EStH"
+    ]
+   ],
+   "icon": "tabler:building-warehouse",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Dreads 2",
+     "haut": "#5C3A21",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Antrag statt Einspruch?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-7-7",
+   "titel": [
+    "§ 173 AO:",
+    "wessen Wissen?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Es zählt die",
+      null
+     ]
+    ],
+    [
+     [
+      "Veranlagungsstelle",
+      "a"
+     ]
+    ],
+    [
+     [
+      "samt ",
+      null
+     ],
+     [
+      "Akte",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 173 Abs. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Short 5",
+     "haut": "#F3D0B5",
+     "haar": "#B5651D",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

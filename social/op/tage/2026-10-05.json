@@ -125,7 +125,7 @@
      "titel": "Dein Tipp für Tag 1",
      "punkte": [
       [
-       "Morgen: Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung in einer Klausur.",
+       "Morgen in einer Klausur: AO, Umsatzsteuer, Erbschaftsteuer, Bewertung.",
        "ok",
        "Regular",
        null
@@ -137,7 +137,7 @@
        null
       ],
       [
-       "Hängst du fest: Lücke lassen, weiter, später zurück.",
+       "Hängst du fest: Lücke lassen, später zurück.",
        "warn",
        "Regular",
        null
@@ -829,18 +829,18 @@
    "fachLabel": "Personengesellschaften",
    "themaId": "persg-karte-k3-20",
    "titel": [
-    "SBV I oder",
-    "SBV II?"
+    "SBV I",
+    "oder II?"
    ],
    "norm": "R 4.2 Abs. 2 EStR",
    "punkte": [
     [
-     "SBV I dient direkt dem Betrieb, etwa das vermietete Grundstück.",
+     "SBV I dient dem Betrieb, etwa ein vermietetes Grundstück.",
      "ok",
      null
     ],
     [
-     "SBV II stärkt die Beteiligung, etwa ein Anteilsdarlehen.",
+     "SBV II stützt die Beteiligung, etwa ein Kredit für den Anteil.",
      "ok",
      null
     ]
@@ -998,7 +998,8 @@
      "bueste": "Shirt and Coat"
     }
    },
-   "figur": "M:denkt"
+   "figur": "M:denkt",
+   "groesse": 80
   }
  ]
 }

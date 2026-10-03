@@ -1,0 +1,681 @@
+{
+ "datum": "2026-10-06",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "06:30",
+   "format": "anlass",
+   "klausur": 1,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Heute ist Tag 1: ruhig starten",
+   "figuren": {
+    "A": {
+     "name": "Tarek",
+     "kopf": "Short 4",
+     "haut": "#C68E64",
+     "haar": "#2B1B12",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 1",
+     "bueste": "Coffee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungstag 1",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Heute",
+      "ist Tag 1"
+     ],
+     "unter": "Ruhig starten",
+     "teaser": "+ 1 Tipp für heute",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "6",
+      "unter": "Di · Tag 1"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Vor dem Start",
+     "punkte": [
+      [
+       "Frühstücken, auch wenn der Magen flattert.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Früh da sein, Platz einrichten, Gesetze griffbereit legen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Drei ruhige Atemzüge, bevor du die Aufgabe aufschlägst.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Erst atmen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die ersten 15 Minuten",
+     "punkte": [
+      [
+       "Alles überfliegen: Was steht in AO, Umsatzsteuer, Erbschaftsteuer?",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Punkte je Teil notieren, Zeit daneben schreiben.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Mit dem Sicheren starten: Die ersten Punkte geben Ruhe.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Erst der Überblick."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Dein Tipp für heute",
+     "punkte": [
+      [
+       "Umsatzsteuer: jeden Umsatz einzeln prüfen, auch nicht steuerbare.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Jedes Ergebnis kurz mit Norm begründen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "AO und Erbschaftsteuer: erst die Antwort, dann die Begründung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Ergebnis + Norm = Punkte",
+      "GELB",
+      null
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Mit Norm!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Tag 1: AO · Umsatzsteuer · Erbschaftsteuer und Bewertung",
+      "Wir drücken dir die Daumen!",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Überfliegen",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Sicheres",
+        "b"
+       ],
+       [
+        " vorne,",
+        null
+       ]
+      ],
+      [
+       [
+        "jedes Ergebnis",
+        "c"
+       ]
+      ],
+      [
+       [
+        "mit Norm",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Was ist dein Ritual vor dem Start?"
+    }
+   ],
+   "caption": "Heute ist Tag 1 der schriftlichen Steuerberaterprüfung: Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung.\n\n▸ Vor dem Start: frühstücken, früh da sein, Gesetze griffbereit, dreimal ruhig atmen.\n▸ Die ersten 15 Minuten: alles überfliegen, Punkte notieren, Zeit je Teil daneben schreiben, mit Sicherem beginnen.\n▸ Tipp für heute: In der Umsatzsteuer jeden Umsatz einzeln prüfen, auch den nicht steuerbaren, und jedes Ergebnis kurz mit Norm begründen.\n\nViel Erfolg! Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": []
+  },
+  {
+   "slot": "b2",
+   "zeit": "18:30",
+   "format": "anlass",
+   "klausur": 1,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
+   "figuren": {
+    "A": {
+     "name": "Merle",
+     "kopf": "Medium Straight",
+     "haut": "#F3D0B5",
+     "haar": "#D8B26A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Tag 1 geschafft",
+     "badgeFarbe": "GRUEN",
+     "zeilen": [
+      "Tag 1",
+      "geschafft!"
+     ],
+     "unter": "Spickzettel Tag 2",
+     "teaser": "+ 3 Dauerbrenner",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "7",
+      "unter": "Mi · Tag 2"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Erst mal: stark!",
+     "punkte": [
+      [
+       "Sechs Stunden durchgezogen. Das zählt.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Lösungen nicht im Kopf nachrechnen: Tag 1 ist abgegeben.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Essen, raus, lüften. Dann eine halbe Stunde Spickzettel.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Haken dran!"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Morgen: 3 Dauerbrenner",
+     "schritte": [
+      [
+       "Dividende an die GmbH",
+       "§ 8b Abs. 1, 5 KStG",
+       "steuerfrei, aber 5 % nicht abziehbar"
+      ],
+      [
+       "Dividende im Einzelbetrieb",
+       "§ 3 Nr. 40, § 3c Abs. 2 EStG",
+       "60 % steuerpflichtig, Kosten zu 60 %"
+      ],
+      [
+       "Finanzierungsanteile",
+       "§ 8 Nr. 1 GewStG",
+       "über 200.000 € ein Viertel dazu"
+      ]
+     ],
+     "teaser": "Weiterwischen: alle drei im Detail"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Dividende an die GmbH",
+     "punkte": [
+      [
+       "Gewinnausschüttungen bleiben beim Einkommen der GmbH außer Ansatz.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1 KStG"
+      ],
+      [
+       "5 % davon gelten als nicht abziehbare Betriebsausgaben.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 5 S. 1 KStG"
+      ],
+      [
+       "Unter 10 % zu Beginn des Kalenderjahres: voll steuerpflichtig.",
+       "warn",
+       "Bold",
+       "§ 8b Abs. 4 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Stichtag beachten!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Teileinkünfte",
+     "punkte": [
+      [
+       "Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei.",
+       "ok",
+       "Regular",
+       "§ 3 Nr. 40 S. 1 Buchst. d EStG"
+      ],
+      [
+       "Zugehörige Kosten nur zu 60 % abziehbar.",
+       "warn",
+       "Bold",
+       "§ 3c Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Gilt auch für den Gewinn aus dem Verkauf solcher Anteile.",
+       "ok",
+       "Regular",
+       "§ 3 Nr. 40 S. 1 Buchst. a EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "60 zu 60."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Finanzierungsanteile",
+     "punkte": [
+      [
+       "Zinsen voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Lizenzen zu einem Viertel.",
+       "ok",
+       "Regular",
+       "§ 8 Nr. 1 Buchst. a, d, e, f GewStG"
+      ],
+      [
+       "Summe minus 200.000 €, vom Rest ein Viertel hinzurechnen.",
+       "warn",
+       "Bold",
+       "§ 8 Nr. 1 GewStG"
+      ]
+     ],
+     "extra": [
+      "Erst gewichten, dann Freibetrag",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Erst gewichten?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Zinsen 180.000 €, Ladenmiete 100.000 €",
+      "(180.000 + 50.000 − 200.000) × ¼ = 7.500 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "GmbH",
+        "a"
+       ],
+       [
+        ": 95 % frei,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einzelbetrieb",
+        "b"
+       ],
+       [
+        ": 40 % frei,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gewerbesteuer",
+        "c"
+       ],
+       [
+        ": ein",
+        null
+       ]
+      ],
+      [
+       [
+        "Viertel",
+        "d"
+       ],
+       [
+        " über 200.000.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Was sitzt noch nicht?"
+    }
+   ],
+   "caption": "Tag 1 geschafft! Jetzt kurz durchatmen und dann drei Dauerbrenner für Tag 2 (Ertragsteuern) wiederholen.\n\n1. Dividende an eine GmbH: bleibt außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG); bei weniger als 10 % Beteiligung zu Beginn des Kalenderjahres voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n2. Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. d EStG), zugehörige Kosten zu 60 % abziehbar (§ 3c Abs. 2 S. 1 EStG); ebenso beim Veräußerungsgewinn (§ 3 Nr. 40 S. 1 Buchst. a EStG).\n3. Gewerbesteuer: Zinsen voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Lizenzen zu einem Viertel; von der Summe 200.000 € abziehen, ein Viertel des Rests hinzurechnen (§ 8 Nr. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": [
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 3 Nr. 40 S. 1 Buchst. a, d EStG",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 8 Nr. 1 GewStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:30",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Ertragsteuern",
+   "themaId": null,
+   "themaTitel": "Tag 2: drei Dauerbrenner für morgen",
+   "figuren": {
+    "A": {
+     "name": "Jasper",
+     "kopf": "Flat Top",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#9AD48F",
+     "bueste": "Gym Shirt"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Morgen ist Tag zwei. Dividende im Betrieb: GmbH fünfundneunzig Prozent frei, Einzelunternehmer vierzig."
+    },
+    {
+     "id": "s1",
+     "text": "GmbH nur ab zehn Prozent Beteiligung. Beim Einzelunternehmer Kosten nur zu sechzig Prozent."
+    },
+    {
+     "id": "s2",
+     "text": "Gewerbesteuer: Finanzierungsanteile minus zweihunderttausend, davon ein Viertel."
+    },
+    {
+     "id": "cta",
+     "text": "Jetzt schlafen. Morgen holst du die Punkte."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Morgen:",
+     "Tag 2"
+    ],
+    "pille": "3 Dauerbrenner",
+    "figur": "A/laessig",
+    "name": "Jasper",
+    "icons": [
+     [
+      "tabler:coins",
+      "GELB",
+      "Dividende"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "GmbH",
+      "wert": "95 % frei",
+      "farbe": "GRUEN",
+      "wort": "GmbH"
+     },
+     {
+      "label": "Einzelbetrieb",
+      "wert": "40 % frei",
+      "farbe": "GELB",
+      "wort": "Einzelunternehmer"
+     }
+    ],
+    "stempel": {
+     "text": "Dauerbrenner!",
+     "wort": "vierzig"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Haken",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "GmbH",
+       "wert": "ab 10 %",
+       "farbe": "GRUEN",
+       "wort": "zehn",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Kosten",
+       "wert": "zu 60 %",
+       "farbe": "GELB",
+       "wort": "Kosten",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8b Abs. 4 KStG · § 3c Abs. 2 EStG",
+       "wort": "Beteiligung"
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Gewerbesteuer",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "− 200.000 €",
+       "size": 130,
+       "wort": "zweihunderttausend"
+      },
+      {
+       "typ": "pille",
+       "text": "davon ein Viertel",
+       "wort": "Viertel",
+       "farbe": "GELB"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8 Nr. 1 GewStG",
+       "wort": "Finanzierungsanteile"
+      }
+     ],
+     "icon": [
+      "tabler:building-bank",
+      "GELB",
+      "Finanzierungsanteile"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "GmbH: 95 % frei",
+     "Einzelbetrieb: 40 %",
+     "Gewerbesteuer: ¼",
+     "Jetzt: schlafen"
+    ],
+    "woerter": [
+     null,
+     null,
+     "schlafen",
+     "Morgen"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Punkte",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Tag 2 der Steuerberaterprüfung: drei Dauerbrenner für morgen.\n\n▸ Dividende an eine GmbH bleibt außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); bei weniger als 10 % Beteiligung zu Beginn des Kalenderjahres voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n▸ Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei, Kosten zu 60 % abziehbar (§ 3 Nr. 40 S. 1 Buchst. d, § 3c Abs. 2 S. 1 EStG).\n▸ Gewerbesteuer: Summe der Finanzierungsanteile minus 200.000 €, davon ein Viertel hinzurechnen (§ 8 Nr. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#ertragsteuern"
+   ],
+   "quellen": [
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 8 Nr. 1 GewStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s1",
+   "zeit": "06:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Heute ist Tag 1"
+   ],
+   "unter": "Ruhig starten + Tipp · im Profil"
+  },
+  {
+   "slot": "s4",
+   "zeit": "06:45",
+   "art": "anlass",
+   "klausur": 1,
+   "fachLabel": "Steuerberaterexamen",
+   "titel": [
+    "Viel Erfolg",
+    "an Tag 1!"
+   ],
+   "text": "AO, Umsatzsteuer, Erbschaftsteuer: Du hast dafür gearbeitet.",
+   "punkte": [
+    [
+     "Erst überfliegen",
+     "ok"
+    ],
+    [
+     "Sicheres zuerst",
+     "ok"
+    ]
+   ],
+   "figuren": {
+    "C": {
+     "kopf": "Bangs 2",
+     "haut": "#E8B98F",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Pointing Up"
+    }
+   },
+   "figur": "C:lacht"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "anlass",
+   "klausur": 1,
+   "fachLabel": "Steuerberaterexamen",
+   "ueberzeile": "Halbzeit",
+   "titel": [
+    "Halbzeit.",
+    "Durchatmen."
+   ],
+   "text": "Schultern locker, einen Schluck trinken, dann der nächste Teil.",
+   "punkte": [
+    [
+     "Abgehakt ist abgehakt.",
+     "ok"
+    ]
+   ],
+   "figuren": {
+    "H": {
+     "kopf": "Gray Medium",
+     "haut": "#B97A56",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 3",
+     "bueste": "Sweater",
+     "haar": "#A8A8A8"
+    }
+   },
+   "figur": "H:ruhig"
+  },
+  {
+   "slot": "s2",
+   "zeit": "18:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Tag 1 geschafft!"
+   ],
+   "unter": "Spickzettel Tag 2 · im Profil"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Drei für morgen"
+   ],
+   "unter": "Neues Reel · im Profil"
+  }
+ ]
+}

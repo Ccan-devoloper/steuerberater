@@ -165,7 +165,10 @@
        "Regular",
        "§ 6 Abs. 3 S. 3 EStG"
       ]
-     ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Zwei AfA-Reihen?"
     },
     {
      "typ": "inhalt",
@@ -237,13 +240,16 @@
        "Regular",
        null
       ]
-     ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Auch noch Schenkungsteuer?"
     },
     {
      "typ": "merke",
      "oben": [
       "Abfindung = Buchwert: erst das Motiv klären",
-      "betrieblich → Veräußerung · privat → Buchwerte",
+      "betrieblich: Veräußerung · privat: Buchwerte",
       "GELB"
      ],
      "zeilen": [
@@ -558,13 +564,13 @@
      "titel": "Jetzt du",
      "punkte": [
       [
-       "Variante: Für die vorderen 400 m² gilt 380 €/m².",
+       "Variante: vorne 400 m² zu 380 € je m².",
        null,
        "Regular",
        null
       ],
       [
-       "Die hinteren 240 m² liegen in einer Tiefenzone mit 190 €/m².",
+       "Hinten 240 m², Tiefenzone: 190 € je m².",
        null,
        "Regular",
        null
@@ -609,13 +615,16 @@
      "extra": [
       "Niedriger? Gutachten nach § 198 BewG",
       "HELL"
-     ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Zonen getrennt!"
     },
     {
      "typ": "merke",
      "oben": [
       "Fläche × Bodenrichtwert",
-      "Richtwert zuletzt vor dem Stichtag · Abweichungen nach Gutachterausschuss",
+      "Richtwert vor dem Stichtag, Abweichungen anpassen",
       "GELB"
      ],
      "zeilen": [
@@ -651,11 +660,11 @@
       ],
       [
        [
-        "dann",
+        "dann ",
         null
        ],
        [
-        " multiplizieren",
+        "multiplizieren",
         "d"
        ],
        [
@@ -671,7 +680,7 @@
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 179 BewG Bewertung der unbebauten Grundstücke",
+     "kopf": "§ 179 BewG Unbebaute Grundstücke",
      "absaetze": [
       [
        null,
@@ -762,19 +771,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Neue GmbH, erstes Jahr: zwölftausend Euro Gewinn vor dem Notartermin, vierzigtausend danach. Wer versteuert was?"
+     "text": "Neue GmbH: zwölftausend Euro Gewinn vor dem Notar, vierzigtausend danach. Wer versteuert was?"
     },
     {
      "id": "s1",
-     "text": "Vor dem Notartermin gibt es nur die Gründer. Sie bilden meist eine Personengesellschaft. Die zwölftausend Euro werden ihnen zugerechnet und gesondert festgestellt."
+     "text": "Vor dem Notartermin gibt es nur die Gründer, meist als Personengesellschaft. Die zwölftausend Euro werden ihnen per Feststellung zugerechnet."
     },
     {
      "id": "s2",
-     "text": "Ab dem Notartermin besteht die Vorgesellschaft. Sie ist schon körperschaftsteuerpflichtig, wenn die Eintragung tatsächlich folgt. Die vierzigtausend Euro versteuert also die GmbH."
+     "text": "Ab dem Notartermin besteht die Vorgesellschaft. Sie ist schon körperschaftsteuerpflichtig, wenn die Eintragung folgt. Die vierzigtausend versteuert die GmbH."
     },
     {
      "id": "s3",
-     "text": "Die Eintragung ins Handelsregister ist nur die Bestätigung, nicht der Startschuss."
+     "text": "Die Eintragung ist nur die Bestätigung, nicht der Startschuss."
     },
     {
      "id": "cta",
@@ -837,7 +846,7 @@
       {
        "typ": "norm",
        "text": "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
-       "wort": "festgestellt"
+       "wort": "Feststellung"
       }
      ],
      "icon": [
@@ -912,7 +921,12 @@
        "nicht",
        1.0
       ]
-     ]
+     ],
+     "figur": {
+      "ref": "A/skeptisch",
+      "wort": "Bestätigung",
+      "hoehe": 440
+     }
     }
    ],
    "merke": {
@@ -971,7 +985,7 @@
      "kopf": "Cornrows",
      "haut": "#6E4A33",
      "oberteil": "#F9D56E",
-     "bueste": "Striped Pocket Tee"
+     "bueste": "Tee 1"
     }
    },
    "figur": "Q:denkt"
@@ -1001,7 +1015,7 @@
      "kopf": "Cornrows",
      "haut": "#6E4A33",
      "oberteil": "#F9D56E",
-     "bueste": "Striped Pocket Tee"
+     "bueste": "Tee 1"
     }
    },
    "figur": "Q:froh"

@@ -1,0 +1,1094 @@
+{
+ "datum": "2026-12-03",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks1-gew-01",
+   "themaTitel": "Wann ist eine Tätigkeit gewerblich im Sinne des § 15 EStG?",
+   "figuren": {
+    "A": {
+     "name": "Rosa",
+     "kopf": "Long Bangs",
+     "haut": "#EBC3A0",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Gewerblich",
+      "oder nicht?"
+     ],
+     "norm": "§ 15 Abs. 2 S. 1 EStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 15 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:building-store",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Selbständig",
+       null,
+       "eigenes Risiko, eigene Initiative"
+      ],
+      [
+       "Nachhaltig am Markt",
+       null,
+       "Wiederholungsabsicht, Angebot an Dritte"
+      ],
+      [
+       "Gewinnabsicht",
+       "§ 15 Abs. 2 S. 2, 3 EStG",
+       "Steuerersparnis zählt nicht"
+      ],
+      [
+       "Nichts anderes",
+       "R 15.7 Abs. 1 EStR",
+       "keine LuF, kein Freiberuf, kein Verwalten"
+      ]
+     ],
+     "teaser": "Am Ende: § 15 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Hier gehen Punkte verloren",
+     "punkte": [
+      [
+       "Vermögensverwaltung übersehen: Vermieten und Anlegen ist meist nicht gewerblich.",
+       "warn",
+       "Bold",
+       "R 15.7 Abs. 1 EStR"
+      ],
+      [
+       "Nur einmal tätig, aber mit Wiederholungsabsicht: schon nachhaltig.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Beides schon passiert!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Verwalten oder Gewerbe?",
+     "links": {
+      "kopf": "Vermögensverwaltung",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Wohnungen langfristig vermieten",
+        "§ 21 EStG"
+       ],
+       [
+        "Wertpapiere halten",
+        "§ 20 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Gewerbe",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Mehr als drei Objekte binnen fünf Jahren verkauft",
+        "BMF vom 26.03.2004"
+       ],
+       [
+        "Hotelähnliche Zusatzleistungen",
+        null
+       ]
+      ]
+     },
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Wo liegt die Grenze?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Selbständig · nachhaltig · Gewinnabsicht · Markt",
+      "und weder LuF noch freier Beruf noch Vermögensverwaltung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Vier",
+        "a"
+       ],
+       [
+        " Merkmale rein,",
+        null
+       ]
+      ],
+      [
+       [
+        "drei",
+        "b"
+       ],
+       [
+        " Bereiche raus,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "gewerblich",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welches Merkmal prüfst du zu knapp?",
+     "teaser": "Weiterwischen: § 15 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15 EStG Gewerbebetrieb (Auszug)",
+     "absaetze": [
+      [
+       "(2)",
+       [
+        [
+         "Eine",
+         null
+        ],
+        [
+         "selbständige nachhaltige Betätigung,",
+         "g1"
+        ],
+        [
+         "die mit der",
+         null
+        ],
+        [
+         "Absicht, Gewinn zu erzielen,",
+         "b1"
+        ],
+        [
+         "unternommen wird und sich als Beteiligung am allgemeinen wirtschaftlichen Verkehr darstellt,",
+         "gr1"
+        ],
+        [
+         "ist Gewerbebetrieb, wenn die Betätigung",
+         null
+        ],
+        [
+         "weder als Ausübung von Land- und Forstwirtschaft noch als Ausübung eines freien Berufs noch als eine andere selbständige Arbeit",
+         "r1"
+        ],
+        [
+         "anzusehen ist. Eine durch die Betätigung verursachte Minderung der Steuern vom Einkommen ist kein Gewinn im Sinne des Satzes 1. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "2 Merkmale",
+       "g1"
+      ],
+      [
+       "Gewinnabsicht",
+       "b1"
+      ],
+      [
+       "Markt",
+       "gr1"
+      ],
+      [
+       "Abgrenzung",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Nicht im Gesetz: Vermögensverwaltung",
+      "Abgrenzung nach R 15.7 Abs. 1 EStR"
+     ]
+    }
+   ],
+   "caption": "Gewerblich oder nicht? Der Spickzettel zu § 15 Abs. 2 EStG für die Ertragsteuerklausur.\n\n1. Selbständig: eigenes Unternehmerrisiko und eigene Unternehmerinitiative.\n2. Nachhaltig: schon bei Wiederholungsabsicht.\n3. Gewinnabsicht: Eine Minderung der Steuern vom Einkommen ist kein Gewinn; Gewinnabsicht als Nebenzweck genügt (§ 15 Abs. 2 S. 2, 3 EStG).\n4. Teilnahme am Markt, also Leistungen für Dritte erkennbar anbieten (§ 15 Abs. 2 S. 1 EStG).\n5. Keine Land- und Forstwirtschaft, kein freier Beruf, keine andere selbständige Arbeit (§ 15 Abs. 2 S. 1 EStG) und keine bloße Vermögensverwaltung (R 15.7 Abs. 1 EStR).\n\nGrenzfälle: Langfristige Vermietung und das Halten von Wertpapieren bleiben Vermögensverwaltung (§§ 20, 21 EStG). Gewerblicher Grundstückshandel bei Verkauf von mehr als drei Objekten innerhalb von fünf Jahren (BMF vom 26.03.2004).\n\nZum Schluss: § 15 Abs. 2 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 15 Abs. 2 S. 1–3 EStG",
+    "R 15.7 Abs. 1 EStR",
+    "§§ 20, 21 EStG",
+    "BMF vom 26.03.2004 (gewerblicher Grundstückshandel)"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-3",
+   "themaTitel": "Geht ein Wirtschaftsgut zum Buchwert an die Schwester-PersG?",
+   "figuren": {
+    "A": {
+     "name": "Lotta",
+     "kopf": "Medium 1",
+     "haut": "#F1C7A5",
+     "haar": "#8B4A2B",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Buchwert an die",
+      "Schwester-KG?"
+     ],
+     "norm": "§ 6 Abs. 5 S. 3 Nr. 4 EStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Halle",
+        "Bold",
+        44
+       ],
+       [
+        "300.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Buchwert?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Buchwert prüfen",
+     "schritte": [
+      [
+       "Welcher Weg?",
+       "§ 6 Abs. 5 S. 3 EStG",
+       "direkt zwischen zwei Gesellschaftsvermögen"
+      ],
+      [
+       "Unentgeltlich?",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG",
+       "keine Gegenleistung"
+      ],
+      [
+       "Identisch beteiligt?",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG",
+       "dieselben Personen, dieselben Quoten"
+      ],
+      [
+       "Sperrfrist beachten",
+       "§ 6 Abs. 5 S. 4 EStG",
+       "drei Jahre nach Abgabe der Erklärung"
+      ]
+     ],
+     "teaser": "Am Ende: § 6 Abs. 5 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Welcher Weg?",
+     "punkte": [
+      [
+       "Zwischen Sonderbetriebsvermögen und Gesellschaftsvermögen gab es den Buchwert schon lange.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 5 S. 3 Nr. 2 EStG"
+      ],
+      [
+       "Direkt von KG zu KG erst seit dem JStG 2024, in allen offenen Fällen.",
+       "warn",
+       "Bold",
+       "§ 52 Abs. 12 S. 15 EStG"
+      ]
+     ],
+     "extra": [
+      "Anlass: BVerfG, 28.11.2023, 2 BvL 8/13",
+      "GELB",
+      null
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Neu im Gesetz!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Unentgeltlich?",
+     "punkte": [
+      [
+       "Nr. 4 erfasst nur unentgeltliche Übertragungen.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
+      ],
+      [
+       "Zahlt die erwerbende KG einen Kaufpreis, ist das eine Veräußerung.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Dann bleibt nur der Blick auf eine Rücklage.",
+       "warn",
+       "Regular",
+       "§ 6b EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Und mit Kaufpreis?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Identisch beteiligt?",
+     "punkte": [
+      [
+       "An beiden Gesellschaften dieselben Mitunternehmer im selben Verhältnis.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
+      ],
+      [
+       "Rechtsfolge: Buchwert ist Pflicht, kein Wahlrecht.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 5 S. 1 EStG"
+      ]
+     ],
+     "extra": [
+      "Körperschaft beteiligt? S. 5 prüfen",
+      "HELL",
+      "§ 6 Abs. 5 S. 5 EStG"
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Quoten vergleichen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Sperrfrist",
+     "punkte": [
+      [
+       "Verkauf oder Entnahme in der Sperrfrist: rückwirkend Teilwert.",
+       "nein",
+       "Regular",
+       "§ 6 Abs. 5 S. 4 EStG"
+      ],
+      [
+       "Frist endet drei Jahre nach Abgabe der Erklärung für das Übertragungsjahr.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Ausnahme: Reserven per Ergänzungsbilanz zugeordnet.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 290,
+     "blase": "Drei Jahre warten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Lotta und Jonas sind an der Nord-KG und der Süd-KG je zur Hälfte beteiligt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die Nord-KG überträgt eine Halle unentgeltlich auf die Süd-KG. Buchwert 300.000 €, Teilwert 500.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welcher Wert?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Lotta."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Lösung zum Fall: Buchwert 300.000 €, kein Gewinn.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
+      ],
+      [
+       "Variante: An der Süd-KG ist Lotta mit 60 %, Jonas mit 40 % beteiligt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Bleibt es beim Buchwert?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Kleiner Unterschied?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Quoten weichen ab: nicht identisch beteiligt.",
+       "nein",
+       "Bold",
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
+      ],
+      [
+       "Kein Buchwert, die 200.000 € stillen Reserven werden aufgedeckt.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Schon 10 % kippen es!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "KG zu KG: Buchwert nur gratis und bei gleichen Quoten",
+      "Sperrfrist: drei Jahre nach der Erklärung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Gratis",
+        "a"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "gleiche Quoten",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "Buchwert",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Kanntest du die neue Nr. 4?",
+     "teaser": "Weiterwischen: § 6 Abs. 5 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6 EStG Bewertung (Auszug)",
+     "absaetze": [
+      [
+       "(5)",
+       [
+        [
+         "[…] Satz 1 gilt entsprechend, soweit ein Wirtschaftsgut […] 4.",
+         null
+        ],
+        [
+         "unentgeltlich",
+         "g1"
+        ],
+        [
+         "zwischen den Gesamthandsvermögen verschiedener Mitunternehmerschaften",
+         null
+        ],
+        [
+         "derselben, identisch beteiligten Mitunternehmer",
+         "b1"
+        ],
+        [
+         "übertragen wird. Wird das nach Satz 3 übertragene Wirtschaftsgut",
+         null
+        ],
+        [
+         "innerhalb einer Sperrfrist veräußert oder entnommen,",
+         "r1"
+        ],
+        [
+         "ist rückwirkend auf den Zeitpunkt der Übertragung der Teilwert anzusetzen […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Kein Entgelt",
+       "g1"
+      ],
+      [
+       "Gleiche Quoten",
+       "b1"
+      ],
+      [
+       "Sperrfrist",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Neben Nr. 4 notieren: § 52 Abs. 12 S. 15",
+      "Gilt in allen offenen Fällen"
+     ]
+    }
+   ],
+   "caption": "Wirtschaftsgut von einer KG auf die Schwester-KG zum Buchwert? Das Prüfschema für die Bilanzklausur nach der Neuregelung.\n\n1. Weg: Zwischen Sonderbetriebsvermögen und Gesellschaftsvermögen gilt der Buchwert schon lange (§ 6 Abs. 5 S. 3 Nr. 2 EStG). Direkt zwischen zwei Gesellschaftsvermögen erst seit Nr. 4 (JStG 2024), anwendbar in allen offenen Fällen (§ 52 Abs. 12 S. 15 EStG); Anlass war der Beschluss des BVerfG vom 28.11.2023, 2 BvL 8/13.\n2. Nur unentgeltlich (§ 6 Abs. 5 S. 3 Nr. 4 EStG). Gegen Entgelt liegt eine Veräußerung vor; ggf. § 6b EStG prüfen.\n3. Dieselben, identisch beteiligten Mitunternehmer (§ 6 Abs. 5 S. 3 Nr. 4 EStG). Dann ist der Buchwert zwingend (§ 6 Abs. 5 S. 1 EStG). Körperschaftsklausel beachten (§ 6 Abs. 5 S. 5 EStG).\n4. Sperrfrist: Veräußerung oder Entnahme bis drei Jahre nach Abgabe der Erklärung für das Übertragungsjahr führt rückwirkend zum Teilwert, außer die Reserven wurden per Ergänzungsbilanz zugeordnet (§ 6 Abs. 5 S. 4 EStG).\n\nFall: Beteiligung je 50 % an beiden KGs: Halle geht zum Buchwert von 300.000 € über. Variante mit 60/40 an der Süd-KG: keine identische Beteiligung, 200.000 € stille Reserven werden aufgedeckt.\n\nZum Schluss: § 6 Abs. 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 6 Abs. 5 S. 1, 3 Nr. 2, Nr. 4, S. 4, 5 EStG",
+    "§ 52 Abs. 12 S. 15 EStG",
+    "§ 6b EStG",
+    "BVerfG vom 28.11.2023, 2 BvL 8/13"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-504",
+   "themaTitel": "Steuerpflichtiger Erwerb: Bewertung, sachliche Befreiungen und zuordenbare Belastungen",
+   "figuren": {
+    "A": {
+     "name": "Lea",
+     "kopf": "Cornrows",
+     "haut": "#7A4A2E",
+     "haar": "#1B1B1B",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 2"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Lea erbt eine vermietete Wohnung für sechshunderttausend Euro, dazu zweihunderttausend Euro Darlehen. Wie viel davon darf sie abziehen?"
+    },
+    {
+     "id": "s1",
+     "text": "Erst bewerten, dann befreien. Zu Wohnzwecken vermietet, also nur neunzig Prozent: fünfhundertvierzigtausend Euro."
+    },
+    {
+     "id": "s2",
+     "text": "Die Schulden folgen der Befreiung. Auch sie zählen nur zu neunzig Prozent: hundertachtzigtausend Euro."
+    },
+    {
+     "id": "s3",
+     "text": "Bleiben dreihundertsechzigtausend Euro Erwerb, noch vor dem Freibetrag."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Bewerten, befreien, Schulden im selben Verhältnis kürzen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Erbe mit",
+     "Darlehen"
+    ],
+    "pille": "Vermietete Wohnung",
+    "figur": "A/sorge",
+    "name": "Lea",
+    "icons": [
+     [
+      "tabler:home",
+      "GELB",
+      "Wie"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Wohnung",
+      "wert": "600.000 €",
+      "farbe": "GRUEN",
+      "wort": "sechshunderttausend"
+     },
+     {
+      "label": "Darlehen",
+      "wert": "200.000 €",
+      "farbe": "GELB",
+      "wort": "zweihunderttausend"
+     }
+    ],
+    "stempel": {
+     "text": "Alles?",
+     "wort": "abziehen"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Bewerten, befreien",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "zu Wohnzwecken vermietet",
+       "wort": "Wohnzwecken",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Ansatz 90 %",
+       "wert": "540.000 €",
+       "farbe": "GRUEN",
+       "wort": "fünfhundertvierzigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13d Abs. 1 ErbStG",
+       "wort": "neunzig"
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "bewerten"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Schulden folgen",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "nur 90 % abziehbar",
+       "unter": "10 % hängen am befreiten Teil",
+       "wort": "Befreiung",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "abziehbar",
+       "wert": "− 180.000 €",
+       "farbe": "GELB",
+       "wort": "hundertachtzigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 10 Abs. 6a S. 1 ErbStG",
+       "wort": "Schulden"
+      }
+     ],
+     "icon": [
+      "tabler:file-dollar",
+      "GELB",
+      "Schulden"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "540.000 € − 180.000 €",
+       "wort": "Bleiben",
+       "size": 100
+      },
+      {
+       "typ": "block",
+       "label": "Erwerb vor Freibetrag",
+       "wert": "360.000 €",
+       "farbe": "GRUEN",
+       "wort": "dreihundertsechzigtausend",
+       "zs": 120
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "dreihundertsechzigtausend",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Bewerten,",
+     "befreien,",
+     "Schulden im selben",
+     "Verhältnis kürzen"
+    ],
+    "woerter": [
+     null,
+     "befreien",
+     "Schulden",
+     "kürzen"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "kürzen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Erbe einer vermieteten Wohnung mit Darlehen: Wie viel Schulden darf man abziehen? 🏠\n\n▸ Erst bewerten: Grundbesitzwert nach § 12 Abs. 3 ErbStG i. V. m. BewG.\n▸ Dann befreien: Zu Wohnzwecken vermietete bebaute Grundstücke werden mit 90 % angesetzt (§ 13d Abs. 1, Abs. 3 Nr. 1 ErbStG).\n▸ Schulden, die mit dem befreiten Teil zusammenhängen, sind insoweit nicht abzugsfähig (§ 10 Abs. 6a S. 1 ErbStG) – also nur zu 90 %.\n\nRechnung: 600.000 € × 90 % = 540.000 €; Darlehen 200.000 € × 90 % = 180.000 €; Erwerb vor Freibetrag 360.000 €.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 12 Abs. 3 ErbStG",
+    "§ 13d Abs. 1, 3 Nr. 1 ErbStG",
+    "§ 10 Abs. 6a S. 1 ErbStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-0",
+   "frage": [
+    "Privates Klavier",
+    "verkauft: steuerbar?"
+   ],
+   "optionen": [
+    "Ja, Unternehmerstatus genügt",
+    "Nein, nicht im Rahmen des Unternehmens",
+    "Erst ab 25.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#8D5A3B",
+     "haar": "#1E1A18",
+     "oberteil": "#F4A3B5",
+     "bueste": "Dress"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-0",
+   "titel": [
+    "B: nicht",
+    "steuerbar"
+   ],
+   "optionen": [
+    "Ja, Unternehmerstatus genügt",
+    "Nein, nicht im Rahmen des Unternehmens",
+    "Erst ab 25.000 €"
+   ],
+   "richtig": 1,
+   "text": "Der Verkauf gehört nicht zum Unternehmen. Fehlt ein Merkmal, ist der Umsatz nicht steuerbar.",
+   "norm": "§ 1 Abs. 1 Nr. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#8D5A3B",
+     "haar": "#1E1A18",
+     "oberteil": "#F4A3B5",
+     "bueste": "Dress"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Gewerblich oder nicht?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-0",
+   "titel": [
+    "Vorgründung oder",
+    "Vorgesellschaft?"
+   ],
+   "norm": "§ 1 Abs. 1 Nr. 1 KStG",
+   "punkte": [
+    [
+     "Vor dem Notarvertrag: Gründer, meist als Personengesellschaft.",
+     "warn",
+     "H 1.1 KStH"
+    ],
+    [
+     "Ab Notarvertrag: steuerpflichtig, wenn die Eintragung folgt.",
+     "ok",
+     "H 1.1 KStH"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 2",
+     "haut": "#B97A56",
+     "haar": "#231A16",
+     "oberteil": "#C9B8F2",
+     "bart": "Chin",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Buchwert an die Schwester-KG?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sachverhalt",
+    "farbig lesen"
+   ],
+   "punkte": [
+    [
+     "Daten und Fristen in einer Farbe.",
+     "ok",
+     null
+    ],
+    [
+     "Beträge und Personen in je einer eigenen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:highlight",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Bun",
+     "haut": "#F3D0B5",
+     "haar": "#5A3A22",
+     "oberteil": "#F2B880"
+    }
+   },
+   "figur": "Z/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-52",
+   "titel": [
+    "Einbringungs-",
+    "gewinn II"
+   ],
+   "punkte": [
+    [
+     "Die aufnehmende Gesellschaft verkauft die eingebrachten Anteile binnen sieben Jahren.",
+     "ok",
+     "§ 22 Abs. 2 S. 1 UmwStG"
+    ],
+    [
+     "Minus ein Siebtel je volles Zeitjahr.",
+     "warn",
+     "§ 22 Abs. 2 S. 3 UmwStG"
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Flat Top",
+     "haut": "#6E4A33",
+     "haar": "#1B1B1B",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Erbe mit Darlehen"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-12-1",
+   "titel": [
+    "Wen darf das",
+    "Finanzamt prüfen?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Betrieb",
+      "a"
+     ],
+     [
+      ": ohne Anlass,",
+      null
+     ]
+    ],
+    [
+     [
+      "privat",
+      "b"
+     ],
+     [
+      ": nur",
+      null
+     ]
+    ],
+    [
+     [
+      "im ",
+      null
+     ],
+     [
+      "Sonderfall",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 193 Abs. 1, 2 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Medium",
+     "haut": "#E8B98F",
+     "haar": "#B8B8B8",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

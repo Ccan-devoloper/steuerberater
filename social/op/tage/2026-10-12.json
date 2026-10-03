@@ -2,217 +2,1164 @@
  "datum": "2026-10-12",
  "beitraege": [
   {
-   "slot": "b1", "zeit": "08:30", "format": "pruefungsfrage", "klausur": 1, "fach": "ao", "fachLabel": "Abgabenordnung",
-   "themaId": "ao-aufb-ao-jacobs-6-9", "themaTitel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-6-9",
+   "themaTitel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
    "figuren": {
-    "A": {"name": "Jonas", "kopf": "Short 2", "haut": "#D9A07A", "haar": "#3B2A20", "oberteil": "#F2B07B", "bueste": "Polo and Sweater"},
-    "B": {"name": "Nele", "kopf": "Long Curly", "haut": "#7A4A2E", "haar": "#1C1A1A", "oberteil": "#E9E4DA", "brille": "Glasses 2", "bueste": "Blazer Black Tee"}
+    "A": {
+     "name": "Jonas",
+     "kopf": "Short 2",
+     "haut": "#D9A07A",
+     "haar": "#3B2A20",
+     "oberteil": "#F2B07B",
+     "bueste": "Polo and Sweater"
+    },
+    "B": {
+     "name": "Nele",
+     "kopf": "Long Curly",
+     "haut": "#7A4A2E",
+     "haar": "#1C1A1A",
+     "oberteil": "#E9E4DA",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    }
    },
    "folien": [
-    {"typ": "cover", "badge": "Prüfungsfrage", "badgeFarbe": "WEISS", "zeilen": ["Nachschieben", "nach Fristende?"],
-     "norm": "§ 171 Abs. 3, 3a AO", "unter": "Klausurfall", "teaser": "+ Markier-Guide § 171 AO",
-     "motiv": {"typ": "kalender", "monat": "DEZEMBER", "tag": "31", "unter": "Fristende 2026"}, "figur": "A:denkt"},
-    {"typ": "inhalt", "titel": "Der Fall",
-     "punkte": [
-      ["Jonas' Einkommensteuerbescheid 2021 steht unter Vorbehalt der Nachprüfung.", "ok", "Regular", "§ 164 Abs. 1 AO"],
-      ["Erklärung 2022 abgegeben: Die Festsetzungsfrist endet am 31.12.2026.", "warn", "Regular", "§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO"],
-      ["Am 14.12.2026 beantragt er eine Änderung: 2.000 € Fahrtkosten.", "ok", "Bold", "§ 164 Abs. 2 S. 2 AO"]
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Nachschieben",
+      "nach Fristende?"
      ],
-     "figur": "A:redet", "x": 790, "blase": "Lieber spät als nie!"},
-    {"typ": "inhalt", "titel": "Jetzt du",
+     "norm": "§ 171 Abs. 3, 3a AO",
+     "unter": "Klausurfall",
+     "teaser": "+ Markier-Guide § 171 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "DEZEMBER",
+      "tag": "31",
+      "unter": "Fristende 2026"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
      "punkte": [
-      ["Im März 2027 findet Jonas noch Belege: 3.000 € Fortbildungskosten.", "ok", "Regular", null],
-      ["Er erweitert seinen Antrag.", "ok", "Regular", null],
-      ["Darf das Finanzamt beide Beträge noch berücksichtigen?", "warn", "Bold", null]
+      [
+       "Jonas' Einkommensteuerbescheid 2021 steht unter Vorbehalt der Nachprüfung.",
+       "ok",
+       "Regular",
+       "§ 164 Abs. 1 AO"
+      ],
+      [
+       "Erklärung 2022 abgegeben: Die Festsetzungsfrist endet am 31.12.2026.",
+       "warn",
+       "Regular",
+       "§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO"
+      ],
+      [
+       "Am 14.12.2026 beantragt seine Beraterin Nele eine Änderung: 2.000 € Fahrtkosten.",
+       "ok",
+       "Bold",
+       "§ 164 Abs. 2 S. 2 AO"
+      ]
      ],
-     "extra": ["Erst überlegen, dann weiterwischen", "GELB", null],
-     "figur": "B:fragt", "x": 290, "blase": "Was meinst du?"},
-    {"typ": "inhalt", "titel": "Lösung: nur die 2.000 €",
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Lieber spät als nie!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
      "punkte": [
-      ["Ein Antrag außerhalb von Einspruch und Klage hemmt nur, soweit er reicht.", "ok", "Regular", "§ 171 Abs. 3 AO"],
-      ["Für die 2.000 € läuft sie erst nach unanfechtbarer Entscheidung ab.", "ok", "Regular", null],
-      ["Die 3.000 € kamen nach dem 31.12.2026: festsetzungsverjährt.", "nein", "Bold", "§ 169 Abs. 1 S. 1 AO"]
+      [
+       "Im März 2027 findet Jonas weitere Belege: 3.000 € für eine Fortbildung.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Nele erweitert den Antrag.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Darf das Finanzamt beide Beträge noch berücksichtigen?",
+       "warn",
+       "Bold",
+       null
+      ]
      ],
-     "figur": "B:erklaert", "x": 790, "blase": "Insoweit!"},
-    {"typ": "vergleich", "titel": "Antrag oder Einspruch?",
-     "links": {"kopf": "Antrag", "farbe": "GELB", "punkte": [["Hemmt nur im beantragten Umfang", "§ 171 Abs. 3 AO"], ["Erweitern nach Fristende: zu spät", null]]},
-     "rechts": {"kopf": "Einspruch", "farbe": "GRUEN", "punkte": [["Hemmt den gesamten Steueranspruch", "§ 171 Abs. 3a S. 2 AO"], ["Erweitern bleibt möglich", null]]},
-     "figur": "A:staunt", "x": 790, "blase": "So ein Unterschied!"},
-    {"typ": "inhalt", "falle": true, "titel": "Nur zulässig hemmt",
+     "extra": [
+      "Erst überlegen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: nur die 2.000 €",
      "punkte": [
-      ["Ein unzulässiger Einspruch hemmt nichts, etwa nach versäumter Einspruchsfrist.", "nein", "Bold", "§ 171 Abs. 3a S. 2 AO"],
-      ["Zulässig, aber erst nach Fristende eingelegt? Hemmt trotzdem.", "ok", "Regular", "§ 171 Abs. 3a S. 1 AO"]
+      [
+       "Ein Antrag außerhalb von Einspruch und Klage hemmt nur, soweit er reicht.",
+       "ok",
+       "Regular",
+       "§ 171 Abs. 3 AO"
+      ],
+      [
+       "Für die 2.000 € läuft die Frist erst nach unanfechtbarer Entscheidung ab.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Die 3.000 € kamen nach dem 31.12.2026: festsetzungsverjährt.",
+       "nein",
+       "Bold",
+       "§ 169 Abs. 1 S. 1 AO"
+      ]
      ],
-     "figur": "B:ernst", "x": 290, "blase": "Erst die Zulässigkeit!"},
-    {"typ": "inhalt", "titel": "Kehrseite: Verböserung",
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Insoweit!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Antrag oder Einspruch?",
+     "links": {
+      "kopf": "Antrag",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Hemmt nur im beantragten Umfang",
+        "§ 171 Abs. 3 AO"
+       ],
+       [
+        "Erweitern nach Fristende: zu spät",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Einspruch",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Hemmt den gesamten Steueranspruch",
+        "§ 171 Abs. 3a S. 2 AO"
+       ],
+       [
+        "Erweitern bleibt möglich",
+        null
+       ]
+      ]
+     },
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "So ein Unterschied!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nur zulässig hemmt",
      "punkte": [
-      ["Bleibt alles offen, darf das Finanzamt auch zu deinen Lasten ändern.", "warn", "Regular", "§ 367 Abs. 2 S. 1, 2 AO"],
-      ["Vorher muss es mit Gründen darauf hinweisen.", "ok", "Regular", null],
-      ["Dann kannst du den Einspruch zurücknehmen.", "ok", "Bold", "§ 362 Abs. 1 AO"]
+      [
+       "Ein unzulässiger Einspruch hemmt nichts, etwa nach versäumter Einspruchsfrist.",
+       "nein",
+       "Bold",
+       "§ 171 Abs. 3a S. 2 AO"
+      ],
+      [
+       "Zulässig, aber erst nach Fristende eingelegt? Hemmt trotzdem.",
+       "ok",
+       "Regular",
+       "§ 171 Abs. 3a S. 1 AO"
+      ]
      ],
-     "figur": "A:sorge", "x": 790, "blase": "Zurück auf Anfang?"},
-    {"typ": "merke", "oben": ["Lösung: Nur die 2.000 € sind noch offen", "Die 3.000 € sind festsetzungsverjährt", "GELB"],
-     "zeilen": [[["Antrag", "a"], [" hemmt,", null]], [["soweit", "b"], [" er reicht.", null]], [["Einspruch", "c"], [" hemmt", null]], [["alles", "d"], [".", null]]],
-     "speichern": "Speichern für Klausur 1", "frage": "Hättest du die 3.000 € noch gerettet?", "teaser": "Weiterwischen: § 171 AO markiert"},
-    {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 171 AO Ablaufhemmung (Auszug)",
+     "figur": "B:ernst",
+     "x": 290,
+     "blase": "Erst die Zulässigkeit!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Kehrseite: Verböserung",
+     "punkte": [
+      [
+       "Bleibt alles offen, darf das Finanzamt auch zu deinen Lasten ändern.",
+       "warn",
+       "Regular",
+       "§ 367 Abs. 2 S. 1, 2 AO"
+      ],
+      [
+       "Vorher muss es mit Gründen darauf hinweisen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Dann kannst du den Einspruch zurücknehmen.",
+       "ok",
+       "Bold",
+       "§ 362 Abs. 1 AO"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Zurück auf Anfang?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Nur die 2.000 € sind noch offen",
+      "Die 3.000 € sind festsetzungsverjährt",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Antrag",
+        "a"
+       ],
+       [
+        " hemmt,",
+        null
+       ]
+      ],
+      [
+       [
+        "soweit",
+        "b"
+       ],
+       [
+        " er reicht.",
+        null
+       ]
+      ],
+      [
+       [
+        "Einspruch",
+        "c"
+       ],
+       [
+        " hemmt",
+        null
+       ]
+      ],
+      [
+       [
+        "alles",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du die 3.000 € noch gerettet?",
+     "teaser": "Weiterwischen: § 171 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 171 AO Ablaufhemmung (Auszug)",
      "absaetze": [
-      [3, [["Wird vor Ablauf der Festsetzungsfrist", null], ["außerhalb eines Einspruchs- oder Klageverfahrens", "b1"], ["ein Antrag auf […] Aufhebung oder Änderung einer Steuerfestsetzung […] gestellt, so läuft die Festsetzungsfrist", null], ["insoweit", "r1"], ["nicht ab, bevor über den Antrag unanfechtbar entschieden worden ist.", null]]],
-      ["3a", [["Wird ein Steuerbescheid mit einem Einspruch oder einer Klage angefochten, so läuft die Festsetzungsfrist nicht ab, bevor über den Rechtsbehelf unanfechtbar entschieden ist; […] Der Ablauf der Festsetzungsfrist ist", null], ["hinsichtlich des gesamten Steueranspruchs", "gr1"], ["gehemmt; dies gilt nicht,", null], ["soweit der Rechtsbehelf unzulässig ist.", "g1"]]]
+      [
+       3,
+       [
+        [
+         "Wird vor Ablauf der Festsetzungsfrist",
+         null
+        ],
+        [
+         "außerhalb eines Einspruchs- oder Klageverfahrens",
+         "b1"
+        ],
+        [
+         "ein Antrag auf […] Aufhebung oder Änderung einer Steuerfestsetzung […] gestellt, so läuft die Festsetzungsfrist",
+         null
+        ],
+        [
+         "insoweit",
+         "r1"
+        ],
+        [
+         "nicht ab, bevor über den Antrag unanfechtbar entschieden worden ist.",
+         null
+        ]
+       ]
+      ],
+      [
+       "3a",
+       [
+        [
+         "Wird ein Steuerbescheid mit einem Einspruch oder einer Klage angefochten, so läuft die Festsetzungsfrist nicht ab, bevor über den Rechtsbehelf unanfechtbar entschieden ist; […] Der Ablauf der Festsetzungsfrist ist",
+         null
+        ],
+        [
+         "hinsichtlich des gesamten Steueranspruchs",
+         "gr1"
+        ],
+        [
+         "gehemmt; dies gilt nicht,",
+         null
+        ],
+        [
+         "soweit der Rechtsbehelf unzulässig ist.",
+         "g1"
+        ]
+       ]
+      ]
      ],
-     "notizen": [["nur Antrag", "b1"], ["Umfang!", "r1"], ["Einspruch: alles", "gr1"], ["Zulässigkeit", "g1"]],
-     "randnotiz": ["Dazu: § 367 Abs. 2 S. 2 AO", "Verböserung nur nach Hinweis mit Gründen"]}
+     "notizen": [
+      [
+       "nur Antrag",
+       "b1"
+      ],
+      [
+       "Umfang!",
+       "r1"
+      ],
+      [
+       "Einspruch: alles",
+       "gr1"
+      ],
+      [
+       "Zulässigkeit",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Dazu: § 367 Abs. 2 S. 2 AO",
+      "Verböserung nur nach Hinweis mit Gründen"
+     ]
+    }
    ],
    "caption": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung? Eine typische Prüfungsfrage zur Festsetzungsverjährung.\n\nFall: Bescheid unter Vorbehalt der Nachprüfung (§ 164 Abs. 1 AO), Festsetzungsfrist endet am 31.12.2026 (§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO). Änderungsantrag über 2.000 € im Dezember (§ 164 Abs. 2 S. 2 AO), Erweiterung um 3.000 € im März 2027.\n\n▸ Ein Antrag außerhalb eines Einspruchs- oder Klageverfahrens hemmt den Fristablauf nur insoweit, wie er reicht (§ 171 Abs. 3 AO). Die 3.000 € sind festsetzungsverjährt (§ 169 Abs. 1 S. 1 AO).\n▸ Ein Einspruch oder eine Klage hemmt den Ablauf hinsichtlich des gesamten Steueranspruchs, auch wenn der Rechtsbehelf erst nach Fristende eingelegt wird; nicht, soweit er unzulässig ist (§ 171 Abs. 3a S. 1, 2 AO).\n▸ Kehrseite: Verböserung ist möglich, aber nur nach Hinweis unter Angabe von Gründen (§ 367 Abs. 2 S. 2 AO); der Einspruch kann bis zur Bekanntgabe der Entscheidung zurückgenommen werden (§ 362 Abs. 1 AO).\n\nZum Schluss: § 171 Abs. 3, 3a AO zum Markieren. Speichern für Klausur 1 📌",
-   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#abgabenordnung"],
-   "quellen": ["§ 164 Abs. 1, 2 AO", "§ 169 Abs. 1, 2 AO", "§ 170 Abs. 2 S. 1 Nr. 1 AO", "§ 171 Abs. 3, 3a AO", "§ 362 Abs. 1 AO", "§ 367 Abs. 2 AO"]
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 164 Abs. 1, 2 AO",
+    "§ 169 Abs. 1, 2 AO",
+    "§ 170 Abs. 2 S. 1 Nr. 1 AO",
+    "§ 171 Abs. 3, 3a AO",
+    "§ 362 Abs. 1 AO",
+    "§ 367 Abs. 2 AO"
+   ]
   },
   {
-   "slot": "b2", "zeit": "13:30", "format": "schema", "klausur": 2, "fach": "istr", "fachLabel": "Internationales Steuerrecht",
-   "themaId": "istr-aufb-istr-gh-3-10", "themaTitel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-10",
+   "themaTitel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
    "figuren": {
-    "A": {"name": "Lina", "kopf": "Hijab", "haut": "#C68B5E", "haar": "#3F6E8C", "oberteil": "#9FD3C7", "bueste": "Sweater Dots"},
-    "B": {"name": "Arne", "kopf": "Short 4", "haut": "#F2CDB4", "haar": "#C9A15A", "oberteil": "#B8A6E0", "bart": "Full 3", "bueste": "Button Shirt 1"}
+    "A": {
+     "name": "Lina",
+     "kopf": "Hijab",
+     "haut": "#C68B5E",
+     "haar": "#3F6E8C",
+     "oberteil": "#9FD3C7",
+     "bueste": "Sweater Dots"
+    }
    },
    "folien": [
-    {"typ": "cover", "badge": "Prüfschema", "zeilen": ["Wegzug im", "laufenden Jahr"], "norm": "§ 2 Abs. 7 S. 3 EStG",
-     "unter": "in 5 Schritten", "teaser": "+ Markier-Guide § 2 EStG",
-     "motiv": {"typ": "kalender", "monat": "JUNI", "tag": "30", "unter": "Umzug nach Wien"}, "figur": "A:froh"},
-    {"typ": "schritte", "titel": "Das Schema",
-     "schritte": [
-      ["Phasen bestimmen", "§ 1 Abs. 1, 4 EStG", ""],
-      ["Inländische Einkünfte danach?", "§ 49 EStG", ""],
-      ["Eine Veranlagung, unbeschränkt", "§ 2 Abs. 7 S. 3 EStG", ""],
-      ["Ausland: nur Steuersatz", "§ 32b Abs. 1 S. 1 Nr. 2 EStG", ""],
-      ["Abzugsteuer anrechnen", "§ 50 Abs. 2 S. 2 Nr. 3 EStG", ""]
-     ],
-     "teaser": "Am Ende: § 2 Abs. 7 EStG markiert"},
-    {"typ": "inhalt", "titel": "Beispiel: Lina zieht weg",
-     "punkte": [
-      ["Lina wohnt bis 30.06.2026 in München, dann in Wien.", "ok", "Regular", null],
-      ["Lohn München Januar bis Juni: 40.000 €.", "ok", "Regular", null],
-      ["Wohnung in Leipzig, ganzjährig vermietet: 12.000 € Einkünfte.", "ok", "Regular", null],
-      ["Gehalt Wien Juli bis Dezember: 30.000 €.", "ok", "Regular", null]
-     ],
-     "figur": "A:erklaert", "x": 790, "blase": "Neues Jahr, neue Stadt!"},
-    {"typ": "inhalt", "titel": "Jetzt du",
-     "punkte": [
-      ["Wie viele Veranlagungen gibt es für 2026?", "warn", "Bold", null],
-      ["Was passiert mit der Miete ab Juli?", "warn", "Regular", null],
-      ["Und mit dem Wiener Gehalt?", "warn", "Regular", null]
-     ],
-     "extra": ["Lösung: weiterwischen", "GELB", null],
-     "figur": "B:denkt", "x": 290, "blase": "Zwei Phasen, zwei Bescheide?"},
-    {"typ": "rechnung", "titel": "Lösung: eine Veranlagung", "normen": ["§ 2 Abs. 7 S. 3 EStG", "§ 49 Abs. 1 Nr. 6 EStG"],
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
      "zeilen": [
-      ["Lohn München", "40.000 €", "Regular", null],
-      ["Miete Januar bis Juni", "6.000 €", "Regular", null],
-      ["Miete Juli bis Dezember", "6.000 €", "Regular", null],
-      ["Summe der Einkünfte", "52.000 €", "Bold", "GELB"],
-      ["Gehalt Wien: nur Steuersatz", "30.000 €", "Regular", "HELL"]
+      "Wegzug im",
+      "laufenden Jahr"
      ],
-     "extra": ["Progressionsvorbehalt § 32b EStG", "LILA"]},
-    {"typ": "inhalt", "falle": true, "titel": "Zwei Bescheide? Falsch",
+     "norm": "§ 2 Abs. 7 S. 3 EStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 2 EStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "JUNI",
+      "tag": "30",
+      "unter": "Umzug nach Wien"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Phasen bestimmen",
+       "§ 1 Abs. 1, 4 EStG",
+       ""
+      ],
+      [
+       "Inländische Einkünfte danach?",
+       "§ 49 EStG",
+       ""
+      ],
+      [
+       "Eine Veranlagung, unbeschränkt",
+       "§ 2 Abs. 7 S. 3 EStG",
+       ""
+      ],
+      [
+       "Ausland: nur Steuersatz",
+       "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+       ""
+      ],
+      [
+       "Abzugsteuer anrechnen",
+       "§ 50 Abs. 2 S. 2 Nr. 3 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 2 Abs. 7 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel: Lina zieht weg",
      "punkte": [
-      ["Getrennte Veranlagungen gewähren den Grundfreibetrag doppelt.", "nein", "Bold", "§ 2 Abs. 7 S. 1, 2 EStG"],
-      ["Das Wiener Gehalt erhöht den Steuersatz, auch ohne DBA-Freistellung.", "warn", "Regular", "§ 32b Abs. 1 S. 1 Nr. 2 EStG"],
-      ["Steuerabzüge der Auslandsphase wirken nicht abgeltend.", "ok", "Regular", "§ 50 Abs. 2 S. 2 Nr. 3 EStG"]
+      [
+       "Lina wohnt bis 30.06.2026 in München, dann in Wien.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Lohn München Januar bis Juni: 40.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Wohnung in Leipzig, ganzjährig vermietet: 12.000 € Einkünfte.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Gehalt Wien Juli bis Dezember: 30.000 €.",
+       "ok",
+       "Regular",
+       null
+      ]
      ],
-     "figur": "B:staunt", "x": 790, "blase": "Ach so!"},
-    {"typ": "merke", "oben": ["Lina 2026: eine Veranlagung, Einkünfte 52.000 €", "30.000 € Wien nur im Progressionsvorbehalt", "GELB"],
-     "zeilen": [[["Ein Jahr", "a"], [", ein Bescheid,", null]], [["Inland", "b"], [" zusammen,", null]], [["Ausland", "c"], [" nur für", null]], [["den Steuersatz", "d"], [".", null]]],
-     "speichern": "Speichern für Klausur 2", "frage": "Zuzug geht genauso. Probierst du es?", "teaser": "Weiterwischen: § 2 EStG markiert"},
-    {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§§ 2, 32b EStG (Auszug)",
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Neues Jahr, neue Stadt!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie viele Veranlagungen gibt es für 2026?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Was passiert mit der Miete ab Juli?",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Und mit dem Wiener Gehalt?",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Zwei Phasen, zwei Bescheide?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: eine Veranlagung",
+     "normen": [
+      "§ 2 Abs. 7 S. 3 EStG",
+      "§ 49 Abs. 1 Nr. 6 EStG"
+     ],
+     "zeilen": [
+      [
+       "Lohn München",
+       "40.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Miete Januar bis Juni",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Miete Juli bis Dezember",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Summe der Einkünfte",
+       "52.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Gehalt Wien: nur Steuersatz",
+       "30.000 €",
+       "Regular",
+       "HELL"
+      ]
+     ],
+     "extra": [
+      "Progressionsvorbehalt § 32b EStG",
+      "LILA"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Zwei Bescheide? Falsch",
+     "punkte": [
+      [
+       "Getrennte Veranlagungen gewähren den Grundfreibetrag doppelt.",
+       "nein",
+       "Bold",
+       "§ 2 Abs. 7 S. 1, 2 EStG"
+      ],
+      [
+       "Das Wiener Gehalt erhöht den Steuersatz, auch ohne DBA-Freistellung.",
+       "warn",
+       "Regular",
+       "§ 32b Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Steuerabzüge der Auslandsphase wirken nicht abgeltend.",
+       "ok",
+       "Regular",
+       "§ 50 Abs. 2 S. 2 Nr. 3 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Ach so!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lina 2026: eine Veranlagung, Einkünfte 52.000 €",
+      "30.000 € Wien nur im Progressionsvorbehalt",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ein Jahr",
+        "a"
+       ],
+       [
+        ", ein Bescheid,",
+        null
+       ]
+      ],
+      [
+       [
+        "Inland",
+        "b"
+       ],
+       [
+        " zusammen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ausland",
+        "c"
+       ],
+       [
+        " nur für",
+        null
+       ]
+      ],
+      [
+       [
+        "den Steuersatz",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Zuzug geht genauso. Probierst du es?",
+     "teaser": "Weiterwischen: § 2 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 2, 32b EStG (Auszug)",
      "absaetze": [
-      ["§ 2 (7)", [["Die Einkommensteuer ist eine", null], ["Jahressteuer", "b1"], [". […] Besteht während eines Kalenderjahres", null], ["sowohl unbeschränkte als auch beschränkte", "g1"], ["Einkommensteuerpflicht, so sind die während der beschränkten Einkommensteuerpflicht erzielten inländischen Einkünfte", null], ["in eine Veranlagung zur unbeschränkten Einkommensteuerpflicht einzubeziehen.", "gr1"]]],
-      ["§ 32b (1)", [["[…] 2.", null], ["ausländische Einkünfte, die im Veranlagungszeitraum nicht der deutschen Einkommensteuer unterlegen haben", "r1"], ["; dies gilt nur für Fälle der zeitweisen unbeschränkten Steuerpflicht einschließlich der in § 2 Absatz 7 Satz 3 geregelten Fälle; […]", null]]]
+      [
+       "§ 2 (7)",
+       [
+        [
+         "Die Einkommensteuer ist",
+         null
+        ],
+        [
+         "eine Jahressteuer.",
+         "b1"
+        ],
+        [
+         "[…] Besteht während eines Kalenderjahres",
+         null
+        ],
+        [
+         "sowohl unbeschränkte als auch beschränkte",
+         "g1"
+        ],
+        [
+         "Einkommensteuerpflicht, so sind die während der beschränkten Einkommensteuerpflicht erzielten inländischen Einkünfte",
+         null
+        ],
+        [
+         "in eine Veranlagung zur unbeschränkten Einkommensteuerpflicht einzubeziehen.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "§ 32b (1)",
+       [
+        [
+         "[…] 2.",
+         null
+        ],
+        [
+         "ausländische Einkünfte, die im Veranlagungszeitraum nicht der deutschen Einkommensteuer unterlegen haben;",
+         "r1"
+        ],
+        [
+         "dies gilt nur für Fälle der zeitweisen unbeschränkten Steuerpflicht einschließlich der in § 2 Absatz 7 Satz 3 geregelten Fälle; […]",
+         null
+        ]
+       ]
+      ]
      ],
-     "notizen": [["ein Jahr", "b1"], ["Wechsel", "g1"], ["ein Bescheid", "gr1"], ["Steuersatz", "r1"]],
-     "randnotiz": ["Dazu: § 50 Abs. 2 S. 2 Nr. 3 EStG", "Abzugsteuern werden hier angerechnet"]}
+     "notizen": [
+      [
+       "ein Jahr",
+       "b1"
+      ],
+      [
+       "Wechsel",
+       "g1"
+      ],
+      [
+       "ein Bescheid",
+       "gr1"
+      ],
+      [
+       "Steuersatz",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Dazu: § 50 Abs. 2 S. 2 Nr. 3 EStG",
+      "Abzugsteuern werden hier angerechnet"
+     ]
+    }
    ],
    "caption": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei. Das Prüfschema für Klausur 2.\n\n1. Phasen bestimmen: unbeschränkt mit Wohnsitz oder gewöhnlichem Aufenthalt, danach beschränkt mit inländischen Einkünften (§ 1 Abs. 1, 4 EStG).\n2. Inländische Einkünfte in der beschränkten Phase prüfen, z. B. Vermietung einer inländischen Wohnung (§ 49 Abs. 1 Nr. 6 EStG).\n3. Diese Einkünfte werden in eine Veranlagung zur unbeschränkten Steuerpflicht einbezogen (§ 2 Abs. 7 S. 3 EStG).\n4. Ausländische Einkünfte, die im Jahr nicht der deutschen Einkommensteuer unterlegen haben, erhöhen nur den Steuersatz (§ 32b Abs. 1 S. 1 Nr. 2 EStG).\n5. Steuerabzug wirkt in diesen Fällen nicht abgeltend (§ 50 Abs. 2 S. 2 Nr. 3 EStG); die Abzugsteuer wird angerechnet (§ 36 Abs. 2 Nr. 2 EStG).\n\nBeispiel: Lohn München 40.000 € + Miete 12.000 € = 52.000 € Einkünfte; 30.000 € Gehalt Wien nur im Progressionsvorbehalt.\n\nZum Schluss: § 2 Abs. 7 und § 32b Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
-   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#internationalessteuerrecht"],
-   "quellen": ["§ 1 Abs. 1, 4 EStG", "§ 2 Abs. 7 EStG", "§ 32b Abs. 1 S. 1 Nr. 2 EStG", "§ 36 Abs. 2 Nr. 2 EStG", "§ 49 Abs. 1 Nr. 6 EStG", "§ 50 Abs. 2 S. 2 Nr. 3 EStG"]
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1, 4 EStG",
+    "§ 2 Abs. 7 EStG",
+    "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 36 Abs. 2 Nr. 2 EStG",
+    "§ 49 Abs. 1 Nr. 6 EStG",
+    "§ 50 Abs. 2 S. 2 Nr. 3 EStG"
+   ]
   },
   {
-   "slot": "b3", "zeit": "19:00", "format": "reel", "reelTyp": "rechnung", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften",
-   "themaId": "persg-karte-k3-26", "themaTitel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-26",
+   "themaTitel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
    "figuren": {
-    "A": {"name": "Tom", "kopf": "Flat Top", "haut": "#5C3A23", "haar": "#111111", "oberteil": "#F7C948", "bueste": "Hoodie"}
+    "A": {
+     "name": "Tom",
+     "kopf": "Flat Top",
+     "haut": "#5C3A23",
+     "haar": "#111111",
+     "oberteil": "#F7C948",
+     "bueste": "Hoodie"
+    }
    },
    "sprecher": [
-    {"id": "hook", "text": "Du verkaufst deinen Kommanditanteil. Wie hoch ist der Gewinn? Nur mit der Gesamthand gerechnet: zu hoch. Mit allen drei Bilanzen: richtig."},
-    {"id": "s1", "text": "Das Kapital hat drei Teile: Gesamthandsbilanz hundertzwanzigtausend, Ergänzungsbilanz dreißigtausend, Sonderbilanz zwanzigtausend. Zusammen hundertsiebzigtausend."},
-    {"id": "s2", "text": "Kaufpreis zweihundertfünfzigtausend, minus fünftausend Kosten, minus hundertsiebzigtausend Kapital. Gewinn: fünfundsiebzigtausend Euro."},
-    {"id": "cta", "text": "Merke: Preis minus Kosten minus alle drei Kapitalkonten."}
+    {
+     "id": "hook",
+     "text": "Du verkaufst deinen Kommanditanteil. Wie hoch ist der Gewinn? Nur mit der Gesamthand gerechnet: zu hoch. Mit allen drei Bilanzen: richtig."
+    },
+    {
+     "id": "s1",
+     "text": "Das Kapital hat drei Teile: Gesamthandsbilanz hundertzwanzigtausend, Ergänzungsbilanz dreißigtausend, Sonderbilanz zwanzigtausend. Zusammen hundertsiebzigtausend."
+    },
+    {
+     "id": "s2",
+     "text": "Kaufpreis zweihundertfünfzigtausend, minus fünftausend Kosten, minus hundertsiebzigtausend Kapital. Gewinn: fünfundsiebzigtausend Euro."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Preis minus Kosten minus alle drei Kapitalkonten."
+    }
    ],
-   "hook": {"zeilen": ["Gewinn beim", "Anteilsverkauf?"], "pille": "§ 16 Abs. 2 EStG", "figur": "A/sorge", "name": "Tom",
-            "icons": [["tabler:file-invoice", "GELB", "Gesamthand"]],
-            "stil": "split",
-            "split": [{"label": "Nur Gesamthand", "wert": "125.000 €", "farbe": "ROT", "wort": "Gesamthand"},
-                      {"label": "Alle drei Bilanzen", "wert": "75.000 €", "farbe": "GRUEN", "wort": "Bilanzen"}],
-            "stempel": {"text": "zu hoch!", "wort": "zu"}},
+   "hook": {
+    "zeilen": [
+     "Gewinn beim",
+     "Anteilsverkauf?"
+    ],
+    "pille": "§ 16 Abs. 2 EStG",
+    "figur": "A/sorge",
+    "name": "Tom",
+    "icons": [
+     [
+      "tabler:file-invoice",
+      "GELB",
+      "Gesamthand"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Nur Gesamthand",
+      "wert": "125.000 €",
+      "farbe": "ROT",
+      "wort": "Gesamthand"
+     },
+     {
+      "label": "Alle drei Bilanzen",
+      "wert": "75.000 €",
+      "farbe": "GRUEN",
+      "wort": "Bilanzen"
+     }
+    ]
+   },
    "szenen": [
-    {"seg": "s1", "titel": "Drei Kapitalkonten",
+    {
+     "seg": "s1",
+     "titel": "Drei Kapitalkonten",
      "elemente": [
-      {"typ": "pille", "text": "Gesamthand 120.000 €", "wort": "Gesamthandsbilanz", "farbe": "WEISS"},
-      {"typ": "pille", "text": "Ergänzung 30.000 €", "wort": "Ergänzungsbilanz", "farbe": "WEISS"},
-      {"typ": "pille", "text": "Sonder 20.000 €", "wort": "Sonderbilanz", "farbe": "WEISS"},
-      {"typ": "block", "label": "Kapitalkonto", "wert": "170.000 €", "farbe": "GELB", "wort": "Zusammen"}
+      {
+       "typ": "pille",
+       "text": "Gesamthand 120.000 €",
+       "wort": "Gesamthandsbilanz",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Ergänzung 30.000 €",
+       "wort": "Ergänzungsbilanz",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Sonder 20.000 €",
+       "wort": "Sonderbilanz",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Kapitalkonto",
+       "wert": "170.000 €",
+       "farbe": "GELB",
+       "wort": "Zusammen"
+      }
      ],
-     "icon": ["tabler:stack-2", "GELB", "drei"]},
-    {"seg": "s2", "titel": "Die Rechnung",
+     "icon": [
+      "tabler:stack-2",
+      "GELB",
+      "drei"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Rechnung",
      "elemente": [
-      {"typ": "block", "label": "Kaufpreis", "wert": "250.000 €", "farbe": "WEISS", "wort": "Kaufpreis", "zs": 100, "h": 220},
-      {"typ": "pille", "text": "− 5.000 € Kosten", "wort": "Kosten", "farbe": "WEISS"},
-      {"typ": "pille", "text": "− 170.000 € Kapital", "wort": "Kapital", "farbe": "WEISS"},
-      {"typ": "block", "label": "Veräußerungsgewinn", "wert": "75.000 €", "farbe": "GRUEN", "wort": "Gewinn", "neu": true},
-      {"typ": "norm", "text": "§ 16 Abs. 2 S. 1 EStG", "wort": "Euro"}
+      {
+       "typ": "block",
+       "label": "Kaufpreis",
+       "wert": "250.000 €",
+       "farbe": "WEISS",
+       "wort": "Kaufpreis",
+       "zs": 100,
+       "h": 220
+      },
+      {
+       "typ": "pille",
+       "text": "− 5.000 € Kosten",
+       "wort": "Kosten",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "− 170.000 € Kapital",
+       "wort": "Kapital",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Veräußerungsgewinn",
+       "wert": "75.000 €",
+       "farbe": "GRUEN",
+       "wort": "Gewinn",
+       "neu": true
+      },
+      {
+       "typ": "norm",
+       "text": "§ 16 Abs. 2 S. 1 EStG",
+       "wort": "Euro"
+      }
      ],
-     "icon": ["tabler:calculator", "GELB", "Kaufpreis"], "sfx": [["rechner", "Gewinn", 0.8]]}
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Kaufpreis"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Gewinn",
+       0.8
+      ]
+     ],
+     "figur": {
+      "ref": "A:froh",
+      "wort": "Gewinn",
+      "hoehe": 440
+     }
+    }
    ],
-   "merke": {"seg": "cta", "zeilen": ["Preis", "minus Kosten", "minus alle drei", "Kapitalkonten"], "woerter": [null, "Kosten", "alle", "Kapitalkonten"],
-             "cta": "Speichern für Klausur 3", "cta_wort": "Kapitalkonten", "hinweis": "Alle Fundstellen in der Beschreibung"},
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Preis",
+     "minus Kosten",
+     "minus alle drei",
+     "Kapitalkonten"
+    ],
+    "woerter": [
+     null,
+     "Kosten",
+     "alle",
+     "Kapitalkonten"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Kapitalkonten",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
    "caption": "Mitunternehmeranteil verkauft: So rechnest du den Veräußerungsgewinn. 🧮\n\n▸ Veräußerungsgewinn ist der Betrag, um den der Veräußerungspreis nach Abzug der Veräußerungskosten den Wert des Anteils am Betriebsvermögen übersteigt (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Der Wert des Anteils wird zum Veräußerungszeitpunkt nach § 4 Abs. 1 oder § 5 EStG ermittelt (§ 16 Abs. 2 S. 2 EStG) und umfasst das Kapital aus Gesamthandsbilanz, Ergänzungsbilanz und Sonderbilanz des Gesellschafters.\n▸ Beispiel: 250.000 € Preis − 5.000 € Kosten − 170.000 € Kapital (120.000 € + 30.000 € + 20.000 €) = 75.000 € Gewinn.\n▸ Bei einer natürlichen Person als unmittelbar beteiligtem Mitunternehmer gehört der Gewinn nicht zum Gewerbeertrag (§ 7 S. 2 Nr. 2 GewStG).\n\nSpeichern für Klausur 3 📌",
-   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#personengesellschaften"],
-   "quellen": ["§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG", "§ 7 S. 2 Nr. 2 GewStG"]
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG",
+    "§ 7 S. 2 Nr. 2 GewStG"
+   ]
   }
  ],
  "stories": [
-  {"slot": "s4", "zeit": "07:07", "art": "frage", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften", "themaId": "persg-quiz-k3-32",
-   "frage": ["Aufnahme in die KG:", "Wozu Ergänzungsbilanzen?"],
-   "optionen": ["Altgesellschafter bleiben beim Buchwert", "Das HGB schreibt sie vor", "Wegen der Gewerbesteuer"],
-   "figuren": {"Q": {"kopf": "Bantu Knots", "haut": "#8A5533", "oberteil": "#F28C8C", "bueste": "Tee 2"}}, "figur": "Q:denkt"},
-  {"slot": "s5", "zeit": "07:09", "art": "antwort", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften", "themaId": "persg-quiz-k3-32",
-   "titel": ["A: Buchwert", "bleibt möglich"],
-   "optionen": ["Altgesellschafter bleiben beim Buchwert", "Das HGB schreibt sie vor", "Wegen der Gewerbesteuer"], "richtig": 0,
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-32",
+   "frage": [
+    "Aufnahme in die KG:",
+    "Wozu Ergänzungsbilanzen?"
+   ],
+   "optionen": [
+    "Altgesellschafter bleiben beim Buchwert",
+    "Das HGB schreibt sie vor",
+    "Wegen der Gewerbesteuer"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bantu Knots",
+     "haut": "#8A5533",
+     "oberteil": "#F28C8C",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-32",
+   "titel": [
+    "A: Buchwert",
+    "bleibt möglich"
+   ],
+   "optionen": [
+    "Altgesellschafter bleiben beim Buchwert",
+    "Das HGB schreibt sie vor",
+    "Wegen der Gewerbesteuer"
+   ],
+   "richtig": 0,
    "text": "Ergänzungsbilanzen verhindern, dass die Alten stille Reserven versteuern; der Neue erfasst seinen Mehrpreis.",
    "norm": "§ 24 Abs. 2 UmwStG",
-   "figuren": {"Q": {"kopf": "Bantu Knots", "haut": "#8A5533", "oberteil": "#F28C8C", "bueste": "Tee 2"}}, "figur": "Q:froh"},
-  {"slot": "s1", "zeit": "08:30", "art": "teaser", "beitragSlot": "b1", "titel": ["Nachschieben nach Fristende?"], "unter": "Prüfungsfrage + Markier-Guide · im Profil"},
-  {"slot": "s6", "zeit": "12:14", "art": "norm", "klausur": 1, "fach": "erbst", "fachLabel": "Erbschaftsteuer", "themaId": "erbst-aufb-erbst-t1-4",
-   "titel": ["Wann ist es", "eine Schenkung?"], "norm": "§ 7 Abs. 1 Nr. 1 ErbStG",
-   "punkte": [["Empfänger objektiv bereichert, auf Kosten des Gebers.", "ok", null],
-              ["Geber will unentgeltlich leisten. Einigung wie im BGB? Nicht nötig.", "warn", "R E 7.1 Abs. 1 ErbStR"]],
-   "figuren": {"N": {"kopf": "Gray Short", "haut": "#EBC4A4", "oberteil": "#C96B5A", "bart": "Moustache 3", "bueste": "Shirt and Coat"}}, "figur": "N:erklaert"},
-  {"slot": "s2", "zeit": "13:30", "art": "teaser", "beitragSlot": "b2", "titel": ["Wegzug im laufenden Jahr"], "unter": "Prüfschema + Markier-Guide · im Profil"},
-  {"slot": "s7", "zeit": "14:40", "art": "tipp", "klausur": 0, "fachLabel": "Zweiter Anlauf", "ueberzeile": "Lernstrategie",
-   "titel": ["Zweiter Anlauf:", "jetzt notieren"],
-   "punkte": [["Wo hast du Zeit verloren? Aufschreiben, solange es frisch ist.", "ok", null],
-              ["Welche Themen saßen nicht sicher?", "ok", null],
-              ["Daraus wird später dein Plan.", "ok", null]],
-   "icon": "tabler:notes", "iconFarbe": "GELB",
-   "figuren": {"Z": {"kopf": "Medium Bangs", "haut": "#F0CDB0", "haar": "#A0522D", "oberteil": "#F6D365"}}, "figur": "Z/ruhig"},
-  {"slot": "s8", "zeit": "17:04", "art": "tipp", "klausur": 2, "fach": "kst", "fachLabel": "Körperschaftsteuer", "themaId": "kst-karte-kst-3",
-   "titel": ["Nutzungsvorteil:", "keine Einlage"],
-   "punkte": [["Zinsloses Darlehen oder mietfreie Räume an die GmbH: keine verdeckte Einlage.", "nein", "H 8.9 KStH"],
-              ["Grund: Nutzungen sind nicht bilanzierbar.", "ok", "BFH, GrS 2/86"]],
-   "icon": "tabler:key", "iconFarbe": "GELB",
-   "figuren": {"T": {"kopf": "Dreads 1", "haut": "#6E4429", "oberteil": "#7FB3D5"}}, "figur": "T/erklaert"},
-  {"slot": "s3", "zeit": "19:00", "art": "teaser", "beitragSlot": "b3", "titel": ["Gewinn beim Anteilsverkauf?"], "unter": "Neues Reel · im Profil"},
-  {"slot": "s9", "zeit": "19:12", "art": "merksatz", "klausur": 3, "fach": "umwst", "fachLabel": "Umwandlungssteuerrecht", "themaId": "umwst-aufb-umw-2-13",
-   "titel": ["Einbringung ohne", "neue Anteile?"],
-   "zeilen": [[["Ohne ", null], ["neue Anteile", "a"]], [["kein ", null], ["§ 20 UmwStG", "b"], [".", null]]],
+   "figuren": {
+    "Q": {
+     "kopf": "Bantu Knots",
+     "haut": "#8A5533",
+     "oberteil": "#F28C8C",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Nachschieben nach Fristende?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-t1-4",
+   "titel": [
+    "Wann ist es",
+    "eine Schenkung?"
+   ],
+   "norm": "§ 7 Abs. 1 Nr. 1 ErbStG",
+   "punkte": [
+    [
+     "Empfänger objektiv bereichert, auf Kosten des Gebers.",
+     "ok",
+     null
+    ],
+    [
+     "Geber will unentgeltlich leisten. Einigung wie im BGB? Nicht nötig.",
+     "warn",
+     "R E 7.1 Abs. 1 ErbStR"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Short",
+     "haut": "#EBC4A4",
+     "oberteil": "#C96B5A",
+     "bart": "Moustache 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Wegzug im laufenden Jahr"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "jetzt notieren"
+   ],
+   "punkte": [
+    [
+     "Wo hast du Zeit verloren? Aufschreiben, solange es frisch ist.",
+     "ok",
+     null
+    ],
+    [
+     "Welche Themen saßen nicht sicher?",
+     "ok",
+     null
+    ],
+    [
+     "Daraus wird später dein Plan.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:notes",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Medium Bangs",
+     "haut": "#F0CDB0",
+     "haar": "#A0522D",
+     "oberteil": "#F6D365"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-3",
+   "titel": [
+    "Nutzungsvorteil:",
+    "keine Einlage"
+   ],
+   "punkte": [
+    [
+     "Zinsloses Darlehen oder mietfreie Räume an die GmbH: keine verdeckte Einlage.",
+     "nein",
+     "H 8.9 KStH"
+    ],
+    [
+     "Grund: Nutzungen sind nicht bilanzierbar.",
+     "ok",
+     "BFH, GrS 2/86"
+    ]
+   ],
+   "icon": "tabler:key",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Dreads 1",
+     "haut": "#6E4429",
+     "oberteil": "#7FB3D5"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Gewinn beim Anteilsverkauf?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-13",
+   "titel": [
+    "Einbringung ohne",
+    "neue Anteile?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Ohne ",
+      null
+     ],
+     [
+      "neue Anteile",
+      "a"
+     ]
+    ],
+    [
+     [
+      "kein ",
+      null
+     ],
+     [
+      "§ 20 UmwStG",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
    "norm": "§ 20 Abs. 1 UmwStG",
-   "figuren": {"M": {"kopf": "Bun 2", "haut": "#E2B48F", "haar": "#2F2F2F", "oberteil": "#F4A3B5", "brille": "Glasses 5", "bueste": "Turtleneck"}}, "figur": "M:ernst"}
+   "figuren": {
+    "M": {
+     "kopf": "Bun 2",
+     "haut": "#E2B48F",
+     "haar": "#2F2F2F",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 5",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "M:ernst"
+  }
  ]
 }

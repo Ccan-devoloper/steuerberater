@@ -1,0 +1,1197 @@
+{
+ "datum": "2026-11-25",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-6-01",
+   "themaTitel": "Beteiligung an KG oder GmbH: Wie wird sie bilanziert?",
+   "figuren": {
+    "A": {
+     "name": "Ronja",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F2CDB0",
+     "haar": "#A0522D",
+     "oberteil": "#F4A3B5",
+     "bueste": "Paper"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Dividende",
+      "schon 2026?"
+     ],
+     "norm": "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+     "unter": "KG/GmbH",
+     "teaser": "+ Markier-Guide § 3 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Bilanz 31.12.",
+        "Bold",
+        44
+       ],
+       [
+        "20.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Forderung?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ronja hält im Einzelunternehmen einen Anteil an der Feld KG und Anteile der Saat GmbH.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2026 entfallen auf sie je 20.000 € Gewinn. Die GmbH beschließt erst im Mai 2027.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was gehört ins Jahr 2026?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Ronja."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Falle",
+     "punkte": [
+      [
+       "Beide 20.000 € zum 31.12.2026 als Forderung buchen.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "GmbH: Ein Anspruch entsteht erst mit dem Beschluss über die Gewinnverwendung.",
+       "warn",
+       "Bold",
+       "BFH vom 07.08.2000, GrS 2/99"
+      ],
+      [
+       "KG: Der Anteil am Gewinn 2026 wird für 2026 festgestellt und versteuert.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Nicht beide?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "KG oder GmbH?",
+     "links": {
+      "kopf": "KG-Anteil",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Kein eigenes Wirtschaftsgut, folgt dem Kapitalkonto",
+        null
+       ],
+       [
+        "Gewinn einheitlich festgestellt",
+        "§ 180 Abs. 1 AO"
+       ],
+       [
+        "Keine Teilwertabschreibung",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "GmbH-Anteil",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Wirtschaftsgut mit Anschaffungskosten",
+        "§ 6 Abs. 1 Nr. 2 EStG"
+       ],
+       [
+        "Ertrag erst ab Beschluss",
+        null
+       ],
+       [
+        "40 % steuerfrei",
+        "§ 3 Nr. 40 EStG"
+       ]
+      ]
+     },
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Zwei Welten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Mai 2027: Die Saat GmbH schüttet Ronja 20.000 € aus.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Für den Kauf der Anteile zahlt sie 1.000 € Zinsen im Jahr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie wirkt das 2027 auf ihren Gewinn?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Teileinkünfte?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung 2027",
+     "normen": [
+      "§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG",
+      "§ 3c Abs. 2 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Ausschüttung",
+       "20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– 40 % steuerfrei",
+       "– 8.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Zinsen zu 60 %",
+       "– 600 €",
+       "Regular",
+       null
+      ],
+      [
+       "Steuerpflichtig",
+       "11.400 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Kapitalertragsteuer: als Entnahme buchen",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "2026: nur der KG-Anteil",
+      "2027: GmbH-Ausschüttung, davon 60 % steuerpflichtig",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "KG",
+        "a"
+       ],
+       [
+        " folgt dem Kapital,",
+        null
+       ]
+      ],
+      [
+       [
+        "GmbH",
+        "b"
+       ],
+       [
+        " ab Beschluss,",
+        null
+       ]
+      ],
+      [
+       [
+        "60 %",
+        "c"
+       ],
+       [
+        " steuerpflichtig.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wärst du in die Falle getappt?",
+     "teaser": "Weiterwischen: § 3 Nr. 40 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 3, 3c EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 3 Nr. 40",
+       [
+        [
+         "Steuerfrei sind […]",
+         null
+        ],
+        [
+         "40 Prozent",
+         "g1"
+        ],
+        [
+         "[…] d) der Bezüge im Sinne des § 20 Absatz 1 Nummer 1 […]",
+         null
+        ],
+        [
+         "Dies gilt für Satz 1 Buchstabe d bis h nur in Verbindung mit § 20 Absatz 8.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "§ 3c (2)",
+       [
+        [
+         "Betriebsvermögensminderungen, Betriebsausgaben […], die mit den dem § 3 Nummer 40 zugrunde liegenden Betriebsvermögensmehrungen oder Einnahmen […] in wirtschaftlichem Zusammenhang stehen, dürfen […]",
+         null
+        ],
+        [
+         "nur zu 60 Prozent abgezogen werden",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Teileinkünfte",
+       "g1"
+      ],
+      [
+       "nur im Betrieb",
+       "b1"
+      ],
+      [
+       "Kosten 60 %",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "GmbH-Ertrag erst mit Beschluss",
+      "BFH GrS 2/99: keine phasengleiche Aktivierung"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle Beteiligungen: Gehört die Dividende schon ins alte Jahr? KG-Anteil und GmbH-Anteil werden steuerlich grundverschieden behandelt.\n\n▸ KG-Anteil: steuerlich kein eigenes Wirtschaftsgut, er folgt dem Kapitalkonto in der KG; keine Teilwertabschreibung. Der Gewinnanteil gehört zu den gewerblichen Einkünften des Jahres, für das er festgestellt wird (§ 15 Abs. 1 S. 1 Nr. 2 EStG; § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n▸ GmbH-Anteil: Wirtschaftsgut mit Anschaffungskosten (§ 6 Abs. 1 Nr. 2 EStG). Den Dividendenanspruch darf die Steuerbilanz erst ab dem Gewinnverwendungsbeschluss aktivieren, nicht schon zum Stichtag des Geschäftsjahres (BFH vom 07.08.2000, GrS 2/99).\n▸ Im Einzelunternehmen sind Ausschüttungen zu 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG), zugehörige Aufwendungen nur zu 60 % abziehbar (§ 3c Abs. 2 S. 1 EStG). Die einbehaltene Kapitalertragsteuer wird als Entnahme gebucht.\n\nBeispiel 2027: 20.000 € Ausschüttung – 8.000 € steuerfrei – 600 € Zinsen (60 % von 1.000 €) = 11.400 €.\n\nZum Schluss: §§ 3 Nr. 40, 3c Abs. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 6 Abs. 1 Nr. 2 EStG",
+    "BFH vom 07.08.2000, GrS 2/99",
+    "§ 3 Nr. 40 S. 1 Buchst. d, S. 2 EStG",
+    "§ 3c Abs. 2 S. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-208",
+   "themaTitel": "Differenzbesteuerung nach § 25a: Voraussetzungen, Marge und EU-Besonderheiten",
+   "figuren": {
+    "A": {
+     "name": "Emeka",
+     "kopf": "Flat Top",
+     "haut": "#5C3A24",
+     "haar": "#111111",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 1",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Differenz-",
+      "besteuerung"
+     ],
+     "norm": "§ 25a UStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 25a UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Marge",
+        "Bold",
+        44
+       ],
+       [
+        "2.380 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "brutto",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "§ 25a in 5 Schritten",
+     "schritte": [
+      [
+       "Wiederverkäufer",
+       "§ 25a Abs. 1 Nr. 1 UStG",
+       ""
+      ],
+      [
+       "Einkauf ohne geschuldete Steuer",
+       "§ 25a Abs. 1 Nr. 2 UStG",
+       ""
+      ],
+      [
+       "Kein Edelstein, kein Edelmetall",
+       "§ 25a Abs. 1 Nr. 3 UStG",
+       ""
+      ],
+      [
+       "Marge = Verkauf – Einkauf",
+       "§ 25a Abs. 3 UStG",
+       ""
+      ],
+      [
+       "19 %, kein Steuerausweis",
+       "§ 25a Abs. 5 S. 1 UStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 25a UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Wer darf das?",
+     "punkte": [
+      [
+       "Händler, die gewerbsmäßig mit beweglichen Sachen handeln, oder Versteigerer im eigenen Namen.",
+       "ok",
+       "Regular",
+       "§ 25a Abs. 1 Nr. 1 S. 2 UStG"
+      ],
+      [
+       "Nur bewegliche körperliche Gegenstände, etwa Autos, Möbel, Bücher.",
+       "ok",
+       "Regular",
+       "§ 25a Abs. 1 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Emeka, Autohändler."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Woher kommt die Ware?",
+     "punkte": [
+      [
+       "Geliefert im Gemeinschaftsgebiet.",
+       "ok",
+       "Regular",
+       "§ 25a Abs. 1 Nr. 2 S. 1 UStG"
+      ],
+      [
+       "Der Verkäufer schuldete keine Umsatzsteuer, etwa als Privatperson.",
+       "ok",
+       "Regular",
+       "§ 25a Abs. 1 Nr. 2 S. 2 Buchst. a UStG"
+      ],
+      [
+       "Gekauft mit Vorsteuer vom Unternehmer: kein § 25a.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Von wem gekauft?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Marge berechnen",
+     "punkte": [
+      [
+       "Bemessungsgrundlage: Verkaufspreis minus Einkaufspreis.",
+       "ok",
+       "Regular",
+       "§ 25a Abs. 3 S. 1 UStG"
+      ],
+      [
+       "Die Umsatzsteuer steckt in der Marge und wird herausgerechnet.",
+       "warn",
+       "Bold",
+       "§ 25a Abs. 3 S. 3 UStG"
+      ],
+      [
+       "Immer der allgemeine Steuersatz.",
+       "ok",
+       "Regular",
+       "§ 25a Abs. 5 S. 1 UStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Nur die Marge!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Emeka kauft ein Auto von einer Privatperson für 8.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Er verkauft es für 10.380 € an eine Kundin.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel Umsatzsteuer schuldet er?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 25a Abs. 3, 5 UStG"
+     ],
+     "zeilen": [
+      [
+       "Verkaufspreis",
+       "10.380 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Einkaufspreis",
+       "– 8.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Marge brutto",
+       "2.380 €",
+       "Regular",
+       null
+      ],
+      [
+       "Umsatzsteuer 19/119",
+       "380 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Bemessungsgrundlage: 2.000 €",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Rechnung ohne Steuer",
+     "punkte": [
+      [
+       "Keine Umsatzsteuer gesondert ausweisen.",
+       "nein",
+       "Regular",
+       "§ 14a Abs. 6 S. 2 UStG"
+      ],
+      [
+       "Pflichtangabe: „Gebrauchtgegenstände/Sonderregelung“.",
+       "ok",
+       "Regular",
+       "§ 14a Abs. 6 S. 1 UStG"
+      ],
+      [
+       "Weist er doch Steuer aus, schuldet er sie zusätzlich.",
+       "warn",
+       "Bold",
+       "Abschn. 25a.1 Abs. 16 UStAE"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Teurer Fehler!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Emeka schuldet 380 €",
+      "Marge 2.380 € brutto, Steuer herausgerechnet",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Händler",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Einkauf",
+        "b"
+       ],
+       [
+        " ohne Steuer,",
+        null
+       ]
+      ],
+      [
+       [
+        "Marge",
+        "c"
+       ],
+       [
+        " brutto,",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuer",
+        "d"
+       ],
+       [
+        " herausrechnen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Welcher Schritt fehlt dir oft?",
+     "teaser": "Weiterwischen: § 25a UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 25a UStG Differenzbesteuerung (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "[…] wenn folgende Voraussetzungen erfüllt sind: 1.",
+         null
+        ],
+        [
+         "Der Unternehmer ist ein Wiederverkäufer.",
+         "g1"
+        ],
+        [
+         "[…] 2. Die Gegenstände wurden an den Wiederverkäufer im Gemeinschaftsgebiet geliefert. Für diese Lieferung wurde a)",
+         null
+        ],
+        [
+         "Umsatzsteuer nicht geschuldet",
+         "b1"
+        ],
+        [
+         "oder b) die Differenzbesteuerung vorgenommen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(3)",
+       [
+        [
+         "Der Umsatz wird nach dem Betrag bemessen,",
+         null
+        ],
+        [
+         "um den der Verkaufspreis den Einkaufspreis für den Gegenstand übersteigt;",
+         "r1"
+        ],
+        [
+         "[…] Die Umsatzsteuer gehört nicht zur Bemessungsgrundlage.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Wer?",
+       "g1"
+      ],
+      [
+       "Einkauf",
+       "b1"
+      ],
+      [
+       "Marge",
+       "r1"
+      ],
+      [
+       "herausrechnen",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 14a Abs. 6 UStG",
+      "kein gesonderter Steuerausweis in der Rechnung"
+     ]
+    }
+   ],
+   "caption": "Differenzbesteuerung nach § 25a UStG: das Prüfschema für die Umsatzsteuer-Klausur.\n\n1. Wiederverkäufer: gewerbsmäßiger Handel mit beweglichen körperlichen Gegenständen oder Versteigerung im eigenen Namen (§ 25a Abs. 1 Nr. 1 UStG).\n2. Lieferung an den Wiederverkäufer im Gemeinschaftsgebiet, für die keine Umsatzsteuer geschuldet oder bereits differenzbesteuert wurde, etwa Kauf von Privatpersonen (§ 25a Abs. 1 Nr. 2 UStG).\n3. Keine Edelsteine oder Edelmetalle (§ 25a Abs. 1 Nr. 3 UStG).\n4. Bemessungsgrundlage ist die Marge zwischen Verkaufs- und Einkaufspreis; die Umsatzsteuer gehört nicht dazu (§ 25a Abs. 3 S. 1, 3 UStG).\n5. Allgemeiner Steuersatz (§ 25a Abs. 5 S. 1 UStG). In der Rechnung kein gesonderter Steuerausweis, dafür die Angabe „Gebrauchtgegenstände/Sonderregelung“ (§ 14a Abs. 6 UStG). Wer trotzdem Steuer ausweist, schuldet sie zusätzlich (Abschn. 25a.1 Abs. 16 UStAE).\n\nBeispiel: Verkauf 10.380 € – Einkauf 8.000 € = 2.380 € Marge brutto; darin 19/119 = 380 € Umsatzsteuer, Bemessungsgrundlage 2.000 €.\n\nZum Schluss: § 25a UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 25a Abs. 1 Nr. 1–3, Abs. 3 S. 1, 3, Abs. 5 S. 1 UStG",
+    "§ 14a Abs. 6 UStG",
+    "Abschn. 25a.1 Abs. 16 UStAE"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-schema-organschaft",
+   "themaTitel": "Wann rechnet der Organträger das Einkommen der Tochter zu?",
+   "figuren": {
+    "A": {
+     "name": "Hanne",
+     "kopf": "Gray Short",
+     "haut": "#EBC3A0",
+     "haar": "#BFBFBF",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 4",
+     "bueste": "Turtleneck"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Abführung als Ertrag lassen und das Einkommen der Tochter dazu? Doppelt gezählt, ein Klassiker."
+    },
+    {
+     "id": "s1",
+     "text": "Bei Hannes Mutter-AG steckt die Abführung von dreihunderttausend Euro im Bilanzgewinn. Die rechnest du außerhalb der Bilanz heraus."
+    },
+    {
+     "id": "s2",
+     "text": "Dafür kommt das Einkommen der Tochter hinzu, hier dreihundertzwanzigtausend, weil dort Ausgaben nicht abziehbar waren."
+    },
+    {
+     "id": "s3",
+     "text": "Und bei der Tochter gilt: kein alter Verlustvortrag, und Paragraf acht b prüft erst die Mutter."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Abführung raus, Einkommen rein."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Organschaft:",
+     "doppelt gezählt?"
+    ],
+    "pille": "§ 14 Abs. 1 S. 1 KStG",
+    "figur": "A/sorge",
+    "name": "Hanne",
+    "icons": [
+     [
+      "tabler:hierarchy",
+      "GELB",
+      "Doppelt"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "doppelt!",
+     "wort": "Doppelt"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Abführung heraus",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Ertrag aus Abführung",
+       "wert": "300.000 €",
+       "farbe": "GELB",
+       "wort": "Abführung",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "außerhalb der Bilanz",
+       "wert": "– 300.000 €",
+       "farbe": "ROT",
+       "wort": "heraus",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "R 14.6 Abs. 1 KStR",
+       "wort": "rechnest"
+      }
+     ],
+     "icon": [
+      "tabler:building-bank",
+      "GELB",
+      "Mutter"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Einkommen hinein",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einkommen der Tochter",
+       "wert": "+ 320.000 €",
+       "farbe": "GRUEN",
+       "wort": "Einkommen",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "inklusive nicht abziehbarer Ausgaben",
+       "wort": "Ausgaben",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 14 Abs. 1 S. 1 KStG",
+       "wort": "Tochter"
+      }
+     ],
+     "icon": [
+      "tabler:arrow-big-down",
+      "GELB",
+      "hinzu"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "dreihundertzwanzigtausend",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Bei der Tochter",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Verlustvortrag",
+       "wert": "gesperrt",
+       "farbe": "ROT",
+       "wort": "Verlustvortrag",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "§ 8b KStG",
+       "wert": "bei der Mutter",
+       "farbe": "GELB",
+       "wort": "Mutter",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 S. 1 Nr. 1, 2 KStG",
+       "wort": "gilt"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "kein",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Organschaft:",
+     "Abführung raus,",
+     "Einkommen rein,",
+     "nichts doppelt."
+    ],
+    "woerter": [
+     null,
+     "Abführung",
+     "Einkommen",
+     "rein"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "rein",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Klausurfalle Organschaft: Abführung als Ertrag stehen lassen und das Organeinkommen zusätzlich zurechnen. Dann ist alles doppelt erfasst. ⚠️\n\n▸ Liegen die Voraussetzungen vor, wird das Einkommen der Organgesellschaft dem Organträger zugerechnet (§ 14 Abs. 1 S. 1 KStG).\n▸ Beim Organträger wird die handelsrechtlich gebuchte Gewinnabführung deshalb außerhalb der Bilanz abgezogen, an ihre Stelle tritt das zuzurechnende Einkommen der Organgesellschaft (R 14.6 Abs. 1 KStR).\n▸ Beispiel: Abführung 300.000 € heraus, Einkommen der Tochter 320.000 € hinein (darin 20.000 € nicht abziehbare Ausgaben).\n▸ Bei der Organgesellschaft ist kein Verlustabzug nach § 10d EStG zulässig (§ 15 S. 1 Nr. 1 KStG); § 8b KStG wird bei ihr nicht angewendet, sondern erst beim Organträger (§ 15 S. 1 Nr. 2 KStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 14 Abs. 1 S. 1 KStG",
+    "R 14.6 Abs. 1 KStR",
+    "§ 15 S. 1 Nr. 1, 2 KStG",
+    "§ 10d EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "frage": [
+    "Leasingraten",
+    "für Maschinen:",
+    "was zählt mit?"
+   ],
+   "optionen": [
+    "ein Fünftel der Raten",
+    "die Hälfte der Raten",
+    "alle Raten voll"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 3",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "titel": [
+    "A: ein Fünftel"
+   ],
+   "optionen": [
+    "ein Fünftel der Raten",
+    "die Hälfte der Raten",
+    "alle Raten voll"
+   ],
+   "richtig": 0,
+   "text": "Die Summe aller Teile minus 200.000 € Freibetrag, davon ein Viertel hinzurechnen.",
+   "norm": "§ 8 Nr. 1 Buchst. d GewStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 3",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Bilanzsteuerrecht",
+   "beitragSlot": "b1",
+   "titel": [
+    "Dividende schon 2026?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-glossar-19",
+   "titel": [
+    "Streubesitz:",
+    "unter 10 %"
+   ],
+   "norm": "§ 8b Abs. 4 KStG",
+   "punkte": [
+    [
+     "Zu Jahresbeginn unter 10 %: Dividende voll steuerpflichtig.",
+     "warn",
+     "§ 8b Abs. 4 S. 1 KStG"
+    ],
+    [
+     "Erwerb von mindestens 10 % gilt als zu Jahresbeginn erfolgt.",
+     "ok",
+     "§ 8b Abs. 4 S. 6 KStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#2B2B2B",
+     "oberteil": "#C9B8F2",
+     "bart": "Moustache 5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Umsatzsteuer",
+   "beitragSlot": "b2",
+   "titel": [
+    "Differenzbesteuerung"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Zeit im Griff:",
+    "Uhrzeiten notieren"
+   ],
+   "punkte": [
+    [
+     "Punkte mal 3,6 ergibt die Minuten je Teil.",
+     "ok",
+     null
+    ],
+    [
+     "Endzeit jedes Teils an den Rand schreiben.",
+     "ok",
+     null
+    ],
+    [
+     "Zeit um? Lücke lassen, weiter.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:clock",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Hijab",
+     "haut": "#C68E6A",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "Z/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-210",
+   "titel": [
+    "Kunde zahlt nicht:",
+    "Steuer zurück?"
+   ],
+   "punkte": [
+    [
+     "Erst bei Uneinbringlichkeit berichtigen, nicht bei Verzug.",
+     "warn",
+     "§ 17 Abs. 2 Nr. 1 S. 1 UStG"
+    ],
+    [
+     "Im Zeitraum der Änderung buchen.",
+     "ok",
+     "§ 17 Abs. 1 S. 8 UStG"
+    ],
+    [
+     "Zahlt er doch, erneut berichtigen.",
+     "ok",
+     "§ 17 Abs. 2 Nr. 1 S. 2 UStG"
+    ]
+   ],
+   "icon": "tabler:receipt",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Short 2",
+     "haut": "#D9A47E",
+     "haar": "#3B2A20",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 2"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Körperschaftsteuer",
+   "beitragSlot": "b3",
+   "titel": [
+    "Organschaft: doppelt gezählt?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t5-43",
+   "titel": [
+    "GmbH still an GmbH:",
+    "Verlust?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Nur mit ",
+      null
+     ],
+     [
+      "Gewinnen",
+      "a"
+     ]
+    ],
+    [
+     [
+      "derselben",
+      null
+     ]
+    ],
+    [
+     [
+      "Beteiligung",
+      "b"
+     ],
+     [
+      " verrechnen.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 15 Abs. 4 S. 6, 7 EStG",
+   "groesse": 72,
+   "figuren": {
+    "M": {
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#7A4B2A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

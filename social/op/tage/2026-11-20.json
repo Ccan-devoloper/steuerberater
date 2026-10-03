@@ -1,0 +1,1186 @@
+{
+ "datum": "2026-11-20",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-7-2",
+   "themaTitel": "Wann darf das Finanzamt nach § 129 AO berichtigen?",
+   "figuren": {
+    "A": {
+     "name": "Ida",
+     "kopf": "Medium Bangs 3",
+     "haut": "#F1C7A5",
+     "haar": "#7A4B2A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Tippfehler im",
+      "Bescheid"
+     ],
+     "norm": "§ 129 AO",
+     "unter": "Der Fall",
+     "teaser": "+ Markier-Guide § 129 AO",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "erklärt 4.850 €",
+        "Bold",
+        42
+       ],
+       [
+        "48.500 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "im Bescheid",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:staunt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ida erklärt Werbungskosten von 4.850 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Im Bescheid stehen 48.500 €, weil die Sachbearbeitung eine Null zu viel eingetippt hat. Der Bescheid wird bestandskräftig.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Darf das Finanzamt noch berichtigen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Ich bin Ida. Pech?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Was § 129 AO erfasst",
+     "punkte": [
+      [
+       "Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten beim Erlass.",
+       "ok",
+       "Regular",
+       "§ 129 S. 1 AO"
+      ],
+      [
+       "Gilt für jeden Verwaltungsakt, auch nach Bestandskraft: „jederzeit“.",
+       "ok",
+       "Regular",
+       "§ 129 S. 1 AO"
+      ],
+      [
+       "Ein Rechts- oder Tatsachenirrtum darf nicht ernsthaft in Betracht kommen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Nur Tippfehler?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Die Null zu viel ist ein mechanisches Versehen, für jeden in der Akte erkennbar.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Das Finanzamt darf auf 4.850 € berichtigen.",
+       "ok",
+       "Bold",
+       "§ 129 S. 1 AO"
+      ],
+      [
+       "Die Festsetzungsfrist endet insoweit nicht vor einem Jahr nach Bekanntgabe.",
+       "warn",
+       "Regular",
+       "§ 171 Abs. 2 S. 1 AO"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Dann eben 4.850 €."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die Sachbearbeitung setzt bewusst nur den Pauschbetrag von 1.230 € an, weil sie die Kosten für privat hält.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Kann Ida nach Bestandskraft über § 129 AO mehr verlangen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Bewusst gekürzt?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung: nein",
+     "punkte": [
+      [
+       "Hier wurde rechtlich gewürdigt, nicht vertippt.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Ein Rechtsirrtum sperrt § 129 AO.",
+       "nein",
+       "Regular",
+       "§ 129 S. 1 AO"
+      ],
+      [
+       "Ida hätte fristgerecht Einspruch einlegen müssen.",
+       "warn",
+       "Regular",
+       "§ 355 Abs. 1 S. 1 AO"
+      ]
+     ],
+     "figur": "A:muede",
+     "x": 790,
+     "blase": "Zu spät."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Fehler aus der Erklärung",
+     "punkte": [
+      [
+       "Übernimmt das Finanzamt einen erkennbaren Tippfehler aus der Erklärung, kann § 129 AO greifen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "War der Fehler nicht erkennbar: Änderung bei Schreib- oder Rechenfehlern des Steuerpflichtigen.",
+       "ok",
+       "Regular",
+       "§ 173a AO"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Zweiter Weg."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Tippfehler = berichtigen, Denkfehler = nicht",
+      "§ 129 AO jederzeit, aber nur mechanische Fehler",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Vertippt",
+        "a"
+       ],
+       [
+        ": § 129 AO,",
+        null
+       ]
+      ],
+      [
+       [
+        "gedacht",
+        "b"
+       ],
+       [
+        ": Einspruch,",
+        null
+       ]
+      ],
+      [
+       [
+        "Erklärung",
+        "c"
+       ],
+       [
+        " falsch:",
+        null
+       ]
+      ],
+      [
+       [
+        "§ 173a AO",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Tippfehler oder Denkfehler?",
+     "teaser": "Weiterwischen: § 129 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 129 AO Offenbare Unrichtigkeiten",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Die Finanzbehörde kann",
+         null
+        ],
+        [
+         "Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten,",
+         "g1"
+        ],
+        [
+         "die",
+         null
+        ],
+        [
+         "beim Erlass eines Verwaltungsakts",
+         "b1"
+        ],
+        [
+         "unterlaufen sind,",
+         null
+        ],
+        [
+         "jederzeit",
+         "r1"
+        ],
+        [
+         "berichtigen.",
+         null
+        ],
+        [
+         "Bei berechtigtem Interesse des Beteiligten ist zu berichtigen.",
+         "gr1"
+        ],
+        [
+         "Wird zu einem schriftlich ergangenen Verwaltungsakt die Berichtigung begehrt, ist die Finanzbehörde berechtigt, die Vorlage des Schriftstücks zu verlangen, das berichtigt werden soll.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur mechanisch",
+       "g1"
+      ],
+      [
+       "Fehler der Behörde",
+       "b1"
+      ],
+      [
+       "Grenze: § 171 Abs. 2",
+       "r1"
+      ],
+      [
+       "Anspruch",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 171 Abs. 2 S. 1 AO",
+      "Frist endet nicht vor einem Jahr nach Bekanntgabe"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall zu § 129 AO: Tippfehler im Bescheid. Darf das Finanzamt nach Bestandskraft noch berichtigen?\n\n▸ Schreibfehler, Rechenfehler und ähnliche offenbare Unrichtigkeiten beim Erlass eines Verwaltungsakts kann die Finanzbehörde jederzeit berichtigen; bei berechtigtem Interesse des Beteiligten muss sie es (§ 129 S. 1, 2 AO).\n▸ Voraussetzung: ein mechanisches Versehen. Kommt ein Rechts- oder Tatsachenirrtum ernsthaft in Betracht, scheidet § 129 AO aus.\n▸ Bei Steuerbescheiden endet die Festsetzungsfrist insoweit nicht vor Ablauf eines Jahres nach Bekanntgabe (§ 171 Abs. 2 S. 1 AO).\n▸ Variante: Bewusste Kürzung auf den Arbeitnehmer-Pauschbetrag von 1.230 € (§ 9a S. 1 Nr. 1 Buchst. a EStG) ist rechtliche Würdigung, keine offenbare Unrichtigkeit. Hilfe nur über den fristgerechten Einspruch (§ 355 Abs. 1 S. 1 AO).\n▸ Schreib- oder Rechenfehler des Steuerpflichtigen in der Erklärung, die das Finanzamt nicht erkennen konnte: § 173a AO.\n\nZum Schluss: § 129 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 129 S. 1, 2 AO",
+    "§ 171 Abs. 2 S. 1 AO",
+    "§ 173a AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 9a S. 1 Nr. 1 Buchst. a EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t3-7",
+   "themaTitel": "Kommt die Ausschüttung aus dem Einlagekonto? Die Rechenlogik",
+   "figuren": {
+    "A": {
+     "name": "Tomasz",
+     "kopf": "Flat Top Long",
+     "haut": "#EBC3A0",
+     "haar": "#5A3A22",
+     "oberteil": "#C9B8F2",
+     "bart": "Goatee 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Aus dem",
+      "Einlagekonto?"
+     ],
+     "norm": "§ 27 Abs. 1 S. 3 KStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 27 KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Mündliche Prüfung",
+        "Bold",
+        42
+       ],
+       [
+        "10 Min.",
+        "ExtraBold",
+        96
+       ],
+       [
+        "in 4 Teilen",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Gliederung",
+     "schritte": [
+      [
+       "Einstieg: Gewinn oder Einlage?",
+       null,
+       "1 Minute"
+      ],
+      [
+       "Das Einlagekonto",
+       "§ 27 Abs. 1 S. 1, Abs. 2 KStG",
+       "2 Minuten"
+      ],
+      [
+       "Die Verwendungsrechnung",
+       "§ 27 Abs. 1 S. 3, 5 KStG",
+       "4 Minuten"
+      ],
+      [
+       "Beispiel und Fazit",
+       null,
+       "2 Minuten"
+      ]
+     ],
+     "teaser": "Am Ende: § 27 KStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Einstieg",
+     "punkte": [
+      [
+       "Die GmbH zahlt an ihre Gesellschafter. Ist das Gewinn oder zurückgezahlte Einlage?",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn: Kapitalertrag beim Gesellschafter.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 1 Nr. 1 S. 1 EStG"
+      ],
+      [
+       "Einlagenrückgewähr: keine Einnahme, sie mindert die Anschaffungskosten.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 1 Nr. 1 S. 3 EStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Das ist die Frage."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Das Konto",
+     "punkte": [
+      [
+       "Einlagen, die nicht ins Nennkapital gehen, landen auf dem steuerlichen Einlagekonto.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 S. 1 KStG"
+      ],
+      [
+       "Fortschreibung mit Zu- und Abgängen, jährlich gesondert festgestellt.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 S. 2, Abs. 2 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Ein Gedächtnis."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Verwendungsrechnung",
+     "punkte": [
+      [
+       "Leistungen mindern das Konto nur, soweit sie den ausschüttbaren Gewinn übersteigen.",
+       "warn",
+       "Bold",
+       "§ 27 Abs. 1 S. 3 KStG"
+      ],
+      [
+       "Ausschüttbarer Gewinn: Eigenkapital laut Steuerbilanz minus gezeichnetes Kapital minus Einlagekonto.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 S. 5 KStG"
+      ],
+      [
+       "Maßgeblich ist der Schluss des Vorjahres.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Vorjahr zählt!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "4 · Beispiel",
+     "normen": [
+      "§ 27 Abs. 1 S. 3, 5 KStG"
+     ],
+     "zeilen": [
+      [
+       "Eigenkapital 31.12.2025",
+       "500.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Stammkapital",
+       "– 100.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Einlagekonto",
+       "– 250.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Ausschüttbarer Gewinn",
+       "150.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Ausschüttung 2026",
+       "200.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Aus dem Einlagekonto",
+       "50.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Zählt eine vGA mit? Ja, alle Leistungen des Jahres zusammen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Und wenn die Zahlung „Rückzahlung Kapitalrücklage“ heißt? Egal, nur die Rechnung zählt.",
+       "warn",
+       "Regular",
+       "§ 27 Abs. 1 S. 3 KStG"
+      ],
+      [
+       "Einlage im selben Jahr? Hilft erst im Folgejahr.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Und wenn …?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Gleiche Zahlen, aber die GmbH schüttet 2026 nur 120.000 € aus.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel stammt aus dem Einlagekonto?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 290,
+     "blase": "Kurz rechnen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Nichts: 120.000 € liegen unter dem ausschüttbaren Gewinn von 150.000 €.",
+       "ok",
+       "Bold",
+       "§ 27 Abs. 1 S. 3 KStG"
+      ],
+      [
+       "Alles ist Gewinnausschüttung mit Kapitalertragsteuer.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Null aus dem Konto."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Ausschüttbarer Gewinn = EK − Nennkapital − Einlagekonto",
+      "Alles aus dem Vorjahr, Mehrbetrag = Einlagenrückgewähr",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Vorjahr",
+        "a"
+       ],
+       [
+        " zählt,",
+        null
+       ]
+      ],
+      [
+       [
+        "erst Gewinn",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "dann",
+        null
+       ],
+       [
+        " Einlagekonto",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Name",
+        "d"
+       ],
+       [
+        " egal.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welche Nachfrage fürchtest du?",
+     "teaser": "Weiterwischen: § 27 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 27 Abs. 1 KStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "[…] Leistungen der Kapitalgesellschaft […] mindern das steuerliche Einlagekonto",
+         null
+        ],
+        [
+         "unabhängig von ihrer handelsrechtlichen Einordnung",
+         "r1"
+        ],
+        [
+         "nur, soweit sie den",
+         null
+        ],
+        [
+         "auf den Schluss des vorangegangenen Wirtschaftsjahrs",
+         "b1"
+        ],
+        [
+         "ermittelten ausschüttbaren Gewinn übersteigen (Einlagenrückgewähr). […] Als ausschüttbarer Gewinn gilt",
+         null
+        ],
+        [
+         "das um das gezeichnete Kapital geminderte in der Steuerbilanz ausgewiesene Eigenkapital abzüglich des Bestands des steuerlichen Einlagekontos.",
+         "g1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Name egal",
+       "r1"
+      ],
+      [
+       "Vorjahr",
+       "b1"
+      ],
+      [
+       "Formel",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Mündliche Prüfung",
+      "Formel aus Satz 5 einmal laut vorrechnen"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Kommt die Ausschüttung aus dem Einlagekonto? Gliederung für 10 Minuten.\n\nEinstieg (1 Min.), Einlagekonto (2 Min.), Verwendungsrechnung (4 Min.), Beispiel und Fazit (2 Min.), eine Minute Puffer.\n\n▸ Gewinnausschüttung ist Kapitalertrag (§ 20 Abs. 1 Nr. 1 S. 1 EStG); Bezüge, für die Beträge aus dem Einlagekonto als verwendet gelten, gehören nicht zu den Einnahmen (§ 20 Abs. 1 Nr. 1 S. 3 EStG).\n▸ Nicht ins Nennkapital geleistete Einlagen werden auf dem steuerlichen Einlagekonto erfasst, fortgeschrieben und gesondert festgestellt (§ 27 Abs. 1 S. 1, 2, Abs. 2 S. 1 KStG).\n▸ Leistungen mindern das Einlagekonto unabhängig von ihrer handelsrechtlichen Einordnung nur, soweit sie den ausschüttbaren Gewinn zum Schluss des Vorjahres übersteigen (§ 27 Abs. 1 S. 3 KStG).\n▸ Ausschüttbarer Gewinn = Eigenkapital laut Steuerbilanz − gezeichnetes Kapital − Einlagekonto (§ 27 Abs. 1 S. 5 KStG).\n\nBeispiel: 500.000 € − 100.000 € − 250.000 € = 150.000 €; Ausschüttung 200.000 €, davon 50.000 € aus dem Einlagekonto. Bei 120.000 € nichts.\n\nZum Schluss: § 27 Abs. 1 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 27 Abs. 1 S. 1–3, 5, Abs. 2 S. 1 KStG",
+    "§ 20 Abs. 1 Nr. 1 S. 1, 3 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-5",
+   "themaTitel": "Forschung oder Entwicklung – was ist aktivierbar?",
+   "figuren": {
+    "A": {
+     "name": "Helin",
+     "kopf": "Medium 1",
+     "haut": "#D9A47E",
+     "haar": "#2A1A14",
+     "oberteil": "#F9D56E",
+     "bueste": "Device"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zweihunderttausend Euro für ein neues Produkt. Alles aktivieren? Nein."
+    },
+    {
+     "id": "s1",
+     "text": "Achtzigtausend davon sind Forschung, also die Suche nach neuem Wissen. Forschung ist immer Aufwand."
+    },
+    {
+     "id": "s2",
+     "text": "Hundertzwanzigtausend sind Entwicklung, also die Anwendung des Wissens. Die darf die Handelsbilanz aktivieren, freiwillig."
+    },
+    {
+     "id": "s3",
+     "text": "Lässt sich beides nicht trennen, wird gar nichts aktiviert. Und die Steuerbilanz aktiviert selbst Geschaffenes nie."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Forschung nie, Entwicklung nur in der Handelsbilanz."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "200.000 €",
+     "alles aktivieren?"
+    ],
+    "pille": "§ 255 Abs. 2a HGB",
+    "figur": "A/sorge",
+    "name": "Helin",
+    "icons": [
+     [
+      "tabler:flask",
+      "GELB",
+      "Nein"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Nein!",
+     "wort": "Nein"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Forschung",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Suche nach neuem Wissen",
+       "wort": "Suche",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Forschung",
+       "wert": "80.000 € Aufwand",
+       "farbe": "ROT",
+       "wort": "Aufwand",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 255 Abs. 2 S. 4 HGB",
+       "wort": "immer"
+      }
+     ],
+     "icon": [
+      "tabler:flask",
+      "GELB",
+      "Forschung"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Entwicklung",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Wissen anwenden",
+       "wort": "Anwendung",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Handelsbilanz",
+       "wert": "120.000 € Wahlrecht",
+       "farbe": "GRUEN",
+       "wort": "Handelsbilanz",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 248 Abs. 2 S. 1 HGB",
+       "wort": "freiwillig"
+      }
+     ],
+     "icon": [
+      "tabler:tools",
+      "GELB",
+      "Entwicklung"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Zwei Sperren",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Nicht trennbar",
+       "unter": "keine Aktivierung",
+       "wort": "trennen",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Steuerbilanz",
+       "wert": "0 €",
+       "farbe": "ROT",
+       "wort": "Steuerbilanz"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 5 Abs. 2 EStG",
+       "wort": "nie"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "nie",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Forschung nie,",
+     "Entwicklung nur",
+     "in der",
+     "Handelsbilanz"
+    ],
+    "woerter": [
+     "Forschung",
+     "Entwicklung",
+     null,
+     "Handelsbilanz"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Handelsbilanz",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Forschung oder Entwicklung: Was darf aktiviert werden? 🧪\n\n▸ Forschung ist die eigenständige und planmäßige Suche nach neuen Erkenntnissen; Forschungskosten dürfen nicht in die Herstellungskosten einbezogen werden (§ 255 Abs. 2 S. 4, Abs. 2a S. 3 HGB).\n▸ Entwicklung ist die Anwendung von Forschungsergebnissen oder anderem Wissen; ihre Aufwendungen sind Herstellungskosten eines selbst geschaffenen immateriellen Vermögensgegenstands (§ 255 Abs. 2a S. 1, 2 HGB).\n▸ Handelsbilanz: Aktivierungswahlrecht für selbst geschaffene immaterielle Vermögensgegenstände des Anlagevermögens (§ 248 Abs. 2 S. 1 HGB), nicht für Marken, Drucktitel, Verlagsrechte, Kundenlisten (§ 248 Abs. 2 S. 2 HGB).\n▸ Lassen sich Forschung und Entwicklung nicht verlässlich unterscheiden, ist eine Aktivierung ausgeschlossen (§ 255 Abs. 2a S. 4 HGB).\n▸ Steuerbilanz: Ansatz nur bei entgeltlichem Erwerb (§ 5 Abs. 2 EStG).\n\nBeispiel: 80.000 € Forschung = Aufwand, 120.000 € Entwicklung = Wahlrecht in der Handelsbilanz, steuerlich 0 €.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 255 Abs. 2 S. 4, Abs. 2a HGB",
+    "§ 248 Abs. 2 HGB",
+    "§ 5 Abs. 2 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-18",
+   "frage": [
+    "Verbindlichkeit:",
+    "steuerlich abzinsen?"
+   ],
+   "optionen": [
+    "Ja, mit 5,5 %",
+    "Nur bei Laufzeit ab zwölf Monaten",
+    "Nein, nicht mehr"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Buns",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:fragt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-18",
+   "titel": [
+    "C: nicht mehr"
+   ],
+   "optionen": [
+    "Ja, mit 5,5 %",
+    "Nur bei Laufzeit ab zwölf Monaten",
+    "Nein, nicht mehr"
+   ],
+   "richtig": 2,
+   "text": "Für Wirtschaftsjahre, die nach dem 31.12.2022 enden, entfällt die Abzinsung.",
+   "norm": "§ 52 Abs. 12 S. 2 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Buns",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Tippfehler im Bescheid"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-346",
+   "titel": [
+    "Vorbehalt der",
+    "Nachprüfung"
+   ],
+   "norm": "§ 164 AO",
+   "punkte": [
+    [
+     "Ohne Begründung, solange nicht abschließend geprüft.",
+     "ok",
+     "§ 164 Abs. 1 S. 1 AO"
+    ],
+    [
+     "Solange er wirkt: jederzeit änderbar, nach oben und unten.",
+     "ok",
+     "§ 164 Abs. 2 S. 1 AO"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 2",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#9AD48F",
+     "bueste": "jacket"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Einlagekonto: 10 Minuten"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Bearbeitungshinweis",
+    "zuerst lesen"
+   ],
+   "punkte": [
+    [
+     "Er sagt, was gefragt ist und was nicht.",
+     "ok",
+     null
+    ],
+    [
+     "Ausgeschlossenes nicht prüfen.",
+     "warn",
+     null
+    ],
+    [
+     "Gefragte Steuerarten abhaken.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:clipboard-list",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t4-15",
+   "titel": [
+    "vGA durch",
+    "Gegengeschäft weg?"
+   ],
+   "punkte": [
+    [
+     "Nur wenn vorab vereinbart und rechtlich verknüpft.",
+     "warn",
+     null
+    ],
+    [
+     "Gleichwertig muss es sein, der Rest bleibt vGA.",
+     "ok",
+     "H 8.5 KStH"
+    ]
+   ],
+   "icon": "tabler:arrows-exchange",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Forschung aktivieren?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-6",
+   "titel": [
+    "Passive latente",
+    "Steuern?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Aktivposten",
+      "a"
+     ],
+     [
+      " in HB höher",
+      null
+     ]
+    ],
+    [
+     [
+      "oder",
+      null
+     ],
+     [
+      " Passivposten",
+      "b"
+     ],
+     [
+      " tiefer:",
+      null
+     ]
+    ],
+    [
+     [
+      "passive Latenz",
+      "c"
+     ]
+    ],
+    [
+     [
+      "ansetzen: ",
+      null
+     ],
+     [
+      "Pflicht",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 274 Abs. 1 S. 1 HGB",
+   "figuren": {
+    "M": {
+     "kopf": "Dreads 2",
+     "haut": "#5E3B26",
+     "haar": "#1E1E24",
+     "oberteil": "#F2B880",
+     "bueste": "Pointing Up"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

@@ -1,0 +1,1224 @@
+{
+ "datum": "2026-11-06",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-5-01",
+   "themaTitel": "Drittstaatenverluste: Warum § 2a EStG den Ausgleich sperrt",
+   "figuren": {
+    "A": {
+     "name": "Yara",
+     "kopf": "Bangs 2",
+     "haut": "#C68E62",
+     "haar": "#2B1B12",
+     "oberteil": "#8DB3F2",
+     "bueste": "Coffee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Mietverlust",
+      "aus Brasilien"
+     ],
+     "norm": "§ 2a Abs. 1 EStG",
+     "unter": "mit Lösung",
+     "teaser": "+ Markier-Guide § 2a EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Mietverlust",
+        "Bold",
+        44
+       ],
+       [
+        "− 12.000 €",
+        "ExtraBold",
+        90
+       ],
+       [
+        "verrechenbar?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Yara wohnt in Köln und verdient 2026 als Angestellte 80.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Sie vermietet eine Wohnung in Brasilien: 2026 ein Verlust von 12.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ein DBA mit Brasilien gibt es nicht.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Yara."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Frage",
+     "punkte": [
+      [
+       "Darf Yara den Verlust aus Brasilien mit ihrem Gehalt verrechnen?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Erst selbst überlegen, dann weiterwischen.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Weltweit ist weltweit, oder?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1: Drittstaat?",
+     "punkte": [
+      [
+       "Yara ist unbeschränkt steuerpflichtig: Auch Auslandseinkünfte zählen.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1, § 2 Abs. 1 EStG"
+      ],
+      [
+       "Brasilien ist weder EU- noch EWR-Staat: Drittstaat.",
+       "warn",
+       "Bold",
+       "§ 2a Abs. 2a S. 1 Nr. 1 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Ein Haken?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Vermietungsverlust aus einem Drittstaat: kein Ausgleich mit dem Gehalt.",
+       "nein",
+       "Bold",
+       "§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG"
+      ],
+      [
+       "Nur mit späteren Mietgewinnen derselben Art aus Brasilien.",
+       "ok",
+       "Regular",
+       "§ 2a Abs. 1 S. 3 EStG"
+      ],
+      [
+       "Der Rest wird gesondert festgestellt.",
+       "ok",
+       "Regular",
+       "§ 2a Abs. 1 S. 5 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Nicht mit dem Gehalt?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Ergebnis 2026",
+     "normen": [
+      "§ 2a Abs. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Einkünfte aus dem Gehalt",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Verlust Brasilien",
+       "± 0 €",
+       "Regular",
+       null
+      ],
+      [
+       "Summe der Einkünfte",
+       "80.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Festgestellt für später",
+       "12.000 €",
+       "Bold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Vereinfacht, ohne Werbungskosten",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Gegenprobe",
+     "punkte": [
+      [
+       "Läge die Wohnung in einem EU- oder EWR-Staat, griffe § 2a nicht.",
+       "ok",
+       "Regular",
+       "§ 2a Abs. 2a EStG"
+      ],
+      [
+       "Gewerbliche Betriebsstätte im Drittstaat: Ausnahme bei aktiver Tätigkeit.",
+       "warn",
+       "Regular",
+       "§ 2a Abs. 2 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst den Staat prüfen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Yara: 12.000 € Verlust bleiben im Brasilien-Topf",
+      "Ausgleich nur mit späteren Mietgewinnen von dort",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Drittstaat",
+        "a"
+       ],
+       [
+        " und passiv:",
+        null
+       ]
+      ],
+      [
+       [
+        "gleiche ",
+        null
+       ],
+       [
+        "Art",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "gleicher ",
+        null
+       ],
+       [
+        "Staat",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst ",
+        null
+       ],
+       [
+        "Vortrag",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Prüfst du EU, EWR, Drittstaat?",
+     "teaser": "Weiterwischen: § 2a EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 2a Abs. 1 EStG (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Negative Einkünfte […] 6. a)",
+         null
+        ],
+        [
+         "aus der Vermietung oder der Verpachtung von unbeweglichem Vermögen",
+         "g1"
+        ],
+        [
+         "oder von Sachinbegriffen, wenn diese",
+         null
+        ],
+        [
+         "in einem Drittstaat belegen",
+         "b1"
+        ],
+        [
+         "sind, […] dürfen nur mit positiven Einkünften der",
+         null
+        ],
+        [
+         "jeweils selben Art",
+         "r1"
+        ],
+        [
+         "und, […]",
+         null
+        ],
+        [
+         "aus demselben Staat",
+         "r2"
+        ],
+        [
+         "[…] ausgeglichen werden; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Soweit die negativen Einkünfte nicht nach Satz 1 ausgeglichen werden können,",
+         null
+        ],
+        [
+         "mindern sie die positiven Einkünfte",
+         "gr1"
+        ],
+        [
+         "der jeweils selben Art, die der Steuerpflichtige in den folgenden Veranlagungszeiträumen aus demselben Staat […] erzielt.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Tatbestand",
+       "g1"
+      ],
+      [
+       "Drittstaat?",
+       "b1"
+      ],
+      [
+       "Art",
+       "r1"
+      ],
+      [
+       "Staat",
+       "r2"
+      ],
+      [
+       "Vortrag",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Drittstaat: § 2a Abs. 2a EStG",
+      "weder EU noch EWR mit Amtshilfe"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall: Darf Yara den Mietverlust aus Brasilien mit ihrem Gehalt verrechnen?\n\nFall: Yara wohnt in Köln, Gehalt 2026: 80.000 €. Aus einer vermieteten Wohnung in Brasilien erzielt sie 2026 einen Verlust von 12.000 €. Ein DBA besteht nicht.\n\n▸ Als unbeschränkt Steuerpflichtige erfasst Deutschland grundsätzlich ihr Welteinkommen (§ 1 Abs. 1, § 2 Abs. 1 EStG).\n▸ Brasilien ist weder EU- noch EWR-Staat und damit Drittstaat (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n▸ Negative Einkünfte aus der Vermietung von unbeweglichem Vermögen in einem Drittstaat dürfen nur mit positiven Einkünften der jeweils selben Art aus demselben Staat ausgeglichen werden, auch kein Verlustabzug nach § 10d (§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a EStG).\n▸ Nicht ausgeglichene Verluste mindern spätere positive Einkünfte derselben Art aus demselben Staat (§ 2a Abs. 1 S. 3 EStG) und werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n▸ Gegenprobe: Für Wohnungen in EU- oder EWR-Staaten gilt § 2a nicht; bei gewerblichen Drittstaaten-Betriebsstätten hilft die Aktivitätsklausel (§ 2a Abs. 2 S. 1 EStG).\n\nZum Schluss: § 2a Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1, § 2 Abs. 1 EStG",
+    "§ 2a Abs. 1 S. 1 Nr. 6 Buchst. a, S. 3, 5 EStG",
+    "§ 2a Abs. 2 S. 1 EStG",
+    "§ 2a Abs. 2a EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-4-02",
+   "themaTitel": "Wann darf die übertragende GmbH bei Verschmelzung Buchwerte ansetzen?",
+   "figuren": {
+    "A": {
+     "name": "Neele",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Explaining"
+    },
+    "B": {
+     "name": "Kalle",
+     "kopf": "Gray Short",
+     "haut": "#B97A56",
+     "oberteil": "#C9B8F2",
+     "bart": "Full 4",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Verschmelzung:",
+      "Buchwert erlaubt?"
+     ],
+     "norm": "§ 11 UmwStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 11 UmwStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:presentation",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung für 10 Minuten",
+     "schritte": [
+      [
+       "Einstieg · 1 Minute",
+       "§ 11 Abs. 1 UmwStG",
+       ""
+      ],
+      [
+       "Grundsatz · 2 Minuten",
+       "§ 11 Abs. 1 UmwStG",
+       ""
+      ],
+      [
+       "Buchwert auf Antrag · 4 Minuten",
+       "§ 11 Abs. 2 S. 1 UmwStG",
+       ""
+      ],
+      [
+       "Antrag und Folgen · 2 Minuten",
+       "§ 11 Abs. 3, §§ 12, 19 UmwStG",
+       ""
+      ],
+      [
+       "Fazit · 1 Minute",
+       null,
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 11 UmwStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg",
+     "punkte": [
+      [
+       "Zwei Kapitalgesellschaften verschmelzen: Die übertragende erstellt eine steuerliche Schlussbilanz.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 1 UmwStG"
+      ],
+      [
+       "Ihre Werte entscheiden, ob ein Übertragungsgewinn entsteht.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Neele und starte so."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Grundsatz: gemeiner Wert",
+     "punkte": [
+      [
+       "Alle übergehenden Wirtschaftsgüter mit dem gemeinen Wert, auch selbst geschaffene immaterielle.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 1 S. 1 UmwStG"
+      ],
+      [
+       "Ausnahme: Pensionsrückstellungen nach § 6a EStG.",
+       "warn",
+       "Regular",
+       "§ 11 Abs. 1 S. 2 UmwStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Erst der Grundsatz."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Buchwert auf Antrag",
+     "punkte": [
+      [
+       "Spätere Körperschaftsteuer bei der Übernehmerin gesichert.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 2 S. 1 Nr. 1 UmwStG"
+      ],
+      [
+       "Deutsches Besteuerungsrecht bleibt erhalten.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 2 S. 1 Nr. 2 UmwStG"
+      ],
+      [
+       "Keine Gegenleistung oder nur Gesellschaftsrechte.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 2 S. 1 Nr. 3 UmwStG"
+      ]
+     ],
+     "extra": [
+      "Einheitlich für alle Wirtschaftsgüter",
+      "GELB",
+      null
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Alle drei nötig!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Antrag und Folgen",
+     "punkte": [
+      [
+       "Antrag spätestens mit der ersten Abgabe der steuerlichen Schlussbilanz.",
+       "warn",
+       "Regular",
+       "§ 11 Abs. 3 i. V. m. § 3 Abs. 2 S. 2 UmwStG"
+      ],
+      [
+       "Übertragungsgewinn: Körperschaft- und Gewerbesteuer.",
+       "ok",
+       "Regular",
+       "§ 19 Abs. 1 UmwStG"
+      ],
+      [
+       "Verlustvorträge der Übertragerin gehen nicht über.",
+       "nein",
+       "Bold",
+       "§ 12 Abs. 3 i. V. m. § 4 Abs. 2 S. 2 UmwStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Frist nicht verpassen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Bare Zuzahlung an die Gesellschafter?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Insoweit kein Buchwert, stille Reserven werden anteilig aufgedeckt.",
+       "ok",
+       "Regular",
+       "§ 11 Abs. 2 S. 1 Nr. 3 UmwStG"
+      ],
+      [
+       "Warum ein Zwischenwert?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Damit eigene Verlustvorträge noch genutzt werden.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 3 UmwStG"
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Kalle, Kommission: Und dann?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Fazit in einem Satz",
+      "Gemeiner Wert ist Grundsatz, Buchwert nur auf Antrag",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "KSt",
+        "a"
+       ],
+       [
+        " gesichert,",
+        null
+       ]
+      ],
+      [
+       [
+        "Recht",
+        "b"
+       ],
+       [
+        " Deutschlands bleibt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gegenleistung: ",
+        null
+       ],
+       [
+        "Anteile",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "rechtzeitig ",
+        null
+       ],
+       [
+        "Antrag",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hältst du die 10 Minuten?",
+     "teaser": "Weiterwischen: § 11 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 11 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       2,
+       [
+        [
+         "Auf Antrag",
+         "r1"
+        ],
+        [
+         "können die übergehenden Wirtschaftsgüter abweichend von Absatz 1",
+         null
+        ],
+        [
+         "einheitlich",
+         "b1"
+        ],
+        [
+         "mit dem",
+         null
+        ],
+        [
+         "Buchwert",
+         "g1"
+        ],
+        [
+         "oder einem höheren Wert, höchstens jedoch mit dem Wert nach Absatz 1, angesetzt werden, soweit 1. sichergestellt ist, dass sie später bei der übernehmenden Körperschaft der",
+         null
+        ],
+        [
+         "Besteuerung mit Körperschaftsteuer",
+         "gr1"
+        ],
+        [
+         "unterliegen und 2. das Recht der Bundesrepublik Deutschland hinsichtlich der Besteuerung des Gewinns aus der Veräußerung der übertragenen Wirtschaftsgüter bei der übernehmenden Körperschaft nicht ausgeschlossen oder beschränkt wird und 3. eine",
+         null
+        ],
+        [
+         "Gegenleistung",
+         "g2"
+        ],
+        [
+         "nicht gewährt wird oder in Gesellschaftsrechten besteht. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Frist!",
+       "r1"
+      ],
+      [
+       "alle WG gleich",
+       "b1"
+      ],
+      [
+       "Wahl",
+       "g1"
+      ],
+      [
+       "Nr. 1",
+       "gr1"
+      ],
+      [
+       "Nr. 3",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Antragsfrist: § 3 Abs. 2 S. 2 UmwStG",
+      "gilt über § 11 Abs. 3 UmwStG entsprechend"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Wann darf die übertragende GmbH bei der Verschmelzung Buchwerte ansetzen? So füllst du zehn Minuten.\n\n1. Einstieg (1 Min.): Bei der Verschmelzung auf eine andere Körperschaft erstellt die Übertragerin eine steuerliche Schlussbilanz (§ 11 Abs. 1 UmwStG).\n2. Grundsatz (2 Min.): alle übergehenden Wirtschaftsgüter zum gemeinen Wert, auch nicht entgeltlich erworbene oder selbst geschaffene immaterielle Wirtschaftsgüter; Pensionsrückstellungen nach § 6a EStG (§ 11 Abs. 1 S. 1, 2 UmwStG).\n3. Buchwert auf Antrag (4 Min.): einheitlich Buch- oder Zwischenwert, soweit die spätere Besteuerung mit Körperschaftsteuer gesichert ist, das deutsche Besteuerungsrecht nicht ausgeschlossen oder beschränkt wird und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 S. 1 Nr. 1 bis 3 UmwStG).\n4. Antrag und Folgen (2 Min.): Antrag spätestens bis zur erstmaligen Abgabe der steuerlichen Schlussbilanz (§ 11 Abs. 3 i. V. m. § 3 Abs. 2 S. 2 UmwStG). Ein Übertragungsgewinn unterliegt der Körperschaftsteuer und über § 19 Abs. 1 UmwStG der Gewerbesteuer. Verlustvorträge der Übertragerin gehen nicht über (§ 12 Abs. 3 i. V. m. § 4 Abs. 2 S. 2 UmwStG).\n5. Fazit (1 Min.): Gemeiner Wert ist Grundsatz, Buchwert die Ausnahme auf Antrag.\n\nTypische Nachfragen: bare Zuzahlung (insoweit Aufdeckung), Zwischenwert zur Nutzung eigener Verlustvorträge.\n\nZum Schluss: § 11 Abs. 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 11 Abs. 1, 2, 3 UmwStG",
+    "§ 3 Abs. 2 S. 2 UmwStG",
+    "§ 12 Abs. 3 UmwStG",
+    "§ 4 Abs. 2 S. 2 UmwStG",
+    "§ 19 Abs. 1 UmwStG",
+    "§ 6a EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b06-17",
+   "themaTitel": "Ganzes Unternehmen übertragen: Warum keine Umsatzsteuer anfällt",
+   "figuren": {
+    "A": {
+     "name": "Lia",
+     "kopf": "Bun",
+     "haut": "#A86B47",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Café-Inventar einzeln verkauft: neuntausendfünfhundert Euro Umsatzsteuer. Das ganze Café: null."
+    },
+    {
+     "id": "s1",
+     "text": "Lia verkauft ihr Café samt Inventar, Küche und Mietvertrag an einen Gastronomen. Er führt es ohne neue Investitionen fort."
+    },
+    {
+     "id": "s2",
+     "text": "Das ist eine Geschäftsveräußerung im Ganzen. Die Umsätze sind nicht steuerbar, sogar bei Schenkung."
+    },
+    {
+     "id": "s3",
+     "text": "Der Käufer tritt an Lias Stelle, etwa bei der Vorsteuerberichtigung. Was Lia behält und später verkauft, bleibt steuerbar."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Ganzes Unternehmen, fortführbar, keine Umsatzsteuer."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Café verkauft:",
+     "Umsatzsteuer?"
+    ],
+    "pille": "Inventar 50.000 € netto",
+    "figur": "A/eilt",
+    "name": "Lia",
+    "icons": [
+     [
+      "tabler:coffee",
+      "GELB",
+      "ganze"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Einzeln",
+      "wert": "9.500 €",
+      "farbe": "ROT",
+      "wort": "einzeln"
+     },
+     {
+      "label": "Ganzes Café",
+      "wert": "0 €",
+      "farbe": "GRUEN",
+      "wort": "null"
+     }
+    ]
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Alles geht über",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Inventar",
+       "farbe": "WEISS",
+       "wort": "Inventar"
+      },
+      {
+       "typ": "pille",
+       "text": "Küche",
+       "farbe": "WEISS",
+       "wort": "Küche"
+      },
+      {
+       "typ": "pille",
+       "text": "Mietvertrag",
+       "farbe": "WEISS",
+       "wort": "Mietvertrag"
+      },
+      {
+       "typ": "block",
+       "label": "Fortführung",
+       "wert": "möglich",
+       "farbe": "GRUEN",
+       "wort": "fort",
+       "zs": 110
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Café"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Nicht steuerbar",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Umsatzsteuer",
+       "wert": "0 €",
+       "farbe": "GRUEN",
+       "wort": "nicht",
+       "zs": 130
+      },
+      {
+       "typ": "pille",
+       "text": "auch unentgeltlich",
+       "farbe": "GELB",
+       "wort": "Schenkung"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 1 Abs. 1a S. 1, 2 UStG",
+       "wort": "Geschäftsveräußerung"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "nicht",
+       0.9
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Folgen",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Käufer an Lias Stelle",
+       "unter": "Berichtigungszeitraum läuft weiter",
+       "wort": "Stelle",
+       "farbe": "WEISS",
+       "ls": 62
+      },
+      {
+       "typ": "text",
+       "text": "Zurückbehaltenes",
+       "unter": "später steuerbar",
+       "wort": "behält",
+       "farbe": "GELB",
+       "ls": 66
+      },
+      {
+       "typ": "norm",
+       "text": "§ 1 Abs. 1a S. 3, § 15a Abs. 10 UStG",
+       "wort": "Vorsteuerberichtigung"
+      }
+     ],
+     "icon": [
+      "tabler:arrows-exchange",
+      "GELB",
+      "Käufer"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Ganzes Unternehmen,",
+     "fortführbar:",
+     "keine",
+     "Umsatzsteuer"
+    ],
+    "woerter": [
+     "Ganzes",
+     "fortführbar",
+     "keine",
+     "Umsatzsteuer"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Umsatzsteuer",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Café verkauft: Warum bei der Geschäftsveräußerung im Ganzen keine Umsatzsteuer anfällt. ☕\n\n▸ Rechnung: Inventar einzeln für 50.000 € netto verkauft = 9.500 € Umsatzsteuer (19 %). Ganzes Café: 0 €.\n▸ Umsätze im Rahmen einer Geschäftsveräußerung an einen anderen Unternehmer für dessen Unternehmen unterliegen nicht der Umsatzsteuer (§ 1 Abs. 1a S. 1 UStG).\n▸ Geschäftsveräußerung: Ein Unternehmen oder gesondert geführter Betrieb wird im Ganzen entgeltlich oder unentgeltlich übereignet oder eingebracht (§ 1 Abs. 1a S. 2 UStG). Entscheidend ist, ob der Erwerber die Tätigkeit fortführen kann; gemietete Räume können über die Übernahme des Mietvertrags genügen (Abschn. 1.5 UStAE).\n▸ Der Erwerber tritt an die Stelle des Veräußerers (§ 1 Abs. 1a S. 3 UStG); der Berichtigungszeitraum nach § 15a UStG läuft weiter (§ 15a Abs. 10 UStG).\n▸ Zurückbehaltene Gegenstände, die später verkauft oder entnommen werden, sind gesondert steuerbar.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1a S. 1 bis 3 UStG",
+    "§ 15a Abs. 10 UStG",
+    "§ 12 Abs. 1 UStG",
+    "Abschn. 1.5 UStAE"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-9",
+   "frage": [
+    "Ganzes Unternehmen",
+    "verkauft: USt?"
+   ],
+   "optionen": [
+    "Steuerbar und steuerpflichtig",
+    "Steuerbar, aber steuerfrei",
+    "Nicht steuerbar"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Curly",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-9",
+   "titel": [
+    "C: nicht",
+    "steuerbar"
+   ],
+   "optionen": [
+    "Steuerbar und steuerpflichtig",
+    "Steuerbar, aber steuerfrei",
+    "Nicht steuerbar"
+   ],
+   "richtig": 2,
+   "text": "Der Erwerber tritt an die Stelle des Veräußerers.",
+   "norm": "§ 1 Abs. 1a S. 1, 3 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Curly",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#9AD48F",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Internationales Steuerrecht",
+   "beitragSlot": "b1",
+   "titel": [
+    "Mietverlust aus Brasilien"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-6-02",
+   "titel": [
+    "Hinzurechnung",
+    "nach dem AStG?"
+   ],
+   "norm": "§ 7 Abs. 1 AStG",
+   "punkte": [
+    [
+     "Ein Inländer beherrscht die Auslandsgesellschaft: mehr als die Hälfte.",
+     "ok",
+     "§ 7 Abs. 2 AStG"
+    ],
+    [
+     "Passive Einkünfte, belastet mit weniger als 15 %.",
+     "warn",
+     "§ 8 Abs. 1, 5 AStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Dreads 2",
+     "haut": "#6B4226",
+     "oberteil": "#F2B5C8",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Umwandlungssteuerrecht",
+   "beitragSlot": "b2",
+   "titel": [
+    "Verschmelzung: Buchwert erlaubt?"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst skizzieren,",
+    "dann schreiben"
+   ],
+   "punkte": [
+    [
+     "Je Teilaufgabe eine Gliederung in Stichworten.",
+     "ok",
+     null
+    ],
+    [
+     "Die Normen gleich dazuschreiben.",
+     "ok",
+     null
+    ],
+    [
+     "Dann zügig ausformulieren, ohne Umwege.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:pencil",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-38",
+   "titel": [
+    "Fehler aus dem",
+    "Vorjahr?"
+   ],
+   "punkte": [
+    [
+     "Vorjahr änderbar: Steuerbilanz zum 1.1. über das Kapital.",
+     "ok",
+     null
+    ],
+    [
+     "Handelsbilanz: laufendes Jahr, über die GuV.",
+     "ok",
+     null
+    ],
+    [
+     "Sonst: erfolgswirksam im ersten offenen Jahr.",
+     "warn",
+     "R 4.4 Abs. 1 EStR"
+    ]
+   ],
+   "icon": "tabler:history",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Umsatzsteuer",
+   "beitragSlot": "b3",
+   "titel": [
+    "Café verkauft: Umsatzsteuer?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-336",
+   "titel": [
+    "Prüfung begonnen,",
+    "dann Pause?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Pause über ",
+      null
+     ],
+     [
+      "6 Monate",
+      "a"
+     ]
+    ],
+    [
+     [
+      "direkt nach ",
+      null
+     ],
+     [
+      "Beginn",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "vom ",
+      null
+     ],
+     [
+      "Finanzamt",
+      "c"
+     ],
+     [
+      " verursacht:",
+      null
+     ]
+    ],
+    [
+     [
+      "keine Hemmung.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 171 Abs. 4 S. 2 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Shaved 3",
+     "haut": "#E8B98F",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "jacket"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

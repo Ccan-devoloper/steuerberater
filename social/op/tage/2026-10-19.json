@@ -1,0 +1,1203 @@
+{
+ "datum": "2026-10-19",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-04",
+   "themaTitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+   "figuren": {
+    "A": {
+     "name": "Rasmus",
+     "kopf": "Short 4",
+     "haut": "#E0AC85",
+     "haar": "#3B2A1E",
+     "oberteil": "#9AD48F",
+     "bart": "Goatee 1",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "Darlehen weg,",
+      "AK rauf?"
+     ],
+     "norm": "§ 17 Abs. 2a EStG",
+     "unter": "Der Klausurfall",
+     "teaser": "+ Markier-Guide § 17 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Darlehen",
+        "Bold",
+        44
+       ],
+       [
+        "80.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "ausgefallen",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Rasmus hält 30 % der Kranich GmbH, Anschaffungskosten 50.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2022 leiht er ihr 80.000 €, sie ist gesund.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2024 Krise: Er lässt das Geld stehen, Wert 30.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2026 Auflösung: Alles ist wertlos.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Was zählt davon?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Erhöhen die 80.000 € die Anschaffungskosten voll?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Oder nur ein Teil – und wo landet der Rest?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst rechnen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Deine Lösung?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Regel",
+     "punkte": [
+      [
+       "Darlehensverluste sind nachträgliche Anschaffungskosten,",
+       "ok",
+       "Regular",
+       "§ 17 Abs. 2a S. 3 Nr. 2 EStG"
+      ],
+      [
+       "soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Test: Hätte eine fremde Bank das Geld zurückgefordert?",
+       "warn",
+       "Regular",
+       "§ 17 Abs. 2a S. 4 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Bank wäre weg!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nicht der Nennwert",
+     "punkte": [
+      [
+       "Beim Stehenlassen zählt nur der Wert zu Beginn der Krise.",
+       "warn",
+       "Bold",
+       "BFH vom 18.07.2023, IX R 21/21"
+      ],
+      [
+       "Hier also 30.000 €, nicht 80.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Die übrigen 50.000 € bei den Kapitaleinkünften prüfen.",
+       "nein",
+       "Regular",
+       "§ 20 Abs. 2 S. 1 Nr. 7 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Nur 30.000 €?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung in Zahlen",
+     "normen": [
+      "§ 17 Abs. 4 EStG",
+      "§ 3c Abs. 2 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Anschaffungskosten Kauf",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Darlehen, Wert bei Krise",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= Anschaffungskosten",
+       "80.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Auflösungsverlust",
+       "– 80.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "davon 60 % abziehbar",
+       "– 48.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Rest 50.000 €: bei § 20 EStG prüfen",
+      "TUERKIS"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Verlust nach § 17 EStG 48.000 €",
+      "Darlehen zählt nur mit dem Wert bei Krisenbeginn",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Krise",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Fremdvergleich",
+        "b"
+       ],
+       [
+        " anstellen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Wert bei Krise",
+        "c"
+       ],
+       [
+        " ansetzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest",
+        "d"
+       ],
+       [
+        " bei § 20 prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du 80.000 € angesetzt?",
+     "teaser": "Weiterwischen: § 17 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 17 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(2a)",
+       [
+        [
+         "3 Zu den nachträglichen Anschaffungskosten im Sinne des Satzes 2 gehören insbesondere […] 2.",
+         null
+        ],
+        [
+         "Darlehensverluste,",
+         "g1"
+        ],
+        [
+         "soweit die Gewährung des Darlehens oder das Stehenlassen des Darlehens",
+         null
+        ],
+        [
+         "in der Krise",
+         "r1"
+        ],
+        [
+         "der Gesellschaft",
+         null
+        ],
+        [
+         "gesellschaftsrechtlich veranlasst",
+         "b1"
+        ],
+        [
+         "war, […] 4 Eine gesellschaftsrechtliche Veranlassung liegt regelmäßig vor, wenn",
+         null
+        ],
+        [
+         "ein fremder Dritter",
+         "gr1"
+        ],
+        [
+         "das Darlehen […] bei sonst gleichen Umständen zurückgefordert oder nicht gewährt hätte.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nachträgliche AK",
+       "g1"
+      ],
+      [
+       "Zeitpunkt!",
+       "r1"
+      ],
+      [
+       "Prüfstein",
+       "b1"
+      ],
+      [
+       "Fremdvergleich",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: BFH IX R 21/21",
+      "Stehengelassen: Wert bei Krisenbeginn"
+     ]
+    }
+   ],
+   "caption": "Gesellschafterdarlehen ausgefallen – erhöht das die Anschaffungskosten nach § 17 EStG? Die Klausurfrage mit Lösung.\n\n▸ Darlehensverluste gehören zu den nachträglichen Anschaffungskosten, soweit Gewährung oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG).\n▸ Maßstab ist der Fremdvergleich: Hätte eine fremde Bank unter denselben Bedingungen das Geld nicht gegeben oder schon zurückverlangt, ist die Veranlassung regelmäßig gesellschaftsrechtlich (§ 17 Abs. 2a S. 4 EStG).\n▸ Bei einem in der Krise stehen gelassenen Darlehen führt nur der bei Kriseneintritt noch werthaltige Teil zu nachträglichen Anschaffungskosten (BFH vom 18.07.2023, IX R 21/21). Den übrigen Ausfall prüfst du bei den Einkünften aus Kapitalvermögen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n▸ Die Auflösung der GmbH gilt als Veräußerung (§ 17 Abs. 4 EStG); Anschaffungskosten wirken im Teileinkünfteverfahren nur zu 60 % (§ 3c Abs. 2 S. 1 EStG).\n\nIm Beispiel: 50.000 € + 30.000 € = 80.000 € Anschaffungskosten, Verlust 80.000 €, davon 48.000 € abziehbar.\n\nZum Schluss: § 17 Abs. 2a EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG",
+    "§ 17 Abs. 4 EStG",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 20 Abs. 2 S. 1 Nr. 7 EStG",
+    "BFH vom 18.07.2023, IX R 21/21"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-48",
+   "themaTitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+   "figuren": {
+    "A": {
+     "name": "Dragan",
+     "kopf": "Short 1",
+     "haut": "#EBC3A0",
+     "haar": "#5A4636",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 1"
+    },
+    "B": {
+     "name": "Liv",
+     "kopf": "Long Curly",
+     "haut": "#F5D3B8",
+     "haar": "#A0522D",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Sperrfrist",
+      "verletzt?"
+     ],
+     "norm": "§ 22 Abs. 1 S. 6 UmwStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 22 UmwStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Sperrfrist",
+        "Bold",
+        44
+       ],
+       [
+        "7 Jahre",
+        "ExtraBold",
+        96
+       ],
+       [
+        "ab Einbringung",
+        "ExtraBold",
+        48
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Check",
+     "schritte": [
+      [
+       "Wer bekommt die Anteile?",
+       "§ 22 Abs. 1 S. 6 Nr. 1 UmwStG",
+       "Kapitalgesellschaft oder Mensch"
+      ],
+      [
+       "Gegen Entgelt?",
+       "§ 22 Abs. 1 S. 6 Nr. 2 UmwStG",
+       "grundsätzlich schädlich"
+      ],
+      [
+       "Weitereinbringung?",
+       "§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG",
+       "nur Buchwert mit Nachweis"
+      ],
+      [
+       "Was macht die GmbH?",
+       "§ 22 Abs. 1 S. 6 Nr. 3 UmwStG",
+       "Auflösung, Kapitalrückzahlung"
+      ]
+     ],
+     "teaser": "Am Ende: § 22 UmwStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Wer bekommt sie?",
+     "punkte": [
+      [
+       "Dragan brachte 2023 sein Einzelunternehmen zum Buchwert in eine GmbH ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Schenkt er die Anteile Tochter Liv: unschädlich, sie tritt in die Frist ein.",
+       "ok",
+       "Bold",
+       "§ 22 Abs. 6 UmwStG"
+      ],
+      [
+       "Unentgeltlich in eine GmbH: schädlich.",
+       "nein",
+       "Bold",
+       "§ 22 Abs. 1 S. 6 Nr. 1 UmwStG"
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Frist läuft weiter"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Gegen Entgelt?",
+     "punkte": [
+      [
+       "Verkauf und Tausch innerhalb der sieben Jahre sind schädlich.",
+       "nein",
+       "Bold",
+       "§ 22 Abs. 1 S. 1 UmwStG"
+      ],
+      [
+       "Auch eine Einbringung in eine andere GmbH ist entgeltlich.",
+       "warn",
+       "Regular",
+       "§ 22 Abs. 1 S. 6 Nr. 2 UmwStG"
+      ],
+      [
+       "Rettung nur: Buchwert und Nachweis, Gegenleistung in den Grenzen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Tausch ist Verkauf"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "3 · Zwischenwert reicht nicht",
+     "punkte": [
+      [
+       "Dragan bringt die Anteile zu einem Zwischenwert in eine Holding ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Kein Buchwert, also schädlich: Einbringungsgewinn I entsteht.",
+       "nein",
+       "Bold",
+       "§ 22 Abs. 1 S. 6 Nr. 2 UmwStG"
+      ],
+      [
+       "Dass die Anteile weiter in einer GmbH stecken, hilft nicht.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Aber Holding?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Was macht die GmbH?",
+     "punkte": [
+      [
+       "Sie wird aufgelöst und abgewickelt.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Sie setzt Kapital herab und zahlt es zurück.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Sie zahlt Beträge aus dem Einlagekonto aus.",
+       "nein",
+       "Regular",
+       "§ 22 Abs. 1 S. 6 Nr. 3 UmwStG"
+      ]
+     ],
+     "extra": [
+      "Auch ohne Verkauf: Einbringungsgewinn I",
+      "GELB",
+      null
+     ],
+     "figur": "B:staunt",
+     "x": 290,
+     "blase": "Ohne Verkauf?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Folge",
+     "punkte": [
+      [
+       "Gewinn rückwirkend im Jahr der Einbringung versteuern.",
+       "warn",
+       "Bold",
+       "§ 22 Abs. 1 S. 1, 2 UmwStG"
+      ],
+      [
+       "Je abgelaufenes Zeitjahr ein Siebtel weniger.",
+       "ok",
+       "Regular",
+       "§ 22 Abs. 1 S. 3 UmwStG"
+      ],
+      [
+       "Der Betrag erhöht die Anschaffungskosten der Anteile.",
+       "ok",
+       "Regular",
+       "§ 22 Abs. 1 S. 4 UmwStG"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Rückwirkend!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Fast jede Übertragung ist schädlich",
+      "Unschädlich: Schenkung an Menschen, Buchwert mit Nachweis",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Empfänger",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Entgelt",
+        "b"
+       ],
+       [
+        " klären,",
+        null
+       ]
+      ],
+      [
+       [
+        "Buchwert",
+        "c"
+       ],
+       [
+        " nachweisen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Siebtel",
+        "d"
+       ],
+       [
+        " abziehen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Welcher Schritt fehlt dir oft?",
+     "teaser": "Weiterwischen: § 22 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 22 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "[…] 6 Die Sätze 1 bis 5 gelten entsprechend, wenn 1. der Einbringende die erhaltenen Anteile unmittelbar oder mittelbar",
+         null
+        ],
+        [
+         "unentgeltlich auf eine Kapitalgesellschaft",
+         "r1"
+        ],
+        [
+         "oder eine Genossenschaft überträgt, 2. der Einbringende die erhaltenen Anteile",
+         null
+        ],
+        [
+         "entgeltlich überträgt,",
+         "g1"
+        ],
+        [
+         "es sei denn, er weist nach, dass die Übertragung durch einen Vorgang im Sinne des § 20 Absatz 1 oder § 21 Absatz 1 […]",
+         null
+        ],
+        [
+         "zu Buchwerten erfolgte",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(6)",
+       [
+        [
+         "In den Fällen der",
+         null
+        ],
+        [
+         "unentgeltlichen Rechtsnachfolge",
+         "gr1"
+        ],
+        [
+         "gilt der Rechtsnachfolger des Einbringenden als Einbringender […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "schädlich",
+       "r1"
+      ],
+      [
+       "Grundfall",
+       "g1"
+      ],
+      [
+       "Rettung",
+       "b1"
+      ],
+      [
+       "Schenkung ok",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Rückwirkung: § 22 Abs. 1 S. 2 UmwStG",
+      "Bescheid des Einbringungsjahres wird geändert"
+     ]
+    }
+   ],
+   "caption": "Sperrfrist nach einer Einbringung verletzt? Das Prüfschema zu § 22 Abs. 1 UmwStG in 4 Schritten.\n\n1. Empfänger: Gehen die Anteile ohne Gegenleistung an eine Kapitalgesellschaft oder Genossenschaft, ist das schädlich (§ 22 Abs. 1 S. 6 Nr. 1 UmwStG). Bei unentgeltlicher Rechtsnachfolge, etwa Schenkung an ein Kind, tritt der Rechtsnachfolger an die Stelle des Einbringenden (§ 22 Abs. 6 UmwStG).\n2. Entgelt: Veräußerung innerhalb von sieben Jahren löst rückwirkend den Einbringungsgewinn I aus (§ 22 Abs. 1 S. 1 UmwStG); entgeltliche Übertragungen sind schädlich, außer bei nachgewiesener Buchwerteinbringung nach § 20 Abs. 1 oder § 21 Abs. 1 UmwStG ohne zu hohe sonstige Gegenleistung (§ 22 Abs. 1 S. 6 Nr. 2 UmwStG).\n3. Weitereinbringung: Ketteneinbringungen nur zum Buchwert mit Nachweis (§ 22 Abs. 1 S. 6 Nr. 4, 5 UmwStG). Ein Zwischenwert reicht nicht.\n4. Gesellschaft: Auflösung und Abwicklung, Kapitalherabsetzung mit Rückzahlung, Ausschüttung oder Rückzahlung aus dem steuerlichen Einlagekonto (§ 22 Abs. 1 S. 6 Nr. 3 UmwStG).\n\nFolge: Versteuerung im Wirtschaftsjahr der Einbringung als rückwirkendes Ereignis (§ 22 Abs. 1 S. 1, 2 UmwStG, § 175 Abs. 1 S. 1 Nr. 2 AO), Minderung um ein Siebtel je abgelaufenes Zeitjahr (§ 22 Abs. 1 S. 3 UmwStG), nachträgliche Anschaffungskosten der Anteile (§ 22 Abs. 1 S. 4 UmwStG).\n\nZum Schluss: § 22 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 22 Abs. 1 S. 1–4, 6 Nr. 1–5 UmwStG",
+    "§ 22 Abs. 6 UmwStG",
+    "§ 175 Abs. 1 S. 1 Nr. 2 AO"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-2",
+   "themaTitel": "Lieferung (§ 3 Abs. 1 UStG)",
+   "figuren": {
+    "A": {
+     "name": "Odile",
+     "kopf": "Medium Bangs 2",
+     "haut": "#C68863",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Eigentum erst nach der letzten Rate. Die Lieferung ist trotzdem sofort da."
+    },
+    {
+     "id": "s1",
+     "text": "Ein Küchenstudio baut Odile im März eine Küche ein. Preis elftausendneunhundert Euro brutto, zehn Raten, Eigentumsvorbehalt."
+    },
+    {
+     "id": "s2",
+     "text": "Lieferung heißt Verfügungsmacht. Odile nutzt die Küche wie eine Eigentümerin. Das Eigentum bleibt beim Studio, das ist egal."
+    },
+    {
+     "id": "s3",
+     "text": "Also entsteht die ganze Steuer von eintausendneunhundert Euro mit Ablauf des März, nicht Rate für Rate."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Die Übergabe zählt, nicht das Eigentum."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Eigentum später.",
+     "Lieferung jetzt?"
+    ],
+    "pille": "§ 3 Abs. 1 UStG",
+    "figur": "A/sorge",
+    "name": "Odile",
+    "icons": [
+     [
+      "tabler:key",
+      "GELB",
+      "Lieferung"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Eigentum",
+      "wert": "letzte Rate",
+      "farbe": "GELB",
+      "wort": "Eigentum"
+     },
+     {
+      "label": "Lieferung",
+      "wert": "sofort",
+      "farbe": "GRUEN",
+      "wort": "Lieferung"
+     }
+    ],
+    "stempel": {
+     "text": "schon im März!",
+     "wort": "sofort"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Fall",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Küche im März",
+       "wort": "März",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Preis brutto",
+       "wert": "11.900 €",
+       "farbe": "GELB",
+       "wort": "elftausendneunhundert",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "10 Raten · Eigentumsvorbehalt",
+       "wort": "Raten",
+       "farbe": "WEISS"
+      }
+     ],
+     "icon": [
+      "tabler:tools-kitchen-2",
+      "GELB",
+      "Küche"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Verfügungsmacht",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Nutzen wie Eigentümerin",
+       "unter": "Substanz, Wert und Ertrag",
+       "wort": "nutzt",
+       "farbe": "GRUEN",
+       "ls": 64
+      },
+      {
+       "typ": "text",
+       "text": "Eigentum egal",
+       "unter": "bleibt beim Studio",
+       "wort": "egal",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 3 Abs. 1 UStG",
+       "wort": "Verfügungsmacht"
+      }
+     ],
+     "icon": [
+      "tabler:home-check",
+      "GELB",
+      "nutzt"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Netto",
+       "wert": "10.000 €",
+       "farbe": "WEISS",
+       "wort": "Steuer",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "USt 19 % entsteht im März",
+       "wert": "1.900 €",
+       "farbe": "GRUEN",
+       "wort": "eintausendneunhundert",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13 Abs. 1 Nr. 1 Buchst. a UStG",
+       "wort": "Ablauf"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Rate"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "eintausendneunhundert",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Lieferung:",
+     "Übergabe zählt,",
+     "nicht das",
+     "Eigentum"
+    ],
+    "woerter": [
+     null,
+     "Übergabe",
+     "nicht",
+     "Eigentum"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Eigentum",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Lieferung unter Eigentumsvorbehalt: Wann ist geliefert? 🔑\n\n▸ Lieferung ist die Verschaffung der Verfügungsmacht: Der Abnehmer kann im eigenen Namen über den Gegenstand verfügen (§ 3 Abs. 1 UStG). Es geht um den Übergang von Substanz, Wert und Ertrag, nicht zwingend um das zivilrechtliche Eigentum (Abschn. 3.1 Abs. 2 UStAE).\n▸ Wer unter Eigentumsvorbehalt verkauft und übergibt, liefert mit der Übergabe; anders bei der Sicherungsübereignung, die noch keine Verfügungsmacht verschafft (Abschn. 3.1 Abs. 3 UStAE).\n▸ Bei Sollversteuerung entsteht die Steuer mit Ablauf des Voranmeldungszeitraums der Lieferung (§ 13 Abs. 1 Nr. 1 Buchst. a S. 1 UStG) – im Beispiel 1.900 € (19 % von 10.000 €) mit Ablauf des März, unabhängig von den Raten.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 1 UStG",
+    "§ 13 Abs. 1 Nr. 1 Buchst. a S. 1 UStG",
+    "Abschn. 3.1 Abs. 2, 3 UStAE"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-14",
+   "frage": [
+    "Eigenes Holz,",
+    "Treppe beim Kunden:",
+    "was liegt vor?"
+   ],
+   "optionen": [
+    "Werkleistung",
+    "Werklieferung",
+    "Unentgeltliche Wertabgabe"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Hijab",
+     "haut": "#A8724F",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-14",
+   "titel": [
+    "B: Werklieferung"
+   ],
+   "optionen": [
+    "Werkleistung",
+    "Werklieferung",
+    "Unentgeltliche Wertabgabe"
+   ],
+   "richtig": 1,
+   "text": "Wer den Hauptstoff selbst beschafft, liefert. Stellt der Kunde ihn, ist es eine Werkleistung.",
+   "norm": "§ 3 Abs. 4 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Hijab",
+     "haut": "#A8724F",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Darlehen weg, AK rauf?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-05",
+   "titel": [
+    "Verlust",
+    "gesperrt?"
+   ],
+   "norm": "§ 17 Abs. 2 S. 6 EStG",
+   "punkte": [
+    [
+     "Geschenkt: nur, wenn der Schenker ihn hätte nutzen können.",
+     "warn",
+     "§ 17 Abs. 2 S. 6 Buchst. a EStG"
+    ],
+    [
+     "Zukauf, der die 1 % begründet oder danach erfolgt: abziehbar.",
+     "ok",
+     "§ 17 Abs. 2 S. 6 Buchst. b EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Dreads 1",
+     "haut": "#5C3A24",
+     "oberteil": "#7FD6D0",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Sperrfrist verletzt?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "erst auswerten"
+   ],
+   "punkte": [
+    [
+     "Die Einzelnoten im Bescheid zeigen, wo es hakt.",
+     "ok",
+     "§ 25 Abs. 3 DVStB"
+    ],
+    [
+     "Zwei Wiederholungen sind möglich.",
+     "ok",
+     "§ 35 Abs. 4 StBerG"
+    ],
+    [
+     "Plan um die schwächste Klausur bauen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:chart-bar",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Gray Short",
+     "haut": "#F0C8A8",
+     "haar": "#9A9A9A",
+     "oberteil": "#9AD48F",
+     "bart": "Full 3"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-13",
+   "titel": [
+    "Anzahlung erhalten:",
+    "USt sofort"
+   ],
+   "punkte": [
+    [
+     "Die Steuer entsteht schon mit der Vereinnahmung.",
+     "ok",
+     "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG"
+    ],
+    [
+     "Bilanz: Anzahlung netto passivieren.",
+     "ok",
+     null
+    ],
+    [
+     "Brutto gebucht? Dann aktiver Posten.",
+     "warn",
+     "§ 5 Abs. 5 S. 3 Nr. 2 EStG"
+    ]
+   ],
+   "icon": "tabler:receipt",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "U": {
+     "kopf": "Buns",
+     "haut": "#D9A07A",
+     "haar": "#2B1A10",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "U/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Eigentum später, Lieferung jetzt?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-8-14",
+   "titel": [
+    "Einspruch gegen",
+    "Änderungsbescheid?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Angreifbar nur, ",
+      null
+     ]
+    ],
+    [
+     [
+      "soweit",
+      "a"
+     ],
+     [
+      " die ",
+      null
+     ],
+     [
+      "Änderung",
+      "b"
+     ]
+    ],
+    [
+     [
+      "reicht.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 351 Abs. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Turban",
+     "haut": "#9E6B4A",
+     "oberteil": "#F9D56E",
+     "bart": "Full",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst",
+   "groesse": 84
+  }
+ ]
+}

@@ -1,0 +1,1147 @@
+{
+ "datum": "2026-10-23",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-70",
+   "themaTitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+   "figuren": {
+    "A": {
+     "name": "Nils",
+     "kopf": "Medium 3",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 2",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Anteile verkauft:",
+      "GmbH stockt auf"
+     ],
+     "norm": "§ 23 Abs. 2 UmwStG",
+     "unter": "Wie viel?",
+     "teaser": "+ Markier-Guide § 23 UmwStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Einbringungsgewinn I",
+        "Bold",
+        40
+       ],
+       [
+        "400.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "und die GmbH?",
+        "ExtraBold",
+        44
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Nils bringt am 01.07.2023 sein Einzelunternehmen zum Buchwert in die Nord GmbH ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Stille Reserven 700.000 €: Gebäude 420.000 €, Maschinen und Firmenwert je 140.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Am 10.09.2026 verkauft er die Anteile.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Zu früh verkauft?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie hoch ist der Einbringungsgewinn I?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Was darf die GmbH damit machen – und ab wann?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst rechnen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "1 · Einbringungsgewinn I",
+     "normen": [
+      "§ 22 Abs. 1 S. 3 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Stille Reserven 2023",
+       "700.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abgelaufene Zeitjahre",
+       "3",
+       "Regular",
+       null
+      ],
+      [
+       "– 3/7",
+       "– 300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= Einbringungsgewinn I",
+       "400.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Rückwirkend in Nils' Veranlagung 2023",
+      "TUERKIS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Kein Automatismus",
+     "punkte": [
+      [
+       "Die GmbH stockt nur auf Antrag auf.",
+       "warn",
+       "Bold",
+       "§ 23 Abs. 2 S. 1 UmwStG"
+      ],
+      [
+       "Und nur, soweit Nils die Steuer bezahlt hat – nachgewiesen per Bescheinigung.",
+       "warn",
+       "Regular",
+       "§ 22 Abs. 5 UmwStG"
+      ],
+      [
+       "Der Erhöhungsbetrag bleibt ohne Gewinnauswirkung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Erst zahlen!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "2 · Erhöhungsbetrag verteilen",
+     "normen": [
+      "§ 23 Abs. 2 S. 1 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Gebäude, 4/7",
+       "240.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Maschinen, 4/7",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Firmenwert, 4/7",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= Erhöhungsbetrag",
+       "400.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Im Verhältnis der stillen Reserven",
+      "TUERKIS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · AfA ab wann?",
+     "punkte": [
+      [
+       "Mehr-AfA ab Beginn des Wirtschaftsjahres der Veräußerung, hier 01.01.2026.",
+       "ok",
+       "Bold",
+       "§ 23 Abs. 3 S. 2 UmwStG"
+      ],
+      [
+       "Nicht rückwirkend ab 2023.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Annahme: Wirtschaftsjahr gleich Kalenderjahr.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Erst ab 2026!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: 400.000 € Erhöhungsbetrag auf Antrag",
+      "Gebäude 240.000 €, Maschinen und Firmenwert je 80.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Siebtel",
+        "a"
+       ],
+       [
+        " abziehen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuer",
+        "b"
+       ],
+       [
+        " bezahlt?",
+        null
+       ]
+      ],
+      [
+       [
+        "Antrag",
+        "c"
+       ],
+       [
+        " stellen,",
+        null
+       ]
+      ],
+      [
+       [
+        "AfA",
+        "d"
+       ],
+       [
+        " ab Jahresbeginn.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du ab 2023 abgeschrieben?",
+     "teaser": "Weiterwischen: § 23 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 23 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       "(2)",
+       [
+        [
+         "1 In den Fällen des § 22 Abs. 1 kann die übernehmende Gesellschaft",
+         null
+        ],
+        [
+         "auf Antrag",
+         "g1"
+        ],
+        [
+         "den versteuerten Einbringungsgewinn im Wirtschaftsjahr der Veräußerung der Anteile […] als Erhöhungsbetrag ansetzen,",
+         null
+        ],
+        [
+         "soweit der Einbringende die auf den Einbringungsgewinn entfallende Steuer entrichtet hat",
+         "r1"
+        ],
+        [
+         "und dies durch Vorlage einer Bescheinigung […] nachgewiesen wurde;",
+         null
+        ],
+        [
+         "der Ansatz des Erhöhungsbetrags bleibt ohne Auswirkung auf den Gewinn.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Wahlrecht",
+       "g1"
+      ],
+      [
+       "Steuer bezahlt?",
+       "r1"
+      ],
+      [
+       "gewinnneutral",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "AfA-Beginn: § 23 Abs. 3 S. 2 UmwStG",
+      "Beginn des Wirtschaftsjahres der Veräußerung"
+     ]
+    }
+   ],
+   "caption": "Sperrfristbehaftete Anteile verkauft: Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Der Mini-Fall.\n\n▸ Einbringungsgewinn I: gemeiner Wert des eingebrachten Betriebsvermögens abzüglich Kosten und Ansatz bei der GmbH, gemindert um ein Siebtel je abgelaufenes Zeitjahr seit der Einbringung (§ 22 Abs. 1 S. 3 UmwStG); rückwirkende Versteuerung beim Einbringenden (§ 22 Abs. 1 S. 1, 2 UmwStG).\n▸ Die übernehmende Gesellschaft kann auf Antrag den versteuerten Einbringungsgewinn als Erhöhungsbetrag ansetzen, soweit der Einbringende die Steuer entrichtet hat und dies per Bescheinigung nach § 22 Abs. 5 UmwStG nachgewiesen ist; der Ansatz ist gewinnneutral (§ 23 Abs. 2 S. 1 UmwStG). Voraussetzung: Das eingebrachte Betriebsvermögen gehört noch zur GmbH oder wurde zum gemeinen Wert übertragen (§ 23 Abs. 2 S. 2 UmwStG).\n▸ Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in das die schädliche Veräußerung fällt (§ 23 Abs. 3 S. 2 UmwStG).\n\nIm Beispiel: Einbringung 01.07.2023, Verkauf 10.09.2026 → drei volle Zeitjahre → 700.000 € × 4/7 = 400.000 €. Verteilung im Verhältnis der stillen Reserven: Gebäude 240.000 €, Maschinen 80.000 €, Firmenwert 80.000 €; Mehr-AfA ab 01.01.2026 (Wirtschaftsjahr = Kalenderjahr).\n\nZum Schluss: § 23 Abs. 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 22 Abs. 1 S. 1–3, Abs. 5 UmwStG",
+    "§ 23 Abs. 2 S. 1, 2, Abs. 3 S. 2 UmwStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "vergleich",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-5",
+   "themaTitel": "Ort der ruhenden Lieferung",
+   "figuren": {
+    "A": {
+     "name": "Ana",
+     "kopf": "Bangs 2",
+     "haut": "#D8A47F",
+     "haar": "#3B1F14",
+     "oberteil": "#F9D56E",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Gegenüberstellung",
+     "zeilen": [
+      "Bewegt oder",
+      "ruhend?"
+     ],
+     "norm": "§ 3 Abs. 7 UStG",
+     "unter": "Lieferort",
+     "teaser": "+ Markier-Guide § 3 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:truck-delivery",
+      "farbe": "GELB"
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Bewegt oder ruhend?",
+     "links": {
+      "kopf": "Bewegt",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Mit Transport zum Abnehmer",
+        "§ 3 Abs. 6 S. 1 UStG"
+       ],
+       [
+        "Ort: wo der Transport beginnt",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Ruhend",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Kein Transport zu dieser Lieferung",
+        "§ 3 Abs. 7 S. 1 UStG"
+       ],
+       [
+        "Ort: wo die Ware bei Übergabe ist",
+        null
+       ]
+      ]
+     },
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Und bei Ketten?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Reihengeschäft",
+     "punkte": [
+      [
+       "Mehrere Verkäufe, aber nur ein Transport direkt vom Ersten zum Letzten.",
+       null,
+       "Regular",
+       "§ 3 Abs. 6a S. 1 UStG"
+      ],
+      [
+       "Nur eine Lieferung ist bewegt, alle anderen ruhen.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Schickt der Erste in der Kette die Ware, gehört die Bewegung zu seiner Lieferung.",
+       "ok",
+       "Regular",
+       "§ 3 Abs. 6a S. 2 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Nur eine!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Ruhend: davor oder danach?",
+     "links": {
+      "kopf": "Davor",
+      "farbe": "WEISS",
+      "punkte": [
+       [
+        "Ort: wo der Transport beginnt",
+        "§ 3 Abs. 7 S. 2 Nr. 1 UStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Danach",
+      "farbe": "WEISS",
+      "punkte": [
+       [
+        "Ort: wo der Transport endet",
+        "§ 3 Abs. 7 S. 2 Nr. 2 UStG"
+       ]
+      ]
+     },
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Reihenfolge zählt!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Ein Hersteller in Graz verkauft Möbel an Ana, Händlerin in Passau.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ana verkauft sie an eine Kundin in Passau weiter.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Der Hersteller schickt sie direkt von Graz zur Kundin.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Wo liegen die Orte? Erst überlegen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Graz oder Passau?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Die Lösung",
+     "links": {
+      "kopf": "Hersteller an Ana",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "bewegt, Ort Graz",
+        "§ 3 Abs. 6a S. 2 UStG"
+       ],
+       [
+        "innergemeinschaftliche Lieferung aus Österreich",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Ana an Kundin",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "ruhend, Ort Passau",
+        "§ 3 Abs. 7 S. 2 Nr. 2 UStG"
+       ],
+       [
+        "steuerbar in Deutschland",
+        null
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Danach heißt Ende!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Graz bewegt, Passau ruhend",
+      "Ana erwirbt innergemeinschaftlich in Deutschland",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Transport",
+        "a"
+       ],
+       [
+        " suchen,",
+        null
+       ]
+      ],
+      [
+       [
+        "eine",
+        "b"
+       ],
+       [
+        " Lieferung bewegt,",
+        null
+       ]
+      ],
+      [
+       [
+        "davor",
+        "c"
+       ],
+       [
+        ": Beginn,",
+        null
+       ]
+      ],
+      [
+       [
+        "danach",
+        "d"
+       ],
+       [
+        ": Ende.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du Graz für beide genommen?",
+     "teaser": "Weiterwischen: § 3 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 3 UStG (Auszug)",
+     "absaetze": [
+      [
+       "(6a)",
+       [
+        [
+         "1 Schließen mehrere Unternehmer über denselben Gegenstand Liefergeschäfte ab und gelangt dieser Gegenstand […] unmittelbar vom ersten Unternehmer an den letzten Abnehmer (Reihengeschäft), so ist die Beförderung oder Versendung des Gegenstands",
+         null
+        ],
+        [
+         "nur einer der Lieferungen",
+         "g1"
+        ],
+        [
+         "zuzuordnen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(7)",
+       [
+        [
+         "1 Wird der Gegenstand der Lieferung nicht befördert oder versendet, wird die Lieferung dort ausgeführt,",
+         null
+        ],
+        [
+         "wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet.",
+         "b1"
+        ],
+        [
+         "[…] 2. Lieferungen, die der Beförderungs- oder Versendungslieferung folgen, gelten dort als ausgeführt,",
+         null
+        ],
+        [
+         "wo die Beförderung oder Versendung des Gegenstands endet.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur eine bewegt",
+       "g1"
+      ],
+      [
+       "ruhend",
+       "b1"
+      ],
+      [
+       "danach: Ende",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Bewegt: § 3 Abs. 6 S. 1 UStG",
+      "Ort ist der Beginn des Transports"
+     ]
+    }
+   ],
+   "caption": "Ort der Lieferung: bewegt oder ruhend? Die Gegenüberstellung für die USt-Klausur.\n\n▸ Bewegte Lieferung: Wird der Gegenstand befördert oder versendet, ist der Ort dort, wo die Beförderung oder Versendung beginnt (§ 3 Abs. 6 S. 1 UStG).\n▸ Ruhende Lieferung: Ohne Beförderung oder Versendung ist der Ort dort, wo sich der Gegenstand bei Verschaffung der Verfügungsmacht befindet (§ 3 Abs. 7 S. 1 UStG).\n▸ Reihengeschäft: Die Warenbewegung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG); befördert oder versendet der erste Unternehmer, ist es seine Lieferung (§ 3 Abs. 6a S. 2 UStG). Ruhende Lieferungen davor gelten am Beginn, danach am Ende der Beförderung oder Versendung als ausgeführt (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nIm Beispiel: Hersteller (Graz) → Ana (Passau) → Kundin (Passau), Versendung durch den Hersteller. Bewegt ist die Lieferung an Ana, Ort Graz (innergemeinschaftliche Lieferung aus Österreich); Ana erwirbt innergemeinschaftlich in Deutschland, wo die Versendung endet (§ 1a, § 3d S. 1 UStG). Die Lieferung an die Kundin ist ruhend, Ort Passau, steuerbar im Inland.\n\nZum Schluss: § 3 Abs. 6a und 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 3 Abs. 6a S. 1, 2 UStG",
+    "§ 3 Abs. 7 S. 1, 2 UStG",
+    "§ 1a UStG",
+    "§ 3d S. 1 UStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-7",
+   "themaTitel": "§ 8c KStG",
+   "figuren": {
+    "A": {
+     "name": "Okan",
+     "kopf": "Short 2",
+     "haut": "#B97A56",
+     "haar": "#1E1E24",
+     "oberteil": "#9AD48F",
+     "bart": "Moustache 6"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Vierzig Prozent der Anteile verkauft, also vierzig Prozent Verlust weg? Falsch. Bis fünfzig Prozent bleibt alles."
+    },
+    {
+     "id": "s1",
+     "text": "Erst wenn binnen fünf Jahren mehr als die Hälfte an einen Erwerber geht, ist der Verlust weg, und zwar komplett."
+    },
+    {
+     "id": "s2",
+     "text": "Beispiel: Verlustvortrag fünfhunderttausend Euro, ein Käufer übernimmt sechzig Prozent."
+    },
+    {
+     "id": "s3",
+     "text": "Aber soweit stille Reserven da sind, bleibt der Verlust. Bei zweihunderttausend Reserven sind nur dreihunderttausend weg."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Über die Hälfte, Verlust weg, außer stille Reserven."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "40 % verkauft:",
+     "40 % Verlust weg?"
+    ],
+    "pille": "§ 8c KStG",
+    "figur": "A/sorge",
+    "name": "Okan",
+    "icons": [
+     [
+      "tabler:chart-pie",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "bis 50 % bleibt alles",
+     "wort": "bleibt",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Grenze",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "> 50 %",
+       "size": 150,
+       "wort": "Hälfte"
+      },
+      {
+       "typ": "pille",
+       "text": "binnen 5 Jahren an einen Erwerber",
+       "wort": "Erwerber",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Folge",
+       "wert": "Verlust komplett weg",
+       "farbe": "ROT",
+       "wort": "komplett",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8c Abs. 1 S. 1 KStG",
+       "wort": "Verlust"
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Verlustvortrag",
+       "wert": "500.000 €",
+       "farbe": "WEISS",
+       "wort": "Verlustvortrag",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Anteilskauf",
+       "wert": "60 %",
+       "farbe": "GELB",
+       "wort": "sechzig",
+       "zs": 110
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Beispiel"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Stille Reserven",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "bleibt nutzbar",
+       "wert": "200.000 €",
+       "farbe": "GRUEN",
+       "wort": "zweihunderttausend",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "geht unter",
+       "wert": "300.000 €",
+       "farbe": "ROT",
+       "wort": "dreihunderttausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8c Abs. 1 S. 5 KStG",
+       "wort": "Reserven"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "dreihunderttausend",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Über 50 %:",
+     "Verlust weg,",
+     "außer stille",
+     "Reserven"
+    ],
+    "woerter": [
+     null,
+     "Verlust",
+     "außer",
+     "Reserven"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Reserven",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Anteile an einer Verlust-GmbH verkauft: Was wird aus dem Verlustvortrag? § 8c KStG in Zahlen. 📉\n\n▸ Schädlich ist erst, wenn innerhalb von fünf Jahren mehr als 50 % des gezeichneten Kapitals, der Mitgliedschafts-, Beteiligungs- oder Stimmrechte an einen Erwerber oder ihm nahestehende Personen übertragen werden; dann sind die bis dahin nicht genutzten Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG). Eine Übertragung von 40 % ist für sich allein unschädlich.\n▸ Stille-Reserven-Klausel: Der Verlust bleibt abziehbar, soweit er die im Inland steuerpflichtigen stillen Reserven des Betriebsvermögens nicht übersteigt (§ 8c Abs. 1 S. 5, 6 KStG).\n▸ Daneben prüfen: Konzernklausel (§ 8c Abs. 1 S. 4 KStG) und auf Antrag der fortführungsgebundene Verlustvortrag (§ 8d KStG).\n\nIm Beispiel: Verlustvortrag 500.000 €, Erwerb von 60 %, stille Reserven 200.000 € → 200.000 € bleiben, 300.000 € gehen unter.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8c Abs. 1 S. 1, 4, 5, 6 KStG",
+    "§ 8d KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-7",
+   "frage": [
+    "Steuerfreie Dividende:",
+    "wie viel wird",
+    "hinzugerechnet?"
+   ],
+   "optionen": [
+    "5 %",
+    "10 %",
+    "40 %"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#F3D0B5",
+     "haar": "#A0522D",
+     "oberteil": "#9AD48F",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-7",
+   "titel": [
+    "A: 5 %"
+   ],
+   "optionen": [
+    "5 %",
+    "10 %",
+    "40 %"
+   ],
+   "richtig": 0,
+   "text": "5 % gelten als nicht abziehbare Betriebsausgaben, im Ergebnis bleiben 95 % frei.",
+   "norm": "§ 8b Abs. 5 S. 1 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 2",
+     "haut": "#F3D0B5",
+     "haar": "#A0522D",
+     "oberteil": "#9AD48F",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Anteile verkauft: GmbH stockt auf"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-7",
+   "titel": [
+    "Gewinn des",
+    "Mitunternehmers"
+   ],
+   "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+   "punkte": [
+    [
+     "Stufe 1: Anteil am Gewinn der Gesellschaft plus Ergänzungsbilanz.",
+     "ok",
+     null
+    ],
+    [
+     "Stufe 2: Sondervergütungen und übriges Sonderbetriebsergebnis.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "No Hair 1",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Bewegt oder ruhend?"
+   ],
+   "unter": "A oder B? + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Viele Daten?",
+    "Zeitleiste zeichnen"
+   ],
+   "punkte": [
+    [
+     "Alle Daten aus dem Sachverhalt auf eine Linie.",
+     "ok",
+     null
+    ],
+    [
+     "Fristen und Stichtage farbig markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Erst dann die Fragen beantworten.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:timeline",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Medium Straight",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-8",
+   "titel": [
+    "§ 15a UStG:",
+    "die Eckdaten"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "5 Jahre, Grundstücke 10 Jahre.",
+     "ok",
+     "§ 15a Abs. 1 UStG"
+    ],
+    [
+     "Vorsteuer bis 1.000 €: keine Berichtigung.",
+     "ok",
+     "§ 44 Abs. 1 UStDV"
+    ],
+    [
+     "Unter 10 Prozentpunkten: erst über 1.000 €.",
+     "warn",
+     "§ 44 Abs. 2 UStDV"
+    ]
+   ],
+   "icon": "tabler:calendar-stats",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "U": {
+     "kopf": "Turban",
+     "haut": "#9E6B4A",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "U/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "40 % verkauft: Verlust weg?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-19-03",
+   "titel": [
+    "Arbeitszimmer",
+    "oder Pauschale?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Mittelpunkt",
+      "a"
+     ],
+     [
+      ": Kosten",
+      null
+     ]
+    ],
+    [
+     [
+      "oder 1.260 € pauschal,",
+      null
+     ]
+    ],
+    [
+     [
+      "sonst ",
+      null
+     ],
+     [
+      "6 € je Tag",
+      "b"
+     ]
+    ],
+    [
+     [
+      "bis 1.260 €.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 4 Abs. 5 S. 1 Nr. 6b, 6c EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Short",
+     "haut": "#F0C8A8",
+     "haar": "#A9A9A9",
+     "oberteil": "#7FD6D0",
+     "brille": "Glasses 2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

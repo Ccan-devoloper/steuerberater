@@ -1,0 +1,1161 @@
+{
+ "datum": "2026-11-22",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Buchführung und Bilanzwesen",
+   "themaId": "wochenrueckblick-k3-2026-47",
+   "themaTitel": "Klausur 3 kompakt: fünf Themen der Woche",
+   "figuren": {
+    "A": {
+     "name": "Konrad",
+     "kopf": "No Hair 3",
+     "haut": "#F1C7A5",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 9",
+     "brille": "Glasses 5",
+     "bueste": "Polo and Sweater"
+    },
+    "B": {
+     "name": "Aylin",
+     "kopf": "Hijab",
+     "haut": "#D9A47E",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Klausur 3",
+      "kompakt"
+     ],
+     "unter": "5 Themen",
+     "teaser": "+ Markier-Guide § 16 EStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "NOVEMBER",
+      "tag": "22",
+      "unter": "So · Woche 47"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Themen",
+     "schritte": [
+      [
+       "Abfindung zum Buchwert",
+       "§ 16 Abs. 1 S. 1 Nr. 2, § 6 Abs. 3 EStG",
+       ""
+      ],
+      [
+       "Abfindung über Buchwert",
+       "§ 5 Abs. 2, § 7 Abs. 1 S. 3 EStG",
+       ""
+      ],
+      [
+       "Realteilung",
+       "§ 16 Abs. 3 S. 2–4 EStG",
+       ""
+      ],
+      [
+       "Anschaffungskosten",
+       "§ 255 Abs. 1 HGB",
+       ""
+      ],
+      [
+       "Einlagen bewerten",
+       "§ 6 Abs. 1 Nr. 5 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 16 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Abfindung zum Buchwert",
+     "punkte": [
+      [
+       "Betrieblicher Grund: Veräußerung mit Gewinn 0 €.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 1 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Privater Grund: unentgeltlich, Buchwerte laufen weiter.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Schenkungsteuer daneben prüfen.",
+       "warn",
+       "Bold",
+       "§ 7 Abs. 7 S. 1 ErbStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Konrad: Motiv?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Abfindung über Buchwert",
+     "punkte": [
+      [
+       "Mehrbetrag zuerst auf die anteiligen stillen Reserven.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Rest ist Firmenwert, steuerlich 15 Jahre.",
+       "ok",
+       "Regular",
+       "§ 5 Abs. 2, § 7 Abs. 1 S. 3 EStG"
+      ],
+      [
+       "Aufwand nur beim lästigen Gesellschafter.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Aylin hier: und der Rest?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Realteilung",
+     "punkte": [
+      [
+       "Echt: Gesellschaft endet. Unecht: einer geht mit Betriebsvermögen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert, wenn die Reserven gesichert bleiben.",
+       "ok",
+       "Regular",
+       "§ 16 Abs. 3 S. 2 EStG"
+      ],
+      [
+       "Reine Geldabfindung ist keine Realteilung.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Geld reicht nicht."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Anschaffungskosten",
+     "punkte": [
+      [
+       "Preis netto, plus Nebenkosten und Betriebsbereitschaft.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 1 S. 1, 2 HGB"
+      ],
+      [
+       "Rabatt und Skonto ab.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 1 S. 3 HGB"
+      ],
+      [
+       "Zinsen und Grundschuld bleiben draußen.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Netto denken!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Einlagen bewerten",
+     "punkte": [
+      [
+       "Grundsatz: Teilwert.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
+      ],
+      [
+       "Binnen drei Jahren privat angeschafft: höchstens Kosten minus AfA.",
+       "warn",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+      ]
+     ],
+     "extra": [
+      "Drei Jahre genau nachzählen",
+      "GELB",
+      null
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Deckel!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Klausur 3: Buchführung und Bilanzwesen",
+      "Bilanzsteuerrecht und Personengesellschaften",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Motiv",
+        "a"
+       ],
+       [
+        " vor Abfindung,",
+        null
+       ]
+      ],
+      [
+       [
+        "Reserven",
+        "b"
+       ],
+       [
+        " vor Firmenwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "Betriebsvermögen",
+        "c"
+       ],
+       [
+        " zählt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Deckel",
+        "d"
+       ],
+       [
+        " bei Einlagen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Welches Thema wiederholst du?",
+     "teaser": "Weiterwischen: § 16 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 16 Abs. 3 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(3)",
+       [
+        [
+         "[…] Dagegen ist für den jeweiligen Übertragungsvorgang",
+         null
+        ],
+        [
+         "rückwirkend der gemeine Wert",
+         "r1"
+        ],
+        [
+         "anzusetzen, soweit bei einer Realteilung, bei der einzelne Wirtschaftsgüter übertragen worden sind, zum Buchwert übertragener Grund und Boden, übertragene Gebäude oder andere übertragene wesentliche Betriebsgrundlagen",
+         null
+        ],
+        [
+         "innerhalb einer Sperrfrist",
+         "g1"
+        ],
+        [
+         "nach der Übertragung veräußert oder entnommen werden; diese Sperrfrist endet",
+         null
+        ],
+        [
+         "drei Jahre nach Abgabe der Steuererklärung",
+         "b1"
+        ],
+        [
+         "der Mitunternehmerschaft für den Veranlagungszeitraum der Realteilung. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Folge",
+       "r1"
+      ],
+      [
+       "Sperrfrist",
+       "g1"
+      ],
+      [
+       "Fristbeginn",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 16 Abs. 3 S. 4 EStG",
+      "Auf eine Körperschaft: gemeiner Wert"
+     ]
+    }
+   ],
+   "caption": "Klausur 3 kompakt: fünf Themen der Woche aus Bilanzsteuerrecht und Personengesellschaften. Für den zweiten Anlauf 2027.\n\n1. Abfindung zum Buchwert: betrieblich veranlasst Veräußerung mit Gewinn 0 € (§ 16 Abs. 1 S. 1 Nr. 2 EStG), privat veranlasst unentgeltlich mit Buchwertfortführung (§ 6 Abs. 3 S. 1 EStG); Schenkungsteuer nach § 7 Abs. 7 S. 1 ErbStG prüfen.\n2. Abfindung über Buchwert: Mehrbetrag zuerst auf anteilige stille Reserven, Rest Firmenwert (§ 5 Abs. 2 EStG), Nutzungsdauer 15 Jahre (§ 7 Abs. 1 S. 3 EStG); sofort Aufwand nur beim lästigen Gesellschafter (BFH vom 14.06.1994, VIII R 37/93).\n3. Realteilung: Buchwertfortführung bei Sicherung der stillen Reserven (§ 16 Abs. 3 S. 2 EStG), Sperrfrist drei Jahre nach Abgabe der Feststellungserklärung (§ 16 Abs. 3 S. 3 EStG), Körperschaften (§ 16 Abs. 3 S. 4 EStG); reine Geldabfindung ist keine Realteilung.\n4. Anschaffungskosten: Preis netto, Nebenkosten, Betriebsbereitschaft, abzüglich Preisminderungen (§ 255 Abs. 1 HGB).\n5. Einlagen: Teilwert, binnen drei Jahren höchstens fortgeführte Kosten (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG).\n\nZum Schluss: § 16 Abs. 3 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 3 S. 2–4 EStG",
+    "§ 6 Abs. 3 S. 1 EStG",
+    "§ 7 Abs. 7 S. 1 ErbStG",
+    "§ 5 Abs. 2 EStG",
+    "§ 7 Abs. 1 S. 3 EStG",
+    "BFH vom 14.06.1994, VIII R 37/93",
+    "§ 255 Abs. 1 HGB",
+    "§ 6 Abs. 1 Nr. 5 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b10-29",
+   "themaTitel": "Kleinunternehmer ab 2025: Die Grenzen des § 19 UStG",
+   "figuren": {
+    "A": {
+     "name": "Smilla",
+     "kopf": "Long Curly",
+     "haut": "#F3D0B5",
+     "haar": "#B5651D",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Kleinunternehmer:",
+      "die Grenzen"
+     ],
+     "norm": "§ 19 Abs. 1 UStG",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 19 UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Vorjahr",
+        "Bold",
+        44
+       ],
+       [
+        "25.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "laufend 100.000 €",
+        "ExtraBold",
+        44
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "Smilla gestaltet Logos. Gesamtumsatz 2025: 23.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2026 hat sie bis zum 10.11. schon 96.000 € vereinnahmt. Am 12.11. folgt ein Auftrag über 7.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie sind die Umsätze 2026 und 2027 zu behandeln?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Smilla."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die zwei Grenzen",
+     "punkte": [
+      [
+       "Vorjahr: Gesamtumsatz höchstens 25.000 €.",
+       "ok",
+       "Regular",
+       "§ 19 Abs. 1 S. 1 UStG"
+      ],
+      [
+       "Laufendes Jahr: höchstens 100.000 €.",
+       "ok",
+       "Regular",
+       "§ 19 Abs. 1 S. 1 UStG"
+      ],
+      [
+       "Folge: Umsätze steuerfrei, dafür kein Vorsteuerabzug.",
+       "warn",
+       "Bold",
+       "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Zwei Hürden."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Grenze im Jahr gerissen",
+     "punkte": [
+      [
+       "Schon der Umsatz, mit dem 100.000 € überschritten werden, ist regulär zu versteuern.",
+       "warn",
+       "Bold",
+       "Abschn. 19.1 UStAE"
+      ],
+      [
+       "Frühere Umsätze desselben Jahres bleiben steuerfrei.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Sofort?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Bis 10.11.: 96.000 €, steuerfrei.",
+       "ok",
+       "Regular",
+       "§ 19 Abs. 1 S. 1 UStG"
+      ],
+      [
+       "Auftrag über 7.000 €: Summe 103.000 €, dieser Umsatz ist schon steuerpflichtig.",
+       "nein",
+       "Bold",
+       "Abschn. 19.1 UStAE"
+      ],
+      [
+       "2027: Regelbesteuerung, weil 2026 über 25.000 € lag.",
+       "nein",
+       "Regular",
+       "§ 19 Abs. 1 S. 1 UStG"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Ab jetzt mit 19 %."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Smilla gründet erst am 01.07.2026.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Grenze gilt im Gründungsjahr?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Neustart?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Im Jahr der Aufnahme zählt allein der Umsatz dieses Jahres.",
+       "ok",
+       "Regular",
+       "Abschn. 19.1 UStAE"
+      ],
+      [
+       "Grenze dann: 25.000 €, nicht 100.000 €.",
+       "warn",
+       "Bold",
+       "Abschn. 19.1 UStAE"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Gut zu wissen."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Was zum Gesamtumsatz zählt",
+     "punkte": [
+      [
+       "Gerechnet wird nach vereinnahmten Entgelten.",
+       "warn",
+       "Regular",
+       "§ 19 Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Bestimmte steuerfreie Umsätze und Verkäufe von Anlagevermögen bleiben außen vor.",
+       "ok",
+       "Regular",
+       "§ 19 Abs. 2 S. 1 Nr. 1, 2, S. 2 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Nicht alles zählt."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Vorjahr ≤ 25.000 € und laufendes Jahr ≤ 100.000 €",
+      "Gründungsjahr: 25.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Vorjahr",
+        "a"
+       ],
+       [
+        " 25.000 €,",
+        null
+       ]
+      ],
+      [
+       [
+        "laufend",
+        "b"
+       ],
+       [
+        " 100.000 €,",
+        null
+       ]
+      ],
+      [
+       [
+        "der Umsatz",
+        null
+       ],
+       [
+        " drüber",
+        "c"
+       ]
+      ],
+      [
+       [
+        "ist schon",
+        null
+       ],
+       [
+        " steuerpflichtig",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du den 7.000-€-Auftrag erkannt?",
+     "teaser": "Weiterwischen: § 19 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 19 UStG Kleinunternehmer (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Ein von einem im Inland […] ansässigen Unternehmer bewirkter Umsatz im Sinne des § 1 Absatz 1 Nummer 1 ist",
+         null
+        ],
+        [
+         "steuerfrei,",
+         "g1"
+        ],
+        [
+         "wenn der Gesamtumsatz nach Absatz 2",
+         null
+        ],
+        [
+         "im vorangegangenen Kalenderjahr 25 000 Euro nicht überschritten hat",
+         "b1"
+        ],
+        [
+         "und",
+         null
+        ],
+        [
+         "im laufenden Kalenderjahr 100 000 Euro nicht überschreitet.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Gesamtumsatz ist die",
+         null
+        ],
+        [
+         "nach vereinnahmten Entgelten",
+         "gr1"
+        ],
+        [
+         "berechnete Summe der vom Unternehmer ausgeführten steuerbaren Umsätze […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "seit 2025: frei",
+       "g1"
+      ],
+      [
+       "Vorjahr",
+       "b1"
+      ],
+      [
+       "laufend",
+       "r1"
+      ],
+      [
+       "Ist-Prinzip",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: Abschn. 19.1 UStAE",
+      "Grenzumsatz und Gründungsjahr"
+     ]
+    }
+   ],
+   "caption": "Prüfungsfrage zur Kleinunternehmerregelung seit 2025: Welche Grenzen gelten nach § 19 UStG?\n\n▸ Umsätze sind steuerfrei, wenn der Gesamtumsatz im Vorjahr 25.000 € nicht überschritten hat und im laufenden Jahr 100.000 € nicht überschreitet (§ 19 Abs. 1 S. 1 UStG). Kein Vorsteuerabzug für steuerfreie Umsätze (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n▸ Gesamtumsatz nach vereinnahmten Entgelten; bestimmte steuerfreie Umsätze und Umsätze mit Anlagevermögen bleiben außer Ansatz (§ 19 Abs. 2 UStG).\n▸ Bereits der Umsatz, mit dem die 100.000-€-Grenze überschritten wird, unterliegt der Regelbesteuerung; frühere Umsätze bleiben steuerfrei (Abschn. 19.1 UStAE i. d. F. des BMF-Schreibens vom 18.03.2025).\n▸ Bei Neuaufnahme der Tätigkeit zählt allein der Umsatz des laufenden Jahres, Grenze 25.000 € (Abschn. 19.1 UStAE).\n\nBeispiel: 96.000 € steuerfrei, der Auftrag über 7.000 € (Summe 103.000 €) ist steuerpflichtig, 2027 Regelbesteuerung.\n\nZum Schluss: § 19 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 19 Abs. 1 S. 1, Abs. 2 UStG",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+    "Abschn. 19.1 UStAE (BMF vom 18.03.2025)"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t6-22",
+   "themaTitel": "Dividenden der Organgesellschaft: Wer wendet § 8b KStG an?",
+   "figuren": {
+    "A": {
+     "name": "Ruben",
+     "kopf": "Twists",
+     "haut": "#7A4E33",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Die Organgesellschaft bekommt eine Dividende und stellt sie selbst frei? Falsch. Das macht erst der Organträger."
+    },
+    {
+     "id": "s1",
+     "text": "Bei der Organgesellschaft bleibt Paragraf acht b außen vor. Die Dividende geht brutto ins zugerechnete Einkommen."
+    },
+    {
+     "id": "s2",
+     "text": "Erst beim Organträger wird entschieden: Ist er eine GmbH, gilt Paragraf acht b. Ist er ein Mensch, das Teileinkünfteverfahren."
+    },
+    {
+     "id": "s3",
+     "text": "Die Zehn-Prozent-Grenze prüft jede Gesellschaft für ihre eigenen Anteile."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: brutto zurechnen, erst beim Organträger freistellen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Organgesellschaft",
+     "stellt frei?"
+    ],
+    "pille": "§ 15 S. 1 Nr. 2 KStG",
+    "figur": "A/skeptisch",
+    "name": "Ruben",
+    "icons": [
+     [
+      "tabler:building-skyscraper",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Erst der Organträger",
+     "wort": "Organträger",
+     "farbe": "GRUEN",
+     "zs": 72
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Organgesellschaft",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "§ 8b KStG",
+       "wert": "nicht anwenden",
+       "farbe": "ROT",
+       "wort": "außen",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Dividende brutto",
+       "unter": "im zugerechneten Einkommen",
+       "wort": "brutto",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 S. 1 Nr. 2 S. 1 KStG",
+       "wort": "Einkommen"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Organgesellschaft"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Organträger",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "GmbH",
+       "wert": "§ 8b KStG",
+       "farbe": "GRUEN",
+       "wort": "GmbH",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Mensch",
+       "wert": "Teileinkünfte",
+       "farbe": "GELB",
+       "wort": "Mensch",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 S. 1 Nr. 2 S. 2 KStG",
+       "wort": "Teileinkünfteverfahren"
+      }
+     ],
+     "figur": {
+      "ref": "A/erklaert",
+      "wort": "Erst",
+      "hoehe": 440
+     }
+    },
+    {
+     "seg": "s3",
+     "titel": "Die 10-%-Grenze",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Streubesitz",
+       "wert": "getrennt prüfen",
+       "farbe": "WEISS",
+       "wort": "Zehn",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 S. 1 Nr. 2 S. 4 KStG",
+       "wort": "Anteile"
+      }
+     ],
+     "icon": [
+      "tabler:percentage",
+      "GELB",
+      "prüft"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Brutto zurechnen,",
+     "erst beim",
+     "Organträger",
+     "freistellen"
+    ],
+    "woerter": [
+     "brutto",
+     "erst",
+     "Organträger",
+     "freistellen"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "freistellen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Dividende an die Organgesellschaft: Wer wendet § 8b KStG an? 🏢\n\n▸ Bei der Organgesellschaft sind § 8b Abs. 1 bis 6 KStG nicht anzuwenden; die Dividende geht brutto in das dem Organträger zugerechnete Einkommen ein (§ 15 S. 1 Nr. 2 S. 1 KStG).\n▸ Erst bei der Ermittlung des Einkommens des Organträgers sind § 8b KStG bzw. § 3 Nr. 40 und § 3c Abs. 2 EStG anzuwenden (§ 15 S. 1 Nr. 2 S. 2 KStG): Kapitalgesellschaft als Organträger § 8b KStG, natürliche Person Teileinkünfteverfahren.\n▸ Für die 10-%-Grenze des § 8b Abs. 4 KStG werden Beteiligungen von Organgesellschaft und Organträger getrennt betrachtet (§ 15 S. 1 Nr. 2 S. 4 KStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 15 S. 1 Nr. 2 S. 1, 2, 4 KStG",
+    "§ 8b Abs. 1–6 KStG",
+    "§ 3 Nr. 40, § 3c Abs. 2 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-steuersatz-2026",
+   "frage": [
+    "Körperschaftsteuer:",
+    "Satz für 2026?"
+   ],
+   "optionen": [
+    "15 %",
+    "14 %",
+    "10 %"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 1",
+     "haut": "#5E3B26",
+     "haar": "#1E1E24",
+     "oberteil": "#BFE3F5",
+     "bart": "Full",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-steuersatz-2026",
+   "titel": [
+    "A: 15 %"
+   ],
+   "optionen": [
+    "15 %",
+    "14 %",
+    "10 %"
+   ],
+   "richtig": 0,
+   "text": "Bis 2027 bleibt es bei 15 %. Ab 2028 sinkt der Satz jedes Jahr um einen Punkt.",
+   "norm": "§ 23 Abs. 1 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 1",
+     "haut": "#5E3B26",
+     "haar": "#1E1E24",
+     "oberteil": "#BFE3F5",
+     "bart": "Full",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Klausur 3 kompakt"
+   ],
+   "unter": "Rückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-glossar-1",
+   "titel": [
+    "Maßgeblichkeit:",
+    "HGB als Start"
+   ],
+   "norm": "§ 5 Abs. 1 S. 1 EStG",
+   "punkte": [
+    [
+     "Die Steuerbilanz folgt den Grundsätzen ordnungsmäßiger Buchführung.",
+     "ok",
+     "§ 5 Abs. 1 S. 1 Hs. 1 EStG"
+    ],
+    [
+     "Steuerliche Sonderregeln gehen vor, etwa zur Bewertung.",
+     "warn",
+     "§ 5 Abs. 6 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Short",
+     "haut": "#B97A56",
+     "haar": "#B8B8B8",
+     "oberteil": "#F2B880",
+     "brille": "Glasses",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Kleinunternehmer-Grenzen"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sonntag:",
+    "Fehlerliste"
+   ],
+   "punkte": [
+    [
+     "Drei Fehler der Woche aufschreiben.",
+     "ok",
+     null
+    ],
+    [
+     "Zu jedem Fehler die richtige Norm.",
+     "ok",
+     null
+    ],
+    [
+     "Montag zuerst diese Liste lesen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-details",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-377",
+   "titel": [
+    "Sonstiger VA:",
+    "welche Korrektur?"
+   ],
+   "punkte": [
+    [
+     "Offenbarer Fehler: berichtigen.",
+     "ok",
+     "§ 129 AO"
+    ],
+    [
+     "Rechtswidrig: Rücknahme.",
+     "ok",
+     "§ 130 AO"
+    ],
+    [
+     "Rechtmäßig: Widerruf.",
+     "ok",
+     "§ 131 AO"
+    ]
+   ],
+   "icon": "tabler:git-branch",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Organgesellschaft stellt frei?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-1",
+   "titel": [
+    "Eintragung",
+    "scheitert?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Keine Eintragung",
+      "a"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "keine",
+      null
+     ],
+     [
+      " Körperschaft",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "Personengesellschaft",
+      "c"
+     ]
+    ],
+    [
+     [
+      "oder Einzelunternehmen.",
+      null
+     ]
+    ]
+   ],
+   "norm": "H 1.1 KStH",
+   "figuren": {
+    "M": {
+     "kopf": "Bun",
+     "haut": "#F0C8A8",
+     "haar": "#6B3E26",
+     "oberteil": "#F4A3B5",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

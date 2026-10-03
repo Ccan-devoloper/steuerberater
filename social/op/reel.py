@@ -98,7 +98,9 @@ class Reel:
             if stil == "knall":
                 self.zeige(kreuz_i(540, yk + 100, C, gr=200), t0, t_ende, "slam")
             else:
-                self.zeige(pille(st["text"], 797 if stil == "split" else 800, yk + (230 if stil == "split" else -70), C, fill=ROT, size=52, anker="m", pad=(28, 12)),
+                sw = F("Bold", 52).getlength(st["text"]) + 70
+                px = min(797 if stil == "split" else 800, 1020 - sw / 2)
+                self.zeige(pille(st["text"], px, yk + (230 if stil == "split" else -120), C, fill=ROT, size=52, anker="m", pad=(28, 12)),
                            t0, t_ende, "punch")
             self.SFX.append(("stempel", t0, 1.6))
 

@@ -33,7 +33,7 @@ Turban, Twists, Twists 2, hat-beanie, hat-hip. Büsten: Blazer Black Tee, Button
 Device, Dress, Explaining, Gym Shirt, Hoodie, Macbook, Paper, Pointing Up, Polo and Sweater, Shirt and Coat,
 Sporty Tee, Striped Pocket Tee, Striped Tee, Sweater, Sweater Dots, Tee 1, Tee 2, Tee Arms Crossed, Turtleneck,
 jacket. Bärte: Chin, Full, Full 2–4, Goatee 1–2, Moustache 1–9. Brillen: Glasses, Glasses 2–5, Sunglasses.
-Kleidung nie in der Rahmenfarbe der Klausur. Haut realistisch und divers.
+Kleidung nie in der Rahmenfarbe der Klausur. Die Büsten Tee 2 und Turtleneck ignorieren `oberteil` (immer schwarz); Striped Pocket Tee ist für das Cover zu breit. Haut realistisch und divers.
 
 ## Karussell: `"folien": [ … ]`
 Erste Folie `cover`, dann Inhalt, vorletzte meist `merke`, letzte `gesetz`. 7–11 Folien. Farbnamen:
@@ -50,6 +50,7 @@ WEISS, GELB, GRUEN, ROT, BLAU, LILA, TUERKIS, ORANGE, PINK, HELL.
 | `merke` | `oben`: [zeile1, zeile2, farbe] (Lösung/Formel), `zeilen`: [[[text, "a"\|null], …], …] (Markierungen a–d, ≤ 4 Zeilen, je ≤ 26 Zeichen), `speichern`, `frage`, `teaser` |
 | `gesetz` | `titel` („Im Gesetz markieren“ / „Im Erlass markieren“ / „In der Richtlinie markieren“), `kopf` („§ 108 Fristen und Termine“ bzw. „AEAO zu § 108 · Beck-Erlass 800 § 108/1“), `absaetze`: [[nr\|null, [[text, mark\|null], …]], …] (mark: g1, b1, r1, gr1 … – gelb, blau, rot, grün), `notizen`: [[text, mark], …] (≤ 4, kurz), `randnotiz`: [zeile1, zeile2] |
 
+Zeichen: nur, was Nunito kann (kein „→“, keine Bruchzeichen wie „⅕“; der Prüflauf meldet das).
 Grenzen (der Renderer bricht sonst ab): ≤ 40 Wörter je Folie (Normen zählen als ein Wort), Titel einzeilig.
 Gesetzestext nur im Wortlaut der aktuellen Fassung (gesetze-im-internet.de), Auslassungen mit „[…]“.
 

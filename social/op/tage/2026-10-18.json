@@ -1,0 +1,217 @@
+{
+ "datum": "2026-10-18",
+ "beitraege": [
+  {
+   "slot": "b1", "zeit": "08:30", "format": "wochenrueckblick", "klausur": 1, "fach": "ust", "fachLabel": "AO · USt · ErbSt",
+   "themaId": "wochenrueckblick-k1-2026-42", "themaTitel": "Klausur 1 kompakt: fünf Dauerbrenner der Woche",
+   "figuren": {
+    "A": {"name": "Aylin", "kopf": "Long", "haut": "#D8A47F", "haar": "#3B2416", "oberteil": "#F7C948", "bueste": "Coffee"}
+   },
+   "folien": [
+    {"typ": "cover", "badge": "Wochenrückblick", "badgeFarbe": "WEISS", "zeilen": ["Klausur 1", "kompakt"],
+     "unter": "5 Dauerbrenner", "teaser": "+ Markier-Guide § 3 UStG",
+     "motiv": {"typ": "kalender", "monat": "OKTOBER", "tag": "18", "unter": "So · Rückblick"}, "figur": "A:erklaert"},
+    {"typ": "schritte", "titel": "Die 5 Dauerbrenner",
+     "schritte": [
+      ["Ablaufhemmung", "§ 171 Abs. 3, 3a AO", ""],
+      ["Nachlassverbindlichkeiten", "§ 10 Abs. 5, 6a ErbStG", ""],
+      ["Reihengeschäft", "§ 3 Abs. 6a, 7 UStG", ""],
+      ["Lohnsumme", "§ 13a Abs. 3 ErbStG", ""],
+      ["Neue Tatsachen", "§§ 173, 177 AO", ""]
+     ],
+     "teaser": "Am Ende: § 3 Abs. 7 UStG markiert"},
+    {"typ": "inhalt", "titel": "1 · Ablaufhemmung",
+     "punkte": [
+      ["Ein Änderungsantrag hemmt die Festsetzungsfrist nur, soweit er reicht.", "warn", "Regular", "§ 171 Abs. 3 AO"],
+      ["Ein zulässiger Einspruch hemmt den gesamten Steueranspruch.", "ok", "Bold", "§ 171 Abs. 3a S. 2 AO"]
+     ],
+     "figur": "A:redet", "x": 790, "blase": "Nachschieben? Nur mit Einspruch."},
+    {"typ": "inhalt", "titel": "2 · Nachlassverbindlichkeiten",
+     "punkte": [
+      ["Für Bestattung und Abwicklung pauschal 15.000 €, je Erbfall.", "ok", "Regular", "§ 10 Abs. 5 Nr. 3 S. 2 ErbStG"],
+      ["Schulden zu steuerbefreitem Vermögen sind nicht abzugsfähig.", "nein", "Bold", "§ 10 Abs. 6a S. 1 ErbStG"]
+     ],
+     "figur": "A:denkt", "x": 290, "blase": "Familienheim-Darlehen?"},
+    {"typ": "inhalt", "titel": "3 · Reihengeschäft",
+     "punkte": [
+      ["Wer transportiert, bestimmt die bewegte Lieferung.", "ok", "Regular", "§ 3 Abs. 6a S. 2–5 UStG"],
+      ["Nur sie kann als innergemeinschaftliche Lieferung steuerfrei sein.", "warn", "Bold", "§ 6a UStG"],
+      ["Ruhende davor: Ort am Beginn, danach: am Ende.", "ok", "Regular", "§ 3 Abs. 7 S. 2 UStG"]
+     ],
+     "figur": "A:erklaert", "x": 790, "blase": "Transport zuerst!"},
+    {"typ": "inhalt", "titel": "4 · Lohnsumme",
+     "punkte": [
+      ["Regelverschonung: 400 % der Ausgangslohnsumme in fünf Jahren.", "ok", "Regular", "§ 13a Abs. 3 S. 1 ErbStG"],
+      ["Verfehlt? Abschlag sinkt im selben Verhältnis, nicht um Prozentpunkte.", "warn", "Bold", "§ 13a Abs. 3 S. 5 ErbStG"]
+     ],
+     "figur": "A:skeptisch", "x": 290, "blase": "76,5 %, nicht 75 %."},
+    {"typ": "inhalt", "titel": "5 · Neue Tatsachen",
+     "punkte": [
+      ["Grobes Verschulden ist unbeachtlich bei Zusammenhang mit einer steuererhöhenden Tatsache.", "ok", "Regular", "§ 173 Abs. 1 Nr. 2 S. 2 AO"],
+      ["Übrige Fehler rechnet § 177 AO gegen, soweit die Änderung reicht.", "ok", "Bold", "§ 177 Abs. 1 AO"]
+     ],
+     "figur": "A:froh", "x": 790, "blase": "Nichts verschenken!"},
+    {"typ": "merke", "oben": ["Woche 42: Klausur 1", "AO, Umsatzsteuer, Erbschaftsteuer", "GELB"],
+     "zeilen": [[["Antrag", "a"], [" hemmt nur soweit,", null]], [["Pauschale", "b"], [" je Erbfall,", null]], [["Transport", "c"], [" entscheidet,", null]], [["Zusammenhang", "d"], [" hilft.", null]]],
+     "speichern": "Speichern für Klausur 1", "frage": "Welcher Punkt sitzt noch nicht?", "teaser": "Weiterwischen: § 3 UStG markiert"},
+    {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 3 Abs. 7 UStG (Auszug)",
+     "absaetze": [
+      [7, [["Wird der Gegenstand der Lieferung nicht befördert oder versendet, wird die Lieferung dort ausgeführt,", null], ["wo sich der Gegenstand zur Zeit der Verschaffung der Verfügungsmacht befindet.", "b1"], ["In den Fällen der Absätze 6a und 6b gilt Folgendes: 1. Lieferungen, die der Beförderungs- oder Versendungslieferung", null], ["vorangehen", "g1"], [", gelten dort als ausgeführt,", null], ["wo die Beförderung oder Versendung des Gegenstands beginnt.", "g1"], ["2. Lieferungen, die der Beförderungs- oder Versendungslieferung", null], ["folgen", "r1"], [", gelten dort als ausgeführt,", null], ["wo die Beförderung oder Versendung des Gegenstands endet.", "r1"]]]
+     ],
+     "notizen": [["ruhende Lieferung", "b1"], ["davor: Beginn", "g1"], ["danach: Ende", "r1"]],
+     "randnotiz": ["Bewegte Lieferung: § 3 Abs. 6 S. 1 UStG", "Ort, wo der Transport beginnt"]}
+   ],
+   "caption": "Klausur 1 kompakt: fünf Dauerbrenner der Woche.\n\n1. Ablaufhemmung: Ein Antrag außerhalb von Einspruch und Klage hemmt nur, soweit er reicht (§ 171 Abs. 3 AO); ein zulässiger Einspruch hemmt hinsichtlich des gesamten Steueranspruchs (§ 171 Abs. 3a S. 2 AO).\n2. Nachlassverbindlichkeiten: 15.000 € pauschal für Bestattung und Abwicklung je Erbfall (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Schulden zu steuerbefreitem Vermögen sind nicht abzugsfähig (§ 10 Abs. 6a S. 1 ErbStG).\n3. Reihengeschäft: Der Transport bestimmt die bewegte Lieferung (§ 3 Abs. 6a UStG); nur sie kann steuerfreie innergemeinschaftliche Lieferung sein (§ 4 Nr. 1 Buchst. b, § 6a UStG); ruhende Lieferungen am Beginn oder Ende (§ 3 Abs. 7 S. 2 UStG).\n4. Lohnsumme: 400 % in fünf Jahren (§ 13a Abs. 3 S. 1 ErbStG); bei Unterschreitung sinkt der Abschlag im selben Verhältnis (§ 13a Abs. 3 S. 5 ErbStG).\n5. Neue Tatsachen: grobes Verschulden unbeachtlich bei Zusammenhang mit Tatsachen nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO); weitere materielle Fehler über § 177 Abs. 1 AO.\n\nZum Schluss: § 3 Abs. 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#umsatzsteuer"],
+   "quellen": ["§ 171 Abs. 3, 3a AO", "§ 10 Abs. 5 Nr. 3, Abs. 6a ErbStG", "§ 3 Abs. 6a, 7 UStG", "§ 4 Nr. 1 Buchst. b, § 6a UStG", "§ 13a Abs. 3 ErbStG", "§ 173 Abs. 1 Nr. 2 AO", "§ 177 Abs. 1 AO"]
+  },
+  {
+   "slot": "b2", "zeit": "13:30", "format": "pruefungsfrage", "klausur": 2, "fach": "istr", "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-04", "themaTitel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
+   "figuren": {
+    "A": {"name": "Sven", "kopf": "Short 2", "haut": "#F5D6C1", "haar": "#C9A15A", "oberteil": "#8DB3F2", "bueste": "Button Shirt 1"}
+   },
+   "folien": [
+    {"typ": "cover", "badge": "Prüfungsfrage", "badgeFarbe": "WEISS", "zeilen": ["DBA einseitig", "überspielen?"], "norm": "§ 50d Abs. 8 EStG",
+     "unter": "Treaty Override", "teaser": "+ Markier-Guide § 50d EStG",
+     "motiv": {"typ": "icon", "name": "tabler:world", "farbe": "GELB"}, "figur": "A:fragt"},
+    {"typ": "inhalt", "titel": "Der Fall",
+     "punkte": [
+      ["Sven wohnt in Köln und arbeitet 2026 acht Monate auf einer Baustelle im DBA-Ausland.", "ok", "Regular", null],
+      ["Nach dem DBA wäre sein Lohn in Deutschland freizustellen.", "ok", "Regular", null],
+      ["Einen Nachweis über Steuerzahlung oder Verzicht im Ausland hat er nicht.", "warn", "Bold", null]
+     ],
+     "figur": "A:redet", "x": 790, "blase": "Das DBA schützt mich!"},
+    {"typ": "inhalt", "titel": "Jetzt du",
+     "punkte": [
+      ["Darf das Finanzamt den Lohn trotz DBA besteuern?", "warn", "Bold", null],
+      ["Denk an den Rang, den ein DBA im deutschen Recht hat.", "ok", "Regular", null]
+     ],
+     "extra": ["Lösung: weiterwischen", "GELB", null],
+     "figur": "A:denkt", "x": 290, "blase": "Völkerrecht geht vor?"},
+    {"typ": "inhalt", "titel": "Lösung: ja",
+     "punkte": [
+      ["Freistellung von Arbeitslohn nur mit Nachweis der Besteuerung oder des Verzichts im anderen Staat.", "ok", "Regular", "§ 50d Abs. 8 S. 1 EStG"],
+      ["Ohne Nachweis wird der Lohn in Deutschland besteuert.", "nein", "Bold", null],
+      ["Kommt der Nachweis später, wird der Bescheid geändert.", "ok", "Regular", "§ 50d Abs. 8 S. 2 EStG"]
+     ],
+     "figur": "A:staunt", "x": 790, "blase": "Trotz Abkommen?"},
+    {"typ": "inhalt", "titel": "Warum darf er das?",
+     "punkte": [
+      ["Ein DBA gilt im Inland erst durch ein Zustimmungsgesetz.", "ok", "Regular", "Art. 59 Abs. 2 S. 1 GG"],
+      ["Es hat damit nur den Rang eines einfachen Bundesgesetzes.", "warn", "Bold", null],
+      ["Ein späteres Gesetz darf abweichen: Treaty Override ist zulässig.", "ok", "Regular", "BVerfG vom 15.12.2015, 2 BvL 1/12"]
+     ]},
+    {"typ": "inhalt", "falle": true, "titel": "Völkerrecht geht vor?",
+     "punkte": [
+      ["Vorrang haben nur die allgemeinen Regeln des Völkerrechts.", "ok", "Regular", "Art. 25 GG"],
+      ["Ein DBA ist ein einzelner Vertrag und gehört nicht dazu.", "nein", "Bold", null]
+     ],
+     "figur": "A:sorge", "x": 290, "blase": "Also kein Schutz?"},
+    {"typ": "inhalt", "titel": "Auch § 50d Abs. 9 EStG",
+     "punkte": [
+      ["Stellt der andere Staat die Einkünfte nach seiner DBA-Auslegung ebenfalls frei, entfällt die deutsche Freistellung.", "warn", "Regular", "§ 50d Abs. 9 S. 1 Nr. 1 EStG"],
+      ["Ziel: keine Einkünfte, die nirgends besteuert werden.", "ok", "Bold", null]
+     ],
+     "figur": "A:erklaert", "x": 790, "blase": "Doppelt frei geht nicht."},
+    {"typ": "merke", "oben": ["Lösung: Ja, ohne Nachweis wird besteuert", "§ 50d Abs. 8 EStG überspielt das DBA", "GELB"],
+     "zeilen": [[["DBA", "a"], [" ist einfaches", null]], [["Bundesgesetz", "b"], [":", null]], [["Später", "c"], [" geht vor,", null]], [["Override", "d"], [" ist zulässig.", null]]],
+     "speichern": "Speichern für Klausur 2", "frage": "Kennst du einen weiteren Override?", "teaser": "Weiterwischen: § 50d EStG markiert"},
+    {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 50d Abs. 8 EStG (Auszug)",
+     "absaetze": [
+      [8, [["Sind Einkünfte eines unbeschränkt Steuerpflichtigen aus nichtselbständiger Arbeit (§ 19) nach einem Abkommen zur Vermeidung der Doppelbesteuerung von der Bemessungsgrundlage der deutschen Steuer auszunehmen, wird die Freistellung bei der Veranlagung", null], ["ungeachtet des Abkommens", "r1"], ["nur gewährt, soweit der Steuerpflichtige", null], ["nachweist", "g1"], [", dass der Staat, dem nach dem Abkommen das Besteuerungsrecht zusteht,", null], ["auf dieses Besteuerungsrecht verzichtet hat oder dass die in diesem Staat auf die Einkünfte festgesetzten Steuern entrichtet wurden.", "b1"], ["Wird ein solcher Nachweis erst geführt, nachdem die Einkünfte in eine Veranlagung zur Einkommensteuer einbezogen wurden,", null], ["ist der Steuerbescheid insoweit zu ändern.", "gr1"]]]
+     ],
+     "notizen": [["Treaty Override", "r1"], ["Beweislast", "g1"], ["Verzicht oder Zahlung", "b1"], ["Änderung später", "gr1"]],
+     "randnotiz": ["BVerfG vom 15.12.2015, 2 BvL 1/12", "Treaty Override verfassungsgemäß"]}
+   ],
+   "caption": "Prüfungsfrage: Darf der Gesetzgeber ein DBA einseitig überspielen?\n\nFall: Wohnsitz in Köln, Arbeitslohn aus dem DBA-Ausland, nach dem Abkommen freizustellen – aber kein Nachweis über Besteuerung oder Verzicht.\n\n▸ Freistellung von Arbeitslohn bei der Veranlagung ungeachtet des Abkommens nur, soweit der Steuerpflichtige den Verzicht des anderen Staates oder die Entrichtung der dort festgesetzten Steuern nachweist (§ 50d Abs. 8 S. 1 EStG). Späterer Nachweis: Änderung des Bescheids (§ 50d Abs. 8 S. 2 EStG).\n▸ DBA gelten innerstaatlich über das Zustimmungsgesetz (Art. 59 Abs. 2 S. 1 GG) und haben den Rang eines einfachen Bundesgesetzes; ein späteres Gesetz kann abweichen. Treaty Override ist verfassungsrechtlich zulässig (BVerfG vom 15.12.2015, 2 BvL 1/12).\n▸ Vorrang vor Bundesgesetzen haben nur die allgemeinen Regeln des Völkerrechts (Art. 25 GG), nicht einzelne Abkommen.\n▸ Weiterer Override: Freistellung entfällt u. a., wenn der andere Staat das DBA so anwendet, dass er die Einkünfte ebenfalls freistellt (§ 50d Abs. 9 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 50d Abs. 8 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#internationalessteuerrecht"],
+   "quellen": ["§ 50d Abs. 8, 9 EStG", "Art. 59 Abs. 2 S. 1 GG", "Art. 25 GG", "BVerfG vom 15.12.2015, 2 BvL 1/12"]
+  },
+  {
+   "slot": "b3", "zeit": "19:00", "format": "reel", "reelTyp": "merksatz", "klausur": 3, "fach": "bilanz", "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-formel-latente-steuern", "themaTitel": "Latente Steuern",
+   "figuren": {
+    "A": {"name": "Ines", "kopf": "Bun", "haut": "#7A4A2E", "haar": "#1C1A1A", "oberteil": "#F4A3B5"}
+   },
+   "sprecher": [
+    {"id": "hook", "text": "Latente Steuern sind immer Pflicht? Nicht ganz. Eine Belastung musst du ansetzen, eine Entlastung darfst du."},
+    {"id": "s1", "text": "Gerechnet wird: Unterschied zwischen Handels- und Steuerbilanz mal Steuersatz. Bei hunderttausend Euro und dreißig Prozent: dreißigtausend."},
+    {"id": "s2", "text": "Steht ein Vermögenswert in der Handelsbilanz höher, kommt später mehr Steuer: passive latente Steuern. Umgekehrt aktive, nur als Wahlrecht."},
+    {"id": "s3", "text": "Und kleine Kapitalgesellschaften sind ganz befreit."},
+    {"id": "cta", "text": "Merke: Belastung muss, Entlastung kann."}
+   ],
+   "hook": {"zeilen": ["Latente Steuern:", "immer Pflicht"], "pille": "§ 274 HGB", "figur": "A/skeptisch", "name": "Ines",
+            "icons": [["tabler:clock-dollar", "GELB", "Nicht"]],
+            "stil": "kippen",
+            "richtig": {"label": "Richtig", "text": "passiv muss, aktiv kann", "wort": "Entlastung", "farbe": "GRUEN", "zs": 64},
+            "stempel": {"text": "nicht ganz!", "wort": "Nicht"}},
+   "szenen": [
+    {"seg": "s1", "titel": "Die Formel",
+     "elemente": [
+      {"typ": "text", "text": "Differenz × Steuersatz", "unter": "Handelsbilanz minus Steuerbilanz", "wort": "Unterschied", "farbe": "WEISS"},
+      {"typ": "pille", "text": "100.000 € × 30 %", "wort": "hunderttausend", "farbe": "WEISS"},
+      {"typ": "zahl", "text": "30.000 €", "wort": "dreißigtausend", "size": 150},
+      {"typ": "norm", "text": "§ 274 Abs. 2 S. 1 HGB", "wort": "Steuersatz"}
+     ],
+     "icon": ["tabler:calculator", "GELB", "Gerechnet"], "sfx": [["rechner", "dreißigtausend", 0.7]]},
+    {"seg": "s2", "titel": "Passiv oder aktiv",
+     "elemente": [
+      {"typ": "block", "label": "Aktivwert HB höher", "wert": "passiv: Pflicht", "farbe": "ROT", "wort": "passive", "zs": 88},
+      {"typ": "block", "label": "umgekehrt", "wert": "aktiv: Wahlrecht", "farbe": "GRUEN", "wort": "Umgekehrt", "zs": 88},
+      {"typ": "norm", "text": "§ 274 Abs. 1 S. 1, 2 HGB", "wort": "Wahlrecht"}
+     ]},
+    {"seg": "s3", "titel": "Kleine GmbH",
+     "elemente": [
+      {"typ": "block", "label": "kleine Kapitalgesellschaft", "wert": "befreit", "farbe": "GELB", "wort": "kleine"},
+      {"typ": "norm", "text": "§ 274a Nr. 4 HGB", "wort": "befreit"}
+     ],
+     "figur": {"ref": "A:froh", "wort": "befreit", "hoehe": 420}}
+   ],
+   "merke": {"seg": "cta", "zeilen": ["Belastung muss,", "Entlastung kann"], "woerter": ["Belastung", "Entlastung"],
+             "cta": "Speichern für Klausur 3", "cta_wort": "kann", "hinweis": "Alle Fundstellen in der Beschreibung"},
+   "caption": "Latente Steuern nach § 274 HGB: Belastung muss, Entlastung kann. 📊\n\n▸ Differenzen zwischen handelsrechtlichen und steuerlichen Wertansätzen, die sich später voraussichtlich abbauen: Eine insgesamt entstehende Steuerbelastung ist als passive latente Steuer anzusetzen, eine Steuerentlastung kann als aktive latente Steuer angesetzt werden (§ 274 Abs. 1 S. 1, 2 HGB).\n▸ Verlustvorträge zählen bei aktiven latenten Steuern in Höhe der in den nächsten fünf Jahren erwarteten Verrechnung (§ 274 Abs. 1 S. 4 HGB).\n▸ Bewertung mit dem unternehmensindividuellen Steuersatz im Zeitpunkt des Abbaus, ohne Abzinsung (§ 274 Abs. 2 S. 1 HGB). Beispiel: 100.000 € × 30 % = 30.000 €.\n▸ Kleine Kapitalgesellschaften sind von § 274 HGB befreit (§ 274a Nr. 4 HGB).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": ["#steuerberaterexamen", "#steuerberaterprüfung", "#examensvorbereitung", "#bilanzsteuerrecht"],
+   "quellen": ["§ 274 Abs. 1, 2 HGB", "§ 274a Nr. 4 HGB"]
+  }
+ ],
+ "stories": [
+  {"slot": "s4", "zeit": "07:07", "art": "frage", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften", "themaId": "persg-quiz-persg-5",
+   "frage": ["GF-Gehalt an die", "Kommanditistin:", "welche Einkünfte?"],
+   "optionen": ["Gewerblich als Sondervergütung", "Nichtselbständige Arbeit", "Steuerfrei"],
+   "figuren": {"Q": {"kopf": "Short 3", "haut": "#C99470", "oberteil": "#F9D56E", "bueste": "Striped Tee"}}, "figur": "Q:denkt"},
+  {"slot": "s5", "zeit": "07:09", "art": "antwort", "klausur": 3, "fach": "persg", "fachLabel": "Personengesellschaften", "themaId": "persg-quiz-persg-5",
+   "titel": ["A: gewerblich"],
+   "optionen": ["Gewerblich als Sondervergütung", "Nichtselbständige Arbeit", "Steuerfrei"], "richtig": 0,
+   "text": "Die Sondervergütung verdrängt § 19 EStG: Aufwand in der Gesamthand, Ertrag im Sonderbereich.",
+   "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+   "figuren": {"Q": {"kopf": "Short 3", "haut": "#C99470", "oberteil": "#F9D56E", "bueste": "Striped Tee"}}, "figur": "Q:froh"},
+  {"slot": "s1", "zeit": "08:30", "art": "teaser", "beitragSlot": "b1", "titel": ["Klausur 1 kompakt"], "unter": "Wochenrückblick + Markier-Guide · im Profil"},
+  {"slot": "s6", "zeit": "12:14", "art": "norm", "klausur": 1, "fach": "erbst", "fachLabel": "Erbschaftsteuer", "themaId": "erbst-aufb-erbst-v-25",
+   "titel": ["Vermietete", "Wohnung geerbt?"], "norm": "§ 13d ErbStG",
+   "punkte": [["Zu Wohnzwecken vermietet: Ansatz nur mit 90 %.", "ok", "§ 13d Abs. 1, 3 Nr. 1 ErbStG"],
+              ["Im Drittstaat nur mit Amtshilfe-Verpflichtung.", "warn", "§ 13d Abs. 3 Nr. 2 ErbStG"]],
+   "figuren": {"N": {"kopf": "Long Bangs", "haut": "#EBC4A4", "haar": "#6B3E26", "oberteil": "#F2B07B", "bueste": "Sweater"}}, "figur": "N:erklaert"},
+  {"slot": "s2", "zeit": "13:30", "art": "teaser", "beitragSlot": "b2", "titel": ["DBA einseitig überspielen?"], "unter": "Prüfungsfrage + Markier-Guide · im Profil"},
+  {"slot": "s7", "zeit": "14:40", "art": "tipp", "klausur": 0, "fachLabel": "Klausurtechnik",
+   "titel": ["Folgefehler", "begrenzen"],
+   "punkte": [["Falsche Zwischenzahl? Konsequent mit ihr weiterrechnen.", "ok", null],
+              ["Folgeschritte können trotzdem Punkte bringen.", "ok", null],
+              ["Nicht abbrechen, nicht neu anfangen.", "warn", null]],
+   "icon": "tabler:route", "iconFarbe": "GELB",
+   "figuren": {"C": {"kopf": "Mohawk", "haut": "#8D5A3B", "oberteil": "#9FD3C7"}}, "figur": "C/erklaert"},
+  {"slot": "s8", "zeit": "17:04", "art": "tipp", "klausur": 2, "fach": "istr", "fachLabel": "Internationales Steuerrecht", "themaId": "istr-aufb-istr-gh-4-10",
+   "titel": ["Doppelwohnsitz:", "wer ist ansässig?"],
+   "punkte": [["Ständige Wohnstätte; in beiden Staaten: Lebensmittelpunkt", "ok", "Art. 4 Abs. 2 Buchst. a OECD-MA"],
+              ["Dann gewöhnlicher Aufenthalt, dann Staatsangehörigkeit", "ok", "Art. 4 Abs. 2 Buchst. b, c OECD-MA"],
+              ["Sonst Verständigung", "warn", "Art. 4 Abs. 2 Buchst. d OECD-MA"]],
+   "icon": "tabler:home-2", "iconFarbe": "GELB",
+   "figuren": {"T": {"kopf": "Gray Medium", "haut": "#F2CDB4", "oberteil": "#A8D5BA"}}, "figur": "T/ruhig"},
+  {"slot": "s3", "zeit": "19:00", "art": "teaser", "beitragSlot": "b3", "titel": ["Latente Steuern: Pflicht?"], "unter": "Neues Reel · im Profil"},
+  {"slot": "s9", "zeit": "19:12", "art": "merksatz", "klausur": 3, "fach": "umwst", "fachLabel": "Umwandlungssteuerrecht", "themaId": "umwst-aufb-umw-2-45",
+   "titel": ["Einbringungs-", "gewinn I?"],
+   "zeilen": [[["Gemeiner Wert", "a"]], [["minus ", null], ["Wertansatz", "b"], [",", null]], [["je volles Jahr", null]], [["ein ", null], ["Siebtel", "c"], [" weniger.", null]]],
+   "norm": "§ 22 Abs. 1 S. 3 UmwStG",
+   "figuren": {"M": {"kopf": "Flat Top", "haut": "#5E3A24", "oberteil": "#F28C8C", "bueste": "Device"}}, "figur": "M:erklaert"}
+ ]
+}

@@ -1,0 +1,1062 @@
+{
+ "datum": "2026-10-11",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "wochenrueckblick",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": null,
+   "themaTitel": "Klausur 3 kompakt: fünf Themen der Woche",
+   "figuren": {
+    "A": {
+     "name": "Wanja",
+     "kopf": "Medium 1",
+     "haut": "#F0C8A8",
+     "haar": "#8B4A2B",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Ida",
+     "kopf": "Afro",
+     "haut": "#6B4226",
+     "haar": "#2B2B2B",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Wochenrückblick",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Klausur 3",
+      "kompakt"
+     ],
+     "unter": "5 Themen",
+     "teaser": "+ Markier-Guide § 39 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "11",
+      "unter": "So · Rückblick"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die 5 Themen",
+     "schritte": [
+      [
+       "Verbindlichkeiten",
+       "§ 6 Abs. 1 Nr. 3 EStG",
+       ""
+      ],
+      [
+       "Teilwertabschreibung",
+       "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
+       ""
+      ],
+      [
+       "Disagio beim Tilgungsdarlehen",
+       "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+       ""
+      ],
+      [
+       "Sonderbetriebsvermögen",
+       "R 4.2 Abs. 2 EStR",
+       ""
+      ],
+      [
+       "Wirtschaftliches Eigentum",
+       "§ 39 Abs. 2 Nr. 1 AO",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 39 AO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Verbindlichkeiten",
+     "punkte": [
+      [
+       "Steuerlich mit dem Rückzahlungsbetrag ansetzen.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH"
+      ],
+      [
+       "Keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden.",
+       "warn",
+       "Bold",
+       "§ 52 Abs. 12 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Alte Abzinsung? Weg!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Teilwertabschreibung",
+     "punkte": [
+      [
+       "Handelsbilanz, Umlaufvermögen: immer auf den niedrigeren Wert.",
+       "ok",
+       "Regular",
+       "§ 253 Abs. 4 HGB"
+      ],
+      [
+       "Steuerbilanz: nur bei voraussichtlich dauernder Minderung, als Wahlrecht.",
+       "warn",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Muss oder kann?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Disagio",
+     "punkte": [
+      [
+       "Steuerlich Pflicht: aktiver Rechnungsabgrenzungsposten.",
+       "ok",
+       "Regular",
+       "§ 5 Abs. 5 S. 1 Nr. 1 EStG"
+      ],
+      [
+       "Tilgungsdarlehen: degressiv auflösen, Nenner n × (n + 1) ÷ 2.",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Fälligkeitsdarlehen: linear.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Schuld sinkt, Aufwand sinkt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Sonderbetriebsvermögen",
+     "punkte": [
+      [
+       "SBV I dient dem Betrieb der Gesellschaft, SBV II der Beteiligung.",
+       "ok",
+       "Regular",
+       "R 4.2 Abs. 2 EStR"
+      ],
+      [
+       "Bei der Einbringung nach § 20 UmwStG muss wesentliches SBV mit.",
+       "warn",
+       "Bold",
+       "UmwStE vom 02.01.2025, Rn. 20.06"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "SBV gehört dazu!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Wirtschaftliches Eigentum",
+     "punkte": [
+      [
+       "Grundsatz: Wirtschaftsgüter gehören dem Eigentümer.",
+       "ok",
+       "Regular",
+       "§ 39 Abs. 1 AO"
+      ],
+      [
+       "Anders, wenn ein anderer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt.",
+       "warn",
+       "Bold",
+       "§ 39 Abs. 2 Nr. 1 S. 1 AO"
+      ],
+      [
+       "Zurechnung immer zuerst prüfen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Wem gehört es?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Diese Woche in Klausur 3",
+      "Bilanz und Umwandlung: fünf Themen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Rückzahlung",
+        "a"
+       ],
+       [
+        " statt Barwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "Teilwert",
+        "b"
+       ],
+       [
+        " nur bei Dauer,",
+        null
+       ]
+      ],
+      [
+       [
+        "Disagio",
+        "c"
+       ],
+       [
+        " degressiv,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zurechnung",
+        "d"
+       ],
+       [
+        " zuerst.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Welches Thema wackelt noch?",
+     "teaser": "Weiterwischen: § 39 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 39 AO Zurechnung (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Wirtschaftsgüter sind",
+         null
+        ],
+        [
+         "dem Eigentümer zuzurechnen.",
+         "g1"
+        ]
+       ]
+      ],
+      [
+       2,
+       [
+        [
+         "Abweichend von Absatz 1 gelten die folgenden Vorschriften: 1. Übt ein anderer als der Eigentümer",
+         null
+        ],
+        [
+         "die tatsächliche Herrschaft",
+         "b1"
+        ],
+        [
+         "über ein Wirtschaftsgut in der Weise aus, dass er den Eigentümer im Regelfall",
+         null
+        ],
+        [
+         "für die gewöhnliche Nutzungsdauer",
+         "r1"
+        ],
+        [
+         "von der Einwirkung auf das Wirtschaftsgut wirtschaftlich ausschließen kann, so ist ihm das Wirtschaftsgut zuzurechnen.",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundsatz",
+       "g1"
+      ],
+      [
+       "Herrschaft",
+       "b1"
+      ],
+      [
+       "Dauer!",
+       "r1"
+      ],
+      [
+       "Folge",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Leasing, Treuhand, Sicherungseigentum",
+      "Zurechnung vor Ansatz und Bewertung"
+     ]
+    }
+   ],
+   "caption": "Klausur 3 kompakt: fünf Themen der Woche für Buchführung und Bilanzwesen.\n\n1. Verbindlichkeiten: Ansatz mit dem Rückzahlungsbetrag (§ 6 Abs. 1 Nr. 3 EStG; H 6.10 EStH); keine Abzinsung mehr für Wirtschaftsjahre, die nach dem 31.12.2022 enden (§ 52 Abs. 12 S. 2 EStG).\n2. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen zwingend (§ 253 Abs. 4 HGB), steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2, § 5 Abs. 1 S. 1 EStG).\n3. Disagio: steuerlich aktiver Rechnungsabgrenzungsposten (§ 5 Abs. 5 S. 1 Nr. 1 EStG), beim Tilgungsdarlehen degressiv nach der Zinsstaffel, beim Fälligkeitsdarlehen linear aufzulösen.\n4. Sonderbetriebsvermögen I und II (R 4.2 Abs. 2 EStR); bei der Einbringung eines Mitunternehmeranteils muss funktional wesentliches Sonderbetriebsvermögen mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06).\n5. Wirtschaftliches Eigentum: Zurechnung beim Eigentümer, abweichend bei dem, der ihn für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließt (§ 39 Abs. 1, 2 Nr. 1 S. 1 AO).\n\nZum Schluss: § 39 AO zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 6 Abs. 1 Nr. 2, 3 EStG",
+    "H 6.10 EStH",
+    "§ 52 Abs. 12 S. 2 EStG",
+    "§ 253 Abs. 4 HGB",
+    "§ 5 Abs. 1 S. 1, Abs. 5 S. 1 Nr. 1 EStG",
+    "R 4.2 Abs. 2 EStR",
+    "UmwStE vom 02.01.2025, Rn. 20.06",
+    "§ 39 Abs. 1, 2 Nr. 1 AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "pruefungsfrage",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-t1-2",
+   "themaTitel": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG?",
+   "figuren": {
+    "A": {
+     "name": "Leif",
+     "kopf": "Short 2",
+     "haut": "#F2CDB0",
+     "haar": "#D8B26A",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Alles",
+      "steuerpflichtig?"
+     ],
+     "norm": "§ 2 Abs. 1 ErbStG",
+     "unter": "Auslandsfall",
+     "teaser": "+ Markier-Guide § 2 ErbStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:world",
+      "farbe": "GELB"
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Sachverhalt",
+     "punkte": [
+      [
+       "Pilar, Spanierin, lebte immer in Valencia. Sie stirbt 2026.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ihr Sohn Leif erbt allein. Er wohnt in Hamburg.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Nachlass: Haus in Valencia, Wohnung in Köln, Konto in Frankfurt.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Jetzt du: Was besteuert Deutschland?",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Auch das Haus?"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Prüfung",
+     "schritte": [
+      [
+       "Zeitpunkt",
+       "§ 9 Abs. 1 Nr. 1 ErbStG",
+       "Tod der Erblasserin"
+      ],
+      [
+       "Ist jemand Inländer?",
+       "§ 2 Abs. 1 Nr. 1 S. 2 ErbStG",
+       "Erblasserin oder Erwerber"
+      ],
+      [
+       "Umfang",
+       "§ 2 Abs. 1 Nr. 1, 3 ErbStG",
+       "alles oder nur Inlandsvermögen"
+      ]
+     ],
+     "teaser": "Am Ende: § 2 ErbStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Lösung",
+     "punkte": [
+      [
+       "Leif wohnt in Hamburg und ist damit Inländer.",
+       "ok",
+       "Regular",
+       "§ 2 Abs. 1 Nr. 1 S. 2 Buchst. a ErbStG"
+      ],
+      [
+       "Ein Inländer genügt: unbeschränkte Steuerpflicht für den ganzen Erwerb.",
+       "ok",
+       "Bold",
+       "§ 2 Abs. 1 Nr. 1 S. 1 ErbStG"
+      ],
+      [
+       "Auch das Haus in Valencia. Spanische Erbschaftsteuer wird auf Antrag angerechnet.",
+       "warn",
+       "Regular",
+       "§ 21 Abs. 1 ErbStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Alle drei Teile!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Variante: Leif in Madrid",
+     "punkte": [
+      [
+       "Lebt Leif seit zehn Jahren in Madrid, ist niemand Inländer: beschränkte Steuerpflicht.",
+       "ok",
+       "Regular",
+       "§ 2 Abs. 1 Nr. 3 ErbStG"
+      ],
+      [
+       "Besteuert wird nur Inlandsvermögen laut Katalog: die Wohnung in Köln.",
+       "ok",
+       "Bold",
+       "§ 121 Nr. 2 BewG"
+      ],
+      [
+       "Das Frankfurter Konto steht nicht im Katalog.",
+       "nein",
+       "Regular",
+       "§ 121 BewG"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Konto nicht?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Leif in Hamburg: Haus, Wohnung, Konto",
+      "Leif lange in Madrid: nur die Wohnung in Köln",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ein Inländer",
+        "a"
+       ],
+       [
+        " genügt,",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst",
+        "b"
+       ],
+       [
+        " nur Inland,",
+        null
+       ]
+      ],
+      [
+       [
+        "Konto",
+        "c"
+       ],
+       [
+        " zählt nicht,",
+        null
+       ]
+      ],
+      [
+       [
+        "Grundbesitz",
+        "d"
+       ],
+       [
+        " schon.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du das Konto erfasst?",
+     "teaser": "Weiterwischen: § 2 ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 2 ErbStG Persönliche Steuerpflicht (Auszug)",
+     "absaetze": [
+      [
+       "(1) 1.",
+       [
+        [
+         "in den Fällen des § 1 Abs. 1 Nr. 1 bis 3, wenn der Erblasser zur Zeit seines Todes, der Schenker zur Zeit der Ausführung der Schenkung",
+         null
+        ],
+        [
+         "oder der Erwerber",
+         "g1"
+        ],
+        [
+         "zur Zeit der Entstehung der Steuer (§ 9) ein Inländer ist,",
+         null
+        ],
+        [
+         "für den gesamten Vermögensanfall",
+         "gr1"
+        ],
+        [
+         "(unbeschränkte Steuerpflicht). Als Inländer gelten a) natürliche Personen, die im Inland einen Wohnsitz oder ihren gewöhnlichen Aufenthalt haben, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "3.",
+       [
+        [
+         "in allen anderen Fällen für den Vermögensanfall, der in",
+         null
+        ],
+        [
+         "Inlandsvermögen im Sinne des § 121 des Bewertungsgesetzes",
+         "r1"
+        ],
+        [
+         "besteht […] (beschränkte Steuerpflicht).",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "einer reicht",
+       "g1"
+      ],
+      [
+       "weltweit",
+       "gr1"
+      ],
+      [
+       "Katalog!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Dazu § 21 ErbStG",
+      "Anrechnung ausländischer Erbschaftsteuer"
+     ]
+    }
+   ],
+   "caption": "Unbeschränkt oder beschränkt steuerpflichtig nach § 2 ErbStG? Die Prüfungsfrage mit Auslandsbezug.\n\n▸ Maßgeblich ist der Zeitpunkt der Entstehung der Steuer, beim Erwerb von Todes wegen der Tod (§ 9 Abs. 1 Nr. 1 ErbStG).\n▸ Ist die Erblasserin oder der Erwerber Inländer, besteht unbeschränkte Steuerpflicht für den gesamten Vermögensanfall (§ 2 Abs. 1 Nr. 1 S. 1 ErbStG). Inländer ist insbesondere, wer im Inland wohnt oder sich gewöhnlich aufhält (§ 2 Abs. 1 Nr. 1 S. 2 Buchst. a ErbStG); deutsche Staatsangehörige bleiben es bis zu fünf Jahre nach dem Wegzug (Buchst. b).\n▸ Ausländische Erbschaftsteuer auf Auslandsvermögen wird auf Antrag angerechnet, soweit kein DBA greift (§ 21 Abs. 1 ErbStG).\n▸ Ist niemand Inländer, wird nur Inlandsvermögen im Sinne des § 121 BewG besteuert (§ 2 Abs. 1 Nr. 3 ErbStG), etwa inländischer Grundbesitz (§ 121 Nr. 2 BewG). Ein Bankguthaben im Inland gehört nicht zum Katalog.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 2 Abs. 1 Nr. 1, 3 ErbStG",
+    "§ 9 Abs. 1 Nr. 1 ErbStG",
+    "§ 21 Abs. 1 ErbStG",
+    "§ 121 BewG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-2",
+   "themaTitel": "vE – Vorprüfung",
+   "figuren": {
+    "A": {
+     "name": "Joon",
+     "kopf": "Medium Straight",
+     "haut": "#F1C7A5",
+     "haar": "#1E1E24",
+     "oberteil": "#2E2E3A",
+     "jacke": "#8DB3F2"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Gesellschafter überlässt seiner GmbH ein Büro kostenlos. Verdeckte Einlage? Nein!"
+    },
+    {
+     "id": "s1",
+     "text": "Verdeckte Einlage heißt: Der Gesellschafter wendet seiner GmbH einen Vermögensvorteil zu, veranlasst durch das Gesellschaftsverhältnis."
+    },
+    {
+     "id": "s2",
+     "text": "Einlagefähig ist aber nur, was in die Bilanz kann. Eine bloße Nutzung gehört nicht dazu."
+    },
+    {
+     "id": "s3",
+     "text": "Und liegt eine echte verdeckte Einlage vor, erhöht sie das Einkommen der GmbH nicht."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Erst einlagefähig, dann verdeckte Einlage."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Büro gratis",
+     "= Einlage?"
+    ],
+    "pille": "verdeckte Einlage",
+    "figur": "A/blazer",
+    "name": "Joon",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Nein"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Nein!",
+     "wort": "Nein"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Was ist das?",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "vom Gesellschafter",
+       "wort": "Gesellschafter",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Zuwendung",
+       "wert": "Vermögensvorteil",
+       "farbe": "GELB",
+       "wort": "Vermögensvorteil",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "R 8.9 Abs. 1 KStR",
+       "wort": "Gesellschaftsverhältnis"
+      }
+     ],
+     "icon": [
+      "tabler:gift",
+      "GELB",
+      "wendet"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Einlagefähig?",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "nur, was in die Bilanz kann",
+       "wort": "Bilanz",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Büro gratis",
+       "wert": "keine Einlage",
+       "farbe": "ROT",
+       "wort": "Nutzung",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "H 8.9 KStH",
+       "wort": "Einlagefähig"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Nutzung"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Folge",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einkommen der GmbH",
+       "wert": "kein Plus",
+       "farbe": "GRUEN",
+       "wort": "erhöht",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8 Abs. 3 S. 3 KStG",
+       "wort": "echte"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Einkommen"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Erst prüfen:",
+     "einlagefähig?",
+     "Nutzung: nein",
+     "dann verdeckte Einlage"
+    ],
+    "woerter": [
+     null,
+     "einlagefähig",
+     "dann",
+     "Einlage"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Einlage",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Verdeckte Einlage: erst die Vorprüfung, ist der Vorteil überhaupt einlagefähig?\n\n▸ Eine verdeckte Einlage liegt vor, wenn ein Gesellschafter oder eine ihm nahestehende Person der Gesellschaft einen einlagefähigen Vermögensvorteil zuwendet und dies durch das Gesellschaftsverhältnis veranlasst ist (R 8.9 Abs. 1 KStR).\n▸ Einlagefähig ist nur, was bilanziert werden kann. Die unentgeltliche Überlassung eines Wirtschaftsguts zur Nutzung ist kein einlagefähiger Vorteil (H 8.9 KStH, Nutzungsvorteile).\n▸ Liegt eine verdeckte Einlage vor, erhöht sie das Einkommen der Gesellschaft nicht (§ 8 Abs. 3 S. 3 KStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "R 8.9 Abs. 1 KStR",
+    "H 8.9 KStH (Nutzungsvorteile)",
+    "§ 8 Abs. 3 S. 3 KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-10",
+   "frage": [
+    "Verluste weg:",
+    "ab welcher Quote?"
+   ],
+   "optionen": [
+    "Mehr als 25 %",
+    "Mehr als 50 % in fünf Jahren",
+    "Bei jeder Kapitalerhöhung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists",
+     "haut": "#8D5A3B",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-10",
+   "titel": [
+    "B: mehr als 50 %",
+    "in fünf Jahren"
+   ],
+   "optionen": [
+    "Mehr als 25 %",
+    "Mehr als 50 % in fünf Jahren",
+    "Bei jeder Kapitalerhöhung"
+   ],
+   "richtig": 1,
+   "text": "Dann sind nicht genutzte Verluste vollständig weg, Ausnahmen vorbehalten.",
+   "norm": "§ 8c Abs. 1 S. 1 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists",
+     "haut": "#8D5A3B",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Klausur 3 kompakt"
+   ],
+   "unter": "Rückblick + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-karte-k3-25",
+   "titel": [
+    "Entnahme bei",
+    "Minuskapital"
+   ],
+   "norm": "§ 15a Abs. 3 EStG",
+   "punkte": [
+    [
+     "Entnahme macht das Kapitalkonto negativer: Gewinn wird zugerechnet.",
+     "warn",
+     "§ 15a Abs. 3 S. 1 EStG"
+    ],
+    [
+     "Der Betrag mindert spätere Gewinne aus der KG.",
+     "ok",
+     "§ 15a Abs. 3 S. 4 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 4",
+     "haut": "#C68E64",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Alles steuerpflichtig?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Lernwoche:",
+    "Fächer mischen"
+   ],
+   "punkte": [
+    [
+     "Jeden Tag zwei Fächer",
+     "ok",
+     null
+    ],
+    [
+     "Alte Themen kurz wiederholen",
+     "ok",
+     null
+    ],
+    [
+     "Ein freier Tag pro Woche",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:arrows-shuffle",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-10",
+   "titel": [
+    "Steuersatz:",
+    "19, 7 oder 0?"
+   ],
+   "punkte": [
+    [
+     "19 %: Regelsatz",
+     "ok",
+     "§ 12 Abs. 1 UStG"
+    ],
+    [
+     "7 %: nur gelistete Umsätze",
+     "ok",
+     "§ 12 Abs. 2 UStG"
+    ],
+    [
+     "0 %: bestimmte Photovoltaik",
+     "ok",
+     "§ 12 Abs. 3 UStG"
+    ],
+    [
+     "Aus brutto: 19/119, 7/107",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:percentage",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Büro gratis = Einlage?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-15a-01",
+   "titel": [
+    "Verlust des",
+    "Kommanditisten"
+   ],
+   "zeilen": [
+    [
+     [
+      "Wird das ",
+      null
+     ],
+     [
+      "Kapital",
+      "a"
+     ]
+    ],
+    [
+     [
+      "negativ",
+      "b"
+     ],
+     [
+      ", ist er",
+      null
+     ]
+    ],
+    [
+     [
+      "nur verrechenbar",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "groesse": 80,
+   "norm": "§ 15a Abs. 1, 2 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Long Afro",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

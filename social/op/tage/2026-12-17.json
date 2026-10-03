@@ -1,0 +1,1073 @@
+{
+ "datum": "2026-12-17",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-20",
+   "themaTitel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
+   "figuren": {
+    "A": {
+     "name": "Hedda",
+     "kopf": "Medium Bangs 3",
+     "haut": "#F3D0B5",
+     "haar": "#A0522D",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Verschonung",
+      "verspielt?"
+     ],
+     "norm": "§ 13a Abs. 6 ErbStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 13a ErbStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Behaltensfrist",
+        "Bold",
+        44
+       ],
+       [
+        "5 Jahre",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Option: 7",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Verkauf, Aufgabe",
+       "§ 13a Abs. 6 S. 1 Nr. 1 ErbStG",
+       "auch wesentliche Betriebsgrundlagen"
+      ],
+      [
+       "Überentnahmen",
+       "§ 13a Abs. 6 S. 1 Nr. 3 ErbStG",
+       "über 150.000 € mehr als Einlagen und Gewinne"
+      ],
+      [
+       "GmbH-Anteile",
+       "§ 13a Abs. 6 S. 1 Nr. 4 ErbStG",
+       "Verkauf, Auflösung, verdeckte Einlage"
+      ],
+      [
+       "Frist",
+       "§ 13a Abs. 10 S. 1 Nr. 6 ErbStG",
+       "5 Jahre, bei Optionsverschonung 7"
+      ]
+     ],
+     "teaser": "Am Ende: § 13a ErbStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nicht alles fällt weg",
+     "punkte": [
+      [
+       "Verkauf im 4. Jahr: Der Abschlag fällt nur zu 2/5 weg (Jahre 4 und 5).",
+       "warn",
+       "Bold",
+       "§ 13a Abs. 6 S. 2 ErbStG"
+      ],
+      [
+       "Bei Überentnahmen gibt es diese Quote nicht.",
+       "nein",
+       "Regular",
+       "§ 13a Abs. 6 S. 2 ErbStG"
+      ],
+      [
+       "Erlös binnen 6 Monaten reinvestiert: keine Nachsteuer.",
+       "ok",
+       "Regular",
+       "§ 13a Abs. 6 S. 3, 4 ErbStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Nur anteilig?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: Verkauf im 4. Jahr",
+     "normen": [
+      "§ 13a Abs. 1 S. 1 ErbStG",
+      "§ 13a Abs. 6 S. 2 ErbStG"
+     ],
+     "zeilen": [
+      [
+       "Begünstigtes Vermögen",
+       "3.000.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abschlag 85 %",
+       "2.550.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Bisher steuerpflichtig",
+       "450.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Wegfall-Quote",
+       "2/5",
+       "Bold",
+       null
+      ],
+      [
+       "Nachversteuert",
+       "1.020.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Bescheid wird rückwirkend geändert",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Verkauf im 4. Jahr: 2/5 des Abschlags weg",
+      "Beispiel: 1.020.000 € werden nachversteuert",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Fünf",
+        "a"
+       ],
+       [
+        " Jahre halten,",
+        null
+       ]
+      ],
+      [
+       [
+        "150.000 €",
+        "b"
+       ],
+       [
+        " Entnahme-Puffer,",
+        null
+       ]
+      ],
+      [
+       [
+        "zeitanteilig",
+        "c"
+       ],
+       [
+        " zurück,",
+        null
+       ]
+      ],
+      [
+       [
+        "reinvestieren",
+        "d"
+       ],
+       [
+        " rettet.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Kanntest du die Quote?",
+     "teaser": "Weiterwischen: § 13a ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 13a Abs. 6 ErbStG (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Der Verschonungsabschlag (Absatz 1) und der Abzugsbetrag (Absatz 2) fallen nach Maßgabe des Satzes 2",
+         null
+        ],
+        [
+         "mit Wirkung für die Vergangenheit",
+         "r1"
+        ],
+        [
+         "weg, soweit der Erwerber",
+         null
+        ],
+        [
+         "innerhalb von fünf Jahren (Behaltensfrist)",
+         "g1"
+        ],
+        [
+         "1. einen Gewerbebetrieb oder einen Teilbetrieb, […] veräußert; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "Der rückwirkende Wegfall des Verschonungsabschlags beschränkt sich in den Fällen des Satzes 1 Nummer 1, 2, 4 und 5 auf den Teil, der dem Verhältnis der im Zeitpunkt der schädlichen Verfügung",
+         null
+        ],
+        [
+         "verbleibenden Behaltensfrist einschließlich des Jahres, in dem die Verfügung erfolgt,",
+         "b1"
+        ],
+        [
+         "zur gesamten Behaltensfrist entspricht.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "rückwirkend",
+       "r1"
+      ],
+      [
+       "5 Jahre",
+       "g1"
+      ],
+      [
+       "zeitanteilig",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Nr. 3: Überentnahmen über 150.000 €",
+      "Hier gibt es keine zeitanteilige Kürzung"
+     ]
+    }
+   ],
+   "caption": "Nachversteuerung nach § 13a Abs. 6 ErbStG – der Spickzettel für Klausur 1.\n\n▸ Verschonungsabschlag und Abzugsbetrag fallen mit Wirkung für die Vergangenheit weg, soweit der Erwerber innerhalb von fünf Jahren den Betrieb, einen Teilbetrieb oder einen Mitunternehmeranteil veräußert oder aufgibt oder wesentliche Betriebsgrundlagen veräußert oder entnimmt (§ 13a Abs. 6 S. 1 Nr. 1 ErbStG).\n▸ Überentnahmen: Entnahmen übersteigen Einlagen und Gewinne um mehr als 150.000 €; Verluste bleiben unberücksichtigt (§ 13a Abs. 6 S. 1 Nr. 3 ErbStG).\n▸ Anteile an Kapitalgesellschaften: Verkauf, verdeckte Einlage, Auflösung (§ 13a Abs. 6 S. 1 Nr. 4 ErbStG).\n▸ Bei Nr. 1, 2, 4 und 5 fällt der Abschlag nur zeitanteilig weg: verbleibende Behaltensfrist einschließlich des Verfügungsjahres zur gesamten Frist (§ 13a Abs. 6 S. 2 ErbStG). Reinvestition des Erlöses binnen sechs Monaten in begünstigtes Vermögen: keine Nachversteuerung (§ 13a Abs. 6 S. 3, 4 ErbStG).\n▸ Bei Optionsverschonung (100 %) gilt eine Behaltensfrist von sieben Jahren (§ 13a Abs. 10 S. 1 Nr. 6 ErbStG).\n\nBeispiel: 3.000.000 € begünstigt, Abschlag 85 % = 2.550.000 € (§ 13a Abs. 1 S. 1 ErbStG). Verkauf im 4. Jahr: 2/5 fallen weg, 1.020.000 € werden nachversteuert.\n\nZum Schluss: § 13a Abs. 6 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 13a Abs. 1 S. 1 ErbStG",
+    "§ 13a Abs. 6 S. 1 Nr. 1, 3, 4 ErbStG",
+    "§ 13a Abs. 6 S. 2, 3, 4 ErbStG",
+    "§ 13a Abs. 10 S. 1 Nr. 6 ErbStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-13",
+   "themaTitel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+   "figuren": {
+    "A": {
+     "name": "Lieke",
+     "kopf": "Long Bangs",
+     "haut": "#F5D3BC",
+     "haar": "#E0B66A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Was § 50 EStG",
+      "alles streicht"
+     ],
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 50 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "zvE plus",
+        "Bold",
+        44
+       ],
+       [
+        "12.348 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Grundfreibetrag",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "In 5 Schritten",
+     "schritte": [
+      [
+       "Inländische Einkünfte",
+       "§ 49 Abs. 1 EStG",
+       ""
+      ],
+      [
+       "Abgeltung prüfen",
+       "§ 50 Abs. 2 EStG",
+       ""
+      ],
+      [
+       "Nur Inlandskosten abziehen",
+       "§ 50 Abs. 1 S. 1 EStG",
+       ""
+      ],
+      [
+       "Abzüge streichen",
+       "§ 50 Abs. 1 S. 4 EStG",
+       ""
+      ],
+      [
+       "Tarif mit Aufschlag",
+       "§ 50 Abs. 1 S. 2 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 50 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Lieke wohnt in Utrecht und vermietet eine Wohnung in Köln. Ihre übrigen Einkünfte sind niederländisch.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Miete 30.000 €, Werbungskosten 8.000 €, Spende an einen deutschen Verein 1.000 €.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Was darf ich abziehen?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Rechenweg",
+     "normen": [
+      "§ 49 Abs. 1 Nr. 6 EStG",
+      "§ 50 Abs. 1 S. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "Einkünfte V+V",
+       "22.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Spende (§ 10b bleibt)",
+       "− 1.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "zvE",
+       "21.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Grundfreibetrag",
+       "+ 12.348 €",
+       "Regular",
+       null
+      ],
+      [
+       "Tarif angewandt auf",
+       "33.348 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Steuer = Tarif auf 33.348 €",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Gestrichen",
+     "punkte": [
+      [
+       "Die meisten Sonderausgaben, auch der Pauschbetrag.",
+       "nein",
+       "Regular",
+       "§ 50 Abs. 1 S. 4 EStG"
+      ],
+      [
+       "Kinderfreibeträge, außergewöhnliche Belastungen, haushaltsnahe Leistungen.",
+       "nein",
+       "Regular",
+       "§§ 32, 33 bis 33b, 35a EStG"
+      ],
+      [
+       "Spenden bleiben abziehbar.",
+       "ok",
+       "Bold",
+       "§ 10b EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "So viel weg?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Erst die Abgeltung prüfen",
+     "punkte": [
+      [
+       "Lohn, Kapitalerträge und § 50a-Einkünfte sind durch den Steuerabzug grundsätzlich abgegolten.",
+       "warn",
+       "Bold",
+       "§ 50 Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Ausnahmen, etwa Einkünfte eines inländischen Betriebs.",
+       "ok",
+       "Regular",
+       "§ 50 Abs. 2 S. 2 Nr. 1 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Gar nicht veranlagen?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Beispiel: Tarif auf 33.348 €, nicht auf 21.000 €",
+      "zvE + 12.348 € Grundfreibetrag (VZ 2026)",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Inland",
+        "a"
+       ],
+       [
+        " sammeln,",
+        null
+       ]
+      ],
+      [
+       [
+        "Abgeltung",
+        "b"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "streichen",
+        "c"
+       ],
+       [
+        " nach § 50,",
+        null
+       ]
+      ],
+      [
+       [
+        "Grundfreibetrag",
+        "d"
+       ],
+       [
+        " drauf.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welcher Schritt fehlte dir?",
+     "teaser": "Weiterwischen: § 50 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 50 Abs. 1 EStG (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Beschränkt Steuerpflichtige dürfen Betriebsausgaben (§ 4 Absatz 4 bis 8) oder Werbungskosten (§ 9) nur insoweit abziehen, als sie",
+         null
+        ],
+        [
+         "mit inländischen Einkünften in wirtschaftlichem Zusammenhang",
+         "g1"
+        ],
+        [
+         "stehen.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 2",
+       [
+        [
+         "§ 32a Absatz 1 ist mit der Maßgabe anzuwenden, dass das zu versteuernde Einkommen",
+         null
+        ],
+        [
+         "um den Grundfreibetrag",
+         "b1"
+        ],
+        [
+         "des § 32a Absatz 1 Satz 2 Nummer 1 erhöht wird; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "§ 10 Absatz 1, 1a Nummer 1, 3 und 4, Absatz 2 bis 6, die §§ 10a, 10c, 16 Absatz 4, die §§ 24b, 32, 32a Absatz 6, die §§ 33, 33a, 33b, 35a und 35c",
+         null
+        ],
+        [
+         "sind nicht anzuwenden.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur Inland",
+       "g1"
+      ],
+      [
+       "Aufschlag!",
+       "b1"
+      ],
+      [
+       "Streichliste",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Abgeltung: § 50 Abs. 2 S. 1 EStG",
+      "Ausnahmen in Satz 2, etwa inländischer Betrieb"
+     ]
+    }
+   ],
+   "caption": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht – das Prüfschema für Klausur 2.\n\n1. Inländische Einkünfte abgrenzen (§ 49 Abs. 1 EStG), z. B. Vermietung inländischer Grundstücke (§ 49 Abs. 1 Nr. 6 EStG).\n2. Abgeltung: Einkünfte mit Steuerabzug vom Arbeitslohn, vom Kapitalertrag oder nach § 50a sind grundsätzlich abgegolten (§ 50 Abs. 2 S. 1 EStG); Ausnahmen in § 50 Abs. 2 S. 2 EStG, etwa für Einkünfte eines inländischen Betriebs.\n3. Betriebsausgaben und Werbungskosten nur mit wirtschaftlichem Zusammenhang zu inländischen Einkünften (§ 50 Abs. 1 S. 1 EStG).\n4. Nicht anzuwenden u. a.: § 10 Abs. 1, 1a Nr. 1, 3, 4, Abs. 2 bis 6, §§ 10a, 10c, 16 Abs. 4, 24b, 32, 32a Abs. 6, 33 bis 33b, 35a, 35c EStG (§ 50 Abs. 1 S. 4 EStG). § 10b EStG ist nicht genannt, Spenden bleiben abziehbar.\n5. Tarif: Das zvE wird für die Tarifberechnung um den Grundfreibetrag erhöht (§ 50 Abs. 1 S. 2 EStG); Grundfreibetrag VZ 2026: 12.348 € (§ 32a Abs. 1 S. 2 Nr. 1 EStG).\n\nBeispiel: 30.000 € Miete − 8.000 € Werbungskosten − 1.000 € Spende = 21.000 € zvE; Tarif angewandt auf 33.348 €.\n\nZum Schluss: § 50 Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 49 Abs. 1 Nr. 6 EStG",
+    "§ 50 Abs. 1 S. 1, 2, 4 EStG",
+    "§ 50 Abs. 2 S. 1, 2 EStG",
+    "§ 32a Abs. 1 S. 2 Nr. 1 EStG",
+    "§ 10b EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-modul-persg-4",
+   "themaTitel": "Zweistufige Gewinnermittlung bei Mitunternehmerschaften",
+   "figuren": {
+    "A": {
+     "name": "Mara",
+     "kopf": "Bangs 2",
+     "haut": "#E8B98F",
+     "haar": "#5A2E1A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Gewinn der KG gleich Bilanzgewinn? Falsch. Erst die zweite Stufe macht ihn komplett."
+    },
+    {
+     "id": "s1",
+     "text": "Stufe eins: Die KG weist zweihunderttausend Euro Gewinn aus. Darin ist Maras Geschäftsführergehalt als Aufwand gebucht."
+    },
+    {
+     "id": "s2",
+     "text": "Stufe zwei: Maras sechzigtausend Euro Gehalt sind Sondervergütung und kommen dazu. Ihre Ergänzungsbilanz bringt minus viertausend."
+    },
+    {
+     "id": "s3",
+     "text": "Steuerlicher Gesamtgewinn: zweihundertsechsundfünfzigtausend Euro."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Gesamthand plus Ergänzungsbilanz plus Sonderbereich."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Gewinn der KG",
+     "= Bilanzgewinn?"
+    ],
+    "pille": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "figur": "A/skeptisch",
+    "name": "Mara",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "plus Stufe zwei",
+     "wort": "zweite",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Stufe 1: die KG",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Gewinn laut Bilanz der KG",
+       "wert": "200.000 €",
+       "farbe": "WEISS",
+       "wort": "zweihunderttausend",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "darin Maras Gehalt als Aufwand",
+       "wort": "Geschäftsführergehalt",
+       "farbe": "GELB"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "KG"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Stufe 2: Mara",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Sondervergütung",
+       "wert": "+ 60.000 €",
+       "farbe": "GELB",
+       "wort": "Sondervergütung",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Ergänzungsbilanz",
+       "wert": "− 4.000 €",
+       "farbe": "WEISS",
+       "wort": "Ergänzungsbilanz",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+       "wort": "sechzigtausend"
+      }
+     ],
+     "icon": [
+      "tabler:user",
+      "GELB",
+      "Maras"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Gesamtgewinn",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "200.000 + 60.000 − 4.000",
+       "wort": "Steuerlicher",
+       "size": 90
+      },
+      {
+       "typ": "block",
+       "label": "Steuerlicher Gesamtgewinn",
+       "wert": "256.000 €",
+       "farbe": "GRUEN",
+       "wort": "zweihundertsechsundfünfzigtausend",
+       "zs": 120
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Gesamtgewinn"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "zweihundertsechsundfünfzigtausend",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "Gesamthand",
+     "+ Ergänzungsbilanz",
+     "+ Sonderbereich"
+    ],
+    "woerter": [
+     null,
+     "Gesamthand",
+     "Ergänzungsbilanz",
+     "Sonderbereich"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Sonderbereich",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Zweistufige Gewinnermittlung: Der Bilanzgewinn der KG ist nur die halbe Wahrheit. 🧮\n\n▸ Stufe 1: Gewinn laut Gesamthandsbilanz, verteilt nach dem Gewinnverteilungsschlüssel.\n▸ Stufe 2: Ergänzungsbilanzen der einzelnen Gesellschafter und der Sonderbereich: Vergütungen für Tätigkeit, Darlehen oder Überlassung von Wirtschaftsgütern gehören zu den gewerblichen Einkünften des Mitunternehmers (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Beispiel: 200.000 € Bilanzgewinn (Gehalt der Kommanditistin als Aufwand gebucht) + 60.000 € Sondervergütung − 4.000 € aus der Ergänzungsbilanz = 256.000 € Gewinn der Mitunternehmerschaft.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-1",
+   "frage": [
+    "Wirtschaftliches",
+    "Eigentum: welche Norm?"
+   ],
+   "optionen": [
+    "§ 39 Abs. 2 Nr. 1 AO",
+    "§ 7g EStG",
+    "§ 15 Abs. 2 EStG"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Cornrows",
+     "haut": "#6E4A33",
+     "oberteil": "#F2B880",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-1",
+   "titel": [
+    "A: § 39 Abs. 2",
+    "Nr. 1 AO"
+   ],
+   "optionen": [
+    "§ 39 Abs. 2 Nr. 1 AO",
+    "§ 7g EStG",
+    "§ 15 Abs. 2 EStG"
+   ],
+   "richtig": 0,
+   "text": "Wer den Eigentümer auf Dauer wirtschaftlich ausschließen kann, bilanziert das Wirtschaftsgut.",
+   "norm": "§ 39 Abs. 2 Nr. 1 S. 1 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Cornrows",
+     "haut": "#6E4A33",
+     "oberteil": "#F2B880",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Verschonung verspielt?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-25",
+   "titel": [
+    "Vermietete",
+    "Wohnung geerbt"
+   ],
+   "norm": "§ 13d ErbStG",
+   "punkte": [
+    [
+     "Zu Wohnzwecken vermietet: nur 90 % des Werts ansetzen.",
+     "ok",
+     "§ 13d Abs. 1, 3 Nr. 1 ErbStG"
+    ],
+    [
+     "Nicht zusätzlich bei begünstigtem Betriebsvermögen.",
+     "nein",
+     "§ 13d Abs. 3 Nr. 3 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Bun",
+     "haut": "#C99470",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Was § 50 EStG streicht"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Ergebnis",
+    "zuerst"
+   ],
+   "punkte": [
+    [
+     "Erst das Ergebnis nennen.",
+     "ok",
+     null
+    ],
+    [
+     "Dann die Norm, genau zitiert.",
+     "ok",
+     null
+    ],
+    [
+     "Kurz subsumieren, fertig.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:checkbox",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Afro",
+     "haut": "#5E3B26",
+     "oberteil": "#8FD3C8"
+    }
+   },
+   "figur": "K/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-04",
+   "titel": [
+    "DBA gegen",
+    "späteres Gesetz?"
+   ],
+   "punkte": [
+    [
+     "DBA gilt im Inland als einfaches Gesetz.",
+     "ok",
+     null
+    ],
+    [
+     "Spätere Spezialnorm kann es verdrängen.",
+     "warn",
+     "§ 50d Abs. 9 EStG"
+    ]
+   ],
+   "icon": "tabler:world",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Short 4",
+     "haut": "#F0C8A8",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 3"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Gewinn der KG = Bilanzgewinn?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-12",
+   "titel": [
+    "Pauschal-WB:",
+    "welche Basis?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Forderungen ",
+      null
+     ],
+     [
+      "netto",
+      "a"
+     ]
+    ],
+    [
+     [
+      "ohne ",
+      null
+     ],
+     [
+      "Einzel-WB",
+      "b"
+     ]
+    ],
+    [
+     [
+      "dann ",
+      null
+     ],
+     [
+      "Prozentsatz",
+      "c"
+     ]
+    ]
+   ],
+   "norm": "§ 253 Abs. 4 HGB",
+   "figuren": {
+    "M": {
+     "kopf": "Twists",
+     "haut": "#8D5A3B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

@@ -1,0 +1,1231 @@
+{
+ "datum": "2026-11-14",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-technik-2026-11-14",
+   "themaTitel": "USt-Teil in Klausur 1: Aufbau je Umsatz und Zeitplan",
+   "figuren": {
+    "A": {
+     "name": "Merle",
+     "kopf": "Long Bangs",
+     "haut": "#EED0B6",
+     "haar": "#2C2C2C",
+     "oberteil": "#F3B6A0",
+     "brille": "Glasses",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "zeilen": [
+      "USt-Teil:",
+      "Punkte sichern"
+     ],
+     "unter": "Strategie Tag 1",
+     "teaser": "+ Markier-Guide § 1 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:list-numbers",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Plan",
+     "schritte": [
+      [
+       "Erst sortieren",
+       null,
+       "alle Vorgänge nummerieren"
+      ],
+      [
+       "Je Umsatz ein Block",
+       "§ 1 Abs. 1 Nr. 1 UStG",
+       "immer dieselbe Reihenfolge"
+      ],
+      [
+       "Kurz, wo es klar ist",
+       null,
+       "Tiefe nur bei den Problemen"
+      ],
+      [
+       "Vorsteuer getrennt",
+       "§ 15 Abs. 1 UStG",
+       "eigener Abschnitt am Ende"
+      ]
+     ],
+     "teaser": "Am Ende: § 1 UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Erst sortieren",
+     "punkte": [
+      [
+       "Alle Vorgänge des Aufgabentexts durchnummerieren.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zu jedem notieren: wer an wen, was, wann, wo.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Erst dann schreiben, nichts doppelt prüfen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Erst die Liste."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Ein Block je Umsatz",
+     "punkte": [
+      [
+       "Leistungsart, Ort, Steuerbarkeit, Steuerbefreiung.",
+       "ok",
+       "Regular",
+       "§§ 3, 3a, 1, 4 UStG"
+      ],
+      [
+       "Bemessungsgrundlage, Steuersatz, Steuer.",
+       "ok",
+       "Regular",
+       "§§ 10, 12 UStG"
+      ],
+      [
+       "Entstehung und Steuerschuldner.",
+       "ok",
+       "Regular",
+       "§§ 13, 13a, 13b UStG"
+      ],
+      [
+       "Jedes Mal gleich: Der Korrektor findet die Punkte.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Immer gleich!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Kurz, wo es klar ist",
+     "punkte": [
+      [
+       "Unproblematisches: Ergebnis plus Norm in einem Satz.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ausführlich nur dort, wo der Fall ein Problem einbaut.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Normen genau: Absatz, Satz, Nummer.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Tiefe dosieren!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Vorsteuer am Ende",
+     "punkte": [
+      [
+       "Eingangsleistungen gesammelt prüfen, nicht in jeden Umsatz streuen.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 UStG"
+      ],
+      [
+       "Aufteilung und Ausschluss im selben Abschnitt.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 2, 4 UStG"
+      ],
+      [
+       "Zum Schluss Steuer und Vorsteuer je Zeitraum in einer Tabelle.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Übersicht zählt."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Zeitfalle",
+     "punkte": [
+      [
+       "Ein Umsatz perfekt, drei ausgelassen: Das kostet mehr als drei kurze Lösungen.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Zeit knapp? Ergebnis und Norm hinschreiben, Begründung in Stichworten.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Lieber alles anreißen."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Klausur 1: AO, USt und ErbSt",
+      "Der USt-Teil lebt vom festen Aufbau",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Sortieren",
+        "a"
+       ],
+       [
+        " vor Schreiben,",
+        null
+       ]
+      ],
+      [
+       [
+        "Block",
+        "b"
+       ],
+       [
+        " je Umsatz,",
+        null
+       ]
+      ],
+      [
+       [
+        "Tiefe",
+        "c"
+       ],
+       [
+        " nur bei Problemen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Vorsteuer",
+        "d"
+       ],
+       [
+        " am Ende.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wie startest du in die USt?",
+     "teaser": "Weiterwischen: § 1 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 1 UStG Steuerbare Umsätze (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Der Umsatzsteuer unterliegen die folgenden Umsätze: 1. die",
+         null
+        ],
+        [
+         "Lieferungen und sonstigen Leistungen",
+         "g1"
+        ],
+        [
+         ", die ein",
+         null
+        ],
+        [
+         "Unternehmer im Inland gegen Entgelt",
+         "b1"
+        ],
+        [
+         "im Rahmen seines Unternehmens ausführt. […] 4. die Einfuhr von Gegenständen im Inland […]; 5.",
+         null
+        ],
+        [
+         "der innergemeinschaftliche Erwerb im Inland gegen Entgelt.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "1a",
+       [
+        [
+         "Die Umsätze im Rahmen einer Geschäftsveräußerung an einen anderen Unternehmer für dessen Unternehmen",
+         null
+        ],
+        [
+         "unterliegen nicht der Umsatzsteuer.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Leistungsart",
+       "g1"
+      ],
+      [
+       "wer, wo, wofür?",
+       "b1"
+      ],
+      [
+       "eigener Block",
+       "gr1"
+      ],
+      [
+       "vorab prüfen!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Jeder Block startet hier",
+      "danach § 4, § 10, § 12, § 13"
+     ]
+    }
+   ],
+   "caption": "Klausurtechnik für den Umsatzsteuer-Teil der Klausur 1: so sicherst du die Punkte.\n\n1. Erst sortieren: alle Vorgänge nummerieren, je Vorgang Beteiligte, Leistung, Zeitpunkt und Ort notieren.\n2. Ein Block je Umsatz, immer gleich: Leistungsart (§ 3 UStG), Ort (§§ 3, 3a UStG), Steuerbarkeit (§ 1 Abs. 1 Nr. 1 UStG), Steuerbefreiung (§ 4 UStG), Bemessungsgrundlage (§ 10 UStG), Steuersatz (§ 12 UStG), Entstehung (§ 13 UStG), Steuerschuldner (§§ 13a, 13b UStG).\n3. Tiefe dosieren: Unproblematisches mit Ergebnis und Norm in einem Satz, ausführlich nur bei den eingebauten Problemen.\n4. Vorsteuer gesammelt am Ende (§ 15 Abs. 1, 2, 4 UStG), dann Übersicht je Zeitraum.\n\nZeitfalle: Lieber alle Umsätze kurz lösen als einen perfekt und den Rest gar nicht.\n\nZum Schluss: § 1 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1 Nr. 1, 4, 5, Abs. 1a UStG",
+    "§§ 3, 3a, 4, 10, 12, 13, 13a, 13b UStG",
+    "§ 15 Abs. 1, 2, 4 UStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-5-11",
+   "themaTitel": "Pensionszusage an Gesellschafter-GF: zwei Prüfebenen",
+   "figuren": {
+    "A": {
+     "name": "Dörte",
+     "kopf": "Gray Bun",
+     "haut": "#F0CFB6",
+     "haar": "#D6D6D6",
+     "oberteil": "#9FC5E8",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Kemal",
+     "kopf": "Short 3",
+     "haut": "#C08A5E",
+     "haar": "#1F1F1F",
+     "oberteil": "#E6D5F2",
+     "bart": "Full",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Pension für",
+      "die Chefin?"
+     ],
+     "norm": "§ 6a EStG, § 8 Abs. 3 KStG",
+     "unter": "Zwei Ebenen",
+     "teaser": "+ Markier-Guide § 6a EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Zuführung",
+        "Bold",
+        44
+       ],
+       [
+        "30.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "abziehbar?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Dörte, 62, ist alleinige Gesellschafterin und Geschäftsführerin einer GmbH. Gehalt 120.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "2026 erhält sie erstmals schriftlich eine Pensionszusage: ab 67 jährlich 72.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Zuführung 2026: 30.000 €, Jahresüberschuss 200.000 €. Einkommen?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ist das okay?"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Zwei Ebenen",
+     "schritte": [
+      [
+       "Ebene 1: Steuerbilanz",
+       "§ 6a EStG",
+       "Rückstellung dem Grunde und der Höhe nach"
+      ],
+      [
+       "Ebene 2: außerbilanziell",
+       "§ 8 Abs. 3 S. 2 KStG",
+       "verdeckte Gewinnausschüttung?"
+      ],
+      [
+       "Ergebnis",
+       null,
+       "Einkommen der GmbH"
+      ]
+     ],
+     "teaser": "Am Ende: § 6a EStG markiert"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Ebene 1: Überversorgung?",
+     "normen": [
+      "§ 6a Abs. 1 Nr. 3 EStG",
+      "H 6a (17) EStH"
+     ],
+     "zeilen": [
+      [
+       "Aktivbezüge",
+       "120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Grenze 75 %",
+       "90.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "zugesagte Rente",
+       "72.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Quote",
+       "60 %",
+       "Bold",
+       null
+      ],
+      [
+       "Überversorgung?",
+       "nein",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Schriftlich zugesagt: Rückstellung bleibt",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Ebene 2: Erdienbarkeit",
+     "punkte": [
+      [
+       "Beherrschende Geschäftsführer: mindestens zehn Jahre zwischen Zusage und Ruhestand.",
+       "warn",
+       "Regular",
+       "H 8.7 KStH"
+      ],
+      [
+       "Zusage nach dem 60. Geburtstag: regelmäßig nicht mehr erdienbar.",
+       "nein",
+       "Regular",
+       "H 8.7 KStH"
+      ],
+      [
+       "Dörte: 62 bei Zusage, nur fünf Jahre bis 67.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Zu spät zugesagt?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Ergebnis 2026",
+     "normen": [
+      "§ 8 Abs. 3 S. 2 KStG"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "200.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Rückstellung in der Bilanz",
+       "bleibt",
+       "Regular",
+       null
+      ],
+      [
+       "+ vGA außerbilanziell",
+       "30.000 €",
+       "Bold",
+       "ROT"
+      ],
+      [
+       "Einkommen",
+       "230.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "B:ernst",
+     "x": 290,
+     "blase": "Erst Bilanz, dann vGA."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Dörte ist bei der Zusage 52, Ruhestand mit 67.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Gehalt 120.000 €, zugesagte Rente 96.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Ebene greift?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Jetzt erdienbar?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "H 6a (17) EStH",
+      "H 8.7 KStH"
+     ],
+     "zeilen": [
+      [
+       "15 Jahre bis zum Ruhestand",
+       "erdienbar",
+       "Regular",
+       null
+      ],
+      [
+       "Rente 96.000 € : 120.000 €",
+       "80 %",
+       "Regular",
+       null
+      ],
+      [
+       "Grenze 75 %",
+       "90.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Überversorgung",
+       "kürzen",
+       "ExtraBold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "Korrektur in der Steuerbilanz, nicht als vGA",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Grundfall: Einkommen 230.000 €",
+      "Variante: Kürzung schon in der Steuerbilanz",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Erst ",
+        null
+       ],
+       [
+        "§ 6a",
+        "a"
+       ],
+       [
+        " in der Bilanz,",
+        null
+       ]
+      ],
+      [
+       [
+        "Überversorgung",
+        "b"
+       ],
+       [
+        " ab 75 %,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "vGA",
+        "c"
+       ],
+       [
+        " außerhalb,",
+        null
+       ]
+      ],
+      [
+       [
+        "zehn Jahre",
+        "d"
+       ],
+       [
+        " erdienen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welche Ebene prüfst du zuerst?",
+     "teaser": "Weiterwischen: § 6a EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6a EStG Pensionsrückstellung (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Für eine Pensionsverpflichtung darf eine Rückstellung (Pensionsrückstellung)",
+         null
+        ],
+        [
+         "nur gebildet werden, wenn und soweit",
+         "g1"
+        ],
+        [
+         "1. der Pensionsberechtigte einen",
+         null
+        ],
+        [
+         "Rechtsanspruch",
+         "b1"
+        ],
+        [
+         "auf einmalige oder laufende Pensionsleistungen hat, 2. […] und 3. die Pensionszusage",
+         null
+        ],
+        [
+         "schriftlich erteilt",
+         "r1"
+        ],
+        [
+         "ist; die Pensionszusage muss",
+         null
+        ],
+        [
+         "eindeutige Angaben",
+         "gr1"
+        ],
+        [
+         "zu Art, Form, Voraussetzungen und Höhe der in Aussicht gestellten künftigen Leistungen enthalten.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Ebene 1 zuerst",
+       "g1"
+      ],
+      [
+       "Nr. 1",
+       "b1"
+      ],
+      [
+       "Nr. 3",
+       "r1"
+      ],
+      [
+       "Bestimmtheit",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Ebene 2: § 8 Abs. 3 S. 2 KStG",
+      "Erdienbarkeit nach H 8.7 KStH"
+     ]
+    }
+   ],
+   "caption": "Pensionszusage an die Gesellschafter-Geschäftsführerin: der Rechenweg über zwei Ebenen für die Ertragsteuer-Klausur.\n\nEbene 1 – Steuerbilanz: Pensionsrückstellung nur, wenn und soweit ein Rechtsanspruch besteht, kein schädlicher Vorbehalt vorliegt und die Zusage schriftlich mit eindeutigen Angaben erteilt ist (§ 6a Abs. 1 Nr. 1 bis 3 EStG). Überversorgung, wenn die Versorgung 75 % der Aktivbezüge übersteigt: Kürzung in der Steuerbilanz (H 6a (17) EStH).\n\nEbene 2 – außerbilanziell: Soweit der zulässige Aufwand gesellschaftlich veranlasst ist, liegt eine vGA vor (§ 8 Abs. 3 S. 2 KStG). Beim beherrschenden Gesellschafter-Geschäftsführer müssen zwischen Zusage und Ruhestand mindestens zehn Jahre liegen; eine Zusage nach dem 60. Lebensjahr ist regelmäßig nicht erdienbar (H 8.7 KStH).\n\nBeispiel: Zusage mit 62 → Zuführung 30.000 € vGA → Einkommen 200.000 € + 30.000 € = 230.000 €.\nVariante: Zusage mit 52, Rente 80 % der Bezüge → erdienbar, aber Überversorgung: Korrektur bereits in der Steuerbilanz.\n\nZum Schluss: § 6a EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 6a Abs. 1 Nr. 1 bis 3 EStG",
+    "H 6a (17) EStH",
+    "§ 8 Abs. 3 S. 2 KStG",
+    "H 8.7 KStH"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-2",
+   "themaTitel": "Begründet ein Mietverhältnis wirtschaftliches Eigentum?",
+   "figuren": {
+    "A": {
+     "name": "Nils",
+     "kopf": "Short 1",
+     "haut": "#F5D2B8",
+     "haar": "#B5651D",
+     "oberteil": "#F7C9A9"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Gemietet und genutzt, also selbst bilanzieren? Falsch! Der Mieter bilanziert nur ausnahmsweise."
+    },
+    {
+     "id": "s1",
+     "text": "Bei normaler Miete bleibt die Maschine beim Vermieter. Er ist Eigentümer, er bilanziert. Der Mieter bucht nur Mietaufwand."
+    },
+    {
+     "id": "s2",
+     "text": "Anders, wenn der Mieter den Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann. Dann bilanziert der Mieter."
+    },
+    {
+     "id": "s3",
+     "text": "Typische Signale: Miete über die ganze Nutzungsdauer oder eine Kaufoption zum Spottpreis."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Miete heißt Vermieter bilanziert, außer er ist ausgeschlossen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Gemietet, genutzt:",
+     "selbst bilanzieren?"
+    ],
+    "pille": "§ 39 AO",
+    "figur": "A/skeptisch",
+    "name": "Nils",
+    "icons": [
+     [
+      "tabler:building-warehouse",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "nur ausnahmsweise",
+     "wort": "ausnahmsweise",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Normale Miete",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Vermieter",
+       "wert": "bilanziert",
+       "farbe": "GRUEN",
+       "wort": "Vermieter",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Mieter",
+       "wert": "Mietaufwand",
+       "farbe": "WEISS",
+       "wort": "Mietaufwand",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 39 Abs. 1 AO",
+       "wort": "bilanziert"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Maschine"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Ausnahme",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Eigentümer ausgeschlossen",
+       "unter": "für die gewöhnliche Nutzungsdauer",
+       "wort": "Eigentümer",
+       "farbe": "GELB",
+       "ls": 62
+      },
+      {
+       "typ": "block",
+       "label": "Mieter",
+       "wert": "bilanziert",
+       "farbe": "GRUEN",
+       "wort": "Dann",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 39 Abs. 2 Nr. 1 S. 1 AO",
+       "wort": "wirtschaftlich"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Dann",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Typische Signale",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Miete über die ganze Nutzungsdauer",
+       "wort": "Miete",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Kaufoption zum Spottpreis",
+       "wort": "Kaufoption",
+       "farbe": "WEISS"
+      }
+     ],
+     "figur": {
+      "ref": "A/ruhig",
+      "wort": "Spottpreis",
+      "hoehe": 420
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Miete:",
+     "Vermieter bilanziert,",
+     "außer er ist",
+     "ausgeschlossen"
+    ],
+    "woerter": [
+     null,
+     "Vermieter",
+     "außer",
+     "ausgeschlossen"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "ausgeschlossen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Gemietet und genutzt – muss der Mieter das Wirtschaftsgut bilanzieren? 🏭\n\n▸ Grundsatz: Wirtschaftsgüter werden dem Eigentümer zugerechnet (§ 39 Abs. 1 AO). Beim gewöhnlichen Miet- oder Pachtvertrag bilanziert der Vermieter, der Mieter erfasst Mietaufwand.\n▸ Ausnahme: Übt ein anderer die tatsächliche Herrschaft so aus, dass er den Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann, ist ihm das Wirtschaftsgut zuzurechnen (§ 39 Abs. 2 Nr. 1 S. 1 AO).\n▸ Ob das so ist, entscheidet der konkrete Vertrag, etwa Laufzeit im Verhältnis zur Nutzungsdauer und Optionen am Ende.\n▸ Sonderfälle im Gesetz: Treuhand, Sicherungseigentum, Eigenbesitz (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 39 Abs. 1 AO",
+    "§ 39 Abs. 2 Nr. 1 S. 1, 2 AO"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-14",
+   "frage": [
+    "Disagio beim",
+    "Fälligkeitsdarlehen?"
+   ],
+   "optionen": [
+    "Nach Zinsstaffel auflösen",
+    "Linear über die Laufzeit",
+    "Sofort als Aufwand"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Dreads 1",
+     "haut": "#6A4026",
+     "haar": "#1A1A1A",
+     "oberteil": "#F9D6A5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-14",
+   "titel": [
+    "B: linear",
+    "auflösen"
+   ],
+   "optionen": [
+    "Nach Zinsstaffel auflösen",
+    "Linear über die Laufzeit",
+    "Sofort als Aufwand"
+   ],
+   "richtig": 1,
+   "text": "Das Kapital bleibt bis zur Fälligkeit gleich hoch, also gleiche Raten.",
+   "norm": "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Dreads 1",
+     "haut": "#6A4026",
+     "haar": "#1A1A1A",
+     "oberteil": "#F9D6A5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "USt-Teil: Punkte sichern"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-543",
+   "titel": [
+    "Bebautes",
+    "Grundstück?"
+   ],
+   "norm": "§ 182 BewG",
+   "punkte": [
+    [
+     "Erst die Grundstücksart bestimmen.",
+     "ok",
+     "§ 181 Abs. 1 BewG"
+    ],
+    [
+     "Dann Vergleichs-, Ertrags- oder Sachwert.",
+     "ok",
+     "§ 182 Abs. 2 bis 4 BewG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium Bangs 2",
+     "haut": "#E6B897",
+     "haar": "#4B2E1E",
+     "oberteil": "#F4B183",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Pension für die Chefin?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sechs Stunden",
+    "durchhalten"
+   ],
+   "punkte": [
+    [
+     "Wasser und Snack griffbereit",
+     "ok",
+     null
+    ],
+    [
+     "Nach jedem Teil kurz durchatmen",
+     "ok",
+     null
+    ],
+    [
+     "Letzte Minuten: Lücken mit Ergebnis und Norm füllen",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:battery-charging",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Buns",
+     "haut": "#F1C9A5",
+     "haar": "#6E4B2A",
+     "oberteil": "#BDE0FE"
+    }
+   },
+   "figur": "Z/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-schema-vga",
+   "titel": [
+    "vGA:",
+    "beide Ebenen lösen"
+   ],
+   "punkte": [
+    [
+     "GmbH: außerbilanziell hinzurechnen",
+     "ok",
+     "§ 8 Abs. 3 S. 2 KStG"
+    ],
+    [
+     "Gesellschafter: Einnahme aus Kapitalvermögen",
+     "ok",
+     "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+    ],
+    [
+     "Umsatzsteuer mitdenken",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:arrows-up-down",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Turban",
+     "haut": "#9C6B4B",
+     "hut": "#2E86AB",
+     "oberteil": "#F6E3B4",
+     "bart": "Full 2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Gemietet: selbst bilanzieren?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-33",
+   "titel": [
+    "Einbau des Mieters:",
+    "was zuerst?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Nur vorübergehend?",
+      "a"
+     ]
+    ],
+    [
+     [
+      "Betriebsvorrichtung?",
+      "b"
+     ]
+    ],
+    [
+     [
+      "Sonst: eigenes",
+      null
+     ]
+    ],
+    [
+     [
+      "Wirtschaftsgut",
+      "c"
+     ],
+     [
+      " prüfen",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 95 Abs. 1 BGB, § 68 Abs. 2 BewG",
+   "figuren": {
+    "M": {
+     "kopf": "Shaved 1",
+     "haut": "#4A2C1B",
+     "oberteil": "#F7B7A3",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "M:denkt"
+  }
+ ]
+}

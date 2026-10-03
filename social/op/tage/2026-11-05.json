@@ -1,0 +1,1131 @@
+{
+ "datum": "2026-11-05",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b06-10",
+   "themaTitel": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer?",
+   "figuren": {
+    "A": {
+     "name": "Smilla",
+     "kopf": "Medium 1",
+     "haut": "#F0C8A8",
+     "haar": "#8B4A2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 2"
+    },
+    "B": {
+     "name": "Rasmus",
+     "kopf": "Flat Top",
+     "haut": "#7A4A2E",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 5",
+     "bueste": "Gym Shirt"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Bauleistung:",
+      "wer zahlt USt?"
+     ],
+     "norm": "§ 13b Abs. 2 Nr. 4 UStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 13b UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Rechnung",
+        "Bold",
+        44
+       ],
+       [
+        "ohne USt",
+        "ExtraBold",
+        90
+       ],
+       [
+        "zu Recht?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Bauleistung?",
+       "§ 13b Abs. 2 Nr. 4 S. 1 UStG",
+       "Bauwerk errichten, ändern, reparieren, beseitigen"
+      ],
+      [
+       "Empfänger baut selbst?",
+       "§ 13b Abs. 5 S. 2 UStG",
+       "nachhaltig, etwa per Bescheinigung"
+      ],
+      [
+       "Steuer schuldet der Empfänger",
+       "§ 13b Abs. 5 S. 2 UStG",
+       ""
+      ],
+      [
+       "Rechnung netto",
+       "§ 14a Abs. 5 UStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 13b UStG markiert"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Bauleistung oder nicht?",
+     "links": {
+      "kopf": "Ja",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Dach neu decken",
+        null
+       ],
+       [
+        "Heizung fest einbauen",
+        "§ 13b Abs. 2 Nr. 4 S. 2 UStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Nein",
+      "farbe": "ROT",
+      "punkte": [
+       [
+        "Planung und Überwachung",
+        "§ 13b Abs. 2 Nr. 4 S. 1 UStG"
+       ],
+       [
+        "Nur Material liefern, Bagger ohne Fahrer",
+        "Abschn. 13b.2 Abs. 7 UStAE"
+       ]
+      ]
+     },
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Ich bin Rasmus, Dachdecker."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Zwei Stolpersteine",
+     "punkte": [
+      [
+       "Reparatur oder Wartung bis 500 € netto: nach Verwaltungsansicht keine Bauleistung.",
+       "warn",
+       "Regular",
+       "Abschn. 13b.2 Abs. 7 UStAE"
+      ],
+      [
+       "Beide gehen irrtümlich von § 13b aus: Der Empfänger bleibt Schuldner, wenn kein Steuerausfall entsteht.",
+       "ok",
+       "Regular",
+       "§ 13b Abs. 5 S. 8 UStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Auch bei Irrtum?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Dachdecker arbeitet für eine Baufirma",
+      "Steuerschuldnerin ist die Baufirma, Rechnung netto",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Bau",
+        "a"
+       ],
+       [
+        " an ",
+        null
+       ],
+       [
+        "Bauleister",
+        "b"
+       ],
+       [
+        ":",
+        null
+       ]
+      ],
+      [
+       [
+        "Empfänger",
+        "c"
+       ],
+       [
+        " ist Schuldner,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rechnung ",
+        null
+       ],
+       [
+        "netto",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Prüfst du beide Seiten?",
+     "teaser": "Weiterwischen: § 13b UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 13b UStG (Auszug)",
+     "absaetze": [
+      [
+       "(2) 4.",
+       [
+        [
+         "Bauleistungen,",
+         "g1"
+        ],
+        [
+         "einschließlich Werklieferungen und sonstigen Leistungen im Zusammenhang mit Grundstücken, die der Herstellung, Instandsetzung, Instandhaltung, Änderung oder Beseitigung von Bauwerken dienen,",
+         null
+        ],
+        [
+         "mit Ausnahme von Planungs- und Überwachungsleistungen.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(5)",
+       [
+        [
+         "[…] In den in Absatz 2 Nummer 4 Satz 1 genannten Fällen",
+         null
+        ],
+        [
+         "schuldet der Leistungsempfänger die Steuer",
+         "gr1"
+        ],
+        [
+         "[…], wenn er ein Unternehmer ist, der",
+         null
+        ],
+        [
+         "nachhaltig entsprechende Leistungen erbringt;",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Was?",
+       "g1"
+      ],
+      [
+       "nicht!",
+       "r1"
+      ],
+      [
+       "Folge",
+       "gr1"
+      ],
+      [
+       "Wer?",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Rechnung: § 14a Abs. 5 UStG",
+      "„Steuerschuldnerschaft des Leistungsempfängers“"
+     ]
+    }
+   ],
+   "caption": "Bauleistungen: Wann schuldet der Auftraggeber die Umsatzsteuer? Der Spickzettel für die USt-Klausur.\n\n▸ Bauleistungen sind Leistungen im Zusammenhang mit Grundstücken, die der Herstellung, Instandsetzung, Instandhaltung, Änderung oder Beseitigung von Bauwerken dienen; Planungs- und Überwachungsleistungen sind ausgenommen (§ 13b Abs. 2 Nr. 4 S. 1 UStG). Auf Dauer installierte Anlagen und Maschinen gelten als Grundstücke (§ 13b Abs. 2 Nr. 4 S. 2 UStG).\n▸ Der Leistungsempfänger schuldet die Steuer, wenn er Unternehmer ist und selbst nachhaltig entsprechende Leistungen erbringt – auch für Eingangsleistungen, die er anders verwendet; davon ist bei einer gültigen Bescheinigung des Finanzamts auszugehen (§ 13b Abs. 5 S. 2 UStG).\n▸ Rechnung ohne Steuerausweis mit der Angabe „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 5 UStG).\n▸ Keine Bauleistungen nach Verwaltungsauffassung u. a.: reine Materiallieferungen, Vermietung von Baugeräten ohne Bedienpersonal, Reparatur- und Wartungsarbeiten bis 500 € netto (Abschn. 13b.2 Abs. 7 UStAE).\n▸ Sind beide Seiten in Zweifelsfällen übereinstimmend von § 13b ausgegangen, bleibt der Empfänger Steuerschuldner, sofern kein Steuerausfall entsteht (§ 13b Abs. 5 S. 8 UStG).\n\nZum Schluss: § 13b UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 13b Abs. 2 Nr. 4 S. 1, 2 UStG",
+    "§ 13b Abs. 5 S. 2, 8 UStG",
+    "§ 14a Abs. 5 UStG",
+    "Abschn. 13b.2 Abs. 7 UStAE"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-schema-2",
+   "themaTitel": "Verdeckte Einlage",
+   "figuren": {
+    "A": {
+     "name": "Priya",
+     "kopf": "Long",
+     "haut": "#A86B47",
+     "haar": "#1E1E24",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Verdeckte",
+      "Einlage"
+     ],
+     "norm": "§ 8 Abs. 3 S. 3 KStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 8 KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Verzicht",
+        "Bold",
+        44
+       ],
+       [
+        "50.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "alles Einlage?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Zuwendung vom Gesellschafter",
+       "R 8.9 Abs. 1 KStR",
+       ""
+      ],
+      [
+       "Einlagefähiger Vorteil?",
+       "BFH GrS 2/86",
+       ""
+      ],
+      [
+       "Gesellschaftlich veranlasst?",
+       "R 8.9 Abs. 3 KStR",
+       ""
+      ],
+      [
+       "Wert und Einkommen",
+       "§ 8 Abs. 3 S. 3, 4 KStG",
+       ""
+      ],
+      [
+       "Folgen bei beiden",
+       "§ 27 KStG, § 17 Abs. 2a EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 8 KStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Priya hält 100 % an der Kessler GmbH und hat ihr privat 50.000 € geliehen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "2026 verzichtet sie auf die Rückzahlung.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Die GmbH ist angeschlagen: Die Forderung ist nur noch 30.000 € wert.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Priya."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1 bis 3",
+     "punkte": [
+      [
+       "Zuwendung durch die Gesellschafterin: ja.",
+       "ok",
+       "Regular",
+       "R 8.9 Abs. 1 KStR"
+      ],
+      [
+       "Wegfall einer Schuld: einlagefähig, anders als bloße Nutzungen.",
+       "ok",
+       "Regular",
+       "BFH vom 26.10.1987, GrS 2/86"
+      ],
+      [
+       "Ein fremder Gläubiger hätte nicht verzichtet: gesellschaftlich veranlasst.",
+       "ok",
+       "Regular",
+       "R 8.9 Abs. 3 KStR"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Dreimal ja."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Die GmbH bucht 50.000 € Ertrag. Wie hoch ist die verdeckte Einlage?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und was gilt für den Rest?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Alles steuerfrei?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Schritt 4",
+     "normen": [
+      "§ 8 Abs. 3 S. 3 KStG",
+      "BFH GrS 1/94"
+     ],
+     "zeilen": [
+      [
+       "Ertrag aus Ausbuchung",
+       "+ 50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Verdeckte Einlage, Teilwert",
+       "− 30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Steuerpflichtiger Ertrag",
+       "20.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Abzug außerhalb der Bilanz",
+      "WEISS"
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Nur 30.000 €?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 5: Folgen",
+     "punkte": [
+      [
+       "GmbH: Einlagekonto plus 30.000 €.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 KStG"
+      ],
+      [
+       "Priya: nachträgliche Anschaffungskosten der Beteiligung.",
+       "ok",
+       "Regular",
+       "§ 17 Abs. 2a S. 3 Nr. 1 EStG"
+      ],
+      [
+       "Hat die Einlage Priyas Einkommen gemindert, entfällt die Kürzung bei der GmbH.",
+       "warn",
+       "Bold",
+       "§ 8 Abs. 3 S. 4 KStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Beide Seiten prüfen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kessler GmbH: 20.000 € steuerpflichtig",
+      "30.000 € verdeckte Einlage, Einlagekonto + 30.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Nur der ",
+        null
+       ],
+       [
+        "werthaltige",
+        "a"
+       ],
+       [
+        " Teil",
+        null
+       ]
+      ],
+      [
+       [
+        "ist ",
+        null
+       ],
+       [
+        "Einlage",
+        "b"
+       ],
+       [
+        ", der Rest",
+        null
+       ]
+      ],
+      [
+       [
+        "bleibt ",
+        null
+       ],
+       [
+        "Ertrag",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hast du den Teilwert geprüft?",
+     "teaser": "Weiterwischen: § 8 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 8 Abs. 3 KStG, § 6 Abs. 6 EStG (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "[…]",
+         null
+        ],
+        [
+         "Verdeckte Einlagen",
+         "g1"
+        ],
+        [
+         "erhöhen das Einkommen nicht.",
+         "gr1"
+        ],
+        [
+         "Das Einkommen erhöht sich,",
+         null
+        ],
+        [
+         "soweit eine verdeckte Einlage das Einkommen des Gesellschafters gemindert hat.",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 6 (6) EStG",
+       [
+        [
+         "[…] Erfolgt die Übertragung im Wege der verdeckten Einlage,",
+         null
+        ],
+        [
+         "erhöhen sich die Anschaffungskosten der Beteiligung",
+         "b1"
+        ],
+        [
+         "an der Kapitalgesellschaft um den",
+         null
+        ],
+        [
+         "Teilwert",
+         "g2"
+        ],
+        [
+         "des eingelegten Wirtschaftsguts. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Begriff: R 8.9 KStR",
+       "g1"
+      ],
+      [
+       "außerbilanziell",
+       "gr1"
+      ],
+      [
+       "Korrespondenz",
+       "r1"
+      ],
+      [
+       "beim Gesellschafter",
+       "b1"
+      ],
+      [
+       "Maßstab",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Bewertung: § 6 Abs. 1 Nr. 5 EStG",
+      "Teilwert, über § 8 Abs. 1 KStG"
+     ]
+    }
+   ],
+   "caption": "Verdeckte Einlage – das Prüfschema in fünf Schritten für die KSt-Klausur.\n\nFall: Priya (100 %) verzichtet 2026 auf ein privates Darlehen über 50.000 € an ihre angeschlagene Kessler GmbH; die Forderung ist noch 30.000 € wert.\n\n1. Zuwendung eines Gesellschafters oder einer nahestehenden Person außerhalb der gesellschaftsrechtlichen Einlagen (R 8.9 Abs. 1 KStR).\n2. Einlagefähiger Vermögensvorteil: Wegfall einer Verbindlichkeit ja, bloße Nutzungsvorteile nein (BFH vom 26.10.1987, GrS 2/86).\n3. Veranlassung durch das Gesellschaftsverhältnis: Ein Nichtgesellschafter hätte bei der Sorgfalt eines ordentlichen Kaufmanns nicht verzichtet (R 8.9 Abs. 3 KStR).\n4. Wert und Einkommen: Beim Forderungsverzicht ist nur der werthaltige Teil Einlage (BFH vom 09.06.1997, GrS 1/94), Bewertung mit dem Teilwert (§ 6 Abs. 1 Nr. 5 EStG i. V. m. § 8 Abs. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG): 50.000 € Ertrag, 30.000 € außerbilanziell abziehen, 20.000 € bleiben steuerpflichtig. Korrespondenz: keine Kürzung, soweit die Einlage das Einkommen des Gesellschafters gemindert hat (§ 8 Abs. 3 S. 4 KStG).\n5. Folgen: Zugang zum steuerlichen Einlagekonto (§ 27 Abs. 1 KStG); beim Gesellschafter nachträgliche Anschaffungskosten (§ 17 Abs. 2a S. 3 Nr. 1 EStG; im Betriebsvermögen § 6 Abs. 6 S. 2 EStG).\n\nZum Schluss: § 8 Abs. 3 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 1, Abs. 3 S. 3, 4 KStG",
+    "R 8.9 Abs. 1, 3 KStR",
+    "BFH vom 26.10.1987, GrS 2/86",
+    "BFH vom 09.06.1997, GrS 1/94",
+    "§ 6 Abs. 1 Nr. 5, Abs. 6 S. 2 EStG",
+    "§ 27 Abs. 1 KStG",
+    "§ 17 Abs. 2a S. 3 Nr. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-32",
+   "themaTitel": "Wann greift die Streubesitzgrenze des § 8b Abs. 4 KStG?",
+   "figuren": {
+    "A": {
+     "name": "Zeno",
+     "kopf": "Short 5",
+     "haut": "#F2CFB3",
+     "haar": "#C9A15A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Deine GmbH bekommt eine Dividende. Immer zu fünfundneunzig Prozent steuerfrei? Nein, nicht bei Streubesitz."
+    },
+    {
+     "id": "s1",
+     "text": "Lag die Beteiligung zu Beginn des Kalenderjahres unter zehn Prozent, ist die Dividende voll steuerpflichtig."
+    },
+    {
+     "id": "s2",
+     "text": "Ab zehn Prozent bleibt die Dividende außer Ansatz, fünf Prozent gelten als nicht abziehbare Ausgaben."
+    },
+    {
+     "id": "s3",
+     "text": "Kauft die GmbH im Jahr auf einen Schlag mindestens zehn Prozent, gilt der Erwerb als zu Jahresbeginn."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Zehn Prozent am ersten Januar entscheiden."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Dividende",
+     "immer steuerfrei?"
+    ],
+    "pille": "§ 8b KStG",
+    "figur": "A/skeptisch",
+    "name": "Zeno",
+    "icons": [
+     [
+      "tabler:coins",
+      "GELB",
+      "Nein"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Nein!",
+     "wort": "Nein"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Unter 10 %",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Stichtag: 1. Januar",
+       "farbe": "WEISS",
+       "wort": "Beginn"
+      },
+      {
+       "typ": "block",
+       "label": "Beteiligung",
+       "wert": "unter 10 %",
+       "farbe": "ROT",
+       "wort": "zehn",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "voll steuerpflichtig",
+       "wort": "voll",
+       "farbe": "WEISS",
+       "ls": 70
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8b Abs. 4 S. 1 KStG",
+       "wort": "Dividende"
+      }
+     ],
+     "icon": [
+      "tabler:calendar",
+      "GELB",
+      "Kalenderjahres"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Ab 10 %",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Dividende",
+       "wert": "außer Ansatz",
+       "farbe": "GRUEN",
+       "wort": "außer",
+       "zs": 100
+      },
+      {
+       "typ": "pille",
+       "text": "aber 5 % zurück ins Einkommen",
+       "farbe": "GELB",
+       "wort": "fünf"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8b Abs. 1, 5 KStG",
+       "wort": "Ausgaben"
+      }
+     ],
+     "icon": [
+      "tabler:percentage",
+      "GELB",
+      "zehn"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Zukauf im Jahr",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Erwerb auf einen Schlag",
+       "wert": "≥ 10 %",
+       "farbe": "WEISS",
+       "wort": "Schlag",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "gilt als 1. Januar",
+       "wort": "Jahresbeginn",
+       "farbe": "GRUEN",
+       "ls": 70
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8b Abs. 4 S. 6 KStG",
+       "wort": "Erwerb"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Jahresbeginn",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Zehn Prozent",
+     "am ersten Januar",
+     "entscheiden",
+     "über § 8b"
+    ],
+    "woerter": [
+     "Zehn",
+     "ersten",
+     "entscheiden",
+     "entscheiden"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "entscheiden",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Quizfrage: Sind Dividenden bei der GmbH immer zu 95 % steuerfrei? Nein – Streubesitz! 💡\n\n▸ Bezüge im Sinne des § 8b Abs. 1 KStG sind bei der Einkommensermittlung zu berücksichtigen, wenn die Beteiligung zu Beginn des Kalenderjahres unmittelbar weniger als 10 % des Grund- oder Stammkapitals betragen hat (§ 8b Abs. 4 S. 1 KStG).\n▸ Ab 10 %: Die Dividende bleibt außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG). Bei Streubesitz entfällt diese Pauschale (§ 8b Abs. 4 S. 7 KStG).\n▸ Der Erwerb einer Beteiligung von mindestens 10 % im laufenden Jahr gilt für die Streubesitzprüfung als zu Beginn des Kalenderjahres erfolgt (§ 8b Abs. 4 S. 6 KStG).\n▸ Die Grenze gilt nur für Dividenden – nicht für Veräußerungsgewinne nach § 8b Abs. 2 KStG.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 8b Abs. 1 S. 1, Abs. 2, Abs. 4 S. 1, 6, 7, Abs. 5 S. 1 KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-29",
+   "frage": [
+    "Realteilung:",
+    "Wann endet die Sperrfrist?"
+   ],
+   "optionen": [
+    "Ein Jahr nach Realteilung",
+    "Drei Jahre nach Realteilung",
+    "Drei Jahre nach der Erklärung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#5C3A21",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 5",
+     "bueste": "Device"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-29",
+   "titel": [
+    "C: drei Jahre",
+    "nach der Erklärung"
+   ],
+   "optionen": [
+    "Ein Jahr nach Realteilung",
+    "Drei Jahre nach Realteilung",
+    "Drei Jahre nach der Erklärung"
+   ],
+   "richtig": 2,
+   "text": "Maßgeblich ist die Erklärung der Gesellschaft für das Jahr der Realteilung.",
+   "norm": "§ 16 Abs. 3 S. 3 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#5C3A21",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 5",
+     "bueste": "Device"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Umsatzsteuer",
+   "beitragSlot": "b1",
+   "titel": [
+    "Bauleistung: wer zahlt USt?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-2",
+   "titel": [
+    "Familienheim",
+    "steuerfrei?"
+   ],
+   "norm": "§ 13 Abs. 1 Nr. 4a bis 4c ErbStG",
+   "punkte": [
+    [
+     "Ehegatte zu Lebzeiten: ohne Frist und Wertgrenze.",
+     "ok",
+     "§ 13 Abs. 1 Nr. 4a ErbStG"
+    ],
+    [
+     "Im Erbfall: zehn Jahre selbst wohnen; Kinder nur bis 200 qm.",
+     "warn",
+     "§ 13 Abs. 1 Nr. 4b, 4c ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium 2",
+     "haut": "#D9A47A",
+     "haar": "#3B2A20",
+     "oberteil": "#F9D56E",
+     "bart": "Full 2",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Körperschaftsteuer",
+   "beitragSlot": "b2",
+   "titel": [
+    "Verdeckte Einlage"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst die Fragen,",
+    "dann der Sachverhalt"
+   ],
+   "punkte": [
+    [
+     "Aufgabenstellung am Ende zuerst lesen.",
+     "ok",
+     null
+    ],
+    [
+     "Dann den Sachverhalt gezielt durcharbeiten.",
+     "ok",
+     null
+    ],
+    [
+     "Jede Zahl und jedes Datum markieren.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-search",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-3-07",
+   "titel": [
+    "Einlagekonto:",
+    "wann wird es genutzt?"
+   ],
+   "punkte": [
+    [
+     "Erst der ausschüttbare Gewinn des Vorjahres.",
+     "ok",
+     "§ 27 Abs. 1 S. 3 KStG"
+    ],
+    [
+     "Nur der Rest mindert das Einlagekonto.",
+     "warn",
+     null
+    ],
+    [
+     "Zu niedrig bescheinigt bleibt zu niedrig.",
+     "nein",
+     "§ 27 Abs. 5 S. 1 KStG"
+    ]
+   ],
+   "icon": "tabler:database",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Bilanzsteuerrecht",
+   "beitragSlot": "b3",
+   "titel": [
+    "Dividende immer steuerfrei?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-3-06",
+   "titel": [
+    "Nach Umwandlung",
+    "verkauft?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Verkauf in ",
+      null
+     ],
+     [
+      "5 Jahren",
+      "a"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "Gewerbesteuer",
+      "b"
+     ],
+     [
+      " fällig,",
+      null
+     ]
+    ],
+    [
+     [
+      "ohne ",
+      null
+     ],
+     [
+      "§ 35 EStG",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 18 Abs. 3 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Hijab",
+     "haut": "#E8B98F",
+     "oberteil": "#8DB3F2",
+     "bueste": "Paper"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

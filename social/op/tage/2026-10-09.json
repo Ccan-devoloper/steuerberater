@@ -1,0 +1,1048 @@
+{
+ "datum": "2026-10-09",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "anlass",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": "ust-aufb-ust-m-b04-14",
+   "themaTitel": "Geschafft: der Tag danach und dein Fahrplan",
+   "figuren": {
+    "A": {
+     "name": "Yara",
+     "kopf": "Bantu Knots",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Geschafft",
+     "badgeFarbe": "GRUEN",
+     "zeilen": [
+      "Der Tag",
+      "danach"
+     ],
+     "unter": "Durchatmen",
+     "teaser": "+ Dein Fahrplan",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "9",
+      "unter": "Fr · frei!"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Erst mal durchatmen",
+     "punkte": [
+      [
+       "Gestern war Tag 3. Heute darfst du einfach müde sein.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Grübeln über einzelne Lösungen ändert keine Note.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Ein paar Tage ohne Gesetz: Erholung gehört zur Vorbereitung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Endlich Pause."
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Fahrplan",
+     "schritte": [
+      [
+       "Jetzt",
+       null,
+       "erholen, Abstand gewinnen"
+      ],
+      [
+       "Dezember oder Januar",
+       null,
+       "meist kommt das Ergebnis"
+      ],
+      [
+       "Gesamtnote bis 4,5",
+       "§ 25 Abs. 2 DVStB",
+       "mündliche Prüfung vorbereiten"
+      ],
+      [
+       "Über 4,5",
+       "§ 35 Abs. 4 StBerG",
+       "zweiter Anlauf 2027"
+      ]
+     ],
+     "teaser": "Weiterwischen: beide Wege im Detail"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Weg 1: die Mündliche",
+     "punkte": [
+      [
+       "Kurzvortrag und sechs Prüfungsabschnitte.",
+       "ok",
+       "Regular",
+       "§ 26 Abs. 3 DVStB"
+      ],
+      [
+       "Drei Themen zur Wahl, eine halbe Stunde Vorbereitung.",
+       "ok",
+       "Regular",
+       "§ 26 Abs. 6 DVStB"
+      ],
+      [
+       "Ab November üben wir hier Kurzvorträge, laut und mit Uhr.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Kurz und frei reden."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Weg 2: Anlauf 2027",
+     "punkte": [
+      [
+       "Für die Wiederholung brauchst du eine neue Zulassung.",
+       "warn",
+       "Regular",
+       "§ 28 Abs. 3 DVStB"
+      ],
+      [
+       "Zweimal wiederholen ist möglich.",
+       "ok",
+       "Bold",
+       "§ 35 Abs. 4 StBerG"
+      ],
+      [
+       "Viele starten jetzt neu. Hier geht es täglich weiter.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Wir bleiben dran."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Heute: durchatmen",
+      "Ergebnis meist ab Dezember · dann Mündliche oder 2027",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Erholen",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ergebnis",
+        "b"
+       ],
+       [
+        " abwarten,",
+        null
+       ]
+      ],
+      [
+       [
+        "Mündliche",
+        "c"
+       ],
+       [
+        " üben",
+        null
+       ]
+      ],
+      [
+       [
+        "oder 2027",
+        "d"
+       ],
+       [
+        " neu starten.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für den Neustart",
+     "frage": "Wie geht es dir heute?"
+    }
+   ],
+   "caption": "Geschafft! Der Tag nach der schriftlichen Steuerberaterprüfung: durchatmen und der Fahrplan für die nächsten Monate.\n\n▸ Erst erholen. Grübeln über einzelne Lösungen ändert keine Note.\n▸ Das Ergebnis kommt meist ab Dezember oder Januar. Mit einer Gesamtnote bis 4,5 geht es in die mündliche Prüfung (§ 25 Abs. 2 DVStB): Kurzvortrag und sechs Prüfungsabschnitte, drei Vortragsthemen zur Wahl eine halbe Stunde vorher (§ 26 Abs. 3, 6 DVStB). Ab November gibt es hier Kurzvortrags-Beiträge.\n▸ Über 4,5: Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG); dafür ist eine neue Zulassung nötig (§ 28 Abs. 3 DVStB). Für viele beginnt jetzt die Vorbereitung auf 2027 – wir sind dabei.\n\nSpeichern für den Neustart 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#stbexamen2027"
+   ],
+   "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 3, 6 DVStB",
+    "§ 28 Abs. 3 DVStB",
+    "§ 35 Abs. 4 StBerG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "vergleich",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-11",
+   "themaTitel": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen?",
+   "figuren": {
+    "A": {
+     "name": "Hana",
+     "kopf": "Medium Bangs 3",
+     "haut": "#F3D0B5",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Gegenüberstellung",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Jahresüberschuss",
+      "oder Einkommen?"
+     ],
+     "norm": "§ 8 Abs. 1 KStG",
+     "unter": "GmbH-Ergebnis",
+     "teaser": "+ Markier-Guide § 10 KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Gewinn",
+        "Bold",
+        44
+       ],
+       [
+        "≠",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Einkommen",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Vom Überschuss zum Einkommen",
+     "schritte": [
+      [
+       "Jahresüberschuss",
+       null,
+       "laut Steuerbilanz"
+      ],
+      [
+       "Nichtabziehbares dazu",
+       "§ 10 KStG, § 4 Abs. 5b EStG",
+       "Körperschaft- und Gewerbesteuer, halber Aufsichtsrat"
+      ],
+      [
+       "Dividenden ab, 5 % dazu",
+       "§ 8b Abs. 1, 5 KStG",
+       ""
+      ],
+      [
+       "Spenden zuletzt",
+       "§ 9 Abs. 1 Nr. 2 KStG",
+       "mit Höchstbetrag"
+      ]
+     ],
+     "teaser": "Am Ende: § 10 KStG markiert"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "In der Bilanz oder daneben?",
+     "links": {
+      "kopf": "Jahresüberschuss",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Steueraufwand ist gebucht und mindert den Gewinn",
+        null
+       ],
+       [
+        "Dividende steht voll im Ertrag",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Einkommen",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Körperschaftsteuer außerhalb der Bilanz wieder dazu",
+        "§ 10 Nr. 2 KStG"
+       ],
+       [
+        "Dividende raus, 5 % wieder rein",
+        "§ 8b Abs. 1, 5 KStG"
+       ]
+      ]
+     },
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Bilanz bleibt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Hana führt eine Werkstatt-GmbH. Jahresüberschuss: 200.000 €.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Gebucht: Körperschaftsteuer 30.000 €, Gewerbesteuer 25.000 €, Aufsichtsrat 20.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ertrag: Dividende 10.000 € aus einer 20-%-Beteiligung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Jetzt du: Wie hoch ist das Einkommen?",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Was muss raus?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Lösung",
+     "normen": [
+      "§ 10 KStG",
+      "§ 4 Abs. 5b EStG",
+      "§ 8b KStG"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "200.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Körperschaftsteuer",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Gewerbesteuer",
+       "25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ halber Aufsichtsrat",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "− Dividende",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ 5 % davon",
+       "500 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einkommen",
+       "255.500 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Reihenfolge am Ende",
+     "punkte": [
+      [
+       "Spenden-Höchstbetrag vom Einkommen vor Spendenabzug berechnen.",
+       "warn",
+       "Bold",
+       "§ 9 Abs. 2 S. 1 KStG"
+      ],
+      [
+       "Verlustabzug erst danach, nicht vorher.",
+       "nein",
+       "Regular",
+       "§ 9 Abs. 2 S. 1 KStG, § 10d EStG"
+      ],
+      [
+       "Wer früher abzieht, rechnet den Höchstbetrag zu klein.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Erst Spenden!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Jahresüberschuss 200.000 €",
+      "Einkommen 255.500 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Steuern",
+        "a"
+       ],
+       [
+        " zurück,",
+        null
+       ]
+      ],
+      [
+       [
+        "Aufsichtsrat",
+        "b"
+       ],
+       [
+        " zur Hälfte,",
+        null
+       ]
+      ],
+      [
+       [
+        "Dividende",
+        "c"
+       ],
+       [
+        " raus,",
+        null
+       ]
+      ],
+      [
+       [
+        "5 %",
+        "d"
+       ],
+       [
+        " wieder rein.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welche Korrektur vergisst du gern?",
+     "teaser": "Weiterwischen: § 10 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 10 KStG Nichtabziehbare Aufwendungen",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Nichtabziehbar sind auch: […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "2.",
+       [
+        [
+         "die Steuern vom Einkommen",
+         "g1"
+        ],
+        [
+         "und sonstige Personensteuern sowie die Umsatzsteuer für Umsätze, die Entnahmen oder verdeckte Gewinnausschüttungen sind, […]; das gilt auch für die auf diese Steuern entfallenden Nebenleistungen,",
+         null
+        ]
+       ]
+      ],
+      [
+       "4.",
+       [
+        [
+         "die Hälfte der Vergütungen",
+         "b1"
+        ],
+        [
+         "jeder Art, die an",
+         null
+        ],
+        [
+         "Mitglieder des Aufsichtsrats,",
+         "gr1"
+        ],
+        [
+         "Verwaltungsrats oder andere mit der Überwachung der Geschäftsführung beauftragte Personen gewährt werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "KSt + Soli",
+       "g1"
+      ],
+      [
+       "50 % zurück",
+       "b1"
+      ],
+      [
+       "Kontrollorgan",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Gewerbesteuer: § 4 Abs. 5b EStG",
+      "steht nicht hier, sondern im EStG"
+     ]
+    }
+   ],
+   "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 8 Abs. 1 KStG",
+    "§ 10 Nr. 2, 4 KStG",
+    "§ 4 Abs. 5b EStG",
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG",
+    "§ 10d EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-formel-zinsstaffel",
+   "themaTitel": "Zinsstaffelmethode (arithmetisch-degressiv)",
+   "figuren": {
+    "A": {
+     "name": "Darius",
+     "kopf": "Short 3",
+     "haut": "#C99470",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5",
+     "bart": "Chin",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Viertausend Euro Disagio, Tilgungsdarlehen über vier Jahre. Linear tausend pro Jahr? Nein: Mit der Zinsstaffel sind es im ersten Jahr sechzehnhundert."
+    },
+    {
+     "id": "s1",
+     "text": "Der Nenner: vier mal fünf, geteilt durch zwei. Das ergibt zehn."
+    },
+    {
+     "id": "s2",
+     "text": "Jahr für Jahr die offenen Raten: vier Zehntel, drei, zwei, ein Zehntel."
+    },
+    {
+     "id": "s3",
+     "text": "Also sechzehnhundert, zwölfhundert, achthundert, vierhundert Euro Aufwand."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Schuld sinkt, Auflösung sinkt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Disagio",
+     "4.000 €"
+    ],
+    "pille": "Tilgungsdarlehen · 4 Jahre",
+    "figur": "A/skeptisch",
+    "name": "Darius",
+    "icons": [
+     [
+      "tabler:calculator",
+      "GELB",
+      "Linear"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "linear",
+      "wert": "1.000 €",
+      "farbe": "WEISS",
+      "wort": "Linear"
+     },
+     {
+      "label": "Zinsstaffel",
+      "wert": "1.600 €",
+      "farbe": "GELB",
+      "wort": "Zinsstaffel"
+     }
+    ],
+    "stempel": {
+     "text": "Jahr 1!",
+     "wort": "ersten"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Nenner",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "4 × 5 ÷ 2",
+       "size": 130,
+       "wort": "vier"
+      },
+      {
+       "typ": "block",
+       "label": "Nenner",
+       "wert": "10",
+       "farbe": "GELB",
+       "wort": "zehn",
+       "zs": 130
+      },
+      {
+       "typ": "norm",
+       "text": "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+       "wort": "Nenner"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Nenner"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Jahr für Jahr",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Jahr 1: 4/10",
+       "wort": "vier",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Jahr 2: 3/10",
+       "wort": "drei",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Jahr 3: 2/10",
+       "wort": "zwei",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Jahr 4: 1/10",
+       "wort": "ein",
+       "farbe": "WEISS"
+      }
+     ],
+     "icon": [
+      "tabler:calendar",
+      "GELB",
+      "Jahr"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Aufwand je Jahr",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Jahr 1",
+       "wert": "1.600 €",
+       "farbe": "GELB",
+       "wort": "sechzehnhundert",
+       "zs": 120
+      },
+      {
+       "typ": "pille",
+       "text": "1.200 € · 800 € · 400 €",
+       "wort": "zwölfhundert",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "H 6.10 EStH",
+       "wort": "Aufwand"
+      }
+     ],
+     "icon": [
+      "tabler:trending-down",
+      "GELB",
+      "sechzehnhundert"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Disagio 4.000 €",
+     "Nenner: 4 × 5 ÷ 2 = 10",
+     "1.600 · 1.200 · 800 · 400",
+     "Schuld sinkt, Aufwand sinkt"
+    ],
+    "woerter": [
+     null,
+     null,
+     null,
+     "Auflösung"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Auflösung",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Zinsstaffelmethode: Disagio beim Tilgungsdarlehen richtig auflösen.\n\n▸ Steuerlich ist das Disagio als aktiver Rechnungsabgrenzungsposten anzusetzen (§ 5 Abs. 5 S. 1 Nr. 1 EStG), in der Handelsbilanz besteht ein Wahlrecht (§ 250 Abs. 3 HGB). Die Verbindlichkeit steht mit dem Rückzahlungsbetrag in der Bilanz, der Unterschied wird auf die Laufzeit verteilt (H 6.10 EStH, Damnum).\n▸ Beim Tilgungsdarlehen sinkt die Schuld, deshalb wird degressiv aufgelöst: Nenner = n × (n + 1) ÷ 2, je Jahr die noch offenen Raten im Zähler.\n▸ Beispiel: 4.000 € Disagio, vier gleiche Jahresraten, Nenner 10: 1.600 €, 1.200 €, 800 €, 400 €.\n▸ Beim Fälligkeitsdarlehen wird dagegen linear aufgelöst.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+    "§ 250 Abs. 3 HGB",
+    "H 6.10 EStH (Damnum)"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-0",
+   "frage": [
+    "Bilanzfall:",
+    "Was kommt zuerst?"
+   ],
+   "optionen": [
+    "Bewertung",
+    "Zurechnung: Wem gehört es?",
+    "Buchungssatz"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Bangs",
+     "haut": "#E8B98F",
+     "haar": "#8B4A2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-0",
+   "titel": [
+    "B: erst",
+    "die Zurechnung"
+   ],
+   "optionen": [
+    "Bewertung",
+    "Zurechnung: Wem gehört es?",
+    "Buchungssatz"
+   ],
+   "richtig": 1,
+   "text": "Erst klären, wem das Wirtschaftsgut gehört. Danach Ansatz, Wert, Buchung.",
+   "norm": "§ 39 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Bangs",
+     "haut": "#E8B98F",
+     "haar": "#8B4A2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Der Tag danach"
+   ],
+   "unter": "Durchatmen + Fahrplan · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-bew1-8",
+   "titel": [
+    "Nießbrauch:",
+    "Jahreswert mit Deckel"
+   ],
+   "norm": "§ 16 BewG",
+   "punkte": [
+    [
+     "Jahreswert höchstens Steuerwert des Guts geteilt durch 18,6.",
+     "warn",
+     "§ 16 BewG"
+    ],
+    [
+     "Kapitalwert: Jahreswert mal Vervielfältiger.",
+     "ok",
+     "§§ 13, 14 BewG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Medium",
+     "haut": "#F1C7A5",
+     "haar": "#B0B0B0",
+     "oberteil": "#F9D56E",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Überschuss oder Einkommen?"
+   ],
+   "unter": "Vergleich + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Neustart:",
+    "die Fehlerliste"
+   ],
+   "punkte": [
+    [
+     "Jeden Fehler aus Übungsklausuren notieren",
+     "ok",
+     null
+    ],
+    [
+     "Daneben Norm und richtiges Ergebnis",
+     "ok",
+     null
+    ],
+    [
+     "Vor jeder Klausur einmal lesen",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-04",
+   "titel": [
+    "§ 8 Nr. 1 GewStG",
+    "in drei Schritten"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Gewichten: Zinsen voll, Mieten 1/5 oder 1/2, Lizenzen 1/4",
+     "ok",
+     null
+    ],
+    [
+     "200.000 € Freibetrag abziehen",
+     "ok",
+     null
+    ],
+    [
+     "Rest zu einem Viertel hinzurechnen",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "T": {
+     "kopf": "Dreads 2",
+     "haut": "#8D5A3B",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Disagio: 1.600 € im Jahr 1?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-10",
+   "titel": [
+    "§ 20 UmwStG:",
+    "Was muss mit?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Jede ",
+      null
+     ],
+     [
+      "funktional",
+      "a"
+     ]
+    ],
+    [
+     [
+      "wesentliche",
+      "a"
+     ],
+     [
+      " Grundlage",
+      null
+     ]
+    ],
+    [
+     [
+      "muss mit",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "groesse": 76,
+   "norm": "UmwStE vom 02.01.2025, Rn. 20.06",
+   "figuren": {
+    "M": {
+     "kopf": "Afro",
+     "haut": "#B97A56",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

@@ -19,7 +19,7 @@
      "bueste": "Sweater Dots"
     },
     "B": {
-     "name": "Tobias",
+     "name": "Arvid",
      "kopf": "Short 2",
      "haut": "#F2CFB3",
      "haar": "#A0522D",
@@ -79,7 +79,7 @@
        null
       ],
       [
-       "Tobias: bis zum beschlossenen Verkauf eines Mietshauses, Termin offen, vererblich.",
+       "Arvid: bis zum beschlossenen Verkauf eines Mietshauses, Termin offen, vererblich.",
        "ok",
        "Regular",
        null
@@ -117,7 +117,7 @@
       [
        "Feste Laufzeit",
        "§ 13 Abs. 1 BewG",
-       "Vielfaches aus Anlage 9a"
+       "Vielfaches aus Anlage 9a, gedeckelt durch § 14, wenn auch ein Leben zählt"
       ],
       [
        "Immerwährend",
@@ -127,12 +127,12 @@
       [
        "Unbestimmte Dauer",
        "§ 13 Abs. 2 BewG",
-       "9,3facher Jahreswert"
+       "9,3facher Jahreswert: Ende sicher, Zeitpunkt offen"
       ],
       [
        "Lebenslang",
        "§ 14 Abs. 1 BewG",
-       "BMF-Tabelle nach Alter und Geschlecht"
+       "BMF-Tabelle nach Lebensalter und Geschlecht"
       ]
      ]
     },
@@ -173,7 +173,7 @@
     },
     {
      "typ": "rechnung",
-     "titel": "Lösung Tobias",
+     "titel": "Lösung Arvid",
      "normen": [
       "§ 13 Abs. 2 BewG"
      ],
@@ -228,12 +228,15 @@
        "Bold",
        "§ 4 BewG"
       ]
-     ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Und bei zwei Personen?"
     },
     {
      "typ": "merke",
      "oben": [
-      "Selin 82.992 € · Tobias 55.800 €",
+      "Selin 82.992 € · Arvid 55.800 €",
       "Die Laufzeit bestimmt den Faktor, nicht der Betrag",
       "GELB"
      ],
@@ -357,7 +360,7 @@
      ]
     }
    ],
-   "caption": "Rente geerbt – mit welchem Vervielfältiger setzt das Finanzamt sie an? Eine typische Frage aus der Erbschaftsteuer-Klausur.\n\nDer Fall: Tante Margit stirbt im März 2026. Selin (60) erhält lebenslang 6.000 € im Jahr, Tobias 6.000 € jährlich bis zum beschlossenen Verkauf eines Mietshauses (vererblich, Termin offen).\n\n▸ Feste Laufzeit: Vielfaches aus Anlage 9a (§ 13 Abs. 1 BewG).\n▸ Immerwährend: 18,6facher, unbestimmte Dauer: 9,3facher Jahreswert, vorbehaltlich § 14 (§ 13 Abs. 2 BewG).\n▸ Lebenslang: Vervielfältiger nach Lebensalter und Geschlecht aus der BMF-Tabelle (§ 14 Abs. 1 BewG). Für Stichtage ab 01.01.2026: BMF vom 21.10.2025, Frau mit vollendetem 60. Lebensjahr 13,832.\n▸ Selin: 6.000 € × 13,832 = 82.992 €. Tobias: 6.000 € × 9,3 = 55.800 €.\n▸ Mehrere Berechtigte: beim Erlöschen mit dem Tod des Letztversterbenden der höchste, mit dem Tod des Erstversterbenden der niedrigste Vervielfältiger (§ 14 Abs. 3 BewG).\n▸ Aufschiebend bedingte Rente (z. B. erst bei Überleben): zunächst kein Ansatz (§ 4 BewG).\n▸ Wahlrecht: Steuer statt vom Kapitalwert jährlich im Voraus vom Jahreswert (§ 23 Abs. 1 ErbStG).\n\nZum Schluss: §§ 13, 14 BewG zum Markieren. Speichern für Klausur 1 📌",
+   "caption": "Rente geerbt – mit welchem Vervielfältiger setzt das Finanzamt sie an? Eine typische Frage aus der Erbschaftsteuer-Klausur.\n\nDer Fall: Tante Margit stirbt im März 2026. Selin (60) erhält lebenslang 6.000 € im Jahr, Arvid 6.000 € jährlich bis zum beschlossenen Verkauf eines Mietshauses (vererblich, Termin offen).\n\n▸ Feste Laufzeit: Vielfaches aus Anlage 9a (§ 13 Abs. 1 BewG).\n▸ Immerwährend: 18,6facher, unbestimmte Dauer: 9,3facher Jahreswert, vorbehaltlich § 14 (§ 13 Abs. 2 BewG).\n▸ Lebenslang: Vervielfältiger nach Lebensalter und Geschlecht aus der BMF-Tabelle (§ 14 Abs. 1 BewG). Für Stichtage ab 01.01.2026: BMF vom 21.10.2025, Frau mit vollendetem 60. Lebensjahr 13,832.\n▸ Selin: 6.000 € × 13,832 = 82.992 €. Arvid: 6.000 € × 9,3 = 55.800 €.\n▸ Mehrere Berechtigte: beim Erlöschen mit dem Tod des Letztversterbenden der höchste, mit dem Tod des Erstversterbenden der niedrigste Vervielfältiger (§ 14 Abs. 3 BewG).\n▸ Aufschiebend bedingte Rente (z. B. erst bei Überleben): zunächst kein Ansatz (§ 4 BewG).\n▸ Wahlrecht: Steuer statt vom Kapitalwert jährlich im Voraus vom Jahreswert (§ 23 Abs. 1 ErbStG).\n\nZum Schluss: §§ 13, 14 BewG zum Markieren. Speichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -503,7 +506,7 @@
      ],
      "figur": "B:erklaert",
      "x": 290,
-     "blase": "Ich bin Johanna, Mateos Beraterin."
+     "blase": "Ich bin Johanna, Beraterin."
     },
     {
      "typ": "rechnung",
@@ -544,16 +547,16 @@
     },
     {
      "typ": "inhalt",
-     "titel": "Jetzt du",
+     "titel": "Deine Einschätzung",
      "punkte": [
       [
-       "Muss Mateo in Deutschland eine Steuererklärung abgeben?",
+       "Braucht Mateo eine deutsche Steuererklärung?",
        null,
        "Bold",
        null
       ],
       [
-       "Und bekommt er etwas zurück?",
+       "Kann er sich etwas erstatten lassen?",
        null,
        "Bold",
        null
@@ -561,7 +564,7 @@
      ],
      "figur": "B:fragt",
      "x": 290,
-     "blase": "Was meinst du?"
+     "blase": "Erst überlegen!"
     },
     {
      "typ": "inhalt",
@@ -961,19 +964,19 @@
    "merke": {
     "seg": "cta",
     "zeilen": [
-     "Merke:",
-     "Erst Bezüge nach § 7",
-     "abziehen,",
-     "dann den Rest"
+     "Erst Bezüge",
+     "nach § 7 abziehen,",
+     "dann den Rest",
+     "rechnen"
     ],
     "woerter": [
-     null,
      "Bezüge",
      "abziehen",
-     "Rest"
+     "Rest",
+     "rechnen"
     ],
     "cta": "Speichern für Klausur 3",
-    "cta_wort": "Rest",
+    "cta_wort": "rechnen",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
    "caption": "Übernahmegewinn bei Verschmelzung einer GmbH auf eine KG – erst § 7 UmwStG, dann rechnen. 🧮\n\nBeispiel: Kai hält 100 % an einer GmbH (Anschaffungskosten = Stammkapital 50.000 €, kein weiteres Einlagekonto). Buchwert des übergehenden Vermögens 400.000 €.\n\n▸ Seine Anteile gelten als in die KG eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Übernahmegewinn 1. Stufe: 400.000 € − 50.000 € = 350.000 € (§ 4 Abs. 4 S. 1 UmwStG; Umwandlungskosten hier außer Acht).\n▸ Bezüge: Eigenkapital laut Steuerbilanz abzüglich Einlagekonto nach Anwendung des § 29 Abs. 1 KStG = 350.000 €, Einnahmen nach § 20 Abs. 1 Nr. 1 EStG (§ 7 UmwStG); hier im Teileinkünfteverfahren zu 60 % steuerpflichtig (§ 3 Nr. 40, § 20 Abs. 8 EStG), mit Kapitalertragsteuerabzug.\n▸ Der Übernahmegewinn vermindert sich um diese Bezüge (§ 4 Abs. 5 UmwStG): 0 €.\n▸ Ein verbleibender Übernahmegewinn: bei natürlichen Personen § 3 Nr. 40, § 3c EStG, bei Körperschaften § 8b KStG (§ 4 Abs. 7 UmwStG). Ein Übernahmeverlust: bei natürlichen Personen zu 60 %, höchstens 60 % der Bezüge; nicht bei entgeltlichem Erwerb der Anteile in den letzten fünf Jahren (§ 4 Abs. 6 S. 4, 6 UmwStG).\n\nSpeichern für Klausur 3 📌",
@@ -1007,7 +1010,7 @@
     "Was sperrt die Abgeltung?"
    ],
    "optionen": [
-    "§ 43 Abs. 5 S. 2 EStG",
+    "§ 43 Abs. 5 EStG",
     "§ 3 Nr. 40 EStG",
     "§ 12 Nr. 3 EStG"
    ],
@@ -1034,7 +1037,7 @@
     "S. 2 EStG"
    ],
    "optionen": [
-    "§ 43 Abs. 5 S. 2 EStG",
+    "§ 43 Abs. 5 EStG",
     "§ 3 Nr. 40 EStG",
     "§ 12 Nr. 3 EStG"
    ],
@@ -1255,7 +1258,7 @@
      ]
     ]
    ],
-   "norm": "§ 2 Abs. 1 UmwStG, § 17 Abs. 2 S. 4 UmwG",
+   "norm": "§ 2 UmwStG · § 17 Abs. 2 S. 4 UmwG",
    "figuren": {
     "M": {
      "kopf": "Buns",

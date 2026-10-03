@@ -1,0 +1,1183 @@
+{
+ "datum": "2026-11-27",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-t6-5",
+   "themaTitel": "Organschaft: Stimmrechte und inländische Betriebsstätte",
+   "figuren": {
+    "A": {
+     "name": "Priya",
+     "kopf": "Bun",
+     "haut": "#B5835A",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "40 % plus 20 %:",
+      "Organschaft?"
+     ],
+     "norm": "§ 14 Abs. 1 S. 1 Nr. 1 KStG",
+     "unter": "Der Fall",
+     "teaser": "+ Markier-Guide § 14 KStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "direkt + mittelbar",
+        "Bold",
+        42
+       ],
+       [
+        "60 %",
+        "ExtraBold",
+        110
+       ],
+       [
+        "Stimmen?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Sachverhalt",
+     "punkte": [
+      [
+       "Die Rhein AG hält 40 % der Stimmen an der Kessel GmbH.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ihre 100%ige Tochter, die Pfeil GmbH, hält weitere 20 %.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Seit Jahren so. Ist Kessel finanziell eingegliedert?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Priya."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Mittelbare Stimmen zählen, wenn jede vermittelnde Beteiligung die Mehrheit gibt.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 Nr. 1 S. 2 KStG"
+      ],
+      [
+       "Rhein beherrscht Pfeil voll: 40 % + 20 % = 60 %.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Mehrheit seit Beginn des Wirtschaftsjahres: eingegliedert.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 Nr. 1 S. 1 KStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Passt!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die Rhein AG hält nur 50 % der Stimmen an der Pfeil GmbH.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Reicht es noch für die Organschaft?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Knapp?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung der Variante",
+     "punkte": [
+      [
+       "50 % sind keine Mehrheit: Die 20 % über Pfeil zählen gar nicht.",
+       "nein",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 Nr. 1 S. 2 KStG"
+      ],
+      [
+       "Auch nicht anteilig: ganz oder gar nicht.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Es bleiben 40 %: keine Organschaft.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Schade."
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Was zählt?",
+     "links": {
+      "kopf": "Zählt",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Mehrheit der Stimmrechte",
+        "§ 14 Abs. 1 S. 1 Nr. 1 KStG"
+       ],
+       [
+        "Ab Beginn des Wirtschaftsjahres",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Zählt nicht",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "Kapital ohne Stimmrecht",
+        null
+       ],
+       [
+        "Mehrheit erst zum Bilanzstichtag",
+        null
+       ]
+      ]
+     },
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Stimmen, nicht Kapital."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und die Betriebsstätte?",
+     "punkte": [
+      [
+       "Die Beteiligung gehört die ganze Zeit zu einer inländischen Betriebsstätte der Rhein AG.",
+       "ok",
+       "Regular",
+       "§ 14 Abs. 1 S. 1 Nr. 2 S. 4 KStG"
+      ],
+      [
+       "Deren Einkünfte müssen auch nach DBA in Deutschland besteuert werden.",
+       "warn",
+       "Bold",
+       "§ 14 Abs. 1 S. 1 Nr. 2 S. 7 KStG"
+      ],
+      [
+       "Reiner Inlandsfall: kurz feststellen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Bei Auslandsbezug genau!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Grundfall: 60 % der Stimmen, eingegliedert",
+      "Variante: nur 40 %, keine Organschaft",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Stimmen",
+        "a"
+       ],
+       [
+        " zählen,",
+        null
+       ]
+      ],
+      [
+       [
+        "mittelbar",
+        "b"
+       ],
+       [
+        " mit Mehrheit,",
+        null
+       ]
+      ],
+      [
+       [
+        "ab ",
+        null
+       ],
+       [
+        "Jahresbeginn",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Betriebsstätte",
+        "d"
+       ],
+       [
+        " im Inland.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du 50 % mitgezählt?",
+     "teaser": "Weiterwischen: § 14 KStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 14 KStG Organgesellschaft (Auszug)",
+     "absaetze": [
+      [
+       "(1) 1.",
+       [
+        [
+         "Der Organträger muss an der Organgesellschaft vom Beginn ihres Wirtschaftsjahrs an ununterbrochen in einem solchen Maße beteiligt sein, dass ihm die",
+         null
+        ],
+        [
+         "Mehrheit der Stimmrechte",
+         "g1"
+        ],
+        [
+         "aus den Anteilen an der Organgesellschaft zusteht (finanzielle Eingliederung).",
+         null
+        ],
+        [
+         "Mittelbare Beteiligungen sind zu berücksichtigen,",
+         "b1"
+        ],
+        [
+         "wenn die Beteiligung an",
+         null
+        ],
+        [
+         "jeder vermittelnden Gesellschaft die Mehrheit der Stimmrechte gewährt.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "2.",
+       [
+        [
+         "[…] Die Beteiligung […] muss ununterbrochen während der gesamten Dauer der Organschaft",
+         null
+        ],
+        [
+         "einer inländischen Betriebsstätte",
+         "gr1"
+        ],
+        [
+         "im Sinne des § 12 der Abgabenordnung des Organträgers zuzuordnen sein.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Stimmen!",
+       "g1"
+      ],
+      [
+       "mittelbar",
+       "b1"
+      ],
+      [
+       "jede Stufe",
+       "r1"
+      ],
+      [
+       "Inland",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 14 Abs. 1 S. 1 Nr. 2 S. 7 KStG",
+      "auch nach DBA in Deutschland steuerpflichtig"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall Organschaft: 40 % direkt plus 20 % über eine Tochter. Reicht das für die finanzielle Eingliederung?\n\n▸ Erforderlich ist die Mehrheit der Stimmrechte an der Organgesellschaft, ununterbrochen vom Beginn ihres Wirtschaftsjahres an (§ 14 Abs. 1 S. 1 Nr. 1 S. 1 KStG). Die Kapitalquote allein entscheidet nicht.\n▸ Mittelbare Beteiligungen zählen, wenn die Beteiligung an jeder vermittelnden Gesellschaft die Stimmenmehrheit gewährt (§ 14 Abs. 1 S. 1 Nr. 1 S. 2 KStG). Dann wird die mittelbare Quote voll addiert, sonst gar nicht.\n▸ Fall: 40 % + 20 % über die 100%ige Tochter = 60 %: eingegliedert. Variante mit nur 50 % an der Tochter: keine Mehrheit dort, es bleiben 40 %, keine Organschaft.\n▸ Die Beteiligung muss während der gesamten Organschaft einer inländischen Betriebsstätte des Organträgers zuzuordnen sein (§ 14 Abs. 1 S. 1 Nr. 2 S. 4 KStG); deren Einkünfte müssen nach innerstaatlichem Recht und nach einem anzuwendenden DBA der deutschen Besteuerung unterliegen (§ 14 Abs. 1 S. 1 Nr. 2 S. 7 KStG).\n\nZum Schluss: § 14 Abs. 1 S. 1 Nr. 1, 2 KStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 14 Abs. 1 S. 1 Nr. 1 S. 1, 2 KStG",
+    "§ 14 Abs. 1 S. 1 Nr. 2 S. 4, 7 KStG",
+    "§ 12 AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-7-06",
+   "themaTitel": "Lifo, Durchschnitt oder Festwert: Was erlaubt die Steuerbilanz?",
+   "figuren": {
+    "A": {
+     "name": "Malte",
+     "kopf": "Flat Top Long",
+     "haut": "#F0C8A8",
+     "haar": "#8B5A2B",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Lifo, Festwert",
+      "oder Schnitt?"
+     ],
+     "norm": "§ 6 Abs. 1 Nr. 2a EStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:package",
+      "farbe": "GELB"
+     },
+     "figur": "A:redet"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Aufbau",
+     "schritte": [
+      [
+       "Einstieg · 1 Min.",
+       null,
+       "Grundsatz Einzelbewertung"
+      ],
+      [
+       "Durchschnitt · 2 Min.",
+       "§ 240 Abs. 4 HGB",
+       ""
+      ],
+      [
+       "Festwert · 2 Min.",
+       "§ 240 Abs. 3 HGB",
+       ""
+      ],
+      [
+       "Lifo · 4 Min.",
+       "§ 6 Abs. 1 Nr. 2a EStG",
+       ""
+      ],
+      [
+       "Schluss · 1 Min.",
+       null,
+       "Teilwert als Grenze"
+      ]
+     ],
+     "teaser": "Am Ende: § 6 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg",
+     "punkte": [
+      [
+       "Grundsatz: Jeder Vermögensgegenstand wird einzeln bewertet.",
+       "ok",
+       "Regular",
+       "§ 252 Abs. 1 Nr. 3 HGB"
+      ],
+      [
+       "Bei Massenvorräten kaum machbar: Das Gesetz lässt Vereinfachungen zu.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Leitfrage: Welche gilt auch in der Steuerbilanz?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Malte."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil 1: Schnitt und Festwert",
+     "punkte": [
+      [
+       "Gleichartige Vorräte: gewogener Durchschnitt.",
+       "ok",
+       "Regular",
+       "§ 240 Abs. 4 HGB"
+      ],
+      [
+       "Festwert: regelmäßig ersetzt, Gesamtwert nachrangig, Bestand kaum schwankend.",
+       "ok",
+       "Regular",
+       "§ 240 Abs. 3 S. 1 HGB"
+      ],
+      [
+       "In der Regel alle drei Jahre körperlich aufnehmen.",
+       "warn",
+       "Bold",
+       "§ 240 Abs. 3 S. 2 HGB"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Zwei Minuten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil 2: Lifo",
+     "punkte": [
+      [
+       "Steuerlich ist nur Lifo als Verbrauchsfolge erlaubt, Fifo nicht.",
+       "warn",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 2a S. 1 EStG"
+      ],
+      [
+       "Voraussetzung: Bilanzierung nach § 5 EStG, gleichartige Vorräte.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zurück nur mit Zustimmung des Finanzamts.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 2a S. 3 EStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Kernstück!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: 150 kg am Stichtag",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 2a EStG",
+      "§ 240 Abs. 4 HGB"
+     ],
+     "zeilen": [
+      [
+       "Anfang 100 kg × 4 €",
+       "400 €",
+       "Regular",
+       null
+      ],
+      [
+       "Zugang 200 kg × 5 €",
+       "1.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Lifo für 150 kg",
+       "650 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Durchschnitt",
+       "700 €",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lifo: 100 kg alt + 50 kg neu",
+      "HELL"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "„Muss Lifo zur echten Abgangsfolge passen?“ Nein.",
+       "ok",
+       "Regular",
+       "BMF vom 12.05.2015, Rn. 5"
+      ],
+      [
+       "„Und bei verderblicher Ware?“ Dann nicht zulässig.",
+       "nein",
+       "Regular",
+       "BMF vom 12.05.2015, Rn. 9"
+      ],
+      [
+       "„Teilwert gesunken?“ Abschreiben nur bei dauernder Minderung.",
+       "warn",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 2 S. 2 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Bereit!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Schlusssatz: steuerlich Lifo, nicht Fifo",
+      "Durchschnitt und Festwert über die Maßgeblichkeit",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Einzeln",
+        "a"
+       ],
+       [
+        " ist die Regel,",
+        null
+       ]
+      ],
+      [
+       [
+        "Schnitt",
+        "b"
+       ],
+       [
+        " und Festwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "steuerlich ",
+        null
+       ],
+       [
+        "nur Lifo",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Wo hakt dein Vortrag?",
+     "teaser": "Weiterwischen: § 6 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6 Abs. 1 Nr. 2a EStG",
+     "absaetze": [
+      [
+       "2a.",
+       [
+        [
+         "Steuerpflichtige,",
+         null
+        ],
+        [
+         "die den Gewinn nach § 5 ermitteln,",
+         "b1"
+        ],
+        [
+         "können für den Wertansatz",
+         null
+        ],
+        [
+         "gleichartiger Wirtschaftsgüter des Vorratsvermögens",
+         "g1"
+        ],
+        [
+         "unterstellen, dass die",
+         null
+        ],
+        [
+         "zuletzt angeschafften oder hergestellten Wirtschaftsgüter zuerst verbraucht oder veräußert",
+         "r1"
+        ],
+        [
+         "worden sind, soweit dies den handelsrechtlichen Grundsätzen ordnungsmäßiger Buchführung entspricht. […]",
+         null
+        ],
+        [
+         "Von der Verbrauchs- oder Veräußerungsfolge nach Satz 1 kann in den folgenden Wirtschaftsjahren nur mit Zustimmung des Finanzamts abgewichen werden.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur Bilanzierer",
+       "b1"
+      ],
+      [
+       "gleichartig",
+       "g1"
+      ],
+      [
+       "Lifo",
+       "r1"
+      ],
+      [
+       "Bindung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Daneben: § 240 Abs. 3, 4 HGB",
+      "Festwert und Durchschnitt über § 5 Abs. 1 EStG"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Lifo, Durchschnitt oder Festwert – was erlaubt die Steuerbilanz? 🎤\n\nAufbau für rund zehn Minuten:\n\n▸ Einstieg: Grundsatz der Einzelbewertung (§ 252 Abs. 1 Nr. 3 HGB); bei Massenvorräten erlaubt das Gesetz Vereinfachungen.\n▸ Durchschnitt: gleichartige Vorräte zu Gruppen zusammenfassen, gewogener Durchschnittswert (§ 240 Abs. 4 HGB).\n▸ Festwert: Sachanlagen sowie Roh-, Hilfs- und Betriebsstoffe, regelmäßig ersetzt, Gesamtwert nachrangig, Bestand nur gering schwankend; in der Regel alle drei Jahre körperliche Bestandsaufnahme (§ 240 Abs. 3 HGB). Steuerlich über die Maßgeblichkeit (§ 5 Abs. 1 S. 1 EStG).\n▸ Lifo: Als Verbrauchsfolge lässt die Steuerbilanz nur Lifo zu, für Bilanzierer nach § 5 EStG und gleichartige Vorräte, soweit mit den GoB vereinbar; Abweichung später nur mit Zustimmung des Finanzamts (§ 6 Abs. 1 Nr. 2a S. 1, 3 EStG). Lifo muss nicht der tatsächlichen Abgangsfolge entsprechen, ist aber bei Vorräten mit geringer Haltbarkeit nicht zulässig; das Wahlrecht ist unabhängig von der Handelsbilanz (BMF vom 12.05.2015, Rn. 5, 9, 10).\n▸ Schluss: Niedrigerer Teilwert nur bei voraussichtlich dauernder Wertminderung (§ 6 Abs. 1 Nr. 2 S. 2 EStG).\n\nBeispiel: Anfang 100 kg zu 4 €, Zugang 200 kg zu 5 €, Endbestand 150 kg. Lifo 650 €, Durchschnitt 700 €.\n\nZum Schluss: § 6 Abs. 1 Nr. 2a EStG zum Markieren. Speichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 252 Abs. 1 Nr. 3 HGB",
+    "§ 240 Abs. 3, 4 HGB",
+    "§ 5 Abs. 1 S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 2 S. 2, Nr. 2a S. 1, 3 EStG",
+    "BMF vom 12.05.2015, Rn. 5, 9, 10"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-367",
+   "themaTitel": "Vollstreckung: allgemeine Voraussetzungen und konkrete Vollstreckungsmaßnahme",
+   "figuren": {
+    "A": {
+     "name": "Simon",
+     "kopf": "Shaved 1",
+     "haut": "#7A4E32",
+     "haar": "#1B1B1B",
+     "oberteil": "#F2B880",
+     "bart": "Full 3",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Ohne Mahnung keine Vollstreckung? Falsch. Die Mahnung ist nur eine Sollvorschrift."
+    },
+    {
+     "id": "s1",
+     "text": "Simons Bescheid mit Leistungsgebot gilt am zweiten März als bekannt gegeben. Die Nachzahlung ist einen Monat später fällig, am zweiten April."
+    },
+    {
+     "id": "s2",
+     "text": "Vollstreckt werden darf, wenn die Steuer fällig ist und seit dem Leistungsgebot mindestens eine Woche vergangen ist."
+    },
+    {
+     "id": "s3",
+     "text": "Also ab dem dritten April. Eine Mahnung soll vorher kommen. Fehlt sie, bleibt die Pfändung trotzdem zulässig."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: fällig, Leistungsgebot, eine Woche. Die Mahnung ist kein Muss."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Ohne Mahnung",
+     "keine Pfändung?"
+    ],
+    "pille": "§§ 254, 259 AO",
+    "figur": "A/skeptisch",
+    "name": "Simon",
+    "icons": [
+     [
+      "tabler:gavel",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Mahnung nur Soll",
+     "wort": "Sollvorschrift",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Daten",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Bekanntgabe",
+       "wert": "2. März",
+       "farbe": "WEISS",
+       "wort": "zweiten",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "fällig nach einem Monat",
+       "wert": "2. April",
+       "farbe": "GELB",
+       "wort": "fällig",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 36 Abs. 4 S. 1 EStG",
+       "wort": "Monat"
+      }
+     ],
+     "icon": [
+      "tabler:calendar-time",
+      "GELB",
+      "Bescheid"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Voraussetzungen",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Steuer fällig",
+       "wort": "fällig",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Leistungsgebot",
+       "wort": "Leistungsgebot",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "+ mindestens 1 Woche",
+       "wort": "Woche",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 254 Abs. 1 S. 1 AO",
+       "wort": "Vollstreckt"
+      }
+     ],
+     "icon": [
+      "tabler:list-check",
+      "GELB",
+      "Vollstreckt"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Das Ergebnis",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Vollstreckung ab",
+       "wert": "3. April",
+       "farbe": "GRUEN",
+       "wort": "dritten",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Mahnung fehlt",
+       "wert": "trotzdem zulässig",
+       "farbe": "GELB",
+       "wort": "Fehlt",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 259 S. 1 AO",
+       "wort": "soll"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "zulässig",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "fällig,",
+     "Leistungsgebot,",
+     "eine Woche:",
+     "Mahnung kein Muss"
+    ],
+    "woerter": [
+     "fällig",
+     "Leistungsgebot",
+     "Woche",
+     "Muss"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Muss",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Ohne Mahnung keine Vollstreckung? Ein Klassiker im Prüfungsstoff Erhebungsverfahren. ⚖️\n\n▸ Die Vollstreckung darf beginnen, wenn die Leistung fällig ist, ein Leistungsgebot ergangen ist und seit der Aufforderung mindestens eine Woche verstrichen ist; das Leistungsgebot kann mit dem Bescheid verbunden werden (§ 254 Abs. 1 S. 1, 2 AO).\n▸ Eine Abschlusszahlung zur Einkommensteuer ist innerhalb eines Monats nach Bekanntgabe des Bescheids zu entrichten (§ 36 Abs. 4 S. 1 EStG).\n▸ Beispiel: Bekanntgabe am 02.03.2027, fällig am 02.04.2027, Vollstreckung frühestens ab 03.04.2027.\n▸ Die Mahnung mit Wochenfrist ist nur eine Sollvorschrift (§ 259 S. 1 AO). Vollstreckungsmaßnahmen sind nicht deshalb unzulässig, weil sie unterblieben ist (Abschn. 19 Abs. 3 VollstrA).\n▸ Erst danach prüfst du die konkrete Maßnahme, etwa die Pfändung.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 254 Abs. 1 S. 1, 2 AO",
+    "§ 259 S. 1 AO",
+    "§ 36 Abs. 4 S. 1 EStG",
+    "Abschn. 19 Abs. 3 VollstrA"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "frage": [
+    "Freitag, 5. März 2027:",
+    "Bescheid zur Post.",
+    "Bekanntgabe?"
+   ],
+   "optionen": [
+    "Montag, 8. März",
+    "Dienstag, 9. März",
+    "Mittwoch, 10. März"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Curly",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "titel": [
+    "B: Dienstag,",
+    "9. März"
+   ],
+   "optionen": [
+    "Montag, 8. März",
+    "Dienstag, 9. März",
+    "Mittwoch, 10. März"
+   ],
+   "richtig": 1,
+   "text": "Seit 2025 gilt der vierte Tag nach Aufgabe zur Post.",
+   "norm": "§ 122 Abs. 2 Nr. 1 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Curly",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Körperschaftsteuer",
+   "beitragSlot": "b1",
+   "titel": [
+    "40 % plus 20 %: Organschaft?"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-modul-kst-10",
+   "titel": [
+    "Anteilskauf:",
+    "Verlust weg?"
+   ],
+   "norm": "§ 8c Abs. 1 S. 1 KStG",
+   "punkte": [
+    [
+     "Über 50 % in fünf Jahren an einen Erwerber: Verlust geht unter.",
+     "nein",
+     "§ 8c Abs. 1 S. 1 KStG"
+    ],
+    [
+     "Auswege: stille Reserven oder Antrag nach § 8d.",
+     "ok",
+     "§ 8c Abs. 1 S. 5, § 8d Abs. 1 KStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Turban",
+     "haut": "#A8704B",
+     "oberteil": "#9AD48F",
+     "bart": "Full 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Bilanzsteuerrecht",
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag: Lifo"
+   ],
+   "unter": "Vortragsaufbau + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Probeklausur:",
+    "echte Bedingungen"
+   ],
+   "punkte": [
+    [
+     "Sechs Stunden am Stück, Handy weg.",
+     "ok",
+     null
+    ],
+    [
+     "Nur die erlaubten Hilfsmittel.",
+     "ok",
+     null
+    ],
+    [
+     "Direkt danach Fehler notieren.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Afro",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "figur": "Z/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-glossar-21",
+   "titel": [
+    "Nach der Prüfung:",
+    "Bilanz anpassen"
+   ],
+   "punkte": [
+    [
+     "Steuerbilanz: Kapital zum 1.1. erfolgsneutral angleichen.",
+     "ok",
+     "§ 4 Abs. 1 S. 1 EStG"
+    ],
+    [
+     "Handelsbilanz: Korrektur im laufenden Jahr, mit Wirkung auf den Gewinn.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:refresh",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Medium Bangs",
+     "haut": "#E0AC85",
+     "haar": "#3A2418",
+     "oberteil": "#C9B8F2"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Abgabenordnung",
+   "beitragSlot": "b3",
+   "titel": [
+    "Ohne Mahnung keine Pfändung?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-211",
+   "titel": [
+    "Entnahme:",
+    "immer Umsatzsteuer?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Ohne ",
+      null
+     ],
+     [
+      "Vorsteuer",
+      "a"
+     ]
+    ],
+    [
+     [
+      "beim Kauf",
+      null
+     ]
+    ],
+    [
+     [
+      "keine ",
+      null
+     ],
+     [
+      "Wertabgabe",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 3 Abs. 1b S. 2 UStG",
+   "groesse": 76,
+   "figuren": {
+    "M": {
+     "kopf": "Bangs 2",
+     "haut": "#D9A47E",
+     "haar": "#1B1B1B",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

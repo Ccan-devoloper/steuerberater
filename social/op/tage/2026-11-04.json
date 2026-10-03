@@ -1,0 +1,1188 @@
+{
+ "datum": "2026-11-04",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-4-5",
+   "themaTitel": "Wann sind Anteile an der Komplementär-GmbH SBV II?",
+   "figuren": {
+    "A": {
+     "name": "Talia",
+     "kopf": "Long Bangs",
+     "haut": "#B97A56",
+     "haar": "#2B1B12",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 3",
+     "bueste": "Shirt and Coat"
+    },
+    "B": {
+     "name": "Ilkay",
+     "kopf": "Short 1",
+     "haut": "#D9A47A",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bart": "Full",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "GmbH-Anteil",
+      "immer SBV II?"
+     ],
+     "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+     "unter": "Vorsicht",
+     "teaser": "+ Markier-Guide § 15 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:alert-triangle",
+      "farbe": "ROT"
+     },
+     "figur": "A:skeptisch"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Annahme",
+     "punkte": [
+      [
+       "Oft werden alle GmbH-Anteile eines Kommanditisten automatisch ins Sonderbetriebsvermögen II gebucht.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Dorthin gehören sie aber nur, wenn sie seiner Beteiligung an der KG dienen.",
+       "ok",
+       "Bold",
+       "R 4.2 Abs. 2 EStR"
+      ]
+     ],
+     "figur": "B:skeptisch",
+     "x": 290,
+     "blase": "Ich bin Ilkay. Wo ist das Problem?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Kern GmbH & Co. KG: Kommanditisten sind Ilkay mit 60 % und Talia mit 40 %.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "An der Komplementär-GmbH: Ilkay 92 %, Talia 8 %.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Satzung der GmbH: einfache Mehrheit genügt.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Talia."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Gehören Talias 8 % an der GmbH zu ihrem Sonderbetriebsvermögen II?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und Ilkays 92 %?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Zählt nur die Quote?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Unter 10 % bei einfacher Mehrheit: kein Einfluss auf die Geschäftsführung der KG.",
+       "nein",
+       "Regular",
+       "BFH vom 16.04.2015, IV R 1/12"
+      ],
+      [
+       "Talias Anteil bleibt Privatvermögen.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Ilkays 92 %: notwendiges Sonderbetriebsvermögen II.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Bei mir schon!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zwei Gegenproben",
+     "punkte": [
+      [
+       "Geht laut Satzung ohne Talias Stimmen nichts, kippt das Ergebnis: Sonderbetriebsvermögen II.",
+       "warn",
+       "Regular",
+       "BFH vom 16.04.2015, IV R 1/12"
+      ],
+      [
+       "Hat die GmbH ein eigenes, nicht nur untergeordnetes Geschäft, ist auch eine Mehrheit in der Regel nicht SBV II.",
+       "warn",
+       "Regular",
+       "BFH vom 21.12.2021, IV R 15/19"
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 790,
+     "blase": "Und meine Mehrheit?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Was hängt daran?",
+     "links": {
+      "kopf": "Privatvermögen",
+      "farbe": "WEISS",
+      "punkte": [
+       [
+        "Dividende: Kapitalvermögen",
+        "§ 20 Abs. 1 Nr. 1 EStG"
+       ],
+       [
+        "Abgeltungsteuer",
+        "§ 32d Abs. 1 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "SBV II",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Dividende: Sonderbetriebseinnahme",
+        "§ 20 Abs. 8 EStG"
+       ],
+       [
+        "Teileinkünfteverfahren",
+        "§ 3 Nr. 40 S. 1 Buchst. d EStG"
+       ]
+      ]
+     },
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Es geht um Geld!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Talia: Privatvermögen · Ilkay: SBV II",
+      "Maßstab ist der Einfluss auf die KG",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Einfluss",
+        "a"
+       ],
+       [
+        " zählt,",
+        null
+       ]
+      ],
+      [
+       [
+        "nicht die ",
+        null
+       ],
+       [
+        "Quote",
+        "b"
+       ],
+       [
+        " allein:",
+        null
+       ]
+      ],
+      [
+       [
+        "unter 10 %",
+        "c"
+       ],
+       [
+        " meist privat,",
+        null
+       ]
+      ],
+      [
+       [
+        "Eigengeschäft",
+        "d"
+       ],
+       [
+        " sperrt.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Liest du die Satzung mit?",
+     "teaser": "Weiterwischen: § 15 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15 Abs. 1 EStG (Auszug)",
+     "absaetze": [
+      [
+       "S. 1 Nr. 2",
+       [
+        [
+         "die",
+         null
+        ],
+        [
+         "Gewinnanteile",
+         "g1"
+        ],
+        [
+         "der Gesellschafter einer Offenen Handelsgesellschaft, einer",
+         null
+        ],
+        [
+         "Kommanditgesellschaft",
+         "b1"
+        ],
+        [
+         "und einer anderen Gesellschaft, bei der der Gesellschafter als Unternehmer (Mitunternehmer) des Betriebs anzusehen ist, und die",
+         null
+        ],
+        [
+         "Vergütungen,",
+         "gr1"
+        ],
+        [
+         "die der Gesellschafter von der Gesellschaft für seine Tätigkeit im Dienst der Gesellschaft oder für die Hingabe von Darlehen oder für die Überlassung von Wirtschaftsgütern bezogen hat. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Gesamthand",
+       "g1"
+      ],
+      [
+       "auch GmbH & Co. KG",
+       "b1"
+      ],
+      [
+       "Sonderbereich",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "SBV II steht nicht im Gesetz",
+      "Grundlage: R 4.2 Abs. 2 EStR und BFH"
+     ]
+    }
+   ],
+   "caption": "Klausurfalle: Sind GmbH-Anteile des Kommanditisten immer Sonderbetriebsvermögen II?\n\nFall: Kern GmbH & Co. KG, Kommanditisten Ilkay (60 %) und Talia (40 %). An der Komplementär-GmbH: Ilkay 92 %, Talia 8 %; die Satzung lässt die einfache Mehrheit genügen.\n\n▸ Sonderbetriebsvermögen II sind Wirtschaftsgüter, die der Beteiligung des Gesellschafters an der Personengesellschaft dienen (R 4.2 Abs. 2 EStR; Einkünfte nach § 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Eine Minderheitsbeteiligung unter 10 % an der Komplementär-GmbH ist regelmäßig kein notwendiges Sonderbetriebsvermögen II, wenn die Gesellschafterversammlung mit einfacher Mehrheit entscheidet (BFH vom 16.04.2015, IV R 1/12). Anders, wenn ohne die Stimmen des Minderheitsgesellschafters keine Beschlüsse möglich sind.\n▸ Unterhält die GmbH neben der Geschäftsführung für die KG einen eigenen Geschäftsbetrieb von nicht ganz untergeordneter Bedeutung, gehört auch eine Mehrheitsbeteiligung in der Regel nicht zum notwendigen Sonderbetriebsvermögen II (BFH vom 21.12.2021, IV R 15/19).\n▸ Folge: Im Privatvermögen Einkünfte aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1, § 32d Abs. 1 EStG); im Sonderbetriebsvermögen gewerbliche Sonderbetriebseinnahmen (§ 20 Abs. 8 EStG) im Teileinkünfteverfahren (§ 3 Nr. 40 S. 1 Buchst. d EStG).\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "R 4.2 Abs. 2 EStR",
+    "BFH vom 16.04.2015, IV R 1/12",
+    "BFH vom 21.12.2021, IV R 15/19 (BStBl II 2022, 651)",
+    "§ 20 Abs. 1 Nr. 1, Abs. 8 EStG",
+    "§ 32d Abs. 1 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. d EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-333",
+   "themaTitel": "Ablaufhemmung bei Einspruch und Außenprüfung: § 171 Abs. 3a und Abs. 4 AO",
+   "figuren": {
+    "A": {
+     "name": "Okan",
+     "kopf": "Short 3",
+     "haut": "#C99470",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Festsetzungsfrist",
+      "gerettet?"
+     ],
+     "norm": "§ 171 Abs. 3a, 4 AO",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 171 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "DEZEMBER",
+      "tag": "31",
+      "unter": "Fristende?"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Reguläres Fristende",
+       "§§ 169, 170 AO",
+       ""
+      ],
+      [
+       "Einspruch oder Klage?",
+       "§ 171 Abs. 3a AO",
+       ""
+      ],
+      [
+       "Außenprüfung rechtzeitig?",
+       "§ 171 Abs. 4 S. 1 AO",
+       ""
+      ],
+      [
+       "Ende der Hemmung",
+       "§ 171 Abs. 3a, 4 AO",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 171 AO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Okan reicht seine Einkommensteuererklärung 2020 im Mai 2021 ein.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Der Bescheid ergeht im Juli 2021, ohne Vorbehalt.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ist 2026 noch eine Änderung möglich?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Okan. Längst erledigt?"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Schritt 1: reguläres Ende",
+     "zeilen": [
+      [
+       "2021",
+       "Erklärung eingereicht",
+       "WEISS",
+       "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+      ],
+      [
+       "2022",
+       "Frist beginnt",
+       "WEISS",
+       null
+      ],
+      [
+       "31.12.2025",
+       "Ende nach 4 Jahren",
+       "GELB",
+       "§ 169 Abs. 2 S. 1 Nr. 2 AO"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Also vorbei?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 2: Einspruch",
+     "punkte": [
+      [
+       "Variante: Okan legt Einspruch ein, entschieden wird erst 2026.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Frist läuft nicht ab, bevor über den Einspruch unanfechtbar entschieden ist.",
+       "ok",
+       "Bold",
+       "§ 171 Abs. 3a S. 1 AO"
+      ],
+      [
+       "Gehemmt für den ganzen Steueranspruch, außer der Einspruch ist unzulässig.",
+       "warn",
+       "Regular",
+       "§ 171 Abs. 3a S. 2 AO"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Dann ist noch alles offen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Kein Einspruch. Die Prüfungsanordnung für 2020 kommt im Oktober 2025.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die Prüfer fangen am 12.01.2026 an. Ist die Frist gehemmt?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung: Schritt 3",
+     "punkte": [
+      [
+       "Nein: Die Prüfung muss vor Fristablauf beginnen.",
+       "nein",
+       "Bold",
+       "§ 171 Abs. 4 S. 1 AO"
+      ],
+      [
+       "Anders, wenn Okan vorher beantragt hat, den Beginn hinauszuschieben.",
+       "warn",
+       "Regular",
+       "§ 171 Abs. 4 S. 1 AO"
+      ],
+      [
+       "Die Anordnung allein hemmt nichts.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Knapp zu spät!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 4: Ende",
+     "punkte": [
+      [
+       "Einspruch: mit der unanfechtbaren Entscheidung.",
+       "ok",
+       "Regular",
+       "§ 171 Abs. 3a S. 1 AO"
+      ],
+      [
+       "Außenprüfung: wenn die Bescheide unanfechtbar sind oder drei Monate nach der Mitteilung ohne Änderung.",
+       "ok",
+       "Regular",
+       "§ 171 Abs. 4 S. 1 AO"
+      ],
+      [
+       "Spätestens fünf Jahre nach Ablauf des Jahres der Prüfungsanordnung.",
+       "warn",
+       "Bold",
+       "§ 171 Abs. 4 S. 3 AO"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Zwei Wege, zwei Enden."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Okan: Prüfungsbeginn 2026 kommt zu spät",
+      "Fristende 31.12.2025, keine Hemmung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Einspruch",
+        "a"
+       ],
+       [
+        " hemmt alles,",
+        null
+       ]
+      ],
+      [
+       [
+        "Prüfung",
+        "b"
+       ],
+       [
+        " nur bei ",
+        null
+       ],
+       [
+        "Beginn",
+        "c"
+       ]
+      ],
+      [
+       [
+        "vor Fristablauf.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Zeichnest du den Zeitstrahl?",
+     "teaser": "Weiterwischen: § 171 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 171 AO Ablaufhemmung (Auszug)",
+     "absaetze": [
+      [
+       "(3a)",
+       [
+        [
+         "Wird ein Steuerbescheid mit einem",
+         null
+        ],
+        [
+         "Einspruch",
+         "g1"
+        ],
+        [
+         "oder einer Klage angefochten, so läuft die Festsetzungsfrist nicht ab,",
+         null
+        ],
+        [
+         "bevor über den Rechtsbehelf unanfechtbar entschieden ist;",
+         "gr1"
+        ],
+        [
+         "[…] Der Ablauf der Festsetzungsfrist ist hinsichtlich des",
+         null
+        ],
+        [
+         "gesamten Steueranspruchs",
+         "b1"
+        ],
+        [
+         "gehemmt; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(4)",
+       [
+        [
+         "Wird",
+         null
+        ],
+        [
+         "vor Ablauf der Festsetzungsfrist",
+         "r1"
+        ],
+        [
+         "mit einer Außenprüfung",
+         null
+        ],
+        [
+         "begonnen",
+         "r2"
+        ],
+        [
+         "oder wird deren Beginn",
+         null
+        ],
+        [
+         "auf Antrag des Steuerpflichtigen",
+         "g2"
+        ],
+        [
+         "hinausgeschoben, so läuft die Festsetzungsfrist […] nicht ab, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "zulässig?",
+       "g1"
+      ],
+      [
+       "Ende",
+       "gr1"
+      ],
+      [
+       "Reichweite",
+       "b1"
+      ],
+      [
+       "Zeitpunkt!",
+       "r1"
+      ],
+      [
+       "nur Beginn",
+       "r2"
+      ],
+      [
+       "Ausnahme",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Höchstgrenze: § 171 Abs. 4 S. 3 AO",
+      "fünf Jahre nach dem Jahr der Prüfungsanordnung"
+     ]
+    }
+   ],
+   "caption": "Festsetzungsfrist gerettet? Das Prüfschema zur Ablaufhemmung durch Einspruch und Außenprüfung.\n\nFall: Okan reicht die Einkommensteuererklärung 2020 im Mai 2021 ein.\n\n1. Reguläres Ende: Beginn mit Ablauf des Jahres der Einreichung (§ 170 Abs. 2 S. 1 Nr. 1 AO), vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO) – Ende 31.12.2025.\n2. Einspruch oder Klage: Die Frist läuft nicht ab, bevor über den Rechtsbehelf unanfechtbar entschieden ist, auch bei Einlegung nach Fristablauf; gehemmt ist der gesamte Steueranspruch, nicht aber soweit der Rechtsbehelf unzulässig ist (§ 171 Abs. 3a S. 1, 2 AO).\n3. Außenprüfung: Hemmung nur, wenn vor Ablauf der Festsetzungsfrist mit der Prüfung begonnen oder ihr Beginn auf Antrag des Steuerpflichtigen hinausgeschoben wird (§ 171 Abs. 4 S. 1 AO). Prüfungsbeginn am 12.01.2026 ist zu spät.\n4. Ende: Unanfechtbarkeit der aufgrund der Prüfung erlassenen Bescheide oder drei Monate nach Bekanntgabe der Mitteilung nach § 202 Abs. 1 S. 3 AO (§ 171 Abs. 4 S. 1 AO); Höchstgrenze: fünf Jahre ab Ende des Bekanntgabejahres der Prüfungsanordnung (§ 171 Abs. 4 S. 3 AO).\n\nZum Schluss: § 171 Abs. 3a, 4 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+    "§ 170 Abs. 2 S. 1 Nr. 1 AO",
+    "§ 171 Abs. 3a S. 1, 2 AO",
+    "§ 171 Abs. 4 S. 1, 3 AO",
+    "§ 202 Abs. 1 S. 3 AO"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr3-04",
+   "themaTitel": "Aufsichtsratsvergütung: § 18, § 49, § 50a und Art. 16 DBA",
+   "figuren": {
+    "A": {
+     "name": "Femke",
+     "kopf": "Medium Straight",
+     "haut": "#F1C7A5",
+     "haar": "#E0B867",
+     "oberteil": "#C9B8F2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Aufsichtsrätin aus dem Ausland, Vergütung von einer deutschen AG. Nur im Wohnsitzstaat steuerpflichtig? Falsch. Hier gilt eine Sonderregel."
+    },
+    {
+     "id": "s1",
+     "text": "Aufsichtsratsvergütungen sind Einkünfte aus selbständiger Arbeit. Weil die Überwachung in Deutschland verwertet wird, sind sie inländisch."
+    },
+    {
+     "id": "s2",
+     "text": "Die AG behält dreißig Prozent ein. Bei zehntausend Euro sind das dreitausend Euro Abzugsteuer."
+    },
+    {
+     "id": "s3",
+     "text": "Und das Abkommen? Artikel sechzehn lässt den Staat besteuern, in dem die Gesellschaft ansässig ist."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Der Aufsichtsrat zahlt dort, wo die Gesellschaft sitzt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Aufsichtsrat",
+     "nur daheim?"
+    ],
+    "pille": "Vergütung einer deutschen AG",
+    "figur": "A/sorge",
+    "name": "Femke",
+    "icons": [
+     [
+      "tabler:world",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Sitzstaat besteuert",
+     "wort": "Sonderregel",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Inländische Einkünfte",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einkunftsart",
+       "wert": "selbständig",
+       "farbe": "WEISS",
+       "wort": "selbständiger",
+       "zs": 100
+      },
+      {
+       "typ": "text",
+       "text": "In Deutschland verwertet",
+       "unter": "Gesellschaft sitzt hier",
+       "wort": "verwertet",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "norm",
+       "text": "§ 49 Abs. 1 Nr. 3 EStG",
+       "wort": "inländisch"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Aufsichtsratsvergütungen"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Abzug durch die AG",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Vergütung",
+       "wert": "10.000 €",
+       "farbe": "WEISS",
+       "wort": "zehntausend",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Abzugsteuer 30 %",
+       "wert": "3.000 €",
+       "farbe": "GELB",
+       "wort": "dreitausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 50a Abs. 1 Nr. 4, Abs. 2 EStG",
+       "wort": "dreißig"
+      }
+     ],
+     "icon": [
+      "tabler:receipt-tax",
+      "GELB",
+      "behält"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "dreitausend",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Und das DBA?",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Besteuerungsrecht",
+       "wert": "Sitzstaat",
+       "farbe": "GRUEN",
+       "wort": "Gesellschaft",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "nicht Art. 15, nicht Art. 7",
+       "farbe": "WEISS",
+       "wort": "ansässig"
+      },
+      {
+       "typ": "norm",
+       "text": "Art. 16 OECD-MA",
+       "wort": "Artikel"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "ansässig",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Aufsichtsrat",
+     "zahlt dort,",
+     "wo die Gesellschaft",
+     "sitzt"
+    ],
+    "woerter": [
+     "Aufsichtsrat",
+     "zahlt",
+     "Gesellschaft",
+     "sitzt"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "sitzt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Klausurfalle Aufsichtsratsvergütung: Die Aufsichtsrätin wohnt im Ausland – trotzdem besteuert Deutschland. 🌍\n\n▸ Einkunftsart: Vergütungen für die Tätigkeit als Aufsichtsratsmitglied sind Einkünfte aus sonstiger selbständiger Arbeit (§ 18 Abs. 1 Nr. 3 EStG).\n▸ Inlandsbezug: selbständige Arbeit, die im Inland ausgeübt oder verwertet wird (§ 49 Abs. 1 Nr. 3 EStG); beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n▸ Steuerabzug: Die Gesellschaft behält bei Aufsichtsratsvergütungen 30 % der gesamten Einnahmen ein (§ 50a Abs. 1 Nr. 4, Abs. 2 S. 1 EStG), hier 3.000 € von 10.000 €; die Steuer gilt grundsätzlich als abgegolten (§ 50 Abs. 2 S. 1 EStG).\n▸ DBA: Aufsichtsrats- und Verwaltungsratsvergütungen darf nach Art. 16 OECD-MA der Staat besteuern, in dem die Gesellschaft ansässig ist – nicht Art. 7 oder Art. 15. Der Wohnsitzstaat vermeidet die Doppelbesteuerung (Art. 23A/23B OECD-MA).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 18 Abs. 1 Nr. 3 EStG",
+    "§ 49 Abs. 1 Nr. 3 EStG",
+    "§ 1 Abs. 4 EStG",
+    "§ 50a Abs. 1 Nr. 4, Abs. 2 S. 1 EStG",
+    "§ 50 Abs. 2 S. 1 EStG",
+    "Art. 16, 23A, 23B OECD-MA"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "frage": [
+    "Grenzpendler-Antrag:",
+    "welche Quote?"
+   ],
+   "optionen": [
+    "Mindestens 90 % deutsche Einkünfte",
+    "Mindestens 50 %",
+    "Mindestens 75 %"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "titel": [
+    "A: mindestens",
+    "90 Prozent"
+   ],
+   "optionen": [
+    "Mindestens 90 % deutsche Einkünfte",
+    "Mindestens 50 %",
+    "Mindestens 75 %"
+   ],
+   "richtig": 0,
+   "text": "Alternativ: Die übrigen Einkünfte bleiben unter dem Grundfreibetrag.",
+   "norm": "§ 1 Abs. 3 S. 2 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Personengesellschaften",
+   "beitragSlot": "b1",
+   "titel": [
+    "GmbH-Anteil immer SBV II?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-4-6",
+   "titel": [
+    "Dividende der",
+    "Komplementär-GmbH"
+   ],
+   "norm": "§ 20 Abs. 8 EStG",
+   "punkte": [
+    [
+     "Anteile im SBV II: Sonderbetriebseinnahme bei der KG.",
+     "ok",
+     "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+    ],
+    [
+     "Zu 60 % steuerpflichtig; die Kapitalertragsteuer mindert den Gewinn nicht.",
+     "warn",
+     "§ 3 Nr. 40 S. 1 Buchst. d, § 12 Nr. 3 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Bun",
+     "haut": "#E8B98F",
+     "oberteil": "#F2B5C8",
+     "brille": "Glasses 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Abgabenordnung",
+   "beitragSlot": "b2",
+   "titel": [
+    "Festsetzungsfrist gerettet?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Fristen lösen:",
+    "erst Zeitstrahl"
+   ],
+   "punkte": [
+    [
+     "Alle Daten aus dem Sachverhalt untereinander.",
+     "ok",
+     null
+    ],
+    [
+     "Beginn, Dauer und Ende getrennt begründen.",
+     "ok",
+     null
+    ],
+    [
+     "Wochenende und Feiertag am Fristende prüfen.",
+     "warn",
+     "§ 108 Abs. 3 AO"
+    ]
+   ],
+   "icon": "tabler:timeline",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-9",
+   "titel": [
+    "Ist-Versteuerung:",
+    "wer darf?"
+   ],
+   "normImTitel": false,
+   "punkte": [
+    [
+     "Gesamtumsatz im Vorjahr bis 800.000 €.",
+     "ok",
+     "§ 20 S. 1 Nr. 1 UStG"
+    ],
+    [
+     "Oder befreit von der Buchführungspflicht.",
+     "ok",
+     "§ 20 S. 1 Nr. 2 UStG"
+    ],
+    [
+     "Oder freiberufliche Umsätze.",
+     "ok",
+     "§ 20 S. 1 Nr. 3 UStG"
+    ]
+   ],
+   "icon": "tabler:cash",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Internationales Steuerrecht",
+   "beitragSlot": "b3",
+   "titel": [
+    "Aufsichtsrat nur daheim?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-19-02",
+   "titel": [
+    "Firmenwagen:",
+    "pauschal"
+   ],
+   "zeilen": [
+    [
+     [
+      "1 %",
+      "a"
+     ],
+     [
+      " Listenpreis im Monat",
+      null
+     ]
+    ],
+    [
+     [
+      "+ ",
+      null
+     ],
+     [
+      "0,03 %",
+      "b"
+     ],
+     [
+      " je Entfernungs-km",
+      null
+     ]
+    ],
+    [
+     [
+      "oder ",
+      null
+     ],
+     [
+      "Fahrtenbuch",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 8 Abs. 2 S. 2 bis 4 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Cornrows",
+     "haut": "#8D5A3B",
+     "oberteil": "#9AD48F",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}

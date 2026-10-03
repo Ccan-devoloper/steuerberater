@@ -45,6 +45,24 @@ def folien_eintraege(texte, datum, slot, n):
     return out
 
 
+def zeichen_pruefen(spec):
+    """Alle sichtbaren Zeichen müssen in Nunito vorhanden sein (sonst leere Kästchen im Bild)."""
+    from fontTools.ttLib import TTFont
+    cmap = TTFont(os.path.join(k.RES, "fonts", "Nunito.ttf")).getBestCmap()
+    fehlend = set()
+    def lauf(x):
+        if isinstance(x, str):
+            fehlend.update(ch for ch in x if ord(ch) > 31 and ord(ch) not in cmap and ch not in "\n\t")
+        elif isinstance(x, list):
+            for y in x: lauf(y)
+        elif isinstance(x, dict):
+            for key, y in x.items():
+                if key not in ("caption", "sprecher", "figuren", "absaetze"): lauf(y)
+    lauf(spec)
+    if fehlend:
+        raise SystemExit(f"Zeichen ohne Glyphe in Nunito: {' '.join(sorted(fehlend))} – bitte umschreiben (z. B. → als „dann“ oder „:“).")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("datum")
@@ -55,6 +73,7 @@ def main():
     ap.add_argument("--reel-bilder", default="", help="nur Standbilder des Reels zu diesen Zeiten (Sekunden, Komma-getrennt)")
     a = ap.parse_args()
     spec = lade(a.datum)
+    zeichen_pruefen(spec)
     datum = spec["datum"]
     nur = set(x for x in a.nur.split(",") if x)
     arbeit = tempfile.mkdtemp(prefix=f"op-{datum}-")

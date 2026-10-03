@@ -112,7 +112,7 @@ class Stories:
         y = y0 + rahmen.height + 20
         t, y = self.gross(s["titel"], y, 90, kk); els += t
         self.T(s["unter"])
-        els.append(OT(s["unter"], 64, y + 18, C, "Bold", 48, farbe=GRAUTEXT))
+        els.append(OT(s["unter"], 64, y + 18, C, "Bold", k.passt(s["unter"], "Bold", 48, 940, 34), farbe=GRAUTEXT))
         self.speichern(s, els, k.worte(*s["titel"], s["unter"]))
 
     def norm(self, s):
@@ -158,7 +158,7 @@ class Stories:
         zeilen = [[(a, m or 0) for a, m in z] for z in s["zeilen"]]
         self.T(*["".join(a for a, _ in z) for z in zeilen])
         groesse = s.get("groesse", 66)
-        els += markertext(zeilen, 540, y + 110, groesse, C, {"a": C, "b": C, "c": C}, marker=PINK, lh=1.3)
+        els += markertext(zeilen, 540, y + 110, groesse, C, {"a": C, "b": C, "c": C, "d": C}, marker=PINK, lh=1.3)
         if s.get("norm"):
             self.T(s["norm"]); els.append(OT(s["norm"], 92, y + 640, C, "Bold", 44, farbe=GRAUTEXT))
         if s.get("figur"):
