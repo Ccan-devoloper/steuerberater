@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 3,
-   "fach": "umwst",
-   "fachLabel": "Bilanzsteuerrecht",
-   "themaId": "wochenrueckblick-k3-2026-50",
-   "themaTitel": "Tag 3 kompakt: fünf Themen der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-50",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 50",
    "figuren": {
     "A": {
      "name": "Leandro",
@@ -24,7 +24,7 @@
      "kopf": "Gray Medium",
      "haut": "#F1D2BD",
      "haar": "#BDBDBD",
-     "oberteil": "#C9B8F2",
+     "oberteil": "#9AD48F",
      "brille": "Glasses",
      "bueste": "Sweater"
     }
@@ -35,10 +35,10 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Tag 3",
-      "kompakt"
+      "Alle 3",
+      "Klausuren"
      ],
-     "unter": "5 Themen",
+     "unter": "6 Themen",
      "teaser": "+ Markier-Guide § 15 + R 4.2",
      "motiv": {
       "typ": "kalender",
@@ -50,221 +50,146 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Vermögen der Gesellschaft",
-       "R 4.2 Abs. 2 EStR",
-       ""
+       "Klausur 1 · Erbschaftsteuer",
+       "§ 16 BewG · § 7 ErbStG",
+       "Nießbrauch und Schenkung"
       ],
       [
-       "Mitunternehmer?",
+       "Klausur 2 · KSt und GewSt",
+       "§ 10 Nr. 2 KStG · § 11 GewStG",
+       "Steuern und Freibetrag"
+      ],
+      [
+       "Klausur 3 · PersG",
        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-       ""
-      ],
-      [
-       "Grundstück an die KG",
-       "§ 7 Abs. 1 S. 5 EStG",
-       ""
-      ],
-      [
-       "Anteil in die GmbH",
-       "§ 20 UmwStG",
-       ""
-      ],
-      [
-       "Fremdwährungsschulden",
-       "§ 256a HGB",
-       ""
+       "Mitunternehmer und SBV I"
       ]
      ],
      "teaser": "Am Ende: § 15 EStG + R 4.2 markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Vermögen der Gesellschaft",
+     "titel": "Klausur 1 · Erbschaftsteuer",
      "punkte": [
       [
-       "Was der Personengesellschaft gehört, ist grundsätzlich Betriebsvermögen.",
-       "ok",
-       "Regular",
-       "R 4.2 Abs. 2 S. 1 EStR"
-      ],
-      [
-       "Kein Wahlrecht wie beim Einzelunternehmer.",
-       "nein",
-       "Regular",
-       null
-      ],
-      [
-       "Ausnahme: dient fast nur dem privaten Bedarf eines Gesellschafters.",
+       "Nießbrauch: Jahreswert höchstens Steuerwert des Wirtschaftsguts geteilt durch 18,6.",
        "warn",
        "Bold",
-       "H 4.2 Abs. 11 EStH"
+       "§ 16 BewG"
+      ],
+      [
+       "Schenkung braucht keine Einigung über die Unentgeltlichkeit: Die Bereicherung genügt.",
+       "ok",
+       "Regular",
+       "§ 7 Abs. 1 Nr. 1 ErbStG"
       ]
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Auch das Ferienhaus?"
+     "blase": "Deckel prüfen!"
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Mitunternehmer?",
+     "titel": "Klausur 2 · KSt und GewSt",
      "punkte": [
       [
-       "Risiko: Gewinn, Verlust, stille Reserven.",
-       "ok",
+       "Körperschaftsteuer und Solidaritätszuschlag außerhalb der Bilanz hinzurechnen.",
+       "nein",
        "Regular",
-       "H 15.8 Abs. 1 EStH"
+       "§ 10 Nr. 2 KStG"
       ],
       [
-       "Initiative: mindestens Kontrollrechte wie ein Kommanditist.",
-       "ok",
+       "Gewerbesteuer ist keine Betriebsausgabe.",
+       "nein",
        "Regular",
-       "§ 166 HGB"
+       "§ 4 Abs. 5b EStG"
       ],
       [
-       "Beides muss vorliegen, die Stärke darf schwanken.",
+       "Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften, nicht für die GmbH.",
        "warn",
        "Bold",
-       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+       "§ 11 Abs. 1 S. 3 Nr. 1 GewStG"
       ]
      ],
-     "figur": "B:denkt",
+     "figur": "B:skeptisch",
      "x": 290,
-     "blase": "Risiko und Initiative."
+     "blase": "Und die GmbH?"
     },
     {
      "typ": "inhalt",
-     "titel": "3 · Grundstück an die KG",
+     "titel": "Klausur 3 · Personengesellschaften",
      "punkte": [
       [
-       "Gehört es dem Gesellschafter: Sonderbetriebsvermögen I.",
+       "Mitunternehmer ist nur, wer Risiko trägt und Initiative entfalten kann.",
+       "warn",
+       "Bold",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG; H 15.8 (1) EStH"
+      ],
+      [
+       "Grundstück an die eigene KG vermietet: Sonderbetriebsvermögen I, Miete ist Sondervergütung.",
        "ok",
        "Regular",
        "R 4.2 Abs. 2 S. 2 EStR"
-      ],
-      [
-       "Einlage zum Teilwert, binnen drei Jahren höchstens fortgeführte Anschaffungskosten.",
-       "ok",
-       "Regular",
-       "§ 6 Abs. 1 Nr. 5 EStG"
-      ],
-      [
-       "War es vermietet: AfA-Basis um bisherige AfA kürzen.",
-       "warn",
-       "Bold",
-       "§ 7 Abs. 1 S. 5 EStG"
       ]
      ],
-     "figur": "A:denkt",
+     "figur": "A:erklaert",
      "x": 790,
-     "blase": "Basis kürzen!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Anteil in die GmbH",
-     "punkte": [
-      [
-       "Wesentliches Sonderbetriebsvermögen muss mit, beim Teilanteil mindestens quotal.",
-       "warn",
-       "Regular",
-       "UmwStE Rn. 20.06, 20.10, 20.11"
-      ],
-      [
-       "Nur gegen neue Anteile.",
-       "ok",
-       "Regular",
-       "§ 20 Abs. 1 UmwStG"
-      ],
-      [
-       "Was über das Nennkapital hinausgeht: steuerliches Einlagekonto.",
-       "ok",
-       "Bold",
-       "§ 27 Abs. 1 KStG"
-      ]
-     ],
-     "figur": "B:erklaert",
-     "x": 290,
-     "blase": "Neue Anteile!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Fremdwährungsschulden",
-     "punkte": [
-      [
-       "Handelsbilanz: Stichtagskurs, bei Restlaufzeit über ein Jahr nicht unter dem Zugangswert.",
-       "ok",
-       "Regular",
-       "§ 256a HGB"
-      ],
-      [
-       "Steuerbilanz: höher nur bei dauernder Erhöhung, nie unter dem Zugangswert.",
-       "warn",
-       "Bold",
-       "§ 6 Abs. 1 Nr. 3 EStG"
-      ]
-     ],
-     "extra": [
-      "Übliche Kursschwankungen reichen nicht",
-      "GELB",
-      "BMF vom 02.09.2016, Rn. 33"
-     ],
-     "figur": "A:staunt",
-     "x": 790,
-     "blase": "Kein Kursgewinn!"
+     "blase": "Beides nötig!"
     },
     {
      "typ": "merke",
      "oben": [
-      "Sonntag: Klausur 3 im Rückblick",
-      "Personengesellschaften, Umwandlung, Bilanz",
+      "Die Woche in allen 3 Klausuren",
+      "Erbschaft · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Gesamthand",
+        "18,6",
         "a"
        ],
        [
-        " ist BV,",
+        " deckelt Nutzungen,",
         null
        ]
       ],
       [
        [
-        "beide",
+        "Steuern",
         "b"
        ],
        [
-        " Merkmale prüfen,",
+        " zurück ins Einkommen,",
         null
        ]
       ],
       [
        [
-        "SBV",
+        "Freibetrag",
         "c"
        ],
        [
-        " und AfA-Basis,",
+        " nicht für GmbH,",
         null
        ]
       ],
       [
        [
-        "neue Anteile",
+        "Risiko",
         "d"
        ],
        [
-        " zählen.",
+        " und Initiative.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 3",
-     "frage": "Welches Thema wackelt noch?",
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
      "teaser": "Weiterwischen: § 15 + R 4.2 markiert"
     },
     {
@@ -413,26 +338,23 @@
      ]
     }
    ],
-   "caption": "Tag 3 kompakt: fünf Themen der Woche für die Klausur Buchführung und Bilanzwesen.\n\n1. Vermögen der Personengesellschaft ist grundsätzlich Betriebsvermögen, ohne Wahlrecht; Ausnahme bei (fast) ausschließlich privatem Bedarf eines Gesellschafters (R 4.2 Abs. 2 EStR; H 4.2 Abs. 11 EStH).\n2. Mitunternehmer: Mitunternehmerrisiko und Mitunternehmerinitiative müssen beide vorliegen (§ 15 Abs. 1 S. 1 Nr. 2 EStG; H 15.8 Abs. 1 EStH; § 166 HGB).\n3. Grundstück eines Gesellschafters an die KG: Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR), Einlage nach § 6 Abs. 1 Nr. 5 EStG, AfA-Basis um die bisherige AfA gekürzt (§ 7 Abs. 1 S. 5 EStG).\n4. Mitunternehmeranteil in die GmbH: wesentliches Sonderbetriebsvermögen muss mit (BMF vom 02.01.2025, UmwStE Rn. 20.06, 20.10, 20.11), Gegenleistung neue Anteile (§ 20 Abs. 1 UmwStG), Überhang ins steuerliche Einlagekonto (§ 27 Abs. 1 KStG).\n5. Fremdwährungsschulden: Handelsbilanz zum Stichtagskurs (§ 256a HGB); steuerlich höher nur bei voraussichtlich dauernder Erhöhung (§ 6 Abs. 1 Nr. 3 EStG; BMF vom 02.09.2016, Rn. 33).\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "caption": "Wochenrückblick KW 50: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Nießbrauch und andere Nutzungen: Der Jahreswert ist höchstens der Steuerwert des genutzten Wirtschaftsguts geteilt durch 18,6 (§ 16 BewG); Vervielfältiger nach § 13 Abs. 1, 2 oder § 14 BewG.\n2. Schenkung ist jede freigebige Zuwendung, soweit der Bedachte auf Kosten des Zuwendenden bereichert wird; eine Einigung über die Unentgeltlichkeit wie im Zivilrecht ist nicht nötig (§ 7 Abs. 1 Nr. 1 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Körperschaftsteuer und Solidaritätszuschlag sind nicht abziehbar und werden außerhalb der Bilanz hinzugerechnet (§ 10 Nr. 2 KStG); die Gewerbesteuer ist keine Betriebsausgabe (§ 4 Abs. 5b EStG).\n4. Den Freibetrag von 24.500 € beim Gewerbeertrag erhalten nur natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Mitunternehmer ist, wer Mitunternehmerrisiko trägt und Mitunternehmerinitiative entfalten kann; beides muss vorliegen (§ 15 Abs. 1 S. 1 Nr. 2 EStG; H 15.8 (1) EStH).\n6. Ein Grundstück, das ein Mitunternehmer der KG überlässt, ist Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR); die Miete ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#bilanzsteuerrecht"
+    "#steuerrecht"
    ],
    "quellen": [
-    "R 4.2 Abs. 2 EStR",
-    "H 4.2 Abs. 11 EStH",
-    "H 15.8 Abs. 1 EStH",
-    "§ 166 HGB",
+    "§ 16 BewG",
+    "§ 13 Abs. 1, 2, § 14 BewG",
+    "§ 7 Abs. 1 Nr. 1 ErbStG",
+    "§ 10 Nr. 2 KStG",
+    "§ 4 Abs. 5b EStG",
+    "§ 11 Abs. 1 S. 3 Nr. 1 GewStG",
     "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-    "§ 6 Abs. 1 Nr. 3, 5 EStG",
-    "§ 7 Abs. 1 S. 5 EStG",
-    "§ 20 Abs. 1 UmwStG",
-    "BMF vom 02.01.2025 (UmwStE), Rn. 20.06, 20.10, 20.11",
-    "§ 27 Abs. 1 KStG",
-    "§ 256a HGB",
-    "BMF vom 02.09.2016, Rn. 33"
+    "H 15.8 (1) EStH",
+    "R 4.2 Abs. 2 S. 1, 2 EStR"
    ]
   },
   {
@@ -1086,10 +1008,9 @@
    "slot": "s1",
    "zeit": "08:30",
    "art": "teaser",
-   "klausur": 3,
    "beitragSlot": "b1",
    "titel": [
-    "Tag 3 kompakt"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
