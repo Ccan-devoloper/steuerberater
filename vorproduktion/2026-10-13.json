@@ -107,7 +107,7 @@
       "klausur": 2,
       "fachLabel": "Einkommensteuer",
       "themaId": "est-aufb-est-ks2-17-01",
-      "caption": "Privat gehaltene GmbH-Anteile verkauft: der Rechenweg nach § 17 EStG.\n\n1. Tatbestand: Anteil an einer Kapitalgesellschaft (§ 17 Abs. 1 S. 3 EStG), Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre (§ 17 Abs. 1 S. 1 EStG). Der Gewinn gehört zu den Einkünften aus Gewerbebetrieb, die Anteile bleiben Privatvermögen.\n2. Teileinkünfteverfahren: Veräußerungspreis zu 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. c EStG), Veräußerungskosten und Anschaffungskosten nur zu 60 % abziehbar (§ 3c Abs. 2 EStG). Beispiel: 15.000 € − 600 € − 10.200 € = 4.200 €.\n3. Freibetrag: anteilig 10 % von 9.060 € = 906 €, er ermäßigt sich um den Betrag, um den der Gewinn 10 % von 36.100 € = 3.610 € übersteigt (§ 17 Abs. 3 S. 1, 2 EStG): 906 € − 590 € = 316 €. Steuerpflichtig: 3.884 €.\n4. Keine Tarifermäßigung: § 17 EStG steht nicht in § 34 Abs. 2 Nr. 1 EStG.\n\nZum Schluss: § 17 Abs. 1 und 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+      "caption": "Privat gehaltene GmbH-Anteile verkauft: der Rechenweg nach § 17 EStG.\n\n1. Tatbestand: Anteil an einer Kapitalgesellschaft (§ 17 Abs. 1 S. 3 EStG), Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre (§ 17 Abs. 1 S. 1 EStG). Der Gewinn gehört zu den Einkünften aus Gewerbebetrieb, die Anteile bleiben Privatvermögen.\n2. Teileinkünfteverfahren: Veräußerungspreis zu 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. c EStG), Veräußerungskosten und Anschaffungskosten nur zu 60 % abziehbar (§ 3c Abs. 2 EStG). Beispiel: 15.000 € − 600 € − 10.200 € = 4.200 €.\n3. Freibetrag: anteilig 10 % von 9.060 € = 906 €, er ermäßigt sich um den Betrag, um den der Gewinn 10 % von 36.100 € = 3.610 € übersteigt (§ 17 Abs. 3 S. 1, 2 EStG): 906 € − 590 € = 316 €. Steuerpflichtig: 3.884 €.\n4. Keine Tarifermäßigung: § 17 EStG steht nicht in § 34 Abs. 2 Nr. 1 EStG.\n\nZum Schluss: § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 und § 17 Abs. 1, 3 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -136,7 +136,7 @@
         {
           "art": "titel",
           "titel": "Rechenweg",
-          "text": "Rechenweg · GmbH-Anteil · privat verkauft · § 17 Abs. 2, 3 EStG · in 3 Schritten · + Markier-Guide § 17 EStG · 10 % Anteil · 25.000 € · Gewinn?",
+          "text": "Rechenweg · GmbH-Anteil · privat verkauft · § 17 Abs. 2, 3 EStG · in 3 Schritten · + Markier-Guide §§ 3, 3c, 17 EStG · 10 % Anteil · 25.000 € · Gewinn?",
           "bild": "op-cover"
         },
         {
@@ -172,12 +172,17 @@
         {
           "art": "text",
           "titel": "Einkommensteuer",
-          "text": "Ella: Gewinn 4.200 €, Freibetrag 316 € · Steuerpflichtig: 3.884 € · Erst 60 %, · dann Freibetrag, · nach Anteil gekürzt · und abgeschmolzen. · Speichern für Klausur 2 · Rechnest du mit 20 % Anteil nach? · Weiterwischen: § 17 EStG markiert"
+          "text": "Ella: Gewinn 4.200 €, Freibetrag 316 € · Steuerpflichtig: 3.884 € · Erst 60 %, · dann Freibetrag, · nach Anteil gekürzt · und abgeschmolzen. · Speichern für Klausur 2 · Rechnest du mit 20 % Anteil nach? · Weiterwischen: §§ 3, 3c, 17 EStG markiert"
         },
         {
           "art": "text",
           "titel": "Einkommensteuer",
-          "text": "§ 17 EStG Veräußerung von Anteilen (Auszug) · 5 Jahre · 1 % · anteilig · Abschmelzen · Dazu: § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG · Preis, Kosten und AK nur zu 60 %"
+          "text": "§ 17 EStG Veräußerung von Anteilen (Auszug) · 5 Jahre · 1 % · anteilig · Abschmelzen · Weiterwischen: §§ 3, 3c EStG · Preis, Kosten und AK nur zu 60 %"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "§§ 3, 3c EStG (Auszug) · Teileinkünfte · Preis 25.000 € · Notar: 60 % · AK: 60 % · Ella: 15.000 € − 600 € − 10.200 € · Gewinn 4.200 €, erst dann Freibetrag"
         }
       ]
     },
@@ -187,7 +192,7 @@
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
       "themaId": "persg-aufb-persg-melzer-1-3",
-      "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2, § 7 Abs. 1 S. 5 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
+      "caption": "Mini-Fall: Ein Kommanditist vermietet seine Lagerhalle an die eigene KG. Wann wird das Grundstück Sonderbetriebsvermögen I?\n\n▸ Wirtschaftsgüter eines Mitunternehmers, die unmittelbar dem Betrieb der Personengesellschaft dienen, sind notwendiges Sonderbetriebsvermögen I (R 4.2 Abs. 2 S. 2 EStR).\n▸ Die Miete ist Sondervergütung und damit Teil des gewerblichen Gewinnanteils (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Zugang aus dem Privatvermögen = Einlage zum Teilwert; Anschaffung liegt mehr als drei Jahre zurück (§ 6 Abs. 1 Nr. 5 S. 1 EStG): 500.000 €.\n▸ Nach vorheriger Vermietung mindert sich der Einlagewert für die AfA um die bisher abgezogene AfA, höchstens bis zu den fortgeführten Anschaffungskosten (§ 7 Abs. 1 S. 5, Abs. 4 S. 1 Hs. 2 EStG): 500.000 € − 88.000 € = 412.000 €.\n▸ In der Sonder-GuV: Miete als Ertrag, eigene Kosten und AfA als Aufwand.\n\nZum Schluss: § 7 Abs. 1 S. 5, Abs. 4 S. 1, § 15 Abs. 1 S. 1 Nr. 2 EStG und R 4.2 Abs. 2 EStR zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
@@ -216,7 +221,7 @@
         {
           "art": "titel",
           "titel": "Mini-Fall",
-          "text": "Mini-Fall · Halle an die · eigene KG · § 15 Abs. 1 S. 1 Nr. 2 EStG · Sonder-BV? · + Markier-Guide § 15 + R 4.2",
+          "text": "Mini-Fall · Halle an die · eigene KG · § 15 Abs. 1 S. 1 Nr. 2 EStG · Sonder-BV? · + Markier-Guide §§ 7, 15 + R 4.2",
           "bild": "op-cover"
         },
         {
@@ -252,12 +257,12 @@
         {
           "art": "text",
           "titel": "Personengesellschaften",
-          "text": "Halle: Sonder-BV I, Einlage mit 500.000 € · AfA-Basis 412.000 €, Miete gewerblich · Gehört dem Gesellschafter, · dient der KG: · Sonder-BV I, Miete · gewerblich. · Speichern für Klausur 3 · Und gehört die Halle seiner Frau? · Weiterwischen: § 15 + R 4.2 markiert"
+          "text": "Halle: Sonder-BV I, Einlage mit 500.000 € · AfA-Basis 412.000 €, Miete gewerblich · Gehört dem Gesellschafter, · dient der KG: · Sonder-BV I, Miete · gewerblich. · Speichern für Klausur 3 · Und gehört die Halle seiner Frau? · Weiterwischen: §§ 7, 15 + R 4.2"
         },
         {
           "art": "text",
           "titel": "Personengesellschaften",
-          "text": "§§ 15, 7 EStG (Auszug) · Sondervergütung · Miete · AfA abziehen · Untergrenze · Für Gebäude: § 7 Abs. 4 S. 1 Hs. 2 EStG · „Absatz 1 Satz 5 gilt entsprechend“"
+          "text": "§§ 7, 15 EStG (Auszug) · AfA abziehen · Untergrenze · auch für die Halle · Miete = Sondervergütung · Weiterwischen: R 4.2 Abs. 2 EStR · Gehört Joscha, dient der KG: Sonder-BV I"
         },
         {
           "art": "text",
@@ -552,7 +557,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T10:51:15Z",
+    "erzeugtAm": "2026-10-03T12:04:58Z",
     "pfad": "vorproduktion/2026-10-13/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
