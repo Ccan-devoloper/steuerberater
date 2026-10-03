@@ -58,7 +58,7 @@
       },
       {
         "slot": "s7",
-        "zeit": "14:40",
+        "zeit": "12:00",
         "art": "anlass"
       },
       {
@@ -243,7 +243,7 @@
         {
           "art": "text",
           "titel": "Steuerberaterexamen",
-          "text": "Was jetzt kommt · Dez./Jan. · meist das Ergebnis · ≤ 4,5 · mündliche Prüfung · § 25 Abs. 2 DVStB · Ladung · 2 Wochen vorher · § 26 Abs. 1 DVStB · ≤ 4,15 · Schnitt: bestanden · § 28 Abs. 1 S. 2 DVStB · Schritt für Schritt."
+          "text": "Was jetzt kommt · Dez./Jan. · meist das Ergebnis · ≤ 4,5 · mündliche Prüfung · § 25 Abs. 2 DVStB · Ladung · mind. 2 Wochen vorher · § 26 Abs. 1 DVStB · ≤ 4,15 · Schnitt: bestanden · § 28 Abs. 1 S. 2 DVStB · Schritt für Schritt."
         },
         {
           "art": "text",
@@ -371,7 +371,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:16:15Z",
+    "erzeugtAm": "2026-10-03T12:56:50Z",
     "pfad": "vorproduktion/2026-10-08/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
