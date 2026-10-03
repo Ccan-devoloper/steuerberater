@@ -5,11 +5,11 @@
    "slot": "b1",
    "zeit": "08:30",
    "format": "wochenrueckblick",
-   "klausur": 2,
-   "fach": "gewst",
-   "fachLabel": "Ertragsteuern",
-   "themaId": "wochenrueckblick-k2-2026-49",
-   "themaTitel": "Ertragsteuern: fünf Themen der Woche",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Alle Klausuren",
+   "themaId": "wochenrueckblick-alle-2026-49",
+   "themaTitel": "Alle Klausuren: sechs Themen der Woche 49",
    "figuren": {
     "A": {
      "name": "Yusuf",
@@ -25,7 +25,7 @@
      "kopf": "Gray Medium",
      "haut": "#F1C7A5",
      "haar": "#B8B8B8",
-     "oberteil": "#C9B8F2",
+     "oberteil": "#F2B880",
      "brille": "Glasses 3",
      "bueste": "Sweater"
     }
@@ -36,11 +36,11 @@
      "badge": "Wochenrückblick",
      "badgeFarbe": "WEISS",
      "zeilen": [
-      "Ertragsteuern:",
-      "die Woche"
+      "Woche",
+      "kompakt"
      ],
-     "unter": "5 Themen",
-     "teaser": "+ Markier-Guide § 9 GewStG",
+     "unter": "6 Themen",
+     "teaser": "+ Markier-Guide § 6 Abs. 5 EStG",
      "motiv": {
       "typ": "kalender",
       "monat": "DEZEMBER",
@@ -51,238 +51,193 @@
     },
     {
      "typ": "schritte",
-     "titel": "Die 5 Themen",
+     "titel": "Die Woche in 3 Klausuren",
      "schritte": [
       [
-       "Grundsteuer kürzen",
-       "§ 9 Nr. 1 S. 1 GewStG",
-       ""
+       "Klausur 1 · USt und ErbSt",
+       "§ 3d UStG · § 10 Abs. 6a ErbStG",
+       "Erwerbsteuer, Schuldenabzug"
       ],
       [
-       "Spenden in der Gewerbesteuer",
-       "§ 8 Nr. 9, § 9 Nr. 5 GewStG",
-       ""
+       "Klausur 2 · GewSt und ESt",
+       "§ 9 Nr. 1 GewStG · § 1 Abs. 3 EStG",
+       "Grundsteuer und Grenzpendler"
       ],
       [
-       "Gewerblich oder nicht?",
-       "§ 15 Abs. 2 EStG",
-       ""
-      ],
-      [
-       "Wohnsitz und Grenzpendler",
-       "§ 8 AO, § 1 Abs. 3 EStG",
-       ""
-      ],
-      [
-       "Verlust nach Anteilskauf",
-       "§ 8c Abs. 1 KStG",
-       ""
+       "Klausur 3 · PersG und Bilanz",
+       "§ 6 Abs. 5 EStG · § 95 BGB",
+       "Schwester-KG, fremder Grund"
       ]
      ],
-     "teaser": "Am Ende: § 9 GewStG markiert"
+     "teaser": "Am Ende: § 6 Abs. 5 EStG markiert"
     },
     {
      "typ": "inhalt",
-     "titel": "1 · Grundsteuer kürzen",
+     "titel": "Klausur 1 · USt und ErbSt",
      "punkte": [
       [
-       "Seit 2025 wird die als Betriebsausgabe gebuchte Grundsteuer gekürzt.",
-       "ok",
-       "Regular",
-       "§ 9 Nr. 1 S. 1 GewStG"
+       "Erwerb mit USt-IdNr. eines anderen Staats: Erwerbsteuer auch dort, ohne Vorsteuer.",
+       "nein",
+       "Bold",
+       "§ 3d S. 2, § 15 Abs. 1 S. 1 Nr. 3 UStG"
       ],
       [
-       "Nur für Grundbesitz, der am 1. Januar zum Betriebsvermögen gehört.",
+       "Vermietete Wohnung mit 90 % angesetzt: Darlehen auch nur zu 90 % abziehbar.",
        "warn",
-       "Bold",
-       "§ 20 S. 2 GewStDV"
+       "Regular",
+       "§ 13d Abs. 1, § 10 Abs. 6a S. 1 ErbStG"
       ]
      ],
      "figur": "A:redet",
      "x": 790,
-     "blase": "Nicht mehr 1,2 %!"
+     "blase": "Welche Nummer?"
     },
     {
      "typ": "inhalt",
-     "titel": "2 · Spenden",
+     "titel": "Klausur 2 · GewSt und ESt",
      "punkte": [
       [
-       "GmbH: Spendenabzug wird hinzugerechnet.",
+       "Grundstückskürzung seit 2025: die als Betriebsausgabe erfasste Grundsteuer.",
        "ok",
-       "Regular",
-       "§ 8 Nr. 9 GewStG"
-      ],
-      [
-       "Einzelunternehmer: Entnahme, nichts hinzuzurechnen.",
-       "ok",
-       "Regular",
-       null
-      ],
-      [
-       "Dann für beide Kürzung, höchstens 20 % des Gewinns oder 4 ‰.",
-       "warn",
        "Bold",
-       "§ 9 Nr. 5 S. 1 GewStG"
+       "§ 9 Nr. 1 S. 1 GewStG"
+      ],
+      [
+       "Grenzpendler: auf Antrag unbeschränkt, wenn mindestens 90 % der Einkünfte der deutschen Steuer unterliegen.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 3 S. 1, 2 EStG"
       ]
      ],
      "figur": "B:denkt",
      "x": 290,
-     "blase": "Erst rein, dann raus?"
+     "blase": "Nicht mehr 1,2 %?"
     },
     {
      "typ": "inhalt",
-     "titel": "3 · Gewerblich?",
+     "titel": "Klausur 3 · PersG und Bilanz",
      "punkte": [
       [
-       "Selbständig, nachhaltig, Gewinnabsicht, am Markt.",
+       "Wirtschaftsgut zur Schwester-KG mit identischen Gesellschaftern: unentgeltlich zum Buchwert.",
        "ok",
-       "Regular",
-       "§ 15 Abs. 2 S. 1 EStG"
-      ],
-      [
-       "Aber keine Land- und Forstwirtschaft, kein freier Beruf, keine bloße Vermögensverwaltung.",
-       "nein",
        "Bold",
-       "R 15.7 Abs. 1 EStR"
-      ]
-     ],
-     "figur": "A:fragt",
-     "x": 790,
-     "blase": "Oder nur Verwalten?"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "4 · Wohnsitz und Grenzpendler",
-     "punkte": [
-      [
-       "Wohnsitz: Wohnung innehaben, die man beibehalten und nutzen wird.",
-       "ok",
-       "Regular",
-       "§ 8 AO"
+       "§ 6 Abs. 5 S. 3 Nr. 4 EStG"
       ],
       [
-       "Ohne Wohnsitz: auf Antrag unbeschränkt, wenn mindestens 90 % der Einkünfte deutscher Steuer unterliegen.",
+       "Halle auf Pachtgrund mit Abrisspflicht: Scheinbestandteil, AfA über die kürzere Pachtzeit.",
        "warn",
        "Regular",
-       "§ 1 Abs. 3 S. 2 EStG"
+       "§ 95 Abs. 1 S. 1 BGB, § 7 Abs. 4 S. 2 EStG"
       ]
      ],
-     "figur": "B:erklaert",
-     "x": 290,
-     "blase": "Meldeamt egal!"
-    },
-    {
-     "typ": "inhalt",
-     "titel": "5 · Verlust nach Anteilskauf",
-     "punkte": [
-      [
-       "Mehr als 50 % an einen Erwerber binnen fünf Jahren: Verlust weg.",
-       "nein",
-       "Regular",
-       "§ 8c Abs. 1 S. 1 KStG"
-      ],
-      [
-       "Gewinn bis zum Erwerb und stille Reserven retten einen Teil.",
-       "ok",
-       "Bold",
-       "§ 8c Abs. 1 S. 5 KStG"
-      ]
-     ],
-     "figur": "A:sorge",
+     "figur": "A:erklaert",
      "x": 790,
-     "blase": "Alles weg?"
+     "blase": "Neu seit 2024!"
     },
     {
      "typ": "merke",
      "oben": [
-      "Woche 49 im Überblick",
-      "Gewerbesteuer, Einkommensteuer, Körperschaftsteuer, international",
+      "Die Woche in allen 3 Klausuren",
+      "Verfahren · Ertragsteuern · Bilanz",
       "GELB"
      ],
      "zeilen": [
       [
        [
-        "Grundsteuer",
+        "Fremde USt-IdNr.",
         "a"
        ],
        [
-        " gebucht,",
+        " kostet,",
         null
        ]
       ],
       [
        [
-        "Spende",
+        "90 %",
         "b"
        ],
        [
-        " zweimal prüfen,",
+        " auch bei Schulden,",
         null
        ]
       ],
       [
        [
-        "Wohnsitz",
+        "Grundsteuer",
         "c"
        ],
        [
-        " tatsächlich,",
+        " wird gekürzt,",
         null
        ]
       ],
       [
        [
-        "Verlust",
+        "Schwester-KG",
         "d"
        ],
        [
-        " bis zum Erwerb.",
+        " zum Buchwert.",
         null
        ]
       ]
      ],
-     "speichern": "Speichern für Klausur 2",
-     "frage": "Welches Thema wiederholst du?",
-     "teaser": "Weiterwischen: § 9 GewStG markiert"
+     "speichern": "Speichern für alle 3 Klausuren",
+     "frage": "Welche Klausur wackelt noch?",
+     "teaser": "Weiterwischen: § 6 Abs. 5 EStG markiert"
     },
     {
      "typ": "gesetz",
      "titel": "Im Gesetz markieren",
-     "kopf": "§ 9 GewStG Kürzungen (Auszug)",
+     "kopf": "§ 6 Abs. 5 EStG (Auszug)",
      "absaetze": [
       [
-       "5.",
+       "S. 3",
        [
         [
-         "die",
+         "Satz 1 gilt entsprechend, soweit ein Wirtschaftsgut […] 4.",
          null
         ],
         [
-         "aus den Mitteln des Gewerbebetriebs",
-         "b1"
-        ],
-        [
-         "geleisteten Zuwendungen (Spenden und Mitgliedsbeiträge) zur Förderung steuerbegünstigter Zwecke im Sinne der §§ 52 bis 54 der Abgabenordnung",
-         null
-        ],
-        [
-         "bis zur Höhe von insgesamt 20 Prozent",
-         "g1"
-        ],
-        [
-         "des um die Hinzurechnungen nach § 8 Nummer 9 erhöhten Gewinns",
+         "unentgeltlich",
          "r1"
         ],
         [
-         "aus Gewerbebetrieb (§ 7) oder",
+         "zwischen den Gesamthandsvermögen verschiedener Mitunternehmerschaften",
+         "b1"
+        ],
+        [
+         "derselben, identisch beteiligten Mitunternehmer",
+         "g1"
+        ],
+        [
+         "übertragen wird.",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Wird das nach Satz 3 übertragene Wirtschaftsgut innerhalb einer Sperrfrist veräußert oder entnommen, ist",
          null
         ],
         [
-         "4 Promille der Summe der gesamten Umsätze und der im Wirtschaftsjahr aufgewendeten Löhne und Gehälter.",
+         "rückwirkend auf den Zeitpunkt der Übertragung der Teilwert",
+         "r2"
+        ],
+        [
+         "anzusetzen, es sei denn, […] diese Sperrfrist endet",
+         null
+        ],
+        [
+         "drei Jahre nach Abgabe der Steuererklärung des Übertragenden",
          "gr1"
         ],
         [
-         "[…]",
+         "für den Veranlagungszeitraum, in dem die in Satz 3 bezeichnete Übertragung erfolgt ist.",
          null
         ]
        ]
@@ -290,45 +245,51 @@
      ],
      "notizen": [
       [
-       "Betriebsmittel",
-       "b1"
-      ],
-      [
-       "Grenze 1",
-       "g1"
-      ],
-      [
-       "GmbH: erst hinzu",
+       "nur unentgeltlich",
        "r1"
       ],
       [
-       "Grenze 2",
+       "Schwester-KG",
+       "b1"
+      ],
+      [
+       "identisch beteiligt",
+       "g1"
+      ],
+      [
+       "Sperrfrist verletzt",
+       "r2"
+      ],
+      [
+       "Fristende",
        "gr1"
       ]
      ],
      "randnotiz": [
-      "Daneben: § 8 Nr. 9 GewStG",
-      "Bei der GmbH erst hinzurechnen"
+      "Nr. 4 neu durch das JStG 2024",
+      "Anwendbar in allen offenen Fällen"
      ]
     }
    ],
-   "caption": "Ertragsteuern: fünf Themen der Woche im Rückblick.\n\n1. Grundsteuer: Seit dem Erhebungszeitraum 2025 wird die als Betriebsausgabe erfasste Grundsteuer gekürzt (§ 9 Nr. 1 S. 1 GewStG; § 36 Abs. 4b GewStG), für Grundbesitz, der zu Beginn des Kalenderjahres zum Betriebsvermögen gehört (§ 20 S. 2 GewStDV).\n2. Spenden: bei der GmbH Hinzurechnung des Spendenabzugs (§ 8 Nr. 9 GewStG), beim Einzelunternehmer Entnahme; danach Kürzung bis 20 % des erhöhten Gewinns oder 4 ‰ von Umsätzen und Löhnen (§ 9 Nr. 5 S. 1 GewStG).\n3. Gewerblich: selbständig, nachhaltig, Gewinnabsicht, Marktteilnahme, keine Land- und Forstwirtschaft, kein freier Beruf (§ 15 Abs. 2 S. 1 EStG), keine bloße Vermögensverwaltung (R 15.7 Abs. 1 EStR).\n4. Wohnsitz (§ 8 AO) und Grenzpendler: auf Antrag unbeschränkt steuerpflichtig bei mindestens 90 % deutschen Einkünften oder Auslandseinkünften bis zum Grundfreibetrag (§ 1 Abs. 3 S. 2 EStG).\n5. Verlust nach Anteilskauf: mehr als 50 % an einen Erwerber binnen fünf Jahren – Verlust geht unter, soweit nicht bis zum Erwerb genutzt oder durch stille Reserven gedeckt (§ 8c Abs. 1 S. 1, 5 KStG).\n\nZum Schluss: § 9 Nr. 5 GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Wochenrückblick KW 49: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Verwendet der Erwerber die USt-IdNr. eines anderen Mitgliedstaats als des Bestimmungslands, gilt der innergemeinschaftliche Erwerb auch dort als bewirkt, bis die Besteuerung im Bestimmungsland nachgewiesen ist (§ 3d S. 2 UStG); Vorsteuer gibt es dafür nicht (§ 15 Abs. 1 S. 1 Nr. 3 UStG).\n2. Wird eine zu Wohnzwecken vermietete Wohnung nur mit 90 % angesetzt (§ 13d Abs. 1 ErbStG), ist auch das zugehörige Darlehen nur zu 90 % abzugsfähig (§ 10 Abs. 6a S. 1 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Seit dem Erhebungszeitraum 2025 kürzt die einfache Grundstückskürzung die im Erhebungszeitraum als Betriebsausgabe erfasste Grundsteuer (§ 9 Nr. 1 S. 1, § 36 Abs. 4b S. 1 GewStG).\n4. Grenzpendler werden auf Antrag als unbeschränkt steuerpflichtig behandelt, wenn mindestens 90 % ihrer Einkünfte der deutschen Einkommensteuer unterliegen oder die übrigen Einkünfte den Grundfreibetrag nicht übersteigen (§ 1 Abs. 3 S. 1, 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Unentgeltliche Übertragung eines Wirtschaftsguts zwischen Schwester-Personengesellschaften mit identisch beteiligten Mitunternehmern: Buchwert (§ 6 Abs. 5 S. 3 Nr. 4 EStG, in allen offenen Fällen, § 52 Abs. 12 S. 15 EStG); Sperrfrist nach § 6 Abs. 5 S. 4 EStG.\n6. Ein nur zu einem vorübergehenden Zweck errichtetes Gebäude auf Pachtgrund ist Scheinbestandteil (§ 95 Abs. 1 S. 1 BGB) und wird vom Erbauer aktiviert; AfA nach der kürzeren tatsächlichen Nutzungsdauer (§ 7 Abs. 4 S. 2 EStG).\n\nZum Schluss: § 6 Abs. 5 S. 3, 4 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#ertragsteuern"
+    "#steuerrecht"
    ],
    "quellen": [
-    "§ 9 Nr. 1 S. 1, Nr. 5 S. 1 GewStG",
-    "§ 36 Abs. 4b GewStG",
-    "§ 20 S. 2 GewStDV",
-    "§ 8 Nr. 9 GewStG",
-    "§ 15 Abs. 2 S. 1 EStG",
-    "R 15.7 Abs. 1 EStR",
-    "§ 8 AO",
-    "§ 1 Abs. 3 S. 2 EStG",
-    "§ 8c Abs. 1 S. 1, 5 KStG"
+    "§ 3d S. 2 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 3 UStG",
+    "§ 13d Abs. 1 ErbStG",
+    "§ 10 Abs. 6a S. 1 ErbStG",
+    "§ 9 Nr. 1 S. 1 GewStG",
+    "§ 36 Abs. 4b S. 1 GewStG",
+    "§ 1 Abs. 3 S. 1, 2 EStG",
+    "§ 6 Abs. 5 S. 3 Nr. 4, S. 4 EStG",
+    "§ 52 Abs. 12 S. 15 EStG",
+    "§ 95 Abs. 1 S. 1 BGB",
+    "§ 7 Abs. 4 S. 2 EStG"
    ]
   },
   {
@@ -743,7 +704,7 @@
     },
     {
      "id": "s3",
-     "text": "Und nur für ihre tatsächliche Amtszeit. Die Eintragung im Handelsregister entscheidet nicht."
+     "text": "Und nur für die Zeit ihrer Bestellung zur Geschäftsführerin. Die Eintragung im Handelsregister entscheidet nicht."
     },
     {
      "id": "cta",
@@ -862,9 +823,9 @@
       {
        "typ": "block",
        "label": "maßgeblich",
-       "wert": "tatsächliche Amtszeit",
+       "wert": "Zeit der Bestellung",
        "farbe": "GRUEN",
-       "wort": "Amtszeit",
+       "wort": "Bestellung",
        "zs": 80
       },
       {
@@ -878,7 +839,7 @@
       {
        "typ": "norm",
        "text": "§ 34 Abs. 1 AO",
-       "wort": "tatsächliche"
+       "wort": "Zeit"
       }
      ],
      "sfx": [
@@ -908,7 +869,7 @@
     "cta_wort": "persönlich",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Haftet die Geschäftsführerin, wenn die GmbH ihre Steuern nicht zahlt? ⚖️\n\n▸ Gesetzliche Vertreter haben die steuerlichen Pflichten der GmbH zu erfüllen (§ 34 Abs. 1 AO).\n▸ Sie haften, wenn Steuern wegen einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung zu spät oder gar nicht festgesetzt oder bezahlt werden (§ 69 S. 1 AO); leichte Fahrlässigkeit genügt nicht.\n▸ Die Haftung umfasst auch die Säumniszuschläge (§ 69 S. 2 AO).\n▸ Maßgeblich ist die tatsächliche Amtszeit, die Eintragung im Handelsregister entscheidet nicht.\n\nSpeichern für Klausur 1 📌",
+   "caption": "Haftet die Geschäftsführerin, wenn die GmbH ihre Steuern nicht zahlt? ⚖️\n\n▸ Gesetzliche Vertreter haben die steuerlichen Pflichten der GmbH zu erfüllen (§ 34 Abs. 1 AO).\n▸ Sie haften, wenn Steuern wegen einer vorsätzlichen oder grob fahrlässigen Pflichtverletzung zu spät oder gar nicht festgesetzt oder bezahlt werden (§ 69 S. 1 AO); leichte Fahrlässigkeit genügt nicht.\n▸ Die Haftung umfasst auch die Säumniszuschläge (§ 69 S. 2 AO).\n▸ Maßgeblich ist die Zeit, in der sie wirksam zur Geschäftsführerin bestellt ist; die Eintragung im Handelsregister wirkt nur deklaratorisch. Wer ohne Bestellung wie eine Geschäftsführerin auftritt, kann als Verfügungsberechtigte haften (§ 35 AO).\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -917,7 +878,8 @@
    ],
    "quellen": [
     "§ 34 Abs. 1 AO",
-    "§ 69 S. 1, 2 AO"
+    "§ 69 S. 1, 2 AO",
+    "§ 35 AO"
    ]
   }
  ],
@@ -987,7 +949,7 @@
    "art": "teaser",
    "beitragSlot": "b1",
    "titel": [
-    "Ertragsteuern: die Woche"
+    "Woche kompakt: alle 3 Klausuren"
    ],
    "unter": "Wochenrückblick + Markier-Guide · im Profil"
   },
@@ -1008,7 +970,7 @@
     [
      "Halle an die eigene Betriebs-GmbH: Betriebsaufspaltung, gewerblich.",
      "warn",
-     "§ 15 Abs. 2 EStG"
+     "§ 15 Abs. 1 S. 1 Nr. 1 EStG, H 15.7 (4) EStH"
     ],
     [
      "Einzelner beweglicher Gegenstand: sonstige Einkünfte.",
