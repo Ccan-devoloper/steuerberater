@@ -373,7 +373,7 @@
      ],
      "notizen": [
       [
-       "auch ohne Erlös",
+       "VZ egal",
        "b1"
       ],
       [
@@ -391,7 +391,7 @@
      ]
     }
    ],
-   "caption": "Mini-Fall § 17 EStG: Erhöht ein ausgefallenes Gesellschafterdarlehen die Anschaffungskosten?\n\nFall: Yara hält 40 % an einer GmbH (Anschaffungskosten 10.000 €). In der Krise 2023 gibt sie 80.000 € Darlehen, weil keine Bank mehr leiht. 2026 wird die GmbH aufgelöst, Yara erhält nichts.\n\nLösung:\n▸ Die Auflösung gilt als Veräußerung; Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 1, 2 EStG).\n▸ Darlehensverluste sind nachträgliche Anschaffungskosten, soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG). Das ist regelmäßig der Fall, wenn ein fremder Dritter das Darlehen nicht gewährt oder zurückgefordert hätte (§ 17 Abs. 2a S. 4 EStG).\n▸ Verlust: 0 € − 90.000 € = − 90.000 € (§ 17 Abs. 2 S. 1 EStG). Anschaffungskosten nur zu 60 % (§ 3c Abs. 2 S. 1 EStG), der Veräußerungspreis ebenso (§ 3 Nr. 40 S. 1 Buchst. c EStG): − 54.000 €.\n\nKlausurfalle: Fremdüblich gegebene Darlehen erhöhen die Anschaffungskosten nicht; dann ist der Ausfall bei den Einkünften aus Kapitalvermögen zu prüfen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n\nZum Schluss: § 3c Abs. 2 und § 17 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "caption": "Mini-Fall § 17 EStG: Erhöht ein ausgefallenes Gesellschafterdarlehen die Anschaffungskosten?\n\nFall: Yara hält 40 % an einer GmbH (Anschaffungskosten 10.000 €). In der Krise 2023 gibt sie 80.000 € Darlehen, weil keine Bank mehr leiht. 2026 wird die GmbH aufgelöst, Yara erhält nichts.\n\nLösung:\n▸ Die Auflösung gilt als Veräußerung; Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 1, 2 EStG).\n▸ Darlehensverluste sind nachträgliche Anschaffungskosten, soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG). Das ist regelmäßig der Fall, wenn ein fremder Dritter das Darlehen nicht gewährt oder zurückgefordert hätte (§ 17 Abs. 2a S. 4 EStG).\n▸ Verlust: 0 € − 90.000 € = − 90.000 € (§ 17 Abs. 2 S. 1 EStG). Anschaffungskosten nur zu 60 %, auch ohne Erlös, denn die Absicht genügt (§ 3c Abs. 2 S. 1, 7 EStG), der Veräußerungspreis ebenso (§ 3 Nr. 40 S. 1 Buchst. c EStG): − 54.000 €.\n\nKlausurfalle: Fremdüblich gegebene Darlehen erhöhen die Anschaffungskosten nicht; dann ist der Ausfall bei den Einkünften aus Kapitalvermögen zu prüfen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n\nZum Schluss: § 3c Abs. 2 und § 17 EStG zum Markieren. Speichern für Klausur 2 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
@@ -403,7 +403,7 @@
     "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG",
     "§ 17 Abs. 4 S. 1, 2 EStG",
     "§ 3 Nr. 40 S. 1 Buchst. c EStG",
-    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 3c Abs. 2 S. 1, 7 EStG",
     "§ 20 Abs. 2 S. 1 Nr. 7 EStG"
    ]
   },
@@ -799,7 +799,7 @@
     },
     {
      "id": "s1",
-     "text": "Jola gibt ihren Tisch in Kommission. Das Haus verkauft ihn im eigenen Namen für tausend Euro netto."
+     "text": "Schreinerin Jola gibt einen Tisch in Kommission. Das Haus verkauft ihn im eigenen Namen für tausend Euro netto."
     },
     {
      "id": "s2",
@@ -966,7 +966,7 @@
     "cta_wort": "Abnehmer",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Kommissionsgeschäft: eine Lieferung oder zwei? 🪑\n\n▸ Lieferung heißt: Verschaffung der Verfügungsmacht an einem Gegenstand (§ 3 Abs. 1 UStG).\n▸ Beim Kommissionsgeschäft liegt zwischen Kommittent und Kommissionär eine Lieferung vor; verkauft der Kommissionär für den Kommittenten, wird er umsatzsteuerlich wie ein Käufer behandelt (§ 3 Abs. 3 UStG).\n▸ Beispiel: Das Einrichtungshaus verkauft Jolas Tisch im eigenen Namen für 1.000 € netto, USt 190 €. Jolas Lieferung an das Haus: Erlös abzüglich 10 % Provision = 900 €, USt 171 €.\n\nSpeichern für Klausur 1 📌",
+   "caption": "Kommissionsgeschäft: eine Lieferung oder zwei? 🪑\n\n▸ Lieferung heißt: Verschaffung der Verfügungsmacht an einem Gegenstand (§ 3 Abs. 1 UStG).\n▸ Beim Kommissionsgeschäft liegt zwischen Kommittent und Kommissionär eine Lieferung vor; verkauft der Kommissionär für den Kommittenten, wird er umsatzsteuerlich wie ein Käufer behandelt (§ 3 Abs. 3 UStG).\n▸ Beispiel: Das Einrichtungshaus verkauft den Tisch der Schreinerin Jola im eigenen Namen für 1.000 € netto, USt 190 €. Jolas Lieferung an das Haus: Erlös abzüglich 10 % Provision = 900 €, USt 171 €.\n\nSpeichern für Klausur 1 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",

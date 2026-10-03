@@ -432,7 +432,7 @@
      "titel": "Der Fall",
      "punkte": [
       [
-       "Ben ist Kommanditist der Feldlerche KG. Sein Bürogebäude (ohne Boden) kaufte er 2016 privat für 500.000 €.",
+       "Ben, Kommanditist der Feldlerche KG, kaufte 2016 privat ein Bürogebäude (ohne Boden) für 500.000 €.",
        null,
        "Regular",
        null
@@ -444,7 +444,7 @@
        null
       ],
       [
-       "Ab 2026 mietet es die KG. Teilwert des Gebäudes: 560.000 €. AfA 2026?",
+       "Ab 2026 mietet die KG. Teilwert Gebäude: 560.000 €. AfA 2026?",
        "warn",
        "Bold",
        null
