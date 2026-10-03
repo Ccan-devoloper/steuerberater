@@ -162,7 +162,7 @@
         {
           "art": "text",
           "titel": "Internationales Steuerrecht",
-          "text": "§ 12 AO Betriebstätte (Auszug) · Grundbegriff · DBA: oft nicht · DBA: 12 Monate · DBA-Begriff: Art. 5 OECD-MA · Bauausführung erst nach mehr als 12 Monaten"
+          "text": "§ 12 AO Betriebstätte (Auszug) · Grundbegriff · DBA: Einkauf oft nicht · DBA: 12 Monate · DBA-Begriff: Art. 5 OECD-MA · Bauausführung erst nach mehr als 12 Monaten"
         }
       ]
     },
@@ -527,7 +527,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T12:26:40Z",
+    "erzeugtAm": "2026-10-03T13:06:26Z",
     "pfad": "vorproduktion/2026-10-22/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
