@@ -857,7 +857,7 @@
     },
     {
      "id": "s2",
-     "text": "Anders, wenn der Mieter den Eigentümer für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann. Dann bilanziert der Mieter."
+     "text": "Anders, wenn dem Eigentümer über die ganze übliche Nutzungszeit wirtschaftlich nichts mehr bleibt. Dann bilanziert der Mieter."
     },
     {
      "id": "s3",
@@ -935,7 +935,7 @@
       {
        "typ": "text",
        "text": "Eigentümer ausgeschlossen",
-       "unter": "für die gewöhnliche Nutzungsdauer",
+       "unter": "für die ganze Nutzungsdauer",
        "wort": "Eigentümer",
        "farbe": "GELB",
        "ls": 62
@@ -1004,7 +1004,7 @@
     "cta_wort": "ausgeschlossen",
     "hinweis": "Alle Fundstellen in der Beschreibung"
    },
-   "caption": "Gemietet und genutzt – muss der Mieter das Wirtschaftsgut bilanzieren? 🏭\n\n▸ Grundsatz: Wirtschaftsgüter werden dem Eigentümer zugerechnet (§ 39 Abs. 1 AO). Beim gewöhnlichen Miet- oder Pachtvertrag bilanziert der Vermieter, der Mieter erfasst Mietaufwand.\n▸ Ausnahme: Übt ein anderer die tatsächliche Herrschaft so aus, dass er den Eigentümer im Regelfall für die gewöhnliche Nutzungsdauer wirtschaftlich ausschließen kann, ist ihm das Wirtschaftsgut zuzurechnen (§ 39 Abs. 2 Nr. 1 S. 1 AO).\n▸ Ob das so ist, entscheidet der konkrete Vertrag, etwa Laufzeit im Verhältnis zur Nutzungsdauer und Optionen am Ende.\n▸ Sonderfälle im Gesetz: Treuhand, Sicherungseigentum, Eigenbesitz (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n\nSpeichern für Klausur 3 📌",
+   "caption": "Gemietet und genutzt – muss der Mieter das Wirtschaftsgut bilanzieren? 🏭\n\n▸ Grundsatz: Wirtschaftsgüter werden dem Eigentümer zugerechnet (§ 39 Abs. 1 AO). Beim gewöhnlichen Miet- oder Pachtvertrag bilanziert der Vermieter, der Mieter erfasst Mietaufwand.\n▸ Ausnahme: Hat ein anderer die Sachherrschaft so inne, dass dem Eigentümer während der gesamten üblichen Nutzungszeit kein wirtschaftlicher Einfluss bleibt, wird das Wirtschaftsgut diesem anderen zugerechnet (§ 39 Abs. 2 Nr. 1 S. 1 AO).\n▸ Ob das so ist, entscheidet der konkrete Vertrag, etwa Laufzeit im Verhältnis zur Nutzungsdauer und Optionen am Ende.\n▸ Sonderfälle im Gesetz: Treuhand, Sicherungseigentum, Eigenbesitz (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n\nSpeichern für Klausur 3 📌",
    "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
