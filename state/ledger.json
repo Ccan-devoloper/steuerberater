@@ -7529,22 +7529,22 @@
       "fach": "istr",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
       "insights": {
-        "reach": 38,
-        "views": 48,
+        "reach": 40,
+        "views": 54,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 43,
-        "navigation_tap_forward": 30,
-        "navigation_tap_exit": 8,
+        "navigation": 47,
+        "navigation_tap_forward": 33,
+        "navigation_tap_exit": 9,
         "navigation_tap_back": 2,
         "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-04T10:44:31.306Z",
-      "insightsAlterStunden": 19
+      "insightsStand": "2026-10-04T12:44:43.886Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-03",
@@ -7742,21 +7742,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 16,
-        "views": 21,
+        "reach": 32,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_back": 1,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 10
+        "navigation": 39,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 27
       },
-      "insightsStand": "2026-10-04T08:44:08.215Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-04T12:44:43.886Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-04",
@@ -7805,7 +7806,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "saved": 2,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-04T12:44:46.940Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-04",
