@@ -7755,6 +7755,18 @@
       },
       "insightsStand": "2026-10-04T08:44:08.215Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-10-04",
+      "slot": "s6",
+      "medienId": "17904879024580599",
+      "veroeffentlicht": "2026-10-04T10:44:30.088Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "est-aufb-est-ks1-gew-01",
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
