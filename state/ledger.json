@@ -7471,22 +7471,22 @@
       "fach": "gewst",
       "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
       "insights": {
-        "reach": 41,
-        "views": 50,
+        "reach": 42,
+        "views": 51,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 48,
-        "navigation_tap_back": 3,
+        "navigation": 49,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 39,
         "navigation_tap_exit": 3,
-        "navigation_tap_forward": 38,
-        "navigation_swipe_forward": 4
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-04T08:44:08.215Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-04T10:44:31.306Z",
+      "insightsAlterStunden": 23
     },
     {
       "datum": "2026-10-03",
@@ -7529,22 +7529,22 @@
       "fach": "istr",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
       "insights": {
-        "reach": 33,
-        "views": 42,
+        "reach": 38,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_tap_forward": 27,
-        "navigation_tap_exit": 7,
+        "navigation": 43,
+        "navigation_tap_forward": 30,
+        "navigation_tap_exit": 8,
         "navigation_tap_back": 2,
-        "navigation_swipe_forward": 2
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-04T05:44:32.746Z",
-      "insightsAlterStunden": 14
+      "insightsStand": "2026-10-04T10:44:31.306Z",
+      "insightsAlterStunden": 19
     },
     {
       "datum": "2026-10-03",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 109,
+        "reach": 126,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 139,
-        "ig_reels_avg_watch_time": 7848,
-        "ig_reels_video_view_total_time": 894774,
-        "reels_skip_rate": 81.7
+        "views": 164,
+        "ig_reels_avg_watch_time": 9260,
+        "ig_reels_video_view_total_time": 1268649,
+        "reels_skip_rate": 79.8
       },
-      "insightsStand": "2026-10-04T06:45:54.421Z",
-      "insightsAlterStunden": 13
+      "insightsStand": "2026-10-04T10:44:35.725Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-03",
@@ -7594,21 +7594,21 @@
       "fach": "istr",
       "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
       "insights": {
-        "reach": 27,
-        "views": 34,
+        "reach": 33,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 30,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 25,
+        "navigation": 34,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 28,
         "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-10-04T05:44:32.746Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-10-04T10:44:31.306Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-03",
@@ -7622,22 +7622,22 @@
       "fach": "bilanz",
       "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
       "insights": {
-        "reach": 30,
-        "views": 35,
+        "reach": 35,
+        "views": 40,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
-        "navigation_swipe_forward": 1,
+        "navigation": 38,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 23,
         "navigation_tap_exit": 9,
-        "navigation_tap_forward": 19,
-        "navigation_tap_back": 4
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-04T05:44:32.746Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-10-04T10:44:31.306Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-04",
