@@ -124,7 +124,7 @@ def main():
         for s_ in spec["stories"]:
             if s_["art"] == "teaser" and s_.get("beitragSlot") in bmap:
                 b_ = bmap[s_["beitragSlot"]]
-                s_.setdefault("klausur", b_["klausur"]); s_.setdefault("fachLabel", b_.get("fachLabel", "Steuerberaterexamen"))
+                s_.setdefault("klausur", b_["klausur"]); s_.setdefault("fachLabel", b_.get("fachLabel", k.MARKE["fachLabel"]))
                 s_.setdefault("fach", b_.get("fach"))
         bes = Besetzung({r: f for s in spec["stories"] for r, f in (s.get("figuren") or {}).items()})
         st = Stories(spec["stories"], bes, os.path.join(arbeit, "stories"), datum, covers)
@@ -152,7 +152,7 @@ def main():
     tag = alt if alt else {}
     jetzt = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     tag.update(datum=datum, status="vorproduziert", freigabeBetreiber=True, liveVerknuepft=False, vorproduktionStatus="live-freigegeben",
-               layoutQuelle="open-peeps-variante-c", semantikQuelle="examenscampus", liveVorrangAktiv=True, normalbetriebGesperrt=True,
+               layoutQuelle="open-peeps-variante-c", semantikQuelle=k.MARKE["kanal"], liveVorrangAktiv=True, normalbetriebGesperrt=True,
                bildStatus="open-peeps-render")
     tag["kostenPolicy"] = {"textUndFaktencheckUsd": 0, "bildgenerierungUsd": 0, "providerKostenUsd": 0, "coverbilder": False,
                            "bildgenerierungErlaubt": False, "reelStimme": "elevenlabs-abo"}
@@ -177,6 +177,9 @@ def main():
     if not nur or "stories" in nur:
         for s in spec["stories"]:
             e = {x: s.get(x) for x in ("slot", "art", "fach", "klausur", "fachLabel", "themaId", "beitragSlot", "quellen")}
+            # Inhaltsfelder mitgeben: Der Bot prüft vor dem Posten z. B. das Quizpaar (optionen, richtig, pairId).
+            e.update({x: v for x, v in s.items() if x not in e and x not in ("figuren", "figur", "zeit")})
+            if s["art"] in ("frage", "antwort") and s.get("themaId"): e.setdefault("pairId", s["themaId"])
             e.update(sichtbareTexte=texte.get(f"{datum}-{s['slot']}-{s['art']}.jpg", []), renderer="open-peeps-v4", bildStatus="open-peeps-render",
                      freigabeBetreiber=True, vorproduktionStatus="live-freigegeben", liveVorrangAktiv=True, regelGeprueft=True)
             inh[s["slot"]] = e

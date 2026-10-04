@@ -4,7 +4,7 @@ Gemeinsame Bausteine für Karussell (1080×1350), Story (1080×1920) und Reel (1
 Rahmen in der Klausurfarbe, Schlagzeilen, Normzeilen, Karten, Kalenderblatt, Gesetzesseite,
 Brustbilder mit Sprechblasen. Die Regeln dazu stehen in social/op/REDAKTION.md.
 """
-import os, re, sys
+import json, os, re, sys
 
 HIER = os.path.dirname(os.path.abspath(__file__))
 os.environ.setdefault("OP_RES", os.path.join(HIER, ".res"))
@@ -17,12 +17,16 @@ import engine, bausteine
 from bausteine import *            # noqa: F401,F403  (Palette, titel, pille, absatz, fl_block, karte, icon, ficon, blase …)
 
 RES = os.environ["OP_RES"]
+# Kanal: Standard Examenscampus; ein anderer Kanal (Herrjurist) legt marke.json neben diese Datei.
+MARKE = {"kanal": "examenscampus", "fachLabel": "Steuerberaterexamen", "klausurLabel": None, "reelZielS": 44.4, "reelMaxS": 45.5}
+if os.path.exists(os.path.join(HIER, "marke.json")):
+    MARKE.update(json.load(open(os.path.join(HIER, "marke.json"), encoding="utf-8")))
 bausteine.FIGORDNER = "op_ec/"
 C = "_"
 
 # ---------------------------------------------------------------- Farben
-PASTELL = {0: LILA, 1: BLAU, 2: ORANGE, 3: GRUEN}
-FEED = {0: (124, 92, 255, 255), 1: (45, 91, 227, 255), 2: (255, 122, 69, 255), 3: (35, 217, 139, 255)}
+PASTELL = {0: LILA, 1: BLAU, 2: ORANGE, 3: GRUEN, 4: LILA}         # 4 = Wochenrückblick (Herrjurist): lila wie „Sonstiges“
+FEED = {0: (124, 92, 255, 255), 1: (45, 91, 227, 255), 2: (255, 122, 69, 255), 3: (35, 217, 139, 255), 4: (124, 92, 255, 255)}
 HELL = (255, 251, 230, 255)
 FALLE_FILL = (255, 240, 234, 255)
 GRAUTEXT = (92, 92, 104, 255)          # Normen auf Folgefolien (F3a)

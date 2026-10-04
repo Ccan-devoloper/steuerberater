@@ -56,7 +56,7 @@ Gesetzestext nur im Wortlaut der aktuellen Fassung (gesetze-im-internet.de), Aus
 
 ## Reel
 ```jsonc
-{ "slot": "b3", "format": "reel", "reelTyp": "rechnung", …, "figuren": {…},
+{ "slot": "b3", "format": "reel", "reelTyp": "rechnung", "layout": "A|B|C|D|E", …, "figuren": {…},
   "sprecher": [ {"id": "hook", "text": "…"}, {"id": "s1", "text": "…"}, {"id": "s2", "text": "…"}, {"id": "cta", "text": "…"} ],
   "hook": {"zeilen": ["Dollar steigt.", "Schuld steigt?"], "pille": "Fremdwährungsschulden", "figur": "A/sorge", "name": "Ben",
            "icons": [["tabler:coin", "GELB", "<Wort, bei dem es verschwindet>"]],
@@ -93,4 +93,8 @@ Gemeinsam: `slot, zeit, art, klausur, fachLabel, themaId` (aus dem Rahmenplan), 
 | `merksatz` | `titel` (2 Zeilen), `zeilen` (Markertext wie merke), `norm`, `figur` |
 | `countdown` | `zahl`, `titel`, `punkte` (2–3), `figur` |
 | `anlass` | `titel`, `text`, `punkte`, `figur` |
+| `fehler` | `ueberzeile` (Standard „Typischer Fehler“), `titel` (2 Zeilen), `falsch`, `richtig`, `norm`, `figur` |
+| `streitstand` | `titel` (2 Zeilen), `ansichten`: [[kopf, text], [kopf, text]], `klausur_tipp`, `norm`, `figur` |
+| `begriff` | `titel` (Begriff, 1–2 Zeilen), `kopf` (Standard „Definition“), `text`, `norm`, `figur` |
+| `zahl` | `zahl` (echte Ziffernangabe, ≤ 8 Zeichen), `einheit` (Beschriftung über der Zahl), `titel` (1–2 kurze Zeilen), `punkte`: [[text, ok\|warn\|nein, norm], …] (≤ 4), `figur` |
 ≤ 25 Wörter je Story. Figuren-Kürzel der Stories sind tageweit eindeutig (z. B. Q für das Quizpaar, N, T, M, C) – das Quizpaar nutzt dieselbe Figur.

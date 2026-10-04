@@ -1,13 +1,13 @@
 """Stories 1080×1920 (Variante C): Inhalt nur zwischen y 260 und 1660, ≤ 25 Wörter, Schrift ≥ 46 px.
 
-Arten: frage, antwort, teaser, norm, countdown, tipp, merksatz, anlass. Keine Sticker (die Graph-API kann sie
+Arten: frage, antwort, teaser, norm, countdown, tipp, merksatz, anlass, fehler, streitstand, begriff, zahl. Keine Sticker (die Graph-API kann sie
 nicht setzen): Quiz als Paar aus Frage und Auflösung, Teaser mit dem echten Cover des Beitrags.
 """
 import os
 from PIL import Image, ImageDraw
 import opkern as k
 from opkern import (C, F, OT, titel, pille, absatz, fl_block, karte, ficon, markertext, haken_i, warnung_i,
-                    WEISS, GELB, GRUEN, LILA, INK, PINK, PASTELL, FARBEN, GRAUTEXT)
+                    WEISS, GELB, GRUEN, LILA, INK, PINK, PASTELL, FARBEN, GRAUTEXT, HELL, FALLE_FILL)
 
 OBEN, UNTEN = 260, 1660
 MAX_WORTE = 25
@@ -176,6 +176,71 @@ class Stories:
         if s.get("figur"):
             els.append(k.nah(self.f(s["figur"], 540), 540, int(y + 20), 700))
         self.speichern(s, els, k.worte(*s["titel"], s.get("text"), *[p[0] for p in s.get("punkte", [])]))
+
+    def textkarte(self, els, y, kopf, text, fill, size=52, zeichen=None, norm=None):
+        """Karte mit kleiner Kopfzeile und Fließtext; Höhe nach dem Text. Gibt die Unterkante zurück."""
+        self.T(kopf, text, norm)
+        e, y2 = absatz(text, 104, y + 92, 872, C, size=size, zeilenabstand=1.22)
+        if norm:
+            e.append(OT(norm, 104, y2 + 6, C, "Bold", 40, farbe=GRAUTEXT)); y2 += 52
+        h = int(y2 - y + 36)
+        els.append(karte(64, y, 952, h, C, fill=fill))
+        els.append(OT(kopf, 104 + (52 if zeichen else 0), y + 28, C, "ExtraBold", 42))
+        if zeichen == "nein": els.append(k.kreuz_i(124, y + 54, C, gr=26))
+        elif zeichen == "ok": els.append(haken_i(124, y + 54, C, gr=28))
+        els += e
+        return y + h
+
+    def fehler(self, s):
+        """Typischer Fehler: Irrtum (rot) und Richtig (grün) als zwei Karten."""
+        kk = int(s["klausur"]); els = self.kopfzeile(s, s.get("ueberzeile", "Typischer Fehler"))
+        t, y = self.gross(s["titel"], OBEN + 200, 96, kk); els += t
+        y = self.textkarte(els, y + 30, "Falsch", s["falsch"], FALLE_FILL, zeichen="nein")
+        y = self.textkarte(els, y + 30, "Richtig", s["richtig"], (226, 245, 228, 255), zeichen="ok", norm=s.get("norm"))
+        if s.get("figur") and UNTEN - y >= 380:
+            els.append(k.nah(self.f(s["figur"], 820), 820, int(y + 40), min(520, UNTEN - y - 20)))
+        self.speichern(s, els, k.worte(*s["titel"], s["falsch"], s["richtig"]) + (1 if s.get("norm") else 0))
+
+    def streitstand(self, s):
+        """Streitstand: zwei Ansichten als Karten, darunter die Klausurempfehlung."""
+        kk = int(s["klausur"]); els = self.kopfzeile(s, s.get("ueberzeile", "Streitstand"))
+        t, y = self.gross(s["titel"], OBEN + 200, 92, kk); els += t; y += 20
+        for i, (kopf, text) in enumerate(s["ansichten"]):
+            y = self.textkarte(els, y + 10, kopf, text, WEISS if i == 0 else HELL, size=50) + 14
+        if s.get("klausur_tipp"):
+            self.T(s["klausur_tipp"])
+            e, y2 = absatz(s["klausur_tipp"], 136, y + 30, 870, C, size=50, stil="Bold", zeilenabstand=1.2)
+            els.append(warnung_i(94, y + 62, C, gr=26)); els += e; y = y2
+        if s.get("norm"):
+            self.T(s["norm"]); els.append(OT(s["norm"], 64, y + 20, C, "Bold", 42, farbe=GRAUTEXT)); y += 70
+        if s.get("figur") and UNTEN - y >= 380:
+            els.append(k.nah(self.f(s["figur"], 820), 820, int(y + 40), min(560, UNTEN - y - 20)))
+        self.speichern(s, els, k.worte(*s["titel"], *[x for a in s["ansichten"] for x in a], s.get("klausur_tipp")) + (1 if s.get("norm") else 0))
+
+    def begriff(self, s):
+        """Begriff des Tages: Begriff groß, Definition auf heller Karte, Norm, Figur."""
+        kk = int(s["klausur"]); els = self.kopfzeile(s, s.get("ueberzeile", "Begriff des Tages"))
+        t, y = self.gross(s["titel"], OBEN + 200, 104, kk); els += t
+        y = self.textkarte(els, y + 40, s.get("kopf", "Definition"), s["text"], HELL, size=54, norm=s.get("norm"))
+        if s.get("figur") and UNTEN - y >= 380:
+            els.append(k.nah(self.f(s["figur"], 820), 820, int(y + 40), min(560, UNTEN - y - 20)))
+        self.speichern(s, els, k.worte(*s["titel"], s.get("kopf", "Definition"), s["text"]) + (1 if s.get("norm") else 0))
+
+    def zahl(self, s):
+        """Zahl des Tages: große Zahl links, Titel daneben, darunter die Punkte."""
+        kk = int(s["klausur"]); els = self.kopfzeile(s, s.get("ueberzeile", "Zahl des Tages"))
+        self.T(s["zahl"])
+        zs = k.passt(s["zahl"], "ExtraBold", 230, 330, 120)
+        els.append(k.zahlblock(64, OBEN + 200, 380, 330, FARBEN.get(s.get("farbe"), GELB), s.get("einheit", " "), s["zahl"], zs=zs, ls=40))
+        self.T(*s["titel"])
+        yy = OBEN + 210
+        for z in s["titel"]:
+            gr = k.passt(z, "ExtraBold", 72, 540, 46)
+            els.append(OT(z, 476, yy, C, "ExtraBold", gr)); yy += int(gr * 1.2)
+        y = self.punkte(els, s["punkte"], max(OBEN + 560, yy + 30), size=52, normsize=40)
+        if s.get("figur") and UNTEN - y >= 380:
+            els.append(k.nah(self.f(s["figur"], 820), 820, int(y + 40), min(560, UNTEN - y - 20)))
+        self.speichern(s, els, k.worte(s["zahl"], *s["titel"], *[p[0] for p in s["punkte"]]) + sum(1 for p in s["punkte"] if len(p) > 2 and p[2]))
 
     def rendern(self):
         k.STORY.aktiv()

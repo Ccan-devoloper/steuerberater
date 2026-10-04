@@ -50,7 +50,7 @@ class Reel:
 
     # ------------------------------------------------------------ Aufbau
     def kopfzeile(self):
-        kl = self.s.get("klausurLabel") or f"Klausur {self.k}"
+        kl = self.s.get("klausurLabel") or k.MARKE["klausurLabel"] or f"Klausur {self.k}"
         self.T(self.s["fachLabel"].upper(), kl)
         self.zeige(pille(self.s["fachLabel"].upper(), 48, 50, C, fill=PASTELL[self.k], size=k.passt(self.s["fachLabel"].upper(), "Bold", 46, 620, 28), pad=(30, 12)), 0, None, "cut")
         self.zeige(pille(kl, W_ - 48, 56, C, fill=WEISS, size=32, anker="r", pad=(22, 10)), 0, None, "cut")
@@ -352,7 +352,7 @@ class Reel:
         els = []
         lbl = self.s["fachLabel"].upper()
         els.append(pille(lbl, 64, 272, C, fill=PASTELL[kk], size=k.passt(lbl, "Bold", 42, 640, 28), pad=(28, 11)))
-        kl = self.s.get("klausurLabel") or f"Klausur {kk}"
+        kl = self.s.get("klausurLabel") or k.MARKE["klausurLabel"] or f"Klausur {kk}"
         els.append(pille(kl, W_ - 64, 278, C, fill=WEISS, size=32, anker="r", pad=(22, 10)))
         zeilen = h["zeilen"]
         stil, st = h.get("stil", "split"), h.get("stempel") or {}
@@ -416,7 +416,7 @@ class Reel:
             fehl = stimme.aussprache_pruefen(txt)
             assert not fehl, f"Reel {self.datum} {sid}: im Sprechertext ausschreiben: {fehl}"
         Z = stimme.vertonen(segs, wav, pausen={"hook": 0.3, "cta": 0.5})
-        assert Z["dauer"] <= 45.5, f"Reel {self.datum}: {Z['dauer']} s – Sprechertext kürzen"
+        assert Z["dauer"] <= k.MARKE["reelMaxS"], f"Reel {self.datum}: {Z['dauer']} s – Sprechertext kürzen"
         self.Z, self.SEG = Z, {s["name"]: s for s in Z["segmente"]}
         starts = [self.SEG[x["id"]]["start"] for x in self.s["sprecher"]]
         ids = [x["id"] for x in self.s["sprecher"]]
