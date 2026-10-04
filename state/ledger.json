@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 100,
+        "reach": 106,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 144,
-        "ig_reels_avg_watch_time": 9950,
-        "ig_reels_video_view_total_time": 1064742,
-        "reels_skip_rate": 61.6
+        "views": 156,
+        "ig_reels_avg_watch_time": 10012,
+        "ig_reels_video_view_total_time": 1141409,
+        "reels_skip_rate": 62.3
       },
-      "insightsStand": "2026-10-03T14:44:53.073Z",
-      "insightsAlterStunden": 69.7
+      "insightsStand": "2026-10-04T15:44:36.046Z",
+      "insightsAlterStunden": 94.7
     },
     {
       "datum": "2026-09-30",
@@ -7143,7 +7143,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 43,
+        "reach": 47,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -7152,8 +7152,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-04T06:45:54.421Z",
-      "insightsAlterStunden": 40
+      "insightsStand": "2026-10-04T15:44:36.046Z",
+      "insightsAlterStunden": 49
     },
     {
       "datum": "2026-10-02",
@@ -7652,21 +7652,21 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 31,
-        "views": 35,
+        "reach": 39,
+        "views": 43,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 33,
+        "navigation": 42,
         "navigation_tap_exit": 2,
-        "navigation_tap_forward": 29,
-        "navigation_swipe_forward": 2
+        "navigation_tap_forward": 37,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-04T11:17:28.539Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-04T15:44:33.429Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-04",
@@ -7680,22 +7680,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 31,
-        "views": 38,
+        "reach": 38,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
+        "navigation": 43,
         "navigation_tap_back": 1,
         "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 24,
+        "navigation_tap_forward": 32,
         "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-10-04T11:17:28.539Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-04T15:44:33.429Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-04",
