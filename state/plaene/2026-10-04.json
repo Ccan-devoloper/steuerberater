@@ -70,7 +70,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "est-aufb-est-ks1-gew-01",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-04T10:44:20.959Z"
     },
     {
       "slot": "s2",
