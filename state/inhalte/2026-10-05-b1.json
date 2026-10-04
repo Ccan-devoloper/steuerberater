@@ -1,0 +1,62 @@
+{
+  "format": "anlass",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": "persg-aufb-persg-melzer-1-2",
+  "caption": "Morgen geht's los: der Abend vor Tag 1 der Steuerberaterprüfung.\n\n▸ Tasche packen: Ladung, Ausweis, Textausgaben, Stifte. Welche Hilfsmittel zugelassen sind, bestimmt die Finanzverwaltung; die Bearbeitungszeit beträgt höchstens sechs Stunden (§ 18 Abs. 1 S. 2, 3 DVStB).\n▸ Textausgaben dürfen Markierungen enthalten, aber keine Anmerkungen.\n▸ Heute nichts Neues mehr lernen, runterfahren, früh schlafen, Anfahrt mit Puffer.\n▸ Tipp für Tag 1 (Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung): erst alle Teile überfliegen, Zeit nach Punkten verteilen, bei Hängern weitergehen und später zurückkommen.\n\nWir drücken dir die Daumen! Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [
+    "§ 18 Abs. 1 S. 2, 3 DVStB"
+  ],
+  "slug": "2026-10-05-b1",
+  "kurztitel": "Morgen geht's los: der Abend vor Tag 1",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Morgen geht's los",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Morgen geht's los",
+      "text": "Morgen geht's los · Der Abend · davor · in 4 Schritten · + Tipp für Tag 1 · OKTOBER · 6 · Di · Tag 1",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dein Abend in 4 Schritten · Tasche packen · Ladung, Ausweis, Gesetze, Stifte · Lernen beenden · Ab jetzt nichts Neues mehr · Runterfahren · Essen, Spaziergang, Bildschirm aus · Früh ins Bett · Wecker doppelt, Weg mit Puffer · Am Ende: dein Tipp für Tag 1"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Die Tasche · Welche Hilfsmittel erlaubt sind, legt die Finanzverwaltung fest. Ladung noch einmal lesen. · § 18 Abs. 1 S. 2 DVStB · Textausgaben: Markierungen sind erlaubt, Anmerkungen nicht. · Uhr, Wasser und Snacks für bis zu sechs Stunden. · § 18 Abs. 1 S. 3 DVStB · Einmal abhaken!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Kopf und Schlaf · Keine neuen Themen: Was heute nicht sitzt, rettet kein Abendmarathon. · Kurz an die frische Luft, leicht essen, Bildschirm früh aus. · Anfahrt und Einlass mit Puffer planen. · Reicht für heute!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dein Tipp für Tag 1 · Morgen in einer Klausur: AO, Umsatzsteuer, Erbschaftsteuer, Bewertung. · Erst alle Teile überfliegen, dann die Zeit nach Punkten verteilen, nicht nach Lieblingsfach. · Hängst du fest: Lücke lassen, später zurück. · Punkte holen statt perfekt lösen · Punkte zählen!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dienstag, 06.10.: Tag 1 · AO · Umsatzsteuer · Erbschaftsteuer und Bewertung · Tasche packen, · Kopf ausschalten, · früh schlafen, · morgen Punkte holen. · Speichern für Klausur 1 · Was kommt bei dir in die Tasche?"
+    }
+  ]
+}

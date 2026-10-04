@@ -1,0 +1,27 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-kst-1",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Auflösung",
+    "A: die Vorgründungs-",
+    "gesellschaft",
+    "Vorgründungsgesellschaft",
+    "Vorgesellschaft nach dem Notartermin",
+    "Eingetragene GmbH",
+    "Sie endet mit dem Notarvertrag. Erst die Vorgesellschaft gehört steuerlich zur GmbH.",
+    "H 1.1 KStH"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

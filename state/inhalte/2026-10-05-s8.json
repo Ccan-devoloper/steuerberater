@@ -1,0 +1,30 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-0",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "USt-Fall:",
+    "die Reihenfolge",
+    "Steuerbar, steuerfrei, Option?",
+    "§§ 1, 4, 9 UStG",
+    "Bemessungsgrundlage und Steuersatz",
+    "§§ 10, 12 UStG",
+    "Wer schuldet, ab wann?",
+    "§§ 13, 13a, 13b UStG",
+    "Vorsteuer und Berichtigung",
+    "§§ 15, 15a, 17 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

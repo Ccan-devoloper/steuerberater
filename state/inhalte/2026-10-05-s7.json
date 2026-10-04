@@ -1,0 +1,27 @@
+{
+  "slot": "s7",
+  "art": "countdown",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Countdown",
+    "NOCH",
+    "1",
+    "Tag",
+    "bis zum Examen",
+    "Tasche packen",
+    "Nichts Neues mehr",
+    "Früh schlafen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-karte-kst-1",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Merksatz",
+    "vGA: zuerst",
+    "die Vorfrage",
+    "Wer hat den Vorteil?",
+    "Gesellschafter oder",
+    "Nahestehende: prüfen!",
+    "§ 8 Abs. 3 S. 2 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

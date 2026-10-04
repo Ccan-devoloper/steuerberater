@@ -1,0 +1,22 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Neu im Feed",
+    "Noch mit drei Tagen?",
+    "Klausurfalle + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

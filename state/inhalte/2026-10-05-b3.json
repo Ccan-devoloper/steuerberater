@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks1-vv-02",
+  "caption": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG? Die Klausurfalle zum Wiederholen.\n\n▸ Vermietungseinkünfte sind anderen Einkunftsarten zuzurechnen, soweit sie zu diesen gehören (§ 21 Abs. 3 EStG).\n▸ Betriebsaufspaltung: Wer Besitz- und Betriebsunternehmen beherrscht und eine wesentliche Betriebsgrundlage überlässt, erzielt gewerbliche Einkünfte (§ 15 Abs. 1 S. 1 Nr. 1 EStG; H 15.7 Abs. 4 EStH).\n▸ Miete, die ein Mitunternehmer von seiner Personengesellschaft erhält, ist Sondervergütung (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n▸ Die Vermietung einzelner beweglicher Gegenstände führt zu sonstigen Einkünften (§ 22 Nr. 3 S. 1 EStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 21 Abs. 3 EStG",
+    "§ 15 Abs. 1 S. 1 Nr. 1, 2 EStG",
+    "H 15.7 Abs. 4 EStH",
+    "§ 22 Nr. 3 S. 1 EStG"
+  ],
+  "slug": "2026-10-05-b3",
+  "kurztitel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Miete ist immer § 21?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Betriebsaufspaltung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Sonderbetrieb"
+    },
+    {
+      "art": "schritt",
+      "titel": "Einzelne Sache"
+    }
+  ],
+  "sprecher": [
+    "Miete ist immer Vermietung und Verpachtung? Falsch. Paragraf einundzwanzig greift nur, wenn keine andere Einkunftsart passt.",
+    "Nora verpachtet ihre Halle an die eigene GmbH und beherrscht beide. Das ist eine Betriebsaufspaltung, die Pacht ist gewerblich.",
+    "Vermietet ein Kommanditist sein Büro an seine KG, wird die Miete zur Sondervergütung.",
+    "Und wer nur ein einzelnes Wohnmobil vermietet, hat sonstige Einkünfte.",
+    "Merke: Erst Betrieb prüfen, dann Vermietung."
+  ],
+  "dauerS": 34.085,
+  "tempo": 1
+}

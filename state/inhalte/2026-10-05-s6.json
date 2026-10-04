@@ -1,0 +1,25 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-karte-k3-20",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "SBV I",
+    "oder II?",
+    "R 4.2 Abs. 2 EStR",
+    "SBV I dient dem Betrieb: an die KG vermietetes Grundstück.",
+    "SBV II stützt die Beteiligung: Kredit für den Anteil."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,102 @@
+{
+  "datum": "2026-10-05",
+  "erzeugt": "2026-10-04T23:35:35.304Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "anlass",
+      "themaId": "persg-aufb-persg-melzer-1-2",
+      "themaTitel": "Morgen geht's los: der Abend vor Tag 1",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "12:00",
+      "format": "fehlerfalle",
+      "themaId": "ao-aufb-ao-jacobs-3-11",
+      "themaTitel": "Viertagesfiktion: Wann gilt ein Steuerbescheid als bekannt gegeben?",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "est-aufb-est-ks1-vv-02",
+      "themaTitel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+      "fach": "est",
+      "klausur": 2,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "persg-karte-k3-20",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "12:00",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "countdown",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "ust-karte-ust-0",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "kst-karte-kst-1",
+      "status": "geplant"
+    }
+  ]
+}
