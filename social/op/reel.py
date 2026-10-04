@@ -183,7 +183,7 @@ class Reel:
                     yy = el.y + el.sprite.height + 90
             unten_frei = 1640 - 280
         elif L == "C": unten_frei = 1000
-        elif L == "D": unten_frei = 1160
+        elif L == "D": unten_frei = self.schema_oben() - 20
         elif L == "E": unten_frei = 1040
         else: unten_frei = BODEN - (240 if (sz.get("icon") or sz.get("figur")) else 60)
         for g in gruppen:
@@ -231,23 +231,29 @@ class Reel:
             tf = self.wort(seg, f["wort"]) if f.get("wort") else t0
             self.figur(f["ref"], 300, f.get("hoehe", 440), tf, t1, "pop")
 
+    def schema_oben(self):
+        """Oberkante der Prüfschema-Karte (Layout D): wächst mit der Zahl der Schritte nach oben."""
+        return min(1180, 1640 - 118 - 98 * len(self.s["szenen"]))
+
     def schema_leiste(self, aktiv, t0, t1, kompakt=False):
         """Prüfschema des Reels (Szenentitel) als Orientierung: erledigt grau mit Haken, aktuell farbig, kommend weiß."""
         schritte = [sz["titel"] for sz in self.s["szenen"]]
         grau = (140, 140, 145, 255)
         if not kompakt:
-            y0 = 1180
+            y0 = self.schema_oben()
             self.zeige(karte(48, y0, 984, 1640 - y0, C, fill=(255, 255, 255, 255)), t0, t1, "cut")
             self.zeige(OT("Prüfschema", 90, y0 + 28, C, "ExtraBold", 44), t0, t1, "cut")
             y = y0 + 106
+            schritt, hz = 98, 80
             for i, s_ in enumerate(schritte):
                 fertig, akt = i < aktiv, i == aktiv
                 fill = PASTELL[self.k] if akt else ((236, 236, 236, 255) if fertig else WEISS)
-                self.zeige(fl_block(90, y, 900, 80, fill, C, [(" ", "Bold", 10, INK)]), t0, t1, "cut")
-                self.zeige(pille(str(i + 1), 110, y + 12, C, fill=WEISS, size=36, pad=(18, 4)), t0, t1, "cut")
-                self.zeige(OT(s_, 190, y + 10, C, "ExtraBold" if akt else "Bold", k.passt(s_, "Bold", 44, 720, 30), farbe=grau if fertig else INK), t0, t1, "cut")
-                if fertig: self.zeige(haken_i(950, y + 40, C, gr=26), t0, t1, "cut")
-                y += 98
+                self.zeige(fl_block(90, y, 900, hz, fill, C, [(" ", "Bold", 10, INK)]), t0, t1, "cut")
+                self.zeige(pille(str(i + 1), 110, y + hz // 2 - 28, C, fill=WEISS, size=36, pad=(18, 4)), t0, t1, "cut")
+                gr = k.passt(s_, "Bold", min(44, hz - 30), 720, 30)
+                self.zeige(OT(s_, 190, y + hz // 2 - int(gr * 0.6), C, "ExtraBold" if akt else "Bold", gr, farbe=grau if fertig else INK), t0, t1, "cut")
+                if fertig: self.zeige(haken_i(950, y + hz // 2, C, gr=26), t0, t1, "cut")
+                y += schritt
         else:
             n = len(schritte); w = (984 - (n - 1) * 16) // n; x = 48
             for i, s_ in enumerate(schritte):
@@ -406,6 +412,9 @@ class Reel:
         os.makedirs(self.out, exist_ok=True)
         wav = os.path.join(self.out, "_stimme.wav")
         segs = [(x["id"], x["text"]) for x in self.s["sprecher"]]
+        for sid, txt in segs:
+            fehl = stimme.aussprache_pruefen(txt)
+            assert not fehl, f"Reel {self.datum} {sid}: im Sprechertext ausschreiben: {fehl}"
         Z = stimme.vertonen(segs, wav, pausen={"hook": 0.3, "cta": 0.5})
         assert Z["dauer"] <= 45.5, f"Reel {self.datum}: {Z['dauer']} s – Sprechertext kürzen"
         self.Z, self.SEG = Z, {s["name"]: s for s in Z["segmente"]}

@@ -76,7 +76,10 @@ Elemente einer Szene (erscheinen beim gesprochenen `wort`, `neu: true` räumt di
 `{"typ": "norm", "text": "§ 256a HGB"}` (höchstens eine je Szene). Jedes `wort` muss im Sprechertext des Segments
 vorkommen (Wortanfang genügt, `nr` für das n-te Vorkommen). Sprechertext gesamt ≤ 520 Zeichen (≤ 45 s),
 Zahlen und Paragrafen ausgeschrieben, wie sie gesprochen werden („Paragraf sechzehn“), keine Aufzählung
-„eins, zwei, drei“. Geräusche: stempel, riss, rechner, muenzen. Icons: Iconify-Set tabler.
+„eins, zwei, drei“. Keine Kürzel, die die Stimme buchstabieren oder verschlucken würde („Bundesgerichtshof“ statt BGH,
+„Afa“ statt AfA); erlaubt sind nur KG, AG, OHG, GmbH, GbR, UG, EU. Der Renderer bricht bei §, Ziffern, „Abs.“, „Nr.“
+und Großbuchstaben-Kürzeln ab (`stimme.aussprache_pruefen`). Geschnitten wird an echten Pausen: Was die Stimme vom
+Nachbarsatz anspricht, fällt weg. Geräusche: stempel, riss, rechner, muenzen. Icons: Iconify-Set tabler.
 
 ## Stories
 Gemeinsam: `slot, zeit, art, klausur, fachLabel, themaId` (aus dem Rahmenplan), optional `figuren` + `figur`.

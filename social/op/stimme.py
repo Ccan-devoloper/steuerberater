@@ -4,7 +4,7 @@ Kosten: nur das Zeichenkontingent des ElevenLabs-Abos; Ergebnisse werden je Text
 Rendern desselben Textes kostet nichts. Der Proxy der Laufumgebung bzw. ELEVENLABS_API_KEY authentifiziert.
 Die Gesamtlänge wird mit atempo (tonhöhenneutral) auf höchstens ZIEL_S gestrafft, höchstens um MAX_TEMPO.
 """
-import base64, hashlib, json, os, subprocess, urllib.request, wave
+import base64, hashlib, json, os, re, subprocess, urllib.request, wave
 import numpy as np
 import imageio_ffmpeg
 import opkern
@@ -50,6 +50,50 @@ def _segment(text, vor, nach):
     return mp3, json.load(open(js))["al"]
 
 
+FR = SR // 100                                      # 10-ms-Rahmen
+
+
+def _huelle(pcm):
+    n = len(pcm) // FR
+    x = pcm[:n * FR].astype(np.float32).reshape(n, FR)
+    return np.sqrt((x ** 2).mean(axis=1))
+
+
+def _grenzen(pcm, zeichen, st, en):
+    """Schnittpunkte an echten Pausen. eleven_v4 spricht mit previous_text/next_text am Segmentanfang oft den Rest des
+    vorigen und am Ende den Anfang des nächsten Satzes an – ein fester Schnitt an den Zeichenzeiten lässt diese
+    Silbenfetzen stehen. Gesucht wird darum vom ersten bzw. letzten Buchstaben aus die nächste Stille (≥ 40 ms)."""
+    if not len(pcm):
+        return 0.0, en[-1] + 0.12
+    h = _huelle(pcm); still = h < max(h.max() * 0.025, 60)
+    bu = [i for i, c in enumerate(zeichen) if c.isalnum()] or [0, len(zeichen) - 1]
+    f0, f1 = int(st[bu[0]] * 100), min(len(h) - 1, int(en[bu[-1]] * 100))
+    a = f0
+    while a > 0 and not still[max(0, a - 4):a].all(): a -= 1
+    b = f1
+    while b < len(h) - 4 and not still[b:b + 4].all(): b += 1
+    return max(0.0, a / 100 - 0.03), min(len(pcm) / SR, b / 100 + 0.05)
+
+
+def _blende(pcm, ms=8):
+    """Kurze Ein-/Ausblendung gegen Knackser an den Schnittkanten."""
+    n = min(len(pcm) // 2, SR * ms // 1000)
+    if n <= 0: return pcm
+    x = pcm.astype(np.float32); r = np.linspace(0, 1, n)
+    x[:n] *= r; x[-n:] *= r[::-1]
+    return x.astype(np.int16)
+
+
+AUSSPRACHE = re.compile(r"§|\d|\b(?:Abs|Nr|Art|Alt|Var|bzw|ggf|vgl|usw|insb|S|z\. ?B|i\. ?V\. ?m|d\. ?h|u\. ?a)\.|\b\w*[A-ZÄÖÜ]\w*[A-ZÄÖÜ]\w*\b")
+ERLAUBT = {"KG", "AG", "OHG", "GmbH", "GbR", "UG", "EU"}
+
+
+def aussprache_pruefen(text):
+    """Was die Stimme falsch oder buchstabiert sprechen würde: Paragrafenzeichen, Ziffern, Abkürzungen mit Punkt und
+    Großbuchstaben-Kürzel (außer gängigen Rechtsformen). Im Sprechertext gehört alles ausgeschrieben."""
+    return sorted({m.group(0) for m in AUSSPRACHE.finditer(text)} - ERLAUBT)
+
+
 def vertonen(segmente, ziel_wav, pausen=None):
     """segmente: [(id, text)]. Schreibt ziel_wav und gibt {dauer, segmente:[{name, start, ende, woerter}]} zurück."""
     roh = []
@@ -61,7 +105,7 @@ def vertonen(segmente, ziel_wav, pausen=None):
         t = 0.15
         for name, _, _, al in roh:
             st, en = al["character_start_times_seconds"], al["character_end_times_seconds"]
-            t += (en[-1] + 0.12 - max(0, st[0] - 0.04)) / tempo + pausen.get(name, 0.25)
+            t += (en[-1] + 0.1 - max(0, st[0] - 0.05)) / tempo + pausen.get(name, 0.25)
         return t
     tempo = 1.0
     while laenge(tempo) > ZIEL_S and tempo < MAX_TEMPO: tempo = round(tempo + 0.01, 2)
@@ -74,8 +118,8 @@ def vertonen(segmente, ziel_wav, pausen=None):
         else:
             pcm = np.frombuffer(subprocess.run([FF, "-v", "error", "-i", mp3, "-af", f"atempo={tempo}", "-ac", "1", "-ar", str(SR), "-f", "s16le", "-"],
                                                capture_output=True, check=True).stdout, np.int16)
-        a0 = max(0.0, st[0] - 0.04); a1 = en[-1] + 0.12
-        pcm = pcm[int(a0 * SR):int(a1 * SR)]
+        a0, a1 = _grenzen(pcm, al["characters"], st, en)
+        pcm = _blende(pcm[int(a0 * SR):int(a1 * SR)])
         woerter, cur, a, last = [], "", None, 0
         for ch, s, e in zip(al["characters"], st, en):
             if ch.isspace():
