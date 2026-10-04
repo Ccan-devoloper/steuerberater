@@ -329,7 +329,7 @@
         "Nicht abziehbar: das Darlehen für das steuerfreie Familienheim und die Kosten der Nachlassverwaltung.",
         "Merke: Abzug nur, was am steuerpflichtigen Erwerb hängt."
       ],
-      "dauerS": 36.547,
+      "dauerS": 35.762,
       "tempo": 1.0
     },
     "s4": {
@@ -557,7 +557,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T13:00:01Z",
+    "erzeugtAm": "2026-10-04T22:49:07Z",
     "pfad": "vorproduktion/2026-10-13/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,

@@ -315,7 +315,7 @@
         "Die Falle: Beim Einzelunternehmer kommen fünfundzwanzigtausend Euro Unternehmerlohn dazu. Aus fünfundsiebzigtausend in A werden hunderttausend, genau wie in B.",
         "Merke: Unternehmerlohn nur bei Personenunternehmen, nie bei der GmbH."
       ],
-      "dauerS": 37.037,
+      "dauerS": 36.258,
       "tempo": 1.0
     },
     "s4": {
@@ -543,7 +543,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T13:00:51Z",
+    "erzeugtAm": "2026-10-04T22:49:47Z",
     "pfad": "vorproduktion/2026-10-14/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,

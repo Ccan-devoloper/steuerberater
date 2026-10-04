@@ -385,7 +385,7 @@
       "normalbetriebGesperrt": true,
       "bilderStatus": "open-peeps-render",
       "renderStatus": "fertig",
-      "renderErzeugtAm": "2026-10-03T13:00:01Z",
+      "renderErzeugtAm": "2026-10-04T22:49:07Z",
       "coverIcons": false,
       "renderer": "open-peeps-v4"
     },
@@ -406,7 +406,7 @@
       "normalbetriebGesperrt": true,
       "bilderStatus": "open-peeps-render",
       "renderStatus": "fertig",
-      "renderErzeugtAm": "2026-10-03T13:00:51Z",
+      "renderErzeugtAm": "2026-10-04T22:49:47Z",
       "coverIcons": false,
       "renderer": "open-peeps-v4"
     },
@@ -427,7 +427,7 @@
       "normalbetriebGesperrt": true,
       "bilderStatus": "open-peeps-render",
       "renderStatus": "fertig",
-      "renderErzeugtAm": "2026-10-03T13:01:40Z",
+      "renderErzeugtAm": "2026-10-04T22:50:31Z",
       "coverIcons": false,
       "renderer": "open-peeps-v4"
     },
@@ -702,7 +702,7 @@
       "coverIcons": true
     }
   ],
-  "stand": "2026-10-03T13:17:15Z",
+  "stand": "2026-10-04T22:50:31Z",
   "layoutQuelle": "herrjurist",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {

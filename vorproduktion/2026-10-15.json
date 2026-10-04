@@ -305,7 +305,7 @@
         "Aber: Die Anschaffungskosten der neuen Anteile sinken um das Darlehen auf zweihundertfünfzigtausend.",
         "Merke: Geld daneben geht, kostet aber Anschaffungskosten."
       ],
-      "dauerS": 40.629,
+      "dauerS": 40.26,
       "tempo": 1.0
     },
     "s4": {
@@ -534,7 +534,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-03T13:01:40Z",
+    "erzeugtAm": "2026-10-04T22:50:31Z",
     "pfad": "vorproduktion/2026-10-15/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
