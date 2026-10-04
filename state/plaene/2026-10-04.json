@@ -12,7 +12,8 @@
       "themaTitel": "Alle Klausuren kompakt: sechs Dauerbrenner vor dem Examen",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-04T06:44:40.151Z"
     },
     {
       "slot": "b2",
