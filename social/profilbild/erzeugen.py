@@ -3,7 +3,7 @@
 Aufruf: python3 erzeugen.py   (braucht fonttools; schreibt nach bildmarke/ und wortmarke/)
 Alle Formen sind Pfade - die SVGs brauchen keine installierte Schrift.
 """
-import math, os
+import itertools, json, math, os
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.boundsPen import BoundsPen
@@ -68,12 +68,13 @@ def ringfarben(art):
 
 
 def bildmarke(cx=500, cy=500, d=1000, ring='drei', innen=356, marker=LILA,
-              scheibe=CREME, para=TINTE, randlos=False, hintergrund=None):
+              scheibe=CREME, para=TINTE, randlos=False, hintergrund=None, figur=None):
     """Bildmarke im 1000er-Raster, skaliert auf Durchmesser d um (cx, cy).
 
     innen   Radius der Ringinnenkante (kleiner = breiterer Ring)
     ring    'drei' | 'fuenf' | 'schwarz'
     randlos Farbring läuft über den Rand (für Instagrams Kreiszuschnitt)
+    figur   Name aus figuren/figuren.json - ersetzt das § durch Figur mit Gesetzbuch
     """
     K = 14; R = 500
     t = [f'<g transform="translate({cx - d / 2:.2f} {cy - d / 2:.2f}) scale({d / 1000:.5f})">']
@@ -90,6 +91,10 @@ def bildmarke(cx=500, cy=500, d=1000, ring='drei', innen=356, marker=LILA,
                      f'stroke="{TINTE}" stroke-width="{K}"/>')
     r = innen - K
     t.append(f'<circle cx="500" cy="500" r="{r}" fill="{scheibe}"/>')
+    if figur:
+        t.append(figur_mit_buch(figur, r))
+        t.append('</g>')
+        return '\n'.join(t)
     # § optisch zentriert, Höhe proportional zur Scheibe
     x0, y0, x1, y1 = BLACK.grenzen('§'); H = r * 1.48; s = H / (y1 - y0)
     gx = 500 - (x0 + x1) / 2 * s; gy = 500 + (y0 + y1) / 2 * s
@@ -100,6 +105,57 @@ def bildmarke(cx=500, cy=500, d=1000, ring='drei', innen=356, marker=LILA,
     t.append(f'<path fill="{para}" d="{BLACK.zeichen("§", gx, gy, s)}"/>')
     t.append('</g>')
     return '\n'.join(t)
+
+
+# ---------------------------------------------------------------- Figur mit Gesetzbuch
+# Open-Peeps-Figuren (Pablo Stanley, CC0) als SVG-Fragmente, erzeugt mit figuren/figuren.js.
+FIGUREN = json.load(open(os.path.join(HIER, 'figuren', 'figuren.json')))
+ROT, ROT_DUNKEL = '#d62f2f', '#a31f24'
+_ids = itertools.count(1)
+
+
+def finger(cx, cy, seite, haut, n=4, lang=44, dick=26):
+    """Finger, die von der Seite über die Buchkante greifen. seite=-1 links, +1 rechts."""
+    t = []
+    for i in range(n):
+        y = cy + (i - (n - 1) / 2) * (dick - 1)
+        l = lang - abs(i - (n - 1) / 2) * 8
+        x = cx - l if seite > 0 else cx
+        t.append(f'<rect x="{x:.1f}" y="{y - dick / 2:.1f}" width="{l:.1f}" height="{dick}" rx="{dick / 2}" '
+                 f'fill="{haut}" stroke="{TINTE}" stroke-width="8"/>')
+    return ''.join(t)
+
+
+def gesetzbuch(cx, cy, w, h, winkel, haut):
+    """Rotes Gesetzbuch „Steuergesetze“, von zwei Händen gehalten. Bewusst ohne Verlagslogo."""
+    K = 12; x, y = cx - w / 2, cy - h / 2
+    t = [f'<g transform="rotate({winkel} {cx} {cy})">',
+         f'<rect x="{x + 16}" y="{y + 16}" width="{w}" height="{h}" rx="12" fill="{CREME}" stroke="{TINTE}" stroke-width="{K}"/>',
+         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="{ROT}" stroke="{TINTE}" stroke-width="{K}"/>',
+         f'<rect x="{x + K / 2}" y="{y + K / 2}" width="34" height="{h - K}" fill="{ROT_DUNKEL}"/>',
+         f'<line x1="{x + 40}" y1="{y + K / 2}" x2="{x + 40}" y2="{y + h - K / 2}" stroke="{TINTE}" stroke-width="6"/>']
+    v = 46; tx = x + 64; y1 = y + 96; y2 = y1 + v * 1.42
+    t.append(wort('Steuer-', tx, y1, v, farbe=CREME, sperrung=0)[0])
+    t.append(wort('gesetze', tx, y2, v, farbe=CREME, sperrung=0)[0])
+    t.append(f'<rect x="{tx}" y="{y2 + 34}" width="{w - 104}" height="10" rx="5" fill="{CREME}"/>')
+    t.append(finger(x - 14, y + h - 78, -1, haut))
+    t.append(finger(x + w + 14, y + h - 92, +1, haut))
+    t.append('</g>')
+    return ''.join(t)
+
+
+def figur_mit_buch(name, r):
+    """Figur in der Scheibe; der Kopf ragt nach oben über den Ring hinaus, das Buch unten."""
+    f = FIGUREN[name]; cid = f'scheibe{next(_ids)}'
+    s, tx, ty = 0.8, f['tx'], f.get('ty', -2)
+    g = f'<g transform="translate({tx} {ty}) scale({s})">'
+    hals = f'<polygon points="{f["hals"]}" fill="{f["haut"]}"/>' if f['hals'] else ''
+    # Körper nur innerhalb der Scheibe; alles oberhalb der Mitte darf hinausragen
+    return (f'<defs><clipPath id="{cid}"><circle cx="500" cy="500" r="{r}"/>'
+            f'<rect x="-500" y="-500" width="2000" height="1000"/></clipPath></defs>'
+            f'<g clip-path="url(#{cid})">{g}{f["koerper"]}{hals}{f["koerperLinien"]}</g></g>'
+            f'{g}{f["kopf"]}</g>'
+            + gesetzbuch(500, 735, 330, 310, -5, f['haut']))
 
 
 def pille(x, y, text, farbe, hoehe=120, schrift=BLACK, textfarbe=TINTE):
@@ -169,24 +225,24 @@ def quer(marker_wort=None, dunkel=False, bild=None):
     return svg(bildmarke(**(bild or {})) + '\n' + w, ende + 60, 1000, TINTE if dunkel else None)
 
 
-def zweizeilig():
+def zweizeilig(bild=None):
     """'Examens' über 'campus', campus mit Textmarker - kompakt, fast quadratisch."""
     v = 330; x = 1110
     w1, e1 = wort('Examens', x, 450, v)
     w2, e2 = wort('campus', x, 450 + v * 1.32, v, marker=LILA)
-    return svg(bildmarke() + '\n' + w1 + '\n' + w2, max(e1, e2) + 60, 1000)
+    return svg(bildmarke(**(bild or {})) + '\n' + w1 + '\n' + w2, max(e1, e2) + 60, 1000)
 
 
-def gestapelt():
+def gestapelt(bild=None):
     """Bildmarke oben, Schriftzug darunter - für Profil-Header, Avatare mit Text."""
     v = 240
     s = v / (VERSAL * 1000); bw = BLACK.breite('Examenscampus', s, -12)
     W = max(bw, 1000) + 160
     w, _ = wort('Examenscampus', (W - bw) / 2, 1000 + 120 + v, v, marker=LILA, von='campus')
-    return svg(bildmarke(cx=W / 2) + '\n' + w, W, 1000 + 120 + v + 110)
+    return svg(bildmarke(cx=W / 2, **(bild or {})) + '\n' + w, W, 1000 + 120 + v + 110)
 
 
-def mit_klausurpillen():
+def mit_klausurpillen(bild=None):
     """Schriftzug mit Unterzeile aus drei Pillen in den Klausurfarben."""
     v = 260; x = 1110
     w, ende = wort('Examenscampus', x, 420, v, marker=LILA, von='campus')
@@ -194,16 +250,16 @@ def mit_klausurpillen():
     for text, farbe in (('Klausur 1', K1), ('Klausur 2', K2), ('Klausur 3', K3)):
         p, breite = pille(px, 530, text, farbe, hoehe=190, textfarbe=CREME if farbe == K1 else TINTE)
         teile.append(p); px += breite + 40
-    return svg(bildmarke() + '\n' + w + '\n' + '\n'.join(teile), max(ende, px) + 60, 1000)
+    return svg(bildmarke(**(bild or {})) + '\n' + w + '\n' + '\n'.join(teile), max(ende, px) + 60, 1000)
 
 
-def mit_unterzeile():
+def mit_unterzeile(bild=None, zeile='Steuerberaterprüfung · Lernen mit Plan', marker=None):
     """Schriftzug plus ruhige Unterzeile in ExtraBold."""
     v = 280; x = 1110
-    w, ende = wort('Examenscampus', x, 470, v)
-    u, ende2 = wort('Steuerberaterprüfung · Lernen mit Plan', x + 6, 470 + 210, 92,
+    w, ende = wort('Examenscampus', x, 470, v, marker=marker, von='campus')
+    u, ende2 = wort(zeile, x + 6, 470 + 210, 92,
                     farbe='#55555e', schrift=EXTRA, sperrung=0)
-    return svg(bildmarke() + '\n' + w + '\n' + u, max(ende, ende2) + 60, 1000)
+    return svg(bildmarke(**(bild or {})) + '\n' + w + '\n' + u, max(ende, ende2) + 60, 1000)
 
 
 WORTMARKEN = {
@@ -218,5 +274,31 @@ WORTMARKEN = {
 }
 for name, inhalt in WORTMARKEN.items():
     schreibe('wortmarke', name, inhalt)
+
+
+# ---------------------------------------------------------------- Figur-Logos
+FIGUR_MARKEN = {
+    '01-herr':              dict(figur='herr'),
+    '02-frau':              dict(figur='frau'),
+    '03-herr-fuenf-farben': dict(figur='herr', ring='fuenf'),
+    '04-frau-fuenf-farben': dict(figur='frau', ring='fuenf'),
+}
+for name, opt in FIGUR_MARKEN.items():
+    schreibe('figur', name, svg(bildmarke(**opt), 1000, 1000))
+schreibe('.', 'instagram-profilbild-figur-herr', svg(bildmarke(figur='herr', randlos=True), 1000, 1000))
+schreibe('.', 'instagram-profilbild-figur-frau', svg(bildmarke(figur='frau', randlos=True), 1000, 1000))
+
+STB = 'Fit fürs Steuerberaterexamen'
+FIGUR_WORTMARKEN = {
+    '01-herr-unterzeile':     mit_unterzeile(dict(figur='herr'), STB, marker=LILA),
+    '02-frau-unterzeile':     mit_unterzeile(dict(figur='frau'), STB, marker=LILA),
+    '03-herr-quer-marker':    quer(LILA, bild=dict(figur='herr')),
+    '04-frau-zweizeilig':     zweizeilig(dict(figur='frau')),
+    '05-herr-klausurpillen':  mit_klausurpillen(dict(figur='herr')),
+    '06-frau-gestapelt':      gestapelt(dict(figur='frau')),
+    '07-herr-quer-dunkel':    quer(LILA, dunkel=True, bild=dict(figur='herr')),
+}
+for name, inhalt in FIGUR_WORTMARKEN.items():
+    schreibe('figur-wortmarke', name, inhalt)
 
 print('ok')
