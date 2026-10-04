@@ -89,8 +89,9 @@
       "slot": "s7",
       "zeit": "14:40",
       "art": "countdown",
-      "status": "sendet",
-      "sendeversuch": "2026-10-04T12:44:32.049Z"
+      "status": "veroeffentlicht",
+      "medienId": "18074460785731201",
+      "veroeffentlicht": "2026-10-04T12:44:42.761Z"
     },
     {
       "slot": "s8",

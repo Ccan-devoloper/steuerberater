@@ -7818,6 +7818,18 @@
       "thema": null,
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-04",
+      "slot": "s7",
+      "medienId": "18074460785731201",
+      "veroeffentlicht": "2026-10-04T12:44:42.761Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
