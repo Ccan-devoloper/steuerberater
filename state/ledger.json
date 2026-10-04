@@ -5309,19 +5309,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 67,
+        "reach": 69,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
-        "views": 91,
-        "ig_reels_avg_watch_time": 9618,
-        "ig_reels_video_view_total_time": 731041,
-        "reels_skip_rate": 60
+        "views": 95,
+        "ig_reels_avg_watch_time": 9938,
+        "ig_reels_video_view_total_time": 785150,
+        "reels_skip_rate": 60.3
       },
-      "insightsStand": "2026-10-03T06:46:26.603Z",
-      "insightsAlterStunden": 140
+      "insightsStand": "2026-10-04T07:44:14.221Z",
+      "insightsAlterStunden": 165
     },
     {
       "datum": "2026-09-27",
@@ -5545,7 +5545,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 56,
+        "reach": 59,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -5554,8 +5554,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T06:46:26.603Z",
-      "insightsAlterStunden": 120
+      "insightsStand": "2026-10-04T07:44:14.221Z",
+      "insightsAlterStunden": 145
     },
     {
       "datum": "2026-09-28",
@@ -5635,19 +5635,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 69,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
-        "views": 99,
-        "ig_reels_avg_watch_time": 16033,
-        "ig_reels_video_view_total_time": 1250602,
-        "reels_skip_rate": 54.3
+        "views": 106,
+        "ig_reels_avg_watch_time": 16574,
+        "ig_reels_video_view_total_time": 1375717,
+        "reels_skip_rate": 53.3
       },
-      "insightsStand": "2026-10-03T06:46:26.603Z",
-      "insightsAlterStunden": 116
+      "insightsStand": "2026-10-04T07:44:14.221Z",
+      "insightsAlterStunden": 141
     },
     {
       "datum": "2026-09-28",
@@ -5935,7 +5935,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 56,
+        "reach": 61,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5944,8 +5944,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T07:44:08.860Z",
-      "insightsAlterStunden": 95
+      "insightsStand": "2026-10-04T07:44:14.221Z",
+      "insightsAlterStunden": 119
     },
     {
       "datum": "2026-09-29",
@@ -7714,7 +7714,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#steuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 21,
+        "saved": 2,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 3,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-04T07:44:14.221Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-04",
