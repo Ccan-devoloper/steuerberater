@@ -7447,7 +7447,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 60,
         "saved": 1,
         "shares": 0,
         "likes": 4,
@@ -7456,8 +7456,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-04T09:44:00.811Z",
-      "insightsAlterStunden": 22
+      "insightsStand": "2026-10-04T17:46:53.731Z",
+      "insightsAlterStunden": 30
     },
     {
       "datum": "2026-10-03",
@@ -7719,7 +7719,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 64,
+        "reach": 74,
         "saved": 3,
         "shares": 0,
         "likes": 3,
@@ -7728,8 +7728,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-04T14:44:13.229Z",
-      "insightsAlterStunden": 8
+      "insightsStand": "2026-10-04T17:46:53.731Z",
+      "insightsAlterStunden": 11
     },
     {
       "datum": "2026-10-04",
@@ -7743,22 +7743,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 32,
-        "views": 44,
+        "reach": 38,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 39,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 2,
+        "navigation": 45,
+        "navigation_tap_forward": 33,
         "navigation_tap_exit": 8,
-        "navigation_tap_forward": 27
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-04T12:44:43.886Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-10-04T17:46:48.748Z",
+      "insightsAlterStunden": 11
     },
     {
       "datum": "2026-10-04",
@@ -7835,22 +7835,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 19,
-        "views": 30,
+        "reach": 27,
+        "views": 39,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_back": 1,
+        "navigation": 34,
+        "navigation_tap_back": 3,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 15,
+        "navigation_tap_forward": 23,
         "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-04T13:44:46.933Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-04T17:46:48.748Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-04",
@@ -7864,21 +7864,21 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 14,
-        "views": 18,
+        "reach": 28,
+        "views": 31,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 12,
-        "navigation_tap_exit": 2
+        "navigation": 29,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 21,
+        "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-10-04T13:44:46.933Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-04T17:46:48.748Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-04",
@@ -7890,7 +7890,22 @@
       "storyArt": "tipp",
       "thema": "bilanz-karte-k3-0",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 14
+      },
+      "insightsStand": "2026-10-04T17:46:48.748Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-04",
