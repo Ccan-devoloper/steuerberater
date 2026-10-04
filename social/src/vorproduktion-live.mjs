@@ -17,7 +17,8 @@ import path from "node:path";
 import { CONFIG } from "./config.mjs";
 import { Instagram } from "./instagram.mjs";
 import { ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
-import { lokaleMinuten, minutenVon } from "./zeit.mjs";
+import { lokaleMinuten, zeitpunktVon } from "./zeit.mjs";
+import { planEintrag, planMitVorproduktionAbgleichen, VORBEREITUNG_MINUTEN } from "./vorproduktion-zeitplan.mjs";
 import { beitragRendern, coverRendern } from "./render.mjs";
 import { coverDaten } from "./reel.mjs";
 import { coverIconEinsetzen } from "./vorproduktion.mjs";
@@ -25,6 +26,7 @@ import { echteMedienId, veroeffentlichungEintragen } from "./veroeffentlichung.m
 
 const istJpeg = (name) => /\.jpe?g$/i.test(name);
 const istVideo = (name) => /\.mp4$/i.test(name);
+const warten = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function tagPfad(hosting, datum) {
   return path.join(hosting.dir, "vorproduktion", datum + ".json");
@@ -42,13 +44,6 @@ function tagLaden(hosting, datum) {
 
 function tagSchreiben(hosting, datum, tag) {
   fs.writeFileSync(tagPfad(hosting, datum), JSON.stringify(tag, null, 2) + "\n");
-}
-
-function planEintrag(e) {
-  const kopie = { ...e, status: "geplant" };
-  delete kopie.medienId;
-  delete kopie.veroeffentlicht;
-  return kopie;
 }
 
 function planAusVorproduktion(tag, datum, ledger) {
@@ -218,7 +213,10 @@ function teaserVoraussetzung(plan, eintrag) {
  * Rückgabe aktiv=true bedeutet: Der normale Tageslauf muss für dieses Datum
  * vollständig aussetzen – auch wenn gerade noch nichts fällig ist.
  */
-export async function vorproduktionLiveAusfuehren({ hosting, datum, trocken = false, alles = false, nurPlanen = false, log = console.log }) {
+export async function vorproduktionLiveAusfuehren({
+  hosting, datum, trocken = false, alles = false, nurPlanen = false, log = console.log,
+  jetzt = () => Date.now(), schlafen = warten, instagram = null,
+}) {
   const tag = tagLaden(hosting, datum);
   if (!tag) return { aktiv: false, grund: "keine Vorproduktion für diesen Tag" };
 
@@ -243,16 +241,33 @@ export async function vorproduktionLiveAusfuehren({ hosting, datum, trocken = fa
     plan = planAusVorproduktion(tag, datum, ledger);
     for (const [slot, inhalt] of Object.entries(tag.inhalte || {})) inhaltSpeichern(hosting, datum, slot, inhalt);
     if (!trocken && !nurPlanen) await zustandSichern(hosting, datum, plan, ledgerPfad, ledger, `Vorproduktion aktiviert ${datum}`);
+  } else {
+    /* Änderungen aus dem Dashboard (Uhrzeit, Slots) gelten auch, nachdem der
+       Bot den Tag übernommen hat – für alles, was noch nicht gesendet ist. */
+    const aenderungen = planMitVorproduktionAbgleichen(plan, tag);
+    if (aenderungen.length) {
+      log(`  ↻ Zeitplan aus dem Dashboard übernommen: ${aenderungen.join(" · ")}`);
+      if (!trocken && !nurPlanen) await zustandSichern(hosting, datum, plan, ledgerPfad, ledger, `Vorproduktion Zeitplan übernommen ${datum}: ${aenderungen.join(" · ")}`);
+    }
   }
 
   for (const e of [...plan.beitraege, ...plan.stories]) {
     if (e.status === "sendet") log(`  ! ${e.slot}: früherer Sendeversuch ist unbestätigt – wird zum Schutz vor Doppelposts nicht automatisch wiederholt.`);
   }
 
-  const jetzt = lokaleMinuten();
-  const faellig = (e) => e.status === "geplant" && (alles || minutenVon(e.zeit) <= jetzt);
-  const beitraege = plan.beitraege.filter(faellig);
-  const stories = plan.stories.filter(faellig);
+  /* Fällig ist alles, dessen Uhrzeit erreicht ist oder in den nächsten
+     VORBEREITUNG_MINUTEN liegt: Diese Einträge werden schon vorbereitet
+     (Upload, Container bei Instagram), veröffentlicht aber erst zur
+     eingestellten Minute. Reihenfolge nach Uhrzeit; bei gleicher Zeit der
+     Beitrag vor seiner Teaser-Story. */
+  const termin = (e) => (/^\d{1,2}:\d{2}$/.test(e.zeit || "") ? zeitpunktVon(datum, e.zeit) : 0);
+  const grenze = jetzt() + VORBEREITUNG_MINUTEN * 60000;
+  const faellig = (e) => e.status === "geplant" && (alles || termin(e) <= grenze);
+  const istBeitrag = new Set(plan.beitraege);
+  const anstehend = [...plan.beitraege.filter(faellig), ...plan.stories.filter(faellig)]
+    .map((e, i) => ({ e, i }))
+    .sort((a, b) => termin(a.e) - termin(b.e) || a.i - b.i)
+    .map(({ e }) => e);
 
   if (nurPlanen || trocken) {
     for (const e of plan.beitraege) log(`  ${e.zeit} Beitrag ${e.slot} ${e.format} [${e.status}]`);
@@ -261,67 +276,79 @@ export async function vorproduktionLiveAusfuehren({ hosting, datum, trocken = fa
     return { aktiv: true, veroeffentlicht: 0, trocken };
   }
 
-  if (!beitraege.length && !stories.length) {
+  if (!anstehend.length) {
     log("Vorproduktion: nichts fällig.");
     return { aktiv: true, veroeffentlicht: 0 };
   }
 
-  const ig = new Instagram({ trockenlauf: false, tresorDatei: path.join(hosting.stateDir, "token.enc") });
-  ig.tresorLaden();
+  const ig = instagram || new Instagram({ trockenlauf: false, tresorDatei: path.join(hosting.stateDir, "token.enc") });
+  if (!instagram) ig.tresorLaden();
   const { konto, limit } = await ig.pruefen();
   let frei = Math.max(0, Number(limit.maximum || 100) - Number(limit.genutzt || 0) - CONFIG.instagram.sicherheitsabstandLimit);
   log(`Vorproduktion verbunden mit @${konto.username} · frei nach Sicherheitsabstand: ${frei}`);
 
+  /* Unmittelbar vor media_publish: bis zur eingestellten Minute warten, dann
+     die Sendesperre setzen. Die Sperre steht so erst, wenn wirklich gesendet
+     wird – nicht schon während Upload und Container-Verarbeitung. */
+  const punktgenau = (eintrag) => async () => {
+    const ab = alles ? 0 : termin(eintrag);
+    const rest = ab - jetzt();
+    if (rest > 0) {
+      log(`  ⏱ ${eintrag.slot} vorbereitet · veröffentlicht um ${eintrag.zeit} (in ${Math.ceil(rest / 1000)} s)`);
+      await schlafen(rest);
+    }
+    await sendeSperre(hosting, datum, plan, ledgerPfad, ledger, eintrag);
+  };
+
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), "examenscampus-vorproduktion-live-"));
   let veroeffentlicht = 0;
   try {
-    for (const eintrag of beitraege) {
-      if (frei <= 0) { log("Instagram-Kontingent erschöpft – Vorproduktion bleibt für den nächsten Lauf geplant."); break; }
-      let inhalt = tag.inhalte?.[eintrag.slot];
-      if (!inhalt) { log(`  ✗ ${eintrag.slot}: Inhalt fehlt in der Vorproduktion; Normalbetrieb bleibt pausiert.`); continue; }
-      const caption = captionFuer(inhalt);
-      try {
-        const schonDa = caption ? await ig.bereitsVeroeffentlicht(caption) : null;
-        if (schonDa) {
-          await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, schonDa);
-          log(`  ✓ ${eintrag.slot}: bereits auf Instagram (${schonDa}), Zustand nachgezogen.`);
+    for (const eintrag of anstehend) {
+      if (istBeitrag.has(eintrag)) {
+        if (frei <= 0) { log("Instagram-Kontingent erschöpft – Vorproduktion bleibt für den nächsten Lauf geplant."); break; }
+        let inhalt = tag.inhalte?.[eintrag.slot];
+        if (!inhalt) { log(`  ✗ ${eintrag.slot}: Inhalt fehlt in der Vorproduktion; Normalbetrieb bleibt pausiert.`); continue; }
+        const caption = captionFuer(inhalt);
+        try {
+          const schonDa = caption ? await ig.bereitsVeroeffentlicht(caption) : null;
+          if (schonDa) {
+            await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, schonDa);
+            log(`  ✓ ${eintrag.slot}: bereits auf Instagram (${schonDa}), Zustand nachgezogen.`);
+            veroeffentlicht++;
+            continue;
+          }
+
+          if (eintrag.format === "reel" || Array.isArray(inhalt.szenen)) {
+            const r = await reelDateienMitIcon({ hosting, datum, tag, eintrag, inhalt, temp });
+            inhalt = r.inhalt;
+            inhaltSpeichern(hosting, datum, eintrag.slot, inhalt);
+            const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Vorproduktion Reel ${datum} ${eintrag.slot}`);
+            const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption, vorVeroeffentlichen: punktgenau(eintrag) });
+            await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, medienId);
+            log(`  ✓ Vorproduktion Reel ${eintrag.slot} → ${medienId}${r.icon ? ` · Cover-Icon ${r.icon}` : ""}`);
+          } else {
+            const r = await carouselDateienMitIcon({ hosting, datum, tag, eintrag, inhalt, temp });
+            inhalt = r.inhalt;
+            inhaltSpeichern(hosting, datum, eintrag.slot, inhalt);
+            const urls = await hosting.veroeffentlichen(r.dateien, datum, `Vorproduktion Beitrag ${datum} ${eintrag.slot}`);
+            const medienId = await ig.beitragPosten({ bildUrls: urls, caption, vorVeroeffentlichen: punktgenau(eintrag) });
+            await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, medienId);
+            log(`  ✓ Vorproduktion Beitrag ${eintrag.slot} → ${medienId}${r.icon ? ` · Cover-Icon ${r.icon}` : ""}`);
+          }
+          frei--;
           veroeffentlicht++;
-          continue;
+        } catch (e) {
+          eintrag.fehler = `${new Date().toISOString()} ${e.message}`;
+          /* Feed/Reel-Veröffentlichungen prüfen in Instagram.veroeffentlichenSicher
+             bereits gegen die Caption. Stories haben diesen Beweis nicht; ein
+             unklarer Story-Sendeversuch bleibt deshalb absichtlich gesperrt. */
+          if (eintrag.status === "sendet") eintrag.status = "geplant";
+          await zustandSichern(hosting, datum, plan, ledgerPfad, ledger, `Vorproduktion Fehler ${datum} ${eintrag.slot}`);
+          log(`  ✗ Vorproduktion ${eintrag.slot}: ${e.message}`);
         }
-
-        if (eintrag.format === "reel" || Array.isArray(inhalt.szenen)) {
-          const r = await reelDateienMitIcon({ hosting, datum, tag, eintrag, inhalt, temp });
-          inhalt = r.inhalt;
-          inhaltSpeichern(hosting, datum, eintrag.slot, inhalt);
-          const [videoUrl, coverUrl] = await hosting.veroeffentlichen([r.video, r.cover], datum, `Vorproduktion Reel ${datum} ${eintrag.slot}`);
-          await sendeSperre(hosting, datum, plan, ledgerPfad, ledger, eintrag);
-          const medienId = await ig.reelPosten({ videoUrl, coverUrl, caption });
-          await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, medienId);
-          log(`  ✓ Vorproduktion Reel ${eintrag.slot} → ${medienId}${r.icon ? ` · Cover-Icon ${r.icon}` : ""}`);
-        } else {
-          const r = await carouselDateienMitIcon({ hosting, datum, tag, eintrag, inhalt, temp });
-          inhalt = r.inhalt;
-          inhaltSpeichern(hosting, datum, eintrag.slot, inhalt);
-          const urls = await hosting.veroeffentlichen(r.dateien, datum, `Vorproduktion Beitrag ${datum} ${eintrag.slot}`);
-          await sendeSperre(hosting, datum, plan, ledgerPfad, ledger, eintrag);
-          const medienId = await ig.beitragPosten({ bildUrls: urls, caption });
-          await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, medienId);
-          log(`  ✓ Vorproduktion Beitrag ${eintrag.slot} → ${medienId}${r.icon ? ` · Cover-Icon ${r.icon}` : ""}`);
-        }
-        frei--;
-        veroeffentlicht++;
-      } catch (e) {
-        eintrag.fehler = `${new Date().toISOString()} ${e.message}`;
-        /* Feed/Reel-Veröffentlichungen prüfen in Instagram.veroeffentlichenSicher
-           bereits gegen die Caption. Stories haben diesen Beweis nicht; ein
-           unklarer Story-Sendeversuch bleibt deshalb absichtlich gesperrt. */
-        if (eintrag.status === "sendet") eintrag.status = "geplant";
-        await zustandSichern(hosting, datum, plan, ledgerPfad, ledger, `Vorproduktion Fehler ${datum} ${eintrag.slot}`);
-        log(`  ✗ Vorproduktion ${eintrag.slot}: ${e.message}`);
+        continue;
       }
-    }
 
-    for (const eintrag of stories) {
       if (frei <= 0) { log("Instagram-Kontingent erschöpft – Vorproduktions-Stories warten."); break; }
       if (!teaserVoraussetzung(plan, eintrag)) {
         log(`  ↷ Story ${eintrag.slot}: zugehöriger Beitrag ${eintrag.beitragSlot} noch nicht bestätigt.`);
@@ -332,8 +359,7 @@ export async function vorproduktionLiveAusfuehren({ hosting, datum, trocken = fa
       try {
         const bild = storyDatei(hosting, datum, eintrag);
         const [url] = await hosting.veroeffentlichen([bild], datum, `Vorproduktion Story ${datum} ${eintrag.slot}`);
-        await sendeSperre(hosting, datum, plan, ledgerPfad, ledger, eintrag);
-        const medienId = await ig.storyPosten({ bildUrl: url });
+        const medienId = await ig.storyPosten({ bildUrl: url, vorVeroeffentlichen: punktgenau(eintrag) });
         await alsVeroeffentlichtSichern(hosting, datum, plan, ledgerPfad, ledger, eintrag, inhalt, medienId);
         log(`  ✓ Vorproduktion Story ${eintrag.slot} ${eintrag.art} → ${medienId}`);
         frei--;

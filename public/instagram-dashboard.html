@@ -1884,7 +1884,7 @@
     if(!item)return;
     zeitEdit={konto:konto,date:date,art:art,slot:slot};
     $("#zeitTitel").textContent=(art==="beitrag"?"Feed-Beitrag ":"Story ")+slot+" · "+preproductionDayLabel(date);
-    var hin="Uhrzeit Europe/Berlin. Der Bot übernimmt den neuen Zeitplan mit seinem nächsten stündlichen Lauf; bereits veröffentlichte Slots ändern sich nicht mehr.";
+    var hin="Uhrzeit Europe/Berlin. Der Bot veröffentlicht zur eingestellten Minute – er wird rechtzeitig vorher geweckt, auch wenn der Tag schon läuft. Liegt die neue Zeit weniger als etwa 8 Minuten in der Zukunft, geht der Slot so schnell wie möglich raus. Bereits veröffentlichte Slots ändern sich nicht mehr.";
     if(art==="beitrag"){
       var teaser=(day.plan.stories||[]).filter(function(s){return s.art==="teaser"&&s.beitragSlot===slot&&(s.zeit===item.zeit||!s.zeit);});
       if(teaser.length)hin+=" Teaser-Story "+teaser.map(function(s){return s.slot;}).join(", ")+" wird automatisch mitverschoben.";
@@ -1939,7 +1939,7 @@
       }
       closeZeitModal();
       if(data)renderPreproduction(data);
-      setStatus("Zeitplan "+ze.date+": "+beschr+" · greift mit dem nächsten Bot-Lauf","ok");
+      setStatus("Zeitplan "+ze.date+": "+beschr+" · wird zur eingestellten Uhrzeit veröffentlicht","ok");
     }catch(e){
       $("#zeitError").textContent=String(e&&e.message||e);
       $("#zeitSubmit").disabled=false;
