@@ -7925,6 +7925,18 @@
       "thema": null,
       "fach": "ao",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-04",
+      "slot": "s9",
+      "medienId": "18231447841325557",
+      "veroeffentlicht": "2026-10-04T17:46:47.622Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-aufb-ao-jacobs-13-5",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
