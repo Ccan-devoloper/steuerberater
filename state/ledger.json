@@ -7447,7 +7447,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 49,
+        "reach": 53,
         "saved": 1,
         "shares": 0,
         "likes": 4,
@@ -7456,8 +7456,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-04T05:44:39.094Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-10-04T09:44:00.811Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-03",
@@ -7500,22 +7500,22 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 35,
-        "views": 45,
+        "reach": 38,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 44,
-        "navigation_swipe_forward": 4,
+        "navigation": 47,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 28,
         "navigation_tap_exit": 8,
-        "navigation_tap_forward": 25,
-        "navigation_tap_back": 7
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-04T05:44:32.746Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-10-04T09:43:59.265Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-03",
@@ -7716,17 +7716,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 21,
-        "saved": 2,
+        "reach": 45,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-04T07:44:14.221Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-04T09:44:00.811Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-04",
