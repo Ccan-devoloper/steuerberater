@@ -7811,17 +7811,17 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 50,
-        "saved": 2,
+        "reach": 59,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-04T16:44:08.909Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-04T19:44:23.483Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-10-04",
@@ -7953,7 +7953,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_forward": 16,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-04T19:44:20.730Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-04",
@@ -7965,7 +7982,23 @@
       "storyArt": "merksatz",
       "thema": "ao-aufb-ao-jacobs-13-5",
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 23,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-04T19:44:20.730Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
