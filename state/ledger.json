@@ -5816,7 +5816,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 59,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -5825,8 +5825,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-03T05:45:58.248Z",
-      "insightsAlterStunden": 96
+      "insightsStand": "2026-10-04T06:45:54.421Z",
+      "insightsAlterStunden": 121
     },
     {
       "datum": "2026-09-29",
@@ -6236,7 +6236,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 56,
+        "reach": 59,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -6245,8 +6245,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-03T05:45:58.248Z",
-      "insightsAlterStunden": 71
+      "insightsStand": "2026-10-04T06:45:54.421Z",
+      "insightsAlterStunden": 96
     },
     {
       "datum": "2026-09-30",
@@ -6328,7 +6328,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 57,
+        "reach": 61,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6337,8 +6337,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-03T05:45:58.248Z",
-      "insightsAlterStunden": 66
+      "insightsStand": "2026-10-04T06:45:54.421Z",
+      "insightsAlterStunden": 91
     },
     {
       "datum": "2026-09-30",
@@ -7152,8 +7152,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-03T22:25:44.723Z",
-      "insightsAlterStunden": 31.7
+      "insightsStand": "2026-10-04T06:45:54.421Z",
+      "insightsAlterStunden": 40
     },
     {
       "datum": "2026-10-02",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 90,
+        "reach": 109,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 116,
-        "ig_reels_avg_watch_time": 7300,
-        "ig_reels_video_view_total_time": 686231,
-        "reels_skip_rate": 84.6
+        "views": 139,
+        "ig_reels_avg_watch_time": 7848,
+        "ig_reels_video_view_total_time": 894774,
+        "reels_skip_rate": 81.7
       },
-      "insightsStand": "2026-10-03T22:25:44.723Z",
-      "insightsAlterStunden": 4.7
+      "insightsStand": "2026-10-04T06:45:54.421Z",
+      "insightsAlterStunden": 13
     },
     {
       "datum": "2026-10-03",
@@ -7649,7 +7649,23 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-0",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 9,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 7,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-10-04T06:45:52.026Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-04",
@@ -7661,7 +7677,22 @@
       "storyArt": "antwort",
       "thema": "ust-quiz-ust-0",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 8,
+        "views": 12,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_forward": 6,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-10-04T06:45:52.026Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-04",
