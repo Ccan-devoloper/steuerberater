@@ -7408,22 +7408,22 @@
       "fach": "istr",
       "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
       "insights": {
-        "reach": 39,
-        "views": 53,
+        "reach": 42,
+        "views": 57,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 49,
+        "navigation": 51,
         "navigation_tap_forward": 33,
-        "navigation_tap_exit": 7,
+        "navigation_tap_exit": 9,
         "navigation_swipe_forward": 4,
         "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-04T05:44:32.746Z",
-      "insightsAlterStunden": 19.1
+      "insightsStand": "2026-10-04T08:44:08.215Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-10-03",
@@ -7471,22 +7471,22 @@
       "fach": "gewst",
       "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
       "insights": {
-        "reach": 38,
-        "views": 47,
+        "reach": 41,
+        "views": 50,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 46,
+        "navigation": 48,
         "navigation_tap_back": 3,
         "navigation_tap_exit": 3,
-        "navigation_tap_forward": 37,
-        "navigation_swipe_forward": 3
+        "navigation_tap_forward": 38,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-04T05:44:32.746Z",
-      "insightsAlterStunden": 18
+      "insightsStand": "2026-10-04T08:44:08.215Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-03",
@@ -7738,7 +7738,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 3,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-10-04T08:44:08.215Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
