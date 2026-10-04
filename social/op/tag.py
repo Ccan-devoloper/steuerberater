@@ -156,8 +156,16 @@ def main():
                bildStatus="open-peeps-render")
     tag["kostenPolicy"] = {"textUndFaktencheckUsd": 0, "bildgenerierungUsd": 0, "providerKostenUsd": 0, "coverbilder": False,
                            "bildgenerierungErlaubt": False, "reelStimme": "elevenlabs-abo"}
-    tag["plan"] = {"beitraege": [{x: b.get(x) for x in ("slot", "zeit", "format", "themaId", "themaTitel", "fach", "klausur")} for b in spec["beitraege"]],
-                   "stories": [{x: s.get(x) for x in ("slot", "zeit", "art", "themaId", "beitragSlot") if s.get(x) is not None} for s in spec["stories"]]}
+    # Uhrzeiten aus dem Dashboard (stehen nur in der Tagesdatei des Asset-Zweigs) haben Vorrang vor der Beschreibung;
+    # OP_ZEIT_AUS_SPEC=1 setzt bewusst die Zeiten der Beschreibung durch.
+    alt_zeit = {} if os.environ.get("OP_ZEIT_AUS_SPEC") else \
+        {e.get("slot"): e.get("zeit") for e in (alt.get("plan") or {}).get("beitraege", []) + (alt.get("plan") or {}).get("stories", []) if e.get("zeit")}
+    def zeit(e): return alt_zeit.get(e["slot"]) or e.get("zeit")
+    tag["plan"] = {"beitraege": [{**{x: b.get(x) for x in ("slot", "zeit", "format", "themaId", "themaTitel", "fach", "klausur")}, "zeit": zeit(b)} for b in spec["beitraege"]],
+                   "stories": [{**{x: s.get(x) for x in ("slot", "zeit", "art", "themaId", "beitragSlot") if s.get(x) is not None}, "zeit": zeit(s)} for s in spec["stories"]]}
+    geaendert = [f"{e['slot']} {e['zeit']}" for e in tag["plan"]["beitraege"] + tag["plan"]["stories"]
+                 if e["zeit"] != next(x.get("zeit") for x in spec["beitraege"] + spec["stories"] if x["slot"] == e["slot"])]
+    if geaendert: print(f"  Uhrzeiten aus dem Dashboard übernommen: {', '.join(geaendert)}")
     inh = tag.get("inhalte") or {}
     for b in spec["beitraege"]:
         slot = b["slot"]
