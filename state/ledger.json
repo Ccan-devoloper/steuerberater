@@ -6543,7 +6543,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 60,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6552,8 +6552,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-03T14:44:53.073Z",
-      "insightsAlterStunden": 57
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 72
     },
     {
       "datum": "2026-10-01",
@@ -6661,7 +6661,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 45,
+        "reach": 46,
         "saved": 3,
         "shares": 0,
         "likes": 0,
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T14:44:53.073Z",
-      "insightsAlterStunden": 55
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 70
     },
     {
       "datum": "2026-10-01",
@@ -6810,19 +6810,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 145,
+        "reach": 146,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 185,
-        "ig_reels_avg_watch_time": 4993,
-        "ig_reels_video_view_total_time": 759059,
-        "reels_skip_rate": 73.6
+        "views": 187,
+        "ig_reels_avg_watch_time": 5335,
+        "ig_reels_video_view_total_time": 837715,
+        "reels_skip_rate": 72.6
       },
-      "insightsStand": "2026-10-03T14:44:53.073Z",
-      "insightsAlterStunden": 45
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 60
     },
     {
       "datum": "2026-10-01",
@@ -7052,7 +7052,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 42,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7061,8 +7061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T18:44:15.254Z",
-      "insightsAlterStunden": 31
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 42
     },
     {
       "datum": "2026-10-02",
@@ -7206,19 +7206,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 81,
+        "reach": 83,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 120,
-        "ig_reels_avg_watch_time": 12794,
-        "ig_reels_video_view_total_time": 1164263,
-        "reels_skip_rate": 63.9
+        "views": 124,
+        "ig_reels_avg_watch_time": 12611,
+        "ig_reels_video_view_total_time": 1235887,
+        "reels_skip_rate": 63.2
       },
-      "insightsStand": "2026-10-03T16:44:15.126Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 36
     },
     {
       "datum": "2026-10-02",
@@ -7298,17 +7298,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 57,
         "saved": 4,
         "shares": 0,
         "likes": 5,
         "comments": 1,
         "total_interactions": 10,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-03T20:43:59.000Z",
-      "insightsAlterStunden": 15
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 24
     },
     {
       "datum": "2026-10-03",
@@ -7408,22 +7408,22 @@
       "fach": "istr",
       "titel": "Wegzug im laufenden Jahr: Zeitachse, § 2 Abs. 7 EStG und § 32b EStG",
       "insights": {
-        "reach": 34,
-        "views": 48,
+        "reach": 39,
+        "views": 53,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 44,
-        "navigation_tap_back": 5,
-        "navigation_swipe_forward": 3,
+        "navigation": 49,
+        "navigation_tap_forward": 33,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 29
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-03T20:43:53.597Z",
-      "insightsAlterStunden": 10.1
+      "insightsStand": "2026-10-04T05:44:32.746Z",
+      "insightsAlterStunden": 19.1
     },
     {
       "datum": "2026-10-03",
@@ -7447,7 +7447,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 49,
         "saved": 1,
         "shares": 0,
         "likes": 4,
@@ -7456,8 +7456,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-03T20:43:59.000Z",
-      "insightsAlterStunden": 9
+      "insightsStand": "2026-10-04T05:44:39.094Z",
+      "insightsAlterStunden": 18
     },
     {
       "datum": "2026-10-03",
@@ -7471,22 +7471,22 @@
       "fach": "gewst",
       "titel": "Freibetrag, Messzahl, Hebesatz: So entsteht die…",
       "insights": {
-        "reach": 35,
-        "views": 44,
+        "reach": 38,
+        "views": 47,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 43,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 35,
-        "navigation_tap_exit": 2,
-        "navigation_tap_back": 3
+        "navigation": 46,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 37,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-03T22:25:42.149Z",
-      "insightsAlterStunden": 10.7
+      "insightsStand": "2026-10-04T05:44:32.746Z",
+      "insightsAlterStunden": 18
     },
     {
       "datum": "2026-10-03",
@@ -7500,22 +7500,22 @@
       "fach": null,
       "titel": "Tage bis zum Examen",
       "insights": {
-        "reach": 30,
-        "views": 40,
+        "reach": 35,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 39,
-        "navigation_tap_back": 7,
-        "navigation_tap_forward": 21,
+        "navigation": 44,
+        "navigation_swipe_forward": 4,
         "navigation_tap_exit": 8,
-        "navigation_swipe_forward": 3
+        "navigation_tap_forward": 25,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-03T18:50:18.162Z",
-      "insightsAlterStunden": 6.1
+      "insightsStand": "2026-10-04T05:44:32.746Z",
+      "insightsAlterStunden": 17
     },
     {
       "datum": "2026-10-03",
@@ -7529,22 +7529,22 @@
       "fach": "istr",
       "titel": "§ 6 AStG: Wegzugsbesteuerung bei §-17-Beteiligungen",
       "insights": {
-        "reach": 32,
-        "views": 41,
+        "reach": 33,
+        "views": 42,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 37,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 2,
+        "navigation": 38,
+        "navigation_tap_forward": 27,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 26
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-03T22:25:42.149Z",
-      "insightsAlterStunden": 6.7
+      "insightsStand": "2026-10-04T05:44:32.746Z",
+      "insightsAlterStunden": 14
     },
     {
       "datum": "2026-10-03",
@@ -7594,21 +7594,21 @@
       "fach": "istr",
       "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
       "insights": {
-        "reach": 14,
-        "views": 21,
+        "reach": 27,
+        "views": 34,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 14,
-        "navigation_tap_back": 1
+        "navigation": 30,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 25,
+        "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-10-03T18:50:18.162Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-04T05:44:32.746Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-03",
@@ -7622,22 +7622,22 @@
       "fach": "bilanz",
       "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
       "insights": {
-        "reach": 14,
-        "views": 21,
+        "reach": 30,
+        "views": 35,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 8,
-        "navigation_tap_exit": 5,
-        "navigation_swipe_forward": 1
+        "navigation": 33,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 19,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-03T18:50:18.162Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-04T05:44:32.746Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-04",
