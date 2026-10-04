@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 79,
+        "reach": 86,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 116,
-        "ig_reels_avg_watch_time": 7362,
-        "ig_reels_video_view_total_time": 669945,
-        "reels_skip_rate": 70.7
+        "views": 127,
+        "ig_reels_avg_watch_time": 7702,
+        "ig_reels_video_view_total_time": 754837,
+        "reels_skip_rate": 69.7
       },
-      "insightsStand": "2026-10-03T15:46:00.282Z",
-      "insightsAlterStunden": 94.7
+      "insightsStand": "2026-10-04T15:59:59.276Z",
+      "insightsAlterStunden": 119
     },
     {
       "datum": "2026-09-29",
@@ -7772,20 +7772,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 8,
-        "views": 15,
+        "reach": 32,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 8,
-        "navigation_tap_forward": 5,
-        "navigation_tap_exit": 3
+        "navigation": 35,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 24
       },
-      "insightsStand": "2026-10-04T11:45:31.765Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-04T15:59:57.258Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-10-04",
