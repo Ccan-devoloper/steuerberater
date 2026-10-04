@@ -1,0 +1,54 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:"Nunito";src:url("nunito-900.woff2") format("woff2");font-weight:900}
+@font-face{font-family:"Nunito";src:url("nunito-800.woff2") format("woff2");font-weight:800}
+:root{
+  --k1:#2d5be3; --k2:#ff7a45; --k3:#23d98b;
+  --creme:#fff8ec; --tinte:#151515;
+  --mark-gruen:#8fd89a; --mark-orange:#f7a86f; --lila:#b8a9f5; --gelb:#f8d775;
+}
+html,body{margin:0;padding:0;background:transparent}
+.kachel{width:1080px;height:1080px;position:relative;overflow:hidden;font-family:"Nunito";color:var(--tinte)}
+
+/* Hintergrund: die drei Klausurfarben als Tortenstücke – das ist der farbige Rahmen der Feed-Kacheln */
+.drei{background:conic-gradient(from -60deg, var(--k1) 0 120deg, var(--k2) 120deg 240deg, var(--k3) 240deg 360deg)}
+.gruen{background:var(--k3)}
+
+/* Creme-Scheibe mit dicker Kontur und hartem Versatzschatten wie die Pillen */
+.scheibe{position:absolute;left:50%;top:50%;width:790px;height:790px;margin:-407px 0 0 -407px;
+  border-radius:50%;background:var(--creme);border:14px solid var(--tinte);
+  box-shadow:18px 18px 0 var(--tinte)}
+.inhalt{position:absolute;inset:0;isolation:isolate;display:flex;flex-direction:column;align-items:center;justify-content:center}
+
+/* Variante A: großes § mit Textmarker */
+.para{position:relative;font-weight:900;font-size:600px;line-height:1;margin-top:-40px}
+.para::before{content:"";position:absolute;left:-70px;right:-70px;top:50%;height:160px;
+  background:var(--lila);border-radius:14px;z-index:-1;transform:rotate(-3deg)}
+.para span{position:relative}
+
+/* Variante B: EC-Monogramm */
+.mono{position:relative;font-weight:900;font-size:340px;line-height:.9;letter-spacing:-.02em;margin-top:-40px}
+.mono .m{position:absolute;left:-30px;right:-30px;top:48%;height:130px;background:var(--mark-orange);border-radius:14px;z-index:0;transform:rotate(-2deg)}
+.mono span{position:relative;z-index:1}
+.pille{position:relative;margin-top:26px;background:var(--lila);border:8px solid var(--tinte);border-radius:999px;
+  padding:10px 46px 16px;font-weight:900;font-size:78px;line-height:1;box-shadow:10px 10px 0 var(--tinte)}
+</style></head>
+<body>
+
+<div class="kachel drei" id="a">
+  <div class="scheibe"><div class="inhalt"><div class="para"><span>§</span></div></div></div>
+</div>
+
+<div class="kachel drei" id="b">
+  <div class="scheibe"><div class="inhalt">
+    <div class="mono"><div class="m"></div><span>EC</span></div>
+    <div class="pille">Examen</div>
+  </div></div>
+</div>
+
+<div class="kachel gruen" id="c" style="--lila:var(--mark-gruen)">
+  <div class="scheibe"><div class="inhalt"><div class="para"><span>§</span></div></div></div>
+</div>
+
+</body></html>
