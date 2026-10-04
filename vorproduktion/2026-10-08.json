@@ -27,7 +27,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "18:30",
+        "zeit": "15:30",
         "format": "anlass",
         "themaId": null,
         "themaTitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
@@ -63,7 +63,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "18:30",
+        "zeit": "15:30",
         "art": "teaser",
         "beitragSlot": "b2"
       },
@@ -317,7 +317,7 @@
         "Heute aber: feiern und schlafen."
       ],
       "dauerS": 23.507,
-      "tempo": 1.0
+      "tempo": 1
     },
     "s4": {
       "slot": "s4",
