@@ -27,7 +27,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "18:30",
+        "zeit": "16:30",
         "format": "anlass",
         "themaId": null,
         "themaTitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
@@ -63,7 +63,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "18:30",
+        "zeit": "16:30",
         "art": "teaser",
         "beitragSlot": "b2"
       },
@@ -322,7 +322,7 @@
         "Jetzt schlafen. Morgen holst du die Punkte."
       ],
       "dauerS": 26.071,
-      "tempo": 1.0
+      "tempo": 1
     },
     "s4": {
       "slot": "s4",
