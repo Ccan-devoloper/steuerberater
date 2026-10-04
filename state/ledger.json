@@ -7891,13 +7891,35 @@
       "thema": "bilanz-karte-k3-0",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-04",
+      "slot": "b3",
+      "medienId": "17938264311367925",
+      "veroeffentlicht": "2026-10-04T17:46:22.022Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "ao-aufb-ao-jacobs-12-1",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 10,
     "ust": 8,
     "kst": 8,
-    "ao": 17,
+    "ao": 18,
     "bilanz": 19,
     "istr": 14,
     "erbst": 4,
