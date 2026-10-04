@@ -7927,7 +7927,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 28,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 48,
+        "ig_reels_avg_watch_time": 23767,
+        "ig_reels_video_view_total_time": 570430,
+        "reels_skip_rate": 72
+      },
+      "insightsStand": "2026-10-04T18:43:57.149Z",
+      "insightsAlterStunden": 1
     },
     {
       "datum": "2026-10-04",

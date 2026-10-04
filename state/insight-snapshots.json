@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-04T17:46:54.581Z",
+  "stand": "2026-10-04T18:43:59.864Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -14590,6 +14590,32 @@
           "navigation_tap_forward": 14
         }
       ]
+    },
+    "17938264311367925": {
+      "art": "beitrag",
+      "datum": "2026-10-04",
+      "titel": "Wen darf das Finanzamt nach § 193 AO prüfen?",
+      "format": "reel",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-04T17:46:22.022Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-04T18:43:57.149Z",
+          "alterStunden": 1,
+          "reach": 28,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 48,
+          "ig_reels_avg_watch_time": 23767,
+          "ig_reels_video_view_total_time": 570430,
+          "reels_skip_rate": 72
+        }
+      ]
     }
   },
   "konto": [
@@ -15486,6 +15512,11 @@
     {
       "stand": "2026-10-04T17:46:54.581Z",
       "follower": 114,
+      "medien": 86
+    },
+    {
+      "stand": "2026-10-04T18:43:59.864Z",
+      "follower": 115,
       "medien": 86
     }
   ]
