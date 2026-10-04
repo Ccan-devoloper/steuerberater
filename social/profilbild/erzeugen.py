@@ -126,36 +126,58 @@ def finger(cx, cy, seite, haut, n=4, lang=44, dick=26):
     return ''.join(t)
 
 
-def gesetzbuch(cx, cy, w, h, winkel, haut):
-    """Rotes Gesetzbuch „Steuergesetze“, von zwei Händen gehalten. Bewusst ohne Verlagslogo."""
+def gesetzbuch(cx, cy, w, h, winkel, haut=None):
+    """Rotes Gesetzbuch „Steuergesetze“. Mit haut: zwei gezeichnete Hände an den Kanten.
+    Bewusst ohne Verlagslogo."""
     K = 12; x, y = cx - w / 2, cy - h / 2
     t = [f'<g transform="rotate({winkel} {cx} {cy})">',
          f'<rect x="{x + 16}" y="{y + 16}" width="{w}" height="{h}" rx="12" fill="{CREME}" stroke="{TINTE}" stroke-width="{K}"/>',
          f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="12" fill="{ROT}" stroke="{TINTE}" stroke-width="{K}"/>',
          f'<rect x="{x + K / 2}" y="{y + K / 2}" width="34" height="{h - K}" fill="{ROT_DUNKEL}"/>',
          f'<line x1="{x + 40}" y1="{y + K / 2}" x2="{x + 40}" y2="{y + h - K / 2}" stroke="{TINTE}" stroke-width="6"/>']
-    v = 46; tx = x + 64; y1 = y + 96; y2 = y1 + v * 1.42
+    # Titel so groß, dass "gesetze" die Deckelbreite füllt
+    innen = w - 64 - 26
+    v = min(46, innen / BLACK.breite('gesetze', 1 / (VERSAL * 1000)))
+    tx = x + 64; y1 = y + 50 + v; y2 = y1 + v * 1.42
     t.append(wort('Steuer-', tx, y1, v, farbe=CREME, sperrung=0)[0])
     t.append(wort('gesetze', tx, y2, v, farbe=CREME, sperrung=0)[0])
     t.append(f'<rect x="{tx}" y="{y2 + 34}" width="{w - 104}" height="10" rx="5" fill="{CREME}"/>')
-    t.append(finger(x - 14, y + h - 78, -1, haut))
-    t.append(finger(x + w + 14, y + h - 92, +1, haut))
+    if haut:
+        t.append(finger(x - 14, y + h - 78, -1, haut))
+        t.append(finger(x + w + 14, y + h - 92, +1, haut))
     t.append('</g>')
     return ''.join(t)
 
 
 def figur_mit_buch(name, r):
-    """Figur in der Scheibe; der Kopf ragt nach oben über den Ring hinaus, das Buch unten."""
-    f = FIGUREN[name]; cid = f'scheibe{next(_ids)}'
+    """Figur in der Scheibe; der Kopf ragt nach oben über den Ring hinaus, das Buch unten.
+
+    Ebenen: Körper (auf die Scheibe beschnitten) - Kopf - Buch - Finger vor dem Buch."""
+    f = FIGUREN[name]; n = next(_ids); cid, vid = f'scheibe{n}', f'vorne{n}'
     s, tx, ty = 0.8, f['tx'], f.get('ty', -2)
     g = f'<g transform="translate({tx} {ty}) scale({s})">'
-    hals = f'<polygon points="{f["hals"]}" fill="{f["haut"]}"/>' if f['hals'] else ''
+    haut = ''.join(f'<polygon points="{f[k]}" fill="{f["haut"]}"/>' for k in ('hals', 'haende') if f.get(k))
+    if f.get('manschette'):
+        x1, y1, x2, y2 = f['manschette']
+        linien_extra = (f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{TINTE}" '
+                        f'stroke-width="9" stroke-linecap="round"/>')
+    else:
+        linien_extra = ''
+    koerper = f'{f["koerper"]}{haut}{f["koerperLinien"]}{linien_extra}'
     # Körper nur innerhalb der Scheibe; alles oberhalb der Mitte darf hinausragen
-    return (f'<defs><clipPath id="{cid}"><circle cx="500" cy="500" r="{r}"/>'
-            f'<rect x="-500" y="-500" width="2000" height="1000"/></clipPath></defs>'
-            f'<g clip-path="url(#{cid})">{g}{f["koerper"]}{hals}{f["koerperLinien"]}</g></g>'
-            f'{g}{f["kopf"]}</g>'
-            + gesetzbuch(500, 735, 330, 310, -5, f['haut']))
+    t = [f'<defs><clipPath id="{cid}"><circle cx="500" cy="500" r="{r}"/>'
+         f'<rect x="-500" y="-500" width="2000" height="1000"/></clipPath></defs>',
+         f'<g clip-path="url(#{cid})">{g}{koerper}</g></g>',
+         f'{g}{f["kopf"]}</g>']
+    if f['haltung'] == 'front':
+        t.append(gesetzbuch(500, 735, 330, 310, -5, f['haut']))
+        return ''.join(t)
+    b = f['buch']
+    t.append(f'{g}{gesetzbuch(b["cx"], b["cy"], b["w"], b["h"], b["winkel"])}</g>')
+    if f.get('vorne'):   # Finger, die vor dem Buch liegen
+        t.append(f'<g clip-path="url(#{cid})">{g}<clipPath id="{vid}"><polygon points="{f["vorne"]}"/></clipPath>'
+                 f'<g clip-path="url(#{vid})">{koerper}</g></g></g>')
+    return ''.join(t)
 
 
 def pille(x, y, text, farbe, hoehe=120, schrift=BLACK, textfarbe=TINTE):
@@ -282,11 +304,20 @@ FIGUR_MARKEN = {
     '02-frau':              dict(figur='frau'),
     '03-herr-fuenf-farben': dict(figur='herr', ring='fuenf'),
     '04-frau-fuenf-farben': dict(figur='frau', ring='fuenf'),
+    # natürlichere Haltungen
+    '05-griff-nila':        dict(figur='nila'),
+    '06-griff-holger':      dict(figur='holger'),
+    '07-lesen-mia':         dict(figur='mia'),
+    '08-lesen-erwin':       dict(figur='erwin'),
+    '09-hand-vera':         dict(figur='vera'),
+    '10-hand-dario':        dict(figur='dario'),
 }
 for name, opt in FIGUR_MARKEN.items():
     schreibe('figur', name, svg(bildmarke(**opt), 1000, 1000))
 schreibe('.', 'instagram-profilbild-figur-herr', svg(bildmarke(figur='herr', randlos=True), 1000, 1000))
 schreibe('.', 'instagram-profilbild-figur-frau', svg(bildmarke(figur='frau', randlos=True), 1000, 1000))
+for n in ('nila', 'holger', 'mia', 'erwin', 'vera', 'dario'):
+    schreibe('instagram', f'figur-{n}', svg(bildmarke(figur=n, randlos=True), 1000, 1000))
 
 STB = 'Fit fürs Steuerberaterexamen'
 FIGUR_WORTMARKEN = {
@@ -297,6 +328,11 @@ FIGUR_WORTMARKEN = {
     '05-herr-klausurpillen':  mit_klausurpillen(dict(figur='herr')),
     '06-frau-gestapelt':      gestapelt(dict(figur='frau')),
     '07-herr-quer-dunkel':    quer(LILA, dunkel=True, bild=dict(figur='herr')),
+    '08-nila-unterzeile':     mit_unterzeile(dict(figur='nila'), STB, marker=LILA),
+    '09-mia-unterzeile':      mit_unterzeile(dict(figur='mia'), STB, marker=LILA),
+    '10-vera-quer-marker':    quer(LILA, bild=dict(figur='vera')),
+    '11-erwin-zweizeilig':    zweizeilig(dict(figur='erwin')),
+    '12-holger-klausurpillen': mit_klausurpillen(dict(figur='holger')),
 }
 for name, inhalt in FIGUR_WORTMARKEN.items():
     schreibe('figur-wortmarke', name, inhalt)
