@@ -7594,21 +7594,22 @@
       "fach": "istr",
       "titel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
       "insights": {
-        "reach": 33,
-        "views": 42,
+        "reach": 37,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 34,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 28,
-        "navigation_tap_exit": 3
+        "navigation": 40,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 31,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-04T10:44:31.306Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-10-04T14:44:10.658Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-03",
@@ -7622,22 +7623,22 @@
       "fach": "bilanz",
       "titel": "Fremdwährungsschulden am Bilanzstichtag richtig umrechnen",
       "insights": {
-        "reach": 35,
-        "views": 40,
+        "reach": 39,
+        "views": 45,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 38,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 23,
+        "navigation": 43,
+        "navigation_swipe_forward": 2,
         "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 2
+        "navigation_tap_forward": 28,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-04T10:44:31.306Z",
-      "insightsAlterStunden": 17
+      "insightsStand": "2026-10-04T14:44:10.658Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-04",
@@ -7718,17 +7719,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 64,
         "saved": 3,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 6,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-04T11:17:31.804Z",
-      "insightsAlterStunden": 4.5
+      "insightsStand": "2026-10-04T14:44:13.229Z",
+      "insightsAlterStunden": 8
     },
     {
       "datum": "2026-10-04",
@@ -7808,17 +7809,17 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 40,
         "saved": 2,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-04T12:44:46.940Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-04T14:44:13.229Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-04",
