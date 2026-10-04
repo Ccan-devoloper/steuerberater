@@ -7769,6 +7769,28 @@
       "thema": "est-aufb-est-ks1-gew-01",
       "fach": "est",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-04",
+      "slot": "b2",
+      "medienId": "18629533261054584",
+      "veroeffentlicht": "2026-10-04T11:45:17.979Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "spickzettel",
+      "thema": "bilanz-aufb-bil-melzer-10-02",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Spickzettel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -7776,7 +7798,7 @@
     "ust": 8,
     "kst": 8,
     "ao": 17,
-    "bilanz": 18,
+    "bilanz": 19,
     "istr": 14,
     "erbst": 4,
     "mindset": 2,
