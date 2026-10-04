@@ -86,10 +86,13 @@ export function planMitVorproduktionAbgleichen(plan, tag) {
 
 /**
  * Nächster offener Termin des Tages als Zeitpunkt (ms), oder null.
- * Berücksichtigt nur geplante Einträge, deren Uhrzeit noch bevorsteht und
- * die nicht gerade erst fehlgeschlagen sind.
+ * Berücksichtigt nur geplante Einträge, die nicht gerade erst fehlgeschlagen
+ * sind und deren Uhrzeit nach `seit` liegt – dem Start des Laufs, zu dem die
+ * Weckkette gehört. Was davor fällig war, hat dieser Lauf schon gesehen; ein
+ * Termin, der erst während des Laufs fällig wurde, liegt in der Vergangenheit
+ * und führt zum sofortigen Wecken.
  */
-export function naechsterTermin(plan, datum, jetzt = Date.now()) {
+export function naechsterTermin(plan, datum, jetzt = Date.now(), seit = jetzt) {
   const frischerFehler = (e) => {
     const t = Date.parse(String(e?.fehler || "").split(" ")[0]);
     return Number.isFinite(t) && jetzt - t < FEHLER_RUHE_MS;
@@ -102,7 +105,7 @@ export function naechsterTermin(plan, datum, jetzt = Date.now()) {
        hätte ein Weckruf für den Teaser nichts zu tun. */
     if (e.art === "teaser" && frischerFehler((plan.beitraege || []).find((b) => b.slot === e.beitragSlot))) continue;
     const t = zeitpunktVon(datum, e.zeit);
-    if (t <= jetzt) continue;
+    if (t <= seit) continue;
     if (bester === null || t < bester) bester = t;
   }
   return bester;

@@ -101,6 +101,10 @@ test("naechsterTermin: nächster offener Slot, ohne Vergangenes und frisch Gesch
   const um1701 = Date.parse("2026-10-04T15:01:00Z");
   assert.equal(naechsterTermin(plan, DATUM, um1701), null);
 
+  /* Wurde b3 erst fällig, nachdem der Lauf um 16:50 gestartet war, und ist
+     noch offen, weckt die Kette sofort – aber nur diesen einen Lauf lang. */
+  assert.equal(new Date(naechsterTermin(plan, DATUM, um1701, um1650)).toISOString(), "2026-10-04T15:00:00.000Z");
+
   plan.beitraege.find((e) => e.slot === "b3").fehler = "2026-10-04T14:49:00.000Z Container ERROR";
   assert.equal(naechsterTermin(plan, DATUM, um1650), null, "weder b3 noch dessen Teaser wecken sofort erneut");
 });

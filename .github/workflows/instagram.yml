@@ -309,6 +309,12 @@ jobs:
           if [ $((frist - start)) -gt 19800 ]; then frist=$((start + 19800)); nacht=1; fi
           echo "Nächster Slot: $(date -u -d @$slot +%FT%TZ) – beobachte den Tagesplan bis $(date -u -d @$frist +%FT%TZ)"
           vorlauf=480
+          # Termine bis zum Start dieses Laufs hat der Lauf selbst bedient; was
+          # während des Laufs fällig wurde, weckt sofort.
+          laufstart=$(gh api "repos/$GH_REPO/actions/runs/$GITHUB_RUN_ID" --jq .run_started_at || true)
+          NAECHSTER_SEIT=$start
+          if [ -n "$laufstart" ]; then NAECHSTER_SEIT=$(date -u -d "$laufstart" +%s); fi
+          export NAECHSTER_SEIT
           kette_geprueft=$start
           zuletzt_gemeldet=""
           while :; do

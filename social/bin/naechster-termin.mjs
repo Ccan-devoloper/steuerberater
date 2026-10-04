@@ -7,7 +7,8 @@
    Unix-Zeit in Sekunden aus. Keine Ausgabe = heute nichts mehr offen.
 
    Nur Node-Bordmittel: läuft ohne npm ci.
-   Umgebung: GH_TOKEN, GH_REPO (owner/repo), optional IG_ASSET_BRANCH.
+   Umgebung: GH_TOKEN, GH_REPO (owner/repo), optional IG_ASSET_BRANCH und
+   NAECHSTER_SEIT (Unix-Sekunden: Start des Laufs, zu dem die Kette gehört).
    ========================================================================== */
 
 import { heuteIso } from "../src/zeit.mjs";
@@ -43,7 +44,9 @@ async function main() {
   } else {
     planMitVorproduktionAbgleichen(plan, tag);
   }
-  const t = naechsterTermin(plan, datum);
+  const jetzt = Date.now();
+  const seit = Number(process.env.NAECHSTER_SEIT) > 0 ? Math.min(jetzt, Number(process.env.NAECHSTER_SEIT) * 1000) : jetzt;
+  const t = naechsterTermin(plan, datum, jetzt, seit);
   if (t !== null) console.log(Math.floor(t / 1000));
 }
 
