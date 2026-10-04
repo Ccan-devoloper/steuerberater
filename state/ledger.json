@@ -7772,22 +7772,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 32,
-        "views": 45,
+        "reach": 38,
+        "views": 51,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 3,
+        "navigation": 40,
+        "navigation_tap_forward": 28,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 24
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-04T15:59:57.258Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-10-04T20:44:18.312Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-04",
@@ -7929,19 +7929,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 28,
+        "reach": 64,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
-        "views": 48,
-        "ig_reels_avg_watch_time": 23767,
-        "ig_reels_video_view_total_time": 570430,
-        "reels_skip_rate": 72
+        "views": 111,
+        "ig_reels_avg_watch_time": 43844,
+        "ig_reels_video_view_total_time": 2718346,
+        "reels_skip_rate": 63.6
       },
-      "insightsStand": "2026-10-04T18:43:57.149Z",
-      "insightsAlterStunden": 1
+      "insightsStand": "2026-10-04T20:44:20.833Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-04",
