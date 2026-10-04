@@ -27,7 +27,7 @@
       },
       {
         "slot": "b2",
-        "zeit": "18:30",
+        "zeit": "16:30",
         "format": "anlass",
         "themaId": null,
         "themaTitel": "Tag 2 geschafft: drei Dauerbrenner für Tag 3",
@@ -63,7 +63,7 @@
       },
       {
         "slot": "s2",
-        "zeit": "18:30",
+        "zeit": "16:30",
         "art": "teaser",
         "beitragSlot": "b2"
       },
@@ -322,7 +322,7 @@
         "Durchatmen. Morgen ist der letzte Tag."
       ],
       "dauerS": 24.394,
-      "tempo": 1.0
+      "tempo": 1
     },
     "s4": {
       "slot": "s4",
