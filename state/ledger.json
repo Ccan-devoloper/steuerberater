@@ -7811,7 +7811,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 50,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -7820,8 +7820,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-04T14:44:13.229Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-04T16:44:08.909Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-04",
