@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 161,
+        "reach": 172,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 228,
-        "ig_reels_avg_watch_time": 34124,
-        "ig_reels_video_view_total_time": 5698839,
-        "reels_skip_rate": 73.8
+        "views": 243,
+        "ig_reels_avg_watch_time": 32320,
+        "ig_reels_video_view_total_time": 5850095,
+        "reels_skip_rate": 73.4
       },
-      "insightsStand": "2026-10-05T08:45:14.265Z",
-      "insightsAlterStunden": 15
+      "insightsStand": "2026-10-05T12:40:06.414Z",
+      "insightsAlterStunden": 18.9
     },
     {
       "datum": "2026-10-04",
@@ -8107,20 +8107,21 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 10,
-        "views": 28,
+        "reach": 29,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 12
+        "navigation": 43,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 30,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-05T07:44:57.356Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-05T12:40:05.171Z",
+      "insightsAlterStunden": 6.2
     },
     {
       "datum": "2026-10-05",
