@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-05T07:45:03.109Z",
+  "stand": "2026-10-05T08:45:17.100Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -13533,6 +13533,18 @@
           "total_interactions": 10,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-05T08:45:14.265Z",
+          "alterStunden": 51,
+          "reach": 67,
+          "saved": 4,
+          "shares": 0,
+          "likes": 5,
+          "comments": 1,
+          "total_interactions": 10,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -14155,6 +14167,20 @@
           "ig_reels_avg_watch_time": 9540,
           "ig_reels_video_view_total_time": 1574151,
           "reels_skip_rate": 76.8
+        },
+        {
+          "stand": "2026-10-05T08:45:14.265Z",
+          "alterStunden": 39,
+          "reach": 150,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 197,
+          "ig_reels_avg_watch_time": 9974,
+          "ig_reels_video_view_total_time": 1685674,
+          "reels_skip_rate": 76
         }
       ]
     },
@@ -14870,6 +14896,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-05T08:45:14.265Z",
+          "alterStunden": 21,
+          "reach": 68,
+          "saved": 3,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 5
         }
       ]
     },
@@ -14950,6 +14988,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 30,
           "navigation_tap_exit": 8
+        },
+        {
+          "stand": "2026-10-05T08:45:11.805Z",
+          "alterStunden": 21,
+          "reach": 41,
+          "views": 55,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 49,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 35,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 4
         }
       ]
     },
@@ -15028,6 +15083,23 @@
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 30,
           "navigation_swipe_forward": 5
+        },
+        {
+          "stand": "2026-10-05T08:45:11.805Z",
+          "alterStunden": 20,
+          "reach": 44,
+          "views": 54,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 50,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 38,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 2
         }
       ]
     },
@@ -15157,6 +15229,20 @@
           "ig_reels_avg_watch_time": 37615,
           "ig_reels_video_view_total_time": 5529478,
           "reels_skip_rate": 72
+        },
+        {
+          "stand": "2026-10-05T08:45:14.265Z",
+          "alterStunden": 15,
+          "reach": 161,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 228,
+          "ig_reels_avg_watch_time": 34124,
+          "ig_reels_video_view_total_time": 5698839,
+          "reels_skip_rate": 73.8
         }
       ]
     },
@@ -15330,6 +15416,30 @@
           "navigation": 21,
           "navigation_tap_exit": 9,
           "navigation_tap_forward": 12
+        }
+      ]
+    },
+    "17870727915648276": {
+      "art": "beitrag",
+      "datum": "2026-10-05",
+      "titel": "Morgen geht's los",
+      "format": "anlass",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T06:30:04.719Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T08:45:14.265Z",
+          "alterStunden": 2.3,
+          "reach": 49,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -16262,6 +16372,11 @@
     },
     {
       "stand": "2026-10-05T07:45:03.109Z",
+      "follower": 118,
+      "medien": 87
+    },
+    {
+      "stand": "2026-10-05T08:45:17.100Z",
       "follower": 118,
       "medien": 87
     }
