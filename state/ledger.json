@@ -8015,20 +8015,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 12,
-        "views": 15,
+        "reach": 28,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_forward": 12,
-        "navigation_tap_exit": 1
+        "navigation": 36,
+        "navigation_tap_back": 6,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 26,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-05T06:30:16.530Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-05T10:44:44.000Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-05",
@@ -8042,22 +8044,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 19,
+        "reach": 29,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_exit": 2,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 11,
-        "navigation_tap_back": 3
+        "navigation": 35,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 24,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 2
       },
-      "insightsStand": "2026-10-05T06:30:16.530Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-05T10:44:44.000Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-05",
@@ -8081,17 +8083,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 49,
-        "saved": 1,
+        "reach": 58,
+        "saved": 2,
         "shares": 0,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 5,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T08:45:14.265Z",
-      "insightsAlterStunden": 2.3
+      "insightsStand": "2026-10-05T10:44:47.569Z",
+      "insightsAlterStunden": 4.2
     },
     {
       "datum": "2026-10-05",
