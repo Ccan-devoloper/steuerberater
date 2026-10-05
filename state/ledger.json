@@ -8119,13 +8119,35 @@
       },
       "insightsStand": "2026-10-05T07:44:57.356Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "b2",
+      "medienId": "18046686248818571",
+      "veroeffentlicht": "2026-10-05T10:00:06.244Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "12:00",
+      "stunde": 12,
+      "format": "fehlerfalle",
+      "thema": "ao-aufb-ao-jacobs-3-11",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Klausurfalle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 11,
     "ust": 8,
     "kst": 8,
-    "ao": 18,
+    "ao": 19,
     "bilanz": 19,
     "istr": 14,
     "erbst": 4,
