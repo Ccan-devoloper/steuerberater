@@ -8254,6 +8254,28 @@
       "thema": "ust-karte-ust-0",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "b3",
+      "medienId": "18137871025618194",
+      "veroeffentlicht": "2026-10-05T17:00:13.005Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "est-aufb-est-ks1-vv-02",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -8265,7 +8287,7 @@
     "istr": 14,
     "erbst": 4,
     "mindset": 2,
-    "est": 1,
+    "est": 2,
     "umwst": 2,
     "gewst": 2,
     "null": 1
