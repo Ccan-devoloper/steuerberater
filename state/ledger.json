@@ -7772,22 +7772,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 47,
-        "views": 64,
+        "reach": 50,
+        "views": 67,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_swipe_forward": 2,
+        "navigation": 54,
+        "navigation_swipe_forward": 3,
         "navigation_tap_back": 7,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 35
+        "navigation_tap_forward": 37
       },
-      "insightsStand": "2026-10-05T07:44:57.356Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-05T10:00:19.975Z",
+      "insightsAlterStunden": 23.3
     },
     {
       "datum": "2026-10-04",
