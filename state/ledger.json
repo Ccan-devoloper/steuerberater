@@ -8211,6 +8211,18 @@
       },
       "insightsStand": "2026-10-05T11:44:52.401Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "s7",
+      "medienId": "18111998009582317",
+      "veroeffentlicht": "2026-10-05T12:40:03.953Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "countdown",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
