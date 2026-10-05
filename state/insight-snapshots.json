@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-05T17:00:36.640Z",
+  "stand": "2026-10-05T17:45:29.623Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -16084,6 +16084,23 @@
           "navigation_tap_exit": 4,
           "navigation_tap_back": 1,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-10-05T17:45:28.618Z",
+          "alterStunden": 5.1,
+          "reach": 26,
+          "views": 36,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 34,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 4,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 21
         }
       ]
     },
@@ -16113,6 +16130,32 @@
           "navigation_tap_forward": 9,
           "navigation_tap_exit": 3,
           "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18137871025618194": {
+      "art": "beitrag",
+      "datum": "2026-10-05",
+      "titel": "Wann sind Mieteinnahmen keine Einkünfte aus § 21 EStG?",
+      "format": "reel",
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T17:00:13.005Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T17:45:29.623Z",
+          "alterStunden": 0.8,
+          "reach": 25,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 84,
+          "ig_reels_avg_watch_time": 17818,
+          "ig_reels_video_view_total_time": 409831,
+          "reels_skip_rate": 16.9
         }
       ]
     }
