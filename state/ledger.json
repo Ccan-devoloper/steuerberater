@@ -8153,6 +8153,18 @@
       "thema": null,
       "fach": "ao",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "s6",
+      "medienId": "18137447422722405",
+      "veroeffentlicht": "2026-10-05T10:14:03.327Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-karte-k3-20",
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {

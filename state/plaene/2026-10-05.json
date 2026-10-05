@@ -72,8 +72,9 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "persg-karte-k3-20",
-      "status": "sendet",
-      "sendeversuch": "2026-10-05T10:14:00.078Z"
+      "status": "veroeffentlicht",
+      "medienId": "18137447422722405",
+      "veroeffentlicht": "2026-10-05T10:14:03.326Z"
     },
     {
       "slot": "s2",
