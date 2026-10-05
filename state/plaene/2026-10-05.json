@@ -12,7 +12,8 @@
       "themaTitel": "Morgen geht's los: der Abend vor Tag 1",
       "fach": "persg",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-05T06:30:00.068Z"
     },
     {
       "slot": "b2",
