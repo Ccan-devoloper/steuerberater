@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 106,
+        "reach": 113,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 156,
-        "ig_reels_avg_watch_time": 10012,
-        "ig_reels_video_view_total_time": 1141409,
-        "reels_skip_rate": 62.3
+        "views": 165,
+        "ig_reels_avg_watch_time": 9845,
+        "ig_reels_video_view_total_time": 1191252,
+        "reels_skip_rate": 62.8
       },
-      "insightsStand": "2026-10-04T15:44:36.046Z",
-      "insightsAlterStunden": 94.7
+      "insightsStand": "2026-10-05T15:45:31.446Z",
+      "insightsAlterStunden": 118.7
     },
     {
       "datum": "2026-09-30",
@@ -7206,19 +7206,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 93,
+        "reach": 94,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 136,
-        "ig_reels_avg_watch_time": 12074,
-        "ig_reels_video_view_total_time": 1328145,
-        "reels_skip_rate": 63.9
+        "views": 137,
+        "ig_reels_avg_watch_time": 12018,
+        "ig_reels_video_view_total_time": 1334056,
+        "reels_skip_rate": 63.3
       },
-      "insightsStand": "2026-10-05T07:44:59.659Z",
-      "insightsAlterStunden": 62
+      "insightsStand": "2026-10-05T15:45:31.446Z",
+      "insightsAlterStunden": 70
     },
     {
       "datum": "2026-10-02",
@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 172,
+        "reach": 176,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 243,
-        "ig_reels_avg_watch_time": 32320,
-        "ig_reels_video_view_total_time": 5850095,
-        "reels_skip_rate": 73.4
+        "views": 247,
+        "ig_reels_avg_watch_time": 31542,
+        "ig_reels_video_view_total_time": 5866922,
+        "reels_skip_rate": 73.5
       },
-      "insightsStand": "2026-10-05T12:40:06.414Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-05T15:45:31.446Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-04",
@@ -7958,22 +7958,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 40,
-        "views": 63,
+        "reach": 44,
+        "views": 69,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 53,
-        "navigation_tap_forward": 42,
+        "navigation": 63,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 12,
         "navigation_tap_exit": 1,
-        "navigation_tap_back": 9,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 49
       },
-      "insightsStand": "2026-10-05T13:44:57.883Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-10-05T15:45:24.441Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-04",
@@ -7987,21 +7987,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 39,
-        "views": 63,
+        "reach": 43,
+        "views": 68,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_tap_exit": 6,
-        "navigation_tap_back": 10,
-        "navigation_tap_forward": 35
+        "navigation": 60,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 38,
+        "navigation_tap_back": 14,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-05T13:44:57.883Z",
-      "insightsAlterStunden": 20
+      "insightsStand": "2026-10-05T15:45:24.441Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-05",
@@ -8145,17 +8146,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 43,
-        "saved": 1,
+        "reach": 52,
+        "saved": 2,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T13:45:02.931Z",
-      "insightsAlterStunden": 3.7
+      "insightsStand": "2026-10-05T15:45:31.446Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-10-05",
@@ -8169,21 +8170,21 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 16,
-        "views": 28,
+        "reach": 31,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 17,
-        "navigation_tap_exit": 3
+        "navigation": 40,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 32,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-05T11:44:52.401Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-05T15:45:24.441Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-10-05",
@@ -8197,21 +8198,21 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 17,
-        "views": 27,
+        "reach": 30,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 14
+        "navigation": 40,
+        "navigation_tap_forward": 26,
+        "navigation_tap_exit": 8,
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-10-05T11:44:52.401Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-10-05T15:45:24.441Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-05",
