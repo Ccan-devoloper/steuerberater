@@ -8013,7 +8013,22 @@
       "storyArt": "frage",
       "thema": "kst-quiz-kst-1",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_tap_forward": 12,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-10-05T06:30:16.530Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-05",
@@ -8025,7 +8040,24 @@
       "storyArt": "antwort",
       "thema": "kst-quiz-kst-1",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 19,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 11,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-10-05T06:30:16.530Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-05",
