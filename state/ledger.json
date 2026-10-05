@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 86,
+        "reach": 90,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 127,
-        "ig_reels_avg_watch_time": 7702,
-        "ig_reels_video_view_total_time": 754837,
-        "reels_skip_rate": 69.7
+        "views": 132,
+        "ig_reels_avg_watch_time": 7394,
+        "ig_reels_video_view_total_time": 761653,
+        "reels_skip_rate": 71.3
       },
-      "insightsStand": "2026-10-04T15:59:59.276Z",
-      "insightsAlterStunden": 119
+      "insightsStand": "2026-10-05T17:00:31.488Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-09-29",
@@ -7298,7 +7298,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 67,
+        "reach": 73,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -7307,8 +7307,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T08:45:14.265Z",
-      "insightsAlterStunden": 51
+      "insightsStand": "2026-10-05T17:00:31.488Z",
+      "insightsAlterStunden": 59.3
     },
     {
       "datum": "2026-10-03",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 150,
+        "reach": 155,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 197,
-        "ig_reels_avg_watch_time": 9974,
-        "ig_reels_video_view_total_time": 1685674,
-        "reels_skip_rate": 76
+        "views": 205,
+        "ig_reels_avg_watch_time": 9965,
+        "ig_reels_video_view_total_time": 1743931,
+        "reels_skip_rate": 75
       },
-      "insightsStand": "2026-10-05T08:45:14.265Z",
-      "insightsAlterStunden": 39
+      "insightsStand": "2026-10-05T17:00:31.488Z",
+      "insightsAlterStunden": 47.3
     },
     {
       "datum": "2026-10-03",
@@ -7811,7 +7811,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 68,
+        "reach": 74,
         "saved": 3,
         "shares": 0,
         "likes": 1,
@@ -7820,8 +7820,8 @@
         "follows": 0,
         "profile_visits": 5
       },
-      "insightsStand": "2026-10-05T08:45:14.265Z",
-      "insightsAlterStunden": 21
+      "insightsStand": "2026-10-05T17:00:31.488Z",
+      "insightsAlterStunden": 29.3
     },
     {
       "datum": "2026-10-04",
@@ -8084,7 +8084,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 69,
+        "reach": 76,
         "saved": 3,
         "shares": 0,
         "likes": 3,
@@ -8093,8 +8093,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T13:45:02.931Z",
-      "insightsAlterStunden": 7.2
+      "insightsStand": "2026-10-05T17:00:31.488Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-10-05",
@@ -8108,21 +8108,21 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 29,
-        "views": 48,
+        "reach": 36,
+        "views": 60,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 43,
+        "navigation": 53,
         "navigation_tap_exit": 12,
-        "navigation_tap_forward": 30,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 37,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-05T12:40:05.171Z",
-      "insightsAlterStunden": 6.2
+      "insightsStand": "2026-10-05T17:00:27.937Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-10-05",
@@ -8253,7 +8253,24 @@
       "storyArt": "tipp",
       "thema": "ust-karte-ust-0",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-05T17:00:27.937Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-05",
