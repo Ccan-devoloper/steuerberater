@@ -121,10 +121,17 @@ function woerter(text) {
 }
 
 /* FNV-1a, 32 Bit – klein genug für ein Set aus Zahlen. */
+/* 53-Bit-Hash (cyrb53): Bei rund drei Millionen Shingles erzeugten 32 Bit zufällige Treffer
+   und damit Fehlalarme „Wörtliche Übernahme“. */
 function hash(s) {
-  let h = 0x811c9dc5;
-  for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 0x01000193); }
-  return h >>> 0;
+  let h1 = 0xdeadbeef, h2 = 0x41c6ce57;
+  for (let i = 0; i < s.length; i++) {
+    const c = s.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 2654435761); h2 = Math.imul(h2 ^ c, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return 4294967296 * (2097151 & h2) + (h1 >>> 0);
 }
 
 function shingles(text, n = SHINGLE_LAENGE) {

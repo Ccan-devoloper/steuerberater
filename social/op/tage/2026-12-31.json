@@ -1,0 +1,1340 @@
+{
+ "datum": "2026-12-31",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "anlass",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": "anlass-jahreswechsel-2027",
+   "themaTitel": "Was sich zum 01.01.2027 ändert",
+   "figuren": {
+    "A": {
+     "name": "Noah",
+     "kopf": "Flat Top",
+     "haut": "#5C3A21",
+     "haar": "#1B1B1B",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Jahreswechsel",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Was 2027",
+      "anders ist"
+     ],
+     "unter": "Dein Update",
+     "teaser": "+ Markier-Guide §§ 14, 27 UStG",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "JANUAR",
+      "tag": "1",
+      "unter": "Fr · 2027"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Update in 5 Punkten",
+     "schritte": [
+      [
+       "E-Rechnung wird Pflicht",
+       "§ 27 Abs. 38 UStG",
+       ""
+      ],
+      [
+       "Mindestlohn und Minijob",
+       "§ 8 Abs. 1a SGB IV",
+       ""
+      ],
+      [
+       "Seit 2026 neu im Stoff",
+       "StÄndG 2025, § 8 EStDV",
+       ""
+      ],
+      [
+       "Steht schon im Gesetz",
+       "§ 7 Abs. 2 EStG, § 23 KStG",
+       ""
+      ],
+      [
+       "Prüfung 2027 und Entwürfe",
+       "§ 35 Abs. 4 StBerG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: §§ 14, 27 UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · E-Rechnung wird Pflicht",
+     "punkte": [
+      [
+       "Bis Ende 2026 ging noch Papier, mit Zustimmung auch ein PDF.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 38 Nr. 1 UStG"
+      ],
+      [
+       "Ab 01.01.2027: über 800.000 € Vorjahresumsatz nur noch E-Rechnung an Unternehmer im Inland.",
+       "warn",
+       "Bold",
+       "§ 14 Abs. 2 S. 2 Nr. 1 UStG"
+      ],
+      [
+       "Alle anderen: Übergang bis Ende 2027.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 38 Nr. 2 UStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ab morgen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Mindestlohn und Minijob",
+     "punkte": [
+      [
+       "Mindestlohn ab 01.01.2027: 14,60 € je Stunde.",
+       "ok",
+       "Regular",
+       "MiLoV5, BGBl. 2025 I Nr. 268"
+      ],
+      [
+       "633 € im Monat: Die Minijob-Grenze folgt automatisch.",
+       "ok",
+       "Bold",
+       "§ 8 Abs. 1a SGB IV"
+      ],
+      [
+       "2 % Pauschsteuer für Minijobs: geltendes Recht, 5 % nur im Entwurf.",
+       "warn",
+       "Regular",
+       "§ 40a Abs. 2 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "14,60 mal 130 durch 3"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Seit 2026 neu im Stoff",
+     "punkte": [
+      [
+       "Entfernungspauschale: 0,38 € ab dem ersten Kilometer.",
+       "ok",
+       "Regular",
+       "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG"
+      ],
+      [
+       "Restaurant: 7 % auf Speisen, 19 % auf Getränke.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 2 Nr. 15 UStG"
+      ],
+      [
+       "Kleine eigenbetriebliche Grundstücksteile: bis 30 m² oder 40.000 €.",
+       "warn",
+       "Bold",
+       "§ 8 EStDV"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Das sitzt hoffentlich."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Steht schon im Gesetz",
+     "punkte": [
+      [
+       "Degressive AfA bis 30 %: Zugänge bis Ende 2027.",
+       "warn",
+       "Regular",
+       "§ 7 Abs. 2 S. 1, 2 EStG"
+      ],
+      [
+       "E-Autos: 75 % im Anschaffungsjahr, Kauf bis Ende 2027.",
+       "ok",
+       "Regular",
+       "§ 7 Abs. 2a S. 1 EStG"
+      ],
+      [
+       "Körperschaftsteuer 2027 noch 15 %, ab 2028 schrittweise bis 10 %.",
+       "ok",
+       "Bold",
+       "§ 23 Abs. 1 KStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Schon beschlossen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Prüfung 2027",
+     "punkte": [
+      [
+       "Schriftlich vom 05. bis 07.10.2027.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Geltendes Recht: höchstens zwei Wiederholungen.",
+       "ok",
+       "Regular",
+       "§ 35 Abs. 4 StBerG"
+      ],
+      [
+       "Entwurf: unbeschränkt, schon ab der Prüfung 2027. Noch nicht beschlossen.",
+       "warn",
+       "Regular",
+       "BMF, Referentenentwurf vom 13.08.2026"
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Zweiter Anlauf? Geht."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Entwurf: ESt-Reform 2027",
+     "punkte": [
+      [
+       "Regierungsentwurf: Grundfreibetrag 12.564 €, Kindergeld 267 €.",
+       "warn",
+       "Regular",
+       "BT-Drs. 21/8235"
+      ],
+      [
+       "Dazu Arbeitnehmer-Pauschbetrag 1.430 €, Minijob-Pauschsteuer 5 %.",
+       "warn",
+       "Regular",
+       "BT-Drs. 21/8235"
+      ],
+      [
+       "Stand 03.10.2026 nicht beschlossen: Prüfungsstoff erst nach Verkündung.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Mündliche: Entwurf und geltendes Recht trennen",
+      "GELB",
+      null
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Abwarten!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "01.01.2027: E-Rechnung ab 800.000 €, Minijob 633 €",
+      "Prüfung 2027: 05. bis 07.10.",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "E-Rechnung",
+        "a"
+       ],
+       [
+        " ist Pflicht,",
+        null
+       ]
+      ],
+      [
+       [
+        "633 €",
+        "b"
+       ],
+       [
+        " Minijob,",
+        null
+       ]
+      ],
+      [
+       [
+        "2026",
+        "c"
+       ],
+       [
+        " sitzen lassen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Entwürfe",
+        "d"
+       ],
+       [
+        " beobachten.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für 2027",
+     "frage": "Was ändert sich für dich?",
+     "teaser": "Weiterwischen: §§ 14, 27 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 14, 27 UStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 14 (2)",
+       [
+        [
+         "[…] In den folgenden Fällen ist er zur Ausstellung einer Rechnung innerhalb von sechs Monaten nach Ausführung der Leistung verpflichtet, wenn der Umsatz nicht nach § 4 Nummer 8 bis 29 steuerfrei ist: 1. für eine Leistung an einen anderen Unternehmer für dessen Unternehmen;",
+         null
+        ],
+        [
+         "die Rechnung ist als elektronische Rechnung",
+         "gr1"
+        ],
+        [
+         "nach Absatz 1 Satz 3 und 6 auszustellen, wenn der leistende Unternehmer und der Leistungsempfänger",
+         null
+        ],
+        [
+         "im Inland",
+         "b2"
+        ],
+        [
+         "oder in einem der in § 1 Absatz 3 bezeichneten Gebiete ansässig sind; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 27 (38)",
+       [
+        [
+         "Abweichend von § 14 Absatz 1 und 2 kann eine Rechnung 1.",
+         null
+        ],
+        [
+         "bis zum 31. Dezember 2026",
+         "g1"
+        ],
+        [
+         "für einen nach dem 31. Dezember 2024 und vor dem 1. Januar 2027 ausgeführten Umsatz auf Papier oder vorbehaltlich der Zustimmung des Empfängers in einem elektronischen Format, das nicht § 14 Absatz 1 Satz 6 entspricht, übermittelt werden; 2.",
+         null
+        ],
+        [
+         "bis zum 31. Dezember 2027",
+         "b1"
+        ],
+        [
+         "für einen nach dem 31. Dezember 2026 und vor dem 1. Januar 2028 ausgeführten Umsatz […] übermittelt werden, wenn der Gesamtumsatz (§ 19 Absatz 2) des die Rechnung ausstellenden Unternehmers im vorangegangenen Kalenderjahr",
+         null
+        ],
+        [
+         "nicht mehr als 800 000 Euro",
+         "r1"
+        ],
+        [
+         "betragen hat; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "E-Rechnung Pflicht",
+       "gr1"
+      ],
+      [
+       "beide im Inland",
+       "b2"
+      ],
+      [
+       "vorbei",
+       "g1"
+      ],
+      [
+       "letzte Frist",
+       "b1"
+      ],
+      [
+       "Grenze",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Ab 01.01.2027: über 800.000 €",
+      "nur noch E-Rechnung"
+     ]
+    }
+   ],
+   "caption": "Was sich zum 01.01.2027 ändert – und was für die Steuerberaterprüfung 2027 zählt. Für alle, die 2027 schreiben, den zweiten Anlauf planen oder im Frühjahr in die mündliche Prüfung gehen.\n\n1. E-Rechnung: Für Umsätze ab 01.01.2027 darf nur noch Papier oder ein sonstiges Format verwenden, wer im Vorjahr höchstens 800.000 € Gesamtumsatz hatte, und das nur bis 31.12.2027 (§ 27 Abs. 38 Nr. 1, 2 UStG). Sonst gilt im Inland zwischen Unternehmern die E-Rechnung (§ 14 Abs. 2 S. 2 Nr. 1 UStG).\n2. Mindestlohn 14,60 € ab 01.01.2027 (Fünfte Mindestlohnanpassungsverordnung, BGBl. 2025 I Nr. 268). Geringfügigkeitsgrenze: Mindestlohn × 130 : 3, aufgerundet = 633 € (§ 8 Abs. 1a SGB IV). Pauschsteuer für Minijobs nach geltendem Recht 2 % (§ 40a Abs. 2 EStG); 5 % stehen erst im Entwurf (s. u.).\n3. Seit 2026 geltendes Recht: Entfernungspauschale 0,38 € ab dem ersten Kilometer (§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG), 7 % auf Restaurant- und Verpflegungsdienstleistungen ohne Getränke (§ 12 Abs. 2 Nr. 15 UStG), eigenbetrieblich genutzte Grundstücksteile bis 30 m² oder 40.000 € (§ 8 EStDV, Siebte Verordnung zur Änderung steuerlicher Verordnungen, BGBl. 2025 I Nr. 372).\n4. Bereits Gesetz: degressive AfA bis 30 % und 75 % Sonder-AfA für E-Fahrzeuge nur bei Anschaffung bis 31.12.2027 (§ 7 Abs. 2, 2a EStG); KSt-Satz 15 % bis VZ 2027, dann 14 % (2028) bis 10 % (ab 2032) (§ 23 Abs. 1 KStG).\n5. Prüfung 2027: schriftlich 05. bis 07.10.2027 (Termin der Steuerberaterkammern). Nach geltendem Recht zwei Wiederholungen (§ 35 Abs. 4 StBerG). Der Referentenentwurf des BMF vom 13.08.2026 will die Grenze streichen, und zwar schon für die Prüfung 2027 (Übergangsregel § 157f StBerG-E); beschlossen ist das noch nicht (Stand 03.10.2026).\n\nEntwurf, nicht beschlossen (Stand 03.10.2026): Regierungsentwurf eines Einkommensteuerreformgesetzes 2027 (BT-Drs. 21/8235 vom 28.09.2026) mit Grundfreibetrag 12.564 €, Kindergeld 267 €, Arbeitnehmer-Pauschbetrag 1.430 €, Minijob-Pauschsteuer 5 %. Prüfungsrelevant erst nach Verkündung im Bundesgesetzblatt.\n\nZum Schluss: § 14 Abs. 2 S. 2 Nr. 1, § 27 Abs. 38 UStG zum Markieren. Speichern für 2027 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#jahreswechsel"
+   ],
+   "quellen": [
+    "§ 27 Abs. 38 Nr. 1, 2 UStG",
+    "§ 14 Abs. 2 S. 2 Nr. 1 UStG",
+    "MiLoV5, BGBl. 2025 I Nr. 268",
+    "§ 8 Abs. 1a SGB IV",
+    "§ 40a Abs. 2 EStG",
+    "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG",
+    "§ 12 Abs. 2 Nr. 15 UStG",
+    "§ 8 EStDV (BGBl. 2025 I Nr. 372)",
+    "§ 7 Abs. 2, 2a EStG",
+    "§ 23 Abs. 1 KStG",
+    "§ 35 Abs. 4 StBerG",
+    "BMF, Referentenentwurf vom 13.08.2026 (Gesetz zur Reform der Steuerberaterprüfung, § 157f StBerG-E)",
+    "BT-Drs. 21/8235 vom 28.09.2026 (Regierungsentwurf)"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-529",
+   "themaTitel": "§ 12 BewG vertieft: Fälligkeits-/Tilgungsdarlehen und hoch bzw. niedrig verzinsliche Forderungen",
+   "figuren": {
+    "A": {
+     "name": "Lotte",
+     "kopf": "Long Curly",
+     "haut": "#E8B98F",
+     "haar": "#7A4B2A",
+     "oberteil": "#F2B880",
+     "bueste": "Paper"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Darlehen",
+      "geerbt"
+     ],
+     "norm": "§ 12 BewG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 12 + Erlass",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "zinslos, 4 Jahre",
+        "Bold",
+        44
+       ],
+       [
+        "50.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Wert?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Forderung bewerten: 4 Schritte",
+     "schritte": [
+      [
+       "Einbringlich?",
+       "§ 12 Abs. 2 BewG",
+       "sonst außer Ansatz"
+      ],
+      [
+       "Nennwert als Start",
+       "§ 12 Abs. 1 S. 1 BewG",
+       "der Regelfall"
+      ],
+      [
+       "Zinslos, über ein Jahr?",
+       "§ 12 Abs. 3 BewG",
+       "mit 5,5 % abzinsen"
+      ],
+      [
+       "Zins auffällig?",
+       "§ 12 Abs. 1 S. 2 BewG",
+       "Wert anpassen"
+      ]
+     ],
+     "teaser": "Am Ende: § 12 BewG + Erlass markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Lotte erbt von ihrer Tante eine Darlehensforderung: 50.000 €, zinslos, fällig in genau vier Jahren.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Dazu 20.000 € gegen einen früheren Mieter, der vermögenslos ist und nie zahlen wird.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was setzt Lotte an?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Lotte."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 und 2 · Einbringlich, Nennwert",
+     "punkte": [
+      [
+       "Uneinbringliche Forderungen bleiben außer Ansatz: Die 20.000 € fallen weg.",
+       "nein",
+       "Regular",
+       "§ 12 Abs. 2 BewG"
+      ],
+      [
+       "Sonst gilt der Nennwert, wenn keine besonderen Umstände vorliegen.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 1 S. 1 BewG"
+      ],
+      [
+       "Besonderer Umstand: vier Jahre ohne Zinsen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Nur was kommt, zählt."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "3 · Abzinsen",
+     "normen": [
+      "§ 12 Abs. 3 BewG",
+      "Ländererlasse vom 10.10.2010"
+     ],
+     "zeilen": [
+      [
+       "Nennwert",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Laufzeit",
+       "4 Jahre",
+       "Regular",
+       null
+      ],
+      [
+       "Faktor 1 : 1,055 hoch 4 (Tab. 1)",
+       "0,807",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Ansatz",
+       "40.350 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "In Raten: Jahresrate mal Faktor aus Tabelle 2",
+      "PINK"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Hoch oder niedrig verzinst",
+     "punkte": [
+      [
+       "Ein auffälliger Zins verschiebt den Wert.",
+       "ok",
+       "Regular",
+       "§ 12 Abs. 1 S. 1 BewG"
+      ],
+      [
+       "Verwaltung: unter 3 % oder über 9 %, Kündigung mindestens vier Jahre ausgeschlossen.",
+       "warn",
+       "Regular",
+       "Ländererlasse vom 10.10.2010"
+      ],
+      [
+       "Rechnung: Mittel aus vor- und nachschüssiger Zahlung.",
+       "ok",
+       "Bold",
+       "§ 12 Abs. 1 S. 2 BewG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Selten – aber prüfen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante 1: Das zinslose Darlehen ist in zwei Jahren fällig, Faktor 0,898.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Variante 2: Es ist schon in zehn Monaten fällig.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welcher Wert jeweils?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Kurz rechnen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Zwei Jahre: 50.000 € mal 0,898 = 44.900 €.",
+       "ok",
+       "Bold",
+       "§ 12 Abs. 3 BewG"
+      ],
+      [
+       "Zehn Monate: Laufzeit nicht über ein Jahr, also Nennwert 50.000 €.",
+       "warn",
+       "Regular",
+       "§ 12 Abs. 1 S. 1 BewG"
+      ]
+     ],
+     "extra": [
+      "Die Ein-Jahres-Grenze zuerst prüfen",
+      "GELB",
+      null
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Kein Abschlag!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "4 Jahre zinslos: 50.000 € mal 0,807 = 40.350 €",
+      "Bis ein Jahr: Nennwert",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Uneinbringlich",
+        "a"
+       ],
+       [
+        ": null,",
+        null
+       ]
+      ],
+      [
+       [
+        "Nennwert",
+        "b"
+       ],
+       [
+        " als Start,",
+        null
+       ]
+      ],
+      [
+       [
+        "zinslos",
+        "c"
+       ],
+       [
+        ": 5,5 % ab,",
+        null
+       ]
+      ],
+      [
+       [
+        "Raten",
+        "d"
+       ],
+       [
+        ": Jahresrate.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Jahresgrenze geprüft?",
+     "teaser": "Weiterwischen: § 12 + Erlass markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§ 12 BewG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Kapitalforderungen, die nicht im § 11 bezeichnet sind, und Schulden sind",
+         null
+        ],
+        [
+         "mit dem Nennwert anzusetzen,",
+         "g1"
+        ],
+        [
+         "wenn nicht besondere Umstände einen höheren oder geringeren Wert begründen. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Forderungen, die uneinbringlich sind, bleiben außer Ansatz.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "(3)",
+       [
+        [
+         "Der Wert",
+         null
+        ],
+        [
+         "unverzinslicher Forderungen oder Schulden, deren Laufzeit mehr als ein Jahr beträgt",
+         "b1"
+        ],
+        [
+         "und die zu einem bestimmten Zeitpunkt fällig sind, ist der Betrag, der vom Nennwert nach Abzug von Zwischenzinsen unter Berücksichtigung von Zinseszinsen verbleibt. Dabei ist von einem",
+         null
+        ],
+        [
+         "Zinssatz von 5,5 Prozent",
+         "gr1"
+        ],
+        [
+         "auszugehen.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Regel",
+       "g1"
+      ],
+      [
+       "null",
+       "r1"
+      ],
+      [
+       "Voraussetzungen",
+       "b1"
+      ],
+      [
+       "Zinssatz",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "In Raten: Jahreswert mal Tabelle 2",
+      "Ländererlasse vom 10.10.2010, Tz. 1.2.1"
+     ],
+     "zweite": {
+      "kopf": "Ländererlasse vom 10.10.2010 (Auszug)",
+      "absaetze": [
+       [
+        "Tz. 1.2",
+        [
+         [
+          "[…] Besondere Umstände, die eine Bewertung abweichend vom Nennwert rechtfertigen, liegen vor, wenn die Kapitalforderungen […] unverzinslich sind und ihre Laufzeit im Besteuerungszeitpunkt mehr als ein Jahr beträgt; die Kapitalforderungen […]",
+          null
+         ],
+         [
+          "niedrig verzinst (unter 3 Prozent) oder hoch verzinst (über 9 Prozent)",
+          "r1"
+         ],
+         [
+          "sind, sowie die Kündbarkeit für längere Zeit (d. h.",
+          null
+         ],
+         [
+          "für mindestens 4 Jahre)",
+          "b1"
+         ],
+         [
+          "ausgeschlossen ist; […]",
+          null
+         ]
+        ]
+       ],
+       [
+        "Tz. 1.2.1",
+        [
+         [
+          "[…] Wird eine unverzinsliche Kapitalforderung […] in einem Betrag fällig, erfolgt die Bewertung mittels",
+          null
+         ],
+         [
+          "Tabelle 1.",
+          "g1"
+         ],
+         [
+          "[…]",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "3 % | 9 %",
+        "r1"
+       ],
+       [
+        "4 Jahre fest",
+        "b1"
+       ],
+       [
+        "0,807",
+        "g1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Darlehensforderung geerbt: Mit welchem Wert? Das Prüfschema zu § 12 BewG für Klausur 1.\n\n1. Uneinbringliche Forderungen bleiben außer Ansatz (§ 12 Abs. 2 BewG).\n2. Grundsatz: Nennwert, wenn nicht besondere Umstände einen höheren oder geringeren Wert begründen (§ 12 Abs. 1 S. 1 BewG).\n3. Unverzinslich, Laufzeit mehr als ein Jahr, Fälligkeit zu einem bestimmten Zeitpunkt: Abzinsung mit 5,5 % unter Berücksichtigung von Zinseszinsen (§ 12 Abs. 3 BewG). Bei Fälligkeit in einem Betrag: Nennwert mal Vervielfältiger (Tabelle 1), bei Tilgung in Raten: Jahresrate mal Vervielfältiger (Tabelle 2) der gleich lautenden Ländererlasse vom 10.10.2010 (BStBl I 2010 S. 810).\n4. Hohe oder niedrige Verzinsung als besonderer Umstand: nach den Ländererlassen bei unter 3 % oder über 9 %, wenn die Kündbarkeit für mindestens vier Jahre ausgeschlossen ist; Bewertung mit dem Mittelwert aus vor- und nachschüssiger Zahlungsweise (§ 12 Abs. 1 S. 2 BewG).\n\nBeispiel: 50.000 €, zinslos, fällig in vier Jahren → 50.000 € × 0,807 (= 1 : 1,055 hoch 4) = 40.350 €. Fällig in zwei Jahren → × 0,898 = 44.900 €. Fällig in zehn Monaten → Nennwert.\n\nZum Schluss: § 12 BewG und die Ländererlasse vom 10.10.2010 zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 12 Abs. 1, 2, 3 BewG",
+    "Gleich lautende Ländererlasse vom 10.10.2010, BStBl I 2010 S. 810"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Int. Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-44",
+   "themaTitel": "Wie viel Auslandssteuer lässt § 34c Abs. 1 EStG anrechnen?",
+   "figuren": {
+    "A": {
+     "name": "Yusuf",
+     "kopf": "Short 5",
+     "haut": "#B97A56",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 4"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zwanzigtausend Euro Auslandseinkünfte, achttausend Euro Steuer im Ausland gezahlt. Wie viel rechnet Deutschland an?"
+    },
+    {
+     "id": "s1",
+     "text": "Erst der Durchschnittssatz: dreißigtausend Euro deutsche Steuer auf hunderttausend Einkommen, also dreißig Prozent."
+    },
+    {
+     "id": "s2",
+     "text": "Diesen Satz auf die Auslandseinkünfte: dreißig Prozent von zwanzigtausend sind sechstausend. Das ist der Höchstbetrag."
+    },
+    {
+     "id": "s3",
+     "text": "Angerechnet werden also sechstausend, und zwar für jeden Staat getrennt."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Angerechnet wird höchstens die deutsche Steuer auf diese Einkünfte."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Auslandssteuer:",
+     "Wie viel zählt?"
+    ],
+    "pille": "§ 34c Abs. 1 EStG",
+    "figur": "A/skeptisch",
+    "name": "Yusuf",
+    "icons": [
+     [
+      "tabler:world",
+      "GELB",
+      "Deutschland"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Gezahlt im Ausland",
+      "wert": "8.000 €",
+      "farbe": "GELB",
+      "wort": "achttausend"
+     },
+     {
+      "label": "Angerechnet",
+      "wert": "?",
+      "farbe": "GRUEN",
+      "wort": "rechnet"
+     }
+    ],
+    "stempel": {
+     "text": "Nicht alles!",
+     "wort": "Deutschland"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Durchschnittssatz",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Deutsche Steuer",
+       "wert": "30.000 €",
+       "farbe": "WEISS",
+       "wort": "dreißigtausend",
+       "zs": 90
+      },
+      {
+       "typ": "block",
+       "label": "Einkommen",
+       "wert": "100.000 €",
+       "farbe": "WEISS",
+       "wort": "hunderttausend",
+       "zs": 90
+      },
+      {
+       "typ": "zahl",
+       "text": "30 %",
+       "size": 130,
+       "wort": "Prozent"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 34c Abs. 1 S. 2 EStG",
+       "wort": "Durchschnittssatz"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Erst"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Höchstbetrag",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "30 % von 20.000 €",
+       "unter": "nur die Auslandseinkünfte",
+       "wort": "zwanzigtausend",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Höchstbetrag",
+       "wert": "6.000 €",
+       "farbe": "GRUEN",
+       "wort": "sechstausend",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 34c Abs. 1 S. 1 EStG",
+       "wort": "Höchstbetrag"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "sechstausend",
+       0.9
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Je Staat",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Angerechnet",
+       "wert": "6.000 €",
+       "farbe": "GRUEN",
+       "wort": "Angerechnet",
+       "zs": 100
+      },
+      {
+       "typ": "pille",
+       "text": "2.000 € ohne Anrechnung",
+       "wort": "also",
+       "farbe": "ROT"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 68a S. 2 EStDV",
+       "wort": "Staat"
+      }
+     ],
+     "icon": [
+      "tabler:flag",
+      "GELB",
+      "Staat"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "höchstens die",
+     "deutsche Steuer",
+     "auf diese Einkünfte"
+    ],
+    "woerter": [
+     null,
+     "höchstens",
+     "deutsche",
+     "Einkünfte"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Einkünfte",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Wie viel Auslandssteuer rechnet Deutschland an? 🌍\n\n▸ Bei unbeschränkt Steuerpflichtigen wird die festgesetzte, gezahlte und um Ermäßigungsansprüche gekürzte ausländische Steuer angerechnet, aber nur auf die deutsche Einkommensteuer, die auf die Einkünfte aus diesem Staat entfällt (§ 34c Abs. 1 S. 1 EStG).\n▸ Diese deutsche Steuer: durchschnittlicher Steuersatz aus der Veranlagung (einschließlich der ausländischen Einkünfte) mal ausländische Einkünfte (§ 34c Abs. 1 S. 2 EStG).\n▸ Bei Einkünften aus mehreren Staaten wird der Höchstbetrag für jeden Staat gesondert berechnet (§ 68a S. 2 EStDV).\n\nBeispiel: 100.000 € zu versteuerndes Einkommen, 30.000 € deutsche Einkommensteuer, Durchschnittssatz 30 %. Auslandseinkünfte 20.000 € → Höchstbetrag 6.000 €. Gezahlte Auslandssteuer 8.000 € → angerechnet 6.000 €, 2.000 € bleiben ohne Anrechnung.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 34c Abs. 1 S. 1, 2 EStG",
+    "§ 68a S. 2 EStDV"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-6",
+   "frage": [
+    "Streubesitz-Dividende:",
+    "welche Grenze?"
+   ],
+   "optionen": [
+    "Unter 10 % zu Jahresbeginn",
+    "Unter 25 % zum Jahresende",
+    "Unter 1 % im Jahresmittel"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium Bangs 3",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#9AD48F",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-6",
+   "titel": [
+    "A: unter 10 %",
+    "zu Jahresbeginn"
+   ],
+   "optionen": [
+    "Unter 10 % zu Jahresbeginn",
+    "Unter 25 % zum Jahresende",
+    "Unter 1 % im Jahresmittel"
+   ],
+   "richtig": 0,
+   "text": "Dann ist die Dividende steuerpflichtig. Ein Zukauf von mindestens 10 % gilt als zu Jahresbeginn erfolgt.",
+   "norm": "§ 8b Abs. 4 S. 1, 6 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium Bangs 3",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#9AD48F",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 0,
+   "fachLabel": "Steuerberaterexamen",
+   "beitragSlot": "b1",
+   "titel": [
+    "Was 2027 anders ist"
+   ],
+   "unter": "Jahreswechsel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-21",
+   "titel": [
+    "vGA:",
+    "wo korrigieren?"
+   ],
+   "norm": "§ 8 Abs. 3 S. 2 KStG",
+   "punkte": [
+    [
+     "Bilanz bleibt, Hinzurechnung außerhalb der Bilanz.",
+     "ok",
+     "§ 8 Abs. 3 S. 2 KStG"
+    ],
+    [
+     "Beim Gesellschafter: Kapitalertrag.",
+     "ok",
+     "§ 20 Abs. 1 Nr. 1 S. 2 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Cornrows",
+     "haut": "#8D5A3B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Darlehen geerbt"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "anlass",
+   "klausur": 0,
+   "fachLabel": "Steuerberaterexamen",
+   "ueberzeile": "Jahreswechsel",
+   "titel": [
+    "Rechtsstand",
+    "2027"
+   ],
+   "text": "Ab morgen: E-Rechnung über 800.000 € Umsatz, Minijob bis 633 €.",
+   "punkte": [
+    [
+     "Gesetzestexte aktualisieren",
+     "ok"
+    ],
+    [
+     "Entwürfe nur beobachten",
+     "warn"
+    ]
+   ],
+   "figuren": {
+    "C": {
+     "kopf": "Bun",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#F9D56E",
+     "bueste": "Pointing Up"
+    }
+   },
+   "figur": "C:lacht"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-4",
+   "titel": [
+    "Unentgeltliche",
+    "Wertabgaben"
+   ],
+   "punkte": [
+    [
+     "Gegenstand entnommen: nur steuerbar nach Vorsteuerabzug.",
+     "ok",
+     "§ 3 Abs. 1b S. 2 UStG"
+    ],
+    [
+     "Privatnutzung: sonstige Leistung.",
+     "ok",
+     "§ 3 Abs. 9a Nr. 1 UStG"
+    ],
+    [
+     "Bemessung: Einkaufspreis oder Ausgaben.",
+     "warn",
+     "§ 10 Abs. 4 S. 1 Nr. 1, 2 UStG"
+    ]
+   ],
+   "icon": "tabler:shopping-bag",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Auslandssteuer: Wie viel zählt?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-wl-02",
+   "titel": [
+    "Versorgungsleistungen",
+    "abziehbar?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Begünstigtes ",
+      null
+     ],
+     [
+      "Vermögen",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "lebenslang",
+      "b"
+     ],
+     [
+      " gezahlt,",
+      null
+     ]
+    ],
+    [
+     [
+      "Empfänger",
+      "c"
+     ],
+     [
+      " unbeschränkt",
+      null
+     ]
+    ],
+    [
+     [
+      "steuerpflichtig.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 10 Abs. 1a Nr. 2 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Shaved 3",
+     "haut": "#E9C29B",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 2",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

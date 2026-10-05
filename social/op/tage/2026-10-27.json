@@ -1,0 +1,1323 @@
+{
+ "datum": "2026-10-27",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b05-6",
+   "themaTitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
+   "figuren": {
+    "A": {
+     "name": "Lotte",
+     "kopf": "Long",
+     "haut": "#F6D5BF",
+     "haar": "#D9B26A",
+     "oberteil": "#F28C8C",
+     "bueste": "Tee 1"
+    },
+    "B": {
+     "name": "Tjark",
+     "kopf": "Medium Straight",
+     "haut": "#B07A55",
+     "haar": "#2E241D",
+     "oberteil": "#9BD3A8",
+     "brille": "Glasses 5",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Beratung aus",
+      "Utrecht: Wer zahlt?"
+     ],
+     "norm": "§ 3a Abs. 2 UStG",
+     "unter": "Ort und Steuer",
+     "teaser": "+ Markier-Guide §§ 3a, 13b UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Rechnung",
+        "Bold",
+        44
+       ],
+       [
+        "10.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "netto, B2B",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg",
+     "schritte": [
+      [
+       "Sonderregel?",
+       "§ 3a Abs. 3 bis 8 UStG",
+       ""
+      ],
+      [
+       "Empfänger ist Unternehmer",
+       "§ 3a Abs. 2 S. 1 UStG",
+       ""
+      ],
+      [
+       "Ort: Sitz des Empfängers",
+       "§ 3a Abs. 2 S. 1, 2 UStG",
+       ""
+      ],
+      [
+       "Wer schuldet die Steuer?",
+       "§ 13b Abs. 1, 5 S. 1 UStG",
+       ""
+      ],
+      [
+       "Vorsteuer gegenrechnen",
+       "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: §§ 3a, 13b UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Lotte führt eine Designagentur in Utrecht.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Im Mai 2026 berät sie die Ketelsen GmbH in Kiel zu einer Kampagne. Honorar: 10.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die GmbH gibt ihre deutsche USt-IdNr. an.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Lotte!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wo ist die Beratung ausgeführt?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Wer schuldet wie viel Umsatzsteuer, und was zahlt die GmbH am Ende?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Tjark, Buchhaltung Ketelsen"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1 bis 3: der Ort",
+     "punkte": [
+      [
+       "Keine Sonderregel: kein Grundstück, keine Beförderung, keine Veranstaltung.",
+       "ok",
+       "Regular",
+       "§ 3a Abs. 3 UStG"
+      ],
+      [
+       "Die GmbH ist Unternehmerin und bezieht für ihr Unternehmen.",
+       "ok",
+       "Regular",
+       "§ 3a Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Ort: Kiel, also Inland. Steuerbar und steuerpflichtig.",
+       "ok",
+       "Bold",
+       "§ 1 Abs. 1 Nr. 1 UStG"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Der Kunde zählt"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Schritt 4 und 5: rechnen",
+     "normen": [
+      "§ 13b Abs. 1, 5 S. 1 UStG",
+      "§ 15 Abs. 1 S. 1 Nr. 4 UStG"
+     ],
+     "zeilen": [
+      [
+       "Honorar netto",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "USt 19 %, Schuldnerin: GmbH",
+       "1.900 €",
+       "Bold",
+       "ROT"
+      ],
+      [
+       "Vorsteuer der GmbH",
+       "− 1.900 €",
+       "Bold",
+       "GRUEN"
+      ],
+      [
+       "Zahllast",
+       "0 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Voller Vorsteuerabzug: Es bleibt bei null",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Wann entsteht die Steuer?",
+     "punkte": [
+      [
+       "Nicht erst mit der Rechnung!",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Mit Ablauf des Voranmeldungszeitraums der Leistung, hier also Ende Mai.",
+       "warn",
+       "Regular",
+       "§ 13b Abs. 1 UStG"
+      ],
+      [
+       "Gleicher Zeitraum für den Vorsteuerabzug.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1 S. 1 Nr. 4 UStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Rechnung kommt im Juli"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Und andersherum?",
+     "links": {
+      "kopf": "Utrecht berät Kiel",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Ort Inland, GmbH schuldet",
+        "§ 13b Abs. 5 S. 1 UStG"
+       ],
+       [
+        "Lotte weist keine deutsche USt aus",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Kiel berät Utrecht",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Ort Niederlande, in Deutschland nicht steuerbar",
+        "§ 3a Abs. 2 S. 1 UStG"
+       ],
+       [
+        "Rechnungshinweis und Zusammenfassende Meldung",
+        "§ 14a Abs. 1, § 18a Abs. 2 UStG"
+       ]
+      ]
+     },
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Spiegelbildlich!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "1.900 € USt − 1.900 € Vorsteuer = 0 €",
+      "Die GmbH schuldet und zieht ab",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "B2B: Ort beim ",
+        null
+       ],
+       [
+        "Kunden",
+        "a"
+       ]
+      ],
+      [
+       [
+        "der ",
+        null
+       ],
+       [
+        "Kunde schuldet",
+        "b"
+       ]
+      ],
+      [
+       [
+        "Stichtag: ",
+        null
+       ],
+       [
+        "Ende des Monats",
+        "c"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Prüfst du Sonderregeln zuerst?",
+     "teaser": "Weiterwischen: §§ 3a, 13b UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 3a, 13b UStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 3a (2)",
+       [
+        [
+         "Eine sonstige Leistung, die",
+         null
+        ],
+        [
+         "an einen Unternehmer für dessen Unternehmen",
+         "b1"
+        ],
+        [
+         "ausgeführt wird, wird",
+         null
+        ],
+        [
+         "vorbehaltlich der Absätze 3 bis 8 und der §§ 3b und 3e",
+         "r1"
+        ],
+        [
+         "an dem Ort ausgeführt,",
+         null
+        ],
+        [
+         "von dem aus der Empfänger sein Unternehmen betreibt.",
+         "g1"
+        ],
+        [
+         "Wird die sonstige Leistung an die",
+         null
+        ],
+        [
+         "Betriebsstätte",
+         "gr1"
+        ],
+        [
+         "eines Unternehmers ausgeführt, ist stattdessen der Ort der Betriebsstätte maßgebend. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 13b (1)",
+       [
+        [
+         "Für nach § 3a Absatz 2 im Inland steuerpflichtige sonstige Leistungen eines im übrigen Gemeinschaftsgebiet ansässigen Unternehmers",
+         null
+        ],
+        [
+         "entsteht die Steuer mit Ablauf des Voranmeldungszeitraums,",
+         "g2"
+        ],
+        [
+         "in dem die Leistungen ausgeführt worden sind.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 13b (5) 1",
+       [
+        [
+         "In den in den Absätzen 1 und 2 Nummer 1 bis 3 genannten Fällen",
+         null
+        ],
+        [
+         "schuldet der Leistungsempfänger die Steuer,",
+         "r2"
+        ],
+        [
+         "wenn er ein Unternehmer oder eine juristische Person ist; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Sonderregeln zuerst!",
+       "r1"
+      ],
+      [
+       "Sitz des Kunden",
+       "g1"
+      ],
+      [
+       "Ende Mai",
+       "g2"
+      ],
+      [
+       "GmbH schuldet",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "Zahllast: 1.900 € − 1.900 € = 0 €",
+      "Vorsteuer im selben Monat"
+     ]
+    }
+   ],
+   "caption": "Rechenweg Umsatzsteuer: Beratung aus Utrecht für eine GmbH in Kiel – wo ist der Ort, wer zahlt?\n\n1. Vorrangige Sonderregeln ausschließen (§ 3a Abs. 3 bis 8, §§ 3b, 3e UStG).\n2. Empfänger ist Unternehmer und bezieht für sein Unternehmen (§ 3a Abs. 2 S. 1 UStG).\n3. Ort: dort, von wo aus der Empfänger sein Unternehmen betreibt, bei Leistung an eine Betriebsstätte deren Ort (§ 3a Abs. 2 S. 1, 2 UStG). Hier Kiel, also steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n4. Die GmbH schuldet die Steuer als Leistungsempfängerin (§ 13b Abs. 1, Abs. 5 S. 1 UStG): 19 % von 10.000 € = 1.900 €. Entstehung mit Ablauf des Voranmeldungszeitraums der Leistung (§ 13b Abs. 1 UStG).\n5. Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG), Zahllast 0 €.\n\nAndersherum (Kiel berät Utrecht): Ort in den Niederlanden, Rechnung mit Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 1 UStG), Angabe in der Zusammenfassenden Meldung (§ 18a Abs. 2 UStG).\n\nZum Schluss: § 3a Abs. 2, § 13b Abs. 1, 5 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 3a Abs. 2, 3 UStG",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 13b Abs. 1, 5 S. 1 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+    "§ 14a Abs. 1 UStG",
+    "§ 18a Abs. 2 UStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "minifall",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-30",
+   "themaTitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
+   "figuren": {
+    "A": {
+     "name": "Nele",
+     "kopf": "Bantu Knots",
+     "haut": "#6E4630",
+     "haar": "#141010",
+     "oberteil": "#7EC8C0",
+     "bueste": "Sweater Dots"
+    },
+    "B": {
+     "name": "Ruben",
+     "kopf": "Pomp",
+     "haut": "#EFC9A9",
+     "haar": "#4A3426",
+     "oberteil": "#B7A6E8",
+     "bart": "Moustache 4",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Freistellen oder",
+      "anrechnen?"
+     ],
+     "norm": "Art. 23 A OECD-MA",
+     "unter": "1 Fall, 2 Wege",
+     "teaser": "+ Markier-Guide §§ 32b, 32d EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:arrows-split",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Sachverhalt",
+     "punkte": [
+      [
+       "Nele wohnt in Bremen. In einem Drittstaat vermietet sie eine Wohnung: Überschuss 18.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Dort bekommt sie auch 2.000 € Zinsen, 10 % Quellensteuer sind einbehalten. Sparer-Pauschbetrag: verbraucht.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Das DBA folgt dem OECD-Muster mit Freistellungsmethode.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Doppelt zahlen?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie behandelt Deutschland die Miete?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und wie die Zinsen samt Quellensteuer?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ruben, Neles Berater"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Erst verteilen",
+     "punkte": [
+      [
+       "Miete: Der Belegenheitsstaat darf besteuern.",
+       "ok",
+       "Regular",
+       "Art. 6 Abs. 1 OECD-MA"
+      ],
+      [
+       "Zinsen: Bremen darf besteuern, der Quellenstaat höchstens 10 %.",
+       "ok",
+       "Regular",
+       "Art. 11 Abs. 1, 2 OECD-MA"
+      ],
+      [
+       "Der Verteilungsartikel sagt noch nicht, wie Deutschland entlastet.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Dann die Methode"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: Miete",
+     "punkte": [
+      [
+       "Deutschland stellt die 18.000 € frei.",
+       "ok",
+       "Bold",
+       "Art. 23 A Abs. 1 OECD-MA"
+      ],
+      [
+       "Sie erhöhen aber den Steuersatz auf das übrige Einkommen.",
+       "warn",
+       "Regular",
+       "§ 32b Abs. 1 S. 1 Nr. 3 EStG"
+      ]
+     ],
+     "extra": [
+      "Freistellung mit Progressionsvorbehalt",
+      "GELB",
+      null
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Frei, aber teurer"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Zinsen",
+     "normen": [
+      "Art. 23 A Abs. 2 OECD-MA",
+      "§ 32d Abs. 5 EStG"
+     ],
+     "zeilen": [
+      [
+       "Zinsen",
+       "2.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Abgeltungsteuer 25 %",
+       "500 €",
+       "Regular",
+       null
+      ],
+      [
+       "Anrechnung 10 %",
+       "− 200 €",
+       "Bold",
+       "GRUEN"
+      ],
+      [
+       "Deutsche Steuer",
+       "300 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Zinsen bleiben voll steuerpflichtig",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Wohnung in der EU?",
+     "punkte": [
+      [
+       "Dann entfällt der Progressionsvorbehalt für die Miete.",
+       "nein",
+       "Bold",
+       "§ 32b Abs. 1 S. 2 Nr. 3 EStG"
+      ],
+      [
+       "Er gilt nur, wenn die Wohnung in einem Drittstaat liegt.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Lage entscheidet!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Miete frei mit Progression · Zinsen 300 € Steuer",
+      "Verteilen, dann Methode, dann nationales Recht",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Erst ",
+        null
+       ],
+       [
+        "verteilen",
+        "a"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "Methodenartikel",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "dann ",
+        null
+       ],
+       [
+        "§ 32b",
+        "c"
+       ],
+       [
+        " oder ",
+        null
+       ],
+       [
+        "§ 32d",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Endet deine DBA-Prüfung zu früh?",
+     "teaser": "Weiterwischen: §§ 32b, 32d EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 32b EStG Progressionsvorbehalt (Auszug)",
+     "absaetze": [
+      [
+       "(1) 1",
+       [
+        [
+         "Hat ein zeitweise oder während des gesamten Veranlagungszeitraums unbeschränkt Steuerpflichtiger […] 3.",
+         null
+        ],
+        [
+         "Einkünfte, die nach einem Abkommen zur Vermeidung der Doppelbesteuerung steuerfrei sind,",
+         "g1"
+        ],
+        [
+         "[…] bezogen, so ist auf das nach § 32a Absatz 1 zu versteuernde Einkommen",
+         null
+        ],
+        [
+         "ein besonderer Steuersatz",
+         "gr1"
+        ],
+        [
+         "anzuwenden.",
+         null
+        ]
+       ]
+      ],
+      [
+       "2",
+       [
+        [
+         "Satz 1 Nummer 3 gilt nicht für Einkünfte […] 3.",
+         "r1"
+        ],
+        [
+         "aus der Vermietung oder der Verpachtung von unbeweglichem Vermögen oder von Sachinbegriffen, wenn diese in einem anderen Staat als in einem Drittstaat belegen sind, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "DBA-frei",
+       "g1"
+      ],
+      [
+       "nur der Satz",
+       "gr1"
+      ],
+      [
+       "EU-Ausnahme",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 32d Abs. 5 EStG",
+      "Anrechnung bei Kapitalerträgen, höchstens 25 %"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 32d EStG (Auszug)",
+     "absaetze": [
+      [
+       "(5) 1",
+       [
+        [
+         "In den Fällen der Absätze 3 und 4 ist bei unbeschränkt Steuerpflichtigen, die mit ausländischen Kapitalerträgen in dem Staat, aus dem die Kapitalerträge stammen, zu einer der deutschen Einkommensteuer entsprechenden Steuer herangezogen werden, die auf ausländische Kapitalerträge festgesetzte und",
+         null
+        ],
+        [
+         "gezahlte",
+         "g1"
+        ],
+        [
+         "und um einen entstandenen Ermäßigungsanspruch gekürzte ausländische Steuer,",
+         null
+        ],
+        [
+         "jedoch höchstens 25 Prozent",
+         "r1"
+        ],
+        [
+         "ausländische Steuer auf den einzelnen steuerpflichtigen Kapitalertrag,",
+         null
+        ],
+        [
+         "auf die deutsche Steuer anzurechnen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur gezahlte",
+       "g1"
+      ],
+      [
+       "Deckel",
+       "r1"
+      ],
+      [
+       "Nele: − 200 €",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Nele: 500 € − 200 € = 300 €",
+      "10 % Quellensteuer voll anrechenbar"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer (Sparer-Pauschbetrag schon verbraucht, § 20 Abs. 9 EStG). DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: §§ 32b, 32d Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "Art. 6 Abs. 1 OECD-MA",
+    "Art. 11 Abs. 1, 2 OECD-MA",
+    "Art. 23 A Abs. 1, 2 OECD-MA",
+    "§ 32b Abs. 1 S. 1 Nr. 3, S. 2 Nr. 3 EStG",
+    "§ 32d Abs. 5 EStG",
+    "§ 20 Abs. 9 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-formel-schuldzinsen",
+   "themaTitel": "Nicht abziehbare Schuldzinsen",
+   "figuren": {
+    "A": {
+     "name": "Malte",
+     "kopf": "No Hair 1",
+     "haut": "#C58C67",
+     "oberteil": "#F2B544",
+     "bart": "Full 4",
+     "bueste": "Coffee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zehntausend Euro Zinsen, alles abziehbar? Für den Maschinenkredit ja. Beim Kontokorrent zählen deine Entnahmen."
+    },
+    {
+     "id": "s1",
+     "text": "Überentnahme heißt: Du entnimmst mehr, als Gewinn und Einlagen ausmachen. Sechs Prozent davon gelten als nicht abziehbar."
+    },
+    {
+     "id": "s2",
+     "text": "Dreißigtausend Euro Überentnahme ergeben achtzehnhundert Euro. Höchstens aber die Zinsen minus zweitausendfünfzig Euro."
+    },
+    {
+     "id": "s3",
+     "text": "Die Maschinenzinsen bleiben außen vor. Und die Hinzurechnung läuft außerhalb der Bilanz."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Investitionskredit frei, Überentnahme kostet."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "10.000 € Zinsen.",
+     "Alles abziehbar?"
+    ],
+    "pille": "§ 4 Abs. 4a EStG",
+    "figur": "A/skeptisch",
+    "name": "Malte",
+    "icons": [
+     [
+      "tabler:coins",
+      "GELB",
+      "Maschinenkredit"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Maschinenkredit",
+      "wert": "abziehbar",
+      "farbe": "GRUEN",
+      "wort": "Maschinenkredit"
+     },
+     {
+      "label": "Kontokorrent",
+      "wert": "prüfen!",
+      "farbe": "GELB",
+      "wort": "Kontokorrent"
+     }
+    ],
+    "stempel": {
+     "text": "nicht immer!",
+     "wort": "Entnahmen"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Überentnahme",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Entnahmen",
+       "unter": "größer als Gewinn + Einlagen",
+       "wort": "entnimmst",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "zahl",
+       "text": "6 %",
+       "wort": "Sechs",
+       "size": 150
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Abs. 4a S. 2, 3 EStG",
+       "wort": "Einlagen"
+      }
+     ],
+     "icon": [
+      "tabler:pig-money",
+      "GELB",
+      "entnimmst"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Rechnen mit Deckel",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "30.000 € × 6 %",
+       "wert": "1.800 €",
+       "farbe": "GELB",
+       "wort": "Dreißigtausend",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Deckel",
+       "wert": "Zinsen − 2.050 €",
+       "farbe": "WEISS",
+       "wort": "Höchstens",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Abs. 4a S. 4 EStG",
+       "wort": "minus"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Dreißigtausend"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "achtzehnhundert",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Außen vor",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Maschinenzinsen",
+       "wert": "immer abziehbar",
+       "farbe": "GRUEN",
+       "wort": "Maschinenzinsen",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Hinzurechnung",
+       "unter": "außerhalb der Bilanz",
+       "wort": "Hinzurechnung",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Abs. 4a S. 5 EStG",
+       "wort": "außen"
+      }
+     ],
+     "icon": [
+      "tabler:building-factory",
+      "GELB",
+      "Maschinenzinsen"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Investitionskredit:",
+     "frei.",
+     "Überentnahme:",
+     "kostet."
+    ],
+    "woerter": [
+     null,
+     "frei",
+     "Überentnahme",
+     "kostet"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "kostet",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Nicht abziehbare Schuldzinsen: Wann kosten Entnahmen den Zinsabzug? 💸\n\n▸ Überentnahme: Entnahmen übersteigen Gewinn plus Einlagen des Wirtschaftsjahres (§ 4 Abs. 4a S. 2 EStG).\n▸ Nicht abziehbar sind typisiert 6 % der Überentnahme, fortgeschrieben um Über- und Unterentnahmen der Vorjahre (§ 4 Abs. 4a S. 3 EStG).\n▸ Hinzugerechnet wird höchstens der um 2.050 € verminderte Betrag der Schuldzinsen des Wirtschaftsjahres (§ 4 Abs. 4a S. 4 EStG). Beispiel: 30.000 € Überentnahme × 6 % = 1.800 €.\n▸ Zinsen für Darlehen zur Finanzierung von Anlagevermögen bleiben unberührt abziehbar (§ 4 Abs. 4a S. 5 EStG).\n▸ Die Hinzurechnung erfolgt außerbilanziell; bei Einnahmenüberschussrechnung gilt die Regel sinngemäß (§ 4 Abs. 4a S. 6 EStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 4 Abs. 4a S. 1–6 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-11",
+   "frage": [
+    "Anzahlung erhalten:",
+    "Wann entsteht die USt?"
+   ],
+   "optionen": [
+    "Mit der Lieferung",
+    "Mit der Rechnung",
+    "Mit der Vereinnahmung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 3",
+     "haut": "#E3B48F",
+     "haar": "#7A4A2A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-11",
+   "titel": [
+    "C: schon mit",
+    "dem Geld"
+   ],
+   "optionen": [
+    "Mit der Lieferung",
+    "Mit der Rechnung",
+    "Mit der Vereinnahmung"
+   ],
+   "richtig": 2,
+   "text": "Bei Sollbesteuerung: mit Ablauf des Voranmeldungszeitraums, in dem die Anzahlung eingeht.",
+   "norm": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Medium 3",
+     "haut": "#E3B48F",
+     "haar": "#7A4A2A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Beratung aus Utrecht"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-503",
+   "titel": [
+    "Gemischte",
+    "Schenkung"
+   ],
+   "norm": "R E 7.4 Abs. 1 ErbStR",
+   "punkte": [
+    [
+     "Bereicherung = Steuerwert der Leistung minus Gegenleistung und Auflagen.",
+     "ok",
+     "§ 10 Abs. 1 S. 1 ErbStG"
+    ],
+    [
+     "Abzüge auch mit dem Steuerwert, nicht mit dem Verkehrswert.",
+     "warn",
+     "§ 12 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Medium",
+     "haut": "#F0CDB0",
+     "oberteil": "#E9B872",
+     "brille": "Glasses 3",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Freistellen oder anrechnen?"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst die Frage,",
+    "dann der Fall"
+   ],
+   "punkte": [
+    [
+     "Aufgabenstellung zuerst lesen",
+     "ok",
+     null
+    ],
+    [
+     "Dann den Sachverhalt mit Stift",
+     "ok",
+     null
+    ],
+    [
+     "Jede Zahl hat meist eine Aufgabe",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:zoom-question",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Cornrows",
+     "haut": "#5E3B26",
+     "haar": "#141010",
+     "oberteil": "#F2C14E"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-10",
+   "titel": [
+    "KSt-Einkommen:",
+    "Wo starten?"
+   ],
+   "punkte": [
+    [
+     "Beim Gewinn laut Steuerbilanz",
+     "ok",
+     "§ 8 Abs. 1 S. 1 KStG"
+    ],
+    [
+     "Dann außerhalb der Bilanz korrigieren",
+     "ok",
+     "§ 8 Abs. 3 S. 2, § 10 KStG"
+    ]
+   ],
+   "icon": "tabler:route",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Long Afro",
+     "haut": "#8A5A3C",
+     "haar": "#1C1410",
+     "oberteil": "#A9D6E5"
+    }
+   },
+   "figur": "K/ruhig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "10.000 € Zinsen abziehbar?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-5-06",
+   "titel": [
+    "GmbH wird KG:",
+    "Was gilt als bezogen?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Eigenkapital",
+      "a"
+     ]
+    ],
+    [
+     [
+      "minus ",
+      null
+     ],
+     [
+      "Einlagekonto",
+      "b"
+     ]
+    ],
+    [
+     [
+      "gilt als ",
+      null
+     ],
+     [
+      "ausgeschüttet",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 7 S. 1 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Short 3",
+     "haut": "#D8A47F",
+     "haar": "#3A2A20",
+     "oberteil": "#F6C6D0",
+     "bart": "Chin",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

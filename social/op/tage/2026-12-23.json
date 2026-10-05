@@ -1,0 +1,1255 @@
+{
+ "datum": "2026-12-23",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "fehlerfalle",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-301",
+   "themaTitel": "Ablauf des Besteuerungsverfahrens: von der Steuerentstehung bis zur Festsetzungsverjährung",
+   "figuren": {
+    "A": {
+     "name": "Paulina",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F1C7A5",
+     "haar": "#6B3E26",
+     "oberteil": "#F6A6A6",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Ansgar",
+     "kopf": "No Hair 1",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bart": "Moustache 3",
+     "brille": "Glasses 4",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurfalle",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Schon",
+      "verjährt?"
+     ],
+     "norm": "§ 170 Abs. 2 AO",
+     "unter": "Die Falle",
+     "teaser": "+ Markier-Guide § 170 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "DEZEMBER",
+      "tag": "31",
+      "unter": "Fristende?"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Von der Entstehung zur Verjährung",
+     "zeilen": [
+      [
+       "31.12.",
+       "Steuer entsteht",
+       "WEISS",
+       "§ 36 Abs. 1 EStG, § 38 AO"
+      ],
+      [
+       "Abgabe",
+       "Start nach Jahresende",
+       "GELB",
+       "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+      ],
+      [
+       "+ 4 Jahre",
+       "Frist läuft ab",
+       "ROT",
+       "§ 169 Abs. 2 S. 1 Nr. 2 AO"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Paulina."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Paulina hat neben ihrem Gehalt Mieteinkünfte, daher muss sie eine Erklärung abgeben.",
+       null,
+       "Regular",
+       "§ 46 Abs. 2 Nr. 1 EStG"
+      ],
+      [
+       "Die Erklärung 2021 reicht sie am 20.06.2023 ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Im Oktober 2026 will das Finanzamt ändern. Zu spät?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:skeptisch",
+     "x": 290,
+     "blase": "Ich bin Ansgar vom Finanzamt."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Falle: 2021 plus 4",
+     "punkte": [
+      [
+       "Falsch: Frist ab Ablauf 2021, Ende am 31.12.2025.",
+       "nein",
+       "Regular",
+       "§ 170 Abs. 1 AO"
+      ],
+      [
+       "Richtig: Bei Erklärungspflicht beginnt sie erst mit Ablauf des Jahres der Abgabe.",
+       "ok",
+       "Bold",
+       "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Erst ab 2023?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO"
+     ],
+     "zeilen": [
+      [
+       "Erklärung eingereicht",
+       "2023",
+       "Regular",
+       null
+      ],
+      [
+       "Fristbeginn",
+       "01.01.2024",
+       "Regular",
+       null
+      ],
+      [
+       "Dauer",
+       "4 Jahre",
+       "Regular",
+       null
+      ],
+      [
+       "Fristende",
+       "31.12.2027",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Änderung 2026 ist zulässig",
+      "GRUEN"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Paulina reicht die Erklärung 2021 nie ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wann endet die Festsetzungsfrist?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Dann nie?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung Variante",
+     "normen": [
+      "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+     ],
+     "zeilen": [
+      [
+       "Steuer entstanden",
+       "31.12.2021",
+       "Regular",
+       null
+      ],
+      [
+       "Anlauf höchstens 3 Jahre",
+       "31.12.2024",
+       "Regular",
+       null
+      ],
+      [
+       "Fristende",
+       "31.12.2028",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Spätestens dann startet sie."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Ohne Pflicht kein Aufschub",
+     "punkte": [
+      [
+       "Nur Arbeitslohn, Erklärung freiwillig: Die Anlaufhemmung greift nicht.",
+       "nein",
+       "Regular",
+       "BFH vom 14.04.2011, VI R 53/10"
+      ],
+      [
+       "Die Frist beginnt dann mit Ablauf des Entstehungsjahres.",
+       "warn",
+       "Bold",
+       "§ 170 Abs. 1 AO"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Gut zu wissen."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Erklärungspflicht verschiebt den Start",
+      "Paulina: Ende 31.12.2027, nicht 31.12.2025",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Pflicht",
+        "a"
+       ],
+       [
+        " zur Erklärung:",
+        null
+       ]
+      ],
+      [
+       [
+        "Start",
+        "b"
+       ],
+       [
+        " nach Abgabejahr,",
+        null
+       ]
+      ],
+      [
+       [
+        "höchstens 3 Jahre",
+        "c"
+       ],
+       [
+        " später.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du 2025 als Ende genommen?",
+     "teaser": "Weiterwischen: § 170 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 170 AO Beginn der Festsetzungsfrist (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Die Festsetzungsfrist beginnt",
+         null
+        ],
+        [
+         "mit Ablauf des Kalenderjahrs, in dem die Steuer entstanden ist",
+         "b1"
+        ],
+        [
+         "oder eine bedingt entstandene Steuer unbedingt geworden ist.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Abweichend von Absatz 1 beginnt die Festsetzungsfrist, wenn 1.",
+         null
+        ],
+        [
+         "eine Steuererklärung oder eine Steueranmeldung einzureichen",
+         "g1"
+        ],
+        [
+         "oder eine Anzeige zu erstatten ist,",
+         null
+        ],
+        [
+         "mit Ablauf des Kalenderjahrs, in dem die Steuererklärung, die Steueranmeldung oder die Anzeige eingereicht wird,",
+         "gr1"
+        ],
+        [
+         "spätestens jedoch mit Ablauf des dritten Kalenderjahrs,",
+         "r1"
+        ],
+        [
+         "das auf das Kalenderjahr folgt, in dem die Steuer entstanden ist, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundfall",
+       "b1"
+      ],
+      [
+       "Pflicht?",
+       "g1"
+      ],
+      [
+       "Abgabejahr",
+       "gr1"
+      ],
+      [
+       "Deckel",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 169 Abs. 1 S. 3 Nr. 1 AO",
+      "Gewahrt, wenn der Bescheid vor Fristende das Amt verlässt"
+     ]
+    }
+   ],
+   "caption": "Schon verjährt? Die Klausurfalle bei der Festsetzungsfrist.\n\n▸ Ablauf: Die Steuer entsteht mit Verwirklichung des Tatbestands, die Einkommensteuer mit Ablauf des Veranlagungszeitraums (§ 38 AO, § 36 Abs. 1 EStG). Die Festsetzungsfrist beträgt vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO).\n▸ Grundfall: Beginn mit Ablauf des Entstehungsjahres (§ 170 Abs. 1 AO).\n▸ Klausurfalle: Besteht eine Erklärungspflicht, beginnt die Frist erst mit Ablauf des Jahres, in dem die Erklärung eingereicht wird, spätestens mit Ablauf des dritten Jahres nach Entstehung (§ 170 Abs. 2 S. 1 Nr. 1 AO). Pflichtveranlagung etwa bei Nebeneinkünften über der Grenze des § 46 Abs. 2 Nr. 1 EStG.\n▸ Beispiel: ESt 2021, Abgabe 2023, Fristende 31.12.2027. Ohne Abgabe: Fristende 31.12.2028.\n▸ Bei der reinen Antragsveranlagung gibt es keine Anlaufhemmung (BFH vom 14.04.2011, VI R 53/10, BStBl 2011 II S. 746).\n▸ Die Frist ist gewahrt, wenn der Bescheid vor ihrem Ablauf den Bereich der Finanzbehörde verlassen hat (§ 169 Abs. 1 S. 3 Nr. 1 Buchst. a AO).\n\nZum Schluss: § 170 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 38 AO",
+    "§ 36 Abs. 1 EStG",
+    "§ 169 Abs. 1 S. 3 Nr. 1 Buchst. a, Abs. 2 S. 1 Nr. 2 AO",
+    "§ 170 Abs. 1, 2 S. 1 Nr. 1 AO",
+    "§ 46 Abs. 2 Nr. 1 EStG",
+    "BFH vom 14.04.2011, VI R 53/10, BStBl 2011 II S. 746"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-14",
+   "themaTitel": "Wirtschaftsgut in die Auslandsbetriebsstätte: Entstrickung prüfen",
+   "figuren": {
+    "A": {
+     "name": "Carlotta",
+     "kopf": "Bun",
+     "haut": "#D9A07A",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Yusuf",
+     "kopf": "Short 5",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bart": "Full",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Ab ins",
+      "Ausland"
+     ],
+     "norm": "§ 4 Abs. 1 S. 3 EStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide §§ 4, 4g EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Fräsmaschine",
+        "Bold",
+        44
+       ],
+       [
+        "50.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "stille Reserven",
+        "ExtraBold",
+        46
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Entstrickung prüfen",
+     "schritte": [
+      [
+       "Zuordnung wechselt?",
+       "§ 4 Abs. 1 S. 4 EStG",
+       "zur ausländischen Betriebsstätte"
+      ],
+      [
+       "Recht beschränkt?",
+       "§ 4 Abs. 1 S. 3 EStG",
+       "Freistellung oder Anrechnung"
+      ],
+      [
+       "Gemeiner Wert",
+       "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+       ""
+      ],
+      [
+       "Auf 5 Jahre verteilen?",
+       "§ 4g EStG",
+       "nur EU und EWR"
+      ]
+     ],
+     "teaser": "Am Ende: §§ 4, 4g EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Zuordnung wechselt",
+     "punkte": [
+      [
+       "Carlotta schickt eine Fräsmaschine dauerhaft in ihre Betriebsstätte im EU-Ausland.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Die Maschine gehört jetzt dorthin: Das ist der Regelfall der Entstrickung.",
+       "ok",
+       "Bold",
+       "§ 4 Abs. 1 S. 4 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Ich bin Carlotta."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Recht beschränkt?",
+     "punkte": [
+      [
+       "DBA mit Freistellung: Deutschland verliert das Besteuerungsrecht ganz.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "DBA mit Anrechnung: Es wird beschränkt. Auch das genügt.",
+       "warn",
+       "Bold",
+       "§ 4 Abs. 1 S. 3 EStG"
+      ],
+      [
+       "Folge: Es wird wie eine Entnahme behandelt.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ich bin Yusuf. Auch bei Anrechnung?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "3 · Gemeiner Wert",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 4 S. 1 Hs. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "Gemeiner Wert",
+       "90.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert",
+       "– 40.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Entstrickungsgewinn",
+       "50.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Ohne Verkauf?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Auf 5 Jahre verteilen",
+     "punkte": [
+      [
+       "Auf Antrag ein Ausgleichsposten, je Wirtschaftsgut getrennt.",
+       "ok",
+       "Regular",
+       "§ 4g Abs. 1 S. 1, 2 EStG"
+      ],
+      [
+       "Auflösung zu je einem Fünftel: 10.000 € im Jahr der Bildung und in den vier Folgejahren.",
+       "ok",
+       "Bold",
+       "§ 4g Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Nur bei EU- oder EWR-Staaten.",
+       "warn",
+       "Regular",
+       "§ 4g Abs. 1 S. 1 EStG"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Fünf gleiche Raten."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die Betriebsstätte liegt in der Schweiz, das DBA stellt frei.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel Gewinn entsteht im Jahr der Überführung?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 790,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Die Schweiz ist weder EU- noch EWR-Staat: kein Ausgleichsposten.",
+       "nein",
+       "Regular",
+       "§ 4g Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Die vollen 50.000 € sind sofort Gewinn.",
+       "warn",
+       "Bold",
+       "§ 4 Abs. 1 S. 3 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Alles auf einmal!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Überführung ins Ausland = Entnahme",
+      "Gemeiner Wert; in der EU auf 5 Jahre verteilbar",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Zuordnung",
+        "a"
+       ],
+       [
+        " weg,",
+        null
+       ]
+      ],
+      [
+       [
+        "Recht",
+        "b"
+       ],
+       [
+        " beschränkt,",
+        null
+       ]
+      ],
+      [
+       [
+        "gemeiner Wert",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "EU",
+        "d"
+       ],
+       [
+        ": fünf Jahre.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du an die Anrechnung gedacht?",
+     "teaser": "Weiterwischen: §§ 4, 4g EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 4, 4g EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 4 (1) S. 3",
+       [
+        [
+         "Einer Entnahme für betriebsfremde Zwecke steht",
+         null
+        ],
+        [
+         "der Ausschluss oder die Beschränkung",
+         "g1"
+        ],
+        [
+         "des Besteuerungsrechts der Bundesrepublik Deutschland hinsichtlich des Gewinns aus der Veräußerung oder der Nutzung eines Wirtschaftsguts gleich; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Ein Ausschluss oder eine Beschränkung des Besteuerungsrechts hinsichtlich des Gewinns aus der Veräußerung eines Wirtschaftsguts liegt insbesondere vor, wenn ein bisher einer inländischen Betriebsstätte des Steuerpflichtigen zuzuordnendes Wirtschaftsgut",
+         null
+        ],
+        [
+         "einer ausländischen Betriebsstätte zuzuordnen ist.",
+         "b1"
+        ]
+       ]
+      ],
+      [
+       "§ 4g (1) 1",
+       [
+        [
+         "Der Steuerpflichtige kann in Höhe des Unterschiedsbetrags zwischen dem Buchwert und dem nach § 6 Absatz 1 Nummer 4 Satz 1 zweiter Halbsatz anzusetzenden Wert eines Wirtschaftsguts",
+         null
+        ],
+        [
+         "auf Antrag einen Ausgleichsposten bilden,",
+         "gr1"
+        ],
+        [
+         "soweit das Besteuerungsrecht der Bundesrepublik Deutschland hinsichtlich des Gewinns aus der Veräußerung des Wirtschaftsguts",
+         null
+        ],
+        [
+         "zugunsten eines Staates im Sinne des § 36 Absatz 5 Satz 1",
+         "r1"
+        ],
+        [
+         "beschränkt oder ausgeschlossen wird (§ 4 Absatz 1 Satz 3). […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2) 1",
+       [
+        [
+         "Der Ausgleichsposten ist im Wirtschaftsjahr der Bildung und in den vier folgenden Wirtschaftsjahren",
+         null
+        ],
+        [
+         "zu jeweils einem Fünftel",
+         "b2"
+        ],
+        [
+         "gewinnerhöhend aufzulösen.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Auslöser",
+       "g1"
+      ],
+      [
+       "Regelfall",
+       "b1"
+      ],
+      [
+       "Antrag",
+       "gr1"
+      ],
+      [
+       "nur EU und EWR",
+       "r1"
+      ],
+      [
+       "10.000 € je Jahr",
+       "b2"
+      ]
+     ],
+     "randnotiz": [
+      "Schweiz: weder EU noch EWR",
+      "50.000 € sofort Gewinn"
+     ]
+    }
+   ],
+   "caption": "Wirtschaftsgut in die ausländische Betriebsstätte: das Prüfschema zur Entstrickung für Klausur 2.\n\n1. Zuordnung: Wird ein bisher der inländischen Betriebsstätte zuzuordnendes Wirtschaftsgut einer ausländischen Betriebsstätte zugeordnet, ist das der Regelfall (§ 4 Abs. 1 S. 4 EStG).\n2. Besteuerungsrecht: Ausschluss (DBA-Freistellung) oder Beschränkung (Anrechnung) steht einer Entnahme gleich (§ 4 Abs. 1 S. 3 EStG).\n3. Bewertung mit dem gemeinen Wert (§ 6 Abs. 1 Nr. 4 S. 1 Hs. 2 EStG). Beispiel: 90.000 € – 40.000 € Buchwert = 50.000 €.\n4. Auf Antrag Ausgleichsposten je Wirtschaftsgut, nur bei Beschränkung zugunsten eines EU- oder EWR-Staats; Auflösung zu je einem Fünftel im Jahr der Bildung und in den vier folgenden Wirtschaftsjahren (§ 4g Abs. 1, 2 EStG; § 36 Abs. 5 S. 1 EStG).\n\nVariante Schweiz: kein EU- oder EWR-Staat, daher kein Ausgleichsposten, 50.000 € sofort.\n\nZum Schluss: § 4 Abs. 1 und § 4g EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 4 Abs. 1 S. 3, 4 EStG",
+    "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+    "§ 4g Abs. 1, 2 EStG",
+    "§ 36 Abs. 5 S. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-formel-anschaffungsnah",
+   "themaTitel": "Anschaffungsnaher Herstellungsaufwand",
+   "figuren": {
+    "A": {
+     "name": "Levin",
+     "kopf": "Shaved 3",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#F4A3B5",
+     "bueste": "Hoodie",
+     "bart": "Goatee 2"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Levin kauft ein Gebäude für dreihunderttausend, saniert für siebenundvierzigtausendsechshundert brutto. Über der Grenze? Netto sind es vierzigtausend."
+    },
+    {
+     "id": "s1",
+     "text": "Die Grenze: fünfzehn Prozent der Gebäudekosten, hier fünfundvierzigtausend. Es zählt, was in drei Jahren nach dem Kauf anfällt."
+    },
+    {
+     "id": "s2",
+     "text": "Gerechnet ohne Umsatzsteuer. Vierzigtausend liegt darunter, also sofort abziehbarer Erhaltungsaufwand."
+    },
+    {
+     "id": "s3",
+     "text": "Liegt es darüber, wird alles zu Herstellungskosten. Jährlich übliche Wartung zählt nie mit."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: fünfzehn Prozent, drei Jahre, immer netto."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Sanierung:",
+     "anschaffungsnah?"
+    ],
+    "pille": "§ 6 Abs. 1 Nr. 1a EStG",
+    "figur": "A/sorge",
+    "name": "Levin",
+    "icons": [
+     [
+      "tabler:home-cog",
+      "GELB",
+      "Grenze"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Brutto",
+      "wert": "47.600 €",
+      "farbe": "ROT",
+      "wort": "brutto"
+     },
+     {
+      "label": "Netto",
+      "wert": "40.000 €",
+      "farbe": "GRUEN",
+      "wort": "Netto"
+     }
+    ],
+    "stempel": {
+     "text": "netto zählt!",
+     "wort": "vierzigtausend"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Grenze",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "15 % von 300.000 €",
+       "wert": "45.000 €",
+       "farbe": "GELB",
+       "wort": "fünfzehn",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "3 Jahre nach Kauf",
+       "wort": "drei",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 1 Nr. 1a S. 1 EStG",
+       "wort": "Grenze"
+      }
+     ],
+     "icon": [
+      "tabler:calendar",
+      "GELB",
+      "drei"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Netto rechnen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "ohne Umsatzsteuer",
+       "wert": "40.000 €",
+       "farbe": "GRUEN",
+       "wort": "Umsatzsteuer",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "unter 45.000 €",
+       "unter": "sofort abziehbar",
+       "wort": "Erhaltungsaufwand",
+       "farbe": "WEISS",
+       "ls": 64
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Vierzigtausend",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Darüber",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "über 15 %",
+       "wert": "Herstellungskosten",
+       "farbe": "ROT",
+       "wort": "Herstellungskosten",
+       "zs": 80
+      },
+      {
+       "typ": "text",
+       "text": "Jährliche Wartung",
+       "unter": "zählt nie mit",
+       "wort": "Wartung",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 1 Nr. 1a S. 2 EStG",
+       "wort": "Jährlich"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Herstellungskosten",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Anschaffungsnah:",
+     "15 % der Gebäudekosten,",
+     "3 Jahre,",
+     "immer netto"
+    ],
+    "woerter": [
+     null,
+     "fünfzehn",
+     "drei",
+     "netto"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "netto",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Sanierung nach dem Kauf: anschaffungsnaher Herstellungsaufwand oder sofort abziehbar? Die Falle steckt in der Umsatzsteuer. 🏠\n\n▸ Instandsetzungs- und Modernisierungsaufwand innerhalb von drei Jahren nach Anschaffung gehört zu den Herstellungskosten des Gebäudes, wenn er ohne die Umsatzsteuer 15 % der Anschaffungskosten des Gebäudes übersteigt (§ 6 Abs. 1 Nr. 1a S. 1 EStG; für Vermietungseinkünfte über § 9 Abs. 5 S. 2 EStG).\n▸ Nicht mit: Erweiterungen im Sinne des § 255 Abs. 2 S. 1 HGB und jährlich üblicherweise anfallende Erhaltungsarbeiten (§ 6 Abs. 1 Nr. 1a S. 2 EStG).\n▸ Beispiel: Gebäude 300.000 €, Grenze 45.000 €. Sanierung 47.600 € brutto = 40.000 € netto: Grenze nicht überschritten, Erhaltungsaufwand.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 6 Abs. 1 Nr. 1a EStG",
+    "§ 9 Abs. 5 S. 2 EStG",
+    "§ 255 Abs. 2 S. 1 HGB"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-10",
+   "frage": [
+    "Pauschalwert-",
+    "berichtigung: Basis?"
+   ],
+   "optionen": [
+    "Alle Forderungen brutto",
+    "Netto, ohne einzeln berichtigte",
+    "Nur überfällige Forderungen"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bangs",
+     "haut": "#E0AC8A",
+     "haar": "#3B2A20",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-10",
+   "titel": [
+    "B: netto,",
+    "ohne Einzelfälle"
+   ],
+   "optionen": [
+    "Alle Forderungen brutto",
+    "Netto, ohne einzeln berichtigte",
+    "Nur überfällige Forderungen"
+   ],
+   "richtig": 1,
+   "text": "Die Umsatzsteuer fällt nicht aus, sie wird berichtigt.",
+   "norm": "§ 17 Abs. 2 Nr. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Bangs",
+     "haut": "#E0AC8A",
+     "haar": "#3B2A20",
+     "oberteil": "#F9D56E",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Schon verjährt?"
+   ],
+   "unter": "Klausurfalle + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-5",
+   "titel": [
+    "90-%-Test:",
+    "alles oder nichts"
+   ],
+   "norm": "§ 13b Abs. 2 S. 2 ErbStG",
+   "punkte": [
+    [
+     "Verwaltungsvermögen ab 90 %: gar keine Verschonung.",
+     "nein",
+     "§ 13b Abs. 2 S. 2 ErbStG"
+    ],
+    [
+     "Gerechnet vor Schuldenabzug.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Bun",
+     "haut": "#F2D3BD",
+     "haar": "#A8A8A8",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 3",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Ab ins Ausland"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Zeitnot?",
+    "So rettest du Punkte"
+   ],
+   "punkte": [
+    [
+     "Ergebnis plus Norm statt langer Herleitung.",
+     "ok",
+     null
+    ],
+    [
+     "Keinen Teil leer lassen.",
+     "ok",
+     null
+    ],
+    [
+     "Folgefehler: mit dem eigenen Wert weiterrechnen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:clock-exclamation",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Dreads 2",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#7DD3C0"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-7",
+   "titel": [
+    "§ 8c KStG:",
+    "über 50 % weg"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Mehr als 50 % an einen Erwerber in fünf Jahren: Verluste fallen weg.",
+     "ok",
+     "§ 8c Abs. 1 S. 1 KStG"
+    ],
+    [
+     "Ausnahmen: Konzern, stille Reserven.",
+     "warn",
+     "§ 8c Abs. 1 S. 4, 5 KStG"
+    ]
+   ],
+   "icon": "tabler:chart-arrows",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Turban",
+     "haut": "#A8714D",
+     "hut": "#8DB3F2",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 4"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Brutto oder netto?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-14",
+   "titel": [
+    "Dividenden im",
+    "Betriebsvermögen?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Im ",
+      null
+     ],
+     [
+      "Betrieb",
+      "a"
+     ],
+     [
+      " keine",
+      null
+     ]
+    ],
+    [
+     [
+      "Abgeltung",
+      "b"
+     ],
+     [
+      ", sondern",
+      null
+     ]
+    ],
+    [
+     [
+      "Teileinkünfte",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 43 Abs. 5 S. 2, § 3 Nr. 40 EStG",
+   "groesse": 76,
+   "figuren": {
+    "M": {
+     "kopf": "Flat Top Long",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

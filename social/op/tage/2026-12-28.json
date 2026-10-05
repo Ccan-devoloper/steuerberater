@@ -1,0 +1,1318 @@
+{
+ "datum": "2026-12-28",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-11-03",
+   "themaTitel": "Stille Reserven übertragen: Voraussetzungen der § 6b-Rücklage",
+   "figuren": {
+    "A": {
+     "name": "Ines",
+     "kopf": "Medium Straight",
+     "haut": "#E0B48F",
+     "haar": "#4A2C1A",
+     "oberteil": "#F2B880",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Grundstück",
+      "verkauft"
+     ],
+     "norm": "§ 6b Abs. 3 EStG",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 6b EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Gewinn",
+        "Bold",
+        44
+       ],
+       [
+        "200.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Rücklage?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ines bilanziert und verkauft am 30.06.2026 ihr Lagergrundstück, seit 2012 im Betrieb.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn: Grund und Boden 120.000 €, Gebäude 80.000 €. Eine Halle ist geplant.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel Rücklage, und wofür?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Ines."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Erst die Voraussetzungen",
+     "punkte": [
+      [
+       "Gewinn: Erlös nach Kosten minus Buchwert im Verkaufszeitpunkt.",
+       "ok",
+       "Regular",
+       "§ 6b Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Mindestens sechs Jahre ununterbrochen Anlagevermögen einer inländischen Betriebsstätte.",
+       "ok",
+       "Regular",
+       "§ 6b Abs. 4 S. 1 Nr. 2 EStG"
+      ],
+      [
+       "Gewinn per Bilanz ermittelt: bei Ines erfüllt.",
+       "ok",
+       "Bold",
+       "§ 6b Abs. 4 S. 1 Nr. 1 EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Seit 2012 – passt!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Rücklage 2026",
+     "normen": [
+      "§ 6b Abs. 3 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Gewinn Grund und Boden",
+       "120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn Gebäude",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Rücklage höchstens",
+       "200.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ],
+      [
+       "In der Handelsbilanz",
+       "keine",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Erst mal geparkt."
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Welcher Gewinn wohin?",
+     "links": {
+      "kopf": "Aus Grund und Boden",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "auf Grund und Boden",
+        "§ 6b Abs. 1 S. 2 Nr. 1 EStG"
+       ],
+       [
+        "auf Gebäude",
+        "§ 6b Abs. 1 S. 2 Nr. 3 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Aus dem Gebäude",
+      "farbe": "PINK",
+      "punkte": [
+       [
+        "nur auf Gebäude",
+        "§ 6b Abs. 1 S. 2 Nr. 3 EStG"
+       ],
+       [
+        "nie auf Grund und Boden",
+        null
+       ]
+      ]
+     },
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Nicht alles passt."
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Die Fristen",
+     "zeilen": [
+      [
+       "2026",
+       "Rücklage bilden",
+       "GELB",
+       "§ 6b Abs. 3 S. 1 EStG"
+      ],
+      [
+       "bis 2030",
+       "vier Jahre reinvestieren",
+       "GRUEN",
+       "§ 6b Abs. 3 S. 2 EStG"
+      ],
+      [
+       "bis 2032",
+       "nur begonnener Neubau",
+       "GRUEN",
+       "§ 6b Abs. 3 S. 3 EStG"
+      ],
+      [
+       "sonst",
+       "auflösen + 6 % je Jahr",
+       "ROT",
+       "§ 6b Abs. 7 EStG"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "2027 kauft Ines statt der Halle ein unbebautes Grundstück für 150.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie viel Rücklage darf sie abziehen, und was bleibt stehen?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Alles auf den Boden?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Abzug nur 120.000 € aus dem Bodengewinn. Das Grundstück steht mit 30.000 €.",
+       "ok",
+       "Regular",
+       "§ 6b Abs. 1 S. 2 Nr. 1 EStG"
+      ],
+      [
+       "Die 80.000 € aus dem Gebäude bleiben Rücklage für ein Gebäude.",
+       "warn",
+       "Bold",
+       "§ 6b Abs. 3 S. 2 EStG"
+      ]
+     ],
+     "extra": [
+      "150.000 € abziehen wäre falsch",
+      "ROT",
+      null
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Nur die 120.000!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Rücklage 200.000 €, Abzug 2027: 120.000 €",
+      "Rest 80.000 € für ein Gebäude",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Sechs Jahre",
+        "a"
+       ],
+       [
+        " im Betrieb,",
+        null
+       ]
+      ],
+      [
+       [
+        "Boden",
+        "b"
+       ],
+       [
+        " geht auf beides,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gebäude",
+        "c"
+       ],
+       [
+        " nur auf Gebäude,",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst",
+        null
+       ],
+       [
+        " 6 % je Jahr.",
+        "d"
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Alles abgezogen?",
+     "teaser": "Weiterwischen: § 6b EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6b EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1) 2",
+       [
+        [
+         "Der Abzug ist zulässig bei den Anschaffungs- oder Herstellungskosten von 1.",
+         null
+        ],
+        [
+         "Grund und Boden, soweit der Gewinn bei der Veräußerung von Grund und Boden entstanden ist,",
+         "g1"
+        ],
+        [
+         "[…] 3.",
+         null
+        ],
+        [
+         "Gebäuden,",
+         "b1"
+        ],
+        [
+         "soweit der Gewinn bei der Veräußerung von Grund und Boden, […] oder Gebäuden entstanden ist,",
+         null
+        ]
+       ]
+      ],
+      [
+       "(7)",
+       [
+        [
+         "Soweit eine nach Absatz 3 Satz 1 gebildete Rücklage gewinnerhöhend aufgelöst wird, ohne dass ein entsprechender Betrag nach Absatz 3 abgezogen wird, ist der Gewinn […]",
+         null
+        ],
+        [
+         "für jedes volle Wirtschaftsjahr, in dem die Rücklage bestanden hat, um 6 Prozent",
+         "r1"
+        ],
+        [
+         "des aufgelösten Rücklagenbetrags zu erhöhen.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Boden auf Boden",
+       "g1"
+      ],
+      [
+       "Ziel für beides",
+       "b1"
+      ],
+      [
+       "Zuschlag",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Fristen: § 6b Abs. 3 S. 2, 3 EStG",
+      "vier Jahre, bei Neubau sechs"
+     ]
+    }
+   ],
+   "caption": "Neubau geplant, das alte Grundstück ist schon weg: Wie viel § 6b-Rücklage ist drin? Eine Prüfungsfrage für die Bilanzklausur.\n\n▸ Gewinn ist der Erlös nach Veräußerungskosten abzüglich des Buchwerts im Verkaufszeitpunkt (§ 6b Abs. 2 S. 1 EStG).\n▸ Voraussetzungen u. a.: Gewinnermittlung nach § 4 Abs. 1 oder § 5 EStG und mindestens sechs Jahre ununterbrochen Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 4 S. 1 Nr. 1, 2 EStG).\n▸ Ohne Reinvestition im Veräußerungsjahr: gewinnmindernde Rücklage (§ 6b Abs. 3 S. 1 EStG), nur steuerlich, daher Aufnahme in das besondere Verzeichnis (§ 5 Abs. 1 S. 2 EStG).\n▸ Gewinn aus Grund und Boden darf auf Grund und Boden und auf Gebäude, Gewinn aus Gebäuden nur auf Gebäude übertragen werden (§ 6b Abs. 1 S. 2 Nr. 1, 3 EStG).\n▸ Reinvestitionsfrist vier Wirtschaftsjahre, bei rechtzeitig begonnenem Neubau sechs (§ 6b Abs. 3 S. 2, 3, 5 EStG).\n▸ Auflösung ohne Übertragung: Gewinnzuschlag 6 % für jedes volle Wirtschaftsjahr (§ 6b Abs. 7 EStG).\n\nBeispiel: Rücklage 200.000 €. Kauf eines unbebauten Grundstücks für 150.000 €: Abzug nur 120.000 € (Bodengewinn), 80.000 € bleiben für ein Gebäude stehen.\n\nZum Schluss: § 6b EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 6b Abs. 1 S. 2 Nr. 1, 3 EStG",
+    "§ 6b Abs. 2 S. 1 EStG",
+    "§ 6b Abs. 3 S. 1–3, 5 EStG",
+    "§ 6b Abs. 4 S. 1 Nr. 1, 2 EStG",
+    "§ 6b Abs. 7 EStG",
+    "§ 5 Abs. 1 S. 2 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-307",
+   "themaTitel": "Ordnungsgemäße Bekanntgabe: Zugang im Machtbereich des richtigen Empfängers",
+   "figuren": {
+    "A": {
+     "name": "Joon",
+     "kopf": "Short 4",
+     "haut": "#E9C29B",
+     "haar": "#111111",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Bescheid",
+      "wirksam?"
+     ],
+     "norm": "§ 122 AO",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide § 122 + AEAO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "JANUAR",
+      "tag": "15",
+      "unter": "Fr · Tag 4"
+     },
+     "figur": "A:fragt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Bekanntgabe in 5 Schritten",
+     "schritte": [
+      [
+       "Für wen bestimmt?",
+       "§ 122 Abs. 1 S. 1 AO",
+       ""
+      ],
+      [
+       "An wen geschickt?",
+       "§ 122 Abs. 1 S. 3, 4 AO",
+       ""
+      ],
+      [
+       "Auf welchem Weg?",
+       "§ 122 Abs. 2, § 122a AO",
+       ""
+      ],
+      [
+       "Zugegangen?",
+       "im Briefkasten, Lesen egal",
+       ""
+      ],
+      [
+       "Ab welchem Tag?",
+       "§ 122 Abs. 2 Nr. 1 AO",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 122 AO + AEAO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Für wen bestimmt?",
+     "punkte": [
+      [
+       "An den Beteiligten, für den der Bescheid bestimmt ist oder den er betrifft.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 1 S. 1 AO"
+      ],
+      [
+       "Wirksam erst mit Bekanntgabe, mit deren Inhalt.",
+       "ok",
+       "Bold",
+       "§ 124 Abs. 1 AO"
+      ],
+      [
+       "Ohne Bekanntgabe keine Einspruchsfrist.",
+       "warn",
+       "Regular",
+       "§ 355 Abs. 1 S. 1 AO"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst raus, dann gültig."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · An wen geschickt?",
+     "punkte": [
+      [
+       "Möglich: an den Steuerpflichtigen selbst oder an den Bevollmächtigten.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 1 S. 3 AO"
+      ],
+      [
+       "Liegt eine Empfangsvollmacht vor, soll er an den Bevollmächtigten gehen.",
+       "warn",
+       "Bold",
+       "§ 122 Abs. 1 S. 4 AO"
+      ],
+      [
+       "Ehegatten: eine Ausfertigung an die gemeinsame Anschrift genügt.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 7 S. 1 AO"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Und meine Beraterin?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 und 4 · Weg und Zugang",
+     "punkte": [
+      [
+       "Post, Datenabruf oder förmliche Zustellung.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 2, 5, § 122a Abs. 1 AO"
+      ],
+      [
+       "Zugang: Brief im Briefkasten. Lesen ist egal.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Urlaub hält den Zugang nicht auf. Hilft nur Wiedereinsetzung.",
+       "warn",
+       "Regular",
+       "§ 110 AO"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Ich war verreist!"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "5 · Ab wann?",
+     "zeilen": [
+      [
+       "Mo 11.01.",
+       "zur Post",
+       "WEISS",
+       null
+      ],
+      [
+       "Fr 15.01.",
+       "bekannt gegeben",
+       "GELB",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "Mo 15.02.",
+       "Einspruchsfrist endet",
+       "ROT",
+       "§ 355 Abs. 1 S. 1 AO"
+      ],
+      [
+       "Zweifel",
+       "Amt beweist Zugang",
+       "GRUEN",
+       "§ 122 Abs. 2 AO"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Joon hat seiner Beraterin schriftlich Empfangsvollmacht erteilt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Das Finanzamt schickt den Bescheid ohne besonderen Grund nur an Joon.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wann beginnt die Einspruchsfrist?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Gilt das trotzdem?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Satz 4 ohne Grund missachtet: ein Bekanntgabemangel.",
+       "nein",
+       "Regular",
+       "§ 122 Abs. 1 S. 4 AO"
+      ],
+      [
+       "Geheilt, sobald Joon den Bescheid an die Beraterin weiterleitet.",
+       "ok",
+       "Regular",
+       "AEAO zu § 122 Nr. 1.7.4"
+      ],
+      [
+       "Die Frist läuft ab dem nachweisbaren Erhalt bei der Beraterin.",
+       "ok",
+       "Bold",
+       "AEAO zu § 122 Nr. 1.7.4"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Also weiterleiten!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Post Mo 11.01., bekannt gegeben Fr 15.01.",
+      "Einspruch bis Mo 15.02.",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Richtiger",
+        "a"
+       ],
+       [
+        " Empfänger,",
+        null
+       ]
+      ],
+      [
+       [
+        "richtiger",
+        null
+       ],
+       [
+        " Weg,",
+        "b"
+       ]
+      ],
+      [
+       [
+        "Zugang",
+        "c"
+       ],
+       [
+        " im Briefkasten,",
+        null
+       ]
+      ],
+      [
+       [
+        "vierter Tag",
+        "d"
+       ],
+       [
+        " zählt.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du an die Vollmacht gedacht?",
+     "teaser": "Weiterwischen: § 122 + AEAO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§ 122 AO (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Ein Verwaltungsakt ist demjenigen Beteiligten bekannt zu geben,",
+         null
+        ],
+        [
+         "für den er bestimmt ist oder der von ihm betroffen wird.",
+         "g1"
+        ],
+        [
+         "[…] Er",
+         null
+        ],
+        [
+         "soll dem Bevollmächtigten bekannt gegeben werden,",
+         "b1"
+        ],
+        [
+         "wenn der Finanzbehörde eine schriftliche oder eine nach amtlich vorgeschriebenem Datensatz elektronisch übermittelte Empfangsvollmacht vorliegt, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Ein schriftlicher Verwaltungsakt, der durch die Post übermittelt wird, gilt als bekannt gegeben 1. bei einer Übermittlung im Inland",
+         null
+        ],
+        [
+         "am vierten Tage nach der Aufgabe zur Post,",
+         "gr1"
+        ],
+        [
+         "[…] außer wenn er nicht oder zu einem späteren Zeitpunkt zugegangen ist;",
+         null
+        ],
+        [
+         "im Zweifel hat die Behörde den Zugang des Verwaltungsakts und den Zeitpunkt des Zugangs nachzuweisen.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Inhaltsadressat",
+       "g1"
+      ],
+      [
+       "Vollmacht",
+       "b1"
+      ],
+      [
+       "Tag 4",
+       "gr1"
+      ],
+      [
+       "Beweislast",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Datenabruf: § 122a Abs. 4 AO",
+      "auch dort gilt der vierte Tag"
+     ],
+     "zweite": {
+      "kopf": "AEAO zu § 122 Nr. 1.7.4",
+      "absaetze": [
+       [
+        "S. 1",
+        [
+         [
+          "Wird ein Verwaltungsakt dem betroffenen Steuerpflichtigen bekannt gegeben und hierdurch eine von ihm erteilte Bekanntgabevollmacht zugunsten seines Bevollmächtigten",
+          null
+         ],
+         [
+          "ohne besondere Gründe",
+          "b1"
+         ],
+         [
+          "nicht beachtet, wird der Bekanntgabemangel",
+          null
+         ],
+         [
+          "durch die Weiterleitung des Verwaltungsakts an den Bevollmächtigten geheilt.",
+          "g1"
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Die Frist für einen außergerichtlichen Rechtsbehelf beginnt in dem Zeitpunkt, in dem der Bevollmächtigte den Verwaltungsakt",
+          null
+         ],
+         [
+          "nachweislich erhalten",
+          "r1"
+         ],
+         [
+          "hat […].",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "ohne Grund",
+        "b1"
+       ],
+       [
+        "Heilung",
+        "g1"
+       ],
+       [
+        "Fristbeginn",
+        "r1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Ist der Bescheid wirksam bekannt gegeben? Das Prüfschema in fünf Schritten für Klausur 1.\n\n1. Für wen bestimmt: Bekanntgabe an den Beteiligten, für den der Verwaltungsakt bestimmt ist oder der von ihm betroffen wird (§ 122 Abs. 1 S. 1 AO). Wirksam wird er erst mit der Bekanntgabe und mit deren Inhalt (§ 124 Abs. 1 AO).\n2. An wen: an den Steuerpflichtigen oder den Bevollmächtigten; bei schriftlicher oder elektronisch übermittelter Empfangsvollmacht soll an den Bevollmächtigten bekannt gegeben werden (§ 122 Abs. 1 S. 3, 4 AO). Ehegatten: eine Ausfertigung an die gemeinsame Anschrift genügt (§ 122 Abs. 7 S. 1 AO).\n3. Weg: Post (§ 122 Abs. 2 AO), Bereitstellung zum Datenabruf (§ 122a AO) oder Zustellung (§ 122 Abs. 5 AO).\n4. Zugang: Der Bescheid muss in den Machtbereich gelangt sein; ob er gelesen wird, spielt keine Rolle. Bei unverschuldeter Fristversäumnis: Wiedereinsetzung (§ 110 AO).\n5. Zeitpunkt: vierter Tag nach Aufgabe zur Post bzw. nach Bereitstellung, im Zweifel weist die Behörde den Zugang nach (§ 122 Abs. 2 Nr. 1, § 122a Abs. 4 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO).\n\nFall: Bescheid trotz Empfangsvollmacht ohne besonderen Grund an den Steuerpflichtigen: Bekanntgabemangel, geheilt durch Weiterleitung an den Bevollmächtigten; die Frist beginnt mit dem nachweislichen Erhalt dort (AEAO zu § 122 Nr. 1.7.4).\n\nZum Schluss: § 122 AO und AEAO zu § 122 Nr. 1.7.4 zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 122 Abs. 1, 2, 5, 7 AO",
+    "§ 122a Abs. 1, 4 AO",
+    "§ 124 Abs. 1 AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 110 AO",
+    "AEAO zu § 122 Nr. 1.7.3, 1.7.4"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-10",
+   "themaTitel": "CS-GmbH Ausgangsgröße",
+   "figuren": {
+    "A": {
+     "name": "Svea",
+     "kopf": "Long",
+     "haut": "#F3D0B5",
+     "haar": "#D9B26F",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Erstes GmbH-Jahr: minus siebentausend vor dem Notar, plus achtzehntausend danach. Womit rechnet die GmbH?"
+    },
+    {
+     "id": "s1",
+     "text": "Vor dem Notartermin handeln die Gründer. Diese Vorgründungsgesellschaft ist nicht die GmbH. Ihr Verlust bleibt bei den Gründern."
+    },
+    {
+     "id": "s2",
+     "text": "Ab dem Notartermin zählt die Vorgesellschaft schon zur GmbH: minus dreitausend bis zur Eintragung, plus einundzwanzigtausend danach."
+    },
+    {
+     "id": "s3",
+     "text": "Ausgangsgröße ist der Steuerbilanzgewinn ab dem Notar: achtzehntausend Euro."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Die GmbH rechnet ab dem Notar, nicht früher."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Erstes GmbH-Jahr:",
+     "Was zählt?"
+    ],
+    "pille": "§ 1 Abs. 1 Nr. 1 KStG",
+    "figur": "A/sorge",
+    "name": "Svea",
+    "icons": [
+     [
+      "tabler:file-certificate",
+      "GELB",
+      "Notar"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Vor dem Notar",
+      "wert": "−7.000 €",
+      "farbe": "ROT",
+      "wort": "siebentausend"
+     },
+     {
+      "label": "Danach",
+      "wert": "18.000 €",
+      "farbe": "GRUEN",
+      "wort": "achtzehntausend"
+     }
+    ],
+    "stempel": {
+     "text": "Nur ab Notar!",
+     "wort": "rechnet"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Vorgründung",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Gründer handeln",
+       "wort": "Gründer",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "text",
+       "text": "nicht die GmbH",
+       "unter": "eigenes Gebilde",
+       "wort": "nicht",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Verlust der Gründer",
+       "wert": "−7.000 €",
+       "farbe": "ROT",
+       "wort": "Verlust",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "H 1.1 KStH",
+       "wort": "Vorgründungsgesellschaft"
+      }
+     ],
+     "icon": [
+      "tabler:users",
+      "GELB",
+      "Gründer"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Vorgesellschaft = GmbH",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Bis zur Eintragung",
+       "wert": "−3.000 €",
+       "farbe": "ROT",
+       "wort": "dreitausend",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Danach",
+       "wert": "+21.000 €",
+       "farbe": "GRUEN",
+       "wort": "einundzwanzigtausend",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 1 Abs. 1 Nr. 1 KStG",
+       "wort": "Vorgesellschaft"
+      }
+     ],
+     "icon": [
+      "tabler:building",
+      "GELB",
+      "Notartermin"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ausgangsgröße",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Steuerbilanzgewinn",
+       "wert": "18.000 €",
+       "farbe": "GRUEN",
+       "wort": "achtzehntausend",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "R 7.1 Abs. 1 KStR",
+       "wort": "Ausgangsgröße"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "achtzehntausend",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "GmbH rechnet",
+     "ab dem Notar,",
+     "nicht früher"
+    ],
+    "woerter": [
+     null,
+     "rechnet",
+     "Notar",
+     "früher"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "früher",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Erstes Jahr einer neuen GmbH: Welcher Gewinn ist Ausgangsgröße? 🧮\n\n▸ Vor dem notariellen Gesellschaftsvertrag handelt die Vorgründungsgesellschaft. Sie ist weder mit der Vorgesellschaft noch mit der späteren GmbH identisch und – von Ausnahmen abgesehen – nicht körperschaftsteuerpflichtig. Ihr Ergebnis gehört den Gründern (H 1.1 KStH „Vorgründungsgesellschaft“).\n▸ Ab dem Notartermin besteht die Vorgesellschaft. Die Körperschaftsteuerpflicht erstreckt sich bereits auf sie (§ 1 Abs. 1 Nr. 1 KStG; H 1.1 KStH „Beginn der Steuerpflicht“).\n▸ Ausgangsgröße der Einkommensermittlung ist der Gewinn laut Steuerbilanz (R 7.1 Abs. 1 S. 2 Nr. 1 KStR).\n\nBeispiel: −7.000 € vor dem Notartermin bleiben bei den Gründern. Bei der GmbH zählen −3.000 € bis zur Eintragung und +21.000 € danach: Ausgangsgröße 18.000 €.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1 Nr. 1 KStG",
+    "H 1.1 KStH",
+    "R 7.1 Abs. 1 S. 2 Nr. 1 KStR"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-5",
+   "frage": [
+    "Verdeckte Einlage",
+    "als Ertrag gebucht?"
+   ],
+   "optionen": [
+    "Außerbilanziell abziehen",
+    "Außerbilanziell hinzurechnen",
+    "Bleibt im Gewinn"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bangs",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#C9B8F2",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-5",
+   "titel": [
+    "A: außerbilanziell",
+    "abziehen"
+   ],
+   "optionen": [
+    "Außerbilanziell abziehen",
+    "Außerbilanziell hinzurechnen",
+    "Bleibt im Gewinn"
+   ],
+   "richtig": 0,
+   "text": "Verdeckte Einlagen erhöhen das Einkommen nicht. Der gebuchte Ertrag wird neutralisiert.",
+   "norm": "§ 8 Abs. 3 S. 3 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Bangs",
+     "haut": "#C68E6A",
+     "haar": "#2A1A14",
+     "oberteil": "#C9B8F2",
+     "bueste": "Hoodie"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Grundstück verkauft"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-5-06",
+   "titel": [
+    "Umwandlung:",
+    "fiktiv ausgeschüttet"
+   ],
+   "norm": "§ 7 UmwStG",
+   "punkte": [
+    [
+     "Eigenkapital laut Steuerbilanz minus Einlagekonto nach § 29 Abs. 1 KStG.",
+     "ok",
+     "§ 7 S. 1 UmwStG"
+    ],
+    [
+     "Jeder Anteilseigner nach Quote: Kapitalertrag, auch ohne Übernahmeergebnis.",
+     "warn",
+     "§ 20 Abs. 1 Nr. 1 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Turban",
+     "haut": "#8D5A3B",
+     "oberteil": "#F9D56E",
+     "bart": "Full 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Bescheid wirksam?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "Plan bis Oktober"
+   ],
+   "punkte": [
+    [
+     "Bis März: Lücken schließen.",
+     "ok",
+     null
+    ],
+    [
+     "Ab April: jede Woche eine Klausur, sechs Stunden.",
+     "ok",
+     null
+    ],
+    [
+     "Korrekturen nachrechnen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:calendar-stats",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Bun 2",
+     "haut": "#F1C7A5",
+     "haar": "#8B4A2B",
+     "oberteil": "#7FD6D0"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-14",
+   "titel": [
+    "§ 14c UStG:",
+    "zwei Fälle"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Zu hoch: Mehrbetrag geschuldet.",
+     "ok",
+     "§ 14c Abs. 1 S. 1 UStG"
+    ],
+    [
+     "Unberechtigt: ganzer Betrag geschuldet.",
+     "warn",
+     "§ 14c Abs. 2 S. 1 UStG"
+    ],
+    [
+     "Nur an Nichtunternehmer: kein Mehrbetrag.",
+     "ok",
+     "Abschn. 14c.1 Abs. 1a UStAE"
+    ]
+   ],
+   "icon": "tabler:receipt-tax",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Shaved 2",
+     "haut": "#B97A56",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Erstes GmbH-Jahr: Was zählt?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-ve-02",
+   "titel": [
+    "Teilentgelt",
+    "im Privatvermögen"
+   ],
+   "zeilen": [
+    [
+     [
+      "Soweit ",
+      null
+     ],
+     [
+      "bezahlt",
+      "a"
+     ],
+     [
+      ": Kauf,",
+      null
+     ]
+    ],
+    [
+     [
+      "Rest",
+      "b"
+     ],
+     [
+      ": Schenkung,",
+      null
+     ]
+    ],
+    [
+     [
+      "AfA ",
+      null
+     ],
+     [
+      "getrennt",
+      "c"
+     ],
+     [
+      " rechnen.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 11d Abs. 1 EStDV",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Medium",
+     "haut": "#F0C8A8",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

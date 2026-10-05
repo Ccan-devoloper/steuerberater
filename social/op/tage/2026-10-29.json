@@ -1,0 +1,1134 @@
+{
+ "datum": "2026-10-29",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-11-03",
+   "themaTitel": "Stille Reserven übertragen: Voraussetzungen der § 6b-Rücklage",
+   "figuren": {
+    "A": {
+     "name": "Enno",
+     "kopf": "Flat Top",
+     "haut": "#E8B98F",
+     "haar": "#3A2A20",
+     "oberteil": "#F2B544",
+     "bart": "Moustache 2",
+     "bueste": "Shirt and Coat"
+    },
+    "B": {
+     "name": "Selin",
+     "kopf": "Long Curly",
+     "haut": "#C58C67",
+     "haar": "#2A1A12",
+     "oberteil": "#E9A6C9",
+     "bueste": "Device"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Stille Reserven",
+      "parken"
+     ],
+     "norm": "§ 6b EStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 6b EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Bodengewinn",
+        "Bold",
+        44
+       ],
+       [
+        "300.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "übertragen?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Begünstigt verkauft",
+       "§ 6b Abs. 1 S. 1 EStG",
+       "Grund und Boden, Gebäude"
+      ],
+      [
+       "6 Jahre Anlagevermögen",
+       "§ 6b Abs. 4 S. 1 Nr. 2 EStG",
+       "inländische Betriebsstätte"
+      ],
+      [
+       "Sofort übertragen",
+       "§ 6b Abs. 1 EStG",
+       "Vorjahr oder laufendes Jahr"
+      ],
+      [
+       "Sonst Rücklage",
+       "§ 6b Abs. 3 EStG",
+       "4 Jahre, Neubau 6 Jahre"
+      ]
+     ],
+     "teaser": "Am Ende: § 6b EStG markiert"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Wohin mit dem Gewinn?",
+     "links": {
+      "kopf": "aus Grund und Boden",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "auf Grund und Boden",
+        "§ 6b Abs. 1 S. 2 Nr. 1 EStG"
+       ],
+       [
+        "auf Gebäude",
+        "§ 6b Abs. 1 S. 2 Nr. 3 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "aus Gebäuden",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "nur auf Gebäude",
+        "§ 6b Abs. 1 S. 2 Nr. 3 EStG"
+       ],
+       [
+        "nie auf Grund und Boden",
+        null
+       ]
+      ]
+     },
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Selin: Richtung zählt!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Rücklage zu lange geparkt",
+     "punkte": [
+      [
+       "Nach vier Jahren ohne Reinvestition: gewinnerhöhend auflösen.",
+       "warn",
+       "Regular",
+       "§ 6b Abs. 3 S. 5 EStG"
+      ],
+      [
+       "Dazu 6 % je volles Wirtschaftsjahr außerhalb der Bilanz.",
+       "nein",
+       "Bold",
+       "§ 6b Abs. 7 EStG"
+      ],
+      [
+       "100.000 € vier Jahre lang: plus 24.000 €.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Enno: Teurer Aufschub"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "300.000 € Gewinn aus Grund und Boden",
+      "Halle 1 Mio. €: AfA aus 700.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "6 Jahre",
+        "a"
+       ],
+       [
+        " Anlagevermögen",
+        null
+       ]
+      ],
+      [
+       [
+        "Gebäude nur auf ",
+        null
+       ],
+       [
+        "Gebäude",
+        "b"
+       ]
+      ],
+      [
+       [
+        "4 Jahre",
+        "c"
+       ],
+       [
+        ", sonst 6 % mehr",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Frist vergessen?",
+     "teaser": "Weiterwischen: § 6b EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6b EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1) 2",
+       [
+        [
+         "Der Abzug ist zulässig bei den Anschaffungs- oder Herstellungskosten von 1.",
+         null
+        ],
+        [
+         "Grund und Boden, soweit der Gewinn bei der Veräußerung von Grund und Boden entstanden ist,",
+         "b2"
+        ],
+        [
+         "[…] 3.",
+         null
+        ],
+        [
+         "Gebäuden,",
+         "b3"
+        ],
+        [
+         "soweit der Gewinn bei der Veräußerung von Grund und Boden, […] oder Gebäuden entstanden ist,",
+         null
+        ]
+       ]
+      ],
+      [
+       "(4) 1",
+       [
+        [
+         "Voraussetzung für die Anwendung der Absätze 1 und 3 ist, dass […] 2. die veräußerten Wirtschaftsgüter im Zeitpunkt der Veräußerung",
+         null
+        ],
+        [
+         "mindestens sechs Jahre ununterbrochen zum Anlagevermögen",
+         "g1"
+        ],
+        [
+         "einer inländischen Betriebsstätte gehört haben, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(7)",
+       [
+        [
+         "Soweit eine nach Absatz 3 Satz 1 gebildete Rücklage",
+         null
+        ],
+        [
+         "gewinnerhöhend aufgelöst wird, ohne dass ein entsprechender Betrag nach Absatz 3 abgezogen wird,",
+         "r1"
+        ],
+        [
+         "ist der Gewinn des Wirtschaftsjahres, in dem die Rücklage aufgelöst wird, für jedes volle Wirtschaftsjahr, in dem die Rücklage bestanden hat,",
+         null
+        ],
+        [
+         "um 6 Prozent des aufgelösten Rücklagenbetrags zu erhöhen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Boden auf Boden",
+       "b2"
+      ],
+      [
+       "alles auf Gebäude",
+       "b3"
+      ],
+      [
+       "Haltefrist",
+       "g1"
+      ],
+      [
+       "Zuschlag",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "300.000 € Bodengewinn auf die Halle",
+      "AfA dann aus 700.000 €"
+     ]
+    }
+   ],
+   "caption": "Spickzettel Bilanzsteuerrecht: die § 6b-Rücklage auf einer Karte.\n\n▸ Begünstigt ist der Gewinn aus der Veräußerung von Grund und Boden, Aufwuchs mit Grund und Boden, Gebäuden und Binnenschiffen (§ 6b Abs. 1 S. 1 EStG).\n▸ Übertragung: Gewinn aus Grund und Boden auf Grund und Boden oder Gebäude, Gewinn aus Gebäuden nur auf Gebäude (§ 6b Abs. 1 S. 2 Nr. 1, 3 EStG); Abzug bei Anschaffung im Vorjahr oder im laufenden Jahr.\n▸ Voraussetzungen u. a.: Gewinnermittlung durch Betriebsvermögensvergleich, sechs Jahre ununterbrochen Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 4 S. 1 Nr. 1, 2 EStG).\n▸ Rücklage: Reinvestition in den folgenden vier Wirtschaftsjahren, bei rechtzeitig begonnenem Neubau sechs (§ 6b Abs. 3 EStG). Sonst gewinnerhöhende Auflösung plus 6 % je volles Wirtschaftsjahr (§ 6b Abs. 7 EStG).\n▸ AfA des neuen Wirtschaftsguts nur von den geminderten Kosten (§ 6b Abs. 6 EStG).\n\nZum Schluss: § 6b Abs. 1, 4, 7 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 6b Abs. 1, 3, 4, 6, 7 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-507",
+   "themaTitel": "Steuerberechnung: § 19 ErbStG und Härteausgleich",
+   "figuren": {
+    "A": {
+     "name": "Mira",
+     "kopf": "Bun 2",
+     "haut": "#F0CDB0",
+     "haar": "#7A4A2A",
+     "oberteil": "#F28C8C",
+     "bueste": "Tee 2"
+    },
+    "B": {
+     "name": "Kenji",
+     "kopf": "Short 1",
+     "haut": "#EAC9A6",
+     "haar": "#151515",
+     "oberteil": "#9BD3A8",
+     "brille": "Glasses 3",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Erbschaftsteuer",
+      "ausrechnen"
+     ],
+     "norm": "§ 19 ErbStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 19 ErbStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Erwerb",
+        "Bold",
+        44
+       ],
+       [
+        "310.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Steuerklasse I",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Erwerb abrunden",
+       "§ 10 Abs. 1 S. 6 ErbStG",
+       "auf volle 100 €"
+      ],
+      [
+       "Steuerklasse",
+       "§ 15 Abs. 1 ErbStG",
+       "Verhältnis zum Erblasser"
+      ],
+      [
+       "Prozentsatz ablesen",
+       "§ 19 Abs. 1 ErbStG",
+       "gilt für den ganzen Erwerb"
+      ],
+      [
+       "Härteausgleich",
+       "§ 19 Abs. 3 ErbStG",
+       "knapp über der Grenze?"
+      ]
+     ],
+     "teaser": "Am Ende: § 19 ErbStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 1 bis 3",
+     "punkte": [
+      [
+       "Erst Freibetrag abziehen, dann auf volle 100 € abrunden.",
+       "ok",
+       "Regular",
+       "§ 10 Abs. 1 S. 6 ErbStG"
+      ],
+      [
+       "Kind: Steuerklasse I, Freibetrag 400.000 €.",
+       "ok",
+       "Regular",
+       "§ 15 Abs. 1, § 16 Abs. 1 Nr. 2 ErbStG"
+      ],
+      [
+       "Der Satz gilt für den ganzen Erwerb, nicht nur für den Teil über der Grenze.",
+       "warn",
+       "Bold",
+       "§ 19 Abs. 1 ErbStG"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Kenji, Steuerberater"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Mira, 34, erbt von ihrem Vater.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ihre Bereicherung beträgt 710.050 €.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Weitere Freibeträge und Vorerwerbe gibt es nicht.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Mira"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie hoch ist Miras Erbschaftsteuer?",
+       null,
+       "ExtraBold",
+       null
+      ],
+      [
+       "Denk an den letzten Schritt.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Wie viel bleibt mir?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Schritt 1 bis 3",
+     "normen": [
+      "§§ 10, 16, 19 Abs. 1 ErbStG"
+     ],
+     "zeilen": [
+      [
+       "Bereicherung",
+       "710.050 €",
+       "Regular",
+       null
+      ],
+      [
+       "Freibetrag Kind",
+       "− 400.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Erwerb, abgerundet",
+       "310.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Steuer 15 %",
+       "46.500 €",
+       "ExtraBold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "Nur 10.000 € über 300.000 €",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Härteausgleich",
+     "normen": [
+      "§ 19 Abs. 3 Buchst. a ErbStG"
+     ],
+     "zeilen": [
+      [
+       "300.000 € × 11 %",
+       "33.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Hälfte von 10.000 €",
+       "+ 5.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Höchstbetrag",
+       "38.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Erbschaftsteuer",
+       "38.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Ersparnis: 8.500 €",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Statt 46.500 € nur 38.000 € Steuer",
+      "Steuer bis zur Grenze plus Hälfte des Überschusses",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Satz gilt fürs ",
+        null
+       ],
+       [
+        "Ganze",
+        "a"
+       ]
+      ],
+      [
+       [
+        "knapp drüber?",
+        null
+       ]
+      ],
+      [
+       [
+        "Härteausgleich",
+        "b"
+       ],
+       [
+        " rechnen",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Rechnest du den Vergleich immer mit?",
+     "teaser": "Weiterwischen: § 19 ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 19 ErbStG Steuersätze (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "Der Unterschied zwischen der Steuer, die sich bei Anwendung des Absatzes 1 ergibt, und der Steuer, die sich berechnen würde,",
+         null
+        ],
+        [
+         "wenn der Erwerb die letztvorhergehende Wertgrenze nicht überstiegen hätte,",
+         "g1"
+        ],
+        [
+         "wird nur insoweit erhoben, als er a)",
+         null
+        ],
+        [
+         "bei einem Steuersatz bis zu 30 Prozent aus der Hälfte,",
+         "gr1"
+        ],
+        [
+         "b)",
+         null
+        ],
+        [
+         "bei einem Steuersatz über 30 Prozent aus drei Vierteln,",
+         "b1"
+        ],
+        [
+         "des die Wertgrenze übersteigenden Betrags gedeckt werden kann.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Vergleichssteuer",
+       "g1"
+      ],
+      [
+       "Satz bis 30 %",
+       "gr1"
+      ],
+      [
+       "Satz über 30 %",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Wertgrenzen in der Tabelle",
+      "des Abs. 1 farbig umkreisen"
+     ]
+    }
+   ],
+   "caption": "Prüfschema Erbschaftsteuer: die Steuer in 4 Schritten ausrechnen.\n\n1. Steuerpflichtigen Erwerb auf volle 100 € abrunden (§ 10 Abs. 1 S. 6 ErbStG).\n2. Steuerklasse bestimmen (§ 15 Abs. 1 ErbStG); Kinder: Steuerklasse I, Freibetrag 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG).\n3. Prozentsatz aus der Tabelle ablesen; er gilt für den gesamten Erwerb (§ 19 Abs. 1 ErbStG).\n4. Härteausgleich: Liegt der Erwerb knapp über einer Wertgrenze, wird der Mehrbetrag nur erhoben, soweit er bei Steuersätzen bis 30 % aus der Hälfte, darüber aus drei Vierteln des übersteigenden Betrags gedeckt werden kann (§ 19 Abs. 3 ErbStG).\n\nBeispiel: Erwerb 310.000 €, Steuerklasse I. 15 % = 46.500 €. Vergleich: 300.000 € × 11 % = 33.000 € plus Hälfte von 10.000 € = 38.000 €. Festzusetzen sind 38.000 €.\n\nZum Schluss: § 19 Abs. 3 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 10 Abs. 1 S. 6 ErbStG",
+    "§ 15 Abs. 1 ErbStG",
+    "§ 16 Abs. 1 Nr. 2 ErbStG",
+    "§ 19 Abs. 1, 3 ErbStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-ve-03",
+   "themaTitel": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn?",
+   "figuren": {
+    "A": {
+     "name": "Ilyas",
+     "kopf": "Short 3",
+     "haut": "#B07A55",
+     "haar": "#1E1612",
+     "oberteil": "#7FB8E6",
+     "bart": "Goatee 1",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Mutter übergibt ihren Betrieb, der Sohn zahlt hundertfünfzigtausend Euro. Gewinn? Vergleiche mit dem Kapitalkonto."
+    },
+    {
+     "id": "s1",
+     "text": "Beim ganzen Betrieb gilt: Eine Zahlung unter dem Kapitalkonto von zweihunderttausend Euro bleibt neutral."
+    },
+    {
+     "id": "s2",
+     "text": "Zahlt er zweihundertfünfzigtausend, entstehen fünfzigtausend Euro Veräußerungsgewinn, und der ist begünstigt."
+    },
+    {
+     "id": "s3",
+     "text": "Bei einem einzelnen Grundstück wird dagegen aufgeteilt. Dort zählen auch übernommene Schulden als Entgelt."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Betrieb gegen Kapitalkonto, Einzelstück nach Quote."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Betrieb gegen",
+     "150.000 €: Gewinn?"
+    ],
+    "pille": "vorweggenommene Erbfolge",
+    "figur": "A/skeptisch",
+    "name": "Ilyas",
+    "icons": [
+     [
+      "tabler:building-factory",
+      "GELB",
+      "Kapitalkonto"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Zahlung",
+      "wert": "150.000 €",
+      "farbe": "GELB",
+      "wort": "hundertfünfzigtausend"
+     },
+     {
+      "label": "Kapitalkonto",
+      "wert": "200.000 €",
+      "farbe": "GRUEN",
+      "wort": "Kapitalkonto"
+     }
+    ],
+    "stempel": {
+     "text": "Vergleichen!",
+     "wort": "Vergleiche"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Unter dem Kapitalkonto",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "150.000 € < 200.000 €",
+       "wert": "kein Gewinn",
+       "farbe": "GRUEN",
+       "wort": "unter",
+       "zs": 96
+      },
+      {
+       "typ": "text",
+       "text": "Buchwerte fortführen",
+       "unter": "Einheitstheorie beim Betrieb",
+       "wort": "neutral",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 3 EStG",
+       "wort": "Kapitalkonto"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "ganzen"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Über dem Kapitalkonto",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "250.000 €",
+       "wort": "zweihundertfünfzigtausend",
+       "size": 130
+      },
+      {
+       "typ": "block",
+       "label": "Veräußerungsgewinn",
+       "wert": "50.000 €",
+       "farbe": "GELB",
+       "wort": "fünfzigtausend",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§§ 16, 34 EStG",
+       "wort": "begünstigt"
+      }
+     ],
+     "icon": [
+      "tabler:coins",
+      "GELB",
+      "Zahlt"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "fünfzigtausend",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Nur ein Grundstück",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einzelnes Wirtschaftsgut",
+       "wert": "aufteilen",
+       "farbe": "ROT",
+       "wort": "aufgeteilt",
+       "zs": 96
+      },
+      {
+       "typ": "text",
+       "text": "Schulden = Entgelt",
+       "unter": "anders als beim Betrieb",
+       "wort": "Schulden",
+       "farbe": "WEISS",
+       "ls": 64
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "einzelnen"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Betrieb:",
+     "Kapitalkonto.",
+     "Einzelstück:",
+     "Quote."
+    ],
+    "woerter": [
+     null,
+     "Kapitalkonto",
+     "Einzelstück",
+     "Quote"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "Quote",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn? 🏭\n\n▸ Ganzer Betrieb, Teilbetrieb oder Mitunternehmeranteil: Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, ist der Vorgang unentgeltlich; der Übernehmer führt die Buchwerte fort (§ 6 Abs. 3 EStG).\n▸ Übersteigt das Entgelt das Kapitalkonto, entsteht in Höhe der Differenz ein Veräußerungsgewinn (§ 16 Abs. 1, 2 EStG), begünstigt nach § 16 Abs. 4 und § 34 EStG, soweit deren Voraussetzungen vorliegen. Übernommene betriebliche Schulden sind hier kein Entgelt.\n▸ Einzelnes Wirtschaftsgut: Aufteilung nach dem Verhältnis von Entgelt zu Verkehrswert; übernommene Schulden zählen als Entgelt.\n\nGrundlage: BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847; BMF vom 13.01.1993 (vorweggenommene Erbfolge).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 6 Abs. 3 EStG",
+    "§ 16 Abs. 1, 2, 4 EStG",
+    "§ 34 EStG",
+    "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+    "BMF vom 13.01.1993"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-9",
+   "frage": [
+    "Gemeinnütziger Verein:",
+    "Fest bringt 40.000 €. KSt?"
+   ],
+   "optionen": [
+    "Ja, voll steuerpflichtig",
+    "Nein, unter der Grenze",
+    "Nur Gewerbesteuer"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Buns",
+     "haut": "#8A5A3C",
+     "haar": "#1C1410",
+     "oberteil": "#B9A3E3",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-9",
+   "titel": [
+    "B: keine KSt"
+   ],
+   "optionen": [
+    "Ja, voll steuerpflichtig",
+    "Nein, unter der Grenze",
+    "Nur Gewerbesteuer"
+   ],
+   "richtig": 1,
+   "text": "Bis 50.000 € Einnahmen einschließlich Umsatzsteuer aus steuerpflichtigen Geschäftsbetrieben: weder KSt noch GewSt.",
+   "norm": "§ 64 Abs. 3 AO",
+   "figuren": {
+    "Q": {
+     "kopf": "Buns",
+     "haut": "#8A5A3C",
+     "haar": "#1C1410",
+     "oberteil": "#B9A3E3",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Stille Reserven parken"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-6",
+   "titel": [
+    "§ 6b und",
+    "die KG"
+   ],
+   "norm": "R 6b.2 Abs. 6, 7 EStR",
+   "punkte": [
+    [
+     "Gewinn aus dem Einzelunternehmen: nur auf den eigenen Anteil an KG-Wirtschaftsgütern.",
+     "warn",
+     "R 6b.2 Abs. 6 S. 1 EStR"
+    ],
+    [
+     "Gebucht wird in der Ergänzungsbilanz.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium 1",
+     "haut": "#F2CBB0",
+     "haar": "#C98B4A",
+     "oberteil": "#F2A65A",
+     "brille": "Glasses 5",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Erbschaftsteuer ausrechnen"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Ergebnis vorn,",
+    "Begründung danach"
+   ],
+   "punkte": [
+    [
+     "Erster Satz: die Antwort",
+     "ok",
+     null
+    ],
+    [
+     "Norm genau zitieren",
+     "ok",
+     null
+    ],
+    [
+     "Dann Merkmal für Merkmal",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:writing",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Short 4",
+     "haut": "#9A6142",
+     "haar": "#1E1612",
+     "oberteil": "#F2C14E"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-4",
+   "titel": [
+    "Entnahme:",
+    "Was ist die Basis?"
+   ],
+   "punkte": [
+    [
+     "Einkaufspreis zum Zeitpunkt der Entnahme",
+     "ok",
+     "§ 10 Abs. 4 S. 1 Nr. 1 UStG"
+    ],
+    [
+     "Steuerbar nur nach Vorsteuerabzug",
+     "warn",
+     "§ 3 Abs. 1b S. 2 UStG"
+    ]
+   ],
+   "icon": "tabler:gift",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Medium Bangs",
+     "haut": "#F5D3BC",
+     "haar": "#5A3A22",
+     "oberteil": "#F28C8C"
+    }
+   },
+   "figur": "K/ruhig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Betrieb gegen 150.000 €"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-wl-02",
+   "titel": [
+    "Versorgungsleistung",
+    "abziehbar?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Begünstigtes ",
+      null
+     ],
+     [
+      "Vermögen,",
+      "a"
+     ]
+    ],
+    [
+     [
+      "Zahlung ",
+      null
+     ],
+     [
+      "lebenslang,",
+      "b"
+     ]
+    ],
+    [
+     [
+      "Empfänger ",
+      null
+     ],
+     [
+      "unbeschränkt",
+      "c"
+     ]
+    ],
+    [
+     [
+      "steuerpflichtig",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 10 Abs. 1a Nr. 2 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Short",
+     "haut": "#D8A47F",
+     "oberteil": "#9FD0E8",
+     "bart": "Full 2",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

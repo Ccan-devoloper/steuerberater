@@ -77,25 +77,28 @@ export const CONFIG = {
        autor.mjs → FORMATE. "aktuell" recherchiert im Web. */
     /* Zwei Beiträge je Tag (Tagesbudget 0,25 €); an Reel-Tagen ersetzt das
        Reel den zweiten Beitrag. */
+    /* Stand 03.10.2026 (social/op/REDAKTION.md): kein „aktuell“ mehr – Rechtsänderungen
+       werden vorab recherchiert und eingeplant; Klausurfalle und Gegenüberstellung fest im
+       Plan; Klausurtechnik nur als Strategie für die jeweilige Klausur, einmal pro Woche. */
     formateJeWochentag: {
       1: ["pruefungsfrage", "schema"],
       2: ["rechenweg", "minifall"],
-      3: ["aktuell", "pruefungsfrage"],
+      3: ["fehlerfalle", "schema"],
       4: ["spickzettel", "schema"],
-      5: ["minifall", "pruefungsfrage"],
-      6: ["spickzettel", "klausurtechnik"],
+      5: ["minifall", "vergleich"],
+      6: ["klausurtechnik", "rechenweg"],
       0: ["wochenrueckblick", "pruefungsfrage"],
     },
     /* Endspurt (letzte 30 Tage vor der Prüfung): Klausurtechnik, Zeitmanagement,
        Dauerbrenner-Wiederholung – Reichweite und Weiterleitungen statt neuer Stoff. */
     formateEndspurt: {
-      1: ["klausurtechnik", "pruefungsfrage"],
-      2: ["pruefungsfrage", "rechenweg"],
-      3: ["aktuell", "klausurtechnik"],
-      4: ["spickzettel", "schema"],
-      5: ["klausurtechnik", "minifall"],
+      1: ["spickzettel", "fehlerfalle"],
+      2: ["klausurtechnik", "rechenweg"],
+      3: ["spickzettel", "fehlerfalle"],
+      4: ["fehlerfalle", "pruefungsfrage"],
+      5: ["klausurtechnik", "spickzettel"],
       6: ["spickzettel", "klausurtechnik"],
-      0: ["wochenrueckblick", "pruefungsfrage"],
+      0: ["wochenrueckblick", "spickzettel"],
     },
     endspurtTage: 30,
     /* Lernschleife: Formate/Fächer/Uhrzeiten nach Insights anpassen (state/strategie.json). */

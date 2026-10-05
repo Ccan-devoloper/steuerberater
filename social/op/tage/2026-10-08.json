@@ -1,0 +1,670 @@
+{
+ "datum": "2026-10-08",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "06:30",
+   "format": "anlass",
+   "klausur": 3,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Heute ist Tag 3: der letzte Anlauf",
+   "figuren": {
+    "A": {
+     "name": "Pavel",
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#5A3A22",
+     "oberteil": "#F9D56E",
+     "bart": "Full",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungstag 3",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Heute",
+      "ist Tag 3"
+     ],
+     "unter": "Der letzte Anlauf",
+     "teaser": "+ 1 Tipp für heute",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "8",
+      "unter": "Do · Tag 3"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Noch einmal sechs Stunden",
+     "punkte": [
+      [
+       "Zwei Tage liegen hinter dir. Die Routine hast du jetzt.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Frühstück, Wasser, Gesetze griffbereit, Stifte dabei.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Erst überfliegen: Wie viele Sachverhalte, wie viele Punkte?",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Ein letztes Mal."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Dein Tipp für heute",
+     "punkte": [
+      [
+       "Jeden Sachverhalt gleich aufbauen: Ansatz, Bewertung, Buchung, Gewinnauswirkung.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Gewinnauswirkung sofort notieren, nicht erst am Ende suchen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Handels- und Steuerbilanz nur trennen, wenn sie auseinanderlaufen.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Gleicher Aufbau = schneller",
+      "GELB",
+      null
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Immer gleich!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wenn die Zeit knapp wird",
+     "punkte": [
+      [
+       "Lieber jeden Sachverhalt kurz anlösen als wenige perfekt.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Buchungssatz und Gewinnauswirkung reichen notfalls als Kern.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Letzte zehn Minuten: offene Sachverhalte stichpunktartig.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Kurz statt nichts."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Tag 3: Buchführung und Bilanzwesen",
+      "Die letzte Klausur. Du schaffst das!",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Ansatz",
+        "a"
+       ],
+       [
+        ", Bewertung,",
+        null
+       ]
+      ],
+      [
+       [
+        "Buchung",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Gewinn",
+        "c"
+       ],
+       [
+        "auswirkung,",
+        null
+       ]
+      ],
+      [
+       [
+        "jeder",
+        "d"
+       ],
+       [
+        " Sachverhalt.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Was machst du heute Abend zuerst?"
+    }
+   ],
+   "caption": "Heute ist Tag 3 der schriftlichen Steuerberaterprüfung: Buchführung und Bilanzwesen. Der letzte Anlauf!\n\n▸ Zwei Tage liegen hinter dir, die Routine sitzt: frühstücken, Gesetze griffbereit, erst überfliegen.\n▸ Tipp für heute: jeden Sachverhalt gleich aufbauen, Ansatz, Bewertung, Buchung, Gewinnauswirkung. Die Gewinnauswirkung sofort notieren.\n▸ Wird die Zeit knapp: lieber jeden Sachverhalt kurz anlösen als wenige perfekt.\n\nViel Erfolg! Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": []
+  },
+  {
+   "slot": "b2",
+   "zeit": "18:30",
+   "format": "anlass",
+   "klausur": 3,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
+   "figuren": {
+    "A": {
+     "name": "Lucía",
+     "kopf": "Long",
+     "haut": "#D9A27C",
+     "haar": "#3B2418",
+     "oberteil": "#F4A3B5",
+     "bueste": "Dress"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Geschafft!",
+     "badgeFarbe": "GRUEN",
+     "zeilen": [
+      "Alle drei",
+      "geschafft!"
+     ],
+     "unter": "Und jetzt?",
+     "teaser": "+ Was jetzt kommt",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:confetti",
+      "farbe": "GELB"
+     },
+     "figur": "A:lacht"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Erst mal: feiern",
+     "punkte": [
+      [
+       "Drei Tage, drei Klausuren. Egal wie es lief: Das war ein Kraftakt.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Heute keine Lösungen vergleichen, keine Foren.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Schlafen, essen, Menschen treffen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Stolz auf dich!"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Was jetzt kommt",
+     "zeilen": [
+      [
+       "Dez./Jan.",
+       "meist das Ergebnis",
+       "WEISS",
+       null
+      ],
+      [
+       "≤ 4,5",
+       "mündliche Prüfung",
+       "GRUEN",
+       "§ 25 Abs. 2 DVStB"
+      ],
+      [
+       "Ladung",
+       "mind. 2 Wochen vorher",
+       "WEISS",
+       "§ 26 Abs. 1 DVStB"
+      ],
+      [
+       "≤ 4,15",
+       "Schnitt: bestanden",
+       "GRUEN",
+       "§ 28 Abs. 1 S. 2 DVStB"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Schritt für Schritt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die mündliche Prüfung",
+     "punkte": [
+      [
+       "Ein Kurzvortrag und sechs Prüfungsabschnitte.",
+       "ok",
+       "Regular",
+       "§ 26 Abs. 3 DVStB"
+      ],
+      [
+       "Drei Vortragsthemen zur Wahl, eine halbe Stunde vorher.",
+       "ok",
+       "Regular",
+       "§ 26 Abs. 6 DVStB"
+      ],
+      [
+       "Prüfungszeit je Person in der Regel höchstens 90 Minuten.",
+       "ok",
+       "Regular",
+       "§ 26 Abs. 7 DVStB"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Das kommt später."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und wenn nicht?",
+     "punkte": [
+      [
+       "Gesamtnote über 4,5: diesmal nicht bestanden. Kein Urteil über dich.",
+       "warn",
+       "Regular",
+       "§ 25 Abs. 2 DVStB"
+      ],
+      [
+       "Die Prüfung kann zweimal wiederholt werden.",
+       "ok",
+       "Bold",
+       "§ 35 Abs. 4 StBerG"
+      ],
+      [
+       "Für den nächsten Anlauf brauchst du eine neue Zulassung.",
+       "ok",
+       "Regular",
+       "§ 28 Abs. 3 DVStB"
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Es gibt einen Weg."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Schriftlich bis 4,5: mündliche Prüfung",
+      "Bestanden bei höchstens 4,15 im Schnitt",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Heute",
+        "a"
+       ],
+       [
+        " feiern,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ergebnis",
+        "b"
+       ],
+       [
+        " abwarten,",
+        null
+       ]
+      ],
+      [
+       [
+        "Mündliche",
+        "c"
+       ],
+       [
+        " planen,",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst",
+        "d"
+       ],
+       [
+        " neu anlaufen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Wie fühlst du dich gerade?"
+    }
+   ],
+   "caption": "Geschafft! Die schriftliche Steuerberaterprüfung liegt hinter dir. Was jetzt kommt:\n\n▸ Das Ergebnis der Klausuren kommt meist ab Dezember oder Januar.\n▸ Liegt die Gesamtnote der schriftlichen Prüfung über 4,5, ist die Prüfung nicht bestanden; bis 4,5 geht es in die mündliche Prüfung (§ 25 Abs. 2 DVStB). Die Ladung kommt spätestens zwei Wochen vorher, mit den Einzelnoten (§ 26 Abs. 1 DVStB).\n▸ Die mündliche Prüfung besteht aus einem Kurzvortrag und sechs Prüfungsabschnitten (§ 26 Abs. 3 DVStB). Für den Vortrag gibt es eine halbe Stunde vorher drei Themen zur Wahl (§ 26 Abs. 6 DVStB); die Prüfungszeit soll 90 Minuten nicht überschreiten (§ 26 Abs. 7 DVStB).\n▸ Bestanden ist, wer im Schnitt aus schriftlicher und mündlicher Gesamtnote höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n▸ Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG); dafür ist eine neue Zulassung nötig (§ 28 Abs. 3 DVStB).\n\nHeute aber: feiern und schlafen. Speichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 1, 3, 6, 7 DVStB",
+    "§ 28 Abs. 1 S. 2, Abs. 3 DVStB",
+    "§ 35 Abs. 4 StBerG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:30",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 3,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Geschafft – was jetzt kommt",
+   "figuren": {
+    "A": {
+     "name": "Linus",
+     "kopf": "Medium 3",
+     "haut": "#F2CDB0",
+     "haar": "#C9A15A",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Drei Klausurtage geschafft! Mit einer Gesamtnote bis vier Komma fünf geht es in die mündliche Prüfung, darüber in einen neuen Anlauf."
+    },
+    {
+     "id": "s1",
+     "text": "Mündlich: ein Kurzvortrag und sechs Prüfungsabschnitte. Bestanden bei höchstens vier Komma eins fünf im Schnitt."
+    },
+    {
+     "id": "s2",
+     "text": "Und wiederholen darfst du zweimal."
+    },
+    {
+     "id": "cta",
+     "text": "Heute aber: feiern und schlafen."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Geschafft!",
+     "Und jetzt?"
+    ],
+    "pille": "Was jetzt kommt",
+    "figur": "A/laessig",
+    "name": "Linus",
+    "icons": [
+     [
+      "tabler:confetti",
+      "GELB",
+      "Gesamtnote"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Bis 4,5",
+      "wert": "Mündliche",
+      "farbe": "GELB",
+      "wort": "vier"
+     },
+     {
+      "label": "Über 4,5",
+      "wert": "Neuer Anlauf",
+      "farbe": "WEISS",
+      "wort": "darüber"
+     }
+    ]
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Mündliche",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Kurzvortrag",
+       "wort": "Kurzvortrag",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "6 Prüfungsabschnitte",
+       "wort": "sechs",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Bestanden bei",
+       "wert": "≤ 4,15",
+       "farbe": "GELB",
+       "wort": "Bestanden",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 28 Abs. 1 S. 2 DVStB",
+       "wort": "Schnitt"
+      }
+     ],
+     "icon": [
+      "tabler:microphone",
+      "GELB",
+      "Kurzvortrag"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Zweiter Anlauf",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "2 ×",
+       "size": 160,
+       "wort": "zweimal"
+      },
+      {
+       "typ": "pille",
+       "text": "wiederholen möglich",
+       "wort": "wiederholen",
+       "farbe": "GELB"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 35 Abs. 4 StBerG",
+       "wort": "darfst"
+      }
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Heute: feiern",
+     "Bis 4,5: Mündliche",
+     "Über 4,5: neu starten",
+     "Jetzt: schlafen"
+    ],
+    "woerter": [
+     "feiern",
+     null,
+     null,
+     "schlafen"
+    ],
+    "cta": "Speichern für die Mündliche",
+    "cta_wort": "schlafen",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Geschafft – was jetzt kommt nach der schriftlichen Steuerberaterprüfung.\n\n▸ Gesamtnote der schriftlichen Prüfung bis 4,5: mündliche Prüfung; darüber ist die Prüfung nicht bestanden (§ 25 Abs. 2 DVStB). Das Ergebnis kommt meist ab Dezember oder Januar.\n▸ Die mündliche Prüfung besteht aus einem Kurzvortrag und sechs Prüfungsabschnitten (§ 26 Abs. 3 DVStB).\n▸ Bestanden ist, wer im Schnitt aus schriftlicher und mündlicher Gesamtnote höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n▸ Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG).\n\nSpeichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 3 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB",
+    "§ 35 Abs. 4 StBerG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s1",
+   "zeit": "06:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Heute ist Tag 3"
+   ],
+   "unter": "Der letzte Anlauf + Tipp · im Profil"
+  },
+  {
+   "slot": "s4",
+   "zeit": "06:45",
+   "art": "anlass",
+   "klausur": 3,
+   "fachLabel": "Steuerberaterexamen",
+   "titel": [
+    "Viel Erfolg",
+    "an Tag 3!"
+   ],
+   "text": "Buchführung und Bilanzwesen. Die letzte Klausur, dann ist es geschafft.",
+   "punkte": [
+    [
+     "Jeder Sachverhalt gleich",
+     "ok"
+    ],
+    [
+     "Gewinnauswirkung sofort",
+     "ok"
+    ]
+   ],
+   "figuren": {
+    "C": {
+     "kopf": "Twists 2",
+     "haut": "#A8704A",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Pointing Up"
+    }
+   },
+   "figur": "C:froh"
+  },
+  {
+   "slot": "s7",
+   "zeit": "12:00",
+   "art": "anlass",
+   "klausur": 3,
+   "fachLabel": "Steuerberaterexamen",
+   "ueberzeile": "Halbzeit",
+   "titel": [
+    "Halbzeit.",
+    "Endspurt."
+   ],
+   "text": "Kurz trinken, Schultern lockern. Die Ziellinie ist in Sicht.",
+   "punkte": [
+    [
+     "Jeder Sachverhalt bringt Punkte.",
+     "ok"
+    ]
+   ],
+   "figuren": {
+    "H": {
+     "kopf": "Gray Bun",
+     "haut": "#F1C7A5",
+     "haar": "#B0B0B0",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 2",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "H:ruhig"
+  },
+  {
+   "slot": "s2",
+   "zeit": "18:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Alle drei geschafft!"
+   ],
+   "unter": "Was jetzt kommt · im Profil"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Geschafft. Und jetzt?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  }
+ ]
+}

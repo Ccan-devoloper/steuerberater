@@ -1,0 +1,1326 @@
+{
+ "datum": "2026-10-26",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-1",
+   "themaTitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
+   "figuren": {
+    "A": {
+     "name": "Ida",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F2CBB0",
+     "haar": "#3B2A20",
+     "oberteil": "#E9A6C9",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Kofi",
+     "kopf": "Short 2",
+     "haut": "#5C3A24",
+     "haar": "#1B1B1B",
+     "oberteil": "#F2C14E",
+     "bart": "Goatee 1",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "KG-Anteil:",
+      "wie bilanzieren?"
+     ],
+     "norm": "§ 253 Abs. 3 HGB",
+     "unter": "HB und StB",
+     "teaser": "+ Markier-Guide § 253 HGB",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Kaufpreis",
+        "Bold",
+        44
+       ],
+       [
+        "300.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "40 % an der KG",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ida führt die Kranich GmbH. Diese kauft am 02.01.2025 40 % der Kommanditanteile der Hafen KG für 300.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "60.000 € Verlustanteil 2025 laut Feststellung.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "31.12.2025: Anteil dauerhaft nur 230.000 € wert.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Was steht wo?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Welcher Wert steht am 31.12.2025 in der Handelsbilanz der GmbH?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Und welcher in ihrer Steuerbilanz?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Berater Kofi fragt dich"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: Handelsbilanz",
+     "punkte": [
+      [
+       "Der Anteil ist ein Vermögensgegenstand: Zugang mit 300.000 € Anschaffungskosten.",
+       "ok",
+       "Regular",
+       "§ 246 Abs. 1 S. 1, § 255 Abs. 1 HGB"
+      ],
+      [
+       "Den Verlustanteil bucht die GmbH nicht direkt. Er ist Anlass, den Wert zu prüfen.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Dauernde Wertminderung: Abschreibung auf 230.000 €.",
+       "ok",
+       "Bold",
+       "§ 253 Abs. 3 S. 5 HGB"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Pflicht bei Dauer"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: Steuerbilanz",
+     "punkte": [
+      [
+       "Der Anteil ist kein eigenes Wirtschaftsgut.",
+       "ok",
+       "Regular",
+       "BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691"
+      ],
+      [
+       "Angesetzt wird das Kapital der GmbH bei der KG, samt Ergänzungs- und Sonderbilanz.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "300.000 € − 60.000 € Verlustanteil = 240.000 €",
+       "ok",
+       "ExtraBold",
+       "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Ein Spiegelbild!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Teilwert? Gibt es hier nicht",
+     "punkte": [
+      [
+       "Steuerlich auf 230.000 € abschreiben: unzulässig.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Der Verlust wirkt allein über den festgestellten Anteil.",
+       "ok",
+       "Regular",
+       "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+      ],
+      [
+       "Sonst würde derselbe Verlust doppelt abgezogen.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Nur 240.000 €?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Stand 31.12.2025",
+     "links": {
+      "kopf": "Handelsbilanz",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "230.000 €",
+        null
+       ],
+       [
+        "Abschreibung 70.000 €",
+        "§ 253 Abs. 3 S. 5 HGB"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Steuerbilanz",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "240.000 €",
+        null
+       ],
+       [
+        "Aufwand 60.000 € aus dem Verlustanteil",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Zwei Werte, zwei Gründe"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "HB 230.000 € · StB 240.000 €",
+      "Abschreibung im HGB, Verlustanteil im Steuerrecht",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "HB: ",
+        null
+       ],
+       [
+        "Anschaffungskosten",
+        "a"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "bei Dauer ",
+        null
+       ],
+       [
+        "abschreiben",
+        "b"
+       ],
+       [
+        ".",
+        null
+       ]
+      ],
+      [
+       [
+        "StB: Kapital ",
+        null
+       ],
+       [
+        "spiegeln",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "nie ",
+        null
+       ],
+       [
+        "Teilwert",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du steuerlich abgeschrieben?",
+     "teaser": "Weiterwischen: § 253 HGB markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 253 HGB (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "[…] Ohne Rücksicht darauf, ob ihre Nutzung zeitlich begrenzt ist, sind bei Vermögensgegenständen des Anlagevermögens bei",
+         null
+        ],
+        [
+         "voraussichtlich dauernder Wertminderung",
+         "g1"
+        ],
+        [
+         "außerplanmäßige Abschreibungen",
+         "gr1"
+        ],
+        [
+         "vorzunehmen, um diese mit dem niedrigeren Wert anzusetzen, der ihnen am Abschlussstichtag beizulegen ist.",
+         null
+        ],
+        [
+         "Bei Finanzanlagen",
+         "b1"
+        ],
+        [
+         "können außerplanmäßige Abschreibungen auch bei voraussichtlich nicht dauernder Wertminderung vorgenommen werden.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Auslöser",
+       "g1"
+      ],
+      [
+       "Pflicht in der HB",
+       "gr1"
+      ],
+      [
+       "sonst Wahlrecht",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Steuerbilanz: kein Teilwert",
+      "Anteil folgt dem Kapital bei der KG"
+     ]
+    }
+   ],
+   "caption": "Prüfungsfrage Personengesellschaften: Wie bilanziert eine GmbH ihren Anteil an einer KG – in der Handels- und in der Steuerbilanz?\n\nFall: Kauf eines Kommanditanteils für 300.000 €, Verlustanteil 60.000 €, Wert dauerhaft gesunken auf 230.000 €.\n\nHandelsbilanz: Der Anteil ist ein Vermögensgegenstand und geht mit den Anschaffungskosten zu (§ 246 Abs. 1 S. 1, § 255 Abs. 1 HGB). Bei voraussichtlich dauernder Wertminderung ist außerplanmäßig abzuschreiben (§ 253 Abs. 3 S. 5 HGB), bei Finanzanlagen darf es auch bei nicht dauernder Wertminderung geschehen (§ 253 Abs. 3 S. 6 HGB). Ergebnis: 230.000 €.\n\nSteuerbilanz: Der Anteil ist kein eigenes Wirtschaftsgut (BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691). Er wird spiegelbildlich zum Kapital des Gesellschafters bei der KG angesetzt, einschließlich Ergänzungs- und Sonderbilanz. Gewinn- und Verlustanteile kommen über die gesonderte und einheitliche Feststellung (§ 15 Abs. 1 S. 1 Nr. 2 EStG, § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Ergebnis: 240.000 €, keine Teilwertabschreibung.\n\nZum Schluss: § 253 Abs. 3 HGB zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 246 Abs. 1 S. 1 HGB",
+    "§ 255 Abs. 1 HGB",
+    "§ 253 Abs. 3 S. 5, 6 HGB",
+    "BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-312",
+   "themaTitel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+   "figuren": {
+    "A": {
+     "name": "Rana",
+     "kopf": "Hijab",
+     "haut": "#D9A47E",
+     "oberteil": "#C76B98",
+     "bueste": "Button Shirt 1"
+    },
+    "B": {
+     "name": "Jonas",
+     "kopf": "Short 4",
+     "haut": "#F5D3BC",
+     "haar": "#C98B4A",
+     "oberteil": "#9BCB7A",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Bescheid",
+      "wirksam?"
+     ],
+     "norm": "§ 124 Abs. 1 AO",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide §§ 79, 122, 124 + AEAO",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:mail-check",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Nicht nichtig",
+       "§ 125 AO",
+       ""
+      ],
+      [
+       "Richtiger Adressat",
+       "§ 122 Abs. 1 AO",
+       ""
+      ],
+      [
+       "Bekanntgabewille",
+       "AEAO zu § 124 Nr. 4",
+       ""
+      ],
+      [
+       "Handlungsfähig",
+       "§ 79 Abs. 1 AO",
+       ""
+      ],
+      [
+       "Zeitpunkt",
+       "§ 122 Abs. 2 AO",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: §§ 79, 122, 124 AO + AEAO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 3: Bekanntgabewille",
+     "punkte": [
+      [
+       "Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand.",
+       "ok",
+       "Regular",
+       "AEAO zu § 124 Nr. 4"
+      ],
+      [
+       "Aufgeben wirkt nur, solange der Bescheid im Amt ist.",
+       "warn",
+       "Regular",
+       "AEAO zu § 124 Nr. 5"
+      ],
+      [
+       "Danach nur noch: Mitteilung vor oder mit Bekanntgabe, er gelte nicht.",
+       "ok",
+       "Regular",
+       "AEAO zu § 124 Nr. 6"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Rana, Finanzamt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 4: Handlungsfähigkeit",
+     "punkte": [
+      [
+       "Handlungsfähig ist, wer nach bürgerlichem Recht geschäftsfähig ist.",
+       "ok",
+       "Regular",
+       "§ 79 Abs. 1 Nr. 1 AO"
+      ],
+      [
+       "Ist der Steuerpflichtige minderjährig oder geschäftsunfähig, geht der Bescheid an den gesetzlichen Vertreter.",
+       "warn",
+       "Bold",
+       "AEAO zu § 122 Nr. 2.2.1"
+      ],
+      [
+       "Krank oder verreist heißt nicht handlungsunfähig.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 290,
+     "blase": "Wer liest es?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schritt 5: Zeitpunkt",
+     "punkte": [
+      [
+       "Post im Inland: bekannt gegeben am vierten Tag nach Aufgabe zur Post.",
+       "ok",
+       "Bold",
+       "§ 122 Abs. 2 Nr. 1 AO"
+      ],
+      [
+       "Elektronisch: am vierten Tag nach Absendung.",
+       "ok",
+       "Regular",
+       "§ 122 Abs. 2a AO"
+      ],
+      [
+       "Im Zweifel beweist das Amt den Zugang.",
+       "warn",
+       "Regular",
+       "§ 122 Abs. 2 letzter Hs. AO"
+      ]
+     ],
+     "kalender": [
+      [
+       "NOVEMBER",
+       "2",
+       "Mo · Post"
+      ],
+      [
+       "NOVEMBER",
+       "6",
+       "Fr · bekannt"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel",
+     "punkte": [
+      [
+       "Rana zeichnet den Einkommensteuerbescheid für Jonas, 17, und gibt ihn am Montag zur Post.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Jonas hat von seiner Tante eine vermietete Wohnung geerbt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Adressiert ist der Bescheid nur an Jonas.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:froh",
+     "x": 790,
+     "blase": "Post für mich!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Ist der Bescheid wirksam bekannt gegeben?",
+       null,
+       "ExtraBold",
+       null
+      ],
+      [
+       "Geh die fünf Schritte durch.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Lösung: weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Gilt der jetzt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Bekanntgabewille: ja, Rana hat gezeichnet und versandt.",
+       "ok",
+       "Regular",
+       "AEAO zu § 124 Nr. 4"
+      ],
+      [
+       "Jonas ist mit 17 nur beschränkt geschäftsfähig, für die Steuer also nicht handlungsfähig.",
+       "nein",
+       "Regular",
+       "§ 79 Abs. 1 Nr. 1, 2 AO"
+      ],
+      [
+       "Bescheid an die Eltern nötig. So wird er nicht wirksam.",
+       "warn",
+       "Bold",
+       "AEAO zu § 122 Nr. 2.2.1"
+      ]
+     ],
+     "figur": "B:staunt",
+     "x": 790,
+     "blase": "Also Mama und Papa?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Erst wirksam, dann Fristen",
+      "Bekanntgabewille und Handlungsfähigkeit nie überspringen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Gezeichnet",
+        "a"
+       ],
+       [
+        " und versandt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Empfänger ",
+        null
+       ],
+       [
+        "handlungsfähig",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "dann der ",
+        null
+       ],
+       [
+        "vierte Tag",
+        "c"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Welchen Schritt vergisst du am ehesten?",
+     "teaser": "Weiterwischen: §§ 79, 122, 124 + AEAO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Gesetz und Erlass markieren",
+     "kopf": "§§ 79, 122, 124 AO (Auszug)",
+     "absaetze": [
+      [
+       "§ 79 (1)",
+       [
+        [
+         "Fähig zur Vornahme von Verfahrenshandlungen sind: 1.",
+         null
+        ],
+        [
+         "natürliche Personen, die nach bürgerlichem Recht geschäftsfähig sind,",
+         "g3"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 122 (2)",
+       [
+        [
+         "Ein schriftlicher Verwaltungsakt, der durch die Post übermittelt wird, gilt als bekannt gegeben 1. bei einer Übermittlung im Inland",
+         null
+        ],
+        [
+         "am vierten Tage nach der Aufgabe zur Post,",
+         "gr1"
+        ],
+        [
+         "[…] außer wenn er nicht oder zu einem späteren Zeitpunkt zugegangen ist; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 124 (1)",
+       [
+        [
+         "Ein Verwaltungsakt wird gegenüber demjenigen,",
+         null
+        ],
+        [
+         "für den er bestimmt ist",
+         "b1"
+        ],
+        [
+         "oder der von ihm betroffen wird, in dem Zeitpunkt wirksam,",
+         null
+        ],
+        [
+         "in dem er ihm bekannt gegeben wird.",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 124 (3)",
+       [
+        [
+         "Ein",
+         null
+        ],
+        [
+         "nichtiger Verwaltungsakt ist unwirksam.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Schritt 4",
+       "g3"
+      ],
+      [
+       "Schritt 5",
+       "gr1"
+      ],
+      [
+       "Adressat",
+       "b1"
+      ],
+      [
+       "Schritt 1",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Jonas ist 17: Bescheid an die Eltern",
+      "an Jonas allein nicht wirksam"
+     ],
+     "zweite": {
+      "kopf": "AEAO zu §§ 122, 124 (Auszug)",
+      "absaetze": [
+       [
+        "§ 122 Nr. 2.2.1",
+        [
+         [
+          "Ist ein Inhaltsadressat (Steuerschuldner) bei Bekanntgabe des Bescheids geschäftsunfähig oder",
+          null
+         ],
+         [
+          "beschränkt geschäftsfähig,",
+          "r2"
+         ],
+         [
+          "so ist Bekanntgabeadressat",
+          null
+         ],
+         [
+          "der gesetzliche Vertreter",
+          "b2"
+         ],
+         [
+          "[…].",
+          null
+         ]
+        ]
+       ],
+       [
+        "§ 124 Nr. 4",
+        [
+         [
+          "[…] Der Bekanntgabewille wird dadurch gebildet, dass der zeichnungsberechtigte Bedienstete die Aktenverfügung des Verwaltungsakts",
+          null
+         ],
+         [
+          "abschließend zeichnet und den Versand",
+          "g2"
+         ],
+         [
+          "des Verwaltungsakts veranlasst […]",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Jonas, 17",
+        "r2"
+       ],
+       [
+        "die Eltern!",
+        "b2"
+       ],
+       [
+        "Schritt 3",
+        "g2"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Prüfschema Abgabenordnung: Ist der Bescheid wirksam bekannt gegeben? In 5 Schritten.\n\n1. Nicht nichtig (§ 125 AO; § 124 Abs. 3 AO).\n2. Richtiger Adressat: derjenige, für den der Verwaltungsakt bestimmt ist (§ 122 Abs. 1 AO).\n3. Bekanntgabewille: Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand (AEAO zu § 124 Nr. 4). Aufgeben wirkt nur, bevor der Bescheid den Herrschaftsbereich der Behörde verlassen hat (AEAO zu § 124 Nr. 5); danach nur noch eine Mitteilung vor oder spätestens mit der Bekanntgabe (AEAO zu § 124 Nr. 6).\n4. Handlungsfähigkeit des Empfängers (§ 79 Abs. 1 AO). Bei Minderjährigen und Geschäftsunfähigen ist der gesetzliche Vertreter Bekanntgabeadressat (AEAO zu § 122 Nr. 2.2.1).\n5. Zeitpunkt: Post im Inland am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO), elektronisch am vierten Tag nach Absendung (§ 122 Abs. 2a AO); im Zweifel muss die Behörde den Zugang nachweisen.\n\nWirksam wird der Verwaltungsakt mit der Bekanntgabe (§ 124 Abs. 1 AO). Zum Schluss: §§ 79, 122, 124 AO und AEAO zu §§ 122, 124 zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 124 Abs. 1, 3 AO",
+    "§ 125 AO",
+    "§ 122 Abs. 1, 2, 2a AO",
+    "§ 79 Abs. 1 AO",
+    "AEAO zu § 124 Nr. 4–6",
+    "AEAO zu § 122 Nr. 2.2.1"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-22",
+   "themaTitel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+   "figuren": {
+    "A": {
+     "name": "Mats",
+     "kopf": "Short 1",
+     "haut": "#EBC4A4",
+     "haar": "#5A3A22",
+     "oberteil": "#7FB8E6",
+     "bart": "Full 3",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Hundertsiebzig Tage im Ausland gearbeitet. Also bleibt der Lohn in Deutschland steuerpflichtig? Nicht unbedingt."
+    },
+    {
+     "id": "s1",
+     "text": "Zähl die Tage: Ankunft und Abreise zählen voll, Wochenenden vor Ort auch. Hundertsiebzig bleibt unter hundertdreiundachtzig."
+    },
+    {
+     "id": "s2",
+     "text": "Aber die Frist ist nur eine von drei Bedingungen. Trägt eine Betriebsstätte vor Ort den Lohn, darf der andere Staat besteuern."
+    },
+    {
+     "id": "s3",
+     "text": "Deutschland stellt dann frei, mit Progressionsvorbehalt. Und nur gegen Nachweis der Steuer dort."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Tage zählen reicht nicht. Frag, wer den Lohn trägt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "170 Tage weg.",
+     "Lohn bleibt hier?"
+    ],
+    "pille": "183-Tage-Regel",
+    "figur": "A/sorge",
+    "name": "Mats",
+    "icons": [
+     [
+      "tabler:plane",
+      "GELB",
+      "Nicht"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Nicht unbedingt!",
+     "wort": "Nicht"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Tage zählen",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Ankunft + Abreise",
+       "unter": "zählen als volle Tage",
+       "wort": "Ankunft",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "zahl",
+       "text": "170 Tage",
+       "wort": "Hundertsiebzig",
+       "size": 130
+      },
+      {
+       "typ": "block",
+       "label": "Grenze",
+       "wert": "183 Tage",
+       "farbe": "GRUEN",
+       "wort": "unter",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "Art. 15 Abs. 2 Buchst. a OECD-MA",
+       "wort": "Wochenenden"
+      }
+     ],
+     "icon": [
+      "tabler:calendar-stats",
+      "GELB",
+      "Zähl"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Wer trägt den Lohn?",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "3 Bedingungen",
+       "unter": "alle müssen erfüllt sein",
+       "wort": "drei",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Betriebsstätte vor Ort",
+       "wert": "trägt den Lohn",
+       "farbe": "ROT",
+       "wort": "Betriebsstätte",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "Art. 15 Abs. 2 Buchst. c OECD-MA",
+       "wort": "Lohn"
+      }
+     ],
+     "icon": [
+      "tabler:building-factory",
+      "GELB",
+      "Betriebsstätte"
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "besteuern",
+       1.0
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Folge in Deutschland",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Freistellung",
+       "wert": "mit Progression",
+       "farbe": "GRUEN",
+       "wort": "frei",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Nachweis nötig",
+       "unter": "Steuer im Ausland gezahlt",
+       "wort": "Nachweis",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 50d Abs. 8 EStG",
+       "wort": "Steuer"
+      }
+     ],
+     "icon": [
+      "tabler:file-certificate",
+      "GELB",
+      "Nachweis"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "183 Tage",
+     "reichen nicht:",
+     "Wer trägt",
+     "den Lohn?"
+    ],
+    "woerter": [
+     null,
+     "reicht",
+     "Frag",
+     "trägt"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "trägt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "183-Tage-Regel: Unter 183 Tagen im Ausland – bleibt der Arbeitslohn in Deutschland steuerpflichtig? ✈️\n\n▸ Grundsatz: Arbeitslohn darf der Staat besteuern, in dem gearbeitet wird (Art. 15 Abs. 1 OECD-MA).\n▸ Zurück an den Wohnsitzstaat nur, wenn alle drei Bedingungen erfüllt sind: höchstens 183 Tage Aufenthalt im maßgeblichen Zeitraum, Arbeitgeber nicht im Tätigkeitsstaat ansässig, Lohn nicht von einer Betriebsstätte dort getragen (Art. 15 Abs. 2 Buchst. a–c OECD-MA; BMF vom 12.12.2023, Rn. 101, 102).\n▸ Tage zählen: Ankunfts- und Abreisetag sowie Wochenenden und Feiertage vor Ort zählen als volle Aufenthaltstage (BMF vom 12.12.2023, Rn. 107, 108). Welcher Zeitraum gilt, regelt das jeweilige DBA.\n▸ Trägt eine Betriebsstätte im Tätigkeitsstaat den Lohn, hilft die Tagegrenze nicht (BMF vom 12.12.2023, Rn. 213 ff.).\n▸ Folge in Deutschland: Freistellung mit Progressionsvorbehalt (§ 32b Abs. 1 S. 1 Nr. 3 EStG), aber nur mit Nachweis der Besteuerung oder des Verzichts im anderen Staat (§ 50d Abs. 8 EStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "Art. 15 Abs. 1, 2 OECD-MA",
+    "BMF vom 12.12.2023, Rn. 101, 102, 107, 108, 213",
+    "§ 32b Abs. 1 S. 1 Nr. 3 EStG",
+    "§ 50d Abs. 8 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-11",
+   "frage": [
+    "Organschaft:",
+    "Was gehört nicht dazu?"
+   ],
+   "optionen": [
+    "Mehrheit der Stimmrechte",
+    "Gewinnabführungsvertrag",
+    "Gleicher Firmenname"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#7A4B2E",
+     "oberteil": "#B9A3E3",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-11",
+   "titel": [
+    "C: Der Name",
+    "ist egal"
+   ],
+   "optionen": [
+    "Mehrheit der Stimmrechte",
+    "Gewinnabführungsvertrag",
+    "Gleicher Firmenname"
+   ],
+   "richtig": 2,
+   "text": "Nötig sind Stimmenmehrheit ab Jahresbeginn und ein Vertrag über mindestens fünf Jahre, der gelebt wird.",
+   "norm": "§ 14 Abs. 1 S. 1 Nr. 1, 3 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#7A4B2E",
+     "oberteil": "#B9A3E3",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "KG-Anteil bilanzieren"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-5",
+   "titel": [
+    "Tausch oder",
+    "Einlage?"
+   ],
+   "norm": "§ 6 Abs. 1 Nr. 5 EStG",
+   "punkte": [
+    [
+     "Gutschrift auch auf Kapitalkonto I: Tausch, also entgeltlich.",
+     "ok",
+     "BMF vom 26.07.2016"
+    ],
+    [
+     "Nur Kapitalkonto II oder Rücklage: verdeckte Einlage.",
+     "warn",
+     "BFH vom 29.07.2015, IV R 15/14"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Short",
+     "haut": "#E9BE9C",
+     "oberteil": "#F2A65A",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Bescheid wirksam?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Fehler sortieren,",
+    "dann trainieren"
+   ],
+   "punkte": [
+    [
+     "Wissen gefehlt?",
+     "ok",
+     null
+    ],
+    [
+     "Zeit gefehlt?",
+     "ok",
+     null
+    ],
+    [
+     "Sachverhalt übersehen?",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Long Curly",
+     "haut": "#C68B63",
+     "haar": "#2A1A12",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-13",
+   "titel": [
+    "Kleinunternehmer",
+    "seit 2025"
+   ],
+   "punkte": [
+    [
+     "Umsatz Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €",
+     "ok",
+     "§ 19 Abs. 1 S. 1 UStG"
+    ],
+    [
+     "Steuerfrei: kein Vorsteuerabzug",
+     "warn",
+     "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+    ]
+   ],
+   "icon": "tabler:receipt",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Dreads 1",
+     "haut": "#9A6142",
+     "haar": "#1E1612",
+     "oberteil": "#E07A5F"
+    }
+   },
+   "figur": "K/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "170 Tage weg"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-ea-03",
+   "titel": [
+    "Miterben teilen",
+    "den Betrieb"
+   ],
+   "zeilen": [
+    [
+     [
+      "Ohne Ausgleich: ",
+      null
+     ]
+    ],
+    [
+     [
+      "Buchwerte",
+      "a"
+     ],
+     [
+      " laufen weiter.",
+      null
+     ]
+    ],
+    [
+     [
+      "Zahlung aus eigenem",
+      null
+     ]
+    ],
+    [
+     [
+      "Geld: ",
+      null
+     ],
+     [
+      "teils entgeltlich",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 16 Abs. 3 S. 2 EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Bun",
+     "haut": "#F0C9A8",
+     "haar": "#8C5A3C",
+     "oberteil": "#8FC9B9",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

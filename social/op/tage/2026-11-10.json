@@ -1,0 +1,1291 @@
+{
+ "datum": "2026-11-10",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-6-c-15",
+   "themaTitel": "Anteilstausch oder verdeckte Einlage: Worauf kommt es an?",
+   "figuren": {
+    "A": {
+     "name": "Konrad",
+     "kopf": "Gray Medium",
+     "haut": "#EAC4A6",
+     "haar": "#B8B8B8",
+     "oberteil": "#9DB8E8",
+     "brille": "Glasses",
+     "bueste": "Shirt and Coat"
+    },
+    "B": {
+     "name": "Mira",
+     "kopf": "Bantu Knots",
+     "haut": "#6E4128",
+     "haar": "#1C1C1C",
+     "oberteil": "#F5B971",
+     "bueste": "Explaining"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Anteile rein,",
+      "Gewinn raus?"
+     ],
+     "norm": "§ 21 UmwStG",
+     "unter": "Zwei Wege",
+     "teaser": "+ Markier-Guide § 21 UmwStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "GmbH-Anteil",
+        "Bold",
+        44
+       ],
+       [
+        "400.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Kosten 50.000 €",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Ausgangslage",
+     "punkte": [
+      [
+       "Konrad hält 100 % der Konrad Pumpen GmbH im Privatvermögen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten 50.000 €, gemeiner Wert 400.000 €.",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Er überträgt alle Anteile auf seine neue Holding-GmbH.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Frage: Was muss er versteuern?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Kostet mich das was?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Worauf es ankommt",
+     "links": {
+      "kopf": "Neue Anteile",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Holding erhöht ihr Kapital und gibt Konrad neue Anteile",
+        null
+       ],
+       [
+        "= Anteilstausch",
+        "§ 21 Abs. 1 S. 1 UmwStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Keine neuen Anteile",
+      "farbe": "ROT",
+      "punkte": [
+       [
+        "Wert landet nur in der Kapitalrücklage",
+        null
+       ],
+       [
+        "= verdeckte Einlage",
+        "§ 17 Abs. 1 S. 2 EStG"
+       ]
+      ]
+     },
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Gegenleistung prüfen!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Weg A: Anteilstausch",
+     "normen": [
+      "§ 21 Abs. 1 S. 2 Nr. 1, Abs. 2 S. 1, 5 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Mehrheit der Holding",
+       "100 %",
+       "Regular",
+       null
+      ],
+      [
+       "Ansatz auf Antrag (Kosten)",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Veräußerungspreis Konrad",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Anschaffungskosten",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn",
+       "0 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Neue Anteile kosten ihn 50.000 €",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Weg B: verdeckte Einlage",
+     "normen": [
+      "§ 17 Abs. 2 S. 2 EStG",
+      "§§ 3 Nr. 40 S. 1 c, 3c Abs. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "Gemeiner Wert statt Preis",
+       "400.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Anschaffungskosten",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Veräußerungsgewinn",
+       "350.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "davon 60 % steuerpflichtig",
+       "210.000 €",
+       "ExtraBold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "Freibetrag § 17 Abs. 3: hier 0 €",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und bei der Holding?",
+     "punkte": [
+      [
+       "Weg B: Ansatz zum Teilwert, also 400.000 €.",
+       "ok",
+       "Regular",
+       "BFH vom 04.03.2009, I R 32/08, BStBl II 2012, 341"
+      ],
+      [
+       "Die Einlage erhöht das Einkommen nicht.",
+       "ok",
+       "Regular",
+       "§ 8 Abs. 3 S. 3 KStG"
+      ],
+      [
+       "Sie fließt ins steuerliche Einlagekonto.",
+       "ok",
+       "Regular",
+       "§ 27 Abs. 1 KStG"
+      ],
+      [
+       "Weg A: Verkauft die Holding binnen sieben Jahren, droht Einbringungsgewinn II.",
+       "warn",
+       "Bold",
+       "§ 22 Abs. 2 S. 1 UmwStG"
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Sperrfrist merken!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Ines legt ihren Anteil von 30 % an einer GmbH verdeckt in ihre eigene GmbH ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten 90.000 €, gemeiner Wert 240.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist der steuerpflichtige Teil?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 17 Abs. 2 S. 2 EStG",
+      "§ 3 Nr. 40 S. 1 c EStG"
+     ],
+     "zeilen": [
+      [
+       "Gemeiner Wert",
+       "240.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Anschaffungskosten",
+       "90.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn nach § 17",
+       "150.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "steuerpflichtig (60 %)",
+       "90.000 €",
+       "ExtraBold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "Freibetrag fällt weg: Gewinn zu hoch",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Weg A: 0 € · Weg B: 210.000 € steuerpflichtig",
+      "Entscheidend: neue Anteile",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Neue Anteile",
+        "a"
+       ],
+       [
+        ": § 21,",
+        null
+       ]
+      ],
+      [
+       [
+        "Mehrheit",
+        "b"
+       ],
+       [
+        " + Antrag,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rücklage",
+        "c"
+       ],
+       [
+        " allein:",
+        null
+       ]
+      ],
+      [
+       [
+        "§ 17",
+        "d"
+       ],
+       [
+        " wie Verkauf.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du es bemerkt?",
+     "teaser": "Weiterwischen: § 21 UmwStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 21 UmwStG Anteilstausch (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Werden Anteile an einer Kapitalgesellschaft […] in eine Kapitalgesellschaft […] eingebracht",
+         null
+        ],
+        [
+         "gegen Gewährung neuer Anteile",
+         "g1"
+        ],
+        [
+         "an der übernehmenden Gesellschaft […] (Anteilstausch), hat die übernehmende Gesellschaft die eingebrachten Anteile",
+         null
+        ],
+        [
+         "mit dem gemeinen Wert",
+         "r1"
+        ],
+        [
+         "anzusetzen. Abweichend von Satz 1 können die eingebrachten Anteile",
+         null
+        ],
+        [
+         "auf Antrag mit dem Buchwert",
+         "b1"
+        ],
+        [
+         "oder einem höheren Wert […] angesetzt werden, wenn 1. die übernehmende Gesellschaft nach der Einbringung […]",
+         null
+        ],
+        [
+         "nachweisbar unmittelbar die Mehrheit der Stimmrechte",
+         "gr1"
+        ],
+        [
+         "an der erworbenen Gesellschaft hat […]",
+         null
+        ]
+       ]
+      ],
+      [
+       2,
+       [
+        [
+         "Der Wert, mit dem die übernehmende Gesellschaft die eingebrachten Anteile ansetzt,",
+         null
+        ],
+        [
+         "gilt für den Einbringenden als Veräußerungspreis",
+         "g2"
+        ],
+        [
+         "der eingebrachten Anteile und als Anschaffungskosten der erhaltenen Anteile. […] Haben die eingebrachten Anteile beim Einbringenden nicht zu einem Betriebsvermögen gehört,",
+         null
+        ],
+        [
+         "treten an die Stelle des Buchwerts die Anschaffungskosten.",
+         "b2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "neue Anteile!",
+       "g1"
+      ],
+      [
+       "Wahlrecht",
+       "b1"
+      ],
+      [
+       "Konrad: Preis",
+       "g2"
+      ],
+      [
+       "privat: AK 50.000 €",
+       "b2"
+      ]
+     ],
+     "randnotiz": [
+      "Weg A: Preis 50.000 € = AK",
+      "Gewinn 0 €"
+     ]
+    }
+   ],
+   "caption": "Anteile in die Holding: Anteilstausch oder verdeckte Einlage? Der Rechenweg für die Bilanzklausur.\n\nWeg A – Anteilstausch: Die Holding gewährt neue Anteile (§ 21 Abs. 1 S. 1 UmwStG). Hat sie danach unmittelbar die Stimmrechtsmehrheit, ist auf Antrag der Buchwert möglich (§ 21 Abs. 1 S. 2 Nr. 1 UmwStG); bei Anteilen im Privatvermögen treten die Anschaffungskosten an die Stelle des Buchwerts (§ 21 Abs. 2 S. 5 UmwStG). Für Konrad ist dieser Wert zugleich Erlös der alten und Kostenbasis der neuen Anteile (§ 21 Abs. 2 S. 1 UmwStG). Beispiel: Gewinn 0 €. Verkauft die Holding die Anteile innerhalb von sieben Jahren, droht ein Einbringungsgewinn II (§ 22 Abs. 2 S. 1 UmwStG).\n\nWeg B – verdeckte Einlage: Ohne neue Anteile steht die Übertragung einer Veräußerung gleich (§ 17 Abs. 1 S. 2 EStG), an die Stelle des Preises tritt der gemeine Wert (§ 17 Abs. 2 S. 2 EStG). Beispiel: 400.000 € – 50.000 € = 350.000 €, davon 60 % = 210.000 € steuerpflichtig (§ 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG); der Freibetrag nach § 17 Abs. 3 EStG ist abgeschmolzen.\nBei der Holding: Ansatz mit dem Teilwert (BFH vom 04.03.2009, I R 32/08, BStBl II 2012, 341), keine Einkommenserhöhung (§ 8 Abs. 3 S. 3 KStG), Zugang zum Einlagekonto (§ 27 Abs. 1 KStG).\n\nZum Schluss: § 21 Abs. 1, 2 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 21 Abs. 1 S. 1, 2 Nr. 1 UmwStG",
+    "§ 21 Abs. 2 S. 1, 5 UmwStG",
+    "§ 22 Abs. 2 S. 1 UmwStG",
+    "§ 17 Abs. 1 S. 2, Abs. 2 S. 2, Abs. 3 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. c EStG",
+    "§ 3c Abs. 2 EStG",
+    "§ 8 Abs. 3 S. 3 KStG",
+    "§ 27 Abs. 1 KStG",
+    "BFH vom 04.03.2009, I R 32/08, BStBl II 2012, 341"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b08-2-38",
+   "themaTitel": "Option bei Grundstücksvermietung: Die Sperre des § 9 Abs. 2 UStG",
+   "figuren": {
+    "A": {
+     "name": "Selin",
+     "kopf": "Long",
+     "haut": "#D8A47F",
+     "haar": "#2C1B10",
+     "oberteil": "#F4C2C2",
+     "bueste": "Pointing Up"
+    },
+    "B": {
+     "name": "Emeka",
+     "kopf": "No Hair 1",
+     "haut": "#4E2E1C",
+     "oberteil": "#E8E1C8",
+     "bart": "Goatee 2",
+     "brille": "Glasses 3",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Option bei",
+      "Vermietung"
+     ],
+     "norm": "§ 9 Abs. 2 UStG",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 9 UStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:presentation",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung: 10 Minuten",
+     "schritte": [
+      [
+       "Einstieg (1 Min.)",
+       "§ 4 Nr. 12 S. 1 Buchst. a UStG",
+       "steuerfrei ohne Vorsteuer"
+      ],
+      [
+       "Option an sich (2 Min.)",
+       "§ 9 Abs. 1 UStG",
+       "Mieter ist Unternehmer"
+      ],
+      [
+       "Die Sperre (4 Min.)",
+       "§ 9 Abs. 2 UStG",
+       "Nutzung des Mieters"
+      ],
+      [
+       "Folgen, Fazit (3 Min.)",
+       "§§ 15, 15a UStG",
+       "Vorsteuer, Berichtigung"
+      ]
+     ],
+     "teaser": "Am Ende: § 9 UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg: Warum optieren?",
+     "punkte": [
+      [
+       "Die Vermietung von Grundstücken ist steuerfrei.",
+       "ok",
+       "Regular",
+       "§ 4 Nr. 12 S. 1 Buchst. a UStG"
+      ],
+      [
+       "Steuerfreie Umsätze schließen den Vorsteuerabzug aus, etwa aus den Baukosten.",
+       "warn",
+       "Regular",
+       "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+      ],
+      [
+       "Die Option öffnet ihn wieder.",
+       "ok",
+       "Bold",
+       "§ 9 Abs. 1 UStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Erst das Motiv."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Option dem Grunde nach",
+     "punkte": [
+      [
+       "Der Umsatz geht an einen anderen Unternehmer für dessen Unternehmen.",
+       "ok",
+       "Regular",
+       "§ 9 Abs. 1 UStG"
+      ],
+      [
+       "Vermietung an Privatleute: keine Option.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Jeder selbständig nutzbare Teil wird gesondert geprüft.",
+       "warn",
+       "Bold",
+       "Abschn. 9.2 Abs. 1 S. 2 UStAE"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Etage für Etage."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Kern: die Sperre",
+     "punkte": [
+      [
+       "Verzicht nur, soweit der Mieter ausschließlich Umsätze ausführt, die den Vorsteuerabzug nicht ausschließen.",
+       "warn",
+       "Bold",
+       "§ 9 Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Den Nachweis führt der Vermieter.",
+       "ok",
+       "Regular",
+       "§ 9 Abs. 2 S. 2 UStG"
+      ],
+      [
+       "Verwaltung: bis 5 % schädliche Nutzung unschädlich.",
+       "ok",
+       "Regular",
+       "Abschn. 9.2 Abs. 3 S. 2 UStAE"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Hier liegen die Punkte."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiel im Vortrag",
+     "punkte": [
+      [
+       "Erdgeschoss an eine Bäckerei: Option möglich.",
+       "ok",
+       "Regular",
+       "§ 9 Abs. 2 S. 1 UStG"
+      ],
+      [
+       "1. Stock an eine Zahnarztpraxis: Heilbehandlung ist steuerfrei, keine Option.",
+       "nein",
+       "Regular",
+       "§ 4 Nr. 14 Buchst. a UStG"
+      ],
+      [
+       "2. Stock an einen Versicherungsmakler: ebenfalls steuerfrei, keine Option.",
+       "nein",
+       "Regular",
+       "§ 4 Nr. 11 UStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Ein Haus, drei Ergebnisse."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Nachfragen der Prüfer",
+     "punkte": [
+      [
+       "„Gilt die Sperre für jedes Gebäude?“ Nein: nicht für bestimmte Altbauten, etwa gewerblich, Baubeginn vor 11.11.1993, fertig vor 1998.",
+       "warn",
+       "Regular",
+       "§ 27 Abs. 2 Nr. 3 UStG"
+      ],
+      [
+       "„Und wenn der Mieter wechselt?“ Vorsteuerberichtigung über zehn Jahre.",
+       "ok",
+       "Regular",
+       "§ 15a Abs. 1 S. 2 UStG"
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Und bei Altbauten?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Zeitplan: 1 · 2 · 4 · 3 Minuten",
+      "Schwerpunkt Absatz 2, immer mit Beispiel",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Mieter",
+        "a"
+       ],
+       [
+        " ist Unternehmer,",
+        null
+       ]
+      ],
+      [
+       [
+        "nur Abzugsumsätze",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "je Gebäudeteil",
+        "c"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Nachweis",
+        "d"
+       ],
+       [
+        " beim Vermieter.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Welche Nachfrage fürchtest du?",
+     "teaser": "Weiterwischen: § 9 UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 9 UStG Verzicht auf Steuerbefreiungen",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Der Unternehmer kann einen Umsatz, der nach § 4 Nr. 8 Buchstabe a bis g, Nr. 9 Buchstabe a, Nr. 12, 13 oder 19 steuerfrei ist, als steuerpflichtig behandeln, wenn der Umsatz",
+         null
+        ],
+        [
+         "an einen anderen Unternehmer für dessen Unternehmen",
+         "g1"
+        ],
+        [
+         "ausgeführt wird.",
+         null
+        ]
+       ]
+      ],
+      [
+       2,
+       [
+        [
+         "Der Verzicht auf Steuerbefreiung nach Absatz 1 ist […] bei der",
+         null
+        ],
+        [
+         "Vermietung oder Verpachtung von Grundstücken",
+         "b1"
+        ],
+        [
+         "(§ 4 Nr. 12 Satz 1 Buchstabe a) […] nur zulässig, soweit der Leistungsempfänger das Grundstück",
+         null
+        ],
+        [
+         "ausschließlich",
+         "r1"
+        ],
+        [
+         "für Umsätze verwendet oder zu verwenden beabsichtigt, die den Vorsteuerabzug nicht ausschließen.",
+         null
+        ],
+        [
+         "Der Unternehmer hat die Voraussetzungen nachzuweisen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grunderfordernis",
+       "g1"
+      ],
+      [
+       "Anwendungsfall",
+       "b1"
+      ],
+      [
+       "Kernwort!",
+       "r1"
+      ],
+      [
+       "Beweislast",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Altbauten: § 27 Abs. 2 UStG",
+      "Für sie gilt die Sperre nicht"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Option bei der Grundstücksvermietung und die Sperre des § 9 Abs. 2 UStG – in 10 Minuten.\n\nGliederung: Einstieg (1 Min.) · Option dem Grunde nach (2 Min.) · Sperre (4 Min.) · Folgen und Fazit (3 Min.).\n\n1. Vermietung ist steuerfrei (§ 4 Nr. 12 S. 1 Buchst. a UStG) und schließt den Vorsteuerabzug aus (§ 15 Abs. 2 S. 1 Nr. 1 UStG).\n2. Option nur bei Umsätzen an andere Unternehmer für deren Unternehmen (§ 9 Abs. 1 UStG); selbständig nutzbare Grundstücksteile werden gesondert beurteilt (Abschn. 9.2 Abs. 1 S. 2 UStAE).\n3. Sperre: nur soweit der Mieter das Grundstück ausschließlich für Umsätze verwendet, die den Vorsteuerabzug nicht ausschließen; Nachweis durch den Vermieter (§ 9 Abs. 2 S. 1, 2 UStG). Bagatellgrenze der Verwaltung 5 % (Abschn. 9.2 Abs. 3 S. 2 UStAE).\n4. Beispiel: Bäckerei ja; Zahnarzt (§ 4 Nr. 14 Buchst. a UStG) und Versicherungsmakler (§ 4 Nr. 11 UStG) nein.\n\nTypische Nachfragen: Altbauten (§ 27 Abs. 2 UStG), Mieterwechsel und Vorsteuerberichtigung bei Grundstücken über zehn Jahre (§ 15a Abs. 1 S. 2 UStG).\n\nHinweis: In der mündlichen Prüfung liegen keine Richtlinien vor – die Verwaltungsregeln aus dem Kopf nennen. Speichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 4 Nr. 11, Nr. 12 S. 1 Buchst. a, Nr. 14 Buchst. a UStG",
+    "§ 9 Abs. 1, 2 UStG",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG",
+    "§ 15a Abs. 1 S. 2 UStG",
+    "§ 27 Abs. 2 UStG",
+    "Abschn. 9.2 Abs. 1 S. 2, Abs. 3 S. 2 UStAE"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-4-10",
+   "themaTitel": "Darlehen an die Tochter fällt aus: Ist der Verlust abziehbar?",
+   "figuren": {
+    "A": {
+     "name": "Pia",
+     "kopf": "Medium 3",
+     "haut": "#F5D5C0",
+     "haar": "#A0522D",
+     "oberteil": "#8FC1E3",
+     "bueste": "Device"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Tochter pleite, Darlehen abschreiben, Steuer sparen? Nein, nicht bei mehr als einem Viertel Beteiligung."
+    },
+    {
+     "id": "s1",
+     "text": "In der Bilanz der Mutter: Teilwertabschreibung, Aufwand zweihunderttausend Euro."
+    },
+    {
+     "id": "s2",
+     "text": "Im Einkommen: null. Paragraf acht b Absatz drei rechnet den Verlust außerhalb der Bilanz wieder hinzu, auch bei Bürgschaften."
+    },
+    {
+     "id": "s3",
+     "text": "Ausweg Fremdvergleich: Hätte eine Bank das Darlehen nur mit den Sicherheiten der Tochter genauso gegeben?"
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Über ein Viertel beteiligt, Darlehensverlust gesperrt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Tochter pleite:",
+     "Verlust absetzen?"
+    ],
+    "pille": "Gesellschafterdarlehen",
+    "figur": "A/sorge",
+    "name": "Pia",
+    "icons": [
+     [
+      "tabler:coins",
+      "GELB",
+      "Nein"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "gesperrt",
+     "wort": "Nein"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "In der Bilanz",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Teilwertabschreibung",
+       "wert": "– 200.000 €",
+       "farbe": "GELB",
+       "wort": "Teilwertabschreibung"
+      },
+      {
+       "typ": "pille",
+       "text": "Aufwand in der Steuerbilanz",
+       "wort": "Aufwand",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
+       "wort": "zweihunderttausend"
+      }
+     ],
+     "icon": [
+      "tabler:trending-down",
+      "GELB",
+      "Bilanz"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Im Einkommen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Wirkung im Einkommen",
+       "wert": "0 €",
+       "farbe": "WEISS",
+       "wort": "null"
+      },
+      {
+       "typ": "block",
+       "label": "außerbilanziell",
+       "wert": "+ 200.000 €",
+       "farbe": "ROT",
+       "wort": "außerhalb"
+      },
+      {
+       "typ": "pille",
+       "text": "auch Bürgschaften",
+       "wort": "Bürgschaften",
+       "farbe": "GELB"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8b Abs. 3 S. 4 KStG",
+       "wort": "Paragraf"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "hinzu",
+       0.9
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Der Ausweg",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Fremdvergleich",
+       "unter": "Hätte eine Bank genauso gehandelt?",
+       "wort": "Fremdvergleich",
+       "farbe": "GRUEN",
+       "ls": 72
+      },
+      {
+       "typ": "pille",
+       "text": "nur Sicherheiten der Tochter",
+       "wort": "Sicherheiten",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 8b Abs. 3 S. 7 KStG",
+       "wort": "Bank"
+      }
+     ],
+     "figur": {
+      "ref": "A:denkt",
+      "wort": "Bank",
+      "hoehe": 340
+     }
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Über ein Viertel",
+     "beteiligt:",
+     "Darlehensverlust",
+     "gesperrt"
+    ],
+    "woerter": [
+     null,
+     "beteiligt",
+     "Darlehensverlust",
+     "gesperrt"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "gesperrt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Darlehen an die Tochter fällt aus: Mindert die Abschreibung das Einkommen der Mutter-GmbH? 💸\n\n▸ In der Steuerbilanz wird die Forderung bei voraussichtlich dauernder Wertminderung auf den niedrigeren Teilwert abgeschrieben (§ 6 Abs. 1 Nr. 2 S. 2 EStG).\n▸ Die Abschreibung mindert das Einkommen trotzdem nicht: Sie wird außerhalb der Bilanz wieder hinzugerechnet, wenn der Darlehensgeber zu mehr als einem Viertel beteiligt ist oder war (§ 8b Abs. 3 S. 3, 4 KStG). Gleiches gilt für die Inanspruchnahme aus Sicherheiten, für nahestehende Personen (§ 8b Abs. 3 S. 4, 5 KStG) und für darlehensähnliche Forderungen (§ 8b Abs. 3 S. 8 KStG).\n▸ Ausweg: Fremdvergleich – die Gesellschaft weist nach, dass auch eine Bank das Darlehen zu denselben Bedingungen gegeben oder stehen gelassen hätte; nur die eigenen Sicherungsmittel der Tochter zählen (§ 8b Abs. 3 S. 7 KStG).\n▸ Spätere Wertaufholung bleibt außer Ansatz, soweit die Abschreibung gesperrt war (§ 8b Abs. 3 S. 9 KStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 6 Abs. 1 Nr. 2 S. 2 EStG",
+    "§ 8b Abs. 3 S. 3, 4, 5, 7, 8, 9 KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "frage": [
+    "GmbH hält 8 %:",
+    "Dividende steuerfrei?"
+   ],
+   "optionen": [
+    "Ja, zu 95 %",
+    "Nein, voll steuerpflichtig",
+    "Zu 40 % steuerfrei"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top",
+     "haut": "#8A5A3C",
+     "haar": "#151515",
+     "oberteil": "#A8D5BA",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "titel": [
+    "B: voll",
+    "steuerpflichtig"
+   ],
+   "optionen": [
+    "Ja, zu 95 %",
+    "Nein, voll steuerpflichtig",
+    "Zu 40 % steuerfrei"
+   ],
+   "richtig": 1,
+   "text": "Unter 10 % zu Beginn des Kalenderjahres gibt es keine Freistellung.",
+   "norm": "§ 8b Abs. 4 S. 1 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Flat Top",
+     "haut": "#8A5A3C",
+     "haar": "#151515",
+     "oberteil": "#A8D5BA",
+     "bueste": "Tee 1"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Anteile rein, Gewinn raus?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-modul-persg-2",
+   "titel": [
+    "GmbH & Co. KG:",
+    "geprägt?"
+   ],
+   "norm": "§ 15 Abs. 3 Nr. 2 EStG",
+   "punkte": [
+    [
+     "Persönlich haften nur Kapitalgesellschaften.",
+     "ok",
+     null
+    ],
+    [
+     "Geschäftsführung nur durch sie oder Nichtgesellschafter.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Long Bangs",
+     "haut": "#FBE3D3",
+     "haar": "#E3C16F",
+     "oberteil": "#F7A8B8",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag: Option § 9 UStG"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst die Aufgabe,",
+    "dann der Fall"
+   ],
+   "punkte": [
+    [
+     "Bearbeitungshinweise vor dem Text lesen",
+     "ok",
+     null
+    ],
+    [
+     "Gefragte Steuern und Jahre notieren",
+     "ok",
+     null
+    ],
+    [
+     "Nicht Gefragtes bringt keine Punkte",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Shaved 2",
+     "haut": "#C58C67",
+     "oberteil": "#F6D06F"
+    }
+   },
+   "figur": "Z/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b11-30",
+   "titel": [
+    "Vorsteuer",
+    "aufteilen"
+   ],
+   "punkte": [
+    [
+     "Erst wirtschaftlich zuordnen",
+     "ok",
+     "§ 15 Abs. 4 S. 1 UStG"
+    ],
+    [
+     "Gebäude: Flächenschlüssel, außer eine Methode ist genauer",
+     "ok",
+     "§ 15 Abs. 4 S. 4 UStG"
+    ],
+    [
+     "Gesamtumsatz nur als letzte Lösung",
+     "warn",
+     "§ 15 Abs. 4 S. 3 UStG"
+    ]
+   ],
+   "icon": "tabler:chart-pie",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Medium Straight",
+     "haut": "#B07850",
+     "haar": "#3A2A1E",
+     "oberteil": "#F2A65A"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Tochter pleite: Verlust weg?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-aufb-kst-ks-5-08",
+   "titel": [
+    "vGA an die",
+    "Schwester-GmbH"
+   ],
+   "zeilen": [
+    [
+     [
+      "Umweg über den",
+      null
+     ]
+    ],
+    [
+     [
+      "Gesellschafter",
+      "a"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "Wirtschaftsgut",
+      "b"
+     ],
+     [
+      " = Einlage,",
+      null
+     ]
+    ],
+    [
+     [
+      "Nutzung",
+      "c"
+     ],
+     [
+      " verpufft.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 8 Abs. 3 S. 2, 3 KStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Bun",
+     "haut": "#E9C2A6",
+     "haar": "#D0D0D0",
+     "oberteil": "#9FD8CB",
+     "brille": "Glasses",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "M:erklaert"
+  }
+ ]
+}

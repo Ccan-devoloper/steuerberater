@@ -1,0 +1,1076 @@
+{
+ "datum": "2026-10-22",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-11",
+   "themaTitel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
+   "figuren": {
+    "A": {
+     "name": "Femke",
+     "kopf": "Bun",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Betriebsstätte:",
+      "AO oder DBA?"
+     ],
+     "norm": "§ 12 AO",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 12 AO",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Baustelle",
+        "Bold",
+        44
+       ],
+       [
+        "8 Monate",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Betriebsstätte?",
+        "ExtraBold",
+        48
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "AO-Begriff",
+       "§ 12 S. 1 AO",
+       "feste Einrichtung des Unternehmens"
+      ],
+      [
+       "Bau und Montage",
+       "§ 12 S. 2 Nr. 8 AO",
+       "AO: über 6 Monate"
+      ],
+      [
+       "DBA-Begriff",
+       "Art. 5 Abs. 3 OECD-MA",
+       "Bau erst über 12 Monate"
+      ],
+      [
+       "Hilfstätigkeiten",
+       "Art. 5 Abs. 4 OECD-MA",
+       "Lager, Einkauf: oft keine Betriebsstätte"
+      ]
+     ],
+     "teaser": "Am Ende: § 12 AO markiert"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Baustelle, 8 Monate",
+     "links": {
+      "kopf": "§ 12 AO",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Betriebsstätte: ja",
+        "§ 12 S. 2 Nr. 8 AO"
+       ],
+       [
+        "beschränkt steuerpflichtig",
+        "§ 49 Abs. 1 Nr. 2 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "OECD-MA",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Betriebsstätte: nein",
+        "Art. 5 Abs. 3 OECD-MA"
+       ],
+       [
+        "Gewinn nur im Ansässigkeitsstaat",
+        "Art. 7 Abs. 1 OECD-MA"
+       ]
+      ]
+     },
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Beides gilt?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Welcher Begriff wann?",
+     "punkte": [
+      [
+       "Ob Deutschland besteuern will, regelt § 12 AO.",
+       "ok",
+       "Regular",
+       "§ 49 Abs. 1 Nr. 2 Buchst. a EStG"
+      ],
+      [
+       "Ob es besteuern darf, regelt der Betriebsstättenbegriff des DBA.",
+       "warn",
+       "Bold",
+       "Art. 7 Abs. 1 OECD-MA"
+      ],
+      [
+       "Immer das konkrete Abkommen lesen, Fristen weichen ab.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Erst AO, dann DBA"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Baustelle 8 Monate: AO ja, OECD-MA nein",
+      "DBA-Begriff ist enger",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "AO",
+        "a"
+       ],
+       [
+        ": will besteuern,",
+        null
+       ]
+      ],
+      [
+       [
+        "DBA",
+        "b"
+       ],
+       [
+        ": darf besteuern,",
+        null
+       ]
+      ],
+      [
+       [
+        "Bau",
+        "c"
+       ],
+       [
+        ": 6 oder 12 Monate.",
+        null
+       ]
+      ],
+      [
+       [
+        "Lager",
+        "d"
+       ],
+       [
+        ": DBA oft nicht.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Deine DBA-Frist?",
+     "teaser": "Weiterwischen: § 12 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 12 AO Betriebstätte (Auszug)",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Betriebstätte ist jede feste Geschäftseinrichtung oder Anlage,",
+         "g1"
+        ],
+        [
+         "die der Tätigkeit eines Unternehmens dient. Als Betriebstätten sind insbesondere anzusehen: […] 6.",
+         null
+        ],
+        [
+         "Ein- oder Verkaufsstellen,",
+         "b1"
+        ],
+        [
+         "[…] 8. Bauausführungen oder Montagen, […] wenn a) die einzelne Bauausführung oder Montage […]",
+         null
+        ],
+        [
+         "länger als sechs Monate",
+         "r1"
+        ],
+        [
+         "dauern.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Grundbegriff",
+       "g1"
+      ],
+      [
+       "DBA: Einkauf oft nicht",
+       "b1"
+      ],
+      [
+       "DBA: 12 Monate",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "DBA-Begriff: Art. 5 OECD-MA",
+      "Bauausführung erst nach mehr als 12 Monaten"
+     ]
+    }
+   ],
+   "caption": "Betriebsstätte: AO oder DBA? Der Spickzettel für die Ertragsteuer-Klausur.\n\n▸ Betriebsstätte nach nationalem Recht ist jede feste Geschäftseinrichtung oder Anlage, die der Tätigkeit eines Unternehmens dient (§ 12 S. 1 AO); Bauausführungen und Montagen zählen, wenn sie länger als sechs Monate dauern (§ 12 S. 2 Nr. 8 AO), auch Ein- oder Verkaufsstellen (§ 12 S. 2 Nr. 6 AO).\n▸ Der Begriff des § 12 AO entscheidet, ob Deutschland einen ausländischen Unternehmer beschränkt besteuern will (§ 49 Abs. 1 Nr. 2 Buchst. a EStG).\n▸ Ob Deutschland besteuern darf, richtet sich nach dem DBA: Unternehmensgewinne nur im Ansässigkeitsstaat, außer bei einer Betriebsstätte im anderen Staat (Art. 7 Abs. 1 OECD-MA). Bauausführungen sind dort erst ab mehr als zwölf Monaten Betriebsstätte (Art. 5 Abs. 3 OECD-MA), vorbereitende und Hilfstätigkeiten wie Lager oder Einkauf in der Regel nicht (Art. 5 Abs. 4 OECD-MA). Die Fristen im konkreten Abkommen können abweichen.\n\nZum Schluss: § 12 AO zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 12 AO",
+    "§ 49 Abs. 1 Nr. 2 Buchst. a EStG",
+    "Art. 5 Abs. 3, 4 OECD-MA",
+    "Art. 7 Abs. 1 OECD-MA"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-6",
+   "themaTitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
+   "figuren": {
+    "A": {
+     "name": "Imani",
+     "kopf": "Twists",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Anteil teurer",
+      "gekauft?"
+     ],
+     "norm": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 6 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Mehrpreis",
+        "Bold",
+        44
+       ],
+       [
+        "80.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "über Kapital",
+        "ExtraBold",
+        48
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Das Schema",
+     "schritte": [
+      [
+       "Mehrpreis ermitteln",
+       null,
+       "Kaufpreis minus übernommenes Kapital"
+      ],
+      [
+       "Auf Wirtschaftsgüter verteilen",
+       null,
+       "anteilige stille Reserven, Rest Firmenwert"
+      ],
+      [
+       "Ergänzungsbilanz aufstellen",
+       null,
+       "Mehrwerte aktiv, Mehrkapital passiv"
+      ],
+      [
+       "Fortschreiben",
+       "§ 7 Abs. 1 EStG",
+       "AfA auf die Mehrwerte"
+      ]
+     ],
+     "teaser": "Am Ende: § 6 Abs. 5 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Imani kauft für 200.000 € ein Drittel der Rosen-KG.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ihr übernommenes Kapitalkonto: 120.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Stille Reserven der KG: Grundstück 90.000 €, Maschinen 60.000 €.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Wohin mit 80.000 €?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "1 + 2 · Mehrpreis verteilen",
+     "zeilen": [
+      [
+       "Kaufpreis",
+       "200.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Kapitalkonto",
+       "– 120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= Mehrpreis",
+       "80.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Grundstück 1/3 von 90.000 €",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Maschinen 1/3 von 60.000 €",
+       "20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Rest: Firmenwert",
+       "30.000 €",
+       "Bold",
+       null
+      ]
+     ]
+    },
+    {
+     "typ": "vergleich",
+     "titel": "3 · Ergänzungsbilanz Imani",
+     "links": {
+      "kopf": "Aktiva",
+      "farbe": "WEISS",
+      "punkte": [
+       [
+        "Grundstück 30.000 €",
+        null
+       ],
+       [
+        "Maschinen 20.000 €",
+        null
+       ],
+       [
+        "Firmenwert 30.000 €",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Passiva",
+      "farbe": "WEISS",
+      "punkte": [
+       [
+        "Mehrkapital Imani 80.000 €",
+        null
+       ]
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Nur für mich!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "4 · Fortschreiben!",
+     "punkte": [
+      [
+       "Mehrwerte nach Restnutzungsdauer abschreiben: Maschinen in 4 Jahren, 5.000 € jährlich.",
+       "ok",
+       "Regular",
+       "BFH vom 20.11.2014, IV R 1/11, BStBl II 2017, 34"
+      ],
+      [
+       "Firmenwert über 15 Jahre: 2.000 € jährlich.",
+       "ok",
+       "Bold",
+       "§ 7 Abs. 1 S. 3 EStG"
+      ],
+      [
+       "Die Mehr-AfA mindert nur Imanis Gewinnanteil.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 290,
+     "blase": "Jedes Jahr?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Ergänzungsbilanz Imani: 80.000 € Mehrwerte",
+      "Mehr-AfA 7.000 € im Jahr, nur für ihren Anteil",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Mehrpreis",
+        "a"
+       ],
+       [
+        " ermitteln,",
+        null
+       ]
+      ],
+      [
+       [
+        "Reserven",
+        "b"
+       ],
+       [
+        " zuordnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest",
+        "c"
+       ],
+       [
+        " Firmenwert,",
+        null
+       ]
+      ],
+      [
+       [
+        "jährlich",
+        "d"
+       ],
+       [
+        " fortschreiben.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Vergisst du die Fortschreibung?",
+     "teaser": "Weiterwischen: § 6 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 6, 7 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 6 (5)",
+       [
+        [
+         "4 Wird das nach Satz 3 übertragene Wirtschaftsgut innerhalb einer Sperrfrist veräußert oder entnommen, ist rückwirkend auf den Zeitpunkt der Übertragung der Teilwert anzusetzen,",
+         null
+        ],
+        [
+         "es sei denn, die bis zur Übertragung entstandenen stillen Reserven sind durch Erstellung einer Ergänzungsbilanz",
+         "g1"
+        ],
+        [
+         "dem übertragenden Gesellschafter zugeordnet worden; […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 7 (1)",
+       [
+        [
+         "3 Als betriebsgewöhnliche Nutzungsdauer des",
+         null
+        ],
+        [
+         "Geschäfts- oder Firmenwerts",
+         "b1"
+        ],
+        [
+         "eines Gewerbebetriebs […] gilt ein Zeitraum von",
+         null
+        ],
+        [
+         "15 Jahren.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Ergänzungsbilanz im Gesetz",
+       "g1"
+      ],
+      [
+       "Firmenwert",
+       "b1"
+      ],
+      [
+       "Mehr-AfA",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "BFH IV R 1/11 (BStBl II 2017, 34)",
+      "Erwerber schreibt nach Restnutzungsdauer ab"
+     ]
+    }
+   ],
+   "caption": "Mitunternehmeranteil über dem Kapitalkonto gekauft? So entsteht die Ergänzungsbilanz – das Prüfschema in 4 Schritten.\n\n1. Mehrpreis: Kaufpreis minus übernommenes Kapitalkonto.\n2. Verteilung auf die anteiligen stillen Reserven der einzelnen Wirtschaftsgüter, ein verbleibender Rest ist Firmenwert.\n3. Ergänzungsbilanz des Erwerbers: Mehrwerte auf der Aktivseite, Mehrkapital auf der Passivseite; sie gehört zur Gewinnermittlung des Mitunternehmers (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n4. Fortschreibung: Die Mehrwerte werden wie eigene Anschaffungskosten abgeschrieben, nach der Restnutzungsdauer im Erwerbszeitpunkt (BFH vom 20.11.2014, IV R 1/11, BStBl II 2017, 34); Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG). Die Mehr-AfA mindert nur den Gewinnanteil des Erwerbers.\n\nIm Beispiel: 200.000 € – 120.000 € = 80.000 € Mehrpreis; Grundstück 30.000 €, Maschinen 20.000 €, Firmenwert 30.000 €. Jährlich 5.000 € (Maschinen, 4 Jahre) + 2.000 € (Firmenwert) = 7.000 € Mehr-AfA.\n\nIm Gesetz steht die Ergänzungsbilanz übrigens auch: § 6 Abs. 5 S. 4 EStG. Zum Schluss zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 6 Abs. 5 S. 4 EStG",
+    "§ 7 Abs. 1 S. 3 EStG",
+    "BFH vom 20.11.2014, IV R 1/11, BStBl II 2017, 34"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-3",
+   "themaTitel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+   "figuren": {
+    "A": {
+     "name": "Wiebke",
+     "kopf": "Medium Bangs 3",
+     "haut": "#F0C8A8",
+     "haar": "#6B3E26",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Betrieb für zwei Millionen Euro geerbt. Was bleibt steuerpflichtig? Je nach Antrag etwas oder gar nichts."
+    },
+    {
+     "id": "s1",
+     "text": "Regelverschonung: Fünfundachtzig Prozent bleiben frei. Für die restlichen dreihunderttausend gibt es noch einen Abzugsbetrag von fünfundsiebzigtausend."
+    },
+    {
+     "id": "s2",
+     "text": "Die Option auf hundert Prozent gibt es nur bei höchstens zwanzig Prozent Verwaltungsvermögen."
+    },
+    {
+     "id": "s3",
+     "text": "Dafür sieben statt fünf Jahre halten und die Lohnsumme strenger. Der Antrag ist unwiderruflich."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Hundert Prozent kosten mehr Zeit."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Betrieb geerbt:",
+     "85 oder 100 %?"
+    ],
+    "pille": "§ 13a ErbStG",
+    "figur": "A/sorge",
+    "name": "Wiebke",
+    "icons": [
+     [
+      "tabler:building-factory-2",
+      "GELB",
+      "Antrag"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Regel",
+      "wert": "85 % frei",
+      "farbe": "GELB",
+      "wort": "etwas"
+     },
+     {
+      "label": "Option",
+      "wert": "100 % frei",
+      "farbe": "GRUEN",
+      "wort": "nichts"
+     }
+    ],
+    "stempel": {
+     "text": "per Antrag!",
+     "wort": "nichts"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Regelverschonung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Frei",
+       "wert": "85 %",
+       "farbe": "GELB",
+       "wort": "Fünfundachtzig",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Rest nach Abzugsbetrag",
+       "wert": "225.000 €",
+       "farbe": "WEISS",
+       "wort": "Abzugsbetrag",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13a Abs. 1, 2 ErbStG",
+       "wort": "restlichen"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Abzugsbetrag"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "fünfundsiebzigtausend",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Option 100 %",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Verwaltungsvermögen",
+       "wert": "max. 20 %",
+       "farbe": "GRUEN",
+       "wort": "zwanzig",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13a Abs. 10 S. 2 ErbStG",
+       "wort": "Verwaltungsvermögen"
+      }
+     ],
+     "icon": [
+      "tabler:percentage",
+      "GELB",
+      "zwanzig"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Der Preis",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "7 statt 5 Jahre",
+       "unter": "Behaltensfrist und Lohnsummenfrist",
+       "wort": "sieben",
+       "farbe": "WEISS",
+       "ls": 72
+      },
+      {
+       "typ": "text",
+       "text": "700 statt 400 %",
+       "unter": "Mindestlohnsumme",
+       "wort": "Lohnsumme",
+       "farbe": "WEISS",
+       "ls": 72
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13a Abs. 10 S. 1 ErbStG",
+       "wort": "unwiderruflich"
+      }
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Option 100 %:",
+     "max. 20 % Verwaltung,",
+     "7 Jahre halten,",
+     "unwiderruflich"
+    ],
+    "woerter": [
+     null,
+     "Hundert",
+     "kosten",
+     "Zeit"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Zeit",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Betriebsvermögen geerbt: 85 % oder 100 % steuerfrei? 🏭\n\n▸ Regelverschonung: Begünstigtes Vermögen bleibt zu 85 % steuerfrei (§ 13a Abs. 1 S. 1 ErbStG). Auf den Rest gibt es einen Abzugsbetrag von 150.000 €, der um die Hälfte des übersteigenden Betrags abschmilzt (§ 13a Abs. 2 ErbStG). Beispiel 2 Mio. €: Rest 300.000 €, Abzugsbetrag 150.000 € – 75.000 € = 75.000 €, steuerpflichtig 225.000 €.\n▸ Optionsverschonung: Auf unwiderruflichen Antrag 100 % (§ 13a Abs. 10 S. 1 Nr. 1 ErbStG), aber nur, wenn das begünstigungsfähige Vermögen zu höchstens 20 % aus Verwaltungsvermögen besteht (§ 13a Abs. 10 S. 2 ErbStG).\n▸ Preis der Option: Behaltensfrist und Lohnsummenfrist sieben statt fünf Jahre, Mindestlohnsumme 700 % statt 400 % (§ 13a Abs. 10 S. 1 Nr. 2, 3, 6 ErbStG; Grundfall § 13a Abs. 3 S. 1, Abs. 6 ErbStG). Bei höchstens fünf Beschäftigten entfällt die Lohnsummenprüfung (§ 13a Abs. 3 S. 3 Nr. 2 ErbStG).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 13a Abs. 1, 2, 3, 6, 10 ErbStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-15",
+   "frage": [
+    "Beratung für eine",
+    "Firma in Lyon: wo?"
+   ],
+   "optionen": [
+    "Sitz des Beraters",
+    "Sitz der Firma in Lyon",
+    "Ort der Rechnung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Shaved 3",
+     "haut": "#B97A56",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-15",
+   "titel": [
+    "B: beim Empfänger"
+   ],
+   "optionen": [
+    "Sitz des Beraters",
+    "Sitz der Firma in Lyon",
+    "Ort der Rechnung"
+   ],
+   "richtig": 1,
+   "text": "B2B-Grundregel: Ort ist dort, von wo aus der Empfänger sein Unternehmen betreibt.",
+   "norm": "§ 3a Abs. 2 S. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Shaved 3",
+     "haut": "#B97A56",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Betriebsstätte: AO oder DBA?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-14",
+   "titel": [
+    "Ab ins Ausland:",
+    "Entstrickung?"
+   ],
+   "norm": "§ 4 Abs. 1 S. 3 EStG",
+   "punkte": [
+    [
+     "Zählt wie eine Entnahme, bewertet zum gemeinen Wert.",
+     "ok",
+     "§ 6 Abs. 1 Nr. 4 S. 1 EStG"
+    ],
+    [
+     "EU-Fall: Ausgleichsposten, über fünf Jahre auflösen.",
+     "warn",
+     "§ 4g Abs. 1, 2 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Flat Top",
+     "haut": "#8D5A3B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Anteil teurer gekauft?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Urteilsstil",
+    "spart Zeit"
+   ],
+   "punkte": [
+    [
+     "Ergebnis zuerst nennen.",
+     "ok",
+     null
+    ],
+    [
+     "Dann die Norm mit Absatz und Satz.",
+     "ok",
+     null
+    ],
+    [
+     "Kurz am Sachverhalt begründen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:clock-hour-4",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Hijab",
+     "haut": "#D9A07A",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-14",
+   "titel": [
+    "Kapitalerträge",
+    "im Betrieb"
+   ],
+   "punkte": [
+    [
+     "Keine Abgeltung: Sie gehören zum Gewinn.",
+     "ok",
+     "§ 43 Abs. 5 S. 2 EStG"
+    ],
+    [
+     "Einbehaltene Kapitalertragsteuer wird angerechnet.",
+     "ok",
+     "§ 36 Abs. 2 Nr. 2 EStG"
+    ],
+    [
+     "Dividenden: Teileinkünfteverfahren.",
+     "warn",
+     "§ 3 Nr. 40 S. 2 EStG"
+    ]
+   ],
+   "icon": "tabler:building-bank",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "U": {
+     "kopf": "Gray Bun",
+     "haut": "#E0AC85",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "U/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Betrieb geerbt: 85 oder 100 %?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-301",
+   "titel": [
+    "Wann entsteht",
+    "die Steuer?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Mit dem ",
+      null
+     ],
+     [
+      "Tatbestand",
+      "a"
+     ],
+     [
+      " –",
+      null
+     ]
+    ],
+    [
+     [
+      "nicht erst",
+      null
+     ]
+    ],
+    [
+     [
+      "mit dem ",
+      null
+     ],
+     [
+      "Bescheid",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 38 AO",
+   "groesse": 76,
+   "figuren": {
+    "M": {
+     "kopf": "Long Bangs",
+     "haut": "#F5D3B8",
+     "haar": "#2B2B2B",
+     "oberteil": "#F9D56E",
+     "bueste": "Paper"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

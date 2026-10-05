@@ -1,0 +1,1385 @@
+{
+ "datum": "2026-12-14",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-7-17",
+   "themaTitel": "Grundlagenbescheid ändert sich: Der Folgebescheid muss nachziehen",
+   "figuren": {
+    "A": {
+     "name": "Jarno",
+     "kopf": "Short 4",
+     "haut": "#E9BE9C",
+     "haar": "#C08A4A",
+     "oberteil": "#F2B880",
+     "bart": "Full 3",
+     "bueste": "Sweater"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "zeilen": [
+      "Frist vorbei,",
+      "noch ändern?"
+     ],
+     "norm": "§ 175 Abs. 1 S. 1 Nr. 1 AO",
+     "unter": "Klausurfrage",
+     "teaser": "+ Markier-Guide § 171 AO",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "MÄRZ",
+      "tag": "10",
+      "unter": "2026 · bekannt"
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Jarno ist Kommanditist einer KG. Seine Erklärung 2020 hat er 2021 abgegeben.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Nach einer Außenprüfung bei der KG steigt sein Gewinnanteil 2020 um 18.000 €.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "2020 ist doch durch?"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Die Daten",
+     "zeilen": [
+      [
+       "2021",
+       "Erklärung 2020 abgegeben",
+       "WEISS",
+       "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+      ],
+      [
+       "31.12.2025",
+       "Frist regulär um",
+       "ROT",
+       "§ 169 Abs. 2 S. 1 Nr. 2 AO"
+      ],
+      [
+       "06.03.2026",
+       "Feststellung zur Post",
+       "GELB",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Und jetzt?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Darf das Finanzamt Jarnos Einkommensteuerbescheid 2020 im Mai 2026 noch ändern?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Prüfe Änderungsnorm, Bindung und Festsetzungsfrist.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst lösen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ja oder nein?"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Lösung in 4 Schritten",
+     "schritte": [
+      [
+       "Änderungsnorm",
+       "§ 175 Abs. 1 S. 1 Nr. 1 AO",
+       "Grundlagenbescheid geändert, Folgebescheid zieht nach"
+      ],
+      [
+       "Bindung",
+       "§ 182 Abs. 1 S. 1 AO",
+       "Feststellung bindet den ESt-Bescheid"
+      ],
+      [
+       "Bekanntgabe",
+       "§ 122 Abs. 2 Nr. 1 AO",
+       "am vierten Tag nach Aufgabe zur Post"
+      ],
+      [
+       "Frist",
+       "§ 171 Abs. 10 S. 1 AO",
+       "endet frühestens zwei Jahre nach Bekanntgabe"
+      ]
+     ]
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Fristende rechnen",
+     "normen": [
+      "§ 122 Abs. 2 Nr. 1 AO",
+      "§ 171 Abs. 10 S. 1 AO"
+     ],
+     "zeilen": [
+      [
+       "Reguläres Fristende",
+       "31.12.2025",
+       "Regular",
+       "ROT"
+      ],
+      [
+       "Zur Post (Freitag)",
+       "06.03.2026",
+       "Regular",
+       null
+      ],
+      [
+       "Bekanntgabe, 4. Tag",
+       "10.03.2026",
+       "Regular",
+       null
+      ],
+      [
+       "Plus zwei Jahre",
+       "10.03.2028",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Änderung im Mai 2026: zulässig",
+      "GRUEN"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Umfang der Änderung",
+     "punkte": [
+      [
+       "Nur soweit die Bindung reicht: plus 18.000 € Gewinnanteil.",
+       "ok",
+       "Bold",
+       "§ 175 Abs. 1 S. 1 Nr. 1 AO"
+      ],
+      [
+       "Die Frist bleibt auch nur insoweit offen.",
+       "warn",
+       "Regular",
+       "§ 171 Abs. 10 S. 1 AO"
+      ],
+      [
+       "Andere Fehler nur im Rahmen dieser Änderung saldieren.",
+       "ok",
+       "Regular",
+       "§ 177 Abs. 1 AO"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Nur dieser Teil?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Einspruch am falschen Ort",
+     "punkte": [
+      [
+       "Jarno hält den Gewinnanteil für zu hoch und legt Einspruch gegen den ESt-Bescheid ein.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Zwecklos: Angreifen muss er den Feststellungsbescheid.",
+       "warn",
+       "Bold",
+       "§ 351 Abs. 2 AO"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Falscher Bescheid?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Antwort: Ja, ändern bis 10.03.2028",
+      "§ 175 Abs. 1 S. 1 Nr. 1, § 171 Abs. 10 AO",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Grundlage",
+        "a"
+       ],
+       [
+        " ändert sich,",
+        null
+       ]
+      ],
+      [
+       [
+        "Folge",
+        "b"
+       ],
+       [
+        " zieht nach,",
+        null
+       ]
+      ],
+      [
+       [
+        "zwei Jahre",
+        "c"
+       ],
+       [
+        " Frist,",
+        null
+       ]
+      ],
+      [
+       [
+        "soweit",
+        "d"
+       ],
+       [
+        " gebunden.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Frist gesehen?",
+     "teaser": "Weiterwischen: § 171 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 122, 171, 175 AO (Auszug)",
+     "absaetze": [
+      [
+       "§ 122 (2)",
+       [
+        [
+         "Ein schriftlicher Verwaltungsakt, der durch die Post übermittelt wird, gilt als bekannt gegeben 1. bei einer Übermittlung im Inland",
+         null
+        ],
+        [
+         "am vierten Tage nach der Aufgabe zur Post,",
+         "g2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 171 (10)",
+       [
+        [
+         "Soweit für die Festsetzung einer Steuer ein",
+         null
+        ],
+        [
+         "Feststellungsbescheid",
+         "b1"
+        ],
+        [
+         ", ein Steuermessbescheid oder ein anderer Verwaltungsakt bindend ist (Grundlagenbescheid),",
+         null
+        ],
+        [
+         "endet die Festsetzungsfrist nicht vor Ablauf von zwei Jahren",
+         "g1"
+        ],
+        [
+         "nach Bekanntgabe des Grundlagenbescheids.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       "§ 175 (1)",
+       [
+        [
+         "Ein Steuerbescheid ist zu erlassen, aufzuheben oder zu ändern, 1.",
+         null
+        ],
+        [
+         "soweit",
+         "r1"
+        ],
+        [
+         "ein Grundlagenbescheid (§ 171 Absatz 10), dem Bindungswirkung für diesen Steuerbescheid zukommt, erlassen, aufgehoben oder geändert wird,",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Di 10.03.2026",
+       "g2"
+      ],
+      [
+       "Grundlage",
+       "b1"
+      ],
+      [
+       "2 Jahre Ablaufhemmung",
+       "g1"
+      ],
+      [
+       "ab Bekanntgabe",
+       "gr1"
+      ],
+      [
+       "nur punktuell",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Post Fr 06.03., bekannt Di 10.03.2026",
+      "Änderung bis 10.03.2028 möglich"
+     ]
+    }
+   ],
+   "caption": "Festsetzungsfrist abgelaufen – und trotzdem ändert das Finanzamt? Die Klausurfrage zum Folgebescheid.\n\nFall: Jarno gibt seine Erklärung 2020 im Jahr 2021 ab. Die vierjährige Festsetzungsfrist beginnt mit Ablauf von 2021 und endet regulär am 31.12.2025 (§ 169 Abs. 2 S. 1 Nr. 2, § 170 Abs. 2 S. 1 Nr. 1 AO). Am 06.03.2026 geht ein geänderter Feststellungsbescheid der KG zur Post, sein Gewinnanteil steigt um 18.000 €.\n\nLösung:\n1. Ein geänderter Grundlagenbescheid verpflichtet zur Änderung des Folgebescheids (§ 175 Abs. 1 S. 1 Nr. 1 AO).\n2. Feststellungsbescheide binden die Folgebescheide (§ 182 Abs. 1 S. 1 AO).\n3. Bekanntgabe am vierten Tag nach Aufgabe zur Post: 10.03.2026 (§ 122 Abs. 2 Nr. 1 AO). Für diesen Teil läuft die Festsetzungsfrist frühestens zwei Jahre danach ab, also nicht vor dem 10.03.2028 (§ 171 Abs. 10 S. 1 AO).\n4. Geändert wird nur, soweit die Bindung reicht; andere materielle Fehler nur im Rahmen dieser Änderung (§ 177 Abs. 1 AO).\n\nKlausurfalle: Einwendungen gegen den Gewinnanteil gehören in den Einspruch gegen den Feststellungsbescheid, nicht gegen den Einkommensteuerbescheid (§ 351 Abs. 2 AO).\n\nZum Schluss: §§ 122, 171, 175 AO zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 175 Abs. 1 S. 1 Nr. 1 AO",
+    "§ 182 Abs. 1 S. 1 AO",
+    "§ 171 Abs. 10 S. 1 AO",
+    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+    "§ 170 Abs. 2 S. 1 Nr. 1 AO",
+    "§ 122 Abs. 2 Nr. 1 AO",
+    "§ 177 Abs. 1 AO",
+    "§ 351 Abs. 2 AO"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-schema-0",
+   "themaTitel": "KSt-Grundschema: Steuerpflicht bis zvE",
+   "figuren": {
+    "A": {
+     "name": "Wanjiru",
+     "kopf": "Bantu Knots",
+     "haut": "#7A4A2E",
+     "oberteil": "#8FD3C8",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Jonte",
+     "kopf": "Medium Straight",
+     "haut": "#F2CDB0",
+     "haar": "#4A3426",
+     "oberteil": "#B9A8E8",
+     "brille": "Glasses 3",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Vom Gewinn",
+      "zum zvE"
+     ],
+     "norm": "§§ 7, 8 KStG",
+     "unter": "in 5 Schritten",
+     "teaser": "+ Markier-Guide §§ 7, 8, 23 + R 7.1",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Jahresüberschuss",
+        "Bold",
+        44
+       ],
+       [
+        "150.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "zvE?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "zvE in 5 Schritten",
+     "schritte": [
+      [
+       "Steuerpflicht klären",
+       "§ 1 KStG",
+       ""
+      ],
+      [
+       "Gewinn laut Steuerbilanz",
+       "§ 8 Abs. 1 S. 1 KStG",
+       ""
+      ],
+      [
+       "Steuern und vGA dazu",
+       "§ 10 Nr. 2, § 8 Abs. 3 S. 2 KStG",
+       ""
+      ],
+      [
+       "Dividenden ab, 5 % dazu",
+       "§ 8b Abs. 1, 5 KStG",
+       ""
+      ],
+      [
+       "Verlust ab, dann 15 %",
+       "§ 10d EStG, § 23 KStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: §§ 7, 8, 23 KStG + R 7.1 markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Steuerpflicht",
+     "punkte": [
+      [
+       "GmbH mit Sitz oder Geschäftsleitung im Inland: unbeschränkt steuerpflichtig.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1 Nr. 1 KStG"
+      ],
+      [
+       "Erfasst sind sämtliche Einkünfte.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 2 KStG"
+      ],
+      [
+       "Und alle gelten als gewerblich.",
+       "warn",
+       "Bold",
+       "§ 8 Abs. 2 KStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst wer, dann wie viel"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 + 3 · Start und Zurechnung",
+     "punkte": [
+      [
+       "Start ist der Gewinn laut Steuerbilanz.",
+       "ok",
+       "Regular",
+       "§ 8 Abs. 1 S. 1 KStG"
+      ],
+      [
+       "KSt, SolZ und Gewerbesteuer wieder dazu.",
+       "warn",
+       "Regular",
+       "§ 10 Nr. 2 KStG, § 4 Abs. 5b EStG"
+      ],
+      [
+       "vGA außerhalb der Bilanz hinzurechnen.",
+       "ok",
+       "Bold",
+       "§ 8 Abs. 3 S. 2 KStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Steuern sind kein Aufwand"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Abziehen",
+     "punkte": [
+      [
+       "Dividenden aus Beteiligungen ab 10 % bleiben außer Ansatz.",
+       "ok",
+       "Regular",
+       "§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG"
+      ],
+      [
+       "Aber 5 % davon gelten als nicht abziehbare Ausgaben.",
+       "warn",
+       "Bold",
+       "§ 8b Abs. 5 S. 1 KStG"
+      ],
+      [
+       "Verdeckte Einlagen erhöhen das Einkommen nicht.",
+       "ok",
+       "Regular",
+       "§ 8 Abs. 3 S. 3 KStG"
+      ]
+     ],
+     "figur": "B:skeptisch",
+     "x": 790,
+     "blase": "Und unter 10 %?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel: Arvelo GmbH",
+     "normen": [
+      "§ 8b Abs. 1, 5 KStG",
+      "§ 23 Abs. 1 KStG"
+     ],
+     "zeilen": [
+      [
+       "Jahresüberschuss",
+       "150.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "KSt, SolZ, GewSt",
+       "+ 45.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "vGA",
+       "+ 15.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Dividende (20 %)",
+       "− 20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "5 % davon",
+       "+ 1.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "zvE",
+       "191.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "KSt 15 %",
+       "28.650 €",
+       "Bold",
+       null
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Verlust und Steuersatz",
+     "punkte": [
+      [
+       "Verlustvortrag: 1 Mio. € voll, Rest zu 70 %.",
+       "ok",
+       "Regular",
+       "§ 10d Abs. 2 S. 1 EStG"
+      ],
+      [
+       "KSt 15 % bis VZ 2027, ab 2028 sinkt der Satz jährlich.",
+       "warn",
+       "Bold",
+       "§ 23 Abs. 1 KStG"
+      ],
+      [
+       "Dazu 5,5 % Solidaritätszuschlag.",
+       "ok",
+       "Regular",
+       "§ 4 S. 1 SolZG"
+      ]
+     ],
+     "figur": "B:staunt",
+     "x": 790,
+     "blase": "Ab 2028 weniger?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Beispiel: zvE 191.000 €, KSt 28.650 €",
+      "Gewinn + Zurechnungen − Steuerfreies − Verlust",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Steuerbilanz",
+        "a"
+       ],
+       [
+        " als Start,",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuern",
+        "b"
+       ],
+       [
+        " wieder rein,",
+        null
+       ]
+      ],
+      [
+       [
+        "§ 8b",
+        "c"
+       ],
+       [
+        " raus, 5 % rein,",
+        null
+       ]
+      ],
+      [
+       [
+        "Verlust",
+        "d"
+       ],
+       [
+        " zuletzt.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Welcher Schritt fehlt?",
+     "teaser": "Weiterwischen: KStG + R 7.1 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 7, 8, 23 KStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 7 (1)",
+       [
+        [
+         "Die Körperschaftsteuer bemisst sich nach dem",
+         null
+        ],
+        [
+         "zu versteuernden Einkommen.",
+         "g1"
+        ]
+       ]
+      ],
+      [
+       "§ 7 (2)",
+       [
+        [
+         "Zu versteuerndes Einkommen ist das",
+         null
+        ],
+        [
+         "Einkommen im Sinne des § 8 Abs. 1,",
+         "b1"
+        ],
+        [
+         "vermindert um die Freibeträge der §§ 24 und 25.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 8 (1)",
+       [
+        [
+         "Was als Einkommen gilt und wie das Einkommen zu ermitteln ist, bestimmt sich nach den",
+         null
+        ],
+        [
+         "Vorschriften des Einkommensteuergesetzes",
+         "gr1"
+        ],
+        [
+         "und dieses Gesetzes.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 23 (1)",
+       [
+        [
+         "Die Körperschaftsteuer beträgt für 1.",
+         null
+        ],
+        [
+         "Veranlagungszeiträume bis 2027 15 Prozent,",
+         "r1"
+        ],
+        [
+         "[…] 6. Veranlagungszeiträume ab 2032 10 Prozent des zu versteuernden Einkommens.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Basis",
+       "g1"
+      ],
+      [
+       "Einkommen = Kern",
+       "b1"
+      ],
+      [
+       "EStG gilt mit",
+       "gr1"
+      ],
+      [
+       "Arvelo: 15 %",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: R 7.1 Abs. 1 KStR",
+      "das Schema der Verwaltung"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 7.1 Abs. 1 S. 2 KStR (Auszug)",
+     "absaetze": [
+      [
+       "1.",
+       [
+        [
+         "Jahresüberschuss/-fehlbetrag lt. Steuerbilanz",
+         "g1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "10.",
+       [
+        [
+         "+ Hinzurechnung von vGA",
+         "r1"
+        ],
+        [
+         "(§ 8 Abs. 3 Satz 2 KStG) […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "13.",
+       [
+        [
+         "– verdeckte Einlagen (§ 8 Abs. 3 Satz 3 bis 6 KStG), Einlagen (§ 4 Abs. 1 Satz 8 EStG)",
+         null
+        ]
+       ]
+      ],
+      [
+       "14.",
+       [
+        [
+         "+ nichtabziehbare Aufwendungen",
+         "b1"
+        ],
+        [
+         "(z. B. § 10 KStG, § 4 Abs. 5 bis 8 EStG, § 160 AO)",
+         null
+        ]
+       ]
+      ],
+      [
+       "20.",
+       [
+        [
+         "+/– Kürzungen/Hinzurechnungen nach § 8b KStG",
+         "gr1"
+        ],
+        [
+         "und InvStG",
+         null
+        ]
+       ]
+      ],
+      [
+       "41.",
+       [
+        [
+         "– Verlustabzug nach § 10d EStG",
+         "g2"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "45.",
+       [
+        [
+         "= zu versteuerndes Einkommen",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "vGA",
+       "r1"
+      ],
+      [
+       "Steuern",
+       "b1"
+      ],
+      [
+       "Dividenden",
+       "gr1"
+      ],
+      [
+       "Verlust zuletzt",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Steuern vom Einkommen und GewSt",
+      "stecken in Zeile 14"
+     ]
+    }
+   ],
+   "caption": "KSt-Prüfschema: vom Gewinn zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Steuerpflicht: Sitz oder Geschäftsleitung im Inland, unbeschränkt mit sämtlichen Einkünften (§ 1 Abs. 1 Nr. 1, Abs. 2 KStG); alle Einkünfte sind gewerblich (§ 8 Abs. 2 KStG).\n2. Start: Gewinn laut Steuerbilanz, Ermittlung nach EStG und KStG (§ 8 Abs. 1 S. 1 KStG).\n3. Hinzurechnen: Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG), verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG).\n4. Abziehen: Dividenden bleiben außer Ansatz, wenn die Beteiligung zu Beginn des Kalenderjahres mindestens 10 % betrug (§ 8b Abs. 1 S. 1, Abs. 4 S. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG).\n5. Verlustvortrag bis 1 Mio. € unbeschränkt, darüber zu 70 % (§ 10d Abs. 2 S. 1 EStG i. V. m. § 8 Abs. 1 KStG). Dann zvE (§ 7 Abs. 2 KStG) × 15 % für VZ bis 2027, danach sinkt der Satz stufenweise (§ 23 Abs. 1 KStG), plus 5,5 % Solidaritätszuschlag (§ 4 S. 1 SolZG).\n\nBeispiel: 150.000 + 45.000 + 15.000 − 20.000 + 1.000 = 191.000 € zvE, KSt 28.650 €.\nDas amtliche Schema steht in R 7.1 Abs. 1 KStR.\n\nZum Schluss: §§ 7, 8, 23 KStG und R 7.1 Abs. 1 KStR zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1 Nr. 1, Abs. 2 KStG",
+    "§ 7 Abs. 1, 2 KStG",
+    "§ 8 Abs. 1, 2, 3 KStG",
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 10 Nr. 2 KStG",
+    "§ 23 Abs. 1 KStG",
+    "§ 4 Abs. 5b EStG",
+    "§ 10d Abs. 2 EStG",
+    "§ 4 SolZG",
+    "R 7.1 Abs. 1 KStR"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-formel-afa-zeitanteilig",
+   "themaTitel": "Lineare AfA pro rata temporis",
+   "figuren": {
+    "A": {
+     "name": "Pia",
+     "kopf": "Long",
+     "haut": "#F5D3BC",
+     "haar": "#9A5B2E",
+     "oberteil": "#F4A3B5",
+     "bueste": "Striped Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Maschine im November gekauft, volle Jahres-Afa? Falsch. Nur zwei Zwölftel."
+    },
+    {
+     "id": "s1",
+     "text": "Pia kauft am zwanzigsten November eine Maschine für sechsunddreißigtausend Euro. Nutzungsdauer sechs Jahre."
+    },
+    {
+     "id": "s2",
+     "text": "Pro Jahr wären das sechstausend Euro. Im Kaufjahr aber nur zeitanteilig: Der November zählt voll, also zwei Monate."
+    },
+    {
+     "id": "s3",
+     "text": "Sechstausend mal zwei Zwölftel ergibt tausend Euro Afa. Buchwert am Jahresende: fünfunddreißigtausend Euro."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Jahres-Afa mal Monate durch zwölf. Der Kaufmonat zählt mit."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Kauf im November:",
+     "volle Jahres-AfA?"
+    ],
+    "pille": "§ 7 Abs. 1 S. 4 EStG",
+    "figur": "A/sorge",
+    "name": "Pia",
+    "icons": [
+     [
+      "tabler:calendar",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    },
+    "richtig": {
+     "label": "Richtig",
+     "text": "nur 2/12",
+     "wort": "Zwölftel",
+     "farbe": "GRUEN"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Kauf",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Kauf am 20.11.",
+       "wort": "zwanzigsten",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Anschaffungskosten",
+       "wert": "36.000 €",
+       "farbe": "GELB",
+       "wort": "sechsunddreißigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "Nutzungsdauer 6 Jahre",
+       "wort": "Nutzungsdauer",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 7 Abs. 1 S. 2 EStG",
+       "wort": "Nutzungsdauer"
+      }
+     ],
+     "icon": [
+      "tabler:tool",
+      "GELB",
+      "Maschine"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Zeitanteilig",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "36.000 : 6 = 6.000 €",
+       "wort": "Jahr",
+       "size": 110
+      },
+      {
+       "typ": "block",
+       "label": "Monate im Kaufjahr",
+       "wert": "2 (Nov., Dez.)",
+       "farbe": "GELB",
+       "wort": "November",
+       "zs": 96
+      },
+      {
+       "typ": "norm",
+       "text": "§ 7 Abs. 1 S. 4 EStG",
+       "wort": "zeitanteilig"
+      }
+     ],
+     "icon": [
+      "tabler:calendar-month",
+      "GELB",
+      "Monate"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ergebnis",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "6.000 € × 2/12",
+       "wort": "Sechstausend",
+       "size": 120
+      },
+      {
+       "typ": "block",
+       "label": "AfA im Kaufjahr",
+       "wert": "1.000 €",
+       "farbe": "GRUEN",
+       "wort": "tausend",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Buchwert 31.12.",
+       "wert": "35.000 €",
+       "farbe": "WEISS",
+       "wort": "Buchwert",
+       "zs": 110
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "tausend",
+       0.8
+      ]
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Sechstausend"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "Jahres-AfA",
+     "× Monate : 12,",
+     "Kaufmonat zählt mit"
+    ],
+    "woerter": [
+     null,
+     "Jahres",
+     "Monate",
+     "Kaufmonat"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "zählt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Lineare AfA im Kaufjahr: nur zeitanteilig. 🧮\n\n▸ Lineare AfA: Anschaffungskosten gleichmäßig auf die betriebsgewöhnliche Nutzungsdauer verteilen (§ 7 Abs. 1 S. 1, 2 EStG).\n▸ Im Jahr der Anschaffung mindert sich der Jahresbetrag um ein Zwölftel für jeden vollen Monat vor dem Anschaffungsmonat; der Anschaffungsmonat zählt also voll (§ 7 Abs. 1 S. 4 EStG).\n▸ Beispiel: 36.000 € : 6 Jahre = 6.000 € pro Jahr. Kauf am 20.11.: 6.000 € × 2/12 = 1.000 €. Buchwert 31.12.: 35.000 €.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 7 Abs. 1 S. 1, 2, 4 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-31",
+   "frage": [
+    "Einbringung in KG:",
+    "welcher Wert?"
+   ],
+   "optionen": [
+    "Nur der Buchwert",
+    "Gemeiner Wert, auf Antrag Buch- oder Zwischenwert",
+    "Nur der Teilwert"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#5E3B26",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-31",
+   "titel": [
+    "B: gemeiner Wert",
+    "als Regel"
+   ],
+   "optionen": [
+    "Nur der Buchwert",
+    "Gemeiner Wert, auf Antrag Buch- oder Zwischenwert",
+    "Nur der Teilwert"
+   ],
+   "richtig": 1,
+   "text": "Buch- oder Zwischenwert nur auf Antrag, höchstens gemeiner Wert.",
+   "norm": "§ 24 Abs. 2 S. 1, 2 UmwStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Twists 2",
+     "haut": "#5E3B26",
+     "oberteil": "#F9D56E",
+     "bueste": "Tee 2"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Frist vorbei, ändern?"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-19",
+   "titel": [
+    "Lohnsumme",
+    "verfehlt?"
+   ],
+   "norm": "§ 13a Abs. 3 ErbStG",
+   "punkte": [
+    [
+     "Fünf Jahre zusammen mindestens 400 % der Ausgangslohnsumme.",
+     "ok",
+     "§ 13a Abs. 3 S. 1 ErbStG"
+    ],
+    [
+     "Weniger: Abschlag sinkt rückwirkend im selben Verhältnis.",
+     "warn",
+     "§ 13a Abs. 3 S. 5 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Medium",
+     "haut": "#EDC6A6",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 5",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Vom Gewinn zum zvE"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "Echtzeit üben"
+   ],
+   "punkte": [
+    [
+     "Jede Woche eine Klausur.",
+     "ok",
+     null
+    ],
+    [
+     "Sechs Stunden am Stück.",
+     "ok",
+     null
+    ],
+    [
+     "Fehler in eine Liste.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:clock-hour-4",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Hijab",
+     "haut": "#B07A55",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-01",
+   "titel": [
+    "§ 17 EStG:",
+    "wann greift er?"
+   ],
+   "normImTitel": true,
+   "punkte": [
+    [
+     "Mind. 1 % in fünf Jahren.",
+     "ok",
+     "§ 17 Abs. 1 S. 1 EStG"
+    ],
+    [
+     "Gewinn zu 60 % steuerpflichtig.",
+     "warn",
+     "§ 3 Nr. 40 S. 1 Buchst. c EStG"
+    ]
+   ],
+   "icon": "tabler:percentage",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Short 1",
+     "haut": "#D8A47F",
+     "haar": "#2B1D14",
+     "oberteil": "#BFE3F5",
+     "bart": "Goatee 2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Kauf im November: volle AfA?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-11",
+   "titel": [
+    "Zinsstaffel:",
+    "der Nenner"
+   ],
+   "zeilen": [
+    [
+     [
+      "n · (n + 1) : 2",
+      "a"
+     ]
+    ],
+    [
+     [
+      "8 Raten: ",
+      null
+     ],
+     [
+      "36",
+      "b"
+     ]
+    ],
+    [
+     [
+      "Nenner bleibt ",
+      null
+     ],
+     [
+      "gleich",
+      "c"
+     ]
+    ]
+   ],
+   "figuren": {
+    "M": {
+     "kopf": "Flat Top",
+     "haut": "#9C6644",
+     "oberteil": "#F4A3B5",
+     "bart": "Moustache 2",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}

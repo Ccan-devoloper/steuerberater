@@ -1,0 +1,1281 @@
+{
+ "datum": "2026-11-30",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "pruefungsfrage",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-frei-grundsteuerkuerzung-2025",
+   "themaTitel": "Einfache Grundstückskürzung seit 2025: Welche Grundsteuer wird gekürzt?",
+   "figuren": {
+    "A": {
+     "name": "Tamara",
+     "kopf": "Long Afro",
+     "haut": "#7A4A2E",
+     "haar": "#1E1A18",
+     "oberteil": "#9AD48F",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungsfrage",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Grundsteuer",
+      "kürzen – wie viel?"
+     ],
+     "norm": "§ 9 Nr. 1 S. 1 GewStG",
+     "unter": "Die Frage",
+     "teaser": "+ Markier-Guide § 9 GewStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Grundsteuer gebucht",
+        "Bold",
+        44
+       ],
+       [
+        "3.150 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "alles kürzen?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Klausurfrage",
+     "punkte": [
+      [
+       "2.400 € Grundsteuer 2026 bucht Tamara als Betriebsausgabe für die Werkstatt ihrer Tischlerei, seit Jahren Betriebsvermögen.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "750 € entfallen auf ihr privates Lager, das sie ab 1.3.2026 betrieblich nutzt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Kürzung für 2026?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Tamara."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Das gilt seit 2025",
+     "punkte": [
+      [
+       "Gekürzt wird die im Erhebungszeitraum als Betriebsausgabe erfasste Grundsteuer.",
+       "ok",
+       "Bold",
+       "§ 9 Nr. 1 S. 1 GewStG"
+      ],
+      [
+       "Erstmals für den Erhebungszeitraum 2025.",
+       "ok",
+       "Regular",
+       "§ 36 Abs. 4b S. 1 GewStG"
+      ],
+      [
+       "Der Grundbesitz muss zum Betriebsvermögen gehören.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Gebucht = gekürzt?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Alte Formel im Kopf?",
+     "punkte": [
+      [
+       "Bis 2024 wurden 1,2 % des Einheitswerts gekürzt.",
+       "nein",
+       "Regular",
+       "§ 9 Nr. 1 S. 1 GewStG a. F."
+      ],
+      [
+       "Wer so rechnet, verliert die Punkte. Heute zählt der als Betriebsausgabe gebuchte Betrag.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Kein Einheitswert mehr?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Welcher Grundbesitz zählt?",
+     "punkte": [
+      [
+       "Betriebsvermögen bestimmt sich nach Einkommen- oder Körperschaftsteuerrecht.",
+       "ok",
+       "Regular",
+       "§ 20 S. 1 GewStDV"
+      ],
+      [
+       "Maßgebend ist der Stand zu Beginn des Kalenderjahres.",
+       "warn",
+       "Bold",
+       "§ 20 S. 2 GewStDV"
+      ]
+     ],
+     "extra": [
+      "Stichtag 1. Januar",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Und das Lager?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung für Tamara",
+     "normen": [
+      "§ 9 Nr. 1 S. 1 GewStG",
+      "§ 20 S. 2 GewStDV"
+     ],
+     "zeilen": [
+      [
+       "Werkstatt (BV am 1.1.)",
+       "2.400 €",
+       "Regular",
+       null
+      ],
+      [
+       "Lager (am 1.1. privat)",
+       "0 €",
+       "Regular",
+       null
+      ],
+      [
+       "Kürzung 2026",
+       "2.400 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Lager erst ab 2027!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Tamara entnimmt die Werkstatt zum 1.7.2026 und vermietet sie privat.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Bis dahin bucht sie 1.200 € Grundsteuer als Betriebsausgabe.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist jetzt die Kürzung?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Halbes Jahr, halbe Kürzung?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Am 1.1.2026 gehörte die Werkstatt zum Betriebsvermögen.",
+       "ok",
+       "Regular",
+       "§ 20 S. 2 GewStDV"
+      ],
+      [
+       "1.200 € gebucht, also 1.200 € Kürzung. Der private Teil bleibt draußen.",
+       "ok",
+       "Bold",
+       "§ 9 Nr. 1 S. 1 GewStG"
+      ],
+      [
+       "Das Lager bleibt 2026 bei 0 €.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Zwei Filter!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kürzung = gebuchte Grundsteuer",
+      "nur für Grundbesitz, der am 1.1. Betriebsvermögen war",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Gebuchte",
+        "a"
+       ],
+       [
+        " Grundsteuer,",
+        null
+       ]
+      ],
+      [
+       [
+        "Betriebsvermögen",
+        "b"
+       ]
+      ],
+      [
+       [
+        "am ",
+        null
+       ],
+       [
+        "1. Januar",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "kein ",
+        null
+       ],
+       [
+        "Einheitswert",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Noch mit 1,2 % gerechnet?",
+     "teaser": "Weiterwischen: § 9 GewStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 9 GewStG Kürzungen (Auszug)",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Die Summe des Gewinns und der Hinzurechnungen wird gekürzt um",
+         null
+        ]
+       ]
+      ],
+      [
+       "1.",
+       [
+        [
+         "die im Erhebungszeitraum",
+         "r1"
+        ],
+        [
+         "als Betriebsausgabe erfasste Grundsteuer",
+         "g1"
+        ],
+        [
+         "für",
+         null
+        ],
+        [
+         "zum Betriebsvermögen des Unternehmers gehörenden Grundbesitz.",
+         "b1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Zeitraum",
+       "r1"
+      ],
+      [
+       "Betrag",
+       "g1"
+      ],
+      [
+       "Stichtag 1.1.: § 20 GewStDV",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Neben § 9 Nr. 1 notieren: § 36 Abs. 4b",
+      "Neue Fassung gilt ab Erhebungszeitraum 2025"
+     ]
+    }
+   ],
+   "caption": "Einfache Grundstückskürzung seit 2025: Welche Grundsteuer kürzt du beim Gewerbeertrag? Eine Prüfungsfrage für alle, die im zweiten Anlauf noch die alte Formel im Kopf haben.\n\n▸ Gekürzt wird die im Erhebungszeitraum als Betriebsausgabe erfasste Grundsteuer für Grundbesitz, der zum Betriebsvermögen des Unternehmers gehört (§ 9 Nr. 1 S. 1 GewStG), erstmals für den Erhebungszeitraum 2025 (§ 36 Abs. 4b S. 1 GewStG).\n▸ Bis 2024 waren es 1,2 % des Einheitswerts (§ 9 Nr. 1 S. 1 GewStG a. F.) – diese Rechnung ist überholt.\n▸ Ob Grundbesitz zum Betriebsvermögen gehört, richtet sich nach Einkommen- oder Körperschaftsteuerrecht; maßgebend ist der Stand zu Beginn des Kalenderjahres (§ 20 S. 1, 2 GewStDV).\n\nFall: Werkstatt (am 1.1. Betriebsvermögen) 2.400 € Grundsteuer als Betriebsausgabe, Lager erst ab März betrieblich genutzt (750 €). Kürzung 2026: 2.400 €. Variante mit Entnahme zum 1.7.: gekürzt werden die bis dahin gebuchten 1.200 €.\n\nZum Schluss: § 9 Nr. 1 GewStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 9 Nr. 1 S. 1 GewStG",
+    "§ 9 Nr. 1 S. 1 GewStG a. F.",
+    "§ 36 Abs. 4b S. 1 GewStG",
+    "§ 20 S. 1, 2 GewStDV"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-ue-07",
+   "themaTitel": "Herstellungskosten: Was muss, was darf, was darf nicht hinein?",
+   "figuren": {
+    "A": {
+     "name": "Mira",
+     "kopf": "Bun 2",
+     "haut": "#E8B98F",
+     "haar": "#5A3A22",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 2",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Was gehört",
+      "in die HK?"
+     ],
+     "norm": "§ 255 Abs. 2 HGB",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 255, § 6 + R 6.3",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Regalserie",
+        "Bold",
+        44
+       ],
+       [
+        "50.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "oder mehr?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "HK in 4 Schritten",
+     "schritte": [
+      [
+       "Kosten sortieren",
+       null,
+       "Einzel- und Gemeinkosten trennen"
+      ],
+      [
+       "Pflicht einrechnen",
+       "§ 255 Abs. 2 S. 2 HGB",
+       "Material, Fertigung, Sonderkosten"
+      ],
+      [
+       "Wahlrecht einheitlich",
+       "§ 6 Abs. 1 Nr. 1b EStG",
+       "Verwaltung, Soziales, Zinsen"
+      ],
+      [
+       "Verbote streichen",
+       "§ 255 Abs. 2 S. 4 HGB",
+       "Forschung und Vertrieb"
+      ]
+     ],
+     "teaser": "Am Ende: § 255 HGB, § 6 EStG + R 6.3 markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Muss hinein",
+     "punkte": [
+      [
+       "Materialkosten, Fertigungskosten und Sonderkosten der Fertigung.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 2 S. 2 HGB"
+      ],
+      [
+       "Dazu angemessene Material- und Fertigungsgemeinkosten.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Auch die Abschreibung der Maschinen, soweit die Fertigung sie verursacht.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Das ist die Untergrenze."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Darf hinein",
+     "punkte": [
+      [
+       "Allgemeine Verwaltung, soziale Einrichtungen, freiwillige Sozialleistungen, Altersversorgung.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 2 S. 3 HGB"
+      ],
+      [
+       "Steuerlich gilt dieselbe Wahl wie in der Handelsbilanz.",
+       "warn",
+       "Bold",
+       "§ 6 Abs. 1 Nr. 1b S. 2 EStG"
+      ],
+      [
+       "Zinsen für die Herstellung: ebenfalls nur im Gleichlauf.",
+       "ok",
+       "Regular",
+       "§ 255 Abs. 3 S. 2 HGB, R 6.3 Abs. 5 EStR"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Einmal wählen, zweimal gelten."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "4 · Darf nie hinein",
+     "punkte": [
+      [
+       "Forschungs- und Vertriebskosten.",
+       "nein",
+       "Bold",
+       "§ 255 Abs. 2 S. 4 HGB"
+      ],
+      [
+       "Kalkulatorische Kosten wie ein Unternehmerlohn: Ihnen fehlt der Aufwand.",
+       "nein",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Verpackung für den Versand = Vertrieb",
+      "GELB",
+      null
+     ],
+     "figur": "A:sorge",
+     "x": 290,
+     "blase": "Auch der Versand?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Fall: Mira fertigt Regale",
+     "normen": [
+      "§ 255 Abs. 2 S. 2 HGB"
+     ],
+     "zeilen": [
+      [
+       "Material",
+       "20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Fertigungslöhne",
+       "15.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gemeinkosten mit AfA",
+       "14.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Sonderkosten Fertigung",
+       "1.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Pflichtteil",
+       "50.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Auf die Serie entfallen noch 3.000 € Verwaltungskosten und 2.500 € Vertriebskosten.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "In der Handelsbilanz bezieht Mira die Verwaltung ein.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Welche Herstellungskosten gelten in der Steuerbilanz?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Was rechnest du?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§ 6 Abs. 1 Nr. 1b S. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "Pflichtteil",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Verwaltung, wie Handelsbilanz",
+       "3.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Herstellungskosten",
+       "53.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Vertrieb: 0 €!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Pflichtteil + gleiche Wahl wie Handelsbilanz",
+      "50.000 € + 3.000 € Verwaltung = 53.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Einzel",
+        "a"
+       ],
+       [
+        " und Gemein: Pflicht,",
+        null
+       ]
+      ],
+      [
+       [
+        "Verwaltung",
+        "b"
+       ],
+       [
+        " wie HB,",
+        null
+       ]
+      ],
+      [
+       [
+        "Vertrieb",
+        "c"
+       ],
+       [
+        " nie.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Schon mal Vertrieb aktiviert?",
+     "teaser": "Weiterwischen: § 255, § 6 + R 6.3 markiert"
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 255 HGB, § 6 EStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 255 (2) HGB",
+       [
+        [
+         "[…] Dazu gehören",
+         null
+        ],
+        [
+         "die Materialkosten, die Fertigungskosten und die Sonderkosten der Fertigung",
+         "g1"
+        ],
+        [
+         "sowie angemessene Teile der Materialgemeinkosten, der Fertigungsgemeinkosten und des Werteverzehrs des Anlagevermögens, soweit dieser durch die Fertigung veranlasst ist. Bei der Berechnung der Herstellungskosten",
+         null
+        ],
+        [
+         "dürfen",
+         "b1"
+        ],
+        [
+         "angemessene Teile der Kosten der allgemeinen Verwaltung […] einbezogen werden, soweit diese auf den Zeitraum der Herstellung entfallen.",
+         null
+        ],
+        [
+         "Forschungs- und Vertriebskosten dürfen nicht einbezogen werden.",
+         "r1"
+        ]
+       ]
+      ],
+      [
+       "§ 6 (1) Nr. 1b EStG",
+       [
+        [
+         "[…] Das Wahlrecht ist bei Gewinnermittlung nach § 5",
+         null
+        ],
+        [
+         "in Übereinstimmung mit der Handelsbilanz",
+         "gr1"
+        ],
+        [
+         "auszuüben.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Pflicht",
+       "g1"
+      ],
+      [
+       "Wahl",
+       "b1"
+      ],
+      [
+       "Verbot",
+       "r1"
+      ],
+      [
+       "wie HB: 3.000 € rein",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Mira: 50.000 € + 3.000 €",
+      "Herstellungskosten 53.000 €"
+     ],
+     "zweite": {
+      "kopf": "R 6.3 EStR (Auszug)",
+      "absaetze": [
+       [
+        "(5) S. 1",
+        [
+         [
+          "Das handelsrechtliche Bewertungswahlrecht für Fremdkapitalzinsen",
+          null
+         ],
+         [
+          "gilt auch für die steuerliche Gewinnermittlung.",
+          "b1"
+         ]
+        ]
+       ],
+       [
+        "S. 2",
+        [
+         [
+          "Sind",
+          null
+         ],
+         [
+          "handelsrechtlich Fremdkapitalzinsen in die Herstellungskosten einbezogen",
+          "g1"
+         ],
+         [
+          "worden, sind sie […]",
+          null
+         ],
+         [
+          "auch in der steuerlichen Gewinnermittlung",
+          "gr1"
+         ],
+         [
+          "als Herstellungskosten zu beurteilen.",
+          null
+         ]
+        ]
+       ]
+      ],
+      "notizen": [
+       [
+        "Zinsen: Wahl",
+        "b1"
+       ],
+       [
+        "HB entscheidet",
+        "g1"
+       ],
+       [
+        "StB folgt",
+        "gr1"
+       ]
+      ]
+     }
+    }
+   ],
+   "caption": "Herstellungskosten in 4 Schritten: was muss, was darf, was darf nie hinein – das Prüfschema für die Bilanzklausur.\n\n1. Kosten sortieren: Einzelkosten und Gemeinkosten trennen.\n2. Pflicht: Materialkosten, Fertigungskosten, Sonderkosten der Fertigung sowie angemessene Teile der Material- und Fertigungsgemeinkosten und des fertigungsbedingten Werteverzehrs des Anlagevermögens (§ 255 Abs. 2 S. 2 HGB).\n3. Wahlrecht: angemessene Kosten der allgemeinen Verwaltung, sozialer Einrichtungen, freiwilliger sozialer Leistungen und der betrieblichen Altersversorgung (§ 255 Abs. 2 S. 3 HGB). Steuerlich ist das Wahlrecht in Übereinstimmung mit der Handelsbilanz auszuüben (§ 6 Abs. 1 Nr. 1b S. 2 EStG). Fremdkapitalzinsen für die Herstellung: Wahlrecht nach § 255 Abs. 3 S. 2 HGB, steuerlich nur bei Einbeziehung in der Handelsbilanz (R 6.3 Abs. 5 EStR).\n4. Verbot: Forschungs- und Vertriebskosten (§ 255 Abs. 2 S. 4 HGB); kalkulatorische Kosten ohne Aufwand ebenfalls nicht.\n\nBeispiel: Pflichtteil 50.000 € + Verwaltung 3.000 € (wie in der Handelsbilanz) = 53.000 €; Vertrieb 2.500 € bleibt draußen.\n\nZum Schluss: § 255 Abs. 2 HGB, § 6 Abs. 1 Nr. 1b EStG und R 6.3 Abs. 5 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 255 Abs. 2 S. 2–4 HGB",
+    "§ 255 Abs. 3 HGB",
+    "§ 6 Abs. 1 Nr. 1b EStG",
+    "R 6.3 Abs. 5 EStR"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-modul-ust-243",
+   "themaTitel": "Gesellschafter und Gesellschaft: Beteiligung, Leistungsaustausch und Sonderentgelt",
+   "figuren": {
+    "A": {
+     "name": "Jule",
+     "kopf": "Medium Straight",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#F2B880",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Viertausend Euro im Monat für die Geschäftsführung der eigenen OHG. Nicht steuerbar? Falsch."
+    },
+    {
+     "id": "s1",
+     "text": "Jule bekommt viertausend Euro netto, fest und auch in Verlustjahren. Die OHG bucht das als Aufwand."
+    },
+    {
+     "id": "s2",
+     "text": "Das ist ein Sonderentgelt. Jule handelt selbständig, also steuerbar. Neunzehn Prozent: siebenhundertsechzig Euro Umsatzsteuer im Monat."
+    },
+    {
+     "id": "s3",
+     "text": "Bekäme sie nur einen höheren Gewinnanteil, wäre das ein Gesellschafterbeitrag, nicht steuerbar."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Feste Vergütung als Aufwand ist Entgelt. Gewinnanteil nicht."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "4.000 € für die",
+     "Geschäftsführung"
+    ],
+    "pille": "Gesellschafterin und eigene OHG",
+    "figur": "A/skeptisch",
+    "name": "Jule",
+    "icons": [
+     [
+      "tabler:briefcase",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Fall",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Geschäftsführung",
+       "wert": "4.000 € netto",
+       "farbe": "GELB",
+       "wort": "viertausend",
+       "zs": 100
+      },
+      {
+       "typ": "text",
+       "text": "auch bei Verlust",
+       "unter": "als Aufwand gebucht",
+       "wort": "Verlustjahren",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "A 1.6 Abs. 4 UStAE",
+       "wort": "Aufwand"
+      }
+     ],
+     "icon": [
+      "tabler:briefcase",
+      "GELB",
+      "Jule"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Sonderentgelt",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Leistungsaustausch: steuerbar",
+       "wort": "steuerbar",
+       "farbe": "GRUEN"
+      },
+      {
+       "typ": "zahl",
+       "text": "4.000 € × 19 %",
+       "wort": "Neunzehn",
+       "size": 120
+      },
+      {
+       "typ": "block",
+       "label": "Umsatzsteuer je Monat",
+       "wert": "760 €",
+       "farbe": "GELB",
+       "wort": "siebenhundertsechzig",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 1 Abs. 1 Nr. 1 UStG",
+       "wort": "Sonderentgelt"
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "Neunzehn"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "siebenhundertsechzig",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Gegenprobe",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "höherer Gewinnanteil",
+       "wert": "nicht steuerbar",
+       "farbe": "ROT",
+       "wort": "Gewinnanteil",
+       "zs": 90
+      },
+      {
+       "typ": "text",
+       "text": "Gesellschafterbeitrag",
+       "unter": "kein Entgelt",
+       "wort": "Gesellschafterbeitrag",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "A 1.6 Abs. 3 UStAE",
+       "wort": "Gesellschafterbeitrag"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "nicht",
+       1.0
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Feste Vergütung",
+     "als Aufwand:",
+     "Entgelt.",
+     "Gewinnanteil: nicht."
+    ],
+    "woerter": [
+     null,
+     "Vergütung",
+     "Entgelt",
+     "Gewinnanteil"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "nicht",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Geschäftsführung für die eigene OHG gegen feste Vergütung: steuerbar oder nicht? 💼\n\n▸ Gesellschafter können Leistungen als Gesellschafterbeitrag erbringen, die durch die Beteiligung am Gewinn und Verlust abgegolten werden – dann nicht steuerbar (A 1.6 Abs. 3 UStAE).\n▸ Gegen Sonderentgelt liegt ein Leistungsaustausch vor. Auf die Bezeichnung (z. B. Gewinnvorab) kommt es nicht an; wird die Vergütung bei der Gesellschaft als Aufwand behandelt, spricht das für ein Sonderentgelt (A 1.6 Abs. 4 UStAE).\n▸ Handelt der Gesellschafter dabei selbständig, ist die Leistung steuerbar (§ 1 Abs. 1 Nr. 1, § 2 Abs. 1 UStG).\n▸ Das bloße Halten der Beteiligung ist keine unternehmerische Tätigkeit (A 2.3 Abs. 2 UStAE).\n\nRechnung: 4.000 € netto × 19 % = 760 € Umsatzsteuer je Monat (§ 12 Abs. 1 UStG).\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "A 1.6 Abs. 3, 4 UStAE",
+    "A 2.3 Abs. 2 UStAE",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 2 Abs. 1 UStG",
+    "§ 12 Abs. 1 UStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-9",
+   "frage": [
+    "Ganzer Betrieb",
+    "verkauft: Umsatzsteuer?"
+   ],
+   "optionen": [
+    "Steuerbar und steuerpflichtig",
+    "Nicht steuerbar, Erwerber tritt an die Stelle",
+    "Steuerbar, aber steuerfrei"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 4",
+     "haut": "#B97A56",
+     "haar": "#2A1A14",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-9",
+   "titel": [
+    "B: nicht",
+    "steuerbar"
+   ],
+   "optionen": [
+    "Steuerbar und steuerpflichtig",
+    "Nicht steuerbar, Erwerber tritt an die Stelle",
+    "Steuerbar, aber steuerfrei"
+   ],
+   "richtig": 1,
+   "text": "Geschäftsveräußerung im Ganzen an einen Unternehmer für dessen Unternehmen.",
+   "norm": "§ 1 Abs. 1a UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 4",
+     "haut": "#B97A56",
+     "haar": "#2A1A14",
+     "oberteil": "#F9D56E",
+     "bart": "Goatee 2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "beitragSlot": "b1",
+   "titel": [
+    "Grundsteuer kürzen"
+   ],
+   "unter": "Prüfungsfrage + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-frei-schachtel-9-2a",
+   "titel": [
+    "Dividende in",
+    "der Gewerbesteuer"
+   ],
+   "norm": "§ 9 Nr. 2a GewStG",
+   "punkte": [
+    [
+     "Mindestens 15 % zu Beginn des Erhebungszeitraums: Gewinnanteil wird gekürzt.",
+     "ok",
+     "§ 9 Nr. 2a S. 1 GewStG"
+    ],
+    [
+     "Darunter: steuerfreier Teil wird wieder hinzugerechnet.",
+     "warn",
+     "§ 8 Nr. 5 GewStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Hijab",
+     "haut": "#C68E6A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "beitragSlot": "b2",
+   "titel": [
+    "Was gehört in die HK?"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Zweiter Anlauf",
+   "ueberzeile": "Lernstrategie",
+   "titel": [
+    "Zweiter Anlauf:",
+    "Rechtsstand prüfen"
+   ],
+   "punkte": [
+    [
+     "Alte Notizen mit dem neuen Gesetzestext abgleichen.",
+     "ok",
+     null
+    ],
+    [
+     "Geänderte Normen zuerst wiederholen.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:refresh",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Gray Medium",
+     "haut": "#F0C8A8",
+     "haar": "#B8B8B8",
+     "oberteil": "#7FD6D0"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-glossar-6",
+   "titel": [
+    "Wertaufhellung:",
+    "zählt es noch?"
+   ],
+   "punkte": [
+    [
+     "Ursache vor dem Stichtag: berücksichtigen.",
+     "ok",
+     "§ 252 Abs. 1 Nr. 4 HGB"
+    ],
+    [
+     "Ursache danach: bleibt draußen.",
+     "nein",
+     null
+    ]
+   ],
+   "icon": "tabler:bulb",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Twists 2",
+     "haut": "#6B4226",
+     "haar": "#1B1B1B",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "beitragSlot": "b3",
+   "titel": [
+    "Geschäftsführung steuerbar?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-384",
+   "titel": [
+    "Wann darf",
+    "vollstreckt werden?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Fällig",
+      "a"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "Leistungsgebot",
+      "b"
+     ],
+     [
+      ",",
+      null
+     ]
+    ],
+    [
+     [
+      "eine Woche",
+      "c"
+     ],
+     [
+      " warten.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 254 Abs. 1 S. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "No Hair 3",
+     "haut": "#8D5A3B",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

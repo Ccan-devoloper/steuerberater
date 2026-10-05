@@ -1,0 +1,1285 @@
+{
+ "datum": "2026-11-13",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "minifall",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-2",
+   "themaTitel": "Überführung oder Übertragung nach § 6 Abs. 5 EStG?",
+   "figuren": {
+    "A": {
+     "name": "Ronja",
+     "kopf": "Bangs 2",
+     "haut": "#F3CDB0",
+     "haar": "#9C4A1A",
+     "oberteil": "#F5B7B1",
+     "bueste": "Sweater"
+    },
+    "B": {
+     "name": "Theo",
+     "kopf": "Flat Top Long",
+     "haut": "#5D3A1A",
+     "haar": "#151515",
+     "oberteil": "#F8E5A0",
+     "bart": "Moustache 1",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Maschine in die KG:",
+      "Buchwert?"
+     ],
+     "norm": "§ 6 Abs. 5 EStG",
+     "unter": "Ein Fall",
+     "teaser": "+ Markier-Guide § 6 + BMF",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Hobelmaschine",
+        "Bold",
+        44
+       ],
+       [
+        "20.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Teilwert 50.000 €",
+        "ExtraBold",
+        46
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Ronja führt eine Tischlerei und ist Kommanditistin der Holzhandel KG.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Sie bringt eine Hobelmaschine in die Gesamthand der KG ein: Buchwert 20.000 €, Teilwert 50.000 €, Kapitalkonto I plus 50.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Muss sie 30.000 € versteuern?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ohne Geld?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Überführung oder Übertragung?",
+     "links": {
+      "kopf": "Überführung",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Wirtschaftsgut bleibt bei derselben Person, etwa im Sonderbetriebsvermögen",
+        "§ 6 Abs. 5 S. 1, 2 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Übertragung",
+      "farbe": "TUERKIS",
+      "punkte": [
+       [
+        "Rechtsträger wechselt, etwa in die Gesamthand der KG",
+        "§ 6 Abs. 5 S. 3 EStG"
+       ]
+      ]
+     },
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Wer ist Eigentümer?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Die KG wird Eigentümerin: Übertragung aus Ronjas Betriebsvermögen in die Gesamthand.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 5 S. 3 Nr. 1 EStG"
+      ],
+      [
+       "Gegenleistung sind Gesellschaftsrechte: Kapitalkonto I.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert 20.000 € ist zwingend, die Besteuerung bleibt gesichert. Kein Gewinn.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 5 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Also steuerneutral!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die Sperrfrist",
+     "punkte": [
+      [
+       "Verkauft die KG die Maschine innerhalb der Sperrfrist, gilt rückwirkend der Teilwert.",
+       "nein",
+       "Bold",
+       "§ 6 Abs. 5 S. 4 EStG"
+      ],
+      [
+       "Frist: drei Jahre nach Abgabe von Ronjas Erklärung für das Übertragungsjahr.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 5 S. 4 EStG"
+      ],
+      [
+       "Ausweg: Ergänzungsbilanz für Ronja.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:ernst",
+     "x": 290,
+     "blase": "Nicht ab Übertragung zählen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Die KG übernimmt zusätzlich ein Darlehen von 25.000 €, mit dem Ronja die Maschine finanziert hat.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Der Rest von 25.000 € wird ihrem Kapitalkonto I gutgeschrieben.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was ändert sich?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Schulden zählen mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung der Variante",
+     "normen": [
+      "BMF vom 08.12.2011, Rn. 15"
+     ],
+     "zeilen": [
+      [
+       "Entgelt 25.000 € von 50.000 €",
+       "50 %",
+       "Regular",
+       null
+      ],
+      [
+       "Erlös (Schuldübernahme)",
+       "25.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– anteiliger Buchwert",
+       "10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "laufender Gewinn",
+       "15.000 €",
+       "ExtraBold",
+       "ROT"
+      ],
+      [
+       "übrige Hälfte zum Buchwert",
+       "10.000 €",
+       "Bold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Schuldübernahme ist Entgelt",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Grundfall: Buchwert, kein Gewinn",
+      "Variante: 15.000 € Gewinn, Rest zum Buchwert",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Rechtsträger",
+        "a"
+       ],
+       [
+        " wechselt?",
+        null
+       ]
+      ],
+      [
+       [
+        "Gegenleistung",
+        "b"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Schulden",
+        "c"
+       ],
+       [
+        " sind Entgelt,",
+        null
+       ]
+      ],
+      [
+       [
+        "Sperrfrist",
+        "d"
+       ],
+       [
+        " merken.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Hättest du das Darlehen gesehen?",
+     "teaser": "Weiterwischen: § 6 Abs. 5 + BMF markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 6 Abs. 5 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(5) 3",
+       [
+        [
+         "Satz 1 gilt entsprechend, soweit ein Wirtschaftsgut 1.",
+         null
+        ],
+        [
+         "unentgeltlich oder gegen Gewährung oder Minderung von Gesellschaftsrechten",
+         "g1"
+        ],
+        [
+         "aus einem Betriebsvermögen des Mitunternehmers",
+         null
+        ],
+        [
+         "in das Gesamthandsvermögen einer Mitunternehmerschaft",
+         "b1"
+        ],
+        [
+         "und umgekehrt, […] übertragen wird.",
+         null
+        ]
+       ]
+      ],
+      [
+       "4",
+       [
+        [
+         "Wird das nach Satz 3 übertragene Wirtschaftsgut",
+         null
+        ],
+        [
+         "innerhalb einer Sperrfrist veräußert oder entnommen",
+         "r1"
+        ],
+        [
+         ", ist rückwirkend auf den Zeitpunkt der Übertragung der Teilwert anzusetzen, es sei denn, die bis zur Übertragung entstandenen stillen Reserven sind durch Erstellung einer",
+         null
+        ],
+        [
+         "Ergänzungsbilanz",
+         "gr1"
+        ],
+        [
+         "dem übertragenden Gesellschafter zugeordnet worden; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nur diese Gegenleistung",
+       "g1"
+      ],
+      [
+       "neuer Träger",
+       "b1"
+      ],
+      [
+       "Sperrfrist",
+       "r1"
+      ],
+      [
+       "Rettung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "S. 4 a. E.: Fristende",
+      "drei Jahre nach Abgabe der Erklärung"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 08.12.2011, Rn. 15 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 15",
+       [
+        [
+         "[…] Eine Gegenleistung kann sowohl durch die Hingabe von Aktiva als auch durch die",
+         null
+        ],
+        [
+         "Übernahme von Passiva (z. B. Verbindlichkeiten)",
+         "r1"
+        ],
+        [
+         "erfolgen. […] Ob eine teilentgeltliche Übertragung vorliegt, ist nach den Grundsätzen der sog. „Trennungstheorie“ anhand der",
+         null
+        ],
+        [
+         "erbrachten Gegenleistung im Verhältnis zum Verkehrswert",
+         "b1"
+        ],
+        [
+         "des übertragenen Wirtschaftsguts zu prüfen. Liegt die Gegenleistung unter dem Verkehrswert, handelt es sich um eine teilentgeltliche Übertragung, bei der",
+         null
+        ],
+        [
+         "der unentgeltliche Teil nach § 6 Absatz 5 Satz 3 EStG zum Buchwert",
+         "gr1"
+        ],
+        [
+         "zu übertragen ist. Hinsichtlich des entgeltlichen Teils der Übertragung liegt eine",
+         null
+        ],
+        [
+         "Veräußerung",
+         "r2"
+        ],
+        [
+         "des Wirtschaftsguts vor […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Darlehen = Entgelt",
+       "r1"
+      ],
+      [
+       "50 % entgeltlich",
+       "b1"
+      ],
+      [
+       "Rest zum Buchwert",
+       "gr1"
+      ],
+      [
+       "15.000 € Gewinn",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "BFH IV R 11/12, IV R 17/23: nicht im BStBl II",
+      "Verwaltung folgt nicht, Klausur: Rn. 15"
+     ]
+    }
+   ],
+   "caption": "Mini-Fall Personengesellschaften: Maschine in die KG – Buchwert oder Gewinn?\n\n▸ Überführung: Das Wirtschaftsgut bleibt beim selben Steuerpflichtigen, auch zwischen eigenem Betriebsvermögen und Sonderbetriebsvermögen (§ 6 Abs. 5 S. 1, 2 EStG).\n▸ Übertragung: Der Rechtsträger wechselt, z. B. in das Gesamthandsvermögen der KG. Buchwert nur, soweit keine Gegenleistung fließt oder allein Gesellschaftsrechte gewährt bzw. gemindert werden (§ 6 Abs. 5 S. 3 Nr. 1 EStG) und die stillen Reserven steuerverhaftet bleiben (§ 6 Abs. 5 S. 1 EStG).\n▸ Lösung: Gutschrift auf dem Kapitalkonto I = Gesellschaftsrechte → Buchwert 20.000 €, kein Gewinn.\n▸ Sperrfrist: Veräußerung oder Entnahme innerhalb von drei Jahren nach Abgabe der Erklärung des Übertragenden für das Übertragungsjahr führt rückwirkend zum Teilwert, außer eine Ergänzungsbilanz ordnet die stillen Reserven dem Übertragenden zu (§ 6 Abs. 5 S. 4 EStG).\n▸ Variante Schuldübernahme: teilentgeltlich, nach Verwaltungsauffassung Aufteilung im Verhältnis Entgelt zu Verkehrswert (BMF vom 08.12.2011, Rn. 15): 50 % entgeltlich → 25.000 € – 10.000 € = 15.000 € laufender Gewinn, Rest zum Buchwert. Abweichend BFH vom 19.09.2012, IV R 11/12 (nicht im BStBl II veröffentlicht, Verwaltung folgt nicht) und BFH vom 11.12.2025, IV R 17/23 (noch nicht im BStBl II): modifizierte Trennungstheorie, Gewinn nur, soweit das Entgelt den gesamten Buchwert übersteigt – hier 25.000 € − 20.000 € = 5.000 €. Klausurlösung bleibt Rn. 15.\n\nZum Schluss: § 6 Abs. 5 EStG und BMF vom 08.12.2011, Rn. 15 zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 6 Abs. 5 S. 1 bis 4 EStG",
+    "BMF vom 08.12.2011, Rn. 15",
+    "BFH vom 19.09.2012, IV R 11/12",
+    "BFH vom 11.12.2025, IV R 17/23"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-362",
+   "themaTitel": "§ 175 Abs. 1 Nr. 2 AO: rückwirkendes Ereignis, punktuelle Frist und eDaten-Pärchen",
+   "figuren": {
+    "A": {
+     "name": "Jana",
+     "kopf": "Buns",
+     "haut": "#C79673",
+     "haar": "#2A1A10",
+     "oberteil": "#F6C7A6",
+     "bueste": "Explaining"
+    },
+    "B": {
+     "name": "Ingrid",
+     "kopf": "Gray Short",
+     "haut": "#F2D6C2",
+     "haar": "#C9C9C9",
+     "oberteil": "#E9D8A6",
+     "brille": "Glasses 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Rückwirkendes",
+      "Ereignis"
+     ],
+     "norm": "§ 175 Abs. 1 S. 1 Nr. 2 AO",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 175 AO",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:history",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung: 10 Minuten",
+     "schritte": [
+      [
+       "Einstieg (1 Min.)",
+       "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. d AO",
+       "Bestandskraft und Korrektur"
+      ],
+      [
+       "Tatbestand (4 Min.)",
+       "§ 175 Abs. 1 S. 1 Nr. 2 AO",
+       "nach dem Bescheid, Wirkung zurück"
+      ],
+      [
+       "Grenzfälle (3 Min.)",
+       "§ 175 Abs. 2 AO",
+       "Vergünstigung, Bescheinigung"
+      ],
+      [
+       "Frist, Fazit (2 Min.)",
+       "§ 175 Abs. 1 S. 2 AO",
+       "eigener Fristbeginn"
+      ]
+     ],
+     "teaser": "Am Ende: § 175 AO markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Kern: der Tatbestand",
+     "punkte": [
+      [
+       "Ein Ereignis tritt erst nach Erlass des Bescheids ein.",
+       "ok",
+       "Regular",
+       "§ 175 Abs. 1 S. 1 Nr. 2 AO"
+      ],
+      [
+       "Es wirkt steuerlich auf die Vergangenheit zurück. Ob es das tut, sagt das jeweilige Steuergesetz.",
+       "warn",
+       "Regular",
+       "BFH vom 19.07.1993, GrS 2/92"
+      ],
+      [
+       "Änderung zugunsten und zuungunsten, aber nur „soweit“.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Zeitpunkt zuerst!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Abgrenzung zu § 173 AO",
+     "links": {
+      "kopf": "Schon vorher da",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Tatsache lag bei Bescheiderlass vor, war nur unbekannt",
+        "§ 173 Abs. 1 AO"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Erst danach",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Ereignis entsteht nach dem Bescheid und wirkt zurück",
+        "§ 175 Abs. 1 S. 1 Nr. 2 AO"
+       ]
+      ]
+     },
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Vorher oder nachher?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Beispiele und Grenzfälle",
+     "punkte": [
+      [
+       "Kaufpreis für einen verkauften Betrieb fällt später aus: Der Veräußerungsgewinn sinkt rückwirkend.",
+       "ok",
+       "Regular",
+       "BFH vom 19.07.1993, GrS 2/92"
+      ],
+      [
+       "Eine zeitgebundene Voraussetzung einer Vergünstigung fällt weg.",
+       "ok",
+       "Regular",
+       "§ 175 Abs. 2 S. 1 AO"
+      ],
+      [
+       "Nicht: eine Bescheinigung wird nachgereicht.",
+       "nein",
+       "Bold",
+       "§ 175 Abs. 2 S. 2 AO"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Ein Beispiel parat haben!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Eigene Festsetzungsfrist",
+     "punkte": [
+      [
+       "Die Frist beginnt mit Ablauf des Jahres, in dem das Ereignis eintritt.",
+       "warn",
+       "Bold",
+       "§ 175 Abs. 1 S. 2 AO"
+      ],
+      [
+       "Beispiel: Ereignis im Mai 2029, Frist beginnt mit Ablauf 2029, endet am 31.12.2033.",
+       "ok",
+       "Regular",
+       "§ 169 Abs. 2 S. 1 Nr. 2 AO"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Daher kein Fristproblem."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Nachfragen der Prüfer",
+     "punkte": [
+      [
+       "„Gilt das auch zugunsten?“ Ja, die Norm wirkt in beide Richtungen.",
+       "ok",
+       "Regular",
+       "§ 175 Abs. 1 S. 1 AO"
+      ],
+      [
+       "„Und falsch übernommene Daten Dritter, etwa vom Arbeitgeber?“ Dafür gibt es eine eigene Korrektur.",
+       "warn",
+       "Regular",
+       "§ 175b Abs. 1 AO"
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Und eDaten?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Zeitplan: 1 · 4 · 3 · 2 Minuten",
+      "Kern: Ereignis nach dem Bescheid mit Rückwirkung",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "nach",
+        "a"
+       ],
+       [
+        " dem Bescheid,",
+        null
+       ]
+      ],
+      [
+       [
+        "Rückwirkung",
+        "b"
+       ],
+       [
+        " aus dem",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuergesetz",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Frist",
+        "d"
+       ],
+       [
+        " ab Ereignisjahr.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Welche Nachfrage käme bei dir?",
+     "teaser": "Weiterwischen: § 175 AO markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 175 AO (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Ein Steuerbescheid ist zu erlassen, aufzuheben oder zu ändern, […] 2.",
+         null
+        ],
+        [
+         "soweit ein Ereignis eintritt",
+         "g1"
+        ],
+        [
+         ", das",
+         null
+        ],
+        [
+         "steuerliche Wirkung für die Vergangenheit",
+         "b1"
+        ],
+        [
+         "hat (rückwirkendes Ereignis). In den Fällen des Satzes 1 Nummer 2",
+         null
+        ],
+        [
+         "beginnt die Festsetzungsfrist mit Ablauf des Kalenderjahrs, in dem das Ereignis eintritt.",
+         "gr1"
+        ]
+       ]
+      ],
+      [
+       2,
+       [
+        [
+         "[…]",
+         null
+        ],
+        [
+         "Die nachträgliche Erteilung oder Vorlage einer Bescheinigung oder Bestätigung gilt nicht als rückwirkendes Ereignis.",
+         "r1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "nach dem Bescheid",
+       "g1"
+      ],
+      [
+       "Rückwirkung",
+       "b1"
+      ],
+      [
+       "eigener Fristbeginn",
+       "gr1"
+      ],
+      [
+       "kein Ereignis",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "In der Mündlichen nur das Gesetz",
+      "Richtlinien und Erlasse sind dort nicht dabei"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: das rückwirkende Ereignis nach § 175 Abs. 1 S. 1 Nr. 2 AO – in 10 Minuten.\n\nGliederung: Einstieg (1 Min.) · Tatbestand (4 Min.) · Grenzfälle (3 Min.) · Frist und Fazit (2 Min.).\n\n1. Einstieg: Bestandskräftige Bescheide sind nur zu ändern, soweit es gesetzlich zugelassen ist (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. d AO).\n2. Tatbestand: Ereignis nach Erlass des Bescheids mit steuerlicher Wirkung für die Vergangenheit (§ 175 Abs. 1 S. 1 Nr. 2 AO); ob es zurückwirkt, richtet sich nach dem jeweiligen Steuergesetz (BFH vom 19.07.1993, GrS 2/92, BStBl II 1993, 897).\n3. Abgrenzung: War die Tatsache schon bei Bescheiderlass vorhanden, gilt § 173 AO.\n4. Grenzfälle: Wegfall einer zeitgebundenen Voraussetzung einer Steuervergünstigung gilt als rückwirkendes Ereignis (§ 175 Abs. 2 S. 1 AO); die nachträgliche Vorlage einer Bescheinigung nicht (§ 175 Abs. 2 S. 2 AO).\n5. Frist: Beginn mit Ablauf des Kalenderjahrs des Ereignisses (§ 175 Abs. 1 S. 2 AO), Dauer regelmäßig vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO).\n\nTypische Nachfrage: übermittelte Daten Dritter nicht oder falsch berücksichtigt → § 175b Abs. 1 AO.\n\nSpeichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. d AO",
+    "§ 173 Abs. 1 AO",
+    "§ 175 Abs. 1 S. 1 Nr. 2, S. 2 AO",
+    "§ 175 Abs. 2 S. 1, 2 AO",
+    "§ 175b Abs. 1 AO",
+    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+    "BFH vom 19.07.1993, GrS 2/92, BStBl II 1993, 897"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr4-06",
+   "themaTitel": "§ 9 AStG: relative und absolute Freigrenze",
+   "figuren": {
+    "A": {
+     "name": "Lukas",
+     "kopf": "hat-beanie",
+     "haut": "#E0B48C",
+     "haar": "#5A3B22",
+     "hut": "#7FB7BE",
+     "oberteil": "#9ED2C6"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Neunzigtausend Euro passive Einkünfte im Ausland: Hinzurechnung? Zwei Grenzen entscheiden."
+    },
+    {
+     "id": "s1",
+     "text": "Die Auslandsgesellschaft erzielt dreihunderttausend Euro Einkünfte, davon neunzigtausend passiv und niedrig besteuert."
+    },
+    {
+     "id": "s2",
+     "text": "Das sind dreißig Prozent, also unter einem Drittel. Und unter hunderttausend Euro. Beide Grenzen gehalten: keine Hinzurechnung."
+    },
+    {
+     "id": "s3",
+     "text": "Bei hundertzwanzigtausend wird alles hinzugerechnet. Freigrenze, kein Freibetrag."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: ein Drittel und hunderttausend Euro, beide einhalten."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "90.000 € passiv:",
+     "Hinzurechnung?"
+    ],
+    "pille": "§ 9 AStG",
+    "figur": "A/skeptisch",
+    "name": "Lukas",
+    "icons": [
+     [
+      "tabler:world",
+      "GELB",
+      "Zwei"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "höchstens",
+      "wert": "1/3",
+      "farbe": "GRUEN",
+      "wort": "Zwei"
+     },
+     {
+      "label": "höchstens",
+      "wert": "100.000 €",
+      "farbe": "GELB",
+      "wort": "Grenzen"
+     }
+    ],
+    "stempel": {
+     "text": "beide!",
+     "wort": "entscheiden"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Zahlen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einkünfte gesamt",
+       "wert": "300.000 €",
+       "farbe": "WEISS",
+       "wort": "dreihunderttausend",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "davon passiv, niedrig besteuert",
+       "wert": "90.000 €",
+       "farbe": "GELB",
+       "wort": "neunzigtausend",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 9 AStG",
+       "wort": "besteuert"
+      }
+     ],
+     "icon": [
+      "tabler:building-skyscraper",
+      "GELB",
+      "Auslandsgesellschaft"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "90 : 300 = 30 %",
+       "size": 120,
+       "wort": "dreißig"
+      },
+      {
+       "typ": "pille",
+       "text": "unter 1/3",
+       "wort": "Drittel",
+       "farbe": "GRUEN"
+      },
+      {
+       "typ": "pille",
+       "text": "unter 100.000 €",
+       "wort": "hunderttausend",
+       "farbe": "GRUEN"
+      },
+      {
+       "typ": "block",
+       "label": "Hinzurechnung",
+       "wert": "0 €",
+       "farbe": "GRUEN",
+       "wort": "keine",
+       "zs": 110
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "dreißig",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Falle",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "bei 120.000 €",
+       "wert": "alles hinzurechnen",
+       "farbe": "ROT",
+       "wort": "hundertzwanzigtausend",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Freigrenze",
+       "unter": "kein Freibetrag",
+       "wort": "Freigrenze",
+       "farbe": "WEISS",
+       "ls": 72
+      },
+      {
+       "typ": "norm",
+       "text": "§ 7 Abs. 1 AStG",
+       "wort": "alles"
+      }
+     ],
+     "figur": {
+      "ref": "A/sorge",
+      "wort": "Freibetrag",
+      "hoehe": 360
+     },
+     "sfx": [
+      [
+       "stempel",
+       "alles",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "§ 9 AStG:",
+     "höchstens 1/3",
+     "und 100.000 €,",
+     "beide einhalten"
+    ],
+    "woerter": [
+     null,
+     "Drittel",
+     "hunderttausend",
+     "beide"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "einhalten",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Hinzurechnungsbesteuerung: Wann bleiben passive Auslandseinkünfte außer Ansatz? 🌍\n\n▸ Bagatellgrenze: Die Zwischeneinkünfte dürfen höchstens ein Drittel aller Einkünfte der Auslandsgesellschaft ausmachen und zusammen 100.000 € nicht überschreiten – dann bleiben sie unberücksichtigt (§ 9 AStG).\n▸ Diese Fassung gilt für Zwischeneinkünfte aus Wirtschaftsjahren, die nach dem 31.12.2025 beginnen (§ 21 Abs. 9 S. 1 AStG); zuvor galten 10 % und 80.000 €.\n▸ Beispiel: 90.000 € von 300.000 € = 30 % und unter 100.000 € → keine Hinzurechnung.\n▸ Achtung, Freigrenze: Schon ein Euro zu viel, und die gesamten Zwischeneinkünfte fallen unter § 7 Abs. 1 AStG.\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 9 AStG",
+    "§ 21 Abs. 9 S. 1 AStG",
+    "§ 7 Abs. 1 AStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "frage": [
+    "Büromiete 120.000 €:",
+    "Was wird hinzugerechnet?"
+   ],
+   "optionen": [
+    "Die Hälfte, also 60.000 €",
+    "Ein Fünftel, also 24.000 €",
+    "Die volle Miete"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long",
+     "haut": "#A0694A",
+     "haar": "#1E140E",
+     "oberteil": "#BFD7EA",
+     "bueste": "Device"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "titel": [
+    "A: die Hälfte",
+    "der Miete"
+   ],
+   "optionen": [
+    "Die Hälfte, also 60.000 €",
+    "Ein Fünftel, also 24.000 €",
+    "Die volle Miete"
+   ],
+   "richtig": 0,
+   "text": "Danach Freibetrag 200.000 €, vom Rest ein Viertel.",
+   "norm": "§ 8 Nr. 1 Buchst. e GewStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Long",
+     "haut": "#A0694A",
+     "haar": "#1E140E",
+     "oberteil": "#BFD7EA",
+     "bueste": "Device"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Maschine in die KG: Buchwert?"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-2-4",
+   "titel": [
+    "Buchwert",
+    "und bald verkauft?"
+   ],
+   "norm": "§ 6 Abs. 5 S. 4 EStG",
+   "punkte": [
+    [
+     "Verkauf in der Sperrfrist: rückwirkend Teilwert.",
+     "warn",
+     null
+    ],
+    [
+     "Nicht bei Ergänzungsbilanz für den Übertragenden.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 2",
+     "haut": "#D9A178",
+     "haar": "#4A3426",
+     "oberteil": "#F9C6A8",
+     "bart": "Moustache 6",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag: § 175 AO"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Gesetz offen,",
+    "nicht im Kopf"
+   ],
+   "punkte": [
+    [
+     "Jede Norm aufschlagen, nicht zitieren aus dem Gedächtnis",
+     "ok",
+     null
+    ],
+    [
+     "Absatz, Satz, Nummer genau angeben",
+     "ok",
+     null
+    ],
+    [
+     "Tatbestand am Wortlaut prüfen",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:book",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Long Afro",
+     "haut": "#704428",
+     "haar": "#1A1A1A",
+     "oberteil": "#F4D06F"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b11-8",
+   "titel": [
+    "Gemischt genutzt:",
+    "zuordnen?"
+   ],
+   "punkte": [
+    [
+     "Unter 10 % unternehmerisch: keine Zuordnung",
+     "nein",
+     "§ 15 Abs. 1 S. 2 UStG"
+    ],
+    [
+     "Ganz zugeordnet (kein Gebäude): voller Vorsteuerabzug, Privatnutzung versteuern",
+     "warn",
+     "§ 3 Abs. 9a Nr. 1 UStG"
+    ]
+   ],
+   "icon": "tabler:car",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "hat-hip",
+     "haut": "#E8C0A0",
+     "haar": "#3E2A1C",
+     "hut": "#2F2F2F",
+     "oberteil": "#F7B2A0"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "90.000 € passiv: Hinzurechnung?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr4-08",
+   "titel": [
+    "Doppelt belastet?",
+    "Zwei Entlastungen"
+   ],
+   "zeilen": [
+    [
+     [
+      "§ 12",
+      "a"
+     ],
+     [
+      ": Auslandssteuer",
+      null
+     ]
+    ],
+    [
+     [
+      "sofort anrechnen,",
+      null
+     ]
+    ],
+    [
+     [
+      "§ 11",
+      "b"
+     ],
+     [
+      ": bei Ausschüttung",
+      null
+     ]
+    ],
+    [
+     [
+      "später kürzen.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§§ 11, 12 AStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Medium",
+     "haut": "#DDB290",
+     "haar": "#BDBDBD",
+     "oberteil": "#C7E8C1",
+     "brille": "Glasses 5",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ruhig"
+  }
+ ]
+}

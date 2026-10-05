@@ -1,0 +1,1171 @@
+{
+ "datum": "2026-12-24",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "spickzettel",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-19-03",
+   "themaTitel": "Arbeitszimmer oder Homeoffice-Pauschale: Was ist abziehbar?",
+   "figuren": {
+    "A": {
+     "name": "Kofi",
+     "kopf": "Shaved 1",
+     "haut": "#C68E6A",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bueste": "Gym Shirt",
+     "bart": "Moustache 5"
+    },
+    "B": {
+     "name": "Nele",
+     "kopf": "Medium Bangs 3",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Paper"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Spickzettel",
+     "zeilen": [
+      "Arbeitszimmer",
+      "oder Pauschale?"
+     ],
+     "norm": "§ 4 Abs. 5 S. 1 Nr. 6b, 6c EStG",
+     "unter": "auf einer Karte",
+     "teaser": "+ Markier-Guide § 4 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "höchstens",
+        "Bold",
+        44
+       ],
+       [
+        "1.260 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "im Jahr",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Die Karte",
+     "schritte": [
+      [
+       "Mittelpunkt?",
+       "§ 4 Abs. 5 S. 1 Nr. 6b S. 2, 3 EStG",
+       "Kosten oder 1.260 €"
+      ],
+      [
+       "Kein Mittelpunkt?",
+       "§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG",
+       "6 € je Homeoffice-Tag"
+      ],
+      [
+       "Deckel",
+       "",
+       "höchstens 1.260 € im Jahr"
+      ],
+      [
+       "Nie doppelt",
+       "§ 4 Abs. 5 S. 1 Nr. 6c S. 3 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 4 EStG markiert"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Zimmer oder Tage?",
+     "links": {
+      "kopf": "Mittelpunkt",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Tatsächliche Kosten",
+        "Nr. 6b S. 2"
+       ],
+       [
+        "oder pauschal 1.260 €",
+        "Nr. 6b S. 3"
+       ],
+       [
+        "Monat ohne Mittelpunkt: 1/12 weniger",
+        "Nr. 6b S. 4"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Kein Mittelpunkt",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "6 € je Tag, höchstens 1.260 €",
+        "Nr. 6c S. 1"
+       ],
+       [
+        "Kein eigenes Zimmer nötig",
+        null
+       ]
+      ]
+     },
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Was passt zu mir?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Der Tag mit Büro",
+     "punkte": [
+      [
+       "Vormittags zu Hause, nachmittags im Büro des Arbeitgebers: keine Tagespauschale.",
+       "nein",
+       "Regular",
+       "§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG"
+      ],
+      [
+       "Ausnahme: Es gibt dauerhaft keinen anderen Arbeitsplatz.",
+       "ok",
+       "Bold",
+       "§ 4 Abs. 5 S. 1 Nr. 6c S. 2 EStG"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 790,
+     "blase": "Ich bin Nele, Lehrerin."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Beispiel: 230 Homeoffice-Tage × 6 € = 1.380 €",
+      "gedeckelt: 1.260 € abziehbar",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Mittelpunkt",
+        "a"
+       ],
+       [
+        ": Zimmer,",
+        null
+       ]
+      ],
+      [
+       [
+        "sonst",
+        "b"
+       ],
+       [
+        " 6 € je Tag,",
+        null
+       ]
+      ],
+      [
+       [
+        "Deckel",
+        "c"
+       ],
+       [
+        " 1.260 €.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wie viele Homeoffice-Tage hattest du 2026?",
+     "teaser": "Weiterwischen: § 4 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 4 Abs. 5 S. 1 EStG (Auszug)",
+     "absaetze": [
+      [
+       "Nr. 6b",
+       [
+        [
+         "Aufwendungen für ein häusliches Arbeitszimmer sowie die Kosten der Ausstattung. Dies gilt nicht, wenn das Arbeitszimmer",
+         null
+        ],
+        [
+         "den Mittelpunkt der gesamten betrieblichen und beruflichen Betätigung",
+         "b2"
+        ],
+        [
+         "bildet. Anstelle der Aufwendungen kann",
+         null
+        ],
+        [
+         "pauschal ein Betrag von 1 260 Euro (Jahrespauschale)",
+         "g2"
+        ],
+        [
+         "für das Wirtschafts- oder Kalenderjahr abgezogen werden. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Nr. 6c",
+       [
+        [
+         "für jeden Kalendertag, an dem die betriebliche oder berufliche Tätigkeit",
+         null
+        ],
+        [
+         "überwiegend in der häuslichen Wohnung",
+         "g1"
+        ],
+        [
+         "ausgeübt und",
+         null
+        ],
+        [
+         "keine außerhalb der häuslichen Wohnung belegene erste Tätigkeitsstätte aufgesucht",
+         "r1"
+        ],
+        [
+         "wird, kann für die gesamte betriebliche und berufliche Betätigung",
+         null
+        ],
+        [
+         "ein Betrag von 6 Euro (Tagespauschale), höchstens 1 260 Euro",
+         "b1"
+        ],
+        [
+         "im Wirtschafts- oder Kalenderjahr, abgezogen werden.",
+         null
+        ],
+        [
+         "Steht für die betriebliche oder berufliche Tätigkeit dauerhaft kein anderer Arbeitsplatz zur Verfügung,",
+         "gr1"
+        ],
+        [
+         "ist ein Abzug der Tagespauschale zulässig, auch wenn die Tätigkeit am selben Kalendertag auswärts oder an der ersten Tätigkeitsstätte ausgeübt wird. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Mittelpunkt?",
+       "b2"
+      ],
+      [
+       "Jahrespauschale",
+       "g2"
+      ],
+      [
+       "überwiegend zu Hause",
+       "g1"
+      ],
+      [
+       "6 € je Tag",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "230 Tage × 6 € = 1.380 €",
+      "gedeckelt: 1.260 € abziehbar"
+     ]
+    }
+   ],
+   "caption": "Arbeitszimmer oder Homeoffice-Pauschale? Der Spickzettel für die Feiertage und für Klausur 2.\n\n▸ Häusliches Arbeitszimmer: Abzug nur, wenn es den Mittelpunkt der gesamten betrieblichen und beruflichen Betätigung bildet; dann tatsächliche Kosten oder Jahrespauschale 1.260 €, je vollem Monat ohne Mittelpunkt ein Zwölftel weniger (§ 4 Abs. 5 S. 1 Nr. 6b S. 2–4 EStG).\n▸ Sonst Tagespauschale: 6 € je Kalendertag mit überwiegender Tätigkeit zu Hause, an dem keine erste Tätigkeitsstätte aufgesucht wird; höchstens 1.260 € im Jahr (§ 4 Abs. 5 S. 1 Nr. 6c S. 1 EStG).\n▸ Steht dauerhaft kein anderer Arbeitsplatz zur Verfügung, gibt es die Tagespauschale auch an Tagen mit Tätigkeit auswärts oder an der ersten Tätigkeitsstätte (§ 4 Abs. 5 S. 1 Nr. 6c S. 2 EStG).\n▸ Kein Doppelabzug neben dem Arbeitszimmer (§ 4 Abs. 5 S. 1 Nr. 6c S. 3 EStG). Für Arbeitnehmer gilt das über § 9 Abs. 5 S. 1 EStG.\n\nBeispiel: 230 Tage × 6 € = 1.380 €, abziehbar 1.260 €.\n\nZum Schluss: § 4 Abs. 5 S. 1 Nr. 6b, 6c EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 4 Abs. 5 S. 1 Nr. 6b, 6c EStG",
+    "§ 9 Abs. 5 S. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "schema",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-11-02",
+   "themaTitel": "Rücklage für Ersatzbeschaffung: Wann greift R 6.6 EStR?",
+   "figuren": {
+    "A": {
+     "name": "Ronja",
+     "kopf": "Long Afro",
+     "haut": "#7A4B2E",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4C27A",
+     "bueste": "Shirt and Coat"
+    },
+    "B": {
+     "name": "Piet",
+     "kopf": "Short 4",
+     "haut": "#F0C8A8",
+     "haar": "#C9A15A",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 2",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfschema",
+     "zeilen": [
+      "Ersatz",
+      "beschaffen"
+     ],
+     "norm": "R 6.6 EStR",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide R 6.6 EStR",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Versicherung",
+        "Bold",
+        44
+       ],
+       [
+        "30.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Gewinn sofort?",
+        "ExtraBold",
+        50
+       ]
+      ]
+     },
+     "figur": "A:sorge"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Ersatz in 4 Schritten",
+     "schritte": [
+      [
+       "Unfreiwillig weg?",
+       "R 6.6 Abs. 1, 2 EStR",
+       "höhere Gewalt oder Behörde"
+      ],
+      [
+       "Gegen Entschädigung?",
+       "R 6.6 Abs. 1 EStR",
+       "etwa von der Versicherung"
+      ],
+      [
+       "Ersatz geplant?",
+       "R 6.6 Abs. 4 S. 1 EStR",
+       "dann Rücklage am Jahresende"
+      ],
+      [
+       "Frist beachten",
+       "R 6.6 Abs. 4 S. 3, 4 EStR",
+       "1, 4 oder 6 Jahre"
+      ]
+     ],
+     "teaser": "Am Ende: R 6.6 EStR markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Unfreiwillig weg?",
+     "punkte": [
+      [
+       "Ronjas Lieferwagen wird gestohlen. Diebstahl zählt als höhere Gewalt.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 2 EStR"
+      ],
+      [
+       "Ebenso Brand, Sturm, Überschwemmung oder ein Eingriff der Behörde.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Verkauf aus freien Stücken: Hier nicht anwendbar.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Ronja."
+    },
+    {
+     "typ": "rechnung",
+     "titel": "2 · Stille Reserven",
+     "normen": [
+      "R 6.6 Abs. 1 EStR"
+     ],
+     "zeilen": [
+      [
+       "Zahlung der Versicherung",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Buchwert des Wagens",
+       "– 8.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Aufgedeckte Reserven",
+       "22.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ich bin Piet. Alles Gewinn?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Rücklage bilden",
+     "punkte": [
+      [
+       "Kein Ersatz bis zum 31.12.2026, aber ernstlich geplant: Rücklage 22.000 €.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 4 S. 1 EStR"
+      ],
+      [
+       "Später nachholen geht nicht.",
+       "nein",
+       "Bold",
+       "R 6.6 Abs. 4 S. 2 EStR"
+      ],
+      [
+       "Neuer Wagen im Februar 2027 für 42.000 €: Rücklage übertragen, Basis 20.000 €.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Kein Gewinn 2026."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "4 · Frist beachten",
+     "punkte": [
+      [
+       "Bewegliches Wirtschaftsgut: Ersatz bis Ende des Folgejahres.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 4 S. 3 EStR"
+      ],
+      [
+       "Grundstück oder Gebäude: 4 Jahre, neu hergestelltes Gebäude: 6 Jahre.",
+       "ok",
+       "Regular",
+       "R 6.6 Abs. 4 S. 4 EStR"
+      ],
+      [
+       "Im Einzelfall auf bis zu 4 Jahre verlängerbar.",
+       "warn",
+       "Bold",
+       "R 6.6 Abs. 4 S. 5 EStR"
+      ]
+     ],
+     "figur": "B:erklaert",
+     "x": 290,
+     "blase": "Fristen notieren!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Der neue Wagen kommt erst im März 2028. Eine Verlängerung gibt es nicht.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Was passiert mit der Rücklage?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Was meinst du?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Zum 31.12.2027 ist kein Ersatz da: Rücklage gewinnerhöhend auflösen.",
+       "nein",
+       "Regular",
+       "R 6.6 Abs. 4 S. 3 EStR"
+      ],
+      [
+       "Gewinn 2027: + 22.000 €. Der Wagen 2028 bekommt volle Anschaffungskosten.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Zu spät!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Rücklage 22.000 € statt Gewinn 2026",
+      "Ersatz für 42.000 €: Bemessungsgrundlage 20.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Unfreiwillig",
+        "a"
+       ],
+       [
+        " weg,",
+        null
+       ]
+      ],
+      [
+       [
+        "Entschädigung",
+        "b"
+       ],
+       [
+        " da,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ersatz",
+        "c"
+       ],
+       [
+        " geplant,",
+        null
+       ]
+      ],
+      [
+       [
+        "Frist",
+        "d"
+       ],
+       [
+        " halten.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Welche Frist gilt bei Gebäuden?",
+     "teaser": "Weiterwischen: R 6.6 EStR markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "In der Richtlinie markieren",
+     "kopf": "R 6.6 Abs. 4 EStR (Auszug)",
+     "absaetze": [
+      [
+       "S. 1",
+       [
+        [
+         "Soweit am Schluss des Wirtschaftsjahres, in dem das Wirtschaftsgut aus dem Betriebsvermögen ausgeschieden ist, noch keine Ersatzbeschaffung vorgenommen wurde, kann",
+         null
+        ],
+        [
+         "in Höhe der aufgedeckten stillen Reserven",
+         "b1"
+        ],
+        [
+         "eine steuerfreie Rücklage gebildet werden, wenn zu diesem Zeitpunkt",
+         null
+        ],
+        [
+         "eine Ersatzbeschaffung ernstlich geplant und zu erwarten ist.",
+         "g1"
+        ]
+       ]
+      ],
+      [
+       "S. 3",
+       [
+        [
+         "Eine Rücklage, die auf Grund des Ausscheidens eines beweglichen Wirtschaftsgutes gebildet wurde, ist",
+         null
+        ],
+        [
+         "am Schluss des ersten auf ihre Bildung folgenden Wirtschaftsjahres",
+         "r1"
+        ],
+        [
+         "gewinnerhöhend aufzulösen, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "S. 4",
+       [
+        [
+         "Die Frist von einem Jahr verlängert sich […]",
+         null
+        ],
+        [
+         "auf vier Jahre;",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Höhe",
+       "b1"
+      ],
+      [
+       "Absicht",
+       "g1"
+      ],
+      [
+       "Frist!",
+       "r1"
+      ],
+      [
+       "Grundstück",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Hinweis: Richtlinie, kein Gesetz",
+      "In der Mündlichen nicht zur Hand"
+     ]
+    }
+   ],
+   "caption": "Rücklage für Ersatzbeschaffung: das Prüfschema nach R 6.6 EStR für die Bilanzklausur.\n\n1. Ein Wirtschaftsgut scheidet infolge höherer Gewalt (z. B. Brand, Sturm, Diebstahl) oder infolge oder zur Vermeidung eines behördlichen Eingriffs aus (R 6.6 Abs. 1, 2 EStR).\n2. Es fließt eine Entschädigung, die stille Reserven aufdeckt (R 6.6 Abs. 1 EStR). Beispiel: 30.000 € – 8.000 € Buchwert = 22.000 €.\n3. Ist am Jahresende noch kein Ersatz da, aber ernstlich geplant: steuerfreie Rücklage in Höhe der aufgedeckten Reserven; keine Nachholung in späteren Jahren (R 6.6 Abs. 4 S. 1, 2 EStR).\n4. Frist: bei beweglichen Wirtschaftsgütern Auflösung am Ende des Folgejahres, wenn bis dahin kein Ersatz angeschafft oder hergestellt ist; bei Wirtschaftsgütern im Sinne des § 6b Abs. 1 S. 1 EStG vier Jahre, bei neu hergestellten Gebäuden sechs Jahre; im Einzelfall Verlängerung auf bis zu vier Jahre (R 6.6 Abs. 4 S. 3–5 EStR).\n\nBeispiel: Ersatz für 42.000 € im Februar 2027, Rücklage übertragen, Bemessungsgrundlage 20.000 €. Ersatz erst 2028: Auflösung zum 31.12.2027 mit + 22.000 € Gewinn.\n\nZum Schluss: R 6.6 EStR zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "R 6.6 Abs. 1, 2, 4 S. 1–5 EStR",
+    "§ 6b Abs. 1 S. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "quizfrage",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-304",
+   "themaTitel": "Verwaltungsakt: Liegt überhaupt ein VA vor?",
+   "figuren": {
+    "A": {
+     "name": "Mirja",
+     "kopf": "Buns",
+     "haut": "#E8B98F",
+     "haar": "#6B3E26",
+     "oberteil": "#F9A8D4",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Post vom Finanzamt: Anordnung einer Außenprüfung. Nur eine Ankündigung? Falsch. Das ist ein Verwaltungsakt, und du kannst Einspruch einlegen."
+    },
+    {
+     "id": "s1",
+     "text": "Prüfe die Merkmale: hoheitliche Maßnahme einer Behörde, ein Einzelfall, öffentliches Recht."
+    },
+    {
+     "id": "s2",
+     "text": "Entscheidend ist die Regelung mit Wirkung nach außen. Die Anordnung legt verbindlich fest, dass und was geprüft wird."
+    },
+    {
+     "id": "s3",
+     "text": "Gegenbeispiel: eine bloße Auskunft am Telefon. Sie regelt nichts, also kein Verwaltungsakt."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Ohne Regelung kein Verwaltungsakt, ohne Verwaltungsakt kein Einspruch."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Prüfungsanordnung:",
+     "nur ein Brief"
+    ],
+    "pille": "§ 118 AO",
+    "figur": "A/skeptisch",
+    "name": "Mirja",
+    "icons": [
+     [
+      "tabler:mail",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Verwaltungsakt",
+     "wort": "Verwaltungsakt",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Merkmale",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "hoheitliche Maßnahme",
+       "wort": "hoheitliche",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "einer Behörde",
+       "wort": "Behörde",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "Einzelfall",
+       "wort": "Einzelfall",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "öffentliches Recht",
+       "wort": "öffentliches",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 118 S. 1 AO",
+       "wort": "Merkmale"
+      }
+     ],
+     "icon": [
+      "tabler:list-check",
+      "GELB",
+      "Merkmale"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Regelung nach außen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Prüfungsanordnung",
+       "wert": "regelt",
+       "farbe": "GRUEN",
+       "wort": "Anordnung",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "dass und was",
+       "unter": "geprüft wird",
+       "wort": "verbindlich",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 196 AO",
+       "wort": "Regelung"
+      }
+     ],
+     "icon": [
+      "tabler:file-certificate",
+      "GELB",
+      "Anordnung"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Gegenbeispiel",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Auskunft am Telefon",
+       "wert": "kein VA",
+       "farbe": "ROT",
+       "wort": "Auskunft",
+       "zs": 110
+      },
+      {
+       "typ": "text",
+       "text": "regelt nichts",
+       "unter": "kein Einspruch",
+       "wort": "regelt",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 347 Abs. 1 AO",
+       "wort": "Verwaltungsakt"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "nichts",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Ohne Regelung",
+     "kein Verwaltungsakt,",
+     "ohne Verwaltungsakt",
+     "kein Einspruch"
+    ],
+    "woerter": [
+     null,
+     "kein",
+     "ohne",
+     "Einspruch"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Einspruch",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Die Prüfungsanordnung ist mehr als ein Brief: Sie ist ein Verwaltungsakt. 📬\n\n▸ Verwaltungsakt ist jede Verfügung, Entscheidung oder andere hoheitliche Maßnahme einer Behörde zur Regelung eines Einzelfalls auf dem Gebiet des öffentlichen Rechts mit unmittelbarer Rechtswirkung nach außen (§ 118 S. 1 AO).\n▸ Die Prüfungsanordnung bestimmt den Umfang der Außenprüfung und ist mit Rechtsbehelfsbelehrung zu erteilen (§ 196 AO). Gegen sie ist der Einspruch statthaft (§ 347 Abs. 1 AO).\n▸ Eine unverbindliche Auskunft regelt nichts und ist daher kein Verwaltungsakt.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 118 S. 1 AO",
+    "§ 196 AO",
+    "§ 347 Abs. 1 AO"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-2",
+   "frage": [
+    "Erwerbsschwelle",
+    "Halbunternehmer?"
+   ],
+   "optionen": [
+    "10.000 €",
+    "12.500 €",
+    "25.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Short 1",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bart": "Goatee 2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-2",
+   "titel": [
+    "B: 12.500 €",
+    "im Jahr"
+   ],
+   "optionen": [
+    "10.000 €",
+    "12.500 €",
+    "25.000 €"
+   ],
+   "richtig": 1,
+   "text": "Vorjahr nicht überschritten und im laufenden Jahr voraussichtlich auch nicht.",
+   "norm": "§ 1a Abs. 3 Nr. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Short 1",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bart": "Goatee 2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Arbeitszimmer oder Pauschale?"
+   ],
+   "unter": "Spickzettel + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-17",
+   "titel": [
+    "Dividende",
+    "aus dem Ausland"
+   ],
+   "norm": "Art. 10 Abs. 2 OECD-MA",
+   "punkte": [
+    [
+     "Quellenstaat darf meist höchstens 15 % einbehalten.",
+     "ok",
+     "Art. 10 Abs. 2 Buchst. b OECD-MA"
+    ],
+    [
+     "Deutschland rechnet an, höchstens 25 %.",
+     "warn",
+     "§ 32d Abs. 5 S. 1 EStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Hijab",
+     "haut": "#C99470",
+     "hut": "#F4A3B5",
+     "oberteil": "#F9D56E",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "Ersatz beschaffen"
+   ],
+   "unter": "Prüfschema + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "ueberzeile": "Lerntipp",
+   "titel": [
+    "Heiligabend:",
+    "heute frei"
+   ],
+   "punkte": [
+    [
+     "Heute nichts Neues lernen.",
+     "ok",
+     null
+    ],
+    [
+     "Ab dem 27. wieder kurze Einheiten.",
+     "ok",
+     null
+    ],
+    [
+     "Erholung gehört zur Vorbereitung.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:christmas-tree",
+   "iconFarbe": "GRUEN",
+   "figuren": {
+    "Z": {
+     "kopf": "Gray Medium",
+     "haut": "#B97A56",
+     "haar": "#9A9A9A",
+     "oberteil": "#F6A6A6"
+    }
+   },
+   "figur": "Z/ruhig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-6",
+   "titel": [
+    "Wozu eine",
+    "Ergänzungsbilanz?"
+   ],
+   "punkte": [
+    [
+     "Kaufpreis über dem Kapitalkonto: Mehrwert dort aktivieren.",
+     "ok",
+     null
+    ],
+    [
+     "Fortführen wie die Wirtschaftsgüter, etwa mit eigener AfA.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:file-plus",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Cornrows",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bart": "Moustache 1"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Nur ein Brief?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-305",
+   "titel": [
+    "Welcher",
+    "Verwaltungsakt?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Steuerbescheid",
+      "a"
+     ],
+     [
+      ": §§ 172 ff.,",
+      null
+     ]
+    ],
+    [
+     [
+      "Feststellung",
+      "b"
+     ],
+     [
+      " ebenso,",
+      null
+     ]
+    ],
+    [
+     [
+      "sonstige",
+      "c"
+     ],
+     [
+      ": §§ 130, 131.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§§ 155, 181 Abs. 1, 184 Abs. 1 AO",
+   "groesse": 66,
+   "figuren": {
+    "M": {
+     "kopf": "Medium Straight",
+     "haut": "#F1C7A5",
+     "haar": "#3B2A20",
+     "oberteil": "#F4C27A",
+     "brille": "Glasses 2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

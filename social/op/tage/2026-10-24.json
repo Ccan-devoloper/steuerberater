@@ -1,0 +1,1168 @@
+{
+ "datum": "2026-10-24",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "klausurtechnik-k1-erbst-2026-43",
+   "themaTitel": "ErbSt-Teil der Klausur 1: Fahrplan, Zeit und Darstellung",
+   "figuren": {
+    "A": {
+     "name": "Lasse",
+     "kopf": "Medium 1",
+     "haut": "#E8B98F",
+     "haar": "#3B2A1E",
+     "oberteil": "#F4A3B5",
+     "bart": "Goatee 2",
+     "bueste": "Striped Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "zeilen": [
+      "ErbSt-Teil:",
+      "sauber punkten"
+     ],
+     "norm": "§ 10 ErbStG",
+     "unter": "Tag 1",
+     "teaser": "+ Markier-Guide § 10 ErbStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:list-numbers",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Fahrplan",
+     "schritte": [
+      [
+       "Steuerpflicht",
+       "§ 2 ErbStG",
+       "unbeschränkt oder beschränkt?"
+      ],
+      [
+       "Erwerb und Wert",
+       "§§ 3, 7, 12 ErbStG",
+       "jeden Gegenstand einzeln"
+      ],
+      [
+       "Bereicherung",
+       "§ 10 ErbStG",
+       "Vermögen minus Abzüge"
+      ],
+      [
+       "Steuer",
+       "§§ 15, 16, 19 ErbStG",
+       "Klasse, Freibetrag, Satz"
+      ]
+     ],
+     "teaser": "Am Ende: § 10 ErbStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zeit einteilen",
+     "punkte": [
+      [
+       "Erst den ganzen Teil lesen: Wer erwirbt was von wem?",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Für jeden Erwerber eine eigene Rechnung anlegen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Hängt ein Wert fest: Annahme notieren und weiterrechnen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Nicht festbeißen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Darstellung",
+     "punkte": [
+      [
+       "Tabelle statt Fließtext: Position, Norm, Betrag.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Jede Zeile mit Paragraf, Absatz und Nummer.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zwischensummen sichtbar machen.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Übersicht zählt"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "So sieht's aus",
+     "normen": [
+      "§ 10 Abs. 1, 5 ErbStG",
+      "§§ 16, 19 ErbStG"
+     ],
+     "zeilen": [
+      [
+       "Grundstück",
+       "400.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Bankguthaben",
+       "80.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Erblasserschulden",
+       "– 30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Pauschale Erbfallkosten",
+       "– 15.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Freibetrag Kind",
+       "– 400.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= steuerpflichtiger Erwerb",
+       "35.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Steuer 7 %",
+       "2.450 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Punkte sichern",
+     "punkte": [
+      [
+       "Klasse und Freibetrag bringen Punkte, auch wenn ein Wert falsch ist.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Auf volle 100 € abrunden.",
+       "warn",
+       "Bold",
+       "§ 10 Abs. 1 S. 6 ErbStG"
+      ],
+      [
+       "Immer mit Steuersatz und Steuerbetrag abschließen.",
+       "ok",
+       "Regular",
+       "§ 19 Abs. 1 ErbStG"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Bis zum Ende!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Im ErbSt-Teil führt das Gesetz",
+      "Pflicht, Erwerb, Bereicherung, Steuer – immer gleich",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Pflicht",
+        "a"
+       ],
+       [
+        " klären,",
+        null
+       ]
+      ],
+      [
+       [
+        "Erwerb",
+        "b"
+       ],
+       [
+        " bewerten,",
+        null
+       ]
+      ],
+      [
+       [
+        "Bereicherung",
+        "c"
+       ],
+       [
+        " rechnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Steuer",
+        "d"
+       ],
+       [
+        " abschließen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Wo verlierst du die meiste Zeit?",
+     "teaser": "Weiterwischen: § 10 ErbStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 10 ErbStG Steuerpflichtiger Erwerb (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "1 Als steuerpflichtiger Erwerb gilt die",
+         null
+        ],
+        [
+         "Bereicherung des Erwerbers,",
+         "g1"
+        ],
+        [
+         "soweit sie nicht steuerfrei ist",
+         "b1"
+        ],
+        [
+         "(§§ 5, 13, 13a, 13c, 13d, 16, 17 und 18). 2 In den Fällen des § 3 gilt […] als Bereicherung der Betrag, der sich ergibt, wenn von dem nach § 12 zu ermittelnden",
+         null
+        ],
+        [
+         "Wert des gesamten Vermögensanfalls,",
+         "gr1"
+        ],
+        [
+         "[…] die nach den Absätzen 3 bis 9 abzugsfähigen",
+         null
+        ],
+        [
+         "Nachlassverbindlichkeiten",
+         "r1"
+        ],
+        [
+         "[…] abgezogen werden. […] 6 Der steuerpflichtige Erwerb wird auf volle 100 Euro nach unten abgerundet.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(5)",
+       [
+        [
+         "Von dem Erwerb sind […] als Nachlaßverbindlichkeiten abzugsfähig […] 3. die Kosten der Bestattung des Erblassers, […] Für diese Kosten wird insgesamt ein Betrag von",
+         null
+        ],
+        [
+         "15 000 Euro ohne Nachweis",
+         "g2"
+        ],
+        [
+         "abgezogen. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Kernbegriff",
+       "g1"
+      ],
+      [
+       "Wert nach § 12",
+       "gr1"
+      ],
+      [
+       "Abzüge",
+       "r1"
+      ],
+      [
+       "Pauschale",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Staffel: Erwerb, Abzüge, Freibetrag",
+      "dann abrunden und Satz anwenden"
+     ]
+    }
+   ],
+   "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 Abs. 1, 5 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§§ 2, 3, 7, 12 ErbStG",
+    "§ 10 Abs. 1 S. 1, 2, 6, Abs. 5 Nr. 3 S. 2 ErbStG",
+    "§ 15 ErbStG",
+    "§ 16 Abs. 1 Nr. 2 ErbStG",
+    "§ 19 Abs. 1 ErbStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-23-04",
+   "themaTitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+   "figuren": {
+    "A": {
+     "name": "Hedda",
+     "kopf": "Medium Bangs",
+     "haut": "#F5D3B8",
+     "haar": "#8B4A2B",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Wohnung nach",
+      "6 Jahren verkauft"
+     ],
+     "norm": "§ 23 Abs. 3 EStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 23 EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Gewinn",
+        "Bold",
+        44
+       ],
+       [
+        "98.800 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "steuerpflichtig?",
+        "ExtraBold",
+        48
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Hedda kauft im Januar 2020 eine Wohnung für 300.000 €, davon Gebäude 240.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Sie vermietet sie, AfA 2 % im Jahr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Im Dezember 2025 verkauft sie für 380.000 €, Maklerkosten 10.000 €.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Muss ich zahlen?"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg",
+     "schritte": [
+      [
+       "Frist prüfen",
+       "§ 23 Abs. 1 S. 1 Nr. 1 EStG",
+       "Grundstück: höchstens zehn Jahre"
+      ],
+      [
+       "Anschaffungskosten fortführen",
+       "§ 23 Abs. 3 S. 4 EStG",
+       "minus abgezogene AfA"
+      ],
+      [
+       "Gewinn rechnen",
+       "§ 23 Abs. 3 S. 1 EStG",
+       "Preis minus AK minus Kosten"
+      ],
+      [
+       "Freigrenze prüfen",
+       "§ 23 Abs. 3 S. 5 EStG",
+       "unter 1.000 € steuerfrei"
+      ]
+     ],
+     "teaser": "Am Ende: § 23 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie viel AfA hat Hedda bis Ende 2025 abgezogen?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Wie hoch ist der Gewinn?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst rechnen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Sechs Jahre AfA?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Lösung",
+     "normen": [
+      "§ 23 Abs. 3 S. 1, 4 EStG"
+     ],
+     "zeilen": [
+      [
+       "Veräußerungspreis",
+       "380.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Maklerkosten",
+       "– 10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Anschaffungskosten",
+       "300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– AfA 6 × 4.800 €",
+       "– 28.800 €",
+       "Regular",
+       null
+      ],
+      [
+       "= fortgeführte AK",
+       "271.200 €",
+       "Bold",
+       null
+      ],
+      [
+       "Gewinn 370.000 – 271.200",
+       "98.800 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Die AfA zurückholen",
+     "punkte": [
+      [
+       "Abgezogene AfA mindert die Anschaffungskosten.",
+       "warn",
+       "Bold",
+       "§ 23 Abs. 3 S. 4 EStG"
+      ],
+      [
+       "Wer mit 300.000 € rechnet, kommt nur auf 70.000 € Gewinn – 28.800 € zu wenig.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Eigene Wohnzwecke hätten den Verkauf befreit, hier aber nicht.",
+       "ok",
+       "Regular",
+       "§ 23 Abs. 1 S. 1 Nr. 1 S. 3 EStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Die AfA kommt zurück?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Gewinn 98.800 €, Freigrenze überschritten",
+      "380.000 € – 10.000 € – 271.200 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Zehn Jahre",
+        "a"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "AfA",
+        "b"
+       ],
+       [
+        " abziehen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Kosten",
+        "c"
+       ],
+       [
+        " abziehen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Freigrenze",
+        "d"
+       ],
+       [
+        " prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du die AfA vergessen?",
+     "teaser": "Weiterwischen: § 23 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 23 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(3)",
+       [
+        [
+         "1 Gewinn oder Verlust aus Veräußerungsgeschäften nach Absatz 1 ist der Unterschied zwischen",
+         null
+        ],
+        [
+         "Veräußerungspreis",
+         "g1"
+        ],
+        [
+         "einerseits und den Anschaffungs- oder Herstellungskosten und den",
+         null
+        ],
+        [
+         "Werbungskosten",
+         "b1"
+        ],
+        [
+         "andererseits. […] 4 Die Anschaffungs- oder Herstellungskosten",
+         null
+        ],
+        [
+         "mindern sich um Absetzungen für Abnutzung,",
+         "r1"
+        ],
+        [
+         "[…] soweit sie bei der Ermittlung der Einkünfte im Sinne des § 2 Absatz 1 Satz 1 Nummer 4 bis 7 abgezogen worden sind. 5 Gewinne bleiben steuerfrei, wenn der […] Gesamtgewinn im Kalenderjahr",
+         null
+        ],
+        [
+         "weniger als 1 000 Euro",
+         "gr1"
+        ],
+        [
+         "betragen hat.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Preis",
+       "g1"
+      ],
+      [
+       "Maklerkosten",
+       "b1"
+      ],
+      [
+       "AfA zurück!",
+       "r1"
+      ],
+      [
+       "Freigrenze",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Verluste: § 23 Abs. 3 S. 7 EStG",
+      "nur mit Gewinnen aus § 23 im selben Jahr"
+     ]
+    }
+   ],
+   "caption": "Private Veräußerung einer vermieteten Wohnung: So rechnest du den Gewinn nach § 23 EStG.\n\n1. Frist: Grundstücke sind erfasst, wenn zwischen Anschaffung und Veräußerung nicht mehr als zehn Jahre liegen (§ 23 Abs. 1 S. 1 Nr. 1 EStG); eigene Wohnzwecke können befreien (§ 23 Abs. 1 S. 1 Nr. 1 S. 3 EStG).\n2. Anschaffungskosten mindern sich um die AfA, die bei den Einkünften aus Vermietung abgezogen wurde (§ 23 Abs. 3 S. 4 EStG).\n3. Gewinn: Veräußerungspreis minus Anschaffungskosten und Werbungskosten (§ 23 Abs. 3 S. 1 EStG).\n4. Freigrenze: Gesamtgewinn unter 1.000 € im Kalenderjahr bleibt steuerfrei (§ 23 Abs. 3 S. 5 EStG). Verluste nur mit Gewinnen aus privaten Veräußerungsgeschäften desselben Jahres (§ 23 Abs. 3 S. 7 EStG).\n\nIm Beispiel: AfA 2 % von 240.000 € = 4.800 € × 6 Jahre = 28.800 €; fortgeführte Anschaffungskosten 271.200 €; Gewinn 380.000 € – 10.000 € – 271.200 € = 98.800 €.\n\nZum Schluss: § 23 Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 23 Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 23 Abs. 3 S. 1, 4, 5, 7 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-3-12",
+   "themaTitel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
+   "figuren": {
+    "A": {
+     "name": "Ilias",
+     "kopf": "Short 5",
+     "haut": "#C99470",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Die Mutter-GmbH übernimmt ihre Tochter, eine Million Übernahmegewinn. Steuerfrei? Fast. Fünf Prozent bleiben hängen."
+    },
+    {
+     "id": "s1",
+     "text": "Der Übernahmegewinn: Wert des übernommenen Vermögens minus Buchwert der Anteile und Kosten. Er bleibt grundsätzlich außer Ansatz."
+    },
+    {
+     "id": "s2",
+     "text": "Soweit er auf die Beteiligung der Mutter entfällt, gilt aber Paragraf acht b: Fünf Prozent sind nicht abziehbar."
+    },
+    {
+     "id": "s3",
+     "text": "Bei hundert Prozent Beteiligung sind das fünfzigtausend Euro. Ein Übernahmeverlust wirkt dagegen gar nicht."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Gewinn fast frei, Verlust verpufft."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Übernahmegewinn:",
+     "steuerfrei?"
+    ],
+    "pille": "§ 12 Abs. 2 UmwStG",
+    "figur": "A/skeptisch",
+    "name": "Ilias",
+    "icons": [
+     [
+      "tabler:building-community",
+      "GELB",
+      "Fast"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "§ 12 Abs. 2 S. 1",
+      "wert": "außer Ansatz",
+      "farbe": "GRUEN",
+      "wort": "Steuerfrei"
+     },
+     {
+      "label": "§ 8b KStG",
+      "wert": "5 % bleiben",
+      "farbe": "GELB",
+      "wort": "Fünf"
+     }
+    ],
+    "stempel": {
+     "text": "fast!",
+     "wort": "Fast"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Grundsatz",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "Vermögen minus Buchwert",
+       "unter": "und minus Kosten",
+       "wort": "Wert",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "Übernahmegewinn",
+       "wert": "außer Ansatz",
+       "farbe": "GRUEN",
+       "wort": "außer",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 12 Abs. 2 S. 1 UmwStG",
+       "wort": "grundsätzlich"
+      }
+     ],
+     "icon": [
+      "tabler:arrows-join",
+      "GELB",
+      "Übernahmegewinn"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Aber § 8b KStG",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "soweit Beteiligung der Mutter",
+       "wort": "Beteiligung",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "nicht abziehbar",
+       "wert": "5 %",
+       "farbe": "GELB",
+       "wort": "Fünf",
+       "zs": 130
+      },
+      {
+       "typ": "norm",
+       "text": "§ 12 Abs. 2 S. 2 UmwStG",
+       "wort": "Paragraf"
+      }
+     ],
+     "icon": [
+      "tabler:percentage",
+      "GELB",
+      "Fünf"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "In Zahlen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "5 % von 1 Mio. €",
+       "wert": "50.000 €",
+       "farbe": "GELB",
+       "wort": "fünfzigtausend",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Übernahmeverlust",
+       "wert": "wirkt nicht",
+       "farbe": "ROT",
+       "wort": "Übernahmeverlust",
+       "zs": 100
+      }
+     ],
+     "icon": [
+      "tabler:calculator",
+      "GELB",
+      "hundert"
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "fünfzigtausend",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Übernahme:",
+     "Gewinn fast frei,",
+     "Verlust",
+     "verpufft"
+    ],
+    "woerter": [
+     null,
+     "Gewinn",
+     "Verlust",
+     "verpufft"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "verpufft",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Verschmelzung der Tochter auf die Mutter-GmbH: Ist der Übernahmegewinn steuerfrei? Fast. 🏢\n\n▸ Bei der übernehmenden Körperschaft bleibt der Übernahmegewinn oder -verlust – Unterschied zwischen dem Buchwert der Anteile an der übertragenden Körperschaft und dem Wert der übernommenen Wirtschaftsgüter, abzüglich der Kosten des Vermögensübergangs – außer Ansatz (§ 12 Abs. 2 S. 1 UmwStG).\n▸ Soweit der Gewinn dem Anteil der Übernehmerin an der übertragenden Körperschaft entspricht, ist § 8b KStG anzuwenden (§ 12 Abs. 2 S. 2 UmwStG): 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG).\n▸ Im Beispiel bei 100 % Beteiligung und 1 Mio. € Übernahmegewinn: 50.000 € wirken steuerlich. Ein Übernahmeverlust bleibt dagegen außer Ansatz.\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 12 Abs. 2 S. 1, 2 UmwStG",
+    "§ 8b Abs. 2, 3 S. 1 KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-26",
+   "frage": [
+    "Freibetrag § 16:",
+    "wann ganz weg?"
+   ],
+   "optionen": [
+    "ab 136.000 €",
+    "ab 181.000 €",
+    "ab 45.000 €"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bun 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-26",
+   "titel": [
+    "B: ab 181.000 €"
+   ],
+   "optionen": [
+    "ab 136.000 €",
+    "ab 181.000 €",
+    "ab 45.000 €"
+   ],
+   "richtig": 1,
+   "text": "45.000 € schmelzen um jeden Euro über 136.000 € ab.",
+   "norm": "§ 16 Abs. 4 S. 1, 3 EStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Bun 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater Dots"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "ErbSt-Teil: sauber punkten"
+   ],
+   "unter": "Klausurtechnik + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-5",
+   "titel": [
+    "Der 90-%-Test"
+   ],
+   "norm": "§ 13b Abs. 2 S. 2 ErbStG",
+   "punkte": [
+    [
+     "Verwaltungsvermögen mindestens 90 %: gar keine Verschonung.",
+     "nein",
+     null
+    ],
+    [
+     "Gerechnet vor Schuldenabzug und Finanzmittel-Freibetrag.",
+     "warn",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 4",
+     "haut": "#F1C7A5",
+     "haar": "#5A4636",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 5",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Wohnung verkauft: Gewinn?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Zeitplan",
+    "vorher festlegen"
+   ],
+   "punkte": [
+    [
+     "Minuten je Teil vor dem Start notieren.",
+     "ok",
+     null
+    ],
+    [
+     "Nach jedem Teil kurz abgleichen.",
+     "ok",
+     null
+    ],
+    [
+     "Zu lange hängen? Weiter zum nächsten Teil.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:hourglass",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Dreads 2",
+     "haut": "#6B4226",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-8",
+   "titel": [
+    "Organschaft:",
+    "die Zeitfragen"
+   ],
+   "punkte": [
+    [
+     "Stimmenmehrheit ab Beginn des Wirtschaftsjahres.",
+     "ok",
+     "§ 14 Abs. 1 S. 1 Nr. 1 KStG"
+    ],
+    [
+     "Vertrag auf mindestens fünf Jahre.",
+     "ok",
+     "§ 14 Abs. 1 S. 1 Nr. 3 KStG"
+    ],
+    [
+     "Zurechnung erst ab dem Jahr der Wirksamkeit.",
+     "warn",
+     "§ 14 Abs. 1 S. 2 KStG"
+    ]
+   ],
+   "icon": "tabler:calendar-time",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "U": {
+     "kopf": "Long Bangs",
+     "haut": "#F0C8A8",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "U/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Übernahmegewinn: steuerfrei?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-4-11",
+   "titel": [
+    "Gesellschafter-",
+    "stämme trennen?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Buchwert nur, wenn",
+      null
+     ]
+    ],
+    [
+     [
+      "alle ",
+      null
+     ],
+     [
+      "fünf Jahre",
+      "a"
+     ]
+    ],
+    [
+     [
+      "vor dem ",
+      null
+     ],
+     [
+      "Stichtag",
+      "b"
+     ]
+    ],
+    [
+     [
+      "beteiligt waren.",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 15 Abs. 2 S. 5 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Short 1",
+     "haut": "#C68863",
+     "haar": "#2A1B14",
+     "oberteil": "#C9B8F2",
+     "bart": "Moustache 2",
+     "bueste": "jacket"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

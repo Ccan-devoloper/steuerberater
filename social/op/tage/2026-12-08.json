@@ -1,0 +1,1257 @@
+{
+ "datum": "2026-12-08",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-bew1-8",
+   "themaTitel": "Nießbrauch bewerten: Jahreswert, Deckel des § 16 BewG, Zeitrente",
+   "figuren": {
+    "A": {
+     "name": "Emil",
+     "kopf": "Short 2",
+     "haut": "#EAC09F",
+     "haar": "#B5651D",
+     "oberteil": "#F6D365",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Nießbrauch",
+      "bewerten"
+     ],
+     "norm": "§§ 13 bis 16 BewG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 16 BewG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Jahreswert × Faktor",
+        "Bold",
+        44
+       ],
+       [
+        "232.350 €",
+        "ExtraBold",
+        92
+       ],
+       [
+        "Kapitalwert",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg",
+     "schritte": [
+      [
+       "Nutzung oder Leistung?",
+       "§ 16 BewG",
+       "nur Nutzungen haben einen Deckel"
+      ],
+      [
+       "Jahreswert",
+       "§ 15 BewG",
+       "Reinertrag, Mittelpreis, Durchschnitt"
+      ],
+      [
+       "Deckel",
+       "§ 16 BewG",
+       "Steuerwert geteilt durch 18,6"
+      ],
+      [
+       "Vervielfältiger",
+       "§ 13 Abs. 1 BewG",
+       "Anlage 9a"
+      ]
+     ],
+     "teaser": "Am Ende: § 16 BewG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Tante Gerda wendet ihrem Neffen Emil, 30 Jahre alt, für zehn Jahre den Nießbrauch an ihrem Mietshaus zu.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Grundbesitzwert 558.000 €, Reinertrag 36.000 € im Jahr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wie hoch ist der Kapitalwert?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Emil."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Nutzung oder Leistung?",
+     "punkte": [
+      [
+       "Nießbrauch und Wohnrecht sind Nutzungen eines fremden Wirtschaftsguts.",
+       "ok",
+       "Regular",
+       "§ 16 BewG"
+      ],
+      [
+       "Renten sind Leistungen aus einem Schuldverhältnis: kein Deckel.",
+       "nein",
+       "Regular",
+       null
+      ],
+      [
+       "Zehn Jahre fest: Faktor aus Anlage 9a, höchstens der Wert auf Lebenszeit.",
+       "ok",
+       "Bold",
+       "§ 13 Abs. 1 S. 1, 2 BewG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Also eine Nutzung!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "2 · Jahreswert und Deckel",
+     "normen": [
+      "§§ 15, 16 BewG"
+     ],
+     "zeilen": [
+      [
+       "Reinertrag im Jahr",
+       "36.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Deckel: 558.000 € : 18,6",
+       "30.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Jahreswert",
+       "30.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Der kleinere zählt!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "3 · Kapitalwert",
+     "normen": [
+      "§ 13 Abs. 1 S. 1 BewG, Anlage 9a"
+     ],
+     "zeilen": [
+      [
+       "Jahreswert",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Faktor für 10 Jahre",
+       "7,745",
+       "Regular",
+       null
+      ],
+      [
+       "Kapitalwert",
+       "232.350 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Das ist mein Erwerb."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Variante: Der Reinertrag beträgt nur 24.000 € im Jahr.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Alles andere bleibt gleich.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Greift der Deckel, und wie hoch ist der Kapitalwert?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Deckel oder nicht?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung",
+     "normen": [
+      "§§ 13, 16 BewG"
+     ],
+     "zeilen": [
+      [
+       "Deckel",
+       "30.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Jahreswert = Reinertrag",
+       "24.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "× 7,745 = Kapitalwert",
+       "185.880 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:lacht",
+     "x": 290,
+     "blase": "Unter dem Deckel!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Kapitalwert = Jahreswert × Vervielfältiger",
+      "Nutzungen: Jahreswert höchstens Steuerwert : 18,6",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Nutzung",
+        "a"
+       ],
+       [
+        " oder Leistung?",
+        null
+       ]
+      ],
+      [
+       [
+        "Jahreswert",
+        "b"
+       ],
+       [
+        " ermitteln,",
+        null
+       ]
+      ],
+      [
+       [
+        "Deckel",
+        "c"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "mal ",
+        null
+       ],
+       [
+        "Faktor",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du den Deckel geprüft?",
+     "teaser": "Weiterwischen: § 16 BewG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 13, 16 BewG (Auszug)",
+     "absaetze": [
+      [
+       "§ 13 (1)",
+       [
+        [
+         "Der Kapitalwert von Nutzungen oder Leistungen, die auf bestimmte Zeit beschränkt sind, ist mit dem aus",
+         null
+        ],
+        [
+         "Anlage 9a",
+         "b1"
+        ],
+        [
+         "zu entnehmenden Vielfachen des Jahreswerts anzusetzen. Ist die Dauer des Rechts außerdem durch das Leben einer oder mehrerer Personen bedingt, darf der nach § 14 zu berechnende Kapitalwert",
+         null
+        ],
+        [
+         "nicht überschritten",
+         "r1"
+        ],
+        [
+         "werden.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 16",
+       [
+        [
+         "Bei der Ermittlung des Kapitalwerts der",
+         null
+        ],
+        [
+         "Nutzungen eines Wirtschaftsguts",
+         "g1"
+        ],
+        [
+         "kann der Jahreswert dieser Nutzungen höchstens den Wert betragen, der sich ergibt, wenn der für das genutzte Wirtschaftsgut nach den Vorschriften des Bewertungsgesetzes anzusetzende Wert",
+         null
+        ],
+        [
+         "durch 18,6 geteilt",
+         "gr1"
+        ],
+        [
+         "wird.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Faktor",
+       "b1"
+      ],
+      [
+       "Lebenszeit",
+       "r1"
+      ],
+      [
+       "nur Nutzungen",
+       "g1"
+      ],
+      [
+       "Deckel",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Randnotiz: § 13 Abs. 2 BewG",
+      "Unbestimmte Dauer: 9,3fach"
+     ]
+    }
+   ],
+   "caption": "Nießbrauch bewerten: der Rechenweg für die Erbschaftsteuer-Klausur.\n\n1. Nutzung oder Leistung? Nießbrauch und Wohnrecht sind Nutzungen eines Wirtschaftsguts, Renten sind Leistungen. Nur für Nutzungen gilt der Deckel (§ 16 BewG).\n2. Jahreswert: Geldbezüge mit dem Betrag, Sachbezüge mit üblichen Mittelpreisen, schwankende Erträge mit dem voraussichtlichen Durchschnitt (§ 15 Abs. 2, 3 BewG).\n3. Deckel: höchstens Steuerwert des genutzten Wirtschaftsguts geteilt durch 18,6 (§ 16 BewG).\n4. Vervielfältiger: bei fester Laufzeit aus Anlage 9a, bei zusätzlicher Bindung an ein Leben höchstens der Wert nach § 14 BewG (§ 13 Abs. 1 S. 1, 2 BewG). Unbestimmte Dauer: 9,3fach (§ 13 Abs. 2 BewG).\n\nBeispiel: Reinertrag 36.000 €, Grundbesitzwert 558.000 €. Deckel 558.000 € : 18,6 = 30.000 €. Zehn Jahre: 30.000 € × 7,745 = 232.350 €.\nVariante: Reinertrag 24.000 € liegt unter dem Deckel, 24.000 € × 7,745 = 185.880 €.\n\nZum Schluss: §§ 13, 16 BewG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 13 Abs. 1, 2 BewG",
+    "§ 14 BewG",
+    "§ 15 Abs. 2, 3 BewG",
+    "§ 16 BewG",
+    "Anlage 9a zum BewG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-12",
+   "themaTitel": "Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus?",
+   "figuren": {
+    "A": {
+     "name": "Mira",
+     "kopf": "Bun",
+     "haut": "#F0C8A8",
+     "haar": "#2B1B12",
+     "oberteil": "#B9A7E8",
+     "bueste": "Explaining"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Ausland",
+      "ausblenden?"
+     ],
+     "norm": "§ 49 Abs. 2 EStG",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 49 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:microphone",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung für 10 Minuten",
+     "schritte": [
+      [
+       "Einleitung · 1 Min.",
+       "§ 1 Abs. 4 EStG",
+       "Problem zeigen"
+      ],
+      [
+       "Hauptteil I · 3 Min.",
+       "§ 49 Abs. 2 EStG",
+       "Wortlaut und Zweck"
+      ],
+      [
+       "Hauptteil II · 4 Min.",
+       "§ 49 Abs. 1 Nr. 5 EStG",
+       "Beispiel und Grenzen"
+      ],
+      [
+       "Schluss · 2 Min.",
+       "",
+       "Ergebnis, Ausblick DBA"
+      ]
+     ],
+     "teaser": "Am Ende: § 49 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einleitung: das Problem",
+     "punkte": [
+      [
+       "Beschränkt steuerpflichtig ist nur, wer inländische Einkünfte im Sinne des § 49 hat.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 4 EStG"
+      ],
+      [
+       "Kapitalerträge im Betriebsvermögen sind nach deutschem Recht gewerblich.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 8 EStG"
+      ],
+      [
+       "Ohne Betriebsstätte im Inland ginge Deutschland dann leer aus.",
+       "warn",
+       "Bold",
+       "§ 49 Abs. 1 Nr. 2 Buchst. a EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst das Problem!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil I: die Norm",
+     "punkte": [
+      [
+       "Merkmale im Ausland bleiben außer Betracht, soweit sie eine inländische Einkunft verhindern würden.",
+       "ok",
+       "Bold",
+       "§ 49 Abs. 2 EStG"
+      ],
+      [
+       "Die Einkunftsart folgt dann allein dem Geschehen im Inland.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zweck: Vorrangregeln sollen den Zugriff nicht vereiteln.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 8, § 21 Abs. 3 EStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Wortlaut zitieren"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil II: Beispiel",
+     "punkte": [
+      [
+       "Eine Unternehmerin aus Wien hält Anteile an einer deutschen GmbH im Betriebsvermögen, ohne Betriebsstätte im Inland.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Ausgeblendet wird ihr ausländischer Betrieb.",
+       "ok",
+       "Regular",
+       "§ 49 Abs. 2 EStG"
+      ],
+      [
+       "Die Dividende ist Kapitalertrag, die GmbH hat ihren Sitz im Inland.",
+       "ok",
+       "Bold",
+       "§ 49 Abs. 1 Nr. 5 Buchst. a EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Ein Fall genügt."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Hauptteil II: Grenzen",
+     "punkte": [
+      [
+       "Ausgeblendet wird nur, was im Ausland liegt.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Erfüllt schon die echte Einkunftsart einen Tatbestand, etwa mit Betriebsstätte im Inland, bleibt es dabei.",
+       "ok",
+       "Regular",
+       "§ 49 Abs. 1 Nr. 2 Buchst. a EStG"
+      ],
+      [
+       "Danach: Steuerabzug wirkt grundsätzlich abgeltend.",
+       "ok",
+       "Bold",
+       "§ 50 Abs. 2 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:skeptisch",
+     "x": 290,
+     "blase": "Nicht überdehnen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Schluss",
+     "punkte": [
+      [
+       "Ergebnis in einem Satz: Was im Ausland liegt, zählt nicht, wenn es die Inlandsbesteuerung verhindern würde.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Ausblick: Ein DBA kann das deutsche Besteuerungsrecht danach noch begrenzen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Rund abschließen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Gilt das auch für Körperschaften? Ja, das Einkommen wird nach dem EStG ermittelt.",
+       "warn",
+       "Regular",
+       "§ 8 Abs. 1 KStG"
+      ],
+      [
+       "Verkauf der GmbH-Anteile aus dem ausländischen Betrieb? Erfasst, bei mindestens 1 %.",
+       "warn",
+       "Regular",
+       "§ 49 Abs. 1 Nr. 2 Buchst. e EStG"
+      ],
+      [
+       "Abgeltung? Grundsätzlich ja.",
+       "warn",
+       "Regular",
+       "§ 50 Abs. 2 S. 1 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Kurz antworten!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Auslandsmerkmal stört? Ausblenden.",
+      "Einkunftsart nur nach dem Geschehen im Inland",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Problem",
+        "a"
+       ],
+       [
+        " zeigen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Norm",
+        "b"
+       ],
+       [
+        " mit Zweck,",
+        null
+       ]
+      ],
+      [
+       [
+        "Beispiel",
+        "c"
+       ],
+       [
+        " mit Grenze,",
+        null
+       ]
+      ],
+      [
+       [
+        "Schluss mit ",
+        null
+       ],
+       [
+        "DBA",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Welche Nachfrage käme bei dir?",
+     "teaser": "Weiterwischen: § 49 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 49 EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Inländische Einkünfte im Sinne der beschränkten Einkommensteuerpflicht (§ 1 Absatz 4) sind […] 5. Einkünfte aus Kapitalvermögen im Sinne des a) § 20 Absatz 1 Nummer 1, 2, 4, 6 und 9, wenn aa)",
+         null
+        ],
+        [
+         "der Schuldner Wohnsitz, Geschäftsleitung oder Sitz im Inland hat,",
+         "b1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Im Ausland gegebene Besteuerungsmerkmale",
+         "g1"
+        ],
+        [
+         "bleiben",
+         null
+        ],
+        [
+         "außer Betracht,",
+         "r1"
+        ],
+        [
+         "soweit bei ihrer Berücksichtigung inländische Einkünfte im Sinne des Absatzes 1",
+         null
+        ],
+        [
+         "nicht angenommen werden könnten.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Inlandsbezug",
+       "b1"
+      ],
+      [
+       "nur Ausland",
+       "g1"
+      ],
+      [
+       "ausblenden",
+       "r1"
+      ],
+      [
+       "Zweck",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Für den Vortrag:",
+      "Absatz 2 wörtlich vorlesen, dann das Beispiel"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Wann blendet § 49 Abs. 2 EStG Auslandsmerkmale aus? Gliederung für 10 Minuten.\n\nEinleitung: Beschränkt Steuerpflichtige werden nur mit inländischen Einkünften im Sinne des § 49 EStG erfasst (§ 1 Abs. 4 EStG). Vorrangregeln wie § 20 Abs. 8 EStG machen Kapitalerträge im Betriebsvermögen zu gewerblichen Einkünften; ohne inländische Betriebsstätte (§ 49 Abs. 1 Nr. 2 Buchst. a EStG) liefe die Besteuerung leer.\nHauptteil I: Im Ausland gegebene Besteuerungsmerkmale bleiben außer Betracht, soweit bei ihrer Berücksichtigung keine inländischen Einkünfte angenommen werden könnten (§ 49 Abs. 2 EStG). Zweck: Subsidiaritätsregeln (§ 20 Abs. 8, § 21 Abs. 3 EStG) sollen den Zugriff nicht verhindern.\nHauptteil II: Dividende einer deutschen GmbH an eine ausländische Unternehmerin, Anteile im ausländischen Betriebsvermögen: Kapitaleinkünfte nach § 49 Abs. 1 Nr. 5 Buchst. a EStG. Grenze: Inländische Merkmale werden nie ausgeblendet; ist schon ein Tatbestand der tatsächlichen Einkunftsart erfüllt, bleibt es dabei.\nSchluss: Steuerabzug wirkt grundsätzlich abgeltend (§ 50 Abs. 2 S. 1 EStG); ein DBA kann das Besteuerungsrecht begrenzen.\n\nTypische Nachfragen: Körperschaften (§ 8 Abs. 1 KStG), Anteilsveräußerung (§ 49 Abs. 1 Nr. 2 Buchst. e EStG), Abgeltung.\n\nZum Schluss: § 49 EStG zum Markieren. Speichern für die Mündliche 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 Abs. 4 EStG",
+    "§ 20 Abs. 8 EStG",
+    "§ 21 Abs. 3 EStG",
+    "§ 49 Abs. 1 Nr. 2 Buchst. a, e, Nr. 5 Buchst. a, Abs. 2 EStG",
+    "§ 50 Abs. 2 S. 1 EStG",
+    "§ 8 Abs. 1 KStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-modul-persg-3",
+   "themaTitel": "Mitunternehmerstellung: Risiko und Initiative",
+   "figuren": {
+    "A": {
+     "name": "Yusuf",
+     "kopf": "Short 3",
+     "haut": "#A8704B",
+     "haar": "#141414",
+     "oberteil": "#F4A3B5",
+     "bart": "Goatee 2",
+     "bueste": "Striped Pocket Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Risiko und Initiative: Nur wer beides hat, ist Mitunternehmer. Fehlt eines ganz, bist du keiner."
+    },
+    {
+     "id": "s1",
+     "text": "Risiko heißt: Du trägst Gewinn und Verlust und bist an den stillen Reserven beteiligt."
+    },
+    {
+     "id": "s2",
+     "text": "Initiative heißt: Du redest mit. Mindestens Stimm- und Kontrollrechte wie ein Kommanditist."
+    },
+    {
+     "id": "s3",
+     "text": "Schwaches Risiko kann starke Initiative ausgleichen. Nur Gewinnanteil ohne jede Mitsprache? Dann stiller Gesellschafter mit Kapitaleinkünften."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Risiko und Initiative, beide müssen da sein."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Mitunternehmer",
+     "oder nicht?"
+    ],
+    "pille": "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "figur": "A/skeptisch",
+    "name": "Yusuf",
+    "icons": [
+     [
+      "tabler:users",
+      "GELB",
+      "Risiko"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Risiko",
+      "wert": "trägt mit",
+      "farbe": "GELB",
+      "wort": "Risiko"
+     },
+     {
+      "label": "Initiative",
+      "wert": "redet mit",
+      "farbe": "TUERKIS",
+      "wort": "Initiative"
+     }
+    ],
+    "stempel": {
+     "text": "beide nötig!",
+     "wort": "Fehlt"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Mitunternehmerrisiko",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Gewinn und Verlust",
+       "wort": "Gewinn",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "stille Reserven",
+       "wort": "stillen",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Risiko",
+       "wert": "trägt mit",
+       "farbe": "GELB",
+       "wort": "beteiligt",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "H 15.8 Abs. 1 EStH",
+       "wort": "beteiligt"
+      }
+     ],
+     "icon": [
+      "tabler:coins",
+      "GELB",
+      "Gewinn"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Mitunternehmerinitiative",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "redet mit",
+       "unter": "Stimm- und Kontrollrechte",
+       "wort": "redest",
+       "farbe": "WEISS",
+       "ls": 72
+      },
+      {
+       "typ": "block",
+       "label": "mindestens",
+       "wert": "wie Kommanditist",
+       "farbe": "TUERKIS",
+       "wort": "Kommanditist",
+       "zs": 84
+      },
+      {
+       "typ": "norm",
+       "text": "§ 166 HGB",
+       "wort": "Kontrollrechte"
+      }
+     ],
+     "icon": [
+      "tabler:message-circle",
+      "GELB",
+      "redest"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Gesamtbild",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "ausgleichen möglich",
+       "unter": "wenig Risiko, viel Initiative",
+       "wort": "Schwaches",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "block",
+       "label": "ohne Mitsprache",
+       "wert": "stiller Gesellschafter",
+       "farbe": "ROT",
+       "wort": "Mitsprache",
+       "zs": 78,
+       "neu": true
+      },
+      {
+       "typ": "norm",
+       "text": "§ 20 Abs. 1 Nr. 4 EStG",
+       "wort": "Kapitaleinkünften"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Mitsprache",
+       0.9
+      ]
+     ],
+     "icon": [
+      "tabler:eye-off",
+      "GELB",
+      "Nur"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Risiko",
+     "und Initiative:",
+     "beide müssen",
+     "da sein"
+    ],
+    "woerter": [
+     null,
+     "Initiative",
+     "beide",
+     "da"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "sein",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Mitunternehmer oder nicht? Risiko und Initiative im Gegensatz 👥\n\n▸ Mitunternehmer im Sinne des § 15 Abs. 1 S. 1 Nr. 2 EStG ist, wer Mitunternehmerrisiko trägt und Mitunternehmerinitiative entfalten kann. Beide Merkmale müssen vorliegen, sie dürfen unterschiedlich stark ausgeprägt sein (H 15.8 Abs. 1 EStH).\n▸ Risiko: Beteiligung an Gewinn und Verlust und an den stillen Reserven einschließlich Geschäftswert.\n▸ Initiative: Teilhabe an unternehmerischen Entscheidungen, mindestens Stimm- und Kontrollrechte, die denen eines Kommanditisten angenähert sind (§ 166 HGB).\n▸ Nur Gewinnbeteiligung ohne Mitsprache: typisch stiller Gesellschafter mit Einkünften aus Kapitalvermögen (§ 20 Abs. 1 Nr. 4 EStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "H 15.8 Abs. 1 EStH",
+    "§ 166 HGB",
+    "§ 20 Abs. 1 Nr. 4 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-3",
+   "frage": [
+    "Grundstück an",
+    "die eigene KG:",
+    "wo bilanziert?"
+   ],
+   "optionen": [
+    "In der Bilanz der KG",
+    "In einer Sonderbilanz",
+    "Gar nicht, privat"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-quiz-k3-3",
+   "titel": [
+    "B: Sonderbilanz"
+   ],
+   "optionen": [
+    "In der Bilanz der KG",
+    "In einer Sonderbilanz",
+    "Gar nicht, privat"
+   ],
+   "richtig": 1,
+   "text": "Es dient der KG unmittelbar: Sonderbetriebsvermögen I.",
+   "norm": "R 4.2 Abs. 2 S. 2 EStR",
+   "figuren": {
+    "Q": {
+     "kopf": "Long Afro",
+     "haut": "#6B4226",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Nießbrauch bewerten"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-514",
+   "titel": [
+    "Welche Schulden",
+    "zieht der Erbe ab?"
+   ],
+   "norm": "§ 10 Abs. 5 ErbStG",
+   "punkte": [
+    [
+     "Schulden des Erblassers, etwa offene Rechnungen.",
+     "ok",
+     "§ 10 Abs. 5 Nr. 1 ErbStG"
+    ],
+    [
+     "Vermächtnisse, Auflagen, geltend gemachte Pflichtteile.",
+     "ok",
+     "§ 10 Abs. 5 Nr. 2 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Gray Bun",
+     "haut": "#E8B98F",
+     "oberteil": "#C96B5A",
+     "brille": "Glasses 4",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Kurzvortrag § 49 Abs. 2"
+   ],
+   "unter": "Gliederung + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Sachverhalt",
+    "richtig lesen"
+   ],
+   "punkte": [
+    [
+     "Zuerst die Aufgabe lesen.",
+     "ok",
+     null
+    ],
+    [
+     "Daten und Beträge markieren.",
+     "ok",
+     null
+    ],
+    [
+     "Jeden Satz verwerten.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:pencil",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "K": {
+     "kopf": "Medium 3",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#7DD3C0"
+    }
+   },
+   "figur": "K/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": "gewst-aufb-gewst-ks-04",
+   "titel": [
+    "Hinzurechnung:",
+    "erst gewichten"
+   ],
+   "punkte": [
+    [
+     "Zinsen voll, Immobilienmiete halb.",
+     "ok",
+     "§ 8 Nr. 1 Buchst. a, e GewStG"
+    ],
+    [
+     "Summe minus 200.000 €, davon ein Viertel.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:calculator",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Dreads 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Mitunternehmer oder nicht?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-10",
+   "titel": [
+    "Betrieb",
+    "einbringen"
+   ],
+   "zeilen": [
+    [
+     [
+      "Jede ",
+      null
+     ],
+     [
+      "funktional",
+      "a"
+     ]
+    ],
+    [
+     [
+      "wesentliche",
+      "a"
+     ],
+     [
+      " Grundlage",
+      null
+     ]
+    ],
+    [
+     [
+      "muss ",
+      null
+     ],
+     [
+      "mit",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 20 Abs. 1 UmwStG",
+   "figuren": {
+    "M": {
+     "kopf": "Long Bangs",
+     "haut": "#F1D2BD",
+     "haar": "#5A3A22",
+     "oberteil": "#F4A3B5",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

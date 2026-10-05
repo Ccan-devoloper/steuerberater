@@ -67,12 +67,14 @@ test("Tagesplan hält die fünf sichtbaren Feed-Kategorien auch über Wochenende
   const sonntag = tagesplan("2026-09-20", { veroeffentlicht: [], fachZaehler: {} }, pool, null);
   assert.equal(feedKategorie(sonntag.beitraege[0]), 4, "Wochenrückblick hat keine eigene Kategorie");
 
-  const montag = tagesplan("2026-09-21", { veroeffentlicht: [], fachZaehler: {} }, pool, null);
-  assert.equal(montag.beitraege[0].format, "klausurtechnik");
-  assert.ok([1, 2, 3].includes(feedKategorie(montag.beitraege[0])), "Fachgebundene Klausurtechnik hat keinen Klausurtag");
+  /* Endspurt-Plan seit 03.10.2026: Klausurtechnik dienstags und freitags an erster Stelle (REDAKTION.md). */
+  const dienstag = tagesplan("2026-09-25", { veroeffentlicht: [], fachZaehler: {} }, pool, null);
+  const technik = dienstag.beitraege.find((b) => b.format === "klausurtechnik");
+  assert.ok(technik, "Endspurt-Freitag ohne Klausurtechnik");
+  assert.ok([1, 2, 3].includes(feedKategorie(technik)), "Fachgebundene Klausurtechnik hat keinen Klausurtag");
   assert.equal(
-    feedKategorie(montag.beitraege[0]),
-    montag.beitraege[0].thema.klausur,
+    feedKategorie(technik),
+    technik.thema.klausur,
     "Fachgebundene Klausurtechnik weicht von ihrem Themen-Klausurtag ab",
   );
 });

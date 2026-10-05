@@ -1,0 +1,1146 @@
+{
+ "datum": "2026-10-10",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "klausurtechnik",
+   "klausur": 2,
+   "fach": "gewst",
+   "fachLabel": "Gewerbesteuer",
+   "themaId": null,
+   "themaTitel": "Der Gewerbesteuer-Teil: Punkte sicher holen",
+   "figuren": {
+    "A": {
+     "name": "Rania",
+     "kopf": "Hijab",
+     "haut": "#B97A56",
+     "hut": "#9AD48F",
+     "oberteil": "#C9B8F2",
+     "bueste": "Device"
+    },
+    "B": {
+     "name": "Mats",
+     "kopf": "Short 5",
+     "haut": "#F2CDB0",
+     "haar": "#C9A15A",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 3",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Klausurtechnik",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "GewSt-Teil:",
+      "Punkte sichern"
+     ],
+     "norm": "§§ 7 bis 11 GewStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 7 GewStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:clock-check",
+      "farbe": "GELB"
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Aufbau in 4 Schritten",
+     "schritte": [
+      [
+       "Gewinn übernehmen",
+       "§ 7 S. 1 GewStG",
+       "aus dem ESt- oder KSt-Teil"
+      ],
+      [
+       "Korrekturen als Tabelle",
+       "§§ 8, 9 GewStG",
+       "Posten, Norm, Betrag"
+      ],
+      [
+       "Verlust, dann Freibetrag",
+       "§ 10a, § 11 Abs. 1 GewStG",
+       "Reihenfolge einhalten"
+      ],
+      [
+       "Messbetrag",
+       "§ 11 Abs. 2 GewStG",
+       "Hebesatz nur, wenn gefragt"
+      ]
+     ],
+     "teaser": "Am Ende: § 7 GewStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zeit einteilen",
+     "punkte": [
+      [
+       "Der Teil baut auf dem Gewinn auf: nicht ans Ende schieben, wenn er viele Punkte bringt.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn fehlt dir? Mit einem plausiblen Wert weiterrechnen und das kurz notieren.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Je Hinzurechnung ein Satz Begründung, keine Abhandlung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Weiterrechnen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Sauber darstellen",
+     "punkte": [
+      [
+       "Jede Zeile: Posten, Norm, Vorzeichen, Betrag.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Bei Finanzierungsanteilen erst gewichten, dann Freibetrag, als eigene Zwischensumme.",
+       "ok",
+       "Regular",
+       "§ 8 Nr. 1 GewStG"
+      ],
+      [
+       "Auch Posten ohne Korrektur kurz nennen und begründen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:redet",
+     "x": 290,
+     "blase": "Tabelle spart Zeit."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Drei Punktefresser",
+     "punkte": [
+      [
+       "Freibetrag 24.500 € bei der GmbH angesetzt.",
+       "nein",
+       "Regular",
+       "§ 11 Abs. 1 S. 3 Nr. 1 GewStG"
+      ],
+      [
+       "Gewerbeverlust vor den Hinzurechnungen abgezogen.",
+       "nein",
+       "Regular",
+       "§ 10a S. 1 GewStG"
+      ],
+      [
+       "Gewinn eines anderen Jahres: Erhebungszeitraum ist das Kalenderjahr.",
+       "warn",
+       "Regular",
+       "§ 14 S. 2 GewStG"
+      ]
+     ],
+     "figur": "B:sorge",
+     "x": 790,
+     "blase": "Kenne ich!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Gewinn · Korrekturen · Verlust · Messbetrag",
+      "Tabelle statt Fließtext",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Gewinn",
+        "a"
+       ],
+       [
+        " übernehmen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Tabelle",
+        "b"
+       ],
+       [
+        " mit Norm,",
+        null
+       ]
+      ],
+      [
+       [
+        "Verlust",
+        "c"
+       ],
+       [
+        " danach,",
+        null
+       ]
+      ],
+      [
+       [
+        "Freibetrag",
+        "d"
+       ],
+       [
+        " prüfen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wie viel Zeit planst du dafür ein?",
+     "teaser": "Weiterwischen: § 7 GewStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 7 GewStG Gewerbeertrag (Auszug)",
+     "absaetze": [
+      [
+       null,
+       [
+        [
+         "Gewerbeertrag ist der",
+         null
+        ],
+        [
+         "nach den Vorschriften des Einkommensteuergesetzes oder des Körperschaftsteuergesetzes zu ermittelnde Gewinn",
+         "g1"
+        ],
+        [
+         "aus dem Gewerbebetrieb, der bei der Ermittlung des Einkommens für den",
+         null
+        ],
+        [
+         "dem Erhebungszeitraum (§ 14) entsprechenden Veranlagungszeitraum",
+         "b1"
+        ],
+        [
+         "zu berücksichtigen ist,",
+         null
+        ],
+        [
+         "vermehrt und vermindert um die in den §§ 8 und 9 bezeichneten Beträge.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Start: Gewinn",
+       "g1"
+      ],
+      [
+       "richtiges Jahr",
+       "b1"
+      ],
+      [
+       "dann Tabelle",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Danach: § 10a, § 11 GewStG",
+      "erst Verlust, dann Freibetrag und Messzahl"
+     ]
+    }
+   ],
+   "caption": "Klausurtechnik für den Gewerbesteuer-Teil der Ertragsteuerklausur: so holst du die Punkte sicher.\n\n▸ Aufbau: Gewinn nach EStG oder KStG übernehmen, um Hinzurechnungen und Kürzungen korrigieren (§ 7 S. 1, §§ 8, 9 GewStG), dann Gewerbeverlust (§ 10a GewStG), Freibetrag und Messbetrag (§ 11 Abs. 1, 2 GewStG).\n▸ Zeit: Fehlt dir der Gewinn aus dem ESt- oder KSt-Teil, rechne mit einem plausiblen Wert weiter und notiere das.\n▸ Darstellung: Tabelle mit Posten, Norm, Vorzeichen, Betrag. Bei § 8 Nr. 1 GewStG erst gewichten, dann Freibetrag abziehen.\n▸ Punktefresser: Freibetrag von 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG); Gewerbeverlust erst nach Hinzurechnungen und Kürzungen (§ 10a S. 1 GewStG); Erhebungszeitraum ist das Kalenderjahr (§ 14 S. 2 GewStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+   ],
+   "quellen": [
+    "§ 7 S. 1 GewStG",
+    "§§ 8, 9 GewStG",
+    "§ 10a S. 1 GewStG",
+    "§ 11 Abs. 1 S. 3 Nr. 1, Abs. 2 GewStG",
+    "§ 14 S. 2 GewStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "rechenweg",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-2-12",
+   "themaTitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+   "figuren": {
+    "A": {
+     "name": "Svea",
+     "kopf": "Long Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#D8B26A",
+     "oberteil": "#8DB3F2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "KG-Anteil in",
+      "die GmbH"
+     ],
+     "norm": "§ 20 Abs. 1 UmwStG",
+     "unter": "in 4 Schritten",
+     "teaser": "+ Markier-Guide § 20 + UmwStE",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Buchwert",
+        "Bold",
+        44
+       ],
+       [
+        "500.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "Gewinn?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg",
+     "schritte": [
+      [
+       "Umfang bestimmen",
+       "§ 20 Abs. 1 UmwStG",
+       "Gesellschaftsanteil plus Sonderbetriebsvermögen"
+      ],
+      [
+       "Wertansatz wählen",
+       "§ 20 Abs. 2 S. 2 UmwStG",
+       "Buchwert auf Antrag der GmbH"
+      ],
+      [
+       "Veräußerungspreis",
+       "§ 20 Abs. 3 S. 1 UmwStG",
+       "= Ansatz bei der GmbH"
+      ],
+      [
+       "Gewinn und Anschaffungskosten",
+       "§ 20 Abs. 3 S. 1 UmwStG",
+       "für die neuen Anteile"
+      ]
+     ],
+     "teaser": "Am Ende: § 20 + UmwStE markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Svea ist Kommanditistin einer Holzbau-KG, Kapitalkonto 300.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ihre Lagerhalle nutzt die KG: Buchwert 200.000 €, gemeiner Wert 450.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Sie bringt Anteil und Halle in eine GmbH ein.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "extra": [
+      "Jetzt du: Gewinn bei Buchwert?",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Was kostet das?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Die Lösung",
+     "normen": [
+      "§ 20 Abs. 2 S. 2, Abs. 3 S. 1 UmwStG"
+     ],
+     "zeilen": [
+      [
+       "Kapitalkonto KG",
+       "300.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "+ Halle (Sonderbetrieb)",
+       "200.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= Buchwert Anteil",
+       "500.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Ansatz GmbH = Preis",
+       "500.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Einbringungsgewinn",
+       "0 €",
+       "ExtraBold",
+       "GRUEN"
+      ],
+      [
+       "AK neue Anteile",
+       "500.000 €",
+       "Bold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wer stellt den Antrag?",
+     "punkte": [
+      [
+       "Die übernehmende GmbH, nicht Svea und nicht die KG.",
+       "warn",
+       "Bold",
+       "§ 20 Abs. 2 S. 2 UmwStG"
+      ],
+      [
+       "Spätestens mit der ersten steuerlichen Schlussbilanz beim Finanzamt der GmbH.",
+       "ok",
+       "Regular",
+       "§ 20 Abs. 2 S. 3 UmwStG"
+      ],
+      [
+       "Ohne Antrag: gemeiner Wert, stille Reserven werden aufgedeckt.",
+       "nein",
+       "Regular",
+       "§ 20 Abs. 2 S. 1 UmwStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Frist beachten."
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Und ohne die Halle?",
+     "punkte": [
+      [
+       "Behält Svea die Halle zurück, fehlt eine funktional wesentliche Betriebsgrundlage.",
+       "nein",
+       "Bold",
+       "UmwStE vom 02.01.2025, Rn. 20.06, 20.10"
+      ],
+      [
+       "Dann liegt kein begünstigter Mitunternehmeranteil vor: kein Buchwertantrag.",
+       "nein",
+       "Regular",
+       "§ 20 Abs. 1 UmwStG"
+      ],
+      [
+       "Beim Teilanteil muss das wesentliche Sonderbetriebsvermögen mindestens quotal mit.",
+       "warn",
+       "Regular",
+       "UmwStE Rn. 20.11"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Die Halle muss mit?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Buchwert 300.000 € + 200.000 € = 500.000 €",
+      "Gewinn 0 € · AK 500.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Anteil",
+        "a"
+       ],
+       [
+        " plus",
+        null
+       ]
+      ],
+      [
+       [
+        "Sonderbetrieb",
+        "b"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "Antrag",
+        "c"
+       ],
+       [
+        " stellt die GmbH,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ansatz",
+        "d"
+       ],
+       [
+        " = Preis = AK.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Halle vergessen?",
+     "teaser": "Weiterwischen: § 20 + UmwStE markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 20 UmwStG (Auszug)",
+     "absaetze": [
+      [
+       1,
+       [
+        [
+         "Wird ein Betrieb oder Teilbetrieb oder ein",
+         null
+        ],
+        [
+         "Mitunternehmeranteil",
+         "g1"
+        ],
+        [
+         "in eine Kapitalgesellschaft oder eine Genossenschaft (übernehmende Gesellschaft) eingebracht und erhält der Einbringende dafür neue Anteile an der Gesellschaft (Sacheinlage), […]",
+         null
+        ]
+       ]
+      ],
+      [
+       2,
+       [
+        [
+         "[…] Abweichend von Satz 1 kann das übernommene Betriebsvermögen",
+         null
+        ],
+        [
+         "auf Antrag einheitlich mit dem Buchwert",
+         "b1"
+        ],
+        [
+         "oder einem höheren Wert […] angesetzt werden, […]",
+         null
+        ]
+       ]
+      ],
+      [
+       3,
+       [
+        [
+         "Der Wert, mit dem die übernehmende Gesellschaft das eingebrachte Betriebsvermögen ansetzt,",
+         null
+        ],
+        [
+         "gilt für den Einbringenden als Veräußerungspreis und als Anschaffungskosten der Gesellschaftsanteile.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "inkl. SBV",
+       "g1"
+      ],
+      [
+       "Antrag: GmbH",
+       "b1"
+      ],
+      [
+       "Wertverknüpfung",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Antragsfrist: § 20 Abs. 2 S. 3 UmwStG",
+      "bis zur ersten steuerlichen Schlussbilanz"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "UmwStE vom 02.01.2025 (Auszug)",
+     "absaetze": [
+      [
+       "Rn. 20.06",
+       [
+        [
+         "[…] Die Einbringung eines Betriebs i. S. v. § 20 UmwStG liegt nur vor, wenn",
+         null
+        ],
+        [
+         "sämtliche Wirtschaftsgüter, die zu den funktional wesentlichen Betriebsgrundlagen des Betriebs gehören,",
+         "g1"
+        ],
+        [
+         "auf die übernehmende Gesellschaft übertragen werden; […]",
+         null
+        ],
+        [
+         "Es genügt nicht,",
+         "r1"
+        ],
+        [
+         "der Kapitalgesellschaft diese Wirtschaftsgüter nur zur Nutzung zu überlassen. Dies gilt auch für solche dem Betrieb oder Teilbetrieb dienenden Wirtschaftsgüter, die zum",
+         null
+        ],
+        [
+         "Sonderbetriebsvermögen",
+         "b1"
+        ],
+        [
+         "eines Gesellschafters gehören. […]",
+         null
+        ]
+       ]
+      ],
+      [
+       "Rn. 20.10",
+       [
+        [
+         "Die Grundsätze der vorstehenden Rn. 20.05 – 20.09 gelten",
+         null
+        ],
+        [
+         "sinngemäß auch für die Einbringung von Mitunternehmeranteilen.",
+         "gr1"
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "alle wesentlichen",
+       "g1"
+      ],
+      [
+       "Vermieten reicht nicht",
+       "r1"
+      ],
+      [
+       "die Halle!",
+       "b1"
+      ],
+      [
+       "auch KG-Anteil",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Halle zurück: UmwStE Rn. 20.07",
+      "kein § 20, stille Reserven aufdecken"
+     ]
+    }
+   ],
+   "caption": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein? Der Rechenweg nach § 20 UmwStG.\n\n▸ Einbringungsgegenstand ist der Mitunternehmeranteil gegen neue Anteile (§ 20 Abs. 1 UmwStG). Dazu gehört das Sonderbetriebsvermögen; funktional wesentliches Sonderbetriebsvermögen muss mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06, 20.10); bleibt es zurück, liegt keine begünstigte Einbringung vor, die stillen Reserven sind aufzudecken (Rn. 20.07). Bei einem Teil des Anteils muss das funktional wesentliche Sonderbetriebsvermögen mindestens im selben Verhältnis mit übergehen (UmwStE Rn. 20.11).\n▸ Grundsätzlich gemeiner Wert (§ 20 Abs. 2 S. 1 UmwStG); auf Antrag der übernehmenden Gesellschaft Buchwert oder Zwischenwert, wenn die Voraussetzungen des § 20 Abs. 2 S. 2 Nr. 1–4 UmwStG erfüllt sind. Der Antrag muss beim Finanzamt der GmbH eingehen, bevor sie ihre erste steuerliche Schlussbilanz abgibt (§ 20 Abs. 2 S. 3 UmwStG).\n▸ Der Wert, den die GmbH ansetzt, ist für die Einbringende zugleich Veräußerungspreis und Anschaffungskosten ihrer neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG).\n▸ Beispiel: Kapitalkonto 300.000 € + Halle im Sonderbetriebsvermögen 200.000 € = Buchwert 500.000 €; Einbringungsgewinn 0 €, Anschaffungskosten der GmbH-Anteile 500.000 €.\n\nZum Schluss: § 20 UmwStG und UmwStE Rn. 20.06, 20.10 zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 20 Abs. 1, 2, 3 UmwStG",
+    "UmwStE vom 02.01.2025, Rn. 20.06, 20.07, 20.10, 20.11"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-1",
+   "themaTitel": "Unternehmer (§ 2 Abs. 1 UStG)",
+   "figuren": {
+    "A": {
+     "name": "Femi",
+     "kopf": "Flat Top Long",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Hoodie"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Ohne Gewinnabsicht kein Unternehmer? Falsch. Im Umsatzsteuerrecht reicht die Absicht, Einnahmen zu erzielen."
+    },
+    {
+     "id": "s1",
+     "text": "Unternehmer ist, wer selbständig und nachhaltig eine gewerbliche oder berufliche Tätigkeit ausübt."
+    },
+    {
+     "id": "s2",
+     "text": "Das Einkommensteuerrecht verlangt dagegen Gewinnerzielungsabsicht. Fehlt sie, ist es Liebhaberei."
+    },
+    {
+     "id": "s3",
+     "text": "Darum kann ein Verein Unternehmer sein, auch wenn er nie Gewinn macht."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Umsatzsteuer fragt nach Einnahmen, nicht nach Gewinn."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Ohne Gewinn",
+     "kein Unternehmer?"
+    ],
+    "pille": "§ 2 Abs. 1 UStG",
+    "figur": "A/skeptisch",
+    "name": "Femi",
+    "icons": [
+     [
+      "tabler:receipt-tax",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Einnahmeabsicht reicht",
+     "wort": "Einnahmen",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Umsatzsteuer",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "selbständig",
+       "wort": "selbständig",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "pille",
+       "text": "nachhaltig",
+       "wort": "nachhaltig",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Ziel",
+       "wert": "Einnahmen",
+       "farbe": "GRUEN",
+       "wort": "Tätigkeit",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 2 Abs. 1 S. 1, 3 UStG",
+       "wort": "gewerbliche"
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Unternehmer"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Einkommensteuer",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Ziel",
+       "wert": "Gewinn",
+       "farbe": "GELB",
+       "wort": "Gewinnerzielungsabsicht",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "sonst Liebhaberei",
+       "wort": "Liebhaberei",
+       "farbe": "ROT"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 15 Abs. 2 S. 1 EStG",
+       "wort": "verlangt"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Beispiel Verein",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Verein ohne Gewinn",
+       "wort": "Verein",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Umsatzsteuer",
+       "wert": "Unternehmer",
+       "farbe": "GRUEN",
+       "wort": "Unternehmer",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 2 Abs. 1 S. 3 UStG",
+       "wort": "Gewinn"
+      }
+     ],
+     "icon": [
+      "tabler:users-group",
+      "GELB",
+      "Verein"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Umsatzsteuer:",
+     "Einnahmen zählen",
+     "Einkommensteuer:",
+     "Gewinn zählt"
+    ],
+    "woerter": [
+     null,
+     "Einnahmen",
+     null,
+     "Gewinn"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "Gewinn",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Unternehmer im Umsatzsteuerrecht: Gewinnabsicht? Nicht nötig.\n\n▸ Unternehmer ist, wer eine gewerbliche oder berufliche Tätigkeit selbstständig ausübt (§ 2 Abs. 1 S. 1 UStG).\n▸ Gewerblich oder beruflich ist jede nachhaltige Tätigkeit zur Erzielung von Einnahmen, auch wenn die Absicht, Gewinn zu erzielen, fehlt (§ 2 Abs. 1 S. 3 UStG).\n▸ Gegensatz Einkommensteuer: Ein Gewerbebetrieb setzt Gewinnerzielungsabsicht voraus (§ 15 Abs. 2 S. 1 EStG); fehlt sie, liegt Liebhaberei vor.\n▸ Deshalb kann etwa ein Verein umsatzsteuerlich Unternehmer sein, auch ohne Gewinn.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 2 Abs. 1 S. 1, 3 UStG",
+    "§ 15 Abs. 2 S. 1 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-1",
+   "frage": [
+    "Bewegte Lieferung:",
+    "Wo ist der Ort?"
+   ],
+   "optionen": [
+    "Wo die Beförderung beginnt",
+    "Wo die Beförderung endet",
+    "Am Sitz des Abnehmers"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Bun",
+     "haut": "#D9A27C",
+     "haar": "#3B2418",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-1",
+   "titel": [
+    "A: am Beginn",
+    "der Beförderung"
+   ],
+   "optionen": [
+    "Wo die Beförderung beginnt",
+    "Wo die Beförderung endet",
+    "Am Sitz des Abnehmers"
+   ],
+   "richtig": 0,
+   "text": "Ort ist, wo die Beförderung oder Versendung zum Abnehmer beginnt.",
+   "norm": "§ 3 Abs. 6 S. 1 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Bun",
+     "haut": "#D9A27C",
+     "haar": "#3B2418",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee Arms Crossed"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "GewSt-Teil: Punkte sichern"
+   ],
+   "unter": "Klausurtechnik · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-3-05",
+   "titel": [
+    "Gewöhnlicher",
+    "Aufenthalt"
+   ],
+   "norm": "§ 9 AO",
+   "punkte": [
+    [
+     "Mehr als sechs Monate am Stück: ab dem ersten Tag.",
+     "ok",
+     "§ 9 S. 2 AO"
+    ],
+    [
+     "Nur Besuch, Erholung, Kur: bis ein Jahr unschädlich.",
+     "warn",
+     "§ 9 S. 3 AO"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Medium 1",
+     "haut": "#E8B98F",
+     "haar": "#6B3E26",
+     "oberteil": "#9AD48F",
+     "bueste": "Sporty Tee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b2",
+   "titel": [
+    "KG-Anteil in die GmbH"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Lernplan:",
+    "rückwärts planen"
+   ],
+   "punkte": [
+    [
+     "Vom Prüfungstermin aus zurückrechnen",
+     "ok",
+     null
+    ],
+    [
+     "Regelmäßig Übungsklausuren unter Zeit",
+     "ok",
+     null
+    ],
+    [
+     "Nach jeder Klausur die Fehlerliste",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:calendar-event",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-1",
+   "titel": [
+    "Wem gehört es",
+    "wirtschaftlich?"
+   ],
+   "punkte": [
+    [
+     "Wer die Herrschaft wie ein Eigentümer ausübt",
+     "ok",
+     "§ 39 Abs. 2 Nr. 1 S. 1 AO"
+    ],
+    [
+     "und den Eigentümer auf Dauer ausschließt",
+     "ok",
+     null
+    ],
+    [
+     "Prüfen: Besitz, Gefahr, Nutzen, Lasten",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:key",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b3",
+   "titel": [
+    "Ohne Gewinn kein Unternehmer?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-aufb-ao-jacobs-6-10",
+   "titel": [
+    "Außenprüfung",
+    "hemmt die Frist?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Nur ",
+      null
+     ],
+     [
+      "echter Beginn",
+      "a"
+     ]
+    ],
+    [
+     [
+      "vor Fristablauf",
+      "b"
+     ]
+    ],
+    [
+     [
+      "hält sie an",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "groesse": 88,
+   "norm": "§ 171 Abs. 4 S. 1 AO",
+   "figuren": {
+    "M": {
+     "kopf": "Medium Bangs",
+     "haut": "#F1C7A5",
+     "haar": "#2B2B2B",
+     "oberteil": "#F4A3B5",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

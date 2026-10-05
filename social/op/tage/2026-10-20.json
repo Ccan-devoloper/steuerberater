@@ -1,0 +1,1324 @@
+{
+ "datum": "2026-10-20",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-formel-leasing-4090",
+   "themaTitel": "Finanzierungsleasing: 40/90-Regel und Kaufoption",
+   "figuren": {
+    "A": {
+     "name": "Mirko",
+     "kopf": "Short 3",
+     "haut": "#C99470",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bart": "Moustache 3",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Leasing:",
+      "wem gehört's?"
+     ],
+     "norm": "§ 39 Abs. 2 Nr. 1 AO",
+     "unter": "40/90 + Option",
+     "teaser": "+ Markier-Guide § 39 AO + BMF",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Grundmietzeit",
+        "Bold",
+        44
+       ],
+       [
+        "62,5 %",
+        "ExtraBold",
+        96
+       ],
+       [
+        "der Nutzungsdauer",
+        "ExtraBold",
+        44
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Mirko least für seine Druckerei eine Maschine; der Leasinggeber hat 120.000 € bezahlt.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Nutzungsdauer laut AfA-Tabelle 8 Jahre, Grundmietzeit 5 Jahre.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Danach Kaufoption für 30.000 €; gemeiner Wert dann 50.000 €.",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Meine Maschine?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Schritt 1: Quote",
+     "normen": [
+      "BMF vom 19.04.1971"
+     ],
+     "zeilen": [
+      [
+       "Grundmietzeit",
+       "5 Jahre",
+       "Regular",
+       null
+      ],
+      [
+       "Nutzungsdauer",
+       "8 Jahre",
+       "Regular",
+       null
+      ],
+      [
+       "Untergrenze",
+       "40 %",
+       "Regular",
+       null
+      ],
+      [
+       "Obergrenze",
+       "90 %",
+       "Regular",
+       null
+      ],
+      [
+       "Anteil 5 : 8",
+       "62,5 %",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Zwischen 40 und 90 %: Option prüfen",
+      "TUERKIS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Wie hoch ist der lineare Restbuchwert nach 5 Jahren?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Liegt der gemeine Wert darunter?",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wem ist die Maschine dann zuzurechnen?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst rechnen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Rechnest du mit?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Schritt 2: Option",
+     "normen": [
+      "BMF vom 19.04.1971"
+     ],
+     "zeilen": [
+      [
+       "Anschaffungskosten",
+       "120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– AfA 5 × 15.000 €",
+       "– 75.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= Restbuchwert linear",
+       "45.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Gemeiner Wert (höher)",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Optionspreis",
+       "30.000 €",
+       "ExtraBold",
+       "ROT"
+      ]
+     ],
+     "extra": [
+      "30.000 € < 45.000 €: Leasingnehmer",
+      "GELB"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Die Folge bei Mirko",
+     "punkte": [
+      [
+       "Maschine mit 120.000 € aktivieren, AfA über 8 Jahre.",
+       "ok",
+       "Regular",
+       "§ 7 Abs. 1 EStG"
+      ],
+      [
+       "Verbindlichkeit gegenüber dem Leasinggeber passivieren.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Raten aufteilen: Zins- und Kostenanteil ist Aufwand, der Tilgungsanteil nicht.",
+       "warn",
+       "Bold",
+       "BMF vom 19.04.1971"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Also doch meine!"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Nicht bei 40/90 aufhören",
+     "punkte": [
+      [
+       "Die Quote allein entscheidet nicht.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Ein günstiger Optionspreis holt die Maschine zum Leasingnehmer.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Die Verwaltungsregel ersetzt nicht den Blick auf den konkreten Vertrag.",
+       "ok",
+       "Regular",
+       "§ 39 Abs. 2 Nr. 1 AO"
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 290,
+     "blase": "Option prüfen!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Zurechnung beim Leasingnehmer",
+      "Optionspreis 30.000 € liegt unter 45.000 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Quote",
+        "a"
+       ],
+       [
+        " rechnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Restbuchwert",
+        "b"
+       ],
+       [
+        " linear,",
+        null
+       ]
+      ],
+      [
+       [
+        "Optionspreis",
+        "c"
+       ],
+       [
+        " vergleichen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Zurechnung",
+        "d"
+       ],
+       [
+        " ableiten.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Wem hättest du sie zugerechnet?",
+     "teaser": "Weiterwischen: § 39 AO + BMF markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 39 AO Zurechnung",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Wirtschaftsgüter sind dem Eigentümer zuzurechnen.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2)",
+       [
+        [
+         "Abweichend von Absatz 1 gelten die folgenden Vorschriften: 1. Übt ein anderer als der Eigentümer",
+         null
+        ],
+        [
+         "die tatsächliche Herrschaft",
+         "g1"
+        ],
+        [
+         "über ein Wirtschaftsgut in der Weise aus, dass er den Eigentümer im Regelfall",
+         null
+        ],
+        [
+         "für die gewöhnliche Nutzungsdauer",
+         "b1"
+        ],
+        [
+         "von der Einwirkung auf das Wirtschaftsgut",
+         null
+        ],
+        [
+         "wirtschaftlich ausschließen",
+         "r1"
+        ],
+        [
+         "kann, so ist ihm das Wirtschaftsgut zuzurechnen. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Leasingnehmer?",
+       "g1"
+      ],
+      [
+       "Grundmietzeit vs. ND",
+       "b1"
+      ],
+      [
+       "Kaufoption!",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: BMF vom 19.04.1971",
+      "40/90-Regel und Kaufoption"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Erlass markieren",
+     "kopf": "BMF vom 19.04.1971, III. 2. b) (Auszug)",
+     "absaetze": [
+      [
+       "bb)",
+       [
+        [
+         "Bei Leasing-Verträgen mit Kaufoption ist der Leasing-Gegenstand regelmäßig zuzurechnen […]",
+         null
+        ],
+        [
+         "dem Leasing-Nehmer,",
+         "g1"
+        ],
+        [
+         "wenn die Grundmietzeit weniger als 40 v. H. oder mehr als 90 v. H. der betriebsgewöhnlichen Nutzungsdauer beträgt oder wenn bei einer Grundmietzeit von",
+         null
+        ],
+        [
+         "mindestens 40 v. H. und höchstens 90 v. H.",
+         "b1"
+        ],
+        [
+         "der betriebsgewöhnlichen Nutzungsdauer der für den Fall der Ausübung des Optionsrechts vorgesehene Kaufpreis",
+         null
+        ],
+        [
+         "niedriger ist als der unter Anwendung der linearen AfA nach der amtlichen AfA-Tabelle ermittelte Buchwert oder der niedrigere gemeine Wert",
+         "r1"
+        ],
+        [
+         "im Zeitpunkt der Veräußerung.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Mirko",
+       "g1"
+      ],
+      [
+       "62,5 %",
+       "b1"
+      ],
+      [
+       "30.000 € < 45.000 €",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Nutzungsdauer: amtliche AfA-Tabelle",
+      "BMF vom 19.04.1971, Abschn. I"
+     ]
+    }
+   ],
+   "caption": "Finanzierungsleasing: Wem ist die Maschine zuzurechnen? Der Rechenweg mit 40/90-Regel und Kaufoption.\n\n▸ Grundsatz: Zurechnung beim Eigentümer; wer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausschließen kann, dem wird das Wirtschaftsgut zugerechnet (§ 39 Abs. 1, Abs. 2 Nr. 1 AO).\n▸ Vollamortisationsleasing über bewegliche Wirtschaftsgüter (BMF vom 19.04.1971): Ohne Option liegt das wirtschaftliche Eigentum regelmäßig beim Leasinggeber, wenn die Grundmietzeit mindestens 40 % und höchstens 90 % der betriebsgewöhnlichen Nutzungsdauer beträgt.\n▸ Mit Kaufoption bleibt es nur dann beim Leasinggeber, wenn der Optionspreis nicht niedriger ist als der Buchwert nach linearer AfA laut AfA-Tabelle oder der niedrigere gemeine Wert im Zeitpunkt der Veräußerung.\n▸ Im Beispiel: 5 von 8 Jahren = 62,5 %; Restbuchwert 120.000 € – 5 × 15.000 € = 45.000 €; gemeiner Wert 50.000 € ist höher, maßgebend also 45.000 €. Optionspreis 30.000 € liegt darunter: Zurechnung beim Leasingnehmer.\n▸ Folge beim Leasingnehmer: Aktivierung mit den Anschaffungskosten, die der Ratenberechnung zugrunde liegen, AfA über die Nutzungsdauer (§ 7 Abs. 1 EStG), Verbindlichkeit gegenüber dem Leasinggeber; die Raten werden in einen sofort abziehbaren Zins- und Kostenanteil und einen erfolgsneutralen Tilgungsanteil aufgeteilt (BMF vom 19.04.1971).\n\nZum Schluss: § 39 AO und BMF vom 19.04.1971, Abschn. III. 2. b) zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 39 Abs. 1, Abs. 2 Nr. 1 AO",
+    "BMF vom 19.04.1971, IV B/2 – S 2170 – 31/71, BStBl I 1971, 264, Abschn. I, III. 2. b)",
+    "§ 7 Abs. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "minifall",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-aufb-erbst-v-27",
+   "themaTitel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
+   "figuren": {
+    "A": {
+     "name": "Leo",
+     "kopf": "Medium 1",
+     "haut": "#F1C7A5",
+     "haar": "#C9A15A",
+     "oberteil": "#9AD48F",
+     "bueste": "Sporty Tee"
+    },
+    "B": {
+     "name": "Hanne",
+     "kopf": "Gray Medium",
+     "haut": "#E8B98F",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses 3",
+     "bueste": "Sweater",
+     "haar": "#B5B5B5"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Mini-Fall",
+     "zeilen": [
+      "Sohn schenkt",
+      "Mutter Geld"
+     ],
+     "norm": "§ 15 Abs. 1 ErbStG",
+     "unter": "I oder II?",
+     "teaser": "+ Markier-Guide §§ 15, 16 ErbStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Schenkung",
+        "Bold",
+        44
+       ],
+       [
+        "120.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "an die Mutter",
+        "ExtraBold",
+        48
+       ]
+      ]
+     },
+     "figur": "B:fragt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Leo, 34, hat seine Firma verkauft.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Er schenkt seiner Mutter Hanne 120.000 €, damit sie ihr Haus saniert.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Steuerklasse, Freibetrag, Steuer?",
+       null,
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Für dich, Mama!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Eltern stehen doch in Klasse I – oder?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Welcher Freibetrag passt?",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Erst überlegen, dann weiterwischen",
+      "GELB",
+      null
+     ],
+     "figur": "B:denkt",
+     "x": 290,
+     "blase": "Klasse I, oder?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Eltern: nicht immer Klasse I",
+     "punkte": [
+      [
+       "Klasse I nur beim Erwerb von Todes wegen.",
+       "warn",
+       "Bold",
+       "§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG"
+      ],
+      [
+       "Bei einer Schenkung: Klasse II.",
+       "nein",
+       "Bold",
+       "§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG"
+      ],
+      [
+       "Freibetrag damit nur 20.000 €.",
+       "warn",
+       "Regular",
+       "§ 16 Abs. 1 Nr. 5 ErbStG"
+      ]
+     ],
+     "figur": "B:staunt",
+     "x": 790,
+     "blase": "Nur 20.000 €?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Schenkung",
+     "normen": [
+      "§ 16 Abs. 1 Nr. 5 ErbStG",
+      "§ 19 Abs. 1 ErbStG"
+     ],
+     "zeilen": [
+      [
+       "Schenkung",
+       "120.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "– Freibetrag Klasse II",
+       "– 20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "= steuerpflichtiger Erwerb",
+       "100.000 €",
+       "Bold",
+       null
+      ],
+      [
+       "Steuersatz Klasse II",
+       "20 %",
+       "Regular",
+       null
+      ],
+      [
+       "Schenkungsteuer",
+       "20.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Härteausgleich geprüft: keine Kürzung",
+      "TUERKIS"
+     ]
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Schenkung oder Erbfall?",
+     "links": {
+      "kopf": "Schenkung",
+      "farbe": "ROT",
+      "punkte": [
+       [
+        "Klasse II",
+        "§ 15 Abs. 1 ErbStG"
+       ],
+       [
+        "Freibetrag 20.000 €",
+        "§ 16 Abs. 1 Nr. 5 ErbStG"
+       ],
+       [
+        "Steuer 20.000 €",
+        null
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Erbfall",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Klasse I",
+        "§ 15 Abs. 1 ErbStG"
+       ],
+       [
+        "Freibetrag 100.000 €",
+        "§ 16 Abs. 1 Nr. 4 ErbStG"
+       ],
+       [
+        "Steuer 1.400 € (7 %)",
+        null
+       ]
+      ]
+     },
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "So ein Unterschied!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Lösung: Klasse II, 20.000 € frei, 20.000 € Steuer",
+      "Im Erbfall: Klasse I, 100.000 € frei, 1.400 € Steuer",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Verwandtschaft",
+        "a"
+       ],
+       [
+        " klären,",
+        null
+       ]
+      ],
+      [
+       [
+        "Erwerbsart",
+        "b"
+       ],
+       [
+        " prüfen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Klasse",
+        "c"
+       ],
+       [
+        " festlegen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Freibetrag",
+        "d"
+       ],
+       [
+        " abziehen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Hättest du Klasse I genommen?",
+     "teaser": "Weiterwischen: §§ 15, 16 ErbStG"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15 ErbStG Steuerklassen (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Nach dem persönlichen Verhältnis des Erwerbers zum Erblasser oder Schenker werden die folgenden drei Steuerklassen unterschieden: Steuerklasse I: […] 4. die",
+         null
+        ],
+        [
+         "Eltern und Voreltern",
+         "g1"
+        ],
+        [
+         "bei Erwerben von Todes wegen;",
+         "r1"
+        ],
+        [
+         "Steuerklasse II 1. die Eltern und Voreltern,",
+         null
+        ],
+        [
+         "soweit sie nicht zur Steuerklasse I gehören,",
+         "b1"
+        ],
+        [
+         "2. die Geschwister, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "wer?",
+       "g1"
+      ],
+      [
+       "nur Erbfall!",
+       "r1"
+      ],
+      [
+       "Schenkung",
+       "b1"
+      ]
+     ],
+     "randnotiz": [
+      "Weiterwischen: § 16 Abs. 1 ErbStG",
+      "Klasse II: nur 20.000 € frei"
+     ]
+    },
+    {
+     "typ": "gesetz",
+     "kopf": "§ 16 ErbStG Freibeträge (Auszug)",
+     "absaetze": [
+      [
+       "(1)",
+       [
+        [
+         "Steuerfrei bleibt in den Fällen der unbeschränkten Steuerpflicht (§ 2 Absatz 1 Nummer 1) der Erwerb 1. des Ehegatten und des Lebenspartners in Höhe von 500 000 Euro; 2. der Kinder im Sinne der Steuerklasse I Nr. 2 und der Kinder verstorbener Kinder im Sinne der Steuerklasse I Nr. 2 in Höhe von 400 000 Euro; 3. der Kinder der Kinder im Sinne der Steuerklasse I Nr. 2 in Höhe von 200 000 Euro; 4. der übrigen Personen der Steuerklasse I",
+         null
+        ],
+        [
+         "in Höhe von 100 000 Euro;",
+         "g1"
+        ],
+        [
+         "5. der Personen der Steuerklasse II",
+         null
+        ],
+        [
+         "in Höhe von 20 000 Euro;",
+         "r1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Eltern im Erbfall",
+       "g1"
+      ],
+      [
+       "Eltern bei Schenkung",
+       "r1"
+      ]
+     ],
+     "randnotiz": [
+      "Hanne: 120.000 € − 20.000 €",
+      "100.000 € zu 20 % = 20.000 € Steuer"
+     ]
+    }
+   ],
+   "caption": "Sohn schenkt der Mutter Geld: Welche Steuerklasse, welcher Freibetrag? Der Mini-Fall zur Schenkungsteuer.\n\n▸ Eltern und Voreltern gehören nur bei Erwerben von Todes wegen in Steuerklasse I (§ 15 Abs. 1 Steuerklasse I Nr. 4 ErbStG), sonst in Steuerklasse II (§ 15 Abs. 1 Steuerklasse II Nr. 1 ErbStG).\n▸ Freibetrag bei unbeschränkter Steuerpflicht: übrige Personen der Klasse I 100.000 € (§ 16 Abs. 1 Nr. 4 ErbStG), Klasse II 20.000 € (§ 16 Abs. 1 Nr. 5 ErbStG).\n▸ Steuersatz bis 300.000 €: Klasse I 11 %, Klasse II 20 %; bis 75.000 €: 7 % bzw. 15 % (§ 19 Abs. 1 ErbStG). Härteausgleich nach § 19 Abs. 3 ErbStG prüfen.\n\nLösung: 120.000 € – 20.000 € = 100.000 €, davon 20 % = 20.000 € Schenkungsteuer. Härteausgleich: Steuer an der Grenze 75.000 € (11.250 €) plus die Hälfte des übersteigenden Betrags (12.500 €) = 23.750 €, also keine Kürzung. Im Erbfall: 120.000 € – 100.000 € = 20.000 €, davon 7 % = 1.400 €.\n\nZum Schluss: §§ 15, 16 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+   ],
+   "quellen": [
+    "§ 15 Abs. 1 ErbStG",
+    "§ 16 Abs. 1 Nr. 4, 5 ErbStG",
+    "§ 19 Abs. 1, 3 ErbStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-17-06",
+   "themaTitel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
+   "figuren": {
+    "A": {
+     "name": "Zeynep",
+     "kopf": "Long",
+     "haut": "#D8A47F",
+     "haar": "#3B1F14",
+     "oberteil": "#8DB3F2"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "GmbH-Anteile ohne Kaufpreis in die eigene Holding schieben. Steuerfrei? Falsch, das gilt als Verkauf."
+    },
+    {
+     "id": "s1",
+     "text": "Die verdeckte Einlage relevanter Anteile in eine Kapitalgesellschaft gilt als Veräußerung. Als Preis zählt der gemeine Wert."
+    },
+    {
+     "id": "s2",
+     "text": "Das Gegenstück: Einlage ins eigene Einzelunternehmen. Keine Veräußerung, Ansatz höchstens mit den Anschaffungskosten."
+    },
+    {
+     "id": "s3",
+     "text": "Bei der Liquidation laufen Nennkapital und Einlagekonto über Paragraf siebzehn, der Rest sind Kapitalerträge."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: In die GmbH heißt verkauft, ins Einzelunternehmen nicht."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Verdeckte Einlage:",
+     "steuerfrei?"
+    ],
+    "pille": "§ 17 Abs. 1 S. 2 EStG",
+    "figur": "A/skeptisch",
+    "name": "Zeynep",
+    "icons": [
+     [
+      "tabler:building",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "gilt als Verkauf",
+     "wort": "Verkauf",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "In eine GmbH",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Verdeckte Einlage",
+       "wert": "= Veräußerung",
+       "farbe": "ROT",
+       "wort": "verdeckte",
+       "zs": 96
+      },
+      {
+       "typ": "block",
+       "label": "Veräußerungspreis",
+       "wert": "gemeiner Wert",
+       "farbe": "GELB",
+       "wort": "Preis",
+       "zs": 96
+      },
+      {
+       "typ": "norm",
+       "text": "§ 17 Abs. 2 S. 2 EStG",
+       "wort": "gemeine"
+      }
+     ],
+     "icon": [
+      "tabler:building-skyscraper",
+      "GELB",
+      "Kapitalgesellschaft"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Ins Einzelunternehmen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einlage Einzelunternehmen",
+       "wert": "kein Verkauf",
+       "farbe": "GRUEN",
+       "wort": "Keine",
+       "zs": 96
+      },
+      {
+       "typ": "text",
+       "text": "Ansatz höchstens",
+       "unter": "Anschaffungskosten",
+       "wort": "Ansatz",
+       "farbe": "WEISS",
+       "ls": 70
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG",
+       "wort": "höchstens"
+      }
+     ],
+     "icon": [
+      "tabler:building-store",
+      "GELB",
+      "Einzelunternehmen"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Bei der Liquidation",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Nennkapital + Einlagekonto",
+       "wert": "§ 17 EStG",
+       "farbe": "GELB",
+       "wort": "Nennkapital",
+       "zs": 100
+      },
+      {
+       "typ": "block",
+       "label": "Rest der Auskehrung",
+       "wert": "§ 20 EStG",
+       "farbe": "WEISS",
+       "wort": "Rest",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 17 Abs. 4 EStG",
+       "wort": "siebzehn"
+      }
+     ],
+     "sfx": [
+      [
+       "muenzen",
+       "Kapitalerträge",
+       0.7
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "In die GmbH:",
+     "gilt als verkauft.",
+     "Ins Einzelunternehmen:",
+     "kein Verkauf"
+    ],
+    "woerter": [
+     null,
+     "verkauft",
+     "Einzelunternehmen",
+     "nicht"
+    ],
+    "cta": "Speichern für Klausur 2",
+    "cta_wort": "nicht",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Verdeckte Einlage von GmbH-Anteilen: steuerfrei? Nein – § 17 EStG greift auch ohne Kaufpreis. 💼\n\n▸ Die verdeckte Einlage relevanter GmbH-Anteile in eine andere GmbH wird wie ein Verkauf behandelt (§ 17 Abs. 1 S. 2 EStG); statt eines Kaufpreises wird der gemeine Wert angesetzt (§ 17 Abs. 2 S. 2 EStG).\n▸ Die Einlage relevanter Anteile in das eigene Einzelunternehmen ist keine Veräußerung; sie wird höchstens mit den Anschaffungskosten angesetzt (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG).\n▸ Auflösung der Gesellschaft gilt als Veräußerung (§ 17 Abs. 4 S. 1 EStG), Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 2 EStG) – aber nicht, soweit Bezüge nach § 20 Abs. 1 Nr. 1 oder 2 EStG vorliegen (§ 17 Abs. 4 S. 3 EStG). Rückzahlung von Nennkapital und Beträge aus dem steuerlichen Einlagekonto (§ 27 KStG) bleiben bei § 17 EStG, der Rest ist Kapitalertrag (§ 20 Abs. 1 Nr. 2 EStG).\n\nSpeichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 17 Abs. 1 S. 2, Abs. 2 S. 2, Abs. 4 EStG",
+    "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG",
+    "§ 20 Abs. 1 Nr. 1, 2 EStG",
+    "§ 27 KStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-6",
+   "frage": [
+    "Streubesitz:",
+    "ab welcher Quote",
+    "steuerfrei?"
+   ],
+   "optionen": [
+    "ab 1 %",
+    "ab 10 %",
+    "ab 25 %"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#6B4226",
+     "oberteil": "#C9B8F2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-quiz-kst-6",
+   "titel": [
+    "B: ab 10 %"
+   ],
+   "optionen": [
+    "ab 1 %",
+    "ab 10 %",
+    "ab 25 %"
+   ],
+   "richtig": 1,
+   "text": "Unter 10 % zu Beginn des Kalenderjahres bleibt die Dividende bei der Körperschaft steuerpflichtig.",
+   "norm": "§ 8b Abs. 4 S. 1 KStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#6B4226",
+     "oberteil": "#C9B8F2",
+     "bueste": "Turtleneck"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b1",
+   "titel": [
+    "Leasing: wem gehört's?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 3,
+   "fach": "persg",
+   "fachLabel": "Personengesellschaften",
+   "themaId": "persg-aufb-persg-melzer-1-4",
+   "titel": [
+    "Wann ist es",
+    "SBV II?"
+   ],
+   "norm": "R 4.2 Abs. 2 S. 2 EStR",
+   "punkte": [
+    [
+     "Es dient der Beteiligung, nicht dem Betrieb der Gesellschaft.",
+     "ok",
+     null
+    ],
+    [
+     "Typisch: Kredit für den Anteilskauf, Zinsen sind Sonderbetriebsausgaben.",
+     "ok",
+     null
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Pomp",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b2",
+   "titel": [
+    "Sohn schenkt Mutter Geld"
+   ],
+   "unter": "Mini-Fall + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Erst die Fragen,",
+    "dann der Fall"
+   ],
+   "punkte": [
+    [
+     "Aufgabenstellung vor dem Sachverhalt lesen.",
+     "ok",
+     null
+    ],
+    [
+     "Jede Zahl im Sachverhalt einer Frage zuordnen.",
+     "ok",
+     null
+    ],
+    [
+     "Lösung genau nach den Fragen gliedern.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:list-check",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "T": {
+     "kopf": "Twists 2",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "figur": "T/laessig"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-karte-ust-3",
+   "titel": [
+    "Sonstige Leistung:",
+    "alles außer Lieferung"
+   ],
+   "punkte": [
+    [
+     "Jede Leistung, die keine Lieferung ist.",
+     "ok",
+     "§ 3 Abs. 9 S. 1 UStG"
+    ],
+    [
+     "Auch Unterlassen oder Dulden zählt.",
+     "ok",
+     "§ 3 Abs. 9 S. 2 UStG"
+    ],
+    [
+     "Beispiel: Wettbewerbsverbot gegen Entgelt.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:hand-stop",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "U": {
+     "kopf": "Short 2",
+     "haut": "#E0AC85",
+     "haar": "#4A3426",
+     "oberteil": "#9AD48F",
+     "brille": "Glasses 4"
+    }
+   },
+   "figur": "U/erklaert"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b3",
+   "titel": [
+    "Verdeckte Einlage: steuerfrei?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-6",
+   "titel": [
+    "Einlagekonto:",
+    "wann sinkt es?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Erst der ",
+      null
+     ],
+     [
+      "ausschüttbare",
+      "a"
+     ]
+    ],
+    [
+     [
+      "Gewinn",
+      "a"
+     ],
+     [
+      ", dann das",
+      null
+     ]
+    ],
+    [
+     [
+      "Einlagekonto",
+      "b"
+     ],
+     [
+      " –",
+      null
+     ]
+    ],
+    [
+     [
+      "nie ",
+      null
+     ],
+     [
+      "negativ",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 27 Abs. 1 S. 3, 4 KStG",
+   "figuren": {
+    "M": {
+     "kopf": "Bun 2",
+     "haut": "#B97A56",
+     "haar": "#2A1B14",
+     "oberteil": "#7FD6D0",
+     "bueste": "Coffee"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

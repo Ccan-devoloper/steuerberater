@@ -1,0 +1,692 @@
+{
+ "datum": "2026-10-07",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "06:30",
+   "format": "anlass",
+   "klausur": 2,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Heute ist Tag 2: ruhig starten",
+   "figuren": {
+    "A": {
+     "name": "Ines",
+     "kopf": "Bun 2",
+     "haut": "#F1C7A5",
+     "haar": "#2B2B2B",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses",
+     "bueste": "Turtleneck"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Prüfungstag 2",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Heute",
+      "ist Tag 2"
+     ],
+     "unter": "Ruhig starten",
+     "teaser": "+ 1 Tipp für heute",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "7",
+      "unter": "Mi · Tag 2"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Gestern ist abgehakt",
+     "punkte": [
+      [
+       "Tag 1 ist abgegeben. Heute zählt nur Tag 2.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Frühstück, Wasser, Gesetze griffbereit.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Erst überfliegen, Punkte notieren, Zeit verteilen.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ruhig",
+     "x": 790,
+     "blase": "Neuer Tag."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Dein Tipp für heute",
+     "punkte": [
+      [
+       "Rechnungen als Staffel: eine Zeile, ein Betrag, eine Norm.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Unsicher bei einem Zwischenwert? Annahme kurz notieren und weiterrechnen.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Jeden Teil anfangen: ESt, KSt, GewSt, Internationales.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "extra": [
+      "Weiterrechnen statt hängen bleiben",
+      "GELB",
+      null
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Staffel!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Wenn es hakt",
+     "punkte": [
+      [
+       "Sachverhalt noch einmal Satz für Satz lesen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Zahlen und Daten markieren, bevor du rechnest.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Ein schwacher Teil ist kein schwacher Tag.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Satz für Satz."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Tag 2: Einkommensteuer · Körperschaftsteuer",
+      "Gewerbesteuer · Internationales Steuerrecht",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Staffel",
+        "a"
+       ],
+       [
+        " statt Fließtext,",
+        null
+       ]
+      ],
+      [
+       [
+        "Annahme",
+        "b"
+       ],
+       [
+        " notieren,",
+        null
+       ]
+      ],
+      [
+       [
+        "weiter",
+        "c"
+       ],
+       [
+        "rechnen,",
+        null
+       ]
+      ],
+      [
+       [
+        "jeden Teil",
+        "d"
+       ],
+       [
+        " anfangen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Wie lief Tag 1 für dich?"
+    }
+   ],
+   "caption": "Heute ist Tag 2 der schriftlichen Steuerberaterprüfung: Einkommensteuer, Körperschaftsteuer, Gewerbesteuer, Internationales Steuerrecht.\n\n▸ Gestern ist abgehakt. Heute zählt nur Tag 2.\n▸ Tipp für heute: Rechnungen als Staffel darstellen, eine Zeile, ein Betrag, eine Norm. Bist du bei einem Zwischenwert unsicher, notiere deine Annahme und rechne weiter, statt hängen zu bleiben.\n▸ Jeden Teil anfangen, auch den, der dir weniger liegt.\n\nViel Erfolg! Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": []
+  },
+  {
+   "slot": "b2",
+   "zeit": "18:30",
+   "format": "anlass",
+   "klausur": 2,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Tag 2 geschafft: drei Dauerbrenner für Tag 3",
+   "figuren": {
+    "A": {
+     "name": "Kofi",
+     "kopf": "Short 1",
+     "haut": "#5C3A21",
+     "haar": "#1E1E24",
+     "oberteil": "#C9B8F2",
+     "bart": "Moustache 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Tag 2 geschafft",
+     "badgeFarbe": "GRUEN",
+     "zeilen": [
+      "Zwei von",
+      "drei!"
+     ],
+     "unter": "Spickzettel Tag 3",
+     "teaser": "+ 3 Dauerbrenner",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "OKTOBER",
+      "tag": "8",
+      "unter": "Do · Tag 3"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zwei Drittel geschafft",
+     "punkte": [
+      [
+       "Zwei Klausurtage durchgezogen. Respekt.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Morgen: Buchführung und Bilanzwesen. Heute nur noch die Karte.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Früh schlafen ist heute die beste Wiederholung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:lacht",
+     "x": 790,
+     "blase": "Noch einer!"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Morgen: 3 Dauerbrenner",
+     "schritte": [
+      [
+       "Teilwertabschreibung",
+       "§ 6 Abs. 1 Nr. 1, 2 EStG",
+       "steuerlich nur bei dauernder Minderung"
+      ],
+      [
+       "Rückstellungen",
+       "§ 5 Abs. 4a, § 6 Abs. 1 Nr. 3a EStG",
+       "keine Drohverluste, 5,5 % abzinsen"
+      ],
+      [
+       "Geringwertige Wirtschaftsgüter",
+       "§ 6 Abs. 2, 2a EStG",
+       "800 € oder Sammelposten"
+      ]
+     ],
+     "teaser": "Weiterwischen: alle drei im Detail"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "1 · Teilwert: HGB oder Steuer?",
+     "links": {
+      "kopf": "Handelsbilanz",
+      "farbe": "TUERKIS",
+      "punkte": [
+       [
+        "Umlaufvermögen: immer auf den niedrigeren Wert",
+        "§ 253 Abs. 4 HGB"
+       ],
+       [
+        "Anlagevermögen: Pflicht bei dauernder Minderung",
+        "§ 253 Abs. 3 S. 5 HGB"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Steuerbilanz",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Nur bei voraussichtlich dauernder Minderung",
+        "§ 6 Abs. 1 Nr. 2 S. 2 EStG"
+       ],
+       [
+        "Wahlrecht, auch abweichend von der Handelsbilanz",
+        "§ 5 Abs. 1 S. 1 EStG"
+       ]
+      ]
+     },
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Kann oder muss?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Rückstellungen",
+     "punkte": [
+      [
+       "Drohverlustrückstellungen: steuerlich verboten.",
+       "nein",
+       "Bold",
+       "§ 5 Abs. 4a S. 1 EStG"
+      ],
+      [
+       "Unverzinslich und mindestens zwölf Monate Laufzeit: mit 5,5 % abzinsen.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+      ],
+      [
+       "Handelsbilanz: Restlaufzeit über ein Jahr, Marktzins der letzten sieben Jahre.",
+       "ok",
+       "Regular",
+       "§ 253 Abs. 2 S. 1 HGB"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Zwei Zinssätze!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "3 · Geringwertige Wirtschaftsgüter",
+     "punkte": [
+      [
+       "Bis 800 € netto: sofort voll als Betriebsausgabe.",
+       "ok",
+       "Bold",
+       "§ 6 Abs. 2 S. 1 EStG"
+      ],
+      [
+       "Stattdessen über 250 € bis 1.000 €: Sammelposten, fünf Jahre je ein Fünftel.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 2a S. 1, 2 EStG"
+      ],
+      [
+       "Die Wahl gilt einheitlich für alle Güter des Jahres.",
+       "warn",
+       "Regular",
+       "§ 6 Abs. 2a S. 5 EStG"
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 290,
+     "blase": "Alle gleich?"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Regal 900 € netto, Sammelposten gewählt",
+      "fünf Jahre je 180 € Aufwand",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Teilwert",
+        "a"
+       ],
+       [
+        " nur bei Dauer,",
+        null
+       ]
+      ],
+      [
+       [
+        "Drohverlust",
+        "b"
+       ],
+       [
+        " nie,",
+        null
+       ]
+      ],
+      [
+       [
+        "5,5 %",
+        "c"
+       ],
+       [
+        " ab zwölf Monaten,",
+        null
+       ]
+      ],
+      [
+       [
+        "800 €",
+        "d"
+       ],
+       [
+        " sofort.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Was wackelt noch?"
+    }
+   ],
+   "caption": "Tag 2 geschafft! Zwei von drei Klausuren liegen hinter dir. Für morgen (Buchführung und Bilanzwesen) drei Dauerbrenner zum Wiederholen.\n\n1. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen immer auf den niedrigeren Wert (§ 253 Abs. 4 HGB), beim Anlagevermögen bei voraussichtlich dauernder Wertminderung (§ 253 Abs. 3 S. 5 HGB). Steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG; § 5 Abs. 1 S. 1 EStG).\n2. Rückstellungen: keine Drohverlustrückstellungen in der Steuerbilanz (§ 5 Abs. 4a S. 1 EStG); Abzinsung mit 5,5 %, außer bei Laufzeit unter zwölf Monaten, Verzinslichkeit, Anzahlung oder Vorausleistung (§ 6 Abs. 1 Nr. 3a Buchst. e EStG). Handelsbilanz: durchschnittlicher Marktzins der letzten sieben Geschäftsjahre (§ 253 Abs. 2 S. 1 HGB).\n3. Geringwertige Wirtschaftsgüter: bis 800 € netto Sofortabzug (§ 6 Abs. 2 S. 1 EStG), alternativ Sammelposten für 250 € bis 1.000 €, über fünf Jahre je ein Fünftel, einheitlich für alle Wirtschaftsgüter des Jahres (§ 6 Abs. 2a S. 1, 2, 5 EStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+   ],
+   "quellen": [
+    "§ 253 Abs. 2, 3, 4 HGB",
+    "§ 5 Abs. 1 S. 1, Abs. 4a EStG",
+    "§ 6 Abs. 1 Nr. 1, 2, 3a Buchst. e EStG",
+    "§ 6 Abs. 2, 2a EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:30",
+   "format": "reel",
+   "reelTyp": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": null,
+   "themaTitel": "Tag 3: drei Dauerbrenner für morgen",
+   "figuren": {
+    "A": {
+     "name": "Sanne",
+     "kopf": "Long Afro",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#F4A3B5",
+     "bueste": "Tee 1"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Morgen ist Bilanz. Wertminderung im Umlaufvermögen: Handelsbilanz Pflicht, Steuerbilanz Wahlrecht, und nur, wenn sie dauernd ist."
+    },
+    {
+     "id": "s1",
+     "text": "Rückstellungen: Drohverluste nie. Ab zwölf Monaten mit fünfeinhalb Prozent abzinsen."
+    },
+    {
+     "id": "s2",
+     "text": "Und bis achthundert Euro netto sofort abziehen."
+    },
+    {
+     "id": "cta",
+     "text": "Durchatmen. Morgen ist der letzte Tag."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Morgen:",
+     "Tag 3"
+    ],
+    "pille": "3 Dauerbrenner",
+    "figur": "A/ruhig",
+    "name": "Sanne",
+    "icons": [
+     [
+      "tabler:chart-arrows-vertical",
+      "GELB",
+      "Wertminderung"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Handelsbilanz",
+      "wert": "Pflicht",
+      "farbe": "GELB",
+      "wort": "Handelsbilanz"
+     },
+     {
+      "label": "Steuerbilanz",
+      "wert": "Wahlrecht",
+      "farbe": "TUERKIS",
+      "wort": "Steuerbilanz"
+     }
+    ],
+    "stempel": {
+     "text": "nur bei Dauer!",
+     "wort": "dauernd"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Rückstellungen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Drohverluste",
+       "wert": "verboten",
+       "farbe": "ROT",
+       "wort": "Drohverluste",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "5,5 % ab 12 Monaten",
+       "wort": "zwölf",
+       "farbe": "GELB"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 1 Nr. 3a EStG",
+       "wort": "abzinsen"
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Geringwertig",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "800 €",
+       "size": 150,
+       "wort": "achthundert"
+      },
+      {
+       "typ": "pille",
+       "text": "sofort Betriebsausgabe",
+       "wort": "sofort",
+       "farbe": "GELB"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 2 EStG",
+       "wort": "netto"
+      }
+     ],
+     "icon": [
+      "tabler:device-laptop",
+      "GELB",
+      "achthundert"
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Teilwert: nur bei Dauer",
+     "Drohverlust: nie",
+     "800 €: sofort",
+     "Morgen: Tag 3"
+    ],
+    "woerter": [
+     null,
+     null,
+     null,
+     "Morgen"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "letzte",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Tag 3 der Steuerberaterprüfung: drei Bilanz-Dauerbrenner für morgen.\n\n▸ Umlaufvermögen: In der Handelsbilanz ist auf den niedrigeren Wert abzuschreiben (§ 253 Abs. 4 HGB). Steuerlich darf der niedrigere Teilwert nur bei voraussichtlich dauernder Wertminderung angesetzt werden, als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2 EStG; § 5 Abs. 1 S. 1 EStG).\n▸ Rückstellungen für drohende Verluste sind steuerlich verboten (§ 5 Abs. 4a S. 1 EStG); unverzinsliche Rückstellungen mit Laufzeit ab zwölf Monaten werden mit 5,5 % abgezinst (§ 6 Abs. 1 Nr. 3a Buchst. e EStG).\n▸ Geringwertige Wirtschaftsgüter bis 800 € netto dürfen sofort voll abgezogen werden (§ 6 Abs. 2 S. 1 EStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 253 Abs. 4 HGB",
+    "§ 5 Abs. 1 S. 1, Abs. 4a S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 2 S. 2, Nr. 3a Buchst. e EStG",
+    "§ 6 Abs. 2 S. 1 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s1",
+   "zeit": "06:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b1",
+   "titel": [
+    "Heute ist Tag 2"
+   ],
+   "unter": "Ruhig starten + Tipp · im Profil"
+  },
+  {
+   "slot": "s4",
+   "zeit": "06:45",
+   "art": "anlass",
+   "klausur": 2,
+   "fachLabel": "Steuerberaterexamen",
+   "titel": [
+    "Viel Erfolg",
+    "an Tag 2!"
+   ],
+   "text": "Einkommensteuer, Körperschaftsteuer, Gewerbesteuer, Internationales: Du kannst das.",
+   "punkte": [
+    [
+     "Staffel statt Fließtext",
+     "ok"
+    ],
+    [
+     "Annahme notieren, weiter",
+     "ok"
+    ]
+   ],
+   "figuren": {
+    "C": {
+     "kopf": "Cornrows",
+     "haut": "#6B4226",
+     "haar": "#1E1E24",
+     "oberteil": "#8DB3F2",
+     "bueste": "Pointing Up"
+    }
+   },
+   "figur": "C:froh"
+  },
+  {
+   "slot": "s7",
+   "zeit": "12:00",
+   "art": "anlass",
+   "klausur": 2,
+   "fachLabel": "Steuerberaterexamen",
+   "ueberzeile": "Halbzeit",
+   "titel": [
+    "Halbzeit.",
+    "Kurz lockern."
+   ],
+   "text": "Schultern kreisen, trinken, dann weiter zum nächsten Teil.",
+   "punkte": [
+    [
+     "Ein Teil nach dem anderen.",
+     "ok"
+    ]
+   ],
+   "figuren": {
+    "H": {
+     "kopf": "No Hair 3",
+     "haut": "#E8B98F",
+     "oberteil": "#C9B8F2",
+     "bart": "Full 4",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "H:ruhig"
+  },
+  {
+   "slot": "s2",
+   "zeit": "18:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Zwei von drei!"
+   ],
+   "unter": "Spickzettel Tag 3 · im Profil"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:30",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Bilanz: drei für morgen"
+   ],
+   "unter": "Neues Reel · im Profil"
+  }
+ ]
+}

@@ -1,0 +1,1276 @@
+{
+ "datum": "2026-12-29",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-aufb-ust-m-b05-6",
+   "themaTitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
+   "figuren": {
+    "A": {
+     "name": "Tilda",
+     "kopf": "Medium Bangs 2",
+     "haut": "#F1C7A5",
+     "haar": "#B5651D",
+     "oberteil": "#F4A3B5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "zeilen": [
+      "Beratung",
+      "aus Wien"
+     ],
+     "norm": "§ 3a Abs. 2 UStG",
+     "unter": "Wer zahlt?",
+     "teaser": "+ Markier-Guide §§ 3a, 13b UStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Rechnung",
+        "Bold",
+        44
+       ],
+       [
+        "6.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "ohne Steuer",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:denkt"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Der Rechenweg in 4 Schritten",
+     "schritte": [
+      [
+       "Sonderregel ausschließen",
+       "§ 3a Abs. 3 UStG, § 3b UStG",
+       "Grundstück, Beförderung, Fahrzeug?"
+      ],
+      [
+       "Kunde Unternehmer?",
+       "§ 3a Abs. 2 S. 1 UStG",
+       "Leistung für sein Unternehmen"
+      ],
+      [
+       "Ort und Schuldner",
+       "§ 13b Abs. 1, 5 S. 1 UStG",
+       "Inland: Kunde schuldet"
+      ],
+      [
+       "Steuer und Vorsteuer",
+       "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+       "Zahllast meist 0 €"
+      ]
+     ],
+     "teaser": "Am Ende: §§ 3a, 13b UStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Tilda betreibt in Leipzig einen Onlineshop und versteuert regulär.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Eine Wiener Agentur berät sie im Mai zur Werbung. Rechnung: 6.000 € ohne Steuer.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Wo ist der Ort, und wer schuldet wie viel?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:fragt",
+     "x": 790,
+     "blase": "Ich bin Tilda."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Erst die Sonderregeln",
+     "punkte": [
+      [
+       "Grundstücksleistung oder kurzfristige Fahrzeugmiete? Dann gilt die Sonderregel.",
+       "warn",
+       "Regular",
+       "§ 3a Abs. 3 Nr. 1, 2 UStG"
+      ],
+      [
+       "Personenbeförderung: dort, wo gefahren wird.",
+       "warn",
+       "Regular",
+       "§ 3b Abs. 1 S. 1 UStG"
+      ],
+      [
+       "Werbeberatung: keine Sonderregel, also Grundregel.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Zuerst ausschließen!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 und 3 · Ort und Schuldner",
+     "punkte": [
+      [
+       "Leistung an Unternehmerin für ihr Unternehmen: Ort ist, von wo sie es betreibt.",
+       "ok",
+       "Regular",
+       "§ 3a Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Leipzig: Inland, steuerbar und steuerpflichtig.",
+       "ok",
+       "Regular",
+       "§ 1 Abs. 1 Nr. 1 UStG"
+      ],
+      [
+       "Agentur aus der EU: Tilda schuldet die Steuer.",
+       "warn",
+       "Bold",
+       "§ 13b Abs. 1, 5 S. 1 UStG"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Ich zahle die Steuer?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "4 · Tildas Voranmeldung",
+     "normen": [
+      "§ 13b Abs. 1 UStG",
+      "§ 15 Abs. 1 S. 1 Nr. 4 UStG"
+     ],
+     "zeilen": [
+      [
+       "Bemessungsgrundlage",
+       "6.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Steuer 19 %, geschuldet",
+       "1.140 €",
+       "Bold",
+       "ROT"
+      ],
+      [
+       "Vorsteuer",
+       "−1.140 €",
+       "Bold",
+       "GRUEN"
+      ],
+      [
+       "Zahllast",
+       "0 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Null – aber melden!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Umgekehrt: Tilda berät einen Händler in Lyon und berechnet 2.000 €.",
+       null,
+       "Regular",
+       null
+      ],
+      [
+       "Deutsche Steuer? Und was muss sie bei Rechnung und Meldung beachten?",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Jetzt in die andere Richtung."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung",
+     "punkte": [
+      [
+       "Ort in Frankreich, in Deutschland nicht steuerbar.",
+       "ok",
+       "Regular",
+       "§ 3a Abs. 2 S. 1 UStG"
+      ],
+      [
+       "Rechnung mit „Steuerschuldnerschaft des Leistungsempfängers“, bis zum 15. des Folgemonats.",
+       "warn",
+       "Regular",
+       "§ 14a Abs. 1 S. 1, 2 UStG"
+      ],
+      [
+       "In die Zusammenfassende Meldung.",
+       "ok",
+       "Bold",
+       "§ 18a Abs. 2 UStG"
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Der Kunde zahlt dort."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "6.000 € netto: 1.140 € Steuer, 1.140 € Vorsteuer",
+      "Zahllast 0 €",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Sonderregel",
+        "a"
+       ],
+       [
+        " zuerst,",
+        null
+       ]
+      ],
+      [
+       [
+        "Kunde",
+        "b"
+       ],
+       [
+        " bestimmt den Ort,",
+        null
+       ]
+      ],
+      [
+       [
+        "Inland",
+        "c"
+       ],
+       [
+        ": Kunde schuldet,",
+        null
+       ]
+      ],
+      [
+       [
+        "Ausland",
+        "d"
+       ],
+       [
+        ": Meldung.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 1",
+     "frage": "Sonderregel geprüft?",
+     "teaser": "Weiterwischen: §§ 3a, 13b UStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§§ 3a, 13b UStG (Auszug)",
+     "absaetze": [
+      [
+       "§ 3a (2)",
+       [
+        [
+         "Eine sonstige Leistung, die",
+         null
+        ],
+        [
+         "an einen Unternehmer für dessen Unternehmen",
+         "g1"
+        ],
+        [
+         "ausgeführt wird, wird",
+         null
+        ],
+        [
+         "vorbehaltlich der Absätze 3 bis 8 und der §§ 3b und 3e",
+         "r1"
+        ],
+        [
+         "an dem Ort ausgeführt,",
+         null
+        ],
+        [
+         "von dem aus der Empfänger sein Unternehmen betreibt.",
+         "b1"
+        ],
+        [
+         "Wird die sonstige Leistung an die Betriebsstätte eines Unternehmers ausgeführt, ist stattdessen",
+         null
+        ],
+        [
+         "der Ort der Betriebsstätte",
+         "gr1"
+        ],
+        [
+         "maßgebend.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 13b (1)",
+       [
+        [
+         "Für nach § 3a Absatz 2 im Inland steuerpflichtige sonstige Leistungen eines im übrigen Gemeinschaftsgebiet ansässigen Unternehmers",
+         null
+        ],
+        [
+         "entsteht die Steuer mit Ablauf des Voranmeldungszeitraums,",
+         "g2"
+        ],
+        [
+         "in dem die Leistungen ausgeführt worden sind.",
+         null
+        ]
+       ]
+      ],
+      [
+       "§ 13b (5) 1",
+       [
+        [
+         "In den in den Absätzen 1 und 2 Nummer 1 bis 3 genannten Fällen",
+         null
+        ],
+        [
+         "schuldet der Leistungsempfänger die Steuer,",
+         "r2"
+        ],
+        [
+         "wenn er ein Unternehmer oder eine juristische Person ist; […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Sonderregeln vorher",
+       "r1"
+      ],
+      [
+       "Sitz des Kunden",
+       "b1"
+      ],
+      [
+       "Ende Mai",
+       "g2"
+      ],
+      [
+       "Tilda schuldet",
+       "r2"
+      ]
+     ],
+     "randnotiz": [
+      "Tilda: 1.140 € − 1.140 € = 0 €",
+      "Vorsteuer im selben Monat"
+     ]
+    }
+   ],
+   "caption": "Beratung aus Wien für einen Shop in Leipzig: Wo liegt der Ort, wer zahlt? Der Rechenweg für Klausur 1.\n\n1. Vorrangige Sonderregeln ausschließen, etwa Grundstücksleistungen, kurzfristige Vermietung von Beförderungsmitteln (§ 3a Abs. 3 Nr. 1, 2 UStG) oder Personenbeförderung (§ 3b Abs. 1 S. 1 UStG).\n2. Leistung an einen Unternehmer für dessen Unternehmen: Ort ist, von wo aus der Empfänger sein Unternehmen betreibt; bei Leistung an eine Betriebsstätte deren Ort (§ 3a Abs. 2 S. 1, 2 UStG).\n3. Ort im Inland, leistender Unternehmer im übrigen Gemeinschaftsgebiet ansässig: Der unternehmerische Empfänger schuldet die Steuer; sie entsteht mit Ablauf des Voranmeldungszeitraums der Leistung (§ 13b Abs. 1, 5 S. 1 UStG).\n4. Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG).\n\nBeispiel: 6.000 € netto → 1.140 € Steuer und 1.140 € Vorsteuer, Zahllast 0 €.\nUmgekehrt (Leistung an einen Unternehmer in Frankreich): in Deutschland nicht steuerbar, Rechnung mit Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ bis zum 15. des Folgemonats (§ 14a Abs. 1 S. 1, 2 UStG), Angabe in der Zusammenfassenden Meldung (§ 18a Abs. 2 UStG).\n\nZum Schluss: § 3a Abs. 2, § 13b Abs. 1, 5 UStG zum Markieren. Speichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+   ],
+   "quellen": [
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 3a Abs. 2 S. 1, 2, Abs. 3 Nr. 1, 2 UStG",
+    "§ 3b Abs. 1 S. 1 UStG",
+    "§ 13b Abs. 1, 5 S. 1 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+    "§ 14a Abs. 1 S. 1, 2 UStG",
+    "§ 18a Abs. 2 UStG"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-aufb-istr-gh-4-30",
+   "themaTitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
+   "figuren": {
+    "A": {
+     "name": "Bilal",
+     "kopf": "Short 1",
+     "haut": "#A8704B",
+     "haar": "#1B1B1B",
+     "oberteil": "#8DB3F2",
+     "bart": "Goatee 2",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "zeilen": [
+      "Freistellung?",
+      "Anrechnung?"
+     ],
+     "norm": "Art. 23 A, 23 B OECD-MA",
+     "unter": "in 10 Minuten",
+     "teaser": "+ Markier-Guide § 32b EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:microphone",
+      "farbe": "GELB"
+     },
+     "figur": "A:redet"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Dein Vortrag in 5 Teilen",
+     "schritte": [
+      [
+       "Einstieg: das Problem",
+       null,
+       ""
+      ],
+      [
+       "Verteilungsartikel zuerst",
+       "Art. 6 bis 21 OECD-MA",
+       ""
+      ],
+      [
+       "Freistellung mit Satz",
+       "Art. 23 A OECD-MA, § 32b EStG",
+       ""
+      ],
+      [
+       "Anrechnung mit Grenze",
+       "Art. 23 B OECD-MA, § 34c Abs. 6 EStG",
+       ""
+      ],
+      [
+       "Fazit und Ausblick",
+       "§ 50d Abs. 9 EStG",
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 32b EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "1 · Einstieg",
+     "punkte": [
+      [
+       "Zwei Staaten greifen auf dieselben Einkünfte zu.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Das Abkommen löst das in zwei Stufen.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Leitsatz: Der Verteilungsartikel sagt wer, der Methodenartikel wie.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Erst die Frage stellen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "2 · Verteilungsartikel",
+     "punkte": [
+      [
+       "Er klärt, ob der andere Staat besteuern darf.",
+       "ok",
+       "Regular",
+       "Art. 6 bis 21 OECD-MA"
+      ],
+      [
+       "Erst danach fragt der Wohnsitzstaat, wie er die Doppelbesteuerung beseitigt.",
+       "ok",
+       "Regular",
+       "Art. 23 A, 23 B OECD-MA"
+      ],
+      [
+       "Nie die Steuerfreiheit direkt aus dem Verteilungsartikel ableiten.",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Reihenfolge zeigen!"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "3 und 4 · Die Methoden",
+     "links": {
+      "kopf": "Freistellung",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "Einkünfte bleiben außen vor",
+        "Art. 23 A Abs. 1 OECD-MA"
+       ],
+       [
+        "Aber sie wirken auf den Steuersatz",
+        "§ 32b Abs. 1 S. 1 Nr. 3 EStG"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Anrechnung",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Einkünfte voll erfasst",
+        "Art. 23 B Abs. 1 OECD-MA"
+       ],
+       [
+        "Auslandsteuer angerechnet, gedeckelt",
+        "§ 34c Abs. 6 S. 2 EStG"
+       ]
+      ]
+     },
+     "figur": "A:skeptisch",
+     "x": 790,
+     "blase": "Welches DBA?"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Beispiel für den Vortrag",
+     "normen": [
+      "§ 32b Abs. 2 S. 1 Nr. 2 EStG"
+     ],
+     "zeilen": [
+      [
+       "Zu versteuerndes Einkommen",
+       "60.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Freigestellt (nur für den Satz)",
+       "20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Steuersatz ermittelt aus",
+       "80.000 €",
+       "Bold",
+       "GELB"
+      ],
+      [
+       "Satz angewendet auf",
+       "60.000 €",
+       "ExtraBold",
+       "GRUEN"
+      ]
+     ],
+     "extra": [
+      "Ein Beispiel, das man frei erzählen kann",
+      "WEISS"
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "5 · Fazit und Ausblick",
+     "punkte": [
+      [
+       "Welche Methode gilt, steht im konkreten Abkommen, nicht im Muster.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Freistellung kann entfallen, wenn der andere Staat das Abkommen anders anwendet.",
+       "warn",
+       "Regular",
+       "§ 50d Abs. 9 S. 1 Nr. 1 EStG"
+      ],
+      [
+       "Schlusssatz: Freistellung schont die Basis, nicht den Steuersatz.",
+       "ok",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 290,
+     "blase": "Mit Ausblick enden."
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Deine 10 Minuten",
+     "zeilen": [
+      [
+       "0–1",
+       "Einstieg, Problem",
+       "WEISS",
+       null
+      ],
+      [
+       "1–3",
+       "Verteilungsartikel",
+       "GELB",
+       null
+      ],
+      [
+       "3–6",
+       "Freistellung, Beispiel",
+       "GELB",
+       null
+      ],
+      [
+       "6–8",
+       "Anrechnung",
+       "GRUEN",
+       null
+      ],
+      [
+       "8–10",
+       "Fazit, Ausblick",
+       "PINK",
+       null
+      ]
+     ]
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Freistellung: Basis ohne, Satz mit Auslandseinkünften",
+      "Anrechnung: alles erfassen, Auslandsteuer abziehen",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Wer",
+        "a"
+       ],
+       [
+        " darf: Verteilung,",
+        null
+       ]
+      ],
+      [
+       [
+        "Wie",
+        "b"
+       ],
+       [
+        ": Methodenartikel,",
+        null
+       ]
+      ],
+      [
+       [
+        "Freistellung",
+        "c"
+       ],
+       [
+        " + Satz,",
+        null
+       ]
+      ],
+      [
+       [
+        "Anrechnung",
+        "d"
+       ],
+       [
+        " + Grenze.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Welches Thema als Nächstes?",
+     "teaser": "Weiterwischen: § 32b EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 32b EStG (Auszug)",
+     "absaetze": [
+      [
+       "(1) 1",
+       [
+        [
+         "Hat ein zeitweise oder während des gesamten Veranlagungszeitraums unbeschränkt Steuerpflichtiger […] 3.",
+         null
+        ],
+        [
+         "Einkünfte, die nach einem Abkommen zur Vermeidung der Doppelbesteuerung steuerfrei sind,",
+         "g1"
+        ],
+        [
+         "[…] bezogen, so ist auf das nach § 32a Absatz 1 zu versteuernde Einkommen",
+         null
+        ],
+        [
+         "ein besonderer Steuersatz",
+         "b1"
+        ],
+        [
+         "anzuwenden.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(2) 1",
+       [
+        [
+         "Der besondere Steuersatz nach Absatz 1 ist der Steuersatz, der sich ergibt, wenn bei der Berechnung der Einkommensteuer das nach § 32a Absatz 1 zu versteuernde Einkommen",
+         null
+        ],
+        [
+         "vermehrt oder vermindert",
+         "gr1"
+        ],
+        [
+         "wird um […] 2. im Fall des Absatzes 1 Nummer 2 bis 5 die dort bezeichneten Einkünfte, […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "DBA-frei",
+       "g1"
+      ],
+      [
+       "Rechtsfolge",
+       "b1"
+      ],
+      [
+       "auch negativ",
+       "gr1"
+      ]
+     ],
+     "randnotiz": [
+      "Mündliche Prüfung:",
+      "Gesetz ja, Richtlinien nein"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Freistellung oder Anrechnung – was entscheidet der Methodenartikel? Ein Aufbau für 10 Minuten.\n\n1. Einstieg: Wohnsitzstaat und der andere Vertragsstaat greifen auf dieselben Einkünfte zu.\n2. Verteilungsartikel (Art. 6 bis 21 OECD-MA): Darf der andere Staat besteuern?\n3. Freistellung (Art. 23 A Abs. 1 OECD-MA): Die Einkünfte bleiben in Deutschland außer Ansatz, wirken aber über den Progressionsvorbehalt auf den Steuersatz (§ 32b Abs. 1 S. 1 Nr. 3, Abs. 2 S. 1 Nr. 2 EStG).\n4. Anrechnung (Art. 23 B Abs. 1 OECD-MA): Die Einkünfte werden voll erfasst, die abkommensgemäße Auslandsteuer wird angerechnet, höchstens bis zur anteiligen deutschen Steuer (§ 34c Abs. 6 S. 2 i. V. m. Abs. 1 S. 2 bis 5 EStG).\n5. Fazit und Ausblick: Maßgeblich ist das konkrete Abkommen; die Freistellung kann nach § 50d Abs. 9 S. 1 Nr. 1 EStG entfallen.\n\nBeispiel: 60.000 € zu versteuerndes Einkommen, 20.000 € freigestellt → Steuersatz aus 80.000 €, angewendet auf 60.000 €.\n\nZum Schluss: § 32b EStG zum Markieren. Speichern für die mündliche Prüfung 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+   ],
+   "quellen": [
+    "Art. 6 bis 21 OECD-MA",
+    "Art. 23 A, 23 B OECD-MA",
+    "§ 32b Abs. 1 S. 1 Nr. 3, Abs. 2 S. 1 Nr. 2 EStG",
+    "§ 34c Abs. 6 S. 2 EStG",
+    "§ 50d Abs. 9 S. 1 Nr. 1 EStG"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 3,
+   "fach": "umwst",
+   "fachLabel": "Umwandlungssteuerrecht",
+   "themaId": "umwst-aufb-umw-ks-1-01",
+   "themaTitel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
+   "figuren": {
+    "A": {
+     "name": "Kaito",
+     "kopf": "Short 2",
+     "haut": "#E8C39E",
+     "haar": "#222222",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Die Übernehmerin führt die Buchwerte fort, also steuerneutral? Falsch. Ohne Sondernorm werden die Reserven aufgedeckt."
+    },
+    {
+     "id": "s1",
+     "text": "Wechselt ein Betrieb den Rechtsträger, gilt das als Veräußerung oder Aufgabe. Bei der GmbH droht die Liquidationsbesteuerung."
+    },
+    {
+     "id": "s2",
+     "text": "Neutral wird es erst über das Umwandlungssteuergesetz: gemeiner Wert als Regel, Buchwert nur auf Antrag."
+    },
+    {
+     "id": "s3",
+     "text": "Daneben helfen nur Einzelnormen, etwa die unentgeltliche Übertragung eines Betriebs."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Erst die Sondernorm, dann der Buchwert."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Buchwerte weiter",
+     "= neutral?"
+    ],
+    "pille": "§ 1 UmwStG",
+    "figur": "A/skeptisch",
+    "name": "Kaito",
+    "icons": [
+     [
+      "tabler:building-factory",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "Ohne Sondernorm: Aufdeckung",
+     "wort": "Reserven",
+     "farbe": "GRUEN",
+     "zs": 60
+    },
+    "stempel": {
+     "text": "Falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Grundsatz",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Rechtsträgerwechsel",
+       "wert": "= Veräußerung",
+       "farbe": "ROT",
+       "wort": "Rechtsträger",
+       "zs": 80
+      },
+      {
+       "typ": "text",
+       "text": "GmbH: Liquidation",
+       "unter": "Reserven werden versteuert",
+       "wort": "Liquidationsbesteuerung",
+       "farbe": "WEISS",
+       "ls": 60
+      },
+      {
+       "typ": "norm",
+       "text": "§ 16 Abs. 1, 3 EStG",
+       "wort": "Aufgabe"
+      }
+     ],
+     "icon": [
+      "tabler:arrows-exchange",
+      "GELB",
+      "Betrieb"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Das UmwStG",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Regel: gemeiner Wert",
+       "wort": "gemeiner",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "block",
+       "label": "Buchwert",
+       "wert": "nur auf Antrag",
+       "farbe": "GRUEN",
+       "wort": "Antrag",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 3 Abs. 1, 2 UmwStG",
+       "wort": "Umwandlungssteuergesetz"
+      }
+     ],
+     "icon": [
+      "tabler:file-check",
+      "GELB",
+      "Neutral"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Außerhalb des UmwStG",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "nur Einzelnormen",
+       "wort": "Einzelnormen",
+       "farbe": "WEISS"
+      },
+      {
+       "typ": "text",
+       "text": "Betrieb verschenkt",
+       "unter": "Buchwert zwingend",
+       "wort": "unentgeltliche",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6 Abs. 3 S. 1 EStG",
+       "wort": "Übertragung"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Einzelnormen",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Merke:",
+     "erst Sondernorm,",
+     "dann",
+     "Buchwert"
+    ],
+    "woerter": [
+     null,
+     "Sondernorm",
+     "dann",
+     "Buchwert"
+    ],
+    "cta": "Speichern für Klausur 3",
+    "cta_wort": "Buchwert",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Buchwert fortgeführt = steuerneutral? Leider nein. 🏭\n\n▸ Geht ein Betrieb auf einen anderen Rechtsträger über, liegt ohne Sondernorm eine Veräußerung oder Aufgabe vor (§ 16 Abs. 1, 3 EStG); bei der Kapitalgesellschaft droht die Liquidationsbesteuerung (§ 11 KStG). Dass die Übernehmerin die Buchwerte fortführt, ändert daran nichts.\n▸ Das UmwStG ist die Ausnahme mit eigenem Anwendungsbereich (§ 1 UmwStG): Regelwert ist der gemeine Wert, Buch- oder Zwischenwert nur auf Antrag und unter Voraussetzungen (z. B. § 3 Abs. 1, 2 UmwStG; § 11 Abs. 1, 2 UmwStG).\n▸ Außerhalb des UmwStG helfen nur Einzelnormen, etwa die unentgeltliche Übertragung eines Betriebs zum Buchwert (§ 6 Abs. 3 S. 1 EStG).\n\nSpeichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+   ],
+   "quellen": [
+    "§ 1 UmwStG",
+    "§ 3 Abs. 1, 2 UmwStG",
+    "§ 11 Abs. 1, 2 UmwStG",
+    "§ 16 Abs. 1, 3 EStG",
+    "§ 11 KStG",
+    "§ 6 Abs. 3 S. 1 EStG"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-11",
+   "frage": [
+    "Anzahlung erhalten:",
+    "Wann entsteht die USt?"
+   ],
+   "optionen": [
+    "Erst mit der Leistung",
+    "Mit der Zahlung",
+    "Mit der Rechnung"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#6E4A33",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-quiz-k3-11",
+   "titel": [
+    "B: mit der",
+    "Zahlung"
+   ],
+   "optionen": [
+    "Erst mit der Leistung",
+    "Mit der Zahlung",
+    "Mit der Rechnung"
+   ],
+   "richtig": 1,
+   "text": "Genauer: mit Ablauf des Voranmeldungszeitraums, in dem die Anzahlung eingeht.",
+   "norm": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Afro",
+     "haut": "#6E4A33",
+     "haar": "#1E1E24",
+     "oberteil": "#F9D56E",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 1,
+   "beitragSlot": "b1",
+   "titel": [
+    "Beratung aus Wien"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 1,
+   "fach": "erbst",
+   "fachLabel": "Erbschaftsteuer",
+   "themaId": "erbst-modul-erbst-507",
+   "titel": [
+    "ErbSt-Tarif:",
+    "knapp drüber?"
+   ],
+   "norm": "§ 19 ErbStG",
+   "punkte": [
+    [
+     "Satz aus Wertstufe und Steuerklasse ablesen.",
+     "ok",
+     "§ 19 Abs. 1 ErbStG"
+    ],
+    [
+     "Knapp über einer Grenze: Härteausgleich rechnen.",
+     "warn",
+     "§ 19 Abs. 3 ErbStG"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Hijab",
+     "haut": "#C68E6A",
+     "oberteil": "#C9B8F2",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 2,
+   "beitragSlot": "b2",
+   "titel": [
+    "Freistellung? Anrechnung?"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Klausurtechnik",
+   "ueberzeile": "Klausurtechnik",
+   "titel": [
+    "Jede Teilfrage:",
+    "Ergebnis zuerst"
+   ],
+   "punkte": [
+    [
+     "Ein Satz Ergebnis vorweg.",
+     "ok",
+     null
+    ],
+    [
+     "Dann Norm, Merkmale, Betrag.",
+     "ok",
+     null
+    ],
+    [
+     "Auch ohne Endzahl gibt es Teilpunkte.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:checklist",
+   "iconFarbe": "GELB",
+   "figuren": {
+    "Z": {
+     "kopf": "Long Afro",
+     "haut": "#8D5A3B",
+     "haar": "#2B2B2B",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "figur": "Z/erklaert"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 2,
+   "fach": "kst",
+   "fachLabel": "Körperschaftsteuer",
+   "themaId": "kst-karte-kst-9",
+   "titel": [
+    "Verein:",
+    "wo wird es teuer?"
+   ],
+   "punkte": [
+    [
+     "Nur der wirtschaftliche Geschäftsbetrieb ist steuerpflichtig.",
+     "warn",
+     "§ 5 Abs. 1 Nr. 9 S. 2 KStG"
+    ],
+    [
+     "Einnahmen bis 50.000 € mit USt: keine KSt, keine GewSt.",
+     "ok",
+     "§ 64 Abs. 3 AO"
+    ]
+   ],
+   "icon": "tabler:ball-football",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 3,
+   "beitragSlot": "b3",
+   "titel": [
+    "Buchwert = steuerneutral?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-17",
+   "titel": [
+    "Steuerbilanz:",
+    "abzinsen?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Schulden",
+      "a"
+     ],
+     [
+      ": nicht mehr,",
+      null
+     ]
+    ],
+    [
+     [
+      "Rückstellungen",
+      "b"
+     ],
+     [
+      ":",
+      null
+     ]
+    ],
+    [
+     [
+      "weiter ",
+      null
+     ],
+     [
+      "5,5 %",
+      "c"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§ 6 Abs. 1 Nr. 3, 3a Buchst. e EStG",
+   "figuren": {
+    "M": {
+     "kopf": "Gray Bun",
+     "haut": "#F3D0B5",
+     "oberteil": "#F2B880",
+     "brille": "Glasses 3",
+     "bueste": "Shirt and Coat"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}

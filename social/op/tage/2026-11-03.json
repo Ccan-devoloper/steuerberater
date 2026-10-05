@@ -1,0 +1,1233 @@
+{
+ "datum": "2026-11-03",
+ "beitraege": [
+  {
+   "slot": "b1",
+   "zeit": "08:30",
+   "format": "rechenweg",
+   "klausur": 2,
+   "fach": "est",
+   "fachLabel": "Einkommensteuer",
+   "themaId": "est-aufb-est-ks2-15a-06",
+   "themaTitel": "Entnahmen des Kommanditisten: Wann droht eine Gewinnzurechnung?",
+   "figuren": {
+    "A": {
+     "name": "Wanda",
+     "kopf": "Long Afro",
+     "haut": "#8D5A3B",
+     "haar": "#1E1E24",
+     "oberteil": "#7FD6D0",
+     "bueste": "Device"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Rechenweg",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Entnahme",
+      "wird Gewinn?"
+     ],
+     "norm": "§ 15a Abs. 3 EStG",
+     "unter": "mit Zahlen",
+     "teaser": "+ Markier-Guide § 15a EStG",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "Entnahme",
+        "Bold",
+        44
+       ],
+       [
+        "20.000 €",
+        "ExtraBold",
+        96
+       ],
+       [
+        "= Gewinn?",
+        "ExtraBold",
+        54
+       ]
+      ]
+     },
+     "figur": "A:staunt"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Der Fall",
+     "punkte": [
+      [
+       "Wanda ist Kommanditistin einer KG, im Register steht eine Haftsumme von 10.000 €.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "2025 legt sie 50.000 € ein; ihr Verlustanteil von 50.000 € ist voll ausgleichsfähig.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "2026: kein Gewinnanteil, aber 20.000 € Entnahme.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Nur mein eigenes Geld!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Ihr Kapitalkonto",
+     "normen": [
+      "§ 15a Abs. 1 S. 1 EStG"
+     ],
+     "zeilen": [
+      [
+       "Einlage 2025",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Verlustanteil 2025",
+       "− 50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Stand Ende 2025",
+       "0 €",
+       "Bold",
+       null
+      ],
+      [
+       "Entnahme 2026",
+       "− 20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Stand Ende 2026",
+       "− 20.000 €",
+       "ExtraBold",
+       "GELB"
+      ]
+     ]
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jetzt du",
+     "punkte": [
+      [
+       "Die KG hat 2026 weder Gewinn noch Verlust. Muss Wanda trotzdem etwas versteuern?",
+       null,
+       "Bold",
+       null
+      ],
+      [
+       "Tipp: Schau auf ihre Haftung nach der Entnahme.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Ich habe doch nichts verdient?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Lösung: Haftung prüfen",
+     "punkte": [
+      [
+       "Zurückgezahlte Einlage gilt Gläubigern gegenüber als nicht geleistet.",
+       "ok",
+       "Regular",
+       "§ 172 Abs. 4 S. 1 HGB"
+      ],
+      [
+       "Verluste haben ihren Kapitalanteil auf 0 € gebracht: Die Entnahme ist Rückzahlung.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Haftung lebt wieder auf, höchstens bis zur Haftsumme: 10.000 €.",
+       "ok",
+       "Bold",
+       "§ 171 Abs. 1 HGB"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Haftung lebt auf!"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Lösung: Zurechnung",
+     "normen": [
+      "§ 15a Abs. 3 S. 1, 2, 4 EStG",
+      "BFH IV R 35/07"
+     ],
+     "zeilen": [
+      [
+       "Einlageminderung",
+       "20.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Wiederaufgelebte Haftung",
+       "− 10.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Grenze: Verluste 2016–2026",
+       "50.000 €",
+       "Regular",
+       null
+      ],
+      [
+       "Gewinn 2026 für Wanda",
+       "+ 10.000 €",
+       "ExtraBold",
+       "GELB"
+      ],
+      [
+       "Verrechenbarer Verlust",
+       "+ 10.000 €",
+       "Bold",
+       "GRUEN"
+      ]
+     ],
+     "figur": "A:sorge",
+     "x": 790,
+     "blase": "Steuer ohne Gewinn?"
+    },
+    {
+     "typ": "inhalt",
+     "falle": true,
+     "titel": "Haftsumme übersehen",
+     "punkte": [
+      [
+       "20.000 € zurechnen, weil 50.000 € eingezahlt sind: falsch.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Die Haftung, die durch die Entnahme wieder auflebt, sperrt die Zurechnung insoweit.",
+       "ok",
+       "Regular",
+       "§ 15a Abs. 3 S. 1 EStG"
+      ],
+      [
+       "Bei einer Haftsumme ab 20.000 € entfiele sie ganz.",
+       "warn",
+       "Regular",
+       "H 15a EStH"
+      ]
+     ],
+     "figur": "A:staunt",
+     "x": 790,
+     "blase": "Die Haftsumme entscheidet!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Wanda 2026: + 10.000 € Gewinn",
+      "und 10.000 € verrechenbarer Verlust für später",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Entnahme",
+        "a"
+       ],
+       [
+        " ins Minus:",
+        null
+       ]
+      ],
+      [
+       [
+        "Haftung",
+        "b"
+       ],
+       [
+        " lebt auf?",
+        null
+       ]
+      ],
+      [
+       [
+        "Rest: ",
+        null
+       ],
+       [
+        "fiktiver Gewinn",
+        "c"
+       ],
+       [
+        ",",
+        null
+       ]
+      ],
+      [
+       [
+        "später ",
+        null
+       ],
+       [
+        "verrechenbar",
+        "d"
+       ],
+       [
+        ".",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 2",
+     "frage": "Hättest du die Haftsumme geprüft?",
+     "teaser": "Weiterwischen: § 15a EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 15a EStG (Auszug)",
+     "absaetze": [
+      [
+       3,
+       [
+        [
+         "Soweit ein",
+         null
+        ],
+        [
+         "negatives Kapitalkonto",
+         "g1"
+        ],
+        [
+         "des Kommanditisten",
+         null
+        ],
+        [
+         "durch Entnahmen",
+         "b1"
+        ],
+        [
+         "entsteht oder sich erhöht (Einlageminderung) und soweit nicht auf Grund der Entnahmen eine nach Absatz 1 Satz 2 zu berücksichtigende",
+         null
+        ],
+        [
+         "Haftung",
+         "r1"
+        ],
+        [
+         "besteht oder entsteht, ist dem Kommanditisten der Betrag der Einlageminderung",
+         null
+        ],
+        [
+         "als Gewinn zuzurechnen.",
+         "gr1"
+        ],
+        [
+         "Der nach Satz 1 zuzurechnende Betrag darf den Betrag der Anteile am Verlust der Kommanditgesellschaft nicht übersteigen, der im Wirtschaftsjahr der Einlageminderung und",
+         null
+        ],
+        [
+         "in den zehn vorangegangenen Wirtschaftsjahren",
+         "b2"
+        ],
+        [
+         "ausgleichs- oder abzugsfähig gewesen ist. […] Die nach den Sätzen 1 bis 3 zuzurechnenden Beträge",
+         null
+        ],
+        [
+         "mindern die Gewinne,",
+         "g2"
+        ],
+        [
+         "die dem Kommanditisten im Wirtschaftsjahr der Zurechnung oder in späteren Wirtschaftsjahren aus seiner Beteiligung an der Kommanditgesellschaft zuzurechnen sind.",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "Auslöser",
+       "b1"
+      ],
+      [
+       "Gegenprobe!",
+       "r1"
+      ],
+      [
+       "Rechtsfolge",
+       "gr1"
+      ],
+      [
+       "Grenze 50.000 €",
+       "b2"
+      ],
+      [
+       "verrechenbar",
+       "g2"
+      ]
+     ],
+     "randnotiz": [
+      "Wanda 2026: + 10.000 € Gewinn",
+      "und 10.000 € verrechenbarer Verlust"
+     ]
+    }
+   ],
+   "caption": "Entnahme wird Gewinn? Der Rechenweg zur Einlageminderung des Kommanditisten nach § 15a Abs. 3 EStG.\n\nFall: Wanda, Kommanditistin, Haftsumme im Handelsregister 10.000 €. 2025 Einlage 50.000 €, Verlustanteil 50.000 € (voll ausgleichsfähig, § 15a Abs. 1 S. 1 EStG). 2026 Gewinnanteil 0 €, Entnahme 20.000 €: Kapitalkonto −20.000 €.\n\n▸ Haftung: Eine zurückgezahlte Einlage gilt den Gläubigern gegenüber als nicht geleistet (§ 172 Abs. 4 S. 1 HGB). Die Verluste haben Wandas Kapitalanteil auf 0 € gebracht, die Entnahme ist deshalb Einlagenrückgewähr: Ihre Haftung lebt bis zur Haftsumme wieder auf (§ 171 Abs. 1 HGB), hier 10.000 €.\n▸ Einlageminderung: Entsteht oder erhöht sich ein negatives Kapitalkonto durch Entnahmen, wird der Betrag als Gewinn zugerechnet, soweit nicht auf Grund der Entnahmen eine nach § 15a Abs. 1 S. 2 EStG zu berücksichtigende Haftung entsteht (§ 15a Abs. 3 S. 1 EStG). Wird eine die Haftsumme übersteigende Pflichteinlage entnommen, lebt diese Haftung bis zur Höhe der Haftsumme wieder auf (H 15a EStH; BFH vom 06.03.2008, IV R 35/07, BStBl II 2008, 676). Zurechnung: 20.000 € − 10.000 € = 10.000 €.\n▸ Grenze: Verlustanteile, die im Jahr der Einlageminderung und in den zehn vorangegangenen Wirtschaftsjahren ausgleichs- oder abzugsfähig waren (§ 15a Abs. 3 S. 2 EStG): hier 50.000 €, nicht überschritten.\n▸ Zugleich mindert der zugerechnete Betrag spätere Gewinne aus der Beteiligung (§ 15a Abs. 3 S. 4 EStG) – 10.000 € werden verrechenbarer Verlust (§ 15a Abs. 4 EStG).\n▸ Klausurfalle: Nicht auf die eingezahlten 50.000 € schauen, sondern auf den Kapitalanteil nach Verlusten und die Haftsumme. Ab einer Haftsumme von 20.000 € entfiele die Zurechnung ganz.\n\nZum Schluss: § 15a Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+   ],
+   "quellen": [
+    "§ 15a Abs. 1 S. 1, 2, Abs. 3 S. 1, 2, 4, Abs. 4 EStG",
+    "§ 171 Abs. 1 HGB",
+    "§ 172 Abs. 4 S. 1 HGB",
+    "BFH vom 06.03.2008, IV R 35/07, BStBl II 2008, 676",
+    "H 15a EStH (Gewinnhinzurechnung nach § 15a Abs. 3)"
+   ]
+  },
+  {
+   "slot": "b2",
+   "zeit": "13:30",
+   "format": "kurzvortrag",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-aufb-bil-melzer-12-02",
+   "themaTitel": "Welche Rückstellungen sind in der Steuerbilanz verboten?",
+   "figuren": {
+    "A": {
+     "name": "Juri",
+     "kopf": "Pomp",
+     "haut": "#F0C8A8",
+     "haar": "#5A3825",
+     "oberteil": "#C9B8F2",
+     "brille": "Glasses 5",
+     "bueste": "Button Shirt 2"
+    },
+    "B": {
+     "name": "Ewa",
+     "kopf": "Gray Medium",
+     "haut": "#E8B98F",
+     "oberteil": "#F4A3B5",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Kurzvortrag",
+     "badgeFarbe": "WEISS",
+     "zeilen": [
+      "Rückstellungen:",
+      "steuerlich tabu"
+     ],
+     "norm": "§ 5 Abs. 2a bis 4b EStG",
+     "unter": "10 Minuten",
+     "teaser": "+ Markier-Guide § 5 EStG",
+     "motiv": {
+      "typ": "icon",
+      "name": "tabler:presentation",
+      "farbe": "GELB"
+     },
+     "figur": "A:erklaert"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Gliederung für 10 Minuten",
+     "schritte": [
+      [
+       "Einstieg · 1 Minute",
+       "§ 5 Abs. 1 S. 1 EStG",
+       ""
+      ],
+      [
+       "Handelsrecht · 2 Minuten",
+       "§ 249 HGB",
+       ""
+      ],
+      [
+       "Steuerliche Verbote · 4 Minuten",
+       "§ 5 Abs. 2a bis 4b EStG",
+       ""
+      ],
+      [
+       "Bewertung · 2 Minuten",
+       "§ 6 Abs. 1 Nr. 3a EStG",
+       ""
+      ],
+      [
+       "Fazit · 1 Minute",
+       null,
+       ""
+      ]
+     ],
+     "teaser": "Am Ende: § 5 EStG markiert"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Einstieg",
+     "punkte": [
+      [
+       "Was die Handelsbilanz passivieren muss, gilt grundsätzlich auch steuerlich.",
+       "ok",
+       "Regular",
+       "§ 5 Abs. 1 S. 1 EStG"
+      ],
+      [
+       "Das EStG durchbricht das an mehreren Stellen ausdrücklich.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 790,
+     "blase": "Ich bin Juri und starte so."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Handelsrecht",
+     "punkte": [
+      [
+       "Pflicht: ungewisse Verbindlichkeiten und drohende Verluste aus schwebenden Geschäften.",
+       "ok",
+       "Regular",
+       "§ 249 Abs. 1 S. 1 HGB"
+      ],
+      [
+       "Pflicht: Instandhaltung, nachgeholt in drei Monaten; Kulanz.",
+       "ok",
+       "Regular",
+       "§ 249 Abs. 1 S. 2 HGB"
+      ],
+      [
+       "Für andere Zwecke: verboten.",
+       "nein",
+       "Bold",
+       "§ 249 Abs. 2 S. 1 HGB"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 290,
+     "blase": "Erst das HGB."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Steuerlich nie",
+     "punkte": [
+      [
+       "Drohende Verluste aus schwebenden Geschäften.",
+       "nein",
+       "Bold",
+       "§ 5 Abs. 4a S. 1 EStG"
+      ],
+      [
+       "Künftige Anschaffungs- oder Herstellungskosten.",
+       "nein",
+       "Bold",
+       "§ 5 Abs. 4b S. 1 EStG"
+      ],
+      [
+       "Nur aus künftigen Gewinnen zu zahlen: erst, wenn diese anfallen.",
+       "warn",
+       "Regular",
+       "§ 5 Abs. 2a EStG"
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Kernteil!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Steuerlich nur eng",
+     "punkte": [
+      [
+       "Fremde Schutzrechte: erst bei Anspruch oder ernsthafter Gefahr.",
+       "warn",
+       "Regular",
+       "§ 5 Abs. 3 EStG"
+      ],
+      [
+       "Jubiläum: mindestens 10 Jahre Dienst, Jubiläum ab 15 Jahren, schriftliche Zusage.",
+       "warn",
+       "Regular",
+       "§ 5 Abs. 4 EStG"
+      ],
+      [
+       "Pensionen: nur nach § 6a EStG.",
+       "warn",
+       "Regular",
+       "§ 6a Abs. 1 EStG"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 790,
+     "blase": "Hier zählen Bedingungen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Typische Nachfragen",
+     "punkte": [
+      [
+       "Instandhaltung im fünften Monat nachgeholt?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Keine Rückstellung, weder in Handels- noch in Steuerbilanz.",
+       "ok",
+       "Regular",
+       "§ 249 Abs. 2 S. 1 HGB"
+      ],
+      [
+       "Abzinsen?",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Mit 5,5 %, außer bei Laufzeit unter zwölf Monaten.",
+       "ok",
+       "Regular",
+       "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+      ]
+     ],
+     "figur": "B:fragt",
+     "x": 290,
+     "blase": "Ewa, Kommission: Nachfrage!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Fazit in einem Satz",
+      "HB-Pflicht gilt steuerlich, außer das EStG verbietet es",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Drohverlust",
+        "a"
+       ],
+       [
+        " nie,",
+        null
+       ]
+      ],
+      [
+       [
+        "künftige AK/HK",
+        "b"
+       ],
+       [
+        " nie,",
+        null
+       ]
+      ],
+      [
+       [
+        "Gewinnabhängiges",
+        "c"
+       ],
+       [
+        " später,",
+        null
+       ]
+      ],
+      [
+       [
+        "Jubiläum",
+        "d"
+       ],
+       [
+        " nur eng.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für Klausur 3",
+     "frage": "Schaffst du das in 10 Minuten?",
+     "teaser": "Weiterwischen: § 5 EStG markiert"
+    },
+    {
+     "typ": "gesetz",
+     "titel": "Im Gesetz markieren",
+     "kopf": "§ 5 EStG Gewinn bei Kaufleuten (Auszug)",
+     "absaetze": [
+      [
+       "(2a)",
+       [
+        [
+         "Für Verpflichtungen, die",
+         null
+        ],
+        [
+         "nur zu erfüllen sind, soweit künftig Einnahmen oder Gewinne anfallen,",
+         "b1"
+        ],
+        [
+         "sind Verbindlichkeiten oder Rückstellungen erst anzusetzen, wenn die Einnahmen oder Gewinne angefallen sind.",
+         null
+        ]
+       ]
+      ],
+      [
+       "(4a)",
+       [
+        [
+         "Rückstellungen für",
+         null
+        ],
+        [
+         "drohende Verluste aus schwebenden Geschäften",
+         "r1"
+        ],
+        [
+         "dürfen nicht gebildet werden.",
+         "gr1"
+        ],
+        [
+         "[…]",
+         null
+        ]
+       ]
+      ],
+      [
+       "(4b)",
+       [
+        [
+         "Rückstellungen für Aufwendungen, die in künftigen Wirtschaftsjahren als",
+         null
+        ],
+        [
+         "Anschaffungs- oder Herstellungskosten",
+         "g1"
+        ],
+        [
+         "eines Wirtschaftsguts zu aktivieren sind, dürfen nicht gebildet werden. […]",
+         null
+        ]
+       ]
+      ]
+     ],
+     "notizen": [
+      [
+       "erst später",
+       "b1"
+      ],
+      [
+       "HB: Pflicht!",
+       "r1"
+      ],
+      [
+       "Verbot",
+       "gr1"
+      ],
+      [
+       "Verbot",
+       "g1"
+      ]
+     ],
+     "randnotiz": [
+      "Mündliche Prüfung",
+      "Nur Gesetzestexte, keine Richtlinien oder Erlasse"
+     ]
+    }
+   ],
+   "caption": "Kurzvortrag für die mündliche Prüfung: Welche Rückstellungen sind in der Steuerbilanz verboten? So baust du zehn Minuten auf.\n\n1. Einstieg (1 Min.): Handelsrechtliche Passivierungspflichten gelten über die Maßgeblichkeit auch steuerlich (§ 5 Abs. 1 S. 1 EStG), soweit das EStG nichts anderes bestimmt.\n2. Handelsrecht (2 Min.): Pflicht für ungewisse Verbindlichkeiten und drohende Verluste aus schwebenden Geschäften (§ 249 Abs. 1 S. 1 HGB), für Instandhaltung mit Nachholung in drei Monaten, Abraumbeseitigung im Folgejahr und Kulanzgewährleistungen (§ 249 Abs. 1 S. 2 HGB); andere Rückstellungen sind verboten (§ 249 Abs. 2 S. 1 HGB).\n3. Steuerliche Verbote (4 Min.): keine Drohverlustrückstellung (§ 5 Abs. 4a S. 1 EStG), keine Rückstellung für künftige Anschaffungs- oder Herstellungskosten (§ 5 Abs. 4b S. 1 EStG), gewinnabhängige Verpflichtungen erst bei Anfall der Gewinne (§ 5 Abs. 2a EStG). Eng: Schutzrechtsverletzungen (§ 5 Abs. 3 EStG), Dienstjubiläen (§ 5 Abs. 4 EStG), Pensionen (§ 6a EStG).\n4. Bewertung (2 Min.): Grundsätze des § 6 Abs. 1 Nr. 3a EStG, Abzinsung mit 5,5 %, außer bei Laufzeit unter zwölf Monaten (Buchst. e).\n5. Fazit (1 Min.): HB-Pflicht wirkt steuerlich, außer ein Vorbehalt des EStG greift.\n\nTypische Nachfragen: Instandhaltung erst im fünften Monat nachgeholt? Was wird abgezinst?\nIn der mündlichen Prüfung gibt es nur Gesetzestexte.\n\nZum Schluss: § 5 EStG zum Markieren. Speichern für Klausur 3 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+   ],
+   "quellen": [
+    "§ 5 Abs. 1 S. 1, Abs. 2a, 3, 4, 4a, 4b EStG",
+    "§ 6 Abs. 1 Nr. 3a EStG",
+    "§ 6a EStG",
+    "§ 249 Abs. 1, 2 HGB"
+   ]
+  },
+  {
+   "slot": "b3",
+   "zeit": "19:00",
+   "format": "reel",
+   "reelTyp": "gegensatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-327",
+   "themaTitel": "Fehlerhafter Bescheid: erst Einspruch, dann Korrekturnorm, zuletzt Saldierung",
+   "figuren": {
+    "A": {
+     "name": "Lotta",
+     "kopf": "Medium Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15A",
+     "oberteil": "#F9D56E",
+     "bueste": "Paper"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Fehler im Steuerbescheid. Einspruch offen: alles offen. Bestandskräftig: nur mit Korrekturnorm."
+    },
+    {
+     "id": "s1",
+     "text": "Im Einspruch prüft das Finanzamt die Sache voll neu. Sogar eine Verböserung ist möglich, aber erst nach Hinweis."
+    },
+    {
+     "id": "s2",
+     "text": "Nach Bestandskraft braucht jeder Fehler seine eigene Änderungsnorm, und die Festsetzungsfrist muss noch laufen."
+    },
+    {
+     "id": "s3",
+     "text": "Wird geändert, saldiert Paragraf hundertsiebenundsiebzig andere Fehler mit, aber nur im Rahmen der Änderung."
+    },
+    {
+     "id": "cta",
+     "text": "Merke: Einspruch vor Änderungsnorm, Saldierung zuletzt."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Bescheid falsch:",
+     "was geht noch?"
+    ],
+    "pille": "§§ 172 bis 177 AO",
+    "figur": "A/sorge",
+    "name": "Lotta",
+    "icons": [
+     [
+      "tabler:file-alert",
+      "GELB",
+      "Einspruch"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Einspruch offen",
+      "wert": "alles offen",
+      "farbe": "GRUEN",
+      "wort": "Einspruch"
+     },
+     {
+      "label": "Bestandskräftig",
+      "wert": "nur mit Norm",
+      "farbe": "GELB",
+      "wort": "Bestandskräftig"
+     }
+    ],
+    "stempel": {
+     "text": "Reihenfolge!",
+     "wort": "Korrekturnorm"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Einspruch läuft",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Prüfung",
+       "wert": "in vollem Umfang",
+       "farbe": "GRUEN",
+       "wort": "prüft",
+       "zs": 84
+      },
+      {
+       "typ": "text",
+       "text": "Verböserung möglich",
+       "unter": "nur nach Hinweis",
+       "wort": "Verböserung",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 367 Abs. 2 AO",
+       "wort": "Hinweis"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Einspruch"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Bestandskräftig",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Je Fehler",
+       "wert": "eigene Norm",
+       "farbe": "GELB",
+       "wort": "jeder",
+       "zs": 100
+      },
+      {
+       "typ": "text",
+       "text": "Frist offen?",
+       "unter": "Festsetzungsfrist prüfen",
+       "wort": "Festsetzungsfrist",
+       "farbe": "WEISS",
+       "ls": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§§ 169, 172 ff. AO",
+       "wort": "Änderungsnorm"
+      }
+     ],
+     "icon": [
+      "tabler:lock",
+      "GELB",
+      "Bestandskraft"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Zuletzt saldieren",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Andere Fehler",
+       "wert": "mitberichtigen",
+       "farbe": "WEISS",
+       "wort": "saldiert",
+       "zs": 84
+      },
+      {
+       "typ": "pille",
+       "text": "nur so weit die Änderung reicht",
+       "farbe": "GELB",
+       "wort": "Rahmen"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 177 AO",
+       "wort": "Paragraf"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "Rahmen",
+       0.9
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Einspruch",
+     "vor Änderungsnorm,",
+     "Saldierung",
+     "zuletzt"
+    ],
+    "woerter": [
+     "Einspruch",
+     "Änderungsnorm",
+     "Saldierung",
+     "zuletzt"
+    ],
+    "cta": "Speichern für Klausur 1",
+    "cta_wort": "zuletzt",
+    "hinweis": "Alle Fundstellen in der Beschreibung"
+   },
+   "caption": "Fehler im Steuerbescheid – was geht noch? Einspruch und Änderung im Vergleich. ⚖️\n\n▸ Einspruch zulässig und offen: Die Finanzbehörde prüft die Sache in vollem Umfang erneut; eine Verböserung ist nur nach Hinweis mit Gründen und Gelegenheit zur Äußerung möglich (§ 367 Abs. 2 S. 1, 2 AO).\n▸ Bescheid bestandskräftig: Änderung nur, wenn für den konkreten Fehler eine Korrekturvorschrift greift (z. B. §§ 129, 164 Abs. 2, 172 bis 175 AO) und die Festsetzungsfrist noch läuft (§§ 169 bis 171 AO).\n▸ Wird geändert, sind andere materielle Fehler zugunsten und zuungunsten mitzuberichtigen, soweit die Änderung reicht (§ 177 Abs. 1 bis 3 AO). § 177 AO ist keine eigene Änderungsnorm.\n\nSpeichern für Klausur 1 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+   ],
+   "quellen": [
+    "§ 367 Abs. 2 AO",
+    "§§ 129, 164, 172 bis 175 AO",
+    "§§ 169 bis 171 AO",
+    "§ 177 AO"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "slot": "s4",
+   "zeit": "07:07",
+   "art": "frage",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-7",
+   "frage": [
+    "Bauleistung an Baufirma:",
+    "Wer schuldet die USt?"
+   ],
+   "optionen": [
+    "Immer der Leistende",
+    "Der Empfänger, wenn er selbst nachhaltig baut",
+    "Beide gemeinsam"
+   ],
+   "figuren": {
+    "Q": {
+     "kopf": "Turban",
+     "haut": "#9C6B4A",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 4",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:denkt"
+  },
+  {
+   "slot": "s5",
+   "zeit": "07:09",
+   "art": "antwort",
+   "klausur": 1,
+   "fach": "ust",
+   "fachLabel": "Umsatzsteuer",
+   "themaId": "ust-quiz-ust-7",
+   "titel": [
+    "B: der bauende",
+    "Empfänger"
+   ],
+   "optionen": [
+    "Immer der Leistende",
+    "Der Empfänger, wenn er selbst nachhaltig baut",
+    "Beide gemeinsam"
+   ],
+   "richtig": 1,
+   "text": "Erbringt der Empfänger selbst nachhaltig Bauleistungen, schuldet er die Steuer.",
+   "norm": "§ 13b Abs. 2 Nr. 4, Abs. 5 S. 2 UStG",
+   "figuren": {
+    "Q": {
+     "kopf": "Turban",
+     "haut": "#9C6B4A",
+     "oberteil": "#F4A3B5",
+     "bart": "Full 4",
+     "bueste": "Striped Tee"
+    }
+   },
+   "figur": "Q:froh"
+  },
+  {
+   "slot": "s1",
+   "zeit": "08:30",
+   "art": "teaser",
+   "klausur": 2,
+   "fachLabel": "Einkommensteuer",
+   "beitragSlot": "b1",
+   "titel": [
+    "Entnahme wird Gewinn?"
+   ],
+   "unter": "Rechenweg + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s6",
+   "zeit": "12:14",
+   "art": "norm",
+   "klausur": 2,
+   "fach": "istr",
+   "fachLabel": "Internationales Steuerrecht",
+   "themaId": "istr-modul-istr-istr2-07",
+   "titel": [
+    "Arbeiten im",
+    "Ausland?"
+   ],
+   "norm": "Art. 15 OECD-MA",
+   "punkte": [
+    [
+     "Arbeitslohn darf der Staat besteuern, in dem gearbeitet wird.",
+     "ok",
+     "Art. 15 Abs. 1 OECD-MA"
+    ],
+    [
+     "Wohnsitzstaat nur, wenn alle drei Bedingungen erfüllt sind.",
+     "warn",
+     "Art. 15 Abs. 2 OECD-MA"
+    ]
+   ],
+   "figuren": {
+    "N": {
+     "kopf": "Short 4",
+     "haut": "#6B4226",
+     "oberteil": "#8DB3F2",
+     "bart": "Moustache 3",
+     "bueste": "Polo and Sweater"
+    }
+   },
+   "figur": "N:erklaert"
+  },
+  {
+   "slot": "s2",
+   "zeit": "13:30",
+   "art": "teaser",
+   "klausur": 3,
+   "fachLabel": "Bilanzsteuerrecht",
+   "beitragSlot": "b2",
+   "titel": [
+    "Rückstellungen: steuerlich tabu"
+   ],
+   "unter": "Kurzvortrag + Markier-Guide · im Profil"
+  },
+  {
+   "slot": "s7",
+   "zeit": "14:40",
+   "art": "tipp",
+   "klausur": 0,
+   "fachLabel": "Klausurtechnik",
+   "titel": [
+    "Normen zitieren:",
+    "so genau wie möglich"
+   ],
+   "punkte": [
+    [
+     "Absatz, Satz und Nummer nennen.",
+     "ok",
+     null
+    ],
+    [
+     "Erst Tatbestand prüfen, dann Rechtsfolge.",
+     "ok",
+     null
+    ],
+    [
+     "Jedes Teilergebnis in einem Satz festhalten.",
+     "ok",
+     null
+    ]
+   ],
+   "icon": "tabler:section-sign",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s8",
+   "zeit": "17:04",
+   "art": "tipp",
+   "klausur": 3,
+   "fach": "bilanz",
+   "fachLabel": "Bilanzsteuerrecht",
+   "themaId": "bilanz-karte-k3-23",
+   "titel": [
+    "Buchung:",
+    "für welche Bilanz?"
+   ],
+   "punkte": [
+    [
+     "Für Handels- und Steuerbilanz?",
+     "ok",
+     null
+    ],
+    [
+     "Nur Handelsbilanz, etwa beim Drohverlust?",
+     "warn",
+     "§ 5 Abs. 4a EStG"
+    ],
+    [
+     "Nur Steuerbilanz? Immer dazuschreiben.",
+     "warn",
+     null
+    ]
+   ],
+   "icon": "tabler:arrows-split",
+   "iconFarbe": "GELB"
+  },
+  {
+   "slot": "s3",
+   "zeit": "19:00",
+   "art": "teaser",
+   "klausur": 1,
+   "fachLabel": "Abgabenordnung",
+   "beitragSlot": "b3",
+   "titel": [
+    "Bescheid falsch: was geht noch?"
+   ],
+   "unter": "Neues Reel · im Profil"
+  },
+  {
+   "slot": "s9",
+   "zeit": "19:12",
+   "art": "merksatz",
+   "klausur": 1,
+   "fach": "ao",
+   "fachLabel": "Abgabenordnung",
+   "themaId": "ao-modul-ao-328",
+   "titel": [
+    "Mehrere Fehler",
+    "im Bescheid?"
+   ],
+   "zeilen": [
+    [
+     [
+      "Jeder Fehler braucht",
+      null
+     ]
+    ],
+    [
+     [
+      "seine ",
+      null
+     ],
+     [
+      "eigene Norm",
+      "a"
+     ]
+    ],
+    [
+     [
+      "und eine ",
+      null
+     ],
+     [
+      "offene Frist",
+      "b"
+     ],
+     [
+      ".",
+      null
+     ]
+    ]
+   ],
+   "norm": "§§ 169, 172 ff. AO",
+   "figuren": {
+    "M": {
+     "kopf": "Bun 2",
+     "haut": "#C68E62",
+     "haar": "#2B1B12",
+     "oberteil": "#9AD48F",
+     "bueste": "Sweater"
+    }
+   },
+   "figur": "M:ernst"
+  }
+ ]
+}
