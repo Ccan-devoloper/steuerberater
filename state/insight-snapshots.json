@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-05T17:45:29.623Z",
+  "stand": "2026-10-05T18:45:43.471Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -16055,6 +16055,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-05T18:45:42.343Z",
+          "alterStunden": 8.8,
+          "reach": 60,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -16156,6 +16168,62 @@
           "ig_reels_avg_watch_time": 17818,
           "ig_reels_video_view_total_time": 409831,
           "reels_skip_rate": 16.9
+        }
+      ]
+    },
+    "18119814556993208": {
+      "art": "story",
+      "datum": "2026-10-05",
+      "titel": null,
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T17:00:26.696Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T18:45:37.823Z",
+          "alterStunden": 1.8,
+          "reach": 18,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 17
+        }
+      ]
+    },
+    "18014806823752184": {
+      "art": "story",
+      "datum": "2026-10-05",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T17:12:04.263Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T18:45:37.823Z",
+          "alterStunden": 1.6,
+          "reach": 16,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 15,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 1
         }
       ]
     }
@@ -17134,6 +17202,11 @@
     {
       "stand": "2026-10-05T17:00:36.640Z",
       "follower": 117,
+      "medien": 89
+    },
+    {
+      "stand": "2026-10-05T18:45:43.471Z",
+      "follower": 121,
       "medien": 89
     }
   ]

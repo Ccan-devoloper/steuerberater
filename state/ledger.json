@@ -8146,7 +8146,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 60,
         "saved": 2,
         "shares": 0,
         "likes": 2,
@@ -8155,8 +8155,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T15:45:31.446Z",
-      "insightsAlterStunden": 5.8
+      "insightsStand": "2026-10-05T18:45:42.343Z",
+      "insightsAlterStunden": 8.8
     },
     {
       "datum": "2026-10-05",
@@ -8318,7 +8318,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "est",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 18,
+        "views": 23,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 20,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 17
+      },
+      "insightsStand": "2026-10-05T18:45:37.823Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-05",
@@ -8330,7 +8345,24 @@
       "storyArt": "merksatz",
       "thema": "kst-karte-kst-1",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 21,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 15,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-05T18:45:37.823Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {
