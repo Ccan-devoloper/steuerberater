@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-05T10:44:48.708Z",
+  "stand": "2026-10-05T11:44:57.802Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -15117,6 +15117,23 @@
           "navigation_tap_forward": 38,
           "navigation_tap_exit": 5,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-10-05T11:44:52.401Z",
+          "alterStunden": 23,
+          "reach": 47,
+          "views": 58,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 52,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 39,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -15193,6 +15210,23 @@
           "navigation": 47,
           "navigation_tap_back": 6,
           "navigation_tap_forward": 35,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-05T11:44:52.401Z",
+          "alterStunden": 20,
+          "reach": 43,
+          "views": 61,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 49,
+          "navigation_tap_back": 6,
+          "navigation_tap_forward": 37,
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 1
         }
@@ -15551,6 +15585,86 @@
           "likes": 3,
           "comments": 0,
           "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
+    },
+    "18023877764865134": {
+      "art": "story",
+      "datum": "2026-10-05",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T10:00:18.944Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T11:44:52.401Z",
+          "alterStunden": 1.7,
+          "reach": 16,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 17,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18137447422722405": {
+      "art": "story",
+      "datum": "2026-10-05",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T10:14:03.327Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T11:44:52.401Z",
+          "alterStunden": 1.5,
+          "reach": 17,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_tap_back": 4,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 14
+        }
+      ]
+    },
+    "18046686248818571": {
+      "art": "beitrag",
+      "datum": "2026-10-05",
+      "titel": "Klausurfalle",
+      "format": "fehlerfalle",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-05T10:00:06.244Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-05T11:44:57.125Z",
+          "alterStunden": 1.7,
+          "reach": 27,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
           "follows": 0,
           "profile_visits": 1
         }
@@ -16500,6 +16614,11 @@
     },
     {
       "stand": "2026-10-05T10:44:48.708Z",
+      "follower": 118,
+      "medien": 88
+    },
+    {
+      "stand": "2026-10-05T11:44:57.802Z",
       "follower": 118,
       "medien": 88
     }
