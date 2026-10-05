@@ -98,8 +98,9 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "ust-karte-ust-0",
-      "status": "sendet",
-      "sendeversuch": "2026-10-05T15:04:00.101Z"
+      "status": "veroeffentlicht",
+      "medienId": "17950952205314611",
+      "veroeffentlicht": "2026-10-05T15:04:04.012Z"
     },
     {
       "slot": "s3",
