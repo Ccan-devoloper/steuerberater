@@ -8026,10 +8026,32 @@
       "thema": "kst-quiz-kst-1",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "b1",
+      "medienId": "17870727915648276",
+      "veroeffentlicht": "2026-10-05T06:30:04.719Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "anlass",
+      "thema": "persg-aufb-persg-melzer-1-2",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Morgen geht's los",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 10,
+    "persg": 11,
     "ust": 8,
     "kst": 8,
     "ao": 18,
