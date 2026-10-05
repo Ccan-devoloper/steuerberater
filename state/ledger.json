@@ -6543,17 +6543,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 60,
+        "reach": 73,
         "saved": 2,
-        "shares": 0,
+        "shares": 1,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 2
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-04T05:44:39.094Z",
-      "insightsAlterStunden": 72
+      "insightsStand": "2026-10-05T05:44:43.421Z",
+      "insightsAlterStunden": 96
     },
     {
       "datum": "2026-10-01",
@@ -6661,7 +6661,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 46,
+        "reach": 48,
         "saved": 3,
         "shares": 0,
         "likes": 0,
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-04T05:44:39.094Z",
-      "insightsAlterStunden": 70
+      "insightsStand": "2026-10-05T05:44:43.421Z",
+      "insightsAlterStunden": 94
     },
     {
       "datum": "2026-10-01",
