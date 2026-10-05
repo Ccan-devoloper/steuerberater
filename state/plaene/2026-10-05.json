@@ -89,7 +89,8 @@
       "slot": "s7",
       "zeit": "14:40",
       "art": "countdown",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-05T12:40:00.057Z"
     },
     {
       "slot": "s8",
