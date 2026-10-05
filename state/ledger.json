@@ -8305,6 +8305,18 @@
       "thema": null,
       "fach": "est",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "s9",
+      "medienId": "18014806823752184",
+      "veroeffentlicht": "2026-10-05T17:12:04.263Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "kst-karte-kst-1",
+      "fach": "kst",
+      "titel": ""
     }
   ],
   "fachZaehler": {

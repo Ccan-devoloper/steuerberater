@@ -118,8 +118,9 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "kst-karte-kst-1",
-      "status": "sendet",
-      "sendeversuch": "2026-10-05T17:12:00.100Z"
+      "status": "veroeffentlicht",
+      "medienId": "18014806823752184",
+      "veroeffentlicht": "2026-10-05T17:12:04.263Z"
     }
   ]
 }
