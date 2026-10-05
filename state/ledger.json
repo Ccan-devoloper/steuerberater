@@ -8048,6 +8048,18 @@
         "#examensvorbereitung",
         "#prüfungstag"
       ]
+    },
+    {
+      "datum": "2026-10-05",
+      "slot": "s1",
+      "medienId": "18108147317246014",
+      "veroeffentlicht": "2026-10-05T06:30:15.508Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
