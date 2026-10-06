@@ -6810,19 +6810,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 158,
+        "reach": 164,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 202,
-        "ig_reels_avg_watch_time": 5355,
-        "ig_reels_video_view_total_time": 899700,
-        "reels_skip_rate": 72.6
+        "views": 212,
+        "ig_reels_avg_watch_time": 5502,
+        "ig_reels_video_view_total_time": 951976,
+        "reels_skip_rate": 72.2
       },
-      "insightsStand": "2026-10-05T13:45:02.931Z",
-      "insightsAlterStunden": 92
+      "insightsStand": "2026-10-06T13:45:10.116Z",
+      "insightsAlterStunden": 116
     },
     {
       "datum": "2026-10-01",
@@ -7143,7 +7143,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -7152,8 +7152,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T13:45:02.931Z",
-      "insightsAlterStunden": 71
+      "insightsStand": "2026-10-06T13:45:10.116Z",
+      "insightsAlterStunden": 95
     },
     {
       "datum": "2026-10-02",
@@ -7447,7 +7447,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 66,
+        "reach": 77,
         "saved": 1,
         "shares": 0,
         "likes": 4,
@@ -7456,8 +7456,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-05T13:45:02.931Z",
-      "insightsAlterStunden": 50
+      "insightsStand": "2026-10-06T13:45:10.116Z",
+      "insightsAlterStunden": 74
     },
     {
       "datum": "2026-10-03",
@@ -8386,7 +8386,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#prüfungstag"
-      ]
+      ],
+      "insights": {
+        "reach": 19,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-06T13:45:10.116Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-06",
@@ -8398,7 +8410,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 8,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 6
+      },
+      "insightsStand": "2026-10-06T13:45:06.086Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-06",
@@ -8410,7 +8438,22 @@
       "storyArt": "anlass",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 6,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 6,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 5
+      },
+      "insightsStand": "2026-10-06T13:45:06.086Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-06",
@@ -8422,7 +8465,23 @@
       "storyArt": "anlass",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 6,
+        "views": 10,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 9,
+        "navigation_tap_forward": 5,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-06T13:45:06.086Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {

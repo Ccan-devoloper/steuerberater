@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-06T12:45:08.756Z",
+  "stand": "2026-10-06T13:45:12.243Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -11864,6 +11864,20 @@
           "ig_reels_avg_watch_time": 5355,
           "ig_reels_video_view_total_time": 899700,
           "reels_skip_rate": 72.6
+        },
+        {
+          "stand": "2026-10-06T13:45:10.116Z",
+          "alterStunden": 116,
+          "reach": 164,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 212,
+          "ig_reels_avg_watch_time": 5502,
+          "ig_reels_video_view_total_time": 951976,
+          "reels_skip_rate": 72.2
         }
       ]
     },
@@ -12906,6 +12920,18 @@
           "total_interactions": 1,
           "follows": 1,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-06T13:45:10.116Z",
+          "alterStunden": 95,
+          "reach": 56,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 1,
+          "profile_visits": 1
         }
       ]
     },
@@ -13895,6 +13921,18 @@
           "stand": "2026-10-05T13:45:02.931Z",
           "alterStunden": 50,
           "reach": 66,
+          "saved": 1,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-06T13:45:10.116Z",
+          "alterStunden": 74,
+          "reach": 77,
           "saved": 1,
           "shares": 0,
           "likes": 4,
@@ -16524,6 +16562,113 @@
           "navigation_tap_exit": 16
         }
       ]
+    },
+    "17982133400904654": {
+      "art": "story",
+      "datum": "2026-10-06",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-06T12:14:38.721Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-06T13:45:06.086Z",
+          "alterStunden": 1.5,
+          "reach": 8,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 8,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 6
+        }
+      ]
+    },
+    "18344959018255880": {
+      "art": "story",
+      "datum": "2026-10-06",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-06T12:14:51.116Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-06T13:45:06.086Z",
+          "alterStunden": 1.5,
+          "reach": 6,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 6,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 5
+        }
+      ]
+    },
+    "18116737969791394": {
+      "art": "story",
+      "datum": "2026-10-06",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-06T12:15:03.288Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-06T13:45:06.086Z",
+          "alterStunden": 1.5,
+          "reach": 6,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 9,
+          "navigation_tap_forward": 5,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18432980491198716": {
+      "art": "beitrag",
+      "datum": "2026-10-06",
+      "titel": "Prüfungstag 1",
+      "format": "anlass",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-06T12:14:26.540Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-06T13:45:10.116Z",
+          "alterStunden": 1.5,
+          "reach": 19,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -17515,6 +17660,11 @@
     {
       "stand": "2026-10-06T12:15:14.012Z",
       "follower": 132,
+      "medien": 90
+    },
+    {
+      "stand": "2026-10-06T13:45:12.243Z",
+      "follower": 134,
       "medien": 90
     }
   ]
