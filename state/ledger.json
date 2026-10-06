@@ -8409,6 +8409,18 @@
       "thema": null,
       "fach": null,
       "titel": ""
+    },
+    {
+      "datum": "2026-10-06",
+      "slot": "s7",
+      "medienId": "18116737969791394",
+      "veroeffentlicht": "2026-10-06T12:15:03.288Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "anlass",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
