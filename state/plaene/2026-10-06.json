@@ -12,7 +12,8 @@
       "themaTitel": "Heute ist Tag 1: ruhig starten",
       "fach": null,
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-06T12:14:20.552Z"
     },
     {
       "slot": "b2",
