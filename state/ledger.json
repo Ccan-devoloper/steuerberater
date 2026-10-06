@@ -8255,22 +8255,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 48,
-        "views": 67,
+        "reach": 55,
+        "views": 72,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 37,
+        "navigation": 59,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 42,
         "navigation_tap_exit": 9,
         "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-06T12:15:04.539Z",
-      "insightsAlterStunden": 21.2
+      "insightsStand": "2026-10-06T14:30:20.038Z",
+      "insightsAlterStunden": 23.4
     },
     {
       "datum": "2026-10-05",
@@ -8320,22 +8320,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 41,
-        "views": 52,
+        "reach": 46,
+        "views": 56,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 53,
+        "navigation": 58,
         "navigation_tap_exit": 4,
-        "navigation_tap_forward": 35,
+        "navigation_tap_forward": 40,
         "navigation_tap_back": 12,
         "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-06T12:15:04.539Z",
-      "insightsAlterStunden": 19.2
+      "insightsStand": "2026-10-06T14:30:20.038Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-05",
@@ -8349,22 +8349,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 43,
-        "views": 59,
+        "reach": 49,
+        "views": 66,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 54,
-        "navigation_swipe_forward": 4,
+        "navigation": 62,
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 39,
         "navigation_tap_back": 1,
-        "navigation_tap_forward": 33,
-        "navigation_tap_exit": 16
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-10-06T12:15:04.539Z",
-      "insightsAlterStunden": 19.1
+      "insightsStand": "2026-10-06T14:30:20.038Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-10-06",
