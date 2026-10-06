@@ -8543,6 +8543,28 @@
       },
       "insightsStand": "2026-10-06T15:52:34.028Z",
       "insightsAlterStunden": 1.4
+    },
+    {
+      "datum": "2026-10-06",
+      "slot": "b3",
+      "medienId": "18160380763496002",
+      "veroeffentlicht": "2026-10-06T17:30:10.354Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:30",
+      "stunde": 19,
+      "format": "reel",
+      "thema": null,
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Tag 2: drei Dauerbrenner für morgen",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#ertragsteuern"
+      ]
     }
   ],
   "fachZaehler": {
