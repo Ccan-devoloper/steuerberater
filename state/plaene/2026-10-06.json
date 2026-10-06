@@ -24,8 +24,9 @@
       "themaTitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
       "fach": null,
       "klausur": 1,
-      "status": "sendet",
-      "sendeversuch": "2026-10-06T14:30:00.007Z"
+      "status": "veroeffentlicht",
+      "medienId": "18132040015679391",
+      "veroeffentlicht": "2026-10-06T14:30:05.724Z"
     },
     {
       "slot": "b3",
