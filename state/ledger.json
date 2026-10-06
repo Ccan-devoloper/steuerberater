@@ -8567,7 +8567,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#ertragsteuern"
-      ]
+      ],
+      "insights": {
+        "reach": 44,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 119,
+        "ig_reels_avg_watch_time": 14206,
+        "ig_reels_video_view_total_time": 610890,
+        "reels_skip_rate": 32.4
+      },
+      "insightsStand": "2026-10-06T18:36:59.186Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-06",
@@ -8579,7 +8593,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "est",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 20,
+        "views": 29,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 23,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-06T18:36:57.716Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {

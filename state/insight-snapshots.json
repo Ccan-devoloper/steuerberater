@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-06T17:45:15.380Z",
+  "stand": "2026-10-06T18:37:00.426Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -16959,6 +16959,61 @@
           "profile_visits": 2
         }
       ]
+    },
+    "18036426488655202": {
+      "art": "story",
+      "datum": "2026-10-06",
+      "titel": null,
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-06T17:30:24.548Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-06T18:36:57.716Z",
+          "alterStunden": 1.1,
+          "reach": 20,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 13,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18160380763496002": {
+      "art": "beitrag",
+      "datum": "2026-10-06",
+      "titel": "Tag 2: drei Dauerbrenner für morgen",
+      "format": "reel",
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-06T17:30:10.354Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-06T18:36:59.186Z",
+          "alterStunden": 1.1,
+          "reach": 44,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 119,
+          "ig_reels_avg_watch_time": 14206,
+          "ig_reels_video_view_total_time": 610890,
+          "reels_skip_rate": 32.4
+        }
+      ]
     }
   },
   "konto": [
@@ -17975,6 +18030,11 @@
     {
       "stand": "2026-10-06T17:45:15.380Z",
       "follower": 135,
+      "medien": 92
+    },
+    {
+      "stand": "2026-10-06T18:37:00.426Z",
+      "follower": 136,
       "medien": 92
     }
   ]
