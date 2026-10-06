@@ -8508,17 +8508,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 66,
+        "reach": 100,
         "saved": 3,
         "shares": 0,
         "likes": 7,
         "comments": 0,
         "total_interactions": 10,
-        "follows": 0,
-        "profile_visits": 2
+        "follows": 1,
+        "profile_visits": 5
       },
-      "insightsStand": "2026-10-06T17:30:25.831Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-06T19:44:40.490Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-06",
