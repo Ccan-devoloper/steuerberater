@@ -6449,19 +6449,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 113,
+        "reach": 119,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 165,
-        "ig_reels_avg_watch_time": 9845,
-        "ig_reels_video_view_total_time": 1191252,
-        "reels_skip_rate": 62.8
+        "views": 173,
+        "ig_reels_avg_watch_time": 9552,
+        "ig_reels_video_view_total_time": 1213199,
+        "reels_skip_rate": 64.7
       },
-      "insightsStand": "2026-10-05T15:45:31.446Z",
-      "insightsAlterStunden": 118.7
+      "insightsStand": "2026-10-06T15:52:36.261Z",
+      "insightsAlterStunden": 142.8
     },
     {
       "datum": "2026-09-30",
@@ -7206,19 +7206,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 94,
+        "reach": 103,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 137,
-        "ig_reels_avg_watch_time": 12018,
-        "ig_reels_video_view_total_time": 1334056,
-        "reels_skip_rate": 63.3
+        "views": 148,
+        "ig_reels_avg_watch_time": 12241,
+        "ig_reels_video_view_total_time": 1456791,
+        "reels_skip_rate": 63.2
       },
-      "insightsStand": "2026-10-05T15:45:31.446Z",
-      "insightsAlterStunden": 70
+      "insightsStand": "2026-10-06T15:52:36.261Z",
+      "insightsAlterStunden": 94.1
     },
     {
       "datum": "2026-10-02",
@@ -8294,19 +8294,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 235,
+        "reach": 244,
         "saved": 2,
         "shares": 2,
         "likes": 4,
         "comments": 0,
         "total_interactions": 8,
-        "views": 305,
-        "ig_reels_avg_watch_time": 7827,
-        "ig_reels_video_view_total_time": 1870704,
+        "views": 321,
+        "ig_reels_avg_watch_time": 7763,
+        "ig_reels_video_view_total_time": 1971965,
         "reels_skip_rate": 68.4
       },
-      "insightsStand": "2026-10-06T12:45:08.756Z",
-      "insightsAlterStunden": 19.7
+      "insightsStand": "2026-10-06T15:52:36.261Z",
+      "insightsAlterStunden": 22.9
     },
     {
       "datum": "2026-10-05",
@@ -8388,17 +8388,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 19,
+        "reach": 48,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-06T13:45:10.116Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-10-06T15:52:36.261Z",
+      "insightsAlterStunden": 3.6
     },
     {
       "datum": "2026-10-06",
@@ -8503,7 +8503,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#prüfungstag"
-      ]
+      ],
+      "insights": {
+        "reach": 35,
+        "saved": 0,
+        "shares": 0,
+        "likes": 3,
+        "comments": 0,
+        "total_interactions": 3,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-10-06T15:52:36.261Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-06",
@@ -8515,7 +8527,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 23,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 4,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 8
+      },
+      "insightsStand": "2026-10-06T15:52:34.028Z",
+      "insightsAlterStunden": 1.4
     }
   ],
   "fachZaehler": {
