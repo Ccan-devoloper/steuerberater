@@ -59,7 +59,8 @@
       "slot": "s7",
       "zeit": "12:00",
       "art": "anlass",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-06T12:15:00.123Z"
     },
     {
       "slot": "s2",
