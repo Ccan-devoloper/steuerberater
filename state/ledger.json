@@ -7811,17 +7811,17 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 74,
+        "reach": 95,
         "saved": 3,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 4,
-        "follows": 0,
-        "profile_visits": 5
+        "total_interactions": 5,
+        "follows": 1,
+        "profile_visits": 8
       },
-      "insightsStand": "2026-10-05T17:00:31.488Z",
-      "insightsAlterStunden": 29.3
+      "insightsStand": "2026-10-06T12:45:08.756Z",
+      "insightsAlterStunden": 49
     },
     {
       "datum": "2026-10-04",
@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 176,
+        "reach": 199,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 247,
-        "ig_reels_avg_watch_time": 31542,
-        "ig_reels_video_view_total_time": 5866922,
-        "reels_skip_rate": 73.5
+        "views": 274,
+        "ig_reels_avg_watch_time": 28559,
+        "ig_reels_video_view_total_time": 5997592,
+        "reels_skip_rate": 71.6
       },
-      "insightsStand": "2026-10-05T15:45:31.446Z",
-      "insightsAlterStunden": 22
+      "insightsStand": "2026-10-06T12:45:08.756Z",
+      "insightsAlterStunden": 43
     },
     {
       "datum": "2026-10-04",
@@ -8084,17 +8084,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 76,
+        "reach": 133,
         "saved": 3,
         "shares": 0,
-        "likes": 3,
+        "likes": 6,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 9,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-05T17:00:31.488Z",
-      "insightsAlterStunden": 10.5
+      "insightsStand": "2026-10-06T12:45:08.756Z",
+      "insightsAlterStunden": 30.3
     },
     {
       "datum": "2026-10-05",
@@ -8146,17 +8146,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 60,
-        "saved": 2,
-        "shares": 0,
-        "likes": 2,
+        "reach": 104,
+        "saved": 3,
+        "shares": 1,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
-        "follows": 0,
-        "profile_visits": 1
+        "total_interactions": 7,
+        "follows": 1,
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-05T18:45:42.343Z",
-      "insightsAlterStunden": 8.8
+      "insightsStand": "2026-10-06T12:45:08.756Z",
+      "insightsAlterStunden": 26.8
     },
     {
       "datum": "2026-10-05",
@@ -8294,19 +8294,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 169,
-        "saved": 1,
-        "shares": 0,
-        "likes": 2,
+        "reach": 235,
+        "saved": 2,
+        "shares": 2,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 229,
-        "ig_reels_avg_watch_time": 7775,
-        "ig_reels_video_view_total_time": 1321915,
-        "reels_skip_rate": 66.7
+        "total_interactions": 8,
+        "views": 305,
+        "ig_reels_avg_watch_time": 7827,
+        "ig_reels_video_view_total_time": 1870704,
+        "reels_skip_rate": 68.4
       },
-      "insightsStand": "2026-10-05T19:50:31.615Z",
-      "insightsAlterStunden": 2.8
+      "insightsStand": "2026-10-06T12:45:08.756Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-10-05",
