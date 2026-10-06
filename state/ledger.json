@@ -8565,6 +8565,18 @@
         "#examensvorbereitung",
         "#ertragsteuern"
       ]
+    },
+    {
+      "datum": "2026-10-06",
+      "slot": "s3",
+      "medienId": "18036426488655202",
+      "veroeffentlicht": "2026-10-06T17:30:24.548Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
