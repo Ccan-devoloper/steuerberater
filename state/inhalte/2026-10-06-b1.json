@@ -1,0 +1,55 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 1,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Heute ist Tag 1 der schriftlichen Steuerberaterprüfung: Verfahrensrecht, Umsatzsteuer, Erbschaftsteuer und Bewertung.\n\n▸ Vor dem Start: frühstücken, früh da sein, Gesetze griffbereit, dreimal ruhig atmen.\n▸ Die ersten 15 Minuten: alles überfliegen, Punkte notieren, Zeit je Teil daneben schreiben, mit Sicherem beginnen.\n▸ Tipp für heute: In der Umsatzsteuer jeden Umsatz einzeln prüfen, auch den nicht steuerbaren, und jedes Ergebnis kurz mit Norm begründen.\n\nViel Erfolg! Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [],
+  "slug": "2026-10-06-b1",
+  "kurztitel": "Heute ist Tag 1: ruhig starten",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungstag 1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungstag 1",
+      "text": "Prüfungstag 1 · Heute · ist Tag 1 · Ruhig starten · + 1 Tipp für heute · OKTOBER · 6 · Di · Tag 1",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Vor dem Start · Frühstücken, auch wenn der Magen flattert. · Früh da sein, Platz einrichten, Gesetze griffbereit legen. · Drei ruhige Atemzüge, bevor du die Aufgabe aufschlägst. · Erst atmen."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Die ersten 15 Minuten · Alles überfliegen: Was steht in AO, Umsatzsteuer, Erbschaftsteuer? · Punkte je Teil notieren, Zeit daneben schreiben. · Mit dem Sicheren starten: Die ersten Punkte geben Ruhe. · Erst der Überblick."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dein Tipp für heute · Umsatzsteuer: jeden Umsatz einzeln prüfen, auch nicht steuerbare. · Jedes Ergebnis kurz mit Norm begründen. · AO und Erbschaftsteuer: erst die Antwort, dann die Begründung. · Ergebnis + Norm = Punkte · Mit Norm!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Tag 1: AO · Umsatzsteuer · Erbschaftsteuer und Bewertung · Wir drücken dir die Daumen! · Überfliegen zuerst, · Sicheres vorne, · jedes Ergebnis · mit Norm. · Speichern für Klausur 1 · Was ist dein Ritual vor dem Start?"
+    }
+  ]
+}

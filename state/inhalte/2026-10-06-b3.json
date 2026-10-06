@@ -1,0 +1,57 @@
+{
+  "format": "reel",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Ertragsteuern",
+  "themaId": null,
+  "caption": "Tag 2 der Steuerberaterprüfung: drei Dauerbrenner für morgen.\n\n▸ Dividende an eine GmbH bleibt außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); bei weniger als 10 % Beteiligung zu Beginn des Kalenderjahres voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n▸ Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei, Kosten zu 60 % abziehbar (§ 3 Nr. 40 S. 1 Buchst. d, § 3c Abs. 2 S. 1 EStG).\n▸ Gewerbesteuer: Summe der Finanzierungsanteile minus 200.000 €, davon ein Viertel hinzurechnen (§ 8 Nr. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#ertragsteuern"
+  ],
+  "quellen": [
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 8 Nr. 1 GewStG"
+  ],
+  "slug": "2026-10-06-b3",
+  "kurztitel": "Tag 2: drei Dauerbrenner für morgen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Morgen: Tag 2"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Haken"
+    },
+    {
+      "art": "schritt",
+      "titel": "Gewerbesteuer"
+    }
+  ],
+  "sprecher": [
+    "Morgen ist Tag zwei. Dividende im Betrieb: GmbH fünfundneunzig Prozent frei, Einzelunternehmer vierzig.",
+    "GmbH nur ab zehn Prozent Beteiligung. Beim Einzelunternehmer Kosten nur zu sechzig Prozent.",
+    "Gewerbesteuer: Finanzierungsanteile minus zweihunderttausend, davon ein Viertel.",
+    "Jetzt schlafen. Morgen holst du die Punkte."
+  ],
+  "dauerS": 26.071,
+  "tempo": 1
+}

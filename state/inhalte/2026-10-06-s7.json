@@ -1,0 +1,24 @@
+{
+  "slot": "s7",
+  "art": "anlass",
+  "fach": null,
+  "klausur": 1,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Halbzeit",
+    "Halbzeit.",
+    "Durchatmen.",
+    "Schultern locker, einen Schluck trinken, dann der nächste Teil.",
+    "Abgehakt ist abgehakt."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

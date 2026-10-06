@@ -1,0 +1,22 @@
+{
+  "slot": "s3",
+  "art": "teaser",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Ertragsteuern",
+  "themaId": null,
+  "beitragSlot": "b3",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Ertragsteuern",
+    "Neu im Feed",
+    "Drei für morgen",
+    "Neues Reel · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

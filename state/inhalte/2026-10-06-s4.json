@@ -1,0 +1,25 @@
+{
+  "slot": "s4",
+  "art": "anlass",
+  "fach": null,
+  "klausur": 1,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Heute",
+    "Viel Erfolg",
+    "an Tag 1!",
+    "AO, Umsatzsteuer, Erbschaftsteuer: Du hast dafür gearbeitet.",
+    "Erst überfliegen",
+    "Sicheres zuerst"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

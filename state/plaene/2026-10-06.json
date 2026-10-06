@@ -1,0 +1,73 @@
+{
+  "datum": "2026-10-06",
+  "erzeugt": "2026-10-06T12:13:40.058Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "06:30",
+      "format": "anlass",
+      "themaId": null,
+      "themaTitel": "Heute ist Tag 1: ruhig starten",
+      "fach": null,
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "16:30",
+      "format": "anlass",
+      "themaId": null,
+      "themaTitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
+      "fach": null,
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:30",
+      "format": "reel",
+      "themaId": null,
+      "themaTitel": "Tag 2: drei Dauerbrenner für morgen",
+      "fach": "est",
+      "klausur": 2,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "06:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "06:45",
+      "art": "anlass",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "12:00",
+      "art": "anlass",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "16:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:30",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    }
+  ]
+}

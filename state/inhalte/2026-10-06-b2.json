@@ -1,0 +1,70 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 1,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Tag 1 geschafft! Jetzt kurz durchatmen und dann drei Dauerbrenner für Tag 2 (Ertragsteuern) wiederholen.\n\n1. Dividende an eine GmbH: bleibt außer Ansatz (§ 8b Abs. 1 S. 1 KStG), 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 5 S. 1 KStG); bei weniger als 10 % Beteiligung zu Beginn des Kalenderjahres voll steuerpflichtig (§ 8b Abs. 4 S. 1 KStG).\n2. Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. d EStG), zugehörige Kosten zu 60 % abziehbar (§ 3c Abs. 2 S. 1 EStG); ebenso beim Veräußerungsgewinn (§ 3 Nr. 40 S. 1 Buchst. a EStG).\n3. Gewerbesteuer: Zinsen voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Lizenzen zu einem Viertel; von der Summe 200.000 € abziehen, ein Viertel des Rests hinzurechnen (§ 8 Nr. 1 GewStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 3 Nr. 40 S. 1 Buchst. a, d EStG",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 8 Nr. 1 GewStG"
+  ],
+  "slug": "2026-10-06-b2",
+  "kurztitel": "Tag 1 geschafft: drei Dauerbrenner für Tag 2",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Tag 1 geschafft",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Tag 1 geschafft",
+      "text": "Tag 1 geschafft · Tag 1 · geschafft! · Spickzettel Tag 2 · + 3 Dauerbrenner · OKTOBER · 7 · Mi · Tag 2",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Erst mal: stark! · Sechs Stunden durchgezogen. Das zählt. · Lösungen nicht im Kopf nachrechnen: Tag 1 ist abgegeben. · Essen, raus, lüften. Dann eine halbe Stunde Spickzettel. · Haken dran!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Morgen: 3 Dauerbrenner · Dividende an die GmbH · § 8b Abs. 1, 5 KStG · steuerfrei, aber 5 % nicht abziehbar · Dividende im Einzelbetrieb · § 3 Nr. 40, § 3c Abs. 2 EStG · 60 % steuerpflichtig, Kosten zu 60 % · Finanzierungsanteile · § 8 Nr. 1 GewStG · über 200.000 € ein Viertel dazu · Weiterwischen: alle drei im Detail"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "1 · Dividende an die GmbH · Gewinnausschüttungen bleiben beim Einkommen der GmbH außer Ansatz. · § 8b Abs. 1 S. 1 KStG · 5 % davon gelten als nicht abziehbare Betriebsausgaben. · § 8b Abs. 5 S. 1 KStG · Unter 10 % zu Beginn des Kalenderjahres: voll steuerpflichtig. · § 8b Abs. 4 S. 1 KStG · Stichtag beachten!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "2 · Teileinkünfte · Dividende im Betriebsvermögen eines Einzelunternehmers: 40 % steuerfrei. · § 3 Nr. 40 S. 1 Buchst. d EStG · Zugehörige Kosten nur zu 60 % abziehbar. · § 3c Abs. 2 S. 1 EStG · Gilt auch für den Gewinn aus dem Verkauf solcher Anteile. · § 3 Nr. 40 S. 1 Buchst. a EStG · 60 zu 60."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "3 · Finanzierungsanteile · Zinsen voll, Mieten für bewegliche Anlagegüter zu einem Fünftel, für unbewegliche zur Hälfte, Lizenzen zu einem Viertel. · § 8 Nr. 1 Buchst. a, d, e, f GewStG · Summe minus 200.000 €, vom Rest ein Viertel hinzurechnen. · § 8 Nr. 1 GewStG · Erst gewichten, dann Freibetrag · Erst gewichten?"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Zinsen 180.000 €, Ladenmiete 100.000 € · (180.000 + 50.000 − 200.000) × ¼ = 7.500 € · GmbH: 95 % frei, · Einzelbetrieb: 40 % frei, · Gewerbesteuer: ein · Viertel über 200.000. · Speichern für Klausur 2 · Was sitzt noch nicht?"
+    }
+  ]
+}
