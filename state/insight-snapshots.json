@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-06T16:45:15.240Z",
+  "stand": "2026-10-06T17:30:25.831Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -9277,6 +9277,20 @@
           "ig_reels_avg_watch_time": 7394,
           "ig_reels_video_view_total_time": 761653,
           "reels_skip_rate": 71.3
+        },
+        {
+          "stand": "2026-10-06T17:30:25.831Z",
+          "alterStunden": 168.5,
+          "reach": 97,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 140,
+          "ig_reels_avg_watch_time": 6946,
+          "ig_reels_video_view_total_time": 771094,
+          "reels_skip_rate": 73.5
         }
       ]
     },
@@ -13739,6 +13753,18 @@
           "total_interactions": 10,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-06T17:30:25.831Z",
+          "alterStunden": 83.8,
+          "reach": 76,
+          "saved": 4,
+          "shares": 0,
+          "likes": 5,
+          "comments": 1,
+          "total_interactions": 10,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -16806,6 +16832,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-06T17:30:25.831Z",
+          "alterStunden": 5.3,
+          "reach": 58,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -16857,6 +16895,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-06T17:30:25.831Z",
+          "alterStunden": 3,
+          "reach": 66,
+          "saved": 3,
+          "shares": 0,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 10,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     }

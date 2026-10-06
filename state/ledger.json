@@ -6084,19 +6084,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 90,
+        "reach": 97,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 132,
-        "ig_reels_avg_watch_time": 7394,
-        "ig_reels_video_view_total_time": 761653,
-        "reels_skip_rate": 71.3
+        "views": 140,
+        "ig_reels_avg_watch_time": 6946,
+        "ig_reels_video_view_total_time": 771094,
+        "reels_skip_rate": 73.5
       },
-      "insightsStand": "2026-10-05T17:00:31.488Z",
-      "insightsAlterStunden": 144
+      "insightsStand": "2026-10-06T17:30:25.831Z",
+      "insightsAlterStunden": 168.5
     },
     {
       "datum": "2026-09-29",
@@ -7298,7 +7298,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 73,
+        "reach": 76,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -7307,8 +7307,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-05T17:00:31.488Z",
-      "insightsAlterStunden": 59.3
+      "insightsStand": "2026-10-06T17:30:25.831Z",
+      "insightsAlterStunden": 83.8
     },
     {
       "datum": "2026-10-03",
@@ -8388,7 +8388,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 48,
+        "reach": 58,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-06T15:52:36.261Z",
-      "insightsAlterStunden": 3.6
+      "insightsStand": "2026-10-06T17:30:25.831Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-10-06",
@@ -8505,17 +8505,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 35,
-        "saved": 0,
+        "reach": 66,
+        "saved": 3,
         "shares": 0,
-        "likes": 3,
+        "likes": 7,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 10,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-06T15:52:36.261Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-06T17:30:25.831Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-06",
