@@ -6236,17 +6236,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 70,
-        "saved": 2,
+        "reach": 85,
+        "saved": 3,
         "shares": 0,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-05T07:44:59.659Z",
-      "insightsAlterStunden": 121
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 149.5
     },
     {
       "datum": "2026-09-30",
@@ -6328,7 +6328,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 72,
+        "reach": 86,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -6337,8 +6337,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-05T07:44:59.659Z",
-      "insightsAlterStunden": 116
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 144.5
     },
     {
       "datum": "2026-09-30",
@@ -6543,17 +6543,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 73,
+        "reach": 89,
         "saved": 2,
         "shares": 1,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 3
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-05T05:44:43.421Z",
-      "insightsAlterStunden": 96
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 126.5
     },
     {
       "datum": "2026-10-01",
@@ -6661,7 +6661,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 48,
+        "reach": 55,
         "saved": 3,
         "shares": 0,
         "likes": 0,
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-05T05:44:43.421Z",
-      "insightsAlterStunden": 94
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 124.5
     },
     {
       "datum": "2026-10-01",
@@ -7052,7 +7052,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 57,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7061,8 +7061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-05T07:44:59.659Z",
-      "insightsAlterStunden": 68
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 96.5
     },
     {
       "datum": "2026-10-02",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 155,
+        "reach": 168,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 205,
-        "ig_reels_avg_watch_time": 9965,
-        "ig_reels_video_view_total_time": 1743931,
-        "reels_skip_rate": 75
+        "views": 217,
+        "ig_reels_avg_watch_time": 9848,
+        "ig_reels_video_view_total_time": 1822002,
+        "reels_skip_rate": 74
       },
-      "insightsStand": "2026-10-05T17:00:31.488Z",
-      "insightsAlterStunden": 47.3
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 66.5
     },
     {
       "datum": "2026-10-03",
@@ -7719,17 +7719,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 93,
-        "saved": 4,
+        "reach": 118,
+        "saved": 5,
         "shares": 0,
-        "likes": 5,
+        "likes": 6,
         "comments": 0,
-        "total_interactions": 9,
+        "total_interactions": 11,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-05T13:45:02.931Z",
-      "insightsAlterStunden": 31
+      "insightsStand": "2026-10-06T12:15:09.920Z",
+      "insightsAlterStunden": 53.5
     },
     {
       "datum": "2026-10-04",
@@ -8226,22 +8226,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 26,
-        "views": 36,
+        "reach": 55,
+        "views": 74,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 34,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 21
+        "navigation": 70,
+        "navigation_tap_forward": 48,
+        "navigation_tap_exit": 8,
+        "navigation_tap_back": 10,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-05T17:45:28.618Z",
-      "insightsAlterStunden": 5.1
+      "insightsStand": "2026-10-06T12:15:04.539Z",
+      "insightsAlterStunden": 23.6
     },
     {
       "datum": "2026-10-05",
@@ -8255,22 +8255,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 20,
+        "reach": 48,
+        "views": 67,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 9,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 2
+        "navigation": 52,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 37,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-05T17:00:27.937Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-06T12:15:04.539Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-05",
@@ -8320,20 +8320,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 18,
-        "views": 23,
+        "reach": 41,
+        "views": 52,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 20,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 17
+        "navigation": 53,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 35,
+        "navigation_tap_back": 12,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-05T18:45:37.823Z",
-      "insightsAlterStunden": 1.8
+      "insightsStand": "2026-10-06T12:15:04.539Z",
+      "insightsAlterStunden": 19.2
     },
     {
       "datum": "2026-10-05",
@@ -8347,22 +8349,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 16,
-        "views": 25,
+        "reach": 43,
+        "views": 59,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 15,
+        "navigation": 54,
+        "navigation_swipe_forward": 4,
         "navigation_tap_back": 1,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 33,
+        "navigation_tap_exit": 16
       },
-      "insightsStand": "2026-10-05T18:45:37.823Z",
-      "insightsAlterStunden": 1.6
+      "insightsStand": "2026-10-06T12:15:04.539Z",
+      "insightsAlterStunden": 19.1
     },
     {
       "datum": "2026-10-06",
