@@ -1,0 +1,55 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 2,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Heute ist Tag 2 der schriftlichen Steuerberaterprüfung: Einkommensteuer, Körperschaftsteuer, Gewerbesteuer, Internationales Steuerrecht.\n\n▸ Gestern ist abgehakt. Heute zählt nur Tag 2.\n▸ Tipp für heute: Rechnungen als Staffel darstellen, eine Zeile, ein Betrag, eine Norm. Bist du bei einem Zwischenwert unsicher, notiere deine Annahme und rechne weiter, statt hängen zu bleiben.\n▸ Jeden Teil anfangen, auch den, der dir weniger liegt.\n\nViel Erfolg! Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [],
+  "slug": "2026-10-07-b1",
+  "kurztitel": "Heute ist Tag 2: ruhig starten",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungstag 2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungstag 2",
+      "text": "Prüfungstag 2 · Heute · ist Tag 2 · Ruhig starten · + 1 Tipp für heute · OKTOBER · 7 · Mi · Tag 2",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Gestern ist abgehakt · Tag 1 ist abgegeben. Heute zählt nur Tag 2. · Frühstück, Wasser, Gesetze griffbereit. · Erst überfliegen, Punkte notieren, Zeit verteilen. · Neuer Tag."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dein Tipp für heute · Rechnungen als Staffel: eine Zeile, ein Betrag, eine Norm. · Unsicher bei einem Zwischenwert? Annahme kurz notieren und weiterrechnen. · Jeden Teil anfangen: ESt, KSt, GewSt, Internationales. · Weiterrechnen statt hängen bleiben · Staffel!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Wenn es hakt · Sachverhalt noch einmal Satz für Satz lesen. · Zahlen und Daten markieren, bevor du rechnest. · Ein schwacher Teil ist kein schwacher Tag. · Satz für Satz."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Tag 2: Einkommensteuer · Körperschaftsteuer · Gewerbesteuer · Internationales Steuerrecht · Staffel statt Fließtext, · Annahme notieren, · weiterrechnen, · jeden Teil anfangen. · Speichern für Klausur 2 · Wie lief Tag 1 für dich?"
+    }
+  ]
+}

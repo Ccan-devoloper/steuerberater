@@ -1,0 +1,57 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "caption": "Tag 3 der Steuerberaterprüfung: drei Bilanz-Dauerbrenner für morgen.\n\n▸ Umlaufvermögen: In der Handelsbilanz ist auf den niedrigeren Wert abzuschreiben (§ 253 Abs. 4 HGB). Steuerlich darf der niedrigere Teilwert nur bei voraussichtlich dauernder Wertminderung angesetzt werden, als Wahlrecht (§ 6 Abs. 1 Nr. 2 S. 2 EStG; § 5 Abs. 1 S. 1 EStG).\n▸ Rückstellungen für drohende Verluste sind steuerlich verboten (§ 5 Abs. 4a S. 1 EStG); unverzinsliche Rückstellungen mit Laufzeit ab zwölf Monaten werden mit 5,5 % abgezinst (§ 6 Abs. 1 Nr. 3a Buchst. e EStG).\n▸ Geringwertige Wirtschaftsgüter bis 800 € netto dürfen sofort voll abgezogen werden (§ 6 Abs. 2 S. 1 EStG).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 253 Abs. 4 HGB",
+    "§ 5 Abs. 1 S. 1, Abs. 4a S. 1 EStG",
+    "§ 6 Abs. 1 Nr. 2 S. 2, Nr. 3a Buchst. e EStG",
+    "§ 6 Abs. 2 S. 1 EStG"
+  ],
+  "slug": "2026-10-07-b3",
+  "kurztitel": "Tag 3: drei Dauerbrenner für morgen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Morgen: Tag 3"
+    },
+    {
+      "art": "schritt",
+      "titel": "Rückstellungen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Geringwertig"
+    }
+  ],
+  "sprecher": [
+    "Morgen ist Bilanz. Wertminderung im Umlaufvermögen: Handelsbilanz Pflicht, Steuerbilanz Wahlrecht, und nur, wenn sie dauernd ist.",
+    "Rückstellungen: Drohverluste nie. Ab zwölf Monaten mit fünfeinhalb Prozent abzinsen.",
+    "Und bis achthundert Euro netto sofort abziehen.",
+    "Durchatmen. Morgen ist der letzte Tag."
+  ],
+  "dauerS": 24.394,
+  "tempo": 1
+}

@@ -1,0 +1,70 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 2,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Tag 2 geschafft! Zwei von drei Klausuren liegen hinter dir. Für morgen (Buchführung und Bilanzwesen) drei Dauerbrenner zum Wiederholen.\n\n1. Teilwertabschreibung: Handelsbilanz beim Umlaufvermögen immer auf den niedrigeren Wert (§ 253 Abs. 4 HGB), beim Anlagevermögen bei voraussichtlich dauernder Wertminderung (§ 253 Abs. 3 S. 5 HGB). Steuerlich nur bei voraussichtlich dauernder Wertminderung und als Wahlrecht (§ 6 Abs. 1 Nr. 1 S. 2, Nr. 2 S. 2 EStG; § 5 Abs. 1 S. 1 EStG).\n2. Rückstellungen: keine Drohverlustrückstellungen in der Steuerbilanz (§ 5 Abs. 4a S. 1 EStG); Abzinsung mit 5,5 %, außer bei Laufzeit unter zwölf Monaten, Verzinslichkeit, Anzahlung oder Vorausleistung (§ 6 Abs. 1 Nr. 3a Buchst. e EStG). Handelsbilanz: durchschnittlicher Marktzins der letzten sieben Geschäftsjahre (§ 253 Abs. 2 S. 1 HGB).\n3. Geringwertige Wirtschaftsgüter: bis 800 € netto Sofortabzug (§ 6 Abs. 2 S. 1 EStG), alternativ Sammelposten für 250 € bis 1.000 €, über fünf Jahre je ein Fünftel, einheitlich für alle Wirtschaftsgüter des Jahres (§ 6 Abs. 2a S. 1, 2, 5 EStG).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [
+    "§ 253 Abs. 2, 3, 4 HGB",
+    "§ 5 Abs. 1 S. 1, Abs. 4a EStG",
+    "§ 6 Abs. 1 Nr. 1, 2, 3a Buchst. e EStG",
+    "§ 6 Abs. 2, 2a EStG"
+  ],
+  "slug": "2026-10-07-b2",
+  "kurztitel": "Tag 2 geschafft: drei Dauerbrenner für Tag 3",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Tag 2 geschafft",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Tag 2 geschafft",
+      "text": "Tag 2 geschafft · Zwei von · drei! · Spickzettel Tag 3 · + 3 Dauerbrenner · OKTOBER · 8 · Do · Tag 3",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Zwei Drittel geschafft · Zwei Klausurtage durchgezogen. Respekt. · Morgen: Buchführung und Bilanzwesen. Heute nur noch die Karte. · Früh schlafen ist heute die beste Wiederholung. · Noch einer!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Morgen: 3 Dauerbrenner · Teilwertabschreibung · § 6 Abs. 1 Nr. 1, 2 EStG · steuerlich nur bei dauernder Minderung · Rückstellungen · § 5 Abs. 4a, § 6 Abs. 1 Nr. 3a EStG · keine Drohverluste, 5,5 % abzinsen · Geringwertige Wirtschaftsgüter · § 6 Abs. 2, 2a EStG · 800 € oder Sammelposten · Weiterwischen: alle drei im Detail"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "1 · Teilwert: HGB oder Steuer? · Handelsbilanz · Umlaufvermögen: immer auf den niedrigeren Wert · § 253 Abs. 4 HGB · Anlagevermögen: Pflicht bei dauernder Minderung · § 253 Abs. 3 S. 5 HGB · Steuerbilanz · Nur bei voraussichtlich dauernder Minderung · § 6 Abs. 1 Nr. 2 S. 2 EStG · Wahlrecht, auch abweichend von der Handelsbilanz · § 5 Abs. 1 S. 1 EStG · Kann oder muss?"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "2 · Rückstellungen · Drohverlustrückstellungen: steuerlich verboten. · § 5 Abs. 4a S. 1 EStG · Unverzinslich und mindestens zwölf Monate Laufzeit: mit 5,5 % abzinsen. · § 6 Abs. 1 Nr. 3a Buchst. e EStG · Handelsbilanz: Restlaufzeit über ein Jahr, Marktzins der letzten sieben Jahre. · § 253 Abs. 2 S. 1 HGB · Zwei Zinssätze!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "3 · Geringwertige Wirtschaftsgüter · Bis 800 € netto: sofort voll als Betriebsausgabe. · § 6 Abs. 2 S. 1 EStG · Stattdessen über 250 € bis 1.000 €: Sammelposten, fünf Jahre je ein Fünftel. · § 6 Abs. 2a S. 1, 2 EStG · Die Wahl gilt einheitlich für alle Güter des Jahres. · § 6 Abs. 2a S. 5 EStG · Alle gleich?"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Regal 900 € netto, Sammelposten gewählt · fünf Jahre je 180 € Aufwand · Teilwert nur bei Dauer, · Drohverlust nie, · 5,5 % ab zwölf Monaten, · 800 € sofort. · Speichern für Klausur 3 · Was wackelt noch?"
+    }
+  ]
+}
