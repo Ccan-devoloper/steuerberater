@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-07T14:30:19.265Z",
+  "stand": "2026-10-07T15:20:52.756Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -17908,6 +17908,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-07T15:20:51.122Z",
+          "alterStunden": 10.8,
+          "reach": 68,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 3
         }
       ]
     },
@@ -17954,6 +17966,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 24,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-10-07T15:20:49.548Z",
+          "alterStunden": 10.6,
+          "reach": 45,
+          "views": 55,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 47,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 34,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -17982,6 +18011,30 @@
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 6,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18164598235489865": {
+      "art": "beitrag",
+      "datum": "2026-10-07",
+      "titel": "Tag 2 geschafft",
+      "format": "anlass",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-07T14:30:05.690Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-07T15:20:51.122Z",
+          "alterStunden": 0.8,
+          "reach": 29,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -19066,6 +19119,11 @@
       "stand": "2026-10-07T13:44:47.902Z",
       "follower": 142,
       "medien": 93
+    },
+    {
+      "stand": "2026-10-07T15:20:52.756Z",
+      "follower": 142,
+      "medien": 94
     }
   ]
 }
