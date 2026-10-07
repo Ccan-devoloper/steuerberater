@@ -8733,6 +8733,28 @@
       },
       "insightsStand": "2026-10-07T11:44:36.963Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-07",
+      "slot": "b2",
+      "medienId": "18164598235489865",
+      "veroeffentlicht": "2026-10-07T14:30:05.690Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "16:30",
+      "stunde": 16,
+      "format": "anlass",
+      "thema": null,
+      "fach": null,
+      "klausur": 2,
+      "titel": "Tag 2 geschafft",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ]
     }
   ],
   "fachZaehler": {
