@@ -8660,22 +8660,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 22,
-        "views": 35,
+        "reach": 37,
+        "views": 46,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 28,
+        "navigation": 44,
         "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 19,
-        "navigation_tap_back": 2
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 33,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-07T05:44:49.047Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-07T10:00:04.108Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-07",
