@@ -8705,6 +8705,18 @@
       },
       "insightsStand": "2026-10-07T06:44:44.541Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-10-07",
+      "slot": "s7",
+      "medienId": "18127486640512375",
+      "veroeffentlicht": "2026-10-07T10:00:03.003Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "anlass",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
