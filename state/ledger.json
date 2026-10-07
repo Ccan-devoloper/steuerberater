@@ -7298,7 +7298,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 76,
+        "reach": 79,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -7307,8 +7307,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-06T17:30:25.831Z",
-      "insightsAlterStunden": 83.8
+      "insightsStand": "2026-10-07T17:30:26.369Z",
+      "insightsAlterStunden": 107.8
     },
     {
       "datum": "2026-10-03",
@@ -8757,17 +8757,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 29,
-        "saved": 1,
+        "reach": 69,
+        "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-07T15:20:51.122Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-07T17:30:26.369Z",
+      "insightsAlterStunden": 3
     },
     {
       "datum": "2026-10-07",
