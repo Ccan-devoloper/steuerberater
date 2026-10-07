@@ -8294,19 +8294,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 285,
-        "saved": 2,
+        "reach": 291,
+        "saved": 3,
         "shares": 2,
         "likes": 4,
         "comments": 0,
-        "total_interactions": 8,
-        "views": 369,
-        "ig_reels_avg_watch_time": 8078,
-        "ig_reels_video_view_total_time": 2407333,
-        "reels_skip_rate": 66.1
+        "total_interactions": 9,
+        "views": 380,
+        "ig_reels_avg_watch_time": 8038,
+        "ig_reels_video_view_total_time": 2483912,
+        "reels_skip_rate": 66.8
       },
-      "insightsStand": "2026-10-07T12:44:25.862Z",
-      "insightsAlterStunden": 43.7
+      "insightsStand": "2026-10-07T20:52:03.366Z",
+      "insightsAlterStunden": 51.9
     },
     {
       "datum": "2026-10-05",
@@ -8820,19 +8820,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 172,
+        "reach": 202,
         "saved": 0,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
         "views": 250,
-        "ig_reels_avg_watch_time": 5857,
-        "ig_reels_video_view_total_time": 1036750,
-        "reels_skip_rate": 74.9
+        "ig_reels_avg_watch_time": 6828,
+        "ig_reels_video_view_total_time": 1413594,
+        "reels_skip_rate": 84
       },
-      "insightsStand": "2026-10-07T18:44:58.891Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-07T20:52:03.366Z",
+      "insightsAlterStunden": 3.4
     },
     {
       "datum": "2026-10-07",
