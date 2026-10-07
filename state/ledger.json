@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-07T07:44:34.357Z",
-      "insightsAlterStunden": 19.5
+      "insightsStand": "2026-10-07T10:45:27.735Z",
+      "insightsAlterStunden": 22.5
     },
     {
       "datum": "2026-10-06",
@@ -8412,22 +8412,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 68,
-        "views": 81,
+        "reach": 69,
+        "views": 82,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 76,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_exit": 7,
+        "navigation": 77,
+        "navigation_tap_back": 2,
         "navigation_tap_forward": 64,
-        "navigation_tap_back": 2
+        "navigation_tap_exit": 7,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-07T08:44:44.118Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-07T10:45:21.401Z",
+      "insightsAlterStunden": 22.5
     },
     {
       "datum": "2026-10-06",
@@ -8455,8 +8455,8 @@
         "navigation_tap_forward": 70,
         "navigation_tap_exit": 3
       },
-      "insightsStand": "2026-10-07T08:44:44.118Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-07T10:45:21.401Z",
+      "insightsAlterStunden": 22.5
     },
     {
       "datum": "2026-10-06",
@@ -8483,8 +8483,8 @@
         "navigation_tap_exit": 7,
         "navigation_tap_back": 13
       },
-      "insightsStand": "2026-10-07T08:44:44.118Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-07T10:45:21.401Z",
+      "insightsAlterStunden": 22.5
     },
     {
       "datum": "2026-10-06",
@@ -8508,7 +8508,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 126,
+        "reach": 130,
         "saved": 3,
         "shares": 0,
         "likes": 7,
@@ -8517,8 +8517,8 @@
         "follows": 1,
         "profile_visits": 5
       },
-      "insightsStand": "2026-10-07T07:44:34.357Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-07T10:45:27.735Z",
+      "insightsAlterStunden": 20.3
     },
     {
       "datum": "2026-10-06",
@@ -8546,8 +8546,8 @@
         "navigation_swipe_forward": 3,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-07T08:44:44.118Z",
-      "insightsAlterStunden": 18.2
+      "insightsStand": "2026-10-07T10:45:21.401Z",
+      "insightsAlterStunden": 20.3
     },
     {
       "datum": "2026-10-06",
@@ -8571,19 +8571,19 @@
         "#ertragsteuern"
       ],
       "insights": {
-        "reach": 206,
+        "reach": 208,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 293,
-        "ig_reels_avg_watch_time": 9202,
-        "ig_reels_video_view_total_time": 1914156,
-        "reels_skip_rate": 67.2
+        "views": 297,
+        "ig_reels_avg_watch_time": 9145,
+        "ig_reels_video_view_total_time": 1920493,
+        "reels_skip_rate": 67.3
       },
-      "insightsStand": "2026-10-07T07:44:34.357Z",
-      "insightsAlterStunden": 14.2
+      "insightsStand": "2026-10-07T10:45:27.735Z",
+      "insightsAlterStunden": 17.3
     },
     {
       "datum": "2026-10-06",
@@ -8689,22 +8689,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 28,
-        "views": 34,
+        "reach": 34,
+        "views": 41,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 31,
-        "navigation_tap_exit": 7,
+        "navigation": 35,
+        "navigation_tap_exit": 8,
         "navigation_tap_back": 1,
-        "navigation_tap_forward": 21,
+        "navigation_tap_forward": 24,
         "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-07T06:44:44.541Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-07T10:45:21.401Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-07",
