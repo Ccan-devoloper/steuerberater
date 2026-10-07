@@ -12,8 +12,9 @@
       "themaTitel": "Heute ist Tag 2: ruhig starten",
       "fach": null,
       "klausur": 2,
-      "status": "sendet",
-      "sendeversuch": "2026-10-07T04:30:00.032Z"
+      "status": "veroeffentlicht",
+      "medienId": "18286298377294489",
+      "veroeffentlicht": "2026-10-07T04:30:14.533Z"
     },
     {
       "slot": "b2",
