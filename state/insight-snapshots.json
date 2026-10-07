@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-07T05:44:51.514Z",
+  "stand": "2026-10-07T06:44:46.271Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -17425,6 +17425,35 @@
           "profile_visits": 2
         }
       ]
+    },
+    "18093818624448426": {
+      "art": "story",
+      "datum": "2026-10-07",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-07T04:45:03.238Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-07T06:44:44.541Z",
+          "alterStunden": 2,
+          "reach": 28,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_tap_exit": 7,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 21,
+          "navigation_swipe_forward": 2
+        }
+      ]
     }
   },
   "konto": [
@@ -18470,6 +18499,11 @@
     },
     {
       "stand": "2026-10-07T05:44:51.514Z",
+      "follower": 140,
+      "medien": 93
+    },
+    {
+      "stand": "2026-10-07T06:44:46.271Z",
       "follower": 140,
       "medien": 93
     }

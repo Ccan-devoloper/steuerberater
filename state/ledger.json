@@ -8687,7 +8687,24 @@
       "storyArt": "anlass",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 28,
+        "views": 34,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 31,
+        "navigation_tap_exit": 7,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 21,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-07T06:44:44.541Z",
+      "insightsAlterStunden": 2
     }
   ],
   "fachZaehler": {
