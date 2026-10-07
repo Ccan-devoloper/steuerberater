@@ -8388,7 +8388,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 82,
+        "reach": 92,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-07T10:45:27.735Z",
-      "insightsAlterStunden": 22.5
+      "insightsStand": "2026-10-07T19:11:31.207Z",
+      "insightsAlterStunden": 31
     },
     {
       "datum": "2026-10-06",
@@ -8508,17 +8508,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 130,
+        "reach": 145,
         "saved": 3,
         "shares": 0,
         "likes": 7,
         "comments": 0,
         "total_interactions": 10,
         "follows": 1,
-        "profile_visits": 5
+        "profile_visits": 7
       },
-      "insightsStand": "2026-10-07T10:45:27.735Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-10-07T19:11:31.207Z",
+      "insightsAlterStunden": 28.7
     },
     {
       "datum": "2026-10-06",
@@ -8757,17 +8757,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 69,
-        "saved": 2,
+        "reach": 82,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-07T17:30:26.369Z",
-      "insightsAlterStunden": 3
+      "insightsStand": "2026-10-07T19:11:31.207Z",
+      "insightsAlterStunden": 4.7
     },
     {
       "datum": "2026-10-07",
