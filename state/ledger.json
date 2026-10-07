@@ -8532,22 +8532,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 64,
-        "views": 76,
+        "reach": 65,
+        "views": 78,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 4,
         "profile_activity": 0,
-        "navigation": 72,
-        "navigation_tap_forward": 52,
+        "navigation": 73,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 4,
         "navigation_tap_exit": 15,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 2
+        "navigation_tap_forward": 52
       },
-      "insightsStand": "2026-10-07T10:45:21.401Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-10-07T13:44:44.280Z",
+      "insightsAlterStunden": 23.2
     },
     {
       "datum": "2026-10-06",
@@ -8598,7 +8598,7 @@
       "titel": "",
       "insights": {
         "reach": 57,
-        "views": 72,
+        "views": 73,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
@@ -8611,8 +8611,8 @@
         "navigation_tap_forward": 47,
         "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-07T08:44:44.118Z",
-      "insightsAlterStunden": 15.2
+      "insightsStand": "2026-10-07T13:44:44.280Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-07",
