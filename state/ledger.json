@@ -8819,6 +8819,18 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-07",
+      "slot": "s3",
+      "medienId": "17971107141085959",
+      "veroeffentlicht": "2026-10-07T17:30:25.184Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": ""
     }
   ],
   "fachZaehler": {
