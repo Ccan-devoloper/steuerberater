@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 208,
+        "reach": 209,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 287,
-        "ig_reels_avg_watch_time": 26979,
-        "ig_reels_video_view_total_time": 6043347,
-        "reels_skip_rate": 71.3
+        "views": 292,
+        "ig_reels_avg_watch_time": 27035,
+        "ig_reels_video_view_total_time": 6137117,
+        "reels_skip_rate": 70.5
       },
-      "insightsStand": "2026-10-07T07:44:34.357Z",
-      "insightsAlterStunden": 62
+      "insightsStand": "2026-10-07T15:45:36.824Z",
+      "insightsAlterStunden": 70
     },
     {
       "datum": "2026-10-04",
@@ -8084,17 +8084,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 155,
+        "reach": 158,
         "saved": 3,
         "shares": 0,
         "likes": 6,
         "comments": 0,
         "total_interactions": 9,
         "follows": 0,
-        "profile_visits": 3
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-07T07:44:34.357Z",
-      "insightsAlterStunden": 49.2
+      "insightsStand": "2026-10-07T15:45:36.824Z",
+      "insightsAlterStunden": 57.3
     },
     {
       "datum": "2026-10-05",
@@ -8146,17 +8146,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 130,
+        "reach": 135,
         "saved": 3,
         "shares": 1,
         "likes": 3,
         "comments": 0,
         "total_interactions": 7,
-        "follows": 1,
+        "follows": 2,
         "profile_visits": 8
       },
-      "insightsStand": "2026-10-07T07:44:34.357Z",
-      "insightsAlterStunden": 45.7
+      "insightsStand": "2026-10-07T15:45:36.824Z",
+      "insightsAlterStunden": 53.8
     },
     {
       "datum": "2026-10-05",
@@ -8597,22 +8597,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 57,
-        "views": 73,
+        "reach": 63,
+        "views": 79,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 66,
+        "navigation": 72,
         "navigation_tap_back": 2,
         "navigation_tap_exit": 14,
-        "navigation_tap_forward": 47,
+        "navigation_tap_forward": 53,
         "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-07T13:44:44.280Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-07T15:45:32.805Z",
+      "insightsAlterStunden": 22.3
     },
     {
       "datum": "2026-10-07",
@@ -8718,21 +8718,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 10,
-        "views": 16,
+        "reach": 37,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 6,
-        "navigation_swipe_forward": 1
+        "navigation": 41,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 23,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-07T11:44:36.963Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-07T15:45:32.805Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-10-07",
@@ -8778,7 +8779,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 18,
+        "views": 32,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 2,
+        "profile_activity": 0,
+        "navigation": 28,
+        "navigation_tap_forward": 19,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-07T15:45:32.805Z",
+      "insightsAlterStunden": 1.3
     }
   ],
   "fachZaehler": {
