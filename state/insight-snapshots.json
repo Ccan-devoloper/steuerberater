@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-07T17:44:33.350Z",
+  "stand": "2026-10-07T18:45:01.478Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -17955,6 +17955,23 @@
           "navigation_tap_forward": 37,
           "navigation_tap_exit": 7,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-07T18:44:52.426Z",
+          "alterStunden": 14.2,
+          "reach": 74,
+          "views": 91,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 87,
+          "navigation_tap_back": 6,
+          "navigation_tap_forward": 71,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -18015,6 +18032,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-07T18:44:58.891Z",
+          "alterStunden": 14.2,
+          "reach": 93,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 7
         }
       ]
     },
@@ -18188,6 +18217,61 @@
           "navigation_swipe_forward": 4,
           "navigation_tap_exit": 4,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17971107141085959": {
+      "art": "story",
+      "datum": "2026-10-07",
+      "titel": null,
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-07T17:30:25.184Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-07T18:44:52.426Z",
+          "alterStunden": 1.2,
+          "reach": 28,
+          "views": 51,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 44,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 34
+        }
+      ]
+    },
+    "18116103412791627": {
+      "art": "beitrag",
+      "datum": "2026-10-07",
+      "titel": "Tag 3: drei Dauerbrenner für morgen",
+      "format": "reel",
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-07T17:30:11.093Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-07T18:44:58.891Z",
+          "alterStunden": 1.2,
+          "reach": 172,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 250,
+          "ig_reels_avg_watch_time": 5857,
+          "ig_reels_video_view_total_time": 1036750,
+          "reels_skip_rate": 74.9
         }
       ]
     }
@@ -19285,6 +19369,11 @@
     },
     {
       "stand": "2026-10-07T17:44:33.350Z",
+      "follower": 143,
+      "medien": 95
+    },
+    {
+      "stand": "2026-10-07T18:45:01.478Z",
       "follower": 143,
       "medien": 95
     }
