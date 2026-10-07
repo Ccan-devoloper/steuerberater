@@ -6543,17 +6543,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 89,
+        "reach": 96,
         "saved": 2,
         "shares": 1,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 4
+        "profile_visits": 5
       },
-      "insightsStand": "2026-10-06T12:15:09.920Z",
-      "insightsAlterStunden": 126.5
+      "insightsStand": "2026-10-07T12:44:25.862Z",
+      "insightsAlterStunden": 151
     },
     {
       "datum": "2026-10-01",
@@ -6670,8 +6670,8 @@
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-06T12:15:09.920Z",
-      "insightsAlterStunden": 124.5
+      "insightsStand": "2026-10-07T12:44:25.862Z",
+      "insightsAlterStunden": 148.9
     },
     {
       "datum": "2026-10-01",
@@ -7052,7 +7052,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 57,
+        "reach": 65,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7061,8 +7061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-06T12:15:09.920Z",
-      "insightsAlterStunden": 96.5
+      "insightsStand": "2026-10-07T12:44:25.862Z",
+      "insightsAlterStunden": 121
     },
     {
       "datum": "2026-10-02",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 168,
+        "reach": 175,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 217,
-        "ig_reels_avg_watch_time": 9848,
-        "ig_reels_video_view_total_time": 1822002,
-        "reels_skip_rate": 74
+        "views": 226,
+        "ig_reels_avg_watch_time": 9428,
+        "ig_reels_video_view_total_time": 1838480,
+        "reels_skip_rate": 74.7
       },
-      "insightsStand": "2026-10-06T12:15:09.920Z",
-      "insightsAlterStunden": 66.5
+      "insightsStand": "2026-10-07T12:44:25.862Z",
+      "insightsAlterStunden": 91
     },
     {
       "datum": "2026-10-03",
@@ -8294,19 +8294,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 283,
+        "reach": 285,
         "saved": 2,
         "shares": 2,
         "likes": 4,
         "comments": 0,
         "total_interactions": 8,
-        "views": 363,
-        "ig_reels_avg_watch_time": 7996,
-        "ig_reels_video_view_total_time": 2343033,
-        "reels_skip_rate": 66.5
+        "views": 369,
+        "ig_reels_avg_watch_time": 8078,
+        "ig_reels_video_view_total_time": 2407333,
+        "reels_skip_rate": 66.1
       },
-      "insightsStand": "2026-10-07T04:30:33.099Z",
-      "insightsAlterStunden": 35.5
+      "insightsStand": "2026-10-07T12:44:25.862Z",
+      "insightsAlterStunden": 43.7
     },
     {
       "datum": "2026-10-05",
