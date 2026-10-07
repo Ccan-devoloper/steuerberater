@@ -6810,19 +6810,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 164,
+        "reach": 173,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 212,
-        "ig_reels_avg_watch_time": 5502,
-        "ig_reels_video_view_total_time": 951976,
-        "reels_skip_rate": 72.2
+        "views": 220,
+        "ig_reels_avg_watch_time": 5341,
+        "ig_reels_video_view_total_time": 966738,
+        "reels_skip_rate": 71.8
       },
-      "insightsStand": "2026-10-06T13:45:10.116Z",
-      "insightsAlterStunden": 116
+      "insightsStand": "2026-10-07T14:30:19.265Z",
+      "insightsAlterStunden": 140.8
     },
     {
       "datum": "2026-10-01",
@@ -7143,7 +7143,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 56,
+        "reach": 61,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -7152,8 +7152,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-06T13:45:10.116Z",
-      "insightsAlterStunden": 95
+      "insightsStand": "2026-10-07T14:30:19.265Z",
+      "insightsAlterStunden": 119.8
     },
     {
       "datum": "2026-10-02",
@@ -7447,17 +7447,17 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 77,
-        "saved": 1,
+        "reach": 100,
+        "saved": 3,
         "shares": 0,
-        "likes": 4,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 8,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-06T13:45:10.116Z",
-      "insightsAlterStunden": 74
+      "insightsStand": "2026-10-07T14:30:19.265Z",
+      "insightsAlterStunden": 98.8
     },
     {
       "datum": "2026-10-03",
@@ -8571,19 +8571,19 @@
         "#ertragsteuern"
       ],
       "insights": {
-        "reach": 208,
+        "reach": 212,
         "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 297,
-        "ig_reels_avg_watch_time": 9145,
-        "ig_reels_video_view_total_time": 1920493,
-        "reels_skip_rate": 67.3
+        "total_interactions": 3,
+        "views": 311,
+        "ig_reels_avg_watch_time": 9437,
+        "ig_reels_video_view_total_time": 2038517,
+        "reels_skip_rate": 65.3
       },
-      "insightsStand": "2026-10-07T10:45:27.735Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-10-07T14:30:19.265Z",
+      "insightsAlterStunden": 21
     },
     {
       "datum": "2026-10-06",
@@ -8660,22 +8660,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 37,
-        "views": 46,
+        "reach": 42,
+        "views": 55,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 44,
-        "navigation_swipe_forward": 1,
+        "navigation": 48,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 37,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 33,
-        "navigation_tap_back": 3
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-07T10:00:04.108Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-07T14:30:17.747Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-07",
