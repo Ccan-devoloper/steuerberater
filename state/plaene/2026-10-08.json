@@ -24,7 +24,8 @@
       "themaTitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
       "fach": null,
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-08T13:30:00.049Z"
     },
     {
       "slot": "b3",
