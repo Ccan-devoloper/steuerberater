@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-08T15:45:34.128Z",
+  "stand": "2026-10-08T16:45:00.775Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -15996,6 +15996,20 @@
           "ig_reels_avg_watch_time": 27035,
           "ig_reels_video_view_total_time": 6137117,
           "reels_skip_rate": 70.5
+        },
+        {
+          "stand": "2026-10-08T16:44:57.518Z",
+          "alterStunden": 95,
+          "reach": 216,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 297,
+          "ig_reels_avg_watch_time": 26335,
+          "ig_reels_video_view_total_time": 6188832,
+          "reels_skip_rate": 71.6
         }
       ]
     },
@@ -19219,6 +19233,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-08T16:44:57.518Z",
+          "alterStunden": 12.2,
+          "reach": 75,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -19315,6 +19341,71 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-08T16:44:57.518Z",
+          "alterStunden": 3.2,
+          "reach": 56,
+          "saved": 1,
+          "shares": 0,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18113493482030820": {
+      "art": "story",
+      "datum": "2026-10-08",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-08T15:30:24.183Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-08T16:44:55.385Z",
+          "alterStunden": 1.2,
+          "reach": 14,
+          "views": 16,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "18116364983050939": {
+      "art": "beitrag",
+      "datum": "2026-10-08",
+      "titel": "Geschafft – was jetzt kommt",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-08T15:30:10.568Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-08T16:44:57.518Z",
+          "alterStunden": 1.2,
+          "reach": 35,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 62,
+          "ig_reels_avg_watch_time": 6940,
+          "ig_reels_video_view_total_time": 242928,
+          "reels_skip_rate": 70.3
         }
       ]
     }
@@ -20492,6 +20583,11 @@
     },
     {
       "stand": "2026-10-08T15:45:34.128Z",
+      "follower": 144,
+      "medien": 98
+    },
+    {
+      "stand": "2026-10-08T16:45:00.775Z",
       "follower": 144,
       "medien": 98
     }
