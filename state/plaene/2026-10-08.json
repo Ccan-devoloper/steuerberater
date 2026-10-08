@@ -12,7 +12,8 @@
       "themaTitel": "Heute ist Tag 3: der letzte Anlauf",
       "fach": null,
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-08T04:30:00.100Z"
     },
     {
       "slot": "b2",
