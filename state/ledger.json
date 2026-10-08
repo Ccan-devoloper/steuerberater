@@ -8388,7 +8388,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 95,
+        "reach": 97,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-08T12:45:37.496Z",
-      "insightsAlterStunden": 48.5
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 59.7
     },
     {
       "datum": "2026-10-06",
@@ -8508,7 +8508,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 155,
+        "reach": 159,
         "saved": 4,
         "shares": 0,
         "likes": 7,
@@ -8517,8 +8517,8 @@
         "follows": 1,
         "profile_visits": 10
       },
-      "insightsStand": "2026-10-08T12:45:37.496Z",
-      "insightsAlterStunden": 46.3
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 57.4
     },
     {
       "datum": "2026-10-06",
@@ -8757,7 +8757,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 105,
+        "reach": 112,
         "saved": 4,
         "shares": 1,
         "likes": 2,
@@ -8766,8 +8766,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-08T13:45:27.619Z",
-      "insightsAlterStunden": 23.3
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 33.4
     },
     {
       "datum": "2026-10-07",
@@ -8820,19 +8820,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 215,
+        "reach": 223,
         "saved": 0,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
-        "views": 263,
-        "ig_reels_avg_watch_time": 6960,
-        "ig_reels_video_view_total_time": 1552203,
-        "reels_skip_rate": 82.3
+        "views": 273,
+        "ig_reels_avg_watch_time": 7036,
+        "ig_reels_video_view_total_time": 1646562,
+        "reels_skip_rate": 80.7
       },
-      "insightsStand": "2026-10-08T13:45:27.619Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 30.4
     },
     {
       "datum": "2026-10-07",
@@ -8885,7 +8885,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 90,
+        "reach": 93,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -8894,8 +8894,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-08T20:45:10.872Z",
-      "insightsAlterStunden": 16.3
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 19.4
     },
     {
       "datum": "2026-10-08",
@@ -8909,21 +8909,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 47,
-        "views": 53,
+        "reach": 59,
+        "views": 64,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 50,
+        "navigation": 62,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 51,
         "navigation_tap_exit": 8,
-        "navigation_tap_forward": 41,
-        "navigation_tap_back": 1
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-08T19:01:30.295Z",
-      "insightsAlterStunden": 14.5
+      "insightsStand": "2026-10-08T23:56:51.265Z",
+      "insightsAlterStunden": 19.4
     },
     {
       "datum": "2026-10-08",
@@ -8937,21 +8938,21 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 47,
-        "views": 53,
+        "reach": 57,
+        "views": 62,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_tap_back": 1,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 41
+        "navigation": 60,
+        "navigation_tap_forward": 50,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-08T19:01:30.295Z",
-      "insightsAlterStunden": 14.3
+      "insightsStand": "2026-10-08T23:56:51.265Z",
+      "insightsAlterStunden": 19.2
     },
     {
       "datum": "2026-10-08",
@@ -9004,17 +9005,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 80,
+        "reach": 108,
         "saved": 1,
-        "shares": 0,
+        "shares": 1,
         "likes": 6,
         "comments": 0,
-        "total_interactions": 7,
+        "total_interactions": 8,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-08T18:44:50.974Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 10.4
     },
     {
       "datum": "2026-10-08",
@@ -9028,21 +9029,21 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 38,
-        "views": 39,
+        "reach": 48,
+        "views": 51,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 40,
+        "navigation": 52,
         "navigation_swipe_forward": 1,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 32
+        "navigation_tap_forward": 44
       },
-      "insightsStand": "2026-10-08T19:01:30.295Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-08T23:56:51.265Z",
+      "insightsAlterStunden": 10.4
     },
     {
       "datum": "2026-10-08",
@@ -9066,19 +9067,19 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 148,
+        "reach": 180,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 234,
-        "ig_reels_avg_watch_time": 6050,
-        "ig_reels_video_view_total_time": 907636,
-        "reels_skip_rate": 66.7
+        "views": 242,
+        "ig_reels_avg_watch_time": 5903,
+        "ig_reels_video_view_total_time": 1086172,
+        "reels_skip_rate": 81
       },
-      "insightsStand": "2026-10-08T20:45:10.872Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-10-08T23:56:55.663Z",
+      "insightsAlterStunden": 8.4
     },
     {
       "datum": "2026-10-08",
