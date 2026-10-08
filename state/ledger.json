@@ -9004,7 +9004,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 56,
+        "reach": 80,
         "saved": 1,
         "shares": 0,
         "likes": 6,
@@ -9013,8 +9013,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-08T16:44:57.518Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-08T18:44:50.974Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-08",
@@ -9066,19 +9066,19 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 35,
+        "reach": 69,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 62,
-        "ig_reels_avg_watch_time": 6940,
-        "ig_reels_video_view_total_time": 242928,
-        "reels_skip_rate": 70.3
+        "views": 108,
+        "ig_reels_avg_watch_time": 6440,
+        "ig_reels_video_view_total_time": 463686,
+        "reels_skip_rate": 68.5
       },
-      "insightsStand": "2026-10-08T16:44:57.518Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-08T18:44:50.974Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-10-08",
