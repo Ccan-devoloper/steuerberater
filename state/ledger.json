@@ -8862,6 +8862,28 @@
       },
       "insightsStand": "2026-10-08T00:18:08.397Z",
       "insightsAlterStunden": 6.8
+    },
+    {
+      "datum": "2026-10-08",
+      "slot": "b1",
+      "medienId": "18071175986746412",
+      "veroeffentlicht": "2026-10-08T04:30:05.707Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "06:30",
+      "stunde": 6,
+      "format": "anlass",
+      "thema": null,
+      "fach": null,
+      "klausur": 3,
+      "titel": "Prüfungstag 3",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ]
     }
   ],
   "fachZaehler": {
