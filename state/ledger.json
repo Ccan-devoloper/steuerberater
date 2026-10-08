@@ -8718,22 +8718,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 68,
-        "views": 86,
+        "reach": 74,
+        "views": 93,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 79,
+        "navigation": 88,
         "navigation_tap_back": 3,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 55,
-        "navigation_swipe_forward": 7
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 61,
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-10-08T06:50:28.917Z",
-      "insightsAlterStunden": 20.8
+      "insightsStand": "2026-10-08T09:44:49.831Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-07",
@@ -8885,7 +8885,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 54,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -8894,8 +8894,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-08T07:44:39.835Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-08T09:44:51.639Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-08",
