@@ -1,0 +1,25 @@
+{
+  "slot": "s4",
+  "art": "anlass",
+  "fach": null,
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Heute",
+    "Viel Erfolg",
+    "an Tag 3!",
+    "Buchführung und Bilanzwesen. Die letzte Klausur, dann ist es geschafft.",
+    "Jeder Sachverhalt gleich",
+    "Gewinnauswirkung sofort"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

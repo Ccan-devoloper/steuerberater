@@ -1,0 +1,55 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Heute ist Tag 3 der schriftlichen Steuerberaterprüfung: Buchführung und Bilanzwesen. Der letzte Anlauf!\n\n▸ Zwei Tage liegen hinter dir, die Routine sitzt: frühstücken, Gesetze griffbereit, erst überfliegen.\n▸ Tipp für heute: jeden Sachverhalt gleich aufbauen, Ansatz, Bewertung, Buchung, Gewinnauswirkung. Die Gewinnauswirkung sofort notieren.\n▸ Wird die Zeit knapp: lieber jeden Sachverhalt kurz anlösen als wenige perfekt.\n\nViel Erfolg! Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [],
+  "slug": "2026-10-08-b1",
+  "kurztitel": "Heute ist Tag 3: der letzte Anlauf",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungstag 3",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungstag 3",
+      "text": "Prüfungstag 3 · Heute · ist Tag 3 · Der letzte Anlauf · + 1 Tipp für heute · OKTOBER · 8 · Do · Tag 3",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Noch einmal sechs Stunden · Zwei Tage liegen hinter dir. Die Routine hast du jetzt. · Frühstück, Wasser, Gesetze griffbereit, Stifte dabei. · Erst überfliegen: Wie viele Sachverhalte, wie viele Punkte? · Ein letztes Mal."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dein Tipp für heute · Jeden Sachverhalt gleich aufbauen: Ansatz, Bewertung, Buchung, Gewinnauswirkung. · Gewinnauswirkung sofort notieren, nicht erst am Ende suchen. · Handels- und Steuerbilanz nur trennen, wenn sie auseinanderlaufen. · Gleicher Aufbau = schneller · Immer gleich!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Wenn die Zeit knapp wird · Lieber jeden Sachverhalt kurz anlösen als wenige perfekt. · Buchungssatz und Gewinnauswirkung reichen notfalls als Kern. · Letzte zehn Minuten: offene Sachverhalte stichpunktartig. · Kurz statt nichts."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Tag 3: Buchführung und Bilanzwesen · Die letzte Klausur. Du schaffst das! · Ansatz, Bewertung, · Buchung, · Gewinnauswirkung, · jeder Sachverhalt. · Speichern für Klausur 3 · Was machst du heute Abend zuerst?"
+    }
+  ]
+}

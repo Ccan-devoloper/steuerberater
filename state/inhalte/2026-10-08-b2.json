@@ -1,0 +1,65 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Geschafft! Die schriftliche Steuerberaterprüfung liegt hinter dir. Was jetzt kommt:\n\n▸ Das Ergebnis der Klausuren kommt meist ab Dezember oder Januar.\n▸ Liegt die Gesamtnote der schriftlichen Prüfung über 4,5, ist die Prüfung nicht bestanden; bis 4,5 geht es in die mündliche Prüfung (§ 25 Abs. 2 DVStB). Die Ladung kommt spätestens zwei Wochen vorher, mit den Einzelnoten (§ 26 Abs. 1 DVStB).\n▸ Die mündliche Prüfung besteht aus einem Kurzvortrag und sechs Prüfungsabschnitten (§ 26 Abs. 3 DVStB). Für den Vortrag gibt es eine halbe Stunde vorher drei Themen zur Wahl (§ 26 Abs. 6 DVStB); die Prüfungszeit soll 90 Minuten nicht überschreiten (§ 26 Abs. 7 DVStB).\n▸ Bestanden ist, wer im Schnitt aus schriftlicher und mündlicher Gesamtnote höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n▸ Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG); dafür ist eine neue Zulassung nötig (§ 28 Abs. 3 DVStB).\n\nHeute aber: feiern und schlafen. Speichern für die Mündliche 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 1, 3, 6, 7 DVStB",
+    "§ 28 Abs. 1 S. 2, Abs. 3 DVStB",
+    "§ 35 Abs. 4 StBerG"
+  ],
+  "slug": "2026-10-08-b2",
+  "kurztitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Geschafft!",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Geschafft!",
+      "text": "Geschafft! · Alle drei · geschafft! · Und jetzt? · + Was jetzt kommt",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Erst mal: feiern · Drei Tage, drei Klausuren. Egal wie es lief: Das war ein Kraftakt. · Heute keine Lösungen vergleichen, keine Foren. · Schlafen, essen, Menschen treffen. · Stolz auf dich!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Was jetzt kommt · Dez./Jan. · meist das Ergebnis · ≤ 4,5 · mündliche Prüfung · § 25 Abs. 2 DVStB · Ladung · mind. 2 Wochen vorher · § 26 Abs. 1 DVStB · ≤ 4,15 · Schnitt: bestanden · § 28 Abs. 1 S. 2 DVStB · Schritt für Schritt."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Die mündliche Prüfung · Ein Kurzvortrag und sechs Prüfungsabschnitte. · § 26 Abs. 3 DVStB · Drei Vortragsthemen zur Wahl, eine halbe Stunde vorher. · § 26 Abs. 6 DVStB · Prüfungszeit je Person in der Regel höchstens 90 Minuten. · § 26 Abs. 7 DVStB · Das kommt später."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Und wenn nicht? · Gesamtnote über 4,5: diesmal nicht bestanden. Kein Urteil über dich. · § 25 Abs. 2 DVStB · Die Prüfung kann zweimal wiederholt werden. · § 35 Abs. 4 StBerG · Für den nächsten Anlauf brauchst du eine neue Zulassung. · § 28 Abs. 3 DVStB · Es gibt einen Weg."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Schriftlich bis 4,5: mündliche Prüfung · Bestanden bei höchstens 4,15 im Schnitt · Heute feiern, · Ergebnis abwarten, · Mündliche planen, · sonst neu anlaufen. · Speichern für die Mündliche · Wie fühlst du dich gerade?"
+    }
+  ]
+}

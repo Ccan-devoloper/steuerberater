@@ -1,0 +1,24 @@
+{
+  "slot": "s7",
+  "art": "anlass",
+  "fach": null,
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Halbzeit",
+    "Halbzeit.",
+    "Endspurt.",
+    "Kurz trinken, Schultern lockern. Die Ziellinie ist in Sicht.",
+    "Jeder Sachverhalt bringt Punkte."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

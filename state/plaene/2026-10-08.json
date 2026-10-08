@@ -1,0 +1,73 @@
+{
+  "datum": "2026-10-08",
+  "erzeugt": "2026-10-08T00:18:05.902Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "06:30",
+      "format": "anlass",
+      "themaId": null,
+      "themaTitel": "Heute ist Tag 3: der letzte Anlauf",
+      "fach": null,
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "15:30",
+      "format": "anlass",
+      "themaId": null,
+      "themaTitel": "Geschafft: Was nach der schriftlichen Prüfung kommt",
+      "fach": null,
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": null,
+      "themaTitel": "Geschafft – was jetzt kommt",
+      "fach": null,
+      "klausur": 3,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s1",
+      "zeit": "06:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s4",
+      "zeit": "06:45",
+      "art": "anlass",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "12:00",
+      "art": "anlass",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "15:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "17:30",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    }
+  ]
+}

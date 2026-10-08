@@ -1,0 +1,22 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": null,
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Steuerberaterexamen",
+    "Neu im Feed",
+    "Heute ist Tag 3",
+    "Der letzte Anlauf + Tipp · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

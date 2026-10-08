@@ -1,0 +1,57 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 3,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Geschafft – was jetzt kommt nach der schriftlichen Steuerberaterprüfung.\n\n▸ Gesamtnote der schriftlichen Prüfung bis 4,5: mündliche Prüfung; darüber ist die Prüfung nicht bestanden (§ 25 Abs. 2 DVStB). Das Ergebnis kommt meist ab Dezember oder Januar.\n▸ Die mündliche Prüfung besteht aus einem Kurzvortrag und sechs Prüfungsabschnitten (§ 26 Abs. 3 DVStB).\n▸ Bestanden ist, wer im Schnitt aus schriftlicher und mündlicher Gesamtnote höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n▸ Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG).\n\nSpeichern für die Mündliche 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#prüfungstag"
+  ],
+  "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 3 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB",
+    "§ 35 Abs. 4 StBerG"
+  ],
+  "slug": "2026-10-08-b3",
+  "kurztitel": "Geschafft – was jetzt kommt",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Geschafft! Und jetzt?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Mündliche"
+    },
+    {
+      "art": "schritt",
+      "titel": "Zweiter Anlauf"
+    }
+  ],
+  "sprecher": [
+    "Drei Klausurtage geschafft! Mit einer Gesamtnote bis vier Komma fünf geht es in die mündliche Prüfung, darüber in einen neuen Anlauf.",
+    "Mündlich: ein Kurzvortrag und sechs Prüfungsabschnitte. Bestanden bei höchstens vier Komma eins fünf im Schnitt.",
+    "Und wiederholen darfst du zweimal.",
+    "Heute aber: feiern und schlafen."
+  ],
+  "dauerS": 23.507,
+  "tempo": 1
+}
