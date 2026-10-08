@@ -9041,6 +9041,28 @@
       },
       "insightsStand": "2026-10-08T14:45:17.384Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-08",
+      "slot": "b3",
+      "medienId": "18116364983050939",
+      "veroeffentlicht": "2026-10-08T15:30:10.568Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": null,
+      "fach": null,
+      "klausur": 3,
+      "titel": "Geschafft – was jetzt kommt",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#prüfungstag"
+      ]
     }
   ],
   "fachZaehler": {
