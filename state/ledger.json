@@ -8294,19 +8294,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 295,
+        "reach": 296,
         "saved": 3,
         "shares": 2,
         "likes": 4,
         "comments": 0,
         "total_interactions": 9,
-        "views": 383,
-        "ig_reels_avg_watch_time": 8081,
-        "ig_reels_video_view_total_time": 2513194,
-        "reels_skip_rate": 66.3
+        "views": 385,
+        "ig_reels_avg_watch_time": 8064,
+        "ig_reels_video_view_total_time": 2516093,
+        "reels_skip_rate": 66.4
       },
-      "insightsStand": "2026-10-08T05:45:26.194Z",
-      "insightsAlterStunden": 60.8
+      "insightsStand": "2026-10-08T13:45:27.619Z",
+      "insightsAlterStunden": 68.8
     },
     {
       "datum": "2026-10-05",
@@ -8757,7 +8757,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 103,
+        "reach": 105,
         "saved": 4,
         "shares": 1,
         "likes": 2,
@@ -8766,8 +8766,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-08T10:44:59.421Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-08T13:45:27.619Z",
+      "insightsAlterStunden": 23.3
     },
     {
       "datum": "2026-10-07",
@@ -8781,22 +8781,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 67,
-        "views": 87,
+        "reach": 68,
+        "views": 91,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 5,
         "profile_activity": 0,
-        "navigation": 79,
-        "navigation_tap_forward": 53,
-        "navigation_swipe_forward": 6,
+        "navigation": 80,
+        "navigation_tap_back": 4,
         "navigation_tap_exit": 16,
-        "navigation_tap_back": 4
+        "navigation_swipe_forward": 7,
+        "navigation_tap_forward": 53
       },
-      "insightsStand": "2026-10-08T11:44:15.094Z",
-      "insightsAlterStunden": 21.2
+      "insightsStand": "2026-10-08T13:45:26.084Z",
+      "insightsAlterStunden": 23.3
     },
     {
       "datum": "2026-10-07",
@@ -8826,13 +8826,13 @@
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
-        "views": 262,
-        "ig_reels_avg_watch_time": 7002,
-        "ig_reels_video_view_total_time": 1547583,
-        "reels_skip_rate": 82.2
+        "views": 263,
+        "ig_reels_avg_watch_time": 6960,
+        "ig_reels_video_view_total_time": 1552203,
+        "reels_skip_rate": 82.3
       },
-      "insightsStand": "2026-10-08T10:44:59.421Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-08T13:45:27.619Z",
+      "insightsAlterStunden": 20.3
     },
     {
       "datum": "2026-10-07",
