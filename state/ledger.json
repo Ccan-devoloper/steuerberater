@@ -9001,6 +9001,18 @@
         "#examensvorbereitung",
         "#prüfungstag"
       ]
+    },
+    {
+      "datum": "2026-10-08",
+      "slot": "s2",
+      "medienId": "18106669823232689",
+      "veroeffentlicht": "2026-10-08T13:30:19.400Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
