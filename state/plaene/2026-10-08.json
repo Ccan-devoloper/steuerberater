@@ -36,7 +36,8 @@
       "themaTitel": "Geschafft – was jetzt kommt",
       "fach": null,
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-08T15:30:00.096Z"
     }
   ],
   "stories": [
