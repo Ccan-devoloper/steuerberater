@@ -8718,22 +8718,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 66,
-        "views": 81,
+        "reach": 68,
+        "views": 86,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 76,
+        "navigation": 79,
         "navigation_tap_back": 3,
-        "navigation_tap_exit": 13,
-        "navigation_tap_forward": 54,
-        "navigation_swipe_forward": 6
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 55,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-08T04:30:20.523Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-10-08T06:50:28.917Z",
+      "insightsAlterStunden": 20.8
     },
     {
       "datum": "2026-10-07",
