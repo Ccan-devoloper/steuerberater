@@ -7206,19 +7206,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 115,
-        "saved": 1,
+        "reach": 123,
+        "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 169,
-        "ig_reels_avg_watch_time": 12111,
-        "ig_reels_video_view_total_time": 1635043,
-        "reels_skip_rate": 61.2
+        "total_interactions": 3,
+        "views": 180,
+        "ig_reels_avg_watch_time": 11554,
+        "ig_reels_video_view_total_time": 1675366,
+        "reels_skip_rate": 62.8
       },
-      "insightsStand": "2026-10-07T16:45:00.455Z",
-      "insightsAlterStunden": 119
+      "insightsStand": "2026-10-08T18:08:43.138Z",
+      "insightsAlterStunden": 144.4
     },
     {
       "datum": "2026-10-02",
@@ -7298,7 +7298,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 79,
+        "reach": 80,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -7307,8 +7307,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-07T17:30:26.369Z",
-      "insightsAlterStunden": 107.8
+      "insightsStand": "2026-10-08T18:08:43.138Z",
+      "insightsAlterStunden": 132.4
     },
     {
       "datum": "2026-10-03",
@@ -8571,19 +8571,19 @@
         "#ertragsteuern"
       ],
       "insights": {
-        "reach": 242,
+        "reach": 244,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 342,
-        "ig_reels_avg_watch_time": 9131,
-        "ig_reels_video_view_total_time": 2273820,
-        "reels_skip_rate": 67.9
+        "views": 343,
+        "ig_reels_avg_watch_time": 9085,
+        "ig_reels_video_view_total_time": 2280388,
+        "reels_skip_rate": 67.7
       },
-      "insightsStand": "2026-10-08T08:45:42.863Z",
-      "insightsAlterStunden": 39.3
+      "insightsStand": "2026-10-08T18:08:43.138Z",
+      "insightsAlterStunden": 48.6
     },
     {
       "datum": "2026-10-06",
@@ -8636,7 +8636,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 102,
+        "reach": 103,
         "saved": 1,
         "shares": 0,
         "likes": 3,
@@ -8645,8 +8645,8 @@
         "follows": 0,
         "profile_visits": 7
       },
-      "insightsStand": "2026-10-08T08:45:42.863Z",
-      "insightsAlterStunden": 28.3
+      "insightsStand": "2026-10-08T18:08:43.138Z",
+      "insightsAlterStunden": 37.6
     },
     {
       "datum": "2026-10-07",
