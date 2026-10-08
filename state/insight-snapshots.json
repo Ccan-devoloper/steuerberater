@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-08T11:44:18.743Z",
+  "stand": "2026-10-08T12:45:41.129Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -12698,6 +12698,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-08T12:45:37.496Z",
+          "alterStunden": 145,
+          "reach": 75,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -14581,6 +14593,20 @@
           "ig_reels_avg_watch_time": 9428,
           "ig_reels_video_view_total_time": 1838480,
           "reels_skip_rate": 74.7
+        },
+        {
+          "stand": "2026-10-08T12:45:37.496Z",
+          "alterStunden": 115,
+          "reach": 181,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 239,
+          "ig_reels_avg_watch_time": 10040,
+          "ig_reels_video_view_total_time": 2038164,
+          "reels_skip_rate": 74.6
         }
       ]
     },
@@ -17572,6 +17598,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-08T12:45:37.496Z",
+          "alterStunden": 48.5,
+          "reach": 95,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -17802,6 +17840,18 @@
           "likes": 7,
           "comments": 0,
           "total_interactions": 10,
+          "follows": 1,
+          "profile_visits": 10
+        },
+        {
+          "stand": "2026-10-08T12:45:37.496Z",
+          "alterStunden": 46.3,
+          "reach": 155,
+          "saved": 4,
+          "shares": 0,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 11,
           "follows": 1,
           "profile_visits": 10
         }
@@ -18996,6 +19046,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-08T12:45:37.496Z",
+          "alterStunden": 8.3,
+          "reach": 56,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -20180,6 +20242,11 @@
     },
     {
       "stand": "2026-10-08T11:44:18.743Z",
+      "follower": 143,
+      "medien": 96
+    },
+    {
+      "stand": "2026-10-08T12:45:41.129Z",
       "follower": 143,
       "medien": 96
     }

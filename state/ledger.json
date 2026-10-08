@@ -7052,7 +7052,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 75,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -7061,8 +7061,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-07T12:44:25.862Z",
-      "insightsAlterStunden": 121
+      "insightsStand": "2026-10-08T12:45:37.496Z",
+      "insightsAlterStunden": 145
     },
     {
       "datum": "2026-10-02",
@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 175,
+        "reach": 181,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 226,
-        "ig_reels_avg_watch_time": 9428,
-        "ig_reels_video_view_total_time": 1838480,
-        "reels_skip_rate": 74.7
+        "views": 239,
+        "ig_reels_avg_watch_time": 10040,
+        "ig_reels_video_view_total_time": 2038164,
+        "reels_skip_rate": 74.6
       },
-      "insightsStand": "2026-10-07T12:44:25.862Z",
-      "insightsAlterStunden": 91
+      "insightsStand": "2026-10-08T12:45:37.496Z",
+      "insightsAlterStunden": 115
     },
     {
       "datum": "2026-10-03",
@@ -8388,7 +8388,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 94,
+        "reach": 95,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-08T04:30:23.869Z",
-      "insightsAlterStunden": 40.3
+      "insightsStand": "2026-10-08T12:45:37.496Z",
+      "insightsAlterStunden": 48.5
     },
     {
       "datum": "2026-10-06",
@@ -8508,17 +8508,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 149,
-        "saved": 3,
+        "reach": 155,
+        "saved": 4,
         "shares": 0,
         "likes": 7,
         "comments": 0,
-        "total_interactions": 10,
+        "total_interactions": 11,
         "follows": 1,
         "profile_visits": 10
       },
-      "insightsStand": "2026-10-08T04:30:23.869Z",
-      "insightsAlterStunden": 38
+      "insightsStand": "2026-10-08T12:45:37.496Z",
+      "insightsAlterStunden": 46.3
     },
     {
       "datum": "2026-10-06",
@@ -8885,7 +8885,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 54,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -8894,8 +8894,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-08T09:44:51.639Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-08T12:45:37.496Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-08",
