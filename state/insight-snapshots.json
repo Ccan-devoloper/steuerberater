@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-08T04:45:04.406Z",
+  "stand": "2026-10-08T05:45:27.604Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -16923,6 +16923,20 @@
           "ig_reels_avg_watch_time": 8038,
           "ig_reels_video_view_total_time": 2483912,
           "reels_skip_rate": 66.8
+        },
+        {
+          "stand": "2026-10-08T05:45:26.194Z",
+          "alterStunden": 60.8,
+          "reach": 295,
+          "saved": 3,
+          "shares": 2,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 9,
+          "views": 383,
+          "ig_reels_avg_watch_time": 8081,
+          "ig_reels_video_view_total_time": 2513194,
+          "reels_skip_rate": 66.3
         }
       ]
     },
@@ -18663,6 +18677,84 @@
           "reels_skip_rate": 84.1
         }
       ]
+    },
+    "17949575787056075": {
+      "art": "story",
+      "datum": "2026-10-08",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-08T04:30:19.384Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-08T05:45:23.807Z",
+          "alterStunden": 1.3,
+          "reach": 15,
+          "views": 19,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18497909593097582": {
+      "art": "story",
+      "datum": "2026-10-08",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-08T04:45:03.116Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-08T05:45:23.807Z",
+          "alterStunden": 1,
+          "reach": 16,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "18071175986746412": {
+      "art": "beitrag",
+      "datum": "2026-10-08",
+      "titel": "Prüfungstag 3",
+      "format": "anlass",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-08T04:30:05.707Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-08T05:45:26.194Z",
+          "alterStunden": 1.3,
+          "reach": 38,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -19783,6 +19875,11 @@
     },
     {
       "stand": "2026-10-08T04:30:25.828Z",
+      "follower": 143,
+      "medien": 96
+    },
+    {
+      "stand": "2026-10-08T05:45:27.604Z",
       "follower": 143,
       "medien": 96
     }
