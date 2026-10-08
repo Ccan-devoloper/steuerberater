@@ -8781,22 +8781,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 65,
-        "views": 84,
+        "reach": 67,
+        "views": 87,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 5,
         "profile_activity": 0,
-        "navigation": 77,
-        "navigation_tap_forward": 52,
-        "navigation_swipe_forward": 5,
+        "navigation": 79,
+        "navigation_tap_forward": 53,
+        "navigation_swipe_forward": 6,
         "navigation_tap_exit": 16,
         "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-08T08:45:40.652Z",
-      "insightsAlterStunden": 18.3
+      "insightsStand": "2026-10-08T11:44:15.094Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-07",
@@ -8963,7 +8963,22 @@
       "storyArt": "anlass",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 5,
+        "views": 9,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 4,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 2
+      },
+      "insightsStand": "2026-10-08T11:44:15.094Z",
+      "insightsAlterStunden": 1.7
     }
   ],
   "fachZaehler": {

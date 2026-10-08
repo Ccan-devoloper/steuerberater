@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-08T10:45:03.169Z",
+  "stand": "2026-10-08T11:44:18.743Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -18669,6 +18669,23 @@
           "navigation_swipe_forward": 5,
           "navigation_tap_exit": 16,
           "navigation_tap_back": 4
+        },
+        {
+          "stand": "2026-10-08T11:44:15.094Z",
+          "alterStunden": 21.2,
+          "reach": 67,
+          "views": 87,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 5,
+          "profile_activity": 0,
+          "navigation": 79,
+          "navigation_tap_forward": 53,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_exit": 16,
+          "navigation_tap_back": 4
         }
       ]
     },
@@ -18979,6 +18996,33 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "17922077253439700": {
+      "art": "story",
+      "datum": "2026-10-08",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-08T10:00:03.083Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-08T11:44:15.094Z",
+          "alterStunden": 1.7,
+          "reach": 5,
+          "views": 9,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 4,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 2
         }
       ]
     }
@@ -20131,6 +20175,11 @@
     },
     {
       "stand": "2026-10-08T10:45:03.169Z",
+      "follower": 143,
+      "medien": 96
+    },
+    {
+      "stand": "2026-10-08T11:44:18.743Z",
       "follower": 143,
       "medien": 96
     }
