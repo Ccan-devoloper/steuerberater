@@ -59,8 +59,9 @@
       "slot": "s7",
       "zeit": "12:00",
       "art": "anlass",
-      "status": "sendet",
-      "sendeversuch": "2026-10-08T10:00:00.061Z"
+      "status": "veroeffentlicht",
+      "medienId": "17922077253439700",
+      "veroeffentlicht": "2026-10-08T10:00:03.082Z"
     },
     {
       "slot": "s2",
