@@ -1,0 +1,26 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-0",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Prüfungsfrage",
+    "Bilanzfall:",
+    "Was kommt zuerst?",
+    "Bewertung",
+    "Zurechnung: Wem gehört es?",
+    "Buchungssatz",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

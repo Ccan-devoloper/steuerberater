@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-bew1-8",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Nießbrauch:",
+    "Jahreswert mit Deckel",
+    "§ 16 BewG",
+    "Jahreswert höchstens Steuerwert des Guts geteilt durch 18,6.",
+    "§ 16 BewG",
+    "Kapitalwert: Jahreswert mal Vervielfältiger.",
+    "§§ 13, 14 BewG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

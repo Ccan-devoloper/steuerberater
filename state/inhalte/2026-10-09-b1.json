@@ -1,0 +1,65 @@
+{
+  "format": "anlass",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": "ust-aufb-ust-m-b04-14",
+  "caption": "Geschafft! Der Tag nach der schriftlichen Steuerberaterprüfung: durchatmen und der Fahrplan für die nächsten Monate.\n\n▸ Erst erholen. Grübeln über einzelne Lösungen ändert keine Note.\n▸ Das Ergebnis kommt meist ab Dezember oder Januar. Mit einer Gesamtnote bis 4,5 geht es in die mündliche Prüfung (§ 25 Abs. 2 DVStB): Kurzvortrag und sechs Prüfungsabschnitte, drei Vortragsthemen zur Wahl eine halbe Stunde vorher (§ 26 Abs. 3, 6 DVStB). Ab November gibt es hier Kurzvortrags-Beiträge.\n▸ Über 4,5: Die Prüfung kann zweimal wiederholt werden (§ 35 Abs. 4 StBerG); dafür ist eine neue Zulassung nötig (§ 28 Abs. 3 DVStB). Für viele beginnt jetzt die Vorbereitung auf 2027 – wir sind dabei.\n\nSpeichern für den Neustart 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#stbexamen2027"
+  ],
+  "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 3, 6 DVStB",
+    "§ 28 Abs. 3 DVStB",
+    "§ 35 Abs. 4 StBerG"
+  ],
+  "slug": "2026-10-09-b1",
+  "kurztitel": "Geschafft: der Tag danach und dein Fahrplan",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Geschafft",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Geschafft",
+      "text": "Geschafft · Der Tag · danach · Durchatmen · + Dein Fahrplan · OKTOBER · 9 · Fr · frei!",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Erst mal durchatmen · Gestern war Tag 3. Heute darfst du einfach müde sein. · Grübeln über einzelne Lösungen ändert keine Note. · Ein paar Tage ohne Gesetz: Erholung gehört zur Vorbereitung. · Endlich Pause."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Dein Fahrplan · Jetzt · erholen, Abstand gewinnen · Dezember oder Januar · meist kommt das Ergebnis · Gesamtnote bis 4,5 · § 25 Abs. 2 DVStB · mündliche Prüfung vorbereiten · Über 4,5 · § 35 Abs. 4 StBerG · zweiter Anlauf 2027 · Weiterwischen: beide Wege im Detail"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Weg 1: die Mündliche · Kurzvortrag und sechs Prüfungsabschnitte. · § 26 Abs. 3 DVStB · Drei Themen zur Wahl, eine halbe Stunde Vorbereitung. · § 26 Abs. 6 DVStB · Ab November üben wir hier Kurzvorträge, laut und mit Uhr. · Kurz und frei reden."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Weg 2: Anlauf 2027 · Für die Wiederholung brauchst du eine neue Zulassung. · § 28 Abs. 3 DVStB · Zweimal wiederholen ist möglich. · § 35 Abs. 4 StBerG · Viele starten jetzt neu. Hier geht es täglich weiter. · Wir bleiben dran."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Heute: durchatmen · Ergebnis meist ab Dezember · dann Mündliche oder 2027 · Erholen zuerst, · Ergebnis abwarten, · Mündliche üben · oder 2027 neu starten. · Speichern für den Neustart · Wie geht es dir heute?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "§ 20 UmwStG:",
+    "Was muss mit?",
+    "Jede funktional",
+    "wesentliche Grundlage",
+    "muss mit.",
+    "UmwStE vom 02.01.2025, Rn. 20.06"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

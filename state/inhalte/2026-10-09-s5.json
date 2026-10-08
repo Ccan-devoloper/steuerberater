@@ -1,0 +1,27 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-quiz-k3-0",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Auflösung",
+    "B: erst",
+    "die Zurechnung",
+    "Bewertung",
+    "Zurechnung: Wem gehört es?",
+    "Buchungssatz",
+    "Erst klären, wem das Wirtschaftsgut gehört. Danach Ansatz, Wert, Buchung.",
+    "§ 39 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

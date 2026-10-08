@@ -1,0 +1,22 @@
+{
+  "slot": "s3",
+  "art": "teaser",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": null,
+  "beitragSlot": "b3",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Neu im Feed",
+    "Disagio: 1.600 € im Jahr 1?",
+    "Neues Reel · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

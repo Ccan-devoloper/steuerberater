@@ -1,0 +1,82 @@
+{
+  "format": "vergleich",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-karte-kst-11",
+  "caption": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen? Die Gegenüberstellung für die Körperschaftsteuer.\n\n▸ Das Einkommen wird nach EStG und KStG ermittelt (§ 8 Abs. 1 KStG). Die Bilanz bleibt, korrigiert wird außerhalb.\n▸ Körperschaftsteuer und andere Steuern vom Einkommen samt Nebenleistungen sind nicht abziehbar (§ 10 Nr. 2 KStG), ebenso die Gewerbesteuer (§ 4 Abs. 5b EStG) und die Hälfte der Aufsichtsratsvergütungen (§ 10 Nr. 4 KStG).\n▸ Dividenden bleiben außer Ansatz, 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 1 S. 1, Abs. 5 S. 1 KStG); Voraussetzung: mindestens 10 % Beteiligung zu Beginn des Kalenderjahres (§ 8b Abs. 4 KStG).\n▸ Spenden zuletzt: Höchstbetrag vom Einkommen vor Spendenabzug und vor Verlustabzug (§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG).\n▸ Beispiel: 200.000 € + 30.000 € + 25.000 € + 10.000 € − 10.000 € + 500 € = 255.500 € Einkommen.\n\nZum Schluss: § 8 Abs. 1, § 8b Abs. 1, 5, § 10 Nr. 2, 4 KStG und § 4 Abs. 5b EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8 Abs. 1 KStG",
+    "§ 10 Nr. 2, 4 KStG",
+    "§ 4 Abs. 5b EStG",
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 9 Abs. 1 Nr. 2, Abs. 2 S. 1 KStG",
+    "§ 10d EStG"
+  ],
+  "slug": "2026-10-09-b2",
+  "kurztitel": "GmbH-Ergebnis: Jahresüberschuss oder Einkommen?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Gegenüberstellung",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Gegenüberstellung",
+      "text": "Gegenüberstellung · Jahresüberschuss · oder Einkommen? · § 8 Abs. 1 KStG · GmbH-Ergebnis · + Markier-Guide KStG + EStG · Gewinn · ≠ · Einkommen",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Vom Überschuss zum Einkommen · Jahresüberschuss · laut Steuerbilanz · Nichtabziehbares dazu · § 10 KStG, § 4 Abs. 5b EStG · Körperschaft- und Gewerbesteuer, halber Aufsichtsrat · Dividenden ab, 5 % dazu · § 8b Abs. 1, 5 KStG · Spenden zuletzt · § 9 Abs. 1 Nr. 2 KStG · mit Höchstbetrag · Am Ende: KStG + EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "In der Bilanz oder daneben? · Jahresüberschuss · Steueraufwand ist gebucht und mindert den Gewinn · Dividende steht voll im Ertrag · Einkommen · Körperschaftsteuer außerhalb der Bilanz wieder dazu · § 10 Nr. 2 KStG · Dividende raus, 5 % wieder rein · § 8b Abs. 1, 5 KStG · Bilanz bleibt?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Fall · Hana führt eine Werkstatt-GmbH. Jahresüberschuss: 200.000 €. · Gebucht: Körperschaftsteuer 30.000 €, Gewerbesteuer 25.000 €, Aufsichtsrat 20.000 €. · Ertrag: Dividende 10.000 € aus einer 20-%-Beteiligung. · Jetzt du: Wie hoch ist das Einkommen? · Was muss raus?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Die Lösung · § 10 KStG · § 4 Abs. 5b EStG · § 8b KStG · Jahresüberschuss · 200.000 € · + Körperschaftsteuer · 30.000 € · + Gewerbesteuer · 25.000 € · + halber Aufsichtsrat · 10.000 € · − Dividende · 10.000 € · + 5 % davon · 500 € · Einkommen · 255.500 €"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Reihenfolge am Ende · Spenden-Höchstbetrag vom Einkommen vor Spendenabzug berechnen. · § 9 Abs. 2 S. 1 KStG · Verlustabzug erst danach, nicht vorher. · § 9 Abs. 2 S. 1 KStG, § 10d EStG · Wer früher abzieht, rechnet den Höchstbetrag zu klein. · Erst Spenden!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jahresüberschuss 200.000 € · Einkommen 255.500 € · Steuern zurück, · Aufsichtsrat zur Hälfte, · Dividende raus, · 5 % wieder rein. · Speichern für Klausur 2 · Welche Korrektur vergisst du gern? · Weiterwischen: KStG + EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§§ 8, 8b KStG (Auszug) · auch für die GmbH · Dividende raus · 5 % wieder rein · Weiterwischen: § 10 KStG, § 4 EStG · Steuern und Aufsichtsrat zurück"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 10 KStG, § 4 EStG (Auszug) · KSt + Soli · 50 % zurück · Kontrollorgan · GewSt auch zurück · Hana: + 30.000 + 25.000 + 10.000 € · außerhalb der Bilanz wieder dazu"
+    }
+  ]
+}

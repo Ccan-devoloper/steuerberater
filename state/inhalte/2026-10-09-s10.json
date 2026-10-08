@@ -1,0 +1,19 @@
+{
+  "slot": "s10",
+  "art": "merksatz",
+  "fach": "mindset",
+  "klausur": 0,
+  "fachLabel": "Kopfsache",
+  "ueberzeile": "Geschafft",
+  "titel": "Du darfst stolz sein",
+  "text": "Das Ergebnis kommt später. Heute zählt, was du geleistet hast: Monate der Vorbereitung und drei Tage volle Konzentration.",
+  "pruefungsphase": true,
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-formel-zinsstaffel",
+  "caption": "Zinsstaffelmethode: Disagio beim Tilgungsdarlehen richtig auflösen.\n\n▸ Steuerlich ist das Disagio als aktiver Rechnungsabgrenzungsposten anzusetzen (§ 5 Abs. 5 S. 1 Nr. 1 EStG), in der Handelsbilanz besteht ein Wahlrecht (§ 250 Abs. 3 HGB). Die Verbindlichkeit steht mit dem Rückzahlungsbetrag in der Bilanz, der Unterschied wird auf die Laufzeit verteilt (H 6.10 EStH, Damnum).\n▸ Beim Tilgungsdarlehen sinkt die Schuld, deshalb wird degressiv aufgelöst: Nenner = n × (n + 1) ÷ 2, je Jahr die noch offenen Raten im Zähler.\n▸ Beispiel: 4.000 € Disagio, vier gleiche Jahresraten, Nenner 10: 1.600 €, 1.200 €, 800 €, 400 €.\n▸ Beim Fälligkeitsdarlehen wird dagegen linear aufgelöst.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 5 Abs. 5 S. 1 Nr. 1 EStG",
+    "§ 250 Abs. 3 HGB",
+    "H 6.10 EStH (Damnum)"
+  ],
+  "slug": "2026-10-09-b3",
+  "kurztitel": "Zinsstaffelmethode (arithmetisch-degressiv)",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Disagio 4.000 €"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Nenner"
+    },
+    {
+      "art": "schritt",
+      "titel": "Jahr für Jahr"
+    },
+    {
+      "art": "schritt",
+      "titel": "Aufwand je Jahr"
+    }
+  ],
+  "sprecher": [
+    "Viertausend Euro Disagio, Tilgungsdarlehen über vier Jahre. Linear tausend pro Jahr? Nein: Mit der Zinsstaffel sind es im ersten Jahr sechzehnhundert.",
+    "Der Nenner: vier mal fünf, geteilt durch zwei. Das ergibt zehn.",
+    "Jahr für Jahr die offenen Raten: vier Zehntel, drei, zwei, ein Zehntel.",
+    "Also sechzehnhundert, zwölfhundert, achthundert, vierhundert Euro Aufwand.",
+    "Merke: Schuld sinkt, Auflösung sinkt."
+  ],
+  "dauerS": 33.281,
+  "tempo": 1
+}
