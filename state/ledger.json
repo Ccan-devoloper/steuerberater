@@ -9412,6 +9412,18 @@
       "thema": null,
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "s9",
+      "medienId": "18090910319688885",
+      "veroeffentlicht": "2026-10-09T17:12:02.902Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-2-10",
+      "fach": "umwst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
