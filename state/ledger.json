@@ -9133,11 +9133,33 @@
       "thema": "bilanz-quiz-k3-0",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "b1",
+      "medienId": "18113431750858902",
+      "veroeffentlicht": "2026-10-09T06:30:05.853Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "anlass",
+      "thema": "ust-aufb-ust-m-b04-14",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Geschafft",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#stbexamen2027"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 11,
-    "ust": 8,
+    "ust": 9,
     "kst": 8,
     "ao": 19,
     "bilanz": 19,
