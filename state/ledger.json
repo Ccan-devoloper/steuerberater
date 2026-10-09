@@ -9239,12 +9239,34 @@
       "thema": "erbst-aufb-erbst-bew1-8",
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "b2",
+      "medienId": "17949677637294564",
+      "veroeffentlicht": "2026-10-09T11:30:06.410Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "vergleich",
+      "thema": "kst-karte-kst-11",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Gegenüberstellung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 11,
     "ust": 9,
-    "kst": 8,
+    "kst": 9,
     "ao": 19,
     "bilanz": 19,
     "istr": 14,
