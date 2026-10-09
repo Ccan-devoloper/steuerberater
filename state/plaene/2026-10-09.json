@@ -98,7 +98,8 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "gewst-aufb-gewst-ks-04",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-09T15:04:00.056Z"
     },
     {
       "slot": "s3",
