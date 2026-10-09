@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-09T12:06:21.555Z",
+  "stand": "2026-10-09T12:40:06.763Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -20288,6 +20288,59 @@
           "navigation_tap_forward": 14
         }
       ]
+    },
+    "18121261163058221": {
+      "art": "story",
+      "datum": "2026-10-09",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-09T11:30:19.185Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-09T12:40:04.875Z",
+          "alterStunden": 1.2,
+          "reach": 15,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 16,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "17949677637294564": {
+      "art": "beitrag",
+      "datum": "2026-10-09",
+      "titel": "Gegenüberstellung",
+      "format": "vergleich",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-09T11:30:06.410Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-09T12:40:06.190Z",
+          "alterStunden": 1.2,
+          "reach": 26,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -21523,6 +21576,11 @@
     },
     {
       "stand": "2026-10-09T11:44:50.464Z",
+      "follower": 146,
+      "medien": 100
+    },
+    {
+      "stand": "2026-10-09T12:40:06.763Z",
       "follower": 146,
       "medien": 100
     }
