@@ -1,0 +1,26 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-1",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Wem gehört es",
+    "wirtschaftlich?",
+    "Wer die Herrschaft wie ein Eigentümer ausübt",
+    "§ 39 Abs. 2 Nr. 1 S. 1 AO",
+    "und den Eigentümer auf Dauer ausschließt",
+    "Prüfen: Besitz, Gefahr, Nutzen, Lasten"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

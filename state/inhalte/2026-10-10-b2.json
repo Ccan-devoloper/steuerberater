@@ -1,0 +1,78 @@
+{
+  "format": "rechenweg",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-12",
+  "caption": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein? Der Rechenweg nach § 20 UmwStG.\n\n▸ Einbringungsgegenstand ist der Mitunternehmeranteil gegen neue Anteile (§ 20 Abs. 1 UmwStG). Dazu gehört das Sonderbetriebsvermögen; funktional wesentliches Sonderbetriebsvermögen muss mit übertragen werden (UmwStE vom 02.01.2025, Rn. 20.06, 20.10); bleibt es zurück, liegt keine begünstigte Einbringung vor, die stillen Reserven sind aufzudecken (Rn. 20.07). Bei einem Teil des Anteils muss das funktional wesentliche Sonderbetriebsvermögen mindestens im selben Verhältnis mit übergehen (UmwStE Rn. 20.11).\n▸ Grundsätzlich gemeiner Wert (§ 20 Abs. 2 S. 1 UmwStG); auf Antrag der übernehmenden Gesellschaft Buchwert oder Zwischenwert, wenn die Voraussetzungen des § 20 Abs. 2 S. 2 Nr. 1–4 UmwStG erfüllt sind. Der Antrag muss beim Finanzamt der GmbH eingehen, bevor sie ihre erste steuerliche Schlussbilanz abgibt (§ 20 Abs. 2 S. 3 UmwStG).\n▸ Der Wert, den die GmbH ansetzt, ist für die Einbringende zugleich Veräußerungspreis und Anschaffungskosten ihrer neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG).\n▸ Beispiel: Kapitalkonto 300.000 € + Halle im Sonderbetriebsvermögen 200.000 € = Buchwert 500.000 €; Einbringungsgewinn 0 €, Anschaffungskosten der GmbH-Anteile 500.000 €.\n\nZum Schluss: § 20 UmwStG und UmwStE Rn. 20.06, 20.10 zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 20 Abs. 1, 2, 3 UmwStG",
+    "UmwStE vom 02.01.2025, Rn. 20.06, 20.07, 20.10, 20.11"
+  ],
+  "slug": "2026-10-10-b2",
+  "kurztitel": "Wie bringt man einen Mitunternehmeranteil in eine GmbH ein?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · KG-Anteil in · die GmbH · § 20 Abs. 1 UmwStG · in 4 Schritten · + Markier-Guide § 20 + UmwStE · Buchwert · 500.000 € · Gewinn?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Der Rechenweg · Umfang bestimmen · § 20 Abs. 1 UmwStG · Gesellschaftsanteil plus Sonderbetriebsvermögen · Wertansatz wählen · § 20 Abs. 2 S. 2 UmwStG · Buchwert auf Antrag der GmbH · Veräußerungspreis · § 20 Abs. 3 S. 1 UmwStG · = Ansatz bei der GmbH · Gewinn und Anschaffungskosten · § 20 Abs. 3 S. 1 UmwStG · für die neuen Anteile · Am Ende: § 20 + UmwStE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Der Fall · Svea ist Kommanditistin einer Holzbau-KG, Kapitalkonto 300.000 €. · Ihre Lagerhalle nutzt die KG: Buchwert 200.000 €, gemeiner Wert 450.000 €. · Sie bringt Anteil und Halle in eine GmbH ein. · Jetzt du: Gewinn bei Buchwert? · Was kostet das?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Die Lösung · § 20 Abs. 2 S. 2, Abs. 3 S. 1 UmwStG · Kapitalkonto KG · 300.000 € · + Halle (Sonderbetrieb) · 200.000 € · = Buchwert Anteil · 500.000 € · Ansatz GmbH = Preis · 500.000 € · Einbringungsgewinn · 0 € · AK neue Anteile · 500.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Wer stellt den Antrag? · Die übernehmende GmbH, nicht Svea und nicht die KG. · § 20 Abs. 2 S. 2 UmwStG · Spätestens mit der ersten steuerlichen Schlussbilanz beim Finanzamt der GmbH. · § 20 Abs. 2 S. 3 UmwStG · Ohne Antrag: gemeiner Wert, stille Reserven werden aufgedeckt. · § 20 Abs. 2 S. 1 UmwStG · Frist beachten."
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Und ohne die Halle? · Behält Svea die Halle zurück, fehlt eine funktional wesentliche Betriebsgrundlage. · UmwStE vom 02.01.2025, Rn. 20.06, 20.10 · Dann liegt kein begünstigter Mitunternehmeranteil vor: kein Buchwertantrag. · § 20 Abs. 1 UmwStG · Beim Teilanteil muss das wesentliche Sonderbetriebsvermögen mindestens quotal mit. · UmwStE Rn. 20.11 · Die Halle muss mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Buchwert 300.000 € + 200.000 € = 500.000 € · Gewinn 0 € · AK 500.000 € · Anteil plus · Sonderbetrieb, · Antrag stellt die GmbH, · Ansatz = Preis = AK. · Speichern für Klausur 3 · Halle vergessen? · Weiterwischen: § 20 + UmwStE markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "§ 20 UmwStG (Auszug) · inkl. SBV · Antrag: GmbH · Wertverknüpfung · Antragsfrist: § 20 Abs. 2 S. 3 UmwStG · bis zur ersten steuerlichen Schlussbilanz"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "UmwStE vom 02.01.2025 (Auszug) · alle wesentlichen · Vermieten reicht nicht · die Halle! · auch KG-Anteil · Halle zurück: UmwStE Rn. 20.07 · kein § 20, stille Reserven aufdecken"
+    }
+  ]
+}

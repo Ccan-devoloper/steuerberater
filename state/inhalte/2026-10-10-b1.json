@@ -1,0 +1,71 @@
+{
+  "format": "klausurtechnik",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": null,
+  "caption": "Klausurtechnik für den Gewerbesteuer-Teil der Ertragsteuerklausur: so holst du die Punkte sicher.\n\n▸ Aufbau: Gewinn nach EStG oder KStG übernehmen, um Hinzurechnungen und Kürzungen korrigieren (§ 7 S. 1, §§ 8, 9 GewStG), dann Gewerbeverlust (§ 10a GewStG), Freibetrag und Messbetrag (§ 11 Abs. 1, 2 GewStG).\n▸ Zeit: Fehlt dir der Gewinn aus dem ESt- oder KSt-Teil, rechne mit einem plausiblen Wert weiter und notiere das.\n▸ Darstellung: Tabelle mit Posten, Norm, Vorzeichen, Betrag. Bei § 8 Nr. 1 GewStG erst gewichten, dann Freibetrag abziehen.\n▸ Punktefresser: Freibetrag von 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG); Gewerbeverlust erst nach Hinzurechnungen und Kürzungen (§ 10a S. 1 GewStG); Erhebungszeitraum ist das Kalenderjahr (§ 14 S. 2 GewStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+  ],
+  "quellen": [
+    "§ 7 S. 1 GewStG",
+    "§§ 8, 9 GewStG",
+    "§ 10a S. 1 GewStG",
+    "§ 11 Abs. 1 S. 3 Nr. 1, Abs. 2 GewStG",
+    "§ 14 S. 2 GewStG"
+  ],
+  "slug": "2026-10-10-b1",
+  "kurztitel": "Der Gewerbesteuer-Teil: Punkte sicher holen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurtechnik",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurtechnik",
+      "text": "Klausurtechnik · GewSt-Teil: · Punkte sichern · §§ 7 bis 11 GewStG · in 4 Schritten · + Markier-Guide § 7 GewStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Der Aufbau in 4 Schritten · Gewinn übernehmen · § 7 S. 1 GewStG · aus dem ESt- oder KSt-Teil · Korrekturen als Tabelle · §§ 8, 9 GewStG · Posten, Norm, Betrag · Verlust, dann Freibetrag · § 10a, § 11 Abs. 1 GewStG · Reihenfolge einhalten · Messbetrag · § 11 Abs. 2 GewStG · Hebesatz nur, wenn gefragt · Am Ende: § 7 GewStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Zeit einteilen · Der Teil baut auf dem Gewinn auf: nicht ans Ende schieben, wenn er viele Punkte bringt. · Gewinn fehlt dir? Mit einem plausiblen Wert weiterrechnen und das kurz notieren. · Je Hinzurechnung ein Satz Begründung, keine Abhandlung. · Weiterrechnen!"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Sauber darstellen · Jede Zeile: Posten, Norm, Vorzeichen, Betrag. · Bei Finanzierungsanteilen erst gewichten, dann Freibetrag, als eigene Zwischensumme. · § 8 Nr. 1 GewStG · Auch Posten ohne Korrektur kurz nennen und begründen. · Tabelle spart Zeit."
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Drei Punktefresser · Freibetrag 24.500 € bei der GmbH angesetzt. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Gewerbeverlust vor den Hinzurechnungen abgezogen. · § 10a S. 1 GewStG · Gewinn eines anderen Jahres: Erhebungszeitraum ist das Kalenderjahr. · § 14 S. 2 GewStG · Kenne ich!"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Gewinn · Korrekturen · Verlust · Messbetrag · Tabelle statt Fließtext · Gewinn übernehmen, · Tabelle mit Norm, · Verlust danach, · Freibetrag prüfen. · Speichern für Klausur 2 · Wie viel Zeit planst du dafür ein? · Weiterwischen: § 7 GewStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "§ 7 GewStG Gewerbeertrag (Auszug) · Start: Gewinn · richtiges Jahr · dann Tabelle · Danach: § 10a, § 11 GewStG · erst Verlust, dann Freibetrag und Messzahl"
+    }
+  ]
+}

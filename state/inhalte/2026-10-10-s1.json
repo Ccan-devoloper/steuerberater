@@ -1,0 +1,22 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Gewerbesteuer",
+    "Neu im Feed",
+    "GewSt-Teil: Punkte sichern",
+    "Klausurtechnik · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

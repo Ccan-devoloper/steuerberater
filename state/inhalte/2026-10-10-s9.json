@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-6-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Außenprüfung",
+    "hemmt die Frist?",
+    "Nur echter Beginn",
+    "vor Fristablauf",
+    "hält sie an.",
+    "§ 171 Abs. 4 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

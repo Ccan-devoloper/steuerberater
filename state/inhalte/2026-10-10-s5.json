@@ -1,0 +1,27 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-1",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "A: am Beginn",
+    "der Beförderung",
+    "Wo die Beförderung beginnt",
+    "Wo die Beförderung endet",
+    "Am Sitz des Abnehmers",
+    "Ort ist, wo die Beförderung oder Versendung zum Abnehmer beginnt.",
+    "§ 3 Abs. 6 S. 1 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
