@@ -12,7 +12,8 @@
       "themaTitel": "Geschafft: der Tag danach und dein Fahrplan",
       "fach": "ust",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-09T06:30:00.011Z"
     },
     {
       "slot": "b2",
