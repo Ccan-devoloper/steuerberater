@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-09T06:30:24.451Z",
+  "stand": "2026-10-09T07:44:48.315Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -15547,6 +15547,18 @@
           "total_interactions": 6,
           "follows": 1,
           "profile_visits": 10
+        },
+        {
+          "stand": "2026-10-09T07:44:47.493Z",
+          "alterStunden": 116,
+          "reach": 117,
+          "saved": 3,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 1,
+          "profile_visits": 10
         }
       ]
     },
@@ -19564,6 +19576,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 42,
           "navigation_tap_exit": 6
+        },
+        {
+          "stand": "2026-10-09T07:44:44.753Z",
+          "alterStunden": 21.7,
+          "reach": 61,
+          "views": 71,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 61,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 48,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 3
         }
       ]
     },
@@ -19911,6 +19940,57 @@
           "navigation_tap_back": 2,
           "navigation_tap_exit": 6,
           "navigation_tap_forward": 19
+        }
+      ]
+    },
+    "18134395402561833": {
+      "art": "story",
+      "datum": "2026-10-09",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-09T06:30:19.442Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-09T07:44:44.753Z",
+          "alterStunden": 1.2,
+          "reach": 12,
+          "views": 14,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "18113431750858902": {
+      "art": "beitrag",
+      "datum": "2026-10-09",
+      "titel": "Geschafft",
+      "format": "anlass",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-09T06:30:05.853Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-09T07:44:47.493Z",
+          "alterStunden": 1.2,
+          "reach": 37,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -21123,6 +21203,11 @@
     },
     {
       "stand": "2026-10-09T06:30:24.451Z",
+      "follower": 146,
+      "medien": 99
+    },
+    {
+      "stand": "2026-10-09T07:44:48.315Z",
       "follower": 146,
       "medien": 99
     }
