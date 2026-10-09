@@ -36,7 +36,8 @@
       "themaTitel": "Zinsstaffelmethode (arithmetisch-degressiv)",
       "fach": "bilanz",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-09T17:00:00.099Z"
     }
   ],
   "stories": [
