@@ -9155,6 +9155,18 @@
         "#examensvorbereitung",
         "#stbexamen2027"
       ]
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "s1",
+      "medienId": "18134395402561833",
+      "veroeffentlicht": "2026-10-09T06:30:19.442Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": ""
     }
   ],
   "fachZaehler": {
