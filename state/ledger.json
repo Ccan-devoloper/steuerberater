@@ -9292,6 +9292,18 @@
       "thema": null,
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "s7",
+      "medienId": "18110421740622809",
+      "veroeffentlicht": "2026-10-09T12:40:03.533Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
