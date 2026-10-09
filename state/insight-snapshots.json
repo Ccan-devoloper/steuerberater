@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-09T12:40:06.763Z",
+  "stand": "2026-10-09T13:44:45.642Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -14671,6 +14671,20 @@
           "ig_reels_avg_watch_time": 10040,
           "ig_reels_video_view_total_time": 2038164,
           "reels_skip_rate": 74.6
+        },
+        {
+          "stand": "2026-10-09T13:44:43.083Z",
+          "alterStunden": 140,
+          "reach": 184,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 242,
+          "ig_reels_avg_watch_time": 9932,
+          "ig_reels_video_view_total_time": 2045994,
+          "reels_skip_rate": 74.5
         }
       ]
     },
@@ -18322,6 +18336,20 @@
           "ig_reels_avg_watch_time": 8965,
           "ig_reels_video_view_total_time": 2313055,
           "reels_skip_rate": 67.1
+        },
+        {
+          "stand": "2026-10-09T13:44:43.083Z",
+          "alterStunden": 68.2,
+          "reach": 252,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 355,
+          "ig_reels_avg_watch_time": 8952,
+          "ig_reels_video_view_total_time": 2336657,
+          "reels_skip_rate": 67.3
         }
       ]
     },
@@ -18532,6 +18560,18 @@
           "stand": "2026-10-09T05:09:08.019Z",
           "alterStunden": 48.6,
           "reach": 106,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 7
+        },
+        {
+          "stand": "2026-10-09T13:44:43.083Z",
+          "alterStunden": 57.2,
+          "reach": 108,
           "saved": 1,
           "shares": 0,
           "likes": 3,
@@ -20341,6 +20381,33 @@
           "profile_visits": 1
         }
       ]
+    },
+    "18110421740622809": {
+      "art": "story",
+      "datum": "2026-10-09",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-09T12:40:03.533Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-09T13:44:41.555Z",
+          "alterStunden": 1.1,
+          "reach": 13,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 2
+        }
+      ]
     }
   },
   "konto": [
@@ -21582,6 +21649,11 @@
     {
       "stand": "2026-10-09T12:40:06.763Z",
       "follower": 146,
+      "medien": 100
+    },
+    {
+      "stand": "2026-10-09T13:44:45.642Z",
+      "follower": 145,
       "medien": 100
     }
   ]

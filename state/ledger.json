@@ -7568,19 +7568,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 181,
+        "reach": 184,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 239,
-        "ig_reels_avg_watch_time": 10040,
-        "ig_reels_video_view_total_time": 2038164,
-        "reels_skip_rate": 74.6
+        "views": 242,
+        "ig_reels_avg_watch_time": 9932,
+        "ig_reels_video_view_total_time": 2045994,
+        "reels_skip_rate": 74.5
       },
-      "insightsStand": "2026-10-08T12:45:37.496Z",
-      "insightsAlterStunden": 115
+      "insightsStand": "2026-10-09T13:44:43.083Z",
+      "insightsAlterStunden": 140
     },
     {
       "datum": "2026-10-03",
@@ -8571,19 +8571,19 @@
         "#ertragsteuern"
       ],
       "insights": {
-        "reach": 250,
+        "reach": 252,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 353,
-        "ig_reels_avg_watch_time": 8965,
-        "ig_reels_video_view_total_time": 2313055,
-        "reels_skip_rate": 67.1
+        "views": 355,
+        "ig_reels_avg_watch_time": 8952,
+        "ig_reels_video_view_total_time": 2336657,
+        "reels_skip_rate": 67.3
       },
-      "insightsStand": "2026-10-09T05:09:08.019Z",
-      "insightsAlterStunden": 59.6
+      "insightsStand": "2026-10-09T13:44:43.083Z",
+      "insightsAlterStunden": 68.2
     },
     {
       "datum": "2026-10-06",
@@ -8636,7 +8636,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 106,
+        "reach": 108,
         "saved": 1,
         "shares": 0,
         "likes": 3,
@@ -8645,8 +8645,8 @@
         "follows": 0,
         "profile_visits": 7
       },
-      "insightsStand": "2026-10-09T05:09:08.019Z",
-      "insightsAlterStunden": 48.6
+      "insightsStand": "2026-10-09T13:44:43.083Z",
+      "insightsAlterStunden": 57.2
     },
     {
       "datum": "2026-10-07",
@@ -9332,7 +9332,22 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-10-09T13:44:41.555Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
