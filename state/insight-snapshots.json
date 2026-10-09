@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-09T15:45:08.148Z",
+  "stand": "2026-10-09T16:44:32.954Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -20489,6 +20489,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-10-09T16:44:29.250Z",
+          "alterStunden": 5.2,
+          "reach": 36,
+          "views": 44,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 39,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 26,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -20525,6 +20542,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-09T16:44:32.261Z",
+          "alterStunden": 5.2,
+          "reach": 47,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -20552,6 +20581,35 @@
           "navigation": 12,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "17960273022253982": {
+      "art": "story",
+      "datum": "2026-10-09",
+      "titel": null,
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-09T15:04:03.598Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-09T16:44:29.250Z",
+          "alterStunden": 1.7,
+          "reach": 19,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 15
         }
       ]
     }
@@ -21809,6 +21867,11 @@
     },
     {
       "stand": "2026-10-09T15:45:08.148Z",
+      "follower": 145,
+      "medien": 100
+    },
+    {
+      "stand": "2026-10-09T16:44:32.954Z",
       "follower": 145,
       "medien": 100
     }
