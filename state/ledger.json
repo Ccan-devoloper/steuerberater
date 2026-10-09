@@ -9122,21 +9122,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 21,
-        "views": 31,
+        "reach": 41,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 28,
+        "navigation": 44,
         "navigation_tap_back": 1,
         "navigation_swipe_forward": 1,
-        "navigation_tap_forward": 26
+        "navigation_tap_forward": 41,
+        "navigation_tap_exit": 1
       },
-      "insightsStand": "2026-10-09T06:30:20.688Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-09T10:44:55.246Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-09",
@@ -9150,21 +9151,21 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 22,
-        "views": 33,
+        "reach": 39,
+        "views": 52,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 19
+        "navigation": 45,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 33
       },
-      "insightsStand": "2026-10-09T06:30:20.688Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-09T10:44:55.246Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-09",
