@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-09T16:44:32.954Z",
+  "stand": "2026-10-09T17:00:19.535Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -16098,6 +16098,20 @@
           "ig_reels_avg_watch_time": 26335,
           "ig_reels_video_view_total_time": 6188832,
           "reels_skip_rate": 71.6
+        },
+        {
+          "stand": "2026-10-09T17:00:19.535Z",
+          "alterStunden": 119.2,
+          "reach": 221,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 301,
+          "ig_reels_avg_watch_time": 25944,
+          "ig_reels_video_view_total_time": 6200803,
+          "reels_skip_rate": 71.6
         }
       ]
     },
@@ -18976,6 +18990,18 @@
           "total_interactions": 7,
           "follows": 0,
           "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-09T17:00:19.535Z",
+          "alterStunden": 50.5,
+          "reach": 119,
+          "saved": 4,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 3
         }
       ]
     },
@@ -19359,6 +19385,20 @@
           "ig_reels_avg_watch_time": 6953,
           "ig_reels_video_view_total_time": 1654981,
           "reels_skip_rate": 81
+        },
+        {
+          "stand": "2026-10-09T17:00:19.535Z",
+          "alterStunden": 47.5,
+          "reach": 231,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 283,
+          "ig_reels_avg_watch_time": 6864,
+          "ig_reels_video_view_total_time": 1661311,
+          "reels_skip_rate": 81.4
         }
       ]
     },
@@ -19650,6 +19690,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-09T17:00:19.535Z",
+          "alterStunden": 36.5,
+          "reach": 103,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 4
         }
       ]
     },

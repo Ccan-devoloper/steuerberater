@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 216,
+        "reach": 221,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 297,
-        "ig_reels_avg_watch_time": 26335,
-        "ig_reels_video_view_total_time": 6188832,
+        "views": 301,
+        "ig_reels_avg_watch_time": 25944,
+        "ig_reels_video_view_total_time": 6200803,
         "reels_skip_rate": 71.6
       },
-      "insightsStand": "2026-10-08T16:44:57.518Z",
-      "insightsAlterStunden": 95
+      "insightsStand": "2026-10-09T17:00:19.535Z",
+      "insightsAlterStunden": 119.2
     },
     {
       "datum": "2026-10-04",
@@ -8757,7 +8757,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 118,
+        "reach": 119,
         "saved": 4,
         "shares": 1,
         "likes": 2,
@@ -8766,8 +8766,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-09T08:46:58.715Z",
-      "insightsAlterStunden": 42.3
+      "insightsStand": "2026-10-09T17:00:19.535Z",
+      "insightsAlterStunden": 50.5
     },
     {
       "datum": "2026-10-07",
@@ -8820,19 +8820,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 227,
+        "reach": 231,
         "saved": 0,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
-        "views": 279,
-        "ig_reels_avg_watch_time": 6953,
-        "ig_reels_video_view_total_time": 1654981,
-        "reels_skip_rate": 81
+        "views": 283,
+        "ig_reels_avg_watch_time": 6864,
+        "ig_reels_video_view_total_time": 1661311,
+        "reels_skip_rate": 81.4
       },
-      "insightsStand": "2026-10-09T08:46:58.715Z",
-      "insightsAlterStunden": 39.3
+      "insightsStand": "2026-10-09T17:00:19.535Z",
+      "insightsAlterStunden": 47.5
     },
     {
       "datum": "2026-10-07",
@@ -8885,17 +8885,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 99,
+        "reach": 103,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
         "follows": 0,
-        "profile_visits": 3
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-09T08:46:58.715Z",
-      "insightsAlterStunden": 28.3
+      "insightsStand": "2026-10-09T17:00:19.535Z",
+      "insightsAlterStunden": 36.5
     },
     {
       "datum": "2026-10-08",
