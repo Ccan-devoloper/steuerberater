@@ -7307,8 +7307,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-08T18:08:43.138Z",
-      "insightsAlterStunden": 132.4
+      "insightsStand": "2026-10-09T18:32:08.368Z",
+      "insightsAlterStunden": 156.8
     },
     {
       "datum": "2026-10-03",
@@ -9190,7 +9190,7 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 88,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -9199,8 +9199,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-09T14:45:55.639Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-10-09T18:32:08.368Z",
+      "insightsAlterStunden": 12
     },
     {
       "datum": "2026-10-09",
@@ -9335,20 +9335,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 15,
+        "reach": 32,
+        "views": 44,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 12,
-        "navigation_tap_forward": 10,
-        "navigation_tap_exit": 2
+        "navigation": 39,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 31
       },
-      "insightsStand": "2026-10-09T13:44:41.555Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-09T18:32:04.547Z",
+      "insightsAlterStunden": 5.9
     },
     {
       "datum": "2026-10-09",
@@ -9399,7 +9401,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 113,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 2,
+        "views": 153,
+        "ig_reels_avg_watch_time": 3997,
+        "ig_reels_video_view_total_time": 459710,
+        "reels_skip_rate": 69.8
+      },
+      "insightsStand": "2026-10-09T18:32:08.368Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-09",
@@ -9411,7 +9427,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-10-09T18:32:04.547Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-09",
@@ -9423,7 +9454,22 @@
       "storyArt": "merksatz",
       "thema": "umwst-aufb-umw-2-10",
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 10,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_forward": 9,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-10-09T18:32:04.547Z",
+      "insightsAlterStunden": 1.3
     }
   ],
   "fachZaehler": {
