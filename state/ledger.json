@@ -9226,6 +9226,18 @@
       },
       "insightsStand": "2026-10-09T07:44:44.753Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "s6",
+      "medienId": "17874524544636287",
+      "veroeffentlicht": "2026-10-09T10:14:07.613Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "erbst-aufb-erbst-bew1-8",
+      "fach": "erbst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
