@@ -9348,6 +9348,18 @@
       },
       "insightsStand": "2026-10-09T13:44:41.555Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-09",
+      "slot": "s8",
+      "medienId": "17960273022253982",
+      "veroeffentlicht": "2026-10-09T15:04:03.598Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "gewst-aufb-gewst-ks-04",
+      "fach": "gewst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
