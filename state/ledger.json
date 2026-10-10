@@ -9712,6 +9712,18 @@
       },
       "insightsStand": "2026-10-10T13:44:15.569Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "s8",
+      "medienId": "18103652417305257",
+      "veroeffentlicht": "2026-10-10T15:04:03.001Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "bilanz-karte-k3-1",
+      "fach": "bilanz",
+      "titel": ""
     }
   ],
   "fachZaehler": {
