@@ -9498,6 +9498,28 @@
       "thema": "ust-quiz-ust-1",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "b1",
+      "medienId": "18123674086924783",
+      "veroeffentlicht": "2026-10-10T06:30:05.045Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": null,
+      "fach": "gewst",
+      "klausur": 2,
+      "titel": "Klausurtechnik",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ]
     }
   ],
   "fachZaehler": {
