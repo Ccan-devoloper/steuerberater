@@ -8757,7 +8757,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 123,
+        "reach": 125,
         "saved": 5,
         "shares": 1,
         "likes": 2,
@@ -8766,8 +8766,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-10T05:09:15.460Z",
-      "insightsAlterStunden": 62.7
+      "insightsStand": "2026-10-10T13:44:19.913Z",
+      "insightsAlterStunden": 71.2
     },
     {
       "datum": "2026-10-07",
@@ -8831,8 +8831,8 @@
         "ig_reels_video_view_total_time": 1689258,
         "reels_skip_rate": 81.7
       },
-      "insightsStand": "2026-10-10T05:09:15.460Z",
-      "insightsAlterStunden": 59.7
+      "insightsStand": "2026-10-10T13:44:19.913Z",
+      "insightsAlterStunden": 68.2
     },
     {
       "datum": "2026-10-07",
@@ -8885,7 +8885,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 106,
+        "reach": 107,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -8894,8 +8894,8 @@
         "follows": 0,
         "profile_visits": 4
       },
-      "insightsStand": "2026-10-10T05:09:15.460Z",
-      "insightsAlterStunden": 48.7
+      "insightsStand": "2026-10-10T13:44:19.913Z",
+      "insightsAlterStunden": 57.2
     },
     {
       "datum": "2026-10-08",
@@ -9005,17 +9005,17 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 163,
+        "reach": 178,
         "saved": 1,
         "shares": 1,
         "likes": 8,
         "comments": 0,
         "total_interactions": 10,
         "follows": 0,
-        "profile_visits": 3
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-10T05:09:15.460Z",
-      "insightsAlterStunden": 39.7
+      "insightsStand": "2026-10-10T13:44:19.913Z",
+      "insightsAlterStunden": 48.2
     },
     {
       "datum": "2026-10-08",
@@ -9068,19 +9068,19 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 217,
+        "reach": 220,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 300,
-        "ig_reels_avg_watch_time": 6529,
-        "ig_reels_video_view_total_time": 1488800,
-        "reels_skip_rate": 77.3
+        "views": 304,
+        "ig_reels_avg_watch_time": 6495,
+        "ig_reels_video_view_total_time": 1494028,
+        "reels_skip_rate": 77.5
       },
-      "insightsStand": "2026-10-10T05:09:15.460Z",
-      "insightsAlterStunden": 37.7
+      "insightsStand": "2026-10-10T13:44:19.913Z",
+      "insightsAlterStunden": 46.2
     },
     {
       "datum": "2026-10-08",
@@ -9190,7 +9190,7 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 134,
+        "reach": 151,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -9199,8 +9199,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-10T05:09:15.460Z",
-      "insightsAlterStunden": 22.7
+      "insightsStand": "2026-10-10T13:44:19.913Z",
+      "insightsAlterStunden": 31.2
     },
     {
       "datum": "2026-10-09",
@@ -9429,22 +9429,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 49,
-        "views": 57,
+        "reach": 54,
+        "views": 66,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 44,
+        "navigation": 55,
+        "navigation_swipe_forward": 1,
         "navigation_tap_exit": 4,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 47,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-10T09:45:00.581Z",
-      "insightsAlterStunden": 16.7
+      "insightsStand": "2026-10-10T13:44:15.569Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-09",
@@ -9458,22 +9458,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 47,
-        "views": 68,
+        "reach": 52,
+        "views": 79,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 62,
-        "navigation_tap_back": 3,
+        "navigation": 69,
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 48,
         "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 41,
-        "navigation_tap_exit": 15
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-10T09:45:00.581Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-10T13:44:15.569Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-10",
@@ -9694,7 +9694,24 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 9,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-10T13:44:15.569Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
