@@ -12,7 +12,8 @@
       "themaTitel": "Der Gewerbesteuer-Teil: Punkte sicher holen",
       "fach": "gewst",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-10T06:30:00.030Z"
     },
     {
       "slot": "b2",
