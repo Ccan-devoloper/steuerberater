@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-karte-k3-25",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Entnahme bei",
+    "Minuskapital",
+    "§ 15a Abs. 3 EStG",
+    "Entnahme macht das Kapitalkonto negativer: Gewinn wird zugerechnet.",
+    "§ 15a Abs. 3 S. 1 EStG",
+    "Der Betrag mindert spätere Gewinne aus der KG.",
+    "§ 15a Abs. 3 S. 4 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

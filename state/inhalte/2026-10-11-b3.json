@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-karte-kst-2",
+  "caption": "Verdeckte Einlage: erst die Vorprüfung, ist der Vorteil überhaupt einlagefähig?\n\n▸ Eine verdeckte Einlage liegt vor, wenn ein Gesellschafter oder eine ihm nahestehende Person der Gesellschaft einen einlagefähigen Vermögensvorteil zuwendet und dies durch das Gesellschaftsverhältnis veranlasst ist (R 8.9 Abs. 1 KStR).\n▸ Einlagefähig ist nur, was bilanziert werden kann. Die unentgeltliche Überlassung eines Wirtschaftsguts zur Nutzung ist kein einlagefähiger Vorteil (H 8.9 KStH, Nutzungsvorteile).\n▸ Liegt eine verdeckte Einlage vor, erhöht sie das Einkommen der Gesellschaft nicht (§ 8 Abs. 3 S. 3 KStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "R 8.9 Abs. 1 KStR",
+    "H 8.9 KStH (Nutzungsvorteile)",
+    "§ 8 Abs. 3 S. 3 KStG"
+  ],
+  "slug": "2026-10-11-b3",
+  "kurztitel": "vE – Vorprüfung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Büro gratis = Einlage?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Was ist das?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Einlagefähig?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Folge"
+    }
+  ],
+  "sprecher": [
+    "Gesellschafter überlässt seiner GmbH ein Büro kostenlos. Verdeckte Einlage? Nein!",
+    "Verdeckte Einlage heißt: Der Gesellschafter wendet seiner GmbH einen Vermögensvorteil zu, veranlasst durch das Gesellschaftsverhältnis.",
+    "Einlagefähig ist aber nur, was in die Bilanz kann. Eine bloße Nutzung gehört nicht dazu.",
+    "Und liegt eine echte verdeckte Einlage vor, erhöht sie das Einkommen der GmbH nicht.",
+    "Merke: Erst einlagefähig, dann verdeckte Einlage."
+  ],
+  "dauerS": 34.065,
+  "tempo": 1
+}

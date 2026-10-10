@@ -1,0 +1,29 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Steuersatz:",
+    "19, 7 oder 0?",
+    "19 %: Regelsatz",
+    "§ 12 Abs. 1 UStG",
+    "7 %: nur gelistete Umsätze",
+    "§ 12 Abs. 2 UStG",
+    "0 %: bestimmte Photovoltaik",
+    "§ 12 Abs. 3 UStG",
+    "Aus brutto: 19/119, 7/107"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

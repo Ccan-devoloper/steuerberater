@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-15a-01",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Merksatz",
+    "Verlust des",
+    "Kommanditisten",
+    "Wird das Kapital",
+    "negativ, ist er",
+    "nur verrechenbar.",
+    "§ 15a Abs. 1, 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

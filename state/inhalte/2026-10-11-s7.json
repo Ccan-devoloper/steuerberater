@@ -1,0 +1,25 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Lernwoche:",
+    "Fächer mischen",
+    "Jeden Tag zwei Fächer",
+    "Alte Themen kurz wiederholen",
+    "Ein freier Tag pro Woche"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
