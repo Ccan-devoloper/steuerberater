@@ -9739,11 +9739,33 @@
       },
       "insightsStand": "2026-10-10T16:23:49.898Z",
       "insightsAlterStunden": 1.3
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "b3",
+      "medienId": "18121254400989868",
+      "veroeffentlicht": "2026-10-10T17:00:10.275Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "ust-karte-ust-1",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Unternehmer (§ 2 Abs. 1 UStG)",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 11,
-    "ust": 9,
+    "ust": 10,
     "kst": 9,
     "ao": 19,
     "bilanz": 20,
