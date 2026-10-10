@@ -9761,6 +9761,18 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "s3",
+      "medienId": "18336801532278273",
+      "veroeffentlicht": "2026-10-10T17:00:22.245Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": ""
     }
   ],
   "fachZaehler": {
