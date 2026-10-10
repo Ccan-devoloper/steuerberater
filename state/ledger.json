@@ -8146,7 +8146,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 163,
+        "reach": 167,
         "saved": 4,
         "shares": 1,
         "likes": 3,
@@ -8155,8 +8155,8 @@
         "follows": 2,
         "profile_visits": 10
       },
-      "insightsStand": "2026-10-09T08:46:58.715Z",
-      "insightsAlterStunden": 94.8
+      "insightsStand": "2026-10-10T09:45:05.275Z",
+      "insightsAlterStunden": 119.7
     },
     {
       "datum": "2026-10-05",
@@ -8388,7 +8388,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 99,
+        "reach": 102,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-09T08:46:58.715Z",
-      "insightsAlterStunden": 68.5
+      "insightsStand": "2026-10-10T09:45:05.275Z",
+      "insightsAlterStunden": 93.5
     },
     {
       "datum": "2026-10-06",
@@ -8508,7 +8508,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 164,
+        "reach": 167,
         "saved": 4,
         "shares": 0,
         "likes": 7,
@@ -8517,8 +8517,8 @@
         "follows": 1,
         "profile_visits": 10
       },
-      "insightsStand": "2026-10-09T08:46:58.715Z",
-      "insightsAlterStunden": 66.3
+      "insightsStand": "2026-10-10T09:45:05.275Z",
+      "insightsAlterStunden": 91.2
     },
     {
       "datum": "2026-10-06",
@@ -9364,22 +9364,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 43,
-        "views": 58,
+        "reach": 53,
+        "views": 69,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_exit": 7,
+        "navigation": 56,
+        "navigation_tap_forward": 37,
         "navigation_tap_back": 7,
-        "navigation_tap_forward": 30
+        "navigation_tap_exit": 7,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-10T05:09:04.921Z",
-      "insightsAlterStunden": 14.1
+      "insightsStand": "2026-10-10T09:45:00.581Z",
+      "insightsAlterStunden": 18.7
     },
     {
       "datum": "2026-10-09",
@@ -9429,22 +9429,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 39,
-        "views": 46,
+        "reach": 49,
+        "views": 57,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 41,
+        "navigation": 50,
         "navigation_tap_back": 1,
-        "navigation_tap_forward": 36,
-        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 44,
+        "navigation_tap_exit": 4,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-10T05:09:04.921Z",
-      "insightsAlterStunden": 12.1
+      "insightsStand": "2026-10-10T09:45:00.581Z",
+      "insightsAlterStunden": 16.7
     },
     {
       "datum": "2026-10-09",
@@ -9458,22 +9458,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 37,
-        "views": 56,
+        "reach": 47,
+        "views": 68,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 32,
+        "navigation": 62,
+        "navigation_tap_back": 3,
         "navigation_swipe_forward": 3,
-        "navigation_tap_back": 1
+        "navigation_tap_forward": 41,
+        "navigation_tap_exit": 15
       },
-      "insightsStand": "2026-10-10T05:09:04.921Z",
-      "insightsAlterStunden": 12
+      "insightsStand": "2026-10-10T09:45:00.581Z",
+      "insightsAlterStunden": 16.5
     },
     {
       "datum": "2026-10-10",
@@ -9552,7 +9552,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 23,
+        "reach": 40,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -9561,8 +9561,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-10T07:45:15.670Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-10-10T09:45:05.275Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-10",
