@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-10T14:44:20.482Z",
+  "stand": "2026-10-10T15:04:06.318Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -17267,6 +17267,20 @@
           "ig_reels_avg_watch_time": 8101,
           "ig_reels_video_view_total_time": 2576219,
           "reels_skip_rate": 66
+        },
+        {
+          "stand": "2026-10-10T15:04:06.318Z",
+          "alterStunden": 118.1,
+          "reach": 307,
+          "saved": 3,
+          "shares": 2,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 9,
+          "views": 396,
+          "ig_reels_avg_watch_time": 8353,
+          "ig_reels_video_view_total_time": 2681479,
+          "reels_skip_rate": 66
         }
       ]
     },
@@ -21709,6 +21723,22 @@
           "navigation_tap_back": 4,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 28
+        },
+        {
+          "stand": "2026-10-10T15:04:03.983Z",
+          "alterStunden": 10,
+          "reach": 46,
+          "views": 56,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 47,
+          "navigation_tap_forward": 39,
+          "navigation_tap_exit": 4,
+          "navigation_tap_back": 4
         }
       ]
     },
@@ -21754,6 +21784,23 @@
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 27,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-10T15:04:03.983Z",
+          "alterStunden": 9.9,
+          "reach": 46,
+          "views": 59,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 51,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 36,
+          "navigation_tap_exit": 9,
+          "navigation_tap_back": 5
         }
       ]
     },
