@@ -9605,6 +9605,28 @@
       "thema": "istr-aufb-istr-gh-3-05",
       "fach": "istr",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "b2",
+      "medienId": "18126274015856062",
+      "veroeffentlicht": "2026-10-10T11:30:04.995Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "rechenweg",
+      "thema": "umwst-aufb-umw-2-12",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -9617,7 +9639,7 @@
     "erbst": 4,
     "mindset": 2,
     "est": 2,
-    "umwst": 2,
+    "umwst": 3,
     "gewst": 2,
     "null": 1
   },
