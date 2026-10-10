@@ -98,7 +98,8 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "bilanz-karte-k3-1",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-10T15:04:00.031Z"
     },
     {
       "slot": "s3",
