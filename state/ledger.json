@@ -9486,6 +9486,18 @@
       "thema": "ust-quiz-ust-1",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "s5",
+      "medienId": "18128604436881533",
+      "veroeffentlicht": "2026-10-10T05:09:03.814Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "ust-quiz-ust-1",
+      "fach": "ust",
+      "titel": ""
     }
   ],
   "fachZaehler": {
