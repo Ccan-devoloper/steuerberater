@@ -36,7 +36,8 @@
       "themaTitel": "Unternehmer (§ 2 Abs. 1 UStG)",
       "fach": "ust",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-10T17:00:00.101Z"
     }
   ],
   "stories": [
