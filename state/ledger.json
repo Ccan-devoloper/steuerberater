@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 221,
+        "reach": 227,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 301,
-        "ig_reels_avg_watch_time": 25944,
-        "ig_reels_video_view_total_time": 6200803,
-        "reels_skip_rate": 71.6
+        "views": 309,
+        "ig_reels_avg_watch_time": 25796,
+        "ig_reels_video_view_total_time": 6294368,
+        "reels_skip_rate": 70.9
       },
-      "insightsStand": "2026-10-09T17:00:19.535Z",
-      "insightsAlterStunden": 119.2
+      "insightsStand": "2026-10-10T17:00:23.360Z",
+      "insightsAlterStunden": 143.2
     },
     {
       "datum": "2026-10-04",
@@ -9282,7 +9282,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 73,
+        "reach": 76,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -9291,8 +9291,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-10T08:45:17.830Z",
-      "insightsAlterStunden": 21.3
+      "insightsStand": "2026-10-10T17:00:23.360Z",
+      "insightsAlterStunden": 29.5
     },
     {
       "datum": "2026-10-09",
