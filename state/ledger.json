@@ -9773,6 +9773,18 @@
       "thema": null,
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "s9",
+      "medienId": "18352234216246990",
+      "veroeffentlicht": "2026-10-10T17:12:03.341Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-aufb-ao-jacobs-6-10",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
