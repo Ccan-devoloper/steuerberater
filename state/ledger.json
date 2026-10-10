@@ -9282,7 +9282,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 64,
+        "reach": 73,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -9291,8 +9291,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-10T05:44:10.860Z",
-      "insightsAlterStunden": 18.2
+      "insightsStand": "2026-10-10T08:45:17.830Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-10-09",
@@ -9335,22 +9335,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 46,
-        "views": 63,
+        "reach": 53,
+        "views": 70,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 56,
-        "navigation_tap_forward": 45,
-        "navigation_tap_exit": 4,
+        "navigation": 61,
+        "navigation_tap_back": 3,
         "navigation_swipe_forward": 4,
-        "navigation_tap_back": 3
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 49
       },
-      "insightsStand": "2026-10-10T05:09:04.921Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-10T08:45:16.593Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-09",
@@ -9403,19 +9403,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 149,
+        "reach": 153,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 187,
-        "ig_reels_avg_watch_time": 4520,
-        "ig_reels_video_view_total_time": 696195,
-        "reels_skip_rate": 78.5
+        "views": 193,
+        "ig_reels_avg_watch_time": 4506,
+        "ig_reels_video_view_total_time": 707470,
+        "reels_skip_rate": 78.3
       },
-      "insightsStand": "2026-10-10T05:44:10.860Z",
-      "insightsAlterStunden": 12.7
+      "insightsStand": "2026-10-10T08:45:17.830Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-10-09",
