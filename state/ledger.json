@@ -9655,6 +9655,18 @@
       "thema": null,
       "fach": "umwst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "s7",
+      "medienId": "18147270676488601",
+      "veroeffentlicht": "2026-10-10T12:40:03.305Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
