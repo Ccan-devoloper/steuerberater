@@ -70,7 +70,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "istr-aufb-istr-gh-3-05",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-10T10:14:00.069Z"
     },
     {
       "slot": "s2",
