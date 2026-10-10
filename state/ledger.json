@@ -9485,7 +9485,22 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-1",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 11,
+        "views": 13,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-10-10T06:30:18.405Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-10",
@@ -9497,7 +9512,23 @@
       "storyArt": "antwort",
       "thema": "ust-quiz-ust-1",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 11,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 7
+      },
+      "insightsStand": "2026-10-10T06:30:18.405Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-10",
