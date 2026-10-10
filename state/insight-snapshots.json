@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-10T16:23:51.249Z",
+  "stand": "2026-10-10T16:44:53.524Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -21894,6 +21894,23 @@
           "navigation_tap_back": 4,
           "navigation_tap_forward": 26,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-10-10T16:44:49.478Z",
+          "alterStunden": 10.2,
+          "reach": 42,
+          "views": 54,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 49,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 35,
+          "navigation_tap_exit": 8
         }
       ]
     },
@@ -22025,6 +22042,21 @@
           "navigation": 10,
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 7
+        },
+        {
+          "stand": "2026-10-10T16:44:49.478Z",
+          "alterStunden": 5.2,
+          "reach": 29,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_forward": 26,
+          "navigation_tap_exit": 6
         }
       ]
     },
@@ -23471,6 +23503,11 @@
     },
     {
       "stand": "2026-10-10T15:45:01.136Z",
+      "follower": 146,
+      "medien": 103
+    },
+    {
+      "stand": "2026-10-10T16:44:53.524Z",
       "follower": 146,
       "medien": 103
     }
