@@ -9306,22 +9306,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 56,
-        "views": 72,
+        "reach": 60,
+        "views": 75,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 62,
+        "navigation": 66,
         "navigation_swipe_forward": 5,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 45,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 48,
         "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-10T07:45:11.948Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-10T10:14:05.723Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-09",
