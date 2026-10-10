@@ -9554,7 +9554,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 55,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -9563,8 +9563,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-10T14:44:17.481Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-10-10T17:44:31.272Z",
+      "insightsAlterStunden": 11.2
     },
     {
       "datum": "2026-10-10",
@@ -9696,22 +9696,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 12,
-        "views": 22,
+        "reach": 27,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 16,
-        "navigation_tap_exit": 3,
+        "navigation": 32,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 20,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 9,
-        "navigation_swipe_forward": 1
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-10-10T13:44:15.569Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-10T17:44:29.920Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-10",
