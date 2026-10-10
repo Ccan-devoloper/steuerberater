@@ -9645,17 +9645,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 44,
-        "saved": 0,
+        "reach": 50,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-10T14:44:17.481Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-10T16:23:51.249Z",
+      "insightsAlterStunden": 4.9
     },
     {
       "datum": "2026-10-10",
@@ -9723,7 +9723,22 @@
       "storyArt": "tipp",
       "thema": "bilanz-karte-k3-1",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 14,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-10-10T16:23:49.898Z",
+      "insightsAlterStunden": 1.3
     }
   ],
   "fachZaehler": {
