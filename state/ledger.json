@@ -9591,6 +9591,18 @@
       },
       "insightsStand": "2026-10-10T07:45:11.948Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-10",
+      "slot": "s6",
+      "medienId": "18113176949581589",
+      "veroeffentlicht": "2026-10-10T10:14:04.600Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-aufb-istr-gh-3-05",
+      "fach": "istr",
+      "titel": ""
     }
   ],
   "fachZaehler": {
