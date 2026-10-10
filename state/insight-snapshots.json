@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-10T17:44:31.781Z",
+  "stand": "2026-10-10T18:44:50.286Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -22218,6 +22218,88 @@
           "navigation_tap_forward": 10
         }
       ]
+    },
+    "18336801532278273": {
+      "art": "story",
+      "datum": "2026-10-10",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-10T17:00:22.245Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-10T18:44:45.957Z",
+          "alterStunden": 1.7,
+          "reach": 17,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 11
+        }
+      ]
+    },
+    "18352234216246990": {
+      "art": "story",
+      "datum": "2026-10-10",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-10T17:12:03.341Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-10T18:44:45.957Z",
+          "alterStunden": 1.5,
+          "reach": 14,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 12,
+          "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18121254400989868": {
+      "art": "beitrag",
+      "datum": "2026-10-10",
+      "titel": "Unternehmer (§ 2 Abs. 1 UStG)",
+      "format": "reel",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-10T17:00:10.275Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-10T18:44:48.831Z",
+          "alterStunden": 1.7,
+          "reach": 139,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 170,
+          "ig_reels_avg_watch_time": 4712,
+          "ig_reels_video_view_total_time": 669144,
+          "reels_skip_rate": 71.6
+        }
+      ]
     }
   },
   "konto": [
@@ -23568,6 +23650,11 @@
     },
     {
       "stand": "2026-10-10T17:44:31.781Z",
+      "follower": 147,
+      "medien": 104
+    },
+    {
+      "stand": "2026-10-10T18:44:50.286Z",
       "follower": 147,
       "medien": 104
     }
