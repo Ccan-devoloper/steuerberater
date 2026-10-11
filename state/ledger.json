@@ -8294,19 +8294,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 307,
+        "reach": 312,
         "saved": 3,
         "shares": 2,
         "likes": 4,
         "comments": 0,
         "total_interactions": 9,
-        "views": 396,
-        "ig_reels_avg_watch_time": 8353,
-        "ig_reels_video_view_total_time": 2681479,
-        "reels_skip_rate": 66
+        "views": 401,
+        "ig_reels_avg_watch_time": 8277,
+        "ig_reels_video_view_total_time": 2698498,
+        "reels_skip_rate": 66.2
       },
-      "insightsStand": "2026-10-10T15:04:06.318Z",
-      "insightsAlterStunden": 118.1
+      "insightsStand": "2026-10-11T15:04:06.398Z",
+      "insightsAlterStunden": 142.1
     },
     {
       "datum": "2026-10-05",
@@ -9851,22 +9851,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 30,
-        "views": 42,
+        "reach": 37,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 37,
+        "navigation": 44,
         "navigation_tap_back": 5,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 26,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 32,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-11T10:45:00.538Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-11T15:04:03.620Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-11",
@@ -9880,22 +9880,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 28,
-        "views": 34,
+        "reach": 35,
+        "views": 43,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 31,
-        "navigation_tap_back": 4,
+        "navigation": 37,
+        "navigation_tap_back": 5,
         "navigation_tap_exit": 2,
-        "navigation_tap_forward": 24,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 27,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-11T10:45:00.538Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-11T15:04:03.620Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-10-11",
