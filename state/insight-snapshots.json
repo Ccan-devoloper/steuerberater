@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-11T09:44:27.274Z",
+  "stand": "2026-10-11T10:14:05.787Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -17039,6 +17039,18 @@
           "total_interactions": 8,
           "follows": 2,
           "profile_visits": 10
+        },
+        {
+          "stand": "2026-10-11T10:14:05.787Z",
+          "alterStunden": 144.2,
+          "reach": 168,
+          "saved": 4,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 8,
+          "follows": 2,
+          "profile_visits": 10
         }
       ]
     },
@@ -17990,6 +18002,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-11T10:14:05.787Z",
+          "alterStunden": 118,
+          "reach": 102,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -18263,6 +18287,18 @@
           "stand": "2026-10-10T09:45:05.275Z",
           "alterStunden": 91.2,
           "reach": 167,
+          "saved": 4,
+          "shares": 0,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 11,
+          "follows": 1,
+          "profile_visits": 10
+        },
+        {
+          "stand": "2026-10-11T10:14:05.787Z",
+          "alterStunden": 115.7,
+          "reach": 169,
           "saved": 4,
           "shares": 0,
           "likes": 7,
@@ -22507,6 +22543,23 @@
           "navigation_tap_exit": 10,
           "navigation_tap_forward": 39,
           "navigation_swipe_forward": 3
+        },
+        {
+          "stand": "2026-10-11T10:14:04.280Z",
+          "alterStunden": 22.7,
+          "reach": 49,
+          "views": 61,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 58,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 44,
+          "navigation_tap_exit": 10,
+          "navigation_tap_back": 1
         }
       ]
     },

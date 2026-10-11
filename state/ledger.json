@@ -8146,7 +8146,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 167,
+        "reach": 168,
         "saved": 4,
         "shares": 1,
         "likes": 3,
@@ -8155,8 +8155,8 @@
         "follows": 2,
         "profile_visits": 10
       },
-      "insightsStand": "2026-10-10T09:45:05.275Z",
-      "insightsAlterStunden": 119.7
+      "insightsStand": "2026-10-11T10:14:05.787Z",
+      "insightsAlterStunden": 144.2
     },
     {
       "datum": "2026-10-05",
@@ -8397,8 +8397,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-10T09:45:05.275Z",
-      "insightsAlterStunden": 93.5
+      "insightsStand": "2026-10-11T10:14:05.787Z",
+      "insightsAlterStunden": 118
     },
     {
       "datum": "2026-10-06",
@@ -8508,7 +8508,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 167,
+        "reach": 169,
         "saved": 4,
         "shares": 0,
         "likes": 7,
@@ -8517,8 +8517,8 @@
         "follows": 1,
         "profile_visits": 10
       },
-      "insightsStand": "2026-10-10T09:45:05.275Z",
-      "insightsAlterStunden": 91.2
+      "insightsStand": "2026-10-11T10:14:05.787Z",
+      "insightsAlterStunden": 115.7
     },
     {
       "datum": "2026-10-06",
@@ -9670,22 +9670,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 47,
-        "views": 55,
+        "reach": 49,
+        "views": 61,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 53,
-        "navigation_tap_back": 1,
+        "navigation": 58,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 44,
         "navigation_tap_exit": 10,
-        "navigation_tap_forward": 39,
-        "navigation_swipe_forward": 3
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-11T07:44:49.458Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-11T10:14:04.280Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-10",
