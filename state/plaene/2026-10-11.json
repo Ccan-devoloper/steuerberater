@@ -36,7 +36,8 @@
       "themaTitel": "vE – Vorprüfung",
       "fach": "kst",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-11T17:00:00.092Z"
     }
   ],
   "stories": [
