@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-11T17:44:38.682Z",
+  "stand": "2026-10-11T18:44:59.131Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -23750,6 +23750,22 @@
           "navigation": 8,
           "navigation_tap_exit": 1,
           "navigation_tap_forward": 7
+        },
+        {
+          "stand": "2026-10-11T18:44:50.723Z",
+          "alterStunden": 6.1,
+          "reach": 22,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 2,
+          "replies": 1,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 19,
+          "navigation_swipe_forward": 1
         }
       ]
     },
@@ -23776,6 +23792,88 @@
           "profile_activity": 0,
           "navigation": 13,
           "navigation_tap_forward": 13
+        }
+      ]
+    },
+    "18105443219194378": {
+      "art": "story",
+      "datum": "2026-10-11",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-11T17:00:20.428Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-11T18:44:50.723Z",
+          "alterStunden": 1.7,
+          "reach": 15,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_forward": 20,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18104352932638402": {
+      "art": "story",
+      "datum": "2026-10-11",
+      "titel": null,
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-11T17:12:02.926Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-11T18:44:50.723Z",
+          "alterStunden": 1.5,
+          "reach": 12,
+          "views": 19,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 6,
+          "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18123495599489233": {
+      "art": "beitrag",
+      "datum": "2026-10-11",
+      "titel": "vE – Vorprüfung",
+      "format": "reel",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-11T17:00:10.230Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-11T18:44:56.717Z",
+          "alterStunden": 1.7,
+          "reach": 68,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 89,
+          "ig_reels_avg_watch_time": 6317,
+          "ig_reels_video_view_total_time": 429602,
+          "reels_skip_rate": 65.2
         }
       ]
     }
@@ -25213,6 +25311,11 @@
     },
     {
       "stand": "2026-10-11T17:44:38.682Z",
+      "follower": 150,
+      "medien": 107
+    },
+    {
+      "stand": "2026-10-11T18:44:59.131Z",
       "follower": 150,
       "medien": 107
     }
