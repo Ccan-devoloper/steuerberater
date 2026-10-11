@@ -9969,6 +9969,28 @@
       "thema": "persg-karte-k3-25",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "b2",
+      "medienId": "18441345337132419",
+      "veroeffentlicht": "2026-10-11T11:30:05.561Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "pruefungsfrage",
+      "thema": "erbst-aufb-erbst-t1-2",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -9978,7 +10000,7 @@
     "ao": 19,
     "bilanz": 20,
     "istr": 14,
-    "erbst": 4,
+    "erbst": 5,
     "mindset": 2,
     "est": 2,
     "umwst": 3,
