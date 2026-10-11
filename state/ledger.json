@@ -9861,6 +9861,28 @@
       "thema": "kst-quiz-kst-10",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "b1",
+      "medienId": "18463739779137399",
+      "veroeffentlicht": "2026-10-11T06:30:05.449Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "wochenrueckblick",
+      "thema": "wochenrueckblick-alle-2026-41",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Wochenrückblick",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -9875,7 +9897,7 @@
     "est": 2,
     "umwst": 3,
     "gewst": 2,
-    "null": 1
+    "null": 2
   },
   "nachrichten": [],
   "postfach": [],
