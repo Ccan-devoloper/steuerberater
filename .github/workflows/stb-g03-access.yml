@@ -1,0 +1,25 @@
+name: StB G03 Drive-Zugang
+on:
+  push:
+    branches: ['production/stb-g03-20261011']
+    paths: ['.github/workflows/stb-g03-access.yml']
+permissions:
+  contents: read
+jobs:
+  access:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Konfiguration prüfen
+        env:
+          RCLONE_CONFIG: ${{ secrets.RCLONE_CONFIG }}
+          RCLONE_CONFIG_INHALT: ${{ secrets.RCLONE_CONFIG_INHALT }}
+          RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
+          GDRIVE_CLIENT_ID: ${{ secrets.GDRIVE_CLIENT_ID }}
+          GDRIVE_CLIENT_SECRET: ${{ secrets.GDRIVE_CLIENT_SECRET }}
+          GDRIVE_REFRESH_TOKEN: ${{ secrets.GDRIVE_REFRESH_TOKEN }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        shell: python
+        run: |
+          import os
+          for name in ['RCLONE_CONFIG','RCLONE_CONFIG_INHALT','RCLONE_CONF','GDRIVE_CLIENT_ID','GDRIVE_CLIENT_SECRET','GDRIVE_REFRESH_TOKEN','ELEVENLABS_API_KEY']:
+              print(name+': '+('vorhanden' if os.environ.get(name) else 'fehlt'))
