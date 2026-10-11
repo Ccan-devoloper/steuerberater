@@ -9955,6 +9955,18 @@
       },
       "insightsStand": "2026-10-11T07:44:49.458Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "s6",
+      "medienId": "17892898014614774",
+      "veroeffentlicht": "2026-10-11T10:14:03.279Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-karte-k3-25",
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
