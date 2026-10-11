@@ -41,7 +41,8 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "kst-quiz-kst-10",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-11T05:07:00.031Z"
     },
     {
       "slot": "s5",
