@@ -36,8 +36,9 @@
       "themaTitel": "vE – Vorprüfung",
       "fach": "kst",
       "klausur": 2,
-      "status": "sendet",
-      "sendeversuch": "2026-10-11T17:00:00.092Z"
+      "status": "veroeffentlicht",
+      "medienId": "18123495599489233",
+      "veroeffentlicht": "2026-10-11T17:00:10.229Z"
     }
   ],
   "stories": [

@@ -10100,12 +10100,34 @@
       },
       "insightsStand": "2026-10-11T16:44:24.274Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "b3",
+      "medienId": "18123495599489233",
+      "veroeffentlicht": "2026-10-11T17:00:10.230Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "kst-karte-kst-2",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "vE – Vorprüfung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 11,
     "ust": 10,
-    "kst": 9,
+    "kst": 10,
     "ao": 19,
     "bilanz": 20,
     "istr": 14,
