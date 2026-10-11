@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-11T05:09:21.169Z",
+  "stand": "2026-10-11T06:30:21.448Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -22814,6 +22814,62 @@
           "reels_skip_rate": 71.6
         }
       ]
+    },
+    "18159460621507050": {
+      "art": "story",
+      "datum": "2026-10-11",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-11T05:07:03.563Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-11T06:30:18.892Z",
+          "alterStunden": 1.4,
+          "reach": 6,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 7,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 5,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "17989604013111197": {
+      "art": "story",
+      "datum": "2026-10-11",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-11T05:09:03.548Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-11T06:30:18.892Z",
+          "alterStunden": 1.4,
+          "reach": 5,
+          "views": 9,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 6,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 4
+        }
+      ]
     }
   },
   "konto": [
@@ -24191,6 +24247,11 @@
       "stand": "2026-10-11T05:09:21.169Z",
       "follower": 148,
       "medien": 104
+    },
+    {
+      "stand": "2026-10-11T06:30:21.448Z",
+      "follower": 148,
+      "medien": 105
     }
   ]
 }
