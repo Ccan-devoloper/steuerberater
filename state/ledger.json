@@ -9883,6 +9883,18 @@
         "#examensvorbereitung",
         "#steuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "s1",
+      "medienId": "18127310950896783",
+      "veroeffentlicht": "2026-10-11T06:30:17.752Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
