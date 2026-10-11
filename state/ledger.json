@@ -10018,6 +10018,18 @@
       "thema": null,
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "s7",
+      "medienId": "18338688475273103",
+      "veroeffentlicht": "2026-10-11T12:40:03.097Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
