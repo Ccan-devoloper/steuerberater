@@ -9728,22 +9728,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 40,
-        "views": 48,
+        "reach": 44,
+        "views": 57,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 40,
-        "navigation_tap_forward": 34,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 2,
+        "navigation": 48,
+        "navigation_tap_forward": 37,
+        "navigation_tap_exit": 4,
+        "navigation_tap_back": 6,
         "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-11T09:44:23.634Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-11T12:40:04.174Z",
+      "insightsAlterStunden": 21.6
     },
     {
       "datum": "2026-10-10",
@@ -9767,19 +9767,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 158,
+        "reach": 163,
         "saved": 1,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 4,
-        "views": 197,
-        "ig_reels_avg_watch_time": 4796,
-        "ig_reels_video_view_total_time": 786639,
-        "reels_skip_rate": 70.6
+        "views": 205,
+        "ig_reels_avg_watch_time": 4937,
+        "ig_reels_video_view_total_time": 834401,
+        "reels_skip_rate": 70.7
       },
-      "insightsStand": "2026-10-11T08:44:32.505Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-10-11T12:40:07.701Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-10-10",
@@ -9943,20 +9943,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 9,
-        "views": 14,
+        "reach": 29,
+        "views": 38,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_forward": 9,
-        "navigation_tap_exit": 1
+        "navigation": 33,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 26,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-11T07:44:49.458Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-11T12:40:04.174Z",
+      "insightsAlterStunden": 6.2
     },
     {
       "datum": "2026-10-11",
@@ -10005,7 +10007,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 21,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-11T12:40:07.701Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-11",
@@ -10017,7 +10031,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "erbst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 7,
+        "views": 9,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 8,
+        "navigation_tap_forward": 5,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-10-11T12:40:04.174Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-11",
