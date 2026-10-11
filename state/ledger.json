@@ -9778,8 +9778,8 @@
         "ig_reels_video_view_total_time": 834401,
         "reels_skip_rate": 70.7
       },
-      "insightsStand": "2026-10-11T12:40:07.701Z",
-      "insightsAlterStunden": 19.7
+      "insightsStand": "2026-10-11T15:50:35.715Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-10-10",
@@ -9793,22 +9793,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 44,
-        "views": 52,
+        "reach": 45,
+        "views": 55,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 36,
+        "navigation": 48,
+        "navigation_swipe_forward": 3,
         "navigation_tap_exit": 4,
-        "navigation_swipe_forward": 3
+        "navigation_tap_forward": 37,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-11T13:44:42.297Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-11T15:50:31.419Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-10-10",
@@ -9822,22 +9822,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 41,
-        "views": 52,
+        "reach": 43,
+        "views": 54,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 48,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 36,
+        "navigation": 49,
+        "navigation_tap_back": 4,
         "navigation_tap_exit": 5,
-        "navigation_tap_back": 4
+        "navigation_tap_forward": 37,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-11T13:44:42.297Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-11T15:50:31.419Z",
+      "insightsAlterStunden": 22.6
     },
     {
       "datum": "2026-10-11",
@@ -9972,20 +9972,20 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 17,
+        "reach": 23,
+        "views": 23,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_forward": 10,
-        "navigation_tap_exit": 5
+        "navigation": 22,
+        "navigation_tap_forward": 16,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-10-11T11:30:19.078Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-10-11T15:50:31.419Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-11",
