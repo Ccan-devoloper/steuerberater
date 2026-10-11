@@ -7932,19 +7932,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 227,
+        "reach": 231,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "views": 309,
-        "ig_reels_avg_watch_time": 25796,
-        "ig_reels_video_view_total_time": 6294368,
-        "reels_skip_rate": 70.9
+        "views": 315,
+        "ig_reels_avg_watch_time": 25390,
+        "ig_reels_video_view_total_time": 6322113,
+        "reels_skip_rate": 70.7
       },
-      "insightsStand": "2026-10-10T17:00:23.360Z",
-      "insightsAlterStunden": 143.2
+      "insightsStand": "2026-10-11T17:12:04.019Z",
+      "insightsAlterStunden": 167.4
     },
     {
       "datum": "2026-10-04",
