@@ -70,7 +70,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "persg-karte-k3-25",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-11T10:14:00.007Z"
     },
     {
       "slot": "s2",
