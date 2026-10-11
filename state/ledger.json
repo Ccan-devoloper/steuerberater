@@ -9837,6 +9837,18 @@
       },
       "insightsStand": "2026-10-10T23:49:49.767Z",
       "insightsAlterStunden": 6.6
+    },
+    {
+      "datum": "2026-10-11",
+      "slot": "s4",
+      "medienId": "18159460621507050",
+      "veroeffentlicht": "2026-10-11T05:07:03.563Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "kst-quiz-kst-10",
+      "fach": "kst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
