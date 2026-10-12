@@ -10468,10 +10468,32 @@
       },
       "insightsStand": "2026-10-12T16:44:43.122Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-12",
+      "slot": "b3",
+      "medienId": "18115999292015036",
+      "veroeffentlicht": "2026-10-12T17:00:10.671Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "persg-karte-k3-26",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 11,
+    "persg": 12,
     "ust": 10,
     "kst": 10,
     "ao": 20,
