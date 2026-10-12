@@ -10197,6 +10197,18 @@
       },
       "insightsStand": "2026-10-11T18:44:50.723Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-10-12",
+      "slot": "s4",
+      "medienId": "18117083086801824",
+      "veroeffentlicht": "2026-10-12T05:07:03.392Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-k3-32",
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
