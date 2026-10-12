@@ -10419,7 +10419,22 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 8,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_forward": 9,
+        "navigation_tap_back": 6
+      },
+      "insightsStand": "2026-10-12T13:44:32.237Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {

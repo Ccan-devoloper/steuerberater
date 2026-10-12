@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-12T13:31:07.113Z",
+  "stand": "2026-10-12T13:44:32.237Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -24874,6 +24874,33 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "17971898844155927": {
+      "art": "story",
+      "datum": "2026-10-12",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-12T12:40:03.378Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-12T13:44:32.237Z",
+          "alterStunden": 1.1,
+          "reach": 8,
+          "views": 18,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_forward": 9,
+          "navigation_tap_back": 6
         }
       ]
     }
