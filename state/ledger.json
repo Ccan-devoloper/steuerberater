@@ -8571,19 +8571,19 @@
         "#ertragsteuern"
       ],
       "insights": {
-        "reach": 264,
+        "reach": 260,
         "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 4,
-        "views": 375,
-        "ig_reels_avg_watch_time": 9247,
-        "ig_reels_video_view_total_time": 2524435,
-        "reels_skip_rate": 66.9
+        "views": 381,
+        "ig_reels_avg_watch_time": 9257,
+        "ig_reels_video_view_total_time": 2536585,
+        "reels_skip_rate": 66.8
       },
-      "insightsStand": "2026-10-11T14:44:36.321Z",
-      "insightsAlterStunden": 117.2
+      "insightsStand": "2026-10-12T14:45:19.933Z",
+      "insightsAlterStunden": 141.3
     },
     {
       "datum": "2026-10-06",
@@ -8757,7 +8757,7 @@
         "#prüfungstag"
       ],
       "insights": {
-        "reach": 127,
+        "reach": 130,
         "saved": 5,
         "shares": 1,
         "likes": 2,
@@ -8766,8 +8766,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-11T13:44:46.034Z",
-      "insightsAlterStunden": 95.2
+      "insightsStand": "2026-10-12T14:45:19.933Z",
+      "insightsAlterStunden": 120.3
     },
     {
       "datum": "2026-10-07",
@@ -8820,19 +8820,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 240,
+        "reach": 242,
         "saved": 0,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
-        "views": 293,
-        "ig_reels_avg_watch_time": 6822,
-        "ig_reels_video_view_total_time": 1698747,
-        "reels_skip_rate": 81.5
+        "views": 298,
+        "ig_reels_avg_watch_time": 6804,
+        "ig_reels_video_view_total_time": 1707980,
+        "reels_skip_rate": 81.6
       },
-      "insightsStand": "2026-10-11T13:44:46.034Z",
-      "insightsAlterStunden": 92.2
+      "insightsStand": "2026-10-12T14:45:19.933Z",
+      "insightsAlterStunden": 117.3
     },
     {
       "datum": "2026-10-07",
@@ -9919,7 +9919,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 73,
+        "reach": 76,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -9928,8 +9928,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-12T05:45:28.224Z",
-      "insightsAlterStunden": 23.3
+      "insightsStand": "2026-10-12T14:45:19.933Z",
+      "insightsAlterStunden": 32.3
     },
     {
       "datum": "2026-10-11",
@@ -10092,21 +10092,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 33,
-        "views": 50,
+        "reach": 38,
+        "views": 54,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 46,
-        "navigation_tap_back": 9,
-        "navigation_tap_forward": 33,
-        "navigation_tap_exit": 4
+        "navigation": 52,
+        "navigation_tap_back": 10,
+        "navigation_tap_forward": 37,
+        "navigation_tap_exit": 4,
+        "navigation_swipe_forward": 1
       },
-      "insightsStand": "2026-10-12T11:45:52.027Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-12T14:45:17.979Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-11",
@@ -10282,7 +10283,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 38,
+        "reach": 45,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -10291,8 +10292,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-12T11:30:23.875Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-12T14:45:19.933Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-12",
@@ -10370,17 +10371,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 20,
-        "saved": 0,
+        "reach": 32,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-12T12:40:06.498Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-12T14:45:19.933Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-12",
