@@ -12,7 +12,8 @@
       "themaTitel": "Antrag oder Einspruch: Wie weit reicht die Ablaufhemmung?",
       "fach": "ao",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-12T06:30:00.101Z"
     },
     {
       "slot": "b2",
