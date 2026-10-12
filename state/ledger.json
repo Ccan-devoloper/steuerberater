@@ -10436,6 +10436,18 @@
       },
       "insightsStand": "2026-10-12T13:44:32.237Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-12",
+      "slot": "s8",
+      "medienId": "18117066676799206",
+      "veroeffentlicht": "2026-10-12T15:04:02.593Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "kst-karte-kst-3",
+      "fach": "kst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
