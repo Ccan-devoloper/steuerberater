@@ -10092,21 +10092,21 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 32,
-        "views": 47,
+        "reach": 33,
+        "views": 50,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 45,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 32,
-        "navigation_tap_back": 9
+        "navigation": 46,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 33,
+        "navigation_tap_exit": 4
       },
-      "insightsStand": "2026-10-12T09:45:13.061Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-12T11:45:52.027Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-11",
@@ -10306,18 +10306,20 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 0,
-        "views": 5,
+        "reach": 18,
+        "views": 18,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 0
+        "navigation": 18,
+        "navigation_tap_forward": 11,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-12T07:45:07.486Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-12T11:45:52.027Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-10-12",
