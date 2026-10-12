@@ -1,0 +1,26 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-t1-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Wann ist es",
+    "eine Schenkung?",
+    "§ 7 Abs. 1 Nr. 1 ErbStG",
+    "Empfänger objektiv bereichert, auf Kosten des Gebers.",
+    "Geber will unentgeltlich leisten. Einigung wie im BGB? Nicht nötig.",
+    "R E 7.1 Abs. 1 ErbStR"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

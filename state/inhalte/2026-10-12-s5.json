@@ -1,0 +1,27 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-32",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Auflösung",
+    "A: Buchwert",
+    "bleibt möglich",
+    "Altgesellschafter bleiben beim Buchwert",
+    "Das HGB schreibt sie vor",
+    "Wegen der Gewerbesteuer",
+    "Ergänzungsbilanzen verhindern, dass die Alten stille Reserven versteuern; der Neue erfasst seinen Mehrpreis.",
+    "§ 24 Abs. 2 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

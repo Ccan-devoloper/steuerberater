@@ -1,0 +1,77 @@
+{
+  "format": "schema",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-3-10",
+  "caption": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei. Das Prüfschema für Klausur 2.\n\n1. Phasen bestimmen: unbeschränkt mit Wohnsitz oder gewöhnlichem Aufenthalt, danach beschränkt mit inländischen Einkünften (§ 1 Abs. 1, 4 EStG).\n2. Inländische Einkünfte in der beschränkten Phase prüfen, z. B. Vermietung einer inländischen Wohnung (§ 49 Abs. 1 Nr. 6 EStG).\n3. Diese Einkünfte werden in eine Veranlagung zur unbeschränkten Steuerpflicht einbezogen (§ 2 Abs. 7 S. 3 EStG).\n4. Ausländische Einkünfte, die im Jahr nicht der deutschen Einkommensteuer unterlegen haben, erhöhen nur den Steuersatz (§ 32b Abs. 1 S. 1 Nr. 2 EStG).\n5. Steuerabzug wirkt in diesen Fällen nicht abgeltend (§ 50 Abs. 2 S. 2 Nr. 3 EStG); die Abzugsteuer wird angerechnet (§ 36 Abs. 2 Nr. 2 EStG).\n\nBeispiel: Lohn München 40.000 € + Miete 12.000 € = 52.000 € Einkünfte; 30.000 € Gehalt Wien nur im Progressionsvorbehalt.\n\nZum Schluss: § 2 Abs. 7 und § 32b Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1, 4 EStG",
+    "§ 2 Abs. 7 EStG",
+    "§ 32b Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 36 Abs. 2 Nr. 2 EStG",
+    "§ 49 Abs. 1 Nr. 6 EStG",
+    "§ 50 Abs. 2 S. 2 Nr. 3 EStG"
+  ],
+  "slug": "2026-10-12-b2",
+  "kurztitel": "Zu- oder Wegzug im laufenden Jahr: eine Veranlagung statt zwei",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Wegzug im · laufenden Jahr · § 2 Abs. 7 S. 3 EStG · in 5 Schritten · + Markier-Guide § 2 EStG · JUNI · 30 · Umzug nach Wien",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Das Schema · Phasen bestimmen · § 1 Abs. 1, 4 EStG · Inländische Einkünfte danach? · § 49 EStG · Eine Veranlagung, unbeschränkt · § 2 Abs. 7 S. 3 EStG · Ausland: nur Steuersatz · § 32b Abs. 1 S. 1 Nr. 2 EStG · Abzugsteuer anrechnen · § 50 Abs. 2 S. 2 Nr. 3 EStG · Am Ende: § 2 Abs. 7 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Beispiel: Lina zieht weg · Lina wohnt bis 30.06.2026 in München, dann in Wien. · Lohn München Januar bis Juni: 40.000 €. · Wohnung in Leipzig, ganzjährig vermietet: 12.000 € Einkünfte. · Gehalt Wien Juli bis Dezember: 30.000 €. · Neues Jahr, neue Stadt!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Jetzt du · Wie viele Veranlagungen gibt es für 2026? · Was passiert mit der Miete ab Juli? · Und mit dem Wiener Gehalt? · Lösung: weiterwischen · Zwei Phasen, zwei Bescheide?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: eine Veranlagung · § 2 Abs. 7 S. 3 EStG · § 49 Abs. 1 Nr. 6 EStG · Lohn München · 40.000 € · Miete Januar bis Juni · 6.000 € · Miete Juli bis Dezember · 6.000 € · Summe der Einkünfte · 52.000 € · Gehalt Wien: nur Steuersatz · 30.000 € · Progressionsvorbehalt § 32b EStG"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Zwei Bescheide? Falsch · Getrennte Veranlagungen gewähren den Grundfreibetrag doppelt. · § 2 Abs. 7 S. 1, 2 EStG · Das Wiener Gehalt erhöht den Steuersatz, auch ohne DBA-Freistellung. · § 32b Abs. 1 S. 1 Nr. 2 EStG · Steuerabzüge der Auslandsphase wirken nicht abgeltend. · § 50 Abs. 2 S. 2 Nr. 3 EStG · Ach so!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lina 2026: eine Veranlagung, Einkünfte 52.000 € · 30.000 € Wien nur im Progressionsvorbehalt · Ein Jahr, ein Bescheid, · Inland zusammen, · Ausland nur für · den Steuersatz. · Speichern für Klausur 2 · Zuzug geht genauso. Probierst du es? · Weiterwischen: § 2 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§§ 2, 32b EStG (Auszug) · ein Jahr · Wechsel · ein Bescheid · Steuersatz · Lina: Miete ab Juli kommt dazu · Wiener Gehalt nur für den Steuersatz"
+    }
+  ]
+}

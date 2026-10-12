@@ -1,0 +1,25 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-13",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "Einbringung ohne",
+    "neue Anteile?",
+    "Ohne neue Anteile",
+    "kein § 20 UmwStG.",
+    "§ 20 Abs. 1 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

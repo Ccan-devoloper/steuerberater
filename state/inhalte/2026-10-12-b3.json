@@ -1,0 +1,55 @@
+{
+  "format": "reel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-karte-k3-26",
+  "caption": "Mitunternehmeranteil verkauft: So rechnest du den Veräußerungsgewinn. 🧮\n\n▸ Veräußerungsgewinn = Veräußerungspreis abzüglich Veräußerungskosten abzüglich Wert des Anteils am Betriebsvermögen (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG).\n▸ Der Wert des Anteils wird zum Veräußerungszeitpunkt nach § 4 Abs. 1 oder § 5 EStG ermittelt (§ 16 Abs. 2 S. 2 EStG) und umfasst das Kapital aus Gesamthandsbilanz, Ergänzungsbilanz und Sonderbilanz des Gesellschafters.\n▸ Beispiel: 250.000 € Preis − 5.000 € Kosten − 170.000 € Kapital (120.000 € + 30.000 € + 20.000 €) = 75.000 € Gewinn.\n▸ Bei einer natürlichen Person als unmittelbar beteiligtem Mitunternehmer gehört der Gewinn nicht zum Gewerbeertrag (§ 7 S. 2 Nr. 2 GewStG).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 EStG",
+    "§ 7 S. 2 Nr. 2 GewStG"
+  ],
+  "slug": "2026-10-12-b3",
+  "kurztitel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gewinn beim Anteilsverkauf?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Drei Kapitalkonten"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Rechnung"
+    }
+  ],
+  "sprecher": [
+    "Du verkaufst deinen Kommanditanteil. Wie hoch ist der Gewinn? Nur mit der Gesamthand gerechnet: zu hoch. Mit allen drei Bilanzen: richtig.",
+    "Das Kapital hat drei Teile: Gesamthandsbilanz hundertzwanzigtausend, Ergänzungsbilanz dreißigtausend, Sonderbilanz zwanzigtausend. Zusammen hundertsiebzigtausend.",
+    "Kaufpreis zweihundertfünfzigtausend, minus fünftausend Kosten, minus hundertsiebzigtausend Kapital. Gewinn: fünfundsiebzigtausend Euro.",
+    "Merke: Preis minus Kosten minus alle drei Kapitalkonten."
+  ],
+  "dauerS": 41.35,
+  "tempo": 1
+}
