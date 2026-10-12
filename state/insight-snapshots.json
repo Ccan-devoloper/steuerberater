@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-12T05:45:28.224Z",
+  "stand": "2026-10-12T06:30:23.707Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -24278,6 +24278,62 @@
           "reels_skip_rate": 71
         }
       ]
+    },
+    "18117083086801824": {
+      "art": "story",
+      "datum": "2026-10-12",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-12T05:07:03.392Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-12T06:30:21.410Z",
+          "alterStunden": 1.4,
+          "reach": 8,
+          "views": 12,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 10,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 6,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18139352689714174": {
+      "art": "story",
+      "datum": "2026-10-12",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-12T05:09:02.916Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-12T06:30:21.410Z",
+          "alterStunden": 1.4,
+          "reach": 6,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 8,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 4,
+          "navigation_tap_back": 2
+        }
+      ]
     }
   },
   "konto": [
@@ -25735,6 +25791,11 @@
       "stand": "2026-10-12T05:09:14.880Z",
       "follower": 151,
       "medien": 107
+    },
+    {
+      "stand": "2026-10-12T06:30:23.707Z",
+      "follower": 151,
+      "medien": 108
     }
   ]
 }
