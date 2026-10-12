@@ -10368,7 +10368,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-12T12:40:06.498Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-12",
@@ -10380,7 +10392,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "istr",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 11,
+        "views": 11,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 6
+      },
+      "insightsStand": "2026-10-12T12:40:04.928Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-12",
