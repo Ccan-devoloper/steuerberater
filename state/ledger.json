@@ -10011,7 +10011,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 62,
+        "reach": 67,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -10020,8 +10020,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-12T09:45:19.500Z",
-      "insightsAlterStunden": 22.3
+      "insightsStand": "2026-10-12T18:44:49.281Z",
+      "insightsAlterStunden": 31.2
     },
     {
       "datum": "2026-10-11",
@@ -10283,7 +10283,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 45,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -10292,8 +10292,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-12T14:45:19.933Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-10-12T18:44:49.281Z",
+      "insightsAlterStunden": 12.2
     },
     {
       "datum": "2026-10-12",
@@ -10491,7 +10491,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 122,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 170,
+        "ig_reels_avg_watch_time": 6528,
+        "ig_reels_video_view_total_time": 809551,
+        "reels_skip_rate": 60.2
+      },
+      "insightsStand": "2026-10-12T18:44:49.281Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-12",
@@ -10503,7 +10517,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 20,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 19
+      },
+      "insightsStand": "2026-10-12T18:44:46.123Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-12",
@@ -10515,7 +10544,23 @@
       "storyArt": "merksatz",
       "thema": "umwst-aufb-umw-2-13",
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 8
+      },
+      "insightsStand": "2026-10-12T18:44:46.123Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {

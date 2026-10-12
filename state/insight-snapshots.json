@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-12T17:45:00.839Z",
+  "stand": "2026-10-12T18:44:52.248Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -24261,6 +24261,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-12T18:44:49.281Z",
+          "alterStunden": 31.2,
+          "reach": 67,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -24989,6 +25001,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-12T18:44:49.281Z",
+          "alterStunden": 12.2,
+          "reach": 56,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -25196,6 +25220,87 @@
           "navigation_tap_back": 1,
           "navigation_tap_exit": 4,
           "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18129133687695176": {
+      "art": "story",
+      "datum": "2026-10-12",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-12T17:00:24.571Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-12T18:44:46.123Z",
+          "alterStunden": 1.7,
+          "reach": 15,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 19
+        }
+      ]
+    },
+    "18119792345279611": {
+      "art": "story",
+      "datum": "2026-10-12",
+      "titel": null,
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-12T17:12:03.412Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-12T18:44:46.123Z",
+          "alterStunden": 1.5,
+          "reach": 12,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "18115999292015036": {
+      "art": "beitrag",
+      "datum": "2026-10-12",
+      "titel": "Wie berechnet man den Veräußerungsgewinn eines Mitunternehmeranteils?",
+      "format": "reel",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-12T17:00:10.671Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-12T18:44:49.281Z",
+          "alterStunden": 1.7,
+          "reach": 122,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 170,
+          "ig_reels_avg_watch_time": 6528,
+          "ig_reels_video_view_total_time": 809551,
+          "reels_skip_rate": 60.2
         }
       ]
     }
@@ -26714,6 +26819,11 @@
     {
       "stand": "2026-10-12T17:45:00.839Z",
       "follower": 153,
+      "medien": 110
+    },
+    {
+      "stand": "2026-10-12T18:44:52.248Z",
+      "follower": 154,
       "medien": 110
     }
   ]
