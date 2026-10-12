@@ -70,8 +70,9 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "erbst-aufb-erbst-t1-4",
-      "status": "sendet",
-      "sendeversuch": "2026-10-12T10:14:00.101Z"
+      "status": "veroeffentlicht",
+      "medienId": "18117910775059960",
+      "veroeffentlicht": "2026-10-12T10:14:03.446Z"
     },
     {
       "slot": "s2",
