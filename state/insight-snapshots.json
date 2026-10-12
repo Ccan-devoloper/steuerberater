@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-12T05:09:14.880Z",
+  "stand": "2026-10-12T05:45:28.224Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -16777,6 +16777,18 @@
           "total_interactions": 10,
           "follows": 0,
           "profile_visits": 4
+        },
+        {
+          "stand": "2026-10-12T05:45:28.224Z",
+          "alterStunden": 167.3,
+          "reach": 198,
+          "saved": 3,
+          "shares": 0,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 10,
+          "follows": 0,
+          "profile_visits": 4
         }
       ]
     },
@@ -23771,6 +23783,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-12T05:45:28.224Z",
+          "alterStunden": 23.3,
+          "reach": 73,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 1,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -23972,6 +23996,18 @@
           "stand": "2026-10-11T19:45:32.227Z",
           "alterStunden": 8.3,
           "reach": 52,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-12T05:45:28.224Z",
+          "alterStunden": 18.3,
+          "reach": 59,
           "saved": 1,
           "shares": 0,
           "likes": 2,
@@ -24226,6 +24262,20 @@
           "ig_reels_avg_watch_time": 4961,
           "ig_reels_video_view_total_time": 902933,
           "reels_skip_rate": 73.4
+        },
+        {
+          "stand": "2026-10-12T05:45:28.224Z",
+          "alterStunden": 12.8,
+          "reach": 218,
+          "saved": 2,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 263,
+          "ig_reels_avg_watch_time": 5659,
+          "ig_reels_video_view_total_time": 1262074,
+          "reels_skip_rate": 71
         }
       ]
     }
