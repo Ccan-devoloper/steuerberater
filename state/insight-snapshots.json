@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-12T18:44:52.248Z",
+  "stand": "2026-10-12T19:44:29.576Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -24823,6 +24823,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 22,
           "navigation_tap_exit": 6
+        },
+        {
+          "stand": "2026-10-12T19:44:26.500Z",
+          "alterStunden": 14.6,
+          "reach": 47,
+          "views": 61,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 57,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 44,
+          "navigation_tap_exit": 9
         }
       ]
     },
@@ -24885,6 +24902,23 @@
           "navigation_tap_back": 4,
           "navigation_tap_forward": 20,
           "navigation_tap_exit": 4
+        },
+        {
+          "stand": "2026-10-12T19:44:26.500Z",
+          "alterStunden": 14.6,
+          "reach": 45,
+          "views": 58,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 54,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 10,
+          "navigation_tap_forward": 36,
+          "navigation_tap_exit": 6
         }
       ]
     },
@@ -26824,6 +26858,11 @@
     {
       "stand": "2026-10-12T18:44:52.248Z",
       "follower": 154,
+      "medien": 110
+    },
+    {
+      "stand": "2026-10-12T19:44:29.576Z",
+      "follower": 156,
       "medien": 110
     }
   ]
