@@ -10131,19 +10131,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 237,
+        "reach": 251,
         "saved": 2,
         "shares": 1,
         "likes": 2,
         "comments": 0,
         "total_interactions": 5,
-        "views": 281,
-        "ig_reels_avg_watch_time": 5686,
-        "ig_reels_video_view_total_time": 1381804,
-        "reels_skip_rate": 70.5
+        "views": 299,
+        "ig_reels_avg_watch_time": 5873,
+        "ig_reels_video_view_total_time": 1503651,
+        "reels_skip_rate": 70.2
       },
-      "insightsStand": "2026-10-12T13:31:02.526Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-12T16:44:47.245Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-11",
@@ -10307,20 +10307,21 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 18,
-        "views": 18,
+        "reach": 29,
+        "views": 32,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_forward": 11,
-        "navigation_tap_exit": 7
+        "navigation": 30,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 21
       },
-      "insightsStand": "2026-10-12T11:45:52.027Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-10-12T16:44:43.122Z",
+      "insightsAlterStunden": 10.2
     },
     {
       "datum": "2026-10-12",
@@ -10372,7 +10373,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 32,
+        "reach": 36,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -10381,8 +10382,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-12T14:45:19.933Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-12T16:44:47.245Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-12",
@@ -10396,20 +10397,21 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 11,
-        "views": 11,
+        "reach": 26,
+        "views": 32,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 11,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 6
+        "navigation": 29,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 19,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-12T12:40:04.928Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-12T16:44:43.122Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-12",
@@ -10448,7 +10450,24 @@
       "storyArt": "tipp",
       "thema": "kst-karte-kst-3",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_forward": 11,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 4,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-12T16:44:43.122Z",
+      "insightsAlterStunden": 1.7
     }
   ],
   "fachZaehler": {
