@@ -10330,6 +10330,28 @@
       "thema": "erbst-aufb-erbst-t1-4",
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-12",
+      "slot": "b2",
+      "medienId": "18062622572530426",
+      "veroeffentlicht": "2026-10-12T11:30:06.451Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "istr-aufb-istr-gh-3-10",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -10338,7 +10360,7 @@
     "kst": 10,
     "ao": 20,
     "bilanz": 20,
-    "istr": 14,
+    "istr": 15,
     "erbst": 5,
     "mindset": 2,
     "est": 2,
