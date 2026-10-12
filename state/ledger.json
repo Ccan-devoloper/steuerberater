@@ -10223,13 +10223,35 @@
       "thema": "persg-quiz-k3-32",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-12",
+      "slot": "b1",
+      "medienId": "18079481375430706",
+      "veroeffentlicht": "2026-10-12T06:30:06.519Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "pruefungsfrage",
+      "thema": "ao-aufb-ao-jacobs-6-9",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 11,
     "ust": 10,
     "kst": 10,
-    "ao": 19,
+    "ao": 20,
     "bilanz": 20,
     "istr": 14,
     "erbst": 5,
