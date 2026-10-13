@@ -1,0 +1,27 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-7-17",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Grundlagenbescheid",
+    "geändert?",
+    "Der Folgebescheid",
+    "muss nachziehen.",
+    "Frist: mindestens 2 Jahre",
+    "ab Bekanntgabe.",
+    "§ 175 Abs. 1 S. 1 Nr. 1, § 171 Abs. 10 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

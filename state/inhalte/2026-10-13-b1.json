@@ -1,0 +1,85 @@
+{
+  "format": "rechenweg",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-17-01",
+  "caption": "Privat gehaltene GmbH-Anteile verkauft: der Rechenweg nach § 17 EStG.\n\n1. Tatbestand: Anteil an einer Kapitalgesellschaft (§ 17 Abs. 1 S. 3 EStG), Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre (§ 17 Abs. 1 S. 1 EStG). Der Gewinn gehört zu den Einkünften aus Gewerbebetrieb, die Anteile bleiben Privatvermögen.\n2. Teileinkünfteverfahren: Veräußerungspreis zu 40 % steuerfrei (§ 3 Nr. 40 S. 1 Buchst. c EStG), Veräußerungskosten und Anschaffungskosten nur zu 60 % abziehbar (§ 3c Abs. 2 EStG). Beispiel: 15.000 € − 600 € − 10.200 € = 4.200 €.\n3. Freibetrag: anteilig 10 % von 9.060 € = 906 €, er ermäßigt sich um den Betrag, um den der Gewinn 10 % von 36.100 € = 3.610 € übersteigt (§ 17 Abs. 3 S. 1, 2 EStG): 906 € − 590 € = 316 €. Steuerpflichtig: 3.884 €.\n4. Keine Tarifermäßigung: § 17 EStG steht nicht in § 34 Abs. 2 Nr. 1 EStG.\n\nZum Schluss: § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 und § 17 Abs. 1, 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 17 Abs. 1 S. 1, 3, Abs. 2, 3 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. c EStG",
+    "§ 3c Abs. 2 EStG",
+    "§ 34 Abs. 2 Nr. 1 EStG"
+  ],
+  "slug": "2026-10-13-b1",
+  "kurztitel": "Wann wird der Verkauf privater GmbH-Anteile gewerblich?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · GmbH-Anteil · privat verkauft · § 17 Abs. 2, 3 EStG · in 3 Schritten · + Markier-Guide §§ 3, 3c, 17 EStG · 10 % Anteil · 25.000 € · Gewinn?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Sachverhalt · Ella hält seit 2019 privat 10 % an der Kranich GmbH. Anschaffungskosten: 17.000 €. · 2026 verkauft sie den ganzen Anteil für 25.000 €. · Notarkosten: 1.000 €. · Wie viel davon ist steuerpflichtig?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Schritt 1: § 17 erfüllt? · GmbH-Anteil: Anteil an einer Kapitalgesellschaft. · § 17 Abs. 1 S. 3 EStG · In den letzten fünf Jahren zu mindestens 1 % beteiligt: Ella hat 10 %. · § 17 Abs. 1 S. 1 EStG · Folge: Einkünfte aus Gewerbebetrieb, der Anteil bleibt aber Privatvermögen. · Gewerblich? Ich?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Schritt 2: nur 60 % · § 3 Nr. 40 S. 1 Buchst. c EStG · § 3c Abs. 2 EStG · Preis: 60 % von 25.000 € · 15.000 € · − Kosten: 60 % von 1.000 € · 600 € · − AK: 60 % von 17.000 € · 10.200 € · Veräußerungsgewinn · 4.200 € · Nur noch 4.200 €!"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Jetzt du · Der Freibetrag beträgt 9.060 €. Wie viel davon bekommt Ella? · Tipp: Er hängt am verkauften Anteil und schmilzt ab einer Grenze. · § 17 Abs. 3 EStG · Lösung: weiterwischen · Die vollen 9.060 €?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Schritt 3: Freibetrag · § 17 Abs. 3 S. 1, 2 EStG · Freibetrag: 10 % von 9.060 € · 906 € · Grenze: 10 % von 36.100 € · 3.610 € · Gewinn über der Grenze · 590 € · Freibetrag: 906 € − 590 € · 316 € · Steuerpflichtig · 3.884 €"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Drei Klassiker · Freibetrag vom Gewinn vor dem 60-%-Ansatz abziehen. · Bei 10 % den vollen Freibetrag geben. · § 17 Abs. 3 S. 1 EStG · Tarifermäßigung ansetzen: § 17 fehlt in der Liste. · § 34 Abs. 2 Nr. 1 EStG · Erwischt!"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Ella: Gewinn 4.200 €, Freibetrag 316 € · Steuerpflichtig: 3.884 € · Erst 60 %, · dann Freibetrag, · nach Anteil gekürzt · und abgeschmolzen. · Speichern für Klausur 2 · Rechnest du mit 20 % Anteil nach? · Weiterwischen: §§ 3, 3c, 17 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "§ 17 EStG Veräußerung von Anteilen (Auszug) · 5 Jahre · 1 % · anteilig · Abschmelzen · Weiterwischen: §§ 3, 3c EStG · Preis, Kosten und AK nur zu 60 %"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "§§ 3, 3c EStG (Auszug) · Teileinkünfte · Preis 25.000 € · Notar: 60 % · AK: 60 % · Ella: 15.000 € − 600 € − 10.200 € · Gewinn 4.200 €, erst dann Freibetrag"
+    }
+  ]
+}

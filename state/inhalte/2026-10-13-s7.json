@@ -1,0 +1,25 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst die Frage,",
+    "dann der Fall",
+    "Zuerst die Aufgabe am Ende lesen.",
+    "Dann den Sachverhalt gezielt markieren.",
+    "Fast jede Zahl hat eine Funktion."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,25 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-11",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Zinsstaffel:",
+    "die Summenformel",
+    "Nenner: n × (n + 1) : 2",
+    "10 Jahresraten: 55. 72 Monatsraten: 2.628.",
+    "Der Nenner bleibt über die ganze Laufzeit gleich."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
