@@ -10588,6 +10588,28 @@
       "thema": "ust-quiz-ust-11",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "b1",
+      "medienId": "18178753486428508",
+      "veroeffentlicht": "2026-10-13T06:30:05.274Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "rechenweg",
+      "thema": "est-aufb-est-ks2-17-01",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -10599,7 +10621,7 @@
     "istr": 15,
     "erbst": 5,
     "mindset": 2,
-    "est": 2,
+    "est": 3,
     "umwst": 3,
     "gewst": 2,
     "null": 2
