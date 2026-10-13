@@ -10832,6 +10832,28 @@
       },
       "insightsStand": "2026-10-13T16:44:57.317Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "b3",
+      "medienId": "17905692546570704",
+      "veroeffentlicht": "2026-10-13T17:00:09.396Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "erbst-aufb-erbst-t1-7",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Was mindert die Bereicherung? Abzugsfähige Schulden nach § 10 ErbStG",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -10841,7 +10863,7 @@
     "ao": 20,
     "bilanz": 20,
     "istr": 15,
-    "erbst": 5,
+    "erbst": 6,
     "mindset": 2,
     "est": 3,
     "umwst": 3,
