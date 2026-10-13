@@ -9646,17 +9646,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 77,
+        "reach": 80,
         "saved": 2,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-12T21:52:51.720Z",
-      "insightsAlterStunden": 58.4
+      "insightsStand": "2026-10-13T06:30:22.014Z",
+      "insightsAlterStunden": 67
     },
     {
       "datum": "2026-10-10",
@@ -9773,13 +9773,13 @@
         "likes": 3,
         "comments": 0,
         "total_interactions": 5,
-        "views": 223,
-        "ig_reels_avg_watch_time": 5294,
-        "ig_reels_video_view_total_time": 963615,
-        "reels_skip_rate": 68.8
+        "views": 224,
+        "ig_reels_avg_watch_time": 5275,
+        "ig_reels_video_view_total_time": 965480,
+        "reels_skip_rate": 68.9
       },
-      "insightsStand": "2026-10-12T21:52:51.720Z",
-      "insightsAlterStunden": 52.9
+      "insightsStand": "2026-10-13T06:30:22.014Z",
+      "insightsAlterStunden": 61.5
     },
     {
       "datum": "2026-10-10",
@@ -10575,7 +10575,22 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-11",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 14,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-13T06:30:19.313Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-13",
@@ -10587,7 +10602,22 @@
       "storyArt": "antwort",
       "thema": "ust-quiz-ust-11",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 15,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-13T06:30:19.313Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-13",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-13T05:45:26.822Z",
+  "stand": "2026-10-13T06:30:23.244Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -23098,6 +23098,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-13T06:30:22.014Z",
+          "alterStunden": 67,
+          "reach": 80,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -23688,6 +23700,20 @@
           "ig_reels_avg_watch_time": 5294,
           "ig_reels_video_view_total_time": 963615,
           "reels_skip_rate": 68.8
+        },
+        {
+          "stand": "2026-10-13T06:30:22.014Z",
+          "alterStunden": 61.5,
+          "reach": 175,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 224,
+          "ig_reels_avg_watch_time": 5275,
+          "ig_reels_video_view_total_time": 965480,
+          "reels_skip_rate": 68.9
         }
       ]
     },
@@ -25736,6 +25762,60 @@
           "reels_skip_rate": 78.2
         }
       ]
+    },
+    "18338356417279622": {
+      "art": "story",
+      "datum": "2026-10-13",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T05:07:03.637Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T06:30:19.313Z",
+          "alterStunden": 1.4,
+          "reach": 14,
+          "views": 17,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 14,
+          "navigation_tap_forward": 13,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18437650867177174": {
+      "art": "story",
+      "datum": "2026-10-13",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T05:09:02.466Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T06:30:19.313Z",
+          "alterStunden": 1.4,
+          "reach": 13,
+          "views": 15,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 11
+        }
+      ]
     }
   },
   "konto": [
@@ -27278,6 +27358,11 @@
       "stand": "2026-10-13T05:09:14.901Z",
       "follower": 157,
       "medien": 110
+    },
+    {
+      "stand": "2026-10-13T06:30:23.244Z",
+      "follower": 157,
+      "medien": 111
     }
   ]
 }
