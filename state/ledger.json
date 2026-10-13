@@ -10398,22 +10398,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 45,
-        "views": 60,
+        "reach": 49,
+        "views": 65,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 53,
-        "navigation_tap_back": 6,
-        "navigation_tap_forward": 34,
+        "navigation": 57,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 37,
         "navigation_tap_exit": 10,
         "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-13T07:45:43.087Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-10-13T10:14:04.382Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-12",
