@@ -10647,17 +10647,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 47,
+        "reach": 49,
         "saved": 1,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 1,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-13T14:44:48.562Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-10-13T17:44:56.388Z",
+      "insightsAlterStunden": 11.2
     },
     {
       "datum": "2026-10-13",
@@ -10789,20 +10789,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 10,
-        "views": 15,
+        "reach": 27,
+        "views": 38,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 10,
-        "navigation_tap_forward": 8,
-        "navigation_tap_exit": 2
+        "navigation": 31,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 21,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-10-13T13:44:48.390Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-13T17:44:54.294Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-13",
