@@ -10866,6 +10866,18 @@
       "thema": null,
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "s9",
+      "medienId": "17863366428695530",
+      "veroeffentlicht": "2026-10-13T17:12:03.040Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-aufb-ao-jacobs-7-17",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
