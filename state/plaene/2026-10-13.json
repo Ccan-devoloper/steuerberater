@@ -70,7 +70,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "gewst-aufb-gewst-ks-05",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-13T10:14:00.100Z"
     },
     {
       "slot": "s2",
