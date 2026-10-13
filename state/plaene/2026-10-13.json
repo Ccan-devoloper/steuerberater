@@ -41,8 +41,9 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "ust-quiz-ust-11",
-      "status": "sendet",
-      "sendeversuch": "2026-10-13T05:07:00.007Z"
+      "status": "veroeffentlicht",
+      "medienId": "18338356417279622",
+      "veroeffentlicht": "2026-10-13T05:07:03.637Z"
     },
     {
       "slot": "s5",
