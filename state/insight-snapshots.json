@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-13T15:04:08.386Z",
+  "stand": "2026-10-13T15:45:28.027Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -26012,6 +26012,23 @@
           "navigation_tap_back": 5,
           "navigation_tap_forward": 43,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-10-13T15:45:23.284Z",
+          "alterStunden": 22.7,
+          "reach": 49,
+          "views": 68,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 66,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 8,
+          "navigation_tap_forward": 51,
+          "navigation_tap_exit": 4
         }
       ]
     },
@@ -26089,6 +26106,23 @@
           "navigation_tap_back": 6,
           "navigation_tap_forward": 33,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-13T15:45:23.284Z",
+          "alterStunden": 22.6,
+          "reach": 46,
+          "views": 62,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 57,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 37,
+          "navigation_tap_back": 8,
+          "navigation_tap_exit": 11
         }
       ]
     },
@@ -26422,6 +26456,22 @@
           "navigation": 12,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 10
+        },
+        {
+          "stand": "2026-10-13T15:45:23.284Z",
+          "alterStunden": 5.5,
+          "reach": 31,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 26,
+          "navigation_tap_exit": 4
         }
       ]
     },
@@ -28098,6 +28148,11 @@
     },
     {
       "stand": "2026-10-13T14:44:50.438Z",
+      "follower": 161,
+      "medien": 112
+    },
+    {
+      "stand": "2026-10-13T15:45:28.027Z",
       "follower": 161,
       "medien": 112
     }
