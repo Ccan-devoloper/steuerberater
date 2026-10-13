@@ -1,0 +1,85 @@
+{
+  "format": "schema",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b04-15",
+  "caption": "Reihengeschäft: Welche Lieferung ist die bewegte? Das Prüfschema für Klausur 1.\n\n1. Reihengeschäft: mehrere Unternehmer, derselbe Gegenstand, Transport unmittelbar vom ersten Unternehmer zum letzten Abnehmer; die Warenbewegung gehört nur zu einer Lieferung (§ 3 Abs. 6a S. 1 UStG).\n2. Transportiert der erste Unternehmer, ist seine Lieferung bewegt (§ 3 Abs. 6a S. 2 UStG).\n3. Transportiert der letzte Abnehmer, ist die Lieferung an ihn bewegt (§ 3 Abs. 6a S. 3 UStG).\n4. Transportiert ein Zwischenhändler, ist grundsätzlich die Lieferung an ihn bewegt; verwendet er bei innergemeinschaftlichem Transport die USt-IdNr. des Abgangsstaats, ist seine eigene Lieferung bewegt (§ 3 Abs. 6a S. 4, 5 UStG).\n5. Bewegte Lieferung: Ort am Beginn des Transports (§ 3 Abs. 6 S. 1 UStG). Vorangehende ruhende Lieferungen am Beginn, nachfolgende am Ende (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nNur die bewegte Lieferung kann als innergemeinschaftliche Lieferung steuerfrei sein (§ 4 Nr. 1 Buchst. b, § 6a UStG). Vertiefung: Abschn. 3.14 UStAE.\n\nZum Schluss: § 3 Abs. 6a, 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 3 Abs. 6 S. 1, Abs. 6a, Abs. 7 S. 2 UStG",
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a UStG",
+    "Abschn. 3.14 UStAE"
+  ],
+  "slug": "2026-10-14-b2",
+  "kurztitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Welche Lieferung · bewegt sich? · § 3 Abs. 6a UStG · in 5 Schritten · + Markier-Guide § 3 UStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Das Schema · Reihengeschäft? · § 3 Abs. 6a S. 1 UStG · Erster transportiert · § 3 Abs. 6a S. 2 UStG · Letzter transportiert · § 3 Abs. 6a S. 3 UStG · Händler transportiert · § 3 Abs. 6a S. 4, 5 UStG · Ruhende Lieferungen verorten · § 3 Abs. 7 S. 2 UStG · Am Ende: § 3 Abs. 6a, 7 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Wer transportiert, entscheidet · Erster Unternehmer transportiert: Seine Lieferung ist bewegt. · Letzter Abnehmer transportiert: Die Lieferung an ihn ist bewegt. · Zwischenhändler transportiert: Vermutet wird die Lieferung an ihn. Mit USt-IdNr. des Abgangsstaats: seine eigene. · Und wer transportiert bei mir?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Beispiel · Selin aus Wien kauft Maschinen bei einem Hersteller in Hamburg. · Sie verkauft weiter an einen Kunden in Mailand. · Selin beauftragt die Spedition Hamburg–Mailand und verwendet ihre österreichische USt-IdNr. · Direkt nach Mailand!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Jetzt du · Welche der beiden Lieferungen ist die bewegte? · Wo liegt jeweils der Ort? · Welche Lieferung kann steuerfrei sein? · Lösung: weiterwischen · Ich transportiere …"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung · Hamburg an Selin · Bewegt: Vermutung greift · § 3 Abs. 6a S. 4 UStG · Ort: Hamburg, steuerfreie ig. Lieferung · § 3 Abs. 6 S. 1, § 6a UStG · Selin an Kunden · Ruhend, folgt der bewegten · Ort: Mailand, in Deutschland nicht steuerbar · § 3 Abs. 7 S. 2 Nr. 2 UStG · Steuerfrei ab Hamburg!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Deutsche USt-IdNr.? · Verwendet Selin gegenüber dem Hersteller eine deutsche USt-IdNr., ist ihre eigene Lieferung bewegt. · § 3 Abs. 6a S. 5 UStG · Dann ruht die Lieferung des Herstellers in Hamburg: steuerpflichtig, nicht steuerfrei. · § 3 Abs. 7 S. 2 Nr. 1 UStG · Eine Nummer ändert alles!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung: Hamburg an Selin ist bewegt und steuerfrei · Selin an den Kunden ruht, Ort Mailand · Wer transportiert, · entscheidet. · Nur die bewegte · kann steuerfrei sein. · Speichern für Klausur 1 · Und wenn der Kunde abholt? · Weiterwischen: § 3 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 3 Abs. 6a UStG Reihengeschäft (Auszug) · Zwischenhändler · Grundregel · IdNr. Abgangsstaat · dann seine Lieferung · Weiterwischen: § 3 Abs. 7 UStG · Wo die ruhenden Lieferungen liegen"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 3 Abs. 7 UStG (Auszug) · ruhende Lieferung · davor: Beginn · danach: Ende, Mailand · Vertiefung: Abschn. 3.14 UStAE · Zuordnung mit vielen Beispielen"
+    }
+  ]
+}

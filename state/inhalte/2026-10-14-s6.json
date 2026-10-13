@@ -1,0 +1,25 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-karte-k3-27",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Grundstück",
+    "zurückbehalten?",
+    "§ 16 Abs. 4, § 34 Abs. 2 Nr. 1 EStG",
+    "Anteil verkauft, wesentliches Grundstück aus dem Sonder-BV zum Buchwert in einen anderen Betrieb überführt.",
+    "Reserven nicht vollständig aufgedeckt: keine Begünstigung."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

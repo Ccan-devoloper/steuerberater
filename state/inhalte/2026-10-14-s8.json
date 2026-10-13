@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-11",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Halbunternehmer:",
+    "Erwerbsschwelle",
+    "Nur vorsteuerschädliche steuerfreie Umsätze",
+    "Pauschalierende Land- und Forstwirte",
+    "Juristische Personen ohne Unternehmerzweck",
+    "Erwerbe bis 12.500 €: kein ig. Erwerb, Verzicht möglich",
+    "§ 1a Abs. 3, 4 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,25 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Ergebnis",
+    "nach vorn",
+    "Erst die Rechtsfolge, dann die Begründung.",
+    "Norm genau zitieren: Abs., S., Nr.",
+    "Korrektoren suchen Ergebnis und Norm."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,56 @@
+{
+  "format": "reel",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": "gewst-aufb-gewst-ks-08",
+  "caption": "Gewerbesteuer-Zerlegung: die Falle mit dem Unternehmerlohn. 🏙️\n\n▸ Hat ein Unternehmen Betriebsstätten in mehreren Gemeinden, wird der Steuermessbetrag in Zerlegungsanteile zerlegt (§ 28 Abs. 1 S. 1 GewStG) – nicht die Steuer. Jede Gemeinde wendet dann ihren Hebesatz an.\n▸ Maßstab: Verhältnis der Arbeitslöhne der Betriebsstätten je Gemeinde (§ 29 Abs. 1 Nr. 1 GewStG), abgerundet auf volle 1.000 € (§ 29 Abs. 3 GewStG).\n▸ Bei Unternehmen, die nicht von einer juristischen Person betrieben werden, sind für die tätigen Unternehmer insgesamt 25.000 € jährlich anzusetzen (§ 31 Abs. 5 GewStG). Bei der GmbH nicht.\n▸ Beispiel: Messbetrag 7.000 €, Löhne A 75.000 € + 25.000 € Unternehmerlohn = 100.000 €, B 100.000 € → je 3.500 €.\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+  ],
+  "quellen": [
+    "§ 28 Abs. 1 GewStG",
+    "§ 29 Abs. 1 Nr. 1, Abs. 3 GewStG",
+    "§ 31 Abs. 5 GewStG"
+  ],
+  "slug": "2026-10-14-b3",
+  "kurztitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gemeinde A: wie viel?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Was wird zerlegt?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Klausurfalle"
+    }
+  ],
+  "sprecher": [
+    "Zwei Gemeinden, siebentausend Euro Messbetrag. Ohne Unternehmerlohn bekommt Gemeinde A dreitausend. Mit ihm dreitausendfünfhundert.",
+    "Zerlegt wird der Messbetrag, nicht die Steuer. Maßstab sind die Arbeitslöhne je Gemeinde, abgerundet auf volle tausend Euro.",
+    "Die Falle: Beim Einzelunternehmer kommen fünfundzwanzigtausend Euro Unternehmerlohn dazu. Aus fünfundsiebzigtausend in A werden hunderttausend, genau wie in B.",
+    "Merke: Unternehmerlohn nur bei Personenunternehmen, nie bei der GmbH."
+  ],
+  "dauerS": 36.258,
+  "tempo": 1
+}

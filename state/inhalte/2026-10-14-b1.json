@@ -1,0 +1,76 @@
+{
+  "format": "fehlerfalle",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-23",
+  "caption": "Klausurfalle Einbringung: Ein Betrieb mit negativem Kapital lässt sich nicht zum Buchwert in eine GmbH einbringen.\n\n▸ Buchwert- oder Zwischenwertansatz nur, soweit die Passivposten des eingebrachten Betriebsvermögens die Aktivposten nicht übersteigen; das Eigenkapital bleibt dabei außer Betracht (§ 20 Abs. 2 S. 2 Nr. 2 UmwStG). Der Ansatz muss also mindestens 0 € betragen.\n▸ Der Wertansatz gilt beim Einbringenden als Veräußerungspreis und als Anschaffungskosten der neuen Anteile (§ 20 Abs. 3 S. 1 UmwStG). Beispiel: 0 € − (−80.000 €) = 80.000 € Einbringungsgewinn, Anteile mit 0 €.\n▸ Freibetrag nach § 16 Abs. 4 EStG und ermäßigter Steuersatz nach § 34 Abs. 1, 3 EStG nur bei Ansatz des gemeinen Werts (§ 20 Abs. 4 S. 1, 2 UmwStG) – hier also nicht.\n\nZum Schluss: § 20 Abs. 2 bis 4 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 20 Abs. 1, 2 S. 2 Nr. 2 UmwStG",
+    "§ 20 Abs. 3 S. 1 UmwStG",
+    "§ 20 Abs. 4 UmwStG",
+    "§ 16 Abs. 4 EStG",
+    "§ 34 Abs. 1, 3 EStG"
+  ],
+  "slug": "2026-10-14-b1",
+  "kurztitel": "Was geschieht bei Einbringung eines Betriebs mit negativem Kapital?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurfalle",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurfalle",
+      "text": "Klausurfalle · Buchwert trotz · Minuskapital? · § 20 Abs. 2 S. 2 Nr. 2 UmwStG · Achtung · + Markier-Guide § 20 UmwStG · Kapital · −80.000 € · Buchwert?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Sachverhalt · Tessa bringt ihr Einzelunternehmen gegen neue Anteile in eine GmbH ein. · § 20 Abs. 1 UmwStG · Buchwerte: Aktiva 300.000 €, Schulden 380.000 €, Kapital −80.000 €. · Die GmbH beantragt den Buchwertansatz. · § 20 Abs. 2 S. 2 UmwStG · Ganz ohne Gewinn, bitte!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Jetzt du · Darf die GmbH das negative Kapital zum Buchwert übernehmen? · Und was bedeutet das für Tessa und ihre neuen Anteile? · Lösung: weiterwischen · Buchwert ist doch Buchwert …"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Untergrenze null · Buchwert geht nur, soweit die Passivposten die Aktivposten nicht übersteigen. Eigenkapital zählt nicht mit. · § 20 Abs. 2 S. 2 Nr. 2 UmwStG · Also Aktiva aufstocken, bis der Wertansatz mindestens 0 € erreicht. · Pflicht-Aufstockung?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Die Folgen für Tessa · § 20 Abs. 3 S. 1 UmwStG · Veräußerungspreis = Wertansatz · 0 € · Buchwert des Kapitals · −80.000 € · Gewinn: 0 € − (−80.000 €) · 80.000 € · AK der neuen Anteile · 0 € · 80.000 € Gewinn!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Und keine Begünstigung · Freibetrag nach § 16 Abs. 4 EStG nur, wenn die GmbH den gemeinen Wert ansetzt. · § 20 Abs. 4 S. 1 UmwStG · Ermäßigter Steuersatz nur in diesen Fällen. · § 20 Abs. 4 S. 2 UmwStG · Negative Anschaffungskosten gibt es nicht. · Teure Falle."
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Tessa: Aufstockung auf 0 €, Gewinn 80.000 € · Anteile mit 0 €, keine Begünstigung · Minuskapital · wird auf null gestockt, · Gewinn ohne · Begünstigung. · Speichern für Klausur 3 · Hättest du die Grenze gesehen? · Weiterwischen: § 20 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "§ 20 UmwStG Einbringung (Auszug) · mindestens 0 € · Gewinn 80.000 € · Anteile: 0 € · nur bei gemeinem Wert · Tessa: Gewinn 80.000 €, Anteile 0 € · kein Freibetrag, kein ermäßigter Satz"
+    }
+  ]
+}
