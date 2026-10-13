@@ -10854,6 +10854,18 @@
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "s3",
+      "medienId": "18071868533590677",
+      "veroeffentlicht": "2026-10-13T17:00:22.070Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
