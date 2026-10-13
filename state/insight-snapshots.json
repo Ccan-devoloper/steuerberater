@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-13T17:44:57.526Z",
+  "stand": "2026-10-13T18:45:33.459Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -25709,6 +25709,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-13T18:45:31.876Z",
+          "alterStunden": 31.3,
+          "reach": 55,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -26677,6 +26689,86 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 17,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18071868533590677": {
+      "art": "story",
+      "datum": "2026-10-13",
+      "titel": null,
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T17:00:22.070Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T18:45:27.569Z",
+          "alterStunden": 1.8,
+          "reach": 16,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 14
+        }
+      ]
+    },
+    "17863366428695530": {
+      "art": "story",
+      "datum": "2026-10-13",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T17:12:03.040Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T18:45:27.569Z",
+          "alterStunden": 1.6,
+          "reach": 16,
+          "views": 21,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 9
+        }
+      ]
+    },
+    "17905692546570704": {
+      "art": "beitrag",
+      "datum": "2026-10-13",
+      "titel": "Was mindert die Bereicherung? Abzugsfähige Schulden nach § 10 ErbStG",
+      "format": "reel",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T17:00:09.396Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T18:45:31.876Z",
+          "alterStunden": 1.8,
+          "reach": 96,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 137,
+          "ig_reels_avg_watch_time": 5070,
+          "ig_reels_video_view_total_time": 486789,
+          "reels_skip_rate": 63.9
         }
       ]
     }
@@ -28280,6 +28372,11 @@
     {
       "stand": "2026-10-13T17:44:57.526Z",
       "follower": 163,
+      "medien": 113
+    },
+    {
+      "stand": "2026-10-13T18:45:33.459Z",
+      "follower": 165,
       "medien": 113
     }
   ]

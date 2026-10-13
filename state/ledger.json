@@ -10374,17 +10374,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 48,
-        "saved": 1,
+        "reach": 55,
+        "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-13T09:45:36.688Z",
-      "insightsAlterStunden": 22.3
+      "insightsStand": "2026-10-13T18:45:31.876Z",
+      "insightsAlterStunden": 31.3
     },
     {
       "datum": "2026-10-12",
@@ -10855,7 +10855,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 96,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 137,
+        "ig_reels_avg_watch_time": 5070,
+        "ig_reels_video_view_total_time": 486789,
+        "reels_skip_rate": 63.9
+      },
+      "insightsStand": "2026-10-13T18:45:31.876Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-13",
@@ -10867,7 +10881,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "erbst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 14
+      },
+      "insightsStand": "2026-10-13T18:45:27.569Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-13",
@@ -10879,7 +10908,22 @@
       "storyArt": "merksatz",
       "thema": "ao-aufb-ao-jacobs-7-17",
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 9
+      },
+      "insightsStand": "2026-10-13T18:45:27.569Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {
