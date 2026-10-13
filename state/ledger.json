@@ -10495,19 +10495,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 160,
+        "reach": 162,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 210,
-        "ig_reels_avg_watch_time": 6193,
-        "ig_reels_video_view_total_time": 1015725,
-        "reels_skip_rate": 78.3
+        "views": 215,
+        "ig_reels_avg_watch_time": 6684,
+        "ig_reels_video_view_total_time": 1123027,
+        "reels_skip_rate": 77
       },
-      "insightsStand": "2026-10-13T09:45:36.688Z",
-      "insightsAlterStunden": 16.8
+      "insightsStand": "2026-10-13T12:57:37.106Z",
+      "insightsAlterStunden": 20
     },
     {
       "datum": "2026-10-12",
