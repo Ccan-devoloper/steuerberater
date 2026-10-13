@@ -10717,6 +10717,18 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "s2",
+      "medienId": "18392586541207330",
+      "veroeffentlicht": "2026-10-13T11:30:19.533Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
