@@ -10744,6 +10744,18 @@
       "thema": null,
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "s7",
+      "medienId": "18025927634872782",
+      "veroeffentlicht": "2026-10-13T12:40:03.442Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
