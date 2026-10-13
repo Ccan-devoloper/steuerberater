@@ -10695,10 +10695,32 @@
       "thema": "gewst-aufb-gewst-ks-05",
       "fach": "gewst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-13",
+      "slot": "b2",
+      "medienId": "18640348159057736",
+      "veroeffentlicht": "2026-10-13T11:30:06.028Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "minifall",
+      "thema": "persg-aufb-persg-melzer-1-3",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 12,
+    "persg": 13,
     "ust": 10,
     "kst": 10,
     "ao": 20,
