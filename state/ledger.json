@@ -10427,22 +10427,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 38,
-        "views": 53,
+        "reach": 45,
+        "views": 59,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 49,
-        "navigation_tap_forward": 35,
-        "navigation_tap_back": 9,
+        "navigation": 55,
+        "navigation_swipe_forward": 3,
         "navigation_tap_exit": 2,
-        "navigation_swipe_forward": 3
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 41
       },
-      "insightsStand": "2026-10-13T05:09:03.512Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-13T08:44:13.948Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-12",
