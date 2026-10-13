@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-13T11:45:07.643Z",
+  "stand": "2026-10-13T12:40:10.531Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -25783,6 +25783,23 @@
           "navigation_tap_back": 4,
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 5
+        },
+        {
+          "stand": "2026-10-13T12:40:04.720Z",
+          "alterStunden": 21.6,
+          "reach": 48,
+          "views": 63,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 55,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 40
         }
       ]
     },
@@ -26085,6 +26102,22 @@
           "navigation": 9,
           "navigation_tap_forward": 6,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-10-13T12:40:04.720Z",
+          "alterStunden": 6.2,
+          "reach": 25,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 21,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -26160,6 +26193,56 @@
           "navigation": 12,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18392586541207330": {
+      "art": "story",
+      "datum": "2026-10-13",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T11:30:19.533Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T12:40:04.720Z",
+          "alterStunden": 1.2,
+          "reach": 8,
+          "views": 10,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 6,
+          "navigation_tap_forward": 6
+        }
+      ]
+    },
+    "18640348159057736": {
+      "art": "beitrag",
+      "datum": "2026-10-13",
+      "titel": "Mini-Fall",
+      "format": "minifall",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-13T11:30:06.028Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-13T12:40:09.496Z",
+          "alterStunden": 1.2,
+          "reach": 22,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -27732,6 +27815,11 @@
     },
     {
       "stand": "2026-10-13T11:45:07.643Z",
+      "follower": 160,
+      "medien": 112
+    },
+    {
+      "stand": "2026-10-13T12:40:10.531Z",
       "follower": 160,
       "medien": 112
     }
