@@ -24,8 +24,9 @@
       "themaTitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
       "fach": "ust",
       "klausur": 1,
-      "status": "sendet",
-      "sendeversuch": "2026-10-14T11:30:00.065Z"
+      "status": "veroeffentlicht",
+      "medienId": "17912130669519114",
+      "veroeffentlicht": "2026-10-14T11:30:04.786Z"
     },
     {
       "slot": "b3",

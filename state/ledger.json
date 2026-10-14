@@ -11098,11 +11098,33 @@
       "thema": "persg-karte-k3-27",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "b2",
+      "medienId": "17912130669519114",
+      "veroeffentlicht": "2026-10-14T11:30:04.786Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "ust-aufb-ust-m-b04-15",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 13,
-    "ust": 10,
+    "ust": 11,
     "kst": 10,
     "ao": 20,
     "bilanz": 20,
