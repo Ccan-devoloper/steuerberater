@@ -44,7 +44,8 @@
       "themaTitel": "Lernplan für die Steuerberaterprüfung 2027",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-14T07:00:00.101Z"
     }
   ],
   "stories": [
