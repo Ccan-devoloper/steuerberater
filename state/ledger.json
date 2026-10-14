@@ -11235,6 +11235,28 @@
       },
       "insightsStand": "2026-10-14T16:44:25.827Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "b3",
+      "medienId": "18117221900099721",
+      "veroeffentlicht": "2026-10-14T17:00:09.192Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "gewst-aufb-gewst-ks-08",
+      "fach": "gewst",
+      "klausur": 2,
+      "titel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -11248,7 +11270,7 @@
     "mindset": 2,
     "est": 3,
     "umwst": 4,
-    "gewst": 2,
+    "gewst": 3,
     "null": 2
   },
   "nachrichten": [],
