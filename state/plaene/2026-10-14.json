@@ -6,7 +6,7 @@
   "beitraege": [
     {
       "slot": "b1",
-      "zeit": "08:30",
+      "zeit": "08:10",
       "format": "fehlerfalle",
       "themaId": "umwst-aufb-umw-2-23",
       "themaTitel": "Was geschieht bei Einbringung eines Betriebs mit negativem Kapital?",
@@ -32,6 +32,16 @@
       "themaTitel": "Zerlegung: Wie wird der Messbetrag auf Gemeinden verteilt?",
       "fach": "gewst",
       "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b4",
+      "zeit": "09:00",
+      "format": "anlass",
+      "themaId": null,
+      "themaTitel": "Lernplan für die Steuerberaterprüfung 2027",
+      "fach": null,
+      "klausur": 0,
       "status": "geplant"
     }
   ],
