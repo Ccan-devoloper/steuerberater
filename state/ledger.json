@@ -11269,6 +11269,18 @@
       "thema": null,
       "fach": "gewst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "s9",
+      "medienId": "17963973171208067",
+      "veroeffentlicht": "2026-10-14T17:12:03.484Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "istr-aufb-istr-gh-3-11",
+      "fach": "istr",
+      "titel": ""
     }
   ],
   "fachZaehler": {
