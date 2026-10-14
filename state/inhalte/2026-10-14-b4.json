@@ -1,0 +1,80 @@
+{
+  "format": "anlass",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Steuerberaterexamen",
+  "themaId": null,
+  "caption": "Steuerberaterprüfung 2027: Dein Lernplan in vier Phasen.\n\nDie Eckdaten: Antrag auf Zulassung bis 30.04.2027 (Ausschlussfrist, Eingang bei der zuständigen Stelle). Die Klausuren: 05.10.2027 Verfahrensrecht und andere Steuerrechtsgebiete, 06.10.2027 Ertragsteuern, 07.10.2027 Buchführung und Bilanzwesen; je höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB).\n\n▸ Okt.–Dez.: Fundament. Stand je Klausurtag ehrlich prüfen, Grundlagen festigen, feste Lernzeiten einplanen.\n▸ Jan.–April: Systematik. Jedes Fach einmal komplett, mit Fällen statt nur Lesen. Antrag bis 30.04. stellen.\n▸ Mai–Juli: Klausuren. Mindestens eine pro Woche unter echten Bedingungen, Fehlerprotokoll führen.\n▸ Aug.–Sept.: Endspurt. Zwei bis drei Klausuren pro Woche, Dauerbrenner wiederholen, letzte Woche Kraft sammeln.\n\nTermine und Fristen können je Kammer abweichen: verbindlich ist, was deine zuständige Stelle veröffentlicht.\n\nSchick das deiner Lerngruppe und speichere den Plan 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#lernplan",
+    "#examensvorbereitung",
+    "#stbexamen2027"
+  ],
+  "quellen": [
+    "§ 18 Abs. 1 S. 3 DVStB",
+    "§ 37 Abs. 2, 3 StBerG",
+    "Termine 2027: Steuerberaterkammern (z. B. NRW, Hessen)"
+  ],
+  "slug": "2026-10-14-b4",
+  "kurztitel": "Lernplan für die Steuerberaterprüfung 2027",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Lernplan 2027",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Lernplan 2027",
+      "text": "Lernplan 2027 · Examen 2027: · Dein Zeitplan · 51 Wochen · + Plan zum Speichern · Oktober · 5 · Klausur 1",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Die Eckdaten 2027 · 30.04. · Antrag auf Zulassung · 05.10. · Verfahrensrecht u. a. · 06.10. · Ertragsteuern · 07.10. · Buchführung, Bilanz · je höchstens 6 Std.: § 18 Abs. 1 S. 3 DVStB · Rückwärts planen!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "4 Phasen bis Oktober · Okt.–Dez.: Fundament · Lücken finden, Grundlagen festigen. · Jan.–April: Systematik · Jedes Fach einmal komplett. · Mai–Juli: Klausuren · Wöchentlich unter Zeit schreiben. · Aug.–Sept.: Endspurt · Klausurenkurs und Wiederholung. · Details auf den nächsten Folien"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Okt.–Dez.: Fundament · Ehrlich prüfen: Wo stehst du in jedem der drei Klausurtage? · Buchungssätze, Bilanzaufbau und ESt-Schema sitzen fest. · Lernzeiten in den Kalender: feste Abende, festes Wochenende. · Basis vor Tempo."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Jan.–April: Systematik · Blöcke je Fach: Bilanz und PersG, ESt, KSt, GewSt, AO, USt, ErbSt. · Jede Woche ein Thema abschließen, mit Fällen statt nur Lesen. · Bis 30.04.: Antrag auf Zulassung stellen. · Frist im Blick!"
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Mai–Juli: Klausuren · Mindestens eine Klausur pro Woche, volle Zeit, nur erlaubte Hilfsmittel. · Fehler in ein Protokoll: Thema, Fehlerart, Norm. · Das Protokoll bestimmt, was du wiederholst. · Schreiben, nicht lesen."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Aug.–Sept.: Endspurt · Zwei bis drei Klausuren pro Woche, im Wechsel der drei Tage. · Dauerbrenner wiederholen statt neuer Randthemen. · Letzte Woche: leicht wiederholen, schlafen, Anfahrt klären. · Kraft einteilen."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Deine Lernwoche · Werktags · 2 bis 3 Abende je 2 Std. · Ein Thema, dazu Fälle · Kurz wiederholen · Wochenende · Ab Mai: eine Klausur unter Zeit · Korrektur mit Protokoll · Ein Tag frei · Pausen gehören dazu."
+    },
+    {
+      "art": "text",
+      "titel": "Steuerberaterexamen",
+      "text": "Antrag bis 30.04.2027 · Klausuren am 5., 6. und 7. Oktober 2027 · Erst Fundament, · dann Systematik, · dann Klausuren, · zuletzt wiederholen. · Speichern für dein Examen 2027 · Schick das deiner Lerngruppe"
+    }
+  ]
+}
