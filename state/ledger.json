@@ -10953,6 +10953,28 @@
       "thema": "kst-quiz-kst-13",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "b1",
+      "medienId": "18100440167377983",
+      "veroeffentlicht": "2026-10-14T06:10:06.017Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:10",
+      "stunde": 8,
+      "format": "fehlerfalle",
+      "thema": "umwst-aufb-umw-2-23",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Klausurfalle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -10965,7 +10987,7 @@
     "erbst": 6,
     "mindset": 2,
     "est": 3,
-    "umwst": 3,
+    "umwst": 4,
     "gewst": 2,
     "null": 2
   },
