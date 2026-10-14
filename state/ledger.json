@@ -10739,7 +10739,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 58,
+        "reach": 59,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -10748,8 +10748,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-14T06:10:19.756Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-14T09:45:05.490Z",
+      "insightsAlterStunden": 22.2
     },
     {
       "datum": "2026-10-13",
@@ -10860,19 +10860,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 140,
+        "reach": 142,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 178,
-        "ig_reels_avg_watch_time": 5091,
-        "ig_reels_video_view_total_time": 723039,
-        "reels_skip_rate": 73.6
+        "views": 181,
+        "ig_reels_avg_watch_time": 5287,
+        "ig_reels_video_view_total_time": 761430,
+        "reels_skip_rate": 73.2
       },
-      "insightsStand": "2026-10-14T06:10:19.756Z",
-      "insightsAlterStunden": 13.2
+      "insightsStand": "2026-10-14T09:45:05.490Z",
+      "insightsAlterStunden": 16.7
     },
     {
       "datum": "2026-10-13",
@@ -11074,17 +11074,17 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 17,
-        "saved": 3,
+        "reach": 57,
+        "saved": 5,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 8,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-14T07:45:20.245Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-14T09:45:05.490Z",
+      "insightsAlterStunden": 2.8
     }
   ],
   "fachZaehler": {
