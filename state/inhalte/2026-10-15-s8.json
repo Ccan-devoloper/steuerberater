@@ -1,0 +1,26 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-17-03",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Klausurtipp",
+    "§ 17: die 1 %",
+    "richtig messen",
+    "Höchste Quote der letzten fünf Jahre zählt.",
+    "§ 17 Abs. 1 S. 1 EStG",
+    "Mittelbare Beteiligungen rechnen mit.",
+    "Eigene Anteile der GmbH vom Nennkapital abziehen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

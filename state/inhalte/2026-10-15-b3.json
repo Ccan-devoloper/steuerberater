@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-25",
+  "caption": "Einbringung nach § 20 UmwStG: Wie viel Geld darf neben den neuen Anteilen fließen? 💶\n\n▸ Buchwertansatz bleibt möglich, soweit der gemeine Wert sonstiger Gegenleistungen nicht mehr beträgt als 25 % des Buchwerts des eingebrachten Betriebsvermögens oder 500.000 €, höchstens jedoch den Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Maßgeblich ist der höhere Betrag.\n▸ Beispiel: Buchwert 400.000 €, Darlehensforderung 150.000 €. Grenze: höher aus 100.000 € und 500.000 €, gedeckelt auf 400.000 € → unschädlich.\n▸ Die Anschaffungskosten der neuen Anteile mindern sich um den gemeinen Wert der anderen Wirtschaftsgüter (§ 20 Abs. 3 S. 3 UmwStG): 400.000 € − 150.000 € = 250.000 €.\n▸ Übersteigt die Gegenleistung die Grenze, werden stille Reserven anteilig aufgedeckt.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 20 Abs. 2 S. 2 Nr. 4 UmwStG",
+    "§ 20 Abs. 3 S. 1, 3 UmwStG"
+  ],
+  "slug": "2026-10-15-b3",
+  "kurztitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "quizfrage",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Neben Anteilen kein Geld?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Quizfrage"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Grenze"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Preis"
+    }
+  ],
+  "sprecher": [
+    "Einbringung in die GmbH: Neben neuen Anteilen gibt es kein Geld? Falsch. Ein Teil ist erlaubt.",
+    "Quizfrage: Buchwert vierhunderttausend, dazu ein Darlehen über hundertfünfzigtausend. Bleibt es beim Buchwert?",
+    "Ja. Grenze ist das Höhere aus einem Viertel des Buchwerts und fünfhunderttausend Euro, gedeckelt auf den Buchwert. Hier vierhunderttausend.",
+    "Aber: Die Anschaffungskosten der neuen Anteile sinken um das Darlehen auf zweihundertfünfzigtausend.",
+    "Merke: Geld daneben geht, kostet aber Anschaffungskosten."
+  ],
+  "dauerS": 40.26,
+  "tempo": 1
+}

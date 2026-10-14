@@ -1,0 +1,27 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-32",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "Rückbezug bei",
+    "Einzelübertragung?",
+    "Höchstens 8 Monate",
+    "vor Vertrag und",
+    "Übergang des",
+    "wirtschaftlichen Eigentums.",
+    "§ 20 Abs. 6 S. 3 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

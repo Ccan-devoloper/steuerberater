@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-20",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Verschonung",
+    "verspielt?",
+    "§ 13a Abs. 6 ErbStG",
+    "Betrieb oder wesentliche Grundlage binnen 5 Jahren verkauft",
+    "§ 13a Abs. 6 S. 1 Nr. 1 ErbStG",
+    "Entnahmen über Einlagen plus Gewinne: mehr als 150.000 €",
+    "§ 13a Abs. 6 S. 1 Nr. 3 ErbStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

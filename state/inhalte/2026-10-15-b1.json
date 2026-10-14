@@ -1,0 +1,63 @@
+{
+  "format": "spickzettel",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-19",
+  "caption": "Lohnsummenregelung bei der Verschonung von Betriebsvermögen – der Spickzettel für Klausur 1.\n\n▸ Regelverschonung: 85 % des begünstigten Vermögens bleiben steuerfrei (§ 13a Abs. 1 ErbStG), wenn die Lohnsummen der fünf Jahre nach dem Erwerb zusammen 400 % der Ausgangslohnsumme nicht unterschreiten (§ 13a Abs. 3 S. 1 ErbStG).\n▸ Ausgangslohnsumme: Durchschnitt der letzten fünf vor der Steuerentstehung endenden Wirtschaftsjahre (§ 13a Abs. 3 S. 2 ErbStG).\n▸ Keine Lohnsummenprüfung bei höchstens fünf Beschäftigten; mehr als fünf bis zehn: 250 %, mehr als zehn bis 15: 300 % (§ 13a Abs. 3 S. 3, 4 ErbStG).\n▸ Unterschreitung: Der Abschlag sinkt rückwirkend im selben prozentualen Umfang (§ 13a Abs. 3 S. 5 ErbStG). Beispiel: 10 % unter der Mindestlohnsumme → 85 % × 90 % = 76,5 %.\n▸ Vergütungen an Auszubildende bleiben außer Ansatz (§ 13a Abs. 3 S. 7 Nr. 2 ErbStG).\n\nZum Schluss: § 13a Abs. 3 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§ 13a Abs. 1 ErbStG",
+    "§ 13a Abs. 3 S. 1–5, 7 ErbStG"
+  ],
+  "slug": "2026-10-15-b1",
+  "kurztitel": "Lohnsummenregelung: Wie Arbeitsplätze die Verschonung sichern",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Lohnsumme · verfehlt? · § 13a Abs. 3 ErbStG · auf einer Karte · + Markier-Guide § 13a ErbStG · Mindestlohnsumme · 400 % · in 5 Jahren",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Die Karte · Ausgangslohnsumme · § 13a Abs. 3 S. 2 ErbStG · Schnitt der letzten 5 Jahre · Mindestlohnsumme · § 13a Abs. 3 S. 1 ErbStG · 400 % in 5 Jahren · Kleine Betriebe · § 13a Abs. 3 S. 3, 4 ErbStG · bis 5 frei, bis 15: 250/300 % · Unterschritten · § 13a Abs. 3 S. 5 ErbStG · Abschlag sinkt im gleichen Verhältnis · Am Ende: § 13a ErbStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Beispiel: 20 Beschäftigte · § 13a Abs. 1, 3 S. 1, 5 ErbStG · Ausgangslohnsumme · 1.000.000 € · Mindestlohnsumme 400 % · 4.000.000 € · Lohnsummen der 5 Jahre · 3.600.000 € · Unterschreitung · 10 % · Abschlag: 85 % × 90 % · 76,5 %"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Prozentpunkte? Nein · Nicht 85 % minus 10 Punkte = 75 %. · Richtig: 85 % um 10 % kürzen = 76,5 %, rückwirkend. · § 13a Abs. 3 S. 5 ErbStG · Löhne an Auszubildende zählen nicht mit. · § 13a Abs. 3 S. 7 Nr. 2 ErbStG · Kleiner Unterschied, große Wirkung!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Beispiel: 10 % unter der Mindestlohnsumme · Verschonungsabschlag 76,5 % statt 85 % · 400 % in fünf Jahren, · sonst sinkt der · Abschlag im selben · Verhältnis. · Speichern für Klausur 1 · Und bei 8 Beschäftigten? · Weiterwischen: § 13a ErbStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "§ 13a Abs. 3 ErbStG (Auszug) · 5 Jahre · 400 % · rückwirkend · Verhältnis, nicht Punkte · Kleine Betriebe: § 13a Abs. 3 S. 3, 4 ErbStG · bis 5 Beschäftigte frei, sonst 250 % oder 300 %"
+    }
+  ]
+}

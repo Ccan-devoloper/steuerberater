@@ -1,0 +1,84 @@
+{
+  "format": "schema",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-schema-0",
+  "caption": "KSt-Grundschema: vom Jahresüberschuss zum zu versteuernden Einkommen in 5 Schritten.\n\n1. Unbeschränkte Steuerpflicht und Ermittlungszeitraum (§ 1 Abs. 1 Nr. 1, § 7 Abs. 3 KStG).\n2. Ausgangsgröße: Gewinn nach EStG-Regeln (§ 8 Abs. 1 KStG).\n3. Hinzurechnen: verdeckte Gewinnausschüttungen (§ 8 Abs. 3 S. 2 KStG), Steuern vom Einkommen (§ 10 Nr. 2 KStG), Gewerbesteuer (§ 4 Abs. 5b EStG).\n4. Abziehen: verdeckte Einlagen (§ 8 Abs. 3 S. 3 KStG), Dividenden (§ 8b Abs. 1 KStG); 5 % gelten als nicht abziehbare Ausgaben (§ 8b Abs. 5 S. 1 KStG). Streubesitz unter 10 %: § 8b Abs. 4 KStG.\n5. Spenden (§ 9 Abs. 1 Nr. 2 KStG), Verlustabzug, Steuersatz: 15 % bis VZ 2027, danach jährlich ein Punkt weniger bis 10 % ab VZ 2032 (§ 23 Abs. 1 KStG).\n\nBeispiel: 100.000 € + 27.000 € + 6.000 € − 10.000 € + 500 € = 123.500 € zvE, KSt 18.525 €.\n\nZum Schluss: § 8b Abs. 1 und 5 KStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1 Nr. 1 KStG",
+    "§ 7 Abs. 3 KStG",
+    "§ 8 Abs. 1, 3 KStG",
+    "§ 8b Abs. 1, 4, 5 KStG",
+    "§ 9 Abs. 1 Nr. 2 KStG",
+    "§ 10 Nr. 2 KStG",
+    "§ 23 Abs. 1 KStG",
+    "§ 4 Abs. 5b EStG"
+  ],
+  "slug": "2026-10-15-b2",
+  "kurztitel": "KSt-Grundschema: Steuerpflicht bis zvE",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Vom Überschuss · zum zvE · §§ 7, 8 KStG · in 5 Schritten · + Markier-Guide § 8b KStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Das Schema · Steuerpflicht und Zeitraum · § 1 Abs. 1 Nr. 1, § 7 Abs. 3 KStG · Start: Steuerbilanzgewinn · § 8 Abs. 1 KStG · Hinzurechnen · § 8 Abs. 3 S. 2, § 10 KStG · Abziehen · § 8 Abs. 3 S. 3, § 8b KStG · Spenden, Verluste, Steuersatz · § 9, § 23 Abs. 1 KStG · Am Ende: § 8b KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Beispiel · Die Lindwurm GmbH, Geschäftsführerin Amira, hat 100.000 € Jahresüberschuss. · Darin als Aufwand: 15.000 € KSt, 12.000 € GewSt, 6.000 € überhöhtes Gehalt an den Gesellschafter. · Als Ertrag: 10.000 € Dividende aus 20 % Beteiligung. · Was versteuern wir?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Jetzt du · Was rechnest du hinzu, was ziehst du ab? · Wie hoch ist das zu versteuernde Einkommen? · Lösung: weiterwischen · Zettel raus!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung · § 10 Nr. 2, § 8 Abs. 3 S. 2, § 8b Abs. 1, 5 KStG · Jahresüberschuss · 100.000 € · + KSt und GewSt · 27.000 € · + vGA (Gehalt) · 6.000 € · − Dividende · 10.000 € · + 5 % nicht abziehbar · 500 € · zvE · 123.500 € · KSt 15 % · 18.525 €"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Dividende: nur 95 % frei · Die Dividende bleibt außer Ansatz … · § 8b Abs. 1 S. 1 KStG · … aber 5 % gelten als nicht abziehbare Ausgaben. · § 8b Abs. 5 S. 1 KStG · Die Gewerbesteuer ist keine Betriebsausgabe. · § 4 Abs. 5b EStG · Die 500 € fehlen oft!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Prüfung 2027: noch 15 % · Der KSt-Satz bleibt bis VZ 2027 bei 15 %. · § 23 Abs. 1 Nr. 1 KStG · Danach sinkt er jährlich um einen Punkt: 2028 14 %, ab 2032 10 %. · § 23 Abs. 1 Nr. 2–6 KStG · Auf den Veranlagungszeitraum im Sachverhalt achten. · Jahr prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung: zvE 123.500 €, KSt 18.525 € · Dividende frei, aber 500 € zurück · Start beim Gewinn, · Steuern und vGA dazu, · Dividende raus, · 5 % wieder rein. · Speichern für Klausur 2 · Wo vergisst du am häufigsten etwas? · Weiterwischen: § 8b KStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 8b KStG (Auszug) · steuerfrei · 5 % zurück · echte Kosten bleiben abziehbar · Achtung Streubesitz: § 8b Abs. 4 KStG · Unter 10 % Beteiligung keine Freistellung"
+    }
+  ]
+}
