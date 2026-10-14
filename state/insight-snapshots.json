@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-14T06:44:46.820Z",
+  "stand": "2026-10-14T07:00:06.585Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -27329,6 +27329,30 @@
           "reels_skip_rate": 73.6
         }
       ]
+    },
+    "18100440167377983": {
+      "art": "beitrag",
+      "datum": "2026-10-14",
+      "titel": "Klausurfalle",
+      "format": "fehlerfalle",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-14T06:10:06.017Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-14T07:00:06.095Z",
+          "alterStunden": 0.8,
+          "reach": 11,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -28956,6 +28980,11 @@
       "stand": "2026-10-14T06:10:23.834Z",
       "follower": 168,
       "medien": 114
+    },
+    {
+      "stand": "2026-10-14T07:00:06.585Z",
+      "follower": 169,
+      "medien": 115
     }
   ]
 }

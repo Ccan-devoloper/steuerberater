@@ -10975,7 +10975,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 11,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-14T07:00:06.095Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-10-14",
