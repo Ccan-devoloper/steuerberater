@@ -11206,6 +11206,18 @@
       },
       "insightsStand": "2026-10-14T13:44:33.448Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "s8",
+      "medienId": "18133367044662861",
+      "veroeffentlicht": "2026-10-14T15:04:03.865Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-karte-ust-11",
+      "fach": "ust",
+      "titel": ""
     }
   ],
   "fachZaehler": {
