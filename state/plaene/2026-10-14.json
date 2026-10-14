@@ -44,8 +44,9 @@
       "themaTitel": "Lernplan für die Steuerberaterprüfung 2027",
       "fach": null,
       "klausur": 0,
-      "status": "sendet",
-      "sendeversuch": "2026-10-14T07:00:00.101Z"
+      "status": "veroeffentlicht",
+      "medienId": "17925506616200849",
+      "veroeffentlicht": "2026-10-14T07:00:04.957Z"
     }
   ],
   "stories": [

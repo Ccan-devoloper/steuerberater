@@ -10988,6 +10988,29 @@
       "thema": null,
       "fach": "umwst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "b4",
+      "medienId": "17925506616200849",
+      "veroeffentlicht": "2026-10-14T07:00:04.957Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "09:00",
+      "stunde": 9,
+      "format": "anlass",
+      "thema": null,
+      "fach": null,
+      "klausur": 0,
+      "titel": "Lernplan 2027",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#lernplan",
+        "#examensvorbereitung",
+        "#stbexamen2027"
+      ]
     }
   ],
   "fachZaehler": {
