@@ -9403,19 +9403,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 174,
+        "reach": 179,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
-        "views": 222,
-        "ig_reels_avg_watch_time": 5081,
-        "ig_reels_video_view_total_time": 909674,
-        "reels_skip_rate": 77.3
+        "views": 226,
+        "ig_reels_avg_watch_time": 5002,
+        "ig_reels_video_view_total_time": 915487,
+        "reels_skip_rate": 77.8
       },
-      "insightsStand": "2026-10-13T13:44:52.268Z",
-      "insightsAlterStunden": 92.7
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 117.8
     },
     {
       "datum": "2026-10-09",
@@ -9767,19 +9767,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 177,
+        "reach": 180,
         "saved": 2,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 5,
-        "views": 224,
-        "ig_reels_avg_watch_time": 5275,
-        "ig_reels_video_view_total_time": 965480,
+        "views": 228,
+        "ig_reels_avg_watch_time": 5315,
+        "ig_reels_video_view_total_time": 988678,
         "reels_skip_rate": 68.9
       },
-      "insightsStand": "2026-10-13T14:44:48.562Z",
-      "insightsAlterStunden": 69.7
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 93.8
     },
     {
       "datum": "2026-10-10",
@@ -10374,7 +10374,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 63,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -10383,8 +10383,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-14T06:10:19.756Z",
-      "insightsAlterStunden": 42.7
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 51.3
     },
     {
       "datum": "2026-10-12",
@@ -10495,19 +10495,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 171,
+        "reach": 174,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 229,
-        "ig_reels_avg_watch_time": 6950,
-        "ig_reels_video_view_total_time": 1237102,
-        "reels_skip_rate": 77
+        "views": 231,
+        "ig_reels_avg_watch_time": 6896,
+        "ig_reels_video_view_total_time": 1241370,
+        "reels_skip_rate": 77.3
       },
-      "insightsStand": "2026-10-14T06:10:19.756Z",
-      "insightsAlterStunden": 37.2
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 45.8
     },
     {
       "datum": "2026-10-12",
@@ -10647,17 +10647,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 54,
+        "reach": 59,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
-        "follows": 1,
-        "profile_visits": 0
+        "follows": 2,
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-14T06:10:19.756Z",
-      "insightsAlterStunden": 23.7
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 32.3
     },
     {
       "datum": "2026-10-13",
@@ -10821,22 +10821,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 64,
-        "views": 94,
+        "reach": 68,
+        "views": 100,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 83,
+        "navigation": 88,
         "navigation_tap_back": 12,
-        "navigation_tap_forward": 60,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 6
+        "navigation_tap_forward": 62,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-14T12:40:04.476Z",
-      "insightsAlterStunden": 21.6
+      "insightsStand": "2026-10-14T14:45:15.489Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-13",
@@ -11076,17 +11076,17 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 78,
-        "saved": 6,
+        "reach": 130,
+        "saved": 9,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 9,
+        "total_interactions": 13,
         "follows": 0,
-        "profile_visits": 2
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-14T11:30:18.274Z",
-      "insightsAlterStunden": 4.5
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 7.8
     },
     {
       "datum": "2026-10-14",
@@ -11139,7 +11139,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 37,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -11148,8 +11148,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-14T12:40:11.725Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-14T14:45:17.572Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-14",
