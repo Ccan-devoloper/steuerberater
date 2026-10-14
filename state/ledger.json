@@ -11257,6 +11257,18 @@
         "#examensvorbereitung",
         "#gewerbesteuer"
       ]
+    },
+    {
+      "datum": "2026-10-14",
+      "slot": "s3",
+      "medienId": "18101458826414748",
+      "veroeffentlicht": "2026-10-14T17:00:23.111Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "gewst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
