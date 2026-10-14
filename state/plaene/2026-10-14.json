@@ -24,7 +24,8 @@
       "themaTitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
       "fach": "ust",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-14T11:30:00.065Z"
     },
     {
       "slot": "b3",
