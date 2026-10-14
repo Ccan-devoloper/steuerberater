@@ -956,6 +956,304 @@
     "§ 29 Abs. 1 Nr. 1, Abs. 3 GewStG",
     "§ 31 Abs. 5 GewStG"
    ]
+  },
+  {
+   "slot": "b4",
+   "zeit": "21:00",
+   "format": "anlass",
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Steuerberaterexamen",
+   "themaId": null,
+   "themaTitel": "Lernplan für die Steuerberaterprüfung 2027",
+   "figuren": {
+    "A": {
+     "name": "Malik",
+     "kopf": "Short 2",
+     "haut": "#B07A52",
+     "haar": "#1E1A17",
+     "oberteil": "#7FC8A9",
+     "bueste": "Hoodie"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Lernplan 2027",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Examen 2027:",
+      "Dein Zeitplan"
+     ],
+     "unter": "51 Wochen",
+     "teaser": "+ Plan zum Speichern",
+     "motiv": {
+      "typ": "kalender",
+      "monat": "Oktober",
+      "tag": "5",
+      "unter": "Klausur 1"
+     },
+     "figur": "A:froh"
+    },
+    {
+     "typ": "zeitstrahl",
+     "titel": "Die Eckdaten 2027",
+     "zeilen": [
+      [
+       "30.04.",
+       "Antrag auf Zulassung",
+       "GELB",
+       null
+      ],
+      [
+       "05.10.",
+       "Verfahrensrecht u. a.",
+       "WEISS",
+       null
+      ],
+      [
+       "06.10.",
+       "Ertragsteuern",
+       "WEISS",
+       null
+      ],
+      [
+       "07.10.",
+       "Buchführung, Bilanz",
+       "WEISS",
+       "je höchstens 6 Std.: § 18 Abs. 1 S. 3 DVStB"
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Rückwärts planen!"
+    },
+    {
+     "typ": "schritte",
+     "titel": "4 Phasen bis Oktober",
+     "schritte": [
+      [
+       "Okt.–Dez.: Fundament",
+       null,
+       "Lücken finden, Grundlagen festigen."
+      ],
+      [
+       "Jan.–April: Systematik",
+       null,
+       "Jedes Fach einmal komplett."
+      ],
+      [
+       "Mai–Juli: Klausuren",
+       null,
+       "Wöchentlich unter Zeit schreiben."
+      ],
+      [
+       "Aug.–Sept.: Endspurt",
+       null,
+       "Klausurenkurs und Wiederholung."
+      ]
+     ],
+     "teaser": "Details auf den nächsten Folien"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Okt.–Dez.: Fundament",
+     "punkte": [
+      [
+       "Ehrlich prüfen: Wo stehst du in jedem der drei Klausurtage?",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Buchungssätze, Bilanzaufbau und ESt-Schema sitzen fest.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Lernzeiten in den Kalender: feste Abende, festes Wochenende.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:erklaert",
+     "x": 790,
+     "blase": "Basis vor Tempo."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Jan.–April: Systematik",
+     "punkte": [
+      [
+       "Blöcke je Fach: Bilanz und PersG, ESt, KSt, GewSt, AO, USt, ErbSt.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Jede Woche ein Thema abschließen, mit Fällen statt nur Lesen.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Bis 30.04.: Antrag auf Zulassung stellen.",
+       "warn",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "A:redet",
+     "x": 290,
+     "blase": "Frist im Blick!"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Mai–Juli: Klausuren",
+     "punkte": [
+      [
+       "Mindestens eine Klausur pro Woche, volle Zeit, nur erlaubte Hilfsmittel.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Fehler in ein Protokoll: Thema, Fehlerart, Norm.",
+       "ok",
+       "Regular",
+       null
+      ],
+      [
+       "Das Protokoll bestimmt, was du wiederholst.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:ernst",
+     "x": 790,
+     "blase": "Schreiben, nicht lesen."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Aug.–Sept.: Endspurt",
+     "punkte": [
+      [
+       "Zwei bis drei Klausuren pro Woche, im Wechsel der drei Tage.",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Dauerbrenner wiederholen statt neuer Randthemen.",
+       "warn",
+       "Regular",
+       null
+      ],
+      [
+       "Letzte Woche: leicht wiederholen, schlafen, Anfahrt klären.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:lacht",
+     "x": 290,
+     "blase": "Kraft einteilen."
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Deine Lernwoche",
+     "links": {
+      "kopf": "Werktags",
+      "farbe": "GELB",
+      "punkte": [
+       "2 bis 3 Abende je 2 Std.",
+       "Ein Thema, dazu Fälle",
+       "Kurz wiederholen"
+      ]
+     },
+     "rechts": {
+      "kopf": "Wochenende",
+      "farbe": "WEISS",
+      "punkte": [
+       "Ab Mai: eine Klausur unter Zeit",
+       "Korrektur mit Protokoll",
+       "Ein Tag frei"
+      ]
+     },
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Pausen gehören dazu."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Antrag bis 30.04.2027",
+      "Klausuren am 5., 6. und 7. Oktober 2027",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Erst",
+        "a"
+       ],
+       [
+        " Fundament,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann",
+        "b"
+       ],
+       [
+        " Systematik,",
+        null
+       ]
+      ],
+      [
+       [
+        "dann",
+        "c"
+       ],
+       [
+        " Klausuren,",
+        null
+       ]
+      ],
+      [
+       [
+        "zuletzt",
+        "d"
+       ],
+       [
+        " wiederholen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für dein Examen 2027",
+     "frage": "Schick das deiner Lerngruppe"
+    }
+   ],
+   "caption": "Steuerberaterprüfung 2027: Dein Lernplan in vier Phasen.\n\nDie Eckdaten: Antrag auf Zulassung bis 30.04.2027 (Ausschlussfrist, Eingang bei der zuständigen Stelle). Die Klausuren: 05.10.2027 Verfahrensrecht und andere Steuerrechtsgebiete, 06.10.2027 Ertragsteuern, 07.10.2027 Buchführung und Bilanzwesen; je höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB).\n\n▸ Okt.–Dez.: Fundament. Stand je Klausurtag ehrlich prüfen, Grundlagen festigen, feste Lernzeiten einplanen.\n▸ Jan.–April: Systematik. Jedes Fach einmal komplett, mit Fällen statt nur Lesen. Antrag bis 30.04. stellen.\n▸ Mai–Juli: Klausuren. Mindestens eine pro Woche unter echten Bedingungen, Fehlerprotokoll führen.\n▸ Aug.–Sept.: Endspurt. Zwei bis drei Klausuren pro Woche, Dauerbrenner wiederholen, letzte Woche Kraft sammeln.\n\nTermine und Fristen können je Kammer abweichen: verbindlich ist, was deine zuständige Stelle veröffentlicht.\n\nSchick das deiner Lerngruppe und speichere den Plan 📌",
+   "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#lernplan",
+    "#examensvorbereitung",
+    "#stbexamen2027"
+   ],
+   "quellen": [
+    "§ 18 Abs. 1 S. 3 DVStB",
+    "§ 37 Abs. 2, 3 StBerG",
+    "Termine 2027: Steuerberaterkammern (z. B. NRW, Hessen)"
+   ]
   }
  ],
  "stories": [
