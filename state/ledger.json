@@ -8820,19 +8820,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 245,
+        "reach": 248,
         "saved": 0,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 2,
-        "views": 302,
-        "ig_reels_avg_watch_time": 6842,
-        "ig_reels_video_view_total_time": 1738069,
-        "reels_skip_rate": 81
+        "views": 305,
+        "ig_reels_avg_watch_time": 6900,
+        "ig_reels_video_view_total_time": 1773505,
+        "reels_skip_rate": 80.3
       },
-      "insightsStand": "2026-10-13T15:04:08.386Z",
-      "insightsAlterStunden": 141.6
+      "insightsStand": "2026-10-14T15:30:06.558Z",
+      "insightsAlterStunden": 166
     },
     {
       "datum": "2026-10-07",
