@@ -1,0 +1,3029 @@
+{
+ "serie": "lernplan-2027",
+ "beschreibung": "Monatlicher Lernplan bis zur Steuerberaterprüfung 2027 (05.–07.10.2027): am 1. jedes Monats ein Karussell mit Phase, Monatszielen je Klausur, Wochenplan und Selbstcheck. tag.py übernimmt die Einträge in den Tag.",
+ "beitraege": {
+  "2026-11-01": [
+   {
+    "slot": "b4",
+    "zeit": "16:00",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2026-11",
+    "themaTitel": "Lernplan November: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Ilka",
+      "kopf": "Medium Bangs 2",
+      "haut": "#F2CDB4",
+      "haar": "#C98B4B",
+      "oberteil": "#F7C948",
+      "bueste": "Sweater"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan November",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für November"
+      ],
+      "unter": "Noch 48 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "November",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "WEISS",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "WEISS",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 48 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Bekanntgabe und Fristende auf den Tag genau berechnen.",
+        "ok",
+        "Bold",
+        "§ 122 Abs. 2 Nr. 1, § 108 AO"
+       ],
+       [
+        "Einspruch: Frist und Zulässigkeit prüfen.",
+        "ok",
+        "Regular",
+        "§ 355 Abs. 1, § 358 AO"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "ESt-Schema von den Einkünften bis zum zvE aufstellen.",
+        "ok",
+        "Bold",
+        "§ 2 EStG"
+       ],
+       [
+        "Jeden Sachverhalt einer der sieben Einkunftsarten zuordnen.",
+        "ok",
+        "Regular",
+        "§ 2 Abs. 1 S. 1 EStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Buchungssätze und Jahresabschluss ohne Hilfe.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Anschaffungs- und Herstellungskosten abgrenzen.",
+        "ok",
+        "Regular",
+        "§ 255 Abs. 1, 2 HGB"
+       ],
+       [
+        "Lineare AfA zeitanteilig berechnen.",
+        "ok",
+        "Regular",
+        "§ 7 Abs. 1 S. 1, 4 EStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein November in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: Bestandsaufnahme",
+        null,
+        "Je Klausurtag eine alte Klausur sichten."
+       ],
+       [
+        "Woche 2: Bilanz-Basis",
+        null,
+        "Buchen, AK und HK, AfA."
+       ],
+       [
+        "Woche 3: ESt-Schema",
+        null,
+        "Einkunftsarten und Schema."
+       ],
+       [
+        "Woche 4: AO-Fristen",
+        null,
+        "Bekanntgabe, Fristen, Einspruch."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Berechnest du ein Fristende sicher, auch am Wochenende?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Führst du einen Fall bis zum zvE?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Erklärst du den Unterschied von AK und HK?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im November: Grundlagen in allen drei Klausuren",
+       "Noch 48 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Fristen",
+         "a"
+        ],
+        [
+         " rechnen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Schema",
+         "b"
+        ],
+        [
+         " aufstellen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Bilanz",
+         "c"
+        ],
+        [
+         " verstehen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Lücken",
+         "d"
+        ],
+        [
+         " notieren.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im November?"
+     }
+    ],
+    "caption": "Lernplan November: noch 48 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Fundament.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Bekanntgabe und Fristende auf den Tag genau berechnen. (§ 122 Abs. 2 Nr. 1, § 108 AO)\n▸ Einspruch: Frist und Zulässigkeit prüfen. (§ 355 Abs. 1, § 358 AO)\n\nKlausur 2 (Ertragsteuern):\n▸ ESt-Schema von den Einkünften bis zum zvE aufstellen. (§ 2 EStG)\n▸ Jeden Sachverhalt einer der sieben Einkunftsarten zuordnen. (§ 2 Abs. 1 S. 1 EStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Buchungssätze und Jahresabschluss ohne Hilfe.\n▸ Anschaffungs- und Herstellungskosten abgrenzen. (§ 255 Abs. 1, 2 HGB)\n▸ Lineare AfA zeitanteilig berechnen. (§ 7 Abs. 1 S. 1, 4 EStG)\n\nDeine vier Wochen:\nWoche 1: Bestandsaufnahme: Je Klausurtag eine alte Klausur sichten.\nWoche 2: Bilanz-Basis: Buchen, AK und HK, AfA.\nWoche 3: ESt-Schema: Einkunftsarten und Schema.\nWoche 4: AO-Fristen: Bekanntgabe, Fristen, Einspruch.\n\nZum Monatsende ehrlich prüfen:\n▸ Berechnest du ein Fristende sicher, auch am Wochenende?\n▸ Führst du einen Fall bis zum zvE?\n▸ Erklärst du den Unterschied von AK und HK?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 122 Abs. 2 Nr. 1, § 108 AO",
+     "§ 2 Abs. 1 S. 1 EStG",
+     "§ 2 EStG",
+     "§ 255 Abs. 1, 2 HGB",
+     "§ 355 Abs. 1, § 358 AO",
+     "§ 7 Abs. 1 S. 1, 4 EStG"
+    ]
+   }
+  ],
+  "2026-12-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2026-12",
+    "themaTitel": "Lernplan Dezember: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Kofi",
+      "kopf": "Flat Top",
+      "haut": "#6B4226",
+      "haar": "#1E1A17",
+      "oberteil": "#F28C8C",
+      "bueste": "Button Shirt 1"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Dezember",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für Dezember"
+      ],
+      "unter": "Noch 44 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Dezember",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "WEISS",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "WEISS",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 44 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Steuerbarkeit eines Umsatzes in vier Merkmalen prüfen.",
+        "ok",
+        "Bold",
+        "§ 1 Abs. 1 Nr. 1 UStG"
+       ],
+       [
+        "Ort von Lieferung und sonstiger Leistung bestimmen.",
+        "ok",
+        "Regular",
+        "§ 3 Abs. 6, § 3a Abs. 1, 2 UStG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Bestandsvergleich und Einnahmen-Überschuss-Rechnung unterscheiden.",
+        "ok",
+        "Bold",
+        "§ 4 Abs. 1, 3, § 5 Abs. 1 EStG"
+       ],
+       [
+        "Zufluss und Abfluss zeitlich zuordnen.",
+        "ok",
+        "Regular",
+        "§ 11 EStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Rückstellungen dem Grunde und der Höhe nach.",
+        "ok",
+        "Bold",
+        "§ 249 HGB, § 6 Abs. 1 Nr. 3a EStG"
+       ],
+       [
+        "Rechnungsabgrenzung sicher bilden.",
+        "ok",
+        "Regular",
+        "§ 5 Abs. 5 S. 1 EStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein Dezember in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: USt-Grundprüfung",
+        null,
+        "Steuerbarkeit und Ort."
+       ],
+       [
+        "Woche 2: Gewinnermittlung",
+        null,
+        "§ 4 und § 5 EStG, § 11 EStG."
+       ],
+       [
+        "Woche 3: Rückstellungen",
+        null,
+        "Dazu Rechnungsabgrenzung."
+       ],
+       [
+        "Woche 4: Feiertage",
+        null,
+        "Leicht wiederholen, bewusst Pause."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Prüfst du jeden Umsatz in derselben Reihenfolge?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Begründest du eine Rückstellung mit Norm?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Kennst du die Ausnahme bei regelmäßig wiederkehrenden Zahlungen?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im Dezember: Gewinnermittlung, USt-Basis, Rückstellungen",
+       "Noch 44 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Umsatz",
+         "a"
+        ],
+        [
+         " prüfen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Gewinn",
+         "b"
+        ],
+        [
+         " ermitteln,",
+         null
+        ]
+       ],
+       [
+        [
+         "Rückstellung",
+         "c"
+        ],
+        [
+         " begründen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Pause",
+         "d"
+        ],
+        [
+         " machen.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im Dezember?"
+     }
+    ],
+    "caption": "Lernplan Dezember: noch 44 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Fundament.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Steuerbarkeit eines Umsatzes in vier Merkmalen prüfen. (§ 1 Abs. 1 Nr. 1 UStG)\n▸ Ort von Lieferung und sonstiger Leistung bestimmen. (§ 3 Abs. 6, § 3a Abs. 1, 2 UStG)\n\nKlausur 2 (Ertragsteuern):\n▸ Bestandsvergleich und Einnahmen-Überschuss-Rechnung unterscheiden. (§ 4 Abs. 1, 3, § 5 Abs. 1 EStG)\n▸ Zufluss und Abfluss zeitlich zuordnen. (§ 11 EStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Rückstellungen dem Grunde und der Höhe nach. (§ 249 HGB, § 6 Abs. 1 Nr. 3a EStG)\n▸ Rechnungsabgrenzung sicher bilden. (§ 5 Abs. 5 S. 1 EStG)\n\nDeine vier Wochen:\nWoche 1: USt-Grundprüfung: Steuerbarkeit und Ort.\nWoche 2: Gewinnermittlung: § 4 und § 5 EStG, § 11 EStG.\nWoche 3: Rückstellungen: Dazu Rechnungsabgrenzung.\nWoche 4: Feiertage: Leicht wiederholen, bewusst Pause.\n\nZum Monatsende ehrlich prüfen:\n▸ Prüfst du jeden Umsatz in derselben Reihenfolge?\n▸ Begründest du eine Rückstellung mit Norm?\n▸ Kennst du die Ausnahme bei regelmäßig wiederkehrenden Zahlungen?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 1 Abs. 1 Nr. 1 UStG",
+     "§ 11 EStG",
+     "§ 249 HGB, § 6 Abs. 1 Nr. 3a EStG",
+     "§ 3 Abs. 6, § 3a Abs. 1, 2 UStG",
+     "§ 4 Abs. 1, 3, § 5 Abs. 1 EStG",
+     "§ 5 Abs. 5 S. 1 EStG"
+    ]
+   }
+  ],
+  "2027-01-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-01",
+    "themaTitel": "Lernplan Januar: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Rana",
+      "kopf": "Hijab",
+      "haut": "#C68B5E",
+      "hut": "#2F6F5E",
+      "oberteil": "#9FD3C7",
+      "bueste": "Turtleneck"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Januar",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für Januar"
+      ],
+      "unter": "Noch 39 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Januar",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "WEISS",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 39 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Steuerbefreiung und Option zur Steuerpflicht.",
+        "ok",
+        "Bold",
+        "§ 4 Nr. 12 S. 1 Buchst. a, § 9 Abs. 1 UStG"
+       ],
+       [
+        "Vorsteuerabzug und Aufteilung bei gemischter Nutzung.",
+        "ok",
+        "Regular",
+        "§ 15 Abs. 1, 2, 4 UStG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Anteile an Kapitalgesellschaften: Veräußerung ab 1 %.",
+        "ok",
+        "Bold",
+        "§ 17 Abs. 1 S. 1 EStG"
+       ],
+       [
+        "Teileinkünfteverfahren richtig anwenden.",
+        "ok",
+        "Regular",
+        "§ 3 Nr. 40, § 3c Abs. 2 EStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Mitunternehmerschaft und Sonderbetriebsvermögen erkennen.",
+        "ok",
+        "Bold",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+       ],
+       [
+        "Gewinnverteilung mit Sondervergütungen aufstellen.",
+        "ok",
+        "Regular",
+        null
+       ],
+       [
+        "Ergänzungsbilanz beim Anteilskauf.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein Januar in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: Jahresstart",
+        null,
+        "Aktuelle Textausgaben besorgen, Plan prüfen."
+       ],
+       [
+        "Woche 2: PersG I",
+        null,
+        "Mitunternehmer, Sonderbilanz."
+       ],
+       [
+        "Woche 3: PersG II",
+        null,
+        "Ergänzungsbilanz, Gewinnverteilung."
+       ],
+       [
+        "Woche 4: Vorsteuer",
+        null,
+        "Abzug, Aufteilung, Option."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Trennst du Gesamthands- und Sonderbilanz sauber?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Weißt du, wann eine Option nach § 9 UStG zulässig ist?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Rechnest du § 17 EStG mit Teileinkünften?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im Januar: Personengesellschaften und Vorsteuer",
+       "Noch 39 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "PersG",
+         "a"
+        ],
+        [
+         " aufbauen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Vorsteuer",
+         "b"
+        ],
+        [
+         " aufteilen,",
+         null
+        ]
+       ],
+       [
+        [
+         "§ 17",
+         "c"
+        ],
+        [
+         " rechnen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Antrag",
+         "d"
+        ],
+        [
+         " vorbereiten.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im Januar?"
+     }
+    ],
+    "caption": "Lernplan Januar: noch 39 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Systematik.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Steuerbefreiung und Option zur Steuerpflicht. (§ 4 Nr. 12 S. 1 Buchst. a, § 9 Abs. 1 UStG)\n▸ Vorsteuerabzug und Aufteilung bei gemischter Nutzung. (§ 15 Abs. 1, 2, 4 UStG)\n\nKlausur 2 (Ertragsteuern):\n▸ Anteile an Kapitalgesellschaften: Veräußerung ab 1 %. (§ 17 Abs. 1 S. 1 EStG)\n▸ Teileinkünfteverfahren richtig anwenden. (§ 3 Nr. 40, § 3c Abs. 2 EStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Mitunternehmerschaft und Sonderbetriebsvermögen erkennen. (§ 15 Abs. 1 S. 1 Nr. 2 EStG)\n▸ Gewinnverteilung mit Sondervergütungen aufstellen.\n▸ Ergänzungsbilanz beim Anteilskauf.\n\nDeine vier Wochen:\nWoche 1: Jahresstart: Aktuelle Textausgaben besorgen, Plan prüfen.\nWoche 2: PersG I: Mitunternehmer, Sonderbilanz.\nWoche 3: PersG II: Ergänzungsbilanz, Gewinnverteilung.\nWoche 4: Vorsteuer: Abzug, Aufteilung, Option.\n\nZum Monatsende ehrlich prüfen:\n▸ Trennst du Gesamthands- und Sonderbilanz sauber?\n▸ Weißt du, wann eine Option nach § 9 UStG zulässig ist?\n▸ Rechnest du § 17 EStG mit Teileinkünften?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+     "§ 15 Abs. 1, 2, 4 UStG",
+     "§ 17 Abs. 1 S. 1 EStG",
+     "§ 3 Nr. 40, § 3c Abs. 2 EStG",
+     "§ 4 Nr. 12 S. 1 Buchst. a, § 9 Abs. 1 UStG"
+    ]
+   }
+  ],
+  "2027-02-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-02",
+    "themaTitel": "Lernplan Februar: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Oskar",
+      "kopf": "Short 4",
+      "haut": "#F0C8A8",
+      "haar": "#5A3A22",
+      "oberteil": "#8DB3F2",
+      "bueste": "Polo and Sweater",
+      "brille": "Glasses"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Februar",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für Februar"
+      ],
+      "unter": "Noch 35 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Februar",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "WEISS",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 35 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Korrekturvorschriften in fester Reihenfolge prüfen.",
+        "ok",
+        "Bold",
+        "§ 129, § 164 Abs. 2, § 172, § 173 AO"
+       ],
+       [
+        "Festsetzungsfrist: Beginn, Dauer, Hemmung.",
+        "ok",
+        "Regular",
+        "§§ 169 bis 171 AO"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Verdeckte Gewinnausschüttung erkennen und korrigieren.",
+        "ok",
+        "Bold",
+        "§ 8 Abs. 3 S. 2 KStG"
+       ],
+       [
+        "Beteiligungserträge: Freistellung und 5 %.",
+        "ok",
+        "Regular",
+        "§ 8b Abs. 1, 5 KStG"
+       ],
+       [
+        "Betriebsveräußerung und Freibetrag.",
+        "ok",
+        "Regular",
+        "§ 16 Abs. 1, 4 EStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Entnahmen und Einlagen bewerten.",
+        "ok",
+        "Bold",
+        "§ 6 Abs. 1 Nr. 4, 5 EStG"
+       ],
+       [
+        "Überführungen und Übertragungen zum Buchwert.",
+        "ok",
+        "Regular",
+        "§ 6 Abs. 5 EStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein Februar in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: KSt",
+        null,
+        "vGA und § 8b KStG."
+       ],
+       [
+        "Woche 2: AO-Korrektur",
+        null,
+        "§§ 129 bis 177 AO."
+       ],
+       [
+        "Woche 3: Fristen",
+        null,
+        "Festsetzungsverjährung."
+       ],
+       [
+        "Woche 4: § 6 EStG",
+        null,
+        "Entnahme, Einlage, § 6 Abs. 5."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Findest du die passende Korrekturnorm in einer Minute?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Korrigierst du eine vGA innerhalb und außerhalb der Bilanz?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Bewertest du eine Entnahme richtig?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im Februar: Körperschaftsteuer und AO-Korrektur",
+       "Noch 35 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "vGA",
+         "a"
+        ],
+        [
+         " erkennen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Korrektur",
+         "b"
+        ],
+        [
+         " prüfen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Fristen",
+         "c"
+        ],
+        [
+         " rechnen,",
+         null
+        ]
+       ],
+       [
+        [
+         "§ 6",
+         "d"
+        ],
+        [
+         " bewerten.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im Februar?"
+     }
+    ],
+    "caption": "Lernplan Februar: noch 35 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Systematik.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Korrekturvorschriften in fester Reihenfolge prüfen. (§ 129, § 164 Abs. 2, § 172, § 173 AO)\n▸ Festsetzungsfrist: Beginn, Dauer, Hemmung. (§§ 169 bis 171 AO)\n\nKlausur 2 (Ertragsteuern):\n▸ Verdeckte Gewinnausschüttung erkennen und korrigieren. (§ 8 Abs. 3 S. 2 KStG)\n▸ Beteiligungserträge: Freistellung und 5 %. (§ 8b Abs. 1, 5 KStG)\n▸ Betriebsveräußerung und Freibetrag. (§ 16 Abs. 1, 4 EStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Entnahmen und Einlagen bewerten. (§ 6 Abs. 1 Nr. 4, 5 EStG)\n▸ Überführungen und Übertragungen zum Buchwert. (§ 6 Abs. 5 EStG)\n\nDeine vier Wochen:\nWoche 1: KSt: vGA und § 8b KStG.\nWoche 2: AO-Korrektur: §§ 129 bis 177 AO.\nWoche 3: Fristen: Festsetzungsverjährung.\nWoche 4: § 6 EStG: Entnahme, Einlage, § 6 Abs. 5.\n\nZum Monatsende ehrlich prüfen:\n▸ Findest du die passende Korrekturnorm in einer Minute?\n▸ Korrigierst du eine vGA innerhalb und außerhalb der Bilanz?\n▸ Bewertest du eine Entnahme richtig?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 129, § 164 Abs. 2, § 172, § 173 AO",
+     "§ 16 Abs. 1, 4 EStG",
+     "§ 6 Abs. 1 Nr. 4, 5 EStG",
+     "§ 6 Abs. 5 EStG",
+     "§ 8 Abs. 3 S. 2 KStG",
+     "§ 8b Abs. 1, 5 KStG",
+     "§§ 169 bis 171 AO"
+    ]
+   }
+  ],
+  "2027-03-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-03",
+    "themaTitel": "Lernplan März: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Defne",
+      "kopf": "Long Curly",
+      "haut": "#D8A47F",
+      "haar": "#2B1A12",
+      "oberteil": "#F4A3B5",
+      "bueste": "Striped Tee"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan März",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für März"
+      ],
+      "unter": "Noch 31 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "März",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "WEISS",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 31 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "ErbSt-Staffel: Bereicherung, Freibetrag, Steuersatz.",
+        "ok",
+        "Bold",
+        "§ 10, § 16, § 19 ErbStG"
+       ],
+       [
+        "Grundbesitz für die ErbSt bewerten.",
+        "ok",
+        "Regular",
+        "§ 182 BewG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Gewerbeertrag mit Hinzurechnungen und Kürzungen.",
+        "ok",
+        "Bold",
+        "§ 7, § 8 Nr. 1, § 9 Nr. 1 GewStG"
+       ],
+       [
+        "Messbetrag mit Freibetrag und 3,5 %.",
+        "ok",
+        "Regular",
+        "§ 11 Abs. 1, 2 GewStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Einbringung in Kapital- und Personengesellschaft.",
+        "ok",
+        "Bold",
+        "§ 20, § 24 UmwStG"
+       ],
+       [
+        "Verschmelzung von Kapitalgesellschaften.",
+        "ok",
+        "Regular",
+        "§§ 11 bis 13 UmwStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein März in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: Gewerbesteuer",
+        null,
+        "Hinzurechnungen, Kürzungen, Messbetrag."
+       ],
+       [
+        "Woche 2: ErbSt",
+        null,
+        "Staffel bis zur Steuer."
+       ],
+       [
+        "Woche 3: UmwSt",
+        null,
+        "Einbringung und Verschmelzung."
+       ],
+       [
+        "Woche 4: Antrag",
+        null,
+        "Zulassung beantragen, nicht bis April warten."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Rechnest du einen Messbetrag ohne Lösungsskizze?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Stellst du eine ErbSt-Staffel vollständig auf?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Kennst du die Wertansätze nach § 20 Abs. 2 UmwStG?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im März: Gewerbesteuer, ErbSt und UmwSt",
+       "Noch 31 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "GewSt",
+         "a"
+        ],
+        [
+         " rechnen,",
+         null
+        ]
+       ],
+       [
+        [
+         "ErbSt",
+         "b"
+        ],
+        [
+         " staffeln,",
+         null
+        ]
+       ],
+       [
+        [
+         "UmwSt",
+         "c"
+        ],
+        [
+         " einordnen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Antrag",
+         "d"
+        ],
+        [
+         " stellen.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im März?"
+     }
+    ],
+    "caption": "Lernplan März: noch 31 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Systematik.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ ErbSt-Staffel: Bereicherung, Freibetrag, Steuersatz. (§ 10, § 16, § 19 ErbStG)\n▸ Grundbesitz für die ErbSt bewerten. (§ 182 BewG)\n\nKlausur 2 (Ertragsteuern):\n▸ Gewerbeertrag mit Hinzurechnungen und Kürzungen. (§ 7, § 8 Nr. 1, § 9 Nr. 1 GewStG)\n▸ Messbetrag mit Freibetrag und 3,5 %. (§ 11 Abs. 1, 2 GewStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Einbringung in Kapital- und Personengesellschaft. (§ 20, § 24 UmwStG)\n▸ Verschmelzung von Kapitalgesellschaften. (§§ 11 bis 13 UmwStG)\n\nDeine vier Wochen:\nWoche 1: Gewerbesteuer: Hinzurechnungen, Kürzungen, Messbetrag.\nWoche 2: ErbSt: Staffel bis zur Steuer.\nWoche 3: UmwSt: Einbringung und Verschmelzung.\nWoche 4: Antrag: Zulassung beantragen, nicht bis April warten.\n\nZum Monatsende ehrlich prüfen:\n▸ Rechnest du einen Messbetrag ohne Lösungsskizze?\n▸ Stellst du eine ErbSt-Staffel vollständig auf?\n▸ Kennst du die Wertansätze nach § 20 Abs. 2 UmwStG?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 10, § 16, § 19 ErbStG",
+     "§ 11 Abs. 1, 2 GewStG",
+     "§ 182 BewG",
+     "§ 20, § 24 UmwStG",
+     "§ 7, § 8 Nr. 1, § 9 Nr. 1 GewStG",
+     "§§ 11 bis 13 UmwStG"
+    ]
+   }
+  ],
+  "2027-04-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-04",
+    "themaTitel": "Lernplan April: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Lasse",
+      "kopf": "Pomp",
+      "haut": "#F5D6C1",
+      "haar": "#D9B26F",
+      "oberteil": "#7FC8A9",
+      "bueste": "Coffee"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan April",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für April"
+      ],
+      "unter": "Noch 26 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "April",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "WEISS",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 26 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Innergemeinschaftliche Lieferung und Erwerb.",
+        "ok",
+        "Bold",
+        "§ 4 Nr. 1 Buchst. b, § 6a, § 1a UStG"
+       ],
+       [
+        "Steuerschuldnerschaft des Leistungsempfängers.",
+        "ok",
+        "Regular",
+        "§ 13b UStG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Unbeschränkte und beschränkte Steuerpflicht.",
+        "ok",
+        "Bold",
+        "§ 1 Abs. 1, 4, § 49 EStG"
+       ],
+       [
+        "Ausländische Steuer anrechnen.",
+        "ok",
+        "Regular",
+        "§ 34c Abs. 1 EStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Reinvestitionsrücklage bilden und übertragen.",
+        "ok",
+        "Bold",
+        "§ 6b Abs. 1, 3 EStG"
+       ],
+       [
+        "Realteilung einer Personengesellschaft.",
+        "ok",
+        "Regular",
+        "§ 16 Abs. 3 S. 2 EStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein April in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: Frist!",
+        null,
+        "Antrag auf Zulassung bis 30.04."
+       ],
+       [
+        "Woche 2: Binnenmarkt",
+        null,
+        "ig Lieferung, ig Erwerb, § 13b."
+       ],
+       [
+        "Woche 3: International",
+        null,
+        "§ 1, § 49, § 34c EStG."
+       ],
+       [
+        "Woche 4: Erste Klausur",
+        null,
+        "Sechs Stunden, echte Bedingungen."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Ist dein Antrag eingegangen?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Hast du jedes Fach einmal komplett bearbeitet?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Wie lief die erste Klausur unter Zeit?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im April: Systematik abschließen, erste Klausur",
+       "Noch 26 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Antrag",
+         "a"
+        ],
+        [
+         " bis 30.04.,",
+         null
+        ]
+       ],
+       [
+        [
+         "Binnenmarkt",
+         "b"
+        ],
+        [
+         " sicher,",
+         null
+        ]
+       ],
+       [
+        [
+         "§ 6b",
+         "c"
+        ],
+        [
+         " verstehen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Klausur",
+         "d"
+        ],
+        [
+         " schreiben.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im April?"
+     }
+    ],
+    "caption": "Lernplan April: noch 26 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Systematik.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Innergemeinschaftliche Lieferung und Erwerb. (§ 4 Nr. 1 Buchst. b, § 6a, § 1a UStG)\n▸ Steuerschuldnerschaft des Leistungsempfängers. (§ 13b UStG)\n\nKlausur 2 (Ertragsteuern):\n▸ Unbeschränkte und beschränkte Steuerpflicht. (§ 1 Abs. 1, 4, § 49 EStG)\n▸ Ausländische Steuer anrechnen. (§ 34c Abs. 1 EStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Reinvestitionsrücklage bilden und übertragen. (§ 6b Abs. 1, 3 EStG)\n▸ Realteilung einer Personengesellschaft. (§ 16 Abs. 3 S. 2 EStG)\n\nDeine vier Wochen:\nWoche 1: Frist!: Antrag auf Zulassung bis 30.04.\nWoche 2: Binnenmarkt: ig Lieferung, ig Erwerb, § 13b.\nWoche 3: International: § 1, § 49, § 34c EStG.\nWoche 4: Erste Klausur: Sechs Stunden, echte Bedingungen.\n\nZum Monatsende ehrlich prüfen:\n▸ Ist dein Antrag eingegangen?\n▸ Hast du jedes Fach einmal komplett bearbeitet?\n▸ Wie lief die erste Klausur unter Zeit?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 1 Abs. 1, 4, § 49 EStG",
+     "§ 13b UStG",
+     "§ 16 Abs. 3 S. 2 EStG",
+     "§ 34c Abs. 1 EStG",
+     "§ 4 Nr. 1 Buchst. b, § 6a, § 1a UStG",
+     "§ 6b Abs. 1, 3 EStG"
+    ]
+   }
+  ],
+  "2027-05-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-05",
+    "themaTitel": "Lernplan Mai: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Wiebke",
+      "kopf": "Gray Bun",
+      "haut": "#F2CDB4",
+      "oberteil": "#E9E4DA",
+      "bueste": "Shirt and Coat",
+      "brille": "Glasses"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Mai",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für Mai"
+      ],
+      "unter": "Noch 22 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Mai",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GRUEN",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 22 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Eine K1-Klausur unter Zeit: AO und USt getrennt planen.",
+        "ok",
+        "Bold",
+        "§ 18 Abs. 1 S. 3 DVStB"
+       ],
+       [
+        "Zeit je Teil vorab nach Punkten verteilen.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Eine K2-Klausur: Ergebnis je Teil notieren.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Fehler nach ESt, KSt und GewSt sortieren.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Eine K3-Klausur: Buchungssätze und Bilanzposten vollständig.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Folgen für Gewinn und Bilanz immer angeben.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein Mai in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: Klausur 1",
+        null,
+        "Volle Zeit, danach korrigieren."
+       ],
+       [
+        "Woche 2: Klausur 2",
+        null,
+        "Fehler ins Protokoll."
+       ],
+       [
+        "Woche 3: Klausur 3",
+        null,
+        "Darstellung prüfen."
+       ],
+       [
+        "Woche 4: Auswerten",
+        null,
+        "Schwächste Klausur wiederholen."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Bist du jedes Mal in sechs Stunden fertig geworden?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Steht jeder Fehler mit Norm im Protokoll?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Weißt du, welches Fach dich die meisten Punkte kostet?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im Mai: Eine Klausur pro Woche",
+       "Noch 22 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Schreiben,",
+         "a"
+        ]
+       ],
+       [
+        [
+         "korrigieren,",
+         "b"
+        ]
+       ],
+       [
+        [
+         "protokollieren,",
+         "c"
+        ]
+       ],
+       [
+        [
+         "wiederholen.",
+         "d"
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im Mai?"
+     }
+    ],
+    "caption": "Lernplan Mai: noch 22 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Klausuren.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Eine K1-Klausur unter Zeit: AO und USt getrennt planen. (§ 18 Abs. 1 S. 3 DVStB)\n▸ Zeit je Teil vorab nach Punkten verteilen.\n\nKlausur 2 (Ertragsteuern):\n▸ Eine K2-Klausur: Ergebnis je Teil notieren.\n▸ Fehler nach ESt, KSt und GewSt sortieren.\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Eine K3-Klausur: Buchungssätze und Bilanzposten vollständig.\n▸ Folgen für Gewinn und Bilanz immer angeben.\n\nDeine vier Wochen:\nWoche 1: Klausur 1: Volle Zeit, danach korrigieren.\nWoche 2: Klausur 2: Fehler ins Protokoll.\nWoche 3: Klausur 3: Darstellung prüfen.\nWoche 4: Auswerten: Schwächste Klausur wiederholen.\n\nZum Monatsende ehrlich prüfen:\n▸ Bist du jedes Mal in sechs Stunden fertig geworden?\n▸ Steht jeder Fehler mit Norm im Protokoll?\n▸ Weißt du, welches Fach dich die meisten Punkte kostet?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 18 Abs. 1 S. 3 DVStB"
+    ]
+   }
+  ],
+  "2027-06-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-06",
+    "themaTitel": "Lernplan Juni: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Tomás",
+      "kopf": "Short 3",
+      "haut": "#B07A52",
+      "haar": "#2B2B2B",
+      "oberteil": "#F7C948",
+      "bueste": "Device",
+      "bart": "Full"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Juni",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für Juni"
+      ],
+      "unter": "Noch 18 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Juni",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GRUEN",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 18 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "ErbSt-Teil bis zur festzusetzenden Steuer lösen.",
+        "ok",
+        "Bold",
+        "§ 10, § 16, § 19 ErbStG"
+       ],
+       [
+        "Reihengeschäft: bewegte Lieferung bestimmen.",
+        "ok",
+        "Regular",
+        "§ 3 Abs. 6a UStG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "vGA in KSt und GewSt durchziehen.",
+        "ok",
+        "Bold",
+        "§ 8 Abs. 3 S. 2 KStG, § 7 GewStG"
+       ],
+       [
+        "Verlustabzug richtig zuordnen.",
+        "ok",
+        "Regular",
+        "§ 10d Abs. 1, 2 EStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "PersG-Klausur mit Sonder- und Ergänzungsbilanz.",
+        "ok",
+        "Bold",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+       ],
+       [
+        "Teilwertabschreibung begründen.",
+        "ok",
+        "Regular",
+        "§ 6 Abs. 1 Nr. 1 S. 2 EStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein Juni in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: K1 und K3",
+        null,
+        "Zwei Klausuren."
+       ],
+       [
+        "Woche 2: K2",
+        null,
+        "Dazu Fehlerprotokoll."
+       ],
+       [
+        "Woche 3: K1 und K2",
+        null,
+        "Zwei Klausuren."
+       ],
+       [
+        "Woche 4: K3",
+        null,
+        "Gesetze markieren."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Kommst du bei jeder Klausur durch alle Teile?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Werden die Fehler im Protokoll weniger?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Sind deine Textausgaben markiert, ohne Anmerkungen?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im Juni: Ein bis zwei Klausuren pro Woche",
+       "Noch 18 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Tempo",
+         "a"
+        ],
+        [
+         " halten,",
+         null
+        ]
+       ],
+       [
+        [
+         "Fehler",
+         "b"
+        ],
+        [
+         " abbauen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Gesetz",
+         "c"
+        ],
+        [
+         " markieren,",
+         null
+        ]
+       ],
+       [
+        [
+         "dranbleiben.",
+         "d"
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im Juni?"
+     }
+    ],
+    "caption": "Lernplan Juni: noch 18 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Klausuren.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ ErbSt-Teil bis zur festzusetzenden Steuer lösen. (§ 10, § 16, § 19 ErbStG)\n▸ Reihengeschäft: bewegte Lieferung bestimmen. (§ 3 Abs. 6a UStG)\n\nKlausur 2 (Ertragsteuern):\n▸ vGA in KSt und GewSt durchziehen. (§ 8 Abs. 3 S. 2 KStG, § 7 GewStG)\n▸ Verlustabzug richtig zuordnen. (§ 10d Abs. 1, 2 EStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ PersG-Klausur mit Sonder- und Ergänzungsbilanz. (§ 15 Abs. 1 S. 1 Nr. 2 EStG)\n▸ Teilwertabschreibung begründen. (§ 6 Abs. 1 Nr. 1 S. 2 EStG)\n\nDeine vier Wochen:\nWoche 1: K1 und K3: Zwei Klausuren.\nWoche 2: K2: Dazu Fehlerprotokoll.\nWoche 3: K1 und K2: Zwei Klausuren.\nWoche 4: K3: Gesetze markieren.\n\nZum Monatsende ehrlich prüfen:\n▸ Kommst du bei jeder Klausur durch alle Teile?\n▸ Werden die Fehler im Protokoll weniger?\n▸ Sind deine Textausgaben markiert, ohne Anmerkungen?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 10, § 16, § 19 ErbStG",
+     "§ 10d Abs. 1, 2 EStG",
+     "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+     "§ 3 Abs. 6a UStG",
+     "§ 6 Abs. 1 Nr. 1 S. 2 EStG",
+     "§ 8 Abs. 3 S. 2 KStG, § 7 GewStG"
+    ]
+   }
+  ],
+  "2027-07-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-07",
+    "themaTitel": "Lernplan Juli: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Hira",
+      "kopf": "Long",
+      "haut": "#A86B45",
+      "haar": "#1E1A17",
+      "oberteil": "#9FD3C7",
+      "bueste": "Paper"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Juli",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für Juli"
+      ],
+      "unter": "Noch 13 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Juli",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GRUEN",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "GELB",
+        "Du bist hier"
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "WEISS",
+        null
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 13 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Haftung und Haftungsbescheid sicher prüfen.",
+        "ok",
+        "Bold",
+        "§ 69, § 191 AO"
+       ],
+       [
+        "Vorsteuerberichtigung rechnen.",
+        "ok",
+        "Regular",
+        "§ 15a UStG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Verlustabzug bei Körperschaften.",
+        "ok",
+        "Bold",
+        "§ 8c KStG"
+       ],
+       [
+        "Organschaft: Voraussetzungen und Zurechnung.",
+        "ok",
+        "Regular",
+        "§ 14 KStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "UmwSt-Klausur: Wertansatz und Sperrfrist.",
+        "ok",
+        "Bold",
+        "§ 20 Abs. 2, § 22 Abs. 1 UmwStG"
+       ],
+       [
+        "Verluste bei beschränkter Haftung.",
+        "ok",
+        "Regular",
+        "§ 15a EStG"
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein Juli in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: K1 und K2",
+        null,
+        "Zwei Klausuren."
+       ],
+       [
+        "Woche 2: K3 und K1",
+        null,
+        "Zwei Klausuren."
+       ],
+       [
+        "Woche 3: K2 und K3",
+        null,
+        "Zwei Klausuren."
+       ],
+       [
+        "Woche 4: Erholen",
+        null,
+        "Eine Woche leichter, Gebühr prüfen."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Hältst du zwei Klausuren pro Woche durch?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Ist die Prüfungsgebühr fristgerecht bezahlt?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Ist eine Erholungswoche vor dem Endspurt eingeplant?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im Juli: Zwei Klausuren pro Woche",
+       "Noch 13 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Zwei",
+         "a"
+        ],
+        [
+         " pro Woche,",
+         null
+        ]
+       ],
+       [
+        [
+         "Fehler",
+         "b"
+        ],
+        [
+         " auswerten,",
+         null
+        ]
+       ],
+       [
+        [
+         "Gebühr",
+         "c"
+        ],
+        [
+         " zahlen,",
+         null
+        ]
+       ],
+       [
+        [
+         "Kraft",
+         "d"
+        ],
+        [
+         " tanken.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im Juli?"
+     }
+    ],
+    "caption": "Lernplan Juli: noch 13 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Klausuren.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Haftung und Haftungsbescheid sicher prüfen. (§ 69, § 191 AO)\n▸ Vorsteuerberichtigung rechnen. (§ 15a UStG)\n\nKlausur 2 (Ertragsteuern):\n▸ Verlustabzug bei Körperschaften. (§ 8c KStG)\n▸ Organschaft: Voraussetzungen und Zurechnung. (§ 14 KStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ UmwSt-Klausur: Wertansatz und Sperrfrist. (§ 20 Abs. 2, § 22 Abs. 1 UmwStG)\n▸ Verluste bei beschränkter Haftung. (§ 15a EStG)\n\nDeine vier Wochen:\nWoche 1: K1 und K2: Zwei Klausuren.\nWoche 2: K3 und K1: Zwei Klausuren.\nWoche 3: K2 und K3: Zwei Klausuren.\nWoche 4: Erholen: Eine Woche leichter, Gebühr prüfen.\n\nZum Monatsende ehrlich prüfen:\n▸ Hältst du zwei Klausuren pro Woche durch?\n▸ Ist die Prüfungsgebühr fristgerecht bezahlt?\n▸ Ist eine Erholungswoche vor dem Endspurt eingeplant?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 14 KStG",
+     "§ 15a EStG",
+     "§ 15a UStG",
+     "§ 20 Abs. 2, § 22 Abs. 1 UmwStG",
+     "§ 69, § 191 AO",
+     "§ 8c KStG"
+    ]
+   }
+  ],
+  "2027-08-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-08",
+    "themaTitel": "Lernplan August: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Fiete",
+      "kopf": "Medium 2",
+      "haut": "#F5D6C1",
+      "haar": "#B5651D",
+      "oberteil": "#F28C8C",
+      "bueste": "Hoodie"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan August",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für August"
+      ],
+      "unter": "Noch 9 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "August",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GRUEN",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "GRUEN",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "GELB",
+        "Du bist hier"
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 9 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Dauerbrenner: Bekanntgabe, Korrektur, Haftung.",
+        "ok",
+        "Bold",
+        "§ 122, §§ 172 ff., § 69 AO"
+       ],
+       [
+        "Dauerbrenner: Reihengeschäft und § 15a UStG.",
+        "ok",
+        "Regular",
+        "§ 3 Abs. 6a, § 15a UStG"
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Dauerbrenner: § 17 EStG, vGA, § 8b KStG.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "GewSt-Hinzurechnungen ohne Nachschlagen.",
+        "ok",
+        "Regular",
+        "§ 8 Nr. 1 GewStG"
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Dauerbrenner: Rückstellungen, Teilwert, § 6b.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Sonderbilanzen und Einbringung nach § 20 UmwStG.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein August in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: drei Klausuren",
+        null,
+        "K1, K2, K3 im Wechsel."
+       ],
+       [
+        "Woche 2: Wiederholen",
+        null,
+        "Nur Protokollthemen."
+       ],
+       [
+        "Woche 3: drei Klausuren",
+        null,
+        "Wieder im Wechsel."
+       ],
+       [
+        "Woche 4: Generalprobe planen",
+        null,
+        "Drei Tage am Stück blocken."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Sitzen die Dauerbrenner ohne Nachschlagen?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Ist die Generalprobe im Kalender?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Sind deine Textausgaben auf dem Stand für 2027?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im August: Endspurt mit Dauerbrennern",
+       "Noch 9 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Dauerbrenner",
+         "a"
+        ],
+        [
+         " zuerst,",
+         null
+        ]
+       ],
+       [
+        [
+         "Wechsel",
+         "b"
+        ],
+        [
+         " K1 bis K3,",
+         null
+        ]
+       ],
+       [
+        [
+         "Generalprobe",
+         "c"
+        ],
+        [
+         " planen,",
+         null
+        ]
+       ],
+       [
+        [
+         "schlafen.",
+         "d"
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im August?"
+     }
+    ],
+    "caption": "Lernplan August: noch 9 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Endspurt.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Dauerbrenner: Bekanntgabe, Korrektur, Haftung. (§ 122, §§ 172 ff., § 69 AO)\n▸ Dauerbrenner: Reihengeschäft und § 15a UStG. (§ 3 Abs. 6a, § 15a UStG)\n\nKlausur 2 (Ertragsteuern):\n▸ Dauerbrenner: § 17 EStG, vGA, § 8b KStG.\n▸ GewSt-Hinzurechnungen ohne Nachschlagen. (§ 8 Nr. 1 GewStG)\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Dauerbrenner: Rückstellungen, Teilwert, § 6b.\n▸ Sonderbilanzen und Einbringung nach § 20 UmwStG.\n\nDeine vier Wochen:\nWoche 1: drei Klausuren: K1, K2, K3 im Wechsel.\nWoche 2: Wiederholen: Nur Protokollthemen.\nWoche 3: drei Klausuren: Wieder im Wechsel.\nWoche 4: Generalprobe planen: Drei Tage am Stück blocken.\n\nZum Monatsende ehrlich prüfen:\n▸ Sitzen die Dauerbrenner ohne Nachschlagen?\n▸ Ist die Generalprobe im Kalender?\n▸ Sind deine Textausgaben auf dem Stand für 2027?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 122, §§ 172 ff., § 69 AO",
+     "§ 3 Abs. 6a, § 15a UStG",
+     "§ 8 Nr. 1 GewStG"
+    ]
+   }
+  ],
+  "2027-09-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-09",
+    "themaTitel": "Lernplan September: Monatsziele für die Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Nele",
+      "kopf": "Bun 2",
+      "haut": "#E8B98F",
+      "haar": "#6B3E26",
+      "oberteil": "#8DB3F2",
+      "bueste": "Blazer Black Tee"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan September",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Dein Lernplan",
+       "für September"
+      ],
+      "unter": "Noch 4 Wochen",
+      "teaser": "+ Monatsziele",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "September",
+       "tag": "1",
+       "unter": "Monatsstart"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Hier stehst du",
+      "zeilen": [
+       [
+        "Okt.–Dez.",
+        "Fundament",
+        "GRUEN",
+        null
+       ],
+       [
+        "Jan.–April",
+        "Systematik",
+        "GRUEN",
+        null
+       ],
+       [
+        "Mai–Juli",
+        "Klausuren",
+        "GRUEN",
+        null
+       ],
+       [
+        "Aug.–Sept.",
+        "Endspurt",
+        "GELB",
+        "Du bist hier"
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Noch 4 Wochen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 1",
+      "punkte": [
+       [
+        "Generalprobe Tag 1: eine K1-Klausur, sechs Stunden.",
+        "ok",
+        "Bold",
+        "§ 18 Abs. 1 S. 3 DVStB"
+       ],
+       [
+        "Danach nur noch AO- und USt-Dauerbrenner.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 790,
+      "blase": "AO, USt, ErbSt."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 2",
+      "punkte": [
+       [
+        "Generalprobe Tag 2: eine K2-Klausur am Folgetag.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "ESt, KSt und GewSt nur noch wiederholen.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:redet",
+      "x": 290,
+      "blase": "Ertragsteuern."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Ziele Klausur 3",
+      "punkte": [
+       [
+        "Generalprobe Tag 3: eine K3-Klausur am dritten Tag.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Bilanz-Dauerbrenner auf einer Seite zusammenfassen.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:ernst",
+      "x": 790,
+      "blase": "Bilanz, PersG, UmwSt."
+     },
+     {
+      "typ": "schritte",
+      "titel": "Dein September in 4 Wochen",
+      "schritte": [
+       [
+        "Woche 1: Generalprobe",
+        null,
+        "Drei Klausuren an drei Tagen."
+       ],
+       [
+        "Woche 2: Auswerten",
+        null,
+        "Fehlerprotokoll, letzte Lücken."
+       ],
+       [
+        "Woche 3: Dauerbrenner",
+        null,
+        "Nichts Neues mehr."
+       ],
+       [
+        "Woche 4: Ruhe",
+        null,
+        "Leicht wiederholen, Organisation klären."
+       ]
+      ]
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Check am Monatsende",
+      "punkte": [
+       [
+        "Hast du drei Tage am Stück durchgehalten?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Weißt du, wo und wann du schreibst?",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Liegen zugelassene Hilfsmittel und Textausgaben bereit?",
+        "warn",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:fragt",
+      "x": 290,
+      "blase": "Ehrlich abhaken!"
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Ziel im September: Generalprobe und Ruhe",
+       "Noch 4 Wochen bis zum 05.10.2027",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Generalprobe",
+         "a"
+        ],
+        [
+         " schreiben,",
+         null
+        ]
+       ],
+       [
+        [
+         "Lücken",
+         "b"
+        ],
+        [
+         " schließen,",
+         null
+        ]
+       ],
+       [
+        [
+         "nichts",
+         "c"
+        ],
+        [
+         " Neues,",
+         null
+        ]
+       ],
+       [
+        [
+         "Ruhe",
+         "d"
+        ],
+        [
+         " finden.",
+         null
+        ]
+       ]
+      ],
+      "speichern": "Speichern und abhaken",
+      "frage": "Was ist dein Ziel im September?"
+     }
+    ],
+    "caption": "Lernplan September: noch 4 Wochen bis zur Steuerberaterprüfung am 05.10.2027. Phase: Endspurt.\n\nKlausur 1 (Verfahrensrecht u. a.):\n▸ Generalprobe Tag 1: eine K1-Klausur, sechs Stunden. (§ 18 Abs. 1 S. 3 DVStB)\n▸ Danach nur noch AO- und USt-Dauerbrenner.\n\nKlausur 2 (Ertragsteuern):\n▸ Generalprobe Tag 2: eine K2-Klausur am Folgetag.\n▸ ESt, KSt und GewSt nur noch wiederholen.\n\nKlausur 3 (Buchführung und Bilanzwesen):\n▸ Generalprobe Tag 3: eine K3-Klausur am dritten Tag.\n▸ Bilanz-Dauerbrenner auf einer Seite zusammenfassen.\n\nDeine vier Wochen:\nWoche 1: Generalprobe: Drei Klausuren an drei Tagen.\nWoche 2: Auswerten: Fehlerprotokoll, letzte Lücken.\nWoche 3: Dauerbrenner: Nichts Neues mehr.\nWoche 4: Ruhe: Leicht wiederholen, Organisation klären.\n\nZum Monatsende ehrlich prüfen:\n▸ Hast du drei Tage am Stück durchgehalten?\n▸ Weißt du, wo und wann du schreibst?\n▸ Liegen zugelassene Hilfsmittel und Textausgaben bereit?\n\nAm 1. jedes Monats kommt das Update. Schick das deiner Lerngruppe und speichere den Plan 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 18 Abs. 1 S. 3 DVStB"
+    ]
+   }
+  ],
+  "2027-10-01": [
+   {
+    "slot": "b4",
+    "zeit": "10:30",
+    "format": "anlass",
+    "klausur": 0,
+    "fach": null,
+    "fachLabel": "Steuerberaterexamen",
+    "themaId": "lernplan-2027-2027-10",
+    "themaTitel": "Lernplan Oktober: die letzten Tage vor der Prüfung 2027",
+    "figuren": {
+     "A": {
+      "name": "Joon",
+      "kopf": "Short 1",
+      "haut": "#E8C7A0",
+      "haar": "#1E1A17",
+      "oberteil": "#7FC8A9",
+      "bueste": "Tee 1"
+     }
+    },
+    "folien": [
+     {
+      "typ": "cover",
+      "badge": "Lernplan Oktober",
+      "badgeFarbe": "GELB",
+      "zeilen": [
+       "Noch 4 Tage",
+       "bis Klausur 1"
+      ],
+      "unter": "Ruhe bewahren",
+      "teaser": "+ Checkliste",
+      "motiv": {
+       "typ": "kalender",
+       "monat": "Oktober",
+       "tag": "5",
+       "unter": "Klausur 1"
+      },
+      "figur": "A:froh"
+     },
+     {
+      "typ": "zeitstrahl",
+      "titel": "Deine drei Tage",
+      "zeilen": [
+       [
+        "05.10.",
+        "Verfahrensrecht u. a.",
+        "GELB",
+        null
+       ],
+       [
+        "06.10.",
+        "Ertragsteuern",
+        "WEISS",
+        null
+       ],
+       [
+        "07.10.",
+        "Buchführung, Bilanz",
+        "WEISS",
+        "je höchstens 6 Std.: § 18 Abs. 1 S. 3 DVStB"
+       ]
+      ],
+      "figur": "A:denkt",
+      "x": 290,
+      "blase": "Ein Tag nach dem anderen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Die letzten Tage",
+      "punkte": [
+       [
+        "Nichts Neues mehr lernen. Nur Dauerbrenner und dein Fehlerprotokoll.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Jeden Tag kurz, ab Samstag fast gar nicht.",
+        "ok",
+        "Regular",
+        null
+       ],
+       [
+        "Schlafrhythmus an die Prüfungszeit anpassen.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:ruhig",
+      "x": 790,
+      "blase": "Weniger ist mehr."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Checkliste",
+      "punkte": [
+       [
+        "Ladung, Ausweis und Anfahrt geklärt.",
+        "ok",
+        "Bold",
+        null
+       ],
+       [
+        "Nur zugelassene Hilfsmittel; Textausgaben ohne Anmerkungen.",
+        "warn",
+        "Regular",
+        null
+       ],
+       [
+        "Essen, Trinken, Uhr, Ersatzstifte.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:erklaert",
+      "x": 290,
+      "blase": "Abends packen."
+     },
+     {
+      "typ": "inhalt",
+      "titel": "Zwischen den Tagen",
+      "punkte": [
+       [
+        "Keine Lösungen vergleichen, keine Foren.",
+        "warn",
+        "Bold",
+        null
+       ],
+       [
+        "Abhaken, essen, schlafen. Der nächste Tag zählt neu.",
+        "ok",
+        "Regular",
+        null
+       ]
+      ],
+      "figur": "A:lacht",
+      "x": 790,
+      "blase": "Du bist bereit."
+     },
+     {
+      "typ": "merke",
+      "oben": [
+       "Klausuren am 5., 6. und 7. Oktober 2027",
+       "Nichts Neues mehr, nur noch Ruhe",
+       "GELB"
+      ],
+      "zeilen": [
+       [
+        [
+         "Packen,",
+         "a"
+        ]
+       ],
+       [
+        [
+         "schlafen,",
+         "b"
+        ]
+       ],
+       [
+        [
+         "vertrauen,",
+         "c"
+        ]
+       ],
+       [
+        [
+         "loslegen.",
+         "d"
+        ]
+       ]
+      ],
+      "speichern": "Speichern für die Prüfungswoche",
+      "frage": "Schick das deiner Lerngruppe"
+     }
+    ],
+    "caption": "Noch 4 Tage bis zur Steuerberaterprüfung 2027: 05.10. Verfahrensrecht und andere Steuerrechtsgebiete, 06.10. Ertragsteuern, 07.10. Buchführung und Bilanzwesen; je höchstens sechs Stunden (§ 18 Abs. 1 S. 3 DVStB).\n\n▸ Nichts Neues mehr: nur Dauerbrenner und Fehlerprotokoll.\n▸ Schlafrhythmus an die Prüfungszeit anpassen.\n▸ Ladung, Ausweis, Anfahrt klären; nur zugelassene Hilfsmittel, Textausgaben ohne Anmerkungen.\n▸ Zwischen den Tagen keine Lösungen vergleichen.\n\nEin Jahr Lernplan endet hier. Du schaffst das. Schick das deiner Lerngruppe 📌",
+    "hashtags": [
+     "#steuerberaterexamen",
+     "#steuerberaterprüfung",
+     "#lernplan",
+     "#examensvorbereitung",
+     "#stbexamen2027"
+    ],
+    "quellen": [
+     "§ 18 Abs. 1 S. 3 DVStB"
+    ]
+   }
+  ]
+ }
+}

@@ -72,4 +72,4 @@ Täglich zwei Karussells und ein Reel; K1, K2, K3 rotieren über die drei Slots,
 reihum. Formate: Prüfschema, Rechenweg, Mini-Fall, Klausurfalle, Gegenüberstellung, Prüfungsfrage, Spickzettel
 (kurz), Klausurtechnik (nur Strategie), Anlass, Wochenrückblick, Lösungsskizze; ab November Kurzvortrag
 (mündliche Prüfung). Kein Format „Aktuell“: Rechtsänderungen werden vorab recherchiert und eingeplant.
-Thema und Format müssen zusammenpassen. Gerendert wird 14 Tage im Voraus, Texte liegen bis Jahresende vor.
+Thema und Format müssen zusammenpassen. Serie **Lernplan 2027** (`serien/lernplan-2027.json`): am 1. jedes Monats ein lila Anlass-Karussell mit Phase, Monatszielen je Klausur, vier Wochen und Selbstcheck; Uhrzeit so legen, dass kein lila Beitrag direkt davor oder danach steht. Gerendert wird 14 Tage im Voraus, Texte liegen bis Jahresende vor.

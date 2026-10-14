@@ -87,7 +87,8 @@ jobs:
               ziel = f".ia/vorproduktion/{d}.json"
               alt = json.load(open(ziel)) if os.path.exists(ziel) else {}
               rv = alt.get("renderVorschau") or {}
-              geaendert = subprocess.run(["git", "log", "-1", "--format=%cI", "--", spec], capture_output=True, text=True).stdout.strip()
+              # Serienbeiträge (social/op/serien) gehören zum Tag: Änderungen dort rendern ihn ebenfalls neu
+              geaendert = subprocess.run(["git", "log", "-1", "--format=%cI", "--", spec, "social/op/serien"], capture_output=True, text=True).stdout.strip()
               if rv.get("renderer") != "open-peeps-v4" or (geaendert and geaendert > (rv.get("erzeugtAm") or "")):
                   tage.append(d)
           print(" ".join(tage))

@@ -21,10 +21,25 @@ from story import Stories
 
 SOCIAL = os.path.dirname(HIER)
 TAGE = os.path.join(HIER, "tage")
+SERIEN = os.path.join(HIER, "serien")
+
+
+def serienbeitraege(datum):
+    """Beiträge wiederkehrender Serien (serien/*.json, Schlüssel beitraege.<datum>) für diesen Tag."""
+    out = []
+    for pfad in sorted(glob.glob(os.path.join(SERIEN, "*.json"))):
+        out += json.load(open(pfad, encoding="utf-8")).get("beitraege", {}).get(datum, [])
+    return out
 
 
 def lade(datum):
-    return json.load(open(os.path.join(TAGE, datum + ".json"), encoding="utf-8"))
+    spec = json.load(open(os.path.join(TAGE, datum + ".json"), encoding="utf-8"))
+    slots = {b["slot"] for b in spec["beitraege"]}
+    for b in serienbeitraege(datum):
+        if b["slot"] in slots:
+            raise SystemExit(f"{datum}: Serienbeitrag {b['slot']} kollidiert mit einem Slot der Tagesbeschreibung.")
+        spec["beitraege"].append(b); slots.add(b["slot"])
+    return spec
 
 
 def quellenpruefung(texte_json):

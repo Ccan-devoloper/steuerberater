@@ -3,7 +3,7 @@
  "beitraege": [
   {
    "slot": "b1",
-   "zeit": "08:30",
+   "zeit": "08:10",
    "format": "fehlerfalle",
    "klausur": 3,
    "fach": "umwst",
@@ -959,7 +959,7 @@
   },
   {
    "slot": "b4",
-   "zeit": "21:00",
+   "zeit": "09:00",
    "format": "anlass",
    "klausur": 0,
    "fach": null,
