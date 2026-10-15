@@ -11449,6 +11449,18 @@
       },
       "insightsStand": "2026-10-15T07:44:57.566Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "s6",
+      "medienId": "18128309167848668",
+      "veroeffentlicht": "2026-10-15T10:14:02.863Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "erbst-aufb-erbst-v-20",
+      "fach": "erbst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
