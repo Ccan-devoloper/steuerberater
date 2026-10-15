@@ -11355,6 +11355,28 @@
       "thema": "bilanz-quiz-k3-1",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "b1",
+      "medienId": "17960961428998179",
+      "veroeffentlicht": "2026-10-15T06:30:04.962Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "erbst-aufb-erbst-v-19",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Spickzettel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -11364,7 +11386,7 @@
     "ao": 20,
     "bilanz": 20,
     "istr": 15,
-    "erbst": 6,
+    "erbst": 7,
     "mindset": 2,
     "est": 3,
     "umwst": 4,
