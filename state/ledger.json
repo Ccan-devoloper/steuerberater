@@ -11221,22 +11221,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 70,
-        "views": 92,
+        "reach": 74,
+        "views": 97,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 79,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 60,
+        "navigation": 82,
+        "navigation_tap_exit": 7,
         "navigation_tap_back": 6,
-        "navigation_tap_exit": 7
+        "navigation_tap_forward": 63,
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-10-15T09:44:22.974Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-15T11:45:09.261Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-14",
@@ -11260,19 +11260,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 85,
+        "reach": 96,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 108,
-        "ig_reels_avg_watch_time": 4703,
-        "ig_reels_video_view_total_time": 413913,
-        "reels_skip_rate": 72.9
+        "total_interactions": 1,
+        "views": 122,
+        "ig_reels_avg_watch_time": 4990,
+        "ig_reels_video_view_total_time": 504081,
+        "reels_skip_rate": 71.1
       },
-      "insightsStand": "2026-10-15T08:44:22.737Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-10-15T11:45:12.063Z",
+      "insightsAlterStunden": 18.8
     },
     {
       "datum": "2026-10-14",
@@ -11436,21 +11436,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 15,
-        "views": 24,
+        "reach": 43,
+        "views": 59,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 20,
-        "navigation_tap_forward": 15,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 2
+        "navigation": 54,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_back": 6,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 34
       },
-      "insightsStand": "2026-10-15T07:44:57.566Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-15T11:45:09.261Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-15",
