@@ -11581,6 +11581,28 @@
       "thema": "est-aufb-est-ks2-17-03",
       "fach": "est",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "b3",
+      "medienId": "18091793486212270",
+      "veroeffentlicht": "2026-10-15T17:00:08.609Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "umwst-aufb-umw-2-25",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -11593,7 +11615,7 @@
     "erbst": 7,
     "mindset": 2,
     "est": 3,
-    "umwst": 4,
+    "umwst": 5,
     "gewst": 3,
     "null": 2
   },
