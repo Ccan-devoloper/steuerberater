@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-15T17:45:14.781Z",
+  "stand": "2026-10-15T18:44:44.737Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -29899,6 +29899,64 @@
           "reels_skip_rate": 60
         }
       ]
+    },
+    "17985189488892317": {
+      "art": "story",
+      "datum": "2026-10-15",
+      "titel": null,
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-15T17:00:21.167Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-15T18:44:42.184Z",
+          "alterStunden": 1.7,
+          "reach": 20,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 24,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 18
+        }
+      ]
+    },
+    "17977835703121411": {
+      "art": "story",
+      "datum": "2026-10-15",
+      "titel": null,
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-15T17:12:03.857Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-15T18:44:42.184Z",
+          "alterStunden": 1.5,
+          "reach": 17,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_forward": 12,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -31659,6 +31717,11 @@
     },
     {
       "stand": "2026-10-15T17:00:31.174Z",
+      "follower": 175,
+      "medien": 120
+    },
+    {
+      "stand": "2026-10-15T18:44:44.737Z",
       "follower": 175,
       "medien": 120
     }
