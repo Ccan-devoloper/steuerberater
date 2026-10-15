@@ -11513,6 +11513,18 @@
       "thema": null,
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "s7",
+      "medienId": "18100630682387427",
+      "veroeffentlicht": "2026-10-15T12:40:03.080Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
