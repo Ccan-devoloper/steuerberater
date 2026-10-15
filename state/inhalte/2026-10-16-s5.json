@@ -1,0 +1,27 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-12",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "A: nur bis",
+    "800.000 € Umsatz",
+    "Ja, bei Vorjahresumsatz bis 800.000 €",
+    "Nein, für niemanden",
+    "Ja, für alle ohne Grenze",
+    "Für Umsätze 2027 gilt der Übergang nur noch für kleinere Aussteller; EDI hat eine eigene Regel.",
+    "§ 27 Abs. 38 Nr. 2, 3 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

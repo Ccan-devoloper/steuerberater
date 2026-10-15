@@ -1,0 +1,73 @@
+{
+  "format": "minifall",
+  "fach": "gewst",
+  "klausur": 2,
+  "fachLabel": "Gewerbesteuer",
+  "themaId": "gewst-aufb-gewst-ks-10",
+  "caption": "Mini-Fall: Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?\n\nFall: Messbetrag 2.000 €, Hebesatz 320 %, gewerbliche Einkünfte 80.000 €, Vermietung 20.000 €, tarifliche ESt 25.000 €.\n\n▸ Ermäßigung um das Vierfache des festgesetzten Messbetrags: 8.000 € (§ 35 Abs. 1 S. 1 Nr. 1 EStG).\n▸ Höchstens die tatsächlich zu zahlende Gewerbesteuer: 6.400 € (§ 35 Abs. 1 S. 5 EStG).\n▸ Ermäßigungshöchstbetrag: Anteil der geminderten tariflichen Steuer, der auf die gewerblichen Einkünfte entfällt: 80.000 / 100.000 × 25.000 € = 20.000 € (§ 35 Abs. 1 S. 2 EStG).\n▸ Ergebnis: 6.400 €.\n▸ Mitunternehmer: anteiliger Messbetrag nach dem allgemeinen Gewinnverteilungsschlüssel, Vorabgewinnanteile bleiben außer Betracht (§ 35 Abs. 2 S. 2 EStG).\n\nZum Schluss: § 35 Abs. 1 EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#gewerbesteuer"
+  ],
+  "quellen": [
+    "§ 35 Abs. 1 S. 1 Nr. 1, S. 2, 5 EStG",
+    "§ 35 Abs. 2 S. 1, 2 EStG"
+  ],
+  "slug": "2026-10-16-b1",
+  "kurztitel": "Wie viel Gewerbesteuer mindert nach § 35 EStG die Einkommensteuer?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Wie viel GewSt · zurück? · § 35 Abs. 1 EStG · Rechne mit · + Markier-Guide § 35 EStG · Hebesatz · 320 % · Faktor 4?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Sachverhalt · Viktor betreibt allein eine Bäckerei. Messbetrag 2026: 2.000 €, Hebesatz 320 %. · Gewerbliche Einkünfte 80.000 €, Vermietung 20.000 €. · Tarifliche Einkommensteuer: 25.000 €. · Was bringt mir die Gewerbesteuer?"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Jetzt du · Um wie viel ermäßigt sich Viktors Einkommensteuer? · Tipp: Drei Beträge vergleichen, der niedrigste gewinnt. · Lösung: weiterwischen · 8.000 €?"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Lösung · § 35 Abs. 1 S. 1, 2, 5 EStG · 4 × Messbetrag · 8.000 € · Gezahlte GewSt (320 %) · 6.400 € · ESt-Anteil Gewerbe (80 %) · 20.000 € · Ermäßigung: der niedrigste · 6.400 € · 80 % = 80.000 € von 100.000 € Einkünften"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Faktor 4 blind ansetzen · Unter 400 % Hebesatz zahlt Viktor weniger als das Vierfache des Messbetrags. · Abgezogen wird höchstens die tatsächlich zu zahlende Gewerbesteuer. · § 35 Abs. 1 S. 5 EStG · Also nur 6.400 €!"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Bei Mitunternehmern · Messbetrag nach dem allgemeinen Gewinnverteilungsschlüssel aufteilen. · § 35 Abs. 2 S. 2 Hs. 1 EStG · Vorabgewinnanteile zählen dabei nicht. · § 35 Abs. 2 S. 2 Hs. 2 EStG · Messbetrag und GewSt werden gesondert und einheitlich festgestellt. · § 35 Abs. 2 S. 1 EStG · Nach Köpfen? Nein!"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "Viktor: Ermäßigung 6.400 € · begrenzt durch die gezahlte Gewerbesteuer · Vierfacher Messbetrag, · höchstens die gezahlte · GewSt und der Anteil · der ESt. · Speichern für Klausur 2 · Was ändert sich bei 450 % Hebesatz? · Weiterwischen: § 35 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Gewerbesteuer",
+      "text": "§ 35 EStG Steuerermäßigung (Auszug) · Grenze 1 · Faktor 4 · Grenze 2 · Mitunternehmer: § 35 Abs. 2 S. 2 EStG · Gewinnverteilungsschlüssel, ohne Vorabgewinne"
+    }
+  ]
+}

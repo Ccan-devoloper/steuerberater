@@ -1,0 +1,78 @@
+{
+  "format": "vergleich",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-glossar-0",
+  "caption": "Zivilrechtliches oder wirtschaftliches Eigentum: Wer bilanziert das Wirtschaftsgut?\n\n▸ Grundsatz: Zurechnung beim Eigentümer (§ 39 Abs. 1 AO; § 246 Abs. 1 S. 2 Hs. 1 HGB).\n▸ Ausnahme: Beherrscht ein anderer das Wirtschaftsgut tatsächlich und kann er den Eigentümer über die gesamte Nutzungsdauer wirtschaftlich außen vor halten, bilanziert er (§ 39 Abs. 2 Nr. 1 S. 1 AO; § 246 Abs. 1 S. 2 Hs. 2 HGB).\n▸ Gesetzliche Fälle: Treuhand → Treugeber, Sicherungseigentum → Sicherungsgeber, Eigenbesitz (z. B. Kauf unter Eigentumsvorbehalt) → Eigenbesitzer (§ 39 Abs. 2 Nr. 1 S. 2 AO).\n▸ Beispiel: Maschine unter Eigentumsvorbehalt und sicherungsübereigneter Lkw – beide bilanziert die Unternehmerin.\n\nZum Schluss: § 39 AO und § 246 Abs. 1 HGB zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 39 Abs. 1, 2 Nr. 1 AO",
+    "§ 246 Abs. 1 S. 2 HGB"
+  ],
+  "slug": "2026-10-16-b2",
+  "kurztitel": "Wirtschaftliches Eigentum",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Gegenüberstellung",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Gegenüberstellung",
+      "text": "Gegenüberstellung · Eigentümer oder · wirtschaftlich? · § 39 Abs. 2 Nr. 1 AO · Wer bilanziert? · + Markier-Guide § 39 AO, § 246 HGB",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Regel und Ausnahme · Eigentümer · Grundsatz: Ihm wird zugerechnet · § 39 Abs. 1 AO · Auch im HGB der Ausgangspunkt · § 246 Abs. 1 S. 2 HGB · Wirtschaftlich · Schließt den Eigentümer für die Nutzungsdauer aus · § 39 Abs. 2 Nr. 1 S. 1 AO · Dann bilanziert er · Und wer bilanziert?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die gesetzlichen Fälle · Treuhand: Der Treugeber bilanziert. · Sicherungseigentum: Der Sicherungsgeber bilanziert. · Eigenbesitz, etwa beim Kauf unter Eigentumsvorbehalt: Der Käufer bilanziert. · § 39 Abs. 2 Nr. 1 S. 2 AO · Formales Eigentum entscheidet nicht allein · Drei Klassiker!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Der Fall · Malin kauft für ihre Druckerei eine Maschine unter Eigentumsvorbehalt. · Ihren Lkw übereignet sie der Bank zur Sicherheit eines Kredits. · Jetzt du: Wer bilanziert Maschine und Lkw? · Gehört mir das noch?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung · Maschine · Eigentum: noch beim Verkäufer · Malin bilanziert als Eigenbesitzerin · § 39 Abs. 2 Nr. 1 S. 2 AO · Lkw · Eigentum: bei der Bank · Malin bilanziert als Sicherungsgeberin · § 39 Abs. 2 Nr. 1 S. 2 AO · Beides bei mir!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Bank bilanziert den Lkw? · Falsch: Die Bank ist zwar Eigentümerin, aber nur zur Sicherheit. · Malin nutzt, trägt Risiko und Kosten: wirtschaftliche Eigentümerin. · § 39 Abs. 2 Nr. 1 AO · Ebenso in der Handelsbilanz. · § 246 Abs. 1 S. 2 Hs. 2 HGB · Sicherheit ist kein Eigentum!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung: Malin bilanziert Maschine und Lkw · Eigenbesitz und Sicherungseigentum · Bilanziert wird, · wer wirtschaftlich · Herr über das · Wirtschaftsgut ist. · Speichern für Klausur 3 · Fällt dir ein weiterer Fall ein? · Weiterwischen: § 39 AO, § 246 HGB markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 39 AO Zurechnung (Auszug) · Regel · Maßstab · Klassiker · Weiterwischen: § 246 Abs. 1 S. 2 HGB · wirtschaftliche Zurechnung auch dort"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 246 HGB Vollständigkeit (Auszug) · Regel · Eigenbesitz, Sicherung · Malin bilanziert · Maschine und Lkw bei Malin · in Handels- und Steuerbilanz"
+    }
+  ]
+}

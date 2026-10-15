@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-karte-kst-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Norm des Tages",
+    "Streubesitz:",
+    "wann 10 %?",
+    "§ 8b Abs. 4 KStG",
+    "Es zählt die Quote zu Jahresbeginn.",
+    "§ 8b Abs. 4 S. 1 KStG",
+    "Erwerb von 10 % oder mehr gilt als zu Beginn erfolgt.",
+    "§ 8b Abs. 4 S. 6 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

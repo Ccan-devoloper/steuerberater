@@ -1,0 +1,26 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-12",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Pauschal-WB:",
+    "die Basis",
+    "Forderungen netto, ohne Umsatzsteuer",
+    "§ 17 Abs. 2 Nr. 1 UStG",
+    "Ohne einzelwertberichtigte Forderungen",
+    "Ohne sichere Forderungen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
