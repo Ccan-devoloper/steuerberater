@@ -10374,7 +10374,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 66,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -10383,8 +10383,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-14T23:26:21.283Z",
-      "insightsAlterStunden": 59.9
+      "insightsStand": "2026-10-15T07:45:00.974Z",
+      "insightsAlterStunden": 68.2
     },
     {
       "datum": "2026-10-12",
@@ -10495,19 +10495,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 177,
+        "reach": 179,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
-        "views": 237,
-        "ig_reels_avg_watch_time": 6884,
-        "ig_reels_video_view_total_time": 1266704,
-        "reels_skip_rate": 76.1
+        "views": 238,
+        "ig_reels_avg_watch_time": 6849,
+        "ig_reels_video_view_total_time": 1267192,
+        "reels_skip_rate": 76.2
       },
-      "insightsStand": "2026-10-14T23:26:21.283Z",
-      "insightsAlterStunden": 54.4
+      "insightsStand": "2026-10-15T07:45:00.974Z",
+      "insightsAlterStunden": 62.7
     },
     {
       "datum": "2026-10-12",
@@ -10647,7 +10647,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 64,
+        "reach": 68,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -10656,8 +10656,8 @@
         "follows": 2,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-14T23:26:21.283Z",
-      "insightsAlterStunden": 40.9
+      "insightsStand": "2026-10-15T07:45:00.974Z",
+      "insightsAlterStunden": 49.2
     },
     {
       "datum": "2026-10-13",
@@ -10860,19 +10860,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 153,
+        "reach": 155,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 194,
-        "ig_reels_avg_watch_time": 5419,
-        "ig_reels_video_view_total_time": 834618,
-        "reels_skip_rate": 72.8
+        "views": 198,
+        "ig_reels_avg_watch_time": 5893,
+        "ig_reels_video_view_total_time": 919363,
+        "reels_skip_rate": 72.5
       },
-      "insightsStand": "2026-10-14T23:26:21.283Z",
-      "insightsAlterStunden": 30.4
+      "insightsStand": "2026-10-15T07:45:00.974Z",
+      "insightsAlterStunden": 38.7
     },
     {
       "datum": "2026-10-13",
@@ -11100,22 +11100,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 75,
-        "views": 96,
+        "reach": 83,
+        "views": 105,
         "shares": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 86,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 60,
+        "navigation": 94,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 64,
         "navigation_tap_back": 10
       },
-      "insightsStand": "2026-10-15T05:09:04.638Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-15T07:44:57.566Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-14",
@@ -11163,22 +11163,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 69,
-        "views": 86,
+        "reach": 75,
+        "views": 93,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 78,
-        "navigation_tap_forward": 64,
+        "navigation": 84,
+        "navigation_tap_forward": 70,
         "navigation_swipe_forward": 4,
         "navigation_tap_exit": 8,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-15T05:09:04.638Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-15T07:44:57.566Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-14",
@@ -11408,7 +11408,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 22,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-15T07:45:00.974Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-15",
@@ -11420,7 +11432,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "erbst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 24,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 20,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-15T07:44:57.566Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {

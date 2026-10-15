@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-15T06:45:33.135Z",
+  "stand": "2026-10-15T07:45:04.493Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -26071,6 +26071,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-15T07:45:00.974Z",
+          "alterStunden": 68.2,
+          "reach": 66,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -26623,6 +26635,20 @@
           "ig_reels_avg_watch_time": 6884,
           "ig_reels_video_view_total_time": 1266704,
           "reels_skip_rate": 76.1
+        },
+        {
+          "stand": "2026-10-15T07:45:00.974Z",
+          "alterStunden": 62.7,
+          "reach": 179,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "views": 238,
+          "ig_reels_avg_watch_time": 6849,
+          "ig_reels_video_view_total_time": 1267192,
+          "reels_skip_rate": 76.2
         }
       ]
     },
@@ -27018,6 +27044,18 @@
           "stand": "2026-10-14T23:26:21.283Z",
           "alterStunden": 40.9,
           "reach": 64,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 2,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-15T07:45:00.974Z",
+          "alterStunden": 49.2,
+          "reach": 68,
           "saved": 1,
           "shares": 0,
           "likes": 1,
@@ -27906,6 +27944,20 @@
           "ig_reels_avg_watch_time": 5419,
           "ig_reels_video_view_total_time": 834618,
           "reels_skip_rate": 72.8
+        },
+        {
+          "stand": "2026-10-15T07:45:00.974Z",
+          "alterStunden": 38.7,
+          "reach": 155,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 198,
+          "ig_reels_avg_watch_time": 5893,
+          "ig_reels_video_view_total_time": 919363,
+          "reels_skip_rate": 72.5
         }
       ]
     },
@@ -28468,6 +28520,23 @@
           "navigation_tap_exit": 9,
           "navigation_tap_forward": 60,
           "navigation_tap_back": 10
+        },
+        {
+          "stand": "2026-10-15T07:44:57.566Z",
+          "alterStunden": 21.5,
+          "reach": 83,
+          "views": 105,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 3,
+          "profile_activity": 0,
+          "navigation": 94,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 64,
+          "navigation_tap_back": 10
         }
       ]
     },
@@ -28545,6 +28614,23 @@
           "profile_activity": 0,
           "navigation": 78,
           "navigation_tap_forward": 64,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-10-15T07:44:57.566Z",
+          "alterStunden": 20.2,
+          "reach": 75,
+          "views": 93,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 84,
+          "navigation_tap_forward": 70,
           "navigation_swipe_forward": 4,
           "navigation_tap_exit": 8,
           "navigation_tap_back": 2
@@ -28997,6 +29083,58 @@
           "navigation_tap_back": 3,
           "navigation_tap_forward": 12,
           "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18063961715618563": {
+      "art": "story",
+      "datum": "2026-10-15",
+      "titel": null,
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-15T06:30:17.843Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-15T07:44:57.566Z",
+          "alterStunden": 1.2,
+          "reach": 15,
+          "views": 24,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_forward": 15,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "17960961428998179": {
+      "art": "beitrag",
+      "datum": "2026-10-15",
+      "titel": "Spickzettel",
+      "format": "spickzettel",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-15T06:30:04.962Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-15T07:45:00.974Z",
+          "alterStunden": 1.2,
+          "reach": 22,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -30709,6 +30847,11 @@
     },
     {
       "stand": "2026-10-15T06:30:22.292Z",
+      "follower": 175,
+      "medien": 118
+    },
+    {
+      "stand": "2026-10-15T07:45:04.493Z",
       "follower": 175,
       "medien": 118
     }
