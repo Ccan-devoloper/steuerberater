@@ -11504,17 +11504,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 41,
-        "saved": 0,
+        "reach": 47,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-15T17:00:27.996Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-15T20:44:31.114Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-15",
