@@ -10739,7 +10739,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 74,
+        "reach": 77,
         "saved": 3,
         "shares": 0,
         "likes": 1,
@@ -10748,8 +10748,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-15T05:09:18.172Z",
-      "insightsAlterStunden": 41.7
+      "insightsStand": "2026-10-15T13:44:38.546Z",
+      "insightsAlterStunden": 50.2
     },
     {
       "datum": "2026-10-13",
@@ -11012,7 +11012,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 57,
+        "reach": 60,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -11021,8 +11021,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-15T05:09:18.172Z",
-      "insightsAlterStunden": 23
+      "insightsStand": "2026-10-15T13:44:38.546Z",
+      "insightsAlterStunden": 31.6
     },
     {
       "datum": "2026-10-14",
@@ -11076,17 +11076,17 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 211,
-        "saved": 14,
+        "reach": 228,
+        "saved": 15,
         "shares": 0,
         "likes": 6,
         "comments": 0,
-        "total_interactions": 20,
-        "follows": 0,
-        "profile_visits": 3
+        "total_interactions": 21,
+        "follows": 1,
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-15T05:09:18.172Z",
-      "insightsAlterStunden": 22.2
+      "insightsStand": "2026-10-15T13:44:38.546Z",
+      "insightsAlterStunden": 30.7
     },
     {
       "datum": "2026-10-14",
@@ -11286,22 +11286,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 65,
-        "views": 82,
+        "reach": 74,
+        "views": 94,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 77,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 59,
-        "navigation_tap_exit": 7,
+        "navigation": 86,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_forward": 63,
+        "navigation_tap_exit": 9,
         "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-15T09:44:22.974Z",
-      "insightsAlterStunden": 16.7
+      "insightsStand": "2026-10-15T13:44:35.196Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-14",
@@ -11315,22 +11315,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 60,
-        "views": 76,
+        "reach": 69,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 70,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 50,
-        "navigation_tap_exit": 9,
-        "navigation_tap_back": 6
+        "navigation": 81,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 58,
+        "navigation_tap_exit": 10,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-15T09:44:22.974Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-15T13:44:35.196Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-15",
@@ -11551,7 +11551,22 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-15T13:44:35.196Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
