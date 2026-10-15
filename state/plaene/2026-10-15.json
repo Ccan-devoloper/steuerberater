@@ -36,7 +36,8 @@
       "themaTitel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
       "fach": "umwst",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-15T17:00:00.100Z"
     }
   ],
   "stories": [
