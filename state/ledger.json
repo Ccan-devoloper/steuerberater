@@ -11412,7 +11412,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 50,
+        "reach": 52,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11421,8 +11421,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-15T14:44:51.289Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-10-15T17:45:14.781Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-10-15",
@@ -11557,20 +11557,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 16,
-        "views": 21,
+        "reach": 38,
+        "views": 49,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 14,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 11
+        "navigation": 38,
+        "navigation_tap_forward": 27,
+        "navigation_tap_exit": 6,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-15T13:44:35.196Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-15T17:45:13.245Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-15",
@@ -11620,7 +11622,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 22,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "views": 32,
+        "ig_reels_avg_watch_time": 3869,
+        "ig_reels_video_view_total_time": 81266,
+        "reels_skip_rate": 60
+      },
+      "insightsStand": "2026-10-15T17:45:14.781Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-10-15",
