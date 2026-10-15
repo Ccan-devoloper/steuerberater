@@ -11500,7 +11500,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 23,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-15T12:40:05.473Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-15",
@@ -11512,7 +11524,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 14,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 12,
+        "navigation_tap_forward": 10,
+        "navigation_tap_exit": 2
+      },
+      "insightsStand": "2026-10-15T12:40:04.258Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-15",

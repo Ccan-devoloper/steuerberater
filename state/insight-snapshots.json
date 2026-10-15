@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-15T11:45:13.073Z",
+  "stand": "2026-10-15T12:40:05.983Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -29436,6 +29436,57 @@
           "navigation_tap_exit": 4
         }
       ]
+    },
+    "17989829385062631": {
+      "art": "story",
+      "datum": "2026-10-15",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-15T11:30:18.313Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-15T12:40:04.258Z",
+          "alterStunden": 1.2,
+          "reach": 14,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 12,
+          "navigation_tap_forward": 10,
+          "navigation_tap_exit": 2
+        }
+      ]
+    },
+    "18116120393090123": {
+      "art": "beitrag",
+      "datum": "2026-10-15",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-15T11:30:05.620Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-15T12:40:05.473Z",
+          "alterStunden": 1.2,
+          "reach": 23,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -31172,6 +31223,11 @@
     {
       "stand": "2026-10-15T11:45:13.073Z",
       "follower": 175,
+      "medien": 119
+    },
+    {
+      "stand": "2026-10-15T12:40:05.983Z",
+      "follower": 176,
       "medien": 119
     }
   ]
