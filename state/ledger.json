@@ -11344,22 +11344,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 59,
-        "views": 76,
+        "reach": 74,
+        "views": 96,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 70,
-        "navigation_tap_forward": 54,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 6,
-        "navigation_tap_back": 3
+        "navigation": 87,
+        "navigation_tap_forward": 64,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-15T14:44:46.650Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-10-15T19:23:48.944Z",
+      "insightsAlterStunden": 14.3
     },
     {
       "datum": "2026-10-15",
@@ -11373,22 +11373,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 53,
-        "views": 73,
+        "reach": 69,
+        "views": 94,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 67,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_back": 10,
-        "navigation_tap_forward": 47,
-        "navigation_tap_exit": 6
+        "navigation": 85,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_back": 11,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-10-15T14:44:46.650Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-10-15T19:23:48.944Z",
+      "insightsAlterStunden": 14.2
     },
     {
       "datum": "2026-10-15",
@@ -11624,19 +11624,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 22,
+        "reach": 66,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 32,
-        "ig_reels_avg_watch_time": 3869,
-        "ig_reels_video_view_total_time": 81266,
-        "reels_skip_rate": 60
+        "total_interactions": 1,
+        "views": 92,
+        "ig_reels_avg_watch_time": 5423,
+        "ig_reels_video_view_total_time": 352554,
+        "reels_skip_rate": 62.3
       },
-      "insightsStand": "2026-10-15T17:45:14.781Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-15T19:23:53.239Z",
+      "insightsAlterStunden": 2.4
     },
     {
       "datum": "2026-10-15",
