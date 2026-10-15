@@ -11603,6 +11603,18 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "s3",
+      "medienId": "17985189488892317",
+      "veroeffentlicht": "2026-10-15T17:00:21.167Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
