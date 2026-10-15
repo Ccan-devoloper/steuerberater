@@ -11485,6 +11485,18 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "s2",
+      "medienId": "17989829385062631",
+      "veroeffentlicht": "2026-10-15T11:30:18.313Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
