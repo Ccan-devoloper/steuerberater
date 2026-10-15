@@ -11567,6 +11567,18 @@
       },
       "insightsStand": "2026-10-15T13:44:35.196Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "s8",
+      "medienId": "18009780891003309",
+      "veroeffentlicht": "2026-10-15T15:04:04.627Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "est-aufb-est-ks2-17-03",
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
