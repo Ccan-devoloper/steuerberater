@@ -98,7 +98,8 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "est-aufb-est-ks2-17-03",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-15T15:04:00.053Z"
     },
     {
       "slot": "s3",
