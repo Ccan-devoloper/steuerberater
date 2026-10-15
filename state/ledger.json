@@ -11633,6 +11633,18 @@
       "thema": null,
       "fach": "umwst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-15",
+      "slot": "s9",
+      "medienId": "17977835703121411",
+      "veroeffentlicht": "2026-10-15T17:12:03.857Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-2-32",
+      "fach": "umwst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
