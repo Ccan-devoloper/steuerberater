@@ -10860,19 +10860,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 157,
+        "reach": 158,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 202,
-        "ig_reels_avg_watch_time": 5882,
-        "ig_reels_video_view_total_time": 929470,
-        "reels_skip_rate": 72.3
+        "views": 205,
+        "ig_reels_avg_watch_time": 5863,
+        "ig_reels_video_view_total_time": 932283,
+        "reels_skip_rate": 72
       },
-      "insightsStand": "2026-10-16T05:09:11.783Z",
-      "insightsAlterStunden": 60.2
+      "insightsStand": "2026-10-16T13:44:43.936Z",
+      "insightsAlterStunden": 68.7
     },
     {
       "datum": "2026-10-13",
@@ -11148,8 +11148,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-16T05:09:11.783Z",
-      "insightsAlterStunden": 41.7
+      "insightsStand": "2026-10-16T13:44:43.936Z",
+      "insightsAlterStunden": 50.2
     },
     {
       "datum": "2026-10-14",
@@ -11260,19 +11260,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 117,
+        "reach": 119,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
-        "views": 147,
-        "ig_reels_avg_watch_time": 4824,
-        "ig_reels_video_view_total_time": 583764,
-        "reels_skip_rate": 73.5
+        "views": 149,
+        "ig_reels_avg_watch_time": 4777,
+        "ig_reels_video_view_total_time": 587574,
+        "reels_skip_rate": 73.1
       },
-      "insightsStand": "2026-10-16T05:09:11.783Z",
-      "insightsAlterStunden": 36.2
+      "insightsStand": "2026-10-16T13:44:43.936Z",
+      "insightsAlterStunden": 44.7
     },
     {
       "datum": "2026-10-14",
@@ -11412,7 +11412,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 62,
+        "reach": 63,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -11421,8 +11421,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-16T05:09:11.783Z",
-      "insightsAlterStunden": 22.7
+      "insightsStand": "2026-10-16T13:44:43.936Z",
+      "insightsAlterStunden": 31.2
     },
     {
       "datum": "2026-10-15",
@@ -11651,22 +11651,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 62,
-        "views": 75,
+        "reach": 72,
+        "views": 84,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 72,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_back": 7,
+        "navigation": 80,
+        "navigation_tap_forward": 60,
         "navigation_tap_exit": 7,
-        "navigation_tap_forward": 53
+        "navigation_tap_back": 7,
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-10-16T09:44:43.837Z",
-      "insightsAlterStunden": 16.7
+      "insightsStand": "2026-10-16T13:44:38.779Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-15",
@@ -11680,22 +11680,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 59,
-        "views": 69,
+        "reach": 70,
+        "views": 79,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 64,
-        "navigation_swipe_forward": 2,
+        "navigation": 74,
+        "navigation_tap_forward": 55,
+        "navigation_tap_exit": 11,
         "navigation_tap_back": 5,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 48
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-16T09:44:43.837Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-16T13:44:38.779Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-16",
@@ -11917,7 +11917,23 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 18,
+        "views": 19,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-10-16T13:44:38.779Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
