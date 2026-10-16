@@ -24,7 +24,8 @@
       "themaTitel": "Wirtschaftliches Eigentum",
       "fach": "bilanz",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-16T11:30:00.080Z"
     },
     {
       "slot": "b3",
