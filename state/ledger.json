@@ -11012,7 +11012,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 66,
+        "reach": 67,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -11021,8 +11021,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-16T06:45:24.571Z",
-      "insightsAlterStunden": 48.6
+      "insightsStand": "2026-10-16T14:46:05.715Z",
+      "insightsAlterStunden": 56.6
     },
     {
       "datum": "2026-10-14",
@@ -11076,7 +11076,7 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 245,
+        "reach": 250,
         "saved": 15,
         "shares": 0,
         "likes": 6,
@@ -11085,8 +11085,8 @@
         "follows": 1,
         "profile_visits": 4
       },
-      "insightsStand": "2026-10-16T06:45:24.571Z",
-      "insightsAlterStunden": 47.8
+      "insightsStand": "2026-10-16T14:46:05.715Z",
+      "insightsAlterStunden": 55.8
     },
     {
       "datum": "2026-10-14",
@@ -11586,22 +11586,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 70,
-        "views": 100,
+        "reach": 77,
+        "views": 113,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 90,
-        "navigation_tap_back": 11,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 61
+        "navigation": 102,
+        "navigation_tap_back": 12,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 67
       },
-      "insightsStand": "2026-10-16T11:44:49.762Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-16T14:46:00.446Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-15",
@@ -11709,22 +11709,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 46,
-        "views": 58,
+        "reach": 63,
+        "views": 78,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_tap_forward": 39,
-        "navigation_tap_exit": 2,
+        "navigation": 70,
+        "navigation_swipe_forward": 9,
         "navigation_tap_back": 3,
-        "navigation_swipe_forward": 8
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 53
       },
-      "insightsStand": "2026-10-16T10:45:37.696Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-16T14:46:00.446Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-16",
@@ -11738,22 +11738,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 43,
-        "views": 57,
+        "reach": 59,
+        "views": 74,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 9,
-        "navigation_tap_back": 6,
-        "navigation_tap_forward": 34
+        "navigation": 70,
+        "navigation_tap_forward": 48,
+        "navigation_tap_back": 8,
+        "navigation_tap_exit": 11,
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-16T10:45:37.696Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-16T14:46:00.446Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-16",
@@ -11777,7 +11777,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 31,
+        "reach": 37,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -11786,8 +11786,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-16T11:30:21.690Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-16T14:46:05.715Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-16",
@@ -11867,7 +11867,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 19,
+        "reach": 31,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11876,8 +11876,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-16T12:40:05.580Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-16T14:46:05.715Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-16",
