@@ -11625,19 +11625,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 140,
+        "reach": 152,
         "saved": 1,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 4,
-        "views": 176,
-        "ig_reels_avg_watch_time": 6281,
-        "ig_reels_video_view_total_time": 879404,
-        "reels_skip_rate": 70
+        "views": 188,
+        "ig_reels_avg_watch_time": 6148,
+        "ig_reels_video_view_total_time": 940727,
+        "reels_skip_rate": 69.1
       },
-      "insightsStand": "2026-10-16T08:45:05.334Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-10-16T12:40:05.580Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-10-15",
@@ -11865,7 +11865,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 19,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-16T12:40:05.580Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-16",
@@ -11877,7 +11889,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 20,
+        "views": 29,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_forward": 17,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-10-16T12:40:04.187Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-16",
