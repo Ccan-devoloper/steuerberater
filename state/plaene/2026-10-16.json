@@ -36,7 +36,8 @@
       "themaTitel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
       "fach": "ao",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-16T17:00:00.021Z"
     }
   ],
   "stories": [
