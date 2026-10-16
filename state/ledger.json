@@ -11777,7 +11777,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 26,
+        "reach": 31,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -11786,8 +11786,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-16T09:44:52.463Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-16T11:30:21.690Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-16",
@@ -11827,7 +11827,23 @@
       "storyArt": "norm",
       "thema": "kst-karte-kst-4",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 18,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 21,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-10-16T11:30:20.242Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-16",
