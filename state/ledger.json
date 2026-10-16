@@ -12000,6 +12000,18 @@
       "thema": null,
       "fach": "ao",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "s9",
+      "medienId": "18129195742695121",
+      "veroeffentlicht": "2026-10-16T17:12:04.272Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-aufb-ao-jacobs-7-7",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
