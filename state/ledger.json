@@ -10131,19 +10131,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 291,
+        "reach": 292,
         "saved": 3,
         "shares": 1,
         "likes": 2,
         "comments": 0,
         "total_interactions": 6,
-        "views": 351,
-        "ig_reels_avg_watch_time": 6162,
-        "ig_reels_video_view_total_time": 1848605,
-        "reels_skip_rate": 68.3
+        "views": 352,
+        "ig_reels_avg_watch_time": 6154,
+        "ig_reels_video_view_total_time": 1852443,
+        "reels_skip_rate": 68
       },
-      "insightsStand": "2026-10-15T17:00:27.996Z",
-      "insightsAlterStunden": 96
+      "insightsStand": "2026-10-16T17:12:05.549Z",
+      "insightsAlterStunden": 120.2
     },
     {
       "datum": "2026-10-11",
