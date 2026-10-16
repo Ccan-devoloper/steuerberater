@@ -11934,6 +11934,18 @@
       },
       "insightsStand": "2026-10-16T13:44:38.779Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "s8",
+      "medienId": "18092249051193562",
+      "veroeffentlicht": "2026-10-16T15:04:02.702Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "bilanz-karte-k3-12",
+      "fach": "bilanz",
+      "titel": ""
     }
   ],
   "fachZaehler": {
