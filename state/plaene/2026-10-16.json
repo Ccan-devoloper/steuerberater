@@ -70,8 +70,9 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "kst-karte-kst-4",
-      "status": "sendet",
-      "sendeversuch": "2026-10-16T10:14:00.047Z"
+      "status": "veroeffentlicht",
+      "medienId": "17950680948301068",
+      "veroeffentlicht": "2026-10-16T10:14:04.181Z"
     },
     {
       "slot": "s2",
