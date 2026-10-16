@@ -11720,6 +11720,28 @@
       "thema": "ust-quiz-ust-12",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "b1",
+      "medienId": "17882898489628357",
+      "veroeffentlicht": "2026-10-16T06:30:05.210Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "minifall",
+      "thema": "gewst-aufb-gewst-ks-10",
+      "fach": "gewst",
+      "klausur": 2,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -11733,7 +11755,7 @@
     "mindset": 2,
     "est": 3,
     "umwst": 5,
-    "gewst": 3,
+    "gewst": 4,
     "null": 2
   },
   "nachrichten": [],
