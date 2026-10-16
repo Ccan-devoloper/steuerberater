@@ -11922,21 +11922,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 18,
-        "views": 19,
+        "reach": 43,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 15,
-        "navigation_tap_exit": 1
+        "navigation": 44,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 33,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-16T13:44:38.779Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-16T17:44:56.355Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-16",
