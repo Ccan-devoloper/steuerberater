@@ -11948,13 +11948,35 @@
       "thema": "bilanz-karte-k3-12",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "b3",
+      "medienId": "17984026479086656",
+      "veroeffentlicht": "2026-10-16T17:00:09.301Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "ao-aufb-ao-jacobs-7-5",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Schlichter Änderungsantrag oder Einspruch – was ist klüger?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 13,
     "ust": 11,
     "kst": 11,
-    "ao": 20,
+    "ao": 21,
     "bilanz": 21,
     "istr": 15,
     "erbst": 7,
