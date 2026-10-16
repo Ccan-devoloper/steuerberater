@@ -10011,7 +10011,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 84,
+        "reach": 88,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -10020,8 +10020,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-15T08:44:22.737Z",
-      "insightsAlterStunden": 93.2
+      "insightsStand": "2026-10-16T08:45:05.334Z",
+      "insightsAlterStunden": 117.2
     },
     {
       "datum": "2026-10-11",
@@ -10374,7 +10374,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 66,
+        "reach": 72,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -10383,8 +10383,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-15T07:45:00.974Z",
-      "insightsAlterStunden": 68.2
+      "insightsStand": "2026-10-16T08:45:05.334Z",
+      "insightsAlterStunden": 93.2
     },
     {
       "datum": "2026-10-12",
@@ -10495,19 +10495,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 179,
-        "saved": 0,
+        "reach": 182,
+        "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
-        "views": 238,
-        "ig_reels_avg_watch_time": 6849,
-        "ig_reels_video_view_total_time": 1267192,
+        "total_interactions": 1,
+        "views": 242,
+        "ig_reels_avg_watch_time": 6759,
+        "ig_reels_video_view_total_time": 1277454,
         "reels_skip_rate": 76.2
       },
-      "insightsStand": "2026-10-15T07:45:00.974Z",
-      "insightsAlterStunden": 62.7
+      "insightsStand": "2026-10-16T08:45:05.334Z",
+      "insightsAlterStunden": 87.7
     },
     {
       "datum": "2026-10-12",
@@ -11504,7 +11504,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 48,
+        "reach": 50,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11513,8 +11513,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-16T05:09:11.783Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-16T08:45:05.334Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-15",
@@ -11557,22 +11557,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 59,
-        "views": 78,
+        "reach": 69,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 63,
-        "navigation_tap_back": 2,
-        "navigation_swipe_forward": 6,
+        "navigation": 75,
+        "navigation_tap_back": 3,
+        "navigation_swipe_forward": 7,
         "navigation_tap_exit": 6,
-        "navigation_tap_forward": 49
+        "navigation_tap_forward": 59
       },
-      "insightsStand": "2026-10-16T05:09:04.257Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-16T08:45:03.652Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-15",
@@ -11625,19 +11625,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 129,
+        "reach": 140,
         "saved": 1,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 166,
-        "ig_reels_avg_watch_time": 5827,
-        "ig_reels_video_view_total_time": 775023,
-        "reels_skip_rate": 68.4
+        "total_interactions": 4,
+        "views": 176,
+        "ig_reels_avg_watch_time": 6281,
+        "ig_reels_video_view_total_time": 879404,
+        "reels_skip_rate": 70
       },
-      "insightsStand": "2026-10-16T05:09:11.783Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-16T08:45:05.334Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-10-15",
