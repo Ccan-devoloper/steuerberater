@@ -9646,7 +9646,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 91,
+        "reach": 94,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -9655,8 +9655,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-15T06:45:33.135Z",
-      "insightsAlterStunden": 115.3
+      "insightsStand": "2026-10-16T07:44:44.346Z",
+      "insightsAlterStunden": 140.2
     },
     {
       "datum": "2026-10-10",
@@ -11465,22 +11465,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 70,
-        "views": 86,
+        "reach": 78,
+        "views": 91,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 71,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 55,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 3
+        "navigation": 79,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 60,
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-10-16T05:09:04.257Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-16T07:44:40.664Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-15",
@@ -11528,22 +11528,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 64,
-        "views": 76,
+        "reach": 72,
+        "views": 83,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 66,
-        "navigation_swipe_forward": 5,
+        "navigation": 74,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 56,
         "navigation_tap_back": 2,
-        "navigation_tap_forward": 49,
-        "navigation_tap_exit": 10
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-16T05:09:04.257Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-16T07:44:40.664Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-15",
@@ -11775,7 +11775,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#gewerbesteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-16T07:44:44.346Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-16",
@@ -11787,7 +11799,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "gewst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-16T07:44:40.664Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
