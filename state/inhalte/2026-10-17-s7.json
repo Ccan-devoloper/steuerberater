@@ -1,0 +1,25 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst skizzieren,",
+    "dann schreiben",
+    "Wenige Minuten Stichworte: Normen und Ergebnis je Teil.",
+    "Dann zügig ausformulieren.",
+    "Spart Umwege und Streichungen."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-kst-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Prüfungsfrage",
+    "Verzicht auf werthaltige",
+    "Forderung: Ertrag?",
+    "Außerbilanziell abziehen: verdeckte Einlage",
+    "Bleibt voll steuerpflichtig",
+    "Nur zu 5 % steuerpflichtig",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

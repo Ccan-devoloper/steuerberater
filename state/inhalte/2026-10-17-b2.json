@@ -1,0 +1,84 @@
+{
+  "format": "rechenweg",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-7-9",
+  "caption": "Grobes Verschulden bei § 173 AO – und wie § 177 AO trotzdem hilft. Der Rechenweg für Klausur 1.\n\n1. Neue Tatsache zuungunsten: nachträglich bekannte Mieteinnahmen 6.000 € (§ 173 Abs. 1 Nr. 1 AO).\n2. Neue Tatsache zugunsten: grundsätzlich nur ohne grobes Verschulden (§ 173 Abs. 1 Nr. 2 S. 1 AO). Das Verschulden ist unbeachtlich bei unmittelbarem oder mittelbarem Zusammenhang mit einer Tatsache nach Nr. 1 (§ 173 Abs. 1 Nr. 2 S. 2 AO): Garagenkosten 2.500 €.\n3. Übrige materielle Fehler werden berichtigt, soweit die Änderung reicht (§ 177 Abs. 1, 3 AO): Fortbildungskosten 1.000 €. Ober- und Untergrenze werden getrennt ermittelt, nicht saldiert (AEAO zu § 177 Nr. 2, 3): Rahmen von −2.500 € bis +6.000 €.\nErgebnis: Einkünfte + 2.500 €.\n\nSperre: Ist der Bescheid auf Grund einer Außenprüfung ergangen, ist eine Änderung nach § 173 Abs. 1 AO nur bei Steuerhinterziehung oder leichtfertiger Steuerverkürzung möglich (§ 173 Abs. 2 S. 1 AO).\n\nZum Schluss: § 173 Abs. 1, § 177 Abs. 1, 3 AO zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 173 Abs. 1 Nr. 1, 2, Abs. 2 AO",
+    "§ 177 Abs. 1, 3 AO",
+    "AEAO zu § 177 Nr. 2, 3"
+  ],
+  "slug": "2026-10-17-b2",
+  "kurztitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Grob verschuldet, · trotzdem ändern? · § 173 Abs. 1 Nr. 2 S. 2 AO · in 3 Schritten · + Markier-Guide §§ 173, 177 AO · Änderung · +2.500 € · Einkünfte",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Sachverhalt · Lottes Einkommensteuerbescheid 2024 ist bestandskräftig. · 2026 erfährt das Finanzamt von 6.000 € nicht erklärten Mieteinnahmen für eine Garage. · Grob fahrlässig vergessen hatte Lotte auch 2.500 € Garagenkosten und 1.000 € Fortbildungskosten. · Ups."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Schritt 1: neue Tatsache · Die Mieteinnahmen werden nachträglich bekannt und erhöhen die Steuer. · § 173 Abs. 1 Nr. 1 AO · Änderung zuungunsten: Einkünfte plus 6.000 €. · Das Finanzamt weiß es."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Schritt 2: Zusammenhang · Grob verschuldete Tatsachen zu ihren Gunsten scheiden grundsätzlich aus. · § 173 Abs. 1 Nr. 2 S. 1 AO · Die Garagenkosten hängen aber unmittelbar mit den Mieteinnahmen zusammen. · Dann ist das Verschulden unbeachtlich: minus 2.500 €. · § 173 Abs. 1 Nr. 2 S. 2 AO · Glück gehabt!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Jetzt du · Und die 1.000 € Fortbildungskosten? Kein Zusammenhang, grob verschuldet. · Sind sie endgültig verloren? · Lösung: weiterwischen · Bitte nicht!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Schritt 3: § 177 AO · § 177 Abs. 1, 3 AO · Mieteinnahmen (Nr. 1) · +6.000 € · Garagenkosten (Nr. 2 S. 2) · −2.500 € · Fortbildung über § 177 · −1.000 € · Einkünfte steigen um · +2.500 € · Grenzen getrennt: −2.500 € bis +6.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Sperre nach Außenprüfung · War der Bescheid nach einer Außenprüfung ergangen, greift § 173 Abs. 1 AO nicht mehr. · § 173 Abs. 2 S. 1 AO · Ausnahme: Steuerhinterziehung oder leichtfertige Steuerverkürzung. · Prüfung schützt auch."
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Lotte: Einkünfte steigen nur um 2.500 € · 6.000 € − 2.500 € − 1.000 € · Nr. 1 öffnet, · Zusammenhang entschuldigt, · § 177 rechnet · gegen. · Speichern für Klausur 1 · Wie wäre es ohne die Mieteinnahmen? · Weiterwischen: §§ 173, 177 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "§ 173 AO Neue Tatsachen (Auszug) · Nr. 1 · Hürde · Ausnahme · Weiterwischen: § 177 AO · materielle Fehler, soweit die Änderung reicht"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "§ 177 AO Materielle Fehler (Auszug) · Nr. 1 öffnet · Grenzen nicht saldieren · Fortbildung · Begriff · Lotte: Rahmen −2.500 € bis +6.000 € · Fortbildung − 1.000 € passt hinein"
+    }
+  ]
+}

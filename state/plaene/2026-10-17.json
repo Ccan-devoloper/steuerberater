@@ -1,0 +1,102 @@
+{
+  "datum": "2026-10-17",
+  "erzeugt": "2026-10-16T22:13:47.281Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "klausurtechnik",
+      "themaId": "klausurtechnik-k3-persg-2026-42",
+      "themaTitel": "PersG-Teil der Klausur 3: Aufbau, Tabelle, Darstellung",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "rechenweg",
+      "themaId": "ao-aufb-ao-jacobs-7-9",
+      "themaTitel": "Grobes Verschulden bei § 173 AO und die Sperre nach Prüfung",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "istr-aufb-istr-gh-3-13",
+      "themaTitel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+      "fach": "istr",
+      "klausur": 2,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-5",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-5",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "persg-karte-k3-28",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "ust-karte-ust-12",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "gewst-aufb-gewst-ks-02",
+      "status": "geplant"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Int. Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-3-13",
+  "caption": "Beschränkt steuerpflichtig veranlagt: Was § 50 EStG streicht. 🌍\n\n▸ Kein Grundfreibetrag: Das zu versteuernde Einkommen wird um den Grundfreibetrag (2026: 12.348 €, § 32a Abs. 1 S. 2 Nr. 1 EStG) erhöht; bei Arbeitnehmereinkünften nach § 49 Abs. 1 Nr. 4 EStG nur, soweit er diese Einkünfte übersteigt (§ 50 Abs. 1 S. 2 EStG).\n▸ Nicht anzuwenden sind u. a. weite Teile von § 10, §§ 10a, 10c, 16 Abs. 4, 24b, 32, 33, 33a, 33b, 35a und 35c EStG (§ 50 Abs. 1 S. 4 EStG); für Arbeitnehmer gelten Ausnahmen (§ 50 Abs. 1 S. 5 EStG).\n▸ Betriebsausgaben und Werbungskosten nur, soweit sie mit inländischen Einkünften in wirtschaftlichem Zusammenhang stehen (§ 50 Abs. 1 S. 1 EStG).\n▸ Zusammenveranlagung setzt unbeschränkte Steuerpflicht beider Ehegatten voraus (§ 26 Abs. 1 S. 1 Nr. 1 EStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 50 Abs. 1 S. 1, 2, 4, 5 EStG",
+    "§ 32a Abs. 1 S. 2 Nr. 1 EStG",
+    "§ 26 Abs. 1 S. 1 Nr. 1 EStG"
+  ],
+  "slug": "2026-10-17-b3",
+  "kurztitel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Gebietsfremd: was fällt weg?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Grundfreibetrag"
+    },
+    {
+      "art": "schritt",
+      "titel": "Gestrichen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Kosten"
+    }
+  ],
+  "sprecher": [
+    "Gleiches Einkommen, anderer Wohnsitz. Wer in Deutschland wohnt, hat einen Grundfreibetrag. Wer gebietsfremd ist, meist nicht.",
+    "Paragraf fünfzig erhöht das zu versteuernde Einkommen um den Grundfreibetrag. Bei Arbeitnehmern mit inländischem Lohn bleibt er bis zur Höhe des Lohns.",
+    "Gestrichen sind außerdem die meisten Sonderausgaben, außergewöhnliche Belastungen und Kinderfreibeträge.",
+    "Kosten zählen nur, wenn sie mit den inländischen Einkünften zusammenhängen.",
+    "Merke: Gebietsfremd heißt Steuer ab dem ersten Euro."
+  ],
+  "dauerS": 36.879,
+  "tempo": 1
+}

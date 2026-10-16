@@ -1,0 +1,73 @@
+{
+  "format": "klausurtechnik",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "klausurtechnik-k3-persg-2026-42",
+  "caption": "Klausur 3, PersG-Teil: So baust du deine Lösung auf.\n\n1. Sachverhalt zuordnen: Gesamthand, Ergänzungsbilanz oder Sonderbereich.\n2. Gesamthandsbilanz korrigieren, jeweils mit Gewinnauswirkung.\n3. Ergänzungsbilanzen je Gesellschafter fortführen.\n4. Sonderbilanz und Sonder-GuV: Vergütungen für Tätigkeit, Darlehen und Überlassung von Wirtschaftsgütern gehören zu den Einkünften des Gesellschafters (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n5. Gewinn verteilen: Gesamthand nach Schlüssel, Ergänzung und Sonder direkt; die Summe ist der Gesamtgewinn, der gesondert und einheitlich festgestellt wird (§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO).\n\nTechnik: Tabelle mit einer Spalte je Gesellschafter früh anlegen und jedes Teilergebnis sofort eintragen – dann bleibt ein Fehler isoliert.\n\nZum Schluss: § 15 Abs. 1 S. 1 Nr. 2 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+  ],
+  "slug": "2026-10-17-b1",
+  "kurztitel": "PersG-Teil der Klausur 3: Aufbau, Tabelle, Darstellung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurtechnik",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurtechnik",
+      "text": "Klausurtechnik · PersG-Teil · sauber aufbauen · in 5 Schritten · + Markier-Guide § 15 EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Der Aufbau · Sachverhalt zuordnen · Gesamthandsbilanz korrigieren · Ergänzungsbilanzen fortführen · Sonderbilanz und Sonder-GuV · Gewinn verteilen · § 15 Abs. 1 S. 1 Nr. 2 EStG · Am Ende: § 15 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Vorab: die Tabelle · Lege früh eine Tabelle an: eine Spalte je Gesellschafter, Zeilen für Gesamthand, Ergänzung und Sonder. · Trage jedes Teilergebnis sofort ein, nicht erst am Ende. · So bleibt ein Fehler isoliert, die Folgepunkte bleiben dir. · Tabelle zuerst!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Darstellung je Punkt · Norm, kurze Wertung, Buchungssatz mit Betrag. · Gewinnauswirkung immer mit Vorzeichen und Zuordnung zum Gesellschafter. · Keine Prosa, wo eine Zeile reicht. · Kurz und prüfbar."
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Sonderbereich vergessen · Tätigkeitsvergütung, Miete oder Zinsen an Gesellschafter bleiben in der Gesamthand Aufwand. · Beim Gesellschafter fehlt dann der Ertrag in der Sonder-GuV. · § 15 Abs. 1 S. 1 Nr. 2 Hs. 2 EStG · Folge: Gesamtgewinn zu niedrig, alle Folgezahlen falsch. · Kostet richtig Punkte!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Zum Schluss: verteilen · Gesamthandsgewinn nach dem vertraglichen Schlüssel verteilen. · Ergänzungs- und Sonderergebnisse direkt dem jeweiligen Gesellschafter zurechnen. · Summe ist der Gesamtgewinn, gesondert und einheitlich festgestellt. · § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Probe: Summe stimmt?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Tabelle früh, Ergebnisse sofort eintragen · Sonderbereich nie vergessen · Zuordnen, buchen, · eintragen, verteilen, · Summe ist der · Gesamtgewinn. · Speichern für Klausur 3 · Wie baust du deine Tabelle? · Weiterwischen: § 15 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 15 Abs. 1 S. 1 Nr. 2 EStG (Auszug) · Stufe 1: Gesamthand · Stufe 2: Sonderbereich · Feststellung: § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Gesamtgewinn einheitlich für alle"
+    }
+  ]
+}

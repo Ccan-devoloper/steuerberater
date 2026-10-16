@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-karte-k3-28",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Realteilung:",
+    "echt oder unecht?",
+    "§ 16 Abs. 3 S. 2 EStG",
+    "Echt: Die Gesellschaft endet und wird aufgeteilt.",
+    "BMF vom 19.12.2018, Rn. 1",
+    "Unecht: Einer geht mit Sachwerten ins Betriebsvermögen, der Rest macht weiter.",
+    "BMF vom 19.12.2018, Rn. 2"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
