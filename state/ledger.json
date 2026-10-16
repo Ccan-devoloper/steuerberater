@@ -11828,6 +11828,28 @@
       "thema": "kst-karte-kst-4",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "b2",
+      "medienId": "17877990465567256",
+      "veroeffentlicht": "2026-10-16T11:30:06.840Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "vergleich",
+      "thema": "bilanz-glossar-0",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Gegenüberstellung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -11835,7 +11857,7 @@
     "ust": 11,
     "kst": 11,
     "ao": 20,
-    "bilanz": 20,
+    "bilanz": 21,
     "istr": 15,
     "erbst": 7,
     "mindset": 2,
