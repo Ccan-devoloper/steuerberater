@@ -11850,6 +11850,18 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "s2",
+      "medienId": "18166812091473387",
+      "veroeffentlicht": "2026-10-16T11:30:19.152Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": ""
     }
   ],
   "fachZaehler": {
