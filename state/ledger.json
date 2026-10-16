@@ -11801,22 +11801,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 60,
-        "views": 70,
+        "reach": 73,
+        "views": 89,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 62,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 49,
+        "navigation": 77,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 60,
         "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 5
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-16T15:45:14.924Z",
-      "insightsAlterStunden": 9.2
+      "insightsStand": "2026-10-16T19:45:16.830Z",
+      "insightsAlterStunden": 13.2
     },
     {
       "datum": "2026-10-16",
@@ -11830,22 +11830,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 52,
-        "views": 65,
+        "reach": 68,
+        "views": 85,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 53,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 39,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 5
+        "navigation": 68,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 49,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_exit": 8
       },
-      "insightsStand": "2026-10-16T15:45:14.924Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-16T19:45:16.830Z",
+      "insightsAlterStunden": 9.5
     },
     {
       "datum": "2026-10-16",
