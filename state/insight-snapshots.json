@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-16T15:45:21.493Z",
+  "stand": "2026-10-16T17:00:26.092Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -30401,6 +30401,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-16T17:00:25.308Z",
+          "alterStunden": 29.5,
+          "reach": 52,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -31250,6 +31262,23 @@
           "navigation_tap_forward": 17,
           "navigation_swipe_forward": 2,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-10-16T17:00:23.016Z",
+          "alterStunden": 5.5,
+          "reach": 48,
+          "views": 60,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 53,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 6,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_forward": 40
         }
       ]
     },
@@ -31286,6 +31315,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-16T17:00:25.308Z",
+          "alterStunden": 5.5,
+          "reach": 37,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -31314,6 +31355,35 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18092249051193562": {
+      "art": "story",
+      "datum": "2026-10-16",
+      "titel": null,
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-16T15:04:02.702Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-16T17:00:23.016Z",
+          "alterStunden": 1.9,
+          "reach": 26,
+          "views": 36,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 21,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 3
         }
       ]
     }
@@ -33153,6 +33223,11 @@
       "stand": "2026-10-16T15:45:21.493Z",
       "follower": 176,
       "medien": 122
+    },
+    {
+      "stand": "2026-10-16T17:00:26.092Z",
+      "follower": 176,
+      "medien": 123
     }
   ]
 }
