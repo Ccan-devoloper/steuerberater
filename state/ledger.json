@@ -11878,6 +11878,18 @@
       "thema": null,
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "s7",
+      "medienId": "18112288100331920",
+      "veroeffentlicht": "2026-10-16T12:40:03.057Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
