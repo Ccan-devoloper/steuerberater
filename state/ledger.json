@@ -11970,6 +11970,18 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-10-16",
+      "slot": "s3",
+      "medienId": "17908581597592889",
+      "veroeffentlicht": "2026-10-16T17:00:21.655Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
