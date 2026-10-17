@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-17T07:45:34.018Z",
+  "stand": "2026-10-17T08:44:36.221Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -31769,6 +31769,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-17T08:44:34.697Z",
+          "alterStunden": 21.2,
+          "reach": 45,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -31848,6 +31860,23 @@
           "navigation_swipe_forward": 7,
           "navigation_tap_forward": 51,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-10-17T08:44:32.960Z",
+          "alterStunden": 20.1,
+          "reach": 80,
+          "views": 89,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 82,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 59,
+          "navigation_swipe_forward": 9,
+          "navigation_tap_back": 5
         }
       ]
     },
@@ -32057,6 +32086,20 @@
           "ig_reels_avg_watch_time": 4673,
           "ig_reels_video_view_total_time": 728993,
           "reels_skip_rate": 77.1
+        },
+        {
+          "stand": "2026-10-17T08:44:34.697Z",
+          "alterStunden": 15.7,
+          "reach": 160,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 193,
+          "ig_reels_avg_watch_time": 4570,
+          "ig_reels_video_view_total_time": 749536,
+          "reels_skip_rate": 77.4
         }
       ]
     },
@@ -34042,6 +34085,11 @@
     },
     {
       "stand": "2026-10-17T07:45:34.018Z",
+      "follower": 175,
+      "medien": 124
+    },
+    {
+      "stand": "2026-10-17T08:44:36.221Z",
       "follower": 175,
       "medien": 124
     }

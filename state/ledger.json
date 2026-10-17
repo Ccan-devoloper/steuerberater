@@ -11869,7 +11869,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 43,
+        "reach": 45,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11878,8 +11878,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-17T05:09:11.406Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-17T08:44:34.697Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-16",
@@ -11922,22 +11922,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 66,
-        "views": 74,
+        "reach": 80,
+        "views": 89,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 69,
-        "navigation_tap_back": 4,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_forward": 51,
-        "navigation_tap_exit": 7
+        "navigation": 82,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 59,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-17T05:09:03.568Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-17T08:44:32.960Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-16",
@@ -11990,19 +11990,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 155,
+        "reach": 160,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 185,
-        "ig_reels_avg_watch_time": 4673,
-        "ig_reels_video_view_total_time": 728993,
-        "reels_skip_rate": 77.1
+        "views": 193,
+        "ig_reels_avg_watch_time": 4570,
+        "ig_reels_video_view_total_time": 749536,
+        "reels_skip_rate": 77.4
       },
-      "insightsStand": "2026-10-17T05:09:11.406Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-17T08:44:34.697Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-10-16",
