@@ -9563,8 +9563,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-16T05:45:10.176Z",
-      "insightsAlterStunden": 143.3
+      "insightsStand": "2026-10-17T06:30:18.382Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-10-10",
@@ -9928,8 +9928,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-16T05:45:10.176Z",
-      "insightsAlterStunden": 119.3
+      "insightsStand": "2026-10-17T06:30:18.382Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-10-11",
@@ -10283,7 +10283,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 105,
+        "reach": 110,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -10292,8 +10292,8 @@
         "follows": 3,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-16T05:45:10.176Z",
-      "insightsAlterStunden": 95.3
+      "insightsStand": "2026-10-17T06:30:18.382Z",
+      "insightsAlterStunden": 120
     },
     {
       "datum": "2026-10-12",
@@ -11139,7 +11139,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 58,
+        "reach": 59,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -11148,8 +11148,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-16T22:13:54.123Z",
-      "insightsAlterStunden": 58.7
+      "insightsStand": "2026-10-17T06:30:18.382Z",
+      "insightsAlterStunden": 67
     },
     {
       "datum": "2026-10-14",
@@ -11271,8 +11271,8 @@
         "ig_reels_video_view_total_time": 592424,
         "reels_skip_rate": 73
       },
-      "insightsStand": "2026-10-16T22:13:54.123Z",
-      "insightsAlterStunden": 53.2
+      "insightsStand": "2026-10-17T06:30:18.382Z",
+      "insightsAlterStunden": 61.5
     },
     {
       "datum": "2026-10-14",
@@ -11421,8 +11421,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-16T22:13:54.123Z",
-      "insightsAlterStunden": 39.7
+      "insightsStand": "2026-10-17T06:30:18.382Z",
+      "insightsAlterStunden": 48
     },
     {
       "datum": "2026-10-15",
@@ -12072,7 +12072,24 @@
       "storyArt": "frage",
       "thema": "kst-quiz-kst-5",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-10-17T06:30:16.302Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-17",
@@ -12084,7 +12101,23 @@
       "storyArt": "antwort",
       "thema": "kst-quiz-kst-5",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 15,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 11,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 8
+      },
+      "insightsStand": "2026-10-17T06:30:16.302Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-17",
