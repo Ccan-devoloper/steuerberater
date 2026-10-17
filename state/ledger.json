@@ -11893,22 +11893,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 83,
-        "views": 103,
+        "reach": 88,
+        "views": 109,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 91,
-        "navigation_tap_forward": 64,
+        "navigation": 96,
+        "navigation_tap_forward": 67,
         "navigation_swipe_forward": 12,
-        "navigation_tap_exit": 8,
-        "navigation_tap_back": 7
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-17T07:45:28.706Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-10-17T10:14:04.907Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-16",
