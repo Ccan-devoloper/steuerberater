@@ -12331,6 +12331,28 @@
       },
       "insightsStand": "2026-10-17T16:44:28.152Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-17",
+      "slot": "b3",
+      "medienId": "18054173459808691",
+      "veroeffentlicht": "2026-10-17T17:00:12.523Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "istr-aufb-istr-gh-3-13",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -12339,7 +12361,7 @@
     "kst": 11,
     "ao": 22,
     "bilanz": 21,
-    "istr": 15,
+    "istr": 16,
     "erbst": 7,
     "mindset": 2,
     "est": 3,
