@@ -12192,13 +12192,35 @@
       "thema": "persg-karte-k3-28",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-17",
+      "slot": "b2",
+      "medienId": "18133425769781836",
+      "veroeffentlicht": "2026-10-17T11:30:05.201Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "rechenweg",
+      "thema": "ao-aufb-ao-jacobs-7-9",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 14,
     "ust": 11,
     "kst": 11,
-    "ao": 21,
+    "ao": 22,
     "bilanz": 21,
     "istr": 15,
     "erbst": 7,
