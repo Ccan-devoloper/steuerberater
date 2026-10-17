@@ -11260,19 +11260,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 121,
+        "reach": 123,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
-        "views": 152,
-        "ig_reels_avg_watch_time": 4701,
-        "ig_reels_video_view_total_time": 592424,
-        "reels_skip_rate": 73
+        "views": 154,
+        "ig_reels_avg_watch_time": 4662,
+        "ig_reels_video_view_total_time": 596766,
+        "reels_skip_rate": 72.6
       },
-      "insightsStand": "2026-10-17T06:30:18.382Z",
-      "insightsAlterStunden": 61.5
+      "insightsStand": "2026-10-17T14:45:25.104Z",
+      "insightsAlterStunden": 69.8
     },
     {
       "datum": "2026-10-14",
@@ -11412,7 +11412,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 68,
+        "reach": 70,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -11421,8 +11421,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-17T06:30:18.382Z",
-      "insightsAlterStunden": 48
+      "insightsStand": "2026-10-17T14:45:25.104Z",
+      "insightsAlterStunden": 56.3
     },
     {
       "datum": "2026-10-15",
@@ -11990,19 +11990,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 162,
+        "reach": 164,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 193,
-        "ig_reels_avg_watch_time": 4558,
-        "ig_reels_video_view_total_time": 752136,
-        "reels_skip_rate": 78
+        "views": 197,
+        "ig_reels_avg_watch_time": 4509,
+        "ig_reels_video_view_total_time": 762054,
+        "reels_skip_rate": 77.8
       },
-      "insightsStand": "2026-10-17T11:44:48.913Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-17T14:45:25.104Z",
+      "insightsAlterStunden": 21.8
     },
     {
       "datum": "2026-10-16",
@@ -12074,22 +12074,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 52,
-        "views": 60,
+        "reach": 61,
+        "views": 75,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_swipe_forward": 7,
+        "navigation": 62,
+        "navigation_tap_forward": 42,
+        "navigation_tap_exit": 9,
         "navigation_tap_back": 3,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 33
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-10-17T10:45:18.210Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-17T14:45:22.627Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-17",
@@ -12103,22 +12103,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 49,
-        "views": 54,
+        "reach": 60,
+        "views": 71,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_tap_exit": 4,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 36
+        "navigation": 60,
+        "navigation_tap_forward": 45,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 5
       },
-      "insightsStand": "2026-10-17T10:45:18.210Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-17T14:45:22.627Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-17",
@@ -12142,7 +12142,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 60,
         "saved": 2,
         "shares": 1,
         "likes": 2,
@@ -12151,8 +12151,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-17T11:30:19.281Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-17T14:45:25.104Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-17",
@@ -12231,17 +12231,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 21,
-        "saved": 0,
+        "reach": 36,
+        "saved": 1,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 2,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-17T12:40:06.884Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-17T14:45:25.104Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-17",
