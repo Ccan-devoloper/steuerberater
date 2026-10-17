@@ -12166,22 +12166,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 65,
-        "views": 79,
+        "reach": 76,
+        "views": 93,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 70,
-        "navigation_tap_forward": 54,
-        "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_back": 2
+        "navigation": 83,
+        "navigation_tap_forward": 63,
+        "navigation_tap_exit": 10,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-17T16:44:28.152Z",
-      "insightsAlterStunden": 10.2
+      "insightsStand": "2026-10-17T20:44:45.897Z",
+      "insightsAlterStunden": 14.2
     },
     {
       "datum": "2026-10-17",
@@ -12195,22 +12195,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 49,
-        "views": 64,
+        "reach": 72,
+        "views": 91,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 54,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 10,
-        "navigation_tap_forward": 36
+        "navigation": 79,
+        "navigation_tap_forward": 50,
+        "navigation_tap_exit": 15,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 9
       },
-      "insightsStand": "2026-10-17T15:45:00.666Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-17T20:44:45.897Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-10-17",
@@ -12234,7 +12234,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 42,
+        "reach": 49,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -12243,8 +12243,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-17T16:44:33.272Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-17T20:44:50.853Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-17",
@@ -12258,22 +12258,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 48,
-        "views": 61,
+        "reach": 65,
+        "views": 79,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 36,
-        "navigation_tap_back": 2
+        "navigation": 70,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 49,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-10-17T16:44:28.152Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-17T20:44:45.897Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-17",
@@ -12316,21 +12316,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 25,
-        "views": 29,
+        "reach": 56,
+        "views": 64,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 19,
-        "navigation_swipe_forward": 2
+        "navigation": 57,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 44,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-17T16:44:28.152Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-17T20:44:45.897Z",
+      "insightsAlterStunden": 5.7
     },
     {
       "datum": "2026-10-17",
@@ -12354,19 +12355,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 113,
+        "reach": 126,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 141,
-        "ig_reels_avg_watch_time": 4251,
-        "ig_reels_video_view_total_time": 505928,
-        "reels_skip_rate": 74.6
+        "views": 157,
+        "ig_reels_avg_watch_time": 4336,
+        "ig_reels_video_view_total_time": 572436,
+        "reels_skip_rate": 75.8
       },
-      "insightsStand": "2026-10-17T18:44:18.084Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-17T20:44:50.853Z",
+      "insightsAlterStunden": 3.7
     },
     {
       "datum": "2026-10-17",
