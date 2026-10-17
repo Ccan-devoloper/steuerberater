@@ -11922,22 +11922,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 80,
-        "views": 89,
+        "reach": 82,
+        "views": 91,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 82,
+        "navigation": 84,
         "navigation_tap_exit": 9,
-        "navigation_tap_forward": 59,
+        "navigation_tap_forward": 60,
         "navigation_swipe_forward": 9,
-        "navigation_tap_back": 5
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-10-17T08:44:32.960Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-10-17T10:45:18.210Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-10-16",
@@ -12074,22 +12074,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 17,
-        "views": 25,
+        "reach": 52,
+        "views": 60,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 10
+        "navigation": 51,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 33
       },
-      "insightsStand": "2026-10-17T06:30:16.302Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-17T10:45:18.210Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-17",
@@ -12103,21 +12103,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 15,
-        "views": 18,
+        "reach": 49,
+        "views": 54,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 11,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 8
+        "navigation": 47,
+        "navigation_tap_exit": 4,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 36
       },
-      "insightsStand": "2026-10-17T06:30:16.302Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-17T10:45:18.210Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-17",
