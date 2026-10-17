@@ -41,8 +41,9 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "kst-quiz-kst-5",
-      "status": "sendet",
-      "sendeversuch": "2026-10-17T05:07:00.083Z"
+      "status": "veroeffentlicht",
+      "medienId": "18103584653221021",
+      "veroeffentlicht": "2026-10-17T05:07:03.362Z"
     },
     {
       "slot": "s5",
