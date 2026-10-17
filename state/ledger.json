@@ -12241,6 +12241,18 @@
       "thema": null,
       "fach": "ao",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-17",
+      "slot": "s7",
+      "medienId": "18155598517518896",
+      "veroeffentlicht": "2026-10-17T12:40:03.187Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
