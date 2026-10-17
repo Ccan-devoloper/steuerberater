@@ -118,7 +118,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "gewst-aufb-gewst-ks-02",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-17T17:12:00.100Z"
     }
   ]
 }
