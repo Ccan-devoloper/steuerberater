@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-17T06:30:20.563Z",
+  "stand": "2026-10-17T07:45:34.018Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -23490,6 +23490,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-17T07:45:32.791Z",
+          "alterStunden": 164.3,
+          "reach": 96,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -27727,6 +27739,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-17T07:45:32.791Z",
+          "alterStunden": 92.3,
+          "reach": 80,
+          "saved": 3,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -31560,6 +31584,23 @@
           "navigation_tap_forward": 59,
           "navigation_swipe_forward": 10,
           "navigation_tap_exit": 9
+        },
+        {
+          "stand": "2026-10-17T07:45:28.706Z",
+          "alterStunden": 21.5,
+          "reach": 90,
+          "views": 110,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 93,
+          "navigation_tap_exit": 11,
+          "navigation_swipe_forward": 11,
+          "navigation_tap_forward": 65,
+          "navigation_tap_back": 6
         }
       ]
     },
@@ -31639,6 +31680,23 @@
           "navigation_tap_exit": 8,
           "navigation_swipe_forward": 11,
           "navigation_tap_forward": 58
+        },
+        {
+          "stand": "2026-10-17T07:45:28.706Z",
+          "alterStunden": 20.3,
+          "reach": 83,
+          "views": 103,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 91,
+          "navigation_tap_forward": 64,
+          "navigation_swipe_forward": 12,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 7
         }
       ]
     },
@@ -32056,6 +32114,57 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_back": 1,
           "navigation_tap_forward": 8
+        }
+      ]
+    },
+    "18023663201716232": {
+      "art": "story",
+      "datum": "2026-10-17",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T06:30:15.265Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T07:45:28.706Z",
+          "alterStunden": 1.3,
+          "reach": 18,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 15,
+          "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "18137492908639591": {
+      "art": "beitrag",
+      "datum": "2026-10-17",
+      "titel": "Klausurtechnik",
+      "format": "klausurtechnik",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T06:30:05.600Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T07:45:32.791Z",
+          "alterStunden": 1.3,
+          "reach": 33,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -33928,6 +34037,11 @@
     },
     {
       "stand": "2026-10-17T06:30:20.563Z",
+      "follower": 175,
+      "medien": 124
+    },
+    {
+      "stand": "2026-10-17T07:45:34.018Z",
       "follower": 175,
       "medien": 124
     }
