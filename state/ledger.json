@@ -9767,19 +9767,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 186,
+        "reach": 188,
         "saved": 2,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 5,
-        "views": 236,
-        "ig_reels_avg_watch_time": 5255,
-        "ig_reels_video_view_total_time": 1009069,
+        "views": 241,
+        "ig_reels_avg_watch_time": 5217,
+        "ig_reels_video_view_total_time": 1012146,
         "reels_skip_rate": 68.8
       },
-      "insightsStand": "2026-10-16T15:07:07.525Z",
-      "insightsAlterStunden": 142.1
+      "insightsStand": "2026-10-17T15:45:05.206Z",
+      "insightsAlterStunden": 166.7
     },
     {
       "datum": "2026-10-10",
@@ -12016,22 +12016,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 78,
-        "views": 98,
+        "reach": 86,
+        "views": 110,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 85,
-        "navigation_tap_back": 7,
-        "navigation_tap_forward": 59,
-        "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 10
+        "navigation": 94,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 64,
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-10-17T13:44:47.816Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-17T15:45:00.666Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-16",
@@ -12045,22 +12045,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 75,
-        "views": 90,
+        "reach": 80,
+        "views": 96,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 82,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 12,
-        "navigation_tap_forward": 55,
-        "navigation_tap_back": 8
+        "navigation": 88,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 59,
+        "navigation_tap_exit": 13,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-17T13:44:47.816Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-17T15:45:00.666Z",
+      "insightsAlterStunden": 22.5
     },
     {
       "datum": "2026-10-17",
@@ -12194,20 +12194,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 21,
+        "reach": 49,
+        "views": 64,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 12
+        "navigation": 54,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 36
       },
-      "insightsStand": "2026-10-17T11:30:17.956Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-10-17T15:45:00.666Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-17",
