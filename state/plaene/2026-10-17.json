@@ -118,8 +118,9 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "gewst-aufb-gewst-ks-02",
-      "status": "sendet",
-      "sendeversuch": "2026-10-17T17:12:00.100Z"
+      "status": "veroeffentlicht",
+      "medienId": "17973602418168100",
+      "veroeffentlicht": "2026-10-17T17:12:02.796Z"
     }
   ]
 }

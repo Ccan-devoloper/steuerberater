@@ -12365,6 +12365,18 @@
       "thema": null,
       "fach": "istr",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-17",
+      "slot": "s9",
+      "medienId": "17973602418168100",
+      "veroeffentlicht": "2026-10-17T17:12:02.797Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "gewst-aufb-gewst-ks-02",
+      "fach": "gewst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
