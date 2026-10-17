@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-17T17:32:51.455Z",
+  "stand": "2026-10-17T18:44:19.403Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -32716,6 +32716,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-17T18:44:18.084Z",
+          "alterStunden": 12.2,
+          "reach": 67,
+          "saved": 2,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -32882,6 +32894,23 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 4,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-10-17T18:44:12.746Z",
+          "alterStunden": 6.1,
+          "reach": 54,
+          "views": 65,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 55,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 10,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_forward": 37
         }
       ]
     },
@@ -32910,6 +32939,90 @@
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 19,
           "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18099536399091027": {
+      "art": "story",
+      "datum": "2026-10-17",
+      "titel": null,
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T17:00:28.960Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T18:44:12.746Z",
+          "alterStunden": 1.7,
+          "reach": 26,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 19
+        }
+      ]
+    },
+    "17973602418168100": {
+      "art": "story",
+      "datum": "2026-10-17",
+      "titel": null,
+      "format": null,
+      "fach": "gewst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T17:12:02.797Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T18:44:12.746Z",
+          "alterStunden": 1.5,
+          "reach": 24,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 14,
+          "navigation_tap_exit": 5
+        }
+      ]
+    },
+    "18054173459808691": {
+      "art": "beitrag",
+      "datum": "2026-10-17",
+      "titel": "Veranlagung Gebietsfremder: Was § 50 EStG alles streicht",
+      "format": "reel",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T17:00:12.523Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T18:44:18.084Z",
+          "alterStunden": 1.7,
+          "reach": 113,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 141,
+          "ig_reels_avg_watch_time": 4251,
+          "ig_reels_video_view_total_time": 505928,
+          "reels_skip_rate": 74.6
         }
       ]
     }
@@ -34837,6 +34950,11 @@
     },
     {
       "stand": "2026-10-17T17:32:51.455Z",
+      "follower": 176,
+      "medien": 126
+    },
+    {
+      "stand": "2026-10-17T18:44:19.403Z",
       "follower": 176,
       "medien": 126
     }
