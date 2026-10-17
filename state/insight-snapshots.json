@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-17T11:44:49.956Z",
+  "stand": "2026-10-17T12:40:07.567Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -32372,6 +32372,22 @@
           "navigation": 18,
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 3
+        },
+        {
+          "stand": "2026-10-17T12:40:04.366Z",
+          "alterStunden": 6.2,
+          "reach": 44,
+          "views": 56,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 47,
+          "navigation_tap_forward": 35,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 4
         }
       ]
     },
@@ -32447,6 +32463,58 @@
           "navigation": 15,
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 12
+        }
+      ]
+    },
+    "18102554162454739": {
+      "art": "story",
+      "datum": "2026-10-17",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T11:30:17.044Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T12:40:04.366Z",
+          "alterStunden": 1.2,
+          "reach": 13,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 13,
+          "navigation_tap_forward": 8,
+          "navigation_tap_exit": 3,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18133425769781836": {
+      "art": "beitrag",
+      "datum": "2026-10-17",
+      "titel": "Rechenweg",
+      "format": "rechenweg",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-17T11:30:05.201Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-17T12:40:06.884Z",
+          "alterStunden": 1.2,
+          "reach": 21,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -34344,6 +34412,11 @@
     },
     {
       "stand": "2026-10-17T11:44:49.956Z",
+      "follower": 175,
+      "medien": 125
+    },
+    {
+      "stand": "2026-10-17T12:40:07.567Z",
       "follower": 175,
       "medien": 125
     }
