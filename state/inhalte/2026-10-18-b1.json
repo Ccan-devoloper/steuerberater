@@ -1,0 +1,73 @@
+{
+  "format": "wochenrueckblick",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Alle Klausuren",
+  "themaId": "wochenrueckblick-alle-2026-42",
+  "caption": "Wochenrückblick KW 42: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Ein Änderungsantrag außerhalb eines Rechtsbehelfsverfahrens hemmt den Ablauf der Festsetzungsfrist nur, soweit er reicht (§ 171 Abs. 3 AO). Ein zulässiger Einspruch hemmt hinsichtlich des gesamten Steueranspruchs, auch wenn er erst nach Fristende eingelegt wird (§ 171 Abs. 3a S. 1, 2 AO).\n2. Reihengeschäft: Wer transportiert, entscheidet, welche Lieferung die bewegte ist (§ 3 Abs. 6a S. 2–5 UStG); vorangehende ruhende Lieferungen gelten am Beginn, nachfolgende am Ende des Transports als ausgeführt (§ 3 Abs. 7 S. 2 UStG).\n\nKlausur 2 (Ertragsteuern)\n3. Verkauf privat gehaltener GmbH-Anteile bei einer Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre: Einkünfte aus Gewerbebetrieb, Teileinkünfteverfahren (§ 17 Abs. 1 S. 1, § 3 Nr. 40 S. 1 Buchst. c, § 3c Abs. 2 EStG).\n4. Gewerbesteuer-Anrechnung: das Vierfache des Messbetrags, begrenzt auf den Ermäßigungshöchstbetrag und die tatsächlich zu zahlende Gewerbesteuer (§ 35 Abs. 1 S. 1 Nr. 1, S. 2, 5 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Einbringung nach § 20 UmwStG: Buchwert nur, soweit die Passivposten die Aktivposten nicht übersteigen; bei negativem Kapital also mindestens 0 €, der Unterschied ist Einbringungsgewinn (§ 20 Abs. 2 S. 2 Nr. 2, Abs. 3 S. 1 UmwStG).\n6. Zuzahlungen neben den neuen Anteilen schaden nicht, solange ihr gemeiner Wert den höheren Betrag aus einem Viertel des Buchwerts und 500.000 € nicht übersteigt; Obergrenze ist der Buchwert selbst (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG).\n\nZum Schluss: § 171 Abs. 3, 3a AO zum Markieren. Speichern für alle drei Klausuren 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#steuerrecht"
+  ],
+  "quellen": [
+    "§ 171 Abs. 3, 3a AO",
+    "§ 3 Abs. 6a, 7 S. 2 UStG",
+    "§ 17 Abs. 1 S. 1 EStG",
+    "§ 3 Nr. 40 S. 1 Buchst. c EStG",
+    "§ 3c Abs. 2 EStG",
+    "§ 35 Abs. 1 S. 1 Nr. 1, S. 2, 5 EStG",
+    "§ 20 Abs. 2 S. 2 Nr. 2, 4, Abs. 3 S. 1 UmwStG"
+  ],
+  "slug": "2026-10-18-b1",
+  "kurztitel": "Alle Klausuren: sechs Themen der Woche 42",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Wochenrückblick",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Wochenrückblick",
+      "text": "Wochenrückblick · Alle 3 · Klausuren · 6 Themen · + Markier-Guide § 171 AO · OKTOBER · 18 · So · Rückblick KW 42",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Die Woche in 3 Klausuren · Klausur 1 · AO und USt · § 171 Abs. 3, 3a AO · § 3 Abs. 6a UStG · Ablaufhemmung und Reihengeschäft · Klausur 2 · ESt und GewSt · §§ 17, 35 EStG · GmbH-Anteile und Gewerbesteuer-Anrechnung · Klausur 3 · Umwandlung · § 20 Abs. 2, 3 UmwStG · Negatives Kapital und Zuzahlung · Am Ende: § 171 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 1 · AO und USt · Änderungsantrag hemmt die Festsetzungsfrist nur, soweit er reicht. · § 171 Abs. 3 AO · Zulässiger Einspruch hemmt für den gesamten Steueranspruch. · § 171 Abs. 3a S. 1, 2 AO · Reihengeschäft: Wer transportiert, bestimmt die bewegte Lieferung. · § 3 Abs. 6a S. 2–5 UStG · Lieber Einspruch!"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 2 · ESt und GewSt · Private GmbH-Anteile ab 1 % verkauft: gewerblich, 40 % steuerfrei. · § 17 Abs. 1 S. 1, § 3 Nr. 40 S. 1 Buchst. c EStG · Gewerbesteuer-Anrechnung: vierfacher Messbetrag, höchstens die tatsächlich zu zahlende Gewerbesteuer. · § 35 Abs. 1 S. 1 Nr. 1, S. 5 EStG · Welcher Wert ist kleiner?"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Klausur 3 · Umwandlung · Einbringung mit negativem Kapital: Ansatz mindestens 0 €, Differenz ist Gewinn. · § 20 Abs. 2 S. 2 Nr. 2, Abs. 3 S. 1 UmwStG · Zuzahlung neben den Anteilen: Grenze ist der höhere Wert aus 25 % vom Buchwert und 500.000 €, maximal der Buchwert. · § 20 Abs. 2 S. 2 Nr. 4 UmwStG · Erst rechnen!"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Einspruch hemmt ganz, · Transport macht bewegt, · Vierfacher Messbetrag, · Ansatz nie unter null. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 171 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Alle Klausuren",
+      "text": "§ 171 AO Ablaufhemmung (Auszug) · Antrag · nur soweit er reicht · Einspruch · auch spät · alles offen · Nachschieben nach Fristende? · Nur im Einspruch, nicht beim Antrag"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-04",
+  "caption": "Prüfungsfrage: Darf der Gesetzgeber ein DBA einseitig überspielen?\n\nFall: Wohnsitz in Köln, Arbeitslohn aus dem DBA-Ausland, nach dem Abkommen freizustellen – aber kein Nachweis über Besteuerung oder Verzicht.\n\n▸ Freistellung von Arbeitslohn bei der Veranlagung ungeachtet des Abkommens nur, soweit der Steuerpflichtige den Verzicht des anderen Staates oder die Entrichtung der dort festgesetzten Steuern nachweist (§ 50d Abs. 8 S. 1 EStG). Späterer Nachweis: Änderung des Bescheids (§ 50d Abs. 8 S. 2 EStG).\n▸ DBA gelten innerstaatlich über das Zustimmungsgesetz (Art. 59 Abs. 2 S. 1 GG) und haben den Rang eines einfachen Bundesgesetzes; ein späteres Gesetz kann abweichen. Treaty Override ist verfassungsrechtlich zulässig (BVerfG vom 15.12.2015, 2 BvL 1/12).\n▸ Vorrang vor Bundesgesetzen haben nur die allgemeinen Regeln des Völkerrechts (Art. 25 GG), nicht einzelne Abkommen.\n▸ Weiterer Override: Freistellung entfällt u. a., wenn der andere Staat das DBA so anwendet, dass er die Einkünfte ebenfalls freistellt (§ 50d Abs. 9 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 50d Abs. 8 EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 50d Abs. 8, 9 EStG",
+    "Art. 59 Abs. 2 S. 1 GG",
+    "Art. 25 GG",
+    "BVerfG vom 15.12.2015, 2 BvL 1/12"
+  ],
+  "slug": "2026-10-18-b2",
+  "kurztitel": "Darf der Gesetzgeber ein DBA einseitig überspielen?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · DBA einseitig · überspielen? · § 50d Abs. 8 EStG · Treaty Override · + Markier-Guide § 50d EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Der Fall · Sven wohnt in Köln und arbeitet 2026 acht Monate auf einer Baustelle im DBA-Ausland. · Nach dem DBA wäre sein Lohn in Deutschland freizustellen. · Einen Nachweis über Steuerzahlung oder Verzicht im Ausland hat er nicht. · Das DBA schützt mich!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Jetzt du · Darf das Finanzamt den Lohn trotz DBA besteuern? · Denk an den Rang, den ein DBA im deutschen Recht hat. · Lösung: weiterwischen · Völkerrecht geht vor?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: ja · Freistellung von Arbeitslohn nur mit Nachweis der Besteuerung oder des Verzichts im anderen Staat. · § 50d Abs. 8 S. 1 EStG · Ohne Nachweis wird der Lohn in Deutschland besteuert. · Kommt der Nachweis später, wird der Bescheid geändert. · § 50d Abs. 8 S. 2 EStG · Trotz Abkommen?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Warum darf er das? · Ein DBA gilt im Inland erst durch ein Zustimmungsgesetz. · Art. 59 Abs. 2 S. 1 GG · Es hat damit nur den Rang eines einfachen Bundesgesetzes. · Ein späteres Gesetz darf abweichen: Treaty Override ist zulässig. · BVerfG vom 15.12.2015, 2 BvL 1/12 · Später schlägt früher."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Völkerrecht geht vor? · Vorrang haben nur die allgemeinen Regeln des Völkerrechts. · Art. 25 GG · Ein DBA ist ein einzelner Vertrag und gehört nicht dazu. · Also kein Schutz?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Auch § 50d Abs. 9 EStG · Stellt der andere Staat die Einkünfte nach seiner DBA-Auslegung ebenfalls frei, entfällt die deutsche Freistellung. · § 50d Abs. 9 S. 1 Nr. 1 EStG · Ziel: keine Einkünfte, die nirgends besteuert werden. · Doppelt frei geht nicht."
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: Ja, ohne Nachweis wird besteuert · § 50d Abs. 8 EStG überspielt das DBA · DBA ist einfaches · Bundesgesetz: · Später geht vor, · Override ist zulässig. · Speichern für Klausur 2 · Kennst du einen weiteren Override? · Weiterwischen: § 50d EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 50d Abs. 8 EStG (Auszug) · Treaty Override · Beweislast · Verzicht oder Zahlung · Änderung später · BVerfG vom 15.12.2015, 2 BvL 1/12 · Treaty Override verfassungsgemäß"
+    }
+  ]
+}

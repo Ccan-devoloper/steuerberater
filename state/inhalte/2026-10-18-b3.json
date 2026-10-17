@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-formel-latente-steuern",
+  "caption": "Latente Steuern nach § 274 HGB: Belastung muss, Entlastung kann. 📊\n\n▸ Differenzen zwischen handelsrechtlichen und steuerlichen Wertansätzen, die sich später voraussichtlich abbauen: Eine insgesamt entstehende Steuerbelastung ist als passive latente Steuer anzusetzen, eine Steuerentlastung kann als aktive latente Steuer angesetzt werden (§ 274 Abs. 1 S. 1, 2 HGB).\n▸ Verlustvorträge zählen bei aktiven latenten Steuern in Höhe der in den nächsten fünf Jahren erwarteten Verrechnung (§ 274 Abs. 1 S. 4 HGB).\n▸ Bewertung mit dem unternehmensindividuellen Steuersatz im Zeitpunkt des Abbaus, ohne Abzinsung (§ 274 Abs. 2 S. 1 HGB). Beispiel: 100.000 € × 30 % = 30.000 €.\n▸ Kleine Kapitalgesellschaften sind von § 274 HGB befreit (§ 274a Nr. 4 HGB).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 274 Abs. 1, 2 HGB",
+    "§ 274a Nr. 4 HGB"
+  ],
+  "slug": "2026-10-18-b3",
+  "kurztitel": "Latente Steuern",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Latente Steuern: immer Pflicht"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Formel"
+    },
+    {
+      "art": "schritt",
+      "titel": "Passiv oder aktiv"
+    },
+    {
+      "art": "schritt",
+      "titel": "Kleine GmbH"
+    }
+  ],
+  "sprecher": [
+    "Latente Steuern sind immer Pflicht? Nicht ganz. Eine Belastung musst du ansetzen, eine Entlastung darfst du.",
+    "Gerechnet wird: Unterschied zwischen Handels- und Steuerbilanz mal Steuersatz. Bei hunderttausend Euro und dreißig Prozent: dreißigtausend.",
+    "Steht ein Vermögenswert in der Handelsbilanz höher, kommt später mehr Steuer: passive latente Steuern. Umgekehrt aktive, nur als Wahlrecht.",
+    "Und kleine Kapitalgesellschaften sind ganz befreit.",
+    "Merke: Belastung muss, Entlastung kann."
+  ],
+  "dauerS": 38.453,
+  "tempo": 1
+}

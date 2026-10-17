@@ -1,0 +1,26 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-persg-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Auflösung",
+    "A: gewerblich",
+    "Gewerblich als Sondervergütung",
+    "Nichtselbständige Arbeit",
+    "Steuerfrei",
+    "Die Sondervergütung verdrängt § 19 EStG: Aufwand in der Gesamthand, Ertrag im Sonderbereich.",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

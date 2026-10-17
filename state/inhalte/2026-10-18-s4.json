@@ -1,0 +1,27 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-persg-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Prüfungsfrage",
+    "GF-Gehalt an die",
+    "Kommanditistin:",
+    "welche Einkünfte?",
+    "Gewerblich als Sondervergütung",
+    "Nichtselbständige Arbeit",
+    "Steuerfrei",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

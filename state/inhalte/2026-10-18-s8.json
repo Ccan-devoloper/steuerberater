@@ -1,0 +1,28 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-10",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Klausurtipp",
+    "Doppelwohnsitz:",
+    "wer ist ansässig?",
+    "Ständige Wohnstätte; in beiden Staaten: Lebensmittelpunkt",
+    "Art. 4 Abs. 2 Buchst. a OECD-MA",
+    "Dann gewöhnlicher Aufenthalt, dann Staatsangehörigkeit",
+    "Art. 4 Abs. 2 Buchst. b, c OECD-MA",
+    "Sonst Verständigung",
+    "Art. 4 Abs. 2 Buchst. d OECD-MA"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
