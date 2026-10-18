@@ -41,7 +41,8 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "persg-quiz-persg-5",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-18T05:07:00.041Z"
     },
     {
       "slot": "s5",
