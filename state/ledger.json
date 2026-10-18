@@ -10860,19 +10860,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 161,
+        "reach": 165,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 207,
-        "ig_reels_avg_watch_time": 5953,
-        "ig_reels_video_view_total_time": 964510,
-        "reels_skip_rate": 71.7
+        "views": 213,
+        "ig_reels_avg_watch_time": 6249,
+        "ig_reels_video_view_total_time": 1037430,
+        "reels_skip_rate": 71.2
       },
-      "insightsStand": "2026-10-17T13:44:53.471Z",
-      "insightsAlterStunden": 92.7
+      "insightsStand": "2026-10-18T14:10:11.500Z",
+      "insightsAlterStunden": 117.2
     },
     {
       "datum": "2026-10-13",
@@ -12598,7 +12598,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 18,
+        "reach": 33,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -12607,8 +12607,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-18T12:40:07.689Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-18T14:10:11.500Z",
+      "insightsAlterStunden": 2.7
     },
     {
       "datum": "2026-10-18",
