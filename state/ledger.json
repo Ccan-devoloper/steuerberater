@@ -12381,22 +12381,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 74,
-        "views": 84,
+        "reach": 85,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 75,
-        "navigation_tap_forward": 53,
-        "navigation_tap_exit": 14,
-        "navigation_tap_back": 3,
-        "navigation_swipe_forward": 5
+        "navigation": 88,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 18,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 9
       },
-      "insightsStand": "2026-10-18T13:44:44.742Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-18T16:44:27.278Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-17",
@@ -12410,22 +12410,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 71,
-        "views": 81,
+        "reach": 77,
+        "views": 89,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 68,
+        "navigation": 73,
         "navigation_tap_back": 2,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 50,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 53,
         "navigation_tap_exit": 12
       },
-      "insightsStand": "2026-10-18T13:44:44.742Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-18T16:44:27.278Z",
+      "insightsAlterStunden": 23.5
     },
     {
       "datum": "2026-10-18",
@@ -12531,22 +12531,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 49,
-        "views": 56,
+        "reach": 63,
+        "views": 72,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 55,
+        "navigation": 68,
         "navigation_tap_exit": 6,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 41,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 53,
         "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-18T11:44:50.642Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-18T16:44:27.278Z",
+      "insightsAlterStunden": 10.2
     },
     {
       "datum": "2026-10-18",
@@ -12623,22 +12623,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 19,
-        "views": 30,
+        "reach": 47,
+        "views": 62,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 19,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 13,
-        "navigation_tap_exit": 3,
-        "navigation_tap_back": 1
+        "navigation": 53,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 38,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-18T12:40:04.753Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-18T16:44:27.278Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-18",
@@ -12679,7 +12679,24 @@
       "storyArt": "tipp",
       "thema": "istr-aufb-istr-gh-4-10",
       "fach": "istr",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 19,
+        "views": 29,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 20,
+        "navigation_tap_forward": 13,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-10-18T16:44:27.278Z",
+      "insightsAlterStunden": 1.7
     }
   ],
   "fachZaehler": {
