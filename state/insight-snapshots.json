@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-18T11:44:52.164Z",
+  "stand": "2026-10-18T12:40:09.351Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -33541,6 +33541,23 @@
           "navigation_tap_forward": 57,
           "navigation_tap_exit": 7,
           "navigation_tap_back": 4
+        },
+        {
+          "stand": "2026-10-18T12:40:04.753Z",
+          "alterStunden": 21.6,
+          "reach": 78,
+          "views": 89,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 81,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 62,
+          "navigation_tap_exit": 9,
+          "navigation_tap_back": 5
         }
       ]
     },
@@ -33749,6 +33766,20 @@
           "ig_reels_avg_watch_time": 6099,
           "ig_reels_video_view_total_time": 884374,
           "reels_skip_rate": 70.5
+        },
+        {
+          "stand": "2026-10-18T12:40:07.689Z",
+          "alterStunden": 19.7,
+          "reach": 150,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 189,
+          "ig_reels_avg_watch_time": 6147,
+          "ig_reels_video_view_total_time": 959008,
+          "reels_skip_rate": 69.4
         }
       ]
     },
@@ -33961,6 +33992,59 @@
           "navigation_tap_forward": 12,
           "navigation_tap_exit": 2,
           "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "17893894806438278": {
+      "art": "story",
+      "datum": "2026-10-18",
+      "titel": null,
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-18T11:30:18.464Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-18T12:40:04.753Z",
+          "alterStunden": 1.2,
+          "reach": 19,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17872119399641962": {
+      "art": "beitrag",
+      "datum": "2026-10-18",
+      "titel": "Prüfungsfrage",
+      "format": "pruefungsfrage",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-18T11:30:06.153Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-18T12:40:07.689Z",
+          "alterStunden": 1.2,
+          "reach": 18,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -35943,6 +36027,11 @@
     },
     {
       "stand": "2026-10-18T11:44:52.164Z",
+      "follower": 176,
+      "medien": 128
+    },
+    {
+      "stand": "2026-10-18T12:40:09.351Z",
       "follower": 176,
       "medien": 128
     }

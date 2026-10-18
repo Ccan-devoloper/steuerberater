@@ -12316,22 +12316,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 71,
-        "views": 78,
+        "reach": 78,
+        "views": 89,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 72,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 57,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 4
+        "navigation": 81,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 62,
+        "navigation_tap_exit": 9,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-18T09:44:59.324Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-18T12:40:04.753Z",
+      "insightsAlterStunden": 21.6
     },
     {
       "datum": "2026-10-17",
@@ -12355,19 +12355,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 139,
+        "reach": 150,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 177,
-        "ig_reels_avg_watch_time": 6099,
-        "ig_reels_video_view_total_time": 884374,
-        "reels_skip_rate": 70.5
+        "views": 189,
+        "ig_reels_avg_watch_time": 6147,
+        "ig_reels_video_view_total_time": 959008,
+        "reels_skip_rate": 69.4
       },
-      "insightsStand": "2026-10-18T08:44:56.402Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-10-18T12:40:07.689Z",
+      "insightsAlterStunden": 19.7
     },
     {
       "datum": "2026-10-17",
@@ -12596,7 +12596,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 18,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-18T12:40:07.689Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-18",
@@ -12608,7 +12620,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "istr",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 19,
+        "views": 30,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-18T12:40:04.753Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-18",
