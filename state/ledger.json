@@ -12668,6 +12668,18 @@
       },
       "insightsStand": "2026-10-18T13:44:44.742Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-18",
+      "slot": "s8",
+      "medienId": "18064012154549238",
+      "veroeffentlicht": "2026-10-18T15:04:04.013Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "istr-aufb-istr-gh-4-10",
+      "fach": "istr",
+      "titel": ""
     }
   ],
   "fachZaehler": {
