@@ -12195,22 +12195,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 75,
-        "views": 93,
+        "reach": 83,
+        "views": 106,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 82,
+        "navigation": 92,
         "navigation_swipe_forward": 10,
-        "navigation_tap_back": 5,
-        "navigation_tap_exit": 15,
-        "navigation_tap_forward": 52
+        "navigation_tap_back": 7,
+        "navigation_tap_exit": 18,
+        "navigation_tap_forward": 57
       },
-      "insightsStand": "2026-10-18T05:09:05.511Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-18T07:44:49.834Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-17",
@@ -12258,22 +12258,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 69,
-        "views": 82,
+        "reach": 77,
+        "views": 92,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 74,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 50,
-        "navigation_tap_exit": 11,
+        "navigation": 83,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 12,
         "navigation_swipe_forward": 8
       },
-      "insightsStand": "2026-10-18T05:09:05.511Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-18T07:44:49.834Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-17",
@@ -12503,7 +12503,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#steuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 26,
+        "saved": 1,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 3,
+        "follows": 0,
+        "profile_visits": 2
+      },
+      "insightsStand": "2026-10-18T07:44:53.559Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-18",
@@ -12515,7 +12527,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 23,
+        "views": 30,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 27,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 22,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-18T07:44:49.834Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {

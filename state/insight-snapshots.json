@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-18T06:44:56.260Z",
+  "stand": "2026-10-18T07:44:53.978Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -33084,6 +33084,23 @@
           "navigation_tap_back": 5,
           "navigation_tap_exit": 15,
           "navigation_tap_forward": 52
+        },
+        {
+          "stand": "2026-10-18T07:44:49.834Z",
+          "alterStunden": 21.5,
+          "reach": 83,
+          "views": 106,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 92,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_back": 7,
+          "navigation_tap_exit": 18,
+          "navigation_tap_forward": 57
         }
       ]
     },
@@ -33162,6 +33179,23 @@
           "navigation_tap_back": 5,
           "navigation_tap_forward": 50,
           "navigation_tap_exit": 11,
+          "navigation_swipe_forward": 8
+        },
+        {
+          "stand": "2026-10-18T07:44:49.834Z",
+          "alterStunden": 20.2,
+          "reach": 77,
+          "views": 92,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 83,
+          "navigation_tap_back": 7,
+          "navigation_tap_forward": 56,
+          "navigation_tap_exit": 12,
           "navigation_swipe_forward": 8
         }
       ]
@@ -33576,6 +33610,59 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 8,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18386392105230194": {
+      "art": "story",
+      "datum": "2026-10-18",
+      "titel": null,
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-18T06:30:17.749Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-18T07:44:49.834Z",
+          "alterStunden": 1.2,
+          "reach": 23,
+          "views": 30,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 22,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18036404060846240": {
+      "art": "beitrag",
+      "datum": "2026-10-18",
+      "titel": "Wochenrückblick",
+      "format": "wochenrueckblick",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-18T06:30:04.928Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-18T07:44:53.559Z",
+          "alterStunden": 1.2,
+          "reach": 26,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     }
@@ -35533,6 +35620,11 @@
     },
     {
       "stand": "2026-10-18T06:30:23.742Z",
+      "follower": 176,
+      "medien": 127
+    },
+    {
+      "stand": "2026-10-18T07:44:53.978Z",
       "follower": 176,
       "medien": 127
     }
