@@ -12439,22 +12439,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 64,
-        "views": 76,
+        "reach": 90,
+        "views": 117,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 65,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 5,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 53
+        "navigation": 98,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 9,
+        "navigation_swipe_forward": 12,
+        "navigation_tap_forward": 74
       },
-      "insightsStand": "2026-10-18T14:45:10.256Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-10-18T19:40:25.158Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-10-18",
@@ -12468,22 +12468,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 61,
-        "views": 73,
+        "reach": 84,
+        "views": 110,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 65,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 53,
-        "navigation_tap_back": 7,
-        "navigation_tap_exit": 2
+        "navigation": 95,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 74,
+        "navigation_tap_back": 11,
+        "navigation_tap_exit": 6
       },
-      "insightsStand": "2026-10-18T14:45:10.256Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-10-18T19:40:25.158Z",
+      "insightsAlterStunden": 14.5
     },
     {
       "datum": "2026-10-18",
@@ -12720,19 +12720,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 15,
-        "saved": 0,
+        "reach": 160,
+        "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 76,
-        "ig_reels_avg_watch_time": 3430,
-        "ig_reels_video_view_total_time": 54895,
-        "reels_skip_rate": 19.7
+        "total_interactions": 3,
+        "views": 193,
+        "ig_reels_avg_watch_time": 5973,
+        "ig_reels_video_view_total_time": 967703,
+        "reels_skip_rate": 73.6
       },
-      "insightsStand": "2026-10-18T17:45:26.076Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-18T19:40:29.023Z",
+      "insightsAlterStunden": 2.7
     },
     {
       "datum": "2026-10-18",
