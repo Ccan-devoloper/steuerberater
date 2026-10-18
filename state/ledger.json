@@ -12580,6 +12580,18 @@
         "#examensvorbereitung",
         "#internationalessteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-18",
+      "slot": "s2",
+      "medienId": "17893894806438278",
+      "veroeffentlicht": "2026-10-18T11:30:18.464Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": ""
     }
   ],
   "fachZaehler": {
