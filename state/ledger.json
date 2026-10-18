@@ -12287,22 +12287,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 76,
-        "views": 90,
+        "reach": 82,
+        "views": 96,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 77,
+        "navigation": 82,
         "navigation_tap_back": 3,
         "navigation_tap_exit": 12,
         "navigation_swipe_forward": 9,
-        "navigation_tap_forward": 53
+        "navigation_tap_forward": 58
       },
-      "insightsStand": "2026-10-18T08:44:55.172Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-10-18T11:30:19.491Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-10-17",
@@ -12506,7 +12506,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 41,
+        "reach": 52,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -12515,8 +12515,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-18T09:45:05.594Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-18T11:30:22.031Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-18",
@@ -12557,7 +12557,24 @@
       "storyArt": "norm",
       "thema": "erbst-aufb-erbst-v-25",
       "fach": "erbst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 16,
+        "views": 21,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 12,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 3
+      },
+      "insightsStand": "2026-10-18T11:30:19.491Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-18",
