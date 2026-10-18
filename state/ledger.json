@@ -11869,7 +11869,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 56,
+        "reach": 57,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11878,8 +11878,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-18T13:44:47.969Z",
-      "insightsAlterStunden": 50.2
+      "insightsStand": "2026-10-18T22:36:17.058Z",
+      "insightsAlterStunden": 59.1
     },
     {
       "datum": "2026-10-16",
@@ -11990,19 +11990,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 171,
+        "reach": 174,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 207,
-        "ig_reels_avg_watch_time": 4435,
-        "ig_reels_video_view_total_time": 780578,
-        "reels_skip_rate": 77.6
+        "views": 209,
+        "ig_reels_avg_watch_time": 4389,
+        "ig_reels_video_view_total_time": 785729,
+        "reels_skip_rate": 78.4
       },
-      "insightsStand": "2026-10-18T13:44:47.969Z",
-      "insightsAlterStunden": 44.7
+      "insightsStand": "2026-10-18T22:36:17.058Z",
+      "insightsAlterStunden": 53.6
     },
     {
       "datum": "2026-10-16",
@@ -12142,7 +12142,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 83,
+        "reach": 93,
         "saved": 2,
         "shares": 1,
         "likes": 2,
@@ -12151,8 +12151,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-18T13:44:47.969Z",
-      "insightsAlterStunden": 31.2
+      "insightsStand": "2026-10-18T22:36:17.058Z",
+      "insightsAlterStunden": 40.1
     },
     {
       "datum": "2026-10-17",
@@ -12507,17 +12507,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 66,
-        "saved": 1,
+        "reach": 75,
+        "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-18T17:45:26.076Z",
-      "insightsAlterStunden": 11.3
+      "insightsStand": "2026-10-18T22:36:17.058Z",
+      "insightsAlterStunden": 16.1
     },
     {
       "datum": "2026-10-18",
@@ -12599,7 +12599,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 51,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -12608,8 +12608,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-18T18:44:52.486Z",
-      "insightsAlterStunden": 7.2
+      "insightsStand": "2026-10-18T22:36:17.058Z",
+      "insightsAlterStunden": 11.1
     },
     {
       "datum": "2026-10-18",
@@ -12652,22 +12652,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 45,
-        "views": 59,
+        "reach": 68,
+        "views": 81,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
-        "navigation_swipe_forward": 7,
+        "navigation": 76,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 50,
         "navigation_tap_back": 2,
-        "navigation_tap_forward": 31,
-        "navigation_tap_exit": 10
+        "navigation_swipe_forward": 13
       },
-      "insightsStand": "2026-10-18T17:45:24.837Z",
-      "insightsAlterStunden": 5.1
+      "insightsStand": "2026-10-18T22:36:15.966Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-10-18",
@@ -12720,19 +12720,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 160,
+        "reach": 214,
         "saved": 1,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 3,
-        "views": 193,
-        "ig_reels_avg_watch_time": 5973,
-        "ig_reels_video_view_total_time": 967703,
-        "reels_skip_rate": 73.6
+        "views": 265,
+        "ig_reels_avg_watch_time": 7379,
+        "ig_reels_video_view_total_time": 1601337,
+        "reels_skip_rate": 71
       },
-      "insightsStand": "2026-10-18T19:40:29.023Z",
-      "insightsAlterStunden": 2.7
+      "insightsStand": "2026-10-18T22:36:17.058Z",
+      "insightsAlterStunden": 5.6
     },
     {
       "datum": "2026-10-18",
