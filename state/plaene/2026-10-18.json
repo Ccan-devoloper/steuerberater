@@ -36,7 +36,8 @@
       "themaTitel": "Latente Steuern",
       "fach": "bilanz",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-18T17:00:00.081Z"
     }
   ],
   "stories": [
