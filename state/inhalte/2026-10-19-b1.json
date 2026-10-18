@@ -1,0 +1,76 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-17-04",
+  "caption": "Gesellschafterdarlehen ausgefallen – erhöht das die Anschaffungskosten nach § 17 EStG? Die Klausurfrage mit Lösung.\n\n▸ Darlehensverluste gehören zu den nachträglichen Anschaffungskosten, soweit Gewährung oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war (§ 17 Abs. 2a S. 3 Nr. 2 EStG).\n▸ Maßstab ist der Fremdvergleich: Hätte eine fremde Bank unter denselben Bedingungen das Geld nicht gegeben oder schon zurückverlangt, ist die Veranlassung regelmäßig gesellschaftsrechtlich (§ 17 Abs. 2a S. 4 EStG).\n▸ Bei einem in der Krise stehen gelassenen Darlehen führt nur der bei Kriseneintritt noch werthaltige Teil zu nachträglichen Anschaffungskosten (BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169). Den übrigen Ausfall prüfst du bei den Einkünften aus Kapitalvermögen (§ 20 Abs. 2 S. 1 Nr. 7 EStG).\n▸ Die Auflösung der GmbH gilt als Veräußerung (§ 17 Abs. 4 EStG); Anschaffungskosten wirken im Teileinkünfteverfahren nur zu 60 % (§ 3c Abs. 2 S. 1 EStG).\n\nIm Beispiel: 50.000 € + 30.000 € = 80.000 € Anschaffungskosten, Verlust 80.000 €, davon 48.000 € abziehbar.\n\nZum Schluss: § 17 Abs. 2a EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 17 Abs. 2a S. 3 Nr. 2, S. 4 EStG",
+    "§ 17 Abs. 4 EStG",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "§ 20 Abs. 2 S. 1 Nr. 7 EStG",
+    "BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169"
+  ],
+  "slug": "2026-10-19-b1",
+  "kurztitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · Darlehen weg, · AK rauf? · § 17 Abs. 2a EStG · Der Klausurfall · + Markier-Guide § 17 EStG · Darlehen · 80.000 € · ausgefallen",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Der Fall · Rasmus hält 30 % der Kranich GmbH, Anschaffungskosten 50.000 €. · 2022 leiht er ihr 80.000 €, sie ist gesund. · 2024 Krise: Er lässt das Geld stehen, Wert 30.000 €. · 2026 Auflösung: Alles ist wertlos. · Was zählt davon?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Jetzt du · Erhöhen die 80.000 € die Anschaffungskosten voll? · Oder nur ein Teil – und wo landet der Rest? · Erst rechnen, dann weiterwischen · Deine Lösung?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Die Regel · Darlehensverluste sind nachträgliche Anschaffungskosten, · § 17 Abs. 2a S. 3 Nr. 2 EStG · soweit Hingabe oder Stehenlassen in der Krise gesellschaftsrechtlich veranlasst war. · Test: Hätte eine fremde Bank das Geld zurückgefordert? · § 17 Abs. 2a S. 4 EStG · Bank wäre weg!"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Nicht der Nennwert · Beim Stehenlassen zählt nur der Wert zu Beginn der Krise. · BFH vom 18.07.2023, IX R 21/21, BStBl II 2024, 169 · Hier also 30.000 €, nicht 80.000 €. · Die übrigen 50.000 € bei den Kapitaleinkünften prüfen. · § 20 Abs. 2 S. 1 Nr. 7 EStG · Nur 30.000 €?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Lösung in Zahlen · § 17 Abs. 4 EStG · § 3c Abs. 2 S. 1 EStG · Anschaffungskosten Kauf · 50.000 € · + Darlehen, Wert bei Krise · 30.000 € · = Anschaffungskosten · 80.000 € · Auflösungsverlust · – 80.000 € · davon 60 % abziehbar · – 48.000 € · Rest 50.000 €: bei § 20 EStG prüfen"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Lösung: Verlust nach § 17 EStG 48.000 € · Darlehen zählt nur mit dem Wert bei Krisenbeginn · Krise prüfen, · Fremdvergleich anstellen, · Wert bei Krise ansetzen, · Rest bei § 20 prüfen. · Speichern für Klausur 2 · Hättest du 80.000 € angesetzt? · Weiterwischen: § 17 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "§ 17 EStG (Auszug) · nachträgliche AK · Zeitpunkt! · Prüfstein · Fremdvergleich · BFH IX R 21/21 (BStBl II 2024, 169) · Stehengelassen: Wert bei Krisenbeginn"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-17-05",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Norm des Tages",
+    "Verlust",
+    "gesperrt?",
+    "§ 17 Abs. 2 S. 6 EStG",
+    "Geschenkt: nur, wenn der Schenker ihn hätte nutzen können.",
+    "§ 17 Abs. 2 S. 6 Buchst. a EStG",
+    "Zukauf, der die 1 % begründet oder danach erfolgt: abziehbar.",
+    "§ 17 Abs. 2 S. 6 Buchst. b EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

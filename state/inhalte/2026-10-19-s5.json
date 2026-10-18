@@ -1,0 +1,26 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-14",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: Werklieferung",
+    "Werkleistung",
+    "Werklieferung",
+    "Unentgeltliche Wertabgabe",
+    "Wer den Hauptstoff selbst beschafft, liefert. Stellt der Kunde ihn, ist es eine Werkleistung.",
+    "§ 3 Abs. 4 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

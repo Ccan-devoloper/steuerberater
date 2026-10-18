@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-13",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Anzahlung erhalten:",
+    "USt sofort",
+    "Die Steuer entsteht schon mit der Vereinnahmung.",
+    "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG",
+    "Bilanz: Anzahlung netto passivieren.",
+    "Brutto gebucht? Dann aktiver Posten.",
+    "§ 5 Abs. 5 S. 3 Nr. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

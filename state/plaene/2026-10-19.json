@@ -1,0 +1,102 @@
+{
+  "datum": "2026-10-19",
+  "erzeugt": "2026-10-18T22:36:13.594Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "pruefungsfrage",
+      "themaId": "est-aufb-est-ks2-17-04",
+      "themaTitel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
+      "fach": "est",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "umwst-aufb-umw-2-48",
+      "themaTitel": "Welche Vorgänge stehen einer schädlichen Anteilsveräußerung gleich?",
+      "fach": "umwst",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "ust-karte-ust-2",
+      "themaTitel": "Lieferung (§ 3 Abs. 1 UStG)",
+      "fach": "ust",
+      "klausur": 1,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-14",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-14",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "est-aufb-est-ks2-17-05",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "bilanz-karte-k3-13",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "ao-aufb-ao-jacobs-8-14",
+      "status": "geplant"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-aufb-ao-jacobs-8-14",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Einspruch gegen",
+    "Änderungsbescheid?",
+    "Angreifbar nur, ",
+    "soweit die Änderung",
+    "reicht.",
+    "§ 351 Abs. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,27 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-14",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "Eigenes Holz,",
+    "Treppe beim Kunden:",
+    "was liegt vor?",
+    "Werkleistung",
+    "Werklieferung",
+    "Unentgeltliche Wertabgabe",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
