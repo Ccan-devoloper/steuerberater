@@ -12507,17 +12507,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 61,
+        "reach": 66,
         "saved": 1,
         "shares": 0,
         "likes": 2,
         "comments": 0,
         "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 2
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-18T14:45:15.951Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-10-18T17:45:26.076Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-10-18",
@@ -12652,22 +12652,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 16,
-        "views": 21,
+        "reach": 45,
+        "views": 59,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 8,
-        "navigation_tap_exit": 7
+        "navigation": 50,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 31,
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-10-18T13:44:44.742Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-18T17:45:24.837Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-18",
@@ -12718,7 +12718,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 15,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 76,
+        "ig_reels_avg_watch_time": 3430,
+        "ig_reels_video_view_total_time": 54895,
+        "reels_skip_rate": 19.7
+      },
+      "insightsStand": "2026-10-18T17:45:26.076Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-10-18",
