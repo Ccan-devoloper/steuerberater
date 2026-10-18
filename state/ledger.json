@@ -12426,6 +12426,18 @@
       },
       "insightsStand": "2026-10-17T18:44:12.746Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-10-18",
+      "slot": "s4",
+      "medienId": "18131296975763562",
+      "veroeffentlicht": "2026-10-18T05:07:03.344Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "persg-quiz-persg-5",
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
