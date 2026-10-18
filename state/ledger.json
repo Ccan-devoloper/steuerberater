@@ -10739,7 +10739,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 80,
+        "reach": 83,
         "saved": 3,
         "shares": 0,
         "likes": 1,
@@ -10748,8 +10748,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-17T07:45:32.791Z",
-      "insightsAlterStunden": 92.3
+      "insightsStand": "2026-10-18T08:44:56.402Z",
+      "insightsAlterStunden": 117.2
     },
     {
       "datum": "2026-10-13",
@@ -12234,7 +12234,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 50,
+        "reach": 52,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -12243,8 +12243,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-18T05:09:15.761Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-18T08:44:56.402Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-17",
@@ -12287,22 +12287,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 65,
-        "views": 78,
+        "reach": 76,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 67,
-        "navigation_tap_forward": 46,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 11,
-        "navigation_tap_back": 3
+        "navigation": 77,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 12,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_forward": 53
       },
-      "insightsStand": "2026-10-18T05:09:05.511Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-18T08:44:55.172Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-17",
@@ -12355,19 +12355,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 131,
+        "reach": 139,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 168,
-        "ig_reels_avg_watch_time": 4475,
-        "ig_reels_video_view_total_time": 613188,
-        "reels_skip_rate": 73.2
+        "views": 177,
+        "ig_reels_avg_watch_time": 6099,
+        "ig_reels_video_view_total_time": 884374,
+        "reels_skip_rate": 70.5
       },
-      "insightsStand": "2026-10-18T05:09:15.761Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-18T08:44:56.402Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-10-17",
