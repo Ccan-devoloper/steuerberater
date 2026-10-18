@@ -12530,22 +12530,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 23,
-        "views": 30,
+        "reach": 49,
+        "views": 56,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_exit": 1,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 22,
-        "navigation_swipe_forward": 2
+        "navigation": 55,
+        "navigation_tap_exit": 6,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 41,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-18T07:44:49.834Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-18T11:44:50.642Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-18",
