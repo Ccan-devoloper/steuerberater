@@ -9919,7 +9919,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 88,
+        "reach": 89,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -9928,8 +9928,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-17T06:30:18.382Z",
-      "insightsAlterStunden": 144
+      "insightsStand": "2026-10-18T06:30:21.668Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-10-11",
@@ -10283,7 +10283,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 110,
+        "reach": 113,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -10292,8 +10292,8 @@
         "follows": 3,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-17T06:30:18.382Z",
-      "insightsAlterStunden": 120
+      "insightsStand": "2026-10-18T06:30:21.668Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-10-12",
@@ -10647,17 +10647,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 76,
+        "reach": 80,
         "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 3,
         "follows": 2,
-        "profile_visits": 3
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-17T05:45:01.802Z",
-      "insightsAlterStunden": 95.2
+      "insightsStand": "2026-10-18T06:30:21.668Z",
+      "insightsAlterStunden": 120
     },
     {
       "datum": "2026-10-13",
@@ -11139,7 +11139,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 63,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -11148,8 +11148,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-17T06:30:18.382Z",
-      "insightsAlterStunden": 67
+      "insightsStand": "2026-10-18T06:30:21.668Z",
+      "insightsAlterStunden": 91
     },
     {
       "datum": "2026-10-14",
@@ -12437,7 +12437,23 @@
       "storyArt": "frage",
       "thema": "persg-quiz-persg-5",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 16,
+        "navigation_tap_exit": 1,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-10-18T06:30:19.143Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-18",
@@ -12449,7 +12465,23 @@
       "storyArt": "antwort",
       "thema": "persg-quiz-persg-5",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 17,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 10,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 8,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-18T06:30:19.143Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-18",
