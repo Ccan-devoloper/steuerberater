@@ -11625,19 +11625,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 166,
+        "reach": 167,
         "saved": 1,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 4,
-        "views": 203,
-        "ig_reels_avg_watch_time": 5885,
-        "ig_reels_video_view_total_time": 988726,
-        "reels_skip_rate": 68.9
+        "views": 206,
+        "ig_reels_avg_watch_time": 5879,
+        "ig_reels_video_view_total_time": 993554,
+        "reels_skip_rate": 69
       },
-      "insightsStand": "2026-10-18T06:44:56.260Z",
-      "insightsAlterStunden": 61.7
+      "insightsStand": "2026-10-18T14:45:15.951Z",
+      "insightsAlterStunden": 69.8
     },
     {
       "datum": "2026-10-15",
@@ -11777,7 +11777,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 54,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11786,8 +11786,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-18T06:44:56.260Z",
-      "insightsAlterStunden": 48.2
+      "insightsStand": "2026-10-18T14:45:15.951Z",
+      "insightsAlterStunden": 56.3
     },
     {
       "datum": "2026-10-16",
@@ -12316,22 +12316,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 78,
-        "views": 89,
+        "reach": 84,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 81,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 62,
-        "navigation_tap_exit": 9,
+        "navigation": 88,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_forward": 65,
+        "navigation_tap_exit": 11,
         "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-18T12:40:04.753Z",
-      "insightsAlterStunden": 21.6
+      "insightsStand": "2026-10-18T14:45:10.256Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-17",
@@ -12439,21 +12439,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 53,
-        "views": 64,
+        "reach": 64,
+        "views": 76,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_tap_exit": 4,
+        "navigation": 65,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 5,
         "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 43
+        "navigation_tap_forward": 53
       },
-      "insightsStand": "2026-10-18T10:44:55.151Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-18T14:45:10.256Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-18",
@@ -12467,22 +12468,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 51,
-        "views": 60,
+        "reach": 61,
+        "views": 73,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_tap_exit": 2,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 42,
-        "navigation_swipe_forward": 3
+        "navigation": 65,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_forward": 53,
+        "navigation_tap_back": 7,
+        "navigation_tap_exit": 2
       },
-      "insightsStand": "2026-10-18T10:44:55.151Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-18T14:45:10.256Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-18",
@@ -12506,7 +12507,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 61,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -12515,8 +12516,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-18T11:30:22.031Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-18T14:45:15.951Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-18",
