@@ -12609,6 +12609,18 @@
       "thema": null,
       "fach": "istr",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-18",
+      "slot": "s7",
+      "medienId": "18087764732702103",
+      "veroeffentlicht": "2026-10-18T12:40:03.494Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
