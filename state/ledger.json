@@ -12450,6 +12450,28 @@
       "thema": "persg-quiz-persg-5",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-18",
+      "slot": "b1",
+      "medienId": "18036404060846240",
+      "veroeffentlicht": "2026-10-18T06:30:04.928Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "wochenrueckblick",
+      "thema": "wochenrueckblick-alle-2026-42",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Wochenrückblick",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -12464,7 +12486,7 @@
     "est": 3,
     "umwst": 5,
     "gewst": 4,
-    "null": 2
+    "null": 3
   },
   "nachrichten": [],
   "postfach": [],
