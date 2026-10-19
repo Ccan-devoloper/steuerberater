@@ -12962,7 +12962,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 22,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-19T12:40:06.235Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-19",
@@ -12974,7 +12986,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 24,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_forward": 17,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 1
+      },
+      "insightsStand": "2026-10-19T12:40:04.994Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-19",
