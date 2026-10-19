@@ -12910,6 +12910,18 @@
       },
       "insightsStand": "2026-10-19T07:44:51.388Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-19",
+      "slot": "s6",
+      "medienId": "18105553748346748",
+      "veroeffentlicht": "2026-10-19T10:14:03.756Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "est-aufb-est-ks2-17-05",
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
