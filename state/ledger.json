@@ -12234,7 +12234,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 64,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -12243,8 +12243,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-19T05:09:14.628Z",
-      "insightsAlterStunden": 41.7
+      "insightsStand": "2026-10-19T13:44:44.455Z",
+      "insightsAlterStunden": 50.2
     },
     {
       "datum": "2026-10-17",
@@ -12355,19 +12355,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 163,
+        "reach": 172,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 202,
-        "ig_reels_avg_watch_time": 6154,
-        "ig_reels_video_view_total_time": 1040059,
-        "reels_skip_rate": 69.8
+        "views": 214,
+        "ig_reels_avg_watch_time": 6125,
+        "ig_reels_video_view_total_time": 1096494,
+        "reels_skip_rate": 68
       },
-      "insightsStand": "2026-10-19T05:09:14.628Z",
-      "insightsAlterStunden": 36.2
+      "insightsStand": "2026-10-19T13:44:44.455Z",
+      "insightsAlterStunden": 44.7
     },
     {
       "datum": "2026-10-17",
@@ -12507,7 +12507,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 80,
+        "reach": 91,
         "saved": 2,
         "shares": 0,
         "likes": 2,
@@ -12516,8 +12516,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-19T05:09:14.628Z",
-      "insightsAlterStunden": 22.7
+      "insightsStand": "2026-10-19T13:44:44.455Z",
+      "insightsAlterStunden": 31.2
     },
     {
       "datum": "2026-10-18",
@@ -12746,22 +12746,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 72,
-        "views": 84,
+        "reach": 80,
+        "views": 94,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 77,
-        "navigation_tap_back": 4,
-        "navigation_swipe_forward": 10,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 49
+        "navigation": 87,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 15,
+        "navigation_swipe_forward": 12,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-19T09:44:17.008Z",
-      "insightsAlterStunden": 16.7
+      "insightsStand": "2026-10-19T13:44:38.929Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-18",
@@ -12775,22 +12775,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 64,
-        "views": 77,
+        "reach": 73,
+        "views": 87,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 73,
-        "navigation_tap_forward": 52,
-        "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_back": 4
+        "navigation": 82,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 57
       },
-      "insightsStand": "2026-10-19T09:44:17.008Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-19T13:44:38.929Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-19",
@@ -13014,7 +13014,24 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 20,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 11,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-19T13:44:38.929Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
