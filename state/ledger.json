@@ -12804,22 +12804,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 56,
-        "views": 72,
+        "reach": 91,
+        "views": 125,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 60,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 45,
-        "navigation_tap_exit": 8,
-        "navigation_tap_back": 1
+        "navigation": 102,
+        "navigation_swipe_forward": 13,
+        "navigation_tap_forward": 72,
+        "navigation_tap_exit": 13,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-19T14:45:30.700Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-10-19T19:44:52.203Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-10-19",
@@ -12833,22 +12833,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 53,
-        "views": 72,
+        "reach": 84,
+        "views": 123,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 65,
-        "navigation_tap_forward": 40,
-        "navigation_tap_back": 8,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 12
+        "navigation": 106,
+        "navigation_tap_exit": 15,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_back": 16,
+        "navigation_tap_forward": 66
       },
-      "insightsStand": "2026-10-19T14:45:30.700Z",
-      "insightsAlterStunden": 9.6
+      "insightsStand": "2026-10-19T19:44:52.203Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-10-19",
@@ -13085,19 +13085,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 40,
-        "saved": 0,
-        "shares": 0,
-        "likes": 1,
+        "reach": 154,
+        "saved": 1,
+        "shares": 1,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 112,
-        "ig_reels_avg_watch_time": 3842,
-        "ig_reels_video_view_total_time": 157536,
-        "reels_skip_rate": 30.3
+        "total_interactions": 5,
+        "views": 185,
+        "ig_reels_avg_watch_time": 5783,
+        "ig_reels_video_view_total_time": 902258,
+        "reels_skip_rate": 65.2
       },
-      "insightsStand": "2026-10-19T17:46:34.476Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-19T19:44:56.513Z",
+      "insightsAlterStunden": 2.7
     },
     {
       "datum": "2026-10-19",
