@@ -11504,7 +11504,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 58,
+        "reach": 63,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11513,8 +11513,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-18T06:44:56.260Z",
-      "insightsAlterStunden": 67.2
+      "insightsStand": "2026-10-19T07:44:54.923Z",
+      "insightsAlterStunden": 92.2
     },
     {
       "datum": "2026-10-15",
@@ -12560,22 +12560,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 82,
-        "views": 87,
+        "reach": 92,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 79,
+        "navigation": 89,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 57,
-        "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 8
+        "navigation_tap_forward": 62,
+        "navigation_tap_exit": 15,
+        "navigation_swipe_forward": 9
       },
-      "insightsStand": "2026-10-19T05:09:04.895Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-19T07:44:51.388Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-18",
@@ -12623,22 +12623,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 77,
-        "views": 94,
+        "reach": 83,
+        "views": 102,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 85,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 61,
+        "navigation": 91,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_forward": 66,
         "navigation_tap_exit": 15,
         "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-19T05:09:04.895Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-19T07:44:51.388Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-18",
@@ -12869,7 +12869,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#einkommensteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 28,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-19T07:44:54.923Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-19",
@@ -12881,7 +12893,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "est",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-19T07:44:51.388Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
