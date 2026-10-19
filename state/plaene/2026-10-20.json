@@ -1,0 +1,102 @@
+{
+  "datum": "2026-10-20",
+  "erzeugt": "2026-10-19T22:37:52.133Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "rechenweg",
+      "themaId": "bilanz-formel-leasing-4090",
+      "themaTitel": "Finanzierungsleasing: 40/90-Regel und Kaufoption",
+      "fach": "bilanz",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "minifall",
+      "themaId": "erbst-aufb-erbst-v-27",
+      "themaTitel": "Steuerklasse und Freibetrag: Wer bekommt wie viel steuerfrei?",
+      "fach": "erbst",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "est-aufb-est-ks2-17-06",
+      "themaTitel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
+      "fach": "est",
+      "klausur": 2,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-6",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-6",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "persg-aufb-persg-melzer-1-4",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "ust-karte-ust-3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "kst-karte-kst-6",
+      "status": "geplant"
+    }
+  ]
+}

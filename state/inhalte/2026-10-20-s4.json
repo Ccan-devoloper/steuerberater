@@ -1,0 +1,27 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-kst-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Prüfungsfrage",
+    "Streubesitz:",
+    "ab welcher Quote",
+    "steuerfrei?",
+    "ab 1 %",
+    "ab 10 %",
+    "ab 25 %",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

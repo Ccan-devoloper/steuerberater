@@ -1,0 +1,26 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-kst-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Auflösung",
+    "B: ab 10 %",
+    "ab 1 %",
+    "ab 10 %",
+    "ab 25 %",
+    "Unter 10 % zu Beginn des Kalenderjahres bleibt die Dividende bei der Körperschaft steuerpflichtig.",
+    "§ 8b Abs. 4 S. 1 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

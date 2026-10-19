@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-17-06",
+  "caption": "Verdeckte Einlage von GmbH-Anteilen: steuerfrei? Nein – § 17 EStG greift auch ohne Kaufpreis. 💼\n\n▸ Die verdeckte Einlage relevanter GmbH-Anteile in eine andere GmbH wird wie ein Verkauf behandelt (§ 17 Abs. 1 S. 2 EStG); statt eines Kaufpreises wird der gemeine Wert angesetzt (§ 17 Abs. 2 S. 2 EStG).\n▸ Die Einlage relevanter Anteile in das eigene Einzelunternehmen ist keine Veräußerung; sie wird höchstens mit den Anschaffungskosten angesetzt (§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG).\n▸ Auflösung der Gesellschaft gilt als Veräußerung (§ 17 Abs. 4 S. 1 EStG), Veräußerungspreis ist der gemeine Wert des zugeteilten Vermögens (§ 17 Abs. 4 S. 2 EStG) – aber nicht, soweit Bezüge nach § 20 Abs. 1 Nr. 1 oder 2 EStG vorliegen (§ 17 Abs. 4 S. 3 EStG). Rückzahlung von Nennkapital und Beträge aus dem steuerlichen Einlagekonto (§ 27 KStG) bleiben bei § 17 EStG, der Rest ist Kapitalertrag (§ 20 Abs. 1 Nr. 2 EStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 17 Abs. 1 S. 2, Abs. 2 S. 2, Abs. 4 EStG",
+    "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. b EStG",
+    "§ 20 Abs. 1 Nr. 1, 2 EStG",
+    "§ 27 KStG"
+  ],
+  "slug": "2026-10-20-b3",
+  "kurztitel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Verdeckte Einlage: steuerfrei?"
+    },
+    {
+      "art": "schritt",
+      "titel": "In eine GmbH"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ins Einzelunternehmen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Bei der Liquidation"
+    }
+  ],
+  "sprecher": [
+    "GmbH-Anteile ohne Kaufpreis in die eigene Holding schieben. Steuerfrei? Falsch, das gilt als Verkauf.",
+    "Die verdeckte Einlage relevanter Anteile in eine Kapitalgesellschaft gilt als Veräußerung. Als Preis zählt der gemeine Wert.",
+    "Das Gegenstück: Einlage ins eigene Einzelunternehmen. Keine Veräußerung, Ansatz höchstens mit den Anschaffungskosten.",
+    "Bei der Liquidation laufen Nennkapital und Einlagekonto über Paragraf siebzehn, der Rest sind Kapitalerträge.",
+    "Merke: In die GmbH heißt verkauft, ins Einzelunternehmen nicht."
+  ],
+  "dauerS": 40.716,
+  "tempo": 1
+}

@@ -1,0 +1,84 @@
+{
+  "format": "rechenweg",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-formel-leasing-4090",
+  "caption": "Finanzierungsleasing: Wem ist die Maschine zuzurechnen? Der Rechenweg mit 40/90-Regel und Kaufoption.\n\n▸ Grundsatz: Zurechnung beim Eigentümer; wer ihn für die gewöhnliche Nutzungsdauer wirtschaftlich von der Einwirkung ausschließen kann, dem wird das Wirtschaftsgut zugerechnet (§ 39 Abs. 1, Abs. 2 Nr. 1 AO).\n▸ Vollamortisationsleasing über bewegliche Wirtschaftsgüter (BMF vom 19.04.1971): Ohne Option liegt das wirtschaftliche Eigentum regelmäßig beim Leasinggeber, wenn die Grundmietzeit mindestens 40 % und höchstens 90 % der betriebsgewöhnlichen Nutzungsdauer beträgt.\n▸ Mit Kaufoption bleibt es nur dann beim Leasinggeber, wenn der Optionspreis nicht niedriger ist als der Buchwert nach linearer AfA laut AfA-Tabelle oder der niedrigere gemeine Wert im Zeitpunkt der Veräußerung.\n▸ Im Beispiel: 5 von 8 Jahren = 62,5 %; Restbuchwert 120.000 € – 5 × 15.000 € = 45.000 €; gemeiner Wert 50.000 € ist höher, maßgebend also 45.000 €. Optionspreis 30.000 € liegt darunter: Zurechnung beim Leasingnehmer.\n▸ Folge beim Leasingnehmer: Aktivierung mit den Anschaffungskosten, die der Ratenberechnung zugrunde liegen, AfA über die Nutzungsdauer (§ 7 Abs. 1 EStG), Verbindlichkeit gegenüber dem Leasinggeber; die Raten werden in einen sofort abziehbaren Zins- und Kostenanteil und einen erfolgsneutralen Tilgungsanteil aufgeteilt (BMF vom 19.04.1971).\n\nZum Schluss: § 39 AO und BMF vom 19.04.1971, Abschn. III. 2. b) zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 39 Abs. 1, Abs. 2 Nr. 1 AO",
+    "BMF vom 19.04.1971, IV B/2 – S 2170 – 31/71, BStBl I 1971, 264, Abschn. I, III. 2. b)",
+    "§ 7 Abs. 1 EStG"
+  ],
+  "slug": "2026-10-20-b1",
+  "kurztitel": "Finanzierungsleasing: 40/90-Regel und Kaufoption",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Leasing: · wem gehört's? · § 39 Abs. 2 Nr. 1 AO · 40/90 + Option · + Markier-Guide § 39 AO + BMF · Grundmietzeit · 62,5 % · der Nutzungsdauer",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Der Fall · Mirko least für seine Druckerei eine Maschine; der Leasinggeber hat 120.000 € bezahlt. · Nutzungsdauer laut AfA-Tabelle 8 Jahre, Grundmietzeit 5 Jahre. · Danach Kaufoption für 30.000 €; gemeiner Wert dann 50.000 €. · Meine Maschine?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Schritt 1: Quote · BMF vom 19.04.1971 · Grundmietzeit · 5 Jahre · Nutzungsdauer · 8 Jahre · Untergrenze · 40 % · Obergrenze · 90 % · Anteil 5 : 8 · 62,5 % · Zwischen 40 und 90 %: Option prüfen"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Jetzt du · Wie hoch ist der lineare Restbuchwert nach 5 Jahren? · Liegt der gemeine Wert darunter? · Wem ist die Maschine dann zuzurechnen? · Erst rechnen, dann weiterwischen · Rechnest du mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Schritt 2: Option · BMF vom 19.04.1971 · Anschaffungskosten · 120.000 € · – AfA 5 × 15.000 € · – 75.000 € · = Restbuchwert linear · 45.000 € · Gemeiner Wert (höher) · 50.000 € · Optionspreis · 30.000 € · 30.000 € < 45.000 €: Leasingnehmer"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die Folge bei Mirko · Maschine mit 120.000 € aktivieren, AfA über 8 Jahre. · § 7 Abs. 1 EStG · Verbindlichkeit gegenüber dem Leasinggeber passivieren. · Raten aufteilen: Zins- und Kostenanteil ist Aufwand, der Tilgungsanteil nicht. · BMF vom 19.04.1971 · Also doch meine!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Nicht bei 40/90 aufhören · Die Quote allein entscheidet nicht. · Ein günstiger Optionspreis holt die Maschine zum Leasingnehmer. · Die Verwaltungsregel ersetzt nicht den Blick auf den konkreten Vertrag. · § 39 Abs. 2 Nr. 1 AO · Option prüfen!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung: Zurechnung beim Leasingnehmer · Optionspreis 30.000 € liegt unter 45.000 € · Quote rechnen, · Restbuchwert linear, · Optionspreis vergleichen, · Zurechnung ableiten. · Speichern für Klausur 3 · Wem hättest du sie zugerechnet? · Weiterwischen: § 39 AO + BMF markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 39 AO Zurechnung · Leasingnehmer? · Grundmietzeit vs. ND · Kaufoption! · Weiterwischen: BMF vom 19.04.1971 · 40/90-Regel und Kaufoption"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "BMF vom 19.04.1971, III. 2. b) (Auszug) · Mirko · 62,5 % · 30.000 € < 45.000 € · Nutzungsdauer: amtliche AfA-Tabelle · BMF vom 19.04.1971, Abschn. I"
+    }
+  ]
+}

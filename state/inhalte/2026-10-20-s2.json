@@ -1,0 +1,22 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Neu im Feed",
+    "Sohn schenkt Mutter Geld",
+    "Mini-Fall + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

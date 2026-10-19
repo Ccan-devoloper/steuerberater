@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-3",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Sonstige Leistung:",
+    "alles außer Lieferung",
+    "Jede Leistung, die keine Lieferung ist.",
+    "§ 3 Abs. 9 S. 1 UStG",
+    "Auch Unterlassen oder Dulden zählt.",
+    "§ 3 Abs. 9 S. 2 UStG",
+    "Beispiel: Wettbewerbsverbot gegen Entgelt."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,25 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Erst die Fragen,",
+    "dann der Fall",
+    "Aufgabenstellung vor dem Sachverhalt lesen.",
+    "Jede Zahl im Sachverhalt einer Frage zuordnen.",
+    "Lösung genau nach den Fragen gliedern."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
