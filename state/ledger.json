@@ -10739,17 +10739,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 83,
-        "saved": 3,
+        "reach": 87,
+        "saved": 4,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-18T08:44:56.402Z",
-      "insightsAlterStunden": 117.2
+      "insightsStand": "2026-10-19T08:45:05.515Z",
+      "insightsAlterStunden": 141.2
     },
     {
       "datum": "2026-10-13",
@@ -12599,7 +12599,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 51,
+        "reach": 52,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -12608,8 +12608,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-19T05:09:14.628Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-19T08:45:05.515Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-18",
@@ -12652,22 +12652,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 74,
-        "views": 90,
+        "reach": 84,
+        "views": 101,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 83,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 55,
+        "navigation": 92,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 63,
         "navigation_tap_back": 3,
         "navigation_swipe_forward": 14
       },
-      "insightsStand": "2026-10-19T05:09:04.895Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-19T08:45:04.504Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-18",
@@ -12720,19 +12720,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 253,
-        "saved": 1,
+        "reach": 293,
+        "saved": 2,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 4,
-        "views": 316,
-        "ig_reels_avg_watch_time": 7645,
-        "ig_reels_video_view_total_time": 1926647,
-        "reels_skip_rate": 68.9
+        "total_interactions": 6,
+        "views": 366,
+        "ig_reels_avg_watch_time": 7549,
+        "ig_reels_video_view_total_time": 2264808,
+        "reels_skip_rate": 67.5
       },
-      "insightsStand": "2026-10-19T05:09:14.628Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-19T08:45:05.515Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-10-18",
