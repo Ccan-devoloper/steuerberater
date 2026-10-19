@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-19T17:44:41.873Z",
+  "stand": "2026-10-19T17:46:34.476Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -35773,6 +35773,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-19T17:46:34.476Z",
+          "alterStunden": 11.3,
+          "reach": 53,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -35987,6 +35999,32 @@
           "navigation_tap_exit": 5,
           "navigation_swipe_forward": 3,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17914544979466033": {
+      "art": "beitrag",
+      "datum": "2026-10-19",
+      "titel": "Lieferung (§ 3 Abs. 1 UStG)",
+      "format": "reel",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-19T17:00:11.164Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-19T17:46:34.476Z",
+          "alterStunden": 0.8,
+          "reach": 40,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 112,
+          "ig_reels_avg_watch_time": 3842,
+          "ig_reels_video_view_total_time": 157536,
+          "reels_skip_rate": 30.3
         }
       ]
     }

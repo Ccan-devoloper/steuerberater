@@ -12872,7 +12872,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 53,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -12881,8 +12881,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-19T14:45:34.568Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-10-19T17:46:34.476Z",
+      "insightsAlterStunden": 11.3
     },
     {
       "datum": "2026-10-19",
@@ -13083,7 +13083,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 40,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 112,
+        "ig_reels_avg_watch_time": 3842,
+        "ig_reels_video_view_total_time": 157536,
+        "reels_skip_rate": 30.3
+      },
+      "insightsStand": "2026-10-19T17:46:34.476Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-10-19",
