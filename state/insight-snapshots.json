@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-19T11:13:52.952Z",
+  "stand": "2026-10-19T11:30:20.650Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -35433,6 +35433,47 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-19T11:30:20.650Z",
+          "alterStunden": 5,
+          "reach": 47,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18105553748346748": {
+      "art": "story",
+      "datum": "2026-10-19",
+      "titel": null,
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-19T10:14:03.756Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-19T11:30:19.423Z",
+          "alterStunden": 1.3,
+          "reach": 17,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 9,
+          "navigation_tap_exit": 3
         }
       ]
     }
