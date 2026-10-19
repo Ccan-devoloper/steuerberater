@@ -12652,22 +12652,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 84,
-        "views": 101,
+        "reach": 90,
+        "views": 107,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 92,
+        "navigation": 97,
         "navigation_tap_exit": 12,
-        "navigation_tap_forward": 63,
+        "navigation_tap_forward": 66,
         "navigation_tap_back": 3,
-        "navigation_swipe_forward": 14
+        "navigation_swipe_forward": 16
       },
-      "insightsStand": "2026-10-19T08:45:04.504Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-10-19T11:13:52.952Z",
+      "insightsAlterStunden": 22.6
     },
     {
       "datum": "2026-10-18",
