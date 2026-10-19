@@ -13044,11 +13044,33 @@
       "thema": "bilanz-karte-k3-13",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-19",
+      "slot": "b3",
+      "medienId": "17914544979466033",
+      "veroeffentlicht": "2026-10-19T17:00:11.164Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "ust-karte-ust-2",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Lieferung (§ 3 Abs. 1 UStG)",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 14,
-    "ust": 11,
+    "ust": 12,
     "kst": 11,
     "ao": 22,
     "bilanz": 22,
