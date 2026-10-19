@@ -12815,6 +12815,28 @@
       "thema": "ust-quiz-ust-14",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-19",
+      "slot": "b1",
+      "medienId": "18147725260571163",
+      "veroeffentlicht": "2026-10-19T06:30:05.341Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "pruefungsfrage",
+      "thema": "est-aufb-est-ks2-17-04",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -12826,7 +12848,7 @@
     "istr": 17,
     "erbst": 7,
     "mindset": 2,
-    "est": 3,
+    "est": 4,
     "umwst": 5,
     "gewst": 4,
     "null": 3
