@@ -12923,6 +12923,28 @@
       "thema": "est-aufb-est-ks2-17-05",
       "fach": "est",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-19",
+      "slot": "b2",
+      "medienId": "18106873814353803",
+      "veroeffentlicht": "2026-10-19T11:30:05.697Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "umwst-aufb-umw-2-48",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -12935,7 +12957,7 @@
     "erbst": 7,
     "mindset": 2,
     "est": 4,
-    "umwst": 5,
+    "umwst": 6,
     "gewst": 4,
     "null": 3
   },
