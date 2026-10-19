@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-19T05:44:42.700Z",
+  "stand": "2026-10-19T06:30:20.779Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -34994,6 +34994,63 @@
           "navigation_tap_back": 3
         }
       ]
+    },
+    "18117819919957789": {
+      "art": "story",
+      "datum": "2026-10-19",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-19T05:07:03.489Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-19T06:30:17.350Z",
+          "alterStunden": 1.4,
+          "reach": 19,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 15,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18098211770433086": {
+      "art": "story",
+      "datum": "2026-10-19",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-19T05:09:03.773Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-19T06:30:17.350Z",
+          "alterStunden": 1.4,
+          "reach": 15,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_exit": 4,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 13
+        }
+      ]
     }
   },
   "konto": [
@@ -37031,6 +37088,11 @@
       "stand": "2026-10-19T05:09:19.318Z",
       "follower": 178,
       "medien": 129
+    },
+    {
+      "stand": "2026-10-19T06:30:20.779Z",
+      "follower": 179,
+      "medien": 130
     }
   ]
 }
