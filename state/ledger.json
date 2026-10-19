@@ -13096,6 +13096,18 @@
       "thema": null,
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-19",
+      "slot": "s9",
+      "medienId": "18449407015133183",
+      "veroeffentlicht": "2026-10-19T17:12:03.373Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-aufb-ao-jacobs-8-14",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
