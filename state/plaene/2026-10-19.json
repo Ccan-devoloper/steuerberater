@@ -70,7 +70,8 @@
       "zeit": "12:14",
       "art": "norm",
       "themaId": "est-aufb-est-ks2-17-05",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-19T10:14:00.047Z"
     },
     {
       "slot": "s2",
