@@ -12599,7 +12599,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 52,
+        "reach": 58,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -12608,8 +12608,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-19T08:45:05.515Z",
-      "insightsAlterStunden": 21.2
+      "insightsStand": "2026-10-19T17:00:30.746Z",
+      "insightsAlterStunden": 29.5
     },
     {
       "datum": "2026-10-18",
@@ -12964,7 +12964,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 41,
+        "reach": 45,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -12973,8 +12973,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-19T14:45:34.568Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-19T17:00:30.746Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-19",
@@ -12988,21 +12988,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 17,
-        "views": 24,
+        "reach": 44,
+        "views": 59,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 19,
-        "navigation_tap_forward": 17,
+        "navigation": 49,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 39,
         "navigation_tap_back": 1,
-        "navigation_tap_exit": 1
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-19T12:40:04.994Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-19T17:00:27.115Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-19",
@@ -13043,7 +13044,24 @@
       "storyArt": "tipp",
       "thema": "bilanz-karte-k3-13",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 23,
+        "views": 35,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 30,
+        "navigation_tap_forward": 21,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-19T17:00:27.115Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-19",
