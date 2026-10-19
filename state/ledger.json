@@ -10374,7 +10374,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 79,
+        "reach": 82,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -10383,8 +10383,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-18T09:45:05.594Z",
-      "insightsAlterStunden": 142.2
+      "insightsStand": "2026-10-19T10:14:06.594Z",
+      "insightsAlterStunden": 166.7
     },
     {
       "datum": "2026-10-12",
@@ -10495,19 +10495,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 188,
+        "reach": 189,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 252,
-        "ig_reels_avg_watch_time": 6885,
-        "ig_reels_video_view_total_time": 1342717,
-        "reels_skip_rate": 75.4
+        "views": 255,
+        "ig_reels_avg_watch_time": 6879,
+        "ig_reels_video_view_total_time": 1348468,
+        "reels_skip_rate": 75
       },
-      "insightsStand": "2026-10-18T09:45:05.594Z",
-      "insightsAlterStunden": 136.7
+      "insightsStand": "2026-10-19T10:14:06.594Z",
+      "insightsAlterStunden": 161.2
     },
     {
       "datum": "2026-10-12",
@@ -12623,22 +12623,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 83,
-        "views": 102,
+        "reach": 94,
+        "views": 115,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 91,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_forward": 66,
-        "navigation_tap_exit": 15,
-        "navigation_tap_back": 3
+        "navigation": 103,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_forward": 72,
+        "navigation_tap_exit": 18,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-19T07:44:51.388Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-19T10:14:05.001Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-18",
