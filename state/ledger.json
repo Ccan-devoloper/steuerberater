@@ -12896,22 +12896,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 51,
-        "views": 70,
+        "reach": 81,
+        "views": 115,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 64,
-        "navigation_tap_forward": 43,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_exit": 9,
-        "navigation_tap_back": 4
+        "navigation": 104,
+        "navigation_tap_back": 12,
+        "navigation_tap_exit": 14,
+        "navigation_swipe_forward": 14,
+        "navigation_tap_forward": 64
       },
-      "insightsStand": "2026-10-19T15:45:44.734Z",
-      "insightsAlterStunden": 9.3
+      "insightsStand": "2026-10-19T20:45:21.003Z",
+      "insightsAlterStunden": 14.3
     },
     {
       "datum": "2026-10-19",
@@ -12925,22 +12925,22 @@
       "fach": "est",
       "titel": "",
       "insights": {
-        "reach": 43,
-        "views": 51,
+        "reach": 73,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 47,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 29,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_back": 3
+        "navigation": 84,
+        "navigation_tap_back": 7,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_forward": 50,
+        "navigation_tap_exit": 16
       },
-      "insightsStand": "2026-10-19T15:45:44.734Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-19T20:45:21.003Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-10-19",
@@ -12964,7 +12964,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 45,
+        "reach": 52,
         "saved": 2,
         "shares": 0,
         "likes": 1,
@@ -12973,8 +12973,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-19T17:00:30.746Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-19T20:45:25.063Z",
+      "insightsAlterStunden": 9.3
     },
     {
       "datum": "2026-10-19",
