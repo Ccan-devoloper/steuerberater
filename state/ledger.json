@@ -13425,6 +13425,28 @@
       },
       "insightsStand": "2026-10-20T16:44:58.410Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-20",
+      "slot": "b3",
+      "medienId": "17891441949453957",
+      "veroeffentlicht": "2026-10-20T17:00:07.720Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "est-aufb-est-ks2-17-06",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Verdeckte Einlage und Liquidation als Fälle des § 17 EStG",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -13436,7 +13458,7 @@
     "istr": 17,
     "erbst": 8,
     "mindset": 2,
-    "est": 4,
+    "est": 5,
     "umwst": 6,
     "gewst": 4,
     "null": 3
