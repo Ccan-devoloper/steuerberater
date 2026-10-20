@@ -12355,7 +12355,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 180,
+        "reach": 181,
         "saved": 3,
         "shares": 0,
         "likes": 0,
@@ -12366,8 +12366,8 @@
         "ig_reels_video_view_total_time": 1114747,
         "reels_skip_rate": 67.4
       },
-      "insightsStand": "2026-10-20T06:44:42.168Z",
-      "insightsAlterStunden": 61.7
+      "insightsStand": "2026-10-20T14:45:16.739Z",
+      "insightsAlterStunden": 69.8
     },
     {
       "datum": "2026-10-17",
@@ -12507,7 +12507,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 106,
+        "reach": 111,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -12516,8 +12516,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-20T06:44:42.168Z",
-      "insightsAlterStunden": 48.2
+      "insightsStand": "2026-10-20T14:45:16.739Z",
+      "insightsAlterStunden": 56.3
     },
     {
       "datum": "2026-10-18",
@@ -13169,22 +13169,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 55,
-        "views": 65,
+        "reach": 65,
+        "views": 80,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 62,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 49,
-        "navigation_tap_exit": 5
+        "navigation": 75,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 59,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-20T10:44:39.509Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-20T14:45:13.915Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-20",
@@ -13198,22 +13198,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 52,
-        "views": 59,
+        "reach": 63,
+        "views": 73,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 58,
-        "navigation_tap_back": 5,
-        "navigation_tap_exit": 5,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 43
+        "navigation": 71,
+        "navigation_tap_back": 7,
+        "navigation_tap_exit": 6,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 52
       },
-      "insightsStand": "2026-10-20T10:44:39.509Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-20T14:45:13.915Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-20",
@@ -13237,7 +13237,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 46,
+        "reach": 53,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -13246,8 +13246,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-20T11:30:22.470Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-20T14:45:16.739Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-20",
@@ -13328,17 +13328,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 24,
-        "saved": 0,
+        "reach": 49,
+        "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 2,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-20T12:40:07.390Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-20T14:45:16.739Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-20",
