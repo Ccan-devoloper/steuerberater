@@ -13290,21 +13290,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 49,
-        "views": 62,
+        "reach": 74,
+        "views": 91,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 37
+        "navigation": 78,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 13,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-20T15:44:27.468Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-20T20:44:02.657Z",
+      "insightsAlterStunden": 10.5
     },
     {
       "datum": "2026-10-20",
@@ -13328,7 +13329,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 55,
+        "reach": 76,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -13337,8 +13338,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-20T16:45:06.280Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-10-20T20:44:03.992Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-20",
@@ -13449,19 +13450,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 109,
-        "saved": 1,
+        "reach": 206,
+        "saved": 4,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 131,
-        "ig_reels_avg_watch_time": 8475,
-        "ig_reels_video_view_total_time": 906907,
-        "reels_skip_rate": 49.6
+        "total_interactions": 5,
+        "views": 237,
+        "ig_reels_avg_watch_time": 7368,
+        "ig_reels_video_view_total_time": 1517828,
+        "reels_skip_rate": 55.2
       },
-      "insightsStand": "2026-10-20T18:44:43.358Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-20T20:44:03.992Z",
+      "insightsAlterStunden": 3.7
     },
     {
       "datum": "2026-10-20",
