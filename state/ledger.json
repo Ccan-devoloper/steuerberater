@@ -13180,6 +13180,28 @@
       "thema": "kst-quiz-kst-6",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-20",
+      "slot": "b1",
+      "medienId": "18646645234020682",
+      "veroeffentlicht": "2026-10-20T06:30:05.448Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "rechenweg",
+      "thema": "bilanz-formel-leasing-4090",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -13187,7 +13209,7 @@
     "ust": 12,
     "kst": 11,
     "ao": 22,
-    "bilanz": 22,
+    "bilanz": 23,
     "istr": 17,
     "erbst": 7,
     "mindset": 2,
