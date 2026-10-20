@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-20T08:45:14.695Z",
+  "stand": "2026-10-20T09:44:04.204Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -36524,6 +36524,23 @@
           "navigation_swipe_forward": 6,
           "navigation_tap_exit": 9,
           "navigation_tap_forward": 54
+        },
+        {
+          "stand": "2026-10-20T09:43:59.122Z",
+          "alterStunden": 18.7,
+          "reach": 79,
+          "views": 107,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 98,
+          "navigation_tap_forward": 67,
+          "navigation_tap_exit": 11,
+          "navigation_swipe_forward": 8,
+          "navigation_tap_back": 12
         }
       ]
     },
@@ -36651,6 +36668,23 @@
           "navigation_tap_forward": 42,
           "navigation_tap_exit": 5,
           "navigation_tap_back": 6
+        },
+        {
+          "stand": "2026-10-20T09:43:59.122Z",
+          "alterStunden": 16.7,
+          "reach": 71,
+          "views": 86,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 76,
+          "navigation_tap_back": 7,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 54,
+          "navigation_swipe_forward": 5
         }
       ]
     },
@@ -36697,6 +36731,23 @@
           "navigation_tap_forward": 33,
           "navigation_swipe_forward": 6,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-10-20T09:43:59.122Z",
+          "alterStunden": 16.5,
+          "reach": 67,
+          "views": 80,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 70,
+          "navigation_tap_exit": 14,
+          "navigation_tap_forward": 46,
+          "navigation_swipe_forward": 7,
+          "navigation_tap_back": 3
         }
       ]
     },
@@ -36800,6 +36851,18 @@
           "stand": "2026-10-20T07:45:07.554Z",
           "alterStunden": 1.3,
           "reach": 31,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-20T09:44:03.425Z",
+          "alterStunden": 3.2,
+          "reach": 38,
           "saved": 0,
           "shares": 0,
           "likes": 2,
@@ -38940,6 +39003,11 @@
     {
       "stand": "2026-10-20T08:45:14.695Z",
       "follower": 188,
+      "medien": 133
+    },
+    {
+      "stand": "2026-10-20T09:44:04.204Z",
+      "follower": 190,
       "medien": 133
     }
   ]
