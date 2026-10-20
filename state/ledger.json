@@ -13288,6 +13288,28 @@
       "thema": "persg-aufb-persg-melzer-1-4",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-20",
+      "slot": "b2",
+      "medienId": "18065592329519137",
+      "veroeffentlicht": "2026-10-20T11:30:05.907Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "minifall",
+      "thema": "erbst-aufb-erbst-v-27",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -13297,7 +13319,7 @@
     "ao": 22,
     "bilanz": 23,
     "istr": 17,
-    "erbst": 7,
+    "erbst": 8,
     "mindset": 2,
     "est": 4,
     "umwst": 6,
