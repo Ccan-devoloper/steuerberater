@@ -13381,21 +13381,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 12,
-        "views": 25,
+        "reach": 42,
+        "views": 58,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 17,
-        "navigation_tap_back": 3
+        "navigation": 53,
+        "navigation_tap_back": 6,
+        "navigation_tap_forward": 40,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-20T13:44:52.574Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-20T17:45:02.354Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-20",
