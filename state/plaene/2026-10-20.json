@@ -118,7 +118,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "kst-karte-kst-6",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-20T17:12:00.086Z"
     }
   ]
 }
