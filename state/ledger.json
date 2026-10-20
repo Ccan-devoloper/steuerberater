@@ -13276,6 +13276,18 @@
       },
       "insightsStand": "2026-10-20T07:45:04.725Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-20",
+      "slot": "s6",
+      "medienId": "17991641930932145",
+      "veroeffentlicht": "2026-10-20T10:14:03.629Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-aufb-persg-melzer-1-4",
+      "fach": "persg",
+      "titel": ""
     }
   ],
   "fachZaehler": {
