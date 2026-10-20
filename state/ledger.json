@@ -11012,7 +11012,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 79,
+        "reach": 81,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -11021,8 +11021,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-19T05:44:42.700Z",
-      "insightsAlterStunden": 119.6
+      "insightsStand": "2026-10-20T06:30:20.241Z",
+      "insightsAlterStunden": 144.3
     },
     {
       "datum": "2026-10-14",
@@ -11076,17 +11076,17 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 280,
-        "saved": 17,
-        "shares": 0,
+        "reach": 355,
+        "saved": 23,
+        "shares": 1,
         "likes": 6,
         "comments": 0,
-        "total_interactions": 23,
-        "follows": 1,
-        "profile_visits": 4
+        "total_interactions": 30,
+        "follows": 3,
+        "profile_visits": 10
       },
-      "insightsStand": "2026-10-19T05:44:42.700Z",
-      "insightsAlterStunden": 118.7
+      "insightsStand": "2026-10-20T06:30:20.241Z",
+      "insightsAlterStunden": 143.5
     },
     {
       "datum": "2026-10-14",
@@ -11412,7 +11412,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 75,
+        "reach": 83,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -11421,8 +11421,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-19T05:44:42.700Z",
-      "insightsAlterStunden": 95.2
+      "insightsStand": "2026-10-20T06:30:20.241Z",
+      "insightsAlterStunden": 120
     },
     {
       "datum": "2026-10-15",
@@ -13167,7 +13167,24 @@
       "storyArt": "frage",
       "thema": "kst-quiz-kst-6",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 23,
+        "views": 32,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 3
+      },
+      "insightsStand": "2026-10-20T06:30:17.570Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-20",
@@ -13179,7 +13196,24 @@
       "storyArt": "antwort",
       "thema": "kst-quiz-kst-6",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 18,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_forward": 13,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 2,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-20T06:30:17.570Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-20",
