@@ -10739,17 +10739,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 87,
+        "reach": 92,
         "saved": 4,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 7,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-19T08:45:05.515Z",
-      "insightsAlterStunden": 141.2
+      "insightsStand": "2026-10-20T08:45:13.343Z",
+      "insightsAlterStunden": 165.3
     },
     {
       "datum": "2026-10-13",
@@ -12964,7 +12964,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 64,
         "saved": 4,
         "shares": 0,
         "likes": 2,
@@ -12973,8 +12973,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-20T05:09:12.758Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-20T08:45:13.343Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-10-19",
@@ -13017,22 +13017,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 69,
-        "views": 88,
+        "reach": 82,
+        "views": 104,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 80,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 56,
+        "navigation": 95,
+        "navigation_swipe_forward": 12,
+        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 65,
         "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-20T05:09:04.429Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-20T08:45:12.098Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-19",
@@ -13085,19 +13085,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 245,
+        "reach": 291,
         "saved": 2,
         "shares": 1,
         "likes": 5,
         "comments": 0,
         "total_interactions": 8,
-        "views": 294,
-        "ig_reels_avg_watch_time": 7217,
-        "ig_reels_video_view_total_time": 1775622,
-        "reels_skip_rate": 60.6
+        "views": 342,
+        "ig_reels_avg_watch_time": 7734,
+        "ig_reels_video_view_total_time": 2258393,
+        "reels_skip_rate": 59
       },
-      "insightsStand": "2026-10-20T05:09:12.758Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-20T08:45:13.343Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-10-19",
