@@ -12234,7 +12234,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 66,
+        "reach": 67,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -12243,8 +12243,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-19T22:38:00.000Z",
-      "insightsAlterStunden": 59.1
+      "insightsStand": "2026-10-20T06:44:42.168Z",
+      "insightsAlterStunden": 67.2
     },
     {
       "datum": "2026-10-17",
@@ -12355,19 +12355,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 177,
+        "reach": 180,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 218,
-        "ig_reels_avg_watch_time": 6078,
-        "ig_reels_video_view_total_time": 1106289,
-        "reels_skip_rate": 68
+        "views": 221,
+        "ig_reels_avg_watch_time": 6025,
+        "ig_reels_video_view_total_time": 1114747,
+        "reels_skip_rate": 67.4
       },
-      "insightsStand": "2026-10-19T22:38:00.000Z",
-      "insightsAlterStunden": 53.6
+      "insightsStand": "2026-10-20T06:44:42.168Z",
+      "insightsAlterStunden": 61.7
     },
     {
       "datum": "2026-10-17",
@@ -12516,8 +12516,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-19T22:38:00.000Z",
-      "insightsAlterStunden": 40.1
+      "insightsStand": "2026-10-20T06:44:42.168Z",
+      "insightsAlterStunden": 48.2
     },
     {
       "datum": "2026-10-18",
