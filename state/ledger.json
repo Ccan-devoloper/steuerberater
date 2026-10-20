@@ -12988,22 +12988,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 82,
-        "views": 105,
+        "reach": 90,
+        "views": 116,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 94,
-        "navigation_tap_exit": 10,
-        "navigation_tap_back": 8,
-        "navigation_tap_forward": 68,
-        "navigation_swipe_forward": 8
+        "navigation": 103,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 74,
+        "navigation_swipe_forward": 9
       },
-      "insightsStand": "2026-10-20T07:45:04.725Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-20T10:14:04.851Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-19",
