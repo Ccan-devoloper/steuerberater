@@ -13447,6 +13447,18 @@
         "#examensvorbereitung",
         "#einkommensteuer"
       ]
+    },
+    {
+      "datum": "2026-10-20",
+      "slot": "s3",
+      "medienId": "18112231895599303",
+      "veroeffentlicht": "2026-10-20T17:00:19.351Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
