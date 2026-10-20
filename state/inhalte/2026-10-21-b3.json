@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-1-5",
+  "caption": "Halle an die Schwester-Personengesellschaft vermietet: Sonderbetriebsvermögen? Die Klausurfalle. 🏭\n\n▸ Grundsatz: Wirtschaftsgüter eines Mitunternehmers, die er der Gesellschaft überlässt, sind Sonderbetriebsvermögen; die Vergütungen gehören zu seinen gewerblichen Einkünften (§ 15 Abs. 1 S. 1 Nr. 2 EStG; R 4.2 Abs. 2 S. 2 EStR).\n▸ Vermietet aber eine Personengesellschaft entgeltlich an eine Schwester-Personengesellschaft und sind beide sachlich und personell verflochten, liegt eine mitunternehmerische Betriebsaufspaltung vor. Sie hat Vorrang: Das Wirtschaftsgut bleibt Betriebsvermögen der vermietenden Gesellschaft, die Mieterträge sind dort gewerblich (BFH vom 23.04.1996, VIII R 13/95, BStBl II 1998, 325; BMF vom 28.04.1998, BStBl I 1998, 583, Tz. 1).\n▸ Ausnahme: Bei unentgeltlicher Überlassung ohne Gewinnerzielungsabsicht fehlt der Besitzgesellschaft die Gewinnerzielungsabsicht; dann bleibt es beim Sonderbetriebsvermögen bei der nutzenden Gesellschaft (BMF vom 28.04.1998, Tz. 1).\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "R 4.2 Abs. 2 S. 2 EStR",
+    "BFH vom 23.04.1996, VIII R 13/95, BStBl II 1998, 325",
+    "BMF vom 28.04.1998, BStBl I 1998, 583, Tz. 1"
+  ],
+  "slug": "2026-10-21-b3",
+  "kurztitel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Schwester-KG: Sonder-BV?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Fall"
+    },
+    {
+      "art": "schritt",
+      "titel": "Betriebsaufspaltung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Rangfolge"
+    }
+  ],
+  "sprecher": [
+    "Halle an die Schwester-KG vermietet. Sonderbetriebsvermögen bei der KG? Nein!",
+    "Eine GbR vermietet eine Halle an eine KG. An beiden sind dieselben Gesellschafter beteiligt, die Miete ist marktüblich.",
+    "Sachliche und personelle Verflechtung: mitunternehmerische Betriebsaufspaltung. Die GbR wird gewerblich, die Halle bleibt ihr Betriebsvermögen.",
+    "Das geht dem Sonderbetriebsvermögen vor. Ausnahme: Die Halle wird unentgeltlich überlassen.",
+    "Merke: Die Schwester schlägt das Sonderbetriebsvermögen."
+  ],
+  "dauerS": 37.03,
+  "tempo": 1
+}

@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-28",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Knapp über",
+    "der Grenze?",
+    "§ 19 Abs. 3 ErbStG",
+    "Steuersatz bis 30 %: Mehrsteuer höchstens die Hälfte des Überschusses.",
+    "§ 19 Abs. 3 Buchst. a ErbStG",
+    "Über 30 %: höchstens drei Viertel.",
+    "§ 19 Abs. 3 Buchst. b ErbStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

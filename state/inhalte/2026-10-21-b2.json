@@ -1,0 +1,86 @@
+{
+  "format": "schema",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-schema-1",
+  "caption": "Verdeckte Gewinnausschüttung sicher prüfen – das Schema in 4 Schritten.\n\n1. Vorteil: zugunsten eines Gesellschafters oder einer nahestehenden Person (R 8.5 Abs. 1 S. 3 KStR).\n2. Vermögensminderung oder verhinderte Vermögensmehrung mit Auswirkung auf den Unterschiedsbetrag, ohne Gewinnverteilungsbeschluss (R 8.5 Abs. 1 S. 1 KStR).\n3. Veranlassung durch das Gesellschaftsverhältnis: Fremdvergleich; beim beherrschenden Gesellschafter schon dann, wenn eine zivilrechtlich wirksame, klare und im Voraus getroffene Vereinbarung fehlt (R 8.5 Abs. 2 S. 1 KStR).\n4. Rechtsfolge: Die vGA mindert das Einkommen nicht, Korrektur außerhalb der Bilanz (§ 8 Abs. 3 S. 2 KStG). Beim Gesellschafter gehört sie zu den Einnahmen aus Kapitalvermögen (§ 20 Abs. 1 Nr. 1 S. 2 EStG).\n\nIm Beispiel: Miete 36.000 € statt angemessen 24.000 € → vGA 12.000 €; Einkommen 90.000 € + 12.000 € = 102.000 €. Bei Maren: 24.000 € Vermietungseinkünfte (§ 21 Abs. 1 S. 1 Nr. 1 EStG), 12.000 € Kapitalerträge.\n\nZum Schluss: § 8 Abs. 3 KStG, § 20 Abs. 1 Nr. 1 EStG und R 8.5 KStR zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8 Abs. 3 S. 2 KStG",
+    "R 8.5 Abs. 1, 2 KStR",
+    "§ 20 Abs. 1 Nr. 1 S. 2 EStG",
+    "§ 21 Abs. 1 S. 1 Nr. 1 EStG",
+    "H 8.5 KStH"
+  ],
+  "slug": "2026-10-21-b2",
+  "kurztitel": "Verdeckte Gewinnausschüttung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · vGA sicher · prüfen · § 8 Abs. 3 S. 2 KStG · in 4 Schritten · + Markier-Guide § 8 + R 8.5 · Miete zu hoch · 12.000 € · im Jahr",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Das Schema · Wer profitiert? · R 8.5 Abs. 1 S. 3 KStR · Gesellschafter oder nahestehende Person · Vermögen gemindert? · R 8.5 Abs. 1 S. 1 KStR · ohne Gewinnverteilungsbeschluss · Gesellschaftlich veranlasst? · R 8.5 Abs. 2 KStR · Fremdvergleich, beherrschend: im Voraus vereinbart? · Bewerten, hinzurechnen · § 8 Abs. 3 S. 2 KStG · außerhalb der Bilanz · Am Ende: § 8 KStG + R 8.5 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Der Fall · Maren hält 60 % der Lumen GmbH. · Sie vermietet der GmbH ihr Büro für 3.000 € im Monat. · Üblich wären 2.000 €. · Ist doch mein Büro!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "1 + 2 · Vorteil, Minderung · Den Vorteil hat Maren als Gesellschafterin. · Die GmbH zahlt 12.000 € im Jahr zu viel, ihr Gewinn sinkt. · R 8.5 Abs. 1 S. 1 KStR · Ein Gewinnverteilungsbeschluss liegt nicht vor. · Und jetzt?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "3 · Beherrschend! · Ein fremder Vermieter bekäme nur 2.000 €: Der Mehrbetrag ist gesellschaftlich veranlasst. · Maren beherrscht die GmbH: Fehlt eine klare Vereinbarung im Voraus, ist die ganze Miete vGA. · R 8.5 Abs. 2 S. 1 KStR · Die ganze Miete?"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "4 · Bewerten, hinzurechnen · § 8 Abs. 3 S. 2 KStG · Gezahlte Miete · 36.000 € · – angemessene Miete · – 24.000 € · = vGA · 12.000 € · Jahresüberschuss · 90.000 € · = Einkommen · 102.000 € · Hinzurechnung außerhalb der Bilanz"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Und bei Maren? · Mieteinnahmen nur noch 24.000 €. · § 21 Abs. 1 S. 1 Nr. 1 EStG · Die 12.000 € sind Kapitalerträge. · § 20 Abs. 1 Nr. 1 S. 2 EStG · Andere Einkunftsart!"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "Lösung: vGA 12.000 €, Einkommen 102.000 € · Bei Maren: 12.000 € Kapitalerträge statt Miete · Vorteil finden, · Minderung prüfen, · Fremdvergleich ziehen, · außerhalb hinzurechnen. · Speichern für Klausur 2 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 8 KStG + R 8.5 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "§ 8 KStG, § 20 EStG (Auszug) · vGA · außerbilanziell + · beim Gesellschafter · Korrektur außerhalb der Bilanz · Jahresüberschuss bleibt, Einkommen steigt"
+    },
+    {
+      "art": "text",
+      "titel": "Körperschaftsteuer",
+      "text": "R 8.5 KStR vGA (Auszug) · Minderung · Auslöser · auch Angehörige · sonst vGA · Beherrschend: H 8.5 KStH · Mehrheit der Stimmrechte, Maren hat 60 %"
+    }
+  ]
+}
