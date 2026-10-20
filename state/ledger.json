@@ -13017,22 +13017,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 82,
-        "views": 104,
+        "reach": 88,
+        "views": 114,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 95,
-        "navigation_swipe_forward": 12,
-        "navigation_tap_exit": 13,
-        "navigation_tap_forward": 65,
-        "navigation_tap_back": 5
+        "navigation": 105,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 70,
+        "navigation_tap_exit": 14,
+        "navigation_swipe_forward": 14
       },
-      "insightsStand": "2026-10-20T08:45:12.098Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-10-20T11:30:19.751Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-10-19",
@@ -13237,17 +13237,17 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 38,
-        "saved": 0,
+        "reach": 46,
+        "saved": 1,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-20T09:44:03.425Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-20T11:30:22.470Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-20",
@@ -13287,7 +13287,23 @@
       "storyArt": "norm",
       "thema": "persg-aufb-persg-melzer-1-4",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 14,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 8
+      },
+      "insightsStand": "2026-10-20T11:30:19.751Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-20",
