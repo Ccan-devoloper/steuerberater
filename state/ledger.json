@@ -13626,22 +13626,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 61,
-        "views": 77,
+        "reach": 72,
+        "views": 91,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 66,
-        "navigation_tap_back": 3,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 50,
-        "navigation_tap_exit": 10
+        "navigation": 80,
+        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 58,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-21T16:44:41.501Z",
-      "insightsAlterStunden": 10.2
+      "insightsStand": "2026-10-21T20:44:49.768Z",
+      "insightsAlterStunden": 14.2
     },
     {
       "datum": "2026-10-21",
@@ -13694,17 +13694,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 42,
-        "saved": 1,
+        "reach": 59,
+        "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-21T16:44:49.867Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-21T20:44:54.376Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-21",
@@ -13718,22 +13718,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 48,
-        "views": 61,
+        "reach": 60,
+        "views": 80,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 52,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 38,
-        "navigation_tap_back": 1
+        "navigation": 66,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 49,
+        "navigation_tap_exit": 11,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-21T16:44:41.501Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-21T20:44:49.768Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-21",
@@ -13776,21 +13776,21 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 26,
-        "views": 32,
+        "reach": 53,
+        "views": 63,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 24,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 19,
-        "navigation_tap_exit": 3
+        "navigation": 52,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 38,
+        "navigation_tap_exit": 9
       },
-      "insightsStand": "2026-10-21T16:44:41.501Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-21T20:44:49.768Z",
+      "insightsAlterStunden": 5.7
     },
     {
       "datum": "2026-10-21",
@@ -13814,19 +13814,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 131,
-        "saved": 0,
-        "shares": 0,
-        "likes": 3,
+        "reach": 175,
+        "saved": 2,
+        "shares": 2,
+        "likes": 6,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 151,
-        "ig_reels_avg_watch_time": 6748,
-        "ig_reels_video_view_total_time": 870609,
-        "reels_skip_rate": 75.9
+        "total_interactions": 10,
+        "views": 223,
+        "ig_reels_avg_watch_time": 9178,
+        "ig_reels_video_view_total_time": 1578701,
+        "reels_skip_rate": 69.4
       },
-      "insightsStand": "2026-10-21T18:44:08.952Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-21T20:44:54.376Z",
+      "insightsAlterStunden": 3.7
     },
     {
       "datum": "2026-10-21",
