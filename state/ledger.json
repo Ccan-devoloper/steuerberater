@@ -13545,13 +13545,35 @@
       "thema": "bilanz-quiz-k3-10",
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-21",
+      "slot": "b1",
+      "medienId": "18086738399686622",
+      "veroeffentlicht": "2026-10-21T06:30:05.386Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "fehlerfalle",
+      "thema": "ao-aufb-ao-jacobs-8-5",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Klausurfalle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 14,
     "ust": 12,
     "kst": 11,
-    "ao": 22,
+    "ao": 23,
     "bilanz": 23,
     "istr": 17,
     "erbst": 8,
