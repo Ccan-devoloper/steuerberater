@@ -1,0 +1,75 @@
+{
+  "format": "schema",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-1-6",
+  "caption": "Mitunternehmeranteil über dem Kapitalkonto gekauft? So entsteht die Ergänzungsbilanz – das Prüfschema in 4 Schritten.\n\n1. Mehrpreis: Kaufpreis minus übernommenes Kapitalkonto.\n2. Verteilung auf die anteiligen stillen Reserven der einzelnen Wirtschaftsgüter, ein verbleibender Rest ist Firmenwert.\n3. Ergänzungsbilanz des Erwerbers: Mehrwerte auf der Aktivseite, Mehrkapital auf der Passivseite; sie gehört zur Gewinnermittlung des Mitunternehmers (§ 15 Abs. 1 S. 1 Nr. 2 EStG).\n4. Fortschreibung: Die Mehrwerte werden wie eigene Anschaffungskosten abgeschrieben, nach der Restnutzungsdauer im Erwerbszeitpunkt (BFH vom 20.11.2014, IV R 1/11, BStBl II 2017, 34); Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG). Die Mehr-AfA mindert nur den Gewinnanteil des Erwerbers.\n\nIm Beispiel: 200.000 € – 120.000 € = 80.000 € Mehrpreis; Grundstück 30.000 €, Maschinen 20.000 €, Firmenwert 30.000 €. Jährlich 5.000 € (Maschinen, 4 Jahre) + 2.000 € (Firmenwert) = 7.000 € Mehr-AfA.\n\nIm Gesetz steht die Ergänzungsbilanz übrigens auch: § 6 Abs. 5 S. 4 EStG. Zum Schluss zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 6 Abs. 5 S. 4 EStG",
+    "§ 7 Abs. 1 S. 3 EStG",
+    "BFH vom 20.11.2014, IV R 1/11, BStBl II 2017, 34"
+  ],
+  "slug": "2026-10-22-b2",
+  "kurztitel": "Wozu braucht ein Mitunternehmer eine Ergänzungsbilanz?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Anteil teurer · gekauft? · § 15 Abs. 1 S. 1 Nr. 2 EStG · in 4 Schritten · + Markier-Guide § 6 EStG · Mehrpreis · 80.000 € · über Kapital",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Das Schema · Mehrpreis ermitteln · Kaufpreis minus übernommenes Kapital · Auf Wirtschaftsgüter verteilen · anteilige stille Reserven, Rest Firmenwert · Ergänzungsbilanz aufstellen · Mehrwerte aktiv, Mehrkapital passiv · Fortschreiben · § 7 Abs. 1 EStG · AfA auf die Mehrwerte · Am Ende: § 6 Abs. 5 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Der Fall · Imani kauft für 200.000 € ein Drittel der Rosen-KG. · Ihr übernommenes Kapitalkonto: 120.000 €. · Stille Reserven der KG: Grundstück 90.000 €, Maschinen 60.000 €. · Wohin mit 80.000 €?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "1 + 2 · Mehrpreis verteilen · Kaufpreis · 200.000 € · – Kapitalkonto · – 120.000 € · = Mehrpreis · 80.000 € · Grundstück 1/3 von 90.000 € · 30.000 € · Maschinen 1/3 von 60.000 € · 20.000 € · Rest: Firmenwert · 30.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "3 · Ergänzungsbilanz Imani · Aktiva · Grundstück 30.000 € · Maschinen 20.000 € · Firmenwert 30.000 € · Passiva · Mehrkapital Imani 80.000 € · Nur für mich!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "4 · Fortschreiben! · Mehrwerte nach Restnutzungsdauer abschreiben: Maschinen in 4 Jahren, 5.000 € jährlich. · BFH vom 20.11.2014, IV R 1/11, BStBl II 2017, 34 · Firmenwert über 15 Jahre: 2.000 € jährlich. · § 7 Abs. 1 S. 3 EStG · Die Mehr-AfA mindert nur Imanis Gewinnanteil. · Jedes Jahr?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Ergänzungsbilanz Imani: 80.000 € Mehrwerte · Mehr-AfA 7.000 € im Jahr, nur für ihren Anteil · Mehrpreis ermitteln, · Reserven zuordnen, · Rest Firmenwert, · jährlich fortschreiben. · Speichern für Klausur 3 · Vergisst du die Fortschreibung? · Weiterwischen: § 6 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§§ 6, 7 EStG (Auszug) · Ergänzungsbilanz im Gesetz · Firmenwert · Mehr-AfA · BFH IV R 1/11 (BStBl II 2017, 34) · Erwerber schreibt nach Restnutzungsdauer ab"
+    }
+  ]
+}

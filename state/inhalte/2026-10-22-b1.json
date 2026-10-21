@@ -1,0 +1,65 @@
+{
+  "format": "spickzettel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-11",
+  "caption": "Betriebsstätte: AO oder DBA? Der Spickzettel für die Ertragsteuer-Klausur.\n\n▸ Betriebsstätte nach nationalem Recht ist jede feste Geschäftseinrichtung oder Anlage, die der Tätigkeit eines Unternehmens dient (§ 12 S. 1 AO); Bauausführungen und Montagen zählen, wenn sie länger als sechs Monate dauern (§ 12 S. 2 Nr. 8 AO), auch Ein- oder Verkaufsstellen (§ 12 S. 2 Nr. 6 AO).\n▸ Der Begriff des § 12 AO entscheidet, ob Deutschland einen ausländischen Unternehmer beschränkt besteuern will (§ 49 Abs. 1 Nr. 2 Buchst. a EStG).\n▸ Ob Deutschland besteuern darf, richtet sich nach dem DBA: Unternehmensgewinne nur im Ansässigkeitsstaat, außer bei einer Betriebsstätte im anderen Staat (Art. 7 Abs. 1 OECD-MA). Bauausführungen sind dort erst ab mehr als zwölf Monaten Betriebsstätte (Art. 5 Abs. 3 OECD-MA), vorbereitende und Hilfstätigkeiten wie Lager oder Einkauf in der Regel nicht (Art. 5 Abs. 4 OECD-MA). Die Fristen im konkreten Abkommen können abweichen.\n\nZum Schluss: § 12 AO zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "§ 12 AO",
+    "§ 49 Abs. 1 Nr. 2 Buchst. a EStG",
+    "Art. 5 Abs. 3, 4 OECD-MA",
+    "Art. 7 Abs. 1 OECD-MA"
+  ],
+  "slug": "2026-10-22-b1",
+  "kurztitel": "Betriebsstätte: Der DBA-Begriff ist enger als § 12 AO",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Betriebsstätte: · AO oder DBA? · § 12 AO · auf einer Karte · + Markier-Guide § 12 AO · Baustelle · 8 Monate · Betriebsstätte?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Die Karte · AO-Begriff · § 12 S. 1 AO · feste Einrichtung des Unternehmens · Bau und Montage · § 12 S. 2 Nr. 8 AO · AO: über 6 Monate · DBA-Begriff · Art. 5 Abs. 3 OECD-MA · Bau erst über 12 Monate · Hilfstätigkeiten · Art. 5 Abs. 4 OECD-MA · Lager, Einkauf: oft keine Betriebsstätte · Am Ende: § 12 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Baustelle, 8 Monate · § 12 AO · Betriebsstätte: ja · § 12 S. 2 Nr. 8 AO · beschränkt steuerpflichtig · § 49 Abs. 1 Nr. 2 EStG · OECD-MA · Betriebsstätte: nein · Art. 5 Abs. 3 OECD-MA · Gewinn nur im Ansässigkeitsstaat · Art. 7 Abs. 1 OECD-MA · Beides gilt?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Welcher Begriff wann? · Ob Deutschland besteuern will, regelt § 12 AO. · § 49 Abs. 1 Nr. 2 Buchst. a EStG · Ob es besteuern darf, regelt der Betriebsstättenbegriff des DBA. · Art. 7 Abs. 1 OECD-MA · Immer das konkrete Abkommen lesen, Fristen weichen ab. · Erst AO, dann DBA"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Baustelle 8 Monate: AO ja, OECD-MA nein · DBA-Begriff ist enger · AO: will besteuern, · DBA: darf besteuern, · Bau: 6 oder 12 Monate. · Lager: DBA oft nicht. · Speichern für Klausur 2 · Deine DBA-Frist? · Weiterwischen: § 12 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 12 AO Betriebstätte (Auszug) · Grundbegriff · DBA: Einkauf oft nicht · DBA: 12 Monate · DBA-Begriff: Art. 5 OECD-MA · Bauausführung erst nach mehr als 12 Monaten"
+    }
+  ]
+}

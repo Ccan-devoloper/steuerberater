@@ -1,0 +1,22 @@
+{
+  "slot": "s3",
+  "art": "teaser",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b3",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Neu im Feed",
+    "Betrieb geerbt: 85 oder 100 %?",
+    "Neues Reel · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

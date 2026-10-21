@@ -1,0 +1,27 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-14",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Norm des Tages",
+    "Ab ins Ausland:",
+    "Entstrickung?",
+    "§ 4 Abs. 1 S. 3 EStG",
+    "Zählt wie eine Entnahme, bewertet zum gemeinen Wert.",
+    "§ 6 Abs. 1 Nr. 4 S. 1 EStG",
+    "EU-Fall: Ausgleichsposten, über fünf Jahre auflösen.",
+    "§ 4g Abs. 1, 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

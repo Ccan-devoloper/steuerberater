@@ -1,0 +1,22 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Neu im Feed",
+    "Betriebsstätte: AO oder DBA?",
+    "Spickzettel + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,59 @@
+{
+  "format": "reel",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-3",
+  "caption": "Betriebsvermögen geerbt: 85 % oder 100 % steuerfrei? 🏭\n\n▸ Regelverschonung: Begünstigtes Vermögen bleibt zu 85 % steuerfrei (§ 13a Abs. 1 S. 1 ErbStG). Auf den Rest gibt es einen Abzugsbetrag von 150.000 €, der um die Hälfte des übersteigenden Betrags abschmilzt (§ 13a Abs. 2 ErbStG). Beispiel 2 Mio. €: Rest 300.000 €, Abzugsbetrag 150.000 € – 75.000 € = 75.000 €, steuerpflichtig 225.000 €.\n▸ Optionsverschonung: Auf unwiderruflichen Antrag 100 % (§ 13a Abs. 10 S. 1 Nr. 1 ErbStG), aber nur, wenn das begünstigungsfähige Vermögen zu höchstens 20 % aus Verwaltungsvermögen besteht (§ 13a Abs. 10 S. 2 ErbStG).\n▸ Preis der Option: Behaltensfrist und Lohnsummenfrist sieben statt fünf Jahre, Mindestlohnsumme 700 % statt 400 % (§ 13a Abs. 10 S. 1 Nr. 2, 3, 6 ErbStG; Grundfall § 13a Abs. 3 S. 1, Abs. 6 ErbStG). Bei höchstens fünf Beschäftigten entfällt die Lohnsummenprüfung (§ 13a Abs. 3 S. 3 Nr. 2 ErbStG).\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§ 13a Abs. 1, 2, 3, 6, 10 ErbStG"
+  ],
+  "slug": "2026-10-22-b3",
+  "kurztitel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "quizfrage",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Betrieb geerbt: 85 oder 100 %?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Regelverschonung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Option 100 %"
+    },
+    {
+      "art": "schritt",
+      "titel": "Der Preis"
+    }
+  ],
+  "sprecher": [
+    "Betrieb für zwei Millionen Euro geerbt. Was bleibt steuerpflichtig? Je nach Antrag etwas oder gar nichts.",
+    "Regelverschonung: Fünfundachtzig Prozent bleiben frei. Für die restlichen dreihunderttausend gibt es noch einen Abzugsbetrag von fünfundsiebzigtausend.",
+    "Die Option auf hundert Prozent gibt es nur bei höchstens zwanzig Prozent Verwaltungsvermögen.",
+    "Dafür sieben statt fünf Jahre halten und die Lohnsumme strenger. Der Antrag ist unwiderruflich.",
+    "Merke: Hundert Prozent kosten mehr Zeit."
+  ],
+  "dauerS": 36.392,
+  "tempo": 1
+}
