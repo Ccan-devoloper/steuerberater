@@ -13653,12 +13653,34 @@
       "thema": "erbst-aufb-erbst-v-28",
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-21",
+      "slot": "b2",
+      "medienId": "18144763045607507",
+      "veroeffentlicht": "2026-10-21T11:30:06.615Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "kst-schema-1",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 14,
     "ust": 12,
-    "kst": 11,
+    "kst": 12,
     "ao": 23,
     "bilanz": 23,
     "istr": 17,
