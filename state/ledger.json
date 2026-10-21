@@ -11260,19 +11260,19 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 134,
+        "reach": 138,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
-        "views": 168,
-        "ig_reels_avg_watch_time": 4956,
-        "ig_reels_video_view_total_time": 683954,
-        "reels_skip_rate": 73.1
+        "views": 172,
+        "ig_reels_avg_watch_time": 4856,
+        "ig_reels_video_view_total_time": 689645,
+        "reels_skip_rate": 73.9
       },
-      "insightsStand": "2026-10-20T16:45:06.280Z",
-      "insightsAlterStunden": 143.7
+      "insightsStand": "2026-10-21T17:00:23.736Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-10-14",
