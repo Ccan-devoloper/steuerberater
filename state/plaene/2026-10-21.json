@@ -41,8 +41,9 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "bilanz-quiz-k3-10",
-      "status": "sendet",
-      "sendeversuch": "2026-10-21T05:07:00.068Z"
+      "status": "veroeffentlicht",
+      "medienId": "18025467665871588",
+      "veroeffentlicht": "2026-10-21T05:07:02.736Z"
     },
     {
       "slot": "s5",

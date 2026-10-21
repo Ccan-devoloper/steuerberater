@@ -13521,6 +13521,18 @@
       },
       "insightsStand": "2026-10-20T18:44:40.316Z",
       "insightsAlterStunden": 1.5
+    },
+    {
+      "datum": "2026-10-21",
+      "slot": "s4",
+      "medienId": "18025467665871588",
+      "veroeffentlicht": "2026-10-21T05:07:02.737Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "bilanz-quiz-k3-10",
+      "fach": "bilanz",
+      "titel": ""
     }
   ],
   "fachZaehler": {
