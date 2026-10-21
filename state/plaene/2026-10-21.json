@@ -36,7 +36,8 @@
       "themaTitel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
       "fach": "persg",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-21T17:00:00.099Z"
     }
   ],
   "stories": [
