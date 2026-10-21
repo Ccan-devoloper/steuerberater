@@ -13825,6 +13825,18 @@
       "thema": null,
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-21",
+      "slot": "s9",
+      "medienId": "18118159655326841",
+      "veroeffentlicht": "2026-10-21T17:12:03.466Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-2-49",
+      "fach": "umwst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
