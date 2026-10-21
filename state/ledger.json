@@ -13353,22 +13353,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 81,
-        "views": 106,
+        "reach": 87,
+        "views": 115,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 92,
+        "navigation": 99,
         "navigation_tap_exit": 15,
-        "navigation_tap_forward": 63,
-        "navigation_tap_back": 10,
-        "navigation_swipe_forward": 4
+        "navigation_tap_forward": 66,
+        "navigation_tap_back": 11,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-21T07:44:45.975Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-21T10:14:05.045Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-20",
