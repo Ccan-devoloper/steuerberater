@@ -13791,10 +13791,32 @@
       },
       "insightsStand": "2026-10-21T16:44:41.501Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-21",
+      "slot": "b3",
+      "medienId": "18112649834166510",
+      "veroeffentlicht": "2026-10-21T17:00:08.895Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "persg-aufb-persg-melzer-1-5",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 14,
+    "persg": 15,
     "ust": 12,
     "kst": 12,
     "ao": 23,
