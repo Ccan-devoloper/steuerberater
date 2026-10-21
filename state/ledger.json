@@ -13812,7 +13812,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 131,
+        "saved": 0,
+        "shares": 0,
+        "likes": 3,
+        "comments": 0,
+        "total_interactions": 3,
+        "views": 151,
+        "ig_reels_avg_watch_time": 6748,
+        "ig_reels_video_view_total_time": 870609,
+        "reels_skip_rate": 75.9
+      },
+      "insightsStand": "2026-10-21T18:44:08.952Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-21",
@@ -13824,7 +13838,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 28,
+        "views": 33,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 32,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 25,
+        "navigation_tap_exit": 3,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-21T18:44:06.275Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-21",
@@ -13836,7 +13867,23 @@
       "storyArt": "merksatz",
       "thema": "umwst-aufb-umw-2-49",
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 26,
+        "views": 32,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 20,
+        "navigation_tap_forward": 15,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-21T18:44:06.275Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {

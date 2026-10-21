@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-21T17:45:02.581Z",
+  "stand": "2026-10-21T18:44:09.966Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -39048,6 +39048,89 @@
           "navigation_tap_exit": 3
         }
       ]
+    },
+    "18059400755558856": {
+      "art": "story",
+      "datum": "2026-10-21",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-21T17:00:22.367Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-21T18:44:06.275Z",
+          "alterStunden": 1.7,
+          "reach": 28,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 25,
+          "navigation_tap_exit": 3,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18118159655326841": {
+      "art": "story",
+      "datum": "2026-10-21",
+      "titel": null,
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-21T17:12:03.466Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-21T18:44:06.275Z",
+          "alterStunden": 1.5,
+          "reach": 26,
+          "views": 32,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_forward": 15,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18112649834166510": {
+      "art": "beitrag",
+      "datum": "2026-10-21",
+      "titel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
+      "format": "reel",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-21T17:00:08.895Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-21T18:44:08.952Z",
+          "alterStunden": 1.7,
+          "reach": 131,
+          "saved": 0,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 151,
+          "ig_reels_avg_watch_time": 6748,
+          "ig_reels_video_view_total_time": 870609,
+          "reels_skip_rate": 75.9
+        }
+      ]
     }
   },
   "konto": [
@@ -41308,6 +41391,11 @@
     },
     {
       "stand": "2026-10-21T17:45:02.581Z",
+      "follower": 205,
+      "medien": 138
+    },
+    {
+      "stand": "2026-10-21T18:44:09.966Z",
       "follower": 205,
       "medien": 138
     }
