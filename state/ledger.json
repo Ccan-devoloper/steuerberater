@@ -11012,7 +11012,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 81,
+        "reach": 83,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -11021,8 +11021,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-20T06:30:20.241Z",
-      "insightsAlterStunden": 144.3
+      "insightsStand": "2026-10-21T06:30:22.312Z",
+      "insightsAlterStunden": 168.3
     },
     {
       "datum": "2026-10-14",
@@ -11076,17 +11076,17 @@
         "#stbexamen2027"
       ],
       "insights": {
-        "reach": 355,
-        "saved": 23,
+        "reach": 402,
+        "saved": 28,
         "shares": 1,
-        "likes": 6,
+        "likes": 7,
         "comments": 0,
-        "total_interactions": 30,
-        "follows": 3,
-        "profile_visits": 10
+        "total_interactions": 36,
+        "follows": 4,
+        "profile_visits": 11
       },
-      "insightsStand": "2026-10-20T06:30:20.241Z",
-      "insightsAlterStunden": 143.5
+      "insightsStand": "2026-10-21T06:30:22.312Z",
+      "insightsAlterStunden": 167.5
     },
     {
       "datum": "2026-10-14",
@@ -11412,17 +11412,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 83,
+        "reach": 88,
         "saved": 2,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 2,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-20T06:30:20.241Z",
-      "insightsAlterStunden": 120
+      "insightsStand": "2026-10-21T06:30:22.312Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-10-15",
@@ -13532,7 +13532,23 @@
       "storyArt": "frage",
       "thema": "bilanz-quiz-k3-10",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 29,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 20,
+        "navigation_swipe_forward": 3
+      },
+      "insightsStand": "2026-10-21T06:30:19.584Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-21",
@@ -13544,7 +13560,24 @@
       "storyArt": "antwort",
       "thema": "bilanz-quiz-k3-10",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 17,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 11,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-10-21T06:30:19.584Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-21",
