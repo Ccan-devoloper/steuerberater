@@ -12234,7 +12234,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 67,
+        "reach": 71,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -12243,8 +12243,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-20T06:44:42.168Z",
-      "insightsAlterStunden": 67.2
+      "insightsStand": "2026-10-21T07:44:49.731Z",
+      "insightsAlterStunden": 92.2
     },
     {
       "datum": "2026-10-17",
@@ -13290,22 +13290,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 81,
-        "views": 101,
+        "reach": 91,
+        "views": 116,
         "shares": 0,
-        "total_interactions": 1,
+        "total_interactions": 2,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 84,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 60,
-        "navigation_tap_exit": 13,
-        "navigation_swipe_forward": 7
+        "navigation": 97,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 67,
+        "navigation_tap_exit": 16,
+        "navigation_swipe_forward": 9
       },
-      "insightsStand": "2026-10-21T05:09:04.614Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-21T07:44:45.975Z",
+      "insightsAlterStunden": 21.5
     },
     {
       "datum": "2026-10-20",
@@ -13353,22 +13353,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 72,
-        "views": 92,
+        "reach": 81,
+        "views": 106,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 81,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_back": 8,
-        "navigation_tap_forward": 58,
-        "navigation_tap_exit": 11
+        "navigation": 92,
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 63,
+        "navigation_tap_back": 10,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-21T05:09:04.614Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-21T07:44:45.975Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-20",
@@ -13599,7 +13599,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 28,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-21T07:44:49.731Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-21",
@@ -13611,7 +13623,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 19,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 14,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-21T07:44:45.975Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
