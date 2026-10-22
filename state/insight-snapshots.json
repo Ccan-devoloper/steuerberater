@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-22T17:44:41.913Z",
+  "stand": "2026-10-22T19:32:38.098Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -40187,6 +40187,23 @@
           "navigation_tap_forward": 51,
           "navigation_tap_back": 4,
           "navigation_tap_exit": 10
+        },
+        {
+          "stand": "2026-10-22T19:32:32.059Z",
+          "alterStunden": 14.4,
+          "reach": 87,
+          "views": 110,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 95,
+          "navigation_tap_exit": 16,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 61,
+          "navigation_swipe_forward": 13
         }
       ]
     },
@@ -40249,6 +40266,23 @@
           "navigation_tap_forward": 49,
           "navigation_tap_back": 5,
           "navigation_tap_exit": 7
+        },
+        {
+          "stand": "2026-10-22T19:32:32.059Z",
+          "alterStunden": 14.4,
+          "reach": 76,
+          "views": 95,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 87,
+          "navigation_tap_exit": 7,
+          "navigation_tap_back": 10,
+          "navigation_tap_forward": 59,
+          "navigation_swipe_forward": 11
         }
       ]
     },
@@ -40363,6 +40397,18 @@
           "stand": "2026-10-22T15:04:08.808Z",
           "alterStunden": 8.6,
           "reach": 54,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-22T19:32:36.884Z",
+          "alterStunden": 13,
+          "reach": 56,
           "saved": 0,
           "shares": 0,
           "likes": 2,
@@ -40582,6 +40628,89 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 2,
           "navigation_tap_forward": 10
+        }
+      ]
+    },
+    "18025970027870296": {
+      "art": "story",
+      "datum": "2026-10-22",
+      "titel": null,
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-22T17:00:27.354Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-22T19:32:32.059Z",
+          "alterStunden": 2.5,
+          "reach": 34,
+          "views": 40,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 27,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18114307910335212": {
+      "art": "story",
+      "datum": "2026-10-22",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-22T17:12:04.605Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-22T19:32:32.059Z",
+          "alterStunden": 2.3,
+          "reach": 29,
+          "views": 37,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 24
+        }
+      ]
+    },
+    "18089486717271118": {
+      "art": "beitrag",
+      "datum": "2026-10-22",
+      "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+      "format": "reel",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-22T17:00:10.692Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-22T19:32:36.884Z",
+          "alterStunden": 2.5,
+          "reach": 154,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 181,
+          "ig_reels_avg_watch_time": 7025,
+          "ig_reels_video_view_total_time": 1096052,
+          "reels_skip_rate": 72
         }
       ]
     }
@@ -42925,6 +43054,11 @@
     {
       "stand": "2026-10-22T17:00:29.610Z",
       "follower": 210,
+      "medien": 141
+    },
+    {
+      "stand": "2026-10-22T19:32:38.098Z",
+      "follower": 211,
       "medien": 141
     }
   ]

@@ -13899,22 +13899,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 67,
-        "views": 87,
+        "reach": 87,
+        "views": 110,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 76,
-        "navigation_swipe_forward": 11,
-        "navigation_tap_forward": 51,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 10
+        "navigation": 95,
+        "navigation_tap_exit": 16,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 61,
+        "navigation_swipe_forward": 13
       },
-      "insightsStand": "2026-10-22T15:04:06.229Z",
-      "insightsAlterStunden": 10
+      "insightsStand": "2026-10-22T19:32:32.059Z",
+      "insightsAlterStunden": 14.4
     },
     {
       "datum": "2026-10-22",
@@ -13928,22 +13928,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 55,
-        "views": 72,
+        "reach": 76,
+        "views": 95,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 65,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 49,
-        "navigation_tap_back": 5,
-        "navigation_tap_exit": 7
+        "navigation": 87,
+        "navigation_tap_exit": 7,
+        "navigation_tap_back": 10,
+        "navigation_tap_forward": 59,
+        "navigation_swipe_forward": 11
       },
-      "insightsStand": "2026-10-22T15:04:06.229Z",
-      "insightsAlterStunden": 9.9
+      "insightsStand": "2026-10-22T19:32:32.059Z",
+      "insightsAlterStunden": 14.4
     },
     {
       "datum": "2026-10-22",
@@ -13967,7 +13967,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 54,
+        "reach": 56,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -13976,8 +13976,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-22T15:04:08.808Z",
-      "insightsAlterStunden": 8.6
+      "insightsStand": "2026-10-22T19:32:36.884Z",
+      "insightsAlterStunden": 13
     },
     {
       "datum": "2026-10-22",
@@ -14176,7 +14176,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 154,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 181,
+        "ig_reels_avg_watch_time": 7025,
+        "ig_reels_video_view_total_time": 1096052,
+        "reels_skip_rate": 72
+      },
+      "insightsStand": "2026-10-22T19:32:36.884Z",
+      "insightsAlterStunden": 2.5
     },
     {
       "datum": "2026-10-22",
@@ -14188,7 +14202,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "erbst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 34,
+        "views": 40,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 32,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 27,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-22T19:32:32.059Z",
+      "insightsAlterStunden": 2.5
     },
     {
       "datum": "2026-10-22",
@@ -14200,7 +14231,23 @@
       "storyArt": "merksatz",
       "thema": "ao-modul-ao-301",
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 29,
+        "views": 37,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 32,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 24
+      },
+      "insightsStand": "2026-10-22T19:32:32.059Z",
+      "insightsAlterStunden": 2.3
     }
   ],
   "fachZaehler": {
