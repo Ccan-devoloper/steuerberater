@@ -11504,7 +11504,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 73,
+        "reach": 75,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11513,8 +11513,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-21T08:43:53.319Z",
-      "insightsAlterStunden": 141.2
+      "insightsStand": "2026-10-22T08:43:58.834Z",
+      "insightsAlterStunden": 165.2
     },
     {
       "datum": "2026-10-15",
@@ -11869,7 +11869,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 69,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11878,8 +11878,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-21T08:43:53.319Z",
-      "insightsAlterStunden": 117.2
+      "insightsStand": "2026-10-22T08:43:58.834Z",
+      "insightsAlterStunden": 141.2
     },
     {
       "datum": "2026-10-16",
@@ -13694,7 +13694,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 62,
+        "reach": 68,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -13703,8 +13703,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-22T05:09:14.116Z",
-      "insightsAlterStunden": 17.7
+      "insightsStand": "2026-10-22T08:43:58.834Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-21",
@@ -13747,22 +13747,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 64,
-        "views": 83,
+        "reach": 69,
+        "views": 91,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 73,
-        "navigation_tap_forward": 47,
-        "navigation_tap_back": 9,
+        "navigation": 82,
+        "navigation_swipe_forward": 6,
         "navigation_tap_exit": 13,
-        "navigation_swipe_forward": 4
+        "navigation_tap_back": 10,
+        "navigation_tap_forward": 53
       },
-      "insightsStand": "2026-10-22T05:09:04.373Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-22T08:43:57.428Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-21",
@@ -13815,19 +13815,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 326,
+        "reach": 356,
         "saved": 3,
         "shares": 2,
         "likes": 7,
         "comments": 0,
         "total_interactions": 12,
-        "views": 402,
-        "ig_reels_avg_watch_time": 8117,
-        "ig_reels_video_view_total_time": 2687021,
-        "reels_skip_rate": 71.9
+        "views": 433,
+        "ig_reels_avg_watch_time": 8083,
+        "ig_reels_video_view_total_time": 2926134,
+        "reels_skip_rate": 71.5
       },
-      "insightsStand": "2026-10-22T05:09:14.116Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-22T08:43:58.834Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-10-21",
