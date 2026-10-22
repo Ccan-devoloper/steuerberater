@@ -1,0 +1,25 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-1-7",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Gewinn des",
+    "Mitunternehmers",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "Stufe 1: Anteil am Gewinn der Gesellschaft plus Ergänzungsbilanz.",
+    "Stufe 2: Sondervergütungen und übriges Sonderbetriebsergebnis."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

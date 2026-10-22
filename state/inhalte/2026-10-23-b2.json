@@ -1,0 +1,76 @@
+{
+  "format": "vergleich",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-5",
+  "caption": "Ort der Lieferung: bewegt oder ruhend? Die Gegenüberstellung für die USt-Klausur.\n\n▸ Bewegte Lieferung: Wird der Gegenstand befördert oder versendet, ist der Ort dort, wo die Beförderung oder Versendung beginnt (§ 3 Abs. 6 S. 1 UStG).\n▸ Ruhende Lieferung: Ohne Beförderung oder Versendung ist der Ort dort, wo sich der Gegenstand bei Verschaffung der Verfügungsmacht befindet (§ 3 Abs. 7 S. 1 UStG).\n▸ Reihengeschäft: Die Warenbewegung wird nur einer Lieferung zugeordnet (§ 3 Abs. 6a S. 1 UStG); befördert oder versendet der erste Unternehmer, ist es seine Lieferung (§ 3 Abs. 6a S. 2 UStG). Ruhende Lieferungen davor gelten am Beginn, danach am Ende der Beförderung oder Versendung als ausgeführt (§ 3 Abs. 7 S. 2 Nr. 1, 2 UStG).\n\nIm Beispiel: Hersteller (Graz) → Ana (Passau) → Kundin (Passau), Versendung durch den Hersteller. Bewegt ist die Lieferung an Ana, Ort Graz (innergemeinschaftliche Lieferung aus Österreich); Ana erwirbt innergemeinschaftlich in Deutschland, wo die Versendung endet (§ 1a, § 3d S. 1 UStG). Die Lieferung an die Kundin ist ruhend, Ort Passau, steuerbar im Inland.\n\nZum Schluss: § 3 Abs. 6, 6a und 7 UStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umsatzsteuer"
+  ],
+  "quellen": [
+    "§ 3 Abs. 6 S. 1 UStG",
+    "§ 3 Abs. 6a S. 1, 2 UStG",
+    "§ 3 Abs. 7 S. 1, 2 UStG",
+    "§ 1a UStG",
+    "§ 3d S. 1 UStG"
+  ],
+  "slug": "2026-10-23-b2",
+  "kurztitel": "Ort der ruhenden Lieferung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Gegenüberstellung",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Gegenüberstellung",
+      "text": "Gegenüberstellung · Bewegt oder · ruhend? · § 3 Abs. 7 UStG · Lieferort · + Markier-Guide § 3 UStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Bewegt oder ruhend? · Bewegt · Mit Transport zum Abnehmer · § 3 Abs. 6 S. 1 UStG · Ort: wo der Transport beginnt · Ruhend · Kein Transport zu dieser Lieferung · § 3 Abs. 7 S. 1 UStG · Ort: wo die Ware bei Übergabe ist · Und bei Ketten?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Reihengeschäft · Mehrere Verkäufe, aber nur ein Transport direkt vom Ersten zum Letzten. · § 3 Abs. 6a S. 1 UStG · Nur eine Lieferung ist bewegt, alle anderen ruhen. · Schickt der Erste in der Kette die Ware, gehört die Bewegung zu seiner Lieferung. · § 3 Abs. 6a S. 2 UStG · Nur eine!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Ruhend: davor oder danach? · Davor · Ort: wo der Transport beginnt · § 3 Abs. 7 S. 2 Nr. 1 UStG · Danach · Ort: wo der Transport endet · § 3 Abs. 7 S. 2 Nr. 2 UStG · Reihenfolge zählt!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Beispiel · Ein Hersteller in Graz verkauft Möbel an Ana, Händlerin in Passau. · Ana verkauft sie an eine Kundin in Passau weiter. · Der Hersteller schickt sie direkt von Graz zur Kundin. · Wo liegen die Orte? Erst überlegen · Graz oder Passau?"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Die Lösung · Hersteller an Ana · bewegt, Ort Graz · § 3 Abs. 6a S. 2 UStG · innergemeinschaftliche Lieferung aus Österreich · Ana an Kundin · ruhend, Ort Passau · § 3 Abs. 7 S. 2 Nr. 2 UStG · steuerbar in Deutschland · Danach heißt Ende!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Lösung: Graz bewegt, Passau ruhend · Ana erwirbt innergemeinschaftlich in Deutschland · Transport suchen, · eine Lieferung bewegt, · davor: Beginn, · danach: Ende. · Speichern für Klausur 1 · Hättest du Graz für beide genommen? · Weiterwischen: § 3 UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§ 3 UStG (Auszug) · bewegt: Beginn · nur eine bewegt · ruhend · danach: Ende · Graz bewegt, Passau ruhend · Ana erwirbt innergemeinschaftlich"
+    }
+  ]
+}

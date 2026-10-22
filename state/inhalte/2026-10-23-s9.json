@@ -1,0 +1,27 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-19-03",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Merksatz",
+    "Arbeitszimmer",
+    "oder Pauschale?",
+    "Mittelpunkt: Kosten",
+    "oder 1.260 € pauschal,",
+    "sonst 6 € je Tag",
+    "bis 1.260 €.",
+    "§ 4 Abs. 5 S. 1 Nr. 6b, 6c EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

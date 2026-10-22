@@ -1,0 +1,78 @@
+{
+  "format": "minifall",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-2-70",
+  "caption": "Sperrfristbehaftete Anteile verkauft: Wie stockt die GmbH nach einem Einbringungsgewinn I auf? Der Mini-Fall.\n\n▸ Einbringungsgewinn I: gemeiner Wert des eingebrachten Betriebsvermögens abzüglich Kosten und Ansatz bei der GmbH, gemindert um ein Siebtel je abgelaufenes Zeitjahr seit der Einbringung (§ 22 Abs. 1 S. 3 UmwStG); rückwirkende Versteuerung beim Einbringenden (§ 22 Abs. 1 S. 1, 2 UmwStG).\n▸ Die übernehmende Gesellschaft kann auf Antrag den versteuerten Einbringungsgewinn als Erhöhungsbetrag ansetzen, soweit der Einbringende die Steuer entrichtet hat und dies per Bescheinigung nach § 22 Abs. 5 UmwStG nachgewiesen ist; der Ansatz ist gewinnneutral (§ 23 Abs. 2 S. 1 UmwStG). Voraussetzung: Das eingebrachte Betriebsvermögen gehört noch zur GmbH oder wurde zum gemeinen Wert übertragen (§ 23 Abs. 2 S. 2 UmwStG).\n▸ Die höhere AfA gilt ab Beginn des Wirtschaftsjahres, in das die schädliche Veräußerung fällt (§ 23 Abs. 3 S. 2 UmwStG).\n\nIm Beispiel: Einbringung 01.07.2023, Verkauf 10.09.2026 → drei volle Zeitjahre → 700.000 € × 4/7 = 400.000 €. Verteilung im Verhältnis der stillen Reserven: Gebäude 240.000 €, Maschinen 80.000 €, Firmenwert 80.000 €; Mehr-AfA ab 01.01.2026 (Wirtschaftsjahr = Kalenderjahr).\n\nZum Schluss: § 23 Abs. 2, 3 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 22 Abs. 1 S. 1–3, Abs. 5 UmwStG",
+    "§ 23 Abs. 2 S. 1, 2, Abs. 3 S. 2 UmwStG"
+  ],
+  "slug": "2026-10-23-b1",
+  "kurztitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Anteile verkauft: · GmbH stockt auf · § 23 Abs. 2 UmwStG · Wie viel? · + Markier-Guide § 23 UmwStG · Einbringungsgewinn I · 400.000 € · und die GmbH?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Der Fall · Nils bringt am 01.07.2023 sein Einzelunternehmen zum Buchwert in die Nord GmbH ein. · Stille Reserven 700.000 €: Gebäude 420.000 €, Maschinen und Firmenwert je 140.000 €. · Am 10.09.2026 verkauft er die Anteile. · Zu früh verkauft?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Jetzt du · Wie hoch ist der Einbringungsgewinn I? · Was darf die GmbH damit machen – und ab wann? · Erst rechnen, dann weiterwischen · Rechnest du mit?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "1 · Einbringungsgewinn I · § 22 Abs. 1 S. 3 UmwStG · Stille Reserven 2023 · 700.000 € · Abgelaufene Zeitjahre · 3 · – 3/7 · – 300.000 € · = Einbringungsgewinn I · 400.000 € · Rückwirkend in Nils' Veranlagung 2023"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Kein Automatismus · Die GmbH stockt nur auf Antrag auf. · § 23 Abs. 2 S. 1 UmwStG · Und nur, soweit Nils die Steuer bezahlt hat – nachgewiesen per Bescheinigung. · § 22 Abs. 5 UmwStG · Der Erhöhungsbetrag bleibt ohne Gewinnauswirkung. · Erst zahlen!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "2 · Erhöhungsbetrag verteilen · § 23 Abs. 2 S. 1 UmwStG · Gebäude, 4/7 · 240.000 € · Maschinen, 4/7 · 80.000 € · Firmenwert, 4/7 · 80.000 € · = Erhöhungsbetrag · 400.000 € · Im Verhältnis der stillen Reserven"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "3 · AfA ab wann? · Mehr-AfA ab Beginn des Wirtschaftsjahres der Veräußerung, hier 01.01.2026. · § 23 Abs. 3 S. 2 UmwStG · Nicht rückwirkend ab 2023. · Annahme: Wirtschaftsjahr gleich Kalenderjahr. · Erst ab 2026!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Lösung: 400.000 € Erhöhungsbetrag auf Antrag · Gebäude 240.000 €, Maschinen und Firmenwert je 80.000 € · Siebtel abziehen, · Steuer bezahlt? · Antrag stellen, · AfA ab Jahresbeginn. · Speichern für Klausur 3 · Hättest du ab 2023 abgeschrieben? · Weiterwischen: § 23 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "§ 23 UmwStG (Auszug) · Wahlrecht · Steuer bezahlt? · gewinnneutral · AfA ab 01.01.2026 · Nils: Erhöhungsbetrag 400.000 € · Mehr-AfA ab 01.01.2026, nicht ab 2023"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-karte-kst-7",
+  "caption": "Anteile an einer Verlust-GmbH verkauft: Was wird aus dem Verlustvortrag? § 8c KStG in Zahlen. 📉\n\n▸ Schädlich ist erst, wenn innerhalb von fünf Jahren mehr als 50 % des gezeichneten Kapitals, der Mitgliedschafts-, Beteiligungs- oder Stimmrechte an einen Erwerber oder ihm nahestehende Personen übertragen werden; dann sind die bis dahin nicht genutzten Verluste vollständig nicht mehr abziehbar (§ 8c Abs. 1 S. 1 KStG). Eine Übertragung von 40 % ist für sich allein unschädlich.\n▸ Stille-Reserven-Klausel: Der Verlust bleibt abziehbar, soweit er die im Inland steuerpflichtigen stillen Reserven des Betriebsvermögens nicht übersteigt (§ 8c Abs. 1 S. 5, 6 KStG).\n▸ Daneben prüfen: Konzernklausel (§ 8c Abs. 1 S. 4 KStG) und auf Antrag der fortführungsgebundene Verlustvortrag (§ 8d KStG).\n\nIm Beispiel: Verlustvortrag 500.000 €, Erwerb von 60 %, stille Reserven 200.000 € → 200.000 € bleiben, 300.000 € gehen unter.\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#körperschaftsteuer"
+  ],
+  "quellen": [
+    "§ 8c Abs. 1 S. 1, 4, 5, 6 KStG",
+    "§ 8d KStG"
+  ],
+  "slug": "2026-10-23-b3",
+  "kurztitel": "§ 8c KStG",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "40 % verkauft: 40 % Verlust weg?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Grenze"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Rechnung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Stille Reserven"
+    }
+  ],
+  "sprecher": [
+    "Vierzig Prozent der Anteile verkauft, also vierzig Prozent Verlust weg? Falsch. Bis fünfzig Prozent bleibt alles.",
+    "Erst wenn binnen fünf Jahren mehr als die Hälfte an einen Erwerber geht, ist der Verlust weg, und zwar komplett.",
+    "Beispiel: Verlustvortrag fünfhunderttausend Euro, ein Käufer übernimmt sechzig Prozent.",
+    "Aber soweit stille Reserven da sind, bleibt der Verlust. Bei zweihunderttausend Reserven sind nur dreihunderttausend weg.",
+    "Merke: Über die Hälfte, Verlust weg, außer stille Reserven."
+  ],
+  "dauerS": 37.435,
+  "tempo": 1
+}

@@ -1,0 +1,28 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-8",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "§ 15a UStG:",
+    "die Eckdaten",
+    "5 Jahre, Grundstücke 10 Jahre.",
+    "§ 15a Abs. 1 UStG",
+    "Vorsteuer bis 1.000 €: keine Berichtigung.",
+    "§ 44 Abs. 1 UStDV",
+    "Unter 10 Prozentpunkten: erst über 1.000 €.",
+    "§ 44 Abs. 2 UStDV"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
