@@ -14017,10 +14017,32 @@
       "thema": "istr-aufb-istr-gh-4-14",
       "fach": "istr",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-22",
+      "slot": "b2",
+      "medienId": "18119574761472589",
+      "veroeffentlicht": "2026-10-22T11:48:24.262Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "persg-aufb-persg-melzer-1-6",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 15,
+    "persg": 16,
     "ust": 12,
     "kst": 12,
     "ao": 23,
