@@ -13991,22 +13991,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 56,
-        "views": 80,
+        "reach": 67,
+        "views": 95,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 74,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 60,
+        "navigation": 85,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 69,
         "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 2
+        "navigation_swipe_forward": 3
       },
-      "insightsStand": "2026-10-22T16:44:21.037Z",
-      "insightsAlterStunden": 10.2
+      "insightsStand": "2026-10-22T21:04:00.774Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-10-22",
@@ -14020,22 +14020,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 51,
-        "views": 65,
+        "reach": 65,
+        "views": 78,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 56,
-        "navigation_tap_forward": 36,
-        "navigation_tap_exit": 11,
+        "navigation": 67,
+        "navigation_tap_forward": 43,
+        "navigation_tap_exit": 13,
         "navigation_tap_back": 5,
-        "navigation_swipe_forward": 4
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-10-22T16:07:59.844Z",
-      "insightsAlterStunden": 5.9
+      "insightsStand": "2026-10-22T21:04:00.774Z",
+      "insightsAlterStunden": 10.8
     },
     {
       "datum": "2026-10-22",
@@ -14059,7 +14059,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 37,
+        "reach": 51,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -14068,8 +14068,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-22T16:44:23.313Z",
-      "insightsAlterStunden": 4.9
+      "insightsStand": "2026-10-22T21:04:03.938Z",
+      "insightsAlterStunden": 9.3
     },
     {
       "datum": "2026-10-22",
@@ -14140,21 +14140,21 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 13,
-        "views": 19,
+        "reach": 46,
+        "views": 54,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 13,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 2,
-        "navigation_tap_forward": 10
+        "navigation": 47,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 38
       },
-      "insightsStand": "2026-10-22T16:07:59.844Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-22T21:04:00.774Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-22",
@@ -14178,19 +14178,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 154,
+        "reach": 192,
         "saved": 0,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 181,
-        "ig_reels_avg_watch_time": 7025,
-        "ig_reels_video_view_total_time": 1096052,
-        "reels_skip_rate": 72
+        "total_interactions": 2,
+        "views": 242,
+        "ig_reels_avg_watch_time": 6952,
+        "ig_reels_video_view_total_time": 1341928,
+        "reels_skip_rate": 67
       },
-      "insightsStand": "2026-10-22T19:32:36.884Z",
-      "insightsAlterStunden": 2.5
+      "insightsStand": "2026-10-22T21:04:03.938Z",
+      "insightsAlterStunden": 4.1
     },
     {
       "datum": "2026-10-22",
