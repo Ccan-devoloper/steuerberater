@@ -13718,22 +13718,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 73,
-        "views": 101,
+        "reach": 81,
+        "views": 111,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 88,
-        "navigation_tap_back": 7,
-        "navigation_tap_forward": 64,
-        "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 6
+        "navigation": 98,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 71,
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-22T07:52:01.775Z",
-      "insightsAlterStunden": 20.4
+      "insightsStand": "2026-10-22T10:14:04.767Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-21",
