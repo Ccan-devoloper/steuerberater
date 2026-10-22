@@ -12234,17 +12234,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 71,
+        "reach": 76,
         "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-21T07:44:49.731Z",
-      "insightsAlterStunden": 92.2
+      "insightsStand": "2026-10-22T07:52:05.710Z",
+      "insightsAlterStunden": 116.4
     },
     {
       "datum": "2026-10-17",
@@ -12964,7 +12964,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 79,
+        "reach": 82,
         "saved": 4,
         "shares": 0,
         "likes": 2,
@@ -12973,8 +12973,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-21T23:37:01.511Z",
-      "insightsAlterStunden": 60.1
+      "insightsStand": "2026-10-22T07:52:05.710Z",
+      "insightsAlterStunden": 68.4
     },
     {
       "datum": "2026-10-19",
@@ -13091,13 +13091,13 @@
         "likes": 7,
         "comments": 0,
         "total_interactions": 11,
-        "views": 613,
-        "ig_reels_avg_watch_time": 7368,
-        "ig_reels_video_view_total_time": 3934944,
-        "reels_skip_rate": 60.8
+        "views": 614,
+        "ig_reels_avg_watch_time": 7357,
+        "ig_reels_video_view_total_time": 3936219,
+        "reels_skip_rate": 60.9
       },
-      "insightsStand": "2026-10-21T23:37:01.511Z",
-      "insightsAlterStunden": 54.6
+      "insightsStand": "2026-10-22T07:52:05.710Z",
+      "insightsAlterStunden": 62.9
     },
     {
       "datum": "2026-10-19",
@@ -13237,7 +13237,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 63,
+        "reach": 65,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -13246,8 +13246,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-21T23:37:01.511Z",
-      "insightsAlterStunden": 41.1
+      "insightsStand": "2026-10-22T07:52:05.710Z",
+      "insightsAlterStunden": 49.4
     },
     {
       "datum": "2026-10-20",
@@ -13450,19 +13450,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 854,
+        "reach": 908,
         "saved": 8,
         "shares": 0,
         "likes": 5,
         "comments": 0,
         "total_interactions": 13,
-        "views": 992,
-        "ig_reels_avg_watch_time": 8501,
-        "ig_reels_video_view_total_time": 7243218,
-        "reels_skip_rate": 55.7
+        "views": 1057,
+        "ig_reels_avg_watch_time": 8683,
+        "ig_reels_video_view_total_time": 7867250,
+        "reels_skip_rate": 55.3
       },
-      "insightsStand": "2026-10-21T23:37:01.511Z",
-      "insightsAlterStunden": 30.6
+      "insightsStand": "2026-10-22T07:52:05.710Z",
+      "insightsAlterStunden": 38.9
     },
     {
       "datum": "2026-10-20",
@@ -13655,22 +13655,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 74,
-        "views": 97,
+        "reach": 82,
+        "views": 112,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 84,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 54,
-        "navigation_tap_back": 5,
-        "navigation_tap_exit": 20
+        "navigation": 96,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_forward": 59,
+        "navigation_tap_back": 7,
+        "navigation_tap_exit": 22
       },
-      "insightsStand": "2026-10-22T05:09:04.373Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-22T07:52:01.775Z",
+      "insightsAlterStunden": 21.6
     },
     {
       "datum": "2026-10-21",
@@ -13718,22 +13718,22 @@
       "fach": "kst",
       "titel": "",
       "insights": {
-        "reach": 69,
-        "views": 92,
+        "reach": 73,
+        "views": 101,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 80,
-        "navigation_tap_back": 5,
-        "navigation_tap_forward": 59,
+        "navigation": 88,
+        "navigation_tap_back": 7,
+        "navigation_tap_forward": 64,
         "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 5
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-10-22T05:09:04.373Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-22T07:52:01.775Z",
+      "insightsAlterStunden": 20.4
     },
     {
       "datum": "2026-10-21",
@@ -13964,7 +13964,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 31,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-22T07:52:05.710Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-22",
@@ -13976,7 +13988,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "istr",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 14,
+        "views": 31,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 2,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 13
+      },
+      "insightsStand": "2026-10-22T07:52:01.775Z",
+      "insightsAlterStunden": 1.4
     }
   ],
   "fachZaehler": {
