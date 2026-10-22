@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-22T10:48:11.897Z",
+  "stand": "2026-10-22T11:48:44.823Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -39635,6 +39635,23 @@
           "navigation_tap_forward": 54,
           "navigation_tap_exit": 11,
           "navigation_tap_back": 2
+        },
+        {
+          "stand": "2026-10-22T11:48:40.432Z",
+          "alterStunden": 20.7,
+          "reach": 74,
+          "views": 90,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 79,
+          "navigation_swipe_forward": 8,
+          "navigation_tap_forward": 56,
+          "navigation_tap_exit": 13,
+          "navigation_tap_back": 2
         }
       ]
     },
@@ -39862,6 +39879,20 @@
           "ig_reels_avg_watch_time": 8083,
           "ig_reels_video_view_total_time": 2926134,
           "reels_skip_rate": 71.5
+        },
+        {
+          "stand": "2026-10-22T11:48:42.986Z",
+          "alterStunden": 18.8,
+          "reach": 367,
+          "saved": 3,
+          "shares": 2,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 12,
+          "views": 446,
+          "ig_reels_avg_watch_time": 8102,
+          "ig_reels_video_view_total_time": 3013988,
+          "reels_skip_rate": 70.8
         }
       ]
     },
@@ -40016,6 +40047,47 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-22T11:48:42.986Z",
+          "alterStunden": 5.3,
+          "reach": 49,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18097113698411581": {
+      "art": "story",
+      "datum": "2026-10-22",
+      "titel": null,
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-22T10:14:03.614Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-22T11:48:40.432Z",
+          "alterStunden": 1.6,
+          "reach": 22,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 4,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 14
         }
       ]
     }
@@ -42330,6 +42402,11 @@
       "stand": "2026-10-22T10:48:11.897Z",
       "follower": 209,
       "medien": 139
+    },
+    {
+      "stand": "2026-10-22T11:48:44.823Z",
+      "follower": 209,
+      "medien": 140
     }
   ]
 }

@@ -13776,22 +13776,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 71,
-        "views": 86,
+        "reach": 74,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 75,
+        "navigation": 79,
         "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 54,
-        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 13,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-22T09:47:30.279Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-22T11:48:40.432Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-21",
@@ -13815,19 +13815,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 356,
+        "reach": 367,
         "saved": 3,
         "shares": 2,
         "likes": 7,
         "comments": 0,
         "total_interactions": 12,
-        "views": 433,
-        "ig_reels_avg_watch_time": 8083,
-        "ig_reels_video_view_total_time": 2926134,
-        "reels_skip_rate": 71.5
+        "views": 446,
+        "ig_reels_avg_watch_time": 8102,
+        "ig_reels_video_view_total_time": 3013988,
+        "reels_skip_rate": 70.8
       },
-      "insightsStand": "2026-10-22T08:43:58.834Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-10-22T11:48:42.986Z",
+      "insightsAlterStunden": 18.8
     },
     {
       "datum": "2026-10-21",
@@ -13967,7 +13967,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 49,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -13976,8 +13976,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-22T09:47:34.356Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-22T11:48:42.986Z",
+      "insightsAlterStunden": 5.3
     },
     {
       "datum": "2026-10-22",
@@ -14016,7 +14016,24 @@
       "storyArt": "norm",
       "thema": "istr-aufb-istr-gh-4-14",
       "fach": "istr",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 22,
+        "views": 33,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 29,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 14
+      },
+      "insightsStand": "2026-10-22T11:48:40.432Z",
+      "insightsAlterStunden": 1.6
     },
     {
       "datum": "2026-10-22",
