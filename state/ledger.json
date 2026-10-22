@@ -13776,22 +13776,22 @@
       "fach": "gewst",
       "titel": "",
       "insights": {
-        "reach": 74,
-        "views": 90,
+        "reach": 83,
+        "views": 105,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 79,
+        "navigation": 86,
         "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 56,
-        "navigation_tap_exit": 13,
+        "navigation_tap_forward": 60,
+        "navigation_tap_exit": 16,
         "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-22T11:48:40.432Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-22T14:44:36.861Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-21",
@@ -14059,7 +14059,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 14,
+        "reach": 35,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -14068,8 +14068,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-22T12:40:06.089Z",
-      "insightsAlterStunden": 0.9
+      "insightsStand": "2026-10-22T14:44:38.523Z",
+      "insightsAlterStunden": 2.9
     },
     {
       "datum": "2026-10-22",
