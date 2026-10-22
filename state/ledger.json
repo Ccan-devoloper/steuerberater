@@ -11777,7 +11777,7 @@
         "#gewerbesteuer"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 64,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11786,8 +11786,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-21T05:44:50.190Z",
-      "insightsAlterStunden": 119.2
+      "insightsStand": "2026-10-22T05:45:48.087Z",
+      "insightsAlterStunden": 143.3
     },
     {
       "datum": "2026-10-16",
@@ -12142,17 +12142,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 129,
+        "reach": 149,
         "saved": 5,
         "shares": 1,
         "likes": 3,
         "comments": 0,
         "total_interactions": 9,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-21T05:44:50.190Z",
-      "insightsAlterStunden": 95.2
+      "insightsStand": "2026-10-22T05:45:48.087Z",
+      "insightsAlterStunden": 119.3
     },
     {
       "datum": "2026-10-17",
