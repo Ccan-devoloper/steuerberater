@@ -13085,19 +13085,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 524,
+        "reach": 525,
         "saved": 3,
         "shares": 1,
         "likes": 7,
         "comments": 0,
         "total_interactions": 11,
-        "views": 614,
-        "ig_reels_avg_watch_time": 7357,
-        "ig_reels_video_view_total_time": 3936219,
-        "reels_skip_rate": 60.9
+        "views": 615,
+        "ig_reels_avg_watch_time": 7364,
+        "ig_reels_video_view_total_time": 3947605,
+        "reels_skip_rate": 60.8
       },
-      "insightsStand": "2026-10-22T07:52:05.710Z",
-      "insightsAlterStunden": 62.9
+      "insightsStand": "2026-10-22T16:08:06.931Z",
+      "insightsAlterStunden": 71.1
     },
     {
       "datum": "2026-10-19",
@@ -13237,7 +13237,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 66,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -13246,8 +13246,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-22T07:52:05.710Z",
-      "insightsAlterStunden": 49.4
+      "insightsStand": "2026-10-22T16:08:06.931Z",
+      "insightsAlterStunden": 57.6
     },
     {
       "datum": "2026-10-20",
@@ -13450,19 +13450,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 908,
+        "reach": 910,
         "saved": 8,
         "shares": 0,
         "likes": 5,
         "comments": 0,
         "total_interactions": 13,
-        "views": 1057,
-        "ig_reels_avg_watch_time": 8683,
-        "ig_reels_video_view_total_time": 7867250,
-        "reels_skip_rate": 55.3
+        "views": 1058,
+        "ig_reels_avg_watch_time": 8677,
+        "ig_reels_video_view_total_time": 7870620,
+        "reels_skip_rate": 55.2
       },
-      "insightsStand": "2026-10-22T07:52:05.710Z",
-      "insightsAlterStunden": 38.9
+      "insightsStand": "2026-10-22T16:08:06.931Z",
+      "insightsAlterStunden": 47.1
     },
     {
       "datum": "2026-10-20",
@@ -13841,22 +13841,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 75,
-        "views": 93,
+        "reach": 86,
+        "views": 108,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 87,
-        "navigation_swipe_forward": 14,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 62,
-        "navigation_tap_back": 3
+        "navigation": 101,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 68,
+        "navigation_tap_exit": 12,
+        "navigation_swipe_forward": 17
       },
-      "insightsStand": "2026-10-22T13:44:04.109Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-22T16:07:59.844Z",
+      "insightsAlterStunden": 23.1
     },
     {
       "datum": "2026-10-21",
@@ -13870,22 +13870,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 71,
-        "views": 88,
+        "reach": 77,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 82,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_back": 4,
+        "navigation": 91,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_back": 7,
         "navigation_tap_exit": 10,
-        "navigation_tap_forward": 61
+        "navigation_tap_forward": 65
       },
-      "insightsStand": "2026-10-22T13:44:04.109Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-22T16:07:59.844Z",
+      "insightsAlterStunden": 22.9
     },
     {
       "datum": "2026-10-22",
@@ -14020,22 +14020,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 22,
-        "views": 33,
+        "reach": 51,
+        "views": 65,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 29,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 14
+        "navigation": 56,
+        "navigation_tap_forward": 36,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-22T11:48:40.432Z",
-      "insightsAlterStunden": 1.6
+      "insightsStand": "2026-10-22T16:07:59.844Z",
+      "insightsAlterStunden": 5.9
     },
     {
       "datum": "2026-10-22",
@@ -14138,7 +14138,23 @@
       "storyArt": "tipp",
       "thema": "bilanz-karte-k3-14",
       "fach": "bilanz",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 13,
+        "views": 19,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 13,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 10
+      },
+      "insightsStand": "2026-10-22T16:07:59.844Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
