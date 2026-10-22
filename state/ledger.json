@@ -11625,19 +11625,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 180,
+        "reach": 183,
         "saved": 1,
         "shares": 0,
         "likes": 3,
         "comments": 0,
         "total_interactions": 4,
-        "views": 222,
-        "ig_reels_avg_watch_time": 6095,
-        "ig_reels_video_view_total_time": 1103252,
-        "reels_skip_rate": 68.9
+        "views": 225,
+        "ig_reels_avg_watch_time": 6015,
+        "ig_reels_video_view_total_time": 1106868,
+        "reels_skip_rate": 69.4
       },
-      "insightsStand": "2026-10-21T15:04:05.569Z",
-      "insightsAlterStunden": 142.1
+      "insightsStand": "2026-10-22T15:04:08.808Z",
+      "insightsAlterStunden": 166.1
     },
     {
       "datum": "2026-10-15",
@@ -11990,19 +11990,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 184,
+        "reach": 187,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 221,
-        "ig_reels_avg_watch_time": 4558,
-        "ig_reels_video_view_total_time": 861576,
-        "reels_skip_rate": 78.5
+        "views": 222,
+        "ig_reels_avg_watch_time": 4538,
+        "ig_reels_video_view_total_time": 862267,
+        "reels_skip_rate": 78.6
       },
-      "insightsStand": "2026-10-21T15:04:05.569Z",
-      "insightsAlterStunden": 118.1
+      "insightsStand": "2026-10-22T15:04:08.808Z",
+      "insightsAlterStunden": 142.1
     },
     {
       "datum": "2026-10-16",
@@ -12355,19 +12355,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 191,
+        "reach": 193,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 232,
-        "ig_reels_avg_watch_time": 5964,
-        "ig_reels_video_view_total_time": 1163023,
-        "reels_skip_rate": 66.5
+        "views": 235,
+        "ig_reels_avg_watch_time": 5889,
+        "ig_reels_video_view_total_time": 1166090,
+        "reels_skip_rate": 67
       },
-      "insightsStand": "2026-10-21T15:04:05.569Z",
-      "insightsAlterStunden": 94.1
+      "insightsStand": "2026-10-22T15:04:08.808Z",
+      "insightsAlterStunden": 118.1
     },
     {
       "datum": "2026-10-17",
@@ -12720,19 +12720,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 569,
+        "reach": 575,
         "saved": 3,
         "shares": 0,
         "likes": 6,
         "comments": 0,
         "total_interactions": 9,
-        "views": 677,
-        "ig_reels_avg_watch_time": 7712,
-        "ig_reels_video_view_total_time": 4411714,
+        "views": 681,
+        "ig_reels_avg_watch_time": 7695,
+        "ig_reels_video_view_total_time": 4432718,
         "reels_skip_rate": 68.2
       },
-      "insightsStand": "2026-10-21T15:04:05.569Z",
-      "insightsAlterStunden": 70.1
+      "insightsStand": "2026-10-22T15:04:08.808Z",
+      "insightsAlterStunden": 94.1
     },
     {
       "datum": "2026-10-18",
@@ -13815,19 +13815,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 367,
+        "reach": 386,
         "saved": 3,
         "shares": 2,
         "likes": 7,
         "comments": 0,
         "total_interactions": 12,
-        "views": 446,
-        "ig_reels_avg_watch_time": 8102,
-        "ig_reels_video_view_total_time": 3013988,
-        "reels_skip_rate": 70.8
+        "views": 468,
+        "ig_reels_avg_watch_time": 8012,
+        "ig_reels_video_view_total_time": 3148970,
+        "reels_skip_rate": 70.5
       },
-      "insightsStand": "2026-10-22T11:48:42.986Z",
-      "insightsAlterStunden": 18.8
+      "insightsStand": "2026-10-22T15:04:08.808Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-10-21",
@@ -13899,22 +13899,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 50,
-        "views": 66,
+        "reach": 67,
+        "views": 87,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 57,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 38,
-        "navigation_tap_back": 3,
-        "navigation_tap_exit": 8
+        "navigation": 76,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_forward": 51,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 10
       },
-      "insightsStand": "2026-10-22T10:48:07.727Z",
-      "insightsAlterStunden": 5.7
+      "insightsStand": "2026-10-22T15:04:06.229Z",
+      "insightsAlterStunden": 10
     },
     {
       "datum": "2026-10-22",
@@ -13928,22 +13928,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 41,
-        "views": 53,
+        "reach": 55,
+        "views": 72,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 49,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 38,
-        "navigation_tap_back": 4,
-        "navigation_tap_exit": 5
+        "navigation": 65,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 49,
+        "navigation_tap_back": 5,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-22T10:48:07.727Z",
-      "insightsAlterStunden": 5.7
+      "insightsStand": "2026-10-22T15:04:06.229Z",
+      "insightsAlterStunden": 9.9
     },
     {
       "datum": "2026-10-22",
@@ -13967,7 +13967,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 49,
+        "reach": 54,
         "saved": 0,
         "shares": 0,
         "likes": 2,
@@ -13976,8 +13976,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-22T11:48:42.986Z",
-      "insightsAlterStunden": 5.3
+      "insightsStand": "2026-10-22T15:04:08.808Z",
+      "insightsAlterStunden": 8.6
     },
     {
       "datum": "2026-10-22",
