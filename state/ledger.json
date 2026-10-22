@@ -13910,6 +13910,28 @@
       "thema": "ust-quiz-ust-15",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-22",
+      "slot": "b1",
+      "medienId": "17975655672148529",
+      "veroeffentlicht": "2026-10-22T06:30:06.138Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "istr-aufb-istr-gh-4-11",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "Spickzettel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -13918,7 +13940,7 @@
     "kst": 12,
     "ao": 23,
     "bilanz": 23,
-    "istr": 17,
+    "istr": 18,
     "erbst": 8,
     "mindset": 2,
     "est": 5,
