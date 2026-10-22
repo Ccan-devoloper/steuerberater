@@ -14004,6 +14004,18 @@
       },
       "insightsStand": "2026-10-22T07:52:01.775Z",
       "insightsAlterStunden": 1.4
+    },
+    {
+      "datum": "2026-10-22",
+      "slot": "s6",
+      "medienId": "18097113698411581",
+      "veroeffentlicht": "2026-10-22T10:14:03.614Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "istr-aufb-istr-gh-4-14",
+      "fach": "istr",
+      "titel": ""
     }
   ],
   "fachZaehler": {
