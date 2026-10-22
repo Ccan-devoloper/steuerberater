@@ -14189,6 +14189,18 @@
       "thema": null,
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-22",
+      "slot": "s9",
+      "medienId": "18114307910335212",
+      "veroeffentlicht": "2026-10-22T17:12:04.605Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-301",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
