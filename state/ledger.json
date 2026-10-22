@@ -13991,20 +13991,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 14,
-        "views": 31,
+        "reach": 41,
+        "views": 61,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 13
+        "navigation": 56,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 44,
+        "navigation_tap_exit": 9,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-22T07:52:01.775Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-22T12:40:04.544Z",
+      "insightsAlterStunden": 6.2
     },
     {
       "datum": "2026-10-22",
@@ -14055,7 +14057,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-22T12:40:06.089Z",
+      "insightsAlterStunden": 0.9
     },
     {
       "datum": "2026-10-22",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-22T11:48:44.823Z",
+  "stand": "2026-10-22T12:40:06.751Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -40011,6 +40011,23 @@
           "navigation": 17,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 13
+        },
+        {
+          "stand": "2026-10-22T12:40:04.544Z",
+          "alterStunden": 6.2,
+          "reach": 41,
+          "views": 61,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 56,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 44,
+          "navigation_tap_exit": 9,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -40088,6 +40105,30 @@
           "navigation_tap_back": 4,
           "navigation_tap_exit": 7,
           "navigation_tap_forward": 14
+        }
+      ]
+    },
+    "18119574761472589": {
+      "art": "beitrag",
+      "datum": "2026-10-22",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-22T11:48:24.262Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-22T12:40:06.089Z",
+          "alterStunden": 0.9,
+          "reach": 14,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -42406,6 +42447,11 @@
     {
       "stand": "2026-10-22T11:48:44.823Z",
       "follower": 209,
+      "medien": 140
+    },
+    {
+      "stand": "2026-10-22T12:40:06.751Z",
+      "follower": 210,
       "medien": 140
     }
   ]
