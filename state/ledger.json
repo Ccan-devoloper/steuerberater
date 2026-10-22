@@ -14155,6 +14155,28 @@
       },
       "insightsStand": "2026-10-22T16:07:59.844Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-22",
+      "slot": "b3",
+      "medienId": "18089486717271118",
+      "veroeffentlicht": "2026-10-22T17:00:10.692Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "erbst-aufb-erbst-v-3",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Betriebsvermögen verschonen: Regelverschonung oder 100 %?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -14164,7 +14186,7 @@
     "ao": 23,
     "bilanz": 23,
     "istr": 18,
-    "erbst": 8,
+    "erbst": 9,
     "mindset": 2,
     "est": 5,
     "umwst": 6,
