@@ -12,7 +12,8 @@
       "themaTitel": "Wie stockt die GmbH nach einem Einbringungsgewinn I auf?",
       "fach": "umwst",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-23T06:30:00.014Z"
     },
     {
       "slot": "b2",
