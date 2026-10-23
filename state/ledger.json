@@ -14381,11 +14381,33 @@
       "thema": "persg-aufb-persg-melzer-1-7",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-23",
+      "slot": "b2",
+      "medienId": "18124841827899291",
+      "veroeffentlicht": "2026-10-23T11:35:03.093Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "vergleich",
+      "thema": "ust-karte-ust-5",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Gegenüberstellung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 16,
-    "ust": 12,
+    "ust": 13,
     "kst": 12,
     "ao": 23,
     "bilanz": 23,
