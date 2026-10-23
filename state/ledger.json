@@ -12234,17 +12234,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 76,
-        "saved": 1,
+        "reach": 83,
+        "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-22T07:52:05.710Z",
-      "insightsAlterStunden": 116.4
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 140.9
     },
     {
       "datum": "2026-10-17",
@@ -12964,7 +12964,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 82,
+        "reach": 87,
         "saved": 4,
         "shares": 0,
         "likes": 2,
@@ -12973,8 +12973,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-22T07:52:05.710Z",
-      "insightsAlterStunden": 68.4
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 92.9
     },
     {
       "datum": "2026-10-19",
@@ -13329,17 +13329,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 116,
-        "saved": 2,
+        "reach": 118,
+        "saved": 3,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 5,
         "follows": 2,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-22T23:35:17.549Z",
-      "insightsAlterStunden": 60.1
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 68.9
     },
     {
       "datum": "2026-10-20",
@@ -13611,8 +13611,8 @@
         "follows": 1,
         "profile_visits": 4
       },
-      "insightsStand": "2026-10-22T23:35:17.549Z",
-      "insightsAlterStunden": 41.1
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 49.9
     },
     {
       "datum": "2026-10-21",
@@ -13815,19 +13815,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 455,
+        "reach": 463,
         "saved": 3,
         "shares": 2,
         "likes": 7,
         "comments": 0,
         "total_interactions": 12,
-        "views": 553,
-        "ig_reels_avg_watch_time": 8226,
-        "ig_reels_video_view_total_time": 3850164,
-        "reels_skip_rate": 71.4
+        "views": 563,
+        "ig_reels_avg_watch_time": 8200,
+        "ig_reels_video_view_total_time": 3911586,
+        "reels_skip_rate": 71.5
       },
-      "insightsStand": "2026-10-22T23:35:17.549Z",
-      "insightsAlterStunden": 30.6
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 39.4
     },
     {
       "datum": "2026-10-21",
@@ -14020,22 +14020,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 71,
-        "views": 87,
+        "reach": 84,
+        "views": 105,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 76,
-        "navigation_tap_forward": 48,
-        "navigation_tap_exit": 15,
+        "navigation": 90,
+        "navigation_swipe_forward": 14,
         "navigation_tap_back": 6,
-        "navigation_swipe_forward": 7
+        "navigation_tap_exit": 18,
+        "navigation_tap_forward": 52
       },
-      "insightsStand": "2026-10-23T05:09:04.885Z",
-      "insightsAlterStunden": 18.9
+      "insightsStand": "2026-10-23T08:22:14.530Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-10-22",
@@ -14059,7 +14059,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 55,
+        "reach": 56,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -14068,8 +14068,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-23T05:09:13.891Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 20.6
     },
     {
       "datum": "2026-10-22",
@@ -14083,22 +14083,22 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 69,
-        "views": 78,
+        "reach": 73,
+        "views": 88,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 1,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 69,
-        "navigation_tap_exit": 12,
+        "navigation": 76,
+        "navigation_tap_exit": 13,
         "navigation_swipe_forward": 6,
-        "navigation_tap_back": 3,
-        "navigation_tap_forward": 48
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 53
       },
-      "insightsStand": "2026-10-23T05:09:04.885Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-10-23T08:22:14.530Z",
+      "insightsAlterStunden": 20.6
     },
     {
       "datum": "2026-10-22",
@@ -14178,19 +14178,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 250,
+        "reach": 294,
         "saved": 0,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 303,
-        "ig_reels_avg_watch_time": 7622,
-        "ig_reels_video_view_total_time": 1928480,
-        "reels_skip_rate": 63.9
+        "total_interactions": 3,
+        "views": 350,
+        "ig_reels_avg_watch_time": 7816,
+        "ig_reels_video_view_total_time": 2305801,
+        "reels_skip_rate": 63.6
       },
-      "insightsStand": "2026-10-23T05:09:13.891Z",
-      "insightsAlterStunden": 12.2
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 15.4
     },
     {
       "datum": "2026-10-22",
@@ -14327,7 +14327,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 29,
+        "saved": 0,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 0,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-23T08:22:19.025Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-23",
@@ -14339,7 +14351,22 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 23,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 19
+      },
+      "insightsStand": "2026-10-23T08:22:14.530Z",
+      "insightsAlterStunden": 1.9
     }
   ],
   "fachZaehler": {
