@@ -24,7 +24,8 @@
       "themaTitel": "Ort der ruhenden Lieferung",
       "fach": "ust",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-23T11:34:56.649Z"
     },
     {
       "slot": "b3",
