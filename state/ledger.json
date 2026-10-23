@@ -14424,17 +14424,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 48,
+        "reach": 59,
         "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 1,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-23T17:00:31.320Z",
-      "insightsAlterStunden": 5.4
+      "insightsStand": "2026-10-23T20:44:14.986Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-23",
@@ -14545,19 +14545,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 141,
+        "reach": 202,
         "saved": 1,
         "shares": 1,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
-        "views": 177,
-        "ig_reels_avg_watch_time": 8636,
-        "ig_reels_video_view_total_time": 1209068,
-        "reels_skip_rate": 63.2
+        "total_interactions": 5,
+        "views": 253,
+        "ig_reels_avg_watch_time": 8228,
+        "ig_reels_video_view_total_time": 1662196,
+        "reels_skip_rate": 62.7
       },
-      "insightsStand": "2026-10-23T18:44:44.056Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-23T20:44:14.986Z",
+      "insightsAlterStunden": 3.7
     },
     {
       "datum": "2026-10-23",
