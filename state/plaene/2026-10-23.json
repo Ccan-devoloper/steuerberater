@@ -36,7 +36,8 @@
       "themaTitel": "§ 8c KStG",
       "fach": "kst",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-23T17:00:00.100Z"
     }
   ],
   "stories": [
