@@ -14272,6 +14272,28 @@
       "thema": "kst-quiz-kst-7",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-23",
+      "slot": "b1",
+      "medienId": "18116866447817953",
+      "veroeffentlicht": "2026-10-23T06:30:05.049Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "minifall",
+      "thema": "umwst-aufb-umw-2-70",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -14284,7 +14306,7 @@
     "erbst": 9,
     "mindset": 2,
     "est": 5,
-    "umwst": 6,
+    "umwst": 7,
     "gewst": 4,
     "null": 3
   },
