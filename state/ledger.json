@@ -14415,6 +14415,18 @@
       "thema": null,
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-23",
+      "slot": "s7",
+      "medienId": "17913675372538935",
+      "veroeffentlicht": "2026-10-23T12:40:04.511Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
