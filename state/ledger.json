@@ -14141,22 +14141,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 75,
-        "views": 90,
+        "reach": 84,
+        "views": 104,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 81,
+        "navigation": 91,
         "navigation_tap_back": 4,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 12,
-        "navigation_tap_forward": 60
+        "navigation_swipe_forward": 6,
+        "navigation_tap_exit": 18,
+        "navigation_tap_forward": 63
       },
-      "insightsStand": "2026-10-23T12:40:05.837Z",
-      "insightsAlterStunden": 21.6
+      "insightsStand": "2026-10-23T14:44:25.110Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-22",
@@ -14180,19 +14180,19 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 336,
+        "reach": 360,
         "saved": 0,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 398,
-        "ig_reels_avg_watch_time": 7648,
-        "ig_reels_video_view_total_time": 2585340,
-        "reels_skip_rate": 64.3
+        "total_interactions": 4,
+        "views": 426,
+        "ig_reels_avg_watch_time": 7739,
+        "ig_reels_video_view_total_time": 2801551,
+        "reels_skip_rate": 63.6
       },
-      "insightsStand": "2026-10-23T11:35:17.878Z",
-      "insightsAlterStunden": 18.6
+      "insightsStand": "2026-10-23T14:44:26.499Z",
+      "insightsAlterStunden": 21.7
     },
     {
       "datum": "2026-10-22",
@@ -14331,7 +14331,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 43,
         "saved": 0,
         "shares": 0,
         "likes": 0,
@@ -14340,8 +14340,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-23T10:56:43.292Z",
-      "insightsAlterStunden": 4.4
+      "insightsStand": "2026-10-23T14:44:26.499Z",
+      "insightsAlterStunden": 8.2
     },
     {
       "datum": "2026-10-23",
@@ -14423,7 +14423,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 27,
+        "reach": 40,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -14432,8 +14432,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-23T12:40:11.666Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-23T14:44:26.499Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-10-23",
