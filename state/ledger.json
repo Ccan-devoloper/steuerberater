@@ -11869,7 +11869,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 69,
+        "reach": 71,
         "saved": 1,
         "shares": 0,
         "likes": 0,
@@ -11878,8 +11878,8 @@
         "follows": 1,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-22T08:43:58.834Z",
-      "insightsAlterStunden": 141.2
+      "insightsStand": "2026-10-23T08:44:43.941Z",
+      "insightsAlterStunden": 165.2
     },
     {
       "datum": "2026-10-16",
@@ -14112,21 +14112,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 60,
-        "views": 67,
+        "reach": 69,
+        "views": 83,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 62,
+        "navigation": 77,
+        "navigation_tap_back": 3,
         "navigation_tap_exit": 5,
         "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 52
+        "navigation_tap_forward": 64
       },
-      "insightsStand": "2026-10-23T05:09:04.885Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-23T08:44:42.529Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-22",
