@@ -14504,12 +14504,34 @@
       "thema": "ust-karte-ust-8",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-23",
+      "slot": "b3",
+      "medienId": "18097575197447481",
+      "veroeffentlicht": "2026-10-23T17:00:10.794Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "kst-karte-kst-7",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "§ 8c KStG",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 16,
     "ust": 13,
-    "kst": 12,
+    "kst": 13,
     "ao": 23,
     "bilanz": 23,
     "istr": 18,
