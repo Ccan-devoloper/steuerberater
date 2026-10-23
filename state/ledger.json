@@ -14491,6 +14491,18 @@
       },
       "insightsStand": "2026-10-23T13:43:56.755Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-23",
+      "slot": "s8",
+      "medienId": "18341510578248875",
+      "veroeffentlicht": "2026-10-23T15:04:04.104Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-karte-ust-8",
+      "fach": "ust",
+      "titel": ""
     }
   ],
   "fachZaehler": {
