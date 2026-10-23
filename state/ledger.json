@@ -14206,22 +14206,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 76,
-        "views": 88,
+        "reach": 83,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 75,
-        "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_forward": 58,
-        "navigation_tap_back": 4
+        "navigation": 85,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_forward": 63,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-23T13:43:56.755Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-23T15:44:56.512Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-22",
@@ -14235,21 +14235,22 @@
       "fach": "ao",
       "titel": "",
       "insights": {
-        "reach": 73,
-        "views": 89,
+        "reach": 78,
+        "views": 96,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 73,
-        "navigation_tap_back": 4,
+        "navigation": 81,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 6,
         "navigation_tap_exit": 16,
-        "navigation_tap_forward": 53
+        "navigation_tap_forward": 58
       },
-      "insightsStand": "2026-10-23T13:43:56.755Z",
-      "insightsAlterStunden": 20.5
+      "insightsStand": "2026-10-23T15:44:56.512Z",
+      "insightsAlterStunden": 22.5
     },
     {
       "datum": "2026-10-23",
