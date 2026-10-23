@@ -14543,7 +14543,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 141,
+        "saved": 1,
+        "shares": 1,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 4,
+        "views": 177,
+        "ig_reels_avg_watch_time": 8636,
+        "ig_reels_video_view_total_time": 1209068,
+        "reels_skip_rate": 63.2
+      },
+      "insightsStand": "2026-10-23T18:44:44.056Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-23",
@@ -14555,7 +14569,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 29,
+        "views": 36,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 31,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 24,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-23T18:44:40.643Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-23",
@@ -14567,7 +14598,23 @@
       "storyArt": "merksatz",
       "thema": "est-aufb-est-ks2-19-03",
       "fach": "est",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 25,
+        "views": 29,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 26,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 20
+      },
+      "insightsStand": "2026-10-23T18:44:40.643Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {

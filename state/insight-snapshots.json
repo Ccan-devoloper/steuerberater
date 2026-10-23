@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-23T17:44:41.212Z",
+  "stand": "2026-10-23T18:44:45.915Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -42148,6 +42148,89 @@
           "navigation_swipe_forward": 4
         }
       ]
+    },
+    "18645685027017044": {
+      "art": "story",
+      "datum": "2026-10-23",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T17:00:23.199Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T18:44:40.643Z",
+          "alterStunden": 1.7,
+          "reach": 29,
+          "views": 36,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 24,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "17968650828206313": {
+      "art": "story",
+      "datum": "2026-10-23",
+      "titel": null,
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T17:12:03.945Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T18:44:40.643Z",
+          "alterStunden": 1.5,
+          "reach": 25,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 20
+        }
+      ]
+    },
+    "18097575197447481": {
+      "art": "beitrag",
+      "datum": "2026-10-23",
+      "titel": "§ 8c KStG",
+      "format": "reel",
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T17:00:10.794Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T18:44:44.056Z",
+          "alterStunden": 1.7,
+          "reach": 141,
+          "saved": 1,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 177,
+          "ig_reels_avg_watch_time": 8636,
+          "ig_reels_video_view_total_time": 1209068,
+          "reels_skip_rate": 63.2
+        }
+      ]
     }
   },
   "konto": [
@@ -44554,6 +44637,11 @@
     {
       "stand": "2026-10-23T17:00:34.542Z",
       "follower": 217,
+      "medien": 144
+    },
+    {
+      "stand": "2026-10-23T18:44:45.915Z",
+      "follower": 218,
       "medien": 144
     }
   ]
