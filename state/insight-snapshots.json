@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-23T05:44:45.874Z",
+  "stand": "2026-10-23T06:30:20.766Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -32365,6 +32365,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-23T06:30:20.078Z",
+          "alterStunden": 168,
+          "reach": 67,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -33809,6 +33821,18 @@
           "stand": "2026-10-22T05:45:48.087Z",
           "alterStunden": 119.3,
           "reach": 149,
+          "saved": 5,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-23T06:30:20.078Z",
+          "alterStunden": 144,
+          "reach": 173,
           "saved": 5,
           "shares": 1,
           "likes": 3,
@@ -41155,6 +41179,64 @@
           "reels_skip_rate": 63.9
         }
       ]
+    },
+    "18129320755837094": {
+      "art": "story",
+      "datum": "2026-10-23",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T05:07:03.126Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T06:30:17.296Z",
+          "alterStunden": 1.4,
+          "reach": 19,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 14,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17874670299596961": {
+      "art": "story",
+      "datum": "2026-10-23",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T05:09:03.636Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T06:30:17.296Z",
+          "alterStunden": 1.4,
+          "reach": 14,
+          "views": 23,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 17,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 2,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_forward": 9
+        }
+      ]
     }
   },
   "konto": [
@@ -43517,6 +43599,11 @@
       "stand": "2026-10-23T05:09:17.761Z",
       "follower": 215,
       "medien": 141
+    },
+    {
+      "stand": "2026-10-23T06:30:20.766Z",
+      "follower": 215,
+      "medien": 142
     }
   ]
 }
