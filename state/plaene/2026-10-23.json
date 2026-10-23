@@ -118,7 +118,8 @@
       "zeit": "19:12",
       "art": "merksatz",
       "themaId": "est-aufb-est-ks2-19-03",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-23T17:12:00.003Z"
     }
   ]
 }
