@@ -14141,22 +14141,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 68,
-        "views": 82,
+        "reach": 75,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 74,
+        "navigation": 81,
         "navigation_tap_back": 4,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 55
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 60
       },
-      "insightsStand": "2026-10-23T09:44:16.269Z",
-      "insightsAlterStunden": 18.7
+      "insightsStand": "2026-10-23T12:40:05.837Z",
+      "insightsAlterStunden": 21.6
     },
     {
       "datum": "2026-10-22",
@@ -14355,20 +14355,22 @@
       "fach": "umwst",
       "titel": "",
       "insights": {
-        "reach": 23,
-        "views": 26,
+        "reach": 50,
+        "views": 58,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_tap_exit": 3,
-        "navigation_tap_forward": 19
+        "navigation": 56,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 47,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-23T08:22:14.530Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-23T12:40:05.837Z",
+      "insightsAlterStunden": 6.2
     },
     {
       "datum": "2026-10-23",
@@ -14380,7 +14382,24 @@
       "storyArt": "norm",
       "thema": "persg-aufb-persg-melzer-1-7",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 32,
+        "views": 45,
+        "shares": 0,
+        "total_interactions": 1,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 39,
+        "navigation_tap_forward": 27,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-23T12:40:05.837Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-23",
@@ -14402,7 +14421,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-23T12:40:11.666Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-23",
@@ -14414,7 +14445,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 23,
+        "views": 33,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 29,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 20,
+        "navigation_swipe_forward": 3
+      },
+      "insightsStand": "2026-10-23T12:40:05.837Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-23",

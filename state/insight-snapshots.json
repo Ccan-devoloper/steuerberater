@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-23T11:35:17.878Z",
+  "stand": "2026-10-23T12:40:12.338Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -41212,6 +41212,23 @@
           "navigation_swipe_forward": 4,
           "navigation_tap_exit": 11,
           "navigation_tap_forward": 55
+        },
+        {
+          "stand": "2026-10-23T12:40:05.837Z",
+          "alterStunden": 21.6,
+          "reach": 75,
+          "views": 90,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 81,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 12,
+          "navigation_tap_forward": 60
         }
       ]
     },
@@ -41569,6 +41586,23 @@
           "navigation": 22,
           "navigation_tap_exit": 3,
           "navigation_tap_forward": 19
+        },
+        {
+          "stand": "2026-10-23T12:40:05.837Z",
+          "alterStunden": 6.2,
+          "reach": 50,
+          "views": 58,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 56,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 47,
+          "navigation_tap_back": 4
         }
       ]
     },
@@ -41603,6 +41637,88 @@
           "likes": 0,
           "comments": 0,
           "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "18000792186039961": {
+      "art": "story",
+      "datum": "2026-10-23",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T10:56:34.991Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T12:40:05.837Z",
+          "alterStunden": 1.7,
+          "reach": 32,
+          "views": 45,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 39,
+          "navigation_tap_forward": 27,
+          "navigation_tap_exit": 8,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18113752352607302": {
+      "art": "story",
+      "datum": "2026-10-23",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T11:35:16.660Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T12:40:05.837Z",
+          "alterStunden": 1.1,
+          "reach": 23,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 20,
+          "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "18124841827899291": {
+      "art": "beitrag",
+      "datum": "2026-10-23",
+      "titel": "Gegenüberstellung",
+      "format": "vergleich",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-23T11:35:03.093Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-23T12:40:11.666Z",
+          "alterStunden": 1.1,
+          "reach": 27,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
           "follows": 0,
           "profile_visits": 0
         }
@@ -43989,6 +44105,11 @@
       "stand": "2026-10-23T10:56:44.179Z",
       "follower": 216,
       "medien": 142
+    },
+    {
+      "stand": "2026-10-23T12:40:12.338Z",
+      "follower": 216,
+      "medien": 143
     }
   ]
 }
