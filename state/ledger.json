@@ -14555,6 +14555,18 @@
       "thema": null,
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-23",
+      "slot": "s9",
+      "medienId": "17968650828206313",
+      "veroeffentlicht": "2026-10-23T17:12:03.945Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "est-aufb-est-ks2-19-03",
+      "fach": "est",
+      "titel": ""
     }
   ],
   "fachZaehler": {
