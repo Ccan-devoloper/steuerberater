@@ -1,0 +1,73 @@
+{
+  "format": "rechenweg",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-23-04",
+  "caption": "Private Veräußerung einer vermieteten Wohnung: So rechnest du den Gewinn nach § 23 EStG.\n\n1. Frist: Grundstücke sind erfasst, wenn zwischen Anschaffung und Veräußerung nicht mehr als zehn Jahre liegen (§ 23 Abs. 1 S. 1 Nr. 1 EStG); eigene Wohnzwecke können befreien (§ 23 Abs. 1 S. 1 Nr. 1 S. 3 EStG).\n2. Anschaffungskosten mindern sich um die AfA, die bei den Einkünften aus Vermietung abgezogen wurde (§ 23 Abs. 3 S. 4 EStG).\n3. Gewinn: Veräußerungspreis minus Anschaffungskosten und Werbungskosten (§ 23 Abs. 3 S. 1 EStG).\n4. Freigrenze: Gesamtgewinn unter 1.000 € im Kalenderjahr bleibt steuerfrei (§ 23 Abs. 3 S. 5 EStG). Verluste nur mit Gewinnen aus privaten Veräußerungsgeschäften desselben Jahres (§ 23 Abs. 3 S. 7 EStG).\n\nIm Beispiel: AfA 2 % von 240.000 € = 4.800 € × 6 Jahre = 28.800 €; fortgeführte Anschaffungskosten 271.200 €; Gewinn 380.000 € – 10.000 € – 271.200 € = 98.800 €.\n\nZum Schluss: § 23 Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 23 Abs. 1 S. 1 Nr. 1 EStG",
+    "§ 23 Abs. 3 S. 1, 4, 5, 7 EStG"
+  ],
+  "slug": "2026-10-24-b2",
+  "kurztitel": "So wird der Gewinn aus privaten Veräußerungen ermittelt",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Wohnung nach · 6 Jahren verkauft · § 23 Abs. 3 EStG · in 4 Schritten · + Markier-Guide § 23 EStG · Gewinn · 98.800 € · steuerpflichtig?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Der Fall · Hedda kauft im Januar 2020 eine Wohnung für 300.000 €, davon Gebäude 240.000 €. · Sie vermietet sie, AfA 2 % im Jahr. · Im Dezember 2025 verkauft sie für 380.000 €, Maklerkosten 10.000 €. · Muss ich zahlen?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Der Rechenweg · Frist prüfen · § 23 Abs. 1 S. 1 Nr. 1 EStG · Grundstück: höchstens zehn Jahre · Anschaffungskosten fortführen · § 23 Abs. 3 S. 4 EStG · minus abgezogene AfA · Gewinn rechnen · § 23 Abs. 3 S. 1 EStG · Preis minus AK minus Kosten · Freigrenze prüfen · § 23 Abs. 3 S. 5 EStG · unter 1.000 € steuerfrei · Am Ende: § 23 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Jetzt du · Wie viel AfA hat Hedda bis Ende 2025 abgezogen? · Wie hoch ist der Gewinn? · Erst rechnen, dann weiterwischen · Sechs Jahre AfA?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Die Lösung · § 23 Abs. 3 S. 1, 4 EStG · Veräußerungspreis · 380.000 € · – Maklerkosten · – 10.000 € · Anschaffungskosten · 300.000 € · – AfA 6 × 4.800 € · – 28.800 € · = fortgeführte AK · 271.200 € · Gewinn 370.000 – 271.200 · 98.800 €"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Die AfA zurückholen · Abgezogene AfA mindert die Anschaffungskosten. · § 23 Abs. 3 S. 4 EStG · Wer mit 300.000 € rechnet, kommt nur auf 70.000 € Gewinn – 28.800 € zu wenig. · Eigene Wohnzwecke hätten den Verkauf befreit, hier aber nicht. · § 23 Abs. 1 S. 1 Nr. 1 S. 3 EStG · Die AfA kommt zurück?"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "Lösung: Gewinn 98.800 €, Freigrenze überschritten · 380.000 € – 10.000 € – 271.200 € · Zehn Jahre prüfen, · AfA abziehen, · Kosten abziehen, · Freigrenze prüfen. · Speichern für Klausur 2 · Hättest du die AfA vergessen? · Weiterwischen: § 23 EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Einkommensteuer",
+      "text": "§ 23 EStG (Auszug) · Preis · Maklerkosten · AfA zurück! · Freigrenze · Verluste: § 23 Abs. 3 S. 7 EStG · nur mit Gewinnen aus § 23 im selben Jahr"
+    }
+  ]
+}

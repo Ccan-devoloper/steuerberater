@@ -1,0 +1,76 @@
+{
+  "format": "klausurtechnik",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "klausurtechnik-k1-erbst-2026-43",
+  "caption": "Klausurtechnik für den ErbSt-Teil von Klausur 1: Fahrplan, Zeit und Darstellung.\n\n▸ Fahrplan nach dem Gesetz: Steuerpflicht (§ 2 ErbStG), Erwerb und Bewertung (§§ 3, 7, 12 ErbStG), Bereicherung (§ 10 ErbStG), Steuerklasse, Freibetrag und Steuersatz (§§ 15, 16, 19 ErbStG).\n▸ Zeit: Erst klären, wer was von wem erwirbt; für jeden Erwerber eine eigene Rechnung. Wenn ein Wert hängt: Annahme notieren und weiterrechnen, damit die Folgeschritte Punkte bringen.\n▸ Darstellung: Tabelle mit Position, Norm und Betrag, Zwischensummen sichtbar.\n▸ Bereicherung: Wert des Vermögensanfalls abzüglich Nachlassverbindlichkeiten (§ 10 Abs. 1 S. 1, 2 ErbStG); Erbfallkostenpauschale 15.000 € ohne Nachweis (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG); Abrundung auf volle 100 € (§ 10 Abs. 1 S. 6 ErbStG).\n\nBeispiel Kind: 400.000 € + 80.000 € – 30.000 € – 15.000 € – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG) = 35.000 €, Steuer 7 % = 2.450 € (§ 19 Abs. 1 ErbStG).\n\nZum Schluss: § 10 Abs. 1, 5 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#erbschaftsteuer"
+  ],
+  "quellen": [
+    "§§ 2, 3, 7, 12 ErbStG",
+    "§ 10 Abs. 1 S. 1, 2, 6, Abs. 5 Nr. 3 S. 2 ErbStG",
+    "§ 15 ErbStG",
+    "§ 16 Abs. 1 Nr. 2 ErbStG",
+    "§ 19 Abs. 1 ErbStG"
+  ],
+  "slug": "2026-10-24-b1",
+  "kurztitel": "ErbSt-Teil der Klausur 1: Fahrplan, Zeit und Darstellung",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Klausurtechnik",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Klausurtechnik",
+      "text": "Klausurtechnik · ErbSt-Teil: · sauber punkten · § 10 ErbStG · Tag 1 · + Markier-Guide § 10 ErbStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Der Fahrplan · Steuerpflicht · § 2 ErbStG · unbeschränkt oder beschränkt? · Erwerb und Wert · §§ 3, 7, 12 ErbStG · jeden Gegenstand einzeln · Bereicherung · § 10 ErbStG · Vermögen minus Abzüge · Steuer · §§ 15, 16, 19 ErbStG · Klasse, Freibetrag, Satz · Am Ende: § 10 ErbStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Zeit einteilen · Erst den ganzen Teil lesen: Wer erwirbt was von wem? · Für jeden Erwerber eine eigene Rechnung anlegen. · Hängt ein Wert fest: Annahme notieren und weiterrechnen. · Nicht festbeißen!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Darstellung · Tabelle statt Fließtext: Position, Norm, Betrag. · Jede Zeile mit Paragraf, Absatz und Nummer. · Zwischensummen sichtbar machen. · Übersicht zählt"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "So sieht's aus · § 10 Abs. 1, 5 ErbStG · §§ 16, 19 ErbStG · Grundstück · 400.000 € · + Bankguthaben · 80.000 € · – Erblasserschulden · – 30.000 € · – Pauschale Erbfallkosten · – 15.000 € · – Freibetrag Kind · – 400.000 € · = steuerpflichtiger Erwerb · 35.000 € · Steuer 7 % · 2.450 €"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Punkte sichern · Klasse und Freibetrag bringen Punkte, auch wenn ein Wert falsch ist. · Auf volle 100 € abrunden. · § 10 Abs. 1 S. 6 ErbStG · Immer mit Steuersatz und Steuerbetrag abschließen. · § 19 Abs. 1 ErbStG · Bis zum Ende!"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "Im ErbSt-Teil führt das Gesetz · Pflicht, Erwerb, Bereicherung, Steuer – immer gleich · Pflicht klären, · Erwerb bewerten, · Bereicherung rechnen, · Steuer abschließen. · Speichern für Klausur 1 · Wo verlierst du die meiste Zeit? · Weiterwischen: § 10 ErbStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Erbschaftsteuer",
+      "text": "§ 10 ErbStG Steuerpflichtiger Erwerb (Auszug) · Kernbegriff · Wert nach § 12 · Abzüge · Pauschale · Staffel: Erwerb, Abzüge, Freibetrag · dann abrunden und Satz anwenden"
+    }
+  ]
+}

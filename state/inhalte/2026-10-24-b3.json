@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-3-12",
+  "caption": "Verschmelzung der Tochter auf die Mutter-GmbH: Ist der Übernahmegewinn steuerfrei? Fast. 🏢\n\n▸ Bei der übernehmenden Körperschaft bleibt der Übernahmegewinn oder -verlust – Unterschied zwischen dem Buchwert der Anteile an der übertragenden Körperschaft und dem Wert der übernommenen Wirtschaftsgüter, abzüglich der Kosten des Vermögensübergangs – außer Ansatz (§ 12 Abs. 2 S. 1 UmwStG).\n▸ Soweit der Gewinn dem Anteil der Übernehmerin an der übertragenden Körperschaft entspricht, ist § 8b KStG anzuwenden (§ 12 Abs. 2 S. 2 UmwStG): 5 % gelten als nicht abziehbare Betriebsausgaben (§ 8b Abs. 3 S. 1 KStG).\n▸ Im Beispiel bei 100 % Beteiligung und 1 Mio. € Übernahmegewinn: 50.000 € wirken steuerlich. Ein Übernahmeverlust bleibt dagegen außer Ansatz.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 12 Abs. 2 S. 1, 2 UmwStG",
+    "§ 8b Abs. 2, 3 S. 1 KStG"
+  ],
+  "slug": "2026-10-24-b3",
+  "kurztitel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Übernahmegewinn: steuerfrei?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Grundsatz"
+    },
+    {
+      "art": "schritt",
+      "titel": "Aber § 8b KStG"
+    },
+    {
+      "art": "schritt",
+      "titel": "In Zahlen"
+    }
+  ],
+  "sprecher": [
+    "Die Mutter-GmbH übernimmt ihre Tochter, eine Million Übernahmegewinn. Steuerfrei? Fast. Fünf Prozent bleiben hängen.",
+    "Der Übernahmegewinn: Wert des übernommenen Vermögens minus Buchwert der Anteile und Kosten. Er bleibt grundsätzlich außer Ansatz.",
+    "Soweit er auf die Beteiligung der Mutter entfällt, gilt aber Paragraf acht b: Fünf Prozent sind nicht abziehbar.",
+    "Bei hundert Prozent Beteiligung sind das fünfzigtausend Euro. Ein Übernahmeverlust wirkt dagegen gar nicht.",
+    "Merke: Gewinn fast frei, Verlust verpufft."
+  ],
+  "dauerS": 40.073,
+  "tempo": 1
+}

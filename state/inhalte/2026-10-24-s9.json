@@ -1,0 +1,27 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-4-11",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "Gesellschafter-",
+    "stämme trennen?",
+    "Buchwert nur, wenn",
+    "alle fünf Jahre",
+    "vor dem Stichtag",
+    "beteiligt waren.",
+    "§ 15 Abs. 2 S. 5 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,24 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": "erbst-aufb-erbst-v-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Norm des Tages",
+    "Der 90-%-Test",
+    "§ 13b Abs. 2 S. 2 ErbStG",
+    "Verwaltungsvermögen mindestens 90 %: gar keine Verschonung.",
+    "Gerechnet vor Schuldenabzug und Finanzmittel-Freibetrag."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

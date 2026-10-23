@@ -1,0 +1,26 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-26",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Auflösung",
+    "B: ab 181.000 €",
+    "ab 136.000 €",
+    "ab 181.000 €",
+    "ab 45.000 €",
+    "45.000 € schmelzen um jeden Euro über 136.000 € ab.",
+    "§ 16 Abs. 4 S. 1, 3 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

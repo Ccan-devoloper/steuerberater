@@ -1,0 +1,22 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "erbst",
+  "klausur": 1,
+  "fachLabel": "Erbschaftsteuer",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "sichtbareTexte": [
+    "Erbschaftsteuer",
+    "Neu im Feed",
+    "ErbSt-Teil: sauber punkten",
+    "Klausurtechnik + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
