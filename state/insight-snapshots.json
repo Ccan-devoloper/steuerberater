@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-24T06:44:44.850Z",
+  "stand": "2026-10-24T07:45:17.158Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -35746,6 +35746,18 @@
           "total_interactions": 4,
           "follows": 1,
           "profile_visits": 5
+        },
+        {
+          "stand": "2026-10-24T07:45:16.149Z",
+          "alterStunden": 140.3,
+          "reach": 92,
+          "saved": 2,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 1,
+          "profile_visits": 5
         }
       ]
     },
@@ -42264,6 +42276,23 @@
           "navigation_tap_exit": 10,
           "navigation_swipe_forward": 6,
           "navigation_tap_back": 3
+        },
+        {
+          "stand": "2026-10-24T07:45:12.030Z",
+          "alterStunden": 20.8,
+          "reach": 87,
+          "views": 108,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 94,
+          "navigation_tap_forward": 70,
+          "navigation_tap_exit": 13,
+          "navigation_swipe_forward": 8,
+          "navigation_tap_back": 3
         }
       ]
     },
@@ -42344,6 +42373,23 @@
           "navigation_tap_forward": 63,
           "navigation_tap_exit": 11,
           "navigation_tap_back": 8
+        },
+        {
+          "stand": "2026-10-24T07:45:12.030Z",
+          "alterStunden": 20.2,
+          "reach": 81,
+          "views": 100,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 94,
+          "navigation_tap_back": 8,
+          "navigation_tap_exit": 13,
+          "navigation_tap_forward": 67,
+          "navigation_swipe_forward": 6
         }
       ]
     },
@@ -42773,6 +42819,57 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_exit": 1,
           "navigation_tap_forward": 11
+        }
+      ]
+    },
+    "17980372500121175": {
+      "art": "story",
+      "datum": "2026-10-24",
+      "titel": null,
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T06:30:17.217Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T07:45:12.030Z",
+          "alterStunden": 1.2,
+          "reach": 18,
+          "views": 20,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_tap_forward": 17,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "17911814454474081": {
+      "art": "beitrag",
+      "datum": "2026-10-24",
+      "titel": "Klausurtechnik",
+      "format": "klausurtechnik",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T06:30:05.982Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T07:45:16.149Z",
+          "alterStunden": 1.3,
+          "reach": 28,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -45206,6 +45303,11 @@
     {
       "stand": "2026-10-24T06:30:22.846Z",
       "follower": 223,
+      "medien": 145
+    },
+    {
+      "stand": "2026-10-24T07:45:17.158Z",
+      "follower": 226,
       "medien": 145
     }
   ]
