@@ -14886,6 +14886,28 @@
       },
       "insightsStand": "2026-10-24T16:44:54.979Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-24",
+      "slot": "b3",
+      "medienId": "18025669283875864",
+      "veroeffentlicht": "2026-10-24T17:00:09.578Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "umwst-aufb-umw-3-12",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -14898,7 +14920,7 @@
     "erbst": 10,
     "mindset": 2,
     "est": 6,
-    "umwst": 7,
+    "umwst": 8,
     "gewst": 4,
     "null": 3
   },
