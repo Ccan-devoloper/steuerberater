@@ -14697,17 +14697,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 45,
+        "reach": 57,
         "saved": 3,
-        "shares": 0,
+        "shares": 1,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-24T11:30:22.676Z",
-      "insightsAlterStunden": 5
+      "insightsStand": "2026-10-24T14:44:09.660Z",
+      "insightsAlterStunden": 8.2
     },
     {
       "datum": "2026-10-24",
@@ -14789,17 +14789,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 29,
-        "saved": 1,
+        "reach": 47,
+        "saved": 2,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-24T12:40:08.030Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-24T14:44:09.660Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-10-24",
