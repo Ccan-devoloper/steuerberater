@@ -14750,22 +14750,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 62,
-        "views": 77,
+        "reach": 79,
+        "views": 102,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 79,
-        "navigation_tap_back": 6,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 52
+        "navigation": 100,
+        "navigation_tap_back": 7,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_exit": 17,
+        "navigation_tap_forward": 65
       },
-      "insightsStand": "2026-10-24T15:45:41.806Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-24T19:47:32.698Z",
+      "insightsAlterStunden": 9.6
     },
     {
       "datum": "2026-10-24",
@@ -14789,17 +14789,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 56,
-        "saved": 2,
+        "reach": 63,
+        "saved": 3,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-24T16:45:00.837Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-24T19:47:34.671Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-24",
