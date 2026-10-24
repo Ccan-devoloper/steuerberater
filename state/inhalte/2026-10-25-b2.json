@@ -1,0 +1,85 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-11-02",
+  "caption": "Lagerhalle abgebrannt, Versicherung zahlt mehr als den Buchwert: Muss der Gewinn sofort versteuert werden? Die Klausurfrage zur Rücklage für Ersatzbeschaffung.\n\n▸ Voraussetzungen: Ausscheiden infolge höherer Gewalt (z. B. Brand) oder eines behördlichen Eingriffs gegen Entschädigung, funktionsgleiches Ersatzwirtschaftsgut innerhalb der Frist, Aufnahme in ein laufend zu führendes Verzeichnis wegen der Abweichung von der Handelsbilanz (R 6.6 Abs. 1 S. 2 Nr. 1–3, Abs. 2 EStR; § 5 Abs. 1 S. 2 EStG).\n▸ Ist der Ersatz am Schluss des Wirtschaftsjahres noch nicht beschafft, aber ernstlich geplant, kann eine steuerfreie Rücklage in Höhe der aufgedeckten stillen Reserven gebildet werden; Nachholen in einem späteren Jahr ist nicht zulässig (R 6.6 Abs. 4 S. 1, 2 EStR). Für die Aufzeichnungspflicht reicht der Ansatz in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR).\n▸ Frist: bewegliche Wirtschaftsgüter ein Jahr, Wirtschaftsgüter im Sinne des § 6b Abs. 1 S. 1 EStG vier Jahre, neu hergestellte Gebäude sechs Jahre (R 6.6 Abs. 4 S. 3, 4 EStR).\n▸ Bei Ersatzbeschaffung wird die Rücklage auf die Anschaffungs- oder Herstellungskosten übertragen (R 6.6 Abs. 4 S. 8 EStR).\n\nIm Beispiel: 300.000 € – 120.000 € = 180.000 € Rücklage 2026; 2027 Herstellungskosten 400.000 € – 180.000 € = 220.000 €, AfA 3 % (§ 7 Abs. 4 S. 1 Nr. 1 EStG) = 6.600 € im vollen Jahr.\n\nZum Schluss: § 5 Abs. 1 EStG und R 6.6 Abs. 4 EStR zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "R 6.6 Abs. 1, 2, 4 EStR",
+    "§ 5 Abs. 1 S. 2 EStG",
+    "§ 6b Abs. 1 S. 1 EStG",
+    "§ 7 Abs. 4 S. 1 Nr. 1 EStG"
+  ],
+  "slug": "2026-10-25-b2",
+  "kurztitel": "Rücklage für Ersatzbeschaffung: Wann greift R 6.6 EStR?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · Halle brennt: · Gewinn sofort? · R 6.6 EStR · Der Klausurfall · + Markier-Guide § 5 + R 6.6 · Versicherung · 300.000 € · Buchwert 120.000 €",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Der Fall · Vesnas Lagerhalle brennt im November 2026 ab, Buchwert 120.000 €. · Die Versicherung zahlt 300.000 €. · Eine neue Halle soll 2027 gebaut werden. · 180.000 € Gewinn?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Jetzt du · Muss Vesna die 180.000 € für 2026 versteuern? · Was passiert 2027 mit dem Betrag? · Erst überlegen, dann weiterwischen · Muss das sein?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die Voraussetzungen · Ausscheiden durch höhere Gewalt wie Brand, gegen Entschädigung. · R 6.6 Abs. 1 S. 2 Nr. 1, Abs. 2 EStR · Funktionsgleicher Ersatz innerhalb der Frist. · R 6.6 Abs. 1 S. 2 Nr. 2 EStR · Abweichung von der Handelsbilanz im Verzeichnis. · § 5 Abs. 1 S. 2 EStG · Brand zählt?"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung 2026: Rücklage · R 6.6 Abs. 4 S. 1 EStR · Entschädigung · 300.000 € · – Buchwert · – 120.000 € · = aufgedeckte Reserven · 180.000 € · = Rücklage · 180.000 € · Gewinnauswirkung 2026: 0 €"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Fristen und Timing · Bewegliche Wirtschaftsgüter: ein Jahr. · R 6.6 Abs. 4 S. 3 EStR · Gebäude: vier Jahre, neu hergestellt sechs Jahre. · R 6.6 Abs. 4 S. 4 EStR · Im Brandjahr vergessen? Nachholen geht nicht. · R 6.6 Abs. 4 S. 2 EStR · Gleich 2026 bilden!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung 2027: übertragen · R 6.6 Abs. 4 S. 8 EStR · § 7 Abs. 4 S. 1 Nr. 1 EStG · HK neue Halle · 400.000 € · – übertragene Rücklage · – 180.000 € · = AfA-Basis · 220.000 € · AfA 3 % im vollen Jahr · 6.600 € · AfA nur von 220.000 €"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Lösung: 2026 kein Gewinn, Rücklage 180.000 € · 2027 Übertragung auf die neue Halle · Höhere Gewalt prüfen, · Rücklage im Brandjahr, · Frist vier oder sechs, · übertragen auf Ersatz. · Speichern für Klausur 3 · Hättest du 2026 versteuert? · Weiterwischen: § 5 + R 6.6 markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 5 EStG (Auszug) · Rücklage = Wahlrecht · Abweichung HB · Verzeichnis · Bei der Rücklage reicht der Ansatz · in der Steuerbilanz (R 6.6 Abs. 4 S. 7 EStR)"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "R 6.6 Abs. 4 EStR (Auszug) · Rücklage · Plan nötig · Brandjahr! · Neubau · Richtlinien nur für die Klausur · In der mündlichen Prüfung liegen sie nicht aus"
+    }
+  ]
+}

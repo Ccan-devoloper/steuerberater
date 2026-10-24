@@ -1,0 +1,26 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-2",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: 12.500 €",
+    "10.000 €",
+    "12.500 €",
+    "22.000 €",
+    "Bleiben die Erwerbe darunter, liegt beim Halbunternehmer kein innergemeinschaftlicher Erwerb vor.",
+    "§ 1a Abs. 3 Nr. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

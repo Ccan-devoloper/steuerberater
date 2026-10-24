@@ -1,0 +1,64 @@
+{
+  "format": "reel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-305",
+  "caption": "Haftungsbescheid fehlerhaft: Änderung nach § 172 AO? Nein – die Art des Verwaltungsakts entscheidet über die Korrekturnorm. 📄\n\n▸ Steuerbescheide setzen Steuern fest (§ 155 Abs. 1 S. 1 AO) und werden nur nach §§ 172 ff. AO aufgehoben oder geändert (§ 172 Abs. 1 S. 1 AO).\n▸ Gleichgestellt sind Feststellungsbescheide und Steuermessbescheide: Für sie gelten die Vorschriften über die Durchführung der Besteuerung sinngemäß (§ 181 Abs. 1 S. 1 AO, § 184 Abs. 1 S. 3 AO).\n▸ Sonstige Verwaltungsakte, etwa der Haftungsbescheid (§ 191 Abs. 1 AO), werden nach § 130 AO zurückgenommen (rechtswidrig) oder nach § 131 AO widerrufen (rechtmäßig).\n\nSpeichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 155 Abs. 1 S. 1 AO",
+    "§ 172 Abs. 1 S. 1 AO",
+    "§ 181 Abs. 1 S. 1 AO",
+    "§ 184 Abs. 1 S. 3 AO",
+    "§ 191 Abs. 1 AO",
+    "§§ 130, 131 AO"
+  ],
+  "slug": "2026-10-25-b3",
+  "kurztitel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "merksatz",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Haftungsbescheid: Änderung § 172?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Steuerbescheid"
+    },
+    {
+      "art": "schritt",
+      "titel": "Gleichgestellt"
+    },
+    {
+      "art": "schritt",
+      "titel": "Sonstige VA"
+    }
+  ],
+  "sprecher": [
+    "Haftungsbescheid falsch, also ändern nach Paragraf hundertzweiundsiebzig? Falsch. Er ist gar kein Steuerbescheid.",
+    "Steuerbescheide setzen eine Steuer fest. Geändert werden sie nur nach Paragraf hundertzweiundsiebzig und folgende.",
+    "Feststellungs- und Messbescheide werden genauso behandelt, die Regeln gelten sinngemäß.",
+    "Sonstige Verwaltungsakte wie der Haftungsbescheid: Rücknahme oder Widerruf nach hundertdreißig und hunderteinunddreißig.",
+    "Merke: Steuer festgesetzt, dann hundertzweiundsiebzig. Sonst hundertdreißig."
+  ],
+  "dauerS": 38.479,
+  "tempo": 1
+}

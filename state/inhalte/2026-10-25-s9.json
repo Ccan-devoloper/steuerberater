@@ -1,0 +1,27 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-306",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Fehlerhaft",
+    "gleich nichtig?",
+    "Nichtig nur bei",
+    "besonders schwerem",
+    "und offenkundigem",
+    "Fehler.",
+    "§ 125 Abs. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

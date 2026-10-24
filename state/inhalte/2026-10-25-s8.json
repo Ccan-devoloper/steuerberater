@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-15",
+  "beitragSlot": null,
+  "quellen": null,
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Teileinkünfte",
+    "im Betrieb",
+    "40 % der Dividende sind steuerfrei.",
+    "§ 3 Nr. 40 S. 1 Buchst. d EStG",
+    "Zugehörige Ausgaben nur zu 60 % abziehbar.",
+    "§ 3c Abs. 2 S. 1 EStG",
+    "Bilanz voll, Korrektur außerhalb."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
