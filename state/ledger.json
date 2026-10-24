@@ -14697,17 +14697,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 40,
+        "reach": 45,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 0
+        "profile_visits": 1
       },
-      "insightsStand": "2026-10-24T09:44:29.133Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-24T11:30:22.676Z",
+      "insightsAlterStunden": 5
     },
     {
       "datum": "2026-10-24",
@@ -14746,7 +14746,24 @@
       "storyArt": "norm",
       "thema": "erbst-aufb-erbst-v-5",
       "fach": "erbst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 33,
+        "views": 45,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 45,
+        "navigation_tap_forward": 28,
+        "navigation_tap_exit": 8,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-10-24T11:30:20.928Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-24",
