@@ -13085,19 +13085,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 531,
+        "reach": 542,
         "saved": 3,
         "shares": 1,
         "likes": 7,
         "comments": 0,
         "total_interactions": 11,
-        "views": 621,
-        "ig_reels_avg_watch_time": 7362,
-        "ig_reels_video_view_total_time": 3975850,
-        "reels_skip_rate": 60.9
+        "views": 642,
+        "ig_reels_avg_watch_time": 7411,
+        "ig_reels_video_view_total_time": 4098624,
+        "reels_skip_rate": 61.1
       },
-      "insightsStand": "2026-10-23T17:00:31.320Z",
-      "insightsAlterStunden": 96
+      "insightsStand": "2026-10-24T17:12:04.401Z",
+      "insightsAlterStunden": 120.2
     },
     {
       "datum": "2026-10-19",
