@@ -14640,6 +14640,28 @@
       "thema": "persg-quiz-k3-26",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-24",
+      "slot": "b1",
+      "medienId": "17911814454474081",
+      "veroeffentlicht": "2026-10-24T06:30:05.982Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "klausurtechnik",
+      "thema": "klausurtechnik-k1-erbst-2026-43",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Klausurtechnik",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -14649,7 +14671,7 @@
     "ao": 23,
     "bilanz": 23,
     "istr": 18,
-    "erbst": 9,
+    "erbst": 10,
     "mindset": 2,
     "est": 5,
     "umwst": 7,
