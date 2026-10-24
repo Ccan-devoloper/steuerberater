@@ -12234,17 +12234,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 83,
-        "saved": 2,
+        "reach": 96,
+        "saved": 5,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 8,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-23T08:22:19.025Z",
-      "insightsAlterStunden": 140.9
+      "insightsStand": "2026-10-24T08:44:35.377Z",
+      "insightsAlterStunden": 165.2
     },
     {
       "datum": "2026-10-17",
@@ -12964,17 +12964,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 87,
+        "reach": 93,
         "saved": 4,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 7,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-23T08:22:19.025Z",
-      "insightsAlterStunden": 92.9
+      "insightsStand": "2026-10-24T08:44:35.377Z",
+      "insightsAlterStunden": 117.2
     },
     {
       "datum": "2026-10-19",
@@ -13329,17 +13329,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 118,
-        "saved": 3,
+        "reach": 132,
+        "saved": 4,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 7,
         "follows": 2,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-23T08:22:19.025Z",
-      "insightsAlterStunden": 68.9
+      "insightsStand": "2026-10-24T08:44:35.377Z",
+      "insightsAlterStunden": 93.2
     },
     {
       "datum": "2026-10-20",
@@ -14424,17 +14424,17 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 62,
-        "saved": 1,
+        "reach": 67,
+        "saved": 2,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 3,
-        "follows": 1,
-        "profile_visits": 2
+        "total_interactions": 4,
+        "follows": 2,
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-24T05:09:14.640Z",
-      "insightsAlterStunden": 17.6
+      "insightsStand": "2026-10-24T08:44:35.377Z",
+      "insightsAlterStunden": 21.2
     },
     {
       "datum": "2026-10-23",
@@ -14477,22 +14477,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 70,
-        "views": 78,
+        "reach": 79,
+        "views": 92,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 74,
-        "navigation_tap_back": 4,
-        "navigation_tap_forward": 57,
+        "navigation": 87,
+        "navigation_swipe_forward": 8,
         "navigation_tap_exit": 6,
-        "navigation_swipe_forward": 7
+        "navigation_tap_forward": 68,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-24T05:09:04.751Z",
-      "insightsAlterStunden": 16.5
+      "insightsStand": "2026-10-24T08:44:33.326Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-23",
@@ -14545,19 +14545,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 397,
+        "reach": 711,
         "saved": 1,
         "shares": 1,
         "likes": 3,
         "comments": 0,
         "total_interactions": 5,
-        "views": 502,
-        "ig_reels_avg_watch_time": 10217,
-        "ig_reels_video_view_total_time": 4046193,
-        "reels_skip_rate": 51.2
+        "views": 861,
+        "ig_reels_avg_watch_time": 9941,
+        "ig_reels_video_view_total_time": 7068121,
+        "reels_skip_rate": 48.3
       },
-      "insightsStand": "2026-10-24T05:44:09.054Z",
-      "insightsAlterStunden": 12.7
+      "insightsStand": "2026-10-24T08:44:35.377Z",
+      "insightsAlterStunden": 15.7
     },
     {
       "datum": "2026-10-23",
