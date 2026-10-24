@@ -14697,17 +14697,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 57,
-        "saved": 3,
+        "reach": 65,
+        "saved": 4,
         "shares": 1,
         "likes": 0,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 5,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-24T14:44:09.660Z",
-      "insightsAlterStunden": 8.2
+      "insightsStand": "2026-10-24T18:44:27.617Z",
+      "insightsAlterStunden": 12.2
     },
     {
       "datum": "2026-10-24",
@@ -14842,22 +14842,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 24,
-        "views": 29,
+        "reach": 63,
+        "views": 81,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 8,
-        "navigation_tap_exit": 7,
-        "navigation_swipe_forward": 4
+        "navigation": 70,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 40,
+        "navigation_tap_exit": 15,
+        "navigation_swipe_forward": 10
       },
-      "insightsStand": "2026-10-24T13:45:01.800Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-24T18:44:22.752Z",
+      "insightsAlterStunden": 6.1
     },
     {
       "datum": "2026-10-24",
@@ -14907,7 +14907,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 143,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 198,
+        "ig_reels_avg_watch_time": 7817,
+        "ig_reels_video_view_total_time": 1125654,
+        "reels_skip_rate": 70.5
+      },
+      "insightsStand": "2026-10-24T18:44:27.617Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-24",
@@ -14919,7 +14933,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 36,
+        "views": 46,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 37,
+        "navigation_tap_forward": 24,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 5,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-24T18:44:22.752Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-24",
@@ -14931,7 +14962,24 @@
       "storyArt": "merksatz",
       "thema": "umwst-aufb-umw-4-11",
       "fach": "umwst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 29,
+        "views": 36,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 28,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 18,
+        "navigation_tap_exit": 7,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-24T18:44:22.752Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {

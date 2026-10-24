@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-24T17:35:26.205Z",
+  "stand": "2026-10-24T18:44:28.897Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -43451,6 +43451,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-24T18:44:27.617Z",
+          "alterStunden": 12.2,
+          "reach": 65,
+          "saved": 4,
+          "shares": 1,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -43619,6 +43631,23 @@
           "navigation_tap_forward": 8,
           "navigation_tap_exit": 7,
           "navigation_swipe_forward": 4
+        },
+        {
+          "stand": "2026-10-24T18:44:22.752Z",
+          "alterStunden": 6.1,
+          "reach": 63,
+          "views": 81,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 70,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 40,
+          "navigation_tap_exit": 15,
+          "navigation_swipe_forward": 10
         }
       ]
     },
@@ -43647,6 +43676,90 @@
           "navigation_tap_exit": 7,
           "navigation_tap_forward": 23,
           "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "17979689876923008": {
+      "art": "story",
+      "datum": "2026-10-24",
+      "titel": null,
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T17:00:22.338Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T18:44:22.752Z",
+          "alterStunden": 1.7,
+          "reach": 36,
+          "views": 46,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 37,
+          "navigation_tap_forward": 24,
+          "navigation_swipe_forward": 7,
+          "navigation_tap_exit": 5,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18098788064534518": {
+      "art": "story",
+      "datum": "2026-10-24",
+      "titel": null,
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T17:12:03.208Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T18:44:22.752Z",
+          "alterStunden": 1.5,
+          "reach": 29,
+          "views": 36,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 18,
+          "navigation_tap_exit": 7,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18025669283875864": {
+      "art": "beitrag",
+      "datum": "2026-10-24",
+      "titel": "Ist der Übernahmegewinn der aufnehmenden GmbH steuerfrei?",
+      "format": "reel",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T17:00:09.578Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T18:44:27.617Z",
+          "alterStunden": 1.7,
+          "reach": 143,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 198,
+          "ig_reels_avg_watch_time": 7817,
+          "ig_reels_video_view_total_time": 1125654,
+          "reels_skip_rate": 70.5
         }
       ]
     }
@@ -46135,6 +46248,11 @@
     {
       "stand": "2026-10-24T17:35:26.205Z",
       "follower": 229,
+      "medien": 147
+    },
+    {
+      "stand": "2026-10-24T18:44:28.897Z",
+      "follower": 230,
       "medien": 147
     }
   ]
