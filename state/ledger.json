@@ -14721,20 +14721,22 @@
       "fach": "erbst",
       "titel": "",
       "insights": {
-        "reach": 18,
-        "views": 20,
+        "reach": 60,
+        "views": 82,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 3,
         "profile_activity": 0,
-        "navigation": 18,
-        "navigation_tap_forward": 17,
-        "navigation_swipe_forward": 1
+        "navigation": 71,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 9
       },
-      "insightsStand": "2026-10-24T07:45:12.030Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-24T12:40:04.774Z",
+      "insightsAlterStunden": 6.2
     },
     {
       "datum": "2026-10-24",
@@ -14785,7 +14787,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#einkommensteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 29,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-24T12:40:08.030Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-24",
@@ -14797,7 +14811,23 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "est",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 26,
+        "views": 35,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 17
+      },
+      "insightsStand": "2026-10-24T12:40:04.774Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-24",
