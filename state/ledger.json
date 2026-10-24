@@ -14920,6 +14920,18 @@
       "thema": null,
       "fach": "umwst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-24",
+      "slot": "s9",
+      "medienId": "18098788064534518",
+      "veroeffentlicht": "2026-10-24T17:12:03.208Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-4-11",
+      "fach": "umwst",
+      "titel": ""
     }
   ],
   "fachZaehler": {
