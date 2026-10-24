@@ -98,7 +98,8 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "kst-karte-kst-8",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-24T15:04:00.079Z"
     },
     {
       "slot": "s3",
