@@ -14798,6 +14798,18 @@
       "thema": null,
       "fach": "est",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-24",
+      "slot": "s7",
+      "medienId": "17910517947592688",
+      "veroeffentlicht": "2026-10-24T12:40:03.536Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
