@@ -12142,17 +12142,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 173,
+        "reach": 187,
         "saved": 5,
         "shares": 1,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 9,
-        "follows": 0,
-        "profile_visits": 2
+        "total_interactions": 10,
+        "follows": 2,
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-23T06:30:20.078Z",
-      "insightsAlterStunden": 144
+      "insightsStand": "2026-10-24T06:30:21.467Z",
+      "insightsAlterStunden": 168
     },
     {
       "datum": "2026-10-17",
@@ -12507,17 +12507,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 170,
+        "reach": 178,
         "saved": 2,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 6
       },
-      "insightsStand": "2026-10-23T05:44:45.874Z",
-      "insightsAlterStunden": 119.2
+      "insightsStand": "2026-10-24T06:30:21.467Z",
+      "insightsAlterStunden": 144
     },
     {
       "datum": "2026-10-18",
@@ -14627,7 +14627,22 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-26",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 14,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 17
+      },
+      "insightsStand": "2026-10-24T06:30:18.252Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-24",
@@ -14639,7 +14654,24 @@
       "storyArt": "antwort",
       "thema": "persg-quiz-k3-26",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 14,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 1,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-24T06:30:18.252Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-24",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-24T05:44:09.054Z",
+  "stand": "2026-10-24T06:30:22.846Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -33866,6 +33866,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-24T06:30:21.467Z",
+          "alterStunden": 168,
+          "reach": 187,
+          "saved": 5,
+          "shares": 1,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 10,
+          "follows": 2,
+          "profile_visits": 4
         }
       ]
     },
@@ -35329,6 +35341,18 @@
           "likes": 3,
           "comments": 0,
           "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 6
+        },
+        {
+          "stand": "2026-10-24T06:30:21.467Z",
+          "alterStunden": 144,
+          "reach": 178,
+          "saved": 2,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 6,
           "follows": 0,
           "profile_visits": 6
         }
@@ -42671,6 +42695,62 @@
           "reels_skip_rate": 51.2
         }
       ]
+    },
+    "18194338306392374": {
+      "art": "story",
+      "datum": "2026-10-24",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T05:07:03.315Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T06:30:18.252Z",
+          "alterStunden": 1.4,
+          "reach": 14,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 17
+        }
+      ]
+    },
+    "18003233930807710": {
+      "art": "story",
+      "datum": "2026-10-24",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-24T05:09:03.631Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-24T06:30:18.252Z",
+          "alterStunden": 1.4,
+          "reach": 14,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 15,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 1,
+          "navigation_tap_forward": 11
+        }
+      ]
     }
   },
   "konto": [
@@ -45098,6 +45178,11 @@
       "stand": "2026-10-24T05:09:18.084Z",
       "follower": 222,
       "medien": 144
+    },
+    {
+      "stand": "2026-10-24T06:30:22.846Z",
+      "follower": 223,
+      "medien": 145
     }
   ]
 }
