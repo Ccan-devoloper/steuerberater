@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-24T06:30:22.846Z",
+  "stand": "2026-10-24T06:44:44.850Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -39923,6 +39923,18 @@
           "total_interactions": 7,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-24T06:44:44.850Z",
+          "alterStunden": 67.2,
+          "reach": 88,
+          "saved": 3,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -40929,6 +40941,18 @@
           "stand": "2026-10-23T22:38:32.722Z",
           "alterStunden": 40.1,
           "reach": 71,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-24T06:44:44.850Z",
+          "alterStunden": 48.2,
+          "reach": 73,
           "saved": 1,
           "shares": 0,
           "likes": 3,
