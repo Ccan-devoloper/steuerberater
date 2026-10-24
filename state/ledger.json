@@ -14747,6 +14747,28 @@
       "thema": "erbst-aufb-erbst-v-5",
       "fach": "erbst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-24",
+      "slot": "b2",
+      "medienId": "17887788015492609",
+      "veroeffentlicht": "2026-10-24T11:30:06.511Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "rechenweg",
+      "thema": "est-aufb-est-ks2-23-04",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -14758,7 +14780,7 @@
     "istr": 18,
     "erbst": 10,
     "mindset": 2,
-    "est": 5,
+    "est": 6,
     "umwst": 7,
     "gewst": 4,
     "null": 3
