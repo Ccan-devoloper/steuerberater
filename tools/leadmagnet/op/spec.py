@@ -10,15 +10,14 @@ FIG = {
 GEMEINSAM = {"klausur": 0, "fach": None, "fachLabel": "Mündliche Prüfung", "klausurLabel": "Gratis-PDF"}
 CTA_HASH = ["#steuerberaterprüfung", "#steuerberaterexamen", "#mündlicheprüfung", "#examensvorbereitung"]
 
-GESETZ_28 = {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 28 DVStB (Auszug) · § 25 DVStB (Auszug)",
-    "absaetze": [
-        ["§ 28 (1)", [["2 Die Prüfung ist bestanden, wenn die", None], ["durch zwei geteilte Summe", "g1"],
-                      ["aus den Gesamtnoten für die schriftliche und die mündliche Prüfung die Zahl", None], ["4,15", "r1"], ["nicht übersteigt.", None]]],
-        ["§ 25 (2)", [["Der Bewerber ist von der mündlichen Prüfung ausgeschlossen, wenn die Gesamtnote für die schriftliche Prüfung die Zahl", None],
-                      ["4,5", "b1"], ["übersteigt; […]", None]]]],
-    "notizen": [["Durchschnitt!", "g1"], ["Grenze", "r1"], ["Zulassung", "b1"]],
-    "randnotiz": ["Mit 4,5: mündlich", "im Schnitt 3,8"]}
-
+def schluss(ref, x=790):
+    """Letzte Folie der Leadmagnet-Karussells: Weg zum Gratis-PDF statt Gesetzesauszug."""
+    return {"typ": "inhalt", "titel": "So holst du dir das PDF", "punkte": [
+        ["Profil von examenscampus öffnen", "ok", "Bold", None],
+        ["Link in der Bio antippen", "ok", "Bold", None],
+        ["E-Mail eintragen – das PDF kommt sofort", "ok", "Bold", None],
+        ["Kostenlos, jederzeit abbestellbar", None, "Regular", None]],
+        "figur": ref, "x": x, "blase": "Gratis!"}
 
 def karussell_10_fehler():
     return dict(GEMEINSAM, slot="k1", format="karussell", themaId="lead-10-fehler", themaTitel="Die 10 häufigsten Fehler der Mündlichen",
@@ -30,7 +29,7 @@ def karussell_10_fehler():
             {"typ": "schritte", "titel": "Platz 10 bis 6", "schritte": [
                 ["Platz 10", None, "Den Kurzvortrag verschenken"], ["Platz 9", None, "Eine schlechte Runde mitnehmen"],
                 ["Platz 8", None, "Keine Rückfragen zum Sachverhalt"], ["Platz 7", None, "Schweigen oder „keine Ahnung“ sagen"],
-                ["Platz 6", None, "Nicht zuhören, wenn andere dran sind"]], "teaser": "Am Ende: Bestehensgrenze im Gesetz"},
+                ["Platz 6", None, "Nicht zuhören, wenn andere dran sind"]], "teaser": "Am Ende: Platz 1"},
             {"typ": "inhalt", "titel": "Platz 5 bis 2", "punkte": [
                 ["Platz 5: Randgebiete vernachlässigen", "warn", "Bold", None],
                 ["Platz 4: Fachbegriffe nicht treffen", "warn", "Bold", None],
@@ -50,8 +49,8 @@ def karussell_10_fehler():
             {"typ": "merke", "oben": ["Alle 10 Fehler + Lösungen", "Gratis-PDF · Link in der Bio", "GELB"],
              "zeilen": [[["Frage", "a"], [" durchschauen,", None]], [["Norm", "b"], [" nennen,", None]],
                         [["Aktuelles", "c"], [" kennen,", None]], [["nie", "d"], [" schweigen.", None]]],
-             "speichern": "Speichern für die Mündliche", "frage": "Welcher Fehler passiert dir?", "teaser": "Weiterwischen: § 28 DVStB markiert"},
-            GESETZ_28],
+             "speichern": "Speichern für die Mündliche", "frage": "Welcher Fehler passiert dir?", "teaser": "Weiterwischen: So holst du dir das PDF"},
+            schluss("A:froh")],
         caption="Die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – ausgewertet aus über 400 echten Prüfungsprotokollen. 😬\n\n"
                 "Was dir keiner sagt: In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen. Bestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n\n"
                 "Platz 10 bis 2 siehst du hier. Platz 1 – und alle 10 Fehler mit Prüfungsszene und Lösung – im Gratis-PDF.\n\n👉 Link in der Bio",
@@ -63,7 +62,7 @@ def karussell_kein_selbstlaeufer():
         figuren={"C": FIG["C"], "D": FIG["D"]},
         folien=[
             {"typ": "cover", "badge": "Was dir keiner sagt", "badgeFarbe": "ROT", "zeilen": ["Die Mündliche:", "kein Selbstläufer"],
-             "unter": "3 Zahlen", "teaser": "+ § 28 DVStB markiert",
+             "unter": "3 Zahlen", "teaser": "+ Gratis-PDF",
              "motiv": {"typ": "zahlblock", "zeilen": [["4,15", "ExtraBold", 130], ["Bestehensgrenze", "Bold", 40]]}, "figur": "C:sorge"},
             {"typ": "inhalt", "titel": "Zahl 1: fast jedes dritte", "punkte": [
                 ["In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen.", "nein", "ExtraBold", None],
@@ -84,8 +83,8 @@ def karussell_kein_selbstlaeufer():
             {"typ": "merke", "oben": ["Die gute Nachricht", "Die Fehler wiederholen sich", "GRUEN"],
              "zeilen": [[["4,5", "a"], [" schriftlich?", None]], [["3,8", "b"], [" mündlich!", None]],
                         [["10 Fehler", "c"], [" kennen,", None]], [["PDF", "d"], [" gratis holen.", None]]],
-             "speichern": "Speichern für die Mündliche", "frage": "Mit welcher Vornote gehst du rein?", "teaser": "Weiterwischen: § 28 DVStB markiert"},
-            GESETZ_28],
+             "speichern": "Speichern für die Mündliche", "frage": "Mit welcher Vornote gehst du rein?", "teaser": "Weiterwischen: So holst du dir das PDF"},
+            schluss("C:froh")],
         caption="Was dir keiner sagt: Die Mündliche ist kein Selbstläufer. 😳\n\n"
                 "▸ In fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens ein Prüfling durchgefallen.\n"
                 "▸ Zugelassen bist du bis 4,5 (§ 25 Abs. 2 DVStB) – bestanden erst, wenn der Durchschnitt aus schriftlich und mündlich 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB).\n"
@@ -99,7 +98,7 @@ def karussell_quiz():
         figuren={"B": FIG["B"], "A": FIG["A"]},
         folien=[
             {"typ": "cover", "badge": "Echte Prüfungsfrage", "badgeFarbe": "WEISS", "zeilen": ["Würdest du", "hier bestehen?"],
-             "norm": "§ 13 Abs. 1 Nr. 4a, 4c ErbStG", "unter": "1 Prüferfrage", "teaser": "+ § 13 ErbStG markiert",
+             "norm": "§ 13 Abs. 1 Nr. 4a, 4c ErbStG", "unter": "1 Prüferfrage", "teaser": "+ Gratis-PDF",
              "motiv": {"typ": "icon", "name": "tabler:home-question", "farbe": "GELB"}, "figur": "B:fragt"},
             {"typ": "inhalt", "titel": "Die Frage des Prüfers", "punkte": [
                 ["Ihr Mandant möchte seiner Tochter das selbst bewohnte Einfamilienhaus übertragen. Was raten Sie?", None, "Bold", None]],
@@ -118,14 +117,8 @@ def karussell_quiz():
              "figur": "B:ernst", "x": 290, "blase": "Kenn ich."},
             {"typ": "merke", "oben": ["Unvollständiger Sachverhalt", "ist oft Absicht", "GELB"],
              "zeilen": [[["Erst", "a"], [" fragen,", None]], [["dann", "b"], [" prüfen:", None]], [["Kind", "c"], [" nur im Erbfall,", None]], [["200 m²", "d"], [" Grenze.", None]]],
-             "speichern": "Speichern für die Mündliche", "frage": "A oder B? Schreib's in die Kommentare", "teaser": "Weiterwischen: § 13 ErbStG markiert"},
-            {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 13 Abs. 1 Nr. 4c ErbStG (Auszug)",
-             "absaetze": [["4c.", [["1 der Erwerb", None], ["von Todes wegen", "r1"], ["des Eigentums oder Miteigentums an einem […] bebauten Grundstück […] durch", None],
-                                   ["Kinder", "b1"], ["[…], soweit der Erblasser darin bis zum Erbfall eine Wohnung zu eigenen Wohnzwecken genutzt hat […], die beim Erwerber", None],
-                                   ["unverzüglich zur Selbstnutzung", "g1"], ["zu eigenen Wohnzwecken bestimmt ist (Familienheim) und soweit die Wohnfläche der Wohnung", None],
-                                   ["200 Quadratmeter", "gr1"], ["nicht übersteigt.", None]]]],
-             "notizen": [["nur Erbfall", "r1"], ["Kinder", "b1"], ["selbst einziehen", "g1"], ["Grenze", "gr1"]],
-             "randnotiz": ["Schenkung an Kind:", "keine Befreiung"]}],
+             "speichern": "Speichern für die Mündliche", "frage": "A oder B? Schreib's in die Kommentare", "teaser": "Weiterwischen: So holst du dir das PDF"},
+            schluss("B:froh")],
         caption="Würdest du hier bestehen? 🤔 Prüferfrage: Der Mandant will seiner Tochter das selbst bewohnte Einfamilienhaus übertragen.\n\n"
                 "▸ Schenkung zu Lebzeiten an ein Kind: keine Befreiung – § 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner.\n"
                 "▸ Erwerb von Todes wegen: Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht, begrenzt auf 200 m² Wohnfläche.\n\n"
@@ -138,7 +131,7 @@ def karussell_drei_saetze():
         figuren={"D": FIG["D"], "C": FIG["C"]},
         folien=[
             {"typ": "cover", "badge": "Aus über 400 Protokollen", "badgeFarbe": "GELB", "zeilen": ["3 Sätze, die du", "nie sagen solltest"],
-             "unter": "mit Lösung", "teaser": "+ § 355 AO markiert",
+             "unter": "mit Lösung", "teaser": "+ Gratis-PDF",
              "motiv": {"typ": "icon", "name": "tabler:message-x", "farbe": "ROT"}, "figur": "D:skeptisch"},
             {"typ": "inhalt", "titel": "Satz 1: „Keine Ahnung.“", "punkte": [
                 ["„Keine Ahnung.“", "nein", "ExtraBold", None],
@@ -158,10 +151,8 @@ def karussell_drei_saetze():
              "figur": "D:ernst", "x": 290, "blase": "Jede Runde zählt."},
             {"typ": "merke", "oben": ["Das waren 3 von 10", "Alle 10 Fehler: Gratis-PDF · Link in der Bio", "GELB"],
              "zeilen": [[["Laut", "a"], [" denken,", None]], [["Fachbegriff", "b"], [" nennen,", None]], [["Norm", "c"], [" zuerst,", None]], [["nie", "d"], [" schweigen.", None]]],
-             "speichern": "Speichern für die Mündliche", "frage": "Welchen Satz hast du schon gesagt?", "teaser": "Weiterwischen: § 355 AO markiert"},
-            {"typ": "gesetz", "titel": "Im Gesetz markieren", "kopf": "§ 355 AO Einspruchsfrist (Auszug)",
-             "absaetze": [["(1)", [["1 Der Einspruch nach § 347 Abs. 1 Satz 1 ist", None], ["innerhalb eines Monats", "g1"], ["nach", None], ["Bekanntgabe", "b1"], ["des Verwaltungsakts einzulegen.", None]]]],
-             "notizen": [["Frist", "g1"], ["Fristbeginn", "b1"]], "randnotiz": ["Auch beim", "Haftungsbescheid"]}],
+             "speichern": "Speichern für die Mündliche", "frage": "Welchen Satz hast du schon gesagt?", "teaser": "Weiterwischen: So holst du dir das PDF"},
+            schluss("D:froh")],
         caption="3 Sätze, die du in der Mündlichen nie sagen solltest. 🙊 Gefunden in über 400 echten Prüfungsprotokollen.\n\n"
                 "▸ „Keine Ahnung.“ – Besser: beim Grundtatbestand einsteigen (Haftungsbescheid = Verwaltungsakt, § 191 Abs. 1 AO; Einspruch, § 347 AO; Frist ein Monat, § 355 Abs. 1 AO).\n"
                 "▸ „Steuerfrei, weil Ausland.“ – Besser: innergemeinschaftliche Lieferung (§ 4 Nr. 1 Buchst. b, § 6a UStG).\n"
@@ -273,3 +264,233 @@ def reel_formsache():
 
 KARUSSELLS = [karussell_10_fehler, karussell_kein_selbstlaeufer, karussell_quiz, karussell_drei_saetze]
 REELS = [reel_keiner_sagt, reel_fehler_1, reel_formsache]
+
+
+# ======================================================================== Reel-Serie ab Tag 6: je ein Fehler pro Tag
+FIG.update({
+    "E": {"name": "Selin", "kopf": "Long", "haut": "#D8A47F", "haar": "#2A1B14", "oberteil": "#9AD48F"},
+    "F": {"name": "Ben", "kopf": "Short 1", "haut": "#F0C8A8", "haar": "#8B5A2B", "oberteil": "#F9D56E", "brille": "Glasses 3"},
+    "G": {"name": "Amara", "kopf": "Afro", "haut": "#8D5524", "haar": "#1E1410", "oberteil": "#F4A3B5"},
+    "H": {"name": "Paul", "kopf": "Medium 1", "haut": "#E8B48F", "haar": "#6B3E26", "oberteil": "#8DB3F2", "bart": "Full 2"},
+    "I": {"name": "Nora", "kopf": "Bangs", "haut": "#F3D0B5", "haar": "#C9A15B", "oberteil": "#F9D56E"},
+    "J": {"name": "Yusuf", "kopf": "Short 5", "haut": "#B07552", "haar": "#1E1410", "oberteil": "#9AD48F", "bart": "Goatee 1"},
+    "K": {"name": "Clara", "kopf": "Gray Medium", "haut": "#F0C8A8", "haar": "#BFBFBF", "oberteil": "#8DB3F2", "brille": "Glasses"},
+    "L": {"name": "Emre", "kopf": "Flat Top", "haut": "#C99470", "haar": "#2A1B14", "oberteil": "#F4A3B5"},
+    "M": {"name": "Hanna", "kopf": "Twists", "haut": "#8D5524", "haar": "#1E1410", "oberteil": "#9AD48F"},
+})
+CTA_TEXT = "Alle zehn Fehler gibt es kostenlos zum Download. Link in der Bio."
+
+
+def serie(slot, rolle, pose, titel, platz, hook, sprecher, szenen, merke_oben, caption, quellen):
+    """Reel der Serie „Fehler Nr. x“: Hook, drei Szenen, Abschluss mit Verweis aufs Gratis-PDF."""
+    hook = dict(hook, pille=f"Fehler Nr. {platz} von 10", figur=f"{rolle}/{pose}", name=FIG[rolle]["name"])
+    return dict(GEMEINSAM, slot=slot, format="reel", reelTyp="klausurfalle", themaId=f"lead-reel-{slot}", themaTitel=titel,
+                figuren={rolle: FIG[rolle]}, hook=hook, szenen=szenen,
+                sprecher=[{"id": i, "text": t} for i, t in zip(("hook", "s1", "s2", "s3"), sprecher)] + [{"id": "cta", "text": CTA_TEXT}],
+                merke={"seg": "cta", "zeilen": merke_oben + ["Alle 10 Fehler:", "Gratis-PDF"], "woerter": [None, None, "Fehler", "kostenlos"],
+                       "cta": "Link in der Bio", "cta_wort": "Link", "hinweis": "Aus über 400 Prüfungsprotokollen"},
+                caption=caption + "\n\nAlle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio",
+                hashtags=CTA_HASH, quellen=quellen)
+
+
+def reel_platz2():
+    return serie("r4", "E", "skeptisch", "Aus dem Kopf statt aus dem Gesetz", 2,
+        {"zeilen": ["„Ich glaube,", "vier Jahre.“"], "icons": [["tabler:book", "GELB", "Norm"]], "stil": "kippen",
+         "richtig": {"label": "Richtig", "text": "Norm zuerst", "wort": "Norm", "farbe": "GRUEN"}, "stempel": {"text": "Punktabzug!", "wort": "Punkte"}},
+        ["Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Norm zuerst!",
+         "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?",
+         "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung.",
+         "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig."],
+        [{"seg": "s1", "titel": "Die Frage", "elemente": [{"typ": "pille", "text": "Wie lange änderbar?", "farbe": "WEISS", "wort": "lange"}],
+          "icon": ["tabler:help", "GELB", "Frage"]},
+         {"seg": "s2", "titel": "Erst die Norm", "elemente": [
+             {"typ": "block", "label": "Festsetzungsfrist", "wert": "4 Jahre", "farbe": "GELB", "wort": "Festsetzungsfrist", "zs": 120},
+             {"typ": "norm", "text": "§ 169 Abs. 2 S. 1 Nr. 2 AO", "wort": "Paragraf"}]},
+         {"seg": "s3", "titel": "Dann der Beginn", "elemente": [
+             {"typ": "block", "label": "Beginn", "wert": "Ende des Abgabejahres", "farbe": "WEISS", "wort": "beginnt", "zs": 80},
+             {"typ": "norm", "text": "§ 170 Abs. 2 S. 1 Nr. 1 AO", "wort": "hundertsiebzig"}]}],
+        ["Norm zuerst,", "dann das Ergebnis."],
+        "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Besser: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).",
+        ["§ 169 Abs. 2 S. 1 Nr. 2 AO", "§ 170 Abs. 2 S. 1 Nr. 1 AO"])
+
+
+def reel_platz3():
+    return serie("r5", "F", "sorge", "Aktuelles nicht auf dem Schirm", 3,
+        {"zeilen": ["„Was ist neu?“", "Und du schweigst?"], "icons": [["tabler:news", "GELB", "Klassiker"]], "stil": "split",
+         "split": [{"label": "Gefragt", "wert": "Neuerungen", "farbe": "GELB", "wort": "neu"},
+                   {"label": "Fehler", "wert": "Platz 3", "farbe": "ROT", "wort": "Platz"}],
+         "stempel": {"text": "Klassiker!", "wort": "Klassiker"}},
+        ["Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler.",
+         "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung.",
+         "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können.",
+         "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig."],
+        [{"seg": "s1", "titel": "Der Einstieg", "elemente": [{"typ": "pille", "text": "Jeder nennt eine Neuerung", "farbe": "WEISS", "wort": "Neuerung"}],
+          "icon": ["tabler:news", "GELB", "Prüfer"]},
+         {"seg": "s2", "titel": "Zum Beispiel", "elemente": [
+             {"typ": "block", "label": "seit 2025", "wert": "E-Rechnung empfangen", "farbe": "GELB", "wort": "empfangen", "zs": 80}]},
+         {"seg": "s3", "titel": "Ausstellen", "elemente": [
+             {"typ": "block", "label": "Übergang", "wert": "bis Ende 2026 / 2027", "farbe": "WEISS", "wort": "Übergangsfristen", "zs": 90},
+             {"typ": "norm", "text": "§ 27 Abs. 38 UStG", "wort": "Ausstellen"}]}],
+        ["Drei bis fünf", "Neuerungen parat."],
+        "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).",
+        ["§ 27 Abs. 38 UStG"])
+
+
+def reel_platz4():
+    return serie("r6", "G", "erklaert", "Fachbegriffe nicht treffen", 4,
+        {"zeilen": ["„Steuerfrei,", "weil Ausland.“"], "icons": [["tabler:world", "GELB", "Fachbegriff"]], "stil": "kippen",
+         "richtig": {"label": "Fachbegriff", "text": "innergemeinschaftliche Lieferung", "wort": "Fachbegriff", "farbe": "GRUEN"},
+         "stempel": {"text": "zu ungenau!", "wort": "ungenau"}},
+        ["Steuerfrei, weil Ausland. Viel zu ungenau. Der Prüfer wartet auf den Fachbegriff.",
+         "Fachbegriffe nicht treffen ist Platz vier der häufigsten Fehler.",
+         "Richtig ist: innergemeinschaftliche Lieferung. Steuerfrei nach Paragraf vier Nummer eins b und sechs a Umsatzsteuergesetz.",
+         "Aber nur, wenn der Kunde seine gültige ausländische Umsatzsteuer-Identifikationsnummer verwendet."],
+        [{"seg": "s1", "titel": "Platz 4", "elemente": [{"typ": "block", "label": "Fehler", "wert": "Fachbegriffe", "farbe": "ROT", "wort": "Fachbegriffe", "zs": 110}]},
+         {"seg": "s2", "titel": "Der Begriff", "elemente": [
+             {"typ": "block", "label": "Fachbegriff", "wert": "innergemeinschaftliche Lieferung", "farbe": "GRUEN", "wort": "innergemeinschaftliche", "zs": 64},
+             {"typ": "norm", "text": "§ 4 Nr. 1 Buchst. b, § 6a UStG", "wort": "Paragraf"}]},
+         {"seg": "s3", "titel": "Die Bedingung", "elemente": [
+             {"typ": "pille", "text": "gültige USt-IdNr. verwendet", "farbe": "WEISS", "wort": "gültige"},
+             {"typ": "norm", "text": "§ 6a Abs. 1 S. 1 Nr. 4 UStG", "wort": "verwendet"}]}],
+        ["Ein Fachbegriff", "statt drei Sätze."],
+        "Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯\n\n„Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).",
+        ["§ 4 Nr. 1 Buchst. b UStG", "§ 6a Abs. 1 S. 1 Nr. 4 UStG"])
+
+
+def reel_platz5():
+    return serie("r7", "H", "ruhig", "Randgebiete vernachlässigen", 5,
+        {"zeilen": ["Welche EU-Organe", "kennst du?"], "icons": [["tabler:building-bank", "GELB", "Randgebiet"]], "stil": "split",
+         "split": [{"label": "Viele nennen", "wert": "2", "farbe": "ROT", "wort": "zwei"},
+                   {"label": "Richtig", "wert": "7", "farbe": "GRUEN", "wort": "sieben"}],
+         "stempel": {"text": "Randgebiet!", "wort": "Randgebiet"}},
+        ["Welche Organe der EU kennst du? Viele nennen zwei. Richtig sind sieben. Ein typisches Randgebiet.",
+         "Randgebiete wie Europarecht sind Platz fünf der häufigsten Fehler.",
+         "Parlament, Europäischer Rat, der Rat, Kommission,",
+         "Gerichtshof, Zentralbank und Rechnungshof. Artikel dreizehn des EU-Vertrags."],
+        [{"seg": "s1", "titel": "Platz 5", "elemente": [{"typ": "block", "label": "Fehler", "wert": "Randgebiete", "farbe": "ROT", "wort": "Randgebiete", "zs": 110}]},
+         {"seg": "s2", "titel": "Die Organe", "elemente": [
+             {"typ": "pille", "text": "Europäisches Parlament", "farbe": "WEISS", "wort": "Parlament"},
+             {"typ": "pille", "text": "Europäischer Rat", "farbe": "WEISS", "wort": "Europäischer"},
+             {"typ": "pille", "text": "Rat", "farbe": "WEISS", "wort": "der"},
+             {"typ": "pille", "text": "Kommission", "farbe": "WEISS", "wort": "Kommission"}]},
+         {"seg": "s3", "titel": "… und weiter", "elemente": [
+             {"typ": "pille", "text": "Gerichtshof der EU", "farbe": "WEISS", "wort": "Gerichtshof"},
+             {"typ": "pille", "text": "Europäische Zentralbank", "farbe": "WEISS", "wort": "Zentralbank"},
+             {"typ": "pille", "text": "Rechnungshof", "farbe": "WEISS", "wort": "Rechnungshof"},
+             {"typ": "norm", "text": "Art. 13 Abs. 1 EUV", "wort": "Artikel"}]}],
+        ["Für jedes Randgebiet", "ein Grundgerüst."],
+        "Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺\n\nDie Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.",
+        ["Art. 13 Abs. 1 EUV"])
+
+
+def reel_platz6():
+    return serie("r8", "I", "eilt", "Nicht zuhören, wenn andere dran sind", 6,
+        {"zeilen": ["„Sehen Sie das", "genauso?“"], "icons": [["tabler:ear", "GELB", "zugehört"]], "stil": "kippen",
+         "richtig": {"label": "Lösung", "text": "immer mitdenken", "wort": "mitdenken", "farbe": "GRUEN"},
+         "stempel": {"text": "erwischt!", "wort": "erwischt"}},
+        ["Sehen Sie das genauso? Wer nicht zugehört hat, ist jetzt erwischt. Also: immer mitdenken.",
+         "Fragen werden oft ohne Vorwarnung weitergegeben. Platz sechs der häufigsten Fehler.",
+         "Beispiel: Nach Bestandskraft tauchen neue Belege auf. Änderung nach Paragraf hundertdreiundsiebzig?",
+         "Stark ergänzt: Zugunsten des Steuerpflichtigen nur ohne grobes Verschulden."],
+        [{"seg": "s1", "titel": "Platz 6", "elemente": [
+             {"typ": "pille", "text": "ohne Vorwarnung weitergegeben", "farbe": "WEISS", "wort": "Vorwarnung"},
+             {"typ": "block", "label": "Fehler", "wert": "Nicht zuhören", "farbe": "ROT", "wort": "sechs", "zs": 100}]},
+         {"seg": "s2", "titel": "Die Frage", "elemente": [
+             {"typ": "block", "label": "nach Bestandskraft", "wert": "neue Belege", "farbe": "GELB", "wort": "Belege", "zs": 100},
+             {"typ": "norm", "text": "§ 173 Abs. 1 Nr. 2 AO", "wort": "Paragraf"}]},
+         {"seg": "s3", "titel": "Die Ergänzung", "elemente": [
+             {"typ": "block", "label": "zugunsten", "wert": "kein grobes Verschulden", "farbe": "GRUEN", "wort": "grobes", "zs": 76}]}],
+        ["Jede Frage ist", "auch deine Frage."],
+        "Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂\n\n„Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.",
+        ["§ 173 Abs. 1 Nr. 2 AO"])
+
+
+def reel_platz7():
+    return serie("r9", "J", "sorge", "Schweigen oder „keine Ahnung“ sagen", 7,
+        {"zeilen": ["„Keine", "Ahnung.“"], "icons": [["tabler:message-off", "GELB", "nie"]], "stil": "knall",
+         "stempel": {"text": "nie sagen!", "wort": "nie"}},
+        ["Keine Ahnung. Diesen Satz solltest du in der Mündlichen nie sagen.",
+         "Schweigen und Aufgeben ist Platz sieben der häufigsten Fehler.",
+         "Fang beim Grundtatbestand an. Ein Haftungsbescheid ist ein Verwaltungsakt.",
+         "Also Einspruch, innerhalb eines Monats. Paragraf dreihundertfünfundfünfzig."],
+        [{"seg": "s1", "titel": "Platz 7", "elemente": [{"typ": "block", "label": "Fehler", "wert": "Schweigen", "farbe": "ROT", "wort": "Schweigen", "zs": 110}]},
+         {"seg": "s2", "titel": "Grundtatbestand", "elemente": [
+             {"typ": "block", "label": "Haftungsbescheid", "wert": "Verwaltungsakt", "farbe": "GELB", "wort": "Verwaltungsakt", "zs": 90},
+             {"typ": "norm", "text": "§ 191 Abs. 1 AO", "wort": "Haftungsbescheid"}]},
+         {"seg": "s3", "titel": "Also", "elemente": [
+             {"typ": "block", "label": "Einspruch", "wert": "1 Monat", "farbe": "GRUEN", "wort": "Einspruch", "zs": 110},
+             {"typ": "norm", "text": "§ 355 Abs. 1 AO", "wort": "Paragraf"}]}],
+        ["Laut denken", "statt schweigen."],
+        "Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊\n\nBesser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).",
+        ["§ 191 Abs. 1 AO", "§ 347 AO", "§ 355 Abs. 1 AO"])
+
+
+def reel_platz8():
+    return serie("r10", "K", "erklaert", "Keine Rückfragen zum Sachverhalt", 8,
+        {"zeilen": ["Familienheim an die", "Tochter: steuerfrei?"], "icons": [["tabler:home", "GELB", "schnell"]], "stil": "kippen",
+         "richtig": {"label": "Richtig", "text": "erst nachfragen", "wort": "nachfragen", "farbe": "GRUEN"},
+         "stempel": {"text": "zu schnell!", "wort": "schnell"}},
+        ["Familienheim an die Tochter, steuerfrei? Wer zu schnell antwortet, verliert. Erst nachfragen.",
+         "Schenkung zu Lebzeiten an ein Kind: keine Befreiung.",
+         "Im Erbfall schon, wenn die Tochter selbst einzieht. Bis zweihundert Quadratmeter.",
+         "Keine Rückfragen zum Sachverhalt ist Platz acht der häufigsten Fehler."],
+        [{"seg": "s1", "titel": "Schenkung", "elemente": [
+             {"typ": "block", "label": "Schenkung an Kind", "wert": "nicht befreit", "farbe": "ROT", "wort": "Schenkung", "zs": 100},
+             {"typ": "norm", "text": "§ 13 Abs. 1 Nr. 4a ErbStG", "wort": "Befreiung"}]},
+         {"seg": "s2", "titel": "Erbfall", "elemente": [
+             {"typ": "block", "label": "Erbfall", "wert": "befreit", "farbe": "GRUEN", "wort": "Erbfall", "zs": 110},
+             {"typ": "pille", "text": "bis 200 m² Wohnfläche", "farbe": "WEISS", "wort": "zweihundert"},
+             {"typ": "norm", "text": "§ 13 Abs. 1 Nr. 4c ErbStG", "wort": "einzieht"}]},
+         {"seg": "s3", "titel": "Platz 8", "elemente": [{"typ": "block", "label": "Fehler", "wert": "Keine Rückfragen", "farbe": "ROT", "wort": "Rückfragen", "zs": 100}]}],
+        ["Erst fragen,", "dann prüfen."],
+        "Fehler Nr. 8 der Mündlichen: keine Rückfragen zum Sachverhalt. 🏠\n\nFamilienheim an die Tochter: Zu Lebzeiten keine Befreiung (§ 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner). Im Erbfall Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht – bis 200 m² Wohnfläche.",
+        ["§ 13 Abs. 1 Nr. 4a ErbStG", "§ 13 Abs. 1 Nr. 4c ErbStG"])
+
+
+def reel_platz9():
+    return serie("r11", "L", "sorge", "Eine schlechte Runde mitnehmen", 9,
+        {"zeilen": ["Runde verhauen.", "Alles vorbei?"], "icons": [["tabler:mood-sad", "GELB", "verhauen"]], "stil": "split",
+         "split": [{"label": "Gefühl", "wert": "verloren", "farbe": "ROT", "wort": "verhauen"},
+                   {"label": "Tatsache", "wert": "neue Chance", "farbe": "GRUEN", "wort": "vorbei"}],
+         "stempel": {"text": "nein!", "wort": "Nein"}},
+        ["Eine Runde verhauen. Ist jetzt alles vorbei? Nein.",
+         "Der Vortrag und jede Runde werden gesondert bewertet.",
+         "Am Ende zählt der Durchschnitt. Jede neue Runde ist eine neue Chance.",
+         "Eine schlechte Runde mitnehmen ist Platz neun der häufigsten Fehler."],
+        [{"seg": "s1", "titel": "Gesondert bewertet", "elemente": [
+             {"typ": "block", "label": "gesondert bewertet", "wert": "Vortrag + 6 Runden", "farbe": "GELB", "wort": "gesondert", "zs": 90},
+             {"typ": "norm", "text": "§ 27 Abs. 1 DVStB", "wort": "bewertet"}]},
+         {"seg": "s2", "titel": "Am Ende", "elemente": [
+             {"typ": "block", "label": "zählt", "wert": "der Durchschnitt", "farbe": "WEISS", "wort": "Durchschnitt", "zs": 100},
+             {"typ": "pille", "text": "neue Runde, neue Chance", "farbe": "WEISS", "wort": "Chance"}]},
+         {"seg": "s3", "titel": "Platz 9", "elemente": [{"typ": "block", "label": "Fehler", "wert": "Runde mitnehmen", "farbe": "ROT", "wort": "neun", "zs": 100}]}],
+        ["Abhaken,", "neu starten."],
+        "Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨\n\nVortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.",
+        ["§ 27 Abs. 1 DVStB", "§ 28 Abs. 1 S. 2 DVStB"])
+
+
+def reel_platz10():
+    return serie("r12", "M", "erklaert", "Den Kurzvortrag verschenken", 10,
+        {"zeilen": ["Drei Themen,", "eine halbe Stunde."], "icons": [["tabler:presentation", "GELB", "Zeitdruck"]], "stil": "split",
+         "split": [{"label": "Themen", "wert": "3", "farbe": "GELB", "wort": "Drei"},
+                   {"label": "Vorbereitung", "wert": "30 Min.", "farbe": "WEISS", "wort": "halbe"}],
+         "stempel": {"text": "Zeitdruck!", "wort": "Zeitdruck"}},
+        ["Drei Themen, eine halbe Stunde Vorbereitung. Der Kurzvortrag ist purer Zeitdruck.",
+         "Die drei Themen bekommst du eine halbe Stunde vor Prüfungsbeginn.",
+         "Wähle das Thema mit der klarsten Gliederung, nicht das bekannteste.",
+         "Gliederung ansagen, Blickkontakt halten. Den Vortrag verschenken ist Platz zehn der häufigsten Fehler."],
+        [{"seg": "s1", "titel": "Die Regel", "elemente": [
+             {"typ": "block", "label": "3 Themen", "wert": "30 Min. vorher", "farbe": "GELB", "wort": "bekommst", "zs": 100},
+             {"typ": "norm", "text": "§ 26 Abs. 6 DVStB", "wort": "Prüfungsbeginn"}]},
+         {"seg": "s2", "titel": "Die Wahl", "elemente": [
+             {"typ": "block", "label": "wähle", "wert": "klarste Gliederung", "farbe": "GRUEN", "wort": "Gliederung", "zs": 90}]},
+         {"seg": "s3", "titel": "Der Auftritt", "elemente": [
+             {"typ": "pille", "text": "Gliederung ansagen", "farbe": "WEISS", "wort": "ansagen"},
+             {"typ": "pille", "text": "Blickkontakt", "farbe": "WEISS", "wort": "Blickkontakt"},
+             {"typ": "block", "label": "Fehler", "wert": "Platz 10", "farbe": "ROT", "wort": "zehn", "zs": 100}]}],
+        ["Gliederung ansagen,", "Blick halten."],
+        "Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤\n\nDrei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Tipp aus den Protokollen: das Thema mit der klarsten Gliederung wählen, die Gliederung ansagen und Blickkontakt halten.",
+        ["§ 26 Abs. 6 DVStB"])
+
+
+REELS += [reel_platz2, reel_platz3, reel_platz4, reel_platz5, reel_platz6, reel_platz7, reel_platz8, reel_platz9, reel_platz10]
