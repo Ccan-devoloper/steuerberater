@@ -15062,7 +15062,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 72,
+        "reach": 79,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -15071,8 +15071,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-25T16:04:11.292Z",
-      "insightsAlterStunden": 8.6
+      "insightsStand": "2026-10-25T19:44:20.473Z",
+      "insightsAlterStunden": 12.2
     },
     {
       "datum": "2026-10-25",
@@ -15207,22 +15207,22 @@
       "fach": null,
       "titel": "",
       "insights": {
-        "reach": 12,
-        "views": 22,
+        "reach": 64,
+        "views": 78,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 17,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 8,
-        "navigation_tap_back": 1,
-        "navigation_swipe_forward": 2
+        "navigation": 66,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 48,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-25T14:44:40.347Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-25T19:44:14.749Z",
+      "insightsAlterStunden": 6.1
     },
     {
       "datum": "2026-10-25",
@@ -15272,7 +15272,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 150,
+        "saved": 1,
+        "shares": 2,
+        "likes": 3,
+        "comments": 0,
+        "total_interactions": 6,
+        "views": 186,
+        "ig_reels_avg_watch_time": 7785,
+        "ig_reels_video_view_total_time": 1144538,
+        "reels_skip_rate": 64.7
+      },
+      "insightsStand": "2026-10-25T19:44:20.473Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-25",
@@ -15284,7 +15298,24 @@
       "storyArt": "teaser",
       "thema": null,
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 42,
+        "views": 56,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 53,
+        "navigation_tap_forward": 41,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 3,
+        "navigation_swipe_forward": 6
+      },
+      "insightsStand": "2026-10-25T19:44:14.749Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-25",
@@ -15296,7 +15327,24 @@
       "storyArt": "merksatz",
       "thema": "ao-modul-ao-306",
       "fach": "ao",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 40,
+        "views": 52,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 45,
+        "navigation_tap_exit": 6,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 32,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-25T19:44:14.749Z",
+      "insightsAlterStunden": 1.5
     }
   ],
   "fachZaehler": {

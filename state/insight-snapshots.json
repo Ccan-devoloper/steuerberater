@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-25T18:44:25.334Z",
+  "stand": "2026-10-25T19:44:23.032Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -44952,6 +44952,18 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-25T19:44:20.473Z",
+          "alterStunden": 12.2,
+          "reach": 79,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 3
         }
       ]
     },
@@ -45120,6 +45132,23 @@
           "navigation_tap_forward": 8,
           "navigation_tap_back": 1,
           "navigation_swipe_forward": 2
+        },
+        {
+          "stand": "2026-10-25T19:44:14.749Z",
+          "alterStunden": 6.1,
+          "reach": 64,
+          "views": 78,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 66,
+          "navigation_swipe_forward": 7,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 48,
+          "navigation_tap_exit": 7
         }
       ]
     },
@@ -45148,6 +45177,90 @@
           "navigation_tap_forward": 32,
           "navigation_tap_exit": 7,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18217445134315316": {
+      "art": "story",
+      "datum": "2026-10-25",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T18:00:23.801Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T19:44:14.749Z",
+          "alterStunden": 1.7,
+          "reach": 42,
+          "views": 56,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 53,
+          "navigation_tap_forward": 41,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 3,
+          "navigation_swipe_forward": 6
+        }
+      ]
+    },
+    "17919242343530131": {
+      "art": "story",
+      "datum": "2026-10-25",
+      "titel": null,
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T18:12:03.200Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T19:44:14.749Z",
+          "alterStunden": 1.5,
+          "reach": 40,
+          "views": 52,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 45,
+          "navigation_tap_exit": 6,
+          "navigation_tap_back": 5,
+          "navigation_tap_forward": 32,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "17953408146279316": {
+      "art": "beitrag",
+      "datum": "2026-10-25",
+      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+      "format": "reel",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T18:00:11.300Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T19:44:20.473Z",
+          "alterStunden": 1.7,
+          "reach": 150,
+          "saved": 1,
+          "shares": 2,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 6,
+          "views": 186,
+          "ig_reels_avg_watch_time": 7785,
+          "ig_reels_video_view_total_time": 1144538,
+          "reels_skip_rate": 64.7
         }
       ]
     }
@@ -47720,6 +47833,11 @@
     },
     {
       "stand": "2026-10-25T18:44:25.334Z",
+      "follower": 236,
+      "medien": 150
+    },
+    {
+      "stand": "2026-10-25T19:44:23.032Z",
       "follower": 236,
       "medien": 150
     }
