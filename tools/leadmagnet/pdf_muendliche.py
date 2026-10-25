@@ -1,5 +1,5 @@
 """Leadmagnet-PDF: Die 10 größten Fehler in der mündlichen Steuerberaterprüfung.
-Aufruf: python3 tools/leadmagnet/pdf_muendliche.py  ->  public/muendliche/10-fehler-muendliche.pdf"""
+Aufruf: python3 tools/leadmagnet/pdf_muendliche.py  ->  landingpage/10-fehler-muendliche.pdf"""
 import os
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
@@ -7,7 +7,7 @@ from reportlab.lib.colors import HexColor
 from reportlab.lib.utils import ImageReader, simpleSplit
 
 HIER = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HIER, "..", "..", "public", "muendliche")
+OUT = os.path.join(HIER, "..", "..", "landingpage")
 INK, PAPER, LILA, ORANGE, GELB, GRAU = map(HexColor, ["#16161d", "#fffbe6", "#7c5cff", "#ff7a45", "#ffde59", "#5c5c68"])
 W, H = A4
 
