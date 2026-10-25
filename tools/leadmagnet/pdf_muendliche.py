@@ -12,7 +12,7 @@ from reportlab.lib.utils import ImageReader, simpleSplit
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-from inhalt_muendliche import ANZAHL, ABLAUF, GUT_ZU_WISSEN, FEHLER, THEMEN, CHECKLISTE
+from inhalt_muendliche import ANZAHL, ABLAUF, GUT_ZU_WISSEN, FEHLER, THEMEN, CHECKLISTE, SZENEN
 
 HIER = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HIER, "..", "..", "landingpage")
@@ -100,16 +100,7 @@ c.drawString(M, y - 104, "Mündlichen")
 y = absatz("… und wie du sie vermeidest. Ausgewertet aus "
            f"{ANZAHL} echten Protokollen der mündlichen Steuerberaterprüfung.",
            M, y - 140, 330, groesse=13, farbe=GRAU, zeile=19)
-# Kennzahlen als Pillen
-px, py = M, y - 40
-for zahl, txt in ((str(ANZAHL), "Protokolle ausgewertet"), ("2019–2026", "Prüfungsjahre"), ("NRW", "Düsseldorf · Köln · Münster")):
-    w1 = c.stringWidth(zahl, "N-Black", 15); w2 = c.stringWidth(txt, "N-Regular", 9)
-    bw = max(w1, w2) + 30
-    karte(px, py, bw, 50, fill=white, r=14)
-    c.setFont("N-Black", 15); c.setFillColor(LILA); c.drawString(px + 15, py - 22, zahl)
-    c.setFont("N-Regular", 9); c.setFillColor(GRAU); c.drawString(px + 15, py - 38, txt)
-    px += bw + 14
-bild(os.path.join(HIER, "build", "szene.png"), M - 6, 60, w=B + 12)
+bild(os.path.join(HIER, "build", "szene.png"), M - 6, 150, w=B + 12)
 
 # ---------------------------------------------------------------- 2 Ablauf
 neue_seite()
@@ -135,65 +126,71 @@ for t in GUT_ZU_WISSEN:
     c.setFillColor(LILA); c.circle(M + 24, yy + 3.5, 3, fill=1, stroke=0)
     yy = absatz(t, M + 34, yy, B - 54, groesse=10, farbe=INK) - 6
 
-# ---------------------------------------------------------------- 3-7 Fehler
-TG, ZG = 11.5, 11.5          # Textgröße, Zitatgröße
-
-
-def fehler_karte(n, f, y, zeichnen=True):
-    """Zeichnet die Karte ab Oberkante y und gibt ihre Höhe zurück (zeichnen=False: nur messen)."""
-    innen = B - 40
-    titel = simpleSplit(f["titel"], "N-Black", 18, B - 92)
-    cur = y - 36 - (len(titel) - 1) * 21 - 20            # unter Häufigkeitszeile
-    t_y = cur - 10
-    cur = t_y - hoehe(f["text"], innen, groesse=TG) + 6
-    zitat = "„" + f["zitat"] + "“"
-    z_top = cur - 16
-    zh = hoehe(zitat, innen - 56, "N-Bold", ZG) + 40
-    cur = z_top - zh - 10
-    b_top = cur
-    bh = hoehe(f["besser"], innen - 28, groesse=TG) + 38
-    cur = b_top - bh - 16
-    h = y - cur
-    if not zeichnen:
-        return h
-    karte(M, y, B, h)
-    c.setFillColor(ORANGE); c.setStrokeColor(INK); c.setLineWidth(2)
-    c.circle(M + 36, y - 36, 19, fill=1, stroke=1)
-    c.setFillColor(white); c.setFont("N-Black", 17); c.drawCentredString(M + 36, y - 42, str(n))
-    c.setFillColor(INK); c.setFont("N-Black", 18)
-    for k, z in enumerate(titel):
-        c.drawString(M + 68, y - 34 - k * 21, z)
-    c.setFont("N-Bold", 9.5); c.setFillColor(LILA)
-    c.drawString(M + 68, y - 34 - (len(titel) - 1) * 21 - 15, f["haeufigkeit"].upper())
-    absatz(f["text"], M + 20, t_y - 12, innen, groesse=TG)
-    # Zitat
-    c.setFillColor(PAPER); c.setStrokeColor(INK); c.setLineWidth(1.5)
-    c.roundRect(M + 20, z_top - zh, innen, zh, 10, fill=1, stroke=1)
-    c.setFont("N-Black", 38); c.setFillColor(ORANGE); c.drawString(M + 28, z_top - zh / 2 - 2, "„")
-    absatz(zitat, M + 56, z_top - 24, innen - 56, "N-Bold", ZG, INK)
-    c.setFont("N-Regular", 8.5); c.setFillColor(GRAU)
-    c.drawRightString(M + 10 + innen, z_top - zh + 8, "Protokoll " + f["quelle"])
-    # Besser
-    c.setFillColor(HELLGRUEN); c.roundRect(M + 20, b_top - bh, innen, bh, 10, fill=1, stroke=0)
-    c.setFont("N-Black", 9.5); c.setFillColor(HexColor("#0e8a55"))
-    c.drawString(M + 34, b_top - 18, "SO MACHST DU ES BESSER")
-    absatz(f["besser"], M + 34, b_top - 34, innen - 28, groesse=TG, farbe=INK)
-    return h
-
-
+# ---------------------------------------------------------------- Fehler: je eine Seite
 FIGUREN = ["f1", "f2", "f3", "f4", "f5"]
-for paar in range(0, len(FEHLER), 2):
+ROT_TEXT, GRUEN_TEXT = HexColor("#c4302b"), HexColor("#0e8a55")
+TS, ZS = 12, 18          # Textgröße, Zeilenabstand
+
+
+def zeile_mit_marke(marke, farbe, text, y, font="N-Regular"):
+    c.setFillColor(farbe); c.roundRect(M + 20, y - 14, 58, 19, 9.5, fill=1, stroke=0)
+    c.setFillColor(white); c.setFont("N-Black", 8.5); c.drawCentredString(M + 49, y - 8, marke)
+    return absatz(text, M + 90, y - 2, B - 112, font, TS, INK, ZS)
+
+
+for n, (f, sz) in enumerate(zip(FEHLER, SZENEN), start=1):
     neue_seite()
-    y = H - 74
-    if paar == 0:
-        y = ueberschrift("Die 10 Fehler", H - 100, "Aus den Protokollen") - 16
-    for n, f in enumerate(FEHLER[paar:paar + 2], start=paar + 1):
-        y -= fehler_karte(n, f, y) + 22
-    frei = y - 40
-    if frei > 90:
-        fig = os.path.join(HIER, "build", FIGUREN[paar // 2] + ".png")
-        hh = min(frei, 230)
-        bild(fig, W - M - 140 if paar // 2 % 2 == 0 else M + 10, 40, h=hh)
+    c.setFillColor(ORANGE); c.setStrokeColor(INK); c.setLineWidth(2.5)
+    c.circle(M + 28, H - 108, 28, fill=1, stroke=1)
+    c.setFillColor(white); c.setFont("N-Black", 26); c.drawCentredString(M + 28, H - 117, str(n))
+    c.setFont("Hand", 19); c.setFillColor(ORANGE); c.drawString(M + 70, H - 94, f"Fehler {n} von 10")
+    c.setFont("N-Black", 23); c.setFillColor(INK)
+    titel = simpleSplit(f["titel"], "N-Black", 23, B - 74)
+    for k, z in enumerate(titel):
+        c.drawString(M + 70, H - 122 - k * 27, z)
+    y = H - 122 - (len(titel) - 1) * 27 - 38
+    y = absatz(f["text"], M, y, B, groesse=TS, farbe=GRAU, zeile=ZS) - 14
+
+    # So kann es klingen: Prüferfrage, schwache und starke Antwort
+    hf = hoehe(sz["frage"], B - 112, "N-Bold", TS, ZS)
+    hs = hoehe(sz["schwach"], B - 112, groesse=TS, zeile=ZS)
+    ht = hoehe(sz["stark"], B - 112, groesse=TS, zeile=ZS)
+    kh = 40 + hf + 12 + hs + 12 + ht + 14
+    karte(M, y, B, kh)
+    c.setFont("N-Black", 9); c.setFillColor(LILA); c.drawString(M + 20, y - 22, "SO KANN ES IN DER PRÜFUNG KLINGEN")
+    yy = zeile_mit_marke("PRÜFER", LILA, sz["frage"], y - 42, "N-Bold") - 12
+    yy = zeile_mit_marke("SCHWACH", ROT_TEXT, sz["schwach"], yy) - 12
+    zeile_mit_marke("STARK", GRUEN_TEXT, sz["stark"], yy)
+    y -= kh + 20
+
+    # Zitat aus einem Protokoll
+    zitat = "„" + f["zitat"] + "“"
+    zh = hoehe(zitat, B - 80, "N-Bold", 13, 19) + 44
+    c.setFillColor(PAPER); c.setStrokeColor(INK); c.setLineWidth(1.5)
+    c.roundRect(M, y - zh, B, zh, 12, fill=1, stroke=1)
+    c.setFont("N-Black", 44); c.setFillColor(ORANGE); c.drawString(M + 14, y - zh / 2 - 10, "„")
+    c.setFont("N-Bold", 8.5); c.setFillColor(GRAU); c.drawString(M + 56, y - 18, "AUS EINEM PRÜFUNGSPROTOKOLL")
+    absatz(zitat, M + 56, y - 36, B - 80, "N-Bold", 13, INK, 19)
+    y -= zh + 16
+
+    # So machst du es besser
+    bh = hoehe(f["besser"], B - 48, groesse=TS, zeile=ZS) + 46
+    c.setFillColor(HELLGRUEN); c.setStrokeColor(GRUEN_TEXT); c.setLineWidth(1.5)
+    c.roundRect(M, y - bh, B, bh, 12, fill=1, stroke=1)
+    c.setFont("N-Black", 9); c.setFillColor(GRUEN_TEXT); c.drawString(M + 24, y - 20, "SO MACHST DU ES BESSER")
+    absatz(f["besser"], M + 24, y - 38, B - 48, groesse=TS, farbe=INK, zeile=ZS)
+    y -= bh + 16
+
+    # Merke
+    figbreite = 120
+    mh = hoehe(sz["merke"], B - 70 - figbreite, "Hand", 21, 24) + 22
+    c.setFillColor(GELB); c.setStrokeColor(INK); c.setLineWidth(2)
+    c.roundRect(M, y - mh, B - figbreite - 20, mh, 12, fill=1, stroke=1)
+    absatz(sz["merke"], M + 22, y - 26, B - 70 - figbreite, "Hand", 21, INK, 24)
+    fig = os.path.join(HIER, "build", FIGUREN[(n - 1) % len(FIGUREN)] + ".png")
+    fh = min(y - 50, 260)
+    if fh > 90:
+        bild(fig, W - M - figbreite + 10, 44, h=fh)
 
 # ---------------------------------------------------------------- Themen + Checkliste
 neue_seite()

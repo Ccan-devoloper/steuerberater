@@ -25,8 +25,8 @@ def stuhl(cx, oben):
     d.rounded_rectangle((cx - w // 2 + 22 * K, oben + 22 * K, cx + w // 2 - 22 * K, oben + h), 14 * K, fill=STUHL)
 
 
-def person(cx, unten, koerper, kopf, gesicht, farben, brille=None, bart=None, hoehe=430):
-    f = figur("body/" + koerper, kopf, gesicht, bart=bart, brille=brille, farben=farben, hoehe=hoehe * K)
+def person(cx, unten, koerper, kopf, gesicht, farben, brille=None, bart=None, hoehe=430, spiegeln=False):
+    f = figur("body/" + koerper, kopf, gesicht, bart=bart, brille=brille, farben=farben, hoehe=hoehe * K, spiegeln=spiegeln)
     img.alpha_composite(f, (cx - f.width // 2, unten - f.height))
 
 
@@ -63,16 +63,35 @@ rechts = [(1960, "Button Shirt 2", "Bangs", "Smile", {"Top": "#2e7d74"}, None),
 for cx, *_ in rechts:
     stuhl(cx * K, 500 * K)
 for cx, koerper, kopf, gesicht, farben, brille in rechts:
-    person(cx * K, 780 * K, koerper, kopf, gesicht, farben, brille)
+    person(cx * K, 780 * K, koerper, kopf, gesicht, farben, brille, spiegeln=True)   # Blick zum Ausschuss
 pult(1740 * K, 2640 * K, 610 * K, 660 * K, boden)
-# Requisiten
-d.rounded_rectangle((1010 * K, 540 * K, 1066 * K, 616 * K), 6 * K, fill=(255, 255, 255, 255), outline=INK, width=5 * K)
-for i in range(3):
-    d.line((1022 * K, (560 + i * 16) * K, 1054 * K, (560 + i * 16) * K), fill=INK, width=5 * K)
-bx, by = 1800 * K, 618 * K       # aufgeschlagenes Buch auf dem rechten Pult
-d.polygon([(bx, by), (bx + 50 * K, by - 8 * K), (bx + 100 * K, by), (bx + 100 * K, by - 46 * K), (bx + 50 * K, by - 54 * K), (bx, by - 46 * K)],
-          fill=(255, 255, 255, 255), outline=INK, width=5 * K)
-d.line((bx + 50 * K, by - 54 * K, bx + 50 * K, by - 8 * K), fill=INK, width=4 * K)
+# Gesetzestexte: rote Beck-Bände, aufrecht auf der schrägen Platte (Maßstab: Band ca. 19 x 12 x 5 cm)
+ROT, ROT_DUNKEL, PAPIER = (196, 30, 36, 255), (140, 18, 24, 255), (246, 240, 226, 255)
+
+
+def gesetz(x, y, winkel, titel="Steuergesetze", breite=124, dicke=36, tiefe=22):
+    """Liegender Band, Rücken zum Betrachter, Oberseite in leichter Draufsicht; (x, y) = unten links."""
+    b, dk, t = breite * K, dicke * K, tiefe * K
+    lage = Image.new("RGBA", (b + 24 * K, dk + t + 24 * K), (0, 0, 0, 0))
+    g = ImageDraw.Draw(lage)
+    o = 10 * K
+    g.polygon([(o, o + t), (o + 10 * K, o), (o + b + 10 * K, o), (o + b, o + t)], fill=ROT_DUNKEL, outline=INK, width=4 * K)
+    g.rounded_rectangle((o, o + t, o + b, o + t + dk), 5 * K, fill=ROT, outline=INK, width=4 * K)
+    g.rectangle((o + 14 * K, o + t + 6 * K, o + b - 14 * K, o + t + dk - 6 * K), fill=PAPIER)
+    g.text((o + b / 2, o + t + dk / 2), titel, font=ImageFont.truetype(os.path.join(HIER, "fonts", "Nunito-Black.ttf"), 11 * K), fill=INK, anchor="mm")
+    lage = lage.rotate(winkel, resample=Image.BICUBIC, expand=True)
+    img.alpha_composite(lage, (int(x), int(y - lage.height + 8 * K)))
+    return dk + 2 * K
+
+
+neigung_l, neigung_r = 2.1, -3.2      # Grad: linke Platte steigt nach rechts an, rechte fällt
+for x, y in ((560, 650), (1000, 634)):                    # Ausschuss: je ein Stapel zwischen den Prüfern
+    h = gesetz(x * K, y * K, neigung_l, "Steuergesetze")
+    gesetz((x + 4) * K, y * K - h, neigung_l, "Steuerrichtlinien")
+for x, y in ((1770, 622), (2190, 645)):                   # Prüflinge: Gesetze vor sich
+    h = gesetz(x * K, y * K, neigung_r, "Steuergesetze")
+    gesetz((x - 3) * K, y * K - h, neigung_r, "Steuerrichtlinien")
+
 # Namensschilder
 pille(330 * K, 840 * K, "Prüfer")
 pille(790 * K, 820 * K, "Prüfer", "lila")
