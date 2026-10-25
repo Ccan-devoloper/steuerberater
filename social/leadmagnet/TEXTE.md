@@ -103,3 +103,18 @@ Zugelassen bis 4,5, bestanden erst bei 4,15. Rechne mal nach. 😬 Gratis-PDF mi
 | 8 | Karussell 4 – 3 Sätze |
 | 9 | Karussell 2 – Fehler Nr. 1 |
 Für Anzeigen am besten Reel 1 und Reel 3 (stärkster Hook) sowie das Feed-Motiv aus 05-anzeigen.
+
+## NEU: Beiträge im Kanal-Layout (social/leadmagnet/kanal) – diese posten
+Gerendert mit dem Kanal-Renderer (`social/op`), Inhalt in `tools/leadmagnet/op/spec.py`, Aufruf
+`CHROMIUM_PATH=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome python3 tools/leadmagnet/op/rendern.py`.
+Bildunterschriften stehen je Beitrag im Feld `caption` in spec.py.
+| Tag | Beitrag | Ordner |
+|---|---|---|
+| 1 | Reel: Was dir keiner sagt – nur Formsache? | kanal/r1 |
+| 2 | Karussell: Die 10 Fehler der Mündlichen | kanal/k1 |
+| 3 | Reel: Mit 4,5 zur Mündlichen? | kanal/r3 |
+| 4 | Karussell: Die Mündliche – kein Selbstläufer | kanal/k2 |
+| 5 | Reel: Fehler Nr. 1 der Mündlichen | kanal/r2 |
+| 6 | Karussell: Würdest du hier bestehen? | kanal/k3 |
+| 8 | Karussell: 3 Sätze, die du nie sagen solltest | kanal/k4 |
+Die älteren Entwürfe (01–07) bleiben als Alternative liegen.
