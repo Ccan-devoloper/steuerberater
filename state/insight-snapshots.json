@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-25T11:44:45.932Z",
+  "stand": "2026-10-25T12:30:26.357Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -44235,6 +44235,23 @@
           "navigation_tap_exit": 15,
           "navigation_tap_forward": 70,
           "navigation_swipe_forward": 11
+        },
+        {
+          "stand": "2026-10-25T12:30:23.449Z",
+          "alterStunden": 21.4,
+          "reach": 93,
+          "views": 121,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 110,
+          "navigation_tap_back": 11,
+          "navigation_tap_exit": 15,
+          "navigation_tap_forward": 72,
+          "navigation_swipe_forward": 12
         }
       ]
     },
@@ -44598,6 +44615,47 @@
           "total_interactions": 1,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-25T12:30:26.357Z",
+          "alterStunden": 5,
+          "reach": 61,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
+    },
+    "18091344377235719": {
+      "art": "story",
+      "datum": "2026-10-25",
+      "titel": null,
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T11:14:03.554Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T12:30:23.449Z",
+          "alterStunden": 1.3,
+          "reach": 29,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 17,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 1
         }
       ]
     }
