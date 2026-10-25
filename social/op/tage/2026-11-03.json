@@ -977,6 +977,189 @@
     "§§ 169 bis 171 AO",
     "§ 177 AO"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r7",
+   "themaTitel": "Randgebiete vernachlässigen",
+   "figuren": {
+    "H": {
+     "name": "Paul",
+     "kopf": "Medium 1",
+     "haut": "#E8B48F",
+     "haar": "#6B3E26",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 2"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "Welche EU-Organe",
+     "kennst du?"
+    ],
+    "icons": [
+     [
+      "tabler:building-bank",
+      "GELB",
+      "Randgebiet"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Viele nennen",
+      "wert": "2",
+      "farbe": "ROT",
+      "wort": "zwei"
+     },
+     {
+      "label": "Richtig",
+      "wert": "7",
+      "farbe": "GRUEN",
+      "wort": "sieben"
+     }
+    ],
+    "stempel": {
+     "text": "Randgebiet!",
+     "wort": "Randgebiet"
+    },
+    "pille": "Fehler Nr. 5 von 10",
+    "figur": "H/ruhig",
+    "name": "Paul"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Platz 5",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Randgebiete",
+       "farbe": "ROT",
+       "wort": "Randgebiete",
+       "zs": 110
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Organe",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Europäisches Parlament",
+       "farbe": "WEISS",
+       "wort": "Parlament"
+      },
+      {
+       "typ": "pille",
+       "text": "Europäischer Rat",
+       "farbe": "WEISS",
+       "wort": "Europäischer"
+      },
+      {
+       "typ": "pille",
+       "text": "Rat",
+       "farbe": "WEISS",
+       "wort": "der"
+      },
+      {
+       "typ": "pille",
+       "text": "Kommission",
+       "farbe": "WEISS",
+       "wort": "Kommission"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "… und weiter",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Gerichtshof der EU",
+       "farbe": "WEISS",
+       "wort": "Gerichtshof"
+      },
+      {
+       "typ": "pille",
+       "text": "Europäische Zentralbank",
+       "farbe": "WEISS",
+       "wort": "Zentralbank"
+      },
+      {
+       "typ": "pille",
+       "text": "Rechnungshof",
+       "farbe": "WEISS",
+       "wort": "Rechnungshof"
+      },
+      {
+       "typ": "norm",
+       "text": "Art. 13 Abs. 1 EUV",
+       "wort": "Artikel"
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Welche Organe der EU kennst du? Viele nennen zwei. Richtig sind sieben. Ein typisches Randgebiet."
+    },
+    {
+     "id": "s1",
+     "text": "Randgebiete wie Europarecht sind Platz fünf der häufigsten Fehler."
+    },
+    {
+     "id": "s2",
+     "text": "Parlament, Europäischer Rat, der Rat, Kommission,"
+    },
+    {
+     "id": "s3",
+     "text": "Gerichtshof, Zentralbank und Rechnungshof. Artikel dreizehn des EU-Vertrags."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺\n\nDie Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "Art. 13 Abs. 1 EUV"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r7"
   }
  ],
  "stories": [

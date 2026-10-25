@@ -1009,6 +1009,160 @@
     "§ 50 Abs. 2 S. 1 EStG",
     "Art. 16, 23A, 23B OECD-MA"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r8",
+   "themaTitel": "Nicht zuhören, wenn andere dran sind",
+   "figuren": {
+    "I": {
+     "name": "Nora",
+     "kopf": "Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15B",
+     "oberteil": "#F9D56E"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "„Sehen Sie das",
+     "genauso?“"
+    ],
+    "icons": [
+     [
+      "tabler:ear",
+      "GELB",
+      "zugehört"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Lösung",
+     "text": "immer mitdenken",
+     "wort": "mitdenken",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "erwischt!",
+     "wort": "erwischt"
+    },
+    "pille": "Fehler Nr. 6 von 10",
+    "figur": "I/eilt",
+    "name": "Nora"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Platz 6",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "ohne Vorwarnung weitergegeben",
+       "farbe": "WEISS",
+       "wort": "Vorwarnung"
+      },
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Nicht zuhören",
+       "farbe": "ROT",
+       "wort": "sechs",
+       "zs": 100
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Frage",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "nach Bestandskraft",
+       "wert": "neue Belege",
+       "farbe": "GELB",
+       "wort": "Belege",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 173 Abs. 1 Nr. 2 AO",
+       "wort": "Paragraf"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Ergänzung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "zugunsten",
+       "wert": "kein grobes Verschulden",
+       "farbe": "GRUEN",
+       "wort": "grobes",
+       "zs": 76
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Sehen Sie das genauso? Wer nicht zugehört hat, ist jetzt erwischt. Also: immer mitdenken."
+    },
+    {
+     "id": "s1",
+     "text": "Fragen werden oft ohne Vorwarnung weitergegeben. Platz sechs der häufigsten Fehler."
+    },
+    {
+     "id": "s2",
+     "text": "Beispiel: Nach Bestandskraft tauchen neue Belege auf. Änderung nach Paragraf hundertdreiundsiebzig?"
+    },
+    {
+     "id": "s3",
+     "text": "Stark ergänzt: Zugunsten des Steuerpflichtigen nur ohne grobes Verschulden."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂\n\n„Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 173 Abs. 1 Nr. 2 AO"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r8"
   }
  ],
  "stories": [

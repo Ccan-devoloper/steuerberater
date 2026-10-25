@@ -853,6 +853,162 @@
     "§ 24 Abs. 2 S. 1, 2 UmwStG",
     "§ 24 Abs. 3 S. 1 UmwStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r12",
+   "themaTitel": "Den Kurzvortrag verschenken",
+   "figuren": {
+    "M": {
+     "name": "Hanna",
+     "kopf": "Twists",
+     "haut": "#8D5524",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "Drei Themen,",
+     "eine halbe Stunde."
+    ],
+    "icons": [
+     [
+      "tabler:presentation",
+      "GELB",
+      "Zeitdruck"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Themen",
+      "wert": "3",
+      "farbe": "GELB",
+      "wort": "Drei"
+     },
+     {
+      "label": "Vorbereitung",
+      "wert": "30 Min.",
+      "farbe": "WEISS",
+      "wort": "halbe"
+     }
+    ],
+    "stempel": {
+     "text": "Zeitdruck!",
+     "wort": "Zeitdruck"
+    },
+    "pille": "Fehler Nr. 10 von 10",
+    "figur": "M/erklaert",
+    "name": "Hanna"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Regel",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "3 Themen",
+       "wert": "30 Min. vorher",
+       "farbe": "GELB",
+       "wort": "bekommst",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 26 Abs. 6 DVStB",
+       "wort": "Prüfungsbeginn"
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Wahl",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Themenwahl",
+       "wert": "hinterher bereut",
+       "farbe": "ROT",
+       "wort": "Themenwahl",
+       "zs": 90
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Platz 10",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Vortrag verschenken",
+       "farbe": "ROT",
+       "wort": "zehn",
+       "zs": 90
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Drei Themen, eine halbe Stunde Vorbereitung. Der Kurzvortrag ist purer Zeitdruck."
+    },
+    {
+     "id": "s1",
+     "text": "Die drei Themen bekommst du eine halbe Stunde vor Prüfungsbeginn."
+    },
+    {
+     "id": "s2",
+     "text": "Und viele bereuen hinterher ihre Themenwahl."
+    },
+    {
+     "id": "s3",
+     "text": "Den Vortrag verschenken ist Platz zehn der häufigsten Fehler."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤\n\nDrei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Viele bereuen hinterher ihre Themenwahl – welches Thema du nehmen solltest und wie du es vorträgst, steht im PDF.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 26 Abs. 6 DVStB"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r12"
   }
  ],
  "stories": [

@@ -1045,6 +1045,156 @@
    "quellen": [
     "§ 8b Abs. 1 S. 1, Abs. 2, Abs. 4 S. 1, 6, 7, Abs. 5 S. 1 KStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r9",
+   "themaTitel": "Schweigen oder „keine Ahnung“ sagen",
+   "figuren": {
+    "J": {
+     "name": "Yusuf",
+     "kopf": "Short 5",
+     "haut": "#B07552",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F",
+     "bart": "Goatee 1"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "„Keine",
+     "Ahnung.“"
+    ],
+    "icons": [
+     [
+      "tabler:message-off",
+      "GELB",
+      "nie"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "nie sagen!",
+     "wort": "nie"
+    },
+    "pille": "Fehler Nr. 7 von 10",
+    "figur": "J/sorge",
+    "name": "Yusuf"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Platz 7",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Schweigen",
+       "farbe": "ROT",
+       "wort": "Schweigen",
+       "zs": 110
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Grundtatbestand",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Haftungsbescheid",
+       "wert": "Verwaltungsakt",
+       "farbe": "GELB",
+       "wort": "Verwaltungsakt",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 191 Abs. 1 AO",
+       "wort": "Haftungsbescheid"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Also",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Einspruch",
+       "wert": "1 Monat",
+       "farbe": "GRUEN",
+       "wort": "Einspruch",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 355 Abs. 1 AO",
+       "wort": "Paragraf"
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Keine Ahnung. Diesen Satz solltest du in der Mündlichen nie sagen."
+    },
+    {
+     "id": "s1",
+     "text": "Schweigen und Aufgeben ist Platz sieben der häufigsten Fehler."
+    },
+    {
+     "id": "s2",
+     "text": "Fang beim Grundtatbestand an. Ein Haftungsbescheid ist ein Verwaltungsakt."
+    },
+    {
+     "id": "s3",
+     "text": "Also Einspruch, innerhalb eines Monats. Paragraf dreihundertfünfundfünfzig."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊\n\nBesser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 191 Abs. 1 AO",
+    "§ 347 AO",
+    "§ 355 Abs. 1 AO"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r9"
   }
  ],
  "stories": [

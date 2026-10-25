@@ -758,6 +758,166 @@
     "§ 8 Abs. 3 S. 3 KStG",
     "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r5",
+   "themaTitel": "Aktuelles nicht auf dem Schirm",
+   "figuren": {
+    "F": {
+     "name": "Ben",
+     "kopf": "Short 1",
+     "haut": "#F0C8A8",
+     "haar": "#8B5A2B",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 3"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "„Was ist neu?“",
+     "Und du schweigst?"
+    ],
+    "icons": [
+     [
+      "tabler:news",
+      "GELB",
+      "Klassiker"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Gefragt",
+      "wert": "Neuerungen",
+      "farbe": "GELB",
+      "wort": "neu"
+     },
+     {
+      "label": "Fehler",
+      "wert": "Platz 3",
+      "farbe": "ROT",
+      "wort": "Platz"
+     }
+    ],
+    "stempel": {
+     "text": "Klassiker!",
+     "wort": "Klassiker"
+    },
+    "pille": "Fehler Nr. 3 von 10",
+    "figur": "F/sorge",
+    "name": "Ben"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Der Einstieg",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Jeder nennt eine Neuerung",
+       "farbe": "WEISS",
+       "wort": "Neuerung"
+      }
+     ],
+     "icon": [
+      "tabler:news",
+      "GELB",
+      "Prüfer"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Zum Beispiel",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "seit 2025",
+       "wert": "E-Rechnung empfangen",
+       "farbe": "GELB",
+       "wort": "empfangen",
+       "zs": 80
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Ausstellen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Übergang",
+       "wert": "bis Ende 2026 / 2027",
+       "farbe": "WEISS",
+       "wort": "Übergangsfristen",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 27 Abs. 38 UStG",
+       "wort": "Ausstellen"
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler."
+    },
+    {
+     "id": "s1",
+     "text": "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung."
+    },
+    {
+     "id": "s2",
+     "text": "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können."
+    },
+    {
+     "id": "s3",
+     "text": "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 27 Abs. 38 UStG"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r5"
   }
  ],
  "stories": [

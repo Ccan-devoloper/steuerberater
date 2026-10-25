@@ -874,6 +874,169 @@
     "§ 32d Abs. 1 EStG",
     "§ 17 Abs. 1 S. 1 EStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r11",
+   "themaTitel": "Eine schlechte Runde mitnehmen",
+   "figuren": {
+    "L": {
+     "name": "Emre",
+     "kopf": "Flat Top",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "Runde verhauen.",
+     "Alles vorbei?"
+    ],
+    "icons": [
+     [
+      "tabler:mood-sad",
+      "GELB",
+      "verhauen"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Gefühl",
+      "wert": "verloren",
+      "farbe": "ROT",
+      "wort": "verhauen"
+     },
+     {
+      "label": "Tatsache",
+      "wert": "neue Chance",
+      "farbe": "GRUEN",
+      "wort": "vorbei"
+     }
+    ],
+    "stempel": {
+     "text": "nein!",
+     "wort": "Nein"
+    },
+    "pille": "Fehler Nr. 9 von 10",
+    "figur": "L/sorge",
+    "name": "Emre"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Gesondert bewertet",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "gesondert bewertet",
+       "wert": "Vortrag + 6 Runden",
+       "farbe": "GELB",
+       "wort": "gesondert",
+       "zs": 90
+      },
+      {
+       "typ": "norm",
+       "text": "§ 27 Abs. 1 DVStB",
+       "wort": "bewertet"
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Am Ende",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "zählt",
+       "wert": "der Durchschnitt",
+       "farbe": "WEISS",
+       "wort": "Durchschnitt",
+       "zs": 100
+      },
+      {
+       "typ": "pille",
+       "text": "neue Runde, neue Chance",
+       "farbe": "WEISS",
+       "wort": "Chance"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Platz 9",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Runde mitnehmen",
+       "farbe": "ROT",
+       "wort": "neun",
+       "zs": 100
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Eine Runde verhauen. Ist jetzt alles vorbei? Nein."
+    },
+    {
+     "id": "s1",
+     "text": "Der Vortrag und jede Runde werden gesondert bewertet."
+    },
+    {
+     "id": "s2",
+     "text": "Am Ende zählt der Durchschnitt. Jede neue Runde ist eine neue Chance."
+    },
+    {
+     "id": "s3",
+     "text": "Eine schlechte Runde mitnehmen ist Platz neun der häufigsten Fehler."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨\n\nVortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 27 Abs. 1 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r11"
   }
  ],
  "stories": [

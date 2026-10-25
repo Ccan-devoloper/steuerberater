@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Die 10 größten Fehler in der Mündlichen · Examenscampus</title>
+<meta name="description" content="Gratis-PDF: Die 10 größten Fehler in der mündlichen Steuerberaterprüfung – und wie du sie vermeidest.">
+<meta property="og:title" content="Die 10 größten Fehler in der Mündlichen">
+<meta property="og:description" content="Gratis-PDF für alle, die bald in die mündliche Steuerberaterprüfung gehen.">
+<link rel="preload" href="fonts/nunito-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/nunito-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/caveat.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  /*
+   * Brevo-Anbindung: In Brevo unter „Kontakte → Formulare“ ein Anmeldeformular mit Double-Opt-in
+   * anlegen (Liste „Mündliche – Leadmagnet“), dann unter „Teilen → HTML-Code“ die action-URL
+   * des <form> kopieren und unten bei BREVO_FORM_URL eintragen.
+   */
+  /* Schriften selbst gehostet und vorgeladen: verhindert, dass der Inhalt beim Nachladen springt */
+  @font-face{font-family:Nunito;font-weight:400 799;font-display:block;src:url(fonts/nunito-700.woff2) format("woff2")}
+  @font-face{font-family:Nunito;font-weight:800 1000;font-display:block;src:url(fonts/nunito-900.woff2) format("woff2")}
+  @font-face{font-family:Caveat;font-display:block;src:url(fonts/caveat.woff2) format("woff2")}
+  :root{--ink:#16161d;--paper:#fffbe6;--lila:#7c5cff;--orange:#ff7a45;--gruen:#23d98b;--gelb:#ffde59;--grau:#5c5c68}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font:600 18px/1.5 Nunito,system-ui,sans-serif}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+  header{padding:18px 0;font-weight:900;letter-spacing:.02em}
+  header span{color:var(--lila)}
+  .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:center;padding-top:24px;padding-bottom:48px}
+  h1{font-size:clamp(34px,6vw,58px);line-height:1.05;font-weight:900;margin:0 0 16px}
+  .mark{background:linear-gradient(transparent 55%,var(--gelb) 55%)}
+  .hand{font-family:Caveat,cursive;color:var(--orange);font-size:30px;transform:rotate(-2deg);display:inline-block}
+  .vorteile{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:8px;font-size:18px}
+  .vorteile li{position:relative;padding-left:40px}
+  .vorteile li::before{content:"";position:absolute;left:0;top:2px;width:24px;height:24px;border:2.5px solid var(--ink);border-radius:50% 45% 52% 48%;background:var(--gelb)}
+  .vorteile li::after{content:"";position:absolute;left:8px;top:6px;width:7px;height:12px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(40deg)}
+  .lead{font-size:20px;color:var(--grau);margin:0 0 24px}
+  .karte{background:#fff;border:3px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);padding:22px}
+  form{display:flex;flex-direction:column;gap:12px}
+  input[type=email],input[type=text]{font:inherit;padding:14px 16px;border:3px solid var(--ink);border-radius:12px;width:100%}
+  input:focus{outline:none;border-color:var(--lila)}
+  button{font:900 20px Nunito,sans-serif;padding:16px;border:3px solid var(--ink);border-radius:12px;background:var(--lila);color:#fff;cursor:pointer;box-shadow:4px 4px 0 var(--ink);transition:transform .1s}
+  button:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--ink)}
+  .klein{font-size:13px;color:var(--grau);line-height:1.4}
+  .klein a{color:inherit}
+  label.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.4}
+  label.check input{margin-top:3px;width:18px;height:18px;flex:none}
+  .figur{width:100%;max-width:300px;justify-self:center}
+  .figur img{width:100%;height:auto;display:block}
+  section{padding:40px 0}
+  h2{font-size:clamp(26px,4vw,38px);font-weight:900;margin:0 0 20px}
+  .liste{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;padding:0;list-style:none;margin:0}
+  .liste li{background:#fff;border:3px solid var(--ink);border-radius:16px;padding:16px 18px}
+  .liste b{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--orange);color:#fff;border:2px solid var(--ink);margin-bottom:8px}
+  .duo{display:grid;grid-template-columns:200px 1fr;gap:28px;align-items:center}
+  .duo img{width:100%;height:auto}
+  .cta{text-align:center;padding:56px 0 72px}
+  .cta .karte{max-width:520px;margin:0 auto;text-align:left}
+  footer{padding:20px 0;font-size:14px;color:var(--grau)}
+  footer a{color:inherit;margin-right:16px}
+  .szene{display:none;margin:0 0 14px}
+  .szene img{display:block;width:100%;height:auto}
+  .ok{display:none;text-align:center}
+  .ok.zeigen{display:block}
+  @media (max-width:760px){
+    .hero{grid-template-columns:1fr}
+    .figur{display:none}
+    .szene{display:block}
+    header{padding:12px 0 6px}
+    .hero{padding-top:4px;gap:0}
+    h1{font-size:30px;margin-bottom:12px}
+    .hand{font-size:24px}
+    .vorteile{font-size:15px;gap:6px;margin-bottom:16px}
+    .vorteile li{padding-left:34px}
+    .vorteile li::before{width:20px;height:20px}
+    .vorteile li::after{left:7px;top:5px;width:6px;height:10px}
+    .karte{padding:16px}
+    form{gap:10px}
+    input[type=email],input[type=text]{padding:12px 14px}
+    .duo{grid-template-columns:1fr}
+    .duo img{max-width:160px;justify-self:center}
+  }
+</style>
+</head>
+<body>
+<header class="wrap">examens<span>campus</span></header>
+
+<main>
+  <div class="wrap hero">
+    <div>
+      <div class="szene"><img src="szene-seite.png" alt="Prüfungsausschuss und Prüflinge in der mündlichen Steuerberaterprüfung" width="1040" height="284"></div>
+      <span class="hand">Für alle vor der Mündlichen</span>
+      <h1>Bestehe die <span class="mark">mündliche StB-Prüfung</span> mit System</h1>
+      <ul class="vorteile">
+        <li><b>Sofort:</b> PDF „Die 10 größten Fehler in der Mündlichen“ – ausgewertet aus über 400 echten Prüfungsprotokollen</li>
+        <li><b>Danach:</b> Kurzvortrag-Themen, Prüferfragen &amp; Checklisten per Mail</li>
+        <li>Kostenlos, jederzeit abbestellbar</li>
+      </ul>
+      <div class="karte" id="anmelden">
+        <form class="lead-form" method="POST" target="_self">
+          <input type="text" name="FIRSTNAME" placeholder="Vorname (optional)" autocomplete="given-name">
+          <input type="email" name="EMAIL" placeholder="Deine E-Mail-Adresse" required autocomplete="email">
+          <input type="text" name="email_address_check" value="" style="display:none" tabindex="-1" aria-hidden="true">
+          <input type="hidden" name="locale" value="de">
+          <button type="submit">Kostenlos anmelden</button>
+          <p class="klein" style="margin:0;text-align:center;color:#9a9aa3;font-size:12px">Mit der Anmeldung erhältst du Tipps und Angebote per Mail</p>
+        </form>
+        <div class="ok"><span class="hand">Geschafft!</span><p>Das PDF ist unterwegs. Schau in dein Postfach (notfalls im Spam-Ordner).</p></div>
+      </div>
+    </div>
+    <div class="figur"><img src="held.webp" alt="" width="410" height="1100"></div>
+  </div>
+</main>
+
+<script>
+  // Aus Brevo: Formular → Teilen → HTML-Code → action-URL des <form>
+  const BREVO_FORM_URL = "https://ca7604c5.sibforms.com/serve/MUIFAJgQnlyZjdxDaDCTWJKcVX-sjGrMRVl5RTWjSp_fuIpXU2j7R5RkPRhjGczAbWIx3_qhx5o1_Cq-uXTjzrAvgwvXsQahn9TyKng9KSzkl8-SHGZ9PH_2kZam-2-OXO6LKlK27FpdmjaRQrOFHjih6WAldbmNqvgTLirRWCgLZINNMLIVYhE_aTqF5RywNPXMezH_8kTjkWr4CQ==";
+
+  document.querySelectorAll(".lead-form").forEach((form) => {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const karte = form.closest(".karte");
+      if (!BREVO_FORM_URL) { alert("Anmeldung ist noch nicht freigeschaltet."); return; }
+      const btn = form.querySelector("button");
+      btn.disabled = true; btn.textContent = "Wird gesendet …";
+      try {
+        await fetch(BREVO_FORM_URL, { method: "POST", mode: "no-cors", body: new FormData(form) });
+        karte.style.minHeight = karte.offsetHeight + "px";   // Höhe halten, damit nichts nach oben rutscht
+        form.style.display = "none";
+        karte.querySelector(".ok").classList.add("zeigen");
+      } catch {
+        btn.disabled = false; btn.textContent = "Nochmal versuchen";
+      }
+    });
+  });
+</script>
+</body>
+</html>
