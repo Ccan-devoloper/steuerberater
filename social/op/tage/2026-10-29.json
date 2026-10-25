@@ -861,6 +861,209 @@
     "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
     "BMF vom 13.01.1993"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "rechnung",
+   "themaId": "lead-reel-formsache",
+   "themaTitel": "Mit 4,5 brauchst du eine 3,8",
+   "figuren": {
+    "C": {
+     "name": "Lena",
+     "kopf": "Bun 2",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Zugelassen mit vier Komma fünf und denkst, das reicht? Rechne mal nach."
+    },
+    {
+     "id": "s1",
+     "text": "Bestanden ist nur, wer im Durchschnitt aus schriftlich und mündlich höchstens vier Komma eins fünf erreicht."
+    },
+    {
+     "id": "s2",
+     "text": "Vier Komma fünf plus drei Komma acht, geteilt durch zwei. Macht genau vier Komma eins fünf."
+    },
+    {
+     "id": "s3",
+     "text": "Dazu ein Kurzvortrag und sechs Prüfungsrunden. Und in fast jedem dritten Protokoll fällt mindestens einer durch."
+    },
+    {
+     "id": "cta",
+     "text": "Die zehn häufigsten Fehler gibt es kostenlos zum Download. Link in der Bio."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Mit 4,5",
+     "zur Mündlichen?"
+    ],
+    "pille": "Rechne mal nach",
+    "figur": "C/sorge",
+    "name": "Lena",
+    "icons": [
+     [
+      "tabler:calculator",
+      "GELB",
+      "Rechne"
+     ]
+    ],
+    "stil": "split",
+    "split": [
+     {
+      "label": "Zugelassen",
+      "wert": "4,5",
+      "farbe": "GELB",
+      "wort": "Zugelassen"
+     },
+     {
+      "label": "Bestanden",
+      "wert": "4,15",
+      "farbe": "GRUEN",
+      "wort": "reicht"
+     }
+    ],
+    "stempel": {
+     "text": "knapp!",
+     "wort": "nach"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Grenze",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "4,15",
+       "size": 170,
+       "wort": "höchstens"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 28 Abs. 1 S. 2 DVStB",
+       "wort": "Durchschnitt"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Bestanden"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "schriftlich",
+       "wert": "4,5",
+       "farbe": "WEISS",
+       "wort": "Vier",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "mündlich mindestens",
+       "wert": "3,8",
+       "farbe": "GELB",
+       "wort": "drei",
+       "zs": 110
+      },
+      {
+       "typ": "block",
+       "label": "Durchschnitt",
+       "wert": "4,15",
+       "farbe": "GRUEN",
+       "wort": "Macht",
+       "zs": 110
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "geteilt",
+       0.8
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Kein Selbstläufer",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Kurzvortrag + 6 Runden",
+       "farbe": "WEISS",
+       "wort": "Kurzvortrag"
+      },
+      {
+       "typ": "block",
+       "label": "fast jedes dritte",
+       "wert": "Protokoll",
+       "farbe": "ROT",
+       "wort": "dritten",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 26 Abs. 3 DVStB",
+       "wort": "sechs"
+      }
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "durch",
+       0.7
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Mit 4,5 brauchst du",
+     "mündlich eine 3,8.",
+     "Alle 10 Fehler:",
+     "Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     null,
+     "Fehler",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Zugelassen mit 4,5 und denkst, das reicht? 🧮\n\nBestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB). (4,5 + 3,8) : 2 = 4,15. Dazu Kurzvortrag und sechs Prüfungsabschnitte (§ 26 Abs. 3 DVStB) – und in fast jedem dritten von über 400 Protokollen fiel mindestens einer durch.\n\nDie 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 3 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r3"
   }
  ],
  "stories": [

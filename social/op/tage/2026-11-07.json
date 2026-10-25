@@ -874,6 +874,167 @@
     "§ 32d Abs. 1 EStG",
     "§ 17 Abs. 1 S. 1 EStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r10",
+   "themaTitel": "Keine Rückfragen zum Sachverhalt",
+   "figuren": {
+    "K": {
+     "name": "Clara",
+     "kopf": "Gray Medium",
+     "haut": "#F0C8A8",
+     "haar": "#BFBFBF",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "Familienheim an die",
+     "Tochter: steuerfrei?"
+    ],
+    "icons": [
+     [
+      "tabler:home",
+      "GELB",
+      "schnell"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "erst nachfragen",
+     "wort": "nachfragen",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "zu schnell!",
+     "wort": "schnell"
+    },
+    "pille": "Fehler Nr. 8 von 10",
+    "figur": "K/erklaert",
+    "name": "Clara"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Schenkung",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Schenkung an Kind",
+       "wert": "nicht befreit",
+       "farbe": "ROT",
+       "wort": "Schenkung",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13 Abs. 1 Nr. 4a ErbStG",
+       "wort": "Befreiung"
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Erbfall",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Erbfall",
+       "wert": "befreit",
+       "farbe": "GRUEN",
+       "wort": "Erbfall",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "bis 200 m² Wohnfläche",
+       "farbe": "WEISS",
+       "wort": "zweihundert"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13 Abs. 1 Nr. 4c ErbStG",
+       "wort": "einzieht"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Platz 8",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Keine Rückfragen",
+       "farbe": "ROT",
+       "wort": "Rückfragen",
+       "zs": 100
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Familienheim an die Tochter, steuerfrei? Wer zu schnell antwortet, verliert. Erst nachfragen."
+    },
+    {
+     "id": "s1",
+     "text": "Schenkung zu Lebzeiten an ein Kind: keine Befreiung."
+    },
+    {
+     "id": "s2",
+     "text": "Im Erbfall schon, wenn die Tochter selbst einzieht. Bis zweihundert Quadratmeter."
+    },
+    {
+     "id": "s3",
+     "text": "Keine Rückfragen zum Sachverhalt ist Platz acht der häufigsten Fehler."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 8 der Mündlichen: keine Rückfragen zum Sachverhalt. 🏠\n\nFamilienheim an die Tochter: Zu Lebzeiten keine Befreiung (§ 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner). Im Erbfall Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht – bis 200 m² Wohnfläche.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 13 Abs. 1 Nr. 4a ErbStG",
+    "§ 13 Abs. 1 Nr. 4c ErbStG"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r10"
   }
  ],
  "stories": [

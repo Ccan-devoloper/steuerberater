@@ -869,6 +869,184 @@
     "§ 14 BewG",
     "§ 10 Abs. 5 Nr. 3 ErbStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-fehler-1",
+   "themaTitel": "Fehler Nr. 1 der Mündlichen",
+   "figuren": {
+    "B": {
+     "name": "Tarek",
+     "kopf": "Short 4",
+     "haut": "#B07552",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Dieser Fehler steht in mehr als jedem zweiten Prüfungsprotokoll. Und er kann dich das Examen kosten."
+    },
+    {
+     "id": "s1",
+     "text": "Der Prüfer fragt: Der Mandant hat sein vermietetes Haus nach sieben Jahren verkauft. Was sagen Sie ihm?"
+    },
+    {
+     "id": "s2",
+     "text": "Viele fangen irgendwo an. Privatvermögen, Vermietung, Abschreibung. Und der Prüfer wartet."
+    },
+    {
+     "id": "s3",
+     "text": "Wie die starke Antwort klingt, die den Prüfer sofort überzeugt? Die steht im Leitfaden."
+    },
+    {
+     "id": "cta",
+     "text": "Die anderen neun Fehler gibt es kostenlos zum Download. Link in der Bio."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Fehler Nr. 1",
+     "der Mündlichen"
+    ],
+    "pille": "Über 400 Protokolle",
+    "figur": "B/skeptisch",
+    "name": "Tarek",
+    "icons": [
+     [
+      "tabler:alert-triangle",
+      "GELB",
+      "Examen"
+     ]
+    ],
+    "stil": "knall",
+    "stempel": {
+     "text": "jedes 2. Protokoll",
+     "wort": "zweiten"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Frage",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "vermietetes Haus",
+       "farbe": "WEISS",
+       "wort": "vermietetes"
+      },
+      {
+       "typ": "block",
+       "label": "verkauft nach",
+       "wert": "7 Jahren",
+       "farbe": "GELB",
+       "wort": "sieben",
+       "zs": 120
+      }
+     ],
+     "icon": [
+      "tabler:home",
+      "GELB",
+      "Mandant"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "So geht's schief",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Privatvermögen …",
+       "farbe": "WEISS",
+       "wort": "Privatvermögen"
+      },
+      {
+       "typ": "pille",
+       "text": "Vermietung …",
+       "farbe": "WEISS",
+       "wort": "Vermietung"
+      },
+      {
+       "typ": "pille",
+       "text": "Abschreibung …",
+       "farbe": "WEISS",
+       "wort": "Abschreibung"
+      },
+      {
+       "typ": "block",
+       "label": "Prüfer",
+       "wert": "wartet",
+       "farbe": "ROT",
+       "wort": "wartet",
+       "zs": 110
+      }
+     ],
+     "sfx": [
+      [
+       "riss",
+       "wartet",
+       0.7
+      ]
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Und richtig?",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "die starke Antwort",
+       "wert": "im Gratis-PDF",
+       "farbe": "GRUEN",
+       "wort": "starke",
+       "zs": 100
+      },
+      {
+       "typ": "pille",
+       "text": "mit Prüfungsszene und Merksatz",
+       "farbe": "WEISS",
+       "wort": "Leitfaden"
+      }
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Die starke Antwort",
+     "und alle 10 Fehler:",
+     "Gratis-PDF",
+     "über 400 Protokolle"
+    ],
+    "woerter": [
+     null,
+     "neun",
+     "kostenlos",
+     null
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 1 der Mündlichen – er steht in mehr als jedem zweiten von über 400 Prüfungsprotokollen. 😬\n\nPrüferfrage: Vermietetes Haus nach sieben Jahren verkauft – was sagen Sie dem Mandanten? Viele verlieren sich in Details, und der Prüfer wartet.\n\nWie die starke Antwort klingt – plus alle 10 Fehler mit Prüfungsszenen und Merksätzen – im Gratis-PDF 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r2"
   }
  ],
  "stories": [

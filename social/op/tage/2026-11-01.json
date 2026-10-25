@@ -758,6 +758,163 @@
     "§ 8 Abs. 3 S. 3 KStG",
     "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r4",
+   "themaTitel": "Aus dem Kopf statt aus dem Gesetz",
+   "figuren": {
+    "E": {
+     "name": "Selin",
+     "kopf": "Long",
+     "haut": "#D8A47F",
+     "haar": "#2A1B14",
+     "oberteil": "#9AD48F"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "„Ich glaube,",
+     "vier Jahre.“"
+    ],
+    "icons": [
+     [
+      "tabler:book",
+      "GELB",
+      "Satz"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Folge",
+     "text": "Punkte verschenkt",
+     "wort": "verschenkst",
+     "farbe": "ROT"
+    },
+    "stempel": {
+     "text": "Punktabzug!",
+     "wort": "Punkte"
+    },
+    "pille": "Fehler Nr. 2 von 10",
+    "figur": "E/skeptisch",
+    "name": "Selin"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Die Frage",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "Wie lange änderbar?",
+       "farbe": "WEISS",
+       "wort": "lange"
+      }
+     ],
+     "icon": [
+      "tabler:help",
+      "GELB",
+      "Frage"
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Erst die Norm",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Festsetzungsfrist",
+       "wert": "4 Jahre",
+       "farbe": "GELB",
+       "wort": "Festsetzungsfrist",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+       "wort": "Paragraf"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Dann der Beginn",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Beginn",
+       "wert": "Ende des Abgabejahres",
+       "farbe": "WEISS",
+       "wort": "beginnt",
+       "zs": 80
+      },
+      {
+       "typ": "norm",
+       "text": "§ 170 Abs. 2 S. 1 Nr. 1 AO",
+       "wort": "hundertsiebzig"
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Und merkst es nicht mal."
+    },
+    {
+     "id": "s1",
+     "text": "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?"
+    },
+    {
+     "id": "s2",
+     "text": "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung."
+    },
+    {
+     "id": "s3",
+     "text": "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+    "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r4"
   }
  ],
  "stories": [

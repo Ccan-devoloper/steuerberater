@@ -1055,6 +1055,205 @@
    "quellen": [
     "§ 4 Abs. 4a S. 1–6 EStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-keiner-sagt",
+   "themaTitel": "Was dir keiner über die Mündliche sagt",
+   "figuren": {
+    "A": {
+     "name": "Mara",
+     "kopf": "Medium Straight",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses",
+     "bueste": "Blazer Black Tee"
+    }
+   },
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Was dir keiner sagt: Die Mündliche ist Formsache? Falsch. Sie ist kein Selbstläufer."
+    },
+    {
+     "id": "s1",
+     "text": "Wir haben über vierhundert Prüfungsprotokolle ausgewertet. In fast jedem dritten ist mindestens einer durchgefallen."
+    },
+    {
+     "id": "s2",
+     "text": "Zugelassen wirst du bis vier Komma fünf. Bestanden hast du erst bei vier Komma eins fünf im Durchschnitt."
+    },
+    {
+     "id": "s3",
+     "text": "Mit vier Komma fünf brauchst du in der Mündlichen also im Schnitt eine drei Komma acht."
+    },
+    {
+     "id": "cta",
+     "text": "Die zehn häufigsten Fehler gibt es kostenlos zum Download. Link in der Bio."
+    }
+   ],
+   "hook": {
+    "zeilen": [
+     "Die Mündliche:",
+     "nur Formsache?"
+    ],
+    "pille": "Was dir keiner sagt",
+    "figur": "A/sorge",
+    "name": "Mara",
+    "icons": [
+     [
+      "tabler:alert-triangle",
+      "GELB",
+      "Falsch"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "kein Selbstläufer",
+     "wort": "Selbstläufer",
+     "farbe": "ROT"
+    },
+    "stempel": {
+     "text": "falsch!",
+     "wort": "Falsch"
+    }
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Über 400 Protokolle",
+     "elemente": [
+      {
+       "typ": "zahl",
+       "text": "400+",
+       "size": 150,
+       "wort": "vierhundert"
+      },
+      {
+       "typ": "block",
+       "label": "fast jedes dritte",
+       "wert": "Protokoll",
+       "farbe": "GELB",
+       "wort": "dritten",
+       "zs": 100
+      },
+      {
+       "typ": "pille",
+       "text": "mind. einer durchgefallen",
+       "farbe": "WEISS",
+       "wort": "durchgefallen"
+      }
+     ],
+     "icon": [
+      "tabler:file-text",
+      "GELB",
+      "Prüfungsprotokolle"
+     ],
+     "sfx": [
+      [
+       "stempel",
+       "durchgefallen",
+       0.7
+      ]
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Zwei Grenzen",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Zugelassen bis",
+       "wert": "4,5",
+       "farbe": "WEISS",
+       "wort": "Zugelassen",
+       "zs": 120
+      },
+      {
+       "typ": "block",
+       "label": "Bestanden bis",
+       "wert": "4,15",
+       "farbe": "GELB",
+       "wort": "Bestanden",
+       "zs": 120
+      },
+      {
+       "typ": "norm",
+       "text": "§ 25 Abs. 2, § 28 Abs. 1 S. 2 DVStB",
+       "wort": "Durchschnitt"
+      }
+     ],
+     "icon": [
+      "tabler:scale",
+      "GELB",
+      "Zugelassen"
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Rechnung",
+     "elemente": [
+      {
+       "typ": "text",
+       "text": "(4,5 + 3,8) : 2",
+       "unter": "= 4,15",
+       "wort": "Mit"
+      },
+      {
+       "typ": "zahl",
+       "text": "3,8",
+       "size": 170,
+       "wort": "drei"
+      }
+     ],
+     "sfx": [
+      [
+       "rechner",
+       "Schnitt",
+       0.8
+      ]
+     ]
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "Kein Selbstläufer.",
+     "Die 10 häufigsten",
+     "Fehler als",
+     "Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "zehn",
+     "Fehler",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Was dir keiner über die Mündliche sagt. 👀\n\nIn fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens einer durchgefallen. Zugelassen bis 4,5 (§ 25 Abs. 2 DVStB), bestanden erst bei 4,15 im Durchschnitt (§ 28 Abs. 1 S. 2 DVStB). Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.\n\nDie 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r1"
   }
  ],
  "stories": [

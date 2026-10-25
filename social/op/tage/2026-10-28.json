@@ -978,6 +978,282 @@
     "Abschn. 14c.1 Abs. 1a UStAE",
     "BMF vom 27.02.2024"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "pruefungsfrage",
+   "themaId": "lead-10-fehler",
+   "themaTitel": "Die 10 häufigsten Fehler der Mündlichen",
+   "figuren": {
+    "A": {
+     "name": "Mara",
+     "kopf": "Medium Straight",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5",
+     "brille": "Glasses",
+     "bueste": "Blazer Black Tee"
+    },
+    "B": {
+     "name": "Tarek",
+     "kopf": "Short 4",
+     "haut": "#B07552",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F",
+     "bueste": "Button Shirt 1"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Über 400 Protokolle",
+     "badgeFarbe": "GELB",
+     "zeilen": [
+      "Die 10 Fehler",
+      "der Mündlichen"
+     ],
+     "unter": "Platz 10 bis 1",
+     "teaser": "+ Gratis-PDF",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "400+",
+        "ExtraBold",
+        120
+       ],
+       [
+        "Protokolle",
+        "Bold",
+        44
+       ]
+      ]
+     },
+     "figur": "A:ernst"
+    },
+    {
+     "typ": "schritte",
+     "titel": "Platz 10 bis 6",
+     "schritte": [
+      [
+       "Platz 10",
+       null,
+       "Den Kurzvortrag verschenken"
+      ],
+      [
+       "Platz 9",
+       null,
+       "Eine schlechte Runde mitnehmen"
+      ],
+      [
+       "Platz 8",
+       null,
+       "Keine Rückfragen zum Sachverhalt"
+      ],
+      [
+       "Platz 7",
+       null,
+       "Schweigen oder „keine Ahnung“ sagen"
+      ],
+      [
+       "Platz 6",
+       null,
+       "Nicht zuhören, wenn andere dran sind"
+      ]
+     ],
+     "teaser": "Am Ende: Platz 1"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Platz 5 bis 2",
+     "punkte": [
+      [
+       "Platz 5: Randgebiete vernachlässigen",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Platz 4: Fachbegriffe nicht treffen",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Platz 3: Aktuelles nicht auf dem Schirm",
+       "warn",
+       "Bold",
+       null
+      ],
+      [
+       "Platz 2: Aus dem Kopf statt aus dem Gesetz antworten",
+       "nein",
+       "Bold",
+       null
+      ]
+     ],
+     "figur": "B:sorge",
+     "x": 790,
+     "blase": "Kenn ich …"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Und Platz 1?",
+     "punkte": [
+      [
+       "Steht in mehr als jedem zweiten Protokoll.",
+       "warn",
+       "ExtraBold",
+       null
+      ],
+      [
+       "Kostet Punkte, obwohl das Wissen da ist.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Die Auflösung steht im Gratis-PDF – mit Prüfungsszene und Lösung.",
+       "ok",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:denkt",
+     "x": 290,
+     "blase": "Welcher?"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Warum das zählt",
+     "punkte": [
+      [
+       "In fast jedem dritten Protokoll ist mindestens einer durchgefallen.",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Bestanden erst bei 4,15 im Durchschnitt.",
+       "warn",
+       "Bold",
+       "§ 28 Abs. 1 S. 2 DVStB"
+      ],
+      [
+       "Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "B:ernst",
+     "x": 790,
+     "blase": "Kein Selbstläufer."
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Alle 10 Fehler + Lösungen",
+      "Gratis-PDF · Link in der Bio",
+      "GELB"
+     ],
+     "zeilen": [
+      [
+       [
+        "Platz 1",
+        "a"
+       ],
+       [
+        " auflösen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Lösungen",
+        "b"
+       ],
+       [
+        " lesen,",
+        null
+       ]
+      ],
+      [
+       [
+        "Checkliste",
+        "c"
+       ],
+       [
+        " nutzen,",
+        null
+       ]
+      ],
+      [
+       [
+        "sicher",
+        "d"
+       ],
+       [
+        " bestehen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Welcher Fehler passiert dir?",
+     "teaser": "Weiterwischen: So holst du dir das PDF"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "So holst du dir das PDF",
+     "punkte": [
+      [
+       "Profil von examenscampus öffnen",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Link in der Bio antippen",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "E-Mail eintragen – das PDF kommt sofort",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Kostenlos, jederzeit abbestellbar",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "A:froh",
+     "x": 790,
+     "blase": "Gratis!"
+    }
+   ],
+   "caption": "Die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – ausgewertet aus über 400 echten Prüfungsprotokollen. 😬\n\nWas dir keiner sagt: In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen. Bestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n\nPlatz 10 bis 2 siehst du hier. Platz 1 – und alle 10 Fehler mit Prüfungsszene und Lösung – im Gratis-PDF.\n\n👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 28 Abs. 1 S. 2 DVStB",
+    "§ 25 Abs. 2 DVStB"
+   ],
+   "zeit": "16:00",
+   "leadmagnetQuelle": "k1"
   }
  ],
  "stories": [

@@ -918,6 +918,284 @@
     "§ 16 Abs. 3 S. 1, Abs. 4 EStG",
     "§ 34 EStG"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "pruefungsfrage",
+   "themaId": "lead-kein-selbstlaeufer",
+   "themaTitel": "Die Mündliche ist kein Selbstläufer",
+   "figuren": {
+    "C": {
+     "name": "Lena",
+     "kopf": "Bun 2",
+     "haut": "#F3D0B5",
+     "haar": "#6B3E26",
+     "oberteil": "#F9D56E",
+     "bueste": "Sweater"
+    },
+    "D": {
+     "name": "Jonas",
+     "kopf": "Short 2",
+     "haut": "#E8B48F",
+     "haar": "#3B2A1E",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses 2",
+     "bueste": "Button Shirt 2"
+    }
+   },
+   "folien": [
+    {
+     "typ": "cover",
+     "badge": "Was dir keiner sagt",
+     "badgeFarbe": "ROT",
+     "zeilen": [
+      "Die Mündliche:",
+      "kein Selbstläufer"
+     ],
+     "unter": "3 Zahlen",
+     "teaser": "+ Gratis-PDF",
+     "motiv": {
+      "typ": "zahlblock",
+      "zeilen": [
+       [
+        "4,15",
+        "ExtraBold",
+        130
+       ],
+       [
+        "Bestehensgrenze",
+        "Bold",
+        40
+       ]
+      ]
+     },
+     "figur": "C:sorge"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Zahl 1: fast jedes dritte",
+     "punkte": [
+      [
+       "In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen.",
+       "nein",
+       "ExtraBold",
+       null
+      ],
+      [
+       "Ausgewertet: über 400 echte Prüfungsprotokolle aus NRW.",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "D:staunt",
+     "x": 790,
+     "blase": "So viele?"
+    },
+    {
+     "typ": "vergleich",
+     "titel": "Zahl 2: 4,5 und 4,15",
+     "links": {
+      "kopf": "Zugelassen",
+      "farbe": "GELB",
+      "punkte": [
+       [
+        "bis Gesamtnote 4,5 schriftlich",
+        "§ 25 Abs. 2 DVStB"
+       ]
+      ]
+     },
+     "rechts": {
+      "kopf": "Bestanden",
+      "farbe": "GRUEN",
+      "punkte": [
+       [
+        "Durchschnitt schriftlich und mündlich höchstens 4,15",
+        "§ 28 Abs. 1 S. 2 DVStB"
+       ]
+      ]
+     },
+     "figur": "C:denkt",
+     "x": 290,
+     "blase": "Moment …"
+    },
+    {
+     "typ": "rechnung",
+     "titel": "Zahl 3: die 3,8",
+     "normen": [
+      "§ 28 Abs. 1 S. 2 DVStB"
+     ],
+     "zeilen": [
+      [
+       "Schriftlich",
+       "4,5",
+       "Regular",
+       null
+      ],
+      [
+       "Mündlich mindestens",
+       "3,8",
+       "Regular",
+       null
+      ],
+      [
+       "Summe",
+       "8,3",
+       "Bold",
+       null
+      ],
+      [
+       "geteilt durch zwei",
+       "4,15",
+       "ExtraBold",
+       "GELB"
+      ]
+     ],
+     "extra": [
+      "Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.",
+      "ROT"
+     ],
+     "figur": "D:sorge",
+     "x": 790,
+     "blase": "Puh."
+    },
+    {
+     "typ": "inhalt",
+     "titel": "Woran es oft scheitert",
+     "punkte": [
+      [
+       "Die Frage nicht durchschauen",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Aus dem Kopf statt aus dem Gesetz",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Schweigen statt laut denken",
+       "nein",
+       "Bold",
+       null
+      ],
+      [
+       "Nicht am Wissen, sondern an vermeidbaren Fehlern.",
+       "warn",
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "C:ernst",
+     "x": 290,
+     "blase": "Vermeidbar!"
+    },
+    {
+     "typ": "merke",
+     "oben": [
+      "Die gute Nachricht",
+      "Die Fehler wiederholen sich",
+      "GRUEN"
+     ],
+     "zeilen": [
+      [
+       [
+        "4,5",
+        "a"
+       ],
+       [
+        " schriftlich?",
+        null
+       ]
+      ],
+      [
+       [
+        "3,8",
+        "b"
+       ],
+       [
+        " mündlich!",
+        null
+       ]
+      ],
+      [
+       [
+        "10 Fehler",
+        "c"
+       ],
+       [
+        " kennen,",
+        null
+       ]
+      ],
+      [
+       [
+        "PDF",
+        "d"
+       ],
+       [
+        " gratis holen.",
+        null
+       ]
+      ]
+     ],
+     "speichern": "Speichern für die Mündliche",
+     "frage": "Mit welcher Vornote gehst du rein?",
+     "teaser": "Weiterwischen: So holst du dir das PDF"
+    },
+    {
+     "typ": "inhalt",
+     "titel": "So holst du dir das PDF",
+     "punkte": [
+      [
+       "Profil von examenscampus öffnen",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Link in der Bio antippen",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "E-Mail eintragen – das PDF kommt sofort",
+       "ok",
+       "Bold",
+       null
+      ],
+      [
+       "Kostenlos, jederzeit abbestellbar",
+       null,
+       "Regular",
+       null
+      ]
+     ],
+     "figur": "C:froh",
+     "x": 790,
+     "blase": "Gratis!"
+    }
+   ],
+   "caption": "Was dir keiner sagt: Die Mündliche ist kein Selbstläufer. 😳\n\n▸ In fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens ein Prüfling durchgefallen.\n▸ Zugelassen bist du bis 4,5 (§ 25 Abs. 2 DVStB) – bestanden erst, wenn der Durchschnitt aus schriftlich und mündlich 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB).\n▸ Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.\n\nDie 10 häufigsten Fehler – mit Lösungen – im Gratis-PDF. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+   ],
+   "zeit": "16:00",
+   "leadmagnetQuelle": "k2"
   }
  ],
  "stories": [

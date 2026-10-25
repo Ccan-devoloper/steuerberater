@@ -977,6 +977,158 @@
     "§§ 169 bis 171 AO",
     "§ 177 AO"
    ]
+  },
+  {
+   "klausur": 0,
+   "fach": null,
+   "fachLabel": "Mündliche Prüfung",
+   "klausurLabel": "Gratis-PDF",
+   "slot": "m1",
+   "format": "reel",
+   "reelTyp": "klausurfalle",
+   "themaId": "lead-reel-r6",
+   "themaTitel": "Fachbegriffe nicht treffen",
+   "figuren": {
+    "G": {
+     "name": "Amara",
+     "kopf": "Afro",
+     "haut": "#8D5524",
+     "haar": "#1E1410",
+     "oberteil": "#F4A3B5"
+    }
+   },
+   "hook": {
+    "zeilen": [
+     "„Steuerfrei,",
+     "weil Ausland.“"
+    ],
+    "icons": [
+     [
+      "tabler:world",
+      "GELB",
+      "Fachbegriff"
+     ]
+    ],
+    "stil": "kippen",
+    "richtig": {
+     "label": "Fachbegriff",
+     "text": "innergemeinschaftliche Lieferung",
+     "wort": "Fachbegriff",
+     "farbe": "GRUEN"
+    },
+    "stempel": {
+     "text": "zu ungenau!",
+     "wort": "ungenau"
+    },
+    "pille": "Fehler Nr. 4 von 10",
+    "figur": "G/erklaert",
+    "name": "Amara"
+   },
+   "szenen": [
+    {
+     "seg": "s1",
+     "titel": "Platz 4",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Fachbegriffe",
+       "farbe": "ROT",
+       "wort": "Fachbegriffe",
+       "zs": 110
+      }
+     ]
+    },
+    {
+     "seg": "s2",
+     "titel": "Der Begriff",
+     "elemente": [
+      {
+       "typ": "block",
+       "label": "Fachbegriff",
+       "wert": "innergemeinschaftliche Lieferung",
+       "farbe": "GRUEN",
+       "wort": "innergemeinschaftliche",
+       "zs": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Nr. 1 Buchst. b, § 6a UStG",
+       "wort": "Paragraf"
+      }
+     ]
+    },
+    {
+     "seg": "s3",
+     "titel": "Die Bedingung",
+     "elemente": [
+      {
+       "typ": "pille",
+       "text": "gültige USt-IdNr. verwendet",
+       "farbe": "WEISS",
+       "wort": "gültige"
+      },
+      {
+       "typ": "norm",
+       "text": "§ 6a Abs. 1 S. 1 Nr. 4 UStG",
+       "wort": "verwendet"
+      }
+     ]
+    }
+   ],
+   "sprecher": [
+    {
+     "id": "hook",
+     "text": "Steuerfrei, weil Ausland. Viel zu ungenau. Der Prüfer wartet auf den Fachbegriff."
+    },
+    {
+     "id": "s1",
+     "text": "Fachbegriffe nicht treffen ist Platz vier der häufigsten Fehler."
+    },
+    {
+     "id": "s2",
+     "text": "Richtig ist: innergemeinschaftliche Lieferung. Steuerfrei nach Paragraf vier Nummer eins b und sechs a Umsatzsteuergesetz."
+    },
+    {
+     "id": "s3",
+     "text": "Aber nur, wenn der Kunde seine gültige ausländische Umsatzsteuer-Identifikationsnummer verwendet."
+    },
+    {
+     "id": "cta",
+     "text": "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+    }
+   ],
+   "merke": {
+    "seg": "cta",
+    "zeilen": [
+     "So vermeidest du ihn:",
+     "Szene, Merksatz,",
+     "Checkliste",
+     "im Gratis-PDF"
+    ],
+    "woerter": [
+     null,
+     "Prüfungsszene",
+     "Checkliste",
+     "kostenlos"
+    ],
+    "cta": "Link in der Bio",
+    "cta_wort": "Link",
+    "hinweis": "Aus über 400 Prüfungsprotokollen"
+   },
+   "caption": "Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯\n\n„Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+   ],
+   "quellen": [
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a Abs. 1 S. 1 Nr. 4 UStG"
+   ],
+   "zeit": "17:30",
+   "leadmagnetQuelle": "r6"
   }
  ],
  "stories": [
