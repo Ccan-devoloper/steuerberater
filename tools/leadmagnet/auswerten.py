@@ -13,6 +13,9 @@ for pfad in sorted(glob.glob(os.path.join(ordner, "*.json"))):
     dateien += daten.get("dateien_gesamt", 0)
     alle += daten["protokolle"]
 
+# Nicht zur StB-Prüfung NRW gehörend: WP-Examen, ein Protokoll aus Bayern
+AUSSCHLUSS = ("WP-", "AG ges")
+alle = [p for p in alle if not any(a in p["datei"] for a in AUSSCHLUSS)]
 lesbar = [p for p in alle if p.get("lesbar")]
 n = len(lesbar)
 fehler = {k: sum(1 for p in lesbar if p.get(k) is True) for k in [f"F{i}" for i in range(1, 11)]}

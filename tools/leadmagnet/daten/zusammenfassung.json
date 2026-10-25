@@ -1,0 +1,50 @@
+{
+ "dateien": 471,
+ "codiert": 450,
+ "lesbar": 421,
+ "fehler": {
+  "F1": 221,
+  "F2": 133,
+  "F3": 155,
+  "F4": 74,
+  "F5": 55,
+  "F6": 23,
+  "F7": 89,
+  "F8": 114,
+  "F9": 81,
+  "F10": 48
+ },
+ "themen": {
+  "T_AO": 96,
+  "T_BWL": 32,
+  "T_Beruf": 57,
+  "T_Bilanz": 82,
+  "T_ESt": 100,
+  "T_EU": 34,
+  "T_ErbSt": 97,
+  "T_GrSt": 23,
+  "T_InsO": 29,
+  "T_IntStR": 28,
+  "T_Recht": 98,
+  "T_USt": 76,
+  "T_VWL": 19
+ },
+ "jahre": {
+  "2019": 34,
+  "2020": 25,
+  "2021": 36,
+  "2022": 65,
+  "2023": 55,
+  "2024": 71,
+  "2025": 70,
+  "2026": 65
+ },
+ "orte": {
+  "Düsseldorf": 329,
+  "Münster": 39,
+  "Köln": 51,
+  "unbekannt": 2
+ },
+ "durchgefallen_mind_einer": 121,
+ "vornote_spielte_rolle": 158
+}
