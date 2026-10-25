@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-25T06:44:53.448Z",
+  "stand": "2026-10-25T07:30:17.699Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -44245,6 +44245,63 @@
           "ig_reels_avg_watch_time": 8070,
           "ig_reels_video_view_total_time": 5197648,
           "reels_skip_rate": 62.5
+        }
+      ]
+    },
+    "18411095797091528": {
+      "art": "story",
+      "datum": "2026-10-25",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T06:07:03.300Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T07:30:17.699Z",
+          "alterStunden": 1.4,
+          "reach": 20,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 18,
+          "navigation_tap_exit": 1
+        }
+      ]
+    },
+    "18136895128574393": {
+      "art": "story",
+      "datum": "2026-10-25",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T06:09:03.264Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T07:30:17.699Z",
+          "alterStunden": 1.4,
+          "reach": 18,
+          "views": 22,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 15,
+          "navigation_tap_back": 1
         }
       ]
     }
