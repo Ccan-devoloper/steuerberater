@@ -15251,13 +15251,35 @@
       },
       "insightsStand": "2026-10-25T17:44:51.886Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-25",
+      "slot": "b3",
+      "medienId": "17953408146279316",
+      "veroeffentlicht": "2026-10-25T18:00:11.300Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "ao-modul-ao-305",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Arten von Verwaltungsakten: Steuerbescheide, gleichgestellte VA und sonstige VA",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 16,
     "ust": 13,
     "kst": 13,
-    "ao": 23,
+    "ao": 24,
     "bilanz": 24,
     "istr": 18,
     "erbst": 10,
