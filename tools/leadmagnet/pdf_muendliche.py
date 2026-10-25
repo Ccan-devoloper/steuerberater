@@ -100,7 +100,16 @@ c.drawString(M, y - 104, "Mündlichen")
 y = absatz("… und wie du sie vermeidest. Ausgewertet aus "
            f"{ANZAHL} echten Protokollen der mündlichen Steuerberaterprüfung.",
            M, y - 140, 330, groesse=13, farbe=GRAU, zeile=19)
-bild(os.path.join(HIER, "build", "szene.png"), M - 6, 70, w=B + 12)
+# Kennzahlen als Pillen
+px, py = M, y - 40
+for zahl, txt in ((str(ANZAHL), "Protokolle ausgewertet"), ("2019–2026", "Prüfungsjahre"), ("NRW", "Düsseldorf · Köln · Münster")):
+    w1 = c.stringWidth(zahl, "N-Black", 15); w2 = c.stringWidth(txt, "N-Regular", 9)
+    bw = max(w1, w2) + 30
+    karte(px, py, bw, 50, fill=white, r=14)
+    c.setFont("N-Black", 15); c.setFillColor(LILA); c.drawString(px + 15, py - 22, zahl)
+    c.setFont("N-Regular", 9); c.setFillColor(GRAU); c.drawString(px + 15, py - 38, txt)
+    px += bw + 14
+bild(os.path.join(HIER, "build", "szene.png"), M - 6, 60, w=B + 12)
 
 # ---------------------------------------------------------------- 2 Ablauf
 neue_seite()
