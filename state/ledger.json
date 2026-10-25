@@ -15113,6 +15113,28 @@
       "thema": "istr-aufb-istr-gh-4-17",
       "fach": "istr",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-25",
+      "slot": "b2",
+      "medienId": "18145429999588053",
+      "veroeffentlicht": "2026-10-25T12:30:09.055Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "pruefungsfrage",
+      "thema": "bilanz-aufb-bil-melzer-11-02",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -15120,7 +15142,7 @@
     "ust": 13,
     "kst": 13,
     "ao": 23,
-    "bilanz": 23,
+    "bilanz": 24,
     "istr": 18,
     "erbst": 10,
     "mindset": 2,
