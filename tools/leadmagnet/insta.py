@@ -136,7 +136,7 @@ def pdf_mockup(breite=430, winkel=-6, seite="pdfcover-01.png"):
     return schatten.rotate(winkel, resample=Image.BICUBIC, expand=True)
 
 
-def cta_folie(f, titel="Alle 10 Fehler + Lösungen", unter="Gratis-PDF aus 421 echten Prüfungsprotokollen"):
+def cta_folie(f, titel="Alle 10 Fehler + Lösungen", unter="Gratis-PDF aus über 400 echten Prüfungsprotokollen"):
     f.d.text((INNEN, 150), "Für deine Mündliche", font=HAND(58), fill=ORANGE)
     y = f.schlagzeile([(w, w in ("10", "Fehler")) for w in titel.split()], 220, 92)
     y = f.text(unter, y + 10, "Bold", 40, GRAU)
@@ -152,7 +152,7 @@ def cta_folie(f, titel="Alle 10 Fehler + Lösungen", unter="Gratis-PDF aus 421 e
 def beitrag_10_fehler():
     n, ordner = 7, os.path.join(ZIEL, "01-die-10-haeufigsten-fehler")
     f = Folie(1, n)
-    f.pille("421 echte Prüfungsprotokolle", INNEN, 150)
+    f.pille("Über 400 echte Prüfungsprotokolle", INNEN, 150)
     y = f.schlagzeile([("Die", 0), ("10", 1), ("häufigsten", 0), ("Fehler", 1), ("der", 0), ("Mündlichen", 0)], 260, 124)
     f.text("Steuerberaterprüfung – ausgewertet aus NRW 2019–2026", y + 24, "Bold", 38, GRAU)
     f.bild(os.path.join(BUILD, "szene.png"), "mitte", 0, w=BREITE + 40, unten=f.h - 150)
@@ -160,7 +160,7 @@ def beitrag_10_fehler():
 
     f = Folie(2, n)
     f.d.text((INNEN, 160), "So sind wir vorgegangen", font=HAND(58), fill=ORANGE)
-    y = f.text("Wir haben 421 Protokolle der mündlichen StB-Prüfung gelesen – jedes einzeln.", 240, "Black", 62, zeile=1.18)
+    y = f.text("Wir haben über 400 Protokolle der mündlichen StB-Prüfung gelesen – jedes einzeln.", 240, "Black", 62, zeile=1.18)
     y = f.text("Gezählt: Woran sind Prüflinge gescheitert? Wo gab es Punktabzug?", y + 30, "Regular", 42, GRAU)
     f.pille("Hier ist die Rangliste", INNEN, y + 40, fill=WEISS)
     f.bild(os.path.join(BUILD, "f4.png"), W - INNEN - 260, 0, h=560, unten=f.h - 120)
@@ -217,9 +217,9 @@ def beitrag_10_fehler():
 def beitrag_jeder_zweite():
     n, ordner = 6, os.path.join(ZIEL, "02-fehler-nummer-1")
     f = Folie(1, n)
-    f.pille("Fehler Nr. 1 aus 421 Protokollen", INNEN, 150)
+    f.pille("Fehler Nr. 1 aus über 400 Protokollen", INNEN, 150)
     y = f.schlagzeile([("Jedes", 0), ("zweite", 1), ("Protokoll", 0), ("zeigt", 0), ("diesen", 0), ("Fehler", 1)], 260, 118)
-    f.text("Platz 1 aus unserer Auswertung von 421 echten Prüfungsprotokollen.", y + 10, "Bold", 40, GRAU)
+    f.text("Platz 1 aus unserer Auswertung von über 400 echten Prüfungsprotokollen.", y + 10, "Bold", 40, GRAU)
     f.bild(os.path.join(BUILD, "f3.png"), "mitte", 0, h=520, unten=f.h - 120)
     f.weiter(); f.speichern(os.path.join(ordner, "01.png"))
 
@@ -297,7 +297,7 @@ def beitrag_quiz():
     f.karte(INNEN, 250, W - INNEN, 640, fill=GELB)
     f.text("Ein unvollständiger Sachverhalt ist oft Absicht. Rückfragen zeigen Beratungskompetenz.", 300, "Black", 56,
            x=INNEN + 50, breite=BREITE - 100, zeile=1.2)
-    f.text("„Keine Rückfragen zum Sachverhalt“ ist einer der 10 häufigsten Fehler in unseren 421 Protokollen.", 710, "Bold", 42, GRAU)
+    f.text("„Keine Rückfragen zum Sachverhalt“ ist einer der 10 häufigsten Fehler in hunderten Prüfungsprotokollen.", 710, "Bold", 42, GRAU)
     f.bild(os.path.join(BUILD, "f2.png"), W - INNEN - 200, 0, h=360, unten=f.h - 100)
     f.weiter(); f.speichern(os.path.join(ordner, "05.png"))
 
@@ -310,7 +310,7 @@ def beitrag_drei_saetze():
     f = Folie(1, n)
     f.pille("Mündliche StB-Prüfung", INNEN, 150)
     y = f.schlagzeile([("3", 1), ("Sätze,", 0), ("die", 0), ("du", 0), ("nie", 1), ("sagen", 0), ("solltest", 0)], 260, 120)
-    f.text("Gefunden in 421 echten Prüfungsprotokollen.", y + 10, "Bold", 40, GRAU)
+    f.text("Gefunden in hunderten echten Prüfungsprotokollen.", y + 10, "Bold", 40, GRAU)
     f.bild(os.path.join(BUILD, "f5.png"), "mitte", 0, h=500, unten=f.h - 120)
     f.weiter(); f.speichern(os.path.join(ordner, "01.png"))
 
@@ -346,7 +346,7 @@ def anzeigen():
         f = Folie(1, 1, hoehe)
         oben = 150 if hoehe == H else 260
         f.pille("Gratis-PDF", INNEN, oben)
-        y = f.schlagzeile([("421", 1), ("Prüfungs-", 0), ("protokolle.", 0), ("10", 1), ("Fehler.", 0)], oben + 110, 100)
+        y = f.schlagzeile([("Über", 0), ("400", 1), ("Protokolle.", 0), ("10", 1), ("Fehler.", 0)], oben + 110, 100)
         y = f.text("Die häufigsten Fehler der mündlichen Steuerberaterprüfung – und wie du sie vermeidest.", y + 24, "Bold", 42, GRAU)
         f.bild(pdf_mockup(250 if hoehe == H else 480, -5), 70, y + 10)
         f.bild(os.path.join(BUILD, "f2.png"), W - INNEN - 260, 0, h=380 if hoehe == H else 640, unten=hoehe - (220 if hoehe == H else 320))

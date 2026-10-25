@@ -74,7 +74,7 @@ def szene_cta():
     f = Folie(1, 1, RH)
     f.d.text((INNEN, 240), "Gratis-PDF", font=HAND(80), fill=ORANGE)
     y = f.schlagzeile([("Die", 0), ("10", 1), ("häufigsten", 0), ("Fehler", 1), ("der", 0), ("Mündlichen", 0)], 340, 112)
-    y = f.text("Aus 421 echten Prüfungsprotokollen – mit Prüfungsszenen und Lösungen.", y + 20, "Bold", 48, GRAU)
+    y = f.text("Aus über 400 echten Prüfungsprotokollen – mit Prüfungsszenen und Lösungen.", y + 20, "Bold", 48, GRAU)
     f.bild(pdf_mockup(560, -5), 40, y + 30)
     f.bild(os.path.join(BUILD, "f2.png"), W - INNEN - 300, 0, h=640, unten=RH - 330)
     by = RH - 300
@@ -91,8 +91,8 @@ REELS = {
          "Was dir keiner über die mündliche Steuerberaterprüfung sagt."),
         (lambda: szene_gross([("Sie", 0), ("ist", 0), ("kein", 1), ("Selbstläufer.", 1)], figur="f5"),
          "Sie ist kein Selbstläufer."),
-        (lambda: szene_gross([("Fast", 0), ("jedes", 0), ("3.", 1), ("Protokoll:", 0)], "Mindestens ein Prüfling ist durchgefallen. Ausgewertet: 421 echte Prüfungsprotokolle.", "f1", pille="Unsere Auswertung", akzent=ROT),
-         "Wir haben 421 echte Prüfungsprotokolle ausgewertet. In fast jedem dritten ist mindestens ein Prüfling durchgefallen."),
+        (lambda: szene_gross([("Fast", 0), ("jedes", 0), ("3.", 1), ("Protokoll:", 0)], "Mindestens ein Prüfling ist durchgefallen. Ausgewertet: über 400 echte Prüfungsprotokolle.", "f1", pille="Unsere Auswertung", akzent=ROT),
+         "Wir haben über 400 echte Prüfungsprotokolle ausgewertet. In fast jedem dritten ist mindestens ein Prüfling durchgefallen."),
         (lambda: szene_gross([("Mit", 0), ("4,5", 1), ("brauchst", 0), ("du", 0), ("eine", 0), ("3,8", 1)], "im Schnitt in der Mündlichen. Sonst ist die Prüfung nicht bestanden.", "f3"),
          "Und wer mit einer Vornote von 4,5 kommt, braucht in der Mündlichen im Schnitt eine 3,8. Sonst ist die Prüfung nicht bestanden."),
         (lambda: szene_rechnung(), "Denn bestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Prüfung höchstens auf 4,15 kommt."),
@@ -103,8 +103,8 @@ REELS = {
     "reel-02-der-haeufigste-fehler": [
         (lambda: szene_gross([("Dieser", 0), ("Fehler", 1), ("kann", 0), ("dich", 0), ("das", 0), ("Examen", 1), ("kosten", 0)], szene=True),
          "Dieser Fehler kann dich in der Mündlichen das Examen kosten."),
-        (lambda: szene_gross([("Platz", 0), ("1", 1), ("von", 0), ("10", 0)], "Wir fanden ihn in mehr als jedem zweiten von 421 Prüfungsprotokollen.", "f1", pille="421 Protokolle ausgewertet"),
-         "Wir fanden ihn in mehr als jedem zweiten von 421 Prüfungsprotokollen."),
+        (lambda: szene_gross([("Platz", 0), ("1", 1), ("von", 0), ("10", 0)], "Wir fanden ihn in mehr als jedem zweiten von über 400 Prüfungsprotokollen.", "f1", pille="Über 400 Protokolle ausgewertet"),
+         "Wir fanden ihn in mehr als jedem zweiten von über 400 Prüfungsprotokollen."),
         (lambda: szene_kasten("PRÜFER", "Ihr Mandant hat ein vermietetes Mehrfamilienhaus aus seinem Privatvermögen sieben Jahre nach dem Kauf verkauft. Was sagen Sie ihm?", HELLLILA, LILA, "f4", "Die Frage"),
          "Die Frage: Ihr Mandant hat ein vermietetes Mehrfamilienhaus sieben Jahre nach dem Kauf verkauft. Was sagen Sie ihm?"),
         (lambda: szene_kasten("SCHWACH", "„Erst einmal gehört das Haus zum Privatvermögen, dann müssen wir die Einkünfte aus Vermietung prüfen, die AfA …“", HELLROT, ROT, "f3", "So geht's schief", "Regular"),
@@ -123,8 +123,8 @@ REELS = {
         (lambda: szene_rechnung(), "Mit einer 4,5 brauchst du in der Mündlichen also im Schnitt eine 3,8."),
         (lambda: szene_gross([("Kurzvortrag", 0), ("+", 0), ("6", 1), ("Prüfungsrunden", 0)], "§ 26 Abs. 3 DVStB – rund fünf Stunden Prüfungstag", "f1"),
          "Dazu ein Kurzvortrag und sechs Prüfungsrunden. Rund fünf Stunden lang."),
-        (lambda: szene_gross([("Fast", 0), ("jedes", 0), ("3.", 1), ("Protokoll:", 0)], "Mindestens ein Prüfling ist durchgefallen.", "f5", pille="421 Protokolle ausgewertet", akzent=ROT),
-         "Und in fast jedem dritten von 421 Protokollen ist mindestens einer durchgefallen."),
+        (lambda: szene_gross([("Fast", 0), ("jedes", 0), ("3.", 1), ("Protokoll:", 0)], "Mindestens ein Prüfling ist durchgefallen.", "f5", pille="Über 400 Protokolle ausgewertet", akzent=ROT),
+         "Und in fast jedem dritten von über 400 Protokollen ist mindestens einer durchgefallen."),
         (lambda: szene_cta(), "Damit dir das nicht passiert: Die zehn häufigsten Fehler als Gratis-PDF. Link in der Bio."),
     ],
 }
@@ -158,14 +158,15 @@ def karussell_ernst():
     f = Folie(1, n)
     f.pille("Was dir keiner sagt", INNEN, 150, fill=ROT, farbe=WEISS)
     y = f.schlagzeile([("Die", 0), ("Mündliche", 0), ("ist", 0), ("kein", 1), ("Selbstläufer", 1)], 260, 120)
-    f.text("Warum so viele kurz vor dem Ziel scheitern – mit Zahlen aus 421 Prüfungsprotokollen.", y + 20, "Bold", 40, GRAU)
+    f.text("Warum so viele kurz vor dem Ziel scheitern – mit Zahlen aus über 400 Prüfungsprotokollen.", y + 20, "Bold", 40, GRAU)
     f.bild(os.path.join(BUILD, "szene.png"), "mitte", 0, w=BREITE + 40, unten=f.h - 150)
     f.weiter(); f.speichern(os.path.join(ordner, "01.png"))
 
     f = Folie(2, n)
     f.d.text((INNEN, 150), "Zahl 1", font=HAND(64), fill=ORANGE)
-    f.d.text((INNEN, 230), "121", font=F("Black", 260), fill=ROT)
-    y = f.text("von 421 Protokollen: Mindestens ein Prüfling ist durchgefallen. Das ist fast jedes dritte Protokoll.", 540, "Black", 54, zeile=1.2)
+    f.d.text((INNEN, 240), "Fast jedes", font=F("Black", 90), fill=INK)
+    f.d.text((INNEN, 330), "3. Protokoll", font=F("Black", 150), fill=ROT)
+    y = f.text("aus über 400 ausgewerteten: Mindestens ein Prüfling ist durchgefallen.", 540, "Black", 54, zeile=1.2)
     f.bild(os.path.join(BUILD, "f5.png"), W - INNEN - 220, 0, h=420, unten=f.h - 110)
     f.weiter(); f.speichern(os.path.join(ordner, "02.png"))
 
@@ -195,7 +196,7 @@ def karussell_ernst():
     f = Folie(6, n)
     f.d.text((INNEN, 150), "Die gute Nachricht", font=HAND(64), fill=GRUEN)
     y = f.text("Diese Fehler wiederholen sich. Wer sie kennt, kann sie vermeiden.", 240, "Black", 64, zeile=1.18)
-    f.text("Wir haben die 10 häufigsten aus 421 Protokollen gesammelt – mit Prüfungsszene und Lösung.", y + 30, "Bold", 42, GRAU)
+    f.text("Wir haben die 10 häufigsten aus hunderten Protokollen gesammelt – mit Prüfungsszene und Lösung.", y + 30, "Bold", 42, GRAU)
     f.bild(os.path.join(BUILD, "f3.png"), W - INNEN - 220, 0, h=420, unten=f.h - 110)
     f.weiter(); f.speichern(os.path.join(ordner, "06.png"))
 

@@ -98,7 +98,7 @@ marker("Fehler", M, y - 52, "N-Black", 44)
 c.setFillColor(INK); c.drawString(M + c.stringWidth("Fehler ", "N-Black", 44), y - 52, "in der")
 c.drawString(M, y - 104, "Mündlichen")
 y = absatz("… und wie du sie vermeidest. Ausgewertet aus "
-           f"{ANZAHL} echten Protokollen der mündlichen Steuerberaterprüfung.",
+           "über 400 echten Protokollen der mündlichen Steuerberaterprüfung.",
            M, y - 140, 330, groesse=13, farbe=GRAU, zeile=19)
 bild(os.path.join(HIER, "build", "szene.png"), M - 6, 150, w=B + 12)
 c.setFont("N-Regular", 8); c.setFillColor(GRAU)

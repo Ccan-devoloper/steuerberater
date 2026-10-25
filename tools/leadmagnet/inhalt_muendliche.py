@@ -22,7 +22,7 @@ ABLAUF = [
 GUT_ZU_WISSEN = [
     "In mehr als jedem dritten Protokoll spielt die Vornote sichtbar eine Rolle: Wer mit 4,33 bis 4,5 kommt, wird deutlich häufiger gefragt – meist als Chance.",
     "Welche Hilfsmittel erlaubt sind, steht in deiner Ladung – in der Regel sind es die Gesetzestexte. Die Prüfer wollen ausdrücklich sehen, dass du damit arbeitest. Mitschriften werden teils eingesammelt.",
-    "In 121 von 421 Protokollen ist mindestens ein Prüfling durchgefallen – die Mündliche ist kein Selbstläufer.",
+    "In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen – die Mündliche ist kein Selbstläufer.",
     "Die Prüfungszeit je Prüfling soll 90 Minuten nicht überschreiten (§ 26 Abs. 7 DVStB) – du bist also nicht ständig dran.",
     "Notiere dir bei der Vorstellung jeden Prüfer und sein Fachgebiet – es ist dein Kompass für die Runde.",
 ]

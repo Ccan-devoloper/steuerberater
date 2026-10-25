@@ -14,7 +14,7 @@ Alle Zahlen: Auswertung von 421 lesbaren Protokollen (NRW 2019–2026), `tools/l
 | laufend | Anzeigen (Feed 4:5 und Story 9:16) | 05-anzeigen |
 
 ## Beitrag 1 – Bildunterschrift
-Wir haben 421 echte Protokolle der mündlichen Steuerberaterprüfung gelesen. Jedes einzeln. 📚
+Wir haben über 400 echte Protokolle der mündlichen Steuerberaterprüfung gelesen. Jedes einzeln. 📚
 
 Das Ergebnis: die 10 Fehler, die Prüflingen am häufigsten Punkte kosten – von Platz 10 bis Platz 2 siehst du hier.
 
@@ -51,7 +51,7 @@ Mehr echte Prüfungssituationen im Gratis-PDF „Die 10 größten Fehler in der 
 ## Beitrag 4 – Bildunterschrift
 3 Sätze, die du in der Mündlichen nie sagen solltest. 🙊
 
-Gefunden in 421 echten Prüfungsprotokollen – jeweils mit der besseren Antwort.
+Gefunden in hunderten echten Prüfungsprotokollen – jeweils mit der besseren Antwort.
 Welchen Satz hast du schon mal gesagt? 😅
 
 Alle 10 Fehler + Lösungen: Gratis-PDF
@@ -60,9 +60,9 @@ Alle 10 Fehler + Lösungen: Gratis-PDF
 #steuerberaterprüfung #mündlicheprüfung #stbexamen #steuerberater #abgabenordnung #umsatzsteuer
 
 ## Anzeigen – Texte
-**Primärtext:** 421 echte Prüfungsprotokolle ausgewertet: Das sind die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – mit Prüfungsszenen und Lösungen. Hol dir das Gratis-PDF, bevor du in den Prüfungsraum gehst.
+**Primärtext:** Über 400 echte Prüfungsprotokolle ausgewertet: Das sind die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – mit Prüfungsszenen und Lösungen. Hol dir das Gratis-PDF, bevor du in den Prüfungsraum gehst.
 **Überschrift:** Gratis-PDF: Die 10 größten Fehler in der Mündlichen
-**Beschreibung:** Aus 421 echten Protokollen
+**Beschreibung:** Aus über 400 echten Protokollen
 **Button:** Mehr dazu / Herunterladen
 **Ziel-URL:** https://examenscampus.pages.dev
 **Zielgruppe (Vorschlag):** Deutschland, 24–45, Interessen Steuerberatung, Steuerrecht, DATEV, Steuerfachwirt, Bilanzbuchhalter; Placements Instagram Feed + Stories.
@@ -70,7 +70,7 @@ Alle 10 Fehler + Lösungen: Gratis-PDF
 ## Neu: Karussell 7 „Die Mündliche ist kein Selbstläufer“ (07-kein-selbstlaeufer)
 Was dir keiner sagt: Die Mündliche ist kein Selbstläufer. 😳
 
-📊 In 121 von 421 Prüfungsprotokollen ist mindestens ein Prüfling durchgefallen.
+📊 In fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens ein Prüfling durchgefallen.
 📐 Zugelassen bist du bis 4,5 – bestanden erst bei 4,15 (§ 25 Abs. 2, § 28 Abs. 1 DVStB). Mit 4,5 brauchst du in der Mündlichen im Schnitt eine 3,8.
 
 Die gute Nachricht: Die Fehler wiederholen sich. Die 10 häufigsten – mit Lösungen – im Gratis-PDF.
@@ -80,11 +80,11 @@ Die gute Nachricht: Die Fehler wiederholen sich. Die 10 häufigsten – mit Lös
 
 ## Reels (06-reels, je ca. 40 s, Sprecherin Laura)
 **Reel 1 – Was dir keiner über die Mündliche sagt**
-Was dir keiner über die Mündliche sagt … 👀 Fast jedes dritte von 421 Protokollen: mindestens einer durchgefallen. Die 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio
+Was dir keiner über die Mündliche sagt … 👀 Fast jedes dritte von über 400 Protokollen: mindestens einer durchgefallen. Die 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio
 #steuerberaterprüfung #mündlicheprüfung #stbexamen #steuerberater
 
 **Reel 2 – Dieser Fehler kann dich das Examen kosten**
-Platz 1 aus 421 Prüfungsprotokollen – und so antwortest du richtig. Alle 10 Fehler im Gratis-PDF 👉 Link in der Bio
+Platz 1 aus über 400 Prüfungsprotokollen – und so antwortest du richtig. Alle 10 Fehler im Gratis-PDF 👉 Link in der Bio
 #steuerberaterprüfung #mündlicheprüfung #einkommensteuer #stbexamen
 
 **Reel 3 – Die Mündliche ist nur Formsache?**
