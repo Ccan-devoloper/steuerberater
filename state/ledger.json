@@ -15285,6 +15285,18 @@
       "thema": null,
       "fach": "ao",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-25",
+      "slot": "s9",
+      "medienId": "17919242343530131",
+      "veroeffentlicht": "2026-10-25T18:12:03.200Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-306",
+      "fach": "ao",
+      "titel": ""
     }
   ],
   "fachZaehler": {
