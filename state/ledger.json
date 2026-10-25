@@ -15165,6 +15165,18 @@
       "thema": null,
       "fach": "bilanz",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-25",
+      "slot": "s7",
+      "medienId": "18118858901321274",
+      "veroeffentlicht": "2026-10-25T13:40:07.791Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": ""
     }
   ],
   "fachZaehler": {
