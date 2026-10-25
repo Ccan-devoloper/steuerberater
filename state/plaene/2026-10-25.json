@@ -12,7 +12,8 @@
       "themaTitel": "Alle Klausuren: sechs Themen der Woche 43",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-25T07:30:00.074Z"
     },
     {
       "slot": "b2",
