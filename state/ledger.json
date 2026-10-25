@@ -14981,6 +14981,18 @@
       },
       "insightsStand": "2026-10-25T05:44:41.976Z",
       "insightsAlterStunden": 12.5
+    },
+    {
+      "datum": "2026-10-25",
+      "slot": "s4",
+      "medienId": "18411095797091528",
+      "veroeffentlicht": "2026-10-25T06:07:03.300Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "ust-quiz-ust-2",
+      "fach": "ust",
+      "titel": ""
     }
   ],
   "fachZaehler": {
