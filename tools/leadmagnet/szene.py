@@ -87,10 +87,10 @@ def gesetz(x, y, winkel, titel="Steuergesetze", breite=124, dicke=36, tiefe=22):
 neigung_l, neigung_r = 2.1, -3.2      # Grad: linke Platte steigt nach rechts an, rechte fällt
 for x, y in ((560, 650), (1000, 634)):                    # Ausschuss: je ein Stapel zwischen den Prüfern
     h = gesetz(x * K, y * K, neigung_l, "Steuergesetze")
-    gesetz((x + 4) * K, y * K - h, neigung_l, "Steuerrichtlinien")
+    gesetz((x + 4) * K, y * K - h, neigung_l, "Wirtschaftsgesetze")
 for x, y in ((1770, 622), (2190, 645)):                   # Prüflinge: Gesetze vor sich
     h = gesetz(x * K, y * K, neigung_r, "Steuergesetze")
-    gesetz((x - 3) * K, y * K - h, neigung_r, "Steuerrichtlinien")
+    gesetz((x - 3) * K, y * K - h, neigung_r, "Wirtschaftsgesetze")
 
 # Namensschilder
 pille(330 * K, 840 * K, "Prüfer")
