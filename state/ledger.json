@@ -15005,6 +15005,28 @@
       "thema": "ust-quiz-ust-2",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-25",
+      "slot": "b1",
+      "medienId": "18505711702100075",
+      "veroeffentlicht": "2026-10-25T07:30:05.019Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "wochenrueckblick",
+      "thema": "wochenrueckblick-alle-2026-43",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Wochenrückblick",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -15019,7 +15041,7 @@
     "est": 6,
     "umwst": 8,
     "gewst": 4,
-    "null": 3
+    "null": 4
   },
   "nachrichten": [],
   "postfach": [],
