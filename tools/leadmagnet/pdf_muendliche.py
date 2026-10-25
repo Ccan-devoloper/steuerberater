@@ -101,6 +101,8 @@ y = absatz("… und wie du sie vermeidest. Ausgewertet aus "
            f"{ANZAHL} echten Protokollen der mündlichen Steuerberaterprüfung.",
            M, y - 140, 330, groesse=13, farbe=GRAU, zeile=19)
 bild(os.path.join(HIER, "build", "szene.png"), M - 6, 150, w=B + 12)
+c.setFont("N-Regular", 8); c.setFillColor(GRAU)
+c.drawString(M, 136, "* Prüfungsausschuss und Prüfungsgruppe vereinfacht dargestellt")
 
 # ---------------------------------------------------------------- 2 Ablauf
 neue_seite()
