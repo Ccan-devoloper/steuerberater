@@ -47,8 +47,8 @@ def karussell_10_fehler():
                 ["Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.", "warn", "Regular", None]],
              "figur": "B:ernst", "x": 790, "blase": "Kein Selbstläufer."},
             {"typ": "merke", "oben": ["Alle 10 Fehler + Lösungen", "Gratis-PDF · Link in der Bio", "GELB"],
-             "zeilen": [[["Frage", "a"], [" durchschauen,", None]], [["Norm", "b"], [" nennen,", None]],
-                        [["Aktuelles", "c"], [" kennen,", None]], [["nie", "d"], [" schweigen.", None]]],
+             "zeilen": [[["Platz 1", "a"], [" auflösen,", None]], [["Lösungen", "b"], [" lesen,", None]],
+                        [["Checkliste", "c"], [" nutzen,", None]], [["sicher", "d"], [" bestehen.", None]]],
              "speichern": "Speichern für die Mündliche", "frage": "Welcher Fehler passiert dir?", "teaser": "Weiterwischen: So holst du dir das PDF"},
             schluss("A:froh")],
         caption="Die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – ausgewertet aus über 400 echten Prüfungsprotokollen. 😬\n\n"
@@ -203,7 +203,7 @@ def reel_fehler_1():
             {"id": "hook", "text": "Dieser Fehler steht in mehr als jedem zweiten Prüfungsprotokoll. Und er kann dich das Examen kosten."},
             {"id": "s1", "text": "Der Prüfer fragt: Der Mandant hat sein vermietetes Haus nach sieben Jahren verkauft. Was sagen Sie ihm?"},
             {"id": "s2", "text": "Viele fangen irgendwo an. Privatvermögen, Vermietung, Abschreibung. Und der Prüfer wartet."},
-            {"id": "s3", "text": "Richtig: Erst die Kernfrage. Paragraf dreiundzwanzig Einkommensteuergesetz. Weniger als zehn Jahre, also steuerpflichtig."},
+            {"id": "s3", "text": "Wie die starke Antwort klingt, die den Prüfer sofort überzeugt? Die steht im Leitfaden."},
             {"id": "cta", "text": "Die anderen neun Fehler gibt es kostenlos zum Download. Link in der Bio."}],
         hook={"zeilen": ["Fehler Nr. 1", "der Mündlichen"], "pille": "Über 400 Protokolle", "figur": "B/skeptisch", "name": "Tarek",
               "icons": [["tabler:alert-triangle", "GELB", "Examen"]], "stil": "knall", "stempel": {"text": "jedes 2. Protokoll", "wort": "zweiten"}},
@@ -218,14 +218,13 @@ def reel_fehler_1():
                 {"typ": "pille", "text": "Abschreibung …", "farbe": "WEISS", "wort": "Abschreibung"},
                 {"typ": "block", "label": "Prüfer", "wert": "wartet", "farbe": "ROT", "wort": "wartet", "zs": 110}],
              "sfx": [["riss", "wartet", 0.7]]},
-            {"seg": "s3", "titel": "So geht's richtig", "elemente": [
-                {"typ": "block", "label": "Kernfrage", "wert": "privates Veräußerungsgeschäft", "farbe": "GRUEN", "wort": "Kernfrage", "zs": 70},
-                {"typ": "block", "label": "unter 10 Jahren", "wert": "steuerpflichtig", "farbe": "GELB", "wort": "steuerpflichtig", "zs": 90},
-                {"typ": "norm", "text": "§ 23 Abs. 1 S. 1 Nr. 1 EStG", "wort": "dreiundzwanzig"}]}],
-        merke={"seg": "cta", "zeilen": ["Erst die Kernfrage,", "dann Details.", "Alle 10 Fehler:", "Gratis-PDF"],
-               "woerter": [None, "neun", "Fehler", "kostenlos"], "cta": "Link in der Bio", "cta_wort": "Link", "hinweis": "Aus über 400 Prüfungsprotokollen"},
-        caption="Fehler Nr. 1 der Mündlichen – er steht in mehr als jedem zweiten von über 400 Prüfungsprotokollen. 😬\n\nPrüferfrage: Vermietetes Haus nach sieben Jahren verkauft? Kernfrage zuerst: privates Veräußerungsgeschäft, § 23 Abs. 1 S. 1 Nr. 1 EStG – zwischen Anschaffung und Veräußerung nicht mehr als zehn Jahre, also steuerpflichtig.\n\nAlle 10 Fehler im Gratis-PDF 👉 Link in der Bio",
-        hashtags=CTA_HASH, quellen=["§ 22 Nr. 2 EStG", "§ 23 Abs. 1 S. 1 Nr. 1 EStG"])
+            {"seg": "s3", "titel": "Und richtig?", "elemente": [
+                {"typ": "block", "label": "die starke Antwort", "wert": "im Gratis-PDF", "farbe": "GRUEN", "wort": "starke", "zs": 100},
+                {"typ": "pille", "text": "mit Prüfungsszene und Merksatz", "farbe": "WEISS", "wort": "Leitfaden"}]}],
+        merke={"seg": "cta", "zeilen": ["Die starke Antwort", "und alle 10 Fehler:", "Gratis-PDF", "über 400 Protokolle"],
+               "woerter": [None, "neun", "kostenlos", None], "cta": "Link in der Bio", "cta_wort": "Link", "hinweis": "Aus über 400 Prüfungsprotokollen"},
+        caption="Fehler Nr. 1 der Mündlichen – er steht in mehr als jedem zweiten von über 400 Prüfungsprotokollen. 😬\n\nPrüferfrage: Vermietetes Haus nach sieben Jahren verkauft – was sagen Sie dem Mandanten? Viele verlieren sich in Details, und der Prüfer wartet.\n\nWie die starke Antwort klingt – plus alle 10 Fehler mit Prüfungsszenen und Merksätzen – im Gratis-PDF 👉 Link in der Bio",
+        hashtags=CTA_HASH, quellen=[])
 
 
 def reel_formsache():
@@ -278,7 +277,7 @@ FIG.update({
     "L": {"name": "Emre", "kopf": "Flat Top", "haut": "#C99470", "haar": "#2A1B14", "oberteil": "#F4A3B5"},
     "M": {"name": "Hanna", "kopf": "Twists", "haut": "#8D5524", "haar": "#1E1410", "oberteil": "#9AD48F"},
 })
-CTA_TEXT = "Alle zehn Fehler gibt es kostenlos zum Download. Link in der Bio."
+CTA_TEXT = "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
 
 
 def serie(slot, rolle, pose, titel, platz, hook, sprecher, szenen, merke_oben, caption, quellen):
@@ -287,17 +286,17 @@ def serie(slot, rolle, pose, titel, platz, hook, sprecher, szenen, merke_oben, c
     return dict(GEMEINSAM, slot=slot, format="reel", reelTyp="klausurfalle", themaId=f"lead-reel-{slot}", themaTitel=titel,
                 figuren={rolle: FIG[rolle]}, hook=hook, szenen=szenen,
                 sprecher=[{"id": i, "text": t} for i, t in zip(("hook", "s1", "s2", "s3"), sprecher)] + [{"id": "cta", "text": CTA_TEXT}],
-                merke={"seg": "cta", "zeilen": merke_oben + ["Alle 10 Fehler:", "Gratis-PDF"], "woerter": [None, None, "Fehler", "kostenlos"],
+                merke={"seg": "cta", "zeilen": ["So vermeidest du ihn:", "Szene, Merksatz,", "Checkliste", "im Gratis-PDF"], "woerter": [None, "Prüfungsszene", "Checkliste", "kostenlos"],
                        "cta": "Link in der Bio", "cta_wort": "Link", "hinweis": "Aus über 400 Prüfungsprotokollen"},
-                caption=caption + "\n\nAlle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio",
+                caption=caption + "\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
                 hashtags=CTA_HASH, quellen=quellen)
 
 
 def reel_platz2():
     return serie("r4", "E", "skeptisch", "Aus dem Kopf statt aus dem Gesetz", 2,
-        {"zeilen": ["„Ich glaube,", "vier Jahre.“"], "icons": [["tabler:book", "GELB", "Norm"]], "stil": "kippen",
-         "richtig": {"label": "Richtig", "text": "Norm zuerst", "wort": "Norm", "farbe": "GRUEN"}, "stempel": {"text": "Punktabzug!", "wort": "Punkte"}},
-        ["Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Norm zuerst!",
+        {"zeilen": ["„Ich glaube,", "vier Jahre.“"], "icons": [["tabler:book", "GELB", "Satz"]], "stil": "kippen",
+         "richtig": {"label": "Folge", "text": "Punkte verschenkt", "wort": "verschenkst", "farbe": "ROT"}, "stempel": {"text": "Punktabzug!", "wort": "Punkte"}},
+        ["Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Und merkst es nicht mal.",
          "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?",
          "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung.",
          "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig."],
@@ -310,7 +309,7 @@ def reel_platz2():
              {"typ": "block", "label": "Beginn", "wert": "Ende des Abgabejahres", "farbe": "WEISS", "wort": "beginnt", "zs": 80},
              {"typ": "norm", "text": "§ 170 Abs. 2 S. 1 Nr. 1 AO", "wort": "hundertsiebzig"}]}],
         ["Norm zuerst,", "dann das Ergebnis."],
-        "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Besser: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).",
+        "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).",
         ["§ 169 Abs. 2 S. 1 Nr. 2 AO", "§ 170 Abs. 2 S. 1 Nr. 1 AO"])
 
 
@@ -477,19 +476,17 @@ def reel_platz10():
          "stempel": {"text": "Zeitdruck!", "wort": "Zeitdruck"}},
         ["Drei Themen, eine halbe Stunde Vorbereitung. Der Kurzvortrag ist purer Zeitdruck.",
          "Die drei Themen bekommst du eine halbe Stunde vor Prüfungsbeginn.",
-         "Wähle das Thema mit der klarsten Gliederung, nicht das bekannteste.",
-         "Gliederung ansagen, Blickkontakt halten. Den Vortrag verschenken ist Platz zehn der häufigsten Fehler."],
+         "Und viele bereuen hinterher ihre Themenwahl.",
+         "Den Vortrag verschenken ist Platz zehn der häufigsten Fehler."],
         [{"seg": "s1", "titel": "Die Regel", "elemente": [
              {"typ": "block", "label": "3 Themen", "wert": "30 Min. vorher", "farbe": "GELB", "wort": "bekommst", "zs": 100},
              {"typ": "norm", "text": "§ 26 Abs. 6 DVStB", "wort": "Prüfungsbeginn"}]},
          {"seg": "s2", "titel": "Die Wahl", "elemente": [
-             {"typ": "block", "label": "wähle", "wert": "klarste Gliederung", "farbe": "GRUEN", "wort": "Gliederung", "zs": 90}]},
-         {"seg": "s3", "titel": "Der Auftritt", "elemente": [
-             {"typ": "pille", "text": "Gliederung ansagen", "farbe": "WEISS", "wort": "ansagen"},
-             {"typ": "pille", "text": "Blickkontakt", "farbe": "WEISS", "wort": "Blickkontakt"},
-             {"typ": "block", "label": "Fehler", "wert": "Platz 10", "farbe": "ROT", "wort": "zehn", "zs": 100}]}],
+             {"typ": "block", "label": "Themenwahl", "wert": "hinterher bereut", "farbe": "ROT", "wort": "Themenwahl", "zs": 90}]},
+         {"seg": "s3", "titel": "Platz 10", "elemente": [
+             {"typ": "block", "label": "Fehler", "wert": "Vortrag verschenken", "farbe": "ROT", "wort": "zehn", "zs": 90}]}],
         ["Gliederung ansagen,", "Blick halten."],
-        "Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤\n\nDrei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Tipp aus den Protokollen: das Thema mit der klarsten Gliederung wählen, die Gliederung ansagen und Blickkontakt halten.",
+        "Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤\n\nDrei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Viele bereuen hinterher ihre Themenwahl – welches Thema du nehmen solltest und wie du es vorträgst, steht im PDF.",
         ["§ 26 Abs. 6 DVStB"])
 
 

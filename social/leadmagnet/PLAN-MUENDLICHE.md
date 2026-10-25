@@ -2,6 +2,10 @@
 
 Jeden Tag **zusätzlich** zu b1–b3. Dateien: `social/leadmagnet/kanal/<slot>/`. Neu rendern: `CHROMIUM_PATH=/opt/pw-browsers/chromium-1243/chrome-linux64/chrome python3 tools/leadmagnet/op/rendern.py [slots]`.
 
+**Grundsatz, damit das PDF nicht überflüssig wird:** Beiträge zeigen den Fehler, die Prüfungssituation und die reine Rechtslage.
+Nur im PDF: Auflösung von Platz 1, Antworttaktik („So machst du es besser“), Merksätze, Protokoll-Zitate, Ablauf, Themenhäufigkeit, Checkliste.
+Die Reserve-Karussells k3/k4 zeigen je eine PDF-Szene vollständig – nur sparsam einsetzen.
+
 | Tag | Slot | Format | Thema |
 |---|---|---|---|
 | Tag 1 | r1 | Reel | Was dir keiner über die Mündliche sagt |
@@ -69,9 +73,9 @@ Die 10 häufigsten Fehler – mit Lösungen – im Gratis-PDF. 👉 Link in der 
 
 Fehler Nr. 1 der Mündlichen – er steht in mehr als jedem zweiten von über 400 Prüfungsprotokollen. 😬
 
-Prüferfrage: Vermietetes Haus nach sieben Jahren verkauft? Kernfrage zuerst: privates Veräußerungsgeschäft, § 23 Abs. 1 S. 1 Nr. 1 EStG – zwischen Anschaffung und Veräußerung nicht mehr als zehn Jahre, also steuerpflichtig.
+Prüferfrage: Vermietetes Haus nach sieben Jahren verkauft – was sagen Sie dem Mandanten? Viele verlieren sich in Details, und der Prüfer wartet.
 
-Alle 10 Fehler im Gratis-PDF 👉 Link in der Bio
+Wie die starke Antwort klingt – plus alle 10 Fehler mit Prüfungsszenen und Merksätzen – im Gratis-PDF 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -79,9 +83,9 @@ Alle 10 Fehler im Gratis-PDF 👉 Link in der Bio
 
 Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖
 
-„Ich glaube, vier Jahre“ kostet Punkte. Besser: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).
+„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -91,7 +95,7 @@ Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰
 
 „Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -101,7 +105,7 @@ Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯
 
 „Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -111,7 +115,7 @@ Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺
 
 Die Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -121,7 +125,7 @@ Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂
 
 „Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -131,7 +135,7 @@ Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊
 
 Besser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -141,7 +145,7 @@ Fehler Nr. 8 der Mündlichen: keine Rückfragen zum Sachverhalt. 🏠
 
 Familienheim an die Tochter: Zu Lebzeiten keine Befreiung (§ 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner). Im Erbfall Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht – bis 200 m² Wohnfläche.
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -151,7 +155,7 @@ Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨
 
 Vortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
@@ -159,9 +163,9 @@ Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokolle
 
 Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤
 
-Drei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Tipp aus den Protokollen: das Thema mit der klarsten Gliederung wählen, die Gliederung ansagen und Blickkontakt halten.
+Drei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Viele bereuen hinterher ihre Themenwahl – welches Thema du nehmen solltest und wie du es vorträgst, steht im PDF.
 
-Alle 10 Fehler der Mündlichen – ausgewertet aus über 400 Prüfungsprotokollen – als Gratis-PDF 👉 Link in der Bio
+Wie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio
 
 #steuerberaterprüfung #steuerberaterexamen #mündlicheprüfung #examensvorbereitung
 
