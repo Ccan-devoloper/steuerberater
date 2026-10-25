@@ -26,6 +26,9 @@
   .mark{background:linear-gradient(transparent 55%,var(--gelb) 55%)}
   .hand{font-family:Caveat,cursive;color:var(--orange);font-size:30px;transform:rotate(-2deg);display:inline-block}
   .vorteile{list-style:none;padding:0;margin:0 0 22px;display:grid;gap:8px;font-size:18px}
+  .vorteile li{position:relative;padding-left:40px}
+  .vorteile li::before{content:"";position:absolute;left:0;top:2px;width:24px;height:24px;border:2.5px solid var(--ink);border-radius:50% 45% 52% 48%;background:var(--gelb)}
+  .vorteile li::after{content:"";position:absolute;left:8px;top:6px;width:7px;height:12px;border:solid var(--ink);border-width:0 3px 3px 0;transform:rotate(40deg)}
   .lead{font-size:20px;color:var(--grau);margin:0 0 24px}
   .karte{background:#fff;border:3px solid var(--ink);border-radius:18px;box-shadow:6px 6px 0 var(--ink);padding:22px}
   form{display:flex;flex-direction:column;gap:12px}
@@ -37,7 +40,7 @@
   .klein a{color:inherit}
   label.check{display:flex;gap:10px;align-items:flex-start;font-size:14px;line-height:1.4}
   label.check input{margin-top:3px;width:18px;height:18px;flex:none}
-  .figur{width:100%;max-width:340px;justify-self:center}
+  .figur{width:100%;max-width:300px;justify-self:center}
   .figur img{width:100%;height:auto;display:block}
   section{padding:40px 0}
   h2{font-size:clamp(26px,4vw,38px);font-weight:900;margin:0 0 20px}
@@ -69,9 +72,9 @@
       <span class="hand">Für alle vor der Mündlichen</span>
       <h1>Bestehe die <span class="mark">mündliche StB-Prüfung</span> mit System</h1>
       <ul class="vorteile">
-        <li>📄 <b>Sofort:</b> PDF „Die 10 größten Fehler in der Mündlichen“</li>
-        <li>🎤 <b>Danach:</b> Kurzvortrag-Themen, Prüferfragen &amp; Checklisten per Mail</li>
-        <li>✅ Kostenlos, jederzeit abbestellbar</li>
+        <li><b>Sofort:</b> PDF „Die 10 größten Fehler in der Mündlichen“</li>
+        <li><b>Danach:</b> Kurzvortrag-Themen, Prüferfragen &amp; Checklisten per Mail</li>
+        <li>Kostenlos, jederzeit abbestellbar</li>
       </ul>
       <div class="karte" id="anmelden">
         <form class="lead-form" method="POST" target="_self">
@@ -87,7 +90,7 @@
         <div class="ok"><span class="hand">Geschafft!</span><p>Das PDF ist unterwegs. Schau in dein Postfach (notfalls im Spam-Ordner).</p></div>
       </div>
     </div>
-    <div class="figur"><img src="held.webp" alt="" width="560" height="900"></div>
+    <div class="figur"><img src="held.webp" alt="" width="410" height="1100"></div>
   </div>
 </main>
 
