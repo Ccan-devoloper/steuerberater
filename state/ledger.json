@@ -15204,7 +15204,24 @@
       "storyArt": "tipp",
       "thema": null,
       "fach": null,
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 12,
+        "views": 22,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 17,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 8,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-25T14:44:40.347Z",
+      "insightsAlterStunden": 1.1
     }
   ],
   "fachZaehler": {
