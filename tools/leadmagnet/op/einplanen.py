@@ -6,7 +6,8 @@ Uhrzeiten aus der Auswertung von state/insight-snapshots.json (114 Beiträge, 13
   Reels: 19 Uhr klar am stärksten (Median 198 Reichweite, zuletzt 400–1.060) – den Slot hat b3.
          Das Zusatz-Reel läuft deshalb um 17:30, mit Abstand vor b3 (12 Uhr war schwach, Median 69).
   Karussells: 16 Uhr am besten (Median 134, meiste Follows je Beitrag), 8:30/13:30 sind belegt (Median ~85).
-Aufruf: python3 tools/leadmagnet/op/einplanen.py [--start 2026-10-27] [--entfernen]"""
+Aufruf: python3 tools/leadmagnet/op/einplanen.py [--start 2026-10-26] [--entfernen]
+Am 26.10. läuft der erste Zusatzbeitrag ausnahmsweise um 07:00 (Wunsch Betreiber)."""
 import argparse, datetime as dt, json, os, sys
 
 HIER = os.path.dirname(os.path.abspath(__file__))
@@ -40,8 +41,12 @@ for i, quelle in enumerate(REIHENFOLGE):
             b["format"] = "pruefungsfrage"          # Feed-Format des Kanals für Karussells
         # Figurennamen dürfen sich am selben Tag nicht wiederholen
         belegt = {f.get("name") for x in tag["beitraege"] for f in (x.get("figuren") or {}).values()}
-        doppelt = [f["name"] for f in b["figuren"].values() if f["name"] in belegt]
-        assert not doppelt, f"{datum}: Figurenname schon vergeben: {doppelt}"
+        ersatz = [n for n in ("Malik", "Ida", "Ruben", "Zoe", "Levin", "Aylin", "Noah", "Frieda") if n not in belegt]
+        for f in b["figuren"].values():
+            if f["name"] in belegt:
+                alt, f["name"] = f["name"], ersatz.pop(0)
+                if b.get("hook", {}).get("name") == alt: b["hook"]["name"] = f["name"]
+                print(f"  {datum}: Figur {alt} heißt hier {f['name']} (Name am Tag schon vergeben)")
         b["leadmagnetQuelle"] = quelle
         tag["beitraege"].append(b)
     json.dump(tag, open(pfad, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

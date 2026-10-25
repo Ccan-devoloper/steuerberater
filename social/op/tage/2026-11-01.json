@@ -767,97 +767,101 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r4",
-   "themaTitel": "Aus dem Kopf statt aus dem Gesetz",
+   "themaId": "lead-reel-r5",
+   "themaTitel": "Aktuelles nicht auf dem Schirm",
    "figuren": {
-    "E": {
-     "name": "Selin",
-     "kopf": "Long",
-     "haut": "#D8A47F",
-     "haar": "#2A1B14",
-     "oberteil": "#9AD48F"
+    "F": {
+     "name": "Ben",
+     "kopf": "Short 1",
+     "haut": "#F0C8A8",
+     "haar": "#8B5A2B",
+     "oberteil": "#F9D56E",
+     "brille": "Glasses 3"
     }
    },
    "hook": {
     "zeilen": [
-     "„Ich glaube,",
-     "vier Jahre.“"
+     "„Was ist neu?“",
+     "Und du schweigst?"
     ],
     "icons": [
      [
-      "tabler:book",
+      "tabler:news",
       "GELB",
-      "Satz"
+      "Klassiker"
      ]
     ],
-    "stil": "kippen",
-    "richtig": {
-     "label": "Folge",
-     "text": "Punkte verschenkt",
-     "wort": "verschenkst",
-     "farbe": "ROT"
-    },
+    "stil": "split",
+    "split": [
+     {
+      "label": "Gefragt",
+      "wert": "Neuerungen",
+      "farbe": "GELB",
+      "wort": "neu"
+     },
+     {
+      "label": "Fehler",
+      "wert": "Platz 3",
+      "farbe": "ROT",
+      "wort": "Platz"
+     }
+    ],
     "stempel": {
-     "text": "Punktabzug!",
-     "wort": "Punkte"
+     "text": "Klassiker!",
+     "wort": "Klassiker"
     },
-    "pille": "Fehler Nr. 2 von 10",
-    "figur": "E/skeptisch",
-    "name": "Selin"
+    "pille": "Fehler Nr. 3 von 10",
+    "figur": "F/sorge",
+    "name": "Ben"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Die Frage",
+     "titel": "Der Einstieg",
      "elemente": [
       {
        "typ": "pille",
-       "text": "Wie lange änderbar?",
+       "text": "Jeder nennt eine Neuerung",
        "farbe": "WEISS",
-       "wort": "lange"
+       "wort": "Neuerung"
       }
      ],
      "icon": [
-      "tabler:help",
+      "tabler:news",
       "GELB",
-      "Frage"
+      "Prüfer"
      ]
     },
     {
      "seg": "s2",
-     "titel": "Erst die Norm",
+     "titel": "Zum Beispiel",
      "elemente": [
       {
        "typ": "block",
-       "label": "Festsetzungsfrist",
-       "wert": "4 Jahre",
+       "label": "seit 2025",
+       "wert": "E-Rechnung empfangen",
        "farbe": "GELB",
-       "wort": "Festsetzungsfrist",
-       "zs": 120
-      },
-      {
-       "typ": "norm",
-       "text": "§ 169 Abs. 2 S. 1 Nr. 2 AO",
-       "wort": "Paragraf"
+       "wort": "empfangen",
+       "zs": 80
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Dann der Beginn",
+     "titel": "Ausstellen",
      "elemente": [
       {
        "typ": "block",
-       "label": "Beginn",
-       "wert": "Ende des Abgabejahres",
+       "label": "Übergang",
+       "wert": "bis Ende 2026 / 2027",
        "farbe": "WEISS",
-       "wort": "beginnt",
-       "zs": 80
+       "wort": "Übergangsfristen",
+       "zs": 90
       },
       {
        "typ": "norm",
-       "text": "§ 170 Abs. 2 S. 1 Nr. 1 AO",
-       "wort": "hundertsiebzig"
+       "text": "§ 27 Abs. 38 UStG",
+       "wort": "Ausstellen"
       }
      ]
     }
@@ -865,19 +869,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Und merkst es nicht mal."
+     "text": "Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler."
     },
     {
      "id": "s1",
-     "text": "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?"
+     "text": "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung."
     },
     {
      "id": "s2",
-     "text": "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung."
+     "text": "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können."
     },
     {
      "id": "s3",
-     "text": "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig."
+     "text": "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig."
     },
     {
      "id": "cta",
@@ -902,7 +906,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -910,11 +914,10 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "§ 169 Abs. 2 S. 1 Nr. 2 AO",
-    "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+    "§ 27 Abs. 38 UStG"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r4"
+   "leadmagnetQuelle": "r5"
   }
  ],
  "stories": [

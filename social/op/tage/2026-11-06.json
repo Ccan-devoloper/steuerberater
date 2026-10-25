@@ -981,89 +981,101 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r9",
-   "themaTitel": "Schweigen oder „keine Ahnung“ sagen",
+   "themaId": "lead-reel-r10",
+   "themaTitel": "Keine Rückfragen zum Sachverhalt",
    "figuren": {
-    "J": {
-     "name": "Yusuf",
-     "kopf": "Short 5",
-     "haut": "#B07552",
-     "haar": "#1E1410",
-     "oberteil": "#9AD48F",
-     "bart": "Goatee 1"
+    "K": {
+     "name": "Clara",
+     "kopf": "Gray Medium",
+     "haut": "#F0C8A8",
+     "haar": "#BFBFBF",
+     "oberteil": "#8DB3F2",
+     "brille": "Glasses"
     }
    },
    "hook": {
     "zeilen": [
-     "„Keine",
-     "Ahnung.“"
+     "Familienheim an die",
+     "Tochter: steuerfrei?"
     ],
     "icons": [
      [
-      "tabler:message-off",
+      "tabler:home",
       "GELB",
-      "nie"
+      "schnell"
      ]
     ],
-    "stil": "knall",
-    "stempel": {
-     "text": "nie sagen!",
-     "wort": "nie"
+    "stil": "kippen",
+    "richtig": {
+     "label": "Richtig",
+     "text": "erst nachfragen",
+     "wort": "nachfragen",
+     "farbe": "GRUEN"
     },
-    "pille": "Fehler Nr. 7 von 10",
-    "figur": "J/sorge",
-    "name": "Yusuf"
+    "stempel": {
+     "text": "zu schnell!",
+     "wort": "schnell"
+    },
+    "pille": "Fehler Nr. 8 von 10",
+    "figur": "K/erklaert",
+    "name": "Clara"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 7",
+     "titel": "Schenkung",
      "elemente": [
       {
        "typ": "block",
-       "label": "Fehler",
-       "wert": "Schweigen",
+       "label": "Schenkung an Kind",
+       "wert": "nicht befreit",
        "farbe": "ROT",
-       "wort": "Schweigen",
-       "zs": 110
+       "wort": "Schenkung",
+       "zs": 100
+      },
+      {
+       "typ": "norm",
+       "text": "§ 13 Abs. 1 Nr. 4a ErbStG",
+       "wort": "Befreiung"
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Grundtatbestand",
+     "titel": "Erbfall",
      "elemente": [
       {
        "typ": "block",
-       "label": "Haftungsbescheid",
-       "wert": "Verwaltungsakt",
-       "farbe": "GELB",
-       "wort": "Verwaltungsakt",
-       "zs": 90
+       "label": "Erbfall",
+       "wert": "befreit",
+       "farbe": "GRUEN",
+       "wort": "Erbfall",
+       "zs": 110
+      },
+      {
+       "typ": "pille",
+       "text": "bis 200 m² Wohnfläche",
+       "farbe": "WEISS",
+       "wort": "zweihundert"
       },
       {
        "typ": "norm",
-       "text": "§ 191 Abs. 1 AO",
-       "wort": "Haftungsbescheid"
+       "text": "§ 13 Abs. 1 Nr. 4c ErbStG",
+       "wort": "einzieht"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Also",
+     "titel": "Platz 8",
      "elemente": [
       {
        "typ": "block",
-       "label": "Einspruch",
-       "wert": "1 Monat",
-       "farbe": "GRUEN",
-       "wort": "Einspruch",
-       "zs": 110
-      },
-      {
-       "typ": "norm",
-       "text": "§ 355 Abs. 1 AO",
-       "wort": "Paragraf"
+       "label": "Fehler",
+       "wert": "Keine Rückfragen",
+       "farbe": "ROT",
+       "wort": "Rückfragen",
+       "zs": 100
       }
      ]
     }
@@ -1071,19 +1083,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Keine Ahnung. Diesen Satz solltest du in der Mündlichen nie sagen."
+     "text": "Familienheim an die Tochter, steuerfrei? Wer zu schnell antwortet, verliert. Erst nachfragen."
     },
     {
      "id": "s1",
-     "text": "Schweigen und Aufgeben ist Platz sieben der häufigsten Fehler."
+     "text": "Schenkung zu Lebzeiten an ein Kind: keine Befreiung."
     },
     {
      "id": "s2",
-     "text": "Fang beim Grundtatbestand an. Ein Haftungsbescheid ist ein Verwaltungsakt."
+     "text": "Im Erbfall schon, wenn die Tochter selbst einzieht. Bis zweihundert Quadratmeter."
     },
     {
      "id": "s3",
-     "text": "Also Einspruch, innerhalb eines Monats. Paragraf dreihundertfünfundfünfzig."
+     "text": "Keine Rückfragen zum Sachverhalt ist Platz acht der häufigsten Fehler."
     },
     {
      "id": "cta",
@@ -1108,7 +1120,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊\n\nBesser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 8 der Mündlichen: keine Rückfragen zum Sachverhalt. 🏠\n\nFamilienheim an die Tochter: Zu Lebzeiten keine Befreiung (§ 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner). Im Erbfall Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht – bis 200 m² Wohnfläche.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -1116,12 +1128,11 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "§ 191 Abs. 1 AO",
-    "§ 347 AO",
-    "§ 355 Abs. 1 AO"
+    "§ 13 Abs. 1 Nr. 4a ErbStG",
+    "§ 13 Abs. 1 Nr. 4c ErbStG"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r9"
+   "leadmagnetQuelle": "r10"
   }
  ],
  "stories": [

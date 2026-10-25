@@ -986,92 +986,124 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r6",
-   "themaTitel": "Fachbegriffe nicht treffen",
+   "themaId": "lead-reel-r7",
+   "themaTitel": "Randgebiete vernachlässigen",
    "figuren": {
-    "G": {
-     "name": "Amara",
-     "kopf": "Afro",
-     "haut": "#8D5524",
-     "haar": "#1E1410",
-     "oberteil": "#F4A3B5"
+    "H": {
+     "name": "Paul",
+     "kopf": "Medium 1",
+     "haut": "#E8B48F",
+     "haar": "#6B3E26",
+     "oberteil": "#8DB3F2",
+     "bart": "Full 2"
     }
    },
    "hook": {
     "zeilen": [
-     "„Steuerfrei,",
-     "weil Ausland.“"
+     "Welche EU-Organe",
+     "kennst du?"
     ],
     "icons": [
      [
-      "tabler:world",
+      "tabler:building-bank",
       "GELB",
-      "Fachbegriff"
+      "Randgebiet"
      ]
     ],
-    "stil": "kippen",
-    "richtig": {
-     "label": "Fachbegriff",
-     "text": "innergemeinschaftliche Lieferung",
-     "wort": "Fachbegriff",
-     "farbe": "GRUEN"
-    },
+    "stil": "split",
+    "split": [
+     {
+      "label": "Viele nennen",
+      "wert": "2",
+      "farbe": "ROT",
+      "wort": "zwei"
+     },
+     {
+      "label": "Richtig",
+      "wert": "7",
+      "farbe": "GRUEN",
+      "wort": "sieben"
+     }
+    ],
     "stempel": {
-     "text": "zu ungenau!",
-     "wort": "ungenau"
+     "text": "Randgebiet!",
+     "wort": "Randgebiet"
     },
-    "pille": "Fehler Nr. 4 von 10",
-    "figur": "G/erklaert",
-    "name": "Amara"
+    "pille": "Fehler Nr. 5 von 10",
+    "figur": "H/ruhig",
+    "name": "Paul"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 4",
+     "titel": "Platz 5",
      "elemente": [
       {
        "typ": "block",
        "label": "Fehler",
-       "wert": "Fachbegriffe",
+       "wert": "Randgebiete",
        "farbe": "ROT",
-       "wort": "Fachbegriffe",
+       "wort": "Randgebiete",
        "zs": 110
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Der Begriff",
+     "titel": "Die Organe",
      "elemente": [
       {
-       "typ": "block",
-       "label": "Fachbegriff",
-       "wert": "innergemeinschaftliche Lieferung",
-       "farbe": "GRUEN",
-       "wort": "innergemeinschaftliche",
-       "zs": 64
+       "typ": "pille",
+       "text": "Europäisches Parlament",
+       "farbe": "WEISS",
+       "wort": "Parlament"
       },
       {
-       "typ": "norm",
-       "text": "§ 4 Nr. 1 Buchst. b, § 6a UStG",
-       "wort": "Paragraf"
+       "typ": "pille",
+       "text": "Europäischer Rat",
+       "farbe": "WEISS",
+       "wort": "Europäischer"
+      },
+      {
+       "typ": "pille",
+       "text": "Rat",
+       "farbe": "WEISS",
+       "wort": "der"
+      },
+      {
+       "typ": "pille",
+       "text": "Kommission",
+       "farbe": "WEISS",
+       "wort": "Kommission"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Die Bedingung",
+     "titel": "… und weiter",
      "elemente": [
       {
        "typ": "pille",
-       "text": "gültige USt-IdNr. verwendet",
+       "text": "Gerichtshof der EU",
        "farbe": "WEISS",
-       "wort": "gültige"
+       "wort": "Gerichtshof"
+      },
+      {
+       "typ": "pille",
+       "text": "Europäische Zentralbank",
+       "farbe": "WEISS",
+       "wort": "Zentralbank"
+      },
+      {
+       "typ": "pille",
+       "text": "Rechnungshof",
+       "farbe": "WEISS",
+       "wort": "Rechnungshof"
       },
       {
        "typ": "norm",
-       "text": "§ 6a Abs. 1 S. 1 Nr. 4 UStG",
-       "wort": "verwendet"
+       "text": "Art. 13 Abs. 1 EUV",
+       "wort": "Artikel"
       }
      ]
     }
@@ -1079,19 +1111,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Steuerfrei, weil Ausland. Viel zu ungenau. Der Prüfer wartet auf den Fachbegriff."
+     "text": "Welche Organe der EU kennst du? Viele nennen zwei. Richtig sind sieben. Ein typisches Randgebiet."
     },
     {
      "id": "s1",
-     "text": "Fachbegriffe nicht treffen ist Platz vier der häufigsten Fehler."
+     "text": "Randgebiete wie Europarecht sind Platz fünf der häufigsten Fehler."
     },
     {
      "id": "s2",
-     "text": "Richtig ist: innergemeinschaftliche Lieferung. Steuerfrei nach Paragraf vier Nummer eins b und sechs a Umsatzsteuergesetz."
+     "text": "Parlament, Europäischer Rat, der Rat, Kommission,"
     },
     {
      "id": "s3",
-     "text": "Aber nur, wenn der Kunde seine gültige ausländische Umsatzsteuer-Identifikationsnummer verwendet."
+     "text": "Gerichtshof, Zentralbank und Rechnungshof. Artikel dreizehn des EU-Vertrags."
     },
     {
      "id": "cta",
@@ -1116,7 +1148,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯\n\n„Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺\n\nDie Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -1124,11 +1156,10 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "§ 4 Nr. 1 Buchst. b UStG",
-    "§ 6a Abs. 1 S. 1 Nr. 4 UStG"
+    "Art. 13 Abs. 1 EUV"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r6"
+   "leadmagnetQuelle": "r7"
   }
  ],
  "stories": [

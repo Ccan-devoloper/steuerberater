@@ -1054,95 +1054,89 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r8",
-   "themaTitel": "Nicht zuhören, wenn andere dran sind",
+   "themaId": "lead-reel-r9",
+   "themaTitel": "Schweigen oder „keine Ahnung“ sagen",
    "figuren": {
-    "I": {
-     "name": "Nora",
-     "kopf": "Bangs",
-     "haut": "#F3D0B5",
-     "haar": "#C9A15B",
-     "oberteil": "#F9D56E"
+    "J": {
+     "name": "Yusuf",
+     "kopf": "Short 5",
+     "haut": "#B07552",
+     "haar": "#1E1410",
+     "oberteil": "#9AD48F",
+     "bart": "Goatee 1"
     }
    },
    "hook": {
     "zeilen": [
-     "„Sehen Sie das",
-     "genauso?“"
+     "„Keine",
+     "Ahnung.“"
     ],
     "icons": [
      [
-      "tabler:ear",
+      "tabler:message-off",
       "GELB",
-      "zugehört"
+      "nie"
      ]
     ],
-    "stil": "kippen",
-    "richtig": {
-     "label": "Lösung",
-     "text": "immer mitdenken",
-     "wort": "mitdenken",
-     "farbe": "GRUEN"
-    },
+    "stil": "knall",
     "stempel": {
-     "text": "erwischt!",
-     "wort": "erwischt"
+     "text": "nie sagen!",
+     "wort": "nie"
     },
-    "pille": "Fehler Nr. 6 von 10",
-    "figur": "I/eilt",
-    "name": "Nora"
+    "pille": "Fehler Nr. 7 von 10",
+    "figur": "J/sorge",
+    "name": "Yusuf"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 6",
+     "titel": "Platz 7",
      "elemente": [
-      {
-       "typ": "pille",
-       "text": "ohne Vorwarnung weitergegeben",
-       "farbe": "WEISS",
-       "wort": "Vorwarnung"
-      },
       {
        "typ": "block",
        "label": "Fehler",
-       "wert": "Nicht zuhören",
+       "wert": "Schweigen",
        "farbe": "ROT",
-       "wort": "sechs",
-       "zs": 100
+       "wort": "Schweigen",
+       "zs": 110
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Die Frage",
+     "titel": "Grundtatbestand",
      "elemente": [
       {
        "typ": "block",
-       "label": "nach Bestandskraft",
-       "wert": "neue Belege",
+       "label": "Haftungsbescheid",
+       "wert": "Verwaltungsakt",
        "farbe": "GELB",
-       "wort": "Belege",
-       "zs": 100
+       "wort": "Verwaltungsakt",
+       "zs": 90
       },
       {
        "typ": "norm",
-       "text": "§ 173 Abs. 1 Nr. 2 AO",
-       "wort": "Paragraf"
+       "text": "§ 191 Abs. 1 AO",
+       "wort": "Haftungsbescheid"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Die Ergänzung",
+     "titel": "Also",
      "elemente": [
       {
        "typ": "block",
-       "label": "zugunsten",
-       "wert": "kein grobes Verschulden",
+       "label": "Einspruch",
+       "wert": "1 Monat",
        "farbe": "GRUEN",
-       "wort": "grobes",
-       "zs": 76
+       "wort": "Einspruch",
+       "zs": 110
+      },
+      {
+       "typ": "norm",
+       "text": "§ 355 Abs. 1 AO",
+       "wort": "Paragraf"
       }
      ]
     }
@@ -1150,19 +1144,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Sehen Sie das genauso? Wer nicht zugehört hat, ist jetzt erwischt. Also: immer mitdenken."
+     "text": "Keine Ahnung. Diesen Satz solltest du in der Mündlichen nie sagen."
     },
     {
      "id": "s1",
-     "text": "Fragen werden oft ohne Vorwarnung weitergegeben. Platz sechs der häufigsten Fehler."
+     "text": "Schweigen und Aufgeben ist Platz sieben der häufigsten Fehler."
     },
     {
      "id": "s2",
-     "text": "Beispiel: Nach Bestandskraft tauchen neue Belege auf. Änderung nach Paragraf hundertdreiundsiebzig?"
+     "text": "Fang beim Grundtatbestand an. Ein Haftungsbescheid ist ein Verwaltungsakt."
     },
     {
      "id": "s3",
-     "text": "Stark ergänzt: Zugunsten des Steuerpflichtigen nur ohne grobes Verschulden."
+     "text": "Also Einspruch, innerhalb eines Monats. Paragraf dreihundertfünfundfünfzig."
     },
     {
      "id": "cta",
@@ -1187,7 +1181,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂\n\n„Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊\n\nBesser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -1195,10 +1189,12 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "§ 173 Abs. 1 Nr. 2 AO"
+    "§ 191 Abs. 1 AO",
+    "§ 347 AO",
+    "§ 355 Abs. 1 AO"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r8"
+   "leadmagnetQuelle": "r9"
   }
  ],
  "stories": [

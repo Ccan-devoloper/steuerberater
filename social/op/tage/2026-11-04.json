@@ -1018,124 +1018,95 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r7",
-   "themaTitel": "Randgebiete vernachlässigen",
+   "themaId": "lead-reel-r8",
+   "themaTitel": "Nicht zuhören, wenn andere dran sind",
    "figuren": {
-    "H": {
-     "name": "Paul",
-     "kopf": "Medium 1",
-     "haut": "#E8B48F",
-     "haar": "#6B3E26",
-     "oberteil": "#8DB3F2",
-     "bart": "Full 2"
+    "I": {
+     "name": "Nora",
+     "kopf": "Bangs",
+     "haut": "#F3D0B5",
+     "haar": "#C9A15B",
+     "oberteil": "#F9D56E"
     }
    },
    "hook": {
     "zeilen": [
-     "Welche EU-Organe",
-     "kennst du?"
+     "„Sehen Sie das",
+     "genauso?“"
     ],
     "icons": [
      [
-      "tabler:building-bank",
+      "tabler:ear",
       "GELB",
-      "Randgebiet"
+      "zugehört"
      ]
     ],
-    "stil": "split",
-    "split": [
-     {
-      "label": "Viele nennen",
-      "wert": "2",
-      "farbe": "ROT",
-      "wort": "zwei"
-     },
-     {
-      "label": "Richtig",
-      "wert": "7",
-      "farbe": "GRUEN",
-      "wort": "sieben"
-     }
-    ],
-    "stempel": {
-     "text": "Randgebiet!",
-     "wort": "Randgebiet"
+    "stil": "kippen",
+    "richtig": {
+     "label": "Lösung",
+     "text": "immer mitdenken",
+     "wort": "mitdenken",
+     "farbe": "GRUEN"
     },
-    "pille": "Fehler Nr. 5 von 10",
-    "figur": "H/ruhig",
-    "name": "Paul"
+    "stempel": {
+     "text": "erwischt!",
+     "wort": "erwischt"
+    },
+    "pille": "Fehler Nr. 6 von 10",
+    "figur": "I/eilt",
+    "name": "Nora"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Platz 5",
+     "titel": "Platz 6",
      "elemente": [
+      {
+       "typ": "pille",
+       "text": "ohne Vorwarnung weitergegeben",
+       "farbe": "WEISS",
+       "wort": "Vorwarnung"
+      },
       {
        "typ": "block",
        "label": "Fehler",
-       "wert": "Randgebiete",
+       "wert": "Nicht zuhören",
        "farbe": "ROT",
-       "wort": "Randgebiete",
-       "zs": 110
+       "wort": "sechs",
+       "zs": 100
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Die Organe",
+     "titel": "Die Frage",
      "elemente": [
       {
-       "typ": "pille",
-       "text": "Europäisches Parlament",
-       "farbe": "WEISS",
-       "wort": "Parlament"
+       "typ": "block",
+       "label": "nach Bestandskraft",
+       "wert": "neue Belege",
+       "farbe": "GELB",
+       "wort": "Belege",
+       "zs": 100
       },
       {
-       "typ": "pille",
-       "text": "Europäischer Rat",
-       "farbe": "WEISS",
-       "wort": "Europäischer"
-      },
-      {
-       "typ": "pille",
-       "text": "Rat",
-       "farbe": "WEISS",
-       "wort": "der"
-      },
-      {
-       "typ": "pille",
-       "text": "Kommission",
-       "farbe": "WEISS",
-       "wort": "Kommission"
+       "typ": "norm",
+       "text": "§ 173 Abs. 1 Nr. 2 AO",
+       "wort": "Paragraf"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "… und weiter",
+     "titel": "Die Ergänzung",
      "elemente": [
       {
-       "typ": "pille",
-       "text": "Gerichtshof der EU",
-       "farbe": "WEISS",
-       "wort": "Gerichtshof"
-      },
-      {
-       "typ": "pille",
-       "text": "Europäische Zentralbank",
-       "farbe": "WEISS",
-       "wort": "Zentralbank"
-      },
-      {
-       "typ": "pille",
-       "text": "Rechnungshof",
-       "farbe": "WEISS",
-       "wort": "Rechnungshof"
-      },
-      {
-       "typ": "norm",
-       "text": "Art. 13 Abs. 1 EUV",
-       "wort": "Artikel"
+       "typ": "block",
+       "label": "zugunsten",
+       "wert": "kein grobes Verschulden",
+       "farbe": "GRUEN",
+       "wort": "grobes",
+       "zs": 76
       }
      ]
     }
@@ -1143,19 +1114,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Welche Organe der EU kennst du? Viele nennen zwei. Richtig sind sieben. Ein typisches Randgebiet."
+     "text": "Sehen Sie das genauso? Wer nicht zugehört hat, ist jetzt erwischt. Also: immer mitdenken."
     },
     {
      "id": "s1",
-     "text": "Randgebiete wie Europarecht sind Platz fünf der häufigsten Fehler."
+     "text": "Fragen werden oft ohne Vorwarnung weitergegeben. Platz sechs der häufigsten Fehler."
     },
     {
      "id": "s2",
-     "text": "Parlament, Europäischer Rat, der Rat, Kommission,"
+     "text": "Beispiel: Nach Bestandskraft tauchen neue Belege auf. Änderung nach Paragraf hundertdreiundsiebzig?"
     },
     {
      "id": "s3",
-     "text": "Gerichtshof, Zentralbank und Rechnungshof. Artikel dreizehn des EU-Vertrags."
+     "text": "Stark ergänzt: Zugunsten des Steuerpflichtigen nur ohne grobes Verschulden."
     },
     {
      "id": "cta",
@@ -1180,7 +1151,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺\n\nDie Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂\n\n„Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -1188,10 +1159,10 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "Art. 13 Abs. 1 EUV"
+    "§ 173 Abs. 1 Nr. 2 AO"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r7"
+   "leadmagnetQuelle": "r8"
   }
  ],
  "stories": [

@@ -1028,101 +1028,92 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r5",
-   "themaTitel": "Aktuelles nicht auf dem Schirm",
+   "themaId": "lead-reel-r6",
+   "themaTitel": "Fachbegriffe nicht treffen",
    "figuren": {
-    "F": {
-     "name": "Ben",
-     "kopf": "Short 1",
-     "haut": "#F0C8A8",
-     "haar": "#8B5A2B",
-     "oberteil": "#F9D56E",
-     "brille": "Glasses 3"
+    "G": {
+     "name": "Amara",
+     "kopf": "Afro",
+     "haut": "#8D5524",
+     "haar": "#1E1410",
+     "oberteil": "#F4A3B5"
     }
    },
    "hook": {
     "zeilen": [
-     "„Was ist neu?“",
-     "Und du schweigst?"
+     "„Steuerfrei,",
+     "weil Ausland.“"
     ],
     "icons": [
      [
-      "tabler:news",
+      "tabler:world",
       "GELB",
-      "Klassiker"
+      "Fachbegriff"
      ]
     ],
-    "stil": "split",
-    "split": [
-     {
-      "label": "Gefragt",
-      "wert": "Neuerungen",
-      "farbe": "GELB",
-      "wort": "neu"
-     },
-     {
-      "label": "Fehler",
-      "wert": "Platz 3",
-      "farbe": "ROT",
-      "wort": "Platz"
-     }
-    ],
-    "stempel": {
-     "text": "Klassiker!",
-     "wort": "Klassiker"
+    "stil": "kippen",
+    "richtig": {
+     "label": "Fachbegriff",
+     "text": "innergemeinschaftliche Lieferung",
+     "wort": "Fachbegriff",
+     "farbe": "GRUEN"
     },
-    "pille": "Fehler Nr. 3 von 10",
-    "figur": "F/sorge",
-    "name": "Ben"
+    "stempel": {
+     "text": "zu ungenau!",
+     "wort": "ungenau"
+    },
+    "pille": "Fehler Nr. 4 von 10",
+    "figur": "G/erklaert",
+    "name": "Amara"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Der Einstieg",
+     "titel": "Platz 4",
      "elemente": [
       {
-       "typ": "pille",
-       "text": "Jeder nennt eine Neuerung",
-       "farbe": "WEISS",
-       "wort": "Neuerung"
+       "typ": "block",
+       "label": "Fehler",
+       "wert": "Fachbegriffe",
+       "farbe": "ROT",
+       "wort": "Fachbegriffe",
+       "zs": 110
       }
-     ],
-     "icon": [
-      "tabler:news",
-      "GELB",
-      "Prüfer"
      ]
     },
     {
      "seg": "s2",
-     "titel": "Zum Beispiel",
+     "titel": "Der Begriff",
      "elemente": [
       {
        "typ": "block",
-       "label": "seit 2025",
-       "wert": "E-Rechnung empfangen",
-       "farbe": "GELB",
-       "wort": "empfangen",
-       "zs": 80
+       "label": "Fachbegriff",
+       "wert": "innergemeinschaftliche Lieferung",
+       "farbe": "GRUEN",
+       "wort": "innergemeinschaftliche",
+       "zs": 64
+      },
+      {
+       "typ": "norm",
+       "text": "§ 4 Nr. 1 Buchst. b, § 6a UStG",
+       "wort": "Paragraf"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Ausstellen",
+     "titel": "Die Bedingung",
      "elemente": [
       {
-       "typ": "block",
-       "label": "Übergang",
-       "wert": "bis Ende 2026 / 2027",
+       "typ": "pille",
+       "text": "gültige USt-IdNr. verwendet",
        "farbe": "WEISS",
-       "wort": "Übergangsfristen",
-       "zs": 90
+       "wort": "gültige"
       },
       {
        "typ": "norm",
-       "text": "§ 27 Abs. 38 UStG",
-       "wort": "Ausstellen"
+       "text": "§ 6a Abs. 1 S. 1 Nr. 4 UStG",
+       "wort": "verwendet"
       }
      ]
     }
@@ -1130,19 +1121,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler."
+     "text": "Steuerfrei, weil Ausland. Viel zu ungenau. Der Prüfer wartet auf den Fachbegriff."
     },
     {
      "id": "s1",
-     "text": "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung."
+     "text": "Fachbegriffe nicht treffen ist Platz vier der häufigsten Fehler."
     },
     {
      "id": "s2",
-     "text": "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können."
+     "text": "Richtig ist: innergemeinschaftliche Lieferung. Steuerfrei nach Paragraf vier Nummer eins b und sechs a Umsatzsteuergesetz."
     },
     {
      "id": "s3",
-     "text": "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig."
+     "text": "Aber nur, wenn der Kunde seine gültige ausländische Umsatzsteuer-Identifikationsnummer verwendet."
     },
     {
      "id": "cta",
@@ -1167,7 +1158,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯\n\n„Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -1175,10 +1166,11 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "§ 27 Abs. 38 UStG"
+    "§ 4 Nr. 1 Buchst. b UStG",
+    "§ 6a Abs. 1 S. 1 Nr. 4 UStG"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r5"
+   "leadmagnetQuelle": "r6"
   }
  ],
  "stories": [

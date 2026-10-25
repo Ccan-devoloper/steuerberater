@@ -883,100 +883,102 @@
    "slot": "m1",
    "format": "reel",
    "reelTyp": "klausurfalle",
-   "themaId": "lead-reel-r10",
-   "themaTitel": "Keine Rückfragen zum Sachverhalt",
+   "themaId": "lead-reel-r11",
+   "themaTitel": "Eine schlechte Runde mitnehmen",
    "figuren": {
-    "K": {
-     "name": "Clara",
-     "kopf": "Gray Medium",
-     "haut": "#F0C8A8",
-     "haar": "#BFBFBF",
-     "oberteil": "#8DB3F2",
-     "brille": "Glasses"
+    "L": {
+     "name": "Emre",
+     "kopf": "Flat Top",
+     "haut": "#C99470",
+     "haar": "#2A1B14",
+     "oberteil": "#F4A3B5"
     }
    },
    "hook": {
     "zeilen": [
-     "Familienheim an die",
-     "Tochter: steuerfrei?"
+     "Runde verhauen.",
+     "Alles vorbei?"
     ],
     "icons": [
      [
-      "tabler:home",
+      "tabler:mood-sad",
       "GELB",
-      "schnell"
+      "verhauen"
      ]
     ],
-    "stil": "kippen",
-    "richtig": {
-     "label": "Richtig",
-     "text": "erst nachfragen",
-     "wort": "nachfragen",
-     "farbe": "GRUEN"
-    },
+    "stil": "split",
+    "split": [
+     {
+      "label": "Gefühl",
+      "wert": "verloren",
+      "farbe": "ROT",
+      "wort": "verhauen"
+     },
+     {
+      "label": "Tatsache",
+      "wert": "neue Chance",
+      "farbe": "GRUEN",
+      "wort": "vorbei"
+     }
+    ],
     "stempel": {
-     "text": "zu schnell!",
-     "wort": "schnell"
+     "text": "nein!",
+     "wort": "Nein"
     },
-    "pille": "Fehler Nr. 8 von 10",
-    "figur": "K/erklaert",
-    "name": "Clara"
+    "pille": "Fehler Nr. 9 von 10",
+    "figur": "L/sorge",
+    "name": "Emre"
    },
    "szenen": [
     {
      "seg": "s1",
-     "titel": "Schenkung",
+     "titel": "Gesondert bewertet",
      "elemente": [
       {
        "typ": "block",
-       "label": "Schenkung an Kind",
-       "wert": "nicht befreit",
-       "farbe": "ROT",
-       "wort": "Schenkung",
-       "zs": 100
+       "label": "gesondert bewertet",
+       "wert": "Vortrag + 6 Runden",
+       "farbe": "GELB",
+       "wort": "gesondert",
+       "zs": 90
       },
       {
        "typ": "norm",
-       "text": "§ 13 Abs. 1 Nr. 4a ErbStG",
-       "wort": "Befreiung"
+       "text": "§ 27 Abs. 1 DVStB",
+       "wort": "bewertet"
       }
      ]
     },
     {
      "seg": "s2",
-     "titel": "Erbfall",
+     "titel": "Am Ende",
      "elemente": [
       {
        "typ": "block",
-       "label": "Erbfall",
-       "wert": "befreit",
-       "farbe": "GRUEN",
-       "wort": "Erbfall",
-       "zs": 110
+       "label": "zählt",
+       "wert": "der Durchschnitt",
+       "farbe": "WEISS",
+       "wort": "Durchschnitt",
+       "zs": 100
       },
       {
        "typ": "pille",
-       "text": "bis 200 m² Wohnfläche",
+       "text": "neue Runde, neue Chance",
        "farbe": "WEISS",
-       "wort": "zweihundert"
-      },
-      {
-       "typ": "norm",
-       "text": "§ 13 Abs. 1 Nr. 4c ErbStG",
-       "wort": "einzieht"
+       "wort": "Chance"
       }
      ]
     },
     {
      "seg": "s3",
-     "titel": "Platz 8",
+     "titel": "Platz 9",
      "elemente": [
       {
        "typ": "block",
        "label": "Fehler",
-       "wert": "Keine Rückfragen",
+       "wert": "Runde mitnehmen",
        "farbe": "ROT",
-       "wort": "Rückfragen",
+       "wort": "neun",
        "zs": 100
       }
      ]
@@ -985,19 +987,19 @@
    "sprecher": [
     {
      "id": "hook",
-     "text": "Familienheim an die Tochter, steuerfrei? Wer zu schnell antwortet, verliert. Erst nachfragen."
+     "text": "Eine Runde verhauen. Ist jetzt alles vorbei? Nein."
     },
     {
      "id": "s1",
-     "text": "Schenkung zu Lebzeiten an ein Kind: keine Befreiung."
+     "text": "Der Vortrag und jede Runde werden gesondert bewertet."
     },
     {
      "id": "s2",
-     "text": "Im Erbfall schon, wenn die Tochter selbst einzieht. Bis zweihundert Quadratmeter."
+     "text": "Am Ende zählt der Durchschnitt. Jede neue Runde ist eine neue Chance."
     },
     {
      "id": "s3",
-     "text": "Keine Rückfragen zum Sachverhalt ist Platz acht der häufigsten Fehler."
+     "text": "Eine schlechte Runde mitnehmen ist Platz neun der häufigsten Fehler."
     },
     {
      "id": "cta",
@@ -1022,7 +1024,7 @@
     "cta_wort": "Link",
     "hinweis": "Aus über 400 Prüfungsprotokollen"
    },
-   "caption": "Fehler Nr. 8 der Mündlichen: keine Rückfragen zum Sachverhalt. 🏠\n\nFamilienheim an die Tochter: Zu Lebzeiten keine Befreiung (§ 13 Abs. 1 Nr. 4a ErbStG gilt nur für Ehegatten und Lebenspartner). Im Erbfall Befreiung nach § 13 Abs. 1 Nr. 4c ErbStG möglich, wenn das Kind selbst einzieht – bis 200 m² Wohnfläche.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+   "caption": "Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨\n\nVortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
    "hashtags": [
     "#steuerberaterprüfung",
     "#steuerberaterexamen",
@@ -1030,11 +1032,11 @@
     "#examensvorbereitung"
    ],
    "quellen": [
-    "§ 13 Abs. 1 Nr. 4a ErbStG",
-    "§ 13 Abs. 1 Nr. 4c ErbStG"
+    "§ 27 Abs. 1 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
    ],
    "zeit": "17:30",
-   "leadmagnetQuelle": "r10"
+   "leadmagnetQuelle": "r11"
   }
  ],
  "stories": [
