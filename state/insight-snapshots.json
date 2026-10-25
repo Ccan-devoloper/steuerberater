@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-25T16:44:01.827Z",
+  "stand": "2026-10-25T17:44:58.152Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -37739,6 +37739,20 @@
           "ig_reels_avg_watch_time": 7411,
           "ig_reels_video_view_total_time": 4098624,
           "reels_skip_rate": 61.1
+        },
+        {
+          "stand": "2026-10-25T17:44:56.613Z",
+          "alterStunden": 144.7,
+          "reach": 548,
+          "saved": 3,
+          "shares": 1,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 11,
+          "views": 648,
+          "ig_reels_avg_watch_time": 7416,
+          "ig_reels_video_view_total_time": 4146007,
+          "reels_skip_rate": 61
         }
       ]
     },
@@ -44165,6 +44179,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-25T17:44:56.613Z",
+          "alterStunden": 30.2,
+          "reach": 83,
+          "saved": 3,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -44849,6 +44875,23 @@
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 51,
           "navigation_tap_back": 6
+        },
+        {
+          "stand": "2026-10-25T17:44:51.886Z",
+          "alterStunden": 10.2,
+          "reach": 79,
+          "views": 93,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 84,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 63,
+          "navigation_tap_back": 7
         }
       ]
     },
@@ -44983,6 +45026,23 @@
           "navigation_tap_forward": 8,
           "navigation_tap_exit": 7,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-25T17:44:51.886Z",
+          "alterStunden": 5.2,
+          "reach": 54,
+          "views": 60,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 54,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 14,
+          "navigation_tap_forward": 37,
+          "navigation_tap_back": 1
         }
       ]
     },
@@ -45019,6 +45079,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-25T17:44:56.613Z",
+          "alterStunden": 5.2,
+          "reach": 63,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -45048,6 +45120,34 @@
           "navigation_tap_forward": 8,
           "navigation_tap_back": 1,
           "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "17869926081659663": {
+      "art": "story",
+      "datum": "2026-10-25",
+      "titel": null,
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-25T16:04:03.969Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-25T17:44:51.886Z",
+          "alterStunden": 1.7,
+          "reach": 34,
+          "views": 45,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 40,
+          "navigation_tap_forward": 32,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 1
         }
       ]
     }
@@ -47611,6 +47711,11 @@
     {
       "stand": "2026-10-25T16:04:15.711Z",
       "follower": 237,
+      "medien": 149
+    },
+    {
+      "stand": "2026-10-25T17:44:58.152Z",
+      "follower": 236,
       "medien": 149
     }
   ]
