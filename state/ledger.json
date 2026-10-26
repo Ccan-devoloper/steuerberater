@@ -15373,10 +15373,32 @@
         "C: Der Name",
         "ist egal"
       ]
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "b1",
+      "medienId": "18606397660070659",
+      "veroeffentlicht": "2026-10-26T07:30:04.816Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "pruefungsfrage",
+      "thema": "persg-aufb-persg-melzer-2-1",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Prüfungsfrage",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 16,
+    "persg": 17,
     "ust": 13,
     "kst": 13,
     "ao": 24,
