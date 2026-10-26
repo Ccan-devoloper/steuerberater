@@ -15613,6 +15613,28 @@
         "Kleinunternehmer",
         "seit 2025"
       ]
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "b3",
+      "medienId": "17964109113237578",
+      "veroeffentlicht": "2026-10-26T16:30:22.712Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "istr-aufb-istr-gh-4-22",
+      "fach": "istr",
+      "klausur": 2,
+      "titel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -15621,7 +15643,7 @@
     "kst": 13,
     "ao": 25,
     "bilanz": 24,
-    "istr": 18,
+    "istr": 19,
     "erbst": 10,
     "mindset": 2,
     "est": 6,
