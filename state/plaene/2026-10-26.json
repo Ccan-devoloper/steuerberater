@@ -48,7 +48,8 @@
       "themaTitel": "Was dir keiner über die Mündliche sagt",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-26T18:00:00.014Z"
     }
   ],
   "stories": [
