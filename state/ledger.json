@@ -15154,7 +15154,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 85,
+        "reach": 96,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -15163,8 +15163,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-26T09:14:14.359Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-26T17:39:23.751Z",
+      "insightsAlterStunden": 29.2
     },
     {
       "datum": "2026-10-25",
@@ -15456,22 +15456,22 @@
         "KG-Anteil bilanzieren"
       ],
       "insights": {
-        "reach": 47,
-        "views": 53,
+        "reach": 66,
+        "views": 79,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 50,
+        "navigation": 75,
         "navigation_swipe_forward": 4,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 33
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 56
       },
-      "insightsStand": "2026-10-26T13:38:04.567Z",
-      "insightsAlterStunden": 6.1
+      "insightsStand": "2026-10-26T17:39:18.419Z",
+      "insightsAlterStunden": 10.2
     },
     {
       "datum": "2026-10-26",
@@ -15527,7 +15527,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 57,
+        "reach": 67,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -15536,8 +15536,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-26T15:51:04.365Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-26T17:39:23.751Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-26",
@@ -15553,21 +15553,22 @@
         "Bescheid wirksam?"
       ],
       "insights": {
-        "reach": 20,
-        "views": 28,
+        "reach": 54,
+        "views": 70,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 26,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 19,
-        "navigation_tap_exit": 6
+        "navigation": 66,
+        "navigation_tap_exit": 14,
+        "navigation_tap_forward": 46,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-26T13:38:04.567Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-26T17:39:18.419Z",
+      "insightsAlterStunden": 5.1
     },
     {
       "datum": "2026-10-26",
@@ -15612,7 +15613,24 @@
       "titel": [
         "Kleinunternehmer",
         "seit 2025"
-      ]
+      ],
+      "insights": {
+        "reach": 26,
+        "views": 35,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 31,
+        "navigation_tap_forward": 20,
+        "navigation_tap_exit": 7,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-26T17:39:18.419Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-26",
@@ -15634,7 +15652,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 119,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 157,
+        "ig_reels_avg_watch_time": 6634,
+        "ig_reels_video_view_total_time": 842534,
+        "reels_skip_rate": 65.4
+      },
+      "insightsStand": "2026-10-26T17:39:23.751Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {

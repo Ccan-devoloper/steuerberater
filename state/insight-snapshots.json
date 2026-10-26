@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-26T16:44:51.657Z",
+  "stand": "2026-10-26T17:39:26.384Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -45616,6 +45616,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-26T17:39:23.751Z",
+          "alterStunden": 29.2,
+          "reach": 96,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -46261,6 +46273,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_exit": 11,
           "navigation_tap_forward": 33
+        },
+        {
+          "stand": "2026-10-26T17:39:18.419Z",
+          "alterStunden": 10.2,
+          "reach": 66,
+          "views": 79,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 75,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 3,
+          "navigation_tap_exit": 12,
+          "navigation_tap_forward": 56
         }
       ]
     },
@@ -46400,6 +46429,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_forward": 19,
           "navigation_tap_exit": 6
+        },
+        {
+          "stand": "2026-10-26T17:39:18.419Z",
+          "alterStunden": 5.1,
+          "reach": 54,
+          "views": 70,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 66,
+          "navigation_tap_exit": 14,
+          "navigation_tap_forward": 46,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 4
         }
       ]
     },
@@ -46429,6 +46475,18 @@
           "stand": "2026-10-26T15:51:04.365Z",
           "alterStunden": 3.3,
           "reach": 57,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-26T17:39:23.751Z",
+          "alterStunden": 5.1,
+          "reach": 67,
           "saved": 1,
           "shares": 0,
           "likes": 1,
@@ -46466,6 +46524,64 @@
           "navigation": 13,
           "navigation_tap_forward": 10,
           "navigation_tap_exit": 3
+        }
+      ]
+    },
+    "17920941507239662": {
+      "art": "story",
+      "datum": "2026-10-26",
+      "titel": [
+        "Kleinunternehmer",
+        "seit 2025"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-26T15:51:03.219Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-26T17:39:18.419Z",
+          "alterStunden": 1.8,
+          "reach": 26,
+          "views": 35,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 31,
+          "navigation_tap_forward": 20,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 3,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17964109113237578": {
+      "art": "beitrag",
+      "datum": "2026-10-26",
+      "titel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+      "format": "reel",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-26T16:30:22.712Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-26T17:39:23.751Z",
+          "alterStunden": 1.2,
+          "reach": 119,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 157,
+          "ig_reels_avg_watch_time": 6634,
+          "ig_reels_video_view_total_time": 842534,
+          "reels_skip_rate": 65.4
         }
       ]
     }
@@ -49098,6 +49214,11 @@
     },
     {
       "stand": "2026-10-26T16:44:51.657Z",
+      "follower": 258,
+      "medien": 153
+    },
+    {
+      "stand": "2026-10-26T17:39:26.384Z",
       "follower": 258,
       "medien": 153
     }
