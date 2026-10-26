@@ -15689,6 +15689,20 @@
         "#mündlicheprüfung",
         "#examensvorbereitung"
       ]
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "s3",
+      "medienId": "17960761428076621",
+      "veroeffentlicht": "2026-10-26T18:00:24.915Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "istr",
+      "titel": [
+        "170 Tage weg"
+      ]
     }
   ],
   "fachZaehler": {
