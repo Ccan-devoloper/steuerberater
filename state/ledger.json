@@ -15667,6 +15667,28 @@
       },
       "insightsStand": "2026-10-26T17:39:23.751Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "m1",
+      "medienId": "17914075302489854",
+      "veroeffentlicht": "2026-10-26T18:00:09.157Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-reel-keiner-sagt",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Was dir keiner über die Mündliche sagt",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ]
     }
   ],
   "fachZaehler": {
@@ -15681,7 +15703,7 @@
     "est": 6,
     "umwst": 8,
     "gewst": 4,
-    "null": 4
+    "null": 5
   },
   "nachrichten": [],
   "postfach": [],
