@@ -15598,6 +15598,21 @@
       },
       "insightsStand": "2026-10-26T14:44:22.077Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "s8",
+      "medienId": "17920941507239662",
+      "veroeffentlicht": "2026-10-26T15:51:03.219Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "ust-karte-ust-13",
+      "fach": "ust",
+      "titel": [
+        "Kleinunternehmer",
+        "seit 2025"
+      ]
     }
   ],
   "fachZaehler": {
