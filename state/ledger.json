@@ -15430,17 +15430,17 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 56,
-        "saved": 1,
+        "reach": 61,
+        "saved": 2,
         "shares": 0,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 3,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-26T12:44:34.581Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-26T15:51:04.365Z",
+      "insightsAlterStunden": 8.3
     },
     {
       "datum": "2026-10-26",
@@ -15527,17 +15527,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 31,
+        "reach": 57,
         "saved": 1,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 2,
         "follows": 0,
-        "profile_visits": 1
+        "profile_visits": 2
       },
-      "insightsStand": "2026-10-26T13:38:07.322Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-26T15:51:04.365Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-26",
