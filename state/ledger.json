@@ -15275,19 +15275,19 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 1358,
-        "saved": 14,
+        "reach": 1408,
+        "saved": 15,
         "shares": 3,
         "likes": 16,
         "comments": 0,
-        "total_interactions": 33,
-        "views": 1607,
-        "ig_reels_avg_watch_time": 8915,
-        "ig_reels_video_view_total_time": 12116734,
-        "reels_skip_rate": 56.4
+        "total_interactions": 34,
+        "views": 1666,
+        "ig_reels_avg_watch_time": 8796,
+        "ig_reels_video_view_total_time": 12490809,
+        "reels_skip_rate": 56.5
       },
-      "insightsStand": "2026-10-26T09:45:00.828Z",
-      "insightsAlterStunden": 15.7
+      "insightsStand": "2026-10-26T13:38:07.322Z",
+      "insightsAlterStunden": 19.6
     },
     {
       "datum": "2026-10-25",
@@ -15456,22 +15456,22 @@
         "KG-Anteil bilanzieren"
       ],
       "insights": {
-        "reach": 22,
-        "views": 28,
+        "reach": 47,
+        "views": 53,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 22,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_back": 1,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 12
+        "navigation": 50,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 2,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 33
       },
-      "insightsStand": "2026-10-26T09:14:10.474Z",
-      "insightsAlterStunden": 1.7
+      "insightsStand": "2026-10-26T13:38:04.567Z",
+      "insightsAlterStunden": 6.1
     },
     {
       "datum": "2026-10-26",
@@ -15525,7 +15525,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#abgabenordnung"
-      ]
+      ],
+      "insights": {
+        "reach": 31,
+        "saved": 1,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-10-26T13:38:07.322Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-26",
@@ -15539,7 +15551,23 @@
       "fach": "ao",
       "titel": [
         "Bescheid wirksam?"
-      ]
+      ],
+      "insights": {
+        "reach": 20,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 26,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 6
+      },
+      "insightsStand": "2026-10-26T13:38:04.567Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-26",

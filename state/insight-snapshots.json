@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-26T12:44:34.581Z",
+  "stand": "2026-10-26T13:38:08.898Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -45866,6 +45866,20 @@
           "ig_reels_avg_watch_time": 8915,
           "ig_reels_video_view_total_time": 12116734,
           "reels_skip_rate": 56.4
+        },
+        {
+          "stand": "2026-10-26T13:38:07.322Z",
+          "alterStunden": 19.6,
+          "reach": 1408,
+          "saved": 15,
+          "shares": 3,
+          "likes": 16,
+          "comments": 0,
+          "total_interactions": 34,
+          "views": 1666,
+          "ig_reels_avg_watch_time": 8796,
+          "ig_reels_video_view_total_time": 12490809,
+          "reels_skip_rate": 56.5
         }
       ]
     },
@@ -45991,6 +46005,23 @@
           "navigation_tap_back": 1,
           "navigation_tap_exit": 7,
           "navigation_tap_forward": 12
+        },
+        {
+          "stand": "2026-10-26T13:38:04.567Z",
+          "alterStunden": 6.1,
+          "reach": 47,
+          "views": 53,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 50,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_back": 2,
+          "navigation_tap_exit": 11,
+          "navigation_tap_forward": 33
         }
       ]
     },
@@ -46071,6 +46102,60 @@
           "navigation_tap_exit": 3,
           "navigation_tap_back": 1,
           "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18128695642896233": {
+      "art": "story",
+      "datum": "2026-10-26",
+      "titel": [
+        "Bescheid wirksam?"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-26T12:34:17.914Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-26T13:38:04.567Z",
+          "alterStunden": 1.1,
+          "reach": 20,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 6
+        }
+      ]
+    },
+    "18106500803232999": {
+      "art": "beitrag",
+      "datum": "2026-10-26",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-26T12:34:04.285Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-26T13:38:07.322Z",
+          "alterStunden": 1.1,
+          "reach": 31,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -48684,6 +48769,11 @@
     {
       "stand": "2026-10-26T12:34:26.140Z",
       "follower": 255,
+      "medien": 152
+    },
+    {
+      "stand": "2026-10-26T13:38:08.898Z",
+      "follower": 256,
       "medien": 152
     }
   ]
