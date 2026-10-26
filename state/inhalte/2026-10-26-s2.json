@@ -1,0 +1,26 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "titel": [
+    "Bescheid wirksam?"
+  ],
+  "unter": "Prüfschema + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Neu im Feed",
+    "Bescheid wirksam?",
+    "Prüfschema + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

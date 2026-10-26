@@ -1,0 +1,112 @@
+{
+  "datum": "2026-10-26",
+  "erzeugt": "2026-10-26T05:44:12.656Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "pruefungsfrage",
+      "themaId": "persg-aufb-persg-melzer-2-1",
+      "themaTitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "ao-modul-ao-312",
+      "themaTitel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": "istr-aufb-istr-gh-4-22",
+      "themaTitel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+      "fach": "istr",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "lead-reel-keiner-sagt",
+      "themaTitel": "Was dir keiner über die Mündliche sagt",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:18",
+      "art": "frage",
+      "themaId": "kst-quiz-kst-11",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:18",
+      "art": "antwort",
+      "themaId": "kst-quiz-kst-11",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:13",
+      "art": "norm",
+      "themaId": "persg-aufb-persg-melzer-2-5",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:38",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "16:51",
+      "art": "tipp",
+      "themaId": "ust-karte-ust-13",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:18",
+      "art": "merksatz",
+      "themaId": "est-aufb-est-ks2-ea-03",
+      "status": "geplant"
+    }
+  ]
+}

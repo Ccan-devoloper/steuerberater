@@ -1,0 +1,70 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-ea-03",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Miterben teilen",
+    "den Betrieb"
+  ],
+  "zeilen": [
+    [
+      [
+        "Ohne Ausgleich: ",
+        null
+      ]
+    ],
+    [
+      [
+        "Buchwerte",
+        "a"
+      ],
+      [
+        " laufen weiter.",
+        null
+      ]
+    ],
+    [
+      [
+        "Zahlung aus eigenem",
+        null
+      ]
+    ],
+    [
+      [
+        "Geld: ",
+        null
+      ],
+      [
+        "teils entgeltlich",
+        "b"
+      ],
+      [
+        ".",
+        null
+      ]
+    ]
+  ],
+  "norm": "§ 16 Abs. 3 S. 2 EStG",
+  "sichtbareTexte": [
+    "Einkommensteuer",
+    "Merksatz",
+    "Miterben teilen",
+    "den Betrieb",
+    "Ohne Ausgleich: ",
+    "Buchwerte laufen weiter.",
+    "Zahlung aus eigenem",
+    "Geld: teils entgeltlich.",
+    "§ 16 Abs. 3 S. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

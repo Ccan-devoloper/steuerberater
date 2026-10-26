@@ -1,0 +1,26 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "titel": [
+    "KG-Anteil bilanzieren"
+  ],
+  "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Neu im Feed",
+    "KG-Anteil bilanzieren",
+    "Prüfungsfrage + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-13",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Kleinunternehmer",
+    "seit 2025"
+  ],
+  "punkte": [
+    [
+      "Umsatz Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €",
+      "ok",
+      "§ 19 Abs. 1 S. 1 UStG"
+    ],
+    [
+      "Steuerfrei: kein Vorsteuerabzug",
+      "warn",
+      "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+    ]
+  ],
+  "icon": "tabler:receipt",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Kleinunternehmer",
+    "seit 2025",
+    "Umsatz Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €",
+    "§ 19 Abs. 1 S. 1 UStG",
+    "Steuerfrei: kein Vorsteuerabzug",
+    "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,87 @@
+{
+  "format": "schema",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-312",
+  "caption": "Prüfschema Abgabenordnung: Ist der Bescheid wirksam bekannt gegeben? In 5 Schritten.\n\n1. Nicht nichtig (§ 125 AO; § 124 Abs. 3 AO).\n2. Richtiger Adressat: derjenige, für den der Verwaltungsakt bestimmt ist (§ 122 Abs. 1 AO).\n3. Bekanntgabewille: Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand (AEAO zu § 124 Nr. 4). Aufgeben wirkt nur, bevor der Bescheid den Herrschaftsbereich der Behörde verlassen hat (AEAO zu § 124 Nr. 5); danach nur noch eine Mitteilung vor oder spätestens mit der Bekanntgabe (AEAO zu § 124 Nr. 6).\n4. Handlungsfähigkeit des Empfängers (§ 79 Abs. 1 AO). Bei Minderjährigen und Geschäftsunfähigen ist der gesetzliche Vertreter Bekanntgabeadressat (AEAO zu § 122 Nr. 2.2.1).\n5. Zeitpunkt: Post im Inland am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO), elektronisch am vierten Tag nach Absendung (§ 122 Abs. 2a AO); im Zweifel muss die Behörde den Zugang nachweisen.\n\nWirksam wird der Verwaltungsakt mit der Bekanntgabe (§ 124 Abs. 1 AO). Zum Schluss: §§ 79, 122, 124 AO und AEAO zu §§ 122, 124 zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 124 Abs. 1, 3 AO",
+    "§ 125 AO",
+    "§ 122 Abs. 1, 2, 2a AO",
+    "§ 79 Abs. 1 AO",
+    "AEAO zu § 124 Nr. 4–6",
+    "AEAO zu § 122 Nr. 2.2.1"
+  ],
+  "slug": "2026-10-26-b2",
+  "kurztitel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Bescheid · wirksam? · § 124 Abs. 1 AO · in 5 Schritten · + Markier-Guide §§ 79, 122, 124 + AEAO",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Das Schema · Nicht nichtig · § 125 AO · Richtiger Adressat · § 122 Abs. 1 AO · Bekanntgabewille · AEAO zu § 124 Nr. 4 · Handlungsfähig · § 79 Abs. 1 AO · Zeitpunkt · § 122 Abs. 2 AO · Am Ende: §§ 79, 122, 124 AO + AEAO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Schritt 3: Bekanntgabewille · Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand. · AEAO zu § 124 Nr. 4 · Aufgeben wirkt nur, solange der Bescheid im Amt ist. · AEAO zu § 124 Nr. 5 · Danach nur noch: Mitteilung vor oder mit Bekanntgabe, er gelte nicht. · AEAO zu § 124 Nr. 6 · Rana, Finanzamt"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Schritt 4: Handlungsfähigkeit · Handlungsfähig ist, wer nach bürgerlichem Recht geschäftsfähig ist. · § 79 Abs. 1 Nr. 1 AO · Ist der Steuerpflichtige minderjährig oder geschäftsunfähig, geht der Bescheid an den gesetzlichen Vertreter. · AEAO zu § 122 Nr. 2.2.1 · Krank oder verreist heißt nicht handlungsunfähig. · Wer liest es?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Schritt 5: Zeitpunkt · Post im Inland: bekannt gegeben am vierten Tag nach Aufgabe zur Post. · § 122 Abs. 2 Nr. 1 AO · Elektronisch: am vierten Tag nach Absendung. · § 122 Abs. 2a AO · Im Zweifel beweist das Amt den Zugang. · § 122 Abs. 2 letzter Hs. AO · NOVEMBER · 2 · Mo · Post · NOVEMBER · 6 · Fr · bekannt"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Beispiel · Rana zeichnet den Einkommensteuerbescheid für Jonas, 17, und gibt ihn am Montag zur Post. · Jonas hat von seiner Tante eine vermietete Wohnung geerbt. · Adressiert ist der Bescheid nur an Jonas. · Post für mich!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Jetzt du · Ist der Bescheid wirksam bekannt gegeben? · Geh die fünf Schritte durch. · Lösung: weiterwischen · Gilt der jetzt?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Lösung · Bekanntgabewille: ja, Rana hat gezeichnet und versandt. · AEAO zu § 124 Nr. 4 · Jonas ist mit 17 nur beschränkt geschäftsfähig, für die Steuer also nicht handlungsfähig. · § 79 Abs. 1 Nr. 1, 2 AO · Bescheid an die Eltern nötig. So wird er nicht wirksam. · AEAO zu § 122 Nr. 2.2.1 · Also Mama und Papa?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Erst wirksam, dann Fristen · Bekanntgabewille und Handlungsfähigkeit nie überspringen · Gezeichnet und versandt, · Empfänger handlungsfähig, · dann der vierte Tag. · Speichern für Klausur 1 · Welchen Schritt vergisst du am ehesten? · Weiterwischen: §§ 79, 122, 124 + AEAO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "§§ 79, 122, 124 AO (Auszug) · Schritt 4 · Schritt 5 · Adressat · Schritt 1 · AEAO zu §§ 122, 124 (Auszug) · Jonas, 17 · die Eltern! · Schritt 3 · Jonas ist 17: Bescheid an die Eltern · an Jonas allein nicht wirksam"
+    }
+  ]
+}

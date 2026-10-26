@@ -1,0 +1,62 @@
+{
+  "format": "reel",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-22",
+  "caption": "183-Tage-Regel: Unter 183 Tagen im Ausland – bleibt der Arbeitslohn in Deutschland steuerpflichtig? ✈️\n\n▸ Grundsatz: Arbeitslohn darf der Staat besteuern, in dem gearbeitet wird (Art. 15 Abs. 1 OECD-MA).\n▸ Zurück an den Wohnsitzstaat nur, wenn alle drei Bedingungen erfüllt sind: höchstens 183 Tage Aufenthalt im maßgeblichen Zeitraum, Arbeitgeber nicht im Tätigkeitsstaat ansässig, Lohn nicht von einer Betriebsstätte dort getragen (Art. 15 Abs. 2 Buchst. a–c OECD-MA; BMF vom 12.12.2023, Rn. 101, 102).\n▸ Tage zählen: Ankunfts- und Abreisetag sowie Wochenenden und Feiertage vor Ort zählen als volle Aufenthaltstage (BMF vom 12.12.2023, Rn. 107, 108). Welcher Zeitraum gilt, regelt das jeweilige DBA.\n▸ Trägt eine Betriebsstätte im Tätigkeitsstaat den Lohn, hilft die Tagegrenze nicht (BMF vom 12.12.2023, Rn. 213 ff.).\n▸ Folge in Deutschland: Freistellung mit Progressionsvorbehalt (§ 32b Abs. 1 S. 1 Nr. 3 EStG), aber nur mit Nachweis der Besteuerung oder des Verzichts im anderen Staat (§ 50d Abs. 8 EStG).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#internationalessteuerrecht"
+  ],
+  "quellen": [
+    "Art. 15 Abs. 1, 2 OECD-MA",
+    "BMF vom 12.12.2023, Rn. 101, 102, 107, 108, 213",
+    "§ 32b Abs. 1 S. 1 Nr. 3 EStG",
+    "§ 50d Abs. 8 EStG"
+  ],
+  "slug": "2026-10-26-b3",
+  "kurztitel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "170 Tage weg. Lohn bleibt hier?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Tage zählen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Wer trägt den Lohn?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Folge in Deutschland"
+    }
+  ],
+  "sprecher": [
+    "Hundertsiebzig Tage im Ausland gearbeitet. Also bleibt der Lohn in Deutschland steuerpflichtig? Nicht unbedingt.",
+    "Zähl die Tage: Ankunft und Abreise zählen voll, Wochenenden vor Ort auch. Hundertsiebzig bleibt unter hundertdreiundachtzig.",
+    "Aber die Frist ist nur eine von drei Bedingungen. Trägt eine Betriebsstätte vor Ort den Lohn, darf der andere Staat besteuern.",
+    "Deutschland stellt dann frei, mit Progressionsvorbehalt. Und nur gegen Nachweis der Steuer dort.",
+    "Merke: Tage zählen reicht nicht. Frag, wer den Lohn trägt."
+  ],
+  "dauerS": 37.582,
+  "tempo": 1
+}

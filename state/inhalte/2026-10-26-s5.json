@@ -1,0 +1,40 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-quiz-kst-11",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "C: Der Name",
+    "ist egal"
+  ],
+  "optionen": [
+    "Mehrheit der Stimmrechte",
+    "Gewinnabführungsvertrag",
+    "Gleicher Firmenname"
+  ],
+  "richtig": 2,
+  "text": "Nötig sind Stimmenmehrheit ab Jahresbeginn und ein Vertrag über mindestens fünf Jahre, der gelebt wird.",
+  "norm": "§ 14 Abs. 1 S. 1 Nr. 1, 3 KStG",
+  "pairId": "kst-quiz-kst-11",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Auflösung",
+    "C: Der Name",
+    "ist egal",
+    "Mehrheit der Stimmrechte",
+    "Gewinnabführungsvertrag",
+    "Gleicher Firmenname",
+    "Nötig sind Stimmenmehrheit ab Jahresbeginn und ein Vertrag über mindestens fünf Jahre, der gelebt wird.",
+    "§ 14 Abs. 1 S. 1 Nr. 1, 3 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,49 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Zweiter Anlauf",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "ueberzeile": "Lernstrategie",
+  "titel": [
+    "Fehler sortieren,",
+    "dann trainieren"
+  ],
+  "punkte": [
+    [
+      "Wissen gefehlt?",
+      "ok",
+      null
+    ],
+    [
+      "Zeit gefehlt?",
+      "ok",
+      null
+    ],
+    [
+      "Sachverhalt übersehen?",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:list-check",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Zweiter Anlauf",
+    "Lernstrategie",
+    "Fehler sortieren,",
+    "dann trainieren",
+    "Wissen gefehlt?",
+    "Zeit gefehlt?",
+    "Sachverhalt übersehen?"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

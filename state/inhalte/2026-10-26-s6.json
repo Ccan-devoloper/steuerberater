@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-5",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Tausch oder",
+    "Einlage?"
+  ],
+  "norm": "§ 6 Abs. 1 Nr. 5 EStG",
+  "punkte": [
+    [
+      "Gutschrift auch auf Kapitalkonto I: Tausch, also entgeltlich.",
+      "ok",
+      "BMF vom 26.07.2016"
+    ],
+    [
+      "Nur Kapitalkonto II oder Rücklage: verdeckte Einlage.",
+      "warn",
+      "BFH vom 29.07.2015, IV R 15/14"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "Tausch oder",
+    "Einlage?",
+    "§ 6 Abs. 1 Nr. 5 EStG",
+    "Gutschrift auch auf Kapitalkonto I: Tausch, also entgeltlich.",
+    "BMF vom 26.07.2016",
+    "Nur Kapitalkonto II oder Rücklage: verdeckte Einlage.",
+    "BFH vom 29.07.2015, IV R 15/14"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

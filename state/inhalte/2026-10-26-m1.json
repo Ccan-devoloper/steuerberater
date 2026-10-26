@@ -1,0 +1,60 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": "lead-reel-keiner-sagt",
+  "caption": "Was dir keiner über die Mündliche sagt. 👀\n\nIn fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens einer durchgefallen. Zugelassen bis 4,5 (§ 25 Abs. 2 DVStB), bestanden erst bei 4,15 im Durchschnitt (§ 28 Abs. 1 S. 2 DVStB). Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.\n\nDie 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+  ],
+  "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+  ],
+  "slug": "2026-10-26-m1",
+  "kurztitel": "Was dir keiner über die Mündliche sagt",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Die Mündliche: nur Formsache?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Über 400 Protokolle"
+    },
+    {
+      "art": "schritt",
+      "titel": "Zwei Grenzen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Rechnung"
+    }
+  ],
+  "sprecher": [
+    "Was dir keiner sagt: Die Mündliche ist Formsache? Falsch. Sie ist kein Selbstläufer.",
+    "Wir haben über vierhundert Prüfungsprotokolle ausgewertet. In fast jedem dritten ist mindestens einer durchgefallen.",
+    "Zugelassen wirst du bis vier Komma fünf. Bestanden hast du erst bei vier Komma eins fünf im Durchschnitt.",
+    "Mit vier Komma fünf brauchst du in der Mündlichen also im Schnitt eine drei Komma acht.",
+    "Die zehn häufigsten Fehler gibt es kostenlos zum Download. Link in der Bio."
+  ],
+  "dauerS": 32.204,
+  "tempo": 1
+}

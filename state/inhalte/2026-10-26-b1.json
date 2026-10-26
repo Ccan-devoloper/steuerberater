@@ -1,0 +1,82 @@
+{
+  "format": "pruefungsfrage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-1",
+  "caption": "Prüfungsfrage Personengesellschaften: Wie bilanziert eine GmbH ihren Anteil an einer KG – in der Handels- und in der Steuerbilanz?\n\nFall: Kauf eines Kommanditanteils für 300.000 €, Verlustanteil 60.000 €, Wert dauerhaft gesunken auf 230.000 €.\n\nHandelsbilanz: Der Anteil ist ein Vermögensgegenstand und geht mit den Anschaffungskosten zu (§ 246 Abs. 1 S. 1, § 255 Abs. 1 HGB). Bei voraussichtlich dauernder Wertminderung ist außerplanmäßig abzuschreiben (§ 253 Abs. 3 S. 5 HGB), bei Finanzanlagen darf es auch bei nicht dauernder Wertminderung geschehen (§ 253 Abs. 3 S. 6 HGB). Ergebnis: 230.000 €.\n\nSteuerbilanz: Der Anteil ist kein eigenes Wirtschaftsgut (BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691). Er wird spiegelbildlich zum Kapital des Gesellschafters bei der KG angesetzt, einschließlich Ergänzungs- und Sonderbilanz. Gewinn- und Verlustanteile kommen über die gesonderte und einheitliche Feststellung (§ 15 Abs. 1 S. 1 Nr. 2 EStG, § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Ergebnis: 240.000 €, keine Teilwertabschreibung.\n\nZum Schluss: § 253 Abs. 3 HGB zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 246 Abs. 1 S. 1 HGB",
+    "§ 255 Abs. 1 HGB",
+    "§ 253 Abs. 3 S. 5, 6 HGB",
+    "BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691",
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
+  ],
+  "slug": "2026-10-26-b1",
+  "kurztitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfungsfrage",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfungsfrage",
+      "text": "Prüfungsfrage · KG-Anteil: · wie bilanzieren? · § 253 Abs. 3 HGB · HB und StB · + Markier-Guide § 253 HGB · Kaufpreis · 300.000 € · 40 % an der KG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Der Fall · Ida führt die Kranich GmbH. Diese kauft am 02.01.2025 40 % der Kommanditanteile der Hafen KG für 300.000 €. · 60.000 € Verlustanteil 2025 laut Feststellung. · 31.12.2025: Anteil dauerhaft nur 230.000 € wert. · Was steht wo?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Jetzt du · Welcher Wert steht am 31.12.2025 in der Handelsbilanz der GmbH? · Und welcher in ihrer Steuerbilanz? · Lösung: weiterwischen · Berater Kofi fragt dich"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung: Handelsbilanz · Der Anteil ist ein Vermögensgegenstand: Zugang mit 300.000 € Anschaffungskosten. · § 246 Abs. 1 S. 1, § 255 Abs. 1 HGB · Den Verlustanteil bucht die GmbH nicht direkt. Er ist Anlass, den Wert zu prüfen. · Dauernde Wertminderung: Abschreibung auf 230.000 €. · § 253 Abs. 3 S. 5 HGB · Pflicht bei Dauer"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Lösung: Steuerbilanz · Der Anteil ist kein eigenes Wirtschaftsgut. · BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691 · Angesetzt wird das Kapital der GmbH bei der KG, samt Ergänzungs- und Sonderbilanz. · 300.000 € − 60.000 € Verlustanteil = 240.000 € · § 15 Abs. 1 S. 1 Nr. 2 EStG · Ein Spiegelbild!"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Teilwert? Gibt es hier nicht · Steuerlich auf 230.000 € abschreiben: unzulässig. · Der Verlust wirkt allein über den festgestellten Anteil. · § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Sonst würde derselbe Verlust doppelt abgezogen. · Nur 240.000 €?"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "Stand 31.12.2025 · Handelsbilanz · 230.000 € · Abschreibung 70.000 € · § 253 Abs. 3 S. 5 HGB · Steuerbilanz · 240.000 € · Aufwand 60.000 € aus dem Verlustanteil · § 15 Abs. 1 S. 1 Nr. 2 EStG · Zwei Werte, zwei Gründe"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "HB 230.000 € · StB 240.000 € · Abschreibung im HGB, Verlustanteil im Steuerrecht · HB: Anschaffungskosten, · bei Dauer abschreiben. · StB: Kapital spiegeln, · nie Teilwert. · Speichern für Klausur 3 · Hättest du steuerlich abgeschrieben? · Weiterwischen: § 253 HGB markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Personengesellschaften",
+      "text": "§ 253 HGB (Auszug) · Auslöser · Pflicht in der HB · sonst Wahlrecht · Steuerbilanz: kein Teilwert · Anteil folgt dem Kapital bei der KG"
+    }
+  ]
+}
