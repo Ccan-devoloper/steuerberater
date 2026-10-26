@@ -5,3 +5,4 @@ cairosvg>=2.7
 imageio-ffmpeg>=0.4
 lxml>=4.9
 svgpathtools>=1.6
+fonttools>=4.40
