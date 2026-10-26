@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-26T15:51:05.629Z",
+  "stand": "2026-10-26T16:30:24.331Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -42355,6 +42355,20 @@
           "ig_reels_avg_watch_time": 8172,
           "ig_reels_video_view_total_time": 3350523,
           "reels_skip_rate": 63.6
+        },
+        {
+          "stand": "2026-10-26T16:30:24.331Z",
+          "alterStunden": 95.5,
+          "reach": 412,
+          "saved": 1,
+          "shares": 1,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 7,
+          "views": 504,
+          "ig_reels_avg_watch_time": 8244,
+          "ig_reels_video_view_total_time": 3495550,
+          "reels_skip_rate": 63.2
         }
       ]
     },
