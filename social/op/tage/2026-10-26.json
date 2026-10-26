@@ -850,7 +850,7 @@
   },
   {
    "slot": "b3",
-   "zeit": "19:00",
+   "zeit": "17:30",
    "format": "reel",
    "reelTyp": "rechnung",
    "klausur": 2,
@@ -1251,7 +1251,7 @@
     "§ 25 Abs. 2 DVStB",
     "§ 28 Abs. 1 S. 2 DVStB"
    ],
-   "zeit": "07:00",
+   "zeit": "19:00",
    "leadmagnetQuelle": "r1"
   }
  ],

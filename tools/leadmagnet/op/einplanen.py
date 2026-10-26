@@ -7,7 +7,7 @@ Uhrzeiten aus der Auswertung von state/insight-snapshots.json (114 Beiträge, 13
          Das Zusatz-Reel läuft deshalb um 17:30, mit Abstand vor b3 (12 Uhr war schwach, Median 69).
   Karussells: 16 Uhr am besten (Median 134, meiste Follows je Beitrag), 8:30/13:30 sind belegt (Median ~85).
 Aufruf: python3 tools/leadmagnet/op/einplanen.py [--start 2026-10-26] [--entfernen]
-Am 26.10. läuft der erste Zusatzbeitrag ausnahmsweise um 07:00 (Wunsch Betreiber)."""
+Zusatz-Reels laufen zur Prime Time um 19:00, b3 dann um 17:30 (Wunsch Betreiber, 26.10.)."""
 import argparse, datetime as dt, json, os, sys
 
 HIER = os.path.dirname(os.path.abspath(__file__))
@@ -16,7 +16,8 @@ import spec
 
 TAGE = os.path.join(HIER, "..", "..", "..", "social", "op", "tage")
 SLOT = "m1"
-ZEIT = {"reel": "17:30", "karussell": "16:00"}
+ZEIT = {"reel": "19:00", "karussell": "16:00"}
+B3_BEI_ZUSATZREEL = "17:30"   # Prime Time 19:00 gehört dem Zusatz-Reel; b3 rückt vor
 REIHENFOLGE = ["r1", "k1", "r3", "k2", "r2", "r4", "r5", "r6", "r7", "r8", "r9", "r10", "r11", "r12"]
 
 ap = argparse.ArgumentParser()
@@ -48,6 +49,9 @@ for i, quelle in enumerate(REIHENFOLGE):
                 if b.get("hook", {}).get("name") == alt: b["hook"]["name"] = f["name"]
                 print(f"  {datum}: Figur {alt} heißt hier {f['name']} (Name am Tag schon vergeben)")
         b["leadmagnetQuelle"] = quelle
+        for x in tag["beitraege"]:
+            if x["slot"] == "b3":
+                x["zeit"] = B3_BEI_ZUSATZREEL if b["format"] == "reel" else "19:00"
         tag["beitraege"].append(b)
     json.dump(tag, open(pfad, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     open(pfad, "a").write("\n")
