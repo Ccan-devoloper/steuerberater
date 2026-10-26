@@ -15357,7 +15357,23 @@
       "storyArt": "frage",
       "thema": "kst-quiz-kst-11",
       "fach": "kst",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 20,
+        "views": 34,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 23,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 16
+      },
+      "insightsStand": "2026-10-26T07:30:18.544Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-26",
@@ -15372,7 +15388,24 @@
       "titel": [
         "C: Der Name",
         "ist egal"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 11,
+        "navigation_tap_exit": 6,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-26T07:30:18.544Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-26",

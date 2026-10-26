@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-26T06:45:06.019Z",
+  "stand": "2026-10-26T07:30:18.544Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -45663,6 +45663,66 @@
           "ig_reels_avg_watch_time": 8883,
           "ig_reels_video_view_total_time": 10332044,
           "reels_skip_rate": 56.1
+        }
+      ]
+    },
+    "18017081504746771": {
+      "art": "story",
+      "datum": "2026-10-26",
+      "titel": null,
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-26T06:18:03.657Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-26T07:30:18.544Z",
+          "alterStunden": 1.2,
+          "reach": 20,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 16
+        }
+      ]
+    },
+    "18493137505110830": {
+      "art": "story",
+      "datum": "2026-10-26",
+      "titel": [
+        "C: Der Name",
+        "ist egal"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-26T06:18:16.436Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-26T07:30:18.544Z",
+          "alterStunden": 1.2,
+          "reach": 17,
+          "views": 28,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 11,
+          "navigation_tap_exit": 6,
+          "navigation_swipe_forward": 1
         }
       ]
     }
