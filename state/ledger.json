@@ -15395,6 +15395,20 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "s1",
+      "medienId": "18432532942148491",
+      "veroeffentlicht": "2026-10-26T07:30:17.244Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "KG-Anteil bilanzieren"
+      ]
     }
   ],
   "fachZaehler": {
