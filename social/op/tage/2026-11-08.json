@@ -661,7 +661,7 @@
   },
   {
    "slot": "b3",
-   "zeit": "19:00",
+   "zeit": "17:30",
    "format": "reel",
    "reelTyp": "merksatz",
    "klausur": 3,
@@ -1007,7 +1007,7 @@
    "quellen": [
     "§ 26 Abs. 6 DVStB"
    ],
-   "zeit": "17:30",
+   "zeit": "19:00",
    "leadmagnetQuelle": "r12"
   }
  ],

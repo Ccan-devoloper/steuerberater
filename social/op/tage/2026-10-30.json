@@ -711,7 +711,7 @@
   },
   {
    "slot": "b3",
-   "zeit": "19:00",
+   "zeit": "17:30",
    "format": "reel",
    "reelTyp": "rechnung",
    "klausur": 3,
@@ -1094,7 +1094,7 @@
     "#examensvorbereitung"
    ],
    "quellen": [],
-   "zeit": "17:30",
+   "zeit": "19:00",
    "leadmagnetQuelle": "r2"
   }
  ],
