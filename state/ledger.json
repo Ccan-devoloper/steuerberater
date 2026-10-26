@@ -15154,7 +15154,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 81,
+        "reach": 85,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -15163,8 +15163,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-26T05:44:30.844Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-26T09:14:14.359Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-25",
@@ -15178,22 +15178,22 @@
       "fach": "bilanz",
       "titel": "",
       "insights": {
-        "reach": 94,
-        "views": 116,
+        "reach": 107,
+        "views": 132,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 103,
-        "navigation_tap_back": 8,
-        "navigation_tap_forward": 69,
-        "navigation_tap_exit": 19,
-        "navigation_swipe_forward": 7
+        "navigation": 120,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_exit": 20,
+        "navigation_tap_forward": 78,
+        "navigation_tap_back": 14
       },
-      "insightsStand": "2026-10-26T05:44:14.615Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-26T09:14:10.474Z",
+      "insightsAlterStunden": 20.7
     },
     {
       "datum": "2026-10-25",
@@ -15427,7 +15427,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
-      ]
+      ],
+      "insights": {
+        "reach": 32,
+        "saved": 1,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-26T09:14:14.359Z",
+      "insightsAlterStunden": 1.7
     },
     {
       "datum": "2026-10-26",
@@ -15441,7 +15453,24 @@
       "fach": "persg",
       "titel": [
         "KG-Anteil bilanzieren"
-      ]
+      ],
+      "insights": {
+        "reach": 22,
+        "views": 28,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_back": 1,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 12
+      },
+      "insightsStand": "2026-10-26T09:14:10.474Z",
+      "insightsAlterStunden": 1.7
     }
   ],
   "fachZaehler": {
