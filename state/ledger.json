@@ -15471,6 +15471,21 @@
       },
       "insightsStand": "2026-10-26T09:14:10.474Z",
       "insightsAlterStunden": 1.7
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "s6",
+      "medienId": "18081336665371681",
+      "veroeffentlicht": "2026-10-26T11:13:03.545Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-aufb-persg-melzer-2-5",
+      "fach": "persg",
+      "titel": [
+        "Tausch oder",
+        "Einlage?"
+      ]
     }
   ],
   "fachZaehler": {

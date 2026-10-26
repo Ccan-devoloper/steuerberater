@@ -80,8 +80,9 @@
       "zeit": "12:13",
       "art": "norm",
       "themaId": "persg-aufb-persg-melzer-2-5",
-      "status": "sendet",
-      "sendeversuch": "2026-10-26T11:13:00.040Z"
+      "status": "veroeffentlicht",
+      "medienId": "18081336665371681",
+      "veroeffentlicht": "2026-10-26T11:13:03.545Z"
     },
     {
       "slot": "s2",
