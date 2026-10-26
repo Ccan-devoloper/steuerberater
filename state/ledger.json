@@ -15115,22 +15115,22 @@
       "fach": "istr",
       "titel": "",
       "insights": {
-        "reach": 99,
-        "views": 119,
+        "reach": 106,
+        "views": 133,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 100,
-        "navigation_tap_exit": 16,
-        "navigation_tap_forward": 69,
-        "navigation_swipe_forward": 9,
-        "navigation_tap_back": 6
+        "navigation": 112,
+        "navigation_tap_back": 7,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_forward": 77,
+        "navigation_tap_exit": 18
       },
-      "insightsStand": "2026-10-26T05:44:14.615Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-10-26T07:44:40.407Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-25",
