@@ -15358,6 +15358,21 @@
       "thema": "kst-quiz-kst-11",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "s5",
+      "medienId": "18493137505110830",
+      "veroeffentlicht": "2026-10-26T06:18:16.436Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "kst-quiz-kst-11",
+      "fach": "kst",
+      "titel": [
+        "C: Der Name",
+        "ist egal"
+      ]
     }
   ],
   "fachZaehler": {
