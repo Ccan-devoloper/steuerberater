@@ -15486,13 +15486,35 @@
         "Tausch oder",
         "Einlage?"
       ]
+    },
+    {
+      "datum": "2026-10-26",
+      "slot": "b2",
+      "medienId": "18106500803232999",
+      "veroeffentlicht": "2026-10-26T12:34:04.285Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "ao-modul-ao-312",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 17,
     "ust": 13,
     "kst": 13,
-    "ao": 24,
+    "ao": 25,
     "bilanz": 24,
     "istr": 18,
     "erbst": 10,
