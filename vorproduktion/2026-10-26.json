@@ -4,29 +4,24 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "persg-aufb-persg-melzer-3-2",
-        "themaTitel": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab?",
+        "format": "pruefungsfrage",
+        "themaId": "persg-aufb-persg-melzer-2-1",
+        "themaTitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
         "fach": "persg",
         "klausur": 3
       },
@@ -34,20 +29,28 @@
         "slot": "b2",
         "zeit": "13:30",
         "format": "schema",
-        "themaId": "ust-aufb-ust-m-b04-15",
-        "themaTitel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
-        "fach": "ust",
+        "themaId": "ao-modul-ao-312",
+        "themaTitel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
+        "fach": "ao",
         "klausur": 1
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "gewst-aufb-gewst-ks-06",
-        "themaTitel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
-        "fach": "gewst",
-        "klausur": 2,
-        "lang": false
+        "themaId": "istr-aufb-istr-gh-4-22",
+        "themaTitel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
+        "fach": "istr",
+        "klausur": 2
+      },
+      {
+        "slot": "m1",
+        "zeit": "07:00",
+        "format": "reel",
+        "themaId": "lead-reel-keiner-sagt",
+        "themaTitel": "Was dir keiner über die Mündliche sagt",
+        "fach": null,
+        "klausur": 0
       }
     ],
     "stories": [
@@ -55,515 +58,501 @@
         "slot": "s4",
         "zeit": "07:18",
         "art": "frage",
-        "themaId": "bilanz-quiz-k3-11"
+        "themaId": "kst-quiz-kst-11"
       },
       {
         "slot": "s5",
         "zeit": "07:18",
         "art": "antwort",
-        "themaId": "bilanz-quiz-k3-11"
+        "themaId": "kst-quiz-kst-11"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
         "zeit": "12:13",
         "art": "norm",
-        "themaId": "istr-modul-istr-istr4-06"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:38",
-        "art": "tipp",
-        "themaId": "persg-aufb-persg-melzer-2-1"
+        "themaId": "persg-aufb-persg-melzer-2-5"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:38",
+        "art": "tipp"
       },
       {
         "slot": "s8",
         "zeit": "16:51",
         "art": "tipp",
-        "themaId": "persg-aufb-persg-melzer-1-5"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:18",
-        "art": "merksatz",
-        "themaId": "est-aufb-est-ks2-17-03"
+        "themaId": "ust-karte-ust-13"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:18",
+        "art": "merksatz",
+        "themaId": "est-aufb-est-ks2-ea-03"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
+      "format": "pruefungsfrage",
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-3-2",
-      "slug": "2026-10-26-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Bemessungsgrundlage der AfA des Erwerbers sind seine gesamten Anschaffungskosten für das anteilige Wirtschaftsgut, also anteiliger Buchwert in der Gesamthandsbilanz plus Mehrwert in der Ergänzungsbilanz.",
-            "Maßgeblich sind die Restnutzungsdauer im Erwerbszeitpunkt und die AfA-Methoden und -Sätze, die dem Erwerber in diesem Zeitpunkt offenstehen; bei Gebäuden gilt der typisierte Satz nach § 7 Abs. 4 EStG."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Die Gesamthands-AfA wie bisher berechnen und den Anteil ermitteln, der auf den Erwerber entfällt."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Die AfA des Erwerbers aus seinen vollen Anschaffungskosten, der Restnutzungsdauer und den im Erwerbszeitpunkt geltenden Regeln berechnen."
-            },
-            {
-              "titel": "3. Schritt",
-              "text": "Den Unterschied zwischen seiner AfA und seinem Anteil an der Gesamthands-AfA in der Ergänzungsbilanz als Mehr- oder Minder-AfA erfassen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Der Erwerber wird behandelt, als hätte er seinen Anteil am Wirtschaftsgut selbst gekauft. Seine AfA folgt aus seinen Anschaffungskosten und der Restnutzungsdauer; die Ergänzungsbilanz fängt nur die Differenz zur Gesamthands-AfA auf."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab? Wie ein Käufer des anteiligen Wirtschaftsguts: AfA aus seinen gesamten Anschaffungskosten über die Restnutzungsdauer, in der Ergänzungsbilanz steht nur die Differenz zur anteiligen Gesamthands-AfA.",
+      "themaId": "persg-aufb-persg-melzer-2-1",
+      "caption": "Prüfungsfrage Personengesellschaften: Wie bilanziert eine GmbH ihren Anteil an einer KG – in der Handels- und in der Steuerbilanz?\n\nFall: Kauf eines Kommanditanteils für 300.000 €, Verlustanteil 60.000 €, Wert dauerhaft gesunken auf 230.000 €.\n\nHandelsbilanz: Der Anteil ist ein Vermögensgegenstand und geht mit den Anschaffungskosten zu (§ 246 Abs. 1 S. 1, § 255 Abs. 1 HGB). Bei voraussichtlich dauernder Wertminderung ist außerplanmäßig abzuschreiben (§ 253 Abs. 3 S. 5 HGB), bei Finanzanlagen darf es auch bei nicht dauernder Wertminderung geschehen (§ 253 Abs. 3 S. 6 HGB). Ergebnis: 230.000 €.\n\nSteuerbilanz: Der Anteil ist kein eigenes Wirtschaftsgut (BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691). Er wird spiegelbildlich zum Kapital des Gesellschafters bei der KG angesetzt, einschließlich Ergänzungs- und Sonderbilanz. Gewinn- und Verlustanteile kommen über die gesonderte und einheitliche Feststellung (§ 15 Abs. 1 S. 1 Nr. 2 EStG, § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Ergebnis: 240.000 €, keine Teilwertabschreibung.\n\nZum Schluss: § 253 Abs. 3 HGB zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#personengesellschaften"
       ],
-      "kurztitel": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 6 Abs. 1 Nr. 1, Nr. 2 und Nr. 7 EStG",
-        "§ 5 Abs. 1 Satz 1, Abs. 2 und Abs. 6 EStG",
-        "§ 7 Abs. 1 Sätze 1 bis 3 EStG",
-        "§ 7 Abs. 4 Satz 1 Nr. 1 EStG",
-        "§ 52 Abs. 15 Sätze 2 und 3 EStG",
-        "§ 253 Abs. 1 Satz 1 und Abs. 3 HGB",
-        "§ 246 Abs. 1 Satz 4 HGB",
+        "§ 246 Abs. 1 S. 1 HGB",
         "§ 255 Abs. 1 HGB",
-        "BFH vom 20.11.2014 – IV R 1/11",
-        "BMF vom 19.12.2016",
-        "Themenpool: persg-aufb-persg-melzer-3-2"
+        "§ 253 Abs. 3 S. 5, 6 HGB",
+        "BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691",
+        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+        "§ 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO"
       ],
-      "coverRegie": {
-        "thema": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-26-b1-persg-aufb-persg-melzer-3-2-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-26-b1",
+      "kurztitel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "schema",
-      "fach": "ust",
-      "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "themaId": "ust-aufb-ust-m-b04-15",
-      "slug": "2026-10-26-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
       "folien": [
         {
           "art": "titel",
-          "titel": "Welche Lieferung ist im Reihengeschäft die bewegte?",
-          "coverBadge": "Klausurschema",
-          "coverBildAuslassen": true
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · KG-Anteil: · wie bilanzieren? · § 253 Abs. 3 HGB · HB und StB · + Markier-Guide § 253 HGB · Kaufpreis · 300.000 € · 40 % an der KG",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Befördert oder versendet der erste Unternehmer, ist seine Lieferung bewegt; transportiert der letzte Abnehmer, ist es die Lieferung an ihn.",
-            "Transportiert ein Zwischenhändler, wird vermutet, dass er als Abnehmer handelt; er kann nachweisen, als Lieferer aufgetreten zu sein, im Binnenmarkt etwa durch Verwendung der USt-IdNr. des Abgangsstaats."
-          ]
+          "titel": "Personengesellschaften",
+          "text": "Der Fall · Ida führt die Kranich GmbH. Diese kauft am 02.01.2025 40 % der Kommanditanteile der Hafen KG für 300.000 €. · 60.000 € Verlustanteil 2025 laut Feststellung. · 31.12.2025: Anteil dauerhaft nur 230.000 € wert. · Was steht wo?"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Anhand der Belege feststellen, wer den Transport selbst durchführt oder den Frachtführer beauftragt hat."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Bei Transport durch einen Zwischenhändler die gesetzliche Vermutung anwenden und eine mögliche Widerlegung untersuchen."
-            }
-          ]
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jetzt du · Welcher Wert steht am 31.12.2025 in der Handelsbilanz der GmbH? · Und welcher in ihrer Steuerbilanz? · Lösung: weiterwischen · Berater Kofi fragt dich"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Pro Transport gibt es nur eine bewegte Lieferung. Ruhende Lieferungen davor gelten am Abgangsort, danach am Ankunftsort als ausgeführt (§ 3 Abs. 7 S. 2 UStG). Nur die bewegte Lieferung kann eine steuerfreie innergemeinschaftliche Lieferung oder Ausfuhr sein."
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Lösung: Handelsbilanz · Der Anteil ist ein Vermögensgegenstand: Zugang mit 300.000 € Anschaffungskosten. · § 246 Abs. 1 S. 1, § 255 Abs. 1 HGB · Den Verlustanteil bucht die GmbH nicht direkt. Er ist Anlass, den Wert zu prüfen. · Dauernde Wertminderung: Abschreibung auf 230.000 €. · § 253 Abs. 3 S. 5 HGB · Pflicht bei Dauer"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Lösung: Steuerbilanz · Der Anteil ist kein eigenes Wirtschaftsgut. · BFH vom 25.02.1991, GrS 7/89, BStBl II 1991, 691 · Angesetzt wird das Kapital der GmbH bei der KG, samt Ergänzungs- und Sonderbilanz. · 300.000 € − 60.000 € Verlustanteil = 240.000 € · § 15 Abs. 1 S. 1 Nr. 2 EStG · Ein Spiegelbild!"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Teilwert? Gibt es hier nicht · Steuerlich auf 230.000 € abschreiben: unzulässig. · Der Verlust wirkt allein über den festgestellten Anteil. · § 180 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Sonst würde derselbe Verlust doppelt abgezogen. · Nur 240.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Stand 31.12.2025 · Handelsbilanz · 230.000 € · Abschreibung 70.000 € · § 253 Abs. 3 S. 5 HGB · Steuerbilanz · 240.000 € · Aufwand 60.000 € aus dem Verlustanteil · § 15 Abs. 1 S. 1 Nr. 2 EStG · Zwei Werte, zwei Gründe"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "HB 230.000 € · StB 240.000 € · Abschreibung im HGB, Verlustanteil im Steuerrecht · HB: Anschaffungskosten, · bei Dauer abschreiben. · StB: Kapital spiegeln, · nie Teilwert. · Speichern für Klausur 3 · Hättest du steuerlich abgeschrieben? · Weiterwischen: § 253 HGB markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "§ 253 HGB (Auszug) · Auslöser · Pflicht in der HB · sonst Wahlrecht · Steuerbilanz: kein Teilwert · Anteil folgt dem Kapital bei der KG"
         }
-      ],
-      "caption": "Welche Lieferung ist im Reihengeschäft die bewegte? Entscheidend ist, wer die Ware befördert oder versendet. Beim Zwischenhändler gilt eine widerlegbare Vermutung nach § 3 Abs. 6a UStG.",
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-312",
+      "caption": "Prüfschema Abgabenordnung: Ist der Bescheid wirksam bekannt gegeben? In 5 Schritten.\n\n1. Nicht nichtig (§ 125 AO; § 124 Abs. 3 AO).\n2. Richtiger Adressat: derjenige, für den der Verwaltungsakt bestimmt ist (§ 122 Abs. 1 AO).\n3. Bekanntgabewille: Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand (AEAO zu § 124 Nr. 4). Aufgeben wirkt nur, bevor der Bescheid den Herrschaftsbereich der Behörde verlassen hat (AEAO zu § 124 Nr. 5); danach nur noch eine Mitteilung vor oder spätestens mit der Bekanntgabe (AEAO zu § 124 Nr. 6).\n4. Handlungsfähigkeit des Empfängers (§ 79 Abs. 1 AO). Bei Minderjährigen und Geschäftsunfähigen ist der gesetzliche Vertreter Bekanntgabeadressat (AEAO zu § 122 Nr. 2.2.1).\n5. Zeitpunkt: Post im Inland am vierten Tag nach Aufgabe zur Post (§ 122 Abs. 2 Nr. 1 AO), elektronisch am vierten Tag nach Absendung (§ 122 Abs. 2a AO); im Zweifel muss die Behörde den Zugang nachweisen.\n\nWirksam wird der Verwaltungsakt mit der Bekanntgabe (§ 124 Abs. 1 AO). Zum Schluss: §§ 79, 122, 124 AO und AEAO zu §§ 122, 124 zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#umsatzsteuer"
+        "#abgabenordnung"
       ],
-      "kurztitel": "Welche Lieferung ist im Reihengeschäft die bewegte",
-      "coverBadge": "Klausurschema",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 1a Abs. 1 UStG",
-        "§ 3 Abs. 6 Satz 1 UStG",
-        "§ 3 Abs. 6a Sätze 1 bis 7 UStG",
-        "§ 3 Abs. 7 Satz 2 Nr. 1 und 2 UStG",
-        "§ 6a UStG",
-        "Abschn. 3.14 Abs. 2 und 6 bis 10 UStAE",
-        "Themenpool: ust-aufb-ust-m-b04-15"
+        "§ 124 Abs. 1, 3 AO",
+        "§ 125 AO",
+        "§ 122 Abs. 1, 2, 2a AO",
+        "§ 79 Abs. 1 AO",
+        "AEAO zu § 124 Nr. 4–6",
+        "AEAO zu § 122 Nr. 2.2.1"
       ],
-      "coverRegie": {
-        "thema": "Welche Lieferung ist im Reihengeschäft die bewegte?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Ein Paket passiert mehrere farbige Stationen; die Figuren trennen Warenweg, Rechnung und Steuerfolge sichtbar voneinander.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-26-b2-ust-aufb-ust-m-b04-15-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-26-b2",
+      "kurztitel": "Wirksamkeitsformel II: Bekanntgabewille und Handlungsfähigkeit des Bekanntgabeadressaten",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Bescheid · wirksam? · § 124 Abs. 1 AO · in 5 Schritten · + Markier-Guide §§ 79, 122, 124 + AEAO",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Das Schema · Nicht nichtig · § 125 AO · Richtiger Adressat · § 122 Abs. 1 AO · Bekanntgabewille · AEAO zu § 124 Nr. 4 · Handlungsfähig · § 79 Abs. 1 AO · Zeitpunkt · § 122 Abs. 2 AO · Am Ende: §§ 79, 122, 124 AO + AEAO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schritt 3: Bekanntgabewille · Die zeichnungsberechtigte Person zeichnet abschließend und veranlasst den Versand. · AEAO zu § 124 Nr. 4 · Aufgeben wirkt nur, solange der Bescheid im Amt ist. · AEAO zu § 124 Nr. 5 · Danach nur noch: Mitteilung vor oder mit Bekanntgabe, er gelte nicht. · AEAO zu § 124 Nr. 6 · Rana, Finanzamt"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schritt 4: Handlungsfähigkeit · Handlungsfähig ist, wer nach bürgerlichem Recht geschäftsfähig ist. · § 79 Abs. 1 Nr. 1 AO · Ist der Steuerpflichtige minderjährig oder geschäftsunfähig, geht der Bescheid an den gesetzlichen Vertreter. · AEAO zu § 122 Nr. 2.2.1 · Krank oder verreist heißt nicht handlungsunfähig. · Wer liest es?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Schritt 5: Zeitpunkt · Post im Inland: bekannt gegeben am vierten Tag nach Aufgabe zur Post. · § 122 Abs. 2 Nr. 1 AO · Elektronisch: am vierten Tag nach Absendung. · § 122 Abs. 2a AO · Im Zweifel beweist das Amt den Zugang. · § 122 Abs. 2 letzter Hs. AO · NOVEMBER · 2 · Mo · Post · NOVEMBER · 6 · Fr · bekannt"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Beispiel · Rana zeichnet den Einkommensteuerbescheid für Jonas, 17, und gibt ihn am Montag zur Post. · Jonas hat von seiner Tante eine vermietete Wohnung geerbt. · Adressiert ist der Bescheid nur an Jonas. · Post für mich!"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Jetzt du · Ist der Bescheid wirksam bekannt gegeben? · Geh die fünf Schritte durch. · Lösung: weiterwischen · Gilt der jetzt?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Lösung · Bekanntgabewille: ja, Rana hat gezeichnet und versandt. · AEAO zu § 124 Nr. 4 · Jonas ist mit 17 nur beschränkt geschäftsfähig, für die Steuer also nicht handlungsfähig. · § 79 Abs. 1 Nr. 1, 2 AO · Bescheid an die Eltern nötig. So wird er nicht wirksam. · AEAO zu § 122 Nr. 2.2.1 · Also Mama und Papa?"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "Erst wirksam, dann Fristen · Bekanntgabewille und Handlungsfähigkeit nie überspringen · Gezeichnet und versandt, · Empfänger handlungsfähig, · dann der vierte Tag. · Speichern für Klausur 1 · Welchen Schritt vergisst du am ehesten? · Weiterwischen: §§ 79, 122, 124 + AEAO markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Abgabenordnung",
+          "text": "§§ 79, 122, 124 AO (Auszug) · Schritt 4 · Schritt 5 · Adressat · Schritt 1 · AEAO zu §§ 122, 124 (Auszug) · Jonas, 17 · die Eltern! · Schritt 3 · Jonas ist 17: Bescheid an die Eltern · an Jonas allein nicht wirksam"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "gewst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "themaId": "gewst-aufb-gewst-ks-06",
-      "slug": "2026-10-26-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
-          "unter": "Gewerbesteuer",
-          "text": "Derselbe Unternehmer, derselbe Betrieb, begrenzter Abzug.",
-          "norm": "§ 10a GewStG",
-          "icon": null,
-          "sprecher": "Ein Gewerbeverlust kann nur vorgetragen werden, nie zurück. Wer darf ihn wann und wie weit nutzen? Drei Antworten.",
-          "marken": [
-            "Nur Verlustvortrag",
-            "§ 10a GewStG"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Wer: nur, wer den Verlust erlitten hat",
-          "text": null,
-          "norm": "§ 10a GewStG",
-          "icon": null,
-          "sprecher": "Wer: Den Verlust nutzt nur, wer ihn erlitten hat. Scheidet ein Mitunternehmer aus, geht sein Anteil am Fehlbetrag unter. Bei Kapitalgesellschaften gilt zusätzlich § 8c KStG.",
-          "marken": [
-            "Gleicher Unternehmer",
-            "Mitunternehmer einzeln"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Wann: derselbe Betrieb, spätere Jahre",
-          "text": null,
-          "norm": "R 10a.2 GewStR",
-          "icon": null,
-          "sprecher": "Wann: Bei Einzelunternehmen und Personengesellschaften muss der Betrieb wirtschaftlich derselbe geblieben sein. Abziehen kannst du erst in folgenden Erhebungszeiträumen.",
-          "marken": [
-            "Gleicher Betrieb",
-            "Kein Verlustrücktrag"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Bis 1 Mio. € voll, vom übersteigenden Gewerbeertrag nur 60 %. Die 70 % aus § 10d EStG gelten hier nicht.",
-          "sprecher": "Wie weit: Bis eine Million Euro Gewerbeertrag ist der Abzug unbegrenzt, darüber nur zu 60 Prozent. Die befristeten 70 Prozent gelten nur bei Einkommen- und Körperschaftsteuer.",
-          "marken": [
-            "1 Mio. € plus 60 %"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen? Nur der Unternehmer, der ihn erlitten hat, im selben Betrieb und nur vortragend – bis 1 Mio. € voll, darüber zu 60 % (§ 10a GewStG).",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-22",
+      "caption": "183-Tage-Regel: Unter 183 Tagen im Ausland – bleibt der Arbeitslohn in Deutschland steuerpflichtig? ✈️\n\n▸ Grundsatz: Arbeitslohn darf der Staat besteuern, in dem gearbeitet wird (Art. 15 Abs. 1 OECD-MA).\n▸ Zurück an den Wohnsitzstaat nur, wenn alle drei Bedingungen erfüllt sind: höchstens 183 Tage Aufenthalt im maßgeblichen Zeitraum, Arbeitgeber nicht im Tätigkeitsstaat ansässig, Lohn nicht von einer Betriebsstätte dort getragen (Art. 15 Abs. 2 Buchst. a–c OECD-MA; BMF vom 12.12.2023, Rn. 101, 102).\n▸ Tage zählen: Ankunfts- und Abreisetag sowie Wochenenden und Feiertage vor Ort zählen als volle Aufenthaltstage (BMF vom 12.12.2023, Rn. 107, 108). Welcher Zeitraum gilt, regelt das jeweilige DBA.\n▸ Trägt eine Betriebsstätte im Tätigkeitsstaat den Lohn, hilft die Tagegrenze nicht (BMF vom 12.12.2023, Rn. 213 ff.).\n▸ Folge in Deutschland: Freistellung mit Progressionsvorbehalt (§ 32b Abs. 1 S. 1 Nr. 3 EStG), aber nur mit Nachweis der Besteuerung oder des Verzichts im anderen Staat (§ 50d Abs. 8 EStG).\n\nSpeichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#gewerbesteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 10a GewStG",
-        "R 10a.1 GewStR",
-        "R 10a.2 GewStR",
-        "R 10a.3 GewStR",
-        "H 10a.3 GewStH",
-        "§ 8c KStG",
-        "§ 8d KStG",
-        "Themenpool: gewst-aufb-gewst-ks-06"
+        "Art. 15 Abs. 1, 2 OECD-MA",
+        "BMF vom 12.12.2023, Rn. 101, 102, 107, 108, 213",
+        "§ 32b Abs. 1 S. 1 Nr. 3 EStG",
+        "§ 50d Abs. 8 EStG"
       ],
-      "coverRegie": {
-        "thema": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/05-fritz-kranz.jpg",
-          "assets/referenzen/charaktere/09-erwin-kranz.jpg"
-        ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-26-b3-gewst-aufb-gewst-ks-06-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-26-b3",
+      "kurztitel": "183-Tage-Regel: Wann bleibt Arbeitslohn im Wohnsitzstaat?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "170 Tage weg. Lohn bleibt hier?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Tage zählen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Wer trägt den Lohn?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Folge in Deutschland"
+        }
+      ],
+      "sprecher": [
+        "Hundertsiebzig Tage im Ausland gearbeitet. Also bleibt der Lohn in Deutschland steuerpflichtig? Nicht unbedingt.",
+        "Zähl die Tage: Ankunft und Abreise zählen voll, Wochenenden vor Ort auch. Hundertsiebzig bleibt unter hundertdreiundachtzig.",
+        "Aber die Frist ist nur eine von drei Bedingungen. Trägt eine Betriebsstätte vor Ort den Lohn, darf der andere Staat besteuern.",
+        "Deutschland stellt dann frei, mit Progressionsvorbehalt. Und nur gegen Nachweis der Steuer dort.",
+        "Merke: Tage zählen reicht nicht. Frag, wer den Lohn trägt."
+      ],
+      "dauerS": 37.582,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-11",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-11"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Organschaft:",
+        "Was gehört nicht dazu?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "optionen": [
+        "Mehrheit der Stimmrechte",
+        "Gewinnabführungsvertrag",
+        "Gleicher Firmenname"
+      ],
+      "pairId": "kst-quiz-kst-11",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Prüfungsfrage",
+        "Organschaft:",
+        "Was gehört nicht dazu?",
+        "Mehrheit der Stimmrechte",
+        "Gewinnabführungsvertrag",
+        "Gleicher Firmenname",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?",
-      "titel": "Wann entsteht die Umsatzsteuer bei einer erhaltenen Anzahlung?",
-      "optionen": [
-        "mit Lieferung",
-        "mit Rechnung",
-        "mit Ablauf des VAZ der Vereinnahmung"
-      ],
-      "richtig": 2,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "bilanz",
-      "klausur": 3,
-      "fachLabel": "Bilanzsteuerrecht",
-      "pairId": "bilanz-quiz-k3-11",
-      "quellen": [
-        "Themenpool: bilanz-quiz-k3-11"
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-quiz-kst-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "C: Der Name",
+        "ist egal"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "mit Ablauf des VAZ der Vereinnahmung",
       "optionen": [
-        "mit Lieferung",
-        "mit Rechnung",
-        "mit Ablauf des VAZ der Vereinnahmung"
+        "Mehrheit der Stimmrechte",
+        "Gewinnabführungsvertrag",
+        "Gleicher Firmenname"
       ],
       "richtig": 2,
-      "text": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG: Die Steuer entsteht mit Ablauf des Voranmeldungszeitraums, in dem du die Anzahlung vereinnahmst. Ob schon eine Rechnung vorliegt, ist egal.",
-      "liveVorrangAktiv": true
+      "text": "Nötig sind Stimmenmehrheit ab Jahresbeginn und ein Vertrag über mindestens fünf Jahre, der gelebt wird.",
+      "norm": "§ 14 Abs. 1 S. 1 Nr. 1, 3 KStG",
+      "pairId": "kst-quiz-kst-11",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Auflösung",
+        "C: Der Name",
+        "ist egal",
+        "Mehrheit der Stimmrechte",
+        "Gewinnabführungsvertrag",
+        "Gleicher Firmenname",
+        "Nötig sind Stimmenmehrheit ab Jahresbeginn und ein Vertrag über mindestens fünf Jahre, der gelebt wird.",
+        "§ 14 Abs. 1 S. 1 Nr. 1, 3 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "istr",
-      "klausur": 2,
-      "fachLabel": "Internationales Steuerrecht",
-      "pairId": "istr-modul-istr-istr4-06",
-      "quellen": [
-        "§ 9 AStG",
-        "§ 7 AStG",
-        "§ 8 AStG",
-        "Themenpool: istr-modul-istr-istr4-06"
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-2-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Tausch oder",
+        "Einlage?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "norm": "§ 6 Abs. 1 Nr. 5 EStG",
+      "punkte": [
+        [
+          "Gutschrift auch auf Kapitalkonto I: Tausch, also entgeltlich.",
+          "ok",
+          "BMF vom 26.07.2016"
+        ],
+        [
+          "Nur Kapitalkonto II oder Rücklage: verdeckte Einlage.",
+          "warn",
+          "BFH vom 29.07.2015, IV R 15/14"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Tausch oder",
+        "Einlage?",
+        "§ 6 Abs. 1 Nr. 5 EStG",
+        "Gutschrift auch auf Kapitalkonto I: Tausch, also entgeltlich.",
+        "BMF vom 26.07.2016",
+        "Nur Kapitalkonto II oder Rücklage: verdeckte Einlage.",
+        "BFH vom 29.07.2015, IV R 15/14"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 9 AStG",
-      "titel": "§ 9 AStG: relative und absolute Freigrenze",
-      "text": "Zwischeneinkünfte bleiben außer Ansatz, wenn sie höchstens ein Drittel der gesamten Einkünfte der Gesellschaft ausmachen und insgesamt 100.000 € nicht übersteigen. Freigrenze: beide Grenzen prüfen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-aufb-persg-melzer-2-1",
-      "quellen": [
-        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
-        "§ 4a Abs. 2 Nr. 2 EStG",
-        "§ 246 Abs. 1 Satz 1 HGB",
-        "§ 247 Abs. 2 HGB",
-        "§ 253 Abs. 1 Satz 1, Abs. 3 Satz 5 und Abs. 5 Satz 1 HGB",
-        "§ 255 Abs. 1 HGB",
-        "Themenpool: persg-aufb-persg-melzer-2-1"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Zweiter Anlauf",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "ueberzeile": "Lernstrategie",
+      "titel": [
+        "Fehler sortieren,",
+        "dann trainieren"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "punkte": [
+        [
+          "Wissen gefehlt?",
+          "ok",
+          null
+        ],
+        [
+          "Zeit gefehlt?",
+          "ok",
+          null
+        ],
+        [
+          "Sachverhalt übersehen?",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:list-check",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Zweiter Anlauf",
+        "Lernstrategie",
+        "Fehler sortieren,",
+        "dann trainieren",
+        "Wissen gefehlt?",
+        "Zeit gefehlt?",
+        "Sachverhalt übersehen?"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Wie bilanziert man eine Beteiligung an einer Personengesellschaft?",
-      "text": "Handels- und Steuerbilanz trennen: Handelsrechtlich gelten die Anschaffungskosten. Steuerlich wird die Beteiligung spiegelbildlich zum Kapitalkonto gezeigt; der Gewinnanteil kommt aus der gesonderten Feststellung.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-aufb-persg-melzer-1-5",
-      "quellen": [
-        "§ 15 Abs. 1 Satz 1 Nr. 2 EStG",
-        "§ 15 Abs. 3 Nr. 1 und Nr. 2 EStG",
-        "§ 8 Abs. 2 KStG",
-        "§ 6 Abs. 3 Satz 1 EStG",
-        "§ 6 Abs. 5 Satz 2 und Satz 3 Nr. 2 EStG",
-        "R 4.2 Abs. 2 Satz 2 EStR",
-        "BMF vom 28.04.1998",
-        "BFH vom 29.03.2006 – X R 59/00",
-        "BFH vom 18.08.2005, BStBl 2005 II S. 830",
-        "Themenpool: persg-aufb-persg-melzer-1-5"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-13",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Kleinunternehmer",
+        "seit 2025"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "punkte": [
+        [
+          "Umsatz Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €",
+          "ok",
+          "§ 19 Abs. 1 S. 1 UStG"
+        ],
+        [
+          "Steuerfrei: kein Vorsteuerabzug",
+          "warn",
+          "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+        ]
+      ],
+      "icon": "tabler:receipt",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Kleinunternehmer",
+        "seit 2025",
+        "Umsatz Vorjahr bis 25.000 €, laufendes Jahr bis 100.000 €",
+        "§ 19 Abs. 1 S. 1 UStG",
+        "Steuerfrei: kein Vorsteuerabzug",
+        "§ 15 Abs. 2 S. 1 Nr. 1 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Sonderbetriebsvermögen oder mitunternehmerische Betriebsaufspaltung?",
-      "text": "Erst alle Zuordnungen sammeln, dann die Rangfolge anwenden: Vermietet eine Schwester-PersG als Besitzgesellschaft, geht die mitunternehmerische Betriebsaufspaltung dem SBV vor. SBV verdrängt eigenes Betriebsvermögen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
@@ -571,30 +560,69 @@
       "fach": "est",
       "klausur": 2,
       "fachLabel": "Einkommensteuer",
-      "pairId": "est-aufb-est-ks2-17-03",
-      "quellen": [
-        "§ 17 Abs. 1 Satz 1 EStG",
-        "§ 17 Abs. 1 Satz 3 EStG",
-        "§ 17 Abs. 1 Satz 4 EStG",
-        "§ 1a KStG",
-        "§ 39 AO",
-        "§ 108 Abs. 1 AO",
-        "§§ 187, 188 BGB",
-        "H 17 Abs. 2 EStH",
-        "§ 16 Abs. 1 Satz 1 Nr. 2 EStG",
-        "Themenpool: est-aufb-est-ks2-17-03"
+      "themaId": "est-aufb-est-ks2-ea-03",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Miterben teilen",
+        "den Betrieb"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "zeilen": [
+        [
+          [
+            "Ohne Ausgleich: ",
+            null
+          ]
+        ],
+        [
+          [
+            "Buchwerte",
+            "a"
+          ],
+          [
+            " laufen weiter.",
+            null
+          ]
+        ],
+        [
+          [
+            "Zahlung aus eigenem",
+            null
+          ]
+        ],
+        [
+          [
+            "Geld: ",
+            null
+          ],
+          [
+            "teils entgeltlich",
+            "b"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 16 Abs. 3 S. 2 EStG",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Merksatz",
+        "Miterben teilen",
+        "den Betrieb",
+        "Ohne Ausgleich: ",
+        "Buchwerte laufen weiter.",
+        "Zahlung aus eigenem",
+        "Geld: teils entgeltlich.",
+        "§ 16 Abs. 3 S. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Wie misst man die 1-%-Grenze des § 17 EStG richtig?",
-      "text": "Es zählt die höchste nominelle Quote der letzten fünf Jahre, berechnet auf das Nennkapital ohne eigene Anteile und einschließlich mittelbarer Beteiligungen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
@@ -602,95 +630,150 @@
       "fach": "persg",
       "klausur": 3,
       "fachLabel": "Personengesellschaften",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab",
-      "text": "Wie schreibt der Erwerber in der Ergänzungsbilanz ab?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "KG-Anteil bilanzieren"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "KG-Anteil bilanzieren",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "ust",
+      "fach": "ao",
       "klausur": 1,
-      "fachLabel": "Umsatzsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Welche Lieferung ist im Reihengeschäft die bewegte",
-      "text": "Welche Lieferung ist im Reihengeschäft die bewegte?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Abgabenordnung",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "Bescheid wirksam?"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Neu im Feed",
+        "Bescheid wirksam?",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "gewst",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Gewerbesteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Gewerbeverlust: Wer darf ihn wann und wie weit nutzen?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "170 Tage weg"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "170 Tage weg",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-reel-keiner-sagt",
+      "caption": "Was dir keiner über die Mündliche sagt. 👀\n\nIn fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens einer durchgefallen. Zugelassen bis 4,5 (§ 25 Abs. 2 DVStB), bestanden erst bei 4,15 im Durchschnitt (§ 28 Abs. 1 S. 2 DVStB). Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.\n\nDie 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 25 Abs. 2 DVStB",
+        "§ 28 Abs. 1 S. 2 DVStB"
+      ],
+      "slug": "2026-10-26-m1",
+      "kurztitel": "Was dir keiner über die Mündliche sagt",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Die Mündliche: nur Formsache?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Über 400 Protokolle"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zwei Grenzen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Rechnung"
+        }
+      ],
+      "sprecher": [
+        "Was dir keiner sagt: Die Mündliche ist Formsache? Falsch. Sie ist kein Selbstläufer.",
+        "Wir haben über vierhundert Prüfungsprotokolle ausgewertet. In fast jedem dritten ist mindestens einer durchgefallen.",
+        "Zugelassen wirst du bis vier Komma fünf. Bestanden hast du erst bei vier Komma eins fünf im Durchschnitt.",
+        "Mit vier Komma fünf brauchst du in der Mündlichen also im Schnitt eine drei Komma acht.",
+        "Die zehn häufigsten Fehler gibt es kostenlos zum Download. Link in der Bio."
+      ],
+      "dauerS": 32.204,
+      "tempo": 1.0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T13:02:10.163Z",
+    "erzeugtAm": "2026-10-26T00:06:22Z",
     "pfad": "vorproduktion/2026-10-26/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -702,5 +785,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
