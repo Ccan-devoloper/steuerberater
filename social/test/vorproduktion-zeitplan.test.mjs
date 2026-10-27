@@ -15,7 +15,7 @@ const DATUM = "2026-10-04";
 function dashboardTag() {
   return {
     datum: DATUM,
-    renderVorschau: { status: "fertig" },
+    renderVorschau: { status: "fertig", renderer: "open-peeps-v4" },
     plan: {
       beitraege: [
         { slot: "b1", zeit: "07:00", format: "wochenrueckblick" },

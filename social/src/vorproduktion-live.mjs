@@ -14,6 +14,7 @@
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { CONFIG } from "./config.mjs";
 import { Instagram } from "./instagram.mjs";
 import { ledgerLaden, ledgerSpeichern, vermerken } from "./planer.mjs";
@@ -26,6 +27,18 @@ import { echteMedienId, veroeffentlichungEintragen } from "./veroeffentlichung.m
 
 const istJpeg = (name) => /\.jpe?g$/i.test(name);
 const istVideo = (name) => /\.mp4$/i.test(name);
+const OP_TAGE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../op/tage");
+export const OP_RENDERER = "open-peeps-v4";
+
+/* Gibt es für den Tag eine Open-Peeps-Beschreibung, darf nur der Open-Peeps-Render
+   live gehen. Fehlt er (Render-Lauf gescheitert oder noch nicht gepusht), wird
+   nichts veröffentlicht: Der Eintrag bleibt geplant und geht raus, sobald der
+   Render da ist – nie im alten Stil. */
+export function openPeepsFehlt(tag, datum, opTage = OP_TAGE) {
+  if (!fs.existsSync(path.join(opTage, `${datum}.json`))) return false;
+  return tag.renderVorschau?.renderer !== OP_RENDERER;
+}
+
 const warten = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function tagPfad(hosting, datum) {
@@ -215,7 +228,7 @@ function teaserVoraussetzung(plan, eintrag) {
  */
 export async function vorproduktionLiveAusfuehren({
   hosting, datum, trocken = false, alles = false, nurPlanen = false, log = console.log,
-  jetzt = () => Date.now(), schlafen = warten, instagram = null,
+  jetzt = () => Date.now(), schlafen = warten, instagram = null, opTage = OP_TAGE,
 }) {
   const tag = tagLaden(hosting, datum);
   if (!tag) return { aktiv: false, grund: "keine Vorproduktion für diesen Tag" };
@@ -229,6 +242,11 @@ export async function vorproduktionLiveAusfuehren({
   if (tag.renderVorschau?.status && tag.renderVorschau.status !== "fertig") {
     log(`  ⏸ Vorproduktion ist noch nicht fertig gerendert (Status: ${tag.renderVorschau.status}). Normalbetrieb bleibt trotzdem pausiert.`);
     return { aktiv: true, veroeffentlicht: 0, grund: "vorproduktion-nicht-fertig" };
+  }
+
+  if (openPeepsFehlt(tag, datum, opTage)) {
+    log(`  ⏸ ${datum}: Open-Peeps-Render fehlt (Renderer: ${tag.renderVorschau?.renderer || "alt"}). Nichts wird im alten Stil veröffentlicht; fällige Einträge gehen raus, sobald der Render da ist.`);
+    return { aktiv: true, veroeffentlicht: 0, grund: "open-peeps-render-fehlt" };
   }
 
   const ledgerPfad = path.join(hosting.stateDir, "ledger.json");
