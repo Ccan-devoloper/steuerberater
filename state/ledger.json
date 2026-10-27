@@ -15488,22 +15488,22 @@
         "Einlage?"
       ],
       "insights": {
-        "reach": 89,
-        "views": 102,
+        "reach": 100,
+        "views": 124,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 95,
-        "navigation_tap_forward": 67,
-        "navigation_tap_exit": 19,
-        "navigation_tap_back": 5,
-        "navigation_swipe_forward": 4
+        "navigation": 112,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_back": 12,
+        "navigation_tap_exit": 22,
+        "navigation_tap_forward": 74
       },
-      "insightsStand": "2026-10-27T05:44:33.826Z",
-      "insightsAlterStunden": 18.5
+      "insightsStand": "2026-10-27T08:30:49.823Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-10-26",
