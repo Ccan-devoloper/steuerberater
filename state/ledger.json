@@ -15781,22 +15781,22 @@
       "fach": "persg",
       "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
       "insights": {
-        "reach": 74,
-        "views": 102,
+        "reach": 111,
+        "views": 155,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 86,
-        "navigation_tap_back": 8,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_forward": 58,
-        "navigation_tap_exit": 13
+        "navigation": 134,
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 93,
+        "navigation_swipe_forward": 16,
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-10-27T15:58:05.478Z",
-      "insightsAlterStunden": 9.8
+      "insightsStand": "2026-10-27T20:45:54.416Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-10-27",
@@ -15810,22 +15810,22 @@
       "fach": "persg",
       "titel": "§ 6b EStG",
       "insights": {
-        "reach": 68,
-        "views": 88,
+        "reach": 99,
+        "views": 139,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 80,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 10,
-        "navigation_tap_back": 10,
-        "navigation_tap_forward": 55
+        "navigation": 123,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 17,
+        "navigation_tap_forward": 84
       },
-      "insightsStand": "2026-10-27T15:58:05.478Z",
-      "insightsAlterStunden": 9.8
+      "insightsStand": "2026-10-27T20:45:54.416Z",
+      "insightsAlterStunden": 14.6
     },
     {
       "datum": "2026-10-27",
@@ -16046,17 +16046,17 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 86,
-        "saved": 0,
-        "shares": 0,
+        "reach": 103,
+        "saved": 1,
+        "shares": 1,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 1,
+        "total_interactions": 3,
         "follows": 0,
-        "profile_visits": 5
+        "profile_visits": 6
       },
-      "insightsStand": "2026-10-27T18:47:36.240Z",
-      "insightsAlterStunden": 3.2
+      "insightsStand": "2026-10-27T20:45:58.504Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-27",
@@ -16142,19 +16142,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 81,
-        "saved": 0,
+        "reach": 185,
+        "saved": 1,
         "shares": 0,
-        "likes": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 1,
-        "views": 149,
-        "ig_reels_avg_watch_time": 4385,
-        "ig_reels_video_view_total_time": 355219,
-        "reels_skip_rate": 50.4
+        "total_interactions": 3,
+        "views": 241,
+        "ig_reels_avg_watch_time": 6250,
+        "ig_reels_video_view_total_time": 1168812,
+        "reels_skip_rate": 72.4
       },
-      "insightsStand": "2026-10-27T18:47:36.240Z",
-      "insightsAlterStunden": 0.8
+      "insightsStand": "2026-10-27T20:45:58.504Z",
+      "insightsAlterStunden": 2.8
     },
     {
       "datum": "2026-10-27",
