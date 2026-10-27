@@ -15752,22 +15752,22 @@
         "den Betrieb"
       ],
       "insights": {
-        "reach": 89,
-        "views": 111,
+        "reach": 93,
+        "views": 118,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 99,
-        "navigation_tap_back": 8,
-        "navigation_tap_forward": 72,
+        "navigation": 106,
+        "navigation_tap_back": 9,
+        "navigation_tap_forward": 78,
         "navigation_tap_exit": 12,
         "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-27T15:34:15.222Z",
-      "insightsAlterStunden": 21.3
+      "insightsStand": "2026-10-27T18:00:27.923Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-27",
@@ -15949,17 +15949,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 62,
-        "saved": 2,
+        "reach": 72,
+        "saved": 3,
         "shares": 2,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 5,
+        "total_interactions": 6,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-27T15:58:09.510Z",
-      "insightsAlterStunden": 3.5
+      "insightsStand": "2026-10-27T18:00:32.190Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-27",
@@ -15975,21 +15975,22 @@
         "Freistellen oder anrechnen?"
       ],
       "insights": {
-        "reach": 27,
-        "views": 31,
+        "reach": 62,
+        "views": 75,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_tap_forward": 19,
-        "navigation_tap_exit": 5,
-        "navigation_swipe_forward": 3
+        "navigation": 70,
+        "navigation_tap_forward": 51,
+        "navigation_tap_exit": 10,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-27T13:43:54.526Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-27T18:00:27.923Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-27",
@@ -16101,7 +16102,23 @@
       "titel": [
         "KSt-Einkommen:",
         "Wo starten?"
-      ]
+      ],
+      "insights": {
+        "reach": 30,
+        "views": 39,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 35,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 29,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-10-27T18:00:27.923Z",
+      "insightsAlterStunden": 2
     },
     {
       "datum": "2026-10-27",
