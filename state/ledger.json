@@ -16046,17 +16046,17 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 46,
+        "reach": 86,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
-        "profile_visits": 4
+        "profile_visits": 5
       },
-      "insightsStand": "2026-10-27T16:50:38.599Z",
-      "insightsAlterStunden": 1.3
+      "insightsStand": "2026-10-27T18:47:36.240Z",
+      "insightsAlterStunden": 3.2
     },
     {
       "datum": "2026-10-27",
@@ -16140,7 +16140,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 81,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "views": 149,
+        "ig_reels_avg_watch_time": 4385,
+        "ig_reels_video_view_total_time": 355219,
+        "reels_skip_rate": 50.4
+      },
+      "insightsStand": "2026-10-27T18:47:36.240Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-10-27",
