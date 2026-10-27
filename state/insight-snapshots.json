@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-27T11:45:24.810Z",
+  "stand": "2026-10-27T12:30:20.081Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -47555,6 +47555,50 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-27T12:30:20.081Z",
+          "alterStunden": 4,
+          "reach": 49,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
+    },
+    "17995916637104572": {
+      "art": "story",
+      "datum": "2026-10-27",
+      "titel": [
+        "Gemischte",
+        "Schenkung"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T10:56:36.021Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T12:30:18.327Z",
+          "alterStunden": 1.6,
+          "reach": 24,
+          "views": 37,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 26,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 15,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_back": 1
         }
       ]
     }
