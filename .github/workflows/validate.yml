@@ -32,6 +32,10 @@ jobs:
       # den fehlenden Faktencheck-Aufruf und aeltesteZuerst allesamt gemeldet.
       - name: Linter
         run: npm run lint
+      # Open-Peeps-Tage: Jedes Reel-Stichwort muss gesprochen werden, sonst bricht nachts der Render ab
+      # und der Tag ginge ohne Open-Peeps-Render (gesperrt) bzw. gar nicht raus.
+      - name: Open-Peeps-Stichworte
+        run: python3 op/stichworte_pruefen.py
       # ffmpeg und Chromium braucht die Testreihe wirklich - ohne sie fallen
       # fünf Tests mit „spawnSync ffmpeg ENOENT“ aus.
       - name: ffmpeg

@@ -64,6 +64,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Selbstheilung: Gibt es für heute eine Open-Peeps-Beschreibung, aber keinen
+      # Open-Peeps-Render im Asset-Zweig, veröffentlicht der Bot nichts (Sperre in
+      # vorproduktion-live.mjs) und stößt hier den Render-Lauf an.
+      - name: Open-Peeps-Render für heute sicherstellen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          d=$(TZ=Europe/Berlin date +%F)
+          [ -f "social/op/tage/$d.json" ] || exit 0
+          git fetch -q --depth=1 origin instagram-assets
+          r=$(git show "FETCH_HEAD:vorproduktion/$d.json" 2>/dev/null | python3 -c "import json,sys;print((json.load(sys.stdin).get('renderVorschau') or {}).get('renderer',''))" 2>/dev/null || true)
+          [ "$r" = "open-peeps-v4" ] && exit 0
+          echo "::warning::$d: Open-Peeps-Render fehlt – nichts geht im alten Stil raus, Render-Lauf wird angestoßen."
+          if [ -z "$(gh run list --workflow vorproduktion-op.yml --json status --jq '.[] | select(.status!="completed") | .status' | head -1)" ]; then
+            gh workflow run vorproduktion-op.yml -f tage="$d"
+          fi
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
