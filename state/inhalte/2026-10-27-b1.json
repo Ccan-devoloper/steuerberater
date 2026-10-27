@@ -10,7 +10,8 @@
       "art": "titel",
       "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
       "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true
+      "coverBildAuslassen": false,
+      "icon": "dokument"
     },
     {
       "art": "text",
