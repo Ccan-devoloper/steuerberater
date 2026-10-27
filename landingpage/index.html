@@ -12,7 +12,7 @@
 <link rel="preload" href="fonts/caveat.woff2" as="font" type="font/woff2" crossorigin>
 <style>
   /*
-   * Brevo-Anbindung: Das Formular sendet an /api/anmelden (functions/api/anmelden.js), die den Kontakt
+   * Brevo-Anbindung: Das Formular sendet an /api/anmelden (functions/api/anmelden.js im Repo-Root), die den Kontakt
    * per Brevo-API in die Liste „Mündliche – Leadmagnet“ einträgt. Benötigt BREVO_API_KEY in Cloudflare Pages.
    */
   /* Schriften selbst gehostet und vorgeladen: verhindert, dass der Inhalt beim Nachladen springt */
@@ -112,7 +112,7 @@
 </main>
 
 <script>
-  // Anmeldung läuft über die eigene Pages Function (functions/api/anmelden.js) → Brevo-API
+  // Anmeldung läuft über die eigene Pages Function (functions/api/anmelden.js im Repo-Root) → Brevo-API
   const ANMELDE_URL = "/api/anmelden";
   // Rückfall, falls die Function nicht erreichbar ist: Brevos Formular direkt
   const BREVO_FORM_URL = "https://ca7604c5.sibforms.com/serve/MUIFAJgQnlyZjdxDaDCTWJKcVX-sjGrMRVl5RTWjSp_fuIpXU2j7R5RkPRhjGczAbWIx3_qhx5o1_Cq-uXTjzrAvgwvXsQahn9TyKng9KSzkl8-SHGZ9PH_2kZam-2-OXO6LKlK27FpdmjaRQrOFHjih6WAldbmNqvgTLirRWCgLZINNMLIVYhE_aTqF5RywNPXMezH_8kTjkWr4CQ==";
