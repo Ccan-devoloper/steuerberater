@@ -46,7 +46,8 @@
       "themaTitel": "Die 10 häufigsten Fehler der Mündlichen",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-27T15:33:52.409Z"
     }
   ],
   "stories": [
