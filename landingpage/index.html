@@ -114,6 +114,8 @@
 <script>
   // Anmeldung läuft über die eigene Pages Function (functions/api/anmelden.js) → Brevo-API
   const ANMELDE_URL = "/api/anmelden";
+  // Rückfall, falls die Function nicht erreichbar ist: Brevos Formular direkt
+  const BREVO_FORM_URL = "https://ca7604c5.sibforms.com/serve/MUIFAJgQnlyZjdxDaDCTWJKcVX-sjGrMRVl5RTWjSp_fuIpXU2j7R5RkPRhjGczAbWIx3_qhx5o1_Cq-uXTjzrAvgwvXsQahn9TyKng9KSzkl8-SHGZ9PH_2kZam-2-OXO6LKlK27FpdmjaRQrOFHjih6WAldbmNqvgTLirRWCgLZINNMLIVYhE_aTqF5RywNPXMezH_8kTjkWr4CQ==";
 
   document.querySelectorAll(".lead-form").forEach((form) => {
     form.addEventListener("submit", async (e) => {
@@ -123,8 +125,12 @@
       btn.disabled = true; btn.textContent = "Wird gesendet …";
       try {
         const res = await fetch(ANMELDE_URL, { method: "POST", body: new FormData(form), signal: AbortSignal.timeout(20000) });
-        const daten = await res.json().catch(() => ({}));
-        if (!res.ok || !daten.ok) throw new Error(daten.fehler || res.status);
+        if (res.status === 404 || res.status === 405) {
+          await fetch(BREVO_FORM_URL, { method: "POST", mode: "no-cors", body: new FormData(form), signal: AbortSignal.timeout(20000) });
+        } else {
+          const daten = await res.json().catch(() => ({}));
+          if (!res.ok || !daten.ok) throw new Error(daten.fehler || res.status);
+        }
         karte.style.minHeight = karte.offsetHeight + "px";   // Höhe halten, damit nichts nach oben rutscht
         form.style.display = "none";
         karte.querySelector(".ok").classList.add("zeigen");
