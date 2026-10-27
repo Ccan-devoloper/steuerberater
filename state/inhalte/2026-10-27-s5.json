@@ -1,0 +1,28 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-quiz-k3-4",
+  "quellen": [
+    "Themenpool: persg-quiz-k3-4"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Auflösung",
+  "titel": "§ 6b EStG",
+  "optionen": [
+    "§ 6b EStG",
+    "§ 8 KStG",
+    "§ 15a EStG"
+  ],
+  "richtig": 0,
+  "text": "Die Übertragung stiller Reserven ist in § 6b EStG geregelt; R 6.6 EStR betrifft dagegen den unfreiwilligen Verlust.",
+  "liveVorrangAktiv": true
+}

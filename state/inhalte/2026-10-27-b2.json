@@ -1,0 +1,95 @@
+{
+  "format": "spickzettel",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-ea-03",
+  "slug": "2026-10-27-b2",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "Die Teilung des Nachlasses ohne Ausgleichszahlung ist unentgeltlich; übernimmt ein Erbe mehr Nachlassschulden, als seiner Quote entspricht, entstehen dadurch keine Anschaffungskosten.",
+        "Gelangen die wesentlichen Betriebsgrundlagen in Betriebsvermögen der Erben, sind nach § 16 Abs. 3 Satz 2 EStG die Buchwerte fortzuführen."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Feststellen, dass die Erbengemeinschaft mit dem Erbfall zur Mitunternehmerschaft geworden ist."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Klären, wohin die wesentlichen Betriebsgrundlagen bei der Teilung gelangen: in ein Betriebsvermögen oder ins Privatvermögen."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Ohne Ausgleichszahlung kein Entgelt. Gehen die Wirtschaftsgüter ins Betriebsvermögen der Erben, bleibt es beim Buchwert (§ 16 Abs. 3 S. 2 EStG, Sperrfrist nach S. 3). Gehen sie ins Privatvermögen, entsteht ein Aufgabegewinn nach § 16 Abs. 3 S. 1 EStG, ggf. begünstigt nach § 34 EStG."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn? Buchwerte, wenn die Wirtschaftsgüter ins Betriebsvermögen der Erben gelangen – ein Aufgabegewinn, wenn sie im Privatvermögen landen.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "kurztitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 16 Abs. 3 EStG",
+    "§ 16 Abs. 1 Satz 1 Nr. 2 EStG",
+    "§ 16 Abs. 2 EStG",
+    "§ 6 Abs. 3 EStG",
+    "§ 34 EStG",
+    "Themenpool: est-aufb-est-ks2-ea-03"
+  ],
+  "coverRegie": {
+    "thema": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/06-kalle.jpg",
+      "assets/referenzen/charaktere/01-holger-kranz.jpg"
+    ],
+    "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-27-b2-est-aufb-est-ks2-ea-03-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

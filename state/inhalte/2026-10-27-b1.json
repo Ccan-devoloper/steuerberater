@@ -1,0 +1,99 @@
+{
+  "format": "spickzettel",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-332",
+  "slug": "2026-10-27-b1",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+      "coverBadge": "Spickzettel",
+      "coverBildAuslassen": true
+    },
+    {
+      "art": "text",
+      "titel": "Kern der Prüfung",
+      "punkte": [
+        "§ 129 AO und § 173a AO: Die Frist läuft insoweit mindestens bis ein Jahr nach Bekanntgabe des fehlerhaften Bescheids (§ 171 Abs. 2 S. 1 und 2 AO).",
+        "Ein vor Fristablauf gestellter Änderungsantrag hemmt nach § 171 Abs. 3 AO, ein Einspruch nach § 171 Abs. 3a AO – jeweils bis zur unanfechtbaren Entscheidung."
+      ]
+    },
+    {
+      "art": "schritte",
+      "titel": "So baust du die Prüfung auf",
+      "schritte": [
+        {
+          "titel": "1. Schritt",
+          "text": "Reguläre Festsetzungsfrist lückenlos berechnen."
+        },
+        {
+          "titel": "2. Schritt",
+          "text": "Ist sie abgelaufen: Korrekturnorm bestimmen und prüfen, ob die dazugehörige Ablaufhemmung noch läuft."
+        }
+      ]
+    },
+    {
+      "art": "merke",
+      "titel": "Merksatz",
+      "text": "Nach Fristablauf hilft eine Korrekturnorm nur zusammen mit ihrer Ablaufhemmung. Fehlt sie, ist jede Änderung ausgeschlossen – auch die Berichtigung nach § 129 AO (§ 169 Abs. 1 AO)."
+    },
+    {
+      "art": "cta",
+      "titel": "Für die nächste Klausur",
+      "punkte": [
+        "Tragende Normen im Gesetz markieren",
+        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
+        "Typischen Fehler vor der nächsten Klausur kontrollieren"
+      ],
+      "icons": [
+        "dokument",
+        "lupe",
+        "warnung"
+      ]
+    }
+  ],
+  "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Jede Korrekturnorm braucht ihre Ablaufhemmung – § 129 und § 173a AO mit § 171 Abs. 2, Antrag mit Abs. 3, Einspruch mit Abs. 3a AO.",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "kurztitel": "Korrekturpärchen nach Ablauf der regulären…",
+  "coverBadge": "Spickzettel",
+  "coverBildAuslassen": true,
+  "quellen": [
+    "§ 171 Abs. 2 S. 1 AO",
+    "§ 129 AO",
+    "§ 171 Abs. 2 S. 2 AO",
+    "§ 173a AO",
+    "§ 171 Abs. 3 AO",
+    "§ 164 Abs. 2 AO",
+    "§ 173 AO",
+    "§ 171 Abs. 3a AO",
+    "§ 350 AO",
+    "Themenpool: ao-modul-ao-332"
+  ],
+  "coverRegie": {
+    "thema": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+    "goldenReferences": [
+      "assets/referenzen/charaktere/02-vera-kranz.jpg",
+      "assets/referenzen/charaktere/07-dario-costa.jpg"
+    ],
+    "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
+    "verpackung": "Handlung in Prüfungsreihenfolge",
+    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
+    "bilddatei": "2026-10-27-b1-ao-modul-ao-332-cover.png",
+    "status": "Bild ausstehend"
+  },
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "liveVorrangAktiv": true
+}

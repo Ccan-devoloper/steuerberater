@@ -1,0 +1,28 @@
+{
+  "slot": "s9",
+  "art": "tipp",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "pairId": "umwst-aufb-umw-2-25",
+  "quellen": [
+    "§ 20 Abs. 3 UmwStG",
+    "§ 20 Abs. 2 UmwStG",
+    "§ 16 EStG",
+    "§ 20 Abs. 1 UmwStG",
+    "§ 20 Abs. 4 UmwStG",
+    "§ 54 Abs. 4 UmwG",
+    "Themenpool: umwst-aufb-umw-2-25"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Klausurtipp",
+  "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
+  "text": "Neutral bleibt nur eine sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 €, höchstens bis zum Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Ein Mehrbetrag führt anteilig zur Aufdeckung stiller Reserven.",
+  "liveVorrangAktiv": true
+}

@@ -1,0 +1,27 @@
+{
+  "slot": "s8",
+  "art": "merksatz",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-modul-persg-1",
+  "quellen": [
+    "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
+    "§ 15 Abs. 3 Nr. 1 EStG",
+    "§ 15 Abs. 3 Nr. 2 EStG",
+    "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
+    "§ 15 Abs. 3 EStG",
+    "Themenpool: persg-modul-persg-1"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Merksatz",
+  "titel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
+  "text": "Personengesellschaft + gewerbliche Einkünfte + Mitunternehmerstellung: Diese drei Punkte stehen am Anfang des PersG-Teils.",
+  "liveVorrangAktiv": true
+}

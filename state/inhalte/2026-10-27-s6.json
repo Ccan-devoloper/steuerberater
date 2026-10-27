@@ -1,0 +1,26 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "pairId": "persg-modul-persg-2",
+  "quellen": [
+    "§ 15 Abs. 3 Nr. 1 EStG",
+    "§ 15 Abs. 3 Nr. 2 EStG",
+    "§ 15 Abs. 3 Nr. 1, Nr. 2 EStG",
+    "Themenpool: persg-modul-persg-2"
+  ],
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "bewusst-ausgelassen",
+  "ueberzeile": "Norm des Tages",
+  "norm": "§ 15 Abs. 3 Nr. 1 und 2 EStG",
+  "titel": "Abfärbung und gewerblich geprägte Personengesellschaft",
+  "text": "Nr. 1: Gewerbliche Tätigkeit über der Bagatellgrenze oder gewerbliche Beteiligungseinkünfte infizieren alle Einkünfte. Nr. 2: Geprägt, wenn nur KapG persönlich haften und nur sie oder Nichtgesellschafter geschäftsführen.",
+  "liveVorrangAktiv": true
+}
