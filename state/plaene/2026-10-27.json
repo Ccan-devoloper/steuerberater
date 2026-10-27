@@ -121,7 +121,8 @@
       "zeit": "19:20",
       "art": "merksatz",
       "themaId": "umwst-aufb-umw-5-06",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-27T18:20:00.009Z"
     },
     {
       "slot": "s3",
