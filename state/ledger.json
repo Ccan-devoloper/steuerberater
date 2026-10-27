@@ -15814,6 +15814,18 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "s1",
+      "medienId": "18039256178652045",
+      "veroeffentlicht": "2026-10-27T07:30:19.283Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": "Korrekturpärchen nach Ablauf der regulären…"
     }
   ],
   "fachZaehler": {
