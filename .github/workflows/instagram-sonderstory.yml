@@ -1,0 +1,60 @@
+name: Instagram-Sonderstory
+
+# Veröffentlicht eine einzelne, von Hand geschriebene Story aus social/sonderstories/.
+# Nur von Hand: Actions → Instagram-Sonderstory → Run workflow. Kein Claude-Aufruf.
+on:
+  workflow_dispatch:
+    inputs:
+      datei:
+        description: "HTML-Datei in social/sonderstories/ (z. B. 2026-10-27-anmeldung.html)"
+        type: string
+        required: true
+      modus:
+        description: "trocken = nur rendern und als Artefakt ablegen · live = veröffentlichen"
+        type: choice
+        default: trocken
+        options: [trocken, live]
+
+permissions:
+  contents: write
+
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # Teilt die Gruppe mit dem Tageslauf, damit beide nicht gleichzeitig in den Asset-Zweig schreiben
+    concurrency:
+      group: instagram-bot
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: social/package-lock.json
+      - name: Abhängigkeiten
+        working-directory: social
+        run: npm ci
+      - name: Chromium installieren
+        working-directory: social
+        run: npx playwright install --with-deps chromium || npx playwright install chromium
+      - name: Story rendern und veröffentlichen
+        working-directory: social
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+          IG_TOKEN_KEY: ${{ secrets.IG_TOKEN_KEY }}
+          IG_APP_ID: ${{ secrets.IG_APP_ID }}
+          IG_APP_SECRET: ${{ secrets.IG_APP_SECRET }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          DATEI: ${{ github.event.inputs.datei }}
+          MODUS: ${{ github.event.inputs.modus }}
+        run: |
+          case "$DATEI" in *[!A-Za-z0-9._-]*|"") echo "::error::Ungültiger Dateiname"; exit 1;; esac
+          node bin/sonderstory.mjs "sonderstories/$DATEI" $([ "$MODUS" = live ] && echo --live)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sonderstory
+          path: social/sonderstories/*.jpg
