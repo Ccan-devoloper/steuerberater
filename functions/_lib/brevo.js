@@ -23,9 +23,43 @@ async function brevo(env, pfad, daten, timeoutMs) {
 export const kontaktEintragen = (env, email, vorname, timeoutMs = 3000) =>
   brevo(env, "contacts", { email, attributes: vorname ? { FIRSTNAME: vorname } : {}, listIds: [LISTE_MUENDLICHE], updateEnabled: true }, timeoutMs);
 
-// PDF-Mail verschicken. null = ok, sonst Fehlertext
-export const pdfSenden = (env, email, vorname, timeoutMs = 3000) =>
-  brevo(env, "smtp/email", { templateId: VORLAGE_PDF, to: [vorname ? { email, name: vorname } : { email }] }, timeoutMs);
+// PDF-Mail verschicken – höchstens einmal je Kontakt. Der Cloudflare-Speicher ist nur „irgendwann konsistent“:
+// Zwei Läufe kurz nacheinander (stündlicher Lauf, Anmeldung im Hintergrund) sehen denselben Eintrag noch ohne
+// PDF-Vermerk. Deshalb steht der Vermerk zusätzlich am Kontakt in Brevo (Attribut PDF_GESENDET), und vor dem
+// Senden wird dort nachgesehen. null = ok (gesendet oder schon früher gesendet), sonst Fehlertext
+export async function pdfSenden(env, email, vorname, timeoutMs = 3000) {
+  if (!env.BREVO_API_KEY) return "BREVO_API_KEY fehlt";
+  const kopf = { "api-key": env.BREVO_API_KEY, "content-type": "application/json", accept: "application/json" };
+  const kontaktUrl = `https://api.brevo.com/v3/contacts/${encodeURIComponent(email)}?identifierType=email_id`;
+  try {
+    const res = await fetch(kontaktUrl, { headers: kopf, signal: AbortSignal.timeout(timeoutMs) });
+    if (res.ok && (await res.json())?.attributes?.PDF_GESENDET) return null;
+  } catch (e) {
+    return `Brevo nicht erreichbar: ${e.name}`;
+  }
+  // Vermerk vor dem Senden setzen: lieber im Ausnahmefall keine Mail als zwei
+  const jetzt = new Date().toISOString().slice(0, 10);
+  let f = await brevo(env, "contacts/attributes/normal/PDF_GESENDET", { type: "date" }, timeoutMs);   // legt das Attribut beim ersten Mal an
+  f = await brevoPut(env, kontaktUrl, { attributes: { PDF_GESENDET: jetzt } }, timeoutMs);
+  if (f) return f;
+  f = await brevo(env, "smtp/email", { templateId: VORLAGE_PDF, to: [vorname ? { email, name: vorname } : { email }], params: { VORNAME: vorname || "" } }, timeoutMs);
+  if (f) await brevoPut(env, kontaktUrl, { attributes: { PDF_GESENDET: "" } }, timeoutMs);   // Versand fehlgeschlagen: Vermerk zurücknehmen
+  return f;
+}
+
+async function brevoPut(env, url, daten, timeoutMs) {
+  try {
+    const res = await fetch(url, {
+      method: "PUT",
+      headers: { "api-key": env.BREVO_API_KEY, "content-type": "application/json", accept: "application/json" },
+      body: JSON.stringify(daten),
+      signal: AbortSignal.timeout(timeoutMs),
+    });
+    return res.ok ? null : `Brevo ${res.status}: ${(await res.text()).slice(0, 300)}`;
+  } catch (e) {
+    return `Brevo nicht erreichbar: ${e.name}`;
+  }
+}
 
 // Fehlende Schritte für einen Eintrag nachholen. Gibt den aktualisierten Eintrag und ggf. den Fehler zurück.
 export async function abarbeiten(env, eintrag, timeoutMs = 3000) {
