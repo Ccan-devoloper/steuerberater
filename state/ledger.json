@@ -13329,17 +13329,17 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 159,
+        "reach": 176,
         "saved": 5,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 8,
+        "total_interactions": 9,
         "follows": 3,
-        "profile_visits": 7
+        "profile_visits": 9
       },
-      "insightsStand": "2026-10-26T09:45:00.828Z",
-      "insightsAlterStunden": 142.2
+      "insightsStand": "2026-10-27T10:56:47.662Z",
+      "insightsAlterStunden": 167.4
     },
     {
       "datum": "2026-10-20",
@@ -15488,22 +15488,22 @@
         "Einlage?"
       ],
       "insights": {
-        "reach": 100,
-        "views": 124,
+        "reach": 111,
+        "views": 139,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 112,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_back": 12,
-        "navigation_tap_exit": 22,
-        "navigation_tap_forward": 74
+        "navigation": 125,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_back": 14,
+        "navigation_tap_exit": 24,
+        "navigation_tap_forward": 81
       },
-      "insightsStand": "2026-10-27T08:30:49.823Z",
-      "insightsAlterStunden": 21.3
+      "insightsStand": "2026-10-27T10:56:37.216Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-26",
@@ -15527,7 +15527,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 83,
+        "reach": 88,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -15536,8 +15536,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-27T05:44:46.717Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-27T10:56:47.662Z",
+      "insightsAlterStunden": 22.4
     },
     {
       "datum": "2026-10-26",
@@ -15553,22 +15553,22 @@
         "Bescheid wirksam?"
       ],
       "insights": {
-        "reach": 83,
-        "views": 102,
+        "reach": 100,
+        "views": 130,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 95,
-        "navigation_swipe_forward": 10,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 67,
-        "navigation_tap_exit": 16
+        "navigation": 120,
+        "navigation_tap_exit": 20,
+        "navigation_tap_forward": 80,
+        "navigation_tap_back": 9,
+        "navigation_swipe_forward": 11
       },
-      "insightsStand": "2026-10-27T05:44:33.826Z",
-      "insightsAlterStunden": 17.2
+      "insightsStand": "2026-10-27T10:56:37.216Z",
+      "insightsAlterStunden": 22.4
     },
     {
       "datum": "2026-10-26",
@@ -15585,22 +15585,22 @@
         "dann trainieren"
       ],
       "insights": {
-        "reach": 77,
-        "views": 93,
+        "reach": 92,
+        "views": 113,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 82,
-        "navigation_tap_back": 1,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 68
+        "navigation": 102,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 80
       },
-      "insightsStand": "2026-10-27T05:44:33.826Z",
-      "insightsAlterStunden": 16.1
+      "insightsStand": "2026-10-27T10:56:37.216Z",
+      "insightsAlterStunden": 21.3
     },
     {
       "datum": "2026-10-26",
@@ -15617,22 +15617,22 @@
         "seit 2025"
       ],
       "insights": {
-        "reach": 68,
-        "views": 85,
+        "reach": 83,
+        "views": 104,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 79,
-        "navigation_tap_forward": 55,
-        "navigation_tap_exit": 9,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_back": 7
+        "navigation": 98,
+        "navigation_tap_forward": 69,
+        "navigation_tap_exit": 11,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_back": 9
       },
-      "insightsStand": "2026-10-27T05:44:33.826Z",
-      "insightsAlterStunden": 13.9
+      "insightsStand": "2026-10-27T10:56:37.216Z",
+      "insightsAlterStunden": 19.1
     },
     {
       "datum": "2026-10-26",
@@ -15656,19 +15656,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 370,
+        "reach": 425,
         "saved": 0,
         "shares": 1,
         "likes": 3,
         "comments": 0,
         "total_interactions": 4,
-        "views": 450,
-        "ig_reels_avg_watch_time": 7337,
-        "ig_reels_video_view_total_time": 2736792,
-        "reels_skip_rate": 62.9
+        "views": 516,
+        "ig_reels_avg_watch_time": 7601,
+        "ig_reels_video_view_total_time": 3253315,
+        "reels_skip_rate": 62.6
       },
-      "insightsStand": "2026-10-27T05:44:46.717Z",
-      "insightsAlterStunden": 13.2
+      "insightsStand": "2026-10-27T10:56:47.662Z",
+      "insightsAlterStunden": 18.4
     },
     {
       "datum": "2026-10-26",
@@ -15692,19 +15692,19 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 247,
+        "reach": 288,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 348,
-        "ig_reels_avg_watch_time": 9209,
-        "ig_reels_video_view_total_time": 2394381,
-        "reels_skip_rate": 64.2
+        "views": 400,
+        "ig_reels_avg_watch_time": 9357,
+        "ig_reels_video_view_total_time": 2835272,
+        "reels_skip_rate": 61.7
       },
-      "insightsStand": "2026-10-27T05:44:46.717Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-10-27T10:56:47.662Z",
+      "insightsAlterStunden": 16.9
     },
     {
       "datum": "2026-10-26",
@@ -15720,22 +15720,22 @@
         "170 Tage weg"
       ],
       "insights": {
-        "reach": 64,
-        "views": 68,
+        "reach": 77,
+        "views": 88,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 66,
-        "navigation_tap_back": 1,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 52,
-        "navigation_swipe_forward": 4
+        "navigation": 81,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 62,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 4
       },
-      "insightsStand": "2026-10-27T05:44:33.826Z",
-      "insightsAlterStunden": 11.7
+      "insightsStand": "2026-10-27T10:56:37.216Z",
+      "insightsAlterStunden": 16.9
     },
     {
       "datum": "2026-10-26",
@@ -15752,22 +15752,22 @@
         "den Betrieb"
       ],
       "insights": {
-        "reach": 59,
-        "views": 64,
+        "reach": 77,
+        "views": 93,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 58,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_exit": 9,
-        "navigation_tap_forward": 43,
-        "navigation_tap_back": 2
+        "navigation": 84,
+        "navigation_tap_back": 5,
+        "navigation_tap_forward": 60,
+        "navigation_tap_exit": 12,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-27T05:44:33.826Z",
-      "insightsAlterStunden": 11.4
+      "insightsStand": "2026-10-27T10:56:37.216Z",
+      "insightsAlterStunden": 16.6
     },
     {
       "datum": "2026-10-27",
@@ -15880,7 +15880,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 41,
+        "saved": 2,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-10-27T10:56:47.662Z",
+      "insightsAlterStunden": 2.4
     },
     {
       "datum": "2026-10-27",
