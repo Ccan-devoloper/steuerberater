@@ -7,20 +7,20 @@
     {
       "slot": "b1",
       "zeit": "08:30",
-      "format": "spickzettel",
-      "themaId": "ao-modul-ao-332",
-      "themaTitel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-      "fach": "ao",
+      "format": "rechenweg",
+      "themaId": "ust-aufb-ust-m-b05-6",
+      "themaTitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
+      "fach": "ust",
       "klausur": 1,
       "status": "geplant"
     },
     {
       "slot": "b2",
       "zeit": "13:30",
-      "format": "spickzettel",
-      "themaId": "est-aufb-est-ks2-ea-03",
-      "themaTitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-      "fach": "est",
+      "format": "minifall",
+      "themaId": "istr-aufb-istr-gh-4-30",
+      "themaTitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
+      "fach": "istr",
       "klausur": 2,
       "status": "geplant"
     },
@@ -28,11 +28,20 @@
       "slot": "b3",
       "zeit": "19:00",
       "format": "reel",
-      "themaId": "persg-aufb-persg-melzer-2-7",
-      "themaTitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-      "fach": "persg",
+      "themaId": "bilanz-formel-schuldzinsen",
+      "themaTitel": "Nicht abziehbare Schuldzinsen",
+      "fach": "bilanz",
       "klausur": 3,
-      "lang": false,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "16:00",
+      "format": "pruefungsfrage",
+      "themaId": "lead-10-fehler",
+      "themaTitel": "Die 10 häufigsten Fehler der Mündlichen",
+      "fach": null,
+      "klausur": 0,
       "status": "geplant"
     }
   ],
@@ -68,14 +77,13 @@
       "slot": "s6",
       "zeit": "11:52",
       "art": "norm",
-      "themaId": "persg-modul-persg-2",
+      "themaId": "erbst-modul-erbst-503",
       "status": "geplant"
     },
     {
       "slot": "s7",
       "zeit": "14:35",
       "art": "tipp",
-      "themaId": "umwst-aufb-umw-ks-3-03",
       "status": "geplant"
     },
     {
@@ -88,15 +96,15 @@
     {
       "slot": "s8",
       "zeit": "16:58",
-      "art": "merksatz",
-      "themaId": "persg-modul-persg-1",
+      "art": "tipp",
+      "themaId": "kst-karte-kst-10",
       "status": "geplant"
     },
     {
       "slot": "s9",
       "zeit": "19:20",
-      "art": "tipp",
-      "themaId": "umwst-aufb-umw-2-25",
+      "art": "merksatz",
+      "themaId": "umwst-aufb-umw-5-06",
       "status": "geplant"
     },
     {
