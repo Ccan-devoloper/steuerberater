@@ -23,7 +23,7 @@ async function anBrevo(env, email, vorname) {
         listIds: [LISTE_MUENDLICHE],
         updateEnabled: true,
       }),
-      signal: AbortSignal.timeout(8000),
+      signal: AbortSignal.timeout(3000),
     });
     // 201 = neu angelegt, 204 = vorhandener Kontakt aktualisiert
     return res.ok ? null : `Brevo ${res.status}: ${(await res.text()).slice(0, 300)}`;
