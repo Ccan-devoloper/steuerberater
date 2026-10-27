@@ -1,13 +1,13 @@
 // Cloudflare Pages Function: POST /api/anmelden
 // 1. Speichert jede Anmeldung zuerst im KV-Namespace ANMELDUNGEN (geht auch, wenn Brevo gestört ist).
-// 2. Trägt sie danach per Brevo-API in die Liste „Mündliche – Leadmagnet“ ein und vermerkt das Ergebnis.
+// 2. Trägt sie danach per Brevo-API in die Liste „Mündliche – Leadmagnet“ ein und verschickt die PDF-Mail.
 // Einstellungen in Cloudflare Pages → Settings (Production):
 //   Bindings: KV namespace „examenscampus-anmeldungen“ als Variable ANMELDUNGEN
 //   Variables and Secrets: BREVO_API_KEY (Secret)
 // Gespeicherte Anmeldungen: Workers & Pages → KV → examenscampus-anmeldungen. Schlüssel beginnen mit
 // „offen:“ (noch nicht in Brevo) oder „brevo:“ (erfolgreich übertragen). Offene werden über
 // /api/nachtragen stündlich erneut versucht.
-import { anBrevo, nachtragen } from "../_lib/brevo.js";
+import { abarbeiten, nachtragen } from "../_lib/brevo.js";
 
 const antwort = (status, daten) =>
   new Response(JSON.stringify(daten), { status, headers: { "content-type": "application/json" } });
@@ -26,25 +26,26 @@ export async function onRequestPost({ request, env, waitUntil }) {
   }
 
   const zeit = new Date().toISOString();
-  const eintrag = { email, vorname, zeit };
+  const schluessel = `${zeit}:${email}`;
   const kv = env.ANMELDUNGEN;
   let gespeichert = false;
   if (kv) {
-    try { await kv.put(`offen:${zeit}:${email}`, JSON.stringify(eintrag)); gespeichert = true; }
+    try { await kv.put(`offen:${schluessel}`, JSON.stringify({ email, vorname, zeit })); gespeichert = true; }
     catch (e) { console.log("KV-Fehler", e); }
   }
 
-  const fehler = await anBrevo(env, email, vorname);
+  // Kontakt in die Liste eintragen und PDF-Mail senden
+  const { eintrag, fehler } = await abarbeiten(env, { email, vorname, zeit });
   if (fehler) console.log(fehler);
 
   if (gespeichert) {
     if (!fehler) {
-      await kv.put(`brevo:${zeit}:${email}`, JSON.stringify(eintrag));
-      await kv.delete(`offen:${zeit}:${email}`);
-      // Brevo läuft wieder: liegengebliebene Anmeldungen im Hintergrund gleich mitnehmen
+      await kv.put(`brevo:${schluessel}`, JSON.stringify(eintrag));
+      await kv.delete(`offen:${schluessel}`);
+      // Brevo läuft: liegengebliebene Anmeldungen im Hintergrund gleich mitnehmen
       waitUntil(nachtragen(env, 5).catch(() => {}));
     } else {
-      await kv.put(`offen:${zeit}:${email}`, JSON.stringify({ ...eintrag, fehler }));
+      await kv.put(`offen:${schluessel}`, JSON.stringify(eintrag));
     }
     return antwort(200, { ok: true });
   }
