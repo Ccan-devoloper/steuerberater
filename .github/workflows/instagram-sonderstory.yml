@@ -22,10 +22,8 @@ jobs:
   story:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    # Teilt die Gruppe mit dem Tageslauf, damit beide nicht gleichzeitig in den Asset-Zweig schreiben
-    concurrency:
-      group: instagram-bot
-      cancel-in-progress: false
+    # Bewusst ohne die Gruppe „instagram-bot“: Der Tageslauf hält sie bis zu zwei Stunden,
+    # eine Hinweis-Story soll sofort raus. Hosting.push() setzt bei Konflikten per rebase neu auf.
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
