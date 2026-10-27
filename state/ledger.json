@@ -16027,6 +16027,21 @@
         "#mündlicheprüfung",
         "#examensvorbereitung"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "s10",
+      "medienId": "17909767449562120",
+      "veroeffentlicht": "2026-10-27T15:34:13.785Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Diese 10 Fehler",
+        "kosten dich die Mündliche"
+      ]
     }
   ],
   "fachZaehler": {
