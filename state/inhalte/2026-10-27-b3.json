@@ -1,115 +1,59 @@
 {
   "format": "reel",
-  "layout": "erklaer",
-  "fach": "persg",
+  "fach": "bilanz",
   "klausur": 3,
-  "fachLabel": "Personengesellschaften",
-  "themaId": "persg-aufb-persg-melzer-2-7",
-  "slug": "2026-10-27-b3",
-  "szenen": [
-    {
-      "art": "hook",
-      "nummer": null,
-      "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-      "unter": "Personengesellschaften",
-      "text": "Mitgeben, umlenken oder ins Privatvermögen?",
-      "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
-      "icon": null,
-      "sprecher": "Du verschenkst deinen Mitunternehmeranteil. Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Es kommt darauf an, wohin es geht.",
-      "marken": [
-        "Anteil plus SBV"
-      ]
-    },
-    {
-      "art": "schritt",
-      "nummer": 1,
-      "titel": "SBV geht mit über: zwingend Buchwert",
-      "text": null,
-      "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
-      "icon": null,
-      "sprecher": "Geht das wesentliche Sonderbetriebsvermögen mit dem Anteil auf den Beschenkten über, sind die Buchwerte zwingend fortzuführen. Bleibt bei einem Teilanteil SBV zurück, muss der Beschenkte fünf Jahre halten.",
-      "marken": [
-        "Alles geht mit",
-        "Buchwert zwingend"
-      ]
-    },
-    {
-      "art": "schritt",
-      "nummer": 2,
-      "titel": "SBV bleibt: anderes BV oder Privatvermögen?",
-      "text": null,
-      "norm": "§ 6 Abs. 5 EStG",
-      "icon": null,
-      "sprecher": "Überführst du das SBV zeitgleich zum Buchwert in ein anderes eigenes Betriebsvermögen, bleibt die Schenkung trotzdem neutral. Geht es ins Privatvermögen, gibst du den ganzen Mitunternehmeranteil auf, mit Gewinn nach § 16 Abs. 3 EStG.",
-      "marken": [
-        "Anderes BV: Buchwert",
-        "Privatvermögen: Aufgabe"
-      ]
-    },
-    {
-      "art": "merke",
-      "nummer": null,
-      "titel": "Merksatz",
-      "text": "Das SBV entscheidet: mitgeben oder in anderes Betriebsvermögen heißt Buchwert, Privatvermögen heißt Aufgabe des ganzen Anteils.",
-      "sprecher": "Merke: Solange das Sonderbetriebsvermögen im Betriebsvermögen bleibt, bleiben die Buchwerte. Erst der Weg ins Privatvermögen deckt alle stillen Reserven auf.",
-      "marken": [
-        "SBV im BV halten"
-      ]
-    },
-    {
-      "art": "cta",
-      "nummer": null,
-      "titel": "Prüfungsschritte festigen",
-      "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-      "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-      "marken": [
-        "Kernfrage",
-        "Reihenfolge",
-        "Normen"
-      ]
-    }
-  ],
-  "caption": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Geht es mit über oder zeitgleich in ein anderes Betriebsvermögen, bleibt es beim Buchwert. Landet es im Privatvermögen, ist der ganze Anteil aufgegeben.",
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-formel-schuldzinsen",
+  "caption": "Nicht abziehbare Schuldzinsen: Wann kosten Entnahmen den Zinsabzug? 💸\n\n▸ Überentnahme: Entnahmen übersteigen Gewinn plus Einlagen des Wirtschaftsjahres (§ 4 Abs. 4a S. 2 EStG).\n▸ Nicht abziehbar sind typisiert 6 % der Überentnahme, fortgeschrieben um Über- und Unterentnahmen der Vorjahre (§ 4 Abs. 4a S. 3 EStG).\n▸ Hinzugerechnet wird höchstens der um 2.050 € verminderte Betrag der Schuldzinsen des Wirtschaftsjahres (§ 4 Abs. 4a S. 4 EStG). Beispiel: 30.000 € Überentnahme × 6 % = 1.800 €.\n▸ Zinsen für Darlehen zur Finanzierung von Anlagevermögen bleiben unberührt abziehbar (§ 4 Abs. 4a S. 5 EStG).\n▸ Die Hinzurechnung erfolgt außerbilanziell; bei Einnahmenüberschussrechnung gilt die Regel sinngemäß (§ 4 Abs. 4a S. 6 EStG).\n\nSpeichern für Klausur 3 📌",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#personengesellschaften"
+    "#bilanzsteuerrecht"
   ],
-  "kurztitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-  "coverBadge": "Reel",
-  "coverBildAuslassen": true,
   "quellen": [
-    "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
-    "§ 6 Abs. 5 Sätze 1 bis 4 EStG",
-    "§ 16 Abs. 1 Nr. 2, Abs. 3, Abs. 4 EStG",
-    "§ 34 Abs. 1 und 3 EStG",
-    "§ 39 Abs. 2 Nr. 1 und Nr. 2 Satz 2 AO",
-    "§ 175 Abs. 1 Satz 1 Nr. 2 AO",
-    "§ 741 BGB",
-    "§§ 20, 24, 25 UmwStG",
-    "R 4.2 Abs. 2 EStR",
-    "BMF vom 20.11.2019",
-    "Themenpool: persg-aufb-persg-melzer-2-7"
+    "§ 4 Abs. 4a S. 1–6 EStG"
   ],
-  "coverRegie": {
-    "thema": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-    "goldenReferences": [
-      "assets/referenzen/charaktere/01-holger-kranz.jpg",
-      "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-    ],
-    "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
-    "verpackung": "Handlung in Prüfungsreihenfolge",
-    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-    "bilddatei": "2026-10-27-b3-persg-aufb-persg-melzer-2-7-cover.png",
-    "status": "Bild ausstehend"
-  },
+  "slug": "2026-10-27-b3",
+  "kurztitel": "Nicht abziehbare Schuldzinsen",
   "regelGeprueft": true,
   "manuellGeprueft": false,
   "freigabeBetreiber": true,
   "vorproduktionStatus": "live-freigegeben",
   "textProviderKostenUsd": 0,
   "faktencheckProviderKostenUsd": 0,
-  "bildStatus": "bewusst-ausgelassen",
-  "liveVorrangAktiv": true
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "gegensatz",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "10.000 € Zinsen. Alles abziehbar?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Überentnahme"
+    },
+    {
+      "art": "schritt",
+      "titel": "Rechnen mit Deckel"
+    },
+    {
+      "art": "schritt",
+      "titel": "Außen vor"
+    }
+  ],
+  "sprecher": [
+    "Zehntausend Euro Zinsen, alles abziehbar? Für den Maschinenkredit ja. Beim Kontokorrent zählen deine Entnahmen.",
+    "Überentnahme heißt: Du entnimmst mehr, als Gewinn und Einlagen ausmachen. Sechs Prozent davon gelten als nicht abziehbar.",
+    "Dreißigtausend Euro Überentnahme ergeben achtzehnhundert Euro. Höchstens aber die Zinsen minus zweitausendfünfzig Euro.",
+    "Die Maschinenzinsen bleiben außen vor. Und die Hinzurechnung läuft außerhalb der Bilanz.",
+    "Merke: Investitionskredit frei, Überentnahme kostet."
+  ],
+  "dauerS": 36.594,
+  "tempo": 1
 }
