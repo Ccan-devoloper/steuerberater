@@ -15881,6 +15881,21 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "s6",
+      "medienId": "17995916637104572",
+      "veroeffentlicht": "2026-10-27T10:56:36.021Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "erbst-modul-erbst-503",
+      "fach": "erbst",
+      "titel": [
+        "Gemischte",
+        "Schenkung"
+      ]
     }
   ],
   "fachZaehler": {
