@@ -12,9 +12,8 @@
 <link rel="preload" href="fonts/caveat.woff2" as="font" type="font/woff2" crossorigin>
 <style>
   /*
-   * Brevo-Anbindung: In Brevo unter „Kontakte → Formulare“ ein Anmeldeformular mit Double-Opt-in
-   * anlegen (Liste „Mündliche – Leadmagnet“), dann unter „Teilen → HTML-Code“ die action-URL
-   * des <form> kopieren und unten bei BREVO_FORM_URL eintragen.
+   * Brevo-Anbindung: Das Formular sendet an /api/anmelden (functions/api/anmelden.js), die den Kontakt
+   * per Brevo-API in die Liste „Mündliche – Leadmagnet“ einträgt. Benötigt BREVO_API_KEY in Cloudflare Pages.
    */
   /* Schriften selbst gehostet und vorgeladen: verhindert, dass der Inhalt beim Nachladen springt */
   @font-face{font-family:Nunito;font-weight:400 799;font-display:block;src:url(fonts/nunito-700.woff2) format("woff2")}
@@ -113,23 +112,24 @@
 </main>
 
 <script>
-  // Aus Brevo: Formular → Teilen → HTML-Code → action-URL des <form>
-  const BREVO_FORM_URL = "https://ca7604c5.sibforms.com/serve/MUIFAJgQnlyZjdxDaDCTWJKcVX-sjGrMRVl5RTWjSp_fuIpXU2j7R5RkPRhjGczAbWIx3_qhx5o1_Cq-uXTjzrAvgwvXsQahn9TyKng9KSzkl8-SHGZ9PH_2kZam-2-OXO6LKlK27FpdmjaRQrOFHjih6WAldbmNqvgTLirRWCgLZINNMLIVYhE_aTqF5RywNPXMezH_8kTjkWr4CQ==";
+  // Anmeldung läuft über die eigene Pages Function (functions/api/anmelden.js) → Brevo-API
+  const ANMELDE_URL = "/api/anmelden";
 
   document.querySelectorAll(".lead-form").forEach((form) => {
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       const karte = form.closest(".karte");
-      if (!BREVO_FORM_URL) { alert("Anmeldung ist noch nicht freigeschaltet."); return; }
       const btn = form.querySelector("button");
       btn.disabled = true; btn.textContent = "Wird gesendet …";
       try {
-        await fetch(BREVO_FORM_URL, { method: "POST", mode: "no-cors", body: new FormData(form) });
+        const res = await fetch(ANMELDE_URL, { method: "POST", body: new FormData(form), signal: AbortSignal.timeout(20000) });
+        const daten = await res.json().catch(() => ({}));
+        if (!res.ok || !daten.ok) throw new Error(daten.fehler || res.status);
         karte.style.minHeight = karte.offsetHeight + "px";   // Höhe halten, damit nichts nach oben rutscht
         form.style.display = "none";
         karte.querySelector(".ok").classList.add("zeigen");
       } catch {
-        btn.disabled = false; btn.textContent = "Nochmal versuchen";
+        btn.disabled = false; btn.textContent = "Hat nicht geklappt – nochmal versuchen";
       }
     });
   });
