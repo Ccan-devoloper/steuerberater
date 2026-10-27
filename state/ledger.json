@@ -16155,6 +16155,21 @@
       "titel": [
         "10.000 € Zinsen abziehbar?"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "s9",
+      "medienId": "18128453395853754",
+      "veroeffentlicht": "2026-10-27T18:20:03.203Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-5-06",
+      "fach": "umwst",
+      "titel": [
+        "GmbH wird KG:",
+        "Was gilt als bezogen?"
+      ]
     }
   ],
   "fachZaehler": {

@@ -121,8 +121,9 @@
       "zeit": "19:20",
       "art": "merksatz",
       "themaId": "umwst-aufb-umw-5-06",
-      "status": "sendet",
-      "sendeversuch": "2026-10-27T18:20:00.009Z"
+      "status": "veroeffentlicht",
+      "medienId": "18128453395853754",
+      "veroeffentlicht": "2026-10-27T18:20:03.203Z"
     },
     {
       "slot": "s3",
