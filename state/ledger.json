@@ -13237,7 +13237,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 90,
+        "reach": 95,
         "saved": 2,
         "shares": 0,
         "likes": 2,
@@ -13246,8 +13246,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-26T06:18:17.631Z",
-      "insightsAlterStunden": 143.8
+      "insightsStand": "2026-10-27T06:44:51.197Z",
+      "insightsAlterStunden": 168.2
     },
     {
       "datum": "2026-10-20",
@@ -13602,7 +13602,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 106,
+        "reach": 113,
         "saved": 3,
         "shares": 0,
         "likes": 7,
@@ -13611,8 +13611,8 @@
         "follows": 1,
         "profile_visits": 4
       },
-      "insightsStand": "2026-10-26T06:18:17.631Z",
-      "insightsAlterStunden": 119.8
+      "insightsStand": "2026-10-27T06:44:51.197Z",
+      "insightsAlterStunden": 144.2
     },
     {
       "datum": "2026-10-21",
@@ -13967,17 +13967,17 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 91,
+        "reach": 101,
         "saved": 1,
         "shares": 0,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 4,
+        "total_interactions": 5,
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-26T06:18:17.631Z",
-      "insightsAlterStunden": 95.8
+      "insightsStand": "2026-10-27T06:44:51.197Z",
+      "insightsAlterStunden": 120.2
     },
     {
       "datum": "2026-10-22",
