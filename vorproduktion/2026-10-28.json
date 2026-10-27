@@ -4,38 +4,33 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "kst-aufb-kst-t3-20",
-        "themaTitel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
-        "fach": "kst",
+        "format": "fehlerfalle",
+        "themaId": "est-aufb-est-ks2-ve-02",
+        "themaTitel": "Schenkung mit Gegenleistung: Wie wird Privatvermögen aufgeteilt?",
+        "fach": "est",
         "klausur": 2
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "umwst-aufb-umw-2-10",
-        "themaTitel": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
+        "format": "schema",
+        "themaId": "umwst-aufb-umw-ks-1-01",
+        "themaTitel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
         "fach": "umwst",
         "klausur": 3
       },
@@ -43,11 +38,19 @@
         "slot": "b3",
         "zeit": "17:30",
         "format": "reel",
-        "themaId": "erbst-aufb-erbst-v-20",
-        "themaTitel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
-        "fach": "erbst",
-        "klausur": 1,
-        "lang": false
+        "themaId": "ust-karte-ust-14",
+        "themaTitel": "§ 14c UStG – zwei Fälle",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "m1",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "lead-reel-formsache",
+        "themaTitel": "Mit 4,5 brauchst du eine 3,8",
+        "fach": null,
+        "klausur": 0
       }
     ],
     "stories": [
@@ -55,567 +58,587 @@
         "slot": "s4",
         "zeit": "07:16",
         "art": "frage",
-        "themaId": "persg-quiz-k3-30"
+        "themaId": "ust-quiz-ust-3"
       },
       {
         "slot": "s5",
         "zeit": "07:16",
         "art": "antwort",
-        "themaId": "persg-quiz-k3-30"
+        "themaId": "ust-quiz-ust-3"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
         "zeit": "11:59",
         "art": "norm",
-        "themaId": "ao-modul-ao-377"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:39",
-        "art": "merksatz",
-        "themaId": "persg-aufb-persg-melzer-2-6"
+        "themaId": "istr-aufb-istr-gh-4-45"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:39",
+        "art": "tipp"
       },
       {
         "slot": "s8",
         "zeit": "16:55",
         "art": "tipp",
-        "themaId": "persg-aufb-persg-melzer-1-7"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:13",
-        "art": "fehler",
-        "themaId": "est-aufb-est-ks2-17-04"
+        "themaId": "bilanz-karte-k3-17"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:13",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-313"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "kst",
+      "format": "fehlerfalle",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "themaId": "kst-aufb-kst-t3-20",
-      "slug": "2026-10-28-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Handelsrechtlich wird der Nennbetrag erworbener eigener Anteile offen vom gezeichneten Kapital abgesetzt (§ 272 Abs. 1a HGB); steuerlich folgt daraus eine Behandlung wie eine Kapitalherabsetzung nach § 28 Abs. 2 KStG.",
-            "Der auf den Nennbetrag entfallende Kaufpreis führt zu Zugang und sofortigem Abgang im Einlagekonto; ein angemessener Mehrbetrag wird wie eine Leistung in die Rechnung des § 27 Abs. 1 Satz 3 KStG einbezogen."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Kaufpreis in Nennbetrag, angemessenen Mehrbetrag und etwaigen überhöhten Anteil zerlegen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Den Nennbetragsanteil als Kapitalherabsetzung aufnehmen und das Einlagekonto nach § 28 Abs. 2 KStG entsprechend fortschreiben."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Für die Gesellschaft ist der Rückkauf eine Kapitalherabsetzung, für den verkaufenden Gesellschafter eine Veräußerung, etwa nach § 17 oder § 20 Abs. 2 EStG. Nur ein unangemessen hoher Kaufpreis führt insoweit zu einer vGA."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung. Der Nennbetrag läuft über § 28 Abs. 2 KStG, der angemessene Mehrbetrag ist Leistung nach § 27 Abs. 1 S. 3 KStG – beim Verkäufer liegt eine Veräußerung vor.",
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-ve-02",
+      "caption": "Klausurfalle Einkommensteuer: Schenkung mit Ausgleichszahlung – geschenkt ist nur ein Teil.\n\nFall: Haus mit Verkehrswert 400.000 €, die Tochter zahlt ihrem Bruder 100.000 € Ausgleich.\n\n▸ Ausgleichszahlungen an Geschwister sind Entgelt und führen zu Anschaffungskosten (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847). Entgelt ist auch die Übernahme privater Schulden des Übergebers.\n▸ Privatvermögen wird nach dem Verhältnis von Entgelt zu Verkehrswert aufgeteilt: hier 25 % entgeltlich, 75 % unentgeltlich.\n▸ AfA entgeltlicher Teil: eigene Anschaffungskosten, Gebäudeanteil 75.000 € × 2 % = 1.500 € (§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG).\n▸ AfA unentgeltlicher Teil: Werte und Prozentsatz der Schenkerin fortführen (§ 11d Abs. 1 S. 1 EStDV): 75 % von 3.600 € = 2.700 €.\n▸ Bei der Schenkerin ist der bezahlte Teil eine Veräußerung; außerhalb der Zehnjahresfrist nicht steuerbar (§ 23 Abs. 1 S. 1 Nr. 1 EStG).\n\nZum Schluss: § 11d Abs. 1 EStDV und § 7 Abs. 4 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#körperschaftsteuer"
+        "#einkommensteuer"
       ],
-      "kurztitel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 28 Abs. 2 Sätze 1, 2 und 3 KStG",
-        "§ 28 Abs. 1 KStG",
-        "§ 27 Abs. 1 Satz 3 und Satz 5 KStG",
-        "§ 27 Abs. 5 KStG",
-        "§ 272 Abs. 1a Satz 1 HGB",
-        "§ 17 Abs. 1 Satz 1 EStG",
-        "§ 3 Nr. 40 Buchstabe c EStG, § 3c Abs. 2 EStG",
-        "§ 20 Abs. 1 Nr. 1 Satz 2 EStG",
-        "BMF vom 27.11.2013, BStBl. I 2013, 1615, Tz. 9, 10, 12, 20 und 22",
-        "BFH vom 06.12.2017, BStBl. II 2019, 213",
-        "Themenpool: kst-aufb-kst-t3-20"
+        "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+        "§ 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG",
+        "§ 11d Abs. 1 S. 1 EStDV",
+        "§ 23 Abs. 1 S. 1 Nr. 1 EStG"
       ],
-      "coverRegie": {
-        "thema": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Eine Figur hebt Gegenstände auf zwei getrennte Waagschalen; die andere weist jeden Gegenstand dem richtigen Fach zu.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b1-kst-aufb-kst-t3-20-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-28-b1",
+      "kurztitel": "Schenkung mit Gegenleistung: Wie wird Privatvermögen aufgeteilt?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
-    },
-    "b2": {
-      "format": "spickzettel",
-      "fach": "umwst",
-      "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "themaId": "umwst-aufb-umw-2-10",
-      "slug": "2026-10-28-b2",
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
       "folien": [
         {
           "art": "titel",
-          "titel": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Geschenkt? · Nur teilweise! · § 11d EStDV · Quote zählt · + Markier-Guide § 11d EStDV, § 7 EStG · Ausgleich an den Bruder · 100.000 € · = Entgelt",
+          "bild": "op-cover"
         },
         {
           "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Für § 20 UmwStG kommt es allein auf die funktional wesentlichen Betriebsgrundlagen an; sie müssen der Kapitalgesellschaft zumindest in das wirtschaftliche Eigentum übertragen werden.",
-            "Wird eine funktional wesentliche Betriebsgrundlage nur zur Nutzung überlassen, scheidet § 20 UmwStG insgesamt aus; die übrigen Wirtschaftsgüter gelten als zum gemeinen Wert veräußert. Ohne Betriebsaufspaltung liegt zudem eine Betriebsaufgabe nach § 16 Abs. 3 EStG vor."
-          ]
+          "titel": "Einkommensteuer",
+          "text": "Der Fall · Edda schenkt ihrer Tochter Yara ein vermietetes Haus. Verkehrswert: 400.000 €. · Yara muss dafür ihrem Bruder 100.000 € Ausgleich zahlen. · Edda hatte das Haus 1998 gekauft. · Ich bin Edda"
         },
         {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Alle Wirtschaftsgüter des Betriebs zum steuerlichen Übertragungsstichtag aufnehmen und nach funktionaler Wesentlichkeit einordnen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Prüfen, ob jedes funktional wesentliche Wirtschaftsgut rechtlich oder wirtschaftlich auf die Kapitalgesellschaft übergeht."
-            }
-          ]
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Die Falle · „Schenkung, also keine Anschaffungskosten“: falsch. · Der Ausgleich an den Bruder ist Entgelt für Yara. · BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847 · Ebenso wäre es die Übernahme von Eddas privaten Schulden. · Yara: Ich zahle ja!"
         },
         {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Bei § 20 UmwStG zählt nur die funktionale Wesentlichkeit. Fehlt auch nur eine wesentliche Betriebsgrundlage in der Einbringung, gibt es keinen Buch- oder Zwischenwertansatz."
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Jetzt du · Zu welchem Teil erwirbt Yara entgeltlich? · Wie hoch ist ihre AfA? Gebäudeanteil 75 %, Edda hat aus 180.000 € mit 2 % abgeschrieben. · Lösung: weiterwischen · Rechnest du mit?"
         },
         {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Lösung: die Quote · Entgelt · 100.000 € · Verkehrswert · 400.000 € · Entgeltlich · 25 % · Unentgeltlich · 75 % · Ein Haus, zwei Erwerbe"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Lösung: die AfA · § 7 Abs. 4 S. 1 Nr. 2 Buchst. b EStG · § 11d Abs. 1 EStDV · Bezahlt: 75.000 € × 2 % · 1.500 € · Geschenkt: 3.600 € × 75 % · 2.700 € · AfA Yara pro Jahr · 4.200 € · Eigene Kosten plus Eddas Werte"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "Und Edda? · Für den bezahlten Teil veräußert sie. · Gekauft 1998: Die Frist von zehn Jahren ist längst abgelaufen. · § 23 Abs. 1 S. 1 Nr. 1 EStG · Ergebnis: Bei Edda nichts zu versteuern. · Glück gehabt"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "25 % entgeltlich · AfA 4.200 € im Jahr · Quote = Entgelt durch Verkehrswert · Ausgleich ist Entgelt · Quote teilt den Erwerb · Rest: Werte des Schenkers · Speichern für Klausur 2 · Hättest du den Ausgleich übersehen? · Weiterwischen: § 11d EStDV, § 7 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "§ 11d EStDV (Auszug) · nur der geschenkte Teil · Basis des Vorgängers · sein Satz · Weiterwischen: § 7 Abs. 4 EStG · Bezahlter Teil: eigene Kosten, eigene AfA"
+        },
+        {
+          "art": "text",
+          "titel": "Einkommensteuer",
+          "text": "§ 7 Abs. 4 EStG (Auszug) · Satz für Yara · ihre 75.000 € · Yara: 1.500 € + 2.700 € · AfA 4.200 € im Jahr"
         }
-      ],
-      "caption": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird? Alle funktional wesentlichen Betriebsgrundlagen – mindestens ins wirtschaftliche Eigentum der Kapitalgesellschaft. Bloßes Verpachten reicht nicht.",
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-1-01",
+      "caption": "Prüfschema Umwandlungssteuerrecht: Warum braucht eine steuerneutrale Umwandlung das UmwStG? In 4 Schritten.\n\nOhne Sondernorm führt ein Wechsel des Rechtsträgers zur Aufdeckung stiller Reserven, bei Personenunternehmen über Veräußerung oder Aufgabe (§ 16 Abs. 1, 3 EStG). Ausnahmen im EStG: § 6 Abs. 3, § 6 Abs. 5 S. 3, § 16 Abs. 3 S. 2 EStG.\n\n1. Vorgang bestimmen: Verschmelzung, Spaltung, Formwechsel oder vergleichbare ausländische Vorgänge (§ 1 Abs. 1 UmwStG), Einbringungen (§ 1 Abs. 3 UmwStG).\n2. Sachgesamtheit prüfen: Betrieb, Teilbetrieb, Mitunternehmeranteil (§§ 20, 24 UmwStG); einzelne Anteile nur beim Anteilstausch (§ 21 UmwStG).\n3. Grundsatz: Bewertung zum gemeinen Wert (§ 11 Abs. 1 S. 1 UmwStG).\n4. Auf Antrag Buchwert oder Zwischenwert, soweit die spätere Besteuerung mit Körperschaftsteuer sichergestellt ist, das deutsche Besteuerungsrecht nicht ausgeschlossen oder beschränkt wird und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 S. 1 Nr. 1–3 UmwStG).\n\nZum Schluss: § 11 UmwStG zum Markieren. Speichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ],
-      "kurztitel": "Was gehört zum Betrieb, der nach § 20 UmwStG…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 20 UmwStG",
-        "§ 16 Abs. 3 EStG",
-        "§ 16 EStG",
-        "§ 20 Abs. 3 UmwStG",
-        "§ 20 Abs. 2 UmwStG",
-        "§ 6 Abs. 5 EStG",
-        "§ 20 Abs. 1 UmwStG",
-        "§ 1a KStG",
-        "§ 25 UmwStG",
-        "§ 1a Abs. 2 KStG",
-        "Themenpool: umwst-aufb-umw-2-10"
+        "§ 1 Abs. 1, 3 UmwStG",
+        "§ 11 Abs. 1, 2 UmwStG",
+        "§§ 20, 21, 24 UmwStG",
+        "§ 16 Abs. 1, 3 EStG",
+        "§ 6 Abs. 3, 5 S. 3 EStG"
       ],
-      "coverRegie": {
-        "thema": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b2-umwst-aufb-umw-2-10-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-28-b2",
+      "kurztitel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Umwandlung · ohne Steuer? · § 11 UmwStG · in 4 Schritten · + Markier-Guide § 11 UmwStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Das Schema · Vorgang bestimmen · § 1 Abs. 1, 3 UmwStG · Sachgesamtheit? · §§ 20, 21, 24 UmwStG · Grundsatz: gemeiner Wert · § 11 Abs. 1 UmwStG · Antrag auf Buchwert · § 11 Abs. 2 UmwStG · Am Ende: § 11 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Ohne Sondernorm · Wechselt der Rechtsträger, werden stille Reserven aufgedeckt. · Einzelunternehmen und Mitunternehmer: Veräußerung oder Aufgabe. · § 16 Abs. 1, 3 EStG · Buchwerte einfach fortführen reicht nicht. · Ilka, Steuerberaterin"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Ausnahmen im EStG · Betrieb unentgeltlich übertragen: Buchwert. · § 6 Abs. 3 EStG · Einzelnes Wirtschaftsgut in die Mitunternehmerschaft: Buchwert. · § 6 Abs. 5 S. 3 EStG · Realteilung: Buchwert. · § 16 Abs. 3 S. 2 EStG · Alles andere: UmwStG prüfen · Nur drei Wege"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Schritt 1 und 2 · Verschmelzung, Spaltung, Formwechsel nach dem UmwG oder vergleichbar im Ausland. · § 1 Abs. 1 UmwStG · Einbringung von Betrieb, Teilbetrieb oder Mitunternehmeranteil. · § 1 Abs. 3, § 20 Abs. 1 UmwStG · Einzelne Wirtschaftsgüter: nur der Anteilstausch. · § 21 UmwStG · Was geht über?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Beispiel · Die Lindqvist GmbH wird auf die Petersen GmbH verschmolzen. · In ihrem Vermögen stecken 800.000 € stille Reserven. · Ihr Gesellschafter Joris erhält dafür nur neue Anteile. · Ich bin Joris"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Jetzt du · Muss die Lindqvist GmbH die 800.000 € versteuern? · Welche Bedingungen müssen erfüllt sein? · Lösung: weiterwischen · Kostet mich das?"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Lösung · Grundsatz: gemeiner Wert, also 800.000 € Gewinn. · § 11 Abs. 1 S. 1 UmwStG · Auf Antrag Buchwert: KSt-Zugriff bleibt, Deutschland verliert kein Besteuerungsrecht, nur Anteile als Gegenleistung. · § 11 Abs. 2 S. 1 Nr. 1–3 UmwStG · Hier erfüllt: kein Gewinn. · Antrag stellen!"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "Antrag gestellt: Buchwert, kein Gewinn · Ohne Antrag: 800.000 € aufdecken · Rechtsträger wechselt: · Reserven werden aufgedeckt · außer UmwStG und Antrag · Speichern für Klausur 3 · Prüfst du § 1 UmwStG zuerst? · Weiterwischen: § 11 UmwStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umwandlungssteuerrecht",
+          "text": "§ 11 UmwStG (Auszug) · Grundsatz · Wahlrecht · Ziel · Bedingung Nr. 3 · Nr. 1 und 2: KSt-Zugriff, · deutsches Besteuerungsrecht bleibt"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "erbst",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "themaId": "erbst-aufb-erbst-v-20",
-      "slug": "2026-10-28-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
-          "unter": "Erbschaftsteuer / Bewertung",
-          "text": "Fünf Jahre halten, bei Optionsverschonung sieben.",
-          "norm": "§ 13a Abs. 6 ErbStG",
-          "icon": null,
-          "sprecher": "Wer begünstigtes Betriebsvermögen erbt, muss es fünf Jahre halten, bei Optionsverschonung sieben. Welche Verfügungen kosten in dieser Zeit die Verschonung?",
-          "marken": [
-            "Behaltensfrist 5 oder 7 Jahre"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "Schädlich: Veräußerung oder Aufgabe",
-          "text": null,
-          "norm": "§ 13a Abs. 6 Nr. 1 ErbStG",
-          "icon": null,
-          "sprecher": "Schädlich ist es, den Betrieb, einen Teilbetrieb oder Mitunternehmeranteil zu veräußern oder aufzugeben, ebenso wesentliche Betriebsgrundlagen. Die Verschonung entfällt dann nur zeitanteilig. Wird der Erlös binnen sechs Monaten begünstigt reinvestiert, entfällt sie gar nicht.",
-          "marken": [
-            "Veräußerung oder Aufgabe",
-            "Wegfall nur zeitanteilig"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "Überentnahmen, KapG-Anteile, Ende des Pools",
-          "text": null,
-          "norm": "§ 13a Abs. 6 Nr. 3 bis 5 ErbStG",
-          "icon": null,
-          "sprecher": "Ebenfalls schädlich: Entnahmen, die Einlagen und Gewinne seit dem Erwerb um mehr als 150.000 Euro übersteigen, der Verkauf begünstigter Kapitalgesellschaftsanteile und das Aufheben einer Poolvereinbarung. Überentnahmen werden nicht zeitanteilig gekürzt.",
-          "marken": [
-            "Überentnahme über 150.000 €",
-            "Anteilsverkauf, Poolende"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Erst die Frist, dann der Tatbestand: Veräußerungsfälle kosten die Verschonung zeitanteilig, Überentnahmen ohne Abschmelzung.",
-          "sprecher": "Merke: Bei Veräußerungsfällen fällt die Verschonung nur für die restliche Behaltensfrist weg. Bei Überentnahmen gibt es diese Abschmelzung nicht.",
-          "marken": [
-            "Überentnahme ohne Abschmelzung"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Nachversteuerung: Welche Verfügungen die Verschonung kosten – Veräußerung oder Aufgabe von Betrieb, Anteil oder wesentlichen Betriebsgrundlagen, Überentnahmen über 150.000 €, Verkauf von KapG-Anteilen und das Ende eines Pools innerhalb der Behaltensfrist.",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-14",
+      "caption": "§ 14c UStG: Zu viel Umsatzsteuer ausgewiesen – schuldest du den Mehrbetrag immer? 🧾\n\n▸ Unrichtiger Ausweis: Wer mehr Steuer ausweist, als er schuldet, schuldet auch den Mehrbetrag; Berichtigung gegenüber dem Empfänger entsprechend § 17 Abs. 1 UStG (§ 14c Abs. 1 S. 1, 2 UStG).\n▸ Rechnung an Endverbraucher (Nichtunternehmer ohne Vorsteuerabzug): keine Steuerschuld aus § 14c Abs. 1 UStG (Abschn. 14c.1 Abs. 1a UStAE, BMF vom 27.02.2024; ebenso EuGH vom 01.08.2025, C-794/23, und BFH vom 26.03.2026, V R 46/25, noch nicht im BStBl). Maßgeblich ist jede einzelne Rechnung, eine Schätzung lässt die Verwaltung nicht zu. Unterschied: Die Verwaltung zählt auch Unternehmer, die privat beziehen, zu den Endverbrauchern; nach dem EuGH sind es nur Nichtsteuerpflichtige.\n▸ Unberechtigter Ausweis, etwa durch Nichtunternehmer: geschuldet wird der ausgewiesene Betrag; Berichtigung erst, wenn die Gefährdung des Steueraufkommens beseitigt ist, also kein Vorsteuerabzug durchgeführt oder die Vorsteuer zurückgezahlt wurde (§ 14c Abs. 2 S. 1, 3, 4 UStG).\n\nSpeichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#erbschaftsteuer"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 13a Abs. 6 Nr. 1 ErbStG",
-        "§ 13a Abs. 6 Nr. 2 ErbStG",
-        "§ 13a Abs. 6 Nr. 3 ErbStG",
-        "§ 13a Abs. 6 Nr. 3 Satz 3 ErbStG",
-        "§ 13a Abs. 6 Nr. 4 ErbStG",
-        "§ 13a Abs. 6 Nr. 5 ErbStG",
-        "§ 13a Abs. 1 ErbStG",
-        "§ 13a Abs. 2 ErbStG",
-        "§ 13b Abs. 1 Nr. 3 Satz 2 ErbStG",
-        "§ 168 Abs. 1 Nr. 1 BewG",
-        "Themenpool: erbst-aufb-erbst-v-20"
+        "§ 14c Abs. 1, 2 UStG",
+        "§ 17 Abs. 1 UStG",
+        "EuGH vom 01.08.2025, C-794/23",
+        "BFH vom 26.03.2026, V R 46/25",
+        "Abschn. 14c.1 Abs. 1a UStAE",
+        "BMF vom 27.02.2024"
       ],
-      "coverRegie": {
-        "thema": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/03-mia-kranz.jpg",
-          "assets/referenzen/charaktere/04-timo-kranz.jpg"
-        ],
-        "szene": "Eine Figur wählt vorschnell den kurzen Weg durch einen Hindernisparcours; die zweite zeigt die richtige Reihenfolge der Stationen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-28-b3-erbst-aufb-erbst-v-20-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-28-b3",
+      "kurztitel": "§ 14c UStG – zwei Fälle",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "19 % statt 7 %? Immer geschuldet."
+        },
+        {
+          "art": "schritt",
+          "titel": "An Unternehmer"
+        },
+        {
+          "art": "schritt",
+          "titel": "An Privatleute"
+        },
+        {
+          "art": "schritt",
+          "titel": "Unberechtigt"
+        }
+      ],
+      "sprecher": [
+        "Neunzehn statt sieben Prozent auf der Rechnung. Den Mehrbetrag schuldest du immer? Nicht bei Endverbrauchern.",
+        "An Unternehmer gilt: Du schuldest den Mehrbetrag, bis du die Rechnung berichtigst.",
+        "Geht die Rechnung an Privatleute ohne Vorsteuerabzug, entsteht daraus keine Steuer. So sehen es Europäischer Gerichtshof, Bundesfinanzhof und Verwaltung.",
+        "Anders beim unberechtigten Ausweis, etwa ohne Unternehmer zu sein: Berichtigen geht erst, wenn kein Vorsteuerabzug mehr droht.",
+        "Merke: Erst schauen, wer die Rechnung bekommt."
+      ],
+      "dauerS": 35.648,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-30",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-30"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-3",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "§ 15a UStG:",
+        "Wie lange bei Grundstücken?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "optionen": [
+        "5 Jahre",
+        "10 Jahre",
+        "20 Jahre"
+      ],
+      "pairId": "ust-quiz-ust-3",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "§ 15a UStG:",
+        "Wie lange bei Grundstücken?",
+        "5 Jahre",
+        "10 Jahre",
+        "20 Jahre",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
-      "titel": "Wie ist ein Spitzenausgleich bei der Realteilung zu behandeln?",
-      "optionen": [
-        "begünstigt nach § 34 EStG",
-        "laufender Gewinn",
-        "steuerfrei"
-      ],
-      "richtig": 1,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-30",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-30"
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-3",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: zehn Jahre"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
-      "freigabeBetreiber": true,
-      "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "laufender Gewinn",
       "optionen": [
-        "begünstigt nach § 34 EStG",
-        "laufender Gewinn",
-        "steuerfrei"
+        "5 Jahre",
+        "10 Jahre",
+        "20 Jahre"
       ],
       "richtig": 1,
-      "text": "Soweit ein Spitzenausgleich fließt, ist die Realteilung entgeltlich. Der Gewinn daraus ist laufender Gewinn; § 34 EStG greift nicht.",
-      "liveVorrangAktiv": true
+      "text": "Bei Grundstücken und Gebäuden auf fremdem Boden zehn statt fünf Jahre ab erstmaliger Verwendung.",
+      "norm": "§ 15a Abs. 1 S. 2 UStG",
+      "pairId": "ust-quiz-ust-3",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: zehn Jahre",
+        "5 Jahre",
+        "10 Jahre",
+        "20 Jahre",
+        "Bei Grundstücken und Gebäuden auf fremdem Boden zehn statt fünf Jahre ab erstmaliger Verwendung.",
+        "§ 15a Abs. 1 S. 2 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "ao",
-      "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "pairId": "ao-modul-ao-377",
-      "quellen": [
-        "§ 129 AO",
-        "§ 130 AO",
-        "§ 131 AO",
-        "§§ 129, 130 und 131 AO",
-        "Themenpool: ao-modul-ao-377"
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-45",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Abzug statt",
+        "Anrechnung?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "norm": "§ 34c Abs. 2 EStG",
+      "punkte": [
+        [
+          "Lohnt vor allem bei Verlusten: Die Auslandssteuer erhöht den Verlust.",
+          "ok",
+          "§ 34c Abs. 2 EStG"
+        ],
+        [
+          "Nicht bei Kapitalerträgen mit Abgeltungsteuer.",
+          "nein",
+          "§ 34c Abs. 1 S. 1 Hs. 2 EStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Abzug statt",
+        "Anrechnung?",
+        "§ 34c Abs. 2 EStG",
+        "Lohnt vor allem bei Verlusten: Die Auslandssteuer erhöht den Verlust.",
+        "§ 34c Abs. 2 EStG",
+        "Nicht bei Kapitalerträgen mit Abgeltungsteuer.",
+        "§ 34c Abs. 1 S. 1 Hs. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 129 AO",
-      "titel": "Korrektur sonstiger Verwaltungsakte: § 129, Rücknahme § 130 und Widerruf § 131 AO",
-      "text": "§ 129 AO berichtigt offenbare Unrichtigkeiten bei jedem Verwaltungsakt. Sonst zählt der Erlasszeitpunkt: Rechtswidrige Verwaltungsakte nimmt § 130 AO zurück, rechtmäßige widerruft § 131 AO.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
-      "art": "merksatz",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-aufb-persg-melzer-2-6",
-      "quellen": [
-        "§ 6b Abs. 2, Abs. 3, Abs. 4 Satz 2 und Abs. 10 EStG",
-        "R 6b.2 Abs. 6, Abs. 7 und Abs. 8 EStR",
-        "Themenpool: persg-aufb-persg-melzer-2-6"
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Zeit nach",
+        "Punkten planen"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "punkte": [
+        [
+          "Punkte je Teil notieren",
+          "ok",
+          null
+        ],
+        [
+          "Endzeit je Teil an den Rand",
+          "ok",
+          null
+        ],
+        [
+          "Zeit um? Weiter, Lücke lassen",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:clock",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Zeit nach",
+        "Punkten planen",
+        "Punkte je Teil notieren",
+        "Endzeit je Teil an den Rand",
+        "Zeit um? Weiter, Lücke lassen"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Wie lässt sich eine § 6b-Rücklage bei Mitunternehmern übertragen?",
-      "text": "§ 6b ist gesellschafterbezogen: Jeder Mitunternehmer überträgt nur seinen Anteil am Veräußerungsgewinn – auf seinen Anteil an den AK eines Reinvestitionsguts der Gesellschaft, im SBV oder im eigenen Betrieb.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
       "art": "tipp",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-aufb-persg-melzer-1-7",
-      "quellen": [
-        "§ 15 Abs. 1 Nr. 2 EStG",
-        "R 4.2 Abs. 2 EStR",
-        "Themenpool: persg-aufb-persg-melzer-1-7"
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-17",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Verbindlichkeit",
+        "abzinsen?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "punkte": [
+        [
+          "Nicht mehr für Wirtschaftsjahre, die nach 2022 enden",
+          "nein",
+          "§ 52 Abs. 12 S. 2 EStG"
+        ],
+        [
+          "Rückstellungen weiter mit 5,5 %",
+          "warn",
+          "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+        ]
+      ],
+      "icon": "tabler:percentage",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Verbindlichkeit",
+        "abzinsen?",
+        "Nicht mehr für Wirtschaftsjahre, die nach 2022 enden",
+        "§ 52 Abs. 12 S. 2 EStG",
+        "Rückstellungen weiter mit 5,5 %",
+        "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Wie ermittelt man den Gewinn eines Mitunternehmers?",
-      "text": "Stufe 1: Anteil am Gesellschaftsgewinn nach dem Gewinnverteilungsschlüssel plus Ergebnis der eigenen Ergänzungsbilanz. Stufe 2: Sondervergütungen und übriges Sonderbetriebsergebnis hinzurechnen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "fehler",
-      "fach": "est",
-      "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "pairId": "est-aufb-est-ks2-17-04",
-      "quellen": [
-        "§ 17 Abs. 2a EStG",
-        "§ 255 Abs. 1 HGB",
-        "§ 52 Abs. 25a EStG",
-        "§ 20 Abs. 2 Satz 1 Nr. 7 EStG",
-        "§ 20 Abs. 6 EStG",
-        "§ 32d Abs. 2 Nr. 1 b) EStG",
-        "§ 27 Abs. 1 KStG",
-        "§ 6 Abs. 1 Nr. 4 EStG",
-        "§ 17 Abs. 2 Satz 5 EStG",
-        "H 17 Abs. 5 EStH",
-        "Themenpool: est-aufb-est-ks2-17-04"
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-313",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Bescheid zum",
+        "Abruf bereit"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "zeilen": [
+        [
+          [
+            "Bekannt gegeben",
+            null
+          ]
+        ],
+        [
+          [
+            "am ",
+            null
+          ],
+          [
+            "vierten Tag",
+            "a"
+          ]
+        ],
+        [
+          [
+            "nach der ",
+            null
+          ],
+          [
+            "Bereitstellung",
+            "b"
+          ]
+        ]
+      ],
+      "norm": "§ 122a Abs. 4 S. 1 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Bescheid zum",
+        "Abruf bereit",
+        "Bekannt gegeben",
+        "am vierten Tag",
+        "nach der Bereitstellung",
+        "§ 122a Abs. 4 S. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Typischer Fehler",
-      "titel": "Wann erhöht ein ausgefallenes Gesellschafterdarlehen die AK?",
-      "falsch": "Ein in der Krise stehen gelassenes Darlehen mit dem Nennwert ansetzen, obwohl nur der bei Kriseneintritt noch werthaltige Teil zu Anschaffungskosten führt.",
-      "richtigText": "Nach § 17 Abs. 2a EStG zählt ein Darlehensausfall nur, soweit Hingabe oder Stehenlassen gesellschaftsrechtlich veranlasst war: in der Krise gewährt mit dem Nennwert, stehen gelassen mit dem Wert bei Kriseneintritt.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "kst",
+      "fach": "est",
       "klausur": 2,
-      "fachLabel": "Körperschaftsteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt…",
-      "text": "Eigene Anteile zurückkaufen: Kapitalherabsetzung statt Anschaffung",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "Geschenkt? Nur teilweise!"
+      ],
+      "unter": "Klausurfalle + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Neu im Feed",
+        "Geschenkt? Nur teilweise!",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
@@ -623,68 +646,125 @@
       "fach": "umwst",
       "klausur": 3,
       "fachLabel": "Umwandlungssteuerrecht",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Was gehört zum Betrieb, der nach § 20 UmwStG…",
-      "text": "Was gehört zum Betrieb, der nach § 20 UmwStG eingebracht wird?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "Umwandlung ohne Steuer?"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Umwandlung ohne Steuer?",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "erbst",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Erbschaftsteuer / Bewertung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Nachversteuerung: Welche Verfügungen die Verschonung kosten",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "19 % statt 7 %?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "19 % statt 7 %?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-reel-formsache",
+      "caption": "Zugelassen mit 4,5 und denkst, das reicht? 🧮\n\nBestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB). (4,5 + 3,8) : 2 = 4,15. Dazu Kurzvortrag und sechs Prüfungsabschnitte (§ 26 Abs. 3 DVStB) – und in fast jedem dritten von über 400 Protokollen fiel mindestens einer durch.\n\nDie 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 25 Abs. 2 DVStB",
+        "§ 26 Abs. 3 DVStB",
+        "§ 28 Abs. 1 S. 2 DVStB"
+      ],
+      "slug": "2026-10-28-m1",
+      "kurztitel": "Mit 4,5 brauchst du eine 3,8",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Mit 4,5 zur Mündlichen?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Grenze"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Rechnung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Kein Selbstläufer"
+        }
+      ],
+      "sprecher": [
+        "Zugelassen mit vier Komma fünf und denkst, das reicht? Rechne mal nach.",
+        "Bestanden ist nur, wer im Durchschnitt aus schriftlich und mündlich höchstens vier Komma eins fünf erreicht.",
+        "Vier Komma fünf plus drei Komma acht, geteilt durch zwei. Macht genau vier Komma eins fünf.",
+        "Dazu ein Kurzvortrag und sechs Prüfungsrunden. Und in fast jedem dritten Protokoll fällt mindestens einer durch.",
+        "Die zehn häufigsten Fehler gibt es kostenlos zum Download. Link in der Bio."
+      ],
+      "dauerS": 31.096,
+      "tempo": 1.0
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T13:05:53.877Z",
+    "erzeugtAm": "2026-10-27T07:54:28Z",
     "pfad": "vorproduktion/2026-10-28/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -696,5 +776,6 @@
     "freigabeQuelle": "Vorproduktionsdatei vorhanden"
   },
   "liveVorrangAktiv": true,
-  "normalbetriebGesperrt": true
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render"
 }
