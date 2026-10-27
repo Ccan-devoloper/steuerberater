@@ -16102,6 +16102,28 @@
         "KSt-Einkommen:",
         "Wo starten?"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "b3",
+      "medienId": "17914307619282630",
+      "veroeffentlicht": "2026-10-27T18:00:12.911Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "bilanz-formel-schuldzinsen",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Nicht abziehbare Schuldzinsen",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16109,7 +16131,7 @@
     "ust": 14,
     "kst": 13,
     "ao": 26,
-    "bilanz": 24,
+    "bilanz": 25,
     "istr": 20,
     "erbst": 10,
     "mindset": 2,
