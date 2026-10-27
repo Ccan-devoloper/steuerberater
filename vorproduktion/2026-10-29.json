@@ -109,6 +109,12 @@
         "zeit": "19:12",
         "art": "merksatz",
         "themaId": "est-aufb-est-ks2-wl-02"
+      },
+      {
+        "slot": "s10",
+        "zeit": "16:00",
+        "art": "teaser",
+        "beitragSlot": "m1"
       }
     ]
   },
@@ -742,11 +748,40 @@
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
       "regelGeprueft": true
+    },
+    "s10": {
+      "slot": "s10",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": null,
+      "beitragSlot": "m1",
+      "quellen": null,
+      "ueberzeile": "Neu im Feed",
+      "titel": [
+        "Unterschätzt.",
+        "Und dann durchgefallen."
+      ],
+      "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
+      "sichtbareTexte": [
+        "Mündliche Prüfung",
+        "Neu im Feed",
+        "Unterschätzt.",
+        "Und dann durchgefallen.",
+        "Gratis-PDF mit allen 10 Fehlern: Link in Bio"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T07:55:44Z",
+    "erzeugtAm": "2026-10-27T11:51:52Z",
     "pfad": "vorproduktion/2026-10-29/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
