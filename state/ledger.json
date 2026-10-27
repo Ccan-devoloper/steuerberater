@@ -16124,6 +16124,20 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "s3",
+      "medienId": "18120417266100480",
+      "veroeffentlicht": "2026-10-27T18:00:26.291Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": [
+        "10.000 € Zinsen abziehbar?"
+      ]
     }
   ],
   "fachZaehler": {
