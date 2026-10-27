@@ -67,6 +67,9 @@ jobs:
           cd .ia
           git sparse-checkout set --no-cone '/README.md' '/vorproduktion/*.json'
           git checkout instagram-assets
+          # Identität für alle Commits und für das Rebase beim Pushen (der Bot schreibt parallel in den Zweig)
+          git config user.name instagram-bot
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 
       - name: Tage rendern
         env:
