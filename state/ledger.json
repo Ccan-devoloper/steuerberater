@@ -15617,22 +15617,22 @@
         "seit 2025"
       ],
       "insights": {
-        "reach": 83,
-        "views": 104,
+        "reach": 95,
+        "views": 121,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 98,
-        "navigation_tap_forward": 69,
-        "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 9,
-        "navigation_tap_back": 9
+        "navigation": 113,
+        "navigation_tap_back": 10,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 77
       },
-      "insightsStand": "2026-10-27T10:56:37.216Z",
-      "insightsAlterStunden": 19.1
+      "insightsStand": "2026-10-27T13:43:54.526Z",
+      "insightsAlterStunden": 21.9
     },
     {
       "datum": "2026-10-26",
@@ -15947,7 +15947,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#internationalessteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 44,
+        "saved": 2,
+        "shares": 2,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 5,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-10-27T13:43:58.536Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-27",
@@ -15961,7 +15973,23 @@
       "fach": "istr",
       "titel": [
         "Freistellen oder anrechnen?"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "views": 31,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 27,
+        "navigation_tap_forward": 19,
+        "navigation_tap_exit": 5,
+        "navigation_swipe_forward": 3
+      },
+      "insightsStand": "2026-10-27T13:43:54.526Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-27",

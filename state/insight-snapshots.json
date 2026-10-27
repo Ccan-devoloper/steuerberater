@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-27T12:30:20.081Z",
+  "stand": "2026-10-27T13:43:59.607Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -47160,6 +47160,23 @@
           "navigation_tap_exit": 11,
           "navigation_swipe_forward": 9,
           "navigation_tap_back": 9
+        },
+        {
+          "stand": "2026-10-27T13:43:54.526Z",
+          "alterStunden": 21.9,
+          "reach": 95,
+          "views": 121,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 113,
+          "navigation_tap_back": 10,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_exit": 16,
+          "navigation_tap_forward": 77
         }
       ]
     },
@@ -47599,6 +47616,60 @@
           "navigation_tap_forward": 15,
           "navigation_swipe_forward": 2,
           "navigation_tap_back": 1
+        }
+      ]
+    },
+    "18123669934887797": {
+      "art": "story",
+      "datum": "2026-10-27",
+      "titel": [
+        "Freistellen oder anrechnen?"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T12:30:17.131Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T13:43:54.526Z",
+          "alterStunden": 1.2,
+          "reach": 27,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_tap_forward": 19,
+          "navigation_tap_exit": 5,
+          "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "17962595589215971": {
+      "art": "beitrag",
+      "datum": "2026-10-27",
+      "titel": "Mini-Fall",
+      "format": "minifall",
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T12:30:06.196Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T13:43:58.536Z",
+          "alterStunden": 1.2,
+          "reach": 44,
+          "saved": 2,
+          "shares": 2,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     }
@@ -50278,6 +50349,11 @@
       "stand": "2026-10-27T11:45:24.810Z",
       "follower": 266,
       "medien": 155
+    },
+    {
+      "stand": "2026-10-27T13:43:59.607Z",
+      "follower": 266,
+      "medien": 156
     }
   ]
 }
