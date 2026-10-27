@@ -109,6 +109,12 @@
         "zeit": "19:12",
         "art": "merksatz",
         "themaId": "ao-modul-ao-336"
+      },
+      {
+        "slot": "s10",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "m1"
       }
     ]
   },
@@ -769,11 +775,40 @@
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
       "regelGeprueft": true
+    },
+    "s10": {
+      "slot": "s10",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": null,
+      "beitragSlot": "m1",
+      "quellen": null,
+      "ueberzeile": "Neues Reel",
+      "titel": [
+        "Dieser eine Satz",
+        "rettet deine Runde"
+      ],
+      "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
+      "sichtbareTexte": [
+        "Mündliche Prüfung",
+        "Neues Reel",
+        "Dieser eine Satz",
+        "rettet deine Runde",
+        "Gratis-PDF mit allen 10 Fehlern: Link in Bio"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T08:09:27Z",
+    "erzeugtAm": "2026-10-27T11:58:12Z",
     "pfad": "vorproduktion/2026-11-06/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
