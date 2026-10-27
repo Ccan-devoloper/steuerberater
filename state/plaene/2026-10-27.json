@@ -12,7 +12,8 @@
       "themaTitel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
       "fach": "ao",
       "klausur": 1,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-27T07:30:00.101Z"
     },
     {
       "slot": "b2",
