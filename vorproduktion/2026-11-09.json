@@ -1,0 +1,715 @@
+{
+  "datum": "2026-11-09",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "pruefungsfrage",
+        "themaId": "istr-modul-istr-istr1-03",
+        "themaTitel": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+        "fach": "istr",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "persg-modul-persg-1",
+        "themaTitel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
+        "fach": "persg",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "erbst-modul-erbst-512",
+        "themaTitel": "Familienheim: § 13 Abs. 1 Nr. 4a, 4b und 4c ErbStG",
+        "fach": "erbst",
+        "klausur": 1
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-10"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-10"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "istr-modul-istr-istr3-07"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-39"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-338"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "pruefungsfrage",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr1-03",
+      "caption": "Verlust aus einer Drittstaaten-Betriebsstätte: Darf er das Einkommen mindern? Die Prüfungsfrage zu § 2a EStG für die Ertragsteuer-Klausur.\n\n1. Drittstaat: jeder Staat außerhalb der EU; EWR-Staaten stehen der EU gleich, wenn Auskünfte ausgetauscht werden (§ 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG).\n2. Katalog: Negative Einkünfte aus einer gewerblichen Betriebsstätte im Drittstaat (§ 2a Abs. 1 S. 1 Nr. 2 EStG); Gewinnminderungen zählen mit (§ 2a Abs. 1 S. 2 EStG).\n3. Aktivitätsklausel: Herstellung und Lieferung von Waren sowie gewerbliche Leistungen sind ausgenommen, nicht aber Anlagen für den Fremdenverkehr (§ 2a Abs. 2 S. 1 EStG).\n4. Rechtsfolge: Ausgleich nur mit positiven Einkünften derselben Art aus demselben Staat, kein Abzug nach § 10d EStG (§ 2a Abs. 1 S. 1 EStG); Verrechnung in Folgejahren (§ 2a Abs. 1 S. 3 EStG); verbleibende negative Einkünfte werden gesondert festgestellt (§ 2a Abs. 1 S. 5 EStG).\n\nAbgrenzung: Die Hinzurechnungsbesteuerung betrifft beherrschte ausländische Gesellschaften mit niedrig besteuerten passiven Einkünften (§ 7 Abs. 1, 2 AStG; Niedrigbesteuerung unter 15 % nach § 8 Abs. 5 AStG).\n\nZum Schluss: § 2a Abs. 1, 2, 2a EStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "quellen": [
+        "§ 2a Abs. 1 S. 1 Nr. 2, S. 2, 3, 5 EStG",
+        "§ 2a Abs. 2 S. 1 EStG",
+        "§ 2a Abs. 2a EStG",
+        "§ 10d EStG",
+        "§ 7 Abs. 1, 2 AStG",
+        "§ 8 Abs. 5 AStG"
+      ],
+      "slug": "2026-11-09-b1",
+      "kurztitel": "Drittstaaten: § 2a EStG und Hinzurechnungsbesteuerung",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Auslandsverlust · verrechenbar? · § 2a Abs. 1 EStG · Klausurfrage · + Markier-Guide § 2a EStG · Hotel im Drittstaat · – 60.000 € · abziehbar?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Der Fall · Nora führt in Köln eine Druckerei: Gewinn 150.000 €. · Im Staat X, kein EU-Staat, kein DBA, betreibt sie als Betriebsstätte ein Ferienhotel: Verlust 60.000 €. · Frage: Mindert der Hotelverlust ihr Einkommen? · Verlust ist Verlust?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung in 4 Schritten · Drittstaat? · § 2a Abs. 2a EStG · nicht EU, nicht EWR mit Auskunftsaustausch · Katalogtatbestand? · § 2a Abs. 1 S. 1 Nr. 2 EStG · gewerbliche Betriebsstätte im Drittstaat · Aktivitätsklausel? · § 2a Abs. 2 S. 1 EStG · Ausnahme für Waren und Leistungen · Rechtsfolge · § 2a Abs. 1 S. 1, 3, 5 EStG · Verlust bleibt im Staat X · Am Ende: § 2a EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "1–2 · Drittstaat, Katalog · Drittstaat: außerhalb der EU; EWR nur gleichgestellt mit Auskunftsaustausch. · § 2a Abs. 2a S. 1 Nr. 1, S. 2 EStG · Katalog Nr. 2: Verluste einer gewerblichen Betriebsstätte im Drittstaat, auch Gewinnminderungen. · § 2a Abs. 1 S. 1 Nr. 2, S. 2 EStG · Staat X liegt draußen: Nummer zitieren, nicht nur „Auslandsverlust“. · Nummer 2 also."
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "3 · Aktivitätsklausel · Herstellung, Lieferung von Waren und gewerbliche Leistungen: Die Bremse greift nicht. · § 2a Abs. 2 S. 1 EStG · Aber: Anlagen für den Fremdenverkehr sind ausdrücklich ausgenommen. · § 2a Abs. 2 S. 1 EStG · Ein Hotel ist nie „aktiv“ · Nachweis führt Nora."
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Jetzt du · Variante: In X lässt Nora statt des Hotels Regale herstellen und an Händler liefern. · Verlust wieder 60.000 €. · Darf sie ihn mit dem Druckereigewinn verrechnen? · Und jetzt?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung · Hotel: kein Ausgleich, kein Verlustabzug nach § 10d. · § 2a Abs. 1 S. 1 EStG · Vortrag nur gegen spätere Hotelgewinne aus X, Rest wird festgestellt. · § 2a Abs. 1 S. 3, 5 EStG · Regale: Warenherstellung, § 2a greift nicht, voll verrechenbar. · § 2a Abs. 2 S. 1 EStG · Erst Gewinne aus X!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "§ 2a EStG oder § 7 AStG? · § 2a EStG · Eigene Betriebsstätte oder Anteil im Drittstaat · bremst Verluste · § 2a Abs. 1 EStG · § 7 AStG · Beherrschte Auslandsgesellschaft, unter 15 % belastet · § 8 Abs. 5 AStG · rechnet passive Einkünfte hinzu · § 7 Abs. 1 AStG · Getrennt prüfen!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Hotelverlust 60.000 €: kein Ausgleich · Vortrag nur gegen gleichartige Gewinne aus X · Drittstaat prüfen, · Katalog benennen, · Aktivklausel lesen, · Verlust bleibt im Staat. · Speichern für Klausur 2 · Hättest du an das Hotel gedacht? · Weiterwischen: § 2a EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "§ 2a EStG (Auszug) · Katalog Nr. 2 · gleiche Art, gleicher Staat · kein § 10d · Hotel: Ausnahme! · Staat X · Hotel: 60.000 € nicht verrechenbar · Regale: voll verrechenbar"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-modul-persg-1",
+      "caption": "Mitunternehmerschaft in 3 Schritten: der Einstieg in jeden Personengesellschaftsfall der Bilanzklausur.\n\n1. Personengesellschaft: OHG, KG oder andere Gesellschaft, z. B. GbR (§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG; § 705 BGB).\n2. Gewerbliche Einkünfte: originär (§ 15 Abs. 2 EStG), durch Abfärbung (§ 15 Abs. 3 Nr. 1 EStG) oder durch gewerbliche Prägung (§ 15 Abs. 3 Nr. 2 EStG).\n3. Mitunternehmer: Mitunternehmerinitiative und Mitunternehmerrisiko müssen beide vorliegen (H 15.8 (1) EStH; BFH vom 25.06.1984, GrS 4/82, BStBl II 1984, 751).\n\nFalle: Zivilrechtliche Gesellschafterstellung allein reicht nicht. Wer weder an Verlusten noch an stillen Reserven teilhat, ist kein Mitunternehmer.\n\nZum Schluss: § 15 EStG und H 15.8 (1) EStH zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ],
+      "quellen": [
+        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
+        "§ 15 Abs. 2 S. 1 EStG",
+        "§ 15 Abs. 3 Nr. 1, 2 EStG",
+        "§ 705 BGB",
+        "H 15.8 (1) EStH",
+        "BFH vom 25.06.1984, GrS 4/82, BStBl II 1984, 751"
+      ],
+      "slug": "2026-11-09-b2",
+      "kurztitel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Mitunternehmer · in 3 Schritten · § 15 Abs. 1 S. 1 Nr. 2 EStG · Klausureinstieg · + Markier-Guide § 15 + H 15.8",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Das Schema · Personengesellschaft · § 15 Abs. 1 S. 1 Nr. 2 EStG · OHG, KG oder vergleichbare Gesellschaft · Gewerbliche Einkünfte · § 15 Abs. 2, 3 EStG · originär, abgefärbt oder geprägt · Mitunternehmer · H 15.8 (1) EStH · Initiative und Risiko, für jeden einzeln · Am Ende: § 15 EStG + H 15.8 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "1 · Personengesellschaft · OHG und KG nennt das Gesetz ausdrücklich. · § 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG · Auch eine „andere Gesellschaft“ genügt, etwa eine GbR. · § 705 BGB · Grundlage ist immer ein Gesellschaftsvertrag. · Erst der Vertrag."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "2 · Gewerbliche Einkünfte · Originär: Die Gesellschaft betreibt selbst ein Gewerbe. · § 15 Abs. 2 S. 1 EStG · Abfärbung: Eine gewerbliche Teiltätigkeit macht alles gewerblich. · § 15 Abs. 3 Nr. 1 EStG · Prägung: Nur Kapitalgesellschaften haften persönlich und führen die Geschäfte. · § 15 Abs. 3 Nr. 2 EStG · Drei Wege!"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "3 · Mitunternehmer · Initiative: Mitsprache mindestens wie ein Kommanditist, also Stimm-, Kontroll- und Widerspruchsrechte. · H 15.8 (1) EStH · Risiko: Teilhabe an Gewinn, Verlust und stillen Reserven samt Firmenwert. · H 15.8 (1) EStH · Beides muss vorliegen. · Für jeden einzeln!"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Gesellschafter ≠ Mitunternehmer · Die Stellung im Handelsregister entscheidet nicht. · Wer kein Risiko trägt, bleibt außen vor, auch als Kommanditist. · H 15.8 (1) EStH · Register reicht nicht."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jetzt du · Tilda ist Kommanditistin der Holzbau KG. · Sie erhält fest 4 % auf ihre Einlage, trägt keine Verluste und bekommt beim Ausscheiden nur ihre Einlage zurück. · Ist sie Mitunternehmerin? · Bin ich es?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Lösung · Kein Mitunternehmerrisiko: keine Verlustteilhabe, keine stillen Reserven. · H 15.8 (1) EStH · Ihr Anteil fällt nicht unter § 15 Abs. 1 S. 1 Nr. 2 EStG. · Die übrigen Gesellschafter werden gesondert geprüft. · Also kein § 15."
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Reihenfolge: Gesellschaft, Gewerblichkeit, · danach jeder Gesellschafter einzeln · Gesellschaft feststellen, · Gewerbe begründen, · Initiative und · Risiko prüfen. · Speichern für Klausur 3 · Welcher Schritt fehlt dir oft? · Weiterwischen: § 15 + H 15.8 markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "§ 15 EStG (Auszug) · Schritt 1 · Schritt 3 · Abfärbung · H 15.8 (1) EStH (Auszug) · Initiative · Risiko · auch Reserven · Tilda: 4 % · Grundlage: BFH vom 25.06.1984, GrS 4/82 · BStBl II 1984, 751"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-512",
+      "caption": "Kind erbt das Elternhaus: Ist das Familienheim komplett steuerfrei? 🏠\n\n▸ Erwerb von Todes wegen durch Kinder: steuerfrei, soweit der Erblasser bis zum Erbfall selbst darin wohnte (oder aus zwingenden Gründen gehindert war), das Kind die Wohnung unverzüglich selbst nutzt und soweit die Wohnfläche 200 qm nicht übersteigt (§ 13 Abs. 1 Nr. 4c S. 1 ErbStG).\n▸ Beispiel: 250 qm, Grundbesitzwert 750.000 € → 200/250 = 80 % frei (600.000 €), 150.000 € steuerpflichtig. Danach greift der persönliche Freibetrag des Kindes von 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG).\n▸ Nutzt das Kind das Haus innerhalb von zehn Jahren nicht mehr selbst, entfällt die Befreiung rückwirkend, außer bei zwingenden Gründen (§ 13 Abs. 1 Nr. 4c S. 5 ErbStG).\n▸ Zum Vergleich: Ehegatten und Lebenspartner haben keine Flächengrenze (§ 13 Abs. 1 Nr. 4b ErbStG); Zuwendungen unter Lebenden nur zwischen Ehegatten oder Lebenspartnern (§ 13 Abs. 1 Nr. 4a ErbStG).\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 13 Abs. 1 Nr. 4a, 4b ErbStG",
+        "§ 13 Abs. 1 Nr. 4c S. 1, 5 ErbStG",
+        "§ 16 Abs. 1 Nr. 2 ErbStG"
+      ],
+      "slug": "2026-11-09-b3",
+      "kurztitel": "Familienheim: § 13 Abs. 1 Nr. 4a, 4b und 4c ErbStG",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Kind erbt Haus: alles steuerfrei?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Fall"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Rechnung"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zehn Jahre wohnen"
+        }
+      ],
+      "sprecher": [
+        "Kind erbt Elternhaus, alles steuerfrei? Nicht ganz. Steuerfrei nur bis zweihundert Quadratmeter.",
+        "Der Vater wohnte bis zuletzt darin, Ida zieht sofort ein. Zweihundertfünfzig Quadratmeter, Wert siebenhundertfünfzigtausend Euro.",
+        "Begünstigt sind zweihundert von zweihundertfünfzig, also achtzig Prozent. Steuerpflichtig bleiben hundertfünfzigtausend Euro.",
+        "Dann zehn Jahre selbst wohnen. Auszug ohne zwingenden Grund kostet die Befreiung rückwirkend.",
+        "Merke: Kinder zweihundert Quadratmeter, Rest anteilig, zehn Jahre wohnen."
+      ],
+      "dauerS": 39.767,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Skonto kommt später:",
+        "Wann berichtigen?"
+      ],
+      "optionen": [
+        "Rückwirkend im Liefermonat",
+        "Wenn sich das Entgelt ändert",
+        "In der Jahreserklärung"
+      ],
+      "pairId": "ust-quiz-ust-10",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "Skonto kommt später:",
+        "Wann berichtigen?",
+        "Rückwirkend im Liefermonat",
+        "Wenn sich das Entgelt ändert",
+        "In der Jahreserklärung",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: im Zeitraum",
+        "der Änderung"
+      ],
+      "optionen": [
+        "Rückwirkend im Liefermonat",
+        "Wenn sich das Entgelt ändert",
+        "In der Jahreserklärung"
+      ],
+      "richtig": 1,
+      "text": "Steuer und Vorsteuer werden nicht rückwirkend berichtigt.",
+      "norm": "§ 17 Abs. 1 S. 8 UStG",
+      "pairId": "ust-quiz-ust-10",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: im Zeitraum",
+        "der Änderung",
+        "Rückwirkend im Liefermonat",
+        "Wenn sich das Entgelt ändert",
+        "In der Jahreserklärung",
+        "Steuer und Vorsteuer werden nicht rückwirkend berichtigt.",
+        "§ 17 Abs. 1 S. 8 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Auslandsverlust verrechenbar?"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "Auslandsverlust verrechenbar?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr3-07",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Wegzug ins",
+        "Niedrigsteuerland"
+      ],
+      "norm": "§ 2 AStG",
+      "punkte": [
+        [
+          "Deutscher, 5 von 10 Jahren unbeschränkt pflichtig, wesentliche Inlandsinteressen.",
+          "warn",
+          "§ 2 Abs. 1 S. 1 AStG"
+        ],
+        [
+          "Zehn Jahre erweitert beschränkt pflichtig, bei Einkünften über 16.500 €.",
+          "ok",
+          "§ 2 Abs. 1 S. 3 AStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Wegzug ins",
+        "Niedrigsteuerland",
+        "§ 2 AStG",
+        "Deutscher, 5 von 10 Jahren unbeschränkt pflichtig, wesentliche Inlandsinteressen.",
+        "§ 2 Abs. 1 S. 1 AStG",
+        "Zehn Jahre erweitert beschränkt pflichtig, bei Einkünften über 16.500 €.",
+        "§ 2 Abs. 1 S. 3 AStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Mitunternehmer in 3 Schritten"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "Mitunternehmer in 3 Schritten",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Zweiter Anlauf",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Erst analysieren,",
+        "dann lernen"
+      ],
+      "punkte": [
+        [
+          "Klausureinsicht nutzen: Wo gingen Punkte verloren?",
+          "ok",
+          null
+        ],
+        [
+          "Ursache benennen: Wissen, Zeit oder Darstellung?",
+          "ok",
+          null
+        ],
+        [
+          "Daraus drei konkrete Lernziele machen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:target-arrow",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Zweiter Anlauf",
+        "Klausurtipp",
+        "Erst analysieren,",
+        "dann lernen",
+        "Klausureinsicht nutzen: Wo gingen Punkte verloren?",
+        "Ursache benennen: Wissen, Zeit oder Darstellung?",
+        "Daraus drei konkrete Lernziele machen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-39",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Einlage:",
+        "wann gedeckelt?"
+      ],
+      "punkte": [
+        [
+          "Grundsatz: Teilwert",
+          "ok",
+          "§ 6 Abs. 1 Nr. 5 S. 1 EStG"
+        ],
+        [
+          "Binnen drei Jahren privat angeschafft: höchstens Anschaffungskosten, abnutzbar minus AfA",
+          "warn",
+          "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+        ]
+      ],
+      "icon": "tabler:arrow-bar-to-down",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "Einlage:",
+        "wann gedeckelt?",
+        "Grundsatz: Teilwert",
+        "§ 6 Abs. 1 Nr. 5 S. 1 EStG",
+        "Binnen drei Jahren privat angeschafft: höchstens Anschaffungskosten, abnutzbar minus AfA",
+        "§ 6 Abs. 1 Nr. 5 S. 1 Buchst. a, S. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Kind erbt Haus: steuerfrei?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Kind erbt Haus: steuerfrei?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-338",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Grundlagenbescheid",
+        "kommt spät?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Festsetzungsfrist endet",
+            null
+          ]
+        ],
+        [
+          [
+            "frühestens ",
+            null
+          ],
+          [
+            "2 Jahre",
+            "a"
+          ]
+        ],
+        [
+          [
+            "nach ",
+            null
+          ],
+          [
+            "Bekanntgabe",
+            "b"
+          ]
+        ],
+        [
+          [
+            "des Grundlagenbescheids",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 171 Abs. 10 S. 1 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Grundlagenbescheid",
+        "kommt spät?",
+        "Festsetzungsfrist endet",
+        "frühestens 2 Jahre",
+        "nach Bekanntgabe",
+        "des Grundlagenbescheids",
+        "§ 171 Abs. 10 S. 1 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-10-27T08:14:08Z",
+    "pfad": "vorproduktion/2026-11-09/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
