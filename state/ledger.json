@@ -15527,7 +15527,7 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 88,
+        "reach": 95,
         "saved": 2,
         "shares": 0,
         "likes": 3,
@@ -15536,8 +15536,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-27T10:56:47.662Z",
-      "insightsAlterStunden": 22.4
+      "insightsStand": "2026-10-27T19:45:43.629Z",
+      "insightsAlterStunden": 31.2
     },
     {
       "datum": "2026-10-26",
@@ -15883,7 +15883,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 59,
+        "reach": 69,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -15892,8 +15892,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-27T15:58:09.510Z",
-      "insightsAlterStunden": 7.5
+      "insightsStand": "2026-10-27T19:45:43.629Z",
+      "insightsAlterStunden": 11.2
     },
     {
       "datum": "2026-10-27",
@@ -16007,22 +16007,22 @@
         "dann der Fall"
       ],
       "insights": {
-        "reach": 24,
-        "views": 30,
+        "reach": 67,
+        "views": 87,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 15,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 1
+        "navigation": 78,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 54,
+        "navigation_tap_exit": 11,
+        "navigation_tap_back": 8
       },
-      "insightsStand": "2026-10-27T15:34:15.222Z",
-      "insightsAlterStunden": 1.8
+      "insightsStand": "2026-10-27T19:45:37.799Z",
+      "insightsAlterStunden": 6
     },
     {
       "datum": "2026-10-27",
@@ -16168,7 +16168,24 @@
       "fach": "bilanz",
       "titel": [
         "10.000 € Zinsen abziehbar?"
-      ]
+      ],
+      "insights": {
+        "reach": 35,
+        "views": 49,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 2,
+        "profile_activity": 1,
+        "navigation": 40,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 26,
+        "navigation_tap_back": 6
+      },
+      "insightsStand": "2026-10-27T19:45:37.799Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-27",
@@ -16183,7 +16200,24 @@
       "titel": [
         "GmbH wird KG:",
         "Was gilt als bezogen?"
-      ]
+      ],
+      "insights": {
+        "reach": 33,
+        "views": 43,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 0,
+        "navigation": 36,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 26,
+        "navigation_tap_exit": 8
+      },
+      "insightsStand": "2026-10-27T19:45:37.799Z",
+      "insightsAlterStunden": 1.4
     }
   ],
   "fachZaehler": {

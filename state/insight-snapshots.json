@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-27T18:47:36.240Z",
+  "stand": "2026-10-27T19:45:44.720Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -47117,6 +47117,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-27T19:45:43.629Z",
+          "alterStunden": 31.2,
+          "reach": 95,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -47829,6 +47841,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-27T19:45:43.629Z",
+          "alterStunden": 11.2,
+          "reach": 69,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -48005,6 +48029,23 @@
           "navigation_tap_forward": 15,
           "navigation_tap_exit": 7,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-10-27T19:45:37.799Z",
+          "alterStunden": 6,
+          "reach": 67,
+          "views": 87,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 78,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 54,
+          "navigation_tap_exit": 11,
+          "navigation_tap_back": 8
         }
       ]
     },
@@ -48129,6 +48170,69 @@
           "ig_reels_avg_watch_time": 4385,
           "ig_reels_video_view_total_time": 355219,
           "reels_skip_rate": 50.4
+        }
+      ]
+    },
+    "18120417266100480": {
+      "art": "story",
+      "datum": "2026-10-27",
+      "titel": [
+        "10.000 € Zinsen abziehbar?"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T18:00:26.291Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T19:45:37.799Z",
+          "alterStunden": 1.8,
+          "reach": 35,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 1,
+          "navigation": 40,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 26,
+          "navigation_tap_back": 6
+        }
+      ]
+    },
+    "18128453395853754": {
+      "art": "story",
+      "datum": "2026-10-27",
+      "titel": [
+        "GmbH wird KG:",
+        "Was gilt als bezogen?"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T18:20:03.203Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T19:45:37.799Z",
+          "alterStunden": 1.4,
+          "reach": 33,
+          "views": 43,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 26,
+          "navigation_tap_exit": 8
         }
       ]
     }
@@ -50827,6 +50931,11 @@
     {
       "stand": "2026-10-27T18:00:32.781Z",
       "follower": 265,
+      "medien": 158
+    },
+    {
+      "stand": "2026-10-27T19:45:44.720Z",
+      "follower": 267,
       "medien": 158
     }
   ]
