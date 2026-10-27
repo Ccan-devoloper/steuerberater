@@ -16059,6 +16059,21 @@
         "Diese 10 Fehler",
         "kosten dich die Mündliche"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "s8",
+      "medienId": "17895404226432067",
+      "veroeffentlicht": "2026-10-27T15:58:04.208Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "kst-karte-kst-10",
+      "fach": "kst",
+      "titel": [
+        "KSt-Einkommen:",
+        "Wo starten?"
+      ]
     }
   ],
   "fachZaehler": {
