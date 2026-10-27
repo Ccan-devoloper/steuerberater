@@ -1,0 +1,795 @@
+{
+  "datum": "2026-11-02",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "pruefungsfrage",
+        "themaId": "erbst-aufb-erbst-bew1-9",
+        "themaTitel": "Lebenslange Rente oder unbestimmte Dauer: Welcher Vervielfältiger?",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "istr-modul-istr-istr2-03",
+        "themaTitel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+        "fach": "istr",
+        "klausur": 2
+      },
+      {
+        "slot": "b3",
+        "zeit": "17:30",
+        "format": "reel",
+        "themaId": "umwst-aufb-umw-ks-3-03",
+        "themaTitel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+        "fach": "umwst",
+        "klausur": 3
+      },
+      {
+        "slot": "m1",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "lead-reel-r6",
+        "themaTitel": "Fachbegriffe nicht treffen",
+        "fach": null,
+        "klausur": 0
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "bilanz-quiz-k3-12"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "bilanz-quiz-k3-12"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "erbst-aufb-erbst-bew2-5"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "kst-aufb-kst-ks-3-05"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-ks-3-04"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "pruefungsfrage",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-bew1-9",
+      "caption": "Rente geerbt – mit welchem Vervielfältiger setzt das Finanzamt sie an? Eine typische Frage aus der Erbschaftsteuer-Klausur.\n\nDer Fall: Tante Margit stirbt im März 2026. Selin (60) erhält lebenslang 6.000 € im Jahr, Arvid 6.000 € jährlich bis zum beschlossenen Verkauf eines Mietshauses (vererblich, Termin offen).\n\n▸ Feste Laufzeit: Vielfaches aus Anlage 9a (§ 13 Abs. 1 BewG).\n▸ Immerwährend: 18,6facher, unbestimmte Dauer: 9,3facher Jahreswert, vorbehaltlich § 14 (§ 13 Abs. 2 BewG).\n▸ Lebenslang: Vervielfältiger nach Lebensalter und Geschlecht aus der BMF-Tabelle (§ 14 Abs. 1 BewG). Für Stichtage ab 01.01.2026: BMF vom 21.10.2025, Frau mit vollendetem 60. Lebensjahr 13,832.\n▸ Selin: 6.000 € × 13,832 = 82.992 €. Arvid: 6.000 € × 9,3 = 55.800 €.\n▸ Mehrere Berechtigte: beim Erlöschen mit dem Tod des Letztversterbenden der höchste, mit dem Tod des Erstversterbenden der niedrigste Vervielfältiger (§ 14 Abs. 3 BewG).\n▸ Aufschiebend bedingte Rente (z. B. erst bei Überleben): zunächst kein Ansatz (§ 4 BewG).\n▸ Wahlrecht: Steuer statt vom Kapitalwert jährlich im Voraus vom Jahreswert (§ 23 Abs. 1 ErbStG).\n\nZum Schluss: §§ 13, 14 BewG zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 13 Abs. 1, 2 BewG",
+        "§ 14 Abs. 1, 3 BewG",
+        "§ 4 BewG",
+        "BMF vom 21.10.2025 (Vervielfältiger ab 01.01.2026)",
+        "§ 23 Abs. 1 ErbStG"
+      ],
+      "slug": "2026-11-02-b1",
+      "kurztitel": "Lebenslange Rente oder unbestimmte Dauer: Welcher Vervielfältiger?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Rente geerbt: · welcher Faktor? · §§ 13, 14 BewG · Klausurfrage · + Markier-Guide § 13 BewG · Rente je Jahr · 6.000 € · mal wie viel?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Der Fall · Tante Margit stirbt im März 2026 und vermacht zwei Renten von je 6.000 € jährlich. · Selin, 60 Jahre alt: Rente bis zu ihrem Tod. · Arvid: bis zum beschlossenen Verkauf eines Mietshauses, Termin offen, vererblich. · Ich bin Selin."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Jetzt du · Mit welchem Kapitalwert erfasst das Finanzamt die beiden Renten? · Tipp: Erst klären, wodurch jede Rente endet. · Gilt für mich dasselbe?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Vier Laufzeiten, vier Faktoren · Feste Laufzeit · § 13 Abs. 1 BewG · Vielfaches aus Anlage 9a, gedeckelt durch § 14, wenn auch ein Leben zählt · Immerwährend · § 13 Abs. 2 BewG · 18,6facher Jahreswert · Unbestimmte Dauer · § 13 Abs. 2 BewG · 9,3facher Jahreswert: Ende sicher, Zeitpunkt offen · Lebenslang · § 14 Abs. 1 BewG · BMF-Tabelle nach Lebensalter und Geschlecht"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Lösung Selin · § 14 Abs. 1 BewG · BMF vom 21.10.2025 · Jahreswert · 6.000 € · Frau, 60 Jahre vollendet · × 13,832 · Kapitalwert · 82.992 € · Tabelle für Stichtage ab 01.01.2026 · Mein Alter zählt!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Lösung Arvid · § 13 Abs. 2 BewG · Jahreswert · 6.000 € · Ende sicher, Zeitpunkt offen · × 9,3 · Kapitalwert · 55.800 € · Vererblich: kein Leben begrenzt die Rente · Weniger als Selin?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Wessen Tod zählt? · Rente für zwei, bis der Letzte stirbt: höchster Vervielfältiger. · § 14 Abs. 3 BewG · Endet sie mit dem ersten Tod: niedrigster. · § 14 Abs. 3 BewG · Rente nur, falls die Ehefrau ihn überlebt: aufschiebend bedingt, vorerst kein Ansatz. · § 4 BewG · Und bei zwei Personen?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Selin 82.992 € · Arvid 55.800 € · Die Laufzeit bestimmt den Faktor, nicht der Betrag · Ewig = 18,6 · Ende offen = 9,3 · Lebenslang = BMF-Tabelle · Speichern für Klausur 1 · Kanntest du die Tabelle 2026? · Weiterwischen: § 13 BewG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "§§ 13, 14 BewG (Auszug) · immer · Ende offen · Leben geht vor · BMF-Tabelle · Randnotiz: § 23 ErbStG · Steuer auf Wunsch jährlich vom Jahreswert"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr2-03",
+      "caption": "Dividende an einen Steuerausländer – das Prüfschema in fünf Schritten für die Ertragsteuer-Klausur.\n\n1. Kapitalertrag: Gewinnausschüttung einer GmbH (§ 20 Abs. 1 Nr. 1 EStG).\n2. Inlandsbezug: Schuldner mit Sitz oder Geschäftsleitung im Inland (§ 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG); ohne inländischen Wohnsitz beschränkte Steuerpflicht (§ 1 Abs. 4 EStG).\n3. Steuerabzug: 25 % Kapitalertragsteuer (§ 43 Abs. 1 S. 1 Nr. 1, § 43a Abs. 1 S. 1 Nr. 1 EStG) plus 5,5 % Solidaritätszuschlag (§ 3 Abs. 1 Nr. 5, § 4 SolZG). Beispiel: 10.000 € Dividende, 2.637,50 € einbehalten.\n4. Abgeltung: Die Einkommensteuer gilt durch den Steuerabzug als abgegolten (§ 50 Abs. 2 S. 1 EStG), nicht aber u. a. für Einkünfte eines inländischen Betriebs (§ 50 Abs. 2 S. 2 Nr. 1 EStG).\n5. DBA: Entspricht das Abkommen Art. 10 Abs. 2 OECD-MA, darf der Quellenstaat bei Streubesitz höchstens 15 % erheben. Der Abzug wird trotzdem voll vorgenommen (§ 50c Abs. 1 EStG); den Mehrbetrag erstattet das BZSt auf Antrag, Frist vier Jahre nach Ablauf des Jahres des Zuflusses (§ 50c Abs. 3 EStG). Im Beispiel 1.137,50 €.\n\nZum Schluss: § 50 Abs. 2, § 50c Abs. 3 EStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#internationalessteuerrecht"
+      ],
+      "quellen": [
+        "§ 1 Abs. 4 EStG",
+        "§ 20 Abs. 1 Nr. 1 EStG",
+        "§ 49 Abs. 1 Nr. 5 Buchst. a EStG",
+        "§ 43 Abs. 1 S. 1 Nr. 1 EStG",
+        "§ 43a Abs. 1 S. 1 Nr. 1 EStG",
+        "§ 3 Abs. 1 Nr. 5, § 4 SolZG",
+        "§ 50 Abs. 2 EStG",
+        "§ 50c Abs. 1, 3 EStG",
+        "Art. 10 Abs. 2 OECD-MA"
+      ],
+      "slug": "2026-11-02-b2",
+      "kurztitel": "Kapitalerträge bei beschränkter Steuerpflicht: Steuerabzug und Abgeltungswirkung",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Dividende · ins Ausland · § 50 Abs. 2 EStG · in 5 Schritten · + Markier-Guide §§ 50, 50c EStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Das Schema · Kapitalertrag? · § 20 Abs. 1 Nr. 1 EStG · Inlandsbezug? · § 49 Abs. 1 Nr. 5 Buchst. a EStG · Steuerabzug · §§ 43, 43a EStG · Abgeltung · § 50 Abs. 2 EStG · DBA und Erstattung · Art. 10 OECD-MA, § 50c EStG · Am Ende: §§ 50, 50c EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Der Fall · Mateo wohnt in einem DBA-Staat, nicht in Deutschland. · Er hält 3 % an der Lindauer Möbel GmbH mit Sitz in Köln. · 2026 schüttet sie ihm 10.000 € aus. · Muss ich hier was tun?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Schritt 1 und 2 · Gewinnausschüttung einer GmbH: Kapitalertrag. · § 20 Abs. 1 Nr. 1 EStG · Die Schuldnerin sitzt im Inland: inländische Einkünfte. · § 49 Abs. 1 Nr. 5 Buchst. a Doppelbuchst. aa EStG · Ohne Wohnsitz hier: beschränkt steuerpflichtig. · § 1 Abs. 4 EStG · Ich bin Johanna, Beraterin."
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Schritt 3: Abzug · § 43a Abs. 1 Nr. 1 EStG · § 4 SolZG · Dividende · 10.000,00 € · Kapitalertragsteuer 25 % · − 2.500,00 € · Soli 5,5 % · − 137,50 € · Auszahlung an Mateo · 7.362,50 € · Gut ein Viertel weg!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Deine Einschätzung · Braucht Mateo eine deutsche Steuererklärung? · Kann er sich etwas erstatten lassen? · Erst überlegen!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: Schritt 4 · Keine Erklärung: Die Steuer gilt durch den Abzug als abgegolten. · § 50 Abs. 2 S. 1 EStG · Anders, wenn die Anteile zu einem inländischen Betrieb gehören. · § 50 Abs. 2 S. 2 Nr. 1 EStG · Keine Erklärung!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: Schritt 5 · Art. 10 Abs. 2 OECD-MA · § 50c Abs. 3 EStG · Einbehalten · 2.637,50 € · Erlaubt nach DBA: 15 % · 1.500,00 € · Erstattung vom BZSt · 1.137,50 € · Erst abziehen, dann erstatten · Antrag beim BZSt!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Mateo: 7.362,50 € netto, 1.137,50 € zurück · Am Ende bleiben 15 % in Deutschland · Ertrag und Inland, · Abzug ist Abgeltung, · DBA nur per Erstattung. · Speichern für Klausur 2 · Prüfst du den DBA-Satz mit? · Weiterwischen: §§ 50, 50c EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "§§ 50, 50c EStG (Auszug) · abgegolten · Ausnahme · BZSt · Mateo: 1.137,50 € · Erstattungsfrist: vier Jahre · ab Ende des Jahres der Ausschüttung"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-3-03",
+      "caption": "Übernahmegewinn bei Verschmelzung einer GmbH auf eine KG – erst § 7 UmwStG, dann rechnen. 🧮\n\nBeispiel: Kai hält 100 % an einer GmbH (Anschaffungskosten = Stammkapital 50.000 €, kein weiteres Einlagekonto). Buchwert des übergehenden Vermögens 400.000 €.\n\n▸ Seine Anteile gelten als in die KG eingelegt (§ 5 Abs. 2 UmwStG).\n▸ Übernahmegewinn 1. Stufe: 400.000 € − 50.000 € = 350.000 € (§ 4 Abs. 4 S. 1 UmwStG; Umwandlungskosten hier außer Acht).\n▸ Bezüge: Eigenkapital laut Steuerbilanz abzüglich Einlagekonto nach Anwendung des § 29 Abs. 1 KStG = 350.000 €, Einnahmen nach § 20 Abs. 1 Nr. 1 EStG (§ 7 UmwStG); hier im Teileinkünfteverfahren zu 60 % steuerpflichtig (§ 3 Nr. 40, § 20 Abs. 8 EStG), mit Kapitalertragsteuerabzug.\n▸ Der Übernahmegewinn vermindert sich um diese Bezüge (§ 4 Abs. 5 UmwStG): 0 €.\n▸ Ein verbleibender Übernahmegewinn: bei natürlichen Personen § 3 Nr. 40, § 3c EStG, bei Körperschaften § 8b KStG (§ 4 Abs. 7 UmwStG). Ein Übernahmeverlust: bei natürlichen Personen zu 60 %, höchstens 60 % der Bezüge; nicht bei entgeltlichem Erwerb der Anteile in den letzten fünf Jahren (§ 4 Abs. 6 S. 4, 6 UmwStG).\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ],
+      "quellen": [
+        "§ 4 Abs. 4, 5, 6, 7 UmwStG",
+        "§ 5 Abs. 2 UmwStG",
+        "§ 7 UmwStG",
+        "§ 29 Abs. 1 KStG",
+        "§ 3 Nr. 40, § 3c Abs. 2, § 20 Abs. 1 Nr. 1, Abs. 8 EStG",
+        "§ 8b KStG"
+      ],
+      "slug": "2026-11-02-b3",
+      "kurztitel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "rechnung",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Übernahmegewinn voll versteuern?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Übernahmegewinn"
+        },
+        {
+          "art": "schritt",
+          "titel": "Erst die Dividende"
+        },
+        {
+          "art": "schritt",
+          "titel": "Dann abziehen"
+        }
+      ],
+      "sprecher": [
+        "Übernahmegewinn dreihundertfünfzigtausend Euro, voll steuerpflichtig? Stopp. Erst Paragraf sieben.",
+        "Kais GmbH wird auf eine KG verschmolzen. Vermögen vierhunderttausend, Kais Anteile fünfzigtausend. Differenz: dreihundertfünfzigtausend.",
+        "Die Rücklagen gelten als an Kai ausgeschüttet: dreihundertfünfzigtausend Euro Dividende, zu sechzig Prozent steuerpflichtig.",
+        "Diese Bezüge ziehst du vom Übernahmegewinn ab. Rest: null. Nichts wird doppelt besteuert.",
+        "Merke: Erst Bezüge nach Paragraf sieben abziehen, dann Rest rechnen."
+      ],
+      "dauerS": 41.125,
+      "tempo": 1.0
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-reel-r6",
+      "caption": "Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯\n\n„Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 4 Nr. 1 Buchst. b UStG",
+        "§ 6a Abs. 1 S. 1 Nr. 4 UStG"
+      ],
+      "slug": "2026-11-02-m1",
+      "kurztitel": "Fachbegriffe nicht treffen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "„Steuerfrei, weil Ausland.“"
+        },
+        {
+          "art": "schritt",
+          "titel": "Platz 4"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Begriff"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Bedingung"
+        }
+      ],
+      "sprecher": [
+        "Steuerfrei, weil Ausland. Viel zu ungenau. Der Prüfer wartet auf den Fachbegriff.",
+        "Fachbegriffe nicht treffen ist Platz vier der häufigsten Fehler.",
+        "Richtig ist: innergemeinschaftliche Lieferung. Steuerfrei nach Paragraf vier Nummer eins b und sechs a Umsatzsteuergesetz.",
+        "Aber nur, wenn der Kunde seine gültige ausländische Umsatzsteuer-Identifikationsnummer verwendet.",
+        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+      ],
+      "dauerS": 34.518,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Dividende im Betrieb:",
+        "Was sperrt die Abgeltung?"
+      ],
+      "optionen": [
+        "§ 43 Abs. 5 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 12 Nr. 3 EStG"
+      ],
+      "pairId": "bilanz-quiz-k3-12",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "Dividende im Betrieb:",
+        "Was sperrt die Abgeltung?",
+        "§ 43 Abs. 5 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 12 Nr. 3 EStG",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-12",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "A: § 43 Abs. 5",
+        "S. 2 EStG"
+      ],
+      "optionen": [
+        "§ 43 Abs. 5 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 12 Nr. 3 EStG"
+      ],
+      "richtig": 0,
+      "text": "Gehört die Dividende zum Gewerbebetrieb, wird die Kapitalertragsteuer nur angerechnet.",
+      "norm": "§ 36 Abs. 2 Nr. 2 EStG",
+      "pairId": "bilanz-quiz-k3-12",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "A: § 43 Abs. 5",
+        "S. 2 EStG",
+        "§ 43 Abs. 5 EStG",
+        "§ 3 Nr. 40 EStG",
+        "§ 12 Nr. 3 EStG",
+        "Gehört die Dividende zum Gewerbebetrieb, wird die Kapitalertragsteuer nur angerechnet.",
+        "§ 36 Abs. 2 Nr. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Rente geerbt: welcher Faktor?"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Rente geerbt: welcher Faktor?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-bew2-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Vergleich, Ertrag",
+        "oder Sachwert?"
+      ],
+      "norm": "§ 182 BewG",
+      "punkte": [
+        [
+          "Eigentumswohnung, Ein- und Zweifamilienhaus: Vergleichswert.",
+          "ok",
+          "§ 182 Abs. 2 BewG"
+        ],
+        [
+          "Mietwohngrundstück: Ertragswert. Fehlt Vergleichswert oder übliche Miete: Sachwert.",
+          "warn",
+          "§ 182 Abs. 3, 4 BewG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Vergleich, Ertrag",
+        "oder Sachwert?",
+        "§ 182 BewG",
+        "Eigentumswohnung, Ein- und Zweifamilienhaus: Vergleichswert.",
+        "§ 182 Abs. 2 BewG",
+        "Mietwohngrundstück: Ertragswert. Fehlt Vergleichswert oder übliche Miete: Sachwert.",
+        "§ 182 Abs. 3, 4 BewG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Dividende ins Ausland"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "Dividende ins Ausland",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Zweiter Anlauf",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "ueberzeile": "Lernstrategie",
+      "titel": [
+        "Zweiter Anlauf:",
+        "erst Bilanz ziehen"
+      ],
+      "punkte": [
+        [
+          "Bewertete Klausuren einsehen, Punkte je Teil notieren.",
+          "ok",
+          null
+        ],
+        [
+          "Fehlte Wissen, Zeit oder Technik?",
+          "warn",
+          null
+        ],
+        [
+          "Den Lernplan genau nach diesen Lücken bauen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:chart-bar",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Zweiter Anlauf",
+        "Lernstrategie",
+        "Zweiter Anlauf:",
+        "erst Bilanz ziehen",
+        "Bewertete Klausuren einsehen, Punkte je Teil notieren.",
+        "Fehlte Wissen, Zeit oder Technik?",
+        "Den Lernplan genau nach diesen Lücken bauen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-ks-3-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Zinsloses Darlehen",
+        "an die GmbH"
+      ],
+      "punkte": [
+        [
+          "Zinsvorteil: kein einlagefähiges Wirtschaftsgut.",
+          "ok",
+          "BFH vom 26.10.1987, GrS 2/86"
+        ],
+        [
+          "Also keine verdeckte Einlage.",
+          "nein",
+          null
+        ],
+        [
+          "Die GmbH spart Zinsen, ihr Gewinn steigt.",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:coins",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Klausurtipp",
+        "Zinsloses Darlehen",
+        "an die GmbH",
+        "Zinsvorteil: kein einlagefähiges Wirtschaftsgut.",
+        "BFH vom 26.10.1987, GrS 2/86",
+        "Also keine verdeckte Einlage.",
+        "Die GmbH spart Zinsen, ihr Gewinn steigt."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Übernahmegewinn voll versteuern?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Übernahmegewinn voll versteuern?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-ks-3-04",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Verschmelzung:",
+        "welcher Stichtag?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Stichtag der ",
+            null
+          ],
+          [
+            "Schlussbilanz",
+            "a"
+          ],
+          [
+            ",",
+            null
+          ]
+        ],
+        [
+          [
+            "höchstens ",
+            null
+          ],
+          [
+            "8 Monate",
+            "b"
+          ]
+        ],
+        [
+          [
+            "vor der ",
+            null
+          ],
+          [
+            "Anmeldung",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 2 UmwStG · § 17 Abs. 2 S. 4 UmwG",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Verschmelzung:",
+        "welcher Stichtag?",
+        "Stichtag der Schlussbilanz,",
+        "höchstens 8 Monate",
+        "vor der Anmeldung.",
+        "§ 2 UmwStG · § 17 Abs. 2 S. 4 UmwG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-10-27T08:02:45Z",
+    "pfad": "vorproduktion/2026-11-02/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
