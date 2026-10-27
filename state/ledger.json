@@ -15792,13 +15792,35 @@
       "thema": "persg-quiz-k3-4",
       "fach": "persg",
       "titel": "§ 6b EStG"
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "b1",
+      "medienId": "17995054670846803",
+      "veroeffentlicht": "2026-10-27T07:30:05.020Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "ao-modul-ao-332",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 17,
     "ust": 13,
     "kst": 13,
-    "ao": 25,
+    "ao": 26,
     "bilanz": 24,
     "istr": 19,
     "erbst": 10,
