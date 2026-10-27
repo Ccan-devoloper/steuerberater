@@ -1,0 +1,771 @@
+{
+  "datum": "2026-11-07",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": null,
+        "themaTitel": "Bilanzklausur: Zeit, Aufbau und Darstellung am dritten Tag",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "rechenweg",
+        "themaId": "erbst-aufb-erbst-v-31",
+        "themaTitel": "Zusammenrechnung nach § 14 ErbStG: der Zehnjahreszeitraum",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "17:30",
+        "format": "reel",
+        "themaId": "est-aufb-est-ks2-23-02",
+        "themaTitel": "Warum § 23 EStG immer zuletzt geprüft wird",
+        "fach": "est",
+        "klausur": 2
+      },
+      {
+        "slot": "m1",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "lead-reel-r11",
+        "themaTitel": "Eine schlechte Runde mitnehmen",
+        "fach": null,
+        "klausur": 0
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "persg-aufb-persg-melzer-5-3"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ust-aufb-ust-m-b06-6"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "est-aufb-est-ks1-ein-05"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "caption": "Bilanzklausur am dritten Tag: So planst du Zeit, Aufbau und Darstellung.\n\n▸ Höchstens sechs Stunden stehen zur Verfügung (§ 18 Abs. 1 S. 3 DVStB). Zuerst die Bearbeitungshinweise lesen, dann die Zeit nach Umfang der Teile verteilen und Endzeiten notieren.\n▸ Mit dem sichersten Teil beginnen: Das bringt Punkte und Ruhe.\n▸ Jeder Sachverhalt im selben Aufbau: Handelsbilanz, dann Steuerbilanz (§ 5 Abs. 1 S. 1 EStG), Ansatz vor Bewertung, Buchungssatz, Gewinnauswirkung.\n▸ Ausführlich nur, wo Probleme liegen; Unstreitiges kurz feststellen.\n▸ Gewinnauswirkungen laufend in einer Tabelle sammeln – sie folgen aus dem Betriebsvermögensvergleich (§ 4 Abs. 1 S. 1 EStG).\n▸ Puffer für Summen und offene Teile lassen.\n\nZum Schluss: § 4 Abs. 1 S. 1 EStG zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ],
+      "quellen": [
+        "§ 18 Abs. 1 S. 3 DVStB",
+        "§ 4 Abs. 1 S. 1 EStG",
+        "§ 5 Abs. 1 S. 1 EStG"
+      ],
+      "slug": "2026-11-07-b1",
+      "kurztitel": "Bilanzklausur: Zeit, Aufbau und Darstellung am dritten Tag",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · Bilanzklausur: · so teilst du ein · Strategie Tag 3 · + Markier-Guide § 4 EStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Der Plan für den Tag · Lesen und planen · Hinweise zuerst, Zeit je Teil festlegen · Sicherster Teil zuerst · schnelle Punkte, mehr Ruhe · Fester Aufbau je Sachverhalt · Ansatz, Bewertung, Buchung, Gewinn · Puffer am Ende · Ergebnisse und Summen prüfen · Am Ende: § 4 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Zeit einteilen · Die Bearbeitungszeit beträgt höchstens sechs Stunden. · § 18 Abs. 1 S. 3 DVStB · Zeit nach Umfang der Teile verteilen, Endzeiten an den Rand schreiben. · Teil überzogen? Stichworte, dann weiter. · Ich bin Hanno. Uhr im Blick!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Aufbau je Sachverhalt · Erst Handelsbilanz, dann Steuerbilanz. · § 5 Abs. 1 S. 1 EStG · Ansatz vor Bewertung, dann der Buchungssatz. · Gewinnauswirkung immer beziffern. · § 4 Abs. 1 S. 1 EStG · Immer dieselbe Reihenfolge."
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Ausführlich oder kurz? · Ausführlich · Echte Probleme und Wahlrechte · Abweichung HB und StB · Kurz · Richtig gebucht? Ein Satz genügt. · Unstreitiges nur feststellen · Wo liegen die Punkte?"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Gewinn laufend sammeln · Von Anfang an eine Tabelle führen: Sachverhalt, Mehr- oder Wenigergewinn. · Am Ende nur noch addieren statt suchen. · Folgeposten wie Steuerrückstellungen nur anpassen, wenn die Aufgabe es verlangt. · Spart Minuten!"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "Planen, sicher beginnen, Reserve lassen · Jeder Sachverhalt: HB, StB, Buchung, Gewinn · Plan vor dem ersten Satz, · Aufbau je Sachverhalt, · Gewinn laufend sammeln, · Puffer am Ende. · Speichern für Klausur 3 · Wie viel Puffer planst du? · Weiterwischen: § 4 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Bilanzsteuerrecht",
+          "text": "§ 4 Abs. 1 EStG (Auszug) · Gewinnauswirkung · Bilanzposten · Entnahme: + · Einlage: − · Jede Bilanzkorrektur · wirkt über das Betriebsvermögen auf den Gewinn"
+        }
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-aufb-erbst-v-31",
+      "caption": "Zwei Schenkungen, ein Freibetrag: der Rechenweg zur Zusammenrechnung nach § 14 ErbStG.\n\nFall: Bodo schenkt seinem Sohn Linus im März 2019 Wertpapiere für 300.000 € und im Mai 2026 weitere 250.000 €. Freibetrag Kind: 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG).\n\n1. Zusammenrechnen: Erwerbe von derselben Person innerhalb von zehn Jahren werden dem letzten Erwerb mit ihrem früheren Wert zugerechnet (§ 14 Abs. 1 S. 1 ErbStG): 250.000 € + 300.000 € = 550.000 €, abzüglich 400.000 € = 150.000 €.\n2. Steuer: 150.000 € × 11 % (Steuerklasse I, § 19 Abs. 1 ErbStG) = 16.500 €. Abzuziehen ist die Steuer, die für den Vorerwerb nach heutigen Verhältnissen und heutigem Recht zu erheben gewesen wäre (§ 14 Abs. 1 S. 2 ErbStG): 0 €.\n3. Gegenproben: Ist die tatsächlich gezahlte Steuer höher, wird sie abgezogen (§ 14 Abs. 1 S. 3 ErbStG); die Steuer für den letzten Erwerb allein darf nicht unterschritten werden (§ 14 Abs. 1 S. 4 ErbStG).\nErgebnis: 16.500 € Schenkungsteuer 2026.\n\nKlausurfalle: Wertsteigerungen der früheren Zuwendung spielen keine Rolle – es zählt der frühere Wert.\n\nZum Schluss: § 14 Abs. 1 ErbStG zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 14 Abs. 1 S. 1 bis 4 ErbStG",
+        "§ 16 Abs. 1 Nr. 2 ErbStG",
+        "§ 19 Abs. 1 ErbStG"
+      ],
+      "slug": "2026-11-07-b2",
+      "kurztitel": "Zusammenrechnung nach § 14 ErbStG: der Zehnjahreszeitraum",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Zwei Schenkungen, · ein Freibetrag · § 14 ErbStG · mit Zahlen · + Markier-Guide § 14 ErbStG · 2019 und 2026 · 550.000 € · Steuer?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Der Fall · Bodo schenkt seinem Sohn Linus im März 2019 Wertpapiere für 300.000 €. · Im Mai 2026 überweist er ihm weitere 250.000 €. · Freibetrag für ein Kind: 400.000 €. · § 16 Abs. 1 Nr. 2 ErbStG · Ich bin Linus."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Jetzt du · Jede Schenkung für sich läge unter dem Freibetrag. · Wie viel Schenkungsteuer fällt 2026 an? · Bodo hier: Zweimal unter 400.000 €!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Schritt 1: zusammenrechnen · § 14 Abs. 1 S. 1 ErbStG · § 16 Abs. 1 Nr. 2 ErbStG · Erwerb 2026 · 250.000 € · Erwerb 2019 · + 300.000 € · Summe · 550.000 € · Freibetrag · − 400.000 € · Steuerpflichtig · 150.000 €"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Schritt 2: Steuer · § 14 Abs. 1 S. 2 ErbStG · § 19 Abs. 1 ErbStG · 150.000 € × 11 %, Klasse I · 16.500 € · Steuer auf 2019, heute gerechnet · − 0 € · Schenkungsteuer 2026 · 16.500 € · Doch Steuer!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Schritt 3: Gegenproben · Abgezogen wird die höhere: fiktive oder tatsächlich gezahlte Steuer. · § 14 Abs. 1 S. 2, 3 ErbStG · Mindestens bleibt die Steuer auf den letzten Erwerb allein. · § 14 Abs. 1 S. 4 ErbStG · Hier beides 0 €: Es bleibt bei 16.500 €. · Also bleibt es?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Kursgewinn seit 2019? · Die Wertpapiere von 2019 sind heute 500.000 € wert. · Egal: Frühere Erwerbe zählen mit ihrem früheren Wert. · § 14 Abs. 1 S. 1 ErbStG · Damals zählt!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Linus zahlt 2026: 16.500 € · Der Freibetrag wirkt in zehn Jahren nur einmal · Zehn Jahre zusammenrechnen, · frühere Steuer abziehen, · nie unter den Letzterwerb. · Speichern für Klausur 1 · Prüfst du die Vorerwerbe? · Weiterwischen: § 14 ErbStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "§ 14 ErbStG (Auszug) · Zeitraum · Wert damals · Recht heute · Untergrenze · Höhere tatsächliche Steuer? · Dann diese abziehen: § 14 Abs. 1 S. 3 ErbStG"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks2-23-02",
+      "caption": "Aktien nach sechs Monaten mit Gewinn verkauft – ein privates Veräußerungsgeschäft? Nein. 📈\n\n▸ Einkünfte aus privaten Veräußerungsgeschäften sind den anderen Einkunftsarten zuzurechnen, soweit sie zu diesen gehören (§ 23 Abs. 2 EStG). § 23 ist Auffangnorm und wird zuletzt geprüft.\n▸ Aktien im Privatvermögen: Veräußerungsgewinn nach § 20 Abs. 2 S. 1 Nr. 1 EStG, grundsätzlich Abgeltungsteuer (§ 32d Abs. 1 EStG) – unabhängig von der Haltedauer.\n▸ Beteiligung von mindestens 1 % innerhalb der letzten fünf Jahre: Einkünfte aus Gewerbebetrieb nach § 17 Abs. 1 S. 1 EStG.\n▸ Für § 23 bleiben vor allem Grundstücke mit höchstens zehn Jahren zwischen Anschaffung und Veräußerung (§ 23 Abs. 1 S. 1 Nr. 1 EStG) und andere Wirtschaftsgüter mit höchstens einem Jahr, ohne Gegenstände des täglichen Gebrauchs (§ 23 Abs. 1 S. 1 Nr. 2 EStG).\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ],
+      "quellen": [
+        "§ 23 Abs. 1 S. 1 Nr. 1, 2, Abs. 2 EStG",
+        "§ 20 Abs. 2 S. 1 Nr. 1 EStG",
+        "§ 32d Abs. 1 EStG",
+        "§ 17 Abs. 1 S. 1 EStG"
+      ],
+      "slug": "2026-11-07-b3",
+      "kurztitel": "Warum § 23 EStG immer zuletzt geprüft wird",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Aktien verkauft: Spekulationsgewinn?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Auffangnorm"
+        },
+        {
+          "art": "schritt",
+          "titel": "Aktien: vorrangig"
+        },
+        {
+          "art": "schritt",
+          "titel": "Was für § 23 bleibt"
+        }
+      ],
+      "sprecher": [
+        "Aktien nach sechs Monaten mit Gewinn verkauft. Ein privates Veräußerungsgeschäft? Nein. Paragraf dreiundzwanzig kommt zuletzt.",
+        "Paragraf dreiundzwanzig ist eine Auffangnorm. Erfasst eine andere Einkunftsart den Verkauf, geht sie vor.",
+        "Aktien im Privatvermögen: Paragraf zwanzig, Abgeltungsteuer. Ab einem Prozent Beteiligung: Paragraf siebzehn.",
+        "Übrig bleiben vor allem Grundstücke binnen zehn Jahren und andere Gegenstände binnen eines Jahres.",
+        "Merke: Erst siebzehn und zwanzig, dreiundzwanzig zuletzt."
+      ],
+      "dauerS": 37.506,
+      "tempo": 1.0
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-reel-r11",
+      "caption": "Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨\n\nVortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 27 Abs. 1 DVStB",
+        "§ 28 Abs. 1 S. 2 DVStB"
+      ],
+      "slug": "2026-11-07-m1",
+      "kurztitel": "Eine schlechte Runde mitnehmen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Runde verhauen. Alles vorbei?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Gesondert bewertet"
+        },
+        {
+          "art": "schritt",
+          "titel": "Am Ende"
+        },
+        {
+          "art": "schritt",
+          "titel": "Platz 9"
+        }
+      ],
+      "sprecher": [
+        "Eine Runde verhauen. Ist jetzt alles vorbei? Nein.",
+        "Der Vortrag und jede Runde werden gesondert bewertet.",
+        "Am Ende zählt der Durchschnitt. Jede neue Runde ist eine neue Chance.",
+        "Eine schlechte Runde mitnehmen ist Platz neun der häufigsten Fehler.",
+        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+      ],
+      "dauerS": 26.507,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Pendlerpauschale",
+        "seit 2026?"
+      ],
+      "optionen": [
+        "Mehr erst ab km 21",
+        "0,38 € ab km 1",
+        "0,35 € je km"
+      ],
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Prüfungsfrage",
+        "Pendlerpauschale",
+        "seit 2026?",
+        "Mehr erst ab km 21",
+        "0,38 € ab km 1",
+        "0,35 € je km",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: 0,38 €",
+        "ab km 1"
+      ],
+      "optionen": [
+        "Mehr erst ab km 21",
+        "0,38 € ab km 1",
+        "0,35 € je km"
+      ],
+      "richtig": 1,
+      "text": "Je vollem Entfernungskilometer und Arbeitstag.",
+      "norm": "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Auflösung",
+        "B: 0,38 €",
+        "ab km 1",
+        "Mehr erst ab km 21",
+        "0,38 € ab km 1",
+        "0,35 € je km",
+        "Je vollem Entfernungskilometer und Arbeitstag.",
+        "§ 9 Abs. 1 S. 3 Nr. 4 S. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Bilanzklausur: so teilst du ein"
+      ],
+      "unter": "Klausurtechnik + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "Bilanzklausur: so teilst du ein",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-5-3",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Betrieb in eine",
+        "KG einbringen"
+      ],
+      "norm": "§ 24 Abs. 1 UmwStG",
+      "punkte": [
+        [
+          "Ganzer Betrieb gegen Mitunternehmerstellung: § 24, nicht § 6 Abs. 5 EStG.",
+          "ok",
+          "§ 24 Abs. 1 UmwStG"
+        ],
+        [
+          "Alle wesentlichen Betriebsgrundlagen müssen mit übergehen.",
+          "warn",
+          null
+        ]
+      ],
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Betrieb in eine",
+        "KG einbringen",
+        "§ 24 Abs. 1 UmwStG",
+        "Ganzer Betrieb gegen Mitunternehmerstellung: § 24, nicht § 6 Abs. 5 EStG.",
+        "§ 24 Abs. 1 UmwStG",
+        "Alle wesentlichen Betriebsgrundlagen müssen mit übergehen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Zwei Schenkungen, ein Freibetrag"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Zwei Schenkungen, ein Freibetrag",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Die letzten Minuten:",
+        "Ernte einfahren"
+      ],
+      "punkte": [
+        [
+          "Offene Teile in Stichworten lösen.",
+          "ok",
+          null
+        ],
+        [
+          "Ergebnisse je Teilaufgabe hervorheben.",
+          "ok",
+          null
+        ],
+        [
+          "Blätter nummerieren, Namen prüfen.",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:hourglass",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Die letzten Minuten:",
+        "Ernte einfahren",
+        "Offene Teile in Stichworten lösen.",
+        "Ergebnisse je Teilaufgabe hervorheben.",
+        "Blätter nummerieren, Namen prüfen."
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b06-6",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Leistender aus",
+        "dem Ausland?"
+      ],
+      "punkte": [
+        [
+          "Werklieferung oder sonstige Leistung im Inland.",
+          "ok",
+          "§ 13b Abs. 2 Nr. 1 UStG"
+        ],
+        [
+          "Unternehmer als Empfänger schuldet die Steuer.",
+          "ok",
+          "§ 13b Abs. 5 S. 1 UStG"
+        ],
+        [
+          "Inländische Betriebsstätte beteiligt? Dann nicht.",
+          "warn",
+          "§ 13b Abs. 7 UStG"
+        ]
+      ],
+      "icon": "tabler:world",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Leistender aus",
+        "dem Ausland?",
+        "Werklieferung oder sonstige Leistung im Inland.",
+        "§ 13b Abs. 2 Nr. 1 UStG",
+        "Unternehmer als Empfänger schuldet die Steuer.",
+        "§ 13b Abs. 5 S. 1 UStG",
+        "Inländische Betriebsstätte beteiligt? Dann nicht.",
+        "§ 13b Abs. 7 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Aktien verkauft: Spekulationsgewinn?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Neu im Feed",
+        "Aktien verkauft: Spekulationsgewinn?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks1-ein-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Splitting nach",
+        "dem Tod?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Ein ",
+            null
+          ],
+          [
+            "Folgejahr",
+            "a"
+          ],
+          [
+            " noch",
+            null
+          ]
+        ],
+        [
+          [
+            "Splitting",
+            "b"
+          ],
+          [
+            " für Verwitwete,",
+            null
+          ]
+        ],
+        [
+          [
+            "dann ",
+            null
+          ],
+          [
+            "Grundtarif",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 32a Abs. 6 S. 1 Nr. 1 EStG",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Merksatz",
+        "Splitting nach",
+        "dem Tod?",
+        "Ein Folgejahr noch",
+        "Splitting für Verwitwete,",
+        "dann Grundtarif.",
+        "§ 32a Abs. 6 S. 1 Nr. 1 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-10-27T08:11:03Z",
+    "pfad": "vorproduktion/2026-11-07/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
