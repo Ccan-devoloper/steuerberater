@@ -93,9 +93,17 @@ jobs:
           print(" ".join(tage))
           EOF
           echo "Zu rendern: $(cat tage.txt)"
+          # Ein fehlerhafter Tag darf die übrigen nicht blockieren: fertige Tage werden trotzdem gepusht,
+          # der Lauf wird erst im Schritt „Fehlgeschlagene Tage melden“ rot.
+          : > fehler.txt
           for d in $(cat tage.txt); do
             (cd .ia && git sparse-checkout add "/vorproduktion/$d/")
-            python3 social/op/tag.py "$d" --ziel .ia
+            if ! python3 social/op/tag.py "$d" --ziel .ia; then
+              echo "$d" >> fehler.txt
+              echo "::error::Open-Peeps-Render für $d fehlgeschlagen"
+              (cd .ia && git checkout -q -- vorproduktion && git clean -fdq vorproduktion)
+              continue
+            fi
             (cd .ia && git add -A vorproduktion && git -c user.name=instagram-bot -c user.email=41898282+github-actions[bot]@users.noreply.github.com \
               commit -q -m "Vorproduktion $d: Open-Peeps-Render" || true)
           done
@@ -122,3 +130,10 @@ jobs:
             sleep $((i * 5))
           done
           exit 1
+
+      - name: Fehlgeschlagene Tage melden
+        run: |
+          if [ -s fehler.txt ]; then
+            echo "::error::Nicht gerendert (laufen im alten Stil): $(tr '\n' ' ' < fehler.txt)"
+            exit 1
+          fi
