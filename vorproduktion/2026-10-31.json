@@ -1,0 +1,749 @@
+{
+  "datum": "2026-10-31",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "klausurtechnik",
+        "themaId": "gewst-klausurtechnik-2026-10-31",
+        "themaTitel": "Gewerbesteuer-Teil: Punkte holen mit Tabelle, Normen und Folgerechnung",
+        "fach": "gewst",
+        "klausur": 2
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "rechenweg",
+        "themaId": "persg-aufb-persg-melzer-3-1",
+        "themaTitel": "Was ändert der Verkauf eines Anteils steuerlich für beide Seiten?",
+        "fach": "persg",
+        "klausur": 3
+      },
+      {
+        "slot": "b3",
+        "zeit": "17:30",
+        "format": "reel",
+        "themaId": "erbst-modul-erbst-539",
+        "themaTitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "m1",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "lead-reel-r4",
+        "themaTitel": "Aus dem Kopf statt aus dem Gesetz",
+        "fach": null,
+        "klausur": 0
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "ust-quiz-ust-5"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "ust-quiz-ust-5"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "istr-aufb-istr-gh-5-05"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "bilanz-karte-k3-21"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "ao-modul-ao-323"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "klausurtechnik",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-klausurtechnik-2026-10-31",
+      "caption": "Klausurtechnik für den Gewerbesteuer-Teil der Ertragsteuerklausur: Punkte sichern in 4 Zügen.\n\n1. Tabelle vor dem Rechnen anlegen: Gewinn, Hinzurechnungen, Kürzungen, Gewerbeverlust, Messbetrag (§§ 7 bis 11 GewStG).\n2. In jede Zeile die genaue Norm, bei Mieten und Pachten mit dem Anteil: ein Fünftel bei beweglichen, die Hälfte bei unbeweglichen Wirtschaftsgütern (§ 8 Nr. 1 Buchst. d, e GewStG).\n3. Folgefehler: Mit dem eigenen Zwischenergebnis sauber weiterrechnen, statt die Tabelle abzubrechen.\n4. Abschluss: auf volle 100 € abrunden, Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 GewStG), Messzahl 3,5 % (§ 11 Abs. 2 GewStG), Hebesatz (§ 16 Abs. 1 GewStG).\n\nMarkieren in § 8 Nr. 1 GewStG: die Anteile je Buchstabe, die 200.000 € und das Viertel – Markierungen sind in der Textausgabe erlaubt, Anmerkungen nicht.\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#gewerbesteuer"
+      ],
+      "quellen": [
+        "§§ 7 bis 11 GewStG",
+        "§ 8 Nr. 1 GewStG",
+        "§ 11 Abs. 1 S. 3, Abs. 2 GewStG",
+        "§ 16 Abs. 1 GewStG"
+      ],
+      "slug": "2026-10-31-b1",
+      "kurztitel": "Gewerbesteuer-Teil: Punkte holen mit Tabelle, Normen und Folgerechnung",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurtechnik",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurtechnik",
+          "text": "Klausurtechnik · GewSt-Teil: · Punkte sichern · §§ 7 bis 11 GewStG · in 4 Zügen · + Markier-Guide § 8 GewStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Der Plan · Tabelle vorbereiten · noch vor dem Lesen der Details · Jede Zeile mit Norm · die Norm bringt den Punkt · Zwischenergebnis stehen lassen · Folgefehler kosten meist nur einmal · Abschluss rechnen · Abrundung, Freibetrag, Messzahl · Am Ende: § 8 GewStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "1 · Die Tabelle · Zeilen vorab anlegen: Gewinn, Hinzurechnungen, Kürzungen, Verlust, Messbetrag. · §§ 7 bis 11 GewStG · Dann nur noch Beträge eintragen. · Spart Zeit und zeigt dem Korrektor sofort den Aufbau. · Zora, Korrektorin"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "2 · Norm in jede Zeile · Nicht nur „Zinsen 50.000 €“, sondern der genaue Buchstabe. · § 8 Nr. 1 Buchst. a GewStG · Bei Mieten den Anteil nennen: ein Fünftel beweglich, die Hälfte unbeweglich. · § 8 Nr. 1 Buchst. d, e GewStG · Wer nur rechnet, verschenkt Punkte. · Ich suche Normen"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "3 · Folgefehler nutzen · Ist ein Betrag oben falsch, rechne trotzdem sauber weiter. · Folgerichtige Schritte bringen in aller Regel weiter Punkte. · Nie mitten in der Tabelle aufhören, um oben zu suchen. · Okke: Echt jetzt?"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "4 · Der Abschluss · Auf volle 100 € abrunden. · § 11 Abs. 1 S. 3 GewStG · Freibetrag 24.500 € nur für natürliche Personen und Personengesellschaften. · § 11 Abs. 1 S. 3 Nr. 1 GewStG · Mal 3,5 %, dann der Hebesatz. · § 11 Abs. 2, § 16 Abs. 1 GewStG · Das sind Punkte!"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "Tabelle vorbereitet: Aufbau steht in Minuten · Norm je Zeile, Folgefehler sauber weiterrechnen · Tabelle zuerst · Norm in jede Zeile · Folgefehler weiterrechnen · Speichern für Klausur 2 · Wie viel Zeit planst du dafür? · Weiterwischen: § 8 GewStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Gewerbesteuer",
+          "text": "§ 8 GewStG Hinzurechnungen (Auszug) · am Ende ein Viertel · erst die Anteile · Freibetrag · Reihenfolge: Anteile, Summe, · minus 200.000 €, dann ein Viertel"
+        }
+      ]
+    },
+    "b2": {
+      "format": "rechenweg",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-3-1",
+      "caption": "Rechenweg Personengesellschaften: Verkauf eines KG-Anteils – was passiert auf beiden Seiten?\n\nVeräußerer (58): Veräußerungsgewinn = Preis nach Abzug der Veräußerungskosten minus Kapitalkonto (§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG): 500.000 € − 5.000 € − 300.000 € = 195.000 €.\nFreibetrag 45.000 € ab 55, nur einmal, abgeschmolzen um den Betrag über 136.000 € (§ 16 Abs. 4 S. 1–3 EStG): 195.000 € − 136.000 € = 59.000 €, Freibetrag 0 €.\nErmäßigter Steuersatz auf Antrag möglich (§ 34 Abs. 3 S. 1 EStG). Gewerbesteuer fällt nicht an, soweit der Gewinn auf eine natürliche Person als unmittelbar beteiligten Mitunternehmer entfällt (§ 7 S. 2 Nr. 2 GewStG).\n\nErwerberin: Der Mehrpreis von 200.000 € wird in einer Ergänzungsbilanz aktiviert (Halle 150.000 €, Firmenwert 50.000 €) und fortgeschrieben; Firmenwert über 15 Jahre (§ 7 Abs. 1 S. 3 EStG): 3.333 € im Jahr.\n\nZum Schluss: § 16 Abs. 2, 4 EStG zum Markieren. Speichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ],
+      "quellen": [
+        "§ 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1, Abs. 4 EStG",
+        "§ 34 Abs. 3 S. 1 EStG",
+        "§ 7 S. 2 Nr. 2 GewStG",
+        "§ 7 Abs. 1 S. 3 EStG"
+      ],
+      "slug": "2026-10-31-b2",
+      "kurztitel": "Was ändert der Verkauf eines Anteils steuerlich für beide Seiten?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · KG-Anteil · verkauft · § 16 Abs. 1 S. 1 Nr. 2 EStG · beide Seiten · + Markier-Guide § 16 EStG · Kaufpreis · 500.000 € · Kapital 300.000 €",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Der Fall · Jasper, 58, verkauft seinen Anteil an der Möwe KG an Smilla. · Preis: 500.000 €. Kapitalkonto: 300.000 €. Notar und Beratung: 5.000 €. · Vom Mehrpreis entfallen 150.000 € auf eine Halle, der Rest auf den Firmenwert. · Ich bin Jasper"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jetzt du · Wie hoch ist Jaspers Veräußerungsgewinn, und bekommt er den Freibetrag? · Was bucht Smilla in ihrer Ergänzungsbilanz? · Lösung: weiterwischen · Ich bin Smilla"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jasper: der Gewinn · § 16 Abs. 1 S. 1 Nr. 2, Abs. 2 S. 1 EStG · Kaufpreis · 500.000 € · Kapitalkonto · − 300.000 € · Veräußerungskosten · − 5.000 € · Veräußerungsgewinn · 195.000 € · Gewerbesteuer: keine bei natürlichen Personen"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jasper: Freibetrag? · Ab 55 einmal im Leben 45.000 €. · § 16 Abs. 4 S. 1, 2 EStG · Er schmilzt ab, soweit der Gewinn 136.000 € übersteigt: hier um 59.000 €. · § 16 Abs. 4 S. 3 EStG · Ergebnis: Freibetrag 0 €. · Alles weg?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jasper: was noch hilft · Ermäßigter Steuersatz auf Antrag, weil er älter als 55 ist. · § 34 Abs. 3 S. 1 EStG · Kein Gewerbeertrag, soweit der Gewinn auf eine natürliche Person entfällt. · § 7 S. 2 Nr. 2 GewStG · Den Freibetrag hat schon die Höhe des Gewinns aufgezehrt. · Kein Freibetrag?"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Smilla: Ergänzungsbilanz · Mehrpreis 200.000 €: Halle 150.000 €, Firmenwert 50.000 €. · Firmenwert über 15 Jahre: 3.333 € AfA im Jahr. · § 7 Abs. 1 S. 3 EStG · Alle Mehrwerte Jahr für Jahr fortschreiben. · Ich schreibe ab"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "Jasper: 195.000 € Gewinn, kein Freibetrag · Smilla: 200.000 € Mehrwerte in der Ergänzungsbilanz · Preis minus Kapitalkonto · minus Kosten · Rest: Ergänzungsbilanz · Speichern für Klausur 3 · Rechnest du beide Seiten? · Weiterwischen: § 16 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Personengesellschaften",
+          "text": "§ 16 EStG (Auszug) · Preis netto · Jasper ist 58 · Freibetrag · 195.000 €: weg · 195.000 € − 136.000 € = 59.000 € · Freibetrag 45.000 € ganz aufgezehrt"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-539",
+      "caption": "Grabpflege in der Erbschaftsteuer: 18,6-fach oder 9,3-fach? ⚖️\n\n▸ Immerwährende Nutzungen oder Leistungen: 18,6-faches des Jahreswerts; Nutzungen oder Leistungen von unbestimmter Dauer: vorbehaltlich § 14 BewG das 9,3-fache (§ 13 Abs. 2 BewG).\n▸ Die Kosten der üblichen Grabpflege sind Nachlassverbindlichkeiten und werden mit ihrem Kapitalwert für eine unbestimmte Dauer angesetzt (§ 10 Abs. 5 Nr. 3 S. 1 ErbStG). Beispiel: 600 € im Jahr × 9,3 = 5.580 €.\n▸ Ohne Nachweis gibt es für Bestattung, Grabdenkmal, Grabpflege und Abwicklungskosten insgesamt pauschal 15.000 € (§ 10 Abs. 5 Nr. 3 S. 2 ErbStG). Höhere Kosten nur mit Nachweis.\n\nSpeichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 13 Abs. 2 BewG",
+        "§ 14 BewG",
+        "§ 10 Abs. 5 Nr. 3 ErbStG"
+      ],
+      "slug": "2026-10-31-b3",
+      "kurztitel": "§ 13 Abs. 2 BewG: immerwährende und unbestimmte Dauer; Grabpflege",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "knall",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Grabpflege: 18,6-fach?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Immerwährend"
+        },
+        {
+          "art": "schritt",
+          "titel": "Unbestimmte Dauer"
+        },
+        {
+          "art": "schritt",
+          "titel": "Grabpflege rechnen"
+        }
+      ],
+      "sprecher": [
+        "Grabpflege für alle Zeit. Also achtzehn Komma sechs mal der Jahreswert? Falsch!",
+        "Immerwährend heißt: kein Ende absehbar, etwa eine ewige Rente. Dann gilt das Achtzehn-Komma-sechs-fache.",
+        "Unbestimmte Dauer heißt: Das Ende kommt sicher, nur wann, ist offen. Dann gilt das Neun-Komma-drei-fache.",
+        "Übliche Grabpflege bewertet das Gesetz für unbestimmte Dauer. Sechshundert Euro im Jahr ergeben fünftausendfünfhundertachtzig Euro.",
+        "Merke: Grabpflege mal neun Komma drei. Oder die Pauschale."
+      ],
+      "dauerS": 38.33,
+      "tempo": 1.0
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-reel-r4",
+      "caption": "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 169 Abs. 2 S. 1 Nr. 2 AO",
+        "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+      ],
+      "slug": "2026-10-31-m1",
+      "kurztitel": "Aus dem Kopf statt aus dem Gesetz",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "kippen",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "„Ich glaube, vier Jahre.“"
+        },
+        {
+          "art": "schritt",
+          "titel": "Die Frage"
+        },
+        {
+          "art": "schritt",
+          "titel": "Erst die Norm"
+        },
+        {
+          "art": "schritt",
+          "titel": "Dann der Beginn"
+        }
+      ],
+      "sprecher": [
+        "Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Und merkst es nicht mal.",
+        "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?",
+        "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung.",
+        "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig.",
+        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+      ],
+      "dauerS": 31.588,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "B2B-Rechnung: 19 %",
+        "statt 7 %. Was folgt?"
+      ],
+      "optionen": [
+        "Nur 7 % geschuldet",
+        "Mehrbetrag geschuldet",
+        "Rechnung unwirksam"
+      ],
+      "pairId": "ust-quiz-ust-5",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Prüfungsfrage",
+        "B2B-Rechnung: 19 %",
+        "statt 7 %. Was folgt?",
+        "Nur 7 % geschuldet",
+        "Mehrbetrag geschuldet",
+        "Rechnung unwirksam",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-quiz-ust-5",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: Mehrbetrag",
+        "geschuldet"
+      ],
+      "optionen": [
+        "Nur 7 % geschuldet",
+        "Mehrbetrag geschuldet",
+        "Rechnung unwirksam"
+      ],
+      "richtig": 1,
+      "text": "Bis zur Berichtigung. Der Kunde zieht nur die gesetzlich geschuldeten 7 % als Vorsteuer ab.",
+      "norm": "§ 14c Abs. 1 S. 1 UStG",
+      "pairId": "ust-quiz-ust-5",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Auflösung",
+        "B: Mehrbetrag",
+        "geschuldet",
+        "Nur 7 % geschuldet",
+        "Mehrbetrag geschuldet",
+        "Rechnung unwirksam",
+        "Bis zur Berichtigung. Der Kunde zieht nur die gesetzlich geschuldeten 7 % als Vorsteuer ab.",
+        "§ 14c Abs. 1 S. 1 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "GewSt-Teil: Punkte sichern"
+      ],
+      "unter": "Klausurtechnik + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Neu im Feed",
+        "GewSt-Teil: Punkte sichern",
+        "Klausurtechnik + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-5-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Wegzug mit",
+        "GmbH-Anteil"
+      ],
+      "norm": "§ 6 AStG",
+      "punkte": [
+        [
+          "Wie ein Verkauf zum gemeinen Wert, wenn 7 der letzten 12 Jahre unbeschränkt steuerpflichtig.",
+          "warn",
+          "§ 6 Abs. 1, 2 S. 1 AStG"
+        ],
+        [
+          "Auf Antrag sieben Jahresraten.",
+          "ok",
+          "§ 6 Abs. 4 S. 1 AStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Norm des Tages",
+        "Wegzug mit",
+        "GmbH-Anteil",
+        "§ 6 AStG",
+        "Wie ein Verkauf zum gemeinen Wert, wenn 7 der letzten 12 Jahre unbeschränkt steuerpflichtig.",
+        "§ 6 Abs. 1, 2 S. 1 AStG",
+        "Auf Antrag sieben Jahresraten.",
+        "§ 6 Abs. 4 S. 1 AStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "KG-Anteil verkauft"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Neu im Feed",
+        "KG-Anteil verkauft",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Hängen geblieben?",
+        "Annahme treffen"
+      ],
+      "punkte": [
+        [
+          "Kurz schreiben, wovon du ausgehst",
+          "ok",
+          null
+        ],
+        [
+          "Dann konsequent weiterlösen",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:route",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Hängen geblieben?",
+        "Annahme treffen",
+        "Kurz schreiben, wovon du ausgehst",
+        "Dann konsequent weiterlösen"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "bilanz",
+      "klausur": 3,
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-karte-k3-21",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "vGA technisch",
+        "umsetzen"
+      ],
+      "punkte": [
+        [
+          "Außerbilanziell hinzurechnen",
+          "ok",
+          "§ 8 Abs. 3 S. 2 KStG"
+        ],
+        [
+          "USt darauf nicht doppelt",
+          "warn",
+          "R 8.6 KStR"
+        ]
+      ],
+      "icon": "tabler:arrows-split",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Klausurtipp",
+        "vGA technisch",
+        "umsetzen",
+        "Außerbilanziell hinzurechnen",
+        "§ 8 Abs. 3 S. 2 KStG",
+        "USt darauf nicht doppelt",
+        "R 8.6 KStR"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Grabpflege: 18,6-fach?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Grabpflege: 18,6-fach?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "ao",
+      "klausur": 1,
+      "fachLabel": "Abgabenordnung",
+      "themaId": "ao-modul-ao-323",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Wer darf",
+        "Einspruch einlegen?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Nur wer ",
+            null
+          ],
+          [
+            "geltend macht,",
+            "a"
+          ]
+        ],
+        [
+          [
+            "selbst ",
+            null
+          ],
+          [
+            "beschwert",
+            "b"
+          ],
+          [
+            " zu sein",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 350 AO",
+      "sichtbareTexte": [
+        "Abgabenordnung",
+        "Merksatz",
+        "Wer darf",
+        "Einspruch einlegen?",
+        "Nur wer geltend macht,",
+        "selbst beschwert zu sein",
+        "§ 350 AO"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-10-27T07:59:17Z",
+    "pfad": "vorproduktion/2026-10-31/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
