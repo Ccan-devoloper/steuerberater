@@ -220,7 +220,7 @@ y = ueberschrift("Du schaffst das.", H - 160, "Zum Schluss")
 y = absatz("Die meisten Kommissionen prüfen auf Bestehen. Wer strukturiert antwortet, Normen nennt "
            "und nach einer schwachen Runde einfach weitermacht, hat beste Chancen.",
            M, y - 10, 280, groesse=12.5, farbe=GRAU, zeile=18)
-y = absatz("In den nächsten Tagen bekommst du per E-Mail weitere Hilfen: Kurzvortrag-Themen mit "
+y = absatz("In den nächsten Wochen bekommst du per E-Mail weitere Hilfen: Kurzvortrag-Themen mit "
            "Lösungsskizze, echte Prüferfragen und eine Checkliste für den Prüfungstag.",
            M, y - 14, 280, groesse=12.5, farbe=GRAU, zeile=18)
 c.setFont("Hand", 26); c.setFillColor(LILA); c.drawString(M, y - 40, "Viel Erfolg! Dein examenscampus")
