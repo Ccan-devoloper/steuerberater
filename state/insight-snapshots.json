@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-26T22:52:59.292Z",
+  "stand": "2026-10-27T05:44:52.285Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -42768,6 +42768,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 95.2,
+          "reach": 69,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -43126,6 +43138,18 @@
           "likes": 4,
           "comments": 0,
           "total_interactions": 7,
+          "follows": 2,
+          "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 90.2,
+          "reach": 96,
+          "saved": 4,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 8,
           "follows": 2,
           "profile_visits": 3
         }
@@ -45678,6 +45702,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 41.2,
+          "reach": 100,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -46147,6 +46183,20 @@
           "ig_reels_avg_watch_time": 8791,
           "ig_reels_video_view_total_time": 12844920,
           "reels_skip_rate": 56.2
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 35.7,
+          "reach": 1573,
+          "saved": 21,
+          "shares": 3,
+          "likes": 17,
+          "comments": 0,
+          "total_interactions": 41,
+          "views": 1844,
+          "ig_reels_avg_watch_time": 8805,
+          "ig_reels_video_view_total_time": 13860197,
+          "reels_skip_rate": 56.5
         }
       ]
     },
@@ -46226,6 +46276,23 @@
           "navigation_tap_forward": 91,
           "navigation_tap_exit": 26,
           "navigation_swipe_forward": 15
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 23.4,
+          "reach": 127,
+          "views": 173,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 147,
+          "navigation_tap_back": 11,
+          "navigation_tap_forward": 94,
+          "navigation_tap_exit": 26,
+          "navigation_swipe_forward": 16
         }
       ]
     },
@@ -46309,6 +46376,23 @@
           "navigation_tap_exit": 23,
           "navigation_tap_forward": 75,
           "navigation_tap_back": 16
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 23.4,
+          "reach": 117,
+          "views": 148,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 132,
+          "navigation_swipe_forward": 15,
+          "navigation_tap_exit": 23,
+          "navigation_tap_forward": 78,
+          "navigation_tap_back": 16
         }
       ]
     },
@@ -46391,6 +46475,23 @@
           "navigation_tap_back": 5,
           "navigation_tap_exit": 15,
           "navigation_tap_forward": 76
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 22.2,
+          "reach": 99,
+          "views": 124,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 1,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 108,
+          "navigation_tap_forward": 78,
+          "navigation_tap_exit": 16,
+          "navigation_tap_back": 5,
+          "navigation_swipe_forward": 9
         }
       ]
     },
@@ -46475,6 +46576,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 22.2,
+          "reach": 76,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -46538,6 +46651,23 @@
           "profile_activity": 0,
           "navigation": 93,
           "navigation_tap_forward": 65,
+          "navigation_tap_exit": 19,
+          "navigation_tap_back": 5,
+          "navigation_swipe_forward": 4
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 18.5,
+          "reach": 89,
+          "views": 102,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 95,
+          "navigation_tap_forward": 67,
           "navigation_tap_exit": 19,
           "navigation_tap_back": 5,
           "navigation_swipe_forward": 4
@@ -46605,6 +46735,23 @@
           "navigation_tap_forward": 65,
           "navigation_tap_back": 2,
           "navigation_swipe_forward": 9
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 17.2,
+          "reach": 83,
+          "views": 102,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 95,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 67,
+          "navigation_tap_exit": 16
         }
       ]
     },
@@ -46665,6 +46812,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 17.2,
+          "reach": 83,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -46711,6 +46870,23 @@
           "navigation_tap_forward": 49,
           "navigation_tap_exit": 8,
           "navigation_swipe_forward": 1
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 16.1,
+          "reach": 77,
+          "views": 93,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 82,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 68
         }
       ]
     },
@@ -46760,6 +46936,23 @@
           "navigation_swipe_forward": 7,
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 51
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 13.9,
+          "reach": 68,
+          "views": 85,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 79,
+          "navigation_tap_forward": 55,
+          "navigation_tap_exit": 9,
+          "navigation_swipe_forward": 8,
+          "navigation_tap_back": 7
         }
       ]
     },
@@ -46814,6 +47007,20 @@
           "ig_reels_avg_watch_time": 7771,
           "ig_reels_video_view_total_time": 2245881,
           "reels_skip_rate": 63.5
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 13.2,
+          "reach": 370,
+          "saved": 0,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "views": 450,
+          "ig_reels_avg_watch_time": 7337,
+          "ig_reels_video_view_total_time": 2736792,
+          "reels_skip_rate": 62.9
         }
       ]
     },
@@ -46845,6 +47052,23 @@
           "navigation_tap_forward": 23,
           "navigation_tap_exit": 4,
           "navigation_tap_back": 1
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 11.7,
+          "reach": 64,
+          "views": 68,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 66,
+          "navigation_tap_back": 1,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 52,
+          "navigation_swipe_forward": 4
         }
       ]
     },
@@ -46876,6 +47100,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 18
+        },
+        {
+          "stand": "2026-10-27T05:44:33.826Z",
+          "alterStunden": 11.4,
+          "reach": 59,
+          "views": 64,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 58,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_exit": 9,
+          "navigation_tap_forward": 43,
+          "navigation_tap_back": 2
         }
       ]
     },
@@ -46916,6 +47157,20 @@
           "ig_reels_avg_watch_time": 9095,
           "ig_reels_video_view_total_time": 2173902,
           "reels_skip_rate": 64.3
+        },
+        {
+          "stand": "2026-10-27T05:44:46.717Z",
+          "alterStunden": 11.7,
+          "reach": 247,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 348,
+          "ig_reels_avg_watch_time": 9209,
+          "ig_reels_video_view_total_time": 2394381,
+          "reels_skip_rate": 64.2
         }
       ]
     }
@@ -49569,6 +49824,11 @@
     {
       "stand": "2026-10-26T22:52:59.292Z",
       "follower": 264,
+      "medien": 154
+    },
+    {
+      "stand": "2026-10-27T05:44:52.285Z",
+      "follower": 265,
       "medien": 154
     }
   ]
