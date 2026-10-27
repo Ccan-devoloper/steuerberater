@@ -15859,11 +15859,33 @@
       "thema": null,
       "fach": "ao",
       "titel": "Korrekturpärchen nach Ablauf der regulären…"
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "b1",
+      "medienId": "18129490087858296",
+      "veroeffentlicht": "2026-10-27T08:30:48.471Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 9,
+      "format": "rechenweg",
+      "thema": "ust-aufb-ust-m-b05-6",
+      "fach": "ust",
+      "klausur": 1,
+      "titel": "Rechenweg",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 17,
-    "ust": 13,
+    "ust": 14,
     "kst": 13,
     "ao": 26,
     "bilanz": 24,
