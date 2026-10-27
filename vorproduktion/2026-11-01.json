@@ -1,0 +1,755 @@
+{
+  "datum": "2026-11-01",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "wochenrueckblick",
+        "themaId": "wochenrueckblick-alle-2026-44",
+        "themaTitel": "Alle Klausuren: sechs Themen der Woche 44",
+        "fach": null,
+        "klausur": 0
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "pruefungsfrage",
+        "themaId": "ust-aufb-ust-m-b05-8",
+        "themaTitel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
+        "fach": "ust",
+        "klausur": 1
+      },
+      {
+        "slot": "b3",
+        "zeit": "17:30",
+        "format": "reel",
+        "themaId": "kst-aufb-kst-ks-3-03",
+        "themaTitel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "m1",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "lead-reel-r5",
+        "themaTitel": "Aktuelles nicht auf dem Schirm",
+        "fach": null,
+        "klausur": 0
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "gewst-quiz-2026-11-01"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "gewst-quiz-2026-11-01"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "persg-aufb-persg-melzer-3-2"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "ust-karte-ust-6"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "est-aufb-est-ks1-vv-05"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "wochenrueckblick",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": "wochenrueckblick-alle-2026-44",
+      "caption": "Wochenrückblick KW 44: je Klausur die Themen der Woche.\n\nKlausur 1 (AO, USt, ErbSt)\n1. Beratung eines Unternehmers aus dem EU-Ausland an ein Unternehmen im Inland: Ort am Sitz des Empfängers (§ 3a Abs. 2 S. 1 UStG); die Steuer schuldet der Leistungsempfänger (§ 13b Abs. 1, 5 S. 1 UStG), Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG).\n2. Härteausgleich: Liegt der Erwerb knapp über einer Wertgrenze, wird der Steuermehrbetrag bei Sätzen bis 30 % nur aus der Hälfte, darüber aus drei Vierteln des übersteigenden Betrags erhoben (§ 19 Abs. 3 ErbStG).\n\nKlausur 2 (Ertragsteuern)\n3. Grundstück gegen Ausgleichszahlung an Geschwister übertragen: teilentgeltlicher Erwerb, aufgeteilt im Verhältnis Entgelt zu Verkehrswert (BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847).\n4. Ganzer Betrieb gegen Abfindung, die das Kapitalkonto nicht übersteigt: unentgeltlich, Buchwertfortführung (§ 6 Abs. 3 S. 1 EStG); darüber Veräußerungsgewinn (§ 16 Abs. 1, 2 EStG).\n\nKlausur 3 (Buchführung und Bilanzwesen)\n5. Wer einen Mitunternehmeranteil verschenkt und funktional wesentliches Sonderbetriebsvermögen zurückbehält, erhält keinen Buchwert; der Anteil gilt als aufgegeben (§ 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG).\n6. Überentnahmen: 6 % sind als Schuldzinsen nicht abziehbar, höchstens die Schuldzinsen des Jahres abzüglich 2.050 €; Zinsen für Anlagevermögen bleiben abziehbar (§ 4 Abs. 4a S. 2–5 EStG).\n\nZum Schluss: § 6 Abs. 3 S. 1 EStG zum Markieren. Speichern für alle drei Klausuren 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#steuerrecht"
+      ],
+      "quellen": [
+        "§ 3a Abs. 2 S. 1 UStG",
+        "§ 13b Abs. 1, 5 S. 1 UStG",
+        "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+        "§ 19 Abs. 3 ErbStG",
+        "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+        "§ 6 Abs. 3 S. 1 EStG",
+        "§ 16 Abs. 1, 2, 3 S. 1 EStG",
+        "§ 4 Abs. 4a S. 2–5 EStG"
+      ],
+      "slug": "2026-11-01-b1",
+      "kurztitel": "Alle Klausuren: sechs Themen der Woche 44",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Wochenrückblick",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Wochenrückblick",
+          "text": "Wochenrückblick · Alle 3 · Klausuren · 6 Themen · + Markier-Guide § 6 EStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in 3 Klausuren · Klausur 1 · USt und ErbSt · §§ 3a, 13b UStG · § 19 ErbStG · B2B-Ort und Härteausgleich · Klausur 2 · Einkommensteuer · § 6 Abs. 3 EStG · GrS 4-6/89 · Teilentgelt: privat und betrieblich · Klausur 3 · Bilanz und PersG · § 6 Abs. 3, § 4 Abs. 4a EStG · Sonderbetriebsvermögen und Überentnahme · Am Ende: § 6 Abs. 3 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 1 · USt und ErbSt · B2B-Beratung aus dem EU-Ausland: Ort beim Empfänger, er schuldet die Steuer. · § 3a Abs. 2 S. 1, § 13b Abs. 1, 5 S. 1 UStG · Härteausgleich: Die Mehrsteuer darf bei Sätzen bis 30 % die Hälfte des Betrags über der Grenze nicht übersteigen. · § 19 Abs. 3 ErbStG · Grenze prüfen!"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 2 · Einkommensteuer · Haus gegen Ausgleich an Geschwister: teils entgeltlich, aufteilen nach Verkehrswert. · BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847 · Betrieb gegen Abfindung bis zum Kapitalkonto: unentgeltlich, Buchwerte fortführen. · § 6 Abs. 3 S. 1 EStG · Privat oder Betrieb?"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Klausur 3 · Bilanz und PersG · Anteil verschenkt, wesentliches Sonderbetriebsvermögen behalten: kein Buchwert, der ganze Anteil gilt als aufgegeben. · § 6 Abs. 3 S. 1, § 16 Abs. 3 S. 1 EStG · Überentnahme: 6 % nicht abziehbar, höchstens Schuldzinsen minus 2.050 €. · § 4 Abs. 4a S. 3, 4 EStG · Das kostet!"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "Die Woche in allen 3 Klausuren · Verfahren · Ertragsteuern · Bilanz · Ort beim Empfänger, · Härte halbiert den Sprung, · privat wird aufgeteilt, · Sonder-BV muss mit. · Speichern für alle 3 Klausuren · Welche Klausur wackelt noch? · Weiterwischen: § 6 Abs. 3 EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Alle Klausuren",
+          "text": "§ 6 EStG (Auszug) · ganzer Anteil · Buchwert · Bedingung · Sonderbetriebsvermögen · gehört zum Anteil"
+        }
+      ]
+    },
+    "b2": {
+      "format": "pruefungsfrage",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b05-8",
+      "caption": "Prüfungsfrage Umsatzsteuer: Ein Architekt aus Rosenheim plant für eine Münchner GmbH eine Halle in Kufstein. Wo ist der Ort?\n\n▸ Die B2B-Grundregel (Sitz des Empfängers) gilt nur vorbehaltlich der Absätze 3 bis 8 (§ 3a Abs. 2 S. 1 UStG).\n▸ Sonstige Leistungen im Zusammenhang mit einem Grundstück werden dort ausgeführt, wo das Grundstück liegt (§ 3a Abs. 3 Nr. 1 S. 1 UStG). Dazu gehören Leistungen zur Vorbereitung, Koordinierung oder Ausführung von Bauleistungen, also auch Architektenleistungen (§ 3a Abs. 3 Nr. 1 S. 2 Buchst. c UStG).\n▸ Halle in Kufstein: Ort Österreich, in Deutschland nicht steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n▸ Läge die Halle im Inland, wäre die Leistung dort steuerbar und steuerpflichtig: 19 % von 40.000 € = 7.600 € (§ 12 Abs. 1 UStG).\n\nZum Schluss: § 3a Abs. 3 UStG zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umsatzsteuer"
+      ],
+      "quellen": [
+        "§ 3a Abs. 2 S. 1 UStG",
+        "§ 3a Abs. 3 Nr. 1 UStG",
+        "§ 1 Abs. 1 Nr. 1 UStG",
+        "§ 12 Abs. 1 UStG"
+      ],
+      "slug": "2026-11-01-b2",
+      "kurztitel": "Grundstücksbezogene Leistungen: Das Grundstück bestimmt den Ort",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfungsfrage",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfungsfrage",
+          "text": "Prüfungsfrage · Halle in Tirol: · welcher Ort? · § 3a Abs. 3 Nr. 1 UStG · Lage zählt · + Markier-Guide § 3a UStG · Architektenhonorar · 40.000 € · netto",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Der Sachverhalt · Luca ist Architekt in Rosenheim. · Für die Feldmann GmbH aus München plant er eine Lagerhalle in Kufstein, Österreich. · Honorar: 40.000 € netto. · Ich bin Luca"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Jetzt du · Wo ist Lucas Leistung ausgeführt? · Muss er deutsche Umsatzsteuer ausweisen? · Lösung: weiterwischen · Leni, Prüferin"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Der schnelle Fehler · „Kunde Unternehmer in München, also Ort Inland.“ · § 3a Abs. 2 S. 1 UStG · Die B2B-Regel gilt nur vorbehaltlich der Absätze 3 bis 8. · Oh, Absatz 3!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Lösung: der Ort · Planung einer Halle dient der Vorbereitung von Bauleistungen. · § 3a Abs. 3 Nr. 1 S. 2 Buchst. c UStG · Ort ist, wo das Grundstück liegt: Kufstein. · § 3a Abs. 3 Nr. 1 S. 1 UStG · In Deutschland nicht steuerbar. · § 1 Abs. 1 Nr. 1 UStG · Das Grundstück zählt"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Und wenn die Halle in Bayern läge? · Halle Kufstein · Ort Österreich · § 3a Abs. 3 Nr. 1 UStG · keine deutsche USt · Halle Landshut · Ort Inland, steuerpflichtig · § 3a Abs. 3 Nr. 1 UStG · Luca weist 7.600 € USt aus · § 12 Abs. 1 UStG · Lage entscheidet"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Kufstein: nicht steuerbar · Landshut: 19 % = 7.600 € · Absatz 3 vor Absatz 2 · Erst die Sonderregeln · Grundstück schlägt Kunde · Lage = Ort · Speichern für Klausur 1 · Hättest du München gesagt? · Weiterwischen: § 3a UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "§ 3a UStG (Auszug) · Vorrang · Lageort · Architekten · Prüfreihenfolge: · Absatz 3 bis 8 vor Absatz 2"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-aufb-kst-ks-3-03",
+      "caption": "Gesellschafter verzichtet auf sein Darlehen: Was ist Einlage, was Ertrag? 💶\n\n▸ Verzichtet ein Gesellschafter aus gesellschaftsrechtlichen Gründen auf eine Forderung gegen seine GmbH, liegt eine verdeckte Einlage nur in Höhe des werthaltigen Teils, also des Teilwerts der Forderung, vor (BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307).\n▸ Verdeckte Einlagen erhöhen das Einkommen nicht (§ 8 Abs. 3 S. 3 KStG). Beispiel: Teilwert 30.000 € = Einlage.\n▸ Der nicht werthaltige Teil (70.000 €) führt bei der GmbH durch den Wegfall der Verbindlichkeit zu einem steuerpflichtigen Ertrag.\n\nSpeichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 8 Abs. 3 S. 3 KStG",
+        "BFH vom 09.06.1997, GrS 1/94, BStBl II 1998, 307"
+      ],
+      "slug": "2026-11-01-b3",
+      "kurztitel": "Gesellschafter verzichtet auf Darlehen: Was ist Einlage, was Ertrag?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "merksatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Darlehen erlassen: alles Einlage?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der werthaltige Teil"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Rest"
+        },
+        {
+          "art": "schritt",
+          "titel": "Warum?"
+        }
+      ],
+      "sprecher": [
+        "Gesellschafter verzichtet auf hunderttausend Euro Darlehen. Alles Einlage? Nur der Teil, der noch etwas wert ist.",
+        "Ist die Forderung nur noch dreißigtausend Euro wert, ist genau das eine verdeckte Einlage. Sie erhöht das Einkommen nicht.",
+        "Die übrigen siebzigtausend Euro sind bei der GmbH steuerpflichtiger Ertrag.",
+        "Denn eingelegt wird mit dem Teilwert der Forderung, nicht mit dem Nennwert. So hat es der Große Senat entschieden.",
+        "Merke: Werthaltiger Teil ist Einlage, der Rest ist Gewinn."
+      ],
+      "dauerS": 33.987,
+      "tempo": 1.0
+    },
+    "m1": {
+      "format": "reel",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-reel-r5",
+      "caption": "Fehler Nr. 3 der Mündlichen: Aktuelles nicht auf dem Schirm. 📰\n\n„Was ist neu?“ ist ein Klassiker. Beispiel E-Rechnung: Seit 2025 müssen inländische Unternehmer E-Rechnungen empfangen können; für die Ausstellung gelten Übergangsregeln bis Ende 2026 bzw. – bei höchstens 800.000 € Vorjahresumsatz – bis Ende 2027 (§ 27 Abs. 38 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 27 Abs. 38 UStG"
+      ],
+      "slug": "2026-11-01-m1",
+      "kurztitel": "Aktuelles nicht auf dem Schirm",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "„Was ist neu?“ Und du schweigst?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Der Einstieg"
+        },
+        {
+          "art": "schritt",
+          "titel": "Zum Beispiel"
+        },
+        {
+          "art": "schritt",
+          "titel": "Ausstellen"
+        }
+      ],
+      "sprecher": [
+        "Was ist neu? Diese Frage ist ein Klassiker in der Mündlichen. Und Platz drei der häufigsten Fehler.",
+        "Viele Prüfer starten so: Jeder nennt eine aktuelle Neuerung.",
+        "Zum Beispiel die E-Rechnung. Seit zweitausendfünfundzwanzig müssen Unternehmer sie empfangen können.",
+        "Für das Ausstellen gibt es Übergangsfristen bis Ende zweitausendsiebenundzwanzig.",
+        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+      ],
+      "dauerS": 31.866,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-quiz-2026-11-01",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Eigenes Betriebsgrundstück:",
+        "Kürzung seit 2025?"
+      ],
+      "optionen": [
+        "1,2 % des Einheitswerts",
+        "Die gebuchte Grundsteuer",
+        "0,11 % des Grundsteuerwerts"
+      ],
+      "pairId": "gewst-quiz-2026-11-01",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Prüfungsfrage",
+        "Eigenes Betriebsgrundstück:",
+        "Kürzung seit 2025?",
+        "1,2 % des Einheitswerts",
+        "Die gebuchte Grundsteuer",
+        "0,11 % des Grundsteuerwerts",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "gewst",
+      "klausur": 2,
+      "fachLabel": "Gewerbesteuer",
+      "themaId": "gewst-quiz-2026-11-01",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: die gebuchte",
+        "Grundsteuer"
+      ],
+      "optionen": [
+        "1,2 % des Einheitswerts",
+        "Die gebuchte Grundsteuer",
+        "0,11 % des Grundsteuerwerts"
+      ],
+      "richtig": 1,
+      "text": "Ab Erhebungszeitraum 2025 kürzt man die als Betriebsausgabe erfasste Grundsteuer.",
+      "norm": "§ 9 Nr. 1 S. 1, § 36 Abs. 4b GewStG",
+      "pairId": "gewst-quiz-2026-11-01",
+      "sichtbareTexte": [
+        "Gewerbesteuer",
+        "Auflösung",
+        "B: die gebuchte",
+        "Grundsteuer",
+        "1,2 % des Einheitswerts",
+        "Die gebuchte Grundsteuer",
+        "0,11 % des Grundsteuerwerts",
+        "Ab Erhebungszeitraum 2025 kürzt man die als Betriebsausgabe erfasste Grundsteuer.",
+        "§ 9 Nr. 1 S. 1, § 36 Abs. 4b GewStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Alle Klausuren",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Woche kompakt: alle 3 Klausuren"
+      ],
+      "unter": "Wochenrückblick + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Alle Klausuren",
+        "Neu im Feed",
+        "Woche kompakt: alle 3 Klausuren",
+        "Wochenrückblick + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-aufb-persg-melzer-3-2",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Ergänzungsbilanz:",
+        "wie abschreiben?"
+      ],
+      "norm": "§ 7 EStG",
+      "punkte": [
+        [
+          "Mehrwerte über die Restnutzungsdauer ab dem Erwerb.",
+          "ok",
+          "BFH vom 20.11.2014, IV R 1/11"
+        ],
+        [
+          "Methode wählt der Erwerber wie ein Käufer.",
+          "ok",
+          "BMF vom 19.12.2016"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Norm des Tages",
+        "Ergänzungsbilanz:",
+        "wie abschreiben?",
+        "§ 7 EStG",
+        "Mehrwerte über die Restnutzungsdauer ab dem Erwerb.",
+        "BFH vom 20.11.2014, IV R 1/11",
+        "Methode wählt der Erwerber wie ein Käufer.",
+        "BMF vom 19.12.2016"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Halle in Tirol: Ort?"
+      ],
+      "unter": "Prüfungsfrage + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Halle in Tirol: Ort?",
+        "Prüfungsfrage + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Sonntag:",
+        "Woche abhaken"
+      ],
+      "punkte": [
+        [
+          "Drei Themen der Woche aus dem Kopf aufschreiben",
+          "ok",
+          null
+        ],
+        [
+          "Lücken für Montag notieren",
+          "ok",
+          null
+        ]
+      ],
+      "icon": "tabler:list-check",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Sonntag:",
+        "Woche abhaken",
+        "Drei Themen der Woche aus dem Kopf aufschreiben",
+        "Lücken für Montag notieren"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "ust",
+      "klausur": 1,
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-karte-ust-6",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Leistung an",
+        "Gesellschafter"
+      ],
+      "punkte": [
+        [
+          "Mindestens Einkaufspreis oder Ausgaben",
+          "warn",
+          "§ 10 Abs. 5 Nr. 1 UStG"
+        ],
+        [
+          "Höchstens marktübliches Entgelt",
+          "ok",
+          "§ 10 Abs. 5 UStG"
+        ]
+      ],
+      "icon": "tabler:scale",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Klausurtipp",
+        "Leistung an",
+        "Gesellschafter",
+        "Mindestens Einkaufspreis oder Ausgaben",
+        "§ 10 Abs. 5 Nr. 1 UStG",
+        "Höchstens marktübliches Entgelt",
+        "§ 10 Abs. 5 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Darlehen erlassen"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Darlehen erlassen",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "est",
+      "klausur": 2,
+      "fachLabel": "Einkommensteuer",
+      "themaId": "est-aufb-est-ks1-vv-05",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Renovierung",
+        "nach dem Kauf"
+      ],
+      "zeilen": [
+        [
+          [
+            "Binnen ",
+            null
+          ],
+          [
+            "drei Jahren",
+            "a"
+          ]
+        ],
+        [
+          [
+            "über ",
+            null
+          ],
+          [
+            "15 %",
+            "b"
+          ],
+          [
+            " der Kosten",
+            null
+          ]
+        ],
+        [
+          [
+            "des Gebäudes, netto:",
+            null
+          ]
+        ],
+        [
+          [
+            "Herstellungskosten",
+            "c"
+          ]
+        ]
+      ],
+      "norm": "§ 6 Abs. 1 Nr. 1a S. 1 EStG",
+      "sichtbareTexte": [
+        "Einkommensteuer",
+        "Merksatz",
+        "Renovierung",
+        "nach dem Kauf",
+        "Binnen drei Jahren",
+        "über 15 % der Kosten",
+        "des Gebäudes, netto:",
+        "Herstellungskosten",
+        "§ 6 Abs. 1 Nr. 1a S. 1 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-10-27T08:00:57Z",
+    "pfad": "vorproduktion/2026-11-01/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
