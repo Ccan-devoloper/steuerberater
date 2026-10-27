@@ -1,100 +1,87 @@
 {
-  "format": "spickzettel",
-  "fach": "ao",
+  "format": "rechenweg",
+  "fach": "ust",
   "klausur": 1,
-  "fachLabel": "Abgabenordnung",
-  "themaId": "ao-modul-ao-332",
-  "slug": "2026-10-27-b1",
-  "folien": [
-    {
-      "art": "titel",
-      "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": false,
-      "icon": "dokument"
-    },
-    {
-      "art": "text",
-      "titel": "Kern der Prüfung",
-      "punkte": [
-        "§ 129 AO und § 173a AO: Die Frist läuft insoweit mindestens bis ein Jahr nach Bekanntgabe des fehlerhaften Bescheids (§ 171 Abs. 2 S. 1 und 2 AO).",
-        "Ein vor Fristablauf gestellter Änderungsantrag hemmt nach § 171 Abs. 3 AO, ein Einspruch nach § 171 Abs. 3a AO – jeweils bis zur unanfechtbaren Entscheidung."
-      ]
-    },
-    {
-      "art": "schritte",
-      "titel": "So baust du die Prüfung auf",
-      "schritte": [
-        {
-          "titel": "1. Schritt",
-          "text": "Reguläre Festsetzungsfrist lückenlos berechnen."
-        },
-        {
-          "titel": "2. Schritt",
-          "text": "Ist sie abgelaufen: Korrekturnorm bestimmen und prüfen, ob die dazugehörige Ablaufhemmung noch läuft."
-        }
-      ]
-    },
-    {
-      "art": "merke",
-      "titel": "Merksatz",
-      "text": "Nach Fristablauf hilft eine Korrekturnorm nur zusammen mit ihrer Ablaufhemmung. Fehlt sie, ist jede Änderung ausgeschlossen – auch die Berichtigung nach § 129 AO (§ 169 Abs. 1 AO)."
-    },
-    {
-      "art": "cta",
-      "titel": "Für die nächste Klausur",
-      "punkte": [
-        "Tragende Normen im Gesetz markieren",
-        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-        "Typischen Fehler vor der nächsten Klausur kontrollieren"
-      ],
-      "icons": [
-        "dokument",
-        "lupe",
-        "warnung"
-      ]
-    }
-  ],
-  "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Jede Korrekturnorm braucht ihre Ablaufhemmung – § 129 und § 173a AO mit § 171 Abs. 2, Antrag mit Abs. 3, Einspruch mit Abs. 3a AO.",
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-aufb-ust-m-b05-6",
+  "caption": "Rechenweg Umsatzsteuer: Beratung aus Utrecht für eine GmbH in Kiel – wo ist der Ort, wer zahlt?\n\n1. Vorrangige Sonderregeln ausschließen (§ 3a Abs. 3 bis 8, §§ 3b, 3e UStG).\n2. Empfänger ist Unternehmer und bezieht für sein Unternehmen (§ 3a Abs. 2 S. 1 UStG).\n3. Ort: dort, von wo aus der Empfänger sein Unternehmen betreibt, bei Leistung an eine Betriebsstätte deren Ort (§ 3a Abs. 2 S. 1, 2 UStG). Hier Kiel, also steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n4. Die GmbH schuldet die Steuer als Leistungsempfängerin (§ 13b Abs. 1, Abs. 5 S. 1 UStG): 19 % von 10.000 € = 1.900 €. Entstehung mit Ablauf des Voranmeldungszeitraums der Leistung (§ 13b Abs. 1 UStG).\n5. Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG), Zahllast 0 €.\n\nAndersherum (Kiel berät Utrecht): Ort in den Niederlanden, Rechnung mit Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 1 UStG), Angabe in der Zusammenfassenden Meldung (§ 18a Abs. 2 UStG).\n\nZum Schluss: § 3a Abs. 2, § 13b Abs. 1, 5 UStG zum Markieren. Speichern für Klausur 1 📌",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#abgabenordnung"
+    "#umsatzsteuer"
   ],
-  "kurztitel": "Korrekturpärchen nach Ablauf der regulären…",
-  "coverBadge": "Spickzettel",
-  "coverBildAuslassen": true,
   "quellen": [
-    "§ 171 Abs. 2 S. 1 AO",
-    "§ 129 AO",
-    "§ 171 Abs. 2 S. 2 AO",
-    "§ 173a AO",
-    "§ 171 Abs. 3 AO",
-    "§ 164 Abs. 2 AO",
-    "§ 173 AO",
-    "§ 171 Abs. 3a AO",
-    "§ 350 AO",
-    "Themenpool: ao-modul-ao-332"
+    "§ 3a Abs. 2, 3 UStG",
+    "§ 1 Abs. 1 Nr. 1 UStG",
+    "§ 13b Abs. 1, 5 S. 1 UStG",
+    "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+    "§ 14a Abs. 1 UStG",
+    "§ 18a Abs. 2 UStG"
   ],
-  "coverRegie": {
-    "thema": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-    "goldenReferences": [
-      "assets/referenzen/charaktere/02-vera-kranz.jpg",
-      "assets/referenzen/charaktere/07-dario-costa.jpg"
-    ],
-    "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-    "verpackung": "Handlung in Prüfungsreihenfolge",
-    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-    "bilddatei": "2026-10-27-b1-ao-modul-ao-332-cover.png",
-    "status": "Bild ausstehend"
-  },
+  "slug": "2026-10-27-b1",
+  "kurztitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
   "regelGeprueft": true,
   "manuellGeprueft": false,
   "freigabeBetreiber": true,
   "vorproduktionStatus": "live-freigegeben",
   "textProviderKostenUsd": 0,
   "faktencheckProviderKostenUsd": 0,
-  "bildStatus": "bewusst-ausgelassen",
-  "liveVorrangAktiv": true
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Rechenweg",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Rechenweg",
+      "text": "Rechenweg · Beratung aus · Utrecht: Wer zahlt? · § 3a Abs. 2 UStG · Ort und Steuer · + Markier-Guide §§ 3a, 13b UStG · Rechnung · 10.000 € · netto, B2B",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der Rechenweg · Sonderregel? · § 3a Abs. 3 bis 8 UStG · Empfänger ist Unternehmer · § 3a Abs. 2 S. 1 UStG · Ort: Sitz des Empfängers · § 3a Abs. 2 S. 1, 2 UStG · Wer schuldet die Steuer? · § 13b Abs. 1, 5 S. 1 UStG · Vorsteuer gegenrechnen · § 15 Abs. 1 S. 1 Nr. 4 UStG · Am Ende: §§ 3a, 13b UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Der Fall · Lotte führt eine Designagentur in Utrecht. · Im Mai 2026 berät sie die Ketelsen GmbH in Kiel zu einer Kampagne. Honorar: 10.000 €. · Die GmbH gibt ihre deutsche USt-IdNr. an. · Ich bin Lotte!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Jetzt du · Wo ist die Beratung ausgeführt? · Wer schuldet wie viel Umsatzsteuer, und was zahlt die GmbH am Ende? · Lösung: weiterwischen · Tjark, Buchhaltung Ketelsen"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Schritt 1 bis 3: der Ort · Keine Sonderregel: kein Grundstück, keine Beförderung, keine Veranstaltung. · § 3a Abs. 3 UStG · Die GmbH ist Unternehmerin und bezieht für ihr Unternehmen. · § 3a Abs. 2 S. 1 UStG · Ort: Kiel, also Inland. Steuerbar und steuerpflichtig. · § 1 Abs. 1 Nr. 1 UStG · Der Kunde zählt"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Schritt 4 und 5: rechnen · § 13b Abs. 1, 5 S. 1 UStG · § 15 Abs. 1 S. 1 Nr. 4 UStG · Honorar netto · 10.000 € · USt 19 %, Schuldnerin: GmbH · 1.900 € · Vorsteuer der GmbH · − 1.900 € · Zahllast · 0 € · Voller Vorsteuerabzug: Es bleibt bei null"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Wann entsteht die Steuer? · Nicht erst mit der Rechnung! · Mit Ablauf des Voranmeldungszeitraums der Leistung, hier also Ende Mai. · § 13b Abs. 1 UStG · Gleicher Zeitraum für den Vorsteuerabzug. · § 15 Abs. 1 S. 1 Nr. 4 UStG · Rechnung kommt im Juli"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "Und andersherum? · Utrecht berät Kiel · Ort Inland, GmbH schuldet · § 13b Abs. 5 S. 1 UStG · Lotte weist keine deutsche USt aus · Kiel berät Utrecht · Ort Niederlande, in Deutschland nicht steuerbar · § 3a Abs. 2 S. 1 UStG · Rechnungshinweis und Zusammenfassende Meldung · § 14a Abs. 1, § 18a Abs. 2 UStG · Spiegelbildlich!"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "1.900 € USt − 1.900 € Vorsteuer = 0 € · Die GmbH schuldet und zieht ab · B2B: Ort beim Kunden · der Kunde schuldet · Stichtag: Ende des Monats · Speichern für Klausur 1 · Prüfst du Sonderregeln zuerst? · Weiterwischen: §§ 3a, 13b UStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umsatzsteuer",
+      "text": "§§ 3a, 13b UStG (Auszug) · Sonderregeln zuerst! · Sitz des Kunden · Ende Mai · GmbH schuldet · Zahllast: 1.900 € − 1.900 € = 0 € · Vorsteuer im selben Monat"
+    }
+  ]
 }
