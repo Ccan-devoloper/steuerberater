@@ -15656,19 +15656,19 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 425,
+        "reach": 465,
         "saved": 0,
         "shares": 1,
-        "likes": 3,
+        "likes": 4,
         "comments": 0,
-        "total_interactions": 4,
-        "views": 516,
-        "ig_reels_avg_watch_time": 7601,
-        "ig_reels_video_view_total_time": 3253315,
-        "reels_skip_rate": 62.6
+        "total_interactions": 5,
+        "views": 567,
+        "ig_reels_avg_watch_time": 7773,
+        "ig_reels_video_view_total_time": 3637907,
+        "reels_skip_rate": 61.9
       },
-      "insightsStand": "2026-10-27T10:56:47.662Z",
-      "insightsAlterStunden": 18.4
+      "insightsStand": "2026-10-27T15:58:09.510Z",
+      "insightsAlterStunden": 23.5
     },
     {
       "datum": "2026-10-26",
@@ -15692,19 +15692,19 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 288,
+        "reach": 344,
         "saved": 1,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 1,
-        "views": 400,
-        "ig_reels_avg_watch_time": 9357,
-        "ig_reels_video_view_total_time": 2835272,
-        "reels_skip_rate": 61.7
+        "views": 471,
+        "ig_reels_avg_watch_time": 9522,
+        "ig_reels_video_view_total_time": 3466108,
+        "reels_skip_rate": 61.2
       },
-      "insightsStand": "2026-10-27T10:56:47.662Z",
-      "insightsAlterStunden": 16.9
+      "insightsStand": "2026-10-27T15:58:09.510Z",
+      "insightsAlterStunden": 22
     },
     {
       "datum": "2026-10-26",
@@ -15781,22 +15781,22 @@
       "fach": "persg",
       "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
       "insights": {
-        "reach": 57,
-        "views": 77,
+        "reach": 74,
+        "views": 102,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 69,
-        "navigation_tap_exit": 10,
-        "navigation_tap_forward": 46,
-        "navigation_swipe_forward": 6,
-        "navigation_tap_back": 7
+        "navigation": 86,
+        "navigation_tap_back": 8,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_forward": 58,
+        "navigation_tap_exit": 13
       },
-      "insightsStand": "2026-10-27T11:45:20.779Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-27T15:58:05.478Z",
+      "insightsAlterStunden": 9.8
     },
     {
       "datum": "2026-10-27",
@@ -15810,22 +15810,22 @@
       "fach": "persg",
       "titel": "§ 6b EStG",
       "insights": {
-        "reach": 50,
-        "views": 64,
+        "reach": 68,
+        "views": 88,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 59,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_exit": 7,
-        "navigation_tap_back": 8,
-        "navigation_tap_forward": 42
+        "navigation": 80,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 10,
+        "navigation_tap_back": 10,
+        "navigation_tap_forward": 55
       },
-      "insightsStand": "2026-10-27T11:45:20.779Z",
-      "insightsAlterStunden": 5.6
+      "insightsStand": "2026-10-27T15:58:05.478Z",
+      "insightsAlterStunden": 9.8
     },
     {
       "datum": "2026-10-27",
@@ -15883,7 +15883,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 49,
+        "reach": 59,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -15892,8 +15892,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-27T12:30:20.081Z",
-      "insightsAlterStunden": 4
+      "insightsStand": "2026-10-27T15:58:09.510Z",
+      "insightsAlterStunden": 7.5
     },
     {
       "datum": "2026-10-27",
@@ -15949,7 +15949,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 44,
+        "reach": 62,
         "saved": 2,
         "shares": 2,
         "likes": 1,
@@ -15958,8 +15958,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-27T13:43:58.536Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-27T15:58:09.510Z",
+      "insightsAlterStunden": 3.5
     },
     {
       "datum": "2026-10-27",
