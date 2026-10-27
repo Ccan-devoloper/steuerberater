@@ -106,6 +106,12 @@
         "zeit": "19:20",
         "art": "merksatz",
         "themaId": "umwst-aufb-umw-5-06"
+      },
+      {
+        "slot": "s10",
+        "zeit": "16:00",
+        "art": "teaser",
+        "beitragSlot": "m1"
       }
     ]
   },
@@ -763,11 +769,40 @@
           "text": "So holst du dir das PDF · Profil von examenscampus öffnen · Link in der Bio antippen · E-Mail eintragen – das PDF kommt sofort · Kostenlos, jederzeit abbestellbar · Gratis!"
         }
       ]
+    },
+    "s10": {
+      "slot": "s10",
+      "art": "teaser",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": null,
+      "beitragSlot": "m1",
+      "quellen": null,
+      "ueberzeile": "Neu im Feed",
+      "titel": [
+        "Diese 10 Fehler",
+        "kosten dich die Mündliche"
+      ],
+      "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
+      "sichtbareTexte": [
+        "Mündliche Prüfung",
+        "Neu im Feed",
+        "Diese 10 Fehler",
+        "kosten dich die Mündliche",
+        "Gratis-PDF mit allen 10 Fehlern: Link in Bio"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T07:52:44Z",
+    "erzeugtAm": "2026-10-27T11:50:26Z",
     "pfad": "vorproduktion/2026-10-27/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
