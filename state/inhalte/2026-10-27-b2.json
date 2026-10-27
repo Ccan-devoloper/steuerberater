@@ -1,95 +1,87 @@
 {
-  "format": "spickzettel",
-  "fach": "est",
+  "format": "minifall",
+  "fach": "istr",
   "klausur": 2,
-  "fachLabel": "Einkommensteuer",
-  "themaId": "est-aufb-est-ks2-ea-03",
-  "slug": "2026-10-27-b2",
-  "folien": [
-    {
-      "art": "titel",
-      "titel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true
-    },
-    {
-      "art": "text",
-      "titel": "Kern der Prüfung",
-      "punkte": [
-        "Die Teilung des Nachlasses ohne Ausgleichszahlung ist unentgeltlich; übernimmt ein Erbe mehr Nachlassschulden, als seiner Quote entspricht, entstehen dadurch keine Anschaffungskosten.",
-        "Gelangen die wesentlichen Betriebsgrundlagen in Betriebsvermögen der Erben, sind nach § 16 Abs. 3 Satz 2 EStG die Buchwerte fortzuführen."
-      ]
-    },
-    {
-      "art": "schritte",
-      "titel": "So baust du die Prüfung auf",
-      "schritte": [
-        {
-          "titel": "1. Schritt",
-          "text": "Feststellen, dass die Erbengemeinschaft mit dem Erbfall zur Mitunternehmerschaft geworden ist."
-        },
-        {
-          "titel": "2. Schritt",
-          "text": "Klären, wohin die wesentlichen Betriebsgrundlagen bei der Teilung gelangen: in ein Betriebsvermögen oder ins Privatvermögen."
-        }
-      ]
-    },
-    {
-      "art": "merke",
-      "titel": "Merksatz",
-      "text": "Ohne Ausgleichszahlung kein Entgelt. Gehen die Wirtschaftsgüter ins Betriebsvermögen der Erben, bleibt es beim Buchwert (§ 16 Abs. 3 S. 2 EStG, Sperrfrist nach S. 3). Gehen sie ins Privatvermögen, entsteht ein Aufgabegewinn nach § 16 Abs. 3 S. 1 EStG, ggf. begünstigt nach § 34 EStG."
-    },
-    {
-      "art": "cta",
-      "titel": "Für die nächste Klausur",
-      "punkte": [
-        "Tragende Normen im Gesetz markieren",
-        "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-        "Typischen Fehler vor der nächsten Klausur kontrollieren"
-      ],
-      "icons": [
-        "dokument",
-        "lupe",
-        "warnung"
-      ]
-    }
-  ],
-  "caption": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn? Buchwerte, wenn die Wirtschaftsgüter ins Betriebsvermögen der Erben gelangen – ein Aufgabegewinn, wenn sie im Privatvermögen landen.",
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-30",
+  "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer (Sparer-Pauschbetrag schon verbraucht, § 20 Abs. 9 EStG). DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: §§ 32b, 32d Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
   "hashtags": [
     "#steuerberaterexamen",
     "#steuerberaterprüfung",
     "#examensvorbereitung",
-    "#einkommensteuer"
+    "#internationalessteuerrecht"
   ],
-  "kurztitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn",
-  "coverBadge": "Spickzettel",
-  "coverBildAuslassen": true,
   "quellen": [
-    "§ 16 Abs. 3 EStG",
-    "§ 16 Abs. 1 Satz 1 Nr. 2 EStG",
-    "§ 16 Abs. 2 EStG",
-    "§ 6 Abs. 3 EStG",
-    "§ 34 EStG",
-    "Themenpool: est-aufb-est-ks2-ea-03"
+    "Art. 6 Abs. 1 OECD-MA",
+    "Art. 11 Abs. 1, 2 OECD-MA",
+    "Art. 23 A Abs. 1, 2 OECD-MA",
+    "§ 32b Abs. 1 S. 1 Nr. 3, S. 2 Nr. 3 EStG",
+    "§ 32d Abs. 5 EStG",
+    "§ 20 Abs. 9 EStG"
   ],
-  "coverRegie": {
-    "thema": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-    "goldenReferences": [
-      "assets/referenzen/charaktere/06-kalle.jpg",
-      "assets/referenzen/charaktere/01-holger-kranz.jpg"
-    ],
-    "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-    "verpackung": "Handlung in Prüfungsreihenfolge",
-    "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-    "bilddatei": "2026-10-27-b2-est-aufb-est-ks2-ea-03-cover.png",
-    "status": "Bild ausstehend"
-  },
+  "slug": "2026-10-27-b2",
+  "kurztitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
   "regelGeprueft": true,
   "manuellGeprueft": false,
   "freigabeBetreiber": true,
   "vorproduktionStatus": "live-freigegeben",
   "textProviderKostenUsd": 0,
   "faktencheckProviderKostenUsd": 0,
-  "bildStatus": "bewusst-ausgelassen",
-  "liveVorrangAktiv": true
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Freistellen oder · anrechnen? · Art. 23 A OECD-MA · 1 Fall, 2 Wege · + Markier-Guide §§ 32b, 32d EStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Der Sachverhalt · Nele wohnt in Bremen. In einem Drittstaat vermietet sie eine Wohnung: Überschuss 18.000 €. · Dort bekommt sie auch 2.000 € Zinsen, 10 % Quellensteuer sind einbehalten. Sparer-Pauschbetrag: verbraucht. · Das DBA folgt dem OECD-Muster mit Freistellungsmethode. · Doppelt zahlen?"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Jetzt du · Wie behandelt Deutschland die Miete? · Und wie die Zinsen samt Quellensteuer? · Lösung: weiterwischen · Ruben, Neles Berater"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Erst verteilen · Miete: Der Belegenheitsstaat darf besteuern. · Art. 6 Abs. 1 OECD-MA · Zinsen: Bremen darf besteuern, der Quellenstaat höchstens 10 %. · Art. 11 Abs. 1, 2 OECD-MA · Der Verteilungsartikel sagt noch nicht, wie Deutschland entlastet. · Dann die Methode"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: Miete · Deutschland stellt die 18.000 € frei. · Art. 23 A Abs. 1 OECD-MA · Sie erhöhen aber den Steuersatz auf das übrige Einkommen. · § 32b Abs. 1 S. 1 Nr. 3 EStG · Freistellung mit Progressionsvorbehalt · Frei, aber teurer"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Lösung: Zinsen · Art. 23 A Abs. 2 OECD-MA · § 32d Abs. 5 EStG · Zinsen · 2.000 € · Abgeltungsteuer 25 % · 500 € · Anrechnung 10 % · − 200 € · Deutsche Steuer · 300 € · Zinsen bleiben voll steuerpflichtig"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Wohnung in der EU? · Dann entfällt der Progressionsvorbehalt für die Miete. · § 32b Abs. 1 S. 2 Nr. 3 EStG · Er gilt nur, wenn die Wohnung in einem Drittstaat liegt. · Lage entscheidet!"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "Miete frei mit Progression · Zinsen 300 € Steuer · Verteilen, dann Methode, dann nationales Recht · Erst verteilen, · dann Methodenartikel, · dann § 32b oder § 32d. · Speichern für Klausur 2 · Endet deine DBA-Prüfung zu früh? · Weiterwischen: §§ 32b, 32d EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 32b EStG Progressionsvorbehalt (Auszug) · DBA-frei · nur der Satz · EU-Ausnahme · Weiterwischen: § 32d Abs. 5 EStG · Anrechnung bei Kapitalerträgen, höchstens 25 %"
+    },
+    {
+      "art": "text",
+      "titel": "Internationales Steuerrecht",
+      "text": "§ 32d EStG (Auszug) · nur gezahlte · Deckel · Nele: − 200 € · Nele: 500 € − 200 € = 300 € · 10 % Quellensteuer voll anrechenbar"
+    }
+  ]
 }
