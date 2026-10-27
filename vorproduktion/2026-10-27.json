@@ -4,50 +4,53 @@
   "freigabeBetreiber": true,
   "liveVerknuepft": false,
   "vorproduktionStatus": "live-freigegeben",
-  "layoutQuelle": "herrjurist",
+  "layoutQuelle": "open-peeps-variante-c",
   "semantikQuelle": "examenscampus",
   "kostenPolicy": {
     "textUndFaktencheckUsd": 0,
     "bildgenerierungUsd": 0,
     "providerKostenUsd": 0,
-    "piperOffline": true,
     "coverbilder": false,
-    "autorUsd": 0,
-    "faktencheckUsd": 0,
-    "sonstigeTextKiUsd": 0,
     "bildgenerierungErlaubt": false,
-    "bildkostenUsd": 0,
-    "bilderStatus": "icon-statt-providerbild"
+    "reelStimme": "elevenlabs-abo"
   },
   "plan": {
     "beitraege": [
       {
         "slot": "b1",
         "zeit": "08:30",
-        "format": "spickzettel",
-        "themaId": "ao-modul-ao-332",
-        "themaTitel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-        "fach": "ao",
+        "format": "rechenweg",
+        "themaId": "ust-aufb-ust-m-b05-6",
+        "themaTitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
+        "fach": "ust",
         "klausur": 1
       },
       {
         "slot": "b2",
         "zeit": "13:30",
-        "format": "spickzettel",
-        "themaId": "est-aufb-est-ks2-ea-03",
-        "themaTitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-        "fach": "est",
+        "format": "minifall",
+        "themaId": "istr-aufb-istr-gh-4-30",
+        "themaTitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
+        "fach": "istr",
         "klausur": 2
       },
       {
         "slot": "b3",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "persg-aufb-persg-melzer-2-7",
-        "themaTitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-        "fach": "persg",
-        "klausur": 3,
-        "lang": false
+        "themaId": "bilanz-formel-schuldzinsen",
+        "themaTitel": "Nicht abziehbare Schuldzinsen",
+        "fach": "bilanz",
+        "klausur": 3
+      },
+      {
+        "slot": "m1",
+        "zeit": "16:00",
+        "format": "pruefungsfrage",
+        "themaId": "lead-10-fehler",
+        "themaTitel": "Die 10 häufigsten Fehler der Mündlichen",
+        "fach": null,
+        "klausur": 0
       }
     ],
     "stories": [
@@ -55,636 +58,724 @@
         "slot": "s4",
         "zeit": "07:08",
         "art": "frage",
-        "themaId": "persg-quiz-k3-4"
+        "themaId": "bilanz-quiz-k3-11"
       },
       {
         "slot": "s5",
         "zeit": "07:08",
         "art": "antwort",
-        "themaId": "persg-quiz-k3-4"
+        "themaId": "bilanz-quiz-k3-11"
       },
       {
         "slot": "s1",
         "zeit": "08:30",
         "art": "teaser",
-        "beitragSlot": "b1",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b1"
       },
       {
         "slot": "s6",
         "zeit": "11:52",
         "art": "norm",
-        "themaId": "persg-modul-persg-2"
-      },
-      {
-        "slot": "s7",
-        "zeit": "14:35",
-        "art": "tipp",
-        "themaId": "umwst-aufb-umw-ks-3-03"
+        "themaId": "erbst-modul-erbst-503"
       },
       {
         "slot": "s2",
         "zeit": "13:30",
         "art": "teaser",
-        "beitragSlot": "b2",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:35",
+        "art": "tipp"
       },
       {
         "slot": "s8",
         "zeit": "16:58",
-        "art": "merksatz",
-        "themaId": "persg-modul-persg-1"
-      },
-      {
-        "slot": "s9",
-        "zeit": "19:20",
         "art": "tipp",
-        "themaId": "umwst-aufb-umw-2-25"
+        "themaId": "kst-karte-kst-10"
       },
       {
         "slot": "s3",
         "zeit": "19:00",
         "art": "teaser",
-        "beitragSlot": "b3",
-        "status": "aus-beitrag-ableitbar"
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:20",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-5-06"
       }
     ]
   },
   "inhalte": {
     "b1": {
-      "format": "spickzettel",
-      "fach": "ao",
+      "format": "rechenweg",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "themaId": "ao-modul-ao-332",
-      "slug": "2026-10-27-b1",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": false,
-          "icon": "dokument"
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "§ 129 AO und § 173a AO: Die Frist läuft insoweit mindestens bis ein Jahr nach Bekanntgabe des fehlerhaften Bescheids (§ 171 Abs. 2 S. 1 und 2 AO).",
-            "Ein vor Fristablauf gestellter Änderungsantrag hemmt nach § 171 Abs. 3 AO, ein Einspruch nach § 171 Abs. 3a AO – jeweils bis zur unanfechtbaren Entscheidung."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Reguläre Festsetzungsfrist lückenlos berechnen."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Ist sie abgelaufen: Korrekturnorm bestimmen und prüfen, ob die dazugehörige Ablaufhemmung noch läuft."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Nach Fristablauf hilft eine Korrekturnorm nur zusammen mit ihrer Ablaufhemmung. Fehlt sie, ist jede Änderung ausgeschlossen – auch die Berichtigung nach § 129 AO (§ 169 Abs. 1 AO)."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist: Jede Korrekturnorm braucht ihre Ablaufhemmung – § 129 und § 173a AO mit § 171 Abs. 2, Antrag mit Abs. 3, Einspruch mit Abs. 3a AO.",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": "ust-aufb-ust-m-b05-6",
+      "caption": "Rechenweg Umsatzsteuer: Beratung aus Utrecht für eine GmbH in Kiel – wo ist der Ort, wer zahlt?\n\n1. Vorrangige Sonderregeln ausschließen (§ 3a Abs. 3 bis 8, §§ 3b, 3e UStG).\n2. Empfänger ist Unternehmer und bezieht für sein Unternehmen (§ 3a Abs. 2 S. 1 UStG).\n3. Ort: dort, von wo aus der Empfänger sein Unternehmen betreibt, bei Leistung an eine Betriebsstätte deren Ort (§ 3a Abs. 2 S. 1, 2 UStG). Hier Kiel, also steuerbar (§ 1 Abs. 1 Nr. 1 UStG).\n4. Die GmbH schuldet die Steuer als Leistungsempfängerin (§ 13b Abs. 1, Abs. 5 S. 1 UStG): 19 % von 10.000 € = 1.900 €. Entstehung mit Ablauf des Voranmeldungszeitraums der Leistung (§ 13b Abs. 1 UStG).\n5. Vorsteuerabzug in gleicher Höhe (§ 15 Abs. 1 S. 1 Nr. 4 UStG), Zahllast 0 €.\n\nAndersherum (Kiel berät Utrecht): Ort in den Niederlanden, Rechnung mit Hinweis „Steuerschuldnerschaft des Leistungsempfängers“ (§ 14a Abs. 1 UStG), Angabe in der Zusammenfassenden Meldung (§ 18a Abs. 2 UStG).\n\nZum Schluss: § 3a Abs. 2, § 13b Abs. 1, 5 UStG zum Markieren. Speichern für Klausur 1 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#abgabenordnung"
+        "#umsatzsteuer"
       ],
-      "kurztitel": "Korrekturpärchen nach Ablauf der regulären…",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 171 Abs. 2 S. 1 AO",
-        "§ 129 AO",
-        "§ 171 Abs. 2 S. 2 AO",
-        "§ 173a AO",
-        "§ 171 Abs. 3 AO",
-        "§ 164 Abs. 2 AO",
-        "§ 173 AO",
-        "§ 171 Abs. 3a AO",
-        "§ 350 AO",
-        "Themenpool: ao-modul-ao-332"
+        "§ 3a Abs. 2, 3 UStG",
+        "§ 1 Abs. 1 Nr. 1 UStG",
+        "§ 13b Abs. 1, 5 S. 1 UStG",
+        "§ 15 Abs. 1 S. 1 Nr. 4 UStG",
+        "§ 14a Abs. 1 UStG",
+        "§ 18a Abs. 2 UStG"
       ],
-      "coverRegie": {
-        "thema": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/02-vera-kranz.jpg",
-          "assets/referenzen/charaktere/07-dario-costa.jpg"
-        ],
-        "szene": "Eine Figur jagt einem Brief durch ein zuschnappendes Zeittor nach; die andere zeigt den entscheidenden Zugang vor dem Schließen.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-27-b1-ao-modul-ao-332-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-27-b1",
+      "kurztitel": "B2B-Dienstleistung: Wo liegt der Ort nach § 3a Abs. 2 UStG?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Rechenweg",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Rechenweg",
+          "text": "Rechenweg · Beratung aus · Utrecht: Wer zahlt? · § 3a Abs. 2 UStG · Ort und Steuer · + Markier-Guide §§ 3a, 13b UStG · Rechnung · 10.000 € · netto, B2B",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Der Rechenweg · Sonderregel? · § 3a Abs. 3 bis 8 UStG · Empfänger ist Unternehmer · § 3a Abs. 2 S. 1 UStG · Ort: Sitz des Empfängers · § 3a Abs. 2 S. 1, 2 UStG · Wer schuldet die Steuer? · § 13b Abs. 1, 5 S. 1 UStG · Vorsteuer gegenrechnen · § 15 Abs. 1 S. 1 Nr. 4 UStG · Am Ende: §§ 3a, 13b UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Der Fall · Lotte führt eine Designagentur in Utrecht. · Im Mai 2026 berät sie die Ketelsen GmbH in Kiel zu einer Kampagne. Honorar: 10.000 €. · Die GmbH gibt ihre deutsche USt-IdNr. an. · Ich bin Lotte!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Jetzt du · Wo ist die Beratung ausgeführt? · Wer schuldet wie viel Umsatzsteuer, und was zahlt die GmbH am Ende? · Lösung: weiterwischen · Tjark, Buchhaltung Ketelsen"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Schritt 1 bis 3: der Ort · Keine Sonderregel: kein Grundstück, keine Beförderung, keine Veranstaltung. · § 3a Abs. 3 UStG · Die GmbH ist Unternehmerin und bezieht für ihr Unternehmen. · § 3a Abs. 2 S. 1 UStG · Ort: Kiel, also Inland. Steuerbar und steuerpflichtig. · § 1 Abs. 1 Nr. 1 UStG · Der Kunde zählt"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Schritt 4 und 5: rechnen · § 13b Abs. 1, 5 S. 1 UStG · § 15 Abs. 1 S. 1 Nr. 4 UStG · Honorar netto · 10.000 € · USt 19 %, Schuldnerin: GmbH · 1.900 € · Vorsteuer der GmbH · − 1.900 € · Zahllast · 0 € · Voller Vorsteuerabzug: Es bleibt bei null"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Wann entsteht die Steuer? · Nicht erst mit der Rechnung! · Mit Ablauf des Voranmeldungszeitraums der Leistung, hier also Ende Mai. · § 13b Abs. 1 UStG · Gleicher Zeitraum für den Vorsteuerabzug. · § 15 Abs. 1 S. 1 Nr. 4 UStG · Rechnung kommt im Juli"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "Und andersherum? · Utrecht berät Kiel · Ort Inland, GmbH schuldet · § 13b Abs. 5 S. 1 UStG · Lotte weist keine deutsche USt aus · Kiel berät Utrecht · Ort Niederlande, in Deutschland nicht steuerbar · § 3a Abs. 2 S. 1 UStG · Rechnungshinweis und Zusammenfassende Meldung · § 14a Abs. 1, § 18a Abs. 2 UStG · Spiegelbildlich!"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "1.900 € USt − 1.900 € Vorsteuer = 0 € · Die GmbH schuldet und zieht ab · B2B: Ort beim Kunden · der Kunde schuldet · Stichtag: Ende des Monats · Speichern für Klausur 1 · Prüfst du Sonderregeln zuerst? · Weiterwischen: §§ 3a, 13b UStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Umsatzsteuer",
+          "text": "§§ 3a, 13b UStG (Auszug) · Sonderregeln zuerst! · Sitz des Kunden · Ende Mai · GmbH schuldet · Zahllast: 1.900 € − 1.900 € = 0 € · Vorsteuer im selben Monat"
+        }
+      ]
     },
     "b2": {
-      "format": "spickzettel",
-      "fach": "est",
+      "format": "minifall",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "themaId": "est-aufb-est-ks2-ea-03",
-      "slug": "2026-10-27-b2",
-      "folien": [
-        {
-          "art": "titel",
-          "titel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-          "coverBadge": "Spickzettel",
-          "coverBildAuslassen": true
-        },
-        {
-          "art": "text",
-          "titel": "Kern der Prüfung",
-          "punkte": [
-            "Die Teilung des Nachlasses ohne Ausgleichszahlung ist unentgeltlich; übernimmt ein Erbe mehr Nachlassschulden, als seiner Quote entspricht, entstehen dadurch keine Anschaffungskosten.",
-            "Gelangen die wesentlichen Betriebsgrundlagen in Betriebsvermögen der Erben, sind nach § 16 Abs. 3 Satz 2 EStG die Buchwerte fortzuführen."
-          ]
-        },
-        {
-          "art": "schritte",
-          "titel": "So baust du die Prüfung auf",
-          "schritte": [
-            {
-              "titel": "1. Schritt",
-              "text": "Feststellen, dass die Erbengemeinschaft mit dem Erbfall zur Mitunternehmerschaft geworden ist."
-            },
-            {
-              "titel": "2. Schritt",
-              "text": "Klären, wohin die wesentlichen Betriebsgrundlagen bei der Teilung gelangen: in ein Betriebsvermögen oder ins Privatvermögen."
-            }
-          ]
-        },
-        {
-          "art": "merke",
-          "titel": "Merksatz",
-          "text": "Ohne Ausgleichszahlung kein Entgelt. Gehen die Wirtschaftsgüter ins Betriebsvermögen der Erben, bleibt es beim Buchwert (§ 16 Abs. 3 S. 2 EStG, Sperrfrist nach S. 3). Gehen sie ins Privatvermögen, entsteht ein Aufgabegewinn nach § 16 Abs. 3 S. 1 EStG, ggf. begünstigt nach § 34 EStG."
-        },
-        {
-          "art": "cta",
-          "titel": "Für die nächste Klausur",
-          "punkte": [
-            "Tragende Normen im Gesetz markieren",
-            "Prüfungsschritte in der richtigen Reihenfolge wiederholen",
-            "Typischen Fehler vor der nächsten Klausur kontrollieren"
-          ],
-          "icons": [
-            "dokument",
-            "lupe",
-            "warnung"
-          ]
-        }
-      ],
-      "caption": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn? Buchwerte, wenn die Wirtschaftsgüter ins Betriebsvermögen der Erben gelangen – ein Aufgabegewinn, wenn sie im Privatvermögen landen.",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-aufb-istr-gh-4-30",
+      "caption": "Mini-Fall Internationales Steuerrecht: Freistellung oder Anrechnung – was sagt der Methodenartikel?\n\nFall: Wohnsitz in Deutschland, vermietete Wohnung in einem Drittstaat (18.000 €), dort außerdem 2.000 € Zinsen mit 10 % Quellensteuer (Sparer-Pauschbetrag schon verbraucht, § 20 Abs. 9 EStG). DBA nach OECD-Muster mit Freistellungsmethode.\n\n1. Verteilen: Mieteinkünfte darf der Belegenheitsstaat besteuern (Art. 6 Abs. 1 OECD-MA). Zinsen darf der Wohnsitzstaat besteuern, der Quellenstaat höchstens 10 % (Art. 11 Abs. 1, 2 OECD-MA).\n2. Methode: Die Miete wird freigestellt (Art. 23 A Abs. 1 OECD-MA), aber beim Steuersatz berücksichtigt (§ 32b Abs. 1 S. 1 Nr. 3 EStG). Für Zinsen rechnet Deutschland die Quellensteuer an (Art. 23 A Abs. 2 OECD-MA); national über § 32d Abs. 5 EStG: 500 € Abgeltungsteuer − 200 € = 300 €.\n3. Achtung: Bei Vermietung von Grundbesitz in einem EU- oder EWR-Staat entfällt der Progressionsvorbehalt (§ 32b Abs. 1 S. 2 Nr. 3 EStG).\n\nWelche Methode gilt, steht im konkreten DBA – das Musterabkommen ersetzt den Blick ins Abkommen nicht.\n\nZum Schluss: §§ 32b, 32d Abs. 5 EStG zum Markieren. Speichern für Klausur 2 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#einkommensteuer"
+        "#internationalessteuerrecht"
       ],
-      "kurztitel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn",
-      "coverBadge": "Spickzettel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 16 Abs. 3 EStG",
-        "§ 16 Abs. 1 Satz 1 Nr. 2 EStG",
-        "§ 16 Abs. 2 EStG",
-        "§ 6 Abs. 3 EStG",
-        "§ 34 EStG",
-        "Themenpool: est-aufb-est-ks2-ea-03"
+        "Art. 6 Abs. 1 OECD-MA",
+        "Art. 11 Abs. 1, 2 OECD-MA",
+        "Art. 23 A Abs. 1, 2 OECD-MA",
+        "§ 32b Abs. 1 S. 1 Nr. 3, S. 2 Nr. 3 EStG",
+        "§ 32d Abs. 5 EStG",
+        "§ 20 Abs. 9 EStG"
       ],
-      "coverRegie": {
-        "thema": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/06-kalle.jpg",
-          "assets/referenzen/charaktere/01-holger-kranz.jpg"
-        ],
-        "szene": "Zwei gegensätzliche Ströme laufen auf eine Waage zu; eine Figur hält einen falsch einsortierten Posten rechtzeitig zurück.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-27-b2-est-aufb-est-ks2-ea-03-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-27-b2",
+      "kurztitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Mini-Fall",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Mini-Fall",
+          "text": "Mini-Fall · Freistellen oder · anrechnen? · Art. 23 A OECD-MA · 1 Fall, 2 Wege · + Markier-Guide §§ 32b, 32d EStG",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Der Sachverhalt · Nele wohnt in Bremen. In einem Drittstaat vermietet sie eine Wohnung: Überschuss 18.000 €. · Dort bekommt sie auch 2.000 € Zinsen, 10 % Quellensteuer sind einbehalten. Sparer-Pauschbetrag: verbraucht. · Das DBA folgt dem OECD-Muster mit Freistellungsmethode. · Doppelt zahlen?"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Jetzt du · Wie behandelt Deutschland die Miete? · Und wie die Zinsen samt Quellensteuer? · Lösung: weiterwischen · Ruben, Neles Berater"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Erst verteilen · Miete: Der Belegenheitsstaat darf besteuern. · Art. 6 Abs. 1 OECD-MA · Zinsen: Bremen darf besteuern, der Quellenstaat höchstens 10 %. · Art. 11 Abs. 1, 2 OECD-MA · Der Verteilungsartikel sagt noch nicht, wie Deutschland entlastet. · Dann die Methode"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: Miete · Deutschland stellt die 18.000 € frei. · Art. 23 A Abs. 1 OECD-MA · Sie erhöhen aber den Steuersatz auf das übrige Einkommen. · § 32b Abs. 1 S. 1 Nr. 3 EStG · Freistellung mit Progressionsvorbehalt · Frei, aber teurer"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Lösung: Zinsen · Art. 23 A Abs. 2 OECD-MA · § 32d Abs. 5 EStG · Zinsen · 2.000 € · Abgeltungsteuer 25 % · 500 € · Anrechnung 10 % · − 200 € · Deutsche Steuer · 300 € · Zinsen bleiben voll steuerpflichtig"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Wohnung in der EU? · Dann entfällt der Progressionsvorbehalt für die Miete. · § 32b Abs. 1 S. 2 Nr. 3 EStG · Er gilt nur, wenn die Wohnung in einem Drittstaat liegt. · Lage entscheidet!"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "Miete frei mit Progression · Zinsen 300 € Steuer · Verteilen, dann Methode, dann nationales Recht · Erst verteilen, · dann Methodenartikel, · dann § 32b oder § 32d. · Speichern für Klausur 2 · Endet deine DBA-Prüfung zu früh? · Weiterwischen: §§ 32b, 32d EStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "§ 32b EStG Progressionsvorbehalt (Auszug) · DBA-frei · nur der Satz · EU-Ausnahme · Weiterwischen: § 32d Abs. 5 EStG · Anrechnung bei Kapitalerträgen, höchstens 25 %"
+        },
+        {
+          "art": "text",
+          "titel": "Internationales Steuerrecht",
+          "text": "§ 32d EStG (Auszug) · nur gezahlte · Deckel · Nele: − 200 € · Nele: 500 € − 200 € = 300 € · 10 % Quellensteuer voll anrechenbar"
+        }
+      ]
     },
     "b3": {
       "format": "reel",
-      "layout": "erklaer",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "themaId": "persg-aufb-persg-melzer-2-7",
-      "slug": "2026-10-27-b3",
-      "szenen": [
-        {
-          "art": "hook",
-          "nummer": null,
-          "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-          "unter": "Personengesellschaften",
-          "text": "Mitgeben, umlenken oder ins Privatvermögen?",
-          "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
-          "icon": null,
-          "sprecher": "Du verschenkst deinen Mitunternehmeranteil. Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Es kommt darauf an, wohin es geht.",
-          "marken": [
-            "Anteil plus SBV"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 1,
-          "titel": "SBV geht mit über: zwingend Buchwert",
-          "text": null,
-          "norm": "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
-          "icon": null,
-          "sprecher": "Geht das wesentliche Sonderbetriebsvermögen mit dem Anteil auf den Beschenkten über, sind die Buchwerte zwingend fortzuführen. Bleibt bei einem Teilanteil SBV zurück, muss der Beschenkte fünf Jahre halten.",
-          "marken": [
-            "Alles geht mit",
-            "Buchwert zwingend"
-          ]
-        },
-        {
-          "art": "schritt",
-          "nummer": 2,
-          "titel": "SBV bleibt: anderes BV oder Privatvermögen?",
-          "text": null,
-          "norm": "§ 6 Abs. 5 EStG",
-          "icon": null,
-          "sprecher": "Überführst du das SBV zeitgleich zum Buchwert in ein anderes eigenes Betriebsvermögen, bleibt die Schenkung trotzdem neutral. Geht es ins Privatvermögen, gibst du den ganzen Mitunternehmeranteil auf, mit Gewinn nach § 16 Abs. 3 EStG.",
-          "marken": [
-            "Anderes BV: Buchwert",
-            "Privatvermögen: Aufgabe"
-          ]
-        },
-        {
-          "art": "merke",
-          "nummer": null,
-          "titel": "Merksatz",
-          "text": "Das SBV entscheidet: mitgeben oder in anderes Betriebsvermögen heißt Buchwert, Privatvermögen heißt Aufgabe des ganzen Anteils.",
-          "sprecher": "Merke: Solange das Sonderbetriebsvermögen im Betriebsvermögen bleibt, bleiben die Buchwerte. Erst der Weg ins Privatvermögen deckt alle stillen Reserven auf.",
-          "marken": [
-            "SBV im BV halten"
-          ]
-        },
-        {
-          "art": "cta",
-          "nummer": null,
-          "titel": "Prüfungsschritte festigen",
-          "text": "Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen wiederholen.",
-          "sprecher": "Wiederhole Kernfrage, Reihenfolge und tragende Normen einmal ohne Unterlagen.",
-          "marken": [
-            "Kernfrage",
-            "Reihenfolge",
-            "Normen"
-          ]
-        }
-      ],
-      "caption": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung? Geht es mit über oder zeitgleich in ein anderes Betriebsvermögen, bleibt es beim Buchwert. Landet es im Privatvermögen, ist der ganze Anteil aufgegeben.",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-formel-schuldzinsen",
+      "caption": "Nicht abziehbare Schuldzinsen: Wann kosten Entnahmen den Zinsabzug? 💸\n\n▸ Überentnahme: Entnahmen übersteigen Gewinn plus Einlagen des Wirtschaftsjahres (§ 4 Abs. 4a S. 2 EStG).\n▸ Nicht abziehbar sind typisiert 6 % der Überentnahme, fortgeschrieben um Über- und Unterentnahmen der Vorjahre (§ 4 Abs. 4a S. 3 EStG).\n▸ Hinzugerechnet wird höchstens der um 2.050 € verminderte Betrag der Schuldzinsen des Wirtschaftsjahres (§ 4 Abs. 4a S. 4 EStG). Beispiel: 30.000 € Überentnahme × 6 % = 1.800 €.\n▸ Zinsen für Darlehen zur Finanzierung von Anlagevermögen bleiben unberührt abziehbar (§ 4 Abs. 4a S. 5 EStG).\n▸ Die Hinzurechnung erfolgt außerbilanziell; bei Einnahmenüberschussrechnung gilt die Regel sinngemäß (§ 4 Abs. 4a S. 6 EStG).\n\nSpeichern für Klausur 3 📌",
       "hashtags": [
         "#steuerberaterexamen",
         "#steuerberaterprüfung",
         "#examensvorbereitung",
-        "#personengesellschaften"
+        "#bilanzsteuerrecht"
       ],
-      "kurztitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-      "coverBadge": "Reel",
-      "coverBildAuslassen": true,
       "quellen": [
-        "§ 6 Abs. 3 Sätze 1 bis 3 EStG",
-        "§ 6 Abs. 5 Sätze 1 bis 4 EStG",
-        "§ 16 Abs. 1 Nr. 2, Abs. 3, Abs. 4 EStG",
-        "§ 34 Abs. 1 und 3 EStG",
-        "§ 39 Abs. 2 Nr. 1 und Nr. 2 Satz 2 AO",
-        "§ 175 Abs. 1 Satz 1 Nr. 2 AO",
-        "§ 741 BGB",
-        "§§ 20, 24, 25 UmwStG",
-        "R 4.2 Abs. 2 EStR",
-        "BMF vom 20.11.2019",
-        "Themenpool: persg-aufb-persg-melzer-2-7"
+        "§ 4 Abs. 4a S. 1–6 EStG"
       ],
-      "coverRegie": {
-        "thema": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-        "goldenReferences": [
-          "assets/referenzen/charaktere/01-holger-kranz.jpg",
-          "assets/referenzen/charaktere/08-nila-oeztuerk.jpg"
-        ],
-        "szene": "Ein Hausschlüssel wandert zwischen zwei Figuren; an einer Abzweigung bleiben Haus und Geldkoffer getrennt.",
-        "verpackung": "Handlung in Prüfungsreihenfolge",
-        "gestaltung": "Dynamische, freundliche 2D-Cartoonhandlung; Identität der Figuren strikt nach Referenz. Motiv freigestellt mit echtem transparentem Hintergrund, ohne Schrift, Zahlen, Logos, Sprechblasen oder Kulisse.",
-        "bilddatei": "2026-10-27-b3-persg-aufb-persg-melzer-2-7-cover.png",
-        "status": "Bild ausstehend"
-      },
+      "slug": "2026-10-27-b3",
+      "kurztitel": "Nicht abziehbare Schuldzinsen",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "liveVorrangAktiv": true
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "gegensatz",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "10.000 € Zinsen. Alles abziehbar?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Überentnahme"
+        },
+        {
+          "art": "schritt",
+          "titel": "Rechnen mit Deckel"
+        },
+        {
+          "art": "schritt",
+          "titel": "Außen vor"
+        }
+      ],
+      "sprecher": [
+        "Zehntausend Euro Zinsen, alles abziehbar? Für den Maschinenkredit ja. Beim Kontokorrent zählen deine Entnahmen.",
+        "Überentnahme heißt: Du entnimmst mehr, als Gewinn und Einlagen ausmachen. Sechs Prozent davon gelten als nicht abziehbar.",
+        "Dreißigtausend Euro Überentnahme ergeben achtzehnhundert Euro. Höchstens aber die Zinsen minus zweitausendfünfzig Euro.",
+        "Die Maschinenzinsen bleiben außen vor. Und die Hinzurechnung läuft außerhalb der Bilanz.",
+        "Merke: Investitionskredit frei, Überentnahme kostet."
+      ],
+      "dauerS": 36.594,
+      "tempo": 1.0
     },
     "s4": {
       "slot": "s4",
       "art": "frage",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-4",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-4"
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Anzahlung erhalten:",
+        "Wann entsteht die USt?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "optionen": [
+        "Mit der Lieferung",
+        "Mit der Rechnung",
+        "Mit der Vereinnahmung"
+      ],
+      "pairId": "bilanz-quiz-k3-11",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Prüfungsfrage",
+        "Anzahlung erhalten:",
+        "Wann entsteht die USt?",
+        "Mit der Lieferung",
+        "Mit der Rechnung",
+        "Mit der Vereinnahmung",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Prüfungsfrage",
-      "frage": "Welche Norm betrifft die Reinvestitionsrücklage?",
-      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
-      "optionen": [
-        "§ 6b EStG",
-        "§ 8 KStG",
-        "§ 15a EStG"
-      ],
-      "richtig": 0,
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s5": {
       "slot": "s5",
       "art": "antwort",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-quiz-k3-4",
-      "quellen": [
-        "Themenpool: persg-quiz-k3-4"
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": "bilanz-quiz-k3-11",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "C: schon mit",
+        "dem Geld"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "optionen": [
+        "Mit der Lieferung",
+        "Mit der Rechnung",
+        "Mit der Vereinnahmung"
+      ],
+      "richtig": 2,
+      "text": "Bei Sollbesteuerung: mit Ablauf des Voranmeldungszeitraums, in dem die Anzahlung eingeht.",
+      "norm": "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG",
+      "pairId": "bilanz-quiz-k3-11",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Auflösung",
+        "C: schon mit",
+        "dem Geld",
+        "Mit der Lieferung",
+        "Mit der Rechnung",
+        "Mit der Vereinnahmung",
+        "Bei Sollbesteuerung: mit Ablauf des Voranmeldungszeitraums, in dem die Anzahlung eingeht.",
+        "§ 13 Abs. 1 Nr. 1 Buchst. a S. 4 UStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Auflösung",
-      "titel": "§ 6b EStG",
-      "optionen": [
-        "§ 6b EStG",
-        "§ 8 KStG",
-        "§ 15a EStG"
-      ],
-      "richtig": 0,
-      "text": "Die Übertragung stiller Reserven ist in § 6b EStG geregelt; R 6.6 EStR betrifft dagegen den unfreiwilligen Verlust.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s6": {
       "slot": "s6",
       "art": "norm",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-2",
-      "quellen": [
-        "§ 15 Abs. 3 Nr. 1 EStG",
-        "§ 15 Abs. 3 Nr. 2 EStG",
-        "§ 15 Abs. 3 Nr. 1, Nr. 2 EStG",
-        "Themenpool: persg-modul-persg-2"
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-503",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Gemischte",
+        "Schenkung"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "norm": "R E 7.4 Abs. 1 ErbStR",
+      "punkte": [
+        [
+          "Bereicherung = Steuerwert der Leistung minus Gegenleistung und Auflagen.",
+          "ok",
+          "§ 10 Abs. 1 S. 1 ErbStG"
+        ],
+        [
+          "Abzüge auch mit dem Steuerwert, nicht mit dem Verkehrswert.",
+          "warn",
+          "§ 12 ErbStG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Gemischte",
+        "Schenkung",
+        "R E 7.4 Abs. 1 ErbStR",
+        "Bereicherung = Steuerwert der Leistung minus Gegenleistung und Auflagen.",
+        "§ 10 Abs. 1 S. 1 ErbStG",
+        "Abzüge auch mit dem Steuerwert, nicht mit dem Verkehrswert.",
+        "§ 12 ErbStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Norm des Tages",
-      "norm": "§ 15 Abs. 3 Nr. 1 und 2 EStG",
-      "titel": "Abfärbung und gewerblich geprägte Personengesellschaft",
-      "text": "Nr. 1: Gewerbliche Tätigkeit über der Bagatellgrenze oder gewerbliche Beteiligungseinkünfte infizieren alle Einkünfte. Nr. 2: Geprägt, wenn nur KapG persönlich haften und nur sie oder Nichtgesellschafter geschäftsführen.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s7": {
       "slot": "s7",
       "art": "tipp",
-      "fach": "umwst",
-      "klausur": 3,
-      "fachLabel": "Umwandlungssteuerrecht",
-      "pairId": "umwst-aufb-umw-ks-3-03",
-      "quellen": [
-        "§ 7 UmwStG",
-        "§ 4 Abs. 6 UmwStG",
-        "§ 4 Abs. 7 UmwStG",
-        "§ 20 Abs. 1 EStG",
-        "§ 20 Abs. 8 EStG",
-        "§ 4 Abs. 5 UmwStG",
-        "§ 4 Abs. 2 UmwStG",
-        "§ 8b Abs. 5 KStG",
-        "§ 8b Abs. 1 KStG",
-        "§ 29 Abs. 1 KStG",
-        "Themenpool: umwst-aufb-umw-ks-3-03"
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Erst die Frage,",
+        "dann der Fall"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "punkte": [
+        [
+          "Aufgabenstellung zuerst lesen",
+          "ok",
+          null
+        ],
+        [
+          "Dann den Sachverhalt mit Stift",
+          "ok",
+          null
+        ],
+        [
+          "Jede Zahl hat meist eine Aufgabe",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:zoom-question",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Erst die Frage,",
+        "dann der Fall",
+        "Aufgabenstellung zuerst lesen",
+        "Dann den Sachverhalt mit Stift",
+        "Jede Zahl hat meist eine Aufgabe"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Wie wird das Übernahmeergebnis bei der Personengesellschaft besteuert?",
-      "text": "Erst die Bezüge nach § 7 UmwStG abziehen. Übernahmegewinn: bei natürlichen Personen zu 60 % steuerpflichtig, bei KapG gilt § 8b KStG (§ 4 Abs. 7 UmwStG). Einen Übernahmeverlust begrenzt § 4 Abs. 6 UmwStG stark.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s8": {
       "slot": "s8",
-      "art": "merksatz",
-      "fach": "persg",
-      "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "pairId": "persg-modul-persg-1",
-      "quellen": [
-        "§ 15 Abs. 1 S. 1 Nr. 2 EStG",
-        "§ 15 Abs. 3 Nr. 1 EStG",
-        "§ 15 Abs. 3 Nr. 2 EStG",
-        "§ 15 Abs. 1 S. 1 Nr. 2 S. 1 EStG",
-        "§ 15 Abs. 3 EStG",
-        "Themenpool: persg-modul-persg-1"
+      "art": "tipp",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-karte-kst-10",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "KSt-Einkommen:",
+        "Wo starten?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "punkte": [
+        [
+          "Beim Gewinn laut Steuerbilanz",
+          "ok",
+          "§ 8 Abs. 1 S. 1 KStG"
+        ],
+        [
+          "Dann außerhalb der Bilanz korrigieren",
+          "ok",
+          "§ 8 Abs. 3 S. 2, § 10 KStG"
+        ]
+      ],
+      "icon": "tabler:route",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Klausurtipp",
+        "KSt-Einkommen:",
+        "Wo starten?",
+        "Beim Gewinn laut Steuerbilanz",
+        "§ 8 Abs. 1 S. 1 KStG",
+        "Dann außerhalb der Bilanz korrigieren",
+        "§ 8 Abs. 3 S. 2, § 10 KStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Merksatz",
-      "titel": "Mitunternehmerschaft: Grundtatbestand des § 15 EStG",
-      "text": "Personengesellschaft + gewerbliche Einkünfte + Mitunternehmerstellung: Diese drei Punkte stehen am Anfang des PersG-Teils.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s9": {
       "slot": "s9",
-      "art": "tipp",
+      "art": "merksatz",
       "fach": "umwst",
       "klausur": 3,
       "fachLabel": "Umwandlungssteuerrecht",
-      "pairId": "umwst-aufb-umw-2-25",
-      "quellen": [
-        "§ 20 Abs. 3 UmwStG",
-        "§ 20 Abs. 2 UmwStG",
-        "§ 16 EStG",
-        "§ 20 Abs. 1 UmwStG",
-        "§ 20 Abs. 4 UmwStG",
-        "§ 54 Abs. 4 UmwG",
-        "Themenpool: umwst-aufb-umw-2-25"
+      "themaId": "umwst-aufb-umw-5-06",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "GmbH wird KG:",
+        "Was gilt als bezogen?"
       ],
-      "regelGeprueft": true,
-      "manuellGeprueft": false,
+      "zeilen": [
+        [
+          [
+            "Eigenkapital",
+            "a"
+          ]
+        ],
+        [
+          [
+            "minus ",
+            null
+          ],
+          [
+            "Einlagekonto",
+            "b"
+          ]
+        ],
+        [
+          [
+            "gilt als ",
+            null
+          ],
+          [
+            "ausgeschüttet",
+            "c"
+          ],
+          [
+            ".",
+            null
+          ]
+        ]
+      ],
+      "norm": "§ 7 S. 1 UmwStG",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "GmbH wird KG:",
+        "Was gilt als bezogen?",
+        "Eigenkapital",
+        "minus Einlagekonto",
+        "gilt als ausgeschüttet.",
+        "§ 7 S. 1 UmwStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "bewusst-ausgelassen",
-      "ueberzeile": "Klausurtipp",
-      "titel": "Wie viel Geld darf man neben den neuen Anteilen erhalten?",
-      "text": "Neutral bleibt nur eine sonstige Gegenleistung bis 25 % des Buchwerts oder 500.000 €, höchstens bis zum Buchwert (§ 20 Abs. 2 S. 2 Nr. 4 UmwStG). Ein Mehrbetrag führt anteilig zur Aufdeckung stiller Reserven.",
-      "liveVorrangAktiv": true
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
     },
     "s1": {
       "slot": "s1",
       "art": "teaser",
-      "fach": "ao",
+      "fach": "ust",
       "klausur": 1,
-      "fachLabel": "Abgabenordnung",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Korrekturpärchen nach Ablauf der regulären…",
-      "text": "Korrekturpärchen nach Ablauf der regulären Festsetzungsfrist",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Umsatzsteuer",
+      "themaId": null,
       "beitragSlot": "b1",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "Beratung aus Utrecht"
+      ],
+      "unter": "Rechenweg + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Umsatzsteuer",
+        "Neu im Feed",
+        "Beratung aus Utrecht",
+        "Rechenweg + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s2": {
       "slot": "s2",
       "art": "teaser",
-      "fach": "est",
+      "fach": "istr",
       "klausur": 2,
-      "fachLabel": "Einkommensteuer",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn",
-      "text": "Miterben teilen einen Betrieb: Buchwerte oder Gewinn?",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": null,
       "beitragSlot": "b2",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "Freistellen oder anrechnen?"
+      ],
+      "unter": "Mini-Fall + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Neu im Feed",
+        "Freistellen oder anrechnen?",
+        "Mini-Fall + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
-      "textProviderKostenUsd": 0,
-      "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "regelGeprueft": true
     },
     "s3": {
       "slot": "s3",
       "art": "teaser",
-      "fach": "persg",
+      "fach": "bilanz",
       "klausur": 3,
-      "fachLabel": "Personengesellschaften",
-      "ueberzeile": "Neuer Beitrag",
-      "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
-      "text": "",
-      "icon": "paragraf",
-      "bild": null,
-      "bildFrei": true,
-      "bildQuelle": null,
-      "bildBreite": null,
-      "bildHoehe": null,
-      "bildTyp": null,
-      "bildCharaktere": null,
-      "pille": "Jetzt im Feed",
+      "fachLabel": "Bilanzsteuerrecht",
+      "themaId": null,
       "beitragSlot": "b3",
-      "abgeleitet": true,
+      "quellen": null,
+      "titel": [
+        "10.000 € Zinsen abziehbar?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Bilanzsteuerrecht",
+        "Neu im Feed",
+        "10.000 € Zinsen abziehbar?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
       "freigabeBetreiber": true,
       "vorproduktionStatus": "live-freigegeben",
       "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "m1": {
+      "format": "pruefungsfrage",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Mündliche Prüfung",
+      "themaId": "lead-10-fehler",
+      "caption": "Die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – ausgewertet aus über 400 echten Prüfungsprotokollen. 😬\n\nWas dir keiner sagt: In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen. Bestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n\nPlatz 10 bis 2 siehst du hier. Platz 1 – und alle 10 Fehler mit Prüfungsszene und Lösung – im Gratis-PDF.\n\n👉 Link in der Bio",
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ],
+      "quellen": [
+        "§ 28 Abs. 1 S. 2 DVStB",
+        "§ 25 Abs. 2 DVStB"
+      ],
+      "slug": "2026-10-27-m1",
+      "kurztitel": "Die 10 häufigsten Fehler der Mündlichen",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
       "textProviderKostenUsd": 0,
       "faktencheckProviderKostenUsd": 0,
-      "bildStatus": "icon-statt-bild"
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Über 400 Protokolle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Über 400 Protokolle",
+          "text": "Über 400 Protokolle · Die 10 Fehler · der Mündlichen · Platz 10 bis 1 · + Gratis-PDF · 400+ · Protokolle",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Mündliche Prüfung",
+          "text": "Platz 10 bis 6 · Platz 10 · Den Kurzvortrag verschenken · Platz 9 · Eine schlechte Runde mitnehmen · Platz 8 · Keine Rückfragen zum Sachverhalt · Platz 7 · Schweigen oder „keine Ahnung“ sagen · Platz 6 · Nicht zuhören, wenn andere dran sind · Am Ende: Platz 1"
+        },
+        {
+          "art": "text",
+          "titel": "Mündliche Prüfung",
+          "text": "Platz 5 bis 2 · Platz 5: Randgebiete vernachlässigen · Platz 4: Fachbegriffe nicht treffen · Platz 3: Aktuelles nicht auf dem Schirm · Platz 2: Aus dem Kopf statt aus dem Gesetz antworten · Kenn ich …"
+        },
+        {
+          "art": "text",
+          "titel": "Mündliche Prüfung",
+          "text": "Und Platz 1? · Steht in mehr als jedem zweiten Protokoll. · Kostet Punkte, obwohl das Wissen da ist. · Die Auflösung steht im Gratis-PDF – mit Prüfungsszene und Lösung. · Welcher?"
+        },
+        {
+          "art": "text",
+          "titel": "Mündliche Prüfung",
+          "text": "Warum das zählt · In fast jedem dritten Protokoll ist mindestens einer durchgefallen. · Bestanden erst bei 4,15 im Durchschnitt. · § 28 Abs. 1 S. 2 DVStB · Mit 4,5 brauchst du mündlich im Schnitt eine 3,8. · Kein Selbstläufer."
+        },
+        {
+          "art": "text",
+          "titel": "Mündliche Prüfung",
+          "text": "Alle 10 Fehler + Lösungen · Gratis-PDF · Link in der Bio · Platz 1 auflösen, · Lösungen lesen, · Checkliste nutzen, · sicher bestehen. · Speichern für die Mündliche · Welcher Fehler passiert dir? · Weiterwischen: So holst du dir das PDF"
+        },
+        {
+          "art": "text",
+          "titel": "Mündliche Prüfung",
+          "text": "So holst du dir das PDF · Profil von examenscampus öffnen · Link in der Bio antippen · E-Mail eintragen – das PDF kommt sofort · Kostenlos, jederzeit abbestellbar · Gratis!"
+        }
+      ]
     }
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-02T13:03:57.899Z",
+    "erzeugtAm": "2026-10-27T07:52:44Z",
     "pfad": "vorproduktion/2026-10-27/fertig",
     "providerKostenUsd": 0,
-    "textProviderKostenUsd": 0,
-    "faktencheckProviderKostenUsd": 0,
-    "bildgenerierungKostenUsd": 0,
     "coverbilder": false,
-    "coverIcons": true,
-    "reelStimme": "piper-offline",
-    "layoutQuelle": "herrjurist",
-    "semantikQuelle": "examenscampus",
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
     "freigabeBetreiber": true,
     "liveVorrangAktiv": true,
     "normalbetriebGesperrt": true,
@@ -697,5 +788,5 @@
   },
   "liveVorrangAktiv": true,
   "normalbetriebGesperrt": true,
-  "bildStatus": "icon-statt-bild"
+  "bildStatus": "open-peeps-render"
 }
