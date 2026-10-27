@@ -16005,6 +16005,28 @@
         "Erst die Frage,",
         "dann der Fall"
       ]
+    },
+    {
+      "datum": "2026-10-27",
+      "slot": "m1",
+      "medienId": "18639564250007522",
+      "veroeffentlicht": "2026-10-27T15:33:58.099Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "16:00",
+      "stunde": 16,
+      "format": "pruefungsfrage",
+      "thema": "lead-10-fehler",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Über 400 Protokolle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16019,7 +16041,7 @@
     "est": 6,
     "umwst": 8,
     "gewst": 4,
-    "null": 5
+    "null": 6
   },
   "nachrichten": [],
   "postfach": [],
