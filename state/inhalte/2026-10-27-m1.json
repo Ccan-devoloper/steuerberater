@@ -1,0 +1,68 @@
+{
+  "format": "pruefungsfrage",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": "lead-10-fehler",
+  "caption": "Die 10 häufigsten Fehler in der mündlichen Steuerberaterprüfung – ausgewertet aus über 400 echten Prüfungsprotokollen. 😬\n\nWas dir keiner sagt: In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen. Bestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note höchstens 4,15 erreicht (§ 28 Abs. 1 S. 2 DVStB).\n\nPlatz 10 bis 2 siehst du hier. Platz 1 – und alle 10 Fehler mit Prüfungsszene und Lösung – im Gratis-PDF.\n\n👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+  ],
+  "quellen": [
+    "§ 28 Abs. 1 S. 2 DVStB",
+    "§ 25 Abs. 2 DVStB"
+  ],
+  "slug": "2026-10-27-m1",
+  "kurztitel": "Die 10 häufigsten Fehler der Mündlichen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Über 400 Protokolle",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Über 400 Protokolle",
+      "text": "Über 400 Protokolle · Die 10 Fehler · der Mündlichen · Platz 10 bis 1 · + Gratis-PDF · 400+ · Protokolle",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Platz 10 bis 6 · Platz 10 · Den Kurzvortrag verschenken · Platz 9 · Eine schlechte Runde mitnehmen · Platz 8 · Keine Rückfragen zum Sachverhalt · Platz 7 · Schweigen oder „keine Ahnung“ sagen · Platz 6 · Nicht zuhören, wenn andere dran sind · Am Ende: Platz 1"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Platz 5 bis 2 · Platz 5: Randgebiete vernachlässigen · Platz 4: Fachbegriffe nicht treffen · Platz 3: Aktuelles nicht auf dem Schirm · Platz 2: Aus dem Kopf statt aus dem Gesetz antworten · Kenn ich …"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Und Platz 1? · Steht in mehr als jedem zweiten Protokoll. · Kostet Punkte, obwohl das Wissen da ist. · Die Auflösung steht im Gratis-PDF – mit Prüfungsszene und Lösung. · Welcher?"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Warum das zählt · In fast jedem dritten Protokoll ist mindestens einer durchgefallen. · Bestanden erst bei 4,15 im Durchschnitt. · § 28 Abs. 1 S. 2 DVStB · Mit 4,5 brauchst du mündlich im Schnitt eine 3,8. · Kein Selbstläufer."
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Alle 10 Fehler + Lösungen · Gratis-PDF · Link in der Bio · Platz 1 auflösen, · Lösungen lesen, · Checkliste nutzen, · sicher bestehen. · Speichern für die Mündliche · Welcher Fehler passiert dir? · Weiterwischen: So holst du dir das PDF"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "So holst du dir das PDF · Profil von examenscampus öffnen · Link in der Bio antippen · E-Mail eintragen – das PDF kommt sofort · Kostenlos, jederzeit abbestellbar · Gratis!"
+    }
+  ]
+}
