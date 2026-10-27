@@ -117,6 +117,13 @@
       "art": "teaser",
       "beitragSlot": "b3",
       "status": "geplant"
+    },
+    {
+      "slot": "s10",
+      "zeit": "16:00",
+      "art": "teaser",
+      "beitragSlot": "m1",
+      "status": "geplant"
     }
   ]
 }
