@@ -5,34 +5,14 @@
 //   Bindings: KV namespace „examenscampus-anmeldungen“ als Variable ANMELDUNGEN
 //   Variables and Secrets: BREVO_API_KEY (Secret)
 // Gespeicherte Anmeldungen: Workers & Pages → KV → examenscampus-anmeldungen. Schlüssel beginnen mit
-// „offen:“ (noch nicht in Brevo) oder „brevo:“ (erfolgreich übertragen).
-const LISTE_MUENDLICHE = 3;
+// „offen:“ (noch nicht in Brevo) oder „brevo:“ (erfolgreich übertragen). Offene werden über
+// /api/nachtragen stündlich erneut versucht.
+import { anBrevo, nachtragen } from "../_lib/brevo.js";
 
 const antwort = (status, daten) =>
   new Response(JSON.stringify(daten), { status, headers: { "content-type": "application/json" } });
 
-async function anBrevo(env, email, vorname) {
-  if (!env.BREVO_API_KEY) return "BREVO_API_KEY fehlt";
-  try {
-    const res = await fetch("https://api.brevo.com/v3/contacts", {
-      method: "POST",
-      headers: { "api-key": env.BREVO_API_KEY, "content-type": "application/json", accept: "application/json" },
-      body: JSON.stringify({
-        email,
-        attributes: vorname ? { FIRSTNAME: vorname } : {},
-        listIds: [LISTE_MUENDLICHE],
-        updateEnabled: true,
-      }),
-      signal: AbortSignal.timeout(3000),
-    });
-    // 201 = neu angelegt, 204 = vorhandener Kontakt aktualisiert
-    return res.ok ? null : `Brevo ${res.status}: ${(await res.text()).slice(0, 300)}`;
-  } catch (e) {
-    return `Brevo nicht erreichbar: ${e.name}`;
-  }
-}
-
-export async function onRequestPost({ request, env }) {
+export async function onRequestPost({ request, env, waitUntil }) {
   let form;
   try { form = await request.formData(); } catch { return antwort(400, { ok: false, fehler: "Ungültige Anfrage" }); }
 
@@ -61,6 +41,8 @@ export async function onRequestPost({ request, env }) {
     if (!fehler) {
       await kv.put(`brevo:${zeit}:${email}`, JSON.stringify(eintrag));
       await kv.delete(`offen:${zeit}:${email}`);
+      // Brevo läuft wieder: liegengebliebene Anmeldungen im Hintergrund gleich mitnehmen
+      waitUntil(nachtragen(env, 5).catch(() => {}));
     } else {
       await kv.put(`offen:${zeit}:${email}`, JSON.stringify({ ...eintrag, fehler }));
     }
