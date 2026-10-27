@@ -24,7 +24,8 @@
       "themaTitel": "Freistellung oder Anrechnung: Was entscheidet der Methodenartikel?",
       "fach": "istr",
       "klausur": 2,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-27T12:30:00.039Z"
     },
     {
       "slot": "b3",
