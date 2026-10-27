@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-27T06:44:52.550Z",
+  "stand": "2026-10-27T07:30:23.158Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -40287,6 +40287,18 @@
           "total_interactions": 9,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-27T07:30:23.158Z",
+          "alterStunden": 140,
+          "reach": 116,
+          "saved": 4,
+          "shares": 0,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 9,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -41660,6 +41672,18 @@
           "stand": "2026-10-26T06:45:05.018Z",
           "alterStunden": 90.9,
           "reach": 89,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-27T07:30:23.158Z",
+          "alterStunden": 115.7,
+          "reach": 96,
           "saved": 1,
           "shares": 0,
           "likes": 1,
@@ -44513,6 +44537,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-27T07:30:23.158Z",
+          "alterStunden": 68,
+          "reach": 108,
+          "saved": 4,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -45069,6 +45105,20 @@
           "ig_reels_avg_watch_time": 7708,
           "ig_reels_video_view_total_time": 7931611,
           "reels_skip_rate": 63.8
+        },
+        {
+          "stand": "2026-10-27T07:30:23.158Z",
+          "alterStunden": 62.5,
+          "reach": 987,
+          "saved": 4,
+          "shares": 2,
+          "likes": 7,
+          "comments": 0,
+          "total_interactions": 13,
+          "views": 1189,
+          "ig_reels_avg_watch_time": 7702,
+          "ig_reels_video_view_total_time": 7933135,
+          "reels_skip_rate": 63.8
         }
       ]
     },
@@ -45441,6 +45491,18 @@
         {
           "stand": "2026-10-26T22:52:55.536Z",
           "alterStunden": 39.4,
+          "reach": 105,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-27T07:30:23.158Z",
+          "alterStunden": 48,
           "reach": 105,
           "saved": 0,
           "shares": 0,
@@ -47207,6 +47269,63 @@
           "ig_reels_avg_watch_time": 9209,
           "ig_reels_video_view_total_time": 2394381,
           "reels_skip_rate": 64.2
+        }
+      ]
+    },
+    "18633874504065405": {
+      "art": "story",
+      "datum": "2026-10-27",
+      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T06:08:03.820Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T07:30:20.482Z",
+          "alterStunden": 1.4,
+          "reach": 19,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_exit": 3,
+          "navigation_tap_forward": 15,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18180196333446145": {
+      "art": "story",
+      "datum": "2026-10-27",
+      "titel": "§ 6b EStG",
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-27T06:08:17.291Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-27T07:30:20.482Z",
+          "alterStunden": 1.4,
+          "reach": 16,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 18,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_exit": 1,
+          "navigation_tap_back": 1,
+          "navigation_tap_forward": 14
         }
       ]
     }

@@ -13694,7 +13694,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 109,
+        "reach": 116,
         "saved": 4,
         "shares": 0,
         "likes": 5,
@@ -13703,8 +13703,8 @@
         "follows": 0,
         "profile_visits": 2
       },
-      "insightsStand": "2026-10-26T06:45:05.018Z",
-      "insightsAlterStunden": 115.2
+      "insightsStand": "2026-10-27T07:30:23.158Z",
+      "insightsAlterStunden": 140
     },
     {
       "datum": "2026-10-21",
@@ -14059,7 +14059,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 89,
+        "reach": 96,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -14068,8 +14068,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-26T06:45:05.018Z",
-      "insightsAlterStunden": 90.9
+      "insightsStand": "2026-10-27T07:30:23.158Z",
+      "insightsAlterStunden": 115.7
     },
     {
       "datum": "2026-10-22",
@@ -14789,17 +14789,17 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 104,
-        "saved": 3,
+        "reach": 108,
+        "saved": 4,
         "shares": 0,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 6,
+        "total_interactions": 7,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-26T22:52:55.536Z",
-      "insightsAlterStunden": 59.4
+      "insightsStand": "2026-10-27T07:30:23.158Z",
+      "insightsAlterStunden": 68
     },
     {
       "datum": "2026-10-24",
@@ -14917,12 +14917,12 @@
         "comments": 0,
         "total_interactions": 13,
         "views": 1189,
-        "ig_reels_avg_watch_time": 7708,
-        "ig_reels_video_view_total_time": 7931611,
+        "ig_reels_avg_watch_time": 7702,
+        "ig_reels_video_view_total_time": 7933135,
         "reels_skip_rate": 63.8
       },
-      "insightsStand": "2026-10-26T22:52:55.536Z",
-      "insightsAlterStunden": 53.9
+      "insightsStand": "2026-10-27T07:30:23.158Z",
+      "insightsAlterStunden": 62.5
     },
     {
       "datum": "2026-10-24",
@@ -15071,8 +15071,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-26T22:52:55.536Z",
-      "insightsAlterStunden": 39.4
+      "insightsStand": "2026-10-27T07:30:23.158Z",
+      "insightsAlterStunden": 48
     },
     {
       "datum": "2026-10-25",
@@ -15779,7 +15779,23 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-4",
       "fach": "persg",
-      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?"
+      "titel": "Welche Norm betrifft die Reinvestitionsrücklage?",
+      "insights": {
+        "reach": 19,
+        "views": 31,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_exit": 3,
+        "navigation_tap_forward": 15,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-27T07:30:20.482Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-27",
@@ -15791,7 +15807,24 @@
       "storyArt": "antwort",
       "thema": "persg-quiz-k3-4",
       "fach": "persg",
-      "titel": "§ 6b EStG"
+      "titel": "§ 6b EStG",
+      "insights": {
+        "reach": 16,
+        "views": 27,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 1,
+        "navigation_tap_forward": 14
+      },
+      "insightsStand": "2026-10-27T07:30:20.482Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-27",
