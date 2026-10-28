@@ -307,9 +307,21 @@ jobs:
           juengere_kette() {
             local n=0 st
             for st in in_progress queued pending waiting requested; do
-              n=$((n + $(gh api "repos/$GH_REPO/actions/runs?status=$st&per_page=50" --jq "[.workflow_runs[] | select(.path == \".github/workflows/instagram.yml\" and .id > $GITHUB_RUN_ID)] | length")))
+              # Ein API-Fehler zählt als „keine jüngere Kette“ – sonst bricht set -e die Kette ab.
+              n=$((n + $(gh api "repos/$GH_REPO/actions/runs?status=$st&per_page=50" --jq "[.workflow_runs[] | select(.path == \".github/workflows/instagram.yml\" and .id > $GITHUB_RUN_ID)] | length" 2>/dev/null || echo 0)))
             done
             echo $n
+          }
+          # Wecken mit Wiederholung: Scheitert der Aufruf, reißt die Kette (so am 28.10. nach der Nachtpause).
+          wecken() {
+            local i
+            for i in 1 2 3 4 5 6; do
+              gh workflow run instagram.yml -f modus=live -f wecker=true "$@" && return 0
+              echo "::warning::Wecken fehlgeschlagen (Versuch $i) – neuer Versuch in $((i * 20)) s"
+              sleep $((i * 20))
+            done
+            echo "::error::Bot konnte nicht geweckt werden – Kette gerissen"
+            return 1
           }
           if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
           start=$(date -u +%s)
@@ -345,7 +357,7 @@ jobs:
             if [ -n "$termin" ] && [ $((termin - vorlauf)) -le $jetzt ]; then
               if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
               echo "Termin $(date -u -d @$termin +%FT%TZ) steht an – wecke den Bot jetzt."
-              gh workflow run instagram.yml -f modus=live -f wecker=true
+              wecken
               exit 0
             fi
             if [ $((jetzt - kette_geprueft)) -ge 600 ]; then
@@ -356,15 +368,15 @@ jobs:
           done
           if [ "$(juengere_kette)" != "0" ]; then echo "Jüngere Kette aktiv – dieser Weckruf endet."; exit 0; fi
           if [ $nacht = 1 ]; then
-            gh workflow run instagram.yml -f modus=live -f wecker=true -f nur_wecken=true
+            wecken -f nur_wecken=true
             exit 0
           fi
           seit=$(date -u -d @$slot +%FT%TZ)
-          n=$(gh api "repos/$GH_REPO/actions/runs?created=>=$seit&per_page=20" --jq '[.workflow_runs[] | select(.path == ".github/workflows/instagram.yml")] | length')
+          n=$(gh api "repos/$GH_REPO/actions/runs?created=>=$seit&per_page=20" --jq '[.workflow_runs[] | select(.path == ".github/workflows/instagram.yml")] | length' 2>/dev/null || echo 0)
           echo "Läufe seit $seit: $n"
           if [ "$n" = "0" ]; then
             echo "Zeitplan hat nicht ausgelöst – wecke selbst."
-            gh workflow run instagram.yml -f modus=live -f wecker=true
+            wecken
           else
             echo "Zeitplan hat ausgelöst – dieser Lauf übernimmt die Kette."
           fi
