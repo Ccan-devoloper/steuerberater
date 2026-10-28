@@ -16590,6 +16590,21 @@
         "Mit 4,5 zugelassen?",
         "Dann wird's knapp"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s9",
+      "medienId": "18012772487974845",
+      "veroeffentlicht": "2026-10-28T18:13:04.927Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "ao-modul-ao-313",
+      "fach": "ao",
+      "titel": [
+        "Bescheid zum",
+        "Abruf bereit"
+      ]
     }
   ],
   "fachZaehler": {
