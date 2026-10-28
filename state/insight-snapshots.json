@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T12:30:24.468Z",
+  "stand": "2026-10-28T13:39:14.120Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -48462,6 +48462,23 @@
           "navigation_tap_forward": 82,
           "navigation_swipe_forward": 9,
           "navigation_tap_back": 5
+        },
+        {
+          "stand": "2026-10-28T13:39:04.580Z",
+          "alterStunden": 22.1,
+          "reach": 107,
+          "views": 151,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 138,
+          "navigation_tap_exit": 23,
+          "navigation_tap_forward": 95,
+          "navigation_swipe_forward": 13,
+          "navigation_tap_back": 7
         }
       ]
     },
@@ -48522,6 +48539,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 9
+        },
+        {
+          "stand": "2026-10-28T13:39:11.232Z",
+          "alterStunden": 22.1,
+          "reach": 150,
+          "saved": 2,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 10
         }
       ]
     },
@@ -48641,6 +48670,20 @@
           "ig_reels_avg_watch_time": 6235,
           "ig_reels_video_view_total_time": 2213483,
           "reels_skip_rate": 75.1
+        },
+        {
+          "stand": "2026-10-28T13:39:11.232Z",
+          "alterStunden": 19.6,
+          "reach": 360,
+          "saved": 1,
+          "shares": 1,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
+          "views": 449,
+          "ig_reels_avg_watch_time": 6176,
+          "ig_reels_video_view_total_time": 2347044,
+          "reels_skip_rate": 75.5
         }
       ]
     },
@@ -48689,6 +48732,23 @@
           "navigation_tap_forward": 62,
           "navigation_tap_exit": 11,
           "navigation_swipe_forward": 4
+        },
+        {
+          "stand": "2026-10-28T13:39:04.580Z",
+          "alterStunden": 19.6,
+          "reach": 86,
+          "views": 113,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 1,
+          "navigation": 98,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_exit": 11,
+          "navigation_tap_forward": 69,
+          "navigation_tap_back": 14
         }
       ]
     },
@@ -48738,6 +48798,23 @@
           "navigation_tap_back": 2,
           "navigation_tap_forward": 68,
           "navigation_tap_exit": 13
+        },
+        {
+          "stand": "2026-10-28T13:39:04.580Z",
+          "alterStunden": 19.3,
+          "reach": 85,
+          "views": 109,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 1,
+          "navigation": 98,
+          "navigation_tap_exit": 15,
+          "navigation_tap_forward": 73,
+          "navigation_tap_back": 3,
+          "navigation_swipe_forward": 7
         }
       ]
     },
@@ -48895,6 +48972,59 @@
           "navigation_tap_exit": 8,
           "navigation_tap_forward": 14,
           "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "18112976399177715": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Umwandlung ohne Steuer?"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T12:30:18.899Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T13:39:04.580Z",
+          "alterStunden": 1.1,
+          "reach": 17,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 18
+        }
+      ]
+    },
+    "18414066070088846": {
+      "art": "beitrag",
+      "datum": "2026-10-28",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T12:30:05.742Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T13:39:11.232Z",
+          "alterStunden": 1.2,
+          "reach": 33,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -51617,6 +51747,11 @@
     },
     {
       "stand": "2026-10-28T12:30:24.468Z",
+      "follower": 272,
+      "medien": 160
+    },
+    {
+      "stand": "2026-10-28T13:39:14.120Z",
       "follower": 272,
       "medien": 160
     }

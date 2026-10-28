@@ -16046,17 +16046,17 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 133,
+        "reach": 150,
         "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
         "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 9
+        "profile_visits": 10
       },
-      "insightsStand": "2026-10-28T09:45:25.122Z",
-      "insightsAlterStunden": 18.2
+      "insightsStand": "2026-10-28T13:39:11.232Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-10-27",
@@ -16073,22 +16073,22 @@
         "kosten dich die Mündliche"
       ],
       "insights": {
-        "reach": 94,
-        "views": 127,
+        "reach": 107,
+        "views": 151,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 117,
-        "navigation_tap_exit": 21,
-        "navigation_tap_forward": 82,
-        "navigation_swipe_forward": 9,
-        "navigation_tap_back": 5
+        "navigation": 138,
+        "navigation_tap_exit": 23,
+        "navigation_tap_forward": 95,
+        "navigation_swipe_forward": 13,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-28T11:37:40.024Z",
-      "insightsAlterStunden": 20.1
+      "insightsStand": "2026-10-28T13:39:04.580Z",
+      "insightsAlterStunden": 22.1
     },
     {
       "datum": "2026-10-27",
@@ -16144,19 +16144,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 337,
+        "reach": 360,
         "saved": 1,
-        "shares": 0,
+        "shares": 1,
         "likes": 3,
         "comments": 0,
-        "total_interactions": 4,
-        "views": 425,
-        "ig_reels_avg_watch_time": 6235,
-        "ig_reels_video_view_total_time": 2213483,
-        "reels_skip_rate": 75.1
+        "total_interactions": 5,
+        "views": 449,
+        "ig_reels_avg_watch_time": 6176,
+        "ig_reels_video_view_total_time": 2347044,
+        "reels_skip_rate": 75.5
       },
-      "insightsStand": "2026-10-28T09:45:25.122Z",
-      "insightsAlterStunden": 15.8
+      "insightsStand": "2026-10-28T13:39:11.232Z",
+      "insightsAlterStunden": 19.6
     },
     {
       "datum": "2026-10-27",
@@ -16172,22 +16172,22 @@
         "10.000 € Zinsen abziehbar?"
       ],
       "insights": {
-        "reach": 81,
-        "views": 99,
+        "reach": 86,
+        "views": 113,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 90,
-        "navigation_tap_back": 13,
-        "navigation_tap_forward": 62,
+        "navigation": 98,
+        "navigation_swipe_forward": 4,
         "navigation_tap_exit": 11,
-        "navigation_swipe_forward": 4
+        "navigation_tap_forward": 69,
+        "navigation_tap_back": 14
       },
-      "insightsStand": "2026-10-28T09:05:37.206Z",
-      "insightsAlterStunden": 15.1
+      "insightsStand": "2026-10-28T13:39:04.580Z",
+      "insightsAlterStunden": 19.6
     },
     {
       "datum": "2026-10-27",
@@ -16204,22 +16204,22 @@
         "Was gilt als bezogen?"
       ],
       "insights": {
-        "reach": 79,
-        "views": 99,
+        "reach": 85,
+        "views": 109,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 1,
-        "navigation": 90,
-        "navigation_swipe_forward": 7,
-        "navigation_tap_back": 2,
-        "navigation_tap_forward": 68,
-        "navigation_tap_exit": 13
+        "navigation": 98,
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 73,
+        "navigation_tap_back": 3,
+        "navigation_swipe_forward": 7
       },
-      "insightsStand": "2026-10-28T09:05:37.206Z",
-      "insightsAlterStunden": 14.8
+      "insightsStand": "2026-10-28T13:39:04.580Z",
+      "insightsAlterStunden": 19.3
     },
     {
       "datum": "2026-10-28",
@@ -16396,7 +16396,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 33,
+        "saved": 1,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 2,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-28T13:39:11.232Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-28",
@@ -16410,7 +16422,22 @@
       "fach": "umwst",
       "titel": [
         "Umwandlung ohne Steuer?"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "views": 25,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 23,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 18
+      },
+      "insightsStand": "2026-10-28T13:39:04.580Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-28",
