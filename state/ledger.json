@@ -16231,6 +16231,20 @@
       "thema": "ust-quiz-ust-3",
       "fach": "ust",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s5",
+      "medienId": "18115764467593384",
+      "veroeffentlicht": "2026-10-28T09:04:24.797Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "ust-quiz-ust-3",
+      "fach": "ust",
+      "titel": [
+        "B: zehn Jahre"
+      ]
     }
   ],
   "fachZaehler": {
