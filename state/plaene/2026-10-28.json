@@ -137,7 +137,8 @@
       "zeit": "19:00",
       "art": "teaser",
       "beitragSlot": "m1",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-28T18:00:32.492Z"
     }
   ]
 }
