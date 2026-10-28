@@ -16546,6 +16546,20 @@
         "#mündlicheprüfung",
         "#examensvorbereitung"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s3",
+      "medienId": "18637868854033795",
+      "veroeffentlicht": "2026-10-28T18:00:22.017Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ust",
+      "titel": [
+        "19 % statt 7 %?"
+      ]
     }
   ],
   "fachZaehler": {
