@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T13:39:14.120Z",
+  "stand": "2026-10-28T14:45:16.320Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -48616,6 +48616,23 @@
           "navigation_tap_back": 14,
           "navigation_tap_forward": 71,
           "navigation_tap_exit": 14
+        },
+        {
+          "stand": "2026-10-28T14:45:11.752Z",
+          "alterStunden": 22.8,
+          "reach": 103,
+          "views": 146,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 126,
+          "navigation_swipe_forward": 7,
+          "navigation_tap_back": 18,
+          "navigation_tap_forward": 82,
+          "navigation_tap_exit": 19
         }
       ]
     },
@@ -48941,6 +48958,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-28T14:45:15.564Z",
+          "alterStunden": 5.7,
+          "reach": 77,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -49025,6 +49054,37 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        }
+      ]
+    },
+    "18010150808780862": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Zeit nach",
+        "Punkten planen"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T13:39:03.198Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T14:45:11.752Z",
+          "alterStunden": 1.1,
+          "reach": 20,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 20,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 6
         }
       ]
     }
@@ -51752,6 +51812,11 @@
     },
     {
       "stand": "2026-10-28T13:39:14.120Z",
+      "follower": 272,
+      "medien": 160
+    },
+    {
+      "stand": "2026-10-28T14:45:16.320Z",
       "follower": 272,
       "medien": 160
     }
