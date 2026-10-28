@@ -48,7 +48,8 @@
       "themaTitel": "Mit 4,5 brauchst du eine 3,8",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-28T18:00:00.080Z"
     }
   ],
   "stories": [
