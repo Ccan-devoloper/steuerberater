@@ -16231,7 +16231,24 @@
       "storyArt": "frage",
       "thema": "ust-quiz-ust-3",
       "fach": "ust",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 36,
+        "views": 49,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 40,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 31,
+        "navigation_tap_exit": 4
+      },
+      "insightsStand": "2026-10-28T10:59:05.197Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-28",
@@ -16245,7 +16262,24 @@
       "fach": "ust",
       "titel": [
         "B: zehn Jahre"
-      ]
+      ],
+      "insights": {
+        "reach": 25,
+        "views": 39,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 36,
+        "navigation_tap_exit": 3,
+        "navigation_tap_back": 4,
+        "navigation_tap_forward": 28,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-28T10:59:05.197Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-28",
@@ -16267,7 +16301,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#einkommensteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 53,
+        "saved": 1,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 3,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-28T10:59:10.305Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-28",
@@ -16281,7 +16327,23 @@
       "fach": "est",
       "titel": [
         "Geschenkt? Nur teilweise!"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "views": 33,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 29,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 20,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-28T10:59:05.197Z",
+      "insightsAlterStunden": 1.9
     },
     {
       "datum": "2026-10-28",

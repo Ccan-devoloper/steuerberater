@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T09:45:25.122Z",
+  "stand": "2026-10-28T10:59:11.315Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -48672,6 +48672,120 @@
           "navigation_tap_exit": 13
         }
       ]
+    },
+    "18108331502350807": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": null,
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T09:04:12.930Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T10:59:05.197Z",
+          "alterStunden": 1.9,
+          "reach": 36,
+          "views": 49,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 40,
+          "navigation_tap_back": 1,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_forward": 31,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "18115764467593384": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "B: zehn Jahre"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T09:04:24.797Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T10:59:05.197Z",
+          "alterStunden": 1.9,
+          "reach": 25,
+          "views": 39,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 36,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 4,
+          "navigation_tap_forward": 28,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "17977930329138300": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Geschenkt? Nur teilweise!"
+      ],
+      "format": null,
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T09:05:35.802Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T10:59:05.197Z",
+          "alterStunden": 1.9,
+          "reach": 27,
+          "views": 33,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 29,
+          "navigation_tap_exit": 7,
+          "navigation_tap_forward": 20,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "18249997924312130": {
+      "art": "beitrag",
+      "datum": "2026-10-28",
+      "titel": "Klausurfalle",
+      "format": "fehlerfalle",
+      "fach": "est",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T09:05:22.000Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T10:59:10.305Z",
+          "alterStunden": 1.9,
+          "reach": 53,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
     }
   },
   "konto": [
@@ -51383,6 +51497,11 @@
     {
       "stand": "2026-10-28T09:05:50.291Z",
       "follower": 271,
+      "medien": 159
+    },
+    {
+      "stand": "2026-10-28T10:59:11.315Z",
+      "follower": 272,
       "medien": 159
     }
   ]
