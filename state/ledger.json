@@ -16046,17 +16046,17 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 103,
-        "saved": 1,
+        "reach": 133,
+        "saved": 2,
         "shares": 1,
         "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
+        "total_interactions": 4,
         "follows": 0,
-        "profile_visits": 6
+        "profile_visits": 9
       },
-      "insightsStand": "2026-10-27T20:45:58.504Z",
-      "insightsAlterStunden": 5.2
+      "insightsStand": "2026-10-28T09:45:25.122Z",
+      "insightsAlterStunden": 18.2
     },
     {
       "datum": "2026-10-27",
@@ -16144,19 +16144,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 185,
+        "reach": 337,
         "saved": 1,
         "shares": 0,
-        "likes": 2,
+        "likes": 3,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 241,
-        "ig_reels_avg_watch_time": 6250,
-        "ig_reels_video_view_total_time": 1168812,
-        "reels_skip_rate": 72.4
+        "total_interactions": 4,
+        "views": 425,
+        "ig_reels_avg_watch_time": 6235,
+        "ig_reels_video_view_total_time": 2213483,
+        "reels_skip_rate": 75.1
       },
-      "insightsStand": "2026-10-27T20:45:58.504Z",
-      "insightsAlterStunden": 2.8
+      "insightsStand": "2026-10-28T09:45:25.122Z",
+      "insightsAlterStunden": 15.8
     },
     {
       "datum": "2026-10-27",
