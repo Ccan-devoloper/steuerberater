@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T18:53:33.343Z",
+  "stand": "2026-10-28T19:47:43.417Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -49502,6 +49502,20 @@
           "ig_reels_avg_watch_time": 8116,
           "ig_reels_video_view_total_time": 1152589,
           "reels_skip_rate": 49.7
+        },
+        {
+          "stand": "2026-10-28T19:47:41.271Z",
+          "alterStunden": 3.3,
+          "reach": 262,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 379,
+          "ig_reels_avg_watch_time": 9459,
+          "ig_reels_video_view_total_time": 2506777,
+          "reels_skip_rate": 46.3
         }
       ]
     },
@@ -49528,6 +49542,100 @@
           "ig_reels_avg_watch_time": 10871,
           "ig_reels_video_view_total_time": 891442,
           "reels_skip_rate": 32.8
+        }
+      ]
+    },
+    "18637868854033795": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "19 % statt 7 %?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T18:00:22.017Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T19:47:36.123Z",
+          "alterStunden": 1.8,
+          "reach": 39,
+          "views": 51,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 41,
+          "navigation_tap_exit": 10,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_forward": 25,
+          "navigation_tap_back": 1
+        }
+      ]
+    },
+    "17902952436671892": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Mit 4,5 zugelassen?",
+        "Dann wird's knapp"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T18:00:37.263Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T19:47:36.123Z",
+          "alterStunden": 1.8,
+          "reach": 32,
+          "views": 46,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 1,
+          "navigation": 39,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 28,
+          "navigation_tap_back": 4,
+          "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18012772487974845": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Bescheid zum",
+        "Abruf bereit"
+      ],
+      "format": null,
+      "fach": "ao",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T18:13:04.927Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T19:47:36.123Z",
+          "alterStunden": 1.6,
+          "reach": 29,
+          "views": 42,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 34,
+          "navigation_tap_exit": 5,
+          "navigation_tap_forward": 24,
+          "navigation_tap_back": 5
         }
       ]
     }
@@ -52280,6 +52388,11 @@
     },
     {
       "stand": "2026-10-28T18:53:33.343Z",
+      "follower": 273,
+      "medien": 162
+    },
+    {
+      "stand": "2026-10-28T19:47:43.417Z",
       "follower": 273,
       "medien": 162
     }

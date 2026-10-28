@@ -16527,19 +16527,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 143,
-        "saved": 0,
+        "reach": 262,
+        "saved": 1,
         "shares": 0,
         "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 197,
-        "ig_reels_avg_watch_time": 8116,
-        "ig_reels_video_view_total_time": 1152589,
-        "reels_skip_rate": 49.7
+        "total_interactions": 3,
+        "views": 379,
+        "ig_reels_avg_watch_time": 9459,
+        "ig_reels_video_view_total_time": 2506777,
+        "reels_skip_rate": 46.3
       },
-      "insightsStand": "2026-10-28T18:00:42.683Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-10-28T19:47:41.271Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-28",
@@ -16589,7 +16589,24 @@
       "fach": "ust",
       "titel": [
         "19 % statt 7 %?"
-      ]
+      ],
+      "insights": {
+        "reach": 39,
+        "views": 51,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 41,
+        "navigation_tap_exit": 10,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_forward": 25,
+        "navigation_tap_back": 1
+      },
+      "insightsStand": "2026-10-28T19:47:36.123Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-28",
@@ -16604,7 +16621,24 @@
       "titel": [
         "Mit 4,5 zugelassen?",
         "Dann wird's knapp"
-      ]
+      ],
+      "insights": {
+        "reach": 32,
+        "views": 46,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 1,
+        "profile_activity": 1,
+        "navigation": 39,
+        "navigation_tap_exit": 6,
+        "navigation_tap_forward": 28,
+        "navigation_tap_back": 4,
+        "navigation_swipe_forward": 1
+      },
+      "insightsStand": "2026-10-28T19:47:36.123Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-28",
@@ -16619,7 +16653,23 @@
       "titel": [
         "Bescheid zum",
         "Abruf bereit"
-      ]
+      ],
+      "insights": {
+        "reach": 29,
+        "views": 42,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 34,
+        "navigation_tap_exit": 5,
+        "navigation_tap_forward": 24,
+        "navigation_tap_back": 5
+      },
+      "insightsStand": "2026-10-28T19:47:36.123Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {
