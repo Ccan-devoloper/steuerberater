@@ -16144,19 +16144,19 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 360,
+        "reach": 377,
         "saved": 1,
-        "shares": 1,
-        "likes": 3,
+        "shares": 3,
+        "likes": 5,
         "comments": 0,
-        "total_interactions": 5,
-        "views": 449,
-        "ig_reels_avg_watch_time": 6176,
-        "ig_reels_video_view_total_time": 2347044,
-        "reels_skip_rate": 75.5
+        "total_interactions": 9,
+        "views": 477,
+        "ig_reels_avg_watch_time": 6258,
+        "ig_reels_video_view_total_time": 2503259,
+        "reels_skip_rate": 74.2
       },
-      "insightsStand": "2026-10-28T13:39:11.232Z",
-      "insightsAlterStunden": 19.6
+      "insightsStand": "2026-10-28T16:48:36.407Z",
+      "insightsAlterStunden": 22.8
     },
     {
       "datum": "2026-10-27",
@@ -16361,21 +16361,22 @@
         "Anrechnung?"
       ],
       "insights": {
-        "reach": 26,
-        "views": 31,
+        "reach": 56,
+        "views": 64,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 25,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 14,
-        "navigation_swipe_forward": 3
+        "navigation": 57,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 39,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_back": 1
       },
-      "insightsStand": "2026-10-28T12:30:20.381Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-10-28T16:48:34.563Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-10-28",
