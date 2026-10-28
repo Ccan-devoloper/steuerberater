@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-3",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "§ 15a UStG:",
+    "Wie lange bei Grundstücken?"
+  ],
+  "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre"
+  ],
+  "pairId": "ust-quiz-ust-3",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Prüfungsfrage",
+    "§ 15a UStG:",
+    "Wie lange bei Grundstücken?",
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

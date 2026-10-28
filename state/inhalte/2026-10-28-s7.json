@@ -1,0 +1,48 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Zeit nach",
+    "Punkten planen"
+  ],
+  "punkte": [
+    [
+      "Punkte je Teil notieren",
+      "ok",
+      null
+    ],
+    [
+      "Endzeit je Teil an den Rand",
+      "ok",
+      null
+    ],
+    [
+      "Zeit um? Weiter, Lücke lassen",
+      "warn",
+      null
+    ]
+  ],
+  "icon": "tabler:clock",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Zeit nach",
+    "Punkten planen",
+    "Punkte je Teil notieren",
+    "Endzeit je Teil an den Rand",
+    "Zeit um? Weiter, Lücke lassen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

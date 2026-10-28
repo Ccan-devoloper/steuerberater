@@ -1,0 +1,86 @@
+{
+  "format": "schema",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-ks-1-01",
+  "caption": "Prüfschema Umwandlungssteuerrecht: Warum braucht eine steuerneutrale Umwandlung das UmwStG? In 4 Schritten.\n\nOhne Sondernorm führt ein Wechsel des Rechtsträgers zur Aufdeckung stiller Reserven, bei Personenunternehmen über Veräußerung oder Aufgabe (§ 16 Abs. 1, 3 EStG). Ausnahmen im EStG: § 6 Abs. 3, § 6 Abs. 5 S. 3, § 16 Abs. 3 S. 2 EStG.\n\n1. Vorgang bestimmen: Verschmelzung, Spaltung, Formwechsel oder vergleichbare ausländische Vorgänge (§ 1 Abs. 1 UmwStG), Einbringungen (§ 1 Abs. 3 UmwStG).\n2. Sachgesamtheit prüfen: Betrieb, Teilbetrieb, Mitunternehmeranteil (§§ 20, 24 UmwStG); einzelne Anteile nur beim Anteilstausch (§ 21 UmwStG).\n3. Grundsatz: Bewertung zum gemeinen Wert (§ 11 Abs. 1 S. 1 UmwStG).\n4. Auf Antrag Buchwert oder Zwischenwert, soweit die spätere Besteuerung mit Körperschaftsteuer sichergestellt ist, das deutsche Besteuerungsrecht nicht ausgeschlossen oder beschränkt wird und keine Gegenleistung oder nur Gesellschaftsrechte gewährt werden (§ 11 Abs. 2 S. 1 Nr. 1–3 UmwStG).\n\nZum Schluss: § 11 UmwStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#umwandlungssteuerrecht"
+  ],
+  "quellen": [
+    "§ 1 Abs. 1, 3 UmwStG",
+    "§ 11 Abs. 1, 2 UmwStG",
+    "§§ 20, 21, 24 UmwStG",
+    "§ 16 Abs. 1, 3 EStG",
+    "§ 6 Abs. 3, 5 S. 3 EStG"
+  ],
+  "slug": "2026-10-28-b2",
+  "kurztitel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Prüfschema",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Prüfschema",
+      "text": "Prüfschema · Umwandlung · ohne Steuer? · § 11 UmwStG · in 4 Schritten · + Markier-Guide § 11 UmwStG",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Das Schema · Vorgang bestimmen · § 1 Abs. 1, 3 UmwStG · Sachgesamtheit? · §§ 20, 21, 24 UmwStG · Grundsatz: gemeiner Wert · § 11 Abs. 1 UmwStG · Antrag auf Buchwert · § 11 Abs. 2 UmwStG · Am Ende: § 11 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Ohne Sondernorm · Wechselt der Rechtsträger, werden stille Reserven aufgedeckt. · Einzelunternehmen und Mitunternehmer: Veräußerung oder Aufgabe. · § 16 Abs. 1, 3 EStG · Buchwerte einfach fortführen reicht nicht. · Ilka, Steuerberaterin"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Ausnahmen im EStG · Betrieb unentgeltlich übertragen: Buchwert. · § 6 Abs. 3 EStG · Einzelnes Wirtschaftsgut in die Mitunternehmerschaft: Buchwert. · § 6 Abs. 5 S. 3 EStG · Realteilung: Buchwert. · § 16 Abs. 3 S. 2 EStG · Alles andere: UmwStG prüfen · Nur drei Wege"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Schritt 1 und 2 · Verschmelzung, Spaltung, Formwechsel nach dem UmwG oder vergleichbar im Ausland. · § 1 Abs. 1 UmwStG · Einbringung von Betrieb, Teilbetrieb oder Mitunternehmeranteil. · § 1 Abs. 3, § 20 Abs. 1 UmwStG · Einzelne Wirtschaftsgüter: nur der Anteilstausch. · § 21 UmwStG · Was geht über?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Beispiel · Die Lindqvist GmbH wird auf die Petersen GmbH verschmolzen. · In ihrem Vermögen stecken 800.000 € stille Reserven. · Ihr Gesellschafter Joris erhält dafür nur neue Anteile. · Ich bin Joris"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Jetzt du · Muss die Lindqvist GmbH die 800.000 € versteuern? · Welche Bedingungen müssen erfüllt sein? · Lösung: weiterwischen · Kostet mich das?"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Lösung · Grundsatz: gemeiner Wert, also 800.000 € Gewinn. · § 11 Abs. 1 S. 1 UmwStG · Auf Antrag Buchwert: KSt-Zugriff bleibt, Deutschland verliert kein Besteuerungsrecht, nur Anteile als Gegenleistung. · § 11 Abs. 2 S. 1 Nr. 1–3 UmwStG · Hier erfüllt: kein Gewinn. · Antrag stellen!"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "Antrag gestellt: Buchwert, kein Gewinn · Ohne Antrag: 800.000 € aufdecken · Rechtsträger wechselt: · Reserven werden aufgedeckt · außer UmwStG und Antrag · Speichern für Klausur 3 · Prüfst du § 1 UmwStG zuerst? · Weiterwischen: § 11 UmwStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Umwandlungssteuerrecht",
+      "text": "§ 11 UmwStG (Auszug) · Grundsatz · Wahlrecht · Ziel · Bedingung Nr. 3 · Nr. 1 und 2: KSt-Zugriff, · deutsches Besteuerungsrecht bleibt"
+    }
+  ]
+}

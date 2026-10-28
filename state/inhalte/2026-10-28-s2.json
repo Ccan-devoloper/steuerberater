@@ -1,0 +1,26 @@
+{
+  "slot": "s2",
+  "art": "teaser",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": null,
+  "beitragSlot": "b2",
+  "quellen": null,
+  "titel": [
+    "Umwandlung ohne Steuer?"
+  ],
+  "unter": "Prüfschema + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Neu im Feed",
+    "Umwandlung ohne Steuer?",
+    "Prüfschema + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

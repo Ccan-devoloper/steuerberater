@@ -1,0 +1,59 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-313",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Bescheid zum",
+    "Abruf bereit"
+  ],
+  "zeilen": [
+    [
+      [
+        "Bekannt gegeben",
+        null
+      ]
+    ],
+    [
+      [
+        "am ",
+        null
+      ],
+      [
+        "vierten Tag",
+        "a"
+      ]
+    ],
+    [
+      [
+        "nach der ",
+        null
+      ],
+      [
+        "Bereitstellung",
+        "b"
+      ]
+    ]
+  ],
+  "norm": "§ 122a Abs. 4 S. 1 AO",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Merksatz",
+    "Bescheid zum",
+    "Abruf bereit",
+    "Bekannt gegeben",
+    "am vierten Tag",
+    "nach der Bereitstellung",
+    "§ 122a Abs. 4 S. 1 AO"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

@@ -1,0 +1,38 @@
+{
+  "slot": "s5",
+  "art": "antwort",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-quiz-ust-3",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "B: zehn Jahre"
+  ],
+  "optionen": [
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre"
+  ],
+  "richtig": 1,
+  "text": "Bei Grundstücken und Gebäuden auf fremdem Boden zehn statt fünf Jahre ab erstmaliger Verwendung.",
+  "norm": "§ 15a Abs. 1 S. 2 UStG",
+  "pairId": "ust-quiz-ust-3",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Auflösung",
+    "B: zehn Jahre",
+    "5 Jahre",
+    "10 Jahre",
+    "20 Jahre",
+    "Bei Grundstücken und Gebäuden auf fremdem Boden zehn statt fünf Jahre ab erstmaliger Verwendung.",
+    "§ 15a Abs. 1 S. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

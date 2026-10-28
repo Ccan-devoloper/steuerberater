@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-karte-k3-17",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Verbindlichkeit",
+    "abzinsen?"
+  ],
+  "punkte": [
+    [
+      "Nicht mehr für Wirtschaftsjahre, die nach 2022 enden",
+      "nein",
+      "§ 52 Abs. 12 S. 2 EStG"
+    ],
+    [
+      "Rückstellungen weiter mit 5,5 %",
+      "warn",
+      "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+    ]
+  ],
+  "icon": "tabler:percentage",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Bilanzsteuerrecht",
+    "Klausurtipp",
+    "Verbindlichkeit",
+    "abzinsen?",
+    "Nicht mehr für Wirtschaftsjahre, die nach 2022 enden",
+    "§ 52 Abs. 12 S. 2 EStG",
+    "Rückstellungen weiter mit 5,5 %",
+    "§ 6 Abs. 1 Nr. 3a Buchst. e EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

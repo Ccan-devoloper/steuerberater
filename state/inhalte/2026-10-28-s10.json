@@ -1,0 +1,29 @@
+{
+  "slot": "s10",
+  "art": "teaser",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": null,
+  "beitragSlot": "m1",
+  "quellen": null,
+  "ueberzeile": "Neues Reel",
+  "titel": [
+    "Mit 4,5 zugelassen?",
+    "Dann wird's knapp"
+  ],
+  "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
+  "sichtbareTexte": [
+    "Mündliche Prüfung",
+    "Neues Reel",
+    "Mit 4,5 zugelassen?",
+    "Dann wird's knapp",
+    "Gratis-PDF mit allen 10 Fehlern: Link in Bio"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

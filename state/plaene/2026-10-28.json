@@ -1,0 +1,119 @@
+{
+  "datum": "2026-10-28",
+  "erzeugt": "2026-10-28T09:03:57.535Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "fehlerfalle",
+      "themaId": "est-aufb-est-ks2-ve-02",
+      "themaTitel": "Schenkung mit Gegenleistung: Wie wird Privatvermögen aufgeteilt?",
+      "fach": "est",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "schema",
+      "themaId": "umwst-aufb-umw-ks-1-01",
+      "themaTitel": "Warum braucht man für steuerneutrale Umwandlungen das UmwStG?",
+      "fach": "umwst",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": "ust-karte-ust-14",
+      "themaTitel": "§ 14c UStG – zwei Fälle",
+      "fach": "ust",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "lead-reel-formsache",
+      "themaTitel": "Mit 4,5 brauchst du eine 3,8",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:16",
+      "art": "frage",
+      "themaId": "ust-quiz-ust-3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:16",
+      "art": "antwort",
+      "themaId": "ust-quiz-ust-3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "11:59",
+      "art": "norm",
+      "themaId": "istr-aufb-istr-gh-4-45",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:39",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "16:55",
+      "art": "tipp",
+      "themaId": "bilanz-karte-k3-17",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:13",
+      "art": "merksatz",
+      "themaId": "ao-modul-ao-313",
+      "status": "geplant"
+    },
+    {
+      "slot": "s10",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "m1",
+      "status": "geplant"
+    }
+  ]
+}

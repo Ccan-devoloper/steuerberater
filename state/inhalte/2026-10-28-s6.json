@@ -1,0 +1,44 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "istr",
+  "klausur": 2,
+  "fachLabel": "Internationales Steuerrecht",
+  "themaId": "istr-aufb-istr-gh-4-45",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Abzug statt",
+    "Anrechnung?"
+  ],
+  "norm": "§ 34c Abs. 2 EStG",
+  "punkte": [
+    [
+      "Lohnt vor allem bei Verlusten: Die Auslandssteuer erhöht den Verlust.",
+      "ok",
+      "§ 34c Abs. 2 EStG"
+    ],
+    [
+      "Nicht bei Kapitalerträgen mit Abgeltungsteuer.",
+      "nein",
+      "§ 34c Abs. 1 S. 1 Hs. 2 EStG"
+    ]
+  ],
+  "sichtbareTexte": [
+    "Internationales Steuerrecht",
+    "Norm des Tages",
+    "Abzug statt",
+    "Anrechnung?",
+    "§ 34c Abs. 2 EStG",
+    "Lohnt vor allem bei Verlusten: Die Auslandssteuer erhöht den Verlust.",
+    "§ 34c Abs. 2 EStG",
+    "Nicht bei Kapitalerträgen mit Abgeltungsteuer.",
+    "§ 34c Abs. 1 S. 1 Hs. 2 EStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

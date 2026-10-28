@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": "lead-reel-formsache",
+  "caption": "Zugelassen mit 4,5 und denkst, das reicht? 🧮\n\nBestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB). (4,5 + 3,8) : 2 = 4,15. Dazu Kurzvortrag und sechs Prüfungsabschnitte (§ 26 Abs. 3 DVStB) – und in fast jedem dritten von über 400 Protokollen fiel mindestens einer durch.\n\nDie 10 häufigsten Fehler als Gratis-PDF 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+  ],
+  "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 26 Abs. 3 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+  ],
+  "slug": "2026-10-28-m1",
+  "kurztitel": "Mit 4,5 brauchst du eine 3,8",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Mit 4,5 zur Mündlichen?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Grenze"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Rechnung"
+    },
+    {
+      "art": "schritt",
+      "titel": "Kein Selbstläufer"
+    }
+  ],
+  "sprecher": [
+    "Zugelassen mit vier Komma fünf und denkst, das reicht? Rechne mal nach.",
+    "Bestanden ist nur, wer im Durchschnitt aus schriftlich und mündlich höchstens vier Komma eins fünf erreicht.",
+    "Vier Komma fünf plus drei Komma acht, geteilt durch zwei. Macht genau vier Komma eins fünf.",
+    "Dazu ein Kurzvortrag und sechs Prüfungsrunden. Und in fast jedem dritten Protokoll fällt mindestens einer durch.",
+    "Die zehn häufigsten Fehler gibt es kostenlos zum Download. Link in der Bio."
+  ],
+  "dauerS": 31.096,
+  "tempo": 1
+}
