@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T17:30:03.631Z",
+  "stand": "2026-10-28T18:00:45.554Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -48443,6 +48443,18 @@
           "total_interactions": 6,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-28T18:00:42.683Z",
+          "alterStunden": 29.5,
+          "reach": 94,
+          "saved": 3,
+          "shares": 2,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -49026,6 +49038,23 @@
           "navigation_tap_back": 3,
           "navigation_tap_forward": 79,
           "navigation_tap_exit": 16
+        },
+        {
+          "stand": "2026-10-28T18:00:38.827Z",
+          "alterStunden": 23.7,
+          "reach": 99,
+          "views": 129,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 1,
+          "navigation": 114,
+          "navigation_swipe_forward": 12,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 83,
+          "navigation_tap_exit": 16
         }
       ]
     },
@@ -49215,6 +49244,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-28T18:00:42.683Z",
+          "alterStunden": 8.9,
+          "reach": 91,
+          "saved": 1,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -49292,6 +49333,22 @@
           "navigation": 23,
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 18
+        },
+        {
+          "stand": "2026-10-28T18:00:38.827Z",
+          "alterStunden": 5.5,
+          "reach": 57,
+          "views": 63,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 58,
+          "navigation_tap_forward": 46,
+          "navigation_tap_exit": 10,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -49321,6 +49378,18 @@
           "stand": "2026-10-28T15:55:14.119Z",
           "alterStunden": 3.4,
           "reach": 60,
+          "saved": 1,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-28T18:00:42.683Z",
+          "alterStunden": 5.5,
+          "reach": 70,
           "saved": 1,
           "shares": 1,
           "likes": 2,
@@ -49390,6 +49459,32 @@
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 21,
           "navigation_tap_exit": 6
+        }
+      ]
+    },
+    "18110388934906326": {
+      "art": "beitrag",
+      "datum": "2026-10-28",
+      "titel": "§ 14c UStG – zwei Fälle",
+      "format": "reel",
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T16:30:09.749Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T18:00:42.683Z",
+          "alterStunden": 1.5,
+          "reach": 143,
+          "saved": 0,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 197,
+          "ig_reels_avg_watch_time": 8116,
+          "ig_reels_video_view_total_time": 1152589,
+          "reels_skip_rate": 49.7
         }
       ]
     }
@@ -52134,6 +52229,11 @@
       "stand": "2026-10-28T16:48:37.817Z",
       "follower": 272,
       "medien": 161
+    },
+    {
+      "stand": "2026-10-28T18:00:45.554Z",
+      "follower": 273,
+      "medien": 162
     }
   ]
 }

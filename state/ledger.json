@@ -15949,7 +15949,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 89,
+        "reach": 94,
         "saved": 3,
         "shares": 2,
         "likes": 1,
@@ -15958,8 +15958,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-28T09:08:52.763Z",
-      "insightsAlterStunden": 20.6
+      "insightsStand": "2026-10-28T18:00:42.683Z",
+      "insightsAlterStunden": 29.5
     },
     {
       "datum": "2026-10-27",
@@ -16204,22 +16204,22 @@
         "Was gilt als bezogen?"
       ],
       "insights": {
-        "reach": 92,
-        "views": 119,
+        "reach": 99,
+        "views": 129,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 1,
-        "navigation": 108,
-        "navigation_swipe_forward": 10,
+        "navigation": 114,
+        "navigation_swipe_forward": 12,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 79,
+        "navigation_tap_forward": 83,
         "navigation_tap_exit": 16
       },
-      "insightsStand": "2026-10-28T15:55:06.136Z",
-      "insightsAlterStunden": 21.6
+      "insightsStand": "2026-10-28T18:00:38.827Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-28",
@@ -16303,7 +16303,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 77,
+        "reach": 91,
         "saved": 1,
         "shares": 0,
         "likes": 3,
@@ -16312,8 +16312,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-28T14:45:15.564Z",
-      "insightsAlterStunden": 5.7
+      "insightsStand": "2026-10-28T18:00:42.683Z",
+      "insightsAlterStunden": 8.9
     },
     {
       "datum": "2026-10-28",
@@ -16400,7 +16400,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 60,
+        "reach": 70,
         "saved": 1,
         "shares": 1,
         "likes": 2,
@@ -16409,8 +16409,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-28T15:55:14.119Z",
-      "insightsAlterStunden": 3.4
+      "insightsStand": "2026-10-28T18:00:42.683Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-28",
@@ -16426,20 +16426,21 @@
         "Umwandlung ohne Steuer?"
       ],
       "insights": {
-        "reach": 17,
-        "views": 25,
+        "reach": 57,
+        "views": 63,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 23,
-        "navigation_tap_exit": 5,
-        "navigation_tap_forward": 18
+        "navigation": 58,
+        "navigation_tap_forward": 46,
+        "navigation_tap_exit": 10,
+        "navigation_swipe_forward": 2
       },
-      "insightsStand": "2026-10-28T13:39:04.580Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-28T18:00:38.827Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-28",
@@ -16523,7 +16524,21 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#umsatzsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 143,
+        "saved": 0,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 2,
+        "views": 197,
+        "ig_reels_avg_watch_time": 8116,
+        "ig_reels_video_view_total_time": 1152589,
+        "reels_skip_rate": 49.7
+      },
+      "insightsStand": "2026-10-28T18:00:42.683Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-28",
