@@ -16245,6 +16245,28 @@
       "titel": [
         "B: zehn Jahre"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "b1",
+      "medienId": "18249997924312130",
+      "veroeffentlicht": "2026-10-28T09:05:22.000Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 10,
+      "format": "fehlerfalle",
+      "thema": "est-aufb-est-ks2-ve-02",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Klausurfalle",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16256,7 +16278,7 @@
     "istr": 20,
     "erbst": 10,
     "mindset": 2,
-    "est": 6,
+    "est": 7,
     "umwst": 8,
     "gewst": 4,
     "null": 6
