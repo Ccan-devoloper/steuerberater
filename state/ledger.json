@@ -16469,6 +16469,21 @@
       },
       "insightsStand": "2026-10-28T14:45:11.752Z",
       "insightsAlterStunden": 1.1
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s8",
+      "medienId": "18147893995545196",
+      "veroeffentlicht": "2026-10-28T15:55:04.754Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "bilanz-karte-k3-17",
+      "fach": "bilanz",
+      "titel": [
+        "Verbindlichkeit",
+        "abzinsen?"
+      ]
     }
   ],
   "fachZaehler": {
