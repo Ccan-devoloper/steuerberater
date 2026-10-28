@@ -16267,6 +16267,20 @@
         "#examensvorbereitung",
         "#einkommensteuer"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s1",
+      "medienId": "17977930329138300",
+      "veroeffentlicht": "2026-10-28T09:05:35.802Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "est",
+      "titel": [
+        "Geschenkt? Nur teilweise!"
+      ]
     }
   ],
   "fachZaehler": {
