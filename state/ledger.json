@@ -15975,22 +15975,22 @@
         "Freistellen oder anrechnen?"
       ],
       "insights": {
-        "reach": 107,
-        "views": 137,
+        "reach": 114,
+        "views": 144,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 122,
-        "navigation_tap_back": 11,
-        "navigation_swipe_forward": 12,
-        "navigation_tap_exit": 15,
-        "navigation_tap_forward": 84
+        "navigation": 131,
+        "navigation_tap_back": 12,
+        "navigation_swipe_forward": 16,
+        "navigation_tap_exit": 17,
+        "navigation_tap_forward": 86
       },
-      "insightsStand": "2026-10-28T09:05:37.206Z",
-      "insightsAlterStunden": 20.6
+      "insightsStand": "2026-10-28T11:37:40.024Z",
+      "insightsAlterStunden": 23.1
     },
     {
       "datum": "2026-10-27",
@@ -16007,22 +16007,22 @@
         "dann der Fall"
       ],
       "insights": {
-        "reach": 98,
-        "views": 124,
+        "reach": 101,
+        "views": 128,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 113,
+        "navigation": 116,
         "navigation_tap_back": 12,
-        "navigation_tap_exit": 16,
-        "navigation_tap_forward": 75,
-        "navigation_swipe_forward": 10
+        "navigation_tap_exit": 17,
+        "navigation_tap_forward": 76,
+        "navigation_swipe_forward": 11
       },
-      "insightsStand": "2026-10-28T09:05:37.206Z",
-      "insightsAlterStunden": 19.4
+      "insightsStand": "2026-10-28T11:37:40.024Z",
+      "insightsAlterStunden": 21.9
     },
     {
       "datum": "2026-10-27",
@@ -16073,22 +16073,22 @@
         "kosten dich die Mündliche"
       ],
       "insights": {
-        "reach": 92,
-        "views": 125,
+        "reach": 94,
+        "views": 127,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 114,
-        "navigation_tap_back": 5,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 81,
-        "navigation_tap_exit": 20
+        "navigation": 117,
+        "navigation_tap_exit": 21,
+        "navigation_tap_forward": 82,
+        "navigation_swipe_forward": 9,
+        "navigation_tap_back": 5
       },
-      "insightsStand": "2026-10-28T09:05:37.206Z",
-      "insightsAlterStunden": 17.5
+      "insightsStand": "2026-10-28T11:37:40.024Z",
+      "insightsAlterStunden": 20.1
     },
     {
       "datum": "2026-10-27",
