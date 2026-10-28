@@ -80,8 +80,9 @@
       "zeit": "11:59",
       "art": "norm",
       "themaId": "istr-aufb-istr-gh-4-45",
-      "status": "sendet",
-      "sendeversuch": "2026-10-28T10:59:00.100Z"
+      "status": "veroeffentlicht",
+      "medienId": "17997944748024433",
+      "veroeffentlicht": "2026-10-28T10:59:03.795Z"
     },
     {
       "slot": "s2",
