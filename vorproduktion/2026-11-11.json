@@ -1,0 +1,723 @@
+{
+  "datum": "2026-11-11",
+  "status": "vorproduziert",
+  "freigabeBetreiber": true,
+  "liveVerknuepft": false,
+  "vorproduktionStatus": "live-freigegeben",
+  "layoutQuelle": "open-peeps-variante-c",
+  "semantikQuelle": "examenscampus",
+  "liveVorrangAktiv": true,
+  "normalbetriebGesperrt": true,
+  "bildStatus": "open-peeps-render",
+  "kostenPolicy": {
+    "textUndFaktencheckUsd": 0,
+    "bildgenerierungUsd": 0,
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "bildgenerierungErlaubt": false,
+    "reelStimme": "elevenlabs-abo"
+  },
+  "plan": {
+    "beitraege": [
+      {
+        "slot": "b1",
+        "zeit": "08:30",
+        "format": "fehlerfalle",
+        "themaId": "erbst-modul-erbst-540",
+        "themaTitel": "Grundstücksbewertung: § 12 Abs. 3 ErbStG: gesonderter Grundbesitzwert nach §§ 151, 157 BewG",
+        "fach": "erbst",
+        "klausur": 1
+      },
+      {
+        "slot": "b2",
+        "zeit": "13:30",
+        "format": "schema",
+        "themaId": "kst-schema-4",
+        "themaTitel": "Verlustuntergang nach § 8c/§ 8d",
+        "fach": "kst",
+        "klausur": 2
+      },
+      {
+        "slot": "b3",
+        "zeit": "19:00",
+        "format": "reel",
+        "themaId": "umwst-aufb-umw-4-02",
+        "themaTitel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+        "fach": "umwst",
+        "klausur": 3
+      }
+    ],
+    "stories": [
+      {
+        "slot": "s4",
+        "zeit": "07:07",
+        "art": "frage",
+        "themaId": "persg-quiz-k3-30"
+      },
+      {
+        "slot": "s5",
+        "zeit": "07:09",
+        "art": "antwort",
+        "themaId": "persg-quiz-k3-30"
+      },
+      {
+        "slot": "s1",
+        "zeit": "08:30",
+        "art": "teaser",
+        "beitragSlot": "b1"
+      },
+      {
+        "slot": "s6",
+        "zeit": "12:14",
+        "art": "norm",
+        "themaId": "erbst-modul-erbst-542"
+      },
+      {
+        "slot": "s2",
+        "zeit": "13:30",
+        "art": "teaser",
+        "beitragSlot": "b2"
+      },
+      {
+        "slot": "s7",
+        "zeit": "14:40",
+        "art": "tipp"
+      },
+      {
+        "slot": "s8",
+        "zeit": "17:04",
+        "art": "tipp",
+        "themaId": "istr-modul-istr-istr4-02"
+      },
+      {
+        "slot": "s3",
+        "zeit": "19:00",
+        "art": "teaser",
+        "beitragSlot": "b3"
+      },
+      {
+        "slot": "s9",
+        "zeit": "19:12",
+        "art": "merksatz",
+        "themaId": "umwst-aufb-umw-4-09"
+      }
+    ]
+  },
+  "inhalte": {
+    "b1": {
+      "format": "fehlerfalle",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-540",
+      "caption": "Klausurfalle Erbschaftsteuer: Die geerbte Wohnung wird nicht mit dem Maklerwert angesetzt.\n\n▸ Inländischer Grundbesitz wird mit dem gesondert festgestellten Grundbesitzwert angesetzt, nicht nach § 9 BewG (§ 12 Abs. 3 ErbStG; § 151 Abs. 1 S. 1 Nr. 1 BewG).\n▸ Maßgeblich sind die tatsächlichen Verhältnisse und die Wertverhältnisse am Bewertungsstichtag (§ 157 Abs. 1 S. 1 BewG); Grundvermögen nach §§ 159, 176 bis 198 BewG (§ 157 Abs. 3 BewG).\n▸ Zuständig ist das Lage-Finanzamt (§ 152 Nr. 1 BewG). Der Feststellungsbescheid ist Grundlagenbescheid (§ 182 Abs. 1 S. 1 AO); Einwände gegen den Wert nur im Einspruch gegen ihn (§ 351 Abs. 2 AO).\n▸ Verfahren: unbebaut Bodenrichtwert (§ 179 BewG); Wohnungseigentum und Ein-/Zweifamilienhäuser Vergleichswert (§ 182 Abs. 2 BewG); Mietwohn- und Geschäftsgrundstücke mit üblicher Miete Ertragswert (§ 182 Abs. 3 BewG); sonst Sachwert (§ 182 Abs. 4 BewG).\n▸ Öffnungsklausel nur nach unten: Gutachten oder Kaufpreis innerhalb eines Jahres vor oder nach dem Stichtag (§ 198 Abs. 1 bis 3 BewG).\n▸ Zu Wohnzwecken vermietete Grundstücke: Ansatz mit 90 % (§ 13d Abs. 1, 3 Nr. 1 ErbStG). Beispiel: 280.000 € × 90 % = 252.000 €.\n\nZum Schluss: § 12 Abs. 3, § 13d Abs. 1 ErbStG und § 151 Abs. 1 BewG zum Markieren. Speichern für Klausur 1 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ],
+      "quellen": [
+        "§ 12 Abs. 3 ErbStG",
+        "§ 13d Abs. 1, 3 Nr. 1 ErbStG",
+        "§ 151 Abs. 1 S. 1 Nr. 1 BewG",
+        "§ 152 Nr. 1 BewG",
+        "§ 157 Abs. 1, 3 BewG",
+        "§ 179 BewG",
+        "§ 182 Abs. 2 bis 4 BewG",
+        "§ 198 Abs. 1 bis 3 BewG",
+        "§ 182 Abs. 1 S. 1 AO",
+        "§ 351 Abs. 2 AO"
+      ],
+      "slug": "2026-11-11-b1",
+      "kurztitel": "Grundstücksbewertung: § 12 Abs. 3 ErbStG: gesonderter Grundbesitzwert nach §§ 151, 157 BewG",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Klausurfalle",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Klausurfalle",
+          "text": "Klausurfalle · Geerbte Wohnung: · Maklerwert? · § 12 Abs. 3 ErbStG · Achtung · + Markier-Guide § 12 ErbStG · Makler schätzt · 310.000 € · ansetzen?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Der Fall · Lotte erbt von ihrer Tante eine vermietete Eigentumswohnung in Leipzig, Maklerwert 310.000 €. · Falsch: diesen Wert nach § 9 BewG direkt ansetzen. · Richtig: der gesondert festgestellte Grundbesitzwert. · § 12 Abs. 3 ErbStG · Erst der Feststellungsweg!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Der richtige Weg · Türöffner · § 12 Abs. 3 ErbStG · festgestellter Wert statt § 9 BewG · Gesondert feststellen · § 151 Abs. 1 S. 1 Nr. 1 BewG · eigener Bescheid über den Grundbesitzwert · Stichtag, Ist-Zustand · § 157 Abs. 1 BewG · tatsächliche Verhältnisse beim Erbfall · Verfahren wählen · § 157 Abs. 3, §§ 176 ff. BewG · Vergleichs-, Ertrags- oder Sachwert · Am Ende: § 12 ErbStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Zwei Bescheide · Zuständig ist das Finanzamt, in dessen Bezirk die Wohnung liegt. · § 152 Nr. 1 BewG · Der Feststellungsbescheid bindet den Erbschaftsteuerbescheid. · § 182 Abs. 1 S. 1 AO · Einwände gegen den Wert gehören in den Einspruch gegen die Feststellung. · § 351 Abs. 2 AO · Grundlage und Folge."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Welches Verfahren? · Unbebaut: Fläche mal Bodenrichtwert. · § 179 S. 1 BewG · Wohnungseigentum, Ein- und Zweifamilienhaus: Vergleichswert. · § 182 Abs. 2 BewG · Mietwohn- und Geschäftsgrundstück mit üblicher Miete: Ertragswert. · § 182 Abs. 3 BewG · Sonst: Sachwert. · § 182 Abs. 4 BewG · Lottes Wohnung: Vergleichswert."
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Niedriger nachweisen · Ein niedrigerer gemeiner Wert kann nachgewiesen werden. · § 198 Abs. 1 S. 1 BewG · Per Gutachten oder per Kaufpreis binnen eines Jahres um den Stichtag. · § 198 Abs. 2, 3 BewG · Ein höherer Wert wird nie angesetzt. · Nur nach unten?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Jetzt du · Für Lottes Wohnung stellt das Finanzamt einen Grundbesitzwert von 280.000 € fest. · Die Wohnung ist zu Wohnzwecken vermietet. · Welcher Wert geht in die Erbschaftsteuer? · 280.000 €?"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Lösung · § 12 Abs. 3 ErbStG · § 13d Abs. 1, 3 ErbStG · Maklerwert · unbeachtlich · Grundbesitzwert · 280.000 € · – 10 % für Wohnvermietung · 28.000 € · Ansatz · 252.000 € · Abschlag nicht vergessen!"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "Lottes Wohnung: 252.000 € statt 310.000 € · Grundbesitzwert, dann 90 % bei Wohnvermietung · Grundbesitzwert statt · Maklerwert, · gesondert festgestellt, · nach unten offen. · Speichern für Klausur 1 · Wärst du in die Falle getappt? · Weiterwischen: § 12 ErbStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Erbschaftsteuer",
+          "text": "§§ 12, 13d ErbStG, § 151 BewG (Auszug) · Verweis ins BewG · Todestag · nicht Maklerwert! · vermietet: 90 % · Randnotiz: §§ 176–198 BewG · Bewertung im Detail, § 198 als Öffnungsklausel"
+        }
+      ]
+    },
+    "b2": {
+      "format": "schema",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": "kst-schema-4",
+      "caption": "Verlustuntergang beim Anteilskauf: das Prüfschema zu §§ 8c, 8d KStG für die Ertragsteuer-Klausur.\n\n1. Schädlicher Beteiligungserwerb: mehr als 50 % innerhalb von fünf Jahren an einen Erwerber oder nahestehende Personen, auch Erwerbergruppen und Kapitalerhöhungen (§ 8c Abs. 1 S. 1 bis 3 KStG). Folge: nicht genutzte Verluste sind vollständig nicht mehr abziehbar.\n2. Ausnahmen: Konzernklausel (§ 8c Abs. 1 S. 4 KStG), Sanierungsklausel (§ 8c Abs. 1a KStG).\n3. Stille-Reserven-Klausel: Abzug, soweit im Inland steuerpflichtige stille Reserven vorhanden sind (§ 8c Abs. 1 S. 5 bis 8 KStG).\n4. Fortführungsgebundener Verlustvortrag auf Antrag, wenn seit drei Veranlagungszeiträumen ausschließlich derselbe Geschäftsbetrieb besteht (§ 8d Abs. 1 S. 1, 5 KStG); ausgeschlossen u. a. bei Organträger- oder Mitunternehmerstellung (§ 8d Abs. 1 S. 2 Nr. 2 KStG).\n5. Schädliche Ereignisse danach, etwa Einstellung oder zusätzlicher Geschäftsbetrieb, lassen den Verlust untergehen, soweit keine stillen Reserven vorhanden sind (§ 8d Abs. 2 KStG).\n\nBeispiel: 800.000 € Verlust, 60 % verkauft, stille Reserven 300.000 € → 300.000 € bleiben, 500.000 € gehen unter.\n\nZum Schluss: § 8c KStG zum Markieren. Speichern für Klausur 2 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ],
+      "quellen": [
+        "§ 8c Abs. 1 S. 1 bis 8 KStG",
+        "§ 8c Abs. 1a KStG",
+        "§ 8d Abs. 1 S. 1, 2, 5, 6 KStG",
+        "§ 8d Abs. 2 KStG"
+      ],
+      "slug": "2026-11-11-b2",
+      "kurztitel": "Verlustuntergang nach § 8c/§ 8d",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "coverBadge": "Prüfschema",
+      "folien": [
+        {
+          "art": "titel",
+          "titel": "Prüfschema",
+          "text": "Prüfschema · Verlust weg · nach Verkauf? · §§ 8c, 8d KStG · in 5 Schritten · + Markier-Guide § 8c KStG · Verlustvortrag · 800.000 € · noch da?",
+          "bild": "op-cover"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Das Schema · Über 50 % in fünf Jahren? · § 8c Abs. 1 S. 1 KStG · Konzern oder Sanierung? · § 8c Abs. 1 S. 4, Abs. 1a KStG · Stille Reserven? · § 8c Abs. 1 S. 5 KStG · Antrag nach § 8d? · § 8d Abs. 1 KStG · Später überwachen · § 8d Abs. 2 KStG · Am Ende: § 8c KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "1 · Schädlicher Erwerb · Mehr als 50 % der Anteile oder Stimmrechte gehen innerhalb von fünf Jahren an einen Erwerber. · § 8c Abs. 1 S. 1 KStG · Nahestehende und Gruppen mit gleichgerichteten Interessen zählen zusammen. · § 8c Abs. 1 S. 1, 2 KStG · Folge: Nicht genutzte Verluste fallen vollständig weg. · Kein Anteil, alles!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "2–3 · Rettungswege · Konzernklausel: 100-%-Konzern unschädlich. · § 8c Abs. 1 S. 4 KStG · Sanierungsklausel: Sanierung ist unschädlich. · § 8c Abs. 1a S. 1 KStG · Stille Reserven decken den Verlust: Er bleibt insoweit abziehbar. · § 8c Abs. 1 S. 5 KStG · Rechnung: gemeiner Wert der Anteile minus steuerliches Eigenkapital. · § 8c Abs. 1 S. 6 KStG · Rechnen lohnt sich."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "4 · Antrag nach § 8d · Seit drei Veranlagungszeiträumen nur derselbe Geschäftsbetrieb: § 8c entfällt auf Antrag. · § 8d Abs. 1 S. 1 KStG · Antrag in der Erklärung für das Jahr des Erwerbs. · § 8d Abs. 1 S. 5 KStG · Nicht bei Organträgern oder Mitunternehmern zu Beginn des Zeitraums. · § 8d Abs. 1 S. 2 Nr. 2 KStG · Frist im Blick!"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "5 · Danach überwachen · Der Verlust ist jetzt fortführungsgebunden. · § 8d Abs. 1 S. 6 KStG · Einstellen, Ruhen, neuer Zweck, zusätzlicher Betrieb: Er geht unter, soweit keine stillen Reserven. · § 8d Abs. 2 KStG · Auch Jahre später?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Jetzt du · Die Lumo GmbH hat 800.000 € Verlustvortrag, im Erwerbsjahr kein Gewinn. · Farid kauft 60 % der Anteile. Stille Reserven im Inland: 300.000 €. Kein Antrag nach § 8d. · Wie viel Verlust bleibt? · Was bleibt mir?"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lösung · § 8c Abs. 1 S. 1, 5 KStG · 60 % an einen Erwerber · schädlich · Verlustvortrag · 800.000 € · stille Reserven · 300.000 € · Untergang · 500.000 € · 300.000 € gerettet."
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "Lumo GmbH: 300.000 € bleiben, 500.000 € weg · § 8d-Antrag immer mitprüfen · über 50 % in 5 Jahren, · Ausnahmen prüfen, · stille Reserven retten, · § 8d beantragen. · Speichern für Klausur 2 · Denkst du an den Antrag? · Weiterwischen: § 8c KStG markiert"
+        },
+        {
+          "art": "text",
+          "titel": "Körperschaftsteuer",
+          "text": "§ 8c KStG Verlustabzug (Auszug) · Zeitraum · Schwelle · Rechtsfolge · Rettung (S. 5) · Randnotiz: § 8d KStG · Antrag, wenn der Geschäftsbetrieb gleich bleibt"
+        }
+      ]
+    },
+    "b3": {
+      "format": "reel",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-4-02",
+      "caption": "Abspaltung zum Buchwert – die Klausurfalle beim Teilbetrieb ✂️\n\n▸ § 15 UmwStG erfasst Aufspaltung, Abspaltung und Teilübertragung auf andere Körperschaften; die §§ 11 bis 13 UmwStG gelten entsprechend (§ 15 Abs. 1 S. 1 UmwStG). Die Ausgliederung fällt unter den Sechsten bis Achten Teil (§ 1 Abs. 3 Nr. 2 UmwStG), also z. B. § 20 UmwStG.\n▸ Buchwert bei der Gesellschaft (§ 11 Abs. 2 UmwStG) und beim Anteilseigner (§ 13 Abs. 2 UmwStG) nur, wenn ein Teilbetrieb übertragen wird und bei der Abspaltung auch ein Teilbetrieb zurückbleibt (§ 15 Abs. 1 S. 2 UmwStG).\n▸ Als Teilbetrieb gelten auch Mitunternehmeranteile und 100-%-Beteiligungen an Kapitalgesellschaften (§ 15 Abs. 1 S. 3 UmwStG) – aber Vorsicht bei Aufstockung in den letzten drei Jahren (§ 15 Abs. 2 S. 1 UmwStG).\n▸ Fehlt der Teilbetrieb, gilt der gemeine Wert als Wertansatz (§ 11 Abs. 1 UmwStG).\n\nSpeichern für Klausur 3 📌",
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ],
+      "quellen": [
+        "§ 1 Abs. 3 Nr. 2 UmwStG",
+        "§ 11 Abs. 1, 2 UmwStG",
+        "§ 13 Abs. 2 UmwStG",
+        "§ 15 Abs. 1 S. 1 bis 3 UmwStG",
+        "§ 15 Abs. 2 S. 1 UmwStG",
+        "§ 20 UmwStG"
+      ],
+      "slug": "2026-11-11-b3",
+      "kurztitel": "Unter welchen Voraussetzungen fällt eine Spaltung unter § 15 UmwStG?",
+      "regelGeprueft": true,
+      "manuellGeprueft": false,
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "textProviderKostenUsd": 0,
+      "faktencheckProviderKostenUsd": 0,
+      "bildStatus": "open-peeps-render",
+      "renderer": "open-peeps-v4",
+      "liveVorrangAktiv": true,
+      "bild": "op-cover",
+      "reelTyp": "klausurfalle",
+      "hookStil": "split",
+      "coverBadge": "Reel",
+      "szenen": [
+        {
+          "art": "hook",
+          "titel": "Abspaltung zum Buchwert?"
+        },
+        {
+          "art": "schritt",
+          "titel": "Nur Spaltungen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Doppelt prüfen"
+        },
+        {
+          "art": "schritt",
+          "titel": "Klausurfalle"
+        }
+      ],
+      "sprecher": [
+        "Abspaltung zum Buchwert? Das übertragene Vermögen ist ein Teilbetrieb. Und was zurückbleibt? Muss auch einer sein.",
+        "Paragraf fünfzehn gilt nur für Aufspaltung, Abspaltung und Teilübertragung. Eine Ausgliederung läuft über Paragraf zwanzig.",
+        "Bei der Abspaltung prüfst du deshalb doppelt: abgespaltenes Vermögen und Restvermögen, beide müssen Teilbetrieb sein.",
+        "Fehlt einer, gibt es keinen Buchwert: gemeiner Wert, stille Reserven werden versteuert.",
+        "Merke: Abspaltung zum Buchwert nur mit Teilbetrieb auf beiden Seiten."
+      ],
+      "dauerS": 37.687,
+      "tempo": 1.0
+    },
+    "s4": {
+      "slot": "s4",
+      "art": "frage",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-quiz-k3-30",
+      "beitragSlot": null,
+      "quellen": null,
+      "frage": [
+        "Realteilung mit",
+        "Spitzenausgleich?"
+      ],
+      "optionen": [
+        "Begünstigt nach § 34 EStG",
+        "Laufender Gewinn",
+        "Steuerfrei"
+      ],
+      "pairId": "persg-quiz-k3-30",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Prüfungsfrage",
+        "Realteilung mit",
+        "Spitzenausgleich?",
+        "Begünstigt nach § 34 EStG",
+        "Laufender Gewinn",
+        "Steuerfrei",
+        "Auflösung in der nächsten Story"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s5": {
+      "slot": "s5",
+      "art": "antwort",
+      "fach": "persg",
+      "klausur": 3,
+      "fachLabel": "Personengesellschaften",
+      "themaId": "persg-quiz-k3-30",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "B: laufender",
+        "Gewinn"
+      ],
+      "optionen": [
+        "Begünstigt nach § 34 EStG",
+        "Laufender Gewinn",
+        "Steuerfrei"
+      ],
+      "richtig": 1,
+      "text": "Soweit ausgeglichen wird, liegt eine Veräußerung vor, ohne Tarifbegünstigung.",
+      "norm": "§ 16 Abs. 3 S. 2 EStG",
+      "pairId": "persg-quiz-k3-30",
+      "sichtbareTexte": [
+        "Personengesellschaften",
+        "Auflösung",
+        "B: laufender",
+        "Gewinn",
+        "Begünstigt nach § 34 EStG",
+        "Laufender Gewinn",
+        "Steuerfrei",
+        "Soweit ausgeglichen wird, liegt eine Veräußerung vor, ohne Tarifbegünstigung.",
+        "§ 16 Abs. 3 S. 2 EStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s1": {
+      "slot": "s1",
+      "art": "teaser",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b1",
+      "quellen": null,
+      "titel": [
+        "Geerbte Wohnung: Maklerwert?"
+      ],
+      "unter": "Klausurfalle + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Neu im Feed",
+        "Geerbte Wohnung: Maklerwert?",
+        "Klausurfalle + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s6": {
+      "slot": "s6",
+      "art": "norm",
+      "fach": "erbst",
+      "klausur": 1,
+      "fachLabel": "Erbschaftsteuer",
+      "themaId": "erbst-modul-erbst-542",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Grundbesitzwert",
+        "zu hoch?"
+      ],
+      "norm": "§ 198 BewG",
+      "punkte": [
+        [
+          "Niedrigeren Wert per Gutachten nachweisen.",
+          "ok",
+          "§ 198 Abs. 2 BewG"
+        ],
+        [
+          "Oder per Kaufpreis binnen eines Jahres um den Stichtag.",
+          "ok",
+          "§ 198 Abs. 3 BewG"
+        ]
+      ],
+      "sichtbareTexte": [
+        "Erbschaftsteuer",
+        "Norm des Tages",
+        "Grundbesitzwert",
+        "zu hoch?",
+        "§ 198 BewG",
+        "Niedrigeren Wert per Gutachten nachweisen.",
+        "§ 198 Abs. 2 BewG",
+        "Oder per Kaufpreis binnen eines Jahres um den Stichtag.",
+        "§ 198 Abs. 3 BewG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s2": {
+      "slot": "s2",
+      "art": "teaser",
+      "fach": "kst",
+      "klausur": 2,
+      "fachLabel": "Körperschaftsteuer",
+      "themaId": null,
+      "beitragSlot": "b2",
+      "quellen": null,
+      "titel": [
+        "Verlust weg nach Verkauf?"
+      ],
+      "unter": "Prüfschema + Markier-Guide · im Profil",
+      "sichtbareTexte": [
+        "Körperschaftsteuer",
+        "Neu im Feed",
+        "Verlust weg nach Verkauf?",
+        "Prüfschema + Markier-Guide · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s7": {
+      "slot": "s7",
+      "art": "tipp",
+      "fach": null,
+      "klausur": 0,
+      "fachLabel": "Klausurtechnik",
+      "themaId": null,
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Minuten nach",
+        "Punkten verteilen"
+      ],
+      "punkte": [
+        [
+          "Punktwerte der Teile zuerst notieren",
+          "ok",
+          null
+        ],
+        [
+          "Zeit danach aufteilen, Puffer einplanen",
+          "ok",
+          null
+        ],
+        [
+          "Zeit um? Weiter zum nächsten Teil",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:clock-hour-4",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Klausurtechnik",
+        "Klausurtipp",
+        "Minuten nach",
+        "Punkten verteilen",
+        "Punktwerte der Teile zuerst notieren",
+        "Zeit danach aufteilen, Puffer einplanen",
+        "Zeit um? Weiter zum nächsten Teil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s8": {
+      "slot": "s8",
+      "art": "tipp",
+      "fach": "istr",
+      "klausur": 2,
+      "fachLabel": "Internationales Steuerrecht",
+      "themaId": "istr-modul-istr-istr4-02",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "§ 7 AStG:",
+        "wann beherrscht?"
+      ],
+      "normImTitel": true,
+      "punkte": [
+        [
+          "Über die Hälfte der Stimmen, des Kapitals oder des Gewinns",
+          "ok",
+          "§ 7 Abs. 2 AStG"
+        ],
+        [
+          "Nahestehende zählen mit",
+          "ok",
+          "§ 7 Abs. 3 AStG"
+        ],
+        [
+          "Stichtag: Ende des Wirtschaftsjahres",
+          "warn",
+          null
+        ]
+      ],
+      "icon": "tabler:crown",
+      "iconFarbe": "GELB",
+      "sichtbareTexte": [
+        "Internationales Steuerrecht",
+        "Klausurtipp",
+        "§ 7 AStG:",
+        "wann beherrscht?",
+        "Über die Hälfte der Stimmen, des Kapitals oder des Gewinns",
+        "§ 7 Abs. 2 AStG",
+        "Nahestehende zählen mit",
+        "§ 7 Abs. 3 AStG",
+        "Stichtag: Ende des Wirtschaftsjahres"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s3": {
+      "slot": "s3",
+      "art": "teaser",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": null,
+      "beitragSlot": "b3",
+      "quellen": null,
+      "titel": [
+        "Abspaltung zum Buchwert?"
+      ],
+      "unter": "Neues Reel · im Profil",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Neu im Feed",
+        "Abspaltung zum Buchwert?",
+        "Neues Reel · im Profil"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    },
+    "s9": {
+      "slot": "s9",
+      "art": "merksatz",
+      "fach": "umwst",
+      "klausur": 3,
+      "fachLabel": "Umwandlungssteuerrecht",
+      "themaId": "umwst-aufb-umw-4-09",
+      "beitragSlot": null,
+      "quellen": null,
+      "titel": [
+        "Fiktiver Teilbetrieb",
+        "kurz vorher gefüllt?"
+      ],
+      "zeilen": [
+        [
+          [
+            "Binnen ",
+            null
+          ],
+          [
+            "3 Jahren",
+            "a"
+          ]
+        ],
+        [
+          [
+            "per Einzelwirtschaftsgut",
+            null
+          ]
+        ],
+        [
+          [
+            "aufgestockt:",
+            null
+          ]
+        ],
+        [
+          [
+            "kein Buchwert",
+            "b"
+          ]
+        ]
+      ],
+      "norm": "§ 15 Abs. 2 S. 1 UmwStG",
+      "sichtbareTexte": [
+        "Umwandlungssteuerrecht",
+        "Merksatz",
+        "Fiktiver Teilbetrieb",
+        "kurz vorher gefüllt?",
+        "Binnen 3 Jahren",
+        "per Einzelwirtschaftsgut",
+        "aufgestockt:",
+        "kein Buchwert",
+        "§ 15 Abs. 2 S. 1 UmwStG"
+      ],
+      "renderer": "open-peeps-v4",
+      "bildStatus": "open-peeps-render",
+      "freigabeBetreiber": true,
+      "vorproduktionStatus": "live-freigegeben",
+      "liveVorrangAktiv": true,
+      "regelGeprueft": true
+    }
+  },
+  "renderVorschau": {
+    "status": "fertig",
+    "erzeugtAm": "2026-10-28T06:55:43Z",
+    "pfad": "vorproduktion/2026-11-11/fertig",
+    "providerKostenUsd": 0,
+    "coverbilder": false,
+    "coverIcons": false,
+    "renderer": "open-peeps-v4",
+    "layoutQuelle": "open-peeps-variante-c",
+    "reelStimme": "elevenlabs-laura",
+    "sfx": "freesound-cc0",
+    "freigabeBetreiber": true,
+    "liveVorrangAktiv": true,
+    "normalbetriebGesperrt": true,
+    "wartetLive": []
+  }
+}
