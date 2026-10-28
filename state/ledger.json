@@ -16381,6 +16381,20 @@
         "#examensvorbereitung",
         "#umwandlungssteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s2",
+      "medienId": "18112976399177715",
+      "veroeffentlicht": "2026-10-28T12:30:18.899Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "umwst",
+      "titel": [
+        "Umwandlung ohne Steuer?"
+      ]
     }
   ],
   "fachZaehler": {
