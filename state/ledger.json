@@ -16359,6 +16359,28 @@
         "Abzug statt",
         "Anrechnung?"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "b2",
+      "medienId": "18414066070088846",
+      "veroeffentlicht": "2026-10-28T12:30:05.742Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "umwst-aufb-umw-ks-1-01",
+      "fach": "umwst",
+      "klausur": 3,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#umwandlungssteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16371,7 +16393,7 @@
     "erbst": 10,
     "mindset": 2,
     "est": 7,
-    "umwst": 8,
+    "umwst": 9,
     "gewst": 4,
     "null": 6
   },
