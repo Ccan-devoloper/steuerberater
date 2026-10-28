@@ -16524,6 +16524,28 @@
         "#examensvorbereitung",
         "#umsatzsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "m1",
+      "medienId": "18119209375996874",
+      "veroeffentlicht": "2026-10-28T18:00:10.169Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-reel-formsache",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Mit 4,5 brauchst du eine 3,8",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16538,7 +16560,7 @@
     "est": 7,
     "umwst": 9,
     "gewst": 4,
-    "null": 6
+    "null": 7
   },
   "nachrichten": [],
   "postfach": [],

@@ -48,8 +48,9 @@
       "themaTitel": "Mit 4,5 brauchst du eine 3,8",
       "fach": null,
       "klausur": 0,
-      "status": "sendet",
-      "sendeversuch": "2026-10-28T18:00:00.080Z"
+      "status": "veroeffentlicht",
+      "medienId": "18119209375996874",
+      "veroeffentlicht": "2026-10-28T18:00:10.169Z"
     }
   ],
   "stories": [
