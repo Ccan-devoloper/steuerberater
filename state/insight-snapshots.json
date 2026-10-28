@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T16:48:37.817Z",
+  "stand": "2026-10-28T17:30:03.631Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -42533,6 +42533,20 @@
           "ig_reels_avg_watch_time": 8144,
           "ig_reels_video_view_total_time": 3518374,
           "reels_skip_rate": 63.1
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 144.5,
+          "reach": 420,
+          "saved": 1,
+          "shares": 1,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 7,
+          "views": 518,
+          "ig_reels_avg_watch_time": 8192,
+          "ig_reels_video_view_total_time": 3579962,
+          "reels_skip_rate": 63.1
         }
       ]
     },
@@ -46579,6 +46593,20 @@
           "ig_reels_avg_watch_time": 9037,
           "ig_reels_video_view_total_time": 15029796,
           "reels_skip_rate": 56.3
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 71.5,
+          "reach": 1671,
+          "saved": 21,
+          "shares": 6,
+          "likes": 17,
+          "comments": 0,
+          "total_interactions": 44,
+          "views": 1967,
+          "ig_reels_avg_watch_time": 9041,
+          "ig_reels_video_view_total_time": 15143708,
+          "reels_skip_rate": 56.4
         }
       ]
     },
@@ -46994,6 +47022,18 @@
           "total_interactions": 4,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 58,
+          "reach": 93,
+          "saved": 3,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -47317,6 +47357,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 2
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 52.9,
+          "reach": 101,
+          "saved": 3,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 2
         }
       ]
     },
@@ -47607,6 +47659,20 @@
           "ig_reels_avg_watch_time": 7718,
           "ig_reels_video_view_total_time": 3712453,
           "reels_skip_rate": 61.9
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 49,
+          "reach": 481,
+          "saved": 0,
+          "shares": 1,
+          "likes": 5,
+          "comments": 0,
+          "total_interactions": 6,
+          "views": 583,
+          "ig_reels_avg_watch_time": 7737,
+          "ig_reels_video_view_total_time": 3760224,
+          "reels_skip_rate": 61.6
         }
       ]
     },
@@ -47884,6 +47950,20 @@
           "ig_reels_avg_watch_time": 10097,
           "ig_reels_video_view_total_time": 4140080,
           "reels_skip_rate": 60.4
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 47.5,
+          "reach": 389,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "views": 557,
+          "ig_reels_avg_watch_time": 10039,
+          "ig_reels_video_view_total_time": 4226611,
+          "reels_skip_rate": 61
         }
       ]
     },
@@ -48108,6 +48188,18 @@
           "stand": "2026-10-28T09:08:52.763Z",
           "alterStunden": 24.6,
           "reach": 80,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-28T17:30:03.631Z",
+          "alterStunden": 33,
+          "reach": 85,
           "saved": 3,
           "shares": 0,
           "likes": 0,
@@ -49266,6 +49358,37 @@
           "navigation": 20,
           "navigation_swipe_forward": 1,
           "navigation_tap_forward": 13,
+          "navigation_tap_exit": 6
+        }
+      ]
+    },
+    "18147893995545196": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Verbindlichkeit",
+        "abzinsen?"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T15:55:04.754Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T17:30:02.135Z",
+          "alterStunden": 1.6,
+          "reach": 27,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 28,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 21,
           "navigation_tap_exit": 6
         }
       ]
