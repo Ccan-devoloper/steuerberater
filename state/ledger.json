@@ -16105,22 +16105,22 @@
         "Wo starten?"
       ],
       "insights": {
-        "reach": 84,
-        "views": 116,
+        "reach": 87,
+        "views": 126,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 98,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 68,
+        "navigation": 104,
+        "navigation_swipe_forward": 5,
         "navigation_tap_back": 14,
-        "navigation_swipe_forward": 5
+        "navigation_tap_forward": 71,
+        "navigation_tap_exit": 14
       },
-      "insightsStand": "2026-10-28T09:05:37.206Z",
-      "insightsAlterStunden": 17.1
+      "insightsStand": "2026-10-28T12:30:20.381Z",
+      "insightsAlterStunden": 20.5
     },
     {
       "datum": "2026-10-27",
@@ -16303,7 +16303,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 53,
+        "reach": 65,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -16312,8 +16312,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-28T10:59:10.305Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-28T12:30:23.725Z",
+      "insightsAlterStunden": 3.4
     },
     {
       "datum": "2026-10-28",
@@ -16358,7 +16358,23 @@
       "titel": [
         "Abzug statt",
         "Anrechnung?"
-      ]
+      ],
+      "insights": {
+        "reach": 26,
+        "views": 31,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 25,
+        "navigation_tap_exit": 8,
+        "navigation_tap_forward": 14,
+        "navigation_swipe_forward": 3
+      },
+      "insightsStand": "2026-10-28T12:30:20.381Z",
+      "insightsAlterStunden": 1.5
     },
     {
       "datum": "2026-10-28",

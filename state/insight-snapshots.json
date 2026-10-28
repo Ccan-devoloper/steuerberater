@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-28T11:37:40.024Z",
+  "stand": "2026-10-28T12:30:24.468Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -48570,6 +48570,23 @@
           "navigation_tap_forward": 68,
           "navigation_tap_back": 14,
           "navigation_swipe_forward": 5
+        },
+        {
+          "stand": "2026-10-28T12:30:20.381Z",
+          "alterStunden": 20.5,
+          "reach": 87,
+          "views": 126,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 104,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_back": 14,
+          "navigation_tap_forward": 71,
+          "navigation_tap_exit": 14
         }
       ]
     },
@@ -48835,6 +48852,49 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-28T12:30:23.725Z",
+          "alterStunden": 3.4,
+          "reach": 65,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        }
+      ]
+    },
+    "17997944748024433": {
+      "art": "story",
+      "datum": "2026-10-28",
+      "titel": [
+        "Abzug statt",
+        "Anrechnung?"
+      ],
+      "format": null,
+      "fach": "istr",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-28T10:59:03.796Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-28T12:30:20.381Z",
+          "alterStunden": 1.5,
+          "reach": 26,
+          "views": 31,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 25,
+          "navigation_tap_exit": 8,
+          "navigation_tap_forward": 14,
+          "navigation_swipe_forward": 3
         }
       ]
     }
@@ -51554,6 +51614,11 @@
       "stand": "2026-10-28T10:59:11.315Z",
       "follower": 272,
       "medien": 159
+    },
+    {
+      "stand": "2026-10-28T12:30:24.468Z",
+      "follower": 272,
+      "medien": 160
     }
   ]
 }
