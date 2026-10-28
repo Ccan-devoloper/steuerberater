@@ -13694,17 +13694,17 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 116,
+        "reach": 121,
         "saved": 4,
         "shares": 0,
         "likes": 5,
         "comments": 0,
         "total_interactions": 9,
-        "follows": 0,
-        "profile_visits": 2
+        "follows": 1,
+        "profile_visits": 3
       },
-      "insightsStand": "2026-10-27T07:30:23.158Z",
-      "insightsAlterStunden": 140
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 165.6
     },
     {
       "datum": "2026-10-21",
@@ -13967,7 +13967,7 @@
         "#internationalessteuerrecht"
       ],
       "insights": {
-        "reach": 101,
+        "reach": 116,
         "saved": 1,
         "shares": 0,
         "likes": 4,
@@ -13976,8 +13976,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-27T06:44:51.197Z",
-      "insightsAlterStunden": 120.2
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 146.6
     },
     {
       "datum": "2026-10-22",
@@ -14059,7 +14059,7 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 96,
+        "reach": 100,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -14068,8 +14068,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-27T07:30:23.158Z",
-      "insightsAlterStunden": 115.7
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 141.3
     },
     {
       "datum": "2026-10-22",
@@ -14332,7 +14332,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 69,
+        "reach": 75,
         "saved": 1,
         "shares": 0,
         "likes": 1,
@@ -14341,8 +14341,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-27T05:44:46.717Z",
-      "insightsAlterStunden": 95.2
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 122.6
     },
     {
       "datum": "2026-10-23",
@@ -14424,7 +14424,7 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 96,
+        "reach": 102,
         "saved": 4,
         "shares": 0,
         "likes": 4,
@@ -14433,8 +14433,8 @@
         "follows": 2,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-27T05:44:46.717Z",
-      "insightsAlterStunden": 90.2
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 117.5
     },
     {
       "datum": "2026-10-23",
@@ -14697,7 +14697,7 @@
         "#erbschaftsteuer"
       ],
       "insights": {
-        "reach": 105,
+        "reach": 111,
         "saved": 4,
         "shares": 1,
         "likes": 1,
@@ -14706,8 +14706,8 @@
         "follows": 1,
         "profile_visits": 6
       },
-      "insightsStand": "2026-10-26T22:52:55.536Z",
-      "insightsAlterStunden": 64.4
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 98.6
     },
     {
       "datum": "2026-10-24",
@@ -14789,7 +14789,7 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 108,
+        "reach": 115,
         "saved": 4,
         "shares": 0,
         "likes": 3,
@@ -14798,8 +14798,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-27T07:30:23.158Z",
-      "insightsAlterStunden": 68
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 93.6
     },
     {
       "datum": "2026-10-24",
@@ -15154,7 +15154,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 105,
+        "reach": 111,
         "saved": 1,
         "shares": 0,
         "likes": 2,
@@ -15163,8 +15163,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-27T15:34:20.663Z",
-      "insightsAlterStunden": 51.1
+      "insightsStand": "2026-10-28T09:05:46.622Z",
+      "insightsAlterStunden": 68.6
     },
     {
       "datum": "2026-10-25",
@@ -15910,22 +15910,22 @@
         "Schenkung"
       ],
       "insights": {
-        "reach": 97,
-        "views": 128,
+        "reach": 121,
+        "views": 161,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 120,
-        "navigation_tap_back": 10,
-        "navigation_swipe_forward": 10,
-        "navigation_tap_forward": 75,
-        "navigation_tap_exit": 25
+        "navigation": 146,
+        "navigation_tap_exit": 30,
+        "navigation_tap_forward": 85,
+        "navigation_swipe_forward": 14,
+        "navigation_tap_back": 17
       },
-      "insightsStand": "2026-10-27T21:29:50.787Z",
-      "insightsAlterStunden": 10.6
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 22.2
     },
     {
       "datum": "2026-10-27",
@@ -15975,22 +15975,22 @@
         "Freistellen oder anrechnen?"
       ],
       "insights": {
-        "reach": 62,
-        "views": 75,
+        "reach": 107,
+        "views": 137,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 70,
-        "navigation_tap_forward": 51,
-        "navigation_tap_exit": 10,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_back": 4
+        "navigation": 122,
+        "navigation_tap_back": 11,
+        "navigation_swipe_forward": 12,
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 84
       },
-      "insightsStand": "2026-10-27T18:00:27.923Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 20.6
     },
     {
       "datum": "2026-10-27",
@@ -16007,22 +16007,22 @@
         "dann der Fall"
       ],
       "insights": {
-        "reach": 67,
-        "views": 87,
+        "reach": 98,
+        "views": 124,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 78,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_forward": 54,
-        "navigation_tap_exit": 11,
-        "navigation_tap_back": 8
+        "navigation": 113,
+        "navigation_tap_back": 12,
+        "navigation_tap_exit": 16,
+        "navigation_tap_forward": 75,
+        "navigation_swipe_forward": 10
       },
-      "insightsStand": "2026-10-27T19:45:37.799Z",
-      "insightsAlterStunden": 6
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 19.4
     },
     {
       "datum": "2026-10-27",
@@ -16073,22 +16073,22 @@
         "kosten dich die Mündliche"
       ],
       "insights": {
-        "reach": 71,
-        "views": 92,
+        "reach": 92,
+        "views": 125,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 86,
-        "navigation_tap_exit": 17,
-        "navigation_tap_forward": 63,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_back": 2
+        "navigation": 114,
+        "navigation_tap_back": 5,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_forward": 81,
+        "navigation_tap_exit": 20
       },
-      "insightsStand": "2026-10-27T21:29:50.787Z",
-      "insightsAlterStunden": 5.9
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 17.5
     },
     {
       "datum": "2026-10-27",
@@ -16105,21 +16105,22 @@
         "Wo starten?"
       ],
       "insights": {
-        "reach": 30,
-        "views": 39,
+        "reach": 84,
+        "views": 116,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
+        "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 35,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 29,
-        "navigation_tap_exit": 5
+        "navigation": 98,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 68,
+        "navigation_tap_back": 14,
+        "navigation_swipe_forward": 5
       },
-      "insightsStand": "2026-10-27T18:00:27.923Z",
-      "insightsAlterStunden": 2
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 17.1
     },
     {
       "datum": "2026-10-27",
@@ -16171,22 +16172,22 @@
         "10.000 € Zinsen abziehbar?"
       ],
       "insights": {
-        "reach": 35,
-        "views": 49,
+        "reach": 81,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 40,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 26,
-        "navigation_tap_back": 6
+        "navigation": 90,
+        "navigation_tap_back": 13,
+        "navigation_tap_forward": 62,
+        "navigation_tap_exit": 11,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-27T19:45:37.799Z",
-      "insightsAlterStunden": 1.8
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 15.1
     },
     {
       "datum": "2026-10-27",
@@ -16203,22 +16204,22 @@
         "Was gilt als bezogen?"
       ],
       "insights": {
-        "reach": 33,
-        "views": 43,
+        "reach": 79,
+        "views": 99,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
-        "profile_activity": 0,
-        "navigation": 36,
-        "navigation_swipe_forward": 1,
-        "navigation_tap_back": 1,
-        "navigation_tap_forward": 26,
-        "navigation_tap_exit": 8
+        "profile_activity": 1,
+        "navigation": 90,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_back": 2,
+        "navigation_tap_forward": 68,
+        "navigation_tap_exit": 13
       },
-      "insightsStand": "2026-10-27T19:45:37.799Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-28T09:05:37.206Z",
+      "insightsAlterStunden": 14.8
     },
     {
       "datum": "2026-10-28",
