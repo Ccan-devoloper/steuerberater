@@ -16411,6 +16411,21 @@
       "titel": [
         "Umwandlung ohne Steuer?"
       ]
+    },
+    {
+      "datum": "2026-10-28",
+      "slot": "s7",
+      "medienId": "18010150808780862",
+      "veroeffentlicht": "2026-10-28T13:39:03.198Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Zeit nach",
+        "Punkten planen"
+      ]
     }
   ],
   "fachZaehler": {
