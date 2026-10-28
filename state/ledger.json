@@ -13815,19 +13815,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 499,
+        "reach": 502,
         "saved": 4,
         "shares": 2,
         "likes": 8,
         "comments": 0,
         "total_interactions": 14,
-        "views": 615,
-        "ig_reels_avg_watch_time": 8343,
-        "ig_reels_video_view_total_time": 4313573,
-        "reels_skip_rate": 70.8
+        "views": 621,
+        "ig_reels_avg_watch_time": 8387,
+        "ig_reels_video_view_total_time": 4361369,
+        "reels_skip_rate": 70.7
       },
-      "insightsStand": "2026-10-27T15:34:20.663Z",
-      "insightsAlterStunden": 142.6
+      "insightsStand": "2026-10-28T15:55:14.119Z",
+      "insightsAlterStunden": 166.9
     },
     {
       "datum": "2026-10-21",
@@ -14545,19 +14545,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 1079,
+        "reach": 1081,
         "saved": 5,
         "shares": 2,
         "likes": 4,
         "comments": 0,
         "total_interactions": 11,
-        "views": 1338,
-        "ig_reels_avg_watch_time": 9968,
-        "ig_reels_video_view_total_time": 11303882,
-        "reels_skip_rate": 49
+        "views": 1352,
+        "ig_reels_avg_watch_time": 9937,
+        "ig_reels_video_view_total_time": 11378237,
+        "reels_skip_rate": 49.2
       },
-      "insightsStand": "2026-10-27T15:34:20.663Z",
-      "insightsAlterStunden": 94.6
+      "insightsStand": "2026-10-28T15:55:14.119Z",
+      "insightsAlterStunden": 118.9
     },
     {
       "datum": "2026-10-23",
@@ -14910,19 +14910,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 988,
+        "reach": 990,
         "saved": 4,
         "shares": 2,
         "likes": 7,
         "comments": 0,
         "total_interactions": 13,
-        "views": 1192,
-        "ig_reels_avg_watch_time": 7690,
-        "ig_reels_video_view_total_time": 7936260,
-        "reels_skip_rate": 63.7
+        "views": 1207,
+        "ig_reels_avg_watch_time": 7698,
+        "ig_reels_video_view_total_time": 8029957,
+        "reels_skip_rate": 63.5
       },
-      "insightsStand": "2026-10-27T15:34:20.663Z",
-      "insightsAlterStunden": 70.6
+      "insightsStand": "2026-10-28T15:55:14.119Z",
+      "insightsAlterStunden": 94.9
     },
     {
       "datum": "2026-10-24",
@@ -15062,7 +15062,7 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 107,
+        "reach": 115,
         "saved": 0,
         "shares": 0,
         "likes": 1,
@@ -15071,8 +15071,8 @@
         "follows": 0,
         "profile_visits": 3
       },
-      "insightsStand": "2026-10-27T15:34:20.663Z",
-      "insightsAlterStunden": 56.1
+      "insightsStand": "2026-10-28T15:55:14.119Z",
+      "insightsAlterStunden": 80.4
     },
     {
       "datum": "2026-10-25",
@@ -16172,22 +16172,22 @@
         "10.000 € Zinsen abziehbar?"
       ],
       "insights": {
-        "reach": 86,
-        "views": 113,
+        "reach": 99,
+        "views": 132,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 98,
+        "navigation": 117,
         "navigation_swipe_forward": 4,
-        "navigation_tap_exit": 11,
-        "navigation_tap_forward": 69,
-        "navigation_tap_back": 14
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 77,
+        "navigation_tap_back": 21
       },
-      "insightsStand": "2026-10-28T13:39:04.580Z",
-      "insightsAlterStunden": 19.6
+      "insightsStand": "2026-10-28T15:55:06.136Z",
+      "insightsAlterStunden": 21.9
     },
     {
       "datum": "2026-10-27",
@@ -16204,22 +16204,22 @@
         "Was gilt als bezogen?"
       ],
       "insights": {
-        "reach": 85,
-        "views": 109,
+        "reach": 92,
+        "views": 119,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 1,
-        "navigation": 98,
-        "navigation_tap_exit": 15,
-        "navigation_tap_forward": 73,
+        "navigation": 108,
+        "navigation_swipe_forward": 10,
         "navigation_tap_back": 3,
-        "navigation_swipe_forward": 7
+        "navigation_tap_forward": 79,
+        "navigation_tap_exit": 16
       },
-      "insightsStand": "2026-10-28T13:39:04.580Z",
-      "insightsAlterStunden": 19.3
+      "insightsStand": "2026-10-28T15:55:06.136Z",
+      "insightsAlterStunden": 21.6
     },
     {
       "datum": "2026-10-28",
@@ -16233,22 +16233,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 36,
-        "views": 49,
+        "reach": 64,
+        "views": 83,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 0,
-        "profile_activity": 0,
-        "navigation": 40,
+        "profile_visits": 1,
+        "profile_activity": 1,
+        "navigation": 68,
         "navigation_tap_back": 1,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_forward": 31,
-        "navigation_tap_exit": 4
+        "navigation_swipe_forward": 6,
+        "navigation_tap_forward": 54,
+        "navigation_tap_exit": 7
       },
-      "insightsStand": "2026-10-28T10:59:05.197Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-28T15:55:06.136Z",
+      "insightsAlterStunden": 6.8
     },
     {
       "datum": "2026-10-28",
@@ -16264,22 +16264,22 @@
         "B: zehn Jahre"
       ],
       "insights": {
-        "reach": 25,
-        "views": 39,
+        "reach": 60,
+        "views": 74,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 36,
-        "navigation_tap_exit": 3,
+        "navigation": 69,
+        "navigation_tap_exit": 7,
         "navigation_tap_back": 4,
-        "navigation_tap_forward": 28,
-        "navigation_swipe_forward": 1
+        "navigation_tap_forward": 52,
+        "navigation_swipe_forward": 6
       },
-      "insightsStand": "2026-10-28T10:59:05.197Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-28T15:55:06.136Z",
+      "insightsAlterStunden": 6.8
     },
     {
       "datum": "2026-10-28",
@@ -16329,21 +16329,22 @@
         "Geschenkt? Nur teilweise!"
       ],
       "insights": {
-        "reach": 27,
-        "views": 33,
+        "reach": 58,
+        "views": 69,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 29,
-        "navigation_tap_exit": 7,
-        "navigation_tap_forward": 20,
-        "navigation_tap_back": 2
+        "navigation": 60,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 46,
+        "navigation_tap_back": 3
       },
-      "insightsStand": "2026-10-28T10:59:05.197Z",
-      "insightsAlterStunden": 1.9
+      "insightsStand": "2026-10-28T15:55:06.136Z",
+      "insightsAlterStunden": 6.8
     },
     {
       "datum": "2026-10-28",
@@ -16398,17 +16399,17 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 33,
+        "reach": 60,
         "saved": 1,
-        "shares": 0,
-        "likes": 1,
+        "shares": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-28T13:39:11.232Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-28T15:55:14.119Z",
+      "insightsAlterStunden": 3.4
     },
     {
       "datum": "2026-10-28",
