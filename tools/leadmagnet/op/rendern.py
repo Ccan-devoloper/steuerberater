@@ -9,6 +9,8 @@ from figuren import Besetzung
 from karussell import Karussell
 from reel import Reel
 import spec
+import stimme
+ZIEL_STANDARD = stimme.ZIEL_S
 
 ZIEL = os.path.join(HIER, "..", "..", "..", "social", "leadmagnet", "kanal")
 DATUM = "2026-11-01"
@@ -20,6 +22,7 @@ for bau in spec.KARUSSELLS + spec.REELS:
     if os.path.isdir(out): shutil.rmtree(out)
     os.makedirs(out)
     if b["format"] == "reel":
+        stimme.ZIEL_S = b.get("zielS", ZIEL_STANDARD)   # Test-Reels: höchstens 30 s
         dateien = Reel(b, Besetzung(b["figuren"]), out, DATUM).rendern()
     else:
         dateien = Karussell(b, Besetzung(b["figuren"]), out, DATUM).rendern()
