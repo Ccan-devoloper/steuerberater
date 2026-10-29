@@ -16797,6 +16797,21 @@
       },
       "insightsStand": "2026-10-29T08:45:12.234Z",
       "insightsAlterStunden": 1.2
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s6",
+      "medienId": "17878206567573479",
+      "veroeffentlicht": "2026-10-29T11:14:04.088Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "norm",
+      "thema": "persg-aufb-persg-melzer-2-6",
+      "fach": "persg",
+      "titel": [
+        "§ 6b und",
+        "die KG"
+      ]
     }
   ],
   "fachZaehler": {
