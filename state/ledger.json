@@ -16673,6 +16673,18 @@
       },
       "insightsStand": "2026-10-29T05:45:41.674Z",
       "insightsAlterStunden": 11.5
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s4",
+      "medienId": "18472457752187292",
+      "veroeffentlicht": "2026-10-29T06:07:04.344Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "frage",
+      "thema": "kst-karte-kst-9",
+      "fach": "kst",
+      "titel": ""
     }
   ],
   "fachZaehler": {

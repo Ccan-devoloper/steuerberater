@@ -51,8 +51,9 @@
       "zeit": "07:07",
       "art": "frage",
       "themaId": "kst-karte-kst-9",
-      "status": "sendet",
-      "sendeversuch": "2026-10-29T06:07:00.079Z"
+      "status": "veroeffentlicht",
+      "medienId": "18472457752187292",
+      "veroeffentlicht": "2026-10-29T06:07:04.344Z"
     },
     {
       "slot": "s5",
