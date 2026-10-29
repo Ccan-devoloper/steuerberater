@@ -17025,6 +17025,20 @@
         "#examensvorbereitung",
         "#einkommensteuer"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s3",
+      "medienId": "17879073408565834",
+      "veroeffentlicht": "2026-10-29T18:00:24.576Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "est",
+      "titel": [
+        "Betrieb gegen 150.000 €"
+      ]
     }
   ],
   "fachZaehler": {
