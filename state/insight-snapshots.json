@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-29T07:45:19.902Z",
+  "stand": "2026-10-29T08:45:20.632Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -49249,6 +49249,23 @@
           "navigation_tap_forward": 91,
           "navigation_swipe_forward": 12,
           "navigation_tap_back": 7
+        },
+        {
+          "stand": "2026-10-29T08:45:12.234Z",
+          "alterStunden": 23.7,
+          "reach": 125,
+          "views": 170,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 1,
+          "navigation": 145,
+          "navigation_tap_back": 8,
+          "navigation_swipe_forward": 17,
+          "navigation_tap_forward": 103,
+          "navigation_tap_exit": 17
         }
       ]
     },
@@ -49331,6 +49348,23 @@
           "navigation_tap_forward": 90,
           "navigation_tap_back": 11,
           "navigation_tap_exit": 14
+        },
+        {
+          "stand": "2026-10-29T08:45:12.234Z",
+          "alterStunden": 23.7,
+          "reach": 114,
+          "views": 151,
+          "shares": 0,
+          "total_interactions": 1,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 2,
+          "profile_activity": 0,
+          "navigation": 141,
+          "navigation_swipe_forward": 10,
+          "navigation_tap_forward": 102,
+          "navigation_tap_back": 14,
+          "navigation_tap_exit": 15
         }
       ]
     },
@@ -49412,6 +49446,23 @@
           "navigation_tap_forward": 82,
           "navigation_tap_exit": 10,
           "navigation_swipe_forward": 5
+        },
+        {
+          "stand": "2026-10-29T08:45:12.234Z",
+          "alterStunden": 23.7,
+          "reach": 105,
+          "views": 136,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 122,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 10,
+          "navigation_tap_forward": 94,
+          "navigation_tap_back": 13
         }
       ]
     },
@@ -49578,6 +49629,23 @@
           "navigation_tap_forward": 67,
           "navigation_swipe_forward": 9,
           "navigation_tap_back": 4
+        },
+        {
+          "stand": "2026-10-29T08:45:12.234Z",
+          "alterStunden": 21.8,
+          "reach": 105,
+          "views": 136,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 123,
+          "navigation_tap_back": 8,
+          "navigation_swipe_forward": 11,
+          "navigation_tap_forward": 81,
+          "navigation_tap_exit": 23
         }
       ]
     },
@@ -49640,6 +49708,23 @@
           "navigation_swipe_forward": 5,
           "navigation_tap_exit": 15,
           "navigation_tap_forward": 70
+        },
+        {
+          "stand": "2026-10-29T08:45:12.234Z",
+          "alterStunden": 20.2,
+          "reach": 95,
+          "views": 119,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 115,
+          "navigation_tap_forward": 82,
+          "navigation_tap_exit": 15,
+          "navigation_swipe_forward": 6,
+          "navigation_tap_back": 12
         }
       ]
     },
@@ -50169,6 +50254,60 @@
           "navigation_tap_forward": 19,
           "navigation_tap_back": 2,
           "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "18150573433551257": {
+      "art": "story",
+      "datum": "2026-10-29",
+      "titel": [
+        "Stille Reserven parken"
+      ],
+      "format": null,
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-29T07:30:19.361Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-29T08:45:12.234Z",
+          "alterStunden": 1.2,
+          "reach": 22,
+          "views": 26,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 22,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 18,
+          "navigation_tap_back": 2
+        }
+      ]
+    },
+    "17915036130472123": {
+      "art": "beitrag",
+      "datum": "2026-10-29",
+      "titel": "Spickzettel",
+      "format": "spickzettel",
+      "fach": "bilanz",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-29T07:30:05.421Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-29T08:45:19.863Z",
+          "alterStunden": 1.3,
+          "reach": 31,
+          "saved": 1,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     }
@@ -52951,6 +53090,11 @@
     },
     {
       "stand": "2026-10-29T07:45:19.902Z",
+      "follower": 281,
+      "medien": 163
+    },
+    {
+      "stand": "2026-10-29T08:45:20.632Z",
       "follower": 281,
       "medien": 163
     }

@@ -16233,22 +16233,22 @@
       "fach": "ust",
       "titel": "",
       "insights": {
-        "reach": 111,
-        "views": 147,
+        "reach": 125,
+        "views": 170,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
-        "profile_visits": 1,
+        "profile_visits": 2,
         "profile_activity": 1,
-        "navigation": 124,
-        "navigation_tap_exit": 14,
-        "navigation_tap_forward": 91,
-        "navigation_swipe_forward": 12,
-        "navigation_tap_back": 7
+        "navigation": 145,
+        "navigation_tap_back": 8,
+        "navigation_swipe_forward": 17,
+        "navigation_tap_forward": 103,
+        "navigation_tap_exit": 17
       },
-      "insightsStand": "2026-10-29T05:45:41.674Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-29T08:45:12.234Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-28",
@@ -16264,22 +16264,22 @@
         "B: zehn Jahre"
       ],
       "insights": {
-        "reach": 102,
-        "views": 132,
+        "reach": 114,
+        "views": 151,
         "shares": 0,
         "total_interactions": 1,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 123,
-        "navigation_swipe_forward": 8,
-        "navigation_tap_forward": 90,
-        "navigation_tap_back": 11,
-        "navigation_tap_exit": 14
+        "navigation": 141,
+        "navigation_swipe_forward": 10,
+        "navigation_tap_forward": 102,
+        "navigation_tap_back": 14,
+        "navigation_tap_exit": 15
       },
-      "insightsStand": "2026-10-29T05:45:41.674Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-29T08:45:12.234Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-28",
@@ -16329,22 +16329,22 @@
         "Geschenkt? Nur teilweise!"
       ],
       "insights": {
-        "reach": 96,
-        "views": 116,
+        "reach": 105,
+        "views": 136,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 107,
-        "navigation_tap_back": 10,
-        "navigation_tap_forward": 82,
+        "navigation": 122,
+        "navigation_swipe_forward": 5,
         "navigation_tap_exit": 10,
-        "navigation_swipe_forward": 5
+        "navigation_tap_forward": 94,
+        "navigation_tap_back": 13
       },
-      "insightsStand": "2026-10-29T05:45:41.674Z",
-      "insightsAlterStunden": 20.7
+      "insightsStand": "2026-10-29T08:45:12.234Z",
+      "insightsAlterStunden": 23.7
     },
     {
       "datum": "2026-10-28",
@@ -16361,22 +16361,22 @@
         "Anrechnung?"
       ],
       "insights": {
-        "reach": 92,
-        "views": 111,
+        "reach": 105,
+        "views": 136,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 100,
-        "navigation_tap_exit": 20,
-        "navigation_tap_forward": 67,
-        "navigation_swipe_forward": 9,
-        "navigation_tap_back": 4
+        "navigation": 123,
+        "navigation_tap_back": 8,
+        "navigation_swipe_forward": 11,
+        "navigation_tap_forward": 81,
+        "navigation_tap_exit": 23
       },
-      "insightsStand": "2026-10-29T05:45:41.674Z",
-      "insightsAlterStunden": 18.8
+      "insightsStand": "2026-10-29T08:45:12.234Z",
+      "insightsAlterStunden": 21.8
     },
     {
       "datum": "2026-10-28",
@@ -16426,22 +16426,22 @@
         "Umwandlung ohne Steuer?"
       ],
       "insights": {
-        "reach": 85,
-        "views": 100,
+        "reach": 95,
+        "views": 119,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 97,
-        "navigation_tap_back": 7,
-        "navigation_swipe_forward": 5,
+        "navigation": 115,
+        "navigation_tap_forward": 82,
         "navigation_tap_exit": 15,
-        "navigation_tap_forward": 70
+        "navigation_swipe_forward": 6,
+        "navigation_tap_back": 12
       },
-      "insightsStand": "2026-10-29T05:45:41.674Z",
-      "insightsAlterStunden": 17.3
+      "insightsStand": "2026-10-29T08:45:12.234Z",
+      "insightsAlterStunden": 20.2
     },
     {
       "datum": "2026-10-28",
@@ -16754,7 +16754,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
-      ]
+      ],
+      "insights": {
+        "reach": 31,
+        "saved": 1,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-29T08:45:19.863Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-29",
@@ -16768,7 +16780,23 @@
       "fach": "bilanz",
       "titel": [
         "Stille Reserven parken"
-      ]
+      ],
+      "insights": {
+        "reach": 22,
+        "views": 26,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 22,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 18,
+        "navigation_tap_back": 2
+      },
+      "insightsStand": "2026-10-29T08:45:12.234Z",
+      "insightsAlterStunden": 1.2
     }
   ],
   "fachZaehler": {
