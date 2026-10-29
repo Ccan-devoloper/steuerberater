@@ -16812,6 +16812,28 @@
         "§ 6b und",
         "die KG"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "b2",
+      "medienId": "18129280844510788",
+      "veroeffentlicht": "2026-10-29T12:30:07.846Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "schema",
+      "thema": "erbst-modul-erbst-507",
+      "fach": "erbst",
+      "klausur": 1,
+      "titel": "Prüfschema",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#erbschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16821,7 +16843,7 @@
     "ao": 26,
     "bilanz": 26,
     "istr": 20,
-    "erbst": 10,
+    "erbst": 11,
     "mindset": 2,
     "est": 7,
     "umwst": 9,
