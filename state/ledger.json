@@ -16699,6 +16699,28 @@
       "titel": [
         "B: keine KSt"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "b1",
+      "medienId": "17915036130472123",
+      "veroeffentlicht": "2026-10-29T07:30:05.421Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "spickzettel",
+      "thema": "bilanz-aufb-bil-melzer-11-03",
+      "fach": "bilanz",
+      "klausur": 3,
+      "titel": "Spickzettel",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#bilanzsteuerrecht"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16706,7 +16728,7 @@
     "ust": 15,
     "kst": 13,
     "ao": 26,
-    "bilanz": 25,
+    "bilanz": 26,
     "istr": 20,
     "erbst": 10,
     "mindset": 2,
