@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-29T08:45:20.632Z",
+  "stand": "2026-10-29T09:45:07.794Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -41781,6 +41781,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 165.9,
+          "reach": 104,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -42970,6 +42982,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 147.3,
+          "reach": 80,
+          "saved": 1,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -43354,6 +43378,18 @@
           "total_interactions": 8,
           "follows": 2,
           "profile_visits": 3
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 142.2,
+          "reach": 110,
+          "saved": 4,
+          "shares": 0,
+          "likes": 6,
+          "comments": 0,
+          "total_interactions": 10,
+          "follows": 2,
+          "profile_visits": 4
         }
       ]
     },
@@ -44377,6 +44413,18 @@
           "total_interactions": 6,
           "follows": 1,
           "profile_visits": 6
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 123.2,
+          "reach": 126,
+          "saved": 4,
+          "shares": 1,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 1,
+          "profile_visits": 6
         }
       ]
     },
@@ -44741,6 +44789,18 @@
           "likes": 3,
           "comments": 0,
           "total_interactions": 7,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 118.2,
+          "reach": 122,
+          "saved": 4,
+          "shares": 0,
+          "likes": 4,
+          "comments": 0,
+          "total_interactions": 8,
           "follows": 0,
           "profile_visits": 0
         }
@@ -46080,6 +46140,18 @@
           "likes": 2,
           "comments": 0,
           "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 93.2,
+          "reach": 122,
+          "saved": 2,
+          "shares": 0,
+          "likes": 3,
+          "comments": 0,
+          "total_interactions": 5,
           "follows": 0,
           "profile_visits": 0
         }
@@ -49797,6 +49869,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-29T09:45:05.319Z",
+          "alterStunden": 21.2,
+          "reach": 92,
+          "saved": 2,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 5,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -49862,6 +49946,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 59,
           "navigation_tap_exit": 16
+        },
+        {
+          "stand": "2026-10-29T09:45:03.804Z",
+          "alterStunden": 20.1,
+          "reach": 91,
+          "views": 108,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 101,
+          "navigation_tap_back": 6,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_forward": 74,
+          "navigation_tap_exit": 17
         }
       ]
     },
@@ -53095,6 +53196,11 @@
     },
     {
       "stand": "2026-10-29T08:45:20.632Z",
+      "follower": 281,
+      "medien": 163
+    },
+    {
+      "stand": "2026-10-29T09:45:07.794Z",
       "follower": 281,
       "medien": 163
     }
