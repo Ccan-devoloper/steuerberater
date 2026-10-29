@@ -110,7 +110,8 @@
       "zeit": "17:04",
       "art": "tipp",
       "themaId": "ust-karte-ust-4",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-29T16:04:00.059Z"
     },
     {
       "slot": "s3",
