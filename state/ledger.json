@@ -16685,6 +16685,20 @@
       "thema": "kst-karte-kst-9",
       "fach": "kst",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s5",
+      "medienId": "18346858294257433",
+      "veroeffentlicht": "2026-10-29T06:09:03.393Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "kst-karte-kst-9",
+      "fach": "kst",
+      "titel": [
+        "B: keine KSt"
+      ]
     }
   ],
   "fachZaehler": {
