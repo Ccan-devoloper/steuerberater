@@ -17003,6 +17003,28 @@
         "Entnahme:",
         "Was ist die Basis?"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "b3",
+      "medienId": "18434757346196951",
+      "veroeffentlicht": "2026-10-29T18:00:10.784Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "est-aufb-est-ks2-ve-03",
+      "fach": "est",
+      "klausur": 2,
+      "titel": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#einkommensteuer"
+      ]
     }
   ],
   "fachZaehler": {
@@ -17014,7 +17036,7 @@
     "istr": 20,
     "erbst": 11,
     "mindset": 2,
-    "est": 7,
+    "est": 8,
     "umwst": 9,
     "gewst": 4,
     "null": 8
