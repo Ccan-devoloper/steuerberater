@@ -16782,22 +16782,22 @@
         "Stille Reserven parken"
       ],
       "insights": {
-        "reach": 63,
-        "views": 73,
+        "reach": 76,
+        "views": 90,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 65,
+        "navigation": 79,
         "navigation_tap_back": 3,
-        "navigation_tap_forward": 46,
-        "navigation_tap_exit": 14,
-        "navigation_swipe_forward": 2
+        "navigation_tap_forward": 56,
+        "navigation_tap_exit": 16,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-29T16:46:19.969Z",
-      "insightsAlterStunden": 9.3
+      "insightsStand": "2026-10-29T20:46:20.263Z",
+      "insightsAlterStunden": 13.3
     },
     {
       "datum": "2026-10-29",
@@ -16814,22 +16814,22 @@
         "die KG"
       ],
       "insights": {
-        "reach": 50,
-        "views": 62,
+        "reach": 65,
+        "views": 84,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 51,
-        "navigation_tap_back": 2,
-        "navigation_tap_exit": 8,
-        "navigation_tap_forward": 36,
-        "navigation_swipe_forward": 5
+        "navigation": 68,
+        "navigation_swipe_forward": 8,
+        "navigation_tap_forward": 46,
+        "navigation_tap_exit": 12,
+        "navigation_tap_back": 2
       },
-      "insightsStand": "2026-10-29T16:46:19.969Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-29T20:46:20.263Z",
+      "insightsAlterStunden": 9.5
     },
     {
       "datum": "2026-10-29",
@@ -16977,20 +16977,22 @@
         "Und dann durchgefallen."
       ],
       "insights": {
-        "reach": 14,
-        "views": 16,
+        "reach": 49,
+        "views": 58,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 15,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 11
+        "navigation": 56,
+        "navigation_tap_forward": 44,
+        "navigation_tap_exit": 6,
+        "navigation_tap_back": 2,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-29T16:04:05.845Z",
-      "insightsAlterStunden": 1.1
+      "insightsStand": "2026-10-29T20:46:20.263Z",
+      "insightsAlterStunden": 5.8
     },
     {
       "datum": "2026-10-29",
