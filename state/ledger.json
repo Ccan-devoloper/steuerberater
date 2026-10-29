@@ -16834,6 +16834,20 @@
         "#examensvorbereitung",
         "#erbschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s2",
+      "medienId": "18645278563016645",
+      "veroeffentlicht": "2026-10-29T12:30:21.752Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "erbst",
+      "titel": [
+        "Erbschaftsteuer ausrechnen"
+      ]
     }
   ],
   "fachZaehler": {
