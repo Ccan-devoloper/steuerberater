@@ -14545,19 +14545,19 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 1081,
+        "reach": 1085,
         "saved": 5,
         "shares": 2,
         "likes": 4,
         "comments": 0,
         "total_interactions": 11,
-        "views": 1352,
-        "ig_reels_avg_watch_time": 9937,
-        "ig_reels_video_view_total_time": 11378237,
-        "reels_skip_rate": 49.2
+        "views": 1360,
+        "ig_reels_avg_watch_time": 9948,
+        "ig_reels_video_view_total_time": 11441120,
+        "reels_skip_rate": 49
       },
-      "insightsStand": "2026-10-28T15:55:14.119Z",
-      "insightsAlterStunden": 118.9
+      "insightsStand": "2026-10-29T16:04:07.352Z",
+      "insightsAlterStunden": 143.1
     },
     {
       "datum": "2026-10-23",
@@ -14910,19 +14910,19 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 990,
+        "reach": 998,
         "saved": 4,
         "shares": 2,
         "likes": 7,
         "comments": 0,
         "total_interactions": 13,
-        "views": 1207,
-        "ig_reels_avg_watch_time": 7698,
-        "ig_reels_video_view_total_time": 8029957,
-        "reels_skip_rate": 63.5
+        "views": 1220,
+        "ig_reels_avg_watch_time": 7736,
+        "ig_reels_video_view_total_time": 8146433,
+        "reels_skip_rate": 63.2
       },
-      "insightsStand": "2026-10-28T15:55:14.119Z",
-      "insightsAlterStunden": 94.9
+      "insightsStand": "2026-10-29T16:04:07.352Z",
+      "insightsAlterStunden": 119.1
     },
     {
       "datum": "2026-10-24",
@@ -15062,17 +15062,17 @@
         "#steuerrecht"
       ],
       "insights": {
-        "reach": 115,
+        "reach": 121,
         "saved": 0,
         "shares": 0,
         "likes": 1,
         "comments": 0,
         "total_interactions": 1,
         "follows": 0,
-        "profile_visits": 3
+        "profile_visits": 4
       },
-      "insightsStand": "2026-10-28T15:55:14.119Z",
-      "insightsAlterStunden": 80.4
+      "insightsStand": "2026-10-29T16:04:07.352Z",
+      "insightsAlterStunden": 104.6
     },
     {
       "datum": "2026-10-25",
@@ -16972,7 +16972,22 @@
       "titel": [
         "Unterschätzt.",
         "Und dann durchgefallen."
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 16,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 15,
+        "navigation_tap_exit": 4,
+        "navigation_tap_forward": 11
+      },
+      "insightsStand": "2026-10-29T16:04:05.845Z",
+      "insightsAlterStunden": 1.1
     },
     {
       "datum": "2026-10-29",
