@@ -16426,22 +16426,22 @@
         "Umwandlung ohne Steuer?"
       ],
       "insights": {
-        "reach": 95,
-        "views": 119,
+        "reach": 100,
+        "views": 127,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 1,
         "profile_activity": 0,
-        "navigation": 115,
-        "navigation_tap_forward": 82,
-        "navigation_tap_exit": 15,
+        "navigation": 122,
+        "navigation_tap_back": 13,
         "navigation_swipe_forward": 6,
-        "navigation_tap_back": 12
+        "navigation_tap_exit": 15,
+        "navigation_tap_forward": 88
       },
-      "insightsStand": "2026-10-29T08:45:12.234Z",
-      "insightsAlterStunden": 20.2
+      "insightsStand": "2026-10-29T11:14:07.439Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-28",
