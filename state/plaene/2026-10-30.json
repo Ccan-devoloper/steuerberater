@@ -1,0 +1,119 @@
+{
+  "datum": "2026-10-30",
+  "erzeugt": "2026-10-29T23:35:36.022Z",
+  "quelle": "vorproduktion",
+  "providerKostenUsd": 0,
+  "beitraege": [
+    {
+      "slot": "b1",
+      "zeit": "08:30",
+      "format": "minifall",
+      "themaId": "ao-modul-ao-316",
+      "themaTitel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
+      "fach": "ao",
+      "klausur": 1,
+      "status": "geplant"
+    },
+    {
+      "slot": "b2",
+      "zeit": "13:30",
+      "format": "vergleich",
+      "themaId": "kst-aufb-kst-ks-1-03",
+      "themaTitel": "Wann ist eine Körperschaft nur beschränkt steuerpflichtig?",
+      "fach": "kst",
+      "klausur": 2,
+      "status": "geplant"
+    },
+    {
+      "slot": "b3",
+      "zeit": "17:30",
+      "format": "reel",
+      "themaId": "persg-aufb-persg-melzer-2-7",
+      "themaTitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+      "fach": "persg",
+      "klausur": 3,
+      "status": "geplant"
+    },
+    {
+      "slot": "m1",
+      "zeit": "19:00",
+      "format": "reel",
+      "themaId": "lead-reel-fehler-1",
+      "themaTitel": "Fehler Nr. 1 der Mündlichen",
+      "fach": null,
+      "klausur": 0,
+      "status": "geplant"
+    }
+  ],
+  "stories": [
+    {
+      "slot": "s4",
+      "zeit": "07:07",
+      "art": "frage",
+      "themaId": "persg-quiz-k3-28",
+      "status": "geplant"
+    },
+    {
+      "slot": "s5",
+      "zeit": "07:09",
+      "art": "antwort",
+      "themaId": "persg-quiz-k3-28",
+      "status": "geplant"
+    },
+    {
+      "slot": "s1",
+      "zeit": "08:30",
+      "art": "teaser",
+      "beitragSlot": "b1",
+      "status": "geplant"
+    },
+    {
+      "slot": "s6",
+      "zeit": "12:14",
+      "art": "norm",
+      "themaId": "erbst-modul-erbst-531",
+      "status": "geplant"
+    },
+    {
+      "slot": "s2",
+      "zeit": "13:30",
+      "art": "teaser",
+      "beitragSlot": "b2",
+      "status": "geplant"
+    },
+    {
+      "slot": "s7",
+      "zeit": "14:40",
+      "art": "tipp",
+      "status": "geplant"
+    },
+    {
+      "slot": "s8",
+      "zeit": "17:04",
+      "art": "tipp",
+      "themaId": "kst-aufb-kst-ks-2-06",
+      "status": "geplant"
+    },
+    {
+      "slot": "s3",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "b3",
+      "status": "geplant"
+    },
+    {
+      "slot": "s9",
+      "zeit": "19:12",
+      "art": "merksatz",
+      "themaId": "umwst-aufb-umw-ks-3-02",
+      "status": "geplant"
+    },
+    {
+      "slot": "s10",
+      "zeit": "19:00",
+      "art": "teaser",
+      "beitragSlot": "m1",
+      "status": "geplant"
+    }
+  ]
+}

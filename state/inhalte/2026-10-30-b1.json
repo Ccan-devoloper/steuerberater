@@ -1,0 +1,85 @@
+{
+  "format": "minifall",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": "ao-modul-ao-316",
+  "caption": "Mini-Fall Abgabenordnung: Bescheid falsch – Einspruch oder Korrektur?\n\nFall: Das Finanzamt streicht Fortbildungskosten rechtsfehlerhaft. Aufgabe zur Post am 04.05.2026.\n\n1. Frist: Bekanntgabe am vierten Tag nach Aufgabe zur Post, also 08.05.2026 (§ 122 Abs. 2 Nr. 1 AO). Einspruchsfrist ein Monat (§ 355 Abs. 1 S. 1 AO), Ende 08.06.2026 (§ 108 Abs. 1 AO, § 188 Abs. 2 BGB).\n2. Plan A, Fehler am 01.06. bemerkt: Einspruch statthaft (§ 347 Abs. 1 S. 1 Nr. 1 AO), fristgerecht, schriftlich oder elektronisch (§ 357 Abs. 1 AO), Beschwer (§ 350 AO). Begründet.\n3. Plan B, Fehler am 20.06. bemerkt: Ein Änderungsantrag zugunsten hilft nur, wenn er vor Ablauf der Einspruchsfrist gestellt wurde (§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO). Neue Tatsachen fehlen (§ 173 Abs. 1 Nr. 2 AO). Der Bescheid bleibt bestandskräftig.\n\nRechtsfehler lassen sich nach Fristablauf regelmäßig nicht mehr korrigieren – deshalb immer zuerst Plan A prüfen.\n\nZum Schluss: §§ 172, 355 AO zum Markieren. Speichern für Klausur 1 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#abgabenordnung"
+  ],
+  "quellen": [
+    "§ 122 Abs. 2 Nr. 1 AO",
+    "§ 108 Abs. 1 AO",
+    "§ 188 Abs. 2 BGB",
+    "§ 347 Abs. 1 S. 1 Nr. 1 AO",
+    "§ 350 AO",
+    "§ 355 Abs. 1 S. 1 AO",
+    "§ 357 Abs. 1 AO",
+    "§ 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO",
+    "§ 173 Abs. 1 Nr. 2 AO"
+  ],
+  "slug": "2026-10-30-b1",
+  "kurztitel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Mini-Fall",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Mini-Fall",
+      "text": "Mini-Fall · Einspruch oder · Korrektur? · §§ 347, 172 ff. AO · Plan A, Plan B · + Markier-Guide §§ 172, 355 AO · JUNI · 8 · Fristende",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Der Sachverhalt · Tarek macht Fortbildungskosten von 2.000 € geltend. Das Finanzamt hält sie für privat und streicht sie. · Der Bescheid geht am Montag, 04.05.2026, zur Post. · Die Streichung ist rechtlich falsch. · Ich bin Tarek"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Die Frage des Falls · Was kann Tarek tun, wenn er den Fehler am 01.06.2026 bemerkt? · Und was, wenn er ihn erst am 20.06.2026 bemerkt? · Lösung: weiterwischen · Ines, Beraterin: Und?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Erst die Frist · 04.05. · Aufgabe zur Post · 08.05. · bekannt gegeben · § 122 Abs. 2 Nr. 1 AO · 08.06. · Ende der Einspruchsfrist · § 355 Abs. 1 S. 1 AO · Ein Monat"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Plan A: Einspruch am 01.06. · Statthaft gegen den Steuerbescheid. · § 347 Abs. 1 S. 1 Nr. 1 AO · In der Frist, schriftlich oder elektronisch, Tarek ist beschwert. · §§ 355, 357, 350 AO · Begründet: Die 2.000 € werden anerkannt. · Rechtzeitig!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Plan B: erst am 20.06. · Einspruch verfristet, Antrag auf Änderung zugunsten auch. · § 172 Abs. 1 S. 1 Nr. 2 Buchst. a AO · Keine neue Tatsache: Das Amt kannte alles, es hat nur falsch gewertet. · § 173 Abs. 1 Nr. 2 AO · Ergebnis: Der Bescheid bleibt bestandskräftig. · Zu spät?"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "Rechtsfehler korrigieren? · Für reine Rechtsfehler gibt es meist keinen Korrekturtatbestand. · Hier hilft nur der Einspruch, also Plan A zuerst. · § 347 AO · Frist notieren!"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "01.06.: Einspruch erfolgreich · 20.06.: zu spät · Rechtsfehler: meist kein Korrekturtatbestand · Plan A: Einspruch · Plan B: Korrektur · Rechtsfehler: nur Plan A · Speichern für Klausur 1 · Prüfst du Plan A immer zuerst? · Weiterwischen: §§ 172, 355 AO markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Abgabenordnung",
+      "text": "§§ 172, 355 AO (Auszug) · Antrag nur in der Frist · Frist · Randnotiz: § 122 Abs. 2 Nr. 1 AO · Fristbeginn: vierter Tag nach Aufgabe"
+    }
+  ]
+}

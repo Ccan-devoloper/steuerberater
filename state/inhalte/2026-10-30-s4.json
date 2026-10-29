@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-quiz-k3-28",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Realteilung:",
+    "Buchwert als Wahlrecht?"
+  ],
+  "optionen": [
+    "Ja, auf Antrag",
+    "Nein, zwingend",
+    "Nur bei Teilbetrieben"
+  ],
+  "pairId": "persg-quiz-k3-28",
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Prüfungsfrage",
+    "Realteilung:",
+    "Buchwert als Wahlrecht?",
+    "Ja, auf Antrag",
+    "Nein, zwingend",
+    "Nur bei Teilbetrieben",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

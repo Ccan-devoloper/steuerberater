@@ -1,0 +1,42 @@
+{
+  "slot": "s7",
+  "art": "tipp",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Klausurtechnik",
+  "themaId": null,
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Fristen immer",
+    "mit Datum"
+  ],
+  "punkte": [
+    [
+      "Jeden Fristbeginn als Datum hinschreiben",
+      "ok",
+      null
+    ],
+    [
+      "Feiertag oder Wochenende prüfen",
+      "ok",
+      null
+    ]
+  ],
+  "icon": "tabler:calendar-stats",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Klausurtechnik",
+    "Klausurtipp",
+    "Fristen immer",
+    "mit Datum",
+    "Jeden Fristbeginn als Datum hinschreiben",
+    "Feiertag oder Wochenende prüfen"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

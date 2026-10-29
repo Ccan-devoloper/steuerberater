@@ -1,0 +1,61 @@
+{
+  "format": "reel",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-7",
+  "caption": "Anteilsschenkung bei der KG: Was passiert mit dem Sonderbetriebsvermögen? 🏠\n\n▸ Die unentgeltliche Übertragung eines Mitunternehmeranteils erfolgt zum Buchwert (§ 6 Abs. 3 S. 1 EStG) – aber nur, wenn das funktional wesentliche Sonderbetriebsvermögen mit übergeht.\n▸ Bleibt ein an die KG vermietetes Grundstück zurück und wird es Privatvermögen, gilt der gesamte Anteil als aufgegeben (§ 16 Abs. 3 S. 1 EStG): Aufgedeckt werden die stillen Reserven im Anteil und im Grundstück, im Beispiel 200.000 € + 300.000 € = 500.000 €.\n▸ Der Aufgabegewinn kann nach § 16 Abs. 4 und § 34 EStG begünstigt sein.\n▸ Ausweg: Grundstück mitübertragen; bei Teilanteilen und unterquotaler Übertragung gilt die Behaltefrist des § 6 Abs. 3 S. 2 EStG.\n\nSpeichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#personengesellschaften"
+  ],
+  "quellen": [
+    "§ 6 Abs. 3 S. 1, 2 EStG",
+    "§ 16 Abs. 3 S. 1, Abs. 4 EStG",
+    "§ 34 EStG"
+  ],
+  "slug": "2026-10-30-b3",
+  "kurztitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "rechnung",
+  "hookStil": "kippen",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Anteil verschenkt. Buchwert bleibt."
+    },
+    {
+      "art": "schritt",
+      "titel": "Das Grundstück zählt"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ganzer Anteil aufgegeben"
+    },
+    {
+      "art": "schritt",
+      "titel": "Ergebnis"
+    }
+  ],
+  "sprecher": [
+    "Vater schenkt seinen KG-Anteil und behält das Grundstück, das die KG nutzt. Buchwert? Leider nein.",
+    "Das Grundstück ist wesentliches Sonderbetriebsvermögen. Ohne es gibt es keinen Buchwert nach Paragraf sechs Absatz drei.",
+    "Es wird Privatvermögen, der ganze Anteil gilt als aufgegeben. Zweihunderttausend plus dreihunderttausend Euro stille Reserven.",
+    "Fünfhunderttausend Euro Aufgabegewinn, immerhin begünstigt. Besser: das Grundstück mitschenken.",
+    "Merke: Wesentliches Sonderbetriebsvermögen muss mit."
+  ],
+  "dauerS": 35.554,
+  "tempo": 1
+}

@@ -1,0 +1,26 @@
+{
+  "slot": "s1",
+  "art": "teaser",
+  "fach": "ao",
+  "klausur": 1,
+  "fachLabel": "Abgabenordnung",
+  "themaId": null,
+  "beitragSlot": "b1",
+  "quellen": null,
+  "titel": [
+    "Bescheid falsch: was nun?"
+  ],
+  "unter": "Mini-Fall + Markier-Guide · im Profil",
+  "sichtbareTexte": [
+    "Abgabenordnung",
+    "Neu im Feed",
+    "Bescheid falsch: was nun?",
+    "Mini-Fall + Markier-Guide · im Profil"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

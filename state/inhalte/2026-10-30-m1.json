@@ -1,0 +1,57 @@
+{
+  "format": "reel",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": "lead-reel-fehler-1",
+  "caption": "Fehler Nr. 1 der Mündlichen – er steht in mehr als jedem zweiten von über 400 Prüfungsprotokollen. 😬\n\nPrüferfrage: Vermietetes Haus nach sieben Jahren verkauft – was sagen Sie dem Mandanten? Viele verlieren sich in Details, und der Prüfer wartet.\n\nWie die starke Antwort klingt – plus alle 10 Fehler mit Prüfungsszenen und Merksätzen – im Gratis-PDF 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+  ],
+  "quellen": [],
+  "slug": "2026-10-30-m1",
+  "kurztitel": "Fehler Nr. 1 der Mündlichen",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "klausurfalle",
+  "hookStil": "knall",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Fehler Nr. 1 der Mündlichen"
+    },
+    {
+      "art": "schritt",
+      "titel": "Die Frage"
+    },
+    {
+      "art": "schritt",
+      "titel": "So geht's schief"
+    },
+    {
+      "art": "schritt",
+      "titel": "Und richtig?"
+    }
+  ],
+  "sprecher": [
+    "Dieser Fehler steht in mehr als jedem zweiten Prüfungsprotokoll. Und er kann dich das Examen kosten.",
+    "Der Prüfer fragt: Der Mandant hat sein vermietetes Haus nach sieben Jahren verkauft. Was sagen Sie ihm?",
+    "Viele fangen irgendwo an. Privatvermögen, Vermietung, Abschreibung. Und der Prüfer wartet.",
+    "Wie die starke Antwort klingt, die den Prüfer sofort überzeugt? Die steht im Leitfaden.",
+    "Die anderen neun Fehler gibt es kostenlos zum Download. Link in der Bio."
+  ],
+  "dauerS": 33.567,
+  "tempo": 1
+}

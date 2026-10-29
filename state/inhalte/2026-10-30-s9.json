@@ -1,0 +1,59 @@
+{
+  "slot": "s9",
+  "art": "merksatz",
+  "fach": "umwst",
+  "klausur": 3,
+  "fachLabel": "Umwandlungssteuerrecht",
+  "themaId": "umwst-aufb-umw-ks-3-02",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "GmbH wird KG:",
+    "Schlussbilanz"
+  ],
+  "zeilen": [
+    [
+      [
+        "Regel: ",
+        null
+      ],
+      [
+        "gemeiner Wert",
+        "a"
+      ]
+    ],
+    [
+      [
+        "Buchwert nur",
+        null
+      ]
+    ],
+    [
+      [
+        "auf ",
+        null
+      ],
+      [
+        "Antrag",
+        "b"
+      ]
+    ]
+  ],
+  "norm": "§ 3 Abs. 1, 2 UmwStG",
+  "sichtbareTexte": [
+    "Umwandlungssteuerrecht",
+    "Merksatz",
+    "GmbH wird KG:",
+    "Schlussbilanz",
+    "Regel: gemeiner Wert",
+    "Buchwert nur",
+    "auf Antrag",
+    "§ 3 Abs. 1, 2 UmwStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

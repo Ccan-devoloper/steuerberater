@@ -1,0 +1,51 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-aufb-kst-ks-2-06",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Außerhalb der",
+    "Bilanz zurückholen"
+  ],
+  "punkte": [
+    [
+      "KSt, Soli, Kapitalertragsteuer",
+      "ok",
+      "§ 10 Nr. 2 KStG"
+    ],
+    [
+      "Gewerbesteuer",
+      "ok",
+      "§ 4 Abs. 5b EStG"
+    ],
+    [
+      "Hälfte der Aufsichtsratsvergütung",
+      "warn",
+      "§ 10 Nr. 4 KStG"
+    ]
+  ],
+  "icon": "tabler:refresh",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Klausurtipp",
+    "Außerhalb der",
+    "Bilanz zurückholen",
+    "KSt, Soli, Kapitalertragsteuer",
+    "§ 10 Nr. 2 KStG",
+    "Gewerbesteuer",
+    "§ 4 Abs. 5b EStG",
+    "Hälfte der Aufsichtsratsvergütung",
+    "§ 10 Nr. 4 KStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
