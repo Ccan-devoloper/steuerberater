@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-29T16:46:19.969Z",
+  "stand": "2026-10-29T18:00:32.932Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -46719,6 +46719,20 @@
           "ig_reels_avg_watch_time": 9041,
           "ig_reels_video_view_total_time": 15143708,
           "reels_skip_rate": 56.4
+        },
+        {
+          "stand": "2026-10-29T18:00:29.248Z",
+          "alterStunden": 96,
+          "reach": 1691,
+          "saved": 22,
+          "shares": 6,
+          "likes": 18,
+          "comments": 0,
+          "total_interactions": 46,
+          "views": 1998,
+          "ig_reels_avg_watch_time": 9073,
+          "ig_reels_video_view_total_time": 15378826,
+          "reels_skip_rate": 56.6
         }
       ]
     },
@@ -50028,6 +50042,18 @@
           "total_interactions": 5,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-29T18:00:29.248Z",
+          "alterStunden": 29.5,
+          "reach": 95,
+          "saved": 3,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 6,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -50998,6 +51024,23 @@
           "navigation": 19,
           "navigation_tap_forward": 13,
           "navigation_tap_exit": 6
+        },
+        {
+          "stand": "2026-10-29T18:00:26.014Z",
+          "alterStunden": 5.5,
+          "reach": 44,
+          "views": 57,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 51,
+          "navigation_tap_back": 2,
+          "navigation_tap_forward": 40,
+          "navigation_tap_exit": 7,
+          "navigation_swipe_forward": 2
         }
       ]
     },
@@ -51027,6 +51070,18 @@
           "stand": "2026-10-29T15:45:23.214Z",
           "alterStunden": 3.3,
           "reach": 56,
+          "saved": 1,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 2,
+          "follows": 0,
+          "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-29T18:00:29.248Z",
+          "alterStunden": 5.5,
+          "reach": 61,
           "saved": 1,
           "shares": 0,
           "likes": 1,
@@ -51089,6 +51144,18 @@
           "total_interactions": 0,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-29T18:00:29.248Z",
+          "alterStunden": 3,
+          "reach": 49,
+          "saved": 0,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 0,
+          "follows": 0,
+          "profile_visits": 4
         }
       ]
     },
@@ -51119,6 +51186,38 @@
           "navigation": 15,
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 11
+        }
+      ]
+    },
+    "18097842842134019": {
+      "art": "story",
+      "datum": "2026-10-29",
+      "titel": [
+        "Entnahme:",
+        "Was ist die Basis?"
+      ],
+      "format": null,
+      "fach": "ust",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-29T16:04:04.009Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-29T18:00:26.014Z",
+          "alterStunden": 1.9,
+          "reach": 23,
+          "views": 42,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_forward": 20,
+          "navigation_tap_exit": 2,
+          "navigation_tap_back": 4
         }
       ]
     }
@@ -53943,6 +54042,11 @@
       "stand": "2026-10-29T16:04:10.393Z",
       "follower": 283,
       "medien": 165
+    },
+    {
+      "stand": "2026-10-29T18:00:32.932Z",
+      "follower": 282,
+      "medien": 166
     }
   ]
 }
