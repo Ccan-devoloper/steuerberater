@@ -46,7 +46,8 @@
       "themaTitel": "Die Mündliche ist kein Selbstläufer",
       "fach": null,
       "klausur": 0,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-29T15:00:00.095Z"
     }
   ],
   "stories": [
