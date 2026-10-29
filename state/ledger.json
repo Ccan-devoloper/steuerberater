@@ -16908,6 +16908,28 @@
         "Ergebnis vorn,",
         "Begründung danach"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "m1",
+      "medienId": "18012159911988778",
+      "veroeffentlicht": "2026-10-29T15:00:06.174Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "16:00",
+      "stunde": 16,
+      "format": "pruefungsfrage",
+      "thema": "lead-kein-selbstlaeufer",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Was dir keiner sagt",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung"
+      ]
     }
   ],
   "fachZaehler": {
@@ -16922,7 +16944,7 @@
     "est": 7,
     "umwst": 9,
     "gewst": 4,
-    "null": 7
+    "null": 8
   },
   "nachrichten": [],
   "postfach": [],
