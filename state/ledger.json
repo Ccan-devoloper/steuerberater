@@ -16721,6 +16721,20 @@
         "#examensvorbereitung",
         "#bilanzsteuerrecht"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s1",
+      "medienId": "18150573433551257",
+      "veroeffentlicht": "2026-10-29T07:30:19.361Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "bilanz",
+      "titel": [
+        "Stille Reserven parken"
+      ]
     }
   ],
   "fachZaehler": {
