@@ -1,0 +1,43 @@
+{
+  "slot": "s6",
+  "art": "norm",
+  "fach": "persg",
+  "klausur": 3,
+  "fachLabel": "Personengesellschaften",
+  "themaId": "persg-aufb-persg-melzer-2-6",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "§ 6b und",
+    "die KG"
+  ],
+  "norm": "R 6b.2 Abs. 6, 7 EStR",
+  "punkte": [
+    [
+      "Gewinn aus dem Einzelunternehmen: nur auf den eigenen Anteil an KG-Wirtschaftsgütern.",
+      "warn",
+      "R 6b.2 Abs. 6 S. 1 EStR"
+    ],
+    [
+      "Gebucht wird in der Ergänzungsbilanz.",
+      "ok",
+      null
+    ]
+  ],
+  "sichtbareTexte": [
+    "Personengesellschaften",
+    "Norm des Tages",
+    "§ 6b und",
+    "die KG",
+    "R 6b.2 Abs. 6, 7 EStR",
+    "Gewinn aus dem Einzelunternehmen: nur auf den eigenen Anteil an KG-Wirtschaftsgütern.",
+    "R 6b.2 Abs. 6 S. 1 EStR",
+    "Gebucht wird in der Ergänzungsbilanz."
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

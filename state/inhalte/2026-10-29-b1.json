@@ -1,0 +1,62 @@
+{
+  "format": "spickzettel",
+  "fach": "bilanz",
+  "klausur": 3,
+  "fachLabel": "Bilanzsteuerrecht",
+  "themaId": "bilanz-aufb-bil-melzer-11-03",
+  "caption": "Spickzettel Bilanzsteuerrecht: die § 6b-Rücklage auf einer Karte.\n\n▸ Begünstigt ist der Gewinn aus der Veräußerung von Grund und Boden, Aufwuchs mit Grund und Boden, Gebäuden und Binnenschiffen (§ 6b Abs. 1 S. 1 EStG).\n▸ Übertragung: Gewinn aus Grund und Boden auf Grund und Boden oder Gebäude, Gewinn aus Gebäuden nur auf Gebäude (§ 6b Abs. 1 S. 2 Nr. 1, 3 EStG); Abzug bei Anschaffung im Vorjahr oder im laufenden Jahr.\n▸ Voraussetzungen u. a.: Gewinnermittlung durch Betriebsvermögensvergleich, sechs Jahre ununterbrochen Anlagevermögen einer inländischen Betriebsstätte (§ 6b Abs. 4 S. 1 Nr. 1, 2 EStG).\n▸ Rücklage: Reinvestition in den folgenden vier Wirtschaftsjahren, bei rechtzeitig begonnenem Neubau sechs (§ 6b Abs. 3 EStG). Sonst gewinnerhöhende Auflösung plus 6 % je volles Wirtschaftsjahr (§ 6b Abs. 7 EStG).\n▸ AfA des neuen Wirtschaftsguts nur von den geminderten Kosten (§ 6b Abs. 6 EStG).\n\nZum Schluss: § 6b Abs. 1, 4, 7 EStG zum Markieren. Speichern für Klausur 3 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#bilanzsteuerrecht"
+  ],
+  "quellen": [
+    "§ 6b Abs. 1, 3, 4, 6, 7 EStG"
+  ],
+  "slug": "2026-10-29-b1",
+  "kurztitel": "Stille Reserven übertragen: Voraussetzungen der § 6b-Rücklage",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Spickzettel",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Spickzettel",
+      "text": "Spickzettel · Stille Reserven · parken · § 6b EStG · auf einer Karte · + Markier-Guide § 6b EStG · Bodengewinn · 300.000 € · übertragen?",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Die Karte · Begünstigt verkauft · § 6b Abs. 1 S. 1 EStG · Grund und Boden, Gebäude · 6 Jahre Anlagevermögen · § 6b Abs. 4 S. 1 Nr. 2 EStG · inländische Betriebsstätte · Sofort übertragen · § 6b Abs. 1 EStG · Vorjahr oder laufendes Jahr · Sonst Rücklage · § 6b Abs. 3 EStG · 4 Jahre, Neubau 6 Jahre · Am Ende: § 6b EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Wohin mit dem Gewinn? · aus Grund und Boden · auf Grund und Boden · § 6b Abs. 1 S. 2 Nr. 1 EStG · auf Gebäude · § 6b Abs. 1 S. 2 Nr. 3 EStG · aus Gebäuden · nur auf Gebäude · § 6b Abs. 1 S. 2 Nr. 3 EStG · nie auf Grund und Boden · Selin: Richtung zählt!"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "Rücklage zu lange geparkt · Nach vier Jahren ohne Reinvestition: gewinnerhöhend auflösen. · § 6b Abs. 3 S. 5 EStG · Dazu 6 % je volles Wirtschaftsjahr außerhalb der Bilanz. · § 6b Abs. 7 EStG · 100.000 € vier Jahre lang: plus 24.000 €. · Enno: Teurer Aufschub"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "300.000 € Gewinn aus Grund und Boden · Halle 1 Mio. €: AfA aus 700.000 € · 6 Jahre Anlagevermögen · Gebäude nur auf Gebäude · 4 Jahre, sonst 6 % mehr · Speichern für Klausur 3 · Frist vergessen? · Weiterwischen: § 6b EStG markiert"
+    },
+    {
+      "art": "text",
+      "titel": "Bilanzsteuerrecht",
+      "text": "§ 6b EStG (Auszug) · Boden auf Boden · alles auf Gebäude · Haltefrist · Zuschlag · 300.000 € Bodengewinn auf die Halle · AfA dann aus 700.000 €"
+    }
+  ]
+}

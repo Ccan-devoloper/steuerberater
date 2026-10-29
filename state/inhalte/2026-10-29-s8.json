@@ -1,0 +1,44 @@
+{
+  "slot": "s8",
+  "art": "tipp",
+  "fach": "ust",
+  "klausur": 1,
+  "fachLabel": "Umsatzsteuer",
+  "themaId": "ust-karte-ust-4",
+  "beitragSlot": null,
+  "quellen": null,
+  "titel": [
+    "Entnahme:",
+    "Was ist die Basis?"
+  ],
+  "punkte": [
+    [
+      "Einkaufspreis zum Zeitpunkt der Entnahme",
+      "ok",
+      "§ 10 Abs. 4 S. 1 Nr. 1 UStG"
+    ],
+    [
+      "Steuerbar nur nach Vorsteuerabzug",
+      "warn",
+      "§ 3 Abs. 1b S. 2 UStG"
+    ]
+  ],
+  "icon": "tabler:gift",
+  "iconFarbe": "GELB",
+  "sichtbareTexte": [
+    "Umsatzsteuer",
+    "Klausurtipp",
+    "Entnahme:",
+    "Was ist die Basis?",
+    "Einkaufspreis zum Zeitpunkt der Entnahme",
+    "§ 10 Abs. 4 S. 1 Nr. 1 UStG",
+    "Steuerbar nur nach Vorsteuerabzug",
+    "§ 3 Abs. 1b S. 2 UStG"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

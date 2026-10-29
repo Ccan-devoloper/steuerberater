@@ -1,0 +1,36 @@
+{
+  "slot": "s4",
+  "art": "frage",
+  "fach": "kst",
+  "klausur": 2,
+  "fachLabel": "Körperschaftsteuer",
+  "themaId": "kst-karte-kst-9",
+  "beitragSlot": null,
+  "quellen": null,
+  "frage": [
+    "Gemeinnütziger Verein:",
+    "Fest bringt 40.000 €. KSt?"
+  ],
+  "optionen": [
+    "Ja, voll steuerpflichtig",
+    "Nein, unter der Grenze",
+    "Nur Gewerbesteuer"
+  ],
+  "pairId": "kst-karte-kst-9",
+  "sichtbareTexte": [
+    "Körperschaftsteuer",
+    "Prüfungsfrage",
+    "Gemeinnütziger Verein:",
+    "Fest bringt 40.000 €. KSt?",
+    "Ja, voll steuerpflichtig",
+    "Nein, unter der Grenze",
+    "Nur Gewerbesteuer",
+    "Auflösung in der nächsten Story"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}

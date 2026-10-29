@@ -1,0 +1,63 @@
+{
+  "format": "reel",
+  "fach": "est",
+  "klausur": 2,
+  "fachLabel": "Einkommensteuer",
+  "themaId": "est-aufb-est-ks2-ve-03",
+  "caption": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn? 🏭\n\n▸ Ganzer Betrieb, Teilbetrieb oder Mitunternehmeranteil: Liegt das Entgelt nicht über dem steuerlichen Kapitalkonto, ist der Vorgang unentgeltlich; der Übernehmer führt die Buchwerte fort (§ 6 Abs. 3 EStG).\n▸ Übersteigt das Entgelt das Kapitalkonto, entsteht in Höhe der Differenz ein Veräußerungsgewinn (§ 16 Abs. 1, 2 EStG), begünstigt nach § 16 Abs. 4 und § 34 EStG, soweit deren Voraussetzungen vorliegen. Übernommene betriebliche Schulden sind hier kein Entgelt.\n▸ Einzelnes Wirtschaftsgut: Aufteilung nach dem Verhältnis von Entgelt zu Verkehrswert; übernommene Schulden zählen als Entgelt.\n\nGrundlage: BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847; BMF vom 13.01.1993 (vorweggenommene Erbfolge).\n\nSpeichern für Klausur 2 📌",
+  "hashtags": [
+    "#steuerberaterexamen",
+    "#steuerberaterprüfung",
+    "#examensvorbereitung",
+    "#einkommensteuer"
+  ],
+  "quellen": [
+    "§ 6 Abs. 3 EStG",
+    "§ 16 Abs. 1, 2, 4 EStG",
+    "§ 34 EStG",
+    "BFH vom 05.07.1990, GrS 4-6/89, BStBl II 1990, 847",
+    "BMF vom 13.01.1993"
+  ],
+  "slug": "2026-10-29-b3",
+  "kurztitel": "Betrieb gegen Abfindung übertragen: Wann entsteht ein Gewinn?",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "bild": "op-cover",
+  "reelTyp": "quizfrage",
+  "hookStil": "split",
+  "coverBadge": "Reel",
+  "szenen": [
+    {
+      "art": "hook",
+      "titel": "Betrieb gegen 150.000 €: Gewinn?"
+    },
+    {
+      "art": "schritt",
+      "titel": "Unter dem Kapitalkonto"
+    },
+    {
+      "art": "schritt",
+      "titel": "Über dem Kapitalkonto"
+    },
+    {
+      "art": "schritt",
+      "titel": "Nur ein Grundstück"
+    }
+  ],
+  "sprecher": [
+    "Mutter übergibt ihren Betrieb, der Sohn zahlt hundertfünfzigtausend Euro. Gewinn? Vergleiche mit dem Kapitalkonto.",
+    "Beim ganzen Betrieb gilt: Eine Zahlung unter dem Kapitalkonto von zweihunderttausend Euro bleibt neutral.",
+    "Zahlt er zweihundertfünfzigtausend, entstehen fünfzigtausend Euro Veräußerungsgewinn, und der ist begünstigt.",
+    "Bei einem einzelnen Grundstück wird dagegen aufgeteilt. Dort zählen auch übernommene Schulden als Entgelt.",
+    "Merke: Betrieb gegen Kapitalkonto, Einzelstück nach Quote."
+  ],
+  "dauerS": 35.814,
+  "tempo": 1
+}

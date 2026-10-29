@@ -1,0 +1,68 @@
+{
+  "format": "pruefungsfrage",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": "lead-kein-selbstlaeufer",
+  "caption": "Was dir keiner sagt: Die Mündliche ist kein Selbstläufer. 😳\n\n▸ In fast jedem dritten von über 400 Prüfungsprotokollen ist mindestens ein Prüfling durchgefallen.\n▸ Zugelassen bist du bis 4,5 (§ 25 Abs. 2 DVStB) – bestanden erst, wenn der Durchschnitt aus schriftlich und mündlich 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB).\n▸ Mit 4,5 brauchst du mündlich im Schnitt eine 3,8.\n\nDie 10 häufigsten Fehler – mit Lösungen – im Gratis-PDF. 👉 Link in der Bio",
+  "hashtags": [
+    "#steuerberaterprüfung",
+    "#steuerberaterexamen",
+    "#mündlicheprüfung",
+    "#examensvorbereitung"
+  ],
+  "quellen": [
+    "§ 25 Abs. 2 DVStB",
+    "§ 28 Abs. 1 S. 2 DVStB"
+  ],
+  "slug": "2026-10-29-m1",
+  "kurztitel": "Die Mündliche ist kein Selbstläufer",
+  "regelGeprueft": true,
+  "manuellGeprueft": false,
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "textProviderKostenUsd": 0,
+  "faktencheckProviderKostenUsd": 0,
+  "bildStatus": "open-peeps-render",
+  "renderer": "open-peeps-v4",
+  "liveVorrangAktiv": true,
+  "coverBadge": "Was dir keiner sagt",
+  "folien": [
+    {
+      "art": "titel",
+      "titel": "Was dir keiner sagt",
+      "text": "Was dir keiner sagt · Die Mündliche: · kein Selbstläufer · 3 Zahlen · + Gratis-PDF · 4,15 · Bestehensgrenze",
+      "bild": "op-cover"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Zahl 1: fast jedes dritte · In fast jedem dritten Protokoll ist mindestens ein Prüfling durchgefallen. · Ausgewertet: über 400 echte Prüfungsprotokolle aus NRW. · So viele?"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Zahl 2: 4,5 und 4,15 · Zugelassen · bis Gesamtnote 4,5 schriftlich · § 25 Abs. 2 DVStB · Bestanden · Durchschnitt schriftlich und mündlich höchstens 4,15 · § 28 Abs. 1 S. 2 DVStB · Moment …"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Zahl 3: die 3,8 · § 28 Abs. 1 S. 2 DVStB · Schriftlich · 4,5 · Mündlich mindestens · 3,8 · Summe · 8,3 · geteilt durch zwei · 4,15 · Mit 4,5 brauchst du mündlich im Schnitt eine 3,8. · Puh."
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Woran es oft scheitert · Die Frage nicht durchschauen · Aus dem Kopf statt aus dem Gesetz · Schweigen statt laut denken · Nicht am Wissen, sondern an vermeidbaren Fehlern. · Vermeidbar!"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "Die gute Nachricht · Die Fehler wiederholen sich · 4,5 schriftlich? · 3,8 mündlich! · 10 Fehler kennen, · PDF gratis holen. · Speichern für die Mündliche · Mit welcher Vornote gehst du rein? · Weiterwischen: So holst du dir das PDF"
+    },
+    {
+      "art": "text",
+      "titel": "Mündliche Prüfung",
+      "text": "So holst du dir das PDF · Profil von examenscampus öffnen · Link in der Bio antippen · E-Mail eintragen – das PDF kommt sofort · Kostenlos, jederzeit abbestellbar · Gratis!"
+    }
+  ]
+}

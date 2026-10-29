@@ -1,0 +1,29 @@
+{
+  "slot": "s10",
+  "art": "teaser",
+  "fach": null,
+  "klausur": 0,
+  "fachLabel": "Mündliche Prüfung",
+  "themaId": null,
+  "beitragSlot": "m1",
+  "quellen": null,
+  "ueberzeile": "Neu im Feed",
+  "titel": [
+    "Unterschätzt.",
+    "Und dann durchgefallen."
+  ],
+  "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
+  "sichtbareTexte": [
+    "Mündliche Prüfung",
+    "Neu im Feed",
+    "Unterschätzt.",
+    "Und dann durchgefallen.",
+    "Gratis-PDF mit allen 10 Fehlern: Link in Bio"
+  ],
+  "renderer": "open-peeps-v4",
+  "bildStatus": "open-peeps-render",
+  "freigabeBetreiber": true,
+  "vorproduktionStatus": "live-freigegeben",
+  "liveVorrangAktiv": true,
+  "regelGeprueft": true
+}
