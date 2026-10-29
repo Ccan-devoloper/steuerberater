@@ -16851,7 +16851,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#erbschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 37,
+        "saved": 0,
+        "shares": 0,
+        "likes": 1,
+        "comments": 0,
+        "total_interactions": 1,
+        "follows": 0,
+        "profile_visits": 1
+      },
+      "insightsStand": "2026-10-29T13:40:07.040Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-29",
@@ -16865,7 +16877,22 @@
       "fach": "erbst",
       "titel": [
         "Erbschaftsteuer ausrechnen"
-      ]
+      ],
+      "insights": {
+        "reach": 17,
+        "views": 27,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 19,
+        "navigation_tap_forward": 13,
+        "navigation_tap_exit": 6
+      },
+      "insightsStand": "2026-10-29T13:40:05.493Z",
+      "insightsAlterStunden": 1.2
     },
     {
       "datum": "2026-10-29",

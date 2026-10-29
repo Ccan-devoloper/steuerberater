@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-29T12:45:45.087Z",
+  "stand": "2026-10-29T13:40:07.718Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -50665,6 +50665,59 @@
           "navigation_tap_back": 1
         }
       ]
+    },
+    "18645278563016645": {
+      "art": "story",
+      "datum": "2026-10-29",
+      "titel": [
+        "Erbschaftsteuer ausrechnen"
+      ],
+      "format": null,
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-29T12:30:21.752Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-29T13:40:05.493Z",
+          "alterStunden": 1.2,
+          "reach": 17,
+          "views": 27,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 19,
+          "navigation_tap_forward": 13,
+          "navigation_tap_exit": 6
+        }
+      ]
+    },
+    "18129280844510788": {
+      "art": "beitrag",
+      "datum": "2026-10-29",
+      "titel": "Prüfschema",
+      "format": "schema",
+      "fach": "erbst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-29T12:30:07.846Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-29T13:40:07.040Z",
+          "alterStunden": 1.2,
+          "reach": 37,
+          "saved": 0,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 1,
+          "follows": 0,
+          "profile_visits": 1
+        }
+      ]
     }
   },
   "konto": [
@@ -53470,6 +53523,11 @@
     },
     {
       "stand": "2026-10-29T12:45:45.087Z",
+      "follower": 281,
+      "medien": 164
+    },
+    {
+      "stand": "2026-10-29T13:40:07.718Z",
       "follower": 281,
       "medien": 164
     }
