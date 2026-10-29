@@ -16930,6 +16930,21 @@
         "#mündlicheprüfung",
         "#examensvorbereitung"
       ]
+    },
+    {
+      "datum": "2026-10-29",
+      "slot": "s10",
+      "medienId": "18120063110049970",
+      "veroeffentlicht": "2026-10-29T15:00:21.412Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": null,
+      "titel": [
+        "Unterschätzt.",
+        "Und dann durchgefallen."
+      ]
     }
   ],
   "fachZaehler": {
