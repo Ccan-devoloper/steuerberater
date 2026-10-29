@@ -60,7 +60,8 @@
       "zeit": "07:09",
       "art": "antwort",
       "themaId": "kst-karte-kst-9",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-29T06:09:00.094Z"
     },
     {
       "slot": "s1",
