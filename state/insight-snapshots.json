@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-30T17:14:13.065Z",
+  "stand": "2026-10-30T18:00:42.646Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -46821,6 +46821,20 @@
           "ig_reels_avg_watch_time": 9073,
           "ig_reels_video_view_total_time": 15378826,
           "reels_skip_rate": 56.6
+        },
+        {
+          "stand": "2026-10-30T18:00:39.113Z",
+          "alterStunden": 120,
+          "reach": 1706,
+          "saved": 22,
+          "shares": 6,
+          "likes": 18,
+          "comments": 0,
+          "total_interactions": 46,
+          "views": 2013,
+          "ig_reels_avg_watch_time": 9040,
+          "ig_reels_video_view_total_time": 15477510,
+          "reels_skip_rate": 56.7
         }
       ]
     },
@@ -51764,6 +51778,18 @@
           "total_interactions": 3,
           "follows": 0,
           "profile_visits": 1
+        },
+        {
+          "stand": "2026-10-30T18:00:39.113Z",
+          "alterStunden": 29.5,
+          "reach": 90,
+          "saved": 2,
+          "shares": 0,
+          "likes": 1,
+          "comments": 0,
+          "total_interactions": 3,
+          "follows": 0,
+          "profile_visits": 1
         }
       ]
     },
@@ -52772,6 +52798,23 @@
           "navigation_tap_back": 1,
           "navigation_swipe_forward": 2,
           "navigation_tap_forward": 14
+        },
+        {
+          "stand": "2026-10-30T18:00:37.749Z",
+          "alterStunden": 5.5,
+          "reach": 46,
+          "views": 58,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 1,
+          "profile_activity": 0,
+          "navigation": 54,
+          "navigation_tap_exit": 3,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 4,
+          "navigation_tap_forward": 45
         }
       ]
     },
@@ -52801,6 +52844,18 @@
           "stand": "2026-10-30T15:47:23.679Z",
           "alterStunden": 3.3,
           "reach": 49,
+          "saved": 2,
+          "shares": 0,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-30T18:00:39.113Z",
+          "alterStunden": 5.5,
+          "reach": 64,
           "saved": 2,
           "shares": 0,
           "likes": 2,
@@ -52870,6 +52925,32 @@
           "navigation_tap_exit": 4,
           "navigation_tap_forward": 16,
           "navigation_swipe_forward": 1
+        }
+      ]
+    },
+    "18644278426026757": {
+      "art": "beitrag",
+      "datum": "2026-10-30",
+      "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+      "format": "reel",
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T16:30:15.968Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T18:00:39.113Z",
+          "alterStunden": 1.5,
+          "reach": 112,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 194,
+          "ig_reels_avg_watch_time": 9688,
+          "ig_reels_video_view_total_time": 1085126,
+          "reels_skip_rate": 49.6
         }
       ]
     }
@@ -55774,6 +55855,11 @@
       "stand": "2026-10-30T16:46:28.178Z",
       "follower": 295,
       "medien": 169
+    },
+    {
+      "stand": "2026-10-30T18:00:42.646Z",
+      "follower": 308,
+      "medien": 170
     }
   ]
 }
