@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-fehler-1",
-        "themaTitel": "Fehler Nr. 1 der Mündlichen",
+        "themaId": "lead-test-t6",
+        "themaTitel": "Teste dich: Wem gehört das Grundstück der GbR?",
         "fach": null,
         "klausur": 0
       }
@@ -343,25 +343,30 @@
         "Fünfhunderttausend Euro Aufgabegewinn, immerhin begünstigt. Besser: das Grundstück mitschenken.",
         "Merke: Wesentliches Sonderbetriebsvermögen muss mit."
       ],
-      "dauerS": 35.554,
+      "dauerS": 36.019,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-fehler-1",
-      "caption": "Fehler Nr. 1 der Mündlichen – er steht in mehr als jedem zweiten von über 400 Prüfungsprotokollen. 😬\n\nPrüferfrage: Vermietetes Haus nach sieben Jahren verkauft – was sagen Sie dem Mandanten? Viele verlieren sich in Details, und der Prüfer wartet.\n\nWie die starke Antwort klingt – plus alle 10 Fehler mit Prüfungsszenen und Merksätzen – im Gratis-PDF 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-test-t6",
+      "caption": "Teste dich: Eine GbR besitzt ein Grundstück – wem gehört es? 🏛️\n\nA) den Gesellschaftern zur gesamten Hand  B) der GbR selbst  C) dem Geschäftsführer\n\nAuflösung: B. Seit dem MoPeG (1.1.2024) ist das Vermögen Vermögen der Gesellschaft (§ 713 BGB) – die Gesamthand ist Geschichte. Und die Prüfer-Nachfrage: Ein Grundstück wird für eine GbR nur eingetragen, wenn sie im Gesellschaftsregister steht (§ 47 Abs. 2 GBO, § 707 BGB).\n\nWer hier noch mit „Gesamthand“ antwortet, verliert in der Mündlichen sofort Punkte.\n\nSchreib deine Antwort in die Kommentare 👇\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#steuerberater"
       ],
-      "quellen": [],
+      "quellen": [
+        "§ 713 BGB",
+        "§ 707 BGB",
+        "§ 47 Abs. 2 GBO"
+      ],
       "slug": "2026-10-30-m1",
-      "kurztitel": "Fehler Nr. 1 der Mündlichen",
+      "kurztitel": "Teste dich: Wem gehört das Grundstück der GbR?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -373,34 +378,34 @@
       "liveVorrangAktiv": true,
       "bild": "op-cover",
       "reelTyp": "klausurfalle",
-      "hookStil": "knall",
+      "hookStil": "split",
       "coverBadge": "Reel",
       "szenen": [
         {
           "art": "hook",
-          "titel": "Fehler Nr. 1 der Mündlichen"
+          "titel": "Wem gehört das Grundstück der GbR?"
         },
         {
           "art": "schritt",
-          "titel": "Die Frage"
+          "titel": "A, B oder C?"
         },
         {
           "art": "schritt",
-          "titel": "So geht's schief"
+          "titel": "Auflösung"
         },
         {
           "art": "schritt",
-          "titel": "Und richtig?"
+          "titel": "Die Nachfrage"
         }
       ],
       "sprecher": [
-        "Dieser Fehler steht in mehr als jedem zweiten Prüfungsprotokoll. Und er kann dich das Examen kosten.",
-        "Der Prüfer fragt: Der Mandant hat sein vermietetes Haus nach sieben Jahren verkauft. Was sagen Sie ihm?",
-        "Viele fangen irgendwo an. Privatvermögen, Vermietung, Abschreibung. Und der Prüfer wartet.",
-        "Wie die starke Antwort klingt, die den Prüfer sofort überzeugt? Die steht im Leitfaden.",
-        "Die anderen neun Fehler gibt es kostenlos zum Download. Link in der Bio."
+        "Drei Sekunden: Wem gehört das Grundstück einer GbR?",
+        "A, den Gesellschaftern. B, der GbR. C, dem Geschäftsführer. Drei, zwei, eins.",
+        "Richtig ist B. Die Gesamthand ist seit zweitausendvierundzwanzig abgeschafft.",
+        "Und vor dem Kauf? Ins Gesellschaftsregister. Hier scheitern viele.",
+        "Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
       ],
-      "dauerS": 33.567,
+      "dauerS": 31.183,
       "tempo": 1.0
     },
     "s4": {
@@ -756,7 +761,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -767,7 +772,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Fehler Nr. 1:",
         "in jedem 2. Protokoll",
@@ -783,7 +788,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:52:43Z",
+    "erzeugtAm": "2026-10-30T12:22:35Z",
     "pfad": "vorproduktion/2026-10-30/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
