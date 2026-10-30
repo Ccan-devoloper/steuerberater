@@ -16879,22 +16879,22 @@
         "Erbschaftsteuer ausrechnen"
       ],
       "insights": {
-        "reach": 74,
-        "views": 94,
+        "reach": 87,
+        "views": 107,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 2,
         "profile_activity": 0,
-        "navigation": 87,
-        "navigation_tap_back": 6,
-        "navigation_tap_forward": 68,
-        "navigation_tap_exit": 10,
-        "navigation_swipe_forward": 3
+        "navigation": 96,
+        "navigation_swipe_forward": 6,
+        "navigation_tap_exit": 11,
+        "navigation_tap_forward": 73,
+        "navigation_tap_back": 6
       },
-      "insightsStand": "2026-10-30T08:45:55.946Z",
-      "insightsAlterStunden": 20.3
+      "insightsStand": "2026-10-30T11:14:05.472Z",
+      "insightsAlterStunden": 22.7
     },
     {
       "datum": "2026-10-29",
