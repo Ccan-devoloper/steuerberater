@@ -17136,6 +17136,20 @@
       "thema": "persg-quiz-k3-28",
       "fach": "persg",
       "titel": ""
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "s5",
+      "medienId": "18152716969502354",
+      "veroeffentlicht": "2026-10-30T06:09:03.158Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "antwort",
+      "thema": "persg-quiz-k3-28",
+      "fach": "persg",
+      "titel": [
+        "B: zwingend"
+      ]
     }
   ],
   "fachZaehler": {
