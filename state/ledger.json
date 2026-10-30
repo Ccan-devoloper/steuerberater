@@ -17453,6 +17453,20 @@
         "#examensvorbereitung",
         "#steuerberater"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "s3",
+      "medienId": "18135467089680930",
+      "veroeffentlicht": "2026-10-30T18:00:23.724Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "persg",
+      "titel": [
+        "Anteil verschenkt"
+      ]
     }
   ],
   "fachZaehler": {
