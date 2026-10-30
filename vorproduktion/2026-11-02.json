@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r6",
-        "themaTitel": "Fachbegriffe nicht treffen",
+        "themaId": "lead-zr-z3",
+        "themaTitel": "Beweislastumkehr: 6 Monate? Veraltet.",
         "fach": null,
         "klausur": 0
       }
@@ -351,28 +351,30 @@
         "Diese Bezüge ziehst du vom Übernahmegewinn ab. Rest: null. Nichts wird doppelt besteuert.",
         "Merke: Erst Bezüge nach Paragraf sieben abziehen, dann Rest rechnen."
       ],
-      "dauerS": 41.125,
+      "dauerS": 40.782,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r6",
-      "caption": "Fehler Nr. 4 der Mündlichen: Fachbegriffe nicht treffen. 🎯\n\n„Steuerfrei, weil Ausland“ reicht nicht. Richtig: innergemeinschaftliche Lieferung, steuerfrei nach § 4 Nr. 1 Buchst. b i. V. m. § 6a UStG – u. a. nur, wenn der Abnehmer eine gültige, ihm von einem anderen Mitgliedstaat erteilte USt-IdNr. verwendet (§ 6a Abs. 1 S. 1 Nr. 4 UStG).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z3",
+      "caption": "6 Monate Beweislastumkehr? Seit 2022 veraltet. ⏳\n\nBeim Verbrauchsgüterkauf wird vermutet, dass ein Mangel, der sich innerhalb eines Jahres seit Gefahrübergang zeigt, schon bei Gefahrübergang vorlag (§ 477 Abs. 1 BGB). Gilt nur, wenn ein Verbraucher von einem Unternehmer kauft (§ 474 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 4 Nr. 1 Buchst. b UStG",
-        "§ 6a Abs. 1 S. 1 Nr. 4 UStG"
+        "§ 477 Abs. 1 BGB",
+        "§ 474 BGB"
       ],
       "slug": "2026-11-02-m1",
-      "kurztitel": "Fachbegriffe nicht treffen",
+      "kurztitel": "Beweislastumkehr: 6 Monate? Veraltet.",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -384,35 +386,35 @@
       "liveVorrangAktiv": true,
       "bild": "op-cover",
       "reelTyp": "klausurfalle",
-      "hookStil": "kippen",
+      "hookStil": "knall",
       "coverBadge": "Reel",
       "szenen": [
         {
           "art": "hook",
-          "titel": "„Steuerfrei, weil Ausland.“"
+          "titel": "6 Monate Beweislastumkehr?"
         },
         {
           "art": "schritt",
-          "titel": "Platz 4"
+          "titel": "Neu"
         },
         {
           "art": "schritt",
-          "titel": "Der Begriff"
+          "titel": "Die Vermutung"
         },
         {
           "art": "schritt",
-          "titel": "Die Bedingung"
+          "titel": "Nur B2C"
         }
       ],
       "sprecher": [
-        "Steuerfrei, weil Ausland. Viel zu ungenau. Der Prüfer wartet auf den Fachbegriff.",
-        "Fachbegriffe nicht treffen ist Platz vier der häufigsten Fehler.",
-        "Richtig ist: innergemeinschaftliche Lieferung. Steuerfrei nach Paragraf vier Nummer eins b und sechs a Umsatzsteuergesetz.",
-        "Aber nur, wenn der Kunde seine gültige ausländische Umsatzsteuer-Identifikationsnummer verwendet.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Sechs Monate Beweislastumkehr? Wer das sagt, ist veraltet.",
+        "Seit zweitausendzweiundzwanzig gilt beim Verbrauchsgüterkauf ein ganzes Jahr.",
+        "Zeigt sich der Mangel im ersten Jahr, wird vermutet, dass er schon bei Übergabe da war.",
+        "Und das gilt nur, wenn ein Verbraucher von einem Unternehmer kauft. Nicht unter Privatleuten.",
+        "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
       ],
-      "dauerS": 34.518,
-      "tempo": 1.0
+      "dauerS": 27.806,
+      "tempo": 1.07
     },
     "s4": {
       "slot": "s4",
@@ -786,7 +788,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -797,7 +799,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Ein falsches Wort –",
         "und der Prüfer hakt nach",
@@ -813,7 +815,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:55:04Z",
+    "erzeugtAm": "2026-10-30T21:42:35Z",
     "pfad": "vorproduktion/2026-11-02/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
