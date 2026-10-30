@@ -17391,10 +17391,32 @@
         "Außerhalb der",
         "Bilanz zurückholen"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "b3",
+      "medienId": "18644278426026757",
+      "veroeffentlicht": "2026-10-30T16:30:15.968Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "17:30",
+      "stunde": 17,
+      "format": "reel",
+      "thema": "persg-aufb-persg-melzer-2-7",
+      "fach": "persg",
+      "klausur": 3,
+      "titel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#personengesellschaften"
+      ]
     }
   ],
   "fachZaehler": {
-    "persg": 17,
+    "persg": 18,
     "ust": 15,
     "kst": 14,
     "ao": 27,
