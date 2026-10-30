@@ -17137,21 +17137,21 @@
       "fach": "persg",
       "titel": "",
       "insights": {
-        "reach": 26,
-        "views": 34,
+        "reach": 42,
+        "views": 50,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 23,
-        "navigation_tap_exit": 1,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 20
+        "navigation": 40,
+        "navigation_tap_exit": 2,
+        "navigation_swipe_forward": 4,
+        "navigation_tap_forward": 34
       },
-      "insightsStand": "2026-10-30T07:30:18.356Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-30T11:36:59.563Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-30",
@@ -17167,22 +17167,22 @@
         "B: zwingend"
       ],
       "insights": {
-        "reach": 24,
-        "views": 29,
+        "reach": 41,
+        "views": 48,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 27,
-        "navigation_swipe_forward": 2,
-        "navigation_tap_forward": 14,
-        "navigation_tap_exit": 8,
-        "navigation_tap_back": 3
+        "navigation": 45,
+        "navigation_tap_back": 4,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 27,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-30T07:30:18.356Z",
-      "insightsAlterStunden": 1.4
+      "insightsStand": "2026-10-30T11:36:59.563Z",
+      "insightsAlterStunden": 5.5
     },
     {
       "datum": "2026-10-30",
