@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-30T16:46:28.178Z",
+  "stand": "2026-10-30T17:14:13.065Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -52616,6 +52616,23 @@
           "navigation_swipe_forward": 2,
           "navigation_tap_exit": 5,
           "navigation_tap_forward": 35
+        },
+        {
+          "stand": "2026-10-30T17:14:13.065Z",
+          "alterStunden": 9.7,
+          "reach": 57,
+          "views": 76,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 4,
+          "profile_activity": 0,
+          "navigation": 63,
+          "navigation_tap_back": 2,
+          "navigation_swipe_forward": 5,
+          "navigation_tap_exit": 6,
+          "navigation_tap_forward": 50
         }
       ]
     },
@@ -52822,6 +52839,37 @@
           "navigation_tap_forward": 16,
           "navigation_tap_exit": 3,
           "navigation_swipe_forward": 3
+        }
+      ]
+    },
+    "18201323065389777": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": [
+        "Außerhalb der",
+        "Bilanz zurückholen"
+      ],
+      "format": null,
+      "fach": "kst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T16:04:03.594Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T17:14:13.065Z",
+          "alterStunden": 1.2,
+          "reach": 21,
+          "views": 25,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 21,
+          "navigation_tap_exit": 4,
+          "navigation_tap_forward": 16,
+          "navigation_swipe_forward": 1
         }
       ]
     }
