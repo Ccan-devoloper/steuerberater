@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r4",
-        "themaTitel": "Aus dem Kopf statt aus dem Gesetz",
+        "themaId": "lead-zr-z1",
+        "themaTitel": "Schweigen ist keine Zustimmung? Nicht immer.",
         "fach": null,
         "klausur": 0
       }
@@ -332,28 +332,29 @@
         "Übliche Grabpflege bewertet das Gesetz für unbestimmte Dauer. Sechshundert Euro im Jahr ergeben fünftausendfünfhundertachtzig Euro.",
         "Merke: Grabpflege mal neun Komma drei. Oder die Pauschale."
       ],
-      "dauerS": 38.33,
+      "dauerS": 38.261,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r4",
-      "caption": "Fehler Nr. 2 der Mündlichen: aus dem Kopf statt aus dem Gesetz antworten. 📖\n\n„Ich glaube, vier Jahre“ kostet Punkte. Die Rechtslage: Festsetzungsfrist vier Jahre (§ 169 Abs. 2 S. 1 Nr. 2 AO), Beginn mit Ablauf des Jahres der Abgabe der Erklärung (§ 170 Abs. 2 S. 1 Nr. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z1",
+      "caption": "Schweigen ist nie Zustimmung? In der Mündlichen eine teure Antwort. 📩\n\nKaufmännisches Bestätigungsschreiben: Wer als Kaufmann nicht unverzüglich widerspricht, muss den Inhalt gegen sich gelten lassen (Handelsbrauch, § 346 HGB). Grenze: Das Schreiben weicht so stark vom Besprochenen ab, dass der Absender nicht mit Zustimmung rechnen durfte.\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 169 Abs. 2 S. 1 Nr. 2 AO",
-        "§ 170 Abs. 2 S. 1 Nr. 1 AO"
+        "§ 346 HGB"
       ],
       "slug": "2026-10-31-m1",
-      "kurztitel": "Aus dem Kopf statt aus dem Gesetz",
+      "kurztitel": "Schweigen ist keine Zustimmung? Nicht immer.",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -370,30 +371,30 @@
       "szenen": [
         {
           "art": "hook",
-          "titel": "„Ich glaube, vier Jahre.“"
+          "titel": "Schweigen ist nie eine Zustimmung."
         },
         {
           "art": "schritt",
-          "titel": "Die Frage"
+          "titel": "Der Fall"
         },
         {
           "art": "schritt",
-          "titel": "Erst die Norm"
+          "titel": "Die Regel"
         },
         {
           "art": "schritt",
-          "titel": "Dann der Beginn"
+          "titel": "Die Grenze"
         }
       ],
       "sprecher": [
-        "Ich glaube, vier Jahre. Mit diesem Satz verschenkst du Punkte. Und merkst es nicht mal.",
-        "Die Frage lautet: Wie lange kann ein Bescheid noch geändert werden?",
-        "Die Festsetzungsfrist beträgt vier Jahre, nach Paragraf hundertneunundsechzig Abgabenordnung.",
-        "Sie beginnt mit Ablauf des Jahres, in dem die Erklärung eingereicht wurde. Paragraf hundertsiebzig.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Schweigen ist nie eine Zustimmung? Falsch. Unter Kaufleuten oft doch.",
+        "Nach dem Telefonat kommt ein Bestätigungsschreiben mit anderem Preis. Der Käufer schweigt.",
+        "Wer nicht sofort widerspricht, ist gebunden.",
+        "Außer es weicht so stark ab, dass keiner Zustimmung erwarten durfte. Dann gilt es nicht.",
+        "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
       ],
-      "dauerS": 31.588,
-      "tempo": 1.0
+      "dauerS": 27.142,
+      "tempo": 1.05
     },
     "s4": {
       "slot": "s4",
@@ -740,7 +741,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -751,7 +752,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Aus dem Kopf?",
         "Prüfer merken das sofort",
@@ -767,7 +768,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:53:30Z",
+    "erzeugtAm": "2026-10-30T21:39:16Z",
     "pfad": "vorproduktion/2026-10-31/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
