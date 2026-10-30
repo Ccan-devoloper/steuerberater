@@ -91,7 +91,8 @@
       "zeit": "13:30",
       "art": "teaser",
       "beitragSlot": "b2",
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-30T12:30:13.469Z"
     },
     {
       "slot": "s7",
