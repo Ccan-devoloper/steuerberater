@@ -17376,6 +17376,21 @@
       },
       "insightsStand": "2026-10-30T15:47:16.608Z",
       "insightsAlterStunden": 2
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "s8",
+      "medienId": "18201323065389777",
+      "veroeffentlicht": "2026-10-30T16:04:03.594Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "tipp",
+      "thema": "kst-aufb-kst-ks-2-06",
+      "fach": "kst",
+      "titel": [
+        "Außerhalb der",
+        "Bilanz zurückholen"
+      ]
     }
   ],
   "fachZaehler": {
