@@ -17496,6 +17496,21 @@
         "Fehler Nr. 1:",
         "in jedem 2. Protokoll"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "s9",
+      "medienId": "17998620057046636",
+      "veroeffentlicht": "2026-10-30T18:12:04.549Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "merksatz",
+      "thema": "umwst-aufb-umw-ks-3-02",
+      "fach": "umwst",
+      "titel": [
+        "GmbH wird KG:",
+        "Schlussbilanz"
+      ]
     }
   ],
   "fachZaehler": {
