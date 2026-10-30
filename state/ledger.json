@@ -17430,6 +17430,29 @@
         "#examensvorbereitung",
         "#personengesellschaften"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "m1",
+      "medienId": "17941377525386064",
+      "veroeffentlicht": "2026-10-30T18:00:11.425Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "19:00",
+      "stunde": 19,
+      "format": "reel",
+      "thema": "lead-test-t6",
+      "fach": null,
+      "klausur": 0,
+      "titel": "Teste dich: Wem gehört das Grundstück der GbR?",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterprüfung",
+        "#steuerberaterexamen",
+        "#mündlicheprüfung",
+        "#examensvorbereitung",
+        "#steuerberater"
+      ]
     }
   ],
   "fachZaehler": {
@@ -17444,7 +17467,7 @@
     "est": 8,
     "umwst": 9,
     "gewst": 4,
-    "null": 8
+    "null": 9
   },
   "nachrichten": [],
   "postfach": [],

@@ -48,8 +48,9 @@
       "themaTitel": "Teste dich: Wem gehört das Grundstück der GbR?",
       "fach": null,
       "klausur": 0,
-      "status": "sendet",
-      "sendeversuch": "2026-10-30T18:00:00.066Z"
+      "status": "veroeffentlicht",
+      "medienId": "17941377525386064",
+      "veroeffentlicht": "2026-10-30T18:00:11.424Z"
     }
   ],
   "stories": [
