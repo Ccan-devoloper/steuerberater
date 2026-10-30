@@ -16950,17 +16950,17 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 65,
+        "reach": 84,
         "saved": 0,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 0,
         "follows": 0,
-        "profile_visits": 4
+        "profile_visits": 5
       },
-      "insightsStand": "2026-10-29T19:47:52.512Z",
-      "insightsAlterStunden": 4.8
+      "insightsStand": "2026-10-30T06:09:04.609Z",
+      "insightsAlterStunden": 15.1
     },
     {
       "datum": "2026-10-29",
@@ -17048,19 +17048,19 @@
         "#einkommensteuer"
       ],
       "insights": {
-        "reach": 151,
+        "reach": 273,
         "saved": 2,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 2,
-        "views": 187,
-        "ig_reels_avg_watch_time": 6918,
-        "ig_reels_video_view_total_time": 1044750,
-        "reels_skip_rate": 66.5
+        "total_interactions": 3,
+        "views": 341,
+        "ig_reels_avg_watch_time": 7480,
+        "ig_reels_video_view_total_time": 2064542,
+        "reels_skip_rate": 67.3
       },
-      "insightsStand": "2026-10-29T19:47:52.512Z",
-      "insightsAlterStunden": 1.8
+      "insightsStand": "2026-10-30T06:09:04.609Z",
+      "insightsAlterStunden": 12.1
     },
     {
       "datum": "2026-10-29",
