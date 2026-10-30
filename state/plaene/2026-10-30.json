@@ -36,7 +36,8 @@
       "themaTitel": "Was passiert mit dem Sonderbetriebsvermögen bei der Anteilsschenkung?",
       "fach": "persg",
       "klausur": 3,
-      "status": "geplant"
+      "status": "sendet",
+      "sendeversuch": "2026-10-30T16:30:00.069Z"
     },
     {
       "slot": "m1",
