@@ -16400,7 +16400,7 @@
         "#umwandlungssteuerrecht"
       ],
       "insights": {
-        "reach": 99,
+        "reach": 102,
         "saved": 3,
         "shares": 1,
         "likes": 2,
@@ -16409,8 +16409,8 @@
         "follows": 0,
         "profile_visits": 1
       },
-      "insightsStand": "2026-10-30T05:46:30.043Z",
-      "insightsAlterStunden": 41.3
+      "insightsStand": "2026-10-30T13:48:40.189Z",
+      "insightsAlterStunden": 49.3
     },
     {
       "datum": "2026-10-28",
@@ -16529,19 +16529,19 @@
         "#umsatzsteuer"
       ],
       "insights": {
-        "reach": 1446,
+        "reach": 1450,
         "saved": 9,
         "shares": 1,
         "likes": 12,
         "comments": 0,
         "total_interactions": 22,
-        "views": 1741,
-        "ig_reels_avg_watch_time": 11459,
-        "ig_reels_video_view_total_time": 16593841,
+        "views": 1744,
+        "ig_reels_avg_watch_time": 11475,
+        "ig_reels_video_view_total_time": 16639707,
         "reels_skip_rate": 45.1
       },
-      "insightsStand": "2026-10-30T05:46:30.043Z",
-      "insightsAlterStunden": 37.3
+      "insightsStand": "2026-10-30T13:48:40.189Z",
+      "insightsAlterStunden": 45.3
     },
     {
       "datum": "2026-10-28",
@@ -16565,19 +16565,19 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 2707,
+        "reach": 2772,
         "saved": 18,
         "shares": 7,
         "likes": 13,
         "comments": 0,
         "total_interactions": 38,
-        "views": 3305,
-        "ig_reels_avg_watch_time": 14799,
-        "ig_reels_video_view_total_time": 40327327,
-        "reels_skip_rate": 39.6
+        "views": 3372,
+        "ig_reels_avg_watch_time": 14816,
+        "ig_reels_video_view_total_time": 41191199,
+        "reels_skip_rate": 39.8
       },
-      "insightsStand": "2026-10-30T05:46:30.043Z",
-      "insightsAlterStunden": 35.8
+      "insightsStand": "2026-10-30T13:48:40.189Z",
+      "insightsAlterStunden": 43.8
     },
     {
       "datum": "2026-10-28",
@@ -16756,7 +16756,7 @@
         "#bilanzsteuerrecht"
       ],
       "insights": {
-        "reach": 80,
+        "reach": 83,
         "saved": 2,
         "shares": 0,
         "likes": 0,
@@ -16765,8 +16765,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-30T05:46:30.043Z",
-      "insightsAlterStunden": 22.3
+      "insightsStand": "2026-10-30T13:48:40.189Z",
+      "insightsAlterStunden": 30.3
     },
     {
       "datum": "2026-10-29",
@@ -17076,22 +17076,22 @@
         "Betrieb gegen 150.000 €"
       ],
       "insights": {
-        "reach": 61,
-        "views": 68,
+        "reach": 69,
+        "views": 79,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 61,
-        "navigation_tap_forward": 47,
-        "navigation_tap_exit": 8,
-        "navigation_swipe_forward": 4,
-        "navigation_tap_back": 2
+        "navigation": 69,
+        "navigation_tap_back": 3,
+        "navigation_swipe_forward": 5,
+        "navigation_tap_exit": 10,
+        "navigation_tap_forward": 51
       },
-      "insightsStand": "2026-10-30T09:47:34.846Z",
-      "insightsAlterStunden": 15.8
+      "insightsStand": "2026-10-30T13:48:33.912Z",
+      "insightsAlterStunden": 19.8
     },
     {
       "datum": "2026-10-29",
@@ -17108,22 +17108,22 @@
         "abziehbar?"
       ],
       "insights": {
-        "reach": 57,
-        "views": 65,
+        "reach": 65,
+        "views": 74,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 64,
-        "navigation_swipe_forward": 3,
-        "navigation_tap_forward": 48,
-        "navigation_tap_exit": 11,
-        "navigation_tap_back": 2
+        "navigation": 71,
+        "navigation_tap_back": 3,
+        "navigation_tap_exit": 12,
+        "navigation_tap_forward": 52,
+        "navigation_swipe_forward": 4
       },
-      "insightsStand": "2026-10-30T09:47:34.846Z",
-      "insightsAlterStunden": 15.6
+      "insightsStand": "2026-10-30T13:48:33.912Z",
+      "insightsAlterStunden": 19.6
     },
     {
       "datum": "2026-10-30",
@@ -17300,7 +17300,19 @@
         "#steuerberaterprüfung",
         "#examensvorbereitung",
         "#körperschaftsteuer"
-      ]
+      ],
+      "insights": {
+        "reach": 28,
+        "saved": 2,
+        "shares": 0,
+        "likes": 2,
+        "comments": 0,
+        "total_interactions": 4,
+        "follows": 0,
+        "profile_visits": 0
+      },
+      "insightsStand": "2026-10-30T13:48:40.189Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-30",
@@ -17314,7 +17326,24 @@
       "fach": "kst",
       "titel": [
         "Unbeschränkt oder beschränkt?"
-      ]
+      ],
+      "insights": {
+        "reach": 14,
+        "views": 18,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 18,
+        "navigation_tap_exit": 1,
+        "navigation_tap_back": 1,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 14
+      },
+      "insightsStand": "2026-10-30T13:48:33.912Z",
+      "insightsAlterStunden": 1.3
     },
     {
       "datum": "2026-10-30",
