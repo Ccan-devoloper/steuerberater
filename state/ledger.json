@@ -17263,12 +17263,34 @@
         "Wohnrecht",
         "bewerten"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "b2",
+      "medienId": "17911108038561797",
+      "veroeffentlicht": "2026-10-30T12:30:05.143Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "13:30",
+      "stunde": 13,
+      "format": "vergleich",
+      "thema": "kst-aufb-kst-ks-1-03",
+      "fach": "kst",
+      "klausur": 2,
+      "titel": "Gegenüberstellung",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#körperschaftsteuer"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 17,
     "ust": 15,
-    "kst": 13,
+    "kst": 14,
     "ao": 27,
     "bilanz": 26,
     "istr": 20,
