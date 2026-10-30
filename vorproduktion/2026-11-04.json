@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r8",
-        "themaTitel": "Nicht zuhören, wenn andere dran sind",
+        "themaId": "lead-zr-z5",
+        "themaTitel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
         "fach": null,
         "klausur": 0
       }
@@ -354,27 +354,30 @@
         "Und das Abkommen? Artikel sechzehn lässt den Staat besteuern, in dem die Gesellschaft ansässig ist.",
         "Merke: Der Aufsichtsrat zahlt dort, wo die Gesellschaft sitzt."
       ],
-      "dauerS": 36.926,
+      "dauerS": 36.945,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r8",
-      "caption": "Fehler Nr. 6 der Mündlichen: nicht zuhören, wenn andere dran sind. 👂\n\n„Sehen Sie das genauso?“ – Beispiel: Neue Tatsachen nach Bestandskraft, die zu einer niedrigeren Steuer führen: Änderung nach § 173 Abs. 1 Nr. 2 AO nur, wenn den Steuerpflichtigen kein grobes Verschulden daran trifft, dass sie erst nachträglich bekannt werden.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z5",
+      "caption": "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform? ✍️\n\nFalsch. Grundsatz: schriftliche Erteilung der Bürgschaftserklärung (§ 766 S. 1 BGB), elektronische Form ausgeschlossen (§ 766 S. 2 BGB). Aber: Ist die Bürgschaft auf Seiten des Bürgen ein Handelsgeschäft, gilt die Form nicht (§ 350 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 173 Abs. 1 Nr. 2 AO"
+        "§ 766 BGB",
+        "§ 350 HGB"
       ],
       "slug": "2026-11-04-m1",
-      "kurztitel": "Nicht zuhören, wenn andere dran sind",
+      "kurztitel": "Wahr oder falsch: Bürgschaft braucht Schriftform",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -386,34 +389,34 @@
       "liveVorrangAktiv": true,
       "bild": "op-cover",
       "reelTyp": "klausurfalle",
-      "hookStil": "kippen",
+      "hookStil": "split",
       "coverBadge": "Reel",
       "szenen": [
         {
           "art": "hook",
-          "titel": "„Sehen Sie das genauso?“"
+          "titel": "Bürgschaft braucht immer Schriftform."
         },
         {
           "art": "schritt",
-          "titel": "Platz 6"
+          "titel": "Grundsatz"
         },
         {
           "art": "schritt",
-          "titel": "Die Frage"
+          "titel": "Ausnahme"
         },
         {
           "art": "schritt",
-          "titel": "Die Ergänzung"
+          "titel": "Bonus"
         }
       ],
       "sprecher": [
-        "Sehen Sie das genauso? Wer nicht zugehört hat, ist jetzt erwischt. Also: immer mitdenken.",
-        "Fragen werden oft ohne Vorwarnung weitergegeben. Platz sechs der häufigsten Fehler.",
-        "Beispiel: Nach Bestandskraft tauchen neue Belege auf. Änderung nach Paragraf hundertdreiundsiebzig?",
-        "Stark ergänzt: Zugunsten des Steuerpflichtigen nur ohne grobes Verschulden.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Wahr oder falsch: Eine Bürgschaft braucht immer Schriftform.",
+        "Falsch. Grundsätzlich muss die Erklärung des Bürgen schriftlich sein.",
+        "Aber für einen Kaufmann ist die Bürgschaft formfrei, wenn sie ein Handelsgeschäft ist.",
+        "Und eine Bürgschaft per E-Mail? Beim Privatbürgen ausdrücklich ausgeschlossen.",
+        "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
       ],
-      "dauerS": 33.993,
+      "dauerS": 27.04,
       "tempo": 1.0
     },
     "s4": {
@@ -789,7 +792,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -800,7 +803,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Nicht zugehört?",
         "Gleich bist du dran",
@@ -816,7 +819,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:56:42Z",
+    "erzeugtAm": "2026-10-30T21:46:04Z",
     "pfad": "vorproduktion/2026-11-04/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
