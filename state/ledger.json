@@ -17285,6 +17285,20 @@
         "#examensvorbereitung",
         "#körperschaftsteuer"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "s2",
+      "medienId": "18358879396217670",
+      "veroeffentlicht": "2026-10-30T12:30:16.244Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "kst",
+      "titel": [
+        "Unbeschränkt oder beschränkt?"
+      ]
     }
   ],
   "fachZaehler": {
