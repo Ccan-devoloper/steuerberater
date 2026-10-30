@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-30T06:46:28.026Z",
+  "stand": "2026-10-30T07:30:18.356Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -51836,6 +51836,65 @@
           "ig_reels_avg_watch_time": 7480,
           "ig_reels_video_view_total_time": 2064542,
           "reels_skip_rate": 67.3
+        }
+      ]
+    },
+    "18034890812888938": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": null,
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T06:07:05.293Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T07:30:18.356Z",
+          "alterStunden": 1.4,
+          "reach": 26,
+          "views": 34,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 23,
+          "navigation_tap_exit": 1,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 20
+        }
+      ]
+    },
+    "18152716969502354": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": [
+        "B: zwingend"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T06:09:03.158Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T07:30:18.356Z",
+          "alterStunden": 1.4,
+          "reach": 24,
+          "views": 29,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_swipe_forward": 2,
+          "navigation_tap_forward": 14,
+          "navigation_tap_exit": 8,
+          "navigation_tap_back": 3
         }
       ]
     }

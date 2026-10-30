@@ -17135,7 +17135,23 @@
       "storyArt": "frage",
       "thema": "persg-quiz-k3-28",
       "fach": "persg",
-      "titel": ""
+      "titel": "",
+      "insights": {
+        "reach": 26,
+        "views": 34,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 23,
+        "navigation_tap_exit": 1,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 20
+      },
+      "insightsStand": "2026-10-30T07:30:18.356Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-30",
@@ -17149,7 +17165,24 @@
       "fach": "persg",
       "titel": [
         "B: zwingend"
-      ]
+      ],
+      "insights": {
+        "reach": 24,
+        "views": 29,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 27,
+        "navigation_swipe_forward": 2,
+        "navigation_tap_forward": 14,
+        "navigation_tap_exit": 8,
+        "navigation_tap_back": 3
+      },
+      "insightsStand": "2026-10-30T07:30:18.356Z",
+      "insightsAlterStunden": 1.4
     },
     {
       "datum": "2026-10-30",
