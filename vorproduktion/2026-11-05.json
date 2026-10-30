@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r9",
-        "themaTitel": "Schweigen oder „keine Ahnung“ sagen",
+        "themaId": "lead-zr-z6",
+        "themaTitel": "Gutgläubig gekauft – trotzdem weg?",
         "fach": null,
         "klausur": 0
       }
@@ -334,29 +334,29 @@
         "Kauft die GmbH im Jahr auf einen Schlag mindestens zehn Prozent, gilt der Erwerb als zu Jahresbeginn.",
         "Merke: Zehn Prozent am ersten Januar entscheiden."
       ],
-      "dauerS": 35.544,
+      "dauerS": 34.991,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r9",
-      "caption": "Fehler Nr. 7 der Mündlichen: schweigen oder „keine Ahnung“ sagen. 🙊\n\nBesser beim Grundtatbestand einsteigen: Der Haftungsbescheid (§ 191 Abs. 1 AO) ist ein Verwaltungsakt – dagegen Einspruch (§ 347 AO) innerhalb eines Monats nach Bekanntgabe (§ 355 Abs. 1 AO).\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z6",
+      "caption": "Gutgläubig gekauft – und trotzdem nicht Eigentümer? 🚲\n\nAn gestohlenen, verlorenen oder sonst abhanden gekommenen Sachen ist gutgläubiger Erwerb ausgeschlossen (§ 935 Abs. 1 BGB). Ausnahme u. a.: Geld und Inhaberpapiere sowie Sachen aus öffentlicher Versteigerung (§ 935 Abs. 2 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 191 Abs. 1 AO",
-        "§ 347 AO",
-        "§ 355 Abs. 1 AO"
+        "§ 935 BGB"
       ],
       "slug": "2026-11-05-m1",
-      "kurztitel": "Schweigen oder „keine Ahnung“ sagen",
+      "kurztitel": "Gutgläubig gekauft – trotzdem weg?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -373,30 +373,30 @@
       "szenen": [
         {
           "art": "hook",
-          "titel": "„Keine Ahnung.“"
+          "titel": "Gutgläubig gekauft. Trotzdem weg?"
         },
         {
           "art": "schritt",
-          "titel": "Platz 7"
+          "titel": "Der Fall"
         },
         {
           "art": "schritt",
-          "titel": "Grundtatbestand"
+          "titel": "Die Regel"
         },
         {
           "art": "schritt",
-          "titel": "Also"
+          "titel": "Ausnahme"
         }
       ],
       "sprecher": [
-        "Keine Ahnung. Diesen Satz solltest du in der Mündlichen nie sagen.",
-        "Schweigen und Aufgeben ist Platz sieben der häufigsten Fehler.",
-        "Fang beim Grundtatbestand an. Ein Haftungsbescheid ist ein Verwaltungsakt.",
-        "Also Einspruch, innerhalb eines Monats. Paragraf dreihundertfünfundfünfzig.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Gutgläubig gekauft, trotzdem nicht Eigentümer? Ja!",
+        "Du kaufst ein Fahrrad, hältst den Verkäufer für den Eigentümer. Es war gestohlen.",
+        "Bei gestohlenen Sachen ist gutgläubiger Erwerb ausgeschlossen.",
+        "Die Ausnahme fragt jeder Prüfer: Geld. Das geht auch gestohlen gutgläubig.",
+        "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
       ],
-      "dauerS": 27.905,
-      "tempo": 1.0
+      "dauerS": 27.56,
+      "tempo": 1.02
     },
     "s4": {
       "slot": "s4",
@@ -770,7 +770,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -781,7 +781,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "„Keine Ahnung“:",
         "der teuerste Satz",
@@ -797,7 +797,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:57:23Z",
+    "erzeugtAm": "2026-10-30T21:47:34Z",
     "pfad": "vorproduktion/2026-11-05/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
