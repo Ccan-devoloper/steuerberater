@@ -17150,13 +17150,35 @@
       "titel": [
         "B: zwingend"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "b1",
+      "medienId": "18573184501078793",
+      "veroeffentlicht": "2026-10-30T07:30:05.991Z",
+      "quelle": "vorproduktion",
+      "art": "beitrag",
+      "zeit": "08:30",
+      "stunde": 8,
+      "format": "minifall",
+      "thema": "ao-modul-ao-316",
+      "fach": "ao",
+      "klausur": 1,
+      "titel": "Mini-Fall",
+      "hookTyp": null,
+      "hashtags": [
+        "#steuerberaterexamen",
+        "#steuerberaterprüfung",
+        "#examensvorbereitung",
+        "#abgabenordnung"
+      ]
     }
   ],
   "fachZaehler": {
     "persg": 17,
     "ust": 15,
     "kst": 13,
-    "ao": 26,
+    "ao": 27,
     "bilanz": 26,
     "istr": 20,
     "erbst": 11,

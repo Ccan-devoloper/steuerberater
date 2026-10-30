@@ -12,8 +12,9 @@
       "themaTitel": "Prüfungsreihenfolge beim fehlerhaften VA: Plan A Einspruch, Plan B Korrekturverfahren",
       "fach": "ao",
       "klausur": 1,
-      "status": "sendet",
-      "sendeversuch": "2026-10-30T07:30:00.067Z"
+      "status": "veroeffentlicht",
+      "medienId": "18573184501078793",
+      "veroeffentlicht": "2026-10-30T07:30:05.990Z"
     },
     {
       "slot": "b2",
