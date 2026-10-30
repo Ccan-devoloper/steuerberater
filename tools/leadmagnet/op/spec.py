@@ -491,3 +491,132 @@ def reel_platz10():
 
 
 REELS += [reel_platz2, reel_platz3, reel_platz4, reel_platz5, reel_platz6, reel_platz7, reel_platz8, reel_platz9, reel_platz10]
+
+
+# ======================================================================== Test-Reels: „Teste dich“ – Frage, drei Optionen, Auflösung, Nachfrage (≤ 30 s)
+TEST_CTA = "Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
+
+
+def test_reel(slot, rolle, pose, titel, hook, sprecher, optionen, loesung, nachfrage, caption, quellen, frage_wort):
+    """Quiz-Reel: Hook mit Prüferfrage, A/B/C mit Countdown, Auflösung mit Norm, Nachfrage des Prüfers, Verweis aufs Gratis-PDF."""
+    h = dict(hook, pille="Teste dich · 3 Sekunden", figur=f"{rolle}/{pose}", name=FIG[rolle]["name"], stil="split",
+             split=[{"label": "Zeit", "wert": "3 Sek.", "farbe": "GELB", "wort": "Sekunden"},
+                    {"label": "Antwort", "wert": "A · B · C", "farbe": "WEISS", "wort": frage_wort}])
+    return dict(GEMEINSAM, slot=slot, format="reel", reelTyp="klausurfalle", themaId=f"lead-test-{slot}", themaTitel=titel, zielS=29.0,
+                figuren={rolle: FIG[rolle]}, hook=h,
+                sprecher=[{"id": i, "text": t} for i, t in zip(("hook", "s1", "s2", "s3"), sprecher)] + [{"id": "cta", "text": TEST_CTA}],
+                szenen=[
+                    {"seg": "s1", "titel": "A, B oder C?", "elemente": [
+                        {"typ": "pille", "text": f"A  {optionen[0][0]}", "farbe": "WEISS", "wort": optionen[0][1]},
+                        {"typ": "pille", "text": f"B  {optionen[1][0]}", "farbe": "WEISS", "wort": optionen[1][1]},
+                        {"typ": "pille", "text": f"C  {optionen[2][0]}", "farbe": "WEISS", "wort": optionen[2][1]},
+                        {"typ": "zahl", "text": "3 … 2 … 1", "size": 110, "wort": "Drei"}],
+                     "icon": ["tabler:clock", "GELB", "Drei"], "sfx": [["rechner", "Drei", 0.6]]},
+                    {"seg": "s2", "titel": "Auflösung", "elemente": [
+                        {"typ": "block", "label": loesung[0], "wert": loesung[1], "farbe": "GRUEN", "wort": loesung[2], "zs": 110},
+                        {"typ": "norm", "text": loesung[3], "wort": loesung[4]}],
+                     "sfx": [["stempel", loesung[2], 0.6]]},
+                    {"seg": "s3", "titel": "Die Nachfrage", "elemente": [
+                        {"typ": "pille", "text": nachfrage[0], "farbe": "WEISS", "wort": nachfrage[1]},
+                        {"typ": "block", "label": "Und hier", "wert": "fallen viele", "farbe": "ROT", "wort": nachfrage[2], "zs": 100}],
+                     "icon": ["tabler:alert-triangle", "GELB", nachfrage[2]]}],
+                merke={"seg": "cta", "zeilen": ["Hättest du es gewusst?", "Die 10 häufigsten", "Fehler als", "Gratis-PDF"],
+                       "woerter": [None, "zehn", "Fehler", "kostenlos"], "cta": "Link in der Bio", "cta_wort": "Link", "hinweis": "Aus über 400 Prüfungsprotokollen"},
+                caption=caption + "\n\nSchreib deine Antwort in die Kommentare 👇\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+                hashtags=CTA_HASH + ["#steuerberater"], quellen=quellen)
+
+
+def test_bestehen():
+    return test_reel("t1", "A", "sorge", "Teste dich: Welche Note brauchst du mündlich?",
+        {"zeilen": ["Schriftlich 4,5.", "Was brauchst du", "mündlich?"], "stempel": {"text": "Teste dich!", "wort": "Teste"}},
+        ["Teste dich, drei Sekunden: Schriftlich vier Komma fünf. Welche Note brauchst du mündlich?",
+         "A, vier. B, drei Komma acht. C, drei Komma fünf. Drei, zwei, eins.",
+         "Richtig ist B. Bestanden erst bei vier Komma eins fünf im Durchschnitt.",
+         "Kurzvortrag plus Prüfungsrunden. Eine schlechte Runde reicht."],
+        [("4,0", "vier"), ("3,8", "B"), ("3,5", "C")],
+        ("mündlich mindestens", "3,8", "Richtig", "§ 28 Abs. 1 S. 2 DVStB", "Durchschnitt"),
+        ("Kurzvortrag + Prüfungsrunden", "Kurzvortrag", "schlechte"),
+        "Teste dich: Schriftlich 4,5 – welche Note brauchst du in der Mündlichen? 🧮\n\nA) 4,0  B) 3,8  C) 3,5\n\nAuflösung: B. Bestanden ist nur, wer im Durchschnitt aus schriftlicher und mündlicher Note 4,15 nicht übersteigt (§ 28 Abs. 1 S. 2 DVStB). (4,5 + 3,8) : 2 = 4,15.",
+        ["§ 28 Abs. 1 S. 2 DVStB"], "Welche")
+
+
+def test_kleinunternehmer():
+    return test_reel("t2", "B", "skeptisch", "Teste dich: Kleinunternehmergrenze",
+        {"zeilen": ["Kleinunternehmer:", "Wie hoch ist die", "Vorjahresgrenze?"], "stempel": {"text": "Neu seit 2025!", "wort": "Teste"}},
+        ["Teste dich, drei Sekunden: Wie hoch ist die Kleinunternehmergrenze im Vorjahr?",
+         "A, zweiundzwanzigtausend. B, fünfundzwanzigtausend. C, fünfzigtausend. Drei, zwei, eins.",
+         "Richtig ist B, Paragraf neunzehn Umsatzsteuergesetz.",
+         "Nachfrage: Und im laufenden Jahr? Hunderttausend. Hier stocken viele."],
+        [("22.000 €", "zweiundzwanzigtausend"), ("25.000 €", "B"), ("50.000 €", "C")],
+        ("Vorjahresumsatz bis", "25.000 €", "Richtig", "§ 19 Abs. 1 UStG", "Paragraf"),
+        ("laufendes Jahr: 100.000 €", "laufenden", "stocken"),
+        "Teste dich: Wie hoch ist seit 2025 die Vorjahresgrenze für Kleinunternehmer? 🧾\n\nA) 22.000 €  B) 25.000 €  C) 50.000 €\n\nAuflösung: B. Vorjahresumsatz höchstens 25.000 €, im laufenden Jahr höchstens 100.000 € (§ 19 Abs. 1 UStG).",
+        ["§ 19 Abs. 1 UStG"], "Wie")
+
+
+def test_gwg():
+    return test_reel("t3", "C", "skeptisch", "Teste dich: GWG-Grenze",
+        {"zeilen": ["Geringwertiges", "Wirtschaftsgut:", "bis wie viel Euro?"], "stempel": {"text": "Teste dich!", "wort": "Teste"}},
+        ["Teste dich, drei Sekunden: Bis wann ist ein Wirtschaftsgut sofort abziehbar?",
+         "A, vierhundertzehn. B, achthundert. C, tausend Euro. Drei, zwei, eins.",
+         "Richtig ist B, netto, Paragraf sechs Einkommensteuergesetz.",
+         "Nachfrage: Und der Sammelposten? Zweihundertfünfzig bis tausend. Hier verwechseln viele."],
+        [("410 €", "vierhundertzehn"), ("800 €", "B"), ("1.000 €", "C")],
+        ("Sofortabzug bis", "800 € netto", "Richtig", "§ 6 Abs. 2 EStG", "Paragraf"),
+        ("Sammelposten: 250 bis 1.000 €", "Sammelposten", "verwechseln"),
+        "Teste dich: Bis zu welchen Anschaffungskosten ist ein GWG sofort abziehbar? 💻\n\nA) 410 €  B) 800 €  C) 1.000 €\n\nAuflösung: B – 800 € netto (§ 6 Abs. 2 EStG). Nachfrage-Klassiker: Sammelposten für Wirtschaftsgüter über 250 € bis 1.000 € (§ 6 Abs. 2a EStG).",
+        ["§ 6 Abs. 2 EStG", "§ 6 Abs. 2a EStG"], "sofort")
+
+
+def test_freibetrag_kind():
+    return test_reel("t4", "D", "skeptisch", "Teste dich: Freibetrag Kind im ErbStG",
+        {"zeilen": ["Erbschaft:", "Freibetrag", "für ein Kind?"], "stempel": {"text": "Teste dich!", "wort": "Teste"}},
+        ["Teste dich, drei Sekunden: Ein Kind erbt vom Vater. Wie hoch ist der Freibetrag?",
+         "A, zweihunderttausend. B, vierhunderttausend. C, fünfhunderttausend. Drei, zwei, eins.",
+         "Richtig ist B, Paragraf sechzehn Erbschaftsteuergesetz.",
+         "Nachfrage: Und der Ehegatte? Fünfhunderttausend. Hier verwechseln viele."],
+        [("200.000 €", "zweihunderttausend"), ("400.000 €", "B"), ("500.000 €", "C")],
+        ("Freibetrag Kind", "400.000 €", "Richtig", "§ 16 Abs. 1 Nr. 2 ErbStG", "Paragraf"),
+        ("Ehegatte: 500.000 €", "Ehegatte", "verwechseln"),
+        "Teste dich: Ein Kind erbt vom Vater – wie hoch ist der persönliche Freibetrag? 🏡\n\nA) 200.000 €  B) 400.000 €  C) 500.000 €\n\nAuflösung: B – 400.000 € (§ 16 Abs. 1 Nr. 2 ErbStG). Ehegatte: 500.000 € (§ 16 Abs. 1 Nr. 1 ErbStG).",
+        ["§ 16 Abs. 1 Nr. 1 ErbStG", "§ 16 Abs. 1 Nr. 2 ErbStG"], "Wie")
+
+
+def test_gewst_freibetrag():
+    return test_reel("t5", "E", "sorge", "Teste dich: Freibetrag Gewerbesteuer",
+        {"zeilen": ["Gewerbesteuer:", "Freibetrag für", "Einzelunternehmer?"], "stempel": {"text": "Teste dich!", "wort": "Teste"}},
+        ["Teste dich, drei Sekunden: Gewerbesteuer-Freibetrag beim Einzelunternehmer?",
+         "A, vierundzwanzigtausendfünfhundert. B, fünftausend. C, keiner. Drei, zwei, eins.",
+         "Richtig ist A, Paragraf elf Gewerbesteuergesetz.",
+         "Nachfrage: Und bei der GmbH? Keiner. Genau hier patzen viele."],
+        [("24.500 €", "vierundzwanzigtausendfünfhundert"), ("5.000 €", "B"), ("keiner", "C")],
+        ("Freibetrag", "24.500 €", "Richtig", "§ 11 Abs. 1 S. 3 Nr. 1 GewStG", "Paragraf"),
+        ("GmbH: kein Freibetrag", "GmbH", "patzen"),
+        "Teste dich: Wie hoch ist der Freibetrag beim Gewerbeertrag eines Einzelunternehmers? 🏪\n\nA) 24.500 €  B) 5.000 €  C) keiner\n\nAuflösung: A – 24.500 € für natürliche Personen und Personengesellschaften (§ 11 Abs. 1 S. 3 Nr. 1 GewStG). Kapitalgesellschaften erhalten keinen Freibetrag.",
+        ["§ 11 Abs. 1 S. 3 Nr. 1 GewStG"], "Einzelunternehmer")
+
+
+REELS += [test_bestehen, test_kleinunternehmer, test_gwg, test_freibetrag_kind, test_gewst_freibetrag]
+
+
+def test_gbr_vermoegen():
+    """Juristische Prüfungsfrage mit Schreckmoment: Vermögen der GbR nach dem MoPeG (seit 1.1.2024)."""
+    b = test_reel("t6", "H", "skeptisch", "Teste dich: Wem gehört das Grundstück der GbR?",
+        {"zeilen": ["Wem gehört das", "Grundstück", "der GbR?"], "stempel": {"text": "Neu seit 2024!", "wort": "Grundstück"}},
+        ["Drei Sekunden: Wem gehört das Grundstück einer GbR?",
+         "A, den Gesellschaftern. B, der GbR. C, dem Geschäftsführer. Drei, zwei, eins.",
+         "Richtig ist B. Die Gesamthand ist seit zweitausendvierundzwanzig abgeschafft.",
+         "Und vor dem Kauf? Ins Gesellschaftsregister. Hier scheitern viele."],
+        [("Gesellschafter (Gesamthand)", "Gesellschaftern"), ("die GbR selbst", "B"), ("der Geschäftsführer", "C")],
+        ("Eigentümerin ist", "die GbR selbst", "Richtig", "§ 713 BGB", "Gesamthand"),
+        ("vorher ins Gesellschaftsregister", "Gesellschaftsregister", "scheitern"),
+        "Teste dich: Eine GbR besitzt ein Grundstück – wem gehört es? 🏛️\n\nA) den Gesellschaftern zur gesamten Hand  B) der GbR selbst  C) dem Geschäftsführer\n\n"
+        "Auflösung: B. Seit dem MoPeG (1.1.2024) ist das Vermögen Vermögen der Gesellschaft (§ 713 BGB) – die Gesamthand ist Geschichte. "
+        "Und die Prüfer-Nachfrage: Ein Grundstück wird für eine GbR nur eingetragen, wenn sie im Gesellschaftsregister steht (§ 47 Abs. 2 GBO, § 707 BGB).\n\n"
+        "Wer hier noch mit „Gesamthand“ antwortet, verliert in der Mündlichen sofort Punkte.",
+        ["§ 713 BGB", "§ 707 BGB", "§ 47 Abs. 2 GBO"], "Wem")
+    b["fachLabel"] = "Mündliche · Zivilrecht"
+    return b
+
+
+REELS += [test_gbr_vermoegen]
