@@ -597,3 +597,26 @@ def test_gewst_freibetrag():
 
 
 REELS += [test_bestehen, test_kleinunternehmer, test_gwg, test_freibetrag_kind, test_gewst_freibetrag]
+
+
+def test_gbr_vermoegen():
+    """Juristische Prüfungsfrage mit Schreckmoment: Vermögen der GbR nach dem MoPeG (seit 1.1.2024)."""
+    b = test_reel("t6", "H", "skeptisch", "Teste dich: Wem gehört das Grundstück der GbR?",
+        {"zeilen": ["Wem gehört das", "Grundstück", "der GbR?"], "stempel": {"text": "Neu seit 2024!", "wort": "Grundstück"}},
+        ["Drei Sekunden: Wem gehört das Grundstück einer GbR?",
+         "A, den Gesellschaftern. B, der GbR. C, dem Geschäftsführer. Drei, zwei, eins.",
+         "Richtig ist B. Die Gesamthand ist seit zweitausendvierundzwanzig abgeschafft.",
+         "Und vor dem Kauf? Ins Gesellschaftsregister. Hier scheitern viele."],
+        [("Gesellschafter (Gesamthand)", "Gesellschaftern"), ("die GbR selbst", "B"), ("der Geschäftsführer", "C")],
+        ("Eigentümerin ist", "die GbR selbst", "Richtig", "§ 713 BGB", "Gesamthand"),
+        ("vorher ins Gesellschaftsregister", "Gesellschaftsregister", "scheitern"),
+        "Teste dich: Eine GbR besitzt ein Grundstück – wem gehört es? 🏛️\n\nA) den Gesellschaftern zur gesamten Hand  B) der GbR selbst  C) dem Geschäftsführer\n\n"
+        "Auflösung: B. Seit dem MoPeG (1.1.2024) ist das Vermögen Vermögen der Gesellschaft (§ 713 BGB) – die Gesamthand ist Geschichte. "
+        "Und die Prüfer-Nachfrage: Ein Grundstück wird für eine GbR nur eingetragen, wenn sie im Gesellschaftsregister steht (§ 47 Abs. 2 GBO, § 707 BGB).\n\n"
+        "Wer hier noch mit „Gesamthand“ antwortet, verliert in der Mündlichen sofort Punkte.",
+        ["§ 713 BGB", "§ 707 BGB", "§ 47 Abs. 2 GBO"], "Wem")
+    b["fachLabel"] = "Mündliche · Zivilrecht"
+    return b
+
+
+REELS += [test_gbr_vermoegen]
