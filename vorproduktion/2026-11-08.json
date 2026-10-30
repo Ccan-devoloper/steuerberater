@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r12",
-        "themaTitel": "Den Kurzvortrag verschenken",
+        "themaId": "lead-zr-z9",
+        "themaTitel": "Kommanditist haftet unbeschränkt?",
         "fach": null,
         "klausur": 0
       }
@@ -331,27 +331,30 @@
         "Nettomethode: Die KG zeigt nur den Buchwert. Gleiche Kapitalkonten entstehen über Ergänzungsbilanzen.",
         "Merke: Gesamthand plus Ergänzungsbilanz ergibt den Buchwert."
       ],
-      "dauerS": 38.285,
+      "dauerS": 38.053,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r12",
-      "caption": "Fehler Nr. 10 der Mündlichen: den Kurzvortrag verschenken. 🎤\n\nDrei Themen zur Wahl, eine halbe Stunde vor Prüfungsbeginn (§ 26 Abs. 6 DVStB). Viele bereuen hinterher ihre Themenwahl – welches Thema du nehmen solltest und wie du es vorträgst, steht im PDF.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z9",
+      "caption": "Ein Kommanditist haftet unbeschränkt? Kann passieren. ⚠️\n\nGrundsatz: Haftung nur bis zur Höhe der Einlage (§ 171 Abs. 1 HGB). Beginnt die KG ihre Geschäfte vor der Eintragung mit Zustimmung des Kommanditisten, haftet er für die bis zur Eintragung begründeten Verbindlichkeiten wie ein Komplementär – es sei denn, der Gläubiger kannte seine Beteiligung als Kommanditist (§ 176 Abs. 1 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 26 Abs. 6 DVStB"
+        "§ 171 Abs. 1 HGB",
+        "§ 176 Abs. 1 HGB"
       ],
       "slug": "2026-11-08-m1",
-      "kurztitel": "Den Kurzvortrag verschenken",
+      "kurztitel": "Kommanditist haftet unbeschränkt?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -363,35 +366,35 @@
       "liveVorrangAktiv": true,
       "bild": "op-cover",
       "reelTyp": "klausurfalle",
-      "hookStil": "split",
+      "hookStil": "knall",
       "coverBadge": "Reel",
       "szenen": [
         {
           "art": "hook",
-          "titel": "Drei Themen, eine halbe Stunde."
+          "titel": "Kommanditist haftet unbeschränkt?"
         },
         {
           "art": "schritt",
-          "titel": "Die Regel"
+          "titel": "Normal"
         },
         {
           "art": "schritt",
-          "titel": "Die Wahl"
+          "titel": "Vor Eintragung"
         },
         {
           "art": "schritt",
-          "titel": "Platz 10"
+          "titel": "Ausnahme"
         }
       ],
       "sprecher": [
-        "Drei Themen, eine halbe Stunde Vorbereitung. Der Kurzvortrag ist purer Zeitdruck.",
-        "Die drei Themen bekommst du eine halbe Stunde vor Prüfungsbeginn.",
-        "Und viele bereuen hinterher ihre Themenwahl.",
-        "Den Vortrag verschenken ist Platz zehn der häufigsten Fehler.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Ein Kommanditist haftet unbeschränkt? Ja, das ist möglich.",
+        "Normal haftet er nur bis zur Höhe seiner Einlage.",
+        "Aber: Beginnt die KG ihre Geschäfte vor der Eintragung, und er stimmt zu, haftet er für diese Schulden unbeschränkt.",
+        "Außer der Gläubiger wusste, dass er nur Kommanditist ist.",
+        "Wer das nicht weiß, verliert Punkte. Die zehn häufigsten Fehler: kostenlos, Link in der Bio."
       ],
-      "dauerS": 25.645,
-      "tempo": 1.0
+      "dauerS": 27.346,
+      "tempo": 1.02
     },
     "s4": {
       "slot": "s4",
@@ -764,7 +767,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -775,7 +778,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Kurzvortrag",
         "verschenkt? Nicht mit dir",
@@ -791,7 +794,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:59:51Z",
+    "erzeugtAm": "2026-10-30T21:52:37Z",
     "pfad": "vorproduktion/2026-11-08/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
