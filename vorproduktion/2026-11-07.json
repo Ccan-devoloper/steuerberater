@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r11",
-        "themaTitel": "Eine schlechte Runde mitnehmen",
+        "themaId": "lead-zr-z8",
+        "themaTitel": "Teste dich: Testament am PC geschrieben",
         "fach": null,
         "klausur": 0
       }
@@ -329,28 +329,30 @@
         "Übrig bleiben vor allem Grundstücke binnen zehn Jahren und andere Gegenstände binnen eines Jahres.",
         "Merke: Erst siebzehn und zwanzig, dreiundzwanzig zuletzt."
       ],
-      "dauerS": 37.506,
+      "dauerS": 36.88,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r11",
-      "caption": "Fehler Nr. 9 der Mündlichen: eine schlechte Runde mitnehmen. 😮‍💨\n\nVortrag und jeder Prüfungsabschnitt werden gesondert bewertet (§ 27 Abs. 1 DVStB); am Ende zählt der Durchschnitt aus schriftlicher und mündlicher Gesamtnote (§ 28 Abs. 1 S. 2 DVStB). Jede Runde ist eine neue Chance.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z8",
+      "caption": "Teste dich: Testament am PC getippt, aber eigenhändig unterschrieben – wirksam? 📝\n\nA) ja  B) nur mit Datum  C) nein\n\nAuflösung: C. Das eigenhändige Testament muss vollständig eigenhändig geschrieben und unterschrieben sein (§ 2247 Abs. 1 BGB). Gemeinschaftliches Ehegattentestament: Es genügt, wenn ein Ehegatte es eigenhändig schreibt und beide unterschreiben (§ 2267 BGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "§ 27 Abs. 1 DVStB",
-        "§ 28 Abs. 1 S. 2 DVStB"
+        "§ 2247 Abs. 1 BGB",
+        "§ 2267 BGB"
       ],
       "slug": "2026-11-07-m1",
-      "kurztitel": "Eine schlechte Runde mitnehmen",
+      "kurztitel": "Teste dich: Testament am PC geschrieben",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -367,30 +369,30 @@
       "szenen": [
         {
           "art": "hook",
-          "titel": "Runde verhauen. Alles vorbei?"
+          "titel": "Testament am PC, eigenhändig unterschrieben?"
         },
         {
           "art": "schritt",
-          "titel": "Gesondert bewertet"
+          "titel": "A, B oder C?"
         },
         {
           "art": "schritt",
-          "titel": "Am Ende"
+          "titel": "Auflösung"
         },
         {
           "art": "schritt",
-          "titel": "Platz 9"
+          "titel": "Die Nachfrage"
         }
       ],
       "sprecher": [
-        "Eine Runde verhauen. Ist jetzt alles vorbei? Nein.",
-        "Der Vortrag und jede Runde werden gesondert bewertet.",
-        "Am Ende zählt der Durchschnitt. Jede neue Runde ist eine neue Chance.",
-        "Eine schlechte Runde mitnehmen ist Platz neun der häufigsten Fehler.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Drei Sekunden: Testament am Computer, eigenhändig unterschrieben. Wirksam?",
+        "A, ja. B, nur mit Datum. C, nein. Drei, zwei, eins.",
+        "Richtig ist C. Es muss komplett handgeschrieben sein.",
+        "Und beim Ehegattentestament? Einer schreibt, beide unterschreiben.",
+        "Schick das deinem Lernpartner. Und hol dir die zehn häufigsten Fehler, kostenlos, Link in der Bio."
       ],
-      "dauerS": 26.507,
-      "tempo": 1.0
+      "dauerS": 26.64,
+      "tempo": 1.12
     },
     "s4": {
       "slot": "s4",
@@ -762,7 +764,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -773,7 +775,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "Runde verhauen?",
         "So rettest du den Tag",
@@ -789,7 +791,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:59:00Z",
+    "erzeugtAm": "2026-10-30T21:50:55Z",
     "pfad": "vorproduktion/2026-11-07/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
