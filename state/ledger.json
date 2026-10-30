@@ -17172,6 +17172,20 @@
         "#examensvorbereitung",
         "#abgabenordnung"
       ]
+    },
+    {
+      "datum": "2026-10-30",
+      "slot": "s1",
+      "medienId": "18206669389373547",
+      "veroeffentlicht": "2026-10-30T07:30:17.296Z",
+      "quelle": "vorproduktion",
+      "art": "story",
+      "storyArt": "teaser",
+      "thema": null,
+      "fach": "ao",
+      "titel": [
+        "Bescheid falsch: was nun?"
+      ]
     }
   ],
   "fachZaehler": {
