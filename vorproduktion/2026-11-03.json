@@ -50,8 +50,8 @@
         "slot": "m1",
         "zeit": "19:00",
         "format": "reel",
-        "themaId": "lead-reel-r7",
-        "themaTitel": "Randgebiete vernachlässigen",
+        "themaId": "lead-zr-z4",
+        "themaTitel": "Darf der Prokurist das Grundstück verkaufen?",
         "fach": null,
         "klausur": 0
       }
@@ -339,27 +339,31 @@
         "Wird geändert, saldiert Paragraf hundertsiebenundsiebzig andere Fehler mit, aber nur im Rahmen der Änderung.",
         "Merke: Einspruch vor Änderungsnorm, Saldierung zuletzt."
       ],
-      "dauerS": 35.512,
+      "dauerS": 35.067,
       "tempo": 1.0
     },
     "m1": {
       "format": "reel",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
-      "themaId": "lead-reel-r7",
-      "caption": "Fehler Nr. 5 der Mündlichen: Randgebiete vernachlässigen. 🇪🇺\n\nDie Organe der EU nach Art. 13 Abs. 1 EUV: Europäisches Parlament, Europäischer Rat, Rat, Europäische Kommission, Gerichtshof der EU, Europäische Zentralbank und Rechnungshof.\n\nWie du ihn in der Prüfung sicher vermeidest – mit Prüfungsszene, Merksatz und Checkliste – steht im Gratis-PDF „Die 10 größten Fehler in der Mündlichen“, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
+      "fachLabel": "Mündliche · Zivilrecht",
+      "themaId": "lead-zr-z4",
+      "caption": "Prokurist verkauft das Firmengrundstück – geht das? 🏢\n\nDie Prokura ermächtigt zu allen Geschäften, die der Betrieb eines Handelsgewerbes mit sich bringt (§ 49 Abs. 1 HGB). Grundstücke veräußern und belasten nur mit besonderer Befugnis (§ 49 Abs. 2 HGB). Beschränkungen im Innenverhältnis sind Dritten gegenüber unwirksam (§ 50 Abs. 1 HGB).\n\nSchreib deine Antwort in die Kommentare 👇 und schick das Reel deinem Lernpartner.\n\nDie 10 häufigsten Fehler der Mündlichen – mit Prüfungsszenen und Lösungen – als Gratis-PDF, ausgewertet aus über 400 Prüfungsprotokollen. 👉 Link in der Bio",
       "hashtags": [
         "#steuerberaterprüfung",
         "#steuerberaterexamen",
         "#mündlicheprüfung",
-        "#examensvorbereitung"
+        "#examensvorbereitung",
+        "#zivilrecht",
+        "#steuerberater"
       ],
       "quellen": [
-        "Art. 13 Abs. 1 EUV"
+        "§ 49 Abs. 1 HGB",
+        "§ 49 Abs. 2 HGB",
+        "§ 50 Abs. 1 HGB"
       ],
       "slug": "2026-11-03-m1",
-      "kurztitel": "Randgebiete vernachlässigen",
+      "kurztitel": "Darf der Prokurist das Grundstück verkaufen?",
       "regelGeprueft": true,
       "manuellGeprueft": false,
       "freigabeBetreiber": true,
@@ -376,29 +380,29 @@
       "szenen": [
         {
           "art": "hook",
-          "titel": "Welche EU-Organe kennst du?"
+          "titel": "Prokurist verkauft Firmengrundstück."
         },
         {
           "art": "schritt",
-          "titel": "Platz 5"
+          "titel": "Grundsatz"
         },
         {
           "art": "schritt",
-          "titel": "Die Organe"
+          "titel": "Ausnahme"
         },
         {
           "art": "schritt",
-          "titel": "… und weiter"
+          "titel": "Nachfrage"
         }
       ],
       "sprecher": [
-        "Welche Organe der EU kennst du? Viele nennen zwei. Richtig sind sieben. Ein typisches Randgebiet.",
-        "Randgebiete wie Europarecht sind Platz fünf der häufigsten Fehler.",
-        "Parlament, Europäischer Rat, der Rat, Kommission,",
-        "Gerichtshof, Zentralbank und Rechnungshof. Artikel dreizehn des EU-Vertrags.",
-        "Wie du ihn sicher vermeidest, mit Prüfungsszene, Merksatz und Checkliste, gibt es kostenlos. Link in der Bio."
+        "Prokurist verkauft das Firmengrundstück. Darf er das?",
+        "Die Prokura ist weit. Sie deckt fast alle Geschäfte eines Handelsgewerbes.",
+        "Aber: Grundstücke veräußern oder belasten darf er nur mit besonderer Befugnis.",
+        "Und Beschränkungen im Innenverhältnis? Gelten gegenüber Dritten nicht.",
+        "Die zehn häufigsten Fehler der Mündlichen: kostenlos, Link in der Bio."
       ],
-      "dauerS": 32.537,
+      "dauerS": 25.704,
       "tempo": 1.0
     },
     "s4": {
@@ -764,7 +768,7 @@
       "art": "teaser",
       "fach": null,
       "klausur": 0,
-      "fachLabel": "Mündliche Prüfung",
+      "fachLabel": "Mündliche · Zivilrecht",
       "themaId": null,
       "beitragSlot": "m1",
       "quellen": null,
@@ -775,7 +779,7 @@
       ],
       "unter": "Gratis-PDF mit allen 10 Fehlern: Link in Bio",
       "sichtbareTexte": [
-        "Mündliche Prüfung",
+        "Mündliche · Zivilrecht",
         "Neues Reel",
         "„Kommt eh nicht dran“",
         "– bis es drankommt",
@@ -791,7 +795,7 @@
   },
   "renderVorschau": {
     "status": "fertig",
-    "erzeugtAm": "2026-10-27T11:55:51Z",
+    "erzeugtAm": "2026-10-30T21:44:17Z",
     "pfad": "vorproduktion/2026-11-03/fertig",
     "providerKostenUsd": 0,
     "coverbilder": false,
