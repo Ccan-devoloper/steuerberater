@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-30T18:46:43.147Z",
+  "stand": "2026-10-30T19:46:10.737Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -52719,6 +52719,18 @@
           "total_interactions": 2,
           "follows": 0,
           "profile_visits": 0
+        },
+        {
+          "stand": "2026-10-30T19:46:08.437Z",
+          "alterStunden": 12.3,
+          "reach": 110,
+          "saved": 1,
+          "shares": 1,
+          "likes": 2,
+          "comments": 0,
+          "total_interactions": 4,
+          "follows": 0,
+          "profile_visits": 0
         }
       ]
     },
@@ -52951,6 +52963,20 @@
           "ig_reels_avg_watch_time": 9688,
           "ig_reels_video_view_total_time": 1085126,
           "reels_skip_rate": 49.6
+        },
+        {
+          "stand": "2026-10-30T19:46:08.437Z",
+          "alterStunden": 3.3,
+          "reach": 186,
+          "saved": 3,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 3,
+          "views": 256,
+          "ig_reels_avg_watch_time": 9468,
+          "ig_reels_video_view_total_time": 1761173,
+          "reels_skip_rate": 56.5
         }
       ]
     },
@@ -52977,6 +53003,100 @@
           "ig_reels_avg_watch_time": 10192,
           "ig_reels_video_view_total_time": 1121132,
           "reels_skip_rate": 15.6
+        }
+      ]
+    },
+    "18135467089680930": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": [
+        "Anteil verschenkt"
+      ],
+      "format": null,
+      "fach": "persg",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T18:00:23.724Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T19:46:03.180Z",
+          "alterStunden": 1.8,
+          "reach": 29,
+          "views": 44,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 30,
+          "navigation_tap_exit": 2,
+          "navigation_tap_forward": 26,
+          "navigation_swipe_forward": 2
+        }
+      ]
+    },
+    "18140081926625515": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": [
+        "Fehler Nr. 1:",
+        "in jedem 2. Protokoll"
+      ],
+      "format": null,
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T18:00:36.603Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T19:46:03.180Z",
+          "alterStunden": 1.8,
+          "reach": 27,
+          "views": 41,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 32,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 24,
+          "navigation_tap_exit": 4
+        }
+      ]
+    },
+    "17998620057046636": {
+      "art": "story",
+      "datum": "2026-10-30",
+      "titel": [
+        "GmbH wird KG:",
+        "Schlussbilanz"
+      ],
+      "format": null,
+      "fach": "umwst",
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T18:12:04.549Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T19:46:03.180Z",
+          "alterStunden": 1.6,
+          "reach": 24,
+          "views": 35,
+          "shares": 0,
+          "total_interactions": 0,
+          "replies": 0,
+          "follows": 0,
+          "profile_visits": 0,
+          "profile_activity": 0,
+          "navigation": 27,
+          "navigation_swipe_forward": 1,
+          "navigation_tap_back": 3,
+          "navigation_tap_forward": 18,
+          "navigation_tap_exit": 5
         }
       ]
     }
@@ -55885,6 +56005,11 @@
     {
       "stand": "2026-10-30T18:00:42.646Z",
       "follower": 308,
+      "medien": 170
+    },
+    {
+      "stand": "2026-10-30T19:46:10.737Z",
+      "follower": 320,
       "medien": 170
     }
   ]

@@ -17207,17 +17207,17 @@
         "#abgabenordnung"
       ],
       "insights": {
-        "reach": 92,
+        "reach": 110,
         "saved": 1,
-        "shares": 0,
-        "likes": 1,
+        "shares": 1,
+        "likes": 2,
         "comments": 0,
-        "total_interactions": 2,
+        "total_interactions": 4,
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-30T15:47:23.679Z",
-      "insightsAlterStunden": 8.3
+      "insightsStand": "2026-10-30T19:46:08.437Z",
+      "insightsAlterStunden": 12.3
     },
     {
       "datum": "2026-10-30",
@@ -17431,19 +17431,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 112,
+        "reach": 186,
         "saved": 3,
         "shares": 0,
         "likes": 0,
         "comments": 0,
         "total_interactions": 3,
-        "views": 194,
-        "ig_reels_avg_watch_time": 9688,
-        "ig_reels_video_view_total_time": 1085126,
-        "reels_skip_rate": 49.6
+        "views": 256,
+        "ig_reels_avg_watch_time": 9468,
+        "ig_reels_video_view_total_time": 1761173,
+        "reels_skip_rate": 56.5
       },
-      "insightsStand": "2026-10-30T18:00:39.113Z",
-      "insightsAlterStunden": 1.5
+      "insightsStand": "2026-10-30T19:46:08.437Z",
+      "insightsAlterStunden": 3.3
     },
     {
       "datum": "2026-10-30",
@@ -17494,7 +17494,23 @@
       "fach": "persg",
       "titel": [
         "Anteil verschenkt"
-      ]
+      ],
+      "insights": {
+        "reach": 29,
+        "views": 44,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 30,
+        "navigation_tap_exit": 2,
+        "navigation_tap_forward": 26,
+        "navigation_swipe_forward": 2
+      },
+      "insightsStand": "2026-10-30T19:46:03.180Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-30",
@@ -17509,7 +17525,24 @@
       "titel": [
         "Fehler Nr. 1:",
         "in jedem 2. Protokoll"
-      ]
+      ],
+      "insights": {
+        "reach": 27,
+        "views": 41,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 32,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 24,
+        "navigation_tap_exit": 4
+      },
+      "insightsStand": "2026-10-30T19:46:03.180Z",
+      "insightsAlterStunden": 1.8
     },
     {
       "datum": "2026-10-30",
@@ -17524,7 +17557,24 @@
       "titel": [
         "GmbH wird KG:",
         "Schlussbilanz"
-      ]
+      ],
+      "insights": {
+        "reach": 24,
+        "views": 35,
+        "shares": 0,
+        "total_interactions": 0,
+        "replies": 0,
+        "follows": 0,
+        "profile_visits": 0,
+        "profile_activity": 0,
+        "navigation": 27,
+        "navigation_swipe_forward": 1,
+        "navigation_tap_back": 3,
+        "navigation_tap_forward": 18,
+        "navigation_tap_exit": 5
+      },
+      "insightsStand": "2026-10-30T19:46:03.180Z",
+      "insightsAlterStunden": 1.6
     }
   ],
   "fachZaehler": {
