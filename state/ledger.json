@@ -16950,17 +16950,17 @@
         "#examensvorbereitung"
       ],
       "insights": {
-        "reach": 103,
+        "reach": 118,
         "saved": 0,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 0,
+        "total_interactions": 1,
         "follows": 0,
         "profile_visits": 5
       },
-      "insightsStand": "2026-10-30T12:47:50.456Z",
-      "insightsAlterStunden": 21.8
+      "insightsStand": "2026-10-30T21:44:20.050Z",
+      "insightsAlterStunden": 30.7
     },
     {
       "datum": "2026-10-29",
@@ -17233,22 +17233,22 @@
         "Bescheid falsch: was nun?"
       ],
       "insights": {
-        "reach": 57,
-        "views": 76,
+        "reach": 84,
+        "views": 109,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 4,
         "profile_activity": 0,
-        "navigation": 63,
-        "navigation_tap_back": 2,
-        "navigation_swipe_forward": 5,
-        "navigation_tap_exit": 6,
-        "navigation_tap_forward": 50
+        "navigation": 90,
+        "navigation_tap_back": 3,
+        "navigation_swipe_forward": 7,
+        "navigation_tap_exit": 9,
+        "navigation_tap_forward": 71
       },
-      "insightsStand": "2026-10-30T17:14:13.065Z",
-      "insightsAlterStunden": 9.7
+      "insightsStand": "2026-10-30T21:44:16.827Z",
+      "insightsAlterStunden": 14.2
     },
     {
       "datum": "2026-10-30",
@@ -17304,7 +17304,7 @@
         "#körperschaftsteuer"
       ],
       "insights": {
-        "reach": 64,
+        "reach": 81,
         "saved": 2,
         "shares": 0,
         "likes": 2,
@@ -17313,8 +17313,8 @@
         "follows": 0,
         "profile_visits": 0
       },
-      "insightsStand": "2026-10-30T18:00:39.113Z",
-      "insightsAlterStunden": 5.5
+      "insightsStand": "2026-10-30T21:44:20.050Z",
+      "insightsAlterStunden": 9.2
     },
     {
       "datum": "2026-10-30",
@@ -17394,21 +17394,22 @@
         "Bilanz zurückholen"
       ],
       "insights": {
-        "reach": 21,
-        "views": 25,
+        "reach": 65,
+        "views": 84,
         "shares": 0,
         "total_interactions": 0,
         "replies": 0,
         "follows": 0,
         "profile_visits": 0,
         "profile_activity": 0,
-        "navigation": 21,
-        "navigation_tap_exit": 4,
-        "navigation_tap_forward": 16,
-        "navigation_swipe_forward": 1
+        "navigation": 75,
+        "navigation_tap_exit": 7,
+        "navigation_tap_forward": 58,
+        "navigation_swipe_forward": 3,
+        "navigation_tap_back": 7
       },
-      "insightsStand": "2026-10-30T17:14:13.065Z",
-      "insightsAlterStunden": 1.2
+      "insightsStand": "2026-10-30T21:44:16.827Z",
+      "insightsAlterStunden": 5.7
     },
     {
       "datum": "2026-10-30",
@@ -17432,19 +17433,19 @@
         "#personengesellschaften"
       ],
       "insights": {
-        "reach": 186,
+        "reach": 239,
         "saved": 3,
         "shares": 0,
-        "likes": 0,
+        "likes": 1,
         "comments": 0,
-        "total_interactions": 3,
-        "views": 256,
-        "ig_reels_avg_watch_time": 9468,
-        "ig_reels_video_view_total_time": 1761173,
-        "reels_skip_rate": 56.5
+        "total_interactions": 4,
+        "views": 335,
+        "ig_reels_avg_watch_time": 9480,
+        "ig_reels_video_view_total_time": 2294211,
+        "reels_skip_rate": 57
       },
-      "insightsStand": "2026-10-30T19:46:08.437Z",
-      "insightsAlterStunden": 3.3
+      "insightsStand": "2026-10-30T21:44:20.050Z",
+      "insightsAlterStunden": 5.2
     },
     {
       "datum": "2026-10-30",
