@@ -17466,7 +17466,21 @@
         "#mündlicheprüfung",
         "#examensvorbereitung",
         "#steuerberater"
-      ]
+      ],
+      "insights": {
+        "reach": 36,
+        "saved": 2,
+        "shares": 0,
+        "likes": 0,
+        "comments": 0,
+        "total_interactions": 2,
+        "views": 188,
+        "ig_reels_avg_watch_time": 10192,
+        "ig_reels_video_view_total_time": 1121132,
+        "reels_skip_rate": 15.6
+      },
+      "insightsStand": "2026-10-30T18:46:43.147Z",
+      "insightsAlterStunden": 0.8
     },
     {
       "datum": "2026-10-30",

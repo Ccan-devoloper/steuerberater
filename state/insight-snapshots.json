@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "stand": "2026-10-30T18:00:42.646Z",
+  "stand": "2026-10-30T18:46:43.147Z",
   "medien": {
     "18093399314208242": {
       "art": "beitrag",
@@ -52951,6 +52951,32 @@
           "ig_reels_avg_watch_time": 9688,
           "ig_reels_video_view_total_time": 1085126,
           "reels_skip_rate": 49.6
+        }
+      ]
+    },
+    "17941377525386064": {
+      "art": "beitrag",
+      "datum": "2026-10-30",
+      "titel": "Teste dich: Wem gehört das Grundstück der GbR?",
+      "format": "reel",
+      "fach": null,
+      "hook": null,
+      "dauer": null,
+      "veroeffentlicht": "2026-10-30T18:00:11.425Z",
+      "snapshots": [
+        {
+          "stand": "2026-10-30T18:46:43.147Z",
+          "alterStunden": 0.8,
+          "reach": 36,
+          "saved": 2,
+          "shares": 0,
+          "likes": 0,
+          "comments": 0,
+          "total_interactions": 2,
+          "views": 188,
+          "ig_reels_avg_watch_time": 10192,
+          "ig_reels_video_view_total_time": 1121132,
+          "reels_skip_rate": 15.6
         }
       ]
     }
